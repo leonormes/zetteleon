@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../otherpeoplesdots/obsidian-tasks"
+		},
+		{
+			"path": "../../../Fitfile/FFExampleCode/obsidian-help/en"
+		},
+		{
+			"path": "../../../otherpeoplesdots/obsidian-todoist-context-bridge"
+		},
+		{
+			"path": "../../../otherpeoplesdots/obsidian-smart-connections"
+		},
+		{
+			"path": "../../../otherpeoplesdots/obsidian-dataview"
+		}
+	],
+	"settings": {}
+}

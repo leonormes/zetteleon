@@ -1,0 +1,64 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      or:
+        - type == "map"
+        - type == "MOC"
+        - type == "moc"
+        - file.name.contains("MOC")
+        - type == "index"
+    order:
+      - file.name
+      - type
+      - epistemic
+      - tags
+    sort:
+      - property: type
+        direction: ASC
+    columnSize:
+      file.name: 502
+      note.epistemic: 172
+  - type: list
+    name: Recently Updated
+    filters:
+      and:
+        - or:
+            - type == "map"
+            - type == "MOC"
+            - type == "moc"
+        - file.mtime > now() - "30 days"
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: table
+    name: Stale MOCs
+    filters:
+      and:
+        - or:
+            - type == "map"
+            - type == "MOC"
+            - type == "moc"
+        - file.mtime < now() - "6 months"
+    order:
+      - file.name
+      - file.mtime
+      - status
+    sort:
+      - property: file.mtime
+        direction: ASC
+  - type: cards
+    name: MOCs as Cards
+    filters:
+      or:
+        - type == "map"
+        - type == "MOC"
+        - type == "moc"
+    order:
+      - file.name
+      - status
+      - purpose
+      - tags

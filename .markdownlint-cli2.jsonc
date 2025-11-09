@@ -1,0 +1,84 @@
+{
+  // CLI2 config + markdownlint rules in one place
+  // Schema helps with editor IntelliSense (optional)
+  "$schema": "https://raw.githubusercontent.com/DavidAnson/markdownlint-cli2/main/markdownlint-cli2-schema.jsonc",
+
+  // Scan everything in the vault except tool/metadata dirs and common asset folders
+  "globs": [
+    "**/*.md",
+    "!**/.obsidian/**",
+    "!**/.git/**",
+    "!**/node_modules/**",
+    "!**/.trash/**",
+    "!**/.history/**",
+    "!**/attachments/**",
+    "!**/assets/**",
+    "!**/000_inbox/journals/**",
+    "!**/templates/**",
+    "!**/210_productivity/ProdOS/**",
+    "!**/Excalidraw/**",
+    "!**/Readwise/**",
+    "!100_zettelkasten/Question for Bessie about her learning.md"
+  ],
+
+  // markdownlint rule configuration aligned with Obsidian Linter
+  "config": {
+    "default": true,
+
+    // Headings - aligned with Obsidian Linter "capitalize-headings" and ATX style
+    "MD003": { "style": "atx" },               // heading style: ATX (#)
+    "MD018": true,                             // no space after hash on atx style heading
+    "MD019": true,                             // multiple spaces after hash on atx style heading
+    "MD022": false,                            // headings should be surrounded by blank lines - disabled to match Obsidian
+    "MD025": false,                            // allow no/any number of H1s - Obsidian friendly
+    "MD026": { "punctuation": ".,;:!?。，；：！？" }, // allow common punctuation in headings
+    "MD043": false,                            // required heading structure - disabled for flexibility
+
+    // Lists - aligned with Obsidian Linter unordered/ordered list settings  
+    "MD004": { "style": "dash" },              // unordered list marker: - (matches Obsidian Linter)
+    "MD005": true,                             // inconsistent indentation for list items at the same level
+    "MD006": true,                             // consider starting bulleted lists at the beginning of the line
+    "MD007": { "indent": 2 },                  // list indent: 2 spaces (matches common Obsidian style)
+    "MD029": { "style": "ordered" },           // ordered lists: ascending style (matches Obsidian Linter)
+    "MD030": { "ul_single": 1, "ol_single": 1, "ul_multi": 1, "ol_multi": 1 }, // 1 space after list markers
+
+    // Spacing and whitespace - aligned with Obsidian Linter spacing rules
+    "MD009": { "br_spaces": 2, "strict": false }, // keep 2-space hard breaks, trim otherwise (matches trailing-spaces rule)
+    "MD010": true,                             // hard tabs - convert to spaces
+    "MD012": { "maximum": 1 },                 // no multiple consecutive blank lines (matches consecutive-blank-lines)
+    "MD027": true,                             // multiple spaces after blockquote symbol
+    "MD028": true,                             // blank line inside blockquote
+    "MD031": true,                             // fenced code blocks should be surrounded by blank lines
+    "MD032": true,                             // lists should be surrounded by blank lines  
+    "MD047": true,                             // files should end with a newline (matches line-break-at-document-end)
+
+    // Code blocks - aligned with Obsidian Linter code fence settings
+    "MD040": true,                             // fenced code blocks should have a language specified
+    "MD046": { "style": "fenced" },            // code block style: fenced (matches default-language-for-code-fences)
+    "MD048": { "style": "backtick" },          // code fence style: backticks
+
+    // Emphasis and strong - aligned with Obsidian Linter emphasis/strong style
+    "MD049": { "style": "asterisk" },          // emphasis style: * (matches emphasis-style and strong-style)
+    "MD050": { "style": "asterisk" },          // strong style: ** (matches strong-style)
+
+    // Links and URLs - aligned with Obsidian Linter no-bare-urls
+    "MD034": true,                             // bare URL used (matches no-bare-urls setting)
+    "MD039": true,                             // spaces inside link text
+    "MD042": true,                             // no empty links
+
+    // Horizontal rules
+    "MD035": { "style": "---" },               // horizontal rule style: ---
+
+    // Line length - disabled to match Obsidian's visual wrapping approach  
+    "MD013": false,                            // no line length enforcement (let Obsidian wrap visually)
+
+    // HTML - allow inline HTML for Obsidian callouts and advanced formatting
+    "MD033": false,                            // allow inline HTML (Obsidian callouts and advanced features)
+
+    // Other rules for consistency
+    "MD037": true,                             // spaces inside emphasis markers
+    "MD038": true,                             // spaces inside code span elements
+    "MD041": false,                            // first line in file should be a top level heading - disabled for flexibility
+    "MD045": true                              // images should have alternate text (alt text)
+  }
+}

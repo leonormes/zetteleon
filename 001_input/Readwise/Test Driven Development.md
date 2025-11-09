@@ -1,0 +1,34 @@
+---
+aliases: []
+confidence: 
+created: 2025-09-07T08:09:36Z
+epistemic: 
+last_reviewed: 
+modified: 2025-11-03T13:48:41Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [source/book]
+title: Test Driven Development
+type:
+uid: 
+updated: 
+version:
+---
+
+## Test Driven Development
+
+![rw-book-cover](https://m.media-amazon.com/images/I/71-Jx1RgY1S._SY160.jpg)
+
+### Metadata
+
+- Author: [[Kent  Beck]]
+- Full Title: Test Driven Development
+- Category:
+
+### Highlights
+
+- The tests in test-driven development are the teeth of the ratchet. Once we get one test working, we know it is working, now and forever. We are one step closer to having everything working than we were when the test was broken. Now we get the next one working, and the next, and the next. By analogy, the tougher the programming problem, the less ground that each test should cover. ([Location 126](https://readwise.io/to_kindle?action=open&asin=B095SQ9WP4&location=126))
+- Following are two of the three strategies I know for quickly getting to green: • Fake It—Return a constant and gradually replace constants with variables until you have the real code. • Use Obvious Implementation—Type in the real implementation. ([Location 407](https://readwise.io/to_kindle?action=open&asin=B095SQ9WP4&location=407))

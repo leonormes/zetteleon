@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "prompts"
+    order:
+      - file.name
+      - version
+      - purpose
+    properties:
+      note.purpose:
+        wrap: true
+    columnSize:
+      file.name: 350
+      note.purpose: 917

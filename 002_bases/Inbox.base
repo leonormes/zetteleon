@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "000_inbox"
+    order:
+      - file.name
+      - tags
+    sort:
+      - property: tags
+        direction: ASC
+    columnSize:
+      file.name: 469

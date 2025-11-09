@@ -1,0 +1,24 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "100_zettelkasten"
+        - type != "map"
+    order:
+      - file.name
+      - type
+      - epistemic
+      - status
+      - purpose
+    sort:
+      - property: purpose
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 612
+      note.type: 217
+      note.tags: 250
+      note.epistemic: 197
+      note.status: 173

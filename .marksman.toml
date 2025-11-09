@@ -1,0 +1,50 @@
+[server]
+# Marksman LSP configuration for Obsidian vault
+# Patterns are globs; keep scans fast and avoid noise
+
+# Exclude folders that don't need LSP analysis
+exclude = [
+  "**/.obsidian/**",      # Obsidian metadata
+  "**/.git/**",           # Git metadata
+  "**/node_modules/**",   # Node dependencies  
+  "**/.history/**",       # File history
+  "**/.trash/**",         # Deleted files
+  "**/attachments/**",    # Binary attachments
+  "**/assets/**",         # Binary assets
+  "**/000_inbox/journals/**",  # Daily journals (optional - exclude if too noisy)
+  "**/templates/**",      # Template files
+  "**/210_productivity/ProdOS/**",  # Specific excluded directory
+  "**/Excalidraw/**",     # Excalidraw drawings and related files
+  "**/Readwise/**"        # Readwise imported content
+]
+
+# Enable core features
+[core]
+# Enable workspace symbol search
+text_sync = true
+
+# Enable completion for wiki links and headers
+completion = true
+
+# Enable hover information
+hover = true
+
+# Enable diagnostic information (compatible with markdownlint)
+diagnostics = false  # Disabled to avoid conflicts with markdownlint-cli2
+
+# Enable document symbols (outline view)
+document_symbol = true
+
+# Enable workspace symbols (global search)
+workspace_symbol = true
+
+# Markdown-specific settings
+[markdown]
+# Support Obsidian-style wiki links [[page]]
+wiki_link_resolution = "by_name"
+
+# Support heading links #heading
+heading_links = true
+
+# File extension handling
+file_extensions = ["md", "markdown", "mdx"]

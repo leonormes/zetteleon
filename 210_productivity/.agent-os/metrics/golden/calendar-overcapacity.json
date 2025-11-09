@@ -1,0 +1,16 @@
+{
+  "name": "calendar-overcapacity",
+  "description": "When capacity is exceeded, system should suggest trimming (P4→P3) or deadline extension rather than cramming.",
+  "input": {
+    "now": "2025-10-04T08:00:00Z",
+    "context": { "time_available_min": 60, "energy": "medium", "contexts": ["@Computer"] },
+    "tasks": [
+      { "id": "t1", "source": "todoist", "title": "Write long-form doc", "project": "Core Platform", "contexts": ["@Computer"], "energy": "high", "time_estimate_min": 180, "priority_p1p4": 2, "quadrant": "QII", "big_rock": true, "status": "open" },
+      { "id": "t2", "source": "todoist", "title": "Clarify acceptance criteria", "project": "Core Platform", "contexts": ["@Computer"], "energy": "medium", "time_estimate_min": 30, "priority_p1p4": 3, "quadrant": "QIII", "big_rock": false, "status": "open" }
+    ]
+  },
+  "expected": {
+    "must": [ { "field": "why", "contains": "trim" } ],
+    "policy": { "respect_time_window": true, "suggest_scope_change": true }
+  }
+}

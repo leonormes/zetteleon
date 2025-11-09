@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - status == "seedling"
+    order:
+      - file.name
+      - status
+      - tags
+    columnSize:
+      file.name: 542
