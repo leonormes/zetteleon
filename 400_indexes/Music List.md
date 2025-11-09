@@ -90,7 +90,28 @@ version:
 - [ ] various artists - clicks\_+_cuts
 - [ ] venetian snares - rossz csillag alatt született
 - [ ] μ‐ziq - lunatic harness
-
+- [ ] Unit 1 - Arden 
+- [ ] Invisible Man - The Bell Tune 
+- [ ] Bass Influence - All Massive 
+- A-Zone— Calling The People 
+- Bounty Killaz - Silent Voices 
+- Origin Unknown - Valley Of The Shadow (New Decade Remix) 
+- Urban Shakedown - Burning Passion 
+- Boogie Times Tribe - The Dark Stranger 
+- DJ Rap - Intelligent Woman 
+- M-Beat - Squawk 
+- DJ DEMO - Extreme E.P. 
+- Urban Shakedown - Some Justice 95’ (Nookie Remix) 
+- DJ Rap - Digable Bass 
+- 88.3 Feat: Lisa May - Wishing On A Star 
+- Tom & Jerry - Maxi (Mun) Style 
+- Stekker & DJ Sofa - Kinda Girl 
+- Aladdin - Geni (Lost in Zanzibar) 
+- Rude & Deadly - Mash Dem Down 
+- Urban Shakedown - Arsonist Dub (VIP Mix) 
+- Ray Keith - Sing Time (VIP Mix) 
+ - DJ Rap - Lick Shot 
+ - Aladdin - Mash Up Yer Know
 1. Floating Points - Known for blending jazz, electronica, and classical influences, Floating Points creates intricate soundscapes reminiscent of the experimental side of electronic music.
 2. Bonobo - While not entirely new, Bonobo continues to evolve his sound, incorporating elements of downtempo, trip-hop, and world music, aligning with the styles of the artists you've mentioned.
 3. Tycho - Tycho combines ambient melodies with downtempo beats, creating a lush sound that echoes the atmospheric qualities of Boards of Canada and Four Tet.

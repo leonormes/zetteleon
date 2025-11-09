@@ -21,3 +21,4 @@
 
 # Ignore Smart Environment folder
 .smart-env
+/piecesdb.json
