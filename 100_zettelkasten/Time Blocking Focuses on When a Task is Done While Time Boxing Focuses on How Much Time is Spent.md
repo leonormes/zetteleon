@@ -1,15 +1,25 @@
 ---
-uid: 2025-11-10T14:04:00Z
-created: 2025-11-10T14:04:00Z
-updated: 2025-11-10T14:04:00Z
-type: comparison
-subject: "[[Time Blocking is a Technique for Dedicating Specific Segments of Time to Particular Tasks]] vs [[Time Boxing is a Goal-Oriented Strategy Where a Fixed Period is Allocated to a Specific Task]]"
-criteria: ["Primary Focus", "Scope", "Flexibility", "Primary Goal"]
-tags: [comparison, productivity, time-management, time-blocking, time-boxing]
 aliases: [Time Blocking vs Time Boxing]
+confidence: 
+created: 2025-11-10T14:04:00Z
+criteria: ["Flexibility", "Primary Focus", "Primary Goal", "Scope"]
+epistemic: 
+last_reviewed: 
+modified: 2025-11-10T13:28:09Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+subject: "[[Time Blocking is a Technique for Dedicating Specific Segments of Time to Particular Tasks]] vs [[Time Boxing is a Goal-Oriented Strategy Where a Fixed Period is Allocated to a Specific Task]]"
+tags: [comparison, productivity, time-blocking, time-boxing, time-management]
+title: Time Blocking Focuses on When a Task is Done While Time Boxing Focuses on How Much Time is Spent
+type: comparison
+uid: 2025-11-10T14:04:00Z
+updated: 2025-11-10T14:04:00Z
 ---
 
-# Time Blocking Focuses on When a Task is Done While Time Boxing Focuses on How Much Time is Spent
+## Time Blocking Focuses on When a Task is Done While Time Boxing Focuses on How Much Time is Spent
 
 | Criterion | Time Blocking | Time Boxing |
 |---|---|---|

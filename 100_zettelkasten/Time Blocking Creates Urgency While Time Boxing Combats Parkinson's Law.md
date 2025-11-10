@@ -1,21 +1,23 @@
 ---
-uid: 2025-11-10T14:06:00Z
-created: 2025-11-10T14:06:00Z
-updated: 2025-11-10T14:06:00Z
-type: concept
-status: seedling
-epistemic: fact
-purpose: "To explain the psychological drivers behind time blocking and time boxing."
+aliases: [Parkinson's Law]
 confidence: 0.9
+created: 2025-11-10T14:06:00Z
+epistemic: fact
 last_reviewed:
+modified: 2025-11-10T13:28:09Z
+purpose: "To explain the psychological drivers behind time blocking and time boxing."
 review_interval: 90
 see_also: []
 source_of_truth: ["[[MOC - Time Blocking and Time Boxing for Productivity]]"]
-aliases: [Parkinson's Law]
-tags: [productivity, psychology, time-management, urgency, perfectionism]
+status: seedling
+tags: [perfectionism, productivity, psychology, time-management, urgency]
+title: "Time Blocking Creates Urgency While Time Boxing Combats Parkinson's Law"
+type: concept
+uid: 2025-11-10T14:06:00Z
+updated: 2025-11-10T14:06:00Z
 ---
 
-# Time Blocking Creates Urgency While Time Boxing Combats Parkinson's Law
+## Time Blocking Creates Urgency While Time Boxing Combats Parkinson's Law
 
 **Summary:** Time blocking and time boxing tap into powerful psychological drivers by creating artificial urgency and actively combating Parkinson's Law.
 

@@ -1,21 +1,23 @@
 ---
-uid: 2025-11-10T14:03:00Z
-created: 2025-11-10T14:03:00Z
-updated: 2025-11-10T14:03:00Z
-type: concept
-status: seedling
-epistemic: principle
-purpose: "To outline the foundational ideas behind time boxing."
+aliases: []
 confidence: 0.9
+created: 2025-11-10T14:03:00Z
+epistemic: principle
 last_reviewed:
+modified: 2025-11-10T13:28:09Z
+purpose: "To outline the foundational ideas behind time boxing."
 review_interval: 90
 see_also: ["[[Time Boxing is a Goal-Oriented Strategy Where a Fixed Period is Allocated to a Specific Task]]"]
 source_of_truth: ["[[MOC - Time Blocking and Time Boxing for Productivity]]"]
-aliases: []
-tags: [productivity, time-management, time-boxing, principles]
+status: seedling
+tags: [principles, productivity, time-boxing, time-management]
+title: The Core Principles of Time Boxing are Fixed Time Allocation a Goal-Oriented Approach and Commitment to Focus
+type: concept
+uid: 2025-11-10T14:03:00Z
+updated: 2025-11-10T14:03:00Z
 ---
 
-# The Core Principles of Time Boxing are Fixed Time Allocation a Goal-Oriented Approach and Commitment to Focus
+## The Core Principles of Time Boxing Are Fixed Time Allocation a Goal-Oriented Approach and Commitment to Focus
 
 **Summary:** The practice of time boxing is guided by three foundational ideas: allocating a fixed time, adopting a goal-oriented approach, and committing to focused work.
 

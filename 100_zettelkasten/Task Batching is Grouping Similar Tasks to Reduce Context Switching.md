@@ -1,21 +1,23 @@
 ---
-uid: 2025-11-10T14:10:00Z
-created: 2025-11-10T14:10:00Z
-updated: 2025-11-10T14:10:00Z
-type: concept
-status: seedling
-epistemic: fact
-purpose: "To define the Task Batching technique."
+aliases: [Task Batching]
 confidence: 0.9
+created: 2025-11-10T14:10:00Z
+epistemic: fact
 last_reviewed:
+modified: 2025-11-10T13:28:09Z
+purpose: "To define the Task Batching technique."
 review_interval: 90
 see_also: ["[[Day Theming is a Macro Time Blocking Strategy]]"]
 source_of_truth: ["[[MOC - Time Blocking and Time Boxing for Productivity]]"]
-aliases: [Task Batching]
-tags: [productivity, efficiency, context-switching, time-blocking]
+status: seedling
+tags: [context-switching, efficiency, productivity, time-blocking]
+title: Task Batching is Grouping Similar Tasks to Reduce Context Switching
+type: concept
+uid: 2025-11-10T14:10:00Z
+updated: 2025-11-10T14:10:00Z
 ---
 
-# Task Batching is Grouping Similar Tasks to Reduce Context Switching
+## Task Batching is Grouping Similar Tasks to Reduce Context Switching
 
 **Summary:** Task batching is a productivity strategy that involves grouping similar tasks together to be completed in a single, dedicated time block.
 

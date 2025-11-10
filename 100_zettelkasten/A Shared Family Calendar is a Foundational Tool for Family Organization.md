@@ -1,21 +1,23 @@
 ---
-uid: 2025-11-10T14:16:00Z
-created: 2025-11-10T14:16:00Z
-updated: 2025-11-10T14:16:00Z
-type: concept
-status: seedling
-epistemic: fact
-purpose: "To identify a foundational tool for family organization."
+aliases: [Shared Family Calendar]
 confidence: 0.9
+created: 2025-11-10T14:16:00Z
+epistemic: fact
 last_reviewed:
+modified: 2025-11-10T13:28:09Z
+purpose: "To identify a foundational tool for family organization."
 review_interval: 90
 see_also: ["[[Regular Family Meetings are Vital for Collaborative Planning]]"]
 source_of_truth: ["[[MOC - Time Blocking and Time Boxing for Productivity]]"]
-aliases: [Shared Family Calendar]
-tags: [family, organization, planning, tools, calendar]
+status: seedling
+tags: [calendar, family, organization, planning, tools]
+title: A Shared Family Calendar is a Foundational Tool for Family Organization
+type: concept
+uid: 2025-11-10T14:16:00Z
+updated: 2025-11-10T14:16:00Z
 ---
 
-# A Shared Family Calendar is a Foundational Tool for Family Organization
+## A Shared Family Calendar is a Foundational Tool for Family Organization
 
 **Summary:** A centralized, accessible shared family calendar is a cornerstone of effective family organization, providing visibility into everyone's commitments.
 

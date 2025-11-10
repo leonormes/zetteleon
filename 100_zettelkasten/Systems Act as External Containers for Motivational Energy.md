@@ -1,21 +1,23 @@
 ---
-uid: 2025-11-10T13:07:00Z
-created: 2025-11-10T13:07:00Z
-updated: 2025-11-10T13:07:00Z
-type: concept
-status: seedling
-epistemic: principle
-purpose: "To provide a metaphor for the function of systems and routines."
+aliases: [Systems as Containers]
 confidence: 0.8
+created: 2025-11-10T13:07:00Z
+epistemic: principle
 last_reviewed:
+modified: 2025-11-10T13:28:09Z
+purpose: "To provide a metaphor for the function of systems and routines."
 review_interval: 90
 see_also: ["[[Externalizing Direction Reduces Cognitive Load and Fosters Flow]]"]
 source_of_truth: ["[[MOC - Productivity Systems vs Historical Achievement]]"]
-aliases: [Systems as Containers]
-tags: [productivity, systems, routines, motivation, metaphor]
+status: seedling
+tags: [metaphor, motivation, productivity, routines, systems]
+title: Systems Act as External Containers for Motivational Energy
+type: concept
+uid: 2025-11-10T13:07:00Z
+updated: 2025-11-10T13:07:00Z
 ---
 
-# Systems Act as External Containers for Motivational Energy
+## Systems Act as External Containers for Motivational Energy
 
 **Summary:** A useful metaphor for productivity is to think of motivation and energy as a formless liquid, while systems and routines act as the external containers and channels that give it shape and direction.
 

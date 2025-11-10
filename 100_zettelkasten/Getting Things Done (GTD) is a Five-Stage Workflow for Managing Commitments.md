@@ -1,21 +1,23 @@
 ---
-uid: 2025-11-10T14:08:00Z
-created: 2025-11-10T14:08:00Z
-updated: 2025-11-10T14:08:00Z
-type: concept
-status: seedling
-epistemic: fact
-purpose: "To define the Getting Things Done (GTD) system."
+aliases: [GTD]
 confidence: 0.9
+created: 2025-11-10T14:08:00Z
+epistemic: fact
 last_reviewed:
+modified: 2025-11-10T13:28:09Z
+purpose: "To define the Getting Things Done (GTD) system."
 review_interval: 90
 see_also: []
 source_of_truth: ["[[MOC - Time Blocking and Time Boxing for Productivity]]"]
-aliases: [GTD]
-tags: [productivity, systems, gtd, task-management]
+status: seedling
+tags: [gtd, productivity, systems, task-management]
+title: Getting Things Done (GTD) is a Five-Stage Workflow for Managing Commitments
+type: concept
+uid: 2025-11-10T14:08:00Z
+updated: 2025-11-10T14:08:00Z
 ---
 
-# Getting Things Done (GTD) is a Five-Stage Workflow for Managing Commitments
+## Getting Things Done (GTD) is a Five-Stage Workflow for Managing Commitments
 
 **Summary:** David Allen's Getting Things Done (GTD) is a comprehensive methodology for managing tasks and projects by getting all commitments out of one's head and into a trusted external system.
 

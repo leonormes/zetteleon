@@ -1,21 +1,23 @@
 ---
-uid: 2025-11-10T14:11:00Z
-created: 2025-11-10T14:11:00Z
-updated: 2025-11-10T14:11:00Z
-type: concept
-status: seedling
-epistemic: fact
-purpose: "To define the Day Theming technique."
+aliases: [Day Theming]
 confidence: 0.9
+created: 2025-11-10T14:11:00Z
+epistemic: fact
 last_reviewed:
+modified: 2025-11-10T13:28:09Z
+purpose: "To define the Day Theming technique."
 review_interval: 90
 see_also: ["[[Task Batching is Grouping Similar Tasks to Reduce Context Switching]]"]
 source_of_truth: ["[[MOC - Time Blocking and Time Boxing for Productivity]]"]
-aliases: [Day Theming]
-tags: [productivity, planning, time-blocking, strategy]
+status: seedling
+tags: [planning, productivity, strategy, time-blocking]
+title: Day Theming is a Macro Time Blocking Strategy
+type: concept
+uid: 2025-11-10T14:11:00Z
+updated: 2025-11-10T14:11:00Z
 ---
 
-# Day Theming is a Macro Time Blocking Strategy
+## Day Theming is a Macro Time Blocking Strategy
 
 **Summary:** Day theming is a time management strategy that assigns a specific focus or type of work to each day of the week.
 

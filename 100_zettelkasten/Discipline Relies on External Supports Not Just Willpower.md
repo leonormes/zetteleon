@@ -1,21 +1,23 @@
 ---
-uid: 2025-11-10T13:03:00Z
-created: 2025-11-10T13:03:00Z
-updated: 2025-11-10T13:03:00Z
-type: concept
-status: seedling
-epistemic: principle
-purpose: "To reframe the concept of discipline."
+aliases: [Discipline vs Willpower]
 confidence: 0.9
+created: 2025-11-10T13:03:00Z
+epistemic: principle
 last_reviewed:
+modified: 2025-11-10T13:28:09Z
+purpose: "To reframe the concept of discipline."
 review_interval: 90
 see_also: []
 source_of_truth: ["[[MOC - Productivity Systems vs Historical Achievement]]"]
-aliases: [Discipline vs Willpower]
-tags: [discipline, willpower, productivity, environment, accountability]
+status: seedling
+tags: [accountability, discipline, environment, productivity, willpower]
+title: Discipline Relies on External Supports Not Just Willpower
+type: concept
+uid: 2025-11-10T13:03:00Z
+updated: 2025-11-10T13:03:00Z
 ---
 
-# Discipline Relies on External Supports Not Just Willpower
+## Discipline Relies on External Supports Not Just Willpower
 
 **Summary:** True discipline is not purely a matter of internal willpower but is heavily reliant on external supports such as environment, culture, incentives, and interpersonal accountability.
 

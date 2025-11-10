@@ -1,21 +1,23 @@
 ---
-uid: 2025-11-10T13:08:00Z
-created: 2025-11-10T13:08:00Z
-updated: 2025-11-10T13:08:00Z
-type: concept
-status: seedling
-epistemic: principle
-purpose: "To explain the cognitive benefit of using external systems."
+aliases: [Externalized Direction]
 confidence: 0.9
+created: 2025-11-10T13:08:00Z
+epistemic: principle
 last_reviewed:
+modified: 2025-11-10T13:28:09Z
+purpose: "To explain the cognitive benefit of using external systems."
 review_interval: 90
 see_also: ["[[Systems Act as External Containers for Motivational Energy]]"]
 source_of_truth: ["[[MOC - Productivity Systems vs Historical Achievement]]"]
-aliases: [Externalized Direction]
-tags: [productivity, systems, cognition, working-memory, flow-state]
+status: seedling
+tags: [cognition, flow-state, productivity, systems, working-memory]
+title: Externalizing Direction Reduces Cognitive Load and Fosters Flow
+type: concept
+uid: 2025-11-10T13:08:00Z
+updated: 2025-11-10T13:08:00Z
 ---
 
-# Externalizing Direction Reduces Cognitive Load and Fosters Flow
+## Externalizing Direction Reduces Cognitive Load and Fosters Flow
 
 **Summary:** By storing what needs to be done in an external system (e.g., checklists, calendars), you relieve working memory and reduce cognitive strain, making it easier to achieve a state of flow.
 
