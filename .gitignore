@@ -22,3 +22,6 @@
 # Ignore Smart Environment folder
 .smart-env
 /piecesdb.json
+/context-engine-combined.log
+/.genkit/traces_idx/genkit.metadata
+/piecesdb.json
