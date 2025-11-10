@@ -28,3 +28,4 @@ updated:
 - I want educated children who can solve problems
 - I want to feel valued 
 - I want to feel part of a team
+- Zofja seems to think that it is a given that she is some sort of hero and works really hard. 
