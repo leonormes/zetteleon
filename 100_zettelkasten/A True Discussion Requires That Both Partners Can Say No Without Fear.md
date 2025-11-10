@@ -1,21 +1,23 @@
 ---
-uid: 2025-11-10T10:20:00Z
-created: 2025-11-10T10:20:00Z
-updated: 2025-11-10T10:20:00Z
-type: concept
-status: seedling
-epistemic: fact
-purpose: "To define a core requirement for genuine discussion."
+aliases: [Right to Say No]
 confidence: 0.9
+created: 2025-11-10T10:20:00Z
+epistemic: fact
 last_reviewed:
+modified: 2025-11-10T08:52:40Z
+purpose: "To define a core requirement for genuine discussion."
 review_interval: 90
 see_also: []
 source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-aliases: [Right to Say No]
-tags: [relationship, communication, conflict, consent, boundaries]
+status: seedling
+tags: [boundaries, communication, conflict, consent, relationship]
+title: A True Discussion Requires That Both Partners Can Say No Without Fear
+type: concept
+uid: 2025-11-10T10:20:00Z
+updated: 2025-11-10T10:20:00Z
 ---
 
-# A True Discussion Requires That Both Partners Can Say No Without Fear
+## A True Discussion Requires That Both Partners Can Say No Without Fear
 
 **Summary:** A conversation ceases to be a genuine discussion when one partner is not allowed to say "no" or disagree without facing anger, disdain, or moral vilification.
 

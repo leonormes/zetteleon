@@ -1,21 +1,23 @@
 ---
-uid: 2025-11-10T10:21:00Z
-created: 2025-11-10T10:21:00Z
-updated: 2025-11-10T10:21:00Z
-type: concept
-status: seedling
-epistemic: fact
-purpose: "To identify dismissal of a partner's needs as a sign of a dysfunctional dynamic."
+aliases: [Dismissing Partner's Needs]
 confidence: 0.9
+created: 2025-11-10T10:21:00Z
+epistemic: fact
 last_reviewed:
+modified: 2025-11-10T08:52:40Z
+purpose: "To identify dismissal of a partner's needs as a sign of a dysfunctional dynamic."
 review_interval: 90
 see_also: []
 source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-aliases: [Dismissing Partner's Needs]
-tags: [relationship, conflict, empathy, respect]
+status: seedling
+tags: [conflict, empathy, relationship, respect]
+title: "Dismissing a Partner's Needs as Inconvenient Signals a Lack of Empathy"
+type: concept
+uid: 2025-11-10T10:21:00Z
+updated: 2025-11-10T10:21:00Z
 ---
 
-# Dismissing a Partner's Needs as Inconvenient Signals a Lack of Empathy
+## Dismissing a Partner's Needs as Inconvenient Signals a Lack of Empathy
 
 **Summary:** When one partner views the other's needs and wishes as inconvenient or an affront, it signals a significant lack of empathy and mutual respect within the relationship.
 

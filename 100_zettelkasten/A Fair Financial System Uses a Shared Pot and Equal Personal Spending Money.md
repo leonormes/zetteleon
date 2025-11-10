@@ -1,18 +1,23 @@
 ---
-uid: 2025-11-10T10:16:00Z
-created: 2025-11-10T10:16:00Z
-updated: 2025-11-10T10:16:00Z
-type: instructional
-status: seedling
-epistemic: NA
-purpose: "To provide a practical model for fair financial management in a couple."
-last_reviewed:
-review_interval: 180
 aliases: [One Pot Financial System]
-tags: [relationship, finance, budgeting, strategy]
+confidence: 
+created: 2025-11-10T10:16:00Z
+epistemic: NA
+last_reviewed:
+modified: 2025-11-10T08:52:40Z
+purpose: "To provide a practical model for fair financial management in a couple."
+review_interval: 180
+see_also: []
+source_of_truth: []
+status: seedling
+tags: [budgeting, finance, relationship, strategy]
+title: A Fair Financial System Uses a Shared Pot and Equal Personal Spending Money
+type: instructional
+uid: 2025-11-10T10:16:00Z
+updated: 2025-11-10T10:16:00Z
 ---
 
-# A Fair Financial System Uses a Shared Pot and Equal Personal Spending Money
+## A Fair Financial System Uses a Shared Pot and Equal Personal Spending Money
 
 **What:** A practical system for managing finances that maximizes teamwork while protecting individual autonomy.
 
