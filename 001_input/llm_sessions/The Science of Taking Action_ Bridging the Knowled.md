@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
 ## The Science of Taking Action: Bridging the Knowledge-Action Gap
 
 Understanding why we struggle to act on what we know is one of the most persistent challenges in human behavior, spanning psychology, neuroscience, and philosophy. The gap between knowledge and action—manifested in procrastination, unfulfilled intentions, and abandoned resolutions—reveals fundamental insights about how our minds, brains, and wills operate.

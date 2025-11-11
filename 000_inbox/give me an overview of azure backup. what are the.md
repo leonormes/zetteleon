@@ -1,6 +1,23 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
+---
+aliases: []
+confidence: 
+created: 2025-11-11T11:39:50Z
+epistemic: 
+last_reviewed: 
+modified: 2025-11-11T13:02:35Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: []
+title: give me an overview of azure backup. what are the
+type: 
+uid: 
+updated: 
+---
 
-# give me an overview of azure backup. what are the different components and how do they all fit together?
+Give me an overview of azure backup. What are the different components and how do they all fit together?
 
 Here’s a concise, structured overview of **Azure Backup**, focusing on key components and how they fit together:
 
@@ -15,7 +32,6 @@ Here’s a concise, structured overview of **Azure Backup**, focusing on key com
 
 **Main Components**
 
-
 | Component | Role/Function |
 | :-- | :-- |
 | Recovery Services Vault | Stores backup data for most classic workloads (VMs, SQL, SAP, etc.). Central management hub. |
@@ -24,7 +40,6 @@ Here’s a concise, structured overview of **Azure Backup**, focusing on key com
 | Backup Agents | Tools for on-premises backup or enhanced backup (like MARS Agent, DPM, Azure VM Extension). |
 | Backup Policies | Define backup schedule and retention (how often and how long to keep backups). |
 | Jobs/Alerts/Reports | Provide status, auditing, and monitoring for backup activities. |
-
 
 ***
 
@@ -68,14 +83,12 @@ Here’s a concise, structured overview of **Azure Backup**, focusing on key com
 
 **Summary Table**
 
-
 | Workload | Agent/Method | Storage | Notes |
 | :-- | :-- | :-- | :-- |
 | Azure VM | VM Extension | Recovery Vault | Agentless, snapshots |
 | SQL/SAP on Azure VM | Built-in/Azure Plugin | Recovery Vault | App-aware, consistent |
 | On-prem Servers | MARS/DPM/MABS Agent | Recovery Vault | Requires agent installation |
 | Blob/Postgres Backups | N/A | Backup Vault | Managed, for newer use cases |
-
 
 ***
 
@@ -85,56 +98,10 @@ Here’s a concise, structured overview of **Azure Backup**, focusing on key com
 - Portal experience matches terminology and navigation in Azure[^1_6]
 
 If you want diagrams, code for automation, or a specific use-case breakdown, just say the word!
-<span style="display:none">[^1_10][^1_11][^1_12][^1_13][^1_14][^1_15][^1_16][^1_17][^1_18][^1_19][^1_20][^1_21][^1_7][^1_8][^1_9]</span>
-
-<div align="center">⁂</div>
-
-[^1_1]: https://learn.microsoft.com/en-us/azure/backup/backup-architecture
-
-[^1_2]: https://learn.microsoft.com/en-us/azure/backup/backup-overview
-
-[^1_3]: https://www.rajnishkumarjha.com/learn-about-azure-backup-architecture-and-its-components/
-
-[^1_4]: https://learn.microsoft.com/en-us/azure/backup/backup-vault-overview
-
-[^1_5]: https://learn.microsoft.com/en-us/azure/backup/security-overview
-
-[^1_6]: https://portal.azure.com/\#@fitfile.com/resource/subscriptions/249df46b-f75d-4492-8e78-b33a00473548/resourceGroups/staging-backup-rg/providers/Microsoft.DataProtection/BackupVaults/aksbackupvault/overview
-
-[^1_7]: https://n2ws.com/blog/vm-backup-in-azure-a-practical-guide
-
-[^1_8]: https://learn.microsoft.com/en-us/azure/backup/backup-azure-microsoft-azure-backup
-
-[^1_9]: https://k21academy.com/microsoft-azure/az-500/what-is-azure-backup-features-benefitstools-real-life-examples/
-
-[^1_10]: https://notes.kodekloud.com/docs/AZ-305-Microsoft-Azure-Solutions-Architect-Expert/Design-a-business-continuity-solution/Design-for-Azure-Backup
-
-[^1_11]: https://helpcenter.veeam.com/docs/vbazure/guide/architecture_overview.html
-
-[^1_12]: https://www.netapp.com/blog/5-considerations-before-you-backup-on-azure/
-
-[^1_13]: https://azure.microsoft.com/en-gb/products/backup
-
-[^1_14]: https://learn.microsoft.com/en-us/azure/backup/guidance-best-practices
-
-[^1_15]: https://cloudian.com/guides/disaster-recovery/disaster-recovery-in-azure-architecture-and-best-practices/
-
-[^1_16]: https://www.dev4side.com/en/blog/azure-backup
-
-[^1_17]: https://spot.io/resources/azure-pricing/azure-backup-pricing-the-basics-and-6-pricing-examples/
-
-[^1_18]: https://www.youtube.com/watch?v=zHG9c7GYK9U
-
-[^1_19]: https://learn.microsoft.com/en-us/azure/backup/
-
-[^1_20]: https://www.cloudbolt.io/azure-costs/azure-backup-pricing/
-
-[^1_21]: https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/811282939618864
-
 
 ---
 
-# from an oop perspective how do all the components fit together? I am backuping aks clusters
+From an OOP perspective how do all the components fit together? I am backuping aks clusters
 
 Here’s how Azure Backup’s architecture fits together from an **object-oriented programming (OOP) perspective**, focusing on how you back up AKS clusters.
 
@@ -197,7 +164,7 @@ Here’s how Azure Backup’s architecture fits together from an **object-orient
 
 **Visual Reference (conceptual class diagram):**
 
-```
+```sh
 BackupVault
 ├── BackupPolicy
 ├── BackupInstance
@@ -206,7 +173,6 @@ BackupVault
 ├── StorageAccount/BlobContainer
 ```
 
-
 ***
 
 **Key Insight for AKS Backup:**
@@ -214,49 +180,3 @@ BackupVault
 - Real-world implementation is resource-oriented (ARM templates) but OOP mapping clarifies the relationships. You can think in terms of clusters as objects registered to vault “managers”, with backup jobs as persistent instances tracking operational data.
 
 Let me know if you want concrete code stubs or a more detailed class diagram!
-<span style="display:none">[^2_1][^2_10][^2_11][^2_12][^2_13][^2_14][^2_15][^2_16][^2_17][^2_18][^2_19][^2_2][^2_20][^2_21][^2_3][^2_4][^2_5][^2_6][^2_7][^2_8][^2_9]</span>
-
-<div align="center">⁂</div>
-
-[^2_1]: https://portal.azure.com/\#@fitfile.com/resource/subscriptions/249df46b-f75d-4492-8e78-b33a00473548/resourceGroups/staging-backup-rg/providers/Microsoft.DataProtection/BackupVaults/aksbackupvault/overview
-
-[^2_2]: https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-backup-and-recovery
-
-[^2_3]: https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/baseline-aks
-
-[^2_4]: https://learn.microsoft.com/en-us/azure/backup/quick-kubernetes-backup-arm
-
-[^2_5]: https://docs.azure.cn/en-us/backup/azure-kubernetes-service-cluster-backup-using-cli
-
-[^2_6]: https://hoop.dev/blog/the-simplest-way-to-make-azure-backup-microsoft-aks-work-like-it-should/
-
-[^2_7]: https://learn.microsoft.com/en-us/azure/backup/backup-architecture
-
-[^2_8]: https://learn.microsoft.com/en-us/azure/backup/azure-kubernetes-service-backup-overview
-
-[^2_9]: https://learn.microsoft.com/en-us/azure/backup/azure-kubernetes-service-cluster-backup-using-powershell
-
-[^2_10]: https://learn.microsoft.com/en-us/azure/backup/guidance-best-practices
-
-[^2_11]: https://learn.microsoft.com/en-us/azure/backup/azure-kubernetes-service-cluster-backup-support-matrix
-
-[^2_12]: https://www.netapp.com/learn/azure-anf-blg-kubernetes-in-azure-architecture-and-service-options/
-
-[^2_13]: https://www.rajnishkumarjha.com/learn-about-azure-backup-architecture-and-its-components/
-
-[^2_14]: https://learn.microsoft.com/en-us/azure/backup/azure-kubernetes-service-cluster-backup
-
-[^2_15]: https://learn.microsoft.com/en-us/azure/aks/aksarc/backup-workload-cluster
-
-[^2_16]: https://forums.veeam.com/microsoft-hyper-v-f25/backup-architecture-for-azure-retention-and-replication-t67025.html
-
-[^2_17]: https://learn.microsoft.com/en-us/azure/aks/operator-best-practices-storage
-
-[^2_18]: https://www.youtube.com/watch?v=pw2gVFOEXs0
-
-[^2_19]: https://learn.microsoft.com/en-us/azure/backup/azure-backup-glossary
-
-[^2_20]: https://docs.azure.cn/en-us/backup/quick-kubernetes-backup-arm
-
-[^2_21]: https://documentation.commvault.com/11.42/software/files/pdf/Public-Cloud-Architecture-Guide-Microsoft-Azure.pdf
-

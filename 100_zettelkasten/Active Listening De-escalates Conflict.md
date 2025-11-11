@@ -28,3 +28,4 @@ updated:
 - Paraphrasing before responding
 - Asking clarifying questions
 - Avoiding defensive language
+[[Habit 5 - Seek First to Understand, Then to Be Understood#Empathic Listening]]
