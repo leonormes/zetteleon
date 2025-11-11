@@ -23,3 +23,5 @@ To break the cycle of motion-based procrastination, one must accept that action 
 The pursuit of a flawless start or a perfect outcome is a primary driver of procrastination, as it keeps one trapped in the seemingly safe phase of motion. The reality is that progress is only made through doing, and doing is inherently messy.
 
 Shifting the mindset from "this must be perfect" to "this must be done" is critical. The first draft can be flawed, the first attempt can be clumsy, and the first version can be incomplete. It is through the iterative process of acting, receiving feedback, and refining that quality is achieved—not through endless preparation.
+[[MOC - Perfectionism and ADHD#The Paralysis Pattern]]
+[[Abandon the Perfect#Overcoming the Block]]

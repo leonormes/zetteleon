@@ -31,3 +31,4 @@ As the person tentatively explores the new interest, each new piece of informati
 **Contrast with Neurotypical Brains:**
 
 Unlike neurotypical brains that can sustain motivation through importance or external rewards, the ADHD brain requires continuous novelty and intrinsic interest to maintain dopamine-driven engagement.
+[[ADHD Brain is a Novelty-Seeking Machine]]
