@@ -1,16 +1,30 @@
 ---
-title: "Overview of Grafana Kubernetes Monitoring Helm chart | Grafana Cloud documentation"
+aliases: []
+confidence: 
+created: 2025-11-10T00:00:00Z
+epistemic: 
+last_reviewed: 
+modified: 2025-11-11T08:39:48Z
+purpose: 
+review_interval: 
+see_also: []
 source: "https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/configuration/helm-chart-config/helm-chart/"
-created: 2025-11-10
-tags:
+source_of_truth: []
+status: 
+tags: []
+title: Overview of Grafana Kubernetes Monitoring Helm chart  Grafana Cloud documentation
+type: 
+uid: 
+updated: 
 ---
+
 ![ObservabilityCON 2025](https://grafana.com/media/events/obscon/2025/grafana-obscon2025-promo-logo-black.svg)
 
 📢 Registration + agenda now live Explore the latest Grafana Cloud and AI solutions, learn tips & tricks from demos and hands-on workshops, and get actionable advice to advance your observability strategy. Register now and get 50% off - limited tickets available (while they last!).
 
 Overview of Grafana Kubernetes Monitoring Helm chart
 
-## Overview of Grafana Kubernetes Monitoring Helm chart
+## Overview of Grafana Kubernetes Monitoring Helm Chart
 
 The [Grafana Kubernetes Monitoring Helm chart](https://github.com/grafana/k8s-monitoring-helm/tree/main/charts/k8s-monitoring) offers a complete solution for configuring infrastructure, zero-code instrumentation, and gathering telemetry. The benefits of using this chart include:
 
@@ -20,11 +34,11 @@ The [Grafana Kubernetes Monitoring Helm chart](https://github.com/grafana/k8s-mo
 - [Scalability](https://github.com/grafana/k8s-monitoring-helm/tree/main/charts/k8s-monitoring/docs/examples/scalability) for all Cluster sizes
 - Built-in [testing](https://github.com/grafana/k8s-monitoring-helm/tree/main/charts/k8s-monitoring/tests) and [schemas](https://github.com/grafana/k8s-monitoring-helm/blob/main/charts/k8s-monitoring/values.schema.json) to help you avoid errors
 
-## Release notes
+## Release Notes
 
 Refer to [Helm chart release notes](https://github.com/grafana/k8s-monitoring-helm/releases) for all updates.
 
-## Helm chart structure
+## Helm Chart Structure
 
 The Helm chart includes the following folders:
 
@@ -59,7 +73,7 @@ The following features are available:
 - [Prometheus Operator objects](https://github.com/grafana/k8s-monitoring-helm/tree/main/charts/k8s-monitoring/charts/feature-prometheus-operator-objects): Collects metrics from Prometheus Operator objects, such as PodMonitors and ServiceMonitors
 - [Service integrations](https://github.com/grafana/k8s-monitoring-helm/tree/main/charts/k8s-monitoring/charts/feature-integrations): Collect profiles using Pyroscope
 
-## Packages installed with Helm chart
+## Packages Installed with Helm Chart
 
 The Grafana Kubernetes Monitoring Helm chart deploys a complete monitoring solution for your Cluster and applications running within it. The chart installs systems, such as Node Exporter and Grafana Alloy Operator, along with their configuration to make these systems run. These elements are kept up to date in the Kubernetes Monitoring Helm chart with a dependency updating system to ensure that the latest versions are used.
 
@@ -74,12 +88,12 @@ Diagram of components installed by Helm and Alloy Operator
 The Helm chart creates configuration files for the Grafana Alloy instances, and stores them in ConfigMaps.
 
 > Note
-> 
+>
 > Multiple instances of Grafana Alloy support the scalability of your infrastructure. To learn more, refer to [Deployment of multiple Alloy instances](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/configuration/helm-chart-config/helm-chart/#deployment-of-multiple-alloy-instances).
 
 All configuration related to telemetry data destinations are automatically loaded onto the Grafana Alloy instances that require them.
 
-### Infrastructure metrics
+### Infrastructure Metrics
 
 Alloy Operator installs an alloy-metrics StatefulSet instance which gathers metrics related to the Cluster itself and accepts metrics, logs, and traces via receivers. This instance can retrieve metrics from:
 
@@ -98,7 +112,7 @@ This Alloy instance can also gather metrics from:
 - [OpenCost](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/configuration/manage-configuration/#opencost-cost-calculations), to calculate Kubernetes infrastructure and container costs. OpenCost requires [Kubernetes 1.8+](https://github.com/opencost/opencost#getting-started) Clusters.
 - [Kepler](https://sustainable-computing.io/) for [energy metrics](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/navigate-k8s-monitoring/#discover-energy-usage)
 
-### Infrastructure logs
+### Infrastructure Logs
 
 The following collectors retrieve logs:
 
@@ -107,7 +121,7 @@ The following collectors retrieve logs:
 - An alloy-logs DaemonSet instance to retrieve Pod logs and Node logs By default, it uses HostPath volume mounts to read Pod log files directly from the Nodes. It can alternatively get logs via the API server, and be deployed as a Deployment.![Alloy logs instance for gathering logs](https://grafana.com/media/docs/grafana-cloud/k8s/diagram-alloy-logs.png?w=320)
 	Alloy logs instance for gathering logs
 
-### Application telemetry
+### Application Telemetry
 
 The Alloy Operator can also create the following to gather metrics, logs, traces, and profiles from applications running in the Cluster:
 
@@ -116,7 +130,7 @@ The Alloy Operator can also create the following to gather metrics, logs, traces
 - An alloy-events DaemonSet instance to gather profiles![Alloy profiles instance installed by Helm chart and the profiles gathered](https://grafana.com/media/docs/grafana-cloud/k8s/diagram-alloy-profiles.png?w=320)
 	Alloy profiles instance installed by Helm chart and the profiles gathered
 
-### Automatic instrumentation
+### Automatic Instrumentation
 
 With the Helm chart, you can install a Grafana Beyla DaemonSet to perform zero code instrumentation of applications and gather network metrics.
 
@@ -124,7 +138,7 @@ With the Helm chart, you can install a Grafana Beyla DaemonSet to perform zero c
 
 Beyla installed by Helm chart
 
-## Deployment of multiple Alloy instances
+## Deployment of Multiple Alloy Instances
 
 Multiple instances of Grafana Alloy are deployed instead of one instance that includes all functions. This design is necessary for security and balancing functionality and scalabilty.
 
@@ -132,7 +146,7 @@ Multiple instances of Grafana Alloy are deployed instead of one instance that in
 
 The use of distinct instances minimizes the security footprint required. For example, the alloy-logs instance may require a HostPath volume mount, but the other instances do not. Instead they can be deployed with a more restrictive and appropriate security context. Each object, whether Alloy, Node Exporter, cAdvisor, or Beyla is restricted to the permissions required for it to perform its function, leaving Grafana Alloy to act solely as a collector.
 
-### Functionality/scalability balance
+### Functionality/scalability Balance
 
 Each instance has unique functionality and scalability requirements. For example, the default functionality of the alloy-log instance is to gather logs via HostPath volume mounts, which requires the instance to be deployed as a DaemonSet. The alloy-metrics instance is deployed as a StatefulSet, which allows it to be scaled (optionally with a HorizontalPodAutoscaler) based on load. Otherwise, it would lose its ability to scale. The alloy-singleton instance cannot be scaled beyond one replica, because that would result in duplicate data being sent.
 
@@ -178,7 +192,7 @@ Sidecar for Alloy instances that reloads the Alloy configuration upon changes.
 
 **Deploy**: `clusterMetrics.kepler.enabled=true`
 
-### kube-state-metrics
+### Kube-state-metrics
 
 Gathers Kubernetes Cluster object metrics.
 
@@ -186,7 +200,7 @@ Gathers Kubernetes Cluster object metrics.
 
 **Deploy**: `clusterMetrics.kube-state-metrics.deploy=true`
 
-### kubectl
+### Kubectl
 
 Used for Helm hooks for properly sequencing the Alloy Operator deployment and removal.
 
@@ -218,7 +232,7 @@ Gathers Kubernetes Cluster Node metrics for Windows nodes.
 
 **Deploy**: `clusterMetrics.windows-exporter.deploy=true`
 
-## Container image security
+## Container Image Security
 
 The container images deployed by the Kubernetes Monitoring Helm chart are built and managed by the following subcharts. The Helm chart itself uses a dependency updating system to ensure that the latest version of the dependent charts are used. Subchart authors are responsible for maintaining the security of the container images they build and release.
 
@@ -234,7 +248,7 @@ The container images deployed by the Kubernetes Monitoring Helm chart are built 
 After you have made configuration choices, the `values.yaml` file is altered to reflect your selections for configuration.
 
 > Note
-> 
+>
 > In the configuration GUI, you can choose to switch on or off the collection of metrics, logs, events, traces, costs, or energy metrics during the configuration process.
 
 When you deploy the chart, the Alloy Operator dynamically creates the Alloy objects based on your choices and the Helm chart installs the appropriate components required for collecting telemetry data. Separate instances of Alloy deploy so that there are no issues with scaling.
@@ -258,7 +272,7 @@ For links to examples for customization, refer to the [Customize the Kubernetes 
 
 For Kubernetes Monitoring configuration issues, refer to [Troubleshooting](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/configuration/troubleshooting/#tips-for-helm-chart-configuration). For issues more specifically related to the Helm chart, refer to [Troubleshoot the Kubernetes Monitoring Helm chart configuration](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/configuration/helm-chart-config/helm-chart/troubleshoot-helm-chart/).
 
-## Metrics management
+## Metrics Management
 
 To learn more about managing metrics, refer to [Metrics management and control](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/configuration/manage-configuration/#metrics-management-and-control).
 
@@ -268,11 +282,14 @@ To uninstall the Helm chart:
 
 1. Delete the Alloy instances:
 	YAML
+
 	```yaml
 	kubectl delete alloy --all --namespace <namespace>
 	```
+
 2. Uninstall the Helm chart:
 	YAML
+
 	```yaml
 	helm uninstall --namespace <namespace> grafana-k8s-monitoring
 	```

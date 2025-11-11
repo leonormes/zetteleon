@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-09T12:15:11Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-09T12:25:23Z
+modified: 2025-11-11T08:39:48Z
 purpose: 
 review_interval: 
 see_also: []
@@ -26,6 +26,6 @@ updated:
 - I want a respectful and playful relationship
 - I want to have my ideas and concerns for the children supported and actioned.
 - I want educated children who can solve problems
-- I want to feel valued 
+- I want to feel valued
 - I want to feel part of a team
-- Zofja seems to think that it is a given that she is some sort of hero and works really hard. 
+- Zofja seems to think that it is a given that she is some sort of hero and works really hard.

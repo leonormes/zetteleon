@@ -1,9 +1,23 @@
 ---
-title: For My Daughter - The Two Heartbeats of Music
-tags: [music, family]
+aliases: []
+confidence: 
+created: 2025-11-10T11:15:48Z
+epistemic: 
+last_reviewed: 
+modified: 2025-11-10T16:56:46Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [family, music]
+title: For My Daughter - Two Kinds of Music
+type: 
+uid: 
+updated: 
 ---
 
-# The Two Heartbeats of Music
+## The Two Heartbeats of Music
 
 Hey,
 
