@@ -4,14 +4,14 @@ confidence:
 created: 2025-11-11T07:34:26Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-11T08:39:49Z
+modified: 2025-11-11T08:40:39Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: Untitled
+title: Invalidation Stalemate Prompt
 type: 
 uid: 
 updated: 
