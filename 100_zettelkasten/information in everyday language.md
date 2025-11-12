@@ -23,7 +23,7 @@ Information refers to facts or knowledge communicated or received concerning a p
 
 [[Information Processing and Transformation]]
 
-[[information_revelation]]
+[[information revelation]]
 
 [[Information as Foundation of Knowledge]]
 

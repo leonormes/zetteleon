@@ -5,14 +5,14 @@ created: 2025-02-07T12:57:55Z
 epistemic: 
 ID: information_revelation
 last_reviewed: 
-modified: 2025-10-30T10:27:48Z
+modified: 2025-11-12T08:28:14Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [information]
-title: information_revelation
+title: information revelation
 type: permanent
 uid: 
 updated: 

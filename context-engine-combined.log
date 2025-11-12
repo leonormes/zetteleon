@@ -349,3 +349,20 @@
 {"level":"info","message":"Logger configuration updated","newLogLevel":"info","service":"context-engine-mcp","timestamp":"2025-11-11 10:47:55"}
 {"level":"info","message":"Context Engine initialized","service":"context-engine-mcp","timestamp":"2025-11-11 10:47:55"}
 {"level":"info","message":"Context Engine MCP Server v2.0.0 started successfully","service":"context-engine-mcp","timestamp":"2025-11-11 10:47:55"}
+{"level":"info","message":"Context Engine initialized","service":"context-engine-mcp","timestamp":"2025-11-12 13:33:09"}
+{"level":"info","message":"Logger configuration updated","newLogLevel":"info","service":"context-engine-mcp","timestamp":"2025-11-12 13:33:09"}
+{"level":"info","message":"Context Engine initialized","service":"context-engine-mcp","timestamp":"2025-11-12 13:33:09"}
+{"level":"info","message":"Context Engine MCP Server v2.0.0 started successfully","service":"context-engine-mcp","timestamp":"2025-11-12 13:33:09"}
+{"level":"info","message":"Context Engine initialized","service":"context-engine-mcp","timestamp":"2025-11-12 13:33:10"}
+{"level":"info","message":"Logger configuration updated","newLogLevel":"info","service":"context-engine-mcp","timestamp":"2025-11-12 13:33:10"}
+{"level":"info","message":"Context Engine initialized","service":"context-engine-mcp","timestamp":"2025-11-12 13:33:10"}
+{"level":"info","message":"Context Engine MCP Server v2.0.0 started successfully","service":"context-engine-mcp","timestamp":"2025-11-12 13:33:10"}
+{"level":"info","message":"Context Engine initialized","service":"context-engine-mcp","timestamp":"2025-11-12 13:41:00"}
+{"level":"info","message":"Logger configuration updated","newLogLevel":"info","service":"context-engine-mcp","timestamp":"2025-11-12 13:41:00"}
+{"level":"info","message":"Context Engine initialized","service":"context-engine-mcp","timestamp":"2025-11-12 13:41:00"}
+{"level":"info","message":"Context Engine MCP Server v2.0.0 started successfully","service":"context-engine-mcp","timestamp":"2025-11-12 13:41:00"}
+{"level":"info","message":"Cache cleared","previousSize":0,"service":"context-engine-mcp","timestamp":"2025-11-12 13:48:47"}
+{"level":"info","message":"Context Engine initialized","service":"context-engine-mcp","timestamp":"2025-11-12 13:49:09"}
+{"level":"info","message":"Logger configuration updated","newLogLevel":"info","service":"context-engine-mcp","timestamp":"2025-11-12 13:49:09"}
+{"level":"info","message":"Context Engine initialized","service":"context-engine-mcp","timestamp":"2025-11-12 13:49:09"}
+{"level":"info","message":"Context Engine MCP Server v2.0.0 started successfully","service":"context-engine-mcp","timestamp":"2025-11-12 13:49:09"}

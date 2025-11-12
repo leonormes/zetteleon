@@ -22,3 +22,5 @@ updated: 2025-11-10T17:00:00Z
 **Summary:** The "intention-action gap" (or "knowing-doing gap") is the common and well-documented failure to translate stated values, intentions, or knowledge into corresponding actions.
 
 **Details:** Research shows this gap can be as high as 40%, meaning a significant portion of what we intend to do never materializes. This is not simply a failure of willpower but a complex phenomenon with cognitive, motivational, and contextual causes. It explains why people often know what is good for them (e.g., exercise, saving money) but fail to act on that knowledge.
+
+**Additional Details:** The gap appears across numerous domains. Studies show that even medical professionals who gain new knowledge often fail to change their clinical behavior. It is also seen when people know exercise is beneficial but remain sedentary, understand the environmental consequences of their actions but do not change consumption habits, and recognize healthy eating patterns yet still choose unhealthy foods.

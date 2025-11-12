@@ -26,7 +26,7 @@ Numbers are not the symbols; they are the abstract ideas the symbols represent.
 
 ---
 
-## \## The Core Idea: Abstract Concepts
+## ## The Core Idea: Abstract Concepts
 
 Think of the number seven. It isn't the symbol '7' or the word 'seven'. The number seven is the abstract property of **"sevenness"**. It's the shared characteristic of a flock of seven birds, the seven days of the week, the seven colours of the rainbow, or the seven notes in a musical scale.
 
@@ -36,7 +36,7 @@ Your own analogy is perfect: a concept can be explained with different words, bu
 
 ---
 
-## \## How This Applies to Your Examples
+## How This Applies to Your Examples
 
 Let's look at the numbers you mentioned through this lens.
 
@@ -62,7 +62,7 @@ This is a brilliant example to bring up. TREE(3) is a number so incomprehensibly
 
 ---
 
-## \## A Mental Model: Mathematical Platonism
+## ## A Mental Model: Mathematical Platonism
 
 The mental model you're looking for is very close to a philosophical view called **Mathematical Platonism**.
 
@@ -83,7 +83,7 @@ You've identified a foundational requirement for mathematics to apply to reality
 
 ---
 
-## \## Discreteness vs. Continuity
+## ## Discreteness vs. Continuity
 
 The concept you're describing is the difference between what is **discrete** and what is **continuous**.
 
@@ -98,7 +98,7 @@ Counting is fundamentally an act of recognising discrete objects. To count, you 
 
 ---
 
-## \## Your "One Energy Field" Universe
+## ## Your "One Energy Field" Universe
 
 In your thought experiment of a universe that is a single, perfectly uniform energy field, the concept of counting breaks down entirely.
 
@@ -108,7 +108,7 @@ It's like trying to count the water in a glass. You can't count "the water" itse
 
 ---
 
-## \## The Foundations of Maths
+## ## The Foundations of Maths
 
 This idea is so fundamental that it's baked into the very axioms of mathematics. **Set Theory**, which is a foundation for most modern maths, is based on the idea of a **set** being a collection of *distinct* objects. The first step is always to assume that we have things we can tell apart.
 
@@ -122,7 +122,7 @@ Here are a few of those philosophical lenses to help you hold the concept of 'nu
 
 ---
 
-## \## Meditation 1: Numbers as Perfect Forms (Platonism)
+## ## Meditation 1: Numbers as Perfect Forms (Platonism)
 
 This is the view we have touched upon. It suggests that numbers are real, existing objects in an abstract, non-physical realm of "perfect forms."
 
@@ -133,7 +133,7 @@ This is the view we have touched upon. It suggests that numbers are real, existi
 
 ---
 
-## \## Meditation 2: Numbers as Positions in a Structure (Structuralism)
+## ## Meditation 2: Numbers as Positions in a Structure (Structuralism)
 
 This view suggests that numbers don't have an independent existence as objects, but get their meaning purely from their **relationships** with other numbers.
 
@@ -144,7 +144,7 @@ This view suggests that numbers don't have an independent existence as objects, 
 
 ---
 
-## \## Meditation 3: Numbers as Logical Constructions (Logicism)
+## ## Meditation 3: Numbers as Logical Constructions (Logicism)
 
 This is the attempt to build numbers from the ground up using nothing but pure logic. It asks: can we define numbers without first assuming they exist?
 
@@ -155,7 +155,7 @@ This is the attempt to build numbers from the ground up using nothing but pure l
 
 ---
 
-## \## Meditation 4: Numbers as Human Intuition (Intuitionism)
+## ## Meditation 4: Numbers as Human Intuition (Intuitionism)
 
 This view holds that numbers are not discovered 'out there' but are constructions of the human mind. The foundation of mathematics is our intuitive sense of time and sequence—the feeling of "and then... and then... and then..."
 
@@ -174,7 +174,7 @@ To picture these other concepts, you need to upgrade your mental model from symb
 
 ---
 
-## \## The Number Line: From Mile Markers to a Continuous Road
+## ## The Number Line: From Mile Markers to a Continuous Road
 
 Imagine not a collection of symbols, but a single, perfect, unbroken line stretching out to the left and right. This line represents *all* possible numbers. It is a continuum.
 
@@ -185,7 +185,7 @@ Your old model works fine up to this point. But it's about to get interesting. I
 
 ---
 
-## \## Picturing the "Impossible"
+## ## Picturing the "Impossible"
 
 ### Irrational Numbers (, etc.)
 
@@ -216,7 +216,7 @@ Your intuition is correct on both counts, and resolving the apparent paradox req
 
 ---
 
-## \## The Grainy Line: Rational Numbers
+## ## The Grainy Line: Rational Numbers
 
 The process you're describing—taking smaller and smaller steps, forever shortening the distance—perfectly describes the set of **rational numbers**. These are all the numbers that can be written as a fraction (like 1/2, -8/3, or 5.75).
 
@@ -230,7 +230,7 @@ This creates a dense, but ultimately "grainy" or "holey" line. It seems continuo
 
 ---
 
-## \## The Smooth Line: Real Numbers
+## ## The Smooth Line: Real Numbers
 
 To get a truly continuous, unbroken line, you need to fill in all the microscopic holes between the rational numbers. The numbers that fill these holes are the **irrational numbers** —numbers like and that cannot be written as a simple fraction.
 
@@ -251,7 +251,7 @@ Your intuition is correct, and the reason is one of the most counter-intuitive t
 
 ---
 
-## \## The Countable Chaos of the Ball Pit (Rational Numbers)
+## ## The Countable Chaos of the Ball Pit (Rational Numbers)
 
 The reason the ball pit feels complicated is because it is **countably infinite**.
 
@@ -259,7 +259,7 @@ This means that although there's an infinite number of balls, you could theoreti
 
 ---
 
-## \## The Unified Simplicity of the Trampoline (Real Numbers)
+## ## The Unified Simplicity of the Trampoline (Real Numbers)
 
 The trampoline surface feels simpler because it is **uncountably infinite**.
 
@@ -277,7 +277,7 @@ The formal name for this property is **order**.
 
 ---
 
-## \## Order: A Built-in Feature of Numbers
+## ## Order: A Built-in Feature of Numbers
 
 When we think of numbers, we can't just think of them as a random collection of objects in a jumble. They exist within a **structure**, and a key part of that structure is that it is **ordered**.
 
@@ -289,7 +289,7 @@ This relationship is rigid and absolute. It's an inherent property of the struct
 
 ---
 
-## \## What Does "Bigger" Mean Logically
+## ## What Does "Bigger" Mean Logically
 
 This property of order isn't arbitrary. It comes from the most basic definition of what numbers are: concepts of quantity.
 
@@ -300,7 +300,7 @@ The property of '7' being "bigger" than '3' is the logical fact that you can mat
 
 ---
 
-## \## Your Ball Pit Analogy
+## ## Your Ball Pit Analogy
 
 Your updated analogy of different-sized balls is a good way to visualise magnitude. However, a slight refinement might make it even more powerful and aligned with the structuralist view we discussed.
 

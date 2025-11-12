@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2025-11-01T11:37:53Z
 epistemic: fact
 last_reviewed: 2025-11-01
-modified: 2025-11-01T11:44:48Z
+modified: 2025-11-12T13:45:37Z
 purpose: "Explain the ADHD brain's fundamental drive to seek dopamine-rewarding stimulation."
 review_interval: 90
 see_also: ["[[ADHD Brain is a Novelty-Seeking Machine]]", "[[Dopamine Dysregulation is a Key Factor in ADHD Motivation]]", "[[The Interest-Based Nervous System in ADHD]]"]
@@ -31,4 +31,5 @@ As the person tentatively explores the new interest, each new piece of informati
 **Contrast with Neurotypical Brains:**
 
 Unlike neurotypical brains that can sustain motivation through importance or external rewards, the ADHD brain requires continuous novelty and intrinsic interest to maintain dopamine-driven engagement.
+
 [[ADHD Brain is a Novelty-Seeking Machine]]

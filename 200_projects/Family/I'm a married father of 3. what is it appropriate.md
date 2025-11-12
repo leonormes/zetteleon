@@ -51,7 +51,7 @@ Meeting these needs fosters a fulfilling partnership, reduces frustration, and e
 - Emotional safety that encourages vulnerability and expression.
 - Appreciation and affirmation for efforts in the relationship and family
 
-Having these clear and mutual expectations nurtures a cooperative and healthy marriage where both partners feel valued, supported, and understood. This helps maintain balance and prevents resentment caused by unmet needs or unclear roles [^1_12][^1_13][^1_14].
+Having these clear and mutual expectations nurtures a cooperative and healthy marriage where both partners feel valued, supported, and understood. This helps maintain balance and prevents resentment caused by unmet needs or unclear roles 
 
 We both earn but i earn a lot more. What is it reasonable to expect with respect to having a say on what happens to the money? When does respectful budgeting become controlling and when does uncontrolled spending become disrespectful
 

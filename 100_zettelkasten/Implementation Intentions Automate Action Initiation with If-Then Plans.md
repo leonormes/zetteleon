@@ -22,3 +22,5 @@ updated: 2025-11-10T17:10:00Z
 **Summary:** Implementation intentions are a highly effective behavioral strategy that involves creating specific "if-then" plans to automate the initiation of goal-directed behavior.
 
 **Details:** The formula is "If situation Y occurs, then I will perform behavior Z." This simple plan creates a strong mental link between a situational cue and a desired action. When the cue is encountered, the action is triggered automatically and efficiently, without requiring conscious deliberation or willpower. This transfers control of action from internal motivation to the external environment.
+
+**Mechanism:** Implementation intentions work through two processes. First, they make the mental representation of the specified situation highly accessible. Second, they forge a strong, automatic association between the situation and the intended response. This strategic automation allows environmental stimuli to trigger behavior directly, reducing reliance on conscious motivation. Meta-analyses show this method has a medium-to-large effect (d = .65) on goal achievement.
