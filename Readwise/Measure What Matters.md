@@ -1,6 +1,5 @@
 # Measure What Matters
 
-![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/51G-XiecxvL._SL200_.jpg)
 
 ## Metadata
 - Author: [[John Doerr]]

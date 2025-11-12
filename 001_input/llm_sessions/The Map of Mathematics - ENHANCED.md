@@ -4,7 +4,7 @@ confidence: reference
 created: 2025-08-22T07:05:32Z
 epistemic: map-of-content
 last_reviewed: 2025-01-20
-modified: 2025-11-03T13:48:46Z
+modified: 2025-11-12T14:17:16Z
 purpose: Structural taxonomy of mathematical disciplines
 review_interval: quarterly
 see_also: ["[[Give me the logic]]", "[[How do I learn the maths]]", "[[Think like a mathematian]]", "[[What is maths]]"]
@@ -105,8 +105,6 @@ The foundations of mathematics investigate the [[Give me the logic|logical and p
 - Category theory - Abstract study of mathematical structures and relationships
 - [[The Realm of the Proven and Known#Gödel's Incompleteness|Gödel's incompleteness theorems]] - Fundamental limits to mathematical proof
 - Theory of computation - What can and cannot be computed
-
-*Philosophical perspectives:* [[What is maths#Logicism|Logicism]], [[What is maths#Platonism|Platonism]], [[What is maths#Formalism|Formalism]], [[What is maths#Intuitionism|Intuitionism]], [[What is maths#Structuralism|Structuralism]]
 
 *Related concepts:* [[Characteristica Universalis (Leibniz)]] and [[Calculus Ratiocinator (Leibniz)]] as early visions of formalized reasoning.
 

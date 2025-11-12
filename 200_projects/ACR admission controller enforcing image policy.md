@@ -1,6 +1,5 @@
 ---
 aliases: []
-confidence: 
 created: 2025-10-17T12:04:37Z
 epistemic: 
 last_reviewed: 
