@@ -1,23 +1,26 @@
 ---
-uid: 2025-11-12T14:25:00Z
+aliases: [MOC - The Knowledge-Action Gap]
+confidence: 
 created: 2025-11-12T14:25:00Z
-updated: 2025-11-12T14:25:00Z
-type: map
-scope: "The science and philosophy of taking action, focusing on the gap between knowledge and behavior and the strategies to bridge it."
-exclusions: "Specific self-help plans without reference to underlying principles."
 criteria: "Atomic notes defining the core problem (intention-action gap), its psychological and neurological causes, relevant philosophical concepts, and evidence-based solutions."
-tags:
-  - map
-  - action
-  - psychology
-  - neuroscience
-  - philosophy
-  - productivity
-aliases:
-  - MOC - The Knowledge-Action Gap
+epistemic: 
+exclusions: "Specific self-help plans without reference to underlying principles."
+last_reviewed: 
+modified: 2025-11-12T13:54:41Z
+purpose: 
+review_interval: 
+scope: "The science and philosophy of taking action, focusing on the gap between knowledge and behavior and the strategies to bridge it."
+see_also: []
+source_of_truth: []
+status: 
+tags: [action, map, neuroscience, philosophy, productivity, psychology]
+title: MOC - The Science of Taking Action Bridging the Knowledge-Action Gap
+type: map
+uid: 2025-11-12T14:25:00Z
+updated: 2025-11-12T14:25:00Z
 ---
 
-# MOC - The Science of Taking Action Bridging the Knowledge-Action Gap
+## MOC - The Science of Taking Action Bridging the Knowledge-Action Gap
 
 > **Inclusion criteria:** Atomic notes relating to the definition, causes, and solutions for the gap between knowing and doing.
 

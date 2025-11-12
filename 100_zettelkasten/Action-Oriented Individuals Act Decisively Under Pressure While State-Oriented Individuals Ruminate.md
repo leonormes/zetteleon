@@ -1,25 +1,23 @@
 ---
-uid: 2025-11-12T14:10:08Z
-created: 2025-11-12T14:10:08Z
-updated: 2025-11-12T14:10:08Z
-type: concept
-status: seedling
-epistemic: fact
-purpose: "To define action orientation vs. state orientation."
+aliases: [Action Orientation, State Orientation]
 confidence: 0.9
+created: 2025-11-12T14:10:08Z
+epistemic: fact
 last_reviewed:
+modified: 2025-11-12T13:54:41Z
+purpose: "To define action orientation vs. state orientation."
 review_interval: 90
 see_also: []
-source_of_truth:
-  - "[[MOC - The Science of Taking Action Bridging the Knowledge-Action Gap]]"
-aliases: [Action Orientation, State Orientation]
-tags:
-  - psychology
-  - personality
-  - volition
+source_of_truth: ["[[MOC - The Science of Taking Action Bridging the Knowledge-Action Gap]]"]
+status: seedling
+tags: [personality, psychology, volition]
+title: Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate
+type: concept
+uid: 2025-11-12T14:10:08Z
+updated: 2025-11-12T14:10:08Z
 ---
 
-# Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate
+## Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate
 
 **Summary:** "Action versus state orientation" is a personality trait describing how individuals respond to increasing situational demands. Action-oriented individuals act decisively, while state-oriented individuals tend to get stuck in ruminative cognitions.
 

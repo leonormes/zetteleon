@@ -1,25 +1,23 @@
 ---
-uid: 2025-11-12T14:10:06Z
-created: 2025-11-12T14:10:06Z
-updated: 2025-11-12T14:10:06Z
-type: concept
-status: seedling
-epistemic: fact
-purpose: "To define the theory-practice gap in an educational context."
+aliases: [Theory-Practice Gap]
 confidence: 0.9
+created: 2025-11-12T14:10:06Z
+epistemic: fact
 last_reviewed:
+modified: 2025-11-12T13:54:41Z
+purpose: "To define the theory-practice gap in an educational context."
 review_interval: 90
 see_also: []
-source_of_truth:
-  - "[[MOC - The Science of Taking Action Bridging the Knowledge-Action Gap]]"
-aliases: [Theory-Practice Gap]
-tags:
-  - education
-  - learning
-  - pedagogy
+source_of_truth: ["[[MOC - The Science of Taking Action Bridging the Knowledge-Action Gap]]"]
+status: seedling
+tags: [education, learning, pedagogy]
+title: The Theory-Practice Gap is the Disconnect Between Academic Knowledge and Practical Application
+type: concept
+uid: 2025-11-12T14:10:06Z
+updated: 2025-11-12T14:10:06Z
 ---
 
-# The Theory-Practice Gap is the Disconnect Between Academic Knowledge and Practical Application
+## The Theory-Practice Gap is the Disconnect Between Academic Knowledge and Practical Application
 
 **Summary:** The "theory-practice gap" describes the failure of academic or theoretical knowledge to transfer effectively to practical, real-world settings.
 
