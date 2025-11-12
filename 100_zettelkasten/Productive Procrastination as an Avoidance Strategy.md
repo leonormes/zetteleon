@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-20T08:00:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-10-31T10:42:01Z
+modified: 2025-11-12T14:01:13Z
 purpose: 
 review_interval: 
 see_also: []
@@ -27,3 +27,7 @@ This is distinct from, but related to, the idea of using Complex Systems as Scaf
 ## Related
 
 - `example-of::` [[I have a lot of shame about my life]]
+
+## Neurological Basis
+
+Productive procrastination is a powerfully reinforcing avoidance strategy for the ADHD brain. It is driven by a dopamine-deficient reward system that creates an "interest-based nervous system." This system constantly scans for activities that are novel, challenging, or urgent enough to provide an immediate dopamine release. Engaging in related but non-essential tasks (e.g., reorganizing files instead of writing code) provides a small, low-effort dopamine hit that is neurologically preferable to the main task, which may only offer a distant, delayed reward. This reinforces the avoidance of the primary goal.

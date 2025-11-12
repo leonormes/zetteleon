@@ -5,7 +5,7 @@ created: 2024-02-19T17:23:00Z
 epistemic:
 id: "20240219172300"
 last_reviewed:
-modified: 2025-10-31T09:31:39Z
+modified: 2025-11-12T14:01:15Z
 purpose:
 review_interval:
 see_also: []
@@ -62,3 +62,7 @@ Leverage [[Diffuse vs Focused Thinking Modes]] with:
 - [[Memory in learning]] — `specific-case-of` — Core memory systems and WM components theory
 - [[Working Memory Challenges in Technical Context]] - Specific applications
 - [[Manage Working Memory Load In-session]] - Practical techniques
+
+## The Re-Planning Loop
+
+A significant consequence of working memory deficits is the development of a compulsive "re-planning loop." Because the brain cannot trust itself to hold a multi-step plan in mind, it develops a profound lack of self-trust. This cognitive insecurity fosters a need to mentally "re-check" the plan and re-verify steps. This rumination is fueled by the fear of forgetting a critical detail. This self-awareness of being forgetful becomes a primary engine for anxiety and the "inner critic," creating negative self-talk and low confidence.
