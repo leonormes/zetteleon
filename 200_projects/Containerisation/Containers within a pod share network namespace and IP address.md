@@ -1,22 +1,24 @@
 ---
-id: Containers within a pod share network namespace and IP address
 aliases: []
-tags:
-  - container
-  - localhost
-  - network-namespace
-  - pod
-  - topic/technology/containers
-  - topic/technology/kubernetes
-  - type/fact
-created: 2025-10-26T17:19:00.000Z
-modified: 2025-11-03T13:48:27.000Z
+confidence: 
+created: 2025-10-26T17:19:00Z
+epistemic: 
+id: Containers within a pod share network namespace and IP address
+last_reviewed: 
+modified: 2025-11-12T14:24:37Z
+purpose: 
+review_interval: 
 see_also: []
 source_of_truth: []
+status: 
+tags: [container, localhost, network-namespace, pod, topic/technology/containers, topic/technology/kubernetes, type/fact]
 title: Containers within a pod share network namespace and IP address
 type: Fact
+uid: 
+updated: 
 version: 1
 ---
+
 ## Summary
 
 Containers within the same Kubernetes pod share a network namespace and IP address, allowing them to communicate using localhost or the pod's IP, as if they were processes running on the same machine.
@@ -41,5 +43,3 @@ Containers within the same Kubernetes pod share a network namespace and IP addre
 - [[What is a network namespace]] - Linux primitive that enables pod isolation
 - [[MOC - Container Networking Model]] - Deeper networking fundamentals
 - [[Pods communicate across cluster using CNI-provided networking]] - Cluster-level communication
-
-

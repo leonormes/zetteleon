@@ -4,20 +4,21 @@ confidence:
 created: 2025-11-11T09:27:54Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-11T12:09:06Z
+modified: 2025-11-12T14:24:34Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: I am going to have a conversation about respect in
+title: I Am Going to Have a Conversation About Respect In
 type: 
 uid: 
 updated: 
 ---
 
 I am going to have a conversation about respect in our relationship with my wife
+
 Discussion Point 1: The Foundations of Our Team
 
 I've been thinking about what makes a partnership feel strong and fair. Here are a few areas I'd love to hear your thoughts on.

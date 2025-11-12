@@ -1,16 +1,35 @@
-# Grafana k8s-monitoring v3.x Migration Attempt
+---
+aliases: []
+confidence: 
+created: 2025-11-10T17:56:07Z
+epistemic: 
+last_reviewed: 
+modified: 2025-11-12T14:24:27Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: []
+title: Grafana k8s-monitoring v3.x Migration Attempt
+type: 
+uid: 
+updated: 
+---
+
+## Grafana k8s-monitoring v3.x Migration Attempt
 
 **Date**: 2025-11-10
 **Status**: ❌ Failed - Rolled back to v1.5.4
 **Environment**: Testing cluster (fitfile-testing)
 
-## Summary
+### Summary
 
 Attempted to migrate Grafana k8s-monitoring from v1.5.4 to v3.5.6 in the testing environment. The migration was technically successful in terms of deployment, but **logs stopped flowing to Grafana Cloud**, forcing a rollback.
 
-## What Was Completed
+### What Was Completed
 
-### ✅ Successful Steps
+#### ✅ Successful Steps
 
 1. **Added k8s-monitoring to chart-manager**
    - Modified chart-manager to support `--skip-validation` flag
@@ -41,40 +60,47 @@ Attempted to migrate Grafana k8s-monitoring from v1.5.4 to v3.5.6 in the testing
    - node-exporter and kube-state-metrics operational
    - No errors in pod logs
 
-### ❌ Critical Issue: Logs Not Flowing
+#### ❌ Critical Issue: Logs Not Flowing
 
 **Problem**: Despite all pods running without errors, logs were **not reaching Grafana Cloud Loki**.
 
 **Root Cause Investigation**:
 
 1. **Initial attempt** - Used simple `url` field with template variables:
+
    ```yaml
    destinations:
      - name: "grafana-cloud-logs"
        type: "loki"
        url: "${loki-host}/loki/api/v1/push"
    ```
+
    - **Failed**: Chart literally used `${loki-host}` as string, not substituted
 
 2. **Second attempt** - Used hardcoded URLs:
+
    ```yaml
    destinations:
      - name: "grafana-cloud-logs"
        type: "loki"
        url: "https://logs-prod-008.grafana.net/loki/api/v1/push"
    ```
+
    - **Failed**: Chart still generated `${loki-host}` in Alloy config, ignoring hardcoded URL
 
 3. **Third attempt** - Used `hostKey` field:
+
    ```yaml
    destinations:
      - name: "grafana-cloud-logs"
        type: "loki"
        hostKey: "loki-host"
    ```
+
    - **Failed**: Chart didn't recognize `hostKey`, still generated broken template
 
 4. **Fourth attempt** - Found correct syntax using `urlFrom` with Alloy expressions:
+
    ```yaml
    destinations:
      - name: "grafana-cloud-logs"
@@ -89,19 +115,20 @@ Attempted to migrate Grafana k8s-monitoring from v1.5.4 to v3.5.6 in the testing
          name: "monitoring"
          namespace: "monitoring"
    ```
+
    - **Deployed successfully**: Alloy config generated correctly with `remote.kubernetes.secret` references
    - **Still failed**: Logs did not reach Grafana Cloud (verified by user)
 
-## Key Learnings
+### Key Learnings
 
-### v3.x Chart Behavior
+#### v3.x Chart Behavior
 
 1. **`urlFrom` is required** for dynamic secret references, not `url`
 2. **`secret.create: false`** must be set when using pre-existing secrets
 3. **Hook jobs** can block deployments if images are wrong (registry doubling issue)
 4. **Port conflicts** between v1.x and v3.x components during migration
 
-### v3.x Architecture Changes
+#### v3.x Architecture Changes
 
 - **v1.x**: Standalone Alloy Helm chart
 - **v3.x**: Alloy Operator dynamically creates Alloy instances
@@ -111,11 +138,12 @@ Attempted to migrate Grafana k8s-monitoring from v1.5.4 to v3.5.6 in the testing
 - **v3.x**: `destinations` array
 - **v3.x**: Cluster name is REQUIRED field
 
-## Unresolved Mystery
+### Unresolved Mystery
 
 **Why logs didn't flow despite correct configuration:**
 
 The final configuration (Attempt 4) had:
+
 - ✅ Correct `urlFrom` syntax with `remote.kubernetes.secret` references
 - ✅ All Alloy pods running without errors
 - ✅ Alloy config correctly generated with proper secret references
@@ -123,13 +151,14 @@ The final configuration (Attempt 4) had:
 - ❌ **But logs were NOT reaching Grafana Cloud**
 
 Possible theories:
+
 1. Silent failure in Alloy's secret loading mechanism
 2. Network/firewall issue specific to v3.x Alloy instances
 3. Loki authentication issue not being logged
 4. Secret keys mismatch (hyphenated vs underscore)
 5. Timing issue - logs might have started flowing after rollback was initiated
 
-## Current Status
+### Current Status
 
 - **Production**: v1.5.4 ✅
 - **Staging**: v1.5.4 ✅
@@ -137,9 +166,9 @@ Possible theories:
 - **Logs**: Flowing to Grafana Cloud ✅
 - **v3.x Migration**: Blocked pending investigation ⏸️
 
-## Next Steps for Future v3.x Migration
+### Next Steps for Future v3.x Migration
 
-### Required Investigation
+#### Required Investigation
 
 1. **Test v3.x in isolated environment first**
    - Deploy v3.x alongside v1.x with different release name
@@ -160,7 +189,7 @@ Possible theories:
    - Try using `secret.embed: true` with direct credential values
    - This bypasses the secret loading mechanism
 
-### Prerequisites Before Retry
+#### Prerequisites Before Retry
 
 - [ ] Understand root cause of logs not flowing
 - [ ] Test in non-production cluster first

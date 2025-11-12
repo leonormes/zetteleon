@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-09T08:42:31Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-09T09:24:16Z
+modified: 2025-11-12T14:24:20Z
 purpose: 
 review_interval: 
 see_also: []
@@ -105,7 +105,7 @@ Help me design habits, workflows, and trust mechanisms that:
 
 ---
 
-**Crafting ADHD-friendly system 
+**Crafting ADHD-friendly system
 **Starting with Leon's background, focusing on ADHD-friendly design, automation, and integration of specific plugins and workflows into the PKM system.
 Below is a **copy‑pasteable “System Design Prompt”** you can give to an LLM. It’s written to produce a concrete, ADHD‑friendly Obsidian PKM architecture with workflows, plugins, templates, and automations that solve the **trust + retrieval** problem (note loops, duplication, stale thinking).
 

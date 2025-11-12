@@ -1,9 +1,23 @@
 ---
-title: "‎Gemini - ADHD, LLMs, and PKM Balance"
+aliases: []
+confidence: 
+created: 2025-11-12T00:00:00Z
+epistemic: 
+last_reviewed: 
+modified: 2025-11-12T14:24:53Z
+purpose: 
+review_interval: 
+see_also: []
 source: "https://gemini.google.com/share/a6fc7de37c67"
-created: 2025-11-12
-tags:
+source_of_truth: []
+status: 
+tags: []
+title: ‎Gemini - ADHD, LLMs, and PKM Balance
+type: 
+uid: 
+updated: 
 ---
+
 I have ADHD. I love to learn new things and to dive deep into topics. I also use LLM a lot for thinking by asking questions and extending ideas. The LLM can output my ideas in a more structured and clear prose. The problem is I over do it and end up with loads of content and the same thing and have not really gained a clear perspective myself. I might aim to clarify and elaborate on a topic and then elaborate note but across different models to get a broad set of answers. But then I just end up with too much content again and that clear simple thread gets lost and I am back where I started. How can I get that optimum spot between just thinking for myself and using LLM to do all the thinking? What is a productive balance? I take notes in obsidian pkm zettelkasten
 
 This is a common challenge. The generative nature of LLMs can be a difficult combination with the novelty-seeking and divergent thinking patterns of ADHD. You are essentially pairing an infinite content generator with a brain that is drawn to infinite content. This leads to "content sprawl" rather than the clarity you seek.
@@ -370,6 +384,7 @@ Your first move is to stop "thinking" and **force a "thoughtful action" by defin
 
 - **Your Action:** Open an LLM chat.
 - **Your Prompt (The "A-Prompt"):**
+
 	> "My amorphous thought is: 'I really need to get my personal finances in order.'
 	> 
 	> **What is the single, specific action this thinking is supposed to lead to?**
@@ -380,6 +395,7 @@ Your first move is to stop "thinking" and **force a "thoughtful action" by defin
 	> 2. To *choose* a budgeting app?
 	> 3. To *make* a savings plan?
 	> 4. To *feel* less anxious?"
+
 - **LLM's Role (Converger):** The LLM will help you see that goals 2, 3, and 4 are *consequences* of goal 1. It will help you converge on the *true* first action.
 - **LLM's Likely Output:** "The most practical, foundational action is **(1) to *understand* your current financial situation.** A good MVA would be to **'list all monthly income sources and all fixed monthly expenses.'** "
 
@@ -391,6 +407,7 @@ Now that you have your goal, you must prevent "encyclopedia building." You defin
 
 - **Your Action:** Go to Obsidian.
 - **Your "C-Prompt" (A self-prompt, no LLM needed yet):**
+
 	> "I will create **one new, single note** titled: **'My Current Monthly Cashflow (Nov 2025)'**.
 	> 
 	> This note *must* contain only two lists:
@@ -399,6 +416,7 @@ Now that you have your goal, you must prevent "encyclopedia building." You defin
 	> 2. A bulleted list of all fixed subscriptions/bills and their amounts.
 	> 
 	> I will **time-box this to 25 minutes.**"
+
 - **Why this works:** You have created a "one-note-container." You're not "learning about finance"; you are *building* one, specific, atomic note. The task is now finite, clear, and non-overwhelming.
 
 ### Step 3: Thought (Reflect on the Action)
@@ -411,6 +429,7 @@ Now, you use the LLM for the final step: "act like a man of thought" by reflecti
 
 - **Your Action:** Copy the contents of your new Obsidian note (your lists) into the LLM.
 - **Your Prompt (The "T-Prompt"):**
+
 	> "I just did my MVA. Here is the raw data I collected in my 'Monthly Cashflow' note:
 	> 
 	> \[Paste your lists of income/expenses\]
@@ -420,11 +439,13 @@ Now, you use the LLM for the final step: "act like a man of thought" by reflecti
 	> 1. **What is the single most obvious insight?** (e.g., calculate the surplus/deficit).
 	> 2. **What is the 'next right action' (MVA) this insight suggests?**
 	> 3. **Synthesise this into an atomic 'reflection' note** for my Zettelkasten."
+
 - **LLM's Role (Synthesiser):** The LLM performs the analysis *on your behalf*, acting as a thoughtful partner.
 - **LLM's Likely Output:**
-	> 1. **Insight:** Your total fixed expenses (£X) are 85% of your total income (£Y). Your surplus is very small.
-	> 2. **Next MVA:** The next logical action is not to "save more," but to **"analyse your 'variable' spending (e.g., food, entertainment)"** to find leaks.
-	> 3. **Atomic Note:**`Title: Financial Reflection - High Fixed-Cost Ratio` `Tags: #finance #reflection` `My initial financial MVA (listing income/expenses) revealed my fixed costs are 85% of my income. This insight shifts the priority from 'saving' (which is difficult with a small surplus) to 'analysing variable spending' as the next step.`
+
+	> 4. **Insight:** Your total fixed expenses (£X) are 85% of your total income (£Y). Your surplus is very small.
+	> 5. **Next MVA:** The next logical action is not to "save more," but to **"analyse your 'variable' spending (e.g., food, entertainment)"** to find leaks.
+	> 6. **Atomic Note:**`Title: Financial Reflection - High Fixed-Cost Ratio` `Tags: #finance #reflection` `My initial financial MVA (listing income/expenses) revealed my fixed costs are 85% of my income. This insight shifts the priority from 'saving' (which is difficult with a small surplus) to 'analysing variable spending' as the next step.`
 
 ---
 
@@ -555,40 +576,40 @@ You can copy and paste everything from the blockquote below directly into a new 
 ---
 
 > **System Prompt: Set Conversation Framework**
-> 
+>
 > You are my "Thoughtful Action Partner." I have ADHD and a tendency to get stuck in "analysis paralysis" and "The Collector's Fallacy" (hoarding information instead of acting on it).
-> 
+>
 > Our entire conversation must follow a specific three-step process called the **A-C-T Framework**. Your primary goal is **NOT** to give me comprehensive, detailed answers. Your goal is to be a **convergent tool** that helps me turn my amorphous thoughts into concrete, minimal actions.
-> 
+>
 > You must be concise, fast, and action-oriented (like Gemini Flash).
-> 
+>
 > ---
-> 
+>
 > ### The A-C-T Framework
-> 
+>
 > **1\. A = ACTION (Define the Goal)**
-> 
+>
 > - **My Role:** I will give you a vague, "amorphous input" (e.g., "I need to sort out my finances").
 > - **Your Role:** You will **NOT** "solve" this. You will ask me convergent questions to help me define a single, physical **Minimum Viable Action (MVA)**. You will help me find the absolute smallest *next step*.
 > 
 > **2\. C = CONTAINER (Define the Boundary)**
-> 
+>
 > - **My Role:** Once we have the MVA, I will *stop talking to you*. I will go to my note-taking app (Obsidian) and create a "One-Note-Container" (a single, new note) for this action. I will time-box the action and complete it.
 > - **Your Role:** You will wait.
 > 
 > **3\. T = THOUGHT (Define the Insight)**
-> 
+>
 > - **My Role:** I will return and paste the *raw data* or *results* from my action (the contents of my one note).
 > - **Your Role:** You will act as a **Synthesiser**. You will analyse *only* the data I provided and answer two questions:
 > 	1. What is the single most obvious insight from this data?
 > 	2. What is the logical **Next MVA** this insight suggests?
 > 
 > ---
-> 
+>
 > This loop (A-C-T) will repeat. You are my partner for **Phase A** (defining the action) and **Phase T** (reflecting on the results).
-> 
+>
 > **Do you understand this framework?**
-> 
+>
 > If you do, please confirm, and I will give you my first "amorphous input."
 
 How can I set up a workflow of local LLM agents with tailored rules for each stage? I have ollama on my MacBook but don't know how to orchestrate agents for steps like this
@@ -700,9 +721,11 @@ You will call the `gemini` command, feed it the as a system instruction, and the
 
 1. **Execution:** Run the command below. Replace `[Your Amorphous Input]` with your messy thought (e.g., "Sort out my finances").
 	Bash
+
 	```markdown
 	gemini ask --system "${A_PROMPT}" "[Your Amorphous Input]"
 	```
+
 2. **Output:** The CLI will output the result, which, due to the system prompt, should be a single, concise MVA (e.g., `MVA: List all fixed monthly expenses and income sources in a note.`).
 3. **Capture the MVA (Optional):** You can capture this output into a shell variable for later reference, or just copy it manually.
 
@@ -721,9 +744,11 @@ After the action, you return to the CLI to reflect. You will use the second syst
 1. **Input:** Copy the contents of your Obsidian note (the raw data you collected) to your clipboard.
 2. **Execution:** Run the command below. You will paste your raw data into the terminal when prompted, or you can supply it via the command line itself using pipes, though pasting interactively is often cleaner for large blocks of text.
 	Bash
+
 	```markdown
 	gemini ask --system "${T_PROMPT}" "Here is the raw data collected from my last MVA. Please analyse this and give me the next action."
 	```
+
 3. **Output:** The CLI will provide the structured output (`INSIGHT:` and `NEXT MVA:`) which immediately feeds into your next action cycle.
 
 By utilising shell variables for your tailored rules, you can effectively run a tailored two-agent pipeline entirely within your terminal environment.

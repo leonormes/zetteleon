@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-06T00:00:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-06T11:08:23Z
+modified: 2025-11-12T14:24:25Z
 purpose: 
 review_interval: 
 see_also: []
@@ -12,7 +12,7 @@ source: "https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2411397121/Reso
 source_of_truth: []
 status: 
 tags: []
-title: Resource RequestsLimits - FITFILE - Confluence
+title: Resource RequestsLimits
 type: 
 uid: 
 updated: 

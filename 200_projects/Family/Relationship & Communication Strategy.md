@@ -4,14 +4,14 @@ confidence:
 created: 2025-11-11T08:49:57Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-11T08:50:20Z
+modified: 2025-11-12T14:24:34Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: LLM Context Prompt_ Relationship &amp; Commu
+title: Relationship & Communication Strategy
 type: 
 uid: 
 updated: 

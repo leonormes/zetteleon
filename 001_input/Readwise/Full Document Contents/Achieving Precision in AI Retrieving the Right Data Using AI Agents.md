@@ -1,30 +1,50 @@
-# Achieving Precision in AI: Retrieving the Right Data Using AI Agents
+---
+aliases: []
+confidence: 
+created: 2025-11-08T20:20:06Z
+epistemic: 
+last_reviewed: 
+modified: 2025-11-12T14:24:52Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [articles]
+title: Achieving Precision in AI Retrieving the Right Data Using AI Agents
+type: 
+uid: 
+updated: 
+---
+
+## Achieving Precision in AI: Retrieving the Right Data Using AI Agents
 
 ![rw-book-cover](https://res.infoq.com/presentations/ai-precision-rag-agents/en/card_header_image/adi-polak-twitter-card-1761732116601.jpg)
 
-## Metadata
+### Metadata
 - Author: [[InfoQ]]
 - Full Title: Achieving Precision in AI: Retrieving the Right Data Using AI Agents
 - Category: #articles
 - Summary: AI agents need precise, high-quality data and strong retrieval/indexing to work well.  
 Agents are specialized, collaborate via shared memory, and use feedback loops to learn and improve.  
 Real-time, service-oriented architectures and governance help scale and keep agent outputs reliable.
-- URL: https://share.google/aLciMfReLYfZ99v6t
+- URL: <https://share.google/aLciMfReLYfZ99v6t>
 
-## Full Document
+### Full Document
+
 Download Slides 50:00
+
 ![](https://imgopt.infoq.com/fit-in/1288x0/filters:quality(80)/presentations/ai-precision-rag-agents/en/slides/Adi-1762526705415.jpg)
+
 Adi Polak explains the path from GenAI prototype to production by focusing on precision - the competitive edge. She details Agentic RAG architectures, emergent agent design patterns, and crucial feedback loops (LLM-as-a-judge) for refinement. Learn how to leverage data streaming (Kafka) to manage collaboration, memory, and scale microservices in real-time agent systems.
 
 Adi Polak is an experienced Software Engineer and people manager. She has worked with data and machine learning for operations and analytics for over a decade. As a data practitioner, she developed algorithms to solve real-world problems using machine learning techniques. Adi builds high-performance teams focused on trust, excellence, and ownership.
 
 Software is changing the world. QCon London empowers software development by facilitating the spread of knowledge and innovation in the developer community. A practitioner-driven conference, QCon is designed for technical team leads, architects, engineering directors, and project managers who influence innovation in their teams.
 
-* ![](https://imgopt.infoq.com/fit-in/3000x4000/filters:quality(85)/filters:no_upscale()/sponsorship/eventsnotice/8ff0b3e3-cd99-4409-822b-df277c4c2f08/resources/1HarnessWebinarNov13-transcripts-1759510410571.jpg)
-
-* ![](https://imgopt.infoq.com/fit-in/3000x4000/filters:quality(85)/filters:no_upscale()/sponsorship/eventsnotice/b848df69-9596-4412-8df8-7bdd656b3217/resources/1HazelcastWorkshopDec9-Transcripts-1762519354050.png)
-
-* ![](https://imgopt.infoq.com/fit-in/3000x4000/filters:quality(85)/filters:no_upscale()/sponsorship/eventsnotice/2dce7c81-c188-482e-a322-c8cc827f4af1/resources/1ChainguardWebinarDec11-Transcript-1760973538528.png)
+- ![](https://imgopt.infoq.com/fit-in/3000x4000/filters:quality(85)/filters:no_upscale()/sponsorship/eventsnotice/8ff0b3e3-cd99-4409-822b-df277c4c2f08/resources/1HarnessWebinarNov13-transcripts-1759510410571.jpg)
+- ![](https://imgopt.infoq.com/fit-in/3000x4000/filters:quality(85)/filters:no_upscale()/sponsorship/eventsnotice/b848df69-9596-4412-8df8-7bdd656b3217/resources/1HazelcastWorkshopDec9-Transcripts-1762519354050.png)
+- ![](https://imgopt.infoq.com/fit-in/3000x4000/filters:quality(85)/filters:no_upscale()/sponsorship/eventsnotice/2dce7c81-c188-482e-a322-c8cc827f4af1/resources/1ChainguardWebinarDec11-Transcript-1760973538528.png)
 
 **Adi Polak**: What is wrong, in this slide? Can you tell me? If you be very detail-oriented and look into the text, there you might see like in AAI, or you might see precision with double I or double S. You might see that the text is not exactly as it should be, and these are really the challenges that we're facing with generative AI. Achieving precision is one of the hardest things that we need to do in order to actually operationalize AI and go from 0 to 1, MVP some prototype to actually production and see things that work. Here's another example of some slide. You can see again the double S at precision.
 

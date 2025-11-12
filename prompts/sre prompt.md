@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-08T20:17:24Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-08T20:18:03Z
+modified: 2025-11-12T14:24:19Z
 purpose: 
 review_interval: 
 see_also: []
@@ -18,6 +18,7 @@ updated:
 ---
 
 Role: You are an expert SRE Manager.
+
 > Task: Create a detailed, time-blocked weekly schedule (Monday to Friday, 9:00 - 17:00) for a mid-level DevOps/SRE engineer.
 > Goal: The schedule must strategically balance the different "tours of work" to protect deep-work time and minimise context-switching.
 > Key Work Types to Include:

@@ -1,3 +1,22 @@
+---
+aliases: []
+confidence: 
+created: 2025-11-11T19:38:28Z
+epistemic: 
+last_reviewed: 
+modified: 2025-11-12T14:24:53Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: []
+title: the LLM interface
+type: 
+uid: 
+updated: 
+---
+
 **Designing interface for prodOS**Designing an interface for a productivity system combining Obsidian, Todoist, and LLM integration. Considering architecture, workflows, UI, privacy concerns, and macOS features, aiming to reduce context switching and support automation.
 Love this idea, Leon. Let’s design a **prodOS** that’s opinionated enough to reduce friction but flexible enough to evolve. Since you already use **Obsidian + Markdown** for PKM and **Todoist** for tasks, the orchestrator should sit *between* them, minimizing context switching and making it effortless to go from “note or research” → “next action with reminders and ownership” → “progress updates and outputs.”
 
@@ -39,7 +58,8 @@ Below is a pragmatic blueprint: **interface**, **agent roles**, **workflows**, *
 - **Context-aware slash commands**: `/todoist` (search & insert task block), `/summarize`, `/outline`, `/cite`.
 
 ### C) Keyboard-First Command Palette (everywhere)
-```
+
+```sh
 > actionize [current | note path | selection]
 > plan session [note] [45m focus]
 > recall [topic] (search embeddings + backlinks)
@@ -82,6 +102,7 @@ Below is a pragmatic blueprint: **interface**, **agent roles**, **workflows**, *
 ## 4) Data Model & Conventions
 
 ### Note Frontmatter (MOC-ready & action-friendly)
+
 ```yaml
 ---
 id: 2025-11-11-scaling-llm-evals
@@ -104,11 +125,13 @@ updated: 2025-11-11
 ```
 
 ### Task Block in Markdown
+
 ```markdown
 ### Next actions
 - [ ] Draft eval runner RFC @leon #evals (due: 2025-11-13) [todoist:1234567890]
 - [ ] Benchmark small vs large models #evals #perf (due: 2025-11-14)
 ```
+
 - Or use Obsidian Tasks plugin syntax; the orchestrator maps to Todoist.
 
 ### Zettelkasten Friendly
@@ -154,15 +177,17 @@ updated: 2025-11-11
 ## 6) Prompt Patterns (robust + testable)
 
 ### Intent Router (classification JSON)
+
 ```text
 You are a router. Classify the user input into one of:
 ["capture","summarize","actionize","outline","draft","refactor","recall","plan_session","sync","other"].
 Return strict JSON: {"intent":"...", "arguments":{...}}.
 ```
 
-### Task Extraction (deterministic first, LLM repair)
+### Task Extraction (deterministic First, LLM repair)
 1. Regex pass for lines with `[ ]` or imperative sentences.
 2. LLM confirmation:
+
 ```text
 Extract actionable tasks from the input. Return strict JSON:
 {"tasks":[{"title":"...","due":"YYYY-MM-DD|null","labels":["..."],"estimate":"Xm|null"}]}
@@ -170,12 +195,14 @@ Only include tasks that a single person can complete in under a day.
 ```
 
 ### Summarize with Citations
+
 ```text
 Summarize the note into: TL;DR (3 bullets), Key Points (5-7 bullets), Open Questions (3+),
 with [[wikilinks]] preserved. No hallucinated facts. If unsure, say "Unknown".
 ```
 
-### Writer (with source block)
+### Writer (with Source block)
+
 ```text
 Draft a concise email to <recipient> proposing <X>. Constraints: proactive tone, 150-200 words,
 include 3 bullet options. Cite sources as markdown links found in the note's "refs" field.
@@ -210,7 +237,8 @@ include 3 bullet options. Cite sources as markdown links found in the note's "re
 ## 8) Orchestrator Skeleton (TypeScript-first, TDD-friendly)
 
 **Process Layout**
-```
+
+```sh
 /apps/menubar
 /apps/obsidian-plugin
 /packages/orchestrator
@@ -219,6 +247,7 @@ include 3 bullet options. Cite sources as markdown links found in the note's "re
 ```
 
 **Minimal Orchestrator (Node)**
+
 ```ts
 // packages/orchestrator/src/index.ts
 import { route } from './router';
@@ -248,6 +277,7 @@ export async function handleCommand(input: string, opts: { context?: any } = {})
 ```
 
 **Task Extractor with TDD**
+
 ```ts
 // packages/agents/src/task-extractor.ts
 export interface Task { title: string; due?: string | null; labels?: string[]; estimate?: string | null; }
@@ -270,6 +300,7 @@ export function extractTasksDeterministic(text: string): Task[] {
 ```
 
 **Tests**
+
 ```ts
 // packages/agents/test/task-extractor.spec.ts
 import { extractTasksDeterministic } from '../src/task-extractor';
@@ -286,7 +317,7 @@ it('extracts markdown tasks', () => {
 
 ## 9) UI Mock (Text)
 
-```
+```sh
 ┌─────────────────────────────── prodOS (menu bar) ───────────────────────────────┐
 │ > actionize current note                                                         │
 │   summarize selection                                                            │
@@ -315,7 +346,7 @@ it('extracts markdown tasks', () => {
 
 ---
 
-## 11) MVP → v1 Roadmap
+## 11) MVP → V1 Roadmap
 
 ### MVP (weekend-ish)
 - Menu bar app (Electron/Tauri) + global hotkey.
@@ -325,7 +356,7 @@ it('extracts markdown tasks', () => {
 - Embeddings index (sqlite + local embeddings model).
 - “Today Console” (basic list from Todoist Today).
 
-### v1
+### V1
 - Obsidian plugin with commands.
 - Plan Session (generate outline + tasks + time estimates).
 - Refactor to Zettels.
@@ -352,6 +383,7 @@ it('extracts markdown tasks', () => {
 ## 13) Example Templates
 
 **Meeting**
+
 ```markdown
 # Meeting: {{title}} ({{date}})
 ## Agenda
@@ -365,6 +397,7 @@ it('extracts markdown tasks', () => {
 ```
 
 **Research**
+
 ```markdown
 # {{topic}}
 ## TL;DR
@@ -380,6 +413,7 @@ it('extracts markdown tasks', () => {
 ```
 
 **Project (MOC)**
+
 ```markdown
 # Project: {{name}}
 Status: active
@@ -395,7 +429,7 @@ Status: active
 
 ---
 
-## 14) Implementation Tips (for your stack)
+## 14) Implementation Tips (for Your stack)
 - **TypeScript + TDD** across agents; keep LLM prompts in `.prompt.ts` with fixtures for snapshot tests.
 - Embed **prompt unit tests**: given input → assert output JSON schema.
 - Use **function calling**/JSON schemas to keep agents predictable.
@@ -405,7 +439,7 @@ Status: active
 
 ---
 
-## 15) What this looks like in a day
+## 15) What This Looks like in a Day
 - Morning: `Cmd+;` → “Today Console” → press **Start Focus** on the top task → Obsidian opens the linked note, timer runs, Do Not Disturb.
 - Midday: Paste an article snippet → **Actionize** suggests two tasks → hit **Send** → back to flow.
 - Afternoon: Run `Refactor to Zettels` on a long note → approve titles → graph grows with atomic ideas.
@@ -414,12 +448,14 @@ Status: active
 ---
 
 If you want, I can:
+
 - Generate a **TypeScript starter repo** (or the orchestrator package skeleton with tests).
 - Draft the **Obsidian plugin scaffolding** with the key commands.
 - Provide a **Todoist adapter** with typed endpoints and sample fixtures.
 - Mock up the **Electron/Tauri** menu bar app UI in code.
 
 Where do you want to start—**orchestrator package** or **Obsidian plugin**?
+
 I can see you're building on your existing ProdOS concept to create a more integrated system that bridges the gap between knowledge capture and actionable outcomes. Let me walk you through a comprehensive interface design that would create truly low-friction workflows between your PKM in Obsidian and task execution in Todoist.
 
 ## Understanding the Core Architecture
@@ -430,9 +466,10 @@ The most elegant approach would be a **command palette paradigm** combined with 
 
 ## The Primary Interface Layer
 
-Your main interaction point would be a global hotkey (perhaps `Cmd+Shift+Space`) that brings up an intelligent command bar. This isn't just a search interface - it's a natural language processor that understands context from multiple sources simultaneously. 
+Your main interaction point would be a global hotkey (perhaps `Cmd+Shift+Space`) that brings up an intelligent command bar. This isn't just a search interface - it's a natural language processor that understands context from multiple sources simultaneously.
 
 When you invoke it, the interface would show:
+
 - A primary input field for natural language commands
 - A context indicator showing what the system is "aware of" (current note, recent tasks, active projects)
 - Smart suggestions based on your current context

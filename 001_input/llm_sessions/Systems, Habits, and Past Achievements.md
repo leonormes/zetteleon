@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-30T00:00:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-10-30T11:06:58Z
+modified: 2025-11-12T14:24:48Z
 purpose: 
 review_interval: 
 see_also: []
@@ -12,7 +12,7 @@ source: "https://gemini.google.com/share/5ab8a57b9bb8"
 source_of_truth: []
 status: 
 tags: ["clipped", "llm_session"]
-title: ‎Gemini - Systems, Habits, and Past Achievements
+title: Systems, Habits, and Past Achievements
 type: 
 uid: 
 updated: 

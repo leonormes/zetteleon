@@ -4,14 +4,14 @@ confidence:
 created: 2025-10-24T07:20:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:23Z
+modified: 2025-11-12T14:24:32Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: complicated visual
+title: Complicated Visual Complicated Ideas and Deep Concepts
 type:
 uid: 
 updated: 

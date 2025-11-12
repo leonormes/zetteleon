@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-11T12:02:29Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-11T12:02:49Z
+modified: 2025-11-12T14:24:34Z
 purpose: 
 review_interval: 
 see_also: []
@@ -67,7 +67,8 @@ The Invalidation Stalemate is often protected by other conversational loops that
 -   **The "Silent Void":** Consistent silence or failure to initiate follow-ups communicates that "This issue is YOUR problem, not OUR problem," proving that the partner is not carrying the emotional mental load necessary for mutual maintenance of the relationship's health. This active dismissal through absence shows that the partner's concerns are not carrying enough weight to remain in the other's mental space.
 
 The solution to the "Reset Button" loop is to create a written **"Team Playbook"** of agreed principles, ensuring mutual accountability and making the hard-won peace tangible, thereby proving that both partners respect the progress they have made.
-The sources illustrate that **Conflict Flashpoints** are typically not about the surface issue (the _task_ or _object_) but are rather the concrete manifestations of deeperThe sources illustrate that **Conflict Flashpoints** are typically not about the surface issue (the _task_ or _object_) but are rather the concrete manifestations of deeper, unmet, and conflicting **Needs** related to fairness, efficiency, and emotional support, fundamentally challenging the **Foundations of Mutual Respect in Partnership**.
+
+The sources illustrate that **Conflict Flashpoints** are typically not about the surface issue (the *task* or *object*) but are rather the concrete manifestations of deeperThe sources illustrate that **Conflict Flashpoints** are typically not about the surface issue (the *task* or *object*) but are rather the concrete manifestations of deeper, unmet, and conflicting **Needs** related to fairness, efficiency, and emotional support, fundamentally challenging the **Foundations of Mutual Respect in Partnership**.
 
 A flashpoint occurs when the immediate conflict of needs becomes a "You vs. Me" zero-sum battle, rather than an "Us vs. The Problem" collaboration, leading both partners to feel disrespected.
 
@@ -79,8 +80,8 @@ The sources identify two major recurring flashpoints that expose underlying need
 
 This conflict is rooted in a fundamental mismatch between the partners’ values concerning how family problems should be solved, leading to one partner feeling like "the help" rather than a partner.
 
-- **Partner H's Needs/Values:** The husband (H) values **long-term efficiency and responsibility**. His optimal solution is a _strategic system_ to teach children to tidy up, thereby solving the problem permanently and instilling good habits. H feels aggrieved and disrespected when his strategic contribution is ignored, and he is asked to abandon the system to perform manual labour—making him feel like "the help".
-- **Partner W's Needs/Values:** The wife (W) appears to prioritize **immediate results and reduced conflict**. When she says, "help more," she means, "I am feeling overwhelmed by the immediate mess. I need you to relieve my stress _right now_ by completing this task". Her core need is for _immediate relief_ from stress and overwhelm.
+- **Partner H's Needs/Values:** The husband (H) values **long-term efficiency and responsibility**. His optimal solution is a *strategic system* to teach children to tidy up, thereby solving the problem permanently and instilling good habits. H feels aggrieved and disrespected when his strategic contribution is ignored, and he is asked to abandon the system to perform manual labour—making him feel like "the help".
+- **Partner W's Needs/Values:** The wife (W) appears to prioritize **immediate results and reduced conflict**. When she says, "help more," she means, "I am feeling overwhelmed by the immediate mess. I need you to relieve my stress *right now* by completing this task". Her core need is for *immediate relief* from stress and overwhelm.
 
 The flashpoint arises because the solution that meets H's long-term process needs (system enforcement) conflicts directly with W's short-term outcome needs (stress relief), leaving both feeling ignored and disrespected.
 
@@ -101,7 +102,7 @@ The sources establish that mutual respect is not an abstract concept but a funct
 
 The core disrespect arises from the **Invalidation Stalemate**, where one partner's need (often expressed as distress) is cancelled by the other's neutrality. The foundational principle to fix this is: **"You don't have to share my feeling to respect that I am having it"**.
 
-The specific need being disrespected is the need for one's subjective emotional reality to be treated as a "Team Problem" worthy of attention, even if the other partner doesn't feel the same distress. The strategy is to shift from debating the _trigger_ (the mess) to focusing on the _actual problem_ (the partner's stress).
+The specific need being disrespected is the need for one's subjective emotional reality to be treated as a "Team Problem" worthy of attention, even if the other partner doesn't feel the same distress. The strategy is to shift from debating the *trigger* (the mess) to focusing on the *actual problem* (the partner's stress).
 
 #### 2. The Need for Fair Systems and Shared Accountability
 

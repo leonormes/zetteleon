@@ -4,14 +4,14 @@ confidence:
 created: 2025-11-11T11:03:49Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-11T13:00:57Z
+modified: 2025-11-12T14:24:53Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: The best way to become good at something might surprise you
+title: The Best Way to Become Good at Something Might Surprise You
 type: 
 uid: 
 updated: 

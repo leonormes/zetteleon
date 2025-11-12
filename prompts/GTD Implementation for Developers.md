@@ -4,14 +4,14 @@ confidence:
 created: 2025-10-26T10:22:26Z
 epistemic:
 last_reviewed:
-modified: 2025-10-30T14:04:40Z
+modified: 2025-11-12T14:24:20Z
 purpose: Designs a GTD-based Todoist structure for a software developer to solve the '@Computer' context overload by introducing energy-based labels (@DeepWork, @QuickWins) and advanced filters for managing tasks by cognitive state.
 review_interval:
 see_also: []
 source_of_truth: []
 status:
 tags: []
-title: LLM Prompt_ GTD Implementation for Developer W
+title: GTD Implementation for Developers
 type: prompt
 uid:
 updated:

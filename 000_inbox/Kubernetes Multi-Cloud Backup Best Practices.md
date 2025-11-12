@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-11T12:55:24Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-11T16:29:50Z
+modified: 2025-11-12T14:24:53Z
 purpose: 
 review_interval: 
 see_also: []
@@ -217,12 +217,19 @@ Velero is an open-source tool (originated by Heptio, now VMWare) that operates a
 ## Assumes IRSA is Configured for the 'velero' Service account
 
   velero install
+
     --provider aws
+
     --plugins velero/velero-plugin-for-aws:v1.13.0
+
     --bucket <YOUR-S3-BUCKET-NAME>
+
     --backup-location-config region=<YOUR-REGION>
+
     --snapshot-location-config region=<YOUR-REGION>
+
     --use-kopia
+
     --wait
 
 ### **4.1.2 Velero Implementation for Azure AKS**
@@ -239,13 +246,21 @@ Velero is an open-source tool (originated by Heptio, now VMWare) that operates a
   BLOB_CONTAINER=velero
 
   velero install
+
     --provider azure
+
     --plugins velero/velero-plugin-for-microsoft-azure:v1.13.0
+
     --bucket $BLOB_CONTAINER
+
     --secret-file./credentials-velero
+
     --backup-location-config resourceGroup=$AZURE_BACKUP_RESOURCE_GROUP,storageAccount=$AZURE_STORAGE_ACOUNT_ID
+
     --snapshot-location-config resourceGroup=$AZURE_RESOURCE_GROUP
+
     --use-kopia
+
     --wait
 
   *(Note: The Workload Identity setup is more complex and involves pre-configuring the federated identity, but is the recommended practice over the --secret-file method.)*
