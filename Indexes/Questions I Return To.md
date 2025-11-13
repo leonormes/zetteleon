@@ -25,7 +25,7 @@ This note is a "Thinking Trails" index. It maps common questions and concepts to
 
 ### Knowledge Management & PKM
 - How do I build a note system that evolves with my thinking? → [[Evolutionary Note System SoT]]
-- How do I turn my knowledge into action? → [[Knowledge-to-Action System SoT]]
+- How do I bridge the gap between knowledge and action? → [[Bridging the Intention-Action Gap SoT]]
 
 ### Cloud & DevOps
 - How can we reduce cloud costs for non-production environments? → [[Automated Cloud Resource Hibernation SoT]]
