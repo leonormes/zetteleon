@@ -27,6 +27,7 @@ This note is a "Thinking Trails" index. It maps common questions and concepts to
 - How do I design and operate my personal productivity and knowledge system? → [[ProdOS (Productivity Operating System) SoT]]
 - How do I build a note system that evolves with my thinking? → [[Evolutionary Note System SoT]]
 - How do I bridge the gap between knowledge and action? → [[Bridging the Intention-Action Gap SoT]]
+* How do I start a Velero project (AWS/Azure) balancing pragmatism and learning? → [[Pragmatic Velero Project (AWS & Azure) SoT]]
 
 ### Cloud & DevOps
 - How can we reduce cloud costs for non-production environments? → [[Automated Cloud Resource Hibernation SoT]]
