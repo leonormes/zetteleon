@@ -1,17 +1,17 @@
 ---
-status: superseded
-superseded-by: "[[Bridging the Intention-Action Gap SoT]]"
-llm-action: redirect-created
 aliases: []
 confidence: 
 created: 2025-11-13T09:59:40Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-13T16:20:00Z
+llm-action: redirect-created
+modified: 2025-11-13T17:15:22Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
+status: superseded
+superseded-by: "[[Bridging the Intention-Action Gap SoT]]"
 tags: []
 title: The Science of Bridging Intention and Action
 type: 
@@ -21,8 +21,6 @@ updated:
 
 > [!INFO] This note has been superseded
 > The core insights from this research have been synthesized into the canonical note: **[[Bridging the Intention-Action Gap SoT]]**. Please refer to it for the most up-to-date and actionable understanding.
-
-
 
 ## The Science of Bridging Intention and Action
 

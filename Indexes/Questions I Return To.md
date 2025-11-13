@@ -1,17 +1,17 @@
 ---
-aliases: [Master Index, Entry Point]
+aliases: [Entry Point, Master Index]
 confidence:
 created: 2025-08-24T14:06:15Z
 epistemic:
 last_reviewed:
-modified: 2025-11-13T16:10:00Z
+modified: 2025-11-13T17:15:10Z
 purpose: A unified entry point for navigating core concepts, MOCs, and recurring questions.
 review_interval:
 see_also: []
 source_of_truth: []
 status: active
-tags: [entry-point, master, type/index, moc]
-title: Master Index & Questions I Return To
+tags: [entry-point, master, moc, type/index]
+title: Questions I Return To
 type: permanent
 uid:
 updated:
@@ -30,7 +30,7 @@ This note is a "Thinking Trails" index. It maps common questions and concepts to
 
 ### Cloud & DevOps
 - How can we reduce cloud costs for non-production environments? → [[Automated Cloud Resource Hibernation SoT]]
-- How do I use velero to manage backups in multiple cloud provider K8s? 
+- How do I use velero to manage backups in multiple cloud provider K8s?
 
 ---
 
