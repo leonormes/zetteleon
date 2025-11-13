@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-12T23:25:38Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-13T16:06:57Z
+modified: 2025-11-13T20:06:16Z
 purpose: 
 review_interval: 
 see_also: []
@@ -62,10 +62,6 @@ Here is a SESSION.md note summarizing the state and next steps for your “conti
 2025-11-12 23:24 GMT
 
 ***
-
-Citations:
-
-[1] Pieces.app <https://pieces.app>
 
 [[Successfully Re-engaging with a Project Builds Momentum for Future Continuity]]
 
