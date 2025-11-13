@@ -4,7 +4,7 @@ confidence:
 created: 2025-08-24T14:06:15Z
 epistemic:
 last_reviewed:
-modified: 2025-11-13T17:15:10Z
+modified: 2025-11-13T20:13:55Z
 purpose: A unified entry point for navigating core concepts, MOCs, and recurring questions.
 review_interval:
 see_also: []
@@ -27,11 +27,11 @@ This note is a "Thinking Trails" index. It maps common questions and concepts to
 - How do I design and operate my personal productivity and knowledge system? → [[ProdOS (Productivity Operating System) SoT]]
 - How do I build a note system that evolves with my thinking? → [[Evolutionary Note System SoT]]
 - How do I bridge the gap between knowledge and action? → [[Bridging the Intention-Action Gap SoT]]
-* How do I start a Velero project (AWS/Azure) balancing pragmatism and learning? → [[Pragmatic Velero Project (AWS & Azure) SoT]]
 
 ### Cloud & DevOps
 - How can we reduce cloud costs for non-production environments? → [[Automated Cloud Resource Hibernation SoT]]
 - How do I use velero to manage backups in multiple cloud provider K8s?
+- How do I start a Velero project (AWS/Azure) balancing pragmatism and learning? → [[Pragmatic Velero Project (AWS & Azure) SoT]]
 
 ---
 

@@ -8,7 +8,7 @@ last-resonance: 2025-11-13
 last-synthesis: 2025-11-13
 last_reviewed: 
 llm-responses: 1
-modified: 2025-11-13T20:11:22Z
+modified: 2025-11-13T20:14:54Z
 purpose: 
 quality-markers: []
 resonance-score: 1
@@ -28,7 +28,6 @@ updated:
 
 ## 1. Working Knowledge (Stable Foundation)
 
-- **Core Principle:** A learning project must balance **pragmatism (a quick win)** with **deep learning (abstraction)**.
 - **Pragmatism First:** Achieve a concrete, simple success on *one* platform first (e.C., AWS). Use defaults (default storage class, provider-supplied IAM policies) to get a functional baseline. This builds momentum and provides a "known good" state.
 - **Learning Second:** Use the *second* platform (e.g., Azure) to abstract and deepen knowledge. The act of translating the "known good" AWS setup to Azure forces an understanding of *why* it works, revealing the core concepts (auth, storage, snapshot APIs) versus implementation details.
 - **Document Contrast:** The most valuable learning output is documenting the *differences* between the two implementations (e.g., "AWS uses IRSA for auth; Azure uses a Service Principal").
@@ -39,11 +38,9 @@ This note outlines a pragmatic project plan for learning Velero for Kubernetes (
 
 The proposed approach is a phased, iterative loop:
 
-1.  **Phase 1 (Pragmatism):** Implement the simplest possible use case on AWS.
-2.  **Phase 2 (Learning):** Implement the *same* use case on Azure, forcing a deep dive into the provider-specific differences in authentication and storage.
+1.  **Phase 1 (Pragmatism):** Implement the simplest possible use case on Azure.
+2.  **Phase 2 (Learning):** Implement the *same* use case on AWS, forcing a deep dive into the provider-specific differences in authentication and storage.
 3.  **Phase 3 (Scaling):** Abstract the common patterns and test more advanced, realistic scenarios (e.g., cross-cluster migration, least-privilege permissions).
-
-This method provides clear entrypoints at each phase and directly counters the "Collector's Fallacy" by forcing hands-on implementation before exhaustive research.
 
 ## 3. Integration Queue (Structured Input)
 
@@ -118,6 +115,3 @@ This method provides clear entrypoints at each phase and directly counters the "
 ## 8. Sources and Links
 
 - **Related SoTs:**
-    - [[Kubernetes SoT]]
-    - [[AWS IAM SoT]]
-    - [[Azure AD SoT]]
