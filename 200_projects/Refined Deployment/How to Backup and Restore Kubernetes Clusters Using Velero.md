@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-13T16:51:12Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-13T16:55:48Z
+modified: 2025-11-13T17:39:20Z
 purpose: 
 review_interval: 
 see_also: []
@@ -52,15 +52,10 @@ Velero (formerly Heptio Ark) is an open-source tool for backing up, restoring, a
 
 **Key Takeaway:**
 Velero offers a robust, flexible solution for Kubernetes backup and restore, emphasizing ease of disaster recovery, compliance, and operational agility—ideal for both testing and production clusters.
-<span style="display:none">[^1_1]</span>
-
-<div align="center">⁂</div>
-
-[^1_1]: <https://dev.to/devtron_inc/how-to-backup-and-restore-kubernetes-clusters-using-velero-4f6o>
 
 ---
 
-## Create an ADHD Friendly Task List for Setting up Velero in My Azure Aks Cluster and Configuring a back
+Create an ADHD Friendly Task List for Setting up Velero in My Azure Aks Cluster and Configuring a back
 
 **ADHD-Friendly Task List: Setting Up Velero on Azure AKS \& Configuring Backup**
 
@@ -137,8 +132,3 @@ velero install \
 
 **Immediate Next Step:**
 Start with installing the Velero CLI or creating your Azure storage resources—pick whichever feels lowest friction and gets you moving!
-<span style="display:none">[^2_1]</span>
-
-<div align="center">⁂</div>
-
-[^2_1]: <https://dev.to/devtron_inc/how-to-backup-and-restore-kubernetes-clusters-using-velero-4f6o>

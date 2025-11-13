@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-13T09:24:25Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-13T10:05:13Z
+modified: 2025-11-13T17:55:10Z
 purpose: 
 review_interval: 
 see_also: []
@@ -42,9 +42,7 @@ This is a very coherent (and powerful) cognitive style. It’s common among deep
 
 ## Why Your ADHD Brain Might Work like This
 
-While ADHD is
-
-often framed as a deficit, many adults with ADHD develop distinct strengths and preferences:  
+While ADHD is often framed as a deficit, many adults with ADHD develop distinct strengths and preferences:  
 
 - Intolerance for “opaque steps.” If something feels arbitrary, your attention drops. Your brain seeks the deeper model that makes the surface details non-arbitrary.  
 - Interest-based attention. When the model “clicks,” engagement skyrockets. Working top-down (principles → design → implementation) delivers that click.  
@@ -56,15 +54,12 @@ This pattern is not only valid — it’s often a competitive advantage for comp
 
 ## Make This Strength Practical Day-to-day
 
-A
-
-few tactics to align your learning/building style with productivity:
+A few tactics to align your learning/building style with productivity:
 
 - Use the “3 layers” approach  
-  NaN. Principles: What’s the model? invariants? constraints?  
-  NaN. Patterns: What are the canonical ways it’s used (e.g., controllers/operators in k8s; hexagonal architecture in apps)?  
-  NaN. Procedures: Concrete commands/YAML/snippets as leaf nodes.  
-    
+  - Principles: What’s the model? invariants? constraints?  
+  - Patterns: What are the canonical ways it’s used (e.g., controllers/operators in k8s; hexagonal architecture in apps)?  
+  - Procedures: Concrete commands/YAML/snippets as leaf nodes.  
 - Capture a knowledge hierarchy  
   - Build a lightweight concept map or outline for each domain (Logseq/Obsidian/Markdown). Start with nouns and relationships: resources, controllers, events, contracts, invariants.
 - Define invariants first  
@@ -88,9 +83,7 @@ Pick one:
 - Kubernetes “from the API up” — we can map the control plane, API resources, reconciliation, and then tie specific YAML fields to the API schema and controller behaviors.  
 - App design “from data structures out” — we can define entities, invariants, and boundaries, then choose a minimal architecture and show how TypeScript types encode the model.
 
-Your drive makes a lot of sense — it’s a systems-first learning style that, paired with ADHD interest-based focus, pushes you toward deep, transferable understanding. If you tell me which area you want to tackle next, I’ll lay out
-
-the hierarchy and we’ll build from first principles.
+Your drive makes a lot of sense — it’s a systems-first learning style that, paired with ADHD interest-based focus, pushes you toward deep, transferable understanding. If you tell me which area you want to tackle next, I’ll lay out the hierarchy and we’ll build from first principles.
 
 **User:**
 
@@ -115,10 +108,7 @@ Several disciplines cover this from different angles. Depending on what you mean
 - Information architecture (IA)  
   - Organizing and labeling content so people can find and understand it (web/app UX, navigation structures, content models).
 - Knowledge representation (KR)  
-  - In AI: formalisms for
-
-encoding knowledge so machines can reason (graphs, logic, frames, Bayesian nets).
-
+  - In AI: formalisms for encoding knowledge so machines can reason (graphs, logic, frames, Bayesian nets).
 - Concept mapping and semantic networks  
   - Visual and graph-based approaches to represent concepts and their relationships without forcing a strict hierarchy.
 - Epistemology  
@@ -130,9 +120,7 @@ encoding knowledge so machines can reason (graphs, logic, frames, Bayesian nets)
 - Data modeling and schema design  
   - Practical organization of information for computation: ER modeling, relational schemas, normalization, and domain-driven design.
 - Knowledge management (KM)  
-  - Organizational practices for capturing, structuring, and retrieving knowledge in
-
-teams/companies.
+  - Organizational practices for capturing, structuring, and retrieving knowledge in teams/companies.
 
 If you’re drawn to “first principles plus flexible structure,” you might like:  
 
@@ -166,9 +154,7 @@ Philosophy, cognitive science, and complexity theory all grapple with this. Here
 ### 2) Emergence is Real and Non-mystical
 - Weak emergence: macro-patterns arise from micro-rules but aren’t easily predictable from them (e.g., flocking from simple rules).  
 - Strong emergence (controversial): macro-properties aren’t reducible in principle.  
-- In practice, we use middle-out models: choose a level where
-
-patterns stabilize (e.g., controllers and reconciliation in k8s; aggregates and invariants in DDD). That’s where understanding “cashes out.”
+- In practice, we use middle-out models: choose a level where patterns stabilize (e.g., controllers and reconciliation in k8s; aggregates and invariants in DDD). That’s where understanding “cashes out.”
 
 ### 3) Bootstrapping Knowledge: Predictive Brains, not Foundations
 - Predictive processing: brains generate models that predict sensory input; errors update the model. Knowledge “emerges” from iterative prediction-error minimization, not from axioms.  

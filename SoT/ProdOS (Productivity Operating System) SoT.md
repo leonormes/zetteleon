@@ -77,5 +77,6 @@ The system is built on a hierarchy of principles, most importantly the **Indistr
 
 ## 8. Sources and Links
 -   **Primary Sources:** The collection of notes in `200_projects/LLMPKM/` that detail the system's philosophy, architecture, and workflows.
--   **Related MOCs:** `[[ADHD and Motivation MOC]]`
--   **Related SoTs:** `[[Bridging the Intention-Action Gap SoT]]`, `[[Evolutionary Note System SoT]]`
+-   **Related MOCs:** [[ADHD and Motivation MOC]]
+-   **Related SoTs:** [[Bridging the Intention-Action Gap SoT]], [[Evolutionary Note System SoT]]
+- [[ProdOS System Overview and Development Progress]]

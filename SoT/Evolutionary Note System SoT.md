@@ -9,7 +9,7 @@ last-resonance: 2025-11-13
 last-synthesis: 2025-11-13
 last_reviewed:
 llm-responses: 1
-modified: 2025-11-13T16:07:10Z
+modified: 2025-11-13T18:03:31Z
 purpose:
 quality-markers: ['converged related note', initial synthesis]
 resonance-score: 2
@@ -46,6 +46,10 @@ The core practice is to move from a "capture-first" to a "synthesis-first" minds
 During synthesis, we process the queue, looking for patterns, resolving contradictions, and updating our core understanding. This iterative process is tracked with metadata like `synthesis-count` and `trust-level`, which provides clear signals about the maturity and reliability of the knowledge. This system combats recency bias and the "Collector's Fallacy" by creating evolutionary pressure, ensuring that the best, most durable insights rise to the top, regardless of when they were first captured.
 
 ## Integration Queue
+
+[[capture thoughts to extend]]
+
+[[not a final thought]]
 
 ## Battle Testing
 

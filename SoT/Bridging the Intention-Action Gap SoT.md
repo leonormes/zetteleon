@@ -84,7 +84,7 @@ This means creating a **Knowledge-to-Action (K2A) System** that not only defines
 ## 7. Tensions, Gaps, and Cross-SoT Coherence
 -   **Tensions:** The need for novelty can lead to abandoning effective systems simply because they become routine. The system itself must have novelty built in.
 -   **Confidence Gaps:** How to reliably generate intrinsic interest in a necessary but uninteresting task remains the core challenge.
--   **Cross-SoT Coherence:** This SoT is the practical, ADHD-aware application layer for the `[[Evolutionary Note System SoT]]` and is the central hub for concepts in the `[[ADHD and Motivation MOC]]`.
+-   **Cross-SoT Coherence:** This SoT is the practical, ADHD-aware application layer for the [[Evolutionary Note System SoT]] and is the central hub for concepts in the [[ADHD and Motivation MOC]].
 
 ## 8. Sources and Links
 -   **Supersedes:** [[ADHD and Productivity]], [[The Motivation Bridge - An ADHD Metaphor]], [[Activation Energy is the Primary Barrier to ADHD Task Initiation]], and others.
