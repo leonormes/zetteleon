@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-11T14:50:06Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-11T15:44:06Z
+modified: 2025-11-13T16:45:39Z
 purpose: 
 review_interval: 
 see_also: []
@@ -496,21 +496,17 @@ spec:
 
 **Tool comparison matrix**:
 
-| Feature | Velero | Kasten K10 | Portworx PX-Backup | Trilio |
-|---------|--------|------------|--------------------|---------|
-| **License** | Open source (Apache 2.0) | Commercial (node-based) | Commercial | Commercial |
-| **Multi-cloud** | Excellent (plugins) | Excellent (native) | Excellent | Excellent |
-| **UI/Dashboard** | CLI-first, basic UI | Advanced web UI | Web UI | Web UI |
-| **Application-aware** | Hooks required | Native | Native | Native |
-| **Continuous DP** | No | Limited | Yes (with Portworx) | Yes |
-| **Zero RPO** | No | No | Yes (replication) | Limited |
-| **Multi-cluster mgmt** | Manual | Built-in | Built-in | Manual |
-
-| **Cost** | Free | $$$ | $$$$ | $$$
-
- |
-
-| **Best for** | Getting started, open source shops | Enterprise Kubernetes with budget | Portworx users, zero-RPO needs | Multi-tenant, fast recovery |
+| Feature                | Velero                             | Kasten K10                        | Portworx PX-Backup             | Trilio                      |
+| ---------------------- | ---------------------------------- | --------------------------------- | ------------------------------ | --------------------------- |
+| **License**            | Open source (Apache 2.0)           | Commercial (node-based)           | Commercial                     | Commercial                  |
+| **Multi-cloud**        | Excellent (plugins)                | Excellent (native)                | Excellent                      | Excellent                   |
+| **UI/Dashboard**       | CLI-first, basic UI                | Advanced web UI                   | Web UI                         | Web UI                      |
+| **Application-aware**  | Hooks required                     | Native                            | Native                         | Native                      |
+| **Continuous DP**      | No                                 | Limited                           | Yes (with Portworx)            | Yes                         |
+| **Zero RPO**           | No                                 | No                                | Yes (replication)              | Limited                     |
+| **Multi-cluster mgmt** | Manual                             | Built-in                          | Built-in                       | Manual                      |
+| **Cost**               | Free                               | Not Free                          | Not Free                       | Not Free                    |
+| **Best for**           | Getting started, open source shops | Enterprise Kubernetes with budget | Portworx users, zero-RPO needs | Multi-tenant, fast recovery |
 
 **Recommendation by use case**:
 - **Small to medium environments**: Start with Velero for cost-effectiveness and simplicity
