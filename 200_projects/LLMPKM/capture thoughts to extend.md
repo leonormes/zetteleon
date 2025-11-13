@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-08T15:40:41Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-08T16:07:30Z
+modified: 2025-11-12T15:43:13Z
 purpose: 
 review_interval: 
 see_also: []
@@ -16,8 +16,6 @@ type:
 uid: 
 updated: 
 ---
-
-You're cutting right to the heart of it. Let me explain what PKM *actually* means in practice, not the theory.
 
 ## What "Organizing Your Thoughts" Really Means
 

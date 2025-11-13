@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-11-09T09:19:46Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-09T09:20:17Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-11-13T16:06:57Z
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: [moc]
+status:
+tags: [moc, prodos]
 title: next action prodOS
-type: 
-uid: 
-updated: 
+type:
+uid:
+updated:
 ---
 
 This is the most critical hurdle. The "Collector's Fallacy" feels like progress until you sit at the laptop, and then it's just noise.

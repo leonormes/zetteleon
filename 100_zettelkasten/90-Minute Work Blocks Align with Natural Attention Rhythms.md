@@ -4,11 +4,11 @@ confidence: 1
 created: 2025-11-01T21:08:00Z
 epistemic: method
 last_reviewed: 2025-11-01
-modified: 2025-11-01T20:43:14Z
-purpose: "To explain the 90-minute work block method of timeboxing."
+modified: 2025-11-13T16:07:15Z
+purpose: To explain the 90-minute work block method of timeboxing.
 review_interval: 90
-see_also: ['[[Pomodoro Technique]]', '[[Timeboxing Creates Structure for Action]]']
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Timeboxing Creates Structure for Action.md"]
+see_also: ["[[Pomodoro Technique]]", "[[Timeboxing Creates Structure for Action]]"]
+source_of_truth:
 status: evergreen
 tags: [focus, method, productivity, time-management, ultradian-rhythms]
 title: 90-Minute Work Blocks Align with Natural Attention Rhythms

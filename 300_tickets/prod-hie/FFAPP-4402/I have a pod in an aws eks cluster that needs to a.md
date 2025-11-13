@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-23T10:26:50Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:15Z
+modified: 2025-11-13T16:06:44Z
 purpose: 
 review_interval: 
 see_also: []
@@ -18,9 +18,7 @@ updated:
 version:
 ---
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-## I Have a Pod in an Aws Eks Cluster that Needs to Assume a Role that Allows it to Write to an S3 Bucket. We Thought We Needed the AWS_SECRET_ACCESS_KEY and AWS_ACCESS_KEY_ID for Those Users but My Llm Said No. Can You Validate the Advice it Gave
+I have a pod in an aws eks cluster that needs to assume a role that allows it to write to an s3 bucket. We thought we needed the aws_secret_access_key and aws_access_key_id for those users but my llm said no. Can you validate the advice it gave
 
 Your LLM advice is correct: you do not need AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY for your pod to assume the IAM role that allows writing to the S3 bucket.
 

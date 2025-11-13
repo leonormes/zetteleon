@@ -17,10 +17,6 @@ uid:
 updated: 
 ---
 
-Here’s a well-structured **LLM prompt** version of your statement that clearly frames the problem and desired outcome:
-
----
-
 ## **Prompt:**
 
 I want to improve my personal knowledge management workflow in Obsidian. Currently, I capture my thoughts, understanding, and learning effectively, but I experience significant cognitive friction when trying to rediscover and reuse ideas. This leads to several issues:

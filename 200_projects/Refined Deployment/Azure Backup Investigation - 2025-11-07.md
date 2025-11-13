@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-07T16:40:50Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-07T17:01:48Z
+modified: 2025-11-13T11:19:48Z
 purpose: 
 review_interval: 
 see_also: []
@@ -208,5 +208,3 @@ Based on your investigation report, you should consider:
 ◦ fitfile-cloud-testing-aks-cluster
 ◦ fitfile-cloud-staging-aks-cluster
 4. Review storage account tempakstest (RAGRS) - may no longer be needed
-
-The memory has been saved to Pieces for future reference!

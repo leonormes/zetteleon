@@ -1,33 +1,20 @@
 ---
 aliases: []
-confidence:
-created: 2025-11-12T13:38:53Z
-epistemic:
-journal: Daily
-journal-date: 2025-11-12
-last_reviewed:
-modified: 2025-11-13T16:07:15Z
-purpose:
-review_interval:
+confidence: 
+created: 2025-11-12T23:25:38Z
+epistemic: 
+last_reviewed: 
+modified: 2025-11-13T16:06:57Z
+purpose: 
+review_interval: 
 see_also: []
 source_of_truth: []
-status:
+status: 
 tags: []
-title: 2025-11-12
-type:
-uid:
-updated:
----
-
-```journal-nav
-
-```
-
-**Life Day:** 19002
-**Life Week:** 2714 (67.8%)
-**Life Month:** 624
-**Life Year:** 52
-
+title: Continuation Copilot
+type: 
+uid: 
+updated: 
 ---
 
 this continuation system is a project of mine. give me a session.MD note for my pkm about it so far
@@ -76,8 +63,12 @@ Here is a SESSION.md note summarizing the state and next steps for your “conti
 
 ***
 
-This SESSION.md captures where you are, the next small steps, intent, open questions, links, recent wins, and the timestamp—ready for Pieces.app or your PKM workflow[1].
-
 Citations:
 
 [1] Pieces.app <https://pieces.app>
+
+[[Successfully Re-engaging with a Project Builds Momentum for Future Continuity]]
+
+[[MOC - Project Continuity]]
+
+[[A Project Story Tracks a Project's Evolving Vision]]
