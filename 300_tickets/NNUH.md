@@ -49,7 +49,7 @@ updated:
 | **New subscription**             | `NNUHFT-SDE` created                                                                                                                                             |
 | *Accounts**                      | Accounts setup for Leon and Oliver                                                                                                                               |
 | **Account Rights**               | Granted **Contributor rights** over the subscription (6-month time bound) 20                                                                                     |
-| **vNet**                         | `NNUHFT-SDE-vnet1` created with an address space of **192.168.200.0/24** 21                                                                                      |
+| **vNet**                         | `NNUHFT-SDE-vnet1` created with an address space of **192.168.200.0/24**                                                                                         |
 | **NAT Gateway**                  | Deployed for external internet traffic                                                                                                                           |
 | **External IP for NATd traffic** | **20.162.236.86**                                                                                                                                                |
 | **Subnet for NAT Gateway**       | A small subnet had to be created: `NAT` with address space **192.168.200.0/29**242424. This subnet has **3** available IPs25. The rest of the vNet space is free |
@@ -58,28 +58,28 @@ updated:
 
 #### Resource Deployment Tags
 
-Ben requests that any resources be deployed with the following tags28:
+Ben requests that any resources be deployed with the following tags
 
-- Department: `SDE` 29
-- Environment: `live` 30
+- Department: `SDE` 
+- Environment: `live` 
 
 ---
 
 ### Outstanding Actions List (13 Nov 2025, 19:24)
 
-**From:** Susannah Thomas (FITFILE Project Director) 31313131**To:** Mike Shemko, Ben Goss 32**Cc:** Mark Dines-Allen 33**Subject:** EoE - NNUH - Actions Register - outstanding items 34
+**From:** Susannah Thomas (FITFILE Project Director) **To:** Mike Shemko, Ben Goss **Cc:** Mark Dines-Allen **Subject:** EoE - NNUH - Actions Register - outstanding items
 
 Susannah provides the following outstanding items from the Actions Register requiring input from Mike Shemko and Ben Goss:
 
-1. Confirm if **`year_of_birth`** will be replaced or expanded into **`date_of_birth`**35.
-2. **Discuss internally the audit trail requirement** and advise FITFILE which option suits NNUH best36.
+1. Confirm if **`year_of_birth`** will be replaced or expanded into **`date_of_birth`**.
+2. **Discuss internally the audit trail requirement** and advise FITFILE which option suits NNUH best.
 3. **Provide details on frequency of data updates**37.
 
 **Further Notes:**
 
-- Julia has shared the **White Rabbit guide** via email to assist with providing drug formats to The Hyve38.
-- Susannah asked Ben Goss if the **subscription request and firewall changes** had been submitted to the CAB committee for approval39.
-    - This is crucial to install the FITFILE Node and have synthetic data flowing before the Christmas change freeze dates40.
+- Julia has shared the **White Rabbit guide** via email to assist with providing drug formats to The Hyve.
+- Susannah asked Ben Goss if the **subscription request and firewall changes** had been submitted to the CAB committee for approval.
+    - This is crucial to install the FITFILE Node and have synthetic data flowing before the Christmas change freeze dates.
 - Susannah confirms she will send the notes from the day's call to Mike Shemko the following morning41.
 
 ---

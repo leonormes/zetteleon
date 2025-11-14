@@ -22,8 +22,6 @@ Load this context. This is still not what I want. I want a zettelkasten but 1 I 
 
 That is a very detailed and robust system you have developed! I can certainly summarise the workflow you've outlined and evaluate its various touch points for potential barriers, particularly in the context of **ADHD (Attention Deficit Hyperactivity Disorder)**, which often involves challenges with initiation, sustained attention, organisation, and task switching.
 
-I will use the British English spelling and formatting you prefer.
-
 ## 📝 Chronos Synthesizer Workflow Summary and ADHD Evaluation
 
 The **Chronos Synthesizer** workflow is a highly structured, lifecycle-managed knowledge system designed to prevent decay and ensure coherence by relentlessly converging knowledge onto a single **Source of Truth (SoT)** note.

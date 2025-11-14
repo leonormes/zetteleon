@@ -9,7 +9,7 @@ last-resonance: 2025-11-13
 last-synthesis: 2025-11-13
 last_reviewed:
 llm-responses: 1
-modified: 2025-11-13T18:03:31Z
+modified: 2025-11-14T12:05:00Z
 purpose:
 quality-markers: ['converged related note', initial synthesis]
 resonance-score: 2
@@ -57,6 +57,7 @@ During synthesis, we process the queue, looking for patterns, resolving contradi
 -   **Challenges Survived:**
     -   *(This section is for you to document experiments and tests)*
 -   **Current Status:** REINFORCED | WEAKENED | UNDER REVIEW
+- I don't know how to use it as I go! I think because I used llm to create it it doesn't fit me.
 
 ## Understanding Layers
 

@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-23T10:26:50Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-13T16:06:44Z
+modified: 2025-11-14T11:53:16Z
 purpose: 
 review_interval: 
 see_also: []
@@ -134,7 +134,3 @@ This IRSA model aligns with AWS best practices because it:
 - Eliminates shared node-level permissions,
 - Scopes IAM access down to the Kubernetes service account identity, and
 - Prevents other pods from impersonating the hyve pod’s role.[^2_1]
-
-<div align="center">⁂</div>
-
-[^2_1]: IAM-AssumeROle.md
