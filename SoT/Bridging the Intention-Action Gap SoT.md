@@ -9,19 +9,19 @@ last-resonance: 2025-11-13
 last-synthesis: 2025-11-14
 last_reviewed: 
 llm-responses: 4
-modified: 2025-11-14T12:00:00Z
+modified: 2025-11-14T11:41:46Z
 mvu-hash: "" # To be calculated
 purpose: 
-quality-markers: ["Added ADHD-specific context", "Integrated practical workflow", "Synthesized from comprehensive research", "Added real-world DevOps K2A example"]
+quality-markers: ["Added ADHD-specific context", "Added real-world DevOps K2A example", "Integrated practical workflow", "Synthesized from comprehensive research"]
 related-soTs: ["[[ADHD and Motivation MOC]]", "[[Evolutionary Note System SoT]]", "[[MOC - ADHD Hyperfixation-Burnout Cycle]]"]
 resonance-score: 4
 review_interval: 
 see_also: []
 source_of_truth: true
 status: 
-supersedes: ["[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]", "[[ADHD and Productivity]]", "[[ADHD routines should be based on intrinsic motivation not external pressure]]", "[[Knowledge-to-Action System SoT]]", "[[The Activation Cost of Tasks is Higher in ADHD]]", "[[The Motivation Bridge - An ADHD Metaphor]]", "[[The Science of Bridging Intention and Action]]", "[[Why Importance and Rewards Fail to Motivate ADHD Brains]]", "[[KtA]]"]
+supersedes: ["[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]", "[[ADHD and Productivity]]", "[[ADHD routines should be based on intrinsic motivation not external pressure]]", "[[Knowledge-to-Action System SoT]]", "[[KtA]]", "[[The Activation Cost of Tasks is Higher in ADHD]]", "[[The Motivation Bridge - An ADHD Metaphor]]", "[[The Science of Bridging Intention and Action]]", "[[Why Importance and Rewards Fail to Motivate ADHD Brains]]"]
 synthesis-count: 4
-tags: [adhd, execution, habits, motivation, neuroscience, pkm, productivity, psychology, SoT, devops, k2a]
+tags: [adhd, devops, execution, habits, k2a, motivation, neuroscience, pkm, productivity, psychology, SoT]
 title: Bridging the Intention-Action Gap SoT
 trust-level: authoritative
 type: SoT
@@ -47,15 +47,15 @@ This creates the **Motivation Paradox**: waiting for a feeling of motivation tha
 This means creating a **Knowledge-to-Action (K2A) System** that not only defines the next action but does so in a way that is visual, tangible, and leverages ADHD's core motivators: Passion/Play, Interest, Novelty, Challenge, and Hurry (The PINCH Model). This system is not just for simple tasks; it can be scaled to manage complex professional domains like DevOps by integrating feedback loops (e.g., DORA metrics) and structured, hands-on practice.
 
 ## 3. Integration Queue (Structured Input)
-### 📤 Integration Source 2025-11-14 (Source: [[KtA]], Agent: Gemini)
-*   **Raw Excerpt/Key Insight:** The note provides a complete, practical K2A framework for learning complex technical skills (DevOps/GitOps) while accommodating ADHD traits. It suggests a 70/20/10 (action/research/reflection) split, using DORA metrics as a feedback loop, standardizing toolchains to reduce cognitive load, and using a backlog of micro-projects.
-*   **Value Proposition:** This adds a concrete, real-world, and highly-structured implementation of the K2A system, proving its utility beyond simple task management and into professional upskilling. It provides an excellent template for applying the SoT's principles.
-*   **Conflict Analysis:** No conflicts. Deeply reinforces and provides a practical application layer for the existing claims.
-*   **Suggested Action:** Integrate as a new "Example Implementation" section under Layer 3 to serve as a template for applying K2A to other complex domains.
+### 📤 Integration Source 2025-11-14 ( Agent: Gemini)
+-   **Raw Excerpt/Key Insight:** The note provides a complete, practical K2A framework for learning complex technical skills (DevOps/GitOps) while accommodating ADHD traits. It suggests a 70/20/10 (action/research/reflection) split, using DORA metrics as a feedback loop, standardizing toolchains to reduce cognitive load, and using a backlog of micro-projects.
+-   **Value Proposition:** This adds a concrete, real-world, and highly-structured implementation of the K2A system, proving its utility beyond simple task management and into professional upskilling. It provides an excellent template for applying the SoT's principles.
+-   **Conflict Analysis:** No conflicts. Deeply reinforces and provides a practical application layer for the existing claims.
+-   **Suggested Action:** Integrate as a new "Example Implementation" section under Layer 3 to serve as a template for applying K2A to other complex domains.
 
 ### 📤 Integration Source (Existing)
-*   [[Bridging Learning and Doing#🧠 Full Context Prompt — “User Profile + Motivation + PKM Struggles”]]
-*   [[The Science of Bridging Intention and Action#Psychological Barriers Create the Knowing-doing Paradox]]
+-   [[Bridging Learning and Doing#🧠 Full Context Prompt — “User Profile + Motivation + PKM Struggles”]]
+-   [[The Science of Bridging Intention and Action#Psychological Barriers Create the Knowing-doing Paradox]]
 
 ## 4. Understanding Layers (Progressive Abstraction)
 -   **Layer 1: Basic Mental Model (The Motivation Bridge):** For the ADHD brain, the bridge from 'wanting to do' to 'doing' is broken. You can't will yourself across; you must build the missing planks with external structures and brain-friendly tricks. **Motion Creates Motivation.**
@@ -105,6 +105,6 @@ This means creating a **Knowledge-to-Action (K2A) System** that not only defines
 -   **Cross-SoT Coherence:** This SoT is the practical, ADHD-aware application layer for the [[Evolutionary Note System SoT]] and is the central hub for concepts in the [[ADHD and Motivation MOC]].
 
 ## 8. Sources and Links
--   **Supersedes:** [[ADHD and Productivity]], [[The Motivation Bridge - An ADHD Metaphor]], [[Activation Energy is the Primary Barrier to ADHD Task Initiation]], [[KtA]], and others.
+-   **Supersedes:** [[ADHD and Productivity]], [[The Motivation Bridge - An ADHD Metaphor]], [[Activation Energy is the Primary Barrier to ADHD Task Initiation]], and others.
 -   **Related MOCs:** [[ADHD and Motivation MOC]], [[MOC - ADHD Hyperfixation-Burnout Cycle]]
 -   **Related SoTs:** [[Evolutionary Note System SoT]]
