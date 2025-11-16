@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-15T17:55:10Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-15T18:35:26Z
+modified: 2025-11-16T17:02:53Z
 purpose: 
 review_interval: 
 see_also: []
@@ -28,6 +28,7 @@ More plans. More clever LLM ideas. Ideas as objects with metadata, linked up in 
 I would like to overcome my ADHD difficulties. Clarify thinking. Improve my understanding. But I can't transfer my understanding to writing and back into cognitive phenomena. What am I missing? Ha, even as I say how useless it is I am still trying to make it work! After all I am g saying, my answer is to say "how can I fix it". Madness.
 
 [[2025-11-14]]
+
 ## Summary
 
 **The Core Problem:**
@@ -36,11 +37,8 @@ You can't trust your notes to represent your current thinking. Even when you fin
 **The Thought Process:**
 
 1. **Started with the symptom:** Compulsive system-building that feels ritualistic and disconnected from actual outcomes
-
 2. **Identified the behavior:** Cargo culting PKM—building infrastructure for emergence and insight that never actually happens, just accumulating content while endlessly redesigning systems
-
 3. **Found the surface problem:** Writing the same insights repeatedly because you can't *find* what you've already written when you need it—your past thinking doesn't surface at the point of relevance
-
 4. **Reached the root cause:** Even when you *do* find notes, you can't trust they represent your *latest* thinking. Ideas evolve, but notes are frozen snapshots from unknown points in time with no version control
 
 **What You Actually Need:**
