@@ -12,7 +12,7 @@ source_of_truth: []
 status:
 tags: []
 title: PKM and Zettelkasten Index
-type: index
+type: map
 uid:
 updated:
 version: 1

@@ -1,20 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-25T20:34:01Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-10-30T11:06:54Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status:
+tags:
+  - git
 title: Git as a Content-Addressable Filesystem
 type:
-uid: 
-updated: 
+uid:
+updated:
 version:
 ---
 
