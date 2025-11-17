@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-11T07:46:11Z
 epistemic:
 last_reviewed:
-modified: 2025-11-15T09:29:32Z
+modified: 2025-11-16T17:03:05Z
 purpose:
 review_interval:
 see_also: []
@@ -351,6 +351,7 @@ But I don't know what you need from me. And I think that's part of the problem."
 **"When you say I don't follow your suggestions - what does that tell you? What need of yours isn't being met?
 
 Is it:
+
 - That you want me to show I value your input?
 - That you want to feel heard?
 - That you want us to actually implement solutions together?
@@ -367,12 +368,14 @@ Instead of "you need to change," try:
 **"I think we need a system that works for both of us. Right now, neither of us feels like the other is truly engaging. So let's design something together.
 
 What if we:
+
 - Have those monthly dinners you suggested
 - BUT at each dinner, we each bring one thing we've been thinking about - something about us, our relationship, something the other person said that stuck with us
 - And we both write down what we commit to thinking about or doing before the next dinner
 - Then at the next dinner, we start by checking in on those commitments
 
 This way:
+
 - YOU get the structured time you suggested
 - I get evidence that you're thinking about us between conversations  
 - We BOTH have clear expectations
@@ -384,7 +387,7 @@ Does that feel like something that could work for you?"
 
 ## Acknowledge Your Part
 
-**"I also want to acknowledge: maybe the way I bring things up doesn't work for you. Maybe I overwhelm you with too much at once. Maybe I don't give you space to process. 
+**"I also want to acknowledge: maybe the way I bring things up doesn't work for you. Maybe I overwhelm you with too much at once. Maybe I don't give you space to process.
 
 So tell me: what would make it easier for you to engage with relationship issues? How do you need me to communicate so you can actually hear me?"
 

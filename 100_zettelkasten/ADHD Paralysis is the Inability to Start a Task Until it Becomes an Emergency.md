@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-29T16:38:00Z
 epistemic: fact
 last_reviewed: 
-modified: 2025-11-12T14:01:10Z
+modified: 2025-11-16T20:27:12Z
 purpose: 
 review_interval: 
 see_also: []
@@ -28,3 +28,7 @@ This state of inaction is a cognitive "freeze response" triggered by executive d
 2.  To escape this aversive feeling, the brain defaults to avoidance and procrastination.
 3.  Avoidance allows pressure to mount, making the task more intimidating.
 4.  The sense of overwhelm escalates, entrenching the paralysis further.
+
+***
+
+- Reading this it is clearly AI. Often AI just agrees with me and makes what I said sound real. It is annoying because I actually want to know the truth.
