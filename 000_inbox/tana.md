@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-16T20:51:19Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-16T20:52:14Z
+modified: 2025-11-17T19:50:37Z
 purpose: 
 review_interval: 
 see_also: []
@@ -20,8 +20,9 @@ updated:
 am drawn to tana.
 
 - It feels like it would answer the problem of finding related notes.
+    - it doesn't really. It offers lots of ways to organise content. I just have lots of content linked together.
 - But it instantly made me start tidying.
--  Satisfaction from the tagging and grouping.
+- Satisfaction from the tagging and grouping.
 - And that is my trap
 - I wasn't doing the thinking thing.
     - Cognitive realignment
