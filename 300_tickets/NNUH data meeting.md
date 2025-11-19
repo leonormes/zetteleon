@@ -1,20 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-06T09:12:43Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-11-03T13:48:15Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status:
+tags:
+  - nnuh
 title: NNUH data meeting
 type:
-uid: 
-updated: 
+uid:
+updated:
 version:
 ---
 
