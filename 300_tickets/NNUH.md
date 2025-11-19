@@ -4,14 +4,13 @@ confidence:
 created: 2025-11-19T09:07:06Z
 epistemic:
 last_reviewed:
-modified: 2025-11-19T10:53:02Z
+modified: 2025-11-19T14:33:39Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - nnuh
+tags: [nnuh]
 title: NNUH
 type:
 uid:
@@ -37,25 +36,25 @@ updated:
 #### Firewall Rules & Connectivity Questions
 
 - The **Azure side was configured** earlier in the week.
-- Most connectivity is **basic 443 traffic**, which is expected to not be an issue13.
-- Ben reviewed the Firewall (FW) rules with Tom Brooks14.
-- Tom Brooks has a couple of questions he will raise on the call today15.
-- The main question is the **need for more prescriptive IP addresses (IPs)** for some endpoints that require external communications connecting in16.
-- Sign-off will not be granted for subnet-wide rules, especially for external traffic17.
+- Most connectivity is **basic 443 traffic**, which is expected to not be an issue.
+- Ben reviewed the Firewall (FW) rules with Tom Brooks.
+- Tom Brooks has a couple of questions he will raise on the call today.
+- The main question is the **need for more prescriptive IP addresses (IPs)** for some endpoints that require external communications connecting in.
+- Sign-off will not be granted for subnet-wide rules, especially for external traffic.
 
 #### Azure Side Update (NNUHFT-SDE)
 
-| **Azure Component**              | **Details**                                                                                                                                                      |
-| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **New subscription**             | `NNUHFT-SDE` created                                                                                                                                             |
-| *Accounts**                      | Accounts setup for Leon and Oliver                                                                                                                               |
-| **Account Rights**               | Granted **Contributor rights** over the subscription (6-month time bound) 20                                                                                     |
-| **vNet**                         | `NNUHFT-SDE-vnet1` created with an address space of **192.168.200.0/24**                                                                                         |
-| **NAT Gateway**                  | Deployed for external internet traffic                                                                                                                           |
-| **External IP for NATd traffic** | **20.162.236.86**                                                                                                                                                |
-| **Subnet for NAT Gateway**       | A small subnet had to be created: `NAT` with address space **192.168.200.0/29**242424. This subnet has **3** available IPs25. The rest of the vNet space is free |
-| **vNet pairing**                 | Enabled back to the NNUH hub to allow for VPN connectivity from on-premise                                                                                       |
-|                                  |                                                                                                                                                                  |
+| **Azure Component**              | **Details**                                                                                                                                              |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **New subscription**             | `NNUHFT-SDE` created                                                                                                                                     |
+| *Accounts**                      | Accounts setup for Leon and Oliver                                                                                                                       |
+| **Account Rights**               | Granted **Contributor rights** over the subscription (6-month time bound) 20                                                                             |
+| **vNet**                         | `NNUHFT-SDE-vnet1` created with an address space of **192.168.200.0/24**                                                                                 |
+| **NAT Gateway**                  | Deployed for external internet traffic                                                                                                                   |
+| **External IP for NATd traffic** | **20.162.236.86**                                                                                                                                        |
+| **Subnet for NAT Gateway**       | A small subnet had to be created: `NAT` with address space **192.168.200.0/29**. This subnet has **3** available IPs. The rest of the vNet space is free |
+| **vNet pairing**                 | Enabled back to the NNUH hub to allow for VPN connectivity from on-premise                                                                               |
+|                                  |                                                                                                                                                          |
 
 #### Resource Deployment Tags
 
@@ -108,7 +107,7 @@ Leon and Oliver are the primary recipients of the Azure configuration update and
 
 - **Action:** As Susannah requested, focus on resolving the need for **more prescriptive/specific IP addresses** for external communication endpoints999.
 - **Context:** NNUH will **not** sign off on subnet-wide Firewall (FW) rules, especially for external traffic10. The team needs to identify the exact source IP addresses required for the endpoints that need external connectivity so the NNUH team (specifically Tom Brooks) can get sign-off.
-- **Goal:** Be prepared to discuss and resolve this with **Tom Brooks** on the call today12121212.
+- **Goal:** Be prepared to discuss and resolve this with **Tom Brooks** on the call today.
 - Gitlab repo
    - Some trouble with the GITLAB_TOKEN.
 - Create the TFC workspace
