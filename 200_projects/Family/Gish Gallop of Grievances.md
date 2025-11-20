@@ -29,10 +29,10 @@ Here is the framework and a script for responding to the 'But You Said' attack.
 
 When she brings up the past comment ("I think you are spoiled"):
 
-1.  **Swiftly Validate the Past Correction:** Acknowledge the comment was made and immediately reaffirm your previous correction/apology. **Do not re-apologise or re-explain the original error.** This prevents the conversation from getting dragged back into the past.
-2.  **Assert the Present Topic:** Explicitly name the current issue you need to discuss.
-3.  **Set the Boundary:** State clearly that using the past comment now is derailing the progress you are *currently* trying to make.
-4.  **Issue the Invitation:** Re-invite her to engage with the current, productive discussion.
+1. **Swiftly Validate the Past Correction:** Acknowledge the comment was made and immediately reaffirm your previous correction/apology. **Do not re-apologise or re-explain the original error.** This prevents the conversation from getting dragged back into the past.
+2. **Assert the Present Topic:** Explicitly name the current issue you need to discuss.
+3. **Set the Boundary:** State clearly that using the past comment now is derailing the progress you are *currently* trying to make.
+4. **Issue the Invitation:** Re-invite her to engage with the current, productive discussion.
 
 ---
 
@@ -66,8 +66,8 @@ This deflection often arises because she feels attacked and is using the deflect
 This happens because the agreement was likely a transactional concession (to end the fight) rather than a **transformational agreement** (a shared commitment).
 
 - **Your Solution:** **Codify the Agreement** and link it to the underlying *value* or *need*, not just the *action*.
-    - *Instead of:* "We agree I'll put the dishes away on Monday."
-    - *Try:* "We agree that **mutual respect** means we need a shared system to manage the kitchen, so the plan is that I'll put the dishes away every Monday, because **it supports our value of shared responsibility.**"
+  - *Instead of:* "We agree I'll put the dishes away on Monday."
+  - *Try:* "We agree that **mutual respect** means we need a shared system to manage the kitchen, so the plan is that I'll put the dishes away every Monday, because **it supports our value of shared responsibility.**"
 - **During the Conversation:** Write down the agreement immediately and post it. This provides an external, objective reference point, making it harder to revert to the stock argument.
 
 ---

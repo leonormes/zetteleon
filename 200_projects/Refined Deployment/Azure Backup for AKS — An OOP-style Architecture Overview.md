@@ -182,9 +182,9 @@ Notes:
 ### 2) Relationships and Dependencies (OOP Terms)
 
 - BackupVault composes:
-    - DataStores (VaultStore for metadata, optionally OperationalStore semantics)
-    - BackupPolicies (1-to-many)
-    - BackupInstances (1-to-many)
+  - DataStores (VaultStore for metadata, optionally OperationalStore semantics)
+  - BackupPolicies (1-to-many)
+  - BackupInstances (1-to-many)
 - BackupInstance associates exactly one DataSource and one BackupPolicy.
 - BackupInstance aggregates many RecoveryPoints over time (1-to-many).
 - RecoveryPoint may reference many Snapshots (0..n), created for each protected PV.
@@ -211,8 +211,8 @@ Notes:
 
 - Purpose: The protected workload identity.
 - Specializations:
-    - AKSClusterDataSource
-        - Properties: clusterId, namespaceInclusions/exclusions, labelSelectors, includeClusterScope, excludedResourceTypes (e.g., secrets), snapshotVolumes (bool), snapshotResourceGroupId.
+  - AKSClusterDataSource
+    - Properties: clusterId, namespaceInclusions/exclusions, labelSelectors, includeClusterScope, excludedResourceTypes (e.g., secrets), snapshotVolumes (bool), snapshotResourceGroupId.
 - Operations: validate selection, resolve discovered entities (namespaces, PVs).
 
 #### BackupInstance
@@ -237,8 +237,8 @@ Notes:
 
 - Purpose: Logical store type for backed-up data.
 - Types:
-    - VaultStore: Backup metadata and possibly resource manifests.
-    - OperationalStore: Underlying snapshot location semantics (for AKS this maps to Azure Managed Disk snapshots living in a snapshot resource group you specify).
+  - VaultStore: Backup metadata and possibly resource manifests.
+  - OperationalStore: Underlying snapshot location semantics (for AKS this maps to Azure Managed Disk snapshots living in a snapshot resource group you specify).
 - Properties: redundancy (LRS/ZRS), immutability (if applicable).
 
 #### RestoreRequest
@@ -251,8 +251,8 @@ Notes:
 
 - Purpose: Authorization model.
 - Common roles for AKS backups:
-    - On snapshot RG: Disk Snapshot Contributor, Data Operator for Managed Disks, Reader (for vault MSI).
-    - On AKS: access via AKS backup extension and service interactions; explicit vault role for cluster MSI may be optional depending on service design, but often “Backup Contributor” is used.
+  - On snapshot RG: Disk Snapshot Contributor, Data Operator for Managed Disks, Reader (for vault MSI).
+  - On AKS: access via AKS backup extension and service interactions; explicit vault role for cluster MSI may be optional depending on service design, but often “Backup Contributor” is used.
 
 ---
 
@@ -326,25 +326,25 @@ Restore types:
 ### 5) AKS-Specific Context and Behaviors
 
 - Selection model:
-    - Include/Exclude namespaces, labelSelectors, includeClusterScope (cluster roles, CRDs, etc.).
-    - Excluded resource types often include “secrets” for security, and certain CSI snapshot controller resources.
+  - Include/Exclude namespaces, labelSelectors, includeClusterScope (cluster roles, CRDs, etc.).
+  - Excluded resource types often include “secrets” for security, and certain CSI snapshot controller resources.
 - PV snapshots:
-    - snapshotVolumes=true instructs Azure Backup to orchestrate CSI-compatible snapshots of managed disks.
-    - Snapshots live in a customer-chosen resource group (the “snapshot RG”).
+  - snapshotVolumes=true instructs Azure Backup to orchestrate CSI-compatible snapshots of managed disks.
+  - Snapshots live in a customer-chosen resource group (the “snapshot RG”).
 - Recovery points:
-    - Typically contain K8s manifests (deployments, services, CRDs) and references to PV snapshots.
+  - Typically contain K8s manifests (deployments, services, CRDs) and references to PV snapshots.
 - Identify/Permissions required:
-    - Vault’s managed identity needs roles on the snapshot RG:
-        - Disk Snapshot Contributor
-        - Data Operator for Managed Disks
-        - Reader
-    - Cluster-side extension and service plane handle K8s API access; explicit cluster MSI role on the vault may not always show up but adding “Backup Contributor” is a safe/explicit practice, especially for IaC reproducibility.
+  - Vault’s managed identity needs roles on the snapshot RG:
+    - Disk Snapshot Contributor
+    - Data Operator for Managed Disks
+    - Reader
+  - Cluster-side extension and service plane handle K8s API access; explicit cluster MSI role on the vault may not always show up but adding “Backup Contributor” is a safe/explicit practice, especially for IaC reproducibility.
 - What’s not backed up by default:
-    - Kubernetes Secrets (commonly excluded); manage via Key Vault or other secret stores.
-    - Ephemeral/emptyDir volumes, dynamic content not backed by disks.
+  - Kubernetes Secrets (commonly excluded); manage via Key Vault or other secret stores.
+  - Ephemeral/emptyDir volumes, dynamic content not backed by disks.
 - Operational considerations:
-    - All-namespaces strategy increases coverage and cost; selective strategy lowers cost, reduces recovery breadth.
-    - Backup windows are short because cluster manifests are light; PV-heavy clusters see longer snapshot phases.
+  - All-namespaces strategy increases coverage and cost; selective strategy lowers cost, reduces recovery breadth.
+  - Backup windows are short because cluster manifests are light; PV-heavy clusters see longer snapshot phases.
 
 ---
 
@@ -353,24 +353,24 @@ Restore types:
 From your investigation (prod-1):
 
 - BackupVault
-    - Name: aksbackupvault (uksouth), MSI principal: ed69f0a8-...
-    - DataStore: VaultStore (LRS), Soft Delete: On
+  - Name: aksbackupvault (uksouth), MSI principal: ed69f0a8-...
+  - DataStore: VaultStore (LRS), Soft Delete: On
 - BackupPolicy
-    - Name: dailyaksbackups, Type: Microsoft.ContainerService/managedClusters
-    - Schedule: daily 21:00 UTC, Retention: 14 days
+  - Name: dailyaksbackups, Type: Microsoft.ContainerService/managedClusters
+  - Schedule: daily 21:00 UTC, Retention: 14 days
 - BackupInstance
-    - Name: prod1aksdaily, State: ProtectionConfigured, Cluster: fitfile-cloud-prod-1-aks-cluster
-    - AKSClusterDataSource:
-        - namespaceInclusions: [] (empty => all namespaces)
-        - excludedResourceTypes: [secrets, volumesnapshotcontent.snapshot.storage.k8s.io]
-        - includeClusterScope: true
-        - snapshotVolumes: true
-        - snapshotResourceGroupId: prod-1-snapshot-rg
+  - Name: prod1aksdaily, State: ProtectionConfigured, Cluster: fitfile-cloud-prod-1-aks-cluster
+  - AKSClusterDataSource:
+    - namespaceInclusions: [] (empty => all namespaces)
+    - excludedResourceTypes: [secrets, volumesnapshotcontent.snapshot.storage.k8s.io]
+    - includeClusterScope: true
+    - snapshotVolumes: true
+    - snapshotResourceGroupId: prod-1-snapshot-rg
 - RecoveryPoints
-    - Daily points with ~10–12 min durations; PV snapshots stored in the snapshot RG.
+  - Daily points with ~10–12 min durations; PV snapshots stored in the snapshot RG.
 - RoleAssignments
-    - Vault MSI has roles on snapshot RG (Reader, Disk Snapshot Contributor, Data Operator for Managed Disks).
-    - AKS MSI has no explicit role on the vault (unusual but currently functional).
+  - Vault MSI has roles on snapshot RG (Reader, Disk Snapshot Contributor, Data Operator for Managed Disks).
+  - AKS MSI has no explicit role on the vault (unusual but currently functional).
 
 This maps 1:1 to the class model above.
 
@@ -412,18 +412,18 @@ This maps 1:1 to the class model above.
 ### 9) Practical Design Tips (Terraform/IaC)
 
 - Always model:
-    - Vault
-    - Policy per data source type (AKS policy)
-    - Instance per cluster (and per selection scope if you split protection)
-    - Snapshot RG with required role assignments to the vault MSI
+  - Vault
+  - Policy per data source type (AKS policy)
+  - Instance per cluster (and per selection scope if you split protection)
+  - Snapshot RG with required role assignments to the vault MSI
 - Be explicit with:
-    - Namespace strategy (all vs selective)
-    - Excluded resource types (secrets, snapshot controller internals)
-    - includeClusterScope and snapshotVolumes
+  - Namespace strategy (all vs selective)
+  - Excluded resource types (secrets, snapshot controller internals)
+  - includeClusterScope and snapshotVolumes
 - IAM:
-    - Even if AKS MSI currently works without a vault role, codify “Backup Contributor” on the vault to avoid drift during re-provisioning.
+  - Even if AKS MSI currently works without a vault role, codify “Backup Contributor” on the vault to avoid drift during re-provisioning.
 - Cost:
-    - All-namespaces + snapshotVolumes = more snapshots. Monitor snapshot RG growth.
+  - All-namespaces + snapshotVolumes = more snapshots. Monitor snapshot RG growth.
 
 ---
 
@@ -432,18 +432,18 @@ This maps 1:1 to the class model above.
 Provide or confirm:
 
 - Full AKS selection config:
-    - namespaceInclusions/Exclusions, labelSelectors
-    - includeClusterScope, excludedResourceTypes
-    - snapshotVolumes flag and snapshot resource group
+  - namespaceInclusions/Exclusions, labelSelectors
+  - includeClusterScope, excludedResourceTypes
+  - snapshotVolumes flag and snapshot resource group
 - Policy details:
-    - Schedule (RRule), retention tiers (daily/weekly/monthly)
+  - Schedule (RRule), retention tiers (daily/weekly/monthly)
 - Vault data stores:
-    - Redundancy (LRS/ZRS), immutability/soft delete settings
+  - Redundancy (LRS/ZRS), immutability/soft delete settings
 - IAM:
-    - Role assignments for vault MSI on snapshot RG(s)
-    - Any subscriptionor RG-level roles that might explain “implicit” permissions
+  - Role assignments for vault MSI on snapshot RG(s)
+  - Any subscriptionor RG-level roles that might explain “implicit” permissions
 - Restore preferences:
-    - In-place vs alternate cluster, namespace/storage class mappings
+  - In-place vs alternate cluster, namespace/storage class mappings
 
 With these, I can validate edge cases (e.g., CRD-heavy clusters, cross-cluster restores), and provide targeted Terraform snippets and guardrails.
 
@@ -536,15 +536,15 @@ Design goal: You adjust labels/annotations in Git (Helm values/manifests), and b
 Use a dedicated domain to avoid collisions: `fitfile.io/*`
 
 - fitfile.io/backup-enabled: "true" | "false"
-    - Master switch for inclusion. Defaults to “false” for most stateless resources; “true” for PVs and stateful workloads.
+  - Master switch for inclusion. Defaults to “false” for most stateless resources; “true” for PVs and stateful workloads.
 - fitfile.io/backup-class: "gold" | "silver" | "bronze"
-    - Maps to schedules/retention: e.g., gold = nightly + weekly + 30d, silver = nightly 14d, bronze = weekly 14d.
+  - Maps to schedules/retention: e.g., gold = nightly + weekly + 30d, silver = nightly 14d, bronze = weekly 14d.
 - fitfile.io/backup-scope: "data" | "app" | "cluster"
-    - Optional hint: data = PV-focused; app = workload manifests; cluster = cluster-scoped resources.
+  - Optional hint: data = PV-focused; app = workload manifests; cluster = cluster-scoped resources.
 - fitfile.io/backup-retain: ISO8601 duration (e.g., "P14D", "P30D")
-    - Optional override for retention; tools may not consume it directly but useful for policies/validation.
+  - Optional override for retention; tools may not consume it directly but useful for policies/validation.
 - app.kubernetes.io/part-of
-    - Reuse standard label to group related resources for selection.
+  - Reuse standard label to group related resources for selection.
 
 Recommended minimal set to actually drive behavior:
 
@@ -554,13 +554,13 @@ Recommended minimal set to actually drive behavior:
 #### 2.2 Helpful Annotations (tool-specific but Safe to add)
 
 - velero.io/exclude-from-backup: "true"
-    - Explicit exclusion for Velero when needed.
+  - Explicit exclusion for Velero when needed.
 - backup.velero.io/backup-volumes: "vol1,vol2"
-    - Include only specific volumes from a pod (Velero).
+  - Include only specific volumes from a pod (Velero).
 - fitfile.io/logical-backup: "true"
-    - Signals a sidecar/cronjob performs logical dumps (e.g., pg_dump), not consumed by cloud tools but useful for policy.
+  - Signals a sidecar/cronjob performs logical dumps (e.g., pg_dump), not consumed by cloud tools but useful for policy.
 - fitfile.io/restore-priority: "high|normal|low"
-    - For runbooks/automation ordering.
+  - For runbooks/automation ordering.
 
 Note on Secrets:
 
@@ -582,7 +582,7 @@ Use a small number of backup configurations per cluster/cloud that select resour
 #### Azure Backup for AKS (Microsoft.DataProtection)
 
 - Create 3 backup instances per cluster (gold/silver/bronze), each bound to a corresponding policy and label selector:
-    - Label selector: fitfile.io/backup-enabled= true AND fitfile.io/backup-class= gold|silver|bronze
+  - Label selector: fitfile.io/backup-enabled= true AND fitfile.io/backup-class= gold|silver|bronze
 - Keep includeClusterScope true for at least one instance if you want cluster-scoped objects too.
 - Exclude resource types: secrets; snapshotVolumes: true; specify snapshot resource group.
 - Namespace strategy: prefer label selection over “all namespaces”; you can also set the labels on namespaces and selectors can include namespace labels (Azure supports labelSelectors across resources; ensure PVCs/StatefulSets carry labels).
@@ -600,7 +600,7 @@ label_selectors = [
 
 - Create 3 backup plans (gold/silver/bronze).
 - Create resource assignments for each plan selecting Kubernetes resources by labels:
-    - Include: fitfile.io/backup-enabled=true AND fitfile.io/backup-class=gold|silver|bronze
+  - Include: fitfile.io/backup-enabled=true AND fitfile.io/backup-class=gold|silver|bronze
 - Ensure EBS snapshotting is enabled for PVCs (CSI and IAM roles set). AWS Backup for EKS can capture K8s manifests and EBS snapshots tied to those workloads.
 
 Note: AWS Backup label selection supports arbitrary Kubernetes labels; stick to the same fitfile.io/* keys.
@@ -609,9 +609,9 @@ Note: AWS Backup label selection supports arbitrary Kubernetes labels; stick to 
 
 - Install Velero with CSI plugins.
 - Create 3 Schedules with label selectors aligned to the same labels:
-    - gold: nightly + weekly retention
-    - silver: nightly retention 14d
-    - bronze: weekly 14d (manifests only)
+  - gold: nightly + weekly retention
+  - silver: nightly retention 14d
+  - bronze: weekly 14d (manifests only)
 - Use provider-specific snapshots or object-store for manifests. Configure Azure Blob/S3 per cluster.
 
 Velero advantages:
@@ -766,15 +766,15 @@ data:
 ### 5) Best Practices to Maintain Labelling
 
 - Helm common labels:
-    - Use Helm’s global/common labels so every charted resource gets base labels from values.yaml.
+  - Use Helm’s global/common labels so every charted resource gets base labels from values.yaml.
 - Namespace defaults:
-    - Define backup defaults at Namespace level; override only where needed.
+  - Define backup defaults at Namespace level; override only where needed.
 - Enforce via policy:
-    - Use Kyverno or OPA Gatekeeper to require fitfile.io/backup-enabled and fitfile.io/backup-class on PVCs and StatefulSets; auto-add defaults if missing.
+  - Use Kyverno or OPA Gatekeeper to require fitfile.io/backup-enabled and fitfile.io/backup-class on PVCs and StatefulSets; auto-add defaults if missing.
 - Review cadence:
-    - Periodically list unlabeled PVCs/StatefulSets and alert (e.g., via a policy report).
+  - Periodically list unlabeled PVCs/StatefulSets and alert (e.g., via a policy report).
 - Keep it minimal:
-    - Two labels drive most selection; avoid an explosion of keys.
+  - Two labels drive most selection; avoid an explosion of keys.
 
 Example Kyverno policy (auto-add defaults on PVCs):
 
@@ -804,17 +804,17 @@ spec:
 #### Azure Backup for AKS
 
 - Create policies and instances per class:
-    - gold: higher frequency/retention
-    - silver: nightly P14D
-    - bronze: weekly P14D (optionally include only manifests)
+  - gold: higher frequency/retention
+  - silver: nightly P14D
+  - bronze: weekly P14D (optionally include only manifests)
 - Configure selection using label selectors:
-    - Include resources with fitfile.io/backup-enabled=true and class-specific value.
+  - Include resources with fitfile.io/backup-enabled=true and class-specific value.
 - Exclusions:
-    - Exclude secrets and CSI snapshot controller internals.
+  - Exclude secrets and CSI snapshot controller internals.
 - PV snapshots:
-    - Enable snapshotVolumes; grant the Backup Vault MSI roles on the snapshot RG (Disk Snapshot Contributor, Data Operator for Managed Disks, Reader).
+  - Enable snapshotVolumes; grant the Backup Vault MSI roles on the snapshot RG (Disk Snapshot Contributor, Data Operator for Managed Disks, Reader).
 - Cluster-scope:
-    - Consider one instance with includeClusterScope=true and bronze class labels for CRDs/roles.
+  - Consider one instance with includeClusterScope=true and bronze class labels for CRDs/roles.
 
 Alignment with your prod findings:
 
@@ -824,21 +824,21 @@ Alignment with your prod findings:
 
 - Create 3 backup plans (gold/silver/bronze) with schedules/retention to match Azure.
 - Create resource assignments that select Kubernetes resources by label selectors:
-    - fitfile.io/backup-enabled=true and fitfile.io/backup-class=…
+  - fitfile.io/backup-enabled=true and fitfile.io/backup-class=…
 - Ensure EKS cluster has AWS Backup integration and permissions to snapshot EBS volumes (IRSA, controllers).
 - If excluding Secrets, configure selection to avoid them or maintain externalization policy.
 
 #### Velero (optional but powerful)
 
 - If you want cross-cloud uniformity and easier DR drills:
-    - Install Velero with CSI plugins in each cluster.
-    - Create Schedules with label selectors:
-        - gold schedule runs nightly + weekly; includes snapshots.
-        - silver nightly; includes snapshots.
-        - bronze weekly; manifests only.
-    - Use annotations like velero.io/exclude-from-backup where needed.
+  - Install Velero with CSI plugins in each cluster.
+  - Create Schedules with label selectors:
+    - gold schedule runs nightly + weekly; includes snapshots.
+    - silver nightly; includes snapshots.
+    - bronze weekly; manifests only.
+  - Use annotations like velero.io/exclude-from-backup where needed.
 - Storage:
-    - Azure: use Blob Storage; AWS: use S3. Enable bucket versioning and encryption.
+  - Azure: use Blob Storage; AWS: use S3. Enable bucket versioning and encryption.
 
 ---
 
@@ -863,8 +863,8 @@ Implementation in tools:
 1. Define and codify labels
 
 - Document in an internal README:
-    - fitfile.io/backup-enabled: true|false
-    - fitfile.io/backup-class: gold|silver|bronze
+  - fitfile.io/backup-enabled: true|false
+  - fitfile.io/backup-class: gold|silver|bronze
 - Add to Helm chart templates as common labels; provide values.yaml defaults per environment.
 
 2. Enforce/Default
@@ -874,12 +874,12 @@ Implementation in tools:
 3. Configure backup tools once per cluster
 
 - Azure:
-    - 3 policies + 3 backup instances using label selectors.
-    - Exclude secrets; include cluster scope as per decision.
-    - Ensure vault MSI roles on snapshot RG.
+  - 3 policies + 3 backup instances using label selectors.
+  - Exclude secrets; include cluster scope as per decision.
+  - Ensure vault MSI roles on snapshot RG.
 - AWS:
-    - 3 backup plans + assignments using label selectors.
-    - Ensure EBS snapshot permissions and CSI integration.
+  - 3 backup plans + assignments using label selectors.
+  - Ensure EBS snapshot permissions and CSI integration.
 
 4. Databases
 

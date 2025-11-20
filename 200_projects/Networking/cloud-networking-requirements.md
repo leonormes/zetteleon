@@ -25,6 +25,7 @@ A comprehensive framework for understanding what cloud networks need to achieve,
 ---
 
 ### Table of Contents
+
 1. [Fundamental Connectivity Requirements](#fundamental-connectivity-requirements)
 2. [Addressing and Identity Requirements](#addressing-and-identity-requirements)
 3. [Reliability and Correctness Requirements](#reliability-and-correctness-requirements)
@@ -46,12 +47,14 @@ A comprehensive framework for understanding what cloud networks need to achieve,
 **Requirement:** Enable two or more computing entities to exchange data regardless of their physical location.
 
 **Why This Matters:**
+
 - Applications consist of multiple components that need to communicate
 - Users need to access services running on remote machines
 - Data must flow between client and server
 - Without this, computing resources would be isolated islands
 
 **Specific Needs:**
+
 - Establish a path for data to travel from source to destination
 - Support communication across different physical media (copper, fiber, wireless, satellite)
 - Enable communication across arbitrary distances (same rack, same building, different continents)
@@ -62,6 +65,7 @@ A comprehensive framework for understanding what cloud networks need to achieve,
 A mobile app in Tokyo needs to send a user's order data to an application server in Virginia, which then needs to query a database server in California, and return results to the mobile app.
 
 **Sub-Requirements:**
+
 - **Physical transmission**: Convert digital data into signals that can traverse physical media
 - **Path determination**: Determine which route data should take through intermediate nodes
 - **Forwarding**: Move data from one node to the next along the path
@@ -76,11 +80,13 @@ A mobile app in Tokyo needs to send a user's order data to an application server
 **Requirement:** Every network-connected entity must be uniquely identifiable so data can be directed to the correct destination.
 
 **Why This Matters:**
+
 - Without unique addresses, we cannot specify where data should go
 - Similar to how mail requires a unique postal address
 - Enables selective communication (talk to A, not B)
 
 **Specific Needs:**
+
 - Assign a unique identifier to each network endpoint
 - Ensure no two endpoints share the same identifier within the same network
 - Support hierarchical addressing to enable routing efficiency
@@ -95,12 +101,14 @@ When a user types "gmail.com" in their browser, the system needs to translate th
 **Requirement:** Translate human-friendly names into network addresses that computers can use for routing.
 
 **Why This Matters:**
+
 - Humans cannot remember numeric addresses for thousands of services
 - Services may change physical locations without changing names
 - Enables abstraction between service identity and location
 - Allows load distribution across multiple physical addresses
 
 **Specific Needs:**
+
 - Maintain a mapping between names and addresses
 - Resolve names to addresses quickly (milliseconds)
 - Update mappings when services move or change
@@ -113,12 +121,14 @@ When a user types "gmail.com" in their browser, the system needs to translate th
 **Requirement:** Support both globally-unique addresses and reusable private addresses to conserve address space.
 
 **Why This Matters:**
+
 - Limited address space (especially IPv4)
 - Security through obscurity (internal resources not directly addressable)
 - Organizational autonomy (manage internal addresses independently)
 - Cost efficiency (don't need public addresses for everything)
 
 **Specific Needs:**
+
 - Define ranges that can be reused across different private networks
 - Translate between private and public addresses when needed
 - Maintain distinction between internal and external communications
@@ -133,12 +143,14 @@ When a user types "gmail.com" in their browser, the system needs to translate th
 **Requirement:** Ensure data arrives at the destination completely and in the correct order, or notify the sender of failure.
 
 **Why This Matters:**
+
 - Network infrastructure is unreliable (packets get lost, corrupted, duplicated)
 - Applications need to know if their data was received
 - Financial transactions cannot tolerate data loss
 - File transfers must be complete and uncorrupted
 
 **Specific Needs:**
+
 - Detect when data is lost in transit
 - Retransmit lost data automatically
 - Acknowledge successful receipt of data
@@ -155,12 +167,14 @@ A user submits a $10,000 payment through a banking app. The network must guarant
 **Requirement:** Detect and handle corruption of data during transmission.
 
 **Why This Matters:**
+
 - Physical transmission is imperfect (electromagnetic interference, hardware faults)
 - Bit flips can completely change meaning (amount: $100 vs $900)
 - Silent corruption is worse than obvious failure
 - Medical, financial, and safety-critical systems require perfect accuracy
 
 **Specific Needs:**
+
 - Detect errors in transmitted data
 - Distinguish between correct and corrupted data
 - Request retransmission of corrupted data
@@ -172,12 +186,14 @@ A user submits a $10,000 payment through a banking app. The network must guarant
 **Requirement:** Prevent fast senders from overwhelming slow receivers.
 
 **Why This Matters:**
+
 - Sender and receiver processing speeds may differ
 - Receivers have limited buffer capacity
 - Overwhelming a receiver causes data loss
 - Different devices have different capabilities (phone vs server)
 
 **Specific Needs:**
+
 - Receiver must communicate its capacity to sender
 - Sender must respect receiver's limitations
 - Dynamically adjust sending rate based on receiver feedback
@@ -192,6 +208,7 @@ A powerful server attempting to send a large file to a mobile device on a cellul
 **Requirement:** Detect network congestion and reduce sending rates to prevent network collapse.
 
 **Why This Matters:**
+
 - Shared network paths have finite capacity
 - Too much traffic causes queues to fill and packets to drop
 - Packet loss leads to retransmissions, creating more congestion
@@ -199,6 +216,7 @@ A powerful server attempting to send a large file to a mobile device on a cellul
 - Fair sharing of network resources among users
 
 **Specific Needs:**
+
 - Detect signs of network congestion (packet loss, delays)
 - Reduce transmission rate when congestion detected
 - Gradually increase rate when congestion clears
@@ -215,6 +233,7 @@ A powerful server attempting to send a large file to a mobile device on a cellul
 **Requirement:** Ensure only authorized entities can communicate with protected resources.
 
 **Why This Matters:**
+
 - Not all network traffic is legitimate
 - Resources must be protected from unauthorized access
 - Different users have different permission levels
@@ -222,6 +241,7 @@ A powerful server attempting to send a large file to a mobile device on a cellul
 - Malicious actors constantly attempt unauthorized access
 
 **Specific Needs:**
+
 - Define who is allowed to communicate with what
 - Enforce access policies at network boundaries
 - Support both allow-lists (permit only these) and deny-lists (block these)
@@ -237,6 +257,7 @@ A company's internal database should only be accessible from application servers
 **Requirement:** Verify the identity of communicating parties before allowing data exchange.
 
 **Why This Matters:**
+
 - IP addresses can be spoofed
 - Attackers can impersonate legitimate users
 - Trust must be established before sensitive operations
@@ -244,6 +265,7 @@ A company's internal database should only be accessible from application servers
 - Required for audit trails and accountability
 
 **Specific Needs:**
+
 - Prove identity of clients and servers
 - Resist impersonation attempts
 - Support various authentication methods (passwords, certificates, tokens)
@@ -256,6 +278,7 @@ A company's internal database should only be accessible from application servers
 **Requirement:** Prevent unauthorized parties from reading data in transit.
 
 **Why This Matters:**
+
 - Networks often traverse untrusted infrastructure (public internet)
 - Attackers can eavesdrop on network traffic
 - Privacy regulations require data protection
@@ -263,6 +286,7 @@ A company's internal database should only be accessible from application servers
 - Personal information needs protection (medical, financial)
 
 **Specific Needs:**
+
 - Encrypt data before transmission
 - Ensure encryption keys are known only to authorized parties
 - Use strong encryption that resists cryptanalysis
@@ -278,6 +302,7 @@ A doctor accessing patient medical records from home. The communication must be 
 **Requirement:** Ensure data hasn't been modified in transit and comes from claimed source.
 
 **Why This Matters:**
+
 - Attackers can modify packets in flight
 - Man-in-the-middle attacks can alter data
 - Financial transactions must be tamper-proof
@@ -285,6 +310,7 @@ A doctor accessing patient medical records from home. The communication must be 
 - Legal and compliance requirements
 
 **Specific Needs:**
+
 - Detect any modification to data during transit
 - Cryptographically bind data to its sender
 - Prevent replay attacks (re-sending captured valid data)
@@ -296,6 +322,7 @@ A doctor accessing patient medical records from home. The communication must be 
 **Requirement:** Detect and mitigate various types of network attacks.
 
 **Why This Matters:**
+
 - Attackers constantly probe networks for vulnerabilities
 - Automated attacks operate at massive scale
 - Service disruption has business impact
@@ -305,6 +332,7 @@ A doctor accessing patient medical records from home. The communication must be 
 **Specific Needs:**
 
 **4.5.1 Volumetric Attack Defense:**
+
 - Detect abnormally high traffic volumes
 - Distinguish legitimate traffic spikes from attacks
 - Absorb or filter attack traffic before it overwhelms resources
@@ -312,6 +340,7 @@ A doctor accessing patient medical records from home. The communication must be 
 - Scale defense capacity with attack size
 
 **4.5.2 Application-Layer Attack Defense:**
+
 - Detect malicious patterns in application protocols (SQL injection, XSS)
 - Validate input data before processing
 - Block known attack signatures
@@ -319,12 +348,14 @@ A doctor accessing patient medical records from home. The communication must be 
 - Protect against automated vulnerability scanning
 
 **4.5.3 Protocol Attack Defense:**
+
 - Detect protocol violations and anomalies
 - Protect against resource exhaustion attacks
 - Validate protocol state machines
 - Prevent attacks exploiting protocol weaknesses
 
 **4.5.4 Reconnaissance Prevention:**
+
 - Limit information disclosure about internal network
 - Prevent mapping of network topology
 - Obscure service versions and configurations
@@ -339,6 +370,7 @@ A doctor accessing patient medical records from home. The communication must be 
 **Requirement:** Minimize the time it takes for data to travel from source to destination.
 
 **Why This Matters:**
+
 - User experience degrades with delay (web pages, video calls)
 - Real-time applications have strict latency requirements (gaming, trading)
 - Latency compounds across multiple network hops
@@ -346,6 +378,7 @@ A doctor accessing patient medical records from home. The communication must be 
 - Some applications have hard real-time constraints
 
 **Specific Needs:**
+
 - Minimize processing time at each network node
 - Reduce number of hops data must traverse
 - Optimize routing to shortest path
@@ -379,6 +412,7 @@ Any component exceeding its budget degrades user experience.
 **Requirement:** Maximize the volume of data that can be transmitted per unit time.
 
 **Why This Matters:**
+
 - Large data transfers (backups, media streaming, file sync)
 - Multiple users sharing infrastructure
 - Bulk operations (data analytics, machine learning)
@@ -386,6 +420,7 @@ Any component exceeding its budget degrades user experience.
 - Resource consolidation requires capacity
 
 **Specific Needs:**
+
 - Utilize available bandwidth efficiently
 - Support parallel data streams
 - Minimize overhead (headers, acknowledgments)
@@ -402,6 +437,7 @@ Streaming a 4K video requires sustained throughput of 25 Mbps. A cloud backup se
 **Requirement:** Maximize useful work per unit of network resources (bandwidth, compute, memory).
 
 **Why This Matters:**
+
 - Network resources are finite and costly
 - Inefficiency wastes money and limits capacity
 - Poor utilization leads to poor economies of scale
@@ -409,6 +445,7 @@ Streaming a 4K video requires sustained throughput of 25 Mbps. A cloud backup se
 - Competitive advantage in cost-effectiveness
 
 **Specific Needs:**
+
 - Minimize protocol overhead (small headers relative to payload)
 - Multiplex multiple communications over shared resources
 - Compress data when CPU cost is less than bandwidth cost
@@ -422,6 +459,7 @@ Streaming a 4K video requires sustained throughput of 25 Mbps. A cloud backup se
 **Requirement:** Prioritize different types of traffic according to their requirements and business value.
 
 **Why This Matters:**
+
 - Not all traffic has equal importance
 - Interactive traffic needs low latency; bulk transfers can wait
 - Video conferencing shouldn't be delayed by file downloads
@@ -429,6 +467,7 @@ Streaming a 4K video requires sustained throughput of 25 Mbps. A cloud backup se
 - Emergency communications must preempt normal traffic
 
 **Specific Needs:**
+
 - Classify traffic into priority classes
 - Allocate bandwidth proportionally to priorities
 - Guarantee minimum bandwidth for critical services
@@ -449,6 +488,7 @@ During a network congestion event, VoIP phone calls (business critical) should r
 **Requirement:** Enable connectivity for billions of devices simultaneously.
 
 **Why This Matters:**
+
 - Internet has billions of connected devices and growing
 - Cloud platforms host millions of virtual machines
 - IoT revolution adds billions more devices
@@ -456,6 +496,7 @@ During a network congestion event, VoIP phone calls (business critical) should r
 - Limited address space (IPv4 has only 4.3 billion addresses)
 
 **Specific Needs:**
+
 - Addressing scheme that can accommodate growth
 - Efficient routing that doesn't require every router to know every destination
 - Hierarchical organization to manage complexity
@@ -471,6 +512,7 @@ A home has 50 IoT devices (lights, sensors, appliances), each person has 4 devic
 **Requirement:** Handle aggregate traffic that scales with number of users and their consumption.
 
 **Why This Matters:**
+
 - Video streaming dominates internet traffic (80%+)
 - High-definition content requires more bandwidth
 - Usage per user increases over time
@@ -478,6 +520,7 @@ A home has 50 IoT devices (lights, sensors, appliances), each person has 4 devic
 - Data analytics and ML generate internal traffic
 
 **Specific Needs:**
+
 - Network links with terabit capacities
 - Routers and switches that can forward at wire speed
 - Distributed systems to avoid bottlenecks
@@ -493,6 +536,7 @@ A popular streaming service must handle 100 million concurrent viewers during a 
 **Requirement:** Support connectivity across global distances efficiently.
 
 **Why This Matters:**
+
 - Users are distributed globally
 - Services need global reach
 - Physics limits speed of light (latency increases with distance)
@@ -500,6 +544,7 @@ A popular streaming service must handle 100 million concurrent viewers during a 
 - Different regions have different peak usage times
 
 **Specific Needs:**
+
 - Infrastructure distributed across continents
 - Efficient routing between distant locations
 - Ability to replicate data geographically
@@ -513,6 +558,7 @@ A popular streaming service must handle 100 million concurrent viewers during a 
 **Requirement:** Dynamically scale capacity up and down based on actual demand.
 
 **Why This Matters:**
+
 - Traffic varies by time of day, day of week, and events
 - Over-provisioning wastes money
 - Under-provisioning causes service degradation
@@ -520,6 +566,7 @@ A popular streaming service must handle 100 million concurrent viewers during a 
 - Pay-as-you-go economics require elasticity
 
 **Specific Needs:**
+
 - Add capacity quickly (minutes, not weeks)
 - Remove capacity without disrupting service
 - Auto-scale based on metrics (CPU, bandwidth, requests/sec)
@@ -540,6 +587,7 @@ E-commerce site normally handles 1,000 requests/second, but during Black Friday 
 **Requirement:** Create isolated network segments that cannot directly communicate without explicit permission.
 
 **Why This Matters:**
+
 - Security principle: minimize blast radius of breaches
 - Compliance requirements mandate separation (PCI, HIPAA)
 - Different trust levels (production vs development)
@@ -547,6 +595,7 @@ E-commerce site normally handles 1,000 requests/second, but during Black Friday 
 - Lateral movement prevention in attacks
 
 **Specific Needs:**
+
 - Create logically separate networks on shared infrastructure
 - Ensure traffic from one segment cannot leak to another
 - Support hierarchical segmentation (network, subnet, security groups)
@@ -562,6 +611,7 @@ A healthcare provider runs multiple applications: patient records (HIPAA), billi
 **Requirement:** Ensure one customer's traffic and resources are completely isolated from another's in multi-tenant environments.
 
 **Why This Matters:**
+
 - Cloud providers serve many customers on shared hardware
 - Security and privacy requirements
 - Performance isolation (one tenant shouldn't affect others)
@@ -569,6 +619,7 @@ A healthcare provider runs multiple applications: patient records (HIPAA), billi
 - Competitive concerns (isolate competitors)
 
 **Specific Needs:**
+
 - Prevent cross-tenant traffic visibility
 - Ensure one tenant cannot exhaust resources used by others
 - Support overlapping address spaces (both tenants use 10.0.0.0/8)
@@ -582,6 +633,7 @@ A healthcare provider runs multiple applications: patient records (HIPAA), billi
 **Requirement:** Apply security policies at the individual workload level, not just network boundaries.
 
 **Why This Matters:**
+
 - Traditional perimeter security is insufficient (insider threats, breached credentials)
 - Zero-trust security model requires assuming breach
 - Different workloads have different security requirements
@@ -589,6 +641,7 @@ A healthcare provider runs multiple applications: patient records (HIPAA), billi
 - Compliance requirements for least-privilege access
 
 **Specific Needs:**
+
 - Define policies per application or workload
 - Enforce policies regardless of network location
 - Allow granular control (this container can talk to that database)
@@ -608,6 +661,7 @@ Even within the "production" network, the web tier should only communicate with 
 **Requirement:** Ensure services remain accessible despite component failures.
 
 **Why This Matters:**
+
 - Hardware fails (hard drives, network cards, power supplies)
 - Software crashes (bugs, memory leaks)
 - Human errors (misconfigurations, accidental deletions)
@@ -615,6 +669,7 @@ Even within the "production" network, the web tier should only communicate with 
 - Some services require 99.99% uptime (52 minutes downtime/year)
 
 **Specific Needs:**
+
 - Redundant components (multiple paths, multiple servers)
 - Automatic failover to backup components
 - Health monitoring of all components
@@ -631,6 +686,7 @@ An e-commerce site processes $10,000/minute in sales. Each minute of downtime lo
 **Requirement:** Continue operating correctly even when components fail.
 
 **Why This Matters:**
+
 - Failures are inevitable at scale
 - Partial failures are more common than total failures
 - Degraded operation is better than no operation
@@ -638,6 +694,7 @@ An e-commerce site processes $10,000/minute in sales. Each minute of downtime lo
 - Graceful degradation vs catastrophic failure
 
 **Specific Needs:**
+
 - Detect failures quickly (seconds, not minutes)
 - Isolate failed components
 - Route around failures automatically
@@ -651,6 +708,7 @@ An e-commerce site processes $10,000/minute in sales. Each minute of downtime lo
 **Requirement:** Recover from catastrophic failures (entire datacenter loss).
 
 **Why This Matters:**
+
 - Natural disasters (earthquakes, floods, fires)
 - Power grid failures
 - Fiber cuts affecting regions
@@ -658,6 +716,7 @@ An e-commerce site processes $10,000/minute in sales. Each minute of downtime lo
 - Regulatory requirements for business continuity
 
 **Specific Needs:**
+
 - Replicate data across geographic regions
 - Failover to geographically distant locations
 - Maintain acceptable RPO (Recovery Point Objective - data loss tolerance)
@@ -674,6 +733,7 @@ Hurricane destroys a datacenter in Florida. Services must fail over to Texas dat
 **Requirement:** Maintain connectivity despite link failures, congestion, or route changes.
 
 **Why This Matters:**
+
 - Physical links fail (fiber cuts, equipment failures)
 - Links become congested (capacity exhausted)
 - Routing changes occur dynamically
@@ -681,6 +741,7 @@ Hurricane destroys a datacenter in Florida. Services must fail over to Texas dat
 - Maintenance windows require planned outages
 
 **Specific Needs:**
+
 - Multiple independent paths between locations
 - Dynamic routing that adapts to failures
 - Fast convergence after topology changes (seconds)
@@ -698,6 +759,7 @@ Hurricane destroys a datacenter in Florida. Services must fail over to Texas dat
 **Requirement:** Understand what is happening in the network at all times.
 
 **Why This Matters:**
+
 - Cannot troubleshoot what you cannot see
 - Security threats must be detected
 - Performance problems must be diagnosed
@@ -706,6 +768,7 @@ Hurricane destroys a datacenter in Florida. Services must fail over to Texas dat
 - Billing based on actual usage
 
 **Specific Needs:**
+
 - Log all significant events (connections, failures, policy decisions)
 - Collect performance metrics (latency, throughput, errors)
 - Capture traffic patterns and flows
@@ -722,6 +785,7 @@ Application performance degrades at 3 AM. Need to determine: Was it network late
 **Requirement:** Understand traffic patterns, sources, destinations, and protocols.
 
 **Why This Matters:**
+
 - Identify performance bottlenecks
 - Detect security anomalies
 - Optimize routing and capacity
@@ -730,6 +794,7 @@ Application performance degrades at 3 AM. Need to determine: Was it network late
 - Forensic analysis after incidents
 
 **Specific Needs:**
+
 - Capture packet headers (who talked to whom, when)
 - Classify traffic by protocol and application
 - Measure traffic volumes and rates
@@ -743,6 +808,7 @@ Application performance degrades at 3 AM. Need to determine: Was it network late
 **Requirement:** Quickly diagnose and resolve network issues.
 
 **Why This Matters:**
+
 - Issues impact user experience immediately
 - Mean time to resolution affects availability
 - Complex systems have subtle failure modes
@@ -750,6 +816,7 @@ Application performance degrades at 3 AM. Need to determine: Was it network late
 - Root cause analysis prevents recurrence
 
 **Specific Needs:**
+
 - Tools to test connectivity (can A reach B?)
 - Measure latency and packet loss on paths
 - Verify routing and forwarding behavior
@@ -766,6 +833,7 @@ Users in Tokyo report application timeouts. Need to determine: Is it their ISP? 
 **Requirement:** Manage network configuration across many devices consistently and safely.
 
 **Why This Matters:**
+
 - Manual configuration is error-prone
 - Inconsistent configuration causes outages
 - Changes must be auditable and reversible
@@ -773,6 +841,7 @@ Users in Tokyo report application timeouts. Need to determine: Is it their ISP? 
 - Compliance requires configuration validation
 
 **Specific Needs:**
+
 - Centralized configuration repository
 - Version control for configurations
 - Validation before deployment
@@ -787,6 +856,7 @@ Users in Tokyo report application timeouts. Need to determine: Is it their ISP? 
 **Requirement:** Predict future resource needs and provision accordingly.
 
 **Why This Matters:**
+
 - Infrastructure takes time to deploy
 - Under-provisioning causes outages
 - Over-provisioning wastes money
@@ -794,6 +864,7 @@ Users in Tokyo report application timeouts. Need to determine: Is it their ISP? 
 - Budget planning requires forecasts
 
 **Specific Needs:**
+
 - Historical usage trends
 - Growth rate analysis
 - Peak usage identification
@@ -811,6 +882,7 @@ Users in Tokyo report application timeouts. Need to determine: Is it their ISP? 
 **Requirement:** Minimize bandwidth consumption while maintaining functionality.
 
 **Why This Matters:**
+
 - Bandwidth costs money (per GB charges)
 - Limited capacity must serve many users
 - Mobile data is expensive for users
@@ -818,6 +890,7 @@ Users in Tokyo report application timeouts. Need to determine: Is it their ISP? 
 - Reduces infrastructure scaling needs
 
 **Specific Needs:**
+
 - Compress data when possible
 - Cache frequently accessed data
 - Deduplicate redundant transfers
@@ -834,6 +907,7 @@ Mobile app syncing data over cellular network. Each MB costs user money. Applica
 **Requirement:** Minimize overhead of establishing and maintaining connections.
 
 **Why This Matters:**
+
 - Connection setup has latency cost (multiple round trips)
 - Each connection consumes memory and CPU
 - Firewalls and load balancers track connection state
@@ -841,6 +915,7 @@ Mobile app syncing data over cellular network. Each MB costs user money. Applica
 - Scale is limited by connection rate, not just bandwidth
 
 **Specific Needs:**
+
 - Reuse existing connections for multiple requests
 - Multiplex multiple data streams over one connection
 - Keep connections alive appropriately
@@ -857,6 +932,7 @@ Web browser loading a page with 100 resources. Opening 100 separate TCP connecti
 **Requirement:** Serve users from nearby infrastructure to reduce costs and improve performance.
 
 **Why This Matters:**
+
 - Network cost increases with distance
 - Cross-region bandwidth is expensive
 - Latency increases with distance (physics)
@@ -864,6 +940,7 @@ Web browser loading a page with 100 resources. Opening 100 separate TCP connecti
 - Efficiency gains from locality
 
 **Specific Needs:**
+
 - Route users to nearest available resource
 - Replicate data to multiple regions
 - Bias traffic to least-cost paths
@@ -877,6 +954,7 @@ Web browser loading a page with 100 resources. Opening 100 separate TCP connecti
 **Requirement:** Use appropriately-sized resources, not over-provisioned.
 
 **Why This Matters:**
+
 - Cloud charges for provisioned capacity
 - Over-sized resources waste money
 - Under-sized resources cause poor performance
@@ -884,6 +962,7 @@ Web browser loading a page with 100 resources. Opening 100 separate TCP connecti
 - Different workloads have different needs
 
 **Specific Needs:**
+
 - Monitor actual utilization
 - Recommend optimal sizes
 - Auto-scale to match demand
@@ -901,6 +980,7 @@ Web browser loading a page with 100 resources. Opening 100 separate TCP connecti
 **Requirement:** Seamlessly connect on-premises infrastructure with cloud environments.
 
 **Why This Matters:**
+
 - Migration to cloud is gradual (multi-year)
 - Some workloads must remain on-premises (regulations, performance)
 - Need consistent experience across environments
@@ -908,6 +988,7 @@ Web browser loading a page with 100 resources. Opening 100 separate TCP connecti
 - Investment in existing infrastructure
 
 **Specific Needs:**
+
 - Secure connectivity between on-premises and cloud
 - Consistent networking model across environments
 - Low-latency, high-bandwidth interconnection
@@ -924,6 +1005,7 @@ Database remains on-premises (regulatory requirement), but new applications run 
 **Requirement:** Connect and operate across multiple cloud providers.
 
 **Why This Matters:**
+
 - Avoid vendor lock-in
 - Use best services from each provider
 - Geographic coverage differences
@@ -931,6 +1013,7 @@ Database remains on-premises (regulatory requirement), but new applications run 
 - Regulatory requirements for some regions
 
 **Specific Needs:**
+
 - Consistent networking abstractions across clouds
 - Inter-cloud connectivity options
 - Unified security policies
@@ -944,6 +1027,7 @@ Database remains on-premises (regulatory requirement), but new applications run 
 **Requirement:** Integrate with external partners, customers, and service providers.
 
 **Why This Matters:**
+
 - B2B integrations require secure connectivity
 - SaaS applications need integration
 - Partners need API access
@@ -951,6 +1035,7 @@ Database remains on-premises (regulatory requirement), but new applications run 
 - Ecosystem collaboration
 
 **Specific Needs:**
+
 - Secure access for external parties
 - API management and rate limiting
 - Identity federation
@@ -964,6 +1049,7 @@ Database remains on-premises (regulatory requirement), but new applications run 
 **Requirement:** Support older protocols and systems during transition periods.
 
 **Why This Matters:**
+
 - Cannot replace all systems simultaneously
 - Some systems cannot be upgraded (embedded, EOL)
 - Business continuity requires backward compatibility
@@ -971,6 +1057,7 @@ Database remains on-premises (regulatory requirement), but new applications run 
 - Some industries move slowly (healthcare, finance)
 
 **Specific Needs:**
+
 - Protocol translation (old to new)
 - Support deprecated but necessary protocols
 - Security for insecure legacy protocols
@@ -988,6 +1075,7 @@ Database remains on-premises (regulatory requirement), but new applications run 
 **Requirement:** Meet legal and regulatory requirements for data handling and network operation.
 
 **Why This Matters:**
+
 - Legal penalties for non-compliance (GDPR fines up to 4% of revenue)
 - Industry-specific regulations (HIPAA, PCI-DSS, SOX)
 - Geographic restrictions on data (data residency)
@@ -995,6 +1083,7 @@ Database remains on-premises (regulatory requirement), but new applications run 
 - Liability and risk management
 
 **Specific Needs:**
+
 - Enforce data locality (data stays in approved regions)
 - Encrypt data in transit (various regulations)
 - Maintain audit logs (immutable, long retention)
@@ -1011,6 +1100,7 @@ EU GDPR requires that EU citizen data not leave EU region. Network must enforce 
 **Requirement:** Maintain detailed records of who did what, when, and why.
 
 **Why This Matters:**
+
 - Security investigations require audit trails
 - Compliance mandates logging
 - Dispute resolution needs evidence
@@ -1019,6 +1109,7 @@ EU GDPR requires that EU citizen data not leave EU region. Network must enforce 
 - Forensics after incidents
 
 **Specific Needs:**
+
 - Log all administrative actions
 - Record policy decisions (allowed/denied)
 - Track configuration changes
@@ -1033,6 +1124,7 @@ EU GDPR requires that EU citizen data not leave EU region. Network must enforce 
 **Requirement:** Consistently enforce organizational policies across all network traffic.
 
 **Why This Matters:**
+
 - Security policies protect assets
 - Compliance policies meet regulations
 - Business policies enforce requirements
@@ -1040,6 +1132,7 @@ EU GDPR requires that EU citizen data not leave EU region. Network must enforce 
 - Automation reduces human error
 
 **Specific Needs:**
+
 - Define policies centrally
 - Enforce at multiple points
 - Validate policy compliance
@@ -1070,6 +1163,7 @@ Get data from point A to point B **reliably, securely, efficiently, and at scale
 - Ensuring compliance
 
 #### The Constraints
+
 - Physics (speed of light, bandwidth limits)
 - Economics (cost of infrastructure)
 - Security (constant threat environment)
@@ -1081,26 +1175,31 @@ Get data from point A to point B **reliably, securely, efficiently, and at scale
 #### Why This is Hard
 
 **Scale Conflicts with Simplicity:**
+
 - Simple solutions don't scale
 - Scalable solutions are complex
 - Must balance both
 
 **Security Conflicts with Performance:**
+
 - Encryption adds latency
 - Inspection slows throughput
 - Must have both
 
 **Flexibility Conflicts with Reliability:**
+
 - Dynamic systems are harder to reason about
 - Change introduces risk
 - Need both adaptability and stability
 
 **Efficiency Conflicts with Resilience:**
+
 - Redundancy wastes resources
 - Over-optimization creates brittleness
 - Must balance both
 
 **Visibility Conflicts with Privacy:**
+
 - Deep inspection reveals sensitive data
 - Logging everything is expensive
 - Need observability without exposure

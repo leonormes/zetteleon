@@ -55,26 +55,26 @@ This usage request is like a “soft” threshold, meaning a container might use
 Here’s an example you can follow which highlights the major steps for identifying and handling an issue with the CPU request setting.
 
 1. Determine the time range.
-	Use the time range selector to look at the history of a Pod’s CPU usage. At the Pod detail page, select a time frame. In this example, the time range is selected for the past two days.
-	![Time range selector showing calendar options and various set ranges in a list](https://grafana.com/media/docs/grafana-cloud/k8s/screenshot-time-picker-2-day.png?w=320)
-	Selecting two-day time period
+ Use the time range selector to look at the history of a Pod’s CPU usage. At the Pod detail page, select a time frame. In this example, the time range is selected for the past two days.
+ ![Time range selector showing calendar options and various set ranges in a list](https://grafana.com/media/docs/grafana-cloud/k8s/screenshot-time-picker-2-day.png?w=320)
+ Selecting two-day time period
 2. Examine the behavior pattern.
-	In the Pod optimization panel, look at the pattern of behavior for CPU usage. In this example, there have been several CPU bursts above the CPU request of 5 cores within a two-day period.
-	![Graph of Pod CPU usage bursting above the line for CPU limits for two-day period](https://grafana.com/media/docs/grafana-cloud/k8s/screenshot-pod-2-day-cpu-bursts.png?w=320)
-	Pod with CPU bursts in two-day time period
+ In the Pod optimization panel, look at the pattern of behavior for CPU usage. In this example, there have been several CPU bursts above the CPU request of 5 cores within a two-day period.
+ ![Graph of Pod CPU usage bursting above the line for CPU limits for two-day period](https://grafana.com/media/docs/grafana-cloud/k8s/screenshot-pod-2-day-cpu-bursts.png?w=320)
+ Pod with CPU bursts in two-day time period
 3. Set the time range farther back for more data.
-	Investigate more history by changing the time range to the past 30 days, which shows more CPU bursts far beyond the CPU request’s current setting. Here, it looks as though this behavior has been happening for some time.
-	![Graph of Pod CPU usage bursting above the line for CPU limits for 30-day period](https://grafana.com/media/docs/grafana-cloud/k8s/screenshot-pod-30-day-more-cpu-req-need.png?w=320)
-	Pod with CPU bursts in 30-day time period
+ Investigate more history by changing the time range to the past 30 days, which shows more CPU bursts far beyond the CPU request’s current setting. Here, it looks as though this behavior has been happening for some time.
+ ![Graph of Pod CPU usage bursting above the line for CPU limits for 30-day period](https://grafana.com/media/docs/grafana-cloud/k8s/screenshot-pod-30-day-more-cpu-req-need.png?w=320)
+ Pod with CPU bursts in 30-day time period
 4. Go to a view of the container.
-	The Pod detail page contains a list of all containers within the Pod. To determine which container might be the issue for this Pod, click on a container in the list to view more detail.
-	![List of Pods in the container](https://grafana.com/media/docs/grafana-cloud/k8s/container-list.png?w=320)
-	List of containers in Pod on Pod detail page
-	At the Container detail page, you can see the data is conclusive. The CPU request is undersized for the container, and an additional 1.7 cores is recommended.
-	![Graph of container CPU usage bursting above limits requested and a gauge showing CPU limit is undersized](https://grafana.com/media/docs/grafana-cloud/k8s/screenshot-container-30-day-more-req-needed.png?w=320)
-	Container detail page with gauge indicating CPU request is undersized
+ The Pod detail page contains a list of all containers within the Pod. To determine which container might be the issue for this Pod, click on a container in the list to view more detail.
+ ![List of Pods in the container](https://grafana.com/media/docs/grafana-cloud/k8s/container-list.png?w=320)
+ List of containers in Pod on Pod detail page
+ At the Container detail page, you can see the data is conclusive. The CPU request is undersized for the container, and an additional 1.7 cores is recommended.
+ ![Graph of container CPU usage bursting above limits requested and a gauge showing CPU limit is undersized](https://grafana.com/media/docs/grafana-cloud/k8s/screenshot-container-30-day-more-req-needed.png?w=320)
+ Container detail page with gauge indicating CPU request is undersized
 5. Take action based on the data.
-	You can make an adjustment to this container knowing the data shows it’s needed. And you can continue to monitor it to ensure your change solved the issue.
+ You can make an adjustment to this container knowing the data shows it’s needed. And you can continue to monitor it to ensure your change solved the issue.
 
 ### Allow for Some Bursting
 

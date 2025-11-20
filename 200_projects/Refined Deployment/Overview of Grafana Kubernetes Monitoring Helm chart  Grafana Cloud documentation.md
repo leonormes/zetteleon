@@ -117,18 +117,18 @@ This Alloy instance can also gather metrics from:
 The following collectors retrieve logs:
 
 - An alloy-singleton Deployment instance for Cluster events, to get Kubernetes lifecycle events from the API server and transform them into logs The alloy-singleton instance is responsible for anything that must be done on a single instance, such as gathering Cluster events from the API server. This instance does not support clustering, so only one instance should be used.![Alloy singleton  instance installed by Helm chart to gather events](https://grafana.com/media/docs/grafana-cloud/k8s/diagram-alloy-singleton.png?w=320)
-	Alloy singleton instance installed by Helm chart to gather events
+ Alloy singleton instance installed by Helm chart to gather events
 - An alloy-logs DaemonSet instance to retrieve Pod logs and Node logs By default, it uses HostPath volume mounts to read Pod log files directly from the Nodes. It can alternatively get logs via the API server, and be deployed as a Deployment.![Alloy logs instance for gathering logs](https://grafana.com/media/docs/grafana-cloud/k8s/diagram-alloy-logs.png?w=320)
-	Alloy logs instance for gathering logs
+ Alloy logs instance for gathering logs
 
 ### Application Telemetry
 
 The Alloy Operator can also create the following to gather metrics, logs, traces, and profiles from applications running in the Cluster:
 
 - An alloy-receiver DaemonSet instance, which opens receiver ports to process data delivered directly to itself from applications instrumented with OpenTelemetry SDKs![Alloy receiver instance installed by Helm chart to receive telemetry](https://grafana.com/media/docs/grafana-cloud/k8s/diagram-alloy-receiver.png?w=320)
-	Alloy receiver instance installed by Helm chart to receive telemetry
+ Alloy receiver instance installed by Helm chart to receive telemetry
 - An alloy-events DaemonSet instance to gather profiles![Alloy profiles instance installed by Helm chart and the profiles gathered](https://grafana.com/media/docs/grafana-cloud/k8s/diagram-alloy-profiles.png?w=320)
-	Alloy profiles instance installed by Helm chart and the profiles gathered
+ Alloy profiles instance installed by Helm chart and the profiles gathered
 
 ### Automatic Instrumentation
 
@@ -281,15 +281,15 @@ To learn more about managing metrics, refer to [Metrics management and control](
 To uninstall the Helm chart:
 
 1. Delete the Alloy instances:
-	YAML
+ YAML
 
-	```yaml
-	kubectl delete alloy --all --namespace <namespace>
-	```
+ ```yaml
+ kubectl delete alloy --all --namespace <namespace>
+ ```
 
 2. Uninstall the Helm chart:
-	YAML
+ YAML
 
-	```yaml
-	helm uninstall --namespace <namespace> grafana-k8s-monitoring
-	```
+ ```yaml
+ helm uninstall --namespace <namespace> grafana-k8s-monitoring
+ ```

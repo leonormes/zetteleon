@@ -22,6 +22,7 @@ Here’s a **highly personalized, modular weekly training plan** tailored to you
 ---
 
 ## ✅ **Core Principles**
+
 - **Focus:** Functional strength, balanced physique, sustainable progress.
 - **Session Length:** 30–45 mins (ADHD-friendly).
 - **Frequency:** 4–5 sessions/week (split for variety).
@@ -67,6 +68,7 @@ Functional fitness covers **7 key patterns**:
 
 ## **Weekly Modular Plan**
 **Day 1 – Lower Body Strength**
+
 - Warm-up: Dynamic stretches (hip circles, leg swings)
 - Squat: Goblet Squat 3×10
 - Hinge: Romanian Deadlift 3×8
@@ -75,6 +77,7 @@ Functional fitness covers **7 key patterns**:
 - Cool-down: Hamstring & quad stretch
 
 **Day 2 – Upper Body Push/Pull**
+
 - Warm-up: Shoulder mobility drills
 - Push: Dumbbell Bench Press 3×10
 - Pull: Resistance Band Row 3×12
@@ -82,12 +85,14 @@ Functional fitness covers **7 key patterns**:
 - Cool-down: Chest & lat stretch
 
 **Day 3 – Cardio & Core**
+
 - Warm-up: Light jog or jump rope 5 mins
 - Intervals: 30 sec sprint / 90 sec walk × 8 rounds
 - Core Circuit: Plank (30 sec), Dead Bug (10 reps), Side Plank (20 sec each side)
 - Cool-down: Breathing drills + hip flexor stretch
 
 **Day 4 – Full Body Functional**
+
 - Warm-up: Mobility flow (cat-cow, thoracic rotations)
 - Squat: Bulgarian Split Squat 3×8 each leg
 - Push: Pike Push-Up 3×8
@@ -96,11 +101,13 @@ Functional fitness covers **7 key patterns**:
 - Cool-down: Spinal twist stretch
 
 **Day 5 – Optional Active Recovery**
+
 - 20–30 min walk, yoga, or light cycling
 
 ---
 
 ## **Sets & Reps**
+
 - Strength: 3 sets of 8–12 reps (progressive overload)
 - Core: 3 sets of 10–15 reps or timed holds
 - Cardio: 20–30 mins (intervals or steady-state)
@@ -108,12 +115,14 @@ Functional fitness covers **7 key patterns**:
 ---
 
 ## **Warm-Up & Cool-Down**
+
 - **Warm-Up:** 5–7 mins dynamic mobility + light activation (glute bridges, band pull-aparts)
 - **Cool-Down:** 5 mins static stretching + deep breathing
 
 ---
 
 ## **Recovery Strategies**
+
 - Sleep: 7–8 hrs
 - Hydration: 2–3L water/day
 - Active recovery: Walking, mobility drills
@@ -122,6 +131,7 @@ Functional fitness covers **7 key patterns**:
 ---
 
 ## **Nutrition Tips**
+
 - **Protein:** 1.6–2.2g per kg body weight (≈150–200g/day)
 - **Calories:** Slight surplus for muscle gain, but monitor fat regain
 - **Meals:** Lean protein + complex carbs + healthy fats
@@ -131,6 +141,7 @@ Functional fitness covers **7 key patterns**:
 ---
 
 ## **ADHD-Friendly Consistency Hacks**
+
 - **Micro-goals:** “Just start the warm-up” → momentum builds.
 - **Variety:** Rotate exercises weekly within same pattern.
 - **Gamify:** Track PBs, use apps for quick feedback.
@@ -152,41 +163,49 @@ For a 52-year-old male aiming for functional, well-rounded physical strength aft
 - Carry (core, grip, functional endurance)
 - Rotate & Anti-Rotate (core, obliques, spinal stability)
 - Balance & Stability (proprioception, fall prevention)
-- Mobility (joint range, flexibility, muscle function)[2][3][4][6]
+- Mobility [joint range, flexibility, muscle function](2)[3][4][6]
 
 ***
 
 ### Essential Functional Exercises
 
 #### Squat Movements
+
 - **Bodyweight Squat / Sit-to-Stand:** From a chair or standing, squat down and up for glute, quad, and hamstring activation[3][6][7].
 - **Step-Ups:** Step onto a sturdy platform, alternating legs to build unilateral strength and balance[3][8][6].
 - **Multi-Directional Lunge:** Forward, backward, and side lunges for hip and core stability[5].
 
 #### Hinge Patterns
+
 - **Hip Hinge / Romanian Deadlift:** Bend at the hips, keeping the spine neutral and using glutes and hamstrings[2][9].
 - **Glute Bridge:** Lying back, lift hips while tightening glutes—excellent for low back and hip strength[3][6].
 
 #### Push Patterns
+
 - **Elevated or Wall Push-Ups:** Hands on a wall or bench to protect shoulders, press away for chest and arms[1][3][8][7].
 - **Chest Press:** Dumbbell or resistance band chest press for upper body strength[10].
 
 #### Pull Patterns
+
 - **Assisted Pull-Ups or Rows:** Use bands or machines; pulling toward the torso builds back and biceps[1].
 - **Bar Hanging:** For grip and shoulder strength, simply hang from a bar as long as comfortable[2].
 
 #### Carry Movements
+
 - **Farmer’s Carry:** Walk with weights by your sides, activating grip, core, shoulders, and legs[3][5].
 
 #### Rotation & Anti-Rotation
+
 - **Dead Bug:** On back, move opposite arm and leg, holding core steady—improves deep core stability[3].
 - **Shoulder “Pass Throughs”:** Use a stick for dynamic shoulder mobility and flexibility[2].
 
 #### Balance & Stability
-- **Single-Leg Balance:** Stand on one leg (progress by closing eyes or adding movement)[3].
+
+- **Single-Leg Balance:** Stand on one leg [progress by closing eyes or adding movement](3).
 - **Heel Toe Walks:** Walk in a line, heel to toe for balance and proprioception[2].
 
 #### Additional Functional Exercises
+
 - **Calf Raises:** Stand and lift onto tiptoes; great for lower leg strength and balance[3][7].
 - **Bicep Curls:** Light weights or resistance bands for arm strength and grip[8].
 - **Plank:** Hold a straight line on elbows and toes for core and shoulder stability[11].
@@ -208,7 +227,7 @@ For a 52-year-old male aiming for functional, well-rounded physical strength aft
 ### Action Steps
 
 1. Pick 1-2 exercises from each movement group and perform 2-3 sets of 8-15 reps[1][3][6][7].
-2. Progress by increasing reps, resistance, or complexity (e.g., squats to step-ups; wall push-ups to floor)[1][3].
+2. Progress by increasing reps, resistance, or complexity [e.g., squats to step-ups; wall push-ups to floor](1)[3].
 3. Include mobility and balance drills in warm-up or cool-down to reinforce healthy movement[2][3].
 4. Emphasize slow, controlled form and rest between sets for injury prevention[1][3].
 5. Rotate exercises every few weeks for variety and adaptability[4][6].
@@ -392,18 +411,21 @@ Here is a personalised, modular training programme designed to build functional 
 
 Guiding Principles
 
- - Rebuild First: After rapid weight loss (especially with GLP-1 agonists), muscle loss (sarcopenia) can be significant. Our number one priority is resistance training to rebuild this metabolically active tissue.
- - ADHD-Friendly Workflow: This programme is built on variety, frequency, and "small wins." Sessions are short (\approx 30-45 minutes) but frequent, providing consistent feedback and preventing boredom.
- - Movement > Muscles: We will train movements (Push, Pull, Hinge, Squat, Lunge, Carry), not just body parts. This builds functional strength that translates to real life and creates a balanced physique.
+- Rebuild First: After rapid weight loss (especially with GLP-1 agonists), muscle loss (sarcopenia) can be significant. Our number one priority is resistance training to rebuild this metabolically active tissue.
+- ADHD-Friendly Workflow: This programme is built on variety, frequency, and "small wins." Sessions are short (\approx 30-45 minutes) but frequent, providing consistent feedback and preventing boredom.
+- Movement > Muscles: We will train movements (Push, Pull, Hinge, Squat, Lunge, Carry), not just body parts. This builds functional strength that translates to real life and creates a balanced physique.
+
 1. The Weekly Modular Plan
 This is a 4-day-per-week, Full-Body A/B Split. This structure gives you frequency and variety, allowing you to hit each movement pattern twice per week without any single session becoming a long, tedious slog.
- - Monday: Session A
- - Tuesday: Session B
- - Wednesday: Active Recovery (e.g., 30-min walk, mobility)
- - Thursday: Session A (use different exercise variations)
- - Friday: Session B (use different exercise variations)
- - Saturday: Cardio (LISS or HIIT)
- - Sunday: Full Rest
+
+- Monday: Session A
+- Tuesday: Session B
+- Wednesday: Active Recovery (e.g., 30-min walk, mobility)
+- Thursday: Session A (use different exercise variations)
+- Friday: Session B (use different exercise variations)
+- Saturday: Cardio (LISS or HIIT)
+- Sunday: Full Rest
+
 2. Session Structure: The "A" and "B" Workouts
 Aim for 3 sets of 8-12 repetitions for each exercise. This range is optimal for hypertrophy (muscle growth).
 Rest for 60-90 seconds between sets. Use a timer to stay on track.
@@ -447,43 +469,48 @@ This is how you ensure variety. For each session, simply swap in an alternative 
 Do not skip these. They are critical for injury prevention and performance.
 Dynamic Warm-up (5-10 mins)
 Perform this before every single workout.
- - Pulse Raiser (3 mins): Light skipping, jogging on the spot, or jumping jacks.
- - Mobility Drills (5 mins):
-   - Cat-Cow: 10 reps (for spinal mobility)
-   - World's Greatest Stretch: 5 reps per side (opens hips, thoracic spine)
-   - Leg Swings: 15 reps (front-to-back and side-to-side)
-   - Band Pull-Aparts: 20 reps (activates upper back and shoulders)
-   - Bodyweight Squats: 15 reps (primes the squat pattern)
+
+- Pulse Raiser (3 mins): Light skipping, jogging on the spot, or jumping jacks.
+- Mobility Drills (5 mins):
+  - Cat-Cow: 10 reps (for spinal mobility)
+  - World's Greatest Stretch: 5 reps per side (opens hips, thoracic spine)
+  - Leg Swings: 15 reps (front-to-back and side-to-side)
+  - Band Pull-Aparts: 20 reps (activates upper back and shoulders)
+  - Bodyweight Squats: 15 reps (primes the squat pattern)
 Cool-down (5 mins)
 Perform this immediately after your last set.
- - Heart Rate Reduction (2 mins): Slow, deliberate walking. Focus on deep, nasal breathing.
- - Static Stretches (Hold 30s each):
-   - Chest Stretch (doorway or band)
-   - Lat Stretch (hang from bar or pull-down machine)
-   - Hamstring Stretch (forward fold)
-   - Quad Stretch (standing)
+- Heart Rate Reduction (2 mins): Slow, deliberate walking. Focus on deep, nasal breathing.
+- Static Stretches (Hold 30s each):
+  - Chest Stretch (doorway or band)
+  - Lat Stretch (hang from bar or pull-down machine)
+  - Hamstring Stretch (forward fold)
+  - Quad Stretch (standing)
 Key Recovery Strategies
- - Sleep: This is when you repair and grow. It is non-negotiable. Aim for 7-9 hours of quality sleep.
- - Hydration: Muscle is \approx 75\% water. Dehydration crushes performance. Aim for 2.5 - 3 litres of water per day, plus more on training days.
- - Active Recovery: On your "off" days, move. A 30-minute brisk walk is perfect. It pumps blood to sore muscles (DOMS) and aids repair without causing more stress.
+- Sleep: This is when you repair and grow. It is non-negotiable. Aim for 7-9 hours of quality sleep.
+- Hydration: Muscle is \approx 75\% water. Dehydration crushes performance. Aim for 2.5 - 3 litres of water per day, plus more on training days.
+- Active Recovery: On your "off" days, move. A 30-minute brisk walk is perfect. It pumps blood to sore muscles (DOMS) and aids repair without causing more stress.
+
 5. Consistency & ADHD-Friendly Focus
- - Log Everything: This is your "rapid feedback". Use a notebook or app. Write down Exercise, Weight, Sets x Reps. Seeing Goblet Squat 16kg 3x8 become Goblet Squat 20kg 3x10 two weeks later is a massive dopamine hit.
- - Reduce Friction: Lay out your gym clothes, bands, and water bottle the night before. The fewer steps between "I should work out" and "I am working out," the better.
- - The 5-Minute Rule: On low-motivation days, just commit to the 5-minute warm-up. If you still want to stop after 5 minutes, you can. 9 times out of 10, you'll continue and complete the session.
- - Use a Timer: Use your phone's timer for rest periods. It keeps the session moving, maintains focus, and prevents you from drifting off.
- - "Flow" your Workout: Group exercises that use the same equipment (e.g., do your Dumbbell Press and Dumbbell Rows in the same spot) to minimise setup time and maintain momentum.
+
+- Log Everything: This is your "rapid feedback". Use a notebook or app. Write down Exercise, Weight, Sets x Reps. Seeing Goblet Squat 16kg 3x8 become Goblet Squat 20kg 3x10 two weeks later is a massive dopamine hit.
+- Reduce Friction: Lay out your gym clothes, bands, and water bottle the night before. The fewer steps between "I should work out" and "I am working out," the better.
+- The 5-Minute Rule: On low-motivation days, just commit to the 5-minute warm-up. If you still want to stop after 5 minutes, you can. 9 times out of 10, you'll continue and complete the session.
+- Use a Timer: Use your phone's timer for rest periods. It keeps the session moving, maintains focus, and prevents you from drifting off.
+- "Flow" your Workout: Group exercises that use the same equipment (e.g., do your Dumbbell Press and Dumbbell Rows in the same spot) to minimise setup time and maintain momentum.
+
 6. Nutrition Strategy: Rebuild & Re-comp
 Your recent weight loss is fantastic, but now we must shift focus from just loss to rebuilding. You are in a prime position for "body recomposition" (losing fat and gaining muscle simultaneously).
 Your Number One Priority: Protein.
- - Why: It is the building block for the muscle you want to grow. It is also highly satiating (keeps you full) and has the highest thermic effect of food (burns calories to digest).
- - Target: Aim for 1.6 - 2.0 grams of protein per kilogram of bodyweight.
-   - At 91kg, this is 145g - 182g of protein per day.
- - How: Make it the centrepiece of every meal.
-   - Breakfast: Greek yoghurt, eggs, or a protein shake.
-   - Lunch: Large chicken breast or salmon fillet with salad/vegetables.
-   - Dinner: Lean mince, fish, or tofu with rice/potatoes and vegetables.
-   - Snacks: Protein bar, handful of nuts, cottage cheese.
+
+- Why: It is the building block for the muscle you want to grow. It is also highly satiating (keeps you full) and has the highest thermic effect of food (burns calories to digest).
+- Target: Aim for 1.6 - 2.0 grams of protein per kilogram of bodyweight.
+  - At 91kg, this is 145g - 182g of protein per day.
+- How: Make it the centrepiece of every meal.
+  - Breakfast: Greek yoghurt, eggs, or a protein shake.
+  - Lunch: Large chicken breast or salmon fillet with salad/vegetables.
+  - Dinner: Lean mince, fish, or tofu with rice/potatoes and vegetables.
+  - Snacks: Protein bar, handful of nuts, cottage cheese.
 Calories & Carbs/Fats:
- - Calories: Do not crash diet. You need fuel to build muscle. Start by eating at your new maintenance level. The resistance training and high protein intake will drive the "re-comp."
- - Carbs: Do not fear them. They are your primary fuel source for high-intensity training. Focus on whole-food sources: oats, potatoes, sweet potatoes, rice, fruits. Time them around your workouts for best effect.
- - Fats: Essential for hormone production (especially at 52). Focus on healthy sources: avocado, nuts, seeds, olive oil, and oily fish (salmon, mackerel).
+- Calories: Do not crash diet. You need fuel to build muscle. Start by eating at your new maintenance level. The resistance training and high protein intake will drive the "re-comp."
+- Carbs: Do not fear them. They are your primary fuel source for high-intensity training. Focus on whole-food sources: oats, potatoes, sweet potatoes, rice, fruits. Time them around your workouts for best effect.
+- Fats: Essential for hormone production (especially at 52). Focus on healthy sources: avocado, nuts, seeds, olive oil, and oily fish (salmon, mackerel).

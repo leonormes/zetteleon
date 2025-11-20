@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-19T02:16:11Z
 epistemic:
 last_reviewed:
-modified: 2025-11-19T14:26:50Z
+modified: 2025-11-19T14:53:10Z
 purpose:
 review_interval:
 see_also: []
@@ -26,6 +26,7 @@ Here is the analysis of the configuration formatted for your notes.
 ## NNUHFT-SDE-nsg
 
 ### Metadata
+
 - **Resource Name:** `NNUHFT-SDE-nsg`
 - **Region:** `uksouth` (London)
 - **Environment:** `live`
@@ -58,11 +59,9 @@ The default behaviour is defined by the `defaultSecurityRules` section. These ru
 | **65500** | `DenyAllOutBound` | **Deny** | Blocks traffic to anywhere that isn't the VNet or the Internet. |
 
 ### Summary of Current Posture
+
 - **Internal Communication:** Open. All devices in the VNet can communicate on all ports.
 - **Public Access (Inbound):** Closed. No one from the internet can reach these resources.
 - **Internet Access (Outbound):** Open. The servers can download updates or connect to external APIs, but this also allows potential data exfiltration paths.
 
 ***
-
-**Next Step:**
-Since this NSG relies entirely on defaults, would you like me to generate the JSON or Terraform code for a custom security rule (e.g., to allow SSH/RDP access from a specific IP, or to block outbound internet access)?

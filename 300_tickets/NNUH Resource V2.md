@@ -26,8 +26,8 @@ updated:
 > [!INFO] Environment Details
 >
 > - Subscription: NNUHFT-SDE
-> 
->     - Primary Location: UK South (London) 1* Public Egress IP: 20.162.236.86 2* Address Space: 192.168.200.0/24 3* Last Scan: 19 Nov 2025 4
+>
+>   - Primary Location: UK South (London) 1*Public Egress IP: 20.162.236.86 2* Address Space: 192.168.200.0/24 3* Last Scan: 19 Nov 2025 4
 
 ### Resource Topology
 
@@ -67,9 +67,9 @@ graph TD
 
 - **Address Space:** `192.168.200.0/24`
 - **Peering Connection:**
-    - **Remote VNet:** `NNUH-HUB-vnet1`
-    - **Remote CIDR:** `192.168.208.0/20`
-    - **Status:** `Connected` / `FullyInSync`
+  - **Remote VNet:** `NNUH-HUB-vnet1`
+  - **Remote CIDR:** `192.168.208.0/20`
+  - **Status:** `Connected` / `FullyInSync`
 - **Subnets:**
 
 | **Subnet Name** | **CIDR Range**     | **Usable IPs** | **Route Table** | **NAT Gateway**  |
@@ -113,11 +113,11 @@ graph TD
 > [!INFO] Scope of Access
 >
 > - **Target Scope:** Subscription `NNUHFT-SDE` (Root Level)
-> 
+>
 > - **Total Identities:** 11
-> 
+>
 > - **Detected Roles:** [[Owner]], [[Contributor]]
-> 
+>
 > - **Assessment Date:** 19 Nov 2025
 
 ### Role Capabilities
@@ -129,9 +129,9 @@ The file indicates that all users have **Subscription-level** access. This is th
 **Access Level:** `Superuser`
 
 - **Capabilities:**
-    - **Full Control:** You can create, read, update, and delete *any* resource in the subscription (VMs, Networks, Storage, Databases).
-    - **User Management (The Key Difference):** You can assign permissions to *other* people. You can make someone else an Owner or revoke their access.
-    - **Support Tickets:** You can raise support requests with Microsoft.
+  - **Full Control:** You can create, read, update, and delete *any* resource in the subscription (VMs, Networks, Storage, Databases).
+  - **User Management (The Key Difference):** You can assign permissions to *other* people. You can make someone else an Owner or revoke their access.
+  - **Support Tickets:** You can raise support requests with Microsoft.
 - **Security Note:** This is a highly privileged role. Owners effectively hold the keys to the entire kingdom.
 
 #### 2. [[Contributor]]
@@ -139,8 +139,8 @@ The file indicates that all users have **Subscription-level** access. This is th
 **Access Level:** `Power User`
 
 - **Capabilities:**
-    - **Full Control:** Like the Owner, you can create, read, update, and delete any resource.
-    - **Restriction:** You **cannot** grant access to others. You cannot change who has access to the subscription.
+  - **Full Control:** Like the Owner, you can create, read, update, and delete any resource.
+  - **Restriction:** You **cannot** grant access to others. You cannot change who has access to the subscription.
 - **Use Case:** This is the standard role for DevOps engineers who need to build infrastructure but shouldn't be managing security governance.
 
 ---
@@ -172,4 +172,3 @@ The file indicates that all users have **Subscription-level** access. This is th
 
 1. **High Number of Owners:** There are **9 Owners** on this subscription. Microsoft Best Practice usually recommends keeping Owners to a maximum of 3 (Service Admins + Break-glass account) to reduce the attack surface.
 2. **Service Accounts:** The users prefixed with `_` (e.g., `_Andy...`) appear to be specific cloud-synced or administrative accounts. Ensure these are tied to specific individuals and not shared.
-    

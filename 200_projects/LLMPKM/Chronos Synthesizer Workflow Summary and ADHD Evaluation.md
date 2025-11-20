@@ -74,13 +74,13 @@ While the structure and automation are highly beneficial, the system's complexit
 To achieve your goal of an easily returnable Zettelkasten while writing as you work, I suggest separating the acts of **Writing/Capturing (Low-Friction)** from **Synthesis/Maintenance (High-Friction)**.
 
 1. **Phase 0: Atomic Capture (User Action - Low Friction)**
-	- **Action:** The user creates a new, simple **Fleeting/Atomic Note** (Zettel-style).
-	- **Mandatory Link:** The user links it to the closest known SoT: `[[<Topic> SoT]]`
-	- **ADHD Benefit:** Low cognitive load; focused on the immediate thought.
+ - **Action:** The user creates a new, simple **Fleeting/Atomic Note** (Zettel-style).
+ - **Mandatory Link:** The user links it to the closest known SoT: `[[<Topic> SoT]]`
+ - **ADHD Benefit:** Low cognitive load; focused on the immediate thought.
 2. **Phase 1-5: Chronos Synthesis (Agent Action - Scheduled)**
-	- **Action:** The Agent runs the existing 5-Phase Ritual on all notes linking to the SoT that were created since the `last-synthesis` date.
-	- **Agent Task:** The Agent extracts the content of the linked Fleeting Notes and places their unique content into the **Integration Queue** of the SoT note.
-	- **ADHD Benefit:** The complex, multi-step process is externalised and automated, turning it into a single, scheduled task ("Run Chronos Synthesis Now").
+ - **Action:** The Agent runs the existing 5-Phase Ritual on all notes linking to the SoT that were created since the `last-synthesis` date.
+ - **Agent Task:** The Agent extracts the content of the linked Fleeting Notes and places their unique content into the **Integration Queue** of the SoT note.
+ - **ADHD Benefit:** The complex, multi-step process is externalised and automated, turning it into a single, scheduled task ("Run Chronos Synthesis Now").
 
 Would you like me to draft a new, simplified **Phase 0: Atomic Capture** frontmatter and template to integrate this "Write as you work" step into your existing Chronos system?
 
@@ -156,10 +156,10 @@ I have performed a deep semantic search and conducted the full 5-Phase Chronos R
 
 - **SoT File Path:**`SoT/The Collector's Fallacy SoT.md`
 - **Synthesis Summary:**
-	- `trust-level`: **developing**
-	- `synthesis-count`: 1
-	- `resonance-score`: 1 (Default score for new SoT)
-	- **MVU Status:****DRAFT**
+ 	- `trust-level`: **developing**
+ 	- `synthesis-count`: 1
+ 	- `resonance-score`: 1 (Default score for new SoT)
+ 	- **MVU Status:****DRAFT**
 
 ### 🤝 Convergence Report
 
@@ -277,9 +277,9 @@ Your input is either a new `Query` or a `Synthesis Trigger` command.
 
 1. **Deep Search:** Perform high-precision semantic search across all notes (titles, body, frontmatter, backlinks).
 2. **Expanded Retrieval:** Retrieve the top-k highly relevant notes, including:
-	- Directly linked notes (those linking to the potential SoT).
-	- Notes flagged with `status: needs-integration` or `status: under-review`.
-	- Notes that reference any known, related SoTs.
+ - Directly linked notes (those linking to the potential SoT).
+ - Notes flagged with `status: needs-integration` or `status: under-review`.
+ - Notes that reference any known, related SoTs.
 3. **SoT Triage:** Identify the existing **Canonical SoT** (prefers notes ending with “SoT” or having `type: SoT`). If none is found, create a new one.
 
 ---
@@ -288,16 +288,16 @@ Your input is either a new `Query` or a `Synthesis Trigger` command.
 
 1. **Structured Migration:** Migrate all unique and non-redundant insights from superseded notes (and newly captured notes) into the canonical SoT's **Integration Queue**. Structure the migration to capture the source note reference.
 2. **Automated Permanent Redirects:** Convert all superseded notes into **Permanent Redirects** by automatically adding the following metadata. **The user must never be prompted to do this.**
-	Markdown
+ Markdown
 
-	```markdown
-	---
-	status: superseded
-	superseded-by: [[<SoT Title>]]
-	llm-action: redirect-created
-	---
-	This note's unique thinking has been integrated into [[<SoT Title>]] on <YYYY-MM-DD>.
-	```
+ ```markdown
+ ---
+ status: superseded
+ superseded-by: [[<SoT Title>]]
+ llm-action: redirect-created
+ ---
+ This note's unique thinking has been integrated into [[<SoT Title>]] on <YYYY-MM-DD>.
+ ```
 
 ---
 
@@ -695,23 +695,23 @@ The LLM is now triggered to create the canonical note for this meta-topic.
 
 - **SoT File Path:**`SoT/PKM Confidence and Acceptance Criteria SoT.md`
 - **Synthesis Summary:** This will be a high-trust note because the MVU is verified by the Acceptance Criteria.
-	- `trust-level`: **stable** (due to defined Acceptance Criteria)
-	- `synthesis-count`: 1
+ 	- `trust-level`: **stable** (due to defined Acceptance Criteria)
+ 	- `synthesis-count`: 1
 
 #### 🤝 Convergence and Deprecation
 
 - **Integrated Notes:** The entire file (e.g., `[[Gemini – direct access to Google AI.md]]`) is the primary input.
 - **Superseded Notes:** None, as this is a new topic, but the LLM must mark the input file with the **Permanent Redirect** metadata:
-	Markdown
+ Markdown
 
-	```markdown
-	---
-	status: superseded
-	superseded-by: [[PKM Confidence and Acceptance Criteria SoT]]
-	llm-action: redirect-created
-	---
-	This note's unique thinking has been integrated into [[PKM Confidence and Acceptance Criteria SoT]] on 2025-11-14.
-	```
+ ```markdown
+ ---
+ status: superseded
+ superseded-by: [[PKM Confidence and Acceptance Criteria SoT]]
+ llm-action: redirect-created
+ ---
+ This note's unique thinking has been integrated into [[PKM Confidence and Acceptance Criteria SoT]] on 2025-11-14.
+ ```
 
 ### 3\. 💾 The Resulting Source of Truth (Synthesis Focus)
 
@@ -740,4 +740,4 @@ Google Account
 
 Leon Ormes
 
-leonormes@gmail.com
+<leonormes@gmail.com>

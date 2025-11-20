@@ -25,6 +25,7 @@ Different CNI plugins offer varying network models (overlay/underlay) and featur
 ## Popular CNI Plugins
 
 ### Calico
+
 - **Network Model**: Overlay and Underlay support
 - **Key Features**: Policy enforcement, BGP routing, IPAM
 - **Security**: Advanced network policy support
@@ -32,6 +33,7 @@ Different CNI plugins offer varying network models (overlay/underlay) and featur
 - **Use Case**: Enterprise environments requiring strong security and performance
 
 ### Flannel
+
 - **Network Model**: Overlay only
 - **Key Features**: VXLAN encapsulation, simple configuration
 - **Configuration**: Uses Kubernetes API or etcd for backend
@@ -39,6 +41,7 @@ Different CNI plugins offer varying network models (overlay/underlay) and featur
 - **Use Case**: Development, testing, simple production deployments
 
 ### Weave
+
 - **Network Model**: Overlay
 - **Key Features**: Encrypted traffic, cross-cluster connectivity
 - **Security**: Built-in encryption for data in transit
@@ -48,21 +51,25 @@ Different CNI plugins offer varying network models (overlay/underlay) and featur
 ### Selection Criteria
 
 **Performance Requirements:**
+
 - Calico (underlay) for highest performance
 - Flannel for moderate performance with simplicity
 - Weave when encryption is needed
 
 **Security Needs:**
+
 - Calico for advanced network policies
 - Weave for built-in encryption
 - Flannel for basic security
 
 **Operational Complexity:**
+
 - Flannel for simplest setup
 - Calico for enterprise features
 - Weave for multi-cluster scenarios
 
 ## Implementation Considerations
+
 - **Network Policy Support**: Not all plugins support NetworkPolicy
 - **IPAM Integration**: IP address management varies by plugin
 - **Monitoring**: Different observability capabilities

@@ -25,12 +25,14 @@ The container runtime is responsible for managing container lifecycle and coordi
 ## Details
 
 ### Container Runtime Responsibilities
+
 - **Lifecycle Management**: Manages creation, start, stop, and deletion of containers
 - **Network Coordination**: Interacts with CNI plugins when pods are created
 - **Configuration**: Sets up network namespace, assigns IP addresses, configures interfaces
 - **Notification**: Notifies kubelet when containers are ready for network configuration
 
 ### Network Configuration Process
+
 1. **Pod Creation**: kubelet instructs container runtime to create containers
 2. **Container Startup**: Runtime starts containers within the pod
 3. **Readiness Notification**: Runtime notifies kubelet that containers are ready
@@ -38,11 +40,13 @@ The container runtime is responsible for managing container lifecycle and coordi
 5. **Network Setup**: CNI plugin assigns IP, sets up interfaces, configures routing
 
 ### Key Interactions
+
 - **With kubelet**: Receives pod creation instructions, reports container status
 - **With CNI Plugins**: Provides container context for network configuration
 - **With Kernel**: Creates and manages network namespaces at kernel level
 
 ## Runtime Examples
+
 - **containerd**: Default runtime in modern Kubernetes
 - **CRI-O**: Lightweight runtime focused on Kubernetes
 - **Docker**: Legacy runtime with CRI shim

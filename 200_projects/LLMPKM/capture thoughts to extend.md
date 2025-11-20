@@ -124,6 +124,7 @@ You just:
 **Disorganized thoughts:** "I hate context switching" written 50 times across 50 notes, each in isolation.
 
 **Organized thoughts:** All 50 variations linked, showing your thinking evolution:
+
 1. "I hate context switching" (Jan)
 2. "Context switching costs 23 minutes" (Feb - added data)
 3. "Context switching might be attention residue" (Mar - added theory)
@@ -178,6 +179,7 @@ You can see your understanding evolve. Each entry builds on the last.
 ## What This Solves
 
 ### Without PKM (Your Current State)
+
 - Writing the same insights repeatedly
 - Forgetting your own breakthroughs
 - Each thinking session starts from zero
@@ -185,6 +187,7 @@ You can see your understanding evolve. Each entry builds on the last.
 - Feeling like you're not making progress
 
 ### With Real PKM (Extended Mind State)
+
 - Every thought builds on previous thoughts
 - Your past self helps your current self
 - Ideas compound and evolve
@@ -245,6 +248,7 @@ I'm developing ProdOS (Productivity Operating System) - a comprehensive life man
 ### System Philosophy
 
 #### Core Principles
+
 1. **The Indistractable Stack**: Self > Relationships > Work (enforced via scoring multipliers)
 2. **The Unschedule**: Schedule renewal/leisure FIRST, fit work into remaining time
 3. **Compass Over Clock**: Importance > Urgency (Quadrant II focus)
@@ -299,6 +303,7 @@ priority_score: calculated_float
 ### The LLM Chief of Staff
 
 #### Three Operating Modes
+
 1. **Executor**: Performs defined commands (`/daily-plan`, `/capture-thought`)
 2. **Socratic Coach**: Asks clarifying questions during planning/review
 3. **Strategic Advisor**: Analyzes patterns, suggests improvements
@@ -355,6 +360,7 @@ Where: Self=1.5x, Relationships=1.2x, Work=1.0x
 **Problem**: "I hate context switching" written 50 times across 50 notes
 
 **Solution**: All 50 instances linked, showing evolution:
+
 - Jan: "I hate context switching"
 - Feb: "Context switching costs 23 minutes" (added data)
 - Mar: "Might be attention residue" (added theory)
@@ -364,6 +370,7 @@ Where: Self=1.5x, Relationships=1.2x, Work=1.0x
 ### Current State & Needs
 
 #### What I Have
+
 - Clear philosophy and principles
 - Basic system architecture designed
 - Understanding of the workflows needed
@@ -439,6 +446,7 @@ Start with **frictionless capture and retrieval**, because:
 - Retrieval prevents thought loops and creates immediate value.
 
 **MVP Goal:**  
+
 - `/capture-thought` → Obsidian note with metadata.
 - `/extend` → Surfaces related notes when writing.
 - Basic semantic search (even if approximate).
@@ -448,6 +456,7 @@ This gives you **instant payoff**: you stop losing ideas and start building conn
 ---
 
 ### ✅ **Incremental Implementation Strategy**
+
 1. **Phase 1: Capture + Retrieval**
    - Use Obsidian + plugins (Templater, Dataview, QuickAdd).
    - Add a simple script/API to push captured thoughts into vault with metadata.
@@ -468,6 +477,7 @@ This gives you **instant payoff**: you stop losing ideas and start building conn
 ---
 
 ### ✅ **LLM Integration Architecture**
+
 - **Persistent Context:**  
   - Store embeddings for all notes in a vector DB (e.g., Weaviate, Qdrant, or SQLite + FAISS).
   - Use metadata for filtering (domain, energy, context).
@@ -481,6 +491,7 @@ This gives you **instant payoff**: you stop losing ideas and start building conn
 ---
 
 ### ✅ **ADHD-Specific Features**
+
 - **Hyperfocus Detection:**  
   - Track time spent on one context → gentle nudge after threshold.
 - **Time Blindness Compensation:**  
@@ -494,6 +505,7 @@ This gives you **instant payoff**: you stop losing ideas and start building conn
 ---
 
 ### ✅ **Knowledge Development Patterns**
+
 - **Ready for Synthesis:**  
   - Detect clusters of related notes with high backlink density.
 - **Surface Contradictions:**  
@@ -506,6 +518,7 @@ This gives you **instant payoff**: you stop losing ideas and start building conn
 ---
 
 ### ✅ **Technical Decisions**
+
 - **Obsidian Plugins First:**  
   - Templater, Dataview, QuickAdd, Obsidian Git for version control.
 - **Mobile Capture:**  
@@ -519,6 +532,7 @@ This gives you **instant payoff**: you stop losing ideas and start building conn
 ---
 
 ### ✅ **Similar Systems & Research**
+
 - **Tiago Forte’s PARA + Second Brain**
 - **Andy Matuschak’s Evergreen Notes**
 - **Extended Mind (Annie Murphy Paul)**
@@ -528,6 +542,7 @@ This gives you **instant payoff**: you stop losing ideas and start building conn
 ---
 
 ### ✅ **Pitfalls To Watch**
+
 - **Over-engineering early:** Start simple or you’ll stall.
 - **Cognitive overhead:** If the system feels heavy, ADHD brain will avoid it.
 - **LLM hallucinations:** Always verify before committing to vault.
@@ -557,76 +572,83 @@ Therefore, every step must provide immediate, tangible value.
 Your first focus must be on frictionless capture and basic task management. This directly addresses your "Thought Loops" and "ADHD Executive Dysfunction" problems with the lowest technical overhead.
 Do not start by building the complex LLM logic.
 MVP: The "Capture & Clarify" Loop
- - Solidify Capture:
-   - Goal: Get 100% of thoughts out of your head and into 01_Inbox/ or 10_PKM/11_Seeds/ with zero friction.
-   - Obsidian Tools:
-     - Desktop: Use the QuickAdd plugin. Create a "Capture" command that opens a simple prompt, adds basic metadata (e.g., uid, created, type: capture), and saves to 01_Inbox/. Map this to a global hotkey.
-     - Mobile: Use the Obsidian mobile app with a "Quick share" target or a homescreen widget linked to your QuickAdd capture command.
-   - "Low-EF" Fallback: Have a 'dumb' capture method for low-energy days. This could be a simple .txt file in your vault (e.g., _INBOX.md) that you can append to from any text editor, or a third-party app that syncs text files (like SimpleNote) pointed at your Inbox folder.
- - Establish a Manual Review Ritual:
-   - Goal: Build the habit of processing your inbox. This is the foundation of GTD and non-negotiable.
-   - Process: Once per day (e.g., at 08:00), manually process everything in 01_Inbox/ and 11_Seeds/.
-   - Actions:
-     - Delete it.
-     - Move it to 02_Projects/ (if multi-step).
-     - Move it to 03_Actions/ (if a single action).
-     - Move it to 12_Atomic/ (if a clear, single idea).
-     - Move it to 13_Structural/ (if it's a "Map of Content" idea).
-   - Why manual? This forces you to engage with your own thoughts and refines your mental model for what types of notes you create, which is essential before you try to automate it with an LLM.
- - Implement Basic Action Views:
-   - Goal: See what you need to do, solving the "what's next?" problem.
-   - Obsidian Tools: Use the Dataview plugin.
-   - Create Three Notes:
-     - Next Actions: A Dataview query showing all files in 03_Actions/ that are not tagged @Waiting.
-     - Context: @QuickWins: A Dataview query for tasks tagged @QuickWins and energy: low. This is your "irresistible starter task" list.
-     - Waiting For: A Dataview query for tasks tagged @Waiting.
+
+- Solidify Capture:
+  - Goal: Get 100% of thoughts out of your head and into 01_Inbox/ or 10_PKM/11_Seeds/ with zero friction.
+  - Obsidian Tools:
+    - Desktop: Use the QuickAdd plugin. Create a "Capture" command that opens a simple prompt, adds basic metadata (e.g., uid, created, type: capture), and saves to 01_Inbox/. Map this to a global hotkey.
+    - Mobile: Use the Obsidian mobile app with a "Quick share" target or a homescreen widget linked to your QuickAdd capture command.
+  - "Low-EF" Fallback: Have a 'dumb' capture method for low-energy days. This could be a simple .txt file in your vault (e.g., _INBOX.md) that you can append to from any text editor, or a third-party app that syncs text files (like SimpleNote) pointed at your Inbox folder.
+- Establish a Manual Review Ritual:
+  - Goal: Build the habit of processing your inbox. This is the foundation of GTD and non-negotiable.
+  - Process: Once per day (e.g., at 08:00), manually process everything in 01_Inbox/ and 11_Seeds/.
+  - Actions:
+    - Delete it.
+    - Move it to 02_Projects/ (if multi-step).
+    - Move it to 03_Actions/ (if a single action).
+    - Move it to 12_Atomic/ (if a clear, single idea).
+    - Move it to 13_Structural/ (if it's a "Map of Content" idea).
+  - Why manual? This forces you to engage with your own thoughts and refines your mental model for what types of notes you create, which is essential before you try to automate it with an LLM.
+- Implement Basic Action Views:
+  - Goal: See what you need to do, solving the "what's next?" problem.
+  - Obsidian Tools: Use the Dataview plugin.
+  - Create Three Notes:
+    - Next Actions: A Dataview query showing all files in 03_Actions/ that are not tagged @Waiting.
+    - Context: @QuickWins: A Dataview query for tasks tagged @QuickWins and energy: low. This is your "irresistible starter task" list.
+    - Waiting For: A Dataview query for tasks tagged @Waiting.
 This MVP is achievable in a single weekend. It provides immediate value by externalising thought and providing a trusted "Next Action" list, which directly augments executive function.
+
 2. Incremental Implementation Strategy
 After the MVP is stable, layer in complexity one feature at a time.
 Phase 2: The Action Engine (GTD + LLM)
- - Focus: Automating prioritization to solve the "Motivation Paradox".
- - Tasks:
-   - Refine Task Metadata: Start manually adding domain, context, energy, and Importance (as a 1-10 number) to your action notes during your daily review.
-   - Build /engage-action (v1): Forget the complex formula for now. Create a Dataview query that simply finds the Top 3 tasks based on Importance that match your current context (e.g., @DeepWork).
-   - Build /engage-action (v2 - LLM): Create your first real LLM command.
-     - Trigger: A Templater or QuickAdd script.
-     - Action: It scans 03_Actions/ (or a Dataview JSON export), applies your scoring formula, and presents the single best action to you.
-     - Architecture: This can be a simple Python script called by the plugin, passing the task data to an API (like GPT-4o).
+
+- Focus: Automating prioritization to solve the "Motivation Paradox".
+- Tasks:
+  - Refine Task Metadata: Start manually adding domain, context, energy, and Importance (as a 1-10 number) to your action notes during your daily review.
+  - Build /engage-action (v1): Forget the complex formula for now. Create a Dataview query that simply finds the Top 3 tasks based on Importance that match your current context (e.g., @DeepWork).
+  - Build /engage-action (v2 - LLM): Create your first real LLM command.
+    - Trigger: A Templater or QuickAdd script.
+    - Action: It scans 03_Actions/ (or a Dataview JSON export), applies your scoring formula, and presents the single best action to you.
+    - Architecture: This can be a simple Python script called by the plugin, passing the task data to an API (like GPT-4o).
 Phase 3: The Knowledge Connector (PKM + LLM)
- - Focus: Solving "Knowledge Fragmentation" and "Thought Loops" at a deeper level.
- - Tasks:
-   - Set up Semantic Search: This is the foundation for /extend.
-     - Tool: Install the Smart Connections plugin for Obsidian.
-     - Action: Let it index your entire vault. This immediately gives you a "Related Notes" pane that surfaces connections you missed. This is your "Extended Mind" V1.
-   - Build /extend: Your "Smart Connections" pane is already 80% of this. Your custom command can simply query its local embedding database to find the top 5 related notes and present them in a more structured way.
-   - Build /cleave (Assisted): Do not try to make this fully automatic.
-     - Trigger: A hotkey on a block of text.
-     - Action: The script sends the selected text to the LLM with a prompt like: "You are a Zettelkasten assistant. 'Cleave' the following thought into atomic notes, questions, and actions. For each, suggest a title and content. Format as JSON."
-     - Result: The LLM returns the suggestions. Your script then presents them to you to accept, edit, or reject. This keeps you in the loop and trains the model (and you) on what a "good" cleaved note looks in your system.
+- Focus: Solving "Knowledge Fragmentation" and "Thought Loops" at a deeper level.
+- Tasks:
+  - Set up Semantic Search: This is the foundation for /extend.
+    - Tool: Install the Smart Connections plugin for Obsidian.
+    - Action: Let it index your entire vault. This immediately gives you a "Related Notes" pane that surfaces connections you missed. This is your "Extended Mind" V1.
+  - Build /extend: Your "Smart Connections" pane is already 80% of this. Your custom command can simply query its local embedding database to find the top 5 related notes and present them in a more structured way.
+  - Build /cleave (Assisted): Do not try to make this fully automatic.
+    - Trigger: A hotkey on a block of text.
+    - Action: The script sends the selected text to the LLM with a prompt like: "You are a Zettelkasten assistant. 'Cleave' the following thought into atomic notes, questions, and actions. For each, suggest a title and content. Format as JSON."
+    - Result: The LLM returns the suggestions. Your script then presents them to you to accept, edit, or reject. This keeps you in the loop and trains the model (and you) on what a "good" cleaved note looks in your system.
 Phase 4: The Strategic Advisor
- - Focus: High-level review and pattern detection. This is the last and most complex phase.
- - Tasks:
-   - Build /dialogue: This is the easiest win here. Use the Copilot plugin or a similar chat interface that has access to your local vault. This allows youSocratic conversation about your ideas.
-   - Build /detect-synthesis: This is a batch process, not real-time.
-     - Action: A weekly script that scans your 12_Atomic/ folder. It uses embeddings to find clusters of notes with high semantic similarity (e.g., 10+ notes all about "context switching").
-     - Result: It generates a new note in 13_Structural/ tagged #SynthesisNeeded, with links to the clustered notes, and a prompt: "You have 10 notes on 'context switching'. It may be time to write a synthesis note."
+- Focus: High-level review and pattern detection. This is the last and most complex phase.
+- Tasks:
+  - Build /dialogue: This is the easiest win here. Use the Copilot plugin or a similar chat interface that has access to your local vault. This allows youSocratic conversation about your ideas.
+  - Build /detect-synthesis: This is a batch process, not real-time.
+    - Action: A weekly script that scans your 12_Atomic/ folder. It uses embeddings to find clusters of notes with high semantic similarity (e.g., 10+ notes all about "context switching").
+    - Result: It generates a new note in 13_Structural/ tagged #SynthesisNeeded, with links to the clustered notes, and a prompt: "You have 10 notes on 'context switching'. It may be time to write a synthesis note."
+
 3. Potential Pitfalls to Watch For
- - The Metadata Trap: Your schema is comprehensive, but filling it out is high-friction.
-   - Solution: Be ruthless. If a field is not used by a Dataview query or LLM script right now, do not fill it out. Start with only type and context. Add energy when you build the query that uses energy. Let the LLM suggest metadata (like epistemic_status) during the /cleave process later.
- - The "Magic" LLM Fallacy: You will be disappointed by /cleave if you expect perfection. It will misunderstand nuance.
-   - Solution: Adopt an "LLM-as-Assistant" model, not "LLM-as-Boss". The LLM suggests; you decide. This is why the "assisted /cleave" is so important.
- - The "Low-EF" System Collapse: The system must be more useful, not less, when your executive function is low.
-   - Solution: The "Low-EF Fallback" capture method is critical. Your /engage-action command must work perfectly, offering up energy: low tasks that are "irresistible" (e.g., "File one email"). The system must serve you in your worst state, not demand you be in your best state to use it.
- - Local vs. API (The LLM Architecture):
-   - Problem: API-based LLMs are fast and smart (GPT-4o) but have privacy/cost issues. Local LLMs (Llama 3) are private but complex to set up and less powerful.
-   - Solution (Hybrid):
-     - Use API (GPT-4o/Claude 3.5 Sonnet) for: Complex, non-obvious tasks like /cleave and /dialogue. The reasoning power is worth the cost.
-     - Use Local Embeddings for: /extend and semantic search. Smart Connections does this out of the box. It's fast, private, and perfect for finding related notes.
-     - Use Local Models (Phi-3/Llama 3 8B) for: Simple, high-frequency tasks like suggesting tags for a note or summarising a capture.
+
+- The Metadata Trap: Your schema is comprehensive, but filling it out is high-friction.
+  - Solution: Be ruthless. If a field is not used by a Dataview query or LLM script right now, do not fill it out. Start with only type and context. Add energy when you build the query that uses energy. Let the LLM suggest metadata (like epistemic_status) during the /cleave process later.
+- The "Magic" LLM Fallacy: You will be disappointed by /cleave if you expect perfection. It will misunderstand nuance.
+  - Solution: Adopt an "LLM-as-Assistant" model, not "LLM-as-Boss". The LLM suggests; you decide. This is why the "assisted /cleave" is so important.
+- The "Low-EF" System Collapse: The system must be more useful, not less, when your executive function is low.
+  - Solution: The "Low-EF Fallback" capture method is critical. Your /engage-action command must work perfectly, offering up energy: low tasks that are "irresistible" (e.g., "File one email"). The system must serve you in your worst state, not demand you be in your best state to use it.
+- Local vs. API (The LLM Architecture):
+  - Problem: API-based LLMs are fast and smart (GPT-4o) but have privacy/cost issues. Local LLMs (Llama 3) are private but complex to set up and less powerful.
+  - Solution (Hybrid):
+    - Use API (GPT-4o/Claude 3.5 Sonnet) for: Complex, non-obvious tasks like /cleave and /dialogue. The reasoning power is worth the cost.
+    - Use Local Embeddings for: /extend and semantic search. Smart Connections does this out of the box. It's fast, private, and perfect for finding related notes.
+    - Use Local Models (Phi-3/Llama 3 8B) for: Simple, high-frequency tasks like suggesting tags for a note or summarising a capture.
+
 4. Similar Systems & Research
- - Andy Matuschak's "Evergreen Notes": Your 12_Atomic/ and 13_Structural/ layers are a direct implementation of his philosophy. His public notes are the gold standard for "building on previous thinking".
- - "RAG" (Retrieval-Augmented Generation): This is the core technical pattern you are building. Your /extend command retrieves related notes (using semantic search) and augments the LLM's context window. You are building a personal RAG system.
- - "Mem.ai" / "Reflect.app": Look at these commercially. They are trying to solve the same problem. Mem's "self-organising" inbox and Reflect's AI integration are direct competitors to your vision. Study their UI/UX for inspiration on reducing friction.
- - The "Smart Connections" (Obsidian Plugin): I've mentioned it three times because it is the fastest way to implement 50% of your LLM vision (semantic search, related notes, in-note chat) today. Build on top of it, don't reinvent its embedding pipeline.
+
+- Andy Matuschak's "Evergreen Notes": Your 12_Atomic/ and 13_Structural/ layers are a direct implementation of his philosophy. His public notes are the gold standard for "building on previous thinking".
+- "RAG" (Retrieval-Augmented Generation): This is the core technical pattern you are building. Your /extend command retrieves related notes (using semantic search) and augments the LLM's context window. You are building a personal RAG system.
+- "Mem.ai" / "Reflect.app": Look at these commercially. They are trying to solve the same problem. Mem's "self-organising" inbox and Reflect's AI integration are direct competitors to your vision. Study their UI/UX for inspiration on reducing friction.
+- The "Smart Connections" (Obsidian Plugin): I've mentioned it three times because it is the fastest way to implement 50% of your LLM vision (semantic search, related notes, in-note chat) today. Build on top of it, don't reinvent its embedding pipeline.
 This architecture is ambitious and powerful. By focusing on the "Capture & Clarify" MVP first, you build a solid foundation and get immediate ADHD support, which provides the momentum to tackle the more complex LLM phases.
 Would you like me to elaborate on the technical implementation of the Phase 1 (MVP) tools like QuickAdd and Dataview?

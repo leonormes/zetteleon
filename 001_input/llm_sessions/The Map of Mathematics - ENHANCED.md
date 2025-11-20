@@ -113,11 +113,13 @@ The foundations of mathematics investigate the [[Give me the logic|logical and p
 ## Learning & Thinking
 
 **Metacognitive approaches:**
+
 - [[Think like a mathematian]] - Core habits of mind for mathematical thinking
 - [[How do I learn the maths]] - Scaffolded learning path across mathematical domains
 - [[Project Euler]] - Practice computational problem-solving
 
 **Key principles:**
+
 - [[Mathematics Established Knowledge Through Open Demonstration|Open demonstration]] vs. hidden knowledge
 - Pattern recognition and abstraction
 - Proof and logical rigor
@@ -137,17 +139,20 @@ The foundations of mathematics investigate the [[Give me the logic|logical and p
 *Notes that elaborate on sections of this map:*
 
 ### Elaborates Pure Mathematics
+
 - [[Generative maths is the creative discovery of abstract patterns]]
 - [[‎Gemini - Numbers Abstract Concepts vs. Symbols]]
 - [[Mathematical Constants as Fundamental Ratios and Processes]]
 - [[Numbers as Abstract Objects (Platonism)]]
 
 ### Elaborates Applied Mathematics
+
 - [[Cryptography for Digital Security and Encryption]]
 - [[Everything You Need to Know About VECTORS]]
 - [[How Mathematics Changed the World]]
 
 ### Elaborates Foundations
+
 - [[What is maths]]
 - [[Give me the logic]]
 - [[Set Theory Requires Distinct Objects]]
@@ -156,12 +161,14 @@ The foundations of mathematics investigate the [[Give me the logic|logical and p
 - [[Mathematics Established Knowledge Through Open Demonstration]]
 
 ### Provides Learning Context
+
 - [[Think like a mathematian]]
 - [[How do I learn the maths]]
 - [[Understanding Number Systems in the Context of Describing and Speaking in Mathematical Language]]
 - [[From Magic to Mathematical Notions]]
 
 ### Explores Philosophy
+
 - [[The Two Views of Maths]]
 - [[The Realm of the Proven and Known]]
 - [[Discreteness as a Precondition for Counting]]

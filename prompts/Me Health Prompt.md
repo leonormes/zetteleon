@@ -37,6 +37,7 @@ Your client context:
 
 **Prompt Request:**  
 Based on these details, create a personalised, modular weekly training plan.  
+
 - List all movement patterns and give concrete example exercises for each (with beginner/intermediate options).
 - Detail session structure (sets, reps, weekly frequency).
 - Include sample warm-up, cool-down, and key recovery strategies.

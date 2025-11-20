@@ -28,7 +28,7 @@ Here are structured, practical strategies to **reduce your Grafana Cloud costs**
 
 - Use Grafana’s built-in cost management, usage dashboards, and billing analytics to identify which metrics, logs, traces, synthetic checks, and test jobs are driving costs.
 - [ ] Regularly check the **Billing and Usage dashboards** for spike patterns or unexpected resource growth.^2025-11-05T18-29-13
-    - [📱 View in Todoist app](todoist://task?id=6fCv22ggWxG5fcQv) (Created: 📝 2025-11-05T18:29)
+  - [📱 View in Todoist app](todoist://task?id=6fCv22ggWxG5fcQv) (Created: 📝 2025-11-05T18:29)
 - [ ] Set up **cost/usage alerts** to avoid exceeding free tier or budgets limits. ^2025-11-05T18-29-07
 
 ***
@@ -36,24 +36,24 @@ Here are structured, practical strategies to **reduce your Grafana Cloud costs**
 **2. Reduce Metrics Costs**
 
 - **Filter and Relabel Prometheus Metrics:**
-    - Ship only critical, actionable metrics using allowlisting (`keep` + `labelkeep`).
-    - Drop high-cardinality or low-value metrics using denylisting (`drop` + `labeldrop`) in your Prometheus `relabel_configs`.[^3]
+  - Ship only critical, actionable metrics using allowlisting (`keep` + `labelkeep`).
+  - Drop high-cardinality or low-value metrics using denylisting (`drop` + `labeldrop`) in your Prometheus `relabel_configs`.[^3]
 - **Deduplicate HA Metrics:**
-    - For high-availability Prometheus clusters, enable deduplication labels so Grafana Cloud can halve your active series count.[^3]
+  - For high-availability Prometheus clusters, enable deduplication labels so Grafana Cloud can halve your active series count.[^3]
 - **Scrape Target Selection:**
-    - Limit scrape targets using Kubernetes service discovery and label selectors.
-    - Drop endpoints or ports not critical for SRE dashboards.[^3]
+  - Limit scrape targets using Kubernetes service discovery and label selectors.
+  - Drop endpoints or ports not critical for SRE dashboards.[^3]
 
 ***
 
 **3. Reduce Logs Costs**
 
 - [ ] Drop unneeded log lines at the agent level (Promtail or Alloy), before shipping to Grafana Cloud.[^4] ^2025-11-05T18-28-56
-    - [📱 View in Todoist app](todoist://task?id=6fCrxxhv2HFRQRXM) (Created: 📝 2025-11-05T18:29)
+  - [📱 View in Todoist app](todoist://task?id=6fCrxxhv2HFRQRXM) (Created: 📝 2025-11-05T18:29)
 - [ ] Filter out verbose application logs or debug messages unless required for incident investigations. ^2025-11-05T18-28-47
-    - [📱 View in Todoist app](todoist://task?id=6fCrxx3R48xv82fv) (Created: 📝 2025-11-05T18:28)
+  - [📱 View in Todoist app](todoist://task?id=6fCrxx3R48xv82fv) (Created: 📝 2025-11-05T18:28)
 - [ ] Review log retention policies—keep high-volume logs for minimal intervals. ^2025-11-05T18-28-35
-    - [📱 View in Todoist app](todoist://task?id=6fCrxvwFPMpQfx2v) (Created: 📝 2025-11-05T18:28)
+  - [📱 View in Todoist app](todoist://task?id=6fCrxvwFPMpQfx2v) (Created: 📝 2025-11-05T18:28)
 
 ***
 
@@ -74,7 +74,7 @@ Here are structured, practical strategies to **reduce your Grafana Cloud costs**
 **6. Attribute Costs and Enforce Accountability**
 
 - [ ] Assign costs per team/service/project for accountability and targeted cost reduction efforts.[^10] ^2025-11-05T18-26-30
-    - [📱 View in Todoist app](todoist://task?id=6fCrxf3fCVwR78GM) (Created: 📝 2025-11-05T18:27)
+  - [📱 View in Todoist app](todoist://task?id=6fCrxf3fCVwR78GM) (Created: 📝 2025-11-05T18:27)
 - Use cost attribution dashboards to foster cost ownership by engineering squads.
 
 ***

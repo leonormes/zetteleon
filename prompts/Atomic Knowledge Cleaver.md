@@ -26,19 +26,19 @@ Your task is to deconstruct a single, long-form "hybrid" note provided in `[INPU
 
 Your goal is to perform a "cleaving" process:
 
-1.  **Extract** all standalone, objective facts into new, pure **Atomic Notes**, adhering to the Canonical Schema V1.
-2.  **Rewrite** the original text into a single **Structural Note** (specifically a `type: map`) that replaces the extracted facts with `[[wikilinks]]` to the new or existing atomic notes, preserving the original narrative and argument.
+1. **Extract** all standalone, objective facts into new, pure **Atomic Notes**, adhering to the Canonical Schema V1.
+2. **Rewrite** the original text into a single **Structural Note** (specifically a `type: map`) that replaces the extracted facts with `[[wikilinks]]` to the new or existing atomic notes, preserving the original narrative and argument.
 
 ---
 
 ## CORE PRINCIPLES (Re-emphasized)
 
-1.  **Binary Category Invariant:** Maintain a strict separation:
-    -   **Atomic Notes (bricks):** Must be context-free, containing one single, indivisible idea (e.g., definitions, technical specs, verifiable statements). They *never* create context.
-    -   **Structural Notes (architecture/hubs):** Exist *to create context* by linking and organizing atomic notes (e.g., narratives, arguments, comparisons, sequences).
-2.  **Atomicity:** Each new Atomic Note must contain only *one* idea, as per your "LLM Note Processing Mandate."
-3.  **Linked Structure & Typed Links:** The new Structural Note provides the explicit context for *why* and *how* the new Atomic Notes are related. Use `[[wikilinks]]` with inline fields to add semantic meaning (e.g., `[[Atomic Note]] rel:: supports`).
-4.  **Epistemic Clarity:** Every atomic note must have a clear `epistemic` status (fact, axiom, principle, opinion, hypothesis).
+1. **Binary Category Invariant:** Maintain a strict separation:
+    - **Atomic Notes (bricks):** Must be context-free, containing one single, indivisible idea (e.g., definitions, technical specs, verifiable statements). They *never* create context.
+    - **Structural Notes (architecture/hubs):** Exist *to create context* by linking and organizing atomic notes (e.g., narratives, arguments, comparisons, sequences).
+2. **Atomicity:** Each new Atomic Note must contain only *one* idea, as per your "LLM Note Processing Mandate."
+3. **Linked Structure & Typed Links:** The new Structural Note provides the explicit context for *why* and *how* the new Atomic Notes are related. Use `[[wikilinks]]` with inline fields to add semantic meaning (e.g., `[[Atomic Note]] rel:: supports`).
+4. **Epistemic Clarity:** Every atomic note must have a clear `epistemic` status (fact, axiom, principle, opinion, hypothesis).
 
 ---
 
@@ -48,40 +48,40 @@ You must follow this three-phase process to ensure no duplicate facts are create
 
 ### Phase 1: Analysis and Deconstruction
 
-1.  **Analyse** the `[INPUT TEXT]`.
-2.  **Identify** all discrete, atomic **facts** that can be extracted.
-3.  **Identify** the remaining **contextual narrative** that links these facts.
+1. **Analyse** the `[INPUT TEXT]`.
+2. **Identify** all discrete, atomic **facts** that can be extracted.
+3. **Identify** the remaining **contextual narrative** that links these facts.
 
 ### Phase 2: Deduplication and Planning
 
 For each fact identified in Phase 1, you must perform the following:
 
-1.  **Formulate a Search Query:** Create a concise, semantic search query that captures the core meaning of the fact.
-2.  **Search Existing Notes:** Execute a semantic search against the user's existing notes with this query.
-3.  **Analyze Search Results:**
-    -   **If a highly similar note exists:** Mark this fact as a **"consolidation"**. Note the existing file's name.
-    -   **If no similar note exists:** Mark this fact as a **"new note"**.
-4.  **Generate a Plan:** Create a final plan detailing the actions for each fact (create, consolidate, or skip) and the title for the new Structural Note. The plan should clearly list which existing notes will be used or updated.
+1. **Formulate a Search Query:** Create a concise, semantic search query that captures the core meaning of the fact.
+2. **Search Existing Notes:** Execute a semantic search against the user's existing notes with this query.
+3. **Analyze Search Results:**
+    - **If a highly similar note exists:** Mark this fact as a **"consolidation"**. Note the existing file's name.
+    - **If no similar note exists:** Mark this fact as a **"new note"**.
+4. **Generate a Plan:** Create a final plan detailing the actions for each fact (create, consolidate, or skip) and the title for the new Structural Note. The plan should clearly list which existing notes will be used or updated.
 
 ### Phase 3: Generation and Consolidation
 
 Execute the plan by generating and updating the necessary notes, strictly adhering to the provided templates and schema.
 
 **1. For each "Fact" identified:**
-    * **If it's a "new note":**
+    ***If it's a "new note":**
         * Create a new Atomic Note using the appropriate template below (e.g., `concept`, `strategy`).
-        * The title must be a clear, declarative statement about the fact.
+        *The title must be a clear, declarative statement about the fact.
         * Rewrite the fact in your own words, ensuring it is self-contained and context-free.
-        * Ensure all required YAML frontmatter fields are populated.
+        *Ensure all required YAML frontmatter fields are populated.
     * **If it's a "consolidation":**
-        * Read the content of the existing note.
+        *Read the content of the existing note.
         * Compare the information from the `[INPUT TEXT]` with the existing note's content.
-        * If the new information adds value (e.g., provides more detail, a new example, or a clarifying perspective), **append and merge** it into the *existing note*. Do not simply tack it on; integrate it smoothly.
+        *If the new information adds value (e.g., provides more detail, a new example, or a clarifying perspective), **append and merge** it into the *existing note*. Do not simply tack it on; integrate it smoothly.
         * If the new information is purely duplicative, do nothing with the existing note.
     * The `[[wikilink]]` used in the Structural Note will always point to the **existing note's title**.
 
 **2. Create *one* Structural Note for the "Context":**
-    * **Format:** Use the `map` template below.
+    ***Format:** Use the `map` template below.
     * **Title:** Use the original note's title, prefixed with "MOC" (Map of Content) (e.g., "MOC - Understanding Cloud Networking").
     * **Content:** Rewrite the *original* narrative from `[INPUT TEXT]`. Where a fact used to be, insert the `[[wikilink]]` to either the newly created Atomic Note or the pre-existing, consolidated one. Use **typed links** (e.g., `[[Atomic Note]] rel:: supports`) to add semantic meaning. The resulting text should read as a coherent piece of analysis, with the atomic facts now acting as linked references.
 
@@ -422,11 +422,11 @@ aliases: []
 
 To maintain the integrity and utility of the vault, the following are important:
 
--   **Linting & Schema Enforcement:** Adherence to frontmatter schema and field ordering.
--   **Dataview Checks:** Queries to identify violations (e.g., atomic notes linking to structural notes, untested hypotheses, orphaned atomics).
--   **Cleaving Process (Operationalized):**
-    -   **When to cleave:** Notes exceeding 250 words, having more than 12 outlinks, or containing contextual sections (e.g., "Use cases", "When not to use").
-    -   **How:** Trim atomic notes to a crisp definition + minimal example. Create a `type: map` or `type: comparison` for use-cases, trade-offs, and typed links. Add `see_also` from the atomic to other **atomic** notes only.
+- **Linting & Schema Enforcement:** Adherence to frontmatter schema and field ordering.
+- **Dataview Checks:** Queries to identify violations (e.g., atomic notes linking to structural notes, untested hypotheses, orphaned atomics).
+- **Cleaving Process (Operationalized):**
+  - **When to cleave:** Notes exceeding 250 words, having more than 12 outlinks, or containing contextual sections (e.g., "Use cases", "When not to use").
+  - **How:** Trim atomic notes to a crisp definition + minimal example. Create a `type: map` or `type: comparison` for use-cases, trade-offs, and typed links. Add `see_also` from the atomic to other **atomic** notes only.
 
 ---
 
@@ -454,25 +454,25 @@ You must follow this three-phase process:
 
 ### Phase 1: Analysis and Concept Identification
 
-1.  **Read and analyse** all provided notes in the `[INPUT DATA]` section.
-2.  **Identify** the primary, recurring, and atomic themes or concepts.
-3.  **Generate** a list of these concepts.
+1. **Read and analyse** all provided notes in the `[INPUT DATA]` section.
+2. **Identify** the primary, recurring, and atomic themes or concepts.
+3. **Generate** a list of these concepts.
 
 ### Phase 2: Information Extraction and Grouping
 
-1.  **For each atomic concept** you identified, go back through *all* the source notes.
-2.  **Extract** every sentence, paragraph, bullet point, or section that discusses that specific concept.
-3.  **Group** all these extracted snippets together, associating them with their parent concept.
+1. **For each atomic concept** you identified, go back through *all* the source notes.
+2. **Extract** every sentence, paragraph, bullet point, or section that discusses that specific concept.
+3. **Group** all these extracted snippets together, associating them with their parent concept.
 
 ### Phase 3: Synthesis and Consolidation
 
 This is the most critical phase. For each concept, you will create *one* new, consolidated note. You must:
 
-1.  **Synthesise, not just copy:** Read all the extracted snippets for the concept.
-2.  **De-duplicate:** Remove redundant information or repeated definitions.
-3.  **Merge & Reconcile:** Combine partial explanations from different notes to create a complete, holistic description. If notes have slightly different takes, synthesise them into a more nuanced view.
-4.  **Rewrite:** Re-write all the disparate information into a *single*, coherent, well-structured, and easy-to-read narrative. The final note should read as if it were written from scratch.
-5.  **Format:** Structure the new note logically using Markdown (headings, bullet points, etc.) and add the YAML template below.
+1. **Synthesise, not just copy:** Read all the extracted snippets for the concept.
+2. **De-duplicate:** Remove redundant information or repeated definitions.
+3. **Merge & Reconcile:** Combine partial explanations from different notes to create a complete, holistic description. If notes have slightly different takes, synthesise them into a more nuanced view.
+4. **Rewrite:** Re-write all the disparate information into a *single*, coherent, well-structured, and easy-to-read narrative. The final note should read as if it were written from scratch.
+5. **Format:** Structure the new note logically using Markdown (headings, bullet points, etc.) and add the YAML template below.
 
 ---
 
@@ -480,8 +480,8 @@ This is the most critical phase. For each concept, you will create *one* new, co
 
 You must present your output as follows:
 
-1.  First, provide the list of atomic concepts you identified.
-2.  Then, for each concept, provide the newly synthesised note. Use a clear filename-style marker for each new note.
+1. First, provide the list of atomic concepts you identified.
+2. Then, for each concept, provide the newly synthesised note. Use a clear filename-style marker for each new note.
 
 ### Synthesised Note Template
 
@@ -518,29 +518,29 @@ Here is the explanation of my structural choices and best practices for using th
 ### Elaboration on Prompt Structure
 
 - **Primary Prompt (Deconstructor):**
-    - **The "Cleaving" Metaphor:** I built this prompt around the "Cleaving Process" from your `Personal Knowledge Management.md` note. This is the most powerful and precise metaphor for the task you want to perform.
-    - **Fact/Context Solution:** The prompt solves your "Fact vs. Context" separation requirement by creating two distinct *types* of notes, a solution derived directly from your `PKM.md` file (Atomic vs. Structural notes) and `I have an obsidian markdown...md` (Layer 1 Fact vs. Layer 2 Concept).
-    - **Linking:** The prompt solves the "Linking" requirement in the most robust way possible. Instead of just "link dumping," it instructs the LLM to weave the `[[wikilinks]]` *into the narrative* of the new `type: map` note. This *is* the link context, fulfilling the "eufriction" principle from your `LLM Note Processing Mandate.md`.
+  - **The "Cleaving" Metaphor:** I built this prompt around the "Cleaving Process" from your `Personal Knowledge Management.md` note. This is the most powerful and precise metaphor for the task you want to perform.
+  - **Fact/Context Solution:** The prompt solves your "Fact vs. Context" separation requirement by creating two distinct *types* of notes, a solution derived directly from your `PKM.md` file (Atomic vs. Structural notes) and `I have an obsidian markdown...md` (Layer 1 Fact vs. Layer 2 Concept).
+  - **Linking:** The prompt solves the "Linking" requirement in the most robust way possible. Instead of just "link dumping," it instructs the LLM to weave the `[[wikilinks]]` *into the narrative* of the new `type: map` note. This *is* the link context, fulfilling the "eufriction" principle from your `LLM Note Processing Mandate.md`.
 - **Secondary Prompt (Synthesiser):**
-    - **Task Distinction:** Your provided notes described two conflicting tasks: deconstruction (1-to-Many) and synthesis (Many-to-Few). As per your instructions, I evaluated this and determined they are genuinely separate, high-value tasks that require distinct prompts.
-    - **Consolidation:** This prompt is a direct synthesis of your `LLM Prompt for Note Synthesis.md` and `zettelkasten-consolidation-prompt.md` files, taking the best of both (the 3-Phase process from one, the de-duplication focus from the other).
+  - **Task Distinction:** Your provided notes described two conflicting tasks: deconstruction (1-to-Many) and synthesis (Many-to-Few). As per your instructions, I evaluated this and determined they are genuinely separate, high-value tasks that require distinct prompts.
+  - **Consolidation:** This prompt is a direct synthesis of your `LLM Prompt for Note Synthesis.md` and `zettelkasten-consolidation-prompt.md` files, taking the best of both (the 3-Phase process from one, the de-duplication focus from the other).
 
 ### LLM Context Best Practices for Deconstruction
 
-1.  **Managing Large Notes (Chunking):**
+1. **Managing Large Notes (Chunking):**
     - If your input note is extremely long (e.g., >10,000 words), it may exceed the LLM's context window or lead to errors.
     - **Solution:** Use a multi-step approach.
-        1.  **Step 1:** Paste the *entire* note and ask the LLM *only* to perform `Phase 1: Analysis and Deconstruction` (i.e., just output the *plan*).
-        2.  **Step 2:** For each "Fact Note" in the plan, start a new chat turn. Paste the plan and *only the relevant paragraph(s)* from the source text, and ask it to generate that *one* Atomic Note.
-        3.  **Step 3:** Finally, ask it to generate the `type: map` (Context) note, using the plan and all the new note titles.
-2.  **Metadata and Formatting (YAML):**
+        1. **Step 1:** Paste the *entire* note and ask the LLM *only* to perform `Phase 1: Analysis and Deconstruction` (i.e., just output the *plan*).
+        2. **Step 2:** For each "Fact Note" in the plan, start a new chat turn. Paste the plan and *only the relevant paragraph(s)* from the source text, and ask it to generate that *one* Atomic Note.
+        3. **Step 3:** Finally, ask it to generate the `type: map` (Context) note, using the plan and all the new note titles.
+2. **Metadata and Formatting (YAML):**
     - The YAML block I included is a synthesis of the best practices from your notes (`PKM.md`, `I have read...smart notes.md`).
     - `type: [concept|map]`: This is the most crucial field, defining the note's role as per your `PKM.md` system.
     - `epistemic: fact`: This explicitly flags the extracted notes as objective, fulfilling a key requirement.
     - `status: seedling`: This is a vital workflow tag from your `PKM.md` file. It marks all LLM-generated notes as "drafts" that require your personal review before being promoted to "evergreen."
     - `source: "[[...]]"`: This creates the essential backlink from the "Fact Note" to the "Context Note," ensuring no information is orphaned.
 
-3.  **Ensuring Consistency and Accuracy:**
+3. **Ensuring Consistency and Accuracy:**
     - **Strict Templates:** The prompts provide rigid `## ROLE`, `## OBJECTIVE`, `## PROCESS`, and `## OUTPUT FORMAT` sections. This strict formatting significantly reduces LLM "drift" and ensures the output is predictable and machine-readable (i.e., you get actual file blocks).
     - **Two-Phase Process:** By forcing the LLM to first *Analyse and Plan* (Phase 1) before *Generating* (Phase 2), you prevent it from rushing, missing facts, or confusing context.
     - **Human-in-the-Loop:** The `status: seedling` tag is your most important quality control tool. The LLM's job is to do the 80% of deconstruction and formatting. Your job is the final 20% of refinement and integration, which solidifies the knowledge in your own mind.

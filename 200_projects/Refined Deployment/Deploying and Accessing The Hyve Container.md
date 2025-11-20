@@ -106,16 +106,16 @@ Open your web browser and navigate to:
 
 Use the following credentials when prompted:
 
--   **Username:** `ffadmin`
--   **Password:** `ffpassword`
+- **Username:** `ffadmin`
+- **Password:** `ffpassword`
 
 #### **2.5. Run Airflow DAGs**
 
 Once logged in, you can manually trigger the necessary DAGs. According to past instructions, run them in this specific order, waiting for each to complete:
 
-1.  `run_dqd`
-2.  `run_achilles`
-3.  `run_cdmonboarding`
-4.  `run_qc_upload`
+1. `run_dqd`
+2. `run_achilles`
+3. `run_cdmonboarding`
+4. `run_qc_upload`
 
 ---

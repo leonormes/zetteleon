@@ -31,16 +31,16 @@ Action 1: Create the Folder Structure (3 mins)
 
 This is the only "architecture" you need. Just create these folders in your vault.
 
- - 02_SOURCES
- - 03_SYNTHESIS
+- 02_SOURCES
+- 03_SYNTHESIS
 Inside 02_SOURCES, create one sub-folder:
- - LLM_Responses
+- LLM_Responses
 Done. You now have a place to put "raw stuff" (Sources) and "your thoughts" (Synthesis).
 Action 2: Create Your MOC Template (2 mins)
 You need the "Map of Content" template we discussed.
- - Create a new note.
- - Name it _TEMPLATE - Map of Content. (The _ keeps it at the top of your file list).
- - Copy and paste the code block below into that note.
+- Create a new note.
+- Name it _TEMPLATE - Map of Content. (The_ keeps it at the top of your file list).
+- Copy and paste the code block below into that note.
 
 > Status: 🌳 Evergreen
 > Tags: #moc
@@ -50,18 +50,22 @@ You need the "Map of Content" template we discussed.
 >
 >
 > 1. Guiding Principles
->  - What are my core beliefs about this topic?
-> 
+>
+> - What are my core beliefs about this topic?
+>
 > 2. Core Notes (My Thinking)
->  - [[Link to your Evergreen note]]
->  - [[Link to your Developing note]]
-> 
+>
+> - [[Link to your Evergreen note]]
+> - [[Link to your Developing note]]
+>
 > 3. Key Sources
->  - [[Link to an LLM Response]]
->  - [[Link to an Article]]
-> 
+>
+> - [[Link to an LLM Response]]
+> - [[Link to an Article]]
+>
 > 4. Open Questions
->  - What do I still not understand?
+>
+> - What do I still not understand?
 > <!-- end list -->
 
 Done. You now have a reusable blueprint.
@@ -70,21 +74,21 @@ Action 3: Process THIS Conversation (5 mins)
 
 We will use our own chat as the first piece of material.
 
- - Find the note where you pasted my responses (probably your Daily Note or a new note).
- - Create a new note. Name it [[LLM - PKM Synthesis Workflow 2025-11-09]].
- - Cut all my raw responses from your capture note and paste them into this new [[LLM - ...]] note.
- - Move this new note into your 02_SOURCES/LLM_Responses/ folder.
- - Now, create another new note. Name it [[My PKM Workflow]].
- - Move this note into your 03_SYNTHESIS/ folder.
- - In this note, write one sentence in your own words. That's it. Just one.
-   - Example: My main problem is I collect too much and don't synthesise. My plan is to separate my raw notes (in 02_SOURCES) from my own thinking (in 03_SYNTHESIS). (Source: [[LLM - PKM Synthesis Workflow 2025-11-09]])
- - Add the status to that note: Status: 🌿 Developing.
+- Find the note where you pasted my responses (probably your Daily Note or a new note).
+- Create a new note. Name it [[LLM - PKM Synthesis Workflow 2025-11-09]].
+- Cut all my raw responses from your capture note and paste them into this new [[LLM - ...]] note.
+- Move this new note into your 02_SOURCES/LLM_Responses/ folder.
+- Now, create another new note. Name it [[My PKM Workflow]].
+- Move this note into your 03_SYNTHESIS/ folder.
+- In this note, write one sentence in your own words. That's it. Just one.
+  - Example: My main problem is I collect too much and don't synthesise. My plan is to separate my raw notes (in 02_SOURCES) from my own thinking (in 03_SYNTHESIS). (Source: [[LLM - PKM Synthesis Workflow 2025-11-09]])
+- Add the status to that note: Status: 🌿 Developing.
 Done. You have just completed the entire workflow loop, from capture to source-filing to synthesis. It's not perfect, but it's built.
 Action 4: Create Your "Where to Start" Note (5 mins)
 This solves your "I don't know where to start" problem forever.
- - Make sure you have the Dataview community plugin installed and enabled.
- - Create a new note. Name it _Dashboard.
- - Copy and paste the code block below into it.
+- Make sure you have the Dataview community plugin installed and enabled.
+- Create a new note. Name it _Dashboard.
+- Copy and paste the code block below into it.
 
 > ### 🌱 Seedlings to Process
 > *New ideas that need to be connected.*

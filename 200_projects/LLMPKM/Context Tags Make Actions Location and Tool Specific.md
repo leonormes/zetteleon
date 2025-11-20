@@ -27,12 +27,14 @@ A context tag identifies the external requirement for completing an action. It a
 **Common Context Tags:**
 
 **Location-Based:**
+
 - `@home`: Actions that can only be done at home
 - `@office`: Actions requiring the office environment
 - `@errands`: Actions to do while out (grocery store, post office, etc.)
 - `@anywhere`: Actions that can be done from any location
 
 **Tool-Based:**
+
 - `@computer`: Requires a computer (any computer)
 - `@laptop`: Requires your specific laptop with certain files/apps
 - `@phone`: Phone calls to make
@@ -40,12 +42,14 @@ A context tag identifies the external requirement for completing an action. It a
 - `@online`: Requires internet connection
 
 **Person-Based:**
+
 - `@boss`: Actions requiring your manager
 - `@team`: Actions needing your team present
 - `@john`: Actions needing a specific person
 - `@waiting_for`: Actions blocked by someone else
 
 **Energy/Focus-Based:**
+
 - `@high_energy`: Tasks requiring peak cognitive performance
 - `@low_energy`: Tasks doable when tired or distracted
 - `@creative`: Tasks requiring creative thinking
@@ -59,6 +63,7 @@ Group similar actions together to minimize context switching. When you're at you
 
 **Example:**
 Instead of scattering phone calls throughout your task list, batch them:
+
 - `@phone`: Call dentist
 - `@phone`: Call insurance company  
 - `@phone`: Schedule car service
@@ -82,21 +87,25 @@ Pre-filtering by context dramatically reduces the number of options you need to 
 Context tags are particularly valuable for ADHD because:
 
 **Reduces Overwhelm:**
+
 - Narrows the action list to what's relevant NOW
 - Prevents paralysis from too many options
 - Makes the next action obvious
 
 **Supports Working Memory:**
+
 - Don't need to remember "can I do this here?"
 - System remembers context requirements
 - Less cognitive load evaluating feasibility
 
 **Enables Opportunistic Action:**
+
 - Captures small windows of capability
 - Turns scattered moments into productive time
 - Reduces guilt about "wasted" time
 
 **Accommodates Energy Fluctuations:**
+
 - Match tasks to current energy state
 - `@low_energy` tasks for tired moments
 - `@high_energy` tasks for peak performance

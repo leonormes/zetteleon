@@ -31,6 +31,7 @@ A comprehensive guide to understanding network devices from a data-centric persp
 A load balancer distributes incoming network traffic across multiple backend servers to ensure high availability, reliability, and optimal resource utilization. It acts as a reverse proxy, sitting between clients and servers.
 
 #### Cloud Products
+
 - **AWS**:
   - Application Load Balancer (ALB) - Layer 7 (HTTP/HTTPS)
   - Network Load Balancer (NLB) - Layer 4 (TCP/UDP)
@@ -57,6 +58,7 @@ Headers: Host: api.example.com, User-Agent: Mozilla/5.0...
 ```
 
 **Load Balancer Processing:**
+
 1. Terminates TCP connection
 2. Parses HTTP headers (for ALB)
 3. Applies routing rules based on path (/api/users)
@@ -78,6 +80,7 @@ Headers: Host: api.example.com, X-Forwarded-For: 203.0.113.45...
 #### Functional Requirements
 
 **What It DOES:**
+
 - Distributes traffic across multiple targets using algorithms (round-robin, least connections, IP hash)
 - Performs health checks on backend targets
 - Terminates SSL/TLS connections (SSL offloading)
@@ -87,6 +90,7 @@ Headers: Host: api.example.com, X-Forwarded-For: 203.0.113.45...
 - Scales automatically based on traffic
 
 **How It Works:**
+
 - Listens on configured ports and protocols
 - Maintains a pool of registered backend targets
 - Monitors target health via periodic health checks
@@ -95,6 +99,7 @@ Headers: Host: api.example.com, X-Forwarded-For: 203.0.113.45...
 - Can buffer requests/responses
 
 **What It Does NOT Do:**
+
 - Does not inspect deep packet content for security threats
 - Does not authenticate users or validate credentials
 - Does not modify application logic or business rules
@@ -112,6 +117,7 @@ Headers: Host: api.example.com, X-Forwarded-For: 203.0.113.45...
 A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It establishes a barrier between trusted internal networks and untrusted external networks.
 
 #### Cloud Products
+
 - **AWS**:
   - AWS Network Firewall - Managed Layer 3-7 firewall
   - Security Groups - Stateful virtual firewall at instance level
@@ -136,6 +142,7 @@ Payload: SSH handshake
 ```
 
 **Firewall Processing:**
+
 1. Receives packet at ingress interface
 2. Checks against security rules (top to bottom)
 3. Rule 1: Allow TCP 443 from any → No match
@@ -172,6 +179,7 @@ State Table Entry Created:
 #### Functional Requirements
 
 **What It DOES:**
+
 - Filters packets based on IP addresses, ports, and protocols
 - Maintains stateful connection tracking
 - Blocks or allows traffic based on security rules
@@ -182,6 +190,7 @@ State Table Entry Created:
 - Creates DMZ zones for public-facing servers
 
 **How It Works:**
+
 - Inspects packet headers (source/dest IP, ports, protocol)
 - Evaluates rules in priority order (usually top to bottom)
 - Uses connection state tables for stateful inspection
@@ -190,6 +199,7 @@ State Table Entry Created:
 - Advanced firewalls inspect up to Layer 7 (application)
 
 **What It Does NOT Do:**
+
 - Does not decrypt SSL/TLS traffic by default
 - Does not inspect encrypted payload content
 - Does not provide application-layer authentication
@@ -208,6 +218,7 @@ State Table Entry Created:
 An API Gateway is a server that acts as an entry point for all client requests to backend services. It handles request routing, composition, protocol translation, authentication, rate limiting, and provides a single endpoint for multiple microservices.
 
 #### Cloud Products
+
 - **AWS**:
   - Amazon API Gateway - Fully managed API service
   - AWS AppSync - GraphQL API service
@@ -322,6 +333,7 @@ Body:
 #### Functional Requirements
 
 **What It DOES:**
+
 - Routes requests to appropriate backend services
 - Authenticates and authorizes API requests
 - Enforces rate limiting and throttling per client/API key
@@ -336,6 +348,7 @@ Body:
 - Manages API keys and tokens
 
 **How It Works:**
+
 - Receives client requests at a single endpoint
 - Performs security checks (authentication, authorization)
 - Applies policies (rate limits, quotas, transformations)
@@ -345,6 +358,7 @@ Body:
 - Maintains analytics and usage metrics
 
 **What It Does NOT Do:**
+
 - Does not host the actual business logic (only routes to it)
 - Does not replace service-to-service authentication
 - Does not provide data persistence or storage
@@ -364,6 +378,7 @@ Body:
 A NAT (Network Address Translation) Gateway enables instances in a private subnet to connect to the internet or other AWS services while preventing the internet from initiating connections to those instances. It translates private IP addresses to public IP addresses for outbound traffic.
 
 #### Cloud Products
+
 - **AWS**:
   - NAT Gateway - Managed NAT service
   - NAT Instance - EC2-based NAT (legacy approach)
@@ -449,6 +464,7 @@ Payload: TLS Server Hello
 #### Functional Requirements
 
 **What It DOES:**
+
 - Translates private IPs to public IPs for outbound traffic
 - Maintains NAT translation state table
 - Allows private instances to access internet
@@ -459,6 +475,7 @@ Payload: TLS Server Hello
 - Provides high availability within an AZ
 
 **How It Works:**
+
 - Uses Port Address Translation (PAT) / NAT Overload
 - Maps internal IP:Port to external IP:Port
 - Routes outbound traffic through Internet Gateway
@@ -467,6 +484,7 @@ Payload: TLS Server Hello
 - Uses ephemeral port range (typically 1024-65535)
 
 **What It Does NOT Do:**
+
 - Does not allow inbound connections from internet
 - Does not provide load balancing
 - Does not filter traffic based on security rules
@@ -486,6 +504,7 @@ Payload: TLS Server Hello
 A VPN (Virtual Private Network) Gateway creates an encrypted tunnel between on-premises networks and cloud networks, or between different cloud regions, enabling secure communication over the public internet.
 
 #### Cloud Products
+
 - **AWS**:
   - AWS Virtual Private Gateway (VGW) - For Site-to-Site VPN
   - AWS Client VPN - For remote user access
@@ -541,6 +560,7 @@ ESP Authentication Data:
 ```
 
 **Transit over Internet:**
+
 - Packet travels through public internet
 - Encrypted payload prevents inspection
 - Only outer headers visible to internet routers
@@ -578,6 +598,7 @@ Payload: MySQL Query - SELECT * FROM customers
 #### Functional Requirements
 
 **What It DOES:**
+
 - Creates encrypted IPsec tunnels between networks
 - Authenticates both tunnel endpoints
 - Encrypts all traffic traversing the tunnel
@@ -590,6 +611,7 @@ Payload: MySQL Query - SELECT * FROM customers
 - Monitors tunnel health and status
 
 **How It Works:**
+
 - Uses IKE (Internet Key Exchange) for tunnel establishment
 - Phase 1: Establishes secure channel (ISAKMP SA)
 - Phase 2: Negotiates IPsec parameters (IPsec SA)
@@ -599,6 +621,7 @@ Payload: MySQL Query - SELECT * FROM customers
 - Maintains Security Association Database (SAD)
 
 **What It Does NOT Do:**
+
 - Does not provide load balancing across tunnels by default
 - Does not inspect or filter decrypted traffic (needs firewall)
 - Does not guarantee bandwidth or QoS
@@ -618,6 +641,7 @@ Payload: MySQL Query - SELECT * FROM customers
 A Web Application Firewall inspects HTTP/HTTPS traffic to detect and block common web attacks such as SQL injection, cross-site scripting (XSS), and other OWASP Top 10 vulnerabilities. It operates at Layer 7 (application layer).
 
 #### Cloud Products
+
 - **AWS**:
   - AWS WAF - Managed web application firewall
   - AWS Shield Advanced (includes WAF features)
@@ -747,6 +771,7 @@ Response: 403 Forbidden
 #### Functional Requirements
 
 **What It DOES:**
+
 - Inspects HTTP/HTTPS requests and responses
 - Detects and blocks OWASP Top 10 attacks
 - Protects against SQL injection attacks
@@ -762,6 +787,7 @@ Response: 403 Forbidden
 - Supports custom rules and managed rule sets
 
 **How It Works:**
+
 - Sits in front of web applications (reverse proxy mode)
 - Inspects full HTTP request (method, URI, headers, body)
 - Evaluates against ordered rule sets
@@ -772,6 +798,7 @@ Response: 403 Forbidden
 - Updates rules dynamically for new threats
 
 **What It Does NOT Do:**
+
 - Does not protect against DDoS volumetric attacks (needs DDoS protection)
 - Does not inspect encrypted traffic without SSL termination
 - Does not prevent zero-day application vulnerabilities
@@ -793,6 +820,7 @@ Response: 403 Forbidden
 A CDN is a geographically distributed network of servers that cache and deliver content to users from the nearest edge location, reducing latency and improving performance.
 
 #### Cloud Products
+
 - **AWS**:
   - Amazon CloudFront - Global CDN service
   - CloudFront Functions - Lightweight edge compute
@@ -967,6 +995,7 @@ X-Cache: Revalidated from cloudfront
 #### Functional Requirements
 
 **What It DOES:**
+
 - Caches static content (images, CSS, JS, videos)
 - Serves content from geographically distributed edge locations
 - Reduces latency by serving from nearest location
@@ -982,6 +1011,7 @@ X-Cache: Revalidated from cloudfront
 - Executes edge compute functions
 
 **How It Works:**
+
 - User requests content via CDN domain
 - DNS resolves to nearest edge location
 - Edge checks local cache for requested object
@@ -992,6 +1022,7 @@ X-Cache: Revalidated from cloudfront
 - Uses Anycast routing for optimal path
 
 **What It Does NOT Do:**
+
 - Does not cache dynamic/personalized content by default
 - Does not execute full backend application logic
 - Does not provide database storage
@@ -1013,6 +1044,7 @@ X-Cache: Revalidated from cloudfront
 DNS translates human-readable domain names into IP addresses, enabling users to access resources using memorable names instead of numeric IP addresses. It operates as a hierarchical distributed database.
 
 #### Cloud Products
+
 - **AWS**:
   - Amazon Route 53 - Scalable DNS and domain registration
   - Route 53 Resolver - Hybrid DNS resolution
@@ -1212,6 +1244,7 @@ If Health Check Fails:
 #### Functional Requirements
 
 **What It DOES:**
+
 - Resolves domain names to IP addresses
 - Supports multiple record types (A, AAAA, CNAME, MX, TXT, etc.)
 - Provides hierarchical domain name resolution
@@ -1225,6 +1258,7 @@ If Health Check Fails:
 - Manages domain registration
 
 **How It Works:**
+
 - Client queries local DNS resolver
 - Resolver queries root, TLD, and authoritative servers
 - Authoritative server returns answer
@@ -1233,6 +1267,7 @@ If Health Check Fails:
 - Follows delegation chain from root to domain
 
 **What It Does NOT Do:**
+
 - Does not encrypt queries by default (needs DNS over HTTPS/TLS)
 - Does not provide content delivery or caching beyond IP resolution
 - Does not inspect or filter traffic
@@ -1253,6 +1288,7 @@ If Health Check Fails:
 An Internet Gateway is a horizontally scaled, redundant VPC component that allows communication between instances in a VPC and the internet. It provides a target for internet-routable traffic and performs NAT for instances with public IP addresses.
 
 #### Cloud Products
+
 - **AWS**:
   - Internet Gateway (IGW) - VPC component
   - Egress-Only Internet Gateway - IPv6 outbound only
@@ -1402,6 +1438,7 @@ Action: Deliver to instance
 #### Functional Requirements
 
 **What It DOES:**
+
 - Provides internet connectivity for VPC resources
 - Performs 1:1 NAT for instances with public IPs
 - Routes traffic between VPC and internet
@@ -1413,6 +1450,7 @@ Action: Deliver to instance
 - Integrates with route tables
 
 **How It Works:**
+
 - Attached to VPC (one per VPC)
 - Listed as target in route table for 0.0.0.0/0
 - Performs bidirectional NAT for public IPs
@@ -1421,6 +1459,7 @@ Action: Deliver to instance
 - Managed service (no configuration needed)
 
 **What It Does NOT Do:**
+
 - Does not provide NAT for instances without public IPs (use NAT Gateway)
 - Does not filter or inspect traffic (needs security groups/NACLs)
 - Does not perform port address translation (PAT)
@@ -1441,6 +1480,7 @@ Action: Deliver to instance
 A Transit Gateway acts as a network transit hub that connects VPCs, on-premises networks, and other transit gateways. It simplifies network architecture by eliminating complex peering relationships.
 
 #### Cloud Products
+
 - **AWS**:
   - AWS Transit Gateway - Regional network hub
   - Transit Gateway Network Manager - Global network management
@@ -1615,6 +1655,7 @@ Path:
 #### Functional Requirements
 
 **What It DOES:**
+
 - Connects multiple VPCs within and across regions
 - Connects VPCs to on-premises networks via VPN/Direct Connect
 - Routes traffic between attached networks
@@ -1629,6 +1670,7 @@ Path:
 - Provides network monitoring and flow logs
 
 **How It Works:**
+
 - Networks attach via attachments (VPC, VPN, Direct Connect)
 - Each attachment associates with a route table
 - Route tables contain CIDR routes to other attachments
@@ -1638,6 +1680,7 @@ Path:
 - Supports route propagation from attachments
 
 **What It Does NOT Do:**
+
 - Does not perform NAT (maintains source/destination IPs)
 - Does not inspect or filter traffic (needs firewall)
 - Does not provide encryption (except via VPN attachments)
@@ -1659,6 +1702,7 @@ Path:
 A DDoS (Distributed Denial of Service) Protection service detects and mitigates volumetric, protocol, and application-layer attacks by absorbing and filtering malicious traffic before it reaches protected resources.
 
 #### Cloud Products
+
 - **AWS**:
   - AWS Shield Standard - Automatic DDoS protection
   - AWS Shield Advanced - Enhanced DDoS protection with 24/7 response
@@ -1880,6 +1924,7 @@ Processing:
 #### Functional Requirements
 
 **What It DOES:**
+
 - Detects volumetric, protocol, and application-layer attacks
 - Automatically mitigates attacks in real-time
 - Uses machine learning for anomaly detection
@@ -1894,6 +1939,7 @@ Processing:
 - Integrates with WAF for Layer 7 protection
 
 **How It Works:**
+
 - Monitors traffic patterns and establishes baselines
 - Detects anomalies through statistical analysis
 - Classifies attack types automatically
@@ -1904,6 +1950,7 @@ Processing:
 - Returns clean traffic to origin infrastructure
 
 **What It Does NOT Do:**
+
 - Does not prevent application vulnerabilities
 - Does not protect against zero-day exploits
 - Does not provide data encryption
@@ -1939,6 +1986,7 @@ Processing:
 ### Key Differences: Data Path Vs Control Path
 
 #### Data Path Devices (Forward Traffic)
+
 - Load Balancer
 - NAT Gateway
 - Internet Gateway
@@ -1946,12 +1994,14 @@ Processing:
 - CDN
 
 #### Control/Inspection Devices (Inspect and Filter)
+
 - Firewall
 - WAF
 - DDoS Protection
 - API Gateway (partial)
 
 #### Resolution Devices (Do Not Forward Packets)
+
 - DNS
 
 ---
@@ -2008,11 +2058,13 @@ A firewall is a security device or service that inspects and filters network pac
 | **Azure**| Azure Firewall, Azure Web Application Firewall (WAF), NSGs |
 
 #### Fictional Packet Example
+
 - **Input:** A TCP SYN packet from 192.0.2.25:58001 targeting 10.10.21.15:443 attempts to enter the VPC.
-    - AWS: AWS Network Firewall checks rules for inbound traffic on port 443; packet allowed if permitted, dropped if not.
-    - Azure: Azure Firewall inspects the packet, applies TLS inspection if configured, forwards or blocks based on rule match.
+  - AWS: AWS Network Firewall checks rules for inbound traffic on port 443; packet allowed if permitted, dropped if not.
+  - Azure: Azure Firewall inspects the packet, applies TLS inspection if configured, forwards or blocks based on rule match.
 
 #### Functional Requirements
+
 - Allow/deny traffic based on protocol, port, source/destination IP, and packet content (for deep inspection)
 - Log allowed and denied attempts for auditing and compliance
 - Enforce stateful inspection (track connection state)
@@ -2035,16 +2087,18 @@ An API Gateway acts as a single point of entry for all client requests to backen
 | **Azure**| Azure API Management (APIM)     |
 
 #### Fictional Packet Example
+
 - **Input:** HTTP POST /api/v1/orders with JSON payload and JWT token from client 198.51.100.25 at 08:01 UTC.
-    - **Gateway actions:**
-        - Validates JWT.
-        - Logs the request metadata.
-        - Applies rate limiting (blocks if over quota).
-        - Translates path if necessary (e.g., /orders -> /orders-service/v2/process).
-        - Forwards permitted request to correct backend microservice (orders-service pod).
-        - Returns API response to client.
+  - **Gateway actions:**
+    - Validates JWT.
+    - Logs the request metadata.
+    - Applies rate limiting (blocks if over quota).
+    - Translates path if necessary (e.g., /orders -> /orders-service/v2/process).
+    - Forwards permitted request to correct backend microservice (orders-service pod).
+    - Returns API response to client.
 
 #### Functional Requirements
+
 - Authenticate/authorize client requests[3].
 - Route requests to appropriate microservice(s) based on URI, method, or header rules.
 - Enforce rate limiting, quotas, and throttling.
@@ -2069,11 +2123,13 @@ A load balancer distributes incoming network or application traffic among multip
 | **Azure**| Azure Load Balancer (L4), Application Gateway (L7), Traffic Manager (DNS), Azure Front Door |
 
 #### Fictional Packet Example
+
 - **Input:** HTTPS GET request for `/home` arrives at ALB from 203.0.113.36:49383
-    - ALB health checks backend pool, routes request to least loaded and healthy target, maintains session stickiness if required.
-    - Azure Application Gateway inspects URL path, applies WAF rules if configured, then forwards to one of the backend web servers.
+  - ALB health checks backend pool, routes request to least loaded and healthy target, maintains session stickiness if required.
+  - Azure Application Gateway inspects URL path, applies WAF rules if configured, then forwards to one of the backend web servers.
 
 #### Functional Requirements
+
 - Distribute requests/packets based on load, protocol, health, or session stickiness[3][2].
 - Scale backend services horizontally by adding/removing instances.
 - Provide health checks and automatic failover.

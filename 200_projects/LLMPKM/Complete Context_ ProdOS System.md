@@ -626,10 +626,10 @@ Here is a concrete implementation plan with example code snippets for key compon
 ##### Steps
 
 - Implement `/capture-thought` command:
-    - Take freeform input.
-    - Call LLM API for content classification and metadata tagging.
-    - Split mixed inputs using `/cleave` command logic.
-    - Store separated items as markdown files in proper folders with metadata YAML frontmatter.
+  - Take freeform input.
+  - Call LLM API for content classification and metadata tagging.
+  - Split mixed inputs using `/cleave` command logic.
+  - Store separated items as markdown files in proper folders with metadata YAML frontmatter.
 
 ##### Example Python Snippet (Pseudo-code)
 

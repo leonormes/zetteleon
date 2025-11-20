@@ -25,6 +25,7 @@ Below is a pragmatic blueprint: **interface**, **agent roles**, **workflows**, *
 ---
 
 ## 1) Mental Model: “One Brain, Many Hands”
+
 - **You** are the editor-in-chief.
 - **prodOS Orchestrator** is the router.
 - **Agents** are specialist “hands” that do focused work (summarize, plan, extract tasks, draft emails, generate diagrams).
@@ -38,6 +39,7 @@ Below is a pragmatic blueprint: **interface**, **agent roles**, **workflows**, *
 ## 2) Core Interface Layers
 
 ### A) Menu Bar App (macOS)
+
 - **Global hotkey** (e.g., `Cmd + ;`) opens a small command palette.
 - Modes:
   1. **Quick Capture** → creates an atomic note in Obsidian (with tags, link to current app, optional voice-to-text).
@@ -49,6 +51,7 @@ Below is a pragmatic blueprint: **interface**, **agent roles**, **workflows**, *
 **Low friction**: You never have to open a browser or full-blown UI to do the basics.
 
 ### B) Obsidian Inline
+
 - **Command palette commands** (via plugin) for:
   - `Actionize Note` (extract tasks → Todoist, backlink tasks → note).
   - `Summarize & Next Actions`.
@@ -69,6 +72,7 @@ Below is a pragmatic blueprint: **interface**, **agent roles**, **workflows**, *
 ```
 
 ### D) Invisible Background
+
 - **File watcher** on your vault: when something changes (e.g., a new note in `inbox/`), the orchestrator:
   - Parses frontmatter, tags, and links.
   - Generates embeddings + updates vector store.
@@ -80,6 +84,7 @@ Below is a pragmatic blueprint: **interface**, **agent roles**, **workflows**, *
 ## 3) Agent/Orchestrator Architecture
 
 ### Roles
+
 1. **Router/Planner**: decides which specialist to call based on intent.
 2. **Summarizer**: TL;DR + highlights + open questions.
 3. **Task Extractor**: finds actionable steps, deadlines, owners → Todoist.
@@ -89,11 +94,13 @@ Below is a pragmatic blueprint: **interface**, **agent roles**, **workflows**, *
 7. **Research Sweeper**: periodically proposes follow-up reading and synthesizes into note updates.
 
 ### Context Strategy
+
 - **Short-term context**: current file/selection + recent notes (last N modified) + related notes via embeddings and backlinks.
 - **Long-term context**: embeddings store (e.g., `sqlite + sqlite-vss` or `pgvector`) + Obsidian graph.
 - **Task context**: Todoist Today + Next 7 Days + any tasks linked to current note.
 
 ### Model Strategy (privacy + speed)
+
 - Prefer **local LLM** (Ollama: `llama3.1`/`mistral`/`qwen2.5`) for classification/extraction; **cloud fallback** for big writing jobs.
 - Deterministic transforms (YAML, task parsing) use **regex/AST** + LLM “repair” if needed.
 
@@ -135,6 +142,7 @@ updated: 2025-11-11
 - Or use Obsidian Tasks plugin syntax; the orchestrator maps to Todoist.
 
 ### Zettelkasten Friendly
+
 - Atomic notes: one idea, strong title, **bidirectional links**.
 - Orchestrator can **propose titles** and **link candidates** after saving.
 
@@ -143,6 +151,7 @@ updated: 2025-11-11
 ## 5) Golden Workflows (Low Friction)
 
 ### Workflow 1: Capture → Actionize (seconds)
+
 1. `Cmd+;` → Quick Capture: paste a snippet, tag `#inbox`.
 2. Background agent summarizes + shows a toast:  
    *“I found 2 actions. [Send to Todoist] [Edit] [Ignore]”*
@@ -150,6 +159,7 @@ updated: 2025-11-11
 4. Inbox note gets auto-tidied (title suggestion, key points, links).
 
 ### Workflow 2: Research → Outline → Plan
+
 1. In Obsidian, run `Outline & Plan`.
 2. Agent generates:
    - `## Outline`
@@ -158,17 +168,20 @@ updated: 2025-11-11
 3. Confirm → Todoist tasks created with due dates/time estimates.
 
 ### Workflow 3: Meeting → Decisions → Tasks
+
 1. Start `Meeting Template` with headings: Agenda, Notes, Decisions, Actions.
 2. Live capture or paste transcript.
 3. `Summarize & Next Actions` → tasks sent to Todoist, decisions highlighted.
 
 ### Workflow 4: Today Console (ADHD friendly)
+
 - Shows:
   - **Top 3** highest leverage tasks (context-aware).
   - Two **45-min focus blocks** auto-scheduled (or Pomodoro).
   - A **“ friction killer”** button: *Start Focus → opens the note, closes distractions, starts timer, logs progress note*.
 
 ### Workflow 5: Refactor Long Note → Zettels
+
 - Select text → `Refactor to Zettels`.
 - Agent proposes splits with candidate titles and backlinks. You approve → files created.
 
@@ -185,6 +198,7 @@ Return strict JSON: {"intent":"...", "arguments":{...}}.
 ```
 
 ### Task Extraction (deterministic First, LLM repair)
+
 1. Regex pass for lines with `[ ]` or imperative sentences.
 2. LLM confirmation:
 
@@ -213,6 +227,7 @@ include 3 bullet options. Cite sources as markdown links found in the note's "re
 ## 7) Integration Points
 
 ### Obsidian
+
 - **Plugin** with:
   - Commands (Actionize, Summarize, Outline, Refactor, Draft).
   - Event hooks (on save → suggest links, extract tasks).
@@ -220,6 +235,7 @@ include 3 bullet options. Cite sources as markdown links found in the note's "re
 - File watcher: Node + `chokidar`.
 
 ### Todoist
+
 - Use **REST API** + **webhooks**.
 - Conventions:
   - **Project per “Project-type note”** (optional).
@@ -227,6 +243,7 @@ include 3 bullet options. Cite sources as markdown links found in the note's "re
   - Custom fields for `vault_path`, `note_id`.
 
 ### System Automations (macOS)
+
 - **Shortcuts** or **AppleScript** to:
   - Set Do Not Disturb during focus blocks.
   - Open specific workspace (Obsidian note + terminal pane).
@@ -338,6 +355,7 @@ it('extracts markdown tasks', () => {
 ---
 
 ## 10) ADHD-Friendly Guardrails
+
 - **Start Anywhere**: Quick capture never asks for extra fields; enrich later.
 - **One-Tap Next Step**: Every summary ends with 1–3 concrete suggested actions.
 - **Timeboxing**: Default action is “Start Focus (25m)”.
@@ -349,6 +367,7 @@ it('extracts markdown tasks', () => {
 ## 11) MVP → V1 Roadmap
 
 ### MVP (weekend-ish)
+
 - Menu bar app (Electron/Tauri) + global hotkey.
 - Quick Capture to Obsidian `inbox/`.
 - Actionize: deterministic extraction + Todoist create + backlink.
@@ -357,6 +376,7 @@ it('extracts markdown tasks', () => {
 - “Today Console” (basic list from Todoist Today).
 
 ### V1
+
 - Obsidian plugin with commands.
 - Plan Session (generate outline + tasks + time estimates).
 - Refactor to Zettels.
@@ -365,6 +385,7 @@ it('extracts markdown tasks', () => {
 - Cloud fallback for long-form drafting with explicit toggle.
 
 ### Stretch
+
 - Calendar integration (block time).
 - Email/Slack drafting from notes.
 - Project dashboards (MOC auto-curation).
@@ -373,6 +394,7 @@ it('extracts markdown tasks', () => {
 ---
 
 ## 12) Security & Privacy
+
 - Default to **local inference** + local vector DB.
 - Explicit consent before sending content to cloud models.
 - Redaction step (mask secrets) for any cloud calls.
@@ -430,6 +452,7 @@ Status: active
 ---
 
 ## 14) Implementation Tips (for Your stack)
+
 - **TypeScript + TDD** across agents; keep LLM prompts in `.prompt.ts` with fixtures for snapshot tests.
 - Embed **prompt unit tests**: given input → assert output JSON schema.
 - Use **function calling**/JSON schemas to keep agents predictable.
@@ -440,6 +463,7 @@ Status: active
 ---
 
 ## 15) What This Looks like in a Day
+
 - Morning: `Cmd+;` → “Today Console” → press **Start Focus** on the top task → Obsidian opens the linked note, timer runs, Do Not Disturb.
 - Midday: Paste an article snippet → **Actionize** suggests two tasks → hit **Send** → back to flow.
 - Afternoon: Run `Refactor to Zettels` on a long note → approve titles → graph grows with atomic ideas.

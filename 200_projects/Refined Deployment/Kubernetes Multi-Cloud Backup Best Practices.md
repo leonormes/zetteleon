@@ -184,13 +184,13 @@ metadata:
 spec:  
   containers:  
 
-  - name: postgres  
+- name: postgres  
     image: postgres:15  
     volumeMounts:  
-    - mountPath: /var/lib/postgresql/data  
+  - mountPath: /var/lib/postgresql/data  
       name: pg-data  
   volumes:  
-  - name: pg-data  
+- name: pg-data  
     persistentVolumeClaim:  
       claimName: pg-data-pvc
 
@@ -214,6 +214,7 @@ Velero is an open-source tool (originated by Heptio, now VMWare) that operates a
 - **Snapshots (VSL):** Amazon EBS snapshots.41  
 - **Identity:** The recommended approach is **IRSA (IAM Roles for Service Accounts)**, which grants the Velero pods fine-grained permissions to S3 and EC2 (for snapshots) without using static keys.47  
 - **Example velero install Command (using IRSA):**  
+
 ## Assumes IRSA is Configured for the 'velero' Service account
 
   velero install
@@ -239,6 +240,7 @@ Velero is an open-source tool (originated by Heptio, now VMWare) that operates a
 - **Identity:** The recommended approach is **Microsoft Entra Workload Identity**, which, like IRSA, provides secure, "secret-less" pod-level identity.48  
 - **Example velero install Command (using Service Principal, legacy method):**  
   Bash  
+
 ## Create the Credentials-velero File with SP Details [29, 50]
 
   AZURE_BACKUP_RESOURCE_GROUP=Velero_Backups  
@@ -346,6 +348,7 @@ This playbook is ideal for a one-time, planned *migration* or a *cold* DR scenar
   - Install Velero on EKS (see Part 4.1.1).  
   - Create the backup. It is **essential** to use a file-level backup method (Restic or Kopia) to ensure the PV data is portable.17  
     Bash  
+
 ## Use --use-kopia (or --use-restic) for a Portable, File-level Backup
 ## --snapshot-volumes=false Is Used with restic/kopia-only Backups
 ## Alternatively, Use Strategy 3 (Snapshot Data Movement) if Configured
@@ -359,6 +362,7 @@ This playbook is ideal for a one-time, planned *migration* or a *cold* DR scenar
   - The Velero backup (resources and Kopia data) now exists in the S3 bucket. This data must be replicated to the Azure Blob container.  
   - Use the azcopy tool for this out-of-band transfer.30  
     Bash  
+
 ## Authenticate Azcopy to both AWS (S3) and Azure (Blob)
     azcopy copy 'https://<s3-bucket>.s3.amazonaws.com/backups'   
       'https://<blob-acct>.blob.core.windows.net/<container>/backups'   
@@ -387,7 +391,7 @@ data:
   gp2: managed-csi`
 ```
 
-  - Apply this file: kubectl apply -f sc-map.yaml.  
+- Apply this file: kubectl apply -f sc-map.yaml.  
 - **Step 4: Restore to AKS**  
 - Run the Velero restore, referencing the backup name and the new ConfigMap.  
 
@@ -417,6 +421,7 @@ This playbook uses the OIDC federation pattern (Part 5.3) for a *hot* DR scenari
 - **Step 3: Proactive Backup Scheduling**  
   - Create two schedules on the EKS cluster:  
     Bash  
+
 ## 1. Daily, Fast, In-cloud Snapshots for Operational Recovery
     velero schedule create daily-local-ops   
       --schedule="@daily"   

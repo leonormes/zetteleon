@@ -77,6 +77,7 @@ He’s seeking to understand his **motivation** and **workflow design**:
 ---
 
 ### 💡 Key Insights About His Thinking
+
 - He learns best by **connecting ideas between disciplines** (teaching, music, programming, knowledge systems).
 - His motivation is not “getting tasks done,” but **making meaning and seeing connections**.
 - His brain thrives on **novelty, pattern recognition, and coherence**, but he struggles with **activation energy** when a task feels unstructured or cognitively heavy.
@@ -97,6 +98,7 @@ He wants help with any or all of:
 ---
 
 ### 🧭 Style Preferences for Responses
+
 - Be practical but reflective.
 - Don’t lecture — collaborate.
 - Tie abstract ideas to real, concrete workflows (e.g., actual Obsidian note patterns, Git ticket examples, command lines, or scripts).
@@ -136,6 +138,7 @@ So before I start designing suggestions, let me mirror back your **core pattern*
 ---
 
 ### 🧠 Your Current Loop (Summarized)
+
 1. **Learn Curiously** → lots of great intake.
 2. **Document Fragmentedly** → notes emerge, but scattered.
 3. **Start Doing** → can’t recall the latest context or reasoning.
@@ -340,12 +343,14 @@ reasoning):
 ## 🔧 How to Install This in Obsidian
 
 ### Option 1: Templater Plugin (Recommended)
+
 1. Install **Templater** plugin (Community Plugins).  
 2. Create a new note in your templates folder: `Working Note Template.md`  
 3. Paste the template above.  
 4. Set a hotkey (e.g., `Cmd+Shift+W`) to insert this template.
 
 ### Option 2: Core Templates Plugin
+
 1. Enable **Templates** in Core Plugins.  
 2. Create `Working Note Template.md` in your templates folder.  
 3. Use "Insert template" command when starting a session.
@@ -357,6 +362,7 @@ reasoning):
 (Ritual)
 
 ### **Start Of Session (2 min)**
+
 1. Create new note: `YYYY-MM-DD Working Note – Velero Backup Config`  
 2. Fill in "Today's Goal" (just one thing).  
 3. Scan "What I Already Know" — search Obsidian or ask LLM:  
@@ -366,10 +372,12 @@ reasoning):
 4. Start working in "Live Exploration."
 
 ### **During Session**
+
 - Dump everything into "Live Exploration" — no formatting pressure.  
 - Capture *why* you made decisions, not just *what* you did.
 
 ### **End Of Session (3 min)**
+
 - Fill in "Micro‑Reflection."  
 - Decide: what's worth extracting into a permanent note?  
 - Write "What's next" so future-you doesn't stare blankly.
@@ -393,6 +401,7 @@ reasoning):
 ## 🚀 Next Step
 
 **Try this once** with your Velero project:  
+
 1. Copy the template into Obsidian.  
 2. Start a working note for your next session.  
 3. Report back: what felt good? What felt clunky?
@@ -452,20 +461,20 @@ Keep your response concise, actionable, and focused on helping me leverage my ex
 
 ### 💡 How to Use This Prompt
 
-1.  **Identify Relevant Notes:** Before you even open the LLM, do a quick search in Obsidian for keywords related to your project (e.g., "Velero", "backup", "EKS", "AKS").  
-    -   **Tip:** Use Obsidian's search (`Ctrl/Cmd + Shift + F`) or Dataview queries to quickly gather text from multiple notes.  
-2.  **Copy & Paste:** Select and copy the most relevant sections or entire notes into the `[PASTE RELEVANT NOTES/SNIPPETS FROM OBSIDIAN HERE]` section of the prompt. Don't worry about perfect curation; the LLM will help synthesize.  
-3.  **Run the Prompt:** Paste the full prompt into your LLM of choice.  
+1. **Identify Relevant Notes:** Before you even open the LLM, do a quick search in Obsidian for keywords related to your project (e.g., "Velero", "backup", "EKS", "AKS").  
+    - **Tip:** Use Obsidian's search (`Ctrl/Cmd + Shift + F`) or Dataview queries to quickly gather text from multiple notes.  
+2. **Copy & Paste:** Select and copy the most relevant sections or entire notes into the `[PASTE RELEVANT NOTES/SNIPPETS FROM OBSIDIAN HERE]` section of the prompt. Don't worry about perfect curation; the LLM will help synthesize.  
+3. **Run the Prompt:** Paste the full prompt into your LLM of choice.  
 
  **Integrate into Working Note:** Take the LLM's summary, identified gaps, and suggested next steps, and paste them into the "What I Already Know (Reuse First)" section of your Obsidian working note.
 
 ### 🧠 Why This Works for ADHD Brains
 
--   **Reduces Activation Energy:** Instead of staring at a blank page or a pile of notes, the LLM gives you a synthesized starting point.  
--   **Externalizes Synthesis:** The LLM does the heavy lifting of connecting disparate pieces of information, which can be cognitively taxing.  
--   **Reinforces "Reuse First":** It makes the act of checking your PKM a rewarding and efficient step, rather than a chore.  
--   **Highlights Gaps:** Helps you see where your knowledge is weak *before* you get deep into the task, preventing mid-task context switching.  
--   **Provides Momentum:** The suggested next steps give you immediate, actionable direction.
+- **Reduces Activation Energy:** Instead of staring at a blank page or a pile of notes, the LLM gives you a synthesized starting point.  
+- **Externalizes Synthesis:** The LLM does the heavy lifting of connecting disparate pieces of information, which can be cognitively taxing.  
+- **Reinforces "Reuse First":** It makes the act of checking your PKM a rewarding and efficient step, rather than a chore.  
+- **Highlights Gaps:** Helps you see where your knowledge is weak *before* you get deep into the task, preventing mid-task context switching.  
+- **Provides Momentum:** The suggested next steps give you immediate, actionable direction.
 
 ---
 
@@ -473,8 +482,8 @@ Keep your response concise, actionable, and focused on helping me leverage my ex
 
 Now you have both:  
 
-1.  A **Working Note Template** for Obsidian.  
-2.  An **LLM "Reuse-First" Prompt** to kickstart your
+1. A **Working Note Template** for Obsidian.  
+2. An **LLM "Reuse-First" Prompt** to kickstart your
 
 sessions.
 
@@ -483,16 +492,18 @@ Let's combine these into a simple **"Session Ritual"** to make it a habit.
 ### 🧘‍♂️ The "Session Ritual"
 
 **Start of Focus Block (5-10 minutes):**  
-1.  **Create Working Note:** Open Obsidian, create a new note using your `Working Note Template`. Fill in `Project` and `Today's Goal`.  
-2.  **Gather Notes:** Perform a quick search in Obsidian for relevant keywords. Copy the most pertinent notes/snippets.  
-3.  **LLM Synthesis:** Paste the gathered notes into the "Reuse-First" LLM prompt.  
-4.  **Populate Working Note:** Copy the LLM's output (summary, gaps, next steps) into the "What I Already Know (Reuse First)" section of your working note.  
-5.  **Review & Plan:** Briefly review the LLM's output and your "Today's Goal." Adjust your plan if needed.  
-6.  **Start "Live Exploration":** Begin your actual work, documenting in the "Live Exploration" section.
+
+1. **Create Working Note:** Open Obsidian, create a new note using your `Working Note Template`. Fill in `Project` and `Today's Goal`.  
+2. **Gather Notes:** Perform a quick search in Obsidian for relevant keywords. Copy the most pertinent notes/snippets.  
+3. **LLM Synthesis:** Paste the gathered notes into the "Reuse-First" LLM prompt.  
+4. **Populate Working Note:** Copy the LLM's output (summary, gaps, next steps) into the "What I Already Know (Reuse First)" section of your working note.  
+5. **Review & Plan:** Briefly review the LLM's output and your "Today's Goal." Adjust your plan if needed.  
+6. **Start "Live Exploration":** Begin your actual work, documenting in the "Live Exploration" section.
 
 **End of Focus Block (3-5 minutes):**  
-1.  **Micro-Reflection:** Fill out the "Micro-Reflection" section.  
-2.  **Identify Reusables:** Note down anything
+
+1. **Micro-Reflection:** Fill out the "Micro-Reflection" section.  
+2. **Identify Reusables:** Note down anything
 
 that should become a standalone atomic note or checklist.  
 3. **Define Next Step:** Clearly state what future-you should do next.

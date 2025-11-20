@@ -25,6 +25,7 @@ kube-proxy runs on each Kubernetes node and implements Services by configuring i
 ## Details
 
 ### Kube-proxy Role
+
 - **Node-Level Proxy**: Runs on every node in the cluster
 - **Service Implementation**: Provides stable IP addresses for pod groups
 - **Load Balancing**: Distributes traffic across healthy pod endpoints
@@ -33,30 +34,35 @@ kube-proxy runs on each Kubernetes node and implements Services by configuring i
 ### Operating Modes
 
 **Userspace Mode (Legacy):**
+
 - Acts as Layer 4 proxy in userspace
 - Forwards traffic to appropriate pods
 - Higher latency and resource usage
 - Largely deprecated in modern clusters
 
 **iptables Mode:**
+
 - Uses iptables rules to redirect traffic
 - Better performance than userspace
 - Can have scalability issues with many services
 - Default mode in many Kubernetes versions
 
 **IPVS Mode:**
+
 - Uses IPVS (IP Virtual Server) for load balancing
 - Best performance and scalability
 - Supports multiple load balancing algorithms
 - Recommended for large-scale deployments
 
 ### Service Types Handled
+
 - **ClusterIP**: Internal service access
 - **NodePort**: External access via node ports
 - **LoadBalancer**: External load balancer integration
 - **ExternalName**: DNS alias for external services
 
 ### Monitoring and Updates
+
 - **Watches API Server**: Monitors Service and Endpoint changes
 - **Dynamic Updates**: Automatically updates rules when pods/services change
 - **Health Checking**: Only routes traffic to healthy endpoints

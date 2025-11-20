@@ -36,14 +36,14 @@ To develop a PKM (Personal Knowledge Management) system in Obsidian focused on c
 ### 1. Note Types and Templates
 
 - **Atomic Concept Notes:** Each note should focus on a single concept (e.g., “Service Discovery in Kubernetes”, “Terraform State Locking”) and include:
-    - Concept explanation (in your own words)
-    - Mental model/diagram (optionally with Excalidraw)
-    - Links to related concepts and troubleshooting stories
-    - “I used to think…now I understand…” reflections
+  - Concept explanation (in your own words)
+  - Mental model/diagram (optionally with Excalidraw)
+  - Links to related concepts and troubleshooting stories
+  - “I used to think…now I understand…” reflections
 - **Problem \& Solution Notes:** When you face an error or complex config, capture:
-    - Problem statement + context
-    - What you tried, dead ends, and what eventually worked
-    - Links to the official docs only as references
+  - Problem statement + context
+  - What you tried, dead ends, and what eventually worked
+  - Links to the official docs only as references
 - **Workflow Recipes:** Capture reusable procedures and command snippets, referencing your own preferred practices.
 - **Project Logs:** For major work tasks/projects, use daily or session logs noting key decisions, problems, or learnings.
 

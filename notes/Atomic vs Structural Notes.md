@@ -30,5 +30,6 @@ Structural notes (also called "architecture" or "hubs") exist solely to create c
 This separation is the fundamental principle that prevents knowledge bases from becoming either atomic dust (facts with no coherence) or narrative soup (ideas without verifiable building blocks).
 
 > **Status gates**
+>
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.

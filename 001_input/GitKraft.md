@@ -25,10 +25,10 @@ The video you provided details how GitKraft enables teams to privately fork and 
 
 - **Problem Solver:** Many organizations need to maintain their own patches to upstream Helm charts, but struggle to keep these patches when the original chart updates. Existing tools like Github’s public forks or patch files are either insecure or inadequate for secrecy and update management[^1_1].
 - **GitKraft’s Solution:**
-    - Adds a “private fork” feature to GitHub for Helm charts—including private forks of public repos, which Github doesn’t normally support[^1_1].
-    - Uses a template repo and bootstrap workflow to create private repositories for your team, populated with the target chart’s full history.
-    - Enables teams to apply custom patches directly in git, and seamlessly sync (or “weld merge”) those customizations with new upstream releases, maintaining a readable, auditable history without history loss or breakage[^1_1].
-    - Special “welding merge” combines the safety of rebasing with Git compatibility for multi-user collaboration, preventing the git history disconnects often seen with straight rebases[^1_1].
+- Adds a “private fork” feature to GitHub for Helm charts—including private forks of public repos, which Github doesn’t normally support[^1_1].
+- Uses a template repo and bootstrap workflow to create private repositories for your team, populated with the target chart’s full history.
+- Enables teams to apply custom patches directly in git, and seamlessly sync (or “weld merge”) those customizations with new upstream releases, maintaining a readable, auditable history without history loss or breakage[^1_1].
+- Special “welding merge” combines the safety of rebasing with Git compatibility for multi-user collaboration, preventing the git history disconnects often seen with straight rebases[^1_1].
 
 ### Practical Workflow Outline
 
@@ -60,7 +60,7 @@ The video you provided details how GitKraft enables teams to privately fork and 
 | Helm Dependency Management | Source as code, not blobs | Full diff visibility, better audits |
 | GitOps Deploy Integration | Direct with ArgoCD, Codefresh, etc. | No new toolchain needed |
 
-***
+---
 
 **Concrete Example:**
 Patch a Helm chart line in your private fork, track it as a commit. When upstream updates, update your fork with a click; resolve conflicts in a PR if needed. Deploy as normal via ArgoCD using your fork as the source[^1_1].

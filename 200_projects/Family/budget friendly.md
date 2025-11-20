@@ -26,12 +26,14 @@ You're right - this is deflection masquerading as logic. Let me give you the bre
 **"Let me explain why those two things aren't the same:
 
 **The medication:**
+
 - YOU suggested it
 - We discussed it together  
 - We both agreed it was worth the cost
 - It was a joint decision
 
 **The Florida trip:**
+
 - You decided we're going
 - You committed to spending thousands
 - But you're not adjusting any behavior to make it financially possible

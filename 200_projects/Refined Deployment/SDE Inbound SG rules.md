@@ -758,9 +758,11 @@ This is a **common Kubernetes on AWS issue** where the cloud controller creates 
 Since the NLB is **internal**, the NodePort don't need to be accessible from the internet. The security group rules should be:
 
 **Current (Insecure)**:
+
 - Source: `0.0.0.0/0` → NodePort 31139, 32623
 
 **Should Be (Secure)**:
+
 - Source: **VPC CIDR only** or **NLB subnet ranges** → NodePort 31139, 32623
 
 ### 💡 Recommended Action

@@ -50,45 +50,45 @@ So, learning is not about perfect recall — it is about constructing mental mod
 
 Citations:
 
-[1] What is Learning? A Definition for Cognitive Science \<http://www.jimdavies.org/research/publications/cognitive-science-conference/2017/Davies2017g.pdf>\>
+[1] What is Learning? A Definition for Cognitive Science \<<http://www.jimdavies.org/research/publications/cognitive-science-conference/2017/Davies2017g.pdf>\>>
 
-[2] Defining the Science of Learning: A scoping review \<https://www.sciencedirect.com/science/article/pii/S2211949323000091>\>
+[2] Defining the Science of Learning: A scoping review \<<https://www.sciencedirect.com/science/article/pii/S2211949323000091>\>>
 
-[3] Understanding Cognitive Learning: Definition and Importance \<https://teachers.institute/learning-learner-development/cognitive-learning-definition-importance/>\>
+[3] Understanding Cognitive Learning: Definition and Importance \<<https://teachers.institute/learning-learner-development/cognitive-learning-definition-importance/>\>>
 
-[4] Memory vs. Understanding - What's the Difference? | This vs. That \<https://thisvsthat.io/memory-vs-understanding>\>
+[4] Memory vs. Understanding - What's the Difference? | This vs. That \<<https://thisvsthat.io/memory-vs-understanding>\>>
 
-[5] The role of memory, knowledge, and understanding in learning \<https://theeducationhub.org.nz/the-role-of-memory-knowledge-and-understanding-in-learning/>\>
+[5] The role of memory, knowledge, and understanding in learning \<<https://theeducationhub.org.nz/the-role-of-memory-knowledge-and-understanding-in-learning/>\>>
 
-[6] What Good Is Learning If You Don’t Remember It? - ed \<https://files.eric.ed.gov/fulltext/EJ1055665.pdf>\>
+[6] What Good Is Learning If You Don’t Remember It? - ed \<<https://files.eric.ed.gov/fulltext/EJ1055665.pdf>\>>
 
-[7] Why Cramming Doesn't Work - Psychology Today \<https://www.psychologytoday.com/us/blog/small-things-big-questions/202411/why-cramming-doesnt-work>\>
+[7] Why Cramming Doesn't Work - Psychology Today \<<https://www.psychologytoday.com/us/blog/small-things-big-questions/202411/why-cramming-doesnt-work>\>>
 
-[8] How Learning by Repetition Works: Spacing, Forgetting, and ... \<https://cognitiontoday.com/how-learning-by-repetition-works-spacing-forgetting-and-recall/>\>
+[8] How Learning by Repetition Works: Spacing, Forgetting, and ... \<<https://cognitiontoday.com/how-learning-by-repetition-works-spacing-forgetting-and-recall/>\>>
 
-[9] Learning and memory: How the brain codes knowledge - IBE \<https://solportal.ibe-unesco.org/articles/learning-and-memory-how-the-brain-codes-knowledge/>\>
+[9] Learning and memory: How the brain codes knowledge - IBE \<<https://solportal.ibe-unesco.org/articles/learning-and-memory-how-the-brain-codes-knowledge/>\>>
 
-[10] Cognitive neuroscience perspective on memory: overview and ... \<https://pmc.ncbi.nlm.nih.gov/articles/PMC10410470/>\>
+[10] Cognitive neuroscience perspective on memory: overview and ... \<<https://pmc.ncbi.nlm.nih.gov/articles/PMC10410470/>\>>
 
-[11] What Exactly Is The Science of Learning Anyway? \<https://www.learningscientists.org/blog/2024/5/30-1>\>
+[11] What Exactly Is The Science of Learning Anyway? \<<https://www.learningscientists.org/blog/2024/5/30-1>\>>
 
-[12] Rote Learning: Why Memorization Doesn't Help You Learn \<https://www.betterhelp.com/advice/memory/why-rote-memory-doesnt-help-you-learn/>\>
+[12] Rote Learning: Why Memorization Doesn't Help You Learn \<<https://www.betterhelp.com/advice/memory/why-rote-memory-doesnt-help-you-learn/>\>>
 
-[13] Science of learning - THE EDUCATION HUB \<https://theeducationhub.org.nz/category/school-resources/science-of-learning/>\>
+[13] Science of learning - THE EDUCATION HUB \<<https://theeducationhub.org.nz/category/school-resources/science-of-learning/>\>>
 
-[14] Cognitive Science (Stanford Encyclopedia of Philosophy) \<https://plato.stanford.edu/entries/cognitive-science/>\>
+[14] Cognitive Science (Stanford Encyclopedia of Philosophy) \<<https://plato.stanford.edu/entries/cognitive-science/>\>>
 
-[15] The Problem with Rote Learning: Are We Memorizing Instead of ... \<https://www.thehumanprojectfoundation.org/blog/the-problem-with-rote-learning-are-we-memorizing-instead-of-understanding>\>
+[15] The Problem with Rote Learning: Are We Memorizing Instead of ... \<<https://www.thehumanprojectfoundation.org/blog/the-problem-with-rote-learning-are-we-memorizing-instead-of-understanding>\>>
 
-[16] We need memory to learn – but not the way we currently use it \<https://theconversation.com/we-need-memory-to-learn-but-not-the-way-we-currently-use-it-204216>\>
+[16] We need memory to learn – but not the way we currently use it \<<https://theconversation.com/we-need-memory-to-learn-but-not-the-way-we-currently-use-it-204216>\>>
 
-[17] The Neuroscience of Memory: How the Brain Stores and ... \<https://www.openaccessjournals.com/articles/the-neuroscience-of-memory-how-the-brain-stores-and-retrieves-information.pdf>\>
+[17] The Neuroscience of Memory: How the Brain Stores and ... \<<https://www.openaccessjournals.com/articles/the-neuroscience-of-memory-how-the-brain-stores-and-retrieves-information.pdf>\>>
 
-[18] Evidence-Based Strategies to Improve Memory and Learning \<https://pmc.ncbi.nlm.nih.gov/articles/PMC4278520/>\>
+[18] Evidence-Based Strategies to Improve Memory and Learning \<<https://pmc.ncbi.nlm.nih.gov/articles/PMC4278520/>\>>
 
-[19] How the Brain Selects Between Perception and Memory \<https://neurosciencenews.com/how-the-brain-selects-between-perception-and-memory/>\>
+[19] How the Brain Selects Between Perception and Memory \<<https://neurosciencenews.com/how-the-brain-selects-between-perception-and-memory/>\>>
 
-[20] Learning and Memory (Section 4, Chapter 7) Neuroscience ... \<https://nba.uth.tmc.edu/neuroscience/m/s4/chapter07.html>\>
+[20] Learning and Memory (Section 4, Chapter 7) Neuroscience ... \<<https://nba.uth.tmc.edu/neuroscience/m/s4/chapter07.html>\>>
 
 This is a fantastic question, Leon—you're touching on the core of what learning really is and why it sometimes feels paradoxical.
 

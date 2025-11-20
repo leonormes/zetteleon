@@ -30,6 +30,7 @@ The underlying problem is **not capture or architecture**—those are sound. The
 
 **Question:**  
 How can I design or improve my Obsidian-based PKM system so that:  
+
 1. I can quickly find and trust my latest thinking on a topic?  
 2. I consolidate and evolve ideas instead of duplicating them?  
 3. I integrate multiple LLM responses into a coherent knowledge base that supports deeper thinking rather than repetition?
@@ -43,6 +44,7 @@ Here’s the refined **Problem → Constraints → Desired Outcome** format for 
 ## **Prompt:**
 **Problem:**  
 I use Obsidian to capture my thoughts, learning, and insights, but I struggle with cognitive friction when rediscovering and reusing ideas. This results in:  
+
 - Multiple similar notes without clarity on which reflects my latest thinking.  
 - Lack of trust in existing notes, leading to creating new ones instead of refining old ones.  
 - Scattered LLM responses to the same question, which I rarely revisit or integrate.  
@@ -53,6 +55,7 @@ The core issue is **trust and workflow**, not capture or architecture. I need a 
 ---
 
 **Constraints:**  
+
 - The system must work within Obsidian (Markdown-based, local-first).  
 - It should support integration of multiple LLM responses without overwhelming me.  
 - It must reduce friction in finding and consolidating previous thinking.  
@@ -62,6 +65,7 @@ The core issue is **trust and workflow**, not capture or architecture. I need a 
 
 **Desired Outcome:**  
 Design a workflow or system that:  
+
 1. Makes it easy to find and trust my latest thinking on any topic.  
 2. Encourages consolidation and evolution of ideas instead of duplication.  
 3. Integrates multiple LLM responses into a coherent, usable knowledge base.  
@@ -75,6 +79,7 @@ Design a workflow or system that:
 
 **Context:**  
 I use Obsidian for personal knowledge management. My architecture for capturing notes is sound, but I struggle with trust and workflow. Specifically:  
+
 - I create many similar notes and don’t know which reflects my latest thinking.  
 - I don’t trust existing notes, so I create new ones instead of refining old ones.  
 - I have multiple LLM responses to the same question scattered across notes, which I rarely revisit or integrate.  
@@ -82,17 +87,20 @@ I use Obsidian for personal knowledge management. My architecture for capturing 
 
 **Goal:**  
 Help me design habits, workflows, and trust mechanisms that:  
+
 1. Make it easy to find and trust my latest thinking.  
 2. Encourage consolidation and evolution of ideas instead of duplication.  
 3. Integrate multiple LLM responses into coherent knowledge.  
 4. Reduce cognitive friction and support deeper thinking.  
 
 **Constraints:**  
+
 - Must work within Obsidian (Markdown-based, local-first).  
 - Should preserve flexibility for creative thought.  
 - Avoid rigid or overly complex systems that increase friction.  
 
 **Instructions for the LLM:**  
+
 - Analyze why trust breaks down in PKM systems and propose strategies to rebuild it.  
 - Suggest practical workflows for revisiting and consolidating notes.  
 - Recommend methods for integrating multiple LLM outputs without overwhelming me.  
@@ -113,12 +121,14 @@ Below is a **copy‑pasteable “System Design Prompt”** you can give to an LL
 You are an expert PKM systems engineer specialized in Obsidian, ADHD‑friendly workflow design, and software‑engineering style rigor (versioning, tests, CI). You will design a **trust‑first**, **low‑friction**, **local‑first** system that makes it easy to **find and trust the latest thinking**, consolidate ideas, and integrate LLM outputs without creating “note loops.”
 
 ### 1) Context
+
 - I use Obsidian to capture learning and thinking. Architecture is OK; the problems are **trust and workflow**.  
 - Symptoms: lots of similar notes, uncertain which is “latest,” scattered LLM outputs, repeated thinking instead of extension (Collector’s Fallacy).  
 - I want the system to **default to consolidation** (engage with existing notes) rather than duplication.  
 - My background: software engineer; TDD mindset; strong TypeScript; I work across AWS/Azure/Kubernetes; ADHD—so **friction budget** matters.
 
 ### 2) Constraints & Preferences
+
 - **Must** work in Obsidian, Markdown, local‑first, cross‑platform.  
 - Minimal cognitive overhead; ADHD‑friendly (fast capture, structured consolidation when energy allows, small rituals).  
 - Privacy‑respecting LLM workflow (summaries and merges happen locally when possible; if cloud LLMs are used, include a privacy note).  
@@ -126,6 +136,7 @@ You are an expert PKM systems engineer specialized in Obsidian, ADHD‑friendly 
 - I already have many notes; include **migration & cleanup** steps.
 
 ### 3) Success Criteria (make These measurable)
+
 - I can retrieve my **“latest thinking”** for any topic in **≤30 seconds** via a reliable query/command.  
 - Each topic has **exactly one Canonical Note** (single source of truth), with visible **last_reviewed** and **trust_score**.  
 - New LLM output is **integrated or linked**, not duplicated; merges are guided with checklists.  
@@ -137,6 +148,7 @@ You are an expert PKM systems engineer specialized in Obsidian, ADHD‑friendly 
 Produce all items below with **ready‑to‑use snippets** in Markdown:
 
 **A. Architecture**
+
 - **Folder & note types**: `inbox/`, `workbench/`, `canonical/`, `literature/`, `projects/`, `daily/`, `references/`, `archive/`.  
 - **Note types**:  
   - *Capture Note* (fleeting), *Concept Note*, *Canonical Note* (single source of truth), *Decision Record*, *Literature Note*, *LLM Session*, *Project Note*, *Question Note* (open problems).  
@@ -195,6 +207,7 @@ linked_canonical: [ [canonical/k8s-deployment-strategy] ]
 
 **C. Templates (Templater/QuickAdd)**
 Provide templates for:
+
 - **Capture Note** (fast entry; auto‑date; minimal fields).
 - **Canonical Note** (with sections: Summary, Current Position, Evidence, Objections, Open Questions, Changelog).
 - **LLM Session** (records prompt, vault lookups, proposed diff, merge checklist).
@@ -202,6 +215,7 @@ Provide templates for:
 - **Daily Note** (triage queue + “2‑minute consolidation” slot).
 
 **D. Automation & Queries**
+
 - **Dataview** queries to:
   1. List “Latest Thinking” (canonical notes sorted by `last_reviewed desc`).  
   2. Show **unmerged LLM sessions** (`type=llm_session AND !merged_into`).  
@@ -229,6 +243,7 @@ trust_score = sigmoid(
     NaN. opens target canonical, 2) inserts a structured PR‑like block, 3) sets `merged_into`, 4) updates `last_reviewed`.
 
 **E. Workflows (step‑by‑step)**
+
 - **Capture (≤30s)**  
   NaN. `Ctrl/Cmd+N` → *Capture Note* template.  
   NaN. Add `#topic/<slug>`; optional 1‑line claim.  
@@ -246,12 +261,14 @@ trust_score = sigmoid(
   - Open Review dashboard → handle overdue canonical notes; pick 2–3 open questions; log any **Decision Records** created.
 
 **F. Policies & Guardrails**
+
 - **Single Source Rule:** exactly one `canonical/*` per topic slug. If a second is needed, create a **Decision Record** to split/supersede.  
 - **LLM Change Policy:** LLM proposes diffs; humans merge.  
 - **Friction Budget:** capture is always ≤30s; consolidation comes later, guided by queues.  
 - **Exit Criteria for Merge:** evidence cited, objections noted, changelog updated, trust_score recalculated.
 
 **G. Migrations**
+
 - Provide a scriptable checklist to:  
   NaN. Bulk tag by topic,  
   NaN. Identify clusters (by filename similarity and shared links),  
@@ -260,6 +277,7 @@ trust_score = sigmoid(
   NaN. Generate initial Decision Records for conflicts.
 
 **H. KPIs & “Tests” (TDD for PKM)**
+
 - **Findability Test:** Given a topic, the canonical note appears via saved search in ≤3 clicks/≤30s.  
 - **Duplication Test:** Dup risk query count decreases week over week.  
 - **Integration Test:** % of LLM sessions with `merged_into` set ≥ 80%.  
@@ -391,6 +409,7 @@ dv.paragraph("Trust: " + (sigmoid(w.recency*r + w.sources*s + w.decisions*d + w.
 ```
 
 ### 5) Style & Output Requirements
+
 - Output everything in **Markdown** with headings.  
 - Provide the full set of **templates, queries, and snippets** above (fill gaps as needed).  
 - Keep capture flow ultra‑fast; move complexity to consolidation and review.  

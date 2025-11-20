@@ -478,6 +478,7 @@ spec:
 5. Restore with automated resource adjustments
 
 **Advanced features**. K10 provides capabilities not available in open-source tools:
+
 - **Continuous Data Protection**: Near-zero RPO with incremental snapshots
 - **Compliance reporting**: Automated SLA tracking and audit reports
 - **Multi-tenancy**: Namespace-scoped RBAC with self-service restore
@@ -509,6 +510,7 @@ spec:
 | **Best for**           | Getting started, open source shops | Enterprise Kubernetes with budget | Portworx users, zero-RPO needs | Multi-tenant, fast recovery |
 
 **Recommendation by use case**:
+
 - **Small to medium environments**: Start with Velero for cost-effectiveness and simplicity
 - **Enterprise production**: Kasten K10 for comprehensive features and support
 - **Mission-critical, zero-RPO**: Portworx PX-Backup with storage replication
@@ -520,6 +522,7 @@ spec:
 **Backup consistency across providers**. AWS and Azure use different snapshot APIs, storage types, and availability models. **Solution**: Use cloud-agnostic tools (Velero, Kasten K10) with Restic/Kopia for file-level backups that work identically across clouds. Store backups in S3-compatible object storage accessible from both environments. Configure separate VolumeSnapshotLocations for each cloud while using unified BackupStorageLocation for Kubernetes objects.
 
 **Network and data transfer optimization**. Cross-cloud data transfer incurs egress charges ($0.09-0.12/GB) and latency. **Solutions**:
+
 - Enable compression at source (50-70% size reduction)
 - Use incremental backups reducing transfer to changed blocks only
 - Implement deduplication at backup repository level
@@ -528,6 +531,7 @@ spec:
 - Cache frequently restored data in each cloud region
 
 **Storage compatibility issues**. EBS volumes use block storage with specific IOPS characteristics, while Azure Managed Disks have different performance tiers. **Solutions**:
+
 - Use CSI VolumeSnapshot API providing abstraction over cloud specifics
 - Employ Velero with Restic for cloud-agnostic file-level volume backups
 - Test restore performance in target cloud and adjust storage class specifications
@@ -535,6 +539,7 @@ spec:
 - Document storage class transformations in runbooks
 
 **Kubernetes version and API compatibility**. Different managed Kubernetes versions across clouds cause API object incompatibilities. **Solutions**:
+
 - Maintain version parity between source and target clusters (ideally same minor version)
 - Use `kubectl convert` for API version migrations during restore
 - Test backups on matching Kubernetes versions before production migration
@@ -542,6 +547,7 @@ spec:
 - Validate Custom Resource Definitions exist in target cluster before restore
 
 **Resource UID and naming conflicts**. Kubernetes assigns unique UIDs to resources that conflict during cross-cluster restore. **Solutions**:
+
 - Velero automatically strips UIDs and regenerates them during restore
 - Use namespace mapping to avoid conflicts: `--namespace-mappings source:target`
 - Remove cloud-specific annotations and labels before restore
@@ -549,6 +555,7 @@ spec:
 - Update Ingress configurations to match target cloud's ingress controller
 
 **IAM and authentication differences**. AWS uses IAM roles with IRSA (IAM Roles for Service Accounts), while Azure uses Service Principals and Managed Identities. **Solutions**:
+
 - Create separate credential sets for each cloud provider
 - Use Velero's cloud credential plugin architecture for multi-cloud authentication
 - Implement separate BackupStorageLocations with provider-specific credentials
@@ -726,12 +733,14 @@ spec:
 **Storage tier pricing comparison** (per GB/month):
 
 **AWS**:
+
 - S3 Standard: $0.023
 - S3 Standard-IA: $0.0125 (retrieval: $0.01/GB)
 - S3 Glacier Flexible: $0.004 (retrieval: $0.03/GB, 3-5 hours)
 - S3 Glacier Deep Archive: $0.00099 (retrieval: $0.02/GB, 12-48 hours)
 
 **Azure**:
+
 - Blob Hot: $0.0184
 - Blob Cool: $0.01 (retrieval: $0.01/GB)
 - Blob Archive: $0.002 (retrieval: $0.02/GB, 15 hours)
@@ -765,6 +774,7 @@ spec:
    - **Total savings**: 89% reduction
 
 **Cross-region and cross-cloud cost considerations**:
+
 - AWS inter-region data transfer: $0.02/GB
 - AWS egress to internet: $0.09/GB
 - Azure inter-region: $0.02/GB
@@ -834,6 +844,7 @@ resources:
 ```
 
 **Encryption in transit**. Ensure all backup traffic uses TLS 1.2+:
+
 - HTTPS-only for S3/Blob Storage access
 - TLS for etcd client connections
 - VPN or VPC peering for cross-cloud replication
@@ -974,6 +985,7 @@ az storage container immutability-policy create \
 ```
 
 **Benefits of immutability**:
+
 - Ransomware cannot encrypt or delete backups
 - Prevents accidental deletion by administrators
 - Meets compliance requirements (SEC 17a-4, FINRA)
@@ -998,6 +1010,7 @@ az storage container immutability-policy create \
    - If primary compromised, secondary preserves day-old data
 
 **Security implementation checklist**:
+
 - ✅ Encryption at rest (KMS/Key Vault) for all backup storage
 - ✅ Encryption in transit (TLS 1.2+) for all data transfers
 - ✅ IAM/RBAC least privilege for backup service accounts
@@ -1057,6 +1070,7 @@ git-repo/
 ```
 
 **Standard Kubernetes APIs**:
+
 - CSI VolumeSnapshots work across all CSI drivers
 - Standard PV/PVC API abstracts cloud storage
 - Kubernetes-native backup tools use these APIs
@@ -1084,16 +1098,19 @@ curator_cli snapshot ...
 **Multi-tool backup strategy**:
 
 **Primary**: Velero for Kubernetes resources + Restic for volumes
+
 - Open-source, vendor-neutral
 - Portable across all clouds
 - No licensing costs
 
 **Secondary**: Cloud-native for volume snapshots
+
 - AWS EBS snapshots via Velero AWS plugin
 - Azure Managed Disk snapshots via Velero Azure plugin
 - Fast, efficient, but cloud-specific
 
 **Tertiary**: Application-specific for critical databases
+
 - Use native database backup tools
 - Store backups in multiple clouds
 - Truly portable across any infrastructure
@@ -1130,6 +1147,7 @@ velero restore create aws-to-azure \
 ```
 
 **Vendor lock-in prevention checklist**:
+
 - ✅ Backup tool works on multiple clouds
 - ✅ Backup format is open and documented
 - ✅ Storage backend is S3-compatible or cloud-agnostic
@@ -1192,21 +1210,25 @@ EOF
 ```
 
 **Week 2: Deploy Velero with Restic**
+
 - Follow AWS or Azure installation procedures provided earlier
 - Create hourly backup schedule for critical namespaces
 - Test restore to isolated namespace
 
 **Week 3: Enable immutability and encryption**
+
 - Configure S3 Object Lock or Azure Blob immutability
 - Enable KMS encryption for backup storage
 - Implement RBAC restricting backup access
 
 **Month 1: Conduct full DR test**
+
 - Perform complete cluster restore in isolated environment
 - Measure and document RTO/RPO
 - Update runbooks based on findings
 
 **Cost optimization quick wins** (implement immediately):
+
 - Enable compression: 50-70% reduction, no downside
 - Configure lifecycle policies: Automatic tiering saves 60-80%
 - Implement incremental backups: 90%+ storage reduction

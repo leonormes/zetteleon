@@ -22,11 +22,13 @@ updated: 2025-10-31T08:16:00Z
 **What:** Deconstruct a single long-form note into pure atomic facts and a structural map that links them.
 
 **How:**
+
 1. **Phase 1 (Analysis):** Read the source note and identify all discrete, standalone facts and the contextual narrative that connects them.
 2. **Phase 2 (Deduplication):** For each fact, formulate a search query, search existing notes, and determine whether to create a new atomic note or consolidate with an existing one.
 3. **Phase 3 (Generation):** Create new atomic notes using templates, consolidate facts into existing notes when appropriate, and build a single MOC (structural note) that replaces extracted facts with `[[wikilinks]]` to atomic notes.
 
 **Failure modes:**
+
 - Failing to extract genuine atoms (leaving "mini-narratives" in atomic notes)
 - Creating duplicate atomic notes instead of consolidating
 - Losing the original narrative voice in the structural note

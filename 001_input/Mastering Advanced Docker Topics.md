@@ -31,17 +31,17 @@ Here’s a concise breakdown of the key strategies and practical takeaways for a
 ### Resource Management Techniques
 
 - Limit container resources with Docker's runtime flags:
-    - Limit CPU allocation: `--cpus 1` restricts a container to one CPU core.
-    - Limit memory usage: `--memory 10m` restricts the container to 10 megabytes of RAM.
+  - Limit CPU allocation: `--cpus 1` restricts a container to one CPU core.
+  - Limit memory usage: `--memory 10m` restricts the container to 10 megabytes of RAM.
 - Apply restart policies using `--restart=always` to ensure critical containers automatically recover from crashes[^1_1].
 - Use Docker Compose or orchestration tools like Kubernetes for more complex resource controls and scheduling, as Docker Swarm is less commonly used in modern setups[^1_1].
 
 ### Vulnerability Scanning
 
 - Integrate security scanning in your CI workflow by using tools like Trivy or Docker Scout to scan container images for vulnerabilities:
-    - Example usage: `trivy image <image_name>`
-    - Review scan results and address any medium or high vulnerabilities before production deployment[^1_1].
-    - This can be automated in Jenkins pipelines to ensure every build is checked[^1_1].
+  - Example usage: `trivy image <image_name>`
+  - Review scan results and address any medium or high vulnerabilities before production deployment[^1_1].
+  - This can be automated in Jenkins pipelines to ensure every build is checked[^1_1].
 
 ### Action Items (with code/shell examples)
 

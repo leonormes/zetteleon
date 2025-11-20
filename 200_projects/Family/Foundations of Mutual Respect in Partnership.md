@@ -31,9 +31,9 @@ The Invalidation Stalemate is the central difficulty the sources identify, concl
 
 The stalemate operates by treating two different realities as equivalent in a 1-1 vote, which the partner experiencing distress usually loses.
 
-1.  **The Standard Loop:** The cycle begins when the distressed partner (H) states a problem as a feeling (e.g., "I feel stressed when I see the mess"). The other partner (W) then counters by stating her opposing feeling as an objective fact (e.g., "Well, *I feel* it's *not* a problem").
-2.  **The Resulting Stalemate:** This leads to a "stalemate of realities" where the feeling of distress is cancelled by the feeling of neutrality. Because there is no shared definition of the problem, no action is taken, and the distressed partner's concern is deemed invalid and unimportant.
-3.  **Real-World Examples:** This pattern manifests clearly in conflicts like the "Chores" and the "Lamp" incident. In the chores conflict, the distressed partner feels their optimal solution (teaching children long-term responsibility via a *system*) is ignored in favour of the partner's need for an immediate *task* (relieving short-term stress). In the "Lamp" incident, a simple conflict of needs (glare vs. light) instantly became a "You vs. Me" zero-sum battle where one person had to win and the other had to lose, rather than an "Us vs. The Problem" collaboration.
+1. **The Standard Loop:** The cycle begins when the distressed partner (H) states a problem as a feeling (e.g., "I feel stressed when I see the mess"). The other partner (W) then counters by stating her opposing feeling as an objective fact (e.g., "Well, *I feel* it's *not* a problem").
+2. **The Resulting Stalemate:** This leads to a "stalemate of realities" where the feeling of distress is cancelled by the feeling of neutrality. Because there is no shared definition of the problem, no action is taken, and the distressed partner's concern is deemed invalid and unimportant.
+3. **Real-World Examples:** This pattern manifests clearly in conflicts like the "Chores" and the "Lamp" incident. In the chores conflict, the distressed partner feels their optimal solution (teaching children long-term responsibility via a *system*) is ignored in favour of the partner's need for an immediate *task* (relieving short-term stress). In the "Lamp" incident, a simple conflict of needs (glare vs. light) instantly became a "You vs. Me" zero-sum battle where one person had to win and the other had to lose, rather than an "Us vs. The Problem" collaboration.
 
 ## Breaking the Stalemate: Redefining Mutual Respect
 
@@ -47,8 +47,8 @@ To make the subjective reality inarguable, the distressed partner must stop stat
 
 When faced with the "Checkmate" response—where the partner claims their feeling of neutrality is being ignored—the solution is to differentiate between the *types* of feelings. The core principle developed is: **Distress Overrules Neutrality**.
 
--   **Distress is a "Red Light":** The feeling of distress, stress, or friction is an active state requiring attention.
--   **Neutrality is a "No Light":** The feeling that the situation is "not a problem" is a passive state, the *absence* of a problem for that partner.
+- **Distress is a "Red Light":** The feeling of distress, stress, or friction is an active state requiring attention.
+- **Neutrality is a "No Light":** The feeling that the situation is "not a problem" is a passive state, the *absence* of a problem for that partner.
 
 In a partnership, the team's job is not to debate if the "red light" *should* be on, but to stop and **address the distress**. Therefore, the partner's feeling of neutrality does not solve or cancel out the other partner's feeling of distress.
 
@@ -62,9 +62,9 @@ The essential question to establish this foundation of respect is: "Can you agre
 
 The Invalidation Stalemate is often protected by other conversational loops that prevent respectful collaboration.
 
--   **The "You Do It Too" Deflection:** When the distressed partner tries to name a dynamic, the deflection ("You do it to me!") successfully derails the conversation by changing the subject to a counter-accusation, ensuring the original point about respect is never addressed. The suggested antidote is to Acknowledge the counter-point, Park the new topic for later, and Re-focus firmly on the original point.
--   **The "Reset Button":** Even when agreements are reached, they are often forgotten, and the partner reverts to their "stock argument". This occurs because the initial agreement was likely a **concession** made to end the conflict, not genuine **buy-in** to a solution that addressed the partner's underlying need. This lack of genuine buy-in undermines the mutual commitment necessary for respect.
--   **The "Silent Void":** Consistent silence or failure to initiate follow-ups communicates that "This issue is YOUR problem, not OUR problem," proving that the partner is not carrying the emotional mental load necessary for mutual maintenance of the relationship's health. This active dismissal through absence shows that the partner's concerns are not carrying enough weight to remain in the other's mental space.
+- **The "You Do It Too" Deflection:** When the distressed partner tries to name a dynamic, the deflection ("You do it to me!") successfully derails the conversation by changing the subject to a counter-accusation, ensuring the original point about respect is never addressed. The suggested antidote is to Acknowledge the counter-point, Park the new topic for later, and Re-focus firmly on the original point.
+- **The "Reset Button":** Even when agreements are reached, they are often forgotten, and the partner reverts to their "stock argument". This occurs because the initial agreement was likely a **concession** made to end the conflict, not genuine **buy-in** to a solution that addressed the partner's underlying need. This lack of genuine buy-in undermines the mutual commitment necessary for respect.
+- **The "Silent Void":** Consistent silence or failure to initiate follow-ups communicates that "This issue is YOUR problem, not OUR problem," proving that the partner is not carrying the emotional mental load necessary for mutual maintenance of the relationship's health. This active dismissal through absence shows that the partner's concerns are not carrying enough weight to remain in the other's mental space.
 
 The solution to the "Reset Button" loop is to create a written **"Team Playbook"** of agreed principles, ensuring mutual accountability and making the hard-won peace tangible, thereby proving that both partners respect the progress they have made.
 

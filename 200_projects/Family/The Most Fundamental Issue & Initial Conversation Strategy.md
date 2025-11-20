@@ -47,6 +47,7 @@ The breakthrough insight from your files: **She doesn't have to share your feeli
 What I've realized is that sometimes our good intentions have impacts we don't mean to cause. There's a gap between 'what we mean' and 'how it lands.' That's what I want to explore—not to blame, but to close that gap together."
 
 **Why this works:**
+
 - Validates her identity as a "nice person"
 - Pre-empts the "you're calling me disrespectful!" defence
 - Frames it as "Intent vs. Impact" (collaborative) not "Right vs. Wrong" (adversarial)

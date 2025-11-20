@@ -22,10 +22,12 @@ I have ADHD. I love to learn new things and to dive deep into topics. I also use
 The key to managing ADHD while using LLMs for deep learning and thinking is to find a balance where you harness the strengths of LLMs for note structuring, idea exploration, and brainstorming, without letting the volume of content overwhelm your clarity and personal insight. Here are a few evidence-based strategies and practical tips that can help achieve this balance, especially when using Obsidian PKM in a Zettelkasten style:
 
 ## Addressing Information Overload and ADHD
+
 - ADHD brains are prone to overwhelm from excessive information and repetitive content, which can cause mental exhaustion or paralysis in decision-making. Regular breaks and limiting the intake of new information are important [1][2][3].
 - Setting limits on saved content and repeatedly reviewing for relevance promotes focus, preventing accumulation of unused notes [4].
 
 ## Productive Use of LLMs for ADHD
+
 - Use LLMs intentionally as a virtual assistant to help organize, summarize, and clarify ideas rather than generate extensive content blindly. For example:
   - Request outlines and succinct summaries.
   - Ask probing, reflective questions to deepen understanding instead of expanding content endlessly [5][6].
@@ -33,17 +35,20 @@ The key to managing ADHD while using LLMs for deep learning and thinking is to f
 - Combine LLM output with your own thinking by reviewing, refining, and distilling ideas to a clear "thread" or perspective manually [7].
 
 ## Optimizing Your Workflow in Obsidian PKM
+
 - Use a Zettelkasten method to keep notes atomic and interlinked, avoiding long, sprawling documents.
 - Periodically curate and prune notes to maintain signal over noise.
 - Use tags and links to maintain a clear narrative path connecting ideas.
 - Capture immediate insights in short summaries and keep longer elaborations in separate linked notes if necessary [8].
 
 ## Balancing Self-Thinking and LLM Assistance
+
 - Set engagement rules: for example, spend a set time in self-reflection or simple note-taking before using LLMs.
 - Use LLMs as a sounding board—not a crutch—to challenge your assumptions and clarify thinking through guided questions, not just answers [9].
 - Develop a habit of summarizing your learning in your own words after a session using the LLM, to regain clarity and consolidate understanding.
 
 ## Practical Tips Summary
+
 - Limit and filter information intake actively.
 - Use breaks to avoid cognitive overload.
 - Turn LLM outputs into structured, atomic notes.
@@ -105,38 +110,45 @@ Here is a productive balance structured as a workflow, designed specifically for
 
 1. The 'Human -> LLM -> Human' Sandwich
 This is the most critical tactical change. Never start with the LLM. Never end with the LLM.
- - Human (The Seed): Start in Obsidian. Write your own, messy, unstructured "flesh note" or "daily note" entry. What do you think you think? What's your question? Brain-dump your own thoughts first. This is your raw material.
- - LLM (The Refiner): Copy your messy note into the LLM. Do not ask open-ended questions like "Elaborate on this." Use specific, convergent commands:
-   - "Summarise my thoughts here into three bullet points."
-   - "Rephrase this paragraph as a clear, single-sentence argument."
-   - "What is the core assumption I am making in this text?"
-   - "Give me one strong counter-argument to my idea."
-   - "Structure this brain-dump into a logical outline."
- - Human (The Zettel): Take the LLM's output. Do not copy-paste it. This is the crucial step. Read the LLM's refinement, close it, and then manually re-write the core idea in your own words as a new, atomic, permanent note in your Zettelkasten. This manual act of processing and re-writing is the thinking and learning. The LLM's output is disposable; your new Zettel is permanent.
+
+- Human (The Seed): Start in Obsidian. Write your own, messy, unstructured "flesh note" or "daily note" entry. What do you think you think? What's your question? Brain-dump your own thoughts first. This is your raw material.
+- LLM (The Refiner): Copy your messy note into the LLM. Do not ask open-ended questions like "Elaborate on this." Use specific, convergent commands:
+  - "Summarise my thoughts here into three bullet points."
+  - "Rephrase this paragraph as a clear, single-sentence argument."
+  - "What is the core assumption I am making in this text?"
+  - "Give me one strong counter-argument to my idea."
+  - "Structure this brain-dump into a logical outline."
+- Human (The Zettel): Take the LLM's output. Do not copy-paste it. This is the crucial step. Read the LLM's refinement, close it, and then manually re-write the core idea in your own words as a new, atomic, permanent note in your Zettelkasten. This manual act of processing and re-writing is the thinking and learning. The LLM's output is disposable; your new Zettel is permanent.
+
 2. Shift from Divergent to Convergent Prompting
 Your problem is that you use the LLM to expand, which creates more content and noise. You need to use it to condense and synthesise.
 Stop Asking:
- - "Tell me more about..."
- - "Elaborate on..."
- - "What are all the ideas related to..."
+
+- "Tell me more about..."
+- "Elaborate on..."
+- "What are all the ideas related to..."
 Start Asking:
- - "Here are three notes I've taken. Synthesise these into a single, core concept."
- - "What is the single, essential thread connecting these different ideas?"
- - "I have 2000 words of notes here. Distil this down to a 100-word summary."
- - "Find the contradiction or point of tension between these two paragraphs."
- - "This idea is too complex. Explain it to me in the simplest possible terms (the 'Feynman Technique')."
+- "Here are three notes I've taken. Synthesise these into a single, core concept."
+- "What is the single, essential thread connecting these different ideas?"
+- "I have 2000 words of notes here. Distil this down to a 100-word summary."
+- "Find the contradiction or point of tension between these two paragraphs."
+- "This idea is too complex. Explain it to me in the simplest possible terms (the 'Feynman Technique')."
 By using different models, you are just getting more divergence. Instead, feed the outputs of different models into one prompt and ask it to find the consensus or synthesis.
+
 3. Define the 'Container' Before You Start
 ADHD thrives on structure and boundaries (even if it resists them). The "blank canvas" of an LLM chat is your enemy.
 Before you start a session, define your output container in Obsidian.
- - Wrong way: "I'm going to learn about quantum physics." -> Leads to 50 browser tabs and 10,000 words of chat logs.
- - Right way: "I am going to create one new Zettelkasten note titled 'Quantum Entanglement Definition for a Layperson'. It must be under 100 words and connect to my existing note on 'Classical Physics'."
+
+- Wrong way: "I'm going to learn about quantum physics." -> Leads to 50 browser tabs and 10,000 words of chat logs.
+- Right way: "I am going to create one new Zettelkasten note titled 'Quantum Entanglement Definition for a Layperson'. It must be under 100 words and connect to my existing note on 'Classical Physics'."
 This gives you a clear, finite goal. You are not "learning about quantum physics"; you are "filling one small box." The LLM is just the tool you use to help you fill that specific box.
+
 4. Use the LLM to Build Your MOC
 After a session, you have a scattering of new atomic notes (Zettels). This is where you lose the "clear simple thread."
 Your next step is to create a Map of Content (MOC) in Obsidian. This MOC is the clear perspective you were looking for.
 Use the LLM for this specific synthesis task:
- - Prompt: "Here are the titles (or full text) of 5-10 new notes I just created. [Paste them]. Suggest 3-5 logical categories or cluster headings to organise these ideas. What is the overarching theme or 'story' that connects them?"
+
+- Prompt: "Here are the titles (or full text) of 5-10 new notes I just created. [Paste them]. Suggest 3-5 logical categories or cluster headings to organise these ideas. What is the overarching theme or 'story' that connects them?"
 You then use this output to manually build your MOC, linking to your new notes. The LLM doesn't do the thinking; it acts as a structural consultant to help you visualise the connections your brain has already made.
 Summary: Your New Balanced Role
 

@@ -148,20 +148,24 @@ You’re noticing a tension:
 Philosophy, cognitive science, and complexity theory all grapple with this. Here are a few lenses that can help reconcile it without forcing a neat hierarchy.
 
 ### 1) Systems Thinking Itself is Meta
+
 - It’s not “what the system is made of” but “how parts relate.” It emphasizes feedback loops, constraints, and organization.  
 - Underpinning idea: organization can matter more than components. Same parts, different organization → different behavior.
 
 ### 2) Emergence is Real and Non-mystical
+
 - Weak emergence: macro-patterns arise from micro-rules but aren’t easily predictable from them (e.g., flocking from simple rules).  
 - Strong emergence (controversial): macro-properties aren’t reducible in principle.  
 - In practice, we use middle-out models: choose a level where patterns stabilize (e.g., controllers and reconciliation in k8s; aggregates and invariants in DDD). That’s where understanding “cashes out.”
 
 ### 3) Bootstrapping Knowledge: Predictive Brains, not Foundations
+
 - Predictive processing: brains generate models that predict sensory input; errors update the model. Knowledge “emerges” from iterative prediction-error minimization, not from axioms.  
 - Bayesian updating: beliefs are priors revised by evidence; there’s no ground-zero—just progressive refinement.  
 - Embodied cognition: concepts are grounded in action and perception; understanding is enacted, not just represented.
 
 ### 4) Why Hierarchies help—but aren’t the Whole Story
+
 - Hierarchies compress complexity and aid recall (great for ADHD working memory).  
 - But real domains are heterarchical/graph-structured: multiple overlapping facets, cycles, cross-cuts.  
 - Faceted classification and knowledge graphs acknowledge this: local hierarchies connected in a broader network.
@@ -174,6 +178,7 @@ truths
 - Invariance-based explanations: what’s stable under many interventions (e.g., conservation laws; domain invariants) is the “deep structure” worth learning.
 
 ### 6) A Practical Synthesis for Your Style
+
 - Start middle-out: pick a level where constraints and invariants are legible.  
 - Encode invariants explicitly: in types, schemas, state machines.  
 - Keep dual maps:  

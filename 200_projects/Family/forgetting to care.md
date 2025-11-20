@@ -157,6 +157,7 @@ Then break it down:
 "Yes, we BOTH contribute to our relationship issues - that's not what I'm saying. What I'm saying is:
 
 **When a problem exists between us:**
+
 - I think about it between our conversations
 - I research approaches
 - I bring solutions
@@ -165,6 +166,7 @@ Then break it down:
 - I initiate conversations about how to fix it
 
 **You:**
+
 - Wait for me to bring it up
 - Respond in the moment
 - Then forget about it completely
@@ -398,12 +400,14 @@ So tell me: what would make it easier for you to engage with relationship issues
 **"Here's what I think mutual respect looks like:
 
 **For you to feel respected:**
+
 - I listen to your suggestions seriously
 - I don't dismiss your perspective
 - I actually try the things you think would help
 - I acknowledge when you're right
 
 **For me to feel respected:**
+
 - You think about what I share with you
 - You follow up on things that matter to me
 - You initiate conversations about our relationship health
@@ -420,6 +424,7 @@ So can we try to build something that works for both of us? Not 'I win, you lose
 But here's where you need to be honest with yourself:
 
 **If she responds to this with:**
+
 - Genuine engagement: "Okay, yes, let me think about what I need..."
 - Specific feedback: "When you do X, it makes me shut down..."
 - Willingness to try: "The monthly dinner with commitments could work..."
@@ -427,6 +432,7 @@ But here's where you need to be honest with yourself:
 → There's hope
 
 **If she responds with:**
+
 - More deflection: "You're still blaming me..."
 - Vagueness: "I don't know what you want..."
 - Refusal: "This is too complicated..."

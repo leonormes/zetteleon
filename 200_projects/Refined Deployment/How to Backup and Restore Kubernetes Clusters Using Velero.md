@@ -22,33 +22,34 @@ updated:
 - **About Velero:**
 Velero (formerly Heptio Ark) is an open-source tool for backing up, restoring, and migrating Kubernetes clusters and resources. It works via Kubernetes Custom Resource Definitions and a controller that manages backups and restores.
 - **Why Use Velero?**
-    - **Improved Testability:** Enables point-in-time restores for isolated testing environments.
-    - **Reduced Downtime:** Rapid recovery from deletion, misconfig, or security incidents.
-    - **Granular Control:** Back up whole clusters or specific namespaces/CRDs for targeted recovery.
-    - **Compliance:** Provides auditable backup logs and retention policies.
-    - **Disaster Recovery:** Supports cloud and on-prem storage, allowing cluster restores in a new environment.
+  - **Improved Testability:** Enables point-in-time restores for isolated testing environments.
+  - **Reduced Downtime:** Rapid recovery from deletion, misconfig, or security incidents.
+  - **Granular Control:** Back up whole clusters or specific namespaces/CRDs for targeted recovery.
+  - **Compliance:** Provides auditable backup logs and retention policies.
+  - **Disaster Recovery:** Supports cloud and on-prem storage, allowing cluster restores in a new environment.
 - **Workflow:**
-    - Velero creates .tar backup files and stores them with your chosen cloud provider (e.g. AWS S3).
-    - Restoration pulls these files into the target Kubernetes cluster and re-applies resources.
+  - Velero creates .tar backup files and stores them with your chosen cloud provider (e.g. AWS S3).
+  - Restoration pulls these files into the target Kubernetes cluster and re-applies resources.
 - **Prerequisites \& Installation:**
-    - Install Velero CLI from its GitHub release for your platform.
-        - Linux: Download tarball and move binary to `/usr/local/bin`
-        - macOS: Use `brew install velero`
-    - Configure AWS S3 credentials for storage.
+  - Install Velero CLI from its GitHub release for your platform.
+    - Linux: Download tarball and move binary to `/usr/local/bin`
+    - macOS: Use `brew install velero`
+  - Configure AWS S3 credentials for storage.
 - **Configuration Steps:**
 
 1. Create directory for Velero and credentials file containing AWS S3 access keys.
 2. Install Velero client specifying provider (e.g. AWS), plugin, bucket, region, and credentials file.
+
 - **Backup:**
-    - Basic backup with `velero backup create k8s-backup`
-    - Namespace-specific: `velero backup create --include-namespaces <namespace>`
-    - Describe/check backups: `velero backup describe`
+  - Basic backup with `velero backup create k8s-backup`
+  - Namespace-specific: `velero backup create --include-namespaces <namespace>`
+  - Describe/check backups: `velero backup describe`
 - **Restore:**
-    - Restore backup: `velero restore create --from-backup <backup-name>`
-    - Include PVCs: Use `--csi-snapshot-timeout` flag during backup for persistent volumes.
+  - Restore backup: `velero restore create --from-backup <backup-name>`
+  - Include PVCs: Use `--csi-snapshot-timeout` flag during backup for persistent volumes.
 - **Further Resources:**
-    - Refer to the [official Velero documentation](https://velero.io/docs/v1.8/) for advanced operations.
-    - Join the community on Discord for questions and discussions.
+  - Refer to the [official Velero documentation](https://velero.io/docs/v1.8/) for advanced operations.
+  - Join the community on Discord for questions and discussions.
 
 **Key Takeaway:**
 Velero offers a robust, flexible solution for Kubernetes backup and restore, emphasizing ease of disaster recovery, compliance, and operational agility—ideal for both testing and production clusters.
@@ -74,7 +75,7 @@ Create an ADHD Friendly Task List for Setting up Velero in My Azure Aks Cluster 
 
 - [ ] Download and install the latest Velero CLI
 - [ ] Prepare a Velero Azure credentials file:
-    - [ ] Enter your subscription ID, tenant ID, client ID, client secret, resource group, storage account, and blob container name
+  - [ ] Enter your subscription ID, tenant ID, client ID, client secret, resource group, storage account, and blob container name
 
 **Install Velero on AKS (Run in Terminal):**
 

@@ -52,7 +52,7 @@ This is an enhanced and more robust version of your Evolutionary Note System pro
     - Likely duplicates (similar titles/aliases, high semantic overlap).
     - Notes that reference any related, known SoTs.
     - Notes flagged with `status: needs-integration` or `status: under-review`.
-        
+
 3. **SoT Triage:** Identify any existing SoT note for the topic (prefers notes ending with “SoT” or having `type: SoT`).
     - If found, it is the **Canonical SoT**; treat gathered notes as inputs.
     - If not found, create a new one.

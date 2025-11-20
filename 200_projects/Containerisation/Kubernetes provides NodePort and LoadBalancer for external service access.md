@@ -25,6 +25,7 @@ Kubernetes enables external access to cluster services through NodePort and Load
 ## Details
 
 ### NodePort Service
+
 - **Static Port Allocation**: Exposes service on same static port on every node
 - **Traffic Forwarding**: Any traffic sent to the node's IP on the specified port is forwarded to the service
 - **Port Range**: Typically uses ports 30000-32767
@@ -32,6 +33,7 @@ Kubernetes enables external access to cluster services through NodePort and Load
 - **Limitation**: Requires knowing node IP addresses, not suitable for production alone
 
 ### LoadBalancer Service
+
 - **Cloud Integration**: Provisions external load balancer in underlying cloud environment
 - **Stable External IP**: Provides dedicated external IP address that routes to the service
 - **Automatic Scaling**: Load balancer handles traffic distribution across multiple nodes
@@ -41,12 +43,14 @@ Kubernetes enables external access to cluster services through NodePort and Load
 ## Service Type Selection
 
 **Choose NodePort when:**
+
 - Development or testing environments
 - Simple external access needed
 - Cloud load balancer not available or required
 - Direct node access is acceptable
 
 **Choose LoadBalancer when:**
+
 - Production workloads
 - High availability required
 - Automatic failover needed

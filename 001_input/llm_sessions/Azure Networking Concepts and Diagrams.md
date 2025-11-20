@@ -268,8 +268,8 @@ Your mental model is **mostly correct**, and it’s a strong way to understand n
 - **Box on a diagram**: Represents a *logical boundary* —typically an address range or a subnet (e.g., a VNet, VPC, or physical LAN segment). Putting resources inside a box visually groups those with IPs drawn from that range.
 - **Being ‘inside’ the network**: Technically means their IP addresses are within the subnet or VNet’s configured address range (e.g., 192.168.45.64/28).
 - **Connectivity**: Those resources can “find” and connect to each other because:
-	- Their IPs are routable within that defined range.
-	- The network platform (Azure, AWS, on-prem) provides default routing between all IPs assigned to the same subnet or VNet.
+ 	- Their IPs are routable within that defined range.
+ 	- The network platform (Azure, AWS, on-prem) provides default routing between all IPs assigned to the same subnet or VNet.
 - **No physical wall**: The box is abstraction. It’s the shared address space and underlying routing logic that enables communication. The “wall” is just a visual for the audience.
 
 ### Example
@@ -320,24 +320,24 @@ At the **packet level (OSI Layer 3 – Network Layer)**, here’s how a packet i
 ### How it Works
 
 1. **Packet Origination (Layer 3)**
-	- A resource (VM, container, service) builds a packet with destination IP, source IP, and other headers.
-	- The resource’s NIC hands the packet to the virtual network stack.
+ - A resource (VM, container, service) builds a packet with destination IP, source IP, and other headers.
+ - The resource’s NIC hands the packet to the virtual network stack.
 2. **Subnet & Route Table Check**
-	- Azure (or your cloud/network SDN) intercepts the packet as it leaves the originating subnet.
-	- The platform consults the **route table associated with the source subnet** to determine how to forward the packet.
+ - Azure (or your cloud/network SDN) intercepts the packet as it leaves the originating subnet.
+ - The platform consults the **route table associated with the source subnet** to determine how to forward the packet.
 3. **Route Lookup**
-	- OSI Layer 3 (Network layer) routing logic examines the packet’s destination IP.
-	- The route table is a prioritized list (most-specific prefix first). Azure matches the packet’s destination against these routes.
-	- The first match (e.g., local subnet, VNet, peered VNet, internet/NAT gateway, virtual appliance, etc.) determines the *next hop* for the packet.
+ - OSI Layer 3 (Network layer) routing logic examines the packet’s destination IP.
+ - The route table is a prioritized list (most-specific prefix first). Azure matches the packet’s destination against these routes.
+ - The first match (e.g., local subnet, VNet, peered VNet, internet/NAT gateway, virtual appliance, etc.) determines the *next hop* for the packet.
 4. **Forwarding Decision**
-	- The SDN forwards the packet—this may be to:
-		- Another VM in the same subnet (direct switch/routing)
-		- Another subnet (internal routing/fabric)
-		- On-premises via VPN gateway/ExpressRoute
-		- Internet (via NAT gateway, load balancer, or public IP)
-		- Custom next-hop, such as a virtual appliance (NGFW, etc.)
+ - The SDN forwards the packet—this may be to:
+  - Another VM in the same subnet (direct switch/routing)
+  - Another subnet (internal routing/fabric)
+  - On-premises via VPN gateway/ExpressRoute
+  - Internet (via NAT gateway, load balancer, or public IP)
+  - Custom next-hop, such as a virtual appliance (NGFW, etc.)
 5. **Data Link & Physical Layers**
-	- Beneath this, the cloud wraps the Layer 3 packet in Layer 2 frames, then uses underlying (virtual) physical infrastructure.
+ - Beneath this, the cloud wraps the Layer 3 packet in Layer 2 frames, then uses underlying (virtual) physical infrastructure.
 
 ---
 

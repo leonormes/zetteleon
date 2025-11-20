@@ -36,11 +36,11 @@ This is the most critical tactical change. **Never** start with the LLM. **Never
 
 1. **Human (The Seed):** Start in Obsidian. Write your own, messy, unstructured "flesh note" or "daily note" entry. What do you *think* you think? What's your question? Brain-dump your own thoughts *first*. This is your raw material.
 2. **LLM (The Refiner):** Copy your messy note into the LLM. **Do not ask open-ended questions** like "Elaborate on this." Use specific, *convergent* commands:
-	- "Summarise my thoughts here into three bullet points."
-	- "Rephrase this paragraph as a clear, single-sentence argument."
-	- "What is the core assumption I am making in this text?"
-	- "Give me one strong counter-argument to my idea."
-	- "Structure this brain-dump into a logical outline."
+ - "Summarise my thoughts here into three bullet points."
+ - "Rephrase this paragraph as a clear, single-sentence argument."
+ - "What is the core assumption I am making in this text?"
+ - "Give me one strong counter-argument to my idea."
+ - "Structure this brain-dump into a logical outline."
 3. **Human (The Zettel):** Take the LLM's output. **Do not copy-paste it.** This is the crucial step. Read the LLM's refinement, close it, and then *manually re-write the core idea in your own words* as a new, atomic, permanent note in your Zettelkasten. This manual act of processing and re-writing *is* the thinking and learning. The LLM's output is disposable; your new Zettel is permanent.
 
 ## 2\. Shift from Divergent to Convergent Prompting
@@ -154,10 +154,10 @@ Your goal is "think like a man of action." This means your thinking should be de
 "Act like a man of thought" means your actions should be intentional, purposeful, and considered. But this *doesn't* mean they have to be huge. A thoughtful action can be very small.
 
 - **Mindful Step:** Identify the **Minimum Viable Action (MVA)**. This is the absolute smallest, physical, concrete thing you can do to move forward.
-	- *Not:* "Learn about nutrition."
-	- *Is:* "Write 'Buy one book on nutrition' on the shopping list."
-	- *Not:* "Reorganise my Zettelkasten."
-	- *Is:* "Find one new note and add one link to an existing MOC."
+ 	- *Not:* "Learn about nutrition."
+ 	- *Is:* "Write 'Buy one book on nutrition' on the shopping list."
+ 	- *Not:* "Reorganise my Zettelkasten."
+ 	- *Is:* "Find one new note and add one link to an existing MOC."
 - **Why it works:** This breaks the inertia. Your 'thinking brain' can easily justify a tiny, thoughtful action, which gets your 'acting brain' engaged.
 
 ## 3\. Use 'Time-Bound' Containers
@@ -172,9 +172,9 @@ This is a practical boundary for your thinking.
 This is the most powerful shift. Instead of thinking to find the *perfect* action, take a *good-enough* action and then think about the *result*.
 
 - **Mindful Step:** Take your best guess at an action. Do it. Then, open a note in Obsidian and "think" about what happened.
-	- "I tried \[the action\]. Here's what the outcome was."
-	- "What did I learn from doing that?"
-	- "What is the *next* MVA based on this new, real-world information?"
+ 	- "I tried \[the action\]. Here's what the outcome was."
+ 	- "What did I learn from doing that?"
+ 	- "What is the *next* MVA based on this new, real-world information?"
 - **Why it works:** This harnesses your love of thinking and analysis in a *productive* way. You are no longer thinking about abstract theory; you are thinking about concrete data *you just generated*. This is how "acting like a man of thought" truly functions—you are reflecting on your own actions to make the next one wiser.
 
 Give me an example of doing this "What is the single, specific action this thinking is supposed to lead to?" For this chat
@@ -200,14 +200,14 @@ Now, I pause and ask myself:
 My brain's first answers might be traps. I must filter them:
 
 - **Trap Answer 1:** "The action is to *really* understand the 'Collector's Fallacy'."
-	- *Result:* I open a new tab and start Googling, collecting more information.
-	- *Verdict:* This is not an action; it's **more thinking**.
+ 	- *Result:* I open a new tab and start Googling, collecting more information.
+ 	- *Verdict:* This is not an action; it's **more thinking**.
 - **Trap Answer 2:** "The action is to *re-design my entire Zettelkasten* around this new idea."
-	- *Result:* I spend 4 hours creating new MOCs and tags, feel overwhelmed, and don't finish.
-	- *Verdict:* This is not a *single, specific* action; it's a huge, undefined project.
+ 	- *Result:* I spend 4 hours creating new MOCs and tags, feel overwhelmed, and don't finish.
+ 	- *Verdict:* This is not a *single, specific* action; it's a huge, undefined project.
 - **A *Good* Answer (The MVA):** "The action is to **practise one of the new techniques...**"
-	- *Refining...* "Okay, what's the *single, specific* version of that?"
-	- **The Single, Specific Action:** "The **next time** I sit down to 'learn' something with an LLM, I will **physically write my *one-note-container* goal in Obsidian *before* I open the chat window.**"
+ 	- *Refining...* "Okay, what's the *single, specific* version of that?"
+ 	- **The Single, Specific Action:** "The **next time** I sit down to 'learn' something with an LLM, I will **physically write my *one-note-container* goal in Obsidian *before* I open the chat window.**"
 
 ---
 
@@ -271,14 +271,14 @@ You cannot choose a tool until you know the *exact* problem you are solving. Thi
 
 - **One-Note-Container Goal:** Create one *new note* in Obsidian titled: `k8s Backup Requirements Checklist`.
 - **Your Action (Human-First):** Brain-dump the answers to these questions into that note. Don't research, just write what you *know* and *think* you need.
-	- **What** am I backing up? (Just app data? etcd? Specific namespaces? Persistent Volumes?)
-	- **Why**? (Disaster recovery? App migration? Dev-test cloning?)
-	- **How often**? (RPO - Recovery Point Objective: How much data can I afford to lose? 1h? 24h?)
-	- **How fast**? (RTO - Recovery Time Objective: How quickly must it be restored? 10 mins? 4 hours?)
-	- **Where**? (What's our storage? S3 bucket? On-prem NFS?)
-	- **What's the budget**? (Is free/open-source a hard requirement? Or is a paid/managed solution okay?)
+ 	- **What** am I backing up? (Just app data? etcd? Specific namespaces? Persistent Volumes?)
+ 	- **Why**? (Disaster recovery? App migration? Dev-test cloning?)
+ 	- **How often**? (RPO - Recovery Point Objective: How much data can I afford to lose? 1h? 24h?)
+ 	- **How fast**? (RTO - Recovery Time Objective: How quickly must it be restored? 10 mins? 4 hours?)
+ 	- **Where**? (What's our storage? S3 bucket? On-prem NFS?)
+ 	- **What's the budget**? (Is free/open-source a hard requirement? Or is a paid/managed solution okay?)
 - **LLM Use (Convergent):** Now, copy-paste your messy brain-dump into an LLM.
-	- **Prompt:** "Here are my rough notes on k8s backup needs. **Organise this into a clean checklist of technical and business requirements.**"
+ 	- **Prompt:** "Here are my rough notes on k8s backup needs. **Organise this into a clean checklist of technical and business requirements.**"
 
 You have now "thought like a man of action." You have a concrete, actionable-thought-artefact: your requirements list.
 
@@ -290,7 +290,7 @@ You will *not* "learn about all k8s backup tools." You will **use your requireme
 
 - **One-Note-Container Goal:** Create one *new note* titled: `Top 3 Backup Tool Candidates`.
 - **Your Action (LLM-Assisted):**
-	- **Prompt:** "Based on this exact requirements checklist \[paste your checklist from MVA 1\], **what are the top 3-5 Kubernetes backup tools** (open-source or paid) that I should investigate?"
+ 	- **Prompt:** "Based on this exact requirements checklist \[paste your checklist from MVA 1\], **what are the top 3-5 Kubernetes backup tools** (open-source or paid) that I should investigate?"
 - **Why this works:** You have avoided the "Collector's Fallacy." You are not getting an encyclopedia of 15 tools. You are getting a precise, filtered list of 3-5. This is your "shortlist."
 
 ---
@@ -301,10 +301,10 @@ This is the most critical step. **Do not read the full documentation for all 3 t
 
 - **Your Goal:** To create **one note of *actioned knowledge* titled `PoC Test: [Tool Name]`**
 - **Your Action:**
-	1. Pick **one** tool from your shortlist (e.g., the most popular one, like **Velero**).
-	2. Create a **test/dev** Kubernetes cluster (e.g., `kind`, `minikube`, or a dev cluster).
-	3. **Time-box yourself:** Give yourself **2 hours** (or 90 mins, a timer is key).
-	4. **The MVA:** Try to **install the tool** and **back up and restore *one single, simple application*** (e.g., a basic Nginx pod with one simple Persistent Volume).
+ 1. Pick **one** tool from your shortlist (e.g., the most popular one, like **Velero**).
+ 2. Create a **test/dev** Kubernetes cluster (e.g., `kind`, `minikube`, or a dev cluster).
+ 3. **Time-box yourself:** Give yourself **2 hours** (or 90 mins, a timer is key).
+ 4. **The MVA:** Try to **install the tool** and **back up and restore *one single, simple application*** (e.g., a basic Nginx pod with one simple Persistent Volume).
 - **Why this works:** You will learn more in 2 hours of *doing* this than in 2 days of *reading* documentation. You will discover the real-world friction. Was the install easy? Did the docs make sense? Did it *actually* work?
 
 ---
@@ -315,9 +315,9 @@ Now you "think" about the "action" you just took.
 
 - **One-Note-Container Goal:** Write in your `PoC Test: [Tool Name]` note.
 - **Your Action (Human-First):** Open the note and write down your "lab report."
-	- "What went well?" (e.g., Install was easy.)
-	- "What was painful?" (e.g., The S3 permissions were a nightmare. The restore command is confusing.)
-	- "Does this *feel* like the right tool?"
+ 	- "What went well?" (e.g., Install was easy.)
+ 	- "What was painful?" (e.g., The S3 permissions were a nightmare. The restore command is confusing.)
+ 	- "Does this *feel* like the right tool?"
 - **Iterate:** If the tool failed your test or felt wrong, *repeat Step 3* with the *next* tool on your shortlist.
 - **Your final action:** When you have a PoC that *works* and *feels right*, your thinking is done. You've found your tool.
 
@@ -385,16 +385,16 @@ Your first move is to stop "thinking" and **force a "thoughtful action" by defin
 - **Your Action:** Open an LLM chat.
 - **Your Prompt (The "A-Prompt"):**
 
-	> "My amorphous thought is: 'I really need to get my personal finances in order.'
-	> 
-	> **What is the single, specific action this thinking is supposed to lead to?**
-	> 
-	> Help me filter these potential 'action goals' and find the *Minimum Viable Action (MVA)*. Here are some ideas:
-	> 
-	> 1. To *understand* my financial situation?
-	> 2. To *choose* a budgeting app?
-	> 3. To *make* a savings plan?
-	> 4. To *feel* less anxious?"
+ > "My amorphous thought is: 'I really need to get my personal finances in order.'
+ >
+ > **What is the single, specific action this thinking is supposed to lead to?**
+ >
+ > Help me filter these potential 'action goals' and find the *Minimum Viable Action (MVA)*. Here are some ideas:
+ >
+ > 1. To *understand* my financial situation?
+ > 2. To *choose* a budgeting app?
+ > 3. To *make* a savings plan?
+ > 4. To *feel* less anxious?"
 
 - **LLM's Role (Converger):** The LLM will help you see that goals 2, 3, and 4 are *consequences* of goal 1. It will help you converge on the *true* first action.
 - **LLM's Likely Output:** "The most practical, foundational action is **(1) to *understand* your current financial situation.** A good MVA would be to **'list all monthly income sources and all fixed monthly expenses.'** "
@@ -408,14 +408,14 @@ Now that you have your goal, you must prevent "encyclopedia building." You defin
 - **Your Action:** Go to Obsidian.
 - **Your "C-Prompt" (A self-prompt, no LLM needed yet):**
 
-	> "I will create **one new, single note** titled: **'My Current Monthly Cashflow (Nov 2025)'**.
-	> 
-	> This note *must* contain only two lists:
-	> 
-	> 1. A bulleted list of all income sources and their amounts.
-	> 2. A bulleted list of all fixed subscriptions/bills and their amounts.
-	> 
-	> I will **time-box this to 25 minutes.**"
+ > "I will create **one new, single note** titled: **'My Current Monthly Cashflow (Nov 2025)'**.
+ >
+ > This note *must* contain only two lists:
+ >
+ > 1. A bulleted list of all income sources and their amounts.
+ > 2. A bulleted list of all fixed subscriptions/bills and their amounts.
+ >
+ > I will **time-box this to 25 minutes.**"
 
 - **Why this works:** You have created a "one-note-container." You're not "learning about finance"; you are *building* one, specific, atomic note. The task is now finite, clear, and non-overwhelming.
 
@@ -430,22 +430,22 @@ Now, you use the LLM for the final step: "act like a man of thought" by reflecti
 - **Your Action:** Copy the contents of your new Obsidian note (your lists) into the LLM.
 - **Your Prompt (The "T-Prompt"):**
 
-	> "I just did my MVA. Here is the raw data I collected in my 'Monthly Cashflow' note:
-	> 
-	> \[Paste your lists of income/expenses\]
-	> 
-	> Based *only* on this new, real-world data:
-	> 
-	> 1. **What is the single most obvious insight?** (e.g., calculate the surplus/deficit).
-	> 2. **What is the 'next right action' (MVA) this insight suggests?**
-	> 3. **Synthesise this into an atomic 'reflection' note** for my Zettelkasten."
+ > "I just did my MVA. Here is the raw data I collected in my 'Monthly Cashflow' note:
+ >
+ > \[Paste your lists of income/expenses\]
+ >
+ > Based *only* on this new, real-world data:
+ >
+ > 1. **What is the single most obvious insight?** (e.g., calculate the surplus/deficit).
+ > 2. **What is the 'next right action' (MVA) this insight suggests?**
+ > 3. **Synthesise this into an atomic 'reflection' note** for my Zettelkasten."
 
 - **LLM's Role (Synthesiser):** The LLM performs the analysis *on your behalf*, acting as a thoughtful partner.
 - **LLM's Likely Output:**
 
-	> 4. **Insight:** Your total fixed expenses (£X) are 85% of your total income (£Y). Your surplus is very small.
-	> 5. **Next MVA:** The next logical action is not to "save more," but to **"analyse your 'variable' spending (e.g., food, entertainment)"** to find leaks.
-	> 6. **Atomic Note:**`Title: Financial Reflection - High Fixed-Cost Ratio` `Tags: #finance #reflection` `My initial financial MVA (listing income/expenses) revealed my fixed costs are 85% of my income. This insight shifts the priority from 'saving' (which is difficult with a small surplus) to 'analysing variable spending' as the next step.`
+ > 4. **Insight:** Your total fixed expenses (£X) are 85% of your total income (£Y). Your surplus is very small.
+ > 5. **Next MVA:** The next logical action is not to "save more," but to **"analyse your 'variable' spending (e.g., food, entertainment)"** to find leaks.
+ > 6. **Atomic Note:**`Title: Financial Reflection - High Fixed-Cost Ratio` `Tags: #finance #reflection` `My initial financial MVA (listing income/expenses) revealed my fixed costs are 85% of my income. This insight shifts the priority from 'saving' (which is difficult with a small surplus) to 'analysing variable spending' as the next step.`
 
 ---
 
@@ -481,8 +481,8 @@ Here is the practical difference for you:
 
 - **Its Job:** To be fast, efficient, and "good enough." It's designed for high-volume, quick-turnaround tasks: summarising, classifying, quick Q&A, and extracting key points.
 - **The Benefit (For You):** Flash is your ideal tool for **Phase 1 (Action-Goal)**. It's built to *converge* on an answer quickly. It's less likely to give you a sprawling essay and more likely to give you a concise, actionable output.
-	- It's designed for *utility* over *comprehensiveness*.
-	- It forces you to get to the **MVA (Minimum Viable Action)** faster, because it's not trying to "solve" the whole problem for you.
+ 	- It's designed for *utility* over *comprehensiveness*.
+ 	- It forces you to get to the **MVA (Minimum Viable Action)** faster, because it's not trying to "solve" the whole problem for you.
 - **How it Breaks the Loop:** By being less "comprehensive," it's also less satisfying to your "Collector" brain. This is a *good thing*. It gives you the one or two bullet points you need to *act*, preventing you from falling into the "analysis paralysis" trap. It's fast, cheap, and *disposable* —it's a tool, not an oracle.
 
 ---
@@ -591,19 +591,19 @@ You can copy and paste everything from the blockquote below directly into a new 
 >
 > - **My Role:** I will give you a vague, "amorphous input" (e.g., "I need to sort out my finances").
 > - **Your Role:** You will **NOT** "solve" this. You will ask me convergent questions to help me define a single, physical **Minimum Viable Action (MVA)**. You will help me find the absolute smallest *next step*.
-> 
+>
 > **2\. C = CONTAINER (Define the Boundary)**
 >
 > - **My Role:** Once we have the MVA, I will *stop talking to you*. I will go to my note-taking app (Obsidian) and create a "One-Note-Container" (a single, new note) for this action. I will time-box the action and complete it.
 > - **Your Role:** You will wait.
-> 
+>
 > **3\. T = THOUGHT (Define the Insight)**
 >
 > - **My Role:** I will return and paste the *raw data* or *results* from my action (the contents of my one note).
 > - **Your Role:** You will act as a **Synthesiser**. You will analyse *only* the data I provided and answer two questions:
-> 	1. What is the single most obvious insight from this data?
-> 	2. What is the logical **Next MVA** this insight suggests?
-> 
+>  1. What is the single most obvious insight from this data?
+>  2. What is the logical **Next MVA** this insight suggests?
+>
 > ---
 >
 > This loop (A-C-T) will repeat. You are my partner for **Phase A** (defining the action) and **Phase T** (reflecting on the results).
@@ -673,14 +673,14 @@ The final workflow ties these tailored agents together (assuming you are using t
 
 1. **Input:** You type your amorphous thought (e.g., "Sort out finances.")
 2. **Ollama Call (Agent A-Filter):**
-	- `ollama run [model_name] --system "[Agent A-Filter System Prompt]" "[Your Amorphous Input]"`
-	- *Output:*`MVA: List all fixed monthly expenses and income sources in a note.`
+ - `ollama run [model_name] --system "[Agent A-Filter System Prompt]" "[Your Amorphous Input]"`
+ - *Output:*`MVA: List all fixed monthly expenses and income sources in a note.`
 3. **Human Bridge (C-Phase):**
-	- You receive the MVA, go to **Obsidian**, set a timer, and execute the MVA.
+ - You receive the MVA, go to **Obsidian**, set a timer, and execute the MVA.
 4. **Input:** You copy the raw data from your Obsidian note (the list of expenses and income).
 5. **Ollama Call (Agent T-Synthesiser):**
-	- `ollama run [model_name] --system "[Agent T-Synthesiser System Prompt]" "[Your Raw Data from Obsidian]"`
-	- *Output:*`INSIGHT: ... NEXT MVA: ...`
+ - `ollama run [model_name] --system "[Agent T-Synthesiser System Prompt]" "[Your Raw Data from Obsidian]"`
+ - *Output:*`INSIGHT: ... NEXT MVA: ...`
 6. **Loop:** The new **NEXT MVA** becomes the input for the next **C-Phase**.
 
 This setup creates a simple, tailored, and action-oriented agent framework using the local tools you already have.
@@ -720,11 +720,11 @@ T_PROMPT="You are a Reflection Synthesiser. You must analyse the raw data provid
 You will call the `gemini` command, feed it the as a system instruction, and then pass the amorphous input.
 
 1. **Execution:** Run the command below. Replace `[Your Amorphous Input]` with your messy thought (e.g., "Sort out my finances").
-	Bash
+ Bash
 
-	```markdown
-	gemini ask --system "${A_PROMPT}" "[Your Amorphous Input]"
-	```
+ ```markdown
+ gemini ask --system "${A_PROMPT}" "[Your Amorphous Input]"
+ ```
 
 2. **Output:** The CLI will output the result, which, due to the system prompt, should be a single, concise MVA (e.g., `MVA: List all fixed monthly expenses and income sources in a note.`).
 3. **Capture the MVA (Optional):** You can capture this output into a shell variable for later reference, or just copy it manually.
@@ -743,11 +743,11 @@ After the action, you return to the CLI to reflect. You will use the second syst
 
 1. **Input:** Copy the contents of your Obsidian note (the raw data you collected) to your clipboard.
 2. **Execution:** Run the command below. You will paste your raw data into the terminal when prompted, or you can supply it via the command line itself using pipes, though pasting interactively is often cleaner for large blocks of text.
-	Bash
+ Bash
 
-	```markdown
-	gemini ask --system "${T_PROMPT}" "Here is the raw data collected from my last MVA. Please analyse this and give me the next action."
-	```
+ ```markdown
+ gemini ask --system "${T_PROMPT}" "Here is the raw data collected from my last MVA. Please analyse this and give me the next action."
+ ```
 
 3. **Output:** The CLI will provide the structured output (`INSIGHT:` and `NEXT MVA:`) which immediately feeds into your next action cycle.
 
@@ -757,4 +757,4 @@ Google Account
 
 Leon Ormes
 
-leonormes@gmail.com
+<leonormes@gmail.com>

@@ -34,7 +34,7 @@ Your goal is to perform a "cleaving" process:
 ## CORE PRINCIPLES (Zettelkasten Mandates)
 
 1. **Binary Category Invariant:** Maintain strict separation:
-    
+
     - **Atomic Notes (bricks):** Must be **context-free**, containing one single, indivisible idea. Must be written in **full, self-explanatory sentences**, as if writing for a future, forgetful self.
     - **Structural Notes (architecture/hubs):** Exist **only to create context** and sequential relationships by linking Atomic Notes (e.g., narratives, arguments, sequences).
 2. **Atomicity:** Each new Atomic Note must contain only *one* idea.
@@ -71,23 +71,23 @@ Execute the plan by generating and updating the necessary notes, strictly adheri
 **1. For each "Fact" identified:**
 
 - **If it's a "new note":**
-    - Create a new Atomic Note (`type: concept` or `type: definition`).
-    - The title must be a clear, declarative statement about the fact.
-    - Rewrite the fact in your own words, ensuring it is **self-contained, fully elaborated, and written in coherent full sentences**.
-    - **Assign a Zettelkasten Keyword:** Determine one or two sparse keywords that facilitate future serendipitous discovery (the writer's mindset, not the archivist's). Add these to the `tags` field.
-    - Ensure all required YAML frontmatter fields are populated.
+  - Create a new Atomic Note (`type: concept` or `type: definition`).
+  - The title must be a clear, declarative statement about the fact.
+  - Rewrite the fact in your own words, ensuring it is **self-contained, fully elaborated, and written in coherent full sentences**.
+  - **Assign a Zettelkasten Keyword:** Determine one or two sparse keywords that facilitate future serendipitous discovery (the writer's mindset, not the archivist's). Add these to the `tags` field.
+  - Ensure all required YAML frontmatter fields are populated.
 - **If it's a "consolidation":**
-    - Compare and merge the new information into the existing note (if valuable).
-    - The `[[wikilink]]` used in the Structural Note will always point to the **existing note's title**.
+  - Compare and merge the new information into the existing note (if valuable).
+  - The `[[wikilink]]` used in the Structural Note will always point to the **existing note's title**.
 
 **2. Create *one* Structural Note for the "Context":**
 
 - **Format:** Use the `map` template below.
 - **Title:** Use the original note's title, prefixed with "SN - Sequence" (Structural Note - Sequence).
 - **Content:**
-    - Begin the content by explicitly stating the **Framing Question** identified in Phase 2.
-    - Rewrite the *original* narrative. Insert the `[[wikilink]]` to the Atomic Notes (new or existing).
-    - **Mandate Sequential Order:** The links must be arranged in a clear, logical, traceable **Train of Thought**, reflecting how one idea builds on or follows the previous one. Use introductory phrases or line breaks to emphasize this sequence.
+  - Begin the content by explicitly stating the **Framing Question** identified in Phase 2.
+  - Rewrite the *original* narrative. Insert the `[[wikilink]]` to the Atomic Notes (new or existing).
+  - **Mandate Sequential Order:** The links must be arranged in a clear, logical, traceable **Train of Thought**, reflecting how one idea builds on or follows the previous one. Use introductory phrases or line breaks to emphasize this sequence.
 
 ---
 

@@ -25,6 +25,7 @@ Kubernetes networking components follow a coordinated workflow where kubelet, co
 ## Details
 
 ### Pod Creation Workflow
+
 1. **API Request**: Pod creation request received by kube-apiserver
 2. **Scheduling**: kube-scheduler assigns pod to specific node
 3. **kubelet Action**: kubelet on target node receives pod specification
@@ -34,6 +35,7 @@ Kubernetes networking components follow a coordinated workflow where kubelet, co
 7. **Network Setup**: CNI plugin assigns IP, creates interfaces, sets up routing
 
 ### Service Configuration Workflow
+
 1. **Service Creation**: Service definition stored in etcd via apiserver
 2. **Endpoint Discovery**: Endpoint controller creates endpoint objects
 3. **kube-proxy Watch**: kube-proxy on all nodes watches for service/endpoint changes
@@ -44,36 +46,42 @@ Kubernetes networking components follow a coordinated workflow where kubelet, co
 ### Component Coordination Points
 
 **kubelet Responsibilities:**
+
 - Pod lifecycle management
 - CNI plugin invocation
 - Container runtime coordination
 - Network readiness verification
 
 **Container Runtime Role:**
+
 - Container creation and management
 - Network namespace preparation
 - CNI plugin coordination
 - Status reporting to kubelet
 
 **CNI Plugin Functions:**
+
 - Network namespace configuration
 - IP address assignment (IPAM)
 - Interface creation (veth, bridge)
 - Routing and rule setup
 
 **kube-proxy Operations:**
+
 - Service/endpoint monitoring
 - Load balancing rule generation
 - Traffic redirection implementation
 - Health checking integration
 
 **etcd Integration:**
+
 - Configuration storage
 - State consistency maintenance
 - Change notification distribution
 - Recovery and backup source
 
 ### Error Handling and Recovery
+
 - **Network Failures**: CNI plugin retry mechanisms
 - **Pod Restarts**: Automatic network reconfiguration
 - **Node Failures**: Service endpoint updates and traffic rerouting

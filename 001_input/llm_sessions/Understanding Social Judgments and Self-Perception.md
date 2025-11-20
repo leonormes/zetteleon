@@ -29,17 +29,17 @@ Here is a breakdown of how you make those judgements, the margin for error, and 
 Your "sense" is a high-speed, mostly subconscious process of data collection and inference. You are essentially acting as a social detective, gathering clues from multiple channels simultaneously:
 
 - **1\. Non-Verbal Cues (Body Language):** This is likely the largest source of your data.
-	- **Micro-expressions:** Fleeting, involuntary facial expressions that reveal a person's genuine emotion before they can mask it.
-	- **Posture:** Are they 'open' and facing you, or 'closed' (arms crossed, turned away)? Leaning in (interest) vs. leaning back (disengagement, judgement).
-	- **Eye Contact:** Are they holding your gaze (confidence, interest, or potential aggression), or avoiding it (shyness, discomfort, or sometimes, deference)?
-	- **Gestures:** Are they mirroring your own body language (a strong sign of rapport) or are their gestures fidgety and anxious?
+ 	- **Micro-expressions:** Fleeting, involuntary facial expressions that reveal a person's genuine emotion before they can mask it.
+ 	- **Posture:** Are they 'open' and facing you, or 'closed' (arms crossed, turned away)? Leaning in (interest) vs. leaning back (disengagement, judgement).
+ 	- **Eye Contact:** Are they holding your gaze (confidence, interest, or potential aggression), or avoiding it (shyness, discomfort, or sometimes, deference)?
+ 	- **Gestures:** Are they mirroring your own body language (a strong sign of rapport) or are their gestures fidgety and anxious?
 - **2\. Paralanguage (Tone of Voice):** This is *how* something is said, rather than *what* is said.
-	- **Pitch and Volume:** A rising intonation can signal a question or uncertainty. A low, flat tone can signal boredom or disapproval. Sudden volume changes indicate emotional spikes.
-	- **Pace:** Speaking quickly can show enthusiasm or anxiety; speaking slowly can show thoughtfulness or condescension.
-	- **Vocal Congruence:** Does their tone match their words? When someone says "That's great" in a flat, dead tone, your brain flags the mismatch.
+ 	- **Pitch and Volume:** A rising intonation can signal a question or uncertainty. A low, flat tone can signal boredom or disapproval. Sudden volume changes indicate emotional spikes.
+ 	- **Pace:** Speaking quickly can show enthusiasm or anxiety; speaking slowly can show thoughtfulness or condescension.
+ 	- **Vocal Congruence:** Does their tone match their words? When someone says "That's great" in a flat, dead tone, your brain flags the mismatch.
 - **3\. Verbal Content:** The actual words used are a clue, but often less reliable than *how* they are said.
-	- **Question-Asking:** Is the other person asking you questions? This shows engagement and interest.
-	- **"I" vs. "You" vs. "We":** A lot of "we" language can signal rapport and shared understanding. A lot of "I" can signal self-focus, while a lot of "you" can be engaging or, in another context, accusatory.
+ 	- **Question-Asking:** Is the other person asking you questions? This shows engagement and interest.
+ 	- **"I" vs. "You" vs. "We":** A lot of "we" language can signal rapport and shared understanding. A lot of "I" can signal self-focus, while a lot of "you" can be engaging or, in another context, accusatory.
 - **4\. Social Comparison:** You automatically assess your 'status' by comparing yourself to others based on perceived markers of authority, expertise, or social value (e.g., who is everyone listening to? Who controls the flow of conversation?).
 - **5\. Emotional Contagion:** This is your brain's capacity for empathy. You subconsciously 'catch' the emotional state of others. If you walk into a room and suddenly feel tense, you are likely picking up on the anxiety of others.
 
@@ -66,27 +66,27 @@ The very fact that you are asking this question is the single best sign that you
 Here are practical ways to calibrate your self-perception:
 
 - **1\. Shift from "Mind-Reading" to "Observation":**
-	- **Instead of:** "He thinks I'm an idiot."
-	- **Ask:** "What did I *actually* observe? He looked at his watch. What are three alternative explanations? 1) He's late for another meeting. 2) He's waiting on an important email. 3) He's just checking the time." This breaks the negative feedback loop.
+ 	- **Instead of:** "He thinks I'm an idiot."
+ 	- **Ask:** "What did I *actually* observe? He looked at his watch. What are three alternative explanations? 1) He's late for another meeting. 2) He's waiting on an important email. 3) He's just checking the time." This breaks the negative feedback loop.
 - **2\. Seek Trusted, Specific Feedback:**
-	- This is the gold standard for bursting a self-perception bubble (whether over-inflated or under-inflated).
-	- Don't ask vague questions like "Do people like me?". Ask a trusted friend, mentor, or colleague *specific* questions:
-		- "After that presentation, what was one thing you thought worked well, and one thing I could improve?"
-		- "I'm trying to be a better listener. In that meeting, did you feel I gave people enough space to talk?"
+ 	- This is the gold standard for bursting a self-perception bubble (whether over-inflated or under-inflated).
+ 	- Don't ask vague questions like "Do people like me?". Ask a trusted friend, mentor, or colleague *specific* questions:
+  		- "After that presentation, what was one thing you thought worked well, and one thing I could improve?"
+  		- "I'm trying to be a better listener. In that meeting, did you feel I gave people enough space to talk?"
 - **3\. Focus on Your Behaviour, Not Their "Liking":**
-	- You cannot control if someone *likes* you. You *can* control your own actions.
-	- Instead of worrying about your status, judge yourself on concrete behaviours:
-		- Did I listen without interrupting?
-		- Did I ask at least one genuine question about the other person?
-		- Did I express my point of view clearly and respectfully?
-	- Good social skills (your actions) tend to lead to good social outcomes (their feelings).
+ 	- You cannot control if someone *likes* you. You *can* control your own actions.
+ 	- Instead of worrying about your status, judge yourself on concrete behaviours:
+  		- Did I listen without interrupting?
+  		- Did I ask at least one genuine question about the other person?
+  		- Did I express my point of view clearly and respectfully?
+ 	- Good social skills (your actions) tend to lead to good social outcomes (their feelings).
 - **4\. Record and Review (If Applicable):**
-	- For high-stakes professional situations (like a big presentation), recording yourself (video or just audio) is a powerful, if uncomfortable, tool. You will see *exactly* what others see, bypassing your internal 'sense'.
+ 	- For high-stakes professional situations (like a big presentation), recording yourself (video or just audio) is a powerful, if uncomfortable, tool. You will see *exactly* what others see, bypassing your internal 'sense'.
 - **5\. Accept Ambiguity:**
-	- Ultimately, you will *never* know with 100% certainty what another person is thinking. Part of social competence is learning to tolerate this ambiguity without letting it spiral into anxiety. Your "sense" is a guide, not a gospel. Use it, but hold its conclusions lightly.
+ 	- Ultimately, you will *never* know with 100% certainty what another person is thinking. Part of social competence is learning to tolerate this ambiguity without letting it spiral into anxiety. Your "sense" is a guide, not a gospel. Use it, but hold its conclusions lightly.
 
 Google Account
 
 Leon Ormes
 
-leonormes@gmail.com
+<leonormes@gmail.com>

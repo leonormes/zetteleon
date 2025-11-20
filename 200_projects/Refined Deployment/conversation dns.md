@@ -32,6 +32,7 @@ Great question 👌 — this confusion is *super common* because terms like **ho
 ---
 
 ## **1. Hostname**
+
 - A *hostname* is the human-readable label for a device or service on a network.
 - Example: `relay.fitfile.net` is a hostname.
 - Think of it as the "name" you type in instead of remembering an IP address.
@@ -39,6 +40,7 @@ Great question 👌 — this confusion is *super common* because terms like **ho
 ---
 
 ## **2. DNS Record**
+
 - A *DNS record* is an *entry* in the Domain Name System that maps hostnames to something else (like an IP address, another hostname, mail server, etc.).
 - Common types:  
   - **A record** → maps hostname → IPv4 address
@@ -50,6 +52,7 @@ Great question 👌 — this confusion is *super common* because terms like **ho
 ---
 
 ## **3. URL (Uniform Resource Locator)**
+
 - A *URL* is a
 
 full address to a specific resource on the internet.
@@ -130,6 +133,7 @@ So the hostname ↔ DNS record *name field* normally matches because DNS is the 
 ---
 
 ## **Key distinction**
+
 - You don’t need the hostname to “match” the IP in any way.
   - IPs don’t really “know” their names.
   - The hostname is just how humans (and DNS) reference that IP.
@@ -137,16 +141,17 @@ So the hostname ↔ DNS record *name field* normally matches because DNS is the 
 
 lookups (**PTR records** for rDNS):  
 
-  - You can map an IP back to a hostname.  
-  - But that mapping doesn’t have to match the forward entry.  
-  - Example:
-    - Forward: `relay.fitfile.net → 1.2.3.4`
-    - Reverse (PTR): `1.2.3.4 → proxy.isp.net`
-    - These don’t have to align, though some services (e.g. mail servers) check that forward and reverse mappings are consistent.
+- You can map an IP back to a hostname.  
+- But that mapping doesn’t have to match the forward entry.  
+- Example:
+  - Forward: `relay.fitfile.net → 1.2.3.4`
+  - Reverse (PTR): `1.2.3.4 → proxy.isp.net`
+  - These don’t have to align, though some services (e.g. mail servers) check that forward and reverse mappings are consistent.
 
 ---
 
 ## **So In practice**
+
 - Hostname = "the label you typed in" (in DNS terms, the *owner name* of a record).  
 - DNS record = "the rule stored in DNS" about that label.  
 - IP address = what the record often points to.  
@@ -180,6 +185,7 @@ Excellent question again 👍 — you’re really getting to the heart of what�
 ---
 
 ## **Are Hostnames and DNS Records “related”?**
+
 - **Hostname (concept)**: a label (like `relay.fitfile.net`). Just a domain-component string that follows DNS naming rules.  
 - **DNS record (implementation)**: the **data structure in the DNS database** that maps such hostnames to other info (IPs, other hostnames, mail servers, etc.)
 
@@ -196,6 +202,7 @@ They are **tightly coupled concepts**, not totally independent. The DNS record i
 ---
 
 ## **Convenience Vs Technical**
+
 - **Convenience**: Hostnames are for humans. Way easier to remember `relay.fitfile.net`
 
 than `203.0.113.42`.
@@ -227,6 +234,7 @@ identity).
 ---
 
 ## **Mental Model**
+
 - **Hostname** = the "name" of the service.
 - **DNS record** = the "address lookup for that name."
 - **PKI cert** = the "passport proving that the server using the name really owns it."  

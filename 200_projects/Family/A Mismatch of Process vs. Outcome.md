@@ -52,13 +52,13 @@ Instead of *assuming* we know, let's build our own definition.
 Once we've talked about the "what," let's see how it applies.
 
 - **Case Study: The "Tidy-Up" Flashpoint**
-    - **The Problem:** It's a moment where we *both* end up feeling disrespected.
-    - **The Question:** How can we create a new system that respects *your* need for immediate support and *my* need for a fair and efficient process?
-    - **Possible Solution:** The "Tag-Team" agreement. (When one person is overwhelmed, they 'tap out', and the other 'taps in' to manage the process, including the kids).
+  - **The Problem:** It's a moment where we *both* end up feeling disrespected.
+  - **The Question:** How can we create a new system that respects *your* need for immediate support and *my* need for a fair and efficient process?
+  - **Possible Solution:** The "Tag-Team" agreement. (When one person is overwhelmed, they 'tap out', and the other 'taps in' to manage the process, including the kids).
 - **Case Study: Listening**
-    - How can we show we're listening? Is it about "fixing" the problem or "validating" the feeling?
+  - How can we show we're listening? Is it about "fixing" the problem or "validating" the feeling?
 - **Case Study: Money**
-    - What does a "respectful" financial partnership look like for us? (e.g., Transparency vs. Autonomy).
+  - What does a "respectful" financial partnership look like for us? (e.g., Transparency vs. Autonomy).
 
 ### 4. ✅ Our Desired Outcome
 
@@ -66,6 +66,7 @@ We walk away from this conversation with:
 
 1. A much clearer understanding of each other's "user manual."
 2. At least one new, concrete "Team Agreement" (like our "Tidy-Up" solution) that we can both start using, which proves this system works for both of us.
+
 ## Why You Feel Aggrieved: A Mismatch of Process vs. Outcome
 
 Your feeling of being 'aggrieved' likely stems from a fundamental disagreement about **process**, not a disagreement about the **goal**. Both of you want a tidy house, but you have very different, and currently conflicting, ideas about the most "optimal" or "fair" way to achieve it.
@@ -74,11 +75,11 @@ Here is a breakdown of what is likely happening:
 
 - **It's about Fairness, Not Willingness:** You are not saying you don't want to help. You are saying you don't want to be the *sole* solution to a problem that others (the children) are actively creating. Your sense of injustice comes from being asked to compensate for a lack of enforcement elsewhere.
 - **A Conflict of Values (Efficiency vs. Immediacy):**
-    - **Your Value:** You appear to value **long-term efficiency and responsibility**. Your "optimal way" is to teach the children to tidy up, which solves the problem permanently and instils good habits. This is a *strategic*, long-term solution.
-    - **Her Perceived Value:** Your wife may be valuing **immediate results and reduced conflict**. She might be tired and overwhelmed, and the path of least resistance *in the moment* is to either do it herself or ask the other adult (you) to do it, rather than enter into what could be a lengthy battle with the children.
+  - **Your Value:** You appear to value **long-term efficiency and responsibility**. Your "optimal way" is to teach the children to tidy up, which solves the problem permanently and instils good habits. This is a *strategic*, long-term solution.
+  - **Her Perceived Value:** Your wife may be valuing **immediate results and reduced conflict**. She might be tired and overwhelmed, and the path of least resistance *in the moment* is to either do it herself or ask the other adult (you) to do it, rather than enter into what could be a lengthy battle with the children.
 - **"Help" Means Different Things to You Both:**
-    - When she says "help more," she might mean: "I am feeling overwhelmed by the immediate mess. I need you to relieve my stress *right now* by completing this task."
-    - When you hear "help more," you are thinking: "I am trying to help by implementing a *system* where the kids do their share. Why am I being asked to abandon this system and just do the manual labour?"
+  - When she says "help more," she might mean: "I am feeling overwhelmed by the immediate mess. I need you to relieve my stress *right now* by completing this task."
+  - When you hear "help more," you are thinking: "I am trying to help by implementing a *system* where the kids do their share. Why am I being asked to abandon this system and just do the manual labour?"
 - **Your Role Feels Disrespected:** You are trying to contribute as a *partner* and a *parent* (by teaching the children). By expecting you to "drop everything" and just clean, it can feel as though your contribution as a strategist and teacher is being dismissed, and you are being relegated to the role of "hired help" who must follow an inefficient order.
 
 ---
@@ -175,8 +176,8 @@ This directly addresses the in-the-moment conflict.
 - **The Reframe:** Realise that when she says, "Can you deal with this mess?" she might not be saying, "Can you *personally* clean this?" She might be saying, "I am at my limit. I am overwhelmed by this. I need to tap out. **Please tap in.**"
 - **Your New Response:** Instead of arguing about the *kids*, you look at *her*. You say, "I can see this is stressing you out. You're right, it's a mess. **You go and [make a cup of tea/sit down for five minutes]. I will sort this.**"
 - **The Win-Win:**
-    - **She wins:** She feels instantly heard, validated, and supported. Her stress is relieved.
-    - **You win:** You have now been given the "authority" to "sort this." You can now go and "sort this" using your *optimal method*—which is getting the children and telling them, "Right, Mum is resting, you and I are tidying this *now*."
+  - **She wins:** She feels instantly heard, validated, and supported. Her stress is relieved.
+  - **You win:** You have now been given the "authority" to "sort this." You can now go and "sort this" using your *optimal method*—which is getting the children and telling them, "Right, Mum is resting, you and I are tidying this *now*."
 
 You are still doing what you wanted (making the kids tidy), but you have done it in a way that makes your wife feel like you are 100% on her side.
 
@@ -186,12 +187,12 @@ This is what you discuss *away* from the heat of the moment.
 
 - **The Goal:** To agree on a *shared family policy* for tidying that you can *both* enforce. Your grievance comes from feeling like you're the only one who cares about this policy. This step makes it *yours* (as a couple).
 - **What it looks like:**
-    - **Non-Negotiable Rules:** You both agree on 1-2 simple rules. For example: "No screen time until the living room is tidy," or "Everyone does a 10-minute 'family tidy-up' before bed."
-    - **A Shared Script:** You agree on what to say to the kids. When a mess is found, the script is: "This is a 'Team [Your Surname]' job. Let's go get the kids."
+  - **Non-Negotiable Rules:** You both agree on 1-2 simple rules. For example: "No screen time until the living room is tidy," or "Everyone does a 10-minute 'family tidy-up' before bed."
+  - **A Shared Script:** You agree on what to say to the kids. When a mess is found, the script is: "This is a 'Team [Your Surname]' job. Let's go get the kids."
 - **How it Solves the Problem:**
-    - It stops her from being the "default" cleaner.
-    - It stops you from feeling like the "bad cop" who is *also* expected to be the "cleaner."
-    - When she asks for help, she's no longer asking you to *do the chore*. She's asking you to *back her up* in enforcing the system you *both* created. This is a much more respectful request, and one you are happy to fulfil.
+  - It stops her from being the "default" cleaner.
+  - It stops you from feeling like the "bad cop" who is *also* expected to be the "cleaner."
+  - When she asks for help, she's no longer asking you to *do the chore*. She's asking you to *back her up* in enforcing the system you *both* created. This is a much more respectful request, and one you are happy to fulfil.
 
 ### 3. The "Fair Compromise" (For Exceptions)
 
@@ -340,9 +341,9 @@ Once you have this understanding, you can look at the other topics.
 - **Listening:** You now understand *why* she feels you aren't listening (you're "lecturing") and she understands *why* you feel she isn't listening (she's "ignoring your system").
 - **Teamwork:** You can now create a new rule for your "Team Charter" - e.g., "The 'Tag-Team' approach we discussed. The person who is *less* stressed taps in to handle the *process* (even if that means managing the kids) so the *more* stressed person can tap out."
 - **Money:** This is a perfect example. A discussion about money isn't about pounds and pence. It's about respect.
-    - Does "respect" mean total transparency on all spending?
-    - Does it mean trusting each other with a personal "no-questions-asked" allowance?
-    - Does one person feel like their contribution (e.g., non-financial, like managing the home) is disrespected by the person who earns more?
+  - Does "respect" mean total transparency on all spending?
+  - Does it mean trusting each other with a personal "no-questions-asked" allowance?
+  - Does one person feel like their contribution (e.g., non-financial, like managing the home) is disrespected by the person who earns more?
 
 You've moved the conversation from a list of grievances to a high-level, collaborative project. You're building the constitution for your partnership, and "respect" is the first and most important amendment.
 
@@ -379,15 +380,15 @@ You must shift the conversation from **subjective feelings** to **breaches of an
 This is why the "Team Charter" idea is essential.
 
 - **The Old Way (The Fight):**
-    - **Her:** "Can you tidy this?"
-    - **You:** "That's disrespectful! You're treating me like the help."
-    - **Her:** "You're just using that word to get out of it! That's controlling!"
+  - **Her:** "Can you tidy this?"
+  - **You:** "That's disrespectful! You're treating me like the help."
+  - **Her:** "You're just using that word to get out of it! That's controlling!"
 - **The New Way (The Agreement):**
-    - **You (in your calm discussion):** "Okay, let's look at the tidying. It's a flashpoint. Let's agree on a 'Team Rule' for it."
-    - **The Agreed Rule:** "The 'Tag-Team' system. The overwhelmed person can 'tap out', and the other person 'taps in' and manages the process (including getting the kids) in the most efficient way."
-    - **Later, in the moment:**
-        - **Her:** "The living room is a disaster, I'm at my limit." (She is flagging her overwhelm).
-        - **You:** "I've got this. You tap out. I'll tap in and handle the 'Team Tidy-up'." (You are now honouring your agreement, not "obeying an order").
+  - **You (in your calm discussion):** "Okay, let's look at the tidying. It's a flashpoint. Let's agree on a 'Team Rule' for it."
+  - **The Agreed Rule:** "The 'Tag-Team' system. The overwhelmed person can 'tap out', and the other person 'taps in' and manages the process (including getting the kids) in the most efficient way."
+  - **Later, in the moment:**
+    - **Her:** "The living room is a disaster, I'm at my limit." (She is flagging her overwhelm).
+    - **You:** "I've got this. You tap out. I'll tap in and handle the 'Team Tidy-up'." (You are now honouring your agreement, not "obeying an order").
 
 Now, if the system breaks, you're not arguing about *your feelings*. You're pointing to *your agreement*.
 
@@ -538,6 +539,7 @@ Here’s a **Conflict Toolkit** tailored to your situation, Leon—designed to h
 **Purpose:** Shift from adversarial to collaborative tone.
 
 **Steps:**
+
 1. **State your feeling clearly**: “I feel stressed when…”
 2. **Acknowledge her feeling**: “I hear that you don’t feel the same way.”
 3. **Invite collaboration**: “Can we treat this as a team problem?”
@@ -578,6 +580,7 @@ Use these to de-escalate:
 ### **5. Repair & Reset Tools**
 
 #### 🧭 *Post-Conflict Reflection Questions* (for both partners)
+
 - What did I feel during that moment?
 - What did I need that I didn’t get?
 - What did I hear from you that helped or hurt?

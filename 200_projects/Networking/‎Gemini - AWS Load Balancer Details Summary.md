@@ -76,8 +76,8 @@ This script will gather all the relevant details about the load balancer, its li
 1. **Save the file**: Save the first code block as `inspect_lb.sh`.
 2. **Make it executable**: Open your terminal and run `chmod +x inspect_lb.sh`.
 3. **Run it**:
-	- To inspect the load balancer from your screenshot, simply run: `./inspect_lb.sh`
-	- To inspect a different load balancer, provide its ARN as an argument: `./inspect_lb.sh arn:aws:elasticloadbalancing:us-east-1:123456789012:loadbalancer/net/my-other-lb/50dc6c495c0c9188`
+ - To inspect the load balancer from your screenshot, simply run: `./inspect_lb.sh`
+ - To inspect a different load balancer, provide its ARN as an argument: `./inspect_lb.sh arn:aws:elasticloadbalancing:us-east-1:123456789012:loadbalancer/net/my-other-lb/50dc6c495c0c9188`
 
 The script will print a formatted report in your terminal, and the markdown file provides a detailed explanation of what that information means for your traffic flow.
 
@@ -774,13 +774,13 @@ This output is very revealing. Here's a breakdown of what we've learned and the 
 The health check is failing on instances `i-050faf3ec8e4fb22e` and `i-08526777637aa2695`. The check is an `HTTP` request to port `31835`. Here’s what to check:
 
 1. **Check the Ingress Pods**: Log into your Kubernetes cluster and check the status of the Ingress controller pods on those specific unhealthy nodes.
-	Bash
+ Bash
 
-	```markdown
-	kubectl get pods -n ingress-nginx -o wide
-	```
+ ```markdown
+ kubectl get pods -n ingress-nginx -o wide
+ ```
 
-	(Replace `ingress-nginx` with your actual Ingress namespace). Check if pods are running on the private IPs `10.65.4.141` and `10.65.5.240`. They might be in a `CrashLoopBackOff` state or not running at all.
+ (Replace `ingress-nginx` with your actual Ingress namespace). Check if pods are running on the private IPs `10.65.4.141` and `10.65.5.240`. They might be in a `CrashLoopBackOff` state or not running at all.
 
 2. **Check Security Groups**: Ensure that the security group attached to the EC2 instances allows traffic from the load balancer's subnets on the health check port (`31835`).
 3. **Check the Health Check Endpoint**: Verify that the Ingress controller is configured to respond to health checks on the `/` path (or whatever path is configured in the Target Group) on port `31835`.
@@ -996,4 +996,4 @@ Google Account
 
 Leon Ormes
 
-leonormes@gmail.com
+<leonormes@gmail.com>

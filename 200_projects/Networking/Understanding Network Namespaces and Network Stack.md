@@ -55,10 +55,10 @@ To create and manage a functional network stack within a Linux network namespace
 - **Routing Tables**: Each namespace must have its own routing table to manage how packets are directed.
 - **iptables**: Firewall rules specific to each namespace can be defined using iptables, providing security controls.
 - **Commands for Management**:
-    - To create a namespace: `sudo ip netns add <namespace_name>`
-    - To list namespaces: `sudo ip netns list`
-    - To execute commands in a namespace: `sudo ip netns exec <namespace_name> <command>`
-    - To configure interfaces within namespaces: `sudo ip link set <interface_name> netns <namespace_name>`
+  - To create a namespace: `sudo ip netns add <namespace_name>`
+  - To list namespaces: `sudo ip netns list`
+  - To execute commands in a namespace: `sudo ip netns exec <namespace_name> <command>`
+  - To configure interfaces within namespaces: `sudo ip link set <interface_name> netns <namespace_name>`
 
 These components work together to provide isolated networking environments that can operate independently from one another, which is particularly useful in scenarios like container orchestration or multi-tenant cloud environments[^2][^3][^4][^21].
 

@@ -125,11 +125,11 @@ Perform this before every single workout.
 
 1. **Pulse Raiser (3 mins):** Light skipping, jogging on the spot, or jumping jacks.
 2. **Mobility Drills (5 mins):**
-	- **Cat-Cow:** 10 reps (for spinal mobility)
-	- **World's Greatest Stretch:** 5 reps per side (opens hips, thoracic spine)
-	- **Leg Swings:** 15 reps (front-to-back and side-to-side)
-	- **Band Pull-Aparts:** 20 reps (activates upper back and shoulders)
-	- **Bodyweight Squats:** 15 reps (primes the squat pattern)
+ - **Cat-Cow:** 10 reps (for spinal mobility)
+ - **World's Greatest Stretch:** 5 reps per side (opens hips, thoracic spine)
+ - **Leg Swings:** 15 reps (front-to-back and side-to-side)
+ - **Band Pull-Aparts:** 20 reps (activates upper back and shoulders)
+ - **Bodyweight Squats:** 15 reps (primes the squat pattern)
 
 ### Cool-down (5 mins)
 
@@ -137,10 +137,10 @@ Perform this immediately after your last set.
 
 1. **Heart Rate Reduction (2 mins):** Slow, deliberate walking. Focus on deep, nasal breathing.
 2. **Static Stretches (Hold 30s each):**
-	- Chest Stretch (doorway or band)
-	- Lat Stretch (hang from bar or pull-down machine)
-	- Hamstring Stretch (forward fold)
-	- Quad Stretch (standing)
+ - Chest Stretch (doorway or band)
+ - Lat Stretch (hang from bar or pull-down machine)
+ - Hamstring Stretch (forward fold)
+ - Quad Stretch (standing)
 
 ### Key Recovery Strategies
 
@@ -168,12 +168,12 @@ Your recent weight loss is fantastic, but now we must shift focus from *just* lo
 
 - **Why:** It is the building block for the muscle you want to grow. It is also highly satiating (keeps you full) and has the highest thermic effect of food (burns calories to digest).
 - **Target:** Aim for **1.6 - 2.0 grams of protein per kilogram of bodyweight**.
-	- At 91kg, this is **145g - 182g of protein per day**.
+ 	- At 91kg, this is **145g - 182g of protein per day**.
 - **How:** Make it the centrepiece of every meal.
-	- **Breakfast:** Greek yoghurt, eggs, or a protein shake.
-	- **Lunch:** Large chicken breast or salmon fillet with salad/vegetables.
-	- **Dinner:** Lean mince, fish, or tofu with rice/potatoes and vegetables.
-	- **Snacks:** Protein bar, handful of nuts, cottage cheese.
+ 	- **Breakfast:** Greek yoghurt, eggs, or a protein shake.
+ 	- **Lunch:** Large chicken breast or salmon fillet with salad/vegetables.
+ 	- **Dinner:** Lean mince, fish, or tofu with rice/potatoes and vegetables.
+ 	- **Snacks:** Protein bar, handful of nuts, cottage cheese.
 
 **Calories & Carbs/Fats:**
 

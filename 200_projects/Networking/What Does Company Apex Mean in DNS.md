@@ -28,8 +28,8 @@ The term "company apex" in DNS refers to the root of a registrable domain, also 
 - **Definition**: The apex domain is the main domain in a DNS zone, not a subdomain—it is the core address without anything before the first dot except the zone or domain itself.[^2][^8][^9]
 - **Purpose**: Apex domains are used for the primary web presence of a company or organization and serve as the authoritative root for all subdomains (e.g., `acme.example` instead of `www.acme.example`).[^9][^1][^2]
 - **DNS Records**:
-    - Apex domains typically use A or AAAA records to directly point to an IP address.
-    - CNAME records are not permitted at the apex due to DNS protocol restrictions, but some DNS providers support ALIAS or ANAME records as CNAME-like solutions for apex domains.[^5][^2]
+  - Apex domains typically use A or AAAA records to directly point to an IP address.
+  - CNAME records are not permitted at the apex due to DNS protocol restrictions, but some DNS providers support ALIAS or ANAME records as CNAME-like solutions for apex domains.[^5][^2]
 
 ### Apex Vs Subdomain
 
@@ -43,8 +43,8 @@ The term "company apex" in DNS refers to the root of a registrable domain, also 
 - The apex domain is where most key DNS records are managed for core services and where the primary branding sits.[^6][^1][^2]
 - When configuring DNS, it's important to recognize constraints at the apex (e.g., no CNAME allowed) and know which records to use for reliable resolution.[^2][^5]
 - Examples of apex domain records:
-    - `acme.example` → A record to `192.0.2.10`
-    - `www.acme.example` → CNAME to `acme.example`
+  - `acme.example` → A record to `192.0.2.10`
+  - `www.acme.example` → CNAME to `acme.example`
 
 ### Action Steps for DNS Setup
 
@@ -111,20 +111,11 @@ This distinction is foundational in DNS architecture and a common consideration 
 
 <div align="center">⁂</div>
 
-[^1]: <https://www.reddit.com/r/Netlify/comments/1ex2veq/difference_between_subdomains_and_apex_domains_in/>
 
-[^2]: <https://www.urllo.com/resources/learn/what-is-an-apex-domain>
 
-[^3]: <https://www.networksolutions.com/blog/what-is-apex-domain/>
 
-[^4]: <https://www.namehero.com/blog/domain-vs-subdomain-a-complete-guide/>
 
-[^5]: <https://hostadvice.com/blog/domains/what-is-apex-domain/>
 
-[^6]: <https://en.wikipedia.org/wiki/Subdomain>
 
-[^7]: <https://www.hosted.com/blog/domain-vs-subdomain-whats-the-difference/>
 
-[^8]: <https://www.seoqueen.com/a-beginners-guide-to-understanding-root-domain-vs-subdomain/>
 
-[^9]: <https://www.youtube.com/watch?v=B3R34MH7EU8>

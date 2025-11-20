@@ -44,12 +44,12 @@ Your note correctly identifies this as the "primary mode for creating atomic 'th
 
 - **Start with a Question:** Create a new note and title it with a question. E.g., `Why is exploratory writing so difficult?` or `What's the real connection between [[Concept A]] and [[Concept B]]?`. Then, just try to answer it.
 - **Transcribe Your Inner Monologue:** Literally write what you're thinking.
-	- *Example:* "I'm reading this article on X, and I'm not sure I get the main point. The author says... but that seems to contradict... oh, wait. Maybe they mean... yeah, that makes more sense. It's like \[\[Concept Y\]\]. But what about...?"
+ 	- *Example:* "I'm reading this article on X, and I'm not sure I get the main point. The author says... but that seems to contradict... oh, wait. Maybe they mean... yeah, that makes more sense. It's like \[\[Concept Y\]\]. But what about...?"
 - **Use Prompts:** When you're stuck, use prompts to get moving:
-	- "I'm trying to figure out..."
-	- "What this reminds me of is..."
-	- "The part I'm confused about is..."
-	- "My first reaction to this is..."
+ 	- "I'm trying to figure out..."
+ 	- "What this reminds me of is..."
+ 	- "The part I'm confused about is..."
+ 	- "My first reaction to this is..."
 - **Link As You Think:** As soon as a connection to another idea pops into your head, link it. `This feels a lot like [[The Disappointment of Written Thoughts]]`. This is how you build the "Maps of Thought Trails" your note mentions.
 - **Embrace Fragments:** An atomic note doesn't have to be a full essay. It can be a single sentence, a quote with a one-line reaction, or a list of questions.
 
@@ -59,4 +59,4 @@ Google Account
 
 Leon Ormes
 
-leonormes@gmail.com
+<leonormes@gmail.com>

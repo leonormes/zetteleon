@@ -92,7 +92,7 @@ Provide complete replacements only for sections that changed. Keep headings iden
 ### 3. Integration Queue (Structured Input)
 
 - Remove fully integrated items. Append any remaining items in structured form:
-    
+
 #### 📤 Integration Source (<Source/NoteRef>)
 
 - Raw Excerpt/Key Insight: …
@@ -117,7 +117,7 @@ Provide complete replacements only for sections that changed. Keep headings iden
 
 - Core Claim(s):
 - Challenges Survived:
-    - : <test/observation> – result/implication
+  - : <test/observation> – result/implication
 - Current Status: <REINFORCED | WEAKENED | UNDER REVIEW>
 - Decay/Obsolescence Markers:
 
@@ -178,8 +178,8 @@ Guidelines:
 
 - synthesis-count: +1 each quick pass that integrates ≥1 item.
 - trust-level:
-    - developing → stable after 2–3 passes with no unresolved conflicts and a FROZEN MVU.
-    - stable → authoritative after 2+ additional passes with external validation (quality-markers includes “peer-validated” or “referenced N+ times”).
-    - Any level → developing if Current Status becomes UNDER REVIEW due to a weakened core claim.
+  - developing → stable after 2–3 passes with no unresolved conflicts and a FROZEN MVU.
+  - stable → authoritative after 2+ additional passes with external validation (quality-markers includes “peer-validated” or “referenced N+ times”).
+  - Any level → developing if Current Status becomes UNDER REVIEW due to a weakened core claim.
 
 ---

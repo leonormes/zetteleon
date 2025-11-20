@@ -41,42 +41,47 @@ The system is built on a hierarchy of principles, most importantly the **Indistr
 *(This queue is ready for new insights on ProdOS.)*
 
 ## 4. Understanding Layers (Progressive Abstraction)
--   **Layer 1: Basic Mental Model:** My brain is for *having* ideas, not *holding* them. ProdOS is my trusted external system that holds my commitments and knowledge, telling me what to do next based on my own values.
--   **Layer 2: Mechanistic Explanation (The GTD/ADHD Engine):** ProdOS implements the five stages of GTD (Capture, Clarify, Organize, Reflect, Engage), but adapts them for ADHD.
-    -   **Capture:** Is made frictionless and ubiquitous.
-    -   **Clarify/Organize:** Is facilitated by the LLM CoS, which uses the A-C-T framework to turn vague thoughts into atomic actions and projects.
-    -   **Reflect:** Is a semi-automated, guided weekly review that analyzes domain balance and surfaces strategic insights.
-    -   **Engage:** Is driven by a priority algorithm that enforces the Indistractable Stack, ensuring I work on what's truly important, not just what's urgent.
--   **Layer 3: Protocol/Detail Level (The Technical Architecture):**
-    -   **Data Layer:** The Obsidian vault is the source of truth, with a defined folder structure (`00_System`, `01_Inbox`, `02_Projects`, `10_PKM`, etc.) and a unified metadata schema for all notes. Todoist is the action inventory.
-    -   **LLM Chief of Staff (CoS):** An LLM agent with three modes (Executor, Socratic Coach, Strategic Advisor) that interacts with the data layer. Key commands include `/capture`, `/cleave`, `/engage-action`, and `/conduct-review`.
-    -   **Priority Algorithm:** `Score = ((Importance × 0.6) + (BigRockAlignment × 0.3) + (ContextMatch × 0.1)) * DomainMultiplier`, where the `DomainMultiplier` for `self` (1.5x) and `relationships` (1.2x) mathematically prioritizes life balance over `work` (1.0x).
-    -   **A-C-T Framework:** The core processing loop:
-        1.  **Action:** Use an LLM to turn a vague goal into a Minimum Viable Action (MVA).
-        2.  **Container:** Create a "one-note-container" in Obsidian to define the scope of the MVA.
-        3.  **Thought:** After executing the MVA, use an LLM to reflect on the outcome and define the *next* MVA.
+
+- **Layer 1: Basic Mental Model:** My brain is for *having* ideas, not *holding* them. ProdOS is my trusted external system that holds my commitments and knowledge, telling me what to do next based on my own values.
+- **Layer 2: Mechanistic Explanation (The GTD/ADHD Engine):** ProdOS implements the five stages of GTD (Capture, Clarify, Organize, Reflect, Engage), but adapts them for ADHD.
+  - **Capture:** Is made frictionless and ubiquitous.
+  - **Clarify/Organize:** Is facilitated by the LLM CoS, which uses the A-C-T framework to turn vague thoughts into atomic actions and projects.
+  - **Reflect:** Is a semi-automated, guided weekly review that analyzes domain balance and surfaces strategic insights.
+  - **Engage:** Is driven by a priority algorithm that enforces the Indistractable Stack, ensuring I work on what's truly important, not just what's urgent.
+- **Layer 3: Protocol/Detail Level (The Technical Architecture):**
+  - **Data Layer:** The Obsidian vault is the source of truth, with a defined folder structure (`00_System`, `01_Inbox`, `02_Projects`, `10_PKM`, etc.) and a unified metadata schema for all notes. Todoist is the action inventory.
+  - **LLM Chief of Staff (CoS):** An LLM agent with three modes (Executor, Socratic Coach, Strategic Advisor) that interacts with the data layer. Key commands include `/capture`, `/cleave`, `/engage-action`, and `/conduct-review`.
+  - **Priority Algorithm:** `Score = ((Importance × 0.6) + (BigRockAlignment × 0.3) + (ContextMatch × 0.1)) * DomainMultiplier`, where the `DomainMultiplier` for `self` (1.5x) and `relationships` (1.2x) mathematically prioritizes life balance over `work` (1.0x).
+  - **A-C-T Framework:** The core processing loop:
+        1. **Action:** Use an LLM to turn a vague goal into a Minimum Viable Action (MVA).
+        2. **Container:** Create a "one-note-container" in Obsidian to define the scope of the MVA.
+        3. **Thought:** After executing the MVA, use an LLM to reflect on the outcome and define the *next* MVA.
 
 ## 5. Minimum Viable Understanding (MVU)
--   **Established:** 2025-11-13
--   **Status:** **STABLE**
--   1.  Capture every thought and task into a single inbox (e.g., Obsidian Daily Note) with zero friction.
--   2.  Once a day, process this inbox. For each item, decide if it's trash, reference, a project, or a single action.
--   3.  Move single actions to a "Next Actions" list.
--   4.  When ready to work, consult only the "Next Actions" list.
+
+- **Established:** 2025-11-13
+- **Status:** **STABLE**
+- 1. Capture every thought and task into a single inbox (e.g., Obsidian Daily Note) with zero friction.
+- 2. Once a day, process this inbox. For each item, decide if it's trash, reference, a project, or a single action.
+- 3. Move single actions to a "Next Actions" list.
+- 4. When ready to work, consult only the "Next Actions" list.
 
 ## 6. Battle Testing and Decay Signals
--   **Core Claim(s):**
-    1.  A system that algorithmically enforces personal values (Indistractable Stack) will lead to better life balance than one relying on willpower.
-    2.  Externalizing the "clarify" step to an LLM CoS will reduce the activation energy for processing inboxes, a common failure point for ADHD-based systems.
--   **Current Status:** **UNDER REVIEW**. The system is designed but not yet fully implemented and battle-tested.
+
+- **Core Claim(s):**
+    1. A system that algorithmically enforces personal values (Indistractable Stack) will lead to better life balance than one relying on willpower.
+    2. Externalizing the "clarify" step to an LLM CoS will reduce the activation energy for processing inboxes, a common failure point for ADHD-based systems.
+- **Current Status:** **UNDER REVIEW**. The system is designed but not yet fully implemented and battle-tested.
 
 ## 7. Tensions, Gaps, and Cross-SoT Coherence
--   **Tensions:** The desire for a perfect, comprehensive system (Collector's Fallacy) vs. the need for a simple, low-friction system that works even on low-energy days.
--   **Confidence Gaps:** The technical implementation of the LLM CoS, especially the "cleaving" process and the seamless integration with Obsidian/Todoist, is the biggest unknown.
--   **Cross-SoT Coherence:** This SoT is the master plan that operationalizes the principles found in `[[Bridging the Intention-Action Gap SoT]]` and `[[Evolutionary Note System SoT]]`. It is the "how" to their "what" and "why".
+
+- **Tensions:** The desire for a perfect, comprehensive system (Collector's Fallacy) vs. the need for a simple, low-friction system that works even on low-energy days.
+- **Confidence Gaps:** The technical implementation of the LLM CoS, especially the "cleaving" process and the seamless integration with Obsidian/Todoist, is the biggest unknown.
+- **Cross-SoT Coherence:** This SoT is the master plan that operationalizes the principles found in `[[Bridging the Intention-Action Gap SoT]]` and `[[Evolutionary Note System SoT]]`. It is the "how" to their "what" and "why".
 
 ## 8. Sources and Links
--   **Primary Sources:** The collection of notes in `200_projects/LLMPKM/` that detail the system's philosophy, architecture, and workflows.
--   **Related MOCs:** [[ADHD and Motivation MOC]]
--   **Related SoTs:** [[Bridging the Intention-Action Gap SoT]], [[Evolutionary Note System SoT]]
+
+- **Primary Sources:** The collection of notes in `200_projects/LLMPKM/` that detail the system's philosophy, architecture, and workflows.
+- **Related MOCs:** [[ADHD and Motivation MOC]]
+- **Related SoTs:** [[Bridging the Intention-Action Gap SoT]], [[Evolutionary Note System SoT]]
 - [[ProdOS System Overview and Development Progress]]

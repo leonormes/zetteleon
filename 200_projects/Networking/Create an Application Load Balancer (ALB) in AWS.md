@@ -60,7 +60,7 @@ echo "<h1>Hello World from $(hostname)</h1>" > /var/www/html/index.html
 ##### 2. Configure Security Group
 
 - **Create a Security Group (e.g., `ALB-demo-HTTP-open`):**
-    - Add HTTP rule: allow inbound traffic on port 80 from anywhere.
+  - Add HTTP rule: allow inbound traffic on port 80 from anywhere.
 
 ***
 
@@ -74,18 +74,18 @@ echo "<h1>Hello World from $(hostname)</h1>" > /var/www/html/index.html
 ##### 4. Create the Application Load Balancer
 
 - **Choose “Application Load Balancer” in AWS Console**
-    - Type: “Internet-facing”
-    - Select all available subnets (multi-AZ for HA)
-    - Assign new security group (e.g., `ALB-demo-SG`)
-    - Listener: Add HTTP port 80
+  - Type: “Internet-facing”
+  - Select all available subnets (multi-AZ for HA)
+  - Assign new security group (e.g., `ALB-demo-SG`)
+  - Listener: Add HTTP port 80
 
 ***
 
 ##### 5. Create Target Group
 
 - **Create Target Group and Register Instances:**
-    - Instances: Add both EC2s to the target group and mark “include as pending.”
-    - Basically, ALB will route requests to healthy instances in the target group[^1_1].
+  - Instances: Add both EC2s to the target group and mark “include as pending.”
+  - Basically, ALB will route requests to healthy instances in the target group[^1_1].
 
 ***
 
@@ -93,7 +93,7 @@ echo "<h1>Hello World from $(hostname)</h1>" > /var/www/html/index.html
 
 - **Use the ALB DNS Endpoint:** Requests should alternate between the two EC2 servers (verified by changing hostnames).
 - **Simulate Failure:** Stop one EC2 instance; ALB routes all traffic to the healthy one.
-    - Resume the stopped instance to see load balancing resume automatically[^1_1].
+  - Resume the stopped instance to see load balancing resume automatically[^1_1].
 
 ***
 

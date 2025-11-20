@@ -75,6 +75,7 @@ This investigation was conducted to understand the current production backup con
 | Time Zone | UTC |
 
 **Schedule Details**:
+
 - Repeating time interval: `R/2024-09-02T21:00:00+00:00/P1D`
 - Backup jobs run every day at 21:00 UTC
 
@@ -103,6 +104,7 @@ This investigation was conducted to understand the current production backup con
 | **Excluded Namespaces** | `[]` (EMPTY) | No namespaces excluded |
 
 **What this means**:
+
 - ✓ All application namespaces are backed up
 - ✓ All system namespaces (kube-system, kube-public, etc.) are backed up
 - ⚠️ Larger backup size compared to selective backup
@@ -113,10 +115,12 @@ This investigation was conducted to understand the current production backup con
 ### Resource Type Filtering
 
 **Excluded Resource Types**:
+
 - `volumesnapshotcontent.snapshot.storage.k8s.io`
 - `secrets`
 
 **Why these are excluded**:
+
 - VolumeSnapshotContent is handled separately by the snapshot mechanism
 - Secrets are sensitive and should be managed through other means (e.g., Key Vault)
 
@@ -212,6 +216,7 @@ This investigation was conducted to understand the current production backup con
 **Production backs up the ENTIRE cluster** (all namespaces), while **Staging backs up only specific application namespaces**.
 
 **Production Backup Includes**:
+
 - All application namespaces
 - System namespaces (kube-system, kube-public, etc.)
 - Infrastructure components
@@ -219,6 +224,7 @@ This investigation was conducted to understand the current production backup con
 - Everything in the cluster
 
 **Implications**:
+
 - ✓ **Pros**: Complete disaster recovery capability, no missed workloads
 - ⚠️ **Cons**: Larger backup size, higher storage costs, potentially unnecessary system data
 
@@ -227,6 +233,7 @@ This investigation was conducted to understand the current production backup con
 **The AKS cluster identity has no explicit role on the backup vault**, yet backups are succeeding consistently at 100% success rate.
 
 **Possible Explanations**:
+
 1. Using a different permission model (subscription-level roles?)
 2. Legacy configuration that still works
 3. Permissions inherited from another source
@@ -255,12 +262,14 @@ backup_included_namespaces = []
 ```
 
 **Pros**:
+
 - ✓ Complete cluster backup
 - ✓ No risk of missing workloads
 - ✓ Comprehensive disaster recovery
 - ✓ No manual updates needed for new namespaces
 
 **Cons**:
+
 - ⚠️ Larger backup size
 - ⚠️ Higher storage costs
 - ⚠️ Backs up system namespaces (may be unnecessary)
@@ -278,12 +287,14 @@ backup_included_namespaces = [
 ```
 
 **Pros**:
+
 - ✓ Targeted backups (only what you need)
 - ✓ Lower storage costs
 - ✓ Faster, more focused restores
 - ✓ Explicit control over backup scope
 
 **Cons**:
+
 - ⚠️ Must manually add new production namespaces to Terraform
 - ⚠️ Risk of forgetting to add critical namespaces
 - ⚠️ Doesn't backup system/infrastructure namespaces
@@ -302,6 +313,7 @@ backup_included_namespaces = [
 ### Storage Account Naming
 
 **Pattern Identified**:
+
 - Production: `prod1backupsa`
 - Staging: `stagingbackupsa`
 - Format: `<cluster-name-with-no-hyphens>backupsa`
@@ -338,40 +350,47 @@ This pattern should be maintained in Terraform configuration.
 ## 12. Investigation Commands Used
 
 ### Switch Subscription
+
 ```bash
 az account set -s "a448d869-4ec5-4c81-82c5-d6e8fa0ec0df"
 az account show --query "{subscription_id: id, subscription_name: name}" -o table
 ```
 
 ### Resource Groups
+
 ```bash
 az group show -n "prod-1-backup-rg" --query "{name:name, location:location, provisioningState:properties.provisioningState}" -o json
 az group list --query "[?contains(name, 'prod') && contains(name, 'snapshot')].{name:name, location:location}" -o table
 ```
 
 ### Storage Account
+
 ```bash
 az storage account list -g "prod-1-backup-rg" --query "[].{name:name, location:location, sku:sku.name, kind:kind}" -o table
 ```
 
 ### Backup Vault
+
 ```bash
 az dataprotection backup-vault show --resource-group "prod-1-backup-rg" --vault-name "aksbackupvault" -o json
 ```
 
 ### Backup Policy
+
 ```bash
 az dataprotection backup-policy list --resource-group "prod-1-backup-rg" --vault-name "aksbackupvault" -o table
 az dataprotection backup-policy show --resource-group "prod-1-backup-rg" --vault-name "aksbackupvault" --name "dailyaksbackups" -o json
 ```
 
 ### Backup Instance
+
 ```bash
 az dataprotection backup-instance list --resource-group "prod-1-backup-rg" --vault-name "aksbackupvault" -o table
 az dataprotection backup-instance show --resource-group "prod-1-backup-rg" --vault-name "aksbackupvault" --backup-instance-name "prod1aksdaily" -o json
 ```
 
 ### IAM Permissions
+
 ```bash
 # AKS cluster identity
 AKS_ID="/subscriptions/a448d869-4ec5-4c81-82c5-d6e8fa0ec0df/resourceGroups/fitfile-cloud-prod-1-rg/providers/Microsoft.ContainerService/managedClusters/fitfile-cloud-prod-1-aks-cluster"
@@ -387,6 +406,7 @@ az role assignment list --assignee "$VAULT_PRINCIPAL_ID" --scope "$SNAPSHOT_RG_I
 ```
 
 ### Backup Jobs
+
 ```bash
 az dataprotection job list --resource-group "prod-1-backup-rg" --vault-name "aksbackupvault" --query "[].{operation:properties.operation, status:properties.status, startTime:properties.startTime, duration:properties.duration, backupInstanceName:properties.backupInstanceFriendlyName}" -o table
 ```

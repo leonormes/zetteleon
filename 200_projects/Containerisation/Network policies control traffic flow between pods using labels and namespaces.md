@@ -25,6 +25,7 @@ Kubernetes Network Policies provide fine-grained traffic control between pods by
 ## Details
 
 ### Policy Mechanism
+
 - **Rule-Based Control**: Define which pods can communicate with each other
 - **Label-Based Selection**: Use pod labels and namespaces to target specific workloads
 - **Port-Level Control**: Restrict communication to specific ports
@@ -33,27 +34,32 @@ Kubernetes Network Policies provide fine-grained traffic control between pods by
 ### Common Use Cases
 
 **Workload Isolation:**
+
 - Isolate sensitive workloads from rest of cluster
 - Create security zones within the cluster
 - Implement defense-in-depth strategy
 
 **Access Control:**
+
 - Allow only specific pods to access databases
 - Restrict frontend to backend communication
 - Block traffic from certain namespaces
 
 **Compliance Requirements:**
+
 - Meet regulatory security requirements
 - Implement network segmentation
 - Audit traffic patterns
 
 ### Policy Components
+
 - **Pod Selector**: Target pods for the policy
 - **Ingress Rules**: Control incoming traffic
 - **Egress Rules**: Control outgoing traffic
 - **Peer Selection**: Define source/destination pods using labels
 
 ## Implementation
+
 - **CNI Plugin Required**: Network policies require a CNI plugin that supports them (Calico, Cilium, etc.)
 - **iptables/eBPF**: Policies are implemented using kernel networking features
 - **Performance Impact**: Minimal overhead when properly implemented

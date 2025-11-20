@@ -110,8 +110,9 @@ version:
 - Rude & Deadly - Mash Dem Down
 - Urban Shakedown - Arsonist Dub (VIP Mix)
 - Ray Keith - Sing Time (VIP Mix)
- - DJ Rap - Lick Shot
- - Aladdin - Mash Up Yer Know
+- DJ Rap - Lick Shot
+- Aladdin - Mash Up Yer Know
+
 1. Floating Points - Known for blending jazz, electronica, and classical influences, Floating Points creates intricate soundscapes reminiscent of the experimental side of electronic music.
 2. Bonobo - While not entirely new, Bonobo continues to evolve his sound, incorporating elements of downtempo, trip-hop, and world music, aligning with the styles of the artists you've mentioned.
 3. Tycho - Tycho combines ambient melodies with downtempo beats, creating a lush sound that echoes the atmospheric qualities of Boards of Canada and Four Tet.

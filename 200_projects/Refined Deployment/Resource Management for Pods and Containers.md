@@ -333,10 +333,10 @@ If you want to use project quotas, you should:
 - Ensure the `UserNamespacesSupport` [feature gate](https://kubernetes.io/docs/reference/command-line-tools-reference/feature-gates/) is enabled, and that the kernel, CRI implementation and OCI runtime support user namespaces.
 - Ensure that the root filesystem (or optional runtime filesystem) has project quotas enabled. All XFS filesystems support project quotas. For ext4 filesystems, you need to enable the project quota tracking feature while the filesystem is not mounted.
 
-	```bash
-	# For ext4, with /dev/block-device not mounted
-	sudo tune2fs -O project -Q prjquota /dev/block-device
-	```
+ ```bash
+ # For ext4, with /dev/block-device not mounted
+ sudo tune2fs -O project -Q prjquota /dev/block-device
+ ```
 
 - Ensure that the root filesystem (or optional runtime filesystem) is mounted with project quotas enabled. For both XFS and ext4fs, the mount option is named `prjquota`.
 

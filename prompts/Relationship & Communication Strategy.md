@@ -28,8 +28,8 @@ updated:
 The central issue is that the user's subjective experience is consistently invalidated because his wife does not share his feeling.
 
 - **Standard Loop:**
-    1.  **H states a problem (as a feeling):** "I feel stressed when I see the mess."
-    2.  **W states her opposing feeling as fact:** "Well, *I feel* it's *not* a problem."
+    1. **H states a problem (as a feeling):** "I feel stressed when I see the mess."
+    2. **W states her opposing feeling as fact:** "Well, *I feel* it's *not* a problem."
 - **The "Checkmate":** W claims H is dismissing *her* feeling of neutrality.
 - **The Result:** A 1-1 "stalemate of realities" where H's "feeling of distress" is cancelled by W's "feeling of neutrality." Because there is no shared problem, no action is taken, and H's initial distress is dismissed as invalid.
 
@@ -68,23 +68,23 @@ The user brings his own "failings" and fears to the dynamic:
 A "Team Charter" of first principles has been developed to address these loops:
 
 - **Stalemate-Breaker: "Distress Overrules Neutrality"**
-    - This is the key solution. The "stalemate" is broken by differentiating the *types* of feelings.
-    - W's "feeling of neutrality" is a **"no-light"** on the dashboard.
-    - H's "feeling of distress" is a **"red light"**.
-    - **The Principle:** A team's job is not to debate if the "red light" *should* be on; its job is to *address the distress*.
-    - **The New "One Rule":** "If it is a problem for **one** of us, it is a problem for **the team**."
+  - This is the key solution. The "stalemate" is broken by differentiating the *types* of feelings.
+  - W's "feeling of neutrality" is a **"no-light"** on the dashboard.
+  - H's "feeling of distress" is a **"red light"**.
+  - **The Principle:** A team's job is not to debate if the "red light" *should* be on; its job is to *address the distress*.
+  - **The New "One Rule":** "If it is a problem for **one** of us, it is a problem for **the team**."
 - **Key Script (for the "Checkmate"):**
 
     > "I am not dismissing your feeling of neutrality. I am 100% accepting it. But your 'feeling of neutrality' doesn't *solve* my 'feeling of distress.' I am not asking you to *share* my feeling. I am asking you to *care* that I am distressed. The 'Team Problem' isn't the *room*; the 'Team Problem' is that *your partner is in distress*."
 
 - **Solution for "You Do It Too" (Deflection):**
-    - Use the **"Acknowledge, Park, and Re-focus"** technique.
-    - **Script:** "You are probably right, and we *must* talk about that. But this is the trap we always fall into. Can we 'park' that for one minute and *please* stay on this point? I promise we will address your feeling next."
+  - Use the **"Acknowledge, Park, and Re-focus"** technique.
+  - **Script:** "You are probably right, and we *must* talk about that. But this is the trap we always fall into. Can we 'park' that for one minute and *please* stay on this point? I promise we will address your feeling next."
 - **Solution for "Reset Button":**
-    1.  **Seek genuine buy-in, not concession:** Actively ask, "Is this a solution that works for you, or are you just agreeing to end the conversation?"
-    2.  **Create a "Team Playbook":** Write down agreements. This makes them tangible, proves mutual buy-in, and creates a shared "mental load" for remembering them.
+    1. **Seek genuine buy-in, not concession:** Actively ask, "Is this a solution that works for you, or are you just agreeing to end the conversation?"
+    2. **Create a "Team Playbook":** Write down agreements. This makes them tangible, proves mutual buy-in, and creates a shared "mental load" for remembering them.
 
 - **Solution for User's "Concession" Fear:**
-    - Redefine "respect."
-    - **Principle:** **"Respect is not Agreement."**
-    - **Script:** "I can *respect* your need for the light (validation) *while also* stating my need to remove the glare (boundary)." This allows him to validate her without "conceding".
+  - Redefine "respect."
+  - **Principle:** **"Respect is not Agreement."**
+  - **Script:** "I can *respect* your need for the light (validation) *while also* stating my need to remove the glare (boundary)." This allows him to validate her without "conceding".

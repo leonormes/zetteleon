@@ -82,6 +82,7 @@ The security group for the relay ALB was updated to include this range for CUH-o
 - **20.108.119.18/32** (Azure AKS node, for Azure-originated traffic)
 
 **Note:** There are also references to:
+
 - **194.176.185.64/26** and **194.176.185.64/29** in some Terraform snippets, but the main and latest confirmed range is **194.176.105.64/26** and **217.38.237.128/26**.
 
 ---
@@ -204,6 +205,7 @@ If connectivity issues arise after this change, investigate:
 The relay service in the hie-sde-v2 environment provides external connectivity to internal services through a secure, controlled architecture:
 
 ### Core Components
+
 1. **Application Load Balancer (ALB)**
 2. **Security Group Rules**
 3. **Target Groups & Node Attachments**
@@ -278,6 +280,7 @@ resource "aws_security_group_rule" "alb_to_eks_health_check" {
 ```
 
 ### Traffic Flow Details
+
 1. **Inbound Traffic**:
    - HTTPS (443) traffic from approved sources (Azure AKS and CUH network)
    - ALB terminates SSL/TLS using ACM certificate
@@ -296,6 +299,7 @@ resource "aws_security_group_rule" "alb_to_eks_health_check" {
    - Provides stable endpoint despite infrastructure changes
 
 ### Key Characteristics
+
 - **Public Exposure**: ALB is internet-facing (internal=false)
 - **High Availability**: Deployed across multiple AZs
 - **Security Isolation**: EKS nodes only exposed via NodePort, not directly
@@ -334,6 +338,7 @@ Bunny Service (10.250.16.0/24) → Firewall (10.250.1.68) → Internet → SDE R
 ```
 
 ### Key Configuration Elements
+
 1. **Forced Tunneling**:
 
    ```hcl
@@ -369,9 +374,10 @@ Bunny Service (10.250.16.0/24) → Firewall (10.250.1.68) → Internet → SDE R
 default_node_pool_enable_node_public_ip = false
 ```
 
-   - Nodes have no public IPs, all traffic egresses through firewall
+- Nodes have no public IPs, all traffic egresses through firewall
 
 ## Why This Range is Expected
+
 1. The bunny service runs in the AKS cluster within the `10.250.16.0/24` VNet
 2. All outbound traffic egresses through the firewall at 10.250.1.68
 3. The firewall performs Source NAT, making traffic appear from its IP

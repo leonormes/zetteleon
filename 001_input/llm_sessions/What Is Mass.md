@@ -30,44 +30,44 @@ Mass, according to the video, is best understood not as an irreducible property 
 ### Key Concepts and Analogies
 
 - **Two Experiences of Mass:**
-    - **Inertia:** Resistance to acceleration when pushing an object (how hard it is to change its state of motion).
-    - **Gravity:** Effort required to lift an object in a gravitational field (how heavy it feels)[^1_1].
+  - **Inertia:** Resistance to acceleration when pushing an object (how hard it is to change its state of motion).
+  - **Gravity:** Effort required to lift an object in a gravitational field (how heavy it feels)[^1_1].
 - **Thought Experiment: "Box with Mass"**
-    - Imagine a massless box. To replicate mass-like behavior:
-        - Put energy inside (e.g., photons).
-        - Ensure this energy cannot escape (e.g., perfect mirrors).
-        - The box then demonstrates inertia (resists being accelerated) and increases weight in a gravitational field[^1_1].
+  - Imagine a massless box. To replicate mass-like behavior:
+    - Put energy inside (e.g., photons).
+    - Ensure this energy cannot escape (e.g., perfect mirrors).
+    - The box then demonstrates inertia (resists being accelerated) and increases weight in a gravitational field[^1_1].
 - **Photon Box Analysis:**
-    - Photons carry energy and momentum.
-    - When the box is moved or pushed, relativistic Doppler effects cause blue-shifting and red-shifting of photon momentum, resulting in net forces that resist acceleration—this mimics inertia[^1_1].
-    - Gravitational fields also cause Doppler shifting of photon momentum, generating weight[^1_1].
+  - Photons carry energy and momentum.
+  - When the box is moved or pushed, relativistic Doppler effects cause blue-shifting and red-shifting of photon momentum, resulting in net forces that resist acceleration—this mimics inertia[^1_1].
+  - Gravitational fields also cause Doppler shifting of photon momentum, generating weight[^1_1].
 - **Relativity and Energy-Momentum-Mass Relationship:**
-    - Rest energy: $E = mc^2$ (object at rest, zero momentum)
-    - Photon energy: $E = pc$ (momentum, zero rest mass)
-    - General case: $E^2 = (pc)^2 + (mc^2)^2$
-    - This forms a Pythagorean relationship (visualizable as a right triangle)[^1_1].
+  - Rest energy: $E = mc^2$ (object at rest, zero momentum)
+  - Photon energy: $E = pc$ (momentum, zero rest mass)
+  - General case: $E^2 = (pc)^2 + (mc^2)^2$
+  - This forms a Pythagorean relationship (visualizable as a right triangle)[^1_1].
 
 ***
 
 ### Wave-Based Interpretation
 
 - **Standing Waves:**
-    - Mass can be modeled as a standing wave (energy is "trapped" or non-propagating in certain spatial dimensions).
-    - The "effective mass" arises from the configuration of the standing wave—confinement defines the mass[^1_1].
-    - The Compton wavelength—an essential quantum mechanical concept—is identified as a measure of this standing wave[^1_1].
+  - Mass can be modeled as a standing wave (energy is "trapped" or non-propagating in certain spatial dimensions).
+  - The "effective mass" arises from the configuration of the standing wave—confinement defines the mass[^1_1].
+  - The Compton wavelength—an essential quantum mechanical concept—is identified as a measure of this standing wave[^1_1].
 - **Equations and Variables:**
-    - For a confined system (waveguide/box), standing wave conditions can be described mathematically (using wave numbers and boundary conditions), providing a direct link between standing wave structure and mass[^1_1].
+  - For a confined system (waveguide/box), standing wave conditions can be described mathematically (using wave numbers and boundary conditions), providing a direct link between standing wave structure and mass[^1_1].
 
 ***
 
 ### Implications and Applications
 
 - **Engineering Mass:**
-    - In nanotechnology, changing how electrons are confined alters their "effective mass" (impacting their response to forces)[^1_1].
-    - It's possible in principle to design and manipulate mass by engineering standing waves in different physical setups (theoretical possibility of "negative mass" or direction-dependent inertia)[^1_1].
+  - In nanotechnology, changing how electrons are confined alters their "effective mass" (impacting their response to forces)[^1_1].
+  - It's possible in principle to design and manipulate mass by engineering standing waves in different physical setups (theoretical possibility of "negative mass" or direction-dependent inertia)[^1_1].
 - **Broader Perspective:**
-    - This view reframes mass as something fundamentally understandable and modifiable—not just a mysterious property assigned to particles.
-    - Physics and music are closely related: building standing waves in physical systems (like guitar strings) is analogous to the mechanisms that give rise to physical mass[^1_1].
+  - This view reframes mass as something fundamentally understandable and modifiable—not just a mysterious property assigned to particles.
+  - Physics and music are closely related: building standing waves in physical systems (like guitar strings) is analogous to the mechanisms that give rise to physical mass[^1_1].
 
 ***
 

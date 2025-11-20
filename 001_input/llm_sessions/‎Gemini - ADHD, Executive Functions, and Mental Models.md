@@ -75,14 +75,14 @@ The primary strategy for managing this is to **stop relying on your internal wor
 Your internal "RAM" is unreliable; your external environment is not.
 
 1. **Make the Plan Physical and Visible.** Do not put the plan in a closed notebook, a different browser tab, or a minimised app. It must be *in your field of vision* while you work.
-	- **Good:** A large whiteboard, a Post-it note stuck to your monitor, a second screen dedicated *only* to the checklist.
-	- **Bad:** A file saved on your desktop, a tab in your browser, a page in a notebook you have to remember to open.
+ - **Good:** A large whiteboard, a Post-it note stuck to your monitor, a second screen dedicated *only* to the checklist.
+ - **Bad:** A file saved on your desktop, a tab in your browser, a page in a notebook you have to remember to open.
 2. **Create "Start-Up" Templates.** To combat the "starting from scratch" problem, create a *physical* or *digital template* for any repeatable process.
-	- **Example:** For "filming a video," your template might be: 1. Set up lights. 2. Check camera battery. 3. Test microphone. 4. Run script once. 5. Record. 6. Back up footage.
-	- When you start, you don't "think." You just pull out the template and follow *your own* instructions. This *is* the mental model, made concrete.
+ - **Example:** For "filming a video," your template might be: 1. Set up lights. 2. Check camera battery. 3. Test microphone. 4. Run script once. 5. Record. 6. Back up footage.
+ - When you start, you don't "think." You just pull out the template and follow *your own* instructions. This *is* the mental model, made concrete.
 3. **Use It as an Active Tool.** The plan is not just a plan; it is your *boss*.
-	- Treat it as a "to-do" list. Physically tick items off as you go.
-	- When you get distracted (which you will), your eyes will eventually return to the visible, externalised plan, which will re-orient you. It acts as an anchor.
+ - Treat it as a "to-do" list. Physically tick items off as you go.
+ - When you get distracted (which you will), your eyes will eventually return to the visible, externalised plan, which will re-orient you. It acts as an anchor.
 4. **Simplify the Model.** A 20-step plan is too complex to hold. A 3-step model is not. Use "Now / Next / Then." When you finish "Now," look back at your external plan and re-load the next simple "Now / Next / Then" model.
 
 I have always struggled with the zettelkasten I am trying to maintain. I am interested in New things and I try to capture my understanding as atomic notes that are linked. In my imagination I create notes and after some time when thinking about the same topic I come across those notes and develop my thinking using reminders of what I had discovered previously. The zettelkasten literature talks about having a conversation with ones notes. But this just doesn't happen. My notes are either too long and wordy so I don't read them properly or they are too disjointed. I still can't get away from the linked notes just being a personal wiki
@@ -109,19 +109,19 @@ When you link two notes, write a sentence *about* the link. The link *is* the th
 
 - **Instead of this:**
 
-	> "The sky is blue due to \[\[Rayleigh scattering\]\]." *(This is a wiki link. It's a definition. It requires no thinking.)*
+ > "The sky is blue due to \[\[Rayleigh scattering\]\]." *(This is a wiki link. It's a definition. It requires no thinking.)*
 
 - **Do this:**
 
-	> "The principle of \[\[Rayleigh scattering\]\] is interesting, but it *fails to explain* why sunsets are red, which is where \[\[Mie scattering\]\] becomes more relevant." *(This is a thought. You have externalised the connection. Next time you read this, you don't have to re-invent the idea.)*
+ > "The principle of \[\[Rayleigh scattering\]\] is interesting, but it *fails to explain* why sunsets are red, which is where \[\[Mie scattering\]\] becomes more relevant." *(This is a thought. You have externalised the connection. Next time you read this, you don't have to re-invent the idea.)*
 
 - **Or this:**
 
-	> "This new leadership technique I just learned...
-	> 
-	> - ...is a practical *application* of \[\[Cognitive Load Theory\]\].
-	> - ...it directly *contradicts* the advice in \[\[My Old Project Management Note\]\].
-	> - ...it reminds me to *ask* \[\[Question about team motivation\]\]."
+ > "This new leadership technique I just learned...
+ >
+ > - ...is a practical *application* of \[\[Cognitive Load Theory\]\].
+ > - ...it directly *contradicts* the advice in \[\[My Old Project Management Note\]\].
+ > - ...it reminds me to *ask* \[\[Question about team motivation\]\]."
 
 You are now linking *ideas*, not just *topics*. The note *becomes* the conversation.
 
@@ -135,8 +135,8 @@ You are now linking *ideas*, not just *topics*. The note *becomes* the conversat
 
 - **One note, one idea.** Not "one topic." The topic of "Cats" is huge. An atomic note is "Cats use purring to heal bones."
 - **Give it a descriptive title.** The title should be a full sentence that *states the idea*.
-	- **Bad Title:**`Productivity`
-	- **Good Title:**`Time blocking is a tool for managing attention, not time`
+ 	- **Bad Title:**`Productivity`
+ 	- **Good Title:**`Time blocking is a tool for managing attention, not time`
 - When you re-read that good title, you have *already* loaded the entire mental model of that note. You may not even need to read the body.
 - If you're writing in a note and a *new* idea pops up, **create a new note for it immediately.** Then link back. This stops the "wordy" note-chaining.
 
@@ -160,12 +160,12 @@ An MOC is just a note *about* other notes. It is the *externalised mental model*
 >
 > - `[[Time blocking is a tool for managing attention, not time]]`
 > - `[[Motivation is interest-driven, not discipline-driven]]`
-> 
+>
 > ### Practical Techniques
 >
 > - `[[The 2-Minute Rule for small tasks]]`
 > - `[[Using timers to beat procrastination]]`
-> 
+>
 > ### Unsolved Questions
 >
 > - `[[How to stay consistent when bored?]]`
@@ -233,7 +233,7 @@ So, how do I get to the point where I can draw that diagram? I can't just draw i
 What's the *absolute smallest* first step?
 
 1. **Action 1 (The "Just Start" Task):**`Find ONE good diagram or video showing "pod-to-pod networking on one node".` I'm not going to "research." I'm going to find *one* visual aid. I'll time-box this to 15 minutes.
-	- *...Okay, I did that. I've got a diagram. It mentions "CNI," "veth-pair," and "bridge." I have no idea what those are.*
+ - *...Okay, I did that. I've got a diagram. It mentions "CNI," "veth-pair," and "bridge." I have no idea what those are.*
 
 This immediately defines my next action. The plan is *writing itself* as I go.
 
@@ -258,9 +258,9 @@ I'm writing this down in my notebook, not my to-do list.
 - `[ ] Find one simple diagram of pod-to-pod networking.`
 - `[ ] Get 1-sentence definitions for: CNI, veth-pair, network bridge.`
 - `[ ] Find a "deploy two busybox pods" YAML file.`
-- `[ ] Run ` kubectl apply `and` kubectl get pods -o wide ` to get their IPs and node.`
-- `[ ] ` kubectl exec ` into Pod 1 and ping Pod 2.`
-- `[ ] ` minikube ssh `into the node and run` ip link ` to find the veth pair.`
+- `[ ] Run` kubectl apply `and` kubectl get pods -o wide `to get their IPs and node.`
+- `[ ]` kubectl exec `into Pod 1 and ping Pod 2.`
+- `[ ]` minikube ssh `into the node and run` ip link `to find the veth pair.`
 - `[ ] Draw the diagram.`
 
 Look at that. `learn k8s networking` is gone. In its place is a list of simple, concrete `kubectl` commands and Google searches that I can start *right now*. I'll probably get stuck on the `ip link` step and have to Google "how to find veth-pair for pod," but that's fine! That's just a new, small step I can add when I get to it.
@@ -301,10 +301,10 @@ Now, and only now, do you list topics. Open a blank document and dump every rela
 Look at your brain dump. You'll see clumps. Group them. These are your "mental model" pillars. You can't learn everything at once, but you *can* learn one pillar at a time.
 
 - **Example:**
-	1. **Pillar 1: Basic Pod Communication** (pods, CNI, veth-pair, bridge)
-	2. **Pillar 2: Exposing an App Internally** (services, clusterIP, DNS)
-	3. **Pillar 3: Exposing an App Externally** (nodeport, loadbalancer, ingress)
-	4. **Pillar 4: Securing It** (network policy)
+ 1. **Pillar 1: Basic Pod Communication** (pods, CNI, veth-pair, bridge)
+ 2. **Pillar 2: Exposing an App Internally** (services, clusterIP, DNS)
+ 3. **Pillar 3: Exposing an App Externally** (nodeport, loadbalancer, ingress)
+ 4. **Pillar 4: Securing It** (network policy)
 
 Pick **Pillar 1**. Ignore the others for now.
 
@@ -334,4 +334,4 @@ Google Account
 
 Leon Ormes
 
-leonormes@gmail.com
+<leonormes@gmail.com>

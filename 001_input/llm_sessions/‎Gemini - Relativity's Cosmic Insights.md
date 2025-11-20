@@ -29,8 +29,8 @@ Published in 1905, special relativity deals with the physics of objects moving a
 
 - **The Unbreakable Speed Limit:** There is a cosmic speed limit, the speed of light in a vacuum ().Nothing with mass can reach this speed, and it is the same for all observers, regardless of their own motion.This constancy has profound implications for our understanding of space and time.
 - **The Malleability of Time and Space:** To maintain the constancy of the speed of light for all observers, something has to give. That something is the absolute nature of time and space.
-	- **Time Dilation:** From the perspective of a stationary observer, a clock moving at a significant fraction of the speed of light will appear to tick slower.This isn't a mechanical trick; time itself is passing more slowly for the moving object.
-	- **Length Contraction:** An object moving at relativistic speeds will appear shorter in the direction of its motion to a stationary observer.
+ 	- **Time Dilation:** From the perspective of a stationary observer, a clock moving at a significant fraction of the speed of light will appear to tick slower.This isn't a mechanical trick; time itself is passing more slowly for the moving object.
+ 	- **Length Contraction:** An object moving at relativistic speeds will appear shorter in the direction of its motion to a stationary observer.
 - **The Relativity of Simultaneity:** Events that appear to happen at the same time for one observer may occur at different times for another observer in a different state of motion. This shatters the Newtonian concept of a universal "now."
 - **Mass-Energy Equivalence ():** This famous equation reveals a fundamental relationship between mass and energy.It demonstrates that mass can be converted into a tremendous amount of energy, and vice versa. This principle is the basis for nuclear power and nuclear weapons.
 
@@ -207,4 +207,4 @@ Google Account
 
 Leon Ormes
 
-leonormes@gmail.com
+<leonormes@gmail.com>

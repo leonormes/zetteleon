@@ -35,15 +35,15 @@ The video examines how the public intellectual has changed from the mid-20th cen
 - **Short-Form Content Culture**: Platforms reward brief, emotionally charged clips, which often distort the broader intent and context of ideas, reducing complex arguments to soundbites [^1_1].
 - **Declining Literacy and Intellectual Gaps**: There’s concern over declining literacy rates and widening gaps—the people engaged with deep, challenging content become even more knowledgeable, while others become intellectually disengaged [^1_1].
 - **Solutions Proposed**:
-    - Choose long-form media and deep discussions, resisting the lure of convenience and speed.
-    - Build or seek out community with those who value intellectual challenge (such as debate-based Discord servers).
-    - Emphasize critical thinking to discern substance from misinformation in today’s content-overloaded environment [^1_1].
+  - Choose long-form media and deep discussions, resisting the lure of convenience and speed.
+  - Build or seek out community with those who value intellectual challenge (such as debate-based Discord servers).
+  - Emphasize critical thinking to discern substance from misinformation in today’s content-overloaded environment [^1_1].
 
 ### Actionable Insights
 
 - For those seeking genuine intellectual growth, prioritize:
-    - Long-form debates, in-depth podcasts, classic books, and community discussions.
-    - Platforms and communities that value context, patience, and depth over “viral” performance.
+  - Long-form debates, in-depth podcasts, classic books, and community discussions.
+  - Platforms and communities that value context, patience, and depth over “viral” performance.
 - Develop awareness of platform incentives—recognize how algorithms shape what content rises to the top.
 - Actively practice critical thinking as an antidote to digital era pseudo-intellectualism [^1_1].
 

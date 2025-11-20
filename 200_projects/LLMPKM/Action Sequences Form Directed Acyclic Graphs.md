@@ -50,6 +50,7 @@ In a task manager like Todoist, this can be represented as a list of tasks withi
 An action is "blocked" until its prerequisite actions are complete. Only actions without incomplete prerequisites are available to work on.
 
 **Example:**
+
 - Action: "Review mockups with client"
 - Dependency: "Create mockups" (must be done first)
 - Status: BLOCKED until dependency completes
@@ -59,6 +60,7 @@ An action is "blocked" until its prerequisite actions are complete. Only actions
 The first uncompleted action in a sequence—the only one currently actionable. This is your "next action" for that sequence.
 
 **Example Sequence:**
+
 1. ✅ Research competitor pricing (DONE)
 2. ✅ Draft pricing proposal (DONE)
 3. ➡️ **Get manager approval** (HEAD - actionable now)
@@ -74,16 +76,19 @@ A project can consist of multiple parallel action sequences that don't depend on
 **Example: Product Launch Project**
 
 **Development Sequence:**
+
 - ➡️ Fix bug 247 (actionable)
 - ⏸️ Deploy to staging
 - ⏸️ Run QA tests
 
 **Marketing Sequence:**
+
 - ➡️ Draft launch email (actionable)
 - ⏸️ Get email approved
 - ⏸️ Schedule email send
 
 **Legal Sequence:**
+
 - ➡️ Review terms of service (actionable)
 - ⏸️ Get legal sign-off
 
@@ -92,21 +97,25 @@ All three "head" actions (bug fix, draft email, review terms) are simultaneously
 **Why the DAG Model Matters:**
 
 **For Clarity:**
+
 - Makes dependencies explicit
 - Shows what can be worked on now vs. what's blocked
 - Prevents working on actions out of order
 
 **For Focus:**
+
 - Only surfaces actionable next actions
 - Hides blocked actions to reduce cognitive load
 - Makes it clear when multiple options are available
 
 **For Progress:**
+
 - Completing one action automatically reveals the next
 - Parallel sequences enable concurrent progress
 - No time wasted on blocked work
 
 **For ADHD:**
+
 - **Reduces Overwhelm:** Only see what's actionable now
 - **Prevents Context Switching:** Clear sequencing prevents jumping around
 - **Provides Choice:** Parallel sequences offer options when one path is blocked
@@ -115,6 +124,7 @@ All three "head" actions (bug fix, draft email, review terms) are simultaneously
 **Implementation in Task Managers:**
 
 **Todoist Example:**
+
 - Project: "Product Launch"
 - Section 1: "Development"
   - Task: Fix bug 247 (actionable)
@@ -139,11 +149,13 @@ When action sequences are modeled as a DAG, you can visualize:
 The "acyclic" property is critical. Circular dependencies create deadlock:
 
 **Bad (Circular):**
+
 - Action A: "Get client approval" (depends on B)
 - Action B: "Update design based on approval" (depends on A)
 - Result: Deadlock! Neither can start.
 
 **Good (Acyclic):**
+
 - Action A: "Share design with client"
 - Action B: "Get client approval" (depends on A)
 - Action C: "Update design based on approval" (depends on B)

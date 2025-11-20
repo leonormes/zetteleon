@@ -25,6 +25,7 @@ Pods in a Kubernetes cluster communicate across nodes using the Container Networ
 ## Details
 
 ### CNI Plugin Role
+
 - **Standard Interface**: CNI provides a consistent interface between container runtimes and network plugins
 - **Network Configuration**: CNI plugins assign IP addresses and set up network interfaces and routing
 - **Plugin Invocation**: kubelet invokes CNI plugins when pods are created
@@ -33,18 +34,21 @@ Pods in a Kubernetes cluster communicate across nodes using the Container Networ
 ### Network Models
 
 **Overlay Networks:**
+
 - Encapsulate traffic within another protocol
 - Create virtual network over physical infrastructure
 - Allow pods on different nodes to communicate as if on same network
 - Examples: VXLAN, Geneve
 
 **Underlay Networks:**
+
 - Operate at physical network layer
 - Use routing techniques for cross-node connectivity
 - Better performance but more complex configuration
 - Examples: BGP routing, direct routing
 
 ### DNS Integration
+
 - Kubernetes provides built-in DNS service
 - Pods can communicate using service names instead of IP addresses
 - Simplifies application development and network management

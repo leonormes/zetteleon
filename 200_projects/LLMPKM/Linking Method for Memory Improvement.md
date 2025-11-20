@@ -49,9 +49,9 @@ Here is a structured summary of the main concepts, techniques, examples, and pra
 
 - Weak or missing links can disrupt recall[^1_1].
 - Solutions include:
-    - Adding multiple associative links ("clasps")
-    - Ensuring each association is meaningful and multisensory
-    - Practicing deliberate review, especially with meaningful and context-rich material[^1_1].
+  - Adding multiple associative links ("clasps")
+  - Ensuring each association is meaningful and multisensory
+  - Practicing deliberate review, especially with meaningful and context-rich material[^1_1].
 - Avoid memorizing meaningless lists; instead, use material directly relevant to your goals for a stronger dopamine feedback loop and higher engagement[^1_1].
 
 ### Deliberate Practice Tips
@@ -103,17 +103,17 @@ Here is a structured summary of the key insights and workflows discussed in the 
 ### Key Framing Insights
 
 - A powerful technique to avoid perfectionism and cognitive overwhelm is to use **inventories or value-based checklists** rather than rigid templates[^1_1].
-    - Example: Create an “inventory” of values you want your article to deliver (such as reliability, utility, beauty)[^1_1].
+  - Example: Create an “inventory” of values you want your article to deliver (such as reliability, utility, beauty)[^1_1].
 - Define the “goalpost” before you start—what is the exact value or transformation for the reader you’re aiming to accomplish?[^1_1].
 - Use clarity on the “blocks” needed (awareness, motivation, empirical evidence, practical examples, etc.) to scope your outline and decide when to stop collecting material[^1_1].
 
 ### Applied Frameworks
 
 - The session proposes mapping your knowledge work and article structure to the **GOST** model:
-    - **Goals** (core mission),
-    - **Objectives** (concrete sub-results),
-    - **Strategy** (how you’ll approach), and
-    - **Tactics** (the concrete actions/sections)[^1_1].
+  - **Goals** (core mission),
+  - **Objectives** (concrete sub-results),
+  - **Strategy** (how you’ll approach), and
+  - **Tactics** (the concrete actions/sections)[^1_1].
 - Scientific writing and blog writing both benefit by defining the knowledge “blocks” and developing each as an atomic note before assembly into the outline and draft[^1_1].
 
 ### ADHD-Friendly Strategies
@@ -139,7 +139,3 @@ Here is a structured summary of the key insights and workflows discussed in the 
 7. Reflect on the process and update future workflows accordingly[^1_1].
 
 This workflow tightly aligns with best practices for productivity and ADHD management, leveraging Zettelkasten to drive clarity, manage scope, and accelerate the move from thinking to output.
-
-<div align="center">⁂</div>
-
-[^1_1]: <https://www.youtube.com/watch?v=7T_a_Dl8clE>\&si=nZd1OfXQGzic8CH0

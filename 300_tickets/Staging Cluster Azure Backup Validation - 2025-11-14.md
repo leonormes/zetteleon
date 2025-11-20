@@ -81,6 +81,7 @@ module "backups" {
 | Datastore | `OperationalStore` | ✓ |
 
 **Schedule Details:**
+
 - Repeating time interval: `R/2024-09-02T21:00:00+00:00/P1D`
 - Time zone: UTC
 - Backup type: Incremental
@@ -100,6 +101,7 @@ module "backups" {
 ### Namespace Configuration
 
 **Included Namespaces:** ✓ MATCHES TERRAFORM
+
 - `ff-test-a`
 - `ff-test-b`
 - `ff-test-c`
@@ -108,6 +110,7 @@ module "backups" {
 ### Resource Type Filtering
 
 **Excluded Resource Types:** ✓ MATCHES TERRAFORM
+
 - `volumesnapshotcontent.snapshot.storage.k8s.io`
 - `secrets`
 
@@ -158,37 +161,44 @@ The Azure backup configuration for the staging cluster is correctly set up and m
 ## Validation Commands Used
 
 ### Switch to correct subscription
+
 ```bash
 az account set -s "249df46b-f75d-4492-8e78-b33a00473548"
 ```
 
 ### Verify resource groups
+
 ```bash
 az group show -n "staging-backup-rg" --query "{name:name, location:location, provisioningState:properties.provisioningState}" -o json
 az group show -n "staging-snapshot-rg" --query "{name:name, location:location, provisioningState:properties.provisioningState}" -o json
 ```
 
 ### Verify storage account
+
 ```bash
 az storage account show -n "stagingbackupsa" -g "staging-backup-rg" --query "{name:name, location:location, sku:sku.name, kind:kind, provisioningState:provisioningState}" -o json
 ```
 
 ### Verify backup vault
+
 ```bash
 az dataprotection backup-vault show --resource-group "staging-backup-rg" --vault-name "aksbackupvault" -o json
 ```
 
 ### Verify backup policy
+
 ```bash
 az dataprotection backup-policy show --resource-group "staging-backup-rg" --vault-name "aksbackupvault" --name "dailyaksbackups" -o json
 ```
 
 ### Verify backup instance
+
 ```bash
 az dataprotection backup-instance show --resource-group "staging-backup-rg" --vault-name "aksbackupvault" --backup-instance-name "stagingaksdaily" -o json
 ```
 
 ### Verify IAM permissions
+
 ```bash
 # AKS cluster identity on backup vault
 az role assignment list --assignee "6f4cb9a4-cdd5-42af-9d0a-5b8817446af1" --scope "/subscriptions/249df46b-f75d-4492-8e78-b33a00473548/resourceGroups/staging-backup-rg/providers/Microsoft.DataProtection/backupVaults/aksbackupvault" -o table

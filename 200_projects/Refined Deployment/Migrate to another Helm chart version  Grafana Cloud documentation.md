@@ -83,17 +83,17 @@ Complete the following to map destinations:
 2. Provide a `name` and a `type` for the destination.
 3. Provide the URL for the destination.
 
-	> Note
-	> 
-	> This is a full data writing/pushing URL, not only the hostname.
+ > Note
+ >
+ > This is a full data writing/pushing URL, not only the hostname.
 
 4. Map the other settings from the original service to the new destination as shown in the following table:
-	| Original service | New destination |
-	| --- | --- |
-	| `authMode` | `auth.type` |
-	| Auth definitions (e.g. `basicAuth`) | `auth` |
-	| `externalLabels` | `extraLabels` |
-	| `writeRelabelRules` | `metricProcessingRules` |
+ | Original service | New destination |
+ | --- | --- |
+ | `authMode` | `auth.type` |
+ | Auth definitions (e.g. `basicAuth`) | `auth` |
+ | `externalLabels` | `extraLabels` |
+ | `writeRelabelRules` | `metricProcessingRules` |
 
 ### Collector Mapping
 
@@ -124,14 +124,14 @@ Gathering of Cluster events has been moved into its own feature called [`cluster
 If using Cluster events `logs.cluster_events.enabled`:
 
 1. Enable `clusterEvents` and `alloy-singleton` in your values file:
-	YAML
+ YAML
 
-	```yaml
-	clusterEvents:
-	  enabled: true
-	alloy-singleton:
-	  enabled: true
-	```
+ ```yaml
+ clusterEvents:
+   enabled: true
+ alloy-singleton:
+   enabled: true
+ ```
 
 2. Move `logs.cluster_events` to `clusterEvents`.
 3. Rename `extraStageBlocks` to `extraProcessingStages`.
@@ -166,14 +166,14 @@ These have all been combined into a single feature called [`clusterMetrics`](htt
 If using Cluster metrics `metrics.enabled`:
 
 1. Enable `clusterMetrics` and `alloy-metrics` in your values file:
-	YAML
+ YAML
 
-	```yaml
-	clusterMetrics:
-	  enabled: true
-	alloy-metrics:
-	  enabled: true
-	```
+ ```yaml
+ clusterMetrics:
+   enabled: true
+ alloy-metrics:
+   enabled: true
+ ```
 
 2. Move each of the sections in the previous table to `clusterMetrics`.
 3. Rename any `extraRelabelingRules` to `extraDiscoveryRules`.
@@ -190,14 +190,14 @@ Discovery of Pods and Services by annotation has been moved into its own feature
 If using annotation autodiscovery `metrics.autoDiscover.enabled`:
 
 1. Enable `annotationAutodiscovery` and `alloy-metrics` in your values file:
-	YAML
+ YAML
 
-	```yaml
-	annotationAutodiscovery:
-	  enabled: true
-	alloy-metrics:
-	  enabled: true
-	```
+ ```yaml
+ annotationAutodiscovery:
+   enabled: true
+ alloy-metrics:
+   enabled: true
+ ```
 
 2. Move the contents of `metrics.autoDiscover` to `annotationAutodiscovery`.
 3. Rename any `extraRelabelingRules` to `extraDiscoveryRules`.
@@ -222,25 +222,25 @@ If using annotation autodiscovery `metrics.autoDiscover.enabled`:
 If using application observability `traces.enabled` and `receivers.*.enabled`:
 
 1. Enable `applicationObservability` and `alloy-receiver` in your values file:
-	YAML
+ YAML
 
-	```yaml
-	applicationObservability:
-	  enabled: true
-	alloy-receiver:
-	  enabled: true
-	```
+ ```yaml
+ applicationObservability:
+   enabled: true
+ alloy-receiver:
+   enabled: true
+ ```
 
 2. Move any extra ports opened for applications from `alloy.alloy.extraPorts` to `alloy-receiver.alloy.extraPorts`
 3. Enable the receivers you want to use in `applicationObservability.receivers`, for example:
-	YAML
+ YAML
 
-	```yaml
-	applicationObservability:
-	  receivers:
-	    grpc:
-	      enabled: true
-	```
+ ```yaml
+ applicationObservability:
+   receivers:
+     grpc:
+       enabled: true
+ ```
 
 4. Move receiver processors from `receivers.processors` to `applicationObservability.processors`.
 5. Move metric filters from `metrics.receiver.filters` to `applicationObservability.metrics.filters`.
@@ -262,14 +262,14 @@ Deployment and handling of the zero-code instrumentation feature using Grafana B
 If using Beyla `beyla.enabled`:
 
 1. Enable `autoInstrumentation` and `alloy-metrics` in your values file:
-	YAML
+ YAML
 
-	```yaml
-	autoInstrumentation:
-	  enabled: true
-	alloy-metrics:
-	  enabled: true
-	```
+ ```yaml
+ autoInstrumentation:
+   enabled: true
+ alloy-metrics:
+   enabled: true
+ ```
 
 2. Combine `beyla` and `metrics.beyla` and copy to `autoInstrumentation.beyla`
 
@@ -284,19 +284,19 @@ Gathering of Pods logs has been moved into its own feature called `podLogs`.
 If using Pod logs `logs.pod_logs.enabled`:
 
 1. Enable `podLogs` and `alloy-logs` in your values file:
-	YAML
+ YAML
 
-	```yaml
-	podLogs:
-	  enabled: true
-	alloy-logs:
-	  enabled: true
-	```
+ ```yaml
+ podLogs:
+   enabled: true
+ alloy-logs:
+   enabled: true
+ ```
 
 2. Move `logs.pod_logs` to `podLogs`.
 3. Rename:
-	- `extraRelabelingRules` to `extraDiscoveryRules`
-	- `extraStageBlocks` to `extraLogProcessingStages`
+ - `extraRelabelingRules` to `extraDiscoveryRules`
+ - `extraStageBlocks` to `extraLogProcessingStages`
 
 ### Prometheus Operator Objects Mapping
 
@@ -312,19 +312,19 @@ Handling for Prometheus Operator objects, such as `ServiceMonitors`, `PodMonitor
 If using Prometheus Operator objects, `metrics.podMonitors.enabled`, `metrics.probes.enabled`,`metrics.serviceMonitors.enabled`, `prometheus-operator-crds.enabled`:
 
 1. Enable `prometheusOperatorObjects` and `alloy-metrics` in your values file:
-	YAML
+ YAML
 
-	```yaml
-	prometheusOperatorObjects:
-	  enabled: true
-	alloy-metrics:
-	  enabled: true
-	```
+ ```yaml
+ prometheusOperatorObjects:
+   enabled: true
+ alloy-metrics:
+   enabled: true
+ ```
 
 2. Move the following:
-	- `metrics.podMonitors` to `prometheusOperatorObjects.podMonitors`
-	- `metrics.probes` to `prometheusOperatorObjects.probes`
-	- `metrics.serviceMonitors` to `prometheusOperatorObjects.serviceMonitors`
+ - `metrics.podMonitors` to `prometheusOperatorObjects.podMonitors`
+ - `metrics.probes` to `prometheusOperatorObjects.probes`
+ - `metrics.serviceMonitors` to `prometheusOperatorObjects.serviceMonitors`
 
 ### Integrations Mapping
 
@@ -347,16 +347,16 @@ The following are built-in integrations:
 If using the Alloy integration `metrics.alloy.enabled`, or if using `extraConfig` for cert-manager, etcd, or MySQL:
 
 1. Create instances of the integration that you want, and enable `alloy-metrics` in your values file:
-	YAML
+ YAML
 
-	```yaml
-	integrations:
-	  alloy:
-	    instances:
-	      - name: 'alloy'
-	alloy-metrics:
-	  enabled: true
-	```
+ ```yaml
+ integrations:
+   alloy:
+     instances:
+       - name: 'alloy'
+ alloy-metrics:
+   enabled: true
+ ```
 
 2. Move `metrics.alloy` to `integrations.alloy.instances[]`.
 
@@ -377,11 +377,11 @@ For other uses of `extraConfig`, refer to the following table:
 | Alloy for Profiles | `profiles.extraConfig` | `alloy-profiles.extraConfig` |
 
 1. Move the following:
-	- `extraConfig` related to metrics to `alloy-metrics.extraConfig`
-	- `extraConfig` related to application receivers to `alloy-receivers.extraConfig`
-	- `logs.cluster_events.extraConfig` to `alloy-singleton.extraConfig`
-	- `logs.extraConfig` to `alloy-logs.extraConfig`
-	- `profiles.extraConfig` to `alloy-profiles.extraConfig`
+ - `extraConfig` related to metrics to `alloy-metrics.extraConfig`
+ - `extraConfig` related to application receivers to `alloy-receivers.extraConfig`
+ - `logs.cluster_events.extraConfig` to `alloy-singleton.extraConfig`
+ - `logs.extraConfig` to `alloy-logs.extraConfig`
+ - `profiles.extraConfig` to `alloy-profiles.extraConfig`
 2. Rename destinations for telemetry data to the appropriate destination component. Refer to [Destination names](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/configuration/helm-chart-config/helm-chart/migrate-helm-chart/#destination-names).
 
 #### Destination Names

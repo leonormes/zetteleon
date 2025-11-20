@@ -127,12 +127,14 @@ By doing so, you transform the confusing mess of dependencies into a rich, navig
 ## Related Concepts
 
 ### Atomicity & Structure
+
 - [[The Atomicity Principle - One Idea Per Note]]
 - [[Main Notes Are the Essential Building Blocks]]
 - [[Structure Notes as Maps of Thought Trails]]
 - [[Linking as a Redundancy Reduction Strategy in Zettelkasten]]
 
 ### Dependencies & Complexity
+
 - [[I Don't Like Dependencies]] - Personal exploration of this tension
 - [[Emergence]] - How complex properties arise from simple interactions
 - [[Emergent Properties]] - The result of necessary dependencies
@@ -140,6 +142,7 @@ By doing so, you transform the confusing mess of dependencies into a rich, navig
 - [[Contextual Relationships]] - How context shapes meaning
 
 ### Knowledge Management Philosophy
+
 - [[Creating Meaningful Links]] - Making dependencies explicit and valuable
 - [[PKM as Process vs Product]] - Process over perfection
 - [[Bottom-Up Organization Allows Emergent Structure]]

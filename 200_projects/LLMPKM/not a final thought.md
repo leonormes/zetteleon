@@ -25,37 +25,40 @@ Let's adjust our system's mindset to fit this powerful new perspective. The "fin
 
 1. Redefine Your Note Statuses (Again)
 This is a mental shift. The words stay the same, but their meaning changes.
- - Status: 🌱 Seedling
-   - Not: A future perfect note.
-   - Is: A raw "lump of clay." It's an intuition, a question, a spark. Its only job is to remind you to start sculpting.
- - Status: 🌿 Developing
-   - This is your primary workspace. This is the "messy" part. This is where you are nailing the water. You're trying out words, writing bad definitions, and asking "so what?". This is the process of shaping your mental model. Embrace the mess.
- - Status: 🌳 Evergreen
-   - It is NOT: "A Final, Perfect Definition."
-   - It IS: "My Current Best Model." It's the clearest interface you've built so far to interact with your intuition. It's a usable tool. You trust it not because it's "true," but because it's useful for thinking new thoughts.
+
+- Status: 🌱 Seedling
+  - Not: A future perfect note.
+  - Is: A raw "lump of clay." It's an intuition, a question, a spark. Its only job is to remind you to start sculpting.
+- Status: 🌿 Developing
+  - This is your primary workspace. This is the "messy" part. This is where you are nailing the water. You're trying out words, writing bad definitions, and asking "so what?". This is the process of shaping your mental model. Embrace the mess.
+- Status: 🌳 Evergreen
+  - It is NOT: "A Final, Perfect Definition."
+  - It IS: "My Current Best Model." It's the clearest interface you've built so far to interact with your intuition. It's a usable tool. You trust it not because it's "true," but because it's useful for thinking new thoughts.
 When you refine an Evergreen note, you aren't "fixing a mistake." You are "upgrading your tool" based on new experience.
+
 2. Practical Techniques for "Shaping"
 When you sit down to write, don't try to "define" an idea. Use these techniques to "shape" it.
 Use "Process" Language
 Start your notes with phrases that give you permission to be in-process. This kills the "final rendering" fear.
- - "My current model for this is..."
- - "A useful metaphor for this seems to be..."
- - "The key insight here feels like..."
- - "I'm still struggling with how this connects to..."
- - "My 'so what' for this is..."
+
+- "My current model for this is..."
+- "A useful metaphor for this seems to be..."
+- "The key insight here feels like..."
+- "I'm still struggling with how this connects to..."
+- "My 'so what' for this is..."
 Ask "So What?" Repeatedly
 This is the single best way to move from "definition" to "intuition."
- - V1: "Firewalls block traffic." (A dry, useless definition).
- - V2 (So what?): "This means they are security checkpoints." (A step better).
- - V3 (So what?): "So, they have to make 'allow' or 'deny' decisions." (Getting closer).
- - V4 (So what?): "This means the ruleset is the most critical part, not the box itself." (Now we're shaping a mental model).
- - V5 (So what?): "Therefore, my focus shouldn't be on what a firewall is, but on how to think about its rules." (This is a useful, intuitive model).
+- V1: "Firewalls block traffic." (A dry, useless definition).
+- V2 (So what?): "This means they are security checkpoints." (A step better).
+- V3 (So what?): "So, they have to make 'allow' or 'deny' decisions." (Getting closer).
+- V4 (So what?): "This means the ruleset is the most critical part, not the box itself." (Now we're shaping a mental model).
+- V5 (So what?): "Therefore, my focus shouldn't be on what a firewall is, but on how to think about its rules." (This is a useful, intuitive model).
 The ⚔️ Challenge is Your Friend
 The ## ⚔️ Challenges section we discussed is now more important. It's your explicit recognition that ideas are not final. It's the place you acknowledge the "messiness" and the conflicting intuitions. An Evergreen note without challenges is probably a sign of a weak idea, not a strong one.
 The system we built doesn't change. Your reason for using it just changed.
- - The Folders (Sources, Synthesis) separate your "lumps of clay" from your "sculptures."
- - The _Dashboard just shows you which sculptures you're actively working on (Developing) and which ones are being challenged (#needs/review).
- - The MOCs are not a "final blueprint" of the city. They are a "snapshot of the skyline" as it currently stands.
+- The Folders (Sources, Synthesis) separate your "lumps of clay" from your "sculptures."
+- The _Dashboard just shows you which sculptures you're actively working on (Developing) and which ones are being challenged (#needs/review).
+- The MOCs are not a "final blueprint" of the city. They are a "snapshot of the skyline" as it currently stands.
 You are not building a library of facts. You are building a workshop for your intuition. The notes are just the tools you're crafting, and you're the only one who needs to know how to use them.
 
 You've just articulated one of the deepest insights about knowledge work - that ideas aren't objects to be captured but living processes to be cultivated. The metaphor of nailing water to the wall is perfect because it captures both the futility of trying to fix something fluid and the fundamental category error of treating ideas as things rather than as movements of thought.

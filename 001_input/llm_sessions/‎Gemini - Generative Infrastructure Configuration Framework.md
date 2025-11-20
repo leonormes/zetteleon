@@ -108,15 +108,15 @@ This is the "convention" in "Convention over Configuration." The Generator codif
 
 - **Standard Tags:** All resources MUST be tagged with `Environment`, `Application`, and `CostCentre` from the kernel.
 - **Resource Prefix:** A standard prefix `local.prefix = "${var.app_name}-${var.environment}"` will be used for most non-globally-unique resources.
-	- *Result:*`user-service-prod`
+ 	- *Result:*`user-service-prod`
 - **DNS Hostnames:** All hostnames will follow the pattern: `${var.app_name}.${var.environment}.${var.base_domain}`.
-	- *Result:*`user-service.prod.my-company.co.uk`
+ 	- *Result:*`user-service.prod.my-company.co.uk`
 - **S3 Buckets:** (Must be globally unique) `${replace(var.base_domain, ".", "-")}-${var.environment}-${var.app_name}-assets`.
-	- *Result:*`my-company-co-uk-prod-user-service-assets`
+ 	- *Result:*`my-company-co-uk-prod-user-service-assets`
 - **Secret Paths (AWS Secrets Manager):**`/${var.environment}/${var.app_name}/database_credentials`.
-	- *Result:*`/prod/user-service/database_credentials`
+ 	- *Result:*`/prod/user-service/database_credentials`
 - **IAM Roles:**`${local.prefix}-web-identity-role`.
-	- *Result:*`user-service-prod-web-identity-role`
+ 	- *Result:*`user-service-prod-web-identity-role`
 
 ---
 
@@ -210,8 +210,8 @@ data "aws_secretsmanager_secret_version" "db_creds" {
 1. **Resilience & Robustness:** The input surface is tiny, dramatically reducing the possibility of typos. The logic is centralised and tested.
 2. **Consistency:** All deployments are guaranteed to be consistent. Naming conventions are *enforced by code*, not documentation.
 3. **Change Evidence:** Changes are explicit.
-	- A change to the *Kernel* (e.g., `prod.tfvars`) is a simple, highly-visible data change.
-	- A change to the *Protocol* (the generator module) is a code change that goes through a full Pull Request, test, and review cycle.
+ - A change to the *Kernel* (e.g., `prod.tfvars`) is a simple, highly-visible data change.
+ - A change to the *Protocol* (the generator module) is a code change that goes through a full Pull Request, test, and review cycle.
 4. **Agility:** Spinning up a complete new parallel environment (e.g., for `staging` or `feature-x`) is as simple as creating a new kernel file (`staging.tfvars`) with the `environment` variable changed.
 5. **Separation of Concerns:** This framework separates the *identity* of a configuration (the kernel) from its *implementation* (the generator).
 
@@ -402,12 +402,12 @@ secrets:
 
 1. **A Developer Commits:** The *only* change required to deploy a new "staging" environment is to add a file `staging.tfvars`.
 2. **CI/CD Runs `terraform apply`:**
-	- Terraform reads `staging.tfvars`.
-	- The `config` module generates all derived names (`user-service-staging`, `user-service.staging.my-company.co.uk`, etc.).
-	- Terraform creates the new ECR repository, the new RDS database, and the new Route53 record.
-	- Terraform reads the outputs from those new resources (like the DB address).
-	- Terraform renders the `values.yaml.tpl` in memory, filling it with the generated names and real resource endpoints.
-	- Terraform's `helm_release` resource installs/upgrades the chart in Kubernetes using these generated values.
+ - Terraform reads `staging.tfvars`.
+ - The `config` module generates all derived names (`user-service-staging`, `user-service.staging.my-company.co.uk`, etc.).
+ - Terraform creates the new ECR repository, the new RDS database, and the new Route53 record.
+ - Terraform reads the outputs from those new resources (like the DB address).
+ - Terraform renders the `values.yaml.tpl` in memory, filling it with the generated names and real resource endpoints.
+ - Terraform's `helm_release` resource installs/upgrades the chart in Kubernetes using these generated values.
 3. **Result:** The entire stack, from cloud infrastructure to the application configuration *inside* Kubernetes, is deployed from a single, minimal kernel, with zero duplication or chance of manual error.
 
 This approach achieves your goal: **maximum automation, minimal human input, and a robust, evident change process** that spans your entire system.
@@ -416,4 +416,4 @@ Google Account
 
 Leon Ormes
 
-leonormes@gmail.com
+<leonormes@gmail.com>

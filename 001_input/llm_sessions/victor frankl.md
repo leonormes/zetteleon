@@ -148,7 +148,7 @@ Studies have demonstrated that logotherapy:
 
 - Increases **meaning in life** and **life satisfaction**[3]
 - Reduces **depression and anxiety** in clinical and non-clinical populations
-- Improves coping in patients with chronic illness (e.g., breast cancer)[1]
+- Improves coping in patients with chronic illness [e.g., breast cancer](1)
 - Enhances **mental toughness in veterans** and **resilience in immigrants**[3]
 
 A 2020 NIH review found that logotherapy is particularly effective in immigrant populations suffering from trauma and acculturation stress, helping them reconstruct identity and purpose in new environments[3].
@@ -286,6 +286,7 @@ Given your ADHD-friendly productivity system preferences and your focus on immed
 This foundational practice helps you identify your personal sources of meaning across Frankl's three pathways.
 
 **Implementation**:
+
 - Create a new Obsidian note titled "My Three Pathways"
 - Under three separate headings (Creative Values, Experiential Values, Attitudinal Values), spend 5-7 minutes per section answering:
   - **Creative**: What contributions do I want to make? What do I want to create or achieve that would feel meaningful? What problems do I want to solve?
@@ -301,6 +302,7 @@ This foundational practice helps you identify your personal sources of meaning a
 Frankl's dereflection technique helps counter the rumination and self-focused anxiety that often accompanies ADHD and depression. Instead of obsessing over problems, you redirect attention toward external goals and values.
 
 **Implementation**:
+
 - At one set time daily (your morning peak energy time is ideal), ask: "What am I fixating on today?" This might be anxiety about a mistake, worry about productivity, or rumination about a conflict.
 - Immediately write down one external goal or value you can redirect that mental energy toward: "Instead of worrying about [X], I can focus on [meaningful external purpose]"
 - Example: Instead of anxiously reviewing past emails, focus on helping a colleague solve their current problem. Instead of ruminating about body image, focus on a creative project you care about.
@@ -314,6 +316,7 @@ Frankl's dereflection technique helps counter the rumination and self-focused an
 This practice applies Nietzsche's principle that "he who has a why in life shall get along with almost any how."[8] By explicitly connecting daily actions to deeper meaning, you transform routine tasks into purposeful engagement.
 
 **Implementation**:
+
 - When taking on a project, task, or even a difficult conversation, open your Obsidian note and write down:
   - **The What**: What is this task/action?
   - **The How**: What specifically will I do?
@@ -329,6 +332,7 @@ This practice applies Nietzsche's principle that "he who has a why in life shall
 Based on Frankl's principle that we cannot always control circumstances but can always control our response, this practice helps you find meaning in difficulties as they arise.
 
 **Implementation**:
+
 - Create a template in Obsidian: "Between Stimulus and Response"
 - When facing a challenge, setback, or difficult emotion, capture:
   - **The Stimulus**: What happened? (Objective description, no judgment)
@@ -347,6 +351,7 @@ Based on Frankl's principle that we cannot always control circumstances but can 
 Rather than only looking forward to meaning, Frankl emphasized reflecting backward on experiences you've already lived. This builds a sense of accumulated purpose and counteracts the ADHD tendency toward "time blindness."
 
 **Implementation**:
+
 - Every Sunday evening, create a weekly review note and capture:
   - **What I Created This Week**: What work, ideas, or contributions did I make? (Creative values)
   - **What I Experienced**: Who did I connect with? What beauty, learning, or wonder did I encounter? (Experiential values)

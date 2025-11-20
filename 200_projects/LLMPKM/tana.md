@@ -20,14 +20,14 @@ updated:
 am drawn to tana.
 
 - It feels like it would answer the problem of finding related notes.
-    - it doesn't really. It offers lots of ways to organise content. I just have lots of content linked together.
+  - it doesn't really. It offers lots of ways to organise content. I just have lots of content linked together.
 - But it instantly made me start tidying.
 - Satisfaction from the tagging and grouping.
 - And that is my trap
 - I wasn't doing the thinking thing.
-    - Cognitive realignment
-    - large thought collider
-    - think mash
+  - Cognitive realignment
+  - large thought collider
+  - think mash
 - it is too much a distraction.
 - it misses out on the systems I have created with LLM.
 - it is more of a walled garden

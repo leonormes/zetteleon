@@ -192,12 +192,12 @@ Given your ADHD and dev background, keep the workflow dead simple:
 
 1. Open / create: `HEAD – <topic>.md`
 2. Write three quick sections, max 5 bullets each:
-    
+
     - `Why I care (right now)`
     - `What I think is true`
     - `What I’m unsure about`
 3. Only then, optionally:
-    
+
     - Ask the LLM for:
         - gaps
         - misconceptions
@@ -232,7 +232,7 @@ For each big area where you already have too-perfect notes:
     ```
 
 4. When you need facts, you:
-    
+
     - Glance at `LIB` or official docs
     - Then come back to `HEAD` and write: “Given what I just read, my picture changes to…”
 
@@ -253,9 +253,9 @@ Let’s encode that as a hard rule:
 Concretely, for any new note or LLM output, ask:
 
 - “Is this just *storing information*?”
-    - If yes → it goes in `LIB` or nowhere.
+  - If yes → it goes in `LIB` or nowhere.
 - “Or does it *capture my thinking*?”
-    - If yes → it goes in `HEAD`.
+  - If yes → it goes in `HEAD`.
 
 If you want, I can next:
 
