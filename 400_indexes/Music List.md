@@ -6,7 +6,7 @@ epistemic:
 journal: Daily
 journal-date: 2025-08-26
 last_reviewed: 
-modified: 2025-11-12T14:24:20Z
+modified: 2025-11-22T14:40:26Z
 purpose: 
 review_interval: 
 see_also: []
@@ -29,6 +29,17 @@ version:
 | The George Benson Cookbook | 1967 | Organ combo jazz              | Straight-ahead, virtuosic jazz [^1][^5]         |
 | Blue Benson (Compilation)  | n/a  | Bebop, jazz-blues             | Collects Benson's real jazz playing [^4][^5]    |
 
+Here is Radiohead's discography in chronological order of studio albums:
+
+- Pablo Honey (1993)
+- The Bends (1995)
+- OK Computer (1997)
+- Kid A (2000)
+- Amnesiac (2001)
+- Hail to the Thief (2003)
+- In Rainbows (2007)
+- The King of Limbs (2011)
+- A Moon Shaped Pool (2016)
 ## Artists & Projects in the Same Lineage
 
 - Boards of Canada – maintains a dreamy, nostalgic psychedelic edge with ambient beats.
