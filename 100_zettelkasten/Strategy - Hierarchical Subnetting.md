@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2025-11-22T15:05:01Z
 epistemic: principle
 last_reviewed: 2025-11-22
-modified: 2025-11-22T14:49:29Z
+modified: 2025-11-22T14:50:52Z
 purpose: "Advocates for grouping subnets logically rather than flattening them."
 review_interval: 90
 see_also: []

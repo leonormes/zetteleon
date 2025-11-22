@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-22T15:05:03Z
 epistemic: NA
 last_reviewed: 2025-11-22
-modified: 2025-11-22T14:49:26Z
+modified: 2025-11-22T14:50:48Z
 purpose: "Explains the refactoring of subnet logic for clarity."
 review_interval: 90
 see_also: []

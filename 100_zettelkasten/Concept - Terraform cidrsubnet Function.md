@@ -4,7 +4,7 @@ confidence: 1.0
 created: 2025-11-22T15:05:00Z
 epistemic: fact
 last_reviewed: 2025-11-22
-modified: 2025-11-22T14:49:21Z
+modified: 2025-11-22T14:50:43Z
 purpose: "Defines the Terraform function for calculating subnets."
 review_interval: 90
 see_also: []
