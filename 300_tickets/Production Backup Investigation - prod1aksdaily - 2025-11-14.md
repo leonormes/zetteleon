@@ -1,18 +1,26 @@
 ---
-tags:
-  - azure
-  - backup
-  - investigation
-  - production
-  - infrastructure
-  - comparison
-date: 2025-11-14
+aliases: []
 cluster: prod-1
-status: investigation-complete
+confidence: 
+created: 2025-11-14T12:21:06Z
+date: 2025-11-14
+epistemic: 
+last_reviewed: 
+modified: 2025-11-20T10:43:00Z
 priority: high
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: investigation-complete
+tags: [azure, backup, comparison, infrastructure, investigation, production]
+title: Production Backup Investigation - prod1aksdaily - 2025-11-14
+type: 
+uid: 
+updated: 
 ---
 
-# Production Backup Investigation - prod1aksdaily
+## Production Backup Investigation - prod1aksdaily
 
 **Date**: 2025-11-14  
 **Cluster**: prod-1 (fitfile-cloud-prod-1-aks-cluster)  
@@ -22,11 +30,11 @@ priority: high
 > [!important] Critical Finding
 > Production is backing up **ALL namespaces** (entire cluster), while Staging only backs up specific namespaces. This is a significant configuration difference that must be addressed before updating Terraform.
 
-## Investigation Summary
+### Investigation Summary
 
 This investigation was conducted to understand the current production backup configuration **before** updating the Terraform code. The goal was to document the existing state to ensure Terraform changes match production requirements.
 
-## 1. Resource Groups
+### 1. Resource Groups
 
 | Resource Group | Status | Location | Notes |
 |----------------|--------|----------|-------|
@@ -37,7 +45,7 @@ This investigation was conducted to understand the current production backup con
 > [!note] Additional Snapshot Resource Group
 > Found an additional snapshot resource group: `Fitfile-cloud-production-cluster-snapshots`. This may be a legacy resource or used for a different purpose. Needs investigation.
 
-## 2. Storage Account
+### 2. Storage Account
 
 | Property | Value |
 |----------|-------|
@@ -49,7 +57,7 @@ This investigation was conducted to understand the current production backup con
 
 **Naming Pattern**: `<cluster-name-no-hyphens>backupsa`
 
-## 3. Backup Vault
+### 3. Backup Vault
 
 | Property | Value |
 |----------|-------|
@@ -62,7 +70,7 @@ This investigation was conducted to understand the current production backup con
 
 **Vault ID**: `/subscriptions/a448d869-4ec5-4c81-82c5-d6e8fa0ec0df/resourceGroups/prod-1-backup-rg/providers/Microsoft.DataProtection/backupVaults/aksbackupvault`
 
-## 4. Backup Policy: dailyaksbackups
+### 4. Backup Policy: Dailyaksbackups
 
 | Property | Value |
 |----------|-------|
@@ -79,9 +87,9 @@ This investigation was conducted to understand the current production backup con
 - Repeating time interval: `R/2024-09-02T21:00:00+00:00/P1D`
 - Backup jobs run every day at 21:00 UTC
 
-## 5. Backup Instance: prod1aksdaily
+### 5. Backup Instance: prod1aksdaily
 
-### Basic Configuration
+#### Basic Configuration
 
 | Property | Value |
 |----------|-------|
@@ -93,7 +101,7 @@ This investigation was conducted to understand the current production backup con
 | Backup Policy | `dailyaksbackups` |
 | Snapshot Resource Group | `prod-1-snapshot-rg` |
 
-### Namespace Configuration
+#### Namespace Configuration
 
 > [!warning] All Namespaces Backed Up
 > Production is configured to back up **ALL namespaces** in the cluster. This is different from the staging configuration.
@@ -112,7 +120,7 @@ This investigation was conducted to understand the current production backup con
 - ⚠️ Higher storage costs
 - ✓ More comprehensive disaster recovery capability
 
-### Resource Type Filtering
+#### Resource Type Filtering
 
 **Excluded Resource Types**:
 
@@ -124,7 +132,7 @@ This investigation was conducted to understand the current production backup con
 - VolumeSnapshotContent is handled separately by the snapshot mechanism
 - Secrets are sensitive and should be managed through other means (e.g., Key Vault)
 
-### Additional Settings
+#### Additional Settings
 
 | Setting | Value |
 |---------|-------|
@@ -132,9 +140,9 @@ This investigation was conducted to understand the current production backup con
 | Snapshot Volumes | `true` |
 | Label Selectors | `[]` (none) |
 
-## 6. IAM Permissions
+### 6. IAM Permissions
 
-### AKS Cluster Identity
+#### AKS Cluster Identity
 
 **Principal ID**: `e80e29ae-dced-4ed8-89c8-58fef036254f`
 
@@ -143,7 +151,7 @@ This investigation was conducted to understand the current production backup con
 
 **Role Assignments on Backup Vault**: ⚠️ **NONE FOUND**
 
-### Backup Vault Identity
+#### Backup Vault Identity
 
 **Principal ID**: `ed69f0a8-1346-4a7e-94d1-6af7b6075367`
 
@@ -155,9 +163,9 @@ This investigation was conducted to understand the current production backup con
 | `Disk Snapshot Contributor` | Create and manage disk snapshots |
 | `Data Operator for Managed Disks` | Perform operations on managed disks |
 
-## 7. Backup Job History
+### 7. Backup Job History
 
-### Recent Performance (Last 14 Days)
+#### Recent Performance (Last 14 Days)
 
 **Status**: ✅ **100% Success Rate**
 
@@ -178,7 +186,7 @@ This investigation was conducted to understand the current production backup con
 | 2025-11-01 | 21:00:21 | 00:12:26 | Completed |
 | 2025-10-31 | 21:00:19 | 00:12:24 | Completed |
 
-### Performance Metrics
+#### Performance Metrics
 
 - **Success Rate**: 100% (14/14 jobs)
 - **Average Duration**: ~10-12 minutes
@@ -186,9 +194,9 @@ This investigation was conducted to understand the current production backup con
 - **Backup Window**: Consistent timing around 21:00 UTC
 - **Duration Trend**: Stable, no performance degradation
 
-## 8. Comparison: Production vs Staging
+### 8. Comparison: Production Vs Staging
 
-### Critical Differences
+#### Critical Differences
 
 | Aspect | Production | Staging | Impact |
 |--------|------------|---------|--------|
@@ -196,7 +204,7 @@ This investigation was conducted to understand the current production backup con
 | **AKS Identity IAM** | ⚠️ No explicit role on vault | `Backup Contributor` on vault | Unusual but functional |
 | **Backup Duration** | ~10-12 minutes | ~10-12 minutes | Similar despite scope difference |
 
-### Similarities
+#### Similarities
 
 | Aspect | Configuration |
 |--------|---------------|
@@ -209,9 +217,9 @@ This investigation was conducted to understand the current production backup con
 | **Snapshot Volumes** | Enabled |
 | **Include Cluster Scope** | Enabled |
 
-## 9. Key Findings
+### 9. Key Findings
 
-### ⚠️ Critical Finding: Namespace Scope
+#### ⚠️ Critical Finding: Namespace Scope
 
 **Production backs up the ENTIRE cluster** (all namespaces), while **Staging backs up only specific application namespaces**.
 
@@ -228,7 +236,7 @@ This investigation was conducted to understand the current production backup con
 - ✓ **Pros**: Complete disaster recovery capability, no missed workloads
 - ⚠️ **Cons**: Larger backup size, higher storage costs, potentially unnecessary system data
 
-### ⚠️ IAM Anomaly
+#### ⚠️ IAM Anomaly
 
 **The AKS cluster identity has no explicit role on the backup vault**, yet backups are succeeding consistently at 100% success rate.
 
@@ -241,7 +249,7 @@ This investigation was conducted to understand the current production backup con
 
 **Risk**: When recreating via Terraform, may need to explicitly add this role assignment.
 
-### ✅ Operational Health
+#### ✅ Operational Health
 
 - Backups are running successfully on schedule
 - 100% success rate over the last 14 days
@@ -249,13 +257,13 @@ This investigation was conducted to understand the current production backup con
 - No failed or stuck jobs
 - System is production-ready and stable
 
-## 10. Recommendations for Terraform Configuration
+### 10. Recommendations for Terraform Configuration
 
-### Decision Required: Namespace Strategy
+#### Decision Required: Namespace Strategy
 
 Before updating Terraform, you must decide on the namespace backup strategy:
 
-#### Option A: Keep Backing Up ALL Namespaces (Current Behavior)
+##### Option A: Keep Backing Up ALL Namespaces (Current Behavior)
 
 ```hcl
 backup_included_namespaces = []
@@ -275,7 +283,7 @@ backup_included_namespaces = []
 - ⚠️ Backs up system namespaces (may be unnecessary)
 - ⚠️ Longer restore times if only specific namespaces needed
 
-#### Option B: Switch to Selective Namespaces (Like Staging)
+##### Option B: Switch to Selective Namespaces (Like Staging)
 
 ```hcl
 backup_included_namespaces = [
@@ -300,7 +308,7 @@ backup_included_namespaces = [
 - ⚠️ Doesn't backup system/infrastructure namespaces
 - ⚠️ Less comprehensive disaster recovery
 
-### IAM Configuration
+#### IAM Configuration
 
 **Action Required**: Investigate the IAM configuration before Terraform changes
 
@@ -310,7 +318,7 @@ backup_included_namespaces = [
 4. ✓ Test IAM changes in staging first
 5. ⚠️ Ensure Terraform recreate doesn't break existing backups
 
-### Storage Account Naming
+#### Storage Account Naming
 
 **Pattern Identified**:
 
@@ -320,9 +328,9 @@ backup_included_namespaces = [
 
 This pattern should be maintained in Terraform configuration.
 
-## 11. Next Steps
+### 11. Next Steps
 
-### Before Updating Terraform
+#### Before Updating Terraform
 
 - [ ] **Decide on namespace backup strategy** (all vs selective)
 - [ ] **Investigate IAM permission model** (why no explicit AKS role needed?)
@@ -330,7 +338,7 @@ This pattern should be maintained in Terraform configuration.
 - [ ] **Review backup costs** (understand impact of all-namespace backup)
 - [ ] **Document production namespace list** (if switching to selective)
 
-### When Updating Terraform
+#### When Updating Terraform
 
 - [ ] Match namespace configuration to business requirements
 - [ ] Add explicit IAM role assignments (test in staging first)
@@ -339,7 +347,7 @@ This pattern should be maintained in Terraform configuration.
 - [ ] Keep backup schedule (21:00 UTC)
 - [ ] Maintain exclusions (volumesnapshotcontent, secrets)
 
-### After Terraform Apply
+#### After Terraform Apply
 
 - [ ] Verify backup instance configuration matches expectations
 - [ ] Confirm next scheduled backup runs successfully
@@ -347,49 +355,49 @@ This pattern should be maintained in Terraform configuration.
 - [ ] Check namespace scope is as intended
 - [ ] Monitor backup job history for any failures
 
-## 12. Investigation Commands Used
+### 12. Investigation Commands Used
 
-### Switch Subscription
+#### Switch Subscription
 
 ```bash
 az account set -s "a448d869-4ec5-4c81-82c5-d6e8fa0ec0df"
 az account show --query "{subscription_id: id, subscription_name: name}" -o table
 ```
 
-### Resource Groups
+#### Resource Groups
 
 ```bash
 az group show -n "prod-1-backup-rg" --query "{name:name, location:location, provisioningState:properties.provisioningState}" -o json
 az group list --query "[?contains(name, 'prod') && contains(name, 'snapshot')].{name:name, location:location}" -o table
 ```
 
-### Storage Account
+#### Storage Account
 
 ```bash
 az storage account list -g "prod-1-backup-rg" --query "[].{name:name, location:location, sku:sku.name, kind:kind}" -o table
 ```
 
-### Backup Vault
+#### Backup Vault
 
 ```bash
 az dataprotection backup-vault show --resource-group "prod-1-backup-rg" --vault-name "aksbackupvault" -o json
 ```
 
-### Backup Policy
+#### Backup Policy
 
 ```bash
 az dataprotection backup-policy list --resource-group "prod-1-backup-rg" --vault-name "aksbackupvault" -o table
 az dataprotection backup-policy show --resource-group "prod-1-backup-rg" --vault-name "aksbackupvault" --name "dailyaksbackups" -o json
 ```
 
-### Backup Instance
+#### Backup Instance
 
 ```bash
 az dataprotection backup-instance list --resource-group "prod-1-backup-rg" --vault-name "aksbackupvault" -o table
 az dataprotection backup-instance show --resource-group "prod-1-backup-rg" --vault-name "aksbackupvault" --backup-instance-name "prod1aksdaily" -o json
 ```
 
-### IAM Permissions
+#### IAM Permissions
 
 ```bash
 # AKS cluster identity
@@ -405,13 +413,13 @@ SNAPSHOT_RG_ID="/subscriptions/a448d869-4ec5-4c81-82c5-d6e8fa0ec0df/resourceGrou
 az role assignment list --assignee "$VAULT_PRINCIPAL_ID" --scope "$SNAPSHOT_RG_ID" -o table
 ```
 
-### Backup Jobs
+#### Backup Jobs
 
 ```bash
 az dataprotection job list --resource-group "prod-1-backup-rg" --vault-name "aksbackupvault" --query "[].{operation:properties.operation, status:properties.status, startTime:properties.startTime, duration:properties.duration, backupInstanceName:properties.backupInstanceFriendlyName}" -o table
 ```
 
-## Related Documentation
+### Related Documentation
 
 - [[Staging Cluster Azure Backup Validation - 2025-11-14]] - Comparison baseline
 - Azure Resource IDs documented above for quick reference

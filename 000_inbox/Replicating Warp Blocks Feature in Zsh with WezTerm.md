@@ -93,7 +93,7 @@ return {
 }
 ```
 
-This configuration enables triple-clicking anywhere within a command's output to select the entire block[3].
+This configuration enables triple-clicking anywhere within a command's output to select the entire block.
 
 3. Optionally, add key bindings to navigate between command blocks. For example, to use `Shift+Up` and `Shift+Down` to jump between prompts:
 
