@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-24T11:22:05Z
 epistemic:
 last_reviewed:
-modified: 2025-11-24T11:31:46Z
+modified: 2025-11-24T11:33:03Z
 purpose:
 review_interval:
 see_also: []
@@ -127,40 +127,44 @@ To assign **AcrPull** for an ACR:
 
 #### Azure CLI Commands
 
-{code:azurecli}
-
 ## (Optional) Create a New Service Principal for AKS
 
-## This Command Will Output the appId (client ID) and Password (client secret)
+This Command Will Output the appId (client ID) and Password (client secret)
 
-az ad sp create-for-rbac --name myAKSServicePrincipal
+`az ad sp create-for-rbac --name myAKSServicePrincipal`
 
 ## Assign the Contributor Role to the Service Principal at the Resource Group Scope
 
-## Replace with the Service Principal's Client ID and with Your Target RG
+Replace with the Service Principal's Client ID and with Your Target RG
 
+```sh
 az role assignment create  
 --assignee  
 --role "Contributor"  
 --resource-group
+```
 
 ## Assign the Network Contributor Role for Custom VNET Scenarios
 
-## Replace and with Your Values
+Replace and with Your Values
 
+```
 az role assignment create  
 --assignee  
 --role "Network Contributor"  
 --scope "/subscriptions//resourceGroups/"
+```
 
 ## Assign the AcrPull Role to Grant Image Pull Permissions
 
 ## Replace and with Your ACR's Details
 
+```
 az role assignment create  
 --assignee  
 --role "AcrPull"  
 --scope "/subscriptions//resourceGroups//providers/Microsoft.ContainerRegistry/registries/"  
+```
 {code}
 
 ### PowerShell Commands
@@ -169,8 +173,10 @@ az role assignment create
 
 ## (Optional) Create a New Service Principal
 
+```
 $sp = New-AzADServicePrincipal -DisplayName "myAKSServicePrincipal"  
 Write-Output "Application ID: $($sp.ApplicationId)"
+```
 
 ## The Password is a SecureString. If You Need the Plain Text (for e.g., CLI login), Convert it
 
