@@ -89,9 +89,3 @@ This is the practical antidote to being "suspicious of feeling certain." It allo
 When you are wrong, it is not a *failure of your self*. It is a *success of your process*, because you have just updated your model of the world to be more accurate.
 
 Your confidence is no longer in being right. Your confidence is in your *process* of seeking, acting, and adapting.
-
-Google Account
-
-Leon Ormes
-
-<leonormes@gmail.com>

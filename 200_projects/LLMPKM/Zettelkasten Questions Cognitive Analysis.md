@@ -1,20 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-11-03T10:47:24Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-11-03T13:48:23Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status:
+tags:
+  - pkm
 title: Zettelkasten Questions Cognitive Analysis
-type: 
-uid: 
-updated: 
+type:
+uid:
+updated:
 ---
 
 ## **The Strategic Application and Cognitive Impact of Processing Questions in the Zettelkasten Method**

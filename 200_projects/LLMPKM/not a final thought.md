@@ -10,7 +10,8 @@ review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags: []
+tags:
+  - pkm
 title: not a final thought
 type:
 uid:

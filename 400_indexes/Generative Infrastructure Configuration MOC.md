@@ -23,7 +23,7 @@ updated: 2025-01-15T10:10:00Z
 
 ### Core Framework
 
-- [[Generative Infrastructure Configuration Framework]] - The overarching framework for reducing configuration errors through generation
+- [[100_zettelkasten/Generative Infrastructure Configuration Framework]] - The overarching framework for reducing configuration errors through generation
 - [[Configuration as Generated Output]] - Design principle treating config as derived output
 
 ### Framework Components

@@ -1,20 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-21T03:05:55Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-11-03T13:48:24Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status:
+tags:
+  - pkm
 title: Units of a PKM
 type:
-uid: 
-updated: 
+uid:
+updated:
 version:
 ---
 

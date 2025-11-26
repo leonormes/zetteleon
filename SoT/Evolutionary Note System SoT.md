@@ -47,9 +47,9 @@ During synthesis, we process the queue, looking for patterns, resolving contradi
 
 ## Integration Queue
 
-[[capture thoughts to extend]]
+[[What Organizing Your Thoughts Really Means]]
 
-[[not a final thought]]
+[[Not a Final Thought]]
 
 ## Battle Testing
 

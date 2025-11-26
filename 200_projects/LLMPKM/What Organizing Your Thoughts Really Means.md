@@ -4,14 +4,14 @@ confidence:
 created: 2025-11-08T15:40:41Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-12T15:43:13Z
+modified: 2025-11-24T19:35:27Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [SynthesisNeeded]
-title: capture thoughts to extend
+title: What Organizing Your Thoughts Really Means
 type: 
 uid: 
 updated: 
