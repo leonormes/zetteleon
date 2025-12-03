@@ -30,8 +30,6 @@ This helps to develop a more profound understanding of complex concepts.
 
 [[Extended Thought and Reflection for Understanding]]
 
-[[Zettelkasten in Thought Processes]]
-
 [[The Extended Mind Thesis]]
 
 [[Abstraction Improves Breadth of Understanding]]

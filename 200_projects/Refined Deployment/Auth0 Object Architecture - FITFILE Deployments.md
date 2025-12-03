@@ -18,12 +18,9 @@ updated:
 version:
 ---
 
-## Auth0 Object Architecture - FITFILE Deployments
-
 **Created**: 2025-09-25
 **Topic**: Auth0 Infrastructure Design
 **Context**: Understanding what Auth0 objects are needed for new deployments
-**Related**: [[Auth0 Terraform Conflict Investigation - MKUH Deployment]]
 
 ---
 

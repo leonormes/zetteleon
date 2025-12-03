@@ -17,8 +17,6 @@ uid:
 updated: 
 ---
 
-## Azure Backup for AKS — An OOP-style Architecture Overview
-
 Below is a conceptual model of Azure Backup’s components, relationships, and data flow for AKS, expressed with object-oriented design concepts. It’s general enough for typical AKS scenarios and can be mapped to your production setup.
 
 ---

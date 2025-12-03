@@ -19,7 +19,6 @@ uid: 2025-11-10T14:04:00Z
 updated: 2025-11-10T14:04:00Z
 ---
 
-## Time Blocking Focuses on When a Task is Done While Time Boxing Focuses on How Much Time is Spent
 
 | Criterion | Time Blocking | Time Boxing |
 |---|---|---|

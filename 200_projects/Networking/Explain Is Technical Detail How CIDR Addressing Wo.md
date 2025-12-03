@@ -90,4 +90,4 @@ When planning Virtual Network (VNet) and subnet address spaces, consider the fol
 9. **Documentation**: Maintain clear documentation of your address allocation to avoid conflicts and aid in troubleshooting.
 10. **Use CIDR calculators**: Utilize online CIDR calculators to help plan and visualize your address spaces.
 
-By following these techniques and understanding CIDR addressing, you can create an efficient and scalable network architecture for your cloud infrastructure[^1_1][^1_2][^1_3][^1_4][^1_5].
+By following these techniques and understanding CIDR addressing, you can create an efficient and scalable network architecture for your cloud infrastructure

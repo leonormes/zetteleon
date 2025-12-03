@@ -17,7 +17,6 @@ uid: 2025-10-31T08:15:00Z
 updated: 2025-10-31T08:15:00Z
 ---
 
-## Atomic Vs Structural Notes
 
 **Summary:** Notes in a zettelkasten are divided into two mutually exclusive categories—atomic notes that contain isolated facts, and structural notes that create context by linking atomic notes together.
 

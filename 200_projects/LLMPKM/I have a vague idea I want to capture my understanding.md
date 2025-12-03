@@ -25,9 +25,9 @@ To develop a PKM (Personal Knowledge Management) system in Obsidian focused on c
 
 ## Core Principles
 
-- **Capture your questions and learning process, not just facts**—document what you struggled with, real-world problems solved, and mental models you developed[^1_1][^1_2].
-- **Prioritize note-making over note-taking**—focus on your own synthesis, “aha!” moments, and abstractions rather than rote copying or summarization[^1_3].
-- **Build atomic, linked notes**—use small, focused notes on individual ideas, concepts, problems, or workflows, then connect them through backlinks and tags[^1_4].
+- **Capture your questions and learning process, not just facts**—document what you struggled with, real-world problems solved, and mental models you developed. 
+- **Prioritize note-making over note-taking**—focus on your own synthesis, “aha!” moments, and abstractions rather than rote copying or summarization.
+- **Build atomic, linked notes**—use small, focused notes on individual ideas, concepts, problems, or workflows, then connect them through backlinks and tags.
 
 ***
 
@@ -119,59 +119,3 @@ I used to think state files were just logs. Now I understand...
 - Regularly rewrite and link notes for better synthesis and retrieval[^1_1].
 
 This approach will ensure your PKM grows into a rich, interconnected system for understanding rather than a passive collection of docs.
-
-<span style="display:none">[^1_10][^1_11][^1_12][^1_13][^1_14][^1_15][^1_16][^1_17][^1_18][^1_19][^1_20][^1_21][^1_22][^1_23][^1_24][^1_25][^1_26][^1_9]</span>
-
-<div align="center">⁂</div>
-
-[^1_1]: <https://www.reddit.com/r/PKMS/comments/1nj4b22/how_ive_been_using_gpt_in_obsidian_to_actually/>
-
-[^1_2]: <https://www.dsebastien.net/how-pkm-and-note-taking-tools-help-us-think-more-effectively/>
-
-[^1_3]: <https://practicalpkm.kit.com/posts/note-taking-vs-note-making-crafting-a-pkm-that-thinks-with-you>
-
-[^1_4]: <https://www.youtube.com/watch?v=Jdi2e3htoyk>
-
-[^1_5]: projects.zettelkasten
-
-[^1_6]: <https://www.jordanrobison.net/p/personal-knowledge-management-obsidian>
-
-[^1_7]: <https://www.reddit.com/r/ObsidianMD/comments/1belcsk/what_is_your_pkm_method_for_obsidian/>
-
-[^1_8]: <https://publish.obsidian.md/aidanhelfant/Atlas/MOCS/PKM+MOC>
-
-[^1_9]: tools.excalidraw_obsidian
-
-[^1_10]: <https://www.linkedin.com/pulse/building-pkm-obsidian-claude-practical-guide-paul-kruchoski-havue>
-
-[^1_11]: tools.obsidian_integration
-
-[^1_12]: tools.llm_setup
-
-[^1_13]: preferences.note_system_design
-
-[^1_14]: projects.zettelkasten_notes
-
-[^1_15]: <https://forum.obsidian.md/t/pkm-for-programmers-software-engineers-etc/56002>
-
-[^1_16]: <https://gameandtechfocus.com/pkm-app-review-plain-obsidian-the-best-way-to-start/>
-
-[^1_17]: <https://www.samjulien.com/get-started-with-obsidian-as-a-developer/>
-
-[^1_18]: <https://www.xda-developers.com/how-to-use-obsidian-to-create-a-personal-knowledge-management-system/>
-
-[^1_19]: <https://publish.obsidian.md/pkc/Hub/Theory/Sciences/Computer+Science/Note-taking>
-
-[^1_20]: <https://dev.to/dev_tips/why-i-switched-from-obsidian-a-real-developers-story-and-what-im-using-now-ndn>
-
-[^1_21]: <https://www.youtube.com/watch?v=_GkDfOnqNcc>
-
-[^1_22]: <https://forum.obsidian.md/t/oopkm-taking-inspiration-from-programming/1844>
-
-[^1_23]: <https://forum.obsidian.md/t/a-brutalist-approach-to-knowledge-management-in-obsidian/60553>
-
-[^1_24]: <https://practicalpkm.com>
-
-[^1_25]: <https://www.suliworld.com/2023/02/02/dive-into-pkm-with-obsidian/>
-
-[^1_26]: <https://www.reddit.com/r/ObsidianMD/comments/10huwjz/my_honest_feedback_on_obsidian_as_a_pkm_power_user/>

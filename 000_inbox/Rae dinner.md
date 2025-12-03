@@ -1,0 +1,8 @@
+- Pasta tomato sauce with grated cheese 
+- pizza
+- steamed carrots 
+- olives
+- some fish
+- anchovies 
+- steak and chips
+- 

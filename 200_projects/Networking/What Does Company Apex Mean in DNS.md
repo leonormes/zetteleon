@@ -29,7 +29,7 @@ The term "company apex" in DNS refers to the root of a registrable domain, also 
 - **Purpose**: Apex domains are used for the primary web presence of a company or organization and serve as the authoritative root for all subdomains (e.g., `acme.example` instead of `www.acme.example`).[^9][^1][^2]
 - **DNS Records**:
   - Apex domains typically use A or AAAA records to directly point to an IP address.
-  - CNAME records are not permitted at the apex due to DNS protocol restrictions, but some DNS providers support ALIAS or ANAME records as CNAME-like solutions for apex domains.[^5][^2]
+  - CNAME records are not permitted at the apex due to DNS protocol restrictions, but some DNS providers support ALIAS or ANAME records as CNAME-like solutions for apex domains.
 
 ### Apex Vs Subdomain
 
@@ -40,8 +40,8 @@ The term "company apex" in DNS refers to the root of a registrable domain, also 
 
 ### Why It Matters
 
-- The apex domain is where most key DNS records are managed for core services and where the primary branding sits.[^6][^1][^2]
-- When configuring DNS, it's important to recognize constraints at the apex (e.g., no CNAME allowed) and know which records to use for reliable resolution.[^2][^5]
+- The apex domain is where most key DNS records are managed for core services and where the primary branding sits.
+- When configuring DNS, it's important to recognize constraints at the apex (e.g., no CNAME allowed) and know which records to use for reliable resolution.
 - Examples of apex domain records:
   - `acme.example` → A record to `192.0.2.10`
   - `www.acme.example` → CNAME to `acme.example`

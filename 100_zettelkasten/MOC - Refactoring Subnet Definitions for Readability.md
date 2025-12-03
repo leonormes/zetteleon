@@ -17,7 +17,6 @@ uid: 2025-11-22T15:05:03Z
 updated: 2025-11-22T15:05:03Z
 ---
 
-## MOC - Refactoring Subnet Definitions for Readability
 
 **Summary:** This note details a refactoring of Terraform subnet definitions, moving from opaque, direct indexing to a clearer, hierarchical approach.
 
@@ -37,14 +36,14 @@ The improved approach uses [[Strategy - Hierarchical Subnetting]] to break the c
 
 1.  **Carve a generic block:** First, define a larger "Jumpbox Area" (`/26`) from the main VNet.
 
-    ```hcl
-    jumpbox_block_prefix = cidrsubnet(local.vnet_address_space, 2, 2) # Result: 192.168.200.128/26
-    ```
+```hcl
+jumpbox_block_prefix = cidrsubnet(local.vnet_address_space, 2, 2) # Result: 192.168.200.128/26
+```
 
 2.  **Carve the specific subnet:** Then, define the specific VM subnet (`/29`) from *that* intermediate block.
 
-    ```hcl
-    vm_subnet_address_prefix = [cidrsubnet(local.jumpbox_block_prefix, 3, 0)] # Result: 192.168.200.128/29
-    ```
+```hcl
+vm_subnet_address_prefix = [cidrsubnet(local.jumpbox_block_prefix, 3, 0)] # Result: 192.168.200.128/29
+```
 
 This method yields the exact same [[Concept - CIDR Subnet Sizes|CIDR ranges]] but makes the layout explicit: the generic block covers the range `.128-.191`, and the specific VM subnet occupies the first slice of that block.
