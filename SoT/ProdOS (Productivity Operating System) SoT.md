@@ -5,20 +5,20 @@ confidence-gaps: [The friction of maintaining the system during low-energy state
 created: 2025-11-13T17:30:00Z
 decay-signals: []
 epistemic: 
-last-synthesis: 2025-12-04
+last-synthesis: 2025-12-05
 last_reviewed: 
-modified: 2025-12-04T17:04:37Z
+modified: 2025-12-05T10:00:00Z
 mvu-hash: "0a8b2c4d5e6f7a8b9c0d1e2f3a4b5c6d" 
-purpose: 
-quality-markers: ["Synthesized from over a dozen detailed project notes.", "Includes defined Acceptance Criteria."]
+purpose: "The single source of truth for the ProdOS system, defining its principles, architecture, and daily workflow."
+quality-markers: ["Synthesized from over a dozen detailed project notes.", "Includes defined Acceptance Criteria.", "Contains a clear, actionable daily workflow."]
 related-soTs: ["[[Bridging the Intention-Action Gap SoT]]", "[[Evolutionary Note System SoT]]"]
-resonance-score: 5
+resonance-score: 6
 review_interval: 
 see_also: []
 source_of_truth: true
 status: 
 supersedes: ["[[01 - Capture Phase Requirements]]", "[[02 - GTD (Getting Things Done)]]", "[[03 - ProdOS (Productivity Operating System)]]", "[[03a A Unified System for Principle-Centered Productivity and Integrated Knowledge Management]]", "[[04 - Atomic Actions and Next Actions]]", "[[05 - Horizons of Focus]]", "[[06 - The Clarify and Organize Workflow]]", "[[07 - LLM as a Productivity Partner (CoS)]]", "[[08 - Obsidian for PKM]]", "[[09 - Todoist for Task Execution]]", "[[10 - The Review and Reflection Process]]", "[[11 - Time Management (Timeboxing and The Unschedule)]]", "[[12 - Core Principles and Values]]", "[[act framework]]", "[[Biggest problem]]", "[[200_projects/LLMPKM/ProdOS Product Description.md]]", "[[200_projects/ProdOS/Complete Context ProdOS System.md]]", "[[200_projects/ProdOS/ProdOS System Overview and Development Progress.md]]", "[[200_projects/ProdOS/HEAD - ProdOS.md]]", "[[200_projects/ProdOS/I Have a Vague Idea I Want to Capture My Understanding.md]]" ]
-synthesis-count: 3
+synthesis-count: 4
 tags: [adhd, gtd, llm, pkm, prodos, productivity, SoT, system_design]
 title: ProdOS (Productivity Operating System) SoT
 trust-level: authoritative
@@ -27,7 +27,42 @@ uid:
 updated: 
 ---
 
-## 1. Working Knowledge (Stable Foundation)
+## 1. The ProdOS Workflow: A Clear and Simple Process
+
+This is the clear, simple process for using ProdOS daily. The system is designed to handle the complexity; your job is to follow these three phases.
+
+### **Phase 1: Capture (Frictionless & Continuous)**
+Your only goal here is to get thoughts and tasks out of your head and into a trusted system.
+
+-   **Action:** Use the quickest method possible to add an item to your **Obsidian Daily Note**, which serves as your universal inbox. This can be a voice note, a quick text snippet, or a photo.
+-   **Principle:** Do not organize, categorize, or process during capture. The goal is speed and zero friction.
+
+### **Phase 2: Clarify & Engage (Daily Startup Ritual)**
+This is your main daily command-and-control ritual. It should be the first thing you do when you start your workday.
+
+-   **Action:** Run the **`/daily-plan`** command.
+-   **What it Does:**
+    1.  The LLM Chief of Staff (CoS) ingests everything from your inbox (Daily Note, Todoist, etc.).
+    2.  It applies the **Clarity Framework** to each item, suggesting which are projects, single actions, or reference material.
+    3.  It scores all actionable items using the **Priority Algorithm**, enforcing your pre-defined values (The Indistractable Stack).
+    4.  It presents you with a simple, time-blocked schedule for the day with the highest-priority tasks.
+    5.  It identifies the single **`@now_action`**—the first task you should engage with.
+-   **Your Job:** Trust the system. Start with the `@now_action`.
+
+### **Phase 3: Synthesize (As-Needed Knowledge Building)**
+This is how you build and maintain your Zettelkasten without the administrative overhead.
+
+-   **Action:** When you've learned something new or a thought has evolved, run the **`/synthesize [Topic]`** command.
+-   **What it Does:**
+    1.  This triggers the **Chronos Synthesizer**.
+    2.  The LLM finds the relevant SoT note for the topic (or helps you create one).
+    3.  It integrates your new fleeting notes, LLM chat logs, and other inputs into the `Integration Queue` of the SoT.
+    4.  It refines the `Current Understanding` and `MVU` sections of the SoT based on the new information, automatically deprecating old notes.
+-   **Your Job:** Provide the topic and the raw material. The system handles the organization.
+
+---
+
+## 2. Working Knowledge (Stable Foundation)
 
 **ProdOS is a cognitive operating system designed to manage life and work by unifying GTD-based productivity with Zettelkasten-based knowledge management. It is built for an ADHD neurotype, using an LLM "Chief of Staff" (CoS) to augment executive function. Its core purpose is to make principle-centered living automatic, not aspirational, by externalizing thought, clarifying commitments, and guiding action based on pre-defined values.**
 
@@ -35,7 +70,7 @@ It is built on a core philosophy: **Process over Goals, Action over Collection, 
 
 ProdOS is not a single app, but a cohesive workflow integrating **Obsidian** for knowledge, **Todoist** for tasks, and an **LLM as a "Chief of Staff"** to automate, synthesise, and guide. The system's integrity is maintained by the **Chronos Synthesizer**, a "Zero-Toil" LLM-driven workflow that creates and updates canonical **Source of Truth (SoT)** notes.
 
-## 2. Current Understanding (Coherent Narrative)
+## 3. Current Understanding (Coherent Narrative)
 
 For the creative-technical mind, especially one with ADHD, there is a constant battle between three worlds:
 
@@ -51,35 +86,38 @@ The system is built on a hierarchy of principles, most importantly the **Indistr
 
 A key meta-component is the **Clarity Framework**, which provides a systematic, problem-first approach to strategic prioritization, ensuring that effort is applied to the most impactful problems.
 
-## 3. Understanding Layers (Progressive Abstraction)
+## 4. Understanding Layers (Progressive Abstraction)
 
-- **Layer 1: Basic Mental Model:** My brain is for *having* ideas, not *holding* them. ProdOS is my trusted external system that holds my commitments and knowledge, telling me what to do next based on my own values.
+-   **Layer 1: Basic Mental Model:** My brain is for *having* ideas, not *holding* them. ProdOS is my trusted external system that holds my commitments and knowledge, telling me what to do next based on my own values.
 
-- **Layer 2: Mechanistic Explanation (The GTD/ADHD Engine):** ProdOS implements the five stages of GTD (Capture, Clarify, Organize, Reflect, Engage), but adapts them for ADHD.
-  - **Capture:** Is made frictionless and ubiquitous.
-  - **Clarify/Organize:** Is facilitated by the LLM CoS, which uses the **A-C-T framework** to turn vague thoughts into atomic actions and projects. Strategic focus is provided by the **Clarity Framework**.
-  - **Reflect:** Is a semi-automated, guided weekly review that analyzes domain balance and surfaces strategic insights.
-  - **Engage:** Is driven by a priority algorithm that enforces the Indistractable Stack, ensuring I work on what's truly important, not just what's urgent.
+-   **Layer 2: Mechanistic Explanation (The GTD/ADHD Engine):** ProdOS implements the five stages of GTD (Capture, Clarify, Organize, Reflect, Engage), but adapts them for ADHD.
+    -   **Capture:** Is made frictionless and ubiquitous.
+    -   **Clarify/Organize:** Is facilitated by the LLM CoS, which uses the **A-C-T framework** to turn vague thoughts into atomic actions and projects. Strategic focus is provided by the **Clarity Framework**.
+    -   **Reflect:** Is a semi-automated, guided weekly review that analyzes domain balance and surfaces strategic insights.
+    -   **Engage:** Is driven by a priority algorithm that enforces the Indistractable Stack, ensuring I work on what's truly important, not just what's urgent.
 
-- **Layer 3: Protocol/Detail Level (The Technical Architecture):**
-  - **Data Layer:** The Obsidian vault is the source of truth, with a defined folder structure (`00_System`, `01_Inbox`, `02_Projects`, `10_PKM`, etc.) and a unified metadata schema for all notes. Todoist is the action inventory.
-  - **LLM Chief of Staff (CoS):** An LLM agent with three modes (Executor, Socratic Coach, Strategic Advisor) that interacts with the data layer. Key commands include `/capture`, `/cleave`, `/engage-action`, and `/conduct-review`.
-  - **Priority Algorithm:** `Score = ((Importance × 0.6) + (BigRockAlignment × 0.3) + (ContextMatch × 0.1)) * DomainMultiplier`, where the `DomainMultiplier` for `self` (1.5x) and `relationships` (1.2x) mathematically prioritizes life balance over `work` (1.0x).
-  - **A-C-T Framework:** The core processing loop:
-        1. **Action:** Use an LLM to turn a vague goal into a Minimum Viable Action (MVA).
-        2. **Container:** Create a "one-note-container" in Obsidian to define the scope of the MVA.
-        3. **Thought:** After executing the MVA, use an LLM to reflect on the outcome and define the *next* MVA.
-  - **Chronos Synthesizer:** The LLM-driven process for maintaining SoT notes, ensuring knowledge is converged and trust is maintained.
+-   **Layer 3: Protocol/Detail Level (The Technical Architecture):**
+    -   **Three-Layer Context:** The system is governed by a hierarchy of standards: `00_ProdOS_Standards` (how you build), `02_Horizons_of_Focus` (what you're building), and `04_Project_Templates` (what to build next).
+    -   **Multi-Agent System:** The LLM CoS is a team of specialized agents (`IngestionAgent`, `ReasoningAgent`, `RetrievalAgent`, etc.) that handle the workflow.
+    -   **Data Layer:** The Obsidian vault is the source of truth, with a defined folder structure (`01_Inbox`, `02_Projects`, `10_PKM`, etc.) and a unified metadata schema. Todoist is the action inventory.
+    -   **Priority Algorithm:** `Score = ((Importance × 0.6) + (BigRockAlignment × 0.3) + (ContextMatch × 0.1)) * DomainMultiplier`, where the `DomainMultiplier` for `self` (1.5x) and `relationships` (1.2x) mathematically prioritizes life balance over `work` (1.0x).
+    -   **Chronos Synthesizer:** The LLM-driven process for maintaining SoT notes, ensuring knowledge is converged and trust is maintained.
 
-## 4. Minimum Viable Understanding (MVU)
-- **Established:** 2025-11-13
-- **Status:** **STABLE**
-- 1. Capture every thought and task into a single inbox (e.g., Obsidian Daily Note) with zero friction.
-- 2. Once a day, process this inbox. For each item, decide if it's trash, reference, a project, or a single action.
-- 3. Move single actions to a "Next Actions" list.
-- 4. When ready to work, consult only the "Next Actions" list.
+## 5. Minimum Viable Understanding (MVU)
 
-## 5. Acceptance Criteria (Definition of "Done")
+-   **Established:** 2025-11-13
+-   **Status:** **STABLE**
+-   1. Capture every thought and task into a single inbox (e.g., Obsidian Daily Note) with zero friction.
+-   2. Once a day, process this inbox using `/daily-plan`.
+-   3. Trust the `@now_action` the system gives you.
+
+## 6. Open Questions & Ambiguities
+
+-   **Low-Energy States:** How can the `/daily-plan` command be adapted for days with very low executive function? Does it need a "safe mode" that only suggests low-energy tasks?
+-   **Agent Implementation:** What is the most efficient way to build and host the multi-agent system? (e.g., local Ollama models, cloud functions, hybrid).
+-   **Friction of Synthesis:** Is the `/synthesize` command truly "zero-toil," or will the act of initiating it still feel like a chore? How can this be automated further (e.g., triggered automatically when enough related fleeting notes are created)?
+
+## 7. Acceptance Criteria (Definition of "Done")
 
 To combat the "ADHD satisfaction trap" of endless tinkering, the ProdOS system is considered "working" and "done" when it meets these criteria:
 
@@ -89,22 +127,22 @@ To combat the "ADHD satisfaction trap" of endless tinkering, the ProdOS system i
     *   **The 60-Second Test:** Can the **MVU** and **Next Action** for any inactive project be recalled in under 60 seconds using only the SoT/PCC?
     *   **The Reuse Score:** For any new project, was the relevant SoT consulted, successfully avoiding 30+ minutes of new research?
 
-## 6. Battle Testing and Decay Signals
+## 8. Battle Testing and Decay Signals
 
-- **Core Claim(s):**
-    1. A system that algorithmically enforces personal values (Indistractable Stack) will lead to better life balance than one relying on willpower.
-    2. Externalizing the "clarify" step to an LLM CoS will reduce the activation energy for processing inboxes, a common failure point for ADHD-based systems.
-- **Current Status:** **UNDER REVIEW**. The system is designed but not yet fully implemented and battle-tested.
+-   **Core Claim(s):**
+    1.  A system that algorithmically enforces personal values (Indistractable Stack) will lead to better life balance than one relying on willpower.
+    2.  Externalizing the "clarify" step to an LLM CoS will reduce the activation energy for processing inboxes, a common failure point for ADHD-based systems.
+-   **Current Status:** **UNDER REVIEW**. The system is designed but not yet fully implemented and battle-tested.
 
-## 7. Tensions, Gaps, and Cross-SoT Coherence
+## 9. Tensions, Gaps, and Cross-SoT Coherence
 
-- **Tensions:** The desire for a perfect, comprehensive system (Collector's Fallacy) vs. the need for a simple, low-friction system that works even on low-energy days.
-- **Confidence Gaps:** The technical implementation of the LLM CoS, especially the "cleaving" process and the seamless integration with Obsidian/Todoist, is the biggest unknown.
-- **Cross-SoT Coherence:** This SoT is the master plan that operationalizes the principles found in `[[Bridging the Intention-Action Gap SoT]]` and `[[Evolutionary Note System SoT]]`. It is the "how" to their "what" and "why".
+-   **Tensions:** The desire for a perfect, comprehensive system (Collector's Fallacy) vs. the need for a simple, low-friction system that works even on low-energy days.
+-   **Confidence Gaps:** The technical implementation of the LLM CoS, especially the "cleaving" process and the seamless integration with Obsidian/Todoist, is the biggest unknown.
+-   **Cross-SoT Coherence:** This SoT is the master plan that operationalizes the principles found in `[[Bridging the Intention-Action Gap SoT]]` and `[[Evolutionary Note System SoT]]`. It is the "how" to their "what" and "why".
 
-## 8. Sources and Links
+## 10. Sources and Links
 
-- **Primary Sources:** The collection of notes in `200_projects/ProdOS/` that detail the system's philosophy, architecture, and workflows.
-- **Related MOCs:** [[MOC - ProdOS]]
-- **Related SoTs:** [[Bridging the Intention-Action Gap SoT]], [[Evolutionary Note System SoT]]
-- [[ProdOS System Overview and Development Progress]]
+-   **Primary Sources:** The collection of notes in `200_projects/ProdOS/` that detail the system's philosophy, architecture, and workflows.
+-   **Related MOCs:** [[MOC - ProdOS]]
+-   **Related SoTs:** [[Bridging the Intention-Action Gap SoT]], [[Evolutionary Note System SoT]]
+-   [[ProdOS System Overview and Development Progress]]
