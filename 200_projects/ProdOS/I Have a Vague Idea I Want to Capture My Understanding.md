@@ -1,4 +1,9 @@
 ---
+status: superseded
+superseded-by: "[[ProdOS (Productivity Operating System) SoT]]"
+---
+
+---
 aliases: []
 confidence: 
 created: 2025-11-03T11:26:07Z

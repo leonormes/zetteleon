@@ -20,7 +20,7 @@ version: "1"
 
 ## LLM Prompt for FITFILE Documentation Generation
 
-### 1\. Persona and Core Mission
+### 1. Persona and Core Mission
 
 You are an expert technical writer and documentation specialist for a software product called **FITFILE**. Your primary mission is to create, manage, and organise a unified and logical technical documentation suite.
 
@@ -34,7 +34,7 @@ Your goal is to ensure every piece of documentation is hierarchically numbered, 
 
 ---
 
-### 2\. The Unified Numbering System
+### 2. The Unified Numbering System
 
 You must strictly adhere to the following numbering scheme for all documentation.
 
@@ -61,7 +61,7 @@ The base format is `Major.Minor.Feature[.SubFeature][.Variant]`.
 
 ---
 
-### 3\. The Interlinking Mandate
+### 3. The Interlinking Mandate
 
 The key to this system is **explicit, bi-directional linking**. Every document you create must reference its related counterparts.
 
@@ -78,7 +78,7 @@ The key to this system is **explicit, bi-directional linking**. Every document y
 
 ---
 
-### 4\. Source of Truth: Current Documentation Structure
+### 4. Source of Truth: Current Documentation Structure
 
 This is the existing structure you must build upon. Do not change these existing numbers. When adding new items, find the correct logical position and use the next available number.
 
@@ -113,7 +113,7 @@ This is the existing structure you must build upon. Do not change these existing
 
 ---
 
-### 5\. Rules and Best Practices for Content Generation
+### 5. Rules and Best Practices for Content Generation
 
 1. **Always Map First:** Before writing, determine which existing Requirements or Features a new document relates to.
 2. **Be Explicit:** State the linked document numbers directly in a summary or metadata section of the document you are creating.
@@ -125,7 +125,7 @@ This is the existing structure you must build upon. Do not change these existing
 
 ---
 
-### 6\. Task Execution
+### 6. Task Execution
 
 When I ask you to create a new document, you will:
 
@@ -191,23 +191,23 @@ The practice of requirements documentation in software development has evolved s
 
 ### The Evolution and Age of Requirements Practices
 
-**1\. Early Days (1970s-1980s): The Rise of Formal Specification**
+**1. Early Days (1970s-1980s): The Rise of Formal Specification**
 
 In the early decades of software engineering, development was often approached with a mindset borrowed from more traditional engineering disciplines. This led to the rise of heavyweight, formal methodologies.
 
 - **Waterfall Model:** This sequential approach demanded that all requirements be fully documented and signed off before any design or coding could begin. The primary output was a **Software Requirements Specification (SRS)** document. These were often lengthy, highly detailed, and intended to be a complete and unchanging contract between the client and the development team. The international standard ISO/IEC/IEEE 29148, which guides the content of an SRS, is a modern descendant of these early standards.
 
-**2\. The 1990s: Object-Oriented and Use Case-Driven Approaches**
+**2. The 1990s: Object-Oriented and Use Case-Driven Approaches**
 
 As software systems became more complex and interactive, the limitations of purely text-based, declarative statements became apparent.
 
 - **Use Cases:** Popularised by Ivar Jacobson, use cases shifted the focus to user interactions with the system. They describe the step-by-step process a user (or "actor") follows to achieve a goal. This provided more context than a simple list of "shall" statements and became a cornerstone of methodologies like the Rational Unified Process (RUP).
 
-**3\. The 2000s to Present: The Agile Revolution**
+**3. The 2000s to Present: The Agile Revolution**
 
 The turn of the millennium saw the rise of Agile methodologies, which fundamentally changed the industry's approach to documentation. The Agile Manifesto famously values "working software over comprehensive documentation."
 
-- **User Stories:** This is the most prevalent form of requirements documentation in Agile environments like Scrum and Kanban. A user story is a short, simple description of a feature told from the perspective of the person who desires the new capability. The typical format is: "As a \[type of user\], I want \[some goal\] so that \[some reason\]."
+- **User Stories:** This is the most prevalent form of requirements documentation in Agile environments like Scrum and Kanban. A user story is a short, simple description of a feature told from the perspective of the person who desires the new capability. The typical format is: "As a [type of user], I want [some goal] so that [some reason]."
 - **Living Documents:** Rather than creating a large, static requirements document upfront, Agile practices favour "living documents" that evolve throughout the project. These are often managed in tools like Jira, Confluence, or Azure DevOps and are supplemented with visuals like wireframes and diagrams.
 - **Just-in-Time Documentation:** The emphasis is on creating just enough documentation, at the last responsible moment. This avoids the waste of documenting features that may change or be de-prioritised.
 
@@ -249,13 +249,13 @@ Adding a status field transforms your documentation from a static library into a
 
 Here are the best ways to incorporate this, from most to least structured.
 
-#### 1\. Use YAML Frontmatter (Recommended Best Practice)
+#### 1. Use YAML Frontmatter (Recommended Best Practice)
 
 This is the cleanest and most powerful method, especially if you're using a tool like Obsidian that can read this data. Add a `status` field to the frontmatter block at the top of your **Feature** and **Requirement** files.
 
 **Example Feature File (`1.3.2.md`):**
 
-#### 2\. Use Tags
+#### 2. Use Tags
 
 If you prefer a less formal system, tags are a great alternative. They are easy to add and search for. Use a consistent prefix for lifecycle tags.
 
@@ -296,7 +296,7 @@ Here’s how to achieve your proposed system using key Confluence features.
 
 ---
 
-### 1\. Use Page Templates to Standardise Everything
+### 1. Use Page Templates to Standardise Everything
 
 First, create a unique template for each of your document types: **Feature**, **Requirement**, and **FAQ**. This ensures every new page has the correct structure, properties, and instructional text for the author.
 
@@ -309,7 +309,7 @@ First, create a unique template for each of your document types: **Feature**, **
 
 ---
 
-### 2\. Use the "Page Properties" Macro for Metadata
+### 2. Use the "Page Properties" Macro for Metadata
 
 The key to making your system work is the **Page Properties** macro. This macro creates a container for the metadata on each page (like the table in the template above). This data can then be pulled into a central report.
 
@@ -321,7 +321,7 @@ The key to making your system work is the **Page Properties** macro. This macro 
 
 ---
 
-### 3\. Use the "Status" Macro for Lifecycle States
+### 3. Use the "Status" Macro for Lifecycle States
 
 For the `status` field, Confluence has a dedicated **Status** macro that creates a coloured lozenge, making the state immediately obvious.
 
@@ -335,7 +335,7 @@ This gives you a clear visual indicator of the feature's lifecycle stage directl
 
 ---
 
-### 4\. Create a Dynamic Dashboard with the "Page Properties Report" Macro
+### 4. Create a Dynamic Dashboard with the "Page Properties Report" Macro
 
 This is where your system comes to life. On a high-level "Features Overview" page, you can use the **Page Properties Report** macro to create a live, filterable dashboard of all your features.
 
@@ -474,7 +474,7 @@ He creates a new page:
 >
 > We understand that many users require more granular control, such as applying different rules to specific fields. This is a priority for our team and is currently in the planning phase.
 >
-> For more details on the business need, see our internal requirement: \[\[RQ-1.1.3 Granular Privacy Control\]\]. *(He creates this as a placeholder link for now, knowing it's his next step).*
+> For more details on the business need, see our internal requirement: [[RQ-1.1.3 Granular Privacy Control]]. *(He creates this as a placeholder link for now, knowing it's his next step).*
 
 This page immediately provides value. It acknowledges the user's problem and points them towards the internal process.
 
@@ -488,7 +488,7 @@ Now, Ben needs to define *what* the business needs to solve. He goes to the "FIT
 2. **Create the Page:** He creates a new page titled `RQ-1.1.3 Granular Privacy Control`.
 3. **Fill the Metadata:** He fills out the **Page Properties** macro at the top:
    - **Requirement ID:**`RQ-1.1.3`
-   - **Implemented by:\***(He leaves this blank for now)\*
+   - **Implemented by:***(He leaves this blank for now)*
    - **Related FAQs:** He links the FAQ page he just created.
    - **Owner:**`@Priya`
    - **Status:** He clicks the `/status` macro and sets it to `🔵 Planning`.
