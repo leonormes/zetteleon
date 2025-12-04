@@ -3,25 +3,23 @@ status: superseded
 superseded-by: "[[ProdOS (Productivity Operating System) SoT]]"
 ---
 
----
 aliases: []
-confidence: 
+confidence:
 created: 2025-11-14T00:00:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-11-14T11:30:30Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
-source: "https://gemini.google.com/share/f8642fcceba9"
+source: "<https://gemini.google.com/share/f8642fcceba9>"
 source_of_truth: []
-status: 
+status:
 tags: []
 title: Chronos Synthesizer Workflow Summary and ADHD Evaluation
-type: 
-uid: 
-updated: 
----
+type:
+uid:
+updated:
 
 Load this context. This is still not what I want. I want a zettelkasten but 1 I can easily return to. I think I need to change my workflow. This is still a good idea with sot notes as entry points but I need to be able to write as I work. Summarise the workflow and evaluate each touch point for ADHD barriers
 
@@ -79,13 +77,16 @@ While the structure and automation are highly beneficial, the system's complexit
 To achieve your goal of an easily returnable Zettelkasten while writing as you work, I suggest separating the acts of **Writing/Capturing (Low-Friction)** from **Synthesis/Maintenance (High-Friction)**.
 
 1. **Phase 0: Atomic Capture (User Action - Low Friction)**
- - **Action:** The user creates a new, simple **Fleeting/Atomic Note** (Zettel-style).
- - **Mandatory Link:** The user links it to the closest known SoT: `[[<Topic> SoT]]`
- - **ADHD Benefit:** Low cognitive load; focused on the immediate thought.
+
+- **Action:** The user creates a new, simple **Fleeting/Atomic Note** (Zettel-style).
+- **Mandatory Link:** The user links it to the closest known SoT: `[[<Topic> SoT]]`
+- **ADHD Benefit:** Low cognitive load; focused on the immediate thought.
+
 2. **Phase 1-5: Chronos Synthesis (Agent Action - Scheduled)**
- - **Action:** The Agent runs the existing 5-Phase Ritual on all notes linking to the SoT that were created since the `last-synthesis` date.
- - **Agent Task:** The Agent extracts the content of the linked Fleeting Notes and places their unique content into the **Integration Queue** of the SoT note.
- - **ADHD Benefit:** The complex, multi-step process is externalised and automated, turning it into a single, scheduled task ("Run Chronos Synthesis Now").
+
+- **Action:** The Agent runs the existing 5-Phase Ritual on all notes linking to the SoT that were created since the `last-synthesis` date.
+- **Agent Task:** The Agent extracts the content of the linked Fleeting Notes and places their unique content into the **Integration Queue** of the SoT note.
+- **ADHD Benefit:** The complex, multi-step process is externalised and automated, turning it into a single, scheduled task ("Run Chronos Synthesis Now").
 
 Would you like me to draft a new, simplified **Phase 0: Atomic Capture** frontmatter and template to integrate this "Write as you work" step into your existing Chronos system?
 
@@ -161,10 +162,10 @@ I have performed a deep semantic search and conducted the full 5-Phase Chronos R
 
 - **SoT File Path:**`SoT/The Collector's Fallacy SoT.md`
 - **Synthesis Summary:**
- 	- `trust-level`: **developing**
- 	- `synthesis-count`: 1
- 	- `resonance-score`: 1 (Default score for new SoT)
- 	- **MVU Status:****DRAFT**
+  - `trust-level`: **developing**
+  - `synthesis-count`: 1
+  - `resonance-score`: 1 (Default score for new SoT)
+  - **MVU Status:****DRAFT**
 
 ### 🤝 Convergence Report
 
@@ -282,9 +283,11 @@ Your input is either a new `Query` or a `Synthesis Trigger` command.
 
 1. **Deep Search:** Perform high-precision semantic search across all notes (titles, body, frontmatter, backlinks).
 2. **Expanded Retrieval:** Retrieve the top-k highly relevant notes, including:
- - Directly linked notes (those linking to the potential SoT).
- - Notes flagged with `status: needs-integration` or `status: under-review`.
- - Notes that reference any known, related SoTs.
+
+- Directly linked notes (those linking to the potential SoT).
+- Notes flagged with `status: needs-integration` or `status: under-review`.
+- Notes that reference any known, related SoTs.
+
 3. **SoT Triage:** Identify the existing **Canonical SoT** (prefers notes ending with “SoT” or having `type: SoT`). If none is found, create a new one.
 
 ---
@@ -700,8 +703,8 @@ The LLM is now triggered to create the canonical note for this meta-topic.
 
 - **SoT File Path:**`SoT/PKM Confidence and Acceptance Criteria SoT.md`
 - **Synthesis Summary:** This will be a high-trust note because the MVU is verified by the Acceptance Criteria.
- 	- `trust-level`: **stable** (due to defined Acceptance Criteria)
- 	- `synthesis-count`: 1
+  - `trust-level`: **stable** (due to defined Acceptance Criteria)
+  - `synthesis-count`: 1
 
 #### 🤝 Convergence and Deprecation
 

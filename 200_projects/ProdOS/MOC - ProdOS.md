@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [Productivity Operating System]
 confidence: 
 created: 2025-12-04T14:38:32Z
 epistemic: 
@@ -8,16 +8,14 @@ modified: 2025-12-04T15:57:30Z
 purpose: 
 review_interval: 
 see_also: []
-source_of_truth: []
+source_of_truth: [[ProdOS (Productivity Operating System) SoT]]
 status: 
 tags: [prodos, moc]
 title: MOC - ProdOS
 type: MOC
-uid: 
-updated: 
 ---
 
-# ProdOS - Map of Content
+## ProdOS - Map of Content
 
 This MOC serves as the primary entry point for ProdOS (Productivity Operating System), a comprehensive system for integrating principle-centered productivity and knowledge management.
 
@@ -69,6 +67,7 @@ This section contains the collection of original notes, discussions, and explora
   - [[Proven Organizational Methods for Managing a Large-Scale Knowledge Base in Obsidian]]
 
 ---
+
 ```dataview
 LIST FROM #prodos OR #pkm
 SORT file.name ASC
