@@ -22,4 +22,4 @@ This implementation of timeboxing involves scheduling uninterrupted 90-minute bl
 
 This method is based on the concept of ultradian rhythms, which are natural cycles of rest and activity that the human body experiences. Attention and focus tend to peak and wane in approximately 90-minute cycles.
 
-By aligning work sessions with these natural rhythms, it is possible to maximize focused productivity and avoid burnout. This approach is similar to the [[Pomodoro Technique]] but uses longer intervals.
+By aligning work sessions with these natural rhythms, it is possible to maximize focused productivity and avoid burnout. This approach is similar to the [[Analog and Behavioral Techniques are Crucial for ADHD Management|Pomodoro Technique]] but uses longer intervals.

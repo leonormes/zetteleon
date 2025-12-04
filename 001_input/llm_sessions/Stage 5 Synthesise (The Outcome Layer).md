@@ -58,7 +58,7 @@ I take the raw text and put it into a new note. I print it out and look at it on
 
 > The search for a perfect tool is a sophisticated form of procrastination. We tell ourselves we are optimising our workflow, but we are really just sharpening pencils to avoid writing the essay. This behaviour is rooted in a desire for control in the face of the inherent chaos of creative thought. The perfect tool offers a false promise: that our messy, unpredictable ideas can be neatly contained. It is a shield. It protects us from the terrifying silence where the real work begins.
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]
 
 In a structure note titled `[[Productive Procrastination]]`, I would add a new section:
 
@@ -66,7 +66,7 @@ In a structure note titled `[[Productive Procrastination]]`, I would add a new s
 >
 > One of the most common forms of productive procrastination, especially in technical or creative fields, is the endless search for the "perfect tool" (e.g., software, notebook, workflow). This search creates the *illusion* of progress while actively avoiding the core task of creation or problem-solving. It is a defence mechanism against the Fear of the Blank Page. See 202507221650-The-Search-for-the-Perfect-Tool-is-Procrastination.
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]
 
 *The Goal: To use your connected notes to build larger arguments and summaries.*
 
@@ -80,4 +80,4 @@ This is where you zoom out from the atomic level to see the bigger picture that 
 
 > **Outcome**: A coherent understanding of a complex topic, captured in a structure note that serves as a map of your thinking.
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]

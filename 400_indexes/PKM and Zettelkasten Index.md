@@ -66,7 +66,7 @@ A comprehensive index of all notes related to Personal Knowledge Management (PKM
 
 #### Writing as Thinking
 
-- [[The Unified Writing to Think Process]] - Integrated writing-thinking approach
+- [[100_zettelkasten/The Unified Writing to Think Process]] - Integrated writing-thinking approach
 - [[Writing in Iterative Refinement]] - Gradual improvement process
 - [[Exploratory vs Explanatory Writing]] - Different writing modes
 - [[Making Knowledge Personal Through Voice]] - Developing personal voice

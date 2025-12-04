@@ -4,14 +4,13 @@ confidence:
 created: 2025-11-26T05:04:29Z
 epistemic:
 last_reviewed:
-modified: 2025-11-26T17:06:19Z
+modified: 2025-12-04T13:27:53Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - nnuh
+tags: [nnuh]
 title: Permissions to deploy AKS
 type:
 uid:

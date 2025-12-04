@@ -30,4 +30,4 @@ Before you even begin to write, you can use your body and environment to prepare
 
 > **Outcome**: You arrive at the page not with a "cold" brain, but with a mind that is warmed up, attentive, and open to new connections.
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]

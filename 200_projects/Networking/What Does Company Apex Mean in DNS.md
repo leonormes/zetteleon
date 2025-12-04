@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-03T15:47:05Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-12T14:24:30Z
+modified: 2025-12-04T13:28:04Z
 purpose: 
 review_interval: 
 see_also: []
@@ -110,12 +110,3 @@ This distinction is foundational in DNS architecture and a common consideration 
 <span style="display:none">[^4][^8][^9]</span>
 
 <div align="center">⁂</div>
-
-
-
-
-
-
-
-
-

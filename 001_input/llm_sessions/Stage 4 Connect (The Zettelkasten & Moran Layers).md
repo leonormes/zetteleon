@@ -52,4 +52,4 @@ An idea gains its true power when it is connected to other ideas. This stage tra
 
 > **Outcome**: A new, well-formed atomic note that is thoughtfully integrated into your Zettelkasten, creating a coherent and flowing web of thought.
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]

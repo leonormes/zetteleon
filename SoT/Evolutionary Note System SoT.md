@@ -96,4 +96,3 @@ During synthesis, we process the queue, looking for patterns, resolving contradi
 - [[Zettelkasten as a Tool to Overcome Cognitive Limits]]
 - [[Externalise Everything]]
 - [[Documenting Mental Models Enables Project Re-entry]]
-- Original concept note: [[200_projects/LLMPKM/Evolutionary note system for Obsidian.md]]

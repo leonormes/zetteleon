@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-14T12:38:13Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-14T12:48:54Z
+modified: 2025-12-04T13:28:01Z
 purpose: 
 review_interval: 
 see_also: []
@@ -21,7 +21,7 @@ Below is a conceptual model of Azure Backup’s components, relationships, and d
 
 ---
 
-### 0) Two “Vault” Flavors at a Glance
+## 0) Two “Vault” Flavors at a Glance
 
 - Recovery Services Vault (RSV): Legacy/VM-centric workloads (Azure VMs, SAP HANA, etc.)
 - Backup Vault (Data Protection): Modern “Microsoft.DataProtection/backupVaults”. AKS uses this.
@@ -30,7 +30,7 @@ In this model, “BackupVault” refers to the Data Protection vault, while “R
 
 ---
 
-### 1) Component Hierarchy (OOP Classes)
+## 1) Component Hierarchy (OOP Classes)
 
 ```mermaid
 classDiagram
@@ -177,7 +177,7 @@ Notes:
 
 ---
 
-### 2) Relationships and Dependencies (OOP Terms)
+## 2) Relationships and Dependencies (OOP Terms)
 
 - BackupVault composes:
   - DataStores (VaultStore for metadata, optionally OperationalStore semantics)
@@ -191,21 +191,21 @@ Notes:
 
 ---
 
-### 3) Component Responsibilities (Purpose, Key Properties, Operations)
+## 3) Component Responsibilities (Purpose, Key Properties, Operations)
 
-#### BackupVault (Microsoft.DataProtection/backupVaults)
+### BackupVault (Microsoft.DataProtection/backupVaults)
 
 - Purpose: Control plane and storage boundary for backup metadata and orchestration.
 - Key properties: id, location, identity (MSI), dataStores (VaultStore type/redundancy), soft delete, immutability settings.
 - Operations: createPolicy, registerBackupInstance, list jobs and recovery points.
 
-#### BackupPolicy
+### BackupPolicy
 
 - Purpose: Declarative schedule + retention + inclusion/exclusion rules.
 - Key properties: dataSourceType (e.g., Microsoft.ContainerService/managedClusters), schedule (RRule), retention rules, resource filters.
 - Operations: applyTo(instance), update schedule/retention.
 
-#### DataSource (abstract)
+### DataSource (abstract)
 
 - Purpose: The protected workload identity.
 - Specializations:
@@ -213,25 +213,25 @@ Notes:
     - Properties: clusterId, namespaceInclusions/exclusions, labelSelectors, includeClusterScope, excludedResourceTypes (e.g., secrets), snapshotVolumes (bool), snapshotResourceGroupId.
 - Operations: validate selection, resolve discovered entities (namespaces, PVs).
 
-#### BackupInstance
+### BackupInstance
 
 - Purpose: The binding of a policy to a specific data source within a vault.
 - Key properties: state, policyRef, dataSourceRef, latestRecoveryPoint.
 - Operations: triggerBackup, suspend/resume protection, listRecoveryPoints.
 
-#### RecoveryPoint
+### RecoveryPoint
 
 - Purpose: Point-in-time artifact for restore.
 - Key properties: time, metadata presence, snapshot references, consistency status.
 - Operations: restore with params (scope, remapping, in-place vs alternate).
 
-#### Snapshot (managed Disk Snapshot per PV)
+### Snapshot (managed Disk Snapshot per PV)
 
 - Purpose: Volume-level crash-consistent data for PVs.
 - Key properties: snapshot id, disk id, snapshot RG, createdAt.
 - Operations: createDiskFromSnapshot, delete.
 
-#### DataStore
+### DataStore
 
 - Purpose: Logical store type for backed-up data.
 - Types:
@@ -239,13 +239,13 @@ Notes:
   - OperationalStore: Underlying snapshot location semantics (for AKS this maps to Azure Managed Disk snapshots living in a snapshot resource group you specify).
 - Properties: redundancy (LRS/ZRS), immutability (if applicable).
 
-#### RestoreRequest
+### RestoreRequest
 
 - Purpose: Asynchronous restore task definition.
 - Key properties: targetClusterId, restoreScope (cluster/namespace/resource), namespace mappings, storage class mappings, inPlace flag.
 - Operations: create, cancel, trackStatus.
 
-#### ManagedIdentity and RoleAssignment
+### ManagedIdentity and RoleAssignment
 
 - Purpose: Authorization model.
 - Common roles for AKS backups:
@@ -254,9 +254,9 @@ Notes:
 
 ---
 
-### 4) Data Flow
+## 4) Data Flow
 
-#### A) Backup Operation (AKS)
+### A) Backup Operation (AKS)
 
 ```mermaid
 sequenceDiagram
@@ -287,7 +287,7 @@ Key outcomes:
 - PV data is captured as managed disk snapshots in the specified snapshot resource group.
 - A RecoveryPoint ties them together.
 
-#### B) Restore Operation (AKS)
+### B) Restore Operation (AKS)
 
 ```mermaid
 sequenceDiagram
@@ -321,7 +321,7 @@ Restore types:
 
 ---
 
-### 5) AKS-Specific Context and Behaviors
+## 5) AKS-Specific Context and Behaviors
 
 - Selection model:
   - Include/Exclude namespaces, labelSelectors, includeClusterScope (cluster roles, CRDs, etc.).
@@ -346,7 +346,7 @@ Restore types:
 
 ---
 
-### 6) Mapping This Model to Your Production Example
+## 6) Mapping This Model to Your Production Example
 
 From your investigation (prod-1):
 
@@ -374,9 +374,9 @@ This maps 1:1 to the class model above.
 
 ---
 
-### 7) Component Summaries (Quick Tables)
+## 7) Component Summaries (Quick Tables)
 
-#### BackupVault Vs BackupPolicy Vs BackupInstance
+### BackupVault Vs BackupPolicy Vs BackupInstance
 
 |Component|Scope|Cardinality|Stores/References|
 |---|---|---|---|
@@ -385,7 +385,7 @@ This maps 1:1 to the class model above.
 |BackupInstance|Vault+DataSource|1 instance -> 1 data source, many RPs|Data source ref, policy ref, state|
 |RecoveryPoint|Instance|Many per instance|Metadata + PV snapshot refs|
 
-#### AKSClusterDataSource (Key Attributes)
+### AKSClusterDataSource (Key Attributes)
 
 |Attribute|Meaning|
 |---|---|
@@ -399,7 +399,7 @@ This maps 1:1 to the class model above.
 
 ---
 
-### 8) How to Think About “Backup Item” Vs “Backup Instance”
+## 8) How to Think About “Backup Item” Vs “Backup Instance”
 
 - In Data Protection (AKS), “Backup Instance” is the underlying ARM resource.
 - Azure Backup Center may surface these as “Backup Items” for a consistent UI across vault types.
@@ -407,7 +407,7 @@ This maps 1:1 to the class model above.
 
 ---
 
-### 9) Practical Design Tips (Terraform/IaC)
+## 9) Practical Design Tips (Terraform/IaC)
 
 - Always model:
   - Vault
@@ -425,7 +425,7 @@ This maps 1:1 to the class model above.
 
 ---
 
-### 10) What Details From Your Report Would Let Me Tailor Further
+## 10) What Details From Your Report Would Let Me Tailor Further
 
 Provide or confirm:
 
@@ -447,7 +447,7 @@ With these, I can validate edge cases (e.g., CRD-heavy clusters, cross-cluster r
 
 ---
 
-### 11) Minimal Pseudo-Interfaces (For Engineers)
+## 11) Minimal Pseudo-Interfaces (For Engineers)
 
 ```typescript
 interface IBackupVault {

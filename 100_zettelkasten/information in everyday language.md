@@ -5,14 +5,14 @@ created: 2025-02-07T12:57:54Z
 epistemic: 
 ID: 4a1
 last_reviewed: 
-modified: 2025-10-30T10:27:48Z
+modified: 2025-12-04T13:28:27Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [information]
-title: information in everyday language
+title: Information in Everyday Language
 type: permanent
 uid: 
 updated: 

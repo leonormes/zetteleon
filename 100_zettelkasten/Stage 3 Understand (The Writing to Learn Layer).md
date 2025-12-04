@@ -33,13 +33,13 @@ With the idea now expressed with clarity and care, you can understand it on a de
 
 > **Outcome**: A conscious understanding of the core insight you have just unearthed.
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]
 
 - **Core Point**: The search for the perfect tool isn't about productivity; it's a defence mechanism against the fear of confronting my own work.
 - **What I Learned**: I've named the behaviour and connected it to a deeper fear. It's not a technical problem but an emotional one.
 - **New Questions**: How does this relate to other forms of "productive procrastination"? Is this a specific manifestation of the [[Sunk Cost Fallacy]] (I've invested so much time in this tool, I must make it perfect)?
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]
 
 *The Goal: To reflect on the clarified idea and discover what you now know.*
 
@@ -56,4 +56,4 @@ With the idea now expressed with both clarity and care, you can understand it on
 
 > **Outcome**: A conscious understanding of the core insight you have just unearthed. You have moved from a vague feeling of profundity to an articulated piece of knowledge.
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]

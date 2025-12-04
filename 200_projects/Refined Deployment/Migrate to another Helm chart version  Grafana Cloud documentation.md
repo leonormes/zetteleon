@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-10T00:00:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-11T08:39:48Z
+modified: 2025-12-04T13:27:58Z
 purpose: 
 review_interval: 
 see_also: []
@@ -88,6 +88,7 @@ Complete the following to map destinations:
  > This is a full data writing/pushing URL, not only the hostname.
 
 4. Map the other settings from the original service to the new destination as shown in the following table:
+
  | Original service | New destination |
  | --- | --- |
  | `authMode` | `auth.type` |

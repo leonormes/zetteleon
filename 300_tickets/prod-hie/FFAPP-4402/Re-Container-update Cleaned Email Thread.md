@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-22T08:34:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:14Z
+modified: 2025-12-04T13:27:52Z
 purpose: 
 review_interval: 
 see_also: []
@@ -71,13 +71,13 @@ Cc: Julia Kurps, Weronika Jastrzebska, Susannah Thomas, Gareth Hailes, Leon Orme
 > - The S3 bucket name
 > - The S3 credentials
 > - Maybe a region? (We could not yet make out if that is mandatory or useful)
->
+> 
 > We suggest the following variable names:
 >
 > - QCRBUCKET
 > - QCRACCESKEYID
 > - QCRSECRETACCESSKEY
->
+> 
 > If the reports for different sites go into the same bucket, we might also need a path.
 >
 > We already established a naming convention for the reports as a zip file with Keiran earlier. I will make sure that will be part of the specs we will make available for review.
@@ -118,7 +118,7 @@ Cc: Project team
 >
 > - There will be one S3 bucket per site
 > - The S3 credentials will be shared with us
->
+> 
 > We might come back with additional questions later this week.
 >
 > Best wishes,
@@ -135,7 +135,7 @@ Cc: Project team
 > I just wanted to follow up on the update to your container. We received a confirmation from SDE that this is required to move to the live data stage 1.
 >
 > 1. Need to see the HyVE QC reports flowing into the nominated bucket
->
+> 
 > It would be great if you could confirm the ETA for those updates on your end.
 >
 > Many thanks,

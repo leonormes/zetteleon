@@ -4,14 +4,13 @@ confidence:
 created: 2025-11-20T10:13:28Z
 epistemic:
 last_reviewed:
-modified: 2025-11-20T10:16:12Z
+modified: 2025-12-04T13:27:53Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - nnuh
+tags: [nnuh]
 title: NNUH Terraform Resources
 type:
 uid:

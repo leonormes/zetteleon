@@ -39,7 +39,7 @@ But problematic dependencies occur when understanding requires external context.
 1. **Implicit dependencies:** Foundational concepts assumed for understanding (unavoidable)
 2. **Explicit dependencies:** When Note A is unintelligible without reading Note B (problematic)
 
-The solution is **loose coupling**: notes understandable on their own yet meaningfully linked. See [[The Problem of False Atoms]] for comprehensive exploration.
+The solution is **loose coupling**: notes understandable on their own yet meaningfully linked. See [[200_projects/ProdOS/The Problem of False Atoms]] for comprehensive exploration.
 
 ## The Processing Challenge
 
@@ -56,4 +56,4 @@ But this is a defining property of complex systems. [[Emergence and the Absence 
 - [[Contextual Integration of New Ideas]] - How context affects understanding
 - [[Decoupling Ego from Outcomes to Improve Decisions]] - Independence in decision-making
 - [[Modular Arithmetic Creates a Cyclical System]] - Mathematical independence and interdependence
-- `elaborated-in::` [[The Problem of False Atoms]] - Deep philosophical treatment
+- `elaborated-in::` [[200_projects/ProdOS/The Problem of False Atoms]] - Deep philosophical treatment

@@ -30,13 +30,13 @@ This is the initial, messy, and essential act of getting a thought out of your h
 
 > **Outcome**: A raw, unedited block of text that contains the "first thoughts" and embodied energy of your idea. It will be even richer for having engaged your body in the process.
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]
 
 *(This stage remains the same—a raw, energetic capture.)*
 
 > okay the tools thing again, always looking for the perfect app the perfect system obsidian logseq notion whatever, feel like if I just find the right one then everything will click and I'll finally be productive... [etc.]
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]
 
 *The Goal: To capture the raw energy of a thought without judgment.*
 
@@ -54,4 +54,4 @@ This is the initial, messy, and essential act of getting a thought out of your h
 
 > **Outcome**: A raw, unedited block of text that contains the "first thoughts" and emotional energy of your idea. It will be messy, and that is the point.
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]

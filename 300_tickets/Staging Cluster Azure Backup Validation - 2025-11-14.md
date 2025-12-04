@@ -1,23 +1,32 @@
 ---
-tags:
-  - azure
-  - backup
-  - validation
-  - staging
-  - infrastructure
-date: 2025-11-14
+aliases: []
 cluster: staging-cluster-2
+confidence: 
+created: 2025-11-14T12:11:50Z
+date: 2025-11-14
+epistemic: 
+last_reviewed: 
+modified: 2025-12-04T13:27:53Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
 status: validated
+tags: [azure, backup, infrastructure, staging, validation]
+title: Staging Cluster Azure Backup Validation - 2025-11-14
+type: 
+uid: 
+updated: 
 ---
 
-# Azure Backup Validation Summary - Staging Cluster
+## Azure Backup Validation Summary - Staging Cluster
 
 **Date**: 2025-11-14  
 **Cluster**: staging-cluster-2  
 **Subscription**: FITCloud Non-Production (249df46b-f75d-4492-8e78-b33a00473548)  
 **Status**: ✓ ALL CHECKS PASSED
 
-## Terraform Configuration
+### Terraform Configuration
 
 **Module**: `app.terraform.io/FITFILE-Platforms/aks-backup/azure` v1.0.5  
 **Location**: `main.tf` lines 73-91
@@ -41,14 +50,14 @@ module "backups" {
 }
 ```
 
-## 1. Resource Groups
+### 1. Resource Groups
 
 | Resource Group | Status | Location | Provisioning State |
 |----------------|--------|----------|-------------------|
 | `staging-backup-rg` | ✓ | uksouth | Succeeded |
 | `staging-snapshot-rg` | ✓ | uksouth | Succeeded |
 
-## 2. Storage Account
+### 2. Storage Account
 
 | Property | Value | Status |
 |----------|-------|--------|
@@ -58,7 +67,7 @@ module "backups" {
 | Kind | `StorageV2` | ✓ |
 | Provisioning State | `Succeeded` | ✓ |
 
-## 3. Backup Vault
+### 3. Backup Vault
 
 | Property | Value | Status |
 |----------|-------|--------|
@@ -69,7 +78,7 @@ module "backups" {
 | Storage Type | `LocallyRedundant (VaultStore)` | ✓ |
 | Soft Delete | `On` | ✓ |
 
-## 4. Backup Policy
+### 4. Backup Policy
 
 | Property | Value | Status |
 |----------|-------|--------|
@@ -86,7 +95,7 @@ module "backups" {
 - Time zone: UTC
 - Backup type: Incremental
 
-## 5. Backup Instance
+### 5. Backup Instance
 
 | Property | Value | Status |
 |----------|-------|--------|
@@ -98,7 +107,7 @@ module "backups" {
 | Policy | `dailyaksbackups` | ✓ |
 | Snapshot RG | `staging-snapshot-rg` | ✓ |
 
-### Namespace Configuration
+#### Namespace Configuration
 
 **Included Namespaces:** ✓ MATCHES TERRAFORM
 
@@ -107,14 +116,14 @@ module "backups" {
 - `ff-test-c`
 - `spicedb`
 
-### Resource Type Filtering
+#### Resource Type Filtering
 
 **Excluded Resource Types:** ✓ MATCHES TERRAFORM
 
 - `volumesnapshotcontent.snapshot.storage.k8s.io`
 - `secrets`
 
-### Additional Settings
+#### Additional Settings
 
 | Setting | Value |
 |---------|-------|
@@ -122,9 +131,9 @@ module "backups" {
 | Snapshot Volumes | `true` |
 | Label Selectors | `[]` (none) |
 
-## 6. IAM Permissions
+### 6. IAM Permissions
 
-### AKS Cluster Identity
+#### AKS Cluster Identity
 
 **Principal ID**: `6f4cb9a4-cdd5-42af-9d0a-5b8817446af1`
 
@@ -132,7 +141,7 @@ module "backups" {
 |------|-------|--------|
 | Backup Contributor | `aksbackupvault` | ✓ |
 
-### Backup Vault Identity
+#### Backup Vault Identity
 
 **Principal ID**: `7fb2a7a0-ec39-4232-b0ab-edc8d6133559`
 
@@ -142,13 +151,13 @@ module "backups" {
 | Disk Snapshot Contributor | `staging-snapshot-rg` | ✓ |
 | Data Operator for Managed Disks | `staging-snapshot-rg` | ✓ |
 
-## Validation Results
+### Validation Results
 
-### ✓ ALL CHECKS PASSED
+#### ✓ ALL CHECKS PASSED
 
 The Azure backup configuration for the staging cluster is correctly set up and matches the Terraform `module.backups` configuration in `main.tf`.
 
-### Key Points
+#### Key Points
 
 - ✓ All resource groups and storage accounts exist in the correct location (UK South)
 - ✓ Backup vault is properly configured with system-assigned identity
@@ -158,46 +167,46 @@ The Azure backup configuration for the staging cluster is correctly set up and m
 - ✓ Resource exclusions match Terraform: `volumesnapshotcontent` and `secrets`
 - ✓ All required IAM permissions are properly assigned
 
-## Validation Commands Used
+### Validation Commands Used
 
-### Switch to correct subscription
+#### Switch to Correct Subscription
 
 ```bash
 az account set -s "249df46b-f75d-4492-8e78-b33a00473548"
 ```
 
-### Verify resource groups
+#### Verify Resource Groups
 
 ```bash
 az group show -n "staging-backup-rg" --query "{name:name, location:location, provisioningState:properties.provisioningState}" -o json
 az group show -n "staging-snapshot-rg" --query "{name:name, location:location, provisioningState:properties.provisioningState}" -o json
 ```
 
-### Verify storage account
+#### Verify Storage account
 
 ```bash
 az storage account show -n "stagingbackupsa" -g "staging-backup-rg" --query "{name:name, location:location, sku:sku.name, kind:kind, provisioningState:provisioningState}" -o json
 ```
 
-### Verify backup vault
+#### Verify Backup Vault
 
 ```bash
 az dataprotection backup-vault show --resource-group "staging-backup-rg" --vault-name "aksbackupvault" -o json
 ```
 
-### Verify backup policy
+#### Verify Backup Policy
 
 ```bash
 az dataprotection backup-policy show --resource-group "staging-backup-rg" --vault-name "aksbackupvault" --name "dailyaksbackups" -o json
 ```
 
-### Verify backup instance
+#### Verify Backup Instance
 
 ```bash
 az dataprotection backup-instance show --resource-group "staging-backup-rg" --vault-name "aksbackupvault" --backup-instance-name "stagingaksdaily" -o json
 ```
 
-### Verify IAM permissions
+#### Verify IAM Permissions
 
 ```bash
 # AKS cluster identity on backup vault
@@ -207,14 +216,14 @@ az role assignment list --assignee "6f4cb9a4-cdd5-42af-9d0a-5b8817446af1" --scop
 az role assignment list --assignee "7fb2a7a0-ec39-4232-b0ab-edc8d6133559" --scope "/subscriptions/249df46b-f75d-4492-8e78-b33a00473548/resourceGroups/staging-snapshot-rg" -o table
 ```
 
-## Related Resources
+### Related Resources
 
 - **AKS Cluster ID**: `/subscriptions/249df46b-f75d-4492-8e78-b33a00473548/resourceGroups/fitfile-cloud-staging-rg/providers/Microsoft.ContainerService/managedClusters/fitfile-cloud-staging-aks-cluster`
 - **Backup Vault ID**: `/subscriptions/249df46b-f75d-4492-8e78-b33a00473548/resourceGroups/staging-backup-rg/providers/Microsoft.DataProtection/backupVaults/aksbackupvault`
 - **Backup Policy ID**: `/subscriptions/249df46b-f75d-4492-8e78-b33a00473548/resourceGroups/staging-backup-rg/providers/Microsoft.DataProtection/backupVaults/aksbackupvault/backupPolicies/dailyaksbackups`
 - **Backup Instance ID**: `/subscriptions/249df46b-f75d-4492-8e78-b33a00473548/resourceGroups/staging-backup-rg/providers/Microsoft.DataProtection/backupVaults/aksbackupvault/backupInstances/stagingaksdaily`
 
-## Next Steps
+### Next Steps
 
 - Monitor backup job execution (scheduled for 21:00 UTC daily)
 - Verify first successful backup completion

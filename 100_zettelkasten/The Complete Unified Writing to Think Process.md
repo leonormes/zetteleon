@@ -27,4 +27,4 @@ This process integrates four powerful philosophies into a single, comprehensive 
 
 ## The Six Stages of a Thought
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]

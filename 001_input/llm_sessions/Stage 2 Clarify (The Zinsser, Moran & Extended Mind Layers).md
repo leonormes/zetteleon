@@ -32,7 +32,7 @@ This is the craftsman's and artist's stage. You now look at the raw text from St
 
 > **Outcome**: A concise, clear, and energetic atomic note. By externalising it and applying these layers of craft, you have seen its structure in a new way and transformed it into a stronger, more resonant piece of writing.
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]
 
 **Zinsser's Layer (The first pass at clarifying):**
 
@@ -44,7 +44,7 @@ This is the craftsman's and artist's stage. You now look at the raw text from St
 
 *(Notice the changes: shorter sentences for impact ("The behaviour is rooted in fear."), varied rhythm, and stronger, more evocative phrasing ("a shield," "the terrifying silence"). The idea is the same, but the delivery is more powerful.)*
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]
 
 *The Goal: To transform raw energy into a clear, crafted, and resonant idea.*
 
@@ -62,4 +62,4 @@ This is the craftsman's and artist's stage. You now look at the raw text from St
 
 > **Outcome**: A concise, clear, and energetic atomic note. The idea is not only strengthened but also has a rhythm and texture that makes it more memorable and impactful.
 
-[[The Unified Writing to Think Process]]
+[[100_zettelkasten/The Unified Writing to Think Process]]

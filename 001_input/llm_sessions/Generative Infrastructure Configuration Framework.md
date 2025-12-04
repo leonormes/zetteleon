@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-28T00:00:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-10-30T11:06:56Z
+modified: 2025-12-04T13:28:34Z
 purpose: 
 review_interval: 
 see_also: []
@@ -12,7 +12,7 @@ source: "https://gemini.google.com/share/1c87b49c70cb"
 source_of_truth: []
 status: 
 tags: ["clipped", "llm_session"]
-title: ‎Gemini - Generative Infrastructure Configuration Framework
+title: Generative Infrastructure Configuration Framework
 type: 
 uid: 
 updated: 

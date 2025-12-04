@@ -31,8 +31,8 @@ This process integrates four powerful philosophies into a single, comprehensive 
 
 [[Stage 2 Clarify (The Zinsser, Moran & Extended Mind Layers)]]
 
-[[Stage 3 Understand (The Writing to Learn Layer)]]
+[[100_zettelkasten/Stage 3 Understand (The Writing to Learn Layer)]]
 
 [[Stage 4 Connect (The Zettelkasten & Moran Layers)]]
 
-[[Stage 5 Synthesise (The Outcome Layer)]]
+[[200_projects/ProdOS/Stage 5 Synthesise (The Outcome Layer)]]

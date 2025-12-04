@@ -5,7 +5,7 @@ created: 2025-11-10T14:04:00Z
 criteria: ["Flexibility", "Primary Focus", "Primary Goal", "Scope"]
 epistemic: 
 last_reviewed: 
-modified: 2025-11-10T13:28:09Z
+modified: 2025-12-04T13:28:23Z
 purpose: 
 review_interval: 
 see_also: []
@@ -18,7 +18,6 @@ type: comparison
 uid: 2025-11-10T14:04:00Z
 updated: 2025-11-10T14:04:00Z
 ---
-
 
 | Criterion | Time Blocking | Time Boxing |
 |---|---|---|

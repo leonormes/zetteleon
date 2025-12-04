@@ -6,7 +6,7 @@ created: 2025-08-22T00:00:00Z
 description: Created with Gemini
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:28Z
+modified: 2025-12-04T13:28:16Z
 published:
 purpose: 
 review_interval: 
@@ -376,11 +376,11 @@ Winter changes everything. Food is scarce, and travel is hard. To survive, we ne
 > **Food Energy (Gain):** In winter, prey is harder to find.
 >
 > - Each hex provides **4 Energy Units (EU)** per day.
->
+> 
 > **Patrol Cost (Loss):** Patrolling our border through deep snow costs energy. The border is the **perimeter** of our territory.
 >
 > - Patrolling **one exposed hex side** costs **1 Energy Unit (EU)** per day.
->
+> 
 > **Net Energy Gain = (Total Food Energy) - (Total Patrol Cost)**
 
 ### Task 2.1: The Shape of the Land (Understanding Perimeter)
@@ -552,12 +552,12 @@ A good territory is useless if we can't successfully hunt. A hunt is a balance o
 >
 > - **Top Speed:** 15 metres per second (m/s)
 > - **Stamina:** A wolf has enough energy for a chase lasting a maximum of **20 seconds**.
->
+> 
 > **Elk Stats:**
 >
 > - **Top Speed:** 12 metres per second (m/s)
 > - **Reaction:** The elk is alert. It gets a **2-second head start** the moment the wolf commits to the chase.
->
+> 
 > **The Goal:** The wolf must catch the elk *before* its 20 seconds of stamina runs out.
 
 ### Task 5.1: The Chase Calculator (Speed, Distance, Time)

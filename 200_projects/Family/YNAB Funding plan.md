@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-21T10:46:10Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-21T10:46:11Z
+modified: 2025-12-04T13:28:13Z
 purpose: 
 review_interval: 
 see_also: []
@@ -16,6 +16,7 @@ type:
 uid: 
 updated: 
 ---
+
 1320.59
 To avoid always seeing yellow or red in YNAB when you can't act (since you get paid on the last day of the month and bills hit on the first), use these **pro strategies**:
 

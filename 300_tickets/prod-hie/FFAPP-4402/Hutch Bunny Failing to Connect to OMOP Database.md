@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-22T08:41:18Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:15Z
+modified: 2025-12-04T13:27:53Z
 purpose: 
 review_interval: 
 see_also: []
@@ -64,7 +64,7 @@ Cc: Leon Ormes, Oliver Rushton, Susannah Thomas, Mark Dines-Allen, Laura Clarke,
 > In the meantime, we can proceed with the final configuration step—connecting your Data Source to the SDE Tenant.
 > Could you please confirm who would be the best person to complete this with? Anyone who has access to the FITFILE application within your node would be suitable.
 > Once confirmed, we can schedule a quick call to finalise this step as soon as possible.
->
+> 
 > Lastly, do you have a preferred method for sharing the Tenant ID with the person who will join the call? It isn't considered sensitive information, but if you'd prefer, we can share it live during the call instead. The Tenant ID is required to complete the connection between your Data Source and the SDE Tenant, and we will be providing it for you.
 >
 > Best regards,

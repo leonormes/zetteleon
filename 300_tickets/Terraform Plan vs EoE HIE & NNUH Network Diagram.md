@@ -4,14 +4,13 @@ confidence:
 created: 2025-11-21T12:34:26Z
 epistemic:
 last_reviewed:
-modified: 2025-11-21T12:34:39Z
+modified: 2025-12-04T13:27:53Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - nnuh
+tags: [nnuh]
 title: Terraform Plan vs EoE HIE & NNUH Network Diagram
 type:
 uid:

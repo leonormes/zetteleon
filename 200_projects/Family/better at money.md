@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-18T18:28:07Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-18T18:32:23Z
+modified: 2025-12-04T13:28:13Z
 purpose: 
 review_interval: 
 see_also: []
@@ -348,16 +348,7 @@ References:
 
 [2]: <https://financialwellness.utah.edu/_resources/documents/financialwellnessworkbook.pdf>
 
-
-
-
-
-
 [8]: <https://ifs.org.uk/publications/characteristics-and-consequences-families-low-levels-financial-wealth>
-
-
-
-
 
 [13]: <https://www.medway.gov.uk/download/downloads/id/8057/financial_wellbeing_workbook_accessible.docx>
 
@@ -365,9 +356,7 @@ References:
 
 [15]: <https://councilforeconed.org/wp-content/uploads/FamilyAtHomeFinancialFunPack_All_Final3.pdf>
 
-
 [17]: <https://www.clockwise.coop/budgeting-made-simple-for-busy-mums-stress-free-ways-to-manage-family-finances/>
-
 
 [19]: <https://www.vanguard.co.uk/professional/vanguard-365/financial-planning/financial-well-being/vanguards-guide-to-financial-wellness>
 
@@ -375,26 +364,15 @@ References:
 
 [21]: <https://www.moneyhelper.org.uk/en/blog/everyday-money/create-a-household-budget-for-your-family>
 
-
 [23]: <https://tiffanywoodfield.com/how-to-budget-money-for-a-family-of-five/>
 
 [24]: <https://www.moneysavingexpert.com/banking/budget-planning/>
-
-
-
-
 
 [29]: <https://n26.com/en-de/blog/how-to-create-a-family-budget>
 
 [30]: <https://www.moneyhelper.org.uk/en/family-and-care/talk-money/talk-learn-do/learning-about-money-by-age>
 
-
 [32]: <https://www.theguardian.com/money/2021/dec/13/how-to-teach-children-the-real-value-of-money>
-
-
-
-
-
 
 Here is a practical framework for financial wellness tailored for a family of five in the UK.
 
