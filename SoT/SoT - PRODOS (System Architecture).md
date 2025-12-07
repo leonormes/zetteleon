@@ -112,7 +112,33 @@ The folder structure and tool integration reflect the cognitive loop. PRODOS v5.
 4.  **Store** stable conclusions in a `SoT` note via synthesis.
 5.  **Do** the `Next Test` and capture the results, restarting the loop.
 
-## 8. Open Questions & Tensions
+## 8. Information Architecture & Retrieval Strategy
+
+The core challenge of any knowledge system is retrieving the right thought at the right time. Previous iterations failed because files (SoT, MOC, HEAD, Summary) **competed for authority**, creating decision fatigue.
+
+### The Unified Hierarchy
+PRODOS establishes a clear, non-competing hierarchy for file types:
+
+| File Type | Role | The Question It Answers |
+| :--- | :--- | :--- |
+| **SoT Notes** | **The Canon (Authority)** | "What is the trusted, current state of the system?" (The Destination) |
+| **MOCs** | **The Map (Entrypoint)** | "Where do I start? Show me the landscape." (The Table of Contents) |
+| **HEAD Notes** | **The Workbench (Active)** | "What am I figuring out right now? What is the tension?" (The Scratchpad) |
+| **Base Files** | **The Dashboard (Dynamic)** | "Show me a live list of all X." (The Saved Search) |
+
+### The Retrieval Algorithm
+1.  **Specific Topic:** Search directly for the **SoT** (e.g., "ProdOS SoT"). This is the source of truth.
+2.  **Broad Topic:** Start with the **MOC**. It provides the context and links to the correct SoTs.
+3.  **System View:** Use **Base Files** (`.base`) as dashboards to see the high-level state of the vault.
+
+### The Organization Logic (Feed, Don't Compete)
+*   **Frictionless Capture:** Daily Notes are for raw capture. Do not organize here.
+*   **Integration:** When a raw thought belongs to a topic, **do not create a new note.** Feed it into the **Integration Queue** of the existing SoT.
+*   **Synthesis:** The LLM processes the Integration Queue to update the SoT. This ensures the SoT remains the living canon, preventing "competitor notes" from splintering knowledge.
+
+---
+
+## 9. Open Questions & Tensions
 
 - **Tension:** The core struggle remains balancing **Action (Kinetic)** vs. **Thinking (Dynamic)**. The system mitigates this by demanding that all "Thinking" cycles must terminate in an "Action" (The Next Test).
 - **Confidence Gap:** The system's trustworthiness depends entirely on the discipline of adhering to the synthesis loop. If `HEAD` notes proliferate without being integrated into `SoT` notes, trust decays.

@@ -18,64 +18,60 @@ uid:
 updated: 
 ---
 
-## ProdOS - Map of Content
-
-This MOC serves as the primary entry point for ProdOS (Productivity Operating System), a comprehensive system for integrating principle-centered productivity and knowledge management.
-
+---
+aliases: [Productivity Operating System, ProdOS Map]
+confidence: 5/5
+created: 2025-12-04T14:38:32Z
+epistemic: 
+modified: 
+purpose: "The primary entry point and navigational router for the ProdOS system."
+source_of_truth: ["[[SoT - PRODOS (System Architecture)]]"]
+status: evergreen
+tags: [moc, prodos, entrypoint]
+title: MOC - ProdOS
+type: map
+uid: 
+updated: 
 ---
 
-## 1. The Canonical Source of Truth
+# ProdOS - Map of Content
 
-**All core principles, architectural decisions, and workflows for the ProdOS system have been consolidated into the following Source of Truth (SoT) note.** This is the definitive and most current description of the system.
+> [!hint] Navigation Guide
+> **Start here** to navigate the ProdOS ecosystem. This map routes you to the authoritative **Source of Truth (SoT)** for each domain.
 
-- **[[SoT - PRODOS (System Architecture)]]**
+## 1. The Core System (Start Here)
+The definitive specification of the system, its architecture, and the "Why".
+*   **[[SoT - PRODOS (System Architecture)]]** — *The Master Canon. Read this for the complete overview.*
+    *   *Key Section:* [[SoT - PRODOS (System Architecture)#3. The Architecture: An Action-Oriented Cognitive Loop|The Cognitive Loop]]
+    *   *Key Section:* [[SoT - PRODOS (System Architecture)#8. Information Architecture & Retrieval Strategy|How to Find Things]]
 
----
+## 2. Operational Manuals (The "How-To")
+Guides for the specific workflows you perform daily.
 
-## 2. Core Frameworks & Supporting Concepts
+### ⚡️ Action & Execution (GTD)
+*How to capture, process, and execute tasks.*
+*   **[[SoT - PRODOS - Action Management (GTD)]]** — *The engine for handling tasks and projects.*
+*   **[[SoT - Bridging the Intention-Action Gap]]** — *Overcoming initiation paralysis.*
 
-These are the key frameworks and principles that form the foundation of ProdOS. While they are summarized in the main SoT, these notes provide deeper, more focused exploration.
+### 🧠 Thinking & Synthesis
+*How to turn raw thoughts into structured insights.*
+*   **[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]** — *The standard protocol for interacting with LLMs.*
+*   **[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]** — *The "Chronos" process for evolving notes.*
 
-- **[[SoT - Bridging the Intention-Action Gap]]**: Explores the core ADHD challenge of "knowing vs. doing" and the "Motion Creates Motivation" principle.
-- **[[SoT - Evolutionary Note System]]**: Describes the "Chronos Synthesizer" and "Zero-Toil" workflow for maintaining the knowledge base.
-- **[[The Unified Writing to Think Process]]**: A five-stage process (Generate, Clarify, Understand, Connect, Synthesise) for turning raw thoughts into structured knowledge.
-- **[[Process Over Goals Actionable System]]**: The foundational philosophy of prioritizing consistent systems over chasing outcomes.
+### 🗄️ Structure & Storage
+*Where things go and how they are organized.*
+*   **[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]** — *The 4-folder file system.*
 
----
+## 3. Foundational Concepts (The "Why")
+The psychological and cognitive principles underpinning the system.
+*   **[[SoT - The Extended Mind]]** — *Why we offload cognition.*
+*   **[[SoT - Identity-Based Habit Formation]]** — *Why we focus on identity over outcomes.*
+*   **[[SoT - Atomic Habits]]** — *The mechanics of behavioral change.*
 
-## 3. Component Ideas & Historical Thinking
-
-This section contains the collection of original notes, discussions, and explorations that were synthesized to create the main ProdOS SoT. Many of these are now marked as `superseded`, but they provide historical context on the evolution of the system.
-
-- **System Snapshots & Overviews:**
-  - [[ProdOS System Overview and Development Progress]]
-  - [[Complete Context ProdOS System]]
-  - [[ProdOS Organisation and Finding Your Thoughts]]
-- **Foundational Concepts:**
-  - [[Atomic vs Structural Notes]]
-  - [[The Problem of False Atoms]]
-  - [[What Organizing Your Thoughts Really Means]]
-- **ADHD & Psychology:**
-  - [[Breaking the Creation Cycle]]
-  - [[Processing IS the Work, Not Prep for Work]]
-  - [[lower energy capacity]]
-  - [[Navigating PKM Challenge]]
-- **Action & Productivity:**
-  - [[Action Sequences Form Directed Acyclic Graphs]]
-  - [[Context Tags Make Actions Location and Tool Specific]]
-  - [[Think Like a Man of Action]]
-  - [[The War of Art]]
-- **LLMs as Thinking Partners:**
-  - [[LLM To the Extreme]]
-- **Advanced PKM System Design:**
-  - [[Modelling Notes and Links as Objects]]
-  - [[PKM PDU]]
-  - [[Capture the Context]]
-  - [[Proven Organizational Methods for Managing a Large-Scale Knowledge Base in Obsidian]]
+## 4. Maintenance & Quality
+*   **[[SoT - PKM Confidence and Acceptance Criteria]]** — *How to verify the system is working.*
 
 ---
-
-```dataview
-LIST FROM #prodos OR #pkm
-SORT file.name ASC
-```
+**Quick Links:**
+*   [[SoT.base|All Source of Truth Notes]]
+*   [[MOCx.base|All Maps of Content]]
