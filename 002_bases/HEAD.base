@@ -4,6 +4,9 @@ filters:
 views:
   - type: table
     name: Table
+    filters:
+      and:
+        - file.folder != "templates"
     order:
       - file.name
       - status
