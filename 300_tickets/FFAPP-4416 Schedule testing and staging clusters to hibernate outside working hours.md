@@ -11,7 +11,7 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: superseded
-superseded-by: "[[Automated Cloud Resource Hibernation SoT]]"
+superseded-by: "[[SoT - Automated Cloud Resource Hibernation]]"
 tags: []
 title: FFAPP-4416 Schedule testing and staging clusters to hibernate outside working hours
 type: ticket
@@ -19,7 +19,7 @@ uid:
 updated:
 ---
 
-This note's unique thinking has been integrated into [[Automated Cloud Resource Hibernation SoT]] on 2025-11-13.
+This note's unique thinking has been integrated into [[SoT - Automated Cloud Resource Hibernation]] on 2025-11-13.
 
 Of course, here is a summary of the work to implement auto-shutdown scheduling for the testing and staging AKS clusters as per ticket **FFAPP-4416 Schedule testing and staging clusters to hibernate outside working hours**
 

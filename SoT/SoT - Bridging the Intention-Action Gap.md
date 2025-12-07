@@ -1,32 +1,66 @@
 ---
-aliases: [Activation Energy, ADHD Productivity, Knowing-Doing Gap, Motion Creates Motivation]
-confidence: 
-confidence-gaps: [How to reliably generate intrinsic interest in a necessary but uninteresting task?, low-friction workflow for externalizing tasks from Obsidian?, What is the most seamless]
+aliases:
+  - Activation Energy
+  - ADHD Productivity
+  - Knowing-Doing Gap
+  - Motion Creates Motivation
+confidence:
+confidence-gaps:
+  - How to reliably generate intrinsic interest in a necessary but uninteresting task?
+  - low-friction workflow for externalizing tasks from Obsidian?
+  - What is the most seamless
 created: 2025-11-13T16:20:00Z
 decay-signals: []
-epistemic: 
+epistemic:
 last-resonance: 2025-11-13
 last-synthesis: 2025-11-14
-last_reviewed: 
+last_reviewed:
 llm-responses: 4
 modified: 2025-11-14T11:41:46Z
-mvu-hash: "" # To be calculated
-purpose: 
-quality-markers: ["Added ADHD-specific context", "Added real-world DevOps K2A example", "Integrated practical workflow", "Synthesized from comprehensive research"]
-related-soTs: ["[[ADHD and Motivation MOC]]", "[[Evolutionary Note System SoT]]", "[[MOC - ADHD Hyperfixation-Burnout Cycle]]"]
+mvu-hash: ""
+purpose:
+quality-markers:
+  - Added ADHD-specific context
+  - Added real-world DevOps K2A example
+  - Integrated practical workflow
+  - Synthesized from comprehensive research
+related-soTs:
+  - "[[ADHD and Motivation MOC]]"
+  - "[[SoT - Evolutionary Note System]]"
+  - "[[MOC - ADHD Hyperfixation-Burnout Cycle]]"
 resonance-score: 4
-review_interval: 
+review_interval:
 see_also: []
 source_of_truth: true
-status: 
-supersedes: ["[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]", "[[ADHD and Productivity]]", "[[ADHD routines should be based on intrinsic motivation not external pressure]]", "[[Knowledge-to-Action System SoT]]", "[[KtA]]", "[[The Activation Cost of Tasks is Higher in ADHD]]", "[[The Motivation Bridge - An ADHD Metaphor]]", "[[The Science of Bridging Intention and Action]]", "[[Why Importance and Rewards Fail to Motivate ADHD Brains]]"]
+status:
+supersedes:
+  - "[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]"
+  - "[[ADHD and Productivity]]"
+  - "[[ADHD routines should be based on intrinsic motivation not external pressure]]"
+  - "[[Knowledge-to-Action System SoT]]"
+  - "[[KtA]]"
+  - "[[The Activation Cost of Tasks is Higher in ADHD]]"
+  - "[[The Motivation Bridge - An ADHD Metaphor]]"
+  - "[[The Science of Bridging Intention and Action]]"
+  - "[[Why Importance and Rewards Fail to Motivate ADHD Brains]]"
 synthesis-count: 4
-tags: [adhd, devops, execution, habits, k2a, motivation, neuroscience, pkm, productivity, psychology, SoT]
+tags:
+  - adhd
+  - devops
+  - execution
+  - habits
+  - k2a
+  - motivation
+  - neuroscience
+  - pkm
+  - productivity
+  - psychology
+  - SoT
 title: Bridging the Intention-Action Gap SoT
 trust-level: authoritative
 type: SoT
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## 1. Working Knowledge (Stable Foundation)
@@ -107,10 +141,10 @@ This means creating a **Knowledge-to-Action (K2A) System** that not only defines
 
 - **Tensions:** The need for novelty can lead to abandoning effective systems simply because they become routine. The system itself must have novelty built in (e.g., tackling new micro-projects from a backlog).
 - **Confidence Gaps:** How to reliably generate intrinsic interest in a necessary but uninteresting task remains the core challenge. The K2A DevOps model suggests that tying learning to solving real-world bottlenecks and seeing measurable improvement via metrics can be a powerful source of intrinsic motivation.
-- **Cross-SoT Coherence:** This SoT is the practical, ADHD-aware application layer for the [[Evolutionary Note System SoT]] and is the central hub for concepts in the [[ADHD and Motivation MOC]].
+- **Cross-SoT Coherence:** This SoT is the practical, ADHD-aware application layer for the [[SoT - Evolutionary Note System]] and is the central hub for concepts in the [[ADHD and Motivation MOC]].
 
 ## 8. Sources and Links
 
 - **Supersedes:** [[ADHD and Productivity]], [[The Motivation Bridge - An ADHD Metaphor]], [[Activation Energy is the Primary Barrier to ADHD Task Initiation]], and others.
 - **Related MOCs:** [[ADHD and Motivation MOC]], [[MOC - ADHD Hyperfixation-Burnout Cycle]]
-- **Related SoTs:** [[Evolutionary Note System SoT]]
+- **Related SoTs:** [[SoT - Evolutionary Note System]]

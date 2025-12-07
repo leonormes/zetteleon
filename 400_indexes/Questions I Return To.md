@@ -26,14 +26,14 @@ This note is a "Thinking Trails" index. It maps common questions and concepts to
 ### Knowledge Management & PKM
 
 - How do I design and operate my personal productivity and knowledge system? → [[SoT - PRODOS (System Architecture)]]
-- How do I build a note system that evolves with my thinking? → [[Evolutionary Note System SoT]]
-- How do I bridge the gap between knowledge and action? → [[Bridging the Intention-Action Gap SoT]]
+- How do I build a note system that evolves with my thinking? → [[SoT - Evolutionary Note System]]
+- How do I bridge the gap between knowledge and action? → [[SoT - Bridging the Intention-Action Gap]]
 
 ### Cloud & DevOps
 
-- How can we reduce cloud costs for non-production environments? → [[Automated Cloud Resource Hibernation SoT]]
+- How can we reduce cloud costs for non-production environments? → [[SoT - Automated Cloud Resource Hibernation]]
 - How do I use velero to manage backups in multiple cloud provider K8s?
-- How do I start a Velero project (AWS/Azure) balancing pragmatism and learning? → [[Pragmatic Velero Project (AWS & Azure) SoT]]
+- How do I start a Velero project (AWS/Azure) balancing pragmatism and learning? → [[SoT - Pragmatic Velero Project (AWS & Azure)]]
 
 ---
 

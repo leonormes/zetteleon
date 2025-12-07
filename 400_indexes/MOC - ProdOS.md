@@ -37,8 +37,8 @@ This MOC serves as the primary entry point for ProdOS (Productivity Operating Sy
 
 These are the key frameworks and principles that form the foundation of ProdOS. While they are summarized in the main SoT, these notes provide deeper, more focused exploration.
 
-- **[[Bridging the Intention-Action Gap SoT]]**: Explores the core ADHD challenge of "knowing vs. doing" and the "Motion Creates Motivation" principle.
-- **[[Evolutionary Note System SoT]]**: Describes the "Chronos Synthesizer" and "Zero-Toil" workflow for maintaining the knowledge base.
+- **[[SoT - Bridging the Intention-Action Gap]]**: Explores the core ADHD challenge of "knowing vs. doing" and the "Motion Creates Motivation" principle.
+- **[[SoT - Evolutionary Note System]]**: Describes the "Chronos Synthesizer" and "Zero-Toil" workflow for maintaining the knowledge base.
 - **[[The Unified Writing to Think Process]]**: A five-stage process (Generate, Clarify, Understand, Connect, Synthesise) for turning raw thoughts into structured knowledge.
 - **[[Process Over Goals Actionable System]]**: The foundational philosophy of prioritizing consistent systems over chasing outcomes.
 
