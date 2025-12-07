@@ -1,19 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-31T08:21:00Z
-criteria: "Only atomic and evergreen notes. Must be directly referenced in the core narrative of knowledge cleaving."
-epistemic: 
-exclusions: "Synthesis (consolidating many notes into one), advanced query techniques, dataview automation, or vault administration."
-last_reviewed: 
+criteria: Only atomic and evergreen notes. Must be directly referenced in the core narrative of knowledge cleaving.
+epistemic:
+exclusions: Synthesis (consolidating many notes into one), advanced query techniques, dataview automation, or vault administration.
+last_reviewed:
 modified: 2025-11-01T09:43:57Z
-purpose: 
-review_interval: 
-scope: "The complete system of atomic knowledge cleaving—how to deconstruct long hybrid notes into pure atomic facts and contextual structural maps."
+purpose:
+review_interval:
+scope: The complete system of atomic knowledge cleaving—how to deconstruct long hybrid notes into pure atomic facts and contextual structural maps.
 see_also: []
 source_of_truth: []
-status: 
-tags: [map, zettelkasten]
+status:
+tags:
+  - zettelkasten
 title: MOC - Atomic Knowledge Cleaver System
 type: map
 uid: 2025-10-31T08:21:00Z

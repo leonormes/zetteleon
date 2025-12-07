@@ -25,7 +25,7 @@ This note is a "Thinking Trails" index. It maps common questions and concepts to
 
 ### Knowledge Management & PKM
 
-- How do I design and operate my personal productivity and knowledge system? → [[ProdOS (Productivity Operating System) SoT]]
+- How do I design and operate my personal productivity and knowledge system? → [[SoT - PRODOS (System Architecture)]]
 - How do I build a note system that evolves with my thinking? → [[Evolutionary Note System SoT]]
 - How do I bridge the gap between knowledge and action? → [[Bridging the Intention-Action Gap SoT]]
 

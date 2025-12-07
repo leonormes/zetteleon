@@ -1,23 +1,25 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-31T10:36:00Z
-criteria: "Focus on packet transformations through each device."
-epistemic: 
-exclusions: "Physical network devices."
-last_reviewed: 
+criteria: Focus on packet transformations through each device.
+epistemic:
+exclusions: Physical network devices.
+last_reviewed:
 modified: 2025-10-31T10:42:03Z
-purpose: "Organize cloud networking devices by packet flow."
+purpose: Organize cloud networking devices by packet flow.
 review_interval: 180
-scope: "Data-centric view of cloud networking devices."
+scope: Data-centric view of cloud networking devices.
 see_also: []
 source_of_truth: []
-status: 
-tags: [cloud, moc, networking]
+status:
+tags:
+  - cloud
+  - networking
 title: MOC - Cloud Networking Devices Data Flow
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## MOC - Cloud Networking Devices Data Flow

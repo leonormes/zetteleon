@@ -1,5 +1,5 @@
 ---
-aliases: [Using digital tools to manage scattered thinking]
+aliases:
 confidence:
 created: 2025-07-18T00:00:00Z
 epistemic:

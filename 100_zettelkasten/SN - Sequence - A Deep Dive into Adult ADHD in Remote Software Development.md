@@ -1,19 +1,25 @@
 ---
-aliases: [ADHD Developer Productivity Map]
-confidence: 
+aliases:
+  - ADHD Developer Productivity Map
+confidence:
 created: 2025-11-06T19:53:03Z
-criteria: "Notes must relate to the experience of an adult with ADHD in a professional remote software development context."
-epistemic: 
-exclusions: "General ADHD information not specific to remote work or software development."
-last_reviewed: 
+criteria: Notes must relate to the experience of an adult with ADHD in a professional remote software development context.
+epistemic:
+exclusions: General ADHD information not specific to remote work or software development.
+last_reviewed:
 modified: 2025-11-07T12:47:12Z
-purpose: 
-review_interval: 
-scope: "The challenges, strengths, and strategies for remote software developers with ADHD."
+purpose:
+review_interval:
+scope: The challenges, strengths, and strategies for remote software developers with ADHD.
 see_also: []
 source_of_truth: []
-status: 
-tags: [adhd, map, remote-work, sequence, software-development, structural]
+status:
+tags:
+  - adhd
+  - remote-work
+  - sequence
+  - software-development
+  - structural
 title: SN - Sequence - A Deep Dive into Adult ADHD in Remote Software Development
 type: map
 uid: 2025-11-06T19:53:03Z

@@ -7,5 +7,7 @@ views:
     order:
       - file.name
       - tags
+      - type
     columnSize:
       file.name: 579
+      note.tags: 359

@@ -41,4 +41,3 @@ Practical Communication Strategies
  - Use Concrete Examples: Use a clear comparison, like the 'fun' argument: "I'm happy to plan more outings (a behaviour). But respect (attentiveness, listening) is the non-negotiable foundation of our team, not something we trade for 'fun'."
  - Use the 'Team' Framework: Frame the discussion as a collaborative effort to improve 'Us': "I think we've fallen into some patterns that aren't working for us."
  - Schedule a Check-in: Institute a regular, short 'State of the Union' or 'bridge check' (e.g., 20 minutes weekly, kid-free) to discuss appreciations and specific requests, preventing big issues from building up.
-Would you like me to summarise the suggested 'Speaker-Listener' technique for preventing interruptions, as it’s a very practical step?

@@ -1,20 +1,28 @@
 ---
-aliases: [PKM Organization, How to Find My Thoughts]
-confidence: 
+aliases:
+  - PKM Organization
+  - How to Find My Thoughts
+confidence:
 created: 2025-12-04T18:00:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-12-04T18:00:00Z
-purpose: "To explain the previous organizational methods, the new consolidated approach, and the go-forward strategy for finding and organizing thoughts in ProdOS."
-review_interval: 
-see_also: ["[[ProdOS (Productivity Operating System) SoT]]", "[[MOC - ProdOS]]"]
+purpose: To explain the previous organizational methods, the new consolidated approach, and the go-forward strategy for finding and organizing thoughts in ProdOS.
+review_interval:
+see_also:
+  - "[[SoT - PRODOS (System Architecture)]]"
+  - "[[MOC - ProdOS]]"
 source_of_truth: []
 status: evergreen
-tags: [prodos, pkm, zettelkasten, organization]
+tags:
+  - prodos
+  - pkm
+  - zettelkasten
+  - organization
 title: ProdOS Organisation and Finding Your Thoughts
 type: concept
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## 1. The Conceptual Purpose of Your Previous Files

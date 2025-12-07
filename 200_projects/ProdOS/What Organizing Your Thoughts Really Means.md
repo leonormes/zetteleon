@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-08T15:40:41Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-24T19:35:27Z
+modified: 2025-12-06T19:24:14Z
 purpose: 
 review_interval: 
 see_also: []
@@ -17,9 +17,7 @@ uid:
 updated: 
 ---
 
-## What "Organizing Your Thoughts" Really Means
-
-### The Problem You're Describing
+## The Problem You're Describing
 
 You sit down and write:
 
@@ -35,22 +33,22 @@ A month later:
 
 **You're having the same thought three times** instead of developing it. Your brain is stuck in a loop because you can't see your previous thinking. Each time feels like the first time.
 
-### What Extended Thinking Actually Looks Like
+## What Extended Thinking Actually Looks Like
 
 Here's what SHOULD happen when you write "team doesn't share context well":
 
-```markdown
 You write: "Been thinking about how my team doesn't share context well"
 
 System immediately shows you:
+
 - "You wrote about this 2 weeks ago - you identified the weekly standup format as part of the problem"
 - "Last month you noted that async updates work better than meetings"
 - "You have a theory that written updates > verbal updates for ADHD brains"
 - "Related: Your note about 'documentation as conversation' connects here"
 
 Now instead of repeating yourself, you BUILD:
+
 "Oh right, so if standups are the problem and written > verbal, maybe we should try a weekly written 'state of my world' thread where everyone brain-dumps their context..."
-```
 
 **You just EXTENDED your thinking** instead of repeating it.
 
@@ -58,28 +56,28 @@ Now instead of repeating yourself, you BUILD:
 
 ### Version 1: Writing Without a System (Journaling)
 
-```markdown
-"I'm frustrated with Python dependency management. It's such a mess. 
+"I'm frustrated with Python dependency management. It's such a mess.
+
 Virtual environments are confusing. Why can't it be simple like npm?"
-```
 
 This feels good to write. You've vented. But tomorrow you'll have the same frustration and no progress.
 
 ### Version 2: Writing That Builds (True PKM)
 
-```markdown
 "I'm frustrated with Python dependency management"
 
 System surfaces:
+
 - Your note: "Python packaging - attempts to solve: pip, conda, poetry, pipenv"
 - Your note: "Each tool solves different part of problem - no unified solution"
 - Your question: "Why does JS have npm but Python has chaos?"
 - Your insight: "Python predates modern packaging - too many legacy patterns"
 
 Now you write NEW thoughts:
-"Wait, so the issue isn't the tools, it's that Python has multiple competing standards. The real problem is WHICH tool to choose WHEN. 
+
+"Wait, so the issue isn't the tools, it's that Python has multiple competing standards. The real problem is WHICH tool to choose WHEN.
+
 I need a decision tree: If X, use Poetry. If Y, use pip+venv. If Z, use conda."
-```
 
 You just:
 
@@ -137,17 +135,14 @@ You can SEE your thinking develop. You can BUILD on it.
 
 ### Core Behavior 1: Continuous Capture
 
-```markdown
 Write: "Thinking about [anything]"
            ↓
 System: "You've thought about this before. Here's where you left off..."
            ↓
 You: Build on previous thinking instead of starting over
-```
 
 ### Core Behavior 2: Automatic Linking
 
-```markdown
 You write: "Test-driven development feels backwards"
 
 System finds:
@@ -156,13 +151,10 @@ System finds:
 - Your pattern of "build first, understand later"
 - Your question "Is TDD incompatible with ADHD?"
 
-Now you see: "Oh, TDD assumes you can plan before doing. But my brain 
-understands BY doing. I need Example-Driven Development instead."
-```
+Now you see: "Oh, TDD assumes you can plan before doing. [[HEAD - But my brain understands BY doing]]. I need Example-Driven Development instead."
 
 ### Core Behavior 3: Thinking Threads
 
-```markdown
 Instead of isolated notes, you have THREADS of thinking:
 
 Thread: "How Learning Works For Me"
@@ -172,7 +164,6 @@ Thread: "How Learning Works For Me"
 ├── Apr: "Pattern: I need concrete → abstract, never abstract → concrete"
 ├── May: "Insight: I learn by finding contradictions"
 └── Jun: "Synthesis: I learn through iterative model-building via contradictions"
-```
 
 You can see your understanding evolve. Each entry builds on the last.
 
@@ -181,7 +172,7 @@ You can see your understanding evolve. Each entry builds on the last.
 ### Without PKM (Your Current State)
 
 - Writing the same insights repeatedly
-- Forgetting your own breakthroughs
+- [[HEAD - Forgetting your own breakthroughs]]
 - Each thinking session starts from zero
 - No compound growth of understanding
 - Feeling like you're not making progress

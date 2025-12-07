@@ -1,22 +1,23 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-31T12:38:00Z
-epistemic: 
-exclusions: "Language-specific implementations"
-last_reviewed: 
+epistemic:
+exclusions: Language-specific implementations
+last_reviewed:
 modified: 2025-10-31T13:11:01Z
-purpose: "Organize software architecture concepts."
+purpose: Organize software architecture concepts.
 review_interval: 180
-scope: "Design principles and patterns"
+scope: Design principles and patterns
 see_also: []
 source_of_truth: []
-status: 
-tags: [architecture, moc]
+status:
+tags:
+  - architecture
 title: MOC - Software Architecture Principles
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## MOC - Software Architecture Principles

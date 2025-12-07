@@ -1,19 +1,24 @@
 ---
-aliases: [communication philosophy, thought and language gap]
-confidence: 
+aliases:
+  - communication philosophy
+  - thought and language gap
+confidence:
 created: 2025-10-31T20:08:00Z
-criteria: "Includes concepts about pre-linguistic thought, limitations of language, and mechanisms enabling understanding"
-epistemic: 
-exclusions: "Specific linguistic theories, detailed neuroscience of language processing"
-last_reviewed: 
+criteria: Includes concepts about pre-linguistic thought, limitations of language, and mechanisms enabling understanding
+epistemic:
+exclusions: Specific linguistic theories, detailed neuroscience of language processing
+last_reviewed:
 modified: 2025-10-31T13:11:03Z
-purpose: 
-review_interval: 
-scope: "Philosophical exploration of the relationship between thought, language, and communication"
+purpose:
+review_interval:
+scope: Philosophical exploration of the relationship between thought, language, and communication
 see_also: []
 source_of_truth: []
-status: 
-tags: [communication, epistemology, map, philosophy-of-mind]
+status:
+tags:
+  - communication
+  - epistemology
+  - philosophy-of-mind
 title: MOC - The Gap Between Thought and Language
 type: map
 uid: 2025-10-31T20:08:00Z

@@ -1,6 +1,6 @@
 ---
 status: superseded
-superseded-by: "[[ProdOS (Productivity Operating System) SoT]]"
+superseded-by: "[[SoT - PRODOS (System Architecture)]]"
 ---
 
 ---

@@ -1,19 +1,25 @@
 ---
-aliases: [Problems of Goals-First Thinking]
-confidence: 
+aliases:
+  - Problems of Goals-First Thinking
+confidence:
 created: 2025-11-06T19:57:03Z
-criteria: "Notes must describe a specific flaw or psychological trap of prioritizing goals over systems."
-epistemic: 
-exclusions: "The benefits of systems, which are covered in a separate map."
-last_reviewed: 
+criteria: Notes must describe a specific flaw or psychological trap of prioritizing goals over systems.
+epistemic:
+exclusions: The benefits of systems, which are covered in a separate map.
+last_reviewed:
 modified: 2025-11-07T12:47:12Z
-purpose: 
-review_interval: 
-scope: "The specific problems inherent in a goals-first mentality."
+purpose:
+review_interval:
+scope: The specific problems inherent in a goals-first mentality.
 see_also: []
 source_of_truth: []
-status: 
-tags: [goals, map, productivity, sequence, structural, systems]
+status:
+tags:
+  - goals
+  - productivity
+  - sequence
+  - structural
+  - systems
 title: SN - Sequence - The Problems with a Goals-First Mentality
 type: map
 uid: 2025-11-06T19:57:03Z

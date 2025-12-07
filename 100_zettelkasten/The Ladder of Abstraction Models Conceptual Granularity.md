@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2025-10-31T11:21:00Z
 epistemic: model
 last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+modified: 2025-12-04T20:51:51Z
 purpose: "Explain the ladder of abstraction concept."
 review_interval: 90
 see_also: []
@@ -16,8 +16,6 @@ type: concept
 uid: 
 updated: 
 ---
-
-## The Ladder of Abstraction Models Conceptual Granularity
 
 **Summary:** S.I. Hayakawa's ladder of abstraction describes a continuum from concrete specifics to abstract generalizations, with each rung representing a different level of conceptual granularity. This model is fundamental to understanding [[The Science of Modelling and Abstraction]] and how we construct [[Mental Models MOC|mental models]] of reality.
 

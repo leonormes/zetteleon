@@ -1,22 +1,23 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-31T12:28:00Z
-epistemic: 
-exclusions: "Specific literary works without technique focus"
-last_reviewed: 
+epistemic:
+exclusions: Specific literary works without technique focus
+last_reviewed:
 modified: 2025-10-31T10:42:03Z
-purpose: "Organize storytelling concepts."
+purpose: Organize storytelling concepts.
 review_interval: 180
-scope: "Narrative structures and techniques"
+scope: Narrative structures and techniques
 see_also: []
 source_of_truth: []
-status: 
-tags: [moc, storytelling]
+status:
+tags:
+  - storytelling
 title: MOC - Storytelling Techniques
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## MOC - Storytelling Techniques

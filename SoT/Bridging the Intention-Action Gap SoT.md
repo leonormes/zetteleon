@@ -57,7 +57,6 @@ This means creating a **Knowledge-to-Action (K2A) System** that not only defines
 ### 📤 Integration Source (Existing)
 
 - [[Bridging Learning and Doing#🧠 Full Context Prompt — “User Profile + Motivation + PKM Struggles”]]
-- [[The Science of Bridging Intention and Action#Psychological Barriers Create the Knowing-doing Paradox]]
 
 ## 4. Understanding Layers (Progressive Abstraction)
 

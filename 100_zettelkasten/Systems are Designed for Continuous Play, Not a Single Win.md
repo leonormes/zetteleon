@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2025-11-06T19:56:02Z
 epistemic: fact
 last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+modified: 2025-12-04T21:59:36Z
 purpose: "To explain that systems are designed for continuous improvement, unlike goals which terminate upon achievement."
 review_interval: 90
 see_also: []
@@ -16,8 +16,6 @@ type: concept
 uid: 2025-11-06T19:56:02Z
 updated: 2025-11-06T19:56:02Z
 ---
-
-## Systems Are Designed for Continuous Play, Not a Single Win
 
 **Summary:** The purpose of a goal is to win the game, but the purpose of a system is to continue playing the game, ensuring perpetual progress.
 

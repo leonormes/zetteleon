@@ -1,29 +1,29 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-11-13T20:10:22Z
 decay-signals: []
-epistemic: 
+epistemic:
 last-resonance: 2025-11-13
 last-synthesis: 2025-11-13
-last_reviewed: 
+last_reviewed:
 llm-responses: 1
 modified: 2025-11-13T20:14:54Z
-purpose: 
+purpose:
 quality-markers: []
 resonance-score: 1
-review_interval: 
+review_interval:
 see_also: []
 source_of_truth: true
-status: 
+status:
 supersedes: []
 synthesis-count: 1
 tags: []
 title: Pragmatic Velero Project (AWS & Azure) SoT
 trust-level: developing
-type: 
-uid: 
-updated: 
+type: SoT
+uid:
+updated:
 ---
 
 ## 1. Working Knowledge (Stable Foundation)

@@ -1,19 +1,22 @@
 ---
-aliases: [ADHD Project Return Problem]
-confidence: 
+aliases:
+  - ADHD Project Return Problem
+confidence:
 created: 2025-10-30T15:00:39Z
-criteria: "Must address the specific problem of losing mental models between work sessions or strategies to maintain project continuity"
-epistemic: 
-exclusions: "General ADHD productivity strategies not specific to project continuation"
-last_reviewed: 
+criteria: Must address the specific problem of losing mental models between work sessions or strategies to maintain project continuity
+epistemic:
+exclusions: General ADHD productivity strategies not specific to project continuation
+last_reviewed:
 modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
-scope: "Strategies and insights for overcoming the ADHD challenge of returning to creative projects"
+purpose:
+review_interval:
+scope: Strategies and insights for overcoming the ADHD challenge of returning to creative projects
 see_also: []
 source_of_truth: []
-status: 
-tags: [map, project-continuity, topic/health/adhd]
+status:
+tags:
+  - project-continuity
+  - topic/health/adhd
 title: MOC - ADHD Project Continuation Challenge
 type: map
 uid: 2025-10-30T15:00:39Z

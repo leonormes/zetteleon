@@ -1,19 +1,24 @@
 ---
-aliases: [Pomodoro for ADHD, Time Boxing Guide]
-confidence: 
+aliases:
+  - Pomodoro for ADHD
+  - Time Boxing Guide
+confidence:
 created: 2025-10-30T15:17:49Z
-criteria: "Must address ADHD-specific challenges like time blindness, completion anxiety, or executive function support"
-epistemic: 
-exclusions: "Generic time management without ADHD considerations"
-last_reviewed: 
+criteria: Must address ADHD-specific challenges like time blindness, completion anxiety, or executive function support
+epistemic:
+exclusions: Generic time management without ADHD considerations
+last_reviewed:
 modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
-scope: "Comprehensive strategies for using time boxing as an ADHD productivity tool"
+purpose:
+review_interval:
+scope: Comprehensive strategies for using time boxing as an ADHD productivity tool
 see_also: []
 source_of_truth: []
-status: 
-tags: [map, time-boxing, topic/health/adhd, topic/productivity]
+status:
+tags:
+  - time-boxing
+  - topic/health/adhd
+  - topic/productivity
 title: MOC - Time Boxing for ADHD Brains
 type: map
 uid: 2025-10-30T15:17:49Z

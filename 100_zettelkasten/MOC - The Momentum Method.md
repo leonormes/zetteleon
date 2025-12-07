@@ -1,5 +1,6 @@
 ---
-aliases: [Momentum Method MOC]
+aliases:
+  - Momentum Method MOC
 confidence: 1
 created: 2025-11-01T20:30:10Z
 epistemic: structural
@@ -7,10 +8,17 @@ last_reviewed: 2025-11-02
 modified: 2025-11-10T13:33:48Z
 purpose: To provide a structured map of the Momentum Method for overcoming task initiation challenges in ADHD.
 review_interval: 90
-see_also: ["[[Atomic Actions and Next Actions]]", "[[MOC - Why Task Initiation is Difficult in ADHD]]"]
+see_also:
+  - "[[Atomic Actions and Next Actions]]"
+  - "[[MOC - Why Task Initiation is Difficult in ADHD]]"
 source_of_truth: []
 status: evergreen
-tags: [adhd, moc, momentum, productivity, strategy, task-initiation]
+tags:
+  - adhd
+  - momentum
+  - productivity
+  - strategy
+  - task-initiation
 title: MOC - The Momentum Method
 type: map
 uid: 20251102120500

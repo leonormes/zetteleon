@@ -26,7 +26,7 @@ Areas of Responsibility at work - high-level overview of my key domains.
 
 - Deployment
   - Maintaining the Terraform for our Deployments
-  - [[Generative Infrastructure Configuration MOC|Generative Infrastructure Configuration]]
+  - [[MOC - Generative Infrastructure Configuration|Generative Infrastructure Configuration]]
 - Observability
   - grafana
   - alerting

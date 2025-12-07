@@ -1,0 +1,14 @@
+filters:
+  and:
+    - type.contains("sot")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - type
+    sort:
+      - property: type
+        direction: ASC
+    columnSize:
+      file.name: 363

@@ -1,23 +1,25 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-31T09:55:00Z
-criteria: "Focus on core concepts from 'What Is Intelligence Where Does it Begin.md'."
-epistemic: 
-exclusions: "Human-specific cognitive abilities without cross-species comparison."
-last_reviewed: 
+criteria: Focus on core concepts from 'What Is Intelligence Where Does it Begin.md'.
+epistemic:
+exclusions: Human-specific cognitive abilities without cross-species comparison.
+last_reviewed:
 modified: 2025-10-31T10:42:03Z
-purpose: "Organize notes about the fundamental nature of intelligence across species."
+purpose: Organize notes about the fundamental nature of intelligence across species.
 review_interval: 180
-scope: "Definitions, components, and examples of intelligence across life forms."
+scope: Definitions, components, and examples of intelligence across life forms.
 see_also: []
 source_of_truth: []
-status: 
-tags: [cognition, intelligence, moc]
+status:
+tags:
+  - cognition
+  - intelligence
 title: MOC - The Nature and Origins of Intelligence
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## MOC - The Nature and Origins of Intelligence

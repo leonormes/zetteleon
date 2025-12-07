@@ -1,25 +1,21 @@
 ---
-status: superseded
-superseded-by: "[[ProdOS (Productivity Operating System) SoT]]"
----
-
----
 aliases: []
-confidence: 
+confidence:
 created: 2025-11-13T16:27:08Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-13T16:27:33Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-04T21:49:25Z
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
+status: superseded
+superseded-by: "[[SoT - PRODOS (System Architecture)]]"
 tags: []
 title: ProdOS System Overview and Development Progress
-type: 
-uid: 
-updated: 
+type:
+uid:
+updated:
 ---
 
 ## ProdOS System Overview and Development Progress

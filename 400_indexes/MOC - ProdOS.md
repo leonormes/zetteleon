@@ -1,18 +1,22 @@
 ---
-aliases: [Productivity Operating System]
-confidence: 
+aliases:
+  - Productivity Operating System
+confidence:
 created: 2025-12-04T14:38:32Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-12-04T15:57:30Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
-source_of_truth: [[ProdOS (Productivity Operating System) SoT]]
-status: 
-tags: [prodos, moc]
+source_of_truth:
+  - - ProdOS (Productivity Operating System) SoT
+status:
+tags:
+  - prodos
+  - moc
 title: MOC - ProdOS
-type: MOC
+type: map
 ---
 
 ## ProdOS - Map of Content
@@ -25,7 +29,7 @@ This MOC serves as the primary entry point for ProdOS (Productivity Operating Sy
 
 **All core principles, architectural decisions, and workflows for the ProdOS system have been consolidated into the following Source of Truth (SoT) note.** This is the definitive and most current description of the system.
 
-- **[[ProdOS (Productivity Operating System) SoT]]**
+- **[[SoT - PRODOS (System Architecture)]]**
 
 ---
 
@@ -44,6 +48,10 @@ These are the key frameworks and principles that form the foundation of ProdOS. 
 
 This section contains the collection of original notes, discussions, and explorations that were synthesized to create the main ProdOS SoT. Many of these are now marked as `superseded`, but they provide historical context on the evolution of the system.
 
+- **System Snapshots & Overviews:**
+  - [[ProdOS System Overview and Development Progress]]
+  - [[Complete Context ProdOS System]]
+  - [[ProdOS Organisation and Finding Your Thoughts]]
 - **Foundational Concepts:**
   - [[Atomic vs Structural Notes]]
   - [[The Problem of False Atoms]]

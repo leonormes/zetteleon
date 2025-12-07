@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2025-11-10T15:13:00Z
 epistemic: fact
 last_reviewed:
-modified: 2025-11-10T13:33:51Z
+modified: 2025-12-04T20:49:58Z
 purpose: "To explain how the clarification process specifically benefits individuals with ADHD."
 review_interval: 90
 see_also: ["[[Executive Function Challenges are Central to ADHD]]"]
@@ -16,8 +16,6 @@ type: concept
 uid: 2025-11-10T15:13:00Z
 updated: 2025-11-10T15:13:00Z
 ---
-
-## For ADHD The Clarification Process Externalizes Decision-Making and Builds System Trust
 
 **Summary:** For individuals with ADHD, the clarification process externalizes decision-making, prevents paralysis by providing clear next steps, and builds system trust through consistent actionability.
 

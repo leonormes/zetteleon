@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2025-11-10T16:02:00Z
 epistemic: fact
 last_reviewed:
-modified: 2025-11-10T14:08:42Z
+modified: 2025-12-04T21:01:08Z
 purpose: "To identify common causes of the Illusion of Fluency."
 review_interval: 90
 see_also: ["[[The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning]]"]
@@ -16,8 +16,6 @@ type: concept
 uid: 2025-11-10T16:02:00Z
 updated: 2025-11-10T16:02:00Z
 ---
-
-## Passive Study Habits Foster the Illusion of Fluency
 
 **Summary:** Common passive study habits, such as rereading texts and highlighting key passages, inadvertently foster the "Illusion of Fluency."
 

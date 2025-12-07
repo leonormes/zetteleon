@@ -1,19 +1,23 @@
 ---
-aliases: [MOC - Information to Knowledge]
-confidence: 
+aliases:
+  - MOC - Information to Knowledge
+confidence:
 created: 2025-11-01T12:10:00Z
-criteria: "Atomic notes must relate to the cognitive or philosophical steps in the information-to-knowledge pipeline."
-epistemic: 
-exclusions: "The data-information distinction, wisdom."
-last_reviewed: 
+criteria: Atomic notes must relate to the cognitive or philosophical steps in the information-to-knowledge pipeline.
+epistemic:
+exclusions: The data-information distinction, wisdom.
+last_reviewed:
 modified: 2025-11-01T09:55:39Z
-purpose: 
-review_interval: 
-scope: "The process by which raw information is transformed into actionable knowledge, and the philosophical implications of this transformation."
+purpose:
+review_interval:
+scope: The process by which raw information is transformed into actionable knowledge, and the philosophical implications of this transformation.
 see_also: []
 source_of_truth: []
-status: 
-tags: [epistemology, information, knowledge, map]
+status:
+tags:
+  - epistemology
+  - information
+  - knowledge
 title: MOC - From Information to Knowledge
 type: map
 uid: 2025-11-01T12:10:00Z
