@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-06T12:17:11Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-06T19:03:10Z
+modified: 2025-12-07T18:13:45Z
 purpose: 
 review_interval: 
 see_also: []
@@ -30,9 +30,7 @@ Use a tool like YNAB Together to track accounts, stay transparent, and plan toge
 
 ### Full Document
 
-
 Your laundry gets mixed up together—should your money?
-
 
 - Discuss money openly before choosing your shared financial structure.
 - A shared spending plan eliminates money worry faster than getting scientific about combining accounts.
@@ -49,7 +47,6 @@ That’s how it felt before YNAB. Discussing finances felt awful, because we did
 Here’s the good news: any couple out there can learn to get good with money together. My wife and I have transformed the way we view and manage our money, and now it’s not a constant source of worry and tension in our relationship. Let me share what we at YNAB have learned about how to combine finances after marriage.
 
 Just remember, there’s no one-size-fits-all answer for whether couples should combine finances, keep them separate, or land somewhere in between. Instead, we’re here to help you have a [money conversation](https://www.ynab.com/blog/84-questions-to-ask-your-partner-about-money) that moves you forward, understand your options, and pick a plan that reflects your priorities as a couple.
-
 
 **By the end of this guide, you’ll know how to:**
 
@@ -79,7 +76,6 @@ These conversations might feel uncomfortable. They did for us. I remember starin
 
 Once you’ve talked through what’s happening with your finances, you can dream about what you want to happen. What are your shared priorities? Are you saving for a home, planning for kids (or pets), hoping to travel a lot? The day-to-day money decisions become a lot easier when you are both aligned on long-term goals and values.
 
-
 #### **Pros And Cons of Combining Finances after marriage**
 
 There are real advantages to combining your finances, but also some valid reasons to maintain some separation. Here’s what you need to know:
@@ -99,7 +95,6 @@ There are real advantages to combining your finances, but also some valid reason
 ##### **The Hybrid Approach (A Popular Compromise):**
 
 This is where many couples land. You maintain a **joint account for shared expenses** (like rent, groceries, Korean chicken wings on DoorDash), and each have a **personal account** for individual spending.
-
 
 The YNAB app lets you create a shared plans, while keeping individual priorities separate (and funded!) without judgement.
 
@@ -128,7 +123,6 @@ Some couples choose to keep their income and spending entirely separate and just
 #### **How YNAB Together Supports Shared Money management**
 
 No matter how you structure your accounts, *YNAB Together* makes it easy to link accounts, categorize shared expenses, and see the full picture. It lets both of you access the same spending plan while still offering privacy for any separate accounts.
-
 
 ##### **Step-by-step Process for Combining Finances after marriage**
 

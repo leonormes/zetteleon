@@ -4,14 +4,14 @@ confidence:
 created: 2025-12-07T12:59:20Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-07T13:00:25Z
+modified: 2025-12-07T18:13:54Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: Untitled
+title: Dashboards
 type: 
 uid: 
 updated: 

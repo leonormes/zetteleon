@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-08T15:40:41Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-06T19:24:14Z
+modified: 2025-12-07T18:13:29Z
 purpose: 
 review_interval: 
 see_also: []
@@ -136,9 +136,13 @@ You can SEE your thinking develop. You can BUILD on it.
 ### Core Behavior 1: Continuous Capture
 
 Write: "Thinking about [anything]"
+
            ↓
+
 System: "You've thought about this before. Here's where you left off..."
+
            ↓
+
 You: Build on previous thinking instead of starting over
 
 ### Core Behavior 2: Automatic Linking
@@ -146,6 +150,7 @@ You: Build on previous thinking instead of starting over
 You write: "Test-driven development feels backwards"
 
 System finds:
+
 - Your notes on "ADHD and planning"
 - Your insight on "execution reveals requirements"
 - Your pattern of "build first, understand later"
@@ -158,11 +163,17 @@ Now you see: "Oh, TDD assumes you can plan before doing. [[HEAD - But my brain u
 Instead of isolated notes, you have THREADS of thinking:
 
 Thread: "How Learning Works For Me"
+
 ├── Jan: "I learn by doing, not reading"
+
 ├── Feb: "Actually, I learn by explaining to others"
+
 ├── Mar: "Wait, I learn by building mental models"
+
 ├── Apr: "Pattern: I need concrete → abstract, never abstract → concrete"
+
 ├── May: "Insight: I learn by finding contradictions"
+
 └── Jun: "Synthesis: I learn through iterative model-building via contradictions"
 
 You can see your understanding evolve. Each entry builds on the last.

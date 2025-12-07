@@ -6,20 +6,14 @@ criteria: Include concepts that address the philosophical problem of building id
 epistemic:
 exclusions: Does not cover empirical psychology research or therapeutic interventions
 last_reviewed:
-modified: 2025-11-01T10:01:00Z
+modified: 2025-12-07T18:13:49Z
 purpose:
 review_interval:
 scope: Traces the logical sequence from recognizing arbitrariness to reconstructing confidence through pragmatic frameworks
 see_also: []
 source_of_truth: []
 status: seedling
-tags:
-  - confidence
-  - epistemology
-  - identity
-  - sequence
-  - structural
-  - uncertainty
+tags: [confidence, epistemology, identity, sequence, structural, uncertainty]
 title: SN - Sequence Building Self and Confidence Without Certainty
 type: map
 uid:

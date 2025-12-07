@@ -8,7 +8,7 @@ last-resonance: 2025-11-13
 last-synthesis: 2025-11-13
 last_reviewed:
 llm-responses: 1
-modified: 2025-11-13T20:14:54Z
+modified: 2025-12-07T18:13:20Z
 purpose:
 quality-markers: []
 resonance-score: 1
@@ -19,7 +19,7 @@ status:
 supersedes: []
 synthesis-count: 1
 tags: []
-title: Pragmatic Velero Project (AWS & Azure) SoT
+title: SoT - Pragmatic Velero Project (AWS & Azure)
 trust-level: developing
 type: SoT
 uid:

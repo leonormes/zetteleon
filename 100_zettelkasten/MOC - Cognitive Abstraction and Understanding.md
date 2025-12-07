@@ -6,15 +6,14 @@ criteria: Focus on practical learning and thinking implications.
 epistemic:
 exclusions: Neuroscience details without cognitive application.
 last_reviewed:
-modified: 2025-10-31T10:42:03Z
+modified: 2025-12-07T18:13:51Z
 purpose: Organize concepts about abstraction and understanding.
 review_interval: 180
 scope: Cognitive aspects of abstraction and understanding.
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - cognition
+tags: [cognition]
 title: MOC - Cognitive Abstraction and Understanding
 type: map
 uid:

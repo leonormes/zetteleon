@@ -6,15 +6,14 @@ criteria: Only atomic and evergreen notes. Must be directly referenced in the co
 epistemic:
 exclusions: Synthesis (consolidating many notes into one), advanced query techniques, dataview automation, or vault administration.
 last_reviewed:
-modified: 2025-11-01T09:43:57Z
+modified: 2025-12-07T18:13:51Z
 purpose:
 review_interval:
 scope: The complete system of atomic knowledge cleaving—how to deconstruct long hybrid notes into pure atomic facts and contextual structural maps.
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - zettelkasten
+tags: [zettelkasten]
 title: MOC - Atomic Knowledge Cleaver System
 type: map
 uid: 2025-10-31T08:21:00Z

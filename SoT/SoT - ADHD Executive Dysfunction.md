@@ -1,17 +1,23 @@
 ---
-aliases: [Executive Dysfunction, EF Deficits]
+aliases: [EF Deficits, Executive Dysfunction]
 confidence: 5/5
 created: 2025-12-06T18:00:00Z
+epistemic: 
 last-synthesis: 2025-12-06
+last_reviewed: 
+modified: 2025-12-07T18:13:20Z
 purpose: "To provide a canonical, synthesized understanding of Executive Dysfunction in the context of ADHD, its core components, and its downstream impacts."
-quality-markers: ["Synthesizes multiple notes on EF.", "Distinguishes deficits from moral failings.", "Links to ProdOS as a solution."]
+quality-markers: ["Distinguishes deficits from moral failings.", "Links to ProdOS as a solution.", "Synthesizes multiple notes on EF."]
 related-soTs: ["[[SoT - PRODOS - Problem-Solution Map]]"]
+review_interval: 
+see_also: []
 source_of_truth: true
 status: stable
-tags: [SoT, adhd, executive-function, psychology, neuroscience]
+tags: [adhd, executive-function, neuroscience, psychology, SoT]
 title: SoT - ADHD Executive Dysfunction
 type: SoT
 uid: 
+updated: 
 ---
 
 ## 1. Definitive Statement
@@ -38,10 +44,10 @@ Executive Dysfunction is a multi-faceted impairment. Based on the insights in [[
 
 These deficits are not abstract; they manifest as concrete, often painful, daily experiences:
 
-*   **Analysis Paralysis**: Being trapped in a state of overthinking *about* a task as an unconscious substitute for the action of *doing* it.
-*   **The "Wall of Awful"**: An invisible barrier of negative emotions, past failures, and overwhelm that makes initiating a task feel impossible.
-*   **Time Blindness**: A poor internal sense of time that makes future deadlines feel abstract and non-urgent until they become an immediate crisis.
-*   **Inability to "Just Do It"**: The frustrating internal experience of knowing exactly what to do and how to do it, but being neurologically unable to make your body start.
+-   **Analysis Paralysis**: Being trapped in a state of overthinking *about* a task as an unconscious substitute for the action of *doing* it.
+-   **The "Wall of Awful"**: An invisible barrier of negative emotions, past failures, and overwhelm that makes initiating a task feel impossible.
+-   **Time Blindness**: A poor internal sense of time that makes future deadlines feel abstract and non-urgent until they become an immediate crisis.
+-   **Inability to "Just Do It"**: The frustrating internal experience of knowing exactly what to do and how to do it, but being neurologically unable to make your body start.
 
 ---
 

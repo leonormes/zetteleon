@@ -6,16 +6,14 @@ criteria: Atomic notes must relate to socket fundamentals, programming interface
 epistemic:
 exclusions: Low-level kernel implementation details, hardware-specific networking, non-TCP/IP protocols
 last_reviewed:
-modified: 2025-11-01T09:43:57Z
+modified: 2025-12-07T18:13:51Z
 purpose:
 review_interval:
 scope: Understanding socket technology from basic concepts to advanced server architecture
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - networking
-  - sockets
+tags: [networking, sockets]
 title: MOC - How Sockets Actually Work
 type: map
 uid: 2025-10-31T13:46:00Z

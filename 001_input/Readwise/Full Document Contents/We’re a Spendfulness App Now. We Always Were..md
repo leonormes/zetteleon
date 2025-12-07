@@ -1,22 +1,44 @@
-# We’re a Spendfulness App Now. We Always Were.
+---
+aliases: []
+confidence: 
+created: 2025-12-06T12:17:11Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-07T18:13:44Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [articles]
+title: We’re a Spendfulness App Now. We Always Were.
+type: 
+uid: 
+updated: 
+---
+
+## We’re A Spendfulness App Now. We Always Were
 
 ![rw-book-cover](https://cdn.prod.website-files.com/6410766c6141dc6c15cfe33c/67575f32728a778a839c1046_background_a_blurple%20(1).png)
 
-## Metadata
+### Metadata
 - Author: [[ynab.com]]
 - Full Title: We’re a Spendfulness App Now. We Always Were.
 - Category: #articles
 - Summary: YNAB has introduced the concept of "spendfulness," which emphasizes being intentional and aware about how you spend your money. This approach has helped thousands of users, known as YNABers, create fulfilling lives by aligning their spending with their personal priorities and values. The YNAB app continues to support this philosophy, encouraging guilt-free spending while providing a framework for financial awareness.
-- URL: https://www.ynab.com/blog/introducing-spendfulness
+- URL: <https://www.ynab.com/blog/introducing-spendfulness>
 
-## Full Document
+### Full Document
+
 ![](https://cdn.prod.website-files.com/640f69143ec11b21d42015c6/67326fee7b397c1ea3c7c596_underline1_blurple300_light.svg)
+
 Those of you who keep a dictionary within arm’s reach may have noticed a troubling development across YNAB: we made up a word. (Come at us, Webster!)
 
 We have only one defense: it doesn’t feel like we made up [***spendfulness***](https://www.ynab.com/campaign/spendfulness), it feels like we found it.
 
 ![Blurple YNAB Flag](https://cdn.prod.website-files.com/6410766c6141dc6c15cfe33c/673bf96a78bcbef7172d339c_671a8b064c8e65ea167d3280_671a88b664da1512a1a572e5_flag_blurple_outline-1200x1200-28e5ebb(1).png)
-#### **The story of spendfulness**
+
+#### **The Story of spendfulness**
 
 Twenty years ago, when we were a lil’ baby spreadsheet with four rules, we were sure about one thing: you need a budget. It was the name of our company and the title of Jesse’s book.
 
@@ -30,7 +52,7 @@ This was about so much more than saving money.
 
 Jenny, in Northern California, wrote to us:
 
-> After my recent divorce, I took my kids into the mountains and we stayed in a yurt for three days. We played games, made s’mores and cooked all our meals there. We even got to stargaze in the wee hours of the morning on the last day - the night sky was spectacular! We made some great memories. 
+> After my recent divorce, I took my kids into the mountains and we stayed in a yurt for three days. We played games, made s’mores and cooked all our meals there. We even got to stargaze in the wee hours of the morning on the last day - the night sky was spectacular! We made some great memories.
 
 Jenny could have saved money by staying home for the weekend.
 
@@ -42,7 +64,7 @@ Money can be well spent. And when it is, something profound and powerful ripples
 
 No. Just no.
 
-#### **What is spendfulness?**
+#### **What Is spendfulness?**
 
 The epic successes of YNABers weren’t just because they had a budget—just like being a true yogi isn’t about simply owning a yoga mat. It was the [YNAB Method](https://www.ynab.com/ynab-method) that taught people to become radically aware and intentional with their spending. In the process of using YNAB, they discovered a fundamental truth: how you spend your money is, to some degree, how you spend your life.
 
@@ -52,11 +74,12 @@ That’s what spendfulness is all about.
 
 Like Eric!
 
-#### **Something old, something new**
+#### **Something Old, Something new**
 
 As Erin, our lead educator says, **“We’re not changing anything. We’re just clarifying everything."** We know, from 20 years of experience, that [giving every dollar a job](https://www.ynab.com/blog/why-were-not-saying-rules-anymore) is how you can spend your money guilt-free, with no second-guessing.
 
 ![YNAB app showing spending categories](https://cdn.prod.website-files.com/6410766c6141dc6c15cfe33c/675744e14871cf2ec7b2673a_675744bcd7bb9bf0375c3a46_mobile_categories_blurple.png)The YNAB app is the ultimate spendfulness sidekick, letting you create custom categories that reflect your priorities.
+
 Yes, we're using a new word, but we're still the same YNAB. We’re going to keep teaching people how to be aware and intentional with their spending, completely judgment-free. We are not in the [business of shaming people](https://www.ynab.com/blog/why-is-personal-financial-advice-so-mean). We believe you are the best person—in all the world!—to decide how to spend your hard-earned dollars. We’ll just provide you with a framework and handsome app to help you live spendfully.
 
 #### **Closing arguments**

@@ -1,25 +1,41 @@
 ---
-status: superseded
-superseded-by: "[[SoT - PRODOS (System Architecture)]]"
----
-
----
 aliases: []
 confidence: 
 created: 2025-11-15T17:55:10Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-16T17:02:53Z
+modified: 2025-12-07T18:13:29Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
-status: 
+status: superseded
+superseded-by: "[[SoT - PRODOS (System Architecture)]]"
 tags: []
 title: The why of my zettelkasten
 type: 
 uid: 
 updated: 
+---
+
+---
+
+aliases: []
+confidence:
+created: 2025-11-15T17:55:10Z
+epistemic:
+last_reviewed:
+modified: 2025-11-16T17:02:53Z
+purpose:
+review_interval:
+see_also: []
+source_of_truth: []
+status:
+tags: []
+title: The why of my zettelkasten
+type:
+uid:
+updated:
 ---
 
 I still don't know the point of it.

@@ -10,7 +10,7 @@ last-resonance: 2025-11-13
 last-synthesis: 2025-11-13
 last_reviewed:
 llm-responses: 1
-modified: 2025-11-13T15:11:22Z
+modified: 2025-12-07T18:13:20Z
 mvu-hash: e1c5a0a4d1b3b0b1c0b0a4d1b3b0b1c0b0a4d1b3b0b1c0b0a4d1b3b0b1c0b0a4
 purpose:
 quality-markers: [initial synthesis]
@@ -22,7 +22,7 @@ status:
 supersedes: ["[[300_tickets/FFAPP-4416 Schedule testing and staging clusters to hibernate outside working hours.md]]"]
 synthesis-count: 1
 tags: [aks, azure, cloud, cost-optimization, devops, terraform]
-title: Automated Cloud Resource Hibernation SoT
+title: SoT - Automated Cloud Resource Hibernation
 trust-level: developing
 type: SoT
 uid:

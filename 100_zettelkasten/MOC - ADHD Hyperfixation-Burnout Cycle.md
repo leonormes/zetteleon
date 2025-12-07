@@ -1,27 +1,19 @@
 ---
-aliases:
-  - ADHD Interest Cycle Map
+aliases: [ADHD Interest Cycle Map]
 confidence: 0.9
 created: 2025-11-01T11:37:53Z
 criteria: Include atomic notes addressing the cycle's phases, neurochemical basis, behavioral manifestations, and strategic implications.
 epistemic: fact
 exclusions: General ADHD topics not directly related to the hyperfixation-burnout cycle.
 last_reviewed: 2025-11-01
-modified: 2025-11-01T11:44:49Z
+modified: 2025-12-07T18:13:51Z
 purpose: Map the complete ADHD hyperfixation-burnout cycle, its phases, and system implications.
 review_interval: 90
 scope: All atomic notes related to the ADHD interest cycle, its neurological basis, phases, and practical implications.
-see_also:
-  - "[[Dopamine Management in ADHD Productivity]]"
-  - "[[The Interest-Based Nervous System in ADHD]]"
-source_of_truth:
-  - /Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Adhd up and down cycle .md
+see_also: ["[[Dopamine Management in ADHD Productivity]]", "[[The Interest-Based Nervous System in ADHD]]"]
+source_of_truth: [/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Adhd up and down cycle .md]
 status: seedling
-tags:
-  - cycles
-  - dopamine
-  - motivation
-  - topic/health/adhd
+tags: [cycles, dopamine, motivation, topic/health/adhd]
 title: MOC - ADHD Hyperfixation-Burnout Cycle
 type: map
 uid: 2025-11-01T11:37:53Z

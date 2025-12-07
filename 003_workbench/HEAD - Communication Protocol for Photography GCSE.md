@@ -1,22 +1,30 @@
 ---
-type: head
-created: 2025-12-06 10:15
+aliases: []
+confidence: 
+created: 2025-12-06T10:15:00Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-07T18:13:20Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
 status: processing
-tags:
-  - state/head
-  - type/bug
-  - topic/family/bessie
-  - topic/communication
+tags: [state/head, topic/communication, topic/family/bessie, type/bug]
+title: HEAD - Communication Protocol for Photography GCSE
+type: head
+uid: 
 up: "[[HEAD - Bessie and Her Schooling]]"
+updated: 
 ---
-
 
 > [!abstract] The Spark
 > I tried to explain the "Structure of the GCSE" to her yesterday, assuming that if she understood the *framework*, she would take ownership. Instead, she physically "shut down" (glazed eyes, silence). My attempt to help is actually blocking her.
 
 ---
 
-### 🕷️ Mode: Debugging / Problem Solving
+## 🕷️ Mode: Debugging / Problem Solving
+
 > [!failure] The Gap
 > - **Current State ($S_c$):** I broadcast high-bandwidth structural information (Lecturing). She receives it as "Noise" or "Pressure" and disengages. Output = Zero Ownership.
 > - **Desired State ($S_d$):** She queries me for help when stuck. She maintains the mental model of the project herself. Output = Proactive Ownership.

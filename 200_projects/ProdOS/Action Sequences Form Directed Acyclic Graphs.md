@@ -1,25 +1,16 @@
 ---
-aliases:
-  - Action Dependencies
-  - DAG Model for Actions
+aliases: [Action Dependencies, DAG Model for Actions]
 confidence: 0.8
 created: 2025-11-01T20:30:10Z
 epistemic: principle
 last_reviewed: 2025-11-01
-modified: 2025-11-04T08:59:14Z
+modified: 2025-12-07T18:13:32Z
 purpose: Explain how individual actions compose into larger workflows using the DAG model.
 review_interval: 90
-see_also:
-  - "[[Atomic Actions Have Four Core Properties]]"
-  - "[[Next Action is the Immediate Physical Step Forward]]"
-source_of_truth:
-  - /Volumes/DAL/Zettelkasten/LLMeon/200_projects/LLMPKM/04 - Atomic Actions and Next Actions.md
+see_also: ["[[Atomic Actions Have Four Core Properties]]", "[[Next Action is the Immediate Physical Step Forward]]"]
+source_of_truth: [/Volumes/DAL/Zettelkasten/LLMeon/200_projects/LLMPKM/04 - Atomic Actions and Next Actions.md]
 status: seedling
-tags:
-  - dependencies
-  - productivity
-  - systems
-  - workflow
+tags: [dependencies, productivity, systems, workflow]
 title: Action Sequences Form Directed Acyclic Graphs
 type: concept
 uid: 2025-11-01T20:30:10Z

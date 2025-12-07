@@ -4,14 +4,14 @@ confidence:
 created: 2025-11-05T20:52:36Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-04T13:28:08Z
+modified: 2025-12-07T18:13:31Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: Pkm Pdu
+title: PKM PDU
 type: 
 uid: 
 updated: 

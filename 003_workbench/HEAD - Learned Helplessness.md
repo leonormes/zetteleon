@@ -4,14 +4,13 @@ confidence:
 created: 2025-12-05T15:38:57Z
 epistemic:
 last_reviewed:
-modified: 2025-12-05T15:53:42Z
+modified: 2025-12-07T18:13:20Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags:
-  - state/thinking
+tags: [state/thinking]
 title: HEAD - Learned Helplessness
 type: head
 uid:

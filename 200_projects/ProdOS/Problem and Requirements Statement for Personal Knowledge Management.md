@@ -1,25 +1,41 @@
 ---
-status: superseded
-superseded-by: "[[SoT - PRODOS (System Architecture)]]"
----
-
----
 aliases: []
 confidence: 
 created: 2025-11-14T13:30:09Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-04T13:28:08Z
+modified: 2025-12-07T18:13:31Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
-status: 
+status: superseded
+superseded-by: "[[SoT - PRODOS (System Architecture)]]"
 tags: [1, 2]
 title: Problem and Requirements Statement for Personal Knowledge Management
 type: 
 uid: 
 updated: 
+---
+
+---
+
+aliases: []
+confidence:
+created: 2025-11-14T13:30:09Z
+epistemic:
+last_reviewed:
+modified: 2025-12-04T13:28:08Z
+purpose:
+review_interval:
+see_also: []
+source_of_truth: []
+status:
+tags: [1, 2]
+title: Problem and Requirements Statement for Personal Knowledge Management
+type:
+uid:
+updated:
 ---
 
 ## Context / Problem

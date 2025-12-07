@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-24T07:13:39Z
 epistemic:
 last_reviewed:
-modified: 2025-12-04T13:28:09Z
+modified: 2025-12-07T18:13:31Z
 purpose:
 review_interval:
 see_also: []
@@ -12,7 +12,7 @@ source: https://gemini.google.com/share/60c321b60e08
 source_of_truth: []
 status:
 tags: []
-title: Modeling Notes and Links as Objects
+title: Modelling Notes and Links as Objects
 type:
 uid:
 updated:

@@ -4,16 +4,14 @@ confidence:
 created: 2025-12-04T11:23:44Z
 epistemic:
 last_reviewed:
-modified: 2025-12-05T15:06:09Z
+modified: 2025-12-07T18:13:20Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: superseded
 superseded-by: "[[SoT - PRODOS (System Architecture)]]"
-tags:
-  - principle
-  - prodos
+tags: [principle, prodos]
 title: HEAD - ProdOS
 type: head
 uid:
@@ -53,4 +51,4 @@ There are a few angles here;
 - Knowledge Management
 - GTD
 - Thinking
-Maybe the system should be an action oriented process. GTD first. And the library materials come from that.  [[SoT - PRODOS (System Architecture)]]
+Maybe the system should be an action oriented process. GTD first. And the library materials come from that. [[SoT - PRODOS (System Architecture)]]

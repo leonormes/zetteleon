@@ -1,22 +1,21 @@
 ---
-aliases:
-  - Productivity Operating System
+aliases: [Productivity Operating System]
 confidence:
 created: 2025-12-04T14:38:32Z
 epistemic:
 last_reviewed:
-modified: 2025-12-04T15:57:30Z
+modified: 2025-12-07T18:13:21Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth:
   - - ProdOS (Productivity Operating System) SoT
 status:
-tags:
-  - prodos
-  - moc
+tags: [moc, prodos]
 title: MOC - ProdOS
 type: map
+uid: 
+updated: 
 ---
 
 ## ProdOS - Map of Content

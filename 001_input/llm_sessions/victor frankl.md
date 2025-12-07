@@ -4,14 +4,14 @@ confidence:
 created: 2025-11-16T02:02:21Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-16T02:05:07Z
+modified: 2025-12-07T18:13:46Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: victor frankl
+title: Victor Frankl
 type: 
 uid: 
 updated: 

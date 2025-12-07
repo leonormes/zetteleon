@@ -6,16 +6,14 @@ criteria: Focus on core concepts from 'What Is Intelligence Where Does it Begin.
 epistemic:
 exclusions: Human-specific cognitive abilities without cross-species comparison.
 last_reviewed:
-modified: 2025-10-31T10:42:03Z
+modified: 2025-12-07T18:13:51Z
 purpose: Organize notes about the fundamental nature of intelligence across species.
 review_interval: 180
 scope: Definitions, components, and examples of intelligence across life forms.
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - cognition
-  - intelligence
+tags: [cognition, intelligence]
 title: MOC - The Nature and Origins of Intelligence
 type: map
 uid:

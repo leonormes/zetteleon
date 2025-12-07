@@ -1,26 +1,16 @@
 ---
-aliases:
-  - Scheduled Time Blocks
-  - Timeboxing
-  - Timeboxing MOC
+aliases: [Scheduled Time Blocks, Timeboxing, Timeboxing MOC]
 confidence: 1
 created: 2025-11-01T20:22:24Z
 epistemic: principle
 last_reviewed: 2025-11-01
-modified: 2025-11-01T20:43:13Z
+modified: 2025-12-07T18:13:48Z
 purpose: Explain how timeboxing provides structure that facilitates action over motion.
 review_interval: 90
-see_also:
-  - "[[Implementation Intentions Turn Vague Plans Into Concrete Actions]]"
-  - "[[Systems Beat Motivation for Consistent Productivity]]"
-source_of_truth:
-  - /Volumes/DAL/Zettelkasten/LLMeon/200_projects/LLMPKM/motion_vs_action.md
+see_also: ["[[Implementation Intentions Turn Vague Plans Into Concrete Actions]]", "[[Systems Beat Motivation for Consistent Productivity]]"]
+source_of_truth: [/Volumes/DAL/Zettelkasten/LLMeon/200_projects/LLMPKM/motion_vs_action.md]
 status: evergreen
-tags:
-  - action
-  - productivity
-  - scheduling
-  - time-management
+tags: [action, productivity, scheduling, time-management]
 title: Timeboxing Creates Structure for Action
 type: map
 uid: 2025-11-01T20:22:24Z

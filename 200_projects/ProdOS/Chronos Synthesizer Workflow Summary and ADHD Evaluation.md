@@ -1,24 +1,55 @@
 ---
+aliases: []
+confidence: 
+created: 2025-11-14T11:28:51Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-07T18:13:29Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
 status: superseded
 superseded-by: "[[SoT - PRODOS (System Architecture)]]"
+tags: []
+title: Chronos Synthesizer Workflow Summary and ADHD Evaluation
+type: 
+uid: 
+updated: 
 ---
 
 aliases: []
+
 confidence:
+
 created: 2025-11-14T00:00:00Z
+
 epistemic:
+
 last_reviewed:
+
 modified: 2025-11-14T11:30:30Z
+
 purpose:
+
 review_interval:
+
 see_also: []
+
 source: "<https://gemini.google.com/share/f8642fcceba9>"
+
 source_of_truth: []
+
 status:
+
 tags: []
+
 title: Chronos Synthesizer Workflow Summary and ADHD Evaluation
+
 type:
+
 uid:
+
 updated:
 
 Load this context. This is still not what I want. I want a zettelkasten but 1 I can easily return to. I think I need to change my workflow. This is still a good idea with sot notes as entry points but I need to be able to write as I work. Summarise the workflow and evaluate each touch point for ADHD barriers

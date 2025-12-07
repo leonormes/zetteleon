@@ -5,15 +5,14 @@ created: 2025-10-31T12:28:00Z
 epistemic:
 exclusions: Specific literary works without technique focus
 last_reviewed:
-modified: 2025-10-31T10:42:03Z
+modified: 2025-12-07T18:13:51Z
 purpose: Organize storytelling concepts.
 review_interval: 180
 scope: Narrative structures and techniques
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - storytelling
+tags: [storytelling]
 title: MOC - Storytelling Techniques
 type: map
 uid:

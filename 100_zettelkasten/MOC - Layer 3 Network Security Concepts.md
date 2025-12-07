@@ -6,16 +6,14 @@ criteria: Focus on routing, ACLs, and data structures for network security.
 epistemic:
 exclusions: Higher-layer (L4-L7) security concepts.
 last_reviewed:
-modified: 2025-10-31T10:42:03Z
+modified: 2025-12-07T18:13:51Z
 purpose: Organize Layer 3 network security concepts.
 review_interval: 180
 scope: Technical concepts from 'L3 Network Security Explained.md'.
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - networking
-  - security
+tags: [networking, security]
 title: MOC - Layer 3 Network Security Concepts
 type: map
 uid:

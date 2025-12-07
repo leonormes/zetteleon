@@ -4,14 +4,13 @@ confidence:
 created: 2025-12-06T19:30:49Z
 epistemic:
 last_reviewed:
-modified: 2025-12-06T19:31:42Z
+modified: 2025-12-07T18:13:20Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags:
-  - state/thinking
+tags: [state/thinking]
 title: HEAD - Forgetting your own breakthroughs
 type: head
 uid:
@@ -20,7 +19,7 @@ updated:
 ---
 
 > [!abstract] The Spark (Contextual Wrapper)
-> This is my biggest bug bear. Forgetting what I have already done to solve a problem. Constantly starting again 
+> This is my biggest bug bear. Forgetting what I have already done to solve a problem. Constantly starting again
 
 ## 🧠 My Current Model (The Blind Write)
 *Instructions: Write this section BEFORE looking at documentation. How do you think it works? What is your logic? be messy.*

@@ -4,14 +4,14 @@ confidence: 0.9
 created: 2025-01-15T10:10:00Z
 epistemic: structure
 last_reviewed: 2025-01-15
-modified: 2025-11-12T14:24:20Z
+modified: 2025-12-07T18:13:21Z
 purpose: Map of Content organizing concepts related to Generative Infrastructure Configuration
 review_interval: 90
 see_also: [[AoR at Work]]
 source_of_truth: []
 status: active
 tags: [automation, configuration, infrastructure, moc]
-title: Generative Infrastructure Configuration MOC
+title: MOC - Generative Infrastructure Configuration
 type: map
 uid: 2025-01-15T10:10:00Z
 updated: 2025-01-15T10:10:00Z

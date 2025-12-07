@@ -6,18 +6,14 @@ criteria: Include atomic notes addressing 'What is mathematics?' and foundationa
 epistemic: principle
 exclusions: Specific mathematical theorems, proofs, or applications not directly related to foundational questions.
 last_reviewed: 2025-11-01
-modified: 2025-11-01T11:35:54Z
+modified: 2025-12-07T18:13:51Z
 purpose: Map synthesizing philosophical foundations, methodologies, and structure of mathematics.
 review_interval: 90
 scope: All atomic notes related to the nature, foundations, and structure of mathematics.
 see_also: []
-source_of_truth:
-  - /Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md
+source_of_truth: [/Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md]
 status: seedling
-tags:
-  - foundations
-  - philosophy
-  - topic/maths
+tags: [foundations, philosophy, topic/maths]
 title: MOC - What is Maths
 type: map
 uid: 2025-11-01T11:22:13Z

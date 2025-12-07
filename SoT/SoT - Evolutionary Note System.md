@@ -9,7 +9,7 @@ last-resonance: 2025-11-13
 last-synthesis: 2025-11-13
 last_reviewed:
 llm-responses: 1
-modified: 2025-11-14T12:05:00Z
+modified: 2025-12-07T18:13:20Z
 purpose:
 quality-markers: ['converged related note', initial synthesis]
 resonance-score: 2
@@ -20,7 +20,7 @@ status:
 supersedes: ["[[200_projects/LLMPKM/Evolutionary note system for Obsidian.md]]", "[[Maintaining Lines of Thought Over Time.md]]"]
 synthesis-count: 2
 tags: [cognition, knowledge-management, obsidian, pkm, synthesis, thinking, zettelkasten]
-title: Evolutionary Note System SoT
+title: SoT - Evolutionary Note System
 trust-level: developing
 type: SoT
 uid:

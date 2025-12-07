@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-25T18:37:44Z
 epistemic:
 last_reviewed:
-modified: 2025-11-27T08:40:23Z
+modified: 2025-12-07T18:13:30Z
 purpose:
 review_interval:
 see_also: []
@@ -12,7 +12,7 @@ source: https://gemini.google.com/share/6632e542b83b
 source_of_truth: []
 status:
 tags: []
-title: Process Over Goals
+title: Process Over Goals Actionable System
 type:
 uid:
 updated:

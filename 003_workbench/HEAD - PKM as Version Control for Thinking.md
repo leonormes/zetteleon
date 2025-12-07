@@ -1,24 +1,25 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-12-07T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-07T18:08:12Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-07T18:12:05Z
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: [head, pkm, system_design, thinking]
+status:
+tags: [pkm, system_design, thinking]
 title: HEAD - PKM as Version Control for Thinking
 type: HEAD
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## The Spark
 
+> [!abstract] The Spark
 > "The Core Problem: You can't trust your notes to represent your current thinking. Even when you find relevant past notes, you don't know if they're still valid or have been superseded by later evolution. This makes them functionally useless—so you either ignore them and duplicate work, or second-guess them and can't build confidently."
 > — *Journal Entry, 2025-11-14*
 
@@ -26,7 +27,9 @@ updated:
 > — *Journal Entry, 2025-11-17*
 
 ## My Current Model
-**The "Git" Analogy for Thought:**
+
+The "Git" Analogy for Thought:
+
 My current PKM fails because it treats knowledge like a **file system** (a flat list of documents) rather than a **version control system** (a history of state changes).
 
 1.  **Snapshots vs. State:** Most notes are just "snapshots" of what I thought at a specific `time=t`. They are static. My brain, however, is dynamic; my understanding at `time=t+1` is different.

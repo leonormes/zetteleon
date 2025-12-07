@@ -1,24 +1,19 @@
 ---
-aliases:
-  - MOC - Generalist vs Specialist
+aliases: [MOC - Generalist vs Specialist]
 confidence:
 created: 2025-11-01T12:30:00Z
 criteria: Atomic notes must relate to the benefits of generalism, adaptability, and iterative learning.
 epistemic:
 exclusions: Specific examples of prodigies or detailed biographical information.
 last_reviewed:
-modified: 2025-11-01T10:08:40Z
+modified: 2025-12-07T18:13:51Z
 purpose:
 review_interval:
 scope: The advantages of divergent thinking and broad experience over narrow specialization in a changing world.
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - divergent-thinking
-  - generalism
-  - learning
-  - specialization
+tags: [divergent-thinking, generalism, learning, specialization]
 title: MOC - Divergent Thinking vs Specialization
 type: map
 uid: 2025-11-01T12:30:00Z

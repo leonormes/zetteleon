@@ -4,14 +4,14 @@ confidence:
 created: 2025-11-25T21:49:41Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-04T13:28:05Z
+modified: 2025-12-07T18:13:30Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: shifting focus from goals outcomes to systems processes
+title: Shifting Focus From Goals Outcomes to Systems Processes
 type: 
 uid: 
 updated: 

@@ -1,23 +1,46 @@
-# Debt vs. Month Ahead: What to Tackle First
+---
+aliases: []
+confidence: 
+created: 2025-12-06T12:17:11Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-07T18:13:45Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [articles]
+title: Debt vs. Month Ahead What to Tackle First
+type: 
+uid: 
+updated: 
+---
+
+## Debt vs. Month Ahead: What to Tackle First
 
 ![rw-book-cover](https://cdn.prod.website-files.com/6410766c6141dc6c15cfe33c/690254b1560be47c14f1c2e9_Blurple%20Background%20(1).png)
 
-## Metadata
+### Metadata
 - Author: [[Ernie Reppe]]
 - Full Title: Debt vs. Month Ahead: What to Tackle First
 - Category: #articles
 - Summary: Paying off debt frees up cash and feels great but can leave you with no cushion. Getting a month ahead reduces stress, builds resilience, and prevents falling back into debt. Choose the option that gives you more breathing room today and start moving.
-- URL: https://www.ynab.com/blog/debt-vs-month-ahead
+- URL: <https://www.ynab.com/blog/debt-vs-month-ahead>
 
-## Full Document
+### Full Document
+
 ![](https://cdn.prod.website-files.com/640f69143ec11b21d42015c6/66c5261d6c4cbb5d2bafacec_background_b_blurple.svg)
-![](https://cdn.prod.website-files.com/6410766c6141dc6c15cfe33c/690254686a6813f5487af979_Rule%20Four%20Icon%20Meadow%20Outline.png)
-![](https://cdn.prod.website-files.com/640f69143ec11b21d42015c6/67326fee7b397c1ea3c7c596_underline1_blurple300_light.svg)
-##### Key Takeaways
 
-* **Paying off debt first** frees up cash flow and feels motivating, but can leave you less flexible when surprises hit.
-* **Getting a month ahead** builds resilience, reduces stress, and makes it easier to stay out of debt for good.
-* The best choice depends on your timeline and what will help you breathe easier today.
+![](https://cdn.prod.website-files.com/6410766c6141dc6c15cfe33c/690254686a6813f5487af979_Rule%20Four%20Icon%20Meadow%20Outline.png)
+
+![](https://cdn.prod.website-files.com/640f69143ec11b21d42015c6/67326fee7b397c1ea3c7c596_underline1_blurple300_light.svg)
+
+#### Key Takeaways
+
+- **Paying off debt first** frees up cash flow and feels motivating, but can leave you less flexible when surprises hit.
+- **Getting a month ahead** builds resilience, reduces stress, and makes it easier to stay out of debt for good.
+- The best choice depends on your timeline and what will help you breathe easier today.
 
 Ever wonder if you’re doing money *wrong*? One day you’re determined to crush your debt, the next you’re convinced you should save instead. You scroll through personal finance advice, listen to experts, and still feel that quiet doubt in the back of your mind—how do you know what's actually right for you?
 
@@ -31,7 +54,7 @@ Both goals are great. Both move you forward. But depending on where you are in y
 
 Let’s walk through the pros and cons of each approach, and how to know what’s right for you.
 
-#### Pros and Cons of Paying Off Debt First
+### Pros and Cons of Paying Off Debt First
 
 There’s something so satisfying about tackling debt. Logging online, submitting the payments, and then seeing those balances shrink is like watching progress in real time. I absolutely love paying off debt!
 
@@ -64,7 +87,7 @@ Ben said it best during our discussion, *"If you're really aggressive about the 
 
 And he’s right. Aggressive debt payoff can mean you’re always timing monthly payments to paychecks and dealing with cash flow issues. That’s a lot of mental energy you could be spending on things you actually enjoy.
 
-#### Pros and Cons of Getting a Month Ahead
+### Pros and Cons of Getting a Month Ahead
 
 If you’re new to YNAB, getting a month ahead means you’re living off last month’s income. When November ends, you've already got December fully funded. When your first paycheck hits in December, it goes straight toward January’s expenses. On the first of the month, every category is fully funded, and you already know you’re covered.
 
@@ -100,7 +123,7 @@ It’s true, if you delay extra payments while saving up to get a month ahead, y
 
 And those things? They’re worth a lot.
 
-#### So… Which Comes First?
+### So… Which Comes First
 
 Here’s the good news: there’s no wrong answer.
 
@@ -108,11 +131,12 @@ A lot may depend on the size of your debt and how long it will take to pay them 
 
 As I said on the podcast, *just pick one*. Don’t get stuck in decision paralysis—no matter which path you start with, you’ll feel more in control, and that’s what matters most. Pick the focus that will make your life better right now, start moving, and reevaluate later. You can always pivot.
 
-#### Or Maybe the Best of Both Worlds?
+### Or Maybe the Best of Both Worlds
 
 After publishing the episode, one YouTube commenter offered a hybrid approach. They wrote:
 
 ![](https://cdn.prod.website-files.com/640f69143ec11b21d42015c6/670dd98e251e46afcd12d53f_openingquotes_blurple_outline%20(1).svg)I am focusing on aggressive debt payoff but this is inspiring me to think about working on month ahead. For example I just decided for this month I will get ahead on my lowest monthly expense which is $2.01. Then the next month I will tackle the second lowest expense which is $2.12 lol - and then keep going from there.
+
 I don't know what we call this (Savings Stacking? Future Stacking? The Breathing Room Balloon?), but it's almost like the debt snowball method for getting a month ahead! It’s such a creative, approachable way to ease into the month-ahead mindset. You can start small. You cover one category at a time, celebrate each small win, and keep rolling forward, all while still aggressively paying down debt. Before you know it, you’ve built a whole month of breathing room, one $2.12 victory at a time.
 
 Whichever path you choose, you’re moving forward—and that’s what counts.

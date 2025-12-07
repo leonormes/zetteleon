@@ -4,16 +4,13 @@ confidence:
 created: 2025-10-30T12:10:08Z
 epistemic:
 last_reviewed:
-modified: 2025-10-31T09:31:40Z
+modified: 2025-12-07T18:13:51Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - topic/health/adhd
-  - topic/productivity
-  - writing
+tags: [topic/health/adhd, topic/productivity, writing]
 title: MOC - Daily Writing for Clarity and ADHD-Friendly Techniques
 type: map
 uid:

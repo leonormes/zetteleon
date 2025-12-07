@@ -6,16 +6,14 @@ criteria: Focus on techniques from 'I want to be able remember facts to aid in m
 epistemic:
 exclusions: General learning theories without specific memory techniques.
 last_reviewed:
-modified: 2025-10-31T10:42:03Z
+modified: 2025-12-07T18:13:51Z
 purpose: Organize proven memory techniques for learning.
 review_interval: 180
 scope: Evidence-based memory techniques for learning and retention.
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - learning
-  - memory
+tags: [learning, memory]
 title: MOC - Proven Memory Techniques for Effective Learning
 type: map
 uid:

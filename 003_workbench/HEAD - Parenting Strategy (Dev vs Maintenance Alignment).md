@@ -1,23 +1,30 @@
 ---
-type: head
-created: 2025-12-07 10:00
+aliases: []
+confidence: 
+created: 2025-12-07T10:00:00Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-07T18:13:20Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
 status: processing
-tags:
-  - state/head
-  - type/design
-  - type/conflict
-  - topic/family/bessie
-  - topic/strategy
+tags: [state/head, topic/family/bessie, topic/strategy, type/conflict, type/design]
+title: HEAD - Parenting Strategy (Dev vs Maintenance Alignment)
+type: head
+uid: 
 up: "[[HEAD - Bessie and Her Schooling]]"
+updated: 
 ---
-
 
 > [!abstract] The Spark
 > My attempts to explain the "theory" of autonomy to my wife are causing friction. She perceives my "First Principles" approach as lecturing (adding cognitive load), whereas she is optimising for "Emotional Safety" (reducing load). I need to stop selling the *code* and start selling the *feature*.
 
 ---
 
-### 🏗️ Mode: Design / Strategy
+## 🏗️ Mode: Design / Strategy
+
 > [!quote] The Requirement
 > - **Objective:** Implement "Development" goals (autonomy/resilience) without triggering "Maintenance" alarms (fear/instability) in my wife.
 > - **Success Criteria:** Wife agrees to structural changes because she sees them as "Safety Mechanisms" rather than "Challenges."
@@ -41,16 +48,19 @@ up: "[[HEAD - Bessie and Her Schooling]]"
 *Hypothesis: If I frame these hard boundaries as "Parental Relief Tools," she will accept them.*
 
 ### Proposal 1: The "Chef's Night Off" Protocol
-* **The Goal (Dev):** Build Bessie's executive function and agency (Low-Stakes Task).
-* **The Pitch (Maintenance):**
+- **The Goal (Dev):** Build Bessie's executive function and agency (Low-Stakes Task).
+- **The Pitch (Maintenance):**
+
     > "You are exhausted by 6pm and the kitchen is stressful. Let's make Wednesday 'Bessie Cooks' night. It’s not about teaching her; it’s about **you getting a guaranteed break**. Even if she makes toast, you get an hour of silence."
 
 ### Proposal 2: The "Bad Guy Router" Protocol
-* **The Goal (Dev):** Limit dopamine flooding/gaming to force boredom (Technical Debt).
-* **The Pitch (Maintenance):**
+- **The Goal (Dev):** Limit dopamine flooding/gaming to force boredom (Technical Debt).
+- **The Pitch (Maintenance):**
+
     > "I hate hearing you have to argue with her about the iPad every night. It ruins your evening. Let's automate it. I'll set the router to cut off at 8pm. That way, **the router is the bad guy, not you**, and you don't have to nag her anymore."
 
 ### Proposal 3: The "Morning Calm" Protocol
-* **The Goal (Dev):** Stop enabling avoidance/negotiation during school refusal.
-* **The Pitch (Maintenance):**
-    > "The morning arguments are spiking everyone's anxiety. Let's agree on a 'No Fight' rule. If she refuses school, we don't argue. We just silently switch the house to 'Boring Mode' (No Wi-Fi/TV). **This keeps the house calm for you** and stops the screaming matches."
+- **The Goal (Dev):** Stop enabling avoidance/negotiation during school refusal.
+- The Pitch (Maintenance):
+
+> "The morning arguments are spiking everyone's anxiety. Let's agree on a 'No Fight' rule. If she refuses school, we don't argue. We just silently switch the house to 'Boring Mode' (No Wi-Fi/TV). **This keeps the house calm for you** and stops the screaming matches."

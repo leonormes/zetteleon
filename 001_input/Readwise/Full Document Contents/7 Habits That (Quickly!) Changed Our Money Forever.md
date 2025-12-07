@@ -1,20 +1,43 @@
-# 7 Habits That (Quickly!) Changed Our Money Forever
+---
+aliases: []
+confidence: 
+created: 2025-12-06T12:17:11Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-07T18:13:44Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [articles]
+title: 7 Habits That (Quickly!) Changed Our Money Forever
+type: 
+uid: 
+updated: 
+---
+
+## 7 Habits That (Quickly!) Changed Our Money Forever
 
 ![rw-book-cover](https://cdn.prod.website-files.com/6410766c6141dc6c15cfe33c/68dd8b969e78b89e9b305bda_Background%20Blurple.png)
 
-## Metadata
+### Metadata
 - Author: [[Ernie Reppe]]
 - Full Title: 7 Habits That (Quickly!) Changed Our Money Forever
 - Category: #articles
 - Summary: Seven practical habits—like assigning every dollar a job, saving for irregular expenses, and living a month ahead—help you stop worrying and gain control of your money. Work only with the cash you have, find money before spending, and keep a short-term cash cushion for flexibility. Change your plan without guilt and build one habit at a time until money feels calm and doable.
-- URL: https://www.ynab.com/blog/7-habits-that-changed-our-money-forever
+- URL: <https://www.ynab.com/blog/7-habits-that-changed-our-money-forever>
 
-## Full Document
+### Full Document
+
 ![](https://cdn.prod.website-files.com/640f69143ec11b21d42015c6/66c5261d6c4cbb5d2bafacec_background_b_blurple.svg)
+
 ![](https://cdn.prod.website-files.com/6410766c6141dc6c15cfe33c/68dd8b5265550ba85cb7583a_Firefly%20Outline.png)
+
 Copy these simple (but life-changing) habits from the Budget Nerds to make money feel calmer, clearer, and completely doable.
 
 ![](https://cdn.prod.website-files.com/640f69143ec11b21d42015c6/67326fee7b397c1ea3c7c596_underline1_blurple300_light.svg)Do you wish you were better with money? You are not alone.
+
 Most of us were never really taught how to handle money beyond “create a budget” and "save for emergencies," and those leave a lot of gaps. What if there were a handful of habits that didn’t just plug those gaps, but actually reshaped the way you experience money?
 
 What if the stress and all the late-night money worries could be replaced with calm, clarity, and even excitement about the future?
@@ -38,6 +61,7 @@ On a recent episode of [*Budget Nerds*](https://www.youtube.com/playlist?list=PL
 **Try this:** Go back to the plan you built in Habit One and see if this habit changes the jobs of any of your dollars. Is there something else you'd rather prioritize between now and the next time you're paid?
 
 ![Stack of dollars](https://cdn.prod.website-files.com/6410766c6141dc6c15cfe33c/68eea1d0889f9729ae00bea4_dollar_stack_blurple_outline-1201x835-42a19b4(1).png)Stack of dollars
+
 #### **3. Save for Non-Monthlies**
 
 **What it means:** Non-monthly expenses are all the things you don’t pay for every month—things like car repairs, holiday gifts, or my annual Costco membership. I treat these irregular expenses like monthly bills. I figure out the total amount I need, divide by 12, set aside that amount each month, and, BOOM!, the money is there when those things finally pop up.
@@ -63,6 +87,7 @@ On a recent episode of [*Budget Nerds*](https://www.youtube.com/playlist?list=PL
 **Try this:** Before your next discretionary purchase, first check to see if you have money set aside for the purchase. If there isn’t enough, what are you willing to give up to buy this?
 
 ![Categories in a YNAB plan](https://cdn.prod.website-files.com/6410766c6141dc6c15cfe33c/68eea0fdc95afc89aadec9fe_mobile_categories_blurple-1200x971-5a8dcf3.png) Category balances are crystal clear in YNAB, making it easy to spend with confidence.
+
 #### **6. Hold On to Cash Longer**
 
 **What it means:** Cash gives you options. Think of it like buying yourself time and flexibility. With cash in hand, you can choose whether to pay down debt, handle an unexpected car repair, or jump on a surprise opportunity without scrambling.
@@ -79,7 +104,7 @@ On a recent episode of [*Budget Nerds*](https://www.youtube.com/playlist?list=PL
 
 **Try this:** The next time you overspend in one area, cover it with money from somewhere else. And do it guilt free! Notice how much better it feels to adjust the plan instead of feeling like you’ve blown it.
 
-#### **Start with One Habit**
+#### **Start With One Habit**
 
 Don’t stack all seven today, I beg you! Pick one that you have the most energy around—maybe saving for non-monthlies or changing your plan—and try it for a month. It won’t take long before the habit locks in and you feel the difference. Then try one or two more. Before you know it, you'll wake up one day and realize, "Wow, I'm good with money now!"
 

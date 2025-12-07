@@ -4,16 +4,13 @@ confidence:
 created: 2025-12-07T11:15:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-07T15:54:30Z
+modified: 2025-12-07T18:13:20Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags:
-  - topic/family/bessie
-  - topic/psychology
-  - type/concept
+tags: [topic/family/bessie, topic/psychology, type/concept]
 title: HEAD - Clarity as Anxiety Reduction (The Fog of War)
 type: head
 uid:

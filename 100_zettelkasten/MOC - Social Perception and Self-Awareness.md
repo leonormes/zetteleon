@@ -1,22 +1,19 @@
 ---
-aliases:
-  - Social Perception MOC
+aliases: [Social Perception MOC]
 confidence:
 created: 2025-10-31T09:20:29Z
 criteria: Atomic notes on perception formation, accuracy, and meta-awareness
 epistemic: synthesis
 exclusions: Interpersonal skills training, persuasion techniques, cultural anthropology
 last_reviewed:
-modified: 2025-10-31T09:31:41Z
+modified: 2025-12-07T18:13:51Z
 purpose: Connect atomic notes on how people form and calibrate social perceptions.
 review_interval:
 scope: Social perception mechanisms, biases, and calibration strategies
 see_also: []
 source_of_truth: []
 status: seedling
-tags:
-  - topic/social-cognition
-  - topic/social-perception
+tags: [topic/social-cognition, topic/social-perception]
 title: MOC - Social Perception and Self-Awareness
 type: map
 uid: sp-moc-social-perception

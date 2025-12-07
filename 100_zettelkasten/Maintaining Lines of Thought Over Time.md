@@ -1,27 +1,18 @@
 ---
-aliases:
-  - Continuity of Thought
-  - Line of Thought
+aliases: [Continuity of Thought, Line of Thought]
 confidence:
 created: 2025-05-06T16:23:14Z
 epistemic:
 last_reviewed:
 llm-action: redirect-created
-modified: 2025-11-13T16:07:12Z
+modified: 2025-12-07T18:13:50Z
 purpose: To articulate the problem of losing intellectual momentum and position the Zettelkasten as a system for maintaining and resuming lines of thought over time.
 review_interval: 180
-see_also:
-  - "[[Documenting Mental Models Enables Project Re-entry]]"
-  - "[[Externalise Everything]]"
-  - "[[My main pkm problem is the continuity of thinking]]"
+see_also: ["[[Documenting Mental Models Enables Project Re-entry]]", "[[Externalise Everything]]", "[[My main pkm problem is the continuity of thinking]]"]
 source_of_truth: []
 status: superseded
 superseded-by: "[[SoT - Evolutionary Note System]]"
-tags:
-  - entry-point
-  - linking
-  - topic/cognition/thinking
-  - topic/pkm/zettelkasten
+tags: [entry-point, linking, topic/cognition/thinking, topic/pkm/zettelkasten]
 title: Maintaining Lines of Thought Over Time
 type: map
 uid:
