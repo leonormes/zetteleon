@@ -53,7 +53,11 @@ PRODOS functions as a continuous loop that processes thought, generates action, 
 **Capture -> Refine -> Synthesize -> Act -> Repeat**
 
 1.  **Capture (Human):** Raw, messy, unstructured thoughts are captured into a frictionless entry point (Daily Note). "Capture Now, Structure Later."
-2.  **Refine (LLM):** The LLM acts as a **Convergent Tool**, applying the [[The Raw Input Refactoring Protocol]] to parse the raw input into a structured `HEAD` note, identifying the spark, the model, and the tension. This layer incorporates the **Clarity Framework** (Problem → Clarity Analysis → GTD Project).
+2.  **Refine (LLM):** The LLM acts as a **Convergent Tool**, applying the **Raw Input Refactoring Protocol** to parse the raw input into a structured `HEAD` note.
+    *   **Isolation:** Extract raw text into a dedicated HEAD note.
+    *   **Parsing:** Separate concerns into `Spark` (Trigger), `Model` (Hypothesis), and `Tension` (Conflict).
+    *   **Logic Linter:** Debug the thought by stripping emotion ("I hate this") to find the signal ("The docs are missing X").
+    *   **Compilation:** Convert the tension into a verifiable **Micro-Experiment** (The Next Test).
 3.  **Synthesize (LLM & Human):** The LLM automates the "Chronos Synthesis" ritual, updating the canonical `SoT` note with new insights from `HEAD` notes. The user performs the final validation.
 4.  **Act (Human):** The output of thinking is not another note, but a **verifiable `Next Action`**—a test, an experiment, or a command—to be executed in the real world.
 
@@ -97,10 +101,13 @@ The folder structure and tool integration reflect the cognitive loop. PRODOS v5.
 
 ---
 
-## 7. Minimum Viable Understanding (MVU)
+## 7. Minimum Viable Understanding (MVU) & The Architect's Triage
 
 1.  **Capture** every thought, no matter how messy, into the Daily Note.
-2.  **Triage** the thought: is it something to **Do** (task), something to **Know** (fact), or something to **Figure Out** (a struggle)?
+2.  **Triage (The Router):** Categorize the input by **Metabolic State**:
+    *   **Kinetic (#state/action):** A defined task. Move to Todoist.
+    *   **Static (#state/lib):** A fact or reference. Move to SoT Library.
+    *   **Dynamic (#state/head):** An unresolved problem or insight. Keep in HEAD.
 3.  **Figure Out** in a `HEAD` note. The goal is always to define the `Next Test`.
 4.  **Store** stable conclusions in a `SoT` note via synthesis.
 5.  **Do** the `Next Test` and capture the results, restarting the loop.
