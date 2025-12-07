@@ -21,7 +21,7 @@ tags:
   - software-development
   - structural
 title: SN - Sequence - A Deep Dive into Adult ADHD in Remote Software Development
-type: map
+type: sn
 uid: 2025-11-06T19:53:03Z
 updated: 2025-11-06T19:53:03Z
 ---

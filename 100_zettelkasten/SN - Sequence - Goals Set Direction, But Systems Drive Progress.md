@@ -21,7 +21,7 @@ tags:
   - structural
   - systems
 title: SN - Sequence - Goals Set Direction, But Systems Drive Progress
-type: map
+type: sn
 uid: 2025-11-06T19:55:04Z
 updated: 2025-11-06T19:55:04Z
 ---

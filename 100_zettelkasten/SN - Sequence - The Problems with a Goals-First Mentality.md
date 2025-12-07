@@ -21,7 +21,7 @@ tags:
   - structural
   - systems
 title: SN - Sequence - The Problems with a Goals-First Mentality
-type: map
+type: sn
 uid: 2025-11-06T19:57:03Z
 updated: 2025-11-06T19:57:03Z
 ---

@@ -32,6 +32,8 @@ This section details each major problem and the corresponding solution engineere
 *   **Related Insights**:
     *   [[Executive Function Challenges are Central to ADHD]]
     *   [[Executive Dysfunction - The Root of Analysis Paralysis]]
+    *   [[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency]]
+    *   [[Task Management Systems Have Limited Efficacy for ADHD Productivity]]
 
 *   **The PRODOS Solution**:
     1.  **The Tri-State Router**: Drastically simplifies the initial, overwhelming decision. Any input is immediately sorted into one of only three channels: **Action**, **Storage**, or **Synthesis**. This bypasses the "what is this and what do I do with it?" paralysis.
@@ -48,6 +50,7 @@ This section details each major problem and the corresponding solution engineere
     *   [[The Extended Mind Thesis]]
     *   [[Writing Acts as an External Working Memory]]
     *   [[External Structure and ADHD]]
+    *   [[The Danger of Perpetual System-Building]]
 
 *   **The PRODOS Solution**:
     1.  **The Extended Mind (/extend)**: This is the core real-time solution. When you begin to write about a topic, the system automatically surfaces all your previous related thoughts. This interrupts the loop by making your thinking **cumulative** instead of **cyclical**. You build on your past thinking instead of repeating it.
@@ -59,16 +62,20 @@ This section details each major problem and the corresponding solution engineere
 *   **Related Insights**:
     *   [[Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]]
     *   [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]
+    *   [[Productive Procrastination as an Avoidance Strategy]]
+    *   [[System Tweaking as a Form of Procrastination in ADHD]]
 
 *   **The PRODOS Solution**:
     1.  **"Motion Creates Motivation" Principle**: The system is designed around the philosophy of engineering action to create motivation. The /engage-action command is built to find the path of least resistance into a productive state.
     2.  **The Gamified Scoring Algorithm**: The Action Engine's formula is a practical implementation of this principle. It prioritizes tasks that are not just "important" but also match your current context and energy level, making them more appealing and easier to start.
+    3.  **Rapid Feedback Loops**: Recognizing that [[Rapid Feedback Loops are Essential for ADHD Motivation]], the system provides immediate visual confirmation of actions (e.g., checking off a task, moving a card), triggering the dopamine response needed to sustain effort.
 
 ### Problem D: The Shame-Procrastination Cycle
 
 *   **The Experience**: Repeated struggles with task initiation and completion lead to feelings of shame and incompetence. This shame makes thinking about the task even more aversive, which leads to more procrastination, creating a vicious, self-reinforcing cycle.
 *   **Related Insights**:
     *   [[The Shame-Procrastination Cycle]]
+    *   [[Rejection Sensitive Dysphoria The Perfectionism Trap]]
 
 *   **The PRODOS Solution**:
     1.  **System-Driven Objectivity**: The Action Engine is impartial. It presents the next action based on data, not on your emotional state. This external, objective prompt helps decouple the task from the shame associated with it.
