@@ -6,21 +6,21 @@ created: 2025-11-13T16:20:00Z
 decay-signals: []
 epistemic:
 last-resonance: 2025-11-13
-last-synthesis: 2025-11-14
+last-synthesis: 2025-12-07
 last_reviewed:
 llm-responses: 4
-modified: 2025-12-07T18:13:20Z
+modified: 2025-12-08T11:11:32Z
 mvu-hash: ""
 purpose:
-quality-markers: [Added ADHD-specific context, Added real-world DevOps K2A example, Integrated practical workflow, Synthesized from comprehensive research]
+quality-markers: [Added ADHD-specific context, Added real-world DevOps K2A example, Added Vague Task Checklist, Integrated practical workflow, Synthesized from comprehensive research]
 related-soTs: ["[[ADHD and Motivation MOC]]", "[[MOC - ADHD Hyperfixation-Burnout Cycle]]", "[[SoT - Evolutionary Note System]]"]
-resonance-score: 4
+resonance-score: 5
 review_interval:
 see_also: []
 source_of_truth: true
 status:
-supersedes: ["[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]", "[[ADHD and Productivity]]", "[[ADHD routines should be based on intrinsic motivation not external pressure]]", "[[Knowledge-to-Action System SoT]]", "[[KtA]]", "[[The Activation Cost of Tasks is Higher in ADHD]]", "[[The Motivation Bridge - An ADHD Metaphor]]", "[[The Science of Bridging Intention and Action]]", "[[Why Importance and Rewards Fail to Motivate ADHD Brains]]"]
-synthesis-count: 4
+supersedes: ["[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]", "[[ADHD and Productivity]]", "[[ADHD routines should be based on intrinsic motivation not external pressure]]", "[[Knowledge-to-Action System SoT]]", "[[KtA]]", "[[The Activation Cost of Tasks is Higher in ADHD]]", "[[The Motivation Bridge - An ADHD Metaphor]]", "[[The Science of Bridging Intention and Action]]", "[[Vague Task to Actionable Plan Checklist]]", "[[Why Importance and Rewards Fail to Motivate ADHD Brains]]"]
+synthesis-count: 5
 tags: [adhd, devops, execution, habits, k2a, motivation, neuroscience, pkm, productivity, psychology, SoT]
 title: SoT - Bridging the Intention-Action Gap
 trust-level: authoritative
@@ -77,15 +77,26 @@ This means creating a **Knowledge-to-Action (K2A) System** that not only defines
   - **Part C: Example Implementation (DevOps K2A)**
     - **Principle:** Balance structured research with frequent, targeted hands-on practice. Use a 70/20/10 split: 70% hands-on execution, 20% structured research, 10% measurement and reflection.
     - **Feedback Loop:** Use industry metrics (like DORA for DevOps) to measure the real-world impact of your learning. This provides tangible evidence of progress, which is highly motivating.
-      - *Deployment Frequency:* How often do you ship?
-      - *Lead Time for Changes:* How long from idea to deployment?
-      - *Change Failure Rate:* How often do your changes cause problems?
-      - *Time to Restore Service (MTTR):* How quickly can you fix things?
     - **ADHD-Specific Tactics:**
       - **Standardize Your Stack:** Make foundational choices (e.g., Argo CD vs. Flux) to eliminate decision fatigue for every new project.
       - **Micro-Project Backlog:** Break down a large goal (e.g., "Learn GitOps") into a series of small, stackable wins that can be completed in hours, not days.
       - **Use Lightweight Templates:** Create simple, reusable templates for experiments, definitions of done, and weekly reviews to reduce friction.
       - **Time-box Everything:** Use timers (Pomodoro, etc.) to clearly delineate between practice, research, and reflection.
+  - **Part D: Tactical Tool (The Vague-to-Action Checklist)**
+    *A "Read-Do" checklist for when a task feels overwhelming or undefined. Based on "The Checklist Manifesto".*
+    - **Phase 1: DEFINE THE ENDPOINT**
+      1. [ ] **Identify the 'Problem Statement':** Write down the vague task exactly as captured.
+      2. [ ] **Ask 'What does DONE look like?':** Describe a tangible, physical outcome (e.g., "A two-page PDF").
+      3. [ ] **Name the Final Outcome:** Give this outcome a clear project name.
+    - **Phase 2: CAPTURE THE STEPS**
+      4. [ ] **Set a 5-minute timer:** Reduce pressure.
+      5. [ ] **Brain Dump:** Write every question, idea, and step without filtering.
+      6. [ ] **Organize into Phases:** Group items into 3-5 logical stages (Research, Draft, Review).
+    - **Phase 3: ACTIVATE THE PLAN**
+      7. [ ] **Identify Phase 1:** Look at the first group.
+      8. [ ] **Ask 'What is the very next physical action?':** Must be small, visible, doable now (e.g., "Email Jane," "Create doc").
+      9. [ ] **Write on 'Next Actions' list:** The entire project is now represented by this single task.
+    - **PAUSE POINT:** Confirm the action is clear and doable in <10 mins.
 
 ## 5. Minimum Viable Understanding (MVU)
 
@@ -111,6 +122,6 @@ This means creating a **Knowledge-to-Action (K2A) System** that not only defines
 
 ## 8. Sources and Links
 
-- **Supersedes:** [[ADHD and Productivity]], [[The Motivation Bridge - An ADHD Metaphor]], [[Activation Energy is the Primary Barrier to ADHD Task Initiation]], and others.
+- **Supersedes:** [[ADHD and Productivity]], [[The Motivation Bridge - An ADHD Metaphor]], [[Activation Energy is the Primary Barrier to ADHD Task Initiation]], [[Vague Task to Actionable Plan Checklist]]
 - **Related MOCs:** [[ADHD and Motivation MOC]], [[MOC - ADHD Hyperfixation-Burnout Cycle]]
 - **Related SoTs:** [[SoT - Evolutionary Note System]]

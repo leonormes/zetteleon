@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-30T12:09:05Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-08T11:12:04Z
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: [executive-function, map, task-initiation, topic/health/adhd]
+status:
+tags: [executive-function, task-initiation, topic/health/adhd]
 title: MOC - Why Task Initiation is Difficult in ADHD
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 This note summarizes the reasons why task initiation is so difficult for individuals with ADHD, and the behavioral interventions that can help.

@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-30T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-08T11:12:04Z
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: [map, neurodiversity, relationships, RSD, self-awareness, topic/health/adhd]
+status:
+tags: [neurodiversity, relationships, RSD, self-awareness, topic/health/adhd]
 title: MOC - Understanding Self-Focus in Neurodivergent Individuals
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## MOC - Understanding Self-Focus in Neurodivergent Individuals

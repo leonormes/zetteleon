@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-30T12:07:05Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-08T11:12:04Z
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: [map, neuroscience, task-initiation, topic/health/adhd]
+status:
+tags: [neuroscience, task-initiation, topic/health/adhd]
 title: MOC - The Neuroscience of Task Initiation in ADHD
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 This note provides an overview of the neuroscience behind task initiation difficulties in ADHD.

@@ -39,7 +39,7 @@ Zofja has her view which affect the responses she has to Bessie's behaviour. I t
 - **Assumption A (The Behaviour):** This is "[[HEAD - Learned Helplessness]]." She is training herself to choose the easy path.
 - **Assumption B (The Projection):** She is doing this because she is like me (inheriting my problems).
 - **Assumption C (The Parenting):** By avoiding conflict, we are reinforcing the behaviour. "Keeping the peace" is actually "Enabling."
-- assumption D: When I try to explain things out goes on one ear and it the other. Bessie didn't like just listening. Maybe she prefers doing to learn [[HEAD - But my brain understands BY doing]]
+- assumption D: When I try to explain things out goes on one ear and it the other. Bessie didn't like just listening. Maybe she prefers doing to learn [[HEAD - But My Brain Understands by Doing]]
 
 ## ⚔️ The Tension (The Conflict)
 - **Internal:** I want her to have agency, but I am afraid to enforce rules because I fear conflict/rejection.

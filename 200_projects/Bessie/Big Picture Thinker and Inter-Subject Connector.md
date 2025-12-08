@@ -4,7 +4,7 @@ confidence:
 created: 2025-06-20T15:26:10Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:34Z
+modified: 2025-12-08T00:24:36Z
 purpose: 
 review_interval: 
 see_also: []
@@ -31,8 +31,6 @@ Bessie demonstrates exceptional ability to see connections between different sub
 - [[Learn Like a Pro]] - "Interleaving helps you not only learn the concepts you're studying, but also understand the differences between them... varying or mixing different concepts"
 
 ### External Brain for Pattern Recognition
-
-- [[I learned a system for remembering everything]] - Creating note card systems organized by theme to identify cross-subject patterns and connections
 
 ### ADHD Default Mode Network Benefits
 

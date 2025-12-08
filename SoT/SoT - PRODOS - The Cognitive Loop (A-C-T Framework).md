@@ -1,16 +1,21 @@
 ---
-aliases: [The Cognitive Loop, A-C-T Framework, Human-LLM-Human Sandwich, The Refinement Protocol, One-Note-Container]
+aliases: [A-C-T Framework, Human-LLM-Human Sandwich, One-Note-Container, The Cognitive Loop, The Refinement Protocol]
 confidence: 5/5
 created: 2025-12-07T00:00:00Z
 epistemic: 
-modified: 
+last_reviewed: 
+modified: 2025-12-08T11:11:32Z
 purpose: "To define the standard operating procedure for converting amorphous thought into actionable outcomes using LLMs."
+review_interval: 
+see_also: []
 source_of_truth: true
 status: stable
 supersedes: ["[[ADHD, LLMs, and PKM Balance]]"]
-tags: [prodos, architecture, llm, workflow, sot]
+tags: [architecture, llm, prodos, sot, workflow]
 title: SoT - PRODOS - The Cognitive Loop (A-C-T Framework)
 type: SoT
+uid: 
+updated: 
 ---
 
 ## 1. Definitive Statement
@@ -26,8 +31,8 @@ type: SoT
 
 The ADHD brain is drawn to the dopamine hit of *acquiring* information, often mistaking this for *learning*. Combined with the infinite generation capabilities of LLMs, this leads to **Content Sprawl**: a vast library of unactioned text.
 
-*   **The Failure Mode:** Using LLMs to "elaborate," "explore," or "tell me more," which generates infinite divergence.
-*   **The Correction:** "Think like a man of action, act like a man of thought." Knowledge is inert until it is applied.
+-   **The Failure Mode:** Using LLMs to "elaborate," "explore," or "tell me more," which generates infinite divergence.
+-   **The Correction:** "Think like a man of action, act like a man of thought." Knowledge is inert until it is applied.
 
 ---
 
@@ -46,36 +51,36 @@ The workflow strictly enforces the user's role as the **Director**, not the Cons
 To bypass analysis paralysis, all "thinking" sessions must follow this three-phase loop.
 
 ### Phase A: ACTION (Define the Goal)
-*   **The Input:** Amorphous, vague anxiety or curiosity (e.g., "I need to fix my finances" or "I want to learn Kubernetes").
-*   **The Question:** "What is the *single, specific action* this thinking is supposed to lead to?"
-*   **The Role:** The LLM acts as a **Converger**.
-*   **The Tool:** **Gemini Flash** (Fast, concise, decisive).
-*   **The Output:** A **Minimum Viable Action (MVA)**. Not a plan, but the immediate next physical step (e.g., "List all income sources").
+-   **The Input:** Amorphous, vague anxiety or curiosity (e.g., "I need to fix my finances" or "I want to learn Kubernetes").
+-   **The Question:** "What is the *single, specific action* this thinking is supposed to lead to?"
+-   **The Role:** The LLM acts as a **Converger**.
+-   **The Tool:** **Gemini Flash** (Fast, concise, decisive).
+-   **The Output:** A **Minimum Viable Action (MVA)**. Not a plan, but the immediate next physical step (e.g., "List all income sources").
 
 ### Phase C: CONTAINER (Define the Boundary)
-*   **The Constraint:** Before acting, the user must define the **One-Note-Container**.
-*   **The Rule:** "I will create exactly *one* new atomic note, titled '[Title]', containing [Specific Data]."
-*   **The Execution:** The user sets a timer (Time-Boxing) and performs the MVA. This is the "Act like a man of thought" phase—executing a deliberate, bounded task.
+-   **The Constraint:** Before acting, the user must define the **One-Note-Container**.
+-   **The Rule:** "I will create exactly *one* new atomic note, titled '[Title]', containing [Specific Data]."
+-   **The Execution:** The user sets a timer (Time-Boxing) and performs the MVA. This is the "Act like a man of thought" phase—executing a deliberate, bounded task.
 
 ### Phase T: THOUGHT (Reflect & Synthesize)
-*   **The Input:** The raw data or result generated in Phase C.
-*   **The Role:** The LLM acts as a **Synthesizer**.
-*   **The Tool:** **Gemini Pro** (Deep reasoning, complex analysis).
-*   **The Prompt:** "Here is the data I generated. What is the single key insight? What is the logical next MVA?"
-*   **The Output:** A validated **Atomic Note** for the Zettelkasten and the input for the next A-Phase.
+-   **The Input:** The raw data or result generated in Phase C.
+-   **The Role:** The LLM acts as a **Synthesizer**.
+-   **The Tool:** **Gemini Pro** (Deep reasoning, complex analysis).
+-   **The Prompt:** "Here is the data I generated. What is the single key insight? What is the logical next MVA?"
+-   **The Output:** A validated **Atomic Note** for the Zettelkasten and the input for the next A-Phase.
 
 ---
 
 ## 5. Tactical Rules
 
 ### Model Selection Strategy
-*   **Gemini Flash:** Use for **Phase A (Action)**. It prevents the "Encyclopedia Trap" by being too simple to generate sprawling essays. It forces binary choices and checklists.
-*   **Gemini Pro:** Use for **Phase T (Thought)**. Use only when you have concrete data to analyze.
+-   **Gemini Flash:** Use for **Phase A (Action)**. It prevents the "Encyclopedia Trap" by being too simple to generate sprawling essays. It forces binary choices and checklists.
+-   **Gemini Pro:** Use for **Phase T (Thought)**. Use only when you have concrete data to analyze.
 
 ### The Zero-Toil Constraint
-*   Never start an LLM chat without a defined **Container Goal** in Obsidian.
-*   Never end a session without a **Next MVA**.
-*   If the output is not actionable, it is waste.
+-   Never start an LLM chat without a defined **Container Goal** in Obsidian.
+-   Never end a session without a **Next MVA**.
+-   If the output is not actionable, it is waste.
 
 ---
 

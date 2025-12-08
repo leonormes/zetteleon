@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-12T15:00:09Z
 epistemic: NA
 last_reviewed:
-modified: 2025-11-12T14:01:15Z
+modified: 2025-12-08T00:30:39Z
 purpose: "A technique to free up working memory by offloading mental clutter."
 review_interval: 180
 see_also: []
@@ -16,8 +16,6 @@ type: instructional
 uid: 2025-11-12T15:00:09Z
 updated: 2025-11-12T15:00:09Z
 ---
-
-## Brain Dumping Offloads Cognitive Load to an External System
 
 **What:** A strategy to counteract the cognitive load from working memory deficits by transferring all thoughts, tasks, and worries from the mind to a trusted external system.
 

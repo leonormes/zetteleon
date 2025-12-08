@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-30T12:39:22Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-08T11:12:04Z
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: [authority, map, psychology, shame, topic/health/adhd]
+status:
+tags: [authority, psychology, shame, topic/health/adhd]
 title: MOC - Authority Dynamics and ADHD
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## Authority Dynamics and ADHD

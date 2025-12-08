@@ -7,17 +7,17 @@ decay-signals: []
 epistemic: 
 last-synthesis: 2025-12-07
 last_reviewed: 2025-12-07
-modified: 2025-12-07T18:13:20Z
+modified: 2025-12-08T00:59:04Z
 purpose: "The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system."
-quality-markers: ["Clarifies the Human-in-the-Loop LLM workflow.", "Defines the core cognitive loop.", "Establishes verifiable acceptance criteria."]
+quality-markers: ["Clarifies the Human-in-the-Loop LLM workflow.", "Defines the core cognitive loop.", "Establishes verifiable acceptance criteria.", "Integrates Hansei Reflection Loop."]
 related-soTs: ["[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]"]
 resonance-score: 10
 review_interval: "3 months"
 see_also: []
 source_of_truth: true
 status: stable
-supersedes: ["[[02 - GTD]]", "[[08 - Obsidian for PKM]]", "[[Complete Context ProdOS System]]", "[[Old ProdOS Product Description]]", "[[ProdOS System Overview and Development Progress]]", "[[The why of my zettelkasten]]"]
-tags: [adhd, architecture, prodos, SoT, system_design]
+supersedes: ["[[02 - GTD]]", "[[08 - Obsidian for PKM]]", "[[Complete Context ProdOS System]]", "[[Hansei]]", "[[Old ProdOS Product Description]]", "[[ProdOS System Overview and Development Progress]]", "[[The why of my zettelkasten]]"]
+tags: [adhd, architecture, hansei, prodos, SoT, system_design]
 title: SoT - PRODOS (System Architecture)
 type: SoT
 uid: 
@@ -50,16 +50,17 @@ Conventional PKM and productivity systems fail because they are not designed for
 
 PRODOS functions as a continuous loop that processes thought, generates action, and synthesizes results. It operates on the **Compass-over-Clock** paradigm, prioritizing values and purpose over urgency.
 
-**Capture -> Refine -> Synthesize -> Act -> Repeat**
+**Capture -> Refine -> Synthesize -> Act -> Reflect (Hansei) -> Repeat**
 
 1.  **Capture (Human):** Raw, messy, unstructured thoughts are captured into a frictionless entry point (Daily Note). "Capture Now, Structure Later."
 2.  **Refine (LLM):** The LLM acts as a **Convergent Tool**, applying the **Raw Input Refactoring Protocol** to parse the raw input into a structured `HEAD` note.
-    *   **Isolation:** Extract raw text into a dedicated HEAD note.
-    *   **Parsing:** Separate concerns into `Spark` (Trigger), `Model` (Hypothesis), and `Tension` (Conflict).
-    *   **Logic Linter:** Debug the thought by stripping emotion ("I hate this") to find the signal ("The docs are missing X").
-    *   **Compilation:** Convert the tension into a verifiable **Micro-Experiment** (The Next Test).
+    -   **Isolation:** Extract raw text into a dedicated HEAD note.
+    -   **Parsing:** Separate concerns into `Spark` (Trigger), `Model` (Hypothesis), and `Tension` (Conflict).
+    -   **Logic Linter:** Debug the thought by stripping emotion ("I hate this") to find the signal ("The docs are missing X").
+    -   **Compilation:** Convert the tension into a verifiable **Micro-Experiment** (The Next Test).
 3.  **Synthesize (LLM & Human):** The LLM automates the "Chronos Synthesis" ritual, updating the canonical `SoT` note with new insights from `HEAD` notes. The user performs the final validation.
 4.  **Act (Human):** The output of thinking is not another note, but a **verifiable `Next Action`**—a test, an experiment, or a command—to be executed in the real world.
+5.  **Reflect (Hansei):** A structured feedback loop to transform behavior into learning (See Section 9).
 
 ---
 
@@ -101,22 +102,39 @@ The folder structure and tool integration reflect the cognitive loop. PRODOS v5.
 
 ---
 
-## 7. Minimum Viable Understanding (MVU) & The Architect's Triage
+## 7. Reality as a Unit Test (The Execution Protocol)
 
-1.  **Capture** every thought, no matter how messy, into the Daily Note.
-2.  **Triage (The Router):** Categorize the input by **Metabolic State**:
-    *   **Kinetic (#state/action):** A defined task. Move to Todoist.
-    *   **Static (#state/lib):** A fact or reference. Move to SoT Library.
-    *   **Dynamic (#state/head):** An unresolved problem or insight. Keep in HEAD.
-3.  **Figure Out** in a `HEAD` note. The goal is always to define the `Next Test`.
-4.  **Store** stable conclusions in a `SoT` note via synthesis.
-5.  **Do** the `Next Test` and capture the results, restarting the loop.
+The "Next Test" is not just a task; it is a **verifiable interface** between the internal mental model (Thinking) and external reality (Doing).
+
+### The Compilation Target
+
+You do not finish thinking when you have an answer; you finish when you have a **query for reality**.
+
+-   **Input:** Tension/Hypothesis (HEAD Note).
+-   **Function:** The Next Test (Action).
+-   **Return Value:** Data/Outcome (Update SoT).
+
+### The Specification (Acceptance Criteria)
+
+To qualify as a "Next Test," an action must meet three criteria:
+
+1.  **Atomic Scope:** The smallest possible unit of work (<15 mins).
+2.  **Binary Outcome:** It must Pass or Fail. (e.g., "Did the script return error 401? Yes/No").
+3.  **Learning Objective:** Focus on *information gain*, not just output.
+
+### The Refactoring Logic (Thinking -> Testing)
+-   **Confusion:** "I don't know X" -> **Test:** "Search docs for X. Found/Not Found."
+-   **Assumption:** "I think X causes Y" -> **Test:** "Disable X. Does Y still happen?"
+-   **Design:** "I need to build Z" -> **Test:** "Draft ugliest version of Z in 5 mins."
+
+---
 
 ## 8. Information Architecture & Retrieval Strategy
 
 The core challenge of any knowledge system is retrieving the right thought at the right time. Previous iterations failed because files (SoT, MOC, HEAD, Summary) **competed for authority**, creating decision fatigue.
 
 ### The Unified Hierarchy
+
 PRODOS establishes a clear, non-competing hierarchy for file types:
 
 | File Type | Role | The Question It Answers |
@@ -132,25 +150,36 @@ PRODOS establishes a clear, non-competing hierarchy for file types:
 3.  **System View:** Use **Base Files** (`.base`) as dashboards to see the high-level state of the vault.
 
 ### The Organization Logic (Feed, Don't Compete)
-*   **Frictionless Capture:** Daily Notes are for raw capture. Do not organize here.
-*   **Integration:** When a raw thought belongs to a topic, **do not create a new note.** Feed it into the **Integration Queue** of the existing SoT.
-*   **Synthesis:** The LLM processes the Integration Queue to update the SoT. This ensures the SoT remains the living canon, preventing "competitor notes" from splintering knowledge.
+-   **Frictionless Capture:** Daily Notes are for raw capture. Do not organize here.
+-   **Integration:** When a raw thought belongs to a topic, **do not create a new note.** Feed it into the **Integration Queue** of the existing SoT.
+-   **Synthesis:** The LLM processes the Integration Queue to update the SoT. This ensures the SoT remains the living canon, preventing "competitor notes" from splintering knowledge.
 
 ---
 
-## 9. Open Questions & Tensions
+## 9. Maintenance Rituals: The Hansei Feedback Loop
+
+The system is not static; it requires active maintenance to prevent "Trust Decay." This is not "admin"; it is the mechanism of improvement.
+
+> **Philosophy:** "No problem is a problem." If you don't find friction, you are blind to it.
+
+### The Weekly Hansei Protocol
+1.  **Identify Friction:** Analyze where the system failed (e.g., missed habits, untrusted lists).
+2.  **Adjust Process:** Do not blame willpower. Tweak the **Environment** or **Rules**.
+    -   *Example:* "I missed writing 3 times. Adjustment: Move writing to 8 AM timebox."
+3.  **Verify Alignment:** Check if actions align with Identity/Goals. Behavior reveals true purpose.
+
+---
+
+## 10. Open Questions & Tensions
 
 - **Tension:** The core struggle remains balancing **Action (Kinetic)** vs. **Thinking (Dynamic)**. The system mitigates this by demanding that all "Thinking" cycles must terminate in an "Action" (The Next Test).
 - **Confidence Gap:** The system's trustworthiness depends entirely on the discipline of adhering to the synthesis loop. If `HEAD` notes proliferate without being integrated into `SoT` notes, trust decays.
 
-## 9. Related Components
-- [[SoT - PRODOS - Action Management (GTD)]]
-- [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
-- [[SoT - PRODOS - Structure & Storage (PARA/PKM)]]
+## 11. Related Components
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
-- [[SoT - PKM Confidence and Acceptance Criteria]]
+- [[SoT - Process Primacy (Systems Over Goals)]]
 
-## 10. Status & Roadmap
+## 12. Status & Roadmap
 
 **Current Status:** ProdOS v5.0 is considered **production-ready**.
 - **Core:** Architecture consolidated and operational.

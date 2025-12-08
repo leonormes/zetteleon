@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-30T12:08:07Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-08T11:12:04Z
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: [cleaning, map, topic/health/adhd, topic/productivity]
+status:
+tags: [cleaning, topic/health/adhd, topic/productivity]
 title: MOC - How to Organize a Cleaning Schedule
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 This note provides a framework for organizing a cleaning schedule, based on the advice from Melissa Maker of "Clean My Space."

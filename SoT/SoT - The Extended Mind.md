@@ -1,16 +1,21 @@
 ---
-aliases: [The Extended Mind Thesis, Distributed Cognition, Embodied Cognition]
+aliases: [Cumulative Thinking, Distributed Cognition, Embodied Cognition, The Extended Mind Thesis]
 confidence: 5/5
 created: 2025-12-07T00:00:00Z
 epistemic: 
-modified: 
+last_reviewed: 
+modified: 2025-12-08T11:11:32Z
 purpose: "To define the 'Extended Mind' as the foundational cognitive architecture for PRODOS."
+review_interval: 
+see_also: []
 source_of_truth: true
 status: stable
-supersedes: ["[[Key Insights from The Extended Mind]]", "[[The Extended Mind Thesis]]"]
-tags: [cognition, adhd, pkm, sot, extended_mind]
+supersedes: ["[[Key Insights from The Extended Mind]]", "[[The Extended Mind Thesis]]", "[[What Organizing Your Thoughts Really Means]]"]
+tags: [adhd, cognition, extended_mind, mental_models, pkm, sot]
 title: SoT - The Extended Mind
 type: SoT
+uid: 
+updated: 
 ---
 
 ## 1. Definitive Statement
@@ -27,33 +32,49 @@ type: SoT
 Cognition extends in three primary directions, all of which are leveraged by PRODOS to support the ADHD brain.
 
 ### A. Embodied Cognition (The Body)
-*   **Principle:** Thinking is a physical act. Our bodies play a crucial role in shaping thought (gestures, movement).
-*   **ADHD Application:** Physical activity sharpens attention and regulates alertness. "Fidgeting to focus" is a valid cognitive strategy.
-*   **ProdOS Implication:** "Action over Collection." The system forces physical output (typing, checklist completion) to drive mental engagement.
+-   **Principle:** Thinking is a physical act. Our bodies play a crucial role in shaping thought (gestures, movement).
+-   **ADHD Application:** Physical activity sharpens attention and regulates alertness. "Fidgeting to focus" is a valid cognitive strategy.
+-   **ProdOS Implication:** "Action over Collection." The system forces physical output (typing, checklist completion) to drive mental engagement.
 
 ### B. Situated Cognition (The Environment)
-*   **Principle:** We think *with* our environment. "Designer environments" can simplify cognitive tasks by offloading complexity into the space itself.
-*   **ADHD Application:** A cluttered space (digital or physical) creates cognitive noise. A structured space (like a Template) acts as a "rail" for thought.
-*   **ProdOS Implication:** The use of rigid Templates (HEAD, SoT) creates a "cognitive cockpit" where the environment dictates the next step, reducing decision fatigue.
+-   **Principle:** We think *with* our environment. "Designer environments" can simplify cognitive tasks by offloading complexity into the space itself.
+-   **ADHD Application:** A cluttered space (digital or physical) creates cognitive noise. A structured space (like a Template) acts as a "rail" for thought.
+-   **ProdOS Implication:** The use of rigid Templates (HEAD, SoT) creates a "cognitive cockpit" where the environment dictates the next step, reducing decision fatigue.
 
 ### C. Distributed Cognition (The Network)
-*   **Principle:** Thinking is distributed across people and tools. We "outsource" memory to trusted sources (Transactive Memory).
-*   **ADHD Application:** We cannot rely on internal Working Memory (which is volatile). We must distribute memory to external systems.
-*   **ProdOS Implication:** The Zettelkasten is not an archive; it is a "Thinking Partner." By linking notes, we create an external web of knowledge that holds context when our biological brain drops it.
+-   **Principle:** Thinking is distributed across people and tools. We "outsource" memory to trusted sources (Transactive Memory).
+-   **ADHD Application:** We cannot rely on internal Working Memory (which is volatile). We must distribute memory to external systems.
+-   **ProdOS Implication:** The Zettelkasten is not an archive; it is a "Thinking Partner." By linking notes, we create an external web of knowledge that holds context when our biological brain drops it.
 
 ---
 
-## 3. The Brainbound Fallacy vs. Cognitive Scaffolding
+## 3. The Core Benefit: Cumulative vs. Cyclical Thinking
 
-*   **The Fallacy:** The belief that intelligent thinking happens only inside the skull. This leads to shame when the biological brain fails (e.g., forgetting a task).
-*   **The Reality:** The brain has severe limits in attention, memory, and persistence (especially with ADHD).
-*   **The Solution:** **Cognitive Scaffolding.** Just as a building needs scaffolding to rise, the ADHD brain needs external structures (ProdOS) to reach higher-order thinking.
-    *   **Offloading:** Dump everything out of the head immediately.
-    *   **Re-spatializing:** Use visual metaphors (Kanban, Graph View) to "see" thought.
+Without an extended mind, the ADHD brain falls into the **Cyclical Thinking Trap**:
+
+-   **Cyclical:** Having the same thought or insight repeatedly (e.g., "I need to fix context switching") but forgetting you've had it before. You spin in place, starting from zero every time.
+-   **Cumulative:** The system surfaces your past thoughts ("You wrote about this in Jan, Feb, and March"). You stop repeating and start **building**.
+
+**The Mechanism:**
+1.  **Capture:** You write "I hate context switching."
+2.  **Connection:** The system says, "You said this last month, but added that batching helps."
+3.  **Extension:** You don't repeat the complaint; you write the *next* step: "Okay, so if batching helps, I'll try 'Theme Days' next."
+
+**The Result:** You start having **conversations with your past self**. The system makes your thinking **evolutionary**, allowing complex insights to compound over time rather than evaporating.
 
 ---
 
-## 4. Application: PRODOS as an External Brain
+## 4. The Brainbound Fallacy vs. Cognitive Scaffolding
+
+-   **The Fallacy:** The belief that intelligent thinking happens only inside the skull. This leads to shame when the biological brain fails (e.g., forgetting a task).
+-   **The Reality:** The brain has severe limits in attention, memory, and persistence (especially with ADHD).
+-   **The Solution:** **Cognitive Scaffolding.** Just as a building needs scaffolding to rise, the ADHD brain needs external structures (ProdOS) to reach higher-order thinking.
+    -   **Offloading:** Dump everything out of the head immediately.
+    -   **Re-spatializing:** Use visual metaphors (Kanban, Graph View) to "see" thought.
+
+---
+
+## 5. Application: PRODOS as an External Brain
 
 PRODOS is the practical implementation of the Extended Mind.
 
@@ -66,8 +87,8 @@ PRODOS is the practical implementation of the Extended Mind.
 
 ---
 
-## 5. Related Components
+## 6. Related Components
 - [[SoT - PRODOS (System Architecture)]]
-- [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
+- [[SoT - Evolutionary Note System]]
 - [[SoT - Identity-Based Habit Formation]]
 - [[A Digital System Can Externalise and Organise Thoughts]]

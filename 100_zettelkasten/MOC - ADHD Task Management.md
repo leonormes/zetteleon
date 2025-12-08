@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-30T12:00:04Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-08T11:12:04Z
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: [map, topic/health/adhd, topic/productivity]
+status:
+tags: [topic/health/adhd, topic/productivity]
 title: MOC - ADHD Task Management
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 This note is a summary of the key insights from Steve's video, "Re-thinking task management systems for my ADHD brain!", on task management for ADHD.

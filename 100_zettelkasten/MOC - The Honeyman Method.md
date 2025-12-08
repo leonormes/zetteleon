@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-30T18:10:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-08T11:12:04Z
+purpose:
+review_interval:
 see_also: []
-source: "https://www.youtube.com/watch?v=JQFZNQS6eQ0&si=aJON_ftW7HkzZnhv"
+source: https://www.youtube.com/watch?v=JQFZNQS6eQ0&si=aJON_ftW7HkzZnhv
 source_of_truth: []
-status: 
-tags: [autism, energy-management, map, routines, self-compassion, topic/health/adhd]
+status:
+tags: [autism, energy-management, routines, self-compassion, topic/health/adhd]
 title: MOC - The Honeyman Method
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## MOC - The Honeyman Method

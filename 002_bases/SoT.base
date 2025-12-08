@@ -8,7 +8,9 @@ views:
       - file.name
       - type
     sort:
+      - property: file.name
+        direction: ASC
       - property: type
         direction: ASC
     columnSize:
-      file.name: 363
+      file.name: 488

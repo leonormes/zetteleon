@@ -1,16 +1,21 @@
 ---
-aliases: [Identity-Based Habits, The Power of Identity, Identity vs Outcome]
+aliases: [Identity vs Outcome, Identity-Based Habits, The Power of Identity]
 confidence: 5/5
 created: 2025-12-07T00:00:00Z
 epistemic: 
-modified: 
+last_reviewed: 
+modified: 2025-12-08T11:11:32Z
 purpose: "To define the role of Identity as the primary engine for sustained behavioral change."
+review_interval: 
+see_also: []
 source_of_truth: true
 status: stable
 supersedes: ["[[Powerful Identity]]"]
-tags: [identity, habits, psychology, sot, behavioral_science]
+tags: [behavioral_science, habits, identity, psychology, sot]
 title: SoT - Identity-Based Habit Formation
 type: SoT
+uid: 
+updated: 
 ---
 
 ## 1. Definitive Statement
@@ -39,9 +44,9 @@ Change happens at three levels, often visualized as layers of an onion, ordered 
 
 The word *identity* derives from the Latin *essentitas* (being) and *identidem* (repeatedly). Identity is literally **"Repeated Beingness."** It is not fixed at birth; it is malleable and emerges from your actions.
 
-*   **The Vote:** Every action you take is a vote for the type of person you wish to become.
-*   **The Accumulation:** No single instance transforms you, but as votes accumulate, the evidence shifts your self-image.
-*   **The Feedback Loop:**
+-   **The Vote:** Every action you take is a vote for the type of person you wish to become.
+-   **The Accumulation:** No single instance transforms you, but as votes accumulate, the evidence shifts your self-image.
+-   **The Feedback Loop:**
     `Habits → Evidence → Beliefs → Identity → (reinforces) Habits`
 
 > "The ultimate form of intrinsic motivation occurs when a habit becomes part of your identity. It’s one thing to say I’m the type of person who wants this. It’s something very different to say I’m the type of person who is this." — James Clear
@@ -51,18 +56,19 @@ The word *identity* derives from the Latin *essentitas* (being) and *identidem* 
 ## 4. The Two-Step Process
 
 1.  **Decide the type of person you want to be.**
-    *   Ask: "Who is the type of person that could get the outcome I want?"
+    -   Ask: "Who is the type of person that could get the outcome I want?"
 2.  **Prove it to yourself with small wins.**
-    *   Every small action acts as proof. "What would a healthy person do?"
+    -   Every small action acts as proof. "What would a healthy person do?"
 
 ---
 
 ## 5. Identity as a Barrier (The Conflict)
 
 While identity drives good habits, **Old Identity Sabotage** prevents growth.
-*   **Cognitive Slumber:** Accepting self-limiting norms ("I'm bad at names," "I'm disorganized") creates internal pressure to remain consistent with that image.
-*   **Brittleness:** Tying identity to a role ("I am the CEO") makes one fragile. Identity should be tied to adaptable traits ("I am the type of person who solves problems").
-*   **The Fix:** You must continuously **edit your beliefs** and upgrade your identity to match your growth.
+
+-   **Cognitive Slumber:** Accepting self-limiting norms ("I'm bad at names," "I'm disorganized") creates internal pressure to remain consistent with that image.
+-   **Brittleness:** Tying identity to a role ("I am the CEO") makes one fragile. Identity should be tied to adaptable traits ("I am the type of person who solves problems").
+-   **The Fix:** You must continuously **edit your beliefs** and upgrade your identity to match your growth.
 
 ---
 
@@ -70,8 +76,8 @@ While identity drives good habits, **Old Identity Sabotage** prevents growth.
 
 > Thinking about identity when building habits is like choosing the **blueprint** for a house before laying the foundation.
 >
-> *   **Identity-Focus:** Starts with a strong blueprint ("I am a healthy person"). Every brick (habit) reinforces the structure.
-> *   **Outcome-Focus:** Lays bricks randomly hoping they eventually look like a mansion. The structure is weak and crumbles under stress.
+> -   **Identity-Focus:** Starts with a strong blueprint ("I am a healthy person"). Every brick (habit) reinforces the structure.
+> -   **Outcome-Focus:** Lays bricks randomly hoping they eventually look like a mansion. The structure is weak and crumbles under stress.
 
 ---
 

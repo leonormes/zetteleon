@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-04T11:23:44Z
 epistemic:
 last_reviewed:
-modified: 2025-12-07T18:13:20Z
+modified: 2025-12-08T11:11:32Z
 purpose:
 review_interval:
 see_also: []
@@ -29,8 +29,6 @@ I am a developer and i do cloud networking k8s azure aws terraform and helm. The
 The difficulty is that my idea of what this magical system is, is too vague so I am constantly tweaking it and researching ways of working.
 
 - I should be implementing the simplest thing that works. #principle
-
-[[I Have a Vague Idea I Want to Capture My Understanding]]
 
 [[PKM Purpose.excalidraw]]
 

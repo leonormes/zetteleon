@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-30T12:01:09Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:39:29Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-08T11:12:03Z
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: [creativity, map, mindset, process]
+status:
+tags: [creativity, mindset, process]
 title: MOC - You Need to Romanticize Your Process
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 This note is a summary of the key insights from Tozak Filming's video, "You Need to Romanticize Your Process", on transforming the creative workflow.

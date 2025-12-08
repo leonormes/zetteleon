@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-30T12:04:08Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:49:50Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-08T11:12:04Z
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: [discipline, habits, map, success]
+status:
+tags: [discipline, habits, success]
 title: MOC - How to Build Discipline
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 This note summarizes the core ideas from the video “How to Build Discipline So Strong Success Feels Easy” by Wise Joe.

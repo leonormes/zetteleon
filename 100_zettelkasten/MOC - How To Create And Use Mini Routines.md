@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-30T17:40:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-08T11:12:04Z
+purpose:
+review_interval:
 see_also: []
-source: "https://youtube.com/watch?v=Z6EIzckM3os&si=zOgsTdIAKbWezPOi"
+source: https://youtube.com/watch?v=Z6EIzckM3os&si=zOgsTdIAKbWezPOi
 source_of_truth: []
-status: 
-tags: [autism, map, routines, topic/health/adhd, topic/productivity]
+status:
+tags: [autism, routines, topic/health/adhd, topic/productivity]
 title: MOC - How To Create And Use Mini Routines
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## MOC - How To Create And Use Mini Routines

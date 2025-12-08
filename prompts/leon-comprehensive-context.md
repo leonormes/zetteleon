@@ -21,7 +21,7 @@ updated:
 
 ### Overview
 
-Leon is a 51-year-old technical professional with ADHD who combines deep expertise in cloud infrastructure with sophisticated approaches to personal knowledge management and productivity. He's currently developing "prodOS" - an ambitious LLM-powered productivity operating system designed to bridge the gap between knowledge capture and actionable outcomes.
+Leon is a 52-year-old technical professional with ADHD who combines deep expertise in cloud infrastructure with sophisticated approaches to personal knowledge management and productivity. He's currently developing "prodOS" - an ambitious LLM-powered productivity operating system designed to bridge the gap between knowledge capture and actionable outcomes.
 
 ### ADHD Profile and Challenges
 
