@@ -69,9 +69,12 @@ PRODOS functions as a continuous loop that processes thought, generates action, 
 The system maintains a strict separation of concerns between thinking and knowing.
 
 ### A. HEAD Notes (The Workbench)
-- **Purpose:** To capture the *process of thinking*. Records the struggle, assumptions, confusion, and the evolution of a mental model. They are volatile and exist to be processed.
-- **Voice:** First-person ("I think," "I'm confused about," "My hypothesis is").
-- **Key Sections:** `The Spark`, `My Current Model`, `The Tension`, `The Next Test`.
+- **Purpose:** The **universal container for active thinking**. It is not a rigid form but a flexible space for journaling, questioning, learning, hypothesizing, or arguing with oneself. It captures the *process* of cognition, however messy.
+- **The Interface:** To integrate with ProdOS, this raw thinking must eventually resolve into standard outputs:
+    - **Action:** A verifiable `Next Test`.
+    - **Knowledge:** A crystallized insight for an `SoT`.
+- **Voice:** First-person, raw, and unpolished.
+- **Structure:** Flexible input (The Thinking), Structured output (The Interface).
 
 ### B. LIB/SoT Notes (The Canon)
 - **Purpose:** To be the trusted **System of Record** for stable, verified knowledge and the `Current Understanding` of a topic.
