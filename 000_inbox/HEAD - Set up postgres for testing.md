@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-08T14:16:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T14:19:01Z
+modified: 2025-12-08T14:22:35Z
 purpose:
 review_interval:
 see_also: []
@@ -25,6 +25,7 @@ updated:
 > **Core Goal:** Verify the SDE Manager can handle the specific "Live Data Volumes" from CUH, particularly the ~508 million measurement records.
 
 > [!info] Data Volume Requirements (Live Data from CUH)
+>
 > | Table Name | No of records |
 > | :--- | :--- |
 > | **measurement** | **507,750,094** |
