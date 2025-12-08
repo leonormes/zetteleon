@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-08T00:00:00Z
+modified: 2025-12-08T13:56:14Z
 purpose: "To structure the thinking and planning for standardizing Kubernetes observability across the team."
 review_interval: 
 see_also: ["[[100_zettelkasten/Authentication Summary for AKS, EKS, and Terraform Cloud.md]]", "[[100_zettelkasten/AWS ENIs Connect EKS Worker Nodes to VPC Networks.md]]", "[[100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address.md]]"]
@@ -20,10 +20,13 @@ updated:
 ## HEAD - Kubernetes Observability Standardization
 
 ### The Spark
+
 I have a collection of tasks aimed at improving our Kubernetes monitoring ("Learn how to monitor k8s"), but I lack a cohesive strategy. We need to move from ad-hoc alerts to a standardized, team-wide approach.
 
 ### My Current Model
-We currently have Grafana dashboards, but I suspect they are not "standardized" or based on best practices ("golden signals"). 
+
+We currently have Grafana dashboards, but I suspect they are not "standardized" or based on best practices ("golden signals").
+
 - **Hypothesis:** Adopting the "Golden Signals" (Latency, Traffic, Errors, Saturation) will give us better visibility than just random CPU/Memory alerts.
 - **Goal:** A "Standard K8s Cluster Health" dashboard that the whole team can rely on.
 
