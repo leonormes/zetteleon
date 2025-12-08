@@ -1,24 +1,22 @@
 ---
 aliases: []
-author: ["[[Gemini]]"]
-confidence: 
+confidence:
 created: 2025-12-08T00:00:00Z
-description: "Created with Gemini"
-epistemic: 
-last_reviewed: 
-modified: 2025-12-08T13:18:09Z
+description: Created with Gemini
+epistemic:
+last_reviewed:
+modified: 2025-12-08T13:38:58Z
 published:
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
-source: "https://gemini.google.com/share/ece4e6c0b900"
 source_of_truth: []
-status: 
-tags: ["clippings"]
+status:
+tags: []
 title: All the Tasks That Need Doing From LCRCA This Email Change
-type: 
-uid: 
-updated: 
+type:
+uid:
+updated:
 ---
 
 extract all the tasks that need doing from this email change
@@ -83,64 +81,3 @@ Jamie's email was sent today, **8 December 2025 at 09:00**, indicating the prep 
 Would you like to focus on the key points Jamie wants to cover during the Tuesday 1pm tech call?
 
 do the same for this email chain
-
-## ⚙️ Technical Installation Tasks and Requirements
-
-This email outlines the specific network and infrastructure tasks required from the **Data Provider** site (Milton Keynes University Hospital, based on the recipients) to proceed with the technical installation of the Secure Data Environment (SDE) ahead of the Christmas change freeze.
-
-The tasks are organised around five key technical components:
-
-### 1. Hub-Spoke Connectivity Architecture
-
-The goal is to establish network communication between the new FITFILE SDE environment and the Data Provider's on-premises network.
-
-- **VNet Setup:** The Azure subscription must contain a **VNet** that includes the central firewall and connectivity to the on-premises network (e.g., via **Express Route or VPN**).
-- **VNet Peering Configuration:** Configure **VNet peering** between the hub VNet (Data Provider's) and the new FITFILE spoke VNet, ensuring **traffic forwarding is enabled**.
-
----
-
-### 2. IP Address Allocation
-
-Specific IP ranges and addresses are needed for network configuration.
-
-- **Spoke VNet CIDR Block:** Provide a **non-overlapping /24 CIDR block** for the new spoke VNet.
-- **Firewall Private IP:** Provide the private IP address of the central firewall (placeholder: **[Firewall_Private_IP]**).
-- **Corporate DNS Server IP:** Provide the IP address of a corporate **DNS server** that is reachable from the new VNet (placeholder: **[Customer_DNS_Server_IP]**).
-
----
-
-### 3. Firewall Rules Configuration
-
-The central firewall must be configured to allow necessary traffic flow.
-
-- **Outbound Traffic Allowance:** Configure the central firewall to **allow the required outbound traffic** from the spoke VNet's address space.
-- **Endpoint List:** Refer to the **detailed list of required endpoints** provided by FITFILE for configuration details.
-
----
-
-### 4. Service Principal / Deployment Identity
-
-This enables automated, secure, and non-interactive deployment.
-
-- **Service Principal Implementation:** The Service Principal must be implemented in the cloud subscription/account to allow for a **"one-button" deployment** of infrastructure.
-- **Conditional Access Mitigation (If Required):** If the Data Provider's Conditional Access or device compliance policies block interactive sign-ins from the jumpbox, one of the following mitigations is required:
-	- Add an **exception** for the jumpbox (or its IP range) in the relevant Conditional Access policy.
-	- Use a **dedicated, non-interactive deployment identity (service principal)** with scoped permissions for deployment, logging in non-interactively from the jumpbox or a CI/CD runner.
-
----
-
-### 5. Access and Accounts
-
-Jumpbox access is needed for the FITFILE team.
-
-- **Create Jumpbox User Accounts:** Create an **external user account** using Ollie's and Leon's FITFILE email addresses, granting them access to log into the **Jumpbox**.
-
----
-
-## 📞 Administrative and Programme Tasks
-
-- **Allocate Programme Manager (PM):** The Data Provider (Chris Wiggins) needs to provide an update on the **allocation of a PM** for the programme.
-- **Confirm Call Attendees:** Confirm if **Joao and the PM** can join the call on Tuesday next week, or if the call needs to be rescheduled due to the critical need for IT services support.
-- **Provide Feedback:** Chris and Oliver need to provide **feedback** on the above technical requirements and forward them to **Joao** if necessary.
-
----

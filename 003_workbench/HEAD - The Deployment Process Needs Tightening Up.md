@@ -4,14 +4,13 @@ confidence:
 created: 2025-12-08T11:13:41Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T11:15:22Z
+modified: 2025-12-08T13:38:58Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags:
-  - state/thinking
+tags: [state/thinking]
 title: HEAD - The Deployment Process Needs Tightening Up
 type: head
 uid:
