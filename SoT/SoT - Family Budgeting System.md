@@ -2,20 +2,20 @@
 aliases: [Family Financial System, Financial Peace Protocol, The Budgeting SoT, Zero-Based Budgeting]
 confidence: 4/5
 created: 2025-12-08T00:00:00Z
-epistemic: 
+epistemic:
 last_reviewed: 2025-12-08
-modified: 2025-12-08T12:34:55Z
-purpose: "To define the canonical Family Budgeting System for ProdOS, integrating YNAB principles (Zero-Based Budgeting) with the 'Spendfulness' mindset."
+modified: 2025-12-08T13:03:43Z
+purpose: To define the canonical Family Budgeting System for ProdOS, integrating YNAB principles (Zero-Based Budgeting) with the 'Spendfulness' mindset.
 related-soTs: ["[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS (System Architecture)]]"]
-review_interval: 
+review_interval:
 see_also: []
 source_of_truth: true
 status: stable
 tags: [budget, family, finance, prodos, system, ynab]
 title: SoT - Family Budgeting System
-type: 
-uid: 
-updated: 
+type: SoT
+uid:
+updated:
 ---
 
 ## 1. The Core Philosophy: "Spendfulness" & Zero-Based Budgeting
@@ -28,24 +28,24 @@ This system is not about restriction; it is about **clarity** and **alignment**.
 This is no longer just "Rule One"; it is **The Method** itself. It means proactively deciding exactly what you want your money to do before you spend it. To execute this method, you ask five guiding questions:
 
 1.  **Reality (The Immediate):** *What does this money need to do before I’m paid again?*
-    *   **Replaces:** The mechanics of Rule 1.
-    *   **Logic:** Focus only on the money you have right now. Cover immediate obligations (Rent, Groceries) that are due before more income arrives. This anchors you in the present.
+    -   **Replaces:** The mechanics of Rule 1.
+    -   **Logic:** Focus only on the money you have right now. Cover immediate obligations (Rent, Groceries) that are due before more income arrives. This anchors you in the present.
 
 2.  **Stability (The Non-Monthly):** *What larger, less frequent spending do I need to prepare for?*
-    *   **Replaces:** Rule 2 (Embrace Your True Expenses).
-    *   **Logic:** We treat "non-monthly expenses" (like holidays, car repairs, or annual subscriptions) as monthly commitments. Breaking these down creates stability and prevents the "financial roller coaster".
+    -   **Replaces:** Rule 2 (Embrace Your True Expenses).
+    -   **Logic:** We treat "non-monthly expenses" (like holidays, car repairs, or annual subscriptions) as monthly commitments. Breaking these down creates stability and prevents the "financial roller coaster".
 
 3.  **Resilience (The Buffer):** *What can I set aside for next month’s spending?*
-    *   **Replaces:** Rule 4 (Age Your Money).
-    *   **Logic:** The goal is to get a "Month Ahead"—using this month's income to fund next month's life. This creates breathing room and disconnects your spending decisions from your pay cycle.
+    -   **Replaces:** Rule 4 (Age Your Money).
+    -   **Logic:** The goal is to get a "Month Ahead"—using this month's income to fund next month's life. This creates breathing room and disconnects your spending decisions from your pay cycle.
 
 4.  **Creation (The Aspirations):** *What goals, large or small, do I want to prioritize?*
-    *   **New Concept:** Previously buried in Rule 2.
-    *   **Logic:** Money is a tool to design the life you want. This explicitly prioritizes funding dreams and joy (a vacation, a new hobby, or even just a donut) to prevent the feeling of deprivation.
+    -   **New Concept:** Previously buried in Rule 2.
+    -   **Logic:** Money is a tool to design the life you want. This explicitly prioritizes funding dreams and joy (a vacation, a new hobby, or even just a donut) to prevent the feeling of deprivation.
 
 5.  **Flexibility (The Adjustment):** *What changes do I need to make, if any?*
-    *   **Replaces:** Rule 3 (Roll With The Punches).
-    *   **Logic:** A budget must change because life changes. Moving money from "Dining Out" to cover "Groceries" is not a failure; it is a successful, proactive reprioritization that keeps the plan accurate.
+    -   **Replaces:** Rule 3 (Roll With The Punches).
+    -   **Logic:** A budget must change because life changes. Moving money from "Dining Out" to cover "Groceries" is not a failure; it is a successful, proactive reprioritization that keeps the plan accurate.
 
 ---
 
@@ -119,7 +119,7 @@ The system is functioning when:
 ---
 
 ### Key Shifts in Thinking
-*   **From Rules to Questions:** YNAB moved away from "Rules" because they felt rigid and implied that you were "breaking" something if you deviated. "Questions" empower you to find your own answers based on your unique priorities.
-*   **From "True Expenses" to "Stability":** The term "True Expenses" was often confusing for new users. The new language focuses on the *result* of saving for irregular bills: financial **Stability**.
-*   **From "Age Your Money" to "Resilience":** The "Age of Money" metric and its calculation (often explained via a complex grain silo analogy) were difficult to grasp. The focus is now on the tangible action of funding the next month to build **Resilience**.
-*   **Introduction of "Spendfulness":** The ultimate goal is no longer just "budgeting" (which has negative connotations of restriction), but **Spendfulness**—spending without guilt because it aligns with your values.
+-   **From Rules to Questions:** YNAB moved away from "Rules" because they felt rigid and implied that you were "breaking" something if you deviated. "Questions" empower you to find your own answers based on your unique priorities.
+-   **From "True Expenses" to "Stability":** The term "True Expenses" was often confusing for new users. The new language focuses on the *result* of saving for irregular bills: financial **Stability**.
+-   **From "Age Your Money" to "Resilience":** The "Age of Money" metric and its calculation (often explained via a complex grain silo analogy) were difficult to grasp. The focus is now on the tangible action of funding the next month to build **Resilience**.
+-   **Introduction of "Spendfulness":** The ultimate goal is no longer just "budgeting" (which has negative connotations of restriction), but **Spendfulness**—spending without guilt because it aligns with your values.

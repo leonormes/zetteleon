@@ -10,7 +10,5 @@ views:
     sort:
       - property: file.name
         direction: ASC
-      - property: type
-        direction: ASC
     columnSize:
       file.name: 488
