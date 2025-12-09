@@ -4,18 +4,13 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T15:01:37Z
+modified: 2025-12-09T10:16:52Z
 purpose: To plan the implementation of Velero for Kubernetes backup and disaster recovery.
 review_interval:
 see_also: []
 source_of_truth: []
 status: defined
-tags:
-  - backup
-  - head
-  - k8s
-  - thinking
-  - velero
+tags: [backup, head, k8s, thinking, velero]
 title: HEAD - Velero Implementation Planning
 type: head
 uid:
@@ -23,6 +18,7 @@ updated:
 ---
 
 ## The Spark
+
 > [!abstract] The Spark (Contextual Wrapper)
 Task: "Create velero implementation tickets".
 We need a robust backup solution for our Kubernetes clusters (Work & Hutch).

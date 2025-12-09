@@ -4,14 +4,13 @@ confidence:
 created: 2025-12-08T14:16:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T14:52:49Z
+modified: 2025-12-09T10:17:25Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags:
-  - state/thinking
+tags: [state/thinking]
 title: HEAD - Set up postgres for testing
 type: head
 uid:
@@ -187,7 +186,7 @@ You don't have to go crazy, but for this size:
 
 In Bitnami values:
 
-```
+```sh
 postgresqlExtendedConf:
 max_connections: "50"
 shared_buffers: "8GB"

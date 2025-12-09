@@ -4,18 +4,13 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T15:01:40Z
+modified: 2025-12-09T10:16:52Z
 purpose: To resolve issues with multi-arch docker images and define a strategy for selecting the correct architecture on import.
 review_interval:
 see_also: []
 source_of_truth: []
 status: defined
-tags:
-  - architecture
-  - docker
-  - head
-  - kubernetes
-  - thinking
+tags: [architecture, docker, head, kubernetes, thinking]
 title: HEAD - Image Architecture Strategy
 type: head
 uid:

@@ -4,18 +4,13 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T15:03:03Z
+modified: 2025-12-09T10:16:52Z
 purpose: To capture the biological and functional purpose of thinking as a simulation engine.
 review_interval:
 see_also: []
 source_of_truth: []
 status: defined
-tags:
-  - evolution
-  - head
-  - neuroscience
-  - prodos
-  - thinking
+tags: [evolution, head, neuroscience, prodos, thinking]
 title: HEAD - The Purpose of Thinking
 type: head
 uid:

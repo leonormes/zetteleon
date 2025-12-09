@@ -7,7 +7,7 @@ decay-signals: []
 epistemic: 
 last-synthesis: 2025-12-07
 last_reviewed: 2025-12-07
-modified: 2025-12-08T00:59:04Z
+modified: 2025-12-09T10:16:52Z
 purpose: "The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system."
 quality-markers: ["Clarifies the Human-in-the-Loop LLM workflow.", "Defines the core cognitive loop.", "Establishes verifiable acceptance criteria.", "Integrates Hansei Reflection Loop."]
 related-soTs: ["[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]"]
@@ -77,12 +77,13 @@ You must treat your notes exactly like a software repository to prevent "Version
 | :--- | :--- | :--- |
 | **Software Equivalent** | `feature/fix-bug-123` (Dev Branch) | `main` / `master` (Production) |
 | **Trust Level** | **Zero Trust.** Contains errors, dead ends, and drafts. | **High Trust.** The "Single Source of Truth." |
-| **Lifespan** | **Ephemeral.** Created to solve _one_ problem, then archived. | **Permanent.** Durable, living documentation. |
-| **Searchability** | **Hidden.** Should NOT appear in standard lookups. | **Primary.** The _only_ place you look for answers. |
+| **Lifespan** | **Ephemeral.** Created to solve *one* problem, then archived. | **Permanent.** Durable, living documentation. |
+| **Searchability** | **Hidden.** Should NOT appear in standard lookups. | **Primary.** The *only* place you look for answers. |
 
 ### The Root Cause: "Log" vs. "Refactor"
 - **The Log (HEAD):** "Tried X, failed. Google said Y..." (The Struggle).
 - **The Refactor (SoT):** "To fix this bug, run command Z." (The Solution).
+
 > **Crucial:** Never search the Log. Merge the solution to the SoT and delete/archive the Log.
 
 ### A. HEAD Notes (The Workbench)
@@ -165,7 +166,9 @@ PRODOS establishes a clear, non-competing hierarchy for file types:
 | **Base Files** | **The Dashboard (Dynamic)** | "Show me a live list of all X." (The Saved Search) |
 
 ### The "Safe Search" Guarantee
+
 To fix "Version Control Failure," the retrieval system must enforce the "Master Branch" view.
+
 - **Configuration:** Search tools must exclude `HEAD` / `Thinking` folders by default.
 - **The Promise:** When you search for a topic, you should see **one result**: The SoT. You can blindly trust it because you know you *always* merge to Master.
 

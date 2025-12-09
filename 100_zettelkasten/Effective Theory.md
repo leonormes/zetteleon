@@ -4,7 +4,7 @@ confidence:
 created: 2025-08-29T15:17:35Z
 epistemic: 
 last_reviewed: 
-modified: 2025-10-30T10:27:46Z
+modified: 2025-12-09T10:17:24Z
 purpose: 
 review_interval: 
 see_also: []
@@ -27,4 +27,5 @@ Similarly, the mental model of [[Number As Symbol is a Flawed Initial Mental Mod
 Links: [[Flawed Mental Models Limit Mastery|Flawed Mental Models]], [[Instrumentalism vs Realism in Understanding]]
 
 Links: [[Newtonian Physics as an Effective Theory]]
+
 [[HEAD - The Purpose of Thinking]]

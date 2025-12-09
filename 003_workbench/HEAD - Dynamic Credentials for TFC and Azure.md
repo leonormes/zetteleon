@@ -4,18 +4,13 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T15:01:46Z
+modified: 2025-12-09T10:16:52Z
 purpose: To figure out how to configure dynamic credentials for Terraform Cloud and Azure to remove static keys.
 review_interval:
 see_also: []
 source_of_truth: []
 status: defined
-tags:
-  - azure
-  - head
-  - security
-  - terraform
-  - thinking
+tags: [azure, head, security, terraform, thinking]
 title: HEAD - Dynamic Credentials for TFC and Azure
 type: head
 uid:
@@ -23,6 +18,7 @@ updated:
 ---
 
 ## The Spark
+
 > [!abstract] The Spark (Contextual Wrapper)
 Task: "research how to configure the dynamic credentials for tfc and azure."
 We need to move away from long-lived service principal secrets for Terraform Cloud to improve security.

@@ -4,18 +4,13 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T15:01:44Z
+modified: 2025-12-09T10:16:52Z
 purpose: To design a strategy for cleaning up old Docker images in ACR based on semantic versioning or usage, not just time.
 review_interval:
 see_also: []
 source_of_truth: []
 status: defined
-tags:
-  - acr
-  - cleanup
-  - devops
-  - head
-  - thinking
+tags: [acr, cleanup, devops, head, thinking]
 title: HEAD - ACR Image Retention Strategy
 type: head
 uid:
@@ -23,6 +18,7 @@ updated:
 ---
 
 ## The Spark
+
 > [!abstract] The Spark (Contextual Wrapper)
 Task: "re set up the image delete from acr" -> "How to slim down the images stored to just the latest but not based on time".
 Time-based retention deletes infrequently updated but valid "latest" images. We need a smarter way.

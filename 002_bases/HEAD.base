@@ -18,7 +18,7 @@ views:
       - property: file.ctime
         direction: DESC
     columnSize:
-      file.name: 428
+      file.name: 580
       note.status: 127
   - type: cards
     name: View
