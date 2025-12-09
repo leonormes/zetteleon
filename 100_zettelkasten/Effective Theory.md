@@ -27,3 +27,4 @@ Similarly, the mental model of [[Number As Symbol is a Flawed Initial Mental Mod
 Links: [[Flawed Mental Models Limit Mastery|Flawed Mental Models]], [[Instrumentalism vs Realism in Understanding]]
 
 Links: [[Newtonian Physics as an Effective Theory]]
+[[HEAD - The Purpose of Thinking]]

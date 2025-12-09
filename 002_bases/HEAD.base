@@ -1,6 +1,7 @@
 filters:
-  and:
+  or:
     - type == "head"
+    - type == "HEAD"
 views:
   - type: table
     name: Table
@@ -10,11 +11,15 @@ views:
     order:
       - file.name
       - status
+      - type
     sort:
+      - property: status
+        direction: ASC
       - property: file.ctime
         direction: DESC
     columnSize:
       file.name: 428
+      note.status: 127
   - type: cards
     name: View
     cardSize: 180

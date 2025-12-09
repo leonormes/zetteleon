@@ -1,39 +1,43 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-12-08T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-08T00:00:00Z
-purpose: "To plan the implementation of Velero for Kubernetes backup and disaster recovery."
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-08T15:01:37Z
+purpose: To plan the implementation of Velero for Kubernetes backup and disaster recovery.
+review_interval:
 see_also: []
 source_of_truth: []
 status: defined
-tags: [head, velero, backup, k8s, thinking]
+tags:
+  - backup
+  - head
+  - k8s
+  - thinking
+  - velero
 title: HEAD - Velero Implementation Planning
-type: HEAD
-uid: 
-updated: 
+type: head
+uid:
+updated:
 ---
 
-## HEAD - Velero Implementation Planning
-
-### The Spark
+## The Spark
+> [!abstract] The Spark (Contextual Wrapper)
 Task: "Create velero implementation tickets".
 We need a robust backup solution for our Kubernetes clusters (Work & Hutch).
 
-### My Current Model
+## My Current Model
 - **Tool:** Velero is the standard.
 - **Target:** Backup to S3/Azure Blob Storage.
 - **Scope:** Disaster Recovery (Cluster loss) and Snapshotting (StatefulSets).
 
-### The Tension
+## The Tension
 - **Configuration:** Needs cloud credentials (Identity Workload?).
 - **Testing:** Backups are useless without restore tests.
 - **Tickets:** I need to break this down into actionable chunks (Install, Configure Storage, Backup Schedule, Test Restore).
 
-### The Next Test
+## The Next Test
 - [ ] Draft the list of implementation steps (The "Tickets").
     1.  Prerequisites (Bucket, Identity).
     2.  Helm Chart Configuration.

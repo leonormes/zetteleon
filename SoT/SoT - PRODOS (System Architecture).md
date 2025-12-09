@@ -42,6 +42,7 @@ Conventional PKM and productivity systems fail because they are not designed for
 | **The Collector's Fallacy** | The dopamine loop of collecting information creates "content sprawl" and overwhelm, mistaking acquisition for understanding.                             | **Action over Collection:** The system forces the conversion of knowledge into testable experiments and Minimum Viable Actions (MVAs).                           |
 | **Context Loss**            | The rich mental model of a project evaporates over time. Returning to flat notes requires high activation energy, leading to re-research or abandonment. | **The 60-Second Test:** The system is designed to allow a complete cognitive state restore (MVU + Next Action) in under a minute.                                |
 | **Administrative Friction** | The "toil" of organizing, tagging, and processing notes drains executive function, causing the system to be abandoned.                                   | **Zero-Toil Automation:** The user's role is frictionless capture. A "Chief of Staff" LLM handles all synthesis, structuring, and metadata.                      |
+| **Displacement Activity**   | "Organizing" (folders, tags) serves as a dopamine-rich distraction to avoid the pain of actual work ("The Alcohol").                                     | **The Psychiatrist Protocol:** Strict separation of "Writing to Think" (Therapy) vs. "Organizing to Hide" (Addiction). The only valid output is a reality-testing action.|
 | **Lack of Trust**           | Static notes become outdated as thinking evolves, making the system an unreliable "graveyard" of past thoughts.                                          | **Trust Through Verifiability:** The system's effectiveness is not a "gut feeling" but is measured against clear acceptance criteria. SoTs are living documents. |
 
 ---
@@ -53,11 +54,11 @@ PRODOS functions as a continuous loop that processes thought, generates action, 
 **Capture -> Refine -> Synthesize -> Act -> Reflect (Hansei) -> Repeat**
 
 1.  **Capture (Human):** Raw, messy, unstructured thoughts are captured into a frictionless entry point (Daily Note). "Capture Now, Structure Later."
-2.  **Refine (LLM):** The LLM acts as a **Convergent Tool**, applying the **Raw Input Refactoring Protocol** to parse the raw input into a structured `HEAD` note.
-    -   **Isolation:** Extract raw text into a dedicated HEAD note.
-    -   **Parsing:** Separate concerns into `Spark` (Trigger), `Model` (Hypothesis), and `Tension` (Conflict).
-    -   **Logic Linter:** Debug the thought by stripping emotion ("I hate this") to find the signal ("The docs are missing X").
-    -   **Compilation:** Convert the tension into a verifiable **Micro-Experiment** (The Next Test).
+2.  **Refine (LLM) - "The Psychiatrist Workflow":** The LLM acts as a **Convergent Tool**, preventing the "Alcohol" of over-organization.
+    -   **Vomit Chaos:** The user dumps raw, unstructured thought into a `HEAD` note (The Therapy).
+    -   **Logic Linter:** The LLM debugs the thought, stripping emotion ("I hate this") to find the signal.
+    -   **Extract Action:** The sole purpose is to compile the thought into a **Verifiable Next Action**.
+    -   **Nuke the Rest:** Once the lesson is extracted to an SoT and the action to Todoist, the HEAD note is archived/ignored. No filing, no tagging.
 3.  **Synthesize (LLM & Human):** The LLM automates the "Chronos Synthesis" ritual, updating the canonical `SoT` note with new insights from `HEAD` notes. The user performs the final validation.
 4.  **Act (Human):** The output of thinking is not another note, but a **verifiable `Next Action`**—a test, an experiment, or a command—to be executed in the real world.
 5.  **Reflect (Hansei):** A structured feedback loop to transform behavior into learning (See Section 9).
@@ -87,7 +88,7 @@ The system maintains a strict separation of concerns between thinking and knowin
 
 PRODOS is considered "working" only when it consistently passes these two acceptance tests:
 
-1.  **The 60-Second Context Restoration Test:** For any active project, can I open the relevant Project/SoT note and recall the **Minimum Viable Understanding (MVU)** and the very **Next Action** in under 60 seconds?
+1.  **The 60-Second Context Restoration Test (Save State):** The system is not an archive; it is a save state. Can I open the relevant Project/SoT note and recall the **Minimum Viable Understanding (MVU)** and the very **Next Action** in under 60 seconds? Everything "below the fold" is irrelevant history.
 2.  **The Reuse Score:** For any new project, was the system successfully leveraged to find and reuse existing knowledge, avoiding at least 30 minutes of new research?
 
 ---

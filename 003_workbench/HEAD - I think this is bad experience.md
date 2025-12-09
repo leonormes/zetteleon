@@ -21,4 +21,4 @@ This relates to the fact that Bessie is learning to avoid things she doesn't lik
 
 The avoidance is a coping mechanism and can be successful depending on your tolerance for not achieving the things you actually want.
 
-She has anxiety as of she has stronger feelings. But how do we know they are not the same feelings as others have but others have learned better ways of dealing with it?
+She has anxiety as if she has stronger feelings. But how do we know they are not the same feelings as others have but others have learned better ways of dealing with it?

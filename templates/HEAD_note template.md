@@ -3,7 +3,6 @@ type: head
 status: raw
 tags:
   - state/thinking
-  - topic/{{VALUE}}
 up: "[[00_Workbench]]"
 ---
 

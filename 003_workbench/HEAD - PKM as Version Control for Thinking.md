@@ -9,10 +9,13 @@ purpose:
 review_interval:
 see_also: []
 source_of_truth: []
-status:
-tags: [pkm, system_design, thinking]
+status: processing
+tags:
+  - pkm
+  - system_design
+  - thinking
 title: HEAD - PKM as Version Control for Thinking
-type: HEAD
+type: head
 uid:
 updated:
 ---

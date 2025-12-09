@@ -4,13 +4,14 @@ confidence:
 created: 2025-12-08T14:16:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T14:40:53Z
+modified: 2025-12-08T14:52:49Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
-status: raw
-tags: [state/thinking]
+status: processing
+tags:
+  - state/thinking
 title: HEAD - Set up postgres for testing
 type: head
 uid:
@@ -44,12 +45,13 @@ How do we manage large data seeds?
 We can use the hyve to set up the database with the Schema and stuff.
 
 ## 🧠 My Current Model (The Blind Write)
-*Instructions: Write this section BEFORE looking at documentation. How do you think it works? What is your logic? be messy.*
 
-**I think it works like this:**
+We chose the in cluster model as it was a lot cheaper! The managed Postgres was expensive and we decided we didn't need it.
 
-**I am assuming that:**
+---
+
 You can absolutely do this with a single PostgreSQL pod, as long as:
+
 -	you're OK with no HA / failover (backup+restore is your only safety net), and
 -	you give it enough RAM and decent disk.
 
@@ -107,15 +109,13 @@ Recommendation:
 
 In Bitnami values:
 
+```yaml
 primary:
-
 persistence:
-
 enabled: true
-
 size: 1000Gi # I'd start here if budget allows
-
 storageClass: fast-ssd-sc # whatever maps to SSD / high-IOPS in your cluster
+```
 
 ⸻
 
@@ -187,15 +187,13 @@ You don't have to go crazy, but for this size:
 
 In Bitnami values:
 
+```
 postgresqlExtendedConf:
-
 max_connections: "50"
-
 shared_buffers: "8GB"
-
 effective_cache_size: "24GB"
-
 work_mem: "64MB"
+```
 
 (Tweak these based on the actual memory limit you end up with.)
 

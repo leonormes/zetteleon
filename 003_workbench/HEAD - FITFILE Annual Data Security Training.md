@@ -1,24 +1,30 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-12-08T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-08T14:56:07Z
-purpose: "To process and track the mandatory annual FITFILE Data Security Awareness training."
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-08T15:02:54Z
+purpose: To process and track the mandatory annual FITFILE Data Security Awareness training.
+review_interval:
 see_also: []
 source_of_truth: []
 status: defined
-tags: [compliance, head, prodos, security, training]
+tags:
+  - compliance
+  - head
+  - prodos
+  - security
+  - training
 title: HEAD - FITFILE Annual Data Security Training
-type: HEAD
-uid: 
-updated: 
+type: head
+uid:
+updated:
 ---
 
 ## The Spark
 
+> [!abstract] The Spark (Contextual Wrapper)
 Received an email outlining the mandatory annual FITFILE Data Security Awareness training, with a deadline of EOB 19 Dec 2025.
 
 ## My Current Model
