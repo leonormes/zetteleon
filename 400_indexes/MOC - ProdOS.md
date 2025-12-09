@@ -40,11 +40,13 @@ Guides for the specific workflows you perform daily.
 
 #### ⚡️ Action & Execution (GTD)
 *How to capture, process, and execute tasks.*
+-   **[[SoT - PRODOS - Action Management (GTD)]]** — *The definitive workflow for separation of concerns (Obsidian for Thinking vs. Todoist for Doing).*
 -   **[[SoT - PRODOS - The Tri-State Router]]** — *The core logic for processing inputs (Kinetic vs. Static vs. Dynamic).*
 -   **[[SoT - Bridging the Intention-Action Gap]]** — *The psychological protocol for overcoming initiation paralysis (Activation Energy).*
 
 #### 🧠 Thinking & Synthesis
 *How to turn raw thoughts into structured insights.*
+-   **[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]** — *The biological definition of thinking as "offline simulation" and the refinement loop.*
 -   **[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]** — *The standard operating procedure for interacting with LLMs.*
 -   **[[SoT - The Unified Writing to Think Process]]** — *The protocol for using writing as a tool for discovery (Type A vs. Type B).*
 -   **[[SoT - Evolutionary Note System]]** — *How notes mature from "Head" to "SoT" (The Integration Queue).*
@@ -55,6 +57,7 @@ Guides for the specific workflows you perform daily.
 The psychological and cognitive principles underpinning the system.
 
 #### 🧠 Cognition & Learning
+-   **[[SoT - ADHD Executive Dysfunction]]** — *The definitive definition of the core deficit: a failure of the self-management system, not knowledge.*
 -   **[[SoT - The Extended Mind]]** — *Why we offload cognition to the system (Cumulative vs. Cyclical thinking).*
 -   **[[SoT - Working Memory & Schema Theory]]** — *The biological bottleneck and how we bypass it.*
 -   **[[SoT - Learning Mechanisms]]** — *Focused vs. Diffuse modes and the path to Procedural Memory.*
@@ -65,6 +68,8 @@ The psychological and cognitive principles underpinning the system.
 -   **[[SoT - Process Primacy (Systems Over Goals)]]** — *Why systems beat willpower (The Water Metaphor).*
 
 #### 🎯 Philosophy of Action
+-   **[[SoT - PRODOS - Problem Architecture]]** — *The taxonomy of challenges: Distinguishing Problems (Gap + Unknown) from Tasks (Gap + Known).*
+-   **[[SoT - Processing IS the Work]]** — *Reframing "admin" as the creative act of knowledge building.*
 -   **[[SoT - What is a Problem]]** — *Defining the "Gap + Uncertainty" to stop solutioneering.*
 -   **[[SoT - Think Like a Man of Action, Act Like a Man of Thought]]** — *The guiding aphorism for balancing planning and doing.*
 

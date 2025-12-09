@@ -59,6 +59,7 @@ PRODOS functions as a continuous loop that processes thought, generates action, 
     -   **Logic Linter:** The LLM debugs the thought, stripping emotion ("I hate this") to find the signal.
     -   **Extract Action:** The sole purpose is to compile the thought into a **Verifiable Next Action**.
     -   **Nuke the Rest:** Once the lesson is extracted to an SoT and the action to Todoist, the HEAD note is archived/ignored. No filing, no tagging.
+    -   **The Architectural Rule:** "Human Write, Machine Read." The HEAD note is the "Kernel" (Source Code) for your eyes only. The SoT is the "Binary" (Compiled Output) managed by the LLM.
 3.  **Synthesize (LLM & Human):** The LLM automates the "Chronos Synthesis" ritual, updating the canonical `SoT` note with new insights from `HEAD` notes. The user performs the final validation.
 4.  **Act (Human):** The output of thinking is not another note, but a **verifiable `Next Action`**—a test, an experiment, or a command—to be executed in the real world.
 5.  **Reflect (Hansei):** A structured feedback loop to transform behavior into learning (See Section 9).
@@ -88,9 +89,10 @@ You must treat your notes exactly like a software repository to prevent "Version
 
 ### A. HEAD Notes (The Workbench)
 - **Purpose:** The **universal container for active thinking**. It is not a rigid form but a flexible space for journaling, questioning, learning, hypothesizing, or arguing with oneself. It captures the *process* of cognition, however messy.
-- **The Interface:** To integrate with ProdOS, this raw thinking must eventually resolve into standard outputs:
-    - **Action:** A verifiable `Next Test`.
-    - **Knowledge:** A crystallized insight for an `SoT`.
+- **The Protocol (Always New, Never Resume):**
+    -   **Zero-Decision Entry:** Use a single hotkey to create a timestamped note (`YYYY-MM-DD-HHmm-HEAD`). No titles, no folders.
+    -   **Session State:** Your brain is the session state. Never resume an old note. Start fresh, check the SoT for context, and write.
+    -   **The Commit:** When done, use the LLM to "Compile" the thinking into the SoT, then close/archive the HEAD note.
 - **Voice:** First-person, raw, and unpolished.
 - **Structure:** Flexible input (The Thinking), Structured output (The Interface).
 
@@ -116,6 +118,7 @@ The folder structure and tool integration reflect the cognitive loop. PRODOS v5.
 
 - **`00_Inbox` / Daily Note:** Frictionless capture.
 - **`20_Thinking/21_Workbench`:** The home for active `HEAD` notes where cognitive work happens.
+    -   **Flash Thinking Setup:** Configure a global hotkey to create a new file here with `YYYY-MM-DD-HHmm-HEAD` naming to bypass the "Naming Friction".
 - **`30_Library/31_Resources`:** The home for canonical `SoT` notes.
 - **`10_Actions/11_Projects`:** Project Dashboards that link to `HEAD` (thinking) and `SoT` (reference) notes.
 - **Todoist (The Runtime):** Contains only executable tasks, often synced from and linking back to an Obsidian note that holds the context.
