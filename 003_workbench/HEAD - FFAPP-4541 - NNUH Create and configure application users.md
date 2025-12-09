@@ -24,7 +24,6 @@ updated:
 AoL: Work
 ---
 
-## HEAD - FFAPP-4541 - NNUH: Create and Configure Application Users
 
 > [!abstract] The Spark (Contextual Wrapper)
 > **Why am I writing this right now?**
