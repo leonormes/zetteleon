@@ -9,8 +9,13 @@ purpose: To resolve issues with multi-arch docker images and define a strategy f
 review_interval:
 see_also: []
 source_of_truth: []
-status: defined
-tags: [architecture, docker, head, kubernetes, thinking]
+status: someday
+tags:
+  - architecture
+  - docker
+  - head
+  - kubernetes
+  - thinking
 title: HEAD - Image Architecture Strategy
 type: head
 uid:

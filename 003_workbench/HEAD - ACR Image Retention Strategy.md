@@ -9,8 +9,13 @@ purpose: To design a strategy for cleaning up old Docker images in ACR based on 
 review_interval:
 see_also: []
 source_of_truth: []
-status: defined
-tags: [acr, cleanup, devops, head, thinking]
+status: someday
+tags:
+  - acr
+  - cleanup
+  - devops
+  - head
+  - thinking
 title: HEAD - ACR Image Retention Strategy
 type: head
 uid:

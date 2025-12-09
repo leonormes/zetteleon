@@ -10,12 +10,14 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags: [state/thinking]
+tags:
+  - state/thinking
 title: HEAD - The Deployment Process Needs Tightening Up
 type: head
 uid:
 up: "[[00_Workbench]]"
 updated:
+AoL: Work
 ---
 
 > [!abstract] The Spark (Contextual Wrapper)

@@ -1,21 +1,27 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-12-07T10:00:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-12-07T18:13:20Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags: [state/head, topic/family/bessie, topic/strategy, type/conflict, type/design]
+tags:
+  - state/head
+  - topic/family/bessie
+  - topic/strategy
+  - type/conflict
+  - type/design
 title: HEAD - Parenting Strategy (Dev vs Maintenance Alignment)
 type: head
-uid: 
+uid:
 up: "[[HEAD - Bessie and Her Schooling]]"
-updated: 
+updated:
+AoL: Personal
 ---
 
 > [!abstract] The Spark

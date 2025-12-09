@@ -9,10 +9,12 @@ views:
       and:
         - file.folder != "templates"
         - file.folder != "99_Archive"
+        - status != "someday"
     order:
       - file.name
       - status
       - type
+      - AoL
     sort:
       - property: status
         direction: ASC

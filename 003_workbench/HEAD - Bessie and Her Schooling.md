@@ -10,11 +10,13 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags: [project/family/bessie]
+tags:
+  - project/family/bessie
 title: HEAD - Bessie and Her Schooling
 type: head
 uid:
 updated:
+AoL: Personal
 ---
 
 Every day, she just sits in the dark room and plays games on the computer. This is depressing. I feel she spends too much time doing games. The same game.

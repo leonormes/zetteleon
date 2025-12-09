@@ -9,12 +9,18 @@ purpose: To process and track the mandatory annual FITFILE Data Security Awarene
 review_interval:
 see_also: []
 source_of_truth: []
-status: defined
-tags: [compliance, head, prodos, security, training]
+status: active
+tags:
+  - compliance
+  - head
+  - prodos
+  - security
+  - training
 title: HEAD - FITFILE Annual Data Security Training
 type: head
 uid:
 updated:
+AoL: Work
 ---
 
 ## The Spark

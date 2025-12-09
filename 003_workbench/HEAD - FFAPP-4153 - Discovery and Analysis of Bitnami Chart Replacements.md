@@ -1,20 +1,27 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-12-09T00:00:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-12-09T09:53:08Z
-purpose: "Planning and analysis for Jira ticket FFAPP-4153 regarding Bitnami chart replacements."
-review_interval: 
+purpose: Planning and analysis for Jira ticket FFAPP-4153 regarding Bitnami chart replacements.
+review_interval:
 see_also: []
 source_of_truth: []
 status: active
-tags: [bitnami, ffapp-4153, head, jira, kubernetes, security]
+tags:
+  - bitnami
+  - ffapp-4153
+  - head
+  - jira
+  - kubernetes
+  - security
 title: HEAD - FFAPP-4153 - Discovery and Analysis of Bitnami Chart Replacements
 type: head
-uid: 
-updated: 
+uid:
+updated:
+AoL: Work
 ---
 
 ## The Spark

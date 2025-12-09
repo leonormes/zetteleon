@@ -9,7 +9,7 @@ purpose: To plan the implementation of Velero for Kubernetes backup and disaster
 review_interval:
 see_also: []
 source_of_truth: []
-status: defined
+status: someday
 tags: [backup, head, k8s, thinking, velero]
 title: HEAD - Velero Implementation Planning
 type: head

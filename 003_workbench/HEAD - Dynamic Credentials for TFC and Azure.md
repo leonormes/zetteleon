@@ -9,7 +9,7 @@ purpose: To figure out how to configure dynamic credentials for Terraform Cloud 
 review_interval:
 see_also: []
 source_of_truth: []
-status: defined
+status: someday
 tags: [azure, head, security, terraform, thinking]
 title: HEAD - Dynamic Credentials for TFC and Azure
 type: head

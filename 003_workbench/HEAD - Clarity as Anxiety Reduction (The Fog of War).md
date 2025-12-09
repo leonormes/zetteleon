@@ -10,12 +10,16 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags: [topic/family/bessie, topic/psychology, type/concept]
+tags:
+  - topic/family/bessie
+  - topic/psychology
+  - type/concept
 title: HEAD - Clarity as Anxiety Reduction (The Fog of War)
 type: head
 uid:
 up: "[[HEAD - Bessie and Her Schooling]]"
 updated:
+AoL: Personal
 ---
 
 > [!abstract] The Spark
