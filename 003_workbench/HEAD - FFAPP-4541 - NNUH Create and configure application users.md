@@ -1,21 +1,26 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-12-09T10:21:37Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-12-09T10:59:11Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: raw
-tags: [auth0, ffapp-4541, jira, spicedb, state/thinking]
+status: active
+tags:
+  - auth0
+  - ffapp-4541
+  - jira
+  - spicedb
+  - state/thinking
 title: HEAD - FFAPP-4541 - NNUH Create and configure application users
 type: head
-uid: 
+uid:
 up: "[[00_Workbench]]"
-updated: 
+updated:
 ---
 
 ## HEAD - FFAPP-4541 - NNUH: Create and Configure Application Users

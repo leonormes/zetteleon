@@ -1,21 +1,30 @@
 ---
-aliases: [Action MOC, Doing MOC, Execution Map]
+aliases:
+  - Action MOC
+  - Doing MOC
+  - Execution Map
 confidence: 4/5
 created: 2025-12-08T00:00:00Z
-epistemic: 
+epistemic:
 last_reviewed: 2025-12-08
 modified: 2025-12-08T11:11:32Z
-purpose: "The central hub for all notes related to Action Management, Execution, and Task Initiation within ProdOS."
-related-soTs: ["[[SoT - PRODOS - Action Management (GTD)]]"]
-review_interval: 
+purpose: The central hub for all notes related to Action Management, Execution, and Task Initiation within ProdOS.
+related-soTs:
+  - "[[SoT - PRODOS - Action Management (GTD)]]"
+review_interval:
 see_also: []
 source_of_truth: false
 status: stable
-tags: [action, adhd, execution, gtd, moc, prodos]
+tags:
+  - action
+  - adhd
+  - execution
+  - gtd
+  - prodos
 title: MOC - Action Management
-type: 
-uid: 
-updated: 
+type: map
+uid:
+updated:
 ---
 
 ## MOC - Action Management

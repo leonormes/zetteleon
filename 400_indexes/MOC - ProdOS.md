@@ -1,21 +1,25 @@
 ---
-aliases: [ProdOS Index, Productivity Operating System]
+aliases:
+  - ProdOS Index
+  - Productivity Operating System
 confidence: 5/5
 created: 2025-12-04T14:38:32Z
 epistemic:
 last_reviewed: 2025-12-07
 modified: 2025-12-08T11:11:32Z
-purpose: "The Master Map of Content for the ProdOS ecosystem, routing to all Source of Truth notes."
-review_interval: "3 months"
+purpose: The Master Map of Content for the ProdOS ecosystem, routing to all Source of Truth notes.
+review_interval: 3 months
 see_also: []
 source_of_truth:
-  - [[SoT - PRODOS (System Architecture)]]
+  - - - SoT - PRODOS (System Architecture)
 status: stable
-tags: [index, moc, prodos]
+tags:
+  - index
+  - prodos
 title: MOC - ProdOS
 type: map
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## ProdOS - Map of Content

@@ -8,6 +8,7 @@ views:
     filters:
       and:
         - file.folder != "templates"
+        - file.folder != "99_Archive"
     order:
       - file.name
       - status

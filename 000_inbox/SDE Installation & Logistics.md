@@ -1,27 +1,25 @@
 ---
 aliases: []
 author: ["[[Gemini]]"]
-confidence: 
+confidence:
 created: 2025-12-08T00:00:00Z
-description: "Created with Gemini"
-epistemic: 
-last_reviewed: 
-modified: 2025-12-08T13:39:52Z
+description: Created with Gemini
+epistemic:
+last_reviewed:
+modified: 2025-12-09T11:54:05Z
 published:
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
-source: "https://gemini.google.com/share/7b44e14a51fb"
+source: https://gemini.google.com/share/7b44e14a51fb
 source_of_truth: []
-status: 
-tags: ["clippings"]
+status:
+tags: []
 title: SDE Installation & Logistics
-type: 
-uid: 
-updated: 
+type:
+uid:
+updated:
 ---
-
-extract all the tasks that need doing from this email change
 
 ## ⚙️ Technical Installation Tasks and Requirements
 
