@@ -43,7 +43,7 @@ Conventional PKM and productivity systems fail because they are not designed for
 | **Context Loss**            | The rich mental model of a project evaporates over time. Returning to flat notes requires high activation energy, leading to re-research or abandonment. | **The 60-Second Test:** The system is designed to allow a complete cognitive state restore (MVU + Next Action) in under a minute.                                |
 | **Administrative Friction** | The "toil" of organizing, tagging, and processing notes drains executive function, causing the system to be abandoned.                                   | **Zero-Toil Automation:** The user's role is frictionless capture. A "Chief of Staff" LLM handles all synthesis, structuring, and metadata.                      |
 | **Displacement Activity**   | "Organizing" (folders, tags) serves as a dopamine-rich distraction to avoid the pain of actual work ("The Alcohol").                                     | **The Psychiatrist Protocol:** Strict separation of "Writing to Think" (Therapy) vs. "Organizing to Hide" (Addiction). The only valid output is a reality-testing action.|
-| **Lack of Trust**           | Static notes become outdated as thinking evolves, making the system an unreliable "graveyard" of past thoughts.                                          | **Trust Through Verifiability:** The system's effectiveness is not a "gut feeling" but is measured against clear acceptance criteria. SoTs are living documents. |
+| **Version Control Failure** | Treating "Dev Branches" (HEAD notes) as "Master" (SoT). The system is flooded with broken, deprecated thoughts ("The Log"), making search unreliable.    | **The Merge & Delete Ritual:** Strict separation of ephemeral "Work" vs. durable "Knowledge". You must "squash and merge" your thinking into the SoT, then delete the branch. |
 
 ---
 
@@ -68,6 +68,22 @@ PRODOS functions as a continuous loop that processes thought, generates action, 
 ## 4. The Note Schema: Capturing Thought vs. Storing Fact
 
 The system maintains a strict separation of concerns between thinking and knowing.
+
+### The Architectural Rule: "Master" vs. "Dev" (Version Control)
+
+You must treat your notes exactly like a software repository to prevent "Version Control Failure":
+
+| Feature | HEAD Notes (The Workbench) | SoT Notes (The Canon) |
+| :--- | :--- | :--- |
+| **Software Equivalent** | `feature/fix-bug-123` (Dev Branch) | `main` / `master` (Production) |
+| **Trust Level** | **Zero Trust.** Contains errors, dead ends, and drafts. | **High Trust.** The "Single Source of Truth." |
+| **Lifespan** | **Ephemeral.** Created to solve _one_ problem, then archived. | **Permanent.** Durable, living documentation. |
+| **Searchability** | **Hidden.** Should NOT appear in standard lookups. | **Primary.** The _only_ place you look for answers. |
+
+### The Root Cause: "Log" vs. "Refactor"
+- **The Log (HEAD):** "Tried X, failed. Google said Y..." (The Struggle).
+- **The Refactor (SoT):** "To fix this bug, run command Z." (The Solution).
+> **Crucial:** Never search the Log. Merge the solution to the SoT and delete/archive the Log.
 
 ### A. HEAD Notes (The Workbench)
 - **Purpose:** The **universal container for active thinking**. It is not a rigid form but a flexible space for journaling, questioning, learning, hypothesizing, or arguing with oneself. It captures the *process* of cognition, however messy.
@@ -147,6 +163,11 @@ PRODOS establishes a clear, non-competing hierarchy for file types:
 | **MOCs** | **The Map (Entrypoint)** | "Where do I start? Show me the landscape." (The Table of Contents) |
 | **HEAD Notes** | **The Workbench (Active)** | "What am I figuring out right now? What is the tension?" (The Scratchpad) |
 | **Base Files** | **The Dashboard (Dynamic)** | "Show me a live list of all X." (The Saved Search) |
+
+### The "Safe Search" Guarantee
+To fix "Version Control Failure," the retrieval system must enforce the "Master Branch" view.
+- **Configuration:** Search tools must exclude `HEAD` / `Thinking` folders by default.
+- **The Promise:** When you search for a topic, you should see **one result**: The SoT. You can blindly trust it because you know you *always* merge to Master.
 
 ### The Retrieval Algorithm
 1.  **Specific Topic:** Search directly for the **SoT** (e.g., "ProdOS SoT"). This is the source of truth.
