@@ -73,7 +73,12 @@ The psychological and cognitive principles underpinning the system.
 -   **[[SoT - What is a Problem]]** — *Defining the "Gap + Uncertainty" to stop solutioneering.*
 -   **[[SoT - Think Like a Man of Action, Act Like a Man of Thought]]** — *The guiding aphorism for balancing planning and doing.*
 
-### 4. Maintenance & Quality
+### 4. Life Systems (Applied ProdOS)
+Specific implementations of ProdOS principles for life management.
+
+-   **[[SoT - Family Budgeting System]]** — *The "Spendfulness" protocol: Zero-Based Budgeting + Hybrid Autonomy (YNAB).*
+
+### 5. Maintenance & Quality
 -   **[[SoT - PRODOS (System Architecture)#5. Trust & Verifiability: The Acceptance Criteria|The Acceptance Criteria]]** — *How to verify the system is working (The 60-Second Test).*
 
 ---

@@ -88,6 +88,4 @@ During synthesis, we process the queue, looking for patterns, resolving contradi
 ## Sources and Links
 
 - [[ADHD Causes Deficits in Completing Long-Term Projects]]
-- [[Zettelkasten as a Tool to Overcome Cognitive Limits]]
-- [[Externalise Everything]]
 - [[Documenting Mental Models Enables Project Re-entry]]

@@ -49,7 +49,14 @@ Cognition extends in three primary directions, all of which are leveraged by PRO
 ### D. Digital Systems as Cognitive Tools
 -   **Principle:** A digital system (like a Zettelkasten) acts as an **external cognitive tool** that becomes part of the thinking process itself. It is not just for storage; it is for *processing*.
 -   **ADHD Application:** It directly compensates for **Working Memory Limitations** by capturing, organizing, and connecting ideas that would otherwise be lost to the "scatter." It mitigates executive function struggles by externalizing the burden of holding complex structures.
+-   **Objective Interaction:** By offloading thoughts into the system, we gain the ability to **observe our thinking** rather than just experiencing it. This detachment allows for objective critique and refinement, overcoming the limits of the biological brain which struggles to hold and analyze complex models simultaneously.
 -   **ProdOS Implication:** The system allows you to leverage cognitive strengths (like pattern recognition) while bypassing weaknesses (like retention), effectively serving as a "prosthetic prefrontal cortex."
+
+### E. The Externalization Mandate
+-   **Principle:** **"Your mind is for having ideas, not holding them."** (David Allen).
+-   **The Rule:** Any thought, idea, or commitment that enters the mind must be immediately captured in a trusted external system.
+-   **The Benefit:** This frees the brain from the energy-intensive task of *retention* (holding the loop open) so it can focus on *creation* (closing the loop).
+-   **Cognitive Distancing:** Externalization creates psychological distance, allowing you to examine ideas objectively rather than being consumed by them.
 
 ---
 
