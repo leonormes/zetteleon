@@ -46,6 +46,11 @@ Cognition extends in three primary directions, all of which are leveraged by PRO
 -   **ADHD Application:** We cannot rely on internal Working Memory (which is volatile). We must distribute memory to external systems.
 -   **ProdOS Implication:** The Zettelkasten is not an archive; it is a "Thinking Partner." By linking notes, we create an external web of knowledge that holds context when our biological brain drops it.
 
+### D. Digital Systems as Cognitive Tools
+-   **Principle:** A digital system (like a Zettelkasten) acts as an **external cognitive tool** that becomes part of the thinking process itself. It is not just for storage; it is for *processing*.
+-   **ADHD Application:** It directly compensates for **Working Memory Limitations** by capturing, organizing, and connecting ideas that would otherwise be lost to the "scatter." It mitigates executive function struggles by externalizing the burden of holding complex structures.
+-   **ProdOS Implication:** The system allows you to leverage cognitive strengths (like pattern recognition) while bypassing weaknesses (like retention), effectively serving as a "prosthetic prefrontal cortex."
+
 ---
 
 ## 3. The Core Benefit: Cumulative vs. Cyclical Thinking
@@ -61,6 +66,14 @@ Without an extended mind, the ADHD brain falls into the **Cyclical Thinking Trap
 3.  **Extension:** You don't repeat the complaint; you write the *next* step: "Okay, so if batching helps, I'll try 'Theme Days' next."
 
 **The Result:** You start having **conversations with your past self**. The system makes your thinking **evolutionary**, allowing complex insights to compound over time rather than evaporating.
+
+### The Contextual Resurfacing Protocol
+-   **The Problem (Continuity Gap):** We often have the same thought multiple times without realizing it. This leads to "Spinning in Place"—re-solving the same problem from scratch because the previous solution is buried.
+-   **The Solution:** **Active Resurfacing.** The system (or AI Copilot) must proactively surface related past notes *while you are thinking*.
+-   **The Benefit:**
+    1.  **Pattern Recognition:** You see that you've had this thought before.
+    2.  **Pattern Challenge:** Instead of writing it again, you are forced to *extend* or *challenge* the previous thought. "I said X last time, but now I think Y because..."
+    3.  **Continuity:** This bridges the temporal gap, turning a series of isolated "Bullet Point" sessions into a cohesive, evolving narrative.
 
 ---
 
@@ -91,4 +104,3 @@ PRODOS is the practical implementation of the Extended Mind.
 - [[SoT - PRODOS (System Architecture)]]
 - [[SoT - Evolutionary Note System]]
 - [[SoT - Identity-Based Habit Formation]]
-- [[A Digital System Can Externalise and Organise Thoughts]]

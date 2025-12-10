@@ -87,7 +87,6 @@ During synthesis, we process the queue, looking for patterns, resolving contradi
 
 ## Sources and Links
 
-- [[My main pkm problem is the continuity of thinking]]
 - [[ADHD Causes Deficits in Completing Long-Term Projects]]
 - [[Zettelkasten as a Tool to Overcome Cognitive Limits]]
 - [[Externalise Everything]]

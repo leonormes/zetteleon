@@ -1,27 +1,50 @@
 ---
-aliases: [My Productivity System, ProdOS, The PRODOS Architecture]
+aliases:
+  - My Productivity System
+  - ProdOS
+  - The PRODOS Architecture
 confidence: 5/5
 confidence-gaps: []
 created: 2025-11-13T17:30:00Z
 decay-signals: []
-epistemic: 
+epistemic:
 last-synthesis: 2025-12-07
 last_reviewed: 2025-12-07
 modified: 2025-12-09T10:16:52Z
-purpose: "The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system."
-quality-markers: ["Clarifies the Human-in-the-Loop LLM workflow.", "Defines the core cognitive loop.", "Establishes verifiable acceptance criteria.", "Integrates Hansei Reflection Loop."]
-related-soTs: ["[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]"]
+purpose: The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system.
+quality-markers:
+  - Clarifies the Human-in-the-Loop LLM workflow.
+  - Defines the core cognitive loop.
+  - Establishes verifiable acceptance criteria.
+  - Integrates Hansei Reflection Loop.
+related-soTs:
+  - "[[SoT - PKM Confidence and Acceptance Criteria]]"
+  - "[[SoT - PRODOS - Action Management (GTD)]]"
+  - "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]"
+  - "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]"
 resonance-score: 10
-review_interval: "3 months"
+review_interval: 3 months
 see_also: []
 source_of_truth: true
 status: stable
-supersedes: ["[[02 - GTD]]", "[[08 - Obsidian for PKM]]", "[[Complete Context ProdOS System]]", "[[Hansei]]", "[[Old ProdOS Product Description]]", "[[ProdOS System Overview and Development Progress]]", "[[The why of my zettelkasten]]"]
-tags: [adhd, architecture, hansei, prodos, SoT, system_design]
+supersedes:
+  - "[[02 - GTD]]"
+  - "[[08 - Obsidian for PKM]]"
+  - "[[Complete Context ProdOS System]]"
+  - "[[Hansei]]"
+  - "[[Old ProdOS Product Description]]"
+  - "[[ProdOS System Overview and Development Progress]]"
+  - "[[The why of my zettelkasten]]"
+tags:
+  - "#adhd"
+  - "#architecture"
+  - "#hansei"
+  - "#prodos"
+  - "#system_design"
 title: SoT - PRODOS (System Architecture)
 type: SoT
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## 1. Definitive Statement

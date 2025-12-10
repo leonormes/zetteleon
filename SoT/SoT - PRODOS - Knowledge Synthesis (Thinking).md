@@ -1,21 +1,31 @@
 ---
-aliases: [ProdOS Thinking SoT, Synthesis Engine, The Thinking Protocol]
+aliases:
+  - ProdOS Thinking SoT
+  - Synthesis Engine
+  - The Thinking Protocol
 confidence: 4/5
 created: 2025-12-08T00:00:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-12-08T14:04:51Z
-purpose: "To define the function, structure, and purpose of 'Thinking' within the ProdOS architecture."
-related-soTs: ["[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS (System Architecture)]]"]
+purpose: To define the function, structure, and purpose of 'Thinking' within the ProdOS architecture.
+related-soTs:
+  - "[[SoT - PRODOS - Action Management (GTD)]]"
+  - "[[SoT - PRODOS (System Architecture)]]"
 review_interval: 3 months
-see_also: ["[[HEAD - The Purpose of Thinking]]"]
+see_also:
+  - "[[HEAD - The Purpose of Thinking]]"
 source_of_truth: true
 status: stable
-tags: [cognition, prodos, sot, synthesis, thinking]
+tags:
+  - "#cognition"
+  - "#prodos"
+  - "#synthesis"
+  - "#thinking"
 title: SoT - PRODOS - Knowledge Synthesis (Thinking)
 type: SoT
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## 1. Definition: What is Thinking
