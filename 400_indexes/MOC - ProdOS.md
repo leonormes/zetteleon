@@ -31,7 +31,7 @@ updated:
 
 The definitive specification of the system, its architecture, and the "Why".
 
--   **[[SoT - PRODOS (System Architecture)]]** — *The Master Canon. Read this for the complete overview.*
+-   **[[SoT - PRODOS (System Architecture)]]** — *The Master Canon. Defines the shift from Storage (Museum) to Compute (Factory).*
 -   **[[SoT - PRODOS - Problem-Solution Map]]** — *The justification for every feature (Mapping ADHD deficits to ProdOS solutions).*
 
 ### 2. Operational Manuals (The "How-To")

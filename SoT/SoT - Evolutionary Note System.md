@@ -47,10 +47,6 @@ During synthesis, we process the queue, looking for patterns, resolving contradi
 
 ## Integration Queue
 
-[[What Organizing Your Thoughts Really Means]]
-
-[[Not a Final Thought]]
-
 ## Battle Testing
 
 - Core Claim: A system that prioritizes synthesis over capture and treats notes as evolving documents will build a more trustworthy and useful knowledge base over time, effectively maintaining lines of thought.

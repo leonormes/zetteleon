@@ -7,8 +7,9 @@ views:
     order:
       - file.name
       - type
+      - tags
     sort:
-      - property: file.name
+      - property: file.ctime
         direction: ASC
     columnSize:
       file.name: 488

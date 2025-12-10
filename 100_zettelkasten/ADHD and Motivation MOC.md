@@ -72,5 +72,9 @@ This Map of Content (MOC) organizes notes related to the unique motivational sys
 - [[Managing Novelty Seeking in ADHD]]
 - [[Timeboxing Definition and Mindset]]
 
+## ProdOS Solutions (Engineered Motivation)
+
+- [[SoT - PRODOS (System Architecture)#The Ignition Protocol (Stimulus Injection)|The Ignition Protocol]] - Detailed methods (Mystery, Urgency, Spite) to manufacture dopamine for boring tasks.
+
 ### Extended Connections
 - [[Diagram - Philosophy-Productivity Connections]] shows neurodiversity links

@@ -24,8 +24,7 @@ AoL: Personal
 > This is my biggest bug bear. Forgetting what I have already done to solve a problem. Constantly starting again
 
 ## 🧠 My Current Model (The Blind Write)
-*Instructions: Write this section BEFORE looking at documentation. How do you think it works? What is your logic? be messy.*
-
+For many reasons. My brain doesn't want to work hard. So it uses understanding the big picture to work out what it needs rather than remembering it. 
 **I think it works like this:**
 
 **I am assuming that:**

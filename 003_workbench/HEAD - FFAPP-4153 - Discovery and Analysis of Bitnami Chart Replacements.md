@@ -9,7 +9,7 @@ purpose: Planning and analysis for Jira ticket FFAPP-4153 regarding Bitnami char
 review_interval:
 see_also: []
 source_of_truth: []
-status: active
+status: someday
 tags:
   - bitnami
   - ffapp-4153

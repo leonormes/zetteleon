@@ -1,21 +1,29 @@
 ---
-aliases: [Identity vs Outcome, Identity-Based Habits, The Power of Identity]
+aliases:
+  - Identity vs Outcome
+  - Identity-Based Habits
+  - The Power of Identity
 confidence: 5/5
 created: 2025-12-07T00:00:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-12-08T11:11:32Z
-purpose: "To define the role of Identity as the primary engine for sustained behavioral change."
-review_interval: 
+purpose: To define the role of Identity as the primary engine for sustained behavioral change.
+review_interval:
 see_also: []
 source_of_truth: true
 status: stable
-supersedes: ["[[Powerful Identity]]"]
-tags: [behavioral_science, habits, identity, psychology, sot]
+supersedes:
+  - "[[Powerful Identity]]"
+tags:
+  - behavioral_science
+  - habits
+  - identity
+  - psychology
 title: SoT - Identity-Based Habit Formation
 type: SoT
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## 1. Definitive Statement

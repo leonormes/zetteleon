@@ -31,7 +31,6 @@ Is it loving to just give her what she wants and to avoid conflict?
 
 Zofja has her view which affect the responses she has to Bessie's behaviour. I think she is too reactive and not having a level-headed response.
 
-[[HEAD - Why do Zofja and I always conflict]]
 
 > [!abstract] The Spark
 > Bessie is sitting in the dark playing the same game daily. She is ignoring GCSEs. I feel depressed watching it because it mirrors my own struggles with avoidance.

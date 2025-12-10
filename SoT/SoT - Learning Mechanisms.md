@@ -1,5 +1,9 @@
 ---
-aliases: [Declarative vs Procedural, Focused vs Diffuse, Learning Mechanisms, Working Memory in Learning]
+aliases:
+  - Declarative vs Procedural
+  - Focused vs Diffuse
+  - Learning Mechanisms
+  - Working Memory in Learning
 confidence: 5/5
 confidence-gaps: []
 created: 2025-12-07T12:30:00Z
@@ -8,20 +12,36 @@ epistemic: theory
 last-synthesis: 2025-12-07
 last_reviewed: 2025-12-07
 modified: 2025-12-08T11:11:31Z
-purpose: "To define the core neurological mechanisms of learning and how they integrate into the PRODOS system for ADHD cognitive augmentation."
-quality-markers: ["Defines Focused vs. Diffuse modes.", "Explains Declarative vs. Procedural memory.", "Integrates Working Memory constraints.", "Links to PRODOS architecture."]
-related-soTs: ["[[SoT - Bridging the Intention-Action Gap]]", "[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]", "[[SoT - The Extended Mind]]"]
+purpose: To define the core neurological mechanisms of learning and how they integrate into the PRODOS system for ADHD cognitive augmentation.
+quality-markers:
+  - Defines Focused vs. Diffuse modes.
+  - Explains Declarative vs. Procedural memory.
+  - Integrates Working Memory constraints.
+  - Links to PRODOS architecture.
+related-soTs:
+  - "[[SoT - Bridging the Intention-Action Gap]]"
+  - "[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]"
+  - "[[SoT - The Extended Mind]]"
 resonance-score: 10
-review_interval: "12 months"
-see_also: ["[[Diffuse vs Focused Thinking Modes]]", "[[Memory in learning]]", "[[Working Memory Limitations in ADHD]]"]
+review_interval: 12 months
+see_also:
+  - "[[Diffuse vs Focused Thinking Modes]]"
+  - "[[Memory in learning]]"
+  - "[[Working Memory Limitations in ADHD]]"
 source_of_truth: true
 status: stable
-supersedes: ["[[Understanding Learning Mechanisms]]"]
-tags: [adhd, cognition, learning, mental_models, neuroscience, SoT]
+supersedes:
+  - "[[Understanding Learning Mechanisms]]"
+tags:
+  - adhd
+  - cognition
+  - learning
+  - mental_models
+  - neuroscience
 title: SoT - Learning Mechanisms
 type: SoT
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## 1. Definitive Statement

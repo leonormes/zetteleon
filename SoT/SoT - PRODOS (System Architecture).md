@@ -29,7 +29,7 @@ updated:
 > [!definition] Definition
 > PRODOS is a **cognitive augmentation system** designed to operate as an "extended mind" for a developer with ADHD. It offloads executive functions—such as context restoration, task initiation, and knowledge synthesis—to a structured, LLM-powered workflow.
 >
-> Its purpose is to transform a Personal Knowledge Management (PKM) system from a passive library into an **active laboratory for thinking and action**.
+> Fundamentally, it treats the system not as a **Database (Storage)** but as a **Runtime Environment (Compute)**. Its goal is not to preserve information (Retention) but to process context into reality (Throughput).
 
 ---
 
@@ -44,6 +44,20 @@ Conventional PKM and productivity systems fail because they are not designed for
 | **Administrative Friction** | The "toil" of organizing, tagging, and processing notes drains executive function, causing the system to be abandoned.                                   | **Zero-Toil Automation:** The user's role is frictionless capture. A "Chief of Staff" LLM handles all synthesis, structuring, and metadata.                      |
 | **Displacement Activity**   | "Organizing" (folders, tags) serves as a dopamine-rich distraction to avoid the pain of actual work ("The Alcohol").                                     | **The Psychiatrist Protocol:** Strict separation of "Writing to Think" (Therapy) vs. "Organizing to Hide" (Addiction). The only valid output is a reality-testing action.|
 | **Version Control Failure** | Treating "Dev Branches" (HEAD notes) as "Master" (SoT). The system is flooded with broken, deprecated thoughts ("The Log"), making search unreliable.    | **The Merge & Delete Ritual:** Strict separation of ephemeral "Work" vs. durable "Knowledge". You must "squash and merge" your thinking into the SoT, then delete the branch. |
+| **Engine Stall**            | Having Direction (Choice/Plan) but no Energy (Dopamine). "Turning the wheel but the car won't move."                                                     | **The Ignition Protocol:** Use the HEAD note to refactor "Boring Tasks" into "Interesting Hypotheses" (Mystery, Spite, Urgency) to manufacture dopamine.                      |
+
+### Comparative Analysis: Storage (Museum) vs. Compute (Factory)
+
+The fundamental shift in ProdOS is moving from a "Librarian" mindset to an "Operator" mindset.
+
+| Feature | Wiki / Archive (The Museum) | ProdOS (The Factory) |
+| :--- | :--- | :--- |
+| **Primary Goal** | Storage & Retrieval (Retention) | **Context Restoration & Action (Throughput)** |
+| **Input Model** | Categorisation (Filing) | **Frictionless Capture (Stream)** |
+| **Output Model** | Encyclopedia Entry | **Unit Test (Verifiable Action)** |
+| **Maintenance** | Gardening (High Friction) | **Synthesis (Zero-Toil via LLM)** |
+| **Metric** | "Did I save it?" | **"Did I change reality?"** |
+| **ADHD Risk** | "Where did I put that?" | **N/A (Focus is on "Next Action")** |
 
 ---
 
@@ -81,20 +95,16 @@ You must treat your notes exactly like a software repository to prevent "Version
 | **Lifespan** | **Ephemeral.** Created to solve *one* problem, then archived. | **Permanent.** Durable, living documentation. |
 | **Searchability** | **Hidden.** Should NOT appear in standard lookups. | **Primary.** The *only* place you look for answers. |
 
-### The Root Cause: "Log" vs. "Refactor"
-- **The Log (HEAD):** "Tried X, failed. Google said Y..." (The Struggle).
-- **The Refactor (SoT):** "To fix this bug, run command Z." (The Solution).
-
-> **Crucial:** Never search the Log. Merge the solution to the SoT and delete/archive the Log.
-
 ### A. HEAD Notes (The Workbench)
 - **Purpose:** The **universal container for active thinking**. It is not a rigid form but a flexible space for journaling, questioning, learning, hypothesizing, or arguing with oneself. It captures the *process* of cognition, however messy.
 - **The Protocol (Always New, Never Resume):**
-    -   **Zero-Decision Entry:** Use a single hotkey to create a timestamped note (`YYYY-MM-DD-HHmm-HEAD`). No titles, no folders.
+    -   **Zero-Decision Entry:** Use a single hotkey to create a timestamped note (`YYYY-MM-DD-HHmm-HEAD`). **No titles, no folders, no prompts.** The cursor lands in free space.
     -   **Session State:** Your brain is the session state. Never resume an old note. Start fresh, check the SoT for context, and write.
-    -   **The Commit:** When done, use the LLM to "Compile" the thinking into the SoT, then close/archive the HEAD note.
+    -   **The Tri-State Output Router:** At the end of the session, the user must select one of three exit paths:
+        -   **Path A: Kinetic (Action):** "I figured it out." -> Extract Task to Todoist -> Archive Note.
+        -   **Path B: Static (Storage):** "I learned a fact." -> Merge Insight to SoT -> Archive Note.
+        -   **Path C: Dynamic (Thinking):** "I am paused." -> **Serialize State** (Write "I stopped at X, next step is Y") -> Create **Pointer Task** in Todoist ("Thinking: Resume [Link]") -> Keep Note Active.
 - **Voice:** First-person, raw, and unpolished.
-- **Structure:** Flexible input (The Thinking), Structured output (The Interface).
 
 ### B. LIB/SoT Notes (The Canon)
 - **Purpose:** To be the trusted **System of Record** for stable, verified knowledge and the `Current Understanding` of a topic.
@@ -126,7 +136,7 @@ The folder structure and tool integration reflect the cognitive loop. PRODOS v5.
 
 ---
 
-## 7. Reality as a Unit Test (The Execution Protocol)
+## 7. Reality as a Unit Test (The Execution & Ignition Protocol)
 
 The "Next Test" is not just a task; it is a **verifiable interface** between the internal mental model (Thinking) and external reality (Doing).
 
@@ -150,6 +160,22 @@ To qualify as a "Next Test," an action must meet three criteria:
 -   **Confusion:** "I don't know X" -> **Test:** "Search docs for X. Found/Not Found."
 -   **Assumption:** "I think X causes Y" -> **Test:** "Disable X. Does Y still happen?"
 -   **Design:** "I need to build Z" -> **Test:** "Draft ugliest version of Z in 5 mins."
+
+### The Ignition Protocol (Stimulus Injection)
+
+Logic does not produce dopamine. To generate the energy for execution, you must convert "Work" (Boring Command) into "Inquiry" (Interesting Question). Use these 3 Energy Hacks to "Refactor" boring tasks:
+
+1.  **The "Mystery" Hack (Hypothesis):** Refactor a chore into a bet.
+    -   *Boring:* "Update CSS."
+    -   *Ignition:* "Hypothesis: I can break the layout if I change padding to 50px. Does the flexbox hold?"
+2.  **The "Time Trial" Hack (Urgency):** Refactor an infinite task into a binary sprint.
+    -   *Boring:* "Clear inbox."
+    -   *Ignition:* "Can I process 10 items in 3 minutes? Binary Outcome: Yes/No."
+3.  **The "Spite" Hack (Logic Linter):** Refactor compliance into rebellion.
+    -   *Boring:* "Write scope."
+    -   *Ignition:* "Open a HEAD note and argue why this project is stupid." (Frustration generates heat, which can be channeled into solving the problem).
+
+**The Workflow:** Select Task -> Open HEAD Note -> Refactor to Experiment -> **Wait for Spark** -> Execute.
 
 ---
 

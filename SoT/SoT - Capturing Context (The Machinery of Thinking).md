@@ -1,21 +1,29 @@
 ---
-aliases: [Context Capture, Mental Models, Thinking Scaffolds]
+aliases:
+  - Context Capture
+  - Mental Models
+  - Thinking Scaffolds
 confidence: 5/5
 created: 2025-12-07T00:00:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-12-08T11:11:32Z
-purpose: "To define the strategies for capturing the 'Machinery of Thinking'—reasoning, assumptions, and context—rather than just static conclusions."
-review_interval: 
+purpose: To define the strategies for capturing the 'Machinery of Thinking'—reasoning, assumptions, and context—rather than just static conclusions.
+review_interval:
 see_also: []
 source_of_truth: true
 status: stable
-supersedes: ["[[Capture the Context]]", "[[Documenting Mental Models Enables Project Re-entry]]"]
-tags: [mental_models, pkm, sot, thinking]
+supersedes:
+  - "[[Capture the Context]]"
+  - "[[Documenting Mental Models Enables Project Re-entry]]"
+tags:
+  - mental_models
+  - pkm
+  - thinking
 title: SoT - Capturing Context (The Machinery of Thinking)
 type: SoT
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## 1. Definitive Statement
