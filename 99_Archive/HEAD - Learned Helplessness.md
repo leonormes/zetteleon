@@ -9,7 +9,7 @@ purpose:
 review_interval:
 see_also: []
 source_of_truth: []
-status: processing
+status: archived
 tags:
   - state/thinking
 title: HEAD - Learned Helplessness

@@ -39,11 +39,10 @@ views:
       file.name: 580
       status: 127
   - type: table
-    name: Processing Personal HEADs
+    name: Active Personal HEADs
     filters:
       and:
-        - type == "head"
-        - status == "processing"
+        - status == "active"
         - AoL == "Personal"
     order:
       - file.name
@@ -57,10 +56,11 @@ views:
       file.name: 580
       status: 127
   - type: table
-    name: Active Personal HEADs
+    name: Processing Personal HEADs
     filters:
       and:
-        - status == "active"
+        - type == "head"
+        - status == "processing"
         - AoL == "Personal"
     order:
       - file.name

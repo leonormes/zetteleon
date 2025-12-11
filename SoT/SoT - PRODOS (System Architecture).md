@@ -44,7 +44,7 @@ Conventional PKM and productivity systems fail because they are not designed for
 | **Administrative Friction** | The "toil" of organizing, tagging, and processing notes drains executive function, causing the system to be abandoned.                                   | **Zero-Toil Automation:** The user's role is frictionless capture. A "Chief of Staff" LLM handles all synthesis, structuring, and metadata.                      |
 | **Displacement Activity**   | "Organizing" (folders, tags) serves as a dopamine-rich distraction to avoid the pain of actual work ("The Alcohol").                                     | **The Psychiatrist Protocol:** Strict separation of "Writing to Think" (Therapy) vs. "Organizing to Hide" (Addiction). The only valid output is a reality-testing action.|
 | **Version Control Failure** | Treating "Dev Branches" (HEAD notes) as "Master" (SoT). The system is flooded with broken, deprecated thoughts ("The Log"), making search unreliable.    | **The Merge & Delete Ritual:** Strict separation of ephemeral "Work" vs. durable "Knowledge". You must "squash and merge" your thinking into the SoT, then delete the branch. |
-| **Engine Stall**            | Having Direction (Choice/Plan) but no Energy (Dopamine). "Turning the wheel but the car won't move."                                                     | **The Ignition Protocol:** Use the HEAD note to refactor "Boring Tasks" into "Interesting Hypotheses" (Mystery, Spite, Urgency) to manufacture dopamine.                      |
+| **Engine Stall**            | Having Direction (Choice/Plan) but no Energy (Dopamine). "Turning the wheel but the car won't move." This is **[[The War of Art - Resistance and Turning Pro|Resistance]]**.                                                     | **The Ignition Protocol:** Use the HEAD note to refactor "Boring Tasks" into "Interesting Hypotheses" (Mystery, Spite, Urgency) to manufacture dopamine.                      |
 
 ### Comparative Analysis: Storage (Museum) vs. Compute (Factory)
 
@@ -247,6 +247,7 @@ The system is not static; it requires active maintenance to prevent "Trust Decay
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
 - [[SoT - Process Primacy (Systems Over Goals)]]
 - [[SoT - Temporal Management (Blocking and Boxing)]]
+- [[The War of Art - Resistance and Turning Pro]]
 - **Example Implementation:** [[Detailed Example From Spark to Synthesis]]
 
 ## 12. Status & Roadmap

@@ -31,6 +31,7 @@ This collection of notes explores the concept of **Mental Models**: the internal
 
 - The brain builds models based on what it deems important, meaning [[Salience and Emotion Shape Mental Models]].
 - This creates a powerful [[The Cognitive-Emotional Feedback Loop]] where models and emotions influence each other.
+- We must actively fight the internal barrier to growth known as **Resistance** by [[The War of Art - Resistance and Turning Pro|Turning Pro]].
 - This loop is kept in check when reality provides a strong enough signal, as [[Prediction Error Breaks Maladaptive Feedback Loops]].
 
 ## The Neuroscience of Models
