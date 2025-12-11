@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-04T12:23:40Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-04T13:28:05Z
+modified: 2025-12-11T10:10:52Z
 purpose: 
 review_interval: 
 see_also: []
@@ -32,5 +32,3 @@ This is the initial, messy, and essential act of getting a thought out of your h
    - **Go for the jugular**: If a vulnerable or scary idea emerges, dive into it. That's where the energy is.
 
 **Outcome**: A raw, unedited block of text that contains the "first thoughts" and emotional energy of your idea. It will be messy, and that is the point.
-
-[[200_projects/ProdOS/The Unified Writing to Think Process]]

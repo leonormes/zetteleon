@@ -1,22 +1,21 @@
 ---
 aliases: []
+AoL: Personal
 confidence:
 created: 2025-12-05T09:19:17Z
 epistemic:
 last_reviewed:
-modified: 2025-12-07T18:13:20Z
+modified: 2025-12-10T20:00:14Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags:
-  - project/family/bessie
+tags: [project/family/bessie]
 title: HEAD - Bessie and Her Schooling
 type: head
 uid:
 updated:
-AoL: Personal
 ---
 
 Every day, she just sits in the dark room and plays games on the computer. This is depressing. I feel she spends too much time doing games. The same game.
@@ -30,7 +29,6 @@ It might seem harmless to just sit playing games but these are her formative yea
 Is it loving to just give her what she wants and to avoid conflict?
 
 Zofja has her view which affect the responses she has to Bessie's behaviour. I think she is too reactive and not having a level-headed response.
-
 
 > [!abstract] The Spark
 > Bessie is sitting in the dark playing the same game daily. She is ignoring GCSEs. I feel depressed watching it because it mirrors my own struggles with avoidance.

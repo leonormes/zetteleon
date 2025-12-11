@@ -38,7 +38,6 @@ The method uses specially designed micro-tasks to build momentum.
 Starter tasks are effective because they shift cognitive focus and bypass common psychological hurdles.
 
 - [[Starter Tasks Bypass Overthinking and Reduce Perfectionism]]
-- [[The Zeigarnik Effect Creates a Cognitive Pull Towards Task Completion]]
 
 ## Advanced Application
 

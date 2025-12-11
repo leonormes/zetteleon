@@ -1,8 +1,5 @@
 ---
-aliases:
-  - My Productivity System
-  - ProdOS
-  - The PRODOS Architecture
+aliases: [My Productivity System, ProdOS, The PRODOS Architecture]
 confidence: 5/5
 confidence-gaps: []
 created: 2025-11-13T17:30:00Z
@@ -10,37 +7,17 @@ decay-signals: []
 epistemic:
 last-synthesis: 2025-12-07
 last_reviewed: 2025-12-07
-modified: 2025-12-09T10:16:52Z
+modified: 2025-12-10T19:59:40Z
 purpose: The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system.
-quality-markers:
-  - Clarifies the Human-in-the-Loop LLM workflow.
-  - Defines the core cognitive loop.
-  - Establishes verifiable acceptance criteria.
-  - Integrates Hansei Reflection Loop.
-related-soTs:
-  - "[[SoT - PKM Confidence and Acceptance Criteria]]"
-  - "[[SoT - PRODOS - Action Management (GTD)]]"
-  - "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]"
-  - "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]"
+quality-markers: [Clarifies the Human-in-the-Loop LLM workflow., Defines the core cognitive loop., Establishes verifiable acceptance criteria., Integrates Hansei Reflection Loop.]
+related-soTs: ["[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]"]
 resonance-score: 10
 review_interval: 3 months
 see_also: []
 source_of_truth: true
 status: stable
-supersedes:
-  - "[[02 - GTD]]"
-  - "[[08 - Obsidian for PKM]]"
-  - "[[Complete Context ProdOS System]]"
-  - "[[Hansei]]"
-  - "[[Old ProdOS Product Description]]"
-  - "[[ProdOS System Overview and Development Progress]]"
-  - "[[The why of my zettelkasten]]"
-tags:
-  - "#adhd"
-  - "#architecture"
-  - "#hansei"
-  - "#prodos"
-  - "#system_design"
+supersedes: ["[[02 - GTD]]", "[[08 - Obsidian for PKM]]", "[[Complete Context ProdOS System]]", "[[Hansei]]", "[[Old ProdOS Product Description]]", "[[ProdOS System Overview and Development Progress]]", "[[The why of my zettelkasten]]"]
+tags: ["adhd", "architecture", "hansei", "prodos", "system_design"]
 title: SoT - PRODOS (System Architecture)
 type: SoT
 uid:
@@ -143,8 +120,19 @@ PRODOS is considered "working" only when it consistently passes these two accept
 1.  **The 60-Second Context Restoration Test (Save State):** The system is not an archive; it is a save state. Can I open the relevant Project/SoT note and recall the **Minimum Viable Understanding (MVU)** and the very **Next Action** in under 60 seconds? Everything "below the fold" is irrelevant history.
 2.  **The Reuse Score:** For any new project, was the system successfully leveraged to find and reuse existing knowledge, avoiding at least 30 minutes of new research?
 
----
+### 5.1 Measurable Outcomes: The "Output First" Metric
 
+Moving beyond the "buzz" of potential, we assess success through concrete, real-world utility. **The system exists to serve you, not for you to serve it.**
+
+> **The Rule:** If using the system feels like a chore, it is failing.
+
+**Key Performance Indicators (KPIs):**
+-   **Output Volume:** Did the system directly contribute to finishing a project or task this week? (Transformation > Accumulation).
+-   **Retrieval Speed:** Can you find the exact information you need in < 30 seconds?
+-   **Mental Silence:** Does the "Brain Dump" actually clear the noise? (Reduction in "stuff I need to remember").
+-   **Simplicity:** Is the barrier to entry low enough that you capture ideas even when tired?
+
+---
 ## 6. Structural Implementation & Integrations
 
 The folder structure and tool integration reflect the cognitive loop. PRODOS v5.0 represents the "ultimate maturation" of the system, consolidated into a highly optimized **4-file system** (down from 72) to maximize LLM efficiency (75-90% faster loading).
@@ -258,6 +246,8 @@ The system is not static; it requires active maintenance to prevent "Trust Decay
 ## 11. Related Components
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
 - [[SoT - Process Primacy (Systems Over Goals)]]
+- [[SoT - Temporal Management (Blocking and Boxing)]]
+- **Example Implementation:** [[Detailed Example From Spark to Synthesis]]
 
 ## 12. Status & Roadmap
 

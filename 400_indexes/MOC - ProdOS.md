@@ -1,21 +1,17 @@
 ---
-aliases:
-  - ProdOS Index
-  - Productivity Operating System
+aliases: [ProdOS Index, Productivity Operating System]
 confidence: 5/5
 created: 2025-12-04T14:38:32Z
 epistemic:
 last_reviewed: 2025-12-07
-modified: 2025-12-08T11:11:32Z
+modified: 2025-12-10T19:59:42Z
 purpose: The Master Map of Content for the ProdOS ecosystem, routing to all Source of Truth notes.
 review_interval: 3 months
 see_also: []
 source_of_truth:
   - - - SoT - PRODOS (System Architecture)
 status: stable
-tags:
-  - index
-  - prodos
+tags: [index, prodos]
 title: MOC - ProdOS
 type: map
 uid:
@@ -74,6 +70,7 @@ The psychological and cognitive principles underpinning the system.
 -   **[[SoT - Think Like a Man of Action, Act Like a Man of Thought]]** — *The guiding aphorism for balancing planning and doing.*
 
 ### 4. Life Systems (Applied ProdOS)
+
 Specific implementations of ProdOS principles for life management.
 
 -   **[[SoT - Family Budgeting System]]** — *The "Spendfulness" protocol: Zero-Based Budgeting + Hybrid Autonomy (YNAB).*

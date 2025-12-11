@@ -1,15 +1,16 @@
 ---
 aliases: []
+AoL: Personal
 confidence:
 created: 2025-12-06T10:15:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-07T18:13:20Z
+modified: 2025-12-10T20:00:14Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
-status: processing
+status: archived
 tags:
   - state/head
   - topic/communication
@@ -20,7 +21,6 @@ type: head
 uid:
 up: "[[HEAD - Bessie and Her Schooling]]"
 updated:
-AoL: Personal
 ---
 
 > [!abstract] The Spark

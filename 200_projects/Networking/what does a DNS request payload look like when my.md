@@ -4,14 +4,14 @@ confidence:
 created: 2025-10-22T09:34:06Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:22Z
+modified: 2025-12-10T19:59:52Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [topic/technology/networking/dns]
-title: what does a DNS request payload look like_ when my
+title: what does a DNS request payload look like when my
 type:
 uid: 
 updated: 

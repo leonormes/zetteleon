@@ -1,20 +1,25 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-12-06T07:59:11Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-12-07T18:13:20Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags: [state/head, topic/adhd, topic/productivity, type/bug]
+tags:
+  - state/head
+  - topic/adhd
+  - topic/productivity
+  - type/bug
 title: HEAD - Why my zettelkasten failed
 type: head
-uid: 
-updated: 
+uid:
+updated:
+AoL: Personal
 ---
 
 It contains lots of compelling ideas that I really want in order to overcome my ADHD traits but it's purpose was wrong for me. I didn't see the overall goal and the features separately.

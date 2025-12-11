@@ -1,24 +1,19 @@
 ---
-aliases:
-  - Healthy Relationship Map
+aliases: [Healthy Relationship Map]
 confidence:
 created: 2025-11-10T10:22:00Z
 criteria: Atomic notes defining foundational concepts of respect, communication, responsibility, needs, and financial fairness in a relationship.
 epistemic:
 exclusions: Specific therapeutic advice or non-cooperative relationship models.
 last_reviewed:
-modified: 2025-11-10T17:03:57Z
+modified: 2025-12-10T20:00:09Z
 purpose:
 review_interval:
 scope: Core principles, common needs, and financial dynamics within a healthy, cooperative partnership, particularly for a married parent.
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - finance
-  - parenting
-  - partnership
-  - relationship
+tags: [finance, parenting, partnership, relationship]
 title: MOC - Healthy Relationship Expectations and Needs
 type: map
 uid: 2025-11-10T10:22:00Z

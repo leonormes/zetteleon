@@ -1,28 +1,19 @@
 ---
-aliases:
-  - ProdOS Problem-Solution Fit
-  - ProdOS Why
+aliases: [ProdOS Problem-Solution Fit, ProdOS Why]
 confidence: 5/5
 created: 2025-12-06T18:00:00Z
 epistemic:
 last-synthesis: 2025-12-06
 last_reviewed: 2025-12-07
-modified: 2025-12-08T11:11:32Z
+modified: 2025-12-10T19:59:41Z
 purpose: To explicitly map the core problems (the 'Why') to the specific architectural solutions within ProdOS (the 'How').
-quality-markers:
-  - Connects user pain points to system features.
-  - Grounded in notes about ADHD and executive dysfunction.
-related-soTs:
-  - "[[SoT - PRODOS (System Architecture)]]"
+quality-markers: [Connects user pain points to system features., Grounded in notes about ADHD and executive dysfunction.]
+related-soTs: ["[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 6 months
 see_also: []
 source_of_truth: true
 status: stable
-tags:
-  - "#architecture"
-  - "#problem-solution"
-  - "#prodos"
-  - "#system_design"
+tags: ["architecture", "problem-solution", "prodos", "system_design"]
 title: SoT - PRODOS - Problem-Solution Map
 type: SoT
 uid:

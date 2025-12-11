@@ -21,7 +21,7 @@ version:
 **Links:**
 
 - Up: [[MOC - Container Networking Model]]
-- Related: [[What is a Linux bridge]], [[How Linux bridge learns MAC addresses]]
+- Related: [[What is a Linux bridge]]
 
 ## Summary
 

@@ -1,26 +1,21 @@
 ---
 aliases: []
+AoL: Work
 confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-09T10:16:52Z
+modified: 2025-12-10T20:00:14Z
 purpose: To process and track the mandatory annual FITFILE Data Security Awareness training.
 review_interval:
 see_also: []
 source_of_truth: []
 status: active
-tags:
-  - compliance
-  - head
-  - prodos
-  - security
-  - training
+tags: [compliance, head, prodos, security, training]
 title: HEAD - FITFILE Annual Data Security Training
 type: head
 uid:
 updated:
-AoL: Work
 ---
 
 ## The Spark

@@ -2,20 +2,20 @@
 aliases: [A-C-T Framework, Human-LLM-Human Sandwich, One-Note-Container, The Cognitive Loop, The Refinement Protocol]
 confidence: 5/5
 created: 2025-12-07T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-08T11:11:32Z
-purpose: "To define the standard operating procedure for converting amorphous thought into actionable outcomes using LLMs."
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-11T10:10:43Z
+purpose: To define the standard operating procedure for converting amorphous thought into actionable outcomes using LLMs.
+review_interval:
 see_also: []
 source_of_truth: true
 status: stable
 supersedes: ["[[ADHD, LLMs, and PKM Balance]]"]
-tags: [architecture, llm, prodos, sot, workflow]
+tags: [architecture, llm, prodos, workflow]
 title: SoT - PRODOS - The Cognitive Loop (A-C-T Framework)
 type: SoT
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## 1. Definitive Statement

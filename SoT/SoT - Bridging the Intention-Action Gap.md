@@ -9,7 +9,7 @@ last-resonance: 2025-11-13
 last-synthesis: 2025-12-07
 last_reviewed:
 llm-responses: 4
-modified: 2025-12-08T11:11:32Z
+modified: 2025-12-11T10:10:43Z
 mvu-hash: ""
 purpose:
 quality-markers: [Added ADHD-specific context, Added real-world DevOps K2A example, Added Vague Task Checklist, Integrated practical workflow, Synthesized from comprehensive research]
@@ -21,7 +21,7 @@ source_of_truth: true
 status:
 supersedes: ["[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]", "[[ADHD and Productivity]]", "[[ADHD routines should be based on intrinsic motivation not external pressure]]", "[[Knowledge-to-Action System SoT]]", "[[KtA]]", "[[The Activation Cost of Tasks is Higher in ADHD]]", "[[The Motivation Bridge - An ADHD Metaphor]]", "[[The Science of Bridging Intention and Action]]", "[[Vague Task to Actionable Plan Checklist]]", "[[Why Importance and Rewards Fail to Motivate ADHD Brains]]"]
 synthesis-count: 5
-tags: [adhd, devops, execution, habits, k2a, motivation, neuroscience, pkm, productivity, psychology, SoT]
+tags: [adhd, devops, execution, habits, k2a, motivation, neuroscience, pkm, productivity, psychology]
 title: SoT - Bridging the Intention-Action Gap
 trust-level: authoritative
 type: SoT

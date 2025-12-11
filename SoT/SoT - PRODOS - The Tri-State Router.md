@@ -3,23 +3,23 @@ alias: [Input Processing Logic, Metabolic States, Tri-State Router]
 aliases: []
 confidence: 5/5
 created: 2025-12-06T03:00:00Z
-epistemic: 
+epistemic:
 last-synthesis: 2025-12-07
 last_reviewed: 2025-12-07
-modified: 2025-12-10T12:00:00Z
-purpose: "To define the routing logic that classifies both Inputs (Ingress) and Outputs (Egress) into Kinetic (Action), Static (Storage), or Dynamic (Thinking) states."
-quality-markers: ["Addresses edge cases like Projects.", "Defines the three metabolic states.", "Provides clear routing logic table.", "Covers both Ingress (Inbox) and Egress (HEAD)."]
+modified: 2025-12-11T10:10:43Z
+purpose: To define the routing logic that classifies both Inputs (Ingress) and Outputs (Egress) into Kinetic (Action), Static (Storage), or Dynamic (Thinking) states.
+quality-markers: [Addresses edge cases like Projects., Covers both Ingress (Inbox) and Egress (HEAD)., Defines the three metabolic states., Provides clear routing logic table.]
 related-soTs: ["[[SoT - PRODOS - Problem-Solution Map]]", "[[SoT - PRODOS (System Architecture)]]"]
-review_interval: "6 months"
+review_interval: 6 months
 see_also: []
 source_of_truth: true
 status: stable
 supersedes: []
-tags: [gtd, prodos, sot, source/lib, system_design, workflow]
+tags: ["gtd", "prodos", "source/lib", "system_design", "workflow"]
 title: SoT - PRODOS - The Tri-State Router
 type: SoT
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## 1. Definitive Statement
@@ -28,12 +28,12 @@ updated:
 > The **Tri-State Router** is the core metabolic classification logic of PRODOS. It functions in two modes:
 > 1.  **Ingress Controller:** Classifies raw inputs (Inbox) during the "Clarify" phase.
 > 2.  **Build Pipeline:** Classifies the outputs of thinking (HEAD Notes) during the "Compile" phase.
->
+> 
 > In both cases, it assigns the item to one of three states: **Kinetic (Action)**, **Static (Storage)**, or **Dynamic (Thinking)**.
 
 ## 2. Context & Scope
 -   **Problem Solved:** Prevents "To-Do List Rot" (stagnant projects) and "Note Graveyards" (dead thoughts).
--   **Application:** 
+-   **Application:**
     -   *Ingress:* Applied to `00_Inbox` items.
     -   *Egress:* Applied to the "Exit Block" of `HEAD` notes.
 -   **System Boundaries:** Replaces binary "Actionable?" choices with trinary metabolic states.
@@ -92,7 +92,7 @@ When you finish a thinking session, you must "Route" the note to close the loop.
 
 ### Path C: Dynamic (Still Thinking)
 *Context:* "I am paused. I need to resume this later."
--   **Action:** 
+-   **Action:**
     1.  **Serialize State:** Write a "Save State" sentence ("Stopped at X, need to check Y").
     2.  **Pointer Task:** Create a task in Todoist ("Thinking: Resume [[HEAD - Timestamp]]").
 -   **Outcome:** **Keep Active.** The note remains in `20_Thinking`.

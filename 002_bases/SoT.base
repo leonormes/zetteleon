@@ -12,4 +12,4 @@ views:
       - property: file.ctime
         direction: ASC
     columnSize:
-      file.name: 488
+      file.name: 432

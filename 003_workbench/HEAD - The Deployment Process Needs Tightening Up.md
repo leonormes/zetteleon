@@ -1,23 +1,22 @@
 ---
 aliases: []
+AoL: Work
 confidence:
 created: 2025-12-08T11:13:41Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T13:38:58Z
+modified: 2025-12-10T20:00:14Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags:
-  - state/thinking
+tags: [state/thinking]
 title: HEAD - The Deployment Process Needs Tightening Up
 type: head
 uid:
 up: "[[00_Workbench]]"
 updated:
-AoL: Work
 ---
 
 > [!abstract] The Spark (Contextual Wrapper)

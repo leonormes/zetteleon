@@ -1,26 +1,17 @@
 ---
-aliases:
-  - Unified Writing Process
-  - Writing to Learn
-  - Writing to Think
+aliases: [Unified Writing Process, Writing to Learn, Writing to Think]
 confidence: 5/5
 created: 2025-12-07T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T11:11:31Z
+modified: 2025-12-10T19:59:41Z
 purpose: To define the standard protocol for using writing as a cognitive tool for thinking, discovery, and synthesis.
 review_interval:
 see_also: []
 source_of_truth: true
 status: stable
-supersedes:
-  - "[[The Complete Unified Writing to Think Process]]"
-  - "[[The Unified Writing to Think Process]]"
-tags:
-  - "#learning"
-  - "#pkm"
-  - "#thinking"
-  - "#writing"
+supersedes: ["[[The Complete Unified Writing to Think Process]]", "[[The Unified Writing to Think Process]]"]
+tags: ["learning", "pkm", "thinking", "writing"]
 title: SoT - The Unified Writing to Think Process
 type: SoT
 uid:

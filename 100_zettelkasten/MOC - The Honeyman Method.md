@@ -20,6 +20,10 @@ updated:
 
 ## MOC - The Honeyman Method
 
+> [!info] Canonical Source
+> This concept has been synthesized into the ProdOS system architecture.
+> See: **[[SoT - The Honeyman Method (Adaptive Routines)]]**
+
 Hayley Honeyman's "Honeyman Method" for ADHD routines presents [[The Honeyman Method uses three-tiered routines to adapt to energy variation]]. Instead of aiming for a single "perfect" schedule, Honeyman recommends creating ideal, average ("most likely"), and minimum routines that adapt to fluctuating energy and motivation levels—a strategy shown to be effective for neurodivergent people.
 
 ### Core Idea: Flexible Routine Tiers

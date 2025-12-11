@@ -1,26 +1,19 @@
 ---
-aliases:
-  - Atomic Actions Framework
-  - Next Actions MOC
+aliases: [Atomic Actions Framework, Next Actions MOC]
 confidence:
 created: 2025-11-10T15:23:00Z
 criteria: Atomic notes relating to the definition, properties, structure, and execution of atomic actions, including their application and benefits, especially for ADHD.
 epistemic:
 exclusions: Broad productivity philosophy; specific tool implementations beyond examples.
 last_reviewed:
-modified: 2025-11-10T13:33:51Z
+modified: 2025-12-10T20:00:09Z
 purpose:
 review_interval:
 scope: Comprehensive framework for defining, organizing, and executing atomic actions as the fundamental unit of productivity, with a focus on ADHD-friendly systems.
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - action
-  - adhd
-  - execution
-  - gtd
-  - productivity
+tags: [action, adhd, execution, gtd, productivity]
 title: MOC - Atomic Actions and Next Actions Framework
 type: map
 uid: 2025-11-10T15:23:00Z

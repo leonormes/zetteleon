@@ -4,26 +4,86 @@ filters:
     - type == "HEAD"
 views:
   - type: table
-    name: Table
+    name: Active Work HEADs
     filters:
       and:
-        - file.folder != "templates"
-        - file.folder != "99_Archive"
-        - status != "someday"
+        - AoL == "Work"
+        - status == "active"
     order:
       - file.name
       - status
       - type
       - AoL
     sort:
-      - property: status
-        direction: ASC
       - property: file.ctime
         direction: DESC
     columnSize:
       file.name: 580
-      note.status: 127
-  - type: cards
-    name: View
-    cardSize: 180
-    imageAspectRatio: 0.3
+      status: 127
+  - type: table
+    name: Processing Work HEADs
+    filters:
+      and:
+        - type == "head"
+        - status == "processing"
+        - AoL == "Work"
+    order:
+      - file.name
+      - status
+      - type
+      - AoL
+    sort:
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      file.name: 580
+      status: 127
+  - type: table
+    name: Processing Personal HEADs
+    filters:
+      and:
+        - type == "head"
+        - status == "processing"
+        - AoL == "Personal"
+    order:
+      - file.name
+      - status
+      - type
+      - AoL
+    sort:
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      file.name: 580
+      status: 127
+  - type: table
+    name: Active Personal HEADs
+    filters:
+      and:
+        - status == "active"
+        - AoL == "Personal"
+    order:
+      - file.name
+      - status
+      - type
+      - AoL
+    sort:
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      file.name: 580
+      status: 127
+  - type: table
+    name: All Open
+    filters:
+      or:
+        - status == "active"
+        - status == "processing"
+        - status == "planning"
+    order:
+      - file.name
+      - status
+      - AoL
+    sort:
+      - property: AoL
+        direction: ASC

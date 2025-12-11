@@ -2,20 +2,20 @@
 aliases: [Cumulative Thinking, Distributed Cognition, Embodied Cognition, The Extended Mind Thesis]
 confidence: 5/5
 created: 2025-12-07T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-08T11:11:32Z
-purpose: "To define the 'Extended Mind' as the foundational cognitive architecture for PRODOS."
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-11T10:10:43Z
+purpose: To define the 'Extended Mind' as the foundational cognitive architecture for PRODOS.
+review_interval:
 see_also: []
 source_of_truth: true
 status: stable
 supersedes: ["[[Key Insights from The Extended Mind]]", "[[The Extended Mind Thesis]]", "[[What Organizing Your Thoughts Really Means]]"]
-tags: [adhd, cognition, extended_mind, mental_models, pkm, sot]
+tags: [adhd, cognition, extended_mind, mental_models, pkm]
 title: SoT - The Extended Mind
 type: SoT
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## 1. Definitive Statement

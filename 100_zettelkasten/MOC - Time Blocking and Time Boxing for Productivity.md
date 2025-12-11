@@ -1,24 +1,19 @@
 ---
-aliases:
-  - Time Management MOC
+aliases: [Time Management MOC]
 confidence:
 created: 2025-11-10T14:19:00Z
 criteria: Atomic notes defining core time management techniques, major productivity systems, and strategies for implementation.
 epistemic:
 exclusions: Deep dives into specific software tutorials.
 last_reviewed:
-modified: 2025-11-10T13:28:09Z
+modified: 2025-12-10T20:00:09Z
 purpose:
 review_interval:
 scope: The theory and application of time blocking and time boxing for personal and family productivity.
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - family
-  - productivity
-  - systems
-  - time-management
+tags: [family, productivity, systems, time-management]
 title: MOC - Time Blocking and Time Boxing for Productivity
 type: map
 uid: 2025-11-10T14:19:00Z
@@ -26,6 +21,10 @@ updated: 2025-11-10T14:19:00Z
 ---
 
 ## MOC - Time Blocking and Time Boxing for Productivity
+
+> [!info] Canonical Source
+> This concept has been synthesized into the ProdOS system architecture.
+> See: **[[SoT - Temporal Management (Blocking and Boxing)]]**
 
 > **Inclusion criteria:** Atomic only; must be evergreen or growing.
 

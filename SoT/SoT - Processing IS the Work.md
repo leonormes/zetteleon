@@ -1,26 +1,17 @@
 ---
-aliases:
-  - Active Processing
-  - Good Enough Processing
-  - Processing IS the Work
+aliases: [Active Processing, Good Enough Processing, Processing IS the Work]
 confidence: 5/5
 created: 2025-12-07T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T11:11:32Z
+modified: 2025-12-10T19:59:41Z
 purpose: To reframe 'processing' from a passive administrative chore to an active, creative act of knowledge building.
 review_interval:
 see_also: []
 source_of_truth: true
 status: stable
-supersedes:
-  - "[[Key Principles & Mindset Shifts – Processing IS the Work]]"
-  - "[[Processing IS the Work, Not Prep for Work]]"
-tags:
-  - "#adhd"
-  - "#mindset"
-  - "#pkm"
-  - "#productivity"
+supersedes: ["[[Key Principles & Mindset Shifts – Processing IS the Work]]", "[[Processing IS the Work, Not Prep for Work]]"]
+tags: ["adhd", "mindset", "pkm", "productivity"]
 title: SoT - Processing IS the Work
 type: SoT
 uid:

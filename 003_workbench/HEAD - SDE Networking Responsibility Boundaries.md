@@ -1,26 +1,22 @@
 ---
 aliases: []
+AoL: Work
 confidence:
 created: 2025-12-05T21:02:41Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T13:02:05Z
+modified: 2025-12-10T20:00:14Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags:
-  - state/head
-  - topic/networking
-  - topic/sde
-  - type/design
+tags: [state/head, topic/networking, topic/sde, type/design]
 title: HEAD - SDE Networking Responsibility Boundaries
 type: head
 uid:
 up: "[[HEAD - SDE Architecture]]"
 updated:
-AoL: Work
 ---
 
 > [!abstract] The Spark

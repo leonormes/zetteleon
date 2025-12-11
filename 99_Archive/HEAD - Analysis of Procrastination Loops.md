@@ -1,21 +1,25 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-12-05T12:05:15Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-12-07T18:13:20Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags: [state/thinking, topic/adhd, topic/productivity]
+tags:
+  - state/thinking
+  - topic/adhd
+  - topic/productivity
 title: HEAD - Analysis of Procrastination Loops
 type: head
-uid: 
+uid:
 up: "[[SoT - PRODOS (System Architecture)]]"
-updated: 
+updated:
+AoL: Personal
 ---
 
 ## HEAD - Analysis of Procrastination Loops

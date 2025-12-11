@@ -1,25 +1,19 @@
 ---
-aliases:
-  - Learning vs Understanding MOC
+aliases: [Learning vs Understanding MOC]
 confidence:
 created: 2025-11-10T16:18:00Z
 criteria: Atomic notes defining learning vs. understanding, cognitive biases, learning strategies, and their neurological underpinnings.
 epistemic:
 exclusions: Specific tutorials on software or non-cognitive aspects of learning.
 last_reviewed:
-modified: 2025-11-10T14:08:42Z
+modified: 2025-12-10T20:00:09Z
 purpose:
 review_interval:
 scope: The distinction between superficial understanding and deep, durable learning, including the cognitive principles and evidence-based strategies for achieving mastery of complex subjects.
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - cognition
-  - learning
-  - memory
-  - study-habits
-  - understanding
+tags: [cognition, learning, memory, study-habits, understanding]
 title: MOC - Understanding vs Learning
 type: map
 uid: 2025-11-10T16:18:00Z

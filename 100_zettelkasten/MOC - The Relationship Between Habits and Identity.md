@@ -1,24 +1,19 @@
 ---
-aliases:
-  - Habits and Identity Map
+aliases: [Habits and Identity Map]
 confidence:
 created: 2025-11-10T12:12:00Z
 criteria: Atomic notes defining the layers of change, the role of identity, and the mechanisms by which habits shape identity.
 epistemic:
 exclusions: Specific habit-formation techniques (e.g., habit stacking) unless directly related to identity.
 last_reviewed:
-modified: 2025-11-10T10:00:47Z
+modified: 2025-12-10T20:00:09Z
 purpose:
 review_interval:
 scope: The relationship between habits and identity as the core driver of behavior change.
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - behavior-change
-  - habits
-  - identity
-  - psychology
+tags: [behavior-change, habits, identity, psychology]
 title: MOC - The Relationship Between Habits and Identity
 type: map
 uid: 2025-11-10T12:12:00Z

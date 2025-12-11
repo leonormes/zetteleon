@@ -1,12 +1,32 @@
-*Shared from Pieces (https://pieces.app) by Leon Ormes (leonormes@gmail.com) on Wednesday Dec 10, 2025 - 3:49 PM*
 ---
+aliases: []
+confidence: 
+created: 2025-12-10T15:49:31Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-10T19:59:45Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: []
+title: pieces_copilot_message_export_december_10_2025_3_49pm
+type: 
+uid: 
+updated: 
+---
+
+*Shared from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Wednesday Dec 10, 2025 - 3:49 PM*
+---
+
 From FITFILE’s side this looks broadly right for what they need CAB approval for, and it aligns with the design you’ve already agreed with them (hub‑spoke, forced egress via their firewall, App Gateway fronting our node).
 
 I would treat it as “good to go” with only a couple of clarifications/tweaks, not additional scope.
 
 ---
 
-### 1. Peering / Routing – minor clarification
+## 1. Peering / Routing – Minor Clarification
 
 He currently says:
 
@@ -27,7 +47,7 @@ No extra routing objects beyond that need to go into the email – our own UDRs 
 
 ---
 
-### 2. Firewall rule collection – already correct
+## 2. Firewall Rule Collection – Already Correct
 
 The bullets:
 
@@ -41,7 +61,7 @@ No change required here.
 
 ---
 
-### 3. Application Gateway / NSG – looks fine
+## 3. Application Gateway / NSG – Looks Fine
 
 What he’s proposing on App Gateway and NSG matches the agreed pattern:
 
@@ -64,7 +84,7 @@ DNS/Cloudflare itself can stay outside this CAB item if that’s handled through
 
 ---
 
-### 4. Test plan – minor extension (optional)
+## 4. Test Plan – Minor Extension (optional)
 
 His current test plan is:
 
@@ -80,7 +100,7 @@ But I wouldn’t hold up the change for that – it’s a documentation tweak on
 
 ---
 
-### 5. Nothing else *network‑wise* is missing
+## 5. Nothing Else *network‑wise* is Missing
 
 Other prerequisites we’ve discussed with them (service principal, jumpbox access, Conditional Access, etc.) are important but are **separate tasks** and don’t have to be bundled into this specific “network configuration” change. For CAB, the three things Jamie lists:
 

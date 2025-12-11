@@ -2,21 +2,21 @@
 aliases: [Hansei, Process Primacy, Systems vs Goals, The Water Metaphor, Three Layers of Goals]
 confidence: 5/5
 created: 2025-12-07T00:00:00Z
-epistemic: 
+epistemic:
 last-synthesis: 2025-12-07
-last_reviewed: 
-modified: 2025-12-08T11:11:32Z
-purpose: "To define the operational philosophy of prioritizing daily systems and processes over lagging outcomes."
-review_interval: 
+last_reviewed:
+modified: 2025-12-11T10:10:43Z
+purpose: To define the operational philosophy of prioritizing daily systems and processes over lagging outcomes.
+review_interval:
 see_also: []
 source_of_truth: true
 status: stable
 supersedes: ["[[Process Over Goals Actionable System]]", "[[Shifting Focus From Goals Outcomes to Systems Processes]]", "[[Systems Habits and Past Achievements]]"]
-tags: [adhd, goals, mental_models, process, productivity, sot, systems]
+tags: [adhd, goals, mental_models, process, productivity, systems]
 title: SoT - Process Primacy (Systems Over Goals)
 type: SoT
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## 1. Definitive Statement

@@ -4,7 +4,7 @@ confidence: 4/5
 created: 2025-12-08T00:00:00Z
 epistemic: 
 last_reviewed: 2025-12-08
-modified: 2025-12-08T11:11:23Z
+modified: 2025-12-11T10:10:43Z
 purpose: "To define the unified workflow for Task Management within ProdOS, specifically detailing the integration between Obsidian Tasks and Todoist via the Context Bridge."
 related-soTs: ["[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 
@@ -140,7 +140,21 @@ This pipeline converts "Cognitive Fog" into "Binary Action."
 
 ---
 
-## 5. Dashboards & Views (Obsidian)
+## 5. Temporal Integration
+
+GTD manages **Inventory** (What to do), but it does not manage **Capacity** (When to do it). To prevent "List Overwhelm," ProdOS integrates strict Temporal Management.
+
+-   **See Canonical Protocol:** **[[SoT - Temporal Management (Blocking and Boxing)]]**
+
+### The Integration Point
+-   **The Bridge:** When moving a task to Todoist, you must decide its temporal fate:
+    -   **P1 (Critical):** Must be **Time Blocked** on the Calendar immediately.
+    -   **P2 (Important):** Must have a defined **Time Box** (Duration) attached (e.g., `[25m]`).
+    -   **P3 (Routine):** Batched into a "Shallow Work" block.
+
+---
+
+## 6. Dashboards & Views (Obsidian)
 
 To support this workflow, the following Dataview dashboards are critical:
 
@@ -190,7 +204,7 @@ WHERE !completed AND created < (date(today) - dur(7 days))
 
 ```
 
-## 6. Acceptance Criteria (Definition of Done)
+## 7. Acceptance Criteria (Definition of Done)
 
 A task is properly processed only when:
 

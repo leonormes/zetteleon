@@ -33,7 +33,6 @@ This note is a "Thinking Trails" index. It maps common questions and concepts to
 
 - How can we reduce cloud costs for non-production environments? → [[SoT - Automated Cloud Resource Hibernation]]
 - How do I use velero to manage backups in multiple cloud provider K8s?
-- How do I start a Velero project (AWS/Azure) balancing pragmatism and learning? → [[SoT - Pragmatic Velero Project (AWS & Azure)]]
 
 ---
 
@@ -89,4 +88,3 @@ This note is a "Thinking Trails" index. It maps common questions and concepts to
 - **All MOCs**: Search for files containing "MOC" in your Zettelkasten
 - **Daily Themes**: [[Index of Captured Thoughts and Themes]]
 - **Comprehensive Overview**: [[Index of Captured Thoughts and Themes]]
-- **Legacy Index**: [[Main Index]] *(being phased out)*

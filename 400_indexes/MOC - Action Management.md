@@ -1,26 +1,17 @@
 ---
-aliases:
-  - Action MOC
-  - Doing MOC
-  - Execution Map
+aliases: [Action MOC, Doing MOC, Execution Map]
 confidence: 4/5
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed: 2025-12-08
-modified: 2025-12-08T11:11:32Z
+modified: 2025-12-10T19:59:42Z
 purpose: The central hub for all notes related to Action Management, Execution, and Task Initiation within ProdOS.
-related-soTs:
-  - "[[SoT - PRODOS - Action Management (GTD)]]"
+related-soTs: ["[[SoT - PRODOS - Action Management (GTD)]]"]
 review_interval:
 see_also: []
 source_of_truth: false
 status: stable
-tags:
-  - action
-  - adhd
-  - execution
-  - gtd
-  - prodos
+tags: [action, adhd, execution, gtd, prodos]
 title: MOC - Action Management
 type: map
 uid:
@@ -68,7 +59,6 @@ Understanding *why* action is hard is critical to solving it.
 
 Techniques to lower activation energy and start moving.
 
-- **[[The Starter Task Overcomes Activation Energy for ADHD]]**: The concept of the "stupidly small" first step.
 - **[[Action Triggers Bridge the Gap Between Motion and Action]]**: Setting up the environment to force action.
 - **[[Micro-Stepping Reduces Cognitive Load for Task Initiation]]**: Breaking a task down until it feels "too easy to fail."
 - **[[Implementation Intentions Automate Action Initiation with If-Then Plans]]**: Pre-deciding when and where to act.

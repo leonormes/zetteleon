@@ -7,21 +7,21 @@ decay-signals: []
 epistemic: theory
 last-synthesis: 2025-12-07
 last_reviewed: 2025-12-07
-modified: 2025-12-08T11:11:31Z
-purpose: "To define the canonical framework for habit formation and modification based on James Clear's Atomic Habits."
-quality-markers: ["Includes both creation and breaking rules.", "Maps Laws to the Habit Loop.", "Provides actionable strategies (Implementation Intentions, Habit Stacking)."]
+modified: 2025-12-11T10:10:43Z
+purpose: To define the canonical framework for habit formation and modification based on James Clear's Atomic Habits.
+quality-markers: [Habit Stacking)., Includes both creation and breaking rules., Maps Laws to the Habit Loop., Provides actionable strategies (Implementation Intentions]
 related-soTs: []
 resonance-score: 10
-review_interval: "6 months"
+review_interval: 6 months
 see_also: ["[[Behavior Change Occurs on Three Layers Outcomes Process and Identity]]", "[[Habits are Automatic Behaviors Triggered by Environmental Cues]]", "[[Implementation Intentions Automate Action Initiation with If-Then Plans]]", "[[Making a behavior easy increases the likelihood it will become a habit]]"]
 source_of_truth: true
 status: stable
 supersedes: []
-tags: [atomic_habits, behavior_change, habits, methodology, psychology, SoT]
+tags: [atomic_habits, behavior_change, habits, methodology, psychology]
 title: SoT - The Four Laws of Behavior Change
 type: SoT
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 ## 1. Definitive Statement

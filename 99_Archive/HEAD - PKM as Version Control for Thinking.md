@@ -10,11 +10,15 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags: [pkm, system_design, thinking]
+tags:
+  - pkm
+  - system_design
+  - thinking
 title: HEAD - PKM as Version Control for Thinking
 type: head
 uid:
 updated:
+AoL: Personal
 ---
 
 ## The Spark

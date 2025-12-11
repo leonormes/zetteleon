@@ -4,18 +4,13 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-09T10:16:52Z
+modified: 2025-12-10T20:00:14Z
 purpose: To design a strategy for cleaning up old Docker images in ACR based on semantic versioning or usage, not just time.
 review_interval:
 see_also: []
 source_of_truth: []
 status: someday
-tags:
-  - acr
-  - cleanup
-  - devops
-  - head
-  - thinking
+tags: [acr, cleanup, devops, head, thinking]
 title: HEAD - ACR Image Retention Strategy
 type: head
 uid:

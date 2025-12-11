@@ -1,25 +1,17 @@
 ---
-aliases:
-  - Action-Oriented Thinking
-  - Bergson's Principle
-  - MVA
+aliases: [Action-Oriented Thinking, Bergson's Principle, MVA]
 confidence: 5/5
 created: 2025-12-07T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T11:11:32Z
+modified: 2025-12-10T19:59:41Z
 purpose: To define the operational philosophy of balancing analysis with execution.
 review_interval:
 see_also: []
 source_of_truth: true
 status: stable
-supersedes:
-  - "[[Think Like a Man of Action]]"
-tags:
-  - "#action"
-  - "#adhd"
-  - "#productivity"
-  - "#thinking"
+supersedes: ["[[Think Like a Man of Action]]"]
+tags: ["action", "adhd", "productivity", "thinking"]
 title: SoT - Think Like a Man of Action, Act Like a Man of Thought
 type: SoT
 uid:

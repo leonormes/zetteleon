@@ -1,29 +1,19 @@
 ---
-aliases:
-  - EF Deficits
-  - Executive Dysfunction
+aliases: [EF Deficits, Executive Dysfunction]
 confidence: 5/5
 created: 2025-12-06T18:00:00Z
 epistemic:
 last-synthesis: 2025-12-06
 last_reviewed:
-modified: 2025-12-07T18:13:20Z
+modified: 2025-12-10T19:59:41Z
 purpose: To provide a canonical, synthesized understanding of Executive Dysfunction in the context of ADHD, its core components, and its downstream impacts.
-quality-markers:
-  - Distinguishes deficits from moral failings.
-  - Links to ProdOS as a solution.
-  - Synthesizes multiple notes on EF.
-related-soTs:
-  - "[[SoT - PRODOS - Problem-Solution Map]]"
+quality-markers: [Distinguishes deficits from moral failings., Links to ProdOS as a solution., Synthesizes multiple notes on EF.]
+related-soTs: ["[[SoT - PRODOS - Problem-Solution Map]]"]
 review_interval:
 see_also: []
 source_of_truth: true
 status: stable
-tags:
-  - adhd
-  - executive-function
-  - neuroscience
-  - psychology
+tags: [adhd, executive-function, neuroscience, psychology]
 title: SoT - ADHD Executive Dysfunction
 type: SoT
 uid:

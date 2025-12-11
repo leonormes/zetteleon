@@ -35,8 +35,6 @@ version:
 
 [[Timeboxing vs. Time Blocking]]
 
-[[Timeboxing for ADHD Management]]
-
 [[Managing Hyperfocus in ADHD with Timeboxing]]
 
 [[Distraction Management in Timeboxing (Catch-All List)]]

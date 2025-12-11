@@ -1,24 +1,19 @@
 ---
-aliases:
-  - Music Expression vs Product Map
+aliases: [Music Expression vs Product Map]
 confidence:
 created: 2025-11-10T11:11:00Z
 criteria: Atomic notes defining the origins, characteristics, and social functions of expressive vs. commercial music.
 epistemic:
 exclusions: Value judgments on specific genres; technical music theory.
 last_reviewed:
-modified: 2025-11-10T08:55:35Z
+modified: 2025-12-10T20:00:09Z
 purpose:
 review_interval:
 scope: The distinction between music created as authentic expression versus music designed as a commercial product.
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - art
-  - authenticity
-  - commerce
-  - music
+tags: [art, authenticity, commerce, music]
 title: MOC - Music as Expression vs Product
 type: map
 uid: 2025-11-10T11:11:00Z

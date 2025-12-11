@@ -6,7 +6,7 @@ created: 2025-12-08T00:00:00Z
 description: Created with Gemini
 epistemic:
 last_reviewed:
-modified: 2025-12-09T11:54:05Z
+modified: 2025-12-11T09:44:50Z
 published:
 purpose:
 review_interval:
@@ -237,11 +237,3 @@ The email establishes a communication and accountability framework for the SDE i
 	- **Ollie and Leon:** Require external user accounts to be created to access the Jumpbox for application deployment.
 
 ---
-
-**Next step:** Would you like to focus on any of the specific technical requirements, such as the **Hub-Spoke Connectivity** model?
-
-Google Account
-
-Leon Ormes
-
-leonormes@gmail.com

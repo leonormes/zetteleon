@@ -1,26 +1,19 @@
 ---
-aliases:
-  - Action MOC
-  - Knowing-Doing Gap MOC
+aliases: [Action MOC, Knowing-Doing Gap MOC]
 confidence:
 created: 2025-11-10T17:14:00Z
 criteria: Atomic notes defining the core problem (intention-action gap), its psychological and neurological causes, relevant philosophical concepts, and evidence-based solutions.
 epistemic:
 exclusions: Specific self-help plans without reference to underlying principles.
 last_reviewed:
-modified: 2025-11-10T15:41:37Z
+modified: 2025-12-10T20:00:09Z
 purpose:
 review_interval:
 scope: The science and philosophy of taking action, focusing on the gap between knowledge and behavior and the strategies to bridge it.
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - action
-  - behavior-change
-  - philosophy
-  - productivity
-  - psychology
+tags: [action, behavior-change, philosophy, productivity, psychology]
 title: MOC - The Science and Philosophy of Taking Action
 type: map
 uid: 2025-11-10T17:14:00Z
