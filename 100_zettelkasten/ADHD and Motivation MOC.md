@@ -41,7 +41,7 @@ This Map of Content (MOC) organizes notes related to the unique motivational sys
 
 ## Interest-Based Cognition
 
-- [[The ADHD Brain Operates as an Interest-Based Nervous System]] rel:: foundation
+- [[ADHD Brain Operates on an Interest-Based Nervous System]] rel:: foundation
 - [[Novelty Seeking in ADHD Provides Dopamine Regulation]] rel:: explains
 - [[Shiny Object Syndrome Reflects ADHD Novelty Seeking]] rel:: demonstrates
 
@@ -74,6 +74,7 @@ This Map of Content (MOC) organizes notes related to the unique motivational sys
 
 ## ProdOS Solutions (Engineered Motivation)
 
+- [[Logic Does Not Produce Dopamine]] - The core principle explaining why structure alone fails.
 - [[SoT - PRODOS (System Architecture)#The Ignition Protocol (Stimulus Injection)|The Ignition Protocol]] - Detailed methods (Mystery, Urgency, Spite) to manufacture dopamine for boring tasks.
 
 ### Extended Connections

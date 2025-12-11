@@ -6,7 +6,7 @@ criteria: Atomic notes relating to the definition, properties, structure, and ex
 epistemic:
 exclusions: Broad productivity philosophy; specific tool implementations beyond examples.
 last_reviewed:
-modified: 2025-12-10T20:00:09Z
+modified: 2025-12-11T13:32:14Z
 purpose:
 review_interval:
 scope: Comprehensive framework for defining, organizing, and executing atomic actions as the fundamental unit of productivity, with a focus on ADHD-friendly systems.
@@ -58,8 +58,6 @@ An action can be formally modeled as a function: [[An Action Can Be Formally Mod
 [[Projects Can Have Multiple Parallel Action Sequences|Projects can have multiple parallel action sequences]]. Action sequences can be modeled as [[Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured|Directed Acyclic Graphs (DAGs)]].
 
 ### The Momentum Method: Overcoming Activation Energy
-
-[[The Starter Task Overcomes Activation Energy for ADHD]] rel:: solves-initiation-problem addresses the greatest friction point for ADHD brains: task initiation.
 
 The Momentum Method uses starter tasks, which follow [[The Three Rules of Starter Tasks]]. [[Starter Tasks Lower Activation Energy and Build Momentum|Starter tasks work by lowering activation energy, building momentum, and creating progress]]. Specifically, [[Starter Tasks Address ADHD Challenges|they address ADHD challenges like executive dysfunction, paralysis, and dopamine deficit]].
 

@@ -174,7 +174,7 @@ To qualify as a "Next Test," an action must meet three criteria:
 
 ### The Ignition Protocol (Stimulus Injection)
 
-Logic does not produce dopamine. To generate the energy for execution, you must convert "Work" (Boring Command) into "Inquiry" (Interesting Question). Use these 3 Energy Hacks to "Refactor" boring tasks:
+[[Logic Does Not Produce Dopamine|Logic does not produce dopamine]]. To generate the energy for execution, you must convert "Work" (Boring Command) into "Inquiry" (Interesting Question). Use these 3 Energy Hacks to "Refactor" boring tasks:
 
 1.  **The "Mystery" Hack (Hypothesis):** Refactor a chore into a bet.
     -   *Boring:* "Update CSS."

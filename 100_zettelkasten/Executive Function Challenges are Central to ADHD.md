@@ -53,7 +53,6 @@ Executive function deficits contribute to:
 
 Understanding these deficits leads to effective strategies:
 
-- [[A Digital System Can Externalise and Organise Thoughts]] - Offloading EF demands to external systems
 - [[Body Doubling is an Effective ADHD Strategy]] - Social support for initiation and sustained attention
 - [[Strategies for ADHD Brains in a Neurotypical World]] - Comprehensive approaches
 
