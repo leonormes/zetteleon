@@ -9,7 +9,8 @@ purpose:
 review_interval:
 see_also: []
 source_of_truth: []
-status: processing
+status: archived
+superseded-by: "[[SoT - PRODOS - System Failure Modes]]"
 tags:
   - state/head
   - topic/adhd
@@ -21,6 +22,9 @@ uid:
 updated:
 AoL: Personal
 ---
+
+> [!info] Status: Archived
+> The core insights of this note regarding the mismatch between Zettelkasten's purpose and ADHD needs have been integrated into [[SoT - PRODOS - System Failure Modes]].
 
 It contains lots of compelling ideas that I really want in order to overcome my ADHD traits but it's purpose was wrong for me. I didn't see the overall goal and the features separately.
 

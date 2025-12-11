@@ -9,7 +9,8 @@ purpose:
 review_interval:
 see_also: []
 source_of_truth: []
-status: processing
+status: archived
+superseded-by: "[[SoT - PRODOS (System Architecture)]]"
 tags:
   - pkm
   - system_design
@@ -20,6 +21,9 @@ uid:
 updated:
 AoL: Personal
 ---
+
+> [!info] Status: Archived
+> The core insight of this note (The "Git Analogy" for thought and the distinction between HEAD and SoT) has been successfully integrated into [[SoT - PRODOS (System Architecture)]].
 
 ## The Spark
 

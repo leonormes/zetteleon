@@ -9,7 +9,8 @@ purpose:
 review_interval:
 see_also: []
 source_of_truth: []
-status: processing
+status: archived
+superseded-by: "[[SoT - PRODOS - System Failure Modes]]"
 tags:
   - state/thinking
   - topic/adhd
@@ -21,6 +22,9 @@ up: "[[SoT - PRODOS (System Architecture)]]"
 updated:
 AoL: Personal
 ---
+
+> [!info] Status: Archived
+> The core insights of this note regarding the "Graze vs. Process Gap" and "Activation Energy" have been integrated into [[SoT - PRODOS - System Failure Modes]].
 
 ## HEAD - Analysis of Procrastination Loops
 

@@ -1,17 +1,23 @@
 ---
-aliases: [Inequality MOC, Social Stratification Index]
+aliases:
+  - Inequality MOC
+  - Social Stratification Index
 confidence: 5/5
 created: 2025-12-10T12:00:00Z
 epistemic:
 last_reviewed:
 modified: 2025-12-11T10:10:44Z
 purpose: To serve as the central hub for understanding social stratification, inequality, and hierarchy.
-related-soTs: ["[[SoT - Social Stratification]]"]
+related-soTs:
+  - "[[SoT - Social Stratification]]"
 review_interval: 1 year
 see_also: []
 source_of_truth: []
 status: stable
-tags: [inequality, moc, sociology, structure]
+tags:
+  - inequality
+  - sociology
+  - structure
 title: MOC - Social Stratification
 type: map
 uid:

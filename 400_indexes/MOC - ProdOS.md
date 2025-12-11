@@ -1,5 +1,7 @@
 ---
-aliases: [ProdOS Index, Productivity Operating System]
+aliases:
+  - ProdOS Index
+  - Productivity Operating System
 confidence: 5/5
 created: 2025-12-04T14:38:32Z
 epistemic:
@@ -11,7 +13,8 @@ see_also: []
 source_of_truth:
   - - - SoT - PRODOS (System Architecture)
 status: stable
-tags: [index, prodos]
+tags:
+  - prodos
 title: MOC - ProdOS
 type: map
 uid:
