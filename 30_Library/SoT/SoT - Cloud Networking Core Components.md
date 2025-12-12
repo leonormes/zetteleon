@@ -1,27 +1,17 @@
 ---
-aliases:
-  - Cloud Internet Connectivity
-  - Cloud Networking SoT
-  - Internet Gateway vs NAT Gateway
+aliases: [Cloud Internet Connectivity, Cloud Networking SoT, Internet Gateway vs NAT Gateway]
 confidence: 
-created: 2025-12-12
+created: 2025-12-12T00:00:00Z
 epistemic: 
 last-synthesis: 2025-12-12
 last_reviewed: 
-modified: 
+modified: 2025-12-12T18:31:59Z
 purpose: To define the essential networking components and architectural patterns required to establish connectivity between private cloud networks (VPC/VNet) and the public internet.
 review_interval: 6 months
-see_also:
-  - "[[MOC - Cloud Networking Devices Data Flow]]"
-  - "[[Cloud Networking MOC]]"
+see_also: ["[[Cloud Networking MOC]]", "[[MOC - Cloud Networking Devices Data Flow]]"]
 source_of_truth: true
 status: stable
-tags:
-  - aws
-  - azure
-  - cloud
-  - networking
-  - infrastructure
+tags: [aws, azure, cloud, infrastructure, networking]
 title: SoT - Cloud Networking Core Components
 type: SoT
 uid: 

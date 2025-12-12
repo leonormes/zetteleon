@@ -1,30 +1,17 @@
 ---
-aliases:
-  - Logotherapy SoT
-  - Viktor Frankl SoT
-  - The Will to Meaning
-  - Tragic Optimism
-  - Meaning in Suffering
+aliases: [Logotherapy SoT, Meaning in Suffering, The Will to Meaning, Tragic Optimism, Viktor Frankl SoT]
 confidence: 
-created: 2025-12-12
+created: 2025-12-12T00:00:00Z
 epistemic: 
 last-synthesis: 2025-12-12
 last_reviewed: 
-modified: 
+modified: 2025-12-12T18:31:54Z
 purpose: To serve as the definitive Source of Truth for Viktor Frankl's Logotherapy, defining the pursuit of meaning as the primary human drive and offering actionable protocols for resilience.
 review_interval: 12 months
-see_also:
-  - "[[SoT - Identity-Based Habit Formation]]"
-  - "[[SoT - Process Primacy (Systems Over Goals)]]"
-  - "[[Existentialism - Existence Precedes Essence]]"
+see_also: ["[[Existentialism - Existence Precedes Essence]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - Process Primacy (Systems Over Goals)]]"]
 source_of_truth: true
 status: stable
-tags:
-  - philosophy
-  - psychology
-  - resilience
-  - meaning
-  - mental_models
+tags: [meaning, mental_models, philosophy, psychology, resilience]
 title: SoT - Logotherapy and the Will to Meaning
 type: SoT
 uid: 
@@ -43,15 +30,20 @@ updated:
 ## 2. Core Philosophy: The Three Pillars
 
 ### A. Freedom of Will (Agency)
+
 Humans are not fully determined by their biological or environmental conditions.
+
 -   **The Last of the Human Freedoms:** Everything can be taken from a man but one thing: the freedom to choose one's **attitude** in any given set of circumstances.
 -   **The Gap:** Between Stimulus and Response, there is a space. In that space lies our freedom and our power.
 
 ### B. The Will to Meaning (Motivation)
+
 The drive to find meaning is not a "secondary rationalization" of instinctual drives, but the primary motivation of life.
+
 -   **The Existential Vacuum:** When this will is frustrated, it manifests as boredom, apathy, and emptiness (a common modern neurosis).
 
 ### C. Meaning in Life (Objective Reality)
+
 Meaning is not "invented" (subjective projection) but "detected" (objective discovery) in the world. It changes from moment to moment but never ceases to be.
 
 ---
