@@ -1,43 +1,132 @@
 ---
-aliases: []
-confidence: 
-created: 2025-12-12T15:49:32Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-12T16:07:53Z
-purpose: 
-review_interval: 
+aliases: [Identity vs Outcome, Identity-Based Habits, The Power of Identity]
+confidence: 5/5
+created: 2025-12-07T00:00:00Z
+epistemic:
+last-synthesis: 2025-12-12
+last_reviewed:
+modified: 2025-12-10T19:59:41Z
+purpose: To define the role of Identity as the primary engine for sustained behavioral change.
+review_interval:
 see_also: []
-source_of_truth: []
-status: 
-tags: [books]
-title: Thinking in Bets
-type: 
-uid: 
-updated: 
+source_of_truth: true
+status: stable
+supersedes: ["[[Powerful Identity]]"]
+tags: [behavioral_science, habits, identity, psychology]
+title: SoT - Identity-Based Habit Formation
+type: SoT
+uid:
+updated:
 ---
 
-## Thinking in Bets
+## 1. Definitive Statement
 
-![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/41oQkVLDeUL._SL200_.jpg)
+> [!definition] Definition
+> **Identity-Based Habit Formation** is the principle that long-term behavioral change is sustained not by focusing on outcomes ("I want to lose weight") but by shifting self-image ("I am a healthy person").
+>
+> Habits are not just tools for results; they are the **evidence** that reinforces a new identity. Identity serves as the **North Star** of habit change, guiding the entire process.
 
-### Metadata
-- Author: [[Annie Duke]]
-- Full Title: Thinking in Bets
-- Category: #books
+---
 
-### Highlights
-- Incorrectly interpreting rustling from the wind as an oncoming lion is called a type I error, a false positive. The consequences of such an error were much less grave than those of a type II error, a false negative. A false negative could have been fatal: hearing rustling and always assuming it’s the wind would have gotten our ancestors eaten, and we wouldn’t be here. ([Location 227](https://readwise.io/to_kindle?action=open&asin=B074DG9LQF&location=227))
-- When we work backward from results to figure out why those things happened, we are susceptible to a variety of cognitive traps, like assuming causation when there is only a correlation, or cherry-picking data to confirm the narrative we prefer. ([Location 231](https://readwise.io/to_kindle?action=open&asin=B074DG9LQF&location=231))
-- The differences between the systems are more than just labels. Automatic processing originates in the evolutionarily older parts of the brain, including the cerebellum, basal ganglia, and amygdala. Our deliberative mind operates out of the prefrontal cortex. ([Location 243](https://readwise.io/to_kindle?action=open&asin=B074DG9LQF&location=243))
-- Both deliberative and reflexive mind are necessary for our survival and advancement. ([Location 254](https://readwise.io/to_kindle?action=open&asin=B074DG9LQF&location=254))
-- The Boston Public Library’s list of the “100 Most Influential Books of the Century” includes Theory of Games. ([Location 320](https://readwise.io/to_kindle?action=open&asin=B074DG9LQF&location=320))
-- William Poundstone, author of a widely read book on game theory, Prisoner’s Dilemma, called ([Location 321](https://readwise.io/to_kindle?action=open&asin=B074DG9LQF&location=321))
-- Poker, in contrast, is a game of incomplete information. It is a game of decision-making under conditions of uncertainty over time. (Not coincidentally, that is close to the definition of game theory.) ([Location 353](https://readwise.io/to_kindle?action=open&asin=B074DG9LQF&location=353))
-- Von Neumann and Morgenstern understood that the world doesn’t easily reveal the objective truth. That’s why they based game theory on poker. Making better decisions starts with understanding this: uncertainty can work a lot of mischief. ([Location 378](https://readwise.io/to_kindle?action=open&asin=B074DG9LQF&location=378))
-- Just as we have problems with resulting and hindsight bias, when we evaluate decisions solely on how they turn out, we have a mirror-image problem in making prospective decisions. We get only one try at any given decision—one flip of the coin—and that puts great pressure on us to feel we have to be certain before acting, a certainty that necessarily will overlook the influences of hidden information and luck. ([Location 417](https://readwise.io/to_kindle?action=open&asin=B074DG9LQF&location=417))
-    - Tags: [[decision]]
-- “The Pursuit of Ignorance.”) ([Location 431](https://readwise.io/to_kindle?action=open&asin=B074DG9LQF&location=431))
-- What makes a decision great is not that it has a great outcome. A great decision is the result of a good process, and that process must include an attempt to accurately represent our own state of knowledge. That state of knowledge, in turn, is some variation of “I’m not sure.” ([Location 434](https://readwise.io/to_kindle?action=open&asin=B074DG9LQF&location=434))
-- What good poker players and good decision-makers have in common is their comfort with the world being an uncertain and unpredictable place. They understand that they can almost never know exactly how something will turn out. They embrace that uncertainty and, instead of focusing on being sure, they try to figure out how unsure they are, making their best guess at the chances that different outcomes will occur. The accuracy of those guesses will depend on how much information they have and how experienced they are at making such guesses. This is part of the basis of all bets. ([Location 443](https://readwise.io/to_kindle?action=open&asin=B074DG9LQF&location=443))
-- Second, being wrong hurts us more than being right feels good. We know from Daniel Kahneman and Amos Tversky’s work on loss aversion, part of prospect theory (which won Kahneman the Nobel Prize in Economics in 2002), that losses in general feel about two times as bad as wins feel good. So winning $100 at blackjack feels as good to us as losing $50 feels bad to us. Because being right feels like winning and being wrong feels like losing, that means we need two favorable results for every one unfavorable result just to break even emotionally. Why not live a smoother existence, without the swings, especially when the losses affect us more intensely than the wins? ([Location 557](https://readwise.io/to_kindle?action=open&asin=B074DG9LQF&location=557))
+## 2. The Three Layers of Behavior Change (The Onion Model)
+
+Change happens at three levels, often visualized as layers of an onion, ordered from surface to core:
+
+1.  **Outcomes (Surface):** Changing results (e.g., losing 10kg, publishing a book). About what you **get**.
+2.  **Process (System):** Changing habits and systems (e.g., gym routine, writing schedule). About what you **do**.
+3.  **Identity (Core):** Changing beliefs, worldview, and self-image (e.g., "I am a runner"). About what you **believe**.
+
+**The Failure Mode:** Most people focus on Outcome-Based Habits (working from the outside in).
+**The Correction:** Sustained change requires **Identity-Based Habits** (working from the inside out).
+
+---
+
+## 3. The Mechanism: Repeated Beingness
+
+The word *identity* derives from the Latin *essentitas* (being) and *identidem* (repeatedly). Identity is literally **"Repeated Beingness."** It is not fixed at birth; it is malleable and emerges from your actions.
+
+-   **The Vote:** Every action you take is a vote for the type of person you wish to become.
+-   **The Accumulation:** No single instance transforms you, but as votes accumulate, the evidence shifts your self-image.
+-   **The Feedback Loop:**
+    `Habits → Evidence → Beliefs → Identity → (reinforces) Habits`
+
+> "The ultimate form of intrinsic motivation occurs when a habit becomes part of your identity. It’s one thing to say I’m the type of person who wants this. It’s something very different to say I’m the type of person who is this." — James Clear
+
+---
+
+## 4. The Two-Step Process
+
+1.  **Decide the type of person you want to be.**
+    -   Ask: "Who is the type of person that could get the outcome I want?"
+2.  **Prove it to yourself with small wins.**
+    -   Every small action acts as proof. "What would a healthy person do?"
+
+---
+
+## 5. Dismantling Negative Beliefs (The ADHD Protocol)
+
+For neurodivergent minds, deep-seated identity beliefs ("I am lazy," "I am a procrastinator") create a "Repeated Beingness" of failure. To dismantle these:
+
+### A. The Origin of Doubt
+Often, these beliefs are not yours. A bad teacher or parent may have installed a doubt ("You cannot") that continues to sting years later. The "discursive meanderings of your inner voice" may insist on failure despite evidence to the contrary.
+-   **The Fix:** Recognize the voice as an external script, not an internal truth.
+
+### B. Identify and Edit
+Recognize the blanket statement ("I'm always late") and deliberately choose a new identity ("I am the person who shows up").
+*   **Reframing:** Change "I *have* to work" (Burden) to "I *get* to build skills" (Opportunity).
+
+### C. The Minimum Viable Habit (MVH)
+To cast a vote for a new identity without triggering ADHD paralysis, use the **Two-Minute Rule**. The goal is to master *showing up*, not the result.
+*   *Identity Goal:* "I am a writer." -> *MVH:* "Open my notes." (Not "Write for 2 hours").
+*   *Identity Goal:* "I am tidy." -> *MVH:* "Put one item away."
+*   *Principle:* A habit must be established before it can be improved. Standardize, then optimize.
+
+### D. Friction Engineering
+*   **Make it Easy (Good Identity):** Prime the environment (e.g., leave the laptop open).
+*   **Make it Hard (Bad Identity):** Increase friction (e.g., phone in another room).
+
+---
+
+## 6. Managing Resistance & Setbacks
+
+The "Childish Mind" will rebel against discomfort. Use these protocols to stay on the path:
+
+### A. The "Never Miss Twice" Rule
+The first mistake is an accident; the second is the start of a new identity.
+*   **Protocol:** If you miss a day, your *only* job the next day is to perform the MVH. Return to the identity immediately.
+
+### B. The "Quit on the Third Time" Technique
+When the urge to quit arises during a task:
+1.  **First Urge:** Pause, notice it, continue.
+2.  **Second Urge:** Pause, notice it, continue.
+3.  **Third Urge:** Permission granted to stop.
+*   *Why:* This builds "Distress Tolerance" without forcing a shame spiral.
+
+---
+
+## 7. Identity as a Barrier (The Conflict)
+
+While identity drives good habits, **Old Identity Sabotage** prevents growth.
+
+-   **Cognitive Slumber:** Accepting self-limiting norms ("I'm bad at names," "I'm disorganized") creates internal pressure to remain consistent with that image.
+-   **Brittleness:** Tying identity to a role ("I am the CEO") makes one fragile. Identity should be tied to adaptable traits ("I am the type of person who solves problems").
+-   **The Fix:** You must continuously **edit your beliefs** and upgrade your identity to match your growth.
+
+---
+
+## 8. Analogy
+
+> Thinking about identity when building habits is like choosing the **blueprint** for a house before laying the foundation.
+>
+> -   **Identity-Focus:** Starts with a strong blueprint ("I am a healthy person"). Every brick (habit) reinforces the structure.
+> -   **Outcome-Focus:** Lays bricks randomly hoping they eventually look like a mansion. The structure is weak and crumbles under stress.
+
+---
+
+## 9. Related Components
+- [[SoT - PRODOS - Action Management (GTD)]]
+- [[SoT - PRODOS (System Architecture)]]
+- [[SoT - Atomic Habits]]
+- [[MOC - The Relationship Between Habits and Identity]]
+- [[Three Layers of Behavior Change Model]]
+- [[Habits Are the Channel for Developing Beliefs About Self]]
