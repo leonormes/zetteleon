@@ -1,13 +1,32 @@
-# Pilates for Runners
+---
+aliases: []
+confidence: 
+created: 2025-12-12T15:49:32Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-12T16:07:52Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [books]
+title: Pilates for Runners
+type: 
+uid: 
+updated: 
+---
+
+## Pilates for Runners
 
 ![rw-book-cover](https://m.media-amazon.com/images/I/81NSlu2jVlL._SY160.jpg)
 
-## Metadata
+### Metadata
 - Author: [[Harri Angell]]
 - Full Title: Pilates for Runners
 - Category: #books
 
-## Highlights
+### Highlights
 - Running is a repetitive activity. This means that every time you run you will be overusing some of your muscles, while others will be underused. Unfortunately, this overuse can cause muscular imbalances, which could turn into injury. ([Location 68](https://readwise.io/to_kindle?action=open&asin=B01N43SQER&location=68))
 - So you need to make those vulnerable areas stronger and better able to deal with the stress of running. ([Location 72](https://readwise.io/to_kindle?action=open&asin=B01N43SQER&location=72))
 - At the side of your waist are your internal and external oblique muscles, and then on top of the deep TVA sits the more superficial rectus abdominis muscle, the potential ‘six pack’. But it’s the deep TVA that we are most interested in engaging and focusing on when performing Pilates exercises. ([Location 89](https://readwise.io/to_kindle?action=open&asin=B01N43SQER&location=89))

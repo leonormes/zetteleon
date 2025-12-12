@@ -10,12 +10,18 @@ purpose: To process and track the mandatory annual FITFILE Data Security Awarene
 review_interval:
 see_also: []
 source_of_truth: []
-status: active
-tags: [compliance, head, prodos, security, training]
+status: waiting
+tags:
+  - compliance
+  - head
+  - prodos
+  - security
+  - training
 title: HEAD - FITFILE Annual Data Security Training
 type: head
 uid:
 updated:
+uuid: 7db60f50-873c-4694-8d7a-4a04120c9fe1
 ---
 
 ## The Spark
@@ -23,6 +29,8 @@ updated:
 > [!abstract] The Spark (Contextual Wrapper)
 Received an email outlining the mandatory annual FITFILE Data Security Awareness training, with a deadline of EOB 19 Dec 2025.
 
+- [ ] FITFILE Data Security Awareness training ^2025-12-12T16-17-49
+    - [📱 View in Todoist app](todoist://task?id=6fVVX55M8XRCHcHv) (Created: 📝 2025-12-12T16:18)
 ## My Current Model
 -   Mandatory training required by 19 Dec 2025.
 -   Instructions provided two distinct paths:

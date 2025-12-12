@@ -64,3 +64,34 @@ Since the *internal* self-management system is impaired, the most effective solu
 PRODOS is designed to function as an "externalized brain" or cognitive prosthesis. It provides the essential executive scaffolding needed to compensate for the internal deficits. By offloading the cognitive load of planning, prioritizing, and remembering onto a trusted system, mental resources are freed up for problem-solving and execution.
 
 This strategy of externalization is the central thesis of the [[SoT - PRODOS - Problem-Solution Map]].
+
+---
+
+## 6. Neurological & Physiological Mechanisms (New Insights)
+
+Recent synthesis has highlighted specific biological drivers and mechanisms:
+
+-   **The TPN vs. DMN "Glitchy Switch"**: The ADHD brain struggles to toggle between the **Task-Positive Network (TPN)** (used for focused tasks) and the **Default Mode Network (DMN)** (imagination/rumination).
+    -   *The Risk:* When not engaged in a task, the DMN can turn "demonic," leading to negative rumination rather than constructive imagination.
+    -   *The Fix:* Rapidly engaging the TPN (doing *anything* external) can shut down this negative loop. (Source: [[Adhd 2.0]])
+-   **The Cerebellar Link**: There is a direct connection between the cerebellum (balance/coordination) and the front networks regulating attention. Balance exercises can potentially improve focus. (Source: [[Adhd 2.0]])
+-   **The Gut-Brain Axis**: **Short-chain fatty acids (SCFAs)**, produced by processing high-fiber foods, have been linked to better cognitive control (working memory, focus) in ADHD brains. (Source: [[Fiber Fueled]])
+
+## 7. Procrastination: The Emotional Regulation Mechanism
+
+Contrary to popular belief, procrastination is **not a time-management failure** but a **self-regulation failure** rooted in **Mood Repair**.
+
+-   **The Mechanism:** We procrastinate to avoid the *negative emotions* (anxiety, boredom, self-doubt, "The Wall of Awful") associated with a task.
+-   **The Trade-Off:** The brain prioritizes **short-term mood repair** (feeling better *now* by avoiding the task) over the **long-term pursuit of goals**.
+-   **The Cost:** This avoidance generates secondary negative emotions (guilt, shame, self-loathing), which further degrades mood and reinforces the cycle. (Source: [[Procrastination]])
+
+## 8. Strategic Interventions
+
+Beyond the PRODOS system scaffolding, these behavioral interventions target the core deficits:
+
+-   **Shift from Feeling-Centered to Purpose-Centered Action:**
+    -   *The Shift:* Abandon the question "What do I *feel* like doing?" and replace it with "What *needs* to be done?".
+    -   *The Insight:* Action is not the result of motivation; it is the *cause* of it. Doing the thing generates the feelings you are waiting for. (Source: [[The Art of Taking Action]])
+-   **Mindfulness as Attention Training**: Unlike "fighting" distraction, mindfulness trains the capacity to "position" the mind. It is noted as a consistent tool for strengthening the attention muscle. (Source: [[Peak Mind]])
+-   **Reframing Procrastination**: Recognized not as a time-management issue but as **Emotional Regulation Failure** (prioritizing short-term mood repair over long-term goals).
+    -   *Tactic:* Use the "Just Get Started" implementation intention. Starting a task immediately changes the perception of its difficulty and reduces the negative emotion attached to it. (Source: [[Solving the Procrastination Puzzle]])

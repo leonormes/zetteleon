@@ -1,7 +1,13 @@
 ---
-aliases: [Evolving Notes, Living Note System, Maintaining Lines of Thought]
+aliases:
+  - Evolving Notes
+  - Living Note System
+  - Maintaining Lines of Thought
 confidence:
-confidence-gaps: [Discipline required for regular synthesis, How to handle non-textual ideas?, Scalability of the 'Questions I Return To' index]
+confidence-gaps:
+  - Discipline required for regular synthesis
+  - How to handle non-textual ideas?
+  - Scalability of the 'Questions I Return To' index
 created: 2025-11-13T14:40:00Z
 creation_date: 2025-11-13
 epistemic:
@@ -11,15 +17,26 @@ last_reviewed:
 llm-responses: 1
 modified: 2025-12-07T18:13:20Z
 purpose:
-quality-markers: ['converged related note', initial synthesis]
+quality-markers:
+  - converged related note
+  - initial synthesis
 resonance-score: 2
 review_interval:
 see_also: []
 source_of_truth: true
 status:
-supersedes: ["[[200_projects/LLMPKM/Evolutionary note system for Obsidian.md]]", "[[Maintaining Lines of Thought Over Time.md]]"]
+supersedes:
+  - "[[200_projects/LLMPKM/Evolutionary note system for Obsidian.md]]"
+  - "[[Maintaining Lines of Thought Over Time]]"
 synthesis-count: 2
-tags: [cognition, knowledge-management, obsidian, pkm, synthesis, thinking, zettelkasten]
+tags:
+  - cognition
+  - knowledge-management
+  - obsidian
+  - pkm
+  - synthesis
+  - thinking
+  - zettelkasten
 title: SoT - Evolutionary Note System
 trust-level: developing
 type: SoT

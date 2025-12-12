@@ -1,14 +1,33 @@
-# Learn Like a Pro
+---
+aliases: []
+confidence: 
+created: 2025-12-12T15:49:34Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-12T16:07:53Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [books]
+title: Learn Like a Pro
+type: 
+uid: 
+updated: 
+---
+
+## Learn Like a Pro
 
 ![rw-book-cover](https://m.media-amazon.com/images/I/81viMG6VEHL._SY160.jpg)
 
-## Metadata
+### Metadata
 - Author: [[Barbara Oakley PhD and Olav Schewe]]
 - Full Title: Learn Like a Pro
 - Category: #books
 - Document Tags: [[learning]]
 
-## Highlights
+### Highlights
 - Your studies begin a pattern of focusing on the process—putting in certain amounts of dedicated time—rather than the goal or outcome. In the long run, having a good process in place is much more important than any one individual session or goal. ([Location 100](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=100))
     - Note: James Clear talks about this too
 - The Pomodoro Technique is highly adaptable. If you get into the flow and find yourself wanting to continue past 25 minutes, that’s okay. The length of the reward period is also flexible and can be longer than 5 minutes if your Pomodoro has gone longer than the usual 25 minutes. Just don’t forget that taking a mental break is important. One analysis of data from a time-recording app found that highly productive workers work for an average of 52 minutes with a 17-minute break.4 The key was that when these superstar workers focused, they focused, and when they took a break, they really took a break. ([Location 106](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=106))
@@ -19,7 +38,7 @@
 - However, although researchers have focused on the dark side of multitasking, there is a brighter side—creativity. When you are focused on a task, you can become cognitively fixed on it. This reduces your ability to step back and take another approach or perspective. It seems that task-switching reduces cognitive fixation.11 The question then arises, how often should you task-switch? There are no easy answers, because it depends so much on the task and how often you might get cognitively “stuck.” ([Location 143](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=143))
 - One study showed that people on average checked for messages every 35 seconds when messenger apps were left open.12 On a brighter note, however, business employees who had their access to nonessential websites blocked for a week reported both deeper focused immersion and higher productivity. ([Location 161](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=161))
 - Distractions are always going to be around—it’s our job to figure out our own best ways to combat them. ([Location 174](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=174))
-- Short (5- to 10-minute) breaks involving complete mental relaxation—no internet, no texting, no reading, nothing at all—are the best for enhancing what you’ve just learned, because the new information can settle without interference.17 This means you’re not being lazy if you want to take a short nap or just do nothing—instead, you’re being efficient.20 ([Location 189](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=189))
+- Short (5to 10-minute) breaks involving complete mental relaxation—no internet, no texting, no reading, nothing at all—are the best for enhancing what you’ve just learned, because the new information can settle without interference.17 This means you’re not being lazy if you want to take a short nap or just do nothing—instead, you’re being efficient.20 ([Location 189](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=189))
 - You can explore studying to binaural beats, but be aware that the observed positive effects, at least in the baseline studies, are modest.*24 And despite their claims, online sources for binaural beats can be of questionable legitimacy. Finally, research suggests that the effect of binaural beats on focus might be canceled by the effects of the music they might be embedded in. ([Location 222](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=222))
 - How to Get into Diffuse Mode To get into diffuse mode regarding a topic, you must focus hard on the topic for a little bit or until you get stuck, but then stop focusing on it. ([Location 317](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=317))
 - “Hard Start” for Homework and Tests The Hard Start Technique takes advantage of your diffuse mode when solving difficult homework tasks or test questions. This technique is simple: Scan over the test or homework problems and make a tiny check mark over any problem that seems especially hard. Begin working on the hardest problem. You will probably get stuck after a few minutes. As soon as you find yourself getting stuck, move to an easier problem. Return to the hard problem later after you’ve done one or several easier ones. ([Location 338](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=338))
@@ -31,12 +50,12 @@
 - When you’re studying, try to clear your working memory of any thoughts that aren’t directly related to the task at hand. Making a task list is a way to help with this. ([Location 797](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=797))
 - Putting a key word, number, or formula on paper extends your working memory to the paper. Storing such information temporarily on paper instead of in working memory frees up capacity that can be used for other thoughts. ([Location 800](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=800))
 - Another study, for example, found the recall technique without any notes to be more effective for remembering and understanding the material than simply making a concept map without practicing recall. ([Location 845](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=845))
-    - Tags: [[learning]] [[pkm]] 
+    - Tags: [[learning]] [[pkm]]
 - Sometimes it can be tempting to rewatch video lectures to try to better grasp the materials. But research has found that those who simply watch video lectures again without synthesizing and internalizing their main ideas don’t do well.8 And students who don’t review any notes before exams perform the poorest. ([Location 848](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=848))
 - To use the “Franklin approach,” find writing you admire. Take a paragraph and jot a word or two down to remind yourself of the key ideas of each sentence. Then use those key words as hints to see if you can re-create the sentence. Check your sentence against the original and see which one is better. ([Location 1178](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1178))
 - Your brain has two pathways to store information in long-term memory. The declarative pathway helps you to get started with learning difficult topics or skills. The procedural system helps you to handle those topics or skills more quickly and intuitively. ([Location 1188](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1188))
 - Practice, especially spaced repetition and interleaving, helps you develop procedural sets of links in long-term memory. ([Location 1190](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1190))
-    - Tags: [[learning]] 
+    - Tags: [[learning]]
 - KEY POINT To succeed with little or no willpower, remove temptations, distractions, and obstacles. Set things up beforehand to make it as easy as possible to get started. Pick one small habit you’d like to establish or change in order to accomplish one goal you’re working toward. Then, go for it! ([Location 1229](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1229))
 - Eliminate temptations and distractions. Research has shown that learners who remove temptations from their surroundings are more successful than those who try to rely on their self-discipline. ([Location 1232](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1232))
 - Even adding just one habit can make a surprising difference. For example, when Barb is procrastinating instead of starting a task, she turns to her habit of doing a 25-minute Pomodoro. She doesn’t think about how much she dislikes the task. Instead, she just gets started—and thinks about how much she’ll enjoy the reward at the end of the Pomodoro. ([Location 1248](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1248))
@@ -44,13 +63,13 @@
 - In yet another experiment, researchers from Germany and the UK found that 91 percent of participants met their exercise goals—if they made a plan that included when and where to exercise. ([Location 1259](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1259))
 - Setting goals is a great motivational tool. We recommend that you set long-term goals, milestone goals, and process goals. ([Location 1376](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1376))
 - highlighting or underlining is passive, at least from the perspective of learning. It is not doing much to create the neural links of learning in your long-term memory. ([Location 1499](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1499))
-    - Tags: [[favorite]] 
+    - Tags: [[favorite]]
 - Rereading the chapter right after you’ve first read it can provide a deceptive familiarity. The words become more familiar, but you’re not truly grappling with the material—the so-called fluency fallacy. Your neurons aren’t being forced to make connections. Along these lines, Carol Davis, an instructor of electrical engineering technology, notes, “Rereading takes away from time you could be actively learning and makes you feel like you’ve been studying forever without getting anywhere at all.”4 ([Location 1501](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1501))
 - Read a page as carefully as you can, trying to pick out the key ideas. Then look away and either tell yourself or write down those key ideas. If that’s difficult, reread the text, (yes, it’s okay to reread—but this time, try to pay closer attention!) then try again. Another attempt at recall the next day can be even more helpful; this allows you to check whether you’ve placed the information in long-term memory. (Again, if the material is particularly dense, you may want to reread it the next day prior to attempting recall.) ([Location 1518](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1518))
 - Writing down short comments and questions as you read—“annotating”—is an excellent strategy for active reading that also makes it easier to review and refer back to the text. ([Location 1532](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1532))
 - The most important part of this strategy is to make sure you’re putting the notes in your own words. By processing the information enough to paraphrase, you’re gaining a deeper understanding of the material than if you simply rewrite what is in the text. ([Location 1541](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1541))
 - Practice active recall. As you read, periodically look away and see if you can recall the key point of a page. This will help cement these key ideas in mind as well as build your understanding. ([Location 1568](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1568))
 - Find ways to think about the text—it improves comprehension. You can take small time-outs while reading, answer questions about the text, summarize it in your own words, or discuss it with others. ([Location 1570](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1570))
-    - Tags: [[favorite]] 
+    - Tags: [[favorite]]
 - Using the Pomodoro Technique and setting up a distraction-free environment to beat procrastination. Taking breaks and using the Hard Start Technique on tests to overcome being stuck. Studying actively: testing yourself, elaborating, interleaving, and spacing out your sessions in order to form strong sets of neural connections in both your declarative and procedural systems. Using acronyms, sentences, vivid images, the Memory Palace, and internalization to memorize and internalize. Planning when, where, and how to respond to obstacles in order to exert more self-discipline. Finding value, ensuring mastery, and setting goals to motivate yourself. Previewing, practicing active recall, and annotating in order to read effectively. Analyzing and practicing with previous tests and monitoring your time to earn a good grade on exams. ([Location 1749](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=1749))
 - No mental break when you reach for a mobile phone: Kang and Kurtzberg, 2019. 5      Mental contrasting as motivational ([Location 2160](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=2160))

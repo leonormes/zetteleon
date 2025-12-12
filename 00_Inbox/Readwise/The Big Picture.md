@@ -1,15 +1,34 @@
-# The Big Picture
+---
+aliases: []
+confidence: 
+created: 2025-12-12T15:49:32Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-12T16:07:53Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [books]
+title: The Big Picture
+type: 
+uid: 
+updated: 
+---
+
+## The Big Picture
 
 ![rw-book-cover](https://m.media-amazon.com/images/I/61RjVCqTmSL._SY160.jpg)
 
-## Metadata
+### Metadata
 - Author: [[Sean Carroll]]
 - Full Title: The Big Picture
 - Category: #books
 - Document Tags: [[science]]
 
-## Highlights
-### The Fundamental Nature of Reality
+### Highlights
+#### The Fundamental Nature of Reality
 - What is the fundamental nature of reality? Philosophers call this the question of ontology—the study of the basic structure of the world, the ingredients and relationships of which the universe is ultimately composed. It can be contrasted with epistemology, which is how we obtain knowledge about the world. Ontology is the branch of philosophy concerned with the nature of reality; we also talk about “an” ontology, referring to a specific idea about what that nature actually is. ([Location 218](https://readwise.io/to_kindle?action=open&asin=B07ZWHR4CB&location=218))
 - The broader ontology typically associated with atheism is naturalism— there is only one world, the natural world, exhibiting patterns we call the “laws of nature,” and which is discoverable by the methods of science and empirical investigation. ([Location 235](https://readwise.io/to_kindle?action=open&asin=B07ZWHR4CB&location=235))
 - Purpose and meaning in life arise through fundamentally human acts of creation, rather than being derived from anything outside ourselves. Naturalism is a philosophy of unity and patterns, describing all of reality as a seamless web. ([Location 239](https://readwise.io/to_kindle?action=open&asin=B07ZWHR4CB&location=239))

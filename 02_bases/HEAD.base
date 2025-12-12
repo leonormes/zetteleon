@@ -1,0 +1,57 @@
+filters:
+  or:
+    - type == "head"
+    - type == "HEAD"
+views:
+  - type: table
+    name: Active Work HEADs
+    filters:
+      and:
+        - AoL == "Work"
+        - or:
+            - status == "active"
+            - status == "processing"
+    order:
+      - file.name
+      - status
+      - type
+      - AoL
+    sort:
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      file.name: 580
+      status: 127
+  - type: table
+    name: Active Personal HEADs
+    filters:
+      and:
+        - AoL == "Personal"
+        - or:
+            - status == "active"
+            - status == "processing"
+    order:
+      - file.name
+      - status
+      - type
+      - AoL
+    sort:
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      file.name: 580
+      status: 127
+  - type: table
+    name: All Open
+    filters:
+      or:
+        - status == "active"
+        - status == "processing"
+        - status == "planning"
+    order:
+      - file.name
+      - status
+      - AoL
+    sort:
+      - property: AoL
+        direction: ASC

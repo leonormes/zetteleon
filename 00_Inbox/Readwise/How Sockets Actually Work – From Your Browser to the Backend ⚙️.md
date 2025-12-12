@@ -1,37 +1,62 @@
-# How Sockets Actually Work – From Your Browser to the Backend ⚙️
+---
+aliases: []
+confidence: 
+created: 2025-12-12T15:49:34Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-12T16:07:53Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [podcasts]
+title: How Sockets Actually Work – From Your Browser to the Backend ⚙️
+type: 
+uid: 
+updated: 
+---
+
+## How Sockets Actually Work – From Your Browser to the Backend ⚙️
 
 ![rw-book-cover](https://wsrv.nl/?url=https%3A%2F%2Fstorage.googleapis.com%2Fsnipd-public%2Fsideload%2Fsideload_image.png&w=512&h=512)
 
-## Metadata
+### Metadata
 - Author: [[Your uploads]]
 - Full Title: How Sockets Actually Work – From Your Browser to the Backend ⚙️
 - Category: #podcasts
-- URL: https://share.snipd.com/episode/4208dc80-184a-41f0-95c4-f627e48a611c
+- URL: <https://share.snipd.com/episode/4208dc80-184a-41f0-95c4-f627e48a611c>
 
-## Highlights
+### Highlights
 - Certainly! Here are Zettelkasten-style atomic notes based on the concepts discussed in the episode:
   ---
   **What is a Socket?** 
   A socket is a software endpoint that enables communication between two devices over a network, combining an IP address and port number into a socket address. It functions like a phone line, establishing a two-way conversation once both ends are connected. 
   ---
-  **Socket vs Connection vs Request** 
-  - A socket is a communication endpoint. 
-  - A connection is a socket established between a client and server. 
-  - A request is a message sent within that connection, such as an HTTP request or WebSocket message. 
+  **Socket vs Connection vs Request**
+  - A socket is a communication endpoint.
+  - A connection is a socket established between a client and server.
+  - A request is a message sent within that connection, such as an HTTP request or WebSocket message.
+
   ---
-  **Types of Sockets** 
-  - **Stream sockets (TCP):** Reliable, ordered communication like a phone call, used in Netflix streaming. 
-  - **Datagram sockets (UDP):** Fast, unreliable transmission, used in multiplayer games where speed outweighs perfect delivery. 
+
+  **Types of Sockets**
+  - **Stream sockets (TCP):** Reliable, ordered communication like a phone call, used in Netflix streaming.
+  - **Datagram sockets (UDP):** Fast, unreliable transmission, used in multiplayer games where speed outweighs perfect delivery.
+
   ---
+
   **How Sockets Work in Python** 
   Python's socket module wraps operating system socket APIs. When you create a socket, it calls into system-level functions that handle low-level network communication, which are implemented in the OS kernel. 
   ---
-  **Socket Lifecycle in Python** 
-  - Create socket object with `socket.socket()`. 
-  - Connect using `s.connect()`, which performs TCP handshake. 
-  - Send data with `s.send()`, receive with `s.recv()`. 
-  - Close socket with `s.close()`, releasing system resources. 
+  **Socket Lifecycle in Python**
+  - Create socket object with `socket.socket()`.
+  - Connect using `s.connect()`, which performs TCP handshake.
+  - Send data with `s.send()`, receive with `s.recv()`.
+  - Close socket with `s.close()`, releasing system resources.
+
   ---
+
   **OS Role in Sockets** 
   The operating system manages sockets via system calls (syscalls). It handles IP routing, DNS, and TCP connections, providing an abstraction layer over physical network hardware. 
   ---
@@ -50,7 +75,7 @@
   **WebSocket Use Cases** 
   Real-time communication in apps such as Slack, WhatsApp Web, live trading dashboards, and multiplayer games depend on WebSockets for instant message delivery without polling. 
   ---
-  **Summary** 
+  **Summary**
   Sockets are the foundational technology enabling two-way, real-time communication over networks, underpinning modern web apps, multiplayer games, IoT, and more. Scaling and managing sockets efficiently relies on OS-level tools like epoll and kqueue.
   Transcript:
   bytemunk

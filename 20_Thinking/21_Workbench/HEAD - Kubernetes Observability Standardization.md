@@ -7,10 +7,18 @@ last_reviewed:
 modified: 2025-12-10T20:00:14Z
 purpose: To structure the thinking and planning for standardizing Kubernetes observability across the team.
 review_interval:
-see_also: ["[[100_zettelkasten/Authentication Summary for AKS, EKS, and Terraform Cloud.md]]", "[[100_zettelkasten/AWS ENIs Connect EKS Worker Nodes to VPC Networks.md]]", "[[100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address.md]]"]
+see_also:
+  - "[[Authentication Summary for AKS, EKS, and Terraform Cloud]]"
+  - "[[AWS ENIs Connect EKS Worker Nodes to VPC Networks]]"
+  - "[[30_Library/100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address]]"
 source_of_truth: []
 status: someday
-tags: [head, k8s, monitoring, observability, thinking]
+tags:
+  - head
+  - k8s
+  - monitoring
+  - observability
+  - thinking
 title: HEAD - Kubernetes Observability Standardization
 type: head
 uid:
@@ -55,4 +63,4 @@ We currently have Grafana dashboards, but I suspect they are not "standardized" 
 ## Related Knowledge
 - [[Authentication Summary for AKS, EKS, and Terraform Cloud]]
 - [[AWS ENIs Connect EKS Worker Nodes to VPC Networks]]
-- [[100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address]]
+- [[30_Library/100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address]]

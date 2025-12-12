@@ -29,24 +29,43 @@ updated:
 
 ## 2. The Four Philosophical Pillars
 
-This process synthesizes four distinct philosophies into a single cognitive workflow:
+This process synthesizes distinct philosophies into a single cognitive workflow:
 
 1.  **Annie Murphy Paul (The Extended Mind):** Thinking *outside* the brain using movement and space.
 2.  **Natalie Goldberg (Writing Down the Bones):** Accessing raw, energetic "first thoughts" by bypassing the internal critic.
-3.  **William Zinsser (On Writing Well):** The craftsman's toolset for refining raw thought into clear prose (clarity = understanding).
-4.  **Joe Moran (First You Write a Sentence):** The artist's focus on rhythm and generosity in the sentence itself.
+3.  **William Zinsser & Francine Prose (The Craftsmen):** Refining raw thought into clear prose. "Putting every word on trial for its life" to ensure it serves the meaning.
+4.  **Joe Moran (First You Write a Sentence):** The focus on the sentence as the primary unit of thought and rhythm.
 
 ## 3. The Cognitive Mechanics (Why It Works)
 
-Insights from cognitive science explain why writing is essential for the neurodivergent brain:
+Insights from cognitive science and information theory explain why writing is essential:
 
 1.  **External Working Memory:** Writing extends limited working memory onto the page/screen. This "offloading" frees up neural capacity for processing rather than holding. (*Learn Like a Pro*)
 2.  **The TPN Anchor:** The active, physical nature of writing engages the **Task Positive Network (TPN)**, which neurologically inhibits the **Default Mode Network (DMN)**—the seat of rumination and distraction. (*ADHD 2.0*)
-3.  **Thought Formation:** Thoughts are not fixed realities waiting to be encoded; they are formed *by* the act of language. Writing is not just a record of thought; it is the structure of it. (*Clear and Simple as the Truth*)
+3.  **Entropy Reduction (Cybernetics):** Thinking is a "noisy" simulation. Writing is a cybernetic mechanism that enforces consistency and order, correcting the random deviations of the mind. (*Grammatical Man*)
+4.  **Restructuring Thought:** Writing does not just record memory; it restructures it. By separating the knower from the known, it allows us to examine our own logic objectively. (*The Information*)
 
 ---
 
-## 4. The I/O Bottleneck Protocols (Synchronizing Brain & Hand)
+## 4. Core Principles of the Craft
+
+To write effectively for thought, we adhere to these stylistic mandates:
+
+### A. The Sentence is the Unit
+-   **Principle:** "Stupidity reduces language to words." The basic unit of writing (and thought) is the **proposition** (the sentence), not the word.
+-   **Practice:** Build sentences that assert a truth. Don't just list keywords.
+
+### B. Dynamic Verbs vs. The Static "Is"
+-   **Principle:** The verb *to be* (is, am, are) is a static "equals sign." It creates a rigid ontology (X is Y).
+-   **Practice:** Use **finite, dynamic verbs** to capture process and life. Instead of "I am an idiot" (Static Identity), use "I behaved idiotically" (Dynamic Action). (*First You Write a Sentence*)
+
+### C. Classic Style (The Window)
+-   **Principle:** The purpose of writing is **presentation**. The writer aligns language with truth so the reader (future-you) can see the reality directly.
+-   **Metaphor:** Writing is a **Window**, not a painting. It should be transparent. If the reader notices the style, the window is dirty. (*The Sense of Style / Clear and Simple as the Truth*)
+
+---
+
+## 5. The I/O Bottleneck Protocols (Synchronizing Brain & Hand)
 
 The primary failure mode of "Writing to Think" for the ADHD brain is the **I/O Bottleneck**: The CPU (Brain) runs at 4GHz, but Write Speed (Typing) is 10MB/s. This lag creates a buffer overflow, leading to the urge to stop writing and start "organizing."
 

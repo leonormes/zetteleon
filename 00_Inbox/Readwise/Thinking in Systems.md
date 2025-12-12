@@ -1,13 +1,32 @@
-# Thinking in Systems
+---
+aliases: []
+confidence: 
+created: 2025-12-12T15:49:33Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-12T16:07:53Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [books]
+title: Thinking in Systems
+type: 
+uid: 
+updated: 
+---
+
+## Thinking in Systems
 
 ![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/51q%2BTMvkNFL._SL200_.jpg)
 
-## Metadata
+### Metadata
 - Author: [[Donella H. Meadows]]
 - Full Title: Thinking in Systems
 - Category: #books
 
-## Highlights
+### Highlights
 - Because of feedback delays within complex systems, by the time a problem becomes apparent it may be unnecessarily difficult to solve. — A stitch in time saves nine. ([Location 202](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=202))
     - Note: [[Engineering Excellence MOC]]
 - According to the competitive exclusion principle, if a reinforcing feedback loop rewards the winner of a competition with the means to win further competitions, the result will be the elimination of all but a few competitors. — For he that hath, to him shall be given; and he that hath not, from him shall be taken even that which he hath (Mark 4:25) or —The rich get richer and the poor get poorer. ([Location 204](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=204))
@@ -23,7 +42,7 @@
 - A system is more than the sum of its parts. It may exhibit adaptive, dynamic, goal-seeking, self-preserving, and sometimes evolutionary behavior. ([Location 313](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=313))
 - You can see from these examples that there is an integrity or wholeness about a system and an active set of mechanisms to maintain that integrity. ([Location 315](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=315))
 - You can divide elements into sub-elements and then sub-sub-elements. Pretty soon you lose sight of the system. As the saying goes, you can’t see the forest for the trees. ([Location 329](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=329))
-    - Tags: [[systems]] 
+    - Tags: [[systems]]
 - Before going too far in that direction, it’s a good idea to stop dissecting out elements and to start looking for the interconnections, the relationships that hold the elements together. ([Location 339](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=339))
     - Note: I need to start looking more at the interconnections between the functions
 - Many interconnections are flows of information—signals that go to decision points or action points within a system. These kinds of interconnections are often harder to see, but the system reveals them to those who look. ([Location 355](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=355))

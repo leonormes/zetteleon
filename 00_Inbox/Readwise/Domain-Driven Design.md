@@ -1,14 +1,33 @@
-# Domain-Driven Design
+---
+aliases: []
+confidence: 
+created: 2025-12-12T15:49:33Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-12T16:07:53Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [books]
+title: Domain-Driven Design
+type: 
+uid: 
+updated: 
+---
+
+## Domain-Driven Design
 
 ![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/51OWGtzQLLL._SL200_.jpg)
 
-## Metadata
+### Metadata
 - Author: [[Eric Evans]]
 - Full Title: Domain-Driven Design
 - Category: #books
 - Document Tags: [[ddd]]
 
-## Highlights
+### Highlights
 - Leading software designers have recognized domain modeling and design as critical topics for at least 20 years, yet surprisingly little has been written about what needs to be done or how to do it. Although it has never been formulated clearly, a philosophy has emerged as an undercurrent in the object community, a philosophy I call domain-driven design. ([Location 324](https://readwise.io/to_kindle?action=open&asin=B00794TAUG&location=324))
     - Note: DDD has always been present in the minds of system designers but Evans is making it clear in his book
 - Their first release had ossified prematurely into a high-maintenance legacy. ([Location 341](https://readwise.io/to_kindle?action=open&asin=B00794TAUG&location=341))

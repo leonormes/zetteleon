@@ -43,6 +43,7 @@ Without constraints, work expands to fill the time available for its completion 
 **The Solution:**
 1.  **The Calendar is Truth:** If it's not on the calendar, it doesn't exist.
 2.  **The Box is Law:** When the timer ends, the work ends (or the scope is renegotiated).
+3.  **Gamification:** A self-imposed "box" turns work into a challenge, gamifying productivity and manufacturing urgency to combat boredom.
 
 ---
 
@@ -58,8 +59,10 @@ In the [[SoT - PRODOS (System Architecture)]], time management operates on a str
 ### Phase B: Tactical Boxing (The Content)
 -   **Tool:** Timer / Todoist Duration.
 -   **Action:** For specific tasks *within* a block, set a timer.
--   **Technique:** Use **Pomodoro (25/5)** or **Flowtime (Variable)** to manage energy.
--   **The Hard Constraint:** If a "Box" expires before the task is done, you must consciously decide to **Steal** time from the next box or **Ship** the imperfect result. You cannot just "keep going" unconsciously.
+-   **The Ultradian Limit:** Never allocate more than **90 minutes** to a single deep work box without a break, respecting the brain's natural ultradian rhythms.
+-   **Hard vs. Soft Boxing:**
+    -   **Hard Box (Perfectionism Killer):** Stop *immediately* when the timer rings. Ideal for meetings, research, or tasks where you tend to "toil" endlessly.
+    -   **Soft Box (Flow Facilitator):** The timer is a "wrap up" suggestion. Ideal for complex deep work where finishing the thought is valuable.
 
 ---
 
@@ -73,7 +76,7 @@ Give every minute a job. This doesn't mean "work every minute." It means labelin
 
 ### 2. Task Batching
 
-Group low-intensity tasks (Email, Slack, Admin) into a single "Shallow Work" box.
+Group similar, low-intensity tasks (Email, Slack, Admin) into a single "Shallow Work" box to minimize the high cognitive cost of **Context Switching**.
 
 -   *Constraint:* "Admin: 30 mins." When the buzzer sounds, close the inbox, even if unread messages remain.
 

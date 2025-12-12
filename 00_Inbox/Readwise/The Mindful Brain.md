@@ -1,11 +1,30 @@
-# The Mindful Brain
+---
+aliases: []
+confidence: 
+created: 2025-12-12T15:49:32Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-12T16:07:52Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [books]
+title: The Mindful Brain
+type: 
+uid: 
+updated: 
+---
+
+## The Mindful Brain
 
 ![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/41YcW-765zL._SL200_.jpg)
 
-## Metadata
+### Metadata
 - Author: [[Daniel J. Siegel]]
 - Full Title: The Mindful Brain
 - Category: #books
 
-## Highlights
+### Highlights
 - Without the intentional effort to awaken, life speeds by. We habituate to experience, perceiving through the filter of the past and not orienting ourselves to the novel distinctions of the present (Goleman, 1988; Langer, 1997). ([Location 1677](https://readwise.io/to_kindle?action=open&asin=B001P7GGSC&location=1677))

@@ -1,14 +1,33 @@
-# Learning Domain-Driven Design
+---
+aliases: []
+confidence: 
+created: 2025-12-12T15:49:33Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-12T16:07:53Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [books]
+title: Learning Domain-Driven Design
+type: 
+uid: 
+updated: 
+---
+
+## Learning Domain-Driven Design
 
 ![rw-book-cover](https://m.media-amazon.com/images/I/81WJbw5XJbL._SY160.jpg)
 
-## Metadata
+### Metadata
 - Author: [[Vlad Khononov]]
 - Full Title: Learning Domain-Driven Design
 - Category: #books
 - Document Tags: [[ddd]]
 
-## Highlights
+### Highlights
 - you will learn domain-driven design tools for analyzing a company’s business domain and its structure: its core, supporting, and generic subdomains. This material is the groundwork for designing software. In the remaining chapters, you will learn the different ways these concepts affect software design. ([Location 347](https://readwise.io/to_kindle?action=open&asin=B09J2CMJZY&location=347))
 - Complexity A core subdomain that is simple to implement can only provide a short-lived competitive advantage. Therefore, core subdomains are naturally complex. ([Location 393](https://readwise.io/to_kindle?action=open&asin=B09J2CMJZY&location=393))
 - There should be high entry barriers for a company’s core business; it should be hard for competitors to copy or imitate the company’s solution. ([Location 401](https://readwise.io/to_kindle?action=open&asin=B09J2CMJZY&location=401))

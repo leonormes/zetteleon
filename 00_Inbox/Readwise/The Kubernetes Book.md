@@ -1,13 +1,32 @@
-# The Kubernetes Book
+---
+aliases: []
+confidence: 
+created: 2025-12-12T15:49:33Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-12T16:07:53Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [books]
+title: The Kubernetes Book
+type: 
+uid: 
+updated: 
+---
+
+## The Kubernetes Book
 
 ![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/41db9ap7UML._SL200_.jpg)
 
-## Metadata
+### Metadata
 - Author: [[Nigel Poulton]]
 - Full Title: The Kubernetes Book
 - Category: #books
 
-## Highlights
+### Highlights
 - The API server The API server is the Grand Central station of Kubernetes. All communication, between all components, must go through the API server. We’ll get into the detail later, but it’s important to understand that internal system components, as well as external user components, all communicate through the API server – all roads lead to the API Server. ([Location 310](https://readwise.io/to_kindle?action=open&asin=B072TS9ZQZ&location=310))
 - The cluster store The cluster store is the only stateful part of the control plane and persistently stores the entire configuration and state of the cluster. As such, it’s a vital component of every Kubernetes cluster – no cluster store, no cluster. ([Location 317](https://readwise.io/to_kindle?action=open&asin=B072TS9ZQZ&location=317))
 - The controller manager and controllers The controller manager implements all the background controllers that monitor cluster components and respond to events. Architecturally, the controller manager is a controller of controllers, meaning it spawns all the core controllers and monitors them. ([Location 327](https://readwise.io/to_kindle?action=open&asin=B072TS9ZQZ&location=327))

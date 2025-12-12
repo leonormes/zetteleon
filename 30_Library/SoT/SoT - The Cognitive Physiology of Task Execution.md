@@ -36,6 +36,8 @@ Task execution is not a singular event but a sequential biological process consi
 -   **Brain Network:** Prefrontal Cortex (PFC) & Basal Ganglia.
 -   **ProdOS Tool:** **Todoist Context Bridge**.
 -   **The ProdOS Fix:** We separate "Deciding to Start" from "Doing the Work." The Context Bridge provides a single, low-friction button to trigger the brain's "Go" signal without requiring a high cognitive load setup.
+> [!failure] The Mood Repair Trap
+> This is where **Procrastination** strikes. The brain predicts negative emotion from the task and refuses to initiate in order to "repair mood" immediately. **Counter-measure:** Ignore feelings; execute the Context Bridge mechanically.
 
 ### Phase 2: Encoding / Planning
 -   **Function:** Processing task demands, formulating a strategy, and loading the "Mental Model" into Working Memory.
