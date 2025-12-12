@@ -9,7 +9,7 @@ views:
       - type
       - tags
     sort:
-      - property: file.ctime
+      - property: modified
         direction: DESC
     columnSize:
       file.name: 432

@@ -1,21 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-26T00:00:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-11-12T14:24:49Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
-source: "https://gemini.google.com/share/9b6f6fdd7c5e"
+source: https://gemini.google.com/share/9b6f6fdd7c5e
 source_of_truth: []
-status: 
-tags: ["clipped", "llm_session"]
+status:
+tags:
+  - llm_session
 title: Time, Patterns, and Mathematics
 type:
-uid: 
-updated: 
+uid:
+updated:
 version:
 ---
 

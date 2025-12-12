@@ -1,21 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-27T00:00:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-10-30T11:06:58Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
-source: "https://gemini.google.com/share/f28567a92a39"
+source: https://gemini.google.com/share/f28567a92a39
 source_of_truth: []
-status: 
-tags: ["clipped", "llm_session"]
+status:
+tags:
+  - llm_session
 title: ‎Gemini - The Multifaceted Role of a Parent
 type:
-uid: 
-updated: 
+uid:
+updated:
 version:
 ---
 

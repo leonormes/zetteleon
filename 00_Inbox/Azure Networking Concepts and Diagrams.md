@@ -1,21 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-11-02T00:00:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-11-02T13:02:09Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
-source: "https://gemini.google.com/share/0aee5595ef23"
+source: https://gemini.google.com/share/0aee5595ef23
 source_of_truth: []
-status: 
-tags: ["clipped", "llm_session"]
+status:
+tags:
+  - llm_session
 title: Azure Networking Concepts and Diagrams
-type: 
-uid: 
-updated: 
+type:
+uid:
+updated:
 ---
 
 Here is the compiled wiki page for your Zettelkasten, formatted in Obsidian Markdown.

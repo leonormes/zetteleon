@@ -145,7 +145,7 @@ To directly combat the "always start fresh" loop (see [[Breaking the Creation Cy
 
 #### A. The Re-entry Ritual (from [[Breaking the Creation Cycle]])
 This 10-minute ritual is performed at the start of any work session:
-1.  **Read SESSION Note:** Rapidly reload the previous mental model (see [[SoT - PRODOS - Knowledge Synthesis (Thinking)#Externalizing the Mental Model: The SESSION Note Protocol|SESSION Note Protocol]]).
+1.  **Read The Project Anchor:** Rapidly reload the previous mental model by reading the `## Current State` block in the **Project Note** (see [[SoT - PRODOS - Knowledge Synthesis (Thinking)#Externalizing the Mental Model: The Project Anchor Protocol|Project Anchor Protocol]]).
 2.  **Warm Start:** Execute basic environment setup commands (e.g., `make dev && npm test`).
 3.  **Execute Smallest Next Task:** Complete a task (<15 min) to build momentum.
 

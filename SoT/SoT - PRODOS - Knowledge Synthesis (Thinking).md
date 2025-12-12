@@ -40,27 +40,32 @@ The human brain uses 20% of the body's energy to run these simulations. When thi
 
 ---
 
-## 3. Externalizing the Mental Model: The SESSION Note Protocol
+## 3. Externalizing the Mental Model: The Project Anchor Protocol
 
-To combat **Context Loss** and the "always start fresh" loop (see [[Breaking the Creation Cycle]]), ProdOS formalizes the act of creating "State Snapshots" at the end of each thinking session. This ensures rapid re-entry and continuation.
+To combat **Context Loss** and the "always start fresh" loop (see [[Breaking the Creation Cycle]]), ProdOS formalizes the act of creating "State Snapshots" at the end of each thinking session. 
 
-### The SESSION Note
+**We do not use separate session files.** Instead, we maintain a persistent **Anchor** within the Project Note.
 
-A `SESSION.md` note (or similar context-holding file) is maintained per active project. Its primary purpose is to capture the ephemeral mental model of work-in-progress.
+### The Project Anchor
 
-#### Key Elements at Stop-Time
+Every active project in `10_Actions/` has a **Project Note**. This note is the single "Hook" for your attention. It contains a dynamic `## Current State` block that is updated at the end of every work session.
 
--   **Now:** What was just completed in concise, bulleted form. (e.g., "Implemented user authentication flow," "Refactored `UserService.js`").
--   **Next:** The 1-3 *most concrete, smallest* steps for re-entry, each completable in <15 minutes. (e.g., "Run `npm test`," "Add basic validation to `login.html`," "Refactor `User` model alias in `User.ts`").
--   **Why:** The current design intent, constraints, and trade-offs in plain language. This preserves the "bigger picture" for future-you.
--   **WTF Guide (Optional):** Known traps, open questions, TODOs being avoided.
--   **Critical Links:** PRs, docs, tickets, file paths, test commands, logs, rough sketches/screenshots.
+#### Key Elements at Stop-Time (The "Save Game" Ritual)
+
+When you finish a thinking session in a `HEAD` note, you must **Serialize State** by updating the Project Note's `## Current State` block with:
+
+-   **Now:** What was just completed in concise, bulleted form. (e.g., "Implemented user authentication flow").
+-   **Next:** The 1-3 *most concrete, smallest* steps for re-entry, each completable in <15 minutes. (e.g., "Run `npm test`," "Add basic validation to `login.html`").
+-   **Why:** The current design intent, constraints, and trade-offs. This preserves the "bigger picture" for future-you.
+-   **Critical Links:** Links to the `HEAD` note you just finished, PRs, docs, or specific file paths.
+
+*After updating the Project Note, the HEAD note is archived.*
 
 #### The Re-entry Ritual (≤ 10 minutes)
 
-1.  **Read Last SESSION Note:** Rapidly reload the previous mental model.
+1.  **Read The Project Anchor:** Open the **Project Note** and read the `## Current State` block. This reloads the mental model instantly.
 2.  **Warm Start:** Execute basic setup commands (e.g., `make dev && npm test`).
-3.  **Execute Smallest Next Task:** Build momentum with a quick win.
+3.  **Execute Smallest Next Task:** Pick the top item from the "Next" list and execute it to build momentum.
 
 ---
 

@@ -1,21 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-28T00:00:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-12-04T13:28:34Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
-source: "https://gemini.google.com/share/1c87b49c70cb"
+source: https://gemini.google.com/share/1c87b49c70cb
 source_of_truth: []
-status: 
-tags: ["clipped", "llm_session"]
+status:
+tags:
+  - llm_session
 title: Generative Infrastructure Configuration Framework
-type: 
-uid: 
-updated: 
+type:
+uid:
+updated:
 ---
 
 I am a developer. I have always tried to make robust flexible code. I have this sense that loosely coupled code is more resilient. But the config for a particular app deployment is so delicate and fragile. 1 wrong character in a string, 1 byte wrong in some encrypted secret cause the whole system to stop working. I would like to be able to separate out config in my terraform IAC and keep it safe and change evident. Having as much automated as possible. For instance, having a DNS Hostnaming service naming protocol that means I supply minimal config, like the base domain and the code generates the rest based on it. That way, once the builder code is validated as correct my input is small and so less error prone. Formalise this idea for me and describe it in a RFC type doc

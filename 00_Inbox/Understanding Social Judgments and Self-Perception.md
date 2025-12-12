@@ -1,21 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-11-03T00:00:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-11-12T14:24:49Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
-source: "https://gemini.google.com/share/483bd593dd8e"
+source: https://gemini.google.com/share/483bd593dd8e
 source_of_truth: []
-status: 
-tags: ["clipped", "llm_session"]
+status:
+tags:
+  - llm_session
 title: Understanding Social Judgments and Self-Perception
-type: 
-uid: 
-updated: 
+type:
+uid:
+updated:
 ---
 
 When I interact socially and professionally I have a sense of how I am doing. Does the other person like me, are they comfortable, do they agree or disagree, What's my status. But how do I make those judgements? What is the margin for error? I have known people who seem to see themselves as much better than they really are and how do I know I'm not doing that?

@@ -1,24 +1,25 @@
 ---
 aliases: []
-author: ["[[Gemini]]"]
-confidence: 
+author:
+  - "[[Gemini]]"
+confidence:
 created: 2025-12-08T00:00:00Z
-description: "Created with Gemini"
-epistemic: 
-last_reviewed: 
+description: Created with Gemini
+epistemic:
+last_reviewed:
 modified: 2025-12-08T13:35:45Z
 published:
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
-source: "https://gemini.google.com/share/1830416185a7"
+source: https://gemini.google.com/share/1830416185a7
 source_of_truth: []
-status: 
-tags: ["clippings"]
+status:
+tags:
 title: The Core Divergence Simulation vs. Prototyping
-type: 
-uid: 
-updated: 
+type:
+uid:
+updated:
 ---
 
 I find it hard understanding how other people can be fundamentally different from me. I think other people learn in different ways because they are inefficient. If they knew what I knew they would agree with me. As if my way of thinking is correct because I have thought about it and am sensitive to my feelings and always try to uncover assumptions especially incorrect ones. But that is not how it works. People learn differently or solve problems differently or even think differently. Not that one way of right. Explain the difference between people that can plan everything up front and me, who has to do things to learn. I can't follow instructions very well or a plan. I have to try and adapt as I go. Others can plan everything before hand and then just follow those plans regardless of new learning
