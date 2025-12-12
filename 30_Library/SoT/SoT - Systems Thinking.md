@@ -1,25 +1,17 @@
 ---
-aliases:
-  - Systems Dynamics
-  - Holistic Thinking
-  - Feedback Loops
+aliases: [Feedback Loops, Holistic Thinking, Systems Dynamics]
 confidence: 
-created: 2025-12-12
+created: 2025-12-12T00:00:00Z
 epistemic: 
 last-synthesis: 2025-12-12
 last_reviewed: 
-modified: 
+modified: 2025-12-12T18:18:04Z
 purpose: To define the mental model of viewing reality as interconnected networks of elements, flows, and feedback loops rather than isolated linear events.
 review_interval: 
-see_also:
-  - "[[SoT - Process Primacy (Systems Over Goals)]]"
+see_also: ["[[SoT - Process Primacy (Systems Over Goals)]]"]
 source_of_truth: true
 status: stable
-tags:
-  - systems
-  - mental_models
-  - complexity
-  - thinking
+tags: [complexity, mental_models, systems, thinking]
 title: SoT - Systems Thinking
 type: SoT
 uid: 
@@ -43,6 +35,7 @@ Systems Thinking is the necessary counter-balance to the West's dominant philoso
 The central insight is that **Structure Determinates Behavior**. Persistent problems (like poverty, addiction, or technical debt) are rarely caused by "bad actors" or "bad luck," but are intrinsic properties of the system's design. "Quick fixes" usually address symptoms and trigger **Compensating Feedback**, where the system pushes back to restore the old equilibrium (Fixes That Backfire).
 
 True leverage comes not from pushing harder on the existing loops, but from:
+
 1.  **Shortening delays** in feedback.
 2.  **Changing the rules** (interconnections).
 3.  **Changing the goal** (purpose) of the system.

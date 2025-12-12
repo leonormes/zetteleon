@@ -136,7 +136,6 @@ While identity drives good habits, **Old Identity Sabotage** prevents growth.
 ## 9. Related Components
 - [[SoT - PRODOS - Action Management (GTD)]]
 - [[SoT - PRODOS (System Architecture)]]
-- [[SoT - Atomic Habits]]
 - [[MOC - The Relationship Between Habits and Identity]]
 - [[Three Layers of Behavior Change Model]]
 - [[Habits Are the Channel for Developing Beliefs About Self]]

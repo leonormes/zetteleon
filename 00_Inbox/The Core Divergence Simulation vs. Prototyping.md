@@ -1,13 +1,12 @@
 ---
 aliases: []
-author:
-  - "[[Gemini]]"
+author: ["[[Gemini]]"]
 confidence:
 created: 2025-12-08T00:00:00Z
 description: Created with Gemini
 epistemic:
 last_reviewed:
-modified: 2025-12-08T13:35:45Z
+modified: 2025-12-12T18:18:39Z
 published:
 purpose:
 review_interval:
@@ -15,7 +14,7 @@ see_also: []
 source: https://gemini.google.com/share/1830416185a7
 source_of_truth: []
 status:
-tags:
+tags: []
 title: The Core Divergence Simulation vs. Prototyping
 type:
 uid:

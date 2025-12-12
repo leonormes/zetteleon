@@ -4,15 +4,14 @@ confidence:
 created: 2025-11-03T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-11-12T14:24:49Z
+modified: 2025-12-12T18:18:38Z
 purpose:
 review_interval:
 see_also: []
 source: https://gemini.google.com/share/483bd593dd8e
 source_of_truth: []
 status:
-tags:
-  - llm_session
+tags: [llm_session]
 title: Understanding Social Judgments and Self-Perception
 type:
 uid:

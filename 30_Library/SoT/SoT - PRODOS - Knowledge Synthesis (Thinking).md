@@ -4,7 +4,7 @@ confidence: 4/5
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-11T18:10:59Z
+modified: 2025-12-12T18:18:05Z
 purpose: To define the function, structure, and purpose of 'Thinking' within the ProdOS architecture.
 related-soTs: ["[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 3 months
@@ -42,7 +42,7 @@ The human brain uses 20% of the body's energy to run these simulations. When thi
 
 ## 3. Externalizing the Mental Model: The Project Anchor Protocol
 
-To combat **Context Loss** and the "always start fresh" loop (see [[Breaking the Creation Cycle]]), ProdOS formalizes the act of creating "State Snapshots" at the end of each thinking session. 
+To combat **Context Loss** and the "always start fresh" loop (see [[Breaking the Creation Cycle]]), ProdOS formalizes the act of creating "State Snapshots" at the end of each thinking session.
 
 **We do not use separate session files.** Instead, we maintain a persistent **Anchor** within the Project Note.
 

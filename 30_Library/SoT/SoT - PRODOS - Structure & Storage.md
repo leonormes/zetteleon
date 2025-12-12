@@ -1,17 +1,17 @@
 ---
-aliases: [ProdOS Structure, PARA for ProdOS, The 4-File System]
+aliases: [PARA for ProdOS, ProdOS Structure, The 4-File System]
 confidence: 5/5
 created: 2025-12-12T12:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-12T12:00:00Z
+modified: 2025-12-12T18:18:05Z
 purpose: To define the canonical folder structure and storage protocols for ProdOS v5.0, ensuring optimal context retrieval and LLM efficiency.
-related-soTs: ["[[SoT - PRODOS (System Architecture)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]"]
+related-soTs: ["[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 6 months
 see_also: []
 source_of_truth: true
 status: stable
-tags: ["structure", "para", "pkm", "prodos"]
+tags: ["para", "pkm", "prodos", "structure"]
 title: SoT - PRODOS - Structure & Storage
 type: SoT
 uid:
@@ -21,8 +21,8 @@ updated:
 ## 1. Definitive Statement
 
 > [!definition] The 4-File Architecture
-> ProdOS v5.0 replaces deep folder hierarchies with a flattened, **4-component** structure designed for **Cognitive Throughput** rather than Storage. 
-> 
+> ProdOS v5.0 replaces deep folder hierarchies with a flattened, **4-component** structure designed for **Cognitive Throughput** rather than Storage.
+>
 > The structure mirrors the Cognitive Loop: **Input (Inbox) -> Processing (Thinking) -> Storage (Library) -> Output (Actions).**
 
 ---
@@ -64,7 +64,9 @@ To maximize LLM context window efficiency (reducing token cost by 75-90%) and hu
 ## 3. Storage Protocols
 
 ### The "No-Filing" Rule
+
 We do not "file" notes in ProdOS; we **Tag and Link**.
+
 - **Folders** are for *System Architecture* (Permissions/Types).
 - **Links** are for *Knowledge Architecture* (Context).
 

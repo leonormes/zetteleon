@@ -1,25 +1,22 @@
 ---
 aliases: []
+AoL: Personal
 confidence:
 created: 2025-12-07T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-09T10:16:52Z
+modified: 2025-12-12T18:18:04Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: archived
 superseded-by: "[[SoT - PRODOS (System Architecture)]]"
-tags:
-  - pkm
-  - system_design
-  - thinking
+tags: [pkm, system_design, thinking]
 title: HEAD - PKM as Version Control for Thinking
 type: head
 uid:
 updated:
-AoL: Personal
 ---
 
 > [!info] Status: Archived

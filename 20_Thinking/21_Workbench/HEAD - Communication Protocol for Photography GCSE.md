@@ -5,17 +5,13 @@ confidence:
 created: 2025-12-06T10:15:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-10T20:00:14Z
+modified: 2025-12-12T18:18:35Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: archived
-tags:
-  - state/head
-  - topic/communication
-  - topic/family/bessie
-  - type/bug
+tags: [state/head, topic/communication, topic/family/bessie, type/bug]
 title: HEAD - Communication Protocol for Photography GCSE
 type: head
 uid:

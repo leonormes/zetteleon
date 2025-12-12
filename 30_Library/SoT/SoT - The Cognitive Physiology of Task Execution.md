@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-10T12:00:00Z
 epistemic: scientific
 last_reviewed: 2025-12-10
-modified: 2025-12-12T11:58:44Z
+modified: 2025-12-12T18:18:04Z
 purpose: To define the biological and cognitive phases of task execution, providing the scientific basis for the ProdOS workflow design.
 related-soTs: ["[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]"]
 review_interval: 1 year
@@ -36,6 +36,7 @@ Task execution is not a singular event but a sequential biological process consi
 -   **Brain Network:** Prefrontal Cortex (PFC) & Basal Ganglia.
 -   **ProdOS Tool:** **Todoist Context Bridge**.
 -   **The ProdOS Fix:** We separate "Deciding to Start" from "Doing the Work." The Context Bridge provides a single, low-friction button to trigger the brain's "Go" signal without requiring a high cognitive load setup.
+
 > [!failure] The Mood Repair Trap
 > This is where **Procrastination** strikes. The brain predicts negative emotion from the task and refuses to initiate in order to "repair mood" immediately. **Counter-measure:** Ignore feelings; execute the Context Bridge mechanically.
 

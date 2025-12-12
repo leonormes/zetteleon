@@ -1,26 +1,22 @@
 ---
 aliases: []
+AoL: Personal
 confidence:
 created: 2025-12-06T07:59:11Z
 epistemic:
 last_reviewed:
-modified: 2025-12-07T18:13:20Z
+modified: 2025-12-12T18:18:04Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: archived
 superseded-by: "[[SoT - PRODOS - System Failure Modes]]"
-tags:
-  - state/head
-  - topic/adhd
-  - topic/productivity
-  - type/bug
+tags: [state/head, topic/adhd, topic/productivity, type/bug]
 title: HEAD - Why my zettelkasten failed
 type: head
 uid:
 updated:
-AoL: Personal
 ---
 
 > [!info] Status: Archived

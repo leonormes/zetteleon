@@ -1,26 +1,17 @@
 ---
-aliases:
-  - Hierarchy
-  - Social Inequality
-  - Social Stratification
+aliases: [Hierarchy, Social Inequality, Social Stratification]
 confidence: 5/5
 created: 2025-12-10T12:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-11T10:10:43Z
+modified: 2025-12-12T18:18:04Z
 purpose: To define the canonical understanding of Social Stratification as a structural system of inequality.
 related-soTs: []
 review_interval: 1 year
 see_also: []
 source_of_truth: true
 status: stable
-tags:
-  - class
-  - inequality
-  - power
-  - sociology
-  - status
-  - structure
+tags: [class, inequality, power, sociology, status, structure]
 title: SoT - Social Stratification
 type: SoT
 uid:
@@ -108,6 +99,7 @@ How does the system maintain stability?
 The UK provides a distinct example of how stratification evolves. It is currently best understood as a **Hybrid Model** combining traditional occupation (NS-SEC) with a multi-dimensional capital approach (GBCS).
 
 ### The Great British Class Survey (GBCS) Model
+
 Moving beyond the "Working/Middle/Upper" triad, this model identifies 7 classes based on Economic, Social, and Cultural capital:
 
 1.  **Elite:** High capital across all three dimensions.

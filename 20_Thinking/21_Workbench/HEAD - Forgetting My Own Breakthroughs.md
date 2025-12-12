@@ -5,14 +5,13 @@ confidence:
 created: 2025-12-06T19:30:49Z
 epistemic:
 last_reviewed:
-modified: 2025-12-10T20:00:14Z
+modified: 2025-12-12T18:18:35Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: archived
-tags:
-  - state/thinking
+tags: [state/thinking]
 title: HEAD - Forgetting My Own Breakthroughs
 type: head
 uid:

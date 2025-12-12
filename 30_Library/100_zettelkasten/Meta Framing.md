@@ -4,7 +4,7 @@ confidence:
 created: 2025-02-07T12:57:55Z
 epistemic:
 last_reviewed:
-modified: 2025-11-01T09:43:59Z
+modified: 2025-12-12T18:18:31Z
 patterns:
 purpose:
 review_interval:
@@ -12,7 +12,7 @@ see_also: []
 source_of_truth: []
 status:
 tags: [meta_framing]
-title: meta framing
+title: Meta Framing
 type: map
 uid:
 updated:

@@ -1,23 +1,22 @@
 ---
 aliases: []
+AoL: Personal
 confidence:
 created: 2025-12-05T15:38:57Z
 epistemic:
 last_reviewed:
-modified: 2025-12-07T18:13:20Z
+modified: 2025-12-12T18:18:04Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: archived
-tags:
-  - state/thinking
+tags: [state/thinking]
 title: HEAD - Learned Helplessness
 type: head
 uid:
 up: "[[00_Workbench]]"
 updated:
-AoL: Personal
 ---
 
 > [!abstract] The Spark

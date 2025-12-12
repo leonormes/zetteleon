@@ -4,21 +4,13 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-10T20:00:14Z
+modified: 2025-12-12T18:18:35Z
 purpose: To structure the thinking and planning for standardizing Kubernetes observability across the team.
 review_interval:
-see_also:
-  - "[[Authentication Summary for AKS, EKS, and Terraform Cloud]]"
-  - "[[AWS ENIs Connect EKS Worker Nodes to VPC Networks]]"
-  - "[[30_Library/100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address]]"
+see_also: ["[[30_Library/100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address]]", "[[Authentication Summary for AKS, EKS, and Terraform Cloud]]", "[[AWS ENIs Connect EKS Worker Nodes to VPC Networks]]"]
 source_of_truth: []
 status: someday
-tags:
-  - head
-  - k8s
-  - monitoring
-  - observability
-  - thinking
+tags: [head, k8s, monitoring, observability, thinking]
 title: HEAD - Kubernetes Observability Standardization
 type: head
 uid:

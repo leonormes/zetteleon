@@ -4,15 +4,14 @@ confidence:
 created: 2025-10-25T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-10-30T11:06:53Z
+modified: 2025-12-12T18:18:40Z
 purpose:
 review_interval:
 see_also: []
 source: https://gemini.google.com/share/063c502e0363
 source_of_truth: []
 status:
-tags:
-  - llm_session
+tags: [llm_session]
 title: Azure NAT Gateway Outbound Connectivity
 type:
 uid:

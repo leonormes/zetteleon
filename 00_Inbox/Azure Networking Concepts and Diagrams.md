@@ -4,15 +4,14 @@ confidence:
 created: 2025-11-02T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-11-02T13:02:09Z
+modified: 2025-12-12T18:18:40Z
 purpose:
 review_interval:
 see_also: []
 source: https://gemini.google.com/share/0aee5595ef23
 source_of_truth: []
 status:
-tags:
-  - llm_session
+tags: [llm_session]
 title: Azure Networking Concepts and Diagrams
 type:
 uid:

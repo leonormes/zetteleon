@@ -1,14 +1,7 @@
 ---
-aliases:
-  - AKS Auto-Shutdown
-  - Cloud Cost Saving
-  - Environment Hibernation
+aliases: [AKS Auto-Shutdown, Cloud Cost Saving, Environment Hibernation]
 confidence:
-confidence-gaps:
-  - Alerting strategy for hibernation failures
-  - GCP)
-  - Generalizability to other cloud providers (AWS
-  - Handling stateful applications during shutdown
+confidence-gaps: [Alerting strategy for hibernation failures, GCP), Generalizability to other cloud providers (AWS, Handling stateful applications during shutdown]
 created: 2025-11-13T15:02:44Z
 creation_date: 2025-11-13
 decay-signals: []
@@ -17,26 +10,18 @@ last-resonance: 2025-11-13
 last-synthesis: 2025-11-13
 last_reviewed:
 llm-responses: 1
-modified: 2025-12-07T18:13:20Z
+modified: 2025-12-12T18:18:05Z
 mvu-hash: e1c5a0a4d1b3b0b1c0b0a4d1b3b0b1c0b0a4d1b3b0b1c0b0a4d1b3b0b1c0b0a4
 purpose:
-quality-markers:
-  - initial synthesis
+quality-markers: [initial synthesis]
 resonance-score: 1
 review_interval:
 see_also: []
 source_of_truth: true
 status:
-supersedes:
-  - "[[FFAPP-4416 Schedule testing and staging clusters to hibernate outside working hours]]"
+supersedes: ["[[FFAPP-4416 Schedule testing and staging clusters to hibernate outside working hours]]"]
 synthesis-count: 1
-tags:
-  - aks
-  - azure
-  - cloud
-  - cost-optimization
-  - devops
-  - terraform
+tags: [aks, azure, cloud, cost-optimization, devops, terraform]
 title: SoT - Automated Cloud Resource Hibernation
 trust-level: developing
 type: SoT

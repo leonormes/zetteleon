@@ -4,17 +4,13 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T11:11:32Z
+modified: 2025-12-12T18:18:35Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: archived
-tags:
-  - head
-  - prodos
-  - psychology
-  - thinking
+tags: [head, prodos, psychology, thinking]
 title: HEAD - Modeling Resistance in ProdOS
 type: head
 uid:
