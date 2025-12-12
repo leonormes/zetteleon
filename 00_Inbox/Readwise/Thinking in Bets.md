@@ -5,7 +5,7 @@ created: 2025-12-07T00:00:00Z
 epistemic:
 last-synthesis: 2025-12-12
 last_reviewed:
-modified: 2025-12-10T19:59:41Z
+modified: 2025-12-12T17:17:27Z
 purpose: To define the role of Identity as the primary engine for sustained behavioral change.
 review_interval:
 see_also: []
@@ -13,7 +13,7 @@ source_of_truth: true
 status: stable
 supersedes: ["[[Powerful Identity]]"]
 tags: [behavioral_science, habits, identity, psychology]
-title: SoT - Identity-Based Habit Formation
+title: Thinking in Bets
 type: SoT
 uid:
 updated:
@@ -68,22 +68,28 @@ The word *identity* derives from the Latin *essentitas* (being) and *identidem* 
 For neurodivergent minds, deep-seated identity beliefs ("I am lazy," "I am a procrastinator") create a "Repeated Beingness" of failure. To dismantle these:
 
 ### A. The Origin of Doubt
+
 Often, these beliefs are not yours. A bad teacher or parent may have installed a doubt ("You cannot") that continues to sting years later. The "discursive meanderings of your inner voice" may insist on failure despite evidence to the contrary.
+
 -   **The Fix:** Recognize the voice as an external script, not an internal truth.
 
 ### B. Identify and Edit
+
 Recognize the blanket statement ("I'm always late") and deliberately choose a new identity ("I am the person who shows up").
-*   **Reframing:** Change "I *have* to work" (Burden) to "I *get* to build skills" (Opportunity).
+
+-   **Reframing:** Change "I *have* to work" (Burden) to "I *get* to build skills" (Opportunity).
 
 ### C. The Minimum Viable Habit (MVH)
+
 To cast a vote for a new identity without triggering ADHD paralysis, use the **Two-Minute Rule**. The goal is to master *showing up*, not the result.
-*   *Identity Goal:* "I am a writer." -> *MVH:* "Open my notes." (Not "Write for 2 hours").
-*   *Identity Goal:* "I am tidy." -> *MVH:* "Put one item away."
-*   *Principle:* A habit must be established before it can be improved. Standardize, then optimize.
+
+-   *Identity Goal:* "I am a writer." -> *MVH:* "Open my notes." (Not "Write for 2 hours").
+-   *Identity Goal:* "I am tidy." -> *MVH:* "Put one item away."
+-   *Principle:* A habit must be established before it can be improved. Standardize, then optimize.
 
 ### D. Friction Engineering
-*   **Make it Easy (Good Identity):** Prime the environment (e.g., leave the laptop open).
-*   **Make it Hard (Bad Identity):** Increase friction (e.g., phone in another room).
+-   **Make it Easy (Good Identity):** Prime the environment (e.g., leave the laptop open).
+-   **Make it Hard (Bad Identity):** Increase friction (e.g., phone in another room).
 
 ---
 
@@ -92,15 +98,19 @@ To cast a vote for a new identity without triggering ADHD paralysis, use the **T
 The "Childish Mind" will rebel against discomfort. Use these protocols to stay on the path:
 
 ### A. The "Never Miss Twice" Rule
+
 The first mistake is an accident; the second is the start of a new identity.
-*   **Protocol:** If you miss a day, your *only* job the next day is to perform the MVH. Return to the identity immediately.
+
+-   **Protocol:** If you miss a day, your *only* job the next day is to perform the MVH. Return to the identity immediately.
 
 ### B. The "Quit on the Third Time" Technique
+
 When the urge to quit arises during a task:
+
 1.  **First Urge:** Pause, notice it, continue.
 2.  **Second Urge:** Pause, notice it, continue.
 3.  **Third Urge:** Permission granted to stop.
-*   *Why:* This builds "Distress Tolerance" without forcing a shame spiral.
+-   *Why:* This builds "Distress Tolerance" without forcing a shame spiral.
 
 ---
 

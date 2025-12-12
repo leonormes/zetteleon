@@ -1,19 +1,17 @@
 ---
-aliases: [SCM Patterns SoT, Configuration Management SoT, Code as Configuration]
+aliases: [Code as Configuration, Configuration Management SoT, SCM Patterns SoT]
 confidence: 
-created: 2025-12-12
+created: 2025-12-12T00:00:00Z
 epistemic: 
 last-synthesis: 2025-12-12
 last_reviewed: 
-modified: 
+modified: 2025-12-12T17:16:50Z
 purpose: To define the core principles of Software Configuration Management (SCM) as the foundational discipline for reproducible, reliable software delivery.
 review_interval: 6 months
-see_also: 
-  - "[[SoT - Automated Cloud Resource Hibernation]]"
-  - "[[SoT - PRODOS (System Architecture)]]"
+see_also: ["[[SoT - Automated Cloud Resource Hibernation]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: true
 status: stable
-tags: [scm, devops, software_engineering, architecture, patterns]
+tags: [architecture, devops, patterns, scm, software_engineering]
 title: SoT - Software Configuration Management Patterns
 type: SoT
 uid: 
@@ -24,7 +22,7 @@ updated:
 
 > [!definition] Software Configuration Management (SCM)
 > SCM is the discipline of identifying, organizing, and controlling modifications to the software being built.
-> 
+>
 > **Core Principle:** A software system is the sum of **all** its code and artifacts (data, docs, tests). If you cannot reproduce the system from version control, you do not have control.
 
 ---
@@ -43,13 +41,17 @@ updated:
 ## 3. Current Understanding (Evolving)
 
 ### The Integration Trade-off
+
 Agile methodologies (like XP) advocate for **Continuous Integration**.
+
 -   **The Tension:** Integration takes time (overhead).
 -   **The Solution:** Err on the side of integrating *too often*. Frequent integration reduces the "integration hell" of merging long-lived branches.
 -   **Optimization:** Find the balance point where the speed of feedback outweighs the overhead of the commit process.
 
 ### Architecture and SCM
+
 SCM is not just a tooling concern; it is an architectural one.
+
 -   **Conway's Law:** The structure of the SCM system (repos, branches) often mirrors the communication structure of the organization.
 -   **Patterns:**
     -   **Mainline:** Single source of truth.
