@@ -7,7 +7,7 @@ decay-signals: []
 epistemic:
 last-synthesis: 2025-12-07
 last_reviewed: 2025-12-07
-modified: 2025-12-10T19:59:40Z
+modified: 2025-12-11T18:21:27Z
 purpose: The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system.
 quality-markers: [Clarifies the Human-in-the-Loop LLM workflow., Defines the core cognitive loop., Establishes verifiable acceptance criteria., Integrates Hansei Reflection Loop.]
 related-soTs: ["[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]"]
@@ -44,7 +44,7 @@ Conventional PKM and productivity systems fail because they are not designed for
 | **Administrative Friction** | The "toil" of organizing, tagging, and processing notes drains executive function, causing the system to be abandoned.                                   | **Zero-Toil Automation:** The user's role is frictionless capture. A "Chief of Staff" LLM handles all synthesis, structuring, and metadata.                      |
 | **Displacement Activity**   | "Organizing" (folders, tags) serves as a dopamine-rich distraction to avoid the pain of actual work ("The Alcohol").                                     | **The Psychiatrist Protocol:** Strict separation of "Writing to Think" (Therapy) vs. "Organizing to Hide" (Addiction). The only valid output is a reality-testing action.|
 | **Version Control Failure** | Treating "Dev Branches" (HEAD notes) as "Master" (SoT). The system is flooded with broken, deprecated thoughts ("The Log"), making search unreliable.    | **The Merge & Delete Ritual:** Strict separation of ephemeral "Work" vs. durable "Knowledge". You must "squash and merge" your thinking into the SoT, then delete the branch. |
-| **Engine Stall**            | Having Direction (Choice/Plan) but no Energy (Dopamine). "Turning the wheel but the car won't move." This is **[[The War of Art - Resistance and Turning Pro|Resistance]]**.                                                     | **The Ignition Protocol:** Use the HEAD note to refactor "Boring Tasks" into "Interesting Hypotheses" (Mystery, Spite, Urgency) to manufacture dopamine.                      |
+| **Engine Stall**            | Having Direction (Choice/Plan) but no Energy (Dopamine). "Turning the wheel but the car won't move." (See [[Breaking the Creation Cycle]])                                                     | **The Ignition Protocol:** Use the HEAD note to refactor "Boring Tasks" into "Interesting Hypotheses" (Mystery, Spite, Urgency) to manufacture dopamine.                      |
 
 ### Comparative Analysis: Storage (Museum) vs. Compute (Factory)
 
@@ -133,6 +133,7 @@ Moving beyond the "buzz" of potential, we assess success through concrete, real-
 -   **Simplicity:** Is the barrier to entry low enough that you capture ideas even when tired?
 
 ---
+
 ## 6. Structural Implementation & Integrations
 
 The folder structure and tool integration reflect the cognitive loop. PRODOS v5.0 represents the "ultimate maturation" of the system, consolidated into a highly optimized **4-file system** (down from 72) to maximize LLM efficiency (75-90% faster loading).
@@ -245,9 +246,14 @@ The system is not static; it requires active maintenance to prevent "Trust Decay
 
 ## 11. Related Components
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
-- [[SoT - Process Primacy (Systems Over Goals)]]
+- [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
+- [[SoT - PRODOS - Action Management (GTD)]]
 - [[SoT - Temporal Management (Blocking and Boxing)]]
-- [[The War of Art - Resistance and Turning Pro]]
+- [[SoT - The Cognitive Physiology of Task Execution]]
+- [[SoT - The Honeyman Method (Adaptive Routines)]]
+- [[SoT - Identity-Based Habit Formation]]
+- [[SoT - PRODOS - System Failure Modes]]
+- **Case Study:** [[Breaking the Creation Cycle]]
 - **Example Implementation:** [[Detailed Example From Spark to Synthesis]]
 
 ## 12. Status & Roadmap

@@ -30,4 +30,3 @@ See also:
 - [[Zettelkasten System Essence]]
 - [[Extended Thought and Reflection for Understanding]]
 - [[Paraphrasing is a Complex Cognitive Skill]]
-- [[A Digital System Can Externalise and Organise Thoughts]]

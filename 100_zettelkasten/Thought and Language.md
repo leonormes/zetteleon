@@ -18,6 +18,12 @@ updated:
 version:
 ---
 
+## Thought and Language
+
+> [!info] Canonical Source
+> This topic has been synthesized into a Source of Truth.
+> See: **[[SoT - The Thought-Language Continuum]]**
+
 This is a collection of Zettelkasten notes exploring the relationship between thought and language, based on "The Unruly Terrain Between Thought and Language: A Philosophical Exploration."
 
 ## Main Entry Point

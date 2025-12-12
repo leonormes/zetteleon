@@ -62,7 +62,44 @@ The word *identity* derives from the Latin *essentitas* (being) and *identidem* 
 
 ---
 
-## 5. Identity as a Barrier (The Conflict)
+## 5. Dismantling Negative Beliefs (The ADHD Protocol)
+
+For neurodivergent minds, deep-seated identity beliefs ("I am lazy," "I am a procrastinator") create a "Repeated Beingness" of failure. To dismantle these:
+
+### A. Identify and Edit
+Recognize the blanket statement ("I'm always late") and deliberately choose a new identity ("I am the person who shows up").
+*   **Reframing:** Change "I *have* to work" (Burden) to "I *get* to build skills" (Opportunity).
+
+### B. The Minimum Viable Habit (MVH)
+To cast a vote for a new identity without triggering ADHD paralysis, use the **Two-Minute Rule**. The goal is to master *showing up*, not the result.
+*   *Identity Goal:* "I am a writer." -> *MVH:* "Open my notes." (Not "Write for 2 hours").
+*   *Identity Goal:* "I am tidy." -> *MVH:* "Put one item away."
+*   *Principle:* A habit must be established before it can be improved. Standardize, then optimize.
+
+### C. Friction Engineering
+*   **Make it Easy (Good Identity):** Prime the environment (e.g., leave the laptop open).
+*   **Make it Hard (Bad Identity):** Increase friction (e.g., phone in another room).
+
+---
+
+## 6. Managing Resistance & Setbacks
+
+The "Childish Mind" will rebel against discomfort. Use these protocols to stay on the path:
+
+### A. The "Never Miss Twice" Rule
+The first mistake is an accident; the second is the start of a new identity.
+*   **Protocol:** If you miss a day, your *only* job the next day is to perform the MVH. Return to the identity immediately.
+
+### B. The "Quit on the Third Time" Technique
+When the urge to quit arises during a task:
+1.  **First Urge:** Pause, notice it, continue.
+2.  **Second Urge:** Pause, notice it, continue.
+3.  **Third Urge:** Permission granted to stop.
+*   *Why:* This builds "Distress Tolerance" without forcing a shame spiral.
+
+---
+
+## 7. Identity as a Barrier (The Conflict)
 
 While identity drives good habits, **Old Identity Sabotage** prevents growth.
 
@@ -72,7 +109,7 @@ While identity drives good habits, **Old Identity Sabotage** prevents growth.
 
 ---
 
-## 6. Analogy
+## 8. Analogy
 
 > Thinking about identity when building habits is like choosing the **blueprint** for a house before laying the foundation.
 >
@@ -81,7 +118,7 @@ While identity drives good habits, **Old Identity Sabotage** prevents growth.
 
 ---
 
-## 7. Related Components
+## 9. Related Components
 - [[SoT - PRODOS - Action Management (GTD)]]
 - [[SoT - PRODOS (System Architecture)]]
 - [[SoT - Atomic Habits]]

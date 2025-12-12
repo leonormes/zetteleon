@@ -4,7 +4,7 @@ confidence:
 created: 2025-07-25T00:07:05Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-09T12:33:17Z
+modified: 2025-12-11T18:25:35Z
 purpose: 
 review_interval: 
 see_also: []
@@ -29,5 +29,3 @@ A thought partner should allow for recording thoughts. These recorded thoughts n
 [[Contextual Integration of New Ideas]]
 
 [[MOC Desired Thought Partner Functionality]]
-
-[[Externalise Everything]]

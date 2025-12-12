@@ -38,7 +38,7 @@ Beliefs are neither good nor bad right or wrong but rather limiting or empowerin
 
 [[Discipline and Values]]
 
-[[meta framing]]
+[[Meta Framing]]
 
 [[negative_labels]]
 

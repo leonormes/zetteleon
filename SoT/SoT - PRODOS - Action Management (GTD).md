@@ -38,6 +38,7 @@ This separation is not just organizational; it is neurological.
 - **Obsidian (Thinking)** engages the **Default Mode Network (DMN)**—the imaginative, wandering, and sometimes ruminative part of the brain.
 - **Todoist (Doing)** is designed to engage the **Task Positive Network (TPN)**—the "get it done" mode.
 - **The Bridge** acts as the switch. Moving to Todoist is an *external* trigger that shuts down the DMN (rumination) and activates the TPN (action).
+- **See Also:** **[[SoT - The Cognitive Physiology of Task Execution]]** for the breakdown of the 5 distinct cognitive phases (Initiation, Planning, Execution, Monitoring, Completion).
 
 ### The Mindset: Purpose Over Feelings
 
@@ -138,16 +139,39 @@ This pipeline converts "Cognitive Fog" into "Binary Action."
 
 - **Execution:** User performs the task, checks off in Obsidian (for record) and Todoist (for dopamine).
 
+### 4.5 Re-entry Rituals & Project Momentum
+
+To directly combat the "always start fresh" loop (see [[Breaking the Creation Cycle]]), ProdOS incorporates explicit rituals designed to lower the activation energy for returning to projects and maintain momentum.
+
+#### A. The Re-entry Ritual (from [[Breaking the Creation Cycle]])
+This 10-minute ritual is performed at the start of any work session:
+1.  **Read SESSION Note:** Rapidly reload the previous mental model (see [[SoT - PRODOS - Knowledge Synthesis (Thinking)#Externalizing the Mental Model: The SESSION Note Protocol|SESSION Note Protocol]]).
+2.  **Warm Start:** Execute basic environment setup commands (e.g., `make dev && npm test`).
+3.  **Execute Smallest Next Task:** Complete a task (<15 min) to build momentum.
+
+#### B. Minimal Path to Demo (MPD)
+For larger projects, defining a **Minimal Path to Demo (MPD)** is crucial. An MPD is the smallest set of features that delivers a demonstrable, working outcome.
+*   **Purpose:** Provides a concrete, achievable "done" state that feeds dopamine and provides clear direction, preventing endless refactoring or scope creep.
+*   **Protocol:**
+    1.  **Demo Contract:** Define what the user can do, what they see, and any relevant logging/metrics.
+    2.  **Non-Goals:** Explicitly list what *not* to do in this iteration.
+    3.  **Task Slicing:** Break down the MPD into 5-9 tasks, each completable in 1-2 hours.
+
+#### C. Constraint Your "Fresh Starts"
+To safely channel novelty-seeking:
+*   **One-Pager Restart Rule:** Any revolutionary idea must fit a single-page specification (scope, architecture sketch, MPD).
+*   **Time-boxed "Novelty Spikes":** Allocate 60-90 minutes for exploratory work (`spike/<wild-idea>`). This satisfies the desire for novelty without derailing the main project. Spikes must end with a summary and a decision (adopt, park, archive).
+
 ---
 
 ## 5. Temporal Integration
 
 GTD manages **Inventory** (What to do), but it does not manage **Capacity** (When to do it). To prevent "List Overwhelm," ProdOS integrates strict Temporal Management.
 
--   **See Canonical Protocol:** **[[SoT - Temporal Management (Blocking and Boxing)]]**
+*   **See Canonical Protocol:** **[[SoT - Temporal Management (Blocking and Boxing)]]**
 
 ### The Integration Point
--   **The Bridge:** When moving a task to Todoist, you must decide its temporal fate:
+*   **The Bridge:** When moving a task to Todoist, you must decide its temporal fate:
     -   **P1 (Critical):** Must be **Time Blocked** on the Calendar immediately.
     -   **P2 (Important):** Must have a defined **Time Box** (Duration) attached (e.g., `[25m]`).
     -   **P3 (Routine):** Batched into a "Shallow Work" block.
@@ -176,7 +200,7 @@ SORT file.cday desc
 
 ### B. The "Active Loops" Dashboard
 
-*Shows open loops that are currently in progress (Obsidian Tasks).*
+*Shows open loops that are currently in progress (Obsidian Tasks)..*
 
 ```dataview
 
