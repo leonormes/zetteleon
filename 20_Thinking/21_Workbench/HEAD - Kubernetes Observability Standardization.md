@@ -55,4 +55,4 @@ We currently have Grafana dashboards, but I suspect they are not "standardized" 
 ## Related Knowledge
 - [[Authentication Summary for AKS, EKS, and Terraform Cloud]]
 - [[AWS ENIs Connect EKS Worker Nodes to VPC Networks]]
-- [[Containers Within a Pod Share Network Namespace and IP Address]]
+- [[100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address]]

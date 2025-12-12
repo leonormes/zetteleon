@@ -20,7 +20,7 @@ updated:
 
 ## Sequence - Container to Internet Packet Flow in EKS
 
-1. [[Containers Within a Pod Share Network Namespace and IP Address]]
+1. [[100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address]]
 2. [[Kubernetes Performs SNAT for Pod Egress Traffic]]
 3. [[AWS ENIs Connect EKS Worker Nodes to VPC Networks]]
 4. [[NAT Gateways Enable Private Resources to Access Internet]]

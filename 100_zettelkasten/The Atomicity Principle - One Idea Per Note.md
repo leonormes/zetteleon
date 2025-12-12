@@ -31,7 +31,7 @@ In practice, achieving "true" atomicity is challenging because:
 2. **Context is unavoidable** - meaning exists within frameworks
 3. **Perfect independence is a myth** - all ideas connect to others
 
-The goal is not absolute independence but **loose coupling**: notes that can be understood on their own yet meaningfully connect to create emergent insights. See [[200_projects/ProdOS/The Problem of False Atoms]] for deep exploration of this tension.
+The goal is not absolute independence but **loose coupling**: notes that can be understood on their own yet meaningfully connect to create emergent insights. See [[30_Library/200_projects/ProdOS/The Problem of False Atoms]] for deep exploration of this tension.
 
 ## Practical Guidelines
 
@@ -48,7 +48,7 @@ The goal is not absolute independence but **loose coupling**: notes that can be 
 
 ## Related
 
-- `elaborated-in::` [[200_projects/ProdOS/The Problem of False Atoms]] - Philosophical exploration of atomicity
+- `elaborated-in::` [[30_Library/200_projects/ProdOS/The Problem of False Atoms]] - Philosophical exploration of atomicity
 
 > **Status gates**
 > - seedling → growing: has summary + details + at least 1 inbound link.

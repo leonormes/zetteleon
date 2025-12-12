@@ -36,4 +36,4 @@ Either way, it is important to understand that as data is sent across the wire, 
 
 This article categorizes different network functions into different layers of the OSI model. While essential for understanding how packets move through a network, the OSI model itself is not a strict requirement as much as it is a *conceptual* model — not every protocol will fit perfectly within a single layer of the OSI model.
 
-[[OSI Model]]
+[[OSI model]]

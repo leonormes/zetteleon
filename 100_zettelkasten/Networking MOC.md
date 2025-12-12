@@ -73,7 +73,7 @@ This Map of Content (MOC) serves as the top-level entry point for all networking
 
 ## Kubernetes Networking
 
-- [[Containers Within a Pod Share Network Namespace and IP Address]]
+- [[100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address]]
 - [[Kubernetes Performs SNAT for Pod Egress Traffic]]
 - [[AWS ENIs Connect EKS Worker Nodes to VPC Networks]]
 - [[Kubernetes Ingress Controllers Handle L7 Traffic]]

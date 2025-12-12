@@ -25,5 +25,5 @@ When a DNS query, such as for `app.privatelink.fitfile.net`, resolves to the Ing
 The primary protocols handled are HTTPS (port 443) and HTTP (port 80). This aligns with the [[Layer 7 Application Layer]] of the OSI model, where application-specific protocols are managed.
 
 **Prerequisite Knowledge:**
-- [[Containers Within a Pod Share Network Namespace and IP Address]]
+- [[100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address]]
 - Ingress operates at cluster edge while pod networking handles internal traffic
