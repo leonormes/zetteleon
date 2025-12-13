@@ -29,7 +29,8 @@ type: SoT
 uid: null
 updated: null
 related-soTs: '["[[SoT - Automated Cloud Resource Hibernation]]", "[[SoT -
-  PRODOS (System Architecture)]]", "[[SoT - Git]]"]'
+  PRODOS (System Architecture)]]", "[[SoT - Git]]", "[[SoT - Generative
+  Infrastructure Configuration Framework]]"]'
 ---
 
 ## 1. Definitive Statement
@@ -91,3 +92,7 @@ SCM is not just a tooling concern; it is an architectural one.
 ### Git as a Foundational SCM Tool
 
 Git, as a distributed version control system, embodies many of the core principles of SCM. Its snapshot-based data model, Directed Acyclic Graph (DAG) history, and robust branching and merging capabilities make it an indispensable tool for managing source code, configurations, and documentation. For a deep dive into Git's architecture, workflows, and best practices, refer to [[SoT - Git]].
+# Git as a Foundational SCM Tool
+### Patterns: Configuration Management
+
+Configuration should be treated as a first-class citizen in SCM. The **Generative Infrastructure Configuration (GIC) Framework** offers a robust pattern for managing complex environments by treating configuration as a generated output derived from a minimal "Configuration Kernel" (Intent) via code (Protocol). This reduces fragility and ensures consistency. See [[SoT - Generative Infrastructure Configuration Framework]].
