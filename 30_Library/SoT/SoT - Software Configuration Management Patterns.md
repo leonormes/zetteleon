@@ -1,21 +1,35 @@
 ---
-aliases: [Code as Configuration, Configuration Management SoT, SCM Patterns SoT]
-confidence: 
+aliases:
+  - Code as Configuration
+  - Configuration Management SoT
+  - SCM Patterns SoT
+confidence: null
 created: 2025-12-12T00:00:00Z
-epistemic: 
+epistemic: null
 last-synthesis: 2025-12-12
-last_reviewed: 
+last_reviewed: null
 modified: 2025-12-12T17:16:50Z
-purpose: To define the core principles of Software Configuration Management (SCM) as the foundational discipline for reproducible, reliable software delivery.
+purpose: To define the core principles of Software Configuration Management
+  (SCM) as the foundational discipline for reproducible, reliable software
+  delivery.
 review_interval: 6 months
-see_also: ["[[SoT - Automated Cloud Resource Hibernation]]", "[[SoT - PRODOS (System Architecture)]]"]
+see_also:
+  - "[[SoT - Automated Cloud Resource Hibernation]]"
+  - "[[SoT - PRODOS (System Architecture)]]"
 source_of_truth: true
 status: stable
-tags: [architecture, devops, patterns, scm, software_engineering]
+tags:
+  - architecture
+  - devops
+  - patterns
+  - scm
+  - software_engineering
 title: SoT - Software Configuration Management Patterns
 type: SoT
-uid: 
-updated: 
+uid: null
+updated: null
+related-soTs: '["[[SoT - Automated Cloud Resource Hibernation]]", "[[SoT -
+  PRODOS (System Architecture)]]", "[[SoT - Git]]"]'
 ---
 
 ## 1. Definitive Statement
@@ -73,3 +87,7 @@ SCM is not just a tooling concern; it is an architectural one.
 -   [[Software Configuration Management Patterns]] by Steve Berczuk and Brad Appleton
 -   *Extreme Programming Explained* by Kent Beck (referenced)
 -   *Continuous Delivery* by Jez Humble (related concept)
+# Architecture and SCM
+### Git as a Foundational SCM Tool
+
+Git, as a distributed version control system, embodies many of the core principles of SCM. Its snapshot-based data model, Directed Acyclic Graph (DAG) history, and robust branching and merging capabilities make it an indispensable tool for managing source code, configurations, and documentation. For a deep dive into Git's architecture, workflows, and best practices, refer to [[SoT - Git]].

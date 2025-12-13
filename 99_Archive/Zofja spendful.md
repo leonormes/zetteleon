@@ -120,4 +120,4 @@ When an emergency arises, approach it this way:
 2.  **Consult the Categories:** "Let's look at the 'Medical' category. It has \$0."
 3.  **Execute the Trade-Off (Rule 3):** "Since we have to pay this, we have to take the money from somewhere else. Should we take it from the 'Vacation' fund or the 'Dining Out' fund? We have to move it now so we know what we have left." [9]
 
-By forcing the trade-off decision *at the moment of spending*, you stop the "figure it out later" habit and reinforce that the money is finite. This turns a stressful "emergency" into a manageable prioritization decision [3].
+By forcing the trade-off decision *at the moment of spending*, you stop the "figure it out later" habit and reinforce that the money is finite. This turns a stressful "emergency" into a manageable prioritization decision.
