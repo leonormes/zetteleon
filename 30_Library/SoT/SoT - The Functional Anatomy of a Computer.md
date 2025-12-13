@@ -1,3 +1,22 @@
+---
+aliases: []
+confidence: 
+created: 2025-12-13T08:39:03Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-13T14:08:10Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: []
+title: SoT - The Functional Anatomy of a Computer
+type: 
+uid: 
+updated: 
+---
+
 ## 5. Bridging Man and Machine (Peripherals)
 
 A computer that calculates but cannot communicate is theoretically valid but practically useless.
@@ -7,6 +26,7 @@ A computer that calculates but cannot communicate is theoretically valid but pra
 -   **The Loop:** User Input -> OS -> CPU -> RAM -> Output.
 
 ### The Input Translation Layer (Keyboard Architecture)
+
 When a user presses a key, the computer does not receive a letter (e.g., "A"). It receives a coordinate. The translation from **Physical Action** to **Digital Symbol** happens in distinct layers:
 
 1.  **Hardware (Scancode):** The keyboard firmware generates a `Scancode` based on the key's physical location on the matrix (e.g., Row 2, Column 3). It knows *where* you pressed, not *what* you pressed.

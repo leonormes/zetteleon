@@ -1,3 +1,22 @@
+---
+aliases: []
+confidence: 
+created: 2025-12-12T23:11:21Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-13T14:08:10Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: []
+title: SoT - Illusion of Explanatory Depth (IoED)
+type: 
+uid: 
+updated: 
+---
+
 ## 2. The Core Mechanism: Heuristic Substitution
 
 The brain creates this illusion to conserve metabolic energy. When confronted with a complex system (e.g., "The Economy," "Kubernetes," "A Toilet"), it performs a rapid heuristic check:

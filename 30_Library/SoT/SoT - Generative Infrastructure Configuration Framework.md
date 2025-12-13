@@ -1,18 +1,18 @@
 ---
-aliases: [GIC Framework, Generative Config, Configuration Generator Pattern]
+aliases: [Configuration Generator Pattern, Generative Config, GIC Framework]
 confidence: 5/5
 created: 2025-12-13T00:00:00Z
 epistemic: 
 last-synthesis: 2025-12-13
 last_reviewed: 2025-12-13
-modified: 2025-12-13T00:00:00Z
+modified: 2025-12-13T14:08:09Z
 purpose: To define the Generative Infrastructure Configuration (GIC) Framework, a pattern for treating configuration as a generated output to maximize robustness and consistency.
-related-soTs: ["[[SoT - Software Configuration Management Patterns]]", "[[SoT - PRODOS (System Architecture)]]"]
+related-soTs: ["[[SoT - PRODOS (System Architecture)]]", "[[SoT - Software Configuration Management Patterns]]"]
 review_interval: 6 months
 see_also: []
 source_of_truth: true
 status: stable
-tags: [architecture, devops, terraform, configuration_management, infrastructure_as_code]
+tags: [architecture, configuration_management, devops, infrastructure_as_code, terraform]
 title: SoT - Generative Infrastructure Configuration Framework
 type: SoT
 uid: 
@@ -31,27 +31,36 @@ updated:
 ## 2. Working Knowledge (The Framework)
 
 ### The Core Problem
+
 Manual configuration in modern distributed systems is fragile. Reliance on vast, explicit `.tfvars` files leads to:
+
 -   **Error-Prone Deployments:** Typos in hostnames or ARNs cause failures.
 -   **Inconsistency:** Naming conventions drift across environments.
 -   **High Cognitive Load:** Developers must manage dozens of unique identifiers.
 -   **Opaque Changes:** The impact of variable changes is often unclear.
 
 ### The Solution Architecture
+
 GIC shifts the source of truth from fragile inputs to robust code.
 
 #### 1. The Configuration Kernel (The Intent)
+
 A minimal set of human-defined inputs describing *what* is being deployed, not *how*.
+
 -   **Example Inputs:** `app_name`, `environment`, `base_domain`, `aws_region`, `cost_centre`.
 -   **Characteristic:** Small surface area, high robustness.
 
 #### 2. The Configuration Generator (The Protocol)
+
 A version-controlled module (e.g., Terraform module) that ingests the Kernel and applies codified rules to producing a deterministic output.
+
 -   **Function:** `Kernel -> Generator -> Full Configuration Manifest`
 -   **Characteristic:** Tested, peer-reviewed, "pure function" logic.
 
 #### 3. The Generated Manifest (The Output)
+
 The complex, derived values used by infrastructure resources.
+
 -   **Examples:**
     -   DNS Hostnames: `user-service.prod.my-company.co.uk`
     -   S3 Buckets: `my-company-prod-user-service-assets`
@@ -63,6 +72,7 @@ The complex, derived values used by infrastructure resources.
 ## 3. Current Understanding (Implementation Patterns)
 
 ### Terraform & Helm Integration
+
 GIC is particularly powerful when chaining tools. Terraform acts as the "Root Generator," producing values that are then passed downstream.
 
 **The Workflow:**

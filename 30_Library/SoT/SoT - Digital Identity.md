@@ -1,17 +1,11 @@
 ---
-aliases:
-  - Digital Identity
-  - Identity Data
-  - Identity Attributes
-  - Credentials
-  - Authentication
-  - Authorization
+aliases: [Authentication, Authorization, Credentials, Digital Identity, Identity Attributes, Identity Data]
 confidence: 5/5
 created: 2025-12-13T00:00:00Z
 epistemic: technical
 last-synthesis: 2025-12-13
 last_reviewed: 2025-12-13
-modified: 2025-12-13T00:00:00Z
+modified: 2025-12-13T14:08:09Z
 purpose: To define digital identity from a data-centric perspective, outlining
   its core components, purpose, and abstracted properties for both human and
   machine entities.
@@ -23,13 +17,7 @@ review_interval: 6 months
 see_also: []
 source_of_truth: true
 status: stable
-tags:
-  - security
-  - identity
-  - authentication
-  - authorization
-  - data
-  - IAM
+tags: [authentication, authorization, data, IAM, identity, security]
 title: SoT - Digital Identity
 type: SoT
 uid: null
@@ -48,12 +36,16 @@ updated: null
 A digital identity is best understood through its fundamental data components:
 
 ### A. Identifiers
+
 Unique labels used to refer to a specific identity within a system. An identifier acts as a primary key or pointer to the collection of attributes.
+
 -   **Purpose:** To uniquely name an entity within a given context.
 -   **Examples:** Username, email address, UUID, passport number (digitized). A single person has multiple identifiers across various systems.
 
 ### B. Attributes
+
 Individual pieces of data or claims made about the subject of the identity. These are key-value pairs that describe what the entity *is* or *has*.
+
 -   **Purpose:** To describe characteristics of the entity.
 -   **Types:**
     -   **Self-asserted:** Claimed by the entity itself (e.g., "My name is John").
@@ -61,7 +53,9 @@ Individual pieces of data or claims made about the subject of the identity. Thes
 -   **Examples:** `given_name: "John"`, `date_of_birth: "1990-10-26"`, `is_over_18: true`, `role: "administrator"`.
 
 ### C. Credentials
+
 Tamper-evident, machine-readable data structures that cryptographically bind attributes to an identifier. They are issued by an authority and presented to a relying party to prove claims.
+
 -   **Purpose:** To verifiably prove specific attributes without necessarily revealing all other attributes.
 -   **Examples:** Digital equivalent of a driver's license (proves "over 18" without revealing exact DOB). Can be passwords, digital certificates, OAuth tokens.
 
@@ -72,17 +66,23 @@ Tamper-evident, machine-readable data structures that cryptographically bind att
 From an abstract viewpoint, the fundamental purpose of a digital identity is to **establish sufficient trust to enable interactions in a digital environment**. It achieves this by performing three core functions:
 
 ### A. Authentication
+
 To answer the question, "*Are you who you claim to be?*".
+
 -   **Mechanism:** Verifying a claimed identity (e.g., password, fingerprint, digital certificate).
 -   **Outcome:** Proving to the system that the entity is the legitimate operator of that digital identity.
 
 ### B. Authorization
+
 To answer the question, "*Are you allowed to do that?*".
+
 -   **Mechanism:** Determining what actions an authenticated entity is permitted to perform based on its attributes (e.g., `role: "manager"`, `clearance_level: "secret"`).
 -   **Outcome:** Granting or denying access to resources, data, or functionalities.
 
 ### C. Attribution & Accountability
+
 To reliably link digital actions to a specific identity, and by extension, to the person or system it represents.
+
 -   **Mechanism:** Creating a verifiable record of who did what and when.
 -   **Outcome:** Enabling legal and commercial trust, non-repudiation (inability to deny an action), and accountability.
 
@@ -93,6 +93,7 @@ To reliably link digital actions to a specific identity, and by extension, to th
 While the abstract properties are shared, the *nature* of the claims (attributes) and the *authority* that verifies them differ significantly.
 
 ### A. 🧑 Human Digital Identity
+
 Designed to represent a natural person; its claims are tied to legal and social existence.
 
 -   **Core Claims (Who you are):**
@@ -107,6 +108,7 @@ Designed to represent a natural person; its claims are tied to legal and social 
     -   **Reputation:** Credit score, online reviews.
 
 ### B. ⚙️ Machine/Application/Process Digital Identity
+
 Designed to represent a non-person entity (NPE) like software, server, IoT device, or microservice. Claims relate to its function, origin, and operational context.
 
 -   **Core Claims (What it is):**

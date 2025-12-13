@@ -1,14 +1,11 @@
 ---
-aliases:
-  - Parenting Role
-  - Child Development Pillars
-  - Parental Responsibilities
+aliases: [Child Development Pillars, Parental Responsibilities, Parenting Role]
 confidence: 5/5
 created: 2025-12-13T00:00:00Z
 epistemic: null
 last-synthesis: 2025-12-13
 last_reviewed: 2025-12-13
-modified: 2025-12-13T00:00:00Z
+modified: 2025-12-13T14:08:09Z
 purpose: To define the complex and evolving role of a parent in nurturing a
   child's development towards independence and well-being.
 related-soTs: '["[[SoT - Secure Attachment]]", "[[SoT - PRODOS (System
@@ -19,12 +16,7 @@ review_interval: 12 months
 see_also: []
 source_of_truth: true
 status: stable
-tags:
-  - parenting
-  - family
-  - child_development
-  - psychology
-  - social_roles
+tags: [child_development, family, parenting, psychology, social_roles]
 title: SoT - The Multifaceted Role of a Parent
 type: SoT
 uid: null
