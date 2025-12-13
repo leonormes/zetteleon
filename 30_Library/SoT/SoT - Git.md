@@ -70,12 +70,9 @@ Git uses a content-addressable object database, where objects are identified by 
 
 ```sh
 <type>(<scope>): <short summary>
-
 <detailed description, bullet points>
-
 Breaking Changes:
 - <any breaking changes, omit section if none>
-
 <ticket reference>
 ```
 
