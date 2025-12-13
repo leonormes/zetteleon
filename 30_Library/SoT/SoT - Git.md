@@ -119,11 +119,11 @@ Breaking Changes:
 - [[Git Command to Clone only the git Folder]]
 - [[git extended]]
 - [[gitops]]
-- 30_Library/200_projects/300_Documentation/SDLC/gitops/Properties of a Directed Acyclic Graph.md`
-- 30_Library/200_projects/300_Documentation/SDLC/gitops/rebase.md`
-- 30_Library/200_projects/300_Documentation/SDLC/gitops/Understanding Merge Commits and Diffs.md`
-- 30_Library/200_projects/300_Documentation/SDLC/gitops/undoing changes in git.md`
-- 30_Library/200_projects/300_Documentation/Core/Deployment/DevOps/ff git process for better logs.md`
-- 30_Library/200_projects/300_Documentation/SDLC/CI_CD/cicd fundamental.md`
-- 30_Library/200_projects/300_Documentation/SDLC/CI_CD/efficient and effective Continuous Delivery pipeline.md`
-- 30_Library/200_projects/300_Documentation/SDLC/Workstation Setup/Universal Keymap Plan.md`
+- [[Properties of a Directed Acyclic Graph]]
+- [[rebase]]
+- [[Understanding Merge Commits and Diffs]]
+- [[undoing changes in git]]
+- [[ff git process for better logs]]
+- [[cicd fundamental]]
+- [[efficient and effective Continuous Delivery pipeline]]
+- [[Universal Keymap Plan]]
