@@ -5,7 +5,7 @@ confidence: 4/5
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed: 2025-12-13
-modified: 2025-12-13T13:38:46Z
+modified: 2025-12-13T14:23:33Z
 purpose: To define the canonical Family Budgeting System for ProdOS, integrating YNAB principles (Zero-Based Budgeting) with the 'Spendfulness' mindset.
 related-soTs: ["[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval:
@@ -212,3 +212,30 @@ To make the system work, adopt these behaviors:
 - **From "True Expenses" to "Stability":** The term "True Expenses" was often confusing for new users. The new language focuses on the *result* of saving for irregular bills: financial **Stability**.
 - **From "Age Your Money" to "Resilience":** The "Age of Money" metric was abstract. The focus is now on the tangible action of funding the next month to build **Resilience**.
 - **Introduction of "Spendfulness":** The ultimate goal is no longer just "budgeting" (restriction), but **Spendfulness**—spending without guilt because it aligns with your values.
+## Key Shifts in Thinking
+
+### 10. Open Questions & Tensions
+
+**Current Friction: Mental Model Mismatch**
+There is a persistent struggle with internalizing the core heuristics of the system, particularly for Zofja. The user reports:
+
+> "I still feel Zofja doesn't understand the budget... I think she has a fundamental mistake in her mental model. She is focusing on the wrong thing... Letting the wrong thing guide her moment to moment choices."
+
+**Diagnosis:**
+This is likely a reversion to **Forecasting** (checking Bank Balance) rather than **Allocation** (checking Category Balance). The "wrong thing" guiding choices is the *account total*, which creates a false sense of abundance.
+
+#### Proposed Experiment: The "Steal from the Dream" Protocol
+
+To shift the heuristic from *Abstraction* (Numbers on a screen) to *Tangible Trade-off* (Loss of value), implement the following strict protocol for 7 days.
+
+**The Rule:**
+If an unbudgeted purchase is made (without checking the category first), the funds **must** be covered immediately by moving money from a **High-Desire Category** (e.g., "Holiday Fund," "New Sofa," or "Zofja's Fun Money").
+
+**The Mechanism:**
+1.  Buy the item (e.g., Coffee).
+2.  Open YNAB.
+3.  See the overspending (Red).
+4.  **Cover it specifically from the "Dream" category.**
+5.  **Verbalize the Trade-off:** "I am taking £5 from our Holiday to pay for this coffee."
+
+**Goal:** To make the *opportunity cost* of the spending visceral and immediate, breaking the reliance on the bank balance as the decision guide.

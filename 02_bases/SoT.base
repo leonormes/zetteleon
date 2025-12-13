@@ -9,7 +9,7 @@ views:
       - type
       - tags
     sort:
-      - property: modified
-        direction: DESC
+      - property: created
+        direction: ASC
     columnSize:
       file.name: 432
