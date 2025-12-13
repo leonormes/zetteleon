@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-30T12:00:04Z
 epistemic:
 last_reviewed:
-modified: 2025-12-12T17:17:17Z
+modified: 2025-12-13T18:03:19Z
 purpose:
 review_interval:
 see_also: []
@@ -31,5 +31,3 @@ This note is a summary of the key insights from Steve's video, "Re-thinking task
 - **Language and Meaning Reframe**: [[Reframing Language from Obligation to Purpose Boosts ADHD Task Initiation]] by shifting phrasing from “I need/have to do this” to “Why do I want to do this?” or using the **User Story** format ("As a X, I want Y, So that Z").
 
 This approach reframes ADHD productivity struggles as an issue of action and motivation rather than system failure. Task managers alone don’t solve ADHD challenges; effective initiation and meaningful engagement are essential.
-
-*Source: [[ADHD Task Management]]*
