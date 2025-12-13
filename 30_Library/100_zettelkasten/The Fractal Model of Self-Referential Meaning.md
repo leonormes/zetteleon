@@ -30,4 +30,4 @@ It works in levels:
 
 Each level operates by the same rule: a system, blind to any larger context, generates its own internal logic and sense of importance, which is all-consuming from within but arbitrary from without.
 
-This concept is derived from the broader conversation in [[Contextual Myopia and Human Behavior]].
+This concept is derived from the broader conversation in [[SoT - Contextual Myopia and Human Behavior]].

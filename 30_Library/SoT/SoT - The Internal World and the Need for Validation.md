@@ -1,29 +1,17 @@
 ---
-aliases:
-  - Internal World and Validation SoT
-  - Neurodivergent Creativity and Vulnerability
-  - Soap Bubble Models
-  - The Fragile Brilliance
+aliases: [Internal World and Validation SoT, Neurodivergent Creativity and Vulnerability, Soap Bubble Models, The Fragile Brilliance]
 confidence: 
-created: 2025-12-12
+created: 2025-12-12T00:00:00Z
 epistemic: 
 last-synthesis: 2025-12-12
 last_reviewed: 
-modified: 
+modified: 2025-12-12T23:41:23Z
 purpose: To define the unique dynamics of the neurodivergent "Internal World," explaining why rich mental schemas are paradoxically fragile and how to protect them from the devastating impact of Rejection Sensitive Dysphoria (RSD).
 review_interval: 12 months
-see_also:
-  - "[[SoT - ADHD Executive Dysfunction]]"
-  - "[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]"
-  - "[[SoT - The Thought-Language Continuum]]"
+see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]", "[[SoT - The Thought-Language Continuum]]"]
 source_of_truth: true
 status: stable
-tags:
-  - adhd
-  - neurodivergence
-  - creativity
-  - psychology
-  - rsd
+tags: [adhd, creativity, neurodivergence, psychology, rsd]
 title: SoT - The Internal World and the Need for Validation
 type: SoT
 uid: 
@@ -54,12 +42,16 @@ The neurodivergent mind (particularly Inattentive ADHD) often retreats into an "
 ## 3. The Psychological Mechanics
 
 ### A. The Illusion of Profundity (IOED)
+
 Inside the mind, an idea is supported by "tacit knowledge"—feelings, intuitive leaps, and personal context. It feels profound.
+
 -   **The Crash:** When externalized (spoken/written), this support structure vanishes. The idea often appears skeletal or flawed to others.
 -   **The Pain:** The gap between the *felt* profundity and the *received* confusion causes deep cognitive dissonance and shame.
 
 ### B. Rejection Sensitive Dysphoria (RSD)
+
 For the ADHD mind, rejection is not just unpleasant; it is **catastrophic**.
+
 -   **The Mechanism:** The brain's emotional regulation filter fails to dampen the signal of social disapproval.
 -   **The Result:** A minor critique of an *idea* is experienced as a total rejection of the *person*. This leads to:
     -   **Avoidance:** Refusing to share ideas to stay safe.

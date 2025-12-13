@@ -29,4 +29,4 @@ Bikeshedding is also driven by [[The Focusing Illusion]] - when attention narrow
 
 The underlying mechanism connects to [[Flawed Mental Models Limit Mastery]] - when people lack adequate mental models for complex topics, they default to areas where their existing models feel sufficient, regardless of relative importance.
 
-**Links:** [[Contextual Myopia and Goal Displacement]], [[The Focusing Illusion]], [[Illusion of Explanatory Depth (IoED)]], [[Flawed Mental Models Limit Mastery]], [[Cognitive Dissonance]], [[Contextual Myopia and Human Behavior]], [[MOC Contextual Myopia]]
+**Links:** [[Contextual Myopia and Goal Displacement]], [[The Focusing Illusion]], [[Illusion of Explanatory Depth (IoED)]], [[Flawed Mental Models Limit Mastery]], [[Cognitive Dissonance]], [[SoT - Contextual Myopia and Human Behavior]], [[MOC Contextual Myopia]]

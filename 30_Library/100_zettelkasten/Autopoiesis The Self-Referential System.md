@@ -25,4 +25,4 @@ A living cell is a key example. It constantly uses energy to rebuild its own str
 
 Life is the ultimate self-referential loop, generating its own reason to be. This idea is a core component of the [[The Fractal Model of Self-Referential Meaning]].
 
-This concept is derived from the broader conversation in [[Contextual Myopia and Human Behavior]].
+This concept is derived from the broader conversation in [[SoT - Contextual Myopia and Human Behavior]].

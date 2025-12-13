@@ -44,4 +44,4 @@ This framework appears throughout complex systems:
 
 ## Broader Context
 
-This concept is a foundational part of the [[The Fractal Model of Self-Referential Meaning]] and is discussed in [[Contextual Myopia and Human Behavior]].
+This concept is a foundational part of the [[The Fractal Model of Self-Referential Meaning]] and is discussed in [[SoT - Contextual Myopia and Human Behavior]].

@@ -1,9 +1,9 @@
 views:
-  - type: table
+  - type: list
     name: Table
     filters:
       and:
-        - file.folder == "00_Inbox"
+        - file.folder.contains("00_Inbox")
     order:
       - file.name
       - tags
@@ -12,3 +12,4 @@ views:
         direction: ASC
     columnSize:
       file.name: 469
+    indentProperties: true

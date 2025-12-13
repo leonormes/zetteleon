@@ -3,8 +3,8 @@ aliases: [ProdOS Index, Productivity Operating System]
 confidence: 5/5
 created: 2025-12-04T14:38:32Z
 epistemic:
-last_reviewed: 2025-12-11
-modified: 2025-12-12T18:18:05Z
+last_reviewed: 2025-12-13
+modified: 2025-12-13T10:30:00Z
 purpose: The Master Map of Content for the ProdOS ecosystem, routing to all Source of Truth notes.
 review_interval: 3 months
 see_also: []
@@ -52,6 +52,7 @@ How to turn raw confusion into structured insight.
 -   **[[SoT - The Unified Writing to Think Process]]** — *Using writing as a tool for discovery.*
 -   **[[SoT - Capturing Context (The Machinery of Thinking)]]** — *Techniques for preserving mental state across sessions.*
 -   **[[SoT - The Extended Mind]]** — *Why we offload cognition (Cumulative vs. Cyclical thinking).*
+-   **[[SoT - Simplicity and Re-entry (ProdOS Principles)]]** — *The "Effortless Engagement" protocol.*
 
 ---
 

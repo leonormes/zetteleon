@@ -79,9 +79,3 @@ Ultimately, the role of a parent is not to create a clone of themselves or to fu
 - **Able to find purpose and contribute positively to society.**
 
 The great paradox of parenting is that all the effort is aimed at making yourself progressively less necessary in your child's life.
-
-Google Account
-
-Leon Ormes
-
-<leonormes@gmail.com>

@@ -1,56 +1,29 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-12-12T15:49:32Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-12T16:07:52Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed: 2025-12-12
+modified: 2025-12-13T09:03:30Z
+purpose: Redirect to the Canonical Source of Truth.
+review_interval:
 see_also: []
-source_of_truth: []
-status: 
-tags: [books]
+source_of_truth: ["[[SoT - Psychological Safety and Belonging]]"]
+status: archived
+tags: [archived, books]
 title: The Culture Code
-type: 
-uid: 
-updated: 
+type: redirect
+uid:
+updated: 2025-12-12T16:47:00Z
 ---
 
-## The Culture Code
+> [!abstract] Archived / Consolidated
+> This note has been synthesized and consolidated into the canonical **Source of Truth**.
+>
+> Please refer to: **[[SoT - Psychological Safety and Belonging]]**
 
-![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/51S2PyWhw8L._SL200_.jpg)
+## Original Summary
 
-### Metadata
-- Author: [[Daniel Coyle]]
-- Full Title: The Culture Code
-- Category: #books
+Highlights from "The Culture Code" by Daniel Coyle, focusing on psychological safety, belonging cues, and their impact on team performance.
 
-### Highlights
-- We don’t normally think of safety as being so important. We consider safety to be the equivalent of an emotional weather system—noticeable but hardly a difference maker. But what we see here gives us a window into a powerful idea. Safety is not mere emotional weather but rather the foundation on which strong culture is built. The deeper questions are, Where does it come from? And how do you go about building it? ([Location 159](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=159))
-    - Note: Social connection comes from safety. Feeling safe with someone or group enhances or feelings of well-being
-- Close physical proximity, often in circles Profuse amounts of eye contact Physical touch (handshakes, fist bumps, hugs) Lots of short, energetic exchanges (no long speeches) High levels of mixing; everyone talks to everyone Few interruptions Lots of questions Intensive, active listening Humor, laughter Small, attentive courtesies (thank-yous, opening doors, etc.) ([Location 176](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=176))
-- The MIT Human Dynamics Lab is ([Location 187](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=187))
-- Belonging cues are behaviors that create safe connection in groups. They include, among others, proximity, eye contact, energy, mimicry, turn taking, attention, body language, vocal pitch, consistency of emphasis, and whether everyone talks to everyone else in the group. Like any language, belonging cues can’t be reduced to an isolated moment but rather consist of a steady pulse of interactions within a social relationship. Their function is to answer the ancient, ever-present questions glowing in our brains: Are we safe here? What’s our future with these people? Are there dangers lurking? ([Location 209](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=209))
-    - Tags: [[team]] [[favorite]]
-- Belonging cues are behaviors that create safe connection in groups. They include, among others, proximity, eye contact, energy, mimicry, turn taking, attention, body language, vocal pitch, consistency of emphasis, and whether everyone talks to everyone else in the group. Like any language, belonging cues can’t be reduced to an isolated moment but rather consist of a steady pulse of interactions within a social relationship. Their function is to answer the ancient, ever-present questions glowing in our brains: Are we safe here? What’s our future with these people? Are there dangers lurking? ([Location 209](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=209))
-- “Modern society is an incredibly recent phenomenon,” Pentland says. “For hundreds of thousands of years, we needed ways to develop cohesion because we depended so much on each other. We used signals long before we used language, and our unconscious brains are incredibly attuned to certain types of behaviors.” ([Location 214](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=214))
-- “Modern society is an incredibly recent phenomenon,” Pentland says. “For hundreds of thousands of years, we needed ways to develop cohesion because we depended so much on each other. We used signals long before we used language, and our unconscious brains are incredibly attuned to certain types of behaviors.” Belonging cues possess three basic qualities: Energy: They invest in the exchange that is occurring Individualization: They treat the person as unique and valued Future orientation: They signal the relationship will continue ([Location 214](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=214))
-    - Note: As social skills evolved to overcome the difficulties of humans hundreds of thousands of years ago some of those patterns cause difficulties in today's society
-- Belonging cues possess three basic qualities: Energy: They invest in the exchange that is occurring Individualization: They treat the person as unique and valued Future orientation: They signal the relationship will continue ([Location 217](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=217))
-- “As humans, we are very good at reading cues; we are incredibly attentive to interpersonal phenomena,” says Amy Edmondson, who studies psychological safety at Harvard. “We have a place in our brain that’s always worried about what people think of us, especially higher-ups. As far as our brain is concerned, if our social system rejects us, we could die. Given that our sense of danger is so natural and automatic, organizations have to do some pretty special things to overcome that natural trigger.” ([Location 221](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=221))
-- “As humans, we are very good at reading cues; we are incredibly attentive to interpersonal phenomena,” says Amy Edmondson, who studies psychological safety at Harvard. “We have a place in our brain that’s always worried about what people think of us, especially higher-ups. As far as our brain is concerned, if our social system rejects us, we could die. Given that our sense of danger is so natural and automatic, organizations have to do some pretty special things to overcome that natural trigger.” ([Location 221](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=221))
-- The key to creating psychological safety, as Pentland and Edmondson emphasize, is to recognize how deeply obsessed our unconscious brains are with it. A mere hint of belonging is not enough; one or two signals are not enough. We are built to require lots of signaling, over and over. This is why a sense of belonging is easy to destroy and hard to build. The dynamic evokes the words of Texas politician Sam Rayburn: “Any jackass can kick down a barn, but it takes a good carpenter to build one.” ([Location 225](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=225))
-    - Tags: [[team]]
-- The key to creating psychological safety, as Pentland and Edmondson emphasize, is to recognize how deeply obsessed our unconscious brains are with it. A mere hint of belonging is not enough; one or two signals are not enough. We are built to require lots of signaling, over and over. This is why a sense of belonging is easy to destroy and hard to build. The dynamic evokes the words of Texas politician Sam Rayburn: “Any jackass can kick down a barn, but it takes a good carpenter to build one.” ([Location 225](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=225))
-- Overall Pentland’s studies show that team performance is driven by five measurable factors: Everyone in the group talks and listens in roughly equal measure, keeping contributions short. Members maintain high levels of eye contact, and their conversations and gestures are energetic. Members communicate directly with one another, not just with the team leader. Members carry on back-channel or side conversations within the team. Members periodically break, go exploring outside the team, and bring information back to share with the others. ([Location 254](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=254))
-- They’re just words. This is not how we normally think. Normally, we think words matter; we think that group performance correlates with its members’ verbal intelligence and their ability to construct and communicate complex ideas. But that assumption is wrong. Words are noise. Group performance depends on behavior that communicates one powerful overarching idea: We are safe and connected. ([Location 266](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=266))
-- We get another example of how belonging cues work in an experiment that might be called Would You Give a Stranger Your Phone? It consists of two scenarios and a question. SCENARIO 1: You are standing in the rain at a train station. A stranger approaches and politely says, “Can I borrow your cellphone?” SCENARIO 2: You are standing in the rain at a train station. A stranger approaches and politely says, “I’m so sorry about the rain. Can I borrow your cellphone?” QUESTION: To which stranger are you more likely to respond? ([Location 344](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=344))
-- A reasonable person would be wrong. When Alison Wood Brooks of Harvard Business School performed the experiment, she discovered that the second scenario caused the response rate to jump 422 percent. Those six words—I’m so sorry about the rain—transformed people’s behavior. ([Location 352](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=352))
-- This idea—that belonging needs to be continually refreshed and reinforced—is worth dwelling on for a moment. If our brains processed safety logically, we would not need this steady reminding. But our brains did not emerge from millions of years of natural selection because they process safety logically. They emerged because they are obsessively on the lookout for danger. ([Location 369](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=369))
-- This obsession originates in a structure deep in the core of the brain. It’s called the amygdala, and it’s our primeval vigilance device, constantly scanning the environment. When we sense a threat, the amygdala pulls our alarm cord, setting off the fight-or-flight response that floods our body with stimulating hormones, and it shrinks our perceived world to a single question: What do I need to do to survive? ([Location 372](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=372))
-- Science has recently discovered, however, that the amygdala isn’t just about responding to danger—it also plays a vital role in building social connections. It works like this: When you receive a belonging cue, the amygdala switches roles and starts to use its immense unconscious neural horsepower to build and sustain your social bonds. It tracks members of your group, tunes in to their interactions, and sets the stage for meaningful engagement. In a heartbeat, it transforms from a growling guard dog into an energetic guide dog with a single-minded goal: to make sure you stay tightly connected with your people. ([Location 375](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=375))
-    - Tags: [[team]]
-- Cohesion happens not when members of a group are smarter but when they are lit up by clear, steady signals of safe connection. ([Location 390](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=390))
-    - Tags: [[favorite]]
-- One of the most detailed accounts can be found in Trench Warfare 1914–1918 by Tony Ashworth. Over the course of 288 pages, Ashworth provides the historical equivalent of a slow-motion replay of the forces that triggered the Christmas Truce. He ([Location 450](https://readwise.io/to_kindle?action=open&asin=B019CGXU68&location=450))
+*Content has been merged into the SoT above.*

@@ -5,13 +5,13 @@ created: 2025-12-12T00:00:00Z
 epistemic: 
 last-synthesis: 2025-12-12
 last_reviewed: 
-modified: 2025-12-12T18:31:56Z
+modified: 2025-12-12T23:16:00Z
 purpose: To serve as the definitive Source of Truth for the origins, cultural context, and evolution of Hip Hop culture and its four elements (DJing, MCing, Breaking, Graffiti).
 review_interval: 12 months
 see_also: ["[[Expressive Music Organically Builds Its Own Scene]]", "[[Music as Expression is Born From a Genuine Human Need]]"]
 source_of_truth: true
 status: stable
-tags: [1, art, culture, dance, hip_hop, history, music]
+tags: [art, culture, dance, hip_hop, history, music]
 title: SoT - The Origins and Evolution of Hip Hop Culture
 type: SoT
 uid: 
@@ -87,7 +87,7 @@ The culture has traveled a trajectory from **Rejection** to **Dominance** to **I
 | **1970s** | **Incubation** | Local, organic, live performance. Block parties. |
 | **1980s** | **Explosion** | "Rapper's Delight" commercializes Rap. Films (*Wild Style*) export the culture globally. |
 | **1990s** | **Diversification** | The "Golden Age." Fragmentation into Gangsta, Conscious, and Alternative sub-genres. |
-| **2020s** | **Institutionalization** | Breaking at the Olympics (2024). Graffiti in Museums. Rap as the #1 global genre. |
+| **2020s** | **Institutionalization** | Breaking at the Olympics (2024). Graffiti in Museums. Rap as the 1 global genre. |
 
 ### The Paradox of Success
 

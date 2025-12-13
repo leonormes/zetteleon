@@ -3,61 +3,78 @@ aliases: [PARA for ProdOS, ProdOS Structure, The 4-File System]
 confidence: 5/5
 created: 2025-12-12T12:00:00Z
 epistemic:
-last_reviewed:
-modified: 2025-12-12T18:18:05Z
+last_reviewed: 2025-12-12
+modified: 2025-12-12T23:41:23Z
 purpose: To define the canonical folder structure and storage protocols for ProdOS v5.0, ensuring optimal context retrieval and LLM efficiency.
 related-soTs: ["[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 6 months
 see_also: []
 source_of_truth: true
 status: stable
-tags: ["para", "pkm", "prodos", "structure"]
+tags: [para, pkm, prodos, structure]
 title: SoT - PRODOS - Structure & Storage
 type: SoT
 uid:
 updated:
+uuid: 3cf373a9-fe2f-49ac-8575-8a4c7a4725f8
 ---
+
+- [x] update the structure ticket^2025-12-12T19-24-33 [completion:: 2025-12-12]
+    - [📱 View in Todoist app](todoist://task?id=6fVWW77qfRvPX6Qv) (Created: 📝 2025-12-12T19:24)
 
 ## 1. Definitive Statement
 
-> [!definition] The 4-File Architecture
-> ProdOS v5.0 replaces deep folder hierarchies with a flattened, **4-component** structure designed for **Cognitive Throughput** rather than Storage.
+> [!definition] The 6-Component Architecture
+> ProdOS v5.0 utilizes a flattened, **6-component** root structure designed for **Cognitive Throughput** and strict separation of concerns.
 >
-> The structure mirrors the Cognitive Loop: **Input (Inbox) -> Processing (Thinking) -> Storage (Library) -> Output (Actions).**
+> The structure mirrors the Cognitive Loop: **Stream (Inbox/Journals) -> Dashboard (Bases) -> Processing (Thinking) -> Storage (Library) -> Output (Actions).**
 
 ---
 
 ## 2. The Core Structure (v5.0)
 
-To maximize LLM context window efficiency (reducing token cost by 75-90%) and human retrieval speed, the vault is organized into these primary domains:
+To maximize LLM context window efficiency and human retrieval speed, the vault is organized into these primary domains:
 
 | Directory | Component | Role | Cognitive Phase |
 | :--- | :--- | :--- | :--- |
 | **`00_Inbox/`** | **The Stream** | Frictionless Capture | **Capture** |
+| **`01_journals/`** | **The Log** | Daily Notes & Time Logs | **Capture / Reflect** |
+| **`02_bases/`** | **The HUD** | System Dashboards (`.base` files) | **Orient** |
+| **`10_Actions/`** | **The Engine** | Project Management | **Engage (Doing)** |
 | **`20_Thinking/`** | **The Workbench** | Active Workspace (`HEAD` notes) | **Refine (Thinking)** |
 | **`30_Library/`** | **The Canon** | Long-term Knowledge (`SoT` notes) | **Synthesize (Knowing)** |
-| **`10_Actions/`** | **The Dashboard** | Project Management & Views | **Engage (Doing)** |
 
-### A. `00_Inbox` (The Catch-All)
-- **Purpose:** A temporary holding ground for raw inputs.
-- **Rule:** **Zero Retention.** This folder must be emptied every 24-48 hours.
-- **Contents:** Daily Notes, raw fleeting notes, quick captures from mobile.
+### A. The Stream (`00_Inbox` & `01_journals`)
+- **`00_Inbox/`**: A temporary holding ground for raw inputs. **Zero Retention Rule**: Must be emptied every 24-48 hours.
+- **`01_journals/`**: Contains Daily Notes (`YYYY-MM-DD`). This is the chronological log of your life, capturing fleeting thoughts, logs, and rapid-fire bullets.
 
-### B. `20_Thinking` / `21_Workbench` (The RAM)
-- **Purpose:** The home of **HEAD Notes**. This is "Work in Progress."
+### B. The HUD (`02_bases`)
+- **Purpose:** High-level system visibility.
+- **Contents:** `.base` files (e.g., `HEAD.base`, `SoT.base`) which serve as **Dataview Dashboards** to query the state of the vault without manual curation.
+
+### C. The Engine (`10_Actions`)
+- **Sub-folder:** `11_Projects`
+- **Purpose:** Project management views and "State Snapshots" (`Project - Title.md`).
+- **Rule:** Projects link to `HEAD` notes for thinking and `SoT` notes for resources. They do not store knowledge themselves.
+
+### D. The Workbench (`20_Thinking`)
+- **Sub-folder:** `21_Workbench`
+- **Purpose:** The home of **HEAD Notes**. This is the active "RAM" of the system.
 - **Rule:** **No Folders.** A flat list of active thinking threads.
-- **Naming Convention:** `YYYY-MM-DD-HHmm-HEAD - Topic` (Timestamped to prevent collisions).
-- **Lifecycle:** Files here are ephemeral. They are either archived or merged into SoTs.
+- **Naming:** `YYYY-MM-DD-HHmm-HEAD - Topic`.
+- **Lifecycle:** Ephemeral. Created to solve a problem, then archived or merged.
 
-### C. `30_Library` / `31_Resources` (The Hard Drive)
-- **Purpose:** The home of **SoT (Source of Truth)** notes.
-- **Rule:** **High Trust.** Only verified, synthesized knowledge enters here.
-- **Organization:** Can use broad categories (PARA Areas) if necessary, but relies primarily on **MOCs (Maps of Content)** for navigation.
+### E. The Canon (`30_Library`)
+- **Purpose:** The home of durable knowledge.
+- **Current State (Hybrid):**
+    - **`SoT/`**: The pure v5.0 folder for **Source of Truth** notes.
+    - **`31_Resources/`**: General resources and references.
+    - **Legacy Folders:** `100_zettelkasten`, `200_projects`, `300_tickets`, `400_indexes` are currently co-located here during the migration phase.
+- **Rule:** **High Trust.** Only verified, synthesized knowledge enters the `SoT` folder.
 
-### D. `10_Actions` / `11_Projects` (The Control Center)
-- **Purpose:** Project Dashboards and aggregated views.
-- **Rule:** **Links, not Content.** These notes primarily point to HEAD notes (current state) and SoT notes (reference).
-- **Contents:** Project Notes (e.g., `Project - ProdOS Migration.md`) containing the "State Snapshot."
+### F. The Archive (`99_Archive`)
+- **Purpose:** To hide "Dead" content from Search / Context Window.
+- **Trigger:** Processed HEAD notes and completed Projects move here.
 
 ---
 
@@ -70,16 +87,12 @@ We do not "file" notes in ProdOS; we **Tag and Link**.
 - **Folders** are for *System Architecture* (Permissions/Types).
 - **Links** are for *Knowledge Architecture* (Context).
 
-### The Archive Strategy (`99_Archive`)
-- **Purpose:** To hide "Dead" content from the Search / Context Window.
-- **Trigger:** When a HEAD note is processed (Action extracted, Insight merged), it is moved to `99_Archive`.
-- **Retrieval:** We rarely look here. It is for audit trails only.
-
 ---
 
-## 4. Current Migration Status
-*Note: The system is currently migrating from the legacy `000_inbox` / `003_workbench` / `100_zettelkasten` structure to this v5.0 standard.*
+## 4. Migration Status
 
-- `003_workbench` -> Maps to `20_Thinking`
-- `SoT` / `100_zettelkasten` -> Maps to `30_Library`
-- `200_projects` -> Maps to `10_Actions`
+The system is in a **Hybrid State**.
+
+- **v5.0 Active:** Roots `00`, `01`, `02`, `10`, `20` are fully v5.0 compliant.
+- **v5.0 Transition:** `30_Library` contains both the new `SoT` architecture and the legacy Zettelkasten folders (`100_...`).
+- **Goal:** Gradually refactor `100_zettelkasten` notes into `SoT` notes (using the LLM Synthesis workflow) and move the remainder to `99_Archive`.

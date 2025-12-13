@@ -31,4 +31,4 @@ Key concepts defining this condition include:
 - [[Absurdism as Rebellion Against Meaninglessness]]
 - Human condition as defined by radical freedom
 
-This condition is a key part of the [[The Fractal Model of Self-Referential Meaning]] and is discussed in [[Contextual Myopia and Human Behavior]].
+This condition is a key part of the [[The Fractal Model of Self-Referential Meaning]] and is discussed in [[SoT - Contextual Myopia and Human Behavior]].

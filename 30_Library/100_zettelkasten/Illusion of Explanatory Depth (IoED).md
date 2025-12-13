@@ -4,7 +4,7 @@ confidence:
 created: 2025-03-13T10:44:50Z
 epistemic:
 last_reviewed:
-modified: 2025-11-02T11:06:51Z
+modified: 2025-12-12T23:08:50Z
 purpose:
 review_interval:
 see_also: []
@@ -25,7 +25,5 @@ version: 1
 [[Extended Thought and Reflection for Understanding]]
 
 [[Humanity's Collective Knowledge]]
-
-[[Zettelkasten in the Mind]]
 
 [[Maintaining Lines of Thought Over Time]]

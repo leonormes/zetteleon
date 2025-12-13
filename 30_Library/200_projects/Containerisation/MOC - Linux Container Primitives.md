@@ -20,7 +20,7 @@ version: 1
 
 ## Summary
 
-Linux kernel primitives that form the foundation of container technology. This MOC covers namespaces, control groups (cgroups), and other kernel features that enable process isolation, resource management, and security in containers.
+Linux kernel primitives that form the foundation of container technology. This MOC covers namespaces, control groups (cgroups), and other kernel features that enable process isolation, resource management, and security in containers. These are all aspects of the broader concept discussed in [[SoT - Namespacing in Computing]].
 
 ## Context / Problem
 
