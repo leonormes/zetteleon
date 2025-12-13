@@ -71,7 +71,5 @@ updated: null
 
 ## 4. Sources and Links
 -   Original Proposal: "What is the Fundamental Description of Economics" (Archived)
--   [[SoT - Scarcity]]
--   [[SoT - Decision Making Under Uncertainty]]
 -   [[SoT - Systems Thinking]]
 -   [[SoT - Family Budgeting System]]
