@@ -6,7 +6,7 @@ criteria: Atomic notes defining learning vs. understanding, cognitive biases, le
 epistemic:
 exclusions: Specific tutorials on software or non-cognitive aspects of learning.
 last_reviewed:
-modified: 2025-12-10T20:00:09Z
+modified: 2025-12-14T14:06:26Z
 purpose:
 review_interval:
 scope: The distinction between superficial understanding and deep, durable learning, including the cognitive principles and evidence-based strategies for achieving mastery of complex subjects.
@@ -14,7 +14,7 @@ see_also: []
 source_of_truth: []
 status:
 tags: [cognition, learning, memory, study-habits, understanding]
-title: MOC - Understanding vs Learning
+title: SoT - Deep Learning & Mastery
 type: map
 uid: 2025-11-10T16:18:00Z
 updated: 2025-11-10T16:18:00Z

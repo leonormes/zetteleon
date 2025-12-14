@@ -35,10 +35,16 @@ updated:
 This system is not about restriction; it is about **clarity** and **alignment**. We reject the "scarcity mindset" in favour of "Spendfulness"—knowing exactly what your money needs to do so you can spend it without guilt.
 
 ### Spendfulness as Identity
-**Definition:** Spendfulness is knowing yourself (your priorities and your circumstances) and spending accordingly.
+**Definition:** Spendfulness is knowing yourself (your priorities and your circumstances) and spending accordingly. It is the **absence of second-guessing**.
 - **The Shift:** Budgeting is often considered "saving money" (maths). Spendfulness is about "spending your life" (values).
 - **The Goal:** Radical awareness. When you give every dollar a job, you stop wondering "Can I afford this?" and start asking "Is this who I am?".
 - **The Result:** Spending becomes an act of identity creation, not just a transaction. Whether it's a fairy tale wedding or a quiet yurt trip, the spending is guilt-free because it is intentional.
+- **Key Insight:** "Spendfulness increases your net worth *and* improves your self-worth."
+
+> [!example] Spendfulness in Action: The "Concert Ticket" Test
+> **Scenario:** Your favorite band is on a farewell tour. Tickets are expensive.
+> *   **The Broken Mindset:** You check your bank balance. It looks high, but you feel a pit in your stomach. Is that money for the mortgage? New tires? You buy the tickets but feel guilty and anxious, maybe even considering reselling them.
+> *   **The Spendful Mindset:** You check your "Music Money" category. You've been saving $50/month. The money is there. You buy the best seats and the merch. You feel **zero guilt** and **pure joy** because you *planned* for this moment. That is money well-spent.
 
 ### The YNAB Method (Formerly The Four Rules)
 
@@ -138,13 +144,19 @@ Getting a month ahead is a process, not a switch. It usually takes 3-6 months.
 
 A system without maintenance fails. We rely on two key rituals:
 
-### A. The "Money Date" (Monthly)
-- **When:** The last weekend of the month.
-- **Agenda:**
+### A. The "Budget Date Night" (Monthly)
+*The antidote to money fights is shared clarity.*
+
+*   **When:** The last weekend of the month.
+*   **The Framework:** **Yours, Mine, and Ours.**
+    *   Budgeting as a couple means balancing three sets of priorities.
+    *   **Yours/Mine:** Autonomous spending (Hobbies, Fun Money).
+    *   **Ours:** Shared goals (House, Travel, Kids).
+*   **Agenda:**
     1.  **Reflect:** Did our spending align with our values last month?
     2.  **Forecast:** What irregular expenses are coming up this month? (Birthdays, trips).
     3.  **Assign:** Fund next month's categories using the "Month Ahead" money.
-- **Vibe:** Low stress, wine/snacks involved. Focus on *dreams*, not just math.
+*   **Vibe:** Low stress, wine/snacks involved. Focus on *dreams*, not just math.
 
 ### B. The "WAM" (Whack-A-Mole) Check-in (Weekly)
 - **When:** Friday or Sunday.

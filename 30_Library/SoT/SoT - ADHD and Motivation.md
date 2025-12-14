@@ -1,16 +1,16 @@
 ---
-aliases: [Map of Content on ADHD Motivation, ADHD Motivation MOC]
+aliases: [ADHD Motivation MOC, Map of Content on ADHD Motivation]
 confidence: 5/5
 created: 2025-07-16T17:30:01Z
 epistemic: theory
 last_reviewed: 2025-12-14
-modified: 2025-12-14T14:00:00Z
+modified: 2025-12-14T14:06:38Z
 purpose: Defines the unique motivational system of the ADHD brain, its neurobiological underpinnings, common challenges like procrastination, and the strategies for engineering motivation and discipline.
 review_interval: 3 months
 see_also: []
 source_of_truth: true
 status: stable
-tags: [motivation, adhd, neuroscience, behavior_change, dopamine]
+tags: [adhd, behavior_change, dopamine, motivation, neuroscience]
 title: SoT - ADHD and Motivation
 type: SoT
 uid:

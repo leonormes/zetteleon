@@ -7,10 +7,10 @@ decay-signals: []
 epistemic:
 last-synthesis: 2025-12-07
 last_reviewed: 2025-12-07
-modified: 2025-12-11T18:21:27Z
+modified: 2025-12-14T14:06:36Z
 purpose: The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system.
 quality-markers: [Clarifies the Human-in-the-Loop LLM workflow., Defines the core cognitive loop., Establishes verifiable acceptance criteria., Integrates Hansei Reflection Loop.]
-related-soTs: ["[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]", "[[SoT - ADHD and Motivation]]"]
+related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]"]
 resonance-score: 10
 review_interval: 3 months
 see_also: []
@@ -251,6 +251,7 @@ The system is not static; it requires active maintenance to prevent "Trust Decay
 - [[SoT - PRODOS - Action Management (GTD)]]
 - [[SoT - Temporal Management (Blocking and Boxing)]]
 - [[SoT - The Cognitive Physiology of Task Execution]]
+- [[SoT - Six Levels of Thinking]]
 - [[SoT - The Honeyman Method (Adaptive Routines)]]
 - [[SoT - Identity-Based Habit Formation]]
 - [[SoT - PRODOS - System Failure Modes]]
