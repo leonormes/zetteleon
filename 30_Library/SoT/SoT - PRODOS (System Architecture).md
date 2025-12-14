@@ -231,11 +231,12 @@ The system is not static; it requires active maintenance to prevent "Trust Decay
 
 > **Philosophy:** "No problem is a problem." If you don't find friction, you are blind to it.
 
-### The Weekly Hansei Protocol
-1.  **Identify Friction:** Analyze where the system failed (e.g., missed habits, untrusted lists).
-2.  **Adjust Process:** Do not blame willpower. Tweak the **Environment** or **Rules**.
-    -   *Example:* "I missed writing 3 times. Adjustment: Move writing to 8 AM timebox."
-3.  **Verify Alignment:** Check if actions align with Identity/Goals. Behavior reveals true purpose.
+### The Weekly Hansei Protocol (Kaizen & Ikigai)
+1.  **Identify Friction (Deconstruct):** Analyze where the system failed without judgment ("Logic over Force"). View the failure as a neutral pattern, not a moral failing.
+2.  **Adjust Process (Kaizen):** Do not blame willpower. Apply the **1% Rule**.
+    -   *Adjustment:* "I missed writing 3 times. Fix: Write for just 2 minutes (MVH) at 8 AM." (Small, non-threatening change to bypass resistance).
+3.  **Verify Alignment (Ikigai):** Check if actions align with your *Reason for Being*.
+    -   *Check:* "Does this task serve my core values, or is it just 'busy work' filling a vacuum?"
 
 ---
 
