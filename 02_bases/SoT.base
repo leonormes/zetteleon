@@ -9,6 +9,8 @@ views:
       - type
       - tags
     sort:
+      - property: file.name
+        direction: ASC
       - property: created
         direction: ASC
     columnSize:

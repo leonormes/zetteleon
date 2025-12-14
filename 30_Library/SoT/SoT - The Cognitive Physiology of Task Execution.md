@@ -77,6 +77,5 @@ Research (ACT-R Model) suggests that the transition between these phases—the *
 ---
 
 ## 4. Related Concepts
--   [[Task initiation requires prefrontal cortex activation and dopamine signaling]]
 -   [[Performance monitoring activates anterior cingulate cortex]]
 -   [[Sustained attention activates right-lateralized fronto-parietal networks]]

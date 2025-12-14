@@ -1,5 +1,9 @@
 ---
-alias: [Family Financial System, Financial Peace Protocol, The Budgeting SoT, Zero-Based Budgeting]
+alias:
+  - Family Financial System
+  - Financial Peace Protocol
+  - The Budgeting SoT
+  - Zero-Based Budgeting
 aliases: []
 confidence: 4/5
 created: 2025-12-08T00:00:00Z
@@ -7,12 +11,19 @@ epistemic:
 last_reviewed: 2025-12-13
 modified: 2025-12-13T14:23:33Z
 purpose: To define the canonical Family Budgeting System for ProdOS, integrating YNAB principles (Zero-Based Budgeting) with the 'Spendfulness' mindset.
-related-soTs: ["[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS (System Architecture)]]"]
+related-soTs:
+  - "[[SoT - Process Primacy (Systems Over Goals)]]"
+  - "[[SoT - PRODOS (System Architecture)]]"
 review_interval:
 see_also: []
 source_of_truth: true
 status: stable
-tags: [budget, family, finance, prodos, system, ynab]
+tags:
+  - budget
+  - family
+  - finance
+  - system
+  - ynab
 title: SoT - Family Budgeting System
 type: SoT
 uid:

@@ -12,7 +12,7 @@ source_of_truth: []
 status:
 tags: []
 title: Cognitive Dissonance
-type: map
+type: 
 uid:
 updated:
 version: 1

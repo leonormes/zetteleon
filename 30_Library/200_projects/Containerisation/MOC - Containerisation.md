@@ -1,20 +1,24 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-26T17:16:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-11-03T13:48:27Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: [container, docker, kubernetes, topic/technology/containers, type/moc]
+status:
+tags:
+  - container
+  - docker
+  - kubernetes
+  - topic/technology/containers
 title: MOC - Containerisation
 type: map
-uid: 
-updated: 
+uid:
+updated:
 version: 1
 ---
 

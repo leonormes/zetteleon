@@ -1,20 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-23T00:00:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-10-30T17:14:02Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: [data-harmonization, etl, moc]
+status:
+tags:
+  - data-harmonization
+  - etl
 title: The Hyve MOC
 type: map
-uid: 
-updated: 
+uid:
+updated:
 version:
 ---
 
