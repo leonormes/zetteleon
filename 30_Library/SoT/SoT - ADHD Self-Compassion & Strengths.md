@@ -12,7 +12,7 @@ quality-markers: []
 related-soTs: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Social Cognition & Self-Perception]]"]
 resonance-score: 9
 review_interval: 1 year
-see_also: ["[[MOC - Cognitive Biases]]"]
+see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - Identity-Based Habit Formation]]"]
 source_of_truth: true
 status: stable
 supersedes: ["[[Moving Towards Self-Compassion and Understanding Your Strengths]]", "[[The Roots of Shame and Feeling Defective]]"]
@@ -89,3 +89,29 @@ Isolation is dangerous for the ADHD brain.
 -   **The Myth:** "Independence is the goal."
 -   **The Reality:** "No one is independent." The goal is **Effective Interdependence**.
 -   **Action:** Delegate tasks that hit your weak spots (the "brakes") so you can focus on your strong spots (the "engine"). Accepting help is a strategic move, not a weakness.
+
+---
+
+## 7. Japanese Philosophical Pillars for ADHD Resilience
+
+Complementing the strategies for self-compassion and leveraging strengths, these Japanese philosophies offer unique perspectives on navigating challenges, imperfection, and connection, highly relevant for the ADHD experience.
+
+### A. Wabi-Sabi (Acceptance of Imperfection)
+-   **Core Principle:** Find beauty in the imperfect, impermanent, and incomplete.
+-   **ADHD Relevance:** Counteracts perfectionism and the shame of perceived flaws or unfinished tasks. Embraces the "messy vitality" of the ADHD mind.
+-   **Application:** Accept that systems, efforts, and even self-image don't need to be flawless. "Good enough" is often perfect.
+
+### B. Gaman (Endurance with Dignity)
+-   **Core Principle:** Quiet strength to persevere and tolerate difficulty without public complaint.
+-   **ADHD Relevance:** Develops resilience against the frustration of executive dysfunction and task inertia. Shifts focus from victimhood to responsible endurance.
+-   **Application:** Cultivate inner fortitude to "lean into" discomfort, especially when tasks lack intrinsic reward, without broadcasting struggle.
+
+### C. Omoyari (Compassionate Consideration)
+-   **Core Principle:** Anticipate others' needs and consider their feelings proactively.
+-   **ADHD Relevance:** Enhances social connection and combats feelings of isolation. Shifts focus outward, which can alleviate internal rumination.
+-   **Application:** Practice active empathy, even in small ways, to strengthen interpersonal relationships and foster a supportive community (aligns with "Vitamin Connect").
+
+### D. Kintsugi (The Art of Repairing with Gold)
+-   **Core Principle:** Honor damage and flaws by making them beautiful, typically by repairing broken pottery with gold lacquer.
+-   **ADHD Relevance:** Reframe past mistakes, failures, or diagnoses not as something to hide, but as integral parts of one's unique story and sources of strength/wisdom.
+-   **Application:** View challenges and setbacks as opportunities for transformation, recognizing that one's "cracks" can become pathways for deeper resilience and insight.

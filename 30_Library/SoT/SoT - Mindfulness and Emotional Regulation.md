@@ -74,7 +74,23 @@ A tactical intervention for when the storm hits:
 
 ---
 
-## 5. ProdOS Integration
+## 6. Japanese Applied Mindfulness Practices
+
+These Japanese philosophies offer concrete, actionable ways to integrate mindfulness into daily life, focusing on nervous system regulation and self-awareness.
+
+### A. Shinrin Yoku (Forest Bathing)
+-   **Core Principle:** Prescribed practice of simply being in nature without distraction (walking slowly, breathing deeply).
+-   **Mindfulness Connection:** Cultivates presence and sensory awareness in a natural environment.
+-   **Impact:** Exposure to phytoncides (released by trees) lowers cortisol, blood pressure, and strengthens the immune system, shifting the nervous system from 'fight or flight' to 'rest and digest'. A direct application of nervous system re-calibration.
+
+### B. Hara Hachi Bu (Eat Until 80% Full)
+-   **Core Principle:** A practice of mindful eating, stopping when 80% full.
+-   **Mindfulness Connection:** Develops interoceptive awareness (sensing internal bodily states) and prevents unconscious overeating.
+-   **Impact:** Since the brain takes approximately 20 minutes to register fullness, stopping at 80% ensures slight, continuous calorie restriction, extending lifespan and preventing post-meal sluggishness, which can impact executive function.
+
+---
+
+## 7. ProdOS Integration
 
 For the ADHD brain (see [[SoT - ADHD Executive Dysfunction]]), mindfulness is not just "spiritual"; it is **Executive Training**.
 

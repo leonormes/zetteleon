@@ -97,11 +97,11 @@ Complementing the "Atomic" approach, the Japanese philosophy focuses on a gentle
 
 ### B. Kaizen (Continuous Improvement)
 -   **The 1% Rule:** Bypass the brain's "fight or flight" resistance by making changes so small they don't register as threats.
--   **Application:** Reduce a bad habit by just 5 minutes or 1% today. This prevents the "Cold Turkey" shock to the nervous system.
+-   **Application:** Reduce a bad habit by just 5 minutes or 1% today. This prevents the "Cold Turkey" shock to the nervous system. Removes the friction that causes burnout. The compound effect of tiny, invisible improvements creates staggering, undeniable long-term results.
 
 ### C. Ikigai (Purposeful Replacement)
 -   **The Vacuum Law:** Nature abhors a vacuum. You cannot simply *remove* a habit; you must *replace* the need it fills.
--   **Alignment:** Use **Ikigai** (Reason for Being) to choose a replacement behavior that aligns with your true values, not just societal pressure.
+-   **Alignment:** Use **Ikigai** (Reason for Being) to choose a replacement behavior that aligns with your true values, not just societal pressure. Provides a sense of purpose that motivates you to wake up, correlating directly with longevity, sustained health, and energy. It is found at the intersection of what you love, what you are good at, what the world needs, and what you can be paid for.
 
 ### D. Self-Compassion
 -   **Foundation:** Lasting change is built on self-acceptance, not shame. Shame creates a self-sabotaging inner conflict.
