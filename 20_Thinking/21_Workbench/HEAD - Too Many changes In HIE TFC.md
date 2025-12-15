@@ -1,20 +1,21 @@
 ---
 aliases: []
-confidence: 
+AoL: Work
+confidence:
 created: Invalid date
-epistemic: 
-last_reviewed: 
-modified: 2025-12-15T10:37:34Z
-purpose: 
-review_interval: 
+epistemic:
+last_reviewed:
+modified: 2025-12-15T14:35:18Z
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: raw
+status: processing
 tags: [state/thinking]
-title: HEAD - 2025-12-15 1036
+title: HEAD - Too Many changes In HIE TFC
 type: head
-uid: 
-updated: 
+uid:
+updated:
 ---
 
 Why are there so many changes to hie via terraform cloud!!!!
@@ -90,7 +91,8 @@ The widespread nature of the changes (spanning IAM, EKS, Load Balancers, and VPC
 3. **Approve:** If the above checks pass, the plan is safe to apply.
 ```
 
-It is difficult to debug without the argocd cli or the frontend for it. I can't tell if the app is working or not. Everyone is busy. Not sure how to proceed. 
+It is difficult to debug without the argocd cli or the frontend for it. I can't tell if the app is working or not. Everyone is busy. Not sure how to proceed.
+
 ## HEAD 2025-12-15 10:36
 
 ---
