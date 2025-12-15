@@ -10,7 +10,7 @@ review_interval:
 see_also: []
 source_of_truth: true
 status: stable
-supersedes: ["[[Powerful Identity]]"]
+supersedes: ["[[Powerful Identity]]", "[[A Done List Provides Tangible Evidence of Accomplishment]]"]
 tags: [behavioral_science, habits, identity, psychology]
 title: SoT - Identity-Based Habit Formation
 type: SoT
@@ -83,6 +83,16 @@ To cast a vote for a new identity without triggering ADHD paralysis, use the **T
 ### C. Friction Engineering
 -   **Make it Easy (Good Identity):** Prime the environment (e.g., leave the laptop open).
 -   **Make it Hard (Bad Identity):** Increase friction (e.g., phone in another room).
+
+### D. The "Done List" for Tangible Proof
+
+A "Done List" is a past-focused log of completed tasks, designed to provide concrete, visual evidence of productivity and competence. This directly combats negative self-talk (e.g., "I got nothing done today") by creating a factual record of progress, reinforcing a positive identity.
+
+-   **How to Implement:**
+    1.  Keep a simple log (notebook, text file, index cards).
+    2.  Immediately after completing *any* task, no matter how small, write it down.
+    3.  Review the list daily to provide tangible proof of accomplishment, especially when feeling unproductive.
+-   **Example:** After completing "Created initial VPC plan," immediately add it to your "Done List." Reviewing the growing list at the end of the day provides a powerful antidote to vague feelings of failure.
 
 ---
 

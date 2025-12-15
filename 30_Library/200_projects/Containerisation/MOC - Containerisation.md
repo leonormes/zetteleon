@@ -4,17 +4,13 @@ confidence:
 created: 2025-10-26T17:16:00Z
 epistemic:
 last_reviewed:
-modified: 2025-11-03T13:48:27Z
+modified: 2025-12-14T17:53:09Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - container
-  - docker
-  - kubernetes
-  - topic/technology/containers
+tags: [container, docker, kubernetes, topic/technology/containers]
 title: MOC - Containerisation
 type: map
 uid:

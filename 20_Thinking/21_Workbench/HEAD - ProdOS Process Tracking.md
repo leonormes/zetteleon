@@ -1,20 +1,23 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-12-08T00:00:00Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-12-08T11:11:32Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
 status: defined
-tags: [head, maintenance, prodos, thinking]
+tags:
+  - "#maintenance"
+  - "#prodos"
+  - "#thinking"
 title: HEAD - ProdOS Process Tracking
-type: 
-uid: 
-updated: 
+type: head
+uid:
+updated:
 ---
 
 ## HEAD - ProdOS Process Tracking

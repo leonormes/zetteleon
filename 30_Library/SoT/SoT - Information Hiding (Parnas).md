@@ -6,7 +6,7 @@ created: 2025-12-12T17:40:00Z
 epistemic: technical
 last-synthesis: 2025-12-12
 last_reviewed: 2025-12-12
-modified: 2025-12-13T08:57:34Z
+modified: 2025-12-14T18:37:58Z
 purpose: Canonical definition and benefits of David Parnas's Information Hiding principle in software design.
 quality-markers: []
 related-soTs: ["[[SoT - Atomicity and Loose Coupling]]", "[[SoT - Code Duplication and Refactoring]]"]
@@ -16,7 +16,7 @@ see_also: ["[[MOC - Software Architecture Principles]]"]
 source_of_truth: true
 status: stable
 supersedes: []
-tags: [architecture, design-principles, modularity, software-engineering, sot]
+tags: [architecture, design-principles, modularity, software-engineering]
 title: SoT - Information Hiding (Parnas)
 type: SoT
 uid:

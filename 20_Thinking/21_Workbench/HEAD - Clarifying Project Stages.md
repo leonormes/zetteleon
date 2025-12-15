@@ -10,7 +10,10 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: archived
-tags: [head, process, prodos, thinking]
+tags:
+  - process
+  - prodos
+  - thinking
 title: HEAD - Clarifying Project Stages
 type: head
 uid:

@@ -49,6 +49,7 @@ Productivity is built on the "Atomic Action."
 Understanding *why* action is hard is critical to solving it.
 
 - **[[MOC - The Neurological Basis of Task Initiation Difficulty in ADHD]]**: Explains the dopamine dysregulation that causes paralysis.
+- **[[SoT - The Cognitive Physiology of Task Execution]]**: The biological basis for the 5 phases of work (Initiation -> Planning -> Execution).
 - **TPN vs. DMN**: The switch from "Thinking" (Default Mode Network) to "Doing" (Task Positive Network) is sticky. Externalizing the task to Todoist helps trigger this switch.
 - **Purpose vs. Feelings**: Shifting from "What do I feel like doing?" (Limbic) to "What needs to be done?" (Prefrontal/Purpose-centered).
 - **[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]**: The "Wall of Awful" concept.
@@ -59,6 +60,7 @@ Understanding *why* action is hard is critical to solving it.
 
 Techniques to lower activation energy and start moving.
 
+- **Artificial Ignition**: Using **Mystery, Urgency, and Spite** to manufacture dopamine when logic isn't enough (See: **[[SoT - Bridging the Intention-Action Gap]]**).
 - **[[Action Triggers Bridge the Gap Between Motion and Action]]**: Setting up the environment to force action.
 - **[[Micro-Stepping Reduces Cognitive Load for Task Initiation]]**: Breaking a task down until it feels "too easy to fail."
 - **[[Implementation Intentions Automate Action Initiation with If-Then Plans]]**: Pre-deciding when and where to act.

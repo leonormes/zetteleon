@@ -29,7 +29,6 @@ This Map of Content (MOC) organizes notes related to the phenomenon of "intellig
 ### The Two Types of Information
 
 - [[Type 1 Information is Theoretical and Addictive for Overthinkers]]
-- [[Type 2 Information is Experiential and Feared by Overthinkers]]
 - [[The Cost of Type 1 Information Addiction]]
 
 ## The Solution: Taking Action

@@ -1,21 +1,33 @@
 ---
-title: "‎Gemini – direct access to Google AI"
-source: "https://gemini.google.com/share/0504b04adde4"
-author:
-  - "[[Gemini]]"
-published:
-created: 2025-12-14
+aliases: []
+author: ["[[Gemini]]"]
+confidence: 
+created: 2025-12-14T00:00:00Z
 description: "Created with Gemini"
-tags:
-  - "clippings"
+epistemic: 
+last_reviewed: 
+modified: 2025-12-14T17:53:37Z
+published:
+purpose: 
+review_interval: 
+see_also: []
+source: "https://gemini.google.com/share/0504b04adde4"
+source_of_truth: []
+status: 
+tags: ["clippings"]
+title: Vegetables Ranked - Nutrition Tier Lists
+type: 
+uid: 
+updated: 
 ---
-Https://youtube.com/watch?v=fD07raxrJVo&si=iowiOiaQjapQg8IY
+
+<Https://youtube.com/watch?v=fD07raxrJVo&si=iowiOiaQjapQg8IY>
 
 This YouTube video, titled **"Vegetables Ranked - Nutrition Tier Lists"** by Talon Fitness, provides a structured, comprehensive ranking of common vegetables based on their overall nutritional value, health benefits, and potential drawbacks.
 
 In line with your Abstract-Conceptual cognitive style, the core framework and key outputs are summarised below:
 
-### I. Ranking Framework & Methodology (The Model)
+## I. Ranking Framework & Methodology (The Model)
 
 The video assesses vegetables by comparing their nutritional content and health benefits against any potential shortcomings or health concerns (e.g., anti-nutrients, goitrogens, oxalates) \[[01:08](http://www.youtube.com/watch?v=fD07raxrJVo&t=68)\].
 
@@ -25,11 +37,11 @@ The video assesses vegetables by comparing their nutritional content and health 
 	- **Top Tier (S-Tier):** Reserved for **'superfoods'** that are exceptionally potent in delivering nutritional value and unique health compounds \[[01:19](http://www.youtube.com/watch?v=fD07raxrJVo&t=79)\].
 	- **General Principle:** Anything ranked above the bottom tier is still valuable for inclusion in a meal plan \[[01:26](http://www.youtube.com/watch?v=fD07raxrJVo&t=86)\].
 
-### II. Top-Down Nutritional Rankings (Key Outputs)
+## II. Top-Down Nutritional Rankings (Key Outputs)
 
 The list focuses on the highest-ranked vegetables, which offer the most significant nutritional advantage (Top Tier and A Tier).
 
-#### Top Tier (Exceptional Superfoods)
+### Top Tier (Exceptional Superfoods)
 
 These vegetables stand out for being the best sources of critical vitamins, minerals, and potent unique plant compounds.
 
@@ -42,7 +54,7 @@ These vegetables stand out for being the best sources of critical vitamins, mine
 - **Collard Greens \[[12:33](http://www.youtube.com/watch?v=fD07raxrJVo&t=753)\] & Mustard Greens \[[20:51](http://www.youtube.com/watch?v=fD07raxrJVo&t=1251)\]:** Highly impressive micro-profiles, excellent sources of Vitamin K, Manganese, Calcium, and contain Sulforaphane and i3c.
 - **Mature Red Chilli Peppers \[[11:46](http://www.youtube.com/watch?v=fD07raxrJVo&t=706)\]:** An "antioxidant nuke," best source of Vitamin C and contains Capsaicin, a strong anti-inflammatory compound.
 
-#### A Tier (Above Average Nutritional Value)
+### A Tier (Above Average Nutritional Value)
 
 These are highly recommended for their solid micronutrient profile and specific, impressive health benefits.
 

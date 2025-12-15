@@ -3,12 +3,12 @@ aliases: [ProdOS Problem-Solution Fit, ProdOS Why]
 confidence: 5/5
 created: 2025-12-06T18:00:00Z
 epistemic:
-last-synthesis: 2025-12-06
-last_reviewed: 2025-12-07
-modified: 2025-12-10T19:59:41Z
+last-synthesis: 2025-12-14
+last_reviewed: 2025-12-14
+modified: 2025-12-14T18:11:16Z
 purpose: To explicitly map the core problems (the 'Why') to the specific architectural solutions within ProdOS (the 'How').
 quality-markers: [Connects user pain points to system features., Grounded in notes about ADHD and executive dysfunction.]
-related-soTs: ["[[SoT - PRODOS (System Architecture)]]"]
+related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Values and Eudaimonia]]"]
 review_interval: 6 months
 see_also: []
 source_of_truth: true
@@ -57,20 +57,20 @@ This section details each major problem and the corresponding solution engineere
     -   [[The Danger of Perpetual System-Building]]
 -   **The PRODOS Solution**:
     1.  **The Extended Mind (/extend)**: This is the core real-time solution. When you begin to write about a topic, the system automatically surfaces all your previous related thoughts. This interrupts the loop by making your thinking **cumulative** instead of **cyclical**. You build on your past thinking instead of repeating it. See [[SoT - The Extended Mind]].
-    2.  **A Trusted External System (The Cognitive Prosthesis)**: As a practical application of [[The Extended Mind Thesis]], ProdOS is designed to act as a trusted "external brain." By systematically offloading all thoughts, tasks, and knowledge into a digital system, it externalizes the cognitive load of memory and organization. This act breaks the anxiety loop of re-planning and compensates for [[Working Memory Limitations in ADHD]], freeing up mental resources for deeper thinking. See [[A Digital System Can Externalise and Organise Thoughts]].
+    2.  **A Trusted External System (The Cognitive Prosthesis)**: As a practical application of [[The Extended Mind Thesis]], ProdOS is designed to act as a trusted "external brain." By systematically offloading all thoughts, tasks, and knowledge into a digital system, it externalizes the cognitive load of memory and organization. This act breaks the anxiety loop of re-planning and compensates for [[Working Memory Limitations in ADHD]], freeing up mental resources for deeper thinking.
 
 ### Problem C: The Motivation Paradox & The Interest-Based Nervous System
 
--   **The Experience**: Knowing a task is important is not enough to generate the motivation to do it. The ADHD brain requires interest, novelty, challenge, or urgency. This leads to "productive procrastination" where you do useful, but non-essential, tasks.
+-   **The Experience**: Knowing a task is important is not enough to generate the motivation to do it. The ADHD brain operates on an **Interest-Based** (ICNU) rather than **Importance-Based** paradigm. This leads to "productive procrastination" or total stagnation on boring but critical tasks.
 -   **Related Insights**:
+    -   [[SoT - ADHD and Motivation]] (The Interest-Based Nervous System)
     -   [[Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]]
     -   [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]
     -   [[Productive Procrastination as an Avoidance Strategy]]
-    -   [[System Tweaking as a Form of Procrastination in ADHD]]
 -   **The PRODOS Solution**:
-    1.  **"Motion Creates Motivation" Principle**: The system is designed around the philosophy of engineering action to create motivation. The /engage-action command is built to find the path of least resistance into a productive state. See [[SoT - Bridging the Intention-Action Gap]].
-    2.  **The Gamified Scoring Algorithm**: The Action Engine's formula is a practical implementation of this principle. It prioritizes tasks that are not just "important" but also match your current context and energy level, making them more appealing and easier to start.
-    3.  **Rapid Feedback Loops**: Recognizing that [[Rapid Feedback Loops are Essential for ADHD Motivation]], the system provides immediate visual confirmation of actions (e.g., checking off a task, moving a card), triggering the dopamine response needed to sustain effort.
+    1.  **The Ignition Protocol**: Explicitly "refactoring" boring tasks into **Mystery**, **Urgency**, or **Spite** (The ICNU Triggers). If a task lacks dopamine, the system demands you manufacture it before attempting execution.
+    2.  **Gamified Scoring**: The Action Engine prioritizes tasks that match your current energy/context, effectively "surfing" the dopamine wave rather than fighting it.
+    3.  **Rapid Feedback Loops**: Providing immediate visual confirmation (moving cards, ticking boxes) to trigger the micro-dopamine hits needed to sustain the "Wanting" system.
 
 ### Problem D: The Shame-Procrastination Cycle
 
@@ -93,3 +93,15 @@ This section details each major problem and the corresponding solution engineere
     1.  **Automatic Linking & The Knowledge Graph**: The /extend command and the use of semantic search build a rich web of connections automatically. This turns your fragmented notes into a single, interconnected knowledge graph.
     2.  **HEAD vs. LIB Notes**: This distinction allows you to separate the "volatile" state of your thinking (HEAD) from the "stable" library of facts (LIB). Project notes then act as dashboards, bundling the relevant HEAD and LIB notes together to dramatically reduce the cost of loading a context.
     3.  **The Cleaving Process (/cleave)**: This LLM-assisted workflow is designed to take a large, messy thought and break it down into its constituent atomic notes, questions, and actions. This process turns fragmented stream-of-consciousness writing into structured, interconnected knowledge bricks. See [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]].
+
+### Problem F: The Hedonic Trap (Impulse vs. Value)
+
+-   **The Experience**: The "High-Frequency Trading" of dopamine. Prioritizing immediate, high-intensity pleasure (Hedonia) over long-term, quiet satisfaction (Eudaimonia), leading to a life that feels "fun" in the moment but "empty" in reflection.
+-   **Related Insights**:
+    -   [[SoT - Values and Eudaimonia]]
+    -   [[SoT - ADHD and Motivation]] (Wanting vs. Liking)
+    -   [[SoT - Identity-Based Habit Formation]]
+-   **The PRODOS Solution**:
+    1.  **The Choice Point**: A cognitive tool to visualize the fork in the road between "Away Moves" (Impulse) and "Toward Moves" (Values).
+    2.  **Structural Integrity**: Shifting identity from "I am what I feel" (Volatile) to "I am what I do" (Structural). The system records *actions*, building a trail of evidence for the new identity.
+    3.  **Reframing Boredom**: Explicitly labeling the "quiet" of duty not as a lack of fun, but as the **Safety** of a stable system.

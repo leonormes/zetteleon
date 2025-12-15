@@ -85,7 +85,6 @@ graph TD
 
 - **[[MOC - Container Networking Model]]** - Network namespace applications
 - **[[MOC - Container Runtime & Orchestration]]** - How runtimes use these primitives
-- **[[MOC - Linux Systems]]** - Broader Linux kernel knowledge
 
 ## Child Notes
 

@@ -11,7 +11,11 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: waiting
-tags: [compliance, head, prodos, security, training]
+tags:
+  - compliance
+  - prodos
+  - security
+  - training
 title: HEAD - FITFILE Annual Data Security Training
 type: head
 uid:

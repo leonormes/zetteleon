@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.tags.contains("adhd")
+views:
+  - type: table
+    name: Table
+    order:
+      - type
+      - file.name
+      - status
+      - file.tags
+      - file.size
+    sort:
+      - property: file.size
+        direction: DESC
+      - property: type
+        direction: ASC
+    columnSize:
+      note.type: 99
+      file.name: 581

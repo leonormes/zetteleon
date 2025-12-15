@@ -6,7 +6,7 @@ created: 2025-12-12T18:00:00Z
 epistemic: scientific
 last-synthesis: 2025-12-12
 last_reviewed: 2025-12-12
-modified: 2025-12-13T08:57:23Z
+modified: 2025-12-14T18:37:58Z
 purpose: Canonical definition of mass vs. weight and the modern definition of the kilogram based on the Planck constant.
 quality-markers: []
 related-soTs: ["[[SoT - Reality, Models, and the Limits of Accuracy]]"]
@@ -16,7 +16,7 @@ see_also: []
 source_of_truth: true
 status: stable
 supersedes: ["[[what is the difference between mass and weight]]"]
-tags: [measurement, physics, science, sot]
+tags: [measurement, physics, science]
 title: SoT - Mass vs Weight and the Kilogram
 type: SoT
 uid:

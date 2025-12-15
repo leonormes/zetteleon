@@ -1,21 +1,32 @@
 ---
-aliases: [GTD Implementation, ProdOS Action System, Task Architecture]
+aliases:
+  - GTD Implementation
+  - ProdOS Action System
+  - Task Architecture
 confidence: 4/5
 created: 2025-12-08T00:00:00Z
-epistemic: 
+epistemic:
 last_reviewed: 2025-12-08
 modified: 2025-12-12T18:18:05Z
-purpose: "To define the unified workflow for Task Management within ProdOS, specifically detailing the integration between Obsidian Tasks and Todoist via the Context Bridge."
-related-soTs: ["[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS (System Architecture)]]"]
-review_interval: 
+purpose: To define the unified workflow for Task Management within ProdOS, specifically detailing the integration between Obsidian Tasks and Todoist via the Context Bridge.
+related-soTs:
+  - "[[SoT - PKM Confidence and Acceptance Criteria]]"
+  - "[[SoT - PRODOS (System Architecture)]]"
+review_interval:
 see_also: []
 source_of_truth: true
 status: stable
-tags: [gtd, obsidian, prodos, system_design, tasks, todoist]
+tags:
+  - gtd
+  - obsidian
+  - prodos
+  - system_design
+  - tasks
+  - todoist
 title: SoT - PRODOS - Action Management (GTD)
-type: 
-uid: 
-updated: 
+type: SoT
+uid:
+updated:
 ---
 
 ## 1. The Core Philosophy: Separation of Thinking and Doing

@@ -11,8 +11,8 @@ purpose:
 review_interval:
 scope: The challenges, strengths, and strategies for remote software developers with ADHD.
 see_also: []
-source_of_truth: []
-status:
+source_of_truth: ["[[SoT - ADHD in Remote Software Development]]"]
+status: merged
 tags: [adhd, remote-work, sequence, software-development, structural]
 title: SN - Sequence - A Deep Dive into Adult ADHD in Remote Software Development
 type: sn

@@ -9,7 +9,7 @@ purpose:
 review_interval: 
 see_also: []
 source_of_truth: []
-status: 
+status: stable
 tags: [error, naive-realism, topic/cognition, topic/cognition/mental-model]
 title: Mistaking the Map for the Territory
 type: permanent
@@ -24,13 +24,13 @@ The critical error occurs when we forget we are using a simplified model and tre
 
 **Numerical Symbols**: Thinking that numbers *are* their decimal representations rather than abstract mathematical concepts. The decimal system is just one way to represent numerical relationships.
 
-**Scientific Models**: Treating the [[The Bohr Model as a Simplified Mental Model|Bohr model]] as if electrons literally orbit like planets, rather than understanding it as a useful but limited visualization.
+**Scientific Models**: Treating the Bohr model as if electrons literally orbit like planets, rather than understanding it as a useful but limited visualization.
 
 **Mental Models**: Assuming our internal models of other people's motivations are accurate representations rather than simplified interpretations based on limited information.
 
 ## Why This Confusion Occurs
 
-[[Naive Realism Makes Mental Models Invisible]] - we naturally assume our perceptions and models directly reflect reality. The brain's efficiency in pattern recognition makes us forget we're using simplified representations.
+Naive Realism Makes Mental Models Invisible - we naturally assume our perceptions and models directly reflect reality. The brain's efficiency in pattern recognition makes us forget we're using simplified representations.
 
 The confusion is reinforced when models work well within their intended scope, creating false confidence in their universal applicability.
 
@@ -44,6 +44,6 @@ When we mistake the map for the territory:
 
 ## Breaking Free from Confusion
 
-Recognition requires developing [[Metacognitive Awareness]] about our own thinking processes. We must remember that all models are provisional tools, not final truths about reality.
+Recognition requires developing Metacognitive Awareness about our own thinking processes. We must remember that all models are provisional tools, not final truths about reality.
 
-Links: [[The Map is Not the Territory]], [[Naive Realism Makes Mental Models Invisible]], [[Flawed Mental Models Limit Mastery]]
+Links: [[The Map is Not the Territory]]

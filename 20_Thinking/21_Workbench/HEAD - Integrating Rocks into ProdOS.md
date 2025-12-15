@@ -10,7 +10,10 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: archived
-tags: [head, planning, prodos, thinking]
+tags:
+  - planning
+  - prodos
+  - thinking
 title: HEAD - Integrating Rocks into ProdOS
 type: head
 uid:

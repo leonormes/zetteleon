@@ -1,0 +1,27 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.tags.contains("prodos")
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: name
+      direction: ASC
+    order:
+      - type
+      - file.name
+      - tags
+      - status
+      - file.size
+    sort:
+      - property: file.size
+        direction: DESC
+      - property: type
+        direction: ASC
+      - property: status
+        direction: ASC
+    columnSize:
+      note.type: 52
+      file.name: 349
+      note.tags: 585

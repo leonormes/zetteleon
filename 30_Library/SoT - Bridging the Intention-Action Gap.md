@@ -1,32 +1,20 @@
 ---
-aliases: [Activation Energy, ADHD Productivity, Knowing-Doing Gap, Motion Creates Motivation]
-confidence:
-confidence-gaps: [How to reliably generate intrinsic interest in a necessary but uninteresting task?, low-friction workflow for externalizing tasks from Obsidian?, What is the most seamless]
-created: 2025-11-13T16:20:00Z
-decay-signals: []
-epistemic:
-last-resonance: 2025-11-13
-last-synthesis: 2025-12-07
-last_reviewed:
-llm-responses: 4
+aliases: []
+confidence: 
+created: 2025-11-13T16:26:14Z
+epistemic: 
+last_reviewed: 
 modified: 2025-12-14T20:14:11Z
-mvu-hash: ""
-purpose:
-quality-markers: [Added ADHD-specific context, Added real-world DevOps K2A example, Added Vague Task Checklist, Integrated practical workflow, Synthesized from comprehensive research]
-related-soTs: ["[[ADHD and Motivation MOC]]", "[[MOC - ADHD Hyperfixation-Burnout Cycle]]", "[[SoT - Evolutionary Note System]]"]
-resonance-score: 5
-review_interval:
+purpose: 
+review_interval: 
 see_also: []
-source_of_truth: true
-status:
-supersedes: ["[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]", "[[ADHD and Productivity]]", "[[ADHD routines should be based on intrinsic motivation not external pressure]]", "[[Knowledge-to-Action System SoT]]", "[[KtA]]", "[[Logic Does Not Produce Dopamine]]", "[[The Activation Cost of Tasks is Higher in ADHD]]", "[[The Motivation Bridge - An ADHD Metaphor]]", "[[The Science of Bridging Intention and Action]]", "[[Vague Task to Actionable Plan Checklist]]", "[[Why Importance and Rewards Fail to Motivate ADHD Brains]]"]
-synthesis-count: 5
-tags: [adhd, devops, execution, habits, k2a, motivation, neuroscience, pkm, productivity, psychology]
+source_of_truth: []
+status: 
+tags: []
 title: SoT - Bridging the Intention-Action Gap
-trust-level: authoritative
-type: SoT
-uid:
-updated:
+type: 
+uid: 
+updated: 
 ---
 
 ## 1. Working Knowledge (Stable Foundation)
@@ -46,7 +34,10 @@ This creates the **Motivation Paradox**: waiting for a feeling of motivation tha
 
 This means creating a **Knowledge-to-Action (K2A) System** that not only defines the next action but does so in a way that is visual, tangible, and leverages ADHD's core motivators: Passion/Play, Interest, Novelty, Challenge, and Hurry (The PINCH Model). This system is not just for simple tasks; it can be scaled to manage complex professional domains like DevOps by integrating feedback loops (e.g., DORA metrics) and structured, hands-on practice.
 
-## 3. Understanding Layers (Progressive Abstraction)
+## 3. Integration Queue (Structured Input)
+### 📤 Integration Source (Existing)
+
+## 4. Understanding Layers (Progressive Abstraction)
 
 - **Layer 1: Basic Mental Model (The Motivation Bridge):** For the ADHD brain, the bridge from 'wanting to do' to 'doing' is broken. You can't will yourself across; you must build the missing planks with external structures and brain-friendly tricks. **Motion Creates Motivation.**
 - **Layer 2: Mechanistic Explanation (Activation Energy & The Logic Gap):**
@@ -92,7 +83,7 @@ This means creating a **Knowledge-to-Action (K2A) System** that not only defines
       9. [ ] **Write on 'Next Actions' list:** The entire project is now represented by this single task.
     - **PAUSE POINT:** Confirm the action is clear and doable in <10 mins.
 
-## 4. Minimum Viable Understanding (MVU)
+## 5. Minimum Viable Understanding (MVU)
 
 - **Established:** 2025-11-13
 - **Status:** **AUTHORITATIVE**
@@ -101,20 +92,20 @@ This means creating a **Knowledge-to-Action (K2A) System** that not only defines
 - 2. Identify the **absolute smallest physical step** to start it (e.g., "open laptop").
 - 3. Do just that one tiny step. The feeling of motivation will come *after*, not before.
 
-## 5. Battle Testing and Decay Signals
+## 6. Battle Testing and Decay Signals
 
 - **Core Claim(s):**
     1. For the ADHD brain, action must precede motivation.
     2. An effective productivity system must be external, visual, and flexible, lowering activation energy rather than demanding more willpower.
 - **Current Status:** **REINFORCED** by integrating personal experience with ADHD-specific productivity literature and demonstrating its applicability to complex, real-world technical domains (DevOps K2A).
 
-## 6. Tensions, Gaps, and Cross-SoT Coherence
+## 7. Tensions, Gaps, and Cross-SoT Coherence
 
 - **Tensions:** The need for novelty can lead to abandoning effective systems simply because they become routine. The system itself must have novelty built in (e.g., tackling new micro-projects from a backlog).
 - **Confidence Gaps:** How to reliably generate intrinsic interest in a necessary but uninteresting task remains the core challenge. The K2A DevOps model suggests that tying learning to solving real-world bottlenecks and seeing measurable improvement via metrics can be a powerful source of intrinsic motivation.
 - **Cross-SoT Coherence:** This SoT is the practical, ADHD-aware application layer for the [[SoT - Evolutionary Note System]] and is the central hub for concepts in the [[ADHD and Motivation MOC]].
 
-## 7. Sources and Links
+## 8. Sources and Links
 
 - **Supersedes:** [[ADHD and Productivity]], [[The Motivation Bridge - An ADHD Metaphor]], [[Activation Energy is the Primary Barrier to ADHD Task Initiation]], [[Vague Task to Actionable Plan Checklist]], [[Logic Does Not Produce Dopamine]]
 - **Related MOCs:** [[ADHD and Motivation MOC]], [[MOC - ADHD Hyperfixation-Burnout Cycle]]

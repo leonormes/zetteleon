@@ -40,6 +40,7 @@ The definitive specification of the system, its biological basis, and the "Why".
 How to ingest the world without getting overwhelmed.
 
 -   **[[SoT - PRODOS - The Tri-State Router]]** — *The routing logic: Is this Kinetic (Action), Static (Storage), or Dynamic (Thinking)?*
+-   **[[SoT - PRODOS - Structure & Storage]]** — *The 6-Component Architecture (Inbox, Journals, Bases, Actions, Thinking, Library).*
 -   **[[SoT - PRODOS - Problem Architecture]]** — *Defining "Problems" (Gap + Unknown) vs. "Tasks" (Gap + Known).*
 
 ---
@@ -82,6 +83,7 @@ How to sustain the system and grow.
 Specific implementations of ProdOS principles.
 
 -   **[[SoT - Family Budgeting System]]** — *The "Spendfulness" protocol.*
+-   **[[SoT - Family Financial Wellness]]** — *A practical framework for family financial stability.*
 
 ---
 

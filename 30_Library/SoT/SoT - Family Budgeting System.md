@@ -1,29 +1,18 @@
 ---
-alias:
-  - Family Financial System
-  - Financial Peace Protocol
-  - The Budgeting SoT
-  - Zero-Based Budgeting
+alias: [Family Financial System, Financial Peace Protocol, The Budgeting SoT, Zero-Based Budgeting]
 aliases: []
 confidence: 4/5
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed: 2025-12-13
-modified: 2025-12-13T14:23:33Z
+modified: 2025-12-14T17:52:48Z
 purpose: To define the canonical Family Budgeting System for ProdOS, integrating YNAB principles (Zero-Based Budgeting) with the 'Spendfulness' mindset.
-related-soTs:
-  - "[[SoT - Process Primacy (Systems Over Goals)]]"
-  - "[[SoT - PRODOS (System Architecture)]]"
+related-soTs: ["[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval:
 see_also: []
 source_of_truth: true
 status: stable
-tags:
-  - budget
-  - family
-  - finance
-  - system
-  - ynab
+tags: [budget, family, finance, system, ynab]
 title: SoT - Family Budgeting System
 type: SoT
 uid:
@@ -43,8 +32,8 @@ This system is not about restriction; it is about **clarity** and **alignment**.
 
 > [!example] Spendfulness in Action: The "Concert Ticket" Test
 > **Scenario:** Your favorite band is on a farewell tour. Tickets are expensive.
-> *   **The Broken Mindset:** You check your bank balance. It looks high, but you feel a pit in your stomach. Is that money for the mortgage? New tires? You buy the tickets but feel guilty and anxious, maybe even considering reselling them.
-> *   **The Spendful Mindset:** You check your "Music Money" category. You've been saving $50/month. The money is there. You buy the best seats and the merch. You feel **zero guilt** and **pure joy** because you *planned* for this moment. That is money well-spent.
+> -   **The Broken Mindset:** You check your bank balance. It looks high, but you feel a pit in your stomach. Is that money for the mortgage? New tires? You buy the tickets but feel guilty and anxious, maybe even considering reselling them.
+> -   **The Spendful Mindset:** You check your "Music Money" category. You've been saving $50/month. The money is there. You buy the best seats and the merch. You feel **zero guilt** and **pure joy** because you *planned* for this moment. That is money well-spent.
 
 ### The YNAB Method (Formerly The Four Rules)
 
@@ -147,16 +136,16 @@ A system without maintenance fails. We rely on two key rituals:
 ### A. The "Budget Date Night" (Monthly)
 *The antidote to money fights is shared clarity.*
 
-*   **When:** The last weekend of the month.
-*   **The Framework:** **Yours, Mine, and Ours.**
-    *   Budgeting as a couple means balancing three sets of priorities.
-    *   **Yours/Mine:** Autonomous spending (Hobbies, Fun Money).
-    *   **Ours:** Shared goals (House, Travel, Kids).
-*   **Agenda:**
+-   **When:** The last weekend of the month.
+-   **The Framework:** **Yours, Mine, and Ours.**
+    -   Budgeting as a couple means balancing three sets of priorities.
+    -   **Yours/Mine:** Autonomous spending (Hobbies, Fun Money).
+    -   **Ours:** Shared goals (House, Travel, Kids).
+-   **Agenda:**
     1.  **Reflect:** Did our spending align with our values last month?
     2.  **Forecast:** What irregular expenses are coming up this month? (Birthdays, trips).
     3.  **Assign:** Fund next month's categories using the "Month Ahead" money.
-*   **Vibe:** Low stress, wine/snacks involved. Focus on *dreams*, not just math.
+-   **Vibe:** Low stress, wine/snacks involved. Focus on *dreams*, not just math.
 
 ### B. The "WAM" (Whack-A-Mole) Check-in (Weekly)
 - **When:** Friday or Sunday.

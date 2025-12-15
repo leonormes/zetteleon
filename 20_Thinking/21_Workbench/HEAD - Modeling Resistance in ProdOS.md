@@ -10,7 +10,10 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: archived
-tags: [head, prodos, psychology, thinking]
+tags:
+  - prodos
+  - psychology
+  - thinking
 title: HEAD - Modeling Resistance in ProdOS
 type: head
 uid:

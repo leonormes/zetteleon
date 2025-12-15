@@ -10,7 +10,11 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: defined
-tags: [evolution, head, neuroscience, prodos, thinking]
+tags:
+  - evolution
+  - neuroscience
+  - prodos
+  - thinking
 title: HEAD - The Purpose of Thinking
 type: head
 uid:

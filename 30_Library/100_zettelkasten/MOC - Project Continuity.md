@@ -1,5 +1,6 @@
 ---
-aliases: [Project Continuity MOC]
+aliases:
+  - Project Continuity MOC
 confidence:
 created: 2025-11-11T19:05:01Z
 criteria: Atomic notes explaining the cognitive challenges or providing specific strategies to bridge work sessions.
@@ -12,8 +13,10 @@ review_interval:
 scope: Strategies for maintaining engagement and continuity in long-term projects, especially for neurodivergent minds.
 see_also: []
 source_of_truth: []
-status:
-tags: [adhd, productivity]
+status: stable
+tags:
+  - adhd
+  - productivity
 title: MOC - Project Continuity
 type: map
 uid: 2025-11-11T19:05:01Z

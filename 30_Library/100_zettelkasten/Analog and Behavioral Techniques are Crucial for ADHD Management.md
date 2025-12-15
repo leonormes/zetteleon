@@ -8,8 +8,8 @@ modified: 2025-11-07T12:47:12Z
 purpose: "To highlight the importance of analog and behavioral techniques for managing ADHD, as digital tools can be distracting."
 review_interval: 90
 see_also: []
-source_of_truth: ["A Deep Dive into Adult ADHD in Remote Software Development.md"]
-status: seedling
+source_of_truth: ["[[SoT - ADHD and Motivation]]"]
+status: merged
 tags: [adhd, habits, pomodoro, productivity]
 title: Analog and Behavioral Techniques are Crucial for ADHD Management
 type: concept
