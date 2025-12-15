@@ -5,17 +5,13 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-12T18:18:35Z
+modified: 2025-12-15T14:41:11Z
 purpose: To process and track the mandatory annual FITFILE Data Security Awareness training.
 review_interval:
 see_also: []
 source_of_truth: []
 status: waiting
-tags:
-  - compliance
-  - prodos
-  - security
-  - training
+tags: [compliance, prodos, security, training]
 title: HEAD - FITFILE Annual Data Security Training
 type: head
 uid:

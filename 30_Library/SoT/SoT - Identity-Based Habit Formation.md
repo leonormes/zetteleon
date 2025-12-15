@@ -4,13 +4,13 @@ confidence: 5/5
 created: 2025-12-07T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-12T18:18:05Z
+modified: 2025-12-15T14:41:16Z
 purpose: To define the role of Identity as the primary engine for sustained behavioral change.
 review_interval:
 see_also: []
 source_of_truth: true
 status: stable
-supersedes: ["[[Powerful Identity]]", "[[A Done List Provides Tangible Evidence of Accomplishment]]"]
+supersedes: ["[[A Done List Provides Tangible Evidence of Accomplishment]]", "[[Powerful Identity]]"]
 tags: [behavioral_science, habits, identity, psychology]
 title: SoT - Identity-Based Habit Formation
 type: SoT

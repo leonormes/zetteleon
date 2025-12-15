@@ -1,22 +1,21 @@
 ---
 aliases: []
+AoL: Work
 confidence:
 created: Invalid date
 epistemic:
 last_reviewed:
-modified: 2025-12-15T09:17:56Z
+modified: 2025-12-15T14:41:11Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags:
-  - state/thinking
-title: HEAD - 2025-12-15 0914
+tags: [state/thinking]
+title: HEAD - Take Over as Use Admin in FF
 type: head
 uid:
 updated:
-AoL: Work
 ---
 
 I think I need to take over the user admin for our applications.

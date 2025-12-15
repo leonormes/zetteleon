@@ -6,7 +6,7 @@ created: 2025-12-14T00:00:00Z
 description: "Practical framework for financial wellness tailored for a family of five in the UK."
 epistemic: 
 last_reviewed: 
-modified: 2025-12-14T17:39:07Z
+modified: 2025-12-15T14:41:14Z
 published:
 purpose: 
 review_interval: 
@@ -14,7 +14,7 @@ see_also: []
 source: "https://gemini.google.com/share/ad334e6e0f33"
 source_of_truth: []
 status: stable
-tags: [finance, family, framework, guide]
+tags: [1, family, finance, framework, guide]
 title: SoT - Family Financial Wellness
 type: sot
 uid: 
