@@ -35,7 +35,9 @@ Task execution is not a singular event but a sequential biological process consi
 -   **Function:** Overcoming inertia. Organizing materials, estimating time, and generating metabolic energy (dopamine/norepinephrine) to start.
 -   **Brain Network:** Prefrontal Cortex (PFC) & Basal Ganglia.
 -   **ProdOS Tool:** **Todoist Context Bridge**.
--   **The ProdOS Fix:** We separate "Deciding to Start" from "Doing the Work." The Context Bridge provides a single, low-friction button to trigger the brain's "Go" signal without requiring a high cognitive load setup.
+-   **The ProdOS Fix:** We separate "Deciding to Start" from "Doing the Work." The Context Bridge provides a single, low-friction button to trigger the brain's "Go" signal.
+    -   **Mechanism:** This triggers a **Cognitive Shift** from the daunting question *"Should I start?"* (Resistance) to the manageable question *"What should I do next?"* (Execution).
+    -   **Trigger:** A **Starter Task** (e.g., "Open file") is too small to trigger perfectionism or overthinking, allowing the brain to bypass the "Mood Repair Trap" and enter the motion state. (See: [[Starter Tasks Bypass Overthinking and Reduce Perfectionism]])
 
 > [!failure] The Mood Repair Trap
 > This is where **Procrastination** strikes. The brain predicts negative emotion from the task and refuses to initiate in order to "repair mood" immediately. **Counter-measure:** Ignore feelings; execute the Context Bridge mechanically.
