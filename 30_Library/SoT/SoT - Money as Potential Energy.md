@@ -8,7 +8,7 @@ last_reviewed: 2025-12-14
 modified: 2025-12-14T17:52:46Z
 purpose: To define money not as a store of value but as a store of potential energy (work capacity), and to formalize the mechanics of spending as vector allocation.
 review_interval: 6 months
-see_also: ["[[SoT - Fundamental Description of Economics]]", "[[SoT - Ontology of Money and Wealth]]"]
+see_also: ["[[SoT - Fundamental Description of Economics]]", "[[SoT - Ontology of Money and Wealth]]", "[[SoT - Family Financial Wellness]]"]
 source_of_truth: true
 status: stable
 tags: [economics, energy, money, physics, systems_thinking]
@@ -77,7 +77,29 @@ From an employer's perspective, a salary is only one part of the **Total Cost of
 
 ---
 
-## 6. Summary
+## 7. Psychological Implications: The Mindset Shift
+
+Understanding money as energy allows for a shift from a mindset of **Accumulation** (Scoreboard) to one of **Utilization** (Fuel).
+
+### 7.1 The Trap of Comparative Justice
+The media narrative focuses on wealth as a **Scoreboard** (who has the most points/tokens?), which triggers envy.
+- **The Old Story:** "They have billions, and I do not. It is unfair."
+- **The New Story (Energy View):** "Money is potential energy. Stored energy that is not used is just potential physics; it does no work."
+- **The Mantra:** *Resources are not for counting; they are for deploying.* If you have sufficient fuel to drive your family to their destination, carrying a million extra gallons simply weighs down the vehicle.
+
+### 7.2 Diminishing Returns (Marginal Utility)
+The difference between having £10 million and £1 billion, in terms of daily emotional experience and biological happiness, is negligible.
+- **The Reality:** Excessive potential energy often requires high-maintenance containment (security, management), leading to the "Paradox of Choice."
+- **The Goldilocks Zone:** The optimal state is having enough potential energy to ensure safety and autonomy, but not so much that you become a prisoner of your assets.
+
+### 7.3 The Personal 100%
+The "1%" is a statistical demographic. The "Personal 100%" is a state of being where you lack nothing essential.
+- **The Goal:** Not to own the world, but to own *your* time.
+- **Success Criteria:** If you can wake up and decide what to do with your day, you have achieved the highest form of wealth available to a human being.
+
+---
+
+## 8. Summary
 
 **The Work-Abstraction Theory of Money:**
 1.  **Tokenization:** Money is past labour stored as potential.

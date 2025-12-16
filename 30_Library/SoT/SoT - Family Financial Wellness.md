@@ -6,7 +6,7 @@ created: 2025-12-14T00:00:00Z
 description: "Practical framework for financial wellness tailored for a family of five in the UK."
 epistemic: 
 last_reviewed: 
-modified: 2025-12-16T08:57:29Z
+modified: 2025-12-16T09:28:46Z
 published:
 purpose:
 related-soTs: ["[[SoT - Family Budgeting System]]"]
@@ -100,7 +100,34 @@ If you have consumer debt:
 
 ---
 
-## 5. Common Family Money Mistakes
+## 5. Maximising Resources: The "Memory Dividend" Strategy
+
+Once stability is achieved, the goal shifts from **Accumulation** (playing "Monopoly") to **Maximisation of Joy** (playing "The Sims"). Money should be used to invest in experiences that pay out a "Memory Dividend"—a positive emotional return every time you recall them.
+
+### A. The Five Categories of Investment
+
+1.  **The "Friction Removal" Dividend:** Use money to buy back patience and presence.
+    -   *Action:* Outsource tasks that drain you (e.g., deep cleaning, meal prep) to preserve energy for family time.
+    -   *Mindset:* You are not "spending" money; you are buying family harmony.
+2.  **The "Shared Struggle" Dividend:** Families bond when they are beginners together.
+    -   *Action:* Projects where no one is the expert (e.g., learning to surf, building a complex Lego set).
+3.  **The "Anticipation" Dividend:** Psychology shows we derive as much joy from looking forward to an event as doing it.
+    -   *Action:* Book significant events months in advance to create a shared "North Star" for the family.
+4.  **The "Autonomy" Dividend:** Practicing the freedom resources provide.
+    -   *Action:* The "Yes Day" (with a budget). Give family members a budget and full control over the itinerary.
+5.  **The "Nostalgia" Capture:** Professional documentation of the "Good Times."
+    -   *Action:* Candid, documentary-style photography of normal life, not just posed studio shots.
+
+### B. The Narrative Flip
+
+Whenever envy of the ultra-wealthy creeps in ("The System is Rigged"), remember:
+
+> **Don't hate the player who has the high score; realize you are playing a different game.**
+> They are optimizing for **High Score** (Accumulation). You are optimizing for **High Resolution** (Experience). You cannot lose a game you aren't playing.
+
+---
+
+## 6. Common Family Money Mistakes
 
 - **Lifestyle Creep:** As your income rises, your spending rises to match it. You must artificially suppress your lifestyle. If you get a pay rise, bank 50% of the difference immediately.
 - **Being "House Poor":** Buying a house that requires two incomes to support. If one of you loses a job, the mortgage becomes a threat.

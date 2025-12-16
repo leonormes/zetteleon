@@ -107,8 +107,6 @@ This section details each major problem and the corresponding solution engineere
     -   [[SoT - Values and Eudaimonia]]
     -   [[SoT - ADHD and Motivation]] (Wanting vs. Liking)
     -   [[SoT - Identity-Based Habit Formation]]
-    -   [[The Brutal Truth About Time Management No One Wants to Hear]]
-    -   [[You're not too busy, you're distracted]]
 -   **The PRODOS Solution**:
     1.  **The Choice Point**: A cognitive tool to visualize the fork in the road between "Away Moves" (Impulse) and "Toward Moves" (Values).
     2.  **Structural Integrity**: Shifting identity from "I am what I feel" (Volatile) to "I am what I do" (Structural). The system records *actions*, building a trail of evidence for the new identity.
@@ -150,7 +148,6 @@ This section details each major problem and the corresponding solution engineere
 -   **Related Insights**:
     -   [[SoT - Personal Agency and Transformation]]
     -   [[Growth mindset]]
-    -   [[The Brutal Truth About Time Management No One Wants to Hear]]
 -   **The PRODOS Solution**:
     1.  **The Gift of Desperation**: Reframing "Rock Bottom" not as failure, but as the removal of Pride—the catalyst for radical change.
     2.  **Input Maximisation**: A protocol of saying "Yes" to everything to increase the surface area for luck ("Black Swan" events).
