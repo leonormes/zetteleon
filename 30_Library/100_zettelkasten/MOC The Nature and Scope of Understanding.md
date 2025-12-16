@@ -20,6 +20,6 @@ version:
 
 This Map of Content explores the multifaceted concept of understanding, examining its benefits, limitations, and strategies for improvement. At its core, [[Understanding Enables Accurate Predictions]] and simultaneously [[Understanding Reveals Cause-and-Effect]]. The effectiveness of these aspects is heavily influenced by the [[Broader Understanding Enhances Predictive & Causal Insight]].
 
-However, it is crucial to acknowledge that [[Human Understanding is Inherently Myopic]] due to our [[Limited Human Information Processing Capacity]]. To mitigate these constraints, a key strategy is to embrace [[Abstraction Improves Breadth of Understanding]], which can be vividly illustrated through the [[Abstraction as Climbing a Hill]] analogy. Together, these notes reconstruct a comprehensive view of how understanding operates and how it can be cultivated.
+However, it is crucial to acknowledge that [[Human Understanding is Inherently Myopic]] due to our [[Limited Human Information Processing Capacity]]. To mitigate these constraints, a key strategy is to embrace [[MOC - Abstraction Improves Breadth of Understanding]], which can be vividly illustrated through the [[Abstraction as Climbing a Hill]] analogy. Together, these notes reconstruct a comprehensive view of how understanding operates and how it can be cultivated.
 
 [[Myopic understanding]]

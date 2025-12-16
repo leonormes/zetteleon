@@ -32,7 +32,7 @@ This helps to develop a more profound understanding of complex concepts.
 
 [[The Extended Mind Thesis]]
 
-[[Abstraction Improves Breadth of Understanding]]
+[[MOC - Abstraction Improves Breadth of Understanding]]
 
 [[Externalise Everything]]
 

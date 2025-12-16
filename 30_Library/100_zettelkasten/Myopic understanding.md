@@ -56,7 +56,7 @@ Idea G: Analogy: Gaining a wider perspective through abstraction is like climbin
 
 [[Limited Human Information Processing Capacity]]
 
-[[Abstraction Improves Breadth of Understanding]]
+[[MOC - Abstraction Improves Breadth of Understanding]]
 
 [[Abstraction as Climbing a Hill]]
 

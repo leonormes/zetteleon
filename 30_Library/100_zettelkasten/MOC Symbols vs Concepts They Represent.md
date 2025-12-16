@@ -54,7 +54,7 @@ These examples all demonstrate the same fundamental pattern:
 
 ## Related Concepts
 
-- **[[Abstraction Improves Breadth of Understanding]]** - How proper abstraction transcends specific representations
+- **[[MOC - Abstraction Improves Breadth of Understanding]]** - How proper abstraction transcends specific representations
 - **[[Characteristica Universalis (Leibniz)]]** - Historical attempts to create universal symbolic representation
 - **[[Paraphrasing and Language MOC]]** - Language-specific applications of these principles
 

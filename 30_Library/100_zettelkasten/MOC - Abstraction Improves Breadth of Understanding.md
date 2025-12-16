@@ -4,14 +4,14 @@ confidence:
 created: 2025-07-26T19:03:27Z
 epistemic:
 last_reviewed:
-modified: 2025-10-30T10:27:45Z
+modified: 2025-12-16T09:30:44Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
 tags: []
-title: Abstraction Improves Breadth of Understanding
+title: MOC - Abstraction Improves Breadth of Understanding
 type: map
 uid:
 updated:
@@ -32,7 +32,6 @@ The Outcome: [[Broader Understanding Enhances Predictive & Causal Insight]] thro
 
 ## Related Cognitive Concepts
 
-- [[Illusion of Explanatory Depth (IoED)]] - Abstraction helps distinguish real understanding from surface familiarity
 - [[Working Memory Challenges in Technical Context]] - Abstraction reduces cognitive load by chunking information
 - [[The Extended Mind Thesis]] - External tools can help manage abstraction layers
 - [[Metacognitive Awareness]] - Conscious monitoring of your abstraction level

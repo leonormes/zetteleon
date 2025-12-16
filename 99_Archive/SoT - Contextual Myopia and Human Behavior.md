@@ -85,7 +85,7 @@ Evolutionarily, the brain is a [[The Brain as a Distributed Prediction Machine|p
 
 ## 6. Related Components
 -   [[SoT - Contextual Myopia and Self-Referential Meaning]]
--   [[Abstraction Improves Breadth of Understanding]]
+-   [[MOC - Abstraction Improves Breadth of Understanding]]
 -   [[Understanding Enables Accurate Predictions]]
 -   [[Understanding Reveals Cause-and-Effect]]
 -   [[Predictive Processing and the Bayesian Brain]]
