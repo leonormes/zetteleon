@@ -4,10 +4,10 @@ confidence: 5/5
 created: 2025-12-14T15:00:00Z
 epistemic: theory
 last_reviewed: 2025-12-14
-modified: 2025-12-14T17:49:04Z
+modified: 2025-12-16T08:57:27Z
 purpose: To define the psychological and neurobiological experience of living by values (Eudaimonia) versus living by impulse (Hedonia), and to provide a framework for constructing a self based on duty.
 review_interval: 6 months
-see_also: ["[[Integrity Means Acting in Accordance With Chosen Values]]", "[[SoT - ADHD and Motivation]]", "[[The Self is Constructed Through a Commitment to Chosen Values]]"]
+see_also: ["[[Integrity Means Acting in Accordance With Chosen Values]]", "[[SoT - ADHD and Motivation]]", "[[The Self is Constructed Through a Commitment to Chosen Values]]", "[[SoT - Wabi-Sabi]]"]
 source_of_truth: true
 status: stable
 tags: [adhd, eudaimonia, philosophy, psychology, values]
@@ -21,7 +21,7 @@ version: 1
 ## 1. Definitive Statement
 
 > [!definition] Definition
-> **Eudaimonia** (human flourishing) is the distinct form of well-being that arises from acting in alignment with deeply held values and meaningful duties, rather than the pursuit of momentary pleasure (**Hedonia**).
+> **Eudaimonia** (human flourishing) is the distinct form of well-being that arises from acting in alignment with deeply held values and meaningful duties, rather than the pursuit of momentary pleasure (**Hedonia**). (Source: *Deep Dive* podcast episode).
 >
 > For the neurodivergent individual, the transition to Eudaimonia involves shifting from an **Intensity-Based** emotional model (seeking the "High") to a **Resonance-Based** emotional model (seeking "Alignment" and "Safety").
 
@@ -110,7 +110,29 @@ You do not become a robot. You **Channel** your nature.
 
 ---
 
-## 6. Conclusion
+## 7. The Economic Analogy: Use Value vs. Exchange Value
+
+We can map this internal conflict to economic principles (Source: *The capitalist mindset* by The Market Exit).
+
+### A. Use Value (The Steady State / Eudaimonia)
+-   **Definition:** Producing/doing something to satisfy a need or provide utility. Money is just an intermediary.
+-   **The Mindset:** "Enough." The goal is a steady state where needs are met and life is enjoyed.
+-   **The "Pomona Cafe" Model:** A small cafe owner (Elsa) who is happy with a steady profit that pays the rent and allows for holidays. She has no desire to expand infinitely because the *use value* (providing coffee/living a life) is satisfied.
+
+### B. Exchange Value (The Endless Growth / Hedonia)
+-   **Definition:** Using money to produce a commodity to sell for *more* money. The goal is the accumulation of capital itself.
+-   **The Mindset:** "More." The cycle is exponential and lacks a "Done" state.
+-   **The "Espresso House" Model:** A chain focused on aggressive expansion and maximizing "value," often destroying the user experience (and local competitors) in service of the metric.
+
+### C. The "Virus" of Exchange Value
+
+When the "Exchange Value" mindset infects personal life, we treat our time, hobbies, and relationships as assets to be optimized for "growth" (Social Media likes, Net Worth, Productivity Scores) rather than for their intrinsic utility or joy.
+
+-   **The Fix:** Resist the urge to scale everything. Focus on the **Use Value** of your day—did it provide utility, meaning, and connection?—rather than the **Exchange Value** (did it look good, did it "count"?).
+
+---
+
+## 8. Conclusion
 
 The life you are proud of does not feel "exciting" in the moment. It feels **Solid**. It is the difference between eating candy (Hedonia) and eating a steak (Eudaimonia). One gives you a rush; the other builds muscle.
 

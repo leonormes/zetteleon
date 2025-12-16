@@ -5,9 +5,10 @@ confidence: 4/5
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed: 2025-12-13
-modified: 2025-12-14T17:52:48Z
+last_synthesis: 2025-12-15
+modified: 2025-12-15T19:53:27Z
 purpose: To define the canonical Family Budgeting System for ProdOS, integrating YNAB principles (Zero-Based Budgeting) with the 'Spendfulness' mindset.
-related-soTs: ["[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS (System Architecture)]]"]
+related-soTs: ["[[SoT - Family Financial Wellness]]", "[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval:
 see_also: []
 source_of_truth: true
@@ -154,9 +155,51 @@ A system without maintenance fails. We rely on two key rituals:
     2.  **Find the Money First:** Before the week starts, check category balances.
     3.  Cover any overspending (Rule 3). Moving money from "Dining Out" to "Groceries" is not failure; it is active management.
 
+### C. The Payday Protocol (The Trigger)
+*Executed every time a paycheck hits, regardless of the date.*
+
+1.  **Trigger:** Money arrives in "Ready to Assign."
+2.  **Action:** Run the **Five-Question Framework** immediately.
+    -   *Reality:* Cover immediate bills due before next pay.
+    -   *Stability:* Fund the monthly portion of True Expenses.
+    -   *Resilience:* Move funds to "Next Month's Buffer" (if not yet fully buffered).
+    -   *Creation:* Fund aspirations/fun.
+    -   *Flexibility:* Adjust for previous overspending.
+3.  **Outcome:** $0 in "Ready to Assign." Every dollar has a job.
+
 ---
 
-## 6. Troubleshooting: The "Emergency" Protocol
+## 6. Strategic Protocols: Handling Complexity
+
+### A. The Annual Event Protocol (The Holiday Hack)
+*A systematic framework to eliminate holiday/event financial worry.*
+
+**Phase 1: Macro-Level Prep (The Target)**
+-   **Action:** In January, set a total spending target for the event (e.g., £800).
+-   **Result:** A single category accumulating funds monthly.
+
+**Phase 2: Structural Breakdown (The Clarity)**
+-   **When:** 1-2 months before the event.
+-   **Action:** Create a temporary **Category Group** (e.g., "Christmas 2025") with specific buckets:
+    -   **People:** Individual lines for each person (e.g., "Gift: Mum", "Gift: Partner").
+    -   **Events:** Social costs (Work party, dinners).
+    -   **Travel:** Fuel, trains, hotels.
+    -   **Traditions:** Tree, decorations, specific food.
+    -   **Little Joys:** Cards, advent calendars.
+
+**Phase 3: Funding & Calibration**
+-   **Action:** Move the accumulated lump sum into these specific buckets.
+-   **Check:** Does the total need match the savings?
+    -   *Shortfall?* Cut low-priority items (cards) or move money from other budget areas ("Steal from the Sofa Fund").
+    -   *Surplus?* Reallocate to other goals.
+
+**Phase 4: Execution & Cleanup**
+-   **Track:** Use colored flags or notes to mark status (Ordered, Wrapped, Done).
+-   **Clean Up:** Once the event is over, **Hide** the category group (do not delete) to preserve the data for next year's planning.
+
+---
+
+## 7. Troubleshooting: The "Emergency" Protocol
 
 What happens when you *have* to spend money you didn't plan for (e.g., a flat tire, urgent medical bill)?
 
@@ -178,7 +221,7 @@ If an expense hits *before* you've saved for it:
 
 ---
 
-## 7. Decision Heuristics: The "Debt vs. Buffer" Dilemma
+## 8. Decision Heuristics: The "Debt vs. Buffer" Dilemma
 
 When choosing between aggressive debt payoff and building the "Month Ahead" buffer, use this decision matrix (Compass over Math):
 
@@ -197,7 +240,7 @@ When choosing between aggressive debt payoff and building the "Month Ahead" buff
     - *Scenario:* You are paralyzed by the choice.
     - *Action:* **The Breathing Room Balloon.** Pay minimums on debt. Use extra cash to get "One Category Ahead" at a time (e.g., fund next month's Rent, then Groceries). You slowly build the buffer while maintaining debt payments.
 
-## 8. Acceptance Criteria (Is it Working?)
+## 9. Acceptance Criteria (Is it Working?)
 
 The system is functioning when:
 
@@ -206,7 +249,7 @@ The system is functioning when:
 3.  **No "Payday Timing":** We don't worry about which day a bill clears because the money was there on the 1st.
 4.  **Aligned Autonomy:** We achieve family goals without sacrificing individual freedom.
 
-## 9. Key Habits for Success
+## 10. Key Habits for Success
 
 To make the system work, adopt these behaviors:
 
@@ -224,9 +267,8 @@ To make the system work, adopt these behaviors:
 - **From "True Expenses" to "Stability":** The term "True Expenses" was often confusing for new users. The new language focuses on the *result* of saving for irregular bills: financial **Stability**.
 - **From "Age Your Money" to "Resilience":** The "Age of Money" metric was abstract. The focus is now on the tangible action of funding the next month to build **Resilience**.
 - **Introduction of "Spendfulness":** The ultimate goal is no longer just "budgeting" (restriction), but **Spendfulness**—spending without guilt because it aligns with your values.
-## Key Shifts in Thinking
 
-### 10. Open Questions & Tensions
+## 11. Open Questions & Tensions
 
 **Current Friction: Mental Model Mismatch**
 There is a persistent struggle with internalizing the core heuristics of the system, particularly for Zofja. The user reports:
@@ -236,7 +278,7 @@ There is a persistent struggle with internalizing the core heuristics of the sys
 **Diagnosis:**
 This is likely a reversion to **Forecasting** (checking Bank Balance) rather than **Allocation** (checking Category Balance). The "wrong thing" guiding choices is the *account total*, which creates a false sense of abundance.
 
-#### Proposed Experiment: The "Steal from the Dream" Protocol
+### Proposed Experiment: The "Steal from the Dream" Protocol
 
 To shift the heuristic from *Abstraction* (Numbers on a screen) to *Tangible Trade-off* (Loss of value), implement the following strict protocol for 7 days.
 

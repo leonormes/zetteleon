@@ -61,3 +61,13 @@ How the brain processes and stores these models.
 -   **[[SoT - The Extended Mind]]** — *The Prosthesis.* Thinking extends beyond the brain into tools and environments.
 -   **[[SoT - Working Memory & Schema Theory]]** — *The RAM.* The bottleneck of processing and how Schemas (Expertise) bypass it.
 -   **[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]** — *The Strategy.* The difference between "Predictive" brains and "Iterative" brains (ADHD).
+-   **[[SoT - Visualization as Cognitive Architecture]]** — *The Rendering Engine.* How the brain constructs reality via fractal logic and the "First Frame."
+
+---
+
+## 5. The Toolkit (Cognitive Engineering)
+
+Practical protocols for debugging and refactoring the mind.
+
+-   **[[SoT - Cognitive Refactoring (Neural Debugging)]]** — *The Debugger.* How to use "Mapping Across" to hack belief structures (submodalities) and inject confidence.
+-   **[[SoT - Journaling as Cognitive Engineering]]** — *The Log.* Using expressive writing to synchronize emotional and executive processing.

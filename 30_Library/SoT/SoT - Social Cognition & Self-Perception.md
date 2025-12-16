@@ -68,4 +68,8 @@ Initial affective reactions heavily influence judgment, often unconsciously.
 
 Philosophers like David Hume and Thomas Hobbes proposed the "axiom of self-interest," assuming individuals act primarily out of private self-interest. However, scientific evidence (e.g., Prisoner's Dilemma studies, fMRI scans of charitable giving) demonstrates that humans are also "wired to care for others," with reward systems activating more for mutual cooperation and costly altruistic acts than for purely selfish gain. This "basic wiring" means we often overestimate how self-interested others are, and are "obsessively concerned about what others think of us, although much of the concern is unconscious."
 
+### I. Social Support & Belonging (Moai)
+-   **Concept:** A "secure social network" or lifelong circle of friends who support each other financially and emotionally. (Source: *Deep Dive* podcast episode, referencing Blue Zones).
+-   **Impact:** Reduces stress, provides a sense of purpose and belonging, and contributes to longevity. It's an external scaffold for emotional and practical resilience.
+
 ---

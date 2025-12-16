@@ -5,12 +5,12 @@ confidence-gaps: []
 created: 2025-11-13T17:30:00Z
 decay-signals: []
 epistemic:
-last-synthesis: 2025-12-07
+last-synthesis: 2025-12-15
 last_reviewed: 2025-12-07
-modified: 2025-12-14T14:06:36Z
+modified: 2025-12-15T19:32:13Z
 purpose: The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system.
 quality-markers: [Clarifies the Human-in-the-Loop LLM workflow., Defines the core cognitive loop., Establishes verifiable acceptance criteria., Integrates Hansei Reflection Loop.]
-related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]"]
+related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - ADHD Environmental Design]]", "[[SoT - Physical Health and Vitality]]", "[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]"]
 resonance-score: 10
 review_interval: 3 months
 see_also: []
@@ -148,7 +148,42 @@ The folder structure and tool integration reflect the cognitive loop. PRODOS v5.
 
 ---
 
-## 7. Reality as a Unit Test (The Execution & Ignition Protocol)
+## 7. Tactical Protocols: The Command Centre (Manual Execution)
+*Source: [YouTube Video: The Command Centre (Manual Execution)](https://youtu.be/qP6e8kcurgQ)*
+
+The Command Centre is a structural solution to planning inconsistency, reframing it not as a failure of willpower but as a failure of **system design**. It externalizes hard-coded algorithms for operational routines (daily, weekly, monthly planning) that execute on "autopilot" to overcome cognitive latency and decision fatigue.
+
+**Objective:** Eliminate decision fatigue and reduce the cognitive load required to *initiate* and *execute* maintenance routines. It decouples the "execution" of planning from the "memory" of how to plan, functioning as a compiled executable for your analogue operating system.
+
+### A. The Problem Space: Cognitive Latency
+
+-   **Friction Point:** The brain wastes bandwidth recalling the *process* of planning rather than executing its *content*.
+-   **Result:** High "activation energy" leads to procrastination and system abandonment.
+-   **Solution:** A "recipe card" or heuristic that removes memory retrieval.
+
+### B. Build Protocol (System Definition)
+
+To construct a valid Command Centre, refactor vague processes into a strict instruction set:
+
+1.  **Audit (Data Dump):** List every step of a routine (e.g., Weekly Reset) when the system functions correctly.
+2.  **Refactor (Optimisation):**
+    -   **Prune:** Remove "nice-to-have" features that add friction.
+    -   **Merge:** Combine redundant steps.
+    -   **Patch:** Add missing dependencies.
+3.  **Codify (Final Output):** Write the refined algorithm onto a physical card. Instructions must be explicit enough for a stranger to execute.
+
+### C. Deployment Strategies (Integration)
+
+The system fails if the instruction set is not accessible at the exact moment of execution (Latency = 0).
+
+1.  **Traveling Command Centre (Paperclip Method):** For monthly or situational routines. Physically move the card with the routine to the current active planner spread. (Context-aware visibility).
+2.  **Bookmark Kernel (Index Card Method):** For high-frequency routines (Daily/Weekly). The card doubles as a primary bookmark. (Zero friction, immediate presentation).
+    -   **State Management:** Tick off steps with a pencil; erase to reset.
+3.  **Hardware Integration:** Attach instructions to existing hardware (e.g., pencil board, ruler).
+
+---
+
+## 8. Reality as a Unit Test (The Execution & Ignition Protocol)
 
 The "Next Test" is not just a task; it is a **verifiable interface** between the internal mental model (Thinking) and external reality (Doing).
 
@@ -191,7 +226,7 @@ To qualify as a "Next Test," an action must meet three criteria:
 
 ---
 
-## 8. Information Architecture & Retrieval Strategy
+## 9. Information Architecture & Retrieval Strategy
 
 The core challenge of any knowledge system is retrieving the right thought at the right time. Previous iterations failed because files (SoT, MOC, HEAD, Summary) **competed for authority**, creating decision fatigue.
 
@@ -225,7 +260,7 @@ To fix "Version Control Failure," the retrieval system must enforce the "Master 
 
 ---
 
-## 9. Maintenance Rituals: The Hansei Feedback Loop
+## 10. Maintenance Rituals: The Hansei Feedback Loop
 
 The system is not static; it requires active maintenance to prevent "Trust Decay." This is not "admin"; it is the mechanism of improvement.
 
@@ -240,12 +275,33 @@ The system is not static; it requires active maintenance to prevent "Trust Decay
 
 ---
 
-## 10. Open Questions & Tensions
+## 11. The Three-Layer Architecture (Capacity & Maintenance)
+*Source: [The Missing Middle: Why Goals Fail](http://www.youtube.com/watch?v=sztRU38bE_Q)*
+
+Most planning systems fail because they oscillate between **Strategic Goals** (Top) and **Execution Tasks** (Bottom), ignoring the **Maintenance Layer** that actually sustains life. This creates "boom and bust" cycles where goal pursuit cannibalizes basic infrastructure.
+
+### The Architecture
+1.  **Strategic Layer (Top-Down):** Goals, Vision, 12-Week Plans. Provides *direction*. Heavy; requires a solid foundation.
+2.  **Maintenance Layer (The Missing Link):** Recurring operations (Health, Finance, Home). Provides *stability*.
+    -   **Logic:** This is the non-negotiable "burn rate" of your life.
+    -   **Rule:** **Capacity Regulation.** You must subtract Maintenance time *first*. `Capacity = Total Time - Maintenance`.
+3.  **Execution Layer (Bottom-Up):** Ad-hoc tasks, errands, inputs. Provides *responsiveness*.
+    -   **Optimisation:** Batch by Context (Calls, Errands), not by Life Area.
+
+### The Algorithm for Stability
+1.  **Define Areas:** Identify the buckets (e.g., Health, Wealth).
+2.  **Quantify Maintenance:** Determine the recurring cost to keep these valid.
+3.  **Determine Net Capacity:** Remaining bandwidth is allocated to Strategy/Goals.
+4.  **Batch Execution:** Handle one-off tasks via Context.
+
+---
+
+## 12. Open Questions & Tensions
 
 - **Tension:** The core struggle remains balancing **Action (Kinetic)** vs. **Thinking (Dynamic)**. The system mitigates this by demanding that all "Thinking" cycles must terminate in an "Action" (The Next Test).
 - **Confidence Gap:** The system's trustworthiness depends entirely on the discipline of adhering to the synthesis loop. If `HEAD` notes proliferate without being integrated into `SoT` notes, trust decays.
 
-## 11. Related Components
+## 13. Related Components
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
 - [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
 - [[SoT - PRODOS - Action Management (GTD)]]
@@ -258,7 +314,7 @@ The system is not static; it requires active maintenance to prevent "Trust Decay
 - **Case Study:** [[Breaking the Creation Cycle]]
 - **Example Implementation:** [[Detailed Example From Spark to Synthesis]]
 
-## 12. Status & Roadmap
+## 14. Status & Roadmap
 
 **Current Status:** ProdOS v5.0 is considered **production-ready**.
 - **Core:** Architecture consolidated and operational.

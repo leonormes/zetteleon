@@ -95,3 +95,25 @@ Every note must have an **Anchor**:
 - [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
 - [[SoT - The Extended Mind]]
 - [[SoT - PRODOS (System Architecture)]]
+
+---
+
+## 6. Articulating Thoughts: Content & Structure
+
+To effectively express an idea or feeling fluently and coherently, the foundation lies in how thoughts are structured. (Source: "How to articulate your thoughts more clearly than 99% of people" by Matt Huang).
+
+### A. Deep Understanding (The "50% Grasp" Problem)
+-   **Principle:** You cannot explain something clearly if you don't understand it fully yourself. A superficial grasp leads to a muddied message.
+-   **Application:** Before attempting to articulate, ensure your own comprehension is robust.
+
+### B. Know Your Objective (The "North Star")
+-   **Principle:** Clarity of purpose is paramount. Without a clear goal for the communication (e.g., decision, approval, information), you will inevitably ramble.
+-   **Application:** Define what you want from the conversation. This objective acts as a "north star" guiding your message.
+
+### C. The Fastest Path (Conciseness as Clarity)
+-   **Principle:** Find the quickest way to get your point across. If you can't express your core need in 5-10 seconds, it indicates a lack of deep understanding or structural clarity.
+-   **Application:** Practice distilling your message to its essence. Brevity forces clarity.
+
+### D. Anticipate Questions (Level Two Skill)
+-   **Principle:** A advanced communicator predicts and addresses listener doubts *before* they are asked.
+-   **Application:** Pre-empt potential objections or queries (e.g., "Have you checked the market data?") and weave answers into your initial articulation. This builds trust and demonstrates thoroughness.

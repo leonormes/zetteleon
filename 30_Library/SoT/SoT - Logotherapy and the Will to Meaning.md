@@ -40,7 +40,7 @@ Humans are not fully determined by their biological or environmental conditions.
 
 The drive to find meaning is not a "secondary rationalization" of instinctual drives, but the primary motivation of life.
 
--   **The Existential Vacuum:** When this will is frustrated, it manifests as boredom, apathy, and emptiness (a common modern neurosis).
+-   **The Existential Vacuum:** (From **Viktor Frankl**) When this will is frustrated, it manifests as boredom, apathy, and emptiness (a common modern neurosis), often characterized by a sense of meaninglessness despite "radical freedom" and a tendency to chase materialism (the "hedonic treadmill") for fleeting satisfaction. (Source: *Deep Dive* podcast episode).
 
 ### C. Meaning in Life (Objective Reality)
 
@@ -58,6 +58,8 @@ How does one actually "find" meaning? Frankl identifies three specific avenues:
     -   *ProdOS Link:* Mindfulness, presence, and connection.
 3.  **Attitudinal Values (How we Stand):** The attitude we take toward unavoidable suffering.
     -   *The Alchemist's Move:* Turning tragedy into a human triumph. When we are no longer able to change a situation, we are challenged to change ourselves.
+
+These pathways provide a concrete framework for individuals to actively pursue and discover meaning, even in challenging circumstances. (Source: *Deep Dive* podcast episode).
 
 ---
 

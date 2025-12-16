@@ -5,9 +5,9 @@ confidence-gaps: []
 created: 2025-12-10T20:12:09Z
 decay-signals: []
 epistemic:
-last-synthesis: 2025-12-12
-last_reviewed: 2025-12-12
-modified: 2025-12-12T23:41:23Z
+last-synthesis: 2025-12-15
+last_reviewed: 2025-12-15
+modified: 2025-12-15T19:53:25Z
 purpose: Canonical guide to Temporal Management (Blocking and Boxing) within ProdOS.
 quality-markers: []
 related-soTs: ["[[SoT - PRODOS (System Architecture)]]"]
@@ -102,7 +102,35 @@ Create reliable patterns for key habits to reduce startup friction.
 
 ---
 
-## 5. Common Pitfalls & Solutions
+## 5. The ADHD Adaptation (Visual & Flexible)
+*Source: [How to Plan Your Day With ADHD](https://youtu.be/-bUAku0FySI)*
+
+Standard time blocking can fail for the neurodivergent brain because rigid scheduling creates "fragility"—one deviation leads to system abandonment. This alternative framework prioritizes **flexibility** and **dopamine Management**.
+
+### A. The Interface: Analogue "Ownership"
+-   **Protocol:** Use pen and paper for daily execution. Keep digital tools for long-term storage.
+-   **Mechanism:** Handwriting increases "concept density" and psychological commitment (ownership), physically decoupling planning from digital distraction.
+
+### B. The Initialisation: Dynamic Daily Design
+-   **Protocol:** Allocate 10–15 mins each morning to design the day *from scratch*.
+-   **Mechanism:** Replaces "hope-based" productivity with intentional design, acknowledging that ADHD capacity fluctuates daily and cannot be predicted a week in advance.
+
+### C. Visual Taxonomy: The 4-Colour Logic
+
+Replace urgency-based lists with a category-based visual hierarchy to maintain interest.
+
+-   **Red (Responsibilities):** External commitments (Meetings). High consequence.
+-   **Yellow (Chores):** Maintenance (Cleaning, Admin). Flexible timing.
+-   **Green (Enrichment):** Healthy behaviours (Cooking, Gym). "Nice-to-have" self-care markers.
+-   **Purple (Dopamine/Joy):** **Mandatory.** At least one non-hurtful item per day purely to sustain the brain's interest in the system.
+
+### D. Temporal Allocation: The "Train Ticket" Filter
+-   **Protocol:** Abandon specific timestamps (e.g., "14:00") for broad buckets: **Morning, Afternoon, Evening**.
+-   **Mechanism:** Functions like a flexible ticket—valid for a "phase" of the day, allowing tasks to float dynamically based on immediate energy levels.
+
+---
+
+## 6. Common Pitfalls & Solutions
 
 | Pitfall | Solution |
 | :--- | :--- |
@@ -112,6 +140,6 @@ Create reliable patterns for key habits to reduce startup friction.
 
 ---
 
-## 6. Related Concepts
+## 7. Related Concepts
 -   **[[The Pomodoro Technique Uses Short Timed Intervals to Maintain Focus]]**
 -   **[[Implementation Intentions Turn Vague Plans Into Concrete Actions]]**

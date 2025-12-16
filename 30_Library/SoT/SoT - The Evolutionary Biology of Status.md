@@ -4,8 +4,9 @@ confidence: 5/5
 created: 2025-12-14T17:30:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-15T14:41:14Z
+modified: 2025-12-15
 purpose: Explaining the biological and evolutionary drivers behind human status-seeking behavior.
+related-soTs: ["[[SoT - Social Stratification]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
 review_interval: 
 see_also: []
 source_of_truth: []
@@ -19,6 +20,7 @@ updated:
 
 ## 1. Definitive Statement
 
+> [!definition] Definition
 > Status is not a social construct; it is a **biological survival algorithm**. We are evolved to monitor our position in a **Dominance Hierarchy** because, for millions of years, rank determined access to resources and reproductive success.
 
 ---

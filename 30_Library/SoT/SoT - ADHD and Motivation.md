@@ -90,6 +90,7 @@ For high-frequency, low-dopamine tasks (Cooking, Cleaning), do not rely on "Deci
 ### 4.3 Behavioral Scaffolding
 -   **Urge Surfing:** When a craving for dopamine hits, treat it like a wave. It peaks in ~20 minutes. Don't fight it; observe it. "My brain is screaming for dopamine." Breathe through it until it breaks.
 -   **Implementation Intentions:** "If [Cue], Then [Action]." Offload the decision to the environment. "If I sit at my desk, Then I put my phone in the drawer."
+-   **Cue Spotting:** Identify the specific internal triggers (boredom, anxiety) that precede distraction. Recognizing the cue allows you to intervene before the behavior (e.g., reaching for phone) becomes automatic. (Source: *Indistractable* by Nir Eyal).
 -   **The Dopamine Menu:** Create a physical menu of healthy dopamine sources (Appetizers: 5 jumping jacks; Entrees: A complex puzzle) to replace "Junk Dopamine" (Scrolling).
 
 #### 4.3.1 Analog & Behavioral Techniques

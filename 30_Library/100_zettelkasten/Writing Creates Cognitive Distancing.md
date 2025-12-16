@@ -9,7 +9,7 @@ last_reviewed:
 modified: 2025-10-31T13:20:04Z
 purpose:
 review_interval:
-see_also: []
+see_also: ["[[SoT - Journaling as Cognitive Engineering]]"]
 source_of_truth: []
 status:
 tags: []
@@ -19,6 +19,9 @@ uid:
 updated:
 version: 1
 ---
+
+> [!tip] Canonical Source
+> This concept is operationalized in **[[SoT - Journaling as Cognitive Engineering]]**.
 
 Writing creates psychological distance between us and our thoughts, transforming internal mental processes into external objects we can examine objectively.
 

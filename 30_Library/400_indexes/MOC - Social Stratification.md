@@ -43,5 +43,5 @@ updated:
 
 ## 4. Related Domains
 
--   **Evolutionary Psychology:** The tension between status-seeking firmware and egalitarian hardware.
+-   **Evolutionary Psychology:** [[SoT - The Evolutionary Biology of Status]] — *The tension between status-seeking firmware and egalitarian hardware.*
 -   **Political Economy:** The role of the state and policy in compressing or amplifying inequality.

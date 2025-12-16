@@ -6,15 +6,16 @@ created: 2025-12-14T00:00:00Z
 description: "Practical framework for financial wellness tailored for a family of five in the UK."
 epistemic: 
 last_reviewed: 
-modified: 2025-12-15T14:41:14Z
+modified: 2025-12-16T08:57:29Z
 published:
-purpose: 
+purpose:
+related-soTs: ["[[SoT - Family Budgeting System]]"]
 review_interval: 
 see_also: []
 source: "https://gemini.google.com/share/ad334e6e0f33"
 source_of_truth: []
 status: stable
-tags: [1, family, finance, framework, guide]
+tags: [family, finance, framework, guide]
 title: SoT - Family Financial Wellness
 type: sot
 uid: 
@@ -41,7 +42,7 @@ Practically, this looks like:
 
 As the head of a large household, your risk profile is different from a single person. Your priorities must shift from "growth" to "protection and stability."
 
-1. **Cash Flow Management:** With five people, variable expenses (groceries, shoes, school trips) can fluctuate wildly. Smoothing this cash flow is priority #1.
+1. **Cash Flow Management:** With five people, variable expenses (groceries, shoes, school trips) can fluctuate wildly. Smoothing this cash flow is priority .
 2. **Risk Protection (The "Bus" Factor):** If you or your spouse could not work, how long would the family survive? Life insurance and Income Protection are non-negotiable for a family of this size in the UK.
 3. **Future-Proofing:** Ensuring you are not a financial burden on your children when you are older (Prioritising your pension over their university costs).
 4. **Financial Literacy Legacy:** Teaching your three children how to handle money so they leave home financially independent.

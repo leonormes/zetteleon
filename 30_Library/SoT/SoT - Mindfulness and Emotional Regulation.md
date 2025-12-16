@@ -12,7 +12,7 @@ quality-markers: []
 related-soTs: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Social Cognition & Self-Perception]]", "[[SoT - The Nature of Time and Perception]]"]
 resonance-score: 10
 review_interval: 1 year
-see_also: ["[[SoT - The Four Laws of Behavior Change]]"]
+see_also: ["[[SoT - The Four Laws of Behavior Change]]", "[[SoT - Wabi-Sabi]]"]
 source_of_truth: true
 status: stable
 supersedes: ["[[The human brain is a dynamic complex emergent enti...]]"]
@@ -62,6 +62,10 @@ Normally, we are **fused** with our thoughts.
 -   **Secondary Suffering:** Judging yourself for feeling it ("I shouldn't be sad").
 -   **The Fix:** Radical Acceptance. "Sadness is here." By stopping the fight, you remove the friction that keeps the wound open.
 
+### E. The Gratitude Reframe (Survivor Mindset)
+-   **The Insight:** Surviving a crisis recontextualizes ordinary stress.
+-   **The Protocol:** Adopt the mindset: **"Never have a bad day again."** If you are breathing and mobile, the day is a gift. This perspective finds gratitude and strength even in difficulty. (Source: *My Next Breath* by Jeremy Renner).
+
 ---
 
 ## 4. Practical Protocol: The 3-Minute Breathing Space
@@ -86,7 +90,7 @@ These Japanese philosophies offer concrete, actionable ways to integrate mindful
 ### B. Hara Hachi Bu (Eat Until 80% Full)
 -   **Core Principle:** A practice of mindful eating, stopping when 80% full.
 -   **Mindfulness Connection:** Develops interoceptive awareness (sensing internal bodily states) and prevents unconscious overeating.
--   **Impact:** Since the brain takes approximately 20 minutes to register fullness, stopping at 80% ensures slight, continuous calorie restriction, extending lifespan and preventing post-meal sluggishness, which can impact executive function.
+-   **Impact:** Since the brain takes approximately 20 minutes to register fullness, stopping at 80% ensures slight, continuous calorie restriction, extending lifespan and preventing post-meal sluggishness, which can impact executive function. (Source: *Deep Dive* podcast episode).
 
 ---
 

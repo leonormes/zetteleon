@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-07T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-15T14:41:16Z
+modified: 2025-12-16T08:57:28Z
 purpose: To define the role of Identity as the primary engine for sustained behavioral change.
 review_interval:
 see_also: []
@@ -92,7 +92,20 @@ A "Done List" is a past-focused log of completed tasks, designed to provide conc
     1.  Keep a simple log (notebook, text file, index cards).
     2.  Immediately after completing *any* task, no matter how small, write it down.
     3.  Review the list daily to provide tangible proof of accomplishment, especially when feeling unproductive.
--   **Example:** After completing "Created initial VPC plan," immediately add it to your "Done List." Reviewing the growing list at the end of the day provides a powerful antidote to vague feelings of failure.
+    -   **Example:** After completing "Created initial VPC plan," immediately add it to your "Done List." Reviewing the growing list at the end of the day provides a powerful antidote to vague feelings of failure.
+
+### E. Habit Stacking (Anchoring)
+
+Build new habits by anchoring them to existing ones using the framework: **"When I do [Current Habit], I will do [New Habit]."**
+
+-   **Logic:** Uses the strong neural pathway of an old habit to trigger a new one.
+-   **Example:** "When I go to the toilet, I will do one press-up." (Source: *Tiny Habits* by BJ Fogg).
+
+### F. Rituals (Time & Place)
+
+Routine is essential for overcoming resistance. By working at the same time and place every day, you signal to your brain that it is time to focus, turning the struggle into a habit.
+
+-   **Example:** Stephen King writes at the same time and place daily, treating it as an unbreakable appointment. (Source: *On Writing* by Stephen King).
 
 ---
 
@@ -111,7 +124,7 @@ Complementing the "Atomic" approach, the Japanese philosophy focuses on a gentle
 
 ### C. Ikigai (Purposeful Replacement)
 -   **The Vacuum Law:** Nature abhors a vacuum. You cannot simply *remove* a habit; you must *replace* the need it fills.
--   **Alignment:** Use **Ikigai** (Reason for Being) to choose a replacement behavior that aligns with your true values, not just societal pressure. Provides a sense of purpose that motivates you to wake up, correlating directly with longevity, sustained health, and energy. It is found at the intersection of what you love, what you are good at, what the world needs, and what you can be paid for.
+-   **Alignment:** Use **Ikigai** (Reason for Being) to choose a replacement behavior. Note that authentic Ikigai is **not** the Western "Venn Diagram" of career success (what you are paid for), but an **autonomous internal state** of finding joy in small processes (see [[SoT - Ikigai and the Logic of Purpose]]). It correlates directly with longevity and sustained energy.
 
 ### D. Self-Compassion
 -   **Foundation:** Lasting change is built on self-acceptance, not shame. Shame creates a self-sabotaging inner conflict.
@@ -162,7 +175,7 @@ While identity drives good habits, **Old Identity Sabotage** prevents growth.
 ## 10. Related Components
 - [[SoT - PRODOS - Action Management (GTD)]]
 - [[SoT - PRODOS (System Architecture)]]
-- [[SoT - Atomic Habits]]
+- [[SoT - Personal Agency and Transformation]]
 - [[MOC - The Relationship Between Habits and Identity]]
 - [[Three Layers of Behavior Change Model]]
 - [[Habits Are the Channel for Developing Beliefs About Self]]

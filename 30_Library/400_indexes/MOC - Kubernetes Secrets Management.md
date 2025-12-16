@@ -33,7 +33,7 @@ The preferred "Production" pattern using external secret managers.
 -   [[Vault to Kubernetes Secrets Management Guide]] - **The Architecture Guide.** Detailed walkthrough of the Vault + Vault Secrets Operator (VSO) pattern.
     -   *Components:* Vault AppRole, Vault Policy, VSO Controller.
     -   *Flow:* Auth -> Token -> Fetch -> Sync to K8s Secret.
--   [[Secrets Management Report - hie-prod-34]] - **Implementation Case Study.** A live report of this architecture in the `hie-prod-34` deployment.
+-   Secrets Management Report - hie-prod-34 - **Implementation Case Study.** A live report of this architecture in the `hie-prod-34` deployment.
     -   *Pattern:* `VaultStaticSecret` CRDs -> VSO -> Native K8s Secrets.
     -   *Diagram:* Includes a Mermaid object diagram of the dependency flow.
 
@@ -45,6 +45,6 @@ Broader security topics touching on secrets.
 -   [[Secure Cross-Cloud Communication Between AWS EKS and Azure AKS for Task Distribution]] - Mentions secure secrets management for cross-cloud connectivity.
 
 ### 4. Key Workflows & Snippets
--   **Debug VSO:** `kubectl get vaultstaticsecret <name> -o yaml` (from [[Secrets Management Report - hie-prod-34]])
+-   **Debug VSO:** `kubectl get vaultstaticsecret <name> -o yaml` (from Secrets Management Report - hie-prod-34)
 -   **Vault Auth:** Using AppRoles for machine-to-machine authentication (from [[Vault to Kubernetes Secrets Management Guide]]).
 -   **Terraform:** How to define secrets in `locals.tf` to auto-provision Vault (from [[Vault to Kubernetes Secrets Management Guide]]).

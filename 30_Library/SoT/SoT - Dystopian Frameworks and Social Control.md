@@ -4,8 +4,9 @@ confidence: 5/5
 created: 2025-12-14T17:30:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-15T14:41:14Z
+modified: 2025-12-15T19:53:27Z
 purpose: Analysis of dystopian fiction as sociological "Operating Systems" for control, focusing on Orwell vs. Huxley.
+related-soTs: ["[[SoT - Social Stratification]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
 review_interval: 
 see_also: []
 source_of_truth: []
@@ -19,6 +20,7 @@ updated:
 
 ## 1. Definitive Statement
 
+> [!definition] Definition
 > Dystopian fiction serves as a "Simulation of Stakes" for the comfortable middle class, offering **Interpassive Rebellion**. We consume the aesthetic of revolution to validate our dissatisfaction without taking real-world risk.
 
 ## 2. The Core Frameworks (Operating Systems)

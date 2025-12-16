@@ -5,7 +5,7 @@ created: 2025-12-12T00:00:00Z
 epistemic: 
 last-synthesis: 2025-12-12
 last_reviewed: 
-modified: 2025-12-12T18:18:04Z
+modified: 2025-12-15T19:53:26Z
 purpose: To define the mental model of viewing reality as interconnected networks of elements, flows, and feedback loops rather than isolated linear events.
 review_interval: 
 see_also: ["[[SoT - Process Primacy (Systems Over Goals)]]"]
@@ -50,7 +50,25 @@ True leverage comes not from pushing harder on the existing loops, but from:
     -   *Mental Models* (What beliefs uphold this structure?) <- Transform
 -   **The Core Heuristic:** When analyzing a situation, ask: "Is this a Balancing Loop (trying to stay the same) or a Reinforcing Loop (trying to run away)?"
 
-## Tensions and Gaps
+## 4. Applied Systems Thinking
+
+### A. The Cognitive-Emotional Feedback Loop
+
+Systems thinking isn't just for engineering; it explains our internal psychology.
+
+-   **The Loop:** Emotion shapes the Mental Model -> The Model filters Reality -> The Filter triggers Emotion -> Emotion reinforces the Model.
+-   **Entrenchment:** This bi-directional **Reinforcing Loop (R)** explains why phobias and biases are self-sustaining. The feeling validates the model, and the model predicts the feeling.
+-   **Breaking the Loop:** Requires a "Counter-Signal" (Prediction Error) strong enough to interrupt the cycle.
+
+### B. Leverage Points (Where to Intervene)
+
+Donella Meadows identified that not all interventions are equal.
+
+1.  **Low Leverage:** Changing constants, parameters, or numbers (e.g., "Spend 5% more").
+2.  **Medium Leverage:** Changing the *feedback loops* (e.g., adding a new sensor or check).
+3.  **High Leverage:** Changing the *goal* or *paradigm* of the system (e.g., "We are no longer maximizing profit, but sustainability").
+
+## 5. Tensions and Gaps
 
 -   **Efficiency vs. Resilience:** Diverse, redundant systems are stable but "inefficient." Streamlined, optimized systems are efficient but brittle (no buffer).
 -   **The Visibility Problem:** Interconnections (flows of information) and Purposes are invisible, making them harder to "see" and manipulate than physical Elements.

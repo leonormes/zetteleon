@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-13T19:33:49Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-15T14:37:16Z
+modified: 2025-12-15T18:57:15Z
 purpose: To define understanding as a fundamental, pre-linguistic process rooted in sensorimotor experience, positioning language as a secondary tool for refinement rather than the source of thought.
 review_interval: 
 see_also: []
@@ -19,6 +19,7 @@ updated:
 
 ## 1. Definitive Statement
 
+> [!definition] Definition
 > **Understanding is Pre-Linguistic.** It is a cognitive state rooted in **direct sensorimotor experience** and mental simulation.
 >
 > Language is not the *source* of understanding; it is a **lossy compression algorithm** used to transmit that understanding to others. Words are the map; pre-linguistic experience is the territory.
