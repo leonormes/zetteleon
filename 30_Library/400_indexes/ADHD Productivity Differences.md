@@ -5,7 +5,7 @@ created: 2025-06-25T09:10:25Z
 epistemic: 
 id: adhdzettel
 last_reviewed: 
-modified: 2025-11-03T13:48:14Z
+modified: 2025-12-16T11:55:55Z
 purpose: 
 review_interval: 
 see_also: []
@@ -32,8 +32,6 @@ version:
 [[Exit Ritual For ADHD Time Boxes]]
 
 [[Timeboxing Definition and Mindset]]
-
-[[Timeboxing vs. Time Blocking]]
 
 [[Managing Hyperfocus in ADHD with Timeboxing]]
 

@@ -16,10 +16,8 @@ views:
       - type
       - tags
     sort:
-      - property: file.name
+      - property: file.mtime
         direction: ASC
-      - property: file.ctime
-        direction: DESC
     columnSize:
       file.name: 502
       note.epistemic: 172

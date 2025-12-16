@@ -1,10 +1,10 @@
 ---
-aliases: [Wabi-Sabi, Japanese Philosophy of Imperfection, Beauty of Impermanence]
+aliases: [Beauty of Impermanence, Japanese Philosophy of Imperfection, Wabi-Sabi]
 confidence: 5/5
 created: 2025-12-16T15:00:00Z
 epistemic: derived
 last_reviewed: 2025-12-16
-modified: 2025-12-16T15:00:00Z
+modified: 2025-12-16T11:56:58Z
 purpose: To define Wabi-Sabi as a spiritual philosophy for finding beauty in imperfection, impermanence, and the harsh realities of life, contrasting its true meaning with common Western misconceptions.
 related-soTs: ["[[SoT - Mindfulness and Emotional Regulation]]", "[[SoT - Values and Eudaimonia]]"]
 review_interval: 12 months

@@ -2,49 +2,57 @@
 aliases: [Body Doubling, Body Doubling is an Effective ADHD Strategy]
 confidence: 
 created: 2025-10-26T11:12:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:37Z
-purpose: 
-review_interval: 
-see_also: []
-source_of_truth: []
-status: 
-tags: [accountability, focus, topic/health/adhd, topic/productivity]
+epistemic: experimental
+last_reviewed: 2025-12-16
+modified: 2025-12-16T11:57:38Z
+purpose: To test if "Digital Presence" (recording oneself) triggers the same focus benefits as a live human body double.
+review_interval: 2 weeks
+see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
+source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - ADHD in Remote Software Development]]"]
+status: pending
+tags: [accountability, experiment, focus, hypothesis, topic/health/adhd, topic/productivity]
 title: Body Doubling for ADHD Focus
-type: permanent
+type: hypothesis
 uid: 
 updated: 
 version: 1
 ---
 
-## Body Doubling for ADHD Focus
+## 1. The Hypothesis
 
-Body doubling is a productivity strategy where a person with ADHD works on a task in the presence of another person. The "body double" is not necessarily helping with the task; their quiet presence is enough to improve focus and motivation.
+> **If** I record myself working (using a webcam or phone time-lapse), even if no one watches it,
+> **Then** I will maintain focus and reduce fidgeting,
+> **Because** the **Observer Effect** (Hawthorne Effect) activates social compliance circuits in the brain, overriding the urge to be distracted. This is "Body Doubling Without the Body."
 
-### Core Concept
+---
 
-The presence of another person provides a gentle, external form of accountability and structure. It helps to anchor the ADHD brain, reducing the pull of distractions and making it easier to initiate and sustain effort.
+## 2. Experiment Protocol
 
-### How It Works
+-   **Duration:** 3 Sessions.
+-   **Setup:**
+    1.  Set up my phone or webcam to face me (and my screen if possible).
+    2.  Hit **Record** (or start a Time-Lapse).
+    3.  Work for 45 minutes.
+-   **The Rule:** I am "On Air." I cannot pick up my phone or tab-switch to Reddit because "the camera is watching."
+-   **Post-Session:** Delete the video (or keep it if it's cool). The point is the *recording*, not the playback.
 
-- **In-Person**: Working in the same room as a friend, family member, or coworker.
-- **Virtually**: Working with someone over a video call or even just a phone call.
-- **Effectiveness**: It is effective for both introverts and extroverts, as the interaction can be minimal.
+---
 
-### Why It Works for ADHD
+## 3. Expected Outcome
 
-- **External Accountability**: The presence of another person creates a subtle social pressure to stay on task.
-- **Reduces Distraction**: It helps to ground the individual in the present moment and reduces the likelihood of mind-wandering.
-- **Provides Structure**: It creates a defined period of work, acting as an external support for executive functions.
+-   **Success:** I feel a "gentle pressure" to stay seated and working.
+-   **Failure:** I ignore the camera and get distracted anyway.
 
-### Connections
+---
 
-- This is a key strategy in [[Strategies for ADHD Brains in a Neurotypical World]].
-- It is a form of [[Environmental Design for ADHD Focus]], where the "environment" includes the social context.
+## 4. Results Log
 
-*Source: Synthesized from notes on ADHD productivity hacks.*
+-   *(Log results here)*
 
-### Digital and Asynchronous Body Doubling
+---
 
-A modern variation of this technique is the "Body Double Without the Body," where a camera or phone is pointed at the individual while they work. The sense of being observed, even if the footage is never reviewed, can be enough to boost initiation and focus. This method can also be used to capture task reminders and ideas as they occur, which can be transferred to a task management system later.
+**Original Context:**
+Body doubling provides external accountability and anchors the ADHD brain.
+-   **Live:** Working with a friend/colleague.
+-   **Virtual:** Focusmate or Zoom.
+-   **Asynchronous (This Experiment):** Recording oneself.

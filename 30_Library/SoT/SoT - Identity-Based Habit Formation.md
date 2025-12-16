@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-07T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-16T08:57:28Z
+modified: 2025-12-16T11:57:00Z
 purpose: To define the role of Identity as the primary engine for sustained behavioral change.
 review_interval:
 see_also: []
@@ -101,11 +101,12 @@ Build new habits by anchoring them to existing ones using the framework: **"When
 -   **Logic:** Uses the strong neural pathway of an old habit to trigger a new one.
 -   **Example:** "When I go to the toilet, I will do one press-up." (Source: *Tiny Habits* by BJ Fogg).
 
-### F. Rituals (Time & Place)
+### G. Momentum Building (The Small Win)
 
-Routine is essential for overcoming resistance. By working at the same time and place every day, you signal to your brain that it is time to focus, turning the struggle into a habit.
+Celebrating small successes is not just about feeling good; it is about **generating evidence**.
 
--   **Example:** Stephen King writes at the same time and place daily, treating it as an unbreakable appointment. (Source: *On Writing* by Stephen King).
+-   **The Link:** Every small win is a vote. By actively celebrating it, you are "casting" that vote with higher emotional intensity, making it stick.
+-   **The Result:** This builds a positive feedback loop. Success breeds confidence, which fuels further action. It shifts the internal narrative from "I can't" to "I did."
 
 ---
 

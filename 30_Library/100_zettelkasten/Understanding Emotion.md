@@ -20,7 +20,7 @@ version:
 
 Emotions are **involuntary** and **automatic**. People often either react to them or suppress them, creating a false dilemma. Musashi, however, proposed a third option: to embrace emotions rather than fearing them. This approach is central to his teachings on self-mastery.
 
-**Links:** [[Miyamoto Musashi's Philosophy on Mastering Emotions]], [[Responding vs. Reacting]], [[Ownership of Emotions]]
+**Links:** [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]], [[Responding vs. Reacting]], [[Ownership of Emotions]]
 
 ---
 

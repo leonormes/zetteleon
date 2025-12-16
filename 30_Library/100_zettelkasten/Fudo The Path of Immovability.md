@@ -20,7 +20,7 @@ version:
 
 Musashi's life was shaped by 'Fudo', a concept of **mental stability** that he considered paramount. He believed that mental stability was crucial for human triumphs and was the difference between life and death on the battlefield. It is a state of unshakable composure.
 
-**Links:** [[Miyamoto Musashi's Philosophy on Mastering Emotions]], [[Achieving Mental Stability]]
+**Links:** [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]], [[Achieving Mental Stability]]
 
 ---
 

@@ -31,6 +31,14 @@ updated:
 >
 > Fundamentally, it treats the system not as a **Database (Storage)** but as a **Runtime Environment (Compute)**. Its goal is not to preserve information (Retention) but to process context into reality (Throughput).
 
+### 1.1 Epistemic Stance: The Map is Not the Territory
+
+ProdOS is built on the principles of **General Semantics**, specifically Alfred Korzybski's insight that **"The Map is Not the Territory."**
+
+-   **The Reality:** Your life, your projects, and your thoughts are the "Territory"—complex, fluid, and infinite.
+-   **The System:** ProdOS is the "Map"—a simplified, abstract model designed to make that territory navigable.
+-   **The Rule:** We must never confuse the two. When the map disagrees with the territory (e.g., a plan fails), we update the map; we do not deny the reality. (See [[SoT - Reality, Models, and the Limits of Accuracy]]).
+
 ---
 
 ## 2. The Core Problem: Why PRODOS Exists

@@ -20,7 +20,7 @@ version:
 
 Musashi was a legendary Japanese swordsman, strategist, artist, and writer. He was undefeated in over 60 duels. His writings are considered foundational to samurai philosophy and the broader principles of self-improvement. His life and experiences heavily influenced his philosophical outlook.
 
-**Links:** [[Miyamoto Musashi's Philosophy on Mastering Emotions]], [[Musashi's Duel with Sasaki Kojiro]]
+**Links:** [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]], [[Musashi's Duel with Sasaki Kojiro]]
 
 ---
 

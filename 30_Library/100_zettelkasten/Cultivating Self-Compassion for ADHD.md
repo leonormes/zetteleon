@@ -37,5 +37,5 @@ Links:
 - [[Rejection Sensitive Dysphoria (RSD)]]
 - [[ADHD Mindset and Emotional Regulation Strategies]]
 - [[Morita Therapy - Applications for Anxiety, Perfectionism, and ADHD]]
-- [[The Roots of Shame and Feeling Defective]]
+- [[MoC - The Roots of Shame and Feeling Defective]]
 - [[The Honeyman Method uses three-tiered routines to adapt to energy variation]]

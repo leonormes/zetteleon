@@ -2,45 +2,56 @@
 aliases: []
 confidence: 
 created: 2025-10-26T11:07:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:38Z
-purpose: 
-review_interval: 
-see_also: []
-source_of_truth: []
-status: 
-tags: [ai, executive-function, templates, topic/health/adhd, topic/productivity]
+epistemic: experimental
+last_reviewed: 2025-12-16
+modified: 2025-12-16T11:57:37Z
+purpose: To test AI as an "Executive Prosthetic" for bypassing the "Blank Page" paralysis.
+review_interval: 2 weeks
+see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
+source_of_truth: ["[[A Digital System Can Externalise and Organise Thoughts]]", "[[SoT - ADHD Executive Dysfunction]]"]
+status: pending
+tags: [ai, executive-function, experiment, hypothesis, templates, topic/health/adhd, topic/productivity]
 title: Leveraging AI and Templates for ADHD Productivity
-type: permanent
+type: hypothesis
 uid: 
 updated: 
 version: 1
 ---
 
-## Leveraging AI and Templates for ADHD Productivity
+## 1. The Hypothesis
 
-For individuals with ADHD, offloading cognitive load is a critical productivity strategy. Two powerful methods for this are using AI-powered tools and templatizing repetitive workflows.
+> **If** I use Voice-to-Text AI to "vomit" my initial unstructured thoughts for a task,
+> **Then** I will bypass the paralysis of perfectionism and structuring,
+> **Because** speaking is faster than typing, and the AI handles the "Executive Function" load of organizing the mess into a draft.
 
-### Core Concepts
+---
 
-1. **AI as an Executive Assistant**: Modern AI tools can act as an external "executive function," handling tasks that are particularly challenging for the ADHD brain. This includes:
-    - **Meeting Transcription and Summarization**: Tools like Granola can transcribe meetings, identify action items, and create a searchable record, compensating for in-the-moment distraction or memory lapses.
-    - **Brain-Dumping and Structuring**: Using voice-to-text features in AI tools (like ChatGPT or Notion AI) allows for unstructured "brain dumps" that the AI can then organize into coherent outlines, plans, or summaries. This bypasses the friction of self-editing and structuring initial thoughts.
+## 2. Experiment Protocol
 
-2. **Templatizing Everything**: Creating reusable templates for common, multi-step processes dramatically reduces the cognitive load required to start a task. Instead of rebuilding the workflow from scratch each time, you can activate a pre-made checklist or document.
-    - **Examples**: Client onboarding, content creation scripts, project reports, weekly planning.
+-   **Duration:** 3 Days.
+-   **Trigger:** Any task requiring writing (Email, Report, Code Plan) > 5 minutes.
+-   **Action:**
+    1.  Open ChatGPT / Voice Memo.
+    2.  Ramble for 2 minutes about what I want to say/do. (No filtering).
+    3.  Prompt: *"Turn this ramble into a structured bullet point list/draft email."*
+    4.  Edit the result.
 
-### Why It Works for ADHD
+---
 
-- **Reduces Activation Energy**: Templates and AI-driven structuring lower the initial barrier to starting a task.
-- **Offloads Working Memory**: These systems act as an external memory, holding the details of a process so the brain doesn't have to.
-- **Bypasses Perfectionism**: AI can help turn a messy brain dump into a usable first draft, short-circuiting the perfectionist tendency to get stuck on finding the "right" way to start.
-- **Ensures Consistency**: Templates ensure that important steps aren't forgotten, which is a common issue with executive dysfunction.
+## 3. Expected Outcome
 
-### Connections
+-   **Metric:** Time to "First Draft" reduced by 50%.
+-   **Qualitative:** Reduction in anxiety when opening a blank document.
 
-- This is a modern application of using [[A Digital System Can Externalise and Organise Thoughts]].
-- It directly supports the principle of [[Externalise Everything]] to manage [[Working Memory Limitations in ADHD]].
+---
 
-*Source: Synthesized from notes on ADHD productivity hacks.*
+## 4. Results Log
+
+-   *(Log results here)*
+
+---
+
+**Original Context:**
+For individuals with ADHD, offloading cognitive load is a critical productivity strategy.
+- **AI as Executive Assistant**: Tools like Granola (meetings) or ChatGPT (structuring) compensate for Working Memory deficits.
+- **Templatizing**: Reduces activation energy.

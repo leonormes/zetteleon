@@ -2,22 +2,50 @@
 aliases: []
 confidence: 
 created: 2025-10-30T12:00:01Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
-see_also: []
+epistemic: experimental
+last_reviewed: 2025-12-16
+modified: 2025-12-16T11:57:37Z
+purpose: To test if "Temptation Bundling" (Interest Pairing) effectively overcomes task initiation inertia for mundane chores.
+review_interval: 2 weeks
+see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source: "[[MOC - ADHD Task Management]]"
-source_of_truth: []
-status: seedling
-tags: [interest-pairing, motivation, topic/health/adhd, topic/productivity]
+source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
+status: pending
+tags: [experiment, hypothesis, interest-pairing, motivation, topic/health/adhd, topic/productivity]
 title: Interest Pairing Can Increase Engagement in Mundane Tasks for ADHD
-type: concept
+type: hypothesis
 uid: 
 updated: 
 ---
 
-Interest pairing is a strategy for ADHD task management that involves integrating a personal interest into a mundane or non-preferred task to make it more engaging. For example, a person interested in filmmaking might film themselves doing chores, turning the activity into a more stimulating "project."
+## 1. The Hypothesis
 
-This technique leverages the interest-driven nature of the ADHD brain to boost motivation. However, it should be used with caution, as highly engaging side-tasks can lead to hyperfocus and derail the primary objective. It is most effective for short, controlled tasks.
+> **If** I strictly pair a high-interest sensory input (Podcast, Audiobook, YouTube Essay) with a low-interest physical output (Dishes, Laundry, Admin),
+> **Then** I will initiate the boring task significantly faster,
+> **Because** the dopamine from the input lowers the "activation energy" required to start the output.
+
+---
+
+## 2. Experiment Protocol
+
+-   **Duration:** 1 Week.
+-   **The Pair:** Select **one** specific content source (e.g., "The Rest is History Podcast") and **one** specific chore (e.g., "Folding Laundry").
+-   **The Rule:** I am **only** allowed to listen to this podcast while doing this chore. If I stop folding, I must pause the audio.
+
+---
+
+## 3. Expected Outcome
+
+-   **Success:** I actually look forward to doing the laundry because I want to hear the story.
+-   **Failure:** The distraction of the audio makes me do the chore poorly or too slowly.
+
+---
+
+## 4. Results Log
+
+-   *(Log results here)*
+
+---
+
+**Original Context:**
+This technique leverages the interest-driven nature of the ADHD brain to boost motivation. It connects to the concept of **Temptation Bundling** in [[SoT - The Four Laws of Behavior Change]].

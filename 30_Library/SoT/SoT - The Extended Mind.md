@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-07T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-11T10:10:43Z
+modified: 2025-12-16T11:56:59Z
 purpose: To define the 'Extended Mind' as the foundational cognitive architecture for PRODOS.
 review_interval:
 see_also: []
@@ -27,9 +27,9 @@ updated:
 
 ---
 
-## 2. The Three Pillars of Extension
+## 2. The Dimensions of Extension
 
-Cognition extends in three primary directions, all of which are leveraged by PRODOS to support the ADHD brain.
+Cognition extends in multiple directions, all of which are leveraged by ProdOS to support the ADHD brain.
 
 ### A. Embodied Cognition (The Body)
 -   **Principle:** Thinking is a physical act. Our bodies play a crucial role in shaping thought (gestures, movement).
@@ -58,6 +58,11 @@ Cognition extends in three primary directions, all of which are leveraged by PRO
 -   **The Benefit:** This frees the brain from the energy-intensive task of *retention* (holding the loop open) so it can focus on *creation* (closing the loop).
 -   **Cognitive Distancing:** Externalization creates psychological distance, allowing you to examine ideas objectively rather than being consumed by them.
 
+### F. Time-Binding (Temporal Extension)
+-   **Principle:** Coined by **Alfred Korzybski**, "Time-Binding" is the uniquely human ability to transmit knowledge across time using symbols (language, writing).
+-   **The Mechanism:** It allows us to start where the previous generation (or our previous self) left off, rather than starting from scratch.
+-   **ProdOS Implication:** The system is a Time-Binding machine. By capturing context in a note, you transmit intelligence from your "Smart Self" (Monday morning) to your "Dumb Self" (Friday afternoon). You are collaborating with your past self to build a cumulative intelligence.
+
 ---
 
 ## 3. The Core Benefit: Cumulative vs. Cyclical Thinking
@@ -73,6 +78,14 @@ Without an extended mind, the ADHD brain falls into the **Cyclical Thinking Trap
 3.  **Extension:** You don't repeat the complaint; you write the *next* step: "Okay, so if batching helps, I'll try 'Theme Days' next."
 
 **The Result:** You start having **conversations with your past self**. The system makes your thinking **evolutionary**, allowing complex insights to compound over time rather than evaporating.
+
+### 3.1 The Educated Zettelkasten: Trusting Your Prosthesis
+
+The effectiveness of the Extended Mind as a "cognitive prosthesis" hinges on the clarity and atomic nature of its components.
+
+-   **Principle:** An "educated" Zettelkasten consists of atomic notes written so clearly that they make sense when revisited weeks or months later. This ensures your past insights remain accessible and trustworthy.
+-   **Test:** If a note doesn't make sense later, it is "uneducated" and diminishes the reliability of your external brain.
+-   **Implication:** By consistently "Educating Your Zettelkasten" (Source: [[Educating Your Zettelkasten]]), you build a robust external memory that your future self can confidently rely on, avoiding the need to re-derive lost context.
 
 ### The Contextual Resurfacing Protocol
 -   **The Problem (Continuity Gap):** We often have the same thought multiple times without realizing it. This leads to "Spinning in Place"—re-solving the same problem from scratch because the previous solution is buried.

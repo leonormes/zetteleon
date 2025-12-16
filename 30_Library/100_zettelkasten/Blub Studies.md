@@ -33,7 +33,7 @@ This concept challenges the common assumption that learning exotic technologies 
 
 ## Relationship to Learning
 
-Blub studies represents a form of [[Conventional Problem Solving]] that builds expertise through systematic exploration of familiar systems. It's the programming equivalent of becoming a master craftsperson rather than a dilettante.
+Blub studies represents a form of [[SoT - Conventional Problem Solving]] that builds expertise through systematic exploration of familiar systems. It's the programming equivalent of becoming a master craftsperson rather than a dilettante.
 
 The approach also relates to [[The Extended Mind Thesis]] - by deeply understanding our tools, we effectively extend our cognitive capabilities through intimate familiarity with our technological environment.
 

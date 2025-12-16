@@ -22,8 +22,9 @@ This collection of notes explores the concept of **Mental Models**: the internal
 
 ## The Nature of Mental Models
 
+- The foundational concept is that [[The Map is Not the Territory]], a principle from [[Alfred Korzybski and General Semantics]] which is fully explored in the [[SoT - Reality, Models, and the Limits of Accuracy]].
 - Our fundamental unawareness of our models is explained by [[Naïve Realism Makes Mental Models Invisible]].
-- They are efficient, subconscious tools for survival, acting as [[Mental Models as Evolutionary Filters]] and can be influenced by personality traits like extraversion as seen in [[Extravert]]. For thinking processes, see [[The Drill Down Phase of Thinking Follows Brainstorming]]. For uncertainty reduction, see [[MOC Uncertainty Reduction]].
+- They are efficient, subconscious tools for survival, acting as [[Mental Models as Evolutionary Filters]] and can be influenced by personality traits like extraversion as seen in [[Extravert]]. For thinking processes, see [[The Drill Down Phase of Thinking Follows Brainstorming]]. For uncertainty reduction, see [[SoT - Uncertainty Reduction]].
 - The core paradox is that [[All Models Are Wrong But Some Are Useful]].
 - The general scientific principle behind them is [[The Science of Modelling and Abstraction]].
 

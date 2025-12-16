@@ -5,7 +5,7 @@ created: 2025-12-07T12:00:00Z
 epistemic:
 last-synthesis: 2025-12-13
 last_reviewed: 2025-12-07
-modified: 2025-12-14T18:37:59Z
+modified: 2025-12-16T11:57:01Z
 purpose: To define the neurological and functional reality of ADHD within the ProdOS context, moving from a deficit model to a management model.
 quality-markers: []
 related-soTs: ["[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[SoT - The Four Laws of Behavior Change]]", "[[SoT - The Nature of Time and Perception]]", "[[SoT - The Philosophy of the Absurd (Camus)]]"]
@@ -147,10 +147,9 @@ Beyond the PRODOS system scaffolding, these behavioral interventions target the 
 
 ---
 
-## 9. Related Components
-- [[SoT - Cognitive Architectures (Simulation vs Prototyping)]]
-- [[SoT - The Cognitive Physiology of Task Execution]]
-- [[SoT - Identity-Based Habit Formation]]
-- [[SoT - The Four Laws of Behavior Change]]
-- [[SoT - The Philosophy of the Absurd (Camus)]] (for meaning generation)
-- [[SoT - The Nature of Time and Perception]] (for time blindness)
+## 10. The Laboratory: Experimental Protocols
+
+ADHD is highly individual. While the principles above are universal, the specific *tactics* require personal validation.
+
+-   **[[MOC - ADHD Experiments & Protocols]]** - The active workbench where we test new strategies (e.g., "Deep Dive Sessions," "Body Doubling") before accepting them as Source of Truth.
+-   **The Rule:** If a strategy works consistently for 2 weeks, it is promoted to this SoT. If it fails, it is discarded. Reality is the only unit test.

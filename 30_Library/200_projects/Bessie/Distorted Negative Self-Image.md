@@ -26,4 +26,4 @@ Without consistent, clear feedback, Bessie is left to interpret her performance,
 
 A combination of perceived underachievement and heightened sensitivity to criticism often leads to a "distorted negative self-image". It's like looking at yourself in a "house of mirrors," only seeing failures and shortcomings, and being "all but blind to the upside, which is typically considerable". This internal struggle fosters deep shame, causing individuals to hold back from opportunities and relationships out of fear and misunderstanding. One patient even called ADHD "attention deficit distorter" because of how it "distorts so many perceptions of reality".
 
-[[The Roots of Shame and Feeling Defective]]
+[[MoC - The Roots of Shame and Feeling Defective]]

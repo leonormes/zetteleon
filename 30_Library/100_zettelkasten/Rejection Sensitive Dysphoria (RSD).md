@@ -20,4 +20,4 @@ version:
 
 This is an extreme emotional pain triggered by the perception (real or imagined) of rejection, criticism, or failure. Individuals with ADHD are highly prone to RSD, spiraling into despair from even slight perceived put-downs. This constant fear and intense pain reinforce feelings of inadequacy and unworthiness.
 
-[[The Roots of Shame and Feeling Defective]]
+[[MoC - The Roots of Shame and Feeling Defective]]

@@ -32,5 +32,5 @@ Links:
 
 - [[Humans Are Social Creatures]]
 - [[Why External Validation is So Powerful]]
-- [[The Roots of Shame and Feeling Defective]]
+- [[MoC - The Roots of Shame and Feeling Defective]]
 - [[Reframing ADHD - From Deficit to Difference]]

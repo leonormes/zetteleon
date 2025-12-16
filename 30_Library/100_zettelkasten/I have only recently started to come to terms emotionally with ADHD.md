@@ -22,7 +22,7 @@ version:
 
 I understand that I have ADHD, but I don't have a point of reference. What is my brain supposed to be like? What is my brain supposed to be doing with tasks and how should it feel about boring things? Why am I considered atypical?
 
-This feeling is a common experience, and the shame often stems from a lifetime of having neurological differences perceived as moral or character failings. This is explained in [[Misinterpretation as Character Flaws]], which is a core component of [[The Roots of Shame and Feeling Defective]].
+This feeling is a common experience, and the shame often stems from a lifetime of having neurological differences perceived as moral or character failings. This is explained in [[Misinterpretation as Character Flaws]], which is a core component of [[MoC - The Roots of Shame and Feeling Defective]].
 
 The question of "why am I atypical?" or "how should my brain feel about boring things?" is answered by understanding the core difference in motivational systems. Your brain isn't broken; it simply operates on a different primary driver.
 

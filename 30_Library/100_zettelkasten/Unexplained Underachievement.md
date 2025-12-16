@@ -20,4 +20,4 @@ version:
 
 Many individuals with ADHD, despite innate talent and intelligence, often underachieve. Years of "criticism, reprimands, redirection, lack of appreciation, and repeated disappointments, frustrations, and outright failures" can extinguish natural intellectual sparkle and lead to a profound sense of failure and frustration. This struggle can lead to a belief that one is "stupid" or "not good enough".
 
-[[The Roots of Shame and Feeling Defective]]
+[[MoC - The Roots of Shame and Feeling Defective]]

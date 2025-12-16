@@ -25,4 +25,4 @@ Applicative intelligence involves utilizing existing knowledge and methods to so
 
 [[Generative Intelligence]]
 
-[[Conventional Problem Solving]]
+[[SoT - Conventional Problem Solving]]

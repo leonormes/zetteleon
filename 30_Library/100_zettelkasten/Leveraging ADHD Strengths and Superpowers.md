@@ -34,5 +34,5 @@ Links:
 
 - [[Reframing ADHD - From Deficit to Difference]]
 - [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]
-- [[Reframe Your Mindset From Pretender to Explorer]]
+- [[SoT - Reframe Your Mindset From Pretender to Explorer]]
 - [[The Authentic Self is Dynamic and Capable of Growth]]

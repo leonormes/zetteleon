@@ -48,4 +48,4 @@ Learning to act *despite* the ping, or even *because* of it, becomes a meta-skil
 - [[Emotional Feedback is a Sign of Genuine Learning]] - The learning mechanism the ping represents
 - [[The Action-Reaction-Ping-Adjust Cycle Drives Real Progress]] - The systematic process incorporating the ping
 - [[The Interest-Based Nervous System in ADHD]] - The neurological context for ping responses
-- [[Reframe Your Mindset From Pretender to Explorer]] - The mindset shift that embraces the ping
+- [[SoT - Reframe Your Mindset From Pretender to Explorer]] - The mindset shift that embraces the ping

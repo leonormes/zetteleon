@@ -2,20 +2,51 @@
 aliases: []
 confidence: 
 created: 2025-10-30T12:09:04Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
-see_also: []
+epistemic: experimental
+last_reviewed: 2025-12-16
+modified: 2025-12-16T11:57:35Z
+purpose: To test if "Front-Loading" the reward alters the dopamine calculation for task initiation.
+review_interval: 2 weeks
+see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source: "[[MOC - Why Task Initiation is Difficult in ADHD]]"
-source_of_truth: []
-status: seedling
-tags: [motivation, rewards, topic/health/adhd, topic/productivity]
+source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - The Four Laws of Behavior Change]]"]
+status: pending
+tags: [experiment, hypothesis, motivation, rewards, topic/health/adhd, topic/productivity]
 title: Rewarding the Start of a Task Provides Immediate Reinforcement for ADHD
-type: concept
+type: hypothesis
 uid: 
 updated: 
 ---
 
-For the ADHD brain, which operates on an immediate-return reward system, providing positive reinforcement upon the *initiation* of a task is more effective than waiting for its completion. Rewarding the start of a task, even with simple praise, creates a more immediate dopamine response, which strengthens the neural pathway for that behavior and makes it easier to start in the future.
+## 1. The Hypothesis
+
+> **If** I provide a tangible reward immediately upon the *initiation* of a task (e.g., "The First Step"), rather than waiting for completion,
+> **Then** I will overcome inertia more frequently,
+> **Because** the ADHD brain (with its steep temporal discounting) values a small "Now" reward significantly more than a large "Later" reward.
+
+---
+
+## 2. Experiment Protocol
+
+-   **Duration:** 1 Week.
+-   **The Reward:** A specific micro-treat (e.g., a high-quality coffee, a single chocolate, a specific track of music).
+-   **The Rule:** I get the reward the *second* I perform the first physical action of the task (e.g., opening the IDE, putting on gym shoes). I do not have to finish the task to keep the reward.
+-   **The Logic:** This Pavlovian pairing reinforces the *act of starting*, which is the hardest part.
+
+---
+
+## 3. Expected Outcome
+
+-   **Success:** The "dread" of starting is replaced by the "anticipation" of the treat.
+-   **Failure:** I eat the treat and still don't start (Reward decoupled from Action).
+
+---
+
+## 4. Results Log
+
+-   *(Log results here)*
+
+---
+
+**Original Context:**
+Rewarding the start strengthens the neural pathway for initiation. It hacks the [[SoT - The Four Laws of Behavior Change#The Cardinal Rule of Behavior Change|Cardinal Rule]]: "What gets rewarded is repeated."

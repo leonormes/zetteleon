@@ -2,38 +2,55 @@
 aliases: []
 confidence: 
 created: 2025-10-26T11:14:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:38Z
-purpose: 
-review_interval: 
-see_also: []
-source_of_truth: []
-status: 
-tags: [focus, self-compassion, topic/health/adhd, topic/productivity]
+epistemic: experimental
+last_reviewed: 2025-12-16
+modified: 2025-12-16T11:57:37Z
+purpose: To test if "Structured Wandering" is more effective than "Forced Focus" for physical tasks.
+review_interval: 2 weeks
+see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
+source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
+status: pending
+tags: [experiment, focus, hypothesis, self-compassion, topic/health/adhd, topic/productivity]
 title: Junebugging - A Gentle Focus Strategy for ADHD
-type: permanent
+type: hypothesis
 uid: 
 updated: 
 version: 1
 ---
 
-Junebugging is a productivity strategy, particularly useful for multi-step tasks like cleaning or organizing, that works *with* the ADHD brain's tendency to get distracted rather than fighting against it.
+## 1. The Hypothesis
 
-## Core Concept
+> **If** I define a physical "Home Base" and allow myself to "wander" and return (Junebugging),
+> **Then** I will sustain longer total engagement with chores/tidying,
+> **Because** fighting the urge to wander costs more energy than the wandering itself. Accepting the pattern removes the shame tax.
 
-Instead of trying to force sustained focus on a single, large task, you define one small, specific area as your "spot" or home base. You then give yourself permission to wander and get distracted, with the gentle rule that you must always return to your spot.
+---
 
-## Why It Works for ADHD
+## 2. Experiment Protocol
 
-- **Grants Permission to Wander**: It acknowledges that the ADHD brain will naturally get distracted. By accepting this instead of fighting it, it removes the shame and frustration that often accompanies a loss of focus.
-- **Avoids Shame Spirals**: Because distraction is part of the plan, there is no "failure" when it happens. This prevents the shame-procrastination cycle from starting.
-- **Provides a Gentle Anchor**: The "spot" acts as a simple, low-friction anchor to return to, making it easy to re-engage with the task without needing to re-plan or overcome significant inertia.
-- **Works with Natural Energy Patterns**: It allows for bursts of focused energy interspersed with periods of lower-intensity wandering.
+-   **Context:** Use this for a "whole house clean" or "organizing a room."
+-   **Method:**
+    1.  **Define the Spot:** Pick *one* specific anchor point (e.g., "The Coffee Table").
+    2.  **The Rule:** I can pick up an item and take it to another room. If I see something else there, I can do it.
+    3.  **The Return:** The moment I feel "lost" or the side-task ends, I *must* physically return to The Spot.
+    4.  **No Shame:** Do not scold yourself for wandering. Just return.
 
-## Connections
+---
 
-- This is a highly compassionate approach that aligns with the principles of [[ADHD Mindset and Emotional Regulation Strategies]].
-- It is a useful technique for tasks that are not well-suited to rigid [[Timeboxing as a To-Do List Alternative for ADHD|Timeboxing]].
+## 3. Expected Outcome
 
-*Source: Synthesized from notes on ADHD productivity hacks.*
+-   **Metric:** Time spent cleaning before burnout (Duration).
+-   **Qualitative:** Feeling of "Flow" vs "Frustration."
+
+---
+
+## 4. Results Log
+
+-   *(Log results here)*
+
+---
+
+**Original Context:**
+Junebugging works *with* the ADHD brain's tendency to get distracted rather than fighting against it.
+-   **Connections:** [[ADHD Mindset and Emotional Regulation Strategies]].
+-   **Contrast:** Useful when [[Timeboxing as a To-Do List Alternative for ADHD]] feels too rigid.

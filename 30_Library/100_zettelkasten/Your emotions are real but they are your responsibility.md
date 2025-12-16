@@ -49,5 +49,5 @@ This principle is particularly relevant for ADHD individuals who experience:
 - [[Self-Regulation is Managing Your Emotions and Actions]] - The skill of managing one's emotional responses
 - [[Emotional Feedback is a Sign of Genuine Learning]] - When emotions provide valuable information
 - [[Why Others' Opinions Can Feel Undeservedly Powerful]] - How emotional reasoning affects external validation
-- [[The Roots of Shame and Feeling Defective]] - The importance of self-compassion in emotional responsibility
+- [[MoC - The Roots of Shame and Feeling Defective]] - The importance of self-compassion in emotional responsibility
 - [[Morita Therapy - Core Principle is to Accept Feelings and Direct Behavior]] - A therapeutic model built on this principle.

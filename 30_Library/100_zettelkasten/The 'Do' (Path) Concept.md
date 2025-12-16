@@ -20,7 +20,7 @@ version:
 
 Musashi emphasised the 'do', or path, which focuses on the **journey** rather than the destination. This concept is central to various Japanese martial arts and disciplines like Judo, Bushido, and Aikido. It's the continuous process of refinement and practice that leads to mastery.
 
-**Links:** [[Miyamoto Musashi's Philosophy on Mastering Emotions]], [[Achieving Mental Stability]]
+**Links:** [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]], [[Achieving Mental Stability]]
 
 ---
 

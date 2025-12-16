@@ -23,8 +23,8 @@ The hunter brain operates by scanning the horizon for interesting targets, pursu
 
 Neither approach is inherently superior - they represent different cognitive operating systems optimized for different environments and outcomes. The hunter brain excels at [[Novelty Seeking]], rapid pattern recognition across domains, and [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD|hyperfocus]] on compelling problems. The farmer brain excels at deep expertise, systematic development, and long-term mastery.
 
-Problems arise when hunter brains are judged by farmer standards. Traditional educational and professional systems often favor the farmer approach, leading hunter-brained individuals to feel defective or unsuccessful. This misalignment can trigger [[Shame]] and [[The Roots of Shame and Feeling Defective|feelings of being fundamentally flawed]].
+Problems arise when hunter brains are judged by farmer standards. Traditional educational and professional systems often favor the farmer approach, leading hunter-brained individuals to feel defective or unsuccessful. This misalignment can trigger [[Shame]] and [[MoC - The Roots of Shame and Feeling Defective|feelings of being fundamentally flawed]].
 
 The key insight is recognizing that [[The ADHD nervous system is primarily interest-driven]] and optimizing for that reality rather than fighting against it. Hunter brains can achieve remarkable results when they embrace their natural scanning and pursuit patterns rather than forcing themselves into sustained cultivation modes.
 
-Links: [[Success is Connection Not Mastery]], [[Reframe Your Mindset From Pretender to Explorer]], [[ADHD Brain Wiring vs. Classic Productivity Systems]]
+Links: [[Success is Connection Not Mastery]], [[SoT - Reframe Your Mindset From Pretender to Explorer]], [[ADHD Brain Wiring vs. Classic Productivity Systems]]

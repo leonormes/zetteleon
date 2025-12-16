@@ -2,41 +2,54 @@
 aliases: []
 confidence: 
 created: 2025-10-26T11:05:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:39Z
-purpose: 
-review_interval: 
-see_also: []
-source_of_truth: []
-status: 
-tags: [task-management, time-management, topic/health/adhd, topic/productivity]
+epistemic: experimental
+last_reviewed: 2025-12-16
+modified: 2025-12-16T13:56:50Z
+purpose: To test if Timeboxing effectively replaces traditional to-do lists for ADHD task management.
+review_interval: 2 weeks
+see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
+source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
+status: pending
+tags: [experiment, hypothesis, task-management, time-management, topic/health/adhd, topic/productivity]
 title: Timeboxing as a To-Do List Alternative for ADHD
-type: permanent
+type: hypothesis
 uid: 
 updated: 
 version: 1
 ---
 
-## Timeboxing as a To-Do List Alternative for ADHD
+## 1. The Hypothesis
 
-For individuals with ADHD, traditional scrolling to-do lists can become a source of overwhelm and paralysis. A more effective strategy is **Timeboxing**, which involves converting tasks into scheduled appointments on a calendar.
+> **If** I replace traditional scrolling to-do lists with **Timeboxed calendar appointments** for all tasks,
+> **Then** I will experience significantly reduced task overwhelm and improved task initiation,
+> **Because** the fixed boundaries and visual representation of time combat time blindness and provide essential external structure for the ADHD brain more effectively than abstract lists.
 
-### Core Concept
+---
 
-Instead of maintaining a long, abstract list of tasks, each item is given a specific, finite block of time in the day. This provides a clear, visual representation of the day's workload and forces a realistic assessment of what can be achieved.
+## 2. Experiment Protocol
 
-### Why It Works for ADHD
+-   **Duration:** 1 Work Week (Monday - Friday).
+-   **Method:**
+    1.  **Discard Traditional Lists:** For the duration of the experiment, do not use any scrolling to-do lists.
+    2.  **Calendar Everything:** Plan the entire day by blocking out every task (including breaks and transitions) on the calendar with a defined start and end time.
+    3.  **Treat as Appointments:** Treat each time block as a non-negotiable appointment.
+-   **Tools:** Use a digital calendar with time blocking features.
 
-- **Reduces Overwhelm**: A calendar view is finite and structured, unlike an endless to-do list which can feel overwhelming and trigger avoidance.
-- **Combats Time Blindness**: It makes time tangible and helps build a more realistic sense of how long tasks actually take.
-- **Prevents Rescheduling Loops**: When a task is a calendar event, it's less likely to be perpetually pushed to the next day, a common failure mode with to-do lists.
-- **Creates Structure**: Provides the external structure that the ADHD brain needs to initiate and transition between tasks.
+---
 
-### Connections
+## 3. Expected Outcome
 
-- This method is a practical application of [[ADHD Behavioral Strategies for Productivity]].
-- It is often used in conjunction with [[Visual Timers for ADHD Time Blindness]] to enhance focus within each time block.
-- It helps manage the challenges outlined in [[Executive Function Challenges are Central to ADHD]].
+-   **Success Metric:** Feel calmer when looking at the daily plan. Successfully start and transition between 80% of scheduled blocks.
+-   **Qualitative:** Reduction in the "infinite tasks" feeling. Improved sense of accomplishment.
 
-*Source: Synthesized from notes on ADHD productivity hacks.*
+---
+
+## 4. Results Log
+
+-   *(Log results here)*
+
+---
+
+**Original Context:**
+Timeboxing provides a clear, visual representation of the day's workload.
+- **Connections:** [[ADHD Behavioral Strategies for Productivity]], [[Visual Timers for ADHD Time Blindness]], [[Executive Function Challenges are Central to ADHD]].

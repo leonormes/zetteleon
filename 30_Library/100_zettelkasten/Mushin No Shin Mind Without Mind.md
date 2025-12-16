@@ -20,7 +20,7 @@ version:
 
 This Japanese concept involves distancing oneself from thoughts, emotions, and the ego. It allows for conscious, fluent action without emotion or hesitation. This state enables the observation and integration of emotions rather than reaction or suppression. It is a state of effortless action and flow.
 
-**Links:** [[Miyamoto Musashi's Philosophy on Mastering Emotions]], [[Responding vs. Reacting]]
+**Links:** [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]], [[Responding vs. Reacting]]
 
 ---
 

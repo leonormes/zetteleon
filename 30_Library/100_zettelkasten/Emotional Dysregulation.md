@@ -20,7 +20,7 @@ version: 1
 
 ADHD brains process emotions differently, leading to "intense or unpredictable emotions that seem blown out of proportion". These are not chosen behaviors, but rather a result of differences in brain function, particularly in the amygdala and frontal cortex. This means your emotional responses are often automatic and not a reflection of your character. Trying to directly control feelings is often futile; instead, focus on managing your behavior in response to them.
 
-[[The Roots of Shame and Feeling Defective]]
+[[MoC - The Roots of Shame and Feeling Defective]]
 
 ---
 

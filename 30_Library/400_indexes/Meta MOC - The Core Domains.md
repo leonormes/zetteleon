@@ -1,15 +1,21 @@
 ---
-aliases: [The Core Domains, My Thinking Landscape, Meta Map of Content]
+aliases: [Meta Map of Content, My Thinking Landscape, The Core Domains]
 confidence: 5/5
 created: 2025-12-16T09:45:00Z
 description: A high-level Meta MOC categorizing the primary domains of thought and Sources of Truth (SoT) within the vault.
 epistemic: synthesis
 last_reviewed: 2025-12-16
+modified: 2025-12-16T11:57:01Z
 purpose: To provide a top-level entry point into the system, answering "What do I often think about?" by clustering SoTs into broad thematic domains.
+review_interval: 
+see_also: []
+source_of_truth: []
 status: stable
-tags: [moc, meta, structure, index]
+tags: [index, meta, moc, structure]
 title: Meta MOC - The Core Domains
 type: moc
+uid: 
+updated: 
 ---
 
 ## 1. The Intellectual Landscape: What I Think About
@@ -17,6 +23,7 @@ type: moc
 My thinking is not random; it is highly structured around specific "Attractors." I do not just collect facts; I build **Systems** to manage **Cognition** in service of **Meaning**.
 
 My primary intellectual loop is:
+
 1.  **Understand the Machine (Cognition/ADHD):** How does my brain work?
 2.  **Build the Scaffolding (ProdOS/Systems):** How do I engineer an environment to support that brain?
 3.  **Define the Destination (Philosophy/Values):** Where should I direct this energy?

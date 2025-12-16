@@ -4,7 +4,7 @@ confidence: 4/5
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-12T18:18:05Z
+modified: 2025-12-16T11:56:59Z
 purpose: To define the function, structure, and purpose of 'Thinking' within the ProdOS architecture.
 related-soTs: ["[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 3 months
@@ -100,7 +100,15 @@ For a complete, step-by-step walkthrough of this process—transforming a vague 
 This example demonstrates:
 
 -   **Stage 1 (Generate):** The raw "Vomit Draft" of a frustration.
--   **Stage 2 (Clarify):** Refactoring the text into a clear statement.
+-   **Stage 2 (Clarify)::** Refactoring the text into a clear statement.
 -   **Stage 3 (Understand):** Extracting the core principle (Tool Fetishism).
--   **Stage 4 (Connect):** Linking to [[Productive Procrastination as an Avoidance Strategy]]
+-   **Stage 4 (Connect)::** Linking to [[Productive Procrastination as an Avoidance Strategy]]
 -   **Stage 5 (Synthesize):** Updating the relevant structure note.
+
+### 6.1 Educating Your Zettelkasten
+
+The act of "Knowledge Synthesis" isn't just about collecting facts; it's about making them comprehensible and useful for your future self. This is the process of **"Educating Your Zettelkasten."**
+
+-   **Principle:** Write atomic units in a clear, unambiguous way so that when you revisit them later, they immediately make sense.
+-   **Test:** If a note doesn't make sense upon later reading, it is "uneducated."
+-   **Implication:** A well-educated Zettelkasten is a reliable cognitive prosthesis, ensuring that your past insights remain accessible and valuable for future thinking. (Source: [[Educating Your Zettelkasten]])

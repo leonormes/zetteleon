@@ -18,7 +18,7 @@ updated:
 version:
 ---
 
-[[Miyamoto Musashi's Philosophy on Mastering Emotions]]
+[[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]]
 
 [[Understanding Emotion]]
 

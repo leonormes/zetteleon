@@ -2,25 +2,55 @@
 aliases: []
 confidence: 
 created: 2025-10-30T12:00:03Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
-see_also: []
+epistemic: experimental
+last_reviewed: 2025-12-16
+modified: 2025-12-16T11:57:35Z
+purpose: To test if semantic reframing can bypass executive dysfunction by shifting from obligation to purpose.
+review_interval: 2 weeks
+see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source: "[[MOC - ADHD Task Management]]"
-source_of_truth: []
-status: seedling
-tags: [language, motivation, reframing, topic/health/adhd, topic/productivity]
+source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Values and Eudaimonia]]"]
+status: pending
+tags: [experiment, hypothesis, language, motivation, reframing, topic/health/adhd, topic/productivity]
 title: Reframing Language from Obligation to Purpose Boosts ADHD Task Initiation
-type: concept
+type: hypothesis
 uid: 
 updated: 
 ---
 
-Reframing the language used to describe tasks can significantly improve task initiation for individuals with ADHD. This involves shifting from phrases of obligation, such as "I need to do this," to phrases that connect the task to personal meaning and purpose, such as "Why do I want to do this?"
+## 1. The Hypothesis
 
-By attaching a personal reason to a task (e.g., helping a family member, relieving a burden on others), it is possible to generate intrinsic motivation and reduce the resistance often associated with task initiation.
+> **If** I reframe "Have to" tasks into "User Stories" (*"As a [Role], I want [Action], So that [Benefit]"*),
+> **Then** task initiation resistance will decrease significantly,
+> **Because** the ADHD brain creates resistance against external obligation (ODD-lite) but is motivated by intrinsic purpose and identity.
+
+---
+
+## 2. Experiment Protocol
+
+-   **Duration:** 3 Days.
+-   **Trigger:** Whenever I feel the "UGH" sensation or say "I *need* to do X."
+-   **Action:**
+    1.  **Stop.** Do not try to push through the resistance.
+    2.  **Rephrase:** Speak the User Story aloud.
+        -   *Old:* "I need to do the dishes."
+        -   *New:* "As a *Father*, I want to *clear the sink*, so that *my morning coffee is peaceful tomorrow*."
+    3.  **Assess:** Does the "Wall of Awful" shrink?
+
+---
+
+## 3. Expected Outcome
+
+-   **Metric:** Count how many times the reframe successfully led to action (e.g., 5/7 attempts).
+-   **Qualitative:** Reduction in the physical sensation of "heavy gravity" before starting.
+
+---
+
+## 4. Results Log
+
+-   *(Log results here upon activation)*
+
+---
 
 **Philosophical Basis:**
-Aligns with [[Existentialism - Existence Precedes Essence]] - framing tasks as chosen expressions of purpose rather than imposed obligations
+Aligns with [[Existentialism - Existence Precedes Essence]] - framing tasks as chosen expressions of purpose rather than imposed obligations.

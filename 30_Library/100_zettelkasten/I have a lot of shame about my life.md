@@ -26,7 +26,7 @@ I think my [[Shame|obsession]] with [[Creating a GTD Map in Excalidraw|GTD]] and
 
 ## Related Concepts
 
-- [[The Roots of Shame and Feeling Defective]] - Understanding shame's origins
+- [[MoC - The Roots of Shame and Feeling Defective]] - Understanding shame's origins
 - [[Reframe Habit Setbacks as Capacity Limits Not Character Flaws]] - Reframing failure attribution
 
 ## Links

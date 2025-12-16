@@ -7,7 +7,7 @@ decay-signals: []
 epistemic: theory
 last-synthesis: 2025-12-07
 last_reviewed: 2025-12-07
-modified: 2025-12-11T10:10:43Z
+modified: 2025-12-16T11:56:59Z
 purpose: To define the canonical framework for habit formation and modification based on James Clear's Atomic Habits.
 quality-markers: [Habit Stacking)., Includes both creation and breaking rules., Maps Laws to the Habit Loop., Provides actionable strategies (Implementation Intentions]
 related-soTs: []
@@ -90,7 +90,28 @@ Leverages the "Synaptic Pruning" of existing habits to build new ones.
 
 ---
 
-## 6. Practical Application Plans
+## 6. Positive Reinforcement Strategy: Small Wins
+
+Building momentum requires actively engineering positive feedback loops, especially for the ADHD brain which struggles with delayed gratification.
+
+### A. Celebrate Small Successes
+
+Acknowledging small wins shifts the focus from "Perfection" (what is left to do) to "Progress" (what has been done).
+
+-   **The Mechanism:** Acknowledging a completed step triggers a small dopamine release.
+-   **The Practice:** Give yourself a mental "Good job" or a tangible micro-reward immediately after a difficult step. This creates a positive association with the effort.
+
+### B. The Dopamine Sandwich
+
+To tackle high-friction tasks, structure the workflow to guarantee stimulation.
+
+1.  **Top Slice (Pre-Task):** A quick, high-dopamine boost (music, coffee).
+2.  **The Filling (The Task):** The boring/difficult work.
+3.  **Bottom Slice (The Reward):** An immediate, guilt-free reward (snack, walk).
+
+---
+
+## 7. Practical Application Plans
 
 ### Developer Example
 - **Goal:** Code for 1 hour daily.

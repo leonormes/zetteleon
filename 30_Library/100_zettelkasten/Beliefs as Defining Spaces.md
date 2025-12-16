@@ -30,7 +30,7 @@ Beliefs are neither good nor bad right or wrong but rather limiting or empowerin
 
 [[Emotions Are Not Reliable Indicators of Reality]]
 
-[[The Roots of Shame and Feeling Defective]]
+[[MoC - The Roots of Shame and Feeling Defective]]
 
 [[Distorted Negative Self-Image]]
 

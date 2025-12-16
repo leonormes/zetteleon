@@ -4,10 +4,10 @@ confidence: 5/5
 created: 2025-12-14T15:00:00Z
 epistemic: theory
 last_reviewed: 2025-12-14
-modified: 2025-12-16T08:57:27Z
+modified: 2025-12-16T11:56:58Z
 purpose: To define the psychological and neurobiological experience of living by values (Eudaimonia) versus living by impulse (Hedonia), and to provide a framework for constructing a self based on duty.
 review_interval: 6 months
-see_also: ["[[Integrity Means Acting in Accordance With Chosen Values]]", "[[SoT - ADHD and Motivation]]", "[[The Self is Constructed Through a Commitment to Chosen Values]]", "[[SoT - Wabi-Sabi]]"]
+see_also: ["[[Integrity Means Acting in Accordance With Chosen Values]]", "[[SoT - ADHD and Motivation]]", "[[SoT - Wabi-Sabi]]", "[[The Self is Constructed Through a Commitment to Chosen Values]]"]
 source_of_truth: true
 status: stable
 tags: [adhd, eudaimonia, philosophy, psychology, values]

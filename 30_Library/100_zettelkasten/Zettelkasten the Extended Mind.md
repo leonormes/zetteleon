@@ -4,7 +4,7 @@ confidence:
 created: 2025-02-07T12:57:55Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-08T22:54:04Z
+modified: 2025-12-16T09:31:18Z
 purpose: 
 review_interval: 
 see_also: []
@@ -33,7 +33,3 @@ This helps to develop a more profound understanding of complex concepts.
 [[The Extended Mind Thesis]]
 
 [[MOC - Abstraction Improves Breadth of Understanding]]
-
-[[Externalise Everything]]
-
-[[A Digital System Can Externalise and Organise Thoughts]]

@@ -27,4 +27,4 @@ The traditional academic model of deep specialization may not align with how som
 
 This connects to [[Generative Intelligence]] - the ability to create entirely new frameworks by combining insights from different areas. Success becomes about building a rich network of partial understandings that can be recombined in novel ways.
 
-Links: [[Reframe Your Mindset From Pretender to Explorer]], [[Hunter vs Farmer Brain Metaphor]]
+Links: [[SoT - Reframe Your Mindset From Pretender to Explorer]], [[Hunter vs Farmer Brain Metaphor]]
