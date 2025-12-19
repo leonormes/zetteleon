@@ -21,4 +21,4 @@ updated:
 Anchor times are fixed points in the daily schedule for essential activities (wake time, meals, exercise) that create a predictable framework around which other tasks can be organized, providing stability while allowing flexibility in between.
 
 ## Related
-- [[Strategies for ADHD Brains in a Neurotypical World]]
+- [[MOC - Strategies for ADHD Brains in a Neurotypical World]]

@@ -69,10 +69,10 @@ Critically, [[Downtime scheduling prevents neurodivergent burnout]] - rest perio
 - Iterate using monthly reviews rather than daily perfectionism
 - Acknowledge that routines are tools for support, not performance
 
-This approach integrates with [[Strategies for ADHD Brains in a Neurotypical World]] by working with neurodivergent traits rather than against them. The goal is sustainable functioning that preserves energy for meaningful activities while reducing the cognitive and emotional toll of unstructured days.
+This approach integrates with [[MOC - Strategies for ADHD Brains in a Neurotypical World]] by working with neurodivergent traits rather than against them. The goal is sustainable functioning that preserves energy for meaningful activities while reducing the cognitive and emotional toll of unstructured days.
 
 ### Related Resources
 - [[Executive Function Challenges are Central to ADHD]]
 - [[Routines Provide Stability for Neurodivergent Individuals]]
 - [[The Interest-Based Nervous System in ADHD]]
-- [[Strategies for ADHD Brains in a Neurotypical World]]
+- [[MOC - Strategies for ADHD Brains in a Neurotypical World]]

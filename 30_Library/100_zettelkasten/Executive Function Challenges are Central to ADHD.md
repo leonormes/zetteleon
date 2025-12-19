@@ -54,7 +54,7 @@ Executive function deficits contribute to:
 Understanding these deficits leads to effective strategies:
 
 - [[Body Doubling is an Effective ADHD Strategy]] - Social support for initiation and sustained attention
-- [[Strategies for ADHD Brains in a Neurotypical World]] - Comprehensive approaches
+- [[MOC - Strategies for ADHD Brains in a Neurotypical World]] - Comprehensive approaches
 
 These challenges directly impact [[Why Importance and Rewards Fail to Motivate ADHD Brains|why traditional motivational strategies are ineffective]].
 

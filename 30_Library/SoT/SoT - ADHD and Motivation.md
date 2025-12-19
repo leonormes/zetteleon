@@ -165,7 +165,7 @@ A **Dopamine Detox** is not about eliminating pleasure, but about up-regulating 
 - [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]]
 - [[The PINCH Model Describes Core ADHD Motivators]]
 - [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]
-- [[Strategies for ADHD Brains in a Neurotypical World]]
+- [[MOC - Strategies for ADHD Brains in a Neurotypical World]]
 - [[Body Doubling for ADHD Focus]]
 - [[Logic Does Not Produce Dopamine]]
 

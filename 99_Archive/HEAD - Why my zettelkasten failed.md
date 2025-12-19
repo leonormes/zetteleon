@@ -24,7 +24,7 @@ updated:
 
 It contains lots of compelling ideas that I really want in order to overcome my ADHD traits but it's purpose was wrong for me. I didn't see the overall goal and the features separately.
 
-What I liked was the linking ideas and thinking and continuing lines of thought. Of having my understanding clearly written so I could see contradictions. It was like the smart notes revolution was a solution to my executive dysfunction. Which it is partially. But the purpose of zettelkasten is not as an aide to ADHD struggles but as a way to research and write papers. I was doing some actions and expecting my vague feelings of failure to go away. I say vague feelings of failure because they are not really accurate. I dismiss successes and amplify failures to give an overall sense of a incompetent fool.
+What I liked was the linking ideas and thinking and continuing lines of thought. Of having my understanding clearly written so I could see contradictions. It was like the smart notes revolution was a solution to my executive dysfunction. Which it is partially. But the purpose of Zettelkasten is not as an aide to ADHD struggles but as a way to research and write papers. I was doing some actions and expecting my vague feelings of failure to go away. I say vague feelings of failure because they are not really accurate. I dismiss successes and amplify failures to give an overall sense of a incompetent fool.
 
 So, I was blindly doing someone else's system to ease a pain in me I hadn't defined clearly. Imagine having a sore calf muscle and getting a shoulder massage. The massage is very nice but it doesn't help the calf pain. And I am not realising the calf pain is what is causing me discomfort so I try different ways of doing shoulder massage.
 
@@ -44,6 +44,7 @@ We will refactor this into the HEAD note template using the Refactoring Protocol
 > I realised that while Zettelkasten has compelling features (linking, contradictions), its core purpose is research/writing papers, not acting as an aid for my **executive dysfunction** and **ADHD traits**. I was using a complex tool to treat a problem I hadn't clearly defined.
 
 ### 🧠 My Current Model (The Cognitive Bug)
+
 - **Misaligned Goal:** I am conflating multiple desires: Dopamine triggers, genuine productivity, a sense of order, and deep learning.
 - **The Loop:** Not achieving genuine goals leads to feelings of incompetence (amplifying failures, dismissing successes), which increases the search for ready dopamine hits.
 - **The Analogy:** I was seeking a "shoulder massage" (Zettelkasten features) when the actual pain was in my "calf muscle" (undiagnosed executive function struggles).
@@ -59,7 +60,7 @@ We will refactor this into the HEAD note template using the Refactoring Protocol
 - [ ] **Action 1 (Define the Bug):** Create a **HEAD Note** to specifically define the symptoms.
 - [ ] **Action 2 (Integration):** Link the symptoms back to my PRODOS system design (e.g., How does **Learned Helplessness** manifest in my GTD adherence?).
 
-Immediate PRODOS Action (The Required Dependency)
+## Immediate PRODOS Action (The Required Dependency)
 
 The note above correctly identifies that the necessary knowledge is currently missing. You cannot fix the failure loop until you define the pain.
 
