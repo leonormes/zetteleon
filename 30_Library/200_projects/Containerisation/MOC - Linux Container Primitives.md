@@ -30,8 +30,9 @@ Containers appear to be lightweight virtual machines, but they're actually isola
 
 ### 🔒 Isolation Primitives
 
+- **[[SoT - Container Isolation (The Namespace Security Model)]]** - **CRITICAL:** The definitive security model. Why isolation fails without the Mount Namespace.
 - **[[What is a network namespace]]** - Network stack isolation (interfaces, routing, iptables)
-- **[[What is a mount namespace]]** - File system mount point isolation
+- **[[What is a mount namespace]]** - File system mount point isolation (The Gatekeeper)
 - **[[What is a PID namespace]]** - Process ID space isolation
 - **[[What is a UTS namespace]]** - Hostname and domain name isolation
 - **[[What is the Linux VFS (Virtual File System)]]** - File system abstraction layer
@@ -39,7 +40,7 @@ Containers appear to be lightweight virtual machines, but they're actually isola
 ### ⚡ Resource Management
 
 - **Control Groups (cgroups)** - CPU, memory, I/O resource limits (planned)
-- **Namespaces interaction** - How different namespaces work together
+- **[[Namespace Isolation Is Incomplete Without Mount Namespace]]** - Detailed failure analysis
 - **Process hierarchy** - Container processes vs host processes
 
 ### 🔐 Security Features

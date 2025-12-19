@@ -2,15 +2,15 @@
 aliases: []
 confidence:
 created: 2025-02-07T12:57:53Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:37Z
-purpose:
+epistemic: psychology
+last_reviewed: 2025-12-16
+modified: 2025-12-19T10:13:22Z
+purpose: A map note connecting individual belief concepts to the core architecture SoT.
 review_interval:
-see_also: []
-source_of_truth: []
-status:
-tags: [beliefs]
+see_also: ["[[SoT - Belief Architecture & Cognitive Spaces]]"]
+source_of_truth: ["[[SoT - Belief Architecture & Cognitive Spaces]]"]
+status: stable
+tags: [beliefs, map, mental_models]
 title: Beliefs as Defining Spaces
 type: map
 uid:
@@ -18,28 +18,32 @@ updated:
 version:
 ---
 
-Every belief we hold creates a range of possibilities for us, some empowering and some limiting.
+> [!NOTE] Synthesis
+> The core concept of this note has been synthesized into:
+> **[[SoT - Belief Architecture & Cognitive Spaces]]**
 
-Beliefs are neither good nor bad right or wrong but rather limiting or empowering.
+Every belief we hold creates a range of possibilities for us (**Search Space**), some empowering and some limiting. Beliefs are neither good nor bad, but **functional architecture**.
 
-## Links
+## The Architecture of Belief
 
-[[Common Cognitive Distortions]]
+- **[[Mental Models The Developer's Internal Compass]]** - The blueprints we use to navigate.
 
-[[Emotional Reasoning]]
+- **[[Meta Framing]]** - The skill of stepping outside the architecture to redesign it.
 
-[[Emotions Are Not Reliable Indicators of Reality]]
+- **[[Discipline and Values]]** - The foundation of the structure.
 
-[[MoC - The Roots of Shame and Feeling Defective]]
+## The Cognitive Bugs (Limiting Spaces)
 
-[[Distorted Negative Self-Image]]
+- **[[Common Cognitive Distortions]]** - The structural flaws.
 
-[[Mental Models The Developer's Internal Compass]]
+- **[[Emotional Reasoning]]** - Mistaking the walls for reality.
 
-[[Discipline and Values]]
+- **[[Emotions Are Not Reliable Indicators of Reality]]**
 
-[[Meta Framing]]
+- **[[negative_labels]]** / **[[Negative labels create biased expectations]]**
 
-[[negative_labels]]
+## The ADHD Context
 
-[[Negative labels create biased expectations]]
+- **[[MoC - The Roots of Shame and Feeling Defective]]** - The ultimate limiting space ("I am broken").
+
+- **[[Distorted Negative Self-Image]]**

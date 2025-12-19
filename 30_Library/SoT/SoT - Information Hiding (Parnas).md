@@ -6,7 +6,7 @@ created: 2025-12-12T17:40:00Z
 epistemic: technical
 last-synthesis: 2025-12-12
 last_reviewed: 2025-12-12
-modified: 2025-12-14T18:37:58Z
+modified: 2025-12-19T10:12:36Z
 purpose: Canonical definition and benefits of David Parnas's Information Hiding principle in software design.
 quality-markers: []
 related-soTs: ["[[SoT - Atomicity and Loose Coupling]]", "[[SoT - Code Duplication and Refactoring]]"]
@@ -36,9 +36,11 @@ updated:
 
 Parnas's approach contrasts with decomposition based on functional flowcharts. Instead, he proposed:
 
--   **Decision-Based Decomposition:** Modules should be organized around design decisions, not steps in processing.
--   **Encapsulation of Change:** Modules should hide decisions that are likely to change (e.g., file formats, hardware devices, complex algorithms).
--   **Abstract Interfaces:** Modules communicate through well-defined, stable interfaces that expose *what* the module does, but not *how* it does it.
+- **Decision-Based Decomposition:** Modules should be organized around design decisions, not steps in processing.
+
+- **Encapsulation of Change:** Modules should hide decisions that are likely to change (e.g., file formats, hardware devices, complex algorithms).
+
+- **Abstract Interfaces:** Modules communicate through well-defined, stable interfaces that expose *what* the module does, but not *how* it does it.
 
 ---
 
@@ -47,15 +49,20 @@ Parnas's approach contrasts with decomposition based on functional flowcharts. I
 The primary goals of Information Hiding are to manage complexity and enable system evolution.
 
 ### A. Improved Maintainability & Flexibility
--   **Reduced Impact of Changes:** Changes to a hidden design decision (e.g., switching database technology) are localized within a single module.
--   **Independent Development:** Teams can develop modules concurrently without needing to know each other's internal implementations.
+
+- **Reduced Impact of Changes:** Changes to a hidden design decision (e.g., switching database technology) are localized within a single module.
+
+- **Independent Development:** Teams can develop modules concurrently without needing to know each other's internal implementations.
 
 ### B. Enhanced Comprehensibility
--   **Reduced Cognitive Load:** Developers can understand a module's function without grasping its internal intricacies.
--   **Clearer Abstractions:** Forces designers to create clean, well-defined boundaries.
+
+- **Reduced Cognitive Load:** Developers can understand a module's function without grasping its internal intricacies.
+
+- **Clearer Abstractions:** Forces designers to create clean, well-defined boundaries.
 
 ### C. Promotes Modularity
--   Supports the creation of loosely coupled components that interact through stable interfaces.
+
+- Supports the creation of loosely coupled components that interact through stable interfaces.
 
 ---
 
@@ -63,6 +70,8 @@ The primary goals of Information Hiding are to manage complexity and enable syst
 
 Information Hiding principles are vital for managing knowledge complexity in ProdOS:
 
--   **SoT as Modules:** Each **SoT (Source of Truth)** note acts as a module. It presents a definitive statement and core concepts (the "abstract interface"), while hiding the "implementation details" (the dozens of original Zettelkasten notes that were synthesized).
--   **Readability & Re-entry:** This allows for frictionless re-entry into complex topics; you only need the SoT's interface to understand the concept, reducing cognitive load.
--   **Managing Change:** When underlying details change (e.g., new research), only the relevant SoT needs to be updated, not every note that references the concept.
+- **SoT as Modules:** Each **SoT (Source of Truth)** note acts as a module. It presents a definitive statement and core concepts (the "abstract interface"), while hiding the "implementation details" (the dozens of original Zettelkasten notes that were synthesized).
+
+- **Readability & Re-entry:** This allows for frictionless re-entry into complex topics; you only need the SoT's interface to understand the concept, reducing cognitive load.
+
+- **Managing Change:** When underlying details change (e.g., new research), only the relevant SoT needs to be updated, not every note that references the concept.

@@ -7,7 +7,7 @@ decay-signals: []
 epistemic:
 last-synthesis: 2025-12-14
 last_reviewed: 2025-12-14
-modified: 2025-12-14T17:52:48Z
+modified: 2025-12-19T10:12:37Z
 purpose: To provide a protocol for breaking the ADHD cycle of starting fresh and abandoning projects due to loss of context.
 quality-markers: []
 related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]"]
@@ -43,11 +43,11 @@ The goal is not to fight the brain but to build scaffolds that reduce the cost o
 Make it trivial to reload your mental model. Never close a session without a **State Snapshot**.
 
 **Format: `SESSION.md`**
--   **Now:** Bullet points of what was just completed.
--   **Next:** 1-3 concrete steps for the *next* session (≤ 15 mins each).
--   **Why:** The design intent and constraints (Plain English).
--   **WTF Guide:** Traps, open questions, and things you are avoiding.
--   **Links:** Critical file paths, commands, logs.
+- **Now:** Bullet points of what was just completed.
+- **Next:** 1-3 concrete steps for the *next* session (≤ 15 mins each).
+- **Why:** The design intent and constraints (Plain English).
+- **WTF Guide:** Traps, open questions, and things you are avoiding.
+- **Links:** Critical file paths, commands, logs.
 
 > **Developer Tip:** Use commit messages like `feat: done X; NEXT: do Y; WHY: constraint Z` so `git log -1` acts as a context loader.
 
@@ -67,18 +67,23 @@ Make returning low-friction and dopamine-friendly.
 
 Don't suppress the urge to innovate; channel it.
 
--   **80%:** Continue the main branch.
--   **20%:** Time-boxed "Spikes" (`spike/wild-idea-date`).
-    -   Max 60-90 mins.
-    -   Must end with a decision: **Adopt, Park, or Archive.**
+- **80%:** Continue the main branch.
+
+- **20%:** Time-boxed "Spikes" (`spike/wild-idea-date`).
+
+    - Max 60-90 mins.
+
+    - Must end with a decision: **Adopt, Park, or Archive.**
 
 ### B. The "MPD" (Minimal Path to Demo)
 
 Big ideas stall because "done" is vague. Define a **Minimal Path to Demo**.
 
--   **Contract:** User can do X, sees Y, we log Z.
--   **Tasks:** 5-9 tasks, each 1-2 hours.
--   **Rule:** If a task is bigger, slice it until it is "sit-down sized."
+- **Contract:** User can do X, sees Y, we log Z.
+
+- **Tasks:** 5-9 tasks, each 1-2 hours.
+
+- **Rule:** If a task is bigger, slice it until it is "sit-down sized."
 
 ### C. The Restart Guardrails
 
@@ -92,9 +97,11 @@ If you *must* restart, you must pass these gates:
 
 ## 4. Environment & Dopamine Hacks
 
--   **Return Anchor:** A physical sticky note on the monitor: "Next Step: Run tests for payment flow."
--   **Cliffhangers:** Stop a session in the middle of an *easy* task. This makes starting the next day automatic.
--   **Streak Board:** Track "Touches" (15 mins), not just big wins.
+- **Return Anchor:** A physical sticky note on the monitor: "Next Step: Run tests for payment flow."
+
+- **Cliffhangers:** Stop a session in the middle of an *easy* task. This makes starting the next day automatic.
+
+- **Streak Board:** Track "Touches" (15 mins), not just big wins.
 
 ---
 

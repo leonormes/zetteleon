@@ -4,14 +4,14 @@ confidence:
 created: 2025-10-26T17:19:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:26Z
+modified: 2025-12-19T10:12:56Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [iptables, ipvs, kube-proxy, load-balancing, service, topic/technology/containers, topic/technology/kubernetes, type/fact]
-title: kube-proxy implements Services using iptables or IPVS
+title: Kube-Proxy Implements Services Using Iptables or IPVS
 type: Fact
 uid: 
 updated: 
@@ -71,4 +71,4 @@ kube-proxy runs on each Kubernetes node and implements Services by configuring i
 
 - [[MOC - Container Runtime & Orchestration]] - kube-proxy in orchestration context
 - What are iptables chains and tables? - Underlying networking mechanism
-- [[Kubernetes provides NodePort and LoadBalancer for external service access]] - Service types implemented
+- [[Kubernetes Provides NodePort and LoadBalancer for External Service Access]] - Service types implemented

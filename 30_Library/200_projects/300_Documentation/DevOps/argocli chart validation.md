@@ -157,4 +157,4 @@ argocd app manifests my-app --revisions 0.0.1 --source-positions 1 --revisions 0
 
 #### SEE ALSO[¶](#see-also "Permanent link")
 
--   [argocd app](https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd_app_manifests/../argocd_app/) \- Manage applications
+- [argocd app](https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd_app_manifests/../argocd_app/) - Manage applications

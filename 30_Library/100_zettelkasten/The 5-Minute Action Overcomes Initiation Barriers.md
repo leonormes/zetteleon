@@ -28,7 +28,7 @@ updated: 2025-11-12T15:00:08Z
 4.  When the timer sounds, give yourself genuine and explicit permission to stop.
 
 **Failure modes:**
--   Not giving yourself genuine permission to stop, which makes the technique feel like a trap.
--   Using a phone timer and getting sidetracked by notifications.
+- Not giving yourself genuine permission to stop, which makes the technique feel like a trap.
+- Using a phone timer and getting sidetracked by notifications.
 
 **Example (1 max):** To start writing a report, commit only to opening the document and writing for 5 minutes. Often, the momentum gained is enough to continue working beyond the initial 5-minute mark.

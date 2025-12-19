@@ -43,13 +43,13 @@ data:
 
 ### Consumption Models
 1.  **Volume Mount (Recommended):**
-    -   Secrets appear as files in `/etc/secrets/`.
-    -   **Updates:** Automatic (eventual consistency). Kubelet syncs changes.
-    -   **Security:** Data lives in `tmpfs` (RAM), never written to disk.
+    - Secrets appear as files in `/etc/secrets/`.
+    - **Updates:** Automatic (eventual consistency). Kubelet syncs changes.
+    - **Security:** Data lives in `tmpfs` (RAM), never written to disk.
 2.  **Environment Variable:**
-    -   Injected at startup: `valueFrom: secretKeyRef`.
-    -   **Updates:** **None.** Requires Pod restart.
-    -   **Risk:** Leaked in crash dumps and `ps` output.
+    - Injected at startup: `valueFrom: secretKeyRef`.
+    - **Updates:** **None.** Requires Pod restart.
+    - **Risk:** Leaked in crash dumps and `ps` output.
 
 ---
 

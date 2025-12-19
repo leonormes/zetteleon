@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-16T10:00:00Z
 epistemic: technical_documentation
 last_reviewed: 2025-12-16
-modified: 2025-12-16T11:56:58Z
+modified: 2025-12-19T10:12:37Z
 purpose: To serve as the Source of Truth for FITFILE's CI/CD infrastructure, detailing the build, validation, and deployment pipelines.
 review_interval: 
 see_also: []
@@ -52,9 +52,9 @@ graph LR
 ```
 
 **Key Jobs:**
--   `build_argo_cli`: Builds `fitfile/argocli:alpine` and pushes to Docker Hub.
--   `build_argo_vault_plugin`: Builds the AVP sidecar image and pushes to Azure Container Registry (ACR).
--   `lint_workflows`: Templates Helm charts and validates Argo Workflow YAML syntax.
+- `build_argo_cli`: Builds `fitfile/argocli:alpine` and pushes to Docker Hub.
+- `build_argo_vault_plugin`: Builds the AVP sidecar image and pushes to Azure Container Registry (ACR).
+- `lint_workflows`: Templates Helm charts and validates Argo Workflow YAML syntax.
 
 ### B. Staging Deployment Pipeline (`staging.gitlab-ci.yml`)
 *Trigger: Manual or Auto-deploy to Staging Environment.*
@@ -80,13 +80,13 @@ graph LR
 ```
 
 **Key Jobs:**
--   `sync_argo_app`:
-    1.  Decodes environment-specific values (`STAGING_VALUE_OVERRIDES`).
-    2.  Authenticates with **ArgoCD** (`testing-argocd.fitfile.net`).
-    3.  Triggers a hard sync of the `testing` application.
--   `run_integration_tests`:
-    1.  Submits the `all-integration-tests` Argo Workflow.
-    2.  Waits for completion and reports pass/fail status.
+- `sync_argo_app`:
+    1. Decodes environment-specific values (`STAGING_VALUE_OVERRIDES`).
+    2. Authenticates with **ArgoCD** (`testing-argocd.fitfile.net`).
+    3. Triggers a hard sync of the `testing` application.
+- `run_integration_tests`:
+    1. Submits the `all-integration-tests` Argo Workflow.
+    2. Waits for completion and reports pass/fail status.
 
 ---
 
@@ -138,5 +138,7 @@ Testing is not just a script; it is a **Workflow**.
 ---
 
 ## 6. Related Documentation
--   [[SoT - FITFILE Deployment Process]] - The high-level process map.
--   [[SoT - FITFILE Secret Management Architecture]] - How secrets are handled within these deployments.
+
+- [[SoT - FITFILE Deployment Process]] - The high-level process map.
+
+- [[SoT - FITFILE Secret Management Architecture]] - How secrets are handled within these deployments.

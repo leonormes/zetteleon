@@ -310,7 +310,7 @@ For example, We saw in this article that we can look at the ASCII table if we ru
 What about inserting the output of a shell command in your buffer?
 
 - `:read! <cmd>` or `:r! <cmd>` - Execute the command `<cmd>` and insert the output in the current buffer.
-- `:read!!` or `:r!!`\- Repeat the last command executed and insert the output in the current buffer.
+- `:read!!` or `:r!!`- Repeat the last command executed and insert the output in the current buffer.
 
 Now, everybody in the universe can feel your brain radiating with The Power.
 

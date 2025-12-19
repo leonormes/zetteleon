@@ -5,7 +5,7 @@ confidence: 5/5
 created: 2025-12-14T00:00:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-15T14:41:17Z
+modified: 2025-12-19T10:12:38Z
 purpose: A mathematical framework for quantifying team understanding, bias, and communication loss using set theory.
 review_interval: 
 see_also: []
@@ -22,18 +22,18 @@ updated:
 *Apply this model when a team feels "stuck" or "overconfident".*
 
 **1. The "Synthesis Gap" Audit (Test $C$)
--   **Trigger:** After a complex explanation.
--   **Action:** Ask a team member: "To check my own clarity ($C$), can you repeat back what you think the constraints are?"
--   **Math:** If their $K_{Individual}$ $\neq$ your $K_{Individual}$, then $C < 1$.
+- **Trigger:** After a complex explanation.
+- **Action:** Ask a team member: "To check my own clarity ($C$), can you repeat back what you think the constraints are?"
+- **Math:** If their $K_{Individual}$ $\neq$ your $K_{Individual}$, then $C < 1$.
 
 **2. The "Certainty Gap" Check (Test $P_{Team}$ vs $K_{Team}$)
--   **Trigger:** When the team says "We're 100% sure."
--   **Action:** "Let's assume we are wrong (Inversion). What is the one variable ($\\in U$) that we haven't discussed?"
--   **Math:** Exposing the **Knowledge Gap** ($U - K_{Union}$).
+- **Trigger:** When the team says "We're 100% sure."
+- **Action:** "Let's assume we are wrong (Inversion). What is the one variable ($\\in U$) that we haven't discussed?"
+- **Math:** Exposing the **Knowledge Gap** ($U - K_{Union}$).
 
 **3. The "Diversity" Scan (Test Overlap)
--   **Trigger:** Everyone agrees too quickly.
--   **Action:** "We have high overlap ($\\cap$). Who has a $K_{Set}$ that is completely disjoint from ours (e.g., Legal, Customer Support)?"
+- **Trigger:** Everyone agrees too quickly.
+- **Action:** "We have high overlap ($\\cap$). Who has a $K_{Set}$ that is completely disjoint from ours (e.g., Legal, Customer Support)?"
 
 ---
 
@@ -46,9 +46,12 @@ updated:
 ## 2. The Mathematical Model
 
 ### A. Core Variables (The State)
--   $U$ = **The Whole Picture** (Total complexity of the problem).
--   $K_A$ = **Knowledge of Person A** (Subset of $U$).
--   $P_A$ = **Perceived Knowledge** (What A *thinks* they know).
+
+- $U$ = **The Whole Picture** (Total complexity of the problem).
+
+- $K_A$ = **Knowledge of Person A** (Subset of $U$).
+
+- $P_A$ = **Perceived Knowledge** (What A *thinks* they know).
 
 ### B. The Three Gaps
 

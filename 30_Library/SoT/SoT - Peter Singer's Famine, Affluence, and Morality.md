@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-14T17:00:00Z
 epistemic: theory
 last_reviewed: 2025-12-14
-modified: 2025-12-14T17:52:46Z
+modified: 2025-12-19T10:12:35Z
 purpose: To provide a structural analysis of Peter Singer's 1972 paper "Famine, Affluence, and Morality," outlining its core argument and radical implications for moral obligation.
 review_interval: 6 months
 see_also: ["[[SoT - Moral Philosophy Overview]]", "[[SoT - Utilitarianism]]"]
@@ -30,10 +30,12 @@ version: 1
 Singer's argument challenges the conventional distinction between moral duties.
 
 ### 2.1 Obligatory Acts
--   Actions one *must* do, where failure results in moral culpability (e.g., paying debts, saving a life when easily able).
+
+- Actions one *must* do, where failure results in moral culpability (e.g., paying debts, saving a life when easily able).
 
 ### 2.2 Supererogatory Acts
--   Actions that are morally good or "extra," but not strictly required. Failure to perform these is not considered morally wrong (e.g., buying coffee for colleagues, conventional charity).
+
+- Actions that are morally good or "extra," but not strictly required. Failure to perform these is not considered morally wrong (e.g., buying coffee for colleagues, conventional charity).
 
 **Singer's Core Thesis:** Giving money to save lives from famine is an **obligatory** act, not a supererogatory one.
 
@@ -56,7 +58,7 @@ Singer's conclusion is derived from a four-premise argument:
 
 Singer supports the controversial Principle of Prevention (Premise 1) with a thought experiment designed to appeal to moral intuition:
 
--   **Analogy:** If you encounter a child drowning in a shallow pond and can easily save them (e.g., by getting your clothes muddy), you are morally obligated to do so. The moral cost of muddy clothes is insignificant compared to the moral weight of a preventable death.
+- **Analogy:** If you encounter a child drowning in a shallow pond and can easily save them (e.g., by getting your clothes muddy), you are morally obligated to do so. The moral cost of muddy clothes is insignificant compared to the moral weight of a preventable death.
 
 ---
 
@@ -65,12 +67,16 @@ Singer supports the controversial Principle of Prevention (Premise 1) with a tho
 Singer addresses common objections that attempt to differentiate the Shallow Pond analogy from global famine relief:
 
 ### 5.1 Proximity
--   **Objection:** The victim is far away, reducing moral obligation.
--   **Singer's Response:** Modern communication and efficient global relief organizations render geographical proximity morally irrelevant. Distance does not prevent knowledge or action.
+
+- **Objection:** The victim is far away, reducing moral obligation.
+
+- **Singer's Response:** Modern communication and efficient global relief organizations render geographical proximity morally irrelevant. Distance does not prevent knowledge or action.
 
 ### 5.2 Presence of Others
--   **Objection:** The presence of many others who could help diminishes individual obligation.
--   **Singer's Response:** Individual obligation persists regardless of whether others act. If a child drowns because multiple bystanders fail to act, all are morally culpable. The obligation remains on each individual if others fail to fulfill theirs.
+
+- **Objection:** The presence of many others who could help diminishes individual obligation.
+
+- **Singer's Response:** Individual obligation persists regardless of whether others act. If a child drowns because multiple bystanders fail to act, all are morally culpable. The obligation remains on each individual if others fail to fulfill theirs.
 
 ---
 
@@ -82,5 +88,6 @@ Singer's argument implies that most affluent individuals are living morally unac
 
 ## 7. Further Discussion
 
--   **Full discussion video:** [http://www.youtube.com/watch?v=KVl5kMXz1vA](http://www.youtube.com/watch?v=KVl5kMXz1vA)
--   **Effective Altruism:** Singer's work is a foundational text for the effective altruism movement, which advocates for using evidence and reason to determine the most effective ways to benefit others.
+- **Full discussion video:** [http://www.youtube.com/watch?v=KVl5kMXz1vA](http://www.youtube.com/watch?v=KVl5kMXz1vA)
+
+- **Effective Altruism:** Singer's work is a foundational text for the effective altruism movement, which advocates for using evidence and reason to determine the most effective ways to benefit others.

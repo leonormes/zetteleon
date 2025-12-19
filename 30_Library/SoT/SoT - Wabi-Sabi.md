@@ -27,8 +27,8 @@ updated:
 
 ## 2. Misconception vs. Reality
 
--   **Common Misconception:** Wabi-Sabi is often superficially understood in the West as rustic calmness, minimalism, or an appreciation for old, worn objects.
--   **The Reality:** True Wabi-Sabi is a deep mindset. It is about an inner philosophy that arises from facing life's fundamental truths, not just an aesthetic style.
+- **Common Misconception:** Wabi-Sabi is often superficially understood in the West as rustic calmness, minimalism, or an appreciation for old, worn objects.
+- **The Reality:** True Wabi-Sabi is a deep mindset. It is about an inner philosophy that arises from facing life's fundamental truths, not just an aesthetic style.
 
 ---
 
@@ -36,9 +36,9 @@ updated:
 
 "Wabi" is the internal, contemplative aspect of the philosophy.
 
--   **Origin:** The term derives from *wabishii*, which historically related to concepts of poverty, loneliness, misery, and lack.
--   **Core Idea: Confronting Difficult Emotions:** It is not about *enjoying* poverty, but actively **confronting and accepting the difficult emotions** that accompany such states—emptiness, shame, sadness, and isolation.
--   **Life and Death:** Wabi fundamentally involves a serious contemplation of life and death. Experiencing hardships brings us closer to the reality of our mortality. Wabi is the acceptance of this truth and the conscious choice to live with that awareness.
+- **Origin:** The term derives from *wabishii*, which historically related to concepts of poverty, loneliness, misery, and lack.
+- **Core Idea: Confronting Difficult Emotions:** It is not about *enjoying* poverty, but actively **confronting and accepting the difficult emotions** that accompany such states—emptiness, shame, sadness, and isolation.
+- **Life and Death:** Wabi fundamentally involves a serious contemplation of life and death. Experiencing hardships brings us closer to the reality of our mortality. Wabi is the acceptance of this truth and the conscious choice to live with that awareness.
 
 ---
 
@@ -46,8 +46,8 @@ updated:
 
 "Sabi" is the external, observable beauty and character that emerges from the internal practice of Wabi.
 
--   **Definition:** It translates to loneliness or rest, and refers to the unique character, charm, and beauty that objects (like a well-worn leather bag or an aged wooden beam) or people develop over time.
--   **Beyond Mere Aging:** Sabi is not simply "aging." While age can be a factor, true Sabi is the unique depth and allure that only appears when an object or person has been shaped by the inner awareness and acceptance of *Wabi*—the hardships, imperfections, and impermanence of existence. It is "inner growth" becoming visible on the outside.
+- **Definition:** It translates to loneliness or rest, and refers to the unique character, charm, and beauty that objects (like a well-worn leather bag or an aged wooden beam) or people develop over time.
+- **Beyond Mere Aging:** Sabi is not simply "aging." While age can be a factor, true Sabi is the unique depth and allure that only appears when an object or person has been shaped by the inner awareness and acceptance of *Wabi*—the hardships, imperfections, and impermanence of existence. It is "inner growth" becoming visible on the outside.
 
 ---
 
@@ -55,8 +55,8 @@ updated:
 
 Wabi and Sabi are two inseparable aspects of the same philosophy:
 
--   **Wabi:** The internal process of honestly facing oneself, one's mortality, and the inherent difficulties of life.
--   **Sabi:** The natural, outward manifestation of beauty, character, and spiritual strength that results from that deep internal living and acceptance.
+- **Wabi:** The internal process of honestly facing oneself, one's mortality, and the inherent difficulties of life.
+- **Sabi:** The natural, outward manifestation of beauty, character, and spiritual strength that results from that deep internal living and acceptance.
 
 ---
 
@@ -64,6 +64,6 @@ Wabi and Sabi are two inseparable aspects of the same philosophy:
 
 Wabi-Sabi is not confined to traditional Japanese settings or a minimalist lifestyle; it is a mindset applicable to contemporary life.
 
--   **Finding Wabi in Modern Life:** Feelings of loneliness in a bustling crowd, anxiety about time slipping away, or the discomfort of uncertainty are modern manifestations of *Wabi*.
--   **The Response:** Instead of attempting to escape these difficult feelings through distraction (work, money, superficial relationships), the philosophy encourages facing them directly. This acceptance fosters deep spiritual strength.
--   **Connection to Bushido:** This resilient acceptance and spiritual strength are akin to the principles found in **Bushido** (The Way of the Samurai), emphasizing inner fortitude.
+- **Finding Wabi in Modern Life:** Feelings of loneliness in a bustling crowd, anxiety about time slipping away, or the discomfort of uncertainty are modern manifestations of *Wabi*.
+- **The Response:** Instead of attempting to escape these difficult feelings through distraction (work, money, superficial relationships), the philosophy encourages facing them directly. This acceptance fosters deep spiritual strength.
+- **Connection to Bushido:** This resilient acceptance and spiritual strength are akin to the principles found in **Bushido** (The Way of the Samurai), emphasizing inner fortitude.

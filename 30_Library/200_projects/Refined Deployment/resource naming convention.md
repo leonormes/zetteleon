@@ -4,14 +4,14 @@ confidence:
 created: 2025-07-09T09:29:11Z
 epistemic: 
 last_reviewed: 
-modified: 2025-10-30T14:24:14Z
+modified: 2025-12-17T16:15:11Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [config, documentation]
-title: resource naming convention
+title: Resource Naming Convention
 type:
 uid: 
 updated: 

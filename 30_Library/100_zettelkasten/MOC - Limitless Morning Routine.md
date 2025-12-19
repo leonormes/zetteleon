@@ -28,9 +28,9 @@ The routine is a sequence of dominos, each one triggering the next:
 3.  **Cold Shower:** A 30-second cold shower, because [[Cold Showers Improve Immunity and Mood]].
 4.  **Deep Work:** [[Perform Deep Work in a Supercharged Brain State]] for 5 minutes on your most important task.
 5.  **The Optimized Reset:** This final domino has three parts:
-    -   **Body:** A [[Low-Carb Raw Breakfast Supports Mental Clarity]].
-    -   **Mind:** [[Sunlight and Nature Exposure Improves Executive Function]].
-    -   **Spirit:** [[Gratitude Journaling Activates the Medial Prefrontal Cortex]].
+    - **Body:** A [[Low-Carb Raw Breakfast Supports Mental Clarity]].
+    - **Mind:** [[Sunlight and Nature Exposure Improves Executive Function]].
+    - **Spirit:** [[Gratitude Journaling Activates the Medial Prefrontal Cortex]].
 
 ## Science and Practical Notes
 

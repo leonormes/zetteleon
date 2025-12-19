@@ -327,7 +327,7 @@ Let's expand on the previous table to show this relationship. The last column sh
 
 | Digits | Number of Primes in Range | Increase from Previous Range | Growth Factor (Approx.) |
 | ------ | ------------------------- | ---------------------------- | ----------------------- |
-| **1**  | 4                         | \-                           | \-                      |
+| **1**  | 4                         | \-                         | \-                    |
 | **2**  | 21                        | 17                           | 5.3x                    |
 | **3**  | 143                       | 122                          | 6.8x                    |
 | **4**  | 1,061                     | 918                          | 7.4x                    |
@@ -1224,7 +1224,7 @@ Here is a table showing key points in the sequence:
 | `5^3`      | `125 % 77`                  | **48** |
 | ...        | (many different results)    | ...    |
 | `5^30`     | `... % 77`                  | **1**  |
-| \---       | **THE CYCLE RESTARTS HERE** | \---   |
+| \---     | **THE CYCLE RESTARTS HERE** | \--- |
 | `5^31`     | `(5^30 * 5) % 77`           | **5**  |
 | `5^32`     | `(5^31 * 5) % 77`           | **25** |
 | `5^33`     | `(5^32 * 5) % 77`           | **48** |

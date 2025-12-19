@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-06-18T17:28:14Z
 epistemic: psychology
 last_reviewed: 2025-12-16
-modified: 2025-12-16T11:57:34Z
+modified: 2025-12-19T10:13:17Z
 purpose: To define the Negativity Bias as a fundamental evolutionary mechanism and explore its specific amplification within the ADHD mind.
 related-soTs: ["[[SoT - ADHD Self-Compassion & Strengths]]", "[[SoT - Mindfulness and Emotional Regulation]]", "[[SoT - Social Cognition & Self-Perception]]"]
 review_interval: 
@@ -34,8 +34,10 @@ Neuropsychologist Rick Hanson famously stated:
 > "The brain is like Velcro for negative experiences but Teflon for positive ones."
 
 ### Why it Evolved
--   **Survival Priority:** In the ancestral environment, a "false positive" (thinking a stick is a snake) costs a calorie. A "false negative" (thinking a snake is a stick) costs your life.
--   **Social Cohesion:** Since [[Humans Are Social Creatures]], social rejection was a death sentence. Thus, we are hyper-tuned to detect disapproval ([[Why External Validation is So Powerful]]).
+
+- **Survival Priority:** In the ancestral environment, a "false positive" (thinking a stick is a snake) costs a calorie. A "false negative" (thinking a snake is a stick) costs your life.
+
+- **Social Cohesion:** Since [[Humans Are Social Creatures]], social rejection was a death sentence. Thus, we are hyper-tuned to detect disapproval ([[Why External Validation is So Powerful]]).
 
 ---
 
@@ -47,19 +49,19 @@ For the ADHD brain, the Negativity Bias is not just a background hum; it is a si
 
 [[Rejection Sensitive Dysphoria (RSD)]] acts as an amplifier. A minor critique that a neurotypical brain might rate as a "3/10" annoyance is processed by the ADHD brain as a "9/10" catastrophic rejection.
 
--   *Link:* [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]]
+- *Link:* [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]]
 
 ### B. The Engine: The DMN "Demon"
 
 When the ADHD brain is under-stimulated, it defaults to the **Default Mode Network (DMN)**. Because of the Negativity Bias, the DMN naturally drifts toward rumination and "Simulating Disaster."
 
--   *Result:* We create [[The Shame-Procrastination Cycle]]—avoiding work to avoid the negative feelings we have simulated.
+- *Result:* We create [[The Shame-Procrastination Cycle]]—avoiding work to avoid the negative feelings we have simulated.
 
 ### C. Emotional Reasoning
 
 The intensity of the feeling convinces the brain that the danger is real.
 
--   *Link:* [[ADHD Emotional Reasoning]] - "I feel bad, therefore the situation is bad."
+- *Link:* [[ADHD Emotional Reasoning]] - "I feel bad, therefore the situation is bad."
 
 ---
 
@@ -83,7 +85,11 @@ Since the brain does not automatically "save" positive moments, we must manually
 ---
 
 ## 6. Related Zettels
--   [[Negativity Bias]] - The core concept.
--   [[Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain]] - The economic parallel.
--   [[Misinterpretation as Character Flaws]] - The result of unchecked negativity bias.
--   [[Why Others' Opinions Can Feel Undeservedly Powerful]] - The social consequence.
+
+- [[Negativity Bias]] - The core concept.
+
+- [[Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain]] - The economic parallel.
+
+- [[Misinterpretation as Character Flaws]] - The result of unchecked negativity bias.
+
+- [[Why Others' Opinions Can Feel Undeservedly Powerful]] - The social consequence.

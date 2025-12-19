@@ -107,16 +107,16 @@ Once stability is achieved, the goal shifts from **Accumulation** (playing "Mono
 ### A. The Five Categories of Investment
 
 1.  **The "Friction Removal" Dividend:** Use money to buy back patience and presence.
-    -   *Action:* Outsource tasks that drain you (e.g., deep cleaning, meal prep) to preserve energy for family time.
-    -   *Mindset:* You are not "spending" money; you are buying family harmony.
+    - *Action:* Outsource tasks that drain you (e.g., deep cleaning, meal prep) to preserve energy for family time.
+    - *Mindset:* You are not "spending" money; you are buying family harmony.
 2.  **The "Shared Struggle" Dividend:** Families bond when they are beginners together.
-    -   *Action:* Projects where no one is the expert (e.g., learning to surf, building a complex Lego set).
+    - *Action:* Projects where no one is the expert (e.g., learning to surf, building a complex Lego set).
 3.  **The "Anticipation" Dividend:** Psychology shows we derive as much joy from looking forward to an event as doing it.
-    -   *Action:* Book significant events months in advance to create a shared "North Star" for the family.
+    - *Action:* Book significant events months in advance to create a shared "North Star" for the family.
 4.  **The "Autonomy" Dividend:** Practicing the freedom resources provide.
-    -   *Action:* The "Yes Day" (with a budget). Give family members a budget and full control over the itinerary.
+    - *Action:* The "Yes Day" (with a budget). Give family members a budget and full control over the itinerary.
 5.  **The "Nostalgia" Capture:** Professional documentation of the "Good Times."
-    -   *Action:* Candid, documentary-style photography of normal life, not just posed studio shots.
+    - *Action:* Candid, documentary-style photography of normal life, not just posed studio shots.
 
 ### B. The Narrative Flip
 

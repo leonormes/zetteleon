@@ -47,16 +47,16 @@ updated:
 ### II. The Transitions (Dynamic Movement)
 
 **A. Underswitch (The Connector)**
--   **Concept:** Rotating *under* yourself to switch between Beast and Crab.
--   **Cue:** "Lift opposite hand and foot. Push the gas pedal. Travel under the window."
+- **Concept:** Rotating *under* yourself to switch between Beast and Crab.
+- **Cue:** "Lift opposite hand and foot. Push the gas pedal. Travel under the window."
 
 **B. Side Kickthrough (The Rotator)**
--   **Concept:** Lateral kick from Beast.
--   **Cue:** "Drop the heel flat. Kick the leg straight. Pull the elbow back (Archer)."
+- **Concept:** Lateral kick from Beast.
+- **Cue:** "Drop the heel flat. Kick the leg straight. Pull the elbow back (Archer)."
 
 **C. Scorpion Reach (The Extender)**
--   **Concept:** A circular reach from Loaded Beast.
--   **Cue:** "Drive knee to opposite wrist. Circle leg up and over. Drop head between arms."
+- **Concept:** A circular reach from Loaded Beast.
+- **Cue:** "Drive knee to opposite wrist. Circle leg up and over. Drop head between arms."
 
 ---
 
@@ -77,9 +77,9 @@ updated:
 
 ### Video 2: Maintenance Protocol
 *Source: [YouTube Link](https://youtu.be/pJHCgMrAg38)*
--   **Intent:** Reconnection, not fatigue.
--   **Frequency:** 2x per week.
--   **Drills:** Beast Hold, Kick Through, Deep Squat Flow, Bear/Lizard Crawl, 90/90 Hip Switch.
+- **Intent:** Reconnection, not fatigue.
+- **Frequency:** 2x per week.
+- **Drills:** Beast Hold, Kick Through, Deep Squat Flow, Bear/Lizard Crawl, 90/90 Hip Switch.
 
 ### Video 3: The 5 Foundational Crawls
 *Source: [YouTube Link](https://youtu.be/jKVk9lK9kCk)*

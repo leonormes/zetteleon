@@ -269,7 +269,7 @@ jq: parse error: Unfinished string at EOF at line 2, column 0
 
 jq: parse error: Unfinished string at EOF at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -277,7 +277,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid literal at line 1, column 7
 
@@ -285,7 +285,7 @@ jq: parse error: Invalid literal at line 1, column 7
 
 jq: parse error: Invalid literal at line 1, column 7
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -293,7 +293,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -301,7 +301,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -309,7 +309,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -317,7 +317,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -325,7 +325,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid literal at line 1, column 7
 
@@ -333,7 +333,7 @@ jq: parse error: Invalid literal at line 1, column 7
 
 jq: parse error: Invalid literal at line 1, column 7
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Unfinished string at EOF at line 2, column 0
 
@@ -341,7 +341,7 @@ jq: parse error: Unfinished string at EOF at line 2, column 0
 
 jq: parse error: Unfinished string at EOF at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -349,7 +349,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid literal at line 1, column 7
 
@@ -357,7 +357,7 @@ jq: parse error: Invalid literal at line 1, column 7
 
 jq: parse error: Invalid literal at line 1, column 7
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -365,7 +365,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -373,7 +373,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -381,7 +381,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -389,7 +389,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -397,7 +397,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid literal at line 1, column 7
 
@@ -405,7 +405,7 @@ jq: parse error: Invalid literal at line 1, column 7
 
 jq: parse error: Invalid literal at line 1, column 7
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Unfinished string at EOF at line 2, column 0
 
@@ -413,7 +413,7 @@ jq: parse error: Unfinished string at EOF at line 2, column 0
 
 jq: parse error: Unfinished string at EOF at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -421,7 +421,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -429,7 +429,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -437,7 +437,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -445,7 +445,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -453,7 +453,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid literal at line 1, column 7
 
@@ -461,7 +461,7 @@ jq: parse error: Invalid literal at line 1, column 7
 
 jq: parse error: Invalid literal at line 1, column 7
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 ► Listener \[TCP:80\]
 
@@ -479,7 +479,7 @@ jq: parse error: Unfinished string at EOF at line 2, column 0
 
 jq: parse error: Unfinished string at EOF at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -487,7 +487,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid literal at line 1, column 7
 
@@ -495,7 +495,7 @@ jq: parse error: Invalid literal at line 1, column 7
 
 jq: parse error: Invalid literal at line 1, column 7
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -503,7 +503,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -511,7 +511,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -519,7 +519,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -527,7 +527,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -535,7 +535,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid literal at line 1, column 7
 
@@ -543,7 +543,7 @@ jq: parse error: Invalid literal at line 1, column 7
 
 jq: parse error: Invalid literal at line 1, column 7
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Unfinished string at EOF at line 2, column 0
 
@@ -551,7 +551,7 @@ jq: parse error: Unfinished string at EOF at line 2, column 0
 
 jq: parse error: Unfinished string at EOF at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -559,7 +559,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -567,7 +567,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -575,7 +575,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -583,7 +583,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -591,7 +591,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid literal at line 1, column 7
 
@@ -599,7 +599,7 @@ jq: parse error: Invalid literal at line 1, column 7
 
 jq: parse error: Invalid literal at line 1, column 7
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Unfinished string at EOF at line 2, column 0
 
@@ -607,7 +607,7 @@ jq: parse error: Unfinished string at EOF at line 2, column 0
 
 jq: parse error: Unfinished string at EOF at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -615,7 +615,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid literal at line 1, column 7
 
@@ -623,7 +623,7 @@ jq: parse error: Invalid literal at line 1, column 7
 
 jq: parse error: Invalid literal at line 1, column 7
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -631,7 +631,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -639,7 +639,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -647,7 +647,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -655,7 +655,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
@@ -663,7 +663,7 @@ jq: parse error: Invalid numeric literal at line 2, column 0
 
 jq: parse error: Invalid numeric literal at line 2, column 0
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 jq: parse error: Invalid literal at line 1, column 7
 
@@ -671,7 +671,7 @@ jq: parse error: Invalid literal at line 1, column 7
 
 jq: parse error: Invalid literal at line 1, column 7
 
-\- IP Target (Pod): on Port: -> Status:
+- IP Target (Pod): on Port: -> Status:
 
 Of course. Those `jq` errors indicate that the script isn't handling the JSON output from the AWS CLI correctly when looping through the targets. This is a common issue with shell scripting and word-splitting.
 
@@ -733,11 +733,11 @@ Health Check: HTTP on port 31835
 
 Registered Targets (Final Destination):
 
-\- EC2 Instance: i-050faf3ec8e4fb22e (IP: 10.65.4.141) on Port: 32623 -> Status: unhealthy
+- EC2 Instance: i-050faf3ec8e4fb22e (IP: 10.65.4.141) on Port: 32623 -> Status: unhealthy
 
-\- EC2 Instance: i-08526777637aa2695 (IP: 10.65.5.240) on Port: 32623 -> Status: unhealthy
+- EC2 Instance: i-08526777637aa2695 (IP: 10.65.5.240) on Port: 32623 -> Status: unhealthy
 
-\- EC2 Instance: i-0e32193c309a0eb8b (IP: 10.65.6.207) on Port: 32623 -> Status: healthy
+- EC2 Instance: i-0e32193c309a0eb8b (IP: 10.65.6.207) on Port: 32623 -> Status: healthy
 
 ► Listener \[TCP:80\]
 
@@ -749,11 +749,11 @@ Health Check: HTTP on port 31835
 
 Registered Targets (Final Destination):
 
-\- EC2 Instance: i-050faf3ec8e4fb22e (IP: 10.65.4.141) on Port: 31139 -> Status: unhealthy
+- EC2 Instance: i-050faf3ec8e4fb22e (IP: 10.65.4.141) on Port: 31139 -> Status: unhealthy
 
-\- EC2 Instance: i-0e32193c309a0eb8b (IP: 10.65.6.207) on Port: 31139 -> Status: healthy
+- EC2 Instance: i-0e32193c309a0eb8b (IP: 10.65.6.207) on Port: 31139 -> Status: healthy
 
-\- EC2 Instance: i-08526777637aa2695 (IP: 10.65.5.240) on Port: 31139 -> Status: unhealthy
+- EC2 Instance: i-08526777637aa2695 (IP: 10.65.5.240) on Port: 31139 -> Status: unhealthy
 
 Excellent, the script has worked correctly and given us a much clearer picture of the situation.
 

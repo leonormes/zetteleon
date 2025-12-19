@@ -137,13 +137,13 @@ graph TD
 
 ### Existing Notes
 
-- [[30_Library/200_projects/Containerisation/Containers within a pod share network namespace and IP address]] - Pod-level communication fundamentals
+- [[30_Library/200_projects/Containerisation/Containers Within a Pod Share Network Namespace and IP Address]] - Pod-level communication fundamentals
 - [[Pods communicate across cluster using CNI-provided networking]] - CNI overview and network models
-- [[Kubernetes provides NodePort and LoadBalancer for external service access]] - External service access patterns
+- [[Kubernetes Provides NodePort and LoadBalancer for External Service Access]] - External service access patterns
 - [[Network policies control traffic flow between pods using labels and namespaces]] - Security and traffic control
-- [[kube-proxy implements Services using iptables or IPVS]] - Service implementation details
+- [[Kube-Proxy Implements Services Using Iptables or IPVS]] - Service implementation details
 - [[CNI plugins provide different network models and features]] - Plugin comparison and selection
-- [[Container runtime configures pod networking through CNI plugins]] - Runtime networking responsibilities
+- [[Container Runtime Configures Pod Networking Through CNI Plugins]] - Runtime networking responsibilities
 - [[etcd stores cluster network state and service configuration]] - Cluster state management
 - [[Service mesh provides advanced traffic management and security for service communication]] - Advanced service communication
 - [[Kubernetes networking components coordinate through a defined workflow]] - Component coordination

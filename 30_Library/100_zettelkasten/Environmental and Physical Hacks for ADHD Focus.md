@@ -38,7 +38,6 @@ For the ADHD brain, focus is heavily influenced by the external environment. Ins
 
 ### Connections
 
-- This is a core component of [[Environmental Design for ADHD Focus]].
 - It is a practical strategy for managing the challenges of [[Executive Function Challenges are Central to ADHD]].
 
 *Source: Synthesized from notes on ADHD productivity hacks.*

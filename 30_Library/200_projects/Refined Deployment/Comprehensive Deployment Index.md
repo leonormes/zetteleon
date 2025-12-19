@@ -92,7 +92,7 @@ This index provides organized access to all deployment-related documentation, co
 
 ### Naming & Conventions
 
-- **[[resource naming convention]]** - Resource naming standards and guidelines
+- **[[Resource Naming Convention]]** - Resource naming standards and guidelines
 
 ### Prerequisites & Setup
 

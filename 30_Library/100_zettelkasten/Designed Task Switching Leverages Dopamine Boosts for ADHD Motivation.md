@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-30T12:00:02Z
 epistemic: experimental
 last_reviewed: 2025-12-16
-modified: 2025-12-16T11:57:38Z
+modified: 2025-12-19T10:13:21Z
 purpose: To test if "Productive Procrastination" (intentional switching) maintains dopamine levels better than forced mono-tasking.
 review_interval: 2 weeks
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -28,24 +28,29 @@ updated:
 
 ## 2. Experiment Protocol
 
--   **Duration:** 1 Work Day.
--   **Setup:** Open two distinct projects (e.g., "Coding Feature A" and "Writing Documentation B").
--   **The Timer:** Set a timer for 25 minutes.
--   **The Switch:** When the timer rings, I *must* switch to the other project, regardless of where I am.
--   **Logic:** Use the frustration of "interrupted closure" to fuel the desire to return to it later (Zeigarnik Effect).
+- **Duration:** 1 Work Day.
+
+- **Setup:** Open two distinct projects (e.g., "Coding Feature A" and "Writing Documentation B").
+
+- **The Timer:** Set a timer for 25 minutes.
+
+- **The Switch:** When the timer rings, I *must* switch to the other project, regardless of where I am.
+
+- **Logic:** Use the frustration of "interrupted closure" to fuel the desire to return to it later (Zeigarnik Effect).
 
 ---
 
 ## 3. Expected Outcome
 
--   **Success:** I work for 4+ hours without the "Zombie Mode" crash.
--   **Failure:** I lose context and spend too much time remembering where I was (Context Switching Tax is too high).
+- **Success:** I work for 4+ hours without the "Zombie Mode" crash.
+
+- **Failure:** I lose context and spend too much time remembering where I was (Context Switching Tax is too high).
 
 ---
 
 ## 4. Results Log
 
--   *(Log results here)*
+- *(Log results here)*
 
 ---
 

@@ -110,16 +110,16 @@ Here is how to salvage the machinery for "Cognitive Debugging":
 
 **A. Abandon the "Manuscript" Assembly Line**
 Stop treating notes as building blocks for a future article. Ahrens describes the slip-box as a "competent" partner that forces you to clarify thoughts [5]. Keep this interaction but change the *success criteria*.
--   **Old Goal:** Does this note help me write a paper?
--   **New Goal:** Does this note resolve a specific contradiction in my current thinking?
+- **Old Goal:** Does this note help me write a paper?
+- **New Goal:** Does this note resolve a specific contradiction in my current thinking?
 
 **B. Retain "Elaboration" as a Debugging Tool**
 The act of translation is what you loved—it forces understanding. Ahrens argues that "Elaboration means nothing more than connecting information to other information in a meaningful way" [6].
--   **Action:** When you encounter a confusing concept or a mental blocker, write a **HEAD Note**. Do not write it for an audience. Write it to explain the concept to *yourself* to ensure you aren't fooling yourself. Once the logic holds (the bug is fixed), the note is "Done." You do not need to maintain it for a future book.
+- **Action:** When you encounter a confusing concept or a mental blocker, write a **HEAD Note**. Do not write it for an audience. Write it to explain the concept to *yourself* to ensure you aren't fooling yourself. Once the logic holds (the bug is fixed), the note is "Done." You do not need to maintain it for a future book.
 
 **C. Focus on Latticework, Not Archives**
 Ahrens quotes Charlie Munger regarding the "latticework of mental models" [7]. This is the high-value salvage.
--   **Action:** Use your new system to build a library of **Mental Models** (frameworks for decision making) rather than a library of **Knowledge** (facts to be cited). If a note helps you make better decisions *now*, it is valuable. If it is just interesting data for a hypothetical future, delete it.
+- **Action:** Use your new system to build a library of **Mental Models** (frameworks for decision making) rather than a library of **Knowledge** (facts to be cited). If a note helps you make better decisions *now*, it is valuable. If it is just interesting data for a hypothetical future, delete it.
 
 **Summary:**
 You were trying to treat a localized injury (Executive Dysfunction) with a holistic lifestyle regimen (Zettelkasten). The regimen was healthy, but it ignored the injury. Your move to PRODOS should focus strictly on **externalizing working memory** to bypass the bottleneck of your executive function, using writing only to "debug" complex thoughts, not to archive them for posterity.

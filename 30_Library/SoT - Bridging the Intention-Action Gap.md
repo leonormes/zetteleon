@@ -6,7 +6,7 @@ created: 2025-11-13T16:26:14Z
 decay-signals: []
 epistemic:
 last_reviewed: 2025-12-15
-modified: 2025-12-15T14:41:14Z
+modified: 2025-12-19T10:12:34Z
 purpose: Defines the core mechanism for overcoming ADHD executive dysfunction and initiating tasks within ProdOS.
 quality-markers: [Defines the Logic-Dopamine mismatch., establishing the PINCH model., Integrates the Vague-to-Action checklist.]
 related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS (System Architecture)]]"]
@@ -51,19 +51,23 @@ To bridge the gap, we must operate on two layers: lowering the barrier to entry 
 
 ### A. The Mechanics of Motivation
 1.  **Activation Energy:** The energy required to *start* a reaction. For ADHD, this is disproportionately high.
-    -   *Rule:* If you can't start, the step is too big. Halve it. Then halve it again.
+    - *Rule:* If you can't start, the step is too big. Halve it. Then halve it again.
 2.  **Motion Creates Motivation:** Dopamine is often a *result* of action, not the cause.
-    -   *Loop:* Tiny Action -> Success Signal -> Dopamine Release -> Sustained Motivation.
+    - *Loop:* Tiny Action -> Success Signal -> Dopamine Release -> Sustained Motivation.
 
 ### B. The PINCH Model (Fuel Sources)
 
 When a task lacks intrinsic motivation, you must "gamify" it using one of these five drivers:
 
--   **P**lay / Passion: Can I make this fun?
--   **I**nterest: Can I learn something new?
--   **N**ovelty: Can I do this in a weird way?
--   **C**hallenge / Competition: Can I beat my high score?
--   **H**urry: Can I beat the clock?
+- **P**lay / Passion: Can I make this fun?
+
+- **I**nterest: Can I learn something new?
+
+- **N**ovelty: Can I do this in a weird way?
+
+- **C**hallenge / Competition: Can I beat my high score?
+
+- **H**urry: Can I beat the clock?
 
 ---
 
@@ -100,9 +104,11 @@ When you are stuck in "Logic Mode" (staring at a screen, knowing you *should* wo
 
 A **Starter Task** is a micro-action designed purely to break static friction. It is **not** the work itself; it is the act of entering the workspace.
 
--   **The Rule:** It must be so small that it is impossible to fail or overthink.
--   **Examples:** "Open the document," "Put on running shoes," "Write the title."
--   **Mechanism:** Completing this binary action releases a small hit of dopamine and shifts the brain's question from *"Should I start?"* to *"What next?"* (See: [[Starter Tasks Bypass Overthinking and Reduce Perfectionism]]).
+- **The Rule:** It must be so small that it is impossible to fail or overthink.
+
+- **Examples:** "Open the document," "Put on running shoes," "Write the title."
+
+- **Mechanism:** Completing this binary action releases a small hit of dopamine and shifts the brain's question from *"Should I start?"* to *"What next?"* (See: [[Starter Tasks Bypass Overthinking and Reduce Perfectionism]]).
 
 ---
 
@@ -118,7 +124,7 @@ A **Starter Task** is a micro-action designed purely to break static friction. I
 ## 6. Open Questions & Tensions
 
 - **Tension:** **Novelty Decay.** ADHD brains adapt quickly. A strategy that works today (e.g., Time Trials) may stop working next week.
-    -   *Mitigation:* Rotate through the PINCH drivers. Don't rely on just one.
+    - *Mitigation:* Rotate through the PINCH drivers. Don't rely on just one.
 - **Confidence Gap:** How to reliably generate intrinsic interest in deeply administrative tasks (taxes, compliance) remains a challenge. The **Spite** driver is often the most effective last resort here.
 
 ## 7. Related Components

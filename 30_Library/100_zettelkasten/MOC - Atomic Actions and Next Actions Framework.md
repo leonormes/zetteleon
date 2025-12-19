@@ -6,7 +6,7 @@ criteria: Atomic notes relating to the definition, properties, structure, and ex
 epistemic:
 exclusions: Broad productivity philosophy; specific tool implementations beyond examples.
 last_reviewed:
-modified: 2025-12-15T14:42:09Z
+modified: 2025-12-19T10:13:20Z
 purpose:
 review_interval:
 scope: Comprehensive framework for defining, organizing, and executing atomic actions as the fundamental unit of productivity, with a focus on ADHD-friendly systems.
@@ -81,9 +81,11 @@ The atomic action is the foundation of [[GTD Workflow Separates Motion and Actio
 
 Every aspect of the atomic action framework has particular value for ADHD:
 
--   **Executive Function Support:** [[The Atomic Action Framework Supports Executive Function|It externalizes planning and reduces working memory load]]. Related to [[Executive Function Challenges are Central to ADHD]] rel:: addresses.
--   **Task Initiation:** [[The Framework Solves Task Initiation Difficulties|It solves task initiation difficulties]] by providing clear next actions and starter tasks. Connected to [[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]] rel:: solves.
--   **System Trust:** [[The Framework Builds System Trust|It builds confidence through consistent actionability and reliable next steps]].
+- **Executive Function Support:** [[The Atomic Action Framework Supports Executive Function|It externalizes planning and reduces working memory load]]. Related to [[Executive Function Challenges are Central to ADHD]] rel:: addresses.
+
+- **Task Initiation:** [[The Framework Solves Task Initiation Difficulties|It solves task initiation difficulties]] by providing clear next actions and starter tasks. Connected to [[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]] rel:: solves.
+
+- **System Trust:** [[The Framework Builds System Trust|It builds confidence through consistent actionability and reliable next steps]].
 
 ### Practical Implementation
 
@@ -91,10 +93,13 @@ In task managers, [[Projects in Task Managers Should Be Structured with Atomic A
 
 ### Key Insights
 
--   **The Unit of Productivity:** The atomic action is the fundamental building block.
--   **Activation Energy Is The Bottleneck:** [[Activation Energy is the Bottleneck for Productivity|Activation energy is the primary bottleneck]], especially for ADHD.
--   **Structure Enables Freedom:** [[The Rigid Structure of Atomic Actions Paradoxically Creates Freedom|The rigid structure of atomic actions paradoxically creates freedom]].
--   **From Ground Up:** [[Effective Productivity Comes From the Bottom Up|Effective productivity comes from the bottom up]], starting with current activity and commitments.
+- **The Unit of Productivity:** The atomic action is the fundamental building block.
+
+- **Activation Energy Is The Bottleneck:** [[Activation Energy is the Bottleneck for Productivity|Activation energy is the primary bottleneck]], especially for ADHD.
+
+- **Structure Enables Freedom:** [[The Rigid Structure of Atomic Actions Paradoxically Creates Freedom|The rigid structure of atomic actions paradoxically creates freedom]].
+
+- **From Ground Up:** [[Effective Productivity Comes From the Bottom Up|Effective productivity comes from the bottom up]], starting with current activity and commitments.
 
 ### Related Concepts
 

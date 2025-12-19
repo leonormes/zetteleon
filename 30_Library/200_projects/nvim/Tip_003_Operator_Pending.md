@@ -88,7 +88,7 @@ My super line {}
 ### Related Tips
 
 - See [Tip 004](Tip_004_Execute_Command.md) for using `:execute` with `:normal`
-- See [Tip 002](Tip_002_Mapping_Special_Arguments.md) for mapping arguments
+- See [Tip 002](Tip%20002%20Mapping%20Special%20Arguments.md) for mapping arguments
 
 ---
 

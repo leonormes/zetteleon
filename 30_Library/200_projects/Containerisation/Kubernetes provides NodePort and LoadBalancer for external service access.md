@@ -4,14 +4,14 @@ confidence:
 created: 2025-10-26T17:19:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:27Z
+modified: 2025-12-19T10:12:56Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [external-access, loadbalancer, nodeport, service, topic/technology/containers, topic/technology/kubernetes, type/fact]
-title: Kubernetes provides NodePort and LoadBalancer for external service access
+title: Kubernetes Provides NodePort and LoadBalancer for External Service Access
 type: Fact
 uid: 
 updated: 
@@ -59,5 +59,5 @@ Kubernetes enables external access to cluster services through NodePort and Load
 ## Related
 
 - [[MOC - Container Runtime & Orchestration]] - Service implementation details
-- [[kube-proxy implements Services using iptables or IPVS]] - How service routing works
+- [[Kube-Proxy Implements Services Using Iptables or IPVS]] - How service routing works
 - [[Pods communicate across cluster using CNI-provided networking]] - Internal cluster communication

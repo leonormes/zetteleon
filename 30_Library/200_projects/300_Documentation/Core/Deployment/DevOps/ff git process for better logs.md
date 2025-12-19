@@ -88,7 +88,7 @@ And create a ~/.gitmessage file with:
 # |<----  Using a Maximum Of 50 Characters  ---->|
 
 # Explain why this change is being made
-# |<----   Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
+# |<---- Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
 
 # Provide links or keys to any relevant tickets, articles or other resources
 # Example:

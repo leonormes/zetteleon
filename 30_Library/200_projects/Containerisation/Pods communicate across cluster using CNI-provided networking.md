@@ -63,4 +63,4 @@ Pods in a Kubernetes cluster communicate across nodes using the Container Networ
 
 - [[What is the Container Network Interface (CNI)?]] - CNI specification details
 - [[MOC - Container Runtime & Orchestration]] - How CNI fits into orchestration
-- [[30_Library/200_projects/Containerisation/Containers within a pod share network namespace and IP address]] - Pod-level communication
+- [[30_Library/200_projects/Containerisation/Containers Within a Pod Share Network Namespace and IP Address]] - Pod-level communication

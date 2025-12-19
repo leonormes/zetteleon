@@ -4,14 +4,14 @@ confidence:
 created: 2025-02-07T12:57:54Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:47Z
+modified: 2025-12-19T10:12:55Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [containers]
-title: runc container practice
+title: Runc Container Practice
 type: curriculum
 uid: 
 updated: 

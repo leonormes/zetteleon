@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-15T00:00:00Z
 epistemic: Derived from visual models and structural logic of proven organizational frameworks.
 last_reviewed: 2025-12-15
-modified: 2025-12-15T19:53:28Z
+modified: 2025-12-19T10:12:37Z
 purpose: To define a canonical framework for designing physical environments to support ADHD neurophysiology, reducing cognitive load and decision paralysis.
 related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Extended Mind]]"]
 review_interval: 6 months
@@ -29,9 +29,11 @@ updated:
 
 The ADHD brain struggles with:
 
--   **Decision Paralysis:** Too many choices, leading to no action.
--   **Working Memory Limitations:** Inability to hold multiple steps or rules in mind.
--   **Stimulus Overload:** Clutter creates visual and cognitive noise.
+- **Decision Paralysis:** Too many choices, leading to no action.
+
+- **Working Memory Limitations:** Inability to hold multiple steps or rules in mind.
+
+- **Stimulus Overload:** Clutter creates visual and cognitive noise.
 
 Standard organization advice often fails because it assumes consistent executive function. Environmental design offloads this burden to the space itself.
 
@@ -81,19 +83,31 @@ Maintenance through a "reset" loop rather than constant "cleaning":
 The physical and digital environment plays a critical role in managing ADHD. Instead of relying solely on internal willpower, one can design their surroundings to support focus and reduce executive function load. The core principle is to **make good choices easy and bad choices hard**.
 
 ### Examples of Environmental Design
--   **Visual Cues & Prompts:** Use post-it notes, whiteboards, or digital reminders to keep tasks in plain sight.
--   **"Out of Sight, Out of Mind":** Leverage this ADHD trait positively. Store distracting items (e.g., phone, tempting snacks) out of immediate view.
--   **Dedicated Workspaces:** Create a specific, clutter-free area for focused work to minimize context switching.
--   **Batch Processing Zones:** Designate physical spaces (e.g., a tray in the kitchen) for items that need to be processed (mail, bills) to reduce scattered attention.
--   **Low-Stimulation Environments:** Recognize that productive insights often emerge in quieter spaces.
--   **The Analog Table:** Create a separate workspace strictly for analog creation (writing/drawing) with zero digital devices. This physical separation signals "creation mode" vs "editing mode" to the brain. (Source: *Steal Like an Artist* by Austin Kleon).
--   **Friction Removal:** Modify your workspace to eliminate the smallest barriers to starting. E.g., Install permanent lights so you don't have to set them up, or keep your desk clutter-free. (Source: *The Creative Habit* by Twyla Tharp).
+
+- **Visual Cues & Prompts:** Use post-it notes, whiteboards, or digital reminders to keep tasks in plain sight.
+
+- **"Out of Sight, Out of Mind":** Leverage this ADHD trait positively. Store distracting items (e.g., phone, tempting snacks) out of immediate view.
+
+- **Dedicated Workspaces:** Create a specific, clutter-free area for focused work to minimize context switching.
+
+- **Batch Processing Zones:** Designate physical spaces (e.g., a tray in the kitchen) for items that need to be processed (mail, bills) to reduce scattered attention.
+
+- **Low-Stimulation Environments:** Recognize that productive insights often emerge in quieter spaces.
+
+- **The Analog Table:** Create a separate workspace strictly for analog creation (writing/drawing) with zero digital devices. This physical separation signals "creation mode" vs "editing mode" to the brain. (Source: *Steal Like an Artist* by Austin Kleon).
+
+- **Friction Removal:** Modify your workspace to eliminate the smallest barriers to starting. E.g., Install permanent lights so you don't have to set them up, or keep your desk clutter-free. (Source: *The Creative Habit* by Twyla Tharp).
 
 ---
 
 ## 5. Related Concepts & Further Reading
--   **[[SoT - PRODOS (System Architecture)#The Core Problem: Why PRODOS Exists|PRODOS - Engine Stall & Administrative Friction]]**: Environmental friction exacerbates these issues.
--   **[[SoT - The Extended Mind#Situated Cognition (The Environment)|The Extended Mind - Situated Cognition]]**: We think *with* our environment; a well-designed space offloads cognitive complexity.
--   **[[SoT - ADHD and Motivation]]**: Reduces activation energy by making desired actions physically easier.
--   **[[Environmental Design for ADHD Focus]]**: Original zettelkasten note.
--   **[[Environmental and Physical Hacks for ADHD Focus]]**: Related tactical note.
+
+- **[[SoT - PRODOS (System Architecture)#The Core Problem: Why PRODOS Exists|PRODOS - Engine Stall & Administrative Friction]]**: Environmental friction exacerbates these issues.
+
+- **[[SoT - The Extended Mind#Situated Cognition (The Environment)|The Extended Mind - Situated Cognition]]**: We think *with* our environment; a well-designed space offloads cognitive complexity.
+
+- **[[SoT - ADHD and Motivation]]**: Reduces activation energy by making desired actions physically easier.
+
+- **[[Environmental Design for ADHD Focus]]**: Original zettelkasten note.
+
+- **[[Environmental and Physical Hacks for ADHD Focus]]**: Related tactical note.

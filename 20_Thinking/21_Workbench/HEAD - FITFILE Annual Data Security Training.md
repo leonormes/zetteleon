@@ -5,7 +5,7 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-15T14:41:11Z
+modified: 2025-12-19T10:13:23Z
 purpose: To process and track the mandatory annual FITFILE Data Security Awareness training.
 review_interval:
 see_also: []
@@ -27,22 +27,34 @@ Received an email outlining the mandatory annual FITFILE Data Security Awareness
 - [ ] FITFILE Data Security Awareness training ^2025-12-12T16-17-49
     - [📱 View in Todoist app](todoist://task?id=6fVVX55M8XRCHcHv) (Created: 📝 2025-12-12T16:18)
 ## My Current Model
--   Mandatory training required by 19 Dec 2025.
--   Instructions provided two distinct paths:
-    1.  For those who have completed it previously (sign-in, find course, play, complete).
-    2.  For those new to the training (register, add reporting permissions, enrol, play, complete).
--   A specific note about the FOI section and assessment question.
+
+- Mandatory training required by 19 Dec 2025.
+
+- Instructions provided two distinct paths:
+
+    1. For those who have completed it previously (sign-in, find course, play, complete).
+
+    2. For those new to the training (register, add reporting permissions, enrol, play, complete).
+
+- A specific note about the FOI section and assessment question.
 
 ## The Tension
--   **Path Ambiguity:** I am unsure which of the two training paths applies to me. Have I completed this specific e-LfH 'Data Security Awareness (NHSD)' training before?
--   **Context Capture:** The email contains critical URLs and instructions that need to be readily accessible when I perform the task.
--   **Prioritization:** While mandatory, this task needs to be integrated into my existing workflow.
+
+- **Path Ambiguity:** I am unsure which of the two training paths applies to me. Have I completed this specific e-LfH 'Data Security Awareness (NHSD)' training before?
+
+- **Context Capture:** The email contains critical URLs and instructions that need to be readily accessible when I perform the task.
+
+- **Prioritization:** While mandatory, this task needs to be integrated into my existing workflow.
 
 ## The Next Test
--   [ ] **Determine my training status for 'Data Security Awareness (NHSD)' on e-LfH.**
-    -   *Method 1:* Attempt to sign in to <https://portal.e-lfh.org.uk/> and check 'My elearning' for the course.
-    -   *Method 2:* Review past training records or calendar entries for "Data Security Awareness (NHSD)" or "e-LfH" from late last year or early this year.
-    -   *Success Criteria:* I know definitively whether I need to register or if I already have an account with the course listed.
+
+- [ ] **Determine my training status for 'Data Security Awareness (NHSD)' on e-LfH.**
+
+    - *Method 1:* Attempt to sign in to <https://portal.e-lfh.org.uk/> and check 'My elearning' for the course.
+
+    - *Method 2:* Review past training records or calendar entries for "Data Security Awareness (NHSD)" or "e-LfH" from late last year or early this year.
+
+    - *Success Criteria:* I know definitively whether I need to register or if I already have an account with the course listed.
 
 ## Action Plan (Once Path is clear)
 

@@ -21,7 +21,7 @@ version:
 **Links:**
 
 - Up: [[MOC - Container Networking Model]]
-- Related: [[What is a Linux bridge]], [[What is a veth pair]], [[How Linux bridge learns MAC addresses]], [[How a veth pair connects two network namespaces]]
+- Related: [[What is a Linux bridge]], [[What is a veth pair]], [[How a veth pair connects two network namespaces]]
 
 ## Summary
 

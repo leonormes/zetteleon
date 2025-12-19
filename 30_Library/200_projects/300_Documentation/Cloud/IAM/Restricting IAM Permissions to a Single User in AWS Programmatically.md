@@ -4,7 +4,7 @@ confidence:
 created: 2025-03-14T06:46:10Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:49Z
+modified: 2025-12-19T10:13:15Z
 purpose: 
 review_interval: 
 see_also: []
@@ -24,9 +24,11 @@ You're aiming to implement resource-level permissions in AWS IAM to restrict a p
 
 IAM policies, written in JSON format, define permissions in AWS. They consist of statements that specify:
 
--   **Actions**: What actions are allowed or denied (e.g., `iam:CreateUser`, `iam:GetUser`).
--   **Resources**: Which AWS resources the actions apply to (e.g., a specific IAM user, an S3 bucket).
--   **Effect**: Whether the action is allowed (`Allow`) or denied (`Deny`).
+- **Actions**: What actions are allowed or denied (e.g., `iam:CreateUser`, `iam:GetUser`).
+
+- **Resources**: Which AWS resources the actions apply to (e.g., a specific IAM user, an S3 bucket).
+
+- **Effect**: Whether the action is allowed (`Allow`) or denied (`Deny`).
 
 Resource-level permissions allow you to control access at a granular level. Instead of granting permissions to all resources of a certain type (like all IAM users), you can restrict them to specific resources.
 
@@ -42,8 +44,9 @@ First, you need the ARN of the specific IAM user you want to grant restricted pe
 
 arn:aws:iam::\<aws-account-id\>:user/\<user-name\>
 
--   Replace `\<aws-account-id\>` with your AWS account ID.
--   Replace `\<user-name\>` with the name of the IAM user you want to target.
+- Replace `\<aws-account-id\>` with your AWS account ID.
+
+- Replace `\<user-name\>` with the name of the IAM user you want to target.
 
 You can find the ARN of an existing IAM user in the AWS Management Console or programmatically using the AWS CLI or SDKs (e.g., `aws iam get-user --user-name \<user-name\>`).
 

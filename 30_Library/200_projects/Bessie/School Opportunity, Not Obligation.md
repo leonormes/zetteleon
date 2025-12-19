@@ -1004,111 +1004,111 @@ This is a long prompt. Can you make it short but equally of powerful
 
 \*\*Student Profile: Bessie Ormes\*\*
 
-\- \*\*Basic Information:\*\* Bessie Ormes, born 30 March 2012, is currently in Year 8 at Belfairs Academy. She aspires to become a special effects make-up artist for films.
+- \*\*Basic Information:\*\* Bessie Ormes, born 30 March 2012, is currently in Year 8 at Belfairs Academy. She aspires to become a special effects make-up artist for films.
 
-\- \*\*Diagnoses and Identified Needs:\*\*
+- \*\*Diagnoses and Identified Needs:\*\*
 
-\- \*\*Attention Deficit Hyperactivity Disorder (ADHD):\*\* Confirmed on 29 January 2024. Her mother reported difficulties concentrating on tasks not of Bessie’s interest since age 6-7, forgetfulness, and losing things. ADHD is a major factor in her struggles with concentration and focus in lessons. She has a "race car brain with bicycle brakes" which is an accurate but non-shaming model for ADHD. Her father has a formal diagnosis of ADHD, and her mother suspects ADHD traits in herself.
+- \*\*Attention Deficit Hyperactivity Disorder (ADHD):\*\* Confirmed on 29 January 2024. Her mother reported difficulties concentrating on tasks not of Bessie’s interest since age 6-7, forgetfulness, and losing things. ADHD is a major factor in her struggles with concentration and focus in lessons. She has a "race car brain with bicycle brakes" which is an accurate but non-shaming model for ADHD. Her father has a formal diagnosis of ADHD, and her mother suspects ADHD traits in herself.
 
-\- \*\*Dyslexia-related needs:\*\* She has a learning profile that includes dyslexia-related needs. She struggles with reading speed, information processing, spelling, and phonological working memory. She finds it difficult to copy large chunks of information from the board.
+- \*\*Dyslexia-related needs:\*\* She has a learning profile that includes dyslexia-related needs. She struggles with reading speed, information processing, spelling, and phonological working memory. She finds it difficult to copy large chunks of information from the board.
 
-\- \*\*Anxiety:\*\* Bessie experiences anxiety occasionally, mainly in school situations, which her mother reports as currently manageable. However, her anxiety can lead to feeling overwhelmed, difficulties asking questions or making mistakes in class, and can manifest physically as bad headaches. She has a history of self-harm, having been seen by the Child and Adolescent Mental Health Service (CAMHS) Crisis Team following an overdose in June 2024, and is now under the care of the CAMHS community team.
+- \*\*Anxiety:\*\* Bessie experiences anxiety occasionally, mainly in school situations, which her mother reports as currently manageable. However, her anxiety can lead to feeling overwhelmed, difficulties asking questions or making mistakes in class, and can manifest physically as bad headaches. She has a history of self-harm, having been seen by the Child and Adolescent Mental Health Service (CAMHS) Crisis Team following an overdose in June 2024, and is now under the care of the CAMHS community team.
 
-\- \*\*Autistic Spectrum Disorder (ASD) Pathway:\*\* Bessie is on the ASD assessment pathway. Her 13-year-old sister is also on the ASD assessment pathway, and other maternal cousins have ASD or are on the ADHD pathway.
+- \*\*Autistic Spectrum Disorder (ASD) Pathway:\*\* Bessie is on the ASD assessment pathway. Her 13-year-old sister is also on the ASD assessment pathway, and other maternal cousins have ASD or are on the ADHD pathway.
 
-\- \*\*Mearles Irlen Syndrome/Visual Stress Syndrome:\*\* She needs resources printed on blue paper and uses blue paper books.
+- \*\*Mearles Irlen Syndrome/Visual Stress Syndrome:\*\* She needs resources printed on blue paper and uses blue paper books.
 
-\- \*\*Physical/Sensory Needs:\*\* Hypermobility (under physiotherapy, referred to occupational therapy). Struggles with buttons but can do shoelaces, prefers hands for feeding. Has sensitive skin and eczema. Experiences overwhelm from noise and sensory environment, often using a time-out pass for a quieter space. Lower spatial ability, making geometry and maps challenging.
+- \*\*Physical/Sensory Needs:\*\* Hypermobility (under physiotherapy, referred to occupational therapy). Struggles with buttons but can do shoelaces, prefers hands for feeding. Has sensitive skin and eczema. Experiences overwhelm from noise and sensory environment, often using a time-out pass for a quieter space. Lower spatial ability, making geometry and maps challenging.
 
-\- \*\*Key Strengths:\*\*
+- \*\*Key Strengths:\*\*
 
-\- \*\*Inquisitive, Caring, Thoughtful, Highly Creative:\*\* These talents are seen as significant assets.
+- \*\*Inquisitive, Caring, Thoughtful, Highly Creative:\*\* These talents are seen as significant assets.
 
-\- \*\*Passions:\*\* Strong interests in Art, History, Film, and horses. These can be harnessed to fuel her academic journey.
+- \*\*Passions:\*\* Strong interests in Art, History, Film, and horses. These can be harnessed to fuel her academic journey.
 
-\- \*\*Verbal Ability:\*\* She has strong verbal skills. She can articulate complex arguments in discussions and verbally explain concepts, which aids understanding. Her creative writing is perceptive and shows good understanding.
+- \*\*Verbal Ability:\*\* She has strong verbal skills. She can articulate complex arguments in discussions and verbally explain concepts, which aids understanding. Her creative writing is perceptive and shows good understanding.
 
-\- \*\*"Big Picture" Thinking:\*\* A key strength is her ability to see the bigger picture and make connections between subjects.
+- \*\*"Big Picture" Thinking:\*\* A key strength is her ability to see the bigger picture and make connections between subjects.
 
-\- \*\*Current Educational Setting and Support at Belfairs Academy:\*\*
+- \*\*Current Educational Setting and Support at Belfairs Academy:\*\*
 
-\- Bessie has an Individual Support Plan (ISP) in place, with targets that are regularly reviewed.
+- Bessie has an Individual Support Plan (ISP) in place, with targets that are regularly reviewed.
 
-\- The school has a Special Educational Needs Coordinator (SENCo), Tracy Foster, and a team including Assistant and Deputy SENCos and Co-Educators.
+- The school has a Special Educational Needs Coordinator (SENCo), Tracy Foster, and a team including Assistant and Deputy SENCos and Co-Educators.
 
-\- Support mechanisms include in-class support, enrichment activities, and targeted 1-1 support for complex needs.
+- Support mechanisms include in-class support, enrichment activities, and targeted 1-1 support for complex needs.
 
-\- She uses a school laptop for writing, as recommended by an occupational therapist.
+- She uses a school laptop for writing, as recommended by an occupational therapist.
 
-\- She uses blue paper for resources.
+- She uses blue paper for resources.
 
-\- She frequently uses a time-out pass to access a quieter room or the sensory room's cubby.
+- She frequently uses a time-out pass to access a quieter room or the sensory room's cubby.
 
-\- She has been attending weekly counselling sessions with an external service via the school since May 2025.
+- She has been attending weekly counselling sessions with an external service via the school since May 2025.
 
-\- Staff have received briefings and emails regarding her ADHD and dyslexia, and her support plan strategies.
+- Staff have received briefings and emails regarding her ADHD and dyslexia, and her support plan strategies.
 
-\- The school uses a "graduated approach" (assess, plan, do, review) for SEND support.
+- The school uses a "graduated approach" (assess, plan, do, review) for SEND support.
 
-\- \*\*Observed Inconsistencies and Barriers to Learning:\*\*
+- \*\*Observed Inconsistencies and Barriers to Learning:\*\*
 
-\- \*\*Inconsistent IEP/ISP Implementation:\*\* The core issue is the inconsistent and often ineffective implementation of her ISP strategies by individual teachers.
+- \*\*Inconsistent IEP/ISP Implementation:\*\* The core issue is the inconsistent and often ineffective implementation of her ISP strategies by individual teachers.
 
-\- \*\*Teaching Methods:\*\* Some teachers do not adapt their teaching for her ADHD. There is too much reliance on copying from the board, which is ineffective for her dyslexia. Instructions are often explained only once, and if she doesn’t understand, she is blamed or told to leave the classroom.
+- \*\*Teaching Methods:\*\* Some teachers do not adapt their teaching for her ADHD. There is too much reliance on copying from the board, which is ineffective for her dyslexia. Instructions are often explained only once, and if she doesn’t understand, she is blamed or told to leave the classroom.
 
-\- \*\*Lack of Support:\*\* She often feels that support staff focus on other students. There is a lack of clear feedback on her performance and progress. Her requests for help are not always met with compassion.
+- \*\*Lack of Support:\*\* She often feels that support staff focus on other students. There is a lack of clear feedback on her performance and progress. Her requests for help are not always met with compassion.
 
-\- \*\*Behavioral Issues:\*\* Bessie's disengagement, defiance, and "disregard" behaviors (such as leaving lessons, truancy) are seen as a direct result of this inconsistent and negative environment. The school has internally isolated her for "running away" and "truanting". A teacher in April 2025 believed she was using her ADHD as an "excuse".
+- \*\*Behavioral Issues:\*\* Bessie's disengagement, defiance, and "disregard" behaviors (such as leaving lessons, truancy) are seen as a direct result of this inconsistent and negative environment. The school has internally isolated her for "running away" and "truanting". A teacher in April 2025 believed she was using her ADHD as an "excuse".
 
-\- \*\*Impact on Learning:\*\* She feels unhappy at school and finds it hard to trust people, preferring to stay rather than change schools. Her classroom experience is negative and affects her love of learning. She is currently missing lessons due to lateness or absence, creating gaps in her knowledge.
+- \*\*Impact on Learning:\*\* She feels unhappy at school and finds it hard to trust people, preferring to stay rather than change schools. Her classroom experience is negative and affects her love of learning. She is currently missing lessons due to lateness or absence, creating gaps in her knowledge.
 
-\- \*\*School Context:\*\* Belfairs Academy's Ofsted report rates "Quality of Education" and "Leadership and management" as "Requires Improvement," highlighting weaknesses in how the curriculum is taught and how pupils understand and remember knowledge long-term.
+- \*\*School Context:\*\* Belfairs Academy's Ofsted report rates "Quality of Education" and "Leadership and management" as "Requires Improvement," highlighting weaknesses in how the curriculum is taught and how pupils understand and remember knowledge long-term.
 
-\- \*\*Specific Learning & Study Recommendations from "A Personalised Educational Pathway for Bessie Ormes":\*\*
+- \*\*Specific Learning & Study Recommendations from "A Personalised Educational Pathway for Bessie Ormes":\*\*
 
-\- \*\*General Strategies:\*\* Break down tasks into small, achievable chunks. Use technology (laptop, digital portfolios, voice-to-text, digital mind mapping, screen capture, online platforms). Engage in active, multi-sensory learning (response pieces, visual tools, video diaries, photo walks, storyboards, group discussions, debates, role-play, physical models). Connect learning to her personal interests (special effects make-up, horses, film, animals, history). Use structured routines for anxiety management, ensure clear success criteria, and conduct regular check-ins. Consistent positive reinforcement and praise for effort are crucial.
+- \*\*General Strategies:\*\* Break down tasks into small, achievable chunks. Use technology (laptop, digital portfolios, voice-to-text, digital mind mapping, screen capture, online platforms). Engage in active, multi-sensory learning (response pieces, visual tools, video diaries, photo walks, storyboards, group discussions, debates, role-play, physical models). Connect learning to her personal interests (special effects make-up, horses, film, animals, history). Use structured routines for anxiety management, ensure clear success criteria, and conduct regular check-ins. Consistent positive reinforcement and praise for effort are crucial.
 
-\- \*\*Art and Design (Edexcel GCSE):\*\* 100% Non-Exam Assessment (NEA) is well-suited to her profile, removing timed exam pressure. Projects should be visually mapped and "chunked". Digital portfolio use (e.g., PowerPoint, Google Slides) and voice-to-text for annotations are recommended. Projects should link directly to her passions, like special effects make-up or horses. Frame the 10-hour Externally Set Assignment (ESA) as "dedicated studio time".
+- \*\*Art and Design (Edexcel GCSE):\*\* 100% Non-Exam Assessment (NEA) is well-suited to her profile, removing timed exam pressure. Projects should be visually mapped and "chunked". Digital portfolio use (e.g., PowerPoint, Google Slides) and voice-to-text for annotations are recommended. Projects should link directly to her passions, like special effects make-up or horses. Frame the 10-hour Externally Set Assignment (ESA) as "dedicated studio time".
 
-\- \*\*Photography:\*\* Excellent for technical creativity and career ambitions. Camera acts as a tool for "recording observations," bypassing drawing/writing challenges. Structured "shot list" checklists and digital editing workflows are helpful. Project themes should align with her passions (e.g., horse events, special effects make-up photography). Use visual editing software and professional-looking digital portfolios.
+- \*\*Photography:\*\* Excellent for technical creativity and career ambitions. Camera acts as a tool for "recording observations," bypassing drawing/writing challenges. Structured "shot list" checklists and digital editing workflows are helpful. Project themes should align with her passions (e.g., horse events, special effects make-up photography). Use visual editing software and professional-looking digital portfolios.
 
-\- \*\*Film Studies:\*\* Bridges creative passions and academic skills. Use consistent note-taking templates (blue paper), professional storyboard templates, digital mind-mapping tools, screen captures, and typed essays. Link analysis to her interests (e.g., costume/make-up analysis). Utilize her verbal skills through group discussions and verbal presentations.
+- \*\*Film Studies:\*\* Bridges creative passions and academic skills. Use consistent note-taking templates (blue paper), professional storyboard templates, digital mind-mapping tools, screen captures, and typed essays. Link analysis to her interests (e.g., costume/make-up analysis). Utilize her verbal skills through group discussions and verbal presentations.
 
-\- \*\*History:\*\* Focus on making content memorable and accessible due to high volume and literacy demands. Use key questions, visual timelines, and the Pomodoro Technique. Digital flashcards, enlarged sources, and pre-prepared summary sheets (blue paper) are recommended. Encourage verbal retelling of events and use mind maps and acronyms like 'COPS' for source analysis. Scaffold essay writing with clear structures and sentence starters. Break down revision into small, manageable chunks.
+- \*\*History:\*\* Focus on making content memorable and accessible due to high volume and literacy demands. Use key questions, visual timelines, and the Pomodoro Technique. Digital flashcards, enlarged sources, and pre-prepared summary sheets (blue paper) are recommended. Encourage verbal retelling of events and use mind maps and acronyms like 'COPS' for source analysis. Scaffold essay writing with clear structures and sentence starters. Break down revision into small, manageable chunks.
 
-\- \*\*Religious Studies:\*\* Use one-page "knowledge organisers" (blue paper) for key concepts and quotes. Provide scaffolded structures for 12-mark questions. Link thematic studies to current events and her interests (e.g., animal rights). Digital flashcards and audio versions of texts are useful. Formal debates allow her to use verbal skills.
+- \*\*Religious Studies:\*\* Use one-page "knowledge organisers" (blue paper) for key concepts and quotes. Provide scaffolded structures for 12-mark questions. Link thematic studies to current events and her interests (e.g., animal rights). Digital flashcards and audio versions of texts are useful. Formal debates allow her to use verbal skills.
 
-\- \*\*English Language:\*\* Use formulaic, step-by-step approaches for question types (e.g., PEE). Creative writing tasks should draw on her passions (e.g., film sets, horse shows). Practice texts should be printed on blue paper and well-spaced. Text-to-speech software and laptops with grammar/spell-check should be used. Active learning includes highlighting, "sensory banks," and paired reading. Focus on quality over quantity for practice.
+- \*\*English Language:\*\* Use formulaic, step-by-step approaches for question types (e.g., PEE). Creative writing tasks should draw on her passions (e.g., film sets, horse shows). Practice texts should be printed on blue paper and well-spaced. Text-to-speech software and laptops with grammar/spell-check should be used. Active learning includes highlighting, "sensory banks," and paired reading. Focus on quality over quantity for practice.
 
-\- \*\*English Literature:\*\* Focus on memorizing 15-20 key quotations per text using flashcards. Use film/stage adaptations as gateways. Use adapted, dyslexia-friendly texts and audiobooks. All notes and essays must be typed. Active learning includes character maps, hot-seating, and visual collages for poetry. Regular, low-stakes quizzing and practice essay planning are vital.
+- \*\*English Literature:\*\* Focus on memorizing 15-20 key quotations per text using flashcards. Use film/stage adaptations as gateways. Use adapted, dyslexia-friendly texts and audiobooks. All notes and essays must be typed. Active learning includes character maps, hot-seating, and visual collages for poetry. Regular, low-stakes quizzing and practice essay planning are vital.
 
-\- \*\*Mathematics:\*\* Break down topics into smallest component skills using checklists. Use the Pomodoro Technique for focus. Relate concepts to her interests (e.g., scaling special effects materials, paddock area, film box office data). Worksheets should be printed (blue paper), well-spaced, with clear font. Online learning platforms and physical manipulatives are helpful. Create colourful posters/mind maps for formulae and use flashcards. Encourage her to "teach" concepts aloud. Use a "traffic light" system for communication of needs.
+- \*\*Mathematics:\*\* Break down topics into smallest component skills using checklists. Use the Pomodoro Technique for focus. Relate concepts to her interests (e.g., scaling special effects materials, paddock area, film box office data). Worksheets should be printed (blue paper), well-spaced, with clear font. Online learning platforms and physical manipulatives are helpful. Create colourful posters/mind maps for formulae and use flashcards. Encourage her to "teach" concepts aloud. Use a "traffic light" system for communication of needs.
 
-\- \*\*Combined Science:\*\* Use knowledge organisers (blue paper) for key definitions, diagrams, and formulae. Link science to her interests (e.g., animals, special effects, film physics). Use online resources, simplified/colour-coded diagrams, and 3D models. Provide a dedicated formula sheet. Create large, visual mind maps and use physical models.
+- \*\*Combined Science:\*\* Use knowledge organisers (blue paper) for key definitions, diagrams, and formulae. Link science to her interests (e.g., animals, special effects, film physics). Use online resources, simplified/colour-coded diagrams, and 3D models. Provide a dedicated formula sheet. Create large, visual mind maps and use physical models.
 
-\- \*\*Exam Access Arrangements (JCQ Guidelines):\*\*
+- \*\*Exam Access Arrangements (JCQ Guidelines):\*\*
 
-\- \*\*25% Extra Time:\*\* Bessie is explicitly entitled to 25% Extra Time in all timed examinations, as it is a standard arrangement for students with her profile (dyslexia, ADHD, anxiety impacting speed of working). The SENCo must process this online, and it should reflect her 'normal way of working'. Her assessment scores (e.g., below average working memory and phonological processing) support this.
+- \*\*25% Extra Time:\*\* Bessie is explicitly entitled to 25% Extra Time in all timed examinations, as it is a standard arrangement for students with her profile (dyslexia, ADHD, anxiety impacting speed of working). The SENCo must process this online, and it should reflect her 'normal way of working'. Her assessment scores (e.g., below average working memory and phonological processing) support this.
 
-\- \*\*Laptop/Word Processor:\*\* Guaranteed use for all extended writing tasks (class, homework, exams) is crucial due to her dyslexia-related writing difficulties. This should be her normal means of producing written work.
+- \*\*Laptop/Word Processor:\*\* Guaranteed use for all extended writing tasks (class, homework, exams) is crucial due to her dyslexia-related writing difficulties. This should be her normal means of producing written work.
 
-\- \*\*Supervised Rest Breaks:\*\* Recommended due to her ADHD (persistent difficulty concentrating) and anxiety. This should be agreed upon and documented via Form 8.
+- \*\*Supervised Rest Breaks:\*\* Recommended due to her ADHD (persistent difficulty concentrating) and anxiety. This should be agreed upon and documented via Form 8.
 
-\- \*\*Prompter:\*\* Potentially beneficial for persistent distractibility or significant difficulty concentrating (common with ADHD/ASD).
+- \*\*Prompter:\*\* Potentially beneficial for persistent distractibility or significant difficulty concentrating (common with ADHD/ASD).
 
-\- \*\*Modified Enlarged Papers/Blue Paper:\*\* Her diagnosis of Mearles Irlen Syndrome/Visual Stress Syndrome necessitates printed resources on blue paper or other modified formats. This is a reasonable adjustment not requiring a separate assessment.
+- \*\*Modified Enlarged Papers/Blue Paper:\*\* Her diagnosis of Mearles Irlen Syndrome/Visual Stress Syndrome necessitates printed resources on blue paper or other modified formats. This is a reasonable adjustment not requiring a separate assessment.
 
-\- \*\*Reader/Computer Reader:\*\* While not explicitly listed in her 'Support Plan' for exams, her reading difficulties, particularly with unseen texts and phonological processing, indicate she could benefit. This would require the SENCo to confirm its reflection of her normal way of working.
+- \*\*Reader/Computer Reader:\*\* While not explicitly listed in her 'Support Plan' for exams, her reading difficulties, particularly with unseen texts and phonological processing, indicate she could benefit. This would require the SENCo to confirm its reflection of her normal way of working.
 
-\- \*\*Scribe/Speech Recognition Technology:\*\* Her significant writing difficulties due to dyslexia, despite legible handwriting, could warrant a scribe if her written responses are grammatically incomprehensible or she makes many omissions, even with a word processor. Her strong verbal skills also make speech recognition a potential alternative. This would require demonstrating a substantial and long-term adverse effect on writing.
+- \*\*Scribe/Speech Recognition Technology:\*\* Her significant writing difficulties due to dyslexia, despite legible handwriting, could warrant a scribe if her written responses are grammatically incomprehensible or she makes many omissions, even with a word processor. Her strong verbal skills also make speech recognition a potential alternative. This would require demonstrating a substantial and long-term adverse effect on writing.
 
-\- \*\*Family and School Context:\*\*
+- \*\*Family and School Context:\*\*
 
-\- Bessie's parents are actively involved in advocating for her, documenting inconsistencies, and communicating with the school.
+- Bessie's parents are actively involved in advocating for her, documenting inconsistencies, and communicating with the school.
 
-\- Belfairs Academy has a "Requires Improvement" Ofsted rating in "Quality of Education" and "Leadership and management". Issues cited include weaknesses in curriculum delivery, lack of focus on long-term understanding, insufficient checking of pupil understanding, and inadequate practice opportunities. This suggests a systemic issue that needs addressing beyond individual teacher actions.
+- Belfairs Academy has a "Requires Improvement" Ofsted rating in "Quality of Education" and "Leadership and management". Issues cited include weaknesses in curriculum delivery, lack of focus on long-term understanding, insufficient checking of pupil understanding, and inadequate practice opportunities. This suggests a systemic issue that needs addressing beyond individual teacher actions.
 
-\- Communication and collaboration between parents, school, and mental health services are critical for effective support.
+- Communication and collaboration between parents, school, and mental health services are critical for effective support.
 
 Of course. Here is a shorter, more powerful version of the prompt, written as a direct and permanent instruction to an AI assistant.
 

@@ -67,5 +67,5 @@ Kubernetes Network Policies provide fine-grained traffic control between pods by
 ## Related
 
 - [[MOC - Container Runtime & Orchestration]] - How policies are implemented by CNI plugins
-- [[kube-proxy implements Services using iptables or IPVS]] - Related iptables usage
+- [[Kube-Proxy Implements Services Using Iptables or IPVS]] - Related iptables usage
 - What are iptables chains and tables? - Underlying mechanism for policy enforcement

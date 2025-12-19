@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-10T12:00:00Z
 epistemic:
 last_reviewed: 2025-12-10
-modified: 2025-12-11T20:19:20Z
+modified: 2025-12-19T10:12:34Z
 purpose: To define the concept of "Metagame" as a strategic layer operating above direct competition, focusing on environmental and contextual manipulation.
 related-soTs: ["[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - The Cognitive Physiology of Task Execution]]"]
 review_interval: 1 year
@@ -41,16 +41,22 @@ Metagame strategy relies on four primary levers:
 ## 3. Domains of Application
 
 ### A. Competitive Sports
--   **Tactics:** Referee management, disrupting opponent rhythm, "trash talk," strategic rule interpretation (e.g., "professional fouls").
--   **Goal:** To gain a marginal advantage that the raw mechanics of the sport do not explicitly provide.
+
+- **Tactics:** Referee management, disrupting opponent rhythm, "trash talk," strategic rule interpretation (e.g., "professional fouls").
+
+- **Goal:** To gain a marginal advantage that the raw mechanics of the sport do not explicitly provide.
 
 ### B. Business & Organizational Behavior
--   **Tactics:** "Office politics," shaping corporate culture, designing KPI structures, lobbying for regulatory changes.
--   **Goal:** To encourage desired outcomes (productivity, innovation) through environmental design rather than direct mandate.
+
+- **Tactics:** "Office politics," shaping corporate culture, designing KPI structures, lobbying for regulatory changes.
+
+- **Goal:** To encourage desired outcomes (productivity, innovation) through environmental design rather than direct mandate.
 
 ### C. Gaming (Esports/Tabletop)
--   **Tactics:** Deck building (Magic: The Gathering), counter-picking heroes (Dota/LoL), studying patch notes to find broken mechanics.
--   **Goal:** To win at the "Select Screen" rather than relying solely on mechanical skill during the match.
+
+- **Tactics:** Deck building (Magic: The Gathering), counter-picking heroes (Dota/LoL), studying patch notes to find broken mechanics.
+
+- **Goal:** To win at the "Select Screen" rather than relying solely on mechanical skill during the match.
 
 ---
 
@@ -58,8 +64,9 @@ Metagame strategy relies on four primary levers:
 
 The Metagame often treads the line between "Smart Strategy" and "Unsportsmanlike Conduct."
 
--   **The Line:** Strategies that violate the *spirit* of the game while adhering to the *letter* of the rules are often considered "Cheese" or unethical (e.g., spawn camping).
--   **The Reality:** High-level competition *always* evolves into the metagame. To ignore it is to play a suboptimal game.
+- **The Line:** Strategies that violate the *spirit* of the game while adhering to the *letter* of the rules are often considered "Cheese" or unethical (e.g., spawn camping).
+
+- **The Reality:** High-level competition *always* evolves into the metagame. To ignore it is to play a suboptimal game.
 
 ---
 
@@ -67,7 +74,10 @@ The Metagame often treads the line between "Smart Strategy" and "Unsportsmanlike
 
 In ProdOS, we apply Metagame thinking to **Productivity**:
 
--   **The Game:** Completing tasks.
--   **The Metagame:** Designing the environment (Context) so that completing tasks is the path of least resistance.
-    -   *Example:* [[SoT - The Honeyman Method (Adaptive Routines)]] is a metagame strategy to "hack" the energy levels of an ADHD brain.
-    -   *Example:* [[SoT - Temporal Management (Blocking and Boxing)]] manipulates the "Time" variable to force efficiency (Parkinson's Law).
+- **The Game:** Completing tasks.
+
+- **The Metagame:** Designing the environment (Context) so that completing tasks is the path of least resistance.
+
+    - *Example:* [[SoT - The Honeyman Method (Adaptive Routines)]] is a metagame strategy to "hack" the energy levels of an ADHD brain.
+
+    - *Example:* [[SoT - Temporal Management (Blocking and Boxing)]] manipulates the "Time" variable to force efficiency (Parkinson's Law).

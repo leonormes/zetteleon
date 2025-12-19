@@ -23,9 +23,9 @@ updated: 2025-11-22T15:00:09Z
 
 **Details:**
 The five standard hooks are:
--   **PREROUTING:** Triggered immediately upon packet arrival, before the routing decision.
--   **INPUT:** Triggered for packets destined for the local system.
--   **FORWARD:** Triggered for packets routed to another host.
--   **OUTPUT:** Triggered for locally generated packets before they leave.
--   **POSTROUTING:** Triggered just before packets leave the network device.
+- **PREROUTING:** Triggered immediately upon packet arrival, before the routing decision.
+- **INPUT:** Triggered for packets destined for the local system.
+- **FORWARD:** Triggered for packets routed to another host.
+- **OUTPUT:** Triggered for locally generated packets before they leave.
+- **POSTROUTING:** Triggered just before packets leave the network device.
 These hooks enable firewalls, NAT, and packet logging.

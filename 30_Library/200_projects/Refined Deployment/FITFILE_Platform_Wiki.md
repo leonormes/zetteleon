@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-27T09:38:40Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-27T10:04:13Z
+modified: 2025-12-19T10:12:46Z
 purpose: 
 review_interval: 
 see_also: []
@@ -76,7 +76,7 @@ Remove strict `depends_on` where possible. If `ingress_nginx` needs a secret fro
 
 While `helm_values` variables exist, ensure they take precedence. In submodules, prefer merging user-provided `values` YAML over hardcoded `set` blocks where possible.
 
--   **Best Practice**: Use `values = [yamlencode(local.default_values), var.helm_values]` in `helm_release`. This allows the user to override *any* default set by the module.
+- **Best Practice**: Use `values = [yamlencode(local.default_values), var.helm_values]` in `helm_release`. This allows the user to override *any* default set by the module.
 
 #### D. Dynamic Submodules / Composition
 
@@ -155,8 +155,10 @@ module "platform" {
 
 ##### Troubleshooting
 
--   **"CrashLoopBackOff" in Vault Operator**: Check `vault_address` and AppRole credentials.
--   **Ingress IP Pending**: Verify the IP address is valid in the subnet and not in use. Check cloud provider quotas.
--   **ArgoCD Unreachable**: Verify `ingress_host_network` settings and DNS resolution for `argocd_host`.
+- **"CrashLoopBackOff" in Vault Operator**: Check `vault_address` and AppRole credentials.
+
+- **Ingress IP Pending**: Verify the IP address is valid in the subnet and not in use. Check cloud provider quotas.
+
+- **ArgoCD Unreachable**: Verify `ingress_host_network` settings and DNS resolution for `argocd_host`.
 
 ---

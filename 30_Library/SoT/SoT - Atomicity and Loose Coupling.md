@@ -6,7 +6,7 @@ created: 2025-12-12T14:30:00Z
 epistemic:
 last-synthesis: 2025-12-12
 last_reviewed: 2025-12-12
-modified: 2025-12-13T08:58:11Z
+modified: 2025-12-19T10:12:37Z
 purpose: Canonical resolution of the tension between note atomicity and system dependencies in ProdOS.
 quality-markers: []
 related-soTs: ["[[SoT - Contextual Myopia and Self-Referential Meaning]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]"]
@@ -36,8 +36,9 @@ updated:
 
 We crave **Modularity** (understanding a part without understanding the whole) but reality is defined by **Interconnectedness** (the whole is greater than the sum of parts).
 
--   **The Problem ("False Atoms"):** Notes that are fragments ("This is why it failed") rather than ideas ("The bridge failed due to harmonic resonance"). They are useless without their neighbor.
--   **The Ideal ("True Atoms"):** Notes that function like Lego bricks. A single brick has defined dimensions and properties (self-contained) but is useless until connected (interdependent).
+- **The Problem ("False Atoms"):** Notes that are fragments ("This is why it failed") rather than ideas ("The bridge failed due to harmonic resonance"). They are useless without their neighbor.
+
+- **The Ideal ("True Atoms"):** Notes that function like Lego bricks. A single brick has defined dimensions and properties (self-contained) but is useless until connected (interdependent).
 
 ---
 
@@ -46,15 +47,22 @@ We crave **Modularity** (understanding a part without understanding the whole) b
 To manage complexity, we must distinguish between two types of dependencies:
 
 ### A. Implicit Dependencies (Context)
--   **Definition:** The shared language and foundational knowledge required to read the note.
--   **Example:** A note on "Calculus" implicitly depends on "Algebra."
--   **Strategy:** Minimize but accept. Define core terms if ambiguous.
+
+- **Definition:** The shared language and foundational knowledge required to read the note.
+
+- **Example:** A note on "Calculus" implicitly depends on "Algebra."
+
+- **Strategy:** Minimize but accept. Define core terms if ambiguous.
 
 ### B. Explicit Dependencies (Coupling)
--   **Definition:** When Note A *cannot be understood* without immediately reading Note B.
--   **Example:** Note A says "See previous note for context."
--   **Strategy:** **Eliminate.** This is "Tight Coupling" and breaks the system.
-    -   *Fix:* Rewrite Note A to include the necessary context in its first sentence.
+
+- **Definition:** When Note A *cannot be understood* without immediately reading Note B.
+
+- **Example:** Note A says "See previous note for context."
+
+- **Strategy:** **Eliminate.** This is "Tight Coupling" and breaks the system.
+
+    - *Fix:* Rewrite Note A to include the necessary context in its first sentence.
 
 ---
 
@@ -66,8 +74,8 @@ How to write notes that are "Usefully Independent":
 2.  **Context Injection:** The first paragraph must define the "Who, What, Where" necessary to understand the rest of the note.
 3.  **One Idea Per Note:** If a note discusses Cause AND Effect, split it. Link them with a typed relationship (`leads to`).
 4.  **Semantic Linking:** Never just drop a link. Explain *why* the link exists.
-    -   *Bad:* `[[Topic B]]`
-    -   *Good:* "This concept is a specific instance of `[[Topic B]]`."
+    - *Bad:* `[[Topic B]]`
+    - *Good:* "This concept is a specific instance of `[[Topic B]]`."
 
 ---
 
@@ -75,8 +83,10 @@ How to write notes that are "Usefully Independent":
 
 In ProdOS, we accept that **Meaning is Emergent**.
 
--   **The Nodes (Atoms):** Provide clarity and definition.
--   **The Edges (Links):** Provide context and narrative.
--   **The Network:** Is the actual "Knowledge."
+- **The Nodes (Atoms):** Provide clarity and definition.
+
+- **The Edges (Links):** Provide context and narrative.
+
+- **The Network:** Is the actual "Knowledge."
 
 We gain control over complexity not by isolating atoms, but by standardizing how they connect.

@@ -4,14 +4,14 @@ confidence:
 created: 2025-10-26T17:22:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:27Z
+modified: 2025-12-19T10:12:56Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [cni, container-runtime, kubelet, networking, topic/technology/containers, topic/technology/kubernetes, type/fact]
-title: Container runtime configures pod networking through CNI plugins
+title: Container Runtime Configures Pod Networking Through CNI Plugins
 type: Fact
 uid: 
 updated: 
@@ -53,6 +53,5 @@ The container runtime is responsible for managing container lifecycle and coordi
 
 ## Related
 
-- [[What is the Container Runtime Interface (CRI)?]] - Runtime specification
 - [[Pods communicate across cluster using CNI-provided networking]] - CNI plugin role
 - [[MOC - Container Runtime & Orchestration]] - Runtime in orchestration context

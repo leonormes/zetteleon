@@ -23,8 +23,8 @@ updated: 2025-11-22T15:05:02Z
 
 **Details:**
 Common subnet sizes encountered in infrastructure access control and segmentation include:
--   **/24:** 256 addresses ($2^8$).
--   **/26:** 64 addresses ($2^6$). Often used for intermediate logical blocks.
--   **/27:** 32 addresses ($2^5$).
--   **/29:** 8 addresses ($2^3$). Often used for small, dedicated subnets like jumpboxes.
+- **/24:** 256 addresses ($2^8$).
+- **/26:** 64 addresses ($2^6$). Often used for intermediate logical blocks.
+- **/27:** 32 addresses ($2^5$).
+- **/29:** 8 addresses ($2^3$). Often used for small, dedicated subnets like jumpboxes.
 Note that in many cloud environments (like Azure or AWS), roughly 5 addresses per subnet are reserved for system use, further reducing the usable count.

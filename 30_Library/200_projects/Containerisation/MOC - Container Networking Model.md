@@ -207,11 +207,11 @@ See **[[Model - Linux to Kubernetes Networking Mapping]]** for the complete tran
 
 ### Kubernetes Orchestration
 
-- [[30_Library/200_projects/Containerisation/Containers within a pod share network namespace and IP address]] - Pod communication
+- [[30_Library/200_projects/Containerisation/Containers Within a Pod Share Network Namespace and IP Address]] - Pod communication
 - [[Network policies control traffic flow between pods using labels and namespaces]] - Security policies
-- [[kube-proxy implements Services using iptables or IPVS]] - Service implementation
-- [[Kubernetes provides NodePort and LoadBalancer for external service access]] - External access
-- [[Container runtime configures pod networking through CNI plugins]] - Runtime responsibilities
+- [[Kube-Proxy Implements Services Using Iptables or IPVS]] - Service implementation
+- [[Kubernetes Provides NodePort and LoadBalancer for External Service Access]] - External access
+- [[Container Runtime Configures Pod Networking Through CNI Plugins]] - Runtime responsibilities
 - [[etcd stores cluster network state and service configuration]] - State management
 - [[Service mesh provides advanced traffic management and security for service communication]] - Advanced communication
 - [[Kubernetes networking components coordinate through a defined workflow]] - Component coordination

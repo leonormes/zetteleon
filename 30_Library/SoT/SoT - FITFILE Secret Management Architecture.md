@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-15T00:00:00Z
 epistemic:
 last_reviewed: 2025-12-15
-modified: 2025-12-15T18:56:15Z
+modified: 2025-12-19T10:12:36Z
 purpose: The canonical source of truth for FITFILE's secret management architecture, defining the standard VSO implementation and the path to remediate legacy technical debt.
 related-soTs: ["[[SoT - FITFILE Platform Deployment]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 6 months
@@ -78,8 +78,8 @@ These environments purely use VSO and do not rely on hardcoded secrets.
 Environments like `stg` and `kch` currently fail to use VSO correctly, relying on `vault-replacement-secrets.yaml`.
 
 **Root Cause:**
--   Likely network connectivity or `VaultAuth` misconfiguration in the specific clusters prevents VSO from authenticating.
--   "Hack" solution was applied to bypass the error, embedding secrets directly in git/deployment (Security Risk).
+- Likely network connectivity or `VaultAuth` misconfiguration in the specific clusters prevents VSO from authenticating.
+- "Hack" solution was applied to bypass the error, embedding secrets directly in git/deployment (Security Risk).
 
 ---
 
@@ -90,9 +90,9 @@ To eliminate the security risk and technical debt, we must migrate Legacy enviro
 1.  **Verify VSO Status:** Ensure `vault-secrets-operator` is running in `kch` and `stg` clusters.
 2.  **Fix Connectivity/Auth:** Debug the `VaultAuth` resource. Verify the cluster can reach the Vault endpoint and that AppRole credentials are valid.
 3.  **Migrate Data:**
-    -   Extract values from `vault-replacement-secrets.yaml`.
-    -   Move them to `values.yaml` `extraVaultSecrets` configuration.
-    -   Write the actual secret data into the relevant HashiCorp Vault path.
+    - Extract values from `vault-replacement-secrets.yaml`.
+    - Move them to `values.yaml` `extraVaultSecrets` configuration.
+    - Write the actual secret data into the relevant HashiCorp Vault path.
 4.  **Delete the Hack:** Remove `templates/vault-replacement-secrets.yaml` entirely.
 
 ---
@@ -182,6 +182,8 @@ classDiagram
 
 ## 6. Related Documentation
 
--   **Deep Dive:** [[Vault to Kubernetes Secrets Management Guide]] - Detailed steps on adding new secrets.
--   **Principles:** [[General Principles for Adding Secrets]] - Best practices for secret management.
--   **Platform:** [[SoT - FITFILE Platform Deployment]] - Broader platform context.
+- **Deep Dive:** [[Vault to Kubernetes Secrets Management Guide]] - Detailed steps on adding new secrets.
+
+- **Principles:** [[General Principles for Adding Secrets]] - Best practices for secret management.
+
+- **Platform:** [[SoT - FITFILE Platform Deployment]] - Broader platform context.

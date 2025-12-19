@@ -28,7 +28,7 @@ updated: 2025-11-12T15:00:10Z
 4.  When the timer goes off, immediately stop the research and pivot to an action: applying the information found.
 
 **Failure modes:**
--   Starting research without a specific question, leading to aimless browsing.
--   Ignoring the timer and continuing down the "rabbit hole."
+- Starting research without a specific question, leading to aimless browsing.
+- Ignoring the timer and continuing down the "rabbit hole."
 
 **Example (1 max):** To learn a new Terraform function, set a 25-minute timer with the goal: "Find the correct syntax for a for_each loop on a module." When the timer ends, stop reading and immediately start writing the code in your editor. This forces the shift from passive learning to active implementation.

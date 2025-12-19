@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-15T00:00:00Z
 epistemic: Validated via 10-year longitudinal practice and DORA metrics.
 last_reviewed: 2025-12-15
-modified: 2025-12-15T19:53:27Z
+modified: 2025-12-19T10:12:35Z
 purpose: To define "Main-as-Default Trunk Based Development" as the canonical software delivery methodology for ProdOS, optimizing for the smallest robust increments of change.
 related-soTs: ["[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 1 year
@@ -38,15 +38,15 @@ updated:
 A common barrier to adoption is the belief that TBD requires an "elite" setup (100% test coverage, TDD, Mob Programming). Empirical data refutes this.
 
 **You DO NOT need:**
--   Complex automated test suites (at first).
--   Strict Pair/Mob programming.
--   Rigid TDD workflows.
--   To "wait until the next greenfield project."
+- Complex automated test suites (at first).
+- Strict Pair/Mob programming.
+- Rigid TDD workflows.
+- To "wait until the next greenfield project."
 
 **You DO need:**
--   **Small Increments:** The discipline to break work down into tiny, safe batches.
--   **Feature Flags:** The ability to decouple "Deployment" (code on server) from "Release" (feature visible to user).
--   **Mindset Shift:** Accepting that `main` is a place for *work in progress*, not just "finished" code.
+- **Small Increments:** The discipline to break work down into tiny, safe batches.
+- **Feature Flags:** The ability to decouple "Deployment" (code on server) from "Release" (feature visible to user).
+- **Mindset Shift:** Accepting that `main` is a place for *work in progress*, not just "finished" code.
 
 > **The Insight:** High transaction costs (heavy PR process, manual QA) lead to *larger* batches, which actually *increases* risk. TBD lowers transaction costs, enabling smaller, safer steps.
 
@@ -68,10 +68,13 @@ How do you commit to main without breaking it?
 
 A survey of a team using this method for 10 months revealed:
 
--   **Adoption:** 9/10 comfort level with committing to main.
--   **Stability:** "Main is often broken" scored **1/10** (Strongly Disagree).
--   **Efficiency:** "Trunk-based development has made our delivery cycle faster" scored **8.5/10**.
--   **Safety:** "I feel nervous when I deploy to production" scored **3/10**.
+- **Adoption:** 9/10 comfort level with committing to main.
+
+- **Stability:** "Main is often broken" scored **1/10** (Strongly Disagree).
+
+- **Efficiency:** "Trunk-based development has made our delivery cycle faster" scored **8.5/10**.
+
+- **Safety:** "I feel nervous when I deploy to production" scored **3/10**.
 
 **The "Lift" Metaphor:**
 Building software this way is like pouring concrete in **"lifts"** (small layers). Each layer settles and hardens, creating a stronger structure than trying to pour the entire building at once.

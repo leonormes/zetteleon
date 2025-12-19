@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-14T15:00:00Z
 epistemic: theory
 last_reviewed: 2025-12-14
-modified: 2025-12-16T11:56:58Z
+modified: 2025-12-19T10:12:34Z
 purpose: To define the psychological and neurobiological experience of living by values (Eudaimonia) versus living by impulse (Hedonia), and to provide a framework for constructing a self based on duty.
 review_interval: 6 months
 see_also: ["[[Integrity Means Acting in Accordance With Chosen Values]]", "[[SoT - ADHD and Motivation]]", "[[SoT - Wabi-Sabi]]", "[[The Self is Constructed Through a Commitment to Chosen Values]]"]
@@ -42,8 +42,8 @@ The experience is fundamentally different in **Texture** and **Duration**.
 
 **The Emotional Shift:**
 Living by duty does not feel like "fun" in the video-game sense. It feels like **Relief**.
--   **The Anxiety of Potential:** When you seek dopamine, you live with a background hum of guilt ("I should be doing something else").
--   **The Silence of Integrity:** When you do the duty, that background hum stops. The resulting silence is not "boredom"; it is **Safety**. It is the feeling of being a "Safe Harbor" for yourself.
+- **The Anxiety of Potential:** When you seek dopamine, you live with a background hum of guilt ("I should be doing something else").
+- **The Silence of Integrity:** When you do the duty, that background hum stops. The resulting silence is not "boredom"; it is **Safety**. It is the feeling of being a "Safe Harbor" for yourself.
 
 ---
 
@@ -68,8 +68,8 @@ You ask: *"Is it a fundamentally different type of reward?"*
 For someone with ADHD, "following your feelings" is a trap, because your feelings are often just biochemical noise (dopamine craving).
 
 **The Architectural Shift:**
--   **From:** "I am what I feel." (If I feel lazy, I am lazy. If I feel bored, the task is wrong).
--   **To:** "I am what I do." (I feel lazy, but I am writing the report. Therefore, I am a writer).
+- **From:** "I am what I feel." (If I feel lazy, I am lazy. If I feel bored, the task is wrong).
+- **To:** "I am what I do." (I feel lazy, but I am writing the report. Therefore, I am a writer).
 
 **Integrity as Structure:**
 Integrity is not a moral judgment; it is a structural description. A bridge has integrity when its pieces hold together under load. A human has integrity when their **Actions** match their **Values**. When you live by duty, you are building a "Structural Self" that can carry weight. This feels like **Self-Trust**.
@@ -88,25 +88,31 @@ Don't try to be perfect. Define 3 Core Values (e.g., "Reliability," "Curiosity,"
 
 When an impulse hits (e.g., "I want to quit"), pause and visualize a fork in the road.
 
--   **Left:** "Away Move" (Towards comfort/dopamine, away from values).
--   **Right:** "Toward Move" (Towards values, even with discomfort).
--   **The Win:** The win is not "feeling good." The win is *noticing the fork*.
+- **Left:** "Away Move" (Towards comfort/dopamine, away from values).
+
+- **Right:** "Toward Move" (Towards values, even with discomfort).
+
+- **The Win:** The win is not "feeling good." The win is *noticing the fork*.
 
 ### C. Reframing Boredom
 
 You must rebrand "Boredom."
 
--   **Old Label:** Boredom = Pain/Signal to switch tasks.
--   **New Label:** Boredom = **The Cost of Entry** for Eudaimonia.
--   *Mantra:* "This boredom is the price I pay for the pride I will feel in an hour."
+- **Old Label:** Boredom = Pain/Signal to switch tasks.
+
+- **New Label:** Boredom = **The Cost of Entry** for Eudaimonia.
+
+- *Mantra:* "This boredom is the price I pay for the pride I will feel in an hour."
 
 ### D. Finding the "ADHD Balance"
 
 You do not become a robot. You **Channel** your nature.
 
--   **Hedonia:** Use it for rest and play. (Video games are fine *after* the duty).
--   **Eudaimonia:** Use it for work and relationships.
--   **Functional Impulsivity:** When you have a sudden urge to do something *valuable* (e.g., "I suddenly want to clean the garage"), **Ride the Wave**. Use your ADHD speed for good.
+- **Hedonia:** Use it for rest and play. (Video games are fine *after* the duty).
+
+- **Eudaimonia:** Use it for work and relationships.
+
+- **Functional Impulsivity:** When you have a sudden urge to do something *valuable* (e.g., "I suddenly want to clean the garage"), **Ride the Wave**. Use your ADHD speed for good.
 
 ---
 
@@ -115,20 +121,26 @@ You do not become a robot. You **Channel** your nature.
 We can map this internal conflict to economic principles (Source: *The capitalist mindset* by The Market Exit).
 
 ### A. Use Value (The Steady State / Eudaimonia)
--   **Definition:** Producing/doing something to satisfy a need or provide utility. Money is just an intermediary.
--   **The Mindset:** "Enough." The goal is a steady state where needs are met and life is enjoyed.
--   **The "Pomona Cafe" Model:** A small cafe owner (Elsa) who is happy with a steady profit that pays the rent and allows for holidays. She has no desire to expand infinitely because the *use value* (providing coffee/living a life) is satisfied.
+
+- **Definition:** Producing/doing something to satisfy a need or provide utility. Money is just an intermediary.
+
+- **The Mindset:** "Enough." The goal is a steady state where needs are met and life is enjoyed.
+
+- **The "Pomona Cafe" Model:** A small cafe owner (Elsa) who is happy with a steady profit that pays the rent and allows for holidays. She has no desire to expand infinitely because the *use value* (providing coffee/living a life) is satisfied.
 
 ### B. Exchange Value (The Endless Growth / Hedonia)
--   **Definition:** Using money to produce a commodity to sell for *more* money. The goal is the accumulation of capital itself.
--   **The Mindset:** "More." The cycle is exponential and lacks a "Done" state.
--   **The "Espresso House" Model:** A chain focused on aggressive expansion and maximizing "value," often destroying the user experience (and local competitors) in service of the metric.
+
+- **Definition:** Using money to produce a commodity to sell for *more* money. The goal is the accumulation of capital itself.
+
+- **The Mindset:** "More." The cycle is exponential and lacks a "Done" state.
+
+- **The "Espresso House" Model:** A chain focused on aggressive expansion and maximizing "value," often destroying the user experience (and local competitors) in service of the metric.
 
 ### C. The "Virus" of Exchange Value
 
 When the "Exchange Value" mindset infects personal life, we treat our time, hobbies, and relationships as assets to be optimized for "growth" (Social Media likes, Net Worth, Productivity Scores) rather than for their intrinsic utility or joy.
 
--   **The Fix:** Resist the urge to scale everything. Focus on the **Use Value** of your day—did it provide utility, meaning, and connection?—rather than the **Exchange Value** (did it look good, did it "count"?).
+- **The Fix:** Resist the urge to scale everything. Focus on the **Use Value** of your day—did it provide utility, meaning, and connection?—rather than the **Exchange Value** (did it look good, did it "count"?).
 
 ---
 

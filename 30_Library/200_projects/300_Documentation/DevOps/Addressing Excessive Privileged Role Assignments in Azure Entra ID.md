@@ -4,7 +4,7 @@ confidence:
 created: 2025-03-05T09:58:39Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:40Z
+modified: 2025-12-19T10:13:11Z
 purpose: 
 review_interval: 
 see_also: []
@@ -34,24 +34,29 @@ Maintaining a lean number of privileged role assignments is not merely a best pr
 
 #### 2.1. Enhanced Security Risk & Increased Attack Surface
 
--   **Expanded Attack Surface:** Each privileged account represents a potential entry point for malicious actors. With 19 privileged roles, we significantly broaden the attack surface. Should any of these accounts be compromised, attackers gain immediate high-level access to our Azure environment and the sensitive data it contains.
--   **Increased Risk of Lateral Movement:** If a standard user account is compromised, attackers often attempt to escalate privileges to gain broader access. However, with an already elevated number of privileged accounts, the initial compromise of even a seemingly less critical account can quickly lead to severe breaches if lateral movement is achieved to a legitimately privileged account.
+- **Expanded Attack Surface:** Each privileged account represents a potential entry point for malicious actors. With 19 privileged roles, we significantly broaden the attack surface. Should any of these accounts be compromised, attackers gain immediate high-level access to our Azure environment and the sensitive data it contains.
+
+- **Increased Risk of Lateral Movement:** If a standard user account is compromised, attackers often attempt to escalate privileges to gain broader access. However, with an already elevated number of privileged accounts, the initial compromise of even a seemingly less critical account can quickly lead to severe breaches if lateral movement is achieved to a legitimately privileged account.
 
 #### 2.2. Mitigation of Insider Threats (Accidental or Malicious)
 
--   **Reduced Accidental Misconfiguration:** A larger number of administrators increases the likelihood of accidental misconfigurations or errors with significant security implications. The principle of least privilege minimizes the impact of such errors by limiting the scope of potential damage.
--   **Discouraging Malicious Activity:** While we trust our personnel, the risk of insider threats, whether malicious or unintentional, is a reality for all organisations. Limiting privileged roles reduces the number of individuals who could potentially misuse elevated permissions for unauthorized data access, modification, or exfiltration.
+- **Reduced Accidental Misconfiguration:** A larger number of administrators increases the likelihood of accidental misconfigurations or errors with significant security implications. The principle of least privilege minimizes the impact of such errors by limiting the scope of potential damage.
+
+- **Discouraging Malicious Activity:** While we trust our personnel, the risk of insider threats, whether malicious or unintentional, is a reality for all organisations. Limiting privileged roles reduces the number of individuals who could potentially misuse elevated permissions for unauthorized data access, modification, or exfiltration.
 
 #### 2.3. Compliance and Regulatory Requirements
 
--   **NHS Data Security Standards:** As a company dealing with NHS patient data, we are bound by stringent data security and privacy regulations. Overly broad privileged access can be seen as a failure to adhere to the principle of least privilege, potentially leading to compliance violations and associated penalties.
--   **General Data Protection Regulation (GDPR):** GDPR mandates that organisations implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk. Excessive privileged roles can be interpreted as a lack of appropriate security measures, especially when best practice guidelines recommend a significantly lower number.
--   **ISO 27001 and Cyber Essentials Plus:** Achieving and maintaining certifications like ISO 27001 and Cyber Essentials Plus, which are often essential for organisations working within the UK public sector, requires demonstrating robust security practices. Managing and minimizing privileged access is a key component of these frameworks.
+- **NHS Data Security Standards:** As a company dealing with NHS patient data, we are bound by stringent data security and privacy regulations. Overly broad privileged access can be seen as a failure to adhere to the principle of least privilege, potentially leading to compliance violations and associated penalties.
+
+- **General Data Protection Regulation (GDPR):** GDPR mandates that organisations implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk. Excessive privileged roles can be interpreted as a lack of appropriate security measures, especially when best practice guidelines recommend a significantly lower number.
+
+- **ISO 27001 and Cyber Essentials Plus:** Achieving and maintaining certifications like ISO 27001 and Cyber Essentials Plus, which are often essential for organisations working within the UK public sector, requires demonstrating robust security practices. Managing and minimizing privileged access is a key component of these frameworks.
 
 #### 2.4. Principle of Least Privilege
 
--   **Core Security Tenet:** The principle of least privilege (PoLP) dictates that users should be granted only the minimum levels of access permissions needed to perform their job functions. Over-assigning privileged roles directly violates this principle.
--   **Operational Efficiency and Clarity:** Adhering to PoLP not only enhances security but also simplifies access management and auditing. A clear and concise assignment of roles makes it easier to understand who has access to what and why, streamlining security reviews and incident response.
+- **Core Security Tenet:** The principle of least privilege (PoLP) dictates that users should be granted only the minimum levels of access permissions needed to perform their job functions. Over-assigning privileged roles directly violates this principle.
+
+- **Operational Efficiency and Clarity:** Adhering to PoLP not only enhances security but also simplifies access management and auditing. A clear and concise assignment of roles makes it easier to understand who has access to what and why, streamlining security reviews and incident response.
 
 ### 3. Plan to Remediate Excessive Privileged Role Assignments
 
@@ -60,68 +65,68 @@ To address the identified issue, we propose a phased approach to systematically 
 #### Phase 1: Assessment and Discovery (Timeline: 2 weeks)
 
 1.  **Comprehensive Audit of Current Privileged Role Assignments:**
-    -   **Action:** Utilize the Azure portal and PowerShell scripting to generate a detailed report of all 19 current privileged role assignments. This report will include:
-        -   Role Name (e.g., Global Administrator, User Administrator, etc.)
-        -   Assigned Principal (User or Group Name)
-        -   Assignment Type (Permanent or Eligible - if using PIM, although currently we are not)
-        -   Date of Assignment
-        -   Justification (if documented - currently likely missing and needs to be established)
-    -   **Tool:** Azure Portal, Azure AD PowerShell Module.
+    - **Action:** Utilize the Azure portal and PowerShell scripting to generate a detailed report of all 19 current privileged role assignments. This report will include:
+        - Role Name (e.g., Global Administrator, User Administrator, etc.)
+        - Assigned Principal (User or Group Name)
+        - Assignment Type (Permanent or Eligible - if using PIM, although currently we are not)
+        - Date of Assignment
+        - Justification (if documented - currently likely missing and needs to be established)
+    - **Tool:** Azure Portal, Azure AD PowerShell Module.
 
 2.  **Justification and Necessity Review for Each Assignment:**
-    -   **Action:** For each privileged role assignment identified, conduct a review with relevant team leads and role holders to determine:
-        -   **Business Justification:** Why was this privileged role assigned? What specific tasks and responsibilities necessitate this level of access?
-        -   **Necessity:** Is the current privileged role truly necessary, or could the user's responsibilities be fulfilled with a less privileged, more granular role?
-        -   **Least Privilege Alignment:** Does the current assignment align with the principle of least privilege? Are there any permissions granted that are not actively used or required?
-    -   **Documentation:** Meticulously document the justification, necessity assessment, and review outcomes for each privileged role assignment. This documentation will be crucial for audit trails and ongoing governance.
+    - **Action:** For each privileged role assignment identified, conduct a review with relevant team leads and role holders to determine:
+        - **Business Justification:** Why was this privileged role assigned? What specific tasks and responsibilities necessitate this level of access?
+        - **Necessity:** Is the current privileged role truly necessary, or could the user's responsibilities be fulfilled with a less privileged, more granular role?
+        - **Least Privilege Alignment:** Does the current assignment align with the principle of least privilege? Are there any permissions granted that are not actively used or required?
+    - **Documentation:** Meticulously document the justification, necessity assessment, and review outcomes for each privileged role assignment. This documentation will be crucial for audit trails and ongoing governance.
 
 3.  **Identify Potential Role Optimisation and Granularity Opportunities:**
-    -   **Action:** Based on the justification review, identify opportunities to:
-        -   **Replace broad roles with granular roles:** For example, instead of Global Administrator for tasks that can be achieved with more specific roles like Exchange Administrator, SharePoint Administrator, or Intune Administrator.
-        -   **Utilise built-in Azure AD roles effectively:** Ensure we are leveraging the extensive library of built-in roles and not over-relying on overly permissive custom roles (if any are in use).
-        -   **Categorise administrative responsibilities:** Group administrative tasks into functional categories (e.g., user management, device management, security management, application management) to better align with more specific Azure AD roles.
+    - **Action:** Based on the justification review, identify opportunities to:
+        - **Replace broad roles with granular roles:** For example, instead of Global Administrator for tasks that can be achieved with more specific roles like Exchange Administrator, SharePoint Administrator, or Intune Administrator.
+        - **Utilise built-in Azure AD roles effectively:** Ensure we are leveraging the extensive library of built-in roles and not over-relying on overly permissive custom roles (if any are in use).
+        - **Categorise administrative responsibilities:** Group administrative tasks into functional categories (e.g., user management, device management, security management, application management) to better align with more specific Azure AD roles.
 
 #### Phase 2: Role Remediation and Implementation (Timeline: 4 weeks)
 
 1.  **Implement Granular Role Assignments:**
-    -   **Action:** Based on the optimisation opportunities identified in Phase 1, begin to implement changes. This will involve:
-        -   **Creating or Identifying Specific Roles:** Assigning more granular built-in Azure AD roles that align precisely with the documented responsibilities.
-        -   **Careful Testing:** Before making changes in the production environment, thoroughly test role changes in a staging or test environment to ensure no disruption to essential services or administrative functions.
-        -   **Phased Rollout:** Implement role changes in a phased manner, starting with less critical roles and progressing to more impactful changes, allowing for monitoring and rollback if necessary.
+    - **Action:** Based on the optimisation opportunities identified in Phase 1, begin to implement changes. This will involve:
+        - **Creating or Identifying Specific Roles:** Assigning more granular built-in Azure AD roles that align precisely with the documented responsibilities.
+        - **Careful Testing:** Before making changes in the production environment, thoroughly test role changes in a staging or test environment to ensure no disruption to essential services or administrative functions.
+        - **Phased Rollout:** Implement role changes in a phased manner, starting with less critical roles and progressing to more impactful changes, allowing for monitoring and rollback if necessary.
 
 2.  **Revoke Unnecessary Privileged Role Assignments:**
-    -   **Action:** Once granular roles are in place and tested, systematically revoke the broader, less specific privileged role assignments that are no longer justified or necessary.
-    -   **Communication:** Communicate role changes clearly and proactively to affected users, providing guidance and support as needed.
+    - **Action:** Once granular roles are in place and tested, systematically revoke the broader, less specific privileged role assignments that are no longer justified or necessary.
+    - **Communication:** Communicate role changes clearly and proactively to affected users, providing guidance and support as needed.
 
 3.  **Implement Privileged Identity Management (PIM):**
-    -   **Action:** Deploy Azure AD Privileged Identity Management (PIM) to move from permanent privileged role assignments to just-in-time (JIT) elevation.
-    -   **Configuration:** Configure PIM policies to:
-        -   Require justification for role activation.
-        -   Set time limits for role activation.
-        -   Require multi-factor authentication for role activation.
-        -   Implement approval workflows for certain highly privileged roles.
-    -   **Training:** Provide comprehensive training to administrators on how to use PIM to activate roles when needed and understand the new privileged access management process.
+    - **Action:** Deploy Azure AD Privileged Identity Management (PIM) to move from permanent privileged role assignments to just-in-time (JIT) elevation.
+    - **Configuration:** Configure PIM policies to:
+        - Require justification for role activation.
+        - Set time limits for role activation.
+        - Require multi-factor authentication for role activation.
+        - Implement approval workflows for certain highly privileged roles.
+    - **Training:** Provide comprehensive training to administrators on how to use PIM to activate roles when needed and understand the new privileged access management process.
 
 #### Phase 3: Ongoing Monitoring and Governance (Ongoing)
 
 1.  **Establish Continuous Monitoring of Privileged Role Assignments:**
-    -   **Action:** Implement automated monitoring and alerting to track privileged role assignments. Utilize Azure Monitor and Azure Sentinel to:
-        -   Continuously monitor the number of privileged role assignments.
-        -   Alert on any new privileged role assignments or deviations from the established baseline.
-        -   Log all privileged role activations (especially when using PIM).
+    - **Action:** Implement automated monitoring and alerting to track privileged role assignments. Utilize Azure Monitor and Azure Sentinel to:
+        - Continuously monitor the number of privileged role assignments.
+        - Alert on any new privileged role assignments or deviations from the established baseline.
+        - Log all privileged role activations (especially when using PIM).
 
 2.  **Regular Privileged Access Reviews:**
-    -   **Action:** Establish a recurring schedule (e.g., quarterly or bi-annually) for reviewing all privileged role assignments.
-    -   **Review Process:** The review process will involve:
-        -   Re-validating the justification and necessity for each privileged role assignment.
-        -   Ensuring roles are still aligned with the principle of least privilege.
-        -   Identifying any opportunities for further role optimisation or reduction.
-        -   Updating documentation as needed.
+    - **Action:** Establish a recurring schedule (e.g., quarterly or bi-annually) for reviewing all privileged role assignments.
+    - **Review Process:** The review process will involve:
+        - Re-validating the justification and necessity for each privileged role assignment.
+        - Ensuring roles are still aligned with the principle of least privilege.
+        - Identifying any opportunities for further role optimisation or reduction.
+        - Updating documentation as needed.
 
 3.  **Document and Enforce New Role Assignment Processes and Security Policies:**
-    -   **Action:** Formalize the new processes for requesting, reviewing, approving, and assigning privileged roles.
-    -   **Policy Updates:** Update security policies and procedures to reflect the new privileged access management approach, including the use of PIM and the principle of least privilege.
-    -   **Training and Awareness:** Provide ongoing security awareness training to all staff, emphasizing the importance of least privilege and responsible use of privileged access.
+    - **Action:** Formalize the new processes for requesting, reviewing, approving, and assigning privileged roles.
+    - **Policy Updates:** Update security policies and procedures to reflect the new privileged access management approach, including the use of PIM and the principle of least privilege.
+    - **Training and Awareness:** Provide ongoing security awareness training to all staff, emphasizing the importance of least privilege and responsible use of privileged access.
 
 ### 4. Statement of Intent
 

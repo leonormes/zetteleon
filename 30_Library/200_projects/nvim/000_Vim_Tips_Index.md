@@ -25,7 +25,7 @@ version:
 #### Navigation & Movement
 
 - [[Tip_001_Verbose_Commands]] - Verbose Commands for Configuration Debugging
-- [[Tip_002_Mapping_Special_Arguments]] - Special Arguments for Mappings
+- [[Tip 002 Mapping Special Arguments]] - Special Arguments for Mappings
 - [[Tip_003_Operator_Pending]] - Operator Pending Mode Mappings
 - [[Tip_004_Execute_Command]] - The Execute Command
 - [[Tip_005_Autocommands]] - Autocommands Basics

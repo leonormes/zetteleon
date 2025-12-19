@@ -4,7 +4,7 @@ confidence:
 created: 2025-03-11T10:24:58Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:39Z
+modified: 2025-12-19T10:13:11Z
 purpose: 
 review_interval: 
 see_also: []
@@ -102,16 +102,16 @@ You'll primarily use **Azure Monitor's Log Analytics** and **Azure Activity Log*
 1.  **Navigate to Azure Monitor:** In the Azure portal, search for and select "Monitor."
 2.  **Go to Activity Log:** In the Monitor blade, select "Activity log."
 3.  **Filter by User:**
-    -   Click the "Add filter" button.
-    -   Choose "Category" and select "Administrative". (This will focus on management operations, not just read actions).
-    -   Click "Add filter" again.
-    -   Choose "Initiated by (actor)" and enter the User Principal Name (UPN) of his **privileged account** (the one with all the roles, e.g., `gareth.hailes@yourcompanydomain.com`). Click "Apply".
-    4.  **Set Time Range:** Adjust the "Time range" at the top to a relevant period (e.g., "Last 7 days," "Last 30 days").
-    5.  **Note the Number of Events:** Look at the total number of events displayed in the Activity Log for his privileged account within the chosen time range. Make a mental note or write it down.
+    - Click the "Add filter" button.
+    - Choose "Category" and select "Administrative". (This will focus on management operations, not just read actions).
+    - Click "Add filter" again.
+    - Choose "Initiated by (actor)" and enter the User Principal Name (UPN) of his **privileged account** (the one with all the roles, e.g., `gareth.hailes@yourcompanydomain.com`). Click "Apply".
+    4. **Set Time Range:** Adjust the "Time range" at the top to a relevant period (e.g., "Last 7 days," "Last 30 days").
+    5. **Note the Number of Events:** Look at the total number of events displayed in the Activity Log for his privileged account within the chosen time range. Make a mental note or write it down.
 4.  **Repeat for Day-to-Day Account:**
-    -   Click "Edit filters".
-    -   Change the "Initiated by (actor)" filter to his **claimed day-to-day account** (e.g., `gareth.hailes.daytoday@yourcompanydomain.com`). Click "Apply".
-    -   Note the total number of events for this account in the same time range.
+    - Click "Edit filters".
+    - Change the "Initiated by (actor)" filter to his **claimed day-to-day account** (e.g., `gareth.hailes.daytoday@yourcompanydomain.com`). Click "Apply".
+    - Note the total number of events for this account in the same time range.
 5.  **Compare Event Counts:** Compare the number of events for both accounts. If the privileged account shows significantly *more* administrative activity than the day-to-day account, his claim is questionable.
 
 **2. Using Azure Portal - Log Analytics Workspace (Recommended for Deeper Analysis):**
@@ -133,11 +133,16 @@ AzureActivity
 | order by count_ desc
 ```
 
--   **Explanation of Query:**
+- **Explanation of Query:**
+
         * `AzureActivity`: Specifies the table to query (Azure Activity Logs).
+
         * `where TimeGenerated >= ago(30d)`: Filters for logs within the last 30 days. Adjust `30d` to your desired time range (e.g., `7d` for 7 days).
+
         * `where Caller =~ "gareth.hailes@yourcompanydomain.com"`: Filters for events where the "Caller" (user who initiated the action) matches his privileged account UPN. `~=` is case-insensitive match. **Replace `"gareth.hailes@yourcompanydomain.com"` with the *actual* UPN.**
+
         * `summarize count() by OperationNameValue, CategoryValue`: Aggregates the results, counting the number of operations by "Operation Name" (what action was performed) and "Category" (e.g., Administrative, Security, Alert).
+
         * `order by count_ desc`: Orders the results by the count in descending order, showing the most frequent operations first.
 
     4.  **Review Results for Privileged Account:** Examine the query results. Note the total `count` of operations and the types of `OperationNameValue` and `CategoryValue` listed. Look for administrative operations (e.g., `Write`, `Create`, `Update`, `Delete`, `Action`).
@@ -152,8 +157,8 @@ AzureActivity
 ```
 
 6.  **Compare Results:** Compare the results from both queries.
--   **High Activity on Privileged Account, Low on Day-to-Day Account:** This strongly suggests he is *not* primarily using the day-to-day account for Azure management and his claim is likely untrue. Focus on the *types* of operations - if the privileged account shows many "Write," "Create," "Update," "Delete" operations, it indicates administrative work.
--   **Similar or Higher Activity on Day-to-Day Account:** This would be unexpected given the role assignments you've shown. Investigate further. It's still concerning if the "day-to-day" account is doing significant administrative work if it's *not* supposed to have those permissions.
+- **High Activity on Privileged Account, Low on Day-to-Day Account:** This strongly suggests he is *not* primarily using the day-to-day account for Azure management and his claim is likely untrue. Focus on the *types* of operations - if the privileged account shows many "Write," "Create," "Update," "Delete" operations, it indicates administrative work.
+- **Similar or Higher Activity on Day-to-Day Account:** This would be unexpected given the role assignments you've shown. Investigate further. It's still concerning if the "day-to-day" account is doing significant administrative work if it's *not* supposed to have those permissions.
         * **Very Low Activity on Both:** This is less likely but possible if he hasn't been very active in Azure recently *within the chosen time range*. Extend the time range in the query (e.g., `ago(90d)`) and re-run the analysis.
 
 **3. Using Azure CLI/PowerShell (for Scripting and Automation):**

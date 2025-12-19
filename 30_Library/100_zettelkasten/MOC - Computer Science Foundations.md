@@ -5,7 +5,7 @@ created: 2025-12-13T09:15:00Z
 epistemic:
 last-reviewed: 2025-12-13
 last_reviewed: 
-modified: 2025-12-13T09:03:20Z
+modified: 2025-12-19T10:13:20Z
 purpose: A unified Map of Content for the fundamental principles of Computer Science, Software Architecture, and Cloud Infrastructure.
 review_interval: 6 months
 see_also: ["[[MOC - Linux Container Primitives]]", "[[MOC - Software Architecture Principles]]"]
@@ -28,8 +28,9 @@ This map organizes the Source of Truth (SoT) notes covering the stack from physi
 
 The physical reality of computation.
 
--   **[[SoT - The Functional Anatomy of a Computer]]** — *The Core.* The IPOS Model (Input, Processing, Output, Storage) and the shift to SoC architecture.
--   **[[SoT - Mass vs Weight and the Kilogram]]** — *The Physics.* Foundational measurement concepts underpinning physical reality.
+- **[[SoT - The Functional Anatomy of a Computer]]** — *The Core.* The IPOS Model (Input, Processing, Output, Storage) and the shift to SoC architecture.
+
+- **[[SoT - Mass vs Weight and the Kilogram]]** — *The Physics.* Foundational measurement concepts underpinning physical reality.
 
 ---
 
@@ -37,17 +38,36 @@ The physical reality of computation.
 
 How we structure logic to manage complexity.
 
--   **[[SoT - Namespacing in Computing]]** — *The Boundaries.* Conflict avoidance and modularity across all domains (Kernel, DNS, Code).
--   **[[SoT - Atomicity and Loose Coupling]]** — *The Component.* Defining "True Atomicity" as independence with a standardized interface.
--   **[[SoT - Information Hiding (Parnas)]]** — *The Interface.* Encapsulating design decisions to allow independent evolution of modules.
--   **[[SoT - Code Duplication and Refactoring]]** — *The Hygiene.* Kent Beck's taxonomy of duplication and the imperative to refactor.
--   **[[SoT - Software Configuration Management Patterns]]** — *The Control.* Versioning everything as the foundation of reproducibility.
+- **[[SoT - Namespacing in Computing]]** — *The Boundaries.* Conflict avoidance and modularity across all domains (Kernel, DNS, Code).
+
+- **[[SoT - Atomicity and Loose Coupling]]** — *The Component.* Defining "True Atomicity" as independence with a standardized interface.
+
+- **[[SoT - Information Hiding (Parnas)]]** — *The Interface.* Encapsulating design decisions to allow independent evolution of modules.
+
+- **[[SoT - Code Duplication and Refactoring]]** — *The Hygiene.* Kent Beck's taxonomy of duplication and the imperative to refactor.
+
+- **[[SoT - Software Configuration Management Patterns]]** — *The Control.* Versioning everything as the foundation of reproducibility.
 
 ---
 
-## 3. Cloud & Infrastructure (The Network)
+## 3. Functional Systems & Type Theory (The Logic)
+
+Theoretical foundations for robust logic and effect management.
+
+- **[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]** — *The Math.* Types as sums, products, and exponents.
+
+- **[[SoT - TypeScript as a Proof Engine (Set Theory and Distributivity)]]** — *The Verification.* Using structural typing and set theory to hoist invariants to compile-time.
+
+- **[[SoT - The Monad Design Pattern (Pipeline Abstraction)]]** — *The Architecture.* Decoupling business logic from control flow complexity using wrappers and binders.
+
+- **[[SoT - Functional Effects (Effects as Data)]]** — *The Action.* Using Tag Unions to decouple effect description from execution for simulation testing and observability.
+
+---
+
+## 4. Cloud & Infrastructure (The Network)
 
 How we scale and connect systems.
 
--   **[[SoT - Cloud Networking Core Components]]** — *The Pipe.* Gateways, Routing, and Addressing in AWS/Azure.
--   **[[SoT - Automated Cloud Resource Hibernation]]** — *The Cost.* Strategies for managing cloud spend through scheduled dormancy.
+- **[[SoT - Cloud Networking Core Components]]** — *The Pipe.* Gateways, Routing, and Addressing in AWS/Azure.
+
+- **[[SoT - Automated Cloud Resource Hibernation]]** — *The Cost.* Strategies for managing cloud spend through scheduled dormancy.

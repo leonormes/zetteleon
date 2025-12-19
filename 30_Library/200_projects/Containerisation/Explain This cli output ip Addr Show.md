@@ -4,14 +4,14 @@ confidence:
 created: 2025-10-22T13:53:03Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:26Z
+modified: 2025-12-19T10:12:56Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [topic/technology/networking]
-title: explain this cli output_ip addr show
+title: Explain This cli output ip Addr Show
 type:
 uid: 
 updated: 
@@ -37,7 +37,7 @@ inet6 fe80::5055:55ff:fe0a:13c6/64 scope link proto kernel_ll
 valid_lft forever preferred_lft forever
 ```
 
-The command `ip addr show` displays detailed information about all network interfaces on a Linux system, including both IPv4 and IPv6 addresses, link-layer (MAC) data, and interface states. Let’s break down your specific output line by line to explain each element.[^1][^4][^6][^7][^9]
+The command `ip addr show` displays detailed information about all network interfaces on a Linux system, including both IPv4 and IPv6 addresses, link-layer (MAC) data, and interface states. Let’s break down your specific output line by line to explain each element.
 
 ---
 

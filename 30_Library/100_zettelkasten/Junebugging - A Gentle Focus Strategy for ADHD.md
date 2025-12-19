@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-26T11:14:00Z
 epistemic: experimental
 last_reviewed: 2025-12-16
-modified: 2025-12-16T11:57:37Z
+modified: 2025-12-19T10:13:20Z
 purpose: To test if "Structured Wandering" is more effective than "Forced Focus" for physical tasks.
 review_interval: 2 weeks
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -28,29 +28,35 @@ version: 1
 
 ## 2. Experiment Protocol
 
--   **Context:** Use this for a "whole house clean" or "organizing a room."
--   **Method:**
-    1.  **Define the Spot:** Pick *one* specific anchor point (e.g., "The Coffee Table").
-    2.  **The Rule:** I can pick up an item and take it to another room. If I see something else there, I can do it.
-    3.  **The Return:** The moment I feel "lost" or the side-task ends, I *must* physically return to The Spot.
-    4.  **No Shame:** Do not scold yourself for wandering. Just return.
+- **Context:** Use this for a "whole house clean" or "organizing a room."
+
+- **Method:**
+
+    1. **Define the Spot:** Pick *one* specific anchor point (e.g., "The Coffee Table").
+
+    2. **The Rule:** I can pick up an item and take it to another room. If I see something else there, I can do it.
+
+    3. **The Return:** The moment I feel "lost" or the side-task ends, I *must* physically return to The Spot.
+
+    4. **No Shame:** Do not scold yourself for wandering. Just return.
 
 ---
 
 ## 3. Expected Outcome
 
--   **Metric:** Time spent cleaning before burnout (Duration).
--   **Qualitative:** Feeling of "Flow" vs "Frustration."
+- **Metric:** Time spent cleaning before burnout (Duration).
+
+- **Qualitative:** Feeling of "Flow" vs "Frustration."
 
 ---
 
 ## 4. Results Log
 
--   *(Log results here)*
+- *(Log results here)*
 
 ---
 
 **Original Context:**
 Junebugging works *with* the ADHD brain's tendency to get distracted rather than fighting against it.
--   **Connections:** [[ADHD Mindset and Emotional Regulation Strategies]].
--   **Contrast:** Useful when [[Timeboxing as a To-Do List Alternative for ADHD]] feels too rigid.
+- **Connections:** [[ADHD Mindset and Emotional Regulation Strategies]].
+- **Contrast:** Useful when [[Timeboxing as a To-Do List Alternative for ADHD]] feels too rigid.

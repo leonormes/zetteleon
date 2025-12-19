@@ -4,7 +4,7 @@ confidence:
 created: 2025-03-13T06:50:32Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:44Z
+modified: 2025-12-19T10:13:10Z
 purpose: 
 review_interval: 
 see_also: []
@@ -48,9 +48,11 @@ Here's a detailed breakdown of the steps involved in integrating HCP Vault with 
 
 #### 1. Prerequisites
 
--   **HCP Vault Instance:** You need an active HCP Vault instance.
--   **Terraform Cloud Account:** You need a Terraform Cloud account and a workspace where you want to use secrets.
--   **HCP CLI (Optional but Recommended for Setup):** The HCP CLI can simplify the initial setup and configuration. You can download and install it from [HashiCorp Developer - HCP CLI](https://developer.hashicorp.com/hcp/docs/cli).
+- **HCP Vault Instance:** You need an active HCP Vault instance.
+
+- **Terraform Cloud Account:** You need a Terraform Cloud account and a workspace where you want to use secrets.
+
+- **HCP CLI (Optional but Recommended for Setup):** The HCP CLI can simplify the initial setup and configuration. You can download and install it from [HashiCorp Developer - HCP CLI](https://developer.hashicorp.com/hcp/docs/cli).
 
 #### 2. Configure Authentication between Terraform Cloud and HCP Vault
 
@@ -204,10 +206,13 @@ Here's a detailed step-by-step guide to implement this secure approach:
 
 #### 1. Prerequisites
 
--   **HCP Vault Instance:** You need a running and configured HCP Vault instance.
--   **Terraform Cloud Account & Workspace:** You need a Terraform Cloud account and the specific workspace you intend to use for managing Azure Entra ID roles.
--   **Azure Subscription:** You need access to your Azure subscription where your Entra ID is managed.
--   **Azure CLI (Recommended for Service Principal Creation):** The Azure CLI simplifies service principal creation and role assignment.
+- **HCP Vault Instance:** You need a running and configured HCP Vault instance.
+
+- **Terraform Cloud Account & Workspace:** You need a Terraform Cloud account and the specific workspace you intend to use for managing Azure Entra ID roles.
+
+- **Azure Subscription:** You need access to your Azure subscription where your Entra ID is managed.
+
+- **Azure CLI (Recommended for Service Principal Creation):** The Azure CLI simplifies service principal creation and role assignment.
 
 #### 2. Create an Azure Entra ID Service Principal
 
@@ -215,9 +220,11 @@ First, you need to create a service principal in Azure Entra ID that Terraform C
 
 You can create a service principal using the Azure CLI. **Carefully consider the necessary permissions.** For managing user roles, you likely need permissions related to:
 
--   Reading and writing user information.
--   Reading and writing role assignments.
--   Potentially reading role definitions.
+- Reading and writing user information.
+
+- Reading and writing role assignments.
+
+- Potentially reading role definitions.
 
 **Example Azure CLI command to create a Service Principal (adjust permissions as needed):**
 

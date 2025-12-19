@@ -22,10 +22,10 @@ updated: 2025-11-10T15:18:00Z
 **What:** Guidance on how to structure projects within task management software for maximum clarity and actionability.
 
 **How:**
--   **Sections:** Divide projects into logical sections (e.g., "Design," "Development").
--   **Atomic Actions:** Ensure every task listed is an atomic action (discrete, physical, visible, unambiguous).
--   **Context Tags:** Apply relevant context tags (e.g., `@computer`, `@high_energy`) to all actions.
--   **Starter Tasks:** For difficult-to-initiate actions, include a preceding `@starter_task`.
+- **Sections:** Divide projects into logical sections (e.g., "Design," "Development").
+- **Atomic Actions:** Ensure every task listed is an atomic action (discrete, physical, visible, unambiguous).
+- **Context Tags:** Apply relevant context tags (e.g., `@computer`, `@high_energy`) to all actions.
+- **Starter Tasks:** For difficult-to-initiate actions, include a preceding `@starter_task`.
 
 **Example:**
 

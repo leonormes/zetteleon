@@ -27,7 +27,7 @@ updated:
 *Currently running. Needs daily logging.*
 
 ```dataview
-TABLE without id file.link as "Experiment", purpose as "Goal", last_reviewed as "Last Updated"
+TABLE without id file.link as "Experiment Title (Click for full note)", purpose as "Hypothesis Summary/Goal", last_reviewed as "Last Updated"
 FROM #hypothesis
 WHERE status = "active"
 SORT modified desc
@@ -39,7 +39,7 @@ SORT modified desc
 *Drafted but not yet started.*
 
 ```dataview
-TABLE without id file.link as "Proposal", purpose as "Goal"
+TABLE without id file.link as "Hypothesis Title (Click for full note)", purpose as "Core Hypothesis/Goal"
 FROM #hypothesis
 WHERE status = "pending" OR status = "seedling"
 SORT created desc
@@ -51,7 +51,7 @@ SORT created desc
 *Proven to work. Promoted to SoT.*
 
 ```dataview
-TABLE without id file.link as "Protocol", source_of_truth as "Integrated Into"
+TABLE without id file.link as "Validated Protocol (Click for full note)", source_of_truth as "Integrated Into SoT(s)"
 FROM #hypothesis
 WHERE status = "validated" OR status = "stable"
 SORT modified desc
@@ -63,7 +63,7 @@ SORT modified desc
 *Failed the reality test.*
 
 ```dataview
-TABLE without id file.link as "Failed Experiment", purpose as "Reason"
+TABLE without id file.link as "Rejected Experiment (Click for full note)", purpose as "Reason for Rejection/Lessons Learned"
 FROM #hypothesis
 WHERE status = "rejected" OR status = "archived"
 SORT modified desc

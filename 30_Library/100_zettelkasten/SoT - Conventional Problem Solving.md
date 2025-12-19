@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-02-07T12:57:55Z
 epistemic: theory
 last_reviewed: 2025-12-16
-modified: 2025-12-16T11:57:33Z
+modified: 2025-12-19T10:13:17Z
 purpose: To define Applicative Intelligence—the systematic application of existing frameworks to solve problems—distinguishing it from Generative Intelligence.
 related-soTs: ["[[SoT - Deep Learning & Mastery]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - Six Levels of Thinking]]", "[[SoT - Systems Thinking]]"]
 review_interval: 
@@ -33,16 +33,19 @@ updated:
 
 This mode operates within the "Safe Bounds" of accepted paradigms.
 
--   **The Process:** Identify Problem -> Match Pattern -> Apply Solution.
--   **The Utility:** It removes the need to "re-derive physics" for every problem. It is the foundation of professional competence (e.g., using a standard library vs. writing your own sort algorithm).
+- **The Process:** Identify Problem -> Match Pattern -> Apply Solution.
+
+- **The Utility:** It removes the need to "re-derive physics" for every problem. It is the foundation of professional competence (e.g., using a standard library vs. writing your own sort algorithm).
 
 ### B. Incrementalism (Kaizen)
 
 Progress is achieved through systematic refinement rather than revolutionary leaps.
 
--   **Focus:** "Better, Faster, Cheaper."
--   **Outcome:** High predictability and low risk.
--   **Link:** [[Process Over Outcome Mindset]]
+- **Focus:** "Better, Faster, Cheaper."
+
+- **Outcome:** High predictability and low risk.
+
+- **Link:** [[Process Over Outcome Mindset]]
 
 ### C. Pattern Recognition
 
@@ -58,14 +61,15 @@ While essential for stability, relying solely on Applicative Intelligence leads 
 
 The tendency to rely on familiar solutions prevents the brain from seeing better, novel alternatives.
 
--   *The Trap:* "When you have a hammer, everything looks like a nail."
--   *Link:* [[The Einstellung Effect Prevents Better Solutions]]
+- *The Trap:* "When you have a hammer, everything looks like a nail."
+
+- *Link:* [[The Einstellung Effect Prevents Better Solutions]]
 
 ### B. Local Maxima Optimization
 
 Applicative thinking excels at climbing the hill it is standing on, but it cannot see that a higher peak exists across the valley. It creates "Efficient Bad Systems" (doing the wrong thing really well).
 
--   *Link:* [[Satisficing Leads to Sub-optimal Solutions]]
+- *Link:* [[Satisficing Leads to Sub-optimal Solutions]]
 
 ---
 
@@ -86,19 +90,24 @@ This concept is a foundational component of the system's epistemology.
 The **ProdOS Meta-Strategy** requires knowing *which* mode to deploy:
 
 1.  **Use Applicative Intelligence when:**
-    -   The cost of failure is high (Production environments).
-    -   Speed and reliability are paramount.
-    -   The problem domain is well-understood (Cynefin: Simple/Complicated).
+    - The cost of failure is high (Production environments).
+    - Speed and reliability are paramount.
+    - The problem domain is well-understood (Cynefin: Simple/Complicated).
 2.  **Switch to Generative Intelligence when:**
-    -   The standard solution keeps failing ("The Bug in the Model").
-    -   You are stuck in a Local Maximum.
-    -   The problem is novel or chaotic.
+    - The standard solution keeps failing ("The Bug in the Model").
+    - You are stuck in a Local Maximum.
+    - The problem is novel or chaotic.
 
 ---
 
 ## 6. Related Zettels
--   [[Applicative Intelligence]] - The underlying cognitive capacity.
--   [[Generative Intelligence]] - The counterpart.
--   [[Fundamental Insight Creation]] - The mechanism of breaking the frame.
--   [[Impact of Set 2 Breakthroughs]] - How new paradigms become conventional.
--   [[Flawed Mental Models Limit Mastery]] - The risk of applying bad frameworks.
+
+- [[Applicative Intelligence]] - The underlying cognitive capacity.
+
+- [[Generative Intelligence]] - The counterpart.
+
+- [[Fundamental Insight Creation]] - The mechanism of breaking the frame.
+
+- [[Impact of Set 2 Breakthroughs]] - How new paradigms become conventional.
+
+- [[Flawed Mental Models Limit Mastery]] - The risk of applying bad frameworks.

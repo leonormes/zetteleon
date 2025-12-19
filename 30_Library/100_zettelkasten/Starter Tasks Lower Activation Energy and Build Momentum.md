@@ -22,8 +22,8 @@ updated: 2025-11-10T15:10:00Z
 **Summary:** Starter tasks work by systematically lowering activation energy, building momentum, creating immediate progress, bypassing overthinking, and reducing perfectionism.
 
 **Details:**
--   **Lowers Activation Energy:** Makes starting feel infinitely easier than tackling the full task.
--   **Builds Momentum:** Once in motion, continuing is easier than starting (Newton's First Law applied to behavior).
--   **Creates Progress:** Even tiny progress provides a dopamine reward, reinforcing the behavior.
--   **Bypasses Overthinking:** The task is too small and simple to overthink.
--   **Reduces Perfectionism:** A binary, simple action leaves little room for perfectionistic tendencies.
+- **Lowers Activation Energy:** Makes starting feel infinitely easier than tackling the full task.
+- **Builds Momentum:** Once in motion, continuing is easier than starting (Newton's First Law applied to behavior).
+- **Creates Progress:** Even tiny progress provides a dopamine reward, reinforcing the behavior.
+- **Bypasses Overthinking:** The task is too small and simple to overthink.
+- **Reduces Perfectionism:** A binary, simple action leaves little room for perfectionistic tendencies.

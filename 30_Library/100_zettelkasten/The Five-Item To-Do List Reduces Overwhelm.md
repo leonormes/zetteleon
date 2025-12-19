@@ -1,24 +1,61 @@
 ---
-aliases: [Five-Item Rule]
+aliases: [The 5-Item List]
 confidence: 
-created: 2025-10-29T16:31:10Z
-epistemic: strategy
-last_reviewed: 
-modified: 2025-10-31T09:31:39Z
-purpose: "To offer a simple method for reducing task list overwhelm."
-review_interval: 
-see_also: []
-source_of_truth: []
-status: seedling
-tags: [decision-fatigue, overwhelm, task-management, topic/health/adhd]
+created: 2025-12-16T14:35:00Z
+epistemic: experimental
+last_reviewed: 2025-12-16
+modified: 2025-12-19T10:13:17Z
+purpose: To test if extreme prioritization (The Ivy Lee Method) reduces daily overwhelm.
+review_interval: 2 weeks
+see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
+source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
+status: pending
+tags: [1, 2, experiment, focus, hypothesis, prioritization, topic/health/adhd, topic/productivity]
 title: The Five-Item To-Do List Reduces Overwhelm
-type: strategy
+type: hypothesis
 uid: 
 updated: 
 ---
 
-The Five-Item To-Do List is a strategy designed to combat the analysis paralysis and overwhelm that a long, scrolling task list can induce.
+## 1. The Hypothesis
 
-The method is to limit a daily to-do list to just five items. Crucially, these are not necessarily the five *most important* tasks, but simply the first five that come to mind that require attention. This approach drastically lowers the cognitive load of prioritization and reduces decision fatigue, making the list feel manageable and achievable.
+> **If** I limit my daily to-do list to exactly five items (Ivy Lee Method),
+> **Then** I will complete more meaningful work than if I have a long list,
+> **Because** the constraint forces prioritization and removes the "Paradox of Choice" paralysis.
 
-Completing a short list provides a clear sense of accomplishment and a dopamine reward, which helps build momentum for the next day.
+---
+
+## 2. Experiment Protocol
+
+- **Duration:** 3 Days.
+
+- **Trigger:** Start of the day planning.
+
+- **Action:**
+
+    1. Write down the 5 most important tasks for the day.
+
+    2. Order them 1-5.
+
+    3. Hide all other tasks (put them in a "Backlog" view).
+
+    4. Work on #1 until finished. Then #2.
+
+---
+
+## 3. Expected Outcome
+
+- **Success:** Finishing the top 3 items consistently.
+
+- **Failure:** Constantly adding "just one more quick thing" to the list.
+
+---
+
+## 4. Results Log
+
+- *(Log results here)*
+
+---
+
+**Original Context:**
+Derived from [[Momentum-Building Strategies for ADHD]].

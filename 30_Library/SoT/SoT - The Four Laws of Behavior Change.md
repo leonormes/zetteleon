@@ -7,7 +7,7 @@ decay-signals: []
 epistemic: theory
 last-synthesis: 2025-12-07
 last_reviewed: 2025-12-07
-modified: 2025-12-16T11:56:59Z
+modified: 2025-12-19T10:12:34Z
 purpose: To define the canonical framework for habit formation and modification based on James Clear's Atomic Habits.
 quality-markers: [Habit Stacking)., Includes both creation and breaking rules., Maps Laws to the Habit Loop., Provides actionable strategies (Implementation Intentions]
 related-soTs: []
@@ -98,8 +98,9 @@ Building momentum requires actively engineering positive feedback loops, especia
 
 Acknowledging small wins shifts the focus from "Perfection" (what is left to do) to "Progress" (what has been done).
 
--   **The Mechanism:** Acknowledging a completed step triggers a small dopamine release.
--   **The Practice:** Give yourself a mental "Good job" or a tangible micro-reward immediately after a difficult step. This creates a positive association with the effort.
+- **The Mechanism:** Acknowledging a completed step triggers a small dopamine release.
+
+- **The Practice:** Give yourself a mental "Good job" or a tangible micro-reward immediately after a difficult step. This creates a positive association with the effort.
 
 ### B. The Dopamine Sandwich
 

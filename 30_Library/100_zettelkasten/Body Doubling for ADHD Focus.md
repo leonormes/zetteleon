@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-26T11:12:00Z
 epistemic: experimental
 last_reviewed: 2025-12-16
-modified: 2025-12-16T11:57:38Z
+modified: 2025-12-19T10:13:22Z
 purpose: To test if "Digital Presence" (recording oneself) triggers the same focus benefits as a live human body double.
 review_interval: 2 weeks
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -28,31 +28,38 @@ version: 1
 
 ## 2. Experiment Protocol
 
--   **Duration:** 3 Sessions.
--   **Setup:**
-    1.  Set up my phone or webcam to face me (and my screen if possible).
-    2.  Hit **Record** (or start a Time-Lapse).
-    3.  Work for 45 minutes.
--   **The Rule:** I am "On Air." I cannot pick up my phone or tab-switch to Reddit because "the camera is watching."
--   **Post-Session:** Delete the video (or keep it if it's cool). The point is the *recording*, not the playback.
+- **Duration:** 3 Sessions.
+
+- **Setup:**
+
+    1. Set up my phone or webcam to face me (and my screen if possible).
+
+    2. Hit **Record** (or start a Time-Lapse).
+
+    3. Work for 45 minutes.
+
+- **The Rule:** I am "On Air." I cannot pick up my phone or tab-switch to Reddit because "the camera is watching."
+
+- **Post-Session:** Delete the video (or keep it if it's cool). The point is the *recording*, not the playback.
 
 ---
 
 ## 3. Expected Outcome
 
--   **Success:** I feel a "gentle pressure" to stay seated and working.
--   **Failure:** I ignore the camera and get distracted anyway.
+- **Success:** I feel a "gentle pressure" to stay seated and working.
+
+- **Failure:** I ignore the camera and get distracted anyway.
 
 ---
 
 ## 4. Results Log
 
--   *(Log results here)*
+- *(Log results here)*
 
 ---
 
 **Original Context:**
 Body doubling provides external accountability and anchors the ADHD brain.
--   **Live:** Working with a friend/colleague.
--   **Virtual:** Focusmate or Zoom.
--   **Asynchronous (This Experiment):** Recording oneself.
+- **Live:** Working with a friend/colleague.
+- **Virtual:** Focusmate or Zoom.
+- **Asynchronous (This Experiment):** Recording oneself.

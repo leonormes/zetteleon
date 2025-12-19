@@ -89,7 +89,7 @@ Kubernetes networking components follow a coordinated workflow where kubelet, co
 
 ## Related
 
-- [[Container runtime configures pod networking through CNI plugins]] - Runtime responsibilities
-- [[kube-proxy implements Services using iptables or IPVS]] - Service implementation
+- [[Container Runtime Configures Pod Networking Through CNI Plugins]] - Runtime responsibilities
+- [[Kube-Proxy Implements Services Using Iptables or IPVS]] - Service implementation
 - [[etcd stores cluster network state and service configuration]] - State management
 - [[MOC - Container Runtime & Orchestration]] - Complete orchestration picture

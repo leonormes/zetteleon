@@ -6,7 +6,7 @@ criteria: Atomic notes defining the core problem (intention-action gap), its psy
 epistemic:
 exclusions: Specific self-help plans without reference to underlying principles.
 last_reviewed:
-modified: 2025-12-10T20:00:09Z
+modified: 2025-12-19T10:13:19Z
 purpose:
 review_interval:
 scope: The science and philosophy of taking action, focusing on the gap between knowledge and behavior and the strategies to bridge it.
@@ -40,18 +40,23 @@ The [[The Intention-Action Gap is the Failure to Translate Knowledge into Action
 
 The brain systems underlying action are remarkably complex:
 
--   **The Basal Ganglia:** [[Action Initiation Involves a Balance Between Direct and Indirect Pathways in the Basal Ganglia|The basal ganglia play a critical role in deciding what to do and when to move]]. The direct pathway facilitates movement initiation while the indirect pathway suppresses competing actions, with balanced activity between them enabling appropriate action selection.
--   **Dopamine:** [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)|Dopamine serves dual roles in motivation and learning]]. It acts as a teaching signal that reinforces rewarded behaviors and also has immediate neuromodulatory effects that promote instrumental, performance-dependent motivation.
--   **The Prefrontal Cortex (PFC):** [[The Prefrontal Cortex Provides Executive Control Over Action|The PFC provides executive control over action]], maintaining representations of goals and sending bias signals throughout the brain to guide neural activity.
+- **The Basal Ganglia:** [[Action Initiation Involves a Balance Between Direct and Indirect Pathways in the Basal Ganglia|The basal ganglia play a critical role in deciding what to do and when to move]]. The direct pathway facilitates movement initiation while the indirect pathway suppresses competing actions, with balanced activity between them enabling appropriate action selection.
+
+- **Dopamine:** [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)|Dopamine serves dual roles in motivation and learning]]. It acts as a teaching signal that reinforces rewarded behaviors and also has immediate neuromodulatory effects that promote instrumental, performance-dependent motivation.
+
+- **The Prefrontal Cortex (PFC):** [[The Prefrontal Cortex Provides Executive Control Over Action|The PFC provides executive control over action]], maintaining representations of goals and sending bias signals throughout the brain to guide neural activity.
 
 ### Philosophical Perspectives: Praxis and Phronesis
 
 Philosophy offers complementary frameworks for understanding this gap.
 
--   **Aristotle's Tripartite Distinction:** [[Aristotle Distinguished Between Episteme, Techne, and Phronesis|Aristotle separated knowledge into *episteme* (theory), *techne* (craft), and *phronesis* (practical wisdom)]]. He emphasized that virtue and practical wisdom require actual practice; you cannot truly know practical matters without doing them.
--   **Praxis:** In modern philosophy, [[Praxis is the Cyclical Process of Action and Reflection to Transform the World|praxis refers to "reflection and action upon the world in order to transform it"]]. It rejects the separation of theory and practice, viewing them as a cyclical process.
--   **Pragmatism:** Developed by thinkers like John Dewey, [[Pragmatism Defines Truth by Practical Consequences|pragmatism defines truth in terms of its practical consequences]], viewing theories as instruments rather than abstract answers.
--   **Akrasia:** [[Akrasia is Acting Against One's Better Judgment|Akrasia (weakness of will)]] is the distinct philosophical problem of acting against one's better judgment, where rational knowledge is undermined by desire or emotion.
+- **Aristotle's Tripartite Distinction:** [[Aristotle Distinguished Between Episteme, Techne, and Phronesis|Aristotle separated knowledge into *episteme* (theory), *techne* (craft), and *phronesis* (practical wisdom)]]. He emphasized that virtue and practical wisdom require actual practice; you cannot truly know practical matters without doing them.
+
+- **Praxis:** In modern philosophy, [[Praxis is the Cyclical Process of Action and Reflection to Transform the World|praxis refers to "reflection and action upon the world in order to transform it"]]. It rejects the separation of theory and practice, viewing them as a cyclical process.
+
+- **Pragmatism:** Developed by thinkers like John Dewey, [[Pragmatism Defines Truth by Practical Consequences|pragmatism defines truth in terms of its practical consequences]], viewing theories as instruments rather than abstract answers.
+
+- **Akrasia:** [[Akrasia is Acting Against One's Better Judgment|Akrasia (weakness of will)]] is the distinct philosophical problem of acting against one's better judgment, where rational knowledge is undermined by desire or emotion.
 
 ### Why Action Dominates Attention
 
@@ -61,8 +66,9 @@ Psychological research reveals an [[Action Dominance is the Cognitive Bias Towar
 
 The gap between knowledge and action is also shaped by context.
 
--   **Organizations:** [[The Knowing-Doing Gap Describes Organizational Failure to Act on Knowledge|The knowing-doing gap in organizations]] occurs when companies know what they should do but fail to act due to factors like fear, internal competition, or substituting talk for action.
--   **Education:** [[The Theory-Practice Gap is the Disconnect Between Academic Knowledge and Practical Application|The theory-practice gap in education]] reveals how academic knowledge often fails to transfer to practical settings, creating competence gaps.
+- **Organizations:** [[The Knowing-Doing Gap Describes Organizational Failure to Act on Knowledge|The knowing-doing gap in organizations]] occurs when companies know what they should do but fail to act due to factors like fear, internal competition, or substituting talk for action.
+
+- **Education:** [[The Theory-Practice Gap is the Disconnect Between Academic Knowledge and Practical Application|The theory-practice gap in education]] reveals how academic knowledge often fails to transfer to practical settings, creating competence gaps.
 
 ### Motivation, Volition, and Control
 

@@ -28,7 +28,7 @@ Here are several commands you can use to view port usage on your Mac, along with
 
 `lsof` is a powerful command that can list all open files, including network sockets. It's the most common and versatile tool for this purpose.
 
--   List all listening ports:
+- List all listening ports:
 
 ```bash
 lsof -i -P | grep LISTEN

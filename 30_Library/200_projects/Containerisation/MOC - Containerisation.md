@@ -56,6 +56,14 @@ How containers are managed and orchestrated:
 - Service discovery and load balancing
 - Network policies and security
 
+### 🧠 [[MOC - Kernel Internals|Deep Kernel Internals]]
+
+The mechanisms that enforce isolation and resource limits:
+
+- **Cgroups (Control Groups):** Resource limiting (CPU, Memory), prioritization, and accounting. The key to preventing "noisy neighbors."
+- **Syscalls:** `clone()` (creates new isolated processes) vs `unshare()` (isolates existing processes).
+- **Virtual Switching:** How `veth` pairs and bridges (like `docker0`) act as virtual switches, comparing them to physical switch logic (MAC learning, forwarding).
+
 ### 🏗️ [[MOC - Hands-on Container Labs|Practical Implementation]]
 
 Step-by-step tutorials and practical exercises:
@@ -71,7 +79,13 @@ Step-by-step tutorials and practical exercises:
 
 1. Start with [[Linux Networking]] for hands-on foundation
 2. Progress through [[What is a network namespace]] and related primitives
-3. Connect concepts with [[Pods communicate across cluster using CNI-provided networking]] and [[30_Library/200_projects/Containerisation/Containers within a pod share network namespace and IP address]]
+3. Connect concepts with [[Pods communicate across cluster using CNI-provided networking]] and [[30_Library/200_projects/Containerisation/Containers Within a Pod Share Network Namespace and IP Address]]
+
+### For Kernel Enthusiasts
+
+1. Dive into [[Cgroups and Containerization A Deep Dive]] for resource management.
+2. Understand the syscalls: `clone` vs `unshare` in [[netns and advanced containers]].
+3. Study **Virtual Switching** logic to see how Linux bridges emulate physical hardware.
 
 ### For Kubernetes Practitioners
 
@@ -83,7 +97,7 @@ Step-by-step tutorials and practical exercises:
 
 1. Focus on Linux primitives in [[MOC - Linux Container Primitives]]
 2. Master networking with [[MOC - Container Networking Model]]
-3. Implement with [[MOC - Hands-on Container Labs]] and consult [[Container runtime configures pod networking through CNI plugins]] for runtime-specific tasks
+3. Implement with [[MOC - Hands-on Container Labs]] and consult [[Container Runtime Configures Pod Networking Through CNI Plugins]] for runtime-specific tasks
 
 ## Key Insights
 
@@ -91,13 +105,11 @@ Step-by-step tutorials and practical exercises:
 - **Namespaces provide isolation, veth pairs provide connectivity** - the fundamental pattern
 - **Kubernetes abstracts but doesn't hide** - understanding Linux primitives enables better debugging
 - **Network policies are iptables rules** - security builds on kernel features
+- **Cgroups are the Resource Police** - enforcing limits to ensure Quality of Service (QoS).
 
 ## Related Areas
 
 - [[MOC - Kubernetes Architecture]] - broader K8s context
-- [[MOC - Linux Systems]] - deeper Linux knowledge
-- [[MOC - Network Security]] - security implications
-- [[MOC - Cloud Native]] - ecosystem context
 
 ---
 
@@ -112,16 +124,18 @@ Step-by-step tutorials and practical exercises:
 
 ### Foundational Concepts
 
-- [[30_Library/200_projects/Containerisation/Containers within a pod share network namespace and IP address]] - Pod-level container communication
+- [[30_Library/200_projects/Containerisation/Containers Within a Pod Share Network Namespace and IP Address]] - Pod-level container communication
 - [[Pods communicate across cluster using CNI-provided networking]] - Cluster-wide networking
-- [[Kubernetes provides NodePort and LoadBalancer for external service access]] - External access patterns
+- [[Kubernetes Provides NodePort and LoadBalancer for External Service Access]] - External access patterns
 - [[Linux Networking]] - Hands-on learning curriculum
 - [[Model - Linux to Kubernetes Networking Mapping]] - Translation table
+- [[Cgroups and Containerization A Deep Dive]] - Deep dive into resource management and isolation
+- [[netns and advanced containers]] - Practical Q&A on `ip netns`, `veth`, and `clone`/`unshare` syscalls
 
 ### Orchestration Components
 
-- [[Container runtime configures pod networking through CNI plugins]] - Runtime networking responsibilities
-- [[kube-proxy implements Services using iptables or IPVS]] - Service implementation
+- [[Container Runtime Configures Pod Networking Through CNI Plugins]] - Runtime networking responsibilities
+- [[Kube-Proxy Implements Services Using Iptables or IPVS]] - Service implementation
 - [[etcd stores cluster network state and service configuration]] - Cluster state management
 - [[Service mesh provides advanced traffic management and security for service communication]] - Advanced service communication
 - [[Kubernetes networking components coordinate through a defined workflow]] - Component coordination

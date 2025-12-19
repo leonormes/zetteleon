@@ -34,6 +34,7 @@ These are specific, practical methods to lower the activation energy required to
 
 - `illustrates::` [[Procras-working Builds Momentum by Lowering Task Resistance]]
 - `illustrates::` [[The Five-Item To-Do List Reduces Overwhelm]]
+- `illustrates::` [[Chaining Starter Tasks Creates a Momentum Ramp]]
 
 ### Connections
 

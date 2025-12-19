@@ -23,7 +23,7 @@ updated: 2025-11-22T15:05:00Z
 
 **Details:**
 The function signature is `cidrsubnet(prefix, newbits, netnum)`.
--   **prefix:** The routing prefix to subnet (e.g., `"10.0.0.0/16"`).
--   **newbits:** The number of additional bits to extend the prefix by. The new subnet mask will be `old_mask + newbits`.
--   **netnum:** A whole number acting as the index (0-based) to select which subnet to return.
+- **prefix:** The routing prefix to subnet (e.g., `"10.0.0.0/16"`).
+- **newbits:** The number of additional bits to extend the prefix by. The new subnet mask will be `old_mask + newbits`.
+- **netnum:** A whole number acting as the index (0-based) to select which subnet to return.
 It enables the mathematical calculation of subnets directly within Infrastructure as Code configurations.

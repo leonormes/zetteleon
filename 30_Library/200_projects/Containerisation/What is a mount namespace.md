@@ -21,11 +21,12 @@ version:
 **Links:**
 
 - Up: [[MOC - Container Networking Model]]
+- Core SoT: [[SoT - Container Isolation (The Namespace Security Model)]]
 - Related: [[What is a network namespace]], [[What is the Linux VFS (Virtual File System)]], [[What is a PID namespace]], [[What is a UTS namespace]]
 
 ## Summary
 
-A mount namespace isolates the list of mount points visible to processes, allowing each namespace to have its own independent view of the file system hierarchy without affecting other namespaces—critical for container file system isolation.
+A mount namespace isolates the list of mount points visible to processes, allowing each namespace to have its own independent view of the file system hierarchy. It is the **Primary Gatekeeper** of container security; without it, isolation is incomplete.
 
 ## Context / Problem
 

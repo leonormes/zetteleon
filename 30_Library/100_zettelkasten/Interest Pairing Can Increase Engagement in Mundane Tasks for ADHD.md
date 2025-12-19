@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-30T12:00:01Z
 epistemic: experimental
 last_reviewed: 2025-12-16
-modified: 2025-12-16T11:57:37Z
+modified: 2025-12-19T10:13:20Z
 purpose: To test if "Temptation Bundling" (Interest Pairing) effectively overcomes task initiation inertia for mundane chores.
 review_interval: 2 weeks
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -28,22 +28,25 @@ updated:
 
 ## 2. Experiment Protocol
 
--   **Duration:** 1 Week.
--   **The Pair:** Select **one** specific content source (e.g., "The Rest is History Podcast") and **one** specific chore (e.g., "Folding Laundry").
--   **The Rule:** I am **only** allowed to listen to this podcast while doing this chore. If I stop folding, I must pause the audio.
+- **Duration:** 1 Week.
+
+- **The Pair:** Select **one** specific content source (e.g., "The Rest is History Podcast") and **one** specific chore (e.g., "Folding Laundry").
+
+- **The Rule:** I am **only** allowed to listen to this podcast while doing this chore. If I stop folding, I must pause the audio.
 
 ---
 
 ## 3. Expected Outcome
 
--   **Success:** I actually look forward to doing the laundry because I want to hear the story.
--   **Failure:** The distraction of the audio makes me do the chore poorly or too slowly.
+- **Success:** I actually look forward to doing the laundry because I want to hear the story.
+
+- **Failure:** The distraction of the audio makes me do the chore poorly or too slowly.
 
 ---
 
 ## 4. Results Log
 
--   *(Log results here)*
+- *(Log results here)*
 
 ---
 

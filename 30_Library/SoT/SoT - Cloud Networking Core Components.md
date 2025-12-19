@@ -5,7 +5,7 @@ created: 2025-12-12T00:00:00Z
 epistemic: 
 last-synthesis: 2025-12-12
 last_reviewed: 
-modified: 2025-12-12T18:31:59Z
+modified: 2025-12-19T10:12:37Z
 purpose: To define the essential networking components and architectural patterns required to establish connectivity between private cloud networks (VPC/VNet) and the public internet.
 review_interval: 6 months
 see_also: ["[[Cloud Networking MOC]]", "[[MOC - Cloud Networking Devices Data Flow]]"]
@@ -33,18 +33,28 @@ updated:
 Gateways are the physical/virtual appliances that act as the portal for traffic.
 
 ### A. Internet Gateway (Bidirectional)
--   **Function:** Enables **Ingress and Egress**. It creates a 1:1 static NAT between a private instance IP and a Public IP.
--   **Use Case:** Public Web Servers, Load Balancers, Bastion Hosts.
--   **Cloud Implementation:**
-    -   **AWS:** **Internet Gateway (IGW)**. Must be explicitly created and attached to the VPC.
-    -   **Azure:** **Implicit.** Azure VNets have default outbound access via the backbone. For inbound, you associate a Public IP directly to a NIC or Load Balancer.
+
+- **Function:** Enables **Ingress and Egress**. It creates a 1:1 static NAT between a private instance IP and a Public IP.
+
+- **Use Case:** Public Web Servers, Load Balancers, Bastion Hosts.
+
+- **Cloud Implementation:**
+
+    - **AWS:** **Internet Gateway (IGW)**. Must be explicitly created and attached to the VPC.
+
+    - **Azure:** **Implicit.** Azure VNets have default outbound access via the backbone. For inbound, you associate a Public IP directly to a NIC or Load Balancer.
 
 ### B. NAT Gateway (Egress Only)
--   **Function:** Enables **Egress Only**. It performs Source NAT (SNAT), allowing private instances to initiate outbound connections (e.g., software updates) without accepting inbound connections.
--   **Use Case:** Private databases, application servers, worker nodes.
--   **Cloud Implementation:**
-    -   **AWS:** **NAT Gateway**. A managed service deployed in a Public Subnet. Private subnets route to it.
-    -   **Azure:** **NAT Gateway**. A managed service attached to a subnet. It takes precedence over default system routing.
+
+- **Function:** Enables **Egress Only**. It performs Source NAT (SNAT), allowing private instances to initiate outbound connections (e.g., software updates) without accepting inbound connections.
+
+- **Use Case:** Private databases, application servers, worker nodes.
+
+- **Cloud Implementation:**
+
+    - **AWS:** **NAT Gateway**. A managed service deployed in a Public Subnet. Private subnets route to it.
+
+    - **Azure:** **NAT Gateway**. A managed service attached to a subnet. It takes precedence over default system routing.
 
 ---
 
@@ -52,21 +62,29 @@ Gateways are the physical/virtual appliances that act as the portal for traffic.
 
 Having a gateway is useless if the network doesn't know how to reach it.
 
--   **The Mechanism:** **Route Tables**.
--   **The Rule:** The "Default Route" (`0.0.0.0/0` for IPv4) determines the destination of all internet-bound traffic.
--   **Subnet Types:**
-    -   **Public Subnet:** Route Table sends `0.0.0.0/0` -> **Internet Gateway**.
-    -   **Private Subnet:** Route Table sends `0.0.0.0/0` -> **NAT Gateway**.
-    -   **Isolated Subnet:** No route to `0.0.0.0/0`.
+- **The Mechanism:** **Route Tables**.
+
+- **The Rule:** The "Default Route" (`0.0.0.0/0` for IPv4) determines the destination of all internet-bound traffic.
+
+- **Subnet Types:**
+
+    - **Public Subnet:** Route Table sends `0.0.0.0/0` -> **Internet Gateway**.
+
+    - **Private Subnet:** Route Table sends `0.0.0.0/0` -> **NAT Gateway**.
+
+    - **Isolated Subnet:** No route to `0.0.0.0/0`.
 
 ---
 
 ## 4. Core Component 3: Addressing (The Identity)
 
--   **Public IP:** A globally routable address.
-    -   *AWS:* **Elastic IP (EIP)**. Static public IPs attached to NAT Gateways or Instances.
-    -   *Azure:* **Public IP Address**. A standalone resource that can be bound to NAT Gateways, Load Balancers, or VMs.
--   **Private IP:** Non-routable (RFC1918) addresses used internally (e.g., `10.0.0.5`).
+- **Public IP:** A globally routable address.
+
+    - *AWS:* **Elastic IP (EIP)**. Static public IPs attached to NAT Gateways or Instances.
+
+    - *Azure:* **Public IP Address**. A standalone resource that can be bound to NAT Gateways, Load Balancers, or VMs.
+
+- **Private IP:** Non-routable (RFC1918) addresses used internally (e.g., `10.0.0.5`).
 
 ---
 
@@ -99,6 +117,9 @@ Having a gateway is useless if the network doesn't know how to reach it.
 ---
 
 ## 7. Sources and Links
--   [[Core Networking Components for Cloud Internet Connectivity]] (Archived Source)
--   [[Internet Gateway in AWS Networking]]
--   [[NAT Gateways Enable Private Resources to Access Internet]]
+
+- [[Core Networking Components for Cloud Internet Connectivity]] (Archived Source)
+
+- [[Internet Gateway in AWS Networking]]
+
+- [[NAT Gateways Enable Private Resources to Access Internet]]

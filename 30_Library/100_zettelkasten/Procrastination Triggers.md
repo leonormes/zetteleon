@@ -4,7 +4,7 @@ confidence:
 created: 2025-08-16T13:14:06Z
 epistemic:
 last_reviewed:
-modified: 2025-10-30T10:27:47Z
+modified: 2025-12-16T16:46:11Z
 purpose:
 review_interval:
 see_also: []
@@ -57,4 +57,3 @@ These triggers are part of [[The Shame-Procrastination Cycle]], where:
 - [[Executive Function Challenges are Central to ADHD]] - Task initiation as core EF deficit
 - [[The Interest-Based Nervous System in ADHD]] - Why interest matters more than importance
 - [[Working Memory Limitations in ADHD]] - Cognitive load of managing multiple small tasks
-- [[ADHD and Motivation MOC]] - Broader context of ADHD motivational patterns

@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-30T12:00:03Z
 epistemic: experimental
 last_reviewed: 2025-12-16
-modified: 2025-12-16T11:57:35Z
+modified: 2025-12-19T10:13:18Z
 purpose: To test if semantic reframing can bypass executive dysfunction by shifting from obligation to purpose.
 review_interval: 2 weeks
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -28,27 +28,35 @@ updated:
 
 ## 2. Experiment Protocol
 
--   **Duration:** 3 Days.
--   **Trigger:** Whenever I feel the "UGH" sensation or say "I *need* to do X."
--   **Action:**
-    1.  **Stop.** Do not try to push through the resistance.
-    2.  **Rephrase:** Speak the User Story aloud.
-        -   *Old:* "I need to do the dishes."
-        -   *New:* "As a *Father*, I want to *clear the sink*, so that *my morning coffee is peaceful tomorrow*."
-    3.  **Assess:** Does the "Wall of Awful" shrink?
+- **Duration:** 3 Days.
+
+- **Trigger:** Whenever I feel the "UGH" sensation or say "I *need* to do X."
+
+- **Action:**
+
+    1. **Stop.** Do not try to push through the resistance.
+
+    2. **Rephrase:** Speak the User Story aloud.
+
+        - *Old:* "I need to do the dishes."
+
+        - *New:* "As a *Father*, I want to *clear the sink*, so that *my morning coffee is peaceful tomorrow*."
+
+    3. **Assess:** Does the "Wall of Awful" shrink?
 
 ---
 
 ## 3. Expected Outcome
 
--   **Metric:** Count how many times the reframe successfully led to action (e.g., 5/7 attempts).
--   **Qualitative:** Reduction in the physical sensation of "heavy gravity" before starting.
+- **Metric:** Count how many times the reframe successfully led to action (e.g., 5/7 attempts).
+
+- **Qualitative:** Reduction in the physical sensation of "heavy gravity" before starting.
 
 ---
 
 ## 4. Results Log
 
--   *(Log results here upon activation)*
+- *(Log results here upon activation)*
 
 ---
 

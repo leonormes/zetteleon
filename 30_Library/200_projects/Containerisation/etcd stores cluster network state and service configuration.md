@@ -62,5 +62,5 @@ etcd serves as Kubernetes' distributed key-value store, maintaining cluster stat
 ## Related
 
 - [[MOC - Container Runtime & Orchestration]] - etcd in orchestration architecture
-- [[kube-proxy implements Services using iptables or IPVS]] - How kube-proxy uses etcd data
+- [[Kube-Proxy Implements Services Using Iptables or IPVS]] - How kube-proxy uses etcd data
 - [[Pods communicate across cluster using CNI-provided networking]] - Network configuration storage

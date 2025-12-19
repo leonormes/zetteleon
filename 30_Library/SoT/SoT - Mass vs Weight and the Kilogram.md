@@ -6,7 +6,7 @@ created: 2025-12-12T18:00:00Z
 epistemic: scientific
 last-synthesis: 2025-12-12
 last_reviewed: 2025-12-12
-modified: 2025-12-14T18:37:58Z
+modified: 2025-12-19T10:12:35Z
 purpose: Canonical definition of mass vs. weight and the modern definition of the kilogram based on the Planck constant.
 quality-markers: []
 related-soTs: ["[[SoT - Reality, Models, and the Limits of Accuracy]]"]
@@ -46,9 +46,11 @@ updated:
 
 Why do we "lift weights" in kilograms?
 
--   On Earth's surface, gravity ($g$) is roughly constant (~9.81 m/s²).
--   Therefore, Mass is a reliable proxy for Weight. An object with 20kg mass always exerts ~196N of force downwards.
--   It is a linguistic shorthand, not a scientific accuracy. We say "it weighs 20kg," but physically we mean "it has a mass of 20kg, resulting in a weight of 196N."
+- On Earth's surface, gravity ($g$) is roughly constant (~9.81 m/s²).
+
+- Therefore, Mass is a reliable proxy for Weight. An object with 20kg mass always exerts ~196N of force downwards.
+
+- It is a linguistic shorthand, not a scientific accuracy. We say "it weighs 20kg," but physically we mean "it has a mass of 20kg, resulting in a weight of 196N."
 
 ---
 
@@ -60,6 +62,9 @@ Since 2019, the kilogram is no longer defined by a physical object (the "Grand K
 > The kilogram is defined by taking the fixed numerical value of the **Planck constant ($h$)** to be $6.62607015 \times 10^{-34}$ J⋅s.
 
 ### Why the Change
--   **Stability:** Physical artifacts (like the platinum-iridium cylinder) can lose atoms or degrade over time. Constants of nature do not.
--   **Universality:** This definition allows any laboratory in the universe with sufficient equipment (like a Kibble Balance) to realize the kilogram without comparing it to a piece of metal in Paris.
--   **Interconnectedness:** The definition depends on the definitions of the *second* (time) and the *meter* (length), reflecting the unified nature of physical laws.
+
+- **Stability:** Physical artifacts (like the platinum-iridium cylinder) can lose atoms or degrade over time. Constants of nature do not.
+
+- **Universality:** This definition allows any laboratory in the universe with sufficient equipment (like a Kibble Balance) to realize the kilogram without comparing it to a piece of metal in Paris.
+
+- **Interconnectedness:** The definition depends on the definitions of the *second* (time) and the *meter* (length), reflecting the unified nature of physical laws.

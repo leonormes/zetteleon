@@ -4,14 +4,14 @@ confidence:
 created: 2025-02-08T10:50:33Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:44Z
+modified: 2025-12-19T10:13:10Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [defect, programming, refactoring]
-title: duplication_in_code_can_indicate_underlying_problems
+title: Duplication in Code Can Indicate Underlying Problems
 type: documentation
 uid: 
 updated: 

@@ -132,7 +132,7 @@ The **thehyve-mkuh** deployment is an Apache Airflow-based ETL system running on
 
 | Container     | Image                            | CPU Request | CPU Limit | Memory Request | Memory Limit |
 | ------------- | -------------------------------- | ----------- | --------- | -------------- | ------------ |
-| **webserver** | fitfile_etl_container_mkuh:0.4.2 | 250m        | -         | 512Mi          | -            |
+| **webserver** | fitfile_etl_container_mkuh:0.4.2 | 250m        | -       | 512Mi          | -          |
 | **scheduler** | fitfile_etl_container_mkuh:0.4.2 | 125m        | 2         | 128Mi          | 24Gi         |
 
 #### Health Probes
@@ -191,8 +191,8 @@ The **thehyve-mkuh** deployment is an Apache Airflow-based ETL system running on
 | ------------------ | ----- |
 | **CPU Request**    | 250m  |
 | **Memory Request** | 256Mi |
-| **CPU Limit**      | -     |
-| **Memory Limit**   | -     |
+| **CPU Limit**      | -   |
+| **Memory Limit**   | -   |
 
 #### PostgreSQL Configuration
 

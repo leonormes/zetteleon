@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-30T12:09:04Z
 epistemic: experimental
 last_reviewed: 2025-12-16
-modified: 2025-12-16T11:57:35Z
+modified: 2025-12-19T10:13:18Z
 purpose: To test if "Front-Loading" the reward alters the dopamine calculation for task initiation.
 review_interval: 2 weeks
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -28,23 +28,27 @@ updated:
 
 ## 2. Experiment Protocol
 
--   **Duration:** 1 Week.
--   **The Reward:** A specific micro-treat (e.g., a high-quality coffee, a single chocolate, a specific track of music).
--   **The Rule:** I get the reward the *second* I perform the first physical action of the task (e.g., opening the IDE, putting on gym shoes). I do not have to finish the task to keep the reward.
--   **The Logic:** This Pavlovian pairing reinforces the *act of starting*, which is the hardest part.
+- **Duration:** 1 Week.
+
+- **The Reward:** A specific micro-treat (e.g., a high-quality coffee, a single chocolate, a specific track of music).
+
+- **The Rule:** I get the reward the *second* I perform the first physical action of the task (e.g., opening the IDE, putting on gym shoes). I do not have to finish the task to keep the reward.
+
+- **The Logic:** This Pavlovian pairing reinforces the *act of starting*, which is the hardest part.
 
 ---
 
 ## 3. Expected Outcome
 
--   **Success:** The "dread" of starting is replaced by the "anticipation" of the treat.
--   **Failure:** I eat the treat and still don't start (Reward decoupled from Action).
+- **Success:** The "dread" of starting is replaced by the "anticipation" of the treat.
+
+- **Failure:** I eat the treat and still don't start (Reward decoupled from Action).
 
 ---
 
 ## 4. Results Log
 
--   *(Log results here)*
+- *(Log results here)*
 
 ---
 

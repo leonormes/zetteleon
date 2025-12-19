@@ -454,7 +454,7 @@ kubectl describe pod frontend | grep -A 9999999999 Events
 ```sh
 Events:
   Type     Reason            Age   From               Message
-  ----     ------            ----  ----               -------
+  ----   ------          ----  ----             -------
   Warning  FailedScheduling  23s   default-scheduler  0/42 nodes available: insufficient cpu
 ```
 
@@ -485,7 +485,7 @@ Allocatable:
 [ ... lines removed for clarity ...]
 Non-terminated Pods:        (5 in total)
   Namespace    Name                                  CPU Requests  CPU Limits  Memory Requests  Memory Limits
-  ---------    ----                                  ------------  ----------  ---------------  -------------
+  ---------  ----                                ------------  ----------  ---------------  -------------
   kube-system  fluentd-gcp-v1.38-28bv1               100m (5%)     0 (0%)      200Mi (2%)       200Mi (2%)
   kube-system  kube-dns-3297075139-61lj3             260m (13%)    0 (0%)      100Mi (1%)       170Mi (2%)
   kube-system  kube-proxy-e2e-test-...               100m (5%)     0 (0%)      0 (0%)           0 (0%)
@@ -494,7 +494,7 @@ Non-terminated Pods:        (5 in total)
 Allocated resources:
   (Total limits may be over 100 percent, i.e., overcommitted.)
   CPU Requests    CPU Limits    Memory Requests    Memory Limits
-  ------------    ----------    ---------------    -------------
+  ------------  ----------  ---------------  -------------
   680m (34%)      400m (20%)    920Mi (11%)        1070Mi (13%)
 ```
 
@@ -550,7 +550,7 @@ Conditions:
   Ready     False
 Events:
   Type    Reason     Age   From               Message
-  ----    ------     ----  ----               -------
+  ----  ------   ----  ----             -------
   Normal  Scheduled  42s   default-scheduler  Successfully assigned simmemleak-hra99 to kubernetes-node-tf0f
   Normal  Pulled     41s   kubelet            Container image "saadali/simmemleak:latest" already present on machine
   Normal  Created    41s   kubelet            Created container simmemleak

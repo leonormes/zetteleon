@@ -35,8 +35,8 @@ In the context of AWS, an Internet Gateway is a mandatory explicit component tha
 
 - **Function:** Provides connectivity between a virtual network and the public internet; serves as a routing target for 0.0.0.0/0; performs IPv4 NAT for public subnets.
 - **Cloud Equivalents:**
--   **AWS:** Internet Gateway (IGW)
--   **Azure:** Implicit internet connectivity provided by the Azure backbone (no explicit gateway deployment is required)
+- **AWS:** Internet Gateway (IGW)
+- **Azure:** Implicit internet connectivity provided by the Azure backbone (no explicit gateway deployment is required)
 
 NAT Gateway
 
@@ -50,8 +50,8 @@ The NAT Gateway exists as a first-class, fully managed service in both AWS and A
 
 - **Function:** Enables outbound-only internet access for private instances in a subnet; performs source NAT (SNAT) using a dedicated public IP address to hide the private IP addresses of internal resources.
 - **Cloud Equivalents:**
--   **AWS:** NAT Gateway
--   **Azure:** NAT Gateway
+- **AWS:** NAT Gateway
+- **Azure:** NAT Gateway
 
 Essential Supporting Networking Components
 
@@ -67,8 +67,8 @@ In AWS, every VPC is associated with a main route table by default, which is aut
 
 - **Function:** Contains routing rules that define the next hop for network traffic based on the destination IP address; a route to `0.0.0.0/0` pointing to a gateway is required for internet access.
 - **Cloud Equivalents:**
--   **AWS:** Route Table
--   **Azure:** Route Table (System routes or User-Defined Route Table)
+- **AWS:** Route Table
+- **Azure:** Route Table (System routes or User-Defined Route Table)
 
 Public IP Address
 
@@ -80,8 +80,8 @@ Therefore, while the Internet Gateway uses an instance's or load balancer's publ
 
 - **Function:** Provides a globally reachable IP address on the internet; serves as the source address for outbound traffic when translated by an Internet Gateway or NAT Gateway.
 - **Cloud Equivalents:**
--   **AWS:** Elastic IP Address (for NAT Gateway or static association)
--   **Azure:** Public IP Address
+- **AWS:** Elastic IP Address (for NAT Gateway or static association)
+- **Azure:** Public IP Address
 Here’s the networking answer, using AWS/Azure terms but sticking to the *pure networking* bits (no security rules, IAM, etc.).
 
 ## 1. The CIDR /24 Piece

@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-14T17:30:00Z
 epistemic: Grounded in the Great British Class Survey (GBCS) and Bourdieu's Capital Theory.
 last_reviewed: 2025-12-15
-modified: 2025-12-15T19:53:25Z
+modified: 2025-12-19T10:12:34Z
 purpose: A comprehensive analysis of the contemporary UK class structure, integrating the 7-class GBCS model with Weberian and Bourdieusian sociological frameworks.
 related-soTs: ["[[SoT - Social Stratification]]"]
 review_interval: 1 year
@@ -35,8 +35,9 @@ To understand *why* the hierarchy exists, we apply key sociological frameworks:
 
 Stratification is not just about money (Class); it is also about:
 
--   **Status (Social Honour):** The prestige of a role (e.g., a poorly paid Nurse has higher status than a well-paid Call Center Manager).
--   **Power (Party):** The ability to influence the rules of the game (e.g., Politicians, Union Leaders).
+- **Status (Social Honour):** The prestige of a role (e.g., a poorly paid Nurse has higher status than a well-paid Call Center Manager).
+
+- **Power (Party):** The ability to influence the rules of the game (e.g., Politicians, Union Leaders).
 
 ### B. Bourdieu's Capital (The Currency)
 
@@ -54,7 +55,7 @@ Based on the Great British Class Survey (GBCS), the UK population is stratified 
 
 ### I. The Elites
 1.  **The Elite:** High capital across all three dimensions. Wealthy, highly educated, and socially connected.
-    -   *Symbolic Apex:* **The Monarchy** exists outside this scale as the ultimate source of Status (Social Honour), independent of market forces.
+    - *Symbolic Apex:* **The Monarchy** exists outside this scale as the ultimate source of Status (Social Honour), independent of market forces.
 
 ### II. The Established Middle
 2.  **Established Middle Class:** The largest and most gregarious group. Culturally active, economically secure, and broadly networked.
@@ -86,5 +87,6 @@ How is the hierarchy maintained?
 
 ## 5. Status Anomalies
 
--   **Elite Athletes (The Pop-Aristocracy):** High economic capital but precarious status. Unlike the Aristocracy (permanent lineage), their status is performance-dependent and evaporates with fame.
--   **The Class Ceiling:** Working-class entrants to elite professions earn ~16% less than their privileged peers due to a lack of "soft skills" and "cultural fit" (The Sponsorship Gap).
+- **Elite Athletes (The Pop-Aristocracy):** High economic capital but precarious status. Unlike the Aristocracy (permanent lineage), their status is performance-dependent and evaporates with fame.
+
+- **The Class Ceiling:** Working-class entrants to elite professions earn ~16% less than their privileged peers due to a lack of "soft skills" and "cultural fit" (The Sponsorship Gap).

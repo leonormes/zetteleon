@@ -5,7 +5,7 @@ confidence:
 created: 2025-03-25T06:18:51Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:48Z
+modified: 2025-12-19T10:13:04Z
 purpose: 
 review_interval: 
 see_also: []
@@ -34,10 +34,13 @@ Network driver itself must follow the rules imposed by the model.
 
 The model defines 4 things:
 
--   Every pod has its IP address.
--   Containers inside the pod can communicate between themselves.
--   Every pod can communicate with another pod in the cluster without using NAT.
--   Isolation is defined by the Network Policies.
+- Every pod has its IP address.
+
+- Containers inside the pod can communicate between themselves.
+
+- Every pod can communicate with another pod in the cluster without using NAT.
+
+- Isolation is defined by the Network Policies.
 
 Apart from network driver one also important component is IPAM.
 
@@ -81,14 +84,15 @@ When the request gets to Node 2, cbr0 on Node 2, based on the destination IP add
 
 The unanswered questions here are:
 
--   What are “Routing tables”?
--   Who is setting subnets of the nodes?
+- What are “Routing tables”?
+
+- Who is setting subnets of the nodes?
 
 ## Kubenet on the Azure
 
 For example Azure allows you to use kubenet as a network driver when they are maintaining “Routing tables”. “Routing tables” are some kind of encapsulation using VXLAN or IP-in-IP. Using some kind of tunneling protocol network driver will respect the promised:
 
--   Every pod can communicate with another pod in the cluster without using NAT.
+- Every pod can communicate with another pod in the cluster without using NAT.
 
 As for subnets and who is managing them — again the cloud provider should distribute to the node proper IPAM configurations or the network driver itself (implementing IPAM).
 

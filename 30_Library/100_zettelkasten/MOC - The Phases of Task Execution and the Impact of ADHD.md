@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-29T16:38:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-08T11:12:04Z
+modified: 2025-12-19T10:13:19Z
 purpose:
 review_interval:
 see_also: []
@@ -34,9 +34,11 @@ Research identifies several overlapping models for breaking tasks into phases. T
 
 Different brain networks are active during each phase:
 
--   **Initiation:** [[Task Initiation Activates Medial Prefrontal Regions for Energization|Superior medial prefrontal regions activate to provide "energization"]].
--   **Sustained Attention:** [[Sustained Attention Relies on a Right-Lateralized Prefrontal-Parietal Network|A right-lateralized network including the prefrontal cortex and parietal areas is engaged]].
--   **Performance Monitoring:** [[Performance Monitoring is Generated in the Medial Frontal Cortex|The medial frontal cortex, particularly the anterior cingulate cortex, becomes active to detect errors]].
+- **Initiation:** [[Task Initiation Activates Medial Prefrontal Regions for Energization|Superior medial prefrontal regions activate to provide "energization"]].
+
+- **Sustained Attention:** [[Sustained Attention Relies on a Right-Lateralized Prefrontal-Parietal Network|A right-lateralized network including the prefrontal cortex and parietal areas is engaged]].
+
+- **Performance Monitoring:** [[Performance Monitoring is Generated in the Medial Frontal Cortex|The medial frontal cortex, particularly the anterior cingulate cortex, becomes active to detect errors]].
 
 ## How ADHD Affects Each Phase
 

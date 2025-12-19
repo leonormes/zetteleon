@@ -5,7 +5,7 @@ confidence:
 created: 2025-12-07T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-12T18:18:04Z
+modified: 2025-12-19T10:12:33Z
 purpose:
 review_interval:
 see_also: []
@@ -41,14 +41,17 @@ My current PKM fails because it treats knowledge like a **file system** (a flat 
 3.  **The Goal:** I don't need an archive of everything I've ever read. I need to know: *"What is the `HEAD` state of my mental model on Topic X right now?"*
 
 **The New Paradigm:**
--   **HEAD:** The current, working theory (The Workbench).
--   **SoT (Source of Truth):** The "Production" branch. Validated, merged, and trusted.
--   **Archive:** The commit history. Interesting for context, but not for operation.
+- **HEAD:** The current, working theory (The Workbench).
+- **SoT (Source of Truth):** The "Production" branch. Validated, merged, and trusted.
+- **Archive:** The commit history. Interesting for context, but not for operation.
 
 ## The Tension
--   **Capture vs. Process:** I have been "cargo culting" PKM—building infrastructure for insights that never happen. I collect information (pushing to the repo) but rarely merge or refactor (pull requests/code review).
--   **The Illusion of Profundity:** "The words I write down are not the same as the thoughts when I have them" (2025-11-23). There is a loss of fidelity between the rich internal model and the static text.
--   **Encyclopedia vs. Tool:** I am building an encyclopedia (storage) when I actually need a workbench (processing). An encyclopedia is hard to load into context quickly; a tool should be ready to hand.
+
+- **Capture vs. Process:** I have been "cargo culting" PKM—building infrastructure for insights that never happen. I collect information (pushing to the repo) but rarely merge or refactor (pull requests/code review).
+
+- **The Illusion of Profundity:** "The words I write down are not the same as the thoughts when I have them" (2025-11-23). There is a loss of fidelity between the rich internal model and the static text.
+
+- **Encyclopedia vs. Tool:** I am building an encyclopedia (storage) when I actually need a workbench (processing). An encyclopedia is hard to load into context quickly; a tool should be ready to hand.
 
 ## The Next Test
 **Hypothesis:** If I explicitly separate "Thinking" (volatile, HEAD) from "Knowledge" (stable, SoT), I will regain trust in the system because I will know exactly where to look for the "current version" of an idea.

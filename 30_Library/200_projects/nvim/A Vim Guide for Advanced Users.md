@@ -499,7 +499,7 @@ This will substitute the first match of `pattern` with `replacement` from the ex
 Let’s now introduce special marks with these keystrokes:
 
 - `m<` or `m>` - Set the marks `'<` and `'>` we saw above. It can be handy for the keystroke `gv`.
-- `` `[ ``\- Move to the first character of the previously changed, deleted, or yanked content.
+- `` `[ ``- Move to the first character of the previously changed, deleted, or yanked content.
 - `` `] `` - Move to the last character of the previously changed, deleted, or yanked content.
 - ` `` ` - Move to the position before the latest jump from the jump list (or where you’ve set it with `m'` or `` m` ``).
 - `` `" `` - Move to the position were you’ve closed the current file for the last time.

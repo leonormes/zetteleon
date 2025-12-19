@@ -26,7 +26,7 @@ updated: 2025-11-12T15:00:09Z
 4.  *After* the dump is complete, sort the items into relevant categories (e.g., project board, calendar, someday/maybe list).
 
 **Failure modes:**
--   Trying to organize *during* the brain dump, which adds friction and defeats the purpose of offloading.
--   Using multiple, untrusted systems, which creates anxiety about losing information.
+- Trying to organize *during* the brain dump, which adds friction and defeats the purpose of offloading.
+- Using multiple, untrusted systems, which creates anxiety about losing information.
 
 **Example (1 max):** At the end of the workday, spend 15 minutes writing every open loop onto a whiteboard: "email Bob," "buy milk," "idea for new feature," "worry about deadline." Then, move each item to its proper place (calendar, task list, etc.). The primary goal is to offload the burden of remembering.
