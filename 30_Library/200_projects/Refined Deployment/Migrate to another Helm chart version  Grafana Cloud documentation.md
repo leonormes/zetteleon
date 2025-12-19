@@ -296,8 +296,9 @@ If using Pod logs `logs.pod_logs.enabled`:
 
 2. Move `logs.pod_logs` to `podLogs`.
 3. Rename:
- - `extraRelabelingRules` to `extraDiscoveryRules`
- - `extraStageBlocks` to `extraLogProcessingStages`
+
+- `extraRelabelingRules` to `extraDiscoveryRules`
+- `extraStageBlocks` to `extraLogProcessingStages`
 
 ### Prometheus Operator Objects Mapping
 
@@ -323,9 +324,10 @@ If using Prometheus Operator objects, `metrics.podMonitors.enabled`, `metrics.pr
  ```
 
 2. Move the following:
- - `metrics.podMonitors` to `prometheusOperatorObjects.podMonitors`
- - `metrics.probes` to `prometheusOperatorObjects.probes`
- - `metrics.serviceMonitors` to `prometheusOperatorObjects.serviceMonitors`
+
+- `metrics.podMonitors` to `prometheusOperatorObjects.podMonitors`
+- `metrics.probes` to `prometheusOperatorObjects.probes`
+- `metrics.serviceMonitors` to `prometheusOperatorObjects.serviceMonitors`
 
 ### Integrations Mapping
 
@@ -378,11 +380,13 @@ For other uses of `extraConfig`, refer to the following table:
 | Alloy for Profiles | `profiles.extraConfig` | `alloy-profiles.extraConfig` |
 
 1. Move the following:
- - `extraConfig` related to metrics to `alloy-metrics.extraConfig`
- - `extraConfig` related to application receivers to `alloy-receivers.extraConfig`
- - `logs.cluster_events.extraConfig` to `alloy-singleton.extraConfig`
- - `logs.extraConfig` to `alloy-logs.extraConfig`
- - `profiles.extraConfig` to `alloy-profiles.extraConfig`
+
+- `extraConfig` related to metrics to `alloy-metrics.extraConfig`
+- `extraConfig` related to application receivers to `alloy-receivers.extraConfig`
+- `logs.cluster_events.extraConfig` to `alloy-singleton.extraConfig`
+- `logs.extraConfig` to `alloy-logs.extraConfig`
+- `profiles.extraConfig` to `alloy-profiles.extraConfig`
+
 2. Rename destinations for telemetry data to the appropriate destination component. Refer to [Destination names](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/configuration/helm-chart-config/helm-chart/migrate-helm-chart/#destination-names).
 
 #### Destination Names

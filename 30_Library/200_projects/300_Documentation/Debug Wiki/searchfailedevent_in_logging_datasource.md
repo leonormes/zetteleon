@@ -35,8 +35,8 @@ The logging datasource is encountering an error where the evaluation results for
 
 - Error Message: "invalid format of evaluation results for the alert definition : frame cannot uniquely be identified by its labels: has duplicate results with labels {}"
 - Affected Components:
-    - Logging datasource
-    - `SearchFailedEvent` alert rule
+  - Logging datasource
+  - `SearchFailedEvent` alert rule
 - Related System States: Potential inconsistencies or errors in the log data being ingested or processed.
 
 ### Root Cause

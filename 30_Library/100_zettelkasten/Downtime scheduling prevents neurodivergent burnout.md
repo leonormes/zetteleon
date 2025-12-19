@@ -21,5 +21,6 @@ updated:
 Scheduling downtime as a non-negotiable part of routines prevents burnout in neurodivergent individuals, acknowledging that rest is not optional but essential for sustainable functioning and recovery from sensory and cognitive demands.
 
 ## Related
+
 - [[Overwhelm]]
 - [[The Shame-Procrastination Cycle]]

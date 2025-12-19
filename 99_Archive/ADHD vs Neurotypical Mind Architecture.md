@@ -34,36 +34,36 @@ Here is the comparative architecture.
 **The Framework:** How the brain decides what to execute next.
 
 - **Neurotypical Architecture (Importance-Based):**The NT system assigns priority tags based on **importance**, **urgency**, and **consequence**. It is a linear hierarchy. If a task is flagged as "Critical for Career," the executive function pushes it to the front of the queue. The bridge between "knowing I should do it" and "doing it" is a paved road.
-	- *The Experience:* You think "I must file that tax return." You feel a mild resistance, but the decision to act triggers the motor function almost immediately. The internal negotiation is brief or non-existent.
+  - *The Experience:* You think "I must file that tax return." You feel a mild resistance, but the decision to act triggers the motor function almost immediately. The internal negotiation is brief or non-existent.
 - **ADHD Architecture (Interest-Based):**The ADHD system rejects "importance" as a primary driver. It prioritises based on **Interest**, **Novelty**, **Challenge**, **Urgency**, and **Passion** (INCUP).
-	- *The Experience:* You know the tax return is critical. However, the system marks it as "Low Stimulation." The brain refuses to allocate fuel (dopamine) to the task. You are pressing the accelerator (willpower), but the engine is in neutral. You remain frozen until the deadline creates "Urgency" (adrenaline), which finally bridges the gap.
+  - *The Experience:* You know the tax return is critical. However, the system marks it as "Low Stimulation." The brain refuses to allocate fuel (dopamine) to the task. You are pressing the accelerator (willpower), but the engine is in neutral. You remain frozen until the deadline creates "Urgency" (adrenaline), which finally bridges the gap.
 
 ## 2\. The Working Memory Buffer (RAM)
 
 **The Framework:** The temporary workspace where information is held while being processed.
 
 - **Neurotypical Architecture:**NT working memory functions like a stable, medium-capacity RAM stick. It can hold 3–5 items securely while the processor performs operations.
-	- *The Experience:* An NT person walks into a room to get keys, sees a dirty cup, picks it up, puts it in the dishwasher, and *still remembers* they are there for the keys. The original intent persists in the background buffer.
+  - *The Experience:* An NT person walks into a room to get keys, sees a dirty cup, picks it up, puts it in the dishwasher, and *still remembers* they are there for the keys. The original intent persists in the background buffer.
 - **ADHD Architecture:**ADHD working memory is volatile and smaller in capacity. It functions like a specific type of buffer that clears itself the moment a new input spike occurs.
-	- *The Experience:* You enter the room for keys. You see the cup. The visual input of the cup overwrites the "keys" data packet. You wash the cup. You leave the room. The original intent (keys) has been deleted from the cache. You only remember it when you try to start the car and realise the data is missing.
+  - *The Experience:* You enter the room for keys. You see the cup. The visual input of the cup overwrites the "keys" data packet. You wash the cup. You leave the room. The original intent (keys) has been deleted from the cache. You only remember it when you try to start the car and realise the data is missing.
 
 ## 3\. Signal Gating (Inhibition)
 
 **The Framework:** The "Spam Filter" that suppresses irrelevant internal and external stimuli.
 
 - **Neurotypical Architecture:**The NT brain has a robust noise-cancellation algorithm. It automatically suppresses the hum of the fridge, the sensation of the tag on a shirt, or a random thought about a movie.
-	- *The Experience:* Focus feels like a library. You can choose to look at the book in front of you, and the rest of the room fades into a blurred background. You simply *do not perceive* the distractions.
+  - *The Experience:* Focus feels like a library. You can choose to look at the book in front of you, and the rest of the room fades into a blurred background. You simply *do not perceive* the distractions.
 - **ADHD Architecture:**The gating mechanism is loose. All sensory inputs and internal thoughts arrive with the same "admin" privilege level.
-	- *The Experience:* Focus feels like a crowded stock exchange floor. The fridge hum, the shirt tag, the task at hand, and a sudden idea about ancient Rome all scream for attention simultaneously. To focus on one thing, you must actively burn energy to push the other three away. This is why you fatigue faster—you are manually doing what the NT brain does automatically.
+  - *The Experience:* Focus feels like a crowded stock exchange floor. The fridge hum, the shirt tag, the task at hand, and a sudden idea about ancient Rome all scream for attention simultaneously. To focus on one thing, you must actively burn energy to push the other three away. This is why you fatigue faster—you are manually doing what the NT brain does automatically.
 
 ## 4\. Temporal Processing (Time Horizon)
 
 **The Framework:** The ability to visualise and feel the future implications of current actions.
 
 - **Neurotypical Architecture:**Time is perceived as a linear continuum. The future feels "real" and connected to the present.
-	- *The Experience:* An NT person feels a micro-dose of anxiety or reward regarding an event two weeks away. This feeling propels them to do a small amount of preparation today. They can "see" the accumulation of time.
+  - *The Experience:* An NT person feels a micro-dose of anxiety or reward regarding an event two weeks away. This feeling propels them to do a small amount of preparation today. They can "see" the accumulation of time.
 - **ADHD Architecture:**Time is often binary: **Now** and **Not Now**. The temporal horizon is extremely short.
-	- *The Experience:*If a deadline is two weeks away, it is in the "Not Now" bucket, meaning it effectively does not exist emotionally. You conceptually know it is there, but you cannot *feel* the reality of it until it breaches the "Now" horizon (usually 24–48 hours before). This is often called "Time Blindness."
+  - *The Experience:*If a deadline is two weeks away, it is in the "Not Now" bucket, meaning it effectively does not exist emotionally. You conceptually know it is there, but you cannot *feel* the reality of it until it breaches the "Now" horizon (usually 24–48 hours before). This is often called "Time Blindness."
 
 ## Summary Comparison Table
 
@@ -116,9 +116,9 @@ Your ambition is likely too big for your working memory to handle as a single un
 
 - **The Logic:** You need a "micro-transaction" of effort that is so cheap the brain doesn't bother putting up a fight.
 - **Implementation:** Do not set a goal to "do the work." Set a goal to **enter the state**.
-	- *Bad:* "I will study for 2 hours." (Brain rejects: Too expensive).
-	- *Good:* "I will put on my noise-cancelling headphones and open the document." (Brain accepts: Cheap).
-	- Once the document is open and headphones are on, the **switching cost** is paid. Newton’s First Law takes over: objects in motion tend to stay in motion.
+  - *Bad:* "I will study for 2 hours." (Brain rejects: Too expensive).
+  - *Good:* "I will put on my noise-cancelling headphones and open the document." (Brain accepts: Cheap).
+  - Once the document is open and headphones are on, the **switching cost** is paid. Newton’s First Law takes over: objects in motion tend to stay in motion.
 
 ### 2\. Input Bundling (Artificial Dopamine Injection)
 
@@ -126,10 +126,10 @@ Since the ambitious task is likely "boring" (low stimulation), you must artifici
 
 - **The Logic:** ADHD brains need a certain baseline of stimulation to function. If the task provides 20% stimulation, you need to provide the other 80% via sensory channels, or the brain will seek distraction.
 - **Implementation:**
-	- **Audio:** Brown noise, binaural beats, or specific non-lyrical music (e.g., video game soundtracks are designed to keep you engaged without distraction).
-	- **Kinesthetic:** Standing desk, balance board, or fidget toy.
-	- **Visual:** Low lighting on peripherals, spotlight on work.
-	- *Concept:* You are building a "cockpit" where the only logical action is the work.
+  - **Audio:** Brown noise, binaural beats, or specific non-lyrical music (e.g., video game soundtracks are designed to keep you engaged without distraction).
+  - **Kinesthetic:** Standing desk, balance board, or fidget toy.
+  - **Visual:** Low lighting on peripherals, spotlight on work.
+  - *Concept:* You are building a "cockpit" where the only logical action is the work.
 
 ### 3\. The "If-Then" Algorithm (Implementation Intentions)
 
@@ -137,9 +137,9 @@ Do not rely on "remembering" to do the routine. That uses Executive Function (wh
 
 - **The Logic:** Offload the "decision" to the environment.
 - **Implementation:**
-	- *Structure:*`IF [Current State/Event] THEN [Micro-Action].`
-	- *Example:* "IF I brew coffee (trigger), THEN I immediately open my laptop (action) BEFORE I sit down."
-	- *Crucial Detail:* Do not sit down first. Sitting is a "terminal state" often associated with rest/scrolling. Keep momentum physical.
+  - *Structure:*`IF [Current State/Event] THEN [Micro-Action].`
+  - *Example:* "IF I brew coffee (trigger), THEN I immediately open my laptop (action) BEFORE I sit down."
+  - *Crucial Detail:* Do not sit down first. Sitting is a "terminal state" often associated with rest/scrolling. Keep momentum physical.
 
 ### 4\. Body Doubling (External Regulator)
 
@@ -206,8 +206,8 @@ You need a mechanism to force the submarine to surface and re-establish radio co
 - **The Fix:** A programmable, external interrupt.
 - **Implementation:** Set a timer for short intervals (e.g., 20 mins). When it beeps, you **must** stop, physically pull your hands away from the keyboard/tools, and look at your Visual Dashboard.
 - **The Check:** Ask one question: *"Is what I am doing right now moving me toward Step X?"*
-	- If yes: Resume.
-	- If no (e.g., you are font-optimising instead of writing): Abort current action. Reset to plan.
+  - If yes: Resume.
+  - If no (e.g., you are font-optimising instead of writing): Abort current action. Reset to plan.
 
 ## Summary of Operations
 
@@ -221,4 +221,4 @@ Google Account
 
 Leon Ormes
 
-leonormes@gmail.com
+<leonormes@gmail.com>

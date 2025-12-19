@@ -24,7 +24,7 @@ version:
 
 The Future of IM1
 
-There are no current plans to decommission IM1. The long-term future is being considered and, in the future, there may be alternative options which replace IM1. There are no confirmed plans or timescales for this currently. 
+There are no current plans to decommission IM1. The long-term future is being considered and, in the future, there may be alternative options which replace IM1. There are no confirmed plans or timescales for this currently.
 
 We will provide further updates if this changes. For more information please contact:
 
@@ -42,7 +42,7 @@ There are also several new suppliers who will provide the foundation set capabil
 
 Each supplier of foundation capabilities must provide an 'interface mechanism' for use by third party systems to support integration between the core providing systems and specialist applications, such as clinical decision,  support, patient facing services, document management or appointments.
 
-Interface mechanisms enable separate systems to: 
+Interface mechanisms enable separate systems to:
 
 - read patient information
 - extract information in bulk
@@ -58,9 +58,9 @@ Any consuming supplier can apply to 'pair' their service with any provider supp
 
 Complete the IM1 Clinical and Information Governance prerequisites form
 
-Supplier Conformance Assessment List (SCAL) will be issued if prerequisites are confirmed and in place as part of the application process. Your application will be assessed for compatibility against the provider suppliers' APIs and you will need to include some information about the product you are wanting to develop. We may also ask you to submit evidence to show you meet the SCAL requirements. 
+Supplier Conformance Assessment List (SCAL) will be issued if prerequisites are confirmed and in place as part of the application process. Your application will be assessed for compatibility against the provider suppliers' APIs and you will need to include some information about the product you are wanting to develop. We may also ask you to submit evidence to show you meet the SCAL requirements.
 
-When we have confirmed your product is compatible, you will be asked to execute a Model Interface Licence with each of the provider suppliers, this will cover your use of the provider suppliers' APIs. Once the Model Interface Licence has been executed by both consumer and provider suppliers, you will be given access to a test environment so you can develop your solution using the provider supplier guidance/documentation. 
+When we have confirmed your product is compatible, you will be asked to execute a Model Interface Licence with each of the provider suppliers, this will cover your use of the provider suppliers' APIs. Once the Model Interface Licence has been executed by both consumer and provider suppliers, you will be given access to a test environment so you can develop your solution using the provider supplier guidance/documentation.
 
 #### IM1 Process Flow
 
@@ -403,7 +403,7 @@ We have listed all the suppliers who have already completed IM1 assurance in th
 - Product or system name Evergreen Connect
 - Provider supplier working with EMIS, TPP
 - Consumer supplierFITFILE Group Limited
-- Product or system name 
+- Product or system name
 
 FITFILE
 
@@ -418,7 +418,7 @@ FITFILE
 - Product or system name HI Hub
 - Provider supplier working with EMIS
 - Consumer supplierHealthcare Monitors UK Ltd
-- Product or system name 
+- Product or system name
 
 PatientPod 1.1
 

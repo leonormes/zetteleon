@@ -25,10 +25,10 @@ Duplication in code can indicate underlying problems and lead to increased work,
 - Description: Identical blocks of code repeated within a system. This is the most obvious form of duplication.
 - How to Spot: Look for copy-pasted code fragments. Tools like IDEs can help identify these.
 - Problems:
-    - Bloats the code.
-    - Requires multiple modifications if the algorithm needs to change.
-    - Increases the opportunity for errors of omission.
-    - Makes code harder to understand and maintain.
+  - Bloats the code.
+  - Requires multiple modifications if the algorithm needs to change.
+  - Increases the opportunity for errors of omission.
+  - Makes code harder to understand and maintain.
 - Solutions: Replace with simple methods or subroutines.
 
 1. Similar Code:
@@ -36,13 +36,13 @@ Duplication in code can indicate underlying problems and lead to increased work,
 - Description: Code fragments that are not identical but perform the same job. These may contain slight variations.
 - How to Spot: Identify similar algorithms or logic implemented in different modules, even without identical lines of code.
 - Problems:
-    - Can be harder to find and fix than exact duplicates.
-    - Still leads to increased maintenance effort and potential inconsistencies.
+  - Can be harder to find and fix than exact duplicates.
+  - Still leads to increased maintenance effort and potential inconsistencies.
 - Solutions:
-    - Massage the code to look more alike and then refactor.
-    - Use the TEMPLATE METHOD or STRATEGY patterns.
-    - Extract Class to move behavior containing the duplication to a separate component.
-    - Extract Superclass.
+  - Massage the code to look more alike and then refactor.
+  - Use the TEMPLATE METHOD or STRATEGY patterns.
+  - Extract Class to move behavior containing the duplication to a separate component.
+  - Extract Superclass.
 
 1. Data Clumps:
 
@@ -95,16 +95,16 @@ Duplication in code can indicate underlying problems and lead to increased work,
 1. Concurrency-Related Duplication:
 
 - Description:
-    - Duplication of effort in ensuring effective guarding of shared data.
-    - Similar code in exception handling situations.
+  - Duplication of effort in ensuring effective guarding of shared data.
+  - Similar code in exception handling situations.
 - How to Spot: Multiple places where shared data is protected. Standard error recording and proceeding mechanisms.
 - Problems:
-    - Forgetting to protect shared data.
-    - Bloated code.
+  - Forgetting to protect shared data.
+  - Bloated code.
 - Solutions:
-    - Limit access to shared data.
-    - Use copies of data to avoid sharing.
-    - Centralize error handling.
+  - Limit access to shared data.
+  - Use copies of data to avoid sharing.
+  - Centralize error handling.
 
 General Principles for Addressing Duplication:
 

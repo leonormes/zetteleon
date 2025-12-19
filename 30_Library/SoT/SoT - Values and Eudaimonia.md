@@ -42,6 +42,7 @@ The experience is fundamentally different in **Texture** and **Duration**.
 
 **The Emotional Shift:**
 Living by duty does not feel like "fun" in the video-game sense. It feels like **Relief**.
+
 - **The Anxiety of Potential:** When you seek dopamine, you live with a background hum of guilt ("I should be doing something else").
 - **The Silence of Integrity:** When you do the duty, that background hum stops. The resulting silence is not "boredom"; it is **Safety**. It is the feeling of being a "Safe Harbor" for yourself.
 
@@ -53,9 +54,9 @@ You ask: *"Is it a fundamentally different type of reward?"*
 
 **Yes.** While dopamine is involved in *moving* you toward the value, the *satisfaction* of the value relies on different systems.
 
-1.  **Dopamine (The Chase):** This is the molecule of "Wanting." It drives the impulse to scroll, eat, or buy. It promises happiness but only delivers *arousal*.
-2.  **Opioids & Serotonin (The Prize):** These are the molecules of "Liking" and "Satiety." Eudaimonic acts (helping a friend, finishing a hard project) trigger these systems, leading to a feeling of deep contentment rather than frantic excitement.
-3.  **Oxytocin (The Bond):** Duty often involves responsibility to others (family, team). Fulfilling this releases oxytocin, which reduces cortisol (stress) and creates a feeling of "warmth" and "elevation."
+1. **Dopamine (The Chase):** This is the molecule of "Wanting." It drives the impulse to scroll, eat, or buy. It promises happiness but only delivers *arousal*.
+2. **Opioids & Serotonin (The Prize):** These are the molecules of "Liking" and "Satiety." Eudaimonic acts (helping a friend, finishing a hard project) trigger these systems, leading to a feeling of deep contentment rather than frantic excitement.
+3. **Oxytocin (The Bond):** Duty often involves responsibility to others (family, team). Fulfilling this releases oxytocin, which reduces cortisol (stress) and creates a feeling of "warmth" and "elevation."
 
 **The ADHD Challenge:** Your brain is hyper-sensitive to the "Wanting" system (Dopamine) and often hypo-sensitive to the "Satiety" system. You are functionally addicted to the *hunt*, not the *kill*. Transitioning to values means re-sensitizing yourself to the quieter, slower burn of Serotonin/Oxytocin.
 
@@ -68,6 +69,7 @@ You ask: *"Is it a fundamentally different type of reward?"*
 For someone with ADHD, "following your feelings" is a trap, because your feelings are often just biochemical noise (dopamine craving).
 
 **The Architectural Shift:**
+
 - **From:** "I am what I feel." (If I feel lazy, I am lazy. If I feel bored, the task is wrong).
 - **To:** "I am what I do." (I feel lazy, but I am writing the report. Therefore, I am a writer).
 
@@ -151,6 +153,7 @@ The life you are proud of does not feel "exciting" in the moment. It feels **Sol
 You are not broken because you crave the candy. You are starving because you haven't learned how to cook the steak yet.
 
 ### Related Source of Truth Notes
+
 - [[SoT - ADHD and Motivation]] - The mechanics of engineering this transition.
 - [[SoT - Identity-Based Habit Formation]] - How to lock these changes in.
 - [[SoT - Mindfulness and Emotional Regulation]] - For emotional regulation during transition.

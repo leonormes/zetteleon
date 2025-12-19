@@ -47,7 +47,7 @@ To conceptualize the difference between an ADHD mind and a neurotypical (NT) min
 
 - **ADHD:** Volatile, small-capacity RAM. New high-stimulation input **overwrites** previous data.
 
-    - **The RAM Overwrite Failure:** You cannot run "The Execution App" (Doing) and "The Management App" (Planning) simultaneously. Focus saturates RAM, evicting the plan. This is why you forget the plan the moment you start working.
+  - **The RAM Overwrite Failure:** You cannot run "The Execution App" (Doing) and "The Management App" (Planning) simultaneously. Focus saturates RAM, evicting the plan. This is why you forget the plan the moment you start working.
 
 ### C. Signal Gating (Inhibition)
 
@@ -161,15 +161,15 @@ Beyond the PRODOS system scaffolding, these behavioral interventions target the 
 
 - **Shift from Feeling-Centered to Purpose-Centered Action:**
 
-    - *The Shift:* Abandon the question "What do I *feel* like doing?" and replace it with "What *needs* to be done?".
+  - *The Shift:* Abandon the question "What do I *feel* like doing?" and replace it with "What *needs* to be done?".
 
-    - *The Insight:* Action is not the result of motivation; it is the *cause* of it. Doing the thing generates the feelings you are waiting for. (Source: [[The Art of Taking Action]])
+  - *The Insight:* Action is not the result of motivation; it is the *cause* of it. Doing the thing generates the feelings you are waiting for. (Source: [[The Art of Taking Action]])
 
 - **Mindfulness as Attention Training**: Unlike "fighting" distraction, mindfulness trains the capacity to "position" the mind. It is noted as a consistent tool for strengthening the attention muscle. (Source: [[Peak Mind]])
 
 - **Reframing Procrastination**: Recognized not as a time-management issue but as **Emotional Regulation Failure** (prioritizing short-term mood repair over long-term goals).
 
-    - *Tactic:* Use the "Just Get Started" implementation intention. Starting a task immediately changes the perception of its difficulty and reduces the negative emotion attached to it. (Source: [[Solving the Procrastination Puzzle]])
+  - *Tactic:* Use the "Just Get Started" implementation intention. Starting a task immediately changes the perception of its difficulty and reduces the negative emotion attached to it. (Source: [[Solving the Procrastination Puzzle]])
 
 ### C. Practical Motivation Protocols
 

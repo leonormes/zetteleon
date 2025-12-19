@@ -43,9 +43,9 @@ Stratification is not just about money (Class); it is also about:
 
 Class position is determined by the volume and composition of three capitals:
 
-1.  **Economic Capital:** Income, savings, house value.
-2.  **Social Capital:** The number and status of people you know (Networking).
-3.  **Cultural Capital:** Highbrow tastes (Opera, Museums) vs. Emerging tastes (Social Media, Urban Culture).
+1. **Economic Capital:** Income, savings, house value.
+2. **Social Capital:** The number and status of people you know (Networking).
+3. **Cultural Capital:** Highbrow tastes (Opera, Museums) vs. Emerging tastes (Social Media, Urban Culture).
 
 ---
 
@@ -54,20 +54,24 @@ Class position is determined by the volume and composition of three capitals:
 Based on the Great British Class Survey (GBCS), the UK population is stratified as follows:
 
 ### I. The Elites
-1.  **The Elite:** High capital across all three dimensions. Wealthy, highly educated, and socially connected.
+
+1. **The Elite:** High capital across all three dimensions. Wealthy, highly educated, and socially connected.
     - *Symbolic Apex:* **The Monarchy** exists outside this scale as the ultimate source of Status (Social Honour), independent of market forces.
 
 ### II. The Established Middle
-2.  **Established Middle Class:** The largest and most gregarious group. Culturally active, economically secure, and broadly networked.
-3.  **Technical Middle Class:** A new breed of prosperous technical experts. High economic capital but relatively low social and cultural engagement. They are affluent but culturally isolated.
+
+2. **Established Middle Class:** The largest and most gregarious group. Culturally active, economically secure, and broadly networked.
+3. **Technical Middle Class:** A new breed of prosperous technical experts. High economic capital but relatively low social and cultural engagement. They are affluent but culturally isolated.
 
 ### III. The New Workers
-4.  **New Affluent Workers:** Young, socially active, with moderate income. They are the "Squeezed Middle"—economically secure but asset-poor (renting/high mortgages).
-5.  **Emergent Service Workers:** Young, urban, often in gig-economy or service roles. Low economic capital but surprisingly high **emerging cultural capital** (social media savvy, urban trends).
+
+4. **New Affluent Workers:** Young, socially active, with moderate income. They are the "Squeezed Middle"—economically secure but asset-poor (renting/high mortgages).
+5. **Emergent Service Workers:** Young, urban, often in gig-economy or service roles. Low economic capital but surprisingly high **emerging cultural capital** (social media savvy, urban trends).
 
 ### IV. The Traditional & Precarious
-6.  **Traditional Working Class:** Older, de-industrialized demographic. Low economic and cultural/social capital, but often have high **asset wealth** (homeowners) due to historical housing policies (Right to Buy).
-7.  **The Precariat:** The most deprived class. Low scores on every dimension. Renting, precarious employment, and social isolation.
+
+6. **Traditional Working Class:** Older, de-industrialized demographic. Low economic and cultural/social capital, but often have high **asset wealth** (homeowners) due to historical housing policies (Right to Buy).
+7. **The Precariat:** The most deprived class. Low scores on every dimension. Renting, precarious employment, and social isolation.
 
 ---
 

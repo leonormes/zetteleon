@@ -78,25 +78,30 @@ The sequence culminates in rebuilding stable confidence without certainty:
 ### Summary of Typed Relationships
 
 **Epistemic foundations:**
+
 - [[The Map is Not the Territory]] rel:: supports [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]]
 - [[Social Constructs Have Real Effects Despite Lacking Objective Truth]] rel:: establishes [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]]
 
 **Self-construction:**
+
 - [[The Self is Constructed Through Curation of Influences]] rel:: establishes [[Originality is Synthesis Not Creation From Nothing]]
 - [[Originality is Synthesis Not Creation From Nothing]] rel:: supports [[Jazz Musician Metaphor for Originality Through Unique Expression]]
 - [[Narrative Identity is the Story We Construct About Our Experiences]] rel:: supports [[Ship of Theseus as Model for Constructed Self]]
 
 **Values and direction:**
+
 - [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]] rel:: leads-to [[Values Serve as Navigational Compass in Absence of Absolute Truth]]
 - [[Existentialism - Existence Precedes Essence]] rel:: supports [[Values Serve as Navigational Compass in Absence of Absolute Truth]]
 - [[Values Serve as Navigational Compass in Absence of Absolute Truth]] rel:: supports [[Integrity Means Acting in Accordance With Chosen Values]]
 
 **Operational tools:**
+
 - [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]] rel:: supports [[Strong Opinions Loosely Held Balances Confidence With Humility]]
 - [[Strong Opinions Loosely Held Balances Confidence With Humility]] rel:: supports [[Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels]]
 - [[Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels]] rel:: leads-to [[Bayesian Updating Adjusts Beliefs as New Evidence Arrives]]
 
 **Grounding:**
+
 - [[Anti-Fragility Means Systems That Benefit From Volatility]] rel:: supports [[Confidence as Trust in Process Not Certainty in Outcomes]]
 - [[Embodied Confidence Comes From Direct Feedback in Physical Skills]] rel:: supports [[Confidence as Trust in Process Not Certainty in Outcomes]]
 - [[Confidence as Trust in Process Not Certainty in Outcomes]] rel:: supports [[Process Over Outcome Mindset]]

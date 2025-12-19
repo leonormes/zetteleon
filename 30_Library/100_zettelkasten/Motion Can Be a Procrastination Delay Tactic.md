@@ -42,11 +42,11 @@ The drive to choose motion over action is often rooted in psychological avoidanc
 
 Overcoming this form of procrastination involves a combination of awareness and practical strategies:
 
-1.  [[Recognizing Motion as an Avoidance Pattern is the First Step to Overcoming It|Recognize the Pattern]]: Develop the self-awareness to know when you are substituting motion for action.
-2.  [[Action Triggers Bridge the Gap Between Motion and Action|Set Action Triggers]]: Create clear rules to force the transition from planning to doing.
-3.  [[Embracing Imperfection is Key to Overcoming Motion-Based Procrastination|Embrace Imperfection]]: Accept that imperfect action is better than perfect inaction.
-4.  [[Time-Boxing Motion Prevents it From Becoming Procrastination|Time-Box Motion]]: Allocate a fixed time for preparation.
-5.  [[Focusing on Effort Over Outcomes Reduces the Pressure to Act|Focus on Effort]]: Concentrate on the process of doing, not the quality of the outcome.
+1. [[Recognizing Motion as an Avoidance Pattern is the First Step to Overcoming It|Recognize the Pattern]]: Develop the self-awareness to know when you are substituting motion for action.
+2. [[Action Triggers Bridge the Gap Between Motion and Action|Set Action Triggers]]: Create clear rules to force the transition from planning to doing.
+3. [[Embracing Imperfection is Key to Overcoming Motion-Based Procrastination|Embrace Imperfection]]: Accept that imperfect action is better than perfect inaction.
+4. [[Time-Boxing Motion Prevents it From Becoming Procrastination|Time-Box Motion]]: Allocate a fixed time for preparation.
+5. [[Focusing on Effort Over Outcomes Reduces the Pressure to Act|Focus on Effort]]: Concentrate on the process of doing, not the quality of the outcome.
 
 ## The Central Paradox
 

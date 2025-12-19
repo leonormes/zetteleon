@@ -24,7 +24,8 @@ What do I need to know? How does SpiceDB work? Setup the users via Terraform.
 
 - I create a user in Auth0.
 - I add a user to the organisation and assign roles.
-   - This, at the moment, requires me logging in and also me having permissions in the organisation. It would be better if I could do it via terraform? Or a spiceDB script?
+  - This, at the moment, requires me logging in and also me having permissions in the organisation. It would be better if I could do it via terraform? Or a spiceDB script?
+
 ## HEAD 2025-12-15 09:14
 
 ---
@@ -42,10 +43,12 @@ What do I need to know? How does SpiceDB work? Setup the users via Terraform.
 
 > **Path A: Kinetic (Action)**
 > *I figured it out. I just need to do it.*
+>
 > - [ ] **Task:** (Write the binary Next Action here) `-> Send to Todoist`
 
 > **Path B: Static (Storage)**
 > *I learned a fact / defined a spec. No action needed.*
+>
 > - [ ] **SoT Update:** (What did I learn?) `-> Merge into [[SoT - Topic]]`
 
 > **Path C: Dynamic (Still Thinking)**

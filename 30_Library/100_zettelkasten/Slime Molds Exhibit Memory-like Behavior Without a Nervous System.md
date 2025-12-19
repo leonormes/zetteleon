@@ -22,6 +22,7 @@ updated:
 **Summary:** The slime mold Physarum polycephalum demonstrates memory-like behavior despite lacking a nervous system, showing that basic information storage exists across life forms.
 
 **Details:** In experiments:
+
 - Slime molds explore mazes by extending pseudopods
 - They avoid retracing their own paths ("remembering" where they've been)
 - This behavior suggests a primitive form of spatial memory

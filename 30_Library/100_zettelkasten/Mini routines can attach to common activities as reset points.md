@@ -25,5 +25,6 @@ This attachment strategy leverages existing habits as triggers for new behaviora
 These activity-anchored routines provide regular opportunities to reorient attention, reassess energy levels, and adjust plans without requiring external reminders or willpower to remember when to implement them.
 
 ## Related
+
 - [[Mini routines are event-triggered sequences rather than time-based schedules]]
 - [[Event-based anchor points use activities as natural transitions]]

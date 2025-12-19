@@ -24,22 +24,22 @@ argocd app manifest command:
 
 This command renders the Kubernetes manifests from your application source definition (like Helm charts, Kustomize, or plain YAML) as Argo CD would. You can use this to:
 
- - Preview rendered manifests: See the final Kubernetes YAML that Argo CD will generate and apply to your cluster.
- - Debug configuration issues: Identify errors in your Helm charts, value overrides, or other configurations before actual deployment.
- - Validate against Kubernetes API: Although argocli doesn't directly validate against a live Kubernetes API server, reviewing the rendered manifests helps you ensure they are syntactically correct and semantically valid based on your understanding of Kubernetes.
+- Preview rendered manifests: See the final Kubernetes YAML that Argo CD will generate and apply to your cluster.
+- Debug configuration issues: Identify errors in your Helm charts, value overrides, or other configurations before actual deployment.
+- Validate against Kubernetes API: Although argocli doesn't directly validate against a live Kubernetes API server, reviewing the rendered manifests helps you ensure they are syntactically correct and semantically valid based on your understanding of Kubernetes.
 Example Usage:
 Assuming you have an Argo CD application definition in a YAML file (e.g., app.yaml) or are using a directory with application resources:
- - For a Helm chart application:
+- For a Helm chart application:
    argocd app manifest --app-name my-app --helm-chart path/to/your/helm-chart --helm-values path/to/values.yaml
 
    Replace my-app, path/to/your/helm-chart, and path/to/values.yaml with your actual application name, Helm chart path, and values file path.
 
- - For a Kustomize application:
+- For a Kustomize application:
    argocd app manifest --app-name my-kustomize-app --kustomize path/to/your/kustomize-dir
 
    Replace my-kustomize-app and path/to/your/kustomize-dir with your application name and Kustomize directory path.
 
- - For a directory of plain YAML manifests:
+- For a directory of plain YAML manifests:
    argocd app manifest --app-name my-yaml-app --directory path/to/your/yaml-dir
 
    Replace my-yaml-app and path/to/your/yaml-dir with your application name and YAML directory path.
@@ -54,27 +54,27 @@ Benefits of Using argocli for Local Validation
 
 Using argocli for local validation offers several benefits during your development process:
 
- - Early Error Detection: You can catch configuration errors, template issues, and value overrides problems early in the development cycle, before deploying to a live cluster. This saves time and reduces the risk of deployment failures.
- - Faster Feedback Loop: Validating locally with argocli is much faster than deploying to a cluster and waiting for Argo CD to synchronize and potentially fail. This rapid feedback loop accelerates development and debugging.
- - Reduced Cluster Load: By validating locally, you avoid unnecessary deployments to your Argo CD managed cluster, reducing load and potential instability from misconfigurations.
- - Offline Validation: You can validate your configurations even without being connected to your Argo CD server or Kubernetes cluster, making it convenient for development in various environments.
- - Confidence in Deployments: Reviewing the rendered manifests gives you confidence that Argo CD will deploy the intended resources, reducing surprises and unexpected outcomes in your live environments.
- - GitOps Best Practices: Using argocli to validate changes before committing them to your Git repository aligns with GitOps principles by ensuring that what's in Git is truly what you intend to deploy.
+- Early Error Detection: You can catch configuration errors, template issues, and value overrides problems early in the development cycle, before deploying to a live cluster. This saves time and reduces the risk of deployment failures.
+- Faster Feedback Loop: Validating locally with argocli is much faster than deploying to a cluster and waiting for Argo CD to synchronize and potentially fail. This rapid feedback loop accelerates development and debugging.
+- Reduced Cluster Load: By validating locally, you avoid unnecessary deployments to your Argo CD managed cluster, reducing load and potential instability from misconfigurations.
+- Offline Validation: You can validate your configurations even without being connected to your Argo CD server or Kubernetes cluster, making it convenient for development in various environments.
+- Confidence in Deployments: Reviewing the rendered manifests gives you confidence that Argo CD will deploy the intended resources, reducing surprises and unexpected outcomes in your live environments.
+- GitOps Best Practices: Using argocli to validate changes before committing them to your Git repository aligns with GitOps principles by ensuring that what's in Git is truly what you intend to deploy.
 Limitations
 While argocli app manifest is valuable for validation, it's important to note its limitations:
- - No Live Kubernetes API Validation: argocli does not fully validate against a live Kubernetes API server. It mainly renders manifests. Therefore, it won't catch issues that are only apparent when applying manifests to a specific cluster version or with specific cluster configurations (like admission controllers).
- - Limited Dry-Run: It's not a full "dry-run" deployment. It only renders the manifests. It doesn't simulate the actual application of resources or check for resource conflicts in the cluster.
- - Context Differences: There might be subtle differences between the local rendering environment and the Argo CD server environment (e.g., slight differences in Helm versions or available plugins). However, for most common use cases, argocli app manifest provides a very accurate preview.
+- No Live Kubernetes API Validation: argocli does not fully validate against a live Kubernetes API server. It mainly renders manifests. Therefore, it won't catch issues that are only apparent when applying manifests to a specific cluster version or with specific cluster configurations (like admission controllers).
+- Limited Dry-Run: It's not a full "dry-run" deployment. It only renders the manifests. It doesn't simulate the actual application of resources or check for resource conflicts in the cluster.
+- Context Differences: There might be subtle differences between the local rendering environment and the Argo CD server environment (e.g., slight differences in Helm versions or available plugins). However, for most common use cases, argocli app manifest provides a very accurate preview.
 Conclusion
 In conclusion, using argocli app manifest is a highly beneficial practice for validating your Helm charts and deployments before they are managed by Argo CD. It allows for early error detection, faster feedback, and increased confidence in your deployments, making your development workflow more efficient and reliable. While it has some limitations, the benefits of local validation with argocli significantly outweigh the drawbacks for most development scenarios.
 For more detailed information and options for the argocd app manifest command, you can refer to the official Argo CD documentation or use argocd app manifest --help in your terminal.
- - Argo CD CLI Documentation
+- Argo CD CLI Documentation
 
 ---
 
 created: 2025-03-05T08:53:35
 source: <https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd_app_manifests/>
-author:
+author
 ---
 
 ## Argocd App Manifests Command Reference - Argo CD

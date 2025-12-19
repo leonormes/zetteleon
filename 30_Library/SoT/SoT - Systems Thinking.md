@@ -26,9 +26,9 @@ updated:
 
 - **Feedback Loops:**
 
-    - **Balancing Loops (B):** Stability-seeking mechanisms that try to keep a stock at a set level (e.g., thermostat, homeostasis).
+  - **Balancing Loops (B):** Stability-seeking mechanisms that try to keep a stock at a set level (e.g., thermostat, homeostasis).
 
-    - **Reinforcing Loops (R):** Amplifying mechanisms that lead to exponential growth or collapse (e.g., compound interest, "the rich get richer").
+  - **Reinforcing Loops (R):** Amplifying mechanisms that lead to exponential growth or collapse (e.g., compound interest, "the rich get richer").
 
 - **Delays:** Time lags between action and feedback are the primary source of system oscillation and policy failure. By the time a problem is obvious, the correction may be too late.
 
@@ -42,9 +42,9 @@ The central insight is that **Structure Determinates Behavior**. Persistent prob
 
 True leverage comes not from pushing harder on the existing loops, but from:
 
-1.  **Shortening delays** in feedback.
-2.  **Changing the rules** (interconnections).
-3.  **Changing the goal** (purpose) of the system.
+1. **Shortening delays** in feedback.
+2. **Changing the rules** (interconnections).
+3. **Changing the goal** (purpose) of the system.
 
 ## Minimum Viable Understanding (MVU)
 
@@ -52,13 +52,13 @@ True leverage comes not from pushing harder on the existing loops, but from:
 
 - **The Iceberg Model:**
 
-    - *Events* (What just happened?) <- React
+  - *Events* (What just happened?) <- React
 
-    - *Patterns* (What has been happening?) <- Anticipate
+  - *Patterns* (What has been happening?) <- Anticipate
 
-    - *Structure* (What interactions cause these patterns?) <- **Design** (Leverage Point)
+  - *Structure* (What interactions cause these patterns?) <- **Design** (Leverage Point)
 
-    - *Mental Models* (What beliefs uphold this structure?) <- Transform
+  - *Mental Models* (What beliefs uphold this structure?) <- Transform
 
 - **The Core Heuristic:** When analyzing a situation, ask: "Is this a Balancing Loop (trying to stay the same) or a Reinforcing Loop (trying to run away)?"
 
@@ -78,9 +78,9 @@ Systems thinking isn't just for engineering; it explains our internal psychology
 
 Donella Meadows identified that not all interventions are equal.
 
-1.  **Low Leverage:** Changing constants, parameters, or numbers (e.g., "Spend 5% more").
-2.  **Medium Leverage:** Changing the *feedback loops* (e.g., adding a new sensor or check).
-3.  **High Leverage:** Changing the *goal* or *paradigm* of the system (e.g., "We are no longer maximizing profit, but sustainability").
+1. **Low Leverage:** Changing constants, parameters, or numbers (e.g., "Spend 5% more").
+2. **Medium Leverage:** Changing the *feedback loops* (e.g., adding a new sensor or check).
+3. **High Leverage:** Changing the *goal* or *paradigm* of the system (e.g., "We are no longer maximizing profit, but sustainability").
 
 ## 5. Tensions and Gaps
 

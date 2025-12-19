@@ -22,6 +22,7 @@ updated:
 **Summary:** While memory techniques are powerful, their effectiveness depends on foundational brain health factors including quality sleep, stress management, and regular mental exercise.
 
 **Key factors:**
+
 - **Sleep**: Critical for memory consolidation; most memory formation occurs during sleep
 - **Stress management**: Chronic stress impairs memory formation and recall
 - **Mental exercise**: Regular challenging mental activity maintains neuroplasticity
@@ -29,5 +30,6 @@ updated:
 - **Nutrition**: Certain nutrients support brain health and memory function
 
 **Practical implications:**
+
 - Memory techniques work best when combined with these supporting practices
 - Neglecting these factors can undermine even the best memory strategies

@@ -39,17 +39,17 @@ This section details each major problem and the corresponding solution engineere
 
 - **Related Insights**:
 
-    - [[Executive Function Challenges are Central to ADHD]]
+  - [[Executive Function Challenges are Central to ADHD]]
 
-    - [[Executive Dysfunction - The Root of Analysis Paralysis]]
+  - [[Executive Dysfunction - The Root of Analysis Paralysis]]
 
-    - [[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency]]
+  - [[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency]]
 
-    - [[Task Management Systems Have Limited Efficacy for ADHD Productivity]]
+  - [[Task Management Systems Have Limited Efficacy for ADHD Productivity]]
 
-    - [[Executive Function Deficits in ADHD Impact Developer Productivity]]
+  - [[Executive Function Deficits in ADHD Impact Developer Productivity]]
 
-    - [[The Brutal Truth About Time Management No One Wants to Hear]]
+  - [[The Brutal Truth About Time Management No One Wants to Hear]]
 
 - **The PRODOS Solution**:
 
@@ -65,21 +65,21 @@ This section details each major problem and the corresponding solution engineere
 
 - **Related Insights**:
 
-    - [[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop]]
+  - [[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop]]
 
-    - [[Working Memory Limitations in ADHD]]
+  - [[Working Memory Limitations in ADHD]]
 
-    - [[The Extended Mind Thesis]]
+  - [[The Extended Mind Thesis]]
 
-    - [[Writing Acts as an External Working Memory]]
+  - [[Writing Acts as an External Working Memory]]
 
-    - [[External Structure and ADHD]]
+  - [[External Structure and ADHD]]
 
-    - [[The Danger of Perpetual System-Building]]
+  - [[The Danger of Perpetual System-Building]]
 
-    - [[Documenting Mental Models Enables Project Re-entry]]
+  - [[Documenting Mental Models Enables Project Re-entry]]
 
-    - [[Visual Thinking Tools Preserve Project Mental Models]]
+  - [[Visual Thinking Tools Preserve Project Mental Models]]
 
 - **The PRODOS Solution**:
 
@@ -93,15 +93,15 @@ This section details each major problem and the corresponding solution engineere
 
 - **Related Insights**:
 
-    - [[SoT - ADHD and Motivation]] (The Interest-Based Nervous System)
+  - [[SoT - ADHD and Motivation]] (The Interest-Based Nervous System)
 
-    - [[Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]]
+  - [[Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]]
 
-    - [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]
+  - [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]
 
-    - [[Productive Procrastination as an Avoidance Strategy]]
+  - [[Productive Procrastination as an Avoidance Strategy]]
 
-    - [[The Brutal Truth About Time Management No One Wants to Hear]]
+  - [[The Brutal Truth About Time Management No One Wants to Hear]]
 
 - **The PRODOS Solution**:
 
@@ -117,9 +117,9 @@ This section details each major problem and the corresponding solution engineere
 
 - **Related Insights**:
 
-    - [[The Shame-Procrastination Cycle]]
+  - [[The Shame-Procrastination Cycle]]
 
-    - [[Rejection Sensitive Dysphoria The Perfectionism Trap]]
+  - [[Rejection Sensitive Dysphoria The Perfectionism Trap]]
 
 - **The PRODOS Solution**:
 
@@ -135,11 +135,11 @@ This section details each major problem and the corresponding solution engineere
 
 - **Related Insights**:
 
-    - [[SoT - Working Memory & Schema Theory]]
+  - [[SoT - Working Memory & Schema Theory]]
 
-    - [[SoT - Learning Mechanisms]]
+  - [[SoT - Learning Mechanisms]]
 
-    - [[Maintaining Lines of Thought Over Time]]
+  - [[Maintaining Lines of Thought Over Time]]
 
 - **The PRODOS Solution**:
 
@@ -155,11 +155,11 @@ This section details each major problem and the corresponding solution engineere
 
 - **Related Insights**:
 
-    - [[SoT - Values and Eudaimonia]]
+  - [[SoT - Values and Eudaimonia]]
 
-    - [[SoT - ADHD and Motivation]] (Wanting vs. Liking)
+  - [[SoT - ADHD and Motivation]] (Wanting vs. Liking)
 
-    - [[SoT - Identity-Based Habit Formation]]
+  - [[SoT - Identity-Based Habit Formation]]
 
 - **The PRODOS Solution**:
 
@@ -175,7 +175,7 @@ This section details each major problem and the corresponding solution engineere
 
 - **Related Insights**:
 
-    - [[SoT - PRODOS (System Architecture)#11. The Three-Layer Architecture (Capacity & Maintenance)]]
+  - [[SoT - PRODOS (System Architecture)#11. The Three-Layer Architecture (Capacity & Maintenance)]]
 
 - **The PRODOS Solution**:
 
@@ -189,7 +189,7 @@ This section details each major problem and the corresponding solution engineere
 
 - **Related Insights**:
 
-    - [[SoT - ADHD Environmental Design]]
+  - [[SoT - ADHD Environmental Design]]
 
 - **The PRODOS Solution**:
 
@@ -205,9 +205,9 @@ This section details each major problem and the corresponding solution engineere
 
 - **Related Insights**:
 
-    - [[SoT - Journaling as Cognitive Engineering]]
+  - [[SoT - Journaling as Cognitive Engineering]]
 
-    - [[SoT - Mindfulness and Emotional Regulation]]
+  - [[SoT - Mindfulness and Emotional Regulation]]
 
 - **The PRODOS Solution**:
 
@@ -223,9 +223,9 @@ This section details each major problem and the corresponding solution engineere
 
 - **Related Insights**:
 
-    - [[SoT - Personal Agency and Transformation]]
+  - [[SoT - Personal Agency and Transformation]]
 
-    - [[Growth mindset]]
+  - [[Growth mindset]]
 
 - **The PRODOS Solution**:
 

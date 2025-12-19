@@ -22,11 +22,13 @@ updated:
 **Summary:** Task-related discomfort often indicates skill expansion rather than danger.
 
 **Implications:**
+
 - Avoidance reinforces fear
 - Tolerance enables progress
 - Small exposures build resilience
 
 **ADHD Application:**
+
 - Normalize start-up friction
 - Separate discomfort from inability
 - Use novelty to bridge discomfort

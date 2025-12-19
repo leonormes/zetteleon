@@ -48,31 +48,31 @@ This framework visually demonstrates a structural refactoring of the home enviro
 
 A physical "staging area" to prevent decision paralysis, grounded in a **Three-Box Architecture**:
 
-1.  **Box 1 (Exit Stream):** Immediate disposal or donation. (Physical "Delete" command).
-2.  **Box 2 (Latency Buffer):** The "Maybe" box. Visually sealed and stored out of sight. Strict temporal rule: if sealed for 3–6 months, discard. (Automated "Archive & Delete" after a grace period).
-3.  **Box 3 (Retain/Allocated):** Items to keep that require a new home. (Physical "Move to Projects" or "Process Now").
+1. **Box 1 (Exit Stream):** Immediate disposal or donation. (Physical "Delete" command).
+2. **Box 2 (Latency Buffer):** The "Maybe" box. Visually sealed and stored out of sight. Strict temporal rule: if sealed for 3–6 months, discard. (Automated "Archive & Delete" after a grace period).
+3. **Box 3 (Retain/Allocated):** Items to keep that require a new home. (Physical "Move to Projects" or "Process Now").
 
 ### B. Storage Infrastructure & Modularity
 
 Shifts from generic clutter to modular compartmentalisation, using subsystems for specific data types:
 
-1.  **Soft Storage (Wardrobes - e.g., IKEA Skubb):** Fabric-based, foldable dividers for amorphous items like clothes. Flexible compartmentalisation.
-2.  **Vertical Stack (Utility/Bathroom - e.g., Muji Acrylic):** Transparent, rigid, stackable boxes for tight spaces. Transparency reduces search latency.
-3.  **Grid System (Office/Drawers - e.g., IKEA Nojig):** Rigid plastic trays create a fixed grid for high-entropy items like stationery.
+1. **Soft Storage (Wardrobes - e.g., IKEA Skubb):** Fabric-based, foldable dividers for amorphous items like clothes. Flexible compartmentalisation.
+2. **Vertical Stack (Utility/Bathroom - e.g., Muji Acrylic):** Transparent, rigid, stackable boxes for tight spaces. Transparency reduces search latency.
+3. **Grid System (Office/Drawers - e.g., IKEA Nojig):** Rigid plastic trays create a fixed grid for high-entropy items like stationery.
 
 ### C. Spatial Zoning Logic (Active vs. Passive)
 
 Physical mapping of the home based on access frequency, not just category:
 
-1.  **Active Zones (Hot Storage):** Waist-height drawers and open counters for high-frequency daily items. Immediate visibility and reach.
-2.  **Passive Zones (Cold Storage):** High shelves, deep cupboards, under-bed units for seasonal or low-frequency items. Opaque storage requires effort to access.
+1. **Active Zones (Hot Storage):** Waist-height drawers and open counters for high-frequency daily items. Immediate visibility and reach.
+2. **Passive Zones (Cold Storage):** High shelves, deep cupboards, under-bed units for seasonal or low-frequency items. Opaque storage requires effort to access.
 
 ### D. The "Reset" Protocol
 
 Maintenance through a "reset" loop rather than constant "cleaning":
 
-1.  **The Landing Surface:** A visual buffer (e.g., a bowl or tray) at entry points for daily carry items (keys, wallet) to prevent immediate entropy dispersion.
-2.  **The Donation Basket:** A permanent, dedicated physical output stream for identifying and removing redundant items in real-time.
+1. **The Landing Surface:** A visual buffer (e.g., a bowl or tray) at entry points for daily carry items (keys, wallet) to prevent immediate entropy dispersion.
+2. **The Donation Basket:** A permanent, dedicated physical output stream for identifying and removing redundant items in real-time.
 
 ---
 

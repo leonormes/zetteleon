@@ -170,4 +170,4 @@ These leading organizations migrated to GitLab and are enjoying the myriad benef
 
 Become a CI/CD expert with these easy-to-follow tutorials.
 
-> #### Get started with GitLab CI/CD.
+> #### Get started with GitLab CI/CD

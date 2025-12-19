@@ -47,39 +47,43 @@ You need to explicitly set up routing for both AZ subnets to ensure high availab
 ## Steps To Configure Secure Routing
 
 ### 1. Create A VPC Peering Connection
+
 - Action: The VPC peering connection between `vpc-0aabc42188b2162bf` (your VPC) and `vpc-0d9a8634e304211bd` (the peered VPC) is already established and active (`pcx-06524c8e180979086`).
+
 ### 2. Modify Route Tables in the Peered VPC (`vpc-0d9a8634e304211bd`)
 
 - Action: Identify the route table associated with the subnet where your EC2 instance resides in `vpc-0d9a8634e304211bd`.
 - Add Two New Routes:
- - Route 1:
-	  - Destination: The CIDR block of your first EKS subnet (`subnet-02b4bec3447cbbf9e`). This is the same as before.
-	  - Target: `pcx-06524c8e180979086` (Your Peering Connection ID).
- - Route 2:
-	  - Destination: The CIDR block of your second EKS subnet (`subnet-0c3d71c782e12d044`). This is the same as before.
-	  - Target: `pcx-06524c8e180979086` (Your Peering Connection ID).
- - Important: You might also need to add a route for the entire VPC CIDR if you have resources that need to be accessed outside the EKS subnets.
-	  - Route 3 (Optional):
-		- Destination: `10.65.0.0/20` (Your VPC CIDR)
-		- Target: `pcx-06524c8e180979086` (Your Peering Connection ID).
+- Route 1:
+  - Destination: The CIDR block of your first EKS subnet (`subnet-02b4bec3447cbbf9e`). This is the same as before.
+  - Target: `pcx-06524c8e180979086` (Your Peering Connection ID).
+- Route 2:
+  - Destination: The CIDR block of your second EKS subnet (`subnet-0c3d71c782e12d044`). This is the same as before.
+  - Target: `pcx-06524c8e180979086` (Your Peering Connection ID).
+- Important: You might also need to add a route for the entire VPC CIDR if you have resources that need to be accessed outside the EKS subnets.
+  - Route 3 (Optional):
+    - Destination: `10.65.0.0/20` (Your VPC CIDR)
+    - Target: `pcx-06524c8e180979086` (Your Peering Connection ID).
+
 ### 3. Modify Security Groups
 
 - EKS Security Groups (Associated with `vpc-0aabc42188b2162bf`):
- - Action: Identify the security group(s) associated with your EKS worker nodes or the load balancer.
- - Add Inbound Rule:
-	  - Source: The CIDR block of `vpc-0d9a8634e304211bd` (the peered VPC).
-	  - Protocol: TCP (or the protocol your application uses).
-	  - Port: The port your web application is listening on (e.g., 80 or 443).
+- Action: Identify the security group(s) associated with your EKS worker nodes or the load balancer.
+- Add Inbound Rule:
+  - Source: The CIDR block of `vpc-0d9a8634e304211bd` (the peered VPC).
+  - Protocol: TCP (or the protocol your application uses).
+  - Port: The port your web application is listening on (e.g., 80 or 443).
 - EC2 Security Group (Associated with `vpc-0d9a8634e304211bd`):
- - Action: Identify the security group associated with your EC2 instance in `vpc-0d9a8634e304211bd`.
- - Add Outbound Rule:
-	  - Destination: The CIDR blocks of your two EKS subnets (`subnet-02b4bec3447cbbf9e` and `subnet-0c3d71c782e12d044`).
-	  - Protocol: TCP (or the protocol your application uses).
-	  - Port: The port your web application is listening on (e.g., 80 or 443).
- - Optional Outbound Rule:
-	  - Destination: `10.65.0.0/20` (Your VPC CIDR).
-	  - Protocol: TCP (or the protocol your application uses).
-	  - Port: The port your web application is listening on (e.g., 80 or 443).Internal Load Balancer (Recommended):
+- Action: Identify the security group associated with your EC2 instance in `vpc-0d9a8634e304211bd`.
+- Add Outbound Rule:
+  - Destination: The CIDR blocks of your two EKS subnets (`subnet-02b4bec3447cbbf9e` and `subnet-0c3d71c782e12d044`).
+  - Protocol: TCP (or the protocol your application uses).
+  - Port: The port your web application is listening on (e.g., 80 or 443).
+- Optional Outbound Rule:
+  - Destination: `10.65.0.0/20` (Your VPC CIDR).
+  - Protocol: TCP (or the protocol your application uses).
+  - Port: The port your web application is listening on (e.g., 80 or 443).Internal Load Balancer (Recommended):
+
 ### 4. Internal Load Balancer (Recommended)
 
 - Use an internal Network Load Balancer (NLB) or Application Load Balancer (ALB) for your EKS service.
@@ -121,6 +125,7 @@ You need to explicitly set up routing for both AZ subnets to ensure high availab
 - Private Subnets: Ensure your EKS nodes and load balancers are in private subnets with no direct internet access.
 - IAM Roles: Use IAM roles for your EC2 instance and EKS worker nodes to grant only the necessary permissions.
 - Regular Audits: Regularly audit your security configurations and logs to identify and address any potential vulnerabilities.
+
 ### Key Points
 
 - Replace Placeholders: Ensure you replace the subnet IDs (`subnet-02b4bec3447cbbf9e` and `subnet-0c3d71c782e12d044`) with your actual values.

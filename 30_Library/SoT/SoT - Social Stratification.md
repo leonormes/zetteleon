@@ -45,9 +45,9 @@ Is stratification natural?
 
 - **The Shift (Agriculture):** Stratification is a function of **Scalability** and **Surplus**.
 
-    - *Surplus:* Storable calories (grain) allowed hoarding and theft.
+  - *Surplus:* Storable calories (grain) allowed hoarding and theft.
 
-    - *Complexity:* Irrigation/Defense required central administration (The State).
+  - *Complexity:* Irrigation/Defense required central administration (The State).
 
 - **Conclusion:** Status-seeking is biological (firmware); Systemic Stratification is technological/structural (hardware scale).
 
@@ -77,11 +77,11 @@ Is stratification natural?
 
 - **Forms of Capital:**
 
-    - *Economic:* Money.
+  - *Economic:* Money.
 
-    - *Social:* Networks.
+  - *Social:* Networks.
 
-    - *Cultural:* Knowledge, taste, mannerisms (Habitus).
+  - *Cultural:* Knowledge, taste, mannerisms (Habitus).
 
 - **Mechanism:** Elites reproduce their status by defining "good taste" and "competence" in ways that exclude others.
 
@@ -91,9 +91,9 @@ Is stratification natural?
 
 How does the system maintain stability?
 
-1.  **Institutions (The OS):** Laws (zoning, inheritance) that validate specific users.
-2.  **Path Dependence:** "Technical debt" from past architecture (e.g., redlining) persists even after laws change.
-3.  **Ideology (Documentation):** Beliefs (e.g., "The poor are lazy") that justify the structural imbalance.
+1. **Institutions (The OS):** Laws (zoning, inheritance) that validate specific users.
+2. **Path Dependence:** "Technical debt" from past architecture (e.g., redlining) persists even after laws change.
+3. **Ideology (Documentation):** Beliefs (e.g., "The poor are lazy") that justify the structural imbalance.
 
 ### Examples
 
@@ -123,13 +123,13 @@ The UK provides a distinct example of how stratification evolves. It is currentl
 
 Moving beyond the "Working/Middle/Upper" triad, this model identifies 7 classes based on Economic, Social, and Cultural capital:
 
-1.  **Elite:** High capital across all three dimensions.
-2.  **Established Middle Class:** Wealthy, socially connected, culturally active.
-3.  **Technical Middle Class:** Prosperous but socially/culturally isolated.
-4.  **New Affluent Workers:** Young, socially active, moderate income.
-5.  **Traditional Working Class:** Low capital, but often homeowners (asset-rich, cash-poor).
-6.  **Emergent Service Workers:** Young, urban, low income but high cultural capital.
-7.  **Precariat:** The most deprived, lacking security in all dimensions.
+1. **Elite:** High capital across all three dimensions.
+2. **Established Middle Class:** Wealthy, socially connected, culturally active.
+3. **Technical Middle Class:** Prosperous but socially/culturally isolated.
+4. **New Affluent Workers:** Young, socially active, moderate income.
+5. **Traditional Working Class:** Low capital, but often homeowners (asset-rich, cash-poor).
+6. **Emergent Service Workers:** Young, urban, low income but high cultural capital.
+7. **Precariat:** The most deprived, lacking security in all dimensions.
 
 ### The Symbolic Apex
 

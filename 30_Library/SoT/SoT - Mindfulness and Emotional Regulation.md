@@ -84,9 +84,9 @@ Normally, we are **fused** with our thoughts.
 
 A tactical intervention for when the storm hits:
 
-1.  **Acknowledge (1 min):** "What is my experience right now?" (Thoughts, feelings, sensations). Don't fix; just note.
-2.  **Gather (1 min):** Narrow focus to the breath. Use the physical sensation of air as an anchor.
-3.  **Expand (1 min):** Widen awareness to the whole body. Let the breath's calm infuse the entire somatic experience.
+1. **Acknowledge (1 min):** "What is my experience right now?" (Thoughts, feelings, sensations). Don't fix; just note.
+2. **Gather (1 min):** Narrow focus to the breath. Use the physical sensation of air as an anchor.
+3. **Expand (1 min):** Widen awareness to the whole body. Let the breath's calm infuse the entire somatic experience.
 
 ---
 

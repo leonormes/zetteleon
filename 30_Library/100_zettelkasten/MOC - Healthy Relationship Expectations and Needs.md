@@ -60,10 +60,10 @@ This is the feeling that you are "in it together," which is built on [[Teamwork 
 
 While every individual is different, these are fundamental *human* needs that are often prioritized in the context of a long-term relationship.
 
-1.  **The Need to Feel Respected & Admired:** This is often a core need, as explained in [[The Need to Feel Respected and Admired is a Core Human Need in a Partnership]].
-2.  **The Need for Physical Intimacy & Affection:** This is a vital form of connection, detailed in [[The Need for Physical Intimacy and Affection is a Vital Form of Connection]].
-3.  **The Need for Emotional Connection:** This is the need to feel known and accepted, as covered in [[The Need for Emotional Connection Fosters a Sense of Being Known and Accepted]].
-4.  **The Need for Autonomy:** This is the need to maintain your own identity, which is explored in [[The Need for Autonomy Preserves Personal Identity Within a Partnership]]
+1. **The Need to Feel Respected & Admired:** This is often a core need, as explained in [[The Need to Feel Respected and Admired is a Core Human Need in a Partnership]].
+2. **The Need for Physical Intimacy & Affection:** This is a vital form of connection, detailed in [[The Need for Physical Intimacy and Affection is a Vital Form of Connection]].
+3. **The Need for Emotional Connection:** This is the need to feel known and accepted, as covered in [[The Need for Emotional Connection Fosters a Sense of Being Known and Accepted]].
+4. **The Need for Autonomy:** This is the need to maintain your own identity, which is explored in [[The Need for Autonomy Preserves Personal Identity Within a Partnership]]
 
 ---
 
@@ -76,6 +76,7 @@ When there's an income disparity, a cooperative approach is to [[Finances in an 
 The line between healthy management and control is important. [[Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy|Respectful budgeting]] is collaborative, whereas [[Controlling Financial Behavior is Unilateral and Removes a Partner's Agency|controlling behavior]] is unilateral. Similarly, [[Disrespectful Spending Violates Shared Agreements and Erodes Trust|disrespectful spending]] violates shared agreements. A practical approach to manage this is to use [[A Fair Financial System Uses a Shared Pot and Equal Personal Spending Money]].
 
 #### Common Financial Conflict Points
+
 - **Unilateral Spending:** When one partner makes large purchases without discussion, it is a sign of an [[Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic|unhealthy dynamic]].
 - **Double Standards:** Applying [[Financial Double Standards for Spending Undermine Fairness in a Relationship|different rules for spending]] undermines fairness.
 - **Prioritizing Needs:** A [[A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship|healthy family balances the needs of children and spouses]].

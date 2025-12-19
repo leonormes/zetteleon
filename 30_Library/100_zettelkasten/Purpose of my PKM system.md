@@ -23,6 +23,7 @@ version:
 I want to use writing as an aid to thinking. I believe I’m good at thinking deeply about things and coming up with new ideas. I am good at understanding things beyond the initial surface keywords. But my ADHD mind, which makes me good at some cognitive tasks, also hinders other aspects needed to make my thinking practically valuable. I think externalising my thinking and extending my mind with tools could help me capitalise on my strengths. But the ADHD condition (think, human condition ) is playing out on this very topic. Ironic. Catch 22.
 
 **Theoretical Foundation:**
+
 - [[Nihilism vs Constructed Meaning]] explains why personal knowledge systems require active meaning-making
 - Aligns with creating temporary but functional purpose structures
 

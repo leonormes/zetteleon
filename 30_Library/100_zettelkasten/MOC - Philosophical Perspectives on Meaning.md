@@ -22,17 +22,21 @@ updated:
 ## MOC - Philosophical Perspectives on Meaning
 
 ### Core Frameworks
+
 - [[Existentialism - Existence Precedes Essence]] rel:: active
 - [[Absurdism as Rebellion Against Meaninglessness]] rel:: reactive
 - [[Nihilism vs Constructed Meaning]] rel:: contrasts
 
 ### Applications
+
 - [[The Existential Condition]] rel:: implements
 - [Placeholder for productivity connections]
 
 ### Visual Overview
+
 - [[Diagram - Philosophy-Productivity Connections]]
 
 ### Practical Applications
+
 - [[Reframing Language from Obligation to Purpose Boosts ADHD Task Initiation]] rel:: implements
 - [[Core Principles of Sustainable ADHD Productivity]] rel:: demonstrates

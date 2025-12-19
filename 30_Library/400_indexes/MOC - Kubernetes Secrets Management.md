@@ -25,7 +25,7 @@ Understanding the baseline mechanisms provided by Kubernetes.
 
 - [[kubernetes_secrets]] - **Primary Reference.** Covers the distinction between ConfigMaps and Secrets, base64 encoding vs. encryption, and best practices like in-memory mounting (`tmpfs`).
 
-    - *Key Insight:* Native secrets are base64 encoded, not encrypted by default. True security requires "Encryption at Rest" and external KMS integration.
+  - *Key Insight:* Native secrets are base64 encoded, not encrypted by default. True security requires "Encryption at Rest" and external KMS integration.
 
 ### 2. Advanced Management (HashiCorp Vault)
 
@@ -33,15 +33,15 @@ The preferred "Production" pattern using external secret managers.
 
 - [[Vault to Kubernetes Secrets Management Guide]] - **The Architecture Guide.** Detailed walkthrough of the Vault + Vault Secrets Operator (VSO) pattern.
 
-    - *Components:* Vault AppRole, Vault Policy, VSO Controller.
+  - *Components:* Vault AppRole, Vault Policy, VSO Controller.
 
-    - *Flow:* Auth -> Token -> Fetch -> Sync to K8s Secret.
+  - *Flow:* Auth -> Token -> Fetch -> Sync to K8s Secret.
 
 - Secrets Management Report - hie-prod-34 - **Implementation Case Study.** A live report of this architecture in the `hie-prod-34` deployment.
 
-    - *Pattern:* `VaultStaticSecret` CRDs -> VSO -> Native K8s Secrets.
+  - *Pattern:* `VaultStaticSecret` CRDs -> VSO -> Native K8s Secrets.
 
-    - *Diagram:* Includes a Mermaid object diagram of the dependency flow.
+  - *Diagram:* Includes a Mermaid object diagram of the dependency flow.
 
 ### 3. Related Security Context
 

@@ -32,6 +32,7 @@ updated:
 ## 2. Current Understanding (Coherent Narrative)
 
 ### The Core Paradigm: Structural vs. Nominal
+
 - **Nominal Typing (The "Club" Model):** Found in Java/C#. Types are defined by identity and explicit declaration (e.g., `class A implements B`). It acts as a gatekeeper.
 - **Structural Typing (The "Predicate" Model):** Found in TypeScript. A type is a set of constraints (a shape). If a value satisfies the shape, it belongs to the set. Compatibility is implicit and "predicate-based."
 
@@ -41,7 +42,7 @@ Types are visualized as sets of allowed values.
 
 - **Union (`|`)**: Logical OR (Disjunction). Represents the union of sets. A value belongs to the union if it belongs to *at least one* component set.
 - **Intersection (`&`)**: Logical AND (Conjunction). Overlap of sets.
-    - *Logic:* Intersection increases the *constraints* (requirements), which in turn *narrows* the set of compatible values. More requirements = fewer valid objects.
+  - *Logic:* Intersection increases the *constraints* (requirements), which in turn *narrows* the set of compatible values. More requirements = fewer valid objects.
 - **Subtyping (`extends`)**: Subset inclusion.
 - **Control Flow Analysis:** The compiler narrows the "set" of a variable within code blocks (e.g., narrowing `string | number` to `string` inside an `if (typeof x === "string")` block).
 
@@ -72,8 +73,8 @@ When you write `type F<T> = ...`, you are defining a logical proposition.
 
 Treating types as "runtime functions" leads to bugs because:
 
-1.  **Map vs. Function:** You expect `IsNumber<string | number>` to return `false` (it's mixed). The compiler returns `boolean` (because it ran `IsNumber<string>` -> false AND `IsNumber<number>` -> true).
-2.  **Instantiation Depth:** Recursion is limited by an arbitrary compiler guardrail, not stack memory. Algorithms must be $O(1)$ for the compiler, not just the CPU.
+1. **Map vs. Function:** You expect `IsNumber<string | number>` to return `false` (it's mixed). The compiler returns `boolean` (because it ran `IsNumber<string>` -> false AND `IsNumber<number>` -> true).
+2. **Instantiation Depth:** Recursion is limited by an arbitrary compiler guardrail, not stack memory. Algorithms must be $O(1)$ for the compiler, not just the CPU.
 
 ## 3. Understanding Layers (Progressive Abstraction)
 

@@ -43,6 +43,7 @@ The module deploys components in a specific dependency order:
 **Purpose**: Integrates Kubernetes with HCP Vault for secrets management
 
 **What it does**:
+
 - Deploys VSO Helm chart to `vault-secrets-operator-system` namespace
 - Creates AppRole secrets in each namespace (argocd, application, spicedb, argo-workflows, monitoring)
 - Sets up VaultAuth CRDs for each namespace to authenticate with Vault
@@ -66,6 +67,7 @@ app_role_secrets_map = {
 **Purpose**: Replicates secrets and configmaps across namespaces
 
 **What it does**:
+
 - Watches for secrets/configmaps with special annotations
 - Automatically copies them to other namespaces
 - Useful for TLS certificates, shared credentials, etc.
@@ -76,6 +78,7 @@ app_role_secrets_map = {
 **Purpose**: Provides HTTP/HTTPS ingress to cluster services
 
 **What it does**:
+
 - Deploys NGINX ingress controller
 - Creates internal load balancer (for private clusters)
 - Binds to specified IP address (`10.0.1.10` typically)
@@ -94,6 +97,7 @@ ingress_load_balancer_type = "internal"  # No public exposure
 **Purpose**: GitOps continuous deployment platform
 
 **What it does**:
+
 - Deploys ArgoCD server and controllers
 - Creates ingress for ArgoCD UI (accessible at `argocd_host`)
 - Deploys ArgoCD Applications that point to your GitLab repo
@@ -115,6 +119,7 @@ argocd_applications = [{
 ```
 
 **Chart Versions**:
+
 - ArgoCD: `7.8.8` (default)
 - ArgoCD Apps: `1.4.1` (default)
 
@@ -122,6 +127,7 @@ argocd_applications = [{
 **Purpose**: Automatically scales cluster nodes based on workload
 
 **What it does**:
+
 - Only deployed when `cloud_provider = "AWS"`
 - Not used for Azure AKS (Azure has built-in autoscaling)
 - Monitors pod scheduling and scales nodes up/down
@@ -133,6 +139,7 @@ argocd_applications = [{
 The module automatically creates and manages namespaces:
 
 **Core Namespaces**:
+
 - `vault-secrets-operator-system` - VSO components
 - [argocd](cci:7://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/TFC-Modules/terraform-helm-fitfile-platform/argocd:0:0-0:0) - ArgoCD server and controllers
 - `ingress-nginx` - Ingress controller
@@ -143,6 +150,7 @@ The module automatically creates and manages namespaces:
 - `<deployment_key>` - Your application namespace (e.g., "nnuh-prod")
 
 **Features**:
+
 - All namespaces labeled with `managedBy = "terraform"`
 - Default service accounts configured with image pull secrets
 - ACR authentication automatically injected
@@ -152,6 +160,7 @@ The module automatically creates and manages namespaces:
 **Purpose**: Enables pulling images from private Azure Container Registry
 
 **What it does**:
+
 1. VSO creates a VaultDynamicSecret that fetches ACR credentials from Vault
 2. Credentials automatically rotated and synced to Kubernetes secret `fitfile-image-pull-secret`
 3. Secret replicated to all namespaces via Reflector
@@ -180,6 +189,7 @@ This ensures:
 ## Key Variables You Need to Provide
 
 ### Required Variables
+
 1. **AKS Cluster Credentials** (from NNUH-DP outputs):
    - `aks_cluster_host`
    - `aks_cluster_client_certificate`
@@ -202,6 +212,7 @@ This ensures:
    - `deployment_repo_values_file_path` - Path to Helm values in GitLab
 
 ### Optional Variables with Defaults
+
 - Chart versions (all have sensible defaults)
 - `ingress_load_balancer_type = "internal"` (good for private clusters)
 - `use_image_pull_secret = true` (needed for ACR)

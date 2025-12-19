@@ -46,6 +46,7 @@ graph LR
 ```
 
 ### Key Connections Explained
+
 1. **Existentialism → Purpose Reframing**:
    - Choosing tasks as expressions of self
    - Morita therapy as commitment to action
@@ -59,6 +60,7 @@ graph LR
    - Personal knowledge as active meaning-making
 
 ### Connected MOCs
+
 - [[MOC - Philosophical Perspectives on Meaning]]
 - [[ADHD and Motivation MOC]]
 - [[MOC - Proven Memory Techniques for Effective Learning]]
@@ -66,6 +68,7 @@ graph LR
 - [[MOC - Software Architecture Principles]]
 
 ### Navigation Tips
+
 - Click any node to open note
 - Use Obsidian's graph view with `tag:philosophy OR tag:productivity`
 - Filter by `path:100_zettelkasten/Diagram*` for similar visualizations

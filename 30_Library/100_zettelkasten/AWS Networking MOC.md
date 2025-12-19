@@ -43,6 +43,7 @@ This Map of Content (MOC) organizes notes specifically related to networking ser
 - (To be added later, e.g., AWS Direct Connect, AWS Transit Gateway, Route 53)
 
 ## EKS Networking Components
+
 - [[AWS ENIs Connect EKS Worker Nodes to VPC Networks]] rel:: implements
 - [[Sequence - Container to Internet Packet Flow in EKS]] rel:: demonstrates
 

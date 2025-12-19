@@ -24,5 +24,6 @@ updated: 2025-10-30T15:00:39Z
 **Details:** Large projects overwhelm the ADHD brain because their scope obscures the next concrete action. By creating lists of specific, achievable steps with defined milestones, the pathway forward becomes visible. This approach enables picking up where you left off more easily, as each micro-task represents a clear re-entry point. Focusing on completing one small task at a time generates momentum and provides frequent dopamine rewards, sustaining engagement across work sessions.
 
 > **Status gates**
+>
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.

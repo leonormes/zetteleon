@@ -21,6 +21,7 @@ updated:
 Micro-stepping, or "task chunking," is a behavioral intervention for ADHD that involves breaking down large or overwhelming tasks into the smallest possible actionable steps. This reduces the cognitive load and lowers the internal "activation cost" required to get started, making it easier to initiate action.
 
 **Psychological Basis:**
+
 - Addresses "gnawing rats" of avoidance
 - Lowers barrier to problem engagement
 - Builds on [[Discomfort Signals Growth Potential]]

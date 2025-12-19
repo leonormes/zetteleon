@@ -22,11 +22,13 @@ updated:
 **Summary:** Misunderstanding ADHD motivation leads to harmful labelling as "lazy" or "unmotivated".
 
 **Common Misconceptions:**
+
 - Confusing interest-based focus with willpower
 - Overlooking neurological basis
 - Expecting neurotypical performance
 
 **Impact:**
+
 - Reduced self-esteem
 - Workplace discrimination
 - Educational mismatches

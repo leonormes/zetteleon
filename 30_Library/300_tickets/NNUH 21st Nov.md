@@ -22,6 +22,7 @@ Based on the detailed context from your long-term memories and project tracking 
 **NNUH Deployment Status Report**
 
 **Completed Work:**
+
 1. **Infrastructure Preparation**
    - Set up the repository for NNUH deployment
    - Created Terraform Cloud workspace
@@ -43,6 +44,7 @@ Based on the detailed context from your long-term memories and project tracking 
    - Initiated infrastructure module preparation for NNUH production environment
 
 **Pending Next Steps:**
+
 1. **Service Principal Configuration**
    - Tom sent this through and I have saved it to lastpass
 
@@ -53,9 +55,11 @@ Based on the detailed context from your long-term memories and project tracking 
    - Set up Bastion host for secure access
 
 **Key Challenges:**
+
 - Pending Service Principal creation
 - Ongoing network configuration refinement
 
 **Estimated Timeline:**
+
 - Initial deployment plan: Today
 - Full deployment: Pending final network and security validations

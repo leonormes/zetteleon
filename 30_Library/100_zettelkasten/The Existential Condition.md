@@ -27,6 +27,7 @@ Key concepts defining this condition include:
 - **The Absurd:** A concept from Albert Camus, describing the conflict between the human tendency to seek meaning and significance, and the silent, meaningless universe that offers none.
 
 **Philosophical Roots:**
+
 - [[Existentialism - Existence Precedes Essence]]
 - [[Absurdism as Rebellion Against Meaninglessness]]
 - Human condition as defined by radical freedom

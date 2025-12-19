@@ -32,7 +32,7 @@ A network stack in Linux is essentially a complete set of networking components 
 - Firewall Rules: Network namespaces can have distinct sets of iptables rules, allowing for different security policies to be applied within different namespaces.
 - IP Addressing and Protocol Stacks: Each namespace can have its own IP addresses and can operate independently from others.
 
-This isolation allows processes running in different namespaces to use the same IP addresses without conflict, enabling scenarios such as containerization where multiple applications can run on the same host without interfering with each other's network configurations[1][2][5].
+This isolation allows processes running in different namespaces to use the same IP addresses without conflict, enabling scenarios such as containerization where multiple applications can run on the same host without interfering with each other's network configurations.
 
 ### Broader Terms: What is a Network Stack
 

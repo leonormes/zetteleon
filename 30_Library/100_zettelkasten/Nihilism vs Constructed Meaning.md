@@ -20,10 +20,12 @@ updated:
 ## Nihilism Vs Constructed Meaning
 
 **Comparison:**
+
 - **Nihilism**: No inherent meaning → potential despair
 - **Constructed Meaning**: No inherent meaning → creative opportunity
 
 **ADHD Relevance:**
+
 - Explains motivation fluctuations
 - Validates interest-based engagement
 - Supports flexible purpose

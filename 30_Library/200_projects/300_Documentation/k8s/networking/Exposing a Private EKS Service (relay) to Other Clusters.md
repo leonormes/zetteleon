@@ -34,9 +34,9 @@ Given the private nature of your EKS cluster and the need for secure communicati
 - Purpose: To distribute incoming traffic across the pods of your `relay` service.
 - Type: You will need an internal Network Load Balancer (NLB). This NLB will only have private IP addresses within your VPC.
 - Configuration:
-    - Target Group: Configure a target group that points to the IP addresses and ports of your `relay` service pods. This requires your EKS cluster to be configured to allow the NLB to target pods directly (using IP mode for target groups). Alternatively, you can target the instance IDs of your worker nodes and the `NodePort` or `HostPort` of your `relay` service, but IP mode is generally preferred for better efficiency and scalability.
-    - Listeners: Configure listeners on the NLB to listen on the appropriate ports (the ports your `relay` service uses).
-    - Subnets: Ensure the NLB is deployed across the private subnets where your EKS worker nodes reside for high availability.
+  - Target Group: Configure a target group that points to the IP addresses and ports of your `relay` service pods. This requires your EKS cluster to be configured to allow the NLB to target pods directly (using IP mode for target groups). Alternatively, you can target the instance IDs of your worker nodes and the `NodePort` or `HostPort` of your `relay` service, but IP mode is generally preferred for better efficiency and scalability.
+  - Listeners: Configure listeners on the NLB to listen on the appropriate ports (the ports your `relay` service uses).
+  - Subnets: Ensure the NLB is deployed across the private subnets where your EKS worker nodes reside for high availability.
 
 ### 2.2. AWS PrivateLink - VPC Endpoint Service
 
@@ -72,9 +72,9 @@ While PrivateLink is the recommended approach for private communication, here ar
 
 - Purpose: To create a managed API endpoint that acts as a front door to your `relay` service.
 - Components:
-    - Internal NLB (as described above): You would still likely need an internal NLB to distribute traffic within your EKS cluster.
-    - VPC Link: You would create a VPC Link in API Gateway that connects to your internal NLB.
-    - API Gateway Endpoint: You would create an API Gateway (either HTTP API or REST API) and configure routes to forward requests to the VPC Link.
+  - Internal NLB (as described above): You would still likely need an internal NLB to distribute traffic within your EKS cluster.
+  - VPC Link: You would create a VPC Link in API Gateway that connects to your internal NLB.
+  - API Gateway Endpoint: You would create an API Gateway (either HTTP API or REST API) and configure routes to forward requests to the VPC Link.
 - Pros: Offers more control over the API interface, authentication, authorization, request/response transformation, and rate limiting.
 - Cons: Adds complexity and cost compared to a direct PrivateLink connection.
 
@@ -95,13 +95,13 @@ While PrivateLink is the recommended approach for private communication, here ar
 
 ## 5. Step-by-Step Implementation Outline (Using PrivateLink)
 
-1.  Deploy `relay` service in your private EKS cluster. Ensure it's running and accessible within the cluster's network.
-2.  Create an internal Network Load Balancer (NLB) in your EKS cluster's VPC. Configure it with a target group pointing to your `relay` service pods (using IP mode if possible) and a listener on the appropriate port.
-3.  Create a VPC Endpoint Service in your EKS cluster's VPC and associate it with the internal NLB.
-4.  Configure permissions for the VPC Endpoint Service to allow connections from the AWS accounts (if applicable) where the other clusters reside.
-5.  In each of the other clusters' VPCs, create an interface VPC endpoint. Select the "AWS services" category and find your VPC Endpoint Service. Choose the subnets where you want to deploy the endpoint.
-6.  Configure security groups for the NLB, EKS worker nodes, and the interface VPC endpoints to allow the necessary traffic flow.
-7.  Obtain the DNS names for the interface VPC endpoints in the other clusters' VPCs.
-8.  Test connectivity from the other clusters to your `relay` service using the DNS names of the interface VPC endpoints.
+1. Deploy `relay` service in your private EKS cluster. Ensure it's running and accessible within the cluster's network.
+2. Create an internal Network Load Balancer (NLB) in your EKS cluster's VPC. Configure it with a target group pointing to your `relay` service pods (using IP mode if possible) and a listener on the appropriate port.
+3. Create a VPC Endpoint Service in your EKS cluster's VPC and associate it with the internal NLB.
+4. Configure permissions for the VPC Endpoint Service to allow connections from the AWS accounts (if applicable) where the other clusters reside.
+5. In each of the other clusters' VPCs, create an interface VPC endpoint. Select the "AWS services" category and find your VPC Endpoint Service. Choose the subnets where you want to deploy the endpoint.
+6. Configure security groups for the NLB, EKS worker nodes, and the interface VPC endpoints to allow the necessary traffic flow.
+7. Obtain the DNS names for the interface VPC endpoints in the other clusters' VPCs.
+8. Test connectivity from the other clusters to your `relay` service using the DNS names of the interface VPC endpoints.
 
 By following these steps, you can securely and privately expose your `relay` service running in your private EKS cluster to other clusters using AWS PrivateLink. This approach minimizes exposure to the public internet and provides a reliable and scalable solution for inter-cluster communication. Remember to tailor the security group rules and permissions to your specific requirements.

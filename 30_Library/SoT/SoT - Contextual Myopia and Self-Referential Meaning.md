@@ -58,7 +58,7 @@ Contextual Myopia is not a static state; it is a self-reinforcing loop driven by
 
 - **Description:** Originating in organizational sociology, Goal Displacement occurs when the *original goals (ends)* of an activity are replaced by the *rules, procedures, and processes (means)* that were meant to achieve them. The process becomes more important than the outcome.
 
-    - *Classic Example:* A development team deriving achievement from completing tasks and closing tickets (means) rather than providing value to users (end).
+  - *Classic Example:* A development team deriving achievement from completing tasks and closing tickets (means) rather than providing value to users (end).
 
 - **Result:** Efficiency (doing things right) replaces Effectiveness (doing the right things).
 
@@ -88,10 +88,10 @@ In high-complexity environments (like software engineering or PKM), Contextual M
 
 ## 4. Counter-Strategies: Bursting the Bubble
 
-1.  **The "Zoom Out" Ritual:** Deliberately break the environmental lock. Stand up, walk away, change context.
-2.  **The "Why" Test:** Ask "What is the *ultimate* goal of this task?" If the answer is "to finish the task," you are in goal displacement.
-3.  **The "Sunk Cost" Audit:** Explicitly ask: "If I had not started this, would I start it now?" If no, stop immediately.
-4.  **External Validation:** Use a "Squad" or a mentor to provide an objective, outside view of importance.
+1. **The "Zoom Out" Ritual:** Deliberately break the environmental lock. Stand up, walk away, change context.
+2. **The "Why" Test:** Ask "What is the *ultimate* goal of this task?" If the answer is "to finish the task," you are in goal displacement.
+3. **The "Sunk Cost" Audit:** Explicitly ask: "If I had not started this, would I start it now?" If no, stop immediately.
+4. **External Validation:** Use a "Squad" or a mentor to provide an objective, outside view of importance.
 
 ---
 

@@ -111,6 +111,7 @@ ssh -J ${user}@${jump_host} ${user}@${ip}
 ---
 
 ## Usage Patterns
+
 1. Direct CLI access:
    `terraform output -raw ssh_command | pbcopy`
    Copies command to clipboard
@@ -132,6 +133,7 @@ output "prod_ssh" {
 ---
 
 ## Key Considerations
+
 - Security: Avoid storing sensitive connection details in plaintext outputs
 - Dynamic updates: Outputs automatically refresh after each `terraform apply`
 - Platform compatibility: Use `local_file` instead of `local-exec` for file operations [9]

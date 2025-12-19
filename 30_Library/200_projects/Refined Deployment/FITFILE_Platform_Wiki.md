@@ -31,17 +31,19 @@ The `terraform-helm-fitfile-platform` module acts as a "platform-in-a-box" insta
 - **Cluster Autoscaler** (AWS only).
 
 #### Strengths
+
 - **Opinionated & Standardized**: Enforces a specific architecture (VSO -> Reflector -> Ingress -> ArgoCD), ensuring all clusters look similar.
 - **Version Controlled**: Strict version pinning for all Helm charts prevents drift and accidental upgrades.
 - **Simplified Consumption**: Consumers only need to provide a few high-level variables (IP, hostnames, Vault auth) to get a full platform.
 - **Cloud Agnostic (mostly)**: Abstracts some differences between AWS and Azure.
 
 #### Weaknesses & Flexibility Bottlenecks
+
 - **Rigid Dependencies**: The `depends_on` chains are hardcoded. For example, `ingress_controller` depends on `vault_operator`, meaning you can't easily deploy Ingress without Vault.
 - **All-or-Nothing Deployment**: There are no feature flags (e.g., `enable_argocd = false`). You get the whole platform or nothing.
 - **Hardcoded Configuration**:
-    - `ingress_nginx` submodule has hardcoded `set` blocks for things like `enable-ssl-passthrough` and specific header sizes. Overriding these via `helm_values` can be tricky or impossible if the logic conflicts.
-    - `cluster_autoscaler` is strictly tied to `var.cloud_provider == "AWS"`.
+  - `ingress_nginx` submodule has hardcoded `set` blocks for things like `enable-ssl-passthrough` and specific header sizes. Overriding these via `helm_values` can be tricky or impossible if the logic conflicts.
+  - `cluster_autoscaler` is strictly tied to `var.cloud_provider == "AWS"`.
 - **Boolean Flags**: `use_image_pull_secret` is a simple boolean, but advanced users might want more granular control over *which* secrets to create.
 
 ---
@@ -100,11 +102,11 @@ This module deploys the core "Day 0" platform services required for a FITFILE Ku
 
 The module deploys components in the following order:
 
-1.  **Namespaces**: Core namespaces (`argocd`, `ingress-nginx`, etc.).
-2.  **Vault Secrets Operator**: Authenticates with HashiCorp Vault.
-3.  **Reflector**: Replicates secrets (like image pull secrets) across namespaces.
-4.  **NGINX Ingress**: Sets up the ingress controller with internal/external load balancers.
-5.  **ArgoCD**: Deploys the GitOps engine to manage "Day 1" applications.
+1. **Namespaces**: Core namespaces (`argocd`, `ingress-nginx`, etc.).
+2. **Vault Secrets Operator**: Authenticates with HashiCorp Vault.
+3. **Reflector**: Replicates secrets (like image pull secrets) across namespaces.
+4. **NGINX Ingress**: Sets up the ingress controller with internal/external load balancers.
+5. **ArgoCD**: Deploys the GitOps engine to manage "Day 1" applications.
 
 ##### Usage Guide (NNUH Example)
 
@@ -148,10 +150,10 @@ module "platform" {
 
 ##### Best Practices for Consumers
 
-1.  **Use the Version Manager**: Always fetch chart versions from the `global-version-manager` remote state to ensure compliance with platform standards.
-2.  **Secret Management**: Never hardcode secrets. Pass them via `var.approles` (sensitive) and map them in `app_role_secrets_map`.
-3.  **Overrides**: Use `ingress_helm_values` or `argocd_helm_values` sparingly. Only override what is necessary for the specific environment (e.g., specific annotations or resource limits).
-4.  **Dependency Awareness**: Remember that ArgoCD depends on Ingress, which depends on Vault. If Vault fails to authenticate, the entire chain may stall. Check Vault Operator logs first if deployments hang.
+1. **Use the Version Manager**: Always fetch chart versions from the `global-version-manager` remote state to ensure compliance with platform standards.
+2. **Secret Management**: Never hardcode secrets. Pass them via `var.approles` (sensitive) and map them in `app_role_secrets_map`.
+3. **Overrides**: Use `ingress_helm_values` or `argocd_helm_values` sparingly. Only override what is necessary for the specific environment (e.g., specific annotations or resource limits).
+4. **Dependency Awareness**: Remember that ArgoCD depends on Ingress, which depends on Vault. If Vault fails to authenticate, the entire chain may stall. Check Vault Operator logs first if deployments hang.
 
 ##### Troubleshooting
 

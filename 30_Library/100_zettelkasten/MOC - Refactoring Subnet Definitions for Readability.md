@@ -33,13 +33,13 @@ While mathematically correct (`/24` + 5 bits = `/29`; index 16 starts at `.128`)
 
 The improved approach uses [[Strategy - Hierarchical Subnetting]] to break the calculation into logical steps:
 
-1.  **Carve a generic block:** First, define a larger "Jumpbox Area" (`/26`) from the main VNet.
+1. **Carve a generic block:** First, define a larger "Jumpbox Area" (`/26`) from the main VNet.
 
 ```hcl
 jumpbox_block_prefix = cidrsubnet(local.vnet_address_space, 2, 2) # Result: 192.168.200.128/26
 ```
 
-2.  **Carve the specific subnet:** Then, define the specific VM subnet (`/29`) from *that* intermediate block.
+2. **Carve the specific subnet:** Then, define the specific VM subnet (`/29`) from *that* intermediate block.
 
 ```hcl
 vm_subnet_address_prefix = [cidrsubnet(local.jumpbox_block_prefix, 3, 0)] # Result: 192.168.200.128/29

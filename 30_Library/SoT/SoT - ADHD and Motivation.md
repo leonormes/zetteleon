@@ -53,7 +53,7 @@ You cannot expect "Duty" (Values-based living) to feel like "Fun" (Dopamine-base
 
 - **Eudaimonic Life:** Feels like running **Clean Code**. There is no adrenaline. There is just the quiet resonance of a system handling load without buckling.
 
-    - *Key Insight:* You must learn to label "Boredom" as "Safety." A quiet system is a successful system.
+  - *Key Insight:* You must learn to label "Boredom" as "Safety." A quiet system is a successful system.
 
 ---
 
@@ -61,10 +61,10 @@ You cannot expect "Duty" (Values-based living) to feel like "Fun" (Dopamine-base
 
 Neurotypical brains have an "Importance-Based" nervous system; they can self-motivate because a task is "important." ADHD brains have an **Interest-Based** nervous system. Importance is invisible. Motivation is only triggered by **ICNU**:
 
-1.  **I**nterest (Fascination)
-2.  **C**hallenge (Difficulty/Gamification)
-3.  **N**ovelty (Newness/Variance)
-4.  **U**rgency (Deadlines/Panic)
+1. **I**nterest (Fascination)
+2. **C**hallenge (Difficulty/Gamification)
+3. **N**ovelty (Newness/Variance)
+4. **U**rgency (Deadlines/Panic)
 
 **Implication:** Strategies relying on "willpower" or "importance" (e.g., "I should do this for my career") will mechanically fail. You must "Refactor" tasks to hit one of the ICNU triggers (See [[SoT - PRODOS (System Architecture)#The Ignition Protocol (Stimulus Injection)|The Ignition Protocol]]).
 
@@ -120,9 +120,9 @@ Traditional "Time-Based Scheduling" (e.g., "Write at 8:00 AM") fails because rep
 
 - **The Micro-Transaction:** Do not set a goal to "do the work" (too expensive). Set a goal to **enter the state**.
 
-    - *Example:* "Put on noise-cancelling headphones and open the document."
+  - *Example:* "Put on noise-cancelling headphones and open the document."
 
-    - *Physics:* Once the state is entered, Newton's First Law takes over.
+  - *Physics:* Once the state is entered, Newton's First Law takes over.
 
 - **The Trigger:** Attach this micro-ritual to an existing biological event (coffee, brushing teeth). "If [Coffee], Then [Headphones]."
 
@@ -170,5 +170,6 @@ A **Dopamine Detox** is not about eliminating pleasure, but about up-regulating 
 - [[Logic Does Not Produce Dopamine]]
 
 **Societal Context**
+
 - [[ADHD as Neurodiversity Not Deficit]]
 - [[Societal Stigma of ADHD Motivation]]

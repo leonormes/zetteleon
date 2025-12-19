@@ -59,6 +59,7 @@ Determine if this requires more than one step. If yes, it's a project that needs
 - Multiple actions to complete it
 
 **Decision tree:**
+
 - **One action?** → It's a simple task, skip to Step 3
 - **Multiple actions?** → It's a project, give it a name and "done" state
 
@@ -97,12 +98,14 @@ If that next action still feels too big or daunting, break it down further until
 
 **Next Action:** `@computer`: Create shared folder for redesign mockups
 **Still feels hard?** Break it down:
+
 - `@starter_task`: Open Google Drive
 - `@starter_task`: Click "New Folder" button
 - `@starter_task`: Type "Website Redesign Mockups"
 
 **Next Action:** `@phone`: Call Mom to ask about birthday plans
 **Still feels hard?** Break it down:
+
 - `@starter_task`: Find Mom's phone number
 - `@starter_task`: Dial Mom's number
 
@@ -141,16 +144,19 @@ Clear actions can be completed; vague "stuff" cannot
 This process is especially valuable because:
 
 **Externalizes Decision-Making:**
+
 - You're not deciding "what should I do about this?" in the moment
 - The clarification happens once, during processing
 - Decisions are pre-made when cognitive load is lower
 
 **Prevents Paralysis:**
+
 - No vague items to stare at in confusion
 - Always a clear next step
 - Starter tasks provide guaranteed entry point
 
 **Builds Trust:**
+
 - System consistently delivers actionable items
 - No surprises or ambiguity
 - Reduces anxiety about forgotten commitments

@@ -61,8 +61,8 @@ Root (.) → TLD (.com, .net) → SLD (example.com) → Subdomain (blog.example.
 
 - **Zones**: Administrative units (e.g., `example.com` zone contains all RRs for the domain)
 - **Authoritative Servers**: Store definitive zone data:
-    - **Primary**: Master copy (e.g., edits via `ns1.example.com`)
-    - **Secondary**: Replica for redundancy
+  - **Primary**: Master copy (e.g., edits via `ns1.example.com`)
+  - **Secondary**: Replica for redundancy
 
 **Example**:
 The `.com` TLD server delegates `example.com` to authoritative servers like `ns1.example.com`.

@@ -23,12 +23,14 @@ version: 1
 **Characteristics:**
 
 **Mental Emptiness:**
+
 - Having come down from the high of hyperfixation, the brain is now in a dopamine deficit
 - Feelings of apathy, boredom, and lack of direction dominate
 - Nothing seems interesting or engaging
 - Motivation is absent or barely accessible
 
 **Cognitive Fog:**
+
 - Difficulty thinking clearly or making decisions
 - Trouble initiating tasks, even simple ones
 - Feeling mentally "underwater" or "fuzzy"
@@ -36,6 +38,7 @@ version: 1
 - Inability to focus on anything
 
 **Emotional Impact:**
+
 - Feelings of frustration and shame intensify
 - Looking at remnants of the last hyperfixation (half-finished projects, purchased supplies, abandoned systems) evokes failure
 - The stark contrast between previous passion and current apathy is deeply disheartening

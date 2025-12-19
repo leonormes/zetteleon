@@ -38,19 +38,19 @@ Calico, including the open-source version you likely have as your CNI in AKS, ex
 
 - Calico NetworkPolicy API: Calico introduces its own `NetworkPolicy` API (`projectcalico.org/v3/NetworkPolicy`) which is a superset of the standard Kubernetes `networking.k8s.io/v1/NetworkPolicy`. This API offers enhanced features:
 
-    - Global Network Policies: Calico allows you to create `GlobalNetworkPolicy` objects that are not namespace-scoped and apply cluster-wide, useful for infrastructure-level policies.
+  - Global Network Policies: Calico allows you to create `GlobalNetworkPolicy` objects that are not namespace-scoped and apply cluster-wide, useful for infrastructure-level policies.
 
-    - Policy Ordering and Precedence: Calico provides mechanisms to control the order in which policies are evaluated and their precedence, crucial for complex policy sets.
+  - Policy Ordering and Precedence: Calico provides mechanisms to control the order in which policies are evaluated and their precedence, crucial for complex policy sets.
 
-    - Rule Actions (Pass, Log, Deny, Allow): Beyond simple allow/deny, Calico policies can `Pass` traffic to the next policy in the order or `Log` traffic for auditing purposes.
+  - Rule Actions (Pass, Log, Deny, Allow): Beyond simple allow/deny, Calico policies can `Pass` traffic to the next policy in the order or `Log` traffic for auditing purposes.
 
-    - Service Account Selectors: Target policies based on Kubernetes Service Accounts, offering another dimension of identity-based policy.
+  - Service Account Selectors: Target policies based on Kubernetes Service Accounts, offering another dimension of identity-based policy.
 
-    - Nested Selectors (NotSelectors): More complex selector logic, including negation (`not`).
+  - Nested Selectors (NotSelectors): More complex selector logic, including negation (`not`).
 
-    - Layer 7 (Application Layer) Policies (with Calico Enterprise/Cloud): While open-source Calico operates at layers 3 and 4, Calico Enterprise and Cloud extend policies to layer 7 for HTTP/HTTPS traffic inspection and control (more on this below).
+  - Layer 7 (Application Layer) Policies (with Calico Enterprise/Cloud): While open-source Calico operates at layers 3 and 4, Calico Enterprise and Cloud extend policies to layer 7 for HTTP/HTTPS traffic inspection and control (more on this below).
 
-    - DNS Policies: Control access based on DNS names.
+  - DNS Policies: Control access based on DNS names.
 
 - Calico HostEndpoints: Calico allows you to apply policies directly to the Kubernetes host nodes themselves, not just pods, for securing host-level processes.
 
@@ -84,13 +84,13 @@ GitOps and Calico Cloud
 
 The key for GitOps with Calico Cloud is to:
 
-1.  Prioritize Declarative Configuration: Whenever possible, favor declarative configuration over UI-driven configuration. Calico Cloud often provides APIs or CRDs to represent its features as code.
-2.  Identify Calico Cloud CRDs: Understand which CRDs Calico Cloud installs for its extended features. These are your primary targets for GitOps management.
-3.  Terraform and Helm Integration:
+1. Prioritize Declarative Configuration: Whenever possible, favor declarative configuration over UI-driven configuration. Calico Cloud often provides APIs or CRDs to represent its features as code.
+2. Identify Calico Cloud CRDs: Understand which CRDs Calico Cloud installs for its extended features. These are your primary targets for GitOps management.
+3. Terraform and Helm Integration:
     - Terraform: Terraform can manage Kubernetes resources, including CRDs. You can use the Kubernetes provider in Terraform to define Calico `NetworkPolicy`, `GlobalNetworkPolicy`, and potentially Calico Cloud-specific CRDs.
     - Helm: If Calico Cloud provides Helm charts (or if you can create your own), you can use Helm to deploy and manage Calico Cloud components and their configurations, including CRDs and potentially some initial policy sets.
-4.  Export and Version Control UI Configurations (If Necessary): If you use the Calico Cloud UI for initial policy creation or certain features, investigate if Calico Cloud allows you to export these configurations as YAML or JSON that you can then import into your GitOps repository and manage via Terraform or Helm going forward.
-5.  Automate Policy Updates: Set up CI/CD pipelines to automatically apply changes to your network policy definitions whenever you update your GitOps repository.
+4. Export and Version Control UI Configurations (If Necessary): If you use the Calico Cloud UI for initial policy creation or certain features, investigate if Calico Cloud allows you to export these configurations as YAML or JSON that you can then import into your GitOps repository and manage via Terraform or Helm going forward.
+5. Automate Policy Updates: Set up CI/CD pipelines to automatically apply changes to your network policy definitions whenever you update your GitOps repository.
 
 In summary:
 

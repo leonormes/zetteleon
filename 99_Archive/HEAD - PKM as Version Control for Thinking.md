@@ -36,11 +36,12 @@ The "Git" Analogy for Thought:
 
 My current PKM fails because it treats knowledge like a **file system** (a flat list of documents) rather than a **version control system** (a history of state changes).
 
-1.  **Snapshots vs. State:** Most notes are just "snapshots" of what I thought at a specific `time=t`. They are static. My brain, however, is dynamic; my understanding at `time=t+1` is different.
-2.  **The "Trust" Gap:** When I search my vault, I retrieve a mix of "old, deprecated thoughts" and "current, active thoughts" with no easy way to distinguish them. Because I can't tell if a note is "deprecated" or "production-ready," I mistrust the entire system.
-3.  **The Goal:** I don't need an archive of everything I've ever read. I need to know: *"What is the `HEAD` state of my mental model on Topic X right now?"*
+1. **Snapshots vs. State:** Most notes are just "snapshots" of what I thought at a specific `time=t`. They are static. My brain, however, is dynamic; my understanding at `time=t+1` is different.
+2. **The "Trust" Gap:** When I search my vault, I retrieve a mix of "old, deprecated thoughts" and "current, active thoughts" with no easy way to distinguish them. Because I can't tell if a note is "deprecated" or "production-ready," I mistrust the entire system.
+3. **The Goal:** I don't need an archive of everything I've ever read. I need to know: *"What is the `HEAD` state of my mental model on Topic X right now?"*
 
 **The New Paradigm:**
+
 - **HEAD:** The current, working theory (The Workbench).
 - **SoT (Source of Truth):** The "Production" branch. Validated, merged, and trusted.
 - **Archive:** The commit history. Interesting for context, but not for operation.
@@ -57,7 +58,8 @@ My current PKM fails because it treats knowledge like a **file system** (a flat 
 **Hypothesis:** If I explicitly separate "Thinking" (volatile, HEAD) from "Knowledge" (stable, SoT), I will regain trust in the system because I will know exactly where to look for the "current version" of an idea.
 
 **Action:**
-1.  **Refactor one topic:** Take a confusing topic (e.g., "Kubernetes Networking" or a specific philosophy concept) where I have multiple scattered notes.
-2.  **Create a `HEAD` note:** Attempt to write *only* my current understanding from memory (the `HEAD` state).
-3.  **Compare:** Check the "archive" notes. Did I miss anything critical? If so, merge it into the `HEAD` note.
-4.  **Commit:** If the `HEAD` note feels solid, synthesize it into a single `SoT` note and archive the rest.
+
+1. **Refactor one topic:** Take a confusing topic (e.g., "Kubernetes Networking" or a specific philosophy concept) where I have multiple scattered notes.
+2. **Create a `HEAD` note:** Attempt to write *only* my current understanding from memory (the `HEAD` state).
+3. **Compare:** Check the "archive" notes. Did I miss anything critical? If so, merge it into the `HEAD` note.
+4. **Commit:** If the `HEAD` note feels solid, synthesize it into a single `SoT` note and archive the rest.

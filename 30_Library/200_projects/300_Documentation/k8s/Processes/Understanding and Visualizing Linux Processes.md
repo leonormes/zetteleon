@@ -44,7 +44,7 @@ The output columns represent:
 - TIME: CPU time used
 - COMMAND: The command that started the process
 
-### Making PS More Readable
+### Making `ps` More Readable
 
 Try these variations for clearer output:
 

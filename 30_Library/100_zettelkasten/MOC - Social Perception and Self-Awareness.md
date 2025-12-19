@@ -81,19 +81,23 @@ How emotions shape and are shaped by social perception:
 ### Practical Entry Points
 
 **When starting social calibration work:**
+
 1. Begin with [[Feedback-Seeking Strategies for Calibration]] to establish baseline reality checks
 2. Track outcomes (who initiates follow-up, accepts invitations) as objective proxies
 
 **When experiencing social anxiety:**
+
 1. Review [[Liking Gap]] and [[Spotlight Effect]]—default assumption should be that people like you more and notice your mistakes less than you believe
 2. Apply [[Mind-Reading Fallacy and Projection]] to shift from certainty to hypothesis-testing
 
 **When bias is suspected:**
+
 1. Use [[Confirmation Bias Distorts Social Perception]] to actively seek disconfirming evidence
 2. Apply [[Reality Testing]] frameworks
 3. Generate multiple alternative explanations for ambiguous cues ([[Ambiguity in Social Cues]])
 
 **For understanding group dynamics:**
+
 1. See [[Emotional Contagion in Social Settings]] for how affect spreads
 2. See [[The Cognitive-Emotional Feedback Loop]] for reinforcement mechanisms
 

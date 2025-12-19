@@ -35,6 +35,7 @@ This model treats a team like a mechanical transmission system.
 ### 2.1 Meta-Work and Efficiency Loss
 
 **Meta-Work** is the overhead required to manage the dysfunction itself. It is work about work, and includes activities like:
+
 - Spending hours convincing a lead of a correct solution they are biased against.
 - Creating extensive slide decks for non-technical managers to justify a sound technical decision.
 - Navigating political hurdles to get a simple approval.

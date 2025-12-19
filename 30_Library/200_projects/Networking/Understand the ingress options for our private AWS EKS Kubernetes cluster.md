@@ -27,6 +27,7 @@ You can expose your Kubernetes Service as a `LoadBalancer` type.
 - When you create a Service of type `LoadBalancer` in AWS EKS, the cloud controller manager integrates with AWS to provision a cloud load balancer (which could be an Elastic Load Balancer - Classic ELB, an Application Load Balancer - ALB, or a Network Load Balancer - NLB, depending on your EKS configuration and service annotations).
 - This load balancer gets a DNS name, and can be configured to route traffic on specific ports to your Kubernetes Pods.
 - For a *private* EKS cluster, the visibility and accessibility of this load balancer depend on your VPC and subnet configuration. You might end up with an internal load balancer accessible only within your VPC, or you might need to ensure your private subnets have routes to a NAT gateway or an internet gateway (if you intend to make it publicly accessible, which you might not for a "private" cluster in the strict sense).
+
 ## NodePort Service with External AWS Load Balancer
 
 You can expose your Service as a `NodePort` type and then manually provision an AWS load balancer (ELB, NLB, or ALB) to forward traffic to the NodePort of your EKS worker nodes.
@@ -35,6 +36,7 @@ You can expose your Service as a `NodePort` type and then manually provision an 
 - You would then configure an AWS load balancer in your VPC to target all the worker nodes in your EKS cluster on this specific NodePort.
 - For a private cluster, the load balancer would need to be configured within your VPC. Access from the external process would then depend on the network connectivity to your VPC (e.g., VPN, Direct Connect, VPC peering if the process is in another VPC, or potentially an internal load balancer if the process is within the same VPC).
 - You might want to consider setting `externalTrafficPolicy: Local` on your NodePort service to preserve the client source IP address, although the sources note this might lead to imbalanced traffic.
+
 ## Ingress With AWS Application Load Balancer (ALB) Ingress Controller
 
 If your task queue polling mechanism uses HTTP or HTTPS, you can use a Kubernetes `Ingress` resource managed by the AWS ALB ingress controller.
@@ -54,13 +56,13 @@ When you define a Kubernetes Service of the `LoadBalancer` type in an AWS EKS cl
 
 - Private Cluster Implications: In the context of a *private* EKS cluster, where your worker nodes typically reside in private subnets with no direct internet access, the behaviour of the provisioned load balancer becomes crucial. By default, AWS load balancers can be either internet-facing or internal. For your scenario, you would likely want an *internal* load balancer. This type of load balancer receives traffic from within your Virtual Private Cloud (VPC) or from networks connected to your VPC (like through VPN, Direct Connect, or VPC peering).
 - Connectivity for the External Poller: The "external" polling process, therefore, needs to have network connectivity to your VPC where the internal load balancer resides. This is a fundamental requirement regardless of the ingress option you choose for a private cluster. Common methods to achieve this connectivity include:
-    - VPN (Virtual Private Network): Establishing a secure, encrypted tunnel between your network (where the poller runs) and your AWS VPC.
-    - AWS Direct Connect: Creating a dedicated network connection from your premises to AWS, offering higher bandwidth and more consistent network performance.
-    - VPC Peering: If the external process resides in another AWS VPC, you can establish a VPC peering connection to allow network traffic to route between the two VPCs.
-    - AWS PrivateLink (Not explicitly in sources, but highly relevant): This provides private connectivity between VPCs, AWS services, and your on-premises networks, without exposing your traffic to the public internet. You could potentially expose your internal load balancer or even your task queue service directly via a PrivateLink endpoint in the VPC where the poller resides.
+  - VPN (Virtual Private Network): Establishing a secure, encrypted tunnel between your network (where the poller runs) and your AWS VPC.
+  - AWS Direct Connect: Creating a dedicated network connection from your premises to AWS, offering higher bandwidth and more consistent network performance.
+  - VPC Peering: If the external process resides in another AWS VPC, you can establish a VPC peering connection to allow network traffic to route between the two VPCs.
+  - AWS PrivateLink (Not explicitly in sources, but highly relevant): This provides private connectivity between VPCs, AWS services, and your on-premises networks, without exposing your traffic to the public internet. You could potentially expose your internal load balancer or even your task queue service directly via a PrivateLink endpoint in the VPC where the poller resides.
 - Protocol Considerations: The type of AWS load balancer provisioned will heavily influence the protocols it can handle.
-    - For HTTP or HTTPS-based task queue polling, an Application Load Balancer (ALB) is often the preferred choice, offering layer 7 routing capabilities based on hostnames and paths.
-    - If your task queue uses a different protocol (e.g., a custom TCP or UDP-based protocol), you would likely need a Network Load Balancer (NLB). NLBs operate at layer 4 (TCP/UDP) and provide high performance with low latency. Classic Load Balancers (ELBs) are an older generation and offer less flexibility compared to ALBs and NLBs.
+  - For HTTP or HTTPS-based task queue polling, an Application Load Balancer (ALB) is often the preferred choice, offering layer 7 routing capabilities based on hostnames and paths.
+  - If your task queue uses a different protocol (e.g., a custom TCP or UDP-based protocol), you would likely need a Network Load Balancer (NLB). NLBs operate at layer 4 (TCP/UDP) and provide high performance with low latency. Classic Load Balancers (ELBs) are an older generation and offer less flexibility compared to ALBs and NLBs.
 - Service Annotations: You can use Kubernetes Service annotations to influence the creation and configuration of the underlying AWS load balancer. For example, you can specify whether you want an internal load balancer, the subnets it should reside in, security group settings, and more.
 
 ## 2. NodePort Service with External AWS Load Balancer (Elaborated)
@@ -369,6 +371,7 @@ Benefits**:
 ---
 
 ### Summary
+
 - Ingress simplifies external access with advanced routing and centralized TLS.
 - Egress enhances security by restricting and monitoring outbound traffic.
 - Gateway API (emerging) offers richer routing features compared to traditional Ingress.

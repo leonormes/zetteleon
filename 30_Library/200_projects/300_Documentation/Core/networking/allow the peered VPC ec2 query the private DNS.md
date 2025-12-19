@@ -21,10 +21,13 @@ version: 1
 ## 1. VPC Peering Configuration
 
 ### Route Tables
+
 - Update the route tables in both VPCs to allow traffic to flow between them.
 - Add routes that direct traffic destined for the peer VPC's CIDR block through the peering connection
 - Ensure these routes are as restrictive as possible, adhering to the principle of least privilege.
+
 ### Non-Overlapping CIDR Blocks
+
 - Confirm that the CIDR blocks of both VPCs do not overlap, as overlapping ranges can cause routing conflicts.
 
 ## 2. Security Groups and Network ACLs
@@ -73,13 +76,13 @@ Example Scenario
 Assume you have two VPCs:
 
 - VPC A:
-    - CIDR Block: `10.0.0.0/16`
-    - Route Table ID: `rtb-aaa111`
-    - Peering Connection ID: `pcx-aaa111`
+  - CIDR Block: `10.0.0.0/16`
+  - Route Table ID: `rtb-aaa111`
+  - Peering Connection ID: `pcx-aaa111`
 - VPC B:
-    - CIDR Block: `192.168.0.0/16`
-    - Route Table ID: `rtb-bbb222`
-    - Peering Connection ID: `pcx-bbb222`
+  - CIDR Block: `192.168.0.0/16`
+  - Route Table ID: `rtb-bbb222`
+  - Peering Connection ID: `pcx-bbb222`
 
 Steps to Configure Routing
 
@@ -125,8 +128,8 @@ It seems that the other vpc has 2 cidr ranges:10.64.11.0/24 10.64.8.64/26. But t
 In your current setup, the route table entries are configured as follows:
 
 - Route Table Entries:
-	- `10.64.11.128/25` → `pcx-06524c8e180979086`
-	- `10.64.11.0/25` → `pcx-06524c8e180979086`
+  - `10.64.11.128/25` → `pcx-06524c8e180979086`
+  - `10.64.11.0/25` → `pcx-06524c8e180979086`
 
 These entries cover the IP address range `10.64.11.0` to `10.64.11.255`, effectively splitting the `10.64.11.0/24` CIDR block into two equal halves:
 

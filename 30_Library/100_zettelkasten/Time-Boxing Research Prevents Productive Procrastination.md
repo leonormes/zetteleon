@@ -22,12 +22,14 @@ updated: 2025-11-12T15:00:10Z
 **What:** A strategy to counter "productive procrastination" by establishing a firm, external boundary on passive information gathering (Type 1 Information).
 
 **How:**
-1.  Before starting research, define a single, specific question to be answered.
-2.  Set a timer for a short, fixed duration (e.g., 15-25 minutes).
-3.  Focus exclusively on answering that specific question within the allotted time.
-4.  When the timer goes off, immediately stop the research and pivot to an action: applying the information found.
+
+1. Before starting research, define a single, specific question to be answered.
+2. Set a timer for a short, fixed duration (e.g., 15-25 minutes).
+3. Focus exclusively on answering that specific question within the allotted time.
+4. When the timer goes off, immediately stop the research and pivot to an action: applying the information found.
 
 **Failure modes:**
+
 - Starting research without a specific question, leading to aimless browsing.
 - Ignoring the timer and continuing down the "rabbit hole."
 

@@ -78,9 +78,9 @@ The intensity of the feeling convinces the brain that the danger is real.
 
 Since the brain does not automatically "save" positive moments, we must manually hit the "Save Button."
 
-1.  **The 15-Second Savor:** Positive experiences must be held in awareness for at least 15 seconds to transfer from Short-Term Memory to Long-Term Storage (encoding).
-2.  **The Fact Audit:** When spiraling, ask: *"Is this a fact, or is this the Negativity Bias?"* (CBT).
-3.  **Reframing:** View the "inner critic" not as the voice of truth, but as an over-active security system. Thank it for the warning, then dismiss it.
+1. **The 15-Second Savor:** Positive experiences must be held in awareness for at least 15 seconds to transfer from Short-Term Memory to Long-Term Storage (encoding).
+2. **The Fact Audit:** When spiraling, ask: *"Is this a fact, or is this the Negativity Bias?"* (CBT).
+3. **Reframing:** View the "inner critic" not as the voice of truth, but as an over-active security system. Thank it for the warning, then dismiss it.
 
 ---
 

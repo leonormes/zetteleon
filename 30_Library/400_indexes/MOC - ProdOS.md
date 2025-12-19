@@ -103,5 +103,6 @@ Specific implementations of ProdOS principles.
 ---
 
 **Quick Links:**
+
 - [[SoT.base|All Source of Truth Notes]]
 - [[MOCx.base|All Maps of Content]]

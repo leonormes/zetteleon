@@ -60,9 +60,10 @@ The refusal to engage with ambiguity creates a self-reinforcing loop.
 To think deeply, one must artificially support the mind through the discomfort.
 
 ### 4.1 Strategies for Depth
-1.  **Reframing Discomfort:** View the feeling of confusion not as a sign of failure ("I don't get it") but as a sign of depth ("I am expanding my model").
-2.  **Externalization:** Get the conflicting ideas out of the head and onto paper/screen. Externalizing ambiguity reduces the working memory load, making it easier to manipulate conflicting concepts without the emotional stress of holding them internally.
-3.  **The "Maybe" Label:** Consciously tag new, threatening ideas as "Provisional" or "Hypothetical." This lowers the stakes of engagement, bypassing the brain's defense mechanisms.
+
+1. **Reframing Discomfort:** View the feeling of confusion not as a sign of failure ("I don't get it") but as a sign of depth ("I am expanding my model").
+2. **Externalization:** Get the conflicting ideas out of the head and onto paper/screen. Externalizing ambiguity reduces the working memory load, making it easier to manipulate conflicting concepts without the emotional stress of holding them internally.
+3. **The "Maybe" Label:** Consciously tag new, threatening ideas as "Provisional" or "Hypothetical." This lowers the stakes of engagement, bypassing the brain's defense mechanisms.
 
 ---
 

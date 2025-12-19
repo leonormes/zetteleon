@@ -71,10 +71,10 @@ Why can an expert read complex code instantly while a novice struggles?
 
 Programming is uniquely demanding because it saturates all WM subsystems simultaneously:
 
-1.  **Variable States:** (What does `x` equal now?)
-2.  **Control Flow:** (Where did this function come from?)
-3.  **Syntax:** (Where does the semicolon go?)
-4.  **Business Logic:** (What is this actually supposed to do?)
+1. **Variable States:** (What does `x` equal now?)
+2. **Control Flow:** (Where did this function come from?)
+3. **Syntax:** (Where does the semicolon go?)
+4. **Business Logic:** (What is this actually supposed to do?)
 
 **The Multiple Demand (MD) System:**
 Neuroscience confirms that programming heavily engages the MD system (frontal/parietal regions), which is the seat of executive function and fluid intelligence. This explains why **interruptions are so costly**: rebuilding the "House of Cards" in WM takes minutes, but collapsing it takes seconds.
@@ -95,6 +95,7 @@ Since we cannot upgrade our biological RAM (especially with ADHD), we must optim
 ---
 
 ## 6. Related Components
+
 - [[SoT - Learning Mechanisms]]
 - [[SoT - The Extended Mind]]
 - [[SoT - ADHD Executive Dysfunction]]

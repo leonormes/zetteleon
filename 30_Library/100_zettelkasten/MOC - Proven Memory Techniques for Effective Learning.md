@@ -25,6 +25,7 @@ updated:
 This map organizes evidence-based memory techniques that enhance learning and retention.
 
 ### Core Techniques
+
 - [[Memory Palace Technique Uses Spatial Visualization to Enhance Recall]] rel:: technique
 - [[Mnemonic Devices Create Associative Memory Hooks]] rel:: technique
 - [[Spaced Repetition Strengthens Memory Through Timed Review]] rel:: technique
@@ -32,24 +33,30 @@ This map organizes evidence-based memory techniques that enhance learning and re
 - [[Feynman Technique Deepens Learning Through Teaching]] rel:: technique
 
 ### Supporting Factors
+
 - [[Optimal Memory Function Requires Sleep, Stress Management and Mental Exercise]] rel:: supports
 
 ### Neuroscience Foundations
+
 - [[Diffuse vs Focused Thinking Modes]] rel:: enables
 - [[Cognitive Health Practices for Technical Work]] rel:: supports
 
 ### Foundational Concepts
+
 - [[Memory Enables Learning by Storing Experiences for Future Use]] rel:: foundation
 - [[Foundations of Learning and Cognition for Developers]] rel:: extends
 
 ### Motivation Foundations
+
 - [[Existentialism - Existence Precedes Essence]] rel:: informs
 - Learning as active meaning-making process
 
 ### Related Visualizations
+
 - [[Diagram - Philosophy-Productivity Connections]]
 
 ### Implementation Tips
+
 - Combine techniques for synergistic effects
 - Adapt techniques to your learning style
 - Monitor effectiveness and adjust accordingly

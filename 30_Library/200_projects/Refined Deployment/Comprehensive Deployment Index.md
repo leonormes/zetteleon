@@ -123,10 +123,10 @@ This index provides organized access to all deployment-related documentation, co
 
 These notes provide the high-level narrative and architecture of the deployment system.
 
-1.  **[[SoT - FITFILE Deployment Process]]** - **The Master Map.** The end-to-end flow from commit to cloud.
-2.  **[[SoT - FITFILE CI/CD Pipelines]]** - **The Engine.** Detailed documentation of the GitLab CI/CD pipelines.
-3.  **[[SoT - FITFILE Secret Management Architecture]]** - **The Keys.** How Vault and VSO secure the platform.
-4.  **[[SoT - FITFILE Platform Deployment]]** - Platform-specific deployment details.
+1. **[[SoT - FITFILE Deployment Process]]** - **The Master Map.** The end-to-end flow from commit to cloud.
+2. **[[SoT - FITFILE CI/CD Pipelines]]** - **The Engine.** Detailed documentation of the GitLab CI/CD pipelines.
+3. **[[SoT - FITFILE Secret Management Architecture]]** - **The Keys.** How Vault and VSO secure the platform.
+4. **[[SoT - FITFILE Platform Deployment]]** - Platform-specific deployment details.
 
 ---
 

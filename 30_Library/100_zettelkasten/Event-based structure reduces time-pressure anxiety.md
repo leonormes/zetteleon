@@ -25,6 +25,7 @@ For individuals with ADHD, autism, or anxiety conditions, constantly monitoring 
 This approach transforms time from a source of pressure into a flexible resource, allowing individuals to focus on task completion and natural rhythms rather than maintaining temporal precision.
 
 ## Related
+
 - [[Mini routines are event-triggered sequences rather than time-based schedules]]
 - [[Routines reduce anxiety and decision fatigue in neurodivergent individuals]]
 - [[Visual Timers for ADHD Time Blindness]]

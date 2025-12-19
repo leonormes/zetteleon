@@ -22,10 +22,12 @@ updated:
 **Summary:** The in-addr.arpa domain provides a hierarchical namespace for mapping IP addresses back to hostnames using PTR records.
 
 **Format:**
+
 - IPv4: Reverse octets + .in-addr.arpa (e.g., 1.253.253.192.in-addr.arpa for 192.253.253.1)
 - Queries return PTR records with canonical names
 
 **Uses:**
+
 - Authentication (e.g., mail servers)
 - Logging
 - Troubleshooting

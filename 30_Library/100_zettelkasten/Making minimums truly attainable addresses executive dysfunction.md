@@ -27,6 +27,7 @@ By explicitly planning minimum routines where "feeding yourself counts as a win,
 This strategy recognizes that maintaining any version of a routine during dysfunction periods preserves the habit infrastructure. When executive function returns, you haven't lost weeks rebuilding from zero—you've maintained a baseline that can be scaled back up.
 
 ## Related
+
 - [[Minimum routines are bare-bones essentials for low-energy days]]
 - [[Executive Function Challenges are Central to ADHD]]
 - [[Cultivating Self-Compassion for ADHD]]

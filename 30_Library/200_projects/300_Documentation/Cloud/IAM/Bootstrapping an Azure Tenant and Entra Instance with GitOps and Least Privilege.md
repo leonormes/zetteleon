@@ -154,10 +154,10 @@ Several tools and technologies can help automate the process of bootstrapping an
 - **Azure PowerShell:** Azure PowerShell offers a set of cmdlets for managing Azure resources using PowerShell.
 - **Terraform:** Terraform is an open-source IaC tool that allows you to define and provision infrastructure across various cloud providers, including Azure13.
 - **Azure Automation:** Azure Automation provides a cloud-based automation service for automating various tasks in Azure. It offers features like: 15
-    - **Schedules:** Trigger automation operations at predefined times.
-    - **Modules:** Manage Azure and other systems using pre-built or custom modules.
-    - **Credentials:** Securely store sensitive information that runbooks can use at runtime.
-    - **Connections:** Store connection information for various systems.
+  - **Schedules:** Trigger automation operations at predefined times.
+  - **Modules:** Manage Azure and other systems using pre-built or custom modules.
+  - **Credentials:** Securely store sensitive information that runbooks can use at runtime.
+  - **Connections:** Store connection information for various systems.
 
 These tools and technologies can be used with GitOps to streamline the bootstrapping process and ensure the security of your Azure tenant.
 

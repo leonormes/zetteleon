@@ -69,16 +69,19 @@ The system provides multiple neurodivergent-friendly features:
 Here is a practical shell for building your own rhythm:
 
 **Bookend Routines**
+
 - **Morning:** [personalize steps based on your needs]
 - **Evening:** [personalize steps for wind-down]
 
 **Anchor Points**
+
 - After morning routine
 - Lunch completion
 - End of workday
 - Dinner completion
 
 **Time Blocks** (flexible duration)
+
 - Breakfast → Lunch: [tasks/rest]
 - Lunch → End of workday: [tasks/rest/errands]
 - End of workday → Dinner: [personal projects]
@@ -91,6 +94,7 @@ Adjust each block daily based on energy, commitments, and unforeseen needs.
 [[Mini routines are effective for ADHD autism and chronic illness]] precisely because they provide structure without rigidity or overwhelm. The framework guides behavior while remaining responsive to the significant day-to-day variations these conditions create. This is the fundamental value proposition: achieving consistency through flexibility rather than demanding perfection.
 
 ### Related Maps
+
 - [[MOC - Why Autistics and ADHDers NEED Routines]]
 - [[Use Anchor Times to Build Consistent Routines]]
 

@@ -40,12 +40,12 @@ Here are several practical strategies you can employ:
 
 - **"Security Beyond Access Control" Session:** Dedicate a team meeting or a workshop specifically to this topic. Start by acknowledging the work done on access control, then clearly outline the other critical aspects of data security in distributed systems.
 - **Topic-Specific Deep Dives:** Organize sessions focused on individual security domains like:
-    - **Encryption (at rest and in transit):** Discuss different encryption algorithms, key management, and their importance in protecting data confidentiality.
-    - **Data Integrity and Auditing:** Explore techniques for ensuring data hasn't been tampered with and the role of comprehensive audit logs.
-    - **Network Security in Distributed Systems:** Cover concepts like firewalls, network segmentation, intrusion detection/prevention systems (IDS/IPS), and zero-trust networking.
-    - **Secure Development Practices:** Introduce concepts like threat modelling, secure coding guidelines, and vulnerability scanning as part of the development lifecycle.
-    - **Incident Response:** Discuss what happens when a security incident occurs, the importance of having a plan, and the roles and responsibilities involved.
-    - **Data Loss Prevention (DLP):** Explain how DLP tools can help identify and prevent sensitive data from leaving the organization's control.
+  - **Encryption (at rest and in transit):** Discuss different encryption algorithms, key management, and their importance in protecting data confidentiality.
+  - **Data Integrity and Auditing:** Explore techniques for ensuring data hasn't been tampered with and the role of comprehensive audit logs.
+  - **Network Security in Distributed Systems:** Cover concepts like firewalls, network segmentation, intrusion detection/prevention systems (IDS/IPS), and zero-trust networking.
+  - **Secure Development Practices:** Introduce concepts like threat modelling, secure coding guidelines, and vulnerability scanning as part of the development lifecycle.
+  - **Incident Response:** Discuss what happens when a security incident occurs, the importance of having a plan, and the roles and responsibilities involved.
+  - **Data Loss Prevention (DLP):** Explain how DLP tools can help identify and prevent sensitive data from leaving the organization's control.
 - **Guest Speakers:** Invite security experts from within or outside your organization to share their knowledge and perspectives on specific security topics. This can bring a fresh perspective and highlight the importance of a holistic approach.
 - **Industry Best Practices and Case Studies:** Discuss relevant industry standards (like OWASP Top Ten for web applications, NIST Cybersecurity Framework) and analyse real-world security breaches to understand how failures in different security domains can have significant consequences.
 
@@ -54,9 +54,9 @@ Here are several practical strategies you can employ:
 - **Focus on Data Flow:** Conduct threat modelling sessions that specifically focus on the journey of your data through the distributed system. Identify potential threats at each stage (e.g., data creation, storage, processing, transmission, consumption).
 - **Use Visual Aids:** Employ diagrams and flowcharts to visualize the data flow and the different components involved. This makes it easier for the team to understand the attack surface.
 - **"What If?" Scenarios:** Encourage the team to think like an attacker. Ask "what if" questions about different attack scenarios and how the current security measures would (or wouldn't) prevent them. For example:
-    - "What if an attacker gains access to one of our internal microservices?"
-    - "What if a database containing sensitive information is accidentally exposed?"
-    - "What if an employee's laptop containing customer data is lost or stolen?"
+  - "What if an attacker gains access to one of our internal microservices?"
+  - "What if a database containing sensitive information is accidentally exposed?"
+  - "What if an employee's laptop containing customer data is lost or stolen?"
 - **Document Findings and Action Items:** Ensure that the threats identified and potential mitigation strategies are documented and assigned as action items. This turns the theoretical exercise into concrete improvements.
 
 ### 3. Incorporate Security into Design and Planning

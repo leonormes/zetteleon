@@ -20,11 +20,13 @@ updated:
 ## Dependency Problems Create Cascading Failures
 
 **Summary:** Poor dependency management leads to:
+
 - Version conflicts ("Dependency Hell")
 - Brittle integration points
 - Difficult upgrades/refactoring
 
 **Common Causes:**
+
 - Overuse of shared libraries
 - Lack of interface abstraction
 - Vendor lock-in patterns

@@ -48,10 +48,10 @@ user      1452  1.2  2.5 780320 21508 pts/0    Sl   09:10   1:15 /usr/bin/python
 - `RSS`: Resident Set Size, physical memory used (in KB).
 - `TTY`: Terminal associated with the process (`?` for none, like daemons).
 - `STAT`: Process state:
-    - `S`: Sleeping.
-    - `R`: Running.
-    - `Z`: Zombie (terminated but not cleaned up).
-    - `T`: Stopped.
+  - `S`: Sleeping.
+  - `R`: Running.
+  - `Z`: Zombie (terminated but not cleaned up).
+  - `T`: Stopped.
 - `START`: Process start time.
 - `TIME`: Total CPU time used.
 - `COMMAND`: The command or program name.
@@ -77,9 +77,9 @@ PID USER   PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
 
 - A more user-friendly, colorful, and interactive alternative to `top`.
 - Features:
-    - Easier navigation with arrow keys.
-    - Sort processes by CPU, memory, or time with function keys.
-    - Shows hierarchical process trees.
+  - Easier navigation with arrow keys.
+  - Sort processes by CPU, memory, or time with function keys.
+  - Shows hierarchical process trees.
 - Run: `htop` (install with `sudo apt install htop` or equivalent).
 
 ---
@@ -138,8 +138,8 @@ pkill nginx
 ### 8. `nsenter` And `ip netns`
 
 - For namespace-specific process isolation:
-    - Use `nsenter` to enter a specific namespace and view processes (`ps` within the namespace).
-    - Use `ip netns exec <namespace> ps aux` to list processes inside a network namespace.
+  - Use `nsenter` to enter a specific namespace and view processes (`ps` within the namespace).
+  - Use `ip netns exec <namespace> ps aux` to list processes inside a network namespace.
 
 ---
 

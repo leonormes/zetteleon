@@ -9,14 +9,25 @@ last-synthesis: 2025-12-11
 last_reviewed: 2025-12-11
 modified: 2025-12-19T10:12:33Z
 purpose: To define the inherent limitations of human cognitive processing and the role of abstraction as a compensatory mechanism.
-quality-markers: [Connects abstraction to prediction., Explains the hill climbing analogy., Integrates predictive processing concepts.]
-related-soTs: ["[[Mental Models MOC]]", "[[MOC - Cognitive Abstraction and Understanding]]", "[[SoT - PRODOS (System Architecture)]]"]
+quality-markers:
+  [
+    Connects abstraction to prediction.,
+    Explains the hill climbing analogy.,
+    Integrates predictive processing concepts.
+  ]
+related-soTs:
+  [
+    "[[Mental Models MOC]]",
+    "[[MOC - Cognitive Abstraction and Understanding]]",
+    "[[SoT - PRODOS (System Architecture)]]"
+  ]
 resonance-score: 8
 review_interval: 6 months
 see_also: []
 source_of_truth: true
 status: stable
-supersedes: ["[[Human Understanding is Inherently Myopic]]", "[[Myopic understanding]]"]
+supersedes:
+  ["[[Human Understanding is Inherently Myopic]]", "[[Myopic understanding]]"]
 tags: [abstraction, cognition, mental_models, psychology, understanding]
 title: SoT - Contextual Myopia and Human Behavior
 type: SoT
@@ -53,8 +64,8 @@ The primary mechanism for overcoming cognitive myopia is **Abstraction**.
 
 Imagine understanding as standing on a landscape.
 
-1.  **Low Abstraction (The Valley):** You are on the ground. You can see the grass, the bugs, and the dirt in high definition (High Resolution). However, you cannot see where the path leads or what is over the next ridge (Low Context/Prediction).
-2.  **High Abstraction (The Summit):** You climb the hill. Now you can see the entire valley, the river's path, and the weather approaching (High Context/Prediction). However, you can no longer distinguish individual blades of grass (Low Resolution).
+1. **Low Abstraction (The Valley):** You are on the ground. You can see the grass, the bugs, and the dirt in high definition (High Resolution). However, you cannot see where the path leads or what is over the next ridge (Low Context/Prediction).
+2. **High Abstraction (The Summit):** You climb the hill. Now you can see the entire valley, the river's path, and the weather approaching (High Context/Prediction). However, you can no longer distinguish individual blades of grass (Low Resolution).
 
 > **Key Insight:** You cannot be on the mountain and in the valley simultaneously. **All understanding involves a trade-off between Breadth (Context) and Depth (Detail).**
 
@@ -72,10 +83,10 @@ Evolutionarily, the brain is a [[The Brain as a Distributed Prediction Machine|p
 
 ## 4. Minimum Viable Understanding (MVU)
 
-1.  **Humans are functionally myopic:** We perceive a sliver of reality.
-2.  **Abstraction is Altitude:** We climb the "ladder of abstraction" to see further and predict better.
-3.  **Context requires Compression:** To see the big picture, we must ignore the details.
-4.  **Understanding = Prediction:** The measure of understanding is not facts, but the ability to accurately predict outcomes.
+1. **Humans are functionally myopic:** We perceive a sliver of reality.
+2. **Abstraction is Altitude:** We climb the "ladder of abstraction" to see further and predict better.
+3. **Context requires Compression:** To see the big picture, we must ignore the details.
+4. **Understanding = Prediction:** The measure of understanding is not facts, but the ability to accurately predict outcomes.
 
 ---
 

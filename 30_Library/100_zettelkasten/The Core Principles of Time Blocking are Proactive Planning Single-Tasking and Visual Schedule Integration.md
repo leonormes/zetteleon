@@ -22,6 +22,7 @@ updated: 2025-11-10T14:01:00Z
 **Summary:** The effectiveness of time blocking rests on three core principles: proactive planning, a single-tasking mindset, and integration with a visual schedule.
 
 **Details:**
-1.  **Proactive Planning:** Tasks are scheduled in advance, turning intentions into concrete plans.
-2.  **Single-Tasking Mindset:** Each time block is dedicated to a single task or a batch of similar tasks, promoting deep focus.
-3.  **Visual Schedule Integration:** A calendar (digital or physical) is used as the primary tool to allocate and visualize the time blocks.
+
+1. **Proactive Planning:** Tasks are scheduled in advance, turning intentions into concrete plans.
+2. **Single-Tasking Mindset:** Each time block is dedicated to a single task or a batch of similar tasks, promoting deep focus.
+3. **Visual Schedule Integration:** A calendar (digital or physical) is used as the primary tool to allocate and visualize the time blocks.

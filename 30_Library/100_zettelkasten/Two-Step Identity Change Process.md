@@ -47,14 +47,17 @@ Take tiny actions that reinforce the desired identity:
 **Examples in Practice:**
 
 **Want to become a writer?**
+
 - Step 1: "I am a writer"
 - Step 2: Write 100 words daily (proof through action)
 
 **Want to become fit?**
+
 - Step 1: "I am an athlete"
 - Step 2: Do 10 pushups every morning (proof through action)
 
 **Want to become organized?**
+
 - Step 1: "I am someone who keeps their space organized"
 - Step 2: Make your bed every morning (proof through action)
 

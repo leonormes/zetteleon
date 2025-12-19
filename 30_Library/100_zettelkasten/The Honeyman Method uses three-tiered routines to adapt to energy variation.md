@@ -27,6 +27,7 @@ Crucially, this method requires self-awareness of personal energy patterns and c
 The three-tier structure applies to any routine—morning, evening, work sessions, or specific tasks—allowing for consistent habit formation despite variable daily capacity.
 
 ## Related
+
 - [[Ideal routines represent maximum energy and motivation days]]
 - [[Most Likely routines are scaled-down versions for average energy]]
 - [[Minimum routines are bare-bones essentials for low-energy days]]

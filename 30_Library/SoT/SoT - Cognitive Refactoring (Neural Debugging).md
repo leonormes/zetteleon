@@ -31,15 +31,15 @@ updated:
 
 The process follows a standard troubleshooting workflow:
 
-1.  **Catch (Monitoring):** Use Mindfulness to detect the "Error Signal" (Negative Emotion/Resistance).
+1. **Catch (Monitoring):** Use Mindfulness to detect the "Error Signal" (Negative Emotion/Resistance).
     - *Link:* [[SoT - Mindfulness and Emotional Regulation]].
-2.  **Isolate (Identification):** Identify the specific thought causing the error.
+2. **Isolate (Identification):** Identify the specific thought causing the error.
     - *Example:* "I am lazy because I didn't start."
-3.  **Audit (Testing):** Check the thought against reality/evidence. Is this a [[Common Cognitive Distortions|Cognitive Distortion]]?
+3. **Audit (Testing):** Check the thought against reality/evidence. Is this a [[Common Cognitive Distortions|Cognitive Distortion]]?
     - *Test:* "Am I lazy? Or did I lack clarity? Evidence shows I worked hard yesterday."
-4.  **Patch (Reframing):** Rewrite the thought to be accurate and functional.
+4. **Patch (Reframing):** Rewrite the thought to be accurate and functional.
     - *Patch:* "I am not lazy; I am stuck. I need to break this task down."
-5.  **Deploy (Action):** Act on the new thought.
+5. **Deploy (Action):** Act on the new thought.
 
 ---
 

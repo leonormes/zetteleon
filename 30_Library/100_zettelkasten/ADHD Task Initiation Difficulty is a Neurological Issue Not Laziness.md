@@ -23,6 +23,7 @@ The difficulty with task initiation experienced by individuals with ADHD is an i
 This distinction is critical for understanding that the challenge is one of executive function and neurobiology, not a moral failing or a lack of effort.
 
 **Behavioral Manifestations:**
+
 - Avoidance creates "gnawing rats" (see [[Gnawing Rats Metaphor for Avoided Tasks]])
 - Requires structured engagement strategies
 - Micro-steps overcome initial resistance

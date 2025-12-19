@@ -137,8 +137,9 @@ It posits that the brain is essentially a **prediction machine**. It is constant
 2. **Sensory Input:** Your senses then deliver the actual information from the world.
 3. **Error Signal:** The brain compares its prediction to the actual sensory input. The difference between them is the "prediction error."
 4. **Model Update:**
-	- If the prediction was accurate (the door opened as expected), the prediction error is low, and your confidence in your model is strengthened.
-	- If the prediction was wrong (the door was locked), the brain generates a large "prediction error" signal. This signal forces the brain to **update its mental model** ("this door is locked").
+
+- If the prediction was accurate (the door opened as expected), the prediction error is low, and your confidence in your model is strengthened.
+- If the prediction was wrong (the door was locked), the brain generates a large "prediction error" signal. This signal forces the brain to **update its mental model** ("this door is locked").
 
 According to this view, what we perceive as reality is not the raw sensory data, but our brain's best guess—its current working model. The only information that bubbles up to our conscious awareness is the "error signal," which is why we tend to notice the unexpected far more than the expected. This is the mechanism that makes our models feel like reality; we're only alerted when reality doesn't match the model.
 
@@ -366,10 +367,10 @@ Imagine you have a mental model that a particular colleague is untrustworthy.
 - **The Model:** "Alex is always trying to undermine me."
 - **The Situation:** Alex sends you an email pointing out a small error in your report.
 - **The Loop in Action:**
-	- Your brain interprets this neutral event through the "untrustworthy Alex" model.
-	- The interpretation isn't "Alex is being helpful." It's "Alex is trying to make me look bad."
-	- This **interpretation triggers** an emotional response: anger, suspicion, or anxiety.
-	- This emotion then **reinforces** your original model. "See? I was right to be suspicious of Alex."
+  - Your brain interprets this neutral event through the "untrustworthy Alex" model.
+  - The interpretation isn't "Alex is being helpful." It's "Alex is trying to make me look bad."
+  - This **interpretation triggers** an emotional response: anger, suspicion, or anxiety.
+  - This emotion then **reinforces** your original model. "See? I was right to be suspicious of Alex."
 
 This self-reinforcing cycle is how biases become entrenched and how phobias and anxiety disorders can develop. The model creates the feeling, and the feeling validates the model, often preventing us from taking in new information that might challenge it.
 
@@ -447,4 +448,4 @@ Google Account
 
 Leon Ormes
 
-leonormes@gmail.com
+<leonormes@gmail.com>

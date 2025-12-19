@@ -45,13 +45,13 @@ To disprove UIP, Hofmann constructed a counter-model where equality has rich str
 
 - **Structure:**
 
-    - $0$ is `refl` (staying still).
+  - $0$ is `refl` (staying still).
 
-    - $+1$ is "looping" one way.
+  - $+1$ is "looping" one way.
 
-    - $-1$ is "looping" the other way.
+  - $-1$ is "looping" the other way.
 
-    - Addition ($+$) is composing proofs.
+  - Addition ($+$) is composing proofs.
 
 - **The Punchline:** In this model, proof $+1$ and proof $+2$ both prove $ullet = ullet$, but $+1 \neq +2$. They are distinct paths.
 
@@ -59,9 +59,9 @@ To disprove UIP, Hofmann constructed a counter-model where equality has rich str
 
 This realization transformed the "bug" of Intensional Equality into a "feature."
 
-1.  **Sets (0-Groupoids):** Types where UIP holds (Equality is unique).
-2.  **Groupoids (1-Groupoids):** Types where equality is distinct (like the Integers example).
-3.  **$\\infty$-Groupoids:** The full hierarchy of HoTT, with equalities between equalities between equalities...
+1. **Sets (0-Groupoids):** Types where UIP holds (Equality is unique).
+2. **Groupoids (1-Groupoids):** Types where equality is distinct (like the Integers example).
+3. **$\\infty$-Groupoids:** The full hierarchy of HoTT, with equalities between equalities between equalities...
 
 ## 3. Understanding Layers (Progressive Abstraction)
 

@@ -23,16 +23,19 @@ version: 1
 **The Three Layers:**
 
 **1. Outcomes (The Outer Layer):**
+
 - Concerned with changing *results*
 - Examples: losing weight, publishing a book, winning a championship
 - About what you **get**
 
 **2. Process (The Middle Layer):**
+
 - Concerned with changing *habits and systems*
 - Examples: implementing a new gym routine, developing a meditation practice, creating a writing schedule
 - About what you **do**
 
 **3. Identity (The Deepest Layer):**
+
 - Concerned with changing *beliefs, worldview, self-image*
 - Examples: "I am a healthy person," "I am a writer," "I am disciplined"
 - About what you **believe**

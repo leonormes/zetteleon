@@ -53,6 +53,7 @@ Capability-Based Security is a robust security model that fundamentally shifts h
 ---
 
 ## Core Principles
+
 1. Capabilities as Tokens:
    - A capability is an unforgeable token that serves two purposes:
      - Authorization: Grants explicit rights (e.g., read, write) to a resource (file, device, process).
@@ -70,6 +71,7 @@ Capability-Based Security is a robust security model that fundamentally shifts h
 ---
 
 ## Key Benefits
+
 - Reduced Privilege Escalation Risk: No omnipotent user (e.g., root) means attackers can’t hijack broad authority.
 - Fine-Grained Control: Rights are scoped to specific operations (e.g., "read-only" vs. "full control").
 - Isolation: Failures or compromises in one component don’t cascade, as capabilities restrict lateral movement.
@@ -78,6 +80,7 @@ Capability-Based Security is a robust security model that fundamentally shifts h
 ---
 
 ## Implementation Examples
+
 4. seL4 Microkernel:
    - A formally verified OS kernel where all interactions require capabilities.
    - Used in aerospace, defense, and medical systems for its unparalleled security guarantees.
@@ -94,6 +97,7 @@ Capability-Based Security is a robust security model that fundamentally shifts h
 ---
 
 ## Challenges
+
 - Capability Management: Tracking and revoking capabilities at scale can be complex.
 - Adoption Overhead: Requires rethinking system design (e.g., no implicit trust).
 - Legacy Compatibility: Traditional apps relying on ambient authority (e.g., UNIX `sudo`) may require refactoring.
@@ -112,6 +116,7 @@ Capability-Based Security is a robust security model that fundamentally shifts h
 ---
 
 ## Use Cases
+
 - High-Security Systems: Military, medical devices, financial infrastructure.
 - Distributed Systems: Secure microservices communication in cloud environments.
 - Embedded/IoT: Isolate drivers and firmware to prevent device takeover.

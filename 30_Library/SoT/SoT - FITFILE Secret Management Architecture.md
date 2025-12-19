@@ -24,8 +24,8 @@ The FITFILE platform enforces a "Secure by Design" secret management architectur
 
 Currently, the deployment landscape is split:
 
-1.  **Canonical (Standard):** Modern environments (e.g., `ffnodes/fitfile`, `cuh-prod-1`) use VSO to dynamically sync secrets from Vault.
-2.  **Legacy (Debt):** Older environments (`stg`, `kch`) rely on a technical debt "hack" using hardcoded `vault-replacement-secrets.yaml` manifests.
+1. **Canonical (Standard):** Modern environments (e.g., `ffnodes/fitfile`, `cuh-prod-1`) use VSO to dynamically sync secrets from Vault.
+2. **Legacy (Debt):** Older environments (`stg`, `kch`) rely on a technical debt "hack" using hardcoded `vault-replacement-secrets.yaml` manifests.
 
 **The Mandate:** All environments must converge on the Canonical Path defined in `charts/ffnode`.
 
@@ -36,15 +36,17 @@ Currently, the deployment landscape is split:
 The standard implementation leverages a data-driven approach where secrets are defined in Helm values and materialized by VSO.
 
 ### Core Components
-1.  **HashiCorp Vault:** The central, encrypted source of truth for all secret data.
-2.  **Vault Secrets Operator (VSO):** The Kubernetes operator that authenticates with Vault (via AppRole) and synchronizes secrets into Kubernetes `Secret` resources.
-3.  **Helm / ArgoCD:** The delivery mechanism that configures VSO resources via the `ffnode` chart.
+
+1. **HashiCorp Vault:** The central, encrypted source of truth for all secret data.
+2. **Vault Secrets Operator (VSO):** The Kubernetes operator that authenticates with Vault (via AppRole) and synchronizes secrets into Kubernetes `Secret` resources.
+3. **Helm / ArgoCD:** The delivery mechanism that configures VSO resources via the `ffnode` chart.
 
 ### The Configuration Flow
-1.  **Definition:** Secrets are declared in `values.yaml` under `vaultSecrets` or `extraVaultSecrets`.
-2.  **Generation:** The `charts/ffnode` helper `_helpers.tpl` (specifically `generateVaultDynamicSecrets`) processes these values.
-3.  **Injection:** The helper generates `VaultStaticSecret` or `VaultDynamicSecret` CRDs.
-4.  **Sync:** VSO detects the CRD, fetches the data from Vault, and creates a native Kubernetes Secret.
+
+1. **Definition:** Secrets are declared in `values.yaml` under `vaultSecrets` or `extraVaultSecrets`.
+2. **Generation:** The `charts/ffnode` helper `_helpers.tpl` (specifically `generateVaultDynamicSecrets`) processes these values.
+3. **Injection:** The helper generates `VaultStaticSecret` or `VaultDynamicSecret` CRDs.
+4. **Sync:** VSO detects the CRD, fetches the data from Vault, and creates a native Kubernetes Secret.
 
 **Example Pattern:**
 
@@ -78,6 +80,7 @@ These environments purely use VSO and do not rely on hardcoded secrets.
 Environments like `stg` and `kch` currently fail to use VSO correctly, relying on `vault-replacement-secrets.yaml`.
 
 **Root Cause:**
+
 - Likely network connectivity or `VaultAuth` misconfiguration in the specific clusters prevents VSO from authenticating.
 - "Hack" solution was applied to bypass the error, embedding secrets directly in git/deployment (Security Risk).
 
@@ -87,13 +90,13 @@ Environments like `stg` and `kch` currently fail to use VSO correctly, relying o
 
 To eliminate the security risk and technical debt, we must migrate Legacy environments to the Canonical standard.
 
-1.  **Verify VSO Status:** Ensure `vault-secrets-operator` is running in `kch` and `stg` clusters.
-2.  **Fix Connectivity/Auth:** Debug the `VaultAuth` resource. Verify the cluster can reach the Vault endpoint and that AppRole credentials are valid.
-3.  **Migrate Data:**
+1. **Verify VSO Status:** Ensure `vault-secrets-operator` is running in `kch` and `stg` clusters.
+2. **Fix Connectivity/Auth:** Debug the `VaultAuth` resource. Verify the cluster can reach the Vault endpoint and that AppRole credentials are valid.
+3. **Migrate Data:**
     - Extract values from `vault-replacement-secrets.yaml`.
     - Move them to `values.yaml` `extraVaultSecrets` configuration.
     - Write the actual secret data into the relevant HashiCorp Vault path.
-4.  **Delete the Hack:** Remove `templates/vault-replacement-secrets.yaml` entirely.
+4. **Delete the Hack:** Remove `templates/vault-replacement-secrets.yaml` entirely.
 
 ---
 
@@ -102,9 +105,10 @@ To eliminate the security risk and technical debt, we must migrate Legacy enviro
 The `hie-prod-34` deployment provides a robust example of extending the canonical architecture using the `extraDeploy` pattern for third-party integrations (Hutch).
 
 ### The Architecture Patterns
-1.  **Source of Truth:** External HashiCorp Vault (`admin/deployments/hie-prod-34`).
-2.  **Delivery:** VSO via Helm `extraDeploy` injection.
-3.  **Consumption:** Applications (Relay, Bunny) mount native Kubernetes Secrets, unaware of Vault.
+
+1. **Source of Truth:** External HashiCorp Vault (`admin/deployments/hie-prod-34`).
+2. **Delivery:** VSO via Helm `extraDeploy` injection.
+3. **Consumption:** Applications (Relay, Bunny) mount native Kubernetes Secrets, unaware of Vault.
 
 ### Implementation Specifics (`extraDeploy` Pattern)
 

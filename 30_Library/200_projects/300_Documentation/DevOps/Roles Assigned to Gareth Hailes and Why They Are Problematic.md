@@ -18,9 +18,9 @@ updated:
 version:
 ---
 
-gareth.hailes@fitfile.com = no roles
+<gareth.hailes@fitfile.com> = no roles
 
-ghailes@fitfile.com = Multiple privileged roles
+<ghailes@fitfile.com> = Multiple privileged roles
 
 ![[Screenshot 2025-03-11 at 10.16.31.jpg]]
 
@@ -99,20 +99,20 @@ You'll primarily use **Azure Monitor's Log Analytics** and **Azure Activity Log*
 
 **Steps:**
 
-1.  **Navigate to Azure Monitor:** In the Azure portal, search for and select "Monitor."
-2.  **Go to Activity Log:** In the Monitor blade, select "Activity log."
-3.  **Filter by User:**
+1. **Navigate to Azure Monitor:** In the Azure portal, search for and select "Monitor."
+2. **Go to Activity Log:** In the Monitor blade, select "Activity log."
+3. **Filter by User:**
     - Click the "Add filter" button.
     - Choose "Category" and select "Administrative". (This will focus on management operations, not just read actions).
     - Click "Add filter" again.
     - Choose "Initiated by (actor)" and enter the User Principal Name (UPN) of his **privileged account** (the one with all the roles, e.g., `gareth.hailes@yourcompanydomain.com`). Click "Apply".
     4. **Set Time Range:** Adjust the "Time range" at the top to a relevant period (e.g., "Last 7 days," "Last 30 days").
     5. **Note the Number of Events:** Look at the total number of events displayed in the Activity Log for his privileged account within the chosen time range. Make a mental note or write it down.
-4.  **Repeat for Day-to-Day Account:**
+4. **Repeat for Day-to-Day Account:**
     - Click "Edit filters".
     - Change the "Initiated by (actor)" filter to his **claimed day-to-day account** (e.g., `gareth.hailes.daytoday@yourcompanydomain.com`). Click "Apply".
     - Note the total number of events for this account in the same time range.
-5.  **Compare Event Counts:** Compare the number of events for both accounts. If the privileged account shows significantly *more* administrative activity than the day-to-day account, his claim is questionable.
+5. **Compare Event Counts:** Compare the number of events for both accounts. If the privileged account shows significantly *more* administrative activity than the day-to-day account, his claim is questionable.
 
 **2. Using Azure Portal - Log Analytics Workspace (Recommended for Deeper Analysis):**
 
@@ -121,9 +121,9 @@ You'll primarily use **Azure Monitor's Log Analytics** and **Azure Activity Log*
 
 **Steps:**
 
-1.  **Navigate to your Log Analytics Workspace:** In the Azure portal, search for and select "Log Analytics workspaces" and choose your workspace.
-2.  **Go to "Logs":** In your Log Analytics Workspace blade, select "Logs".
-3.  **Run Kusto Query to Check Activity Log for Privileged Account:** Paste and run the following KQL query, replacing placeholders with the correct User Principal Names and Time Range:
+1. **Navigate to your Log Analytics Workspace:** In the Azure portal, search for and select "Log Analytics workspaces" and choose your workspace.
+2. **Go to "Logs":** In your Log Analytics Workspace blade, select "Logs".
+3. **Run Kusto Query to Check Activity Log for Privileged Account:** Paste and run the following KQL query, replacing placeholders with the correct User Principal Names and Time Range:
 
 ```kusto
 AzureActivity
@@ -156,7 +156,8 @@ AzureActivity
     | order by count_ desc
 ```
 
-6.  **Compare Results:** Compare the results from both queries.
+6. **Compare Results:** Compare the results from both queries.
+
 - **High Activity on Privileged Account, Low on Day-to-Day Account:** This strongly suggests he is *not* primarily using the day-to-day account for Azure management and his claim is likely untrue. Focus on the *types* of operations - if the privileged account shows many "Write," "Create," "Update," "Delete" operations, it indicates administrative work.
 - **Similar or Higher Activity on Day-to-Day Account:** This would be unexpected given the role assignments you've shown. Investigate further. It's still concerning if the "day-to-day" account is doing significant administrative work if it's *not* supposed to have those permissions.
         * **Very Low Activity on Both:** This is less likely but possible if he hasn't been very active in Azure recently *within the chosen time range*. Extend the time range in the query (e.g., `ago(90d)`) and re-run the analysis.

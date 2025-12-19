@@ -22,6 +22,7 @@ updated:
 **Summary:** Mtri trees are specialized data structures that efficiently store and retrieve Access Control List (ACL) and routing table entries using prefix matching.
 
 **Node structure:**
+
 - Stores "effective prefix" (IP + wildcard/mask)
 - Contains:
   - Parent pointer
@@ -29,11 +30,13 @@ updated:
   - Next-hop data
 
 **Key operations:**
+
 - **Insertion**: Traverse tree, split nodes at mismatches, create daughter/niece nodes
 - **Search**: Walk tree using exact match (including don't-care bits)
 - **Deletion**: Remove leaf, merge branches to eliminate half nodes
 - **Lookup**: Uses stack for backtracking, returns longest prefix match
 
 **Performance:**
+
 - All operations: O(k) where k=32 for IPv4
 - Used in firewalls, routers, and network filtering systems

@@ -20,17 +20,20 @@ updated:
 ## The ADHD Brain Operates as an Interest-Based Nervous System
 
 **Summary:** Unlike neurotypical importance-based motivation, ADHD cognition is primarily driven by:
+
 - Personal interest
 - Novel challenges
 - Immediate novelty
 - Pressing urgency
 
 **Key Aspects:**
+
 - Poor response to abstract importance
 - Weak future reward motivation
 - Requires immediate engagement triggers
 
 **Effective Triggers (PINCH Model):**
+
 1. **P**assion/Play
 2. **I**nterest
 3. **N**ovelty

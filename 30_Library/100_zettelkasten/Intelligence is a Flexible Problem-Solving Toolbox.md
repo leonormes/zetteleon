@@ -22,6 +22,7 @@ updated:
 **Summary:** Intelligence is best understood not as a single measurable trait, but as a diverse set of flexible problem-solving skills that enable organisms to survive and adapt to their environments.
 
 **Details:** This "toolbox" includes:
+
 - Gathering and processing environmental information (senses, awareness)
 - Memory to store and recall experiences
 - Learning from past experiences

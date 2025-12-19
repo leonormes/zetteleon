@@ -356,6 +356,7 @@ The behavior you're observing is a consequence of how Linux network namespaces (
 1. Isolated Interfaces (`ip a`):
 
 - When you create a new network namespace, it starts with only the loopback interface (`lo`). This ensures that the processes in this namespace cannot directly access or see the network interfaces from the host or other namespaces, which is the desired isolation.
+
 2. Namespace Visibility (`ip netns show`):
 
 - The `ip netns` command operates in the global namespace context. It lists all the network namespaces that are present on the host system. This includes namespaces that you or other processes have created, regardless of which namespace you're currently operating in.
@@ -389,6 +390,7 @@ mount --bind /tmp/netns /var/run/netns
 ```
 
 - After this, `ip netns show` will no longer list the global namespaces because the directory is now isolated.
+
 2. Leverage User Privileges:
 
 - Ensure the processes in the isolated namespace do not have elevated privileges that allow them to query the global `/var/run/netns`.
@@ -400,3 +402,11 @@ mount --bind /tmp/netns /var/run/netns
 - The behavior is expected and stems from `ip netns` being a user-space utility that operates in the global context.
 - While it lists all namespaces, this does not break network isolation.
 - Use mount namespaces or other techniques to mask global visibility if required for your use case.
+
+---
+
+## Practical Lab
+
+For a step-by-step guide on building container networking manually (including veth pairs, bridges, DHCP, and OVS), see:
+
+**[[How to create and connect network namespaces]]**

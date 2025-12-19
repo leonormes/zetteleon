@@ -22,11 +22,13 @@ updated:
 **Summary:** Seeking a problem-free existence is counterproductive; engaging with challenges provides purpose and satisfaction.
 
 **Key Insights:**
+
 - Avoidance increases frustration
 - Problem-solving drives growth
 - Friction enables mastery
 
 **ADHD Relevance:**
+
 - Explains why "perfect systems" fail
 - Validates struggle with mundane tasks
 - Supports interest-based engagement

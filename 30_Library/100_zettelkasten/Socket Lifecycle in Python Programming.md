@@ -81,6 +81,7 @@ updated: 2025-10-31T13:39:00Z
 6. Close both client and server sockets
 
 **Failure modes:**
+
 - Connection refused if server not listening
 - Timeout if server doesn't respond
 - Broken pipe if connection lost during send/receive

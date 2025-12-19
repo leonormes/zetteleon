@@ -86,9 +86,10 @@ We bypass "Absolute Truth" in favor of **Predictive Power**.
 We are biologically wired to defend our maps because the brain is a **Prediction Machine**.
 
 ### The Mechanism
-1.  **Predict:** The brain projects a model of what *should* happen.
-2.  **Compare:** It checks sensory input against the prediction.
-3.  **Error:** If they match, it ignores the data. If they clash, it generates a **Prediction Error** (Surprise).
+
+1. **Predict:** The brain projects a model of what *should* happen.
+2. **Compare:** It checks sensory input against the prediction.
+3. **Error:** If they match, it ignores the data. If they clash, it generates a **Prediction Error** (Surprise).
 
 ### The Emotional Defense
 
@@ -109,9 +110,10 @@ To function in a complex world, we must decouple **Self-Worth** from **Map Accur
 - **New Equation:** `My Value = The Speed at which I Update my Map`. (Anti-Fragile).
 
 ### Tactics for Epistemic Agility
-1.  **Strong Opinions, Weakly Held:** Act with confidence on your current map, but actively scout for the "Black Swan" that disproves it.
-2.  **Provisional Language:** Replace "It is..." with "My current model suggests..."
-3.  **The "Car Mechanic" Mindset:** Treat your ideas like a car you are building. If someone points out a leak, they are not insulting you; they are helping you fix the car.
+
+1. **Strong Opinions, Weakly Held:** Act with confidence on your current map, but actively scout for the "Black Swan" that disproves it.
+2. **Provisional Language:** Replace "It is..." with "My current model suggests..."
+3. **The "Car Mechanic" Mindset:** Treat your ideas like a car you are building. If someone points out a leak, they are not insulting you; they are helping you fix the car.
 
 ---
 

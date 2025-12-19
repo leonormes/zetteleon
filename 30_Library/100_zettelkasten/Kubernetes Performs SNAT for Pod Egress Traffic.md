@@ -20,15 +20,18 @@ updated:
 ## Kubernetes Performs SNAT for Pod Egress Traffic
 
 **Summary:** Kubernetes translates private pod IPs to node IPs for outbound traffic using:
+
 - kube-proxy (iptables/ipvs)
 - CNI plugins
 - Node network namespace
 
 **Process:**
+
 1. Pod generates packet with private source IP
 2. kube-proxy/CNI applies SNAT rules
 3. Packet continues with node IP as source
 
 **Purpose:**
+
 - Hide pod IPs from external networks
 - Enable return traffic routing

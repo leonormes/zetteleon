@@ -24,11 +24,11 @@ My thinking is not random; it is highly structured around specific "Attractors."
 
 My primary intellectual loop is:
 
-1.  **Understand the Machine (Cognition/ADHD):** How does my brain work?
-2.  **Build the Scaffolding (ProdOS/Systems):** How do I engineer an environment to support that brain?
-3.  **Define the Destination (Philosophy/Values):** Where should I direct this energy?
-4.  **Master the Trade (Software/Tech):** How do I apply this to my craft?
-5.  **Navigate the Territory (Society/Economics):** How does the world work around me?
+1. **Understand the Machine (Cognition/ADHD):** How does my brain work?
+2. **Build the Scaffolding (ProdOS/Systems):** How do I engineer an environment to support that brain?
+3. **Define the Destination (Philosophy/Values):** Where should I direct this energy?
+4. **Master the Trade (Software/Tech):** How do I apply this to my craft?
+5. **Navigate the Territory (Society/Economics):** How does the world work around me?
 
 ---
 
@@ -41,23 +41,23 @@ My primary intellectual loop is:
 
 - **The Frameworks:**
 
-    - [[SoT - PRODOS - Action Management (GTD)]]
+  - [[SoT - PRODOS - Action Management (GTD)]]
 
-    - [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
+  - [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
 
-    - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
+  - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
 
-    - [[SoT - PRODOS - Structure & Storage]]
+  - [[SoT - PRODOS - Structure & Storage]]
 
 - **The Principles:**
 
-    - [[SoT - Systems Thinking]]
+  - [[SoT - Systems Thinking]]
 
-    - [[SoT - Process Primacy (Systems Over Goals)]]
+  - [[SoT - Process Primacy (Systems Over Goals)]]
 
-    - [[SoT - Atomicity and Loose Coupling]]
+  - [[SoT - Atomicity and Loose Coupling]]
 
-    - [[SoT - Simplicity and Re-entry (ProdOS Principles)]]
+  - [[SoT - Simplicity and Re-entry (ProdOS Principles)]]
 
 ## 3. Domain 2: The Engine (Cognition, ADHD & Psychology)
 *The Hardware. Understanding the neurodivergent brain, motivation, and the mechanics of thought.*
@@ -66,23 +66,23 @@ My primary intellectual loop is:
 
 - **ADHD Mechanics:**
 
-    - [[SoT - ADHD Executive Dysfunction]]
+  - [[SoT - ADHD Executive Dysfunction]]
 
-    - [[SoT - ADHD and Motivation]]
+  - [[SoT - ADHD and Motivation]]
 
-    - [[SoT - ADHD Environmental Design]]
+  - [[SoT - ADHD Environmental Design]]
 
-    - [[SoT - The Cognitive Physiology of Task Execution]]
+  - [[SoT - The Cognitive Physiology of Task Execution]]
 
 - **Cognitive Science:**
 
-    - [[SoT - Working Memory & Schema Theory]]
+  - [[SoT - Working Memory & Schema Theory]]
 
-    - [[SoT - The Extended Mind]]
+  - [[SoT - The Extended Mind]]
 
-    - [[SoT - Cognitive Refactoring (Neural Debugging)]]
+  - [[SoT - Cognitive Refactoring (Neural Debugging)]]
 
-    - [[SoT - Visualization as Cognitive Architecture]]
+  - [[SoT - Visualization as Cognitive Architecture]]
 
 ## 4. Domain 3: The Compass (Philosophy, Identity & Meaning)
 *The Why. Existential direction, values, and the self-concept.*
@@ -91,23 +91,23 @@ My primary intellectual loop is:
 
 - **Purpose & Meaning:**
 
-    - [[SoT - Ikigai and the Logic of Purpose]]
+  - [[SoT - Ikigai and the Logic of Purpose]]
 
-    - [[SoT - Logotherapy and the Will to Meaning]]
+  - [[SoT - Logotherapy and the Will to Meaning]]
 
-    - [[SoT - Values and Eudaimonia]]
+  - [[SoT - Values and Eudaimonia]]
 
-    - [[SoT - The Philosophy of the Absurd (Camus)]]
+  - [[SoT - The Philosophy of the Absurd (Camus)]]
 
 - **Self & Identity:**
 
-    - [[SoT - Identity-Based Habit Formation]]
+  - [[SoT - Identity-Based Habit Formation]]
 
-    - [[SoT - Personal Agency and Transformation]]
+  - [[SoT - Personal Agency and Transformation]]
 
-    - [[SoT - The Internal World and the Need for Validation]]
+  - [[SoT - The Internal World and the Need for Validation]]
 
-    - [[SoT - Wabi-Sabi]]
+  - [[SoT - Wabi-Sabi]]
 
 ## 5. Domain 4: The Trade (Software Engineering & Technology)
 *The Craft. Technical mastery, architectural patterns, and digital tools.*
@@ -116,21 +116,21 @@ My primary intellectual loop is:
 
 - **Architecture & Patterns:**
 
-    - [[SoT - Software Configuration Management Patterns]]
+  - [[SoT - Software Configuration Management Patterns]]
 
-    - [[SoT - Main-as-Default Trunk Based Development]]
+  - [[SoT - Main-as-Default Trunk Based Development]]
 
-    - [[SoT - Information Hiding (Parnas)]]
+  - [[SoT - Information Hiding (Parnas)]]
 
-    - [[SoT - Atomicity and Loose Coupling]]
+  - [[SoT - Atomicity and Loose Coupling]]
 
 - **Technologies:**
 
-    - [[SoT - Git]]
+  - [[SoT - Git]]
 
-    - [[SoT - Cloud Networking Core Components]]
+  - [[SoT - Cloud Networking Core Components]]
 
-    - [[SoT - Digital Identity]]
+  - [[SoT - Digital Identity]]
 
 ## 6. Domain 5: The Territory (Society, Wealth & Economics)
 *The Environment. Understanding the external forces of money, status, and social hierarchy.*
@@ -139,23 +139,23 @@ My primary intellectual loop is:
 
 - **Economics of Energy:**
 
-    - [[SoT - Money as Potential Energy]]
+  - [[SoT - Money as Potential Energy]]
 
-    - [[SoT - Ontology of Money and Wealth]]
+  - [[SoT - Ontology of Money and Wealth]]
 
-    - [[SoT - Fundamental Description of Economics]]
+  - [[SoT - Fundamental Description of Economics]]
 
-    - [[SoT - Family Financial Wellness]]
+  - [[SoT - Family Financial Wellness]]
 
 - **Social Dynamics:**
 
-    - [[SoT - Social Stratification]]
+  - [[SoT - Social Stratification]]
 
-    - [[SoT - UK Social Hierarchy and Class Analysis]]
+  - [[SoT - UK Social Hierarchy and Class Analysis]]
 
-    - [[SoT - The Evolutionary Biology of Status]]
+  - [[SoT - The Evolutionary Biology of Status]]
 
-    - [[SoT - Dystopian Frameworks and Social Control]]
+  - [[SoT - Dystopian Frameworks and Social Control]]
 
 ## 7. Domain 6: Epistemology (Learning & Mental Models)
 *The Lens. How we know what we know, and the limits of our understanding.*
@@ -164,19 +164,19 @@ My primary intellectual loop is:
 
 - **Metacognition:**
 
-    - [[SoT - Dunning-Kruger Effect]]
+  - [[SoT - Dunning-Kruger Effect]]
 
-    - [[SoT - Illusion of Explanatory Depth (IoED)]]
+  - [[SoT - Illusion of Explanatory Depth (IoED)]]
 
-    - [[SoT - Reality, Models, and the Limits of Accuracy]]
+  - [[SoT - Reality, Models, and the Limits of Accuracy]]
 
 - **Learning:**
 
-    - [[SoT - Deep Learning & Mastery]]
+  - [[SoT - Deep Learning & Mastery]]
 
-    - [[SoT - Learning Mechanisms]]
+  - [[SoT - Learning Mechanisms]]
 
-    - [[SoT - The Thought-Language Continuum]]
+  - [[SoT - The Thought-Language Continuum]]
 
 ## 8. Domain 7: The Human (Life, Family & Health)
 *The Foundation. Parenting, physical vitality, and relationships.*

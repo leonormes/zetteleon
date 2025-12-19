@@ -38,6 +38,7 @@ The difficulty initiating tasks reflects convergent deficits across multiple bra
 - **Impaired Error-Processing**: [[ADHD is Associated with Reduced Error-Related Negativity (ERN) and Error Positivity (Pe)|ADHD is associated with reduced automatic and conscious error-processing]].
 
 ### Psychological Components
+
 - [[Problems Are Fundamental to Meaningful Work]]
 - Avoidance patterns ([[Gnawing Rats Metaphor for Avoided Tasks]])
 - [[Discomfort Signals Growth Potential]]

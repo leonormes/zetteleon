@@ -23,6 +23,7 @@ updated: 2025-11-22T15:05:02Z
 
 **Details:**
 Common subnet sizes encountered in infrastructure access control and segmentation include:
+
 - **/24:** 256 addresses ($2^8$).
 - **/26:** 64 addresses ($2^6$). Often used for intermediate logical blocks.
 - **/27:** 32 addresses ($2^5$).

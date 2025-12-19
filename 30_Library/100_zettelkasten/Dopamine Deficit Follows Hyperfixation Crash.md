@@ -23,11 +23,13 @@ version: 1
 **The Dopamine Cycle:**
 
 **During Hyperfixation:**
+
 - Dopamine floods the brain in response to novel, rewarding stimuli
 - The reward system is highly activated
 - Motivation, focus, and pleasure are abundant
 
 **After the Crash:**
+
 - Dopamine reserves are depleted
 - The reward system becomes under-responsive
 - The brain seeks but cannot find sufficient stimulation

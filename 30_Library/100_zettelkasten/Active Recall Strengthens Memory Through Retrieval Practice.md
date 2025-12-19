@@ -22,23 +22,27 @@ updated:
 **Summary:** Active recall is the practice of actively retrieving information from memory during the learning process, which strengthens memory pathways more effectively than passive review.
 
 **Implementation methods:**
+
 - Flashcards (traditional or digital)
 - Self-quizzing
 - Closed-book summarization
 - Teaching concepts without notes
 
 **Why it works:**
+
 - Retrieval practice creates stronger memory traces
 - Identifies gaps in knowledge effectively
 - Mimics real-world application where recall is required
 
 **Cognitive Context:**
 Works best when paired with [[Diffuse vs Focused Thinking Modes]] cycles:
+
 1. Focused encoding
 2. Diffuse consolidation
 3. Focused retrieval
 
 **Research findings:**
+
 - More effective than passive rereading
 - Benefits persist across age groups and subject areas
 - Works well in combination with spaced repetition

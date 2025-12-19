@@ -20,11 +20,13 @@ updated:
 ## Political Subversion Through Animal Allegory
 
 **Summary:** Animal fables enable covert social criticism by:
+
 - Disguising messages as children's tales
 - Providing plausible deniability
 - Universalizing specific critiques
 
 **Historical Examples:**
+
 - The Lion's Share (power dynamics)
 - The Frogs Desiring a King (political satire)
 - Modern inheritors like Animal Farm

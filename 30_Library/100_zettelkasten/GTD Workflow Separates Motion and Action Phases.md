@@ -27,6 +27,7 @@ The initial step of gathering all tasks, ideas, and commitments into an inbox. T
 
 **2. Clarify:**
 Processing captured items by deciding if they're actionable and what the desired outcome and next action should be. This involves asking:
+
 - "What's my desired outcome?"
 - "What's the next action?"
 
@@ -48,12 +49,14 @@ GTD emphasizes defining the *very next* physical action—making a call, writing
 **Why This Separation Matters:**
 
 **For General Productivity:**
+
 - Clarifies the distinction between planning and executing
 - Prevents planning from masquerading as progress
 - Ensures motion leads to action rather than endless preparation
 
 **For ADHD:**
 The separation is particularly valuable because:
+
 - **Externalizes Executive Functions:** Offloads planning to a systematic process
 - **Reduces Cognitive Load:** Separates thinking-intensive work from action
 - **Overcomes Initiation Resistance:** Clear next actions remove ambiguity

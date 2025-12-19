@@ -69,9 +69,9 @@ In ProdOS, we adopt a **Pragmatic Truth** standard. We do not ask "Is this objec
 
 - **Example:** "I am an Explorer."
 
-    - *Is it true?* Maybe.
+  - *Is it true?* Maybe.
 
-    - *Is it useful?* Yes. It reframes failure as "Data Gathering," reducing shame and increasing resilience ([[SoT - Reframe Your Mindset From Pretender to Explorer]]). Therefore, we install this belief.
+  - *Is it useful?* Yes. It reframes failure as "Data Gathering," reducing shame and increasing resilience ([[SoT - Reframe Your Mindset From Pretender to Explorer]]). Therefore, we install this belief.
 
 ---
 
@@ -79,10 +79,10 @@ In ProdOS, we adopt a **Pragmatic Truth** standard. We do not ask "Is this objec
 
 To maintain a healthy cognitive space, we must actively practice **Meta-Framing**—stepping outside the room to look at the blueprint.
 
-1.  **Audit:** Notice when you feel "stuck" (The wall).
-2.  **Identify:** What belief is creating this wall? ("I must do it perfectly").
-3.  **Refactor:** Create a door. ("I can do a messy draft first").
-4.  **Install:** Adopt the new belief through **Evidence** ([[SoT - Identity-Based Habit Formation]]).
+1. **Audit:** Notice when you feel "stuck" (The wall).
+2. **Identify:** What belief is creating this wall? ("I must do it perfectly").
+3. **Refactor:** Create a door. ("I can do a messy draft first").
+4. **Install:** Adopt the new belief through **Evidence** ([[SoT - Identity-Based Habit Formation]]).
 
 ---
 

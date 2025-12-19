@@ -31,5 +31,6 @@ updated:
   - For creative insight and consolidation
 
 **Optimization:**
+
 - Alternate 25min focused / 5min diffuse breaks
 - Physical movement enhances diffuse thinking

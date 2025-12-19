@@ -22,11 +22,13 @@ updated:
 **Summary:** ADHD novelty-seeking behaviors act as self-regulation mechanisms for dopamine-deficient brains.
 
 **Mechanism:**
+
 - Novel stimuli trigger dopamine release
 - Compensates for baseline hyposensitivity
 - Creates reinforcement loop
 
 **Manifestations:**
+
 - System switching ("Shiny Object Syndrome")
 - Hyperfocus on new projects
 - Constant optimization of tools

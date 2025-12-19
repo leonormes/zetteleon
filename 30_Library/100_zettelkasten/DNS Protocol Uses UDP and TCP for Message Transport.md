@@ -22,16 +22,19 @@ updated:
 **Summary:** DNS primarily uses UDP port 53 for queries/responses, with TCP for zone transfers and large messages.
 
 **UDP Usage:**
+
 - Default for standard queries
 - Maximum 512 byte payload (without EDNS)
 - Low overhead, connectionless
 
 **TCP Usage:**
+
 - Zone transfers (AXFR/IXFR)
 - Messages > 512 bytes
 - EDNS extensions
 
 **EDNS (Extension Mechanisms):**
+
 - Allows larger UDP payloads
 - Additional flags and options
 - Backward compatible

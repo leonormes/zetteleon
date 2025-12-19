@@ -24,10 +24,10 @@ updated:
 
 This state of inaction is a cognitive "freeze response" triggered by executive dysfunction. When faced with a complex project, the impaired ability to sequence and prioritize tasks creates a gridlock. The brain, unable to engage its activation system, defaults to *thinking about the task* as a substitute for action. This creates a negative feedback loop:
 
-1.  Inability to plan generates a feeling of being overwhelmed.
-2.  To escape this aversive feeling, the brain defaults to avoidance and procrastination.
-3.  Avoidance allows pressure to mount, making the task more intimidating.
-4.  The sense of overwhelm escalates, entrenching the paralysis further.
+1. Inability to plan generates a feeling of being overwhelmed.
+2. To escape this aversive feeling, the brain defaults to avoidance and procrastination.
+3. Avoidance allows pressure to mount, making the task more intimidating.
+4. The sense of overwhelm escalates, entrenching the paralysis further.
 
 ***
 

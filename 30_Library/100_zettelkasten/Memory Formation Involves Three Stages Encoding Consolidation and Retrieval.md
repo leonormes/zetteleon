@@ -22,6 +22,7 @@ updated: 2025-11-10T16:14:00Z
 **Summary:** The journey of a memory involves three fundamental stages: encoding, consolidation, and retrieval.
 
 **Details:**
-1.  **Encoding:** The initial process of transforming sensory information into a mental representation that the brain can store.
-2.  **Consolidation:** The process by which newly encoded, fragile memories are stabilized and strengthened for long-term storage.
-3.  **Retrieval:** The process of accessing and reactivating stored information from memory when it is needed.
+
+1. **Encoding:** The initial process of transforming sensory information into a mental representation that the brain can store.
+2. **Consolidation:** The process by which newly encoded, fragile memories are stabilized and strengthened for long-term storage.
+3. **Retrieval:** The process of accessing and reactivating stored information from memory when it is needed.

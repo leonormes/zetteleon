@@ -24,5 +24,6 @@ updated: 2025-10-30T15:00:39Z
 **Details:** External accountability leverages social motivation and urgency—two powerful drivers for the ADHD brain. By sharing goals with a friend, mentor, or accountability partner, and scheduling regular progress discussions, the project gains external structure and stakes. This creates a form of urgency (the upcoming check-in) and novelty (discussing progress with someone), both of which help sustain engagement. Joining creative groups or finding dedicated accountability partners makes this support ongoing and systematic rather than sporadic.
 
 > **Status gates**
+>
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.

@@ -67,9 +67,9 @@ When you finish a thinking session in a `HEAD` note, you must **Serialize State*
 
 #### The Re-entry Ritual (≤ 10 minutes)
 
-1.  **Read The Project Anchor:** Open the **Project Note** and read the `## Current State` block. This reloads the mental model instantly.
-2.  **Warm Start:** Execute basic setup commands (e.g., `make dev && npm test`).
-3.  **Execute Smallest Next Task:** Pick the top item from the "Next" list and execute it to build momentum.
+1. **Read The Project Anchor:** Open the **Project Note** and read the `## Current State` block. This reloads the mental model instantly.
+2. **Warm Start:** Execute basic setup commands (e.g., `make dev && npm test`).
+3. **Execute Smallest Next Task:** Pick the top item from the "Next" list and execute it to build momentum.
 
 ---
 
@@ -77,11 +77,11 @@ When you finish a thinking session in a `HEAD` note, you must **Serialize State*
 
 To transform "Noise" (Anxiety) into "Signal" (Knowledge/Action), we use the **Refinement Loop**, which maps to the 5-Stage "Spark to Synthesis" protocol:
 
-1.  **Capture (Generate):** Get the simulation out of the brain. Write raw, unfiltered text in a `HEAD` note to break the "Fear of the Blank Page." (See [[SoT - PRODOS (System Architecture)#A. HEAD Notes (The Workbench)|HEAD Note Definition]]).
-2.  **Decouple (Clarify):** Rewrite the raw text. Strip emotion, identify the *Trigger* (Spark) and the underlying *Model* (Hypothesis).
-3.  **Simulate (Understand):** Reflect on the model. What does this mean? What are the implications? (Manipulate the variables in the note, not the head).
-4.  **Connect:** Link this new understanding to existing concepts. How does it fit into the network?
-5.  **Resolve (Synthesize):**
+1. **Capture (Generate):** Get the simulation out of the brain. Write raw, unfiltered text in a `HEAD` note to break the "Fear of the Blank Page." (See [[SoT - PRODOS (System Architecture)#A. HEAD Notes (The Workbench)|HEAD Note Definition]]).
+2. **Decouple (Clarify):** Rewrite the raw text. Strip emotion, identify the *Trigger* (Spark) and the underlying *Model* (Hypothesis).
+3. **Simulate (Understand):** Reflect on the model. What does this mean? What are the implications? (Manipulate the variables in the note, not the head).
+4. **Connect:** Link this new understanding to existing concepts. How does it fit into the network?
+5. **Resolve (Synthesize):**
 
     - **If Actionable:** Create a **Next Test** (Action).
 

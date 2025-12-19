@@ -36,8 +36,8 @@ updated:
 
 Hackett unifies two distinct meta-programming peaks:
 
-1.  **Macros (Racket):** *Syntactic* transformation. Local scope. Blind to types.
-2.  **Type Classes (Haskell):** *Semantic* transformation. Global scope. Rigid syntax.
+1. **Macros (Racket):** *Syntactic* transformation. Local scope. Blind to types.
+2. **Type Classes (Haskell):** *Semantic* transformation. Global scope. Rigid syntax.
 
 ### The Mechanism: Type-Directed Macros
 

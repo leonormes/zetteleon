@@ -23,6 +23,7 @@ version: 1
 **The Identity Shift:**
 
 **From Want to Be:**
+
 - "I want to read more" → "I am a reader"
 - "I want to run a marathon" → "I am a runner"
 - "I want to learn guitar" → "I am a musician"

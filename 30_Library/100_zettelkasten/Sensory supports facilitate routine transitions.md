@@ -21,4 +21,5 @@ updated:
 Sensory supports (noise-cancelling headphones, fidget tools, weighted objects, sleep masks) facilitate smooth transitions between routine activities and help manage sensory overwhelm when routines are disrupted.
 
 ## Related
+
 - [[Overwhelm]]

@@ -38,8 +38,8 @@ The `Authorization` header is typically used for authentication purposes, and in
 - Error message: "Invalid config property 'Authorization' provided to onGet/onPost"
 - Library: axios-mock-adapter
 - Affected tests:
-    - `src/infra/elasticsearch/__tests__/elasticsearch-client.test.ts`
-    - `src/infra/elasticsearch/__tests__/ElasticSearchConnectionAdaptor.test.ts`
+  - `src/infra/elasticsearch/__tests__/elasticsearch-client.test.ts`
+  - `src/infra/elasticsearch/__tests__/ElasticSearchConnectionAdaptor.test.ts`
 
 ### Root Cause
 

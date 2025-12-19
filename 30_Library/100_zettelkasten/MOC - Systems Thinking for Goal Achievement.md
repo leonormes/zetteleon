@@ -25,8 +25,8 @@ The core idea is to embrace [[Systems Thinking vs Goal Setting]]. While goals pr
 
 ## Three-Step System Creation
 
-1.  **Start Small**: [[Effective Systems are Built From Tiny Initial Actions|Effective systems are built from tiny initial actions]] that are almost laughably small.
-2.  **Consistency**: For building systems, [[Consistency is More Important Than Intensity for Building Systems|consistency is more important than intensity]].
-3.  **Track Systems**: The focus of measurement should be to [[Track System Execution Not Goal Outcomes|track the execution of the system, not the outcome of the goal]].
+1. **Start Small**: [[Effective Systems are Built From Tiny Initial Actions|Effective systems are built from tiny initial actions]] that are almost laughably small.
+2. **Consistency**: For building systems, [[Consistency is More Important Than Intensity for Building Systems|consistency is more important than intensity]].
+3. **Track Systems**: The focus of measurement should be to [[Track System Execution Not Goal Outcomes|track the execution of the system, not the outcome of the goal]].
 
 *Source: [[Shifting From Traditional Goal Setting to Systems-Based Thinking]]*

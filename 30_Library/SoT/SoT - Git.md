@@ -39,15 +39,15 @@ updated:
 
 Git uses a content-addressable object database, where objects are identified by their SHA-1 (or SHA-256) hash:
 
-1.  **Blobs:** Represent the exact content of a file. If content changes, a new blob is created.
-2.  **Trees:** Represent a directory, containing pointers to blobs (files) and other trees (subdirectories).
-3.  **Commits:** The top-level object, linking to a root tree (the project snapshot), metadata (author, committer, message, timestamp), and parent commit(s).
+1. **Blobs:** Represent the exact content of a file. If content changes, a new blob is created.
+2. **Trees:** Represent a directory, containing pointers to blobs (files) and other trees (subdirectories).
+3. **Commits:** The top-level object, linking to a root tree (the project snapshot), metadata (author, committer, message, timestamp), and parent commit(s).
 
 ### Key Git Areas
 
-1.  **Working Directory:** The actual files you are editing. Git detects changes here.
-2.  **Index (Staging Area):** A binary file where changes are prepared for the next commit. `git add` reads files from the working directory, creates new blob objects, and updates the index to point to these blobs. It represents the *next snapshot* to be committed.
-3.  **Repository (Object Database):** Stores all commits, trees, and blobs. This is the permanent record.
+1. **Working Directory:** The actual files you are editing. Git detects changes here.
+2. **Index (Staging Area):** A binary file where changes are prepared for the next commit. `git add` reads files from the working directory, creates new blob objects, and updates the index to point to these blobs. It represents the *next snapshot* to be committed.
+3. **Repository (Object Database):** Stores all commits, trees, and blobs. This is the permanent record.
 
 ---
 
@@ -56,13 +56,13 @@ Git uses a content-addressable object database, where objects are identified by 
 ### Basic Operations
 
 - **Cloning (`git clone`):** Retrieves a complete copy of the repository, including the `.git` folder and populates the working directory with files from the default branch.
-    - `--bare`: Creates a repository without a working tree, ideal for server-side repositories.
-    - `--no-checkout --sparse`: Clones history but does not unpack working directory files.
+  - `--bare`: Creates a repository without a working tree, ideal for server-side repositories.
+  - `--no-checkout --sparse`: Clones history but does not unpack working directory files.
 - **Pushing (`git push`):** Transmits only the necessary objects and updates references to synchronize the remote repository with local changes. It does not copy the entire `.git` folder.
 - **Undoing Changes:**
-    - `git revert <commit-hash>`: Creates a new commit that reverses the effects of the specified snapshot, preserving history. Safe for shared repositories.
-    - `git reset --hard <commit-hash>`: Moves the current branch pointer to the specified commit, discarding all subsequent snapshots from history. Destructive; use with caution on shared branches.
-    - `git commit --amend`: Creates a new snapshot that replaces the last commit, allowing modification of its content or message.
+  - `git revert <commit-hash>`: Creates a new commit that reverses the effects of the specified snapshot, preserving history. Safe for shared repositories.
+  - `git reset --hard <commit-hash>`: Moves the current branch pointer to the specified commit, discarding all subsequent snapshots from history. Destructive; use with caution on shared branches.
+  - `git commit --amend`: Creates a new snapshot that replaces the last commit, allowing modification of its content or message.
 
 ### Commit Best Practices
 
@@ -97,12 +97,12 @@ Breaking Changes:
 
 ## 4. Minimum Viable Understanding (MVU)
 
-1.  **Git stores Snapshots, not Diffs:** Every commit is a complete copy of the project.
-2.  **History is a DAG:** Branching and merging create a graph of interconnected commits.
-3.  **Index is the Staging Area:** It's where you build your next snapshot.
-4.  **Version Everything in Git:** Code, config, infrastructure, docs.
-5.  **Clean, Atomic Commits:** Use structured messages and rebase for readable history.
-6.  **Protected Branches are Key for GitOps:** Prevent history rewriting and enforce reviews.
+1. **Git stores Snapshots, not Diffs:** Every commit is a complete copy of the project.
+2. **History is a DAG:** Branching and merging create a graph of interconnected commits.
+3. **Index is the Staging Area:** It's where you build your next snapshot.
+4. **Version Everything in Git:** Code, config, infrastructure, docs.
+5. **Clean, Atomic Commits:** Use structured messages and rebase for readable history.
+6. **Protected Branches are Key for GitOps:** Prevent history rewriting and enforce reviews.
 
 ---
 

@@ -124,16 +124,16 @@ From a plain networking perspective (no SGs/NACLs):
 To have instances/resources that can both send traffic to and receive traffic from the public internet, you need:
 
 1. **Internet Gateway (IGW)**
-    
+
     - A virtual gateway **attached to the VPC**.
     - It’s the “edge router” between your VPC and the public internet.
     - [AWS docs](https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html#vpc-access-internet) describe it as allowing instances with public IPs to communicate with the internet.
 2. **Route table entry** for the subnet:
-    
+
     - Destination: `0.0.0.0/0` (all IPv4 outside the VPC)
     - Target: the **Internet Gateway**
 3. **Public IPs** on the instances (or via an Elastic IP on an attached device):
-    
+
     - The IGW handles the mapping so externally you see the public IP.
 
 Conceptual device list (public subnet):
@@ -149,15 +149,15 @@ For instances that **don’t** have public IPs but still want outbound internet 
 
 1. **NAT device** in a *public* subnet  
     In AWS this is usually:
-    
+
     - **NAT Gateway** (managed service), or
     - A **NAT instance** (EC2 running NAT)
 2. **Route table** for the *private* subnet:
-    
+
     - Destination: `0.0.0.0/0`
     - Target: the **NAT Gateway/instance** ENI
 3. That NAT device itself needs to:
-    
+
     - Be in a **public subnet**
     - Have a route `0.0.0.0/0 → IGW`
     - Have a **public IP** or Elastic IP
@@ -167,8 +167,8 @@ Conceptual device list (private subnet with outbound internet):
 - Gateway to internet: **Internet Gateway**
 - Translator between private subnet and IGW: **NAT Gateway / NAT instance**
 - Routing:
-    - Private subnet: `0.0.0.0/0 → NAT`
-    - Public subnet hosting NAT: `0.0.0.0/0 → IGW`
+  - Private subnet: `0.0.0.0/0 → NAT`
+  - Public subnet hosting NAT: `0.0.0.0/0 → IGW`
 
 AWS explicitly distinguishes these subnet types this way in the subnet docs: public subnet = route to IGW, private subnet = route via a NAT device, isolated = no routes outside VPC [AWS subnet types](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html#subnet-types).
 
@@ -182,9 +182,9 @@ Azure names are slightly different, but conceptually the same:
 - **Subnet** = same idea
 - **Public IP address resource** = thing you bind to a NIC / Load Balancer / NAT gateway so it has a public presence
 - **Internet connectivity**:
-    - By default, outbound internet is available from a subnet unless you override routes, but to control/evolve it you typically involve:
-        - **Azure NAT Gateway** (for outbound internet from private IPs)
-        - **Azure Load Balancer / Public IP** for inbound public-facing services
+  - By default, outbound internet is available from a subnet unless you override routes, but to control/evolve it you typically involve:
+    - **Azure NAT Gateway** (for outbound internet from private IPs)
+    - **Azure Load Balancer / Public IP** for inbound public-facing services
 
 Microsoft’s comparison article notes that both AWS VPC and Azure VNet are built on private RFC1918 ranges and have gateways for internet and hybrid connectivity [Microsoft dev blog](https://devblogs.microsoft.com/premier-developer/differentiating-between-azure-virtual-network-vnet-and-aws-virtual-private-cloud-vpc/).
 
@@ -203,17 +203,17 @@ Conceptually in Azure, your “devices” for internet access are:
 Thinking in generic-network terms (then mapping to cloud):
 
 1. **A router/gateway connecting your private network to the internet**
-    
+
     - Cloud mapping:
         - AWS: **Internet Gateway**
         - Azure: default internet edge + optional NAT Gateway / LB + Public IP
 2. **A NAT function** if your internal addresses are private RFC1918 and you don’t want your hosts to have public IPs
-    
+
     - Cloud mapping:
         - AWS: **NAT Gateway** or NAT instance
         - Azure: **Azure NAT Gateway** or resource with a **Public IP** doing SNAT
 3. **Routing configuration** so that:
-    
+
     - Traffic destined for the internet (`0.0.0.0/0`) is forwarded to either:
         - The **Internet Gateway** (for public subnets / public IP hosts), or
         - The **NAT device**, which in turn forwards to the internet gateway
@@ -268,12 +268,12 @@ Conceptually, you always have:
 Devices / components:
 
 1. **Standard Public Load Balancer**
-    
+
     - Created automatically by AKS
     - Has at least one **public IP**
     - Used for **egress NAT** by default
 2. **Route / wiring**
-    
+
     - AKS wires the node scale set NICs into the LB’s backend pool
     - Egress from nodes/pods goes through the LB outbound rules → translated to the LB’s public IP [AKS egress docs](https://learn.microsoft.com/en-us/azure/aks/egress-outboundtype) and [AKS egress deep dive](https://argonsys.com/microsoft-cloud/library/aks-egress-traffic-demystified/).
 
@@ -288,13 +288,13 @@ Conceptual picture:
 Devices / components:
 
 1. **Azure NAT Gateway**
-    
+
     - Azure-managed NAT on the AKS subnet (`managedNATGateway`), or
     - User-created NAT Gateway attached to the subnet (`userAssignedNATGateway`)
     - Has **one or more public IPs / IP prefixes** for SNAT
     - Handles large numbers of outbound flows [NAT Gateway with AKS](https://learn.microsoft.com/en-us/azure/aks/nat-gateway)
 2. **Subnets and routes**
-    
+
     - NAT Gateway is **bound to the subnet**
     - When bound, **all outbound internet traffic** from that subnet is NATed via those public IPs [NAT Gateway overview](https://learn.microsoft.com/en-us/azure/aks/nat-gateway) and [AKS outboundType docs](https://learn.microsoft.com/en-us/azure/aks/egress-outboundtype).
 
@@ -310,9 +310,9 @@ Here your “egress device” is **whatever your route table points to**, e.g. a
 
 - AKS does **not** configure egress for you
 - You:
-    - Attach a **route table** to the AKS subnet
-    - Add a route `0.0.0.0/0 → VirtualAppliance <NVA IP>` (e.g. Azure Firewall)
-    - That appliance then does the NAT to a public IP [UDR for AKS egress](https://learn.microsoft.com/en-us/azure/aks/egress-udr)
+  - Attach a **route table** to the AKS subnet
+  - Add a route `0.0.0.0/0 → VirtualAppliance <NVA IP>` (e.g. Azure Firewall)
+  - That appliance then does the NAT to a public IP [UDR for AKS egress](https://learn.microsoft.com/en-us/azure/aks/egress-udr)
 
 Conceptual picture:
 
@@ -411,10 +411,10 @@ Plus:
 At least one of:
 
 - **Service type `LoadBalancer`**:
-    - Creates/uses a **Public IP + Standard LB**
-    - LB frontends → nodes/pods
+  - Creates/uses a **Public IP + Standard LB**
+  - LB frontends → nodes/pods
 - **Application Gateway + AGIC**:
-    - Public IP on App Gateway → AG L7 rules → pods
+  - Public IP on App Gateway → AG L7 rules → pods
 
 ---
 

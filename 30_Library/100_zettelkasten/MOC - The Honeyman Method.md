@@ -82,6 +82,7 @@ The practical implementation follows a clear sequence:
 By pre-planning all three tiers, you eliminate decision-making during low-energy periods while maintaining the routine structure that prevents complete habit collapse. This is sustainable productivity: working with your brain's patterns rather than demanding it conform to neurotypical expectations.
 
 ### Related Maps
+
 - [[MOC - How To Create And Use Mini Routines]]
 - [[MOC - Why Autistics and ADHDers NEED Routines]]
 

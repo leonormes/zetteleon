@@ -73,25 +73,25 @@ The challenges of software development are not moral failings; they are neurobio
 
 - **[[Digital Tools Help Externalize Memory and Structure for ADHD Developers]]**.
 
-    - **IDE:** Use linters and snippets to reduce memory load.
+  - **IDE:** Use linters and snippets to reduce memory load.
 
-    - **Task Management:** Use rigid ticket breakdown (ProdOS/Todoist) to externalize "Next Actions."
+  - **Task Management:** Use rigid ticket breakdown (ProdOS/Todoist) to externalize "Next Actions."
 
 ### C. Analog Anchors
 
 - **[[Analog and Behavioral Techniques are Crucial for ADHD Management]]**.
 
-    - **Paper:** Use physical notepads for "Stack Tracing" your thoughts during debugging to prevent distraction loops.
+  - **Paper:** Use physical notepads for "Stack Tracing" your thoughts during debugging to prevent distraction loops.
 
-    - **Timers:** Physical Time Timers to visualize passing time.
+  - **Timers:** Physical Time Timers to visualize passing time.
 
 ### D. Environment & Social
 
 - **[[Environmental and Social Modifications Support Remote ADHD Productivity]]**.
 
-    - **The "Work Only" Zone:** A specific desk or corner that anchors the "Work Mode" identity.
+  - **The "Work Only" Zone:** A specific desk or corner that anchors the "Work Mode" identity.
 
-    - **Virtual Body Doubling:** Focusmate or "Cameras On" co-working sessions.
+  - **Virtual Body Doubling:** Focusmate or "Cameras On" co-working sessions.
 
 ---
 

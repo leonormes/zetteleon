@@ -30,9 +30,10 @@ updated:
 > A **Problem** is a specific structural relationship between an agent and their environment characterized by a **Gap** plus **Uncertainty**.
 >
 > It exists effectively only when three components are present simultaneously:
-> 1.  **Current State:** Where you are now (Reality).
-> 2.  **Desired State:** Where you want to be (Goal).
-> 3.  **The Gap (Uncertainty):** You do not immediately know the transformation path to move from current to desired.
+>
+> 1. **Current State:** Where you are now (Reality).
+> 2. **Desired State:** Where you want to be (Goal).
+> 3. **The Gap (Uncertainty):** You do not immediately know the transformation path to move from current to desired.
 
 If the path is known, it is not a problem; it is a **Task**.
 
@@ -45,9 +46,9 @@ If the path is known, it is not a problem; it is a **Task**.
 From logic and cognitive science (Newell & Simon), a problem is defined by **imperfect knowledge**.
 
 - **Scenario A:** You are hungry -> You have an apple -> You eat it.
-    - *Analysis:* Gap exists, but Method is known. **This is a Task.**
+  - *Analysis:* Gap exists, but Method is known. **This is a Task.**
 - **Scenario B:** You are hungry -> You have no food and no money -> You don't know how to eat.
-    - *Analysis:* Gap exists, and Method is unknown. **This is a Problem.**
+  - *Analysis:* Gap exists, and Method is unknown. **This is a Problem.**
 
 ### B. Systems Thinking Perspective
 
@@ -83,6 +84,7 @@ A **Constraint** is a condition that bounds the "solution space." It is a variab
 - **Soft Constraints:** Preferences (e.g., "Finish by Friday").
 
 **The Relationship:**
+
 - **Problems** are the search for coordinates (the solution).
 - **Constraints** are the edges of the map (the search space).
 - *Insight:* Constraints are helpful filters that reduce the infinite possibilities of a problem.
@@ -91,6 +93,7 @@ A **Constraint** is a condition that bounds the "solution space." It is a variab
 To distinguish a Problem from a Constraint, use the 1-Minute Decision Tree:
 
 > "Can I, my team, or my boss change this factor right now?"
+>
 > - **YES:** It is a **Problem**. Solve it.
 > - **NO:** It is a **Constraint**. Optimize *around* it.
 
@@ -102,7 +105,7 @@ To distinguish a Problem from a Constraint, use the 1-Minute Decision Tree:
 
 Before attempting to solve, explicitly define the three components to avoid "Solutioneering" (jumping to fixes):
 
-1.  **Current State:** (e.g., "Conversion is 1%")
-2.  **Desired State:** (e.g., "Conversion is 3%")
-3.  **The Gap:** (e.g., "We don't know *why* users drop off.")
+1. **Current State:** (e.g., "Conversion is 1%")
+2. **Desired State:** (e.g., "Conversion is 3%")
+3. **The Gap:** (e.g., "We don't know *why* users drop off.")
     - *Implication:* The next step is **Discovery** (Analytics), not **Action** (Redesign).

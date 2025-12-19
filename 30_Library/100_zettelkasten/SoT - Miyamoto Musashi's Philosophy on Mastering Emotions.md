@@ -24,6 +24,7 @@ updated:
 > **Musashi's Emotional Mastery** is not the suppression of feeling, but the cultivation of **Heijo-shin** (Ordinary Mind)—a state where the mind remains constant during the chaos of battle (or crisis) as it is in everyday life.
 >
 > In his strategy (*Heihō*), emotion is a **vector**:
+>
 > - **Uncontrolled:** It is a vulnerability ("The Collapse").
 > - **Harnessed:** It is a weapon (e.g., provoking an opponent to break their rhythm).
 > - **Transcended:** It is the "Void" (Ku)—perceiving reality without the distortion of fear or desire.

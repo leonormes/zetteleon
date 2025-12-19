@@ -24,12 +24,14 @@ version: 1
 
 **1. Delegate:**
 Identify tasks that can be assigned to someone else. Delegation frees up your time and energy for core responsibilities. To delegate effectively:
+
 - Define the task clearly
 - Ensure the person has resources and understanding to complete it
 - Provide clear deadlines and expectations
 
 **2. Delete:**
 Ruthlessly eliminate tasks that are not necessary or no longer relevant. Ask:
+
 - Does this truly contribute to my goals?
 - Is this still relevant?
 - What happens if I don't do this?
@@ -38,12 +40,14 @@ Deleting reduces cognitive load and frees time for what matters.
 
 **3. Delay:**
 Postpone tasks that are not urgent or can be addressed later. This is about strategic prioritization, not procrastination. Place delayed tasks on:
+
 - A "waiting-for" list (if awaiting input)
 - A "someday/maybe" list (if not time-sensitive)
 - A scheduled future date (if appropriate timing is known)
 
 **4. Do:**
 Take action on tasks that remain after the first three filters. These are tasks that:
+
 - Cannot be delegated
 - Cannot be deleted
 - Cannot be delayed

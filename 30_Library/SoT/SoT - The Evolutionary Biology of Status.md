@@ -26,9 +26,10 @@ updated:
 ---
 
 ## 2. Evolutionary Drivers
-1.  **Resource Acquisition:** High status meant priority access to food. Low status meant malnutrition. We feel existential dread at "losing face" because our primitive brain interprets it as a threat of starvation.
-2.  **Reproductive Success:** Status acts as an "advertising board" for genetic fitness.
-3.  **Conflict Reduction:** Hierarchies reduce violence by establishing a "pre-agreed" order. We are hardwired to "know our place" to avoid physical damage (the Fight/Flight response to public speaking).
+
+1. **Resource Acquisition:** High status meant priority access to food. Low status meant malnutrition. We feel existential dread at "losing face" because our primitive brain interprets it as a threat of starvation.
+2. **Reproductive Success:** Status acts as an "advertising board" for genetic fitness.
+3. **Conflict Reduction:** Hierarchies reduce violence by establishing a "pre-agreed" order. We are hardwired to "know our place" to avoid physical damage (the Fight/Flight response to public speaking).
 
 ## 3. The Neurochemistry
 

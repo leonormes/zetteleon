@@ -32,9 +32,9 @@ The sources provide a comprehensive overview of how ConfigMaps function within K
 - Key-Value Structure: ConfigMaps are essentially a collection of key-value pairs that can be referenced and used within Pods and containers. Keys are arbitrary names, and values can range from simple strings to entire configuration files.
 - Creation: You can create ConfigMaps either *imperatively* using `kubectl create configmap` with literal values or files, or *declaratively* using YAML files.
 - Injection Methods: There are three main ways to inject ConfigMap data into containers:
-	- Environment Variables: Map ConfigMap entries directly to environment variables within the container.
-	- Command Arguments: Reference ConfigMap entries within the container's startup command, similar to using environment variables.
-	- Volumes: Mount the ConfigMap as a volume within the container, making entries accessible as files in the container's filesystem.
+  - Environment Variables: Map ConfigMap entries directly to environment variables within the container.
+  - Command Arguments: Reference ConfigMap entries within the container's startup command, similar to using environment variables.
+  - Volumes: Mount the ConfigMap as a volume within the container, making entries accessible as files in the container's filesystem.
 - Volumes - The Preferred Approach: The volume method is generally preferred for injecting ConfigMap data because it offers greater flexibility and supports updates to ConfigMaps without requiring container restarts. When you modify a ConfigMap, the changes are reflected in the mounted files within the container, usually within a minute or so.
 - Additional Points:
 - No State Management: ConfigMaps are simple data objects without the concept of desired state and actual state. They primarily serve as a source of configuration data.
@@ -48,18 +48,18 @@ Source provides a YAML example showcasing how to mount a ConfigMap named "multim
 apiVersion: v1
 kind: Pod
 metadata:
-	name: cmvol
+ name: cmvol
 spec:
-	volumes:
-		- name: volmap
-			configMap:
-				name: multimap
+ volumes:
+  - name: volmap
+   configMap:
+    name: multimap
 containers:
-	- name: ctr
-		image: nginx
-		volumeMounts:
-			- name: volmap
-				mountPath: etcname
+ - name: ctr
+  image: nginx
+  volumeMounts:
+   - name: volmap
+    mountPath: etcname
 ```
 
 Relationship to Other Kubernetes Concepts:

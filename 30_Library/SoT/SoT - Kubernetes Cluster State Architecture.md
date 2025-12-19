@@ -103,6 +103,7 @@ When comparing **Git (Intent)** to **Cluster (Status)**, noise arises.
 | Metadata (Name/Labels) | System Metadata (`uid`, `resourceVersion`, `managedFields`) |
 
 **Tooling:**
+
 - **`kubectl-neat`:** A plugin to strip system metadata for clean diffs.
 - **ArgoCD:** Automatically performs this normalization to show "App Diff."
 

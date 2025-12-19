@@ -372,26 +372,31 @@ customers/
 ### Benefits of This Approach
 
 1. Customization
+
 - Customers can enable/disable features as needed
 - Network architecture can be adjusted per requirements
 - Security controls can be tailored to compliance needs
 
 2. Maintainability
+
 - Core modules remain stable
 - Customer-specific configurations are isolated
 - Easier to implement updates and patches
 
 3. Scalability
+
 - Support for different sized deployments
 - Easy to add new features as modules
 - Flexible node group configurations
 
 4. Standardization
+
 - Consistent base infrastructure
 - Standardized security controls
 - Reusable patterns across customers
 
 5. Cost Optimization
+
 - Customers only pay for enabled features
 - Right-sized infrastructure based on profiles
 - Efficient resource utilization

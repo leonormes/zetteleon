@@ -259,6 +259,7 @@ policyTypes:
   3. Run in audit mode for 1 week
   4. Gradually tighten policies
   5. Move to enforcement mode during a maintenance window
+
 5. Example Implementation Timeline:
 
 Week 1-2: Monitor traffic patterns

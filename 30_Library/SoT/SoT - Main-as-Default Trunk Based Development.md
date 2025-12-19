@@ -26,10 +26,11 @@ updated:
 > The core hypothesis is: **"Optimizing for continually integrating and shipping the smallest robust increments of change will in itself ensure quality and stability."**
 
 ### The Core Protocol
-1.  **Commit Straight to Main:** Developers push directly to the trunk.
-2.  **Continuous Pipeline:** Every commit triggers build, test, and deployment to a test environment.
-3.  **Deployability:** Any developer *can* deploy to production at any time.
-4.  **Feedback:** Developers own the change until it is validated in production.
+
+1. **Commit Straight to Main:** Developers push directly to the trunk.
+2. **Continuous Pipeline:** Every commit triggers build, test, and deployment to a test environment.
+3. **Deployability:** Any developer *can* deploy to production at any time.
+4. **Feedback:** Developers own the change until it is validated in production.
 
 ---
 
@@ -38,12 +39,14 @@ updated:
 A common barrier to adoption is the belief that TBD requires an "elite" setup (100% test coverage, TDD, Mob Programming). Empirical data refutes this.
 
 **You DO NOT need:**
+
 - Complex automated test suites (at first).
 - Strict Pair/Mob programming.
 - Rigid TDD workflows.
 - To "wait until the next greenfield project."
 
 **You DO need:**
+
 - **Small Increments:** The discipline to break work down into tiny, safe batches.
 - **Feature Flags:** The ability to decouple "Deployment" (code on server) from "Release" (feature visible to user).
 - **Mindset Shift:** Accepting that `main` is a place for *work in progress*, not just "finished" code.
@@ -56,11 +59,11 @@ A common barrier to adoption is the belief that TBD requires an "elite" setup (1
 
 How do you commit to main without breaking it?
 
-1.  **Feature Flags:** Wrap new logic in a toggle (`if (feature.enabled) { new() } else { old() }`).
-2.  **Branch by Abstraction:** Introduce an interface, route traffic to the old implementation, build the new one in parallel, then switch.
-3.  **Dark Launching:** Execute the new code path but discard the result (or log it) to validate performance without affecting users.
-4.  **UI-Last Development:** Build the backend API endpoints first. They are "live" but unreachable by users until the frontend is updated.
-5.  **Mocking the Frontend:** If building UI, mock the data response so frontend work can proceed before the backend is fully wired.
+1. **Feature Flags:** Wrap new logic in a toggle (`if (feature.enabled) { new() } else { old() }`).
+2. **Branch by Abstraction:** Introduce an interface, route traffic to the old implementation, build the new one in parallel, then switch.
+3. **Dark Launching:** Execute the new code path but discard the result (or log it) to validate performance without affecting users.
+4. **UI-Last Development:** Build the backend API endpoints first. They are "live" but unreachable by users until the frontend is updated.
+5. **Mocking the Frontend:** If building UI, mock the data response so frontend work can proceed before the backend is fully wired.
 
 ---
 
@@ -95,7 +98,7 @@ Building software this way is like pouring concrete in **"lifts"** (small layers
 
 To switch your team to TBD:
 
-1.  **Stop Branching:** Start committing small, safe changes to main today.
-2.  **Add a Toggle:** Introduce a simple config-based feature flag system.
-3.  **Decouple:** Separate the concept of "Deploying code" from "Releasing features."
-4.  **Refactor:** Don't wait for a rewrite. Apply "Strangler Fig" patterns to legacy code.
+1. **Stop Branching:** Start committing small, safe changes to main today.
+2. **Add a Toggle:** Introduce a simple config-based feature flag system.
+3. **Decouple:** Separate the concept of "Deploying code" from "Releasing features."
+4. **Refactor:** Don't wait for a rewrite. Apply "Strangler Fig" patterns to legacy code.

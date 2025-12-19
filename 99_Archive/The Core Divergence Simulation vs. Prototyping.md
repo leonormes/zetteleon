@@ -102,20 +102,26 @@ Here is the protocol to bridge that gap.
 
 1. **Accept the Artifact:** Receive their plan. Do not reject it immediately (this causes system panic in Planners).
 2. **Decode the Intent:** Ask specific questions to isolate the "Invariants" (things that *must* happen) from the "Variables" (suggestions on *how* to do it).
-	- *Query:* "I see the steps. To ensure the output matches your expectation, what is the single most critical 'Definition of Done' for this project?"
-	- *Query:* "Which of these steps are hard constraints (regulatory/physical limits) and which are suggested workflows?"
+
+- *Query:* "I see the steps. To ensure the output matches your expectation, what is the single most critical 'Definition of Done' for this project?"
+- *Query:* "Which of these steps are hard constraints (regulatory/physical limits) and which are suggested workflows?"
+
 3. **Re-frame as Constraints:** Convert their "Steps 1-10" into "Boundary Conditions."
-	- *Internal Logic:* "They aren't telling me how to walk; they are defining the walls of the room."
+
+- *Internal Logic:* "They aren't telling me how to walk; they are defining the walls of the room."
 
 ## Phase 2: The Handshake (Negotiating Execution)
 
 **The Conflict:** The Planner wants assurance of the *path*. You can only provide assurance of the *result* after testing.**The Protocol:** Negotiate **"Black Box Implementation"**.
 
 1. **Define the Interface:** Agree on the Inputs and the Outputs, but request autonomy for the internal processing.
-	- *Script:* "I agree to the deadline and the final deliverable. However, I need to run a few prototypes to find the most efficient path. I will deliver [Result X] by [Date Y], but the exact steps I take might diverge from the initial draft as I uncover new data."
+
+- *Script:* "I agree to the deadline and the final deliverable. However, I need to run a few prototypes to find the most efficient path. I will deliver [Result X] by [Date Y], but the exact steps I take might diverge from the initial draft as I uncover new data."
+
 2. **The "Spike" Deliverable:** If they demand a plan, offer a "Discovery Phase" (or a "Spike" in Agile terms).
-	- *Proposal:* "I cannot commit to this full plan yet because there are unknown variables. Let me spend 2 hours/days doing a practical test. Afterwards, I will give you a confirmed timeline based on real data."
-	- *Why this works:* It satisfies their need for a plan (you are planning to test) while satisfying your need to *do* before you commit.
+
+- *Proposal:* "I cannot commit to this full plan yet because there are unknown variables. Let me spend 2 hours/days doing a practical test. Afterwards, I will give you a confirmed timeline based on real data."
+- *Why this works:* It satisfies their need for a plan (you are planning to test) while satisfying your need to *do* before you commit.
 
 ## Phase 3: Reporting (The Feedback Loop)
 
@@ -140,4 +146,4 @@ Google Account
 
 Leon Ormes
 
-leonormes@gmail.com
+<leonormes@gmail.com>

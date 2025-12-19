@@ -54,25 +54,30 @@ Copy and paste the following block into an LLM (or back to me) to generate the s
 **Architectural Requirements:**
 
 1. **The Controller Module (Root):**
+
 - Create a `main.tf` that acts as the orchestrator.
 - Input: `var.customer_id`, `var.environment`.
 - It must instantiate child modules in the correct dependency order.
 
 2. **Secret Fabrication (The `random` & `external` Providers):**
+
 - Replace manual "LastPass generation" with `resource "random_password"`.
 - Replace the manual OpenSSL/PKCS8 steps with the `tls_private_key` Terraform provider.
 *Challenge:* Replace the Rust CLI (UDE) key generation with an `external` data source wrapper or a Dockerized ephemeral container execution within Terraform to output the key string.
 
 3. **Module 1: Vault Setup (Pre-requisite):**
+
 - Configure the Vault Provider using a high-level admin token (assume strictly for CI/CD context).
 - Provision the Namespace: `admin/deployments/${var.customer_id}`.
 - Provision the KV Secret Engines (Application, Monitoring, SpiceDB, etc.).
 
 4. **Module 2: Infrastructure Provisioning (Auth0 & Grafana):**
+
 - Provision Auth0 Applications and APIs. Output: `client_id`, `secret`.
 - Provision Grafana Cloud Stacks. Output: `prometheus_host`, `loki_auth`, etc.
 
 5. **Module 3: Secret Injection (The "Glue"):**
+
 - *Crucial Step:* This module depends on Modules 1 & 2.
 - It constructs the JSON payloads dynamically using the *outputs* from Module 2 and the *generated secrets* from the Secret Fabrication step.
 - It writes these JSON blobs directly into the Vault KV paths created in Module 1, removing the need for human copy-pasting.

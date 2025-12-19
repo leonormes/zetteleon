@@ -23,6 +23,7 @@ we use cloudflare. it has some DNS records. our route seems to go to cloudflare 
 Cloudflare is a global network service provider that enhances the **security**, **performance**, and **reliability** of websites, applications, and networks. It acts as a **reverse proxy**, meaning all traffic to your domain first passes through Cloudflare before reaching your origin server.
 
 ## Key Features of Cloudflare
+
 1. **DNS Management**: Cloudflare provides authoritative DNS services, allowing you to manage DNS records and protect them with features like DNSSEC
 2. **Security**:
    - Protects against DDoS attacks by filtering malicious traffic.
@@ -41,6 +42,7 @@ What are the differences between proxied and DNS-only records in Cloudflare
 In Cloudflare, the **Proxy status** of a DNS record determines whether traffic to that record is routed through Cloudflare's network or directly to the origin server. Below are the key differences between **Proxied** and **DNS-only** records:
 
 ## **Proxied (Orange-clouded)**
+
 - **Traffic Routing**: Requests are routed through Cloudflare's network before reaching your origin server.
 - **IP Address**: DNS queries resolve to Cloudflare's Anycast IPs, hiding your origin server's IP.
 - **Features Enabled**:
@@ -52,6 +54,7 @@ In Cloudflare, the **Proxy status** of a DNS record determines whether traffic t
 - **Limitations**: Some services, like email, may not work properly when proxied and should remain DNS-only.
 
 ## **DNS-only (Gray-clouded)**
+
 - **Traffic Routing**: Requests bypass Cloudflare and go directly to your origin server.
 - **IP Address**: DNS queries resolve to the actual IP address of your origin server.
 - **Features Disabled**:
@@ -60,6 +63,7 @@ In Cloudflare, the **Proxy status** of a DNS record determines whether traffic t
 - **Security Risk**: Exposes your origin server's IP, making it vulnerable to attacks[1][3][4].
 
 ## Recommendations
+
 - Use **Proxied** for web traffic (A, AAAA, CNAME records) to leverage Cloudflare's security and performance benefits.
 - Use **DNS-only** for non-web services like email (e.g., MX or mail A records) to avoid conflicts with Cloudflare's proxy[1][2][3].
 
@@ -68,12 +72,14 @@ describe how the DNS proxy works. how do packets get routed to my loadbalancer
 When DNS records are **proxied** through Cloudflare, traffic is routed through Cloudflare's global network before reaching your load balancer or origin server. Here's how the process works:
 
 ## DNS Proxy Workflow
+
 1. **DNS Query Resolution**: When a user accesses your domain, DNS queries resolve to Cloudflare's Anycast IPs instead of your origin server's IP. This hides your server's actual IP and routes traffic through Cloudflare[1][4][9].
-2. **Cloudflare Network**: Incoming traffic first enters Cloudflare's network, where it undergoes security checks (e.g., DDoS mitigation, Web Application Firewall) and performance optimization (e.g., caching)[1][4].
+2. **Cloudflare Network**: Incoming traffic first enters Cloudflare's network, where it undergoes security checks (e.g., DDoS mitigation, Web Application Firewall) and performance optimization [e.g., caching][1](4).
 3. **Forwarding to Load Balancer**: After processing, Cloudflare forwards the request to your load balancer's IP using optimized routing paths like Argo Smart Routing for faster connectivity[8][10].
 
 ## **Load Balancer Routing**
-- The load balancer distributes traffic across multiple server pools based on health checks, proximity, or custom traffic steering policies (e.g., weighted distribution or failover)[2][10].
+
+- The load balancer distributes traffic across multiple server pools based on health checks, proximity, or custom traffic steering policies [e.g., weighted distribution or failover][2](10).
 - If a pool or server becomes unhealthy, traffic is rerouted to fallback pools or healthy endpoints automatically[10].
 
 This setup ensures security, optimized performance, and high availability for your application.
@@ -83,6 +89,7 @@ how does cloudflare waf work for proxied dns
 Cloudflare's Web Application Firewall (WAF) works only when your DNS records are **proxied** (orange-clouded). Here's how it functions:
 
 ## **How Cloudflare WAF Works with Proxied DNS**
+
 1. **Traffic Routing**: When a DNS record is proxied, all traffic to that hostname is routed through Cloudflare's global network. This ensures Cloudflare can inspect and filter incoming requests before they reach your origin server[1][3][6].
 2. **Request Inspection**:
    - The WAF analyzes HTTP/S requests against predefined rulesets, such as the OWASP Top 10 vulnerabilities, custom rules, or managed rulesets.
@@ -127,20 +134,20 @@ This Anycast setup ensures that user requests are handled by the Cloudflare serv
 
 When a user accesses a website with proxied DNS through Cloudflare, the request follows these steps:
 
-1.  **DNS Resolution:** The user's browser or device performs a DNS lookup for the website's domain name. The DNS server returns one of Cloudflare's Anycast IP addresses.
-2.  **Connection to Cloudflare:** The user's browser initiates an HTTP/HTTPS connection to the resolved Cloudflare IP address. Due to Anycast, this connection will be established with the nearest Cloudflare data center.
-3.  **Cloudflare Processing:** The Cloudflare server at the edge receives the request and performs several checks and processes, including:
+1. **DNS Resolution:** The user's browser or device performs a DNS lookup for the website's domain name. The DNS server returns one of Cloudflare's Anycast IP addresses.
+2. **Connection to Cloudflare:** The user's browser initiates an HTTP/HTTPS connection to the resolved Cloudflare IP address. Due to Anycast, this connection will be established with the nearest Cloudflare data center.
+3. **Cloudflare Processing:** The Cloudflare server at the edge receives the request and performs several checks and processes, including:
     - **DDoS Protection:** Cloudflare analyzes the traffic for malicious patterns and blocks potential DDoS attacks. This can involve inspecting request rates, source IPs, and known attack signatures.
     - **Web Application Firewall (WAF):** If enabled, the WAF inspects the HTTP/HTTPS request for common web vulnerabilities and malicious payloads, blocking potentially harmful requests.
     - **Caching:** Cloudflare checks its cache to see if a cached version of the requested resource (e.g., HTML, CSS, JavaScript, images) is available. If a cached version exists and is still valid, Cloudflare serves it directly to the user, reducing the load on the origin server and improving website speed.
     - **TLS Termination:** For HTTPS requests, Cloudflare handles the TLS/SSL handshake with the user's browser. This offloads the encryption and decryption process from the origin server.
     - **Content Optimization:** Cloudflare can perform various optimizations, such as minifying HTML, CSS, and JavaScript, compressing images, and leveraging the Brotli compression algorithm to reduce file sizes and improve loading times.
     - **Routing to Origin:** After processing the request, Cloudflare establishes a new connection to the origin server. This connection is often secured using TLS encryption (Origin CA certificates can be used for this purpose).
-4.  **Origin Server Response:** The origin server processes the request from Cloudflare and sends back the response.
-5.  **Cloudflare Processing (Response):** Cloudflare receives the response from the origin server and can perform further processing, such as:
+4. **Origin Server Response:** The origin server processes the request from Cloudflare and sends back the response.
+5. **Cloudflare Processing (Response):** Cloudflare receives the response from the origin server and can perform further processing, such as:
     - **Caching:** Cloudflare may cache the response based on configured caching rules.
     - **Content Optimization:** Further optimizations might be applied to the response before it's sent to the user.
-6.  **Response to User:** Cloudflare forwards the processed response to the user's browser.
+6. **Response to User:** Cloudflare forwards the processed response to the user's browser.
 
 ### 4. The Benefits of Using Proxied DNS
 
@@ -159,17 +166,17 @@ Using proxied DNS through Cloudflare offers several significant benefits:
 
 Enabling proxied DNS on Cloudflare is typically straightforward:
 
-1.  **Add Website to Cloudflare:** You first need to add your website to your Cloudflare account. This involves providing your domain name.
-2.  **Cloudflare DNS Scan:** Cloudflare will automatically scan your existing DNS records.
-3.  **Update Nameservers:** You need to update your domain's nameservers at your domain registrar to point to the nameservers provided by Cloudflare. This delegates DNS control to Cloudflare.
-4.  **Enable Proxying:** In the Cloudflare dashboard's DNS settings, you will see a list of your DNS records. For the records you want to proxy (typically A, AAAA, and CNAME records for your website), you need to ensure the cloud icon is orange (proxied). Clicking on a grey cloud will toggle it to orange.
+1. **Add Website to Cloudflare:** You first need to add your website to your Cloudflare account. This involves providing your domain name.
+2. **Cloudflare DNS Scan:** Cloudflare will automatically scan your existing DNS records.
+3. **Update Nameservers:** You need to update your domain's nameservers at your domain registrar to point to the nameservers provided by Cloudflare. This delegates DNS control to Cloudflare.
+4. **Enable Proxying:** In the Cloudflare dashboard's DNS settings, you will see a list of your DNS records. For the records you want to proxy (typically A, AAAA, and CNAME records for your website), you need to ensure the cloud icon is orange (proxied). Clicking on a grey cloud will toggle it to orange.
 
 **Ensuring Compatibility with Origin Servers:**
 
 - **HTTP/HTTPS Configuration:** The origin server needs to be configured to handle HTTP or HTTPS requests. If using HTTPS with Cloudflare, you have a few options:
-    - **Flexible SSL:** Traffic between the user and Cloudflare is encrypted, but traffic between Cloudflare and the origin server is unencrypted HTTP. This is the simplest to set up but offers the least security.
-    - **Full SSL:** Traffic between the user and Cloudflare is encrypted, and traffic between Cloudflare and the origin server is also encrypted using a self-signed certificate or a certificate from a Certificate Authority.
-    - **Full (Strict) SSL:** Similar to Full SSL, but Cloudflare also verifies the SSL certificate on the origin server to ensure it's valid and trusted. This is the most secure option.
+  - **Flexible SSL:** Traffic between the user and Cloudflare is encrypted, but traffic between Cloudflare and the origin server is unencrypted HTTP. This is the simplest to set up but offers the least security.
+  - **Full SSL:** Traffic between the user and Cloudflare is encrypted, and traffic between Cloudflare and the origin server is also encrypted using a self-signed certificate or a certificate from a Certificate Authority.
+  - **Full (Strict) SSL:** Similar to Full SSL, but Cloudflare also verifies the SSL certificate on the origin server to ensure it's valid and trusted. This is the most secure option.
 - **Origin CA Certificates:** Cloudflare provides Origin CA certificates that you can install on your origin server. These certificates are trusted by Cloudflare but not publicly trusted, making them ideal for securing the connection between Cloudflare and your origin.
 - **IP Address Whitelisting:** Cloudflare uses a specific range of IP addresses to send requests to origin servers. You might need to whitelist these IP ranges in your origin server's firewall to ensure that Cloudflare can successfully connect. You can find the latest list of Cloudflare IP ranges on their website.
 - **HTTP Header Forwarding:** Cloudflare forwards certain HTTP headers to the origin server, such as the original client IP address in the `CF-Connecting-IP` header. Your origin server might need to be configured to recognize and utilize these headers if you need access to the real client IP for logging or other purposes.

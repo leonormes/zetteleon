@@ -106,16 +106,16 @@ Once stability is achieved, the goal shifts from **Accumulation** (playing "Mono
 
 ### A. The Five Categories of Investment
 
-1.  **The "Friction Removal" Dividend:** Use money to buy back patience and presence.
+1. **The "Friction Removal" Dividend:** Use money to buy back patience and presence.
     - *Action:* Outsource tasks that drain you (e.g., deep cleaning, meal prep) to preserve energy for family time.
     - *Mindset:* You are not "spending" money; you are buying family harmony.
-2.  **The "Shared Struggle" Dividend:** Families bond when they are beginners together.
+2. **The "Shared Struggle" Dividend:** Families bond when they are beginners together.
     - *Action:* Projects where no one is the expert (e.g., learning to surf, building a complex Lego set).
-3.  **The "Anticipation" Dividend:** Psychology shows we derive as much joy from looking forward to an event as doing it.
+3. **The "Anticipation" Dividend:** Psychology shows we derive as much joy from looking forward to an event as doing it.
     - *Action:* Book significant events months in advance to create a shared "North Star" for the family.
-4.  **The "Autonomy" Dividend:** Practicing the freedom resources provide.
+4. **The "Autonomy" Dividend:** Practicing the freedom resources provide.
     - *Action:* The "Yes Day" (with a budget). Give family members a budget and full control over the itinerary.
-5.  **The "Nostalgia" Capture:** Professional documentation of the "Good Times."
+5. **The "Nostalgia" Capture:** Professional documentation of the "Good Times."
     - *Action:* Candid, documentary-style photography of normal life, not just posed studio shots.
 
 ### B. The Narrative Flip
@@ -132,5 +132,5 @@ Whenever envy of the ultra-wealthy creeps in ("The System is Rigged"), remember:
 - **Lifestyle Creep:** As your income rises, your spending rises to match it. You must artificially suppress your lifestyle. If you get a pay rise, bank 50% of the difference immediately.
 - **Being "House Poor":** Buying a house that requires two incomes to support. If one of you loses a job, the mortgage becomes a threat.
 - **Keeping Kids in the Dark:** Protecting children from money worries is good; hiding how money works is bad.
-	- *Fix:* Give them pocket money. Let them make mistakes with £5 now so they don't make mistakes with £5,000 later. Be open about why you are saying "no" to a purchase (e.g., "We are choosing to spend that money on our holiday instead").
+  - *Fix:* Give them pocket money. Let them make mistakes with £5 now so they don't make mistakes with £5,000 later. Be open about why you are saying "no" to a purchase (e.g., "We are choosing to spend that money on our holiday instead").
 - **Ignoring Wills:** With dependents, you *must* have an up-to-date Will. If you die intestate, it creates a legal nightmare for your spouse.

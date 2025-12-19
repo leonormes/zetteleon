@@ -97,6 +97,7 @@ Capture this incompletion with pen and paper. The mind processes during breaks a
 [[The MIQ Process - Most Important Question for Deliberate Growth]] rel:: strategy framework:: "Targeted deliberate practice"
 
 **Process:**
+
 1. Identify your most critical/"stuck" question
 2. Pose it explicitly before breaks or sleep
 3. Return to it during peak energy periods
@@ -142,31 +143,37 @@ This day architecture approach integrates with:
 ### Actionable Implementation Steps
 
 #### 1. Assess Your Energy Patterns
+
 - Track energy and focus throughout day for 1-2 weeks
 - Identify natural peaks and valleys
 - Note when creative insights emerge most easily
 
 #### 2. Design Your Three-Tier Structure
+
 - **Ideal:** Full routine for high-energy days
 - **Most Likely:** Scaled version for average days
 - **Minimum:** Bare essentials for low-energy days
 
 #### 3. Block Your Peak Times
+
 - Reserve creative blocks during energy peaks
 - Protect these fiercely from external demands
 - Color-code calendar for visibility
 
 #### 4. Implement Transition Protocols
+
 - Morning: Pen and paper before phone
 - Work sessions: End with explicit incompletion
 - MIQ: Track your most important question
 
 #### 5. Create Low-Stimulation Insight Windows
+
 - Schedule walks or shower time after wrestling with problems
 - Allow mind-wandering without digital interference
 - Capture insights immediately when they surface
 
 #### 6. Reflect and Recalibrate Weekly
+
 - Review what worked and what didn't
 - Adjust timing of creative blocks
 - Refine three-tier routines based on actual capacity

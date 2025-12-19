@@ -23,6 +23,7 @@ updated: 2025-11-22T15:00:02Z
 
 **Details:**
 The decision process generally reduces to checking if the destination IP is on a locally directly-connected network or if it requires a gateway.
+
 - **Local:** If the IP matches a connected network range, the packet is sent directly out of the corresponding interface.
 - **Gateway:** If no local match is found, the packet is forwarded to the default gateway (usually a router) specified in the routing table.
 Advanced configurations can use `ip rule` to consult multiple routing tables based on source address or firewall marks.

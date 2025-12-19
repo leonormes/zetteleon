@@ -41,9 +41,9 @@ The ADHD brain is drawn to the dopamine hit of *acquiring* information, often mi
 
 The workflow strictly enforces the user's role as the **Director**, not the Consumer.
 
-1.  **Human (The Seed):** The user provides the raw, messy, amorphous input. This is the "Spark" or the "Struggle."
-2.  **LLM (The Refiner/Converger):** The LLM processes the input *only* to structure it, filter it, or define the next step. It is banned from adding "fluff."
-3.  **Human (The Artisan):** The user takes the output and performs the physical action (writing the note, running the command). The user *never* copy-pastes raw LLM output into the permanent Zettelkasten.
+1. **Human (The Seed):** The user provides the raw, messy, amorphous input. This is the "Spark" or the "Struggle."
+2. **LLM (The Refiner/Converger):** The LLM processes the input *only* to structure it, filter it, or define the next step. It is banned from adding "fluff."
+3. **Human (The Artisan):** The user takes the output and performs the physical action (writing the note, running the command). The user *never* copy-pastes raw LLM output into the permanent Zettelkasten.
 
 ---
 
@@ -104,6 +104,7 @@ To bypass analysis paralysis, all "thinking" sessions must follow this three-pha
 ---
 
 ## 6. Related Components
+
 - [[SoT - PRODOS (System Architecture)]]
 - [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
 - [[HEAD - PKM as Version Control for Thinking]]

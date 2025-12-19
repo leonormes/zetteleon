@@ -29,10 +29,11 @@ Let's break down the Linux file permissions and metadata for the `.bashrc` file:
 ```
 
 ## 1. File Type & Permissions (`-rw-r--r--`)
-   - First Character: `-` indicates this is a regular file
+
+- First Character: `-` indicates this is a regular file
      (Common types: `d`=directory, `l`=symlink, `c`/`b`=device)
 
-   - Permissions Triplet (3 groups of 3 characters):
+- Permissions Triplet (3 groups of 3 characters):
      1. Owner (User): `rw-`
         - Read (✔️)
         - Write (✔️)
@@ -47,20 +48,25 @@ Let's break down the Linux file permissions and metadata for the `.bashrc` file:
         - Execute (❌)
 
 ## 2. Hard Link Count (`1`)
-   - This file has 1 hard link (typical for regular files; directories usually have more).
+
+- This file has 1 hard link (typical for regular files; directories usually have more).
 
 ## 3. Ownership
-   - Owner: `bitnami` (user who owns the file)
-   - Group: `bitnami` (group that owns the file)
+
+- Owner: `bitnami` (user who owns the file)
+- Group: `bitnami` (group that owns the file)
 
 ## 4. File Size (`4188`)
-   - Size: 4188 bytes (~4.1 KB).
+
+- Size: 4188 bytes (~4.1 KB).
 
 ## 5. Last Modified (`Nov  9  2023`)
-   - Last modified on November 9, 2023.
+
+- Last modified on November 9, 2023.
 
 ## 6. File Name (`.bashrc`)
-   - A hidden file (starts with `.`) used for user-specific Bash shell configurations.
+
+- A hidden file (starts with `.`) used for user-specific Bash shell configurations.
 
 ---
 
@@ -73,6 +79,7 @@ Let's break down the Linux file permissions and metadata for the `.bashrc` file:
 | Others            | ✔️   | ❌    | ❌      |
 
 ## Octal Representation
+
 - `-rw-r--r--` translates to 644 in octal:
   - Owner: `6` (4+2+0 = read + write)
   - Group: `4` (read)
@@ -81,8 +88,10 @@ Let's break down the Linux file permissions and metadata for the `.bashrc` file:
 Let's clarify the breakdown of the 10-character permission string (e.g., `-rw-r--r--`):
 
 ## The 10 Characters Explained
+
 1. 1st Character: File type (not a permission).
    - Indicates the type of file (e.g., regular file, directory, symlink).
+
 - Examples:
 
   | Character | File Type |
@@ -118,6 +127,7 @@ Let's clarify the breakdown of the 10-character permission string (e.g., `-rw-r-
 ---
 
 ## Why 10 Characters Total
+
 - 1 character for file type.
 - 9 characters for permissions (3 groups × 3 permissions).
 - Total = 10 characters.
@@ -132,8 +142,8 @@ To list groups on a Linux system via the command line, use one of the following 
 cat /etc/group
 ```
 
-   - Displays all groups stored in the `/etc/group` file.
-   - Each line follows the format: `group_name:password:GID:members`.
+- Displays all groups stored in the `/etc/group` file.
+- Each line follows the format: `group_name:password:GID:members`.
 
    Example Output:
 
@@ -151,7 +161,7 @@ bitnami:x:1000:
 getent group
 ```
 
-   - Works like `cat /etc/group` but also includes groups from external databases (e.g., LDAP).
+- Works like `cat /etc/group` but also includes groups from external databases (e.g., LDAP).
 
 ---
 
@@ -161,7 +171,7 @@ getent group
 groups
 ```
 
-   - Shows a space-separated list of groups for the current user.
+- Shows a space-separated list of groups for the current user.
 
    Example Output:
 
@@ -177,7 +187,7 @@ bitnami sudo docker
 groups username
 ```
 
-   - Replace `username` with the target user (e.g., `groups bitnami`).
+- Replace `username` with the target user (e.g., `groups bitnami`).
 
 ---
 
@@ -189,8 +199,8 @@ id -Gn username  # Group names for a specific user
 id -G   # Group IDs (GIDs) for the current user
 ```
 
-   - `-Gn`: Lists group names.
-   - `-G`: Lists group IDs.
+- `-Gn`: Lists group names.
+- `-G`: Lists group IDs.
 
    Example:
 
@@ -202,6 +212,7 @@ bitnami sudo docker
 ---
 
 ### Key Notes
+
 - Use `sudo` if you need elevated privileges to view restricted group data.
 - `/etc/group` and `getent group` show all system groups.
 - `groups` and `id` focus on the current user or a specified user.

@@ -64,7 +64,7 @@ To address the identified issue, we propose a phased approach to systematically 
 
 #### Phase 1: Assessment and Discovery (Timeline: 2 weeks)
 
-1.  **Comprehensive Audit of Current Privileged Role Assignments:**
+1. **Comprehensive Audit of Current Privileged Role Assignments:**
     - **Action:** Utilize the Azure portal and PowerShell scripting to generate a detailed report of all 19 current privileged role assignments. This report will include:
         - Role Name (e.g., Global Administrator, User Administrator, etc.)
         - Assigned Principal (User or Group Name)
@@ -73,14 +73,14 @@ To address the identified issue, we propose a phased approach to systematically 
         - Justification (if documented - currently likely missing and needs to be established)
     - **Tool:** Azure Portal, Azure AD PowerShell Module.
 
-2.  **Justification and Necessity Review for Each Assignment:**
+2. **Justification and Necessity Review for Each Assignment:**
     - **Action:** For each privileged role assignment identified, conduct a review with relevant team leads and role holders to determine:
         - **Business Justification:** Why was this privileged role assigned? What specific tasks and responsibilities necessitate this level of access?
         - **Necessity:** Is the current privileged role truly necessary, or could the user's responsibilities be fulfilled with a less privileged, more granular role?
         - **Least Privilege Alignment:** Does the current assignment align with the principle of least privilege? Are there any permissions granted that are not actively used or required?
     - **Documentation:** Meticulously document the justification, necessity assessment, and review outcomes for each privileged role assignment. This documentation will be crucial for audit trails and ongoing governance.
 
-3.  **Identify Potential Role Optimisation and Granularity Opportunities:**
+3. **Identify Potential Role Optimisation and Granularity Opportunities:**
     - **Action:** Based on the justification review, identify opportunities to:
         - **Replace broad roles with granular roles:** For example, instead of Global Administrator for tasks that can be achieved with more specific roles like Exchange Administrator, SharePoint Administrator, or Intune Administrator.
         - **Utilise built-in Azure AD roles effectively:** Ensure we are leveraging the extensive library of built-in roles and not over-relying on overly permissive custom roles (if any are in use).
@@ -88,17 +88,17 @@ To address the identified issue, we propose a phased approach to systematically 
 
 #### Phase 2: Role Remediation and Implementation (Timeline: 4 weeks)
 
-1.  **Implement Granular Role Assignments:**
+1. **Implement Granular Role Assignments:**
     - **Action:** Based on the optimisation opportunities identified in Phase 1, begin to implement changes. This will involve:
         - **Creating or Identifying Specific Roles:** Assigning more granular built-in Azure AD roles that align precisely with the documented responsibilities.
         - **Careful Testing:** Before making changes in the production environment, thoroughly test role changes in a staging or test environment to ensure no disruption to essential services or administrative functions.
         - **Phased Rollout:** Implement role changes in a phased manner, starting with less critical roles and progressing to more impactful changes, allowing for monitoring and rollback if necessary.
 
-2.  **Revoke Unnecessary Privileged Role Assignments:**
+2. **Revoke Unnecessary Privileged Role Assignments:**
     - **Action:** Once granular roles are in place and tested, systematically revoke the broader, less specific privileged role assignments that are no longer justified or necessary.
     - **Communication:** Communicate role changes clearly and proactively to affected users, providing guidance and support as needed.
 
-3.  **Implement Privileged Identity Management (PIM):**
+3. **Implement Privileged Identity Management (PIM):**
     - **Action:** Deploy Azure AD Privileged Identity Management (PIM) to move from permanent privileged role assignments to just-in-time (JIT) elevation.
     - **Configuration:** Configure PIM policies to:
         - Require justification for role activation.
@@ -109,13 +109,13 @@ To address the identified issue, we propose a phased approach to systematically 
 
 #### Phase 3: Ongoing Monitoring and Governance (Ongoing)
 
-1.  **Establish Continuous Monitoring of Privileged Role Assignments:**
+1. **Establish Continuous Monitoring of Privileged Role Assignments:**
     - **Action:** Implement automated monitoring and alerting to track privileged role assignments. Utilize Azure Monitor and Azure Sentinel to:
         - Continuously monitor the number of privileged role assignments.
         - Alert on any new privileged role assignments or deviations from the established baseline.
         - Log all privileged role activations (especially when using PIM).
 
-2.  **Regular Privileged Access Reviews:**
+2. **Regular Privileged Access Reviews:**
     - **Action:** Establish a recurring schedule (e.g., quarterly or bi-annually) for reviewing all privileged role assignments.
     - **Review Process:** The review process will involve:
         - Re-validating the justification and necessity for each privileged role assignment.
@@ -123,7 +123,7 @@ To address the identified issue, we propose a phased approach to systematically 
         - Identifying any opportunities for further role optimisation or reduction.
         - Updating documentation as needed.
 
-3.  **Document and Enforce New Role Assignment Processes and Security Policies:**
+3. **Document and Enforce New Role Assignment Processes and Security Policies:**
     - **Action:** Formalize the new processes for requesting, reviewing, approving, and assigning privileged roles.
     - **Policy Updates:** Update security policies and procedures to reflect the new privileged access management approach, including the use of PIM and the principle of least privilege.
     - **Training and Awareness:** Provide ongoing security awareness training to all staff, emphasizing the importance of least privilege and responsible use of privileged access.
@@ -208,7 +208,7 @@ The following are the markdown reports for each user, listing their roles:
 
 - Groups Administrator
 
-**al.vanstone.ta@fitfile.com (8 roles)**
+**<al.vanstone.ta@fitfile.com> (8 roles)**
 
 - Exchange Administrator
 - Groups Administrator
@@ -219,7 +219,7 @@ The following are the markdown reports for each user, listing their roles:
 - Teams Administrator
 - User Administrator
 
-**ghailes@fitfile.com (6 roles)**
+**<ghailes@fitfile.com> (6 roles)**
 
 - Global Administrator
 - Global Reader
@@ -228,7 +228,7 @@ The following are the markdown reports for each user, listing their roles:
 - Security Administrator
 - Security Reader
 
-**jono.whitewick.ta@fitfile.com (8 roles)**
+**<jono.whitewick.ta@fitfile.com> (8 roles)**
 
 - Exchange Administrator
 - Groups Administrator
@@ -239,18 +239,18 @@ The following are the markdown reports for each user, listing their roles:
 - Teams Administrator
 - User Administrator
 
-**jumpcloudconnector@fitfile.com (1 role)**
+**<jumpcloudconnector@fitfile.com> (1 role)**
 
 - Global Administrator
 
-**leon.ormes@fitfile.com (4 roles)**
+**<leon.ormes@fitfile.com> (4 roles)**
 
 - Application Administrator
 - Global Reader
 - Groups Administrator
 - Permissions Management Administrator
 
-**luke.scammell.ta@fitfile.com (8 roles)**
+**<luke.scammell.ta@fitfile.com> (8 roles)**
 
 - Exchange Administrator
 - Groups Administrator
@@ -261,7 +261,7 @@ The following are the markdown reports for each user, listing their roles:
 - Teams Administrator
 - User Administrator
 
-**matt.hill.ta@fitfile.com (8 roles)**
+**<matt.hill.ta@fitfile.com> (8 roles)**
 
 - Exchange Administrator
 - Groups Administrator
@@ -272,7 +272,7 @@ The following are the markdown reports for each user, listing their roles:
 - Teams Administrator
 - User Administrator
 
-**mike.hill.ta@fitfile.com (8 roles)**
+**<mike.hill.ta@fitfile.com> (8 roles)**
 
 - Exchange Administrator
 - Groups Administrator
@@ -283,17 +283,17 @@ The following are the markdown reports for each user, listing their roles:
 - Teams Administrator
 - User Administrator
 
-**philip.russmeyer@fitfile.com (3 roles)**
+**<philip.russmeyer@fitfile.com> (3 roles)**
 
 - Billing Administrator
 - Global Administrator
 - User Administrator
 
-**sarah.povey@fitfile.com (1 role)**
+**<sarah.povey@fitfile.com> (1 role)**
 
 - Billing Administrator
 
-**scott.bevan.ta@fitfile.com (8 roles)**
+**<scott.bevan.ta@fitfile.com> (8 roles)**
 
 - Exchange Administrator
 - Groups Administrator
@@ -304,7 +304,7 @@ The following are the markdown reports for each user, listing their roles:
 - Teams Administrator
 - User Administrator
 
-**stephen.povall.ta@fitfile.com (9 roles)**
+**<stephen.povall.ta@fitfile.com> (9 roles)**
 
 - Conditional Access Administrator
 - Exchange Administrator
@@ -316,6 +316,6 @@ The following are the markdown reports for each user, listing their roles:
 - Teams Administrator
 - User Administrator
 
-**techahoy@fitfileltd.onmicrosoft.com (1 role)**
+**<techahoy@fitfileltd.onmicrosoft.com> (1 role)**
 
 - Global Administrator

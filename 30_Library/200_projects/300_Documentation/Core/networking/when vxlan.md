@@ -23,6 +23,7 @@ I installed Calico cni. what is vxlan in Calico and when should I use it
 VXLAN (Virtual Extensible LAN) in Calico is an overlay networking technology that encapsulates Layer 2 traffic over Layer 3 networks. It is used to connect Kubernetes pods across nodes or subnets, particularly in environments where traditional IP routing methods like BGP or IP-in-IP are not feasible or desirable.
 
 ## When to Use VXLAN in Calico
+
 1. **Cloud Environments with Restrictions**: VXLAN is ideal for public clouds (e.g., Azure) where IP-in-IP is unsupported or where the underlying network cannot route pod IPs[1][5][8].
 2. **Avoiding BGP Dependencies**: Unlike IP-in-IP, VXLAN does not require BGP, reducing complexity in clusters without BGP support[1][2].
 3. **Cross-Subnet Traffic**: Use VXLAN in "CrossSubnet" mode to encapsulate traffic only when it crosses subnet boundaries, improving performance for intra-subnet communication[1][9][11].
@@ -30,6 +31,7 @@ VXLAN (Virtual Extensible LAN) in Calico is an overlay networking technology tha
 5. **Hybrid and Multi-Region Deployments**: It supports scenarios where underlay network routing is challenging, such as hybrid cloud or multi-region Kubernetes clusters[10].
 
 ## Configuration Options
+
 - **Always Mode**: Encapsulates all inter-workload traffic using VXLAN.
 - **CrossSubnet Mode**: Encapsulates only cross-subnet traffic, optimizing performance for local traffic[1][6].
 

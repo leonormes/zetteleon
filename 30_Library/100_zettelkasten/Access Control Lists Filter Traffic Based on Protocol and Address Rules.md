@@ -22,6 +22,7 @@ updated:
 **Summary:** Access Control Lists (ACLs) are sequential rule sets that permit or deny network traffic based on protocol, source/destination IP addresses, and other packet attributes.
 
 **Rule structure:**
+
 - Each rule contains:
   - Action (permit/deny)
   - Protocol (TCP, UDP, etc.)
@@ -29,6 +30,7 @@ updated:
   - Destination address/mask
 
 **Processing logic:**
+
 1. Only protocol is mandatory - other fields are "don't care" if unspecified
 2. Evaluates packets against rules using longest prefix match
 3. First matching rule determines action (permit/deny)

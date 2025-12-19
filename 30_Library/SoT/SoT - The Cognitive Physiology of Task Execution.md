@@ -41,9 +41,9 @@ Task execution is not a singular event but a sequential biological process consi
 
 - **The ProdOS Fix:** We separate "Deciding to Start" from "Doing the Work." The Context Bridge provides a single, low-friction button to trigger the brain's "Go" signal.
 
-    - **Mechanism:** This triggers a **Cognitive Shift** from the daunting question *"Should I start?"* (Resistance) to the manageable question *"What should I do next?"* (Execution).
+  - **Mechanism:** This triggers a **Cognitive Shift** from the daunting question *"Should I start?"* (Resistance) to the manageable question *"What should I do next?"* (Execution).
 
-    - **Trigger:** A **Starter Task** (e.g., "Open file") is too small to trigger perfectionism or overthinking, allowing the brain to bypass the "Mood Repair Trap" and enter the motion state. (See: [[Starter Tasks Bypass Overthinking and Reduce Perfectionism]])
+  - **Trigger:** A **Starter Task** (e.g., "Open file") is too small to trigger perfectionism or overthinking, allowing the brain to bypass the "Mood Repair Trap" and enter the motion state. (See: [[Starter Tasks Bypass Overthinking and Reduce Perfectionism]])
 
 > [!failure] The Mood Repair Trap
 > This is where **Procrastination** strikes. The brain predicts negative emotion from the task and refuses to initiate in order to "repair mood" immediately. **Counter-measure:** Ignore feelings; execute the Context Bridge mechanically.
@@ -95,8 +95,9 @@ Task execution is not a singular event but a sequential biological process consi
 Research (ACT-R Model) suggests that the transition between these phases—the **Perception-Cognition-Action Cycle**—takes ~260-390ms for simple tasks but exponentially longer for complex ones.
 
 **ProdOS Strategy:** Minimize the "Switching Cost" by:
-1.  **Batching Phases:** Do all "Planning" (Phase 2) in the morning for the whole day.
-2.  **Isolating Phase 3:** When executing, ban all "Planning" activities.
+
+1. **Batching Phases:** Do all "Planning" (Phase 2) in the morning for the whole day.
+2. **Isolating Phase 3:** When executing, ban all "Planning" activities.
 
 ---
 

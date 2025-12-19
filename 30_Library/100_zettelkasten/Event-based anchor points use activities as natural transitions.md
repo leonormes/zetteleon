@@ -25,5 +25,6 @@ These anchors leverage the completion of one activity as the trigger for the nex
 Common event-based anchor points include meal completions, commute endings, specific task completions, or natural energy shifts throughout the day.
 
 ## Related
+
 - [[Mini routines are event-triggered sequences rather than time-based schedules]]
 - [[Use Anchor Times to Build Consistent Routines]]

@@ -90,10 +90,10 @@ hie-prod-34
 ```hcl
 "<your-deployment-key>" = {
  secrets = tomap({
-	 "application" = {},
-	 "spicedb" = {},
-	 "cloudflare" = {}, # only if using cloudflare
-	 "monitoring" = {}, # for grafana credentials
+  "application" = {},
+  "spicedb" = {},
+  "cloudflare" = {}, # only if using cloudflare
+  "monitoring" = {}, # for grafana credentials
  })
 }
 ```

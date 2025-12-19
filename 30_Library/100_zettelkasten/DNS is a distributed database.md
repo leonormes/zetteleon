@@ -44,6 +44,7 @@ Slaves synchronize using zone transfers controlled by the zone's SOA record:
 3. Updates local zone data
 
 **Critical SOA Fields:**
+
 - Serial number (must increment on changes)
 - Refresh/retry intervals
 - Expiration timeframe
@@ -51,16 +52,19 @@ Slaves synchronize using zone transfers controlled by the zone's SOA record:
 ## DNS as a Distributed Key-Value Store
 
 **Summary:** DNS functions as a distributed database mapping domain names (keys) to resource records (values), with:
+
 - **Keys:** Hierarchical domain names (e.g., example.com)
 - **Values:** Structured resource records (A, MX, etc.)
 - **Partitioning:** Zones delegate authority for subdomains
 
 **Characteristics:**
+
 - Eventual consistency (through zone transfers)
 - High read throughput (caching resolvers)
 - Write bottlenecks at zone apexes
 
 **Common Use Cases:**
+
 - Web browsing (A/AAAA records)
 - Email routing (MX records)
 - CDN optimization (CNAME aliasing)

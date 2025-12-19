@@ -34,11 +34,13 @@ I suspect I am missing a "Process" or "Loop" primitive. These are infinite games
 Currently, these just clutter my Todoist or get forgotten until they become emergencies.
 
 ### The Tension
+
 - **Clutter vs. Visibility:** If I put every maintenance step in Todoist, I drown in recurring tasks. If I don't, I drop balls.
 - **Structure:** How do I represent a "Process" in Obsidian? Is it a Note? A Dashboard?
 - **Integration:** How does a static "Process Note" generate the necessary "Action Triggers" in Todoist without manual intervention?
 
 ### The Next Test
+
 - [ ] Define a prototype "Process" template in `templates/`.
 - [ ] Create one test Process note for "Server Patching".
 - [ ] Determine how to link this to a recurring Todoist task (e.g., URL link in Todoist description back to the Process note).

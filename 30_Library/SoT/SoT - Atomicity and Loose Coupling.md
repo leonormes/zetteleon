@@ -62,7 +62,7 @@ To manage complexity, we must distinguish between two types of dependencies:
 
 - **Strategy:** **Eliminate.** This is "Tight Coupling" and breaks the system.
 
-    - *Fix:* Rewrite Note A to include the necessary context in its first sentence.
+  - *Fix:* Rewrite Note A to include the necessary context in its first sentence.
 
 ---
 
@@ -70,10 +70,10 @@ To manage complexity, we must distinguish between two types of dependencies:
 
 How to write notes that are "Usefully Independent":
 
-1.  **Title as API:** The title must be a complete, declarative sentence that summarizes the core insight. (e.g., *"Supply increases lead to price decreases"* vs *"Supply"*).
-2.  **Context Injection:** The first paragraph must define the "Who, What, Where" necessary to understand the rest of the note.
-3.  **One Idea Per Note:** If a note discusses Cause AND Effect, split it. Link them with a typed relationship (`leads to`).
-4.  **Semantic Linking:** Never just drop a link. Explain *why* the link exists.
+1. **Title as API:** The title must be a complete, declarative sentence that summarizes the core insight. (e.g., *"Supply increases lead to price decreases"* vs *"Supply"*).
+2. **Context Injection:** The first paragraph must define the "Who, What, Where" necessary to understand the rest of the note.
+3. **One Idea Per Note:** If a note discusses Cause AND Effect, split it. Link them with a typed relationship (`leads to`).
+4. **Semantic Linking:** Never just drop a link. Explain *why* the link exists.
     - *Bad:* `[[Topic B]]`
     - *Good:* "This concept is a specific instance of `[[Topic B]]`."
 

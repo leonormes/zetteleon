@@ -25,22 +25,27 @@ updated:
 This map organizes technical concepts about OSI Layer 3 (Network Layer) security implementations.
 
 ### Core Concepts
+
 - [[Layer 3 Network Security Protects IP Routing and Forwarding]] rel:: defines
 
 ### Implementation Components
+
 - [[Access Control Lists Filter Traffic Based on Protocol and Address Rules]] rel:: implements
 - [[Routing Tables Use Longest Prefix Match for Forwarding Decisions]] rel:: implements
 
 ### Data Structures
+
 - [[Mtri Trees Efficiently Store ACL and Routing Table Entries]] rel:: enables
 - [[Bit Manipulation Optimizes Network Prefix Storage and Matching]] rel:: supports
 
 ### Design Principles
+
 1. Always design ACLs/routing tables for best-match (LPM)
 2. Prefer tree-based prefix data structures for performance/clarity
 3. Generate configurations algorithmically to reduce errors
 
 ### Related Areas
+
 - Firewall architectures
 - Network traffic engineering
 - Packet filtering frameworks

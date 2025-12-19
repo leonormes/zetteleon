@@ -30,9 +30,9 @@ updated:
 
 - **The Solution (The Singleton Pattern):** A structural bridge that mirrors runtime values at the type level.
 
-    - **Promoted Constructors:** Lifting data (like `'True`, `'False`) to be Types.
+  - **Promoted Constructors:** Lifting data (like `'True`, `'False`) to be Types.
 
-    - **Singleton Types (`SBool`):** A GADT that links the Term-level value (`True`) to the Type-level index (`'True`).
+  - **Singleton Types (`SBool`):** A GADT that links the Term-level value (`True`) to the Type-level index (`'True`).
 
 ## 2. Current Understanding (Coherent Narrative)
 
@@ -40,16 +40,16 @@ updated:
 
 Weirich demonstrates a "Compiler-Driven Development" workflow where the compiler acts as a query engine for domain logic.
 
-1.  **Promoted Data Constructors:**
+1. **Promoted Data Constructors:**
     - Standard Haskell: `True` is a value of type `Bool`.
     - Dependent Haskell: `'True` is a Type of kind `Bool`. We "lift" data to the type level so the compiler can reason about it.
 
-2.  **The Singleton Bridge ("Fake Pi Types"):**
+2. **The Singleton Bridge ("Fake Pi Types"):**
     - To write a dependent function (where $f(x)$ returns a type depending on $x$), we need to know *which* type to return at runtime.
     - **The Mechanism:** The `Singleton` library generates a "Mirror Type" (e.g., `SOnce`, `SMany`).
     - **Pattern Matching:** When you match on a Singleton (`case s of SOnce -> ...`), you prove to the compiler exactly which Type-level branch is active. This is the "runtime witness" for the static proof.
 
-3.  **Proof-Carrying Code (Type Error Engineering):**
+3. **Proof-Carrying Code (Type Error Engineering):**
     - **Concept:** Encode business logic (like Regex capture groups) into the Type System.
     - **Result:** A function accessing a regex group isn't just checking a string; it's proving the group exists.
     - **Failure Mode:** If you access a non-existent group, the error is not "Type Mismatch" but a specific domain error (e.g., "Field 'f' not found in schema").
@@ -78,9 +78,9 @@ The architecture uses Template Haskell (`[r| ... |]`) as the **Ingress Controlle
 
 - **Comparison with Rust:** This is the Haskell equivalent of the "Simulated Dependent Types" technique in [[SoT - Proof-Carrying Code via Simulated Dependent Types]].
 
-    - *Rust:* Uses Traits and PhantomData.
+  - *Rust:* Uses Traits and PhantomData.
 
-    - *Haskell:* Uses GADTs and DataKinds (Singletons).
+  - *Haskell:* Uses GADTs and DataKinds (Singletons).
 
 - **Boilerplate:** Both approaches suffer from high verbosity ("Type Gymnastics") to achieve what languages like Idris do natively.
 

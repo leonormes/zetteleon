@@ -28,41 +28,41 @@ This report reviews your latest Terraform plan output alongside the PDF network 
 #### Main deliverables/components
 
 - Azure networking within existing NNUH VNet
-    - Three subnets for the FITFILE Node:
-        - System subnet: 192.168.200.32/27
-        - Workflows subnet: 192.168.200.64/27
-        - Jumpbox subnet: 192.168.200.128/29
-    - AzureBastionSubnet: 192.168.200.192/26
-    - NAT Gateway associations:
-        - NAT Gateway: NNUHFT-SDE-nat (existing) associated to System, Workflows, Jumpbox subnets
-    - Route table resource (structure present earlier; not in this latest excerpt) is expected to be used to route on-prem/inbound via firewall
+  - Three subnets for the FITFILE Node:
+    - System subnet: 192.168.200.32/27
+    - Workflows subnet: 192.168.200.64/27
+    - Jumpbox subnet: 192.168.200.128/29
+  - AzureBastionSubnet: 192.168.200.192/26
+  - NAT Gateway associations:
+    - NAT Gateway: NNUHFT-SDE-nat (existing) associated to System, Workflows, Jumpbox subnets
+  - Route table resource (structure present earlier; not in this latest excerpt) is expected to be used to route on-prem/inbound via firewall
 - Secure access
-    - Azure Bastion Host (Standard) with public IP (in rg-ff-uks-gp-net)
-    - Jumpbox Linux VM (vm-ff-uks-gp-jumpbox) without public IP
-    - Jumpbox NSG allowing SSH from Azure Bastion only
+  - Azure Bastion Host (Standard) with public IP (in rg-ff-uks-gp-net)
+  - Jumpbox Linux VM (vm-ff-uks-gp-jumpbox) without public IP
+  - Jumpbox NSG allowing SSH from Azure Bastion only
 - AKS private cluster
-    - azurerm_kubernetes_cluster:
-        - Private cluster enabled
-        - Azure CNI overlay, Calico network policy
-        - outbound_type = userDefinedRouting (correct for NAT-GW egress on subnets)
-        - Default node pool “system” (VM size Standard_E4s_v5, autoscaling 2–3 nodes)
-    - Additional node pool “workflows”:
-        - Spot, taints/labels configured, autoscaling 1–3 nodes, VM size Standard_E4s_v5
-    - Managed identity, Network Contributor assignment
+  - azurerm_kubernetes_cluster:
+    - Private cluster enabled
+    - Azure CNI overlay, Calico network policy
+    - outbound_type = userDefinedRouting (correct for NAT-GW egress on subnets)
+    - Default node pool “system” (VM size Standard_E4s_v5, autoscaling 2–3 nodes)
+  - Additional node pool “workflows”:
+    - Spot, taints/labels configured, autoscaling 1–3 nodes, VM size Standard_E4s_v5
+  - Managed identity, Network Contributor assignment
 - Security groups
-    - NSGs for jumpbox, system, workflows subnets
-    - Bootstrap posture: allow VNet inbound, allow Azure LB inbound (for probes), allow all outbound (to be hardened later)
+  - NSGs for jumpbox, system, workflows subnets
+  - Bootstrap posture: allow VNet inbound, allow Azure LB inbound (for probes), allow all outbound (to be hardened later)
 
 #### Key features/functionality
 
 - Split routing model:
-    - Outbound Internet egress for AKS and Jumpbox via NAT Gateway (static egress IP 20.162.236.86 at the platform level)
-    - Inbound/on‑prem flows intended to traverse the hub firewall via specific routes (route entries will be required in the route table)
+  - Outbound Internet egress for AKS and Jumpbox via NAT Gateway (static egress IP 20.162.236.86 at the platform level)
+  - Inbound/on‑prem flows intended to traverse the hub firewall via specific routes (route entries will be required in the route table)
 - Private cluster posture:
-    - No public API endpoint for AKS
-    - No public IPs on nodes
+  - No public API endpoint for AKS
+  - No public IPs on nodes
 - Secure admin access:
-    - Azure Bastion → SSH to Jumpbox → access private AKS
+  - Azure Bastion → SSH to Jumpbox → access private AKS
 
 #### Objectives/goals Supported
 
@@ -78,10 +78,10 @@ This report reviews your latest Terraform plan output alongside the PDF network 
 #### Diagram Elements (key Items extracted)
 
 - VNET with:
-    - System subnet
-    - Workflows subnet
-    - Jumpbox subnet
-    - Bastion
+  - System subnet
+  - Workflows subnet
+  - Jumpbox subnet
+  - Bastion
 - AKS cluster (private)
 - Jumpbox for admin access
 - NAT Gateway providing public static outbound IP
@@ -96,40 +96,40 @@ This report reviews your latest Terraform plan output alongside the PDF network 
 #### Matching Plan Items to Diagram Elements
 
 - VNET and Subnets:
-    - Diagram’s System/Workflows/Jumpbox subnets → Created as 192.168.200.32/27, /27, /29
-    - AzureBastionSubnet → Created as 192.168.200.192/26
+  - Diagram’s System/Workflows/Jumpbox subnets → Created as 192.168.200.32/27, /27, /29
+  - AzureBastionSubnet → Created as 192.168.200.192/26
 - AKS cluster:
-    - Private AKS, Azure CNI overlay, Calico → Matches diagram intent
+  - Private AKS, Azure CNI overlay, Calico → Matches diagram intent
 - Jumpbox:
-    - Created, private only, accessed via Bastion → Matches diagram intent
+  - Created, private only, accessed via Bastion → Matches diagram intent
 - Bastion:
-    - Created (Standard SKU) with public IP → Matches diagram’s “Bastion” element
+  - Created (Standard SKU) with public IP → Matches diagram’s “Bastion” element
 - NAT Gateway:
-    - Existing NNUHFT-SDE-nat is associated to subnets → Matches “NAT Gateway with public static outbound IP”
+  - Existing NNUHFT-SDE-nat is associated to subnets → Matches “NAT Gateway with public static outbound IP”
 - Hub/Firewall/Peering:
-    - VNet peering exists outside this plan (per earlier discovery)
-    - Route table entries for on-prem to firewall are not in this excerpt; expected to be added → Partially matches the “inbound via firewall” design
+  - VNet peering exists outside this plan (per earlier discovery)
+  - Route table entries for on-prem to firewall are not in this excerpt; expected to be added → Partially matches the “inbound via firewall” design
 - Platform dependencies:
-    - Auth0, Cloudflare/DNS+TLS, ACR, Vault, Grafana, Relay Server → Not created in this plan; expected in platform/tooling layers
+  - Auth0, Cloudflare/DNS+TLS, ACR, Vault, Grafana, Relay Server → Not created in this plan; expected in platform/tooling layers
 - Private DNS (split horizon):
-    - Not created in this plan; to be implemented later
+  - Not created in this plan; to be implemented later
 - Ingress and TLS:
-    - Not created here; to be implemented via Kubernetes layer (Ingress controller + cert-manager)
+  - Not created here; to be implemented via Kubernetes layer (Ingress controller + cert-manager)
 
 #### Discrepancies and Notes
 
 - Present in plan but not explicitly in diagram:
-    - Specific subnet CIDR sizes (/27 for System/Workflows vs earlier notes). Diagram is conceptual; larger /27s are fine. Ensure NNUH firewall/allowlists are updated with final ranges.
-    - Resource group names and tags; diagram does not prescribe these; acceptable.
+  - Specific subnet CIDR sizes (/27 for System/Workflows vs earlier notes). Diagram is conceptual; larger /27s are fine. Ensure NNUH firewall/allowlists are updated with final ranges.
+  - Resource group names and tags; diagram does not prescribe these; acceptable.
 - Present in diagram but not (yet) in plan:
-    - Route entries to send on‑prem CIDR(s) to Checkpoint firewall (192.168.208.4). Your plan creates the route table and associations in previous output; ensure the actual route blocks are added.
-    - Private DNS zone(s) and records, split-horizon DNS setup
-    - Ingress controller, public vs internal ingress IP decision, and TLS automation (ACME via Cloudflare)
-    - Relay Server deployment and DNS exposure
-    - VPN Gateway (if needed for source data upload)
-    - Egress allow-list hardening (NSG or firewall rules referencing SaaS endpoints)
+  - Route entries to send on‑prem CIDR(s) to Checkpoint firewall (192.168.208.4). Your plan creates the route table and associations in previous output; ensure the actual route blocks are added.
+  - Private DNS zone(s) and records, split-horizon DNS setup
+  - Ingress controller, public vs internal ingress IP decision, and TLS automation (ACME via Cloudflare)
+  - Relay Server deployment and DNS exposure
+  - VPN Gateway (if needed for source data upload)
+  - Egress allow-list hardening (NSG or firewall rules referencing SaaS endpoints)
 - Risk item:
-    - AKS version 1.33.5 may not be available/supported in UK South at deploy time
+  - AKS version 1.33.5 may not be available/supported in UK South at deploy time
 
 #### How Diagram Elements Relate to the Written Plan
 
@@ -167,8 +167,8 @@ This report reviews your latest Terraform plan output alongside the PDF network 
 1. Add inbound routing via firewall:
 
 - In your route table for AKS/jumpbox subnets (in networking RG NNUHFT-SDE-Networking), add routes for on‑prem CIDRs:
-    - next_hop_type = VirtualAppliance
-    - next_hop_in_ip_address = 192.168.208.4
+  - next_hop_type = VirtualAppliance
+  - next_hop_in_ip_address = 192.168.208.4
 - Do not add 0.0.0.0/0 to the firewall (would break NAT GW egress).
 
 2. Pin a supported AKS version:

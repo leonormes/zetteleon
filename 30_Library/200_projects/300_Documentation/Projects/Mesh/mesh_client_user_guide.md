@@ -32,9 +32,9 @@ Files up to a maximum of 20Gb can be sent. To send larger than 75Mb (compressed)
 
 ### Apply for a MESH Mailbox
 
-To send and receive files, you'll need a MESH mailbox. During the installation of the MESH client, your organisation will have created a mailbox, however you may require several mailboxes to be associated with one organisation. 
+To send and receive files, you'll need a MESH mailbox. During the installation of the MESH client, your organisation will have created a mailbox, however you may require several mailboxes to be associated with one organisation.
 
-There are many services and types of data that MESH can facilitate. We recommend you have separate mailboxes for the different services you may be using. For example, you may have one mailbox for data concerning the [national data opt-out (NDOP)](https://digital.nhs.uk/services/national-data-opt-out) and one for [Child Protection Information Sharing (CP-IS)](https://digital.nhs.uk/services/child-protection-information-sharing-service) data. 
+There are many services and types of data that MESH can facilitate. We recommend you have separate mailboxes for the different services you may be using. For example, you may have one mailbox for data concerning the [national data opt-out (NDOP)](https://digital.nhs.uk/services/national-data-opt-out) and one for [Child Protection Information Sharing (CP-IS)](https://digital.nhs.uk/services/child-protection-information-sharing-service) data.
 
 Whilst waiting for NHS Digital to approve your new mailbox request, you can also check that your organisation has the MESH client set up on the server. The MESH client is responsible for the actual sending and receiving of messages and data via the MESH system. We recommend requesting your IT department or systems suppliers to complete this task for you, if you do not already have MESH client.
 
@@ -90,7 +90,7 @@ You can use any text editor, including Notepad or Wordpad, to create or edit the
 
 #### Create the .dat (data) File
 
-MESH can send all types of data. 
+MESH can send all types of data.
 
 Rename the data you wish to send as a .dat file. This can be done in two ways: adding on the “.dat” extension after the original file type or removing the original file type extension and replacing with “.dat”.
 
@@ -98,19 +98,19 @@ For example, you may have a xxxx.csv file that you wish to send. You can either 
 
 #### Create the .ctl File (also Known as the Control file)
 
-This is the companion to the .dat file and contains all message meta-data in an XML file. 
+This is the companion to the .dat file and contains all message meta-data in an XML file.
 
 The structure of the file must match the format of the example below. The text highlighted in bold should be replaced with your own organisation’s details. Without these changes, your file will not successfully be delivered and processed.
 
 <DTSControl>
 <Version>1.0</Version>
 <AddressType>DTS</AddressType>
-<MessageType>Data</MessageType>            
+<MessageType>Data</MessageType>
 <WorkflowId>XXXXXXXXXXX</WorkflowId>
 <To_DTS>XXXXXXXX</To_DTS>
-<From_DTS>XXXXXXX</From_DTS> 
+<From_DTS>XXXXXXX</From_DTS>
 <Subject>XXXSubjectHeaderXXX</Subject>
- <LocalId>XXXXXXXX</LocalId> 
+ <LocalId>XXXXXXXX</LocalId>
 <Compress>Y</Compress>
 <AllowChunking>Y</AllowChunking>
 <Encrypted>N</Encrypted>
@@ -122,7 +122,7 @@ The <ToDTS> section should be the name of your recipient’s mailbox. If you d
 
 The <FromDTS> section should be the name of your mailbox ID, included on the email received when your mailbox was first created.
 
-The <Subject> section is optional and acts like an email subject header, so you may use this as an opportunity to explain to the recipient what the message is about, name a specific member of staff for the recipient mailbox’s information, or what the message contains. You may leave blank if you wish. 
+The <Subject> section is optional and acts like an email subject header, so you may use this as an opportunity to explain to the recipient what the message is about, name a specific member of staff for the recipient mailbox’s information, or what the message contains. You may leave blank if you wish.
 
 The <LocalId> section is an optional field. You can specify any reference or information which is useful to you, such as which clinician sent the file. You may leave blank if you wish.
 
@@ -130,11 +130,11 @@ The <Compress> section is to indicate that the data file can be compressed by 
 
 The <AllowChunking> section is to indicate that the data file can be chunked by the MESH client.
 
-To support the transfer of files in excess of 75Mb (compressed). If set to “Y” the client will support the transfer of files up to a maximum of 20Gb. Failure to set this flag when attempting to transfer files with a size in excess of 75Mb will result in a failed transfer. To support the transfer, the client will process large files in 20Mb chunks. 
+To support the transfer of files in excess of 75Mb (compressed). If set to “Y” the client will support the transfer of files up to a maximum of 20Gb. Failure to set this flag when attempting to transfer files with a size in excess of 75Mb will result in a failed transfer. To support the transfer, the client will process large files in 20Mb chunks.
 
 #### Send both the .dat and .ctl Files as a Message
 
-Once you’ve created the .dat and .ctl files, place these in the “out” folder in your mailbox. If you're moving the files individually into this folder, please ensure you put the .dat file in first. 
+Once you’ve created the .dat and .ctl files, place these in the “out” folder in your mailbox. If you're moving the files individually into this folder, please ensure you put the .dat file in first.
 
 The timing of the message being sent will depend upon how the MESH client is configured to connect to the mailbox – this is referred to as “polling”. This is automatically set up to be every 30 minutes, however your MESH client installer may have altered the configuration of your MESH client for specific needs. When your mailbox has polled, your messages will then automatically be moved to your “sent” folder and get sent through to the “in” folder of your recipient’s mailbox.
 
@@ -165,7 +165,7 @@ The .ctl file will be altered when moved from your “out” folder to your “s
 </StatusRecord>
 </DTSControl>
 
-To check that your message has been sent correctly, the <Status> field of the returned .ctl file should read “Success”. 
+To check that your message has been sent correctly, the <Status> field of the returned .ctl file should read “Success”.
 
 It's up to your organisation to manage the “sent” folder and archive/delete files as necessary.
 

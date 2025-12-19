@@ -22,14 +22,18 @@ updated:
 ## MOC - Storytelling Techniques
 
 ### Foundational Structures
+
 - [[Aesop's Fables Use Anthropomorphic Allegory]] rel:: archetype
 - [[Moral Encyclopedia Concept in Storytelling]] rel:: implements
 
 ### Social Functions
+
 - [[Political Subversion Through Animal Allegory]] rel:: demonstrates
 
 ### Modern Applications
+
 - [Placeholder for contemporary storytelling notes]
 
 ### Cross-Disciplinary Views
+
 - [[Diagram - Philosophy-Productivity Connections]] (for narrative framing)

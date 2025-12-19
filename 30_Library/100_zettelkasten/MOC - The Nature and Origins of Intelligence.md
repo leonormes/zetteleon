@@ -25,20 +25,25 @@ updated:
 This map organizes concepts about intelligence as a biological phenomenon that exists across species.
 
 ### Core Definitions
+
 - [[Intelligence is a Flexible Problem-Solving Toolbox]] rel:: defines
 
 ### Components of Intelligence
+
 - [[Memory Enables Learning by Storing Experiences for Future Use]] rel:: component-of
 - [[Creativity Combines Memories and Skills in Novel Ways]] rel:: component-of
 
 ### Examples Across Species
+
 - [[Slime Molds Exhibit Memory-like Behavior Without a Nervous System]] rel:: demonstrates
 - [[Raccoons Demonstrate Complex Problem-Solving Skills]] rel:: demonstrates
 
 ### Human Intelligence
+
 - [[Collective Intelligence Through Communication]] rel:: extends
 - [[Collective Intelligence is Enabled by Communication]] rel:: extends
 
 ### Related Concepts
+
 - [[Foundations of Learning and Cognition for Developers]]
 - [[The Neuroscience of Developer Cognition]]

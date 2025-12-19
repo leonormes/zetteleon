@@ -78,8 +78,8 @@ I'll explain the flow of reconciliation from ArgoCD's perspective, starting from
    namespace: argocd
 ```
 
-   - This Application is the "app of apps" entry point for MongoDB
-   - It's placed in the `argocd` namespace where ArgoCD manages its applications
+- This Application is the "app of apps" entry point for MongoDB
+- It's placed in the `argocd` namespace where ArgoCD manages its applications
 
 3. ArgoCD Application Controller Reconciliation
    - The ArgoCD Application Controller watches for Application resources
@@ -393,8 +393,8 @@ module "platform" {
 
    This module (which we looked at earlier) deploys:
 
-   - ArgoCD itself
-   - The root application that manages all other applications
+- ArgoCD itself
+- The root application that manages all other applications
 
 3. Deployment Flow
 
@@ -420,10 +420,10 @@ deployment_repo_values_file_path = "/ffnodes/fitfile/pv-aks-1/values.yaml"
 
    This points to the values file that overrides the defaults in the ffnode chart. This is where you define:
 
-   - Which components to deploy
-   - Environment-specific configurations
-   - Resource requirements
-   - etc.
+- Which components to deploy
+- Environment-specific configurations
+- Resource requirements
+- etc.
 
 5. Vault Integration
 
@@ -1068,6 +1068,7 @@ spec:
 ```
 
 **Links:**
+
 - [Ingress Configuration - Argo CD - Declarative GitOps CD for Kubernetes](<200_projects/SDLC/Ingress Configuration - Argo CD - Declarative GitOps CD for Kubernetes.md>)
 - [k8s curriculum](<200_projects/k8s/k8s curriculum.md>)
 
@@ -1094,6 +1095,7 @@ spec:
 ```
 
 **Links:**
+
 - [Ingress Configuration - Argo CD - Declarative GitOps CD for Kubernetes](<200_projects/SDLC/Ingress Configuration - Argo CD - Declarative GitOps CD for Kubernetes.md>)
 - [k8s curriculum](<200_projects/k8s/k8s curriculum.md>)
 

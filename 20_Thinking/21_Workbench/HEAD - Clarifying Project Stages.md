@@ -34,11 +34,13 @@ I need clear criteria for "State Transitions".
 A project shouldn't be "Active" unless it has a defined Next Action and a recent review.
 
 ### The Tension
+
 - **Definition:** What exactly separates "Incubation" from "Active"?
 - **Limit:** Should I enforce a WIP (Work In Progress) limit on "Active" projects?
 - **Visuals:** How do I visualize these stages in the file explorer or dashboard?
 
 ### The Next Test
+
 - [ ] Define the 4-5 core stages (e.g., Inbox, Incubation, Active, Maintenance, Archive).
 - [ ] Write the "Exit Criteria" for Incubation (e.g., "Must have a 'Why' and a 'First Step'").
 - [ ] Update 3 existing project notes to reflect these new stages.

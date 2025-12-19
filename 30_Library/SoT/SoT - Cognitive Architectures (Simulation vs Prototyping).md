@@ -22,9 +22,10 @@ updated:
 
 > [!definition] Definition
 > The **Core Divergence** defines two distinct cognitive operating systems for problem-solving:
-> 1.  **Predictive Processors (Planners):** Solve problems via high-fidelity internal **Simulation** *before* acting.
-> 2.  **Iterative Processors (Doers):** Solve problems via rapid external **Prototyping** *during* action.
-> 
+>
+> 1. **Predictive Processors (Planners):** Solve problems via high-fidelity internal **Simulation** *before* acting.
+> 2. **Iterative Processors (Doers):** Solve problems via rapid external **Prototyping** *during* action.
+>
 > Neither is "inefficient"; they simply compile at different times. Planners compile at **Build Time** (optimizing for predictability). Iterators compile at **Run Time** (optimizing for adaptability).
 
 ---
@@ -66,6 +67,7 @@ Conflict arises when one type judges the other by their own metric.
 - **Iterators** see Planners as "inefficient" because they spend time processing data that hasn't been validated by reality (Speculation).
 
 **Reality:**
+
 - **Planners** seek the straightest line from A to B.
 - **Iterators** seek the truest path through the terrain.
 
@@ -83,9 +85,9 @@ Planners send **Instructions** (How). You need **Constraints** (What).
 
 - **The Fix:** **"Requirement Extraction."**
 
-    - *Action:* Accept the plan, but ask: "What is the single most critical 'Definition of Done'?"
+  - *Action:* Accept the plan, but ask: "What is the single most critical 'Definition of Done'?"
 
-    - *Reframing:* Treat their "Steps 1-10" not as a recipe, but as **Boundary Conditions** (Walls of the room, not the dance steps).
+  - *Reframing:* Treat their "Steps 1-10" not as a recipe, but as **Boundary Conditions** (Walls of the room, not the dance steps).
 
 ### Phase 2: The Handshake (Black Box Implementation)
 
@@ -95,7 +97,7 @@ Planners want assurance of the *path*. You can only provide assurance of the *re
 
 - **The Fix:** **"The Spike."**
 
-    - *Script:* "I cannot commit to this full plan yet because there are unknown variables. Let me spend 2 hours doing a practical test (Spike). Afterward, I will give you a confirmed timeline based on real data."
+  - *Script:* "I cannot commit to this full plan yet because there are unknown variables. Let me spend 2 hours doing a practical test (Spike). Afterward, I will give you a confirmed timeline based on real data."
 
 ### Phase 3: Reporting (Data Validation)
 
@@ -105,17 +107,17 @@ Iterators change course when they learn. Planners see this as "flakiness."
 
 - **The Fix:** Frame change as **"Data Validation."**
 
-    - *Bad:* "I changed my mind."
+  - *Bad:* "I changed my mind."
 
-    - *Good:* "The initial assumption [A] proved incorrect during testing. Data suggests approach [B] is faster. I am updating the implementation to match reality."
+  - *Good:* "The initial assumption [A] proved incorrect during testing. Data suggests approach [B] is faster. I am updating the implementation to match reality."
 
 ---
 
 ## 5. Minimum Viable Understanding (MVU)
 
-1.  **You are not broken; you are a Runtime Compiler.** You cannot "just follow instructions" because instructions are lossy compression; you need the full context of reality to function.
-2.  **Planners differ in Compilation Time.** They solve in the abstract (Build Time); you solve in the concrete (Run Time).
-3.  **Treat Plans as Legacy Code.** Read them to understand intent, but refactor them as you go to make them work in the live environment.
+1. **You are not broken; you are a Runtime Compiler.** You cannot "just follow instructions" because instructions are lossy compression; you need the full context of reality to function.
+2. **Planners differ in Compilation Time.** They solve in the abstract (Build Time); you solve in the concrete (Run Time).
+3. **Treat Plans as Legacy Code.** Read them to understand intent, but refactor them as you go to make them work in the live environment.
 
 ---
 

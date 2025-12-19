@@ -32,6 +32,7 @@ Stream sockets use the TCP (Transmission Control Protocol) to guarantee:
 The communication model resembles a phone call - once the connection is established, both parties can reliably exchange information in a continuous stream.
 
 **Use Cases:**
+
 - Video streaming (e.g., Netflix) - requires data to arrive in order without glitches
 - Web browsing (HTTP/HTTPS)
 - File transfers (FTP, SFTP)

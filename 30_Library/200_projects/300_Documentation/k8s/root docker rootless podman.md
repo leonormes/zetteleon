@@ -23,6 +23,7 @@ why does docker need root permissions? podman says it is better because it can r
 Docker requires root privileges primarily because its architecture relies on a central daemon (`dockerd`) that needs elevated permissions to perform low-level system tasks like managing network interfaces, filesystem mounts, and container isolation. However, running containers as root introduces security risks, and alternatives like Podman offer rootless execution. Here's a breakdown:
 
 ## Why Docker Requires Root by Default
+
 1. Daemon Design**:
    Docker's daemon (`dockerd`) runs as root to:
    - Bind to privileged ports (<1024).
@@ -51,6 +52,7 @@ Podman avoids Docker’s security pitfalls by:
 ---
 
 ## Why Docker Isn’t Rootless by Default
+
 1. Performance Trade-offs**:
    Rootless mode in Docker or Podman can introduce overhead (e.g., slower network performance with `slirp4netns` vs. kernel-level bridging)[32].
 2. Feature Limitations**:
@@ -72,6 +74,7 @@ Podman avoids Docker’s security pitfalls by:
 ---
 
 ## When to Use Rootless Docker or Podman
+
 - Podman**: Preferred for security-sensitive environments, development workflows, or when avoiding root access is critical[37].
 - Docker Rootless**: Viable but less mature. Suitable for compatibility-focused setups where Docker-specific tooling is required[12][16].
 

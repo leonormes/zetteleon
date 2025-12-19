@@ -168,8 +168,8 @@ ip link set veth0 master br0
 ```json
 "namespaces": [
   {
-	 "type": "network",
-	 "path": "/var/run/netns/container_ns"
+  "type": "network",
+  "path": "/var/run/netns/container_ns"
   }
 ]
 ```

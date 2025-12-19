@@ -230,6 +230,65 @@ ip netns del pod-red
 # Bridge-side veth (veth-red-br) is removed automatically
 ```
 
+### Advanced Scenario: Isolating DNS (/etc/resolv.conf)
+
+By default, namespaces inherit the host's `/etc/resolv.conf`. To isolate DNS (e.g., for a VPN or specific container config), Linux allows namespace-specific configuration.
+
+**Mechanism:**
+If a file exists at `/etc/netns/<NAMESPACE_NAME>/resolv.conf`, the kernel will automatically bind-mount it over `/etc/resolv.conf` when entering that namespace.
+
+```bash
+# 1. Create Configuration Directory
+mkdir -p /etc/netns/pod-red
+
+# 2. Create Isolated DNS Config
+echo "nameserver 8.8.8.8" > /etc/netns/pod-red/resolv.conf
+
+# 3. Verify
+ip netns exec pod-red cat /etc/resolv.conf
+# Output should be 8.8.8.8, distinct from the host.
+```
+
+### Advanced Scenario: Open vSwitch (OVS)
+
+While Linux Bridge is standard, Open vSwitch (OVS) is often used for advanced SDN scenarios (like in Red Hat/OpenShift environments).
+
+```bash
+# Prerequisite: Install openvswitch
+systemctl start openvswitch
+
+# 1. Create the OVS Bridge
+ovs-vsctl add-br vswitch0
+
+# 2. Create and Connect Interface Pairs
+# Create pair: pipe-red (host side) <-> veth-red (container side)
+ip link add pipe-red type veth peer name veth-red
+
+# Connect host side to OVS
+ovs-vsctl add-port vswitch0 pipe-red
+ip link set pipe-red up
+
+# Move other side to namespace
+ip link set veth-red netns pod-red
+ip netns exec pod-red ip addr add 10.10.10.11/24 dev veth-red
+ip netns exec pod-red ip link set veth-red up
+
+# Repeat for pod-blue...
+```
+
+### Advanced Testing: Python Web Server
+
+Beyond simple pings, you can test application-layer connectivity.
+
+```bash
+# 1. Start a simple HTTP server in pod-red
+ip netns exec pod-red python3 -m http.server 8000 &
+
+# 2. Curl from pod-blue
+ip netns exec pod-blue curl 10.10.10.11:8000
+# Should return directory listing
+```
+
 ## Connections / Implications
 
 ### What This Enables

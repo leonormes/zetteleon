@@ -20,7 +20,7 @@ uuid: 3cf373a9-fe2f-49ac-8575-8a4c7a4725f8
 ---
 
 - [x] update the structure ticket^2025-12-12T19-24-33 [completion:: 2025-12-12]
-    - [📱 View in Todoist app](todoist://task?id=6fVWW77qfRvPX6Qv) (Created: 📝 2025-12-12T19:24)
+  - [📱 View in Todoist app](todoist://task?id=6fVWW77qfRvPX6Qv) (Created: 📝 2025-12-12T19:24)
 
 ## 1. Definitive Statement
 
@@ -45,19 +45,23 @@ To maximize LLM context window efficiency and human retrieval speed, the vault i
 | **`30_Library/`** | **The Canon** | Long-term Knowledge (`SoT` notes) | **Synthesize (Knowing)** |
 
 ### A. The Stream (`00_Inbox` & `01_journals`)
+
 - **`00_Inbox/`**: A temporary holding ground for raw inputs. **Zero Retention Rule**: Must be emptied every 24-48 hours.
 - **`01_journals/`**: Contains Daily Notes (`YYYY-MM-DD`). This is the chronological log of your life, capturing fleeting thoughts, logs, and rapid-fire bullets.
 
 ### B. The HUD (`02_bases`)
+
 - **Purpose:** High-level system visibility.
 - **Contents:** `.base` files (e.g., `HEAD.base`, `SoT.base`) which serve as **Dataview Dashboards** to query the state of the vault without manual curation.
 
 ### C. The Engine (`10_Actions`)
+
 - **Sub-folder:** `11_Projects`
 - **Purpose:** Project management views and "State Snapshots" (`Project - Title.md`).
 - **Rule:** Projects link to `HEAD` notes for thinking and `SoT` notes for resources. They do not store knowledge themselves.
 
 ### D. The Workbench (`20_Thinking`)
+
 - **Sub-folder:** `21_Workbench`
 - **Purpose:** The home of **HEAD Notes**. This is the active "RAM" of the system.
 - **Rule:** **No Folders.** A flat list of active thinking threads.
@@ -65,14 +69,16 @@ To maximize LLM context window efficiency and human retrieval speed, the vault i
 - **Lifecycle:** Ephemeral. Created to solve a problem, then archived or merged.
 
 ### E. The Canon (`30_Library`)
+
 - **Purpose:** The home of durable knowledge.
 - **Current State (Hybrid):**
-    - **`SoT/`**: The pure v5.0 folder for **Source of Truth** notes.
-    - **`31_Resources/`**: General resources and references.
-    - **Legacy Folders:** `100_zettelkasten`, `200_projects`, `300_tickets`, `400_indexes` are currently co-located here during the migration phase.
+  - **`SoT/`**: The pure v5.0 folder for **Source of Truth** notes.
+  - **`31_Resources/`**: General resources and references.
+  - **Legacy Folders:** `100_zettelkasten`, `200_projects`, `300_tickets`, `400_indexes` are currently co-located here during the migration phase.
 - **Rule:** **High Trust.** Only verified, synthesized knowledge enters the `SoT` folder.
 
 ### F. The Archive (`99_Archive`)
+
 - **Purpose:** To hide "Dead" content from Search / Context Window.
 - **Trigger:** Processed HEAD notes and completed Projects move here.
 

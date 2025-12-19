@@ -46,6 +46,7 @@ This is where it gets complicated for people like me. [[Apparent self-focus in n
 For those of us with RSD, the internal experience is often one of hypervigilance and fear, not indifference to others.
 
 ### ADHD Considerations
+
 - [[The ADHD Brain Operates as an Interest-Based Nervous System]] rel:: explains
 - Self-focus may stem from need for stimulation
 - Balance with external accountability needed

@@ -23,6 +23,7 @@ This Map of Content (MOC) serves as the top-level entry point for all networking
 ## Foundational Concepts
 
 ### OSI Model
+
 - [[osi_layers]]
 - [[Physical Layer]]
 - [[Layer 1 Physical Layer]]
@@ -33,14 +34,17 @@ This Map of Content (MOC) serves as the top-level entry point for all networking
 - [[An Example of a Tcp Packet With All Layers]]
 
 ### IP Addressing and Routing
+
 - IP Addressing and CIDR
 - [[Routing Tables Use Longest Prefix Match for Forwarding Decisions]]
 
 ### Network Address Translation
+
 - [[NAT Gateways Enable Private Resources to Access Internet]]
 - [[Kubernetes Performs SNAT for Pod Egress Traffic]]
 
 ### Load Balancing
+
 - [[Load Balancing MOC]]
 - [[A Load Balancer Distributes Traffic for Reliability and Scale]]
 - [[Load Balancer Health Checks Ensure Traffic is Routed Only to Healthy Servers]]
@@ -48,6 +52,7 @@ This Map of Content (MOC) serves as the top-level entry point for all networking
 - High Availability Concepts
 
 ### DNS
+
 - [[DNS is a distributed database]]
 - [[DNS Resolvers Translate Domain Requests to IP Queries]]
 - [[DNS Resource Records Are Structured Key-Value Pairs]]
@@ -84,6 +89,7 @@ This Map of Content (MOC) serves as the top-level entry point for all networking
 ## Security
 
 ### Layer 3 Security
+
 - [[Layer 3 Network Security Protects IP Routing and Forwarding]]
 - [[Access Control Lists Filter Traffic Based on Protocol and Address Rules]]
 - [[MOC - Layer 3 Network Security Concepts]]
@@ -91,6 +97,7 @@ This Map of Content (MOC) serves as the top-level entry point for all networking
 - [[Bit Manipulation Optimizes Network Prefix Storage and Matching]]
 
 ### Cloud Security
+
 - [[Cloud Firewalls Filter Traffic at Network and Transport Layers]]
 - AWS Security Groups
 - [[Web Application Firewalls Protect Against Layer 7 Attacks]]

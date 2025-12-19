@@ -47,9 +47,9 @@ To build an external brain, you must capture the machinery of your thinking, not
 
 Every significant note should include:
 
-1.  **Why-Now:** What specific problem or emotion triggered this note *today*?
-2.  **Why-Me:** How does this contradict or confirm *my* existing beliefs?
-3.  **Future-Hook:** When will Future-Me need this? (e.g., "Useful for debugging auth service").
+1. **Why-Now:** What specific problem or emotion triggered this note *today*?
+2. **Why-Me:** How does this contradict or confirm *my* existing beliefs?
+3. **Future-Hook:** When will Future-Me need this? (e.g., "Useful for debugging auth service").
 
 ### The Note Types (Thinking Scaffolds)
 
@@ -82,9 +82,9 @@ When an insight strikes, do not write a textbook. Write a Snapshot:
 
 Speaking often captures context better than writing.
 
-1.  **Record:** Talk out the problem for 2 minutes.
-2.  **Distill:** Listen once. Extract *only* the Model, the Example, and the Tension.
-3.  **Discard:** Delete the audio. Keep the distilled "Machinery."
+1. **Record:** Talk out the problem for 2 minutes.
+2. **Distill:** Listen once. Extract *only* the Model, the Example, and the Tension.
+3. **Discard:** Delete the audio. Keep the distilled "Machinery."
 
 ### C. The "No Orphan Notes" Rule
 
@@ -99,6 +99,7 @@ Every note must have an **Anchor**:
 ---
 
 ## 5. Related Components
+
 - [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
 - [[SoT - The Extended Mind]]
 - [[SoT - PRODOS (System Architecture)]]

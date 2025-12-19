@@ -68,6 +68,7 @@ Important Notes about PATs:
 - Security: Store your PAT securely. Don't commit it to code, don't share it publicly, and consider using environment variables (see below) to avoid typing it directly into the command line.
 - Expiration: PATs can have expiration dates. If you set an expiration, you'll need to generate a new one and re-login when it expires.
 - Revocation: You can revoke a PAT at any time in your GitHub settings if you suspect it's been compromised.
+
 2. Using Environment Variables (Recommended for Security)
 
 Instead of typing your PAT directly into the `docker login` command, it's best practice to use environment variables:
@@ -85,12 +86,14 @@ Or, even better for repeated use, add `export CR_PAT=YOUR_PERSONAL_ACCESS_TOKEN`
 
 - Username/PAT: Double-check your GitHub username and the PAT for typos. A single incorrect character will cause authentication to fail.
 - Image Name: Verify that `ghcr.io/thehyve/fitfile_etl_container:latest` is the *exact* image name and tag you intend to pull.
+
 3. Verify Permissions (If it's a Private Repository)
 
 If the `fitfile_etl_container` image is in a *private* repository on GitHub, ensure:
 
 - Your GitHub Account has Access: You need to be a member of the organization (`thehyve` in this case) or have explicit access granted to the repository. If you're not sure, contact the repository owners.
 - PAT Scope (still `read:packages`): Even for private repositories, the `read:packages` scope on your PAT is still sufficient for pulling.
+
 3. Check GitHub Status
 
 Although rare, it's possible that ghcr.io is experiencing an outage or temporary issue. Check the GitHub status page ([https://www.githubstatus.com/](https://www.google.com/url?sa=E&source=gmail&q=https://www.githubstatus.com/)) to see if there are any reported problems.

@@ -21,8 +21,8 @@ updated:
 
 The FITFILE platform utilizes **GitLab CI/CD** to orchestrate the software delivery lifecycle. The process is split into two primary pipelines:
 
-1.  **Main Pipeline (`.gitlab-ci.yml`):** Focuses on "Continuous Integration" — building artifacts (Docker images) and validating code/workflows.
-2.  **Staging/Deploy Pipeline (`staging.gitlab-ci.yml`):** Focuses on "Continuous Deployment" — synchronizing state via ArgoCD and executing integration tests.
+1. **Main Pipeline (`.gitlab-ci.yml`):** Focuses on "Continuous Integration" — building artifacts (Docker images) and validating code/workflows.
+2. **Staging/Deploy Pipeline (`staging.gitlab-ci.yml`):** Focuses on "Continuous Deployment" — synchronizing state via ArgoCD and executing integration tests.
 
 ---
 
@@ -52,6 +52,7 @@ graph LR
 ```
 
 **Key Jobs:**
+
 - `build_argo_cli`: Builds `fitfile/argocli:alpine` and pushes to Docker Hub.
 - `build_argo_vault_plugin`: Builds the AVP sidecar image and pushes to Azure Container Registry (ACR).
 - `lint_workflows`: Templates Helm charts and validates Argo Workflow YAML syntax.
@@ -80,6 +81,7 @@ graph LR
 ```
 
 **Key Jobs:**
+
 - `sync_argo_app`:
     1. Decodes environment-specific values (`STAGING_VALUE_OVERRIDES`).
     2. Authenticates with **ArgoCD** (`testing-argocd.fitfile.net`).
@@ -123,17 +125,17 @@ Pipelines operate with high privileges. Credentials are injected via GitLab CI V
 
 The deployment is **GitOps-driven** but **CI-triggered**.
 
-1.  GitLab CI generates the specific configuration (values.yaml).
-2.  It *pushes* this configuration to ArgoCD (via API/CLI).
-3.  ArgoCD *pulls* the charts and applies them to the cluster.
+1. GitLab CI generates the specific configuration (values.yaml).
+2. It *pushes* this configuration to ArgoCD (via API/CLI).
+3. ArgoCD *pulls* the charts and applies them to the cluster.
 
 ### The "Test" Mechanism
 
 Testing is not just a script; it is a **Workflow**.
 
-1.  GitLab CI submits a workflow manifest to the cluster.
-2.  The cluster executes the tests (pods spinning up/down).
-3.  GitLab CI polls the workflow status for success/failure.
+1. GitLab CI submits a workflow manifest to the cluster.
+2. The cluster executes the tests (pods spinning up/down).
+3. GitLab CI polls the workflow status for success/failure.
 
 ---
 

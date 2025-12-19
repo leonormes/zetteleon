@@ -29,23 +29,23 @@ updated:
 
 - **The Isomorphism:**
 
-    - **Proposition** $\iff$ **Type**
+  - **Proposition** $\iff$ **Type**
 
-    - **Proof** $\iff$ **Program** (Inhabitant of the Type)
+  - **Proof** $\iff$ **Program** (Inhabitant of the Type)
 
-    - **Simplification of Proof** $\iff$ **Execution of Program** (Beta-reduction)
+  - **Simplification of Proof** $\iff$ **Execution of Program** (Beta-reduction)
 
 - **Logical Mapping:**
 
-    - **Implication ($A \implies B$)** $\iff$ **Function ($A \to B$)**
+  - **Implication ($A \implies B$)** $\iff$ **Function ($A \to B$)**
 
-    - **Conjunction ($A \land B$)** $\iff$ **Product Type (Tuple/Struct)**
+  - **Conjunction ($A \land B$)** $\iff$ **Product Type (Tuple/Struct)**
 
-    - **Disjunction ($A \lor B$)** $\iff$ **Sum Type (Enum/Union)**
+  - **Disjunction ($A \lor B$)** $\iff$ **Sum Type (Enum/Union)**
 
-    - **False ($\bot$)** $\iff$ **Empty Type (Void/Never)**
+  - **False ($\bot$)** $\iff$ **Empty Type (Void/Never)**
 
-    - **Negation ($\neg A$)** $\iff$ **Function to Empty Type ($A \to \bot$)**
+  - **Negation ($\neg A$)** $\iff$ **Function to Empty Type ($A \to \bot$)**
 
 ## 2. Current Understanding (Coherent Narrative)
 

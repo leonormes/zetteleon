@@ -23,6 +23,7 @@ Routines significantly reduce anxiety, sensory overwhelm, and decision fatigue i
 Event-based mini routines offer a particularly effective approach by reducing time-pressure anxiety. Rather than being tied to specific clock times, these routines trigger from natural life events (like finishing a meal or completing a work block), which minimizes the stress of clock-watching and allows for natural adaptation to daily variations in energy, motivation, and unexpected circumstances.
 
 ## Related
+
 - [[Routines Provide Stability for Neurodivergent Individuals]]
 - [[Executive Function Challenges are Central to ADHD]]
 - [[Overwhelm]]

@@ -213,83 +213,83 @@ You're asking for a comprehensive overview of Git methods for traversing the com
 **1. `git log`**
 
 - **Purpose:**
-    - Displays commit history in a human-readable format.
-    - Allows filtering and formatting of commit information.
+  - Displays commit history in a human-readable format.
+  - Allows filtering and formatting of commit information.
 - **DAG Traversal:**
-    - By default, it follows the parent-child relationships in the commit DAG, displaying commits in reverse chronological order.
-    - It can traverse multiple branches and merge histories.
+  - By default, it follows the parent-child relationships in the commit DAG, displaying commits in reverse chronological order.
+  - It can traverse multiple branches and merge histories.
 - **Key Options:**
-    - `--graph`: Displays the commit graph visually.
-    - `--oneline`: Shows each commit on a single line.
-    - `--decorate`: Shows branch and tag pointers.
-    - `--all`: Shows commits from all branches.
-    - `--author=<pattern>`: Filters commits by author.
-    - `--grep=<pattern>`: Filters commits by commit message.
-    - `--since=<date>` and `--until=<date>`: Filters commits by date.
-    - `-p`: Shows the diff for each commit.
-    - `--follow <file>`: Shows the history of a specific file, even across renames.
-    - `--merges`: Shows only merge commits.
-    - `--reverse`: Output the commits in reverse order.
-    - `--simplify-by-decoration`: Only show commits that are referenced by tags or branches.
+  - `--graph`: Displays the commit graph visually.
+  - `--oneline`: Shows each commit on a single line.
+  - `--decorate`: Shows branch and tag pointers.
+  - `--all`: Shows commits from all branches.
+  - `--author=<pattern>`: Filters commits by author.
+  - `--grep=<pattern>`: Filters commits by commit message.
+  - `--since=<date>` and `--until=<date>`: Filters commits by date.
+  - `-p`: Shows the diff for each commit.
+  - `--follow <file>`: Shows the history of a specific file, even across renames.
+  - `--merges`: Shows only merge commits.
+  - `--reverse`: Output the commits in reverse order.
+  - `--simplify-by-decoration`: Only show commits that are referenced by tags or branches.
 - **Example:**
-    - `git log --graph --oneline --decorate --all`: Shows a visual representation of the entire commit history.
+  - `git log --graph --oneline --decorate --all`: Shows a visual representation of the entire commit history.
 
 **2. `git rev-list`**
 
 - **Purpose:**
-    - Lists commit object names (hashes) in reverse chronological order.
-    - Designed for scripting and programmatic access to commit data.
+  - Lists commit object names (hashes) in reverse chronological order.
+  - Designed for scripting and programmatic access to commit data.
 - **DAG Traversal:**
-    - Traverses the commit DAG, following parent-child relationships.
-    - Provides options for filtering and specifying the range of commits.
+  - Traverses the commit DAG, following parent-child relationships.
+  - Provides options for filtering and specifying the range of commits.
 - **Key Options:**
-    - `--all`: Lists commits from all branches.
-    - `<commit-range>`: Specifies a range of commits (e.g., `main..feature`).
-    - `--since=<date>` and `--until=<date>`: Filters commits by date.
-    - `--author=<pattern>`: Filters commits by author.
-    - `--grep=<pattern>`: Filters commits by commit message.
-    - `--reverse`: Output the commits in reverse order.
-    - `--count`: Output a count of matching commits.
+  - `--all`: Lists commits from all branches.
+  - `<commit-range>`: Specifies a range of commits (e.g., `main..feature`).
+  - `--since=<date>` and `--until=<date>`: Filters commits by date.
+  - `--author=<pattern>`: Filters commits by author.
+  - `--grep=<pattern>`: Filters commits by commit message.
+  - `--reverse`: Output the commits in reverse order.
+  - `--count`: Output a count of matching commits.
 - **Example:**
-    - `git rev-list --all`: Lists all commit hashes in the repository.
-    - `git rev-list main..feature`: Lists commits that are in `feature` but not in `main`.
+  - `git rev-list --all`: Lists all commit hashes in the repository.
+  - `git rev-list main..feature`: Lists commits that are in `feature` but not in `main`.
 
 **3. `git show`**
 
 - **Purpose:**
-    - Shows information about a specific commit, including its metadata and diff.
+  - Shows information about a specific commit, including its metadata and diff.
 - **DAG Traversal:**
-    - Primarily operates on a single commit, but it can be used with other commands to traverse the DAG.
+  - Primarily operates on a single commit, but it can be used with other commands to traverse the DAG.
 - **Example:**
-    - `git show <commit-hash>`: Shows the details of a specific commit.
+  - `git show <commit-hash>`: Shows the details of a specific commit.
 
 **4. `git branch --contains`**
 
 - **Purpose:**
-    - Lists branches that contain a specific commit.
+  - Lists branches that contain a specific commit.
 - **DAG Traversal:**
-    - Traverses the branch pointers and commit relationships to find matching branches.
+  - Traverses the branch pointers and commit relationships to find matching branches.
 - **Example:**
-    - `git branch --contains <commit-hash>`: Lists branches that contain the specified commit.
+  - `git branch --contains <commit-hash>`: Lists branches that contain the specified commit.
 
 **5. `git bisect`**
 
 - **Purpose:**
-    - Helps find the commit that introduced a bug by performing a binary search through the commit history.
+  - Helps find the commit that introduced a bug by performing a binary search through the commit history.
 - **DAG Traversal:**
-    - Performs a binary search, efficiently traversing the commit DAG to narrow down the search range.
+  - Performs a binary search, efficiently traversing the commit DAG to narrow down the search range.
 - **Example:**
-    - `git bisect start`, `git bisect good <good-commit>`, `git bisect bad <bad-commit>`, `git bisect reset`.
+  - `git bisect start`, `git bisect good <good-commit>`, `git bisect bad <bad-commit>`, `git bisect reset`.
 
 **6. `git reflog`**
 
 - **Purpose:**
-    - Shows a log of all changes to the `HEAD` pointer, including branch switches, resets, and other operations.
-    - Useful for recovering lost commits.
+  - Shows a log of all changes to the `HEAD` pointer, including branch switches, resets, and other operations.
+  - Useful for recovering lost commits.
 - **DAG Traversal:**
-    - Traverses the `HEAD` history, which indirectly reflects changes to the commit DAG.
+  - Traverses the `HEAD` history, which indirectly reflects changes to the commit DAG.
 - **Example:**
-    - `git reflog`: Shows the `HEAD` reflog.
+  - `git reflog`: Shows the `HEAD` reflog.
 
 **Key Concepts**
 

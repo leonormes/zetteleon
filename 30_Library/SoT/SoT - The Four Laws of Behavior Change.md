@@ -35,10 +35,10 @@ updated:
 
 All habits proceed through four distinct stages in a feedback loop. Failure at any stage prevents the habit from forming.
 
-1.  **Cue:** The trigger that initiates the behavior (notices the reward).
-2.  **Craving:** The motivational force or desire (wants the reward).
-3.  **Response:** The actual behavior or action performed (obtains the reward).
-4.  **Reward:** The end goal that satisfies the craving (teaches the brain).
+1. **Cue:** The trigger that initiates the behavior (notices the reward).
+2. **Craving:** The motivational force or desire (wants the reward).
+3. **Response:** The actual behavior or action performed (obtains the reward).
+4. **Reward:** The end goal that satisfies the craving (teaches the brain).
 
 ---
 
@@ -106,15 +106,16 @@ Acknowledging small wins shifts the focus from "Perfection" (what is left to do)
 
 To tackle high-friction tasks, structure the workflow to guarantee stimulation.
 
-1.  **Top Slice (Pre-Task):** A quick, high-dopamine boost (music, coffee).
-2.  **The Filling (The Task):** The boring/difficult work.
-3.  **Bottom Slice (The Reward):** An immediate, guilt-free reward (snack, walk).
+1. **Top Slice (Pre-Task):** A quick, high-dopamine boost (music, coffee).
+2. **The Filling (The Task):** The boring/difficult work.
+3. **Bottom Slice (The Reward):** An immediate, guilt-free reward (snack, walk).
 
 ---
 
 ## 7. Practical Application Plans
 
 ### Developer Example
+
 - **Goal:** Code for 1 hour daily.
 - **Law 1 (Obvious):** "I will open VS Code at 8:00 AM." (Implementation Intention). Sticky note on monitor (Environment).
 - **Law 2 (Attractive):** "I can listen to my favorite podcast only while coding." (Temptation Bundling).

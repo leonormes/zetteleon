@@ -1538,6 +1538,7 @@ policyTypes:
   3. Run in audit mode for 1 week
   4. Gradually tighten policies
   5. Move to enforcement mode during a maintenance window
+
 5. Example Implementation Timeline:
 
 Week 1-2: Monitor traffic patterns
@@ -2156,12 +2157,14 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
 
 ## Phase 1: Foundations of Containers
 ### 1.1 What Are Containers
+
 - Objective: Understand containers vs. VMs, isolation, and use cases.
 - Exercise:
   - Run `docker run hello-world` and observe the output.
   - Compare `ps aux` inside a container vs. the host.
 
 ### 1.2 Linux Kernel Basics
+
 - Key Concepts: Namespaces (pid, net, mnt, uts, ipc, user) and cgroups.
 - Lab:
   - Use `lsns` to list namespaces on your system.
@@ -2171,6 +2174,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
 
 ## Phase 2: Building a Container Manually
 ### 2.1 Filesystem Isolation
+
 - Objective: Create a minimal root filesystem.
 - Lab:
 
@@ -2184,6 +2188,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
 - Challenge: Replace `debootstrap` with `docker export` to extract a base image.
 
 ### 2.2 Process Isolation with Namespaces
+
 - Lab: Use `unshare` to create isolated namespaces:
 
   ```bash
@@ -2196,6 +2201,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
 - Key Command: `unshare` creates namespaces; `nsenter` joins them.
 
 ### 2.3 Resource Limits with Cgroups
+
 - Lab: Limit CPU and memory for a process:
 
   ```bash
@@ -2209,6 +2215,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
   ```
 
 ### 2.4 Network Isolation
+
 - Lab: Create a virtual Ethernet pair for the container:
 
   ```bash
@@ -2221,6 +2228,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
 
 ## Phase 3: Automating with CLI Tools
 ### 3.1 Scripting a Basic Container
+
 - Lab: Write a Bash script to automate Phase 2 steps:
 
   ```bash
@@ -2232,6 +2240,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
 - Challenge: Add cgroup limits to the script.
 
 ### 3.2 Using `systemd-nspawn`
+
 - Lab: Launch a container with `systemd-nspawn`:
 
   ```bash
@@ -2244,6 +2253,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
 
 ## Phase 4: Transition to Docker (CLI Focus)
 ### 4.1 Docker Internals
+
 - Key Concepts: Images, layers, Docker daemon, and `containerd`.
 - Exercise:
   - Build an image from scratch:
@@ -2254,6 +2264,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
     ```
 
 ### 4.2 Docker CLI Deep Dive
+
 - Lab:
   - Run a container with resource limits:
 
@@ -2265,6 +2276,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
   - Use `docker exec` to run commands in a running container.
 
 ### 4.3 Building a Docker Image Manually
+
 - Lab:
   - Extract a Docker image’s filesystem:
 
@@ -2279,6 +2291,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
 
 ## Phase 5: Advanced Topics
 ### 5.1 Security Hardening
+
 - Lab:
   - Run a container as a non-root user:
 
@@ -2293,6 +2306,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
     ```
 
 ### 5.2 Container Networking
+
 - Lab:
   - Create a bridge network:
 
@@ -2304,6 +2318,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
   - Use `iptables` to inspect Docker’s NAT rules.
 
 ### 5.3 Debugging Containers
+
 - Lab:
   - Use `docker logs`, `docker stats`, and `docker events` for monitoring.
   - Debug a broken container using `docker exec -it <container_id> sh`.
@@ -2322,6 +2337,7 @@ Build a Containerized Application:
 ---
 
 ## Resources For Active Learning
+
 1. Books: Linux Containers and Virtualization by Shashank Mohan Jain.
 2. Interactive Labs: [Katacoda](https://katacoda.com/courses/containers) or [Play with Docker](https://labs.play-with-docker.com/).
 3. Repositories:
@@ -2331,6 +2347,7 @@ Build a Containerized Application:
 ---
 
 ## Troubleshooting Tips
+
 - Use `strace` to trace system calls in your manual container.
 - Inspect `dmesg` logs for kernel-level container errors.
 - Run `docker system prune` to clean up orphaned containers/images.
@@ -2357,22 +2374,26 @@ Active learning prioritizes engagement, reflection, and application over passive
 For Kubernetes, break the topic into core components and design milestones with active learning in mind:
 
 ### Phase 1: Foundations
+
 - Core Concepts: Learn pods, deployments, services via interactive tutorials (e.g., [Boot.dev’s Kubernetes course](https://www.boot.dev/courses/learn-kubernetes)) .
 - Hands-On Practice: Deploy a simple app using `kubectl` and YAML manifests. Use GitHub repositories like [iKubernetes/learning-k8s](https://github.com/iKubernetes/learning-k8s) for guided projects .
 - Active Recall: Quiz yourself on Kubernetes architecture using flashcards or platforms like [CKAD Prep](https://github.com/bmuschko/ckad-prep) .
 
 ### Phase 2: Advanced Topics
+
 - Multi-Container Pods: Build sidecar or init container patterns using case studies from [Microsoft’s Kubernetes Learning Path](https://github.com/microsoft/kubernetes-learning-path) .
 - Networking and Security: Experiment with NetworkPolicies and Ingress controllers. Use tools like MetalLB or OpenELB .
 - Stateful Workloads: Deploy stateful applications (e.g., databases) with PersistentVolumes and StorageClasses .
 
 ### Phase 3: Mastery and Certification
+
 - CKAD/CKA Prep: Enroll in structured courses like [Coursera’s CKAD specialization](https://www.coursera.org/specializations/certified-kubernetes-application-developer-ckad-course) with labs and exam simulations .
 - Contribute to Open Source: Fix bugs or add features to Kubernetes-related projects on GitHub (e.g., Helm charts, operators) .
 
 ---
 
 ## 3. Implement Active Learning Techniques
+
 - Uncertainty Sampling: Focus on areas where your knowledge is weakest. For example, if you struggle with Kubernetes RBAC, prioritize labs on role-based access control .
 - Reflection: After each project, write a post-mortem analysis. What went wrong? How did you fix it? Share these reflections on a blog or GitHub README .
 - Gamification: Compete in Kubernetes hackathons or set personal goals (e.g., “Deploy a fault-tolerant cluster in 2 hours”) .
@@ -2380,6 +2401,7 @@ For Kubernetes, break the topic into core components and design milestones with 
 ---
 
 ## 4. Leverage Community and Feedback
+
 - Peer Teaching: Explain Kubernetes concepts to others via meetups or YouTube tutorials. Teaching forces you to solidify your understanding .
 - Join Learning Circles: Participate in study groups like [Kubernetes Community Days](https://kubernetescommunitydays.org/) or Discord channels for collaborative problem-solving .
 - Seek Feedback: Use platforms like [KodeKloud](https://kodekloud.com/) for graded Kubernetes exercises and peer reviews .
@@ -2387,6 +2409,7 @@ For Kubernetes, break the topic into core components and design milestones with 
 ---
 
 ## 5. Track Progress and Iterate
+
 - Milestones: Set SMART goals (e.g., “Master Helm chart templating by March”). Track progress using tools like Notion or GitHub Projects .
 - Assessments: Regularly test yourself with CKAD practice exams or scenario-based labs .
 - Iterate: If a method isn’t working (e.g., passive video tutorials), switch to active alternatives like coding challenges or contributing to open-source .
@@ -2406,6 +2429,7 @@ For Kubernetes, break the topic into core components and design milestones with 
 ---
 
 ## Key Takeaways
+
 1. Shift from passive to active: Replace tutorials with hands-on projects and problem-solving .
 2. Structure with milestones: Break Kubernetes into manageable components and track progress .
 3. Engage the community: Learn collaboratively and teach others to reinforce knowledge .

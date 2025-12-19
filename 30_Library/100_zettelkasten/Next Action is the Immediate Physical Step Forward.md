@@ -35,11 +35,13 @@ A next action must be:
 **Examples:**
 
 **Poor (Abstract):**
+
 - "Set up meeting"
 - "Work on report"
 - "Handle client issue"
 
 **Good (Concrete Next Actions):**
+
 - "Send email to Bob to set up meeting"
 - "Open report template and write introduction paragraph"
 - "Call client to understand the specific issue"

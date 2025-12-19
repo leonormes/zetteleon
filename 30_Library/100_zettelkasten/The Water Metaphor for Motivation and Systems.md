@@ -37,17 +37,20 @@ Your energy and motivation behave like water:
 ### With Systems: Engineered Channels
 
 **1. Systems as Pipes (Directing)**
+
 - Routines are pipes that capture and move your energy
 - The "water" doesn't decide where to go—it just flows
 - The pipe (built once when clear-headed) provides externalised direction
 - This is why discipline isn't about willpower—it's about trusting the infrastructure
 
 **2. Systems as Pressure (Amplifying)**
+
 - Narrowing focus creates water pressure
 - Same amount of water, when channeled, moves with force
 - A 30-minute writing habit turns a weak puddle into a jet that carves stone
 
 **3. Systems as Molds (Shaping)**
+
 - Complex projects are like ice sculptures
 - Your system is the mold (outline, plan, targets)
 - Daily energy pours into the mold and "freezes" in the correct shape
@@ -84,5 +87,6 @@ Systems become even more critical because they work regardless of internal state
 `elaborated-in::` [[Gemini - Systems Habits and Past Achievements]]
 
 > **Status gates**
+>
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.

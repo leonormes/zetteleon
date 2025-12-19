@@ -38,6 +38,7 @@ Instead of adding new rules for terms (which failed), Harper explains that we mu
 - **Cubical Context:** $\Gamma, i, j \vdash M : A$ (Terms depend on Variables AND **Dimension Variables**).
 
 ### The Geometry of Types
+
 - **Point:** A term with 0 dimensions.
 - **Line (Path):** A term depending on 1 dimension ($i$). This represents equality.
 - **Square:** A term depending on 2 dimensions ($i, j$). This represents equality between equalities.
@@ -49,8 +50,8 @@ This is the engine that makes Univalence run.
 
 - **Definition:** `coe` moves a term from the "start" of a line to the "end".
 - **Application:** If you have a Path between Type A and Type B (an isomorphism), `coe` effectively "runs" the transformation.
-    - *Example:* If Path is `swap`, `coe` actually swaps the data.
-    - *Result:* We no longer need an axiom. The path *is* the program.
+  - *Example:* If Path is `swap`, `coe` actually swaps the data.
+  - *Result:* We no longer need an axiom. The path *is* the program.
 
 ### Kan Composition (`com`)
 

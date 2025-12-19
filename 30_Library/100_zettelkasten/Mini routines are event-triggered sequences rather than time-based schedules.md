@@ -23,5 +23,6 @@ Mini routines are lightweight behavioral sequences that activate in response to 
 This event-based approach creates natural flexibility, allowing routines to adapt to variations in daily circumstances while still maintaining structure and consistency. The trigger is a completed action or natural transition point, not an arbitrary time on a clock.
 
 ## Related
+
 - [[Use Anchor Times to Build Consistent Routines]]
 - [[Routines reduce anxiety and decision fatigue in neurodivergent individuals]]

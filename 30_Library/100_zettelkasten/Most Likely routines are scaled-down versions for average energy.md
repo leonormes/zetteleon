@@ -25,6 +25,7 @@ For example, if the ideal morning includes an hour walk, the Most Likely version
 This tier should represent what you can genuinely accomplish on a regular, unremarkable day—not your best day, not your worst day, but the typical baseline. Getting this tier right is crucial because it will be the version you use most frequently, forming the foundation of actual habit consistency.
 
 ## Related
+
 - [[The Honeyman Method uses three-tiered routines to adapt to energy variation]]
 - [[Ideal routines represent maximum energy and motivation days]]
 - [[Minimum routines are bare-bones essentials for low-energy days]]

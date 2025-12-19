@@ -45,7 +45,7 @@ Harper argues that truth is primary. A type is a **Partial Equivalence Relation 
 
 - **Membership:** To say $M
 
-in 	au$ is to say "M evaluates to a canonical value of type $	au$."
+in  au$ is to say "M evaluates to a canonical value of type $ au$."
 
 - **Equality:** Two terms are equal if they evaluate to equal values.
 
@@ -55,7 +55,7 @@ in 	au$ is to say "M evaluates to a canonical value of type $	au$."
 
 - **Natural Numbers:** Defined as the **strongest** (smallest) predicate satisfying `Zero` and `Successor`. This ensures **induction** works. If it were weaker, it might include infinite recursion (stacks of successors that never end).
 
-- **Function Types ($	o$):** Defined by **Extensionality**. Two functions are equal if they produce equal outputs for all equal inputs.
+- **Function Types ($ o$):** Defined by **Extensionality**. Two functions are equal if they produce equal outputs for all equal inputs.
 
 ### The Fact of Choice
 
@@ -93,11 +93,11 @@ Sigma$ contains the witness ($y$) in its data structure, a proof of "For all x t
 
 - **Tension:** **Decidability vs. Expressiveness.**
 
-    - **Semantic View:** "If they run the same, they are the same." (True, but hard to check).
+  - **Semantic View:** "If they run the same, they are the same." (True, but hard to check).
 
-    - **Formal View:** "I need to check this in milliseconds." (Fast, but rejects some valid programs).
+  - **Formal View:** "I need to check this in milliseconds." (Fast, but rejects some valid programs).
 
-    - *See [[SoT - Equality in Type Theory (Intensional vs Extensional)]] for the deep dive on this conflict.*
+  - *See [[SoT - Equality in Type Theory (Intensional vs Extensional)]] for the deep dive on this conflict.*
 
 ## 6. Sources and Links
 

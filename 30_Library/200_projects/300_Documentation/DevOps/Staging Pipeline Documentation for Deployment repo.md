@@ -48,20 +48,24 @@ The pipeline defines several global variables that apply to all jobs:
 This job authenticates with Azure and obtains Kubernetes credentials for the AKS cluster.
 
 **Details:**
+
 - **Image:** `mcr.microsoft.com/azure-cli:latest`
 - **Resource Group:** `staging`
 
 **Variables:**
+
 - `SUBSCRIPTION_ID`: Azure subscription ID
 - `TENANT_ID`: Azure tenant ID
 - `KUBECONFIG`: Path to store Kubernetes configuration file
 
 **Process:**
+
 1. Authenticates with Azure using service principal credentials
 2. Retrieves AKS cluster credentials for "Fitfile-cloud-testing-aks-cluster"
 3. Stores the kubeconfig file as a job artifact for use in subsequent stages
 
 **Artifacts:**
+
 - `kubeconfig`: Kubernetes configuration file
 
 ### Stage: Deploy
@@ -71,14 +75,17 @@ This job authenticates with Azure and obtains Kubernetes credentials for the AKS
 This job uses ArgoCD to deploy applications to the staging environment.
 
 **Details:**
+
 - **Image:** `argoproj/argocd:v2.6.15`
 - **Resource Group:** `staging`
 - **Retry:** 2 attempts if failed
 
 **Variables:**
+
 - `ARGOCD_HOST`: ArgoCD server address (testing-argocd.fitfile.net)
 
 **Process:**
+
 1. Decodes base64-encoded environment-specific values (`STAGING_VALUE_OVERRIDES`)
 2. Saves decoded values to `testing-values.yaml`
 3. Logs into ArgoCD using credentials from environment variables
@@ -93,15 +100,18 @@ This job uses ArgoCD to deploy applications to the staging environment.
 This job runs integration tests against the deployed application using Argo Workflows.
 
 **Details:**
+
 - **Image:** `fitfile/argocli:alpine`
 - **Resource Group:** `staging`
 - **Dependencies:** Requires both `sync_argo_app` and `prepare_kube_config` jobs to complete successfully
 
 **Variables:**
+
 - `ARGO_BASE_HREF`: Argo Workflows server address
 - `KUBECONFIG`: Path to Kubernetes configuration file
 
 **Process:**
+
 1. Copies the kubeconfig file to the expected location
 2. Lists existing Argo workflows in the "testing" namespace
 3. Submits a new workflow using the "all-integration-tests" workflow template
@@ -177,22 +187,22 @@ The pipeline uses the following variables:
 The pipeline includes the following jobs:
 
 - **build**: This job builds the Docker image for the helm chart.
-    - It utilizes the `docker/build` image.
-    - It builds the image using a Dockerfile located in the root of the helm chart directory.
-    - It tags the image with the value of the `IMAGE_TAG` variable.
+  - It utilizes the `docker/build` image.
+  - It builds the image using a Dockerfile located in the root of the helm chart directory.
+  - It tags the image with the value of the `IMAGE_TAG` variable.
 - **test**: This job runs unit tests on the helm chart.
-    - It utilizes the `helm/tiller` image.
-    - It runs the `helm test` command to execute the tests.
-    - It fails the job if any tests fail.
+  - It utilizes the `helm/tiller` image.
+  - It runs the `helm test` command to execute the tests.
+  - It fails the job if any tests fail.
 - **lint**: This job lints the helm chart for any potential errors.
-    - It utilizes the `helm/lint` image.
-    - It runs the `helm lint` command to identify any syntax errors or best practice violations.
-    - It fails the job if any errors are found.
+  - It utilizes the `helm/lint` image.
+  - It runs the `helm lint` command to identify any syntax errors or best practice violations.
+  - It fails the job if any errors are found.
 - **deploy**: This job deploys the helm chart to a Kubernetes cluster.
-    - It utilizes the `helm/tiller` image.
-    - It runs the `helm install` command to deploy the chart to the cluster specified by the `KUBERNETES_CLUSTER` variable.
-    - It sets the release name to the value of the `CHART_NAME` variable.
-    - It sets the chart version to the value of the `CHART_VERSION` variable.
+  - It utilizes the `helm/tiller` image.
+  - It runs the `helm install` command to deploy the chart to the cluster specified by the `KUBERNETES_CLUSTER` variable.
+  - It sets the release name to the value of the `CHART_NAME` variable.
+  - It sets the chart version to the value of the `CHART_VERSION` variable.
 
 #### Script
 
@@ -283,15 +293,18 @@ The pipeline defines several global variables that apply to all jobs:
 This job builds and pushes the Argo CLI container image.
 
 **Details:**
+
 - **Image:** `docker:latest`
 - **Services:** `docker:18.09-dind`
 
 **Process:**
+
 1. Logs into Docker Hub using credentials
 2. Builds container images for Argo CLI (tagging as `alpine` and `latest`)
 3. Pushes the images to Docker Hub
 
 **Execution Rules:**
+
 - Runs only on the default branch
 - Runs only when changes are made to related Dockerfile or entrypoint script
 
@@ -300,15 +313,18 @@ This job builds and pushes the Argo CLI container image.
 This job builds and pushes the Argo Vault Plugin container image.
 
 **Details:**
+
 - **Image:** `docker:latest`
 - **Services:** `docker:18.09-dind`
 
 **Process:**
+
 1. Logs into Azure Container Registry
 2. Builds container image for Argo Vault Plugin
 3. Pushes the image to Azure Container Registry
 
 **Execution Rules:**
+
 - Runs only on the default branch
 - Runs only when changes are made to related Dockerfile
 
@@ -317,23 +333,28 @@ This job builds and pushes the Argo Vault Plugin container image.
 This job authenticates with Azure and obtains Kubernetes credentials for the AKS cluster.
 
 **Details:**
+
 - **Image:** `mcr.microsoft.com/azure-cli:latest`
 - **Resource Group:** `staging`
 
 **Variables:**
+
 - `SUBSCRIPTION_ID`: Azure subscription ID
 - `TENANT_ID`: Azure tenant ID
 - `KUBECONFIG`: Path to store Kubernetes configuration file
 
 **Process:**
+
 1. Authenticates with Azure using service principal credentials
 2. Retrieves AKS cluster credentials for "Fitfile-cloud-testing-aks-cluster"
 3. Stores the kubeconfig file as a job artifact for use in subsequent stages
 
 **Artifacts:**
+
 - `kubeconfig`: Kubernetes configuration file
 
 **Execution Rules:**
+
 - Runs when CI variable is defined
 - Runs only when changes are made to workflows directory
 
@@ -344,19 +365,23 @@ This job authenticates with Azure and obtains Kubernetes credentials for the AKS
 This job validates and lints Argo workflow definitions.
 
 **Details:**
+
 - **Image:** `fitfile/argocli:alpine`
 - **Dependencies:** Requires `prepare_kube_config` and optionally `build_argo_cli`
 
 **Variables:**
+
 - `ARGO_BASE_HREF`: Argo Workflows server address
 - `KUBECONFIG`: Path to Kubernetes configuration file
 
 **Process:**
+
 1. Copies the kubeconfig file to the expected location
 2. Uses Helm to template the workflow source files
 3. Validates the templated workflow YAML using Argo CLI's lint command
 
 **Execution Rules:**
+
 - Runs when CI variable is defined
 - Runs only when changes are made to workflows directory
 
@@ -393,20 +418,24 @@ graph LR
 This job authenticates with Azure and obtains Kubernetes credentials for the AKS cluster.
 
 **Details:**
+
 - **Image:** `mcr.microsoft.com/azure-cli:latest`
 - **Resource Group:** `staging`
 
 **Variables:**
+
 - `SUBSCRIPTION_ID`: Azure subscription ID
 - `TENANT_ID`: Azure tenant ID
 - `KUBECONFIG`: Path to store Kubernetes configuration file
 
 **Process:**
+
 1. Authenticates with Azure using service principal credentials
 2. Retrieves AKS cluster credentials for "Fitfile-cloud-testing-aks-cluster"
 3. Stores the kubeconfig file as a job artifact for use in subsequent stages
 
 **Artifacts:**
+
 - `kubeconfig`: Kubernetes configuration file
 
 #### Stage: Deploy
@@ -416,14 +445,17 @@ This job authenticates with Azure and obtains Kubernetes credentials for the AKS
 This job uses ArgoCD to deploy applications to the staging environment.
 
 **Details:**
+
 - **Image:** `argoproj/argocd:v2.6.15`
 - **Resource Group:** `staging`
 - **Retry:** 2 attempts if failed
 
 **Variables:**
+
 - `ARGOCD_HOST`: ArgoCD server address (testing-argocd.fitfile.net)
 
 **Process:**
+
 1. Decodes base64-encoded environment-specific values (`STAGING_VALUE_OVERRIDES`)
 2. Saves decoded values to `testing-values.yaml`
 3. Logs into ArgoCD using credentials from environment variables
@@ -438,15 +470,18 @@ This job uses ArgoCD to deploy applications to the staging environment.
 This job runs integration tests against the deployed application using Argo Workflows.
 
 **Details:**
+
 - **Image:** `fitfile/argocli:alpine`
 - **Resource Group:** `staging`
 - **Dependencies:** Requires both `sync_argo_app` and `prepare_kube_config` jobs to complete successfully
 
 **Variables:**
+
 - `ARGO_BASE_HREF`: Argo Workflows server address
 - `KUBECONFIG`: Path to Kubernetes configuration file
 
 **Process:**
+
 1. Copies the kubeconfig file to the expected location
 2. Lists existing Argo workflows in the "testing" namespace
 3. Submits a new workflow using the "all-integration-tests" workflow template

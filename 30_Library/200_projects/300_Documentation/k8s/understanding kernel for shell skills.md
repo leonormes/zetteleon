@@ -54,6 +54,7 @@ If you want to create a toy shell to learn about shell scripting languages, ther
 
 8. Creating a Shell in C
 There's a detailed tutorial on GeeksforGeeks that walks you through creating a basic shell in C[1]. This tutorial covers:
+
 - Command input and parsing
 - Execution of commands
 - Handling built-in commands
@@ -64,6 +65,7 @@ For those preferring Python, there are resources available that demonstrate how 
 
 10. Bash Scripting Tutorial
 If you want to focus on Bash, the Shell Scripting Tutorial (shellscript.sh) provides a comprehensive guide to Bash scripting[14]. It covers:
+
 - Basic syntax
 - Variables and input/output
 - Control structures
@@ -122,6 +124,7 @@ Several hands-on tutorials and resources are available for learning more about s
 ## Online Courses
 
 23. Hands-on Introduction to Linux Commands and Shell Scripting: This course offered by IBM Skills Network provides a practical introduction to Linux commands and Bash shell scripting[1][3]. It covers:
+
 - Basic Linux commands
 - File and directory management
 - Text processing
@@ -130,11 +133,13 @@ Several hands-on tutorials and resources are available for learning more about s
 ## Practical Tutorials
 
 24. Write a System Call Tutorial: Stephen Brennan's tutorial guides you through the process of writing your own system call[2]. This hands-on approach helps you understand:
+
 - How system calls are implemented
 - The interaction between user space and kernel space
 - How to modify the kernel to add a new system call
 
 25. The Definitive Guide to Linux System Calls: This comprehensive guide on the Packagecloud blog offers in-depth explanations and practical examples[5]. It covers:
+
 - Different methods of making system calls
 - Handcrafting assembly to make system calls
 - Kernel entry and exit points for system calls
@@ -142,6 +147,7 @@ Several hands-on tutorials and resources are available for learning more about s
 ## Books and Documentation
 
 26. A Practical Guide to Linux Commands, Editors, and Shell Programming: This book by Mark G. Sobell provides extensive coverage of Linux commands and shell scripting[7][8]. It offers:
+
 - Detailed explanations of Linux commands
 - Practical examples and exercises
 - In-depth coverage of shell scripting
@@ -149,6 +155,7 @@ Several hands-on tutorials and resources are available for learning more about s
 ## Video Tutorials
 
 27. Linux Basics - Hands-On Workshop: This YouTube video provides a hands-on introduction to Linux, focusing on networking and security commands[9]. It covers:
+
 - Command line essentials
 - System hardware and networking
 - SSH and file transfer

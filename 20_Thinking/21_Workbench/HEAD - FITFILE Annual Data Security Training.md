@@ -10,11 +10,15 @@ purpose: To process and track the mandatory annual FITFILE Data Security Awarene
 review_interval:
 see_also: []
 source_of_truth: []
-status: waiting
-tags: [compliance, prodos, security, training]
+status: archived
+tags:
+  - compliance
+  - prodos
+  - security
+  - training
 title: HEAD - FITFILE Annual Data Security Training
 type: head
-uid:
+uid: 7db60f50-873c-4694-8d7a-4a04120c9fe1
 updated:
 uuid: 7db60f50-873c-4694-8d7a-4a04120c9fe1
 ---
@@ -25,7 +29,8 @@ uuid: 7db60f50-873c-4694-8d7a-4a04120c9fe1
 Received an email outlining the mandatory annual FITFILE Data Security Awareness training, with a deadline of EOB 19 Dec 2025.
 
 - [ ] FITFILE Data Security Awareness training ^2025-12-12T16-17-49
-    - [📱 View in Todoist app](todoist://task?id=6fVVX55M8XRCHcHv) (Created: 📝 2025-12-12T16:18)
+  - [📱 View in Todoist app](todoist://task?id=6fVVX55M8XRCHcHv) (Created: 📝 2025-12-12T16:18)
+
 ## My Current Model
 
 - Mandatory training required by 19 Dec 2025.
@@ -50,30 +55,32 @@ Received an email outlining the mandatory annual FITFILE Data Security Awareness
 
 - [ ] **Determine my training status for 'Data Security Awareness (NHSD)' on e-LfH.**
 
-    - *Method 1:* Attempt to sign in to <https://portal.e-lfh.org.uk/> and check 'My elearning' for the course.
+  - *Method 1:* Attempt to sign in to <https://portal.e-lfh.org.uk/> and check 'My elearning' for the course.
 
-    - *Method 2:* Review past training records or calendar entries for "Data Security Awareness (NHSD)" or "e-LfH" from late last year or early this year.
+  - *Method 2:* Review past training records or calendar entries for "Data Security Awareness (NHSD)" or "e-LfH" from late last year or early this year.
 
-    - *Success Criteria:* I know definitively whether I need to register or if I already have an account with the course listed.
+  - *Success Criteria:* I know definitively whether I need to register or if I already have an account with the course listed.
 
 ## Action Plan (Once Path is clear)
 
 ### If Already Completed before
-1.  Sign in to e-LfH portal: <https://portal.e-lfh.org.uk/>
-2.  Locate 'Data Security Awareness (NHSD)' under 'My elearning'.
-3.  Click 'Data Security Awareness - Level 1'.
-4.  Click 'Play', complete the course and assessment.
+
+1. Sign in to e-LfH portal: <https://portal.e-lfh.org.uk/>
+2. Locate 'Data Security Awareness (NHSD)' under 'My elearning'.
+3. Click 'Data Security Awareness - Level 1'.
+4. Click 'Play', complete the course and assessment.
 
 ### If not Completed before
-1.  Register an account on e-LfH: <https://portal.e-lfh.org.uk/Register> (using FITFILE email).
-2.  Go to 'My Account' -> 'Reporting Permissions'.
-3.  Enter username KOTS0262, click 'Find', then 'Add User'.
-4.  Send my e-LfH username to the email sender.
-5.  Go to 'My e-Learning' -> 'Full Catalogue'.
-6.  Scroll to 'Data Security Awareness (NHSD)', click it.
-7.  Click 'Data Security Awareness – Level 1', then 'Enrol', then 'Continue with Enrolment'.
-8.  Go to 'My elearning', click 'Data Security Awareness (NHSD)'.
-9.  Click 'Data Security Awareness - Level 1'.
+
+1. Register an account on e-LfH: <https://portal.e-lfh.org.uk/Register> (using FITFILE email).
+2. Go to 'My Account' -> 'Reporting Permissions'.
+3. Enter username KOTS0262, click 'Find', then 'Add User'.
+4. Send my e-LfH username to the email sender.
+5. Go to 'My e-Learning' -> 'Full Catalogue'.
+6. Scroll to 'Data Security Awareness (NHSD)', click it.
+7. Click 'Data Security Awareness – Level 1', then 'Enrol', then 'Continue with Enrolment'.
+8. Go to 'My elearning', click 'Data Security Awareness (NHSD)'.
+9. Click 'Data Security Awareness - Level 1'.
 10. Click 'Play', complete the course and assessment.
 
 **Important Note:** Even if the FOI section doesn't apply to FITFILE, there will be a question about it on the assessment.

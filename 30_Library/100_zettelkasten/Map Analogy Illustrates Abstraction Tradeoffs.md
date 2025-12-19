@@ -22,9 +22,11 @@ updated:
 **Summary:** Different map scales demonstrate how abstraction levels reveal or obscure information.
 
 **Examples:**
+
 - **Street Map:** Shows building details but lacks regional context
 - **Country Map:** Reveals city relationships but omits streets
 
 **Cognitive Parallel:**
+
 - Low abstraction = detailed but narrow
 - High abstraction = broad but generalized

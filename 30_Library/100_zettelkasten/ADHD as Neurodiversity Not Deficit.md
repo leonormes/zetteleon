@@ -22,6 +22,7 @@ updated:
 **Summary:** ADHD represents a natural variation in brain function rather than a pathological disorder.
 
 **Key Aspects:**
+
 - Interest-based nervous system
 - Divergent cognitive strengths
 - Requires accommodation not cure
@@ -30,12 +31,14 @@ updated:
 **Existential Aspect:**
 ADHD cognition aligns with [[Existentialism - Existence Precedes Essence]] - creating meaning through engaged action rather than predetermined paths
 **Cognitive Strengths:**
+
 - Natural alignment with [[Absurdism as Rebellion Against Meaninglessness]] in:
   - Novelty-seeking as engagement
   - Interest-based focus as authentic action
   - Rejection of artificial productivity norms
 
 **Implications:**
+
 - Reduces stigma
 - Validates different learning styles
 - Supports workplace adaptations

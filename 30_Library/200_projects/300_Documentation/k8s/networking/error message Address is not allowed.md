@@ -66,8 +66,8 @@ kubectl exec -n kube-system -it $(kubectl get pods -n kube-system -l k8s-app=kub
 kubectl get networkpolicies -n public-ingress
 ```
 
-   - Ensure that network policies aren't blocking connections from your jumpbox's IP range or the namespace where your `kubectl` client is running.
-   - If you have any global network policies, verify those as well.
+- Ensure that network policies aren't blocking connections from your jumpbox's IP range or the namespace where your `kubectl` client is running.
+- If you have any global network policies, verify those as well.
 
 3. Test Connectivity from a Pod:
 
@@ -111,7 +111,7 @@ kubectl get pods -n public-ingress -l app.kubernetes.io/name=ingress-nginx -l ap
 kubectl config current-context
 ```
 
-   - Verify the server address in the kubeconfig.
+- Verify the server address in the kubeconfig.
 
 7. Ingress Nginx Controller Version:
 

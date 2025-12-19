@@ -24,5 +24,6 @@ Instead of forcing a direct confrontation with the high-resistance item, you bui
 This technique productively channels the brain's natural tendency to seek the path of least resistance, distinguishing it from unproductive procrastination.
 
 ## Connections
+
 - `supports::` [[Action Creates Motivation by Overcoming Inertia]]
 - `contrasts::` [[Productive Procrastination as an Avoidance Strategy]]

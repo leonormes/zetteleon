@@ -21,4 +21,5 @@ updated:
 Regular review and adjustment of routines (monthly and seasonally) prevents stagnation and ensures routines continue to meet changing needs, acknowledging that neurodivergent support needs vary with life circumstances and seasonal factors.
 
 ## Related
+
 - [[MOC - Strategies for ADHD Brains in a Neurotypical World]]

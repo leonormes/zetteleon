@@ -57,9 +57,9 @@ The **Honeyman Method** is an adaptive, three-tiered framework for managing rout
 
 - **Scope:** The absolute "Minimum Viable Action" (MVA) required to keep the lights on.
 
-    - *Example:* "Brush teeth" (instead of 10-step skincare).
+  - *Example:* "Brush teeth" (instead of 10-step skincare).
 
-    - *Example:* "Open Obsidian Daily Note" (instead of writing 500 words).
+  - *Example:* "Open Obsidian Daily Note" (instead of writing 500 words).
 
 - **ProdOS Role:** **Survival.** The goal is purely **Continuity**. Keeping the chain unbroken prevents the "Wall of Awful" from rebuilding.
 
@@ -83,8 +83,8 @@ We integrate the Honeyman Method into the **Daily Plan** and **Hansei** phases.
 
 When engaging with the system (via [[SoT - PRODOS - Knowledge Synthesis (Thinking)|Daily Note]]), the user explicitly declares their **Energy Tier**:
 
-1.  **Assess:** "My battery is at 20%." (Tier 3).
-2.  **Adjust Scope:** The LLM (or user) filters the specific Todoist view:
+1. **Assess:** "My battery is at 20%." (Tier 3).
+2. **Adjust Scope:** The LLM (or user) filters the specific Todoist view:
     - *Tier 1:* Show all `@Next` tasks + `@Project` work.
     - *Tier 2:* Show only `P1` (Critical) tasks.
     - *Tier 3:* Show only `P1` + `@Quick` (MVA).

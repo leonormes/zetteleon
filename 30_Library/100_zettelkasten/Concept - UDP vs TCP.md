@@ -22,5 +22,6 @@ updated: 2025-11-22T15:00:11Z
 **Summary:** UDP (User Datagram Protocol) is a connectionless, unreliable protocol, while TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery.
 
 **Details:**
+
 - **TCP:** Manages connections, ensures packet ordering, handles retransmissions for lost data, and performs congestion control.
 - **UDP:** operates effectively as a "fire and forget" mechanism. It does not guarantee ordering or delivery. It delivers whole datagrams rather than a stream, leaving reliability and error handling to the application layer.

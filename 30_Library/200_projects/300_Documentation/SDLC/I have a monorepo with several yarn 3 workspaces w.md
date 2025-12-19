@@ -181,7 +181,8 @@ sonarqube-check:
 ```
 
 - The `-Dsonar.qualitygate.wait=true` ensures the job waits for the Quality Gate result.
-    - Set `allow_failure: false` to fail the pipeline if the Quality Gate fails.
+  - Set `allow_failure: false` to fail the pipeline if the Quality Gate fails.
+
 2. **Enforce Pipeline Success for Merging**:
     - In your GitLab project, go to **Settings > General > Merge Requests > Merge Checks**.
     - Enable the option **"Pipelines must succeed"**. This ensures a failed pipeline (due to a failed Quality Gate) blocks the merge request.
@@ -246,8 +247,8 @@ To integrate SonarQube with GitLab for code quality analysis in pull requests, f
 - Install and set up SonarQube.
 - Create a project in SonarQube and note the project key and token[^6_1].
 - Enable GitLab integration under **Administration > Configuration > General Settings > DevOps Platform Integration**:
-    - Provide GitLab API URL.
-    - Add your GitLab token for authentication[^6_2][^6_3].
+  - Provide GitLab API URL.
+  - Add your GitLab token for authentication[^6_2][^6_3].
 
 #### **2. Modify `.gitlab-ci.yml`**
 
@@ -322,15 +323,15 @@ This prompt is designed to elicit a detailed response covering all aspects of yo
 #### **1. Prerequisites for Integration**
 
 - **SonarQube Setup**:
-    - Use **SonarQube Developer Edition or higher** to enable branch analysis, merge request decoration, and Quality Gate enforcement[^8_1][^8_4].
-    - Configure the SonarQube server base URL in **Administration > Configuration > General Settings > General**[^8_1].
-    - Generate a **SonarQube token** for authentication with GitLab.
+  - Use **SonarQube Developer Edition or higher** to enable branch analysis, merge request decoration, and Quality Gate enforcement[^8_1][^8_4].
+  - Configure the SonarQube server base URL in **Administration > Configuration > General Settings > General**[^8_1].
+  - Generate a **SonarQube token** for authentication with GitLab.
 - **GitLab Requirements**:
-    - Use GitLab version **15.6+** for optimal compatibility[^8_1][^8_4].
-    - Create a **Personal Access Token** in GitLab with `api` scope for merge request decoration and `read_api` scope for importing projects[^8_4].
+  - Use GitLab version **15.6+** for optimal compatibility[^8_1][^8_4].
+  - Create a **Personal Access Token** in GitLab with `api` scope for merge request decoration and `read_api` scope for importing projects[^8_4].
 - **CI/CD Environment**:
-    - Install and configure a GitLab Runner with access to your monorepo and SonarQube server.
-    - Ensure the SonarScanner CLI is available in your CI/CD environment[^8_2][^8_10].
+  - Install and configure a GitLab Runner with access to your monorepo and SonarQube server.
+  - Ensure the SonarScanner CLI is available in your CI/CD environment[^8_2][^8_10].
 
 ---
 
@@ -377,14 +378,14 @@ sonarqube-analysis:
 #### **4. Common Issues and Troubleshooting**
 
 - **Authentication Errors**:
-    - Ensure valid tokens are configured in both GitLab and SonarQube.
-    - For self-signed certificates, add them to the Java keystore used by SonarQube[^8_1][^8_10].
+  - Ensure valid tokens are configured in both GitLab and SonarQube.
+  - For self-signed certificates, add them to the Java keystore used by SonarQube[^8_1][^8_10].
 - **Merge Request Decoration Issues**:
-    - Verify that all `sonar.pullrequest.*` parameters are correctly set in `.gitlab-ci.yml`.
-    - Ensure the GitLab account used for decoration has at least `Reporter` permissions on the repository[^8_4].
+  - Verify that all `sonar.pullrequest.*` parameters are correctly set in `.gitlab-ci.yml`.
+  - Ensure the GitLab account used for decoration has at least `Reporter` permissions on the repository[^8_4].
 - **Pipeline Failures**:
-    - Missing or incorrect paths in `sonar-project.properties` can cause analysis failures.
-    - Use `allow_failure: false` in `.gitlab-ci.yml` to ensure Quality Gate failures block pipelines as expected[^8_6][^8_9].
+  - Missing or incorrect paths in `sonar-project.properties` can cause analysis failures.
+  - Use `allow_failure: false` in `.gitlab-ci.yml` to ensure Quality Gate failures block pipelines as expected[^8_6][^8_9].
 
 ---
 
@@ -425,8 +426,8 @@ Here are the specific steps to import GitLab projects into SonarQube:
 
 - Navigate to **Administration > Configuration > General Settings > DevOps Platform Integration** in SonarQube.
 - Select the **GitLab** tab and configure:
-    - **GitLab URL**: Enter your GitLab instance URL (e.g., `https://gitlab.com` or your self-hosted URL).
-    - **Personal Access Token**: Generate a token in GitLab with `read_api` scope for importing repositories. Paste it into SonarQube.
+  - **GitLab URL**: Enter your GitLab instance URL (e.g., `https://gitlab.com` or your self-hosted URL).
+  - **Personal Access Token**: Generate a token in GitLab with `read_api` scope for importing repositories. Paste it into SonarQube.
 
 ---
 

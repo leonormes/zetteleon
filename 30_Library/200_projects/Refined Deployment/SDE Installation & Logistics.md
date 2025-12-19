@@ -61,8 +61,8 @@ This enables automated, secure, and non-interactive deployment.
 
 - **Service Principal Implementation:** The Service Principal must be implemented in the cloud subscription/account to allow for a **"one-button" deployment** of infrastructure.
 - **Conditional Access Mitigation (If Required):** If the Data Provider's Conditional Access or device compliance policies block interactive sign-ins from the jumpbox, one of the following mitigations is required:
-	- Add an **exception** for the jumpbox (or its IP range) in the relevant Conditional Access policy.
-	- Use a **dedicated, non-interactive deployment identity (service principal)** with scoped permissions for deployment, logging in non-interactively from the jumpbox or a CI/CD runner.
+  - Add an **exception** for the jumpbox (or its IP range) in the relevant Conditional Access policy.
+  - Use a **dedicated, non-interactive deployment identity (service principal)** with scoped permissions for deployment, logging in non-interactively from the jumpbox or a CI/CD runner.
 
 ---
 
@@ -136,12 +136,12 @@ Certainly. Given the email is directed to Christopher Wiggins and Oliver Chandle
 
 - **Feedback/Forward:** Provide feedback on the five-point list of network resources and information and forward the list to Joao if required.
 - **Resource Provisioning:** Ensure the following necessary technical resources and information are provisioned or available ahead of the Christmas change freeze for successful deployment:
-	- The Azure VNet configuration, peering, and traffic forwarding (Hub-Spoke Connectivity).
-	- The /24 CIDR block allocation , Central Firewall Private IP (`[Firewall_Private_IP]`) , and Corporate DNS Server IP (`[Customer_DNS_Server_IP]`).
-	- The Firewall rules configured to allow required outbound traffic (using the detailed endpoints list from FITFILE).
-	- The Service Principal is implemented.
-	- A user account for Ollie and Leon (using their FITFILE email addresses) is created for Jumpbox access.
-	- Conditional Access mitigations for the Jumpbox are implemented, if necessary (either an exception or a non-interactive deployment identity).
+  - The Azure VNet configuration, peering, and traffic forwarding (Hub-Spoke Connectivity).
+  - The /24 CIDR block allocation , Central Firewall Private IP (`[Firewall_Private_IP]`) , and Corporate DNS Server IP (`[Customer_DNS_Server_IP]`).
+  - The Firewall rules configured to allow required outbound traffic (using the detailed endpoints list from FITFILE).
+  - The Service Principal is implemented.
+  - A user account for Ollie and Leon (using their FITFILE email addresses) is created for Jumpbox access.
+  - Conditional Access mitigations for the Jumpbox are implemented, if necessary (either an exception or a non-interactive deployment identity).
 
 ---
 
@@ -161,8 +161,9 @@ The entire list of technical installation requirements represents **critical dep
 
 - **Pre-Christmas Change Freeze:** The required network resources and information need to be available *ahead* of the Christmas change freeze to ensure a successful deployment.
 - **Live Data Transition:** The ability to transition to **Live data** is dependent on two prior actions:
-	1. **Data Sharing Agreement:** This is confirmed as signed by John Bradley. (Risk mitigated/Dependency met).
-	2. **Synthetic Data Flow & Testing:** Live data transition can only occur *once* synthetic data is flowing and tested.
+
+ 1. **Data Sharing Agreement:** This is confirmed as signed by John Bradley. (Risk mitigated/Dependency met).
+ 2. **Synthetic Data Flow & Testing:** Live data transition can only occur *once* synthetic data is flowing and tested.
 
 ---
 
@@ -181,8 +182,9 @@ The primary risk mentioned relates to **Jumpbox access** and Conditional Access 
 
 - **Risk:** The Data Provider’s Conditional Access or device compliance policies could **block interactive sign-ins** from the Jumpbox.
 - **Mitigations:** Two options are provided to mitigate this risk and ensure the application deployment can be initiated:
-	1. **Add an Exception:** Add an exception for the jumpbox (or its IP range) in the relevant Conditional Access policy.
-	2. **Use Dedicated Identity:** Use a dedicated, non-interactive deployment identity (service principal) with scoped permissions for deployment, and log in non-interactively from the jumpbox or a CI/CD runner.
+
+ 1. **Add an Exception:** Add an exception for the jumpbox (or its IP range) in the relevant Conditional Access policy.
+ 2. **Use Dedicated Identity:** Use a dedicated, non-interactive deployment identity (service principal) with scoped permissions for deployment, and log in non-interactively from the jumpbox or a CI/CD runner.
 
 ---
 
@@ -200,10 +202,10 @@ The email establishes a communication and accountability framework for the SDE i
 
 - **Role:** Project coordinator, key communicator between FITFILE and the Data Provider (MKUH), and requirements driver.
 - **Responsibility:**
-	- Initiate and track the progression of the technical installation.
-	- Confirm completion of major contractual prerequisites (DSA signed, payment processed).
-	- Provide the definitive list of technical resources and information required from the Data Provider.
-	- Request updates and scheduling confirmations (PM allocation, meeting attendees).
+  - Initiate and track the progression of the technical installation.
+  - Confirm completion of major contractual prerequisites (DSA signed, payment processed).
+  - Provide the definitive list of technical resources and information required from the Data Provider.
+  - Request updates and scheduling confirmations (PM allocation, meeting attendees).
 
 ---
 
@@ -211,11 +213,11 @@ The email establishes a communication and accountability framework for the SDE i
 
 - **Role:** Key contacts and operational leads for the Data Provider (MKUH), responsible for overseeing the fulfillment of technical and logistical requirements.
 - **Responsibility:**
-	- Progress the initial change requests (Subscription, IP Addresses, Service Principles).
-	- Provide feedback on the technical requirements and forward them to Joao if necessary.
-	- Confirm the allocation of a Programme Manager (PM).
-	- Confirm attendance of the PM and Joao for the critical call next week, or advise if the meeting needs to be rescheduled.
-	- Ensure all necessary network resources and information (VNet configuration, IP addresses, Firewall rules, Service Principal, Jumpbox access/mitigations) are made available within the Data Provider site before the Christmas change freeze.
+  - Progress the initial change requests (Subscription, IP Addresses, Service Principles).
+  - Provide feedback on the technical requirements and forward them to Joao if necessary.
+  - Confirm the allocation of a Programme Manager (PM).
+  - Confirm attendance of the PM and Joao for the critical call next week, or advise if the meeting needs to be rescheduled.
+  - Ensure all necessary network resources and information (VNet configuration, IP addresses, Firewall rules, Service Principal, Jumpbox access/mitigations) are made available within the Data Provider site before the Christmas change freeze.
 
 ---
 
@@ -224,8 +226,8 @@ The email establishes a communication and accountability framework for the SDE i
 - **Role (Joao):** Implied IT Services/Technical Lead for the Data Provider (MKUH), critical for the technical installation and support.
 - **Role (PM):** Programme Manager, responsible for project oversight and logistics planning.
 - **Responsibility:**
-	- **Joao:** Address and action the technical requirements list (likely regarding the configuration of Azure, VNets, Firewall, etc.). His attendance at the call is considered **critical** for support from the IT services team.
-	- **PM:** Join the call on Tuesday next week and take over the programmatic oversight from the Data Provider side.
+  - **Joao:** Address and action the technical requirements list (likely regarding the configuration of Azure, VNets, Firewall, etc.). His attendance at the call is considered **critical** for support from the IT services team.
+  - **PM:** Join the call on Tuesday next week and take over the programmatic oversight from the Data Provider side.
 
 ---
 
@@ -233,7 +235,7 @@ The email establishes a communication and accountability framework for the SDE i
 
 - **Role:** Technical implementation and support team for the SDE deployment.
 - **Responsibility:**
-	- Provide the detailed list of required endpoints for firewall configuration.
-	- **Ollie and Leon:** Require external user accounts to be created to access the Jumpbox for application deployment.
+  - Provide the detailed list of required endpoints for firewall configuration.
+  - **Ollie and Leon:** Require external user accounts to be created to access the Jumpbox for application deployment.
 
 ---

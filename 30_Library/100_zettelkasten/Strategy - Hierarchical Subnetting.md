@@ -23,6 +23,7 @@ updated: 2025-11-22T15:05:01Z
 
 **Details:**
 Instead of calculating a small subnet directly from a large parent prefix (e.g., a `/29` from a `/24` using a large index), this strategy suggests:
-1.  Carving a larger intermediate block (e.g., a `/26` "jumpbox area") from the parent.
-2.  Carving the final subnet (e.g., the `/29`) from that intermediate block.
+
+1. Carving a larger intermediate block (e.g., a `/26` "jumpbox area") from the parent.
+2. Carving the final subnet (e.g., the `/29`) from that intermediate block.
 This improves readability by making the "location" of subnets within the address space explicit and avoids using large, opaque index numbers (like `netnum 16`) that are hard to verify mentally.

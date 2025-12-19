@@ -22,9 +22,10 @@ updated:
 
 > [!definition] Definition
 > Cloud Internet Connectivity is not a default state but an engineered path. It requires three distinct layers to function:
-> 1.  **Gateway Device:** A bridge between the private virtual network and the public internet.
-> 2.  **Routing:** Explicit rules (`0.0.0.0/0`) directing traffic to that gateway.
-> 3.  **Addressing:** Public IPs (identity) and NAT (translation) to permit communication.
+>
+> 1. **Gateway Device:** A bridge between the private virtual network and the public internet.
+> 2. **Routing:** Explicit rules (`0.0.0.0/0`) directing traffic to that gateway.
+> 3. **Addressing:** Public IPs (identity) and NAT (translation) to permit communication.
 
 ---
 
@@ -40,9 +41,9 @@ Gateways are the physical/virtual appliances that act as the portal for traffic.
 
 - **Cloud Implementation:**
 
-    - **AWS:** **Internet Gateway (IGW)**. Must be explicitly created and attached to the VPC.
+  - **AWS:** **Internet Gateway (IGW)**. Must be explicitly created and attached to the VPC.
 
-    - **Azure:** **Implicit.** Azure VNets have default outbound access via the backbone. For inbound, you associate a Public IP directly to a NIC or Load Balancer.
+  - **Azure:** **Implicit.** Azure VNets have default outbound access via the backbone. For inbound, you associate a Public IP directly to a NIC or Load Balancer.
 
 ### B. NAT Gateway (Egress Only)
 
@@ -52,9 +53,9 @@ Gateways are the physical/virtual appliances that act as the portal for traffic.
 
 - **Cloud Implementation:**
 
-    - **AWS:** **NAT Gateway**. A managed service deployed in a Public Subnet. Private subnets route to it.
+  - **AWS:** **NAT Gateway**. A managed service deployed in a Public Subnet. Private subnets route to it.
 
-    - **Azure:** **NAT Gateway**. A managed service attached to a subnet. It takes precedence over default system routing.
+  - **Azure:** **NAT Gateway**. A managed service attached to a subnet. It takes precedence over default system routing.
 
 ---
 
@@ -68,11 +69,11 @@ Having a gateway is useless if the network doesn't know how to reach it.
 
 - **Subnet Types:**
 
-    - **Public Subnet:** Route Table sends `0.0.0.0/0` -> **Internet Gateway**.
+  - **Public Subnet:** Route Table sends `0.0.0.0/0` -> **Internet Gateway**.
 
-    - **Private Subnet:** Route Table sends `0.0.0.0/0` -> **NAT Gateway**.
+  - **Private Subnet:** Route Table sends `0.0.0.0/0` -> **NAT Gateway**.
 
-    - **Isolated Subnet:** No route to `0.0.0.0/0`.
+  - **Isolated Subnet:** No route to `0.0.0.0/0`.
 
 ---
 
@@ -80,9 +81,9 @@ Having a gateway is useless if the network doesn't know how to reach it.
 
 - **Public IP:** A globally routable address.
 
-    - *AWS:* **Elastic IP (EIP)**. Static public IPs attached to NAT Gateways or Instances.
+  - *AWS:* **Elastic IP (EIP)**. Static public IPs attached to NAT Gateways or Instances.
 
-    - *Azure:* **Public IP Address**. A standalone resource that can be bound to NAT Gateways, Load Balancers, or VMs.
+  - *Azure:* **Public IP Address**. A standalone resource that can be bound to NAT Gateways, Load Balancers, or VMs.
 
 - **Private IP:** Non-routable (RFC1918) addresses used internally (e.g., `10.0.0.5`).
 
@@ -104,15 +105,17 @@ Having a gateway is useless if the network doesn't know how to reach it.
 
 ### Pattern A: The Public Subnet
 *Direct access to the internet.*
-1.  **Resource:** EC2/VM with Public IP.
-2.  **Route:** `0.0.0.0/0` -> Internet Gateway.
-3.  **Flow:** Traffic leaves directly via IGW.
+
+1. **Resource:** EC2/VM with Public IP.
+2. **Route:** `0.0.0.0/0` -> Internet Gateway.
+3. **Flow:** Traffic leaves directly via IGW.
 
 ### Pattern B: The Private Subnet (Standard)
 *Secure outbound access.*
-1.  **Resource:** EC2/VM with Private IP only.
-2.  **Route:** `0.0.0.0/0` -> NAT Gateway (which sits in a Public Subnet).
-3.  **Flow:** Traffic -> NAT GW (SNAT) -> Internet Gateway -> Internet.
+
+1. **Resource:** EC2/VM with Private IP only.
+2. **Route:** `0.0.0.0/0` -> NAT Gateway (which sits in a Public Subnet).
+3. **Flow:** Traffic -> NAT GW (SNAT) -> Internet Gateway -> Internet.
 
 ---
 

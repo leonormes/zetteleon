@@ -27,6 +27,7 @@ Critically, selecting the minimum tier on a low-energy day is not failure—it's
 Over time, tracking which tiers you use can provide valuable data about energy patterns and help calibrate whether your tier definitions are realistic.
 
 ## Related
+
 - [[The Honeyman Method uses three-tiered routines to adapt to energy variation]]
 - [[Minimum routines are bare-bones essentials for low-energy days]]
 - [[Multi-tier routine systems improve consistency and self-compassion]]

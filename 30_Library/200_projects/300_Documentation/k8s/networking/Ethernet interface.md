@@ -37,11 +37,11 @@ An Ethernet interface is a network interface that enables devices to communicate
 
 2. Wireless Interfaces:
    - Utilize radio waves for data transmission
-   - Include Wi-Fi (IEEE 802.11 standards)[12]
+   - Include Wi-Fi [IEEE 802.11 standards](12)
    - Offer mobility and convenience
 
 3. Fiber Channel (FC) Interfaces:
-   - Designed for high-speed data transfer in storage area networks (SANs)[14]
+   - Designed for high-speed data transfer in storage area networks [SANs](14)
    - Use fiber optic cables for transmission
 
 4. InfiniBand (IB) Interfaces:
@@ -186,24 +186,24 @@ The `ip link add` command supports several other types and configurations. Here 
 #### Types of Links
 
 - `bridge`: Creates a software bridge device for connecting multiple interfaces.
-    - Example: `ip link add br0 type bridge`
+  - Example: `ip link add br0 type bridge`
 - `dummy`: Creates a dummy interface for testing or administrative purposes.
-    - Example: `ip link add dummy0 type dummy`
+  - Example: `ip link add dummy0 type dummy`
 - `bond`: Creates a bonded interface for combining multiple physical links into one (e.g., for redundancy or performance).
-    - Example: `ip link add bond0 type bond`
+  - Example: `ip link add bond0 type bond`
 - `vxlan`: Creates a VXLAN interface for overlay networking.
-    - Example: `ip link add vxlan0 type vxlan id 42 dev eth0`
+  - Example: `ip link add vxlan0 type vxlan id 42 dev eth0`
 - `macvlan`: Creates a MACVLAN interface to assign a separate MAC address for containers or virtual machines.
-    - Example: `ip link add macvlan0 link eth0 type macvlan mode bridge`
+  - Example: `ip link add macvlan0 link eth0 type macvlan mode bridge`
 
 #### Additional Options
 
 - `mtu <size>`: Set the maximum transmission unit for the interface.
-    - Example: `ip link add veth0 type veth mtu 1400 peer name veth1`
+  - Example: `ip link add veth0 type veth mtu 1400 peer name veth1`
 - `netns <namespace>`: Assign one of the veth pair interfaces to a specific network namespace.
-    - Example: `ip link add veth0 type veth peer name veth1 netns ns1`
+  - Example: `ip link add veth0 type veth peer name veth1 netns ns1`
 - `txqueuelen <number>`: Set the transmit queue length for the interface.
-    - Example: `ip link add veth0 type veth txqueuelen 1000 peer name veth1`
+  - Example: `ip link add veth0 type veth txqueuelen 1000 peer name veth1`
 
 ---
 

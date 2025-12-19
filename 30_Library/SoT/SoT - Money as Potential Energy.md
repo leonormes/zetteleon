@@ -54,13 +54,13 @@ Spending is not a Scalar quantity (Amount); it is a **Vector** quantity (Amount 
 
 - **Direction:** Towards high-entropy consumption (status signals, transient pleasures).
 
-- **System Impact:** The potential energy is converted into heat and vanishes. The system returns to its previous state. ($E 	o 0$).
+- **System Impact:** The potential energy is converted into heat and vanishes. The system returns to its previous state. ($E  o 0$).
 
 ### 3.2 Generative Work (Leverage)
 
 - **Direction:** Towards capital assets, R&D, or infrastructure.
 
-- **System Impact:** The energy builds a "machine" that reduces the energy cost of future tasks. It creates local order (negentropy). ($E 	o E + \Delta$).
+- **System Impact:** The energy builds a "machine" that reduces the energy cost of future tasks. It creates local order (negentropy). ($E  o E + \Delta$).
 
 ---
 
@@ -72,9 +72,9 @@ The holder of money acts as the **Scheduler** for the societal CPU.
 
 - **Command Types:**
 
-    - *Low-Level:* "Fetch food."
+  - *Low-Level:* "Fetch food."
 
-    - *High-Level:* "Build fusion reactor."
+  - *High-Level:* "Build fusion reactor."
 
 - **Authority:** Power lies not in possessing the token, but in the architectural authority to determine *which* subroutines the collective workforce executes next.
 
@@ -121,6 +121,7 @@ The "1%" is a statistical demographic. The "Personal 100%" is a state of being w
 ## 8. Summary
 
 **The Work-Abstraction Theory of Money:**
-1.  **Tokenization:** Money is past labour stored as potential.
-2.  **Actuation:** Spending converts potential to kinetic effort.
-3.  **Efficiency:** Power is maximized when the allocation vector points towards **Generative Work**.
+
+1. **Tokenization:** Money is past labour stored as potential.
+2. **Actuation:** Spending converts potential to kinetic effort.
+3. **Efficiency:** Power is maximized when the allocation vector points towards **Generative Work**.

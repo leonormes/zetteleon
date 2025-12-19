@@ -68,13 +68,13 @@ The complex, derived values used by infrastructure resources.
 
 - **Examples:**
 
-    - DNS Hostnames: `user-service.prod.my-company.co.uk`
+  - DNS Hostnames: `user-service.prod.my-company.co.uk`
 
-    - S3 Buckets: `my-company-prod-user-service-assets`
+  - S3 Buckets: `my-company-prod-user-service-assets`
 
-    - Secret Paths: `/prod/user-service/db_creds`
+  - Secret Paths: `/prod/user-service/db_creds`
 
-    - Tags: `{ Application="user-service", Env="prod", ... }`
+  - Tags: `{ Application="user-service", Env="prod", ... }`
 
 ---
 
@@ -85,10 +85,11 @@ The complex, derived values used by infrastructure resources.
 GIC is particularly powerful when chaining tools. Terraform acts as the "Root Generator," producing values that are then passed downstream.
 
 **The Workflow:**
-1.  **Kernel:** Developer commits a minimal `.tfvars` file.
-2.  **Generator:** Terraform GIC module derives all names, tags, and paths.
-3.  **Infrastructure:** Terraform provisions cloud resources using these derived values.
-4.  **Application:** Terraform renders values for Helm charts (or other app configs) using the *same* generated data, ensuring the application layer and infrastructure layer are perfectly synchronized.
+
+1. **Kernel:** Developer commits a minimal `.tfvars` file.
+2. **Generator:** Terraform GIC module derives all names, tags, and paths.
+3. **Infrastructure:** Terraform provisions cloud resources using these derived values.
+4. **Application:** Terraform renders values for Helm charts (or other app configs) using the *same* generated data, ensuring the application layer and infrastructure layer are perfectly synchronized.
 
 ### Benefits
 
@@ -104,10 +105,10 @@ GIC is particularly powerful when chaining tools. Terraform acts as the "Root Ge
 
 ## 4. Minimum Viable Understanding (MVU)
 
-1.  **Input Minimal Intent:** Only define what distinguishes this deployment (Name, Env).
-2.  **Generate Complexity:** Use code to derive names, paths, and tags based on strict protocols.
-3.  **Consolidate Config:** Use the generated outputs to drive both Infrastructure (Terraform) and Application (Helm) configuration.
-4.  **Fail Fast:** Validate the Generator code, so individual deployments are safe by default.
+1. **Input Minimal Intent:** Only define what distinguishes this deployment (Name, Env).
+2. **Generate Complexity:** Use code to derive names, paths, and tags based on strict protocols.
+3. **Consolidate Config:** Use the generated outputs to drive both Infrastructure (Terraform) and Application (Helm) configuration.
+4. **Fail Fast:** Validate the Generator code, so individual deployments are safe by default.
 
 ---
 

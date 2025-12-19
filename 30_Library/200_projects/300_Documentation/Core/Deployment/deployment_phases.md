@@ -29,10 +29,11 @@ Deployment Phase: 1
 Core tooling and access setup required for all subsequent deployments.
 
 #### Critical Prerequisites
-   - Organization setup
-   - Project creation
-   - Variable sets configuration
-   - VCS provider integration
+
+- Organization setup
+- Project creation
+- Variable sets configuration
+- VCS provider integration
 
 #### Components
 

@@ -42,11 +42,12 @@ data:
 ```
 
 ### Consumption Models
-1.  **Volume Mount (Recommended):**
+
+1. **Volume Mount (Recommended):**
     - Secrets appear as files in `/etc/secrets/`.
     - **Updates:** Automatic (eventual consistency). Kubelet syncs changes.
     - **Security:** Data lives in `tmpfs` (RAM), never written to disk.
-2.  **Environment Variable:**
+2. **Environment Variable:**
     - Injected at startup: `valueFrom: secretKeyRef`.
     - **Updates:** **None.** Requires Pod restart.
     - **Risk:** Leaked in crash dumps and `ps` output.
@@ -63,8 +64,8 @@ By default, Kubernetes stores secrets as **plaintext** Protobuf in Etcd. Anyone 
 
 To secure this, the API Server must be configured with an **EncryptionConfiguration**.
 
-1.  **DEK (Data Encryption Key):** Encrypts the payload.
-2.  **KEK (Key Encryption Key):** Encrypts the DEK. Stored in an external KMS (Vault/AWS KMS).
+1. **DEK (Data Encryption Key):** Encrypts the payload.
+2. **KEK (Key Encryption Key):** Encrypts the DEK. Stored in an external KMS (Vault/AWS KMS).
 
 ---
 
@@ -84,6 +85,6 @@ Since you cannot commit secrets to Git:
 
 ## 5. Security Hardening
 
-1.  **Immutable Secrets:** Set `immutable: true` to prevent accidental overwrites and improve performance (no API watching).
-2.  **RBAC Least Privilege:** Never grant `list` on Secrets cluster-wide.
-3.  **AutomountServiceAccountToken:** Set to `false` for Pods that don't need API access to prevent credential leakage.
+1. **Immutable Secrets:** Set `immutable: true` to prevent accidental overwrites and improve performance (no API watching).
+2. **RBAC Least Privilege:** Never grant `list` on Secrets cluster-wide.
+3. **AutomountServiceAccountToken:** Set to `false` for Pods that don't need API access to prevent credential leakage.

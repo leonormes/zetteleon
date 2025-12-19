@@ -41,7 +41,7 @@ updated:
 
 - **[[VIA Virtue of Justice]]** — *The character strengths related to civic duty and fairness.*
 
-    - **[[Teamwork is Working Well as a Member of a Group]]** — *Citizenship and social responsibility.*
+  - **[[Teamwork is Working Well as a Member of a Group]]** — *Citizenship and social responsibility.*
 
 - **[[VIA Virtue of Humanity]]** — *Interpersonal strengths like kindness and social intelligence.*
 

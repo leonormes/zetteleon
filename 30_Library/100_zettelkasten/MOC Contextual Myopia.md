@@ -26,10 +26,11 @@ updated:
 Contextual Myopia is not a single bias but a **chain reaction** of cognitive failures.
 
 ### The 4-Stage Cycle
-1.  **The Trigger (Narrowing):** The environment (e.g., a full-screen IDE) restricts sensory input, creating a "Bubble."
-2.  **The Lens (Distortion):** **[[The Focusing Illusion]]** magnifies the importance of whatever is inside the bubble.
-3.  **The Error (Displacement):** **[[Goal Displacement]]** occurs—we mistake the *process* (refactoring) for the *goal* (shipping).
-4.  **The Trap (Lock-In):** **[[Sunk Cost Fallacy Reinforces Myopia]]** prevents escape. We double down to justify the wasted time.
+
+1. **The Trigger (Narrowing):** The environment (e.g., a full-screen IDE) restricts sensory input, creating a "Bubble."
+2. **The Lens (Distortion):** **[[The Focusing Illusion]]** magnifies the importance of whatever is inside the bubble.
+3. **The Error (Displacement):** **[[Goal Displacement]]** occurs—we mistake the *process* (refactoring) for the *goal* (shipping).
+4. **The Trap (Lock-In):** **[[Sunk Cost Fallacy Reinforces Myopia]]** prevents escape. We double down to justify the wasted time.
 
 ---
 

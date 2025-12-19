@@ -30,8 +30,8 @@ To establish a secure Azure tenant with least privilege access and robust root p
 
 - Never assign permanent User Access Administrator or Global Administrator roles at the root management group (`/`). Elevate privileges temporarily via Azure AD Privileged Identity Management (PIM) only during emergencies or critical tasks like initial tenant setup[^1_2][^1_3].
 - Use break-glass accounts for emergencies:
-    - Store credentials in Azure Key Vault with limited access and strict monitoring[^1_4][^1_9].
-    - Enforce multi-factor authentication (MFA) and geo-locking for these accounts[^1_5][^1_7].
+  - Store credentials in Azure Key Vault with limited access and strict monitoring[^1_4][^1_9].
+  - Enforce multi-factor authentication (MFA) and geo-locking for these accounts[^1_5][^1_7].
 
 **2. Monitor Root Activity**
 
@@ -57,8 +57,8 @@ Configure alerts to trigger for any User Access Administrator assignments at roo
 **2. Just-In-Time (JIT) Access**
 
 - Require PIM activation for all privileged roles, including:
-    - Time-bound access (e.g., 8-hour max).
-    - Mandatory MFA and approval workflows[^1_1][^1_7].
+  - Time-bound access (e.g., 8-hour max).
+  - Mandatory MFA and approval workflows[^1_1][^1_7].
 - Automatically revoke permissions after task completion[^1_3][^1_6].
 
 **3. Regular Audits**
@@ -102,9 +102,9 @@ To secure your Azure tenant using GitOps and identity best practices while maint
 
 - Use **private Azure Repos** with SSH key authentication[^2_1][^2_7]
 - Enforce branch protection rules for `main`/`production` branches requiring:
-    - Signed commits via GPG keys[^2_7]
-    - Pull requests with 2+ approvals[^2_2][^2_3]
-    - Automated credential scanning using Microsoft Defender for Cloud[^2_2][^2_8]
+  - Signed commits via GPG keys[^2_7]
+  - Pull requests with 2+ approvals[^2_2][^2_3]
+  - Automated credential scanning using Microsoft Defender for Cloud[^2_2][^2_8]
 
 **2. Secrets Management**
 
@@ -125,9 +125,9 @@ steps:
 **3. Pipeline Security**
 
 - Implement **Azure Pipeline** safeguards:
-    - Restrict agent pools to approved virtual networks
-    - Use managed identities for resource access[^2_8]
-    - Enable **Microsoft Defender for DevOps** for CI/CD threat detection[^2_2]
+  - Restrict agent pools to approved virtual networks
+  - Use managed identities for resource access[^2_8]
+  - Enable **Microsoft Defender for DevOps** for CI/CD threat detection[^2_2]
 
 ---
 
@@ -137,8 +137,8 @@ steps:
 
 - **Break-glass accounts**: Store in Key Vault with geo-fencing and MFA requirements[^2_4][^2_8]
 - **Global Admin access**:
-    - Require PIM activation with 4-hour max duration
-    - Enforce Azure AD Conditional Access policies:
+  - Require PIM activation with 4-hour max duration
+  - Enforce Azure AD Conditional Access policies:
 
 | Condition | Requirement |
 | :-- | :-- |
@@ -165,8 +165,8 @@ steps:
 **3. Continuous Monitoring**
 
 - Enable **Microsoft Sentinel** for:
-    - Real-time alerting on privilege escalation attempts
-    - Correlation of GitOps changes with IAM events[^2_8]
+  - Real-time alerting on privilege escalation attempts
+  - Correlation of GitOps changes with IAM events[^2_8]
 - Configure Azure Activity Logs to retain data for 2+ years[^2_5]
 
 ---
@@ -209,36 +209,6 @@ This approach reduces human-dependent security decisions by 73% through automate
 
 [^2_8]: <https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices>
 
-[^2_9]: <https://www.wiz.io/academy/azure-security-best-practices>
-
-[^2_10]: <https://cloudsecurityalliance.org/articles/5-best-practices-to-secure-your-azure-resources>
-
-[^2_11]: <https://www.atmosera.com/blog/azure-identity-management-and-access-control-security-best-practices/>
-
-[^2_12]: <https://learn.microsoft.com/en-us/azure/devtest/offer/concepts-gitops-azure-devtest>
-
-[^2_13]: <https://learn.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-gitops-flux2>
-
-[^2_14]: <https://systemweakness.com/secure-your-gitops-repository-in-azure-devops-83695f4b493a>
-
-[^2_15]: <https://learn.microsoft.com/en-us/security/benchmark/azure/security-control-identity-access-control>
-
-[^2_16]: <https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-overview>
-
-[^2_17]: <https://intercept.cloud/en-gb/blogs/azure-security-best-practices>
-
-[^2_18]: <https://cybeready.com/identity-access-management/8-tips-to-secure-iam-on-azure-ad>
-
-[^2_19]: <https://gitprotect.io/blog/azure-devops-security-best-practices/>
-
-[^2_20]: <https://learn.microsoft.com/en-us/azure/architecture/guide/multitenant/service/aks>
-
-[^2_21]: <https://www.linkedin.com/pulse/securing-your-azure-workloads-devsecops-best-practices-yash-sonar-srjac>
-
-[^2_22]: <https://learn.microsoft.com/en-us/azure/architecture/guide/devsecops/devsecops-on-aks>
-
-[^2_23]: <https://maqsoftware.com/insights/azure-security-best-practices>
-
 ---
 
 ## What I want to Understand is how to Bootstrap an Azure Tenant and Entra Instance Using Gitops and Least Privilege. How Do I Set up the Initial account and then Secure the Root Identity? Then Create the Necessary Identities to Get Work Done for the Dev Team
@@ -252,9 +222,9 @@ To bootstrap an Azure tenant with GitOps and least privilege while securing root
 **1. Break-Glass Account Setup**
 
 - Create **2+ emergency accounts** with Global Administrator rights, stored in Azure Key Vault with:
-    - Geo-fencing to trusted locations (e.g., corporate office IPs)
-    - MFA enforced via hardware security keys
-    - Alerting via Microsoft Sentinel for any credential retrieval[^3_3][^3_6]
+  - Geo-fencing to trusted locations (e.g., corporate office IPs)
+  - MFA enforced via hardware security keys
+  - Alerting via Microsoft Sentinel for any credential retrieval[^3_3][^3_6]
 - Disable all permanent Global Admin assignments. Use Azure AD Privileged Identity Management (PIM) for time-bound (max 4 hours), MFA-enforced activation[^3_1][^3_3].
 
 **2. Initial Tenant Lockdown**
@@ -276,8 +246,8 @@ az policy assignment create \
 **1. Infrastructure-as-Code (IaC) Pipeline**
 
 - Use Terraform/ARM templates stored in **private Azure Repos** with:
-    - Branch protection requiring signed commits and 2 approvals
-    - OIDC-based authentication for Azure Pipelines:
+  - Branch protection requiring signed commits and 2 approvals
+  - OIDC-based authentication for Azure Pipelines:
 
 ```hcl
 # Terraform AzureRM provider with OIDC
@@ -374,9 +344,9 @@ Grant `Contributor` only to required resource groups[^3_4][^3_5].
 **2. Continuous Monitoring**
 
 - Enable Microsoft Defender for Cloud to detect:
-    - Unapproved role assignments
-    - Missing MFA on privileged logins
-    - Drift from GitOps-declared state
+  - Unapproved role assignments
+  - Missing MFA on privileged logins
+  - Drift from GitOps-declared state
 - Retain activity logs for 2+ years via Log Analytics[^3_3].
 
 ---
@@ -398,49 +368,5 @@ This framework reduces standing privileges by 89% compared to traditional setups
 [^3_5]: <https://learn.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/service-principal-managed-identity?view=azure-devops>
 
 [^3_6]: <https://hoop.dev/blog/the-simplified-guide-to-least-privilege-access-in-azure-ad-for-tech-managers/>
-
-[^3_7]: <https://blog.admindroid.com/implement-least-privilege-using-entra-id-administrative-units/>
-
-[^3_8]: <https://orca.security/resources/blog/azure-ad-iam-iii-leveraging-managed-identities/>
-
-[^3_9]: <https://learn.microsoft.com/en-us/entra/fundamentals/create-new-tenant>
-
-[^3_10]: <https://learn.microsoft.com/en-us/azure/role-based-access-control/best-practices>
-
-[^3_11]: <https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gitops-aks/gitops-blueprint-aks>
-
-[^3_12]: <https://learn.microsoft.com/en-us/azure/architecture/guide/multitenant/service/aks>
-
-[^3_13]: <https://github.com/Esri/arcgis-gitops/blob/main/azure/README.md>
-
-[^3_14]: <https://learn.microsoft.com/en-us/samples/azure-samples/azure-devops-terraform-oidc-ci-cd/azure-devops-terraform-oidc-ci-cd/>
-
-[^3_15]: <https://learn.microsoft.com/en-us/azure/governance/management-groups/how-to/protect-resource-hierarchy>
-
-[^3_16]: <https://learn.microsoft.com/en-us/entra/identity-platform/secure-least-privileged-access>
-
-[^3_17]: <https://docs.azure.cn/en-us/entra/architecture/secure-introduction>
-
-[^3_18]: <https://docs.openshift.com/rosa/cloud_experts_tutorials/cloud-experts-entra-id-idp.html>
-
-[^3_19]: <https://learn.microsoft.com/en-us/entra/architecture/secure-best-practices>
-
-[^3_20]: <https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/delegate-by-task>
-
-[^3_21]: <https://security-guidance.service.justice.gov.uk/baseline-for-azure-accounts/>
-
-[^3_22]: <https://learn.microsoft.com/en-us/azure/information-protection/get-started-tenant-root-keys>
-
-[^3_23]: <https://stackoverflow.com/questions/73944916/how-do-i-get-my-multi-tenant-azure-function-to-access-resources-in-another-tenan>
-
-[^3_24]: <https://www.cloud-architekt.net/azuread-tenant-hardening-security-settings-considerations/>
-
-[^3_25]: <https://learn.microsoft.com/en-us/azure/information-protection/plan-implement-tenant-key>
-
-[^3_26]: <https://cloud.google.com/blog/topics/threat-intelligence/escalating-privileges-azure-kubernetes-services>
-
-[^3_27]: <https://www.appvia.io/blog/least-privilege-microsoft-azure-ocp-hackathon>
-
-[^3_28]: <https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-create-new-tenant>
 
 ---

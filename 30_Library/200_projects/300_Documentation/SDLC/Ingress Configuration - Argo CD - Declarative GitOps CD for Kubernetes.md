@@ -778,8 +778,8 @@ Once the DNS change is propagated, you're ready to use Argo with your Google Clo
 Argo CD endpoints may be protected by one or more reverse proxies layers, in that case, you can provide additional headers through the `argocd` CLI `--header` parameter to authenticate through those layers.
 
 ```sh
-$ argocd login <host>:<port> --header 'x-token1:foo' --header 'x-token2:bar' # can be repeated multiple times
-$ argocd login <host>:<port> --header 'x-token1:foo,x-token2:bar' # headers can also be comma separated
+argocd login <host>:<port> --header 'x-token1:foo' --header 'x-token2:bar' # can be repeated multiple times
+argocd login <host>:<port> --header 'x-token1:foo,x-token2:bar' # headers can also be comma separated
 ```
 
 ## ArgoCD Server and UI Root Path (v1.5.3)
@@ -831,7 +831,7 @@ http {
 Flag `--grpc-web-root-path` is used to provide a non-root path (e.g. /argo-cd)
 
 ```sh
-$ argocd login <host>:<port> --grpc-web-root-path /argo-cd
+argocd login <host>:<port> --grpc-web-root-path /argo-cd
 ```
 
 ## UI Base Path

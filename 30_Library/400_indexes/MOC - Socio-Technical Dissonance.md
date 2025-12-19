@@ -33,20 +33,20 @@ This is a **Low-Trust, High-Context Political Environment**, where **Social Capi
 
 - **[[SoT - Accidental Social Complexity]]**
 
-    - This is the primary form of waste, where effort is spent on navigating egos and politics instead of solving the inherent technical problem.
+  - This is the primary form of waste, where effort is spent on navigating egos and politics instead of solving the inherent technical problem.
 
 - **[[SoT - Epistemic Trespassing and the HiPPO Effect]]**
 
-    - These concepts explain *why* unqualified authorities (the **H**ighest **P**aid **P**erson's **O**pinion) override qualified experts, leading to flawed decisions.
+  - These concepts explain *why* unqualified authorities (the **H**ighest **P**aid **P**erson's **O**pinion) override qualified experts, leading to flawed decisions.
 
 - **[[SoT - Authority-Competence Asymmetry]]**
 
-    - This note defines the core conflict between **Positional Authority** (power from rank) and **Expert Authority** (power from knowledge), which is the root cause of the dissonance.
+  - This note defines the core conflict between **Positional Authority** (power from rank) and **Expert Authority** (power from knowledge), which is the root cause of the dissonance.
 
 - **[[SoT - Conways Law and Structural Mismatch]]**
 
-    - This explains how the dysfunctional social structure of the organization inevitably becomes encoded into the technical architecture, creating systems that are monolithic, fragile, and inefficient.
+  - This explains how the dysfunctional social structure of the organization inevitably becomes encoded into the technical architecture, creating systems that are monolithic, fragile, and inefficient.
 
 - **[[SoT - Social Friction Coefficient]]**
 
-    - This provides a mental model for measuring the efficiency loss caused by this dissonance, framing it as "social drag" or "meta-work."
+  - This provides a mental model for measuring the efficiency loss caused by this dissonance, framing it as "social drag" or "meta-work."

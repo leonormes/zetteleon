@@ -89,11 +89,11 @@ This concept is a foundational component of the system's epistemology.
 
 The **ProdOS Meta-Strategy** requires knowing *which* mode to deploy:
 
-1.  **Use Applicative Intelligence when:**
+1. **Use Applicative Intelligence when:**
     - The cost of failure is high (Production environments).
     - Speed and reliability are paramount.
     - The problem domain is well-understood (Cynefin: Simple/Complicated).
-2.  **Switch to Generative Intelligence when:**
+2. **Switch to Generative Intelligence when:**
     - The standard solution keeps failing ("The Bug in the Model").
     - You are stuck in a Local Maximum.
     - The problem is novel or chaotic.

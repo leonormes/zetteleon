@@ -121,11 +121,13 @@ Determine the smallest step you can take within your proximal zone
 - One focus block (not full deep work day)
 
 #### Step 3: Execute and Track
+
 - Set timer for micro-habit
 - Track completion externally
 - Provide immediate feedback/reward
 
 #### Step 4: Reflect Weekly
+
 - Celebrate any sustained change, however small
 - Assess: Is this still in my proximal zone?
 - Recalibrate if needed
@@ -154,6 +156,7 @@ Only increase challenge once current step feels **easy and automatic**
 **Unrealistic (Snap-Back Risk):** "I'll write 2000 words every morning at 6 AM"
 
 **One Degree Approach:**
+
 1. **Week 1-2:** Open writing app and write *one sentence* after coffee (proximal zone)
 2. **Week 3-4:** If one sentence feels automatic, increase to *one paragraph*
 3. **Week 5-6:** If paragraph feels easy, increase to *10 minutes timed writing*

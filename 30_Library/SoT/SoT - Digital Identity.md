@@ -51,9 +51,9 @@ Individual pieces of data or claims made about the subject of the identity. Thes
 
 - **Types:**
 
-    - **Self-asserted:** Claimed by the entity itself (e.g., "My name is John").
+  - **Self-asserted:** Claimed by the entity itself (e.g., "My name is John").
 
-    - **Verified:** Attested by a trusted authority (e.g., government digitally confirms date of birth).
+  - **Verified:** Attested by a trusted authority (e.g., government digitally confirms date of birth).
 
 - **Examples:** `given_name: "John"`, `date_of_birth: "1990-10-26"`, `is_over_18: true`, `role: "administrator"`.
 
@@ -107,23 +107,23 @@ Designed to represent a natural person; its claims are tied to legal and social 
 
 - **Core Claims (Who you are):**
 
-    - **Personally Identifiable Information (PII):** Legal name, date of birth, government ID numbers (e.g., passport). Verified by government authorities.
+  - **Personally Identifiable Information (PII):** Legal name, date of birth, government ID numbers (e.g., passport). Verified by government authorities.
 
-    - **Biometrics:** Fingerprints, facial scans, voice patterns (link digital identity to unique physical person).
+  - **Biometrics:** Fingerprints, facial scans, voice patterns (link digital identity to unique physical person).
 
-    - **Contact Information:** Email, phone, physical address.
+  - **Contact Information:** Email, phone, physical address.
 
 - **Entitlement & Status Claims (What you are allowed):**
 
-    - **Qualifications:** University degrees, professional certifications.
+  - **Qualifications:** University degrees, professional certifications.
 
-    - **Status:** "Over 18", "UK Resident", "Employee", "Platinum Member".
+  - **Status:** "Over 18", "UK Resident", "Employee", "Platinum Member".
 
 - **Behavioural Claims (How you act):**
 
-    - **History:** Purchase history, browsing activity.
+  - **History:** Purchase history, browsing activity.
 
-    - **Reputation:** Credit score, online reviews.
+  - **Reputation:** Credit score, online reviews.
 
 ### B. ⚙️ Machine/Application/Process Digital Identity
 
@@ -131,23 +131,23 @@ Designed to represent a non-person entity (NPE) like software, server, IoT devic
 
 - **Core Claims (What it is):**
 
-    - **Unique Identifiers:** UUID, MAC address, service name, process ID (PID), cryptographic key pair.
+  - **Unique Identifiers:** UUID, MAC address, service name, process ID (PID), cryptographic key pair.
 
-    - **Origin & Integrity:** Software vendor, code signature, version number, hash of the binary (proves no tampering).
+  - **Origin & Integrity:** Software vendor, code signature, version number, hash of the binary (proves no tampering).
 
-    - **Configuration:** IP address, operating system, location (e.g., `aws:region:eu-west-2`), hardware specifications.
+  - **Configuration:** IP address, operating system, location (e.g., `aws:region:eu-west-2`), hardware specifications.
 
 - **Entitlement & Status Claims (What it is allowed):**
 
-    - **Roles & Permissions:** "Database Reader", "Queue Writer", "Metrics Publisher" (defined within IAM).
+  - **Roles & Permissions:** "Database Reader", "Queue Writer", "Metrics Publisher" (defined within IAM).
 
-    - **Security Posture:** Security patch level, last vulnerability scan date, compliance status (e.g., "PCI-DSS Compliant").
+  - **Security Posture:** Security patch level, last vulnerability scan date, compliance status (e.g., "PCI-DSS Compliant").
 
 - **Behavioural Claims (How it acts):**
 
-    - **Operational Telemetry:** CPU usage patterns, network traffic flows, API call logs.
+  - **Operational Telemetry:** CPU usage patterns, network traffic flows, API call logs.
 
-    - **Reputation:** Known good or malicious process, IP address reputation.
+  - **Reputation:** Known good or malicious process, IP address reputation.
 
 ---
 
@@ -159,9 +159,9 @@ A digital identity is a **proxy** of a natural person. The link between the data
 
 - **Levels of Assurance (LoA):** The strength of this binding.
 
-    - **Low LoA:** Email and self-asserted name (e.g., social media). Weak link.
+  - **Low LoA:** Email and self-asserted name (e.g., social media). Weak link.
 
-    - **High LoA:** Rigorous proofing against authoritative sources (government IDs, biometrics). Strong, reliable link.
+  - **High LoA:** Rigorous proofing against authoritative sources (government IDs, biometrics). Strong, reliable link.
 
 A single person can have multiple digital identities, each for a different context (professional, social, citizen).
 
@@ -169,10 +169,10 @@ A single person can have multiple digital identities, each for a different conte
 
 ## 6. Minimum Viable Understanding (MVU)
 
-1.  **Digital Identity = Data:** It's a collection of identifiers, attributes, and verifiable credentials.
-2.  **Purpose = Trust:** It enables authentication ("who are you?"), authorization ("what can you do?"), and accountability ("who did it?").
-3.  **Human ≠ Machine:** Claims differ significantly (personal/legal vs. operational/functional).
-4.  **Identity is a Proxy:** It's a digital representation, bound to a person with varying Levels of Assurance.
+1. **Digital Identity = Data:** It's a collection of identifiers, attributes, and verifiable credentials.
+2. **Purpose = Trust:** It enables authentication ("who are you?"), authorization ("what can you do?"), and accountability ("who did it?").
+3. **Human ≠ Machine:** Claims differ significantly (personal/legal vs. operational/functional).
+4. **Identity is a Proxy:** It's a digital representation, bound to a person with varying Levels of Assurance.
 
 ---
 

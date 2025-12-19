@@ -25,6 +25,7 @@ Traditional time-based schedules often create an "all-or-nothing" dynamic: miss 
 This adaptive consistency means that whether you wake at 6 AM or 9 AM, you still execute your morning routine sequence—the events remain consistent even as their timing shifts. This approach is particularly valuable for individuals with variable energy patterns or unpredictable demands, allowing sustained habit formation without the perfectionism trap.
 
 ## Related
+
 - [[Mini routines are event-triggered sequences rather than time-based schedules]]
 - [[Event-based structure reduces time-pressure anxiety]]
 - [[Consistency and Momentum]]

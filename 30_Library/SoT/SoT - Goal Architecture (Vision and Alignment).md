@@ -57,8 +57,8 @@ Project the elicited values onto a mental canvas.
 
 - **Constraint A (Vagueness):** Keep environmental details indistinct (e.g., "a workspace" not "a mahogany desk"). This acts as a **Compass, not a Map**. It allows the unconscious to navigate obstacles flexibly without breaking the pattern if specific details change.
 - **Constraint B (Dissociation):** Visualise your future self from the **3rd Person Perspective** (outside).
-    - *Why:* "Associating" (being inside) signals to the brain that the goal is *achieved*, killing drive.
-    - *Result:* "Dissociating" creates a **Tension Gap** between *Current State* and *Desired State*, generating propulsion.
+  - *Why:* "Associating" (being inside) signals to the brain that the goal is *achieved*, killing drive.
+  - *Result:* "Dissociating" creates a **Tension Gap** between *Current State* and *Desired State*, generating propulsion.
 
 ### Phase 3: Ecology Check (Resistance Integration)
 
@@ -76,9 +76,9 @@ Resistance is not an enemy; it is a system signal protecting a value (e.g., "Saf
 
 This SoT operates as the **Pre-Process**.
 
-1.  **Goal Architecture (This SoT):** Defines the "West" (Direction/Values). Sets the Compass. Encodes the destination.
-2.  **Process Primacy ([[SoT - Process Primacy (Systems Over Goals)]]):** Ignores the destination to focus on the step. "Walk West."
-3.  **Values ([[SoT - Values and Eudaimonia]]):** The fuel source. "Why are we walking?"
+1. **Goal Architecture (This SoT):** Defines the "West" (Direction/Values). Sets the Compass. Encodes the destination.
+2. **Process Primacy ([[SoT - Process Primacy (Systems Over Goals)]]):** Ignores the destination to focus on the step. "Walk West."
+3. **Values ([[SoT - Values and Eudaimonia]]):** The fuel source. "Why are we walking?"
 
 **The Loop:**
 `Values (Fuel)` -> `Vision (Compass)` -> `Process (Walking)` -> `Outcome (Arrival)`

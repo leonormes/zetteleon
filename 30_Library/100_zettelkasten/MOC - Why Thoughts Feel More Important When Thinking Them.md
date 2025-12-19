@@ -86,6 +86,7 @@ This is the essence of what [[Writing Creates Cognitive Distancing]] enables: th
 ### Related Concepts
 
 #### Writing and Externalization
+
 - [[Externalise Everything]]
 - [[Writing as Thinking Tool]]
 - [[Writing puts us in the powerful position of being able to observe our thinking]]
@@ -95,6 +96,7 @@ This is the essence of what [[Writing Creates Cognitive Distancing]] enables: th
 - [[Elaboration Through Own Words Deepens Understanding]]
 
 #### Phenomenology and Consciousness
+
 - [[Qualia and Linguistic Limitations]]
 - [[Implications for Consciousness and Philosophy of Mind]]
 - [[The noumenal-phenomenal distinction limits knowability]]
@@ -102,6 +104,7 @@ This is the essence of what [[Writing Creates Cognitive Distancing]] enables: th
 - [[The Observing Eye vs The Perceiving Eye MOC]]
 
 #### Cognitive Biases
+
 - [[Cognitive Biases Reinforce Mental Models]]
 - [[Knowledge-Related Biases]]
 - [[Common Cognitive Distortions]]
@@ -112,12 +115,14 @@ This is the essence of what [[Writing Creates Cognitive Distancing]] enables: th
 - [[Negativity Bias]]
 
 #### Social and Interpersonal Dimensions
+
 - [[MOC - Social Perception and Self-Awareness]]
 - [[Meta-Accuracy in Social Perception]]
 - [[Techniques for Objective Perception]]
 - [[Self-Observation is the Foundation of Routine Building]]
 
 #### Extended Mind and PKM
+
 - [[The Extended Mind Thesis]]
 - [[My Vision of a Thought Partner]]
 - [[Thought Capture as a Core Thought Partner Feature]]

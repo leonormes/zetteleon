@@ -22,11 +22,13 @@ Based on my analysis of the Terraform configuration for the NNUH-DP cluster usin
 ## **Core Infrastructure Resources**
 
 ### **Resource Group**
+
 - **Name**: Generated as `rg-ff-uks-gp-nnuh-prod` (following naming convention)
 - **Location**: UK South (`uksouth`)
 - **Purpose**: Contains all cluster-related resources
 
 ### **AKS Kubernetes Cluster**
+
 - **Name**: Generated as `aks-ff-uks-gp-nnuh-prod`
 - **Kubernetes Version**: 1.30.0 (configurable via `kubernetes_version`)
 - **Private Cluster**: ✅ Enabled (no public API server endpoint)
@@ -45,6 +47,7 @@ Based on my analysis of the Terraform configuration for the NNUH-DP cluster usin
 ### **Node Pools**
 
 #### **System Node Pool**
+
 - **Name**: `system`
 - **VM Size**: Standard_D2s_v3 (configurable via `vm_size`)
 - **Node Count**: 2 initial, autoscaling 2-10 nodes
@@ -55,6 +58,7 @@ Based on my analysis of the Terraform configuration for the NNUH-DP cluster usin
 - **Max Pods**: 100
 
 #### **Workflows Node Pool**
+
 - **Name**: `workflows`
 - **VM Size**: Standard_E4s_v5
 - **Node Count**: 1 initial, autoscaling 1-10 nodes
@@ -66,17 +70,20 @@ Based on my analysis of the Terraform configuration for the NNUH-DP cluster usin
 - **Taints**: `dedicated=workflows:PreferNoSchedule`, spot priority
 
 ### **Virtual Network (Existing)**
+
 - **Name**: `NNUHFT-SDE-vnet1` (existing VNet, not created by module)
 - **Resource Group**: `NNUHFT-SDE-Networking`
 - **Address Space**: 192.168.200.0/24
 - **DNS Servers**: None specified (uses Azure defaults)
 
 ### **Subnets (Within Existing VNet)**
+
 - **System Subnet**: 192.168.200.64/28 (for default node pool)
 - **Workflows Subnet**: 192.168.200.80/28 (for additional node pool)
 - **Jumpbox Subnet**: 192.168.200.128/29 (for management VM)
 
 ### **Jumpbox Virtual Machine**
+
 - **Name**: `FITFILEJumpbox`
 - **VM Size**: Standard_DS1_v2
 - **OS**: Ubuntu 22.04 LTS Gen2
@@ -88,27 +95,32 @@ Based on my analysis of the Terraform configuration for the NNUH-DP cluster usin
 ### **Networking & Security**
 
 #### **Route Table (Forced Tunneling)**
+
 - **Name**: `rt-ff-uks-gp`
 - **Routes**: All traffic (0.0.0.0/0) → Firewall private IP `192.168.208.4`
 - **Associated Subnets**: System, Workflows, and Jumpbox subnets
 - **Purpose**: Forces all outbound traffic through existing NNUH-HUB firewall
 
 #### **Network Security Groups**
+
 - Applied to all subnets for traffic control
 - Default Azure NSG rules plus any custom rules
 
 ### **Identity & Access**
 
 #### **User-Assigned Managed Identity**
+
 - **Name**: `aks-ff-uks-gp-nnuh-prod-identity`
 - **Purpose**: Used by AKS cluster for accessing Azure resources
 - **Role Assignment**: Network Contributor on the resource group
 
 ### **DNS Configuration**
+
 - **Private DNS Zone**: ❌ Disabled (`private_dns_zone_enabled = false`)
 - **DNS Records**: None created
 
 ### **Conditional Resources (Not Deployed)**
+
 - **Hub Network**: ❌ Not deployed (`hub_deploy` not set)
 - **Azure Firewall**: ❌ Not created (hub network disabled)
 - **Bastion Host**: ❌ Not created (hub network disabled)
@@ -130,6 +142,7 @@ All outbound traffic → Firewall: 192.168.208.4 (NNUH-HUB)
 ```
 
 ### **Security Features**
+
 - Private cluster (no public endpoints)
 - No public IPs on nodes
 - Spot instances for cost optimization
@@ -138,16 +151,19 @@ All outbound traffic → Firewall: 192.168.208.4 (NNUH-HUB)
 - Forced tunneling through firewall
 
 ### **Cost Optimization**
+
 - Spot instances for workflows node pool
 - Autoscaling to minimize resource usage
 - Ephemeral OS disks for workflows pool
 
 ### **High Availability**
+
 - AKS cluster spans multiple availability zones (default behavior)
 - Multiple node pools for workload isolation
 - Autoscaling for resilience
 
 ## **Deployment Flow**
+
 1. Create resource group
 2. Deploy AKS cluster with user-assigned identity
 3. Create additional node pool
@@ -170,6 +186,7 @@ Based on my analysis of the Terraform configuration, here's a detailed breakdown
 The deployment will create a **private AKS cluster** in the existing NNUH network (`NNUHFT-SDE-vnet1`) with the following configuration:
 
 ### **1. Resource Group**
+
 - **Name**: `rg-ff-uks-gp-net` (following naming convention: `rg-{workload}-{region}-{env_prefix}-net`)
 - **Location**: UK South
 - **Tags**: Environment metadata, managed by FITFILE, created with Terraform
@@ -203,6 +220,7 @@ Since `create_vnet = false`, the module will **use the existing VNET**:
 ---
 
 ### **3. Route Table (For Forced Tunneling)**
+
 - **Name**: `rt-ff-uks-gp`
 - **Default Route**: Routes all traffic (`0.0.0.0/0`) to NNUH Hub firewall at `192.168.208.4`
 - **Associated Subnets**:
@@ -215,6 +233,7 @@ Since `create_vnet = false`, the module will **use the existing VNET**:
 
 ### **4. AKS Cluster**
 **Cluster Configuration**:
+
 - **Name**: `aks-ff-uks-gp-01`
 - **Kubernetes Version**: `1.33.5` (specified in tfvars)
 - **Node Resource Group**: `rg-ff-uks-gp-aks` (managed by AKS)
@@ -223,6 +242,7 @@ Since `create_vnet = false`, the module will **use the existing VNET**:
 - **DNS Prefix**: `aks-ff-uks-gp-01`
 
 **Network Configuration**:
+
 - **Network Plugin**: Azure CNI
 - **Network Plugin Mode**: Overlay (CNI Overlay)
 - **Network Policy**: Calico
@@ -232,6 +252,7 @@ Since `create_vnet = false`, the module will **use the existing VNET**:
 - **DNS Service IP**: `10.2.0.10`
 
 **Features Enabled**:
+
 - ✅ Azure Policy
 - ✅ Vertical Pod Autoscaler
 - ✅ Role-based Access Control (RBAC)
@@ -243,6 +264,7 @@ Since `create_vnet = false`, the module will **use the existing VNET**:
 - ❌ OIDC Issuer
 
 **Managed Identity**:
+
 - **User Assigned Identity Name**: `uai-ff-uks-gp-aks`
 - **Role Assignment**: Network Contributor on the resource group
 
@@ -251,6 +273,7 @@ Since `create_vnet = false`, the module will **use the existing VNET**:
 ### **5. AKS Node Pools**
 
 **Default/System Node Pool**:
+
 - **Name**: `system`
 - **VM Size**: `Standard_D2s_v3` (2 vCPU, 8 GB RAM)
 - **Subnet**: System subnet (`192.168.200.64/28`)
@@ -266,6 +289,7 @@ Since `create_vnet = false`, the module will **use the existing VNET**:
 - **Availability Zones**: null (not specified)
 
 **Additional/Workflows Node Pool**:
+
 - **Name**: `workflows`
 - **VM Size**: `Standard_E4s_v5` (4 vCPU, 32 GB RAM - default from module)
 - **Subnet**: Workflows subnet (`192.168.200.80/28`)
@@ -288,6 +312,7 @@ Since `create_vnet = false`, the module will **use the existing VNET**:
 ---
 
 ### **6. Jumpbox Virtual Machine**
+
 - **Name**: `FITFILEJumpbox`
 - **VM Size**: `Standard_D2s_v3` (2 vCPU, 8 GB RAM)
 - **OS**: Ubuntu 22.04 LTS (Jammy)
@@ -307,10 +332,12 @@ Since `create_vnet = false`, the module will **use the existing VNET**:
 ### **7. Network Security & DNS**
 
 **No Private DNS Zone Created**:
+
 - The `private_dns_zone_enabled = false` setting means no private DNS zone will be created
 - No DNS A records for ingress controller or ArgoCD
 
 **Network Security Groups**:
+
 - Default NSGs will be created for each subnet by the virtual network module
 
 ---

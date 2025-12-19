@@ -31,9 +31,9 @@ updated:
 
 The brain creates this illusion to conserve metabolic energy. It is an efficiency hack that prioritizes *utility* over *accuracy*. When confronted with a complex system (e.g., "The Economy," "Kubernetes," "A Toilet"), the brain performs a rapid heuristic check:
 
-1.  **The Query:** "Do I understand X?"
-2.  **The Substitution:** Instead of auditing the causal logic, the brain substitutes an easier question: *"Do I recognise X? Do I know what X is for?"*
-3.  **The False Positive:** Because the label is familiar ("That is a toilet, it flushes"), the brain tags the system as "Known" and suppresses further enquiry.
+1. **The Query:** "Do I understand X?"
+2. **The Substitution:** Instead of auditing the causal logic, the brain substitutes an easier question: *"Do I recognise X? Do I know what X is for?"*
+3. **The False Positive:** Because the label is familiar ("That is a toilet, it flushes"), the brain tags the system as "Known" and suppresses further enquiry.
 
 This creates **Causal Opacity**: a "black box" in the mental model that is labelled as transparent. The gap remains invisible until the individual is forced to *simulate* the mechanism (explain or build it).
 
@@ -53,9 +53,9 @@ The root error is conflating two distinct cognitive states:
 
 For the neurodivergent brain, IoED is not just a bias; it is a **functional impairment** exacerbated by Metacognitive Deficits.
 
-1.  **Premature Loop Closure:** The ADHD brain seeks dopamine. The act of *finding* information (Search/Discovery) releases dopamine. The brain interprets this "Ah-ha!" feeling of recognition as "Learning Complete," prematurely closing the loop before deep encoding occurs.
-2.  **The "Mind-Blindness" of Knowledge:** ADHD is associated with deficits in self-monitoring. We struggle to accurately assess *what we know*. We often feel we "know" a topic because we read about it once, only to find we cannot recall a single detail when put on the spot.
-3.  **The "Collector's Fallacy":** This drives the accumulation of books, tabs, and saved articles. The *possession* of the information feels like *knowledge* of the information.
+1. **Premature Loop Closure:** The ADHD brain seeks dopamine. The act of *finding* information (Search/Discovery) releases dopamine. The brain interprets this "Ah-ha!" feeling of recognition as "Learning Complete," prematurely closing the loop before deep encoding occurs.
+2. **The "Mind-Blindness" of Knowledge:** ADHD is associated with deficits in self-monitoring. We struggle to accurately assess *what we know*. We often feel we "know" a topic because we read about it once, only to find we cannot recall a single detail when put on the spot.
+3. **The "Collector's Fallacy":** This drives the accumulation of books, tabs, and saved articles. The *possession* of the information feels like *knowledge* of the information.
 
 > **Key Insight:** For ADHD, the IoED is the primary blocker to mastery. We stop at "I get it" (Familiarity) and never push to "I can build it" (Competence).
 

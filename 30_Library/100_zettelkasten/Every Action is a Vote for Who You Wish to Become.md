@@ -32,16 +32,19 @@ Just as elections are decided by accumulated votes rather than a single ballot, 
 **Why This Metaphor Works:**
 
 **1. Accumulation Matters:**
+
 - No single vote determines an election
 - No single action determines your identity
 - It's the aggregate that counts
 
 **2. Every Action Counts:**
+
 - Even small actions are votes
 - You're always voting, whether consciously or not
 - Inaction is also a vote (for the status quo)
 
 **3. You Can Change the Outcome:**
+
 - If you don't like the current "winner," start casting different votes
 - You can shift the results over time through consistent different choices
 

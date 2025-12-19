@@ -94,9 +94,10 @@ Without an extended mind, the ADHD brain falls into the **Cyclical Thinking Trap
 - **Cumulative:** The system surfaces your past thoughts ("You wrote about this in Jan, Feb, and March"). You stop repeating and start **building**.
 
 **The Mechanism:**
-1.  **Capture:** You write "I hate context switching."
-2.  **Connection:** The system says, "You said this last month, but added that batching helps."
-3.  **Extension:** You don't repeat the complaint; you write the *next* step: "Okay, so if batching helps, I'll try 'Theme Days' next."
+
+1. **Capture:** You write "I hate context switching."
+2. **Connection:** The system says, "You said this last month, but added that batching helps."
+3. **Extension:** You don't repeat the complaint; you write the *next* step: "Okay, so if batching helps, I'll try 'Theme Days' next."
 
 **The Result:** You start having **conversations with your past self**. The system makes your thinking **evolutionary**, allowing complex insights to compound over time rather than evaporating.
 
@@ -134,9 +135,9 @@ The effectiveness of the Extended Mind as a "cognitive prosthesis" hinges on the
 
 - **The Solution:** **Cognitive Scaffolding.** Just as a building needs scaffolding to rise, the ADHD brain needs external structures (ProdOS) to reach higher-order thinking.
 
-    - **Offloading:** Dump everything out of the head immediately.
+  - **Offloading:** Dump everything out of the head immediately.
 
-    - **Re-spatializing:** Use visual metaphors (Kanban, Graph View) to "see" thought.
+  - **Re-spatializing:** Use visual metaphors (Kanban, Graph View) to "see" thought.
 
 ---
 
@@ -154,6 +155,7 @@ PRODOS is the practical implementation of the Extended Mind.
 ---
 
 ## 6. Related Components
+
 - [[SoT - PRODOS (System Architecture)]]
 - [[SoT - Evolutionary Note System]]
 - [[SoT - Identity-Based Habit Formation]]

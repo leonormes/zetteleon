@@ -52,14 +52,14 @@ In reality, each commit in Git is a complete snapshot of your project's entire w
 Imagine a file system where each file version and directory structure is stored as a unique object identified by its content.
 
 - **Initial Commit:**
-    - Git takes a snapshot of your working directory.
-    - It creates blobs for each file.
-    - It creates trees to represent the directory structure, pointing to the blobs.
-    - It creates a commit object pointing to the root tree, with metadata.
+  - Git takes a snapshot of your working directory.
+  - It creates blobs for each file.
+  - It creates trees to represent the directory structure, pointing to the blobs.
+  - It creates a commit object pointing to the root tree, with metadata.
 - **Subsequent Commits:**
-    - If a file is modified, a new blob is created for the updated content.
-    - If a file is added or deleted, the corresponding tree is updated (creating a new tree object).
-    - A new commit object is created, pointing to the new root tree and referencing the previous commit as its parent.
+  - If a file is modified, a new blob is created for the updated content.
+  - If a file is added or deleted, the corresponding tree is updated (creating a new tree object).
+  - A new commit object is created, pointing to the new root tree and referencing the previous commit as its parent.
 
 **Key Takeaways**
 

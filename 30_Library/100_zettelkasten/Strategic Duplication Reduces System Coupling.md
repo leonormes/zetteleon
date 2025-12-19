@@ -20,11 +20,13 @@ updated:
 ## Strategic Duplication Reduces System Coupling
 
 **Summary:** Intentional code duplication can improve system independence when:
+
 - Components must evolve separately
 - Dependency chains create fragility
 - Modularity outweighs DRY benefits
 
 **Examples:**
+
 - Isolated microservices with similar logic
 - Avoiding shared libraries with version conflicts
 - Temporary forks during migrations

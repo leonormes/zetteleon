@@ -24,5 +24,6 @@ updated: 2025-10-30T15:07:41Z
 **Details:** Developed by Josh Waitzkin, the MIQ process works as follows: (1) Identify the most important or challenging question in your current project—the point where you feel stuck or uncertain. (2) Pose this question explicitly before breaks, transitions, or sleep, allowing subconscious processing. (3) Return to the question during your peak energy periods with fresh perspective. (4) Track how your understanding and framing of the question evolves over time. (5) Analyze the "gap" between your initial formulation and your more advanced understanding. This gap reveals exactly where growth occurred and what learning was needed, enabling more targeted deliberate practice. The process turns stuck points into learning opportunities and makes growth tangible and measurable.
 
 > **Status gates**
+>
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.

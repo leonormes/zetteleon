@@ -53,11 +53,11 @@ Meaning is not "invented" (subjective projection) but "detected" (objective disc
 
 How does one actually "find" meaning? Frankl identifies three specific avenues:
 
-1.  **Creative Values (What we Give):** Creating a work or doing a deed.
+1. **Creative Values (What we Give):** Creating a work or doing a deed.
     - *ProdOS Link:* "Creative Work," "Deep Work," and contributing to the `SoT`.
-2.  **Experiential Values (What we Take):** Experiencing something (nature, art) or encountering someone (Love).
+2. **Experiential Values (What we Take):** Experiencing something (nature, art) or encountering someone (Love).
     - *ProdOS Link:* Mindfulness, presence, and connection.
-3.  **Attitudinal Values (How we Stand):** The attitude we take toward unavoidable suffering.
+3. **Attitudinal Values (How we Stand):** The attitude we take toward unavoidable suffering.
     - *The Alchemist's Move:* Turning tragedy into a human triumph. When we are no longer able to change a situation, we are challenged to change ourselves.
 
 These pathways provide a concrete framework for individuals to actively pursue and discover meaning, even in challenging circumstances. (Source: *Deep Dive* podcast episode).
@@ -76,6 +76,7 @@ We integrate Frankl's philosophy into ProdOS not as abstract thought, but as **A
 ### Protocol B: Socratic Meaning-Refactoring
 *Used when:* Facing a "Boring" or "Painful" task.
 *Action:* Refactor the task using the **Meaning Query**:
+
 - *Input:* "I have to do these taxes." (Drudgery).
 - *Query:* "For the sake of whom am I doing this?" (Who benefits?).
 - *Output:* "I am securing my family's future stability." (Meaning).
@@ -83,9 +84,10 @@ We integrate Frankl's philosophy into ProdOS not as abstract thought, but as **A
 ### Protocol C: Tragic Optimism
 *Used when:* Facing failure or unavoidable constraints (ADHD burnout).
 *Action:* Reject "Toxic Positivity" (denial). Embrace **Tragic Optimism**:
-1.  Acknowledge the pain/failure fully.
-2.  Choose to extract value from it.
-3.  "What does this failure ask of me?" (Response-ability).
+
+1. Acknowledge the pain/failure fully.
+2. Choose to extract value from it.
+3. "What does this failure ask of me?" (Response-ability).
 
 ---
 

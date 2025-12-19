@@ -42,22 +42,23 @@ updated:
 Creating Network, PID, and UTS namespaces without a Mount namespace creates a dangerous state of **"Decoupled Identity."**
 
 - **System Calls diverge from Files:**
-    - `hostname` syscall returns "container-name" (UTS isolated).
-    - `/etc/hostname` file returns "host-name" (Mount shared).
+  - `hostname` syscall returns "container-name" (UTS isolated).
+  - `/etc/hostname` file returns "host-name" (Mount shared).
 - **Security Collapse:**
-    - Apps read `/etc/shadow` from the host.
-    - Attackers use setuid binaries on the host to escalate privileges.
-    - `/proc` exposes host PIDs, breaking the illusion of the PID namespace.
+  - Apps read `/etc/shadow` from the host.
+  - Attackers use setuid binaries on the host to escalate privileges.
+  - `/proc` exposes host PIDs, breaking the illusion of the PID namespace.
 
 ## 3. The Security Boundary Architecture
 
 The security boundary is defined by the **Mount Namespace** in conjunction with **Pivot Root**.
 
 ### The Mechanism
-1.  **Clone:** Create process with `CLONE_NEWNS` (Mount Namespace).
-2.  **Mount:** Set up isolated tmpfs, procfs, sysfs.
-3.  **Pivot Root:** Switch the root filesystem (`/`) to the container image.
-4.  **Unmount:** Detach the old root (host filesystem) so it is unreachable.
+
+1. **Clone:** Create process with `CLONE_NEWNS` (Mount Namespace).
+2. **Mount:** Set up isolated tmpfs, procfs, sysfs.
+3. **Pivot Root:** Switch the root filesystem (`/`) to the container image.
+4. **Unmount:** Detach the old root (host filesystem) so it is unreachable.
 
 **Without this sequence, there is no container. There is only a process with a mask.**
 
@@ -86,10 +87,10 @@ Even with a Mount namespace, a container process running as `root` (UID 0) is da
 
 A process qualifies as a "Container" only if:
 
-1.  It has a unique **Mount Namespace**.
-2.  It has a unique **PID Namespace**.
-3.  `/proc` is mounted specifically for that PID namespace.
-4.  The root filesystem is pivoted/chrooted away from the host root.
+1. It has a unique **Mount Namespace**.
+2. It has a unique **PID Namespace**.
+3. `/proc` is mounted specifically for that PID namespace.
+4. The root filesystem is pivoted/chrooted away from the host root.
 
 ## 6. Sources and Links
 

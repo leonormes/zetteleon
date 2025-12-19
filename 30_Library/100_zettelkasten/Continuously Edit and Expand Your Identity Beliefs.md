@@ -36,22 +36,27 @@ If you hold your identity too rigidly, it becomes a prison rather than a foundat
 **Strategies for Identity Flexibility:**
 
 **1. Use "And" Instead of "But":**
+
 - Limiting: "I'm an introvert, but I need to network"
 - Expansive: "I'm an introvert *and* I can be selective about meaningful networking"
 
 **2. Add Layers Rather Than Replace:**
+
 - Not: "I'm no longer X, now I'm Y"
 - Better: "I'm X, and I'm also developing Y"
 
 **3. Question Limiting Labels:**
+
 - When you think "I'm not the kind of person who..."
 - Ask: "Is this truly core to who I am, or is it just a habit I've had?"
 
 **4. Embrace "Becoming":**
+
 - Not: "I am/am not a runner"
 - Better: "I'm becoming someone who runs regularly"
 
 **5. Periodic Identity Audits:**
+
 - Review your self-descriptions regularly
 - Ask: "Does this identity belief serve me, or limit me?"
 - Update beliefs that no longer fit who you're becoming
@@ -59,9 +64,11 @@ If you hold your identity too rigidly, it becomes a prison rather than a foundat
 **Examples of Healthy Editing:**
 
 **Rigid (Limiting):**
+
 - "I'm not a morning person" → Never tries morning routines
 
 **Flexible (Enabling):**
+
 - "I've been a night owl, and I'm experimenting with morning routines" → Open to change
 
 **The Balance:**

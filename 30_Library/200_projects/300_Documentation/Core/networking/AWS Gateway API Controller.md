@@ -27,11 +27,11 @@ Let's break down the components you'll need to set up to get the AWS Gateway API
 Before you can even install the AWS Gateway API Controller, certain prerequisites must be in place on your workstation and within your AWS environment.
 
 - **Command-Line Interface (CLI) Tools:** You'll need several CLI tools installed on your workstation to interact with AWS and your Kubernetes cluster. These include:
-    - **AWS CLI:** This is the official command-line interface for interacting with AWS services. It's crucial for creating and managing IAM policies and roles, which is likely where your credential issues stem from.
-    - **kubectl:** This is the Kubernetes command-line tool that allows you to run commands against your Kubernetes cluster. You'll use it to apply manifests, create namespaces, and manage Kubernetes resources related to the Gateway API Controller.
-    - **helm:** This is a package manager for Kubernetes. It's the recommended method for installing the AWS Gateway API Controller as it simplifies deployment and management.
-    - **eksctl:** This is a CLI tool specifically for Amazon EKS (Elastic Kubernetes Service). While the AWS Gateway API Controller can be used on any Kubernetes cluster on AWS, EKS is a straightforward and recommended way to prepare a cluster. `eksctl` can be used to create clusters and set up AWS policies.
-    - **jq:** This is a lightweight and flexible command-line JSON processor. It's useful for manipulating JSON files, particularly when working with AWS CLI outputs.
+  - **AWS CLI:** This is the official command-line interface for interacting with AWS services. It's crucial for creating and managing IAM policies and roles, which is likely where your credential issues stem from.
+  - **kubectl:** This is the Kubernetes command-line tool that allows you to run commands against your Kubernetes cluster. You'll use it to apply manifests, create namespaces, and manage Kubernetes resources related to the Gateway API Controller.
+  - **helm:** This is a package manager for Kubernetes. It's the recommended method for installing the AWS Gateway API Controller as it simplifies deployment and management.
+  - **eksctl:** This is a CLI tool specifically for Amazon EKS (Elastic Kubernetes Service). While the AWS Gateway API Controller can be used on any Kubernetes cluster on AWS, EKS is a straightforward and recommended way to prepare a cluster. `eksctl` can be used to create clusters and set up AWS policies.
+  - **jq:** This is a lightweight and flexible command-line JSON processor. It's useful for manipulating JSON files, particularly when working with AWS CLI outputs.
 - **AWS EKS Cluster (Private VPC):** You need to have an AWS EKS cluster already running. Given your requirement for a private network, it's crucial that your EKS cluster is configured within a private Virtual Private Cloud (VPC). You might have the cluster API server endpoint configured for private access to ensure all communication stays within your VPC. You'll also need to set your AWS Region and Cluster Name as environment variables.
 
 **2. Kubernetes Gateway API Custom Resource Definitions (CRDs):**
@@ -48,14 +48,14 @@ This is the most likely area where your credential issues are arising. The AWS G
 - **Create an IAM Role:** An IAM role needs to be created that the controller's pods will assume. This role will be associated with the IAM policy you created in the previous step.
 - **Attach the IAM Policy to the Role:** The IAM policy must be attached to the IAM role, granting the role the defined permissions. You will need the Amazon Resource Name (ARN) of the created policy for this step.
 - **Configure Controller Permissions (Pod Identities or IRSA):** The controller needs a way to assume the IAM role. There are two main methods for this:
-    - **Pod Identities (Recommended):** To use Pod Identities, you need to set up the Agent and configure the controller's Kubernetes Service Account to assume the necessary permissions using EKS Pod Identity. This involves:
-        - Creating the Pod Identity addon for your EKS cluster.
-        - Ensuring your custom node role (if applicable) has permissions for the Pod Identity Agent to perform the `AssumeRoleForPodIdentity` action.
-        - Creating a Kubernetes Service Account specifically for the AWS Gateway API Controller within the `aws-application-networking-system` namespace.
-        - Creating a Pod Identity association linking the IAM role, the `aws-application-networking-system` namespace, and the controller's Service Account.
-    - **IAM Roles for Service Accounts (IRSA):** If you choose to use IRSA, you need to:
-        - Create an IAM OIDC (OpenID Connect) provider for your EKS cluster if you haven't already. This allows IAM to trust your EKS cluster's identity provider. You can use `eksctl utils associate-iam-oidc-provider` for this.
-        - Create an `iamserviceaccount` Kubernetes resource, attaching the ARN of the IAM policy you created to this service account. This service account should also reside in the `aws-application-networking-system` namespace.
+  - **Pod Identities (Recommended):** To use Pod Identities, you need to set up the Agent and configure the controller's Kubernetes Service Account to assume the necessary permissions using EKS Pod Identity. This involves:
+    - Creating the Pod Identity addon for your EKS cluster.
+    - Ensuring your custom node role (if applicable) has permissions for the Pod Identity Agent to perform the `AssumeRoleForPodIdentity` action.
+    - Creating a Kubernetes Service Account specifically for the AWS Gateway API Controller within the `aws-application-networking-system` namespace.
+    - Creating a Pod Identity association linking the IAM role, the `aws-application-networking-system` namespace, and the controller's Service Account.
+  - **IAM Roles for Service Accounts (IRSA):** If you choose to use IRSA, you need to:
+    - Create an IAM OIDC (OpenID Connect) provider for your EKS cluster if you haven't already. This allows IAM to trust your EKS cluster's identity provider. You can use `eksctl utils associate-iam-oidc-provider` for this.
+    - Create an `iamserviceaccount` Kubernetes resource, attaching the ARN of the IAM policy you created to this service account. This service account should also reside in the `aws-application-networking-system` namespace.
 
     It's critical to ensure that the IAM role has the correct trust relationship configured to allow either the Pod Identity agent or the OIDC provider and the Kubernetes service account to assume the role. The GitHub repository likely provides examples of trust policies. Choosing the right method and configuring it correctly is essential for the controller pods to obtain the necessary AWS credentials.
 

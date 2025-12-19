@@ -36,8 +36,8 @@ A Kubernetes pod in the `primary-care` namespace is not ready. This indicates th
 - Error Message: `KubePodNotReady` (from alert)
 - Environment Information: `prod-1` cluster
 - Affected Components:
-    - `daily-emis-k8s-job-1732946400-emis-process-files-2411804076` (pod)
-    - `primary-care` (namespace)
+  - `daily-emis-k8s-job-1732946400-emis-process-files-2411804076` (pod)
+  - `primary-care` (namespace)
 - Related System States: Pod status is not 'Running' or one or more of its containers are not in a ready state.
 
 ### Root Cause

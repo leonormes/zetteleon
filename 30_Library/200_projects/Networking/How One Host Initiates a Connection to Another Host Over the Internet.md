@@ -119,17 +119,17 @@ If not found, **ARP** is triggered.
 #### ARP Request and Reply
 
 1. **ARP Request (Broadcast)**
-    
+
     - The client broadcasts a frame: “Who has IP address `192.168.1.1`? Tell `192.168.1.100`”
     - Destination MAC in the Ethernet header is set to `ff:ff:ff:ff:ff:ff` (broadcast).
     - This frame is received by all devices on the local network segment.
 2. **Router Responds**
-    
+
     - The default gateway (router) sees the request, matches its own IP, and replies directly:
         - “`192.168.1.1` is at MAC address `aa:bb:cc:dd:ee:ff`”
     - Reply is unicast back to the client.
 3. **Client Updates ARP Cache**
-    
+
     - The client stores this mapping (`192.168.1.1` ↔ `aa:bb:cc:dd:ee:ff`) for a few minutes (cache timeout varies by OS).
 
 Now the client can correctly fill in the **destination MAC address** in the Ethernet header for any outgoing packet destined beyond the local network.
@@ -156,18 +156,18 @@ This exchange synchronizes sequence numbers and confirms both parties are ready.
 ##### 1. SYN (Client → Server)
 
 - The client sends a **SYN (synchronize)** packet:
-    - Chooses a random **initial sequence number** (ISN), e.g., `1000`.
-    - Sets the **SYN flag** to `1`.
-    - Source Port: `54322` (ephemeral port chosen by OS)
-    - Destination Port: `443` (HTTPS)
+  - Chooses a random **initial sequence number** (ISN), e.g., `1000`.
+  - Sets the **SYN flag** to `1`.
+  - Source Port: `54322` (ephemeral port chosen by OS)
+  - Destination Port: `443` (HTTPS)
 - IP Header:
-    - Source IP: `192.168.1.100`
-    - Destination IP: `93.184.216.34`
-    - TTL: `64`
-    - Protocol: `6` (TCP)
+  - Source IP: `192.168.1.100`
+  - Destination IP: `93.184.216.34`
+  - TTL: `64`
+  - Protocol: `6` (TCP)
 - Data Link:
-    - Dest MAC: `aa:bb:cc:dd:ee:ff` (gateway)
-    - Src MAC: `a1:b2:c3:d4:e5:f6`
+  - Dest MAC: `aa:bb:cc:dd:ee:ff` (gateway)
+  - Src MAC: `a1:b2:c3:d4:e5:f6`
 
 This packet says: "I want to start a connection; my starting sequence number is 1000."
 
@@ -175,9 +175,9 @@ This packet says: "I want to start a connection; my starting sequence number is 
 
 - The server receives the SYN.
 - If accepting, replies with a **SYN-ACK** packet:
-    - Sets **SYN=1**, **ACK=1**
-    - Acknowledges client’s ISN: `Ack = 1001` (1000 + 1)
-    - Sends its own initial sequence number: `Seq = 500`
+  - Sets **SYN=1**, **ACK=1**
+  - Acknowledges client’s ISN: `Ack = 1001` (1000 + 1)
+  - Sends its own initial sequence number: `Seq = 500`
 - This confirms: "Got your request; here’s my starting number."
 
 Note: The packet traverses back through the internet, undergoing similar IP routing and encapsulation.
@@ -185,9 +185,9 @@ Note: The packet traverses back through the internet, undergoing similar IP rout
 ##### 3. ACK (Client → Server)
 
 - The client sends a final **ACK**:
-    - Sets **ACK=1**
-    - Acknowledges server’s ISN: `Ack = 501` (500 + 1)
-    - No data yet; this completes the handshake.
+  - Sets **ACK=1**
+  - Acknowledges server’s ISN: `Ack = 501` (500 + 1)
+  - No data yet; this completes the handshake.
 
 After this third packet, both hosts have:
 
@@ -245,12 +245,12 @@ So, the packet cannot be sent directly. It must go to the **default gateway** (`
 Let’s trace the **first TCP SYN packet** as it leaves the client and enters the first router.
 
 1. **Ethernet Frame Arrival**
-    
+
     - The router receives the frame on its local interface (`192.168.1.1`).
     - Validates FCS (Frame Check Sequence) for errors.
     - Strips off Ethernet header (**decapsulation** at Data Link Layer).
 2. **Inspect IP Header**
-    
+
     - Sees destination IP: `93.184.216.34`
     - Checks its **routing table** using **longest prefix match**.
 
@@ -265,7 +265,7 @@ Let’s trace the **first TCP SYN packet** as it leaves the client and enters th
     → No specific route for `93.184.216.0/24`, so uses **default route** (`0.0.0.0/0`) → next hop: `203.0.113.1`
 
 3. **Modify and Re-Encapsulate**
-    
+
     - Decrease **TTL (Time to Live)** by 1: from `64` → `63`
         - Prevents packets from looping forever.
     - Recompute IP header checksum.
@@ -273,7 +273,7 @@ Let’s trace the **first TCP SYN packet** as it leaves the client and enters th
         - Uses **ARP** (if not cached) to learn MAC of `203.0.113.1`
     - Encapsulate IP packet in a new **data link frame** (e.g., Ethernet, PPP, or MPLS depending on link type).
 4. **Forward**
-    
+
     - Send frame out via correct interface.
 
 This process repeats at **every router** along the path (called **hops**) until the packet reaches the destination network.
@@ -324,11 +324,11 @@ Let's look at full encapsulation when the client sends the **first TCP SYN packe
 #### Outbound Packet (Client → Server): Encapsulation
 
 1. **Application Layer**
-    
+
     - **Data**: No headers yet; just the intent to connect (no application data yet, since connection isn't established).
     - *Note*: Actual HTTP request comes **after** TCP handshake.
 2. **Transport Layer (TCP)**
-    
+
     - Add **TCP header**:
         - Src Port: `54322`
         - Dst Port: `443`
@@ -338,7 +338,7 @@ Let's look at full encapsulation when the client sends the **first TCP SYN packe
         - Checksum
     - Result: **TCP segment**
 3. **Network Layer (IP)**
-    
+
     - Add **IP header**:
         - Src IP: `192.168.1.100`
         - Dst IP: `93.184.216.34`
@@ -346,7 +346,7 @@ Let's look at full encapsulation when the client sends the **first TCP SYN packe
         - Protocol: `6` (TCP)
     - Result: **IP packet**
 4. **Data Link Layer (Ethernet)**
-    
+
     - Add **Ethernet frame header**:
         - Src MAC: `a1:b2:c3:d4:e5:f6`
         - Dst MAC: `aa:bb:cc:dd:ee:ff` (gateway)
@@ -361,21 +361,21 @@ Let's look at full encapsulation when the client sends the **first TCP SYN packe
 At the destination server:
 
 1. **Data Link Layer**
-    
+
     - Receive frame; verify FCS.
     - Strip Ethernet header/trailer.
     - Pass IP packet to Layer 3.
 2. **Network Layer**
-    
+
     - Read destination IP: if matches local interface (or VIP), continue.
     - Check TTL: if >0, proceed.
     - Protocol field = 6 → pass payload to **TCP module**.
 3. **Transport Layer**
-    
+
     - TCP subsystem reads destination port (`443`) → delivers to listening web server (e.g., nginx, Apache).
     - Processes SYN flag and sequence number → prepares SYN-ACK response.
 4. **Application Layer**
-    
+
     - Web server receives request (only after handshake completes and application data is sent).
 
 > Note: The TCP connection state is now established at both ends.

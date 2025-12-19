@@ -29,15 +29,18 @@ updated:
 > I noticed I am failing to use the PRODOS system I just built. I'm "grazing" on thoughts instead of processing them. I need to understand if this is a system failure or a biological (ADHD) constraint.
 
 ### 🧠 My Current Model (The Hypothesis)
+
 - **Assumption:** I just need more discipline.
 - **Assumption:** If I make the friction lower (mobile capture), I will do it.
 - **Reality:** I made friction lower, but I *still* don't do the deep processing.
 
 ### ⚔️ The Tension (The Root Cause)
+
 - **Contradiction:** I love *building* the system (Architecting), but I hate *operating* the system (Janitorial work).
 - **The Gap:** The transition from "Capture" (fun) to "Process" (boring) is too steep.
 - **ADHD Insight:** I lack the "Activation Energy" to switch contexts from Sofa Mode to Thinking Mode.
 
 ### 🧪 Next Test (The Patch)
+
 - [ ] **Hypothesis:** If I pair the "Thinking Session" with a dopamine stimulant (e.g., fancy coffee, specific music) and lower the commitment to just *5 minutes*, I can bridge the gap.
 - [ ] **Action:** Try the "5-Minute Workbench" rule tonight.

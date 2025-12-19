@@ -25,6 +25,7 @@ For example, a minimum morning routine might consist of: letting the dog out bri
 The minimum tier serves two critical functions: it maintains the routine structure (preventing complete abandonment of habits) while eliminating guilt by acknowledging that some days, basic self-care and survival are sufficient victories. This tier recognizes that maintaining any version of a routine during difficult periods preserves the habit infrastructure for easier days.
 
 ## Related
+
 - [[The Honeyman Method uses three-tiered routines to adapt to energy variation]]
 - [[Ideal routines represent maximum energy and motivation days]]
 - [[Most Likely routines are scaled-down versions for average energy]]

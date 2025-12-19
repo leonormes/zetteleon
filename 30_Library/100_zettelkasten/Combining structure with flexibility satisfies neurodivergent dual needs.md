@@ -27,6 +27,7 @@ Multi-tier routine systems resolve this apparent contradiction: the structure (t
 This approach transforms routines from fragile constructs that shatter when conditions aren't perfect into resilient frameworks that bend without breaking, accommodating the reality of neurodivergent nervous systems.
 
 ## Related
+
 - [[The Honeyman Method uses three-tiered routines to adapt to energy variation]]
 - [[Mini routines are effective for ADHD autism and chronic illness]]
 - [[Routines Provide Stability for Neurodivergent Individuals]]

@@ -47,6 +47,7 @@ I'll categorize the URLs from your firewall rules into Azure-specific and non-Az
 ### Azure-Specific URLs
 
 1. Azure Core Services:
+
 - `management.azure.com` - Required for Kubernetes operations against Azure API
 - `login.microsoftonline.com` - Microsoft Entra (Azure AD) authentication
 - `.monitoring.azure.com` - Azure Monitor metrics data
@@ -56,12 +57,14 @@ I'll categorize the URLs from your firewall rules into Azure-specific and non-Az
 - `dc.services.visualstudio.com` - Azure Monitor Container Agent Telemetry
 
 2. Azure Container Services:
+
 - `mcr.microsoft.com`, `.data.mcr.microsoft.com` - Microsoft Container Registry
 - `fitfileregistry.azurecr.io`, `fitfilepublic.azurecr.io` - Your Azure Container Registry
 - `acs-mirror.azureedge.net` - Azure CNI and kubenet binaries
 - `.azureedge.net` - Azure CDN
 
 3. Azure Storage and Policy:
+
 - `uksmanaged208.blob.core.windows.net` - Azure Blob Storage
 - `azurecliprod.blob.core.windows.net` - Azure CLI installation
 - `data.policy.core.windows.net` - Kubernetes policies
@@ -70,26 +73,31 @@ I'll categorize the URLs from your firewall rules into Azure-specific and non-Az
 ### Non-Azure-Specific URLs
 
 1. HashiCorp Services:
+
 - `releases.hashicorp.com` - HashiCorp releases
 - `registry.terraform.io`, `app.terraform.io`, `archivist.terraform.io` - Terraform registry and services
 - `vault-public-vault-8b38a0c2.e3dedc53.z1.hashicorp.cloud` - HashiCorp Vault
 
 2. Ubuntu/OS Updates:
+
 - `azure.archive.ubuntu.com`, `.canonical.com` - Ubuntu package repositories
 - `security.ubuntu.com`, `changelogs.ubuntu.com` - Ubuntu security updates
 - `ntp.ubuntu.com` - Time synchronization
 - `download.opensuse.org` - OpenSUSE packages
 
 3. FITFILE Services:
+
 - `fitfile-prod.eu.auth0.com`, `fitfile-test.eu.auth0.com` - Auth0 authentication
 - `cdn.auth0.com` - Auth0 UI components
 - `fitfile.com` - FITFILE main domain
 
 4. Monitoring and Logging:
+
 - `logs-prod-008.grafana.net` - Grafana logging
 - `tempo-prod-06-prod-gb-south-0.grafana.net` - Grafana Tempo (tracing)
 
 5. Source Control and Package Management:
+
 - `gitlab.com` - Source code repository
 - `packages.microsoft.com` - Microsoft package repository
 

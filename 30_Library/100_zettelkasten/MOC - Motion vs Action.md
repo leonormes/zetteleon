@@ -76,12 +76,14 @@ These challenges are amplified by [[Executive Function Challenges are Central to
 [[GTD Workflow Separates Motion and Action Phases]] rel:: exemplifies-framework explicitly distinguishes between:
 
 **Motion Phases:**
+
 - **Capture:** Gathering all tasks, ideas, commitments
 - **Clarify:** Processing and deciding what's actionable
 - **Organize:** Categorizing actions and projects
 - **Review:** Assessing commitments and priorities
 
 **Action Phase:**
+
 - **Engage (Do):** Actually performing the work
 
 This separation is particularly valuable for ADHD brains because it externalizes executive functions and reduces cognitive load by separating thinking-intensive work from execution.
@@ -104,12 +106,14 @@ By avoiding the trap of mere motion and focusing on tangible action, leaders can
 The motion vs action distinction is particularly critical for ADHD because:
 
 **Executive Function Deficits:**
+
 - Difficulty with task initiation and planning (see [[Executive Function Challenges are Central to ADHD]] rel:: explains-relevance)
 - Trouble organizing and prioritizing
 - Sustained attention challenges
 
 **The GTD Solution:**
 [[GTD Workflow Separates Motion and Action Phases]] rel:: addresses-adhd helps by:
+
 - **Emphasis on Clear Next Actions:** Overcomes overwhelm by focusing on single, manageable steps
 - **Externalizing Tasks:** Reduces mental clutter and frees cognitive resources
 - **Structured Approach:** Provides predictable workflow that reduces decision fatigue
@@ -138,6 +142,7 @@ Consistent weekly reviews can be challenging with ADHD due to:
 - Overwhelm from reviewing everything at once
 
 **Solutions include:**
+
 - Scheduled timeboxing for reviews
 - Breaking reviews into smaller steps
 - Implementation intentions: "Every Friday at 3 PM, I will do a 30-minute review"
@@ -151,6 +156,7 @@ Consistent weekly reviews can be challenging with ADHD due to:
 [[Timeboxing Creates Structure for Action]] rel:: implements-principle is not just beneficial but essential for productivity, though must be balanced against rigidity.
 
 **The Importance of Structure:**
+
 - Combats principle of least resistance toward shallow work
 - Provides clarity and focus
 - Maximizes deep work capacity
@@ -160,6 +166,7 @@ Consistent weekly reviews can be challenging with ADHD due to:
 - Creates accountability
 
 **Key Considerations:**
+
 - **Flexibility:** Schedules should adapt to changes
 - **Personalization:** Ideal structure varies per person
 - **Prioritization:** Focus on important tasks

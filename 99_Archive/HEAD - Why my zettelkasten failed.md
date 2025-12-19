@@ -50,6 +50,7 @@ We will refactor this into the HEAD note template using the Refactoring Protocol
 - **The Analogy:** I was seeking a "shoulder massage" (Zettelkasten features) when the actual pain was in my "calf muscle" (undiagnosed executive function struggles).
 
 ### ⚔️ The Tension (The System Conflict)
+
 - **System Mismatch:** Zettelkasten is optimised for academic **Output**. My core need is **Executive Function** and **Activation Energy** (Internal Input).
 - **Global vs. Local:** My "global need to be great at everything" is preventing me from focusing on the actual problem.
 - **Vague Pain:** I was performing actions (doing Zettelkasten features) while expecting vague feelings of failure to vanish, instead of focusing on clear metrics.
@@ -66,11 +67,11 @@ The note above correctly identifies that the necessary knowledge is currently mi
 
 The necessary Next Test is to stop analysing the tool and start analysing the symptoms.
 
- - Create the Dependency HEAD Note: Open a new file for the next stage of investigation.
-   - File Name: [[HEAD - Executive Dysfunction Manifestation]]
- - Populate the Spark: "I need to stop analysing the failure of Zettelkasten and start analysing the underlying symptoms of my executive dysfunction so I can design a system for my needs."
- - Create the Task: Add this to your execution queue:
-   - [ ] Research: Define the common manifestations of Executive Dysfunction/ADHD traits
+- Create the Dependency HEAD Note: Open a new file for the next stage of investigation.
+  - File Name: [[HEAD - Executive Dysfunction Manifestation]]
+- Populate the Spark: "I need to stop analysing the failure of Zettelkasten and start analysing the underlying symptoms of my executive dysfunction so I can design a system for my needs."
+- Create the Task: Add this to your execution queue:
+  - [ ] Research: Define the common manifestations of Executive Dysfunction/ADHD traits
 
 I can certainly help you validate your pivot. As a Systems Architect with an Abstract-Conceptual cognitive style, you have correctly identified a critical mismatch between the *system's intent* and your *operational constraints*. You have been attempting to run a "Publishing Microservice" to patch a "Runtime Execution" error (ADHD/Executive Dysfunction).
 
@@ -100,8 +101,8 @@ You asked why the Zettelkasten features (graph view, linking) gave you dopamine 
 
 From a systems perspective, this is a **Feedback Loop Error**.
 
-1.  **The Illusion of Competence (The Massage):** The brain releases dopamine when it recognizes patterns or establishes order. In Zettelkasten, linking Note A to Note B feels like "solving a puzzle." It provides immediate feedback that you have *organized* information. Ahrens notes that our brains love to make us feel good by ignoring inconsistencies, but writing forces us to confront them [3]. However, if you stop at the *linking* stage, you get the satisfaction of order without the struggle of synthesis. You are effectively grooming a database rather than compiling code.
-2.  **The Missing Output Constraint (The Calf Pain):** The "calf pain" is your executive dysfunction—specifically, the difficulty in *closing open loops* or reaching a "Done" state. Zettelkasten is an open-ended, infinite game [4]. It is designed to *never* be finished. For an ADHD brain craving closure and clear bounds, this is torture. You are massaging the shoulder (feeling productive by moving data) while the calf (the need for distinct, completed outcomes) continues to throb because the system refuses to define "Done" unless you publish.
+1. **The Illusion of Competence (The Massage):** The brain releases dopamine when it recognizes patterns or establishes order. In Zettelkasten, linking Note A to Note B feels like "solving a puzzle." It provides immediate feedback that you have *organized* information. Ahrens notes that our brains love to make us feel good by ignoring inconsistencies, but writing forces us to confront them [3]. However, if you stop at the *linking* stage, you get the satisfaction of order without the struggle of synthesis. You are effectively grooming a database rather than compiling code.
+2. **The Missing Output Constraint (The Calf Pain):** The "calf pain" is your executive dysfunction—specifically, the difficulty in *closing open loops* or reaching a "Done" state. Zettelkasten is an open-ended, infinite game [4]. It is designed to *never* be finished. For an ADHD brain craving closure and clear bounds, this is torture. You are massaging the shoulder (feeling productive by moving data) while the calf (the need for distinct, completed outcomes) continues to throb because the system refuses to define "Done" unless you publish.
 
 #### 3. The Salvage Job: From Zettelkasten to HEAD Notes
 
@@ -111,15 +112,18 @@ Here is how to salvage the machinery for "Cognitive Debugging":
 
 **A. Abandon the "Manuscript" Assembly Line**
 Stop treating notes as building blocks for a future article. Ahrens describes the slip-box as a "competent" partner that forces you to clarify thoughts [5]. Keep this interaction but change the *success criteria*.
+
 - **Old Goal:** Does this note help me write a paper?
 - **New Goal:** Does this note resolve a specific contradiction in my current thinking?
 
 **B. Retain "Elaboration" as a Debugging Tool**
 The act of translation is what you loved—it forces understanding. Ahrens argues that "Elaboration means nothing more than connecting information to other information in a meaningful way" [6].
+
 - **Action:** When you encounter a confusing concept or a mental blocker, write a **HEAD Note**. Do not write it for an audience. Write it to explain the concept to *yourself* to ensure you aren't fooling yourself. Once the logic holds (the bug is fixed), the note is "Done." You do not need to maintain it for a future book.
 
 **C. Focus on Latticework, Not Archives**
 Ahrens quotes Charlie Munger regarding the "latticework of mental models" [7]. This is the high-value salvage.
+
 - **Action:** Use your new system to build a library of **Mental Models** (frameworks for decision making) rather than a library of **Knowledge** (facts to be cited). If a note helps you make better decisions *now*, it is valuable. If it is just interesting data for a hypothetical future, delete it.
 
 **Summary:**

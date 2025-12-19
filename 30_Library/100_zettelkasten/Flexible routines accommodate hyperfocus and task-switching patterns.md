@@ -25,6 +25,7 @@ Rigid time-based schedules often conflict with ADHD neurology: a hyperfocus sess
 Similarly, when dopamine-seeking drives task-switching, the next activity in the routine can begin whenever the current distraction completes, maintaining forward momentum rather than abandoning structure entirely. This approach works with ADHD patterns rather than against them.
 
 ## Related
+
 - [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]
 - [[Mini routines are event-triggered sequences rather than time-based schedules]]
 - [[Event-based pacing matches boom and bust energy cycles]]

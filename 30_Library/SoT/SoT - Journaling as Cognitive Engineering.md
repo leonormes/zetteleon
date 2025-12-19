@@ -59,9 +59,9 @@ Deploy these modules based on your current system state.
 
 - **Syntax Rule:** **Specificity is key.**
 
-    - *Bad Input:* "I am grateful for my friend." (Too vague; brain ignores it).
+  - *Bad Input:* "I am grateful for my friend." (Too vague; brain ignores it).
 
-    - *Good Input:* "I am grateful for the way John listened without interrupting when I was struggling yesterday." (Anchors the neural pathway).
+  - *Good Input:* "I am grateful for the way John listened without interrupting when I was struggling yesterday." (Anchors the neural pathway).
 
 ### C. Reflective Reframing (Root Cause Analysis)
 
@@ -121,21 +121,26 @@ A suite of specific pen-and-paper protocols to execute the cognitive engineering
 These principles, learned over a decade of practice, help cultivate a sustainable and impactful journaling habit. (Source: *If journaling has never worked for you, watch this*).
 
 ### 1. No "One Right Way" (Flexibility over Dogma)
+
 - **Insight:** Journaling is a deeply personal practice. Popular methods (e.g., gratitude journaling) may not suit everyone.
 - **Application:** Experiment with different styles (prompts vs. blank page), formats, and times of day. Persistence is found in personalization, not adherence to a single rigid method.
 
 ### 2. Tools Actually Matter (Tactile Joy over Chore)
+
 - **Insight:** The physical experience of journaling can significantly impact consistency. Poor tools (scratchy pen, bad notebook) create friction.
 - **Application:** Invest in stationery that brings "tactile joy." Finding a pen and paper that feels good transforms journaling from a chore into a looked-forward-to ritual.
 
 ### 3. Real In, Real Out (Vulnerability for Clarity)
+
 - **Insight:** Authenticity is crucial for gaining genuine insights. Holding back for an "imaginary audience" renders the practice superficial.
 - **Application:** Give yourself permission to be messy, petty, vulnerable, or embarrassing on the page. True clarity emerges from uninhibited self-expression.
 
 ### 4. Analog Beats Digital for Focus (Slowness as a Feature)
+
 - **Insight:** Digital tools, despite their efficiency, are rife with distractions (social media, notifications).
 - **Application:** Paper journaling, though slower, forces a deliberate pace. This "cognitive latency" is a feature, promoting deeper reflection and reducing the pull of digital dopamine loops.
 
 ### 5. "Daily-ish" Over "Every Single Day" (Sustainability over Perfection)
+
 - **Insight:** The pressure to maintain a perfect daily streak often leads to guilt, failure, and eventual abandonment.
 - **Application:** Aim for consistency (e.g., 3-5 times a week) rather than perfection. Removing the "all or nothing" mentality fosters a more sustainable and guilt-free long-term rhythm.

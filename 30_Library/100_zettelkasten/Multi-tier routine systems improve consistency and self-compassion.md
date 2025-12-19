@@ -29,6 +29,7 @@ Simultaneously, consistency improves because the routine never breaks completely
 The combined effect: sustainable routine practice that accommodates reality while reducing self-criticism.
 
 ## Related
+
 - [[The Honeyman Method uses three-tiered routines to adapt to energy variation]]
 - [[Cultivating Self-Compassion for ADHD]]
 - [[Mini routines improve consistency through flexible adaptation]]

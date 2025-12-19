@@ -37,11 +37,13 @@ version:
 ### Components
 
 #### 1. VPC Lattice Service Network
+
 - Name: "default"
 - ARN: `arn:aws:vpc-lattice:eu-west-2:592527451415:servicenetwork/sn-0c7635717d4e989b1`
 - Associated VPC: `vpc-0e86d4ca9eb77129d`
 
 #### 2. Gateway API Controller
+
 - Namespace: `aws-application-networking-system`
 - Service Account: `gateway-api-controller`
 - IAM Role: `ff-test-ingress-vpc-lattice-controller-role`
@@ -98,12 +100,14 @@ spec:
 ```
 
 #### 5. Echo Server Service
+
 - Name: `echo-server`
 - Type: `ClusterIP`
 - Port: 80
 - Pod: `echo-server-84f9549498-65pql`
 
 ### Current Access
+
 - The echo server is accessible via:
 
 ```sh

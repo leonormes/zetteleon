@@ -54,6 +54,7 @@ The solution involves external cognitive support systems:
 
 **Compensation Strategy:**
 Leverage [[Diffuse vs Focused Thinking Modes]] with:
+
 - Shorter focused intervals
 - More frequent movement breaks
 

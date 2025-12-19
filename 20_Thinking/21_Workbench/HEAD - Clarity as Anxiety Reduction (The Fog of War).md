@@ -27,6 +27,7 @@ updated:
 ## 🎓 Mode: Learning / Understanding
 
 > [!question] The Epistemic Gap
+>
 > - **I understand:** When I have a clear roadmap, I feel calm (even if the work is hard).
 > - **I am confused by:** Why my attempts to *give* her the roadmap (lecturing) increased her anxiety instead of reducing it.
 > - **My Hypothesis:** The "Roadmap" I gave her was too big (Map of the World). It looked like *more* data to process. She needs a "Next Turn" instruction, not a cartography lesson.
@@ -34,13 +35,15 @@ updated:
 ---
 
 ## 🧠 My Current Model (The "Infinite Loop" Theory)
+
 - **The Mechanism of Anxiety:** Anxiety is often the brain's reaction to **Ambiguity**. When the path is unclear, the brain spins up multiple simulations to predict every possible disaster. This consumes 100% of CPU (Executive Function).
 - **The Solution (Clarity):** Defining the task kills the simulations.
-    - *Vague Task:* "Do Photography Coursework" $\rightarrow$ Brain simulates failing, being judged, not knowing software, missing deadlines. (High Anxiety).
-    - *Defined Task:* "Find 3 photos of shadows." $\rightarrow$ Brain simulates looking at photos. (Low Anxiety).
+  - *Vague Task:* "Do Photography Coursework" $\rightarrow$ Brain simulates failing, being judged, not knowing software, missing deadlines. (High Anxiety).
+  - *Defined Task:* "Find 3 photos of shadows." $\rightarrow$ Brain simulates looking at photos. (Low Anxiety).
 - **The Reframing:** Structure is not a "Cage" to force her to work; Structure is a **"Handrail"** to stop her from falling.
 
 ## ⚔️ The Tension (The Delivery Mechanism)
+
 - **My Instinct:** "Here is the full specification of the GCSE." (I think I'm giving clarity; she hears "Here is a mountain").
 - **Her Need:** "Just tell me I'm safe for the next 10 minutes."
 - **The Paradox:** To reduce anxiety, I must provide structure, *but* the act of explaining the structure triggers the "Overwhelm" response.

@@ -24,5 +24,6 @@ updated: 2025-10-30T15:04:20Z
 **Details:** For change to last, it must answer the question "Why does this matter to *me*?" rather than "What do others expect of me?" When supporting someone else's change, encouragement must match their personal goals and values—not what you wish for them. "One degree" of change looks different for everyone based on their unique values, circumstances, and priorities. Change driven by shoulds, peer comparison, or attempting to meet idealized standards (even self-imposed) lacks the intrinsic motivation necessary for long-term adherence. This is especially crucial for ADHD individuals, whose interest-based nervous system requires genuine personal relevance for sustained engagement.
 
 > **Status gates**
+>
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.

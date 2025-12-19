@@ -67,10 +67,11 @@ While often obscured by the struggle with executive function, the ADHD brain pos
 Shame ("I am bad") is the toxic byproduct of repeated failure in a neurotypical world. **Self-Compassion** is the operational tool to neutralize it.
 
 ### Practical Protocols
-1.  **Reframing the Inner Critic:** When you fail, ask: *"Would I say this to a friend?"* If not, don't say it to yourself.
-2.  **The "Yet" Mentality:** "I haven't mastered this *yet*." This reintroduces the possibility of growth.
-3.  **Mindfulness:** Observe the emotion ("I feel frustrated") without becoming it ("I am a failure").
-4.  **Embrace "Good Enough":** Perfectionism is a trap. "Done is better than perfect."
+
+1. **Reframing the Inner Critic:** When you fail, ask: *"Would I say this to a friend?"* If not, don't say it to yourself.
+2. **The "Yet" Mentality:** "I haven't mastered this *yet*." This reintroduces the possibility of growth.
+3. **Mindfulness:** Observe the emotion ("I feel frustrated") without becoming it ("I am a failure").
+4. **Embrace "Good Enough":** Perfectionism is a trap. "Done is better than perfect."
 
 ---
 

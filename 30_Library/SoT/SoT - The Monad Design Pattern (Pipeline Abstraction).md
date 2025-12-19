@@ -31,11 +31,11 @@ updated:
 
 Every Monad consists of three fundamental primitives that enable this abstraction:
 
-1.  **The Wrapper (Type Constructor):** A generic type `M<T>` that adds context to a raw type `T`.
+1. **The Wrapper (Type Constructor):** A generic type `M<T>` that adds context to a raw type `T`.
     - *Examples:* `Option<T>` (Context: Existence), `Promise<T>` (Context: Time), `List<T>` (Context: Cardinality).
-2.  **The Wrap Function (Unit/Pure/Return):** A constructor that lifts a raw value `T` into the monadic context `M<T>`.
+2. **The Wrap Function (Unit/Pure/Return):** A constructor that lifts a raw value `T` into the monadic context `M<T>`.
     - *Examples:* `Some(value)`, `Promise.resolve(value)`.
-3.  **The Run Function (Bind/FlatMap/`>>=`):** The core operator that enables chaining.
+3. **The Run Function (Bind/FlatMap/`>>=`):** The core operator that enables chaining.
     - *Signature:* `M<T>, (T -> M<U>) -> M<U>`
     - *Logic:* It unwraps `M<T>`, executes the hidden infrastructure logic (null checks, error handling), applies the user's function, and returns the new `M<U>`.
 
@@ -64,11 +64,12 @@ By funneling all function applications through `bind`, you inject cross-cutting 
 
 ## 5. Architectural Benefits
 
-1.  **Uniform Framework:** The same pattern works for disparate effects (IO, State, Error, Nondeterminism).
-2.  **Explicit Effects:** Type signatures (e.g., `Expr -> Maybe Int`) explicitly declare side effects, making failure modes visible at compile time.
-3.  **Effect Polymorphism:** Algorithms can be decoupled from the specific effect they run within (e.g., a loop that works for both "lists of items" and "sequences of IO actions").
+1. **Uniform Framework:** The same pattern works for disparate effects (IO, State, Error, Nondeterminism).
+2. **Explicit Effects:** Type signatures (e.g., `Expr -> Maybe Int`) explicitly declare side effects, making failure modes visible at compile time.
+3. **Effect Polymorphism:** Algorithms can be decoupled from the specific effect they run within (e.g., a loop that works for both "lists of items" and "sequences of IO actions").
 
 ## 6. Sources and Links
+
 - **Studying With Alex:** "The Absolute Best Intro to Monads For Software Engineers".
 - **Computerphile (Graham Hutton):** "What is a Monad?".
 - **A Byte of Code:** "What is a monad? (Design Pattern)".

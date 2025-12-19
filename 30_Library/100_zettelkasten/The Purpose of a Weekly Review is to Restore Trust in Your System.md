@@ -26,6 +26,7 @@ Achieving this state of trust requires performing the [[Core Actions of a GTD We
 
 **Psychological Insight:**
 Regular reviews combat [[Nihilism vs Constructed Meaning|meaning drift]] by:
+
 - Reinforcing chosen priorities
 - Validating progress
 - Adjusting purpose narratives

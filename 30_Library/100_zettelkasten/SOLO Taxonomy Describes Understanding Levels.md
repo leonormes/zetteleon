@@ -22,6 +22,7 @@ updated:
 **Summary:** The Structure of Observed Learning Outcome (SOLO) taxonomy categorizes understanding into five increasing complexity levels.
 
 **Levels:**
+
 1. Pre-structural: Missing the point
 2. Uni-structural: Single relevant aspect
 3. Multi-structural: Multiple unconnected facts
@@ -29,5 +30,6 @@ updated:
 5. Extended abstract: Transferable principles
 
 **Application:**
+
 - Assess learning depth
 - Design curriculum progression

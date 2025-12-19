@@ -22,11 +22,13 @@ updated:
 **Summary:** DNS delegation allows parent domains to transfer authority for subdomains to different nameservers, enabling hierarchical management.
 
 **Mechanism:**
+
 1. Parent zone (e.g., movie.edu) contains NS records pointing to subdomain nameservers (e.g., fx.movie.edu)
 2. Queries for the subdomain are referred to these nameservers
 3. Creates separate zone of authority
 
 **Benefits:**
+
 - Enables distributed administration
 - Supports organizational boundaries
 - Maintains hierarchical structure

@@ -25,6 +25,7 @@ For example, an ideal morning routine might include: an hour-long walk, a cooked
 Importantly, the ideal routine is not meant to create guilt when unachievable—it's simply the "full version" that gets scaled down to more realistic tiers when needed. Planning this tier helps clarify what you actually value and want to accomplish when capacity allows.
 
 ## Related
+
 - [[The Honeyman Method uses three-tiered routines to adapt to energy variation]]
 - [[Most Likely routines are scaled-down versions for average energy]]
 - [[Minimum routines are bare-bones essentials for low-energy days]]

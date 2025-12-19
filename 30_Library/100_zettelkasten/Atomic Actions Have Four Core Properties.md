@@ -27,10 +27,12 @@ version: 1
 An action cannot be broken down further while remaining meaningful. It is the smallest possible unit of work.
 
 **Examples:**
+
 - **Not Atomic:** "Write report" (can be broken down)
 - **Atomic:** "Open new document and title it 'Q3 Report'"
 
 **Not Atomic:** "Organize office" (too large)
+
 - **Atomic:** "Sort papers on desk into three piles: keep, file, trash"
 
 The test: Can this action be completed in a single, uninterrupted session without requiring a different context or waiting for external input?
@@ -40,6 +42,7 @@ The test: Can this action be completed in a single, uninterrupted session withou
 An action must be a real-world activity that produces an observable change. It must be something you *do* with your body and tools, not just think.
 
 **Examples:**
+
 - **Not Physical:** "Decide on strategy" (internal mental state)
 - **Physical:** "Brainstorm strategy options on whiteboard for 15 minutes"
 - **Not Physical:** "Think about email response"
@@ -52,6 +55,7 @@ The test: Would an observer be able to see you doing this action?
 Completion must be binary (0 or 1) and instantly verifiable. There is no "partially done" or ambiguous completion state.
 
 **Examples:**
+
 - **Ambiguous:** "Make progress on presentation" (what constitutes progress?)
 - **Unambiguous:** "Create slide deck with 5 blank slides titled with section names"
 - **Ambiguous:** "Work on budget"
@@ -64,6 +68,7 @@ The test: Can you definitively say "yes, this is complete" or "no, this is not c
 An action is tied to a specific context—the tool, location, or person required to complete it. This enables context-based action lists.
 
 **Examples:**
+
 - `@computer`: "Update project status in Asana"
 - `@phone`: "Call dentist to schedule appointment"
 - `@office`: "Print quarterly reports"
@@ -75,12 +80,14 @@ The test: What specific tool, location, or person is required to complete this a
 **Why These Properties Matter:**
 
 **For General Productivity:**
+
 - **Clarity:** No ambiguity about what to do
 - **Actionability:** Always clear what the next step is
 - **Completion:** Provides satisfaction of definite progress
 - **Organization:** Context tags enable efficient batching
 
 **For ADHD:**
+
 - **Reduces Overwhelm:** Small, clear actions are less daunting
 - **Overcomes Initiation Resistance:** Physical, visible actions are easier to start
 - **Provides Clarity:** Unambiguous completion removes uncertainty

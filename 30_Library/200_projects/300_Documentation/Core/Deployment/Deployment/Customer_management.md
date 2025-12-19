@@ -405,6 +405,7 @@ spec:
 ```
 
 2. Service Deployment
+
 - Values are merged with base service values
 - Used across multiple services in the node:
   - FFCloud Service
@@ -414,6 +415,7 @@ spec:
   - Workflow Engine
 
 3. Sync Policy
+
 - Uses `latest-release` tag for version control
 - ArgoCD monitors this tag for updates
 

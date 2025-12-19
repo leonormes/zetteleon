@@ -31,10 +31,10 @@ The **Metagame** (or "Meta-game") is the strategic layer that operates *outside*
 
 Metagame strategy relies on four primary levers:
 
-1.  **Context Manipulation:** Changing the environment so that the standard optimal strategy becomes suboptimal.
-2.  **Psychological Warfare:** Shaping the opponent's (or user's) perceptions and expectations to force errors.
-3.  **Incentive Engineering:** Designing systems where the "winning move" is also the desired behavior (e.g., in business or gamification).
-4.  **System Exploitation:** Identifying and leveraging the "physics" of the system (rules, physics engines, bureaucracies) rather than just playing within them.
+1. **Context Manipulation:** Changing the environment so that the standard optimal strategy becomes suboptimal.
+2. **Psychological Warfare:** Shaping the opponent's (or user's) perceptions and expectations to force errors.
+3. **Incentive Engineering:** Designing systems where the "winning move" is also the desired behavior (e.g., in business or gamification).
+4. **System Exploitation:** Identifying and leveraging the "physics" of the system (rules, physics engines, bureaucracies) rather than just playing within them.
 
 ---
 
@@ -78,6 +78,6 @@ In ProdOS, we apply Metagame thinking to **Productivity**:
 
 - **The Metagame:** Designing the environment (Context) so that completing tasks is the path of least resistance.
 
-    - *Example:* [[SoT - The Honeyman Method (Adaptive Routines)]] is a metagame strategy to "hack" the energy levels of an ADHD brain.
+  - *Example:* [[SoT - The Honeyman Method (Adaptive Routines)]] is a metagame strategy to "hack" the energy levels of an ADHD brain.
 
-    - *Example:* [[SoT - Temporal Management (Blocking and Boxing)]] manipulates the "Time" variable to force efficiency (Parkinson's Law).
+  - *Example:* [[SoT - Temporal Management (Blocking and Boxing)]] manipulates the "Time" variable to force efficiency (Parkinson's Law).

@@ -24,6 +24,7 @@ Adopting a probabilistic mindset, or "thinking in bets," is one method for achie
 
 **Technical Parallel:**
 Similar to [[Strategic Duplication Reduces System Coupling]], psychological decoupling creates:
+
 - Better error isolation
 - Reduced failure cascades
 - Increased iteration speed

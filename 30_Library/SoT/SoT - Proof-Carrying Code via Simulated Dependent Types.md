@@ -40,8 +40,8 @@ Standard type systems prevent type errors (e.g., treating an integer as a string
 
 By moving constraints from values (runtime) to types (compile-time), we make invalid states **unrepresentable**.
 
-1.  **The Hierarchy of Types:** To avoid paradoxes, systems like Rust enforce stratification. Terms (values) cannot easily influence Types. Dependent types bridge this gap, allowing a Type to be "A vector of length N" where N is a value.
-2.  **Simulated Dependent Types in Rust:**
+1. **The Hierarchy of Types:** To avoid paradoxes, systems like Rust enforce stratification. Terms (values) cannot easily influence Types. Dependent types bridge this gap, allowing a Type to be "A vector of length N" where N is a value.
+2. **Simulated Dependent Types in Rust:**
     - **Peano Arithmetic:** Numbers are defined as recursive types (`Zero`, `Successor<N>`) rather than `u32` values.
     - **Proof-Carrying Structs:** Data structures (like `SizeProofVec<Length>`) include the logic in their signature. `Vec<Nat3>` is a distinct type from `Vec<Nat4>`.
     - **Trait Solver as Logic Engine:** Logic operations (equality, comparison) are implemented as traits. The compiler "solves" these traits to prove validity.

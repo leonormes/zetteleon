@@ -27,9 +27,10 @@ updated:
 ---
 
 ## 2. Core Principles
-1.  **The Weak Sapir-Whorf Hypothesis:** Language influences thought (by providing scaffolding) but does not determine it. A mechanic understands an engine's torque through their hands long before they can explain the physics formula.
-2.  **Embodied Cognition:** We understand "heavy" because we have muscles. We understand "forward" because we have eyes. An AI without a body has no "grounding" for these concepts; it only has statistical correlations of tokens.
-3.  **The Translation Gap:** Miscommunication occurs because Speaker A translates their rich, pre-linguistic model into limited words, and Listener B attempts to reconstruct a *different* model from those words based on their own differing experiences.
+
+1. **The Weak Sapir-Whorf Hypothesis:** Language influences thought (by providing scaffolding) but does not determine it. A mechanic understands an engine's torque through their hands long before they can explain the physics formula.
+2. **Embodied Cognition:** We understand "heavy" because we have muscles. We understand "forward" because we have eyes. An AI without a body has no "grounding" for these concepts; it only has statistical correlations of tokens.
+3. **The Translation Gap:** Miscommunication occurs because Speaker A translates their rich, pre-linguistic model into limited words, and Listener B attempts to reconstruct a *different* model from those words based on their own differing experiences.
 
 ---
 
@@ -39,9 +40,9 @@ updated:
 
 - **Action First, Words Second:** You cannot "explain" a complex system to someone until they have a sensorimotor hook.
 
-    - *Bad:* Lecturing on "Torque" for an hour.
+  - *Bad:* Lecturing on "Torque" for an hour.
 
-    - *Good:* Handing them a wrench, letting them struggle to turn a bolt, *then* explaining Torque.
+  - *Good:* Handing them a wrench, letting them struggle to turn a bolt, *then* explaining Torque.
 
 - **Inquiry-Based Learning:** Questions force the brain to build a pre-linguistic "slot" that the answer can then fill.
 

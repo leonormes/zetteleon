@@ -26,12 +26,14 @@ updated: 2025-10-31T13:43:00Z
 Multiple factors constrain socket scalability:
 
 **OS-level limits:**
+
 - **File descriptor limits**: Each socket consumes one file descriptor
   - Per-process limit (ulimit -n): Often 1024 by default, can be increased
   - System-wide limit: Kernel parameter (e.g., /proc/sys/fs/file-max on Linux)
 - **Port exhaustion**: Client-side connections limited by available ephemeral ports (~28,000-64,000)
 
 **Hardware constraints:**
+
 - **Memory**: Each socket requires kernel memory for buffers
   - Typical socket overhead: 4-8 KB per connection
   - 1 million sockets ≈ 4-8 GB minimum RAM requirement
@@ -39,6 +41,7 @@ Multiple factors constrain socket scalability:
 - **Network bandwidth**: Physical network capacity limits
 
 **Kernel tuning parameters:**
+
 - TCP buffer sizes (net.ipv4.tcp_rmem, tcp_wmem)
 - Connection backlog (net.core.somaxconn)
 - TIME_WAIT socket reuse (net.ipv4.tcp_tw_reuse)

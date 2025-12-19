@@ -31,9 +31,9 @@ These biases specifically affect how we acquire, assess, and retain information.
 
 - **[[SoT - Illusion of Explanatory Depth (IoED)]]**: The belief that we understand a complex concept simply because we recognize its terms. This is the "Master Note" on the topic.
 
-    - *Related:* [[The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning]] - The mechanism behind IoED.
+  - *Related:* [[The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning]] - The mechanism behind IoED.
 
-    - *Related:* [[Familiarity is Mistaken for Comprehension in IoED]] - The specific error of confusing recognition with recall.
+  - *Related:* [[Familiarity is Mistaken for Comprehension in IoED]] - The specific error of confusing recognition with recall.
 
 - **[[SoT - Dunning-Kruger Effect]]**: Overestimating competence in areas where we lack expertise.
 
@@ -63,6 +63,6 @@ Biases that impact how we choose actions or value outcomes.
 
 In the context of [[SoT - PRODOS (System Architecture)]], we fight these biases through:
 
-1.  **"Write to Think"**: Forcing articulation exposes the **Illusion of Explanatory Depth**.
-2.  **"Reality as a Unit Test"**: Verifiable actions prevent **Illusion of Fluency**.
-3.  **"Hansei" (Reflection)**: Structured review combats **Self-Assessment flaws**.
+1. **"Write to Think"**: Forcing articulation exposes the **Illusion of Explanatory Depth**.
+2. **"Reality as a Unit Test"**: Verifiable actions prevent **Illusion of Fluency**.
+3. **"Hansei" (Reflection)**: Structured review combats **Self-Assessment flaws**.

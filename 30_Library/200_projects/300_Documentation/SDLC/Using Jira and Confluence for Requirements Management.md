@@ -117,10 +117,10 @@ Attachments/Links:
 Prioritization is key to staying on track. Implement a consistent framework to rank your requirements. Consider these common methods:
 
 - MoSCoW:
- - Must have: Critical for the product to be viable.
- - Should have: Important but not critical; can be deferred if necessary.
- - Could have: Desirable but less important; may be included if resources allow.
- - Won't have: Out of scope for the current iteration/release.
+- Must have: Critical for the product to be viable.
+- Should have: Important but not critical; can be deferred if necessary.
+- Could have: Desirable but less important; may be included if resources allow.
+- Won't have: Out of scope for the current iteration/release.
 - Value vs. Effort Matrix: Assess requirements based on their business value and the effort required to implement them. Prioritize high-value, low-effort items first.
 - Weighted Scoring: Define criteria (e.g., Business Value, User Impact, Risk, Effort) and assign weights to each. Score each requirement against these criteria to calculate a priority score.
 
@@ -134,21 +134,21 @@ Actionable Steps for Prioritization:
 
 - Jira Issue Types: Use appropriate Jira issue types (e.g., Story, Task, Bug) to represent different types of work related to requirements.
 - Link to Confluence: Crucially, link Jira tickets to the corresponding Confluence requirement pages. You can do this by:
- - Pasting the Confluence page URL into the "Description" or a custom field in Jira.
- - Using the Jira "Link" functionality to create a relationship (e.g., "relates to," "implements") between the Jira ticket and the Confluence page. The Jira Confluence integration app can enhance this.
- - Using the Confluence Jira macro to embed Jira ticket information directly on the Confluence page (for a bi-directional view).
+- Pasting the Confluence page URL into the "Description" or a custom field in Jira.
+- Using the Jira "Link" functionality to create a relationship (e.g., "relates to," "implements") between the Jira ticket and the Confluence page. The Jira Confluence integration app can enhance this.
+- Using the Confluence Jira macro to embed Jira ticket information directly on the Confluence page (for a bi-directional view).
 - Workflow for Requirements: Establish a Jira workflow that reflects the requirement lifecycle. For example:
- - To Do: Tickets linked to requirements that are not yet started.
- - In Progress: Tickets currently being worked on.
- - In Review/Testing: Tickets undergoing quality assurance.
- - Done: Tickets completed and deployed.
+- To Do: Tickets linked to requirements that are not yet started.
+- In Progress: Tickets currently being worked on.
+- In Review/Testing: Tickets undergoing quality assurance.
+- Done: Tickets completed and deployed.
 
 ### 4. Tracking and Staying on Track
 
 - Jira Boards and Dashboards: Utilize Jira Scrum or Kanban boards to visualize the progress of tickets related to requirements. Create dashboards to track key metrics like:
- - Requirement Status: Progress of requirements based on linked Jira tickets.
- - Sprint Burndown/Burnup Charts: Track team velocity and progress within sprints against prioritized requirements.
- - Blockers and Impediments: Identify and address roadblocks that are hindering progress on high-priority requirements.
+- Requirement Status: Progress of requirements based on linked Jira tickets.
+- Sprint Burndown/Burnup Charts: Track team velocity and progress within sprints against prioritized requirements.
+- Blockers and Impediments: Identify and address roadblocks that are hindering progress on high-priority requirements.
 - Confluence Status Reports: Use Confluence to create regular status reports that summarize progress against requirements. Embed Jira reports or dashboards into Confluence pages for a consolidated view.
 - Regular Team Meetings: Hold regular meetings (e.g., daily stand-ups, sprint reviews) to discuss progress, identify roadblocks, and re-prioritize as needed. Use the Confluence requirement pages and Jira boards as visual aids during these meetings.
 

@@ -51,9 +51,9 @@ Thinking must be decisive, not exploratory.
 
 - **The Method:** Identify the **Minimum Viable Action (MVA)**.
 
-    - *Not:* "Learn about nutrition."
+  - *Not:* "Learn about nutrition."
 
-    - *Is:* "Write 'Buy one book' on the list."
+  - *Is:* "Write 'Buy one book' on the list."
 
 - **The Why:** Small actions bypass the "Wall of Awful" (initiation paralysis).
 
@@ -76,6 +76,7 @@ Real-world data beats theoretical models.
 ---
 
 ## 4. Related Components
+
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
 - [[SoT - Process Primacy (Systems Over Goals)]]
 - [[SoT - Identity-Based Habit Formation]]

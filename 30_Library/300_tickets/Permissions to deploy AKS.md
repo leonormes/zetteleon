@@ -120,8 +120,8 @@ You can explain it like this:
 
 - We already grant the Terraform SP `Microsoft.Authorization/roleAssignments/*`, which covers the required `roleAssignments/write` permission for AKS-related role assignments.
 - To avoid deployment failures during AKS cluster + addon provisioning, we also need it to:
-    - Read role definitions and providers to validate capabilities.
-    - Manage/load network resources like load balancers and route tables used by the AKS control plane and node pools.
-    - Optionally manage Log Analytics and Key Vault resources if those addons/integrations are enabled.
+  - Read role definitions and providers to validate capabilities.
+  - Manage/load network resources like load balancers and route tables used by the AKS control plane and node pools.
+  - Optionally manage Log Analytics and Key Vault resources if those addons/integrations are enabled.
 
 If you tell me which AKS features you’re enabling (private cluster, Azure CNI vs kubenet, UDRs, AGIC, monitoring addon, Key Vault integration, etc.), I can trim this list down to just what you need.

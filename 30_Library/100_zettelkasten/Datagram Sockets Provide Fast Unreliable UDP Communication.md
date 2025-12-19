@@ -33,6 +33,7 @@ Datagram sockets use UDP (User Datagram Protocol) which offers:
 Unlike stream sockets, UDP doesn't establish a persistent connection - it simply sends individual packets (datagrams) to their destination.
 
 **Use Cases:**
+
 - Multiplayer gaming - speed matters more than perfect accuracy (a missed shot is acceptable, lag is not)
 - Live video/audio streaming - dropping a frame is better than delaying the stream
 - DNS queries - small, simple request-response where retry is easy

@@ -22,6 +22,7 @@ updated:
 **Summary:** API gateways provide centralized management for API interfaces, handling routing, security and monitoring at Layer 7.
 
 **Key functions:**
+
 - Request routing & composition
 - Authentication (JWT, API keys)
 - Rate limiting
@@ -29,6 +30,7 @@ updated:
 - API versioning
 
 **Example packet flow:**
+
 1. GET <https://api.myapp.com/orders/v1/my-orders>
 2. Gateway:
    - Validates JWT
@@ -37,6 +39,7 @@ updated:
    - Logs request
 
 **Limitations:**
+
 - Not a load balancer
 - No WAF functionality
 - No business logic

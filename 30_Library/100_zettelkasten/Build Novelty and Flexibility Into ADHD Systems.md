@@ -32,30 +32,35 @@ The solution to system abandonment is not more discipline or willpower—it's be
 **Strategies for Building in Novelty:**
 
 **1. Rotation and Variation:**
+
 - Rotate between multiple tools/methods rather than sticking to one
 - Change physical locations for recurring tasks
 - Alter the time of day for routine activities
 - Use different formats (digital/analog/hybrid)
 
 **2. Gamification and Micro-Rewards:**
+
 - Build in immediate, varied rewards
 - Create challenges or competitions (even with yourself)
 - Use apps that provide novelty through design (streak counters, badges, variety)
 - Change reward types frequently
 
 **3. Permission to Adapt:**
+
 - Design systems that explicitly allow for modification
 - Plan for periodic "system refreshes"
 - Accept that systems have lifecycles
 - Keep core principles but allow implementation to vary
 
 **4. Novelty Through Complexity:**
+
 - Systems can include rotating elements or modules
 - Different approaches for different contexts
 - Allow customization and tinkering
 - Make the system itself an evolving project
 
 **5. Social and External Novelty:**
+
 - Body doubling or co-working changes the experience
 - Accountability partners introduce social variability
 - External deadlines create urgency (a form of novelty)

@@ -24,10 +24,12 @@ updated: 2025-10-30T15:33:36Z
 **Details:** This distinction captures a fundamental shift in how you approach knowledge organization. Archivist thinking treats notes as items to be filed correctly in predetermined categories—the goal is efficient storage and retrieval. This leads to questions like "Does this go in Philosophy or Psychology?" and taxonomies that try to cover all possible topics. Writer thinking treats notes as future collaborators in thinking and writing—the goal is to maximize surprising connections and intellectual productivity. This leads to questions like "When would rediscovering this idea be most valuable?" and "What other ideas would benefit from encountering this?" The writer's approach is inherently associative and context-driven rather than taxonomic. In practice: the archivist creates folders and tries to find the "right" place for each note; the writer creates conceptual links and trusts that interesting contexts will emerge through connections. Zettelkasten methodology embodies writer thinking—prioritizing dynamic, associative linking over rigid, hierarchical classification. The shift from "where does this belong?" to "where will this be useful?" is transformative.
 
 **Links:**
+
 - [[Concept-Orientation Enables Cross-Domain Discovery]]
 - [[Bottom-Up Organization Allows Emergent Structure]]
 - [[Creating Meaningful Links]]
 
 > **Status gates**
+>
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.

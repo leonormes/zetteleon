@@ -51,13 +51,13 @@ Format your response using Markdown, including headings, lists, and code blocks 
 
 - Description: Fundamental data units in DNS zones, storing domain-related information.
 - Types:
-    - A: Maps a hostname to an IPv4 address (e.g., `www 3600 IN A 192.0.2.1`).
-    - AAAA: Maps a hostname to an IPv6 address (e.g., `www 3600 IN AAAA 2001:db8::1`).
-    - CNAME: Creates an alias for another domain (e.g., `blog 3600 IN CNAME www`).
-    - MX: Specifies mail servers (e.g., `@ 3600 IN MX 10 mail.example.com`)[^6].
-    - TXT: Holds arbitrary text (e.g., `@ 3600 IN TXT "v=spf1 mx ~all"`)[^6][^19].
-    - NS: Delegates authority to nameservers (e.g., `@ 3600 IN NS ns1.example.com`)[^4][^11].
-    - SOA: Zone metadata (e.g., `@ 3600 IN SOA ns1.example.com. admin.example.com. 2023080800 43200 3600 1209600 3600`)[^1][^6].
+  - A: Maps a hostname to an IPv4 address (e.g., `www 3600 IN A 192.0.2.1`).
+  - AAAA: Maps a hostname to an IPv6 address (e.g., `www 3600 IN AAAA 2001:db8::1`).
+  - CNAME: Creates an alias for another domain (e.g., `blog 3600 IN CNAME www`).
+  - MX: Specifies mail servers (e.g., `@ 3600 IN MX 10 mail.example.com`)[^6].
+  - TXT: Holds arbitrary text (e.g., `@ 3600 IN TXT "v=spf1 mx ~all"`)[^6][^19].
+  - NS: Delegates authority to nameservers (e.g., `@ 3600 IN NS ns1.example.com`)[^4][^11].
+  - SOA: Zone metadata (e.g., `@ 3600 IN SOA ns1.example.com. admin.example.com. 2023080800 43200 3600 1209600 3600`)[^1][^6].
 
 #### Zones
 
@@ -68,8 +68,8 @@ Format your response using Markdown, including headings, lists, and code blocks 
 
 - Description: Servers storing DNS zone data and answering queries.
 - Types:
-    - Authoritative: Holds definitive zone data (e.g., `ns1.example.com`)[^12][^23].
-    - Recursive: Resolves queries by iterating through DNS hierarchy (e.g., Google’s `8.8.8.8`)[^12][^23].
+  - Authoritative: Holds definitive zone data (e.g., `ns1.example.com`)[^12][^23].
+  - Recursive: Resolves queries by iterating through DNS hierarchy (e.g., Google’s `8.8.8.8`)[^12][^23].
 
 #### Queries \& Responses
 
@@ -146,8 +146,8 @@ Format your response using Markdown, including headings, lists, and code blocks 
 
 - Purpose: Validates DNS data integrity using cryptographic signatures.
 - Mechanism:
-    - Zones are signed with private keys; resolvers validate using public keys.
-    - Chain of trust from root → TLD → domain[^52][^54][^71].
+  - Zones are signed with private keys; resolvers validate using public keys.
+  - Chain of trust from root → TLD → domain[^52][^54][^71].
 - Example:
 
 ```plaintext

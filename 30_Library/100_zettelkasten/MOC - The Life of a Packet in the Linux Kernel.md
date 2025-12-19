@@ -25,8 +25,8 @@ updated: 2025-11-22T15:00:13Z
 
 The journey of a packet is a pipeline of well-defined steps managed by the kernel's networking stack.
 
-1.  **Transmit:** App $\to$ TCP/IP Stack $\to$ Routing $\to$ Neighbor Lookup $\to$ Queuing $\to$ NIC.
-2.  **Receive:** NIC $\to$ Ring Buffer $\to$ NAPI $\to$ Routing/Filter $\to$ Socket $\to$ App.
+1. **Transmit:** App $\to$ TCP/IP Stack $\to$ Routing $\to$ Neighbor Lookup $\to$ Queuing $\to$ NIC.
+2. **Receive:** NIC $\to$ Ring Buffer $\to$ NAPI $\to$ Routing/Filter $\to$ Socket $\to$ App.
 
 ### Part 1 - Transmit: from `write()` to the Wire
 

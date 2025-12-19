@@ -27,8 +27,8 @@ version: 1
 
 The development of shame in ADHD is not a single event but a constellation of reinforcing mechanisms:
 
-1.  **The Origin:** [[Misinterpretation as Character Flaws]] - Executive dysfunction (lateness, forgetting) is wrongly labeled as "laziness" or "selfishness" by authority figures.
-2.  **The Internalization:** [[Distorted Negative Self-Image]] - The individual accepts these labels as truth, viewing themselves as fundamentally broken ("defective").
-3.  **The Amplifier:** [[Rejection Sensitive Dysphoria (RSD)]] - The intense biological pain of rejection makes this shame unbearable, leading to extreme avoidance strategies.
-4.  **The Result:** [[Unexplained Underachievement]] - The gap between potential and output reinforces the belief of defectiveness.
-5.  **The Mechanism:** [[Emotional Dysregulation]] - The inability to self-soothe keeps the individual trapped in this negative loop.
+1. **The Origin:** [[Misinterpretation as Character Flaws]] - Executive dysfunction (lateness, forgetting) is wrongly labeled as "laziness" or "selfishness" by authority figures.
+2. **The Internalization:** [[Distorted Negative Self-Image]] - The individual accepts these labels as truth, viewing themselves as fundamentally broken ("defective").
+3. **The Amplifier:** [[Rejection Sensitive Dysphoria (RSD)]] - The intense biological pain of rejection makes this shame unbearable, leading to extreme avoidance strategies.
+4. **The Result:** [[Unexplained Underachievement]] - The gap between potential and output reinforces the belief of defectiveness.
+5. **The Mechanism:** [[Emotional Dysregulation]] - The inability to self-soothe keeps the individual trapped in this negative loop.

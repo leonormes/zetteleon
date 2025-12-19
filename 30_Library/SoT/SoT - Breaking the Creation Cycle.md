@@ -43,6 +43,7 @@ The goal is not to fight the brain but to build scaffolds that reduce the cost o
 Make it trivial to reload your mental model. Never close a session without a **State Snapshot**.
 
 **Format: `SESSION.md`**
+
 - **Now:** Bullet points of what was just completed.
 - **Next:** 1-3 concrete steps for the *next* session (≤ 15 mins each).
 - **Why:** The design intent and constraints (Plain English).
@@ -55,9 +56,9 @@ Make it trivial to reload your mental model. Never close a session without a **S
 
 Make returning low-friction and dopamine-friendly.
 
-1.  **Read:** Review the last `SESSION.md` or `git log`.
-2.  **Warm Start:** Run a single command to boot the environment (e.g., `make dev`).
-3.  **Micro-Step:** Do the smallest "Next" task (≤ 15 mins) immediately. Do not scope, do not plan. Just execute to generate momentum.
+1. **Read:** Review the last `SESSION.md` or `git log`.
+2. **Warm Start:** Run a single command to boot the environment (e.g., `make dev`).
+3. **Micro-Step:** Do the smallest "Next" task (≤ 15 mins) immediately. Do not scope, do not plan. Just execute to generate momentum.
 
 ---
 
@@ -71,9 +72,9 @@ Don't suppress the urge to innovate; channel it.
 
 - **20%:** Time-boxed "Spikes" (`spike/wild-idea-date`).
 
-    - Max 60-90 mins.
+  - Max 60-90 mins.
 
-    - Must end with a decision: **Adopt, Park, or Archive.**
+  - Must end with a decision: **Adopt, Park, or Archive.**
 
 ### B. The "MPD" (Minimal Path to Demo)
 
@@ -89,9 +90,9 @@ Big ideas stall because "done" is vague. Define a **Minimal Path to Demo**.
 
 If you *must* restart, you must pass these gates:
 
-1.  **One-Pager Rule:** The new plan must fit on one page (Scope, Sketch, MPD).
-2.  **Reuse-First:** You must reuse at least one core component/test from the old version.
-3.  **48-Hour Cooling Off:** Write the idea down, wait 2 days. If it's still better, spike it.
+1. **One-Pager Rule:** The new plan must fit on one page (Scope, Sketch, MPD).
+2. **Reuse-First:** You must reuse at least one core component/test from the old version.
+3. **48-Hour Cooling Off:** Write the idea down, wait 2 days. If it's still better, spike it.
 
 ---
 

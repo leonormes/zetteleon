@@ -37,8 +37,8 @@ OK, let's break down the IP allocation in your AKS cluster based on the provided
 - **Source:** Service IPs also come from the cluster's internal IP range.
 - **Management:** Kubernetes assigns Service IPs.
 - **Purpose:** Services provide a stable, internal endpoint for accessing a group of pods. Even if the pods backing a service change, the service IP remains the same.
-    - **ClusterIP:** The default service type. It gives you an IP accessible only from within the cluster.
-    - **LoadBalancer:** This type assigns an external Azure Load Balancer IP in addition to the internal ClusterIP. This allows external access to your service.
+  - **ClusterIP:** The default service type. It gives you an IP accessible only from within the cluster.
+  - **LoadBalancer:** This type assigns an external Azure Load Balancer IP in addition to the internal ClusterIP. This allows external access to your service.
 
 **IP Management Summary**
 
@@ -56,23 +56,27 @@ OK, let's break down the IP allocation in your AKS cluster based on the provided
 ## AKS Cluster IP Allocation
 
 ### 1. Node IPs
+
 - **Source:** Azure Virtual Network subnet
 - **Management:** Azure
 - **Purpose:** Node communication
 
 ### 2. Pod IPs
+
 - **Source:** Cluster-internal IP range
 - **Management:** Kubernetes
 - **Purpose:** Pod communication
 
 ### 3. Service IPs
+
 - **Source:** Cluster-internal IP range
 - **Management:** Kubernetes
 - **Purpose:** Stable endpoint for pods
-    - **ClusterIP:** Internal access
-    - **LoadBalancer:** External access
+  - **ClusterIP:** Internal access
+  - **LoadBalancer:** External access
 
 ### IP Management
+
 - **Azure:** VNet and node IPs
 - **Kubernetes:** Cluster-internal IPs
 

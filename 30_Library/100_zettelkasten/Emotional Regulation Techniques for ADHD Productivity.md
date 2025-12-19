@@ -42,6 +42,7 @@ The process combines a physical component (tapping) with a cognitive component (
 ## Criticism Framework
 
 **External Interactions:**
+
 - Use [[AAA Framework for Handling Criticism]] for feedback
 - Practice [[Cognitive Reframing of Criticism]] preemptively
 - Schedule recovery time after tough exchanges

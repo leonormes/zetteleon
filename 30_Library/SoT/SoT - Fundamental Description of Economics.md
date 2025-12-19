@@ -74,11 +74,11 @@ updated: null
 
 ## 3. Minimum Viable Understanding (MVU)
 
-1.  **Scarcity is Fundamental:** Economics begins with the problem of limited resources and unlimited wants.
-2.  **Choices = Trade-offs:** Every decision incurs an opportunity cost (what is given up).
-3.  **Rationality & Margins:** Individuals make decisions by weighing marginal benefits against marginal costs.
-4.  **Incentives Matter:** Behavior is shaped by rewards and penalties.
-5.  **Markets are Efficient (Generally):** They organize activity well but can fail, sometimes requiring government intervention.
+1. **Scarcity is Fundamental:** Economics begins with the problem of limited resources and unlimited wants.
+2. **Choices = Trade-offs:** Every decision incurs an opportunity cost (what is given up).
+3. **Rationality & Margins:** Individuals make decisions by weighing marginal benefits against marginal costs.
+4. **Incentives Matter:** Behavior is shaped by rewards and penalties.
+5. **Markets are Efficient (Generally):** They organize activity well but can fail, sometimes requiring government intervention.
 
 ---
 

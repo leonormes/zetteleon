@@ -138,14 +138,14 @@ The kernel tracks and represents the hierarchical file system structure using VF
 Each namespace type maintains its own reference in the process structure (`struct task_struct`), which in turn interacts with the filesystem in different ways:
 
 - Network Namespace (`netns`)
-    - No direct impact on the file system hierarchy.
-    - Certain files under `/proc` (e.g., `/proc/net/`) reflect network-specific state from the perspective of the associated network namespace.
+  - No direct impact on the file system hierarchy.
+  - Certain files under `/proc` (e.g., `/proc/net/`) reflect network-specific state from the perspective of the associated network namespace.
 - PID Namespace (`pidns`)
-    - The /proc filesystem is namespace-aware and will show a different set of PIDs when accessed by a process in a different PID namespace.
-    - The file system itself is unchanged, but `/proc/[pid]` reflects the namespace-relative PID structure.
+  - The /proc filesystem is namespace-aware and will show a different set of PIDs when accessed by a process in a different PID namespace.
+  - The file system itself is unchanged, but `/proc/[pid]` reflects the namespace-relative PID structure.
 - UTS Namespace (`utsns`)
-    - Hostname and domain name (`/proc/sys/kernel/hostname` and `/proc/sys/kernel/domainname`) appear different in different [UTS namespaces](UTS%20namespaces.md).
-    - The actual file system structure does not change, but the content in these virtualized files depends on the namespace.
+  - Hostname and domain name (`/proc/sys/kernel/hostname` and `/proc/sys/kernel/domainname`) appear different in different [UTS namespaces](UTS%20namespaces.md).
+  - The actual file system structure does not change, but the content in these virtualized files depends on the namespace.
 
 Since you have not created a new mount namespace, all processes continue to share the same mount table (`struct mount`) and root filesystem (`struct fs_struct`).
 
@@ -173,14 +173,14 @@ If a new mount namespace were created, it would provide an isolated view of the 
 Without a separate mount namespace, processes in different namespaces:
 
 - Share the same global filesystem
-    - This means that file operations like creating, modifying, or deleting files are visible across all namespaces.
-    - No process isolation at the file system level.
+  - This means that file operations like creating, modifying, or deleting files are visible across all namespaces.
+  - No process isolation at the file system level.
 - Cannot have per-namespace mounts or overlays
-    - Any new mount (e.g., `mount -o bind /newdir /mnt`) affects all namespaces.
-    - Processes cannot have their own `/proc` or `/dev` instances, limiting containerization.
+  - Any new mount (e.g., `mount -o bind /newdir /mnt`) affects all namespaces.
+  - Processes cannot have their own `/proc` or `/dev` instances, limiting containerization.
 - Namespace-specific virtual files still change behavior
-    - The contents of `/proc` and `/sys` are context-dependent based on PID, network, and [UTS namespaces](UTS%20namespaces.md).
-    - For example, a new UTS namespace allows changes to `hostname` without affecting other namespaces, even though `/proc/sys/kernel/hostname` remains in the same shared mount namespace.
+  - The contents of `/proc` and `/sys` are context-dependent based on PID, network, and [UTS namespaces](UTS%20namespaces.md).
+  - For example, a new UTS namespace allows changes to `hostname` without affecting other namespaces, even though `/proc/sys/kernel/hostname` remains in the same shared mount namespace.
 
 ---
 
@@ -189,8 +189,8 @@ Without a separate mount namespace, processes in different namespaces:
 The following kernel structures play a key role in managing file system representations within namespaces:
 
 - Mount Namespace (`mnt_namespace`)
-    - Since a new mount namespace is NOT created, all processes share the same `mnt_namespace` object.
-    - Found in `fs/mount.h`:
+  - Since a new mount namespace is NOT created, all processes share the same `mnt_namespace` object.
+  - Found in `fs/mount.h`:
 
         ```c
         struct mnt_namespace {
@@ -201,7 +201,7 @@ The following kernel structures play a key role in managing file system represen
         ```
 
 - Process Namespace Tracking (`task_struct`)
-    - Each process tracks its namespaces separately:
+  - Each process tracks its namespaces separately:
 
         ```c
         struct task_struct {
@@ -210,9 +210,9 @@ The following kernel structures play a key role in managing file system represen
         };
         ```
 
-    - `nsproxy` contains references to various namespaces, but `fs` remains the same unless a new mount namespace is created.
+  - `nsproxy` contains references to various namespaces, but `fs` remains the same unless a new mount namespace is created.
 - PID Namespace (`pid_namespace`)
-    - Controls `/proc` visibility:
+  - Controls `/proc` visibility:
 
         ```c
         struct pid_namespace {
@@ -222,7 +222,7 @@ The following kernel structures play a key role in managing file system represen
         ```
 
 - Network Namespace (`net`)
-    - Affects `/proc/net/` contents but does not change the file system hierarchy.
+  - Affects `/proc/net/` contents but does not change the file system hierarchy.
 
 ---
 
@@ -240,14 +240,14 @@ The following kernel structures play a key role in managing file system represen
 ### 6. References & Further Reading
 
 - Kernel Source (Namespace Implementation)
-    - `fs/namespace.c` (Mount namespace handling)
-    - `kernel/pid_namespace.c` (PID namespace)
-    - `net/core/net_namespace.c` (Network namespace)
-    - `kernel/utsname.c` (UTS namespace)
+  - `fs/namespace.c` (Mount namespace handling)
+  - `kernel/pid_namespace.c` (PID namespace)
+  - `net/core/net_namespace.c` (Network namespace)
+  - `kernel/utsname.c` (UTS namespace)
 - Documentation
-    - [Linux Kernel Documentation: Namespaces](https://www.kernel.org/doc/Documentation/namespaces/)
-    - `man 7 namespaces`
-    - `man 2 unshare`
+  - [Linux Kernel Documentation: Namespaces](https://www.kernel.org/doc/Documentation/namespaces/)
+  - `man 7 namespaces`
+  - `man 2 unshare`
 
 Would you like a deep dive into specific kernel functions or behavior?
 

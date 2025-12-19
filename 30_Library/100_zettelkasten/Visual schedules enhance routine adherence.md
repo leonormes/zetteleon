@@ -21,5 +21,6 @@ updated:
 Visual schedules (using apps, charts, or physical boards) make abstract time concepts tangible and reduce the cognitive load of remembering routine steps, serving as external scaffolding for executive function deficits.
 
 ## Related
+
 - [[Visual Timers for ADHD Time Blindness]]
 - [[A Digital System Can Externalise and Organise Thoughts]]

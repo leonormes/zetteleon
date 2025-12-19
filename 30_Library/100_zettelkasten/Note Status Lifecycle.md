@@ -26,11 +26,13 @@ updated: 2025-10-31T08:20:00Z
 **Seedling:** Initial state for all new notes. A seedling note has a summary and details, but may not be fully integrated or reviewed by the author. LLM-generated notes are always created at seedling status. Seedlings are drafts; they lack the rigor and review of more mature notes.
 
 **Growing:** A seedling becomes growing once it:
+
 - Has a summary (one sentence) and details (2–4 sentences)
 - Has at least 1 inbound link from a structural note (evidence of integration)
 - Has been reviewed by the author for accuracy and framing
 
 **Evergreen:** A growing note becomes evergreen once it:
+
 - Has at least 2 inbound links from structural notes (evidence of multiple contexts where it is useful)
 - Has a clearly articulated `purpose` field
 - Has a justified `confidence` score

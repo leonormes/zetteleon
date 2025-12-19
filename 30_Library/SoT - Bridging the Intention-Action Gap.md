@@ -20,7 +20,6 @@ tags: ["adhd", "behavioral_psychology", "execution", "productivity"]
 title: SoT - Bridging the Intention-Action Gap
 type: SoT
 uid:
-updated:
 ---
 
 ## 1. Definitive Statement
@@ -50,9 +49,10 @@ Standard productivity advice fails the ADHD brain because it assumes that *impor
 To bridge the gap, we must operate on two layers: lowering the barrier to entry (Activation Energy) and increasing the drive to cross it (Ignition).
 
 ### A. The Mechanics of Motivation
-1.  **Activation Energy:** The energy required to *start* a reaction. For ADHD, this is disproportionately high.
+
+1. **Activation Energy:** The energy required to *start* a reaction. For ADHD, this is disproportionately high.
     - *Rule:* If you can't start, the step is too big. Halve it. Then halve it again.
-2.  **Motion Creates Motivation:** Dopamine is often a *result* of action, not the cause.
+2. **Motion Creates Motivation:** Dopamine is often a *result* of action, not the cause.
     - *Loop:* Tiny Action -> Success Signal -> Dopamine Release -> Sustained Motivation.
 
 ### B. The PINCH Model (Fuel Sources)
@@ -77,17 +77,18 @@ When a task lacks intrinsic motivation, you must "gamify" it using one of these 
 
 When you are stuck in "Logic Mode" (staring at a screen, knowing you *should* work), use this protocol to generate heat:
 
-1.  **Mystery (Hypothesis):** "I wonder if I can finish this report without using the letter 'e'?" (Curiosity).
-2.  **Urgency (Time Trial):** "I have 5 minutes before the alarm. How much can I delete?" (Adrenaline).
-3.  **Spite (Rebellion):** "I'm going to finish this just to prove [Person/Idea] wrong." (Friction).
+1. **Mystery (Hypothesis):** "I wonder if I can finish this report without using the letter 'e'?" (Curiosity).
+2. **Urgency (Time Trial):** "I have 5 minutes before the alarm. How much can I delete?" (Adrenaline).
+3. **Spite (Rebellion):** "I'm going to finish this just to prove [Person/Idea] wrong." (Friction).
 
 ### Protocol B: The Vague-to-Action Checklist
 *Use when a task feels "heavy" or undefined.*
 
 **Phase 1: Define the Endpoint**
-1.  [ ] **Identify the 'Problem Statement':** Write down the vague task exactly as captured.
-2.  [ ] **Ask 'What does DONE look like?':** Describe a tangible, physical outcome (e.g., "A two-page PDF").
-3.  [ ] **Name the Final Outcome:** Give this outcome a clear project name.
+
+1. [ ] **Identify the 'Problem Statement':** Write down the vague task exactly as captured.
+2. [ ] **Ask 'What does DONE look like?':** Describe a tangible, physical outcome (e.g., "A two-page PDF").
+3. [ ] **Name the Final Outcome:** Give this outcome a clear project name.
 
 **Phase 2: Capture the Steps**
 4. [ ] **Set a 5-minute timer:** Reduce pressure.
@@ -114,20 +115,21 @@ A **Starter Task** is a micro-action designed purely to break static friction. I
 
 ## 5. Minimum Viable Understanding (MVU)
 
-1.  **Feeling Stuck?** Stop thinking. Logic is a steering wheel, not an engine.
-2.  **Shrink the Start:** Identify the **absolute smallest physical step** (e.g., "open laptop"). If you resist, make it smaller.
-3.  **Ignite:** If the task is boring, inject **Mystery, Spite, or Urgency** (PINCH) to manufacture dopamine.
-4.  **Execute:** Do the tiny step. Motivation follows motion.
+1. **Feeling Stuck?** Stop thinking. Logic is a steering wheel, not an engine.
+2. **Shrink the Start:** Identify the **absolute smallest physical step** (e.g., "open laptop"). If you resist, make it smaller.
+3. **Ignite:** If the task is boring, inject **Mystery, Spite, or Urgency** (PINCH) to manufacture dopamine.
+4. **Execute:** Do the tiny step. Motivation follows motion.
 
 ---
 
 ## 6. Open Questions & Tensions
 
 - **Tension:** **Novelty Decay.** ADHD brains adapt quickly. A strategy that works today (e.g., Time Trials) may stop working next week.
-    - *Mitigation:* Rotate through the PINCH drivers. Don't rely on just one.
+  - *Mitigation:* Rotate through the PINCH drivers. Don't rely on just one.
 - **Confidence Gap:** How to reliably generate intrinsic interest in deeply administrative tasks (taxes, compliance) remains a challenge. The **Spite** driver is often the most effective last resort here.
 
 ## 7. Related Components
+
 - [[SoT - ADHD and Motivation]]
 - [[SoT - PRODOS - Action Management (GTD)]]
 - [[SoT - PRODOS (System Architecture)]]

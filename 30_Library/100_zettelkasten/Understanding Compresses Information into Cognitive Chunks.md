@@ -22,11 +22,13 @@ updated:
 **Summary:** True understanding acts as a lossy compression algorithm, extracting patterns from raw data to create efficient mental models that reduce cognitive load.
 
 **Mechanisms:**
+
 - Identifies underlying principles
 - Discards redundant details
 - Creates predictive models
 
 **Benefits:**
+
 - Overcomes working memory limits
 - Enables problem-solving
 - Facilitates knowledge transfer

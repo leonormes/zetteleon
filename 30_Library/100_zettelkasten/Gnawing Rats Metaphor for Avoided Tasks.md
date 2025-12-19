@@ -22,11 +22,13 @@ updated:
 **Summary:** Avoided tasks ("gnawing rats") persistently consume mental energy until addressed.
 
 **Characteristics:**
+
 - Create background anxiety
 - Drain cognitive resources
 - Multiply through procrastination
 
 **Management:**
+
 - Acknowledge explicitly
 - Break into micro-steps
 - Schedule confrontation

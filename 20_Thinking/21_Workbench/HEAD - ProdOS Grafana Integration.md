@@ -32,11 +32,13 @@ ProdOS is currently "Output" focused (what I need to do). It lacks "Input" (what
 Grafana has the data. I need a way to pipe critical alerts into my "Inbox" or "Daily Note".
 
 ### The Tension
+
 - **Noise:** I don't want a flood of logs. Only actionable alerts.
 - **Mechanism:** Obsidian is a static file system. How do I get "Push" notifications into it?
 - **Latency:** Is it acceptable for this to be "Pull" (when I run a script) vs "Push" (real-time)?
 
 ### The Next Test
+
 - [ ] Write a simple Python script to query the Grafana API for "Alerting" states.
 - [ ] Format the output as a Markdown checklist.
 - [ ] Test appending this checklist to the current Daily Note via the Obsidian API.

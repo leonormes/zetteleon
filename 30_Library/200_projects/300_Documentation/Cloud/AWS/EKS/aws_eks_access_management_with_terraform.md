@@ -173,10 +173,12 @@ aws eks update-cluster-config \
 1. Simplified access management: The EKS API allows you to manage access entries directly, reducing the complexity and risk associated with manual ConfigMap updates.
 2. Integration with IAM and RBAC: Combines AWS IAM for authentication and Kubernetes RBAC for authorization, providing a robust and flexible access control system.
 3. Predefined Access Policies: AWS provides predefined access policies similar to Kubernetes ClusterRoles:
+
 - AmazonEKSClusterAdminPolicy – cluster-admin
 - AmazonEKSAdminPolicy – admin
 - AmazonEKSEditPolicy – edit
 - AmazonEKSViewPolicy – view
+
 4. Enhanced security: By managing access through the EKS API, you can ensure that only authorized users have access to your clusters, improving overall security.
 5. Infrastructure as Code (IaC): Easily manage access entries using IaC tools like Terraform, OpenTofu, Pulumi, Ansible, and CloudFormation.
 
@@ -332,6 +334,7 @@ This Terraform configuration sets up an AWS EKS cluster with the following compo
 4. VPC Configuration: Specifies the VPC and subnets for the EKS cluster.
 5. Managed Node Groups: Configures managed node groups with specified instance types and sizes.
 6. Access Entries:
+
 - Cluster Creator Admin Permissions: Enables the current caller identity as an administrator.
 - Example Access Entry: Creates an access entry for an IAM role with the ARN `arn:aws:iam::123456789012:role/something`. This entry is associated with the `AmazonEKSViewPolicy`, granting view permissions within the "default" namespace.
 

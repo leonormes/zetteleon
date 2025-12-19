@@ -21,6 +21,7 @@ version:
 ## Identified Hardcoded Data
 
 ### 1. Terraform Provider Versions
+
 - File: versions.tf
 - Type: String
 - Values:
@@ -30,6 +31,7 @@ version:
   - required_version: ">= 1.8.3"
 
 ### 2. Helm Chart Versions
+
 - File: ingress_nginx/main.tf
   - Type: String
   - Value: "4.11.2" (ingress-nginx chart version)
@@ -49,15 +51,17 @@ version:
   - Value: "9.43.0" (cluster-autoscaler chart version)
 
 ### 3. Default Values
+
 - File: variables.tf
   - Type: String
-  - Value: "https://vault-public-vault-8b38a0c2.e3dedc53.z1.hashicorp.cloud:8200/" (vault_address default)
+  - Value: "<https://vault-public-vault-8b38a0c2.e3dedc53.z1.hashicorp.cloud:8200/>" (vault_address default)
   - Type: String
   - Value: "AZURE" (cloud_provider default)
   - Type: String
   - Value: "eu-west-2" (aws_region default)
 
 ### 4. Hardcoded Service Names and Namespaces
+
 - File: locals.tf
   - Type: String
   - Value: "vault-secrets-operator-system" (in unique_namespaces)
@@ -69,11 +73,13 @@ version:
   - Values: Various namespace names like "vault-secrets-operator-system", "reflector"
 
 ### 5. Repository URLs
+
 - File: Multiple files (ingress_nginx/main.tf, argocd/main.tf, etc.)
   - Type: String
   - Value: "oci://fitfilepublic.azurecr.io" (helm chart repository)
 
 ### 6. Resource Configurations
+
 - File: reflector/main.tf
   - Type: String
   - Values:
@@ -444,6 +450,7 @@ Extracting hardcoded chart versions provides several key benefits:
 ## Implementation Details
 
 ### Phase 1: Chart Version Variables (Priority)
+
 1. Create variables for each Helm chart version:
 
 ```hcl
@@ -467,11 +474,13 @@ variable "argocd_chart_version" {
 4. Add version outputs for validation and documentation
 
 ### Phase 2: Provider Versions and Other Configurations
+
 1. Extract provider version constraints into variables
 2. Extract repository URLs and namespaces into variables
 3. Extract resource configurations (CPU/memory) into structured variables
 
 ## Acceptance Criteria
+
 - [x] All hardcoded Helm chart versions are extracted into variables with appropriate defaults [completion:: 2025-03-06]
 - [x] All provider version constraints are extracted into variables [completion:: 2025-03-06]
 - [x] Resources can be deployed using the default variable values (backward compatibility) [completion:: 2025-03-06]
@@ -480,6 +489,7 @@ variable "argocd_chart_version" {
 - [x] An output is added that shows the deployed versions for verification [completion:: 2025-03-06]
 
 ## Technical Notes
+
 - Some submodules may need their variable interfaces updated to accept the new version parameters
 - The default values should match the current hardcoded values to maintain backward compatibility
 - All variables should have descriptive documentation explaining their purpose and any version compatibility considerations

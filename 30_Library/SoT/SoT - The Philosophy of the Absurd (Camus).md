@@ -27,8 +27,9 @@ updated:
 
 > [!definition] The Absurd
 > The **Absurd** is not a property of the universe nor of the human mind, but the **irresolvable conflict** born from their confrontation:
-> 1.  **The Human Need:** Our innate, desperate drive to find meaning, order, and rational explanations for our existence.
-> 2.  **The Universe's Response:** The "unreasonable silence of the world"—a cosmos that offers no inherent meaning, no grand purpose, and no answer to our cries.
+>
+> 1. **The Human Need:** Our innate, desperate drive to find meaning, order, and rational explanations for our existence.
+> 2. **The Universe's Response:** The "unreasonable silence of the world"—a cosmos that offers no inherent meaning, no grand purpose, and no answer to our cries.
 
 ---
 
@@ -54,9 +55,9 @@ Once an individual realizes the Absurd (the "diagnosis"), they must choose how t
 
 - **Camus's Verdict:** **Accept.** This is the only honest path. It transforms the lack of meaning into **Freedom**.
 
-    - *If there is no pre-defined script, I am free to write my own.*
+  - *If there is no pre-defined script, I am free to write my own.*
 
-    - *The value of life is found not in its length or destination, but in the intensity of the experience.*
+  - *The value of life is found not in its length or destination, but in the intensity of the experience.*
 
 ---
 
@@ -76,10 +77,10 @@ Camus uses the myth of **Sisyphus**—condemned to roll a boulder up a hill for 
 
 Camus proposed concrete ways to create meaning (not find it) through active engagement:
 
-1.  **Embrace the Present Moment:** Focus on the "here and now." Without a guaranteed future, the current sensory experience becomes the only true reality.
-2.  **Cultivate Passions (Rebellion):** Hobbies and interests (like Camus's love of football) are vital rebellions against the rigidity of existence. They provide "local meaning" and counterbalance monotony.
-3.  **Human Connection:** In a silent universe, our connection to other humans is the only "noise" we can make. Simple acts of kindness and shared struggle give life density.
-4.  **Travel:** Breaks routine and forces confrontation with the self, offering new perspectives on the world's indifference and beauty.
+1. **Embrace the Present Moment:** Focus on the "here and now." Without a guaranteed future, the current sensory experience becomes the only true reality.
+2. **Cultivate Passions (Rebellion):** Hobbies and interests (like Camus's love of football) are vital rebellions against the rigidity of existence. They provide "local meaning" and counterbalance monotony.
+3. **Human Connection:** In a silent universe, our connection to other humans is the only "noise" we can make. Simple acts of kindness and shared struggle give life density.
+4. **Travel:** Breaks routine and forces confrontation with the self, offering new perspectives on the world's indifference and beauty.
 
 ---
 
@@ -87,9 +88,9 @@ Camus proposed concrete ways to create meaning (not find it) through active enga
 
 Camus's "Revolt" is not universally accepted as the final word.
 
-1.  **Sartre's Existential Critique:** Sartre argued that "Revolt" is insufficient. Since "existence precedes essence," we must not just *defy* meaninglessness but actively *create* meaning. He saw Camus's stance as too passive/defensive.
-2.  **Theological Critique:** Religious thinkers argue the "Leap of Faith" is not an escape but an encounter with a deeper reality (Incarnation) that Camus's rationality cannot perceive.
-3.  **Inconsistency:** If the universe has no value, on what basis does the rebel demand "justice" or "dignity"? The act of rebellion implies an internal value system that the Absurd theoretical framework denies.
+1. **Sartre's Existential Critique:** Sartre argued that "Revolt" is insufficient. Since "existence precedes essence," we must not just *defy* meaninglessness but actively *create* meaning. He saw Camus's stance as too passive/defensive.
+2. **Theological Critique:** Religious thinkers argue the "Leap of Faith" is not an escape but an encounter with a deeper reality (Incarnation) that Camus's rationality cannot perceive.
+3. **Inconsistency:** If the universe has no value, on what basis does the rebel demand "justice" or "dignity"? The act of rebellion implies an internal value system that the Absurd theoretical framework denies.
 
 ---
 

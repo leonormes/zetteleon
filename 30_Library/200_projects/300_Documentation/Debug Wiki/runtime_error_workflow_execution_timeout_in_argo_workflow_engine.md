@@ -135,38 +135,39 @@ Argo workflows are failing to complete within the allocated time limit, resultin
 
 - Primary failure point: Insufficient time allocation for workflow execution.
 - Contributing factors:
-    - Long-running tasks within the workflow.
-    - Resource constraints on the Kubernetes cluster.
-    - Network latency issues affecting communication between pods.
-    - Unexpected workload spikes exceeding system capacity.
+  - Long-running tasks within the workflow.
+  - Resource constraints on the Kubernetes cluster.
+  - Network latency issues affecting communication between pods.
+  - Unexpected workload spikes exceeding system capacity.
 - Trigger conditions:
-    - Large datasets requiring extensive processing.
-    - Complex workflow logic with multiple dependencies.
-    - External service calls experiencing delays.
-    - Infrastructure limitations impacting performance.
+  - Large datasets requiring extensive processing.
+  - Complex workflow logic with multiple dependencies.
+  - External service calls experiencing delays.
+  - Infrastructure limitations impacting performance.
 - Environmental dependencies:
-    - Kubernetes cluster size and configuration.
-    - Network bandwidth and stability.
-    - Availability of external resources.
+  - Kubernetes cluster size and configuration.
+  - Network bandwidth and stability.
+  - Availability of external resources.
 
 ### Resolution
 
 - Immediate fixes:
-    - Increase the `activeDeadlineSeconds` parameter in the Argo workflow spec to allow more time for execution.
-    - Monitor workflow execution and identify long-running steps for optimization.
-    - Scale up the Kubernetes cluster to provide additional resources.
+  - Increase the `activeDeadlineSeconds` parameter in the Argo workflow spec to allow more time for execution.
+  - Monitor workflow execution and identify long-running steps for optimization.
+  - Scale up the Kubernetes cluster to provide additional resources.
 - Long-term solutions:
-    - Optimize workflow logic to reduce execution time.
-    - Implement resource limits and quotas to prevent contention.
-    - Improve network performance and reduce latency.
-    - Monitor system health and proactively address potential bottlenecks.
+  - Optimize workflow logic to reduce execution time.
+  - Implement resource limits and quotas to prevent contention.
+  - Improve network performance and reduce latency.
+  - Monitor system health and proactively address potential bottlenecks.
 - Prevention strategies:
-    - Set realistic time limits based on historical data and performance testing.
-    - Implement alerts and notifications for workflows exceeding thresholds.
-    - Regularly review and optimize workflow definitions.
-    - Conduct capacity planning to ensure sufficient resources are available.
+  - Set realistic time limits based on historical data and performance testing.
+  - Implement alerts and notifications for workflows exceeding thresholds.
+  - Regularly review and optimize workflow definitions.
+  - Conduct capacity planning to ensure sufficient resources are available.
 
 ### Related Information
+
 - Troubleshooting Argo Workflows
 
 ### Validation Checklist
@@ -304,8 +305,8 @@ Here are more logs from around the same time:
 10:16:48
 
 - The "microsoft-defender-low-level-collector" container reported multiple errors:
-    - "Failed to get max memory usage with error: open /sys/fs/cgroup/memory.peak: no such file or directory"
-    - "Failed to get memory usage with error: open /sys/fs/cgroup/memory.current: no such file or directory"
+  - "Failed to get max memory usage with error: open /sys/fs/cgroup/memory.peak: no such file or directory"
+  - "Failed to get memory usage with error: open /sys/fs/cgroup/memory.current: no such file or directory"
 
 10:16:45
 

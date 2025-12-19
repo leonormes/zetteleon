@@ -26,12 +26,12 @@ updated:
 ## 1. Working Knowledge (Stable Foundation)
 
 - **The Trinity (Curry-Howard-Lambek):** Three fields describe the exact same structure:
-    1.  **Logic:** Propositions & Proofs (Gentzen).
-    2.  **Computation:** Types & Functions (Church).
-    3.  **Categories:** Objects & Arrows (Eilenberg/Mac Lane).
+    1. **Logic:** Propositions & Proofs (Gentzen).
+    2. **Computation:** Types & Functions (Church).
+    3. **Categories:** Objects & Arrows (Eilenberg/Mac Lane).
 - **The Architectural Insight:** Data structures are defined by their **arrows** (relationships), not their contents.
-    - **Products (AND):** Defined by arrows pointing **OUT** (Projections: `fst`, `snd`).
-    - **Sums (OR):** Defined by arrows pointing **IN** (Injections: `Left`, `Right`).
+  - **Products (AND):** Defined by arrows pointing **OUT** (Projections: `fst`, `snd`).
+  - **Sums (OR):** Defined by arrows pointing **IN** (Injections: `Left`, `Right`).
 - **Duality:** If you reverse the arrows of a Product, you get a Sum. The logic of construction is the mirror image of the logic of destruction.
 
 ## 2. Current Understanding (Coherent Narrative)
@@ -47,9 +47,9 @@ A Category is the simplest possible structure: Objects (Types) and Arrows (Funct
 
 Wadler visualizes the "Shape" of data:
 
-1.  **Product ($A \times B$):** A "Source" object that can project to A and B. It is the essence of **Conjunction** ($A \land B$).
+1. **Product ($A \times B$):** A "Source" object that can project to A and B. It is the essence of **Conjunction** ($A \land B$).
     - *Code:* `struct Point { x: Int, y: Int }`. You extract `x` and `y`.
-2.  **Sum ($A + B$):** A "Target" object that A and B can inject into. It is the essence of **Disjunction** ($A \lor B$).
+2. **Sum ($A + B$):** A "Target" object that A and B can inject into. It is the essence of **Disjunction** ($A \lor B$).
     - *Code:* `enum Result { Ok(T), Err(E) }`. You construct it from `Ok` or `Err`.
 
 ### Functions as Exponentials
@@ -75,9 +75,9 @@ A function $A \to B$ is an object $B^A$.
 ## 5. Tensions, Gaps, and Cross-SoT Coherence
 
 - **Reinforcement:** This note provides the *Categorical* view of the concepts in [[SoT - The Algebra of Types (Cardinality and Isomorphism)]].
-    - *Algebra:* $A + B$.
-    - *Category:* Arrows pointing IN.
-    - *Logic:* $A \lor B$.
+  - *Algebra:* $A + B$.
+  - *Category:* Arrows pointing IN.
+  - *Logic:* $A \lor B$.
 
 ## 6. Sources and Links
 

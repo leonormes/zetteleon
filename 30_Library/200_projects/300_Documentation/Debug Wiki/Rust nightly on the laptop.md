@@ -29,6 +29,7 @@ Here's a comprehensive debug wiki page documenting the issues and solutions we e
 Scenario: Compilation failures when using `#![feature(test)]` due to toolchain conflicts and corrupted installations.
 
 #### Key Symptoms
+
 1. `error[E0554]: #![feature] may not be used on the stable release channel`
 2. Corrupted nightly toolchain showing impossible dates (2025)
 3. `curl` installation failures returning HTML instead of installer script
@@ -140,6 +141,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 ```
 
 #### Verification Checklist
+
 1. Single Rust installation (`which rustc` should show ~/.cargo/bin)
 2. Valid toolchain dates (`rustc --version`)
 3. No `rust-toolchain` file conflicts

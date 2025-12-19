@@ -33,9 +33,9 @@ The video assesses vegetables by comparing their nutritional content and health 
 
 - **Data Basis:** All nutritional data is standardised to **100 grams** for consistency and comparison \[[01:46](http://www.youtube.com/watch?v=fD07raxrJVo&t=106)\].
 - **Tier Interpretation:**
-	- **B Tier:** Considered the baseline for **average healthy and generally safe** vegetables \[[01:14](http://www.youtube.com/watch?v=fD07raxrJVo&t=74)\].
-	- **Top Tier (S-Tier):** Reserved for **'superfoods'** that are exceptionally potent in delivering nutritional value and unique health compounds \[[01:19](http://www.youtube.com/watch?v=fD07raxrJVo&t=79)\].
-	- **General Principle:** Anything ranked above the bottom tier is still valuable for inclusion in a meal plan \[[01:26](http://www.youtube.com/watch?v=fD07raxrJVo&t=86)\].
+  - **B Tier:** Considered the baseline for **average healthy and generally safe** vegetables \[[01:14](http://www.youtube.com/watch?v=fD07raxrJVo&t=74)\].
+  - **Top Tier (S-Tier):** Reserved for **'superfoods'** that are exceptionally potent in delivering nutritional value and unique health compounds \[[01:19](http://www.youtube.com/watch?v=fD07raxrJVo&t=79)\].
+  - **General Principle:** Anything ranked above the bottom tier is still valuable for inclusion in a meal plan \[[01:26](http://www.youtube.com/watch?v=fD07raxrJVo&t=86)\].
 
 ## II. Top-Down Nutritional Rankings (Key Outputs)
 
@@ -73,4 +73,4 @@ Google Account
 
 Leon Ormes
 
-leonormes@gmail.com
+<leonormes@gmail.com>

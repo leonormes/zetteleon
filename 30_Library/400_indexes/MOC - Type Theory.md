@@ -53,10 +53,10 @@ Bridging the gap between structure and computation.
 
 Applying type theory to eliminate runtime failure.
 
--   **[[SoT - Proof-Carrying Code via Simulated Dependent Types]]**: Techniques for encoding logic proofs into Rust's type system to render bugs unrepresentable.
--   **[[SoT - Dependent Haskell and Singletons]]**: The architectural patterns (Promoted Constructors, Singletons) for implementing dependent types in Haskell.
--   **[[SoT - Interleaved Compilation (The Hackett Architecture)]]**: Fusing Lisp macros with Haskell types by running expansion and type-checking simultaneously.
--   **[[SoT - TypeScript as a Proof Engine (Set Theory and Distributivity)]]**: The mental model of TypeScript types as Sets and the compiler as a constraint solver, addressing the Distributivity Trap.
+- **[[SoT - Proof-Carrying Code via Simulated Dependent Types]]**: Techniques for encoding logic proofs into Rust's type system to render bugs unrepresentable.
+- **[[SoT - Dependent Haskell and Singletons]]**: The architectural patterns (Promoted Constructors, Singletons) for implementing dependent types in Haskell.
+- **[[SoT - Interleaved Compilation (The Hackett Architecture)]]**: Fusing Lisp macros with Haskell types by running expansion and type-checking simultaneously.
+- **[[SoT - TypeScript as a Proof Engine (Set Theory and Distributivity)]]**: The mental model of TypeScript types as Sets and the compiler as a constraint solver, addressing the Distributivity Trap.
 
 ### 5. Philosophical & Mathematical Context
 

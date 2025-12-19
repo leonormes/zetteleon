@@ -25,6 +25,7 @@ updated:
 When subdomain nameservers reside within their own subdomain (e.g., ns1.fx.movie.edu serving fx.movie.edu), resolvers cannot find their IPs without these records.
 
 **Implementation:**
+
 - Parent zone includes A records for child nameservers
 - Provided during referral responses
 - Not part of parent's official zone data

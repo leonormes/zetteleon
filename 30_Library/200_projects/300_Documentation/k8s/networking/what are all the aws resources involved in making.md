@@ -45,16 +45,16 @@ To make a request from a jumpbox in a private VPC, multiple AWS resources work t
 
 - The route table associated with the private subnet must include a route directing `0.0.0.0/0` (all traffic) to a NAT Gateway or NAT instance for outbound internet access.
 - Example Route Table for Private Subnet:
-    - `Destination: 0.0.0.0/0`
-    - `Target: nat-gateway-id` (or `instance-id` for NAT instance)
+  - `Destination: 0.0.0.0/0`
+  - `Target: nat-gateway-id` (or `instance-id` for NAT instance)
 
 ---
 
 #### 4. NAT Gateway or NAT Instance
 
 - A NAT Gateway or NAT Instance is required for instances in private subnets to access the internet.
-    - NAT Gateway: A managed AWS service that allows outbound traffic from private subnets but blocks inbound traffic.
-    - NAT Instance: A manually configured EC2 instance that performs similar functionality but requires additional management.
+  - NAT Gateway: A managed AWS service that allows outbound traffic from private subnets but blocks inbound traffic.
+  - NAT Instance: A manually configured EC2 instance that performs similar functionality but requires additional management.
 
 ---
 
@@ -74,19 +74,19 @@ To make a request from a jumpbox in a private VPC, multiple AWS resources work t
 #### 7. Security Groups
 
 - Security groups act as virtual firewalls for controlling inbound and outbound traffic:
-    - Jumpbox Security Group:
-        - Outbound Rule: Allows outbound traffic to `0.0.0.0/0` on ports like 80 (HTTP) or 443 (HTTPS).
-        - No inbound rule is needed for responses to outbound traffic because security groups are stateful.
-    - NAT Gateway Security Group (if using a NAT instance): Allows inbound traffic from private subnets and outbound traffic to the Internet Gateway.
+  - Jumpbox Security Group:
+    - Outbound Rule: Allows outbound traffic to `0.0.0.0/0` on ports like 80 (HTTP) or 443 (HTTPS).
+    - No inbound rule is needed for responses to outbound traffic because security groups are stateful.
+  - NAT Gateway Security Group (if using a NAT instance): Allows inbound traffic from private subnets and outbound traffic to the Internet Gateway.
 
 ---
 
 #### 8. Network ACLs (Optional)
 
 - Network ACLs are stateless firewalls at the subnet level that control inbound and outbound traffic.
-    - Ensure that:
-        - Outbound rules allow traffic to `0.0.0.0/0` on ports like 80/443.
-        - Inbound rules allow ephemeral ports (1024–65535) for return traffic.
+  - Ensure that:
+    - Outbound rules allow traffic to `0.0.0.0/0` on ports like 80/443.
+    - Inbound rules allow ephemeral ports (1024–65535) for return traffic.
 
 ---
 

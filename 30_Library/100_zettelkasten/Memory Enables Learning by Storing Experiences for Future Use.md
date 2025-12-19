@@ -22,6 +22,7 @@ updated:
 **Summary:** Memory is a fundamental cognitive tool that allows organisms to store information from past experiences and apply it to future situations, forming the basis of learning.
 
 **Details:** Memory works by:
+
 - Recording sensory inputs and experiences
 - Storing this information in a retrievable format
 - Allowing recall when similar situations are encountered

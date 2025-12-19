@@ -23,18 +23,21 @@ version: 1
 **The Three Approaches:**
 
 **Outcome-Based Habits (What You Get):**
+
 - Goal: "I want to read 50 books this year"
 - Goal: "I want to run a marathon"
 - Goal: "I want to lose 20 pounds"
 - Focus: The end result or achievement
 
 **Process-Based Habits (What You Do):**
+
 - System: "I will read for 30 minutes every morning"
 - System: "I will run three times per week"
 - System: "I will track my calories and exercise daily"
 - Focus: The actions and routines
 
 **Identity-Based Habits (What You Believe):**
+
 - Identity: "I am a reader"
 - Identity: "I am a runner"
 - Identity: "I am a healthy person"

@@ -22,10 +22,12 @@ updated:
 **Summary:** Humans first exist without predetermined purpose, then define themselves through choices.
 
 **Key Principles:**
+
 - Radical freedom to self-define
 - Authenticity through conscious action
 - Responsibility for choices
 
 **Thinkers:**
+
 - Sartre: Inaction is still a choice
 - De Beauvoir: Ethical expansion of freedom

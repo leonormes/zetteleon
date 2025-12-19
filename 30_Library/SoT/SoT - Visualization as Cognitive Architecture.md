@@ -87,9 +87,9 @@ To visualise effectively, invert the typical "Top-Down" approach. Focus on the s
 
 **Do not start with the context.**
 
-1.  **Select the Nucleus:** Choose one specific object, action, or outcome (Plane 1).
-2.  **Design the First Frame:** Render it with high fidelity. What is the texture? The weight? The exact color?
-3.  **Expand the Fractal:** Allow your awareness to drift to the Observation Plane (Plane 2).
-4.  **Let the World Build:** Trust the Ground Plane (Plane 3) to fill itself in.
+1. **Select the Nucleus:** Choose one specific object, action, or outcome (Plane 1).
+2. **Design the First Frame:** Render it with high fidelity. What is the texture? The weight? The exact color?
+3. **Expand the Fractal:** Allow your awareness to drift to the Observation Plane (Plane 2).
+4. **Let the World Build:** Trust the Ground Plane (Plane 3) to fill itself in.
 
 *Why this works:* It respects the brain's bandwidth limits. By locking the "First Frame," you provide the stable geometry the brain needs to render the rest of the simulation.

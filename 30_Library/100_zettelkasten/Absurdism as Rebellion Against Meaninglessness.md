@@ -22,11 +22,13 @@ updated:
 **Summary:** Embracing life's lack of inherent meaning while finding value in lived experience.
 
 **Key Ideas:**
+
 - Universe is indifferent
 - Reject both suicide and false hope
 - Find joy in the present struggle
 
 **Practical Application:**
+
 - Focus on immediate engagement
 - Let go of cosmic justification
 - Create temporary meanings

@@ -33,6 +33,7 @@ These three terms are often confused but have distinct meanings:
   - A WebSocket message for real-time communication
 
 **Relationship:**
+
 - One client connection = one socket
 - That socket may handle one or more requests depending on the protocol:
   - HTTP/1.0: one connection = one request

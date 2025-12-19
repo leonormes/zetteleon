@@ -23,5 +23,6 @@ Timeboxing is the practice of dedicating specific, fixed blocks of time to parti
 Unlike an open-ended to-do list where tasks are listed without a schedule, timeboxing assigns each task a concrete allocation on a calendar. This transforms a vague intention into a specific commitment.
 
 ## Example
+
 - **To-Do List Item:** "Write article"
 - **Timeboxed Item:** "Tuesday 9:00-11:00 AM: Write article introduction and first section"

@@ -24,5 +24,6 @@ Structure in daily routines conserves cognitive energy for neurodivergent indivi
 While structure is essential, building in controlled novelty (e.g., rotating workspaces, varied routines) can maintain engagement for ADHD brains without sacrificing stability.
 
 ## Related
+
 - [[Executive Function Challenges are Central to ADHD]]
 - [[Working Memory Limitations in ADHD]]

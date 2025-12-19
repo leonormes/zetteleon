@@ -113,6 +113,7 @@ Should look something like this:
 Login, Go to Settings → Variable Sets
 
 16. Add to the variable set the following. Set all the following to environment variables and set all bar the client_id as sensitive (this restricts them from showing in the UI)
+
 - ARM_ACCESS_KEY == Secret_id of the secret you created in the azure tenant
 - ARM_CLIENT_SECRET == Value of the secret you created in azure tenant
 - ARM_CLIENT_ID == the application id of the enterprise application

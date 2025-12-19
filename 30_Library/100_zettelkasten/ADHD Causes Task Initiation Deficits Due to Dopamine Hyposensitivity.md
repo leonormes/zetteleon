@@ -21,6 +21,7 @@ updated:
 Individuals with ADHD often struggle with task initiation because their brains require significantly more energy to begin a task. This difficulty is linked to a hyposensitivity of dopamine neurons in the striatum, meaning that the perceived importance of a task does not trigger sufficient neurotransmitter activity to generate internal motivation, especially for tasks that are boring or repetitive.
 
 **Behavioral Manifestations:**
+
 - Reliance on interest/novelty triggers (see [[The ADHD Brain Operates as an Interest-Based Nervous System]])
 - Difficulty with "important but boring" tasks
 - Improved initiation with immediate rewards

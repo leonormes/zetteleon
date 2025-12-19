@@ -121,10 +121,10 @@ Now let’s go through step by step to set this up on our EKS cluster.
 **Step by step guide:**
 
 - **Create GatewayClass:**
-	First we need to create a GatewayClass (Gateway API controller), we will using AWS Gateway API controller. Before you create the GatewayClass, you need to setup 2 following things:
+ First we need to create a GatewayClass (Gateway API controller), we will using AWS Gateway API controller. Before you create the GatewayClass, you need to setup 2 following things:
 - Setup security groups to allow all Pods communicating with VPC Lattice to allow traffic from the VPC Lattice managed prefix lists.
 - Create IRSA for Gateway API Controller.
-	For those steps, please refer to [this link](https://www.gateway-api-controller.eks.aws.dev/guides/deploy/#using-eks-cluster).
+ For those steps, please refer to [this link](https://www.gateway-api-controller.eks.aws.dev/guides/deploy/#using-eks-cluster).
 
 After all of that is done, we will create our first GatewayClass. You can find all manifests used in this demo [here](https://github.com/haicasgox/demo-gatewayapi.git).
 

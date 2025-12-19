@@ -22,11 +22,11 @@ A **starter task** (often tagged as `@starter_task`) is a specific type of next 
 
 ## The Three Rules of a Starter Task
 
-1.  **Purpose: Build Momentum Only**
+1. **Purpose: Build Momentum Only**
     The task's sole goal is to break inertia. It is not about completing a meaningful chunk of work. *Example: "Open the presentation software," not "Create the first three slides."*
 
-2.  **Duration: 5-15 Minutes Maximum**
+2. **Duration: 5-15 Minutes Maximum**
     A starter task must be completable in a very short time frame. The ideal is 1-5 minutes. If it takes longer, it is not a starter task because it risks creating its own activation energy barrier. *Example: "Clear off one corner of the desk," not "Organize the office."*
 
-3.  **Simplicity: Single, Non-Complex Physical Action**
+3. **Simplicity: Single, Non-Complex Physical Action**
     The action should be immediately doable without any prior planning, decision-making, or resource gathering. It must be a concrete physical step. *Example: "Open a new document and title it," not "Outline the report."*

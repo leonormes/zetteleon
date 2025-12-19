@@ -25,9 +25,11 @@ updated:
 This map organizes cloud networking devices by their role in processing and transforming packets.
 
 ### Core Approach
+
 - [[Data-Centric Networking Focuses on Packet Journey Through Devices]] rel:: methodology
 
 ### Packet Journey Sequence
+
 1. [[Cloud Firewalls Filter Traffic at Network and Transport Layers]] rel:: first-step
 2. [[Load Balancers Distribute Traffic Across Backend Services]] rel:: distributes
 3. [[API Gateways Manage and Secure Application Interfaces]] rel:: transforms
@@ -45,9 +47,11 @@ This map organizes cloud networking devices by their role in processing and tran
 | NAT Gateway     | 3-4       | Enable outbound internet access   |
 
 ### Implementation Patterns
+
 - Design security perimeters with firewall → WAF → API Gateway layers
 - Use NAT for private subnets needing outbound access
 - Combine load balancing with health checks for resilience
 
 ### Conceptual Diagrams
+
 - [[Diagram - Philosophy-Productivity Connections]] (for system design principles)

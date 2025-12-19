@@ -22,85 +22,85 @@ version: 1
 
 - Objective: Grasp the underlying networking concepts that Kubernetes relies on.
 - Topics:
-    - Network Namespaces: Understanding isolation.
-    - Virtual Ethernet Pairs (veth): Connecting namespaces.
-    - Network Bridges: Creating a shared network.
-    - IP Addressing and Routing: Configuring network communication.
+  - Network Namespaces: Understanding isolation.
+  - Virtual Ethernet Pairs (veth): Connecting namespaces.
+  - Network Bridges: Creating a shared network.
+  - IP Addressing and Routing: Configuring network communication.
 - Hands-on Project:
-    - Create two network namespaces and connect them using veth pairs.
-    - Configure IP addresses and routing to enable communication between the namespaces.
-    - Create a bridge network and connect multiple namespaces to it.
+  - Create two network namespaces and connect them using veth pairs.
+  - Configure IP addresses and routing to enable communication between the namespaces.
+  - Create a bridge network and connect multiple namespaces to it.
 - Key Questions:
-    - How do network namespaces provide isolation?
-    - What is the role of veth pairs in connecting namespaces?
-    - How do these concepts relate to container networking?
+  - How do network namespaces provide isolation?
+  - What is the role of veth pairs in connecting namespaces?
+  - How do these concepts relate to container networking?
 
 ## Phase 2: Container Networking Interface (CNI)
 
 - Objective: Understand how Kubernetes uses CNI to manage pod networking.
 - Topics:
-    - CNI Specification: Learning the standard interface.
-    - CNI Plugins: Exploring different implementations (Calico, Flannel, Weave).
-    - IP Address Management (IPAM): How pods get IP addresses.
-    - Kubelet's Role: Understanding kubelet's involvement in networking.
+  - CNI Specification: Learning the standard interface.
+  - CNI Plugins: Exploring different implementations (Calico, Flannel, Weave).
+  - IP Address Management (IPAM): How pods get IP addresses.
+  - Kubelet's Role: Understanding kubelet's involvement in networking.
 - Hands-on Project:
-    - Write a basic CNI plugin (e.g., in Go) that creates network namespaces and configures veth pairs.
-    - Deploy a Kubernetes cluster using Minikube or kind and experiment with different CNI plugins.
+  - Write a basic CNI plugin (e.g., in Go) that creates network namespaces and configures veth pairs.
+  - Deploy a Kubernetes cluster using Minikube or kind and experiment with different CNI plugins.
 - Key Questions:
-    - What is the purpose of the CNI specification?
-    - How do different CNI plugins implement pod networking?
-    - How does kubelet interact with CNI plugins?
+  - What is the purpose of the CNI specification?
+  - How do different CNI plugins implement pod networking?
+  - How does kubelet interact with CNI plugins?
 
 ## Phase 3: Kubernetes Networking Model
 
 - Objective: Learn the core concepts of Kubernetes networking and how pods communicate with each other.
 - Topics:
-    - Pod-to-Pod Communication: Intra-cluster networking.
-    - Services: Exposing applications within the cluster.
-    - Kube-proxy: Implementing service load balancing.
-    - Network Policies: Controlling traffic flow.
+  - Pod-to-Pod Communication: Intra-cluster networking.
+  - Services: Exposing applications within the cluster.
+  - Kube-proxy: Implementing service load balancing.
+  - Network Policies: Controlling traffic flow.
 - Hands-on Project:
-    - Set up a multi-node Kubernetes cluster using kind or Minikube.
-    - Deploy multiple pods and services and trace network traffic between them.
-    - Implement network policies to restrict communication between specific pods.
+  - Set up a multi-node Kubernetes cluster using kind or Minikube.
+  - Deploy multiple pods and services and trace network traffic between them.
+  - Implement network policies to restrict communication between specific pods.
 - Key Questions:
-    - How does Kubernetes enable communication between pods on different nodes?
-    - What is the role of kube-proxy in service implementation?
-    - How do network policies enhance security in Kubernetes?
+  - How does Kubernetes enable communication between pods on different nodes?
+  - What is the role of kube-proxy in service implementation?
+  - How do network policies enhance security in Kubernetes?
 
 ## Phase 4: AWS-Specific Networking (EKS)
 
 - Objective: Understand how Kubernetes networking is implemented in AWS EKS.
 - Topics:
-    - VPC and Subnet Design: Configuring the virtual network for EKS.
-    - AWS CNI: Understanding AWS's CNI plugin.
-    - Security Groups and NACLs: Controlling network access in EKS.
-    - Load Balancers: Exposing services to the outside world.
+  - VPC and Subnet Design: Configuring the virtual network for EKS.
+  - AWS CNI: Understanding AWS's CNI plugin.
+  - Security Groups and NACLs: Controlling network access in EKS.
+  - Load Balancers: Exposing services to the outside world.
 - Hands-on Project:
-    - Design and implement a production-grade VPC for EKS.
-    - Configure security groups and NACLs to control traffic to and from EKS pods.
-    - Deploy an application and expose it using an AWS Load Balancer.
+  - Design and implement a production-grade VPC for EKS.
+  - Configure security groups and NACLs to control traffic to and from EKS pods.
+  - Deploy an application and expose it using an AWS Load Balancer.
 - Key Questions:
-    - How does AWS CNI differ from other CNI plugins?
-    - How do security groups and NACLs integrate with Kubernetes network policies?
-    - How can I expose my Kubernetes services to the internet using AWS Load Balancers?
+  - How does AWS CNI differ from other CNI plugins?
+  - How do security groups and NACLs integrate with Kubernetes network policies?
+  - How can I expose my Kubernetes services to the internet using AWS Load Balancers?
 
 ## Phase 5: Security and Observability
 
 - Objective: Implement security best practices and monitor your Kubernetes network.
 - Topics:
-    - Network Policy Hardening: Implementing least-privilege network policies.
-    - Threat Detection: Using threat feeds and intrusion detection systems.
-    - Observability Tools: Monitoring network traffic and application behavior.
-    - Service Meshes: Enhancing security and observability with service meshes like Istio.
+  - Network Policy Hardening: Implementing least-privilege network policies.
+  - Threat Detection: Using threat feeds and intrusion detection systems.
+  - Observability Tools: Monitoring network traffic and application behavior.
+  - Service Meshes: Enhancing security and observability with service meshes like Istio.
 - Hands-on Project:
-    - Implement a zero-trust network policy for a specific namespace in your EKS cluster.
-    - Integrate threat feeds to detect malicious activity.
-    - Deploy an observability tool (e.g., Calico Cloud) to monitor network traffic and application behavior.
+  - Implement a zero-trust network policy for a specific namespace in your EKS cluster.
+  - Integrate threat feeds to detect malicious activity.
+  - Deploy an observability tool (e.g., Calico Cloud) to monitor network traffic and application behavior.
 - Key Questions:
-    - How can I implement a zero-trust network in Kubernetes?
-    - What tools can I use to monitor my Kubernetes network?
-    - How can service meshes improve security and observability?
+  - How can I implement a zero-trust network in Kubernetes?
+  - What tools can I use to monitor my Kubernetes network?
+  - How can service meshes improve security and observability?
 
 Here's a practical, step-by-step plan to learn Kubernetes networking:
 

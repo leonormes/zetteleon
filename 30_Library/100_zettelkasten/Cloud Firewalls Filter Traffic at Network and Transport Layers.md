@@ -22,17 +22,20 @@ updated:
 **Summary:** Cloud firewalls (Security Groups/NSGs) filter traffic based on IP addresses and ports, operating at OSI Layers 3-4 to protect network segments.
 
 **Key functions:**
+
 - Stateful filtering (track connection state)
 - Rule evaluation (allow/deny based on IP/port)
 - Instance or subnet-level protection
 
 **Example packet flow:**
+
 1. TCP SYN to 10.0.1.5:443 from 203.0.113.99
 2. Matches allow rule for 0.0.0.0/0:443
 3. Packet permitted
 4. Return SYN-ACK automatically allowed (stateful)
 
 **Limitations:**
+
 - No application-layer inspection
 - No DDoS protection
 - Basic policy management

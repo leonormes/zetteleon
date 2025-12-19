@@ -23,6 +23,7 @@ version: 1
 **Foundational Pattern:** Rather than studying patterns of things (numbers, shapes), algebra studies patterns of actions or processes—the rules of symmetry, transformation, and combination.
 
 **Key Structures:**
+
 - **Groups:** Study of symmetry operations
 - **Rings:** Generalization of integer arithmetic
 - **Fields:** Structures with both addition and multiplication (like rational or real numbers)

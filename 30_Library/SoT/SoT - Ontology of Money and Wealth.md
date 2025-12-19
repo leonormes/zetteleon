@@ -59,9 +59,9 @@ Wealth is a more expansive concept than money, encompassing a wide array of valu
 
 - Wealth includes all valuable resources and assets, both tangible and intangible. This extends beyond mere currency to include:
 
-    - **Tangible Assets:** Real estate, commodities, physical goods.
+  - **Tangible Assets:** Real estate, commodities, physical goods.
 
-    - **Intangible Assets:** Stocks, bonds, intellectual property, human capital (skills, knowledge).
+  - **Intangible Assets:** Stocks, bonds, intellectual property, human capital (skills, knowledge).
 
 ### 3.2 Economic and Social Dimensions
 

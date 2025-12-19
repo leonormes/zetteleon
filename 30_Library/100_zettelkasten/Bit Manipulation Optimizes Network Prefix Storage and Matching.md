@@ -22,6 +22,7 @@ updated:
 **Summary:** Network security implementations use bit-level operations to efficiently store and match IP prefixes and wildcard masks.
 
 **Common techniques:**
+
 - Bitmaps to represent prefixes/masks
 - Bitwise AND/OR for matching
 - Shift operations for prefix length handling
@@ -35,12 +36,14 @@ void bitmap_set(uint32_t* bitmap, int index) {
 ```
 
 **Applications:**
+
 - ACL rule matching
 - Routing table lookups
 - Firewall implementations
 - Packet filtering frameworks
 
 **Benefits:**
+
 - Space efficiency
 - Rapid matching operations
 - Hardware acceleration potential

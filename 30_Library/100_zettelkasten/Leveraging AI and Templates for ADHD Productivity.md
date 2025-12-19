@@ -60,5 +60,6 @@ version: 1
 
 **Original Context:**
 For individuals with ADHD, offloading cognitive load is a critical productivity strategy.
+
 - **AI as Executive Assistant**: Tools like Granola (meetings) or ChatGPT (structuring) compensate for Working Memory deficits.
 - **Templatizing**: Reduces activation energy.

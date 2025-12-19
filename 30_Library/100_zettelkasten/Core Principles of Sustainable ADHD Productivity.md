@@ -31,11 +31,13 @@ Sustainable productivity for ADHD is not about finding the perfect planner or fo
 5. **Managing Capacity**: Capacity is more than just time; it includes energy, attention, and resources. Before taking on new commitments, you must realistically assess your available capacity. This means replacing self-critical stories of "laziness" with a practical, adaptive approach to managing your workload.
 
 ### Problem Engagement
+
 - [[Problems Are Fundamental to Meaningful Work]]
 - [[Gnawing Rats Metaphor for Avoided Tasks]]
 - Normalize discomfort through [[Micro-Stepping Reduces Cognitive Load for Task Initiation]]
 
 ### Engagement Strategies
+
 - Apply [[PINCH Model for ADHD Motivation]]
 - Structure work around passion/interest triggers
 - Build novelty into routines

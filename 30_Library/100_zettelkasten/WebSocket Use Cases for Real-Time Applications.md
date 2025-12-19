@@ -28,30 +28,35 @@ WebSockets excel in scenarios requiring immediate, bidirectional data flow betwe
 **Primary use cases:**
 
 **Chat and messaging:**
+
 - Slack, Discord, WhatsApp Web
 - Customer support chat widgets
 - Social media direct messaging
 - Instant message delivery without polling
 
 **Live dashboards and monitoring:**
+
 - Stock trading platforms (real-time price updates)
 - System monitoring dashboards (live metrics)
 - Analytics dashboards (real-time visitor tracking)
 - IoT device status displays
 
 **Collaborative applications:**
+
 - Google Docs-style collaborative editing
 - Shared whiteboards and design tools
 - Multiplayer game state synchronization
 - Code pair programming tools
 
 **Gaming:**
+
 - Browser-based multiplayer games
 - Real-time game state updates
 - Player position and action synchronization
 - Low-latency competitive gaming
 
 **Live updates:**
+
 - Sports score updates
 - News feeds and notifications
 - Auction bidding systems

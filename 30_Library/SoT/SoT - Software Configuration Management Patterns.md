@@ -40,9 +40,9 @@ updated: null
 
 - **Continuous Integration (CI):** The practice of merging all developer working copies to the shared mainline several times a day.
 
-    - *Goal:* To detect integration errors as quickly as possible ("Fail Fast").
+  - *Goal:* To detect integration errors as quickly as possible ("Fail Fast").
 
-    - *Rule:* You cannot integrate if the build is broken. Fix the build immediately.
+  - *Rule:* You cannot integrate if the build is broken. Fix the build immediately.
 
 - **Reproducibility:** You must be able to rebuild any version of the software at any time. This requires versioning not just source code, but build tools, libraries, and environments.
 
@@ -68,20 +68,20 @@ SCM is not just a tooling concern; it is an architectural one.
 
 - **Patterns:**
 
-    - **Mainline:** Single source of truth.
+  - **Mainline:** Single source of truth.
 
-    - **Private Workspace:** Developers work in isolation but sync frequently.
+  - **Private Workspace:** Developers work in isolation but sync frequently.
 
-    - **Repository per Component:** Decouples lifecycles but increases integration complexity.
+  - **Repository per Component:** Decouples lifecycles but increases integration complexity.
 
 ---
 
 ## 4. Minimum Viable Understanding (MVU)
 
-1.  **Version Everything:** Code, Config, Docs, Infrastructure.
-2.  **Commit Early, Commit Often:** Reduce the delta between your workspace and the Mainline.
-3.  **Don't Break the Build:** The Mainline must always be in a deployable state.
-4.  **Automate the Process:** Humans make mistakes; scripts do not. Use tools to automate builds, tests, and deployments.
+1. **Version Everything:** Code, Config, Docs, Infrastructure.
+2. **Commit Early, Commit Often:** Reduce the delta between your workspace and the Mainline.
+3. **Don't Break the Build:** The Mainline must always be in a deployable state.
+4. **Automate the Process:** Humans make mistakes; scripts do not. Use tools to automate builds, tests, and deployments.
 
 ---
 

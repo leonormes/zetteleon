@@ -33,12 +33,12 @@ The foundation of this approach is to move away from a "permission-seeking" mode
 
 - **[[SoT - Transactional Analysis in the Workplace]]**
 
-    - This is the underlying psychological framework. It provides the "why" by explaining the dysfunctional **Parent-Child** communication loop that causes conflict and offers the **Adult-to-Adult** transaction as the solution.
+  - This is the underlying psychological framework. It provides the "why" by explaining the dysfunctional **Parent-Child** communication loop that causes conflict and offers the **Adult-to-Adult** transaction as the solution.
 
 - **[[SoT - The Yes, And-If Protocol for Scope Management]]**
 
-    - This is a primary tactical protocol for handling scope creep and new requests. It provides a script for converting a "No" into a conditional "Yes," forcing a collaborative discussion about prioritization and resource limits.
+  - This is a primary tactical protocol for handling scope creep and new requests. It provides a script for converting a "No" into a conditional "Yes," forcing a collaborative discussion about prioritization and resource limits.
 
 - **[[SoT - The Data-Impact-Proposal-Check Framework]]**
 
-    - This is the core communication algorithm for setting and adjusting boundaries. It provides a structured, four-step process for raising an issue based on objective data and proposing a systemic solution, removing emotional confrontation.
+  - This is the core communication algorithm for setting and adjusting boundaries. It provides a structured, four-step process for raising an issue based on objective data and proposing a systemic solution, removing emotional confrontation.

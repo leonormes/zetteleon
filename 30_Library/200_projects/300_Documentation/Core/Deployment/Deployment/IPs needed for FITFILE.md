@@ -66,15 +66,15 @@ Network Interfaces: Consider the number of ENIs per node. This is more complex a
 1. Calculate Total IPs: A rough estimate of total IPs needed would be `(N  P) + S + N` (Pods + Services + Nodes). However, it's safer to slightly overestimate, especially for pods, to account for overhead and potential density increases.
 2. Choose a CIDR Block: Select a CIDR block that can accommodate the total number of IP addresses you calculated. Here's a quick reference:
 
- - `/24` CIDR: 256 IPs
- - `/23` CIDR: 512 IPs
- - `/22` CIDR: 1024 IPs
- - `/21` CIDR: 2048 IPs
- - `/20` CIDR: 4096 IPs
- - `/19` CIDR: 8192 IPs
- - `/18` CIDR: 16384 IPs
- - `/17` CIDR: 32768 IPs
- - `/16` CIDR: 65536 IPs
+- `/24` CIDR: 256 IPs
+- `/23` CIDR: 512 IPs
+- `/22` CIDR: 1024 IPs
+- `/21` CIDR: 2048 IPs
+- `/20` CIDR: 4096 IPs
+- `/19` CIDR: 8192 IPs
+- `/18` CIDR: 16384 IPs
+- `/17` CIDR: 32768 IPs
+- `/16` CIDR: 65536 IPs
 
  For example, if you estimate needing around 1500 IP addresses, a `/21` CIDR block (2048 IPs) would be a suitable starting point. For larger deployments, you might consider `/20` or even larger.
 
@@ -160,7 +160,7 @@ When designing your VPC CIDR for EKS, you must account for:
 Total IPs Needed = (Number of Nodes × Pods per Node) + Nodes + Buffer (for AWS services)
 ```
 
-   - Example: For 10 nodes (35 pods each) + 2 load balancers:
+- Example: For 10 nodes (35 pods each) + 2 load balancers:
 
 ```plaintext
 (10 × 35) + 10 + 2 = 362 IPs → Minimum subnet size: /23 (512 IPs)
@@ -211,6 +211,7 @@ Recommended CIDR:
 ---
 
 ## Critical Best Practices
+
 1. Avoid Overlap: Ensure VPC CIDR does not conflict with on-premises networks or peered VPCs.
 2. Multi-AZ Subnets: Deploy nodes across multiple subnets/AZs for high availability.
 3. Monitor IP Usage:

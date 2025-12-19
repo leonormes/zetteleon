@@ -23,5 +23,6 @@ Celebrating small successes and self-rewarding for routine maintenance builds po
 This practice involves actively looking for and acknowledging signs of progress, no matter how small. Tracking completion externally (in a journal, app, or simple log) and providing immediate feedback or reward helps maintain motivation. The focus shifts from unmet goals to incremental growth, which is especially important for the ADHD brain's need for immediate gratification and dopamine reinforcement.
 
 ## Related
+
 - [[The Interest-Based Nervous System in ADHD]]
 - [[Why Importance and Rewards Fail to Motivate ADHD Brains]]

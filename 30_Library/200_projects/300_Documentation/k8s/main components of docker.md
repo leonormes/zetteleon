@@ -115,7 +115,7 @@ Postman can also be used to interact with Docker's API:
 
 ## Important Considerations
 
-- The Docker API version may change. Use the appropriate version in your requests (e.g., v1.41)[5].
+- The Docker API version may change. Use the appropriate version in your requests [e.g., v1.41](5).
 - When using cURL, the hostname in the URL (e.g., `http://localhost`) is not important for Unix socket connections[1].
 - For security reasons, the Docker API is often only accessible via a Unix socket by default. Exposing it over TCP requires additional configuration and security measures.
 

@@ -361,8 +361,8 @@ sudo ip netns exec $namespace3 ip link set dev $interface3 up
 Next, do some quick `ping` tests to verify that the namespaces are functioning as expected:
 
 ```bash
-$ sudo ip netns exec $namespace3 ping -c 2 10.10.10.20
-$ sudo ip netns exec $namespace1 ping -c 2 10.10.10.20
+sudo ip netns exec $namespace3 ping -c 2 10.10.10.20
+sudo ip netns exec $namespace1 ping -c 2 10.10.10.20
 ```
 
 Finally, view the Address Resolution Protocol (ARP) table of each namespace:

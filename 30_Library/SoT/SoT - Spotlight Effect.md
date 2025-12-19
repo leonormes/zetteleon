@@ -48,11 +48,11 @@ The Spotlight Effect is rooted in **egocentric bias**, our natural tendency to v
 
 - **Negative Behavioral Consequences:**
 
-    - **Excessive Self-Monitoring:** Constantly worrying about how one appears, leading to inhibited, unnatural behavior.
+  - **Excessive Self-Monitoring:** Constantly worrying about how one appears, leading to inhibited, unnatural behavior.
 
-    - **Social Anxiety:** Heightened fear of judgment and embarrassment.
+  - **Social Anxiety:** Heightened fear of judgment and embarrassment.
 
-    - **Inhibition of Authentic Expression:** Reluctance to take risks or express genuine thoughts, hindering connection.
+  - **Inhibition of Authentic Expression:** Reluctance to take risks or express genuine thoughts, hindering connection.
 
 ---
 

@@ -27,7 +27,9 @@ Here are the main ways to undo commits, and how to choose the right approach:
 - `git revert <commit-hash>`
 - This creates a new commit that undoes the changes introduced by the specified commit.
 - It's the safest option for public repositories because it preserves the commit history.
+
 ### How it Works
+
 - Git analyses the changes in the target commit and generates a new commit that applies the inverse changes.
 - Example: If you want to undo the changes of commit abcdef123456, you would run git revert abcdef123456. This will create a new commit with the inverse changes.
 - When to use: When you intend to undo a commit without rewriting history, especially in shared repositories.
@@ -48,6 +50,7 @@ Here are the main ways to undo commits, and how to choose the right approach:
 - This allows you to modify the last commit.
 - It creates a new commit with the updated changes and replaces the old commit.
 - When to use: When you want to correct mistakes in the last commit, such as typos in the commit message or missing changes.
+
 ## Addressing Your Specific Scenario
 
 If you have a commit that adds a new line and you want to undo that change, you should:
@@ -57,6 +60,7 @@ If you have a commit that adds a new line and you want to undo that change, you 
 - If you want to preserve the history, use git revert \<commit-hash\>.
 - If you want to completely remove the commit (and you're working locally), use git reset --hard \<parent-commit-hash\>. Where parent commit hash is the commit before the one that added the line.
 Key Point: When undoing a commit, you're not going back to a diff; you're going back to a snapshot. Therefore, to undo a commit, you need to revert to the parent commit of the commit you want to undo, or create a revert commit.
+
 ## Visualizing the Process
 
 Imagine your commit history as a timeline:
@@ -86,10 +90,13 @@ Why this is better:
 - Focus on the snapshot: It emphasizes that the commit is a complete snapshot, not just a set of changes.
 - Time-based perspective: "Before the snapshot" clearly indicates that we're moving back in time to a previous state.
 - Avoids "introduced" ambiguity: "Introduced" can imply that the commit is solely responsible for the changes, whereas it's actually capturing the state of the repo at that point.
+
 ## Further Refinements
+
 - When discussing git revert, emphasize that it creates a new snapshot that reverses the effects of the target snapshot. For example: "Git revert creates a new snapshot that reverses the changes made in the target snapshot, effectively returning the repository to its state before those changes first appeared."
 - When discussing git reset --hard, stress that it removes snapshots from the history. For example: "Git reset --hard removes the specified snapshot and all subsequent snapshots from the branch's history, irrevocably changing the project's state."
 - When discussing git commit --amend emphasize that it creates a new snapshot that replaces the last snapshot.
+
 ## Applying the New Phrasing
 
 Let's revisit the previous example:
@@ -104,21 +111,28 @@ Yes, your assumption is correct. Git does optimize the process of generating dif
 Here's a breakdown of the process and the optimizations involved:
 
 1. Basic Diff Generation
+
 - Comparison: When you run git diff \<commit1\> \<commit2\>, Git compares the tree objects associated with those commits.
 - Tree Traversal: It recursively traverses the tree structures, comparing blobs (file contents) at each level.
 - Line-by-Line Comparison: For each file that has changed (i.e., the blob IDs differ), Git performs a line-by-line comparison to identify the added, removed, and modified lines.
 - Output: The output is a diff, a human-readable representation of the differences between the two snapshots.
+
 2. Optimizations
+
 - Object Cache: Git caches the contents of blobs and trees in memory, reducing the need to read from disk.
 - Delta Storage (Packfiles): While commits are snapshots, Git optimizes storage by storing only the differences (deltas) between similar objects in packfiles. This reduces the overall size of the repository. When git needs to compare two blobs, and they are stored as deltas, it must reconstruct the full blob to do the comparison.
 - Heuristics: Git uses various heuristics to speed up the diffing process. For example, it may skip comparing files that have the same size and modification time.
 - Efficient Diff Algorithm: Git uses a highly optimized diff algorithm, typically based on the Myers diff algorithm, to efficiently identify the differences between files.
 - Comparing against parent: When you run git diff without specifying commits, it defaults to comparing the working directory against the staging area. When you run git diff --cached it compares the staging area against the last commit. When you use git log -p it compares each commit against its first parent. This is a common operation, and thus is well optimized.
+
 3. Parent Comparison
+
 - As you correctly stated, when you use git log -p or when Git needs to show the changes associated with a commit, it typically compares the commit to its parent.
 - This is because the parent commit represents the state of the repository before the changes in the current commit were applied.
 - This parent comparison is a very common operation, and as such is very well optimized.
+
 4. Specifying Commits
+
 - You can explicitly specify the commits to compare using git diff \<commit1\> \<commit2\>.
 - This allows you to compare any two snapshots in the repository, regardless of their parent-child relationship.
 In Summary
@@ -268,25 +282,25 @@ You've articulated the core of the matter perfectly. Yes, you've hit on the prec
 Let's break it down:
 
 - Snapshot as the Foundation:
-    - A commit is the fundamental unit of storage, representing the complete state of the repository at a given point in time
+  - A commit is the fundamental unit of storage, representing the complete state of the repository at a given point in time
 - Change as the Delta:
-    - A "change" is a derived concept, calculated by comparing two snapshots.
-    - When you look at a diff, you're seeing the output of a comparison between two tree structures, which ultimately leads to the comparison of the content of blobs.
-    - When looking at `git log -p` the diff is the comparison between a commit and its parent commit.
+  - A "change" is a derived concept, calculated by comparing two snapshots.
+  - When you look at a diff, you're seeing the output of a comparison between two tree structures, which ultimately leads to the comparison of the content of blobs.
+  - When looking at `git log -p` the diff is the comparison between a commit and its parent commit.
 - Multiple Snapshot Comparisons:
-    - If you compare snapshots A and C, the diff shows the cumulative changes between those two points in time.
-    - If you compare snapshots A and B, and then B and C, you will see the individual changes that together make up the changes between A and C.
+  - If you compare snapshots A and C, the diff shows the cumulative changes between those two points in time.
+  - If you compare snapshots A and B, and then B and C, you will see the individual changes that together make up the changes between A and C.
 
 Why This Matters
 
 - Clarity:
-    - This distinction clarifies that "changes" are a representation of differences, not the primary data stored by Git.
-    - It helps to avoid the misconception that commits are inherently about changes.
+  - This distinction clarifies that "changes" are a representation of differences, not the primary data stored by Git.
+  - It helps to avoid the misconception that commits are inherently about changes.
 - Flexibility:
-    - Git's ability to compare any two snapshots allows you to analyze changes across any arbitrary period
-    - This is useful for debugging, code reviews, and understanding the evolution of your project.
+  - Git's ability to compare any two snapshots allows you to analyze changes across any arbitrary period
+  - This is useful for debugging, code reviews, and understanding the evolution of your project.
 - Accurate Mental Model:
-    - It reinforces the idea that Git is a snapshot-based system, with changes being a derived view.
+  - It reinforces the idea that Git is a snapshot-based system, with changes being a derived view.
 
 In simpler terms:
 
@@ -312,18 +326,18 @@ done | sort -u
 **Explanation:**
 
 - `git log --pretty=format:"%H" -- <file_path>`:
-    - This lists all the commit hashes that have modified the specified file.
-    - `--pretty=format:"%H"` formats the output to show only the commit hashes.
-    - `-- <file_path>` limits the log to commits that involve the specified file.
+  - This lists all the commit hashes that have modified the specified file.
+  - `--pretty=format:"%H"` formats the output to show only the commit hashes.
+  - `-- <file_path>` limits the log to commits that involve the specified file.
 - `while read commit_hash; do ... done`:
-    - This loop iterates through each commit hash.
+  - This loop iterates through each commit hash.
 - `git ls-tree $commit_hash <file_path> | awk '{print $3}'`:
-    - `git ls-tree` lists the contents of a tree object (in this case, the tree associated with the commit).
-    - `$commit_hash` specifies the commit.
-    - `<file_path>` specifies the file within the tree.
-    - `awk '{print $3}'` extracts the third column, which is the blob ID.
+  - `git ls-tree` lists the contents of a tree object (in this case, the tree associated with the commit).
+  - `$commit_hash` specifies the commit.
+  - `<file_path>` specifies the file within the tree.
+  - `awk '{print $3}'` extracts the third column, which is the blob ID.
 - `sort -u`:
-    - This sorts the blob IDs and removes duplicates.
+  - This sorts the blob IDs and removes duplicates.
 
 **2. Using `git rev-list` and `git cat-file`**
 
@@ -336,15 +350,15 @@ git rev-list --objects -- <file_path> | grep blob | awk '{print $1}' | sort -u
 **Explanation:**
 
 - `git rev-list --objects -- <file_path>`:
-    - This lists all the objects (blobs, trees, commits) that are reachable from the commits that have modified the specified file.
-    - `--objects` includes all objects, not just commits.
-    - `-- <file_path>` limits the list to objects related to the specified file.
+  - This lists all the objects (blobs, trees, commits) that are reachable from the commits that have modified the specified file.
+  - `--objects` includes all objects, not just commits.
+  - `-- <file_path>` limits the list to objects related to the specified file.
 - `grep blob`:
-    - This filters the output to show only blob objects.
+  - This filters the output to show only blob objects.
 - `awk '{print $1}'`:
-    - This extracts the first column, which is the blob ID.
+  - This extracts the first column, which is the blob ID.
 - `sort -u`:
-    - This sorts the blob IDs and removes duplicates.
+  - This sorts the blob IDs and removes duplicates.
 
 **Viewing Blob Contents**
 

@@ -23,9 +23,9 @@ version:
 
 ### Key Points
 
-  - An ENI is a virtual network card attached to EC2 instances or other AWS resources within a VPC.
-  - It includes a primary private IP address, optional secondary IP addresses, security groups, and optionally a public IP.
-  - ENIs enable communication between instances and resources in the same VPC.
+- An ENI is a virtual network card attached to EC2 instances or other AWS resources within a VPC.
+- It includes a primary private IP address, optional secondary IP addresses, security groups, and optionally a public IP.
+- ENIs enable communication between instances and resources in the same VPC.
 
 ### Linked Zettels
 

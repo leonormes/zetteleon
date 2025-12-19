@@ -26,6 +26,7 @@ This directly challenges [[The Core Problem Confusing Preparation with Action]] 
 
 **Philosophical Parallel:**
 Shares [[Existentialism - Existence Precedes Essence]] emphasis on:
+
 - Action preceding clarity
 - Commitment creating meaning
 - Responsibility for choices

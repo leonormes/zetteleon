@@ -58,4 +58,5 @@ version: 1
 
 **Original Context:**
 Timeboxing provides a clear, visual representation of the day's workload.
+
 - **Connections:** [[ADHD Behavioral Strategies for Productivity]], [[Visual Timers for ADHD Time Blindness]], [[Executive Function Challenges are Central to ADHD]].

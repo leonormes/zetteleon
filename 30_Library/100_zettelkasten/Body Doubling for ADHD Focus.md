@@ -60,6 +60,7 @@ version: 1
 
 **Original Context:**
 Body doubling provides external accountability and anchors the ADHD brain.
+
 - **Live:** Working with a friend/colleague.
 - **Virtual:** Focusmate or Zoom.
 - **Asynchronous (This Experiment):** Recording oneself.

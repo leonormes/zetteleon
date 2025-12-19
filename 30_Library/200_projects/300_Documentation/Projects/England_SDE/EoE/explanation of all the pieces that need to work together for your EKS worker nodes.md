@@ -45,8 +45,8 @@ version:
 - Terraform Cloud SP Role:
     The Terraform service principal calls the AWS APIs (using its permissions) to create an EKS cluster and then to create a node group.
 - What Happens:
-    - The EKS cluster is set up (the control plane is created).
-    - A node group is defined and configured to use a specific IAM role for the worker nodes.
+  - The EKS cluster is set up (the control plane is created).
+  - A node group is defined and configured to use a specific IAM role for the worker nodes.
 
 ### Step 2: Node Group Launches EC2 Instances
 
@@ -56,8 +56,8 @@ version:
     Each EC2 instance is launched with an instance profile that attaches the worker node IAM role (e.g. `ff-eoe-sde-node-group`).
 - What This Role Does:
     It provides the node with permissions (through its policies) to:
-    - Communicate with AWS services (for example, to pull images from ECR).
-    - Call EKS APIs (if needed) and interact with the VPC CNI plugin.
+  - Communicate with AWS services (for example, to pull images from ECR).
+  - Call EKS APIs (if needed) and interact with the VPC CNI plugin.
 
 ### Step 3: Worker Nodes Boot Up and Register with the Cluster
 
@@ -67,7 +67,7 @@ version:
     Because of the attached instance profile, the worker node “assumes” its IAM role and obtains temporary AWS credentials.
 - Registering with the EKS Cluster:
     The kubelet uses these credentials to authenticate with the EKS control plane’s API.
-    - Access Mapping:
+  - Access Mapping:
         Instead of using the old `aws-auth` ConfigMap, your cluster uses EKS Access Entries to map the IAM role (e.g. `ff-eoe-sde-node-group`) to the proper Kubernetes groups (typically `system:bootstrappers` and `system:nodes`). This mapping tells the control plane “this node is allowed to join.”
 
 ### Step 4: Node is Accepted and Joins the Cluster
@@ -76,10 +76,10 @@ version:
     If all permissions are correct and the network configuration allows the node to reach the API server, the node registers and appears as “Ready” in your Kubernetes cluster.
 - If It Fails:
     The node may not join if:
-    - The worker node IAM role is missing one of the required policies.
-    - The IAM trust relationship is not set to allow EC2 instances.
-    - The mapping in the EKS Access Entries is missing or incorrect.
-    - The node cannot reach the EKS API (due to network issues such as missing NAT Gateway or misconfigured security groups).
+  - The worker node IAM role is missing one of the required policies.
+  - The IAM trust relationship is not set to allow EC2 instances.
+  - The mapping in the EKS Access Entries is missing or incorrect.
+  - The node cannot reach the EKS API (due to network issues such as missing NAT Gateway or misconfigured security groups).
 
 ---
 
@@ -281,9 +281,9 @@ aws iam list-attached-role-policies --role-name ff-eoe-sde-node-group --output j
 What to Look For:
 
 - Attached Policies: Should include:
-    - AmazonEKSWorkerNodePolicy
-    - AmazonEKS_CNI_Policy
-    - AmazonEC2ContainerRegistryReadOnly
+  - AmazonEKSWorkerNodePolicy
+  - AmazonEKS_CNI_Policy
+  - AmazonEC2ContainerRegistryReadOnly
 - Trust Relationship: Verify that it allows EC2 (`"Principal": { "Service": "ec2.amazonaws.com" }`).
 
 ---

@@ -34,8 +34,8 @@ updated:
 
 The phenomenon relies on a specific structural logic known as the "Double Burden" of incompetence.
 
-1.  **Performance Deficit:** In a specific domain, the individual lacks the requisite knowledge to perform correctly.
-2.  **Metacognitive Blindness:** Because the expertise needed to judge performance is the same as the expertise needed to execute it, the individual lacks the framework to recognise their own failure.
+1. **Performance Deficit:** In a specific domain, the individual lacks the requisite knowledge to perform correctly.
+2. **Metacognitive Blindness:** Because the expertise needed to judge performance is the same as the expertise needed to execute it, the individual lacks the framework to recognise their own failure.
 
 Consequently, in domains where one is unskilled, one is structurally incapable of seeing that lack of skill.
 

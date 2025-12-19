@@ -102,6 +102,7 @@ These strategies bypass executive dysfunction by lowering the barrier to entry.
 ---
 
 ## 5. Related Components
+
 - [[SoT - PRODOS (System Architecture)]]
 - [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
 - [[SoT - The Extended Mind]]

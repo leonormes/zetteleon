@@ -22,6 +22,7 @@ updated: 2025-11-10T15:04:00Z
 **Summary:** An action can be formally modeled as a function `A: (S_pre, I) → (S_post, O)`, where it transforms a pre-state and inputs into a post-state and a binary output.
 
 **Details:**
+
 - **S_pre (Pre-State):** The required context or conditions before the action can begin.
 - **I (Inputs):** Any necessary resources or information.
 - **S_post (Post-State):** The new state of the system after the action is completed.

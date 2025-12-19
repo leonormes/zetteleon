@@ -42,7 +42,7 @@ The core of the protocol is to never say "No" directly, as this often triggers r
 
 This protocol is effective for two main reasons:
 
-1.  **Reframes the Job:** You are not refusing work; you are asking the manager to do their primary job: **prioritization and resource allocation**. It forces them to acknowledge that capacity is a finite resource.
-2.  **Closes the Information Gap:** Managers often view employee capacity as an infinite resource because they lack visibility into the current workload. By stating the trade-off, you are **externalizing your workload** and making the system's constraints visible. You are not complaining about being busy; you are presenting objective data about system load.
+1. **Reframes the Job:** You are not refusing work; you are asking the manager to do their primary job: **prioritization and resource allocation**. It forces them to acknowledge that capacity is a finite resource.
+2. **Closes the Information Gap:** Managers often view employee capacity as an infinite resource because they lack visibility into the current workload. By stating the trade-off, you are **externalizing your workload** and making the system's constraints visible. You are not complaining about being busy; you are presenting objective data about system load.
 
 This transforms a potential confrontation into a logical negotiation about scheduling and priorities.

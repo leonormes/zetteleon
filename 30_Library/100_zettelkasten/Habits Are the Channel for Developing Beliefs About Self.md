@@ -48,11 +48,13 @@ Most people think about habits instrumentally: "I exercise to lose weight" or "I
 **Why This Perspective Matters:**
 
 **Traditional View:**
+
 - Habits → Better results → Happy life
 - Focus: Outcomes and achievements
 - Problem: When goal is reached, habit often stops
 
 **Identity View:**
+
 - Habits → Changed identity → Different person → Different life
 - Focus: Who you're becoming
 - Benefit: Sustainable because behavior matches self

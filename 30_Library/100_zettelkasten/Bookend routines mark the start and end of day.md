@@ -25,5 +25,6 @@ The morning bookend might include activities like waking up, exercise, breakfast
 These bookends serve multiple functions: they create predictable starts and ends to the day, reduce decision fatigue during vulnerable low-energy periods, and provide psychological closure and preparation that support better sleep and more focused daytime functioning.
 
 ## Related
+
 - [[Event-based anchor points use activities as natural transitions]]
 - [[Mini routines are event-triggered sequences rather than time-based schedules]]

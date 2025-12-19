@@ -22,6 +22,7 @@ updated:
 **Summary:** The Feynman Technique is a learning method that involves explaining concepts in simple terms as if teaching them to someone else, which reveals gaps in understanding and strengthens comprehension.
 
 **Steps:**
+
 1. Choose a concept to learn
 2. Explain it in simple language (pretend to teach a child)
 3. Identify gaps in your explanation
@@ -29,6 +30,7 @@ updated:
 5. Simplify and use analogies
 
 **Benefits:**
+
 - Forces deeper processing of information
 - Reveals areas of weak understanding
 - Creates multiple mental representations of the concept

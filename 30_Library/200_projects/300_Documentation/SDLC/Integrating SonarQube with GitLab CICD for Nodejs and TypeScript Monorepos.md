@@ -44,9 +44,9 @@ Ensure you are using GitLab version 15.6 or higher for optimal integration3. The
 
 - **Access SonarQube:** Log in to your SonarQube server's web interface.
 - **Enable GitLab Authentication:** Navigate to **Administration > Configuration > General Settings > DevOps Platform Integrations**. Select the **GitLab** tab.
-    - **Configuration Name:** Provide a descriptive name for your GitLab configuration (e.g., "My GitLab Integration").
-    - **GitLab URL:** Enter the URL of your GitLab instance's API (e.g., `https://gitlab.com/api/v4`).
-    - **Personal Access Token:** Generate a personal access token in GitLab with `api` scope for a dedicated GitLab user with at least *Reporter* permissions on your project. This token will be used to decorate merge requests and report the quality gate status.
+  - **Configuration Name:** Provide a descriptive name for your GitLab configuration (e.g., "My GitLab Integration").
+  - **GitLab URL:** Enter the URL of your GitLab instance's API (e.g., `https://gitlab.com/api/v4`).
+  - **Personal Access Token:** Generate a personal access token in GitLab with `api` scope for a dedicated GitLab user with at least *Reporter* permissions on your project. This token will be used to decorate merge requests and report the quality gate status.
 
 #### 2. Import Your GitLab Project into SonarQube
 
@@ -139,11 +139,11 @@ analyze:
 - **Build Stage:** Installs dependencies for all workspaces and caches them for subsequent jobs. Caching dependencies can significantly speed up your pipeline execution4.
 - **Test Stage:** Runs tests in each workspace using `yarn workspaces foreach run test`.
 - **Analyze Stage:**
-    - `needs`: Specifies that the `analyze` stage depends on the successful completion of the `build` and `test` stages.
-    - `parallel`: Enables parallel execution of the analysis for each workspace. This is crucial for monorepos to reduce the overall analysis time6.
-    - `matrix`: Defines a list of workspaces to analyze.
-    - `script`: Executes the `sonar-scanner` command for each workspace. Since we've already defined the project key, project name, and other parameters in the `sonar-project.properties` file, we don't need to pass them as arguments here. We only need to specify `-Dsonar.qualitygate.wait=true` to wait for the quality gate results.
-    - `allow_failure`: Set to `false` to fail the pipeline if the SonarQube analysis or quality gate fails.
+  - `needs`: Specifies that the `analyze` stage depends on the successful completion of the `build` and `test` stages.
+  - `parallel`: Enables parallel execution of the analysis for each workspace. This is crucial for monorepos to reduce the overall analysis time6.
+  - `matrix`: Defines a list of workspaces to analyze.
+  - `script`: Executes the `sonar-scanner` command for each workspace. Since we've already defined the project key, project name, and other parameters in the `sonar-project.properties` file, we don't need to pass them as arguments here. We only need to specify `-Dsonar.qualitygate.wait=true` to wait for the quality gate results.
+  - `allow_failure`: Set to `false` to fail the pipeline if the SonarQube analysis or quality gate fails.
 
 #### 7. Configure Quality Gate in SonarQube
 

@@ -18,8 +18,8 @@ updated: 2025-11-01T21:13:00Z
 version: 1
 ---
 
-1.  **Identify Your Priorities:** Determine your most important tasks and goals for the day or week.
-2.  **Allocate Time Blocks:** Assign specific, realistic time slots on your calendar for each of these tasks.
-3.  **Schedule Rest:** Explicitly block out time for breaks, meals, and transitions. Don't schedule tasks back-to-back.
-4.  **Protect Your Time:** Treat your time blocks as firm appointments. Defend them from interruptions and distractions as much as possible.
-5.  **Review and Adjust:** At the end of the day or week, review how your schedule worked. Was it realistic? Did you get important work done? Adjust your approach for the next cycle.
+1. **Identify Your Priorities:** Determine your most important tasks and goals for the day or week.
+2. **Allocate Time Blocks:** Assign specific, realistic time slots on your calendar for each of these tasks.
+3. **Schedule Rest:** Explicitly block out time for breaks, meals, and transitions. Don't schedule tasks back-to-back.
+4. **Protect Your Time:** Treat your time blocks as firm appointments. Defend them from interruptions and distractions as much as possible.
+5. **Review and Adjust:** At the end of the day or week, review how your schedule worked. Was it realistic? Did you get important work done? Adjust your approach for the next cycle.

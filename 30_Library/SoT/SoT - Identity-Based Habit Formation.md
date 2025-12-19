@@ -31,9 +31,9 @@ updated:
 
 Change happens at three levels, often visualized as layers of an onion, ordered from surface to core:
 
-1.  **Outcomes (Surface):** Changing results (e.g., losing 10kg, publishing a book). About what you **get**.
-2.  **Process (System):** Changing habits and systems (e.g., gym routine, writing schedule). About what you **do**.
-3.  **Identity (Core):** Changing beliefs, worldview, and self-image (e.g., "I am a runner"). About what you **believe**.
+1. **Outcomes (Surface):** Changing results (e.g., losing 10kg, publishing a book). About what you **get**.
+2. **Process (System):** Changing habits and systems (e.g., gym routine, writing schedule). About what you **do**.
+3. **Identity (Core):** Changing beliefs, worldview, and self-image (e.g., "I am a runner"). About what you **believe**.
 
 **The Failure Mode:** Most people focus on Outcome-Based Habits (working from the outside in).
 **The Correction:** Sustained change requires **Identity-Based Habits** (working from the inside out).
@@ -58,9 +58,9 @@ The word *identity* derives from the Latin *essentitas* (being) and *identidem* 
 
 ## 4. The Two-Step Process
 
-1.  **Decide the type of person you want to be.**
+1. **Decide the type of person you want to be.**
     - Ask: "Who is the type of person that could get the outcome I want?"
-2.  **Prove it to yourself with small wins.**
+2. **Prove it to yourself with small wins.**
     - Every small action acts as proof. "What would a healthy person do?"
 
 ---
@@ -103,7 +103,7 @@ A "Done List" is a past-focused log of completed tasks, designed to provide conc
 
     3. Review the list daily to provide tangible proof of accomplishment, especially when feeling unproductive.
 
-    - **Example:** After completing "Created initial VPC plan," immediately add it to your "Done List." Reviewing the growing list at the end of the day provides a powerful antidote to vague feelings of failure.
+  - **Example:** After completing "Created initial VPC plan," immediately add it to your "Done List." Reviewing the growing list at the end of the day provides a powerful antidote to vague feelings of failure.
 
 ### E. Habit Stacking (Anchoring)
 
@@ -169,9 +169,10 @@ The first mistake is an accident; the second is the start of a new identity.
 
 When the urge to quit arises during a task:
 
-1.  **First Urge:** Pause, notice it, continue.
-2.  **Second Urge:** Pause, notice it, continue.
-3.  **Third Urge:** Permission granted to stop.
+1. **First Urge:** Pause, notice it, continue.
+2. **Second Urge:** Pause, notice it, continue.
+3. **Third Urge:** Permission granted to stop.
+
 - *Why:* This builds "Distress Tolerance" without forcing a shame spiral.
 
 ---
@@ -198,6 +199,7 @@ While identity drives good habits, **Old Identity Sabotage** prevents growth.
 ---
 
 ## 10. Related Components
+
 - [[SoT - PRODOS - Action Management (GTD)]]
 - [[SoT - PRODOS (System Architecture)]]
 - [[SoT - Personal Agency and Transformation]]

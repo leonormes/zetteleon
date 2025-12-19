@@ -22,15 +22,18 @@ updated:
 **Summary:** MX (Mail Exchanger) records specify which hosts receive email for a domain, enabling flexible mail routing independent of hostnames.
 
 **Structure:**
+
 - Points to mail server hostnames
 - Includes preference value (lower = higher priority)
 
 **Operation:**
+
 1. Mailer looks up MX records for recipient domain
 2. Attempts delivery to lowest-preference server first
 3. Falls back to next preference if needed
 
 **Benefits:**
+
 - Dedicated mail servers (not tied to domain name)
 - Redundancy through multiple records
 - Load distribution possible

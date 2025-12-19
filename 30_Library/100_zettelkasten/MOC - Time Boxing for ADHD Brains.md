@@ -69,6 +69,7 @@ This creates achievable success criteria and prevents scope creep.
 #### Choose Your Duration
 
 **Start short and build up:**
+
 - **Pomodoro Standard:** 25 minutes work + 5 minute break
 - **ADHD-Adapted:** Start with 10-15 minutes if 25 feels too long
 - **Be honest:** How long can you realistically focus?
@@ -103,6 +104,7 @@ Visual timers make abstract time concrete:
 #### Work Until Timer Rings
 
 **The "No Matter What" rule:**
+
 - Commit to working *only* on that specific task
 - If you finish early: take extra break or assess next step
 - **If timer rings before finishing: STOP.** This is crucial—you succeeded by working the time
@@ -176,6 +178,7 @@ Time boxing works synergistically with:
 ### Practical Example: Kitchen Cleaning
 
 **Without time boxing (ADHD nightmare):**
+
 - Face entire messy kitchen
 - Get overwhelmed by scope
 - Start one thing, get distracted

@@ -48,11 +48,11 @@ The root cause of the error is the use of an invalid Git commit ID (`latest-rele
 To resolve this configuration error, consider the following steps:
 
 - Immediate Fix:
-    - Replace the invalid commit ID (`latest-release`) with a valid commit hash or tag that exists in the Git repository.
-    - Ensure that the commit ID or tag refers to a commit that is relevant for the diff operation.
+  - Replace the invalid commit ID (`latest-release`) with a valid commit hash or tag that exists in the Git repository.
+  - Ensure that the commit ID or tag refers to a commit that is relevant for the diff operation.
 - Long-Term Solutions:
-    - Implement input validation for the `--diffCommit` parameter to ensure that only valid commit IDs or tags are accepted.
-    - Provide clear documentation and examples for the correct usage of the `--diffCommit` parameter.
+  - Implement input validation for the `--diffCommit` parameter to ensure that only valid commit IDs or tags are accepted.
+  - Provide clear documentation and examples for the correct usage of the `--diffCommit` parameter.
 
 #### Related Information
 

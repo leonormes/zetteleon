@@ -24,9 +24,11 @@ updated: 2025-10-30T15:31:09Z
 **Details:** In the Zettelkasten workflow, fleeting notes represent the initial capture stage. They are quick thoughts, reminders, or observations recorded while engaged in other activities (reading, conversation, thinking). The key characteristics: (1) they are intentionally temporary—not stored in the main Zettelkasten, (2) they should be placed in a central Inbox for processing, (3) they must be transformed into permanent notes or discarded within a day or so, and (4) tasks, reminders, and to-do lists remain fleeting notes; they don't become main notes because they are not ideas. Luhmann would jot page numbers and brief descriptions on slips while reading, avoiding writing in books. The fleeting note's purpose is pure capture speed—get the thought out of working memory and onto paper/digital storage before it vanishes, then return to the primary activity. Processing fleeting notes later, when focused, is when the real knowledge work begins.
 
 **Links:**
+
 - [[Deep Processing is the Core of Zettelkasten]]
 - [[The Atomicity Principle - One Idea Per Note]]
 
 > **Status gates**
+>
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.

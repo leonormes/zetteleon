@@ -19,6 +19,7 @@ updated:
 
 > [!NOTE] Synthesis
 > This strategy is a core component of the **4th Law (Make It Satisfying)** and **Identity Evidence**.
+>
 > - **[[SoT - The Four Laws of Behavior Change#6. Positive Reinforcement Strategy: Small Wins]]**
 > - **[[SoT - Identity-Based Habit Formation#G. Momentum Building (The Small Win)]]**
 

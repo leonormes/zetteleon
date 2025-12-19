@@ -45,10 +45,10 @@ Singer's argument challenges the conventional distinction between moral duties.
 
 Singer's conclusion is derived from a four-premise argument:
 
-1.  **Principle of Prevention (Premise 1):** If it is in our power to prevent something very bad from happening, without thereby sacrificing anything of comparable moral significance, then we must morally do it.
-2.  **The Bad (Premise 2):** Hunger, disease, suffering, disability, and death are inherently very bad things.
-3.  **The Insignificant Sacrifice (Premise 3):** The money spent on luxuries (e.g., new clothes, cars, restaurant food, coffee) does not represent a sacrifice of moral significance.
-4.  **The Power to Act (Premise 4):** Donating money to efficient relief agencies can effectively prevent hunger, disease, and death.
+1. **Principle of Prevention (Premise 1):** If it is in our power to prevent something very bad from happening, without thereby sacrificing anything of comparable moral significance, then we must morally do it.
+2. **The Bad (Premise 2):** Hunger, disease, suffering, disability, and death are inherently very bad things.
+3. **The Insignificant Sacrifice (Premise 3):** The money spent on luxuries (e.g., new clothes, cars, restaurant food, coffee) does not represent a sacrifice of moral significance.
+4. **The Power to Act (Premise 4):** Donating money to efficient relief agencies can effectively prevent hunger, disease, and death.
 
 **Conclusion:** Therefore, we are morally obligated to donate the money we spend on luxuries to effective relief agencies.
 

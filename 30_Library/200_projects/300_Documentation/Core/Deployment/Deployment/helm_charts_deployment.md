@@ -24,6 +24,7 @@ version:
 ### 1. Data Entity Identification
 
 #### Core Entities
+
 1. Tenant
    - Primary entity representing organizational units
    - Referenced in authorization patterns (e.g., `fitfile/tenant:$TENANT_ID`)
@@ -50,6 +51,7 @@ version:
    - Used for validation and processing
 
 #### Domain-Specific Terminology
+
 - `data_source_manager`: Role for managing data sources
 - `data_set_manager`: Role for managing datasets
 - `project_admin`: Administrative role for projects
@@ -77,6 +79,7 @@ Key characteristics:
 - Separates schema from data for flexibility
 
 #### Storage Systems
+
 6. PostgreSQL
    - Used for structured data
    - Primary database: `fitconnect`
@@ -103,6 +106,7 @@ Project -> User (project_admin, data_user)
 ```
 
 #### Implementation Patterns
+
 9. Authorization Relationships
    - Implemented through SpiceDB
    - Uses relationship tuples
@@ -121,17 +125,21 @@ Project -> User (project_admin, data_user)
 ### 4. Schema Analysis
 
 #### Schema Implementation
+
 11. Explicit Schema Definitions
-   - JSON Schema based
-   - Includes data types and identifier types
-   - Used for validation and processing
+
+- JSON Schema based
+- Includes data types and identifier types
+- Used for validation and processing
 
 12. Schema Evolution
-   - Schemas stored separately from data
-   - Support for schema versioning
-   - Schema transformation in workflows
+
+- Schemas stored separately from data
+- Support for schema versioning
+- Schema transformation in workflows
 
 #### Validation
+
 - Schema validation during data processing
 - Type checking for fields
 - Identity type validation for privacy
@@ -139,11 +147,13 @@ Project -> User (project_admin, data_user)
 ### 5. Immutability Assessment
 
 #### Data Processing
+
 - Uses temporary buckets for intermediate results
 - Implements copy-on-write through workflow stages
 - Maintains immutable input datasets
 
 #### Storage
+
 - Read-only source data
 - Versioned output artifacts
 - Immutable workflow results
@@ -151,48 +161,58 @@ Project -> User (project_admin, data_user)
 ### 6. Data Access Patterns
 
 #### Service Layer
+
 13. FFCloud Service
-   - REST API endpoints
-   - GraphQL interface
-   - Role-based access control
+
+- REST API endpoints
+- GraphQL interface
+- Role-based access control
 
 14. Workflow API
-   - Pipeline execution
-   - Data transformation
-   - Result management
+
+- Pipeline execution
+- Data transformation
+- Result management
 
 #### Optimization Strategies
+
 15. Caching
-   - MinIO for artifact caching
-   - MongoDB ReplicaSet for read scaling
-   - PostgreSQL for transactional data
+
+- MinIO for artifact caching
+- MongoDB ReplicaSet for read scaling
+- PostgreSQL for transactional data
 
 16. Performance Considerations
-   - Supports large datasets (100,000+ records)
-   - Configurable timeouts based on data size
-   - Compression for large transfers
+
+- Supports large datasets (100,000+ records)
+- Configurable timeouts based on data size
+- Compression for large transfers
 
 ### Recommendations
 
 17. Schema Management
-   - Implement formal schema versioning
-   - Add schema migration tooling
-   - Document schema evolution patterns
+
+- Implement formal schema versioning
+- Add schema migration tooling
+- Document schema evolution patterns
 
 18. Data Access Optimization
-   - Add caching layer for frequently accessed data
-   - Implement connection pooling for databases
-   - Consider read replicas for scaling
+
+- Add caching layer for frequently accessed data
+- Implement connection pooling for databases
+- Consider read replicas for scaling
 
 19. Security Enhancements
-   - Implement field-level encryption
-   - Add audit logging for data access
-   - Enhance access control granularity
+
+- Implement field-level encryption
+- Add audit logging for data access
+- Enhance access control granularity
 
 20. Performance Improvements
-   - Add indexes for common query patterns
-   - Implement data partitioning strategy
-   - Optimize large dataset processing
+
+- Add indexes for common query patterns
+- Implement data partitioning strategy
+- Optimize large dataset processing
 
 The architecture shows a strong focus on data privacy, scalability, and maintainability. The separation of concerns between data storage, processing, and access control is well-implemented. The use of modern technologies and practices (Kubernetes, Helm, object storage) provides a solid foundation for future growth.
 
@@ -343,14 +363,16 @@ The architecture shows a strong focus on data privacy, scalability, and maintain
 #### Domain Events
 
 10. Workflow Events
-   - Workflow start/completion
-   - Validation results
-   - Processing stage transitions
+
+- Workflow start/completion
+- Validation results
+- Processing stage transitions
 
 11. Data Events
-   - Dataset creation/modification
-   - Schema updates
-   - Access control changes
+
+- Dataset creation/modification
+- Schema updates
+- Access control changes
 
 ### III. Architecture & Integration
 
@@ -374,57 +396,66 @@ The architecture shows a strong focus on data privacy, scalability, and maintain
 #### Shared Kernel
 
 12. Core Components
-   - Schema definitions
-   - Privacy classifications
-   - Access control models
+
+- Schema definitions
+- Privacy classifications
+- Access control models
 
 13. Infrastructure
-   - MinIO for artifact storage
-   - MongoDB for document storage
-   - PostgreSQL for relational data
+
+- MinIO for artifact storage
+- MongoDB for document storage
+- PostgreSQL for relational data
 
 #### Anti-Corruption Layers
 
 14. Data Access Layer
-   - Abstracts database implementations
-   - Enforces access control
-   - Manages data transformations
+
+- Abstracts database implementations
+- Enforces access control
+- Manages data transformations
 
 15. API Gateway
-   - Request validation
-   - Authentication/authorization
-   - Rate limiting
+
+- Request validation
+- Authentication/authorization
+- Rate limiting
 
 ### IV. Navigation Guide
 
 #### Strategic Components
 
 16. Core Domain Files
-   - `charts/ffcloud-service/`: Main service implementation
-   - `charts/workflows-api/`: Workflow definitions
-   - `charts/spicedb/`: Access control implementation
+
+- `charts/ffcloud-service/`: Main service implementation
+- `charts/workflows-api/`: Workflow definitions
+- `charts/spicedb/`: Access control implementation
 
 17. Key Configuration
-   - `charts/databases/`: Data storage configuration
-   - `charts/local-dev/`: Development environment setup
-   - `workflows/src/`: Workflow templates and definitions
+
+- `charts/databases/`: Data storage configuration
+- `charts/local-dev/`: Development environment setup
+- `workflows/src/`: Workflow templates and definitions
 
 #### Implementation Patterns
 
 18. Data Structures
-   - Heavy use of JSON for data exchange
-   - Schema-based validation
-   - Immutable data transformations
+
+- Heavy use of JSON for data exchange
+- Schema-based validation
+- Immutable data transformations
 
 19. Control Flow
-   - DAG-based workflow execution
-   - Event-driven architecture
-   - Asynchronous processing
+
+- DAG-based workflow execution
+- Event-driven architecture
+- Asynchronous processing
 
 20. Object-Oriented Patterns
-   - Service-oriented architecture
-   - Clear separation of concerns
-   - Dependency injection
+
+- Service-oriented architecture
+- Clear separation of concerns
+- Dependency injection
 
 The codebase demonstrates a strong focus on data privacy, scalability, and maintainability. The domain model effectively separates concerns while maintaining clear boundaries between contexts. The use of workflow templates and configuration-driven development allows for flexible deployment and maintenance.
 

@@ -46,6 +46,7 @@ A **Protocol Data Unit (PDU)** is the term used to describe data as it moves thr
 ---
 
 ### **1. Why PDUs Matter**
+
 - PDUs define **how data is represented at each layer**.
 - They help network engineers troubleshoot issues by identifying where a problem occurs (e.g., packet loss vs. frame errors).
 - They clarify the **scope of responsibility** for each layer.
@@ -91,6 +92,7 @@ Imagine nesting boxes:
 ---
 
 ### **Common Misconceptions**
+
 - **“Packet” ≠ everything:** It’s specific to Layer 3.
 - **TCP vs UDP:** TCP uses segments; UDP uses datagrams.
 - **OSI vs TCP/IP:** TCP/IP has 4 layers (Application, Transport, Internet, Network Access), but PDU naming still applies conceptually.
@@ -110,6 +112,7 @@ Sending an HTTP request:
 ---
 
 ### **Key Takeaways**
+
 - PDUs help identify **where data is in the stack**.
 - Each layer adds **headers/trailers** for its function.
 - Understanding PDUs is essential for **network troubleshooting** and **protocol design**.
@@ -121,6 +124,7 @@ Read and validate this note. Is it accurate? Elaborate on the details
 The note provides an accurate description of the concept of a Protocol Data Unit (PDU) within the OSI networking model. Here’s a breakdown and elaboration:
 
 ### Validation of Accuracy
+
 - The note correctly states that the networking stack encapsulates data in a hierarchy of structures, with each OSI layer using its own term for the encapsulated data (PDU).
 - It accurately lists the specific names of the PDU at each OSI layer:
   - Layers 5-7 (Application, Presentation, Session): Data
@@ -132,17 +136,21 @@ The note provides an accurate description of the concept of a Protocol Data Unit
 ### Additional Details
 
 #### 1. Protocol Data Unit (PDU)
+
 - "PDU" is a generic term for data at any layer of the OSI model, emphasizing the encapsulation process as data descends through the stack[1].
 
 #### 2. Layer-specific Terminology
+
 - The use of "packet" is specific to Layer 3 but is often misused as a generic networking term.
 - The transition from application data down to physical bits through the OSI model illustrates how information is modularized for error checking, routing, delivery, and more at each stage.
 
 #### 3. OSI Model Context
+
 - Application (Layer 7), Presentation (6), and Session (5) often group together as "Data," since most segmentation and encapsulation occur below these layers.
 - The distinction between "segment" and "datagram" at Layer 4 refers to TCP (reliable, connection-oriented) and UDP (connectionless, no delivery guarantees).
 
 #### 4. Practical Note
+
 - In real-world networking, references to “frames,” “packets,” and “segments” are used interchangeably by non-specialists, but they have precise definitions within protocol engineering.
 
 ### OSI Model PDU Summary Table

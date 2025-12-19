@@ -22,6 +22,7 @@ updated:
 **Summary:** Layer 3 (Network Layer) security focuses on protecting IP packet routing, filtering, and forwarding operations in network infrastructure.
 
 **Key aspects:**
+
 - Operates at the IP packet level (OSI Layer 3)
 - Protects against threats like:
   - IP spoofing

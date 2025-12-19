@@ -32,6 +32,7 @@ We currently have Grafana dashboards, but I suspect they are not "standardized" 
 - **Goal:** A "Standard K8s Cluster Health" dashboard that the whole team can rely on.
 
 ### The Tension
+
 - **Knowledge Gap:** I need to "Complete a tutorial" and "Research golden signals" before I can effectively "Document the new standard."
 - **Action vs. Planning:** There is a temptation to just "Build a new dashboard" (Task) without first defining *what* is critical (Task: "Define 3 critical alerts").
 - **Current State:** I need to know where we stand ("Audit our current Grafana dashboards") before building new things.
@@ -40,19 +41,21 @@ We currently have Grafana dashboards, but I suspect they are not "standardized" 
 *The immediate, verifiable action to resolve the current tension.*
 
 - [ ] **Research "golden signals" for Kubernetes monitoring.** (Latency, traffic, errors, saturation).
-    - *Success Criteria:* I can list the 4 signals and how they map to our specific K8s metrics.
-    - *Output:* Update this note with a mapping table.
+  - *Success Criteria:* I can list the 4 signals and how they map to our specific K8s metrics.
+  - *Output:* Update this note with a mapping table.
 
 ### Backlog & Sequence
 *Derived from the initial task dump:*
-1.  **Research:** Research "golden signals" for Kubernetes monitoring (latency, traffic, errors, saturation) `[Next Action]`
-2.  **Learn:** Complete a tutorial on building a Kubernetes health dashboard in Grafana.
-3.  **Audit:** Audit our current Grafana dashboards against best-practice templates.
-4.  **Define:** Define 3 critical alerts for cluster health (e.g., 'High CPU Throttling', 'Pod CrashLooping').
-5.  **Build:** Build a new, standardized "K8s Cluster Health" dashboard in a dev environment.
-6.  **Document:** Document the new standard dashboard and key alerts for the team.
+
+1. **Research:** Research "golden signals" for Kubernetes monitoring (latency, traffic, errors, saturation) `[Next Action]`
+2. **Learn:** Complete a tutorial on building a Kubernetes health dashboard in Grafana.
+3. **Audit:** Audit our current Grafana dashboards against best-practice templates.
+4. **Define:** Define 3 critical alerts for cluster health (e.g., 'High CPU Throttling', 'Pod CrashLooping').
+5. **Build:** Build a new, standardized "K8s Cluster Health" dashboard in a dev environment.
+6. **Document:** Document the new standard dashboard and key alerts for the team.
 
 ## Related Knowledge
+
 - [[Authentication Summary for AKS, EKS, and Terraform Cloud]]
 - [[AWS ENIs Connect EKS Worker Nodes to VPC Networks]]
 - [[30_Library/100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address]]

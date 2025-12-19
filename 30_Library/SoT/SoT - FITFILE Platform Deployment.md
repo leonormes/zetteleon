@@ -122,6 +122,7 @@ Security is a first-class citizen, leveraging Vault for dynamic secrets and PKI.
 ---
 
 ## 7. Related Components
+
 - [[repo_structure_suggestions]] - Repository organization.
 - [[Fitfile deployment fixes]] - Operational fixes.
 - [[FITFILE Node Deployment Guide]] - Comprehensive guide for deploying FITFILE nodes.

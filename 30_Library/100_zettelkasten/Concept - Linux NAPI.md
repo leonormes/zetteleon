@@ -23,7 +23,8 @@ updated: 2025-11-22T15:00:07Z
 
 **Details:**
 Standard interrupt handling can overwhelm the CPU if an interrupt is raised for every single incoming packet ("interrupt storm"). NAPI solves this by:
-1.  Accepting an initial interrupt to wake the driver.
-2.  Disabling further interrupts and switching to polling mode to process a batch of packets from the ring buffer.
-3.  Re-enabling interrupts once the queue is drained.
+
+1. Accepting an initial interrupt to wake the driver.
+2. Disabling further interrupts and switching to polling mode to process a batch of packets from the ring buffer.
+3. Re-enabling interrupts once the queue is drained.
 This mechanism increases throughput and reduces CPU usage under load.

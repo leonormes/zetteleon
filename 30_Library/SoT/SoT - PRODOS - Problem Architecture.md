@@ -41,4 +41,5 @@ Constraints reduce the **Search Space** of a problem. They are helpful filters, 
 - **Soft Constraint:** Gradient. Penalised if violated (e.g., "Should be written in Go").
 
 ## 4. Verification Log
+
 - **Source:** Systems Thinking Principles / Kepner-Tregoe Analysis.

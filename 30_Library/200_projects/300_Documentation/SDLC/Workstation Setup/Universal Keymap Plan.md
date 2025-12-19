@@ -27,11 +27,11 @@ version:
 - **Namespace Structure:** `<Leader> <Namespace> <Action>`
 - **Goal:** Consistent and efficient keybindings across WezTerm, Zellij, and Neovim, minimizing conflicts and maximizing muscle memory.
 - **Guiding Principles:**
-    - **Ergonomics:** Prioritize comfortable key combinations.
-    - **Mnemonics:** Use intuitive key mappings (e.g., `s` for search).
-    - **Consistency:** Maintain similar patterns across applications.
-    - **Extensibility:** Design the system to accommodate future additions.
-    - **Discoverability:** (Less of a keymap thing, but important) Consider how you will *learn* and remember these. Maybe a cheat sheet plugin.
+  - **Ergonomics:** Prioritize comfortable key combinations.
+  - **Mnemonics:** Use intuitive key mappings (e.g., `s` for search).
+  - **Consistency:** Maintain similar patterns across applications.
+  - **Extensibility:** Design the system to accommodate future additions.
+  - **Discoverability:** (Less of a keymap thing, but important) Consider how you will *learn* and remember these. Maybe a cheat sheet plugin.
 
 ## 2. Considerations for Each Application
 

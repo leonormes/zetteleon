@@ -22,16 +22,17 @@ version:
 
 The challenge of securing the initial root access user is critical. Here's how to approach it:
 
-1.  Break-Glass Account Strategy:
+1. Break-Glass Account Strategy:
     - Dedicated Break-Glass Account: Create a separate, highly secured "break-glass" account specifically for emergency access. This account should not be used for day-to-day operations.
     - Strong Credentials: Generate a complex, long password or use a managed identity with no password for this account. Store the password securely offline, potentially in a physical safe, with access granted only to a limited number of authorized personnel.
     - Azure AD Privileged Identity Management (PIM): Utilize Azure AD PIM to manage and audit the break-glass account.
-	- Just-in-Time Access: Require users to request and justify activation of the break-glass role, granting temporary elevated privileges only when needed.
-	- Multi-Factor Authentication (MFA): Enforce MFA for break-glass account activation to add an extra layer of security.
-	- Auditing and Monitoring: Log and monitor all activities performed by the break-glass account for full audit trails.
-    - Emergency Access Workflows: Define clear, documented procedures for when and how to use the break-glass account. This should include approval processes and post-incident reviews.
 
-2.  Initial Setup with Least Privilege:
+- Just-in-Time Access: Require users to request and justify activation of the break-glass role, granting temporary elevated privileges only when needed.
+- Multi-Factor Authentication (MFA): Enforce MFA for break-glass account activation to add an extra layer of security.
+- Auditing and Monitoring: Log and monitor all activities performed by the break-glass account for full audit trails.
+  - Emergency Access Workflows: Define clear, documented procedures for when and how to use the break-glass account. This should include approval processes and post-incident reviews.
+
+2. Initial Setup with Least Privilege:
     - Service Principal for Terraform: Instead of using a user account for Terraform Cloud to manage Azure resources, create a dedicated Azure AD Service Principal. Grant this Service Principal only the necessary permissions to manage the Azure resources defined in your Terraform configurations. This adheres to the principle of least privilege.
     - Limited Initial User Scope: The initial user who sets up Terraform Cloud and GitLab integrations should have just enough permissions to bootstrap the GitOps pipeline and configure the Service Principal. Avoid granting this user permanent root or overly broad access.
     - Terraform Cloud Access Control: Leverage Terraform Cloud's access control features to restrict who can manage Terraform configurations and state. Integrate with your organization's identity provider for centralized user management.

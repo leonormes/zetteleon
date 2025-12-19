@@ -89,12 +89,15 @@ Viewing mathematics as the science of patterns allows us to map its landscape as
 Applying foundational tools to basic patterns gives rise to the pillars of mathematics:
 
 **Quantity & Order** → [[Arithmetic (Definition)]] `rel:: domain` and [[Number Theory (Definition)]] `rel:: domain`
+
 - The discrete, ordered sequence of counting gives rise to natural numbers and their deep properties.
 
 **Shape & Space** → [[Geometry (Definition)]] `rel:: domain` and [[Topology (Definition)]] `rel:: domain`
+
 - The arrangement of objects in space, from rigid Euclidean geometry to properties preserved under continuous deformation.
 
 **Transformation & Generalization** → [[Algebra (Definition)]] `rel:: domain`
+
 - The study of operational structures, symmetries, and abstract patterns of transformation.
 
 #### Advanced Fields: Complex Structures
@@ -102,9 +105,11 @@ Applying foundational tools to basic patterns gives rise to the pillars of mathe
 The true power emerges when core pillars combine to study more complex patterns:
 
 **Change & Motion** → [[Calculus (Definition)]] `rel:: domain` and [[Analysis (Definition)]] `rel:: domain`
+
 - Calculus provides computational tools for continuous change; Analysis establishes rigorous foundations through limits and continuity.
 
 **Chance & Uncertainty** → [[Probability (Definition)]] `rel:: domain` and [[Statistics (Definition)]] `rel:: domain`
+
 - Probability builds axiomatic models of randomness; Statistics applies these models to real data for inference and decision-making.
 
 ### Related Maps

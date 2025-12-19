@@ -24,6 +24,7 @@ Terraform provides multiple methods for loading and processing files in Infrastr
 
 ## 1. File Loading Fundamentals
 ### Basic File Reading
+
 - `file()` function: Reads file contents as a string
 
 ```hcl
@@ -43,6 +44,7 @@ Terraform provides multiple methods for loading and processing files in Infrastr
 
 ## 2. Structured Data Handling
 ### CSV Processing
+
 - `csvdecode` function: Converts CSV rows into list of maps
 
 ```hcl
@@ -57,8 +59,8 @@ Terraform provides multiple methods for loading and processing files in Infrastr
 
   Limitations:
 
-  - Requires manual parsing for nested structures [9]
-  - Prefer JSON/YAML for complex objects using `jsondecode`/`yamldecode` [4]
+- Requires manual parsing for nested structures [9]
+- Prefer JSON/YAML for complex objects using `jsondecode`/`yamldecode` [4]
 
 ### JSON/YAML Integration
 
@@ -81,6 +83,7 @@ resource "aws_instance" "web" {
 ```
 
 ### Multi-Part Configurations
+
 - `cloudinit_config` provider: Combines scripts/cloud-init directives
 
   ```hcl
@@ -110,6 +113,7 @@ data "template_cloudinit_config" "app" {
 ---
 
 ## 4. Advanced Patterns
+
 - Dynamic file lists:
 
 ```hcl
@@ -126,6 +130,7 @@ user_data = var.use_custom_script ? file("custom.sh") : null
 ---
 
 ## Key Considerations
+
 1. Security: Avoid sensitive data in plaintext files
 2. Validation: Use `can()` for error handling with file operations
 3. Performance: Large files (>1MB) may require alternative storage (S3, etc.)

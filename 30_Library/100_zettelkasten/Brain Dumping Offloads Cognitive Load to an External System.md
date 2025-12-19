@@ -20,12 +20,14 @@ updated: 2025-11-12T15:00:09Z
 **What:** A strategy to counteract the cognitive load from working memory deficits by transferring all thoughts, tasks, and worries from the mind to a trusted external system.
 
 **How:**
-1.  Select a single, trusted external system (e.g., notebook, whiteboard, digital app).
-2.  Schedule a recurring, non-negotiable 15-minute "brain dump" session.
-3.  During the session, write down *everything* occupying mental space without filtering or organizing.
-4.  *After* the dump is complete, sort the items into relevant categories (e.g., project board, calendar, someday/maybe list).
+
+1. Select a single, trusted external system (e.g., notebook, whiteboard, digital app).
+2. Schedule a recurring, non-negotiable 15-minute "brain dump" session.
+3. During the session, write down *everything* occupying mental space without filtering or organizing.
+4. *After* the dump is complete, sort the items into relevant categories (e.g., project board, calendar, someday/maybe list).
 
 **Failure modes:**
+
 - Trying to organize *during* the brain dump, which adds friction and defeats the purpose of offloading.
 - Using multiple, untrusted systems, which creates anxiety about losing information.
 

@@ -166,8 +166,8 @@ All container systems ultimately use Linux kernel primitives:
 docker run --pid=host --uts=host [...]  # Explicit namespace controls
 ```
 
-   - PID, Mount, Network, UTS, IPC, User namespaces
-   - Same kernel APIs (`unshare`, `setns`)
+- PID, Mount, Network, UTS, IPC, User namespaces
+- Same kernel APIs (`unshare`, `setns`)
 
 2. Control Groups (cgroups):
 
@@ -176,7 +176,7 @@ docker run --pid=host --uts=host [...]  # Explicit namespace controls
 echo "100000" > /sys/fs/cgroup/cpu/docker/<ID>/cpu.cfs_quota_us
 ```
 
-   - Memory/CPU/IO limits enforced through cgroups v2
+- Memory/CPU/IO limits enforced through cgroups v2
 
 3. Filesystem Isolation:
    - Uses `overlay2` driver (layered FS) instead of basic `chroot`
@@ -390,7 +390,7 @@ Here's a breakdown of what the presenter did to demonstrate PID namespacing, bas
 
 ```sh
 docker run -d ubuntu sleep infinity 
-``` 
+```
 
         - `docker run -d`: Runs a container in detached mode (in the background).
         - `ubuntu`: Specifies the Ubuntu image.
@@ -413,6 +413,7 @@ docker run -it --pid=host ubuntu bash
 - `--pid=host`: Crucially, this option tells Docker to use the host's PID namespace for this container.
 - `ubuntu`: Specifies the Ubuntu image.
 - `bash`: Starts a bash shell inside the container.
+
 1. Observe Processes from Within the Host-PID Container:
 
     - Inside this new container (which is sharing the host's PID namespace), he ran `ps aux`.
@@ -423,9 +424,10 @@ docker run -it --pid=host ubuntu bash
 
 ```sh
 docker run -it --pid=container:<container_id_of_first_container> ubuntu bash 
-``` 
+```
 
 - `--pid=container:<container_id_or_name>`: This instructs the new container to use the same PID namespace as another running container.
+
 1. See Processes from the Shared Container:
 
 - Within the third container, when he executed `ps aux`, the output displayed only the `sleep infinity` process from the initial container and the processes of the current (third) container. The processes of the host are hidden. This demonstrated that both containers are now part of the same, isolated PID namespace.

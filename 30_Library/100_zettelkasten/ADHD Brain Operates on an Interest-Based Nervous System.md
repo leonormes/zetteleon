@@ -41,6 +41,6 @@ A useful analogy for the ADHD brain vs. the Productivity System:
 
 The goal of an effective ADHD system is not to force the brain to become "Importance-Based" (which is neurologically impossible), but to **bridge the gap**:
 
-1.  **Acknowledge:** The brain will never "want" to go to the bank.
-2.  **Refactor:** Use the system to "re-skin" the boring task (The Bank) so it *looks* like an amusement park (Mystery, Challenge, Spite).
-3.  **Ignite:** This "Stimulus Injection" creates the necessary activation energy to move the Ferrari along the steered path.
+1. **Acknowledge:** The brain will never "want" to go to the bank.
+2. **Refactor:** Use the system to "re-skin" the boring task (The Bank) so it *looks* like an amusement park (Mystery, Challenge, Spite).
+3. **Ignite:** This "Stimulus Injection" creates the necessary activation energy to move the Ferrari along the steered path.

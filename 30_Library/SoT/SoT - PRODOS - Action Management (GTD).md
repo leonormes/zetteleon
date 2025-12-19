@@ -107,12 +107,12 @@ This pipeline converts "Cognitive Fog" into "Binary Action."
 - **Action:** LLM (Command: `/refine`) extracts this to a `HEAD` note (`HEAD - Server Patching.md`).
 - **Activity:**
 
-1.  **Explode:** Break the vague fear into concrete steps using **Obsidian Tasks**.
+1. **Explode:** Break the vague fear into concrete steps using **Obsidian Tasks**.
 
     - `- [ ] Check current uptime`
     - `- [ ] List failed patches`
 
-2.  **Isolate:** Identify the *single* first physical action.
+2. **Isolate:** Identify the *single* first physical action.
 
 - **State:** `Structured`, `Atomic`.
 
@@ -120,8 +120,8 @@ This pipeline converts "Cognitive Fog" into "Binary Action."
 
 - **Action:** User invokes `Todoist Context Bridge` on the primary Next Action.
 - **Result:**
-    - Obsidian: Task marked with `[Todoist Synced]` (or icon).
-    - Todoist: New task "List failed patches" with link `[[HEAD - Server Patching]]`.
+  - Obsidian: Task marked with `[Todoist Synced]` (or icon).
+  - Todoist: New task "List failed patches" with link `[[HEAD - Server Patching]]`.
 - **State:** `Scheduled`, `Externalized`.
 
 ### Phase 4: Engage (The Doing)
@@ -129,13 +129,13 @@ This pipeline converts "Cognitive Fog" into "Binary Action."
 - **Action:** Todoist reminds user. User clicks link.
 - **Protocol:**
 
-    1.  **Environment Check:** Before starting, remove temptations (phone, tabs).
-    2.  **Context Restore:** Click link -> Obsidian opens `HEAD - Server Patching`.
-    3.  **The "Just Start" Heuristic:** If resistance hits ("I'll do it later"), use the **Implementation Intention**:
+    1. **Environment Check:** Before starting, remove temptations (phone, tabs).
+    2. **Context Restore:** Click link -> Obsidian opens `HEAD - Server Patching`.
+    3. **The "Just Start" Heuristic:** If resistance hits ("I'll do it later"), use the **Implementation Intention**:
 
         > *"IF I say 'I'll do it later', THEN I will just do 30 seconds of this task."*
 
-    4.  **Pomodoro:** Set timer for 25m. Focus only on the "Next Small Action."
+    4. **Pomodoro:** Set timer for 25m. Focus only on the "Next Small Action."
 
 - **Execution:** User performs the task, checks off in Obsidian (for record) and Todoist (for dopamine).
 
@@ -147,9 +147,9 @@ To directly combat the "always start fresh" loop (see [[Breaking the Creation Cy
 
 This 10-minute ritual is performed at the start of any work session:
 
-1.  **Read The Project Anchor:** Rapidly reload the previous mental model by reading the `## Current State` block in the **Project Note** (see [[SoT - PRODOS - Knowledge Synthesis (Thinking)#Externalizing the Mental Model: The Project Anchor Protocol|Project Anchor Protocol]]).
-2.  **Warm Start:** Execute basic environment setup commands (e.g., `make dev && npm test`).
-3.  **Execute Smallest Next Task:** Complete a task (<15 min) to build momentum.
+1. **Read The Project Anchor:** Rapidly reload the previous mental model by reading the `## Current State` block in the **Project Note** (see [[SoT - PRODOS - Knowledge Synthesis (Thinking)#Externalizing the Mental Model: The Project Anchor Protocol|Project Anchor Protocol]]).
+2. **Warm Start:** Execute basic environment setup commands (e.g., `make dev && npm test`).
+3. **Execute Smallest Next Task:** Complete a task (<15 min) to build momentum.
 
 #### B. Minimal Path to Demo (MPD)
 
@@ -185,11 +185,11 @@ GTD manages **Inventory** (What to do), but it does not manage **Capacity** (Whe
 
 - **The Bridge:** When moving a task to Todoist, you must decide its temporal fate:
 
-    - **P1 (Critical):** Must be **Time Blocked** on the Calendar immediately.
+  - **P1 (Critical):** Must be **Time Blocked** on the Calendar immediately.
 
-    - **P2 (Important):** Must have a defined **Time Box** (Duration) attached (e.g., `[25m]`).
+  - **P2 (Important):** Must have a defined **Time Box** (Duration) attached (e.g., `[25m]`).
 
-    - **P3 (Routine):** Batched into a "Shallow Work" block.
+  - **P3 (Routine):** Batched into a "Shallow Work" block.
 
 ---
 
@@ -247,8 +247,8 @@ WHERE !completed AND created < (date(today) - dur(7 days))
 
 A task is properly processed only when:
 
-1.  **It starts with a Verb.** (Call, Write, Run, Buy)
-2.  **It has a defined Context.** (At Computer, At Shop)
-3.  **It exists in Todoist** IF it cannot be done *right now*.
-4.  **It links back** to the thinking that generated it.
-5.  **It is Real Work, not Meta-Work.** (Planning about planning is forbidden. The task must "move the ball" in the real world.)
+1. **It starts with a Verb.** (Call, Write, Run, Buy)
+2. **It has a defined Context.** (At Computer, At Shop)
+3. **It exists in Todoist** IF it cannot be done *right now*.
+4. **It links back** to the thinking that generated it.
+5. **It is Real Work, not Meta-Work.** (Planning about planning is forbidden. The task must "move the ball" in the real world.)

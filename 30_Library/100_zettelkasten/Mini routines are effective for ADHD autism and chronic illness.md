@@ -29,6 +29,7 @@ For chronic illness: Flexible pacing allows adaptation to daily variations in sy
 The core benefit is achieving structure without rigidity—creating a framework that guides behavior while remaining responsive to the significant day-to-day variations these conditions create.
 
 ## Related
+
 - [[Routines reduce anxiety and decision fatigue in neurodivergent individuals]]
 - [[Event-based structure reduces time-pressure anxiety]]
 - [[Event-based pacing matches boom and bust energy cycles]]

@@ -56,7 +56,7 @@ Namespacing is a pervasive architectural pattern.
 
 - **Mechanism:** Linux utilizes multiple namespace types for process isolation, forming the bedrock of containerization.
 
-    - **PID, Mount, Network, User, IPC, Cgroup Namespaces:** Isolate process IDs, filesystems, network stacks, user IDs, inter-process communication, and resource limits respectively.
+  - **PID, Mount, Network, User, IPC, Cgroup Namespaces:** Isolate process IDs, filesystems, network stacks, user IDs, inter-process communication, and resource limits respectively.
 
 - **Problems Solved:** Resource conflicts, security enhancements (privilege separation), lightweight virtualization (Docker, LXC), and efficient scalability of processes.
 

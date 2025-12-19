@@ -77,16 +77,16 @@ PRODOS functions as a continuous loop that processes thought, generates action, 
 
 **Capture -> Refine -> Synthesize -> Act -> Reflect (Hansei) -> Repeat**
 
-1.  **Capture (Human):** Raw, messy, unstructured thoughts are captured into a frictionless entry point (Daily Note). "Capture Now, Structure Later."
-2.  **Refine (LLM) - "The Psychiatrist Workflow":** The LLM acts as a **Convergent Tool**, preventing the "Alcohol" of over-organization.
+1. **Capture (Human):** Raw, messy, unstructured thoughts are captured into a frictionless entry point (Daily Note). "Capture Now, Structure Later."
+2. **Refine (LLM) - "The Psychiatrist Workflow":** The LLM acts as a **Convergent Tool**, preventing the "Alcohol" of over-organization.
     - **Vomit Chaos:** The user dumps raw, unstructured thought into a `HEAD` note (The Therapy).
     - **Logic Linter:** The LLM debugs the thought, stripping emotion ("I hate this") to find the signal.
     - **Extract Action:** The sole purpose is to compile the thought into a **Verifiable Next Action**.
     - **Nuke the Rest:** Once the lesson is extracted to an SoT and the action to Todoist, the HEAD note is archived/ignored. No filing, no tagging.
     - **The Architectural Rule:** "Human Write, Machine Read." The HEAD note is the "Kernel" (Source Code) for your eyes only. The SoT is the "Binary" (Compiled Output) managed by the LLM.
-3.  **Synthesize (LLM & Human):** The LLM automates the "Chronos Synthesis" ritual, updating the canonical `SoT` note with new insights from `HEAD` notes. The user performs the final validation.
-4.  **Act (Human):** The output of thinking is not another note, but a **verifiable `Next Action`**—a test, an experiment, or a command—to be executed in the real world.
-5.  **Reflect (Hansei):** A structured feedback loop to transform behavior into learning (See Section 9).
+3. **Synthesize (LLM & Human):** The LLM automates the "Chronos Synthesis" ritual, updating the canonical `SoT` note with new insights from `HEAD` notes. The user performs the final validation.
+4. **Act (Human):** The output of thinking is not another note, but a **verifiable `Next Action`**—a test, an experiment, or a command—to be executed in the real world.
+5. **Reflect (Hansei):** A structured feedback loop to transform behavior into learning (See Section 9).
 
 ---
 
@@ -106,17 +106,19 @@ You must treat your notes exactly like a software repository to prevent "Version
 | **Searchability** | **Hidden.** Should NOT appear in standard lookups. | **Primary.** The *only* place you look for answers. |
 
 ### A. HEAD Notes (The Workbench)
+
 - **Purpose:** The **universal container for active thinking**. It is not a rigid form but a flexible space for journaling, questioning, learning, hypothesizing, or arguing with oneself. It captures the *process* of cognition, however messy.
 - **The Protocol (Always New, Never Resume):**
-    - **Zero-Decision Entry:** Use a single hotkey to create a timestamped note (`YYYY-MM-DD-HHmm-HEAD`). **No titles, no folders, no prompts.** The cursor lands in free space.
-    - **Session State:** Your brain is the session state. Never resume an old note. Start fresh, check the SoT for context, and write.
-    - **The Tri-State Output Router:** At the end of the session, the user must select one of three exit paths:
-        - **Path A: Kinetic (Action):** "I figured it out." -> Extract Task to Todoist -> Archive Note.
-        - **Path B: Static (Storage):** "I learned a fact." -> Merge Insight to SoT -> Archive Note.
-        - **Path C: Dynamic (Thinking):** "I am paused." -> **Serialize State** (Write "I stopped at X, next step is Y") -> Create **Pointer Task** in Todoist ("Thinking: Resume [Link]") -> Keep Note Active.
+  - **Zero-Decision Entry:** Use a single hotkey to create a timestamped note (`YYYY-MM-DD-HHmm-HEAD`). **No titles, no folders, no prompts.** The cursor lands in free space.
+  - **Session State:** Your brain is the session state. Never resume an old note. Start fresh, check the SoT for context, and write.
+  - **The Tri-State Output Router:** At the end of the session, the user must select one of three exit paths:
+    - **Path A: Kinetic (Action):** "I figured it out." -> Extract Task to Todoist -> Archive Note.
+    - **Path B: Static (Storage):** "I learned a fact." -> Merge Insight to SoT -> Archive Note.
+    - **Path C: Dynamic (Thinking):** "I am paused." -> **Serialize State** (Write "I stopped at X, next step is Y") -> Create **Pointer Task** in Todoist ("Thinking: Resume [Link]") -> Keep Note Active.
 - **Voice:** First-person, raw, and unpolished.
 
 ### B. LIB/SoT Notes (The Canon)
+
 - **Purpose:** To be the trusted **System of Record** for stable, verified knowledge and the `Current Understanding` of a topic.
 - **Voice:** Third-person, objective.
 - **Key Constraint:** Must be durable and updated only through a formal synthesis process. It is the single source of truth that you can trust when returning to a topic.
@@ -127,8 +129,8 @@ You must treat your notes exactly like a software repository to prevent "Version
 
 PRODOS is considered "working" only when it consistently passes these two acceptance tests:
 
-1.  **The 60-Second Context Restoration Test (Save State):** The system is not an archive; it is a save state. Can I open the relevant Project/SoT note and recall the **Minimum Viable Understanding (MVU)** and the very **Next Action** in under 60 seconds? Everything "below the fold" is irrelevant history.
-2.  **The Reuse Score:** For any new project, was the system successfully leveraged to find and reuse existing knowledge, avoiding at least 30 minutes of new research?
+1. **The 60-Second Context Restoration Test (Save State):** The system is not an archive; it is a save state. Can I open the relevant Project/SoT note and recall the **Minimum Viable Understanding (MVU)** and the very **Next Action** in under 60 seconds? Everything "below the fold" is irrelevant history.
+2. **The Reuse Score:** For any new project, was the system successfully leveraged to find and reuse existing knowledge, avoiding at least 30 minutes of new research?
 
 ### 5.1 Measurable Outcomes: The "Output First" Metric
 
@@ -137,6 +139,7 @@ Moving beyond the "buzz" of potential, we assess success through concrete, real-
 > **The Rule:** If using the system feels like a chore, it is failing.
 
 **Key Performance Indicators (KPIs):**
+
 - **Output Volume:** Did the system directly contribute to finishing a project or task this week? (Transformation > Accumulation).
 - **Retrieval Speed:** Can you find the exact information you need in < 30 seconds?
 - **Mental Silence:** Does the "Brain Dump" actually clear the noise? (Reduction in "stuff I need to remember").
@@ -150,7 +153,7 @@ The folder structure and tool integration reflect the cognitive loop. PRODOS v5.
 
 - **`00_Inbox` / Daily Note:** Frictionless capture.
 - **`20_Thinking/21_Workbench`:** The home for active `HEAD` notes where cognitive work happens.
-    - **Flash Thinking Setup:** Configure a global hotkey to create a new file here with `YYYY-MM-DD-HHmm-HEAD` naming to bypass the "Naming Friction".
+  - **Flash Thinking Setup:** Configure a global hotkey to create a new file here with `YYYY-MM-DD-HHmm-HEAD` naming to bypass the "Naming Friction".
 - **`30_Library/31_Resources`:** The home for canonical `SoT` notes.
 - **`10_Actions/11_Projects`:** Project Dashboards that link to `HEAD` (thinking) and `SoT` (reference) notes.
 - **Todoist (The Runtime):** Contains only executable tasks, often synced from and linking back to an Obsidian note that holds the context.
@@ -177,21 +180,21 @@ The Command Centre is a structural solution to planning inconsistency, reframing
 
 To construct a valid Command Centre, refactor vague processes into a strict instruction set:
 
-1.  **Audit (Data Dump):** List every step of a routine (e.g., Weekly Reset) when the system functions correctly.
-2.  **Refactor (Optimisation):**
+1. **Audit (Data Dump):** List every step of a routine (e.g., Weekly Reset) when the system functions correctly.
+2. **Refactor (Optimisation):**
     - **Prune:** Remove "nice-to-have" features that add friction.
     - **Merge:** Combine redundant steps.
     - **Patch:** Add missing dependencies.
-3.  **Codify (Final Output):** Write the refined algorithm onto a physical card. Instructions must be explicit enough for a stranger to execute.
+3. **Codify (Final Output):** Write the refined algorithm onto a physical card. Instructions must be explicit enough for a stranger to execute.
 
 ### C. Deployment Strategies (Integration)
 
 The system fails if the instruction set is not accessible at the exact moment of execution (Latency = 0).
 
-1.  **Traveling Command Centre (Paperclip Method):** For monthly or situational routines. Physically move the card with the routine to the current active planner spread. (Context-aware visibility).
-2.  **Bookmark Kernel (Index Card Method):** For high-frequency routines (Daily/Weekly). The card doubles as a primary bookmark. (Zero friction, immediate presentation).
+1. **Traveling Command Centre (Paperclip Method):** For monthly or situational routines. Physically move the card with the routine to the current active planner spread. (Context-aware visibility).
+2. **Bookmark Kernel (Index Card Method):** For high-frequency routines (Daily/Weekly). The card doubles as a primary bookmark. (Zero friction, immediate presentation).
     - **State Management:** Tick off steps with a pencil; erase to reset.
-3.  **Hardware Integration:** Attach instructions to existing hardware (e.g., pencil board, ruler).
+3. **Hardware Integration:** Attach instructions to existing hardware (e.g., pencil board, ruler).
 
 ---
 
@@ -213,9 +216,9 @@ You do not finish thinking when you have an answer; you finish when you have a *
 
 To qualify as a "Next Test," an action must meet three criteria:
 
-1.  **Atomic Scope:** The smallest possible unit of work (<15 mins).
-2.  **Binary Outcome:** It must Pass or Fail. (e.g., "Did the script return error 401? Yes/No").
-3.  **Learning Objective:** Focus on *information gain*, not just output.
+1. **Atomic Scope:** The smallest possible unit of work (<15 mins).
+2. **Binary Outcome:** It must Pass or Fail. (e.g., "Did the script return error 401? Yes/No").
+3. **Learning Objective:** Focus on *information gain*, not just output.
 
 ### The Refactoring Logic (Thinking -> Testing)
 
@@ -229,13 +232,13 @@ To qualify as a "Next Test," an action must meet three criteria:
 
 [[Logic Does Not Produce Dopamine|Logic does not produce dopamine]]. To generate the energy for execution, you must convert "Work" (Boring Command) into "Inquiry" (Interesting Question). Use these 3 Energy Hacks to "Refactor" boring tasks:
 
-1.  **The "Mystery" Hack (Hypothesis):** Refactor a chore into a bet.
+1. **The "Mystery" Hack (Hypothesis):** Refactor a chore into a bet.
     - *Boring:* "Update CSS."
     - *Ignition:* "Hypothesis: I can break the layout if I change padding to 50px. Does the flexbox hold?"
-2.  **The "Time Trial" Hack (Urgency):** Refactor an infinite task into a binary sprint.
+2. **The "Time Trial" Hack (Urgency):** Refactor an infinite task into a binary sprint.
     - *Boring:* "Clear inbox."
     - *Ignition:* "Can I process 10 items in 3 minutes? Binary Outcome: Yes/No."
-3.  **The "Spite" Hack (Logic Linter):** Refactor compliance into rebellion.
+3. **The "Spite" Hack (Logic Linter):** Refactor compliance into rebellion.
     - *Boring:* "Write scope."
     - *Ignition:* "Open a HEAD note and argue why this project is stupid." (Frustration generates heat, which can be channeled into solving the problem).
 
@@ -266,9 +269,10 @@ To fix "Version Control Failure," the retrieval system must enforce the "Master 
 - **The Promise:** When you search for a topic, you should see **one result**: The SoT. You can blindly trust it because you know you *always* merge to Master.
 
 ### The Retrieval Algorithm
-1.  **Specific Topic:** Search directly for the **SoT** (e.g., "ProdOS SoT"). This is the source of truth.
-2.  **Broad Topic:** Start with the **MOC**. It provides the context and links to the correct SoTs.
-3.  **System View:** Use **Base Files** (`.base`) as dashboards to see the high-level state of the vault.
+
+1. **Specific Topic:** Search directly for the **SoT** (e.g., "ProdOS SoT"). This is the source of truth.
+2. **Broad Topic:** Start with the **MOC**. It provides the context and links to the correct SoTs.
+3. **System View:** Use **Base Files** (`.base`) as dashboards to see the high-level state of the vault.
 
 ### The Organization Logic (Feed, Don't Compete)
 
@@ -287,10 +291,11 @@ The system is not static; it requires active maintenance to prevent "Trust Decay
 > **Philosophy:** "No problem is a problem." If you don't find friction, you are blind to it.
 
 ### The Weekly Hansei Protocol (Kaizen & Ikigai)
-1.  **Identify Friction (Deconstruct):** Analyze where the system failed without judgment ("Logic over Force"). View the failure as a neutral pattern, not a moral failing.
-2.  **Adjust Process (Kaizen):** Do not blame willpower. Apply the **1% Rule**.
+
+1. **Identify Friction (Deconstruct):** Analyze where the system failed without judgment ("Logic over Force"). View the failure as a neutral pattern, not a moral failing.
+2. **Adjust Process (Kaizen):** Do not blame willpower. Apply the **1% Rule**.
     - *Adjustment:* "I missed writing 3 times. Fix: Write for just 2 minutes (MVH) at 8 AM." (Small, non-threatening change to bypass resistance).
-3.  **Verify Alignment (Ikigai):** Check if actions align with your *Reason for Being*.
+3. **Verify Alignment (Ikigai):** Check if actions align with your *Reason for Being*.
     - *Check:* "Does this task serve my core values, or is it just 'busy work' filling a vacuum?"
 
 ---
@@ -301,18 +306,20 @@ The system is not static; it requires active maintenance to prevent "Trust Decay
 Most planning systems fail because they oscillate between **Strategic Goals** (Top) and **Execution Tasks** (Bottom), ignoring the **Maintenance Layer** that actually sustains life. This creates "boom and bust" cycles where goal pursuit cannibalizes basic infrastructure.
 
 ### The Architecture
-1.  **Strategic Layer (Top-Down):** Goals, Vision, 12-Week Plans. Provides *direction*. Heavy; requires a solid foundation.
-2.  **Maintenance Layer (The Missing Link):** Recurring operations (Health, Finance, Home). Provides *stability*.
+
+1. **Strategic Layer (Top-Down):** Goals, Vision, 12-Week Plans. Provides *direction*. Heavy; requires a solid foundation.
+2. **Maintenance Layer (The Missing Link):** Recurring operations (Health, Finance, Home). Provides *stability*.
     - **Logic:** This is the non-negotiable "burn rate" of your life.
     - **Rule:** **Capacity Regulation.** You must subtract Maintenance time *first*. `Capacity = Total Time - Maintenance`.
-3.  **Execution Layer (Bottom-Up):** Ad-hoc tasks, errands, inputs. Provides *responsiveness*.
+3. **Execution Layer (Bottom-Up):** Ad-hoc tasks, errands, inputs. Provides *responsiveness*.
     - **Optimisation:** Batch by Context (Calls, Errands), not by Life Area.
 
 ### The Algorithm for Stability
-1.  **Define Areas:** Identify the buckets (e.g., Health, Wealth).
-2.  **Quantify Maintenance:** Determine the recurring cost to keep these valid.
-3.  **Determine Net Capacity:** Remaining bandwidth is allocated to Strategy/Goals.
-4.  **Batch Execution:** Handle one-off tasks via Context.
+
+1. **Define Areas:** Identify the buckets (e.g., Health, Wealth).
+2. **Quantify Maintenance:** Determine the recurring cost to keep these valid.
+3. **Determine Net Capacity:** Remaining bandwidth is allocated to Strategy/Goals.
+4. **Batch Execution:** Handle one-off tasks via Context.
 
 ---
 
@@ -322,6 +329,7 @@ Most planning systems fail because they oscillate between **Strategic Goals** (T
 - **Confidence Gap:** The system's trustworthiness depends entirely on the discipline of adhering to the synthesis loop. If `HEAD` notes proliferate without being integrated into `SoT` notes, trust decays.
 
 ## 13. Related Components
+
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
 - [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
 - [[SoT - PRODOS - Action Management (GTD)]]
@@ -337,11 +345,13 @@ Most planning systems fail because they oscillate between **Strategic Goals** (T
 ## 14. Status & Roadmap
 
 **Current Status:** ProdOS v5.0 is considered **production-ready**.
+
 - **Core:** Architecture consolidated and operational.
 - **Integrations:** Obsidian-Todoist bidirectional sync is robust. Jira data ingestion is functional (pending auth fix).
 - **Operations:** Phase 1 commands (`/daily-plan`, `/engage-action`) are live.
 
 **Roadmap:**
+
 - **Phase 2:** Automated background sync and system synchronization.
 - **Phase 3:** Advanced AI decision support (energy-aware task selection).
 - **Phase 4:** Smart capture processing and proactive notifications.

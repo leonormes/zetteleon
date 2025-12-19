@@ -28,5 +28,6 @@ updated: 2025-10-31
 - `example-of::` [[I have a lot of shame about my life]]
 
 > **Status gates**
+>
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.

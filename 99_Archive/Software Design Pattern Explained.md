@@ -36,13 +36,18 @@ From a software architect's perspective, a Monad is a mechanism that decouples *
 Every Monad consists of three fundamental primitives:
 
 1. **The Wrapper (Type Constructor):** A generic type `M<T>` that adds context to a raw type `T`.
-	- *Example:*`Option<T>`, `Promise<T>`, `List<T>`.
+
+- *Example:*`Option<T>`, `Promise<T>`, `List<T>`.
+
 2. **The Wrap Function (Unit/Pure/Return):** A constructor that lifts a raw value `T` into the monadic context `M<T>`.
-	- *Example:*`Some(value)`, `Promise.resolve(value)`.
+
+- *Example:*`Some(value)`, `Promise.resolve(value)`.
+
 3. **The Run Function (Bind/FlatMap/ `>>=`):** The core operator that enables chaining. It accepts:
-	- A wrapped value `M<T>`.
-	- A transformation function `f: T -> M<U>`.
-	- *Logic:* It unwraps `M<T>`, handles the specific logic of the context (e.g., checking for null, concatenating logs), applies `f` to `T`, and returns the new `M<U>`.
+
+- A wrapped value `M<T>`.
+- A transformation function `f: T -> M<U>`.
+- *Logic:* It unwraps `M<T>`, handles the specific logic of the context (e.g., checking for null, concatenating logs), applies `f` to `T`, and returns the new `M<U>`.
 
 ## Mental Model: The Alternating Flow
 
@@ -58,17 +63,17 @@ The **Bind** function acts as the bridge, constantly switching between these two
 The video details four specific Monad implementations and the complexity they abstract:
 
 - **Writer Monad (`NumberWithLogs`):**
-	- *Context:* Accumulating an audit trail or log.
-	- *Abstraction:* Hides the manual concatenation of log arrays between function calls, allowing simple arithmetic functions to essentially "carry" a log history automatically \[[11:22](http://www.youtube.com/watch?v=C2w45qRc3aU&t=682)\].
+  - *Context:* Accumulating an audit trail or log.
+  - *Abstraction:* Hides the manual concatenation of log arrays between function calls, allowing simple arithmetic functions to essentially "carry" a log history automatically \[[11:22](http://www.youtube.com/watch?v=C2w45qRc3aU&t=682)\].
 - **Option Monad (Maybe):**
-	- *Context:* Missing values (`null` / `undefined`).
-	- *Abstraction:* Replaces defensive coding (guard clauses, `if != null`) with a pipeline that automatically short-circuits if a value is missing (`None`), effectively preventing runtime null pointer exceptions \[[06:08](http://www.youtube.com/watch?v=C2w45qRc3aU&t=368)\].
+  - *Context:* Missing values (`null` / `undefined`).
+  - *Abstraction:* Replaces defensive coding (guard clauses, `if != null`) with a pipeline that automatically short-circuits if a value is missing (`None`), effectively preventing runtime null pointer exceptions \[[06:08](http://www.youtube.com/watch?v=C2w45qRc3aU&t=368)\].
 - **Future Monad (Promise):**
-	- *Context:* Time-dependent availability (Asynchrony).
-	- *Abstraction:* Encapsulates the callback hell and scheduling mechanisms. The user operates on the future value as if it were present, while the Monad handles the "when" \[[11:36](http://www.youtube.com/watch?v=C2w45qRc3aU&t=696)\].
+  - *Context:* Time-dependent availability (Asynchrony).
+  - *Abstraction:* Encapsulates the callback hell and scheduling mechanisms. The user operates on the future value as if it were present, while the Monad handles the "when" \[[11:36](http://www.youtube.com/watch?v=C2w45qRc3aU&t=696)\].
 - **List Monad:**
-	- *Context:* Nondeterminism or branching computation.
-	- *Abstraction:* Represents parallel universes or multiple possibilities. `FlatMap` here is literally `map` followed by `flatten`. It allows operations on a single value to be broadcast across all possible values in the list \[[12:07](http://www.youtube.com/watch?v=C2w45qRc3aU&t=727)\].
+  - *Context:* Nondeterminism or branching computation.
+  - *Abstraction:* Represents parallel universes or multiple possibilities. `FlatMap` here is literally `map` followed by `flatten`. It allows operations on a single value to be broadcast across all possible values in the list \[[12:07](http://www.youtube.com/watch?v=C2w45qRc3aU&t=727)\].
 
 <https://youtu.be/t1e8gqXLbsU?si=pnRC>\_P-jmvHXKc0p
 
@@ -100,8 +105,9 @@ The repetitive error-handling logic is extracted into two primitives:
 
 1. **Return (Unit):** Bridges the pure world to the impure world. It wraps a value `a` into `Maybe a` (e.g., `5` -> `Just 5`) \[[16:00](http://www.youtube.com/watch?v=t1e8gqXLbsU&t=960)\].
 2. **Bind (Sequencing operator `>>=`):** Defines how to chain operations.
-	- *Input:* A value that might fail (`Maybe a`) and a function that takes a success value (`a -> Maybe b`).
-	- *Logic:* It inspects the input. If `Nothing`, it propagates `Nothing`. If `Just a`, it feeds `a` into the function.
+
+- *Input:* A value that might fail (`Maybe a`) and a function that takes a success value (`a -> Maybe b`).
+- *Logic:* It inspects the input. If `Nothing`, it propagates `Nothing`. If `Just a`, it feeds `a` into the function.
 
 ### 4\. Syntactic Sugar: Do Notation
 
@@ -134,11 +140,12 @@ From an architectural standpoint, the Monad shifts the focus from **imperative i
 ## Problem & Solution: The Null Check Pattern
 
 - **The Anti-Pattern:** A sequence of function calls where the output of one is the input of the next (e.g., `getBestFriend(getUser(id))`). If any link in the chain returns `null` or fails, the subsequent function crashes.
-	- *Implementation Cost:* The code becomes polluted with verbose "if not null" checks after every single operation \[[00:32](http://www.youtube.com/watch?v=VgA4wCaxp-Q&t=32)\].
+  - *Implementation Cost:* The code becomes polluted with verbose "if not null" checks after every single operation \[[00:32](http://www.youtube.com/watch?v=VgA4wCaxp-Q&t=32)\].
 - **The Monadic Solution:**
-	1. **Wrapper Class (`Maybe`):** A class that encapsulates the value.
-	2. **Bind Method:** A single point of control that accepts a function, applies it to the encapsulated value, and returns a *new* wrapped instance \[[00:54](http://www.youtube.com/watch?v=VgA4wCaxp-Q&t=54)\].
-	3. **Centralised Logic:** The null-checking logic is moved *inside* the `bind` method. If the inner value is null, `bind` short-circuits and returns itself without running the passed function.
+
+ 1. **Wrapper Class (`Maybe`):** A class that encapsulates the value.
+ 2. **Bind Method:** A single point of control that accepts a function, applies it to the encapsulated value, and returns a *new* wrapped instance \[[00:54](http://www.youtube.com/watch?v=VgA4wCaxp-Q&t=54)\].
+ 3. **Centralised Logic:** The null-checking logic is moved *inside* the `bind` method. If the inner value is null, `bind` short-circuits and returns itself without running the passed function.
 
 ## Key Architectural Takeaways
 
@@ -150,4 +157,4 @@ Google Account
 
 Leon Ormes
 
-leonormes@gmail.com
+<leonormes@gmail.com>

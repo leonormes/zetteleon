@@ -34,11 +34,13 @@ Currently, ProdOS has `Projects` and `SoT`s. Rocks are likely a specific *type* 
 They need high visibility.
 
 ### The Tension
+
 - **Visibility:** Projects are often hidden in folders. Rocks need to be "in my face" to ensure quarterly alignment.
 - **Connection:** How does a Rock relate to the daily tasks?
 - **Review:** How do I review progress on Rocks vs. just ticking off tasks?
 
 ### The Next Test
+
 - [ ] Define a "Rock" attribute in the Project Template (or a separate Rock Template).
 - [ ] Create a "Quarterly Dashboard" note that lists the current 3-5 Rocks.
 - [ ] Link one active Project to a Rock and visualize the hierarchy.

@@ -20,11 +20,13 @@ updated:
 ## Active Listening De-escalates Conflict
 
 **Mechanisms:**
+
 - Validates speaker's perspective
 - Slows emotional escalation
 - Creates collaborative atmosphere
 
 **Key Practices:**
+
 - Paraphrasing before responding
 - Asking clarifying questions
 - Avoiding defensive language

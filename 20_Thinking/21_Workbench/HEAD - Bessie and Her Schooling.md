@@ -34,6 +34,7 @@ Zofja has her view which affect the responses she has to Bessie's behaviour. I t
 > Bessie is sitting in the dark playing the same game daily. She is ignoring GCSEs. I feel depressed watching it because it mirrors my own struggles with avoidance.
 
 ## 🧠 My Current Model (The Diagnosis)
+
 - **Observation:** She avoids work to play games.
 - **Assumption A (The Behaviour):** This is "[[HEAD - Learned Helplessness]]." She is training herself to choose the easy path.
 - **Assumption B (The Projection):** She is doing this because she is like me (inheriting my problems).
@@ -41,10 +42,12 @@ Zofja has her view which affect the responses she has to Bessie's behaviour. I t
 - assumption D: When I try to explain things out goes on one ear and it the other. Bessie didn't like just listening. Maybe she prefers doing to learn [[HEAD - But My Brain Understands by Doing]]
 
 ## ⚔️ The Tension (The Conflict)
+
 - **Internal:** I want her to have agency, but I am afraid to enforce rules because I fear conflict/rejection.
 - **External:** Zofja is "Reactive" (High Entropy response), whereas I want a "Level-headed" (Structured response). These two systems are fighting, sending mixed signals to Bessie.
 - **The Gap:** We want "Agency" (her choosing to work), but we are considering "Coercion" (forcing her to work). These are opposites.
 
 ## 🧪 Next Test (The Experiment)
+
 - [To be defined in Step 3]
 I could try 'explaining' my ideas in a different way. Show her an example. Find a way to start the portfolio? Set up the photo workflow.

@@ -24,8 +24,9 @@ updated:
 > The **Neurodivergent Internal World** is a high-fidelity simulation engine where complex, non-linear ideas ("Soap Bubble Models") are constructed. While internally brilliant, these models are paradoxically **fragile**.
 >
 > This fragility stems from two sources:
-> 1.  **The Illusion of Profundity:** The internal model feels more complete than it is because it is scaffolded by private emotions and narratives.
-> 2.  **Rejection Sensitive Dysphoria (RSD):** A neurobiological hypersensitivity where external critique is not processed as data, but as a physical threat to the self.
+>
+> 1. **The Illusion of Profundity:** The internal model feels more complete than it is because it is scaffolded by private emotions and narratives.
+> 2. **Rejection Sensitive Dysphoria (RSD):** A neurobiological hypersensitivity where external critique is not processed as data, but as a physical threat to the self.
 
 ---
 
@@ -59,9 +60,9 @@ For the ADHD mind, rejection is not just unpleasant; it is **catastrophic**.
 
 - **The Result:** A minor critique of an *idea* is experienced as a total rejection of the *person*. This leads to:
 
-    - **Avoidance:** Refusing to share ideas to stay safe.
+  - **Avoidance:** Refusing to share ideas to stay safe.
 
-    - **People Pleasing:** Diluting unique ideas to ensure they are "acceptable."
+  - **People Pleasing:** Diluting unique ideas to ensure they are "acceptable."
 
 ---
 
@@ -81,16 +82,19 @@ How to bridge the gap without popping the bubble.
 
 ### Protocol A: Private Externalization (The First Filter)
 *Never take a raw idea directly to a critic.*
+
 - **Action:** Write the idea down for *yourself* first.
 - **Why:** Writing forces the "Illusion of Profundity" to collapse in private. You can see the gaps and fix them without the shame of public exposure.
 
 ### Protocol B: The Trusted Circle
 *Curate your feedback loops.*
+
 - **Action:** Share early-stage ideas *only* with people who understand the "Yes, and..." principle of brainstorming.
 - **Rule:** Explicitly frame the request: "This is a fragile, early-stage concept. I am looking for expansion, not critique right now."
 
 ### Protocol C: Self-Compassion as Armor
 *Countering the inner critic.*
+
 - **Insight:** The pain of RSD is real, but it is a *glitch*, not the truth.
 - **Mantra:** "My idea is separate from my worth. A flaw in the model is not a flaw in me."
 

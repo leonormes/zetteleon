@@ -32,6 +32,7 @@ The canonical system for managing actions is defined here:
 - **[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]**: The theoretical model of how Action (A), Context (C), and Thought (T) interact.
 
 **How ProdOS Helps:**
+
 - **Separation of Concerns:** Prevents "ToDo List Clutter" by keeping thinking in Obsidian and actions in Todoist.
 - **Context Preservation:** Uses the **Context Bridge** to link Todoist tasks back to the Obsidian note, solving the "What was I doing?" problem.
 - **Refinement:** Uses the LLM to "lint" vague tasks into atomic next actions before they enter the runtime.
@@ -66,6 +67,7 @@ Techniques to lower activation energy and start moving.
 - **[[Implementation Intentions Automate Action Initiation with If-Then Plans]]**: Pre-deciding when and where to act.
 
 ### 5. Related Concepts
+
 - **[[SoT - Bridging the Intention-Action Gap]]**: The philosophical gap between "wanting" and "doing."
 - **[[MOC - Time Boxing for ADHD Brains]]**: Using time constraints to force focus.
 - **[[Distraction Management in Timeboxing (Catch-All List)]]**: Handling interruptions during action blocks.

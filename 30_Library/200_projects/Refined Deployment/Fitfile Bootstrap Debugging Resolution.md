@@ -29,9 +29,10 @@ We successfully debugged and deployed the `fitfile-bootstrap` Terraform project.
 **Issue:** Terraform failed to create the namespace `deployments/lca-prd-2` because `VAULT_NAMESPACE` was defaulting to root, but the token was for HCP.
 **Root Cause:** HCP Vault requires operations to be contextually rooted in the `admin` namespace. Additionally, trying to create `deployments/child` directly from `admin` failed manual validation.
 **Fix:**
-1.  **Environment:** Set `export VAULT_NAMESPACE="admin/deployments"` to target the parent directly.
-2.  **Code:** Updated `modules/vault-state/main.tf` to create a namespace with relative path `lca-prd-2` instead of absolute path `deployments/lca-prd-2`.
-3.  **State:** Manually created the namespace via CLI and used `terraform import` to align state.
+
+1. **Environment:** Set `export VAULT_NAMESPACE="admin/deployments"` to target the parent directly.
+2. **Code:** Updated `modules/vault-state/main.tf` to create a namespace with relative path `lca-prd-2` instead of absolute path `deployments/lca-prd-2`.
+3. **State:** Manually created the namespace via CLI and used `terraform import` to align state.
 
 #### 2. Grafana `409 Conflict` (Resource Not Found)
 **Issue:** The `grafana_cloud_access_policy_token` resource failed with "Resource not found" even after adding a 60s sleep.

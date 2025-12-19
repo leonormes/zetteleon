@@ -24,5 +24,6 @@ updated: 2025-10-30T15:07:41Z
 **Details:** Inspired by Ernest Hemingway's writing practice, this technique involves stopping work while momentum is still present rather than pushing to complete a section. By leaving a clear, specific point of incompletion—an unfinished sentence, a partially-solved problem, or an explicit question—you give your mind something concrete to process during breaks and sleep. The subconscious continues developing ideas and making connections even when not actively working. When you return to the task, you have a clear re-entry point and often find that problems that felt stuck have resolved or new approaches have emerged. This is particularly effective when captured with pen and paper at session end, creating an external anchor for the mental state.
 
 > **Status gates**
+>
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.

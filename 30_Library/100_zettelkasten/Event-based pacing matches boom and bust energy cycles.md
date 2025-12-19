@@ -25,5 +25,6 @@ Event-based pacing systems can match the natural "boom and bust" energy cycles c
 By using event completion rather than clock time as transition markers, mini routines accommodate this variability: a high-energy morning might flow through multiple productive blocks before lunch, while a low-energy morning might consolidate to essential tasks only. The structure persists while the intensity adapts to actual capacity.
 
 ## Related
+
 - [[Mini routines improve consistency through flexible adaptation]]
 - [[Event-based anchor points use activities as natural transitions]]

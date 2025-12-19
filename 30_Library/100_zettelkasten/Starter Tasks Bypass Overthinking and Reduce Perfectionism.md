@@ -22,10 +22,10 @@ Starter tasks are effective because they trigger a cognitive shift away from the
 
 ## How Starter Tasks Work
 
-1.  **Builds Momentum:** In physics, an object in motion tends to stay in motion. The same applies to human behavior. A small, completed action creates momentum that makes it easier to transition into the next, slightly larger action.
-2.  **Creates a Dopamine Hit:** Completing any task, no matter how small, provides a small release of dopamine. For the dopamine-deficient ADHD brain, this reward makes continuing the overall task more appealing.
-3.  **Bypasses Overthinking:** A starter task is so small and simple (e.g., "Open a document") that there is nothing to overthink or plan. It short-circuits the analysis paralysis that often prevents a task from starting.
-4.  **Reduces Perfectionism:** It is impossible to be a perfectionist about a binary action like "opening a file." The task is either done or not done. This removes the pressure of having to do the *entire* task perfectly from the outset.
+1. **Builds Momentum:** In physics, an object in motion tends to stay in motion. The same applies to human behavior. A small, completed action creates momentum that makes it easier to transition into the next, slightly larger action.
+2. **Creates a Dopamine Hit:** Completing any task, no matter how small, provides a small release of dopamine. For the dopamine-deficient ADHD brain, this reward makes continuing the overall task more appealing.
+3. **Bypasses Overthinking:** A starter task is so small and simple (e.g., "Open a document") that there is nothing to overthink or plan. It short-circuits the analysis paralysis that often prevents a task from starting.
+4. **Reduces Perfectionism:** It is impossible to be a perfectionist about a binary action like "opening a file." The task is either done or not done. This removes the pressure of having to do the *entire* task perfectly from the outset.
 
 ## The Cognitive Shift
 

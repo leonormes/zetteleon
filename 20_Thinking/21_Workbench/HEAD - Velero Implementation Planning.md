@@ -24,18 +24,21 @@ Task: "Create velero implementation tickets".
 We need a robust backup solution for our Kubernetes clusters (Work & Hutch).
 
 ## My Current Model
+
 - **Tool:** Velero is the standard.
 - **Target:** Backup to S3/Azure Blob Storage.
 - **Scope:** Disaster Recovery (Cluster loss) and Snapshotting (StatefulSets).
 
 ## The Tension
+
 - **Configuration:** Needs cloud credentials (Identity Workload?).
 - **Testing:** Backups are useless without restore tests.
 - **Tickets:** I need to break this down into actionable chunks (Install, Configure Storage, Backup Schedule, Test Restore).
 
 ## The Next Test
+
 - [ ] Draft the list of implementation steps (The "Tickets").
-    1.  Prerequisites (Bucket, Identity).
-    2.  Helm Chart Configuration.
-    3.  Schedule Definition.
-    4.  Restore Drill.
+    1. Prerequisites (Bucket, Identity).
+    2. Helm Chart Configuration.
+    3. Schedule Definition.
+    4. Restore Drill.

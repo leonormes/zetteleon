@@ -21,16 +21,16 @@ updated:
 To avoid always seeing yellow or red in YNAB when you can't act (since you get paid on the last day of the month and bills hit on the first), use these **pro strategies**:
 
 1. **Set Targets for the 1st**
-    
+
     - For all bills due on the 1st, set their YNAB target to be funded by the 1st, not the end of the previous month.
     - This way, after your payday hits, you'll fund these categories right before the bills leave, keeping things "green" instead of warning you too early.
-        
+
 2. **Use the “Snooze Target” Feature**
-    
+
     - If you know a bill can't be funded until payday, use YNAB’s “snooze” target on that category. This temporarily “turns off” the underfunded warning for this month and reactivates the goal next month. You only see warnings when you can take action.
-        
+
 3. **Workflow Summary:**
-    
+
     - **Step 1:** Identify all bills paid on the 1st.
     - **Step 2:** Set each bill’s YNAB target date for the 1st.
     - **Step 3:** As soon as you get paid, fund these categories.

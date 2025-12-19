@@ -20,11 +20,13 @@ updated:
 ## Cognitive Reframing of Criticism
 
 **Summary:** Transform criticism perception by:
+
 - Viewing as free coaching
 - Separating message from delivery
 - Focusing on actionable elements
 
 **Techniques:**
+
 - "This helps me improve X"
 - "What part can I control?"
 - "Is there a pattern to address?"

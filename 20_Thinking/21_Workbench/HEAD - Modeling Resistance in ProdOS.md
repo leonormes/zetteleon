@@ -34,10 +34,12 @@ High resistance tasks often get skipped for "easier" tasks, even if they are hig
 Identifying resistance might change how I schedule or break down a task.
 
 ### The Tension
+
 - **Subjectivity:** Resistance is a feeling, not a hard metric. How do I record it?
 - **Actionability:** If I label a task "High Resistance", what does the system *do* about it?
 - **Avoidance:** Will labeling it just make me avoid it more?
 
 ### The Next Test
+
 - [ ] Add a `resistance` field (Low, Med, High) to the Project or Task frontmatter.
 - [ ] Create a view/query that highlights "High Resistance" items and suggests a "Micro-Step" breakdown strategy for them.

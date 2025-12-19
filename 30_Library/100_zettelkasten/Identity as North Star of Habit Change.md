@@ -23,17 +23,20 @@ version: 1
 **Why Identity Is the North Star:**
 
 **1. Provides Direction:**
+
 - Goals tell you where to go temporarily
 - Identity tells you who to be permanently
 - Systems tell you what to do repeatedly
 - Identity integrates all three and provides lasting direction
 
 **2. Determines Trajectory:**
+
 - With goal-focus: Progress stops when goal is reached
 - With identity-focus: Progress continues because you're embodying who you are
 - Identity sets the *direction* of travel, not just a destination
 
 **3. Maintains Commitment:**
+
 - Goals: "I want to run a marathon" → Commitment until marathon is complete
 - Identity: "I am a runner" → Commitment is ongoing, independent of any single event
 
@@ -49,14 +52,17 @@ Just as sailors use the North Star for navigation rather than as a destination:
 **Practical Application:**
 
 **When facing a decision:**
+
 - Goal-based: "Will this help me achieve my goal?"
 - Identity-based: "What would the person I want to become do in this situation?"
 
 **When maintaining habits:**
+
 - Goal-based: Motivation fades after achievement
 - Identity-based: Motivation persists because you're being yourself
 
 **When encountering obstacles:**
+
 - Goal-based: May abandon habit if goal becomes impossible
 - Identity-based: Adapt the process while maintaining identity
 

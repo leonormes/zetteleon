@@ -23,6 +23,7 @@ version: 1
 **Relationship to Probability:** While probability theory develops abstract models of randomness, statistics applies these models to real-world data to extract meaningful patterns and test hypotheses.
 
 **Core Activities:**
+
 - **Descriptive statistics:** Summarizing and visualizing data
 - **Inferential statistics:** Drawing conclusions about populations from samples
 - **Hypothesis testing:** Evaluating claims using statistical evidence

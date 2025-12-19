@@ -22,6 +22,7 @@ updated:
 **Summary:** DNS resource records (RRs) associate domain names (keys) with structured data (values) in a standardized format.
 
 **Common RR Types:**
+
 - **A/AAAA:** IP addresses
 - **CNAME:** Domain aliases
 - **MX:** Mail servers with priorities

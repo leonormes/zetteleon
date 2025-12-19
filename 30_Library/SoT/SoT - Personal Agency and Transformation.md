@@ -46,7 +46,7 @@ Radical transformation follows a logical progression from "Rock Bottom" to "High
 
 - **Protocol:** **Say "Yes" to Everything.**
 
-    - *Why:* In the early phase, you cannot predict high-value opportunities. Maximizing surface area (connections, events, skills) increases the probability of a "Black Swan" positive event.
+  - *Why:* In the early phase, you cannot predict high-value opportunities. Maximizing surface area (connections, events, skills) increases the probability of a "Black Swan" positive event.
 
 - **Accelerated Learning:** The loss of pride allows you to ask "dumb" questions ("Can you explain this to me like I'm 5?"), bypassing the "Understanding Illusion" that slows down others.
 
@@ -54,12 +54,12 @@ Radical transformation follows a logical progression from "Rock Bottom" to "High
 
 Once momentum is established, apply these three rules to sustain high agency:
 
-1.  **Assume Everything is Learnable:**
+1. **Assume Everything is Learnable:**
     - *Refactoring:* Treat "traits" (Optimism, Charisma, Confidence) as "Skills." If it can be learned, it can be mastered with focused effort.
-2.  **Court Rejection (Calibration):**
+2. **Court Rejection (Calibration):**
     - *Protocol:* Aim for goals that feel "unreasonable."
     - *Logic:* You do not know your true limits. You must hit the wall to find where it actually is. Most constraints are imaginary.
-3.  **Seek Real Feedback (Error Correction):**
+3. **Seek Real Feedback (Error Correction):**
     - *Protocol:* Bypass social friction. Use an **Anonymous Feedback Box** or ask: "What is the one thing holding me back that you're afraid to tell me?"
     - *Output:* Crucial, often obvious data about your blind spots.
 

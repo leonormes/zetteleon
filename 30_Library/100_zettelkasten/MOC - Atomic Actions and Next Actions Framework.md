@@ -38,10 +38,10 @@ An atomic action, often called a Next Action in GTD methodology, is the smallest
 
 [[Atomic Actions Have Four Core Properties]] rel:: specifies-requirements that distinguish well-formed actions from vague intentions:
 
-1.  **Indivisible (Atomic):** Cannot be broken down further while remaining meaningful.
-2.  **Physical & Visible:** Must be a real-world activity producing observable change.
-3.  **Unambiguous Definition of Done:** [[Atomic Action Completion Must Be Binary and Instantly Verifiable|Completion must be binary (0 or 1) and instantly verifiable]].
-4.  **Context-Specific:** [[Atomic Actions Are Context-Specific|Tied to a specific tool, location, or person]] required to complete it.
+1. **Indivisible (Atomic):** Cannot be broken down further while remaining meaningful.
+2. **Physical & Visible:** Must be a real-world activity producing observable change.
+3. **Unambiguous Definition of Done:** [[Atomic Action Completion Must Be Binary and Instantly Verifiable|Completion must be binary (0 or 1) and instantly verifiable]].
+4. **Context-Specific:** [[Atomic Actions Are Context-Specific|Tied to a specific tool, location, or person]] required to complete it.
 
 An action can be formally modeled as a function: [[An Action Can Be Formally Modeled as a State Transformation Function]].
 

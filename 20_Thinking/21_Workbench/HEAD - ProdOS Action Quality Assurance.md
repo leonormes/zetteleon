@@ -32,10 +32,12 @@ The system (ProdOS) currently accepts any input I give it. It assumes I am an ex
 The "Action Linter" concept: The system should act as a coach, rejecting or flagging vague inputs.
 
 ### The Tension
+
 - **Friction vs. Quality:** If the system rejects my quick capture, I might stop capturing (high friction).
 - **Automation:** How can the LLM identify "poor definition" reliably?
 - **Correction:** Should it auto-fix it (guess) or ask me?
 
 ### The Next Test
+
 - [ ] Create a "Linter Prompt" that takes a list of tasks and identifies ones missing a concrete verb or specific object.
 - [ ] Run this prompt against my current `ProdOS.csv` export to see if it correctly identifies "bad" tasks.

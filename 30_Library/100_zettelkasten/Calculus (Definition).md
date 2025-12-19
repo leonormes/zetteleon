@@ -23,6 +23,7 @@ version: 1
 **Foundational Pattern:** Calculus captures the pattern of continuous change—how things move, grow, and vary smoothly over time or space.
 
 **Core Operations:**
+
 - **Differentiation:** Finding instantaneous rates of change (slopes, velocities)
 - **Integration:** Accumulating quantities over intervals (areas, total distances)
 

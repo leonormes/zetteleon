@@ -58,5 +58,6 @@ version: 1
 
 **Original Context:**
 Junebugging works *with* the ADHD brain's tendency to get distracted rather than fighting against it.
+
 - **Connections:** [[ADHD Mindset and Emotional Regulation Strategies]].
 - **Contrast:** Useful when [[Timeboxing as a To-Do List Alternative for ADHD]] feels too rigid.

@@ -26,20 +26,20 @@ This document outlines the process of creating an Azure account, detailing the s
 
 Creating an Azure account is typically initiated by a human user through the Azure portal or the Azure website. Here's a step-by-step breakdown of the process:
 
-1.  **Navigate to the Azure Sign-Up Page:** The user starts by visiting the official Azure website, usually by searching for "Azure sign up" or going directly to a URL like `azure.microsoft.com`.
-2.  **Initiate the Free Account or Paid Subscription Process:** Azure offers different types of subscriptions, including a free account with limited credits and paid subscriptions like "Pay-As-You-Go." The user selects the desired subscription type to begin.
-3.  **Provide Identity Information:** This is a critical step. The user needs to provide an identity to associate with the Azure account. This identity can be:
+1. **Navigate to the Azure Sign-Up Page:** The user starts by visiting the official Azure website, usually by searching for "Azure sign up" or going directly to a URL like `azure.microsoft.com`.
+2. **Initiate the Free Account or Paid Subscription Process:** Azure offers different types of subscriptions, including a free account with limited credits and paid subscriptions like "Pay-As-You-Go." The user selects the desired subscription type to begin.
+3. **Provide Identity Information:** This is a critical step. The user needs to provide an identity to associate with the Azure account. This identity can be:
     - **Microsoft Account (MSA):** A personal email address (like Outlook.com, Hotmail.com, or even Gmail, Yahoo, etc. linked to a Microsoft Account). If the user doesn't have one, they will be prompted to create one.
     - **Work or School Account (Organizational Account):** An email address provided by an organization that uses Microsoft 365 or Azure Active Directory (now Microsoft Entra ID). This is generally preferred for business use as it aligns with organizational identity management.
 
-4.  **Provide Personal/Organizational Details:** Depending on the subscription type and account type, the user will be asked to provide details such as:
+4. **Provide Personal/Organizational Details:** Depending on the subscription type and account type, the user will be asked to provide details such as:
     - **Name and Contact Information:** Personal details like name, email, phone number, and address.
     - **Organization Information (if applicable):** Organization name, address, and potentially tax information.
 
-5.  **Phone Verification:** Azure usually requires phone verification to confirm the user's identity. A verification code is sent via SMS to the provided phone number, which the user must enter on the website.
-6.  **Payment Information (for Paid Subscriptions):** For paid subscriptions, the user needs to provide credit card or other payment details. Free accounts might also require this for identity verification, although they are not initially charged.
-7.  **Accept Agreement:** The user must review and accept the Microsoft Azure agreement, which outlines the terms of service and legal conditions.
-8.  **Azure Account Creation Completes:** After completing these steps, the Azure account creation process is finalized. The user is typically redirected to the Azure portal.
+5. **Phone Verification:** Azure usually requires phone verification to confirm the user's identity. A verification code is sent via SMS to the provided phone number, which the user must enter on the website.
+6. **Payment Information (for Paid Subscriptions):** For paid subscriptions, the user needs to provide credit card or other payment details. Free accounts might also require this for identity verification, although they are not initially charged.
+7. **Accept Agreement:** The user must review and accept the Microsoft Azure agreement, which outlines the terms of service and legal conditions.
+8. **Azure Account Creation Completes:** After completing these steps, the Azure account creation process is finalized. The user is typically redirected to the Azure portal.
 
 ### Identity Requirements for Initial Azure Account Creation
 
@@ -133,7 +133,7 @@ This document outlines the process of identifying the initial Azure account crea
 
 ### Process to Identify the Initial Account Using Azure CLI
 
-1.  **Identify Global Administrators:** The initial tenant creator would have been assigned the Global Administrator role. List current Global Administrators and investigate their role assignment history.
+1. **Identify Global Administrators:** The initial tenant creator would have been assigned the Global Administrator role. List current Global Administrators and investigate their role assignment history.
 
 - **Using Azure CLI:**
 
@@ -152,7 +152,7 @@ az role assignment list --role "Global Administrator" --query "[].principalName"
 
 - Accounts that appear less likely to be regular day-to-day user accounts.
 
-2.  **Examine Audit Logs for Role Assignment:** For the potential initial accounts identified, query the Entra ID audit logs to find out when they were assigned the Global Administrator role. The account with the earliest role assignment is likely the initial creator.
+2. **Examine Audit Logs for Role Assignment:** For the potential initial accounts identified, query the Entra ID audit logs to find out when they were assigned the Global Administrator role. The account with the earliest role assignment is likely the initial creator.
 
 - **Using Azure CLI:**
 
@@ -186,7 +186,7 @@ az audit-log show --query "value[?operationName == 'Add role to user' && targetR
 
 - **Review the Output:** Run this command for each potential initial account from your Global Administrator list. Look at the `activityDateTime` column. The account with the **earliest timestamp** for the "Add role to user" event related to the "Global Administrator" role is the most probable initial tenant creator.
 
-3.  **Check Azure Subscription Account Administrators (Less Direct, Potentially Helpful):** In some cases, the initial account creator might also be the initial "Account Administrator" for the Azure subscription.
+3. **Check Azure Subscription Account Administrators (Less Direct, Potentially Helpful):** In some cases, the initial account creator might also be the initial "Account Administrator" for the Azure subscription.
 
     - **Using Azure CLI:**
 
@@ -202,7 +202,7 @@ az audit-log show --query "value[?operationName == 'Add role to user' && targetR
         - This command lists role assignments at the subscription scope for the "Account administrator" role.
         - **Review the Output:** Check if any accounts listed here align with your potential initial account creators. Note that the "Account administrator" role is less commonly used now, so this might not always provide definitive results.
 
-4.  **Consider Historical Documentation and Organizational Knowledge:**
+4. **Consider Historical Documentation and Organizational Knowledge:**
 
     - **Internal Documentation:** Search for any internal documentation from when your Azure tenant was first set up. This might include setup guides, onboarding documents, or IT records that could identify the person and account responsible for the initial Azure configuration.
 

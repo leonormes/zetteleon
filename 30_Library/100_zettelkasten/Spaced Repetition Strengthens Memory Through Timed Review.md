@@ -22,15 +22,18 @@ updated:
 **Summary:** Spaced repetition is a learning technique that involves reviewing information at gradually increasing intervals to optimize memory retention and combat the forgetting curve.
 
 **How it works:**
+
 1. First review: Immediately after learning
 2. Subsequent reviews: At increasing intervals (e.g., 1 day, 1 week, 1 month)
 3. Adjust timing based on recall accuracy
 
 **Benefits:**
+
 - More efficient than massed practice (cramming)
 - Moves information from short-term to long-term memory
 - Supported by digital tools like Anki or physical flashcard systems
 
 **Scientific basis:**
+
 - Leverages the psychological spacing effect
 - Aligns with the brain's natural memory consolidation processes

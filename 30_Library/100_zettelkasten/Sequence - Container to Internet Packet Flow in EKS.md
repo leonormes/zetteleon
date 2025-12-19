@@ -27,6 +27,7 @@ updated:
 5. [[Internet Gateway in AWS Networking]]
 
 **Key Points:**
+
 - Dual NAT (kube-proxy + AWS NAT)
 - VPC routing determines path
 - Return traffic maintains state

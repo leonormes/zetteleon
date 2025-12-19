@@ -27,6 +27,7 @@ updated:
 ## 2. Core Concepts
 
 ### A. The Inseparability of Thought and Language
+
 - **Linguistic Relativity (Sapir-Whorf Hypothesis):** The structure of a language affects its speakers' world view or cognition. Our language influences how we perceive and think about reality.
 - **Inner Speech:** The silent verbalization of thoughts plays a crucial role in cognitive processes, problem-solving, and self-regulation. It represents a bridge between raw thought and articulated expression.
 

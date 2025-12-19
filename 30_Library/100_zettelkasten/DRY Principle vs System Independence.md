@@ -20,10 +20,12 @@ updated:
 ## DRY Principle Vs System Independence
 
 **Summary:** The tension between:
+
 - DRY (Don't Repeat Yourself): Eliminate code duplication
 - Independence: Minimize cross-component dependencies
 
 **Resolution Heuristics:**
+
 1. Duplicate when interfaces differ
 2. Share when change patterns align
 3. Prefer duplication over wrong abstraction

@@ -65,9 +65,9 @@ For the ADHD brain, "stopping" is often permanent because the context evaporates
 
 To combat context loss, ProdOS enforces specific protocols to "save state" before exiting:
 
-1.  **The Parking Lot:** Never close a project without writing down the *exact* next step. "I stopped at X, the next action is Y."
-2.  **The Project Anchor:** Every project must have a "Current State" block in its dashboard. Reading this block should restore the mental model in < 60 seconds.
-3.  **Warm Start:** Automate the environment setup. A single command should open all necessary files and terminals, removing the friction of "getting ready to work."
+1. **The Parking Lot:** Never close a project without writing down the *exact* next step. "I stopped at X, the next action is Y."
+2. **The Project Anchor:** Every project must have a "Current State" block in its dashboard. Reading this block should restore the mental model in < 60 seconds.
+3. **Warm Start:** Automate the environment setup. A single command should open all necessary files and terminals, removing the friction of "getting ready to work."
 
 ---
 

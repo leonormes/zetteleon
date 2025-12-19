@@ -22,19 +22,24 @@ updated:
 ## MOC - Software Architecture Principles
 
 ### Foundational Principles
+
 - [[SoT - Namespacing in Computing]] rel:: supports
 
 ### Dependency Management
+
 - [[Dependency Problems Create Cascading Failures]] rel:: warns
 - [[Strategic Duplication Reduces System Coupling]] rel:: solution
 
 ### Design Principles
+
 - [[DRY Principle vs System Independence]] rel:: balances
 - [[SoT - Code Duplication and Refactoring]] rel:: improves_design
 - [[SoT - Information Hiding (Parnas)]] rel:: supports
 
 ### Related Concepts
+
 - [[Decoupling Ego from Outcomes to Improve Decisions]] rel:: mindset
 
 ### Related Visual Guides
+
 - [[Diagram - Philosophy-Productivity Connections]] (for mindset principles)

@@ -26,7 +26,7 @@ updated:
 > [!INFO] Environment Details
 >
 > - Subscription: NNUHFT-SDE
-> 
+>
 >   - Primary Location: UK South (London) 1*Public Egress IP: 20.162.236.86 2* Address Space: 192.168.200.0/24 3* Last Scan: 19 Nov 2025 4
 
 ### Resource Topology
@@ -113,11 +113,11 @@ graph TD
 > [!INFO] Scope of Access
 >
 > - **Target Scope:** Subscription `NNUHFT-SDE` (Root Level)
-> 
+>
 > - **Total Identities:** 11
-> 
+>
 > - **Detected Roles:** [[Owner]], [[Contributor]]
-> 
+>
 > - **Assessment Date:** 19 Nov 2025
 
 ### Role Capabilities

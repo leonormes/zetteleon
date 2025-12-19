@@ -76,8 +76,9 @@ This script will gather all the relevant details about the load balancer, its li
 1. **Save the file**: Save the first code block as `inspect_lb.sh`.
 2. **Make it executable**: Open your terminal and run `chmod +x inspect_lb.sh`.
 3. **Run it**:
- - To inspect the load balancer from your screenshot, simply run: `./inspect_lb.sh`
- - To inspect a different load balancer, provide its ARN as an argument: `./inspect_lb.sh arn:aws:elasticloadbalancing:us-east-1:123456789012:loadbalancer/net/my-other-lb/50dc6c495c0c9188`
+
+- To inspect the load balancer from your screenshot, simply run: `./inspect_lb.sh`
+- To inspect a different load balancer, provide its ARN as an argument: `./inspect_lb.sh arn:aws:elasticloadbalancing:us-east-1:123456789012:loadbalancer/net/my-other-lb/50dc6c495c0c9188`
 
 The script will print a formatted report in your terminal, and the markdown file provides a detailed explanation of what that information means for your traffic flow.
 

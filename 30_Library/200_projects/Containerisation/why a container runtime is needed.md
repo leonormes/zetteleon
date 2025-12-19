@@ -26,10 +26,10 @@ A container runtime is a software component responsible for creating, managing, 
 
 Linux namespaces and cgroups are low-level APIs. To create a container, you would need to manually:
 
-   - Set up namespaces (e.g., PID, network, mount, UTS).
-   - Configure cgroups to limit CPU, memory, etc.
-   - Manage filesystems (e.g., overlayfs for layered images).
-   - Handle process isolation and security policies (e.g., seccomp, AppArmor).
+- Set up namespaces (e.g., PID, network, mount, UTS).
+- Configure cgroups to limit CPU, memory, etc.
+- Manage filesystems (e.g., overlayfs for layered images).
+- Handle process isolation and security policies (e.g., seccomp, AppArmor).
 
 This is cumbersome and error-prone for developers. A runtime abstracts these steps into simple commands (e.g., `docker run`).
 
@@ -39,10 +39,10 @@ This is cumbersome and error-prone for developers. A runtime abstracts these ste
 
 A runtime handles the entire lifecycle of a container, including:
 
-   - Starting/Stopping: Spawning processes in isolated environments.
-   - Networking: Setting up virtual networks and port mappings.
-   - Storage: Mounting volumes and managing layered filesystems (e.g., container images).
-   - Logging & Monitoring: Collecting logs and metrics.
+- Starting/Stopping: Spawning processes in isolated environments.
+- Networking: Setting up virtual networks and port mappings.
+- Storage: Mounting volumes and managing layered filesystems (e.g., container images).
+- Logging & Monitoring: Collecting logs and metrics.
 
 Without a runtime, you’d need to script all these tasks manually.
 
@@ -52,9 +52,9 @@ Without a runtime, you’d need to script all these tasks manually.
 
 Containers are created from images (pre-packaged filesystems). Runtimes:
 
-   - Pull images from registries (e.g., Docker Hub).
-   - Unpack and validate images.
-   - Cache layers for efficiency.
+- Pull images from registries (e.g., Docker Hub).
+- Unpack and validate images.
+- Cache layers for efficiency.
 
 Kernel primitives don’t handle image distribution or layer management.
 
@@ -64,8 +64,8 @@ Kernel primitives don’t handle image distribution or layer management.
 
 Runtimes follow standards like the OCI (Open Container Initiative), which defines:
 
-   - Container image formats (e.g., OCI Image Spec).
-   - Runtime specifications (e.g., `runc`, the reference OCI runtime).
+- Container image formats (e.g., OCI Image Spec).
+- Runtime specifications (e.g., `runc`, the reference OCI runtime).
 
 This ensures containers work consistently across platforms (e.g., Docker, Kubernetes, Podman).
 
@@ -75,15 +75,16 @@ This ensures containers work consistently across platforms (e.g., Docker, Kubern
 
 Runtimes enforce security policies by default, such as:
 
-   - Dropping unnecessary privileges.
-   - Applying seccomp profiles to restrict syscalls.
-   - Isolating containers using namespaces and cgroups.
+- Dropping unnecessary privileges.
+- Applying seccomp profiles to restrict syscalls.
+- Isolating containers using namespaces and cgroups.
 
 While the kernel provides these tools, the runtime configures them automatically.
 
 ---
 
 ## Examples Of Container Runtimes
+
 - Low-level runtimes: `runc`, `crun` (OCI-compliant, used by Docker/containerd).
 - High-level runtimes: `containerd`, `CRI-O` (orchestrate low-level runtimes and add features).
 - Sandboxed runtimes: `gVisor`, `Kata Containers` (add VM-like isolation).
@@ -124,6 +125,7 @@ Now, you raise an excellent question: if containers are built from Linux kernel 
 
 1. Complexity Management
 The Linux kernel primitives are powerful but low-level tools. Creating a container requires orchestrating multiple components:
+
 - Setting up namespaces (PID, network, mount, etc.)
 - Configuring cgroups for resource control
 - Managing the root filesystem
@@ -137,6 +139,7 @@ Container runtimes implement standard specifications (like the OCI Runtime Speci
 
 3. Lifecycle Management
 Container runtimes handle the entire lifecycle of a container:
+
 - Unpacking container images
 - Setting up the container environment
 - Starting processes
@@ -146,6 +149,7 @@ Container runtimes handle the entire lifecycle of a container:
 
 2. Security
 Container runtimes implement crucial security features:
+
 - Setting up security contexts
 - Managing capabilities
 - Implementing seccomp filters
@@ -225,9 +229,9 @@ Here's a breakdown of why runtimes are crucial:
 Several container runtimes exist, each with unique characteristics:
 
 - runc: This is a lightweight, command-line tool that is the reference implementation of the OCI container-runtime-spec. It directly interacts with the Linux kernel to create and run containers. It is designed to be simple and fast, and it is often used as the default runtime. Runc is primarily responsible for configuring namespaces, cgroups, and security settings for a container before launching its main process.
-    - `runc` has commands to checkpoint, create, delete, and manage container execution, as well as to get the status of containers
+  - `runc` has commands to checkpoint, create, delete, and manage container execution, as well as to get the status of containers
 - containerd: A daemon that manages the lifecycle of containers and sits between the Docker daemon and runc. It handles image management and ensures images are presented as valid OCI bundles to runc. Kubernetes uses `containerd` as a container runtime. While `containerd` manages container lifecycles, it depends on `runc` or other OCI-compliant runtimes to actually create and run them.
-    - `containerd` converts Docker images into OCI bundles and then calls `runc` to create the container.
+  - `containerd` converts Docker images into OCI bundles and then calls `runc` to create the container.
 - CRI-O: A container runtime specifically designed for Kubernetes. It implements the Container Runtime Interface (CRI) to allow Kubernetes to use it for managing containers. CRI-O is a lightweight alternative to Docker for Kubernetes.
 - gVisor: This is a user-space kernel that provides stronger isolation by intercepting system calls and implementing them in user space. This approach is used by Google and is often referred to as a 'sandboxed' container runtime.
 - Kata Containers: This runtime uses lightweight virtual machines to provide better isolation than traditional containers. It uses a proxy to run containers inside separate virtual machines created by QEMU.
@@ -264,6 +268,7 @@ As you correctly noted, containers are built using Linux kernel features like na
 3. Standardisation and Abstraction
 
     - The Open Container Initiative (OCI) establishes standards for container images, runtimes, and distributions. Container runtimes conform to these standards and make it possible for a container built with one tool to be run by another.
+
 - Container runtimes abstract the complexity of the underlying Linux kernel features. By providing an interface that implements OCI standards, a container runtime simplifies the process of working with containers, and it is not necessary to be an expert in the Linux kernel to use containers effectively. This makes it easier for developers and operators to work with containers without needing deep low-level knowledge, and allows higher level orchestration systems, like Kubernetes, to focus on managing applications without needing to know about the low level details of running a container.
 
 ## Container Runtimes in the Kubernetes Context
@@ -501,11 +506,13 @@ Podman uses a "daemonless" architecture. Instead of running a central daemon pro
 To extend our hotel analogy, Podman is more like a condominium where each unit owner directly manages their own space, without going through a central management office. This brings several advantages:
 
 1. Security Benefits:
+
 - No privileged daemon process running as root
 - Each container can run with the privileges of the user who started it
 - Better isolation between containers since there's no shared daemon
 
 2. Resource Management:
+
 - When Podman exits, it doesn't leave behind a running daemon consuming resources
 - Easier to track resource usage per container since they're direct child processes
 - System init (like systemd) can directly manage containers as units
@@ -573,14 +580,14 @@ Comparison with Docker Desktop:
 While both Rancher Desktop and Docker Desktop facilitate container management on local environments, they have distinct focuses:
 
 - Kubernetes Integration:
-    - *Rancher Desktop:* Emphasizes seamless Kubernetes integration, providing tools for advanced cluster management and orchestration.
-    - *Docker Desktop:* Primarily focuses on Docker's container runtime but also offers Kubernetes support.
+  - *Rancher Desktop:* Emphasizes seamless Kubernetes integration, providing tools for advanced cluster management and orchestration.
+  - *Docker Desktop:* Primarily focuses on Docker's container runtime but also offers Kubernetes support.
 - Open Source vs. Proprietary:
-    - *Rancher Desktop:* Fully open-source, aligning with SUSE's commitment to open-source development.
-    - *Docker Desktop:* Proprietary software built upon open-source components.
+  - *Rancher Desktop:* Fully open-source, aligning with SUSE's commitment to open-source development.
+  - *Docker Desktop:* Proprietary software built upon open-source components.
 - Customization and Flexibility:
-    - *Rancher Desktop:* Allows users to choose specific versions of Kubernetes and offers advanced configuration options.
-    - *Docker Desktop:* Provides a more streamlined experience with fewer customization options.
+  - *Rancher Desktop:* Allows users to choose specific versions of Kubernetes and offers advanced configuration options.
+  - *Docker Desktop:* Provides a more streamlined experience with fewer customization options.
 
 In summary, Rancher is a robust platform for managing Kubernetes clusters across various environments, while Rancher Desktop offers a local development environment with advanced Kubernetes integration. In contrast, Docker Desktop provides a more general-purpose container management solution with optional Kubernetes support.
 
@@ -601,6 +608,7 @@ To run Linux VMs and experiment with containers on your Apple Silicon (M3) MacBo
 ---
 
 ### 1. Docker Desktop (Simplest for Containers)
+
 - What it does: Runs containers in a lightweight, managed Linux VM (using `virtio` hypervisor). You don’t directly interact with the VM—it’s abstracted away.
 - Why use it:
   - Perfect for container-focused workflows (Docker, Kubernetes).
@@ -614,6 +622,7 @@ To run Linux VMs and experiment with containers on your Apple Silicon (M3) MacBo
 ---
 
 ### 2. Colima (Lightweight Containers & VMs)
+
 - What it does: Uses Lima (a wrapper for QEMU) to create a Linux VM and run Docker or containerd inside it.
 - Why use it:
   - Open-source alternative to Docker Desktop.
@@ -632,6 +641,7 @@ To run Linux VMs and experiment with containers on your Apple Silicon (M3) MacBo
 ---
 
 ### 3. UTM (General-Purpose Linux VMs)
+
 - What it does: Free, open-source VM manager using Apple’s Hypervisor framework for ARM64 VMs.
 - Why use it:
   - Run full Linux distributions (e.g., Ubuntu, Fedora, Debian).
@@ -648,6 +658,7 @@ To run Linux VMs and experiment with containers on your Apple Silicon (M3) MacBo
 ---
 
 ### 4. Parallels Desktop (Premium Performance)
+
 - What it does: Commercial virtualization software optimized for Apple Silicon.
 - Why use it:
   - Best performance for Linux/Windows VMs on macOS.
@@ -660,6 +671,7 @@ To run Linux VMs and experiment with containers on your Apple Silicon (M3) MacBo
 ---
 
 ### 5. VMware Fusion (Free for Personal Use)
+
 - What it does: Similar to Parallels but free for personal use (ARM support is in tech preview).
 - Why use it:
   - Free license for non-commercial use.
@@ -671,6 +683,7 @@ To run Linux VMs and experiment with containers on your Apple Silicon (M3) MacBo
 ---
 
 ### 6. Multipass (Lightweight Ubuntu VMs)
+
 - What it does: CLI tool by Canonical to spin up Ubuntu VMs in seconds.
 - Why use it:
   - Fast, minimal setup for Ubuntu-based experimentation.
@@ -686,6 +699,7 @@ To run Linux VMs and experiment with containers on your Apple Silicon (M3) MacBo
 ---
 
 ### 7. Minikube (For Kubernetes Experimentation)
+
 - What it does: Runs a single-node Kubernetes cluster in a VM.
 - Why use it:
   - Learn Kubernetes locally.
@@ -700,6 +714,7 @@ To run Linux VMs and experiment with containers on your Apple Silicon (M3) MacBo
 ---
 
 ### Key Considerations
+
 - ARM64 Compatibility: Always use Linux distributions built for ARM64 (e.g., Ubuntu ARM, Fedora ARM). x86_64 ISOs won’t work.
 - Performance: Tools leveraging Apple’s Hypervisor.framework (UTM, Parallels, Docker) will be faster than QEMU-based solutions.
 - Use Case:
@@ -710,6 +725,7 @@ To run Linux VMs and experiment with containers on your Apple Silicon (M3) MacBo
 ---
 
 ### Example Workflow
+
 1. Install Docker Desktop or Colima for container experiments.
 2. Use UTM or Parallels to run a full Linux desktop/server VM.
 3. Use `brew` to manage CLI tools like `colima`, `multipass`, or `minikube`.
@@ -722,6 +738,7 @@ Running Linux VMs on an M3 MacBook offers several options, ranging from full vir
 
 ### Virtualization Software
 #### 1. VMware Fusion
+
 - Best for: High-performance Linux VMs with 3D acceleration and enterprise features.
 - Features:
   - Supports ARM-based Linux distributions (e.g., Ubuntu ARM64) on Apple Silicon.
@@ -730,6 +747,7 @@ Running Linux VMs on an M3 MacBook offers several options, ranging from full vir
 - Setup: Download VMware Fusion, create a VM, and install an ARM-compatible Linux ISO[9].
 
 #### 2. UTM (Free)
+
 - Best for: Beginners and open-source enthusiasts.
 - Features:
   - Free, QEMU-based GUI tool for running Linux, Windows, or macOS.
@@ -744,6 +762,7 @@ Running Linux VMs on an M3 MacBook offers several options, ranging from full vir
   ```
 
 #### 3. Parallels Desktop
+
 - Best for: Seamless macOS-Linux integration and commercial use.
 - Features:
   - Officially supports Windows/Linux on Apple Silicon via ARM virtualization.
@@ -755,6 +774,7 @@ Running Linux VMs on an M3 MacBook offers several options, ranging from full vir
 
 ### Container Runtimes
 #### 1. Colima
+
 - Best for: Docker/Containerd/Kubernetes with minimal setup.
 - Features:
   - Free, open-source CLI tool for running containers on macOS.
@@ -768,6 +788,7 @@ Running Linux VMs on an M3 MacBook offers several options, ranging from full vir
   ```
 
 #### 2. Lima
+
 - Best for: Lightweight Linux VMs with container support.
 - Features:
   - Runs full Linux VMs (e.g., Ubuntu, Fedora) with automatic home directory mounting.
@@ -780,6 +801,7 @@ Running Linux VMs on an M3 MacBook offers several options, ranging from full vir
   ```
 
 #### 3. Podman
+
 - Best for: Secure, rootless containers.
 - Features:
   - Uses a hidden Linux VM to run containers.
@@ -794,6 +816,7 @@ Running Linux VMs on an M3 MacBook offers several options, ranging from full vir
 ---
 
 ### Native Linux Installation
+
 - Asahi Linux/Fedora Remix: A work-in-progress project to natively run Linux on Apple Silicon. Not yet stable for M3 Macs[12][14].
 - Ubuntu Asahi: Experimental ARM64 builds for dual-booting[13].
 
@@ -811,8 +834,9 @@ Running Linux VMs on an M3 MacBook offers several options, ranging from full vir
 ---
 
 ### Recommendations
+
 - For Containers: Use Colima for Docker/Kubernetes or Podman for rootless containers.
 - For Full Linux VMs: UTM (free) or VMware Fusion (performance).
-- Avoid: VirtualBox (unstable on Apple Silicon)[6][11].
+- Avoid: VirtualBox [unstable on Apple Silicon][6](11).
 
 All options require ARM64 Linux ISOs (e.g., Ubuntu Server/Desktop for ARM). For GPU acceleration, VMware Fusion or Parallels are preferred[9][16].
