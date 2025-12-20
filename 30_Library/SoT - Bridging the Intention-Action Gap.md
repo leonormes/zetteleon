@@ -6,7 +6,7 @@ created: 2025-11-13T16:26:14Z
 decay-signals: []
 epistemic:
 last_reviewed: 2025-12-15
-modified: 2025-12-19T10:12:34Z
+modified: 2025-12-20T09:54:05Z
 purpose: Defines the core mechanism for overcoming ADHD executive dysfunction and initiating tasks within ProdOS.
 quality-markers: [Defines the Logic-Dopamine mismatch., establishing the PINCH model., Integrates the Vague-to-Action checklist.]
 related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS (System Architecture)]]"]
@@ -20,6 +20,7 @@ tags: ["adhd", "behavioral_psychology", "execution", "productivity"]
 title: SoT - Bridging the Intention-Action Gap
 type: SoT
 uid:
+updated: 
 ---
 
 ## 1. Definitive Statement
@@ -60,13 +61,9 @@ To bridge the gap, we must operate on two layers: lowering the barrier to entry 
 When a task lacks intrinsic motivation, you must "gamify" it using one of these five drivers:
 
 - **P**lay / Passion: Can I make this fun?
-
 - **I**nterest: Can I learn something new?
-
 - **N**ovelty: Can I do this in a weird way?
-
 - **C**hallenge / Competition: Can I beat my high score?
-
 - **H**urry: Can I beat the clock?
 
 ---
@@ -106,9 +103,7 @@ When you are stuck in "Logic Mode" (staring at a screen, knowing you *should* wo
 A **Starter Task** is a micro-action designed purely to break static friction. It is **not** the work itself; it is the act of entering the workspace.
 
 - **The Rule:** It must be so small that it is impossible to fail or overthink.
-
 - **Examples:** "Open the document," "Put on running shoes," "Write the title."
-
 - **Mechanism:** Completing this binary action releases a small hit of dopamine and shifts the brain's question from *"Should I start?"* to *"What next?"* (See: [[Starter Tasks Bypass Overthinking and Reduce Perfectionism]]).
 
 ---

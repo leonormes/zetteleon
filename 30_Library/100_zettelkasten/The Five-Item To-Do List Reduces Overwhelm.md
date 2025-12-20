@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-16T14:35:00Z
 epistemic: experimental
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:13:17Z
+modified: 2025-12-20T09:54:55Z
 purpose: To test if extreme prioritization (The Ivy Lee Method) reduces daily overwhelm.
 review_interval: 2 weeks
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -28,17 +28,12 @@ updated:
 ## 2. Experiment Protocol
 
 - **Duration:** 3 Days.
-
 - **Trigger:** Start of the day planning.
-
 - **Action:**
 
     1. Write down the 5 most important tasks for the day.
-
     2. Order them 1-5.
-
     3. Hide all other tasks (put them in a "Backlog" view).
-
     4. Work on #1 until finished. Then #2.
 
 ---
@@ -46,7 +41,6 @@ updated:
 ## 3. Expected Outcome
 
 - **Success:** Finishing the top 3 items consistently.
-
 - **Failure:** Constantly adding "just one more quick thing" to the list.
 
 ---

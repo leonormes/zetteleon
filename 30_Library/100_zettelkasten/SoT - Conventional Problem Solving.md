@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-02-07T12:57:55Z
 epistemic: theory
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:13:17Z
+modified: 2025-12-20T09:54:55Z
 purpose: To define Applicative Intelligence—the systematic application of existing frameworks to solve problems—distinguishing it from Generative Intelligence.
 related-soTs: ["[[SoT - Deep Learning & Mastery]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - Six Levels of Thinking]]", "[[SoT - Systems Thinking]]"]
 review_interval: 
@@ -34,7 +34,6 @@ updated:
 This mode operates within the "Safe Bounds" of accepted paradigms.
 
 - **The Process:** Identify Problem -> Match Pattern -> Apply Solution.
-
 - **The Utility:** It removes the need to "re-derive physics" for every problem. It is the foundation of professional competence (e.g., using a standard library vs. writing your own sort algorithm).
 
 ### B. Incrementalism (Kaizen)
@@ -42,9 +41,7 @@ This mode operates within the "Safe Bounds" of accepted paradigms.
 Progress is achieved through systematic refinement rather than revolutionary leaps.
 
 - **Focus:** "Better, Faster, Cheaper."
-
 - **Outcome:** High predictability and low risk.
-
 - **Link:** [[Process Over Outcome Mindset]]
 
 ### C. Pattern Recognition
@@ -62,7 +59,6 @@ While essential for stability, relying solely on Applicative Intelligence leads 
 The tendency to rely on familiar solutions prevents the brain from seeing better, novel alternatives.
 
 - *The Trap:* "When you have a hammer, everything looks like a nail."
-
 - *Link:* [[The Einstellung Effect Prevents Better Solutions]]
 
 ### B. Local Maxima Optimization
@@ -103,11 +99,7 @@ The **ProdOS Meta-Strategy** requires knowing *which* mode to deploy:
 ## 6. Related Zettels
 
 - [[Applicative Intelligence]] - The underlying cognitive capacity.
-
 - [[Generative Intelligence]] - The counterpart.
-
 - [[Fundamental Insight Creation]] - The mechanism of breaking the frame.
-
 - [[Impact of Set 2 Breakthroughs]] - How new paradigms become conventional.
-
 - [[Flawed Mental Models Limit Mastery]] - The risk of applying bad frameworks.

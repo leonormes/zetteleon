@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-15T00:00:00Z
 epistemic: Validated via 10-year longitudinal practice and DORA metrics.
 last_reviewed: 2025-12-15
-modified: 2025-12-19T10:12:35Z
+modified: 2025-12-20T09:54:08Z
 purpose: To define "Main-as-Default Trunk Based Development" as the canonical software delivery methodology for ProdOS, optimizing for the smallest robust increments of change.
 related-soTs: ["[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 1 year
@@ -72,11 +72,8 @@ How do you commit to main without breaking it?
 A survey of a team using this method for 10 months revealed:
 
 - **Adoption:** 9/10 comfort level with committing to main.
-
 - **Stability:** "Main is often broken" scored **1/10** (Strongly Disagree).
-
 - **Efficiency:** "Trunk-based development has made our delivery cycle faster" scored **8.5/10**.
-
 - **Safety:** "I feel nervous when I deploy to production" scored **3/10**.
 
 **The "Lift" Metaphor:**

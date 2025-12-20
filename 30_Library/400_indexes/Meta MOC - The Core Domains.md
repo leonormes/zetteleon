@@ -5,7 +5,7 @@ created: 2025-12-16T09:45:00Z
 description: A high-level Meta MOC categorizing the primary domains of thought and Sources of Truth (SoT) within the vault.
 epistemic: synthesis
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:12:38Z
+modified: 2025-12-20T09:54:10Z
 purpose: To provide a top-level entry point into the system, answering "What do I often think about?" by clustering SoTs into broad thematic domains.
 review_interval: 
 see_also: []
@@ -38,25 +38,15 @@ My primary intellectual loop is:
 > **Core Insight:** Productivity is not about willpower; it is about **Systems Architecture**. We must design our environment to minimize friction and maximize flow.
 
 - **The Architecture:** [[SoT - PRODOS (System Architecture)]]
-
 - **The Frameworks:**
-
   - [[SoT - PRODOS - Action Management (GTD)]]
-
   - [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
-
   - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
-
   - [[SoT - PRODOS - Structure & Storage]]
-
 - **The Principles:**
-
   - [[SoT - Systems Thinking]]
-
   - [[SoT - Process Primacy (Systems Over Goals)]]
-
   - [[SoT - Atomicity and Loose Coupling]]
-
   - [[SoT - Simplicity and Re-entry (ProdOS Principles)]]
 
 ## 3. Domain 2: The Engine (Cognition, ADHD & Psychology)
@@ -65,23 +55,14 @@ My primary intellectual loop is:
 > **Core Insight:** The ADHD brain is not broken; it is an **Interest-Based Nervous System**. It requires specific "Ignition" protocols (Mystery, Challenge, Urgency) rather than standard motivation.
 
 - **ADHD Mechanics:**
-
   - [[SoT - ADHD Executive Dysfunction]]
-
   - [[SoT - ADHD and Motivation]]
-
   - [[SoT - ADHD Environmental Design]]
-
   - [[SoT - The Cognitive Physiology of Task Execution]]
-
 - **Cognitive Science:**
-
   - [[SoT - Working Memory & Schema Theory]]
-
   - [[SoT - The Extended Mind]]
-
   - [[SoT - Cognitive Refactoring (Neural Debugging)]]
-
   - [[SoT - Visualization as Cognitive Architecture]]
 
 ## 4. Domain 3: The Compass (Philosophy, Identity & Meaning)
@@ -90,23 +71,14 @@ My primary intellectual loop is:
 > **Core Insight:** Meaning is not found; it is **forged**. Through "Logotherapy" and "Ikigai," we define our own purpose. We are not static nouns but dynamic verbs.
 
 - **Purpose & Meaning:**
-
   - [[SoT - Ikigai and the Logic of Purpose]]
-
   - [[SoT - Logotherapy and the Will to Meaning]]
-
   - [[SoT - Values and Eudaimonia]]
-
   - [[SoT - The Philosophy of the Absurd (Camus)]]
-
 - **Self & Identity:**
-
   - [[SoT - Identity-Based Habit Formation]]
-
   - [[SoT - Personal Agency and Transformation]]
-
   - [[SoT - The Internal World and the Need for Validation]]
-
   - [[SoT - Wabi-Sabi]]
 
 ## 5. Domain 4: The Trade (Software Engineering & Technology)
@@ -115,21 +87,13 @@ My primary intellectual loop is:
 > **Core Insight:** Good software architecture mirrors good cognitive architecture. Concepts like "Loose Coupling," "Information Hiding," and "Source of Truth" apply equally to code and life.
 
 - **Architecture & Patterns:**
-
   - [[SoT - Software Configuration Management Patterns]]
-
   - [[SoT - Main-as-Default Trunk Based Development]]
-
   - [[SoT - Information Hiding (Parnas)]]
-
   - [[SoT - Atomicity and Loose Coupling]]
-
 - **Technologies:**
-
   - [[SoT - Git]]
-
   - [[SoT - Cloud Networking Core Components]]
-
   - [[SoT - Digital Identity]]
 
 ## 6. Domain 5: The Territory (Society, Wealth & Economics)
@@ -138,23 +102,14 @@ My primary intellectual loop is:
 > **Core Insight:** Money is not a scoreboard; it is **Potential Energy**. Status is a biological signal. Understanding these games allows us to play them with agency rather than envy.
 
 - **Economics of Energy:**
-
   - [[SoT - Money as Potential Energy]]
-
   - [[SoT - Ontology of Money and Wealth]]
-
   - [[SoT - Fundamental Description of Economics]]
-
   - [[SoT - Family Financial Wellness]]
-
 - **Social Dynamics:**
-
   - [[SoT - Social Stratification]]
-
   - [[SoT - UK Social Hierarchy and Class Analysis]]
-
   - [[SoT - The Evolutionary Biology of Status]]
-
   - [[SoT - Dystopian Frameworks and Social Control]]
 
 ## 7. Domain 6: Epistemology (Learning & Mental Models)
@@ -163,28 +118,18 @@ My primary intellectual loop is:
 > **Core Insight:** Our models of reality are maps, not the territory. We must be wary of the "Illusion of Explanatory Depth" and strive for "Deep Learning."
 
 - **Metacognition:**
-
   - [[SoT - Dunning-Kruger Effect]]
-
   - [[SoT - Illusion of Explanatory Depth (IoED)]]
-
   - [[SoT - Reality, Models, and the Limits of Accuracy]]
-
 - **Learning:**
-
   - [[SoT - Deep Learning & Mastery]]
-
   - [[SoT - Learning Mechanisms]]
-
   - [[SoT - The Thought-Language Continuum]]
 
 ## 8. Domain 7: The Human (Life, Family & Health)
 *The Foundation. Parenting, physical vitality, and relationships.*
 
 - [[SoT - The Multifaceted Role of a Parent]]
-
 - [[SoT - Physical Health and Vitality]]
-
 - [[SoT - Psychological Safety and Belonging]]
-
 - [[SoT - Mindfulness and Emotional Regulation]]

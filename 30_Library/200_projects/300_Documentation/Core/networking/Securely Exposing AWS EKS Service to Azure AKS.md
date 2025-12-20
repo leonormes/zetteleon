@@ -4,7 +4,7 @@ confidence:
 created: 2025-03-27T09:30:48Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T10:13:12Z
+modified: 2025-12-20T09:54:49Z
 purpose: 
 review_interval: 
 see_also: []
@@ -154,13 +154,9 @@ spec:
 ## Security Considerations
 
 - **mTLS:** Enforces mutual authentication and encrypts communication.
-
 - **PrivateLink:** Avoids exposing the EKS service to the public internet.
-
 - **Least Privilege:** Security groups and NSGs restrict network access.
-
 - **Certificate Management:** Securely store and manage certificates using AWS Secrets Manager and Azure Key Vault.
-
 - **Regular Audits:** Regularly review security configurations and logs.
 
 ## Conclusion
@@ -180,13 +176,9 @@ Instead of relying solely on the Nginx Ingress Controller and standard Ingress r
 #### Benefits of Gateway API
 
 - **Role-Oriented:** Separates infrastructure configuration from application routing, aligning with organizational roles.
-
 - **Extensible:** Supports advanced routing features and custom extensions.
-
 - **Portable:** Provides a standardized API for various gateway implementations.
-
 - **Advanced Traffic Management:** Native support for features like traffic splitting, header-based routing, and weighted routing.
-
 - **Improved Security:** Enables more granular control over TLS and authentication.
 
 #### Implementing Gateway API in EKS
@@ -197,7 +189,6 @@ Instead of relying solely on the Nginx Ingress Controller and standard Ingress r
 2. **Define a Gateway Resource:**
     - Create a `Gateway` resource that defines the NLB and its listeners.
     - Configure the Gateway to listen on port 443 for HTTPS.
-
 - Example `Gateway` resource:
 
 ```yaml
@@ -265,25 +256,19 @@ spec:
 The Azure AKS side remains largely the same:
 
 - Create a Private Endpoint connection to the AWS PrivateLink service.
-
 - Configure AKS pods to use the private endpoint IP and provide the client certificate.
 
 #### Benefits of Using Gateway API
 
 - **Enhanced Security:** Native support for mTLS and certificate management.
-
 - **Simplified Configuration:** Easier to manage complex routing scenarios.
-
 - **Improved Scalability:** Leverages the AWS Load Balancer Controller for efficient NLB management.
-
 - **Future-Proof:** Aligns with the evolving Kubernetes networking landscape.
 
 #### Considerations
 
 - **Gateway API Implementation:** Choose a Gateway API implementation that supports AWS Load Balancer Controller or other NLB management.
-
 - **Certificate Management:** Ensure secure storage and management of certificates.
-
 - **Compatibility:** Verify compatibility between your Gateway API implementation and EKS version.
 
 By integrating the Kubernetes Gateway API, you can create a more robust, secure, and manageable solution for exposing your EKS service to Azure AKS. This approach leverages modern Kubernetes networking capabilities and aligns with best practices.

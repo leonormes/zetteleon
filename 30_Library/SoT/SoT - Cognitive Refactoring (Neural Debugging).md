@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-15T19:26:19Z
 epistemic: technique
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:12:37Z
+modified: 2025-12-20T09:54:09Z
 purpose: To define the active process of debugging and rewriting maladaptive thought patterns, specifically for the ADHD mind.
 related-soTs: ["[[SoT - ADHD Self-Compassion & Strengths]]", "[[SoT - Belief Architecture & Cognitive Spaces]]", "[[SoT - The Negativity Bias]]"]
 review_interval: 1 year
@@ -68,9 +68,6 @@ ADHD brains are prone to specific logic errors due to [[SoT - The Negativity Bia
 ## 5. Related Zettels
 
 - [[Reframing Negative Thought Patterns in ADHD]]
-
 - [[Common Cognitive Distortions]]
-
 - [[Cognitive Behavioral Therapy (CBT)]]
-
 - [[The Shame-Procrastination Cycle]]

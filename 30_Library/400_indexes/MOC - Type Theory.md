@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-18T11:20:00Z
 epistemic: 
 last_reviewed: 2025-12-18
-modified: 2025-12-19T10:12:38Z
+modified: 2025-12-20T09:54:10Z
 purpose: A central hub for navigating the theoretical foundations of programming languages, type systems, and formal verification.
 resonance-score: 10
 review_interval: 
@@ -28,9 +28,7 @@ updated:
 The "Meta-Framework" linking logic, math, and code.
 
 - **[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]**: The full Curry-Howard-Lambek correspondence, defining Products and Sums via Category Theory arrows and duality.
-
 - **[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]**: The bedrock isomorphism between logical propositions and computer types. "A program is a proof."
-
 - **[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]**: Understanding types through set cardinality and algebraic laws (Sums, Products, Exponentials).
 
 ### 2. Computational Semantics (The Harper School)
@@ -38,7 +36,6 @@ The "Meta-Framework" linking logic, math, and code.
 The perspective that **computation is primary**, and logic is derived from it.
 
 - **[[SoT - Computational Type Theory (Meaning as Use)]]**: Types defined by introduction/elimination rules and program behavior.
-
 - **[[SoT - Equality in Type Theory (Intensional vs Extensional)]]**: The architectural tension between semantic truth (Reflection) and mechanical checkability (Decidability).
 
 ### 3. Advanced & Homotopy Type Theory
@@ -46,7 +43,6 @@ The perspective that **computation is primary**, and logic is derived from it.
 Bridging the gap between structure and computation.
 
 - **[[SoT - The Structure of Identity (UIP and Groupoids)]]**: The pivotal discovery that equality proofs are not unique (UIP is false), paving the way for types as spaces.
-
 - **[[SoT - Cubical Type Theory (Computational Univalence)]]**: A geometric approach to making the Univalence Axiom computable via dimension variables.
 
 ## 4. Practical Implementation & Verification
@@ -61,15 +57,11 @@ Applying type theory to eliminate runtime failure.
 ### 5. Philosophical & Mathematical Context
 
 - **[[Logicism (Mathematics as Extension of Logic)]]**: The quest to reduce math to pure logic.
-
 - **[[Intuitionism Rejects the Law of the Excluded Middle]]**: The constructive logic foundation of type theory.
-
 - **[[Russell's Paradox in Naive Set Theory]]**: The paradox that necessitated type stratification.
 
 ### 6. Related Domains
 
 - [[MOC - Software Architecture Principles]]
-
 - [[MOC - Computer Science Foundations]]
-
 - [[SoT - PRODOS (System Architecture)]]

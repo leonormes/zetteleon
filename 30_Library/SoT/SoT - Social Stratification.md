@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-10T12:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-19T10:12:34Z
+modified: 2025-12-20T09:54:07Z
 purpose: To define the canonical understanding of Social Stratification as a structural system of inequality.
 related-soTs: ["[[SoT - The Evolutionary Biology of Status]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
 review_interval: 1 year
@@ -42,13 +42,9 @@ Unlike Marx's purely economic view, Max Weber argued stratification occurs acros
 Is stratification natural?
 
 - **Hunter-Gatherer Baseline:** For 95% of human history, society was aggressively egalitarian with active "levelling mechanisms" to suppress dominance. Status existed but was not heritable.
-
 - **The Shift (Agriculture):** Stratification is a function of **Scalability** and **Surplus**.
-
   - *Surplus:* Storable calories (grain) allowed hoarding and theft.
-
   - *Complexity:* Irrigation/Defense required central administration (The State).
-
 - **Conclusion:** Status-seeking is biological (firmware); Systemic Stratification is technological/structural (hardware scale).
 
 ---
@@ -58,31 +54,22 @@ Is stratification natural?
 ### A. Functionalism (Optimisation)
 
 - **Thesis:** Stratification is a feature, necessary for efficiency.
-
 - **Logic:** High rewards motivate talented individuals to fill critical, difficult roles (e.g., surgeons).
-
 - **Critique:** Ignores non-meritocratic wealth (inheritance) and undervalues essential roles (nursing).
 
 ### B. Conflict Theory (Exploitation)
 
 - **Thesis:** Stratification is the result of struggle over resources; stability is maintained by dominance.
-
 - **Logic (Marx):** Bourgeoisie (owners) extract surplus value from Proletariat (workers).
-
 - **Critique:** Economically reductionist; struggles with race/gender.
 
 ### C. Bourdieu (Capital & Reproduction)
 
 - **Thesis:** Inequality is reproduced through the conversion of capital types.
-
 - **Forms of Capital:**
-
   - *Economic:* Money.
-
   - *Social:* Networks.
-
   - *Cultural:* Knowledge, taste, mannerisms (Habitus).
-
 - **Mechanism:** Elites reproduce their status by defining "good taste" and "competence" in ways that exclude others.
 
 ---
@@ -98,9 +85,7 @@ How does the system maintain stability?
 ### Examples
 
 - **Class:** Opportunity Hoarding via Zoning Laws (exclusionary housing).
-
 - **Race:** Asset Accumulation. Wealth gaps are driven by historical compounding (inheritance), not just current income.
-
 - **Gender:** The "Second Shift" of unpaid reproductive labour restricts capital accumulation.
 
 ---
@@ -108,9 +93,7 @@ How does the system maintain stability?
 ## 6. Normative & Policy Implications
 
 - **Contingency:** The level of inequality is a **political choice**. (Comparison: Sweden vs. USA).
-
 - **Distributive Justice (Rawls):** A system is just only if you would enter it behind a "Veil of Ignorance" (not knowing your station).
-
 - **Inequality harms everyone:** High inequality correlates with lower trust, higher crime, and worse health outcomes for *all* classes.
 
 ---

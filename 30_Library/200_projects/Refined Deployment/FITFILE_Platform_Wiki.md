@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-27T09:38:40Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T10:12:46Z
+modified: 2025-12-20T09:54:18Z
 purpose: 
 review_interval: 
 see_also: []
@@ -158,9 +158,7 @@ module "platform" {
 ##### Troubleshooting
 
 - **"CrashLoopBackOff" in Vault Operator**: Check `vault_address` and AppRole credentials.
-
 - **Ingress IP Pending**: Verify the IP address is valid in the subnet and not in use. Check cloud provider quotas.
-
 - **ArgoCD Unreachable**: Verify `ingress_host_network` settings and DNS resolution for `argocd_host`.
 
 ---

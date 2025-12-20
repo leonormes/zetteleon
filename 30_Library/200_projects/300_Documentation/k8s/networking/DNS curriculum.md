@@ -4,7 +4,7 @@ confidence:
 created: 2025-02-12T17:41:51Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T10:13:05Z
+modified: 2025-12-20T09:54:41Z
 purpose: 
 review_interval: 
 see_also: []
@@ -590,15 +590,10 @@ Phase 4: Advanced DNS Topics (Optional)
 Throughout the response:
 
 - Use Obsidian Markdown formatting for headings, lists, code blocks, and other elements.
-
 - Provide detailed explanations and examples.
-
 - Include diagrams where appropriate to illustrate concepts.
-
 - Focus on practical application and real-world scenarios.
-
 - Where relevant, provide Terraform code snippets to demonstrate implementation.
-
 - Clearly differentiate between public and private DNS concepts.
 
 The goal is to create a comprehensive and structured learning resource about DNS, tailored for an EKS deployment scenario and manageable within Obsidian.

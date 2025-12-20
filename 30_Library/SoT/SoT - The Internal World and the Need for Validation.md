@@ -5,7 +5,7 @@ created: 2025-12-12T00:00:00Z
 epistemic: 
 last-synthesis: 2025-12-12
 last_reviewed: 
-modified: 2025-12-19T10:12:34Z
+modified: 2025-12-20T09:54:06Z
 purpose: To define the unique dynamics of the neurodivergent "Internal World," explaining why rich mental schemas are paradoxically fragile and how to protect them from the devastating impact of Rejection Sensitive Dysphoria (RSD).
 review_interval: 12 months
 see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]", "[[SoT - The Thought-Language Continuum]]"]
@@ -35,9 +35,7 @@ updated:
 The neurodivergent mind (particularly Inattentive ADHD) often retreats into an "Inner Reflective Mode" to process the world.
 
 - **The Strength:** This allows for deep, rhizomatic connections and the creation of unique, innovative schemas that linear thinkers might miss.
-
 - **The Weakness:** These schemas are like soap bubbles—iridescent and beautiful, but liable to pop at the slightest touch of external reality.
-
 - **The Tension:** The creator feels a desperate need for external validation to make the idea "Real" (to solidify the bubble), but simultaneously harbors a phobic fear of the criticism that might destroy it.
 
 ---
@@ -49,7 +47,6 @@ The neurodivergent mind (particularly Inattentive ADHD) often retreats into an "
 Inside the mind, an idea is supported by "tacit knowledge"—feelings, intuitive leaps, and personal context. It feels profound.
 
 - **The Crash:** When externalized (spoken/written), this support structure vanishes. The idea often appears skeletal or flawed to others.
-
 - **The Pain:** The gap between the *felt* profundity and the *received* confusion causes deep cognitive dissonance and shame.
 
 ### B. Rejection Sensitive Dysphoria (RSD)
@@ -57,11 +54,8 @@ Inside the mind, an idea is supported by "tacit knowledge"—feelings, intuitive
 For the ADHD mind, rejection is not just unpleasant; it is **catastrophic**.
 
 - **The Mechanism:** The brain's emotional regulation filter fails to dampen the signal of social disapproval.
-
 - **The Result:** A minor critique of an *idea* is experienced as a total rejection of the *person*. This leads to:
-
   - **Avoidance:** Refusing to share ideas to stay safe.
-
   - **People Pleasing:** Diluting unique ideas to ensure they are "acceptable."
 
 ---
@@ -71,7 +65,6 @@ For the ADHD mind, rejection is not just unpleasant; it is **catastrophic**.
 Popular productivity advice (Build in Public, Digital Gardens) can be **hostile** to this neurotype.
 
 - **Premature Exposure:** Exposing a "Soap Bubble" idea to public scrutiny before it has crystallized can destroy it. The linear, logical feedback of others ("But what about X?") punctures the non-linear intuition before it can solve for X.
-
 - **The Need for Incubation:** Neurodivergent ideas often require a "Gestation Period" in a safe, judgment-free zone (The Garage Door *Closed*) to gain structural integrity.
 
 ---
@@ -103,7 +96,5 @@ How to bridge the gap without popping the bubble.
 ## 6. Sources and Links
 
 - **Integrated Note:** [[Internal World, Validation, Neurodivergence]] (Archived).
-
 - **Related SoT:** [[SoT - ADHD Executive Dysfunction]] (The neurological context).
-
 - **Related SoT:** [[SoT - The Thought-Language Continuum]] (Why internal ideas are hard to express).

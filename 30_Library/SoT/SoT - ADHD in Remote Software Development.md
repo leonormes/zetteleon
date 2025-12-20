@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-14T00:00:00Z
 epistemic: theory
 last_reviewed: 2025-12-14
-modified: 2025-12-19T10:12:37Z
+modified: 2025-12-20T09:54:10Z
 purpose: A comprehensive guide for remote software developers with ADHD to manage deficits, leverage strengths, and build sustained productivity.
 review_interval: 6 months
 see_also: ["[[MOC - ADHD Management]]", "[[SoT - The Extended Mind]]"]
@@ -34,19 +34,16 @@ The challenges of software development are not moral failings; they are neurobio
 ### A. Initiation vs. The "Wall of Code"
 
 - **The Problem:** Coding often requires massive context loading. The [[ADHD Brain Operates on an Interest-Based Nervous System]], making "boring" setup tasks or vague tickets impossible to start.
-
 - **The Impact:** [[Executive Function Deficits in ADHD Impact Developer Productivity]]. Developers may stare at an IDE for hours (Paralysis) waiting for the "right mood."
 
 ### B. Time Blindness vs. Agile
 
 - **The Problem:** [[Time Agnosia Impairs Planning for Developers with ADHD]]. "Two days" feels the same as "Two hours" until the deadline is imminent.
-
 - **The Impact:** Consistently missed estimates and stand-up anxiety.
 
 ### C. Working Memory vs. Complexity
 
 - **The Problem:** [[Working Memory Impairment in ADHD Increases Cognitive Load for Developers]]. Holding a complex dependency graph in the head is physically painful for the ADHD brain.
-
 - **The Impact:** Difficulty with large-scale refactors or navigating unfamiliar codebases without getting lost in rabbit holes.
 
 ---
@@ -72,25 +69,19 @@ The challenges of software development are not moral failings; they are neurobio
 ### B. Digital Scaffolding (The External Brain)
 
 - **[[Digital Tools Help Externalize Memory and Structure for ADHD Developers]]**.
-
   - **IDE:** Use linters and snippets to reduce memory load.
-
   - **Task Management:** Use rigid ticket breakdown (ProdOS/Todoist) to externalize "Next Actions."
 
 ### C. Analog Anchors
 
 - **[[Analog and Behavioral Techniques are Crucial for ADHD Management]]**.
-
   - **Paper:** Use physical notepads for "Stack Tracing" your thoughts during debugging to prevent distraction loops.
-
   - **Timers:** Physical Time Timers to visualize passing time.
 
 ### D. Environment & Social
 
 - **[[Environmental and Social Modifications Support Remote ADHD Productivity]]**.
-
   - **The "Work Only" Zone:** A specific desk or corner that anchors the "Work Mode" identity.
-
   - **Virtual Body Doubling:** Focusmate or "Cameras On" co-working sessions.
 
 ---
@@ -104,7 +95,6 @@ The challenges of software development are not moral failings; they are neurobio
 ### B. The Kryptonite: Rejection Sensitivity Dysphoria (RSD)
 
 - **The Problem:** [[Rejection Sensitivity Dysphoria Complicates Feedback for ADHD Developers]]. Code reviews or PR comments can feel like personal attacks, leading to avoidance or defensiveness.
-
 - **The Fix:** **[[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]]**. Pair programming provides instant feedback, social pressure (Body Doubling), and shared cognition, bypassing RSD spirals.
 
 ---
@@ -112,5 +102,4 @@ The challenges of software development are not moral failings; they are neurobio
 ## 6. Strategic Implementation
 
 - **Individual:** **[[Individual ADHD Strategy Involves a Hybrid System and Self-Compassion]]**. Stop fighting your brain. Build a hybrid system (Digital + Analog) and forgive the bad days.
-
 - **Organizational:** **[[Organizations Can Support ADHD Employees Through Culture and Accommodations]]**. Clearer tickets, flexible hours, and "No-Meeting" blocks are high-impact, low-cost accommodations.

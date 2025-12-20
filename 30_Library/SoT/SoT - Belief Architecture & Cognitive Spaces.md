@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-16T15:00:00Z
 epistemic: theory
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:12:37Z
+modified: 2025-12-20T09:54:09Z
 purpose: To define beliefs not as static truths, but as functional architecture (walls and doors) that define the "search space" of possibility for the mind.
 related-soTs: ["[[SoT - ADHD Self-Compassion & Strengths]]", "[[SoT - Cognitive Refactoring (Neural Debugging)]]", "[[SoT - Identity-Based Habit Formation]]"]
 review_interval: 1 year
@@ -36,7 +36,6 @@ Imagine the mind as a vast building. Every belief you hold constructs a room.
 When you believe "I am lazy," you build a small room with no windows.
 
 - **The Constraint:** Your brain stops searching for solutions outside this room. Why look for a productivity system if the fundamental truth is "laziness"?
-
 - **The Result:** The search space for solutions collapses to zero. You are trapped in the belief.
 
 ### B. Empowering Beliefs (The Hallway)
@@ -44,7 +43,6 @@ When you believe "I am lazy," you build a small room with no windows.
 When you believe "I have an Interest-Based Nervous System," you build a hallway with many doors.
 
 - **The Expansion:** Your brain now searches for solutions compatible with this new truth (Gamification, Novelty, Deadline motivation).
-
 - **The Result:** The search space expands to include strategies that actually work.
 
 ---
@@ -68,9 +66,7 @@ For neurodivergent minds, the most dangerous beliefs are Identity-Level Constrai
 In ProdOS, we adopt a **Pragmatic Truth** standard. We do not ask "Is this objectively true?" (often unknowable); we ask **"Is this useful?"**
 
 - **Example:** "I am an Explorer."
-
   - *Is it true?* Maybe.
-
   - *Is it useful?* Yes. It reframes failure as "Data Gathering," reducing shame and increasing resilience ([[SoT - Reframe Your Mindset From Pretender to Explorer]]). Therefore, we install this belief.
 
 ---
@@ -89,9 +85,6 @@ To maintain a healthy cognitive space, we must actively practice **Meta-Framing*
 ## 6. Related Zettels
 
 - [[Beliefs as Defining Spaces]] - The original concept note.
-
 - [[Common Cognitive Distortions]] - The bugs in the architecture.
-
 - [[Meta Framing]] - The architect's view.
-
 - [[Emotional Reasoning]] - Mistaking the feeling of the wall for the reality of the wall.

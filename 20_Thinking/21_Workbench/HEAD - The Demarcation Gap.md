@@ -6,7 +6,7 @@ created: 2025-12-09T00:00:00Z
 description: "Created with Gemini"
 epistemic: 
 last_reviewed: 
-modified: 2025-12-09T10:17:53Z
+modified: 2025-12-20T09:55:01Z
 published:
 purpose: 
 review_interval: 
@@ -60,7 +60,7 @@ Use this concise logic flow to drive the conversation:
 > 1. **The Ambiguity:** We haven't defined where the Network ends and the Application begins. Because we consume the data, we've implicitly inherited the responsibility for the *transport* of that data.
 > 2. **The Operational Risk:** We are currently treating network infrastructure issues as application bugs. If the VPN gateway or peering fails, my team gets paged, but we likely lack the permissions or toolset to resolve it.
 > 3. **The Solution:** We need to establish a **Demarcation Point**. The application should be responsible for *processing* the data, but the *availability of the route* should fall under a Platform or Infrastructure remit.
->
+> 
 > I propose we audit our Terraform state to see exactly who provisions the gateway and formally map this boundary."
 
 ---

@@ -4,7 +4,7 @@ confidence: 4/5
 created: 2025-12-17T00:00:00Z
 epistemic: 
 last_reviewed: 2025-12-17
-modified: 2025-12-19T10:12:37Z
+modified: 2025-12-20T09:54:09Z
 purpose: To define the conflict that arises when authority derived from an organizational chart clashes with authority derived from knowledge and expertise.
 related-soTs: ["[[MOC - Socio-Technical Dissonance]]", "[[SoT - Epistemic Trespassing and the HiPPO Effect]]"]
 review_interval: 
@@ -31,7 +31,6 @@ In an efficient and effective system, authority and competence are tightly coupl
 ### 2.1 Types of Authority
 
 - **Positional Authority:** Power derived from a title or position within an organizational hierarchy (e.g., Tech Lead, CEO, Manager). This authority is granted by the organization.
-
 - **Expert Authority:** Power derived from demonstrated knowledge, skill, and experience in a specific domain. This authority is earned and recognized by peers.
 
 ### 2.2 The Conflict

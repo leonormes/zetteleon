@@ -5,7 +5,7 @@ confidence:
 created: 2025-03-25T06:18:51Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T10:13:04Z
+modified: 2025-12-20T09:54:40Z
 purpose: 
 review_interval: 
 see_also: []
@@ -35,11 +35,8 @@ Network driver itself must follow the rules imposed by the model.
 The model defines 4 things:
 
 - Every pod has its IP address.
-
 - Containers inside the pod can communicate between themselves.
-
 - Every pod can communicate with another pod in the cluster without using NAT.
-
 - Isolation is defined by the Network Policies.
 
 Apart from network driver one also important component is IPAM.
@@ -85,7 +82,6 @@ When the request gets to Node 2, cbr0 on Node 2, based on the destination IP add
 The unanswered questions here are:
 
 - What are “Routing tables”?
-
 - Who is setting subnets of the nodes?
 
 ## Kubenet on the Azure

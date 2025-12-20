@@ -5,7 +5,7 @@ confidence: 5/5
 created: 2025-12-14T00:00:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T10:12:38Z
+modified: 2025-12-20T09:54:10Z
 purpose: A mathematical framework for quantifying team understanding, bias, and communication loss using set theory.
 review_interval: 
 see_also: []
@@ -51,9 +51,7 @@ updated:
 ### A. Core Variables (The State)
 
 - $U$ = **The Whole Picture** (Total complexity of the problem).
-
 - $K_A$ = **Knowledge of Person A** (Subset of $U$).
-
 - $P_A$ = **Perceived Knowledge** (What A *thinks* they know).
 
 ### B. The Three Gaps

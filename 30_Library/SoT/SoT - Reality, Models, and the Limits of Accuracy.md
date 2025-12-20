@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-16T12:00:00Z
 epistemic: Grounded in General Semantics (Korzybski), Philosophy of Science (Popper/Hawking), and Cognitive Science (Predictive Processing).
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:12:35Z
+modified: 2025-12-20T09:54:07Z
 purpose: To define the fundamental epistemological stance of ProdOS that all understanding is a simplified model (Map) of a complex reality (Territory), and to provide protocols for managing the gap between them.
 related-soTs: ["[[SoT - Cognitive Ambiguity and Deep Thinking]]", "[[SoT - The Extended Mind]]", "[[SoT - Working Memory & Schema Theory]]"]
 review_interval: 12 months
@@ -38,13 +38,9 @@ Based on the work of Alfred Korzybski (General Semantics), ProdOS adopts three f
 Human knowledge is built on layers of abstraction.
 
 - **Level 0 (The Event):** The raw sub-atomic reality (unknowable in full).
-
 - **Level 1 (Sensory):** What your eyes/ears perceive (already filtered by biology).
-
 - **Level 2 (Descriptive):** The words you use to describe it ("The apple is red").
-
 - **Level 3 (Inferential):** The meaning you assign ("The apple is tasty").
-
 - **The Error:** Most conflict and anxiety arise from confusing Level 3 (Inference) with Level 0 (Reality).
 
 ### B. Non-Identity
@@ -52,7 +48,6 @@ Human knowledge is built on layers of abstraction.
 No two things are identical, and no thing is identical to itself over time.
 
 - **The Trap:** Labels like "Lazy" or "Failure" imply a static, permanent identity.
-
 - **The Truth:** These labels are low-resolution snapshots of a dynamic, ever-changing process.
 
 ### C. Time-Binding
@@ -60,7 +55,6 @@ No two things are identical, and no thing is identical to itself over time.
 Humans are unique in their ability to pass maps across time (writing, culture).
 
 - **The Power:** We don't have to start from scratch; we stand on the shoulders of giants.
-
 - **The Risk:** We often inherit outdated or broken maps (prejudices, false beliefs) and treat them as absolute truth.
 
 ---
@@ -74,9 +68,7 @@ If we can only see the territory through the map, how do we know if the map is a
 We bypass "Absolute Truth" in favor of **Predictive Power**.
 
 - **Utility:** Does this model allow me to navigate the world effectively?
-
 - **Falsifiability (Popper):** A good model makes specific predictions that can be proven wrong. If a model explains *everything*, it explains *nothing*.
-
 - **Model-Dependent Realism (Hawking):** It is meaningless to ask if a model is "real." We only ask if it matches observation. If two contradictory models both work (e.g., wave-particle duality), we use whichever is most useful for the task at hand.
 
 ---
@@ -106,7 +98,6 @@ To function in a complex world, we must decouple **Self-Worth** from **Map Accur
 ### The "Learner" Identity
 
 - **Old Equation:** `My Value = Being Right`. (Fragile).
-
 - **New Equation:** `My Value = The Speed at which I Update my Map`. (Anti-Fragile).
 
 ### Tactics for Epistemic Agility
@@ -120,7 +111,5 @@ To function in a complex world, we must decouple **Self-Worth** from **Map Accur
 ## 6. Related Components
 
 - **[[SoT - The Extended Mind]]**: The external hard drive for our maps.
-
 - **[[SoT - Working Memory & Schema Theory]]**: How maps are loaded and run.
-
 - **[[SoT - Cognitive Ambiguity and Deep Thinking]]**: The skill of holding two maps simultaneously.

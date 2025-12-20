@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-20T08:00:03Z
 epistemic: experimental
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:13:19Z
+modified: 2025-12-20T09:54:56Z
 purpose: To test the behavioral activation principle that action precedes motivation.
 review_interval: 2 weeks
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -29,15 +29,11 @@ version: 1
 ## 2. Experiment Protocol
 
 - **Duration:** 3 Days.
-
 - **Trigger:** Whenever I catch myself sitting and "waiting to feel like it" or saying "I'm just not motivated."
-
 - **Action:**
 
     1. **Identify:** Pick one "stupidly small" physical movement (e.g., stand up, put on shoes, touch the dish sponge).
-
     2. **Move:** Do it immediately. Do not think about the rest of the task.
-
     3. **Observe:** Does the "Wall of Awful" dissolve once the body is in motion?
 
 ---
@@ -45,7 +41,6 @@ version: 1
 ## 3. Expected Outcome
 
 - **Success:** I realize that the *dread* was all in the anticipation, not the execution.
-
 - **Metric:** Number of times I successfully "tricked" myself into starting.
 
 ---

@@ -1,14 +1,14 @@
 ---
-aliases: [Padded Cell Languages, Nanny Languages, Language Safety Models]
+aliases: [Language Safety Models, Nanny Languages, Padded Cell Languages]
 confidence: 4/5
-confidence-gaps: [This is a metaphorical framework, not a formal computer science classification.]
+confidence-gaps: [not a formal computer science classification., This is a metaphorical framework]
 created: 2025-12-19T13:16:01Z
 decay-signals: []
 epistemic: framework
 last_reviewed: 2025-12-19
-modified: 2025-12-19T13:16:01Z
+modified: 2025-12-20T09:54:05Z
 purpose: "To provide a metaphorical framework for classifying programming languages based on their approach to developer safety and abstraction."
-quality-markers: [Clearly defines both metaphors, Provides canonical examples for each category, Links the framework to the Pragmatism-Rigour spectrum.]
+quality-markers: [Clearly defines both metaphors, Links the framework to the Pragmatism-Rigour spectrum., Provides canonical examples for each category]
 related-soTs: ["[[SoT - Pragmatism vs Rigour in Software]]", "[[SoT - Rust's Design Philosophy]]"]
 resonance-score: 9
 review_interval: 18 months
@@ -16,7 +16,7 @@ see_also: []
 source_of_truth: true
 status: stable
 supersedes: []
-tags: ["mental-model", "programming-languages", "safety", "abstraction"]
+tags: ["abstraction", "mental-model", "programming-languages", "safety"]
 title: SoT - Padded Cell vs Nanny Languages
 type: SoT
 uid: 

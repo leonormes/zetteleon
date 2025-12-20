@@ -5,7 +5,7 @@ confidence: 5/5
 created: 2025-12-14T19:00:00Z
 epistemic: theory
 last_reviewed: 2025-12-14
-modified: 2025-12-19T10:12:35Z
+modified: 2025-12-20T09:54:08Z
 purpose: To define money not as a store of value but as a store of potential energy (work capacity), and to formalize the mechanics of spending as vector allocation.
 review_interval: 6 months
 see_also: ["[[SoT - Family Financial Wellness]]", "[[SoT - Fundamental Description of Economics]]", "[[SoT - Ontology of Money and Wealth]]"]
@@ -33,15 +33,12 @@ version: 1
 In a direct barter system, input and output are tightly coupled (coincidence of wants). Money breaks this coupling.
 
 - **Input:** You perform specific, concrete work (e.g., Coding).
-
 - **Encapsulation:** This effort is stored in a fungible token (Money).
-
 - **Output:** You redeem the token to trigger an unrelated subroutine (e.g., Car Manufacturing).
 
 ### 2.2 Potential vs. Kinetic
 
 - **Money (Potential Energy - $E_p$):** A bank account is a static battery. It represents the *capacity* to cause change but performs no work itself.
-
 - **Spending (Kinetic Energy - $E_k$):** Spending acts as the switch that converts potential into kinetic motion (logistics, labour, manufacturing). The "power" of money is the moment of this conversion.
 
 ---
@@ -53,13 +50,11 @@ Spending is not a Scalar quantity (Amount); it is a **Vector** quantity (Amount 
 ### 3.1 Dissipative Work (Squandering)
 
 - **Direction:** Towards high-entropy consumption (status signals, transient pleasures).
-
 - **System Impact:** The potential energy is converted into heat and vanishes. The system returns to its previous state. ($E  o 0$).
 
 ### 3.2 Generative Work (Leverage)
 
 - **Direction:** Towards capital assets, R&D, or infrastructure.
-
 - **System Impact:** The energy builds a "machine" that reduces the energy cost of future tasks. It creates local order (negentropy). ($E  o E + \Delta$).
 
 ---
@@ -69,13 +64,9 @@ Spending is not a Scalar quantity (Amount); it is a **Vector** quantity (Amount 
 The holder of money acts as the **Scheduler** for the societal CPU.
 
 - **Spending as Code:** Every transaction is an instruction sent to the market.
-
 - **Command Types:**
-
   - *Low-Level:* "Fetch food."
-
   - *High-Level:* "Build fusion reactor."
-
 - **Authority:** Power lies not in possessing the token, but in the architectural authority to determine *which* subroutines the collective workforce executes next.
 
 ---
@@ -85,7 +76,6 @@ The holder of money acts as the **Scheduler** for the societal CPU.
 From an employer's perspective, a salary is only one part of the **Total Cost of Employment (TCE)**.
 
 - **The Load:** Statutory costs (National Insurance, Pension) add a "frictional load" (approx. 15-20% in the UK) to the base salary.
-
 - **The Threshold:** For an employee to be viable, their output must generate value exceeding not just their salary, but their entire TCE + Overhead.
 
 ---

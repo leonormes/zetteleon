@@ -4,7 +4,7 @@ confidence: 4/5
 created: 2025-12-17T00:00:00Z
 epistemic: 
 last_reviewed: 2025-12-17
-modified: 2025-12-19T10:12:37Z
+modified: 2025-12-20T09:54:10Z
 purpose: To define Accidental Social Complexity as a primary source of inefficiency and friction in technical projects.
 related-soTs: ["[[MOC - Socio-Technical Dissonance]]"]
 review_interval: 
@@ -29,7 +29,6 @@ updated:
 In any project, there are two types of complexity:
 
 - **Essential Complexity:** The difficulty inherent in the problem itself (e.g., the logic of the algorithm, the physics of the system). This is the work that *must* be done.
-
 - **Accidental Complexity:** Difficulty introduced by the tools, processes, or environment chosen to solve the problem.
 
 Accidental Social Complexity is a significant sub-category of Accidental Complexity. It forces a team to spend energy and cognitive cycles managing the "machine" of the organization (i.e., politics, egos, inefficient communication) rather than solving the essential problem.

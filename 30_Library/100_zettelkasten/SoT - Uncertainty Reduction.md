@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-08-23T20:45:19Z
 epistemic: theory
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:13:17Z
+modified: 2025-12-20T09:54:55Z
 purpose: To define the brain's fundamental drive to minimize entropy (uncertainty) through Predictive Processing, explaining the psychological need for validation and closure.
 related-soTs: ["[[SoT - Cognitive Ambiguity and Deep Thinking]]", "[[SoT - Myopic Understanding]]", "[[SoT - The Internal World and the Need for Validation]]"]
 review_interval: 
@@ -45,7 +45,6 @@ When the model fails (e.g., you trip), the brain registers **Prediction Error**.
 - **The Resolution:** The brain must either:
 
     1. **Update the Model:** Learn a new fact ("This floor is slippery").
-
     2. **Act:** Change the world to fit the model (Wipe the floor).
 
 ### C. Information as Uncertainty
@@ -53,9 +52,7 @@ When the model fails (e.g., you trip), the brain registers **Prediction Error**.
 Aligning with [[Shannon's Information Theory - Information as Uncertainty]], "Information" is technically defined as the resolution of uncertainty.
 
 - **High Entropy:** A state of maximum unpredictability (Chaos).
-
 - **Low Entropy:** A state of maximum order (Pattern).
-
 - **The Drive:** We seek information not for its own sake, but to reduce the entropy of our internal state.
 
 ---
@@ -67,7 +64,6 @@ Aligning with [[Shannon's Information Theory - Information as Uncertainty]], "In
 Because processing uncertainty is energy-intensive, the brain has a bias toward "Closure."
 
 - **Premature Closure:** We often accept a simple, wrong answer over a complex, right one because it resolves the tension of "not knowing" faster.
-
 - **Link:** [[Discomfort with Ambiguity Prevents Deeper Thinking]].
 
 ### B. Validation as Error Reduction
@@ -75,7 +71,6 @@ Because processing uncertainty is energy-intensive, the brain has a bias toward 
 We use other people as "Reality Checks" to reduce our own internal entropy.
 
 - **The Mechanism:** If I hold a belief ($X$) and you agree ($X$), my confidence increases, and my internal uncertainty decreases.
-
 - **The Result:** [[External Validation Reduces Cognitive Dissonance]]. Validation is effectively a "patch" for our internal models.
 
 ---
@@ -93,9 +88,6 @@ We use other people as "Reality Checks" to reduce our own internal entropy.
 ## 5. Related Zettels
 
 - [[The World's Ambiguity Drives the Need for Certainty]] - The existential driver.
-
 - [[Confirmation as a Perceived Shortcut to Truth]] - How we cheat the system.
-
 - [[Beliefs as Defining Spaces]] - How we limit the world to limit uncertainty.
-
 - [[Shannon's Information Theory - Information as Uncertainty]] - The mathematical basis.

@@ -1,14 +1,14 @@
 ---
-aliases: [Fusion, Deforestation, Stream Fusion]
+aliases: [Deforestation, Fusion, Stream Fusion]
 confidence: 4/5
-confidence-gaps: [The specific compiler transformations (e.g., build/foldr) are highly technical.]
+confidence-gaps: [build/foldr) are highly technical., The specific compiler transformations (e.g.]
 created: 2025-12-19T13:14:01Z
 decay-signals: []
 epistemic: concept
 last_reviewed: 2025-12-19
-modified: 2025-12-19T13:14:01Z
+modified: 2025-12-20T09:54:05Z
 purpose: "To define Function Fusion as a high-level, algebraic optimization technique that eliminates intermediate data structures."
-quality-markers: [Provides a clear map/filter example, Contrasts high-level fusion with low-level LLVM optimization.]
+quality-markers: [Contrasts high-level fusion with low-level LLVM optimization., Provides a clear map/filter example]
 related-soTs: []
 resonance-score: 7
 review_interval: 24 months
@@ -16,7 +16,7 @@ see_also: []
 source_of_truth: true
 status: stable
 supersedes: []
-tags: ["optimization", "compilers", "functional-programming"]
+tags: ["compilers", "functional-programming", "optimization"]
 title: SoT - Optimization via Function Fusion
 type: SoT
 uid: 
@@ -60,7 +60,7 @@ Fusion works because of the strong mathematical (algebraic) properties of functi
     2. I can combine these. Instead of building the whole list from `map`, I can compute one element, immediately pass it to `filter`'s logic, and only then decide if it should go into the final list.
 - **Fused (Rewritten) Code:**
 
-    ```
+    ```sh
     let results = [];
     for item in collection {
         let mapped_item = f(item); // Perform map's logic
@@ -71,6 +71,7 @@ Fusion works because of the strong mathematical (algebraic) properties of functi
     ```
 
 ### The Critique of LLVM-Based Optimization
+
 Languages like Rust, which lack the powerful higher-kinded abstractions needed for true fusion, often rely on the LLVM compiler backend to perform similar optimizations.
 
 - **The Rust Deficit:** Rust's iterators are a pragmatic solution, but they are just "syntax sugar" over loops. The compiler doesn't perform high-level algebraic fusion.

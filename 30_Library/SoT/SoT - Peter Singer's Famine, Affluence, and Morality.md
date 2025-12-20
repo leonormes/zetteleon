@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-14T17:00:00Z
 epistemic: theory
 last_reviewed: 2025-12-14
-modified: 2025-12-19T10:12:35Z
+modified: 2025-12-20T09:54:07Z
 purpose: To provide a structural analysis of Peter Singer's 1972 paper "Famine, Affluence, and Morality," outlining its core argument and radical implications for moral obligation.
 review_interval: 6 months
 see_also: ["[[SoT - Moral Philosophy Overview]]", "[[SoT - Utilitarianism]]"]
@@ -69,13 +69,11 @@ Singer addresses common objections that attempt to differentiate the Shallow Pon
 ### 5.1 Proximity
 
 - **Objection:** The victim is far away, reducing moral obligation.
-
 - **Singer's Response:** Modern communication and efficient global relief organizations render geographical proximity morally irrelevant. Distance does not prevent knowledge or action.
 
 ### 5.2 Presence of Others
 
 - **Objection:** The presence of many others who could help diminishes individual obligation.
-
 - **Singer's Response:** Individual obligation persists regardless of whether others act. If a child drowns because multiple bystanders fail to act, all are morally culpable. The obligation remains on each individual if others fail to fulfill theirs.
 
 ---
@@ -89,5 +87,4 @@ Singer's argument implies that most affluent individuals are living morally unac
 ## 7. Further Discussion
 
 - **Full discussion video:** [http://www.youtube.com/watch?v=KVl5kMXz1vA](http://www.youtube.com/watch?v=KVl5kMXz1vA)
-
 - **Effective Altruism:** Singer's work is a foundational text for the effective altruism movement, which advocates for using evidence and reason to determine the most effective ways to benefit others.

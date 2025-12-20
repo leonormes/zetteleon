@@ -4,7 +4,7 @@ confidence: 4/5
 created: 2025-12-17T00:00:00Z
 epistemic: 
 last_reviewed: 2025-12-17
-modified: 2025-12-19T10:12:34Z
+modified: 2025-12-20T09:54:07Z
 purpose: To provide a model for quantifying the efficiency loss in a team caused by dysfunctional social dynamics, or "social drag."
 related-soTs: ["[[MOC - Socio-Technical Dissonance]]", "[[SoT - Accidental Social Complexity]]"]
 review_interval: 
@@ -29,7 +29,6 @@ updated:
 This model treats a team like a mechanical transmission system.
 
 - **Ideal State (Low Friction):** Energy input (time, effort) is efficiently converted into technical output (working software, solved problems). The social structure is a lubricant.
-
 - **Dysfunctional State (High Friction):** A significant portion of energy is lost to "social drag." The team must apply "lubricant" in the form of political maneuvering, ego-soothing, and excessive persuasion just to make progress.
 
 ### 2.1 Meta-Work and Efficiency Loss

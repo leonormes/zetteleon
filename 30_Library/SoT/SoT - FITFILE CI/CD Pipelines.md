@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-16T10:00:00Z
 epistemic: technical_documentation
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:12:37Z
+modified: 2025-12-20T09:54:09Z
 purpose: To serve as the Source of Truth for FITFILE's CI/CD infrastructure, detailing the build, validation, and deployment pipelines.
 review_interval: 
 see_also: []
@@ -142,5 +142,4 @@ Testing is not just a script; it is a **Workflow**.
 ## 6. Related Documentation
 
 - [[SoT - FITFILE Deployment Process]] - The high-level process map.
-
 - [[SoT - FITFILE Secret Management Architecture]] - How secrets are handled within these deployments.

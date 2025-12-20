@@ -6,7 +6,7 @@ created: 2025-12-19T13:08:01Z
 decay-signals: []
 epistemic: principle
 last_reviewed: 2025-12-19
-modified: 2025-12-19T13:08:01Z
+modified: 2025-12-20T09:54:05Z
 purpose: "To explain the market dynamics that allow simple, less-correct systems to dominate complex, theoretically pure ones."
 quality-markers: [Explains the trade-off between implementation simplicity and correctness.]
 related-soTs: ["[[SoT - Pragmatism vs Rigour in Software]]"]
@@ -16,8 +16,8 @@ see_also: []
 source_of_truth: true
 status: stable
 supersedes: []
-tags: ["philosophy", "software-design", "market-dynamics"]
-title: SoT - The "Worse is Better" Philosophy
+tags: ["market-dynamics", "philosophy", "software-design"]
+title: 'SoT - The "Worse is Better" Philosophy'
 type: SoT
 uid: 
 updated:

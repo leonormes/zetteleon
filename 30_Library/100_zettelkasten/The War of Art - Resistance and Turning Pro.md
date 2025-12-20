@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2025-12-11T00:00:00Z
 epistemic: theory
 last_reviewed: 2025-12-11
-modified: 2025-12-19T10:13:16Z
+modified: 2025-12-20T09:54:54Z
 purpose: To define the concept of Resistance as the enemy of creative work and 'Turning Pro' as the solution, serving as a core mental model for ProdOS.
 review_interval: 6 months
 see_also: ["[[ADHD Brain Operates on an Interest-Based Nervous System]]", "[[Logic Does Not Produce Dopamine]]", "[[SoT - PRODOS (System Architecture)]]"]
@@ -24,9 +24,7 @@ updated: 2025-12-11
 Resistance is the friction you feel when you attempt to move from "who you are" to "who you could be." It is:
 
 - **Universal:** Everyone feels it.
-
 - **Infallible:** It always points to True North. The more you fear a task, the more important it is to your soul's evolution.
-
 - **Protean:** It shapeshifts into procrastination, rationalization ("I'll do it later"), self-doubt, perfectionism, and distraction.
 
 **The ProdOS Connection:** In [[SoT - PRODOS (System Architecture)]], Resistance is the primary cause of "Task Initiation Paralysis" and "Engine Stall." It is the reason logic alone (the steering wheel) fails without ignition.

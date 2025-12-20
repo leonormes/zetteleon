@@ -5,7 +5,7 @@ confidence:
 created: 2025-12-07T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-19T10:12:33Z
+modified: 2025-12-20T09:54:05Z
 purpose:
 review_interval:
 see_also: []
@@ -49,9 +49,7 @@ My current PKM fails because it treats knowledge like a **file system** (a flat 
 ## The Tension
 
 - **Capture vs. Process:** I have been "cargo culting" PKM—building infrastructure for insights that never happen. I collect information (pushing to the repo) but rarely merge or refactor (pull requests/code review).
-
 - **The Illusion of Profundity:** "The words I write down are not the same as the thoughts when I have them" (2025-11-23). There is a loss of fidelity between the rich internal model and the static text.
-
 - **Encyclopedia vs. Tool:** I am building an encyclopedia (storage) when I actually need a workbench (processing). An encyclopedia is hard to load into context quickly; a tool should be ready to hand.
 
 ## The Next Test

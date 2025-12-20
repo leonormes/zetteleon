@@ -7,7 +7,7 @@ decay-signals: []
 epistemic: theory
 last-synthesis: 2025-12-12
 last_reviewed: 2025-12-07
-modified: 2025-12-19T10:12:33Z
+modified: 2025-12-20T09:54:04Z
 purpose: To define the canonical framework for habit formation and modification based on James Clear's Atomic Habits.
 quality-markers: [Habit Stacking)., Includes both creation and breaking rules., Maps Laws to the Habit Loop., Provides actionable strategies (Implementation Intentions]
 related-soTs: []
@@ -45,7 +45,6 @@ All habits proceed through four distinct stages in a feedback loop. Failure at a
 Habits are the brain's strategy for energy conservation. As behaviours become automatic, activity shifts from the prefrontal cortex (deliberate thought) to the **Basal Ganglia** (automatic pattern).
 
 - **Purpose:** To free up mental energy for novel problems (e.g., inventing, strategy) by relegating basic tasks (e.g., walking, eating) to autopilot.
-
 - **Mechanism:** "Champions don't do extraordinary things. They do ordinary things without thinking." (Dungy).
 
 ---
@@ -101,7 +100,6 @@ Leverages the "Synaptic Pruning" of existing habits to build new ones.
 Studies show that focusing on the *process* (putting in the time) matters more than the individual goal.
 
 - **Break Strategy:** High performers work for ~52 minutes with a 17-minute break. The break is as critical as the focus.
-
 - **Interleaving:** Mixing different concepts (Interleaving) creates stronger neural links than blocked practice.
 
 ---

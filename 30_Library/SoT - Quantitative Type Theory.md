@@ -1,14 +1,14 @@
 ---
-aliases: [QTT, Graded Modalities, Linear Types]
+aliases: [Graded Modalities, Linear Types, QTT]
 confidence: 4/5
 confidence-gaps: [The precise mathematical formulation is highly academic.]
 created: 2025-12-19T13:13:01Z
 decay-signals: []
 epistemic: concept
 last_reviewed: 2025-12-19
-modified: 2025-12-19T13:13:01Z
+modified: 2025-12-20T09:54:05Z
 purpose: "To define Quantitative Type Theory as a formal system for tracking resource usage and its superiority to simpler ownership models."
-quality-markers: [Explains graded modalities, Contrasts with Rust's binary ownership model.]
+quality-markers: [Contrasts with Rust's binary ownership model., Explains graded modalities]
 related-soTs: ["[[SoT - Dependent Types in Software]]", "[[SoT - Rust's Ownership Model]]"]
 resonance-score: 8
 review_interval: 24 months
@@ -16,7 +16,7 @@ see_also: []
 source_of_truth: true
 status: stable
 supersedes: []
-tags: ["type-theory", "formal-methods", "resource-management", "programming-languages"]
+tags: ["formal-methods", "programming-languages", "resource-management", "type-theory"]
 title: SoT - Quantitative Type Theory
 type: SoT
 uid: 
@@ -53,10 +53,13 @@ The core innovation of QTT is the **Graded Modality** (or "graded type"). Instea
 - **Grade `ω` (Omega/Many)**: The value can be used any number of times (a traditional, unrestricted type).
 
 A function's type signature can then make assertions about how it uses its arguments:
+
 `fn process(file: File [1]) -> String [1]`
+
 This signature states that the `process` function consumes exactly one `File` and produces exactly one `String`. The compiler can statically verify that this contract is met throughout the entire program.
 
 ### Relationship to Rust
+
 Rust's ownership system can be seen as a pragmatic, hard-coded implementation of a very simple QTT:
 
 - **Move semantics** approximate a linear type (`[1]`).

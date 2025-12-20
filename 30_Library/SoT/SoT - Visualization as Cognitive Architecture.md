@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-15T00:00:00Z
 epistemic: Derived from neuroscience of the primary visual cortex and fractal geometry principles.
 last_reviewed: 2025-12-15
-modified: 2025-12-19T10:12:34Z
+modified: 2025-12-20T09:54:06Z
 purpose: To redefine visualization not as "imagination" but as a cognitive architecture for constructing reality using fractal logic.
 related-soTs: ["[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]", "[[SoT - Reality, Models, and the Limits of Accuracy]]", "[[SoT - The Cognitive Physiology of Task Execution]]"]
 review_interval: 6 months
@@ -32,9 +32,7 @@ updated:
 The visual cortex does not record the world like a camera; it constructs it like a GPU rendering a video game.
 
 - **The "First Frame":** The primary visual cortex acts as the initial observer window. It cannot process "Infinite Context" simultaneously.
-
 - **Assembly vs. Perception:** Vision is geometry in motion. We decode complex reality by processing small, ordered frames and assembling them into a coherent whole.
-
 - **The Implication:** If you try to visualise the "Big Picture" immediately, the system crashes (overwhelm/fuzziness). You must supply the **Seed Geometry** (The First Frame) and let the brain's fractal engine generate the rest.
 
 ---
@@ -60,25 +58,19 @@ To visualise effectively, invert the typical "Top-Down" approach. Focus on the s
 ### Plane 1: The Design Plane (The First Frame)
 
 - **Function:** High-fidelity focus on a **singular** object, concept, or feeling.
-
 - **Role:** The "Seed" of the fractal.
-
 - **Action:** Inject absolute **Intention** here. Do not worry about the background. Design this single frame with perfect clarity.
 
 ### Plane 2: The Observation Plane (The Bridge)
 
 - **Function:** The immediate spatial context connecting the Object to the Environment.
-
 - **Role:** The "Lens" or "Camera Angle."
-
 - **Action:** **Awareness.** How does the object sit in space? What is the relationship between the viewer and the design?
 
 ### Plane 3: The Ground Plane (The Context)
 
 - **Function:** The general background or "Big Picture."
-
 - **Role:** The "Result."
-
 - **Action:** **Release.** Do not try to design this manually. If Plane 1 and 2 are stable, the brain's fractal nature will *automatically* generate the context (just as a dream builds a world around a feeling).
 
 ---

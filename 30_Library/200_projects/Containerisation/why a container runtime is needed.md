@@ -4,7 +4,7 @@ confidence:
 created: 2025-02-07T12:57:54Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T10:12:55Z
+modified: 2025-12-20T09:54:29Z
 purpose: 
 review_interval: 
 see_also: []
@@ -268,7 +268,6 @@ As you correctly noted, containers are built using Linux kernel features like na
 3. Standardisation and Abstraction
 
     - The Open Container Initiative (OCI) establishes standards for container images, runtimes, and distributions. Container runtimes conform to these standards and make it possible for a container built with one tool to be run by another.
-
 - Container runtimes abstract the complexity of the underlying Linux kernel features. By providing an interface that implements OCI standards, a container runtime simplifies the process of working with containers, and it is not necessary to be an expert in the Linux kernel to use containers effectively. This makes it easier for developers and operators to work with containers without needing deep low-level knowledge, and allows higher level orchestration systems, like Kubernetes, to focus on managing applications without needing to know about the low level details of running a container.
 
 ## Container Runtimes in the Kubernetes Context

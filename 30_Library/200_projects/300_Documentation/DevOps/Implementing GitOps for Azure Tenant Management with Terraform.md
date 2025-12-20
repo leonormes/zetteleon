@@ -4,7 +4,7 @@ confidence:
 created: 2025-03-05T12:53:15Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:40Z
+modified: 2025-12-20T09:54:47Z
 purpose: 
 review_interval: 
 see_also: []
@@ -26,7 +26,6 @@ The challenge of securing the initial root access user is critical. Here's how t
     - Dedicated Break-Glass Account: Create a separate, highly secured "break-glass" account specifically for emergency access. This account should not be used for day-to-day operations.
     - Strong Credentials: Generate a complex, long password or use a managed identity with no password for this account. Store the password securely offline, potentially in a physical safe, with access granted only to a limited number of authorized personnel.
     - Azure AD Privileged Identity Management (PIM): Utilize Azure AD PIM to manage and audit the break-glass account.
-
 - Just-in-Time Access: Require users to request and justify activation of the break-glass role, granting temporary elevated privileges only when needed.
 - Multi-Factor Authentication (MFA): Enforce MFA for break-glass account activation to add an extra layer of security.
 - Auditing and Monitoring: Log and monitor all activities performed by the break-glass account for full audit trails.

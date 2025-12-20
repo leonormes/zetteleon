@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-16T13:20:00Z
 epistemic: experimental
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:13:22Z
+modified: 2025-12-20T09:55:01Z
 purpose: To test if visualizing time passage reduces Time Blindness and panic.
 review_interval: 2 weeks
 see_also: ["[[MOC - ADHD Experiments & Protocols]]", "[[MOC - Time Boxing for ADHD Brains]]"]
@@ -28,15 +28,11 @@ updated:
 ## 2. Experiment Protocol
 
 - **Duration:** 1 Week.
-
 - **Tools:** Time Timer (Physical or App).
-
 - **Action:**
 
     1. For *every* work block, set the visual timer.
-
     2. Place it in direct line of sight (not hidden in a tab).
-
     3. When the red is gone, stop.
 
 ---
@@ -44,7 +40,6 @@ updated:
 ## 3. Expected Outcome
 
 - **Metric:** Fewer instances of "Where did the last 2 hours go?"
-
 - **Qualitative:** Feeling of control over the day.
 
 ---

@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-12T23:11:21Z
 epistemic: Verified via Cognitive Science & Behavioral Economics (Rozenblit & Keil, 2002)
 last_reviewed: 2025-12-15
-modified: 2025-12-19T10:12:36Z
+modified: 2025-12-20T09:54:08Z
 purpose: To define the Illusion of Explanatory Depth and its critical impact on learning, systems thinking, and ADHD metacognition.
 related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - Knowledge Synthesis (Thinking)]]", "[[SoT - Thinking Patterns, Biases, and Heuristics]]"]
 review_interval: 6 months
@@ -42,7 +42,6 @@ This creates **Causal Opacity**: a "black box" in the mental model that is label
 The root error is conflating two distinct cognitive states:
 
 - **Familiarity (Prediction):** Knowing *that* X happens. (e.g., "If I push the lever, the water goes down.")
-
 - **Comprehension (Causality):** Knowing *why* X happens. (e.g., "The lever lifts the flapper valve, breaking the seal, allowing gravity to empty the tank into the bowl, triggering the siphon effect...")
 
 **The Danger:** We often navigate life using only Familiarity. However, when we need to *fix*, *debug*, or *innovate* on a system, Familiarity fails completely. You cannot debug a system you only know by label.
@@ -70,7 +69,6 @@ You cannot "think" your way out of IoED; you must "act" your way out. You must f
 Attempt to explain the concept in simple terms to a child or a rubber duck.
 
 - **The Mechanism:** When you hit a gap in your explanation ("...and then magic happens..."), you have located the edge of your knowledge.
-
 - **The Fix:** Go back to the source material *specifically* to fill that gap.
 
 ### B. The "Build It" Standard (The Creation Test)
@@ -78,7 +76,6 @@ Attempt to explain the concept in simple terms to a child or a rubber duck.
 "What I cannot create, I do not understand." — Richard Feynman.
 
 - **The Rule:** You do not understand a code library until you have built a small app with it. You do not understand a mental model until you have applied it to a real-life problem.
-
 - **Action:** Move from *Passive Consumption* to *Active Creation*.
 
 ### C. The "Why" Chain (The Causal Audit)
@@ -86,9 +83,7 @@ Attempt to explain the concept in simple terms to a child or a rubber duck.
 Ask "Why?" five times to drill down to first principles.
 
 - *Why does the toilet flush?* Because water enters the bowl.
-
 - *Why does water entering the bowl make it empty?* Because of the siphon effect.
-
 - *Why does the siphon effect work?* Because of atmospheric pressure and gravity...
 
 ---
@@ -96,5 +91,4 @@ Ask "Why?" five times to drill down to first principles.
 ## 5. Related Concepts
 
 - **Dunning-Kruger Effect:** IoED is the specific *mechanism* behind the "Mount Stupid" peak of the Dunning-Kruger curve (high confidence, low competence).
-
 - **The Knowledge Illusion:** We rely on the "Community of Knowledge" (other people, Google) to sustain our illusion. We think *we* know it because *we know where to find it*.

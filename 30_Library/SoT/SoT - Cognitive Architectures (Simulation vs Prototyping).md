@@ -5,7 +5,7 @@ created: 2025-12-12T00:00:00Z
 epistemic: 
 last-synthesis: 2025-12-12
 last_reviewed: 
-modified: 2025-12-19T10:12:37Z
+modified: 2025-12-20T09:54:09Z
 purpose: To define the fundamental divergence in cognitive architectures between "Predictive Processors" (Simulation-first) and "Iterative Processors" (Action-first), providing a framework for collaboration and self-understanding.
 review_interval: 6 months
 see_also: ["[[Predictive Processing and the Bayesian Brain]]", "[[SoT - Learning Mechanisms]]", "[[SoT - Myopic Understanding]]"]
@@ -25,7 +25,7 @@ updated:
 >
 > 1. **Predictive Processors (Planners):** Solve problems via high-fidelity internal **Simulation** *before* acting.
 > 2. **Iterative Processors (Doers):** Solve problems via rapid external **Prototyping** *during* action.
->
+> 
 > Neither is "inefficient"; they simply compile at different times. Planners compile at **Build Time** (optimizing for predictability). Iterators compile at **Run Time** (optimizing for adaptability).
 
 ---
@@ -35,25 +35,17 @@ updated:
 ### Type A: The Predictive Processor (The Planner)
 
 - **Mechanism:** High-fidelity internal simulation.
-
 - **Process:** Loads all constraints into working memory, runs a mental simulation, identifies errors, and produces a "pre-debugged" plan.
-
 - **View of a Plan:** A set of instructions to be followed. Deviation is seen as "error" or "waste."
-
 - **Core Metric:** **Predictability**. Minimizing *rework*.
-
 - **Failure Mode:** **Analysis Paralysis**. Cannot start without complete data.
 
 ### Type B: The Iterative Processor (The Doer/ADHD)
 
 - **Mechanism:** Real-time feedback loops.
-
 - **Process:** Treats reality as an external compiler. Writes "code" (takes action), checks the output (feedback), and refactors.
-
 - **View of a Plan:** A low-confidence hypothesis. Following it blindly feels dangerous because it lacks data validation.
-
 - **Core Metric:** **Adaptability**. Minimizing *uncertainty*.
-
 - **Failure Mode:** **Local Maxima**. Solving the wrong problem efficiently; lack of cohesion.
 
 ---
@@ -63,7 +55,6 @@ updated:
 Conflict arises when one type judges the other by their own metric.
 
 - **Planners** see Iterators as "inefficient" because they expend energy on actions that might be discarded (Rework).
-
 - **Iterators** see Planners as "inefficient" because they spend time processing data that hasn't been validated by reality (Speculation).
 
 **Reality:**
@@ -82,11 +73,8 @@ How an **Iterator** (You) interfaces with a **Planner** (Boss/Client) to prevent
 Planners send **Instructions** (How). You need **Constraints** (What).
 
 - **The Conflict:** You cannot follow their plan because you lack the context to validate it.
-
 - **The Fix:** **"Requirement Extraction."**
-
   - *Action:* Accept the plan, but ask: "What is the single most critical 'Definition of Done'?"
-
   - *Reframing:* Treat their "Steps 1-10" not as a recipe, but as **Boundary Conditions** (Walls of the room, not the dance steps).
 
 ### Phase 2: The Handshake (Black Box Implementation)
@@ -94,9 +82,7 @@ Planners send **Instructions** (How). You need **Constraints** (What).
 Planners want assurance of the *path*. You can only provide assurance of the *result*.
 
 - **The Conflict:** They demand a schedule; you need to test first.
-
 - **The Fix:** **"The Spike."**
-
   - *Script:* "I cannot commit to this full plan yet because there are unknown variables. Let me spend 2 hours doing a practical test (Spike). Afterward, I will give you a confirmed timeline based on real data."
 
 ### Phase 3: Reporting (Data Validation)
@@ -104,11 +90,8 @@ Planners want assurance of the *path*. You can only provide assurance of the *re
 Iterators change course when they learn. Planners see this as "flakiness."
 
 - **The Conflict:** Changing the plan breaks their internal simulation.
-
 - **The Fix:** Frame change as **"Data Validation."**
-
   - *Bad:* "I changed my mind."
-
   - *Good:* "The initial assumption [A] proved incorrect during testing. Data suggests approach [B] is faster. I am updating the implementation to match reality."
 
 ---
@@ -124,5 +107,4 @@ Iterators change course when they learn. Planners see this as "flakiness."
 ## 6. Sources and Links
 
 - [[The Core Divergence Simulation vs. Prototyping]] (Inbox Note)
-
 - [[Predictive Processing and the Bayesian Brain]]

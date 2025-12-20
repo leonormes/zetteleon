@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2025-11-02T12:03:00Z
 epistemic: "explanation"
 last_reviewed: 2025-11-02
-modified: 2025-12-19T10:13:17Z
+modified: 2025-12-20T09:54:55Z
 purpose: "To explain the psychological mechanisms that make starter tasks effective."
 review_interval: 90
 see_also: ["[[A Starter Task is a Small Action Designed Purely to Build Momentum]]", "[[The Zeigarnik Effect Creates a Cognitive Pull Towards Task Completion]]"]
@@ -30,5 +30,4 @@ Starter tasks are effective because they trigger a cognitive shift away from the
 ## The Cognitive Shift
 
 - **Before Starter Task:** The brain is focused on the magnitude of the full task ("I have to write a whole report"). The primary question is, "*Should I start?*" which is often met with resistance.
-
 - **After Starter Task:** Having already engaged with the task materials, the brain's focus shifts. The question is no longer about starting, but "*What should I do next?*" This is a much less intimidating question to answer.

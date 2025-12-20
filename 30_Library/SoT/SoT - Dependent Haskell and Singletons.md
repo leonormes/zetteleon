@@ -6,7 +6,7 @@ created: 2025-12-18T12:00:00Z
 decay-signals: ["GHC implementation of full Dependent Types (breaking change)"]
 epistemic: authoritative
 last_reviewed: 2025-12-18
-modified: 2025-12-19T10:12:37Z
+modified: 2025-12-20T09:54:09Z
 purpose: Defines the architectural patterns for implementing Dependent Types in Haskell using Singletons and GADTs.
 quality-markers: ["Synthesized from Stephanie Weirich's Dependent Haskell Talk"]
 related-soTs: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - Proof-Carrying Code via Simulated Dependent Types]]"]
@@ -25,13 +25,9 @@ updated:
 ## 1. Working Knowledge (Stable Foundation)
 
 - **The Goal:** To bridge the "Syntax Gap" between the **Term Level** (Runtime Values) and the **Type Level** (Compile-time Logic) in Haskell.
-
 - **The Problem:** Haskell traditionally separates these worlds. We want to write functions where the *Type* of the output depends on the *Value* of the input.
-
 - **The Solution (The Singleton Pattern):** A structural bridge that mirrors runtime values at the type level.
-
   - **Promoted Constructors:** Lifting data (like `'True`, `'False`) to be Types.
-
   - **Singleton Types (`SBool`):** A GADT that links the Term-level value (`True`) to the Type-level index (`'True`).
 
 ## 2. Current Understanding (Coherent Narrative)
@@ -61,27 +57,20 @@ The architecture uses Template Haskell (`[r| ... |]`) as the **Ingress Controlle
 ## 3. Understanding Layers (Progressive Abstraction)
 
 - **Layer 1 (The Pattern):** Mirror every Value with a Type. Connect them with a Singleton GADT.
-
 - **Layer 2 (The Flow):** Parse Data -> Generate Types -> Write Code that matches on Singletons -> Compiler proves Logic.
-
 - **Layer 3 (The Mental Model):** We are tricking a non-dependent language into behaving dependently by manually carrying the "Runtime Witness" (Singleton) that a true Dependent Language would carry automatically.
 
 ## 4. Minimum Viable Understanding (MVU)
 
 - **Promoted Types:** `DataKinds` lets us use values as types.
-
 - **Singletons:** `SValue` links the runtime value to the promoted type.
-
 - **Dependent Match:** Matching on `SValue` reveals type information to the compiler.
 
 ## 5. Tensions, Gaps, and Cross-SoT Coherence
 
 - **Comparison with Rust:** This is the Haskell equivalent of the "Simulated Dependent Types" technique in [[SoT - Proof-Carrying Code via Simulated Dependent Types]].
-
   - *Rust:* Uses Traits and PhantomData.
-
   - *Haskell:* Uses GADTs and DataKinds (Singletons).
-
 - **Boilerplate:** Both approaches suffer from high verbosity ("Type Gymnastics") to achieve what languages like Idris do natively.
 
 ## 6. Sources and Links

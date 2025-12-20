@@ -1,14 +1,14 @@
 ---
-aliases: [Static Linking, Dynamic Linking, Shared Libraries]
+aliases: [Dynamic Linking, Shared Libraries, Static Linking]
 confidence: 5/5
 confidence-gaps: []
 created: 2025-12-19T13:15:01Z
 decay-signals: []
 epistemic: comparison
 last_reviewed: 2025-12-19
-modified: 2025-12-19T13:15:01Z
+modified: 2025-12-20T09:54:05Z
 purpose: "To compare the trade-offs between static and dynamic linking, focusing on binary size, performance, and security."
-quality-markers: [Clearly defines both linking types, Uses a table to contrast the trade-offs, Highlights the security implications of static linking.]
+quality-markers: [Clearly defines both linking types, Highlights the security implications of static linking., Uses a table to contrast the trade-offs]
 related-soTs: []
 resonance-score: 9
 review_interval: 24 months
@@ -16,7 +16,7 @@ see_also: []
 source_of_truth: true
 status: stable
 supersedes: []
-tags: ["linking", "compilers", "security", "devops"]
+tags: ["compilers", "devops", "linking", "security"]
 title: SoT - Static vs Dynamic Linking
 type: SoT
 uid: 

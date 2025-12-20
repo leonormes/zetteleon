@@ -4,7 +4,7 @@ confidence:
 created: 2025-03-05T09:58:39Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T10:13:11Z
+modified: 2025-12-20T09:54:48Z
 purpose: 
 review_interval: 
 see_also: []
@@ -35,27 +35,22 @@ Maintaining a lean number of privileged role assignments is not merely a best pr
 #### 2.1. Enhanced Security Risk & Increased Attack Surface
 
 - **Expanded Attack Surface:** Each privileged account represents a potential entry point for malicious actors. With 19 privileged roles, we significantly broaden the attack surface. Should any of these accounts be compromised, attackers gain immediate high-level access to our Azure environment and the sensitive data it contains.
-
 - **Increased Risk of Lateral Movement:** If a standard user account is compromised, attackers often attempt to escalate privileges to gain broader access. However, with an already elevated number of privileged accounts, the initial compromise of even a seemingly less critical account can quickly lead to severe breaches if lateral movement is achieved to a legitimately privileged account.
 
 #### 2.2. Mitigation of Insider Threats (Accidental or Malicious)
 
 - **Reduced Accidental Misconfiguration:** A larger number of administrators increases the likelihood of accidental misconfigurations or errors with significant security implications. The principle of least privilege minimizes the impact of such errors by limiting the scope of potential damage.
-
 - **Discouraging Malicious Activity:** While we trust our personnel, the risk of insider threats, whether malicious or unintentional, is a reality for all organisations. Limiting privileged roles reduces the number of individuals who could potentially misuse elevated permissions for unauthorized data access, modification, or exfiltration.
 
 #### 2.3. Compliance and Regulatory Requirements
 
 - **NHS Data Security Standards:** As a company dealing with NHS patient data, we are bound by stringent data security and privacy regulations. Overly broad privileged access can be seen as a failure to adhere to the principle of least privilege, potentially leading to compliance violations and associated penalties.
-
 - **General Data Protection Regulation (GDPR):** GDPR mandates that organisations implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk. Excessive privileged roles can be interpreted as a lack of appropriate security measures, especially when best practice guidelines recommend a significantly lower number.
-
 - **ISO 27001 and Cyber Essentials Plus:** Achieving and maintaining certifications like ISO 27001 and Cyber Essentials Plus, which are often essential for organisations working within the UK public sector, requires demonstrating robust security practices. Managing and minimizing privileged access is a key component of these frameworks.
 
 #### 2.4. Principle of Least Privilege
 
 - **Core Security Tenet:** The principle of least privilege (PoLP) dictates that users should be granted only the minimum levels of access permissions needed to perform their job functions. Over-assigning privileged roles directly violates this principle.
-
 - **Operational Efficiency and Clarity:** Adhering to PoLP not only enhances security but also simplifies access management and auditing. A clear and concise assignment of roles makes it easier to understand who has access to what and why, streamlining security reviews and incident response.
 
 ### 3. Plan to Remediate Excessive Privileged Role Assignments

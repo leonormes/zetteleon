@@ -6,7 +6,7 @@ created: 2025-12-18T10:00:00Z
 decay-signals: ["Rust adds native dependent types"]
 epistemic: derived
 last_reviewed: 2025-12-18
-modified: 2025-12-19T10:12:35Z
+modified: 2025-12-20T09:54:07Z
 purpose: Canonical reference for leveraging type systems to eliminate runtime failure modes.
 quality-markers: ["Derived from Type Theory for the Working Rustacean"]
 related-soTs: []
@@ -25,9 +25,7 @@ updated:
 ## 1. Working Knowledge (Stable Foundation)
 
 - **Definition:** Proof-Carrying Code is a software design pattern where the validity of data and logic is encoded directly into the type system. This forces the compiler to verify correctness, transforming runtime checks (which can panic) into compile-time theorems (which fail to build).
-
 - **Core Mechanism:** **Dependent Typing**—where types depend on values. Since Rust lacks native dependent types, this is simulated using **Type-Level Programming** (e.g., Peano arithmetic) and **Trait Bounds**.
-
 - **Theoretical Basis:** The approach is grounded in resolving **Russell's Paradox** (avoiding self-reference) by establishing a strict hierarchy: Terms < Types < Kinds < Sorts.
 
 ## 2. Current Understanding (Coherent Narrative)
@@ -53,27 +51,20 @@ In this paradigm, a function like `copy_from` doesn't check sizes at runtime. It
 ## 3. Understanding Layers (Progressive Abstraction)
 
 - **Layer 1 (Mental Model):** "Make invalid states impossible." If the logic is wrong, the code shouldn't just crash; it shouldn't exist.
-
 - **Layer 2 (Mechanism):** Encode constraints (like size or state) into the Type Signature. The compiler checks the signature before running the code.
-
 - **Layer 3 (Implementation):** Use recursive types (Peano numbers) and trait bounds to simulate value-dependent types in languages that don't support them natively.
 
 ## 4. Minimum Viable Understanding (MVU)
 
 - **Goal:** Shift failure modes from Runtime (Panic) to Compile-Time (Error).
-
 - **Technique:** Encode domain logic (e.g., vector length) into the type signature.
-
 - **Mechanism:** In Rust, use **Phantom Data**, **Peano Arithmetic** (Type-level numbers), and **Trait Bounds** to force the compiler to verify constraints.
-
 - **Outcome:** Bugs regarding these constraints become unrepresentable; the binary cannot be built if the logic is flawed.
 
 ## 5. Tensions, Gaps, and Cross-SoT Coherence
 
 - **Tension (Safety vs. Ergonomics):** This approach introduces significant boilerplate and complexity ("Type Gymnastics"). It makes simple tasks verbose.
-
 - **Gap:** Rust does not natively support Dependent Types (unlike Idris or Agda), making this a simulation rather than a first-class feature. The `const generics` feature in Rust alleviates some of this but has limitations.
-
 - **Trade-off:** Best used for high-stakes core logic (cryptography, safety-critical systems) rather than general application code.
 
 ## 6. Sources and Links

@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-13T08:39:03Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T10:12:34Z
+modified: 2025-12-20T09:54:06Z
 purpose: 
 review_interval: 
 see_also: []
@@ -22,9 +22,7 @@ updated:
 A computer that calculates but cannot communicate is theoretically valid but practically useless.
 
 - **Input (Command):** Keyboard/Mouse/Touchscreen.
-
 - **Output (Result):** Monitor/Speaker/Haptics.
-
 - **The Loop:** User Input -> OS -> CPU -> RAM -> Output.
 
 ### The Input Translation Layer (Keyboard Architecture)

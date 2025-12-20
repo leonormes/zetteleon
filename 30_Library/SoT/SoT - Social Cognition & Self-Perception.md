@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T23:39:47Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T10:12:34Z
+modified: 2025-12-20T09:54:07Z
 purpose: 
 review_interval: 
 see_also: []
@@ -35,7 +35,6 @@ Our "sense" of how we are doing socially is a high-speed, mostly subconscious pr
 Moral judgments are primarily driven by fast, automatic, intuitive responses, with conscious reasoning serving as a post-hoc justification.
 
 - **Moral Dumbfounding:** Individuals often cling to initial moral judgments even when stripped of all rational arguments, demonstrating that intuition precedes reason.
-
 - **Strategic Reasoning:** We reason not to discover truth, but to "find the best possible reasons why somebody else ought to join us in our judgment."
 
 ### B. Affective Primacy: The Influence of Feelings
@@ -47,25 +46,19 @@ Initial affective reactions heavily influence judgment, often unconsciously.
 ### C. Non-Verbal Cues (Body Language)
 
 - **Micro-expressions:** Fleeting facial expressions revealing genuine emotion.
-
 - **Posture:** Open vs. closed, leaning in vs. leaning back.
-
 - **Eye Contact:** Gaze holding (confidence, interest) vs. avoidance (shyness, discomfort).
-
 - **Gestures:** Mirroring (rapport) vs. fidgeting (anxiety).
 
 ### D. Paralanguage (Tone of Voice)
 
 - **Pitch and Volume:** Indicators of emotion (rising intonation = question/uncertainty, flat tone = boredom/disapproval).
-
 - **Pace:** Speed of speech (enthusiasm/anxiety vs. thoughtfulness/condescension).
-
 - **Vocal Congruence:** Matching tone with words (e.g., saying "That's great" in a flat tone reveals a mismatch).
 
 ### E. Verbal Content
 
 - **Question-Asking:** Indicates engagement and interest.
-
 - **Pronoun Usage:** "I" vs. "You" vs. "We" can signal self-focus, accusation, or shared understanding.
 
 ### F. Social Comparison
@@ -83,7 +76,6 @@ Philosophers like David Hume and Thomas Hobbes proposed the "axiom of self-inter
 ### I. Social Support & Belonging (Moai)
 
 - **Concept:** A "secure social network" or lifelong circle of friends who support each other financially and emotionally. (Source: *Deep Dive* podcast episode, referencing Blue Zones).
-
 - **Impact:** Reduces stress, provides a sense of purpose and belonging, and contributes to longevity. It's an external scaffold for emotional and practical resilience.
 
 ---

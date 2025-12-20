@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-06-18T17:28:14Z
 epistemic: psychology
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:13:17Z
+modified: 2025-12-20T09:54:55Z
 purpose: To define the Negativity Bias as a fundamental evolutionary mechanism and explore its specific amplification within the ADHD mind.
 related-soTs: ["[[SoT - ADHD Self-Compassion & Strengths]]", "[[SoT - Mindfulness and Emotional Regulation]]", "[[SoT - Social Cognition & Self-Perception]]"]
 review_interval: 
@@ -36,7 +36,6 @@ Neuropsychologist Rick Hanson famously stated:
 ### Why it Evolved
 
 - **Survival Priority:** In the ancestral environment, a "false positive" (thinking a stick is a snake) costs a calorie. A "false negative" (thinking a snake is a stick) costs your life.
-
 - **Social Cohesion:** Since [[Humans Are Social Creatures]], social rejection was a death sentence. Thus, we are hyper-tuned to detect disapproval ([[Why External Validation is So Powerful]]).
 
 ---
@@ -87,9 +86,6 @@ Since the brain does not automatically "save" positive moments, we must manually
 ## 6. Related Zettels
 
 - [[Negativity Bias]] - The core concept.
-
 - [[Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain]] - The economic parallel.
-
 - [[Misinterpretation as Character Flaws]] - The result of unchecked negativity bias.
-
 - [[Why Others' Opinions Can Feel Undeservedly Powerful]] - The social consequence.

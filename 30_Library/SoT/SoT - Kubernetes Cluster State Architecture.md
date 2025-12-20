@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-16T14:00:00Z
 epistemic: theory
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:12:36Z
+modified: 2025-12-20T09:54:08Z
 purpose: To define the correct mental model of Kubernetes cluster state as a relational database of independent records, rather than a monolithic configuration tree.
 related-soTs: ["[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 1 year
@@ -44,7 +44,6 @@ Newcomers often visualize Kubernetes as a nested tree (Deployment contains Pods)
 While no root object exists in storage, the API can synthesize one.
 
 - **Command:** `kubectl get pods -o json` returns a virtual `List` object containing an array of items.
-
 - **Utility:** This is how we dump cluster state, but it is a *runtime view*, not a storage artifact.
 
 ---
@@ -56,9 +55,7 @@ If objects are independent, how do they interact?
 > **Label Selectors are the "SQL WHERE Clause" of Kubernetes.**
 
 - **The Service:** "I route traffic to `SELECT * FROM pods WHERE label='app=frontend'`."
-
 - **The Deployment:** "I ensure 3 replicas exist `WHERE label='app=frontend'`."
-
 - **The Pod:** Doesn't know it is being managed. It just wears the label `app=frontend`.
 
 ### 3.1 Namespace Isolation
@@ -66,7 +63,6 @@ If objects are independent, how do they interact?
 The Namespace acts as a mandatory filter on every selector query.
 
 - **Query:** `SELECT * FROM pods WHERE label='app=frontend' AND namespace='tenant-a'`
-
 - **Result:** A Service in `tenant-a` is mathematically blind to Pods in `tenant-b`.
 
 ---
@@ -78,7 +74,6 @@ While Namespaces isolate *management* (Selectors), they do not isolate *networki
 ### A. Flat Network
 
 - **Rule:** Every Pod can route IP traffic to every other Pod, regardless of Namespace.
-
 - **Constraint:** You need the IP (which changes) or the DNS name.
 
 ### B. Ingress (The Cluster Router)
@@ -86,9 +81,7 @@ While Namespaces isolate *management* (Selectors), they do not isolate *networki
 The **Ingress Controller** breaks the Namespace isolation model.
 
 - **Role:** The Concierge in the lobby.
-
 - **Power:** It reads Ingress Resources from *all* Namespaces and builds a global routing table.
-
 - **Risk:** It bridges traffic from the public edge directly into isolated Namespaces.
 
 ---
@@ -112,5 +105,4 @@ When comparing **Git (Intent)** to **Cluster (Status)**, noise arises.
 ## 6. Related Concepts
 
 - [[SoT - FITFILE Secret Management Architecture]] - How secrets are stored in this database.
-
 - [[SoT - FITFILE Platform Deployment]] - How we deploy to this architecture.

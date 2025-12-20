@@ -5,7 +5,7 @@ created: 2025-12-13T00:00:00Z
 epistemic: 
 last-synthesis: 2025-12-13
 last_reviewed: 2025-12-13
-modified: 2025-12-19T10:12:36Z
+modified: 2025-12-20T09:54:08Z
 purpose: To define the Generative Infrastructure Configuration (GIC) Framework, a pattern for treating configuration as a generated output to maximize robustness and consistency.
 related-soTs: ["[[SoT - PRODOS (System Architecture)]]", "[[SoT - Software Configuration Management Patterns]]"]
 review_interval: 6 months
@@ -35,11 +35,8 @@ updated:
 Manual configuration in modern distributed systems is fragile. Reliance on vast, explicit `.tfvars` files leads to:
 
 - **Error-Prone Deployments:** Typos in hostnames or ARNs cause failures.
-
 - **Inconsistency:** Naming conventions drift across environments.
-
 - **High Cognitive Load:** Developers must manage dozens of unique identifiers.
-
 - **Opaque Changes:** The impact of variable changes is often unclear.
 
 ### The Solution Architecture
@@ -51,7 +48,6 @@ GIC shifts the source of truth from fragile inputs to robust code.
 A minimal set of human-defined inputs describing *what* is being deployed, not *how*.
 
 - **Example Inputs:** `app_name`, `environment`, `base_domain`, `aws_region`, `cost_centre`.
-
 - **Characteristic:** Small surface area, high robustness.
 
 #### 2. The Configuration Generator (The Protocol)
@@ -59,7 +55,6 @@ A minimal set of human-defined inputs describing *what* is being deployed, not *
 A version-controlled module (e.g., Terraform module) that ingests the Kernel and applies codified rules to producing a deterministic output.
 
 - **Function:** `Kernel -> Generator -> Full Configuration Manifest`
-
 - **Characteristic:** Tested, peer-reviewed, "pure function" logic.
 
 #### 3. The Generated Manifest (The Output)
@@ -67,13 +62,9 @@ A version-controlled module (e.g., Terraform module) that ingests the Kernel and
 The complex, derived values used by infrastructure resources.
 
 - **Examples:**
-
   - DNS Hostnames: `user-service.prod.my-company.co.uk`
-
   - S3 Buckets: `my-company-prod-user-service-assets`
-
   - Secret Paths: `/prod/user-service/db_creds`
-
   - Tags: `{ Application="user-service", Env="prod", ... }`
 
 ---
@@ -94,11 +85,8 @@ GIC is particularly powerful when chaining tools. Terraform acts as the "Root Ge
 ### Benefits
 
 - **Resilience:** Typos are caught in code review of the Generator, not in ad-hoc config files.
-
 - **Consistency:** Naming conventions are enforced by code.
-
 - **Agility:** Spinning up new environments requires only a minimal Kernel file.
-
 - **Change Evidence:** Changes to the Generator are code changes; changes to the Kernel are explicit data changes.
 
 ---
@@ -115,5 +103,4 @@ GIC is particularly powerful when chaining tools. Terraform acts as the "Root Ge
 ## 5. Sources and Links
 
 - Original Proposal: "RFC-001: Generative Infrastructure Configuration (GIC) Framework" (Archived)
-
 - [[SoT - Software Configuration Management Patterns]] (Foundational discipline)

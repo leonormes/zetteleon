@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-27T00:00:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-10-30T11:06:56Z
+modified: 2025-12-20T09:54:21Z
 purpose: 
 review_interval: 
 see_also: []
@@ -735,9 +735,7 @@ Health Check: HTTP on port 31835
 Registered Targets (Final Destination):
 
 - EC2 Instance: i-050faf3ec8e4fb22e (IP: 10.65.4.141) on Port: 32623 -> Status: unhealthy
-
 - EC2 Instance: i-08526777637aa2695 (IP: 10.65.5.240) on Port: 32623 -> Status: unhealthy
-
 - EC2 Instance: i-0e32193c309a0eb8b (IP: 10.65.6.207) on Port: 32623 -> Status: healthy
 
 ► Listener \[TCP:80\]
@@ -751,9 +749,7 @@ Health Check: HTTP on port 31835
 Registered Targets (Final Destination):
 
 - EC2 Instance: i-050faf3ec8e4fb22e (IP: 10.65.4.141) on Port: 31139 -> Status: unhealthy
-
 - EC2 Instance: i-0e32193c309a0eb8b (IP: 10.65.6.207) on Port: 31139 -> Status: healthy
-
 - EC2 Instance: i-08526777637aa2695 (IP: 10.65.5.240) on Port: 31139 -> Status: unhealthy
 
 Excellent, the script has worked correctly and given us a much clearer picture of the situation.

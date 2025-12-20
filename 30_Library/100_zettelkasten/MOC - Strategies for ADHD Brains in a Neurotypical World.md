@@ -4,14 +4,14 @@ confidence:
 created: 2025-07-16T17:30:01Z
 epistemic: index
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:13:17Z
+modified: 2025-12-20T09:54:53Z
 purpose: A high-level index of potential strategies for managing ADHD, serving as a source list for the Experiment Lab.
 review_interval: 6 months
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
 status: stable
 tags: [index, self-help, strategies, topic/health/adhd, topic/productivity]
-title: Strategies for ADHD Brains in a Neurotypical World
+title: MOC - Strategies for ADHD Brains in a Neurotypical World
 type: index
 uid: 
 updated: 
@@ -28,13 +28,9 @@ Navigating a world designed for neurotypical functioning requires individuals wi
 *Strategies that have been converted into active hypotheses:*
 
 - **Gamification/Interest:** [[Interest Pairing Can Increase Engagement in Mundane Tasks for ADHD]]
-
 - **External Structure:** [[ADHD-Adapted Timeboxing]] (Visual Timers)
-
 - **Social Accountability:** [[Body Doubling for ADHD Focus]]
-
 - **Task Initiation:** [[Master Micro-Actions & Starter Tasks]]
-
 - **Reward Systems:** [[Rewarding the Start of a Task Provides Immediate Reinforcement for ADHD]]
 
 ## 2. Candidate Strategies (To Be Tested)
@@ -42,11 +38,7 @@ Navigating a world designed for neurotypical functioning requires individuals wi
 *These concepts need to be converted into Hypothesis notes:*
 
 - **Gamify Tasks:** Turn chores into challenges or games (e.g., "Beat the Clock").
-
 - **Novelty Seeking:** Change your environment (Coffee Shop Effect) or introduce new tools.
-
 - **Break Down Tasks:** (See Micro-Actions above).
-
 - **Externalize Structure:** Use whiteboards and physical Kanbans to offload Working Memory.
-
 - **Self-Compassion:** Reframing failure as data (see [[SoT - ADHD Self-Compassion & Strengths]]).

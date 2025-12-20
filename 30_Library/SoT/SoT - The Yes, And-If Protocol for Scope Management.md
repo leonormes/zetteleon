@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-17T00:00:00Z
 epistemic: 
 last_reviewed: 2025-12-17
-modified: 2025-12-19T10:12:34Z
+modified: 2025-12-20T09:54:06Z
 purpose: To define a tactical communication protocol for managing scope creep and new requests without direct confrontation.
 related-soTs: ["[[MOC - Assertiveness Through System Design]]"]
 review_interval: 
@@ -29,13 +29,11 @@ updated:
 The core of the protocol is to never say "No" directly, as this often triggers resistance. Instead, you use conditional logic to present the trade-offs that a new request creates.
 
 - **Syntax:** `Yes, I can do [New Task], if we deprioritize [Existing Task].`
-
 - **Alternative Syntax:** `Yes, and to do that, I will need [Resource Y].`
 
 ### Example
 
 - **Manager Request:** "I need you to pick up the new analytics project right away."
-
 - **Your Response (using the protocol):** "Yes, I can certainly pick up the analytics project. To do that, I'll have to pause work on the quarterly report, which will be delayed until Thursday. Is that trade-off acceptable?"
 
 ## 3. Why It Works: System Constraints & Information Gaps

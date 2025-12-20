@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-16T14:40:00Z
 epistemic: experimental
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:13:17Z
+modified: 2025-12-20T09:54:55Z
 purpose: To test if batch-processing "Stuff" into "Actions" creates clarity.
 review_interval: 2 weeks
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -28,21 +28,15 @@ updated:
 ## 2. Experiment Protocol
 
 - **Duration:** 1 Week.
-
 - **Trigger:** End of work day (Shutdown Ritual).
-
 - **Action:**
 
     1. Open Inbox.
-
     2. For each item, apply the 4-Step Process:
 
         - What is it?
-
         - Is it actionable?
-
         - What is the Next Physical Action?
-
         - Context Tag it.
 
     3. Do NOT do the work. Just clarify.
@@ -52,7 +46,6 @@ updated:
 ## 3. Expected Outcome
 
 - **Success:** Next morning starts with zero friction because the list is clear.
-
 - **Failure:** Getting sucked into *doing* the tasks during the clarification phase.
 
 ---

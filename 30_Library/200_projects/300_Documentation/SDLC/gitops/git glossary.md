@@ -5,7 +5,7 @@ confidence:
 created: 2025-03-22T08:27:07Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T10:13:09Z
+modified: 2025-12-20T09:54:45Z
 purpose: 
 review_interval: 
 see_also: []
@@ -213,9 +213,7 @@ Pattern used to limit paths in Git commands.
 Pathspecs are used on the command line of "git ls-files", "git ls-tree", "git add", "git grep", "git diff", "git checkout", and many other commands to limit the scope of operations to some subset of the tree or worktree. See the documentation of each command for whether paths are relative to the current directory or toplevel. The pathspec syntax is as follows:
 
 - any path matches itself
-
 - the pathspec up to the last slash represents a directory prefix. The scope of that pathspec is limited to that subtree.
-
 - the rest of the pathspec is a pattern for the remainder of the pathname. Paths relative to the directory prefix will be matched against that pattern using fnmatch(3); in particular, *** and *?* *can* match directory separators.
 
 For example, Documentation/*.jpg will match all .jpg files in the Documentation subtree, including Documentation/chapter\_1/figure\_1.jpg.
@@ -245,11 +243,8 @@ Git treats the pattern as a shell glob suitable for consumption by fnmatch(3) wi
 Two consecutive asterisks ("`**`") in patterns matched against full pathname may have special meaning:
 
 - A leading "`**`" followed by a slash means match in all directories. For example, "`**/foo`" matches file or directory "`foo`" anywhere, the same as pattern "`foo`". "`**/foo/bar`" matches file or directory "`bar`" anywhere that is directly under directory "`foo`".
-
 - A trailing "`/**`" matches everything inside. For example, "`abc/**`" matches all files inside directory "abc", relative to the location of the `.gitignore` file, with infinite depth.
-
 - A slash followed by two consecutive asterisks then a slash matches zero or more directories. For example, "`a/**/b`" matches "`a/b`", "`a/x/b`", "`a/x/y/b`" and so on.
-
 - Other consecutive asterisks are considered invalid.
 
     Glob magic is incompatible with literal magic.
@@ -261,11 +256,8 @@ After `attr:` comes a space separated list of "attribute requirements", all of w
 Each of the attribute requirements for the path takes one of these forms:
 
 - "`ATTR`" requires that the attribute `ATTR` be set.
-
 - "`-ATTR`" requires that the attribute `ATTR` be unset.
-
 - "`ATTR=VALUE`" requires that the attribute `ATTR` be set to the string `VALUE`.
-
 - "`!ATTR`" requires that the attribute `ATTR` be unspecified.
 
 [](#Documentation/gitglossary.txt-exclude)exclude

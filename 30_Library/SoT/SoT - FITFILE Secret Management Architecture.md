@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-15T00:00:00Z
 epistemic:
 last_reviewed: 2025-12-15
-modified: 2025-12-19T10:12:36Z
+modified: 2025-12-20T09:54:09Z
 purpose: The canonical source of truth for FITFILE's secret management architecture, defining the standard VSO implementation and the path to remediate legacy technical debt.
 related-soTs: ["[[SoT - FITFILE Platform Deployment]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 6 months
@@ -187,7 +187,5 @@ classDiagram
 ## 6. Related Documentation
 
 - **Deep Dive:** [[Vault to Kubernetes Secrets Management Guide]] - Detailed steps on adding new secrets.
-
 - **Principles:** [[General Principles for Adding Secrets]] - Best practices for secret management.
-
 - **Platform:** [[SoT - FITFILE Platform Deployment]] - Broader platform context.

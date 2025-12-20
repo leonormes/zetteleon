@@ -6,7 +6,7 @@ created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed: 2025-12-13
 last_synthesis: 2025-12-15
-modified: 2025-12-19T10:12:36Z
+modified: 2025-12-20T09:54:09Z
 purpose: To define the canonical Family Budgeting System for ProdOS, integrating YNAB principles (Zero-Based Budgeting) with the 'Spendfulness' mindset.
 related-soTs: ["[[SoT - Family Financial Wellness]]", "[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval:
@@ -155,21 +155,14 @@ A system without maintenance fails. We rely on two key rituals:
 *The antidote to money fights is shared clarity.*
 
 - **When:** The last weekend of the month.
-
 - **The Framework:** **Yours, Mine, and Ours.**
-
   - Budgeting as a couple means balancing three sets of priorities.
-
   - **Yours/Mine:** Autonomous spending (Hobbies, Fun Money).
-
   - **Ours:** Shared goals (House, Travel, Kids).
-
 - **Agenda:**
 
     1. **Reflect:** Did our spending align with our values last month?
-
     2. **Forecast:** What irregular expenses are coming up this month? (Birthdays, trips).
-
     3. **Assign:** Fund next month's categories using the "Month Ahead" money.
 
 - **Vibe:** Low stress, wine/snacks involved. Focus on *dreams*, not just math.

@@ -34,7 +34,7 @@ This defines the core trade-off and the two opposing philosophies.
 
 This branch explores the mindset and tools that prioritize shipping functional software quickly.
 
-- **Core Philosophy:** [[SoT - The "Worse is Better" Philosophy]] explains why simple, imperfect systems often win in the marketplace.
+- **Core Philosophy:** SoT - The "Worse is Better" Philosophy explains why simple, imperfect systems often win in the marketplace.
 - **Language Model:** [[SoT - Padded Cell vs Nanny Languages]] provides a framework for classifying languages based on their safety approach, with "Padded Cell" languages embodying pragmatism.
 - **Case Study (Rust):**
   - [[SoT - Rust's Design Philosophy]] analyzes Rust as a major case study in pragmatic, engineering-led design.

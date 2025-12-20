@@ -4,7 +4,7 @@ confidence: 4/5
 created: 2025-12-17T00:00:00Z
 epistemic: 
 last_reviewed: 2025-12-17
-modified: 2025-12-19T10:12:37Z
+modified: 2025-12-20T09:54:09Z
 purpose: To define two key failures of decision-making where authority and rank override evidence-based expertise.
 related-soTs: ["[[MOC - Socio-Technical Dissonance]]", "[[SoT - Authority-Competence Asymmetry]]"]
 review_interval: 
@@ -29,17 +29,13 @@ updated:
 ### 2.1 The HiPPO Effect
 
 - **HiPPO** is an acronym for the **H**ighest **P**aid **P**erson's **O**pinion.
-
 - It describes the anti-pattern where the opinion of the most senior person in the room is automatically given more weight, regardless of their actual knowledge of the subject at hand.
-
 - This is a failure of data governance, as it replaces empirical evidence and expert analysis with rank-based authority.
 
 ### 2.2 Epistemic Trespassing
 
 - This is a philosophical concept describing the error of assuming that competence in one domain (e.g., business management, finance) automatically confers competence in another, unrelated domain (e.g., software architecture, database design).
-
 - When a C-level executive or manager without a technical background dictates a technical solution, they are epistemically trespassing.
-
 - This demonstrates a failure to respect the boundaries of specialized knowledge, leading to flawed decisions driven by individuals who are not qualified to make them.
 
 Together, these phenomena create an environment where the most critical decisions are made by the least qualified people, introducing significant risk and **Accidental Social Complexity**.

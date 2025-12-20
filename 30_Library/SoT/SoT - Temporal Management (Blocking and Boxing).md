@@ -7,7 +7,7 @@ decay-signals: []
 epistemic:
 last-synthesis: 2025-12-15
 last_reviewed: 2025-12-15
-modified: 2025-12-19T10:12:34Z
+modified: 2025-12-20T09:54:07Z
 purpose: Canonical guide to Temporal Management (Blocking and Boxing) within ProdOS.
 quality-markers: []
 related-soTs: ["[[SoT - PRODOS (System Architecture)]]"]
@@ -31,14 +31,14 @@ updated:
 > [!definition] The Two Modes
 >
 > 1. **Time Blocking (Strategic):** *The Architect Mode.*
->
+> 
 > - **Goal:** To defend time for priorities.
 > - **Action:** "I will block 9:00-11:00 for Writing."
 > - **Mechanism:** Creates **Artificial Urgency** by assigning a specific "when" to tasks, preventing "I'll do it later."
 > - **Result:** A Calendar that reflects your values.
->
+> 
 > 2. **Time Boxing (Tactical):** *The Builder Mode.*
->
+> 
 > - **Goal:** To force efficiency and completion.
 > - **Action:** "I will write this section in 45 minutes."
 > - **Mechanism:** Combats **Parkinson's Law** by creating a hard constraint, forcing the brain to prioritize "done" over "perfect."
@@ -66,56 +66,39 @@ In the [[SoT - PRODOS (System Architecture)]], time management operates on a str
 ### Phase A: Strategic Blocking (The Container)
 
 - **Tool:** Digital Calendar (Google/Apple).
-
 - **Action:** At the start of the day (Plan Phase), drag blocks onto the calendar for Deep Work, Meetings, and Admin.
-
 - **Rule:** **Overestimate by 20%.** Buffer time is essential for reality.
 
 ### Phase B: Tactical Boxing (The Content)
 
 - **Tool:** Timer / Todoist Duration.
-
 - **Action:** For specific tasks *within* a block, set a timer.
-
 - **The Ultradian Limit (90-Minute Blocks):** Never allocate more than **90 minutes** to a single deep work box without a break.
-
   - *Why:* The brain operates on **Ultradian Rhythms** where focus peaks and wanes every 90 minutes. Pushing past this leads to diminishing returns and burnout.
-
 - **Hard vs. Soft Boxing:**
-
   - **Hard Box (Perfectionism Killer):** Stop *immediately* when the timer rings. Ideal for meetings, research, or tasks where you tend to "toil" endlessly.
-
   - **Soft Box (Flow Facilitator):** The timer is a "wrap up" suggestion. Ideal for complex deep work where finishing the thought is valuable.
 
 ---
 
-## 4. Implementation Strategies
+## 4. The Unschedule Protocol (Temporal Integrity)
 
-### 1. The "Zero-White-Space" Rule (Time Mapping)
+Traditional "Hard Scheduling" (planning every minute) often leads to the "Planning Fallacy" and subsequent shame spirals when the plan fails. ProdOS adopts Neil Fiore's **Unschedule**.
 
-Give every minute a job. This doesn't mean "work every minute." It means labeling time as "Work," "Rest," or "Family."
+### The Core Inversion
 
-- *Why:* Unassigned time is the playground of the distraction demon.
+Instead of planning work *before* it happens, you record it *after* it happens.
 
-### 2. The Three-Way Blueprint
+1.  **Schedule Non-Negotiables First:** Fill your calendar with *only* fixed commitments (Meetings, Meals, Sleep, Exercise, Social). The white space remaining is your *potential* capacity.
+2.  **Record Quality Work Backwards:** You only "earn" a block on your calendar by completing it.
+    -   **Rule:** Work must be done for at least **15-30 minutes** to qualify.
+    -   **Action:** After finishing a block, draw it on your calendar/timeline.
+3.  **The Reward Signal:** Seeing the calendar fill up with "Done Blocks" provides an immediate dopamine reward and a realistic map of your actual velocity.
+4.  **Capacity Awareness:** This eliminates the shame of "unmet plans" because you are not breaking promises to yourself; you are simply recording reality.
 
-Ideally, schedule your blocks to balance three domains:
+### The "Guilt-Free Play" Rule
 
-- **Focus:** Deep Work (The "One Thing").
-
-- **Buffer:** Admin, Slack, Email (Batch processed).
-
-- **Play/Rest:** Guilt-free disconnection (The reward).
-
-### 3. Fixed-Schedule Productivity
-
-Instead of working until you are done, **fix your schedule** (e.g., "I leave at 5:00 PM") and force your work to fit inside it. This artificial constraint drives ruthless efficiency.
-
-### 4. Rhythmic Scheduling
-
-Create reliable patterns for key habits to reduce startup friction.
-
-- *Example:* "Every morning at 8:00 AM is Writing." (No decision required).
+You must proactively schedule guilt-free play. Knowing you have a guaranteed "Stop Time" and "Fun Time" lowers the brain's resistance to starting work, as it knows the suffering is bounded.
 
 ---
 
@@ -127,13 +110,11 @@ Standard time blocking can fail for the neurodivergent brain because rigid sched
 ### A. The Interface: Analogue "Ownership"
 
 - **Protocol:** Use pen and paper for daily execution. Keep digital tools for long-term storage.
-
 - **Mechanism:** Handwriting increases "concept density" and psychological commitment (ownership), physically decoupling planning from digital distraction.
 
 ### B. The Initialisation: Dynamic Daily Design
 
 - **Protocol:** Allocate 10–15 mins each morning to design the day *from scratch*.
-
 - **Mechanism:** Replaces "hope-based" productivity with intentional design, acknowledging that ADHD capacity fluctuates daily and cannot be predicted a week in advance.
 
 ### C. Visual Taxonomy: The 4-Colour Logic
@@ -141,17 +122,13 @@ Standard time blocking can fail for the neurodivergent brain because rigid sched
 Replace urgency-based lists with a category-based visual hierarchy to maintain interest.
 
 - **Red (Responsibilities):** External commitments (Meetings). High consequence.
-
 - **Yellow (Chores):** Maintenance (Cleaning, Admin). Flexible timing.
-
 - **Green (Enrichment):** Healthy behaviours (Cooking, Gym). "Nice-to-have" self-care markers.
-
 - **Purple (Dopamine/Joy):** **Mandatory.** At least one non-hurtful item per day purely to sustain the brain's interest in the system.
 
 ### D. Temporal Allocation: The "Train Ticket" Filter
 
 - **Protocol:** Abandon specific timestamps (e.g., "14:00") for broad buckets: **Morning, Afternoon, Evening**.
-
 - **Mechanism:** Functions like a flexible ticket—valid for a "phase" of the day, allowing tasks to float dynamically based on immediate energy levels.
 
 ---
@@ -169,5 +146,4 @@ Replace urgency-based lists with a category-based visual hierarchy to maintain i
 ## 7. Related Concepts
 
 - **[[The Pomodoro Technique Uses Short Timed Intervals to Maintain Focus]]**
-
 - **[[Implementation Intentions Turn Vague Plans Into Concrete Actions]]**

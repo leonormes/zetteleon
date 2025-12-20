@@ -5,7 +5,7 @@ confidence:
 created: 2025-03-25T06:15:16Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T10:13:12Z
+modified: 2025-12-20T09:54:49Z
 purpose: 
 review_interval: 
 see_also: []
@@ -57,19 +57,14 @@ Encapsulation of workload traffic is typically required only when traffic crosse
 **Limitations**
 
 - IP in IP supports only IPv4 addresses
-
 - VXLAN in IPv6 is only supported for kernel versions ≥ 4.19.1 or redhat kernel version ≥ 4.18.0
 
 ### How to[​](#how-to "Direct link to How to")
 
 - [Configure default IP pools at install time](#configure-default-ip-pools-at-install-time)
-
 - [Configure IP in IP encapsulation for only cross-subnet traffic](#configure-ip-in-ip-encapsulation-for-only-cross-subnet-traffic)
-
 - [Configure IP in IP encapsulation for all inter workload traffic](#configure-ip-in-ip-encapsulation-for-all-inter-workload-traffic)
-
 - [Configure VXLAN encapsulation for only cross-subnet traffic](#configure-vxlan-encapsulation-for-only-cross-subnet-traffic)
-
 - [Configure VXLAN encapsulation for all inter workload traffic](#configure-vxlan-encapsulation-for-all-inter-workload-traffic)
 
 #### Best practice[​](#best-practice "Direct link to Best practice")
@@ -83,7 +78,6 @@ Be aware that switching encapsulation modes can cause disruption to in-progress 
 Default IP pools are configured at install-time automatically by Calico. You can configure these default IP pools based on install method.
 
 - Operator
-
 - Manifest
 
 For operator managed clusters, you can configure encapsulation in the IP pools section of the default Installation. For example, the following installation snippet will enable VXLAN across subnets.

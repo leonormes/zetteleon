@@ -6,7 +6,7 @@ created: 2025-08-18T00:00:00Z
 description: Created with Gemini
 epistemic: 
 last_reviewed: 
-modified: 2025-10-30T14:24:14Z
+modified: 2025-12-20T09:54:14Z
 published:
 purpose: 
 review_interval: 
@@ -828,21 +828,15 @@ Initializing HCP Terraform...
 Upgrading modules...
 
 - app_projects in modules/gitlab-project
-
 - customer_projects in modules/gitlab-project
-
 - infra_environment_projects in modules/gitlab-project
-
 - infra_module_projects in modules/gitlab-project
 
 Initializing provider plugins...
 
 - Finding gitlabhq/gitlab versions matching "~> 17.10"...
-
 - Finding latest version of hashicorp/gitlab...
-
 - Installing gitlabhq/gitlab v17.11.0...
-
 - Installed gitlabhq/gitlab v17.11.0 (self-signed, key ID 0D47B7AB85F63F65)
 
 Partner and community providers are signed by their developers.

@@ -6,7 +6,7 @@ created: 2025-12-19T13:09:01Z
 decay-signals: []
 epistemic: framework
 last_reviewed: 2025-12-19
-modified: 2025-12-19T13:09:01Z
+modified: 2025-12-20T09:54:05Z
 purpose: "To define the fundamental conflict between building software that is theoretically 'correct' versus software that is 'good enough' and ships quickly."
 quality-markers: [Defines the core trade-off, Establishes the two opposing philosophies.]
 related-soTs: ["[[SoT - The \"Worse is Better\" Philosophy]]"]
@@ -16,7 +16,7 @@ see_also: []
 source_of_truth: true
 status: stable
 supersedes: []
-tags: ["philosophy", "software-engineering", "mental-model"]
+tags: ["mental-model", "philosophy", "software-engineering"]
 title: SoT - Pragmatism vs Rigour in Software
 type: SoT
 uid: 

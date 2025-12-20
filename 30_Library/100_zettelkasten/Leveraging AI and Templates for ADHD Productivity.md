@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-26T11:07:00Z
 epistemic: experimental
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:13:20Z
+modified: 2025-12-20T09:54:58Z
 purpose: To test AI as an "Executive Prosthetic" for bypassing the "Blank Page" paralysis.
 review_interval: 2 weeks
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -29,17 +29,12 @@ version: 1
 ## 2. Experiment Protocol
 
 - **Duration:** 3 Days.
-
 - **Trigger:** Any task requiring writing (Email, Report, Code Plan) > 5 minutes.
-
 - **Action:**
 
     1. Open ChatGPT / Voice Memo.
-
     2. Ramble for 2 minutes about what I want to say/do. (No filtering).
-
     3. Prompt: *"Turn this ramble into a structured bullet point list/draft email."*
-
     4. Edit the result.
 
 ---
@@ -47,7 +42,6 @@ version: 1
 ## 3. Expected Outcome
 
 - **Metric:** Time to "First Draft" reduced by 50%.
-
 - **Qualitative:** Reduction in anxiety when opening a blank document.
 
 ---

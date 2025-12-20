@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-14T15:00:00Z
 epistemic: theory
 last_reviewed: 2025-12-14
-modified: 2025-12-19T10:12:34Z
+modified: 2025-12-20T09:54:06Z
 purpose: To define the psychological and neurobiological experience of living by values (Eudaimonia) versus living by impulse (Hedonia), and to provide a framework for constructing a self based on duty.
 review_interval: 6 months
 see_also: ["[[Integrity Means Acting in Accordance With Chosen Values]]", "[[SoT - ADHD and Motivation]]", "[[SoT - Wabi-Sabi]]", "[[The Self is Constructed Through a Commitment to Chosen Values]]"]
@@ -91,9 +91,7 @@ Don't try to be perfect. Define 3 Core Values (e.g., "Reliability," "Curiosity,"
 When an impulse hits (e.g., "I want to quit"), pause and visualize a fork in the road.
 
 - **Left:** "Away Move" (Towards comfort/dopamine, away from values).
-
 - **Right:** "Toward Move" (Towards values, even with discomfort).
-
 - **The Win:** The win is not "feeling good." The win is *noticing the fork*.
 
 ### C. Reframing Boredom
@@ -101,9 +99,7 @@ When an impulse hits (e.g., "I want to quit"), pause and visualize a fork in the
 You must rebrand "Boredom."
 
 - **Old Label:** Boredom = Pain/Signal to switch tasks.
-
 - **New Label:** Boredom = **The Cost of Entry** for Eudaimonia.
-
 - *Mantra:* "This boredom is the price I pay for the pride I will feel in an hour."
 
 ### D. Finding the "ADHD Balance"
@@ -111,9 +107,7 @@ You must rebrand "Boredom."
 You do not become a robot. You **Channel** your nature.
 
 - **Hedonia:** Use it for rest and play. (Video games are fine *after* the duty).
-
 - **Eudaimonia:** Use it for work and relationships.
-
 - **Functional Impulsivity:** When you have a sudden urge to do something *valuable* (e.g., "I suddenly want to clean the garage"), **Ride the Wave**. Use your ADHD speed for good.
 
 ---
@@ -125,17 +119,13 @@ We can map this internal conflict to economic principles (Source: *The capitalis
 ### A. Use Value (The Steady State / Eudaimonia)
 
 - **Definition:** Producing/doing something to satisfy a need or provide utility. Money is just an intermediary.
-
 - **The Mindset:** "Enough." The goal is a steady state where needs are met and life is enjoyed.
-
 - **The "Pomona Cafe" Model:** A small cafe owner (Elsa) who is happy with a steady profit that pays the rent and allows for holidays. She has no desire to expand infinitely because the *use value* (providing coffee/living a life) is satisfied.
 
 ### B. Exchange Value (The Endless Growth / Hedonia)
 
 - **Definition:** Using money to produce a commodity to sell for *more* money. The goal is the accumulation of capital itself.
-
 - **The Mindset:** "More." The cycle is exponential and lacks a "Done" state.
-
 - **The "Espresso House" Model:** A chain focused on aggressive expansion and maximizing "value," often destroying the user experience (and local competitors) in service of the metric.
 
 ### C. The "Virus" of Exchange Value

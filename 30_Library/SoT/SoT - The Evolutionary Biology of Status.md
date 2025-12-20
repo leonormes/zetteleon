@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-14T17:30:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T10:12:34Z
+modified: 2025-12-20T09:54:07Z
 purpose: Explaining the biological and evolutionary drivers behind human status-seeking behavior.
 related-soTs: ["[[SoT - Social Stratification]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
 review_interval: 
@@ -34,13 +34,10 @@ updated:
 ## 3. The Neurochemistry
 
 - **Serotonin (The Regulator):** High status triggers serotonin release, promoting calm and confidence. Low status correlates with impulsivity and aggression.
-
 - **Cortisol (The Cost):** Subordinate individuals have chronically higher stress levels (The Whitehall Study). Low status is physically toxic.
 
 ## 4. Concepts
 
 - **Costly Signalling (The Handicap Principle):** Buying useless luxury goods (Rolex) signals "I have resources to burn," proving genetic fitness (like a peacock's tail).
-
 - **Status Inconsistency:** When one's economic, social, and cultural status do not align (e.g., a wealthy but uneducated lottery winner).
-
 - **Evolutionary Mismatch:** We evolved for tribes of 150 (Dunbar's Number). Social media forces us to compete with millions, creating chronic, unsolvable status anxiety.

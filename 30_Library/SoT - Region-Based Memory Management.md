@@ -6,7 +6,7 @@ created: 2025-12-19T13:12:01Z
 decay-signals: []
 epistemic: concept
 last_reviewed: 2025-12-19
-modified: 2025-12-19T13:12:01Z
+modified: 2025-12-20T09:54:05Z
 purpose: "To define the formal computer science concept of Region-Based Memory Management and its relationship to Rust's lifetime system."
 quality-markers: [Contrasts formal regions with stack-based lifetimes, Explains the 'all or nothing' deallocation model.]
 related-soTs: ["[[SoT - Rust's Ownership Model]]"]
@@ -16,7 +16,7 @@ see_also: []
 source_of_truth: true
 status: stable
 supersedes: []
-tags: ["memory-management", "compilers", "formal-methods", "type-theory"]
+tags: ["compilers", "formal-methods", "memory-management", "type-theory"]
 title: SoT - Region-Based Memory Management
 type: SoT
 uid: 
@@ -50,6 +50,7 @@ Traditional memory management forces a trade-off between the rigid, automatic sc
 4. **Bulk Deallocation:** When the control flow of the program exits the scope of `r`, the compiler inserts code to deallocate the *entire* memory pool associated with `r` at once.
 
 ### Rust's Lifetimes as an Imperfect Analogy
+
 Critics of Rust argue that its lifetime system is an ad-hoc, less powerful implementation of the region concept.
 
 - **Similarities:** Both lifetimes and regions are compile-time mechanisms for reasoning about the validity of references and preventing dangling pointers.

@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-17T00:00:00Z
 epistemic: 
 last_reviewed: 2025-12-17
-modified: 2025-12-19T10:12:37Z
+modified: 2025-12-20T09:54:09Z
 purpose: To explain how an organization's communication structure inevitably shapes the technical systems it produces.
 related-soTs: ["[[MOC - Socio-Technical Dissonance]]"]
 review_interval: 
@@ -37,17 +37,13 @@ A **Structural Mismatch** occurs when the desired technical topology (e.g., a lo
 If an organization's social structure is characterized by:
 
 - Rigidity and bureaucracy
-
 - Ego-driven decision-making
-
 - Poor cross-functional communication
 
 Then the resulting technical system will likely exhibit traits such as:
 
 - Monolithic and tightly coupled components
-
 - Fragility and resistance to change
-
 - Inefficient data flows that mirror the political landscape
 
 In essence, the social dysfunction of the organization becomes encoded directly into the software architecture, forcing a suboptimal technical outcome regardless of the team's intentions or the actual requirements of the problem.

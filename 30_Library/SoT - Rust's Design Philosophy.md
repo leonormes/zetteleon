@@ -6,18 +6,18 @@ created: 2025-12-19T13:10:01Z
 decay-signals: []
 epistemic: analysis
 last_reviewed: 2025-12-19
-modified: 2025-12-19T13:10:01Z
+modified: 2025-12-20T09:54:05Z
 purpose: "To analyze Rust's core design as a deliberate compromise between performance, safety, and pragmatic implementation."
-quality-markers: [Positions Rust on the Pragmatism-Rigour spectrum, Explains the 'follow the silicon' approach.]
-related-soTs: ["[[SoT - Pragmatism vs Rigour in Software]]", "[[SoT - Rust's Ownership Model]]", "[[SoT - Padded Cell vs Nanny Languages]]"]
+quality-markers: [Explains the 'follow the silicon' approach., Positions Rust on the Pragmatism-Rigour spectrum]
+related-soTs: ["[[SoT - Padded Cell vs Nanny Languages]]", "[[SoT - Pragmatism vs Rigour in Software]]", "[[SoT - Rust's Ownership Model]]"]
 resonance-score: 9
 review_interval: 12 months
 see_also: []
 source_of_truth: true
 status: stable
 supersedes: []
-tags: ["rust", "programming-languages", "design-philosophy"]
-title: SoT - Rust's Design Philosophy
+tags: ["design-philosophy", "programming-languages", "rust"]
+title: "SoT - Rust's Design Philosophy"
 type: SoT
 uid: 
 updated:

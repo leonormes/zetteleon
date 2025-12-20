@@ -7,7 +7,7 @@ decay-signals: []
 epistemic:
 last-synthesis: 2025-12-15
 last_reviewed: 2025-12-07
-modified: 2025-12-19T10:12:20Z
+modified: 2025-12-20T09:54:08Z
 purpose: The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system.
 quality-markers: [Clarifies the Human-in-the-Loop LLM workflow., Defines the core cognitive loop., Establishes verifiable acceptance criteria., Integrates Hansei Reflection Loop.]
 related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - ADHD Environmental Design]]", "[[SoT - Physical Health and Vitality]]", "[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]"]
@@ -36,9 +36,7 @@ updated:
 ProdOS is built on the principles of **General Semantics**, specifically Alfred Korzybski's insight that **"The Map is Not the Territory."**
 
 - **The Reality:** Your life, your projects, and your thoughts are the "Territory"—complex, fluid, and infinite.
-
 - **The System:** ProdOS is the "Map"—a simplified, abstract model designed to make that territory navigable.
-
 - **The Rule:** We must never confuse the two. When the map disagrees with the territory (e.g., a plan fails), we update the map; we do not deny the reality. (See [[SoT - Reality, Models, and the Limits of Accuracy]]).
 
 ---
@@ -171,9 +169,7 @@ The Command Centre is a structural solution to planning inconsistency, reframing
 ### A. The Problem Space: Cognitive Latency
 
 - **Friction Point:** The brain wastes bandwidth recalling the *process* of planning rather than executing its *content*.
-
 - **Result:** High "activation energy" leads to procrastination and system abandonment.
-
 - **Solution:** A "recipe card" or heuristic that removes memory retrieval.
 
 ### B. Build Protocol (System Definition)
@@ -207,9 +203,7 @@ The "Next Test" is not just a task; it is a **verifiable interface** between the
 You do not finish thinking when you have an answer; you finish when you have a **query for reality**.
 
 - **Input:** Tension/Hypothesis (HEAD Note).
-
 - **Function:** The Next Test (Action).
-
 - **Return Value:** Data/Outcome (Update SoT).
 
 ### The Specification (Acceptance Criteria)
@@ -223,9 +217,7 @@ To qualify as a "Next Test," an action must meet three criteria:
 ### The Refactoring Logic (Thinking -> Testing)
 
 - **Confusion:** "I don't know X" -> **Test:** "Search docs for X. Found/Not Found."
-
 - **Assumption:** "I think X causes Y" -> **Test:** "Disable X. Does Y still happen?"
-
 - **Design:** "I need to build Z" -> **Test:** "Draft ugliest version of Z in 5 mins."
 
 ### The Ignition Protocol (Stimulus Injection)
@@ -277,9 +269,7 @@ To fix "Version Control Failure," the retrieval system must enforce the "Master 
 ### The Organization Logic (Feed, Don't Compete)
 
 - **Frictionless Capture:** Daily Notes are for raw capture. Do not organize here.
-
 - **Integration:** When a raw thought belongs to a topic, **do not create a new note.** Feed it into the **Integration Queue** of the existing SoT.
-
 - **Synthesis:** The LLM processes the Integration Queue to update the SoT. This ensures the SoT remains the living canon, preventing "competitor notes" from splintering knowledge.
 
 ---
@@ -331,7 +321,10 @@ Most planning systems fail because they oscillate between **Strategic Goals** (T
 ## 13. Related Components
 
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
+- [[SoT - PRODOS - NotebookLM Integration]]
+- [[SoT - Accelerated Learning (3C Protocol)]]
 - [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
+- [[SoT - Dopamine Menu]]
 - [[SoT - PRODOS - Action Management (GTD)]]
 - [[SoT - Temporal Management (Blocking and Boxing)]]
 - [[SoT - The Cognitive Physiology of Task Execution]]

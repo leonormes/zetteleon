@@ -4,7 +4,7 @@ confidence: 4/5
 created: 2025-12-17T00:00:00Z
 epistemic: 
 last_reviewed: 2025-12-17
-modified: 2025-12-19T10:12:38Z
+modified: 2025-12-20T09:54:10Z
 purpose: To provide a central map of concepts related to the friction between dysfunctional social structures and the execution of technical solutions.
 related-soTs: []
 review_interval: 
@@ -32,21 +32,12 @@ This Map of Contents (MOC) organizes the core concepts that define and explain t
 This is a **Low-Trust, High-Context Political Environment**, where **Social Capital** (rank, status) is the currency of decision-making, rather than **Technical Merit** (what is factually correct). The key components of this dysfunction are:
 
 - **[[SoT - Accidental Social Complexity]]**
-
   - This is the primary form of waste, where effort is spent on navigating egos and politics instead of solving the inherent technical problem.
-
 - **[[SoT - Epistemic Trespassing and the HiPPO Effect]]**
-
   - These concepts explain *why* unqualified authorities (the **H**ighest **P**aid **P**erson's **O**pinion) override qualified experts, leading to flawed decisions.
-
 - **[[SoT - Authority-Competence Asymmetry]]**
-
   - This note defines the core conflict between **Positional Authority** (power from rank) and **Expert Authority** (power from knowledge), which is the root cause of the dissonance.
-
 - **[[SoT - Conways Law and Structural Mismatch]]**
-
   - This explains how the dysfunctional social structure of the organization inevitably becomes encoded into the technical architecture, creating systems that are monolithic, fragile, and inefficient.
-
 - **[[SoT - Social Friction Coefficient]]**
-
   - This provides a mental model for measuring the efficiency loss caused by this dissonance, framing it as "social drag" or "meta-work."

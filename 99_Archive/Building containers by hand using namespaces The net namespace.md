@@ -4,7 +4,7 @@ confidence:
 created: 2025-02-07T12:57:54Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:47Z
+modified: 2025-12-20T09:54:03Z
 purpose: 
 review_interval: 
 see_also: []
@@ -12,7 +12,7 @@ source: https://www.redhat.com/en/blog/net-namespaces
 source_of_truth: []
 status: 
 tags: [containers]
-title: Building containers by hand using namespaces The net namespace 1
+title: Building containers by hand using namespaces The net namespace
 type:
 uid: 
 updated: 

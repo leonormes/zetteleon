@@ -5,7 +5,7 @@ created: 2025-02-07T12:57:52Z
 epistemic: 
 id: container-curriculum
 last_reviewed: 
-modified: 2025-12-13T11:39:42Z
+modified: 2025-12-20T09:54:43Z
 purpose: 
 review_interval: 
 see_also: []
@@ -1538,7 +1538,6 @@ policyTypes:
   3. Run in audit mode for 1 week
   4. Gradually tighten policies
   5. Move to enforcement mode during a maintenance window
-
 5. Example Implementation Timeline:
 
 Week 1-2: Monitor traffic patterns

@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-08-19T12:05:33Z
 epistemic: psychology
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:13:17Z
+modified: 2025-12-20T09:54:55Z
 purpose: To reframe Imposter Syndrome not as a lack of competence, but as a misalignment of identity—shifting from the "Academic Specialist" (Pretender) to the "Intellectual Explorer."
 related-soTs: ["[[SoT - ADHD Self-Compassion & Strengths]]", "[[SoT - Deep Learning & Mastery]]", "[[SoT - Values and Eudaimonia]]"]
 review_interval: 
@@ -51,7 +51,6 @@ You stop trying to be the "Academic Specialist" ([[Intellectual Explorer vs Acad
 The ADHD nervous system is evolutionarily designed for **Novelty Seeking** and broad scanning, not static repetitive toil.
 
 - **The Conflict:** When a Hunter tries to be a Farmer, they feel defective because they cannot "sit still and watch the corn grow."
-
 - **The Reframe:** Your value is not in staying put; it is in ranging far. See [[Hunter vs Farmer Brain Metaphor]].
 
 ### B. Connection Over Mastery
@@ -83,9 +82,6 @@ This mindset is not just "feel-good" therapy; it is a structural component of th
 ## 5. Related Zettels
 
 - [[Novelty Seeking]] - The biological drive.
-
 - [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]] - The engine of exploration.
-
 - [[Shame]] - The barrier to be overcome.
-
 - [[Generative Intelligence]] - The output of the Explorer.

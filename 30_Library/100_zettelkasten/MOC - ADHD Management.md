@@ -6,7 +6,7 @@ created: 2025-12-13T09:05:00Z
 epistemic:
 last-reviewed: 2025-12-13
 last_reviewed: 
-modified: 2025-12-19T10:13:20Z
+modified: 2025-12-20T09:54:58Z
 purpose: A unified Map of Content for understanding, reframing, and managing ADHD within the ProdOS framework.
 review_interval: 3 months
 see_also: ["[[MOC - ProdOS]]", "[[SoT - PRODOS (System Architecture)]]"]
@@ -30,11 +30,8 @@ This map organizes the Source of Truth (SoT) notes regarding Attention Deficit H
 Defining ADHD not as a character flaw, but as a specific neurobiological configuration.
 
 - **[[SoT - ADHD Executive Dysfunction]]** — *The Core Diagnosis.* Defines ADHD as an **Interest-Based Nervous System (IBNS)** with dysregulated executive control (Inhibition, Working Memory, Time Blindness).
-
 - **[[SoT - ADHD and Motivation]]** — *The Dopamine Deficit & Behavioral Scaffolding.* Explains the "Reward Deficiency Syndrome," the distinction between "Wanting" vs. "Liking," and provides analog protocols (Brain Dumps, Pomodoro) to bridge the gap.
-
 - **[[SoT - The Nature of Time and Perception]]** — *The "Time Blindness" Deep Dive.* Explains why the ADHD brain lives in "Now" vs. "Not Now" and the necessity of externalizing time.
-
 - **[[SoT - Learning Mechanisms]]** — *The Novelty Drive.* Explains the "Prediction Error" dopamine loop. Why we get bored once we understand the "gist" and how to hack it.
 
 ---
@@ -44,13 +41,9 @@ Defining ADHD not as a character flaw, but as a specific neurobiological configu
 Moving from a "Deficit Model" (Shame) to a "Strength-Based Model" (Empowerment).
 
 - **[[SoT - Values and Eudaimonia]]** — *The Structural Self.* A framework for shifting from an Intensity-Based life (Impulse) to a Resonance-Based life (Duty/Values). Reframes "boredom" as the cost of integrity.
-
 - **[[SoT - ADHD Self-Compassion & Strengths]]** — *The Mindset Shift.* The "Race Car Brain with Bicycle Brakes" analogy. Strategies for "Vitamin Connect" and outsmarting the DMN "Demon" (Rumination).
-
 - **[[SoT - Identity-Based Habit Formation]]** — *The Identity Fix.* Dismantling the "I am lazy" belief structure and building "Repeated Beingness."
-
 - **[[SoT - Belief Architecture & Cognitive Spaces]]** — *The Operating Constraints.* Defining beliefs as "walls and doors" that determine the search space for solutions.
-
 - **[[SoT - Cognitive Refactoring (Neural Debugging)]]** — *The Debugger.* The active protocol for identifying and patching "Cognitive Debt" (Distortions/Shame).
 
 ---
@@ -60,7 +53,6 @@ Moving from a "Deficit Model" (Shame) to a "Strength-Based Model" (Empowerment).
 The biological mechanics of getting things done.
 
 - **[[SoT - The Cognitive Physiology of Task Execution]]** — *The 5 Phases.* Breakdown of Initiation, Planning, Execution, Monitoring, and Completion. Identifies where ADHD breaks the chain.
-
 - **[[SoT - Working Memory & Schema Theory]]** — *The Bottleneck.* Why we can't "hold it all in our heads" and need external schemas (The Extended Mind).
 
 ---
@@ -70,13 +62,9 @@ The biological mechanics of getting things done.
 Actionable strategies to regulate the system.
 
 - **[[SoT - PRODOS - Action Management (GTD)]]** — *The External Brain.* Separation of concerns (Thinking vs. Doing) to bypass executive dysfunction.
-
 - **[[SoT - Mindfulness and Emotional Regulation]]** — *Strengthening the Brakes.* Using the "Observer Self" to catch the "Glitchy Switch" between focus and distraction.
-
 - **[[SoT - Temporal Management (Blocking and Boxing)]]** — *Prosthetic Time.* Using Time Boxing to create artificial urgency and combat Parkinson's Law.
-
 - **[[SoT - The Extended Mind]]** — *Prosthetic Memory.* Offloading cognition to the ProdOS system to bypass Working Memory limitations.
-
 - **[[SoT - The Four Laws of Behavior Change]]** — *Habit Engineering.* Reducing friction to make the "Right Thing" the "Easy Thing."
 
 ---

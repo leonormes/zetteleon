@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-15T00:00:00Z
 epistemic: Derived from GMB Fitness longevity protocols and functional movement principles.
 last_reviewed: 2025-12-15
-modified: 2025-12-19T10:12:35Z
+modified: 2025-12-20T09:54:07Z
 purpose: To define the canonical protocol for maintaining physical capability, pain-free movement, and longevity, treating the body as the primary hardware for the "Extended Mind."
 related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Cognitive Physiology of Task Execution]]"]
 review_interval: 6 months
@@ -35,29 +35,22 @@ To remain pain-free and capable at 60, 70, and beyond, these five actions are no
 ### A. Hang Every Day (Spine & Grip)
 
 - **Goal:** Spinal decompression and shoulder health. Grip strength is a primary biomarker for longevity.
-
 - **Action:** Passive or active hang from a bar/rings for 1 cumulative minute daily.
-
 - **Why:** Counters the compression of sitting and coding.
 
 ### B. Mobility over Flexibility (Control)
 
 - **Goal:** Usable range of motion, not just passive stretching.
-
 - **Action:** **Level Changes**. The ability to get from standing to the floor and back up without hands is a critical survival skill for aging.
-
 - **Target:** 5–10 minutes of active mobility work daily.
 
 ### C. Strength for Capability (Function)
 
 - **Goal:** Train to *do* things, not just to lift numbers.
-
 - **Action:** Focus on the "Big Three" Functional Patterns:
 
     1. **Pick Up:** Deadlifts / Squats (Floor to Hip).
-
     2. **Carry:** Farmers Walks / Rucking (Load under motion).
-
     3. **Push/Pull:** Managing external forces in multiple planes.
 
 - **Mindset:** "Build yourself up, don't break yourself down." Ignore PRs if they risk injury.
@@ -65,25 +58,19 @@ To remain pain-free and capable at 60, 70, and beyond, these five actions are no
 ### D. Define the "Why" (Teleology)
 
 - **Goal:** Sustainable motivation beyond vanity.
-
 - **Action:** Identify a specific activity you want to perform at age 70 (e.g., "Hiking the Alps," "Martial Arts," "Playing on the floor with grandkids").
-
 - **Mechanism:** Training becomes "preparation," not "chore."
 
 ### E. Community (The Glue)
 
 - **Goal:** Accountability and purpose.
-
 - **Action:** Train with others (Gym, Dojo, Running Club).
-
 - **Data:** Purpose + Community is the strongest statistical predictor of longevity and adherence.
 
 ### F. Natural, Constant Movement
 
 - **Goal:** Integrate movement seamlessly into daily life, avoiding a sedentary lifestyle.
-
 - **Action:** Incorporate activities like sitting on the floor (requiring frequent transitions), gardening, or walking as a primary mode of transport.
-
 - **Why:** Counters the negative effects of prolonged sitting and promotes overall mobility and vitality without requiring dedicated "gym sessions." (Source: *Deep Dive* podcast episode).
 
 ---
@@ -93,11 +80,8 @@ To remain pain-free and capable at 60, 70, and beyond, these five actions are no
 For the neurodivergent brain, consistency is the enemy. We must design for **Dopamine** and **Novelty**.
 
 - **Short Sessions:** 20-30 minutes of high intensity beats 90 minutes of "slogging." (See [[Morning HIIT Boosts BDNF and Neuroplasticity]]).
-
 - **Gamification:** Track "Streaks" or use apps that visualize progress (Visual Feedback).
-
 - **Variety:** Rotate modalities (Kettlebells -> Calisthenics -> Rucking) to prevent boredom, provided the *Movement Patterns* (Squat, Hinge, Push, Pull) remain consistent.
-
 - **Hardware Optimisation:** Exercise is the most effective way to regulate ADHD symptoms (Dopamine/Norepinephrine release). It is not "optional"; it is **medication**.
 
 ---
@@ -105,7 +89,5 @@ For the neurodivergent brain, consistency is the enemy. We must design for **Dop
 ## 4. Current Context (User Profile)
 
 - **Profile:** Male, 52. 5ft 11in. 91kg (down from 120kg).
-
 - **Focus:** Functional strength and athletic physique.
-
 - **Constraint:** Must be ADHD-friendly (low friction, high engagement).

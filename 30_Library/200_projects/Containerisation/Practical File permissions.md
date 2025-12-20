@@ -4,7 +4,7 @@ confidence:
 created: 2025-02-07T12:57:53Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:47Z
+modified: 2025-12-20T09:54:29Z
 purpose: 
 review_interval: 
 see_also: []
@@ -91,7 +91,6 @@ Let's clarify the breakdown of the 10-character permission string (e.g., `-rw-r-
 
 1. 1st Character: File type (not a permission).
    - Indicates the type of file (e.g., regular file, directory, symlink).
-
 - Examples:
 
   | Character | File Type |

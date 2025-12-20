@@ -7,7 +7,7 @@ decay-signals: []
 epistemic: theory
 last-synthesis: 2025-12-07
 last_reviewed: 2025-12-07
-modified: 2025-12-19T10:12:34Z
+modified: 2025-12-20T09:54:06Z
 purpose: "To define Working Memory as the critical bottleneck in learning and complex tasks (especially programming) and to establish Schema Theory as the mechanism of expertise."
 quality-markers: ["Defines WM components (Phonological, Visuospatial, Executive).", "Explains the Schema Theory mechanism of expertise.", "Identifies Programming as a high-load domain.", "Provides strategies for WM mitigation."]
 related-soTs: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Learning Mechanisms]]", "[[SoT - The Extended Mind]]"]
@@ -40,9 +40,7 @@ updated:
 The active processing unit.
 
 - **Phonological Loop:** Stores verbal/auditory info (e.g., variable names, verbal instructions). *Limit: ~2 seconds.*
-
 - **Visuospatial Sketchpad:** Stores visual/spatial info (e.g., architecture diagrams, code nesting).
-
 - **Central Executive:** The "Manager" that focuses attention and switches tasks. *Crucial for debugging.*
 
 ### B. Long-Term Memory (The Library)
@@ -50,7 +48,6 @@ The active processing unit.
 The effectively limitless storage of knowledge.
 
 - **Schemas:** Interconnected structures of knowledge.
-
 - **The Learning Process:** Learning is simply the successful transfer of data from WM to LTM schemas.
 
 ---
@@ -60,7 +57,6 @@ The effectively limitless storage of knowledge.
 Why can an expert read complex code instantly while a novice struggles?
 
 - **Novice:** Sees `for (int i = 0; i < n; i++)` as **20+ separate characters** filling their WM.
-
 - **Expert:** Sees **1 single chunk** ("Standard Loop Schema"), occupying almost zero WM.
 
 **Key Insight:** Expertise is not "smarter" processing; it is **better indexing**.

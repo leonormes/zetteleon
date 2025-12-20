@@ -6,7 +6,7 @@ created: 2025-12-06T03:00:00Z
 epistemic:
 last-synthesis: 2025-12-07
 last_reviewed: 2025-12-07
-modified: 2025-12-19T10:12:35Z
+modified: 2025-12-20T09:54:07Z
 purpose: To define the routing logic that classifies both Inputs (Ingress) and Outputs (Egress) into Kinetic (Action), Static (Storage), or Dynamic (Thinking) states.
 quality-markers: [Addresses edge cases like Projects., Covers both Ingress (Inbox) and Egress (HEAD)., Defines the three metabolic states., Provides clear routing logic table.]
 related-soTs: ["[[SoT - PRODOS - Problem-Solution Map]]", "[[SoT - PRODOS (System Architecture)]]"]
@@ -29,19 +29,15 @@ updated:
 >
 > 1. **Ingress Controller:** Classifies raw inputs (Inbox) during the "Clarify" phase.
 > 2. **Build Pipeline:** Classifies the outputs of thinking (HEAD Notes) during the "Compile" phase.
->
+> 
 > In both cases, it assigns the item to one of three states: **Kinetic (Action)**, **Static (Storage)**, or **Dynamic (Thinking)**.
 
 ## 2. Context & Scope
 
 - **Problem Solved:** Prevents "To-Do List Rot" (stagnant projects) and "Note Graveyards" (dead thoughts).
-
 - **Application:**
-
   - *Ingress:* Applied to `00_Inbox` items.
-
   - *Egress:* Applied to the "Exit Block" of `HEAD` notes.
-
 - **System Boundaries:** Replaces binary "Actionable?" choices with trinary metabolic states.
 
 ## 3. The Routing Logic (Reference Table)
@@ -64,6 +60,19 @@ updated:
   - **Micro-Task (<2 mins):** Do it immediately.
   - **Task:** Create Todoist entry (or Sync via Obsidian tag `#todoist`).
   - **Project:** Create Project Dashboard in `10_Actions` AND a recurring task to review it.
+
+## 5. The "Wall of Awful" Bypass Protocol
+
+This protocol activates when a kinetic task triggers emotional resistance (shame, dread) or has been stagnant for >14 days.
+
+**Condition:** Task > 14 days old OR triggers immediate dread.
+**Diagnosis:** Task has hit the **Wall of Awful** (Shame/Failure bricks).
+
+**Routing Action:**
+1.  **Delete** the kinetic task from Todoist. (Remove the source of shame).
+2.  **Create** a `HEAD` note titled `RECOVERY - [Task Name]`.
+3.  **Protocol (Starting-in-the-Middle):** Ignore the "correct" logical first step. Execute the most *interesting* sub-component first to generate dopamine.
+    -   *Example:* Instead of "Write Introduction" (Hard), start with "Design the cool chart for Page 4" (Fun).
 
 ### Path B: The Static Path (Storage)
 *Test:* "Is this information finished and created by someone else?"
@@ -118,13 +127,9 @@ When you finish a thinking session, you must "Route" the note to close the loop.
 Projects often appear to be both Thinking and Action.
 
 - **Rule:** The **Project Note** acts as the parent container.
-
 - **Split:**
-
   - The *Plan* lives in a linked **HEAD Note** (`HEAD - Migration Strategy`).
-
   - The *Actions* live in **Todoist** (synced to the Project Note).
-
   - The *Specs* live in linked **LIB Notes** (`SoT - Azure Networking`).
 
 ### The "Stuck" Task
@@ -132,7 +137,6 @@ Projects often appear to be both Thinking and Action.
 If a task in Todoist sits for >2 weeks without being done (procrastination):
 
 - **Diagnosis:** It has been misclassified. It is likely a **Dynamic** problem disguised as a **Kinetic** task.
-
 - **Correction:** Delete the Task. Create a **HEAD Note**: "Why am I resisting Task X?".
 
 ## 6. Verification & Maintenance

@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-16T14:45:00Z
 epistemic: experimental
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:13:22Z
+modified: 2025-12-20T09:55:00Z
 purpose: To test if chaining micro-tasks creates an inertial ramp for hard work.
 review_interval: 2 weeks
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -28,17 +28,12 @@ updated:
 ## 2. Experiment Protocol
 
 - **Duration:** 3 Days.
-
 - **Trigger:** Preparing for Deep Work.
-
 - **Action:**
 
     1. Define the Hard Task.
-
     2. Write down a "Runway" of 3 micro-tasks ( < 2 min each).
-
     3. Execute the Runway rapidly.
-
     4. Don't stop; crash straight into the Hard Task.
 
 ---
@@ -46,7 +41,6 @@ updated:
 ## 3. Expected Outcome
 
 - **Success:** "Accidentally" starting the hard work because I was already moving.
-
 - **Failure:** Stopping after the easy tasks.
 
 ---

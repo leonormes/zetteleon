@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-16T10:05:00Z
 epistemic: process_definition
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:12:36Z
+modified: 2025-12-20T09:54:09Z
 purpose: To provide the comprehensive, end-to-end narrative of how code moves from a developer's machine to a running production environment in the FITFILE platform.
 review_interval: 
 see_also: []
@@ -82,9 +82,7 @@ To understand the deployment, you must understand its three pillars:
 Before any app deployment, the bedrock is laid via Terraform.
 
 - **AWS/Azure Resources:** VPCs, AKS Clusters, Databases.
-
 - **Repository:** `fitfile/infrastructure` (or similar).
-
 - **Key Doc:** [[terraform-helm-fitfile-platform]]
 
 ### Phase 2: Application Configuration (Helm)
@@ -92,9 +90,7 @@ Before any app deployment, the bedrock is laid via Terraform.
 Applications are packaged as Helm charts.
 
 - **Umbrella Chart:** `charts/ffnode` acts as the standard deployment unit.
-
 - **Configuration:** Customer-specific configuration lives in `ffnodes/fitfile/{customer-env}/values.yaml`.
-
 - **Key Doc:** [[FFNODE as Umbrella Chart]]
 
 ### Phase 3: The Deployment Trigger (GitLab CI)
@@ -122,9 +118,7 @@ Applications are packaged as Helm charts.
 ### Common Failure Modes
 
 - **Secret Sync Failure:** VSO cannot auth with Vault. Check `VaultAuth` resource. (See [[SoT - FITFILE Secret Management Architecture#4. Standardization Action Plan]])
-
 - **Integration Test Fail:** The Argo Workflow failed. Check workflow logs via Argo UI.
-
 - **Image Pull Error:** ACR credentials invalid or image missing.
 
 ---

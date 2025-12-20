@@ -5,7 +5,7 @@ created: 2025-12-12T00:00:00Z
 epistemic: 
 last-synthesis: 2025-12-12
 last_reviewed: 
-modified: 2025-12-19T10:12:36Z
+modified: 2025-12-20T09:54:08Z
 purpose: To serve as the definitive Source of Truth for Viktor Frankl's Logotherapy, defining the pursuit of meaning as the primary human drive and offering actionable protocols for resilience.
 review_interval: 12 months
 see_also: ["[[Existentialism - Existence Precedes Essence]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - Process Primacy (Systems Over Goals)]]"]
@@ -34,7 +34,6 @@ updated:
 Humans are not fully determined by their biological or environmental conditions.
 
 - **The Last of the Human Freedoms:** Everything can be taken from a man but one thing: the freedom to choose one's **attitude** in any given set of circumstances.
-
 - **The Gap:** Between Stimulus and Response, there is a space. In that space lies our freedom and our power.
 
 ### B. The Will to Meaning (Motivation)
@@ -107,9 +106,7 @@ Both confront the "Absurd" (the silence of the universe), but their responses di
 ## 6. Modern Validation
 
 - **Post-Traumatic Growth:** Modern research supports Frankl's view that trauma can lead to positive psychological change if meaning is reconstructed.
-
 - **Resilience Factors:** Studies confirm that "Purpose in Life" is a strong predictor of longevity, cognitive health, and resilience against depression.
-
 - **Integration with ACT:** Acceptance and Commitment Therapy (ACT) shares Frankl's focus on **Values-Based Action** over symptom reduction.
 
 ---
@@ -117,7 +114,5 @@ Both confront the "Absurd" (the silence of the universe), but their responses di
 ## 7. Sources and Links
 
 - **Primary Text:** *Man's Search for Meaning* by Viktor Frankl.
-
 - **Integrated Note:** [[Victor Frankl]] (Archived)
-
 - **Related SoT:** [[SoT - Identity-Based Habit Formation]] (Identity as a vehicle for meaning).

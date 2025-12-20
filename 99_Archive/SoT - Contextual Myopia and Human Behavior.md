@@ -7,27 +7,16 @@ decay-signals: []
 epistemic:
 last-synthesis: 2025-12-11
 last_reviewed: 2025-12-11
-modified: 2025-12-19T10:12:33Z
+modified: 2025-12-20T09:54:04Z
 purpose: To define the inherent limitations of human cognitive processing and the role of abstraction as a compensatory mechanism.
-quality-markers:
-  [
-    Connects abstraction to prediction.,
-    Explains the hill climbing analogy.,
-    Integrates predictive processing concepts.
-  ]
-related-soTs:
-  [
-    "[[Mental Models MOC]]",
-    "[[MOC - Cognitive Abstraction and Understanding]]",
-    "[[SoT - PRODOS (System Architecture)]]"
-  ]
+quality-markers: []
+related-soTs: []
 resonance-score: 8
 review_interval: 6 months
 see_also: []
 source_of_truth: true
 status: stable
-supersedes:
-  ["[[Human Understanding is Inherently Myopic]]", "[[Myopic understanding]]"]
+supersedes: []
 tags: [abstraction, cognition, mental_models, psychology, understanding]
 title: SoT - Contextual Myopia and Human Behavior
 type: SoT
@@ -49,9 +38,7 @@ updated:
 Humans exist in a high-complexity reality but possess a low-bandwidth cognitive processor.
 
 - **The Constraint:** [[Limited Human Information Processing Capacity]]. We can only hold a few variables in working memory at once.
-
 - **The Consequence:** We are effectively "blind" to the majority of system dynamics at any given moment. We see the tree, but miss the forest; or we see the forest, but miss the tree.
-
 - **The Necessity of Models:** Because we cannot process raw reality, we must rely on simplified internal representations—[[Mental Models]]—to function.
 
 ---
@@ -74,9 +61,7 @@ Imagine understanding as standing on a landscape.
 Evolutionarily, the brain is a [[The Brain as a Distributed Prediction Machine|prediction machine]].
 
 - **Prediction:** The goal of "understanding" is to minimize [[Prediction Error Drives Dopamine Release|prediction error]].
-
 - **Causality:** A wider view (higher abstraction) allows us to see longer chains of cause-and-effect ("If I do X, Y will happen").
-
 - **Myopia's Cost:** When our view is too narrow (myopic), we fail to predict second-order consequences, leading to errors in judgment.
 
 ---
@@ -93,9 +78,7 @@ Evolutionarily, the brain is a [[The Brain as a Distributed Prediction Machine|p
 ## 5. Tensions & Gaps
 
 - **The Map vs. Territory Problem:** High abstraction creates an [[Illusion of Explanatory Depth (IoED)]]. We think we understand the system because we see the high-level shape, but we fail when granular details matter (e.g., a CEO understanding "strategy" but failing at "execution").
-
 - **Salience Bias:** Our mental models are not neutral maps; they are filtered by [[Salience Determines What Information Enters Mental Models|salience]]. We see what we value or fear, not necessarily what is objectively most important.
-
 - **Dynamic Loss:** Moving up the abstraction ladder is "lossy" compression. Critical signals can be lost in the smoothing process.
 
 ---
@@ -103,13 +86,8 @@ Evolutionarily, the brain is a [[The Brain as a Distributed Prediction Machine|p
 ## 6. Related Components
 
 - [[SoT - Contextual Myopia and Self-Referential Meaning]]
-
 - [[MOC - Abstraction Improves Breadth of Understanding]]
-
 - [[Understanding Enables Accurate Predictions]]
-
 - [[Understanding Reveals Cause-and-Effect]]
-
 - [[Predictive Processing and the Bayesian Brain]]
-
 - [[Mental Models MOC]]

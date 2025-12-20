@@ -1,23 +1,23 @@
 ---
-aliases: [Rust Ownership, Borrow Checker, Rust Lifetimes]
+aliases: [Borrow Checker, Rust Lifetimes, Rust Ownership]
 confidence: 5/5
 confidence-gaps: []
 created: 2025-12-19T13:11:01Z
 decay-signals: []
 epistemic: model
 last_reviewed: 2025-12-19
-modified: 2025-12-19T13:11:01Z
+modified: 2025-12-20T09:54:05Z
 purpose: "To explain the mechanics, rules, and theoretical critique of Rust's ownership, borrowing, and lifetime system."
-quality-markers: [Defines the three core rules, Explains the compile-time enforcement, Connects it to the 'Nanny' language concept.]
-related-soTs: ["[[SoT - Rust's Design Philosophy]]", "[[SoT - Region-Based Memory Management]]", "[[SoT - Quantitative Type Theory and Graded Modalities]]"]
+quality-markers: [Connects it to the 'Nanny' language concept., Defines the three core rules, Explains the compile-time enforcement]
+related-soTs: ["[[SoT - Quantitative Type Theory and Graded Modalities]]", "[[SoT - Region-Based Memory Management]]", "[[SoT - Rust's Design Philosophy]]"]
 resonance-score: 9
 review_interval: 12 months
 see_also: []
 source_of_truth: true
 status: stable
 supersedes: []
-tags: ["rust", "memory-management", "compilers", "type-system"]
-title: SoT - Rust's Ownership Model
+tags: ["compilers", "memory-management", "rust", "type-system"]
+title: "SoT - Rust's Ownership Model"
 type: SoT
 uid: 
 updated:
@@ -54,6 +54,7 @@ The entire system can be derived from three core rules that the borrow checker s
     - Rust automatically calls a special `drop` function to free the resources associated with the value.
 
 ### The Borrowing and Lifetimes Sub-System
+
 To allow access to data without transferring ownership, Rust uses **references** (or "borrows").
 
 - **Immutable Borrows (`&T`):** Allows read-only access. You can have as many as you want simultaneously.

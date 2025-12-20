@@ -4,7 +4,7 @@ confidence: 4/5
 created: 2025-12-17T00:00:00Z
 epistemic: 
 last_reviewed: 2025-12-17
-modified: 2025-12-19T10:12:34Z
+modified: 2025-12-20T09:54:06Z
 purpose: To outline the Transactional Analysis model as a framework for understanding and improving professional communication by identifying and managing ego states.
 related-soTs: ["[[MOC - Assertiveness Through System Design]]"]
 review_interval: 
@@ -29,21 +29,17 @@ updated:
 All professional communication can be mapped to one of these states:
 
 - **Parent:** The voice of authority. Can be nurturing ("Let me help you with that") or controlling and critical ("Why isn't this done yet?").
-
 - **Child:** The voice of internal reaction to the Parent. Can be submissive ("Okay, I'll get it done"), rebellious ("It's not fair to ask for this"), or emotional.
-
 - **Adult:** The voice of rational autonomy. It processes data, not feelings. It is objective, organized, and focused on verifiable reality. It does not seek approval or rebel; it clarifies facts.
 
 ## 3. The Core Dysfunction and Solution
 
 - **Dysfunctional Loop:** Most workplace confrontation is a **Parent-Child loop**. A manager's *Controlling Parent* triggers an employee's *Submissive or Rebellious Child*, leading to resentment, lack of clarity, and poor outcomes.
-
 - **The Solution (Forcing an Adult State):** Assertiveness is the act of breaking this loop by refusing to engage in a Parent or Child state. You must respond to any communication, regardless of its tone, from the **Adult** state.
 
 ### Example: Shifting the Transaction
 
 - **Manager (Parent):** "You are overloading me."
-
 - **Your Response (Adult):** "Given the current resources, we can deliver X or Y, but not both. Which is the priority?"
 
 By converting an emotional statement into a resource allocation problem, you force the other party to abandon the Parent/Child dynamic and engage with you in an Adult-to-Adult negotiation based on facts.

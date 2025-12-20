@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-13T09:50:46Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T10:12:32Z
+modified: 2025-12-20T09:54:03Z
 purpose: 
 review_interval: 
 see_also: []
@@ -98,7 +98,6 @@ Here is how to approach this scenario to maintain the budget's integrity:
 The first step is to shift the definition of these events. Your wife feels she has "no choice" because she views these events as unpredictable crises. However, the YNAB method teaches that most of these "emergencies"—car repairs, medical bills, home maintenance—are actually **True Expenses**. They are inevitable; only the timing is uncertain [1, 2].
 
 - **The Shift:** Instead of treating a flat tire or a vet bill as a surprise that justifies ignoring the budget, YNAB treats them as monthly expenses that you haven't paid yet. By saving monthly for "Car Maintenance" or "Medical Deductibles," these events become boring administrative tasks rather than crises [1, 3].
-
 - **The Goal:** Eventually, when a "must-spend" event happens, she won't need to "figure it out later" because the money will already be sitting in a specific category waiting to do that job [4, 5].
 
 ### 2. "Finding The Money First" (The Trade-Off Reality)
@@ -108,9 +107,7 @@ When an unplanned expense hits *before* you have saved for it, your wife is corr
 To maintain the budget's integrity, you must enforce the reality of **Finite Resources**:
 
 - **The Conversation:** Explain that because you are doing Zero-Based Budgeting, every dollar already has a job. Spending \$200 on an emergency isn't just spending \$200; it is **firing \$200 from another job** [6, 7].
-
 - **The Action:** Even in an emergency, open the app *before* or *immediately* after the transaction. If the "Car Repair" category is empty, you must ask: **"Where is this money coming from?"** [8].
-
 - **The Heuristic:** You aren't asking her *not* to fix the car. You are asking her to choose which *other* priority gets cut to pay for it. Does it come from the "Vacation" category? The "Dining Out" category? This forces her to face the **trade-offs** immediately, rather than pretending the money came from nowhere [9].
 
 ### 3. Embrace Rule Three: Roll With the Punches
@@ -118,9 +115,7 @@ To maintain the budget's integrity, you must enforce the reality of **Finite Res
 Your wife may be avoiding the budget in these moments because she feels that an emergency means she "failed" the plan. You must reinforce **Rule Three: Roll With the Punches** (now the **Flexibility** question) [10, 11].
 
 - **Changing the Plan IS the Plan:** If you have to move money from "Groceries" to cover a "Medical Bill," you haven't failed. You have successfully adapted to reality [10, 12].
-
 - **The "WAM" (Whack-a-Mole) Method:** The community refers to this as "WAMing"—moving money from a lower-priority category to cover overspending in another. This is standard practice, not an error [13].
-
 - **Maintain Authority:** The budget maintains its authority because *you* changed the budget to match reality, rather than ignoring the budget because reality didn't match the plan. As long as you zero out the overspending by moving funds, the budget remains accurate and trusted [8, 14].
 
 ### 4. Practical Script for "Must-Spend" Moments

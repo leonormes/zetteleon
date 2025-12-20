@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-26T11:05:00Z
 epistemic: experimental
 last_reviewed: 2025-12-16
-modified: 2025-12-19T10:13:16Z
+modified: 2025-12-20T09:54:54Z
 purpose: To test if Timeboxing effectively replaces traditional to-do lists for ADHD task management.
 review_interval: 2 weeks
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -29,13 +29,10 @@ version: 1
 ## 2. Experiment Protocol
 
 - **Duration:** 1 Work Week (Monday - Friday).
-
 - **Method:**
 
     1. **Discard Traditional Lists:** For the duration of the experiment, do not use any scrolling to-do lists.
-
     2. **Calendar Everything:** Plan the entire day by blocking out every task (including breaks and transitions) on the calendar with a defined start and end time.
-
     3. **Treat as Appointments:** Treat each time block as a non-negotiable appointment.
 
 - **Tools:** Use a digital calendar with time blocking features.
@@ -45,7 +42,6 @@ version: 1
 ## 3. Expected Outcome
 
 - **Success Metric:** Feel calmer when looking at the daily plan. Successfully start and transition between 80% of scheduled blocks.
-
 - **Qualitative:** Reduction in the "infinite tasks" feeling. Improved sense of accomplishment.
 
 ---
