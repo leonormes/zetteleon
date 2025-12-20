@@ -9,7 +9,7 @@ purpose: "To explain how starter tasks specifically benefit individuals with ADH
 review_interval: 90
 see_also: ["[[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]]"]
 source_of_truth: ["[[MOC - Atomic Actions and Next Actions Framework]]"]
-status: seedling
+status: archived
 tags: [adhd, executive-function, productivity, task-initiation]
 title: Starter Tasks Address ADHD Challenges
 type: concept

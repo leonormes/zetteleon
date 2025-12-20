@@ -9,7 +9,7 @@ purpose: "To explain the technique of chaining multiple starter tasks for very d
 review_interval: 180
 see_also: ["[[A Starter Task is a Small Action Designed Purely to Build Momentum]]"]
 source_of_truth: ["[[The Starter Task Overcomes Activation Energy for ADHD]]"]
-status: "growing"
+status: "archived"
 tags: [adhd, productivity, strategy, technique]
 title: Chaining Starter Tasks Creates a Momentum Ramp for Difficult Tasks
 type: "permanent"

@@ -9,7 +9,7 @@ purpose: "Explains why it's hard to return to projects after a break."
 review_interval: 90
 see_also: []
 source_of_truth: []
-status: seedling
+status: archived
 tags: [adhd, dopamine, productivity, psychology]
 title: Project Re-Entry is Challenging Due to Diminished Novelty
 type: concept
