@@ -56,7 +56,7 @@ The VPC link requires an existing, operational internal Load balancer to direct 
 
 Once our Cluster is bootstrapped with the necessary add-ons, let’s take a look at an example manifest, utilizing the Service object to create our Load Balancer.
 
-```c
+```yaml
 apiVersion: v1
 kind: Service
 metadata:
