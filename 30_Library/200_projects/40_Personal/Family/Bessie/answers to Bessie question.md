@@ -4,14 +4,14 @@ confidence:
 created: 2025-06-14T11:05:39Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:28Z
+modified: 2025-12-20T20:28:44Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [project/family/bessie]
-title: answers to Bessie question
+title: Answers to Bessie Question
 type:
 uid: 
 updated: 

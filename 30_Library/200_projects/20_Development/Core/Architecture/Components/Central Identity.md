@@ -5,7 +5,7 @@ created: 2025-02-07T12:57:56Z
 dependencies:
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:51Z
+modified: 2025-12-20T20:28:44Z
 name: central-identity
 purpose: 
 replicas: N/A
@@ -14,7 +14,7 @@ see_also: []
 source_of_truth: []
 status: 
 tags: [IAM]
-title: central_identity
+title: Central Identity
 type: documentation
 uid: 
 updated: 

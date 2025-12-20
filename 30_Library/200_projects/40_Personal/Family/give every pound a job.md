@@ -4,14 +4,14 @@ confidence:
 created: 2025-11-18T20:01:54Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-18T20:17:22Z
+modified: 2025-12-20T20:28:34Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: give every pound a job
+title: Give Every Pound a Job
 type: 
 uid: 
 updated: 

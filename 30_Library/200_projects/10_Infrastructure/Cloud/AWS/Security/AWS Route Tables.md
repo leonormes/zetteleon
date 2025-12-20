@@ -5,14 +5,14 @@ created: 2025-02-07T12:57:54Z
 epistemic: 
 ID: 8a9
 last_reviewed: 
-modified: 2025-12-13T11:39:52Z
+modified: 2025-12-20T20:28:44Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [networking]
-title: aws_route_tables
+title: AWS Route Tables
 type: 
 uid: 
 updated: 

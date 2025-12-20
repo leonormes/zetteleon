@@ -5,14 +5,14 @@ created: 2025-02-07T12:57:54Z
 epistemic: 
 ID: FFAPP-3277
 last_reviewed: 
-modified: 2025-12-13T11:39:52Z
+modified: 2025-12-20T20:28:44Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [aws, ff_deploy, networking]
-title: aws_firewall_rules
+title: AWS Firewall Rules
 type: config
 uid: 
 updated: 

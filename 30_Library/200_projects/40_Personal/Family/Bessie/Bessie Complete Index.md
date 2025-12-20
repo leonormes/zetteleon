@@ -179,7 +179,7 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 - [[Bessie Info]]
 - [[Bess friday]]
 - [[Bessie's Answers]]
-- [[answers to Bessie question]]
+- [[Answers to Bessie Question]]
 
 #### Questions & Engagement
 

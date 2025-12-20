@@ -4,14 +4,14 @@ confidence:
 created: 2025-07-10T16:52:19Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:23Z
+modified: 2025-12-20T20:28:11Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: Algebraic manipulation
+title: Algebraic Manipulation
 type:
 uid: 
 updated: 

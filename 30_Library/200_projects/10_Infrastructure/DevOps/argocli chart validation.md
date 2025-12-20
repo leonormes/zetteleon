@@ -4,14 +4,14 @@ confidence:
 created: 2025-03-05T20:32:59Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:40Z
+modified: 2025-12-20T20:28:21Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [ff_deploy, gitops]
-title: argocli chart validation
+title: Argocli Chart Validation
 type: 
 uid: 
 updated: 

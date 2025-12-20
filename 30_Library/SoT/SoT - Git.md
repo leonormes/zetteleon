@@ -121,6 +121,6 @@ Breaking Changes:
 - [[Understanding Merge Commits and Diffs]]
 - [[undoing changes in git]]
 - [[ff git process for better logs]]
-- [[cicd fundamental]]
+- [[CICD Fundamental]]
 - [[efficient and effective Continuous Delivery pipeline]]
 - [[Universal Keymap Plan]]

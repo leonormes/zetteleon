@@ -4,7 +4,7 @@ confidence:
 created: 2025-02-07T12:57:53Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:52Z
+modified: 2025-12-20T20:28:44Z
 purpose: 
 review_interval: 
 see_also: []
@@ -12,7 +12,7 @@ source: https://dev.to/aws-builders/managing-aws-eks-access-entries-with-terrafo
 source_of_truth: []
 status: 
 tags: [aws, ff_deploy, IAM]
-title: aws_eks_access_management_with_terraform
+title: AWS EKS Access Management With Terraform
 type: config
 uid: 
 updated: 

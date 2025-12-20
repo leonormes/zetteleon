@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-27T00:00:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-20T09:54:21Z
+modified: 2025-12-20T20:28:25Z
 purpose: 
 review_interval: 
 see_also: []
@@ -12,7 +12,7 @@ source: "https://gemini.google.com/share/e6c8b62fef49"
 source_of_truth: []
 status: 
 tags: ["clipped", "llm_session"]
-title: ‎Gemini - AWS Load Balancer Details Summary
+title: AWS Load Balancer Details Summary
 type:
 uid: 
 updated: 

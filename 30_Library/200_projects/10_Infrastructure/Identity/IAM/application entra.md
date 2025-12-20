@@ -4,14 +4,14 @@ confidence:
 created: 2025-07-02T17:05:47Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:25Z
+modified: 2025-12-20T20:28:36Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: application entra
+title: Application Entra
 type:
 uid: 
 updated: 

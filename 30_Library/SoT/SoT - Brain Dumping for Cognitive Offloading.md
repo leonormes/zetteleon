@@ -4,16 +4,13 @@ confidence: 1
 created: 2025-12-20T11:45:00Z
 epistemic: "technique"
 last_reviewed: 2025-12-20
-modified: 2025-12-20T11:45:00Z
+modified: 2025-12-20T20:28:10Z
 purpose: "To provide a canonical explanation of the brain dumping technique for managing cognitive load."
 review_interval: 365
-see_also: 
-- "[[Writing Creates Cognitive Distancing]]"
-- "[[SoT - The Extended Mind]]"
-- "[[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]"
+see_also: ["[[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]", "[[SoT - The Extended Mind]]", "[[Writing Creates Cognitive Distancing]]"]
 source_of_truth: []
 status: "evergreen"
-tags: [adhd, productivity, technique, working-memory, cognitive-load]
+tags: [adhd, cognitive-load, productivity, technique, working-memory]
 title: SoT - Brain Dumping for Cognitive Offloading
 type: "permanent"
 uid: 20251220114500
@@ -57,12 +54,12 @@ A **Brain Dump** is the act of writing down everything on your mind into a singl
 
 ## Tensions & Gaps
 
-*   How to choose the "right" external system (analog vs. digital) and avoid the trap of constantly switching tools.
-*   The optimal frequency and duration of brain dumping sessions for different contexts (e.g., daily vs. weekly, project-specific vs. general).
-*   Strategies for processing the output of a brain dump when feeling overwhelmed by the list itself.
+-   How to choose the "right" external system (analog vs. digital) and avoid the trap of constantly switching tools.
+-   The optimal frequency and duration of brain dumping sessions for different contexts (e.g., daily vs. weekly, project-specific vs. general).
+-   Strategies for processing the output of a brain dump when feeling overwhelmed by the list itself.
 
 ## Working Knowledge
 
-*   The barrier to entry must be near zero. A simple text file or a blank piece of paper is often more effective than a complex app.
-*   The "trust" in the external system is paramount. You must be confident that what you write down will be reviewed and will not get lost.
-*   A brain dump is not a to-do list, though it contains many to-do items. It is the raw material *from which* to-do lists and other organized structures are created.
+-   The barrier to entry must be near zero. A simple text file or a blank piece of paper is often more effective than a complex app.
+-   The "trust" in the external system is paramount. You must be confident that what you write down will be reviewed and will not get lost.
+-   A brain dump is not a to-do list, though it contains many to-do items. It is the raw material *from which* to-do lists and other organized structures are created.

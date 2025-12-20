@@ -4,14 +4,14 @@ confidence:
 created: 2025-11-17T10:33:46Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-17T11:03:39Z
+modified: 2025-12-20T20:28:34Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: budget friendly
+title: Budget Friendly
 type: 
 uid: 
 updated: 

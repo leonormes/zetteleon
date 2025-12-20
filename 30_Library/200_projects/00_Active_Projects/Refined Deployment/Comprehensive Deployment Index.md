@@ -4,14 +4,13 @@ confidence:
 created: 2025-09-04T08:33:44Z
 epistemic:
 last_reviewed:
-modified: 2025-12-20T11:30:00Z
+modified: 2025-12-20T20:28:12Z
 purpose: To provide an organized index of all deployment-related documentation.
 review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - deployment
+tags: [deployment]
 title: Comprehensive Deployment Index
 type: index
 uid:

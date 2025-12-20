@@ -5,7 +5,7 @@ created: 2025-02-07T12:57:55Z
 description: High-level deployment phases for the FitFile platform
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:45Z
+modified: 2025-12-20T20:27:03Z
 name: deployment_phases
 purpose: 
 review_interval: 
@@ -13,7 +13,7 @@ see_also: []
 source_of_truth: []
 status: 
 tags: [ff_deploy]
-title: deployment_phases
+title: Deployment Phases
 type: documentation
 uid: 
 updated: 

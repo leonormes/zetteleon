@@ -4,14 +4,14 @@ confidence:
 created: 2025-11-03T12:13:28Z
 epistemic:
 last_reviewed:
-modified: 2025-11-03T12:28:32Z
+modified: 2025-12-20T20:28:17Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
 tags: [bunny-relay, hie-prod-34, networking, project/work/cuh]
-title: configured to query the SDE relay service
+title: Configured to Query the SDE Relay Service
 type:
 uid:
 updated:

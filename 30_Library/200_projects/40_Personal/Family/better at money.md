@@ -4,14 +4,14 @@ confidence:
 created: 2025-11-18T18:28:07Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-04T13:28:13Z
+modified: 2025-12-20T20:28:34Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [1]
-title: better at money
+title: Better at Money
 type: 
 uid: 
 updated: 

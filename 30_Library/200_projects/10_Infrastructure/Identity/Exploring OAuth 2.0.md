@@ -49,7 +49,3 @@ updated:
   - Understand service-specific token and refresh behaviors, as implementation varies.
 
 **Bottom Line:** OAuth 2.0 lets registered apps act *on your behalf*—for both users and backend services—without ever exposing passwords. The right flow depends on the app and use case, but knowing all five standard flows prepares you for most integration scenarios.
-
-<div align="center">⁂</div>
-
-[^1_1]: <https://www.youtube.com/watch?v=tpIXmmV4ib4>\&t=1s

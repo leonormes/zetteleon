@@ -5,7 +5,7 @@ confidence:
 created: 2025-01-08T08:11:47Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:50Z
+modified: 2025-12-20T20:28:19Z
 purpose: 
 review_interval: 
 see_also: []
@@ -13,7 +13,7 @@ source: https://about.gitlab.com/blog/2025/01/06/ultimate-guide-to-ci-cd-fundame
 source_of_truth: []
 status: 
 tags: [SDLC]
-title: cicd fundamental
+title: CICD Fundamental
 type:
 uid: 
 updated: 

@@ -4,14 +4,14 @@ confidence:
 created: 2025-02-22T11:31:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:46Z
+modified: 2025-12-20T20:22:52Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [aws, ff_deploy, networking, peering, vpc]
-title: allow the peered VPC ec2 query the private DNSv2
+title: Allow the PeeredVPC ec2 Query the Private DNSv2
 type: instruction
 uid: f8412ceb-e64d-4def-a7e6-eb8f10b7f4c8
 updated: 

@@ -4,14 +4,14 @@ confidence: 5/5
 created: 2025-12-16T10:00:00Z
 epistemic: technical_documentation
 last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:09Z
+modified: 2025-12-20T20:28:10Z
 purpose: To serve as the Source of Truth for FITFILE's CI/CD infrastructure, detailing the build, validation, and deployment pipelines.
 review_interval: 
 see_also: []
 source_of_truth: []
 status: stable
 tags: [automation, cicd, devops, gitlab, pipeline]
-title: CD Pipelines
+title: SOT - CI-CD Pipelines
 type: SoT
 uid: 
 updated: 

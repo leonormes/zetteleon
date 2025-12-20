@@ -32,7 +32,7 @@ This index provides links to documentation related to networking between AWS EKS
 
 ### Cross-Cloud Networking Overview
 
-- [[cross_cloud_networking]] - High-level overview of networking Kubernetes clusters across cloud providers
+- [[Cross Cloud Networking]] - High-level overview of networking Kubernetes clusters across cloud providers
   - Cluster federation concepts
   - Infrastructure requirements
   - General networking considerations

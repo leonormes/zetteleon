@@ -7,7 +7,7 @@ decay-signals: []
 epistemic:
 last-synthesis: 2025-12-20
 last_reviewed: 2025-12-07
-modified: 2025-12-20T15:35:00Z
+modified: 2025-12-20T20:28:08Z
 purpose: The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system.
 quality-markers: [Clarifies the Human-in-the-Loop LLM workflow., Defines the core cognitive loop., Establishes verifiable acceptance criteria., Integrates Hansei Reflection Loop.]
 related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - ADHD Environmental Design]]", "[[SoT - Physical Health and Vitality]]", "[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]"]
@@ -76,6 +76,7 @@ The fundamental shift in ProdOS is moving from a "Librarian" mindset to an "Oper
 ## 3. The Architecture: Dual-Axis Engagement
 
 PRODOS functions as a control room balancing two axes:
+
 - **Horizontal Control (The Runway):** A system to capture, clarify, and execute daily actions.
 - **Vertical Perspective (The Horizons):** A hierarchical map from **50,000 feet** (Purpose/Principles) down to **10,000 feet** (Projects).
 
@@ -132,6 +133,7 @@ The system maintains a strict separation of concerns between thinking and knowin
 2. **The Reuse Score:** For any new project, was the system successfully leveraged to find and reuse existing knowledge, avoiding at least 30 minutes of new research?
 
 ### 5.1 Measurable Outcomes: The "Output First" Metric
+
 > **The Rule:** If using the system feels like a chore, it is failing.
 
 **Key Performance Indicators (KPIs):**
@@ -147,24 +149,32 @@ The system maintains a strict separation of concerns between thinking and knowin
 The system's logic is implemented through a series of integrated modules designed to handle the cognitive loop and support neurodivergent workflows.
 
 ### Module 1: The Ubiquitous Capture Hub
+
 To ensure trust, the app must eliminate "holes in the bucket."
+
 - **Zero-Friction Entry:** Multi-modal capture (voice-to-text, email forwarding, global hotkeys) that funnels all raw "stuff" into a single, unprocessed **In-box**.
 - **External Brain Sync:** Real-time synchronization across all devices.
 
 ### Module 2: The Logic Processor (Clarify & Organise)
+
 This module automates the thinking process required to define work before doing it.
+
 - **The Actionability Filter:** A guided workflow for every In-box item:
 	- **Is it actionable?** If NO: Auto-sort to **Trash**, **Reference**, or **Someday/Maybe** (Incubation).
 	- **If YES:** Force-definition of the **Next Action** and the **Desired Outcome** (Project).
 - **The 2-Minute Rule Engine:** If an action is tagged <2 minutes, the app triggers an immediate "Do It" prompt.
 
 ### Module 3: The Visual Flow Engine (Kanban)
+
 Drawing from *Making Work Visible*, the app replaces static lists with dynamic visual boards.
+
 - **WIP (Work-In-Progress) Limits:** A hard constraint (e.g., 3 items) on the "Doing" column to prevent cognitive overload from context switching.
 - **Flow Metrics:** Real-time dashboards for **Cycle Time** (how long it takes to finish a task) and **Aging Reports** (flagging neglected work).
 
 ### Module 4: The Review Orchestrator
+
 This is the master key to maintaining system integrity.
+
 - **The Guided Weekly Review:** A ritualized, step-by-step program:
 	1. **Get Clear:** Emptying physical and digital in-boxes.
 	2. **Get Current:** Updating Projects and Waiting-For lists.
@@ -172,7 +182,9 @@ This is the master key to maintaining system integrity.
 - **Horizon Alignment Check:** A quarterly prompt to verify if **Projects** (10k feet) support **Goals** (30k feet) and **Vision** (40k feet).
 
 ### Module 5: ADHD & Cognitive Support
+
 This layer supports "Now" vs. "Not Now" time-blindness.
+
 - **The "Now" Toggle:** A distraction-free mode that hides everything except the single next action for the current context.
 - **Visual Feedback Loops:** Gamified indicators of progress to provide immediate "natural rewards."
 - **Interruption Capture:** A "Flash Capture" or "Pink Dot" button for unplanned work, allowing the user to record the interruption and return to flow state immediately.
@@ -201,7 +213,9 @@ The Command Centre is a structural solution to planning inconsistency, reframing
 The "Next Test" is not just a task; it is a **verifiable interface** between the internal mental model (Thinking) and external reality (Doing).
 
 ### The Compilation Target
+
 You do not finish thinking when you have an answer; you finish when you have a **query for reality**.
+
 - **Input:** Tension/Hypothesis (HEAD Note).
 - **Function:** The Next Test (Action).
 - **Return Value:** Data/Outcome (Update SoT).
@@ -212,7 +226,9 @@ You do not finish thinking when you have an answer; you finish when you have a *
 3. **Learning Objective:** Focus on *information gain*, not just output.
 
 ### The Ignition Protocol (Stimulus Injection)
+
 [[Logic Does Not Produce Dopamine|Logic does not produce dopamine]]. To generate the energy for execution, you must convert "Work" into "Inquiry."
+
 1. **The "Mystery" Hack (Hypothesis):** Refactor a chore into a bet.
     - *Boring:* "Update CSS." -> *Ignition:* "Hypothesis: I can break the layout if I change padding to 50px."
 2. **The "Time Trial" Hack (Urgency):** Refactor an infinite task into a binary sprint.
@@ -227,6 +243,7 @@ You do not finish thinking when you have an answer; you finish when you have a *
 The core challenge is retrieving the right thought at the right time.
 
 ### The Unified Hierarchy
+
 | File Type | Role | The Question It Answers |
 | :--- | :--- | :--- |
 | **SoT Notes** | **The Canon (Authority)** | "What is the trusted, current state of the system?" |
@@ -235,7 +252,9 @@ The core challenge is retrieving the right thought at the right time.
 | **Base Files** | **The Dashboard (Dynamic)** | "Show me a live list of all X." |
 
 ### The "Safe Search" Guarantee
+
 To fix "Version Control Failure," the retrieval system must enforce the "Master Branch" view.
+
 - **Configuration:** Search tools must exclude `HEAD` / `Thinking` folders by default.
 - **The Promise:** When you search for a topic, you should see **one result**: The SoT.
 

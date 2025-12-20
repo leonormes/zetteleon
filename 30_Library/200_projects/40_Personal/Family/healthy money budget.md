@@ -4,14 +4,14 @@ confidence:
 created: 2025-11-18T18:37:44Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-18T19:59:20Z
+modified: 2025-12-20T20:28:34Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: healthy money budget
+title: Healthy Money Budget
 type: 
 uid: 
 updated: 

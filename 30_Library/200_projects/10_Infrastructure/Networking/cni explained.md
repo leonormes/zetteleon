@@ -5,7 +5,7 @@ confidence:
 created: 2025-03-25T06:18:51Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-20T09:54:40Z
+modified: 2025-12-20T20:28:29Z
 purpose: 
 review_interval: 
 see_also: []
@@ -13,7 +13,7 @@ source: https://qdnqn.com/networking-on-kubernetes-calico-and-ebpf/
 source_of_truth: []
 status: 
 tags: [calico, networking]
-title: cni explained
+title: CNI Explained
 type: 
 uid: 
 updated: 

@@ -1,22 +1,16 @@
 ---
-aliases: [Starter Task, Momentum Ramp, Task Chaining, Kaizen, Micro-victories, Psychology of Starter Tasks]
+aliases: [Kaizen, Micro-victories, Momentum Ramp, Psychology of Starter Tasks, Starter Task, Task Chaining]
 confidence: 1
 created: 2025-12-20T09:54:02Z
 epistemic: "principle"
 last_reviewed: 2025-12-20
-modified: 2025-12-20T11:00:00Z
+modified: 2025-12-20T20:28:10Z
 purpose: "To provide a canonical definition and explanation of Starter Tasks and their application."
 review_interval: 365
-see_also: 
-- "[[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]]"
-- "[[The Momentum Method Uses Starter Tasks to Lower Activation Energy]]"
-- "[[MOC - Atomic Actions and Next Actions Framework]]"
-- "[[Success Accumulates Through Thousands of Tiny Daily Choices]]"
-- "[[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]"
-- "[[The Zeigarnik Effect Creates a Cognitive Pull Towards Task Completion]]"
+see_also: ["[[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]]", "[[MOC - Atomic Actions and Next Actions Framework]]", "[[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]", "[[Success Accumulates Through Thousands of Tiny Daily Choices]]", "[[The Momentum Method Uses Starter Tasks to Lower Activation Energy]]", "[[The Zeigarnik Effect Creates a Cognitive Pull Towards Task Completion]]"]
 source_of_truth: []
 status: "evergreen"
-tags: [adhd, definition, productivity, task-management, technique, strategy, executive-function, task-initiation, habits, momentum, psychology, overthinking, perfectionism]
+tags: [adhd, definition, executive-function, habits, momentum, overthinking, perfectionism, productivity, psychology, strategy, task-initiation, task-management, technique]
 title: SoT - Starter Tasks
 type: "permanent"
 uid: 20251220095402
@@ -43,26 +37,27 @@ Starter tasks are effective because they trigger a cognitive shift away from the
     - **Before:** The brain is focused on the magnitude of the full task ("I have to write a whole report"). The primary question is, "*Should I start?*" which is often met with resistance.
     - **After:** Having already engaged with the task materials, the question is no longer about starting, but "*What should I do next?*" This is a much less intimidating question to answer.
 
-### Key Principles of a Starter Task:
+### Key Principles of a Starter Task
 
 1.  **Purpose: Build Momentum Only:** The sole goal is to break inertia. It deliberately avoids aiming for substantial work completion.
-    *   *Example:* "Open the presentation software," rather than "Create the first three slides."
+    -   *Example:* "Open the presentation software," rather than "Create the first three slides."
 2.  **Duration: 5-15 Minutes Maximum:** Ideally, a starter task should be completable within 1-5 minutes. Tasks exceeding this timeframe risk reintroducing an activation energy barrier.
-    *   *Example:* "Clear off one corner of the desk," rather than "Organize the office."
+    -   *Example:* "Clear off one corner of the desk," rather than "Organize the office."
 3.  **Simplicity: Single, Non-Complex Physical Action:** It must be a concrete, immediately executable physical step that requires no prior planning, extensive decision-making, or resource gathering.
-    *   *Example:* "Open a new document and title it," rather than "Outline the report."
+    -   *Example:* "Open a new document and title it," rather than "Outline the report."
 
-### Chaining Starter Tasks (Momentum Ramp):
+### Chaining Starter Tasks (Momentum Ramp)
 
 For particularly daunting or high-activation-energy tasks, **chaining starter tasks** involves sequencing several progressively larger micro-tasks. This creates a "momentum ramp," where each completed task provides a small dopamine reward—a "micro-victory"—and further reduces the psychological barrier to continuing, leading naturally into the core work.
 
-### Addressing ADHD Challenges:
+### Addressing ADHD Challenges
 
 Starter tasks are particularly effective for individuals with ADHD as they directly address core challenges such as executive dysfunction, task paralysis, feelings of overwhelm, and dopamine deficits. They achieve this by:
-*   **Externalizing Decisions:** Bypassing the internal "how to start" deliberation.
-*   **Guaranteed Achievability:** Providing a clear, low-barrier first step.
-*   **Managing Overwhelm:** Breaking massive tasks into manageable micro-steps.
-*   **Dopamine Rewards:** Delivering quick "micro-victories" that provide crucial positive reinforcement. This steady stream of feedback rewires the brain's association with the project from a source of dread to one of competence.
+
+-   **Externalizing Decisions:** Bypassing the internal "how to start" deliberation.
+-   **Guaranteed Achievability:** Providing a clear, low-barrier first step.
+-   **Managing Overwhelm:** Breaking massive tasks into manageable micro-steps.
+-   **Dopamine Rewards:** Delivering quick "micro-victories" that provide crucial positive reinforcement. This steady stream of feedback rewires the brain's association with the project from a source of dread to one of competence.
 
 By implementing starter tasks, neurological barriers to task initiation common in ADHD can be effectively bypassed, facilitating engagement with more complex work.
 
@@ -72,14 +67,14 @@ A Starter Task is a very small, simple, quick action (1-15 min) intended *only* 
 
 ## Tensions & Gaps
 
-*   How to effectively integrate starter tasks into existing task management systems (e.g., Todoist, Obsidian)?
-*   What are common pitfalls in defining starter tasks that turn them into regular tasks?
-*   How does the concept of "deliberate procrastination" or "productive procrastination" relate to starter tasks?
-*   Further exploration of the neurobiological mechanisms (e.g., dopamine release, prefrontal cortex engagement) behind the effectiveness of starter tasks for ADHD.
+-   How to effectively integrate starter tasks into existing task management systems (e.g., Todoist, Obsidian)?
+-   What are common pitfalls in defining starter tasks that turn them into regular tasks?
+-   How does the concept of "deliberate procrastination" or "productive procrastination" relate to starter tasks?
+-   Further exploration of the neurobiological mechanisms (e.g., dopamine release, prefrontal cortex engagement) behind the effectiveness of starter tasks for ADHD.
 
 ## Working Knowledge
 
-*   A starter task is not a "next action" in the traditional sense, but a *pre-next action* designed for initiation.
-*   The definition of "zero cognitive effort" can be subjective and may require self-calibration.
-*   Tagging starter tasks (e.g., `@starter_task`) can help identify and prioritize them.
-*   Reviewing completed starter tasks reinforces the positive feedback loop.
+-   A starter task is not a "next action" in the traditional sense, but a *pre-next action* designed for initiation.
+-   The definition of "zero cognitive effort" can be subjective and may require self-calibration.
+-   Tagging starter tasks (e.g., `@starter_task`) can help identify and prioritize them.
+-   Reviewing completed starter tasks reinforces the positive feedback loop.

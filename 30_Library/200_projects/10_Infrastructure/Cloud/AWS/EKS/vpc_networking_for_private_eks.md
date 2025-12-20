@@ -1,12 +1,12 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-02-07T12:57:53Z
 depends_on:
   - name: deployment_phases
     type: documentation
     reason: Defines the overall deployment structure
-    doc_link: "[deployment_phases](deployment_phases.md)"
+    doc_link: "[Deployment Phases](Deployment%20Phases.md)"
   - name: terraform_cloud_projects
     type: tooling
     reason: Required for infrastructure state management and deployment
@@ -17,13 +17,13 @@ depends_on:
     doc_link: "[aws_account_setup](aws_account_setup)"
 deployment_phase: 2
 description: VPC configuration for private EKS cluster
-epistemic: 
+epistemic:
 iac_path:
   - repo: terraform-aws-eks-private
     path: modules/vpc2
     main_file: main.tf
-last_reviewed: 
-modified: 2025-12-13T11:39:52Z
+last_reviewed:
+modified: 2025-12-20T20:28:44Z
 name: vpc_networking_for_private_eks
 phase_order:
   phase: 2
@@ -31,7 +31,7 @@ phase_order:
   next_steps:
     - vpc_endpoints
     - jumpbox
-purpose: 
+purpose:
 required_configurations:
   - name: CIDR ranges
     description: Network CIDR block allocations
@@ -49,15 +49,15 @@ required_resources:
   - type: external_service
     name: terraform_cloud
     reason: Required for state management and deployment
-review_interval: 
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
+status:
 tags: [aws, ff_deploy, networking, vpc]
 title: vpc_networking_for_private_eks
 type: infrastructure
-uid: 
-updated: 
+uid:
+updated:
 verification_steps:
 version: 1
 ---
