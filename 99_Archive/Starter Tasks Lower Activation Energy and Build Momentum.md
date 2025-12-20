@@ -9,7 +9,7 @@ purpose: "To explain the mechanism by which starter tasks are effective."
 review_interval: 90
 see_also: ["[[The Starter Task Overcomes Activation Energy for ADHD]]"]
 source_of_truth: ["[[MOC - Atomic Actions and Next Actions Framework]]"]
-status: seedling
+status: archived
 tags: [adhd, momentum, productivity, psychology, task-initiation]
 title: Starter Tasks Lower Activation Energy and Build Momentum
 type: concept

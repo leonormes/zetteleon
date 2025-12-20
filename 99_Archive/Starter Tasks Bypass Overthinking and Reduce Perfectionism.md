@@ -9,7 +9,7 @@ purpose: "To explain the psychological mechanisms that make starter tasks effect
 review_interval: 90
 see_also: ["[[A Starter Task is a Small Action Designed Purely to Build Momentum]]", "[[The Zeigarnik Effect Creates a Cognitive Pull Towards Task Completion]]"]
 source_of_truth: ["[[The Starter Task Overcomes Activation Energy for ADHD]]"]
-status: "evergreen"
+status: "archived"
 tags: [adhd, overthinking, perfectionism, productivity, psychology]
 title: Starter Tasks Bypass Overthinking and Reduce Perfectionism
 type: "permanent"
