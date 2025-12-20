@@ -27,7 +27,7 @@ updated:
 
 - **[[SoT - FITFILE Platform Deployment]]** - How we apply these concepts to our specific platform.
 - **[[SoT - FITFILE Secret Management Architecture]]** - The VSO implementation standard.
-- **[[SoT - FITFILE CI/CD Pipelines]]** - The delivery mechanism.
+- **[[SOT - CI-CD Pipelines]]** - The delivery mechanism.
 
 ## 3. Configuration & Management
 

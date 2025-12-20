@@ -54,7 +54,7 @@ To understand the deployment, you must understand its three pillars:
 ### A. The Pipelines (The Mover)
 *How code gets there.*
 
-- **Core Note:** [[SoT - FITFILE CI/CD Pipelines]]
+- **Core Note:** [[SOT - CI-CD Pipelines]]
 - **Mechanism:** GitLab CI builds images and triggers ArgoCD.
 - **Key Phases:** `Prepare` (Auth), `Deploy` (Sync), `Test` (Integration Workflows).
 
