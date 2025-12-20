@@ -1,6 +1,7 @@
 filters:
   and:
     - file.ext == "md"
+    - '!file.folder.startsWith("99_Archive")'
 views:
   - type: table
     name: Table

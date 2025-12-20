@@ -2,6 +2,7 @@ filters:
   and:
     - file.ext == "md"
     - file.tags.contains("prodos")
+    - '!file.path.startsWith("99")'
 views:
   - type: table
     name: Table
@@ -15,6 +16,8 @@ views:
       - status
       - file.size
     sort:
+      - property: file.name
+        direction: ASC
       - property: file.size
         direction: DESC
       - property: type

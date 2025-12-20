@@ -1,6 +1,7 @@
 filters:
   and:
     - type.contains("sot")
+    - '!file.path.startsWith("99")'
 views:
   - type: table
     name: Table
