@@ -2,6 +2,7 @@ filters:
   and:
     - file.ext == "md"
     - file.tags.contains("adhd")
+    - '!file.folder.startsWith("99_Archive")'
 views:
   - type: table
     name: Table
