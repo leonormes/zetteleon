@@ -2,6 +2,7 @@ filters:
   and:
     - file.ext == "md"
     - '!file.folder.startsWith("99_Archive")'
+    - status != "archived"
 views:
   - type: table
     name: Table
@@ -13,8 +14,8 @@ views:
         - file.name.contains("MOC")
         - type == "index"
     order:
-      - file.name
       - type
+      - file.name
       - tags
     sort:
       - property: file.mtime

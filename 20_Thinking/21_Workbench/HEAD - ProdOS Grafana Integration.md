@@ -9,8 +9,11 @@ purpose:
 review_interval:
 see_also: []
 source_of_truth: []
-status: defined
-tags: ["automation", "prodos", "thinking"]
+status: archived
+tags:
+  - automation
+  - prodos
+  - thinking
 title: HEAD - ProdOS Grafana Integration
 type: head
 uid:

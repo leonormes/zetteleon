@@ -28,7 +28,7 @@ This Map of Content (MOC) organizes notes related to character, virtue, and ethi
 
 ## Frameworks for Character
 
-- [[VIA Character Strengths]]
+- [[MOC - Character and Virtue|VIA Character Strengths]]
 
 ## The Six Core VIA Virtues
 

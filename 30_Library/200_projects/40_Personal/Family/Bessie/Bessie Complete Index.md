@@ -4,7 +4,7 @@ confidence:
 created: 2025-09-06T18:18:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:34Z
+modified: 2025-12-20T20:18:43Z
 purpose: 
 review_interval: 
 see_also: []
@@ -114,7 +114,6 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 - [[Section 2 Summary of GCSE Assessment Structure for Bessie Ormes]]
 - [[Section 3 Capitalising on Creativity and Interest – Optional Subjects]]
 - [[Section 4 Building Core Skills and Confidence – Compulsory Subjects]]
-- [[Bessie's curriculum]]
 
 ### ✍️ Learning Strategies & Support Systems
 
@@ -141,13 +140,11 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 - [[General School Experience & Engagement]]
 - [[Opportunities for Achievement & Assessment]]
 - [[Perceiving And Seeking Support]]
-- [[she hasn't been to lessons]]
-- [[The follow up meeting]]
+- [[The Follow Up Meeting]]
 - [[Bessie Meeting summary 18th chatllm]]
 
 #### Advocacy & Communication
 
-- [[Bessie Letter]]
 - [[Complaining letter]]
 - [[Plan Forward Requests for Belfairs Academy and Required Proof]]
 - [[Targeted Staff Training and Accountability]]
@@ -187,8 +184,8 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 #### Questions & Engagement
 
 - [[Question for Bessie about her learning]]
-- [[questions for Bessie]]
-- [[more questions for Bessie]]
+- [[Questions for Bessie]]
+- [[More Questions For Bessie]]
 - [[what for Bessie]]
 
 #### Planning Documents
@@ -209,8 +206,6 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 ### 📖 Reference Materials
 
 #### Existing MOC
-
-- [[Bessie MOC]] - Previous Map of Content (this index supersedes and expands upon it)
 
 ---
 

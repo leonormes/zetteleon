@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-02-07T12:57:53Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-12-13T11:39:42Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
+status:
 tags: []
 title: invalid_configuration_property_in_axios_mock_adapter
-type:
-uid: 
-updated: 
+type: map
+uid:
+updated:
 version:
 ---
 

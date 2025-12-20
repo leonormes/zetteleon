@@ -3,6 +3,7 @@ filters:
     - file.ext == "md"
     - file.tags.contains("prodos")
     - '!file.path.startsWith("99")'
+    - status != "archived"
 views:
   - type: table
     name: Table
