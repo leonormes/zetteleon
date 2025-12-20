@@ -9,7 +9,7 @@ purpose: "A technique to free up working memory by offloading mental clutter."
 review_interval: 180
 see_also: []
 source_of_truth: []
-status: seedling
+status: archived
 tags: [adhd, productivity, technique, working-memory]
 title: Brain Dumping Offloads Cognitive Load to an External System
 type: instructional

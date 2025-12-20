@@ -8,11 +8,11 @@ exclusions: Broad productivity philosophy; specific tool implementations beyond 
 last_reviewed:
 modified: 2025-12-20T09:54:58Z
 purpose:
-review_interval:
+review_interval: 0
 scope: Comprehensive framework for defining, organizing, and executing atomic actions as the fundamental unit of productivity, with a focus on ADHD-friendly systems.
 see_also: []
 source_of_truth: []
-status: stable
+status: archived
 tags: [action, adhd, execution, gtd, productivity]
 title: MOC - Atomic Actions and Next Actions Framework
 type: map
