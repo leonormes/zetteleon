@@ -193,81 +193,102 @@ Each FITFILE component is deployed as a separate ArgoCD Application, allowing fo
 
 ## Deployment Workflow
 
-### Phase 1: Infrastructure Provisioning
+### Phase 0: Initial Prerequisites & Customer Setup
 
-1. **Configure Deployment Parameters**
+This phase involves critical setup steps and agreements that must be completed before the core deployment begins.
 
-   ```hcl
-   # In locals.tf
-   deployment_key = "cuh-poc-1"
-   vnet_address_space = "10.250.16.0/24"
-   firewall_private_ip = "10.250.1.68"
-   ```
+#### Customer-Side Azure Account Preparation
 
-2. **Deploy Infrastructure**
+1.  **Register Resource Providers**: The customer must register the following providers: `Microsoft.ContainerService`, `Microsoft.ManagedIdentity`, `Microsoft.Network`, `Microsoft.Storage`, and `Microsoft.Compute`.
+2.  **Create Service Principal**: Create a service principal (e.g., "FITFILE Terraform Cloud Provisioner") with `Contributor` and `User Access Administrator` (scoped to Network Contributor) roles.
+3.  **Enable Encryption at Host**: Run `az feature register --namespace microsoft.compute --name EncryptionAtHost`.
+4.  **Adjust Compute Quota**: Ensure sufficient vCPU quota (e.g., `Standard ESv5 Family`) in the target region.
+5.  **Add FITFILE DevOps User**: Invite the FITFILE engineer as a Member with `Contributor` access.
 
-   ```bash
-   cd Clusters/eoe/Production/CUH-DP
-   terraform init
-   terraform plan
-   terraform apply
-   ```
+#### FITFILE Workstation Setup
 
-3. **Verify Cluster Access**
+1.  **Software**: Ensure `tfenv`, `terraform`, `azure-cli`, `last-pass` are installed.
+2.  **Generate Deployment Key**: In `Central Services` repo, run `./short_name.sh` to generate a unique key (e.g., `WM-Prod`).
 
-   ```bash
-   az aks get-credentials --resource-group rg-ff-uks-gp-cuh-poc-1 --name aks-ff-uks-gp-cuh-poc-1
-   kubectl get nodes
-   ```
+### Phase 1: Tooling (Central Services Configuration)
 
-### Phase 2: Platform Setup
+1.  **Vault Setup**:
+    - Update `hcp/vault/locals.tf` to define new deployment secrets.
+    - Populate secrets in HCP Vault for `application`, `spicedb`, `monitoring`, etc.
+2.  **UDE Secret**: Generate `ude_key` via `cargo run -- key-gen` in UDE CLI repo.
+3.  **Auth0 Configuration**:
+    - Update `environments/fitfile/<env>/auth0/main.tf` to add the new tenant application.
+    - Apply Terraform and record `client_id` and `client_secret` for Vault.
+4.  **Grafana Configuration**:
+    - Update `grafana/locals.tf` with the new stack.
+    - Apply Terraform and record monitoring credentials for Vault.
 
-1. **ArgoCD Installation**
-   - Automatically deployed via the platform module
-   - Configured with ingress and TLS certificates
-   - Image pull secrets configured for private ACR
+### Phase 2: Infrastructure Provisioning
 
-2. **Namespace Preparation**
+1.  **Configure Deployment Parameters**
 
-   ```bash
-   kubectl create namespace cuh-prod-1
-   kubectl create secret docker-registry fitfile-image-pull-secret \
-     --docker-server=fitfileregistry.azurecr.io \
-     --docker-username=$ACR_USERNAME \
-     --docker-password=$ACR_PASSWORD \
-     --namespace=cuh-prod-1
-   ```
+    ```hcl
+    # In locals.tf
+    deployment_key = "cuh-poc-1"
+    vnet_address_space = "10.250.16.0/24"
+    firewall_private_ip = "10.250.1.68"
+    ```
 
-### Phase 3: Application Deployment
+2.  **Deploy Infrastructure**
 
-1. **Configure FFNode Values**
+    - **Azure**: Use `terraform-azure-private-infrastructure` module.
+    - **AWS**: Use `terraform-aws-eks-private` template.
+    - Run `terraform init` and `terraform apply`.
 
-   ```yaml
-   # ffnodes/eoe/cuh-prod-1/values.yaml
-   namespace: "cuh-prod-1"
-   deploymentKey: "cuh-prod-1"
+3.  **Verify Cluster Access**
 
-   argocdApp:
-     targetRevision: cuh-prod-1-latest-release
-   ```
+    - Connect to Jumpbox (Azure: Serial Console, AWS: SSM).
+    - Run `az aks get-credentials` or `aws eks update-kubeconfig`.
+    - Verify with `kubectl get nodes`.
 
-2. **Deploy FFNode Chart**
+### Phase 3: Platform Setup
 
-   ```bash
-   helm install cuh-prod-1 charts/ffnode \
-     -f ffnodes/eoe/cuh-prod-1/values.yaml \
-     --namespace argocd
-   ```
+1.  **ArgoCD Installation**
+    - Automatically deployed via the platform module.
+    - **Manual Step**: Edit `vars.tfvars` on Jumpbox with Vault approles and ingress IPs.
+    - Run `terraform apply` on the Jumpbox.
 
-3. **Monitor Deployment**
+2.  **Namespace Preparation**
 
-   ```bash
-   # Check ArgoCD applications
-   kubectl get applications -n argocd
+    ```bash
+    kubectl create namespace cuh-prod-1
+    kubectl create secret docker-registry fitfile-image-pull-secret ...
+    ```
 
-   # Check application pods
-   kubectl get pods -n cuh-prod-1
-   ```
+3.  **Post-Infrastructure Configuration**
+    - **StorageClass**: Set `gp2` (or default) to `Retain` policy.
+    - **CoreDNS**: Add rewrite rules to prevent hairpin routing.
+
+### Phase 4: Application Deployment
+
+1.  **Configure FFNode Values**
+
+    ```yaml
+    # ffnodes/eoe/cuh-prod-1/values.yaml
+    namespace: "cuh-prod-1"
+    deploymentKey: "cuh-prod-1"
+
+    argocdApp:
+      targetRevision: cuh-prod-1-latest-release
+    ```
+
+2.  **Deploy FFNode Chart**
+
+    ```bash
+    helm install cuh-prod-1 charts/ffnode \
+      -f ffnodes/eoe/cuh-prod-1/values.yaml \
+      --namespace argocd
+    ```
+
+3.  **Post-Deployment Configuration**
+    - **Spicedb**: Create project relationships.
+    - **MongoDB**: Insert Tenants and Connections documents.
+    - **RBAC**: Assign `data_source_manager` roles.
 
 ## Deployment Patterns
 
@@ -349,6 +370,16 @@ ffnodes/fitfile/
 - Audit logging for compliance
 
 ## Troubleshooting
+
+### Critical Checks & Blockers
+
+*Before starting, verify these common blocking points:*
+
+1.  **Quotas**: Is the Azure vCPU quota sufficient?
+2.  **Encryption**: Is `EncryptionAtHost` fully registered?
+3.  **Firewall**: Are outbound rules for Central Services allowed?
+4.  **Networking**: Is the route between Telefonica and on-prem firewalls resolved?
+5.  **DNS**: Do existing DNS entries conflict with Terraform creation?
 
 ### Common Issues
 
