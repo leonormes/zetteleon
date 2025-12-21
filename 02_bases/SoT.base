@@ -10,6 +10,8 @@ views:
       - type
       - tags
     sort:
+      - property: type
+        direction: ASC
       - property: file.name
         direction: ASC
       - property: created

@@ -234,15 +234,26 @@ This phase involves critical setup steps and agreements that must be completed b
     firewall_private_ip = "10.250.1.68"
     ```
 
-2.  **Deploy Infrastructure**
+2.  **SDE Deployment Specifics (Hub-Spoke Connectivity)**
+    *For SDE deployments requiring on-premise connectivity:*
+    - **VNet Architecture**: Ensure a Hub-Spoke model where the Hub VNet connects to on-premise (ExpressRoute/VPN) and peers with the FITFILE Spoke VNet.
+    - **IP Allocation**:
+        - **Spoke CIDR**: A non-overlapping `/24` block.
+        - **Firewall IP**: Private IP of the central firewall.
+        - **DNS**: Corporate DNS server IP reachable from the Spoke.
+    - **Traffic Forwarding**: Enable on the VNet peering.
+    - **Firewall Rules**: Allow outbound traffic from the Spoke CIDR to required endpoints (see FITFILE endpoint list).
+
+3.  **Deploy Infrastructure**
 
     - **Azure**: Use `terraform-azure-private-infrastructure` module.
     - **AWS**: Use `terraform-aws-eks-private` template.
     - Run `terraform init` and `terraform apply`.
 
-3.  **Verify Cluster Access**
+4.  **Verify Cluster Access**
 
     - Connect to Jumpbox (Azure: Serial Console, AWS: SSM).
+    - **Conditional Access**: If interactive login is blocked, use a dedicated service principal or request an IP exception.
     - Run `az aks get-credentials` or `aws eks update-kubeconfig`.
     - Verify with `kubectl get nodes`.
 
@@ -467,6 +478,42 @@ ffnodes/fitfile/
 - Infrastructure issues: Platform Engineering Team
 - Application issues: FITFILE Development Team
 - Security concerns: Security Team
+
+---
+
+## Roadmap: Automated Onboarding
+
+*Proposed Refactoring to replace manual steps with a unified Makefile workflow.*
+
+### Overall Goal
+Refactor the Terraform codebase to enable single-command onboarding: `make apply CUSTOMER_NAME="new-customer-xyz"`.
+
+**Key Constraints:**
+- **No Hardcoded Secrets:** All credentials managed in HCP Terraform Cloud.
+- **Parameterisation:** Dynamic generation of customer resources.
+- **Modularity:** Logical, verifiable steps.
+
+### Phase 1: Parameterise GitLab
+- **Goal:** Create a generic, reusable module for GitLab repositories.
+- **Changes:**
+    - Add `customer_name` variable to `central-services/gitlab`.
+    - Refactor `gitlab_project` resources to use dynamic names (e.g., `${var.customer_name}-prod-repo`).
+    - Remove default values for sensitive tokens.
+
+### Phase 2: Parameterise Terraform Cloud
+- **Goal:** Automatically create TFC workspaces for new customers.
+- **Changes:**
+    - Add `customer_name` variable to `central-services/hcp/tfc`.
+    - Create dynamic `tfe_workspace` resources that link to the dynamic GitLab repos from Phase 1.
+
+### Phase 3: Orchestration (Makefile)
+- **Goal:** A single interface for execution.
+- **Proposed Workflow:**
+    ```makefile
+    # Example Usage: make apply CUSTOMER_NAME="new-customer"
+    plan: plan-gitlab plan-tfc
+    apply: apply-gitlab apply-tfc
+    ```
 
 ---
 

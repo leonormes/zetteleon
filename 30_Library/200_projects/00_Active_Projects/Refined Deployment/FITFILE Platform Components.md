@@ -29,8 +29,9 @@ version:
 ### **2. HashiCorp Vault Secrets Operator (VSO)**
 
 **Location**: `TFC-Modules/terraform-helm-fitfile-platform/vault_operator/main.tf`
-**Configuration**: Connects to HCP Vault using AppRole authentication
-**Description**: Automatically syncs secrets from Vault to Kubernetes secrets. Manages ACR credentials, PKI certificates, and application secrets. Uses VaultAuth and VaultDynamicSecret CRDs for declarative secret management.
+**Core Documentation**: [[SoT - FITFILE Secret Management Architecture]]
+
+**Description**: The operator provides the bridge between HashiCorp Vault and Kubernetes. It authenticates using AppRoles and synchronizes secrets into native Kubernetes `Secret` resources, handling rotation and drift detection automatically.
 
 ### **3. ArgoCD (GitOps)**
 

@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-15T00:00:00Z
 epistemic:
 last_reviewed: 2025-12-15
-modified: 2025-12-20T09:54:09Z
+modified: 2025-12-21T12:00:00Z
 purpose: The canonical source of truth for FITFILE's secret management architecture, defining the standard VSO implementation and the path to remediate legacy technical debt.
 related-soTs: ["[[SoT - FITFILE Platform Deployment]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 6 months
@@ -80,7 +80,6 @@ These environments purely use VSO and do not rely on hardcoded secrets.
 Environments like `stg` and `kch` currently fail to use VSO correctly, relying on `vault-replacement-secrets.yaml`.
 
 **Root Cause:**
-
 - Likely network connectivity or `VaultAuth` misconfiguration in the specific clusters prevents VSO from authenticating.
 - "Hack" solution was applied to bypass the error, embedding secrets directly in git/deployment (Security Risk).
 
@@ -135,57 +134,22 @@ extraDeploy:
               text: 'Host=hutch-prod-postgresql;...;User Id={{`{{get .Secrets "relay_postgresql_username"}}`}}...'
 ```
 
-### Dependency Diagram
-
-This flow illustrates the reconciliation loop between the Helm manifest, the VSO controller, and the running application.
-
-```mermaid
-classDiagram
-    %% Core Controller
-    class VaultSecretsOperator {
-        +ReconcileLoop()
-        +Auth(K8s_ServiceAccount)
-    }
-    %% Configuration
-    class VaultStaticSecret_CRD {
-        <<Custom Resource>>
-        +Path: "hutch-prod"
-        +Refresh: "10m"
-        +Template: Go_Transformation
-        +Destination: "relay"
-    }
-    %% External Source
-    class HashiCorpVault {
-        <<Source of Truth>>
-        +SecretEngine: KV-v2
-        +Mount: secrets/
-    }
-    %% Result
-    class K8sSecret {
-        <<Managed Resource>>
-        +Type: Opaque
-        +Data: ConnectionStrings
-        +OwnerReference: VaultStaticSecret
-    }
-    %% Consumer
-    class Deployment_Relay {
-        <<Consumer>>
-        +Annotation: checksum/config
-        +VolumeMount: /etc/secrets/relay
-    }
-
-    VaultSecretsOperator ..> VaultStaticSecret_CRD : Watches
-    VaultSecretsOperator --> HashiCorpVault : Fetches (Auth via SA)
-    VaultSecretsOperator --> K8sSecret : Reconciles (Create/Update)
-    VaultStaticSecret_CRD ..> K8sSecret : Defines Spec
-    VaultSecretsOperator ..> Deployment_Relay : Triggers Rollout (on rotation)
-    Deployment_Relay --> K8sSecret : Mounts (Env/Volume)
-```
-
 ---
 
-## 6. Related Documentation
+## 6. Future Improvements & Automation
 
-- **Deep Dive:** [[Vault to Kubernetes Secrets Management Guide]] - Detailed steps on adding new secrets.
-- **Principles:** [[General Principles for Adding Secrets]] - Best practices for secret management.
-- **Platform:** [[SoT - FITFILE Platform Deployment]] - Broader platform context.
+We are actively improving the developer experience to reduce toil and error.
+
+### 6.1 The Presets Strategy (Simplification)
+We are moving away from verbose templates in `values.yaml` towards simple "Presets" defined in the Helm chart.
+- **Old Way:** Manually defining `templates: { apiKey: '{{...}}' }` for every deployment.
+- **New Way:** `preset: mongodb` tells the chart to generate the standard MongoDB secret structure automatically.
+
+### 6.2 Automated Population (UDE/Vault)
+Currently, populating Vault is a manual process using the HCP UI.
+- **Goal:** CLI automation to generate and push secrets (e.g., `cargo run -- key-gen`).
+- **Target:** A `make init-secrets` command that generates random passwords and UDE keys and pushes them to the correct Vault path.
+
+### 6.3 Dynamic Database Secrets
+- **Goal:** Move from static KV secrets (long-lived passwords) to Vault's Database Secrets Engine.
+- **Benefit:** Short-lived, automatically rotated credentials (TTL 1h) generated on-the-fly for each pod.

@@ -21,6 +21,10 @@ views:
     sort:
       - property: file.size
         direction: DESC
+      - property: file.name
+        direction: ASC
+      - property: tags
+        direction: ASC
     columnSize:
       file.name: 445
   - type: table

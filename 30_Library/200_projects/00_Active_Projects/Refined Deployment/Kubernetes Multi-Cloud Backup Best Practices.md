@@ -4,13 +4,13 @@ confidence:
 created: 2025-11-11T12:55:24Z
 epistemic:
 last_reviewed:
-modified: 2025-11-12T14:24:53Z
+modified: 2025-12-21T17:14:29Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags:
+tags: [7276, 8595]
 title: Kubernetes Multi-Cloud Backup Best Practices
 type:
 uid:

@@ -1,17 +1,17 @@
 ---
-aliases: [Knowledge Management MOC, Thinking MOC, PKM Map]
+aliases: [Knowledge Management MOC, PKM Map, Thinking MOC]
 confidence: 5/5
 created: 2025-12-21T10:00:00Z
 epistemic:
 last_reviewed: 2025-12-21
-modified: 2025-12-21T10:00:00Z
+modified: 2025-12-21T17:14:23Z
 purpose: The central index for ProdOS's cognitive architecture, mapping the transition from traditional Zettelkasten to the "Factory Mindset."
 related-soTs: ["[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 6 months
 see_also: []
 source_of_truth: false
 status: active
-tags: [moc, pkm, thinking, prodos, zettelkasten]
+tags: [moc, pkm, prodos, thinking, zettelkasten]
 title: MOC - PRODOS - Thinking & Knowledge
 type: MOC
 uid:

@@ -5,7 +5,7 @@ created: 2025-12-16T09:45:00Z
 description: A high-level Meta MOC categorizing the primary domains of thought and Sources of Truth (SoT) within the vault.
 epistemic: synthesis
 last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:10Z
+modified: 2025-12-21T17:14:20Z
 purpose: To provide a top-level entry point into the system, answering "What do I often think about?" by clustering SoTs into broad thematic domains.
 review_interval: 
 see_also: []
@@ -145,4 +145,3 @@ My primary intellectual loop is:
     - *Solution:* [[SoT - ADHD Self-Compassion & Strengths]], [[SoT - The Internal World and the Need for Validation]].
 - **The Continuity Gap:** The struggle to maintain lines of thought over time.
     - *Solution:* [[SoT - The Extended Mind]], [[SoT - PRODOS - Knowledge Synthesis (Thinking)]].
-
