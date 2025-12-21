@@ -1,21 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-04-07T09:14:04Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-12-13T11:39:45Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: [ticket]
+status:
+tags:
+  - ticket
 title: FFAPP-3685 Incrementally Upgrade MongoDB Helm Chart and Database Version to Latest Stable
-type: cluster
+type:
 uid: ab22abcc-42b2-4b21-a584-0f490d8f98fe
-updated: 
-version: 
+updated:
+version:
 ---
 
 ```sh

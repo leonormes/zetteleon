@@ -1,23 +1,24 @@
 ---
-aliases: [FitFile Deployment Playbook, Deployment Master Guide]
+aliases: [Deployment Master Guide, FitFile Deployment Playbook]
 confidence: 5/5
-created: 2025-12-20
+created: 2025-12-20T00:00:00Z
 epistemic: synthesis
 last_reviewed: 2025-12-20
-modified: 2025-12-20
+modified: 2025-12-21T10:19:09Z
 purpose: A comprehensive, step-by-step Map of Content (MOC) and guide for deploying the FitFile platform, acting as the primary Source of Truth (SoT) for engineers.
 review_interval: 3 months
 see_also: ["[[SoT - FITFILE Deployment Process]]", "[[SoT - FITFILE Platform Components]]"]
 source_of_truth: true
 status: stable
-tags: [ff_deploy, moc, guide]
+tags: [ff_deploy, guide, moc]
 title: MOC - FitFile Deployment
 type: MOC
 uid: 
+updated: 
 version: 1.0
 ---
 
-# MOC - FitFile Deployment Playbook
+## MOC - FitFile Deployment Playbook
 
 > [!abstract] Executive Summary
 > This document acts as the **Master Deployment Guide** for the FitFile platform. It orchestrates the deployment process across four distinct phases, linking to specific technical guides for detailed execution.
@@ -26,7 +27,7 @@ version: 1.0
 
 ---
 
-## 1. Pre-Flight Checklist
+### 1. Pre-Flight Checklist
 
 Before initiating any phase, ensure the following prerequisites are met:
 
@@ -36,9 +37,9 @@ Before initiating any phase, ensure the following prerequisites are met:
 
 ---
 
-## 2. The Deployment Phases
+### 2. The Deployment Phases
 
-### Phase 1: Foundation & Tooling
+#### Phase 1: Foundation & Tooling
 **Goal:** Establish the central identity, secrets, and monitoring control plane. This is the "Key to the Castle."
 
 - **Detailed Guide:** [[Phase 1 Tooling Configuration]]
@@ -51,7 +52,7 @@ Before initiating any phase, ensure the following prerequisites are met:
     - [ ] Vault secrets populated in `deployments/<key>`.
     - [ ] Auth0 Tenant accessible.
 
-### Phase 2: Core Infrastructure (The Bedrock)
+#### Phase 2: Core Infrastructure (The Bedrock)
 **Goal:** Provision the physical cloud resources (VPC, EKS/AKS, Jumpbox) using Terraform.
 
 - **Detailed Guide:** [[Phase 2 Infrastructure Deployment]] (Covers AWS & Azure)
@@ -66,7 +67,7 @@ Before initiating any phase, ensure the following prerequisites are met:
     - [ ] Successful RDP/SSH connection to Jumpbox.
     - [ ] `kubectl get nodes` from Jumpbox returns healthy worker nodes.
 
-### Phase 3: Platform Services (The Runtime)
+#### Phase 3: Platform Services (The Runtime)
 **Goal:** Install the "Operating System" of the cluster (ArgoCD, Vault integration, Ingress) from *within* the private network.
 
 - **Detailed Guide:** [[FItfile deployment ArgoCD Style]] (Explains the "App of Apps" pattern)
@@ -80,10 +81,10 @@ Before initiating any phase, ensure the following prerequisites are met:
     - [ ] Vault Operator pods running.
     - [ ] Ingress Controller has an external IP/DNS.
 
-### Phase 4: Application Layer (The Logic)
+#### Phase 4: Application Layer (The Logic)
 **Goal:** Deploy the actual FitFile services (FFNode, MongoDB, Frontend) via GitOps.
 
-- **Detailed Guide:** [[set_up_new_deployment]] (See "Deploy the Platform" section)
+- **Detailed Guide:** [[Set Up New Deployment]] (See "Deploy the Platform" section)
 - **Key Actions:**
     1. **Config:** Create the customer-specific `values.yaml` in the `ffnodes/` repository.
     2. **Sync:** In ArgoCD, sync the Root Application (`ff-<deployment_key>`).
@@ -95,7 +96,7 @@ Before initiating any phase, ensure the following prerequisites are met:
 
 ---
 
-## 3. Architecture & Concepts
+### 3. Architecture & Concepts
 
 - **"App of Apps" Pattern:** We do not deploy services manually. We deploy *one* Root Application, which points to the `ffnode` Chart. This chart acts as a manifest, spawning all other services (MongoDB, API, etc.).
     - *Reference:* [[FItfile deployment ArgoCD Style]]
@@ -105,7 +106,7 @@ Before initiating any phase, ensure the following prerequisites are met:
 
 ---
 
-## 4. Troubleshooting & FAQ
+### 4. Troubleshooting & FAQ
 
 - **"ArgoCD Sync Failed":** Check `VaultAuth` status. Often caused by missing Vault secrets in Phase 1.
 - **"Image Pull Error":** Check ACR/ECR credentials in the `imagePullSecrets`.
@@ -113,7 +114,8 @@ Before initiating any phase, ensure the following prerequisites are met:
 
 ---
 
-## 5. Deployment Log (Reference)
+### 5. Deployment Log (Reference)
 
 For a raw, real-world example of a deployment log including error messages and "gotchas", see:
-- [[set_up_new_deployment]]
+
+- [[Set Up New Deployment]]

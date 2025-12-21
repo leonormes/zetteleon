@@ -112,7 +112,7 @@ This index provides organized access to all deployment-related documentation, co
 
 - **[[Prerequisities]]** - Technical prerequisites for deployment.
 - **[[Deployment Configuration Guide]]** - Step-by-step deployment configuration.
-- **[[set_up_new_deployment]]** - Guide and developer log for setting up a new deployment.
+- **[[Set Up New Deployment]]** - Guide and developer log for setting up a new deployment.
 
 ## 🔧 Repository & Code Organization
 

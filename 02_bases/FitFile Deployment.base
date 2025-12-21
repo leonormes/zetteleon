@@ -18,14 +18,14 @@ views:
       - status
       - modified
     sort:
+      - property: type
+        direction: ASC
       - property: file.name
         direction: ASC
       - property: modified
         direction: DESC
     columnSize:
-      file.name: 400
-      type: 150
-      status: 100
+      file.name: 445
   - type: table
     name: Guides & Instructions
     filters:
