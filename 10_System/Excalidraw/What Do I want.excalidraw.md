@@ -1,15 +1,30 @@
 ---
+aliases: []
+confidence: 
+created: 2025-11-09T13:01:56Z
+epistemic: 
 
 excalidraw-plugin: parsed
+last_reviewed: 
+modified: 2025-12-21T14:58:02Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
 tags: [excalidraw]
-
+title: What Do I want.excalidraw
+type: 
+uid: 
+updated: 
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
-# Excalidraw Data
+## Excalidraw Data
 
-## Text Elements
+### Text Elements
+
 Financial ^6nuXvCjH
 
 Children ^tl3oHJi3
@@ -19,7 +34,8 @@ Education ^VJp5nI89
 Emotional ^aXzTlqBS
 
 %%
-## Drawing
+### Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQBGAHZtAAYaOiCEfQQOKGZuAG1wMFAwMogSbghmABYAcQA2ADEARQajZwbMACkAaQBVIQBhOCEAIUS0/nLYRCrA7CiOZWD0
 
@@ -67,4 +83,5 @@ kBB26T1znkWrEBygICXmoCojr0kCuxsB1QZ24CaDBCBVer72TLOQfp6hjCkg2ykDKBMgAAU6cHEvA8mn
 
 V4ZfcyNTIwMDIPTDAQ3uIZmEMEIsMzljg2arPoMDPEiYXdiphfdcgYDKJkIY3YSqYEtGfjIYxo1o/4hPY4MwKfcECSOTORK7DkEICo+AF/LbFKOELmS+AWEAA===
 ```
+
 %%

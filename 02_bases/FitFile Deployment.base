@@ -16,13 +16,10 @@ views:
       - file.name
       - type
       - status
-      - modified
+      - tags
+      - file.size
     sort:
-      - property: type
-        direction: ASC
-      - property: file.name
-        direction: ASC
-      - property: modified
+      - property: file.size
         direction: DESC
     columnSize:
       file.name: 445

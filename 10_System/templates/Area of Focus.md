@@ -1,16 +1,27 @@
 ---
-title: { { title } }
-type: area
+aliases: []
+confidence: 
+created: Invalid date
+epistemic: 
 horizon: H2
-tags: [area, focus]
-created: { { date } }
-status: active
+last_reviewed: 
+modified: 2025-12-21T14:58:01Z
+purpose: 
 review_frequency: monthly
+review_interval: 
+see_also: []
+source_of_truth: []
+status: active
+tags: [area, focus]
+title: Area of Focus
+type: area
+uid: 
+updated: 
 ---
 
-# {{title}}
+## {{title}}
 
-## Purpose & Standards
+### Purpose & Standards
 
 > What standards must this area maintain to ensure stability and health?
 
@@ -24,7 +35,7 @@ review_frequency: monthly
 - [ ] Standard 2
 - [ ] Standard 3
 
-## Current Projects
+### Current Projects
 
 > Active projects that support this area
 
@@ -35,7 +46,7 @@ review_frequency: monthly
 }
 ```
 
-## Responsibilities
+### Responsibilities
 
 > Key responsibilities within this area
 
@@ -49,7 +60,7 @@ review_frequency: monthly
 - [ ] Responsibility 1
 - [ ] Responsibility 2
 
-## Review Checklist
+### Review Checklist
 
 **Monthly Review Questions:**
 
@@ -58,12 +69,12 @@ review_frequency: monthly
 - [ ] Any new projects needed?
 - [ ] Any standards need updating?
 
-## Support Material
+### Support Material
 
 - Links to relevant documents, checklists, or resources
 - Meeting notes or key decisions
 
-## Area Health Score
+### Area Health Score
 
 **Current Status:** 🟢 Green / 🟡 Yellow / 🔴 Red
 

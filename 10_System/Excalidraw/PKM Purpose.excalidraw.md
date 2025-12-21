@@ -1,15 +1,30 @@
 ---
+aliases: []
+confidence: 
+created: 2025-12-04T14:40:39Z
+epistemic: 
 
 excalidraw-plugin: parsed
+last_reviewed: 
+modified: 2025-12-21T14:58:02Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
 tags: [excalidraw]
-
+title: PKM Purpose.excalidraw
+type: 
+uid: 
+updated: 
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
-# Excalidraw Data
+## Excalidraw Data
 
-## Text Elements
+### Text Elements
+
 Thinking ^YoD4AnkQ
 
 Planning ^KHAZ3dPO
@@ -29,7 +44,8 @@ GTD ^66qNJwpj
 [[I Have a Vague Idea I Want to Capture My Understanding]] ^hfBCfZf5
 
 %%
-## Drawing
+### Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQBGAA5tAAYaOiCEfQQOKGZuAG1wMFAwMogSbggOQgBrfCgAMwBRAGl9ABFagFVMQgAxWoBONmwhACt0sshYRCrA7CiOZWCp
 
@@ -91,4 +107,5 @@ A8epeGs3oPzqpFeSfleyeakMejRoCdRsBcQJR3YyxoWBBjfiR8BTxw0E4ScxStalujA2ADBFv7iCA1Y/
 
 z7cOsaJSIDj5e0be1DZVW9X5YOECgE1gbbX/KH0EFHxFIHbH7RP5YPP9IEv9T/T6ahFR97sHGHFuYElDZTgCT5T7ZWf6Ws2iiwQgIwDeiu8PMC/HcB+TCDBAQBpNIlEIGxAGB1e5qc1iPU4YWdumBgSUJkHgHYxUsYEUILzxAFgCIB10H3o4GYDL8u4eMYiI6xyBCBmC4ARdLhWCAZhnw+YIAA==
 ```
+
 %%

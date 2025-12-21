@@ -24,7 +24,7 @@ version:
 
 ### Key Findings Summary
 
-When a Linux jumpbox within an AWS VPC cannot reach the internet, the root cause typically involves misconfigured network routing, security group/NACL restrictions, or instance-level configuration errors. This report synthesizes diagnostic methodologies from AWS documentation[^3][^6][^15], Linux network debugging tools[^2][^7][^13], and VPC architectural best practices[^1][^4][^12] to isolate and resolve such issues.
+When a Linux jumpbox within an AWS VPC cannot reach the internet, the root cause typically involves misconfigured network routing, security group/NACL restrictions, or instance-level configuration errors. This report synthesizes diagnostic methodologies from AWS documentation, Linux network debugging tools, and VPC architectural best practice to isolate and resolve such issues.
 
 ---
 
@@ -32,7 +32,7 @@ When a Linux jumpbox within an AWS VPC cannot reach the internet, the root cause
 
 #### 1. Verify Internet Gateway and Route Table Configuration
 
-The jumpbox must reside in a **public subnet** with a route table directing `0.0.0.0/0` traffic to an internet gateway (IGW)[^3][^15].
+The jumpbox must reside in a **public subnet** with a route table directing `0.0.0.0/0` traffic to an internet gateway (IGW).
 
 **Steps:**
 
@@ -64,7 +64,7 @@ aws ec2 describe-security-groups --group-ids sg-085b7a3273a7eff91 --query 'Secur
 
 ##### Network ACLs
 
-- **Inbound**: Allow ephemeral ports (1024-65535) from `0.0.0.0/0`[^1][^11].
+- **Inbound**: Allow ephemeral ports (1024-65535) from `0.0.0.0/0`.
 - **Outbound**: Allow HTTP/HTTPS (80/443) to `0.0.0.0/0`[^3][^11].
 
 **Command**:

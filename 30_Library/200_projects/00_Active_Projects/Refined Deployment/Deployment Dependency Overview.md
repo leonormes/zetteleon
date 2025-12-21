@@ -28,20 +28,20 @@ The system is comprised of several key components that work together to automate
 
 - ### Source Control & Artefacts
   - **GitLab**1: This is the central version control system where all infrastructure code is stored. It serves as the single source of truth for our configurations.
-  - **Artifactory**2: This repository likely stores built artefacts, provider plugins, or other dependencies required for the Terraform deployments.
+  - **Artifactory**: This repository likely stores built artefacts, provider plugins, or other dependencies required for the Terraform deployments.
 - ### Infrastructure as Code (IaC)
-  - **TFC Modules**3: This represents a collection of reusable, versioned Terraform modules. Using modules promotes consistency, reduces code duplication, and allows for standardised components across different parts of the infrastructure.
+  - **TFC Modules**: This represents a collection of reusable, versioned Terraform modules. Using modules promotes consistency, reduces code duplication, and allows for standardised components across different parts of the infrastructure.
   - **Terraform Infrastructure**4: This is the main repository containing the root Terraform configurations. These configurations call upon the
 
 `TFC Modules` to define the desired state of the overall infrastructure.
 
 - ### Orchestration & State Management
-  - **Terraform Cloud**5: This is the managed service used to execute Terraform runs. It securely stores the infrastructure's state file, manages secrets and variables, and provides an audit trail for all changes. It is configured under a specific
+  - **Terraform Cloud**: This is the managed service used to execute Terraform runs. It securely stores the infrastructure's state file, manages secrets and variables, and provides an audit trail for all changes. It is configured under a specific
 
 **Terraform Cloud Organisation**.
 
 - ### Target Environment
-  - **Production**7: This is the live environment where all the resources are provisioned and managed by Terraform. The detailed diagram within this section shows the complex network of deployed resources (e.g., servers, databases, load balancers) and their interdependencies.
+  - **Production**: This is the live environment where all the resources are provisioned and managed by Terraform. The detailed diagram within this section shows the complex network of deployed resources (e.g., servers, databases, load balancers) and their interdependencies.
 
 ---
 

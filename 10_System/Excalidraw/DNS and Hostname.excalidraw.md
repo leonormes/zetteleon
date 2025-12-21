@@ -1,14 +1,29 @@
 ---
+aliases: []
+confidence: 
+created: 2025-10-21T08:06:35Z
+epistemic: 
 excalidraw-plugin: parsed
-tags:
-  - topic/technology/networking/dns
+last_reviewed: 
+modified: 2025-12-21T14:58:02Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: [topic/technology/networking/dns]
+title: DNS and Hostname.excalidraw
+type: 
+uid: 
+updated: 
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
-# Excalidraw Data
+## Excalidraw Data
 
-## Text Elements
+### Text Elements
+
 Host 1 ^3bkFSKlP
 
 Client ^v23ZtMom
@@ -43,7 +58,8 @@ Host 2 ^KxYCc391
 
 Has a configure resolver IP ^jWK1Oj9f
 
-## Embedded Files
+### Embedded Files
+
 3df546d3c1d5c6c3d9c359ef9b5202b1659803b7: [[Pasted Image 20251021152341_970.png]]
 
 dffd3cb01abba14a8c886bf0c7b2383318741fb2: [[Pasted Image 20251021152437_700.png]]
@@ -55,7 +71,8 @@ cc1f93efca9d53669132d3652daecb3d4d67e68d: [[Pasted Image 20251021152706_688.png]
 65b4a0722b88a8397978fbf082b5707193ac71e5: [[Pasted Image 20251021153102_171.png]]
 
 %%
-## Drawing
+### Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQBGADYEmjoghH0EDihmbgBtcDBQMBKIEm4MAEcjIwAZBABxKAQAQQA1ZwAOUgaOQgBmABYABgB9VJLIWEQKwOwojmVgidLM
 
@@ -157,4 +174,5 @@ ynk2NgNLzsMT8og+gdVkeaWVyBygwQaIMvhEpx6lYETHwPUGMgJBlKfQTwNUHsghBng/yxC3zlODghqA
 
 WeNhaQEpCkBBwAhJE7CBRNomJjmgKY0iaaN2BnYy7HICqBZSD02A4xllPiZNa4h5ghARgKDF4n4AYDsmxdmEGCAMm10TMZecrH0BBHjU0c/gV0rjAGAVQ6QbkxNC6V14SQLQBk0yZZN5rQD4CULsECLD/hKwQAA=
 ```
+
 %%

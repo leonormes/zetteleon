@@ -4,7 +4,7 @@ confidence:
 created: Invalid date
 epistemic: 
 last_reviewed: 
-modified: 2025-12-09T21:42:14Z
+modified: 2025-12-21T14:58:01Z
 purpose: 
 review_interval: 
 see_also: []
@@ -18,4 +18,3 @@ updated:
 ---
 
 ## HEAD {{date:YYYY-MM-DD HH:mm}}
-

@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-11-11T12:55:24Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2025-11-12T14:24:53Z
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: [7276, 8595]
+status:
+tags:
 title: Kubernetes Multi-Cloud Backup Best Practices
-type: 
-uid: 
-updated: 
+type:
+uid:
+updated:
 ---
 
 ## **Architect's Guide to Multi-Cloud Kubernetes Backup and Disaster Recovery: AWS EKS and Azure AKS**

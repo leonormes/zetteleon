@@ -1,10 +1,21 @@
 ---
-version:
-tags: []
-type:
-title: Mindmap format
+aliases: []
+confidence: 
 created: 2025-06-17T16:56:45Z
-modified: 2025-07-06T16:15:50Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-21T14:58:02Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: []
+title: Mindmap format
+type:
+uid: 
+updated: 
+version:
 ---
 
 /\*

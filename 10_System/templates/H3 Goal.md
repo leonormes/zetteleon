@@ -1,17 +1,28 @@
 ---
-title: { { title } }
-type: goal
+aliases: []
+confidence: 
+created: Invalid date
+epistemic: 
 horizon: H3
-tags: [goal, objective]
-created: { { date } }
+last_reviewed: 
+modified: 2025-12-21T14:58:01Z
+purpose: 
 review_frequency: quarterly
-target_date: { { date:YYYY-12-31 } }
+review_interval: 
+see_also: []
+source_of_truth: []
 status: active
+tags: [goal, objective]
+target_date: { { date:YYYY-12-31 } }
+title: H3 Goal
+type: goal
+uid: 
+updated: 
 ---
 
-# {{title}}
+## {{title}}
 
-## Goal Statement
+### Goal Statement
 
 > Clear, measurable 1-2 year outcome
 
@@ -19,7 +30,7 @@ status: active
 **By When:** [Target date]
 **Success Criteria:** [Binary completion indicators]
 
-## Purpose & Motivation
+### Purpose & Motivation
 
 > Why this goal matters and how it aligns with higher horizons
 
@@ -28,7 +39,7 @@ status: active
 - Vision: [[H4 Vision]]
 - Area: [[Related Area]]
 
-## Key Results
+### Key Results
 
 > Measurable milestones toward goal completion
 
@@ -39,7 +50,7 @@ status: active
 - [ ] Q3 Milestone
 - [ ] Q4 Milestone
 
-## Supporting Projects
+### Supporting Projects
 
 > Projects that advance this goal
 
@@ -50,13 +61,13 @@ status: active
 }
 ```
 
-## Resources Needed
+### Resources Needed
 
 - [ ] Resource 1
 - [ ] Resource 2
 - [ ] Resource 3
 
-## Progress Tracking
+### Progress Tracking
 
 **Current Status:** 🔄 In Progress / ✅ On Track / ⚠️ At Risk
 
@@ -66,7 +77,7 @@ status: active
 - Any blockers or challenges
 - Adjustments needed
 
-## Review History
+### Review History
 
 - **{{date:YYYY-MM-DD}}:** Initial creation
 - **{{date:YYYY-MM-DD}}:** [Next review notes]

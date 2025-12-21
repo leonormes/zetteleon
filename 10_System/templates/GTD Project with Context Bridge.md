@@ -1,18 +1,32 @@
 ---
-project_id: { { title } }
-horizon: H1
+aliases: []
 area:
+confidence: 
+created: Invalid date
+epistemic: 
 goal:
+horizon: H1
+jira_epic:
+last_reviewed: 
+modified: 2025-12-21T14:58:01Z
+project_id: { { title } }
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
 status: active
-created: { { date } }
+tags: [todoist]
+title: GTD Project with Context Bridge
 todoist_project_id: 2260614191
 todoist_project_name: Work
-jira_epic:
+type: 
+uid: 
+updated: 
 ---
 
-# {{title}}
+## {{title}}
 
-## Outcome (Definition of Done)
+### Outcome (Definition of Done)
 
 > Binary completion criteria - what does "done" look like?
 
@@ -22,75 +36,75 @@ jira_epic:
 - [ ] Criterion 2
 - [ ] Criterion 3
 
-## Context & Alignment
+### Context & Alignment
 
 **Area:** [[Area Name]]
 **Goal:** [[Goal Name]]
 **Horizon:** H1 (Project)
 **Jira Epic:** [EPIC-ID](https://fitfile.atlassian.net/browse/EPIC-ID)
 
-## Next Actions
+### Next Actions
 
 > Tasks tagged with #todoist sync to Todoist
 
-### This Week (WIP - Max 3)
+#### This Week (WIP - Max 3)
 
 - [ ] Action item 1 #todoist @work @DeepWork p1 [due:: {{date:YYYY-MM-DD}}]
 - [ ] Action item 2 #todoist @computer @Online p1 [due:: {{date:YYYY-MM-DD}}]
 
-### Backlog (Ready)
+#### Backlog (Ready)
 
 - [ ] Future action 1 #todoist @work p2
 - [ ] Future action 2 #todoist @computer p3
 
-### Waiting For
+#### Waiting For
 
 - [ ] Waiting on X from Y #todoist @WaitingFor p3
 
-### Support Tasks (Obsidian Only - No Sync)
+#### Support Tasks (Obsidian Only - No Sync)
 
 - [ ] Research task
 - [ ] Documentation task
 - [ ] Reference gathering
 
-## Project Planning
+### Project Planning
 
-### Purpose
+#### Purpose
 
 Why does this project matter?
 
-### Vision
+#### Vision
 
 What does success look like in detail?
 
-### Brainstorming
+#### Brainstorming
 
 - Idea 1
 - Idea 2
 - Idea 3
 
-### Resources Needed
+#### Resources Needed
 
 - [ ] Resource 1
 - [ ] Resource 2
 
-## Project Notes
+### Project Notes
 
-### Meeting Notes
+#### Meeting Notes
 
-### Decisions Made
+#### Decisions Made
 
-### Reference Material
+#### Reference Material
 
-## Project Log
+### Project Log
 
 **{{date:YYYY-MM-DD}}:** Project created
 
 ---
 
-## Dataview Queries
+### Dataview Queries
 
-### Active Tasks
+#### Active Tasks
 
 ```dataview
 TASK
@@ -99,7 +113,7 @@ WHERE contains(text, "#todoist") AND !completed
 SORT priority ASC, due ASC
 ```
 
-### Completed Tasks
+#### Completed Tasks
 
 ```dataview
 TASK

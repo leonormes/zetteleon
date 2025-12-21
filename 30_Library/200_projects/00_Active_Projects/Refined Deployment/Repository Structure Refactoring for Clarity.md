@@ -6,7 +6,7 @@ created: 2025-08-18T00:00:00Z
 description: Created with Gemini
 epistemic: 
 last_reviewed: 
-modified: 2025-12-20T09:54:14Z
+modified: 2025-12-21T14:57:56Z
 published:
 purpose: 
 review_interval: 
@@ -15,7 +15,7 @@ source: https://gemini.google.com/share/b35e7c2abb29
 source_of_truth: []
 status: 
 tags: [documentation, helm]
-title: repo_structure_suggestions
+title: Repository Structure Refactoring for Clarity
 type:
 uid: 
 updated: 

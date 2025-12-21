@@ -1,22 +1,32 @@
 ---
+aliases: []
+confidence: 
+created: 2025-10-18T13:25:33Z
 date: { { date:YYYY-MM-DD } }
-type: daily
+epistemic: 
+last_reviewed: 
+modified: 2025-12-21T14:58:01Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
 tags: [daily, type/journal]
+title: Productivity Daily
+type: daily
+uid: 
+updated: 
 ---
 
-# {{date:dddd, MMMM DD, YYYY}}
+## {{date:dddd, MMMM DD, YYYY}}
 
-## Today's Focus
+### Today's Focus
 
 🎯 Top 3 Deep Work Items (from Todoist @WIP)
 
-1.
-2.
-3.
+### Context Dashboard
 
-## Context Dashboard
-
-### Deep Work Available
+#### Deep Work Available
 
 ```todoist
 {
@@ -25,7 +35,7 @@ tags: [daily, type/journal]
 }
 ```
 
-### Quick Wins
+#### Quick Wins
 
 ```todoist
 {
@@ -34,19 +44,19 @@ tags: [daily, type/journal]
 }
 ```
 
-## Energy Check
+### Energy Check
 
 - Morning energy:
 - Current context: @Computer / @Phone / @Home
 - Available time:
 
-## Notes & Capture
+### Notes & Capture
 
 Thoughts, ideas, things to process later.
 
 ---
 
-## Evening Review
+### Evening Review
 
 - [ ] Completed deep work items
 - [ ] Inbox processed

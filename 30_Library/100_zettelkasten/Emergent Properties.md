@@ -31,7 +31,6 @@ Understanding emergent properties helps explain complex systems in fields like c
 - [[Emergence and the Absence of Teleology]] - How emergent properties arise without predetermined purpose
 - [[Autopoiesis The Self-Referential System]] - Self-maintaining systems as emergent phenomena
 - [[Collective Intelligence Through Communication]] - Human intelligence as emergent from social interaction
-- [[I Don't Like Dependencies]] - How system dependencies create emergent behaviors
 
 ## Examples in Different Domains
 

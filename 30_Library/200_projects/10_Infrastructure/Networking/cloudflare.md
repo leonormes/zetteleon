@@ -4,21 +4,21 @@ confidence:
 created: 2025-03-25T18:07:48Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:46Z
+modified: 2025-12-21T14:57:49Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [cloudflare, dns, ff_deploy, networking]
-title: cloudflare
+title: Cloudflare
 type: 
 uid: 
 updated: 
 version: 
 ---
 
-we use cloudflare. it has some DNS records. our route seems to go to cloudflare IPs and from there to our loadbalancer IP. what is cloudflare? what can it do
+We use cloudflare. It has some DNS records. Our route seems to go to cloudflare ips and from there to our loadbalancer ip. What is cloudflare? What can it do
 
 Cloudflare is a global network service provider that enhances the **security**, **performance**, and **reliability** of websites, applications, and networks. It acts as a **reverse proxy**, meaning all traffic to your domain first passes through Cloudflare before reaching your origin server.
 

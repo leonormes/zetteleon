@@ -4,14 +4,14 @@ confidence:
 created: 2025-11-13T10:19:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-13T16:06:46Z
+modified: 2025-12-21T14:57:59Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: conversation dns
+title: Conversation DNS
 type: 
 uid: 
 updated: 

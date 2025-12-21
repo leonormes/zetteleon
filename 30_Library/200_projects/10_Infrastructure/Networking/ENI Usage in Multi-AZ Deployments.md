@@ -5,14 +5,14 @@ created: 2025-02-07T12:57:53Z
 epistemic: 
 ID: 7a10
 last_reviewed: 
-modified: 2025-12-13T11:39:46Z
+modified: 2025-12-21T14:57:48Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: eni_usage_in_multi-az_deployments
+title: ENI Usage in Multi-AZ Deployments
 type:
 uid: 
 updated: 

@@ -133,3 +133,16 @@ My primary intellectual loop is:
 - [[SoT - Physical Health and Vitality]]
 - [[SoT - Psychological Safety and Belonging]]
 - [[SoT - Mindfulness and Emotional Regulation]]
+
+## 8. Recurring Themes & Struggles (The Human Context)
+*The Shadow. The persistent challenges that this system was built to manage.*
+
+> **Observation:** This system emerged from specific, recurring struggles. We document them here to recognize the "Enemy" when it reappears.
+
+- **The Meta-Trap:** Using PKM as a form of procrastination (The "Illusion of Profundity").
+    - *Solution:* [[SoT - Processing IS the Work]], [[SoT - PRODOS (System Architecture)]].
+- **The Emotional Cycle:** The loop of enthusiasm -> overwhelm -> shame -> avoidance (RSD).
+    - *Solution:* [[SoT - ADHD Self-Compassion & Strengths]], [[SoT - The Internal World and the Need for Validation]].
+- **The Continuity Gap:** The struggle to maintain lines of thought over time.
+    - *Solution:* [[SoT - The Extended Mind]], [[SoT - PRODOS - Knowledge Synthesis (Thinking)]].
+

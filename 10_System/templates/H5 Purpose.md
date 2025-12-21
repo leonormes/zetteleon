@@ -1,16 +1,27 @@
 ---
-title: { { title } }
-type: purpose
+aliases: []
+confidence: 
+created: Invalid date
+epistemic: 
 horizon: H5
-tags: [purpose, principles, values]
-created: { { date } }
+last_reviewed: 
+modified: 2025-12-21T14:58:01Z
+purpose: 
 review_frequency: as-needed
+review_interval: 
+see_also: []
+source_of_truth: []
 status: foundational
+tags: [principles, purpose, values]
+title: H5 Purpose
+type: purpose
+uid: 
+updated: 
 ---
 
-# {{title}}
+## {{title}}
 
-## Purpose Statement
+### Purpose Statement
 
 > Ultimate intention and "why" of existence
 
@@ -22,7 +33,7 @@ status: foundational
 
 > [Concise statement of purpose in 1-2 sentences]
 
-## Core Values
+### Core Values
 
 > Fundamental beliefs and standards that guide all decisions
 
@@ -34,7 +45,7 @@ status: foundational
 - **Value 4:** [Definition and why it matters]
 - **Value 5:** [Definition and why it matters]
 
-## Principles in Action
+### Principles in Action
 
 > How values translate into behavioral standards
 
@@ -50,7 +61,7 @@ status: foundational
 - [ ] Standard 2: [What excellence looks like]
 - [ ] Standard 3: [What excellence looks like]
 
-## Alignment Check
+### Alignment Check
 
 > How current activities align with purpose and values
 
@@ -69,7 +80,7 @@ status: foundational
 - [ ] Current work aligns with purpose
 - [ ] Activities reflect values
 
-## Life Philosophy
+### Life Philosophy
 
 > Worldview and approach to life's challenges
 
@@ -83,7 +94,7 @@ status: foundational
 
 > What constitutes a life well-lived
 
-## Review Triggers
+### Review Triggers
 
 > When to revisit and reflect on purpose
 
@@ -100,7 +111,7 @@ status: foundational
 - When making major decisions
 - During times of transition or uncertainty
 
-## Legacy Questions
+### Legacy Questions
 
 > What will matter when looking back
 

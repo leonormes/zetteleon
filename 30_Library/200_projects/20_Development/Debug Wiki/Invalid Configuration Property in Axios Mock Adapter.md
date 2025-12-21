@@ -4,14 +4,14 @@ confidence:
 created: 2025-02-07T12:57:53Z
 epistemic:
 last_reviewed:
-modified: 2025-12-13T11:39:42Z
+modified: 2025-12-21T14:57:40Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
 tags: []
-title: invalid_configuration_property_in_axios_mock_adapter
+title: Invalid Configuration Property in Axios Mock Adapter
 type: map
 uid:
 updated:

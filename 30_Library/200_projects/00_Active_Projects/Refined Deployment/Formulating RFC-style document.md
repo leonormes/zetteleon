@@ -4,14 +4,13 @@ confidence:
 created: 2025-10-27T21:22:10Z
 epistemic:
 last_reviewed:
-modified: 2025-12-21T09:50:53Z
+modified: 2025-12-21T14:57:58Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - sdlc
+tags: [sdlc]
 title: Formulating RFC-style document
 type: rfc
 uid:

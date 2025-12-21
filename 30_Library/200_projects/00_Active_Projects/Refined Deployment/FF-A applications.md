@@ -4,14 +4,14 @@ confidence:
 created: 2025-09-11T11:07:10Z
 epistemic: 
 last_reviewed: 
-modified: 2025-10-30T14:24:10Z
+modified: 2025-12-21T14:57:59Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [applications, argocd, configuration, ff-a, project/work/deployment]
-title: FF-A applications
+title: FF-A Applications
 type:
 uid: 
 updated: 

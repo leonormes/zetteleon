@@ -3,11 +3,11 @@ aliases: [Deployment Master Guide, FitFile Deployment Playbook]
 confidence: 5/5
 created: 2025-12-20T00:00:00Z
 epistemic: synthesis
-last_reviewed: 2025-12-20
-modified: 2025-12-21T10:19:09Z
+last_reviewed: 2025-12-21
+modified: 2025-12-21T12:00:00Z
 purpose: A comprehensive, step-by-step Map of Content (MOC) and guide for deploying the FitFile platform, acting as the primary Source of Truth (SoT) for engineers.
 review_interval: 3 months
-see_also: ["[[SoT - FITFILE Deployment Process]]", "[[SoT - FITFILE Platform Components]]"]
+see_also: ["[[FITFILE Deployment Docs]]", "[[SoT - FITFILE Platform Components]]", "[[SoT - FITFILE Platform Deployment]]", "[[Updated Azure Customer Checklist]]"]
 source_of_truth: true
 status: stable
 tags: [ff_deploy, guide, moc]
@@ -15,10 +15,10 @@ title: MOC - FitFile Deployment
 type: MOC
 uid: 
 updated: 
-version: 1.0
+version: 2.0
 ---
 
-## MOC - FitFile Deployment Playbook
+## MOC - FITFILE Deployment Playbook
 
 > [!abstract] Executive Summary
 > This document acts as the **Master Deployment Guide** for the FitFile platform. It orchestrates the deployment process across four distinct phases, linking to specific technical guides for detailed execution.
@@ -27,13 +27,26 @@ version: 1.0
 
 ---
 
+### Core SoTs and Architectural Principles (Start Here)
+
+These notes provide the high-level narrative and architecture of the deployment system.
+
+1.  **[[SoT - FITFILE Platform Deployment]]** - **The Master Map.** The end-to-end flow from commit to cloud.
+2.  **[[SOT - CI-CD Pipelines]]** - **The Engine.** Detailed documentation of the GitLab CI/CD pipelines.
+3.  **[[SoT - FITFILE Secret Management Architecture]]** - **The Keys.** How Vault and VSO secure the platform.
+4.  **[[SoT - FitFile Deployment - Architecture and Concepts]]** - The core architectural concepts of the deployment process.
+
+---
+
 ### 1. Pre-Flight Checklist
 
 Before initiating any phase, ensure the following prerequisites are met:
 
 - [ ] **Access:** HashiCorp Cloud Platform (HCP), Auth0, GitLab, Cloud Provider (AWS/Azure).
-- [ ] **Tooling:** `terraform`, `tfenv`, `aws-cli` / `az-cli`, `kubectl`, `git`.
-- [ ] **Repository:** Cloned `fitfile/terraform-infrastructure` and `fitfile/customers`.
+- [ ] **Tooling:** `terraform`, `tfenv`, `aws-cli` / `az-cli`, `kubectl`, `git`. See [[Tooling]] for work index.
+- [ ] **Repository:** Cloned `fitfile/terraform-infrastructure` and `fitfile/customers`. See [[Repository Structure Refactoring for Clarity]].
+- [ ] **Checklists:** Review the for Azure deployments.
+- [ ] **Prerequisites:** [[Prerequisities]]
 
 ---
 
@@ -42,80 +55,43 @@ Before initiating any phase, ensure the following prerequisites are met:
 #### Phase 1: Foundation & Tooling
 **Goal:** Establish the central identity, secrets, and monitoring control plane. This is the "Key to the Castle."
 
-- **Detailed Guide:** [[Phase 1 Tooling Configuration]]
-- **Key Actions:**
-    1. **Generate Identity:** Run `short_name.sh` to create the unique `deployment_key` (e.g., `ff-hyve-1`).
-    2. **Vault Setup:** Update `central-services/hcp/vault/locals.tf` to allocate secret storage.
-    3. **Auth0 Config:** Update `central-services/auth0/prod/locals.tf` to provision the tenant.
-    4. **Secret Population:** Manually populate critical secrets (DB passwords, UDE keys) into Vault.
-- **Verification:**
-    - [ ] Vault secrets populated in `deployments/<key>`.
-    - [ ] Auth0 Tenant accessible.
+- **Detailed Guide:** [[SoT - FitFile Deployment - Phase 1 - Foundation and Tooling]]
 
 #### Phase 2: Core Infrastructure (The Bedrock)
 **Goal:** Provision the physical cloud resources (VPC, EKS/AKS, Jumpbox) using Terraform.
 
-- **Detailed Guide:** [[Phase 2 Infrastructure Deployment]] (Covers AWS & Azure)
-- **Context:** [[terraform_cluster_setup_guide]] (Legacy/Specific Azure nuances)
-- **Key Actions:**
-    1. **Workspace:** Create a new TFC workspace linked to the customer repo.
-    2. **Code:** Create `main.tf` consuming `terraform-helm-fitfile-platform` (or specific EKS/AKS modules).
-    3. **Deploy:** Run `terraform apply` to create the VPC, Cluster, and Jumpbox.
-    4. **Access:** Establish SSH/SSM access to the Jumpbox (the "Cockpit" for Phase 3).
-- **Verification:**
-    - [ ] `terraform output` returns Cluster Endpoint and Jumpbox Password.
-    - [ ] Successful RDP/SSH connection to Jumpbox.
-    - [ ] `kubectl get nodes` from Jumpbox returns healthy worker nodes.
+- **Detailed Guide:** [[SoT - FitFile Deployment - Phase 2 - Core Infrastructure]]
 
 #### Phase 3: Platform Services (The Runtime)
 **Goal:** Install the "Operating System" of the cluster (ArgoCD, Vault integration, Ingress) from *within* the private network.
 
-- **Detailed Guide:** [[FItfile deployment ArgoCD Style]] (Explains the "App of Apps" pattern)
-- **Key Actions:**
-    1. **Jumpbox:** All actions must be performed from the Jumpbox (Private Access).
-    2. **Bootstrap:** Clone the `private_platform_template` to the Jumpbox.
-    3. **Configure:** Update `vars.tfvars` with the `deployment_key` and values file path.
-    4. **Apply:** Run the internal Terraform to deploy ArgoCD and the Root App.
-- **Verification:**
-    - [ ] ArgoCD UI accessible via Ingress.
-    - [ ] Vault Operator pods running.
-    - [ ] Ingress Controller has an external IP/DNS.
+- **Detailed Guide:** [[SoT - FitFile Deployment - Phase 3 - Platform Services]]
 
 #### Phase 4: Application Layer (The Logic)
 **Goal:** Deploy the actual FitFile services (FFNode, MongoDB, Frontend) via GitOps.
 
-- **Detailed Guide:** [[Set Up New Deployment]] (See "Deploy the Platform" section)
-- **Key Actions:**
-    1. **Config:** Create the customer-specific `values.yaml` in the `ffnodes/` repository.
-    2. **Sync:** In ArgoCD, sync the Root Application (`ff-<deployment_key>`).
-    3. **Reconcile:** Watch as ArgoCD hydrates the child applications (MongoDB, FitConnect, etc.).
-- **Verification:**
-    - [ ] All ArgoCD Apps show `Synced` and `Healthy`.
-    - [ ] Frontend accessible via public URL.
-    - [ ] Integration tests pass (if configured).
+- **Detailed Guide:** [[SoT - FitFile Deployment - Phase 4 - Application Layer]]
 
 ---
 
-### 3. Architecture & Concepts
+### 3. Networking and Security
 
-- **"App of Apps" Pattern:** We do not deploy services manually. We deploy *one* Root Application, which points to the `ffnode` Chart. This chart acts as a manifest, spawning all other services (MongoDB, API, etc.).
-    - *Reference:* [[FItfile deployment ArgoCD Style]]
-- **Secret Flow:** Secrets are never in Git.
-    - Path: `Vault (HCP)` -> `External Secret Operator` -> `K8s Secret` -> `Pod Mount`.
-- **Private Access:** Direct access to the cluster API is blocked. All `kubectl` commands must tunnel through the Jumpbox or SSM.
+- **Detailed Guide:** [[SoT - FitFile Deployment - Networking and Security]]
 
 ---
 
-### 4. Troubleshooting & FAQ
+### 4. Troubleshooting & Known Issues
 
-- **"ArgoCD Sync Failed":** Check `VaultAuth` status. Often caused by missing Vault secrets in Phase 1.
-- **"Image Pull Error":** Check ACR/ECR credentials in the `imagePullSecrets`.
-- **"Terraform State Lock":** Check TFC console for hanging runs.
+- **Detailed Guide:** [[SoT - FitFile Deployment - Troubleshooting and Known Issues]]
 
 ---
 
-### 5. Deployment Log (Reference)
+### 5. Field Notes & Gotchas (From the Trenches)
 
-For a raw, real-world example of a deployment log including error messages and "gotchas", see:
+- **Detailed Guide:** [[SoT - FitFile Deployment - Field Notes and Gotchas]]
 
-- [[Set Up New Deployment]]
+---
+
+### 6. Deployment Log (Reference)
+
+For a raw, real-world example of a deployment log including error messages and "gotchas", see the institutional knowledge captured in this MOC.

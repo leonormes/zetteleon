@@ -1,21 +1,37 @@
 ---
+aliases: []
+confidence: 
+created: 2025-10-23T08:16:08Z
+epistemic: 
 
 excalidraw-plugin: parsed
+last_reviewed: 
+modified: 2025-12-21T14:58:02Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
 tags: [excalidraw]
-
+title: Hyve golive.excalidraw
+type: 
+uid: 
+updated: 
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
-# Excalidraw Data
+## Excalidraw Data
 
-## Text Elements
+### Text Elements
+
 Hyve ^07stFHbb
 
 Secrets in vault ^4XcUXoSk
 
 %%
-## Drawing
+### Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQBGADYEmjoghH0EDihmbgBtcDBQMBKIEm4pAFEACQAZWtIABgBJAGZmgGUALTgAQQARADEKZgAhUlJUkshYRArA7CiOZWCp
 
@@ -41,4 +57,5 @@ u3AmhgjDLmqUAj3qVajCpGrUgyh2QAApgPHGoLwe4/HeP8YAzsAAlNKIWyh4wSnmJx3APGGpCaU7wFTo
 
 aUakF1tkjJyQYA5wR6udSuqBUIUKStlYq9MlC4BUK/PlOEeVz4SxAA==
 ```
+
 %%

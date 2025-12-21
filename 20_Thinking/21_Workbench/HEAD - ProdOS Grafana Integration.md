@@ -4,16 +4,13 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-15T14:41:11Z
+modified: 2025-12-21T14:58:01Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: archived
-tags:
-  - automation
-  - prodos
-  - thinking
+tags: [automation, prodos, thinking]
 title: HEAD - ProdOS Grafana Integration
 type: head
 uid:

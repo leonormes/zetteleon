@@ -1,17 +1,28 @@
 ---
-title: { { title } }
-type: vision
+aliases: []
+confidence: 
+created: Invalid date
+epistemic: 
 horizon: H4
-tags: [vision, future]
-created: { { date } }
+last_reviewed: 
+modified: 2025-12-21T14:58:01Z
+purpose: 
 review_frequency: annually
-timeframe: 3-5 years
+review_interval: 
+see_also: []
+source_of_truth: []
 status: active
+tags: [future, vision]
+timeframe: 3-5 years
+title: H4 Vision
+type: vision
+uid: 
+updated: 
 ---
 
-# {{title}}
+## {{title}}
 
-## Vision Statement
+### Vision Statement
 
 > Long-term desired outcomes and ideal success scenarios (3-5 years)
 
@@ -19,7 +30,7 @@ status: active
 
 > Inspiring picture of future success
 
-## Environmental Context
+### Environmental Context
 
 > Market trends, technology changes, and external factors
 
@@ -33,7 +44,7 @@ status: active
 - [ ] Opportunity 1
 - [ ] Opportunity 2
 
-## Areas of Life
+### Areas of Life
 
 > How this vision impacts different life areas
 
@@ -55,7 +66,7 @@ status: active
 - [ ] Daily routines and habits
 - [ ] Work-life integration
 
-## Supporting Goals (H3)
+### Supporting Goals (H3)
 
 > 1-2 year goals that advance this vision
 
@@ -66,7 +77,7 @@ WHERE horizon = "H3" AND contains(goal, this.file.name)
 SORT created DESC
 ```
 
-## Success Indicators
+### Success Indicators
 
 > How we'll know this vision is being realized
 
@@ -76,7 +87,7 @@ SORT created DESC
 - [ ] Indicator 2
 - [ ] Indicator 3
 
-## Potential Challenges
+### Potential Challenges
 
 > Risks and obstacles that might prevent realization
 
@@ -90,7 +101,7 @@ SORT created DESC
 - [ ] Barrier 1
 - [ ] Barrier 2
 
-## Review & Adjustment
+### Review & Adjustment
 
 **Annual Review Questions:**
 
@@ -99,7 +110,7 @@ SORT created DESC
 - [ ] Supporting goals still appropriate?
 - [ ] Need to adjust timeframe or scope?
 
-## Inspiration & Motivation
+### Inspiration & Motivation
 
 > Why this vision matters deeply
 

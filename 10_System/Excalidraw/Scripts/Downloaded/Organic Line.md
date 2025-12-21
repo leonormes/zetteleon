@@ -1,10 +1,21 @@
 ---
-version:
-tags: []
-type:
-title: Organic Line
+aliases: []
+confidence: 
 created: 2025-06-17T16:57:43Z
-modified: 2025-07-06T16:15:50Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-21T14:58:02Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: []
+title: Organic Line
+type:
+uid: 
+updated: 
+version:
 ---
 
 /\*

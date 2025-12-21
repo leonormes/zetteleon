@@ -1,10 +1,21 @@
 ---
-version:
-tags: []
-type:
+aliases: []
+confidence: 
 created: 2025-04-21T08:27:57Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-21T14:58:01Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: []
 title: fleeting_template
-modified: 2025-04-21T19:28:29Z
+type:
+uid: 
+updated: 
+version:
 ---
 
 Source:

@@ -1,3 +1,22 @@
+---
+aliases: []
+confidence: 
+created: 2025-12-20T14:58:43Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-21T14:58:01Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: []
+title: Prompt - ProdOS System Linter
+type: 
+uid: 
+updated: 
+---
+
 **Role:** You are the ProdOS Chief of Staff.
 **Goal:** Squash and Merge volatile thinking into the stable Canon.
 

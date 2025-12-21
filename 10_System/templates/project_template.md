@@ -1,10 +1,21 @@
 ---
-version:
-tags: []
-type: project
+aliases: []
+confidence: 
 created: 2025-05-20T11:11:58Z
+epistemic: 
+last_reviewed: 
+modified: 2025-12-21T14:58:01Z
+purpose: 
+review_interval: 
+see_also: []
+source_of_truth: []
+status: 
+tags: []
 title: project_template
-modified: 2025-05-25T07:42:06Z
+type: project
+uid: 
+updated: 
+version:
 ---
 
 ## Project: <% tp.file.title %>

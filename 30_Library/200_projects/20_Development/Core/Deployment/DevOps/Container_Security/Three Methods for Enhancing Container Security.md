@@ -4,14 +4,14 @@ confidence:
 created: 2025-02-07T12:57:54Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:52Z
+modified: 2025-12-21T14:57:41Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: three_methods_for_enhancing_container_security
+title: Three Methods for Enhancing Container Security
 type:
 uid: 
 updated: 

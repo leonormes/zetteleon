@@ -4,14 +4,14 @@ confidence:
 created: 2025-11-27T09:38:40Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-20T09:54:18Z
+modified: 2025-12-21T14:57:59Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: FITFILE_Platform_Wiki
+title: FITFILE Platform Terraform Module Analysis and Documentation
 type: 
 uid: 
 updated: 
