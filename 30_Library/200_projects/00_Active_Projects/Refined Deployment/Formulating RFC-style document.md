@@ -1,25 +1,25 @@
 ---
 aliases: []
-
 confidence:
 created: 2025-10-27T21:22:10Z
 epistemic:
 last_reviewed:
-modified: 2025-11-03T10:32:19Z
+modified: 2025-12-21T09:50:53Z
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags: [sdlc]
-title: config rfc
-type:
+tags:
+  - sdlc
+title: Formulating RFC-style document
+type: rfc
 uid:
 updated:
 version:
 ---
 
-**Formulating RFC-style document**
+## Formulating RFC-style Document
 
 Drafting a structured RFC document to formalize ideas around config separation in Terraform IaC, including safety, automation, validation, and examples with Terraform, HCL, and more.
 

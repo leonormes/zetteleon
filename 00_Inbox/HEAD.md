@@ -1,0 +1,3 @@
+- I am struggling with the lack of respect and the implied evaluation of my work. 
+- maybe I am doing a poor job 
+- I am making it more efficient. And repeatable and we have a record. And we have auditability. And ease of pull off boarding. 

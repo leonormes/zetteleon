@@ -110,7 +110,7 @@ Security is a first-class citizen, leveraging Vault for dynamic secrets and PKI.
 
 ## 7. Related Components
 
-- [[repo_structure_suggestions]] - Repository organization.
+- [[Repository Structure Refactoring for Clarity]] - Repository organization.
 - [[Fitfile deployment fixes]] - Operational fixes.
 - [[FITFILE Node Deployment Guide]] - Comprehensive guide for deploying FITFILE nodes.
 - [[Phase 2 Infrastructure Deployment]] - Detailed infrastructure setup for AWS and Azure.

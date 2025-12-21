@@ -23,7 +23,7 @@ iac_path:
     path: modules/vpc2
     main_file: main.tf
 last_reviewed:
-modified: 2025-12-20T20:28:44Z
+modified: 2025-12-21T09:49:27Z
 name: vpc_networking_for_private_eks
 phase_order:
   phase: 2
@@ -54,19 +54,17 @@ see_also: []
 source_of_truth: []
 status:
 tags: [aws, ff_deploy, networking, vpc]
-title: vpc_networking_for_private_eks
-type: infrastructure
+title: Vpc Networking for Private eks
+type:
 uid:
 updated:
 verification_steps:
 version: 1
 ---
 
-## vpc_networking_for_private_eks
-
 Information about using the CIDR range 10.1.0.0/16 for an AWS VPC that will host a private EKS cluster.
 
-### CIDR Range Analysis
+## CIDR Range Analysis
 
 The CIDR range 10.1.0.0/16 is a private IP address range that falls within the
 
@@ -78,11 +76,11 @@ The CIDR range 10.1.0.0/16 is a private IP address range that falls within the
 
 This range provides ample space for subnetting and allocating IP addresses to various resources within your EKS cluster.
 
-### VPC Design for Private EKS Cluster
+## VPC Design for Private EKS Cluster
 
 When designing the VPC for a private EKS cluster using this CIDR range, consider the following:
 
-#### Subnet Distribution
+### Subnet Distribution
 
 1. Private Subnets: Allocate at least two private subnets across different Availability Zones (AZs) for high availability. For example:
    - 10.1.0.0/19 (8,192 IPs) in AZ-a
@@ -92,7 +90,7 @@ When designing the VPC for a private EKS cluster using this CIDR range, consider
    - 10.1.192.0/20 (4,096 IPs) in AZ-a
    - 10.1.208.0/20 (4,096 IPs) in AZ-b
 
-#### VPC Endpoints
+### VPC Endpoints
 
 For a private EKS cluster, you'll need to set up VPC endpoints to allow communication with AWS services without internet access. Some essential endpoints include:
 
@@ -103,7 +101,7 @@ For a private EKS cluster, you'll need to set up VPC endpoints to allow communic
 - com.amazonaws.region.sts
 - com.amazonaws.region.eks
 
-### EKS Cluster Configuration
+## EKS Cluster Configuration
 
 When creating the EKS cluster:
 
@@ -112,7 +110,7 @@ When creating the EKS cluster:
 3. Place worker nodes in the private subnets.
 4. Configure the cluster security group to allow necessary inbound and outbound traffic.
 
-### Networking Considerations
+## Networking Considerations
 
 1. IP Address Management: The Amazon VPC CNI plugin allocates IP addresses to Pods from the node's subnet. Ensure your subnets have enough available IP addresses.
 2. Maximum Pods per Node: The number of Pods per node is limited by the available IP addresses in the subnet. Plan your node and Pod density accordingly.
@@ -120,14 +118,14 @@ When creating the EKS cluster:
 4. Load Balancers: For ingress traffic, use internal load balancers placed in the private subnets.
 5. VPC Peering or Transit Gateway: Consider setting up VPC peering or a transit gateway for communication with other VPCs or on-premises networks.
 
-### Security Measures
+## Security Measures
 
 1. Implement strict security group rules to control traffic flow.
 2. Use Network ACLs as an additional layer of network security.
 3. Enable VPC Flow Logs for network traffic monitoring and troubleshooting.
 4. Implement AWS PrivateLink for secure access to AWS services.
 
-### Scalability and Future Growth
+## Scalability and Future Growth
 
 The chosen CIDR range (10.1.0.0/16) provides room for future expansion. However, plan your subnet allocations carefully to accommodate potential growth in node count, Pod density, and additional services.
 
@@ -135,33 +133,33 @@ By following these guidelines, you can create a well-structured, secure, and sca
 
 When planning for node count growth and pod density in a Kubernetes cluster, it's important to consider both current needs and future scalability. Here are some key considerations and rules of thumb to help you plan effectively:
 
-### Node Count Growth
+## Node Count Growth
 
-#### Initial Sizing
+### Initial Sizing
 
 Start with a conservative number of nodes based on your current workload requirements. A common starting point is 3-5 nodes across multiple availability zones for high availability.
 
-#### Scalability Buffer
+### Scalability Buffer
 
 Plan for a 20-30% buffer in node capacity to accommodate sudden spikes in workload or temporary failures. This buffer allows for smoother scaling and reduces the frequency of cluster autoscaling events.
 
-#### Node Group Strategy
+### Node Group Strategy
 
 Multiple Node Groups: Use multiple node groups to separate workloads with different resource requirements or to isolate specific applications. This approach provides more flexibility in scaling and resource allocation.
 
 Limit Node Groups: While multiple node groups are useful, aim to keep the total number of node groups below 10 if possible. Too many node groups can impact the performance of the Cluster Autoscaler.
 
-### Pod Density
+## Pod Density
 
-#### Optimal Pod Density
+### Optimal Pod Density
 
 A general rule of thumb is to aim for 30-50 pods per node. This range balances efficient resource utilization with manageable complexity.
 
-#### Consider Node Capacity
+### Consider Node Capacity
 
 Be aware of the maximum number of pods a node can support. For example, Amazon EKS limits pods per node based on instance type, ranging from 4 to 737 pods.
 
-### Rules of Thumb for Future-Proofing
+## Rules of Thumb for Future-Proofing
 
 1. Overestimate Initial Capacity: Start with more capacity than you think you need. It's easier to scale down than to hurriedly scale up during a traffic spike.
 2. Use Cluster Autoscaler: Implement Cluster Autoscaler to automatically adjust the number of nodes based on resource demands. This helps maintain an efficient balance between resource utilization and availability.

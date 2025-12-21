@@ -118,7 +118,7 @@ This index provides organized access to all deployment-related documentation, co
 
 ### GitLab Structure
 
-- **[[repo_structure_suggestions]]** - Comprehensive GitLab repository refactoring proposals.
+- **[[Repository Structure Refactoring for Clarity]]** - Comprehensive GitLab repository refactoring proposals.
 - **[[Simplify the helm charts]]** - Proposal for separating Helm chart code from customer configuration data.
 
 ## 🐛 Troubleshooting & Issues

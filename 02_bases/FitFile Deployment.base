@@ -1,0 +1,57 @@
+filters:
+  and:
+    - status != "archived"
+    - '!file.path.contains("99_Archive")'
+    - or:
+        - file.tags.contains("ff_deploy")
+        - file.name.contains("Deployment")
+        - file.path.contains("Deployment")
+views:
+  - type: table
+    name: Deployment Playbook
+    filters:
+      and:
+        - file.ext != "base"
+    order:
+      - file.name
+      - type
+      - status
+      - modified
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: modified
+        direction: DESC
+    columnSize:
+      file.name: 400
+      type: 150
+      status: 100
+  - type: table
+    name: Guides & Instructions
+    filters:
+      or:
+        - type == "guide"
+        - type == "documentation"
+        - file.name.contains("Guide")
+        - file.name.contains("Configuration")
+    order:
+      - file.name
+      - type
+      - confidence
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: MOCs & Indexes
+    filters:
+      or:
+        - type == "MOC"
+        - type == "index"
+        - type == "SoT"
+    order:
+      - file.name
+      - type
+      - resonance-score
+    sort:
+      - property: type
+        direction: ASC
