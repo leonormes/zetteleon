@@ -7,7 +7,7 @@ decay-signals: []
 epistemic:
 last-synthesis: 2025-12-20
 last_reviewed: 2025-12-07
-modified: 2025-12-20T20:28:08Z
+modified: 2025-12-22T11:08:40Z
 purpose: The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system.
 quality-markers: [Clarifies the Human-in-the-Loop LLM workflow., Defines the core cognitive loop., Establishes verifiable acceptance criteria., Integrates Hansei Reflection Loop.]
 related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - ADHD Environmental Design]]", "[[SoT - Physical Health and Vitality]]", "[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]"]
@@ -33,7 +33,7 @@ updated:
 > 1.  **Catch** thoughts before they vanish (RAM support).
 > 2.  **Clarify** confusion into concrete steps (Executive support).
 > 3.  **Verify** reality through action (Dopamine support).
->
+> 
 > **The Metric:** We do not measure "notes created." We measure "clarity achieved" and "actions taken."
 
 This approach is a direct solution to the problem of "Psychic RAM." The human mind is a processor, not a hard drive. When you store "open loops" (unresolved commitments) in your head, you consume cognitive resources. The goal of PRODOS is to achieve a state of **"Mind Like Water,"** where your response to any stimulus is exactly proportional to its importance, freeing up your attention for high-level thinking.

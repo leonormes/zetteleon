@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-21T19:36:43Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-21T19:43:07Z
+modified: 2025-12-22T11:09:23Z
 purpose: 
 review_interval: 
 see_also: []
@@ -101,10 +101,10 @@ Sci-Fi Tier List: Structured Data
  - [ ] Pandora's Star – Peter F. Hamilton
  - [ ] The Ministry for the Future – Kim Stanley Robinson
  - [ ] Dark Matter – Blake Crouch
- - [x] Oryx and Crake – Margaret Atwood  [completion:: 2025-12-21]
+ - [x] Oryx and Crake – Margaret Atwood [completion:: 2025-12-21]
  - [ ] Flatland – Edwin Abbott Abbott
  - [ ] 2001: A Space Odyssey – Arthur C. Clarke
- - [x] The Player of Games – Iain M. Banks  [completion:: 2025-12-21]
+ - [x] The Player of Games – Iain M. Banks [completion:: 2025-12-21]
  - [ ] Lucifer's Hammer – Niven & Pournelle
  - [ ] Contact – Carl Sagan
  - [ ] Doomsday Book – Connie Willis
@@ -112,6 +112,6 @@ Sci-Fi Tier List: Structured Data
  - [ ] Kitty Cat Kill Sat – Argus
  - [ ] Something Wicked This Way Comes – Ray Bradbury
  - [ ] The Illustrated Man – Ray Bradbury
- - [x] Hyperion Cantos – Dan Simmons  [completion:: 2025-12-21]
- - [x] Annihilation – Jeff VanderMeer  [completion:: 2025-12-21]
+ - [x] Hyperion Cantos – Dan Simmons [completion:: 2025-12-21]
+ - [x] Annihilation – Jeff VanderMeer [completion:: 2025-12-21]
  - [ ] The City & The City – China Miéville

@@ -5,14 +5,14 @@ created: 2025-03-13T15:51:37Z
 epistemic: 
 id: Data-Centric Perspective Secure Cross-Cloud Communication (AWS EKS to Azure AKS)
 last_reviewed: 
-modified: 2025-12-13T11:39:43Z
+modified: 2025-12-22T11:08:38Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [data-centric, networking, private]
-title: Data-Centric Perspective Secure Cross-Cloud Communication (AWS EKS to Azure AKS)
+title: SoT - Secure Cross-Cloud Data Transport
 type:
 uid: 
 updated: 
@@ -20,6 +20,7 @@ version:
 ---
 
 ---
+
 aliases: [Cross-Cloud Security, Secure Data Transport, SoT - Cross-Cloud]
 confidence: 5/5
 created: 2025-03-13T15:51:37Z
@@ -72,13 +73,17 @@ The system manages two distinct types of data state, each with specific sensitiv
 To transport these states securely, we construct a virtual circuit that abstracts the underlying public internet.
 
 ### The Virtual Wire (VPN / Interconnect)
+
 Data is encapsulated within a **Tunneling Protocol** (e.g., IPsec, WireGuard).
+
 -   **Outer Header:** Public IPs (Routeable on Internet).
 -   **Inner Header:** Private IPs (Routeable only within the VPCs).
 -   **Payload:** Encrypted Data.
 
 ### The Gateway Pattern
+
 The structural entry/exit points for data are **Gateways**, not individual nodes.
+
 -   **Ingress Gateway:** Decapsulates, Decrypts, and Routes to internal services.
 -   **Egress Gateway:** Encrypts, Encapsulates, and Routes to the peer gateway.
 

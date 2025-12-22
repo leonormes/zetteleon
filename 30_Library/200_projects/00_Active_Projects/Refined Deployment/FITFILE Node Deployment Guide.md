@@ -4,7 +4,7 @@ confidence:
 created: 2025-09-07T08:50:31Z
 epistemic: 
 last_reviewed: 
-modified: 2025-10-30T14:24:11Z
+modified: 2025-12-22T11:09:18Z
 purpose: 
 review_interval: 
 see_also: []
@@ -489,6 +489,7 @@ ffnodes/fitfile/
 *Proposed Refactoring to replace manual steps with a unified Makefile workflow.*
 
 ### Overall Goal
+
 Refactor the Terraform codebase to enable single-command onboarding: `make apply CUSTOMER_NAME="new-customer-xyz"`.
 
 **Key Constraints:**
@@ -512,6 +513,7 @@ Refactor the Terraform codebase to enable single-command onboarding: `make apply
 ### Phase 3: Orchestration (Makefile)
 - **Goal:** A single interface for execution.
 - **Proposed Workflow:**
+
     ```makefile
     # Example Usage: make apply CUSTOMER_NAME="new-customer"
     plan: plan-gitlab plan-tfc

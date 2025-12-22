@@ -4,14 +4,14 @@ confidence:
 created: 2025-03-14T01:38:49Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:49Z
+modified: 2025-12-22T11:08:38Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [networking]
-title: networking at its core is about the data
+title: SoT - The Data-Centric Theory of Networking
 type: 
 uid: 
 updated: 
@@ -19,6 +19,7 @@ version:
 ---
 
 ---
+
 aliases: [Data-Centric Networking, Theory of Networking, SoT - Networking]
 confidence: 5/5
 created: 2025-03-14T01:38:49Z
@@ -59,7 +60,9 @@ The fundamental atomic unit of state in networking is the **Protocol Data Unit (
 | **Trailer** | **Integrity Check** | Cyclic Redundancy Checks (CRC), Checksums. |
 
 ### The Flow State
+
 A network session is represented by a **5-Tuple**:
+
 `(Source IP, Destination IP, Source Port, Destination Port, Protocol)`
 
 ---
@@ -69,13 +72,17 @@ A network session is represented by a **5-Tuple**:
 The complexity of networking is managed through **Recursive Encapsulation** and **Distributed Sharding** of the namespace.
 
 ### Recursive Encapsulation (The Stack)
+
 Data is organized as a "Matryoshka doll" of structures. Each layer adds a specific metadata schema:
+
 -   **L2 (Frame):** Header maps to physical port (MAC).
 -   **L3 (Packet):** Header maps to logical network (IP).
 -   **L4 (Segment):** Header maps to process endpoint (Port).
 
 ### The Routing Table (The Prefix Trie)
-Network reachability is stored in a **Radix Tree** or **Trie** structure. 
+
+Network reachability is stored in a **Radix Tree** or **Trie** structure.
+
 -   **Index:** CIDR Prefixes (e.g., `10.0.0.0/8`).
 -   **Value:** Pointers to the next "hop" or interface.
 -   **Access Pattern:** Read-heavy, optimized for **Longest Prefix Match (LPM)**.
@@ -102,4 +109,5 @@ Because the data is structured as a stack of nested headers and a prefix-trie of
 -   **Firewalling:** Predicate logic applied to the 5-Tuple. If `Match(Tuple, RuleSet)` then `Forward` else `Drop`.
 
 ### Performance Optimization: Cache Locality
+
 Modern networking hardware (ASICs) offloads the logic into **TCAM (Ternary Content-Addressable Memory)**, turning Trie traversal into a single-clock-cycle hardware lookup. The logic disappears into the physical layout of the silicon.

@@ -4,13 +4,13 @@ confidence: 5/5
 created: 2025-02-12T19:42:08Z
 epistemic: architecture
 last_reviewed: 2025-12-22
-modified: 2025-12-22T12:00:00Z
+modified: 2025-12-22T11:08:38Z
 purpose: To define DNS strictly as a distributed hierarchical database, focusing on its data structures and state representation rather than just resolution logic.
 review_interval: 6 months
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - Kubernetes Networking & DNS]]"]
 source_of_truth: true
 status: stable
-tags: [data-centric, dns, networking, architecture, sot]
+tags: [architecture, data-centric, dns, networking, sot]
 title: SoT - The Data Architecture of DNS
 type: SoT
 uid:
@@ -51,6 +51,7 @@ The fundamental atomic unit of state in DNS is the **Resource Record (RR)**. It 
 -   **TXT:** `Text`. Maps `Name -> String`. Used for arbitrary metadata verification (e.g., SPF, DKIM) to prove domain ownership.
 
 ### The DNS Message PDU
+
 Data transfer occurs via a standardized Protocol Data Unit (PDU) containing five sections:
 
 | Section | Role | Content |
@@ -68,13 +69,17 @@ Data transfer occurs via a standardized Protocol Data Unit (PDU) containing five
 The complexity of DNS resides in its data layout, which partitions the global namespace into manageable, autonomous shards.
 
 ### The Inverted Tree (The Namespace)
+
 The data structure is a tree with a null-label root (`.`).
+
 -   **Depth:** Maximum of 127 levels.
 -   **Label:** Each node is a string (max 63 chars).
 -   **FQDN:** The concatenation of labels from node to root (e.g., `www.example.com.`).
 
 ### The Zone (The Shard)
+
 The tree is partitioned into **Zones**.
+
 -   **Definition:** A Zone is a contiguous subtree delegated to a specific administrative authority.
 -   **Storage:** Physically stored as a **Zone File** (or database equivalent) on an **Authoritative Name Server**.
 -   **Delegation:** A Zone contains `NS` records that point to the servers responsible for sub-zones. This creates a linked list of database shards.

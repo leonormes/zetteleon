@@ -4,14 +4,14 @@ confidence:
 created: 2025-10-14T11:49:19Z
 epistemic: 
 last_reviewed: 
-modified: 2025-10-30T14:24:11Z
+modified: 2025-12-22T11:09:14Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: FITFILE Secret Inventory
+title: Audit - FITFILE Secret Management (Oct 2025)
 type:
 uid: 
 updated: 

@@ -4,14 +4,14 @@ confidence:
 created: 2025-02-19T10:50:18Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T11:29:06Z
+modified: 2025-12-22T11:09:04Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [networking]
-title: "the jumpbox sg doesn't have an inbound rule"
+title: "The Jumpbox sg Doesn't Have an Inbound Rule"
 type: question
 uid: 
 updated: 

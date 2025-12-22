@@ -4,14 +4,14 @@ confidence: 5/5
 created: 2025-11-13T14:40:00Z
 epistemic:
 last_reviewed: 2025-12-21
-modified: 2025-12-21T12:00:00Z
+modified: 2025-12-22T11:08:41Z
 purpose: To define how knowledge evolves from volatile thinking into stable truth via the Merge Protocol.
 review_interval: 6 months
-see_also: ["[[SoT - PRODOS (System Architecture)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]"]
+see_also: ["[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: true
 status: stable
 tags: [cognition, knowledge-management, pkm, synthesis, thinking]
-title: SoT - Evolutionary Knowledge (The Merge Protocol)
+title: SoT - Evolutionary Note System
 type: SoT
 uid:
 updated:

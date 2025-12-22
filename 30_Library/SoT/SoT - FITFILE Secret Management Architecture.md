@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-15T00:00:00Z
 epistemic:
 last_reviewed: 2025-12-15
-modified: 2025-12-21T12:00:00Z
+modified: 2025-12-22T11:08:41Z
 purpose: The canonical source of truth for FITFILE's secret management architecture, defining the standard VSO implementation and the path to remediate legacy technical debt.
 related-soTs: ["[[SoT - FITFILE Platform Deployment]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 6 months
@@ -141,12 +141,16 @@ extraDeploy:
 We are actively improving the developer experience to reduce toil and error.
 
 ### 6.1 The Presets Strategy (Simplification)
+
 We are moving away from verbose templates in `values.yaml` towards simple "Presets" defined in the Helm chart.
+
 - **Old Way:** Manually defining `templates: { apiKey: '{{...}}' }` for every deployment.
 - **New Way:** `preset: mongodb` tells the chart to generate the standard MongoDB secret structure automatically.
 
 ### 6.2 Automated Population (UDE/Vault)
+
 Currently, populating Vault is a manual process using the HCP UI.
+
 - **Goal:** CLI automation to generate and push secrets (e.g., `cargo run -- key-gen`).
 - **Target:** A `make init-secrets` command that generates random passwords and UDE keys and pushes them to the correct Vault path.
 
