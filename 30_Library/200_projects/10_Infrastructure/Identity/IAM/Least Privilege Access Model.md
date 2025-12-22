@@ -34,4 +34,3 @@ version:
 3. Implement **JIT access** via PIM for elevated roles[^1]
 4. Create **security groups** for role assignments (not individual users)[^1]
 
-[[We have a small team of developers in a small comp]]

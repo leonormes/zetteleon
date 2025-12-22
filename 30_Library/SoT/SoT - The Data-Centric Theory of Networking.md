@@ -1,37 +1,16 @@
 ---
-aliases: []
-confidence: 
-created: 2025-03-14T01:38:49Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-22T11:08:38Z
-purpose: 
-review_interval: 
-see_also: []
-source_of_truth: []
-status: 
-tags: [networking]
-title: SoT - The Data-Centric Theory of Networking
-type: 
-uid: 
-updated: 
-version: 
----
-
----
-
-aliases: [Data-Centric Networking, Theory of Networking, SoT - Networking]
+aliases: [Data-Centric Networking, SoT - Networking, Theory of Networking]
 confidence: 5/5
 created: 2025-03-14T01:38:49Z
 epistemic: architecture
 last_reviewed: 2025-12-22
-modified: 2025-12-22T12:00:00Z
+modified: 2025-12-22T11:15:19Z
 purpose: To define the fundamental architecture of networking as a system for the transport and management of distributed state.
 review_interval: 6 months
-see_also: ["[[SoT - The Data Architecture of DNS]]", "[[SoT - Cloud Networking Core Components]]"]
+see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data Architecture of DNS]]"]
 source_of_truth: true
 status: stable
-tags: [data-centric, networking, architecture, sot]
+tags: [architecture, data-centric, networking, sot]
 title: SoT - The Data-Centric Theory of Networking
 type: SoT
 uid:
