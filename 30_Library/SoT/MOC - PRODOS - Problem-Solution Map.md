@@ -34,7 +34,7 @@ This section details each major problem and the corresponding solution engineere
 ### Problem A: Executive Dysfunction & Analysis Paralysis
 
 - **The Experience**: A state of cognitive gridlock where the brain is overwhelmed by choice (e.g., **Barry Schwartz's "Paradox of Choice"** and the **Jam Study**, showing too many options deplete energy and lead to dissatisfaction), complexity, or a lack of clarity. This makes it intensely difficult to decide what to do next, leading to procrastination and a feeling of being "stuck."
-- **The Canonical Source**: [[SoT - ADHD Executive Dysfunction]]
+- **The Canonical Source**: [[SoT - ADHD Executive Dysfunction]] & [[SoT - Perfectionism and Analysis Paralysis]]
 - **Related Insights**:
   - [[Executive Function Challenges are Central to ADHD]]
   - [[Executive Dysfunction - The Root of Analysis Paralysis]]
