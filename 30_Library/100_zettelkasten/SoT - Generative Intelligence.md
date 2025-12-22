@@ -1,38 +1,17 @@
 ---
-aliases: []
-confidence:
-created: 2024-03-30T00:00:00Z
-epistemic:
-id: 20240330001
-last_reviewed:
-modified: 2025-10-31T09:31:38Z
-purpose:
-review_interval:
-see_also: []
-source_of_truth: []
-status: active
-tags: [intelligence]
-title: Generative Intelligence
-type: map
-uid:
-updated:
-version:
----
-
----
 aliases: [Creative Intelligence, Framework Generation, Generative Thinking]
 confidence: 5/5
 created: 2024-03-30T00:00:00Z
 epistemic:
 id: 20240330001
 last_reviewed: 2025-12-21
-modified: 2025-12-21T12:00:00Z
+modified: 2025-12-22T11:07:24Z
 purpose: To define Generative Intelligence as the capacity to create new frameworks, distinct from optimizing existing ones.
 review_interval: 6 months
-see_also: ["[[SoT - Conventional Problem Solving]]", "[[SoT - ADHD and Motivation]]", "[[SoT - Cognitive Ambiguity and Deep Thinking]]"]
+see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Cognitive Ambiguity and Deep Thinking]]", "[[SoT - Conventional Problem Solving]]"]
 source_of_truth: true
 status: stable
-tags: [intelligence, innovation, adhd, cognition, prodos]
+tags: [adhd, cognition, innovation, intelligence, prodos]
 title: SoT - Generative Intelligence
 type: SoT
 uid:

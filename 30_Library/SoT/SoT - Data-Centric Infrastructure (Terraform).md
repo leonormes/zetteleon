@@ -4,14 +4,14 @@ confidence:
 created: 2025-02-26T02:00:36Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:51Z
+modified: 2025-12-22T11:07:48Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [aws, terraform]
-title: Data Architecture Analysis of Terraform AWS
+title: SoT - Data-Centric Infrastructure (Terraform)
 type: documentation
 uid: 
 updated: 

@@ -4,43 +4,24 @@ confidence:
 created: 2025-07-10T12:36:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:14Z
+modified: 2025-12-22T11:06:24Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [data-perspective, topic/technology/networking, type/index]
-title: I thought it would be interesting to study networking from the data perspective
+title: MOC - Data-Centric Networking
 type: permanent
 uid: 
 updated: 
 version: 1
 ---
 
----
-aliases: [Networking MOC, Data-Centric Networking Index]
-confidence: 5/5
-created: 2025-07-10T12:36:00Z
-epistemic: architecture
-last_reviewed: 2025-12-22
-modified: 2025-12-22T12:00:00Z
-purpose: The central index for networking studied through the lens of data structures, state representation, and recursive encapsulation.
-review_interval: 6 months
-see_also: ["[[MOC - Interpretation of References]]"]
-source_of_truth: true
-status: stable
-tags: [data-centric, networking, architecture, moc, prodos]
-title: MOC - Data-Centric Networking
-type: MOC
-uid:
-updated:
----
-
 ## Core Principle
 
 > [!definition] The Data-Centric Lens
-> Networking is not about "wires" or "hardware"; it is the **computational study of distributed state transport**. 
+> Networking is not about "wires" or "hardware"; it is the **computational study of distributed state transport**.
 >
 > We deconstruct complex network systems by identifying the **Atomic State** (PDUs), the **Structural Layout** (Tries, Stacks, Tables), and the **Invariants** (Integrity, Uniqueness) that make logic self-evident.
 
