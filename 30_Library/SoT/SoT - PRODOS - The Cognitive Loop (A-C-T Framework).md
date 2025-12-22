@@ -42,7 +42,7 @@ The workflow strictly enforces the user's role as the **Director**, not the Cons
 
 1. **Human (The Seed):** The user provides the raw, messy, amorphous input. This is the "Spark" or the "Struggle."
 2. **LLM (The Refiner/Converger):** The LLM processes the input *only* to structure it, filter it, or define the next step. It is banned from adding "fluff."
-3. **Human (The Artisan):** The user takes the output and performs the physical action (writing the note, running the command). The user *never* copy-pastes raw LLM output into the permanent Zettelkasten.
+3. **Human (The Artisan):** The user takes the output and performs the physical action (writing the note, running the command). The user *never* copy-pastes raw LLM output into the permanent System.
 
 ---
 
@@ -68,17 +68,17 @@ If Phase A is stalled due to "Task Size Anxiety":
 
 ### Phase C: CONTAINER (Define the Boundary)
 
-- **The Constraint:** Before acting, the user must define the **One-Note-Container**.
-- **The Rule:** "I will create exactly *one* new atomic note, titled '[Title]', containing [Specific Data]."
-- **The Execution:** The user sets a timer (Time-Boxing) and performs the MVA. This is the "Act like a man of thought" phase—executing a deliberate, bounded task.
+-   **The Constraint:** Before acting, the user must define the **One-Note-Container**.
+-   **The Rule:** "I will create exactly *one* new atomic note, titled '[Title]', containing [Specific Data]."
+-   **The Execution:** The user sets a timer (Time-Boxing) and performs the MVA. This is the "Act like a man of thought" phase—executing a deliberate, bounded task.
 
 ### Phase T: THOUGHT (Reflect & Synthesize)
 
-- **The Input:** The raw data or result generated in Phase C.
-- **The Role:** The LLM acts as a **Synthesizer**.
-- **The Tool:** **Gemini Pro** (Deep reasoning, complex analysis).
-- **The Prompt:** "Here is the data I generated. What is the single key insight? What is the logical next MVA?"
-- **The Output:** A validated **Atomic Note** for the Zettelkasten and the input for the next A-Phase.
+-   **The Input:** The raw data or result generated in Phase C.
+-   **The Role:** The LLM acts as a **Synthesizer**.
+-   **The Tool:** **Gemini Pro** (Deep reasoning, complex analysis).
+-   **The Prompt:** "Here is the data I generated. What is the single key insight? What is the logical next MVA?"
+-   **The Output:** A validated **SoT Note** for the Library and the input for the next A-Phase.
 
 ---
 

@@ -4,14 +4,14 @@ confidence:
 created: 2025-09-08T19:17:33Z
 epistemic: 
 last_reviewed: 
-modified: 2025-10-30T14:24:14Z
+modified: 2025-12-21T20:27:57Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: [pki, security]
-title: trusted certificate
+title: Trusted Certificate
 type:
 uid: 
 updated: 
@@ -57,16 +57,16 @@ Here are the essential parts:
    - **What it is:** A formal request sent to a CA to sign a certificate [62-64].
    - **What it does:** It contains the public key of the entity requesting the certificate and relevant identity information (such as domain names, organization, location) [9, 62-65]. The CSR is always signed with the private key corresponding to the public key it carries, providing proof of possession [63, 64].
 
-5. **Trust Store / Root Store** [14, 47, 57, 59, 66, 67]:
-   - **What it is:** A collection of root CA certificates that a web browser, operating system, or application explicitly trusts [14, 47, 57-59, 67]. These are the "trust anchors" [47].
-   - **What it does:** When a browser receives a certificate, it attempts to build a "certificate chain" from the presented certificate back to one of the trusted root certificates in its trust store [49, 51-53, 68, 69]. If it successfully builds and validates this chain, the certificate is considered trusted [14, 49, 68, 69]. If no such path can be built to a trusted root, the certificate is deemed untrusted, and the browser will typically display a warning [70-72].
+5. **Trust Store / Root Store**:
+   - **What it is:** A collection of root CA certificates that a web browser, operating system, or application explicitly trusts. These are the "trust anchors".
+   - **What it does:** When a browser receives a certificate, it attempts to build a "certificate chain" from the presented certificate back to one of the trusted root certificates in its trust store. If it successfully builds and validates this chain, the certificate is considered trusted. If no such path can be built to a trusted root, the certificate is deemed untrusted, and the browser will typically display a warning.
 
-6. **Certificate Chain (Chain of Trust)** [17, 25, 49, 51, 52, 73, 74]:
+6. **Certificate Chain (Chain of Trust)**:
    - **What it is:** A sequence of certificates, starting with the end-entity (leaf) certificate, followed by one or more intermediate CA certificates, and ending with a root CA certificate [17, 25, 52, 68].
-   - **What it does:** Servers present this chain to clients during a TLS handshake [75]. Clients then "walk up" the chain, verifying the signature of each certificate with the public key of the next certificate in the chain, until a trusted root certificate from their trust store is reached [52, 68, 74]. A complete and valid chain is essential for trust; incomplete or invalid chains can lead to browser warnings or connection failures [71, 73, 76].
+   - **What it does:** Servers present this chain to clients during a TLS handshake [75]. Clients then "walk up" the chain, verifying the signature of each certificate with the public key of the next certificate in the chain, until a trusted root certificate from their trust store is reached. A complete and valid chain is essential for trust; incomplete or invalid chains can lead to browser warnings or connection failures.
 
-7. **Digital Signature** [6, 8, 9, 11, 15, 20, 22]:
-   - **What it is:** A cryptographic mechanism used to verify the authenticity and integrity of a digital document or message [6, 8, 9, 22].
+7. **Digital Signature**:
+   - **What it is:** A cryptographic mechanism used to verify the authenticity and integrity of a digital document or message.
    - **What it does:** In the context of certificates, a CA uses its private key to create a digital signature over the contents of a certificate (which includes the public key and identity). This signature proves that the CA indeed issued the certificate and that its contents have not been tampered with [6, 8, 15, 22]. Receivers of a certificate verify this signature using the CA's public key [22].
 
 8. **Public Key Infrastructure (PKI)** [1-3, 12, 77]:

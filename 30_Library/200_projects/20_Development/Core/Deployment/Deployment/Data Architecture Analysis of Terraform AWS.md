@@ -305,14 +305,14 @@ locals {
   - **Alignment:** Good for abstracting away the complexity of calculations.
   - **Example:**
 
- ```hcp
-   locals {
+```hcp
+locals {
    azs = slice(data.aws_availability_zones.available.names, 0, 2)
    subnet_cidrs = {
-   Eks_az_1 = cidrsubnet(local.network_base.vpc.cidr, 3, 0)
+     Eks_az_1 = cidrsubnet(local.network_base.vpc.cidr, 3, 0)
    }
-   }
- ```
+}
+```
 
 - **Getter/Setter Methods:**
   - Not present. No explicit methods are used for data access.

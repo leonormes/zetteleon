@@ -10,7 +10,7 @@ review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags: [7276, 8595]
+tags:
 title: Kubernetes Multi-Cloud Backup Best Practices
 type:
 uid:

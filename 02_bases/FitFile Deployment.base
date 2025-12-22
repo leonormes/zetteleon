@@ -27,6 +27,7 @@ views:
         direction: ASC
     columnSize:
       file.name: 445
+      note.tags: 665
   - type: table
     name: Guides & Instructions
     filters:

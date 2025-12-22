@@ -3,8 +3,8 @@ aliases: [ProdOS Index, Productivity Operating System]
 confidence: 5/5
 created: 2025-12-04T14:38:32Z
 epistemic:
-last_reviewed: 2025-12-13
-modified: 2025-12-20T09:54:10Z
+last_reviewed: 2025-12-21
+modified: 2025-12-21T12:00:00Z
 purpose: The Master Map of Content for the ProdOS ecosystem, routing to all Source of Truth notes.
 review_interval: 3 months
 see_also: []
@@ -22,6 +22,14 @@ updated:
 > [!hint] Navigation Guide
 > **Start here** to navigate the ProdOS ecosystem. This map routes you to the authoritative **Source of Truth (SoT)** for each domain.
 
+> [!abstract] ADHD Context: Potential vs. Friction
+> The ADHD brain is a **high-potential engine** (creativity, hyperfocus, pattern recognition) often stalled by **low-reliability steering** (executive dysfunction, initiation paralysis).
+>
+> This system is **not** designed to "fix" you. It is designed to:
+> 1.  **Offload** lower-order functions (memory, scheduling) to the system.
+> 2.  **Unlock** higher-order strengths (synthesis, innovation) by removing friction.
+> 3.  **Bridge** the gap between *Intention* and *Action*.
+
 ---
 
 ### 1. The Core Architecture (The Kernel)
@@ -29,9 +37,9 @@ updated:
 The definitive specification of the system, its biological basis, and the "Why".
 
 - **[[SoT - PRODOS (System Architecture)]]** — *The Master Canon. Defines the shift from Storage (Museum) to Compute (Factory).*
-- **[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]** — *The core workflow for interacting with LLMs (Action -> Container -> Thought).*
 - **[[MOC - PRODOS - Problem-Solution Map]]** — *The justification for every feature (Mapping ADHD deficits to ProdOS solutions).*
-- **[[SoT - The Cognitive Physiology of Task Execution]]** — *The biological basis for the 5 phases of work (Initiation -> Planning -> Execution).*
+- **[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]** — *The core workflow for interacting with LLMs (Action -> Container -> Thought).*
+- **[[SoT - The Cognitive Physiology of Task Execution]]** — *The biological basis for the 5 phases of work.*
 
 ---
 
@@ -61,7 +69,7 @@ How to turn raw confusion into structured insight.
 
 How to transform intent into reality.
 
-- **[[SoT - PRODOS - Action Management (GTD)]]** — *The workflow for separation of concerns (Obsidian for Thinking vs. Todoist for Doing).*
+- **[[SoT - Action Management Framework]]** — *The workflow for separation of concerns (Obsidian for Thinking vs. Todoist for Doing).*
 - **[[SoT - Temporal Management (Blocking and Boxing)]]** — *The protocol for Time Blocking (Strategic) and Time Boxing (Tactical).*
 - **[[SoT - The Honeyman Method (Adaptive Routines)]]** — *Managing energy tiers (Ideal vs. Survival mode).*
 - **[[SoT - Bridging the Intention-Action Gap]]** — *Psychological protocols for overcoming activation energy.*
@@ -73,7 +81,8 @@ How to transform intent into reality.
 How to sustain the system and grow.
 
 - **[[SoT - Identity-Based Habit Formation]]** — *Dismantling negative beliefs ("I am lazy") and building "Repeated Beingness."*
-- **[[SoT - PRODOS - System Failure Modes]]** — *Why traditional systems fail ADHD brains (The "Shoulder Massage" Trap).*
+- **[[SoT - PRODOS - System Failure Modes]]** — *Why traditional systems fail ADHD brains.*
+- **[[SoT - The Four-Step ADHD Organization Framework]]** — *A practical framework for systemic accommodation (Brain Dump -> Plan -> Cues -> Track).*
 - **[[SoT - Process Primacy (Systems Over Goals)]]** — *Why systems beat willpower.*
 
 ---

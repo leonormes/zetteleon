@@ -4,27 +4,25 @@ confidence:
 created: 2024-10-30T14:37:49Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-13T11:39:45Z
+modified: 2025-12-21T19:17:00Z
 purpose: 
 review_interval: 
 see_also: []
 source_of_truth: []
 status: 
 tags: []
-title: terraform_cluster_setup_guide
+title: Terraform Cluster Setup Guide
 type:
 uid: 
 updated: 
 version:
 ---
 
-## Terraform_Cluster_Setup_Guide
-
 - Azure Tenant
 - Azure Subscription in the tenant
 - Azure Subscription has registered the use of Resource Providers
 
-### Register Resource Providers in Subscription
+## Register Resource Providers in Subscription
 
 Resource providers can be identified by the resources that need them on this page:
 

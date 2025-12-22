@@ -22,7 +22,6 @@ The relationship between thought and language represents a fundamental philosoph
 
 ## Main Entry Point
 
-- [[Thought and Language]] - Overview of the entire thought and language zettelkasten
 - [[Information as Foundation of Knowledge]] - How information forms the basis of knowledge
 - [[Information in Everyday Language]] - Information concepts in everyday language
 - [[Knowledge Enables Power]] - How knowledge provides power and influence

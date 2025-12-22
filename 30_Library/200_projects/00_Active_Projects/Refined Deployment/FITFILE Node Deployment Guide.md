@@ -173,23 +173,26 @@ argocdApp:
       - PrunePropagationPolicy=foreground
 ```
 
-### 4. ArgoCD Integration
+### 4. ArgoCD "App of Apps" Architecture
 
-ArgoCD manages the deployment of FITFILE components through a GitOps workflow.
+The deployment uses the "App of Apps" pattern, where a single root ArgoCD Application manages multiple child applications.
 
-**Platform Integration:**
+**The Reconciliation Flow:**
 
-- Deployed via `terraform-helm-fitfile-platform` module
-- Configured with private ACR image pull secrets
-- Ingress enabled with TLS termination
-- Metrics and monitoring enabled
+1.  **Root Application (`ffnode` chart)**:
+    -   The `private_platform_template` deploys the root ArgoCD Application (e.g., `ff-cuh-prod-1`).
+    -   This application points to the `charts/ffnode` Helm chart.
 
-**Application Management:**
-Each FITFILE component is deployed as a separate ArgoCD Application, allowing for:
+2.  **Child Applications (Templates)**:
+    -   The `ffnode` chart contains templates (e.g., `mongodb-application.yaml`, `fitconnect-application.yaml`) that generate child ArgoCD `Application` resources.
+    -   **Control:** The `values.yaml` `deploy:` section acts as feature flags (e.g., `deploy.mongodb: true`) to determine which child apps are created.
 
-- Independent versioning and rollbacks
-- Granular sync policies
-- Component-specific configuration overrides
+3.  **Component Deployment**:
+    -   ArgoCD detects the new child `Application` resources.
+    -   It fetches the specific component charts (e.g., `helm/mongodb` from ACR) and deploys them to the cluster.
+    -   **Sync Policy:** Automated sync with pruning and self-healing ensures the cluster matches the Git state.
+
+**Key Benefit:** This centralized configuration allows managing the entire stack versioning and composition from a single `values.yaml` file per environment.
 
 ## Deployment Workflow
 

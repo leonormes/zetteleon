@@ -105,13 +105,13 @@ This example demonstrates:
 - **Stage 4 (Connect)::** Linking to [[Productive Procrastination as an Avoidance Strategy]]
 - **Stage 5 (Synthesize):** Updating the relevant structure note.
 
-### 6.1 Educating Your Zettelkasten
+### 6.1 Educating Your Future Self
 
-The act of "Knowledge Synthesis" isn't just about collecting facts; it's about making them comprehensible and useful for your future self. This is the process of **"Educating Your Zettelkasten."**
+The act of "Knowledge Synthesis" isn't about collecting facts; it's about encoding understanding so your future self can retrieve it without friction. This is the process of **"Educating the System."**
 
-- **Principle:** Write atomic units in a clear, unambiguous way so that when you revisit them later, they immediately make sense.
-- **Test:** If a note doesn't make sense upon later reading, it is "uneducated."
-- **Implication:** A well-educated Zettelkasten is a reliable cognitive prosthesis, ensuring that your past insights remain accessible and valuable for future thinking. (Source: [[Educating Your Zettelkasten]])
+- **Principle:** Write atomic units so clearly that they make sense when revisited 6 months later without context.
+- **Test:** If a note doesn't make sense upon later reading, it is "uneducated noise."
+- **Implication:** A well-educated System is a reliable cognitive prosthesis. If you trust it to hold the details, you are free to let go of them.
 
 ## 7. Cognitive Compression (The 3C Protocol)
 

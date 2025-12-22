@@ -25,7 +25,7 @@ version: 1.0
 
 - **Detailed Guide:** [[Phase 2 Infrastructure Deployment]] (Covers AWS & Azure)
 - **Context:**
-    - [[terraform_cluster_setup_guide]] (Legacy/Specific Azure nuances)
+    - [[Terraform Cluster Setup Guide]] (Legacy/Specific Azure nuances)
     - [[Data Architecture Analysis of Terraform AWS]]
     - [[Create a Central Version Catalog Module]]
 - **Key Actions:**

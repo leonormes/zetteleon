@@ -47,11 +47,11 @@ Cognition extends in multiple directions, all of which are leveraged by ProdOS t
 
 - **Principle:** Thinking is distributed across people and tools. We "outsource" memory to trusted sources (Transactive Memory).
 - **ADHD Application:** We cannot rely on internal Working Memory (which is volatile). We must distribute memory to external systems.
-- **ProdOS Implication:** The Zettelkasten is not an archive; it is a "Thinking Partner." By linking notes, we create an external web of knowledge that holds context when our biological brain drops it.
+- **ProdOS Implication:** The System is not an archive; it is a "Thinking Partner." By linking notes, we create an external web of knowledge that holds context when our biological brain drops it.
 
 ### D. Digital Systems as Cognitive Tools
 
-- **Principle:** A digital system (like a Zettelkasten) acts as an **external cognitive tool** that becomes part of the thinking process itself. It is not just for storage; it is for *processing*.
+- **Principle:** A digital system acts as an **external cognitive tool** that becomes part of the thinking process itself. It is not just for storage; it is for *processing*.
 - **ADHD Application:** It directly compensates for **Working Memory Limitations** by capturing, organizing, and connecting ideas that would otherwise be lost to the "scatter." It mitigates executive function struggles by externalizing the burden of holding complex structures.
 - **Objective Interaction:** By offloading thoughts into the system, we gain the ability to **observe our thinking** rather than just experiencing it. This detachment allows for objective critique and refinement, overcoming the limits of the biological brain which struggles to hold and analyze complex models simultaneously.
 - **ProdOS Implication:** The system allows you to leverage cognitive strengths (like pattern recognition) while bypassing weaknesses (like retention), effectively serving as a "prosthetic prefrontal cortex."
@@ -86,13 +86,13 @@ Without an extended mind, the ADHD brain falls into the **Cyclical Thinking Trap
 
 **The Result:** You start having **conversations with your past self**. The system makes your thinking **evolutionary**, allowing complex insights to compound over time rather than evaporating.
 
-### 3.1 The Educated Zettelkasten: Trusting Your Prosthesis
+### 3.1 The Educated System: Trusting Your Prosthesis
 
 The effectiveness of the Extended Mind as a "cognitive prosthesis" hinges on the clarity and atomic nature of its components.
 
-- **Principle:** An "educated" Zettelkasten consists of atomic notes written so clearly that they make sense when revisited weeks or months later. This ensures your past insights remain accessible and trustworthy.
+- **Principle:** An "educated" System consists of atomic notes written so clearly that they make sense when revisited weeks or months later. This ensures your past insights remain accessible and trustworthy.
 - **Test:** If a note doesn't make sense later, it is "uneducated" and diminishes the reliability of your external brain.
-- **Implication:** By consistently "Educating Your Zettelkasten" (Source: [[Educating Your Zettelkasten]]), you build a robust external memory that your future self can confidently rely on, avoiding the need to re-derive lost context.
+- **Implication:** By consistently "Educating Your System" (Source: [[Educating Your Zettelkasten]]), you build a robust external memory that your future self can confidently rely on, avoiding the need to re-derive lost context.
 
 ### The Contextual Resurfacing Protocol
 

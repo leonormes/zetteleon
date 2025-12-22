@@ -27,36 +27,40 @@ updated:
 ## 1. Definitive Statement
 
 > [!definition] Definition
-> PRODOS is a **cognitive augmentation system** designed to operate as an "extended mind" for a developer with ADHD. It offloads executive functions—such as context restoration, task initiation, and knowledge synthesis—to a structured, LLM-powered workflow.
+> PRODOS is **not** a traditional PKM or GTD system. It is a **Cognitive Scaffold** designed to stabilize the volatile ADHD mind.
 >
-> Fundamentally, it treats the system not as a **Database (Storage)** but as a **Runtime Environment (Compute)**. Its goal is not to preserve information (Retention) but to process context into reality (Throughput).
+> It operates as a **Thinking Utility**, not a storage archive. Its sole purpose is to:
+> 1.  **Catch** thoughts before they vanish (RAM support).
+> 2.  **Clarify** confusion into concrete steps (Executive support).
+> 3.  **Verify** reality through action (Dopamine support).
+>
+> **The Metric:** We do not measure "notes created." We measure "clarity achieved" and "actions taken."
 
-This approach is a direct solution to the problem of "Psychic RAM." The human mind is a processor, not a hard drive. When you store "open loops" (unresolved commitments) in your head, you consume cognitive resources. Your subconscious, lacking a sense of time, treats a trivial task like "buy milk" with the same urgency as a major deadline, leading to chronic stress. The goal of PRODOS is to achieve a state of **"Mind Like Water,"** where your response to any stimulus is exactly proportional to its importance, freeing up your attention for high-level thinking.
+This approach is a direct solution to the problem of "Psychic RAM." The human mind is a processor, not a hard drive. When you store "open loops" (unresolved commitments) in your head, you consume cognitive resources. The goal of PRODOS is to achieve a state of **"Mind Like Water,"** where your response to any stimulus is exactly proportional to its importance, freeing up your attention for high-level thinking.
 
-### 1.1 Epistemic Stance: The Map is Not the Territory
+### 1.1 Epistemic Stance: Utility Over Truth
 
 ProdOS is built on the principles of **General Semantics**, specifically Alfred Korzybski's insight that **"The Map is Not the Territory."**
 
-- **The Reality:** Your life, your projects, and your thoughts are the "Territory"—complex, fluid, and infinite.
-- **The System:** ProdOS is the "Map"—a simplified, abstract model designed to make that territory navigable.
-- **The Rule:** We must never confuse the two. When the map disagrees with the territory (e.g., a plan fails), we update the map; we do not deny the reality. (See [[SoT - Reality, Models, and the Limits of Accuracy]]).
+-   **The Map is Not the Territory:** The system is a simplified model, not reality itself.
+-   **Utility over Completeness:** We do not aim to catalogue the world. If a note does not help you *think* or *act*, it is noise. We prioritize "Good Enough" over "Perfect."
+-   **The Rule:** When the map disagrees with the territory (e.g., a plan fails), we update the map; we do not deny the reality.
 
 ---
 
 ## 2. The Core Problem: Why PRODOS Exists
 
-Conventional PKM and productivity systems fail because they are not designed for the ADHD brain. They often exacerbate challenges like **task initiation paralysis**, **executive dysfunction**, and **dopamine dysregulation**. PRODOS is built to directly solve these failures:
+Conventional PKM (Zettelkasten) and GTD systems fail because they assume a neurotypical brain that enjoys maintenance. They often exacerbate challenges like **task initiation paralysis**, **executive dysfunction**, and **dopamine dysregulation**. PRODOS is built to directly solve these failures:
 
-| Failure Mode                        | The Problem                                                                                                                                                                  | PRODOS Solution                                                                                                                                                           |
-| :---------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **The Collector's Fallacy**         | The dopamine loop of collecting information creates "content sprawl" and overwhelm, mistaking acquisition for understanding.                                                 | **Action over Collection:** The system forces the conversion of knowledge into testable experiments and Minimum Viable Actions (MVAs).                               |
-| **Context Loss**                    | The rich mental model of a project evaporates over time. Returning to flat notes requires high activation energy, leading to re-research or abandonment.                      | **The 60-Second Test:** The system is designed to allow a complete cognitive state restore (MVU + Next Action) in under a minute.                                     |
-| **Procrastivity (System Perfectionism)** | Spending 40 hours building the "perfect" system in Notion or Obsidian instead of doing the work. The system becomes a dopamine-seeking playground, not a tool for execution. | **The Psychiatrist Protocol:** Strict separation of "Writing to Think" (Therapy) vs. "Organizing to Hide" (Addiction). The only valid output is a reality-testing action. |
-| **The Weekly Review Breakdown**     | The Weekly Review is the master key to GTD, but it is executive-function heavy and offers no immediate dopamine hit, so it's the first component to be abandoned.           | **The Review Orchestrator:** A guided, ritualized, step-by-step program for system maintenance that removes decision fatigue.                                      |
-| **The "Someday/Maybe" Abyss**       | For the "idea machine" ADHD brain, this list grows exponentially, becoming a "graveyard of guilt" that triggers overwhelm rather than inspiration.                           | **Incubation, not Deferral:** Items are not just "maybe" but are actively "incubating" with a defined (even if distant) review cycle.                            |
-| **The "Now vs. Not Now" Conflict**  | The ADHD brain perceives time in two states: Now and Not Now. Once a task is "Not Now" (e.g., 'Waiting For'), it vanishes from consciousness until it becomes a crisis.    | **The "Now" Toggle & Visual Flow:** A distraction-free mode that shows only the next action, combined with visual Kanban boards that make "Not Now" work visible. |
-| **Version Control Failure**         | Treating "Dev Branches" (HEAD notes) as "Master" (SoT). The system is flooded with broken, deprecated thoughts ("The Log"), making search unreliable.                        | **The Merge & Delete Ritual:** Strict separation of ephemeral "Work" vs. durable "Knowledge". You must "squash and merge" your thinking into the SoT.                |
-| **Engine Stall**                    | Having Direction (Choice/Plan) but no Energy (Dopamine). "Turning the wheel but the car won't move." (See [[Breaking the Creation Cycle]])                                      | **The Ignition Protocol:** Use the HEAD note to refactor "Boring Tasks" into "Interesting Hypotheses" (Mystery, Spite, Urgency) to manufacture dopamine.              |
+| Failure Mode | The Problem | PRODOS Solution |
+| :--- | :--- | :--- |
+| **The Zettelkasten Trap** | Treating notes as "collectibles." Infinite linking creates a "Wiki of Everything" but no actual output. | **Thinking, Not Collecting:** The goal is to solve a specific problem (HEAD), synthesize the answer (SoT), and then *stop*. |
+| **The Collector's Fallacy** | The dopamine loop of saving information creates "content sprawl" and overwhelm, mistaking acquisition for understanding. | **Action over Collection:** The system forces the conversion of knowledge into testable experiments and Minimum Viable Actions (MVAs). |
+| **Context Loss** | The rich mental model of a project evaporates over time. Returning to flat notes requires high activation energy. | **The 60-Second Test:** The system is designed to allow a complete cognitive state restore (MVU + Next Action) in under a minute. |
+| **Procrastivity** | Spending 40 hours building the "perfect" system instead of doing the work. | **The Psychiatrist Protocol:** Strict separation of "Writing to Think" (Therapy) vs. "Organizing to Hide" (Addiction). |
+| **The "Now vs. Not Now" Conflict** | The ADHD brain perceives time in two states: Now and Not Now. "Not Now" tasks vanish until they become crises. | **The "Now" Toggle & Visual Flow:** A distraction-free mode showing only the next action, combined with visual Kanban boards. |
+| **Version Control Failure** | Treating "Dev Branches" (HEAD notes) as "Master" (SoT). The system is flooded with broken, deprecated thoughts. | **The Merge & Delete Ritual:** Strict separation of ephemeral "Work" vs. durable "Knowledge". You must "squash and merge" thinking into the SoT. |
+| **Engine Stall** | Having Direction (Choice/Plan) but no Energy (Dopamine). "Turning the wheel but the car won't move." | **The Ignition Protocol:** Refactor "Boring Tasks" into "Interesting Hypotheses" (Mystery, Spite, Urgency) to manufacture dopamine. |
 
 ### Comparative Analysis: Storage (Museum) vs. Compute (Factory)
 
@@ -69,7 +73,6 @@ The fundamental shift in ProdOS is moving from a "Librarian" mindset to an "Oper
 | **Output Model** | Encyclopedia Entry | **Unit Test (Verifiable Action)** |
 | **Maintenance** | Gardening (High Friction) | **Synthesis (Zero-Toil via LLM)** |
 | **Metric** | "Did I save it?" | **"Did I change reality?"** |
-| **ADHD Risk** | "Where did I put that?" | **N/A (Focus is on "Next Action")** |
 
 ---
 
@@ -94,15 +97,15 @@ This is implemented via an action-oriented cognitive loop: **Capture -> Refine -
 
 ---
 
-## 4. The Note Schema: Capturing Thought vs. Storing Fact
+## 4. The Note Schema: Thinking Space vs. Answer Space
 
-The system maintains a strict separation of concerns between thinking and knowing.
+The system maintains a strict separation of concerns between *figuring things out* and *storing the answer*.
 
 ### The Architectural Rule: "Master" vs. "Dev" (Version Control)
 
-| Feature | HEAD Notes (The Workbench) | SoT Notes (The Canon) |
+| Feature | HEAD Notes (Thinking Space) | SoT Notes (Answer Space) |
 | :--- | :--- | :--- |
-| **Software Equivalent** | `feature/fix-bug-123` (Dev Branch) | `main` / `master` (Production) |
+| **Role** | **The Workbench.** Where you struggle, draft, and fail. | **The Canon.** Where you store the verified truth. |
 | **Trust Level** | **Zero Trust.** Contains errors, dead ends, and drafts. | **High Trust.** The "Single Source of Truth." |
 | **Lifespan** | **Ephemeral.** Created to solve *one* problem, then archived. | **Permanent.** Durable, living documentation. |
 | **Searchability** | **Hidden.** Should NOT appear in standard lookups. | **Primary.** The *only* place you look for answers. |
@@ -119,7 +122,7 @@ The system maintains a strict separation of concerns between thinking and knowin
     - **Path C: Dynamic (Thinking):** "I am paused." -> **Serialize State** -> Create **Pointer Task** in Todoist -> Keep Note Active.
 - **Voice:** First-person, raw, and unpolished.
 
-### B. LIB/SoT Notes (The Canon)
+### B. SoT Notes (The Canon)
 
 - **Purpose:** To be the trusted **System of Record** for stable, verified knowledge.
 - **Voice:** Third-person, objective.
@@ -227,7 +230,7 @@ You do not finish thinking when you have an answer; you finish when you have a *
 
 ### The Ignition Protocol (Stimulus Injection)
 
-[[Logic Does Not Produce Dopamine|Logic does not produce dopamine]]. To generate the energy for execution, you must convert "Work" into "Inquiry."
+ To generate the energy for execution, you must convert "Work" into "Inquiry."
 
 1. **The "Mystery" Hack (Hypothesis):** Refactor a chore into a bet.
     - *Boring:* "Update CSS." -> *Ignition:* "Hypothesis: I can break the layout if I change padding to 50px."
