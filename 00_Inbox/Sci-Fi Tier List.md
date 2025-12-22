@@ -24,12 +24,12 @@ Sci-Fi Tier List: Structured Data
  - [x] Stories of Your Life and Others – Ted Chiang [completion:: 2025-12-21]
  - [x] Blindsight – Peter Watts [completion:: 2025-12-21]
  - [ ] The Windup Girl – Paolo Bacigalupi
- - [ ] Children of Time – Adrian Tchaikovsky
+ - [x] Children of Time – Adrian Tchaikovsky  [completion:: 2025-12-22]
  - [ ] The Caves of Steel – Isaac Asimov
  - [ ] Speaker for the Dead – Orson Scott Card
  - [ ] A Canticle for Leibowitz – Walter M. Miller Jr.
- - [ ] Seveneves – Neal Stephenson
- - [ ] The Forever War – Joe Haldeman
+ - [x] Seveneves – Neal Stephenson  [completion:: 2025-12-22]
+ - [x] The Forever War – Joe Haldeman  [completion:: 2025-12-22]
  - [ ] Starship Troopers – Robert A. Heinlein
  - [ ] Service Model – Adrian Tchaikovsky
  - [ ] Anathem – Neal Stephenson
@@ -47,7 +47,7 @@ Sci-Fi Tier List: Structured Data
  - [ ] The Road – Cormac McCarthy
  - [ ] City of Illusions – Ursula K. Le Guin
  - [ ] Prey – Michael Crichton
- - [ ] Snow Crash – Neal Stephenson
+ - [x] Snow Crash – Neal Stephenson  [completion:: 2025-12-22]
  - [ ] We Are Legion (We Are Bob) – Dennis E. Taylor
  - [ ] Kiln People – David Brin
  - [ ] All Systems Red – Martha Wells
