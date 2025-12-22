@@ -5,7 +5,7 @@ created: 2025-03-15T07:39:41Z
 epistemic: 
 id: Abstract Network Components for Secure Data Routing
 last_reviewed: 
-modified: 2025-12-13T11:39:43Z
+modified: 2025-12-22T11:16:22Z
 purpose: 
 review_interval: 
 see_also: []
@@ -60,5 +60,3 @@ It passes through a "Network Entry Point" in each cloud environment. At these po
 The "Secure Private Pathway" represents the abstract concept of the secure connection itself.
 
 At the receiving "Network Entry Point," the reverse operations (decryption, authentication verification, integrity verification) are performed to ensure the data is secure and trustworthy before reaching the destination service.
-
-[[Data-Centric Perspective Secure Cross-Cloud Communication (AWS EKS to Azure AKS)]]
