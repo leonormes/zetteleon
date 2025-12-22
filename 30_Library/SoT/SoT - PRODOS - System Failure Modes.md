@@ -48,7 +48,14 @@ Most productivity systems fail for ADHD users not because the features are bad, 
 - The Tension: I love building the system (Architecting) but resist operating it (Janitorial Work).
 - The Constraint: Insufficient Activation Energy to switch contexts from passive intake to active "Thinking Mode" and perform deep processing. This leads to system abandonment despite frictionless capture.
 
-## 5. The PRODOS Solution: System as Prosthetic
+## 5. Failure Mode D: The Perfectionism Paralysis
+
+- **The Trap:** The refusal to start a task because the outcome might not be ideal. "If I can't do it perfectly, I won't do it at all."
+- **The Mechanism:** Fear of failure (or criticism) disguises itself as "High Standards." This leads to **Analysis Paralysis**—endless planning without execution.
+- **The Result:** The perfect system that never gets used.
+- **Core Insight:** See [[SoT - Perfectionism and Analysis Paralysis]].
+
+## 6. The PRODOS Solution: System as Prosthetic
 
 PRODOS is designed to avoid these traps by redefining the "Customer":
 
