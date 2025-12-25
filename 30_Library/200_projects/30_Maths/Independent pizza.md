@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-13T06:20:44Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:23Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Independent pizza
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 For these activities, your new role is to be a curious listener. Resist the urge to guide her. If she says, "I'm stuck," try one of these open-ended questions:
@@ -36,7 +36,7 @@ The Goal: To independently discover a systematic way of counting combinations, a
 
 The Independent Challenge:
 
-- Start simple: "If we only have three toppings available – let's say Mushroom (M), Peppers (P), and Onion (O) – how many different pizzas can a customer order? They can have one topping, two toppings, or all three."
+- Start simple: "If we only have three toppings available–let's say Mushroom (M), Peppers (P), and Onion (O)–how many different pizzas can a customer order? They can have one topping, two toppings, or all three."
 - The main puzzle: "Now, what if we have four toppings? Let's add Sweetcorn (S). How many different pizzas are possible now?"
 
 ### Your Role

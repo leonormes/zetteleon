@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T10:21:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [objectivity, perception, stoicism, topic/philosophy]
+status: "null"
+tags: ["objectivity", "perception", "stoicism", "topic/philosophy"]
 title: The Discipline of Perception (Stoicism)
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The Discipline of Perception is a cornerstone of Stoic philosophy. Its purpose is to control our emotions and keep an even keel so that we can see things "as they really are," free from the distortions of our own judgment.

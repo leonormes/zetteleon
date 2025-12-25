@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-15T10:49:42Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-01T15:17:00Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:32+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: ["observability"]
 title: Grafana onCall
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Understanding Incident Response Management (IRM) in Grafana Cloud
@@ -35,7 +35,7 @@ Grafana Cloud offers a comprehensive system for monitoring, alerting, and incide
 
 ---
 
-### Typical Workflow Story — From Cluster Issue to Resolved Incident
+### Typical Workflow Story—From Cluster Issue to Resolved Incident
 
 #### Scenario: A Problematic Cluster Pod Causes a Service Disruption
 

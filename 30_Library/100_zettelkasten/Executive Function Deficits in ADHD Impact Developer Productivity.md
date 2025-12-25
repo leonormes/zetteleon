@@ -1,20 +1,20 @@
 ---
-aliases: [ADHD Executive Functioning, Core ADHD Deficits in Developers]
-confidence: 0.8
+aliases: ["ADHD Executive Functioning", "Core ADHD Deficits in Developers"]
+confidence: "0.8"
 created: 2025-11-06T19:53:00Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
-purpose: "To define the core executive function deficits associated with adult ADHD and their direct impact on software development tasks."
-review_interval: 90
+epistemic: "fact"
+last_reviewed: "2025-11-06T00:00:00.000Z"
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: "90"
 see_also: []
-source_of_truth: ["A Deep Dive into Adult ADHD in Remote Software Development.md"]
-status: seedling
-tags: [adhd, executive-function, productivity, software-development]
+source_of_truth: []
+status: "seedling"
+tags: ["executive-function", "software-development", "topic/health/adhd", "topic/productivity"]
 title: Executive Function Deficits in ADHD Impact Developer Productivity
-type: concept
-uid: 2025-11-06T19:53:00Z
-updated: 2025-11-06T19:53:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Executive Function Deficits in ADHD Impact Developer Productivity

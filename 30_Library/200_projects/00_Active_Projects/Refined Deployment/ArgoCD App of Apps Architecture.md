@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-04T07:55:44Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:09Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [config, helm]
+status: ""
+tags: ["argocd", "config", "helm"]
 title: ArgoCD App of Apps Architecture
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Based on my investigation of the FITFILE deployment infrastructure, here's how ArgoCD is organized to manage Helm charts and applications:
@@ -72,21 +72,21 @@ spec:
 
 ```yaml
 chart: helm/mongodb
-   repoURL: "fitfileregistry.azurecr.io"
+    repoURL: "fitfileregistry.azurecr.io"
 ```
 
 2. **Git Repository** - Custom FITFILE charts
 
 ```yaml
 path: charts/fitconnect
-repoURL: https://gitlab.com/fitfile/deployment.git
+    repoURL: "https://gitlab.com/fitfile/deployment.git"
 ```
 
 3. **External Helm Repositories** - Third-party charts
 
 ```yaml
 chart: cert-manager
-repoURL: https://charts.jetstack.io
+    repoURL: "https://charts.jetstack.io"
 ```
 
 ### **4. ApplicationSet Pattern**

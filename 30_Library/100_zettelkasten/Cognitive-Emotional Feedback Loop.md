@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-05T06:22:44Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Cognitive-Emotional Feedback Loop
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Mental models and emotions exist in a constant bidirectional feedback loop where each continuously creates and reinforces the other. This is fundamental to understanding how our internal worlds operate—our brains don't have separate departments for "thinking" and "feeling."

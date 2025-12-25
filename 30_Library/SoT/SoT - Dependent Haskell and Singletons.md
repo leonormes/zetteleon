@@ -1,25 +1,20 @@
 ---
 aliases: ["Dependent Haskell", "Proof-Carrying Code in Haskell", "Singleton Pattern", "Type-Level Programming"]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-18T12:00:00Z
-decay-signals: ["GHC implementation of full Dependent Types (breaking change)"]
-epistemic: authoritative
-last_reviewed: 2025-12-18
-modified: 2025-12-20T09:54:09Z
-purpose: Defines the architectural patterns for implementing Dependent Types in Haskell using Singletons and GADTs.
-quality-markers: ["Synthesized from Stephanie Weirich's Dependent Haskell Talk"]
-related-soTs: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - Proof-Carrying Code via Simulated Dependent Types]]"]
-resonance-score: 8
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
+confidence: "5/5"
+created: 2025-12-18T00:00:00Z
+epistemic: "authoritative"
+last_reviewed: "2025-12-18"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "Defines the architectural patterns for implementing Dependent Types in Haskell using Singletons and GADTs."
+review_interval: "1 year"
+see_also: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - Proof-Carrying Code via Simulated Dependent Types]]"]
+source_of_truth: []
+status: "stable"
 tags: ["architecture", "functional_programming", "haskell", "singletons", "type_theory"]
 title: SoT - Dependent Haskell and Singletons
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Working Knowledge (Stable Foundation)
@@ -43,7 +38,7 @@ Weirich demonstrates a "Compiler-Driven Development" workflow where the compiler
 2. **The Singleton Bridge ("Fake Pi Types"):**
     - To write a dependent function (where $f(x)$ returns a type depending on $x$), we need to know *which* type to return at runtime.
     - **The Mechanism:** The `Singleton` library generates a "Mirror Type" (e.g., `SOnce`, `SMany`).
-    - **Pattern Matching:** When you match on a Singleton (`case s of SOnce -> ...`), you prove to the compiler exactly which Type-level branch is active. This is the "runtime witness" for the static proof.
+    - **Pattern Matching:** When you match on a Singleton (`case s of SOnce ->...`), you prove to the compiler exactly which Type-level branch is active. This is the "runtime witness" for the static proof.
 
 3. **Proof-Carrying Code (Type Error Engineering):**
     - **Concept:** Encode business logic (like Regex capture groups) into the Type System.
@@ -52,7 +47,7 @@ Weirich demonstrates a "Compiler-Driven Development" workflow where the compiler
 
 ### Template Haskell as Parser
 
-The architecture uses Template Haskell (`[r| ... |]`) as the **Ingress Controller**. It parses raw strings (Regex) and generates the rigid, type-indexed AST that the rest of the system relies on.
+The architecture uses Template Haskell (`[r|... |]`) as the **Ingress Controller**. It parses raw strings (Regex) and generates the rigid, type-indexed AST that the rest of the system relies on.
 
 ## 3. Understanding Layers (Progressive Abstraction)
 

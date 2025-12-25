@@ -1,21 +1,21 @@
 ---
-aliases: [Abstraction Simplification, Model Simplification]
-confidence: 
+aliases: ["Abstraction Simplification", "Model Simplification"]
+confidence: ""
 created: 2025-09-11T21:37:21Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Maps as Simplified Abstractions
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Maps are simplified abstractions that omit details to serve specific purposes. A road map excludes geological features, topography, and off-road paths because these details would clutter the primary function of navigation between major routes.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-05-26T13:50:29Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T10:42:02Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [emotion, shame, topic/health/adhd]
+status: "null"
+tags: ["emotion", "shame", "topic/health/adhd"]
 title: Shame
-type: map
-uid:
-updated: 2025-10-31
-version: 2
+type: "map"
+uid: 
+updated: 
+version: "2"
 ---
 
 Shame is a deeply personal and painful emotion that stems from a negative self-evaluation. It is often associated with feelings of worthlessness, powerlessness, and a belief that one is inherently flawed or bad. Shame is an internal experience, meaning it's primarily about how you see yourself, rather than how others see you. It can lead to a desire to hide or withdraw.

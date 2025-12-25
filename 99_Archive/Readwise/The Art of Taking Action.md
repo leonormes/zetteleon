@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T15:49:33Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-12T16:07:53Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,11 +22,13 @@ updated:
 ![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/51RuCrybYAL._SL200_.jpg)
 
 ### Metadata
+
 - Author: [[Gregg Krech]]
 - Full Title: The Art of Taking Action
 - Category: #books
 
 ### Highlights
+
 - The new discovery is… Taking Action: Doing what needs to be done When it needs to be done In response to the needs of the situation. ([Location 215](https://readwise.io/to_kindle?action=open&asin=B00PR814K0&location=215))
     - Note: Puts the benefits felt from doing the action as if it were an antidote to life's ills. Taking action is the purpose of thought but I have got to a point where thought is itself an ends
 - The traditional mental health system has generally overlooked this approach in lieu of talk therapy, self-analysis, dream interpretation, and so forth. Yet the ability to get things done has tremendous healing power. ([Location 219](https://readwise.io/to_kindle?action=open&asin=B00PR814K0&location=219))

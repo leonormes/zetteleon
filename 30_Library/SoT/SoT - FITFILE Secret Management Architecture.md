@@ -1,35 +1,27 @@
 ---
 aliases: ["FITFILE Secret Management Architecture", "Secret Management SoT", "VSO Implementation Guide"]
-confidence: 5/5
+confidence: "5/5"
 created: 2025-12-15T00:00:00Z
-epistemic:
-last_reviewed: 2025-12-15
-modified: 2025-12-22T11:08:41Z
-purpose: The canonical source of truth for FITFILE's secret management architecture, defining the standard VSO implementation and the path to remediate legacy technical debt.
-related-soTs: ["[[SoT - FITFILE Platform Deployment]]", "[[SoT - PRODOS (System Architecture)]]"]
-review_interval: 6 months
-see_also: ["[[FITFILE Platform Terraform Module Wiki]]", "[[General Principles for Adding Secrets]]", "[[Vault to Kubernetes Secrets Management Guide]]"]
-source_of_truth: true
-status: stable
+epistemic: ""
+last_reviewed: "2025-12-15"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "The canonical source of truth for FITFILE's secret management architecture, defining the standard VSO implementation and the path to remediate legacy technical debt."
+review_interval: "6 months"
+see_also: ["[[FITFILE Platform Terraform Module Wiki]]", "[[General Principles for Adding Secrets]]", "[[SoT - FITFILE Platform Deployment]]", "[[SoT - PRODOS (System Architecture)]]", "[[Vault to Kubernetes Secrets Management Guide]]"]
+source_of_truth: []
+status: "stable"
 tags: ["architecture", "fitfile", "kubernetes", "security", "vault"]
 title: SoT - FITFILE Secret Management Architecture
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Executive Summary
+Currently, the deployment landscape is split: ""
 
-The FITFILE platform enforces a "Secure by Design" secret management architecture using **HashiCorp Vault** and the **Vault Secrets Operator (VSO)**.
-
-Currently, the deployment landscape is split:
-
-1. **Canonical (Standard):** Modern environments (e.g., `ffnodes/fitfile`, `cuh-prod-1`) use VSO to dynamically sync secrets from Vault.
-2. **Legacy (Debt):** Older environments (`stg`, `kch`) rely on a technical debt "hack" using hardcoded `vault-replacement-secrets.yaml` manifests.
-
-**The Mandate:** All environments must converge on the Canonical Path defined in `charts/ffnode`.
-
----
+1. **Canonical (Standard): "** Modern environments (e.g., `ffnodes/fitfile`, `cuh-prod-1`) use VSO to dynamically sync secrets from Vault."
+2. **Legacy (Debt): "** Older environments (`stg`, `kch`) rely on a technical debt \"hack\" using hardcoded `vault-replacement-secrets.yaml` manifests."
+**The Mandate: "** All environments must converge on the Canonical Path defined in `charts/ffnode`."
 
 ## 2. The Canonical Architecture
 
@@ -64,17 +56,19 @@ extraVaultSecrets:
 ## 3. Deployment Inventory & Status
 
 ### A. Canonical Deployments (VSO Enabled)
+
 *Status: Healthy*
 
 These environments purely use VSO and do not rely on hardcoded secrets.
 
 | Deployment | Vault Namespace | Base Path | Key Secrets |
-| :--- | :--- | :--- | :--- |
+|:--- |:--- |:--- |:--- |
 | **`cuh-prod-1`** | `admin/deployments/cuh-prod-1` | `cuh-prod-1-application` | `cloudflare-issuer-api-token`, `fitconnect`, `fitfile-rsa-private-key` |
 | **`nnuh-prod-1`** | `admin/deployments/nnuh-prod-1` | `nnuh-prod-1-application` | `cloudflare-issuer-api-token`, `mongodb` |
 | **`hie-prod-34`** | `admin/deployments/hie-prod-34` | `hie-prod-34-application` | `s3-export-secret` (Custom export creds) |
 
 ### B. Legacy Deployments (Technical Debt)
+
 *Status: Remediation Required*
 
 Environments like `stg` and `kch` currently fail to use VSO correctly, relying on `vault-replacement-secrets.yaml`.
@@ -99,40 +93,87 @@ To eliminate the security risk and technical debt, we must migrate Legacy enviro
 
 ---
 
-## 5. Reference Implementation: `hie-prod-34` (Deep Dive)
+## 5. Reference Implementation: `hie-prod-34` (Audit & Deep Dive)
 
-The `hie-prod-34` deployment provides a robust example of extending the canonical architecture using the `extraDeploy` pattern for third-party integrations (Hutch).
+*Based on: [[Audit - FITFILE Secret Management (Oct 2025)]]*
 
-### The Architecture Patterns
+The `hie-prod-34` deployment serves as the primary reference implementation for the FITFILE secrets architecture. A comprehensive audit (Oct 2025) confirmed the efficacy of the VSO model while highlighting key areas for optimization.
 
-1. **Source of Truth:** External HashiCorp Vault (`admin/deployments/hie-prod-34`).
-2. **Delivery:** VSO via Helm `extraDeploy` injection.
-3. **Consumption:** Applications (Relay, Bunny) mount native Kubernetes Secrets, unaware of Vault.
+### 5.1 Secrets Inventory (The Real-World Model)
 
-### Implementation Specifics (`extraDeploy` Pattern)
+The deployment manages **19 VaultStaticSecret resources** across three logical layers.
 
-While `charts/ffnode` uses `extraVaultSecrets`, the `hutch` chart integration in `ffnodes/eoe/hie-prod-34` uses `extraDeploy` to inject raw VSO resources. This is useful for third-party charts.
+#### A. Core Application Layer (FFNode Chart)
 
-**Example: Relay Secret Definition**
+*Managed via `extraVaultSecrets` or Standard Chart Values.*
 
-```yaml
-# ffnodes/eoe/hie-prod-34/hutch_prod_values.yaml
-extraDeploy:
-  - apiVersion: secrets.hashicorp.com/v1beta1
-    kind: VaultStaticSecret
-    metadata:
-      name: relay
-    spec:
-      namespace: admin/deployments/hie-prod-34
-      path: hutch-prod
-      destination:
-        create: true
-        name: relay
-        transformation:
-          templates:
-            db_connection_string:
-              text: 'Host=hutch-prod-postgresql;...;User Id={{`{{get .Secrets "relay_postgresql_username"}}`}}...'
-```
+| Secret Name | Vault Path | Purpose | Refresh Policy |
+|:--- |:--- |:--- |:--- |
+| `fitconnect` | `application` | FITConnect Service Creds | ✅ 5m |
+| `ffcloud` | `application` | FFCloud Coordinator Creds | ✅ 5m |
+| `frontend` | `application` | Auth0 & MongoDB Creds | ✅ 5m |
+| `mongodb` | `application` | Root Password & Replica Key | ❌ Manual |
+| `postgresql` | `application` | Admin Password | ❌ Manual |
+| `fitfile-rsa-private-key` | `application` | PKCS#8 Keypair | ❌ Manual |
+
+#### B. Integration Layer (Hutch & TheHyve)
+
+*Managed via `extraDeploy` pattern.*
+
+| Secret Name | Vault Path | Purpose | Refresh Policy |
+|:--- |:--- |:--- |:--- |
+| `bunny` | `hutch` | ETL DB & Task API | ✅ 10m |
+| `relay` | `hutch` | Relay Service & RabbitMQ | ✅ 10m |
+| `thehyve` | `thehyve` | Airflow & OMOP DB | ✅ 10m |
+
+### 5.2 VSO Architecture & Data Flow
+
+1. **Authentication:**
+   - Terraform creates an AppRole (RoleID + SecretID).
+   - `VaultAuth` resource authenticates VSO against the Vault cluster.
+   - VSO obtains a namespace-scoped token.
+
+2. **Transformation (The `extraDeploy` Pattern):**
+   While `ffnode` handles standard secrets, integrations like Hutch use `extraDeploy` to inject raw VSO resources with complex transformations.
+
+   ```yaml
+   # Example: Transforming raw credentials into a connection string
+   transformation:
+     templates:
+       db_connection_string:
+         text: 'Host=postgres;User={{get .Secrets "username"}};Password={{get .Secrets "password"}}'
+   ```
+
+### 5.3 Security Analysis (2025 Audit Findings)
+
+#### ✅ Strengths
+
+- **Drift Detection:** `hmacSecretData: true` automatically reverts manual tampering.
+- **Dynamic ACR Credentials:** Usage of `VaultDynamicSecret` for short-lived Azure Service Principal tokens.
+- **TLS Automation:** `cert-manager` integrated with Vault PKI.
+
+#### ⚠️ Critical Risks & Remediation
+
+1. **Hardcoded Credentials (Legacy):**
+   - *Risk:* Plaintext passwords found in legacy `shared-secrets` charts.
+   - *Fix:* Immediate migration to VSO.
+2. **Stale Secrets (No Refresh): САЩ
+   - *Risk:* Database secrets (`mongodb`, `postgresql`) lacked `refreshAfter`, preventing rotation.
+   - *Fix:* Standardized on a **1h Refresh Interval** for databases.
+3. **No Rollout Restart:**
+   - *Risk:* Pods holding old connection pools would fail after rotation.
+   - *Fix:* Added `rolloutRestartTargets` to StatefulSets.
+
+### 5.4 Operational Standards (The "Golden Config")
+
+Based on the audit, all new deployments must adhere to these settings:
+
+| Secret Type | Refresh Interval | Rollout Strategy |
+|:--- |:--- |:--- |
+| **Databases** | `1h` | `rolloutRestartTargets: StatefulSet` |
+| **Apps (API)** | `15m` | `rolloutRestartTargets: Deployment` |
+| **Workflows** | `30m` | None (Ephemeral Pods) |
+| **Monitoring** | `1h` | None |
 
 ---
 
@@ -155,5 +196,6 @@ Currently, populating Vault is a manual process using the HCP UI.
 - **Target:** A `make init-secrets` command that generates random passwords and UDE keys and pushes them to the correct Vault path.
 
 ### 6.3 Dynamic Database Secrets
+
 - **Goal:** Move from static KV secrets (long-lived passwords) to Vault's Database Secrets Engine.
 - **Benefit:** Short-lived, automatically rotated credentials (TTL 1h) generated on-the-fly for each pod.

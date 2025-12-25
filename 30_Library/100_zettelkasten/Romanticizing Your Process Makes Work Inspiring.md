@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T12:01:01Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-30T10:39:29Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - You Need to Romanticize Your Process]]"
 source_of_truth: []
-status: seedling
-tags: [creativity, mindset, process, ritual]
+status: "seedling"
+tags: ["creativity", "mindset", "process", "ritual"]
 title: Romanticizing Your Process Makes Work Inspiring
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

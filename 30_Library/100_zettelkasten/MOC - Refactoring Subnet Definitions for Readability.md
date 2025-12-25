@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-22T15:05:03Z
-epistemic: NA
-last_reviewed: 2025-11-22
-modified: 2025-12-04T13:28:26Z
+epistemic: "NA"
+last_reviewed: "2025-11-22"
+modified: 2025-12-25T11:40:47+00:00
 purpose: "Explains the refactoring of subnet logic for clarity."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [networking, terraform]
+status: "seedling"
+tags: ["terraform", "topic/technology/networking"]
 title: MOC - Refactoring Subnet Definitions for Readability
-type: map
-uid: 2025-11-22T15:05:03Z
-updated: 2025-11-22T15:05:03Z
+type: "map"
+uid: 
+updated: 
 ---
 
 **Summary:** This note details a refactoring of Terraform subnet definitions, moving from opaque, direct indexing to a clearer, hierarchical approach.

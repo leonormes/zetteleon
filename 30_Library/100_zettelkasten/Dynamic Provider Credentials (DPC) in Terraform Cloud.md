@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:35:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [authentication, DPC, OIDC, security, short-lived-credentials]
+status: ""
+tags: ["authentication", "DPC", "OIDC", "security", "short-lived-credentials"]
 title: Dynamic Provider Credentials (DPC) in Terraform Cloud
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Dynamic Provider Credentials (DPC)** is a key feature in Terraform Cloud (now HCP Terraform) designed to eliminate static credentials for cloud providers and other services. It should be the default authentication mechanism for all major cloud providers (AWS, Azure, GCP) and HashiCorp Vault integrations.

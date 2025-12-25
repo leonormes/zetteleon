@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-12T14:51:28Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:22Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Think like a mathematian
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Thinking like a mathematician means approaching problems with a specific set of habits of mind and a deep appreciation for the underlying structure and beauty of ideas, rather than merely memorizing facts or procedures [1-6]. It involves a creative and investigative approach, much like an artist or musician [1, 4, 7-9].

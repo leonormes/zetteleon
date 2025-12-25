@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-12T07:56:26Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Loss aversion is a cognitive bias where the psychological or emotional impact of a loss is significantly greater than the impact of an equivalent gain. It is a central component of Kahneman and Tversky's Prospect Theory.

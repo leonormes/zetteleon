@@ -1,20 +1,20 @@
 ---
-aliases: [Excellence Over Volume, Quality as Way of Life]
-confidence: 0.9
+aliases: ["Excellence Over Volume", "Quality as Way of Life"]
+confidence: "0.9"
 created: 2025-10-30T15:07:41Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-31T09:31:40Z
+epistemic: "principle"
+last_reviewed: "2025-10-30T00:00:00.000Z"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To emphasize excellence over volume in knowledge work"
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [deliberate-practice, excellence, quality, topic/productivity]
+status: "seedling"
+tags: ["deliberate-practice", "excellence", "quality", "topic/productivity"]
 title: Quality Over Quantity in Creative and Cognitive Work
-type: principle
-uid: 2025-10-30T15:07:41Z
-updated: 2025-10-30T15:07:41Z
+type: "principle"
+uid: 
+updated: 
 ---
 
 ## Quality Over Quantity in Creative and Cognitive Work

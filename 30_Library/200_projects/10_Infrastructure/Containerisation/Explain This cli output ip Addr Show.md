@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-22T13:53:03Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-19T10:12:56Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/networking]
+status: "null"
+tags: ["topic/technology/networking"]
 title: Explain This cli output ip Addr Show
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 ## Explain This Cli Output
@@ -41,28 +41,28 @@ The command `ip addr show` displays detailed information about all network inter
 
 ---
 
-### First Interface – Loopback
+### First Interface–Loopback
 
 ```sh
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
 ```
 
-- `1:` — Interface index.
-- `lo:` — Interface name (loopback).
-- `<LOOPBACK,UP,LOWER_UP>` — Flags:
+- `1:`—Interface index.
+- `lo:`—Interface name (loopback).
+- `<LOOPBACK,UP,LOWER_UP>`—Flags:
   - `LOOPBACK`: special local interface.
   - `UP`: device is enabled.
   - `LOWER_UP`: link layer is active.
-- `mtu 65536` — Maximum Transmission Unit (max packet size).
-- `qdisc noqueue` — No queuing discipline (since traffic doesn’t go on the wire).
-- `state UNKNOWN` — There’s no physical carrier to test link state.
-- `group default` / `qlen 1000` — Organizational grouping and default transmit queue length.
+- `mtu 65536`—Maximum Transmission Unit (max packet size).
+- `qdisc noqueue`—No queuing discipline (since traffic doesn’t go on the wire).
+- `state UNKNOWN`—There’s no physical carrier to test link state.
+- `group default` / `qlen 1000`—Organizational grouping and default transmit queue length.
 
 ```sh
 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 ```
 
-- `link/loopback` — Type of link-layer interface.
+- `link/loopback`—Type of link-layer interface.
 - MAC address is all zeros because it’s a virtual internal interface.
 
 ```sh
@@ -70,8 +70,8 @@ inet 127.0.0.1/8 scope host lo
 inet6 ::1/128 scope host noprefixroute
 ```
 
-- IPv4 address `127.0.0.1/8` — Used internally for local host communication.
-- IPv6 address `::1/128` — IPv6 equivalent of localhost.
+- IPv4 address `127.0.0.1/8`—Used internally for local host communication.
+- IPv6 address `::1/128`—IPv6 equivalent of localhost.
 - `scope host` meaning it’s only reachable from within the machine.
 
 ```sh
@@ -82,27 +82,27 @@ valid_lft forever preferred_lft forever
 
 ---
 
-### Second Interface – Ethernet
+### Second Interface–Ethernet
 
 ```sh
 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
 ```
 
-- `eth0` — Primary ethernet NIC.
+- `eth0`—Primary ethernet NIC.
 - Flags explained:
   - `BROADCAST`: can send broadcast traffic.
   - `MULTICAST`: supports multicasting.
   - `UP`: interface enabled.
   - `LOWER_UP`: physical link detected.
-- `mtu 1500` — Common ethernet packet size.
-- `qdisc fq_codel` — Queue discipline focusing on low latency (Fair Queue Controlled Delay).
-- `state UP` — Interface active.
+- `mtu 1500`—Common ethernet packet size.
+- `qdisc fq_codel`—Queue discipline focusing on low latency (Fair Queue Controlled Delay).
+- `state UP`—Interface active.
 
 ```sh
 link/ether 52:55:55:0a:13:c6 brd ff:ff:ff:ff:ff:ff
 ```
 
-- `link/ether` — Ethernet link layer.
+- `link/ether`—Ethernet link layer.
 - MAC address: `52:55:55:0a:13:c6`.
 - `brd` (broadcast) address: standard ethernet broadcast FF:FF:FF:FF:FF:FF.
 
@@ -126,7 +126,7 @@ inet 192.168.5.15/24 metric 200 brd 192.168.5.255 scope global dynamic eth0
 valid_lft 3388sec preferred_lft 3388sec
 ```
 
-- DHCP lease lifetimes — address valid and preferred for ~56 minutes.
+- DHCP lease lifetimes—address valid and preferred for ~56 minutes.
 
 ```sh
 inet6 fe80::5055:55ff:fe0a:13c6/64 scope link proto kernel_ll

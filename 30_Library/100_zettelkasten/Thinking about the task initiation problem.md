@@ -1,24 +1,24 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-05-26T13:58:39Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/health/adhd]
+status: "null"
+tags: ["Integrating", "topic/health/adhd"]
 title: Thinking about the task initiation problem
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
-Task Initiation: Difficulties with executive functions, particularly initiating tasks that aren't immediately stimulating or urgent, are common in ADHD. The perceived effort of creating a "proper" Zettelkasten note – deciding on the idea's atomicity, formulating the perfect title, finding relevant links, adding tags – can create significant friction, making it hard to even start.
+Task Initiation: Difficulties with executive functions, particularly initiating tasks that aren't immediately stimulating or urgent, are common in ADHD. The perceived effort of creating a "proper" Zettelkasten note–deciding on the idea's atomicity, formulating the perfect title, finding relevant links, adding tags–can create significant friction, making it hard to even start.
 
 [[2025-04-04]]
 

@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T15:49:33Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-12T16:07:53Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,12 +22,14 @@ updated:
 ![rw-book-cover](https://m.media-amazon.com/images/I/71WixtehDOL._SY160.jpg)
 
 ### Metadata
+
 - Author: [[Edward M. Hallowell and John J. Ratey]]
 - Full Title: Adhd 2.0
 - Category: #books
 - Document Tags: [[adhd]]
 
 ### Highlights
+
 - When you are engaged in a task of any kind, from frying an egg to writing an email to digging a hole, various clumps of neurons, together called a connectome, “light up” in your brain. We can see this through the exciting new science of fMRI, or functional magnetic resonance imaging. It’s like a live, moving X-ray, and it’s as close as we now can get to watching thought in motion. ([Location 483](https://readwise.io/to_kindle?action=open&asin=B0871LK27X&location=483))
     - Tags: [[adhd]]
 - The connectome that lights up when you’re engaged in a task is called the task-positive network, or TPN. Aptly named, the TPN gets you down to work. You’re deliberately doing something and you are intent on it, unaware of much beyond the bounds of what you’re doing. In this state, you don’t consciously know whether you’re happy or not, which is just as good as being happy, if not better, because you’re not wasting any energy in self-assessment. You may become frustrated with what you’re doing and have moments of anger or dismay, but if you stay in the task, in the TPN, those moments will pass, and the TPN, buoyant connectome that it is, will carry you along. When you’re thinking with the TPN, you’re in the Angel mindset. But you can also get trapped in the TPN, doing a task from which you cannot disengage. This is the hyperfocused state that people with ADHD can fall into. Far from being helpful, it can keep you stuck in one task, unable to shut down the screen, turn off the TV, or move from one paragraph to the next. This is the often unrecognized downside of focus. ([Location 486](https://readwise.io/to_kindle?action=open&asin=B0871LK27X&location=486))

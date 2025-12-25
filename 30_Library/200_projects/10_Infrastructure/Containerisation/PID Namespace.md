@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-02-07T12:57:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:42+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers, namespace]
+status: "null"
+tags: ["namespace", "topic/technology/containers"]
 title: PID Namespace
-type: instruction
+type: "instruction"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## 1. Create a New PID Namespace
@@ -371,14 +371,14 @@ Technical Details about PID Namespaces in Docker
     - It's also why running `ps` inside a container only shows you the processes within that container.
 4. PID 1 in Containers (The Init Process):
 
-    - The process with PID 1 inside a container's PID namespace is a special process – it's the init process.
+    - The process with PID 1 inside a container's PID namespace is a special process–it's the init process.
     - The init process has responsibilities like reaping orphaned processes (processes whose parent has died) to prevent them from becoming zombies.
     - If the process with PID 1 dies, the entire container will typically be terminated.
 5. Sharing PID Namespaces (Advanced):
 
     - Docker provides options to share PID namespaces.
-    - `docker run --pid=host ...`: This allows a container to share the host's PID namespace. In this scenario, the container will see all the processes on the host system, and its processes will be visible on the host as well.
-    - `docker run --pid=container:<name|id> ...`: This allows a container to join the PID namespace of another running container. It allows both containers to see and manage each others' processes.
+    - `docker run --pid=host...`: This allows a container to share the host's PID namespace. In this scenario, the container will see all the processes on the host system, and its processes will be visible on the host as well.
+    - `docker run --pid=container:<name|id>...`: This allows a container to join the PID namespace of another running container. It allows both containers to see and manage each others' processes.
 
 Demonstration Steps in the Video
 

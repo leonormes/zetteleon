@@ -1,41 +1,30 @@
 ---
-aliases: [Rust Philosophy, Rust's Pragmatic Compromise]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-19T13:10:01Z
-decay-signals: []
-epistemic: analysis
-last_reviewed: 2025-12-19
-modified: 2025-12-20T09:54:05Z
+aliases: ["Rust Philosophy", "Rust's Pragmatic Compromise"]
+confidence: "5/5"
+created: 2025-12-19T00:00:00Z
+epistemic: "analysis"
+last_reviewed: "2025-12-19"
+modified: 2025-12-25T11:40:20+00:00
 purpose: "To analyze Rust's core design as a deliberate compromise between performance, safety, and pragmatic implementation."
-quality-markers: [Explains the 'follow the silicon' approach., Positions Rust on the Pragmatism-Rigour spectrum]
-related-soTs: ["[[SoT - Padded Cell vs Nanny Languages]]", "[[SoT - Pragmatism vs Rigour in Software]]", "[[SoT - Rust's Ownership Model]]"]
-resonance-score: 9
-review_interval: 12 months
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: []
+review_interval: "12 months"
+see_also: ["[[SoT - Padded Cell vs Nanny Languages]]", "[[SoT - Pragmatism vs Rigour in Software]]", "[[SoT - Rust's Ownership Model]]"]
+source_of_truth: []
+status: "stable"
 tags: ["design-philosophy", "programming-languages", "rust"]
 title: "SoT - Rust's Design Philosophy"
-type: SoT
+type: "SoT"
 uid: 
-updated:
+updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Rust's Design Philosophy** is a deliberate act of engineering pragmatism. It aims to occupy a unique niche—C++-level performance with guaranteed memory safety—by making a conscious trade-off: it prioritizes implementation efficiency and adherence to existing hardware paradigms ("following the silicon") over the pursuit of theoretical purity ("following the mathematics").
-
----
+> **Rust's Design Philosophy** is a deliberate act of engineering pragmatism. It aims to occupy a unique niche—C++-level performance with guaranteed memory safety—by making a conscious trade-off: "it prioritizes implementation efficiency and adherence to existing hardware paradigms (\"following the silicon\") over the pursuit of theoretical purity (\"following the mathematics\")."
 
 ## 2. The Core Problem: Escaping C++ Without Sacrificing Control
 
 For decades, systems programming faced a stark choice: use C/C++ for maximum performance and control at the cost of memory safety, or use a garbage-collected language (Java, Go, C#) for safety at the cost of performance and resource management predictability. Rust was created to solve this specific dilemma.
 
 | Failure Mode of Pre-Rust World | The Problem | The Rust Solution |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **C/C++ Memory Errors** | Manual memory management is a notorious source of bugs (buffer overflows, use-after-frees), leading to crashes and security vulnerabilities. | **The Borrow Checker:** A static analysis tool that enforces strict ownership and borrowing rules at compile time, eliminating entire classes of memory errors. |
 | **Garbage Collection Overhead** | Garbage Collectors (GCs) introduce unpredictable pauses (latency spikes) and increase memory overhead, making them unsuitable for real-time or low-level systems. | **Zero-Cost Abstractions:** Rust's safety mechanisms are resolved at compile time and have no runtime overhead. Memory is managed deterministically via the ownership system. |
 | **The Rigour-Usability Gap** | Theoretically pure languages (Haskell, OCaml) offered safety but were perceived as too academic, complex, or slow for mainstream systems programming. | **A "Nanny" Language:** Rust acts as a strict but helpful "nanny," guiding developers to write safe code without requiring a deep understanding of formal methods like [[SoT - Dependent Types in Software]]. |
@@ -73,4 +62,4 @@ This architecture firmly places Rust in the "Nanny" category of languages as def
 - [[SoT - Pragmatism vs Rigour in Software]]
 - [[SoT - Rust's Ownership Model]]
 - [[SoT - Runtime Guards vs Compile-Time Proofs]]
-- [[SoT - The "Worse is Better" Philosophy]]
+- [[SoT - The Worse is Better Philosophy]]

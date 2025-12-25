@@ -1,20 +1,20 @@
 ---
-aliases: [Eat The Frog]
-confidence: 0.9
+aliases: ["Eat The Frog"]
+confidence: "0.9"
 created: 2025-11-10T14:12:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T13:28:09Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the Eat The Frog method."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Time Blocking and Time Boxing for Productivity]]"]
-status: seedling
-tags: [prioritization, procrastination, productivity]
+source_of_truth: []
+status: "seedling"
+tags: ["prioritization", "procrastination", "topic/productivity"]
 title: The Eat The Frog Method Involves Tackling the Most Important Task First
-type: concept
-uid: 2025-11-10T14:12:00Z
-updated: 2025-11-10T14:12:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Eat The Frog Method Involves Tackling the Most Important Task First

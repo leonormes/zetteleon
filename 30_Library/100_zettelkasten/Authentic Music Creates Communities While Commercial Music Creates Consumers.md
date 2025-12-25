@@ -1,20 +1,20 @@
 ---
-aliases: [Music and Community]
-confidence: 0.8
+aliases: ["Music and Community"]
+confidence: "0.8"
 created: 2025-11-10T11:09:00Z
-epistemic: hypothesis
-last_reviewed:
-modified: 2025-11-10T08:55:35Z
+epistemic: "hypothesis"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To propose a key social difference between authentic and commercial music."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Music as Expression vs Product]]"]
-status: seedling
-tags: [authenticity, community, consumerism, music]
+source_of_truth: []
+status: "seedling"
+tags: ["authenticity", "community", "consumerism", "music"]
 title: Authentic Music Creates Communities While Commercial Music Creates Consumers
-type: concept
-uid: 2025-11-10T11:09:00Z
-updated: 2025-11-10T11:09:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Authentic Music Creates Communities While Commercial Music Creates Consumers

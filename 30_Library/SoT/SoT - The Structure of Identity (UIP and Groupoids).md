@@ -1,24 +1,18 @@
 ---
-alias: ["Hofmann's Groupoid", "The Groupoid Model", "UIP", "Uniqueness of Identity Proofs"]
 aliases: []
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-18T11:40:00Z
-decay-signals: []
-epistemic: authoritative
-last_reviewed: 2025-12-18
-modified: 2025-12-20T09:54:06Z
-purpose: Defines the pivotal realization that proofs of equality are not unique, leading to the Groupoid structure of types.
-quality-markers: ["Synthesized from Computerphile: The Hardest Problem in Type Theory"]
-related-soTs: ["[[SoT - Cubical Type Theory (Computational Univalence)]]", "[[SoT - Equality in Type Theory (Intensional vs Extensional)]]"]
-resonance-score: 9
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
+confidence: "5/5"
+created: 2025-12-18T00:00:00Z
+epistemic: "authoritative"
+last_reviewed: "2025-12-18"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "Defines the pivotal realization that proofs of equality are not unique, leading to the Groupoid structure of types."
+review_interval: "1 year"
+see_also: ["[[SoT - Cubical Type Theory (Computational Univalence)]]", "[[SoT - Equality in Type Theory (Intensional vs Extensional)]]"]
+source_of_truth: []
+status: "stable"
 tags: ["history", "hott", "logic", "mathematics", "type_theory"]
 title: SoT - The Structure of Identity (UIP and Groupoids)
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---

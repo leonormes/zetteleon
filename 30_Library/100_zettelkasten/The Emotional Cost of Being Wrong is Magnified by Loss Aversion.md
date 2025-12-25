@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-08-12T07:56:06Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:39Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [ego, epistemology, topic/cognition, topic/learning]
+status: "null"
+tags: ["ego", "epistemology", "topic/cognition", "topic/learning"]
 title: The Emotional Cost of Being Wrong is Magnified by Loss Aversion
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: "null"
 ---
 
 Body:

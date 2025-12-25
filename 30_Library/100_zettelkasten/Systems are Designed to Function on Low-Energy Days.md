@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-30T12:06:01Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T10:42:02Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source: "[[MOC - Systems Thinking for Goal Achievement]]"
 source_of_truth: []
-status: seedling
-tags: [energy-management, habits, systems-thinking, topic/health/adhd]
+status: "seedling"
+tags: ["energy-management", "topic/habits", "topic/health/adhd", "topic/systems"]
 title: Systems are Designed to Function on Low-Energy Days
-type: concept
+type: "concept"
 uid: 
-updated: 2025-10-31
+updated: 
 ---
 
 A primary advantage of systems over goals is that they are designed to function even on low-energy or low-motivation days. Because the focus is on a simple, repeatable process, the activation energy required to start is minimal. This contrasts with goals, which often feel daunting and require a high level of motivation to pursue.

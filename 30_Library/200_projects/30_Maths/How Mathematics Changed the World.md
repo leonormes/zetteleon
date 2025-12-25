@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-11T10:21:10Z
-epistemic: 
-id: core of Civilization
-last_reviewed: 
-modified: 2025-11-03T13:48:22Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "core of Civilization"
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: How Mathematics Changed the World
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## The Core of Civilization: How Mathematics Changed the World

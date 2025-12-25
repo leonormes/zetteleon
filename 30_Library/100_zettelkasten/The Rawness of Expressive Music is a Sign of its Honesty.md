@@ -1,20 +1,20 @@
 ---
-aliases: [Rawness in Music]
-confidence: 0.8
+aliases: ["Rawness in Music"]
+confidence: "0.8"
 created: 2025-11-10T11:04:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T08:55:35Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To connect musical rawness with authenticity."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Music as Expression vs Product]]"]
-status: seedling
-tags: [authenticity, expression, imperfection, music]
+source_of_truth: []
+status: "seedling"
+tags: ["authenticity", "expression", "imperfection", "music"]
 title: The Rawness of Expressive Music is a Sign of its Honesty
-type: concept
-uid: 2025-11-10T11:04:00Z
-updated: 2025-11-10T11:04:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Rawness of Expressive Music is a Sign of Its Honesty

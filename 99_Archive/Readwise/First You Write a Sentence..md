@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T15:49:34Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-12T16:07:53Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,13 +22,15 @@ updated:
 ![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/41ZsjoAXu%2BL._SL200_.jpg)
 
 ### Metadata
+
 - Author: [[Joe Moran]]
 - Full Title: First You Write a Sentence.
 - Category: #books
 - Document Tags: [[writing]]
 
 ### Highlights
-- Writing, Kurt Vonnegut once said, allows ‘mediocre people who are patient and industrious to revise their stupidity, to edit themselves into something like intelligence’. Making even one good sentence may be hard, but it is worth it – just to edit our thoughts into fluent intelligence, to build a ladder of words up to our better selves. ([Location 554](https://readwise.io/to_kindle?action=open&asin=B07CV5ZSFR&location=554))
+
+- Writing, Kurt Vonnegut once said, allows ‘mediocre people who are patient and industrious to revise their stupidity, to edit themselves into something like intelligence’. Making even one good sentence may be hard, but it is worth it–just to edit our thoughts into fluent intelligence, to build a ladder of words up to our better selves. ([Location 554](https://readwise.io/to_kindle?action=open&asin=B07CV5ZSFR&location=554))
     - Tags: [[writing]]
 - Stupidity reduces language to words. ([Location 635](https://readwise.io/to_kindle?action=open&asin=B07CV5ZSFR&location=635))
 - The island has only 138 inhabitants, but 1,600 place names. Among them are The Glen of the Baglike Plain, The Shelter of the Miserable Women, Bald Kenneth’s Daughter’s Fishing Rock and The Ruins of the House of Boisterous Angus. These deeply precise names, McPhee writes, ‘sketch the land in language’. ([Location 814](https://readwise.io/to_kindle?action=open&asin=B07CV5ZSFR&location=814))
@@ -37,13 +39,13 @@ updated:
 - Some verbs, though, have more life in them than others. The most common verb is to be, deployed in roughly half of all English sentences. ‘I am,’ wrote John Clare, ‘yet what I am none cares or knows.’ ([Location 1074](https://readwise.io/to_kindle?action=open&asin=B07CV5ZSFR&location=1074))
 - But I am more often forms a copula, a linking verb. It says that the subject is the same thing as something else (I am a smoker) or has the same quality as something else (I am smoking). ([Location 1076](https://readwise.io/to_kindle?action=open&asin=B07CV5ZSFR&location=1076))
     - Note: Lool up copula
-- English of to be. This verb was, he felt, a shortcut for the mind – the word equivalent of an equals sign. ([Location 1080](https://readwise.io/to_kindle?action=open&asin=B07CV5ZSFR&location=1080))
+- English of to be. This verb was, he felt, a shortcut for the mind–the word equivalent of an equals sign. ([Location 1080](https://readwise.io/to_kindle?action=open&asin=B07CV5ZSFR&location=1080))
     - Tags: [[writing]]
 - Instead of seeing myself as a static noun (I’m an idiot) or adjective (I’m so idiotic), I can use a dynamic verb (I behaved like an idiot). The most wretchedly rigid-seeming realities can be lived down. ([Location 1087](https://readwise.io/to_kindle?action=open&asin=B07CV5ZSFR&location=1087))
     - Tags: [[writing]]
 - A complete sentence needs at least one finite verb. ([Location 1198](https://readwise.io/to_kindle?action=open&asin=B07CV5ZSFR&location=1198))
     - Tags: [[writing]]
-- Non-finite verbs – infinitives ([Location 1200](https://readwise.io/to_kindle?action=open&asin=B07CV5ZSFR&location=1200))
+- Non-finite verbs–infinitives ([Location 1200](https://readwise.io/to_kindle?action=open&asin=B07CV5ZSFR&location=1200))
     - Tags: [[writing]]
 - participles (verbal adjectives) ([Location 1200](https://readwise.io/to_kindle?action=open&asin=B07CV5ZSFR&location=1200))
     - Tags: [[writing]]

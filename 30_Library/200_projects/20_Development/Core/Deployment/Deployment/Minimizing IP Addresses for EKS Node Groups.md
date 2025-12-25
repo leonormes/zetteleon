@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-17T12:17:19Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:51Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [ff_deploy, networking]
+status: ""
+tags: ["ff_deploy", "topic/technology/networking"]
 title: Minimizing IP Addresses for EKS Node Groups
-type:
+type: ""
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 You have a running EKS cluster and want to minimize the number of IPs assigned to its node groups. This is a great way to optimize IP address utilization and improve the efficiency of your cluster! Here's how you can determine the appropriate number of IPs and adjust your node group configuration:

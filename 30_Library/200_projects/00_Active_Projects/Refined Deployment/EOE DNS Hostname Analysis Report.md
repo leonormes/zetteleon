@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-09-23T08:50:43Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:10Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:32+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/networking/dns]
+status: "null"
+tags: ["topic/technology/networking/dns"]
 title: EOE DNS Hostname Analysis Report
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 ## **1. Infrastructure Level (AWS EKS - hie-sde-v2)**

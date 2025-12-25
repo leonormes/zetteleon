@@ -1,20 +1,20 @@
 ---
-aliases: [Function of Goals]
-confidence: 0.9
+aliases: ["Function of Goals"]
+confidence: "0.9"
 created: 2025-11-06T19:55:00Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "fact"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define the function of goals as directional guides in the process of change."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["Goals are good for setting a direction, but systems are best for making progress.md"]
-status: seedling
-tags: [direction-setting, goals, productivity]
+source_of_truth: []
+status: "seedling"
+tags: ["direction-setting", "goals", "topic/productivity"]
 title: Goals Set the Direction for Change
-type: concept
-uid: 2025-11-06T19:55:00Z
-updated: 2025-11-06T19:55:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Goals Set the Direction for Change

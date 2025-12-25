@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-08-30T17:09:46Z
-epistemic:
-last_reviewed:
-modified: 2025-10-29T19:28:21Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
+status: ""
 tags: []
 title: MOC Symbols vs Concepts They Represent
-type: map
-uid:
-updated:
-version: 1
+type: "map"
+uid: 
+updated: 
+version: "1"
 ---
 
 A fundamental insight across multiple domains: symbols, representations, and models are distinct from the concepts, realities, or territories they attempt to capture. This separation is crucial for deep understanding and avoiding conceptual confusion.
@@ -36,11 +36,11 @@ A fundamental insight across multiple domains: symbols, representations, and mod
 
 - **[[Words are Imperfect Representations of Meaning]]** - Words are shadows of true meaning, dependent on perspective
 - **[[Paraphrasing Demonstrates the Independence of Meaning from Language]]** - Same meaning can be expressed in multiple ways, proving their independence
-- **[[The Word-as-Shadow Metaphor in Philosophy]]** — Philosophical foundations of this concept
+- **[[The Word-as-Shadow Metaphor in Philosophy]]**—Philosophical foundations of this concept
 
 ### Mental Models Vs Reality
 
-- **[[Flawed Mental Models Limit Mastery]]** — How incorrect symbol-concept conflation prevents deeper understanding
+- **[[Flawed Mental Models Limit Mastery]]**—How incorrect symbol-concept conflation prevents deeper understanding
 - **[[Leaky Abstractions]]** - When simplified models break down under certain conditions
 - **[[Breaking Free from Flawed Models]]** - The process of upgrading from symbol-based to concept-based understanding
 

@@ -1,23 +1,23 @@
 ---
-aliases: [Pomodoro for ADHD, Time Boxing Guide]
-confidence:
+aliases: ["Pomodoro for ADHD", "Time Boxing Guide"]
+confidence: "null"
 created: 2025-10-30T15:17:49Z
-criteria: Must address ADHD-specific challenges like time blindness, completion anxiety, or executive function support
-epistemic:
-exclusions: Generic time management without ADHD considerations
-last_reviewed:
-modified: 2025-12-07T18:13:51Z
-purpose:
-review_interval:
-scope: Comprehensive strategies for using time boxing as an ADHD productivity tool
+criteria: ""
+epistemic: "null"
+exclusions: "Generic time management without ADHD considerations"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
+scope: "Comprehensive strategies for using time boxing as an ADHD productivity tool"
 see_also: []
 source_of_truth: []
-status:
-tags: [time-boxing, topic/health/adhd, topic/productivity]
+status: "null"
+tags: ["time-boxing", "topic/health/adhd", "topic/productivity"]
 title: MOC - Time Boxing for ADHD Brains
-type: map
-uid: 2025-10-30T15:17:49Z
-updated: 2025-10-30T15:17:49Z
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - Time Boxing for ADHD Brains
@@ -49,7 +49,7 @@ For ADHD individuals, the thought of "completing" large tasks triggers overwhelm
 Don't time box "work on report"—that's too vague. Instead:
 
 - "Draft introduction for report"
-- "Research statistics for section 2"  
+- "Research statistics for section 2"
 - "Outline main arguments"
 
 #### Define "Done" for Each Box
@@ -91,8 +91,6 @@ Visual timers make abstract time concrete:
 ### During the Time Box
 
 #### Minimize Distractions
-
-[[Environmental Design for ADHD Focus]] rel:: supporting-strategy
 
 [[Distraction Management in Timeboxing (Catch-All List)]] rel:: specific-technique
 

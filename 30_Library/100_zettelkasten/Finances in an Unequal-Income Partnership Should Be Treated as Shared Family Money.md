@@ -1,20 +1,20 @@
 ---
-aliases: [Family Money Concept]
-confidence: 0.9
+aliases: ["Family Money Concept"]
+confidence: "0.9"
 created: 2025-11-10T10:11:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To establish a healthy financial mindset in partnerships with income disparity."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Partners Should Have Equal Say in Financial Decisions Regardless of Income]]"]
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [budgeting, equality, finance, relationship]
+source_of_truth: []
+status: "seedling"
+tags: ["budgeting", "equality", "finance", "relationship"]
 title: Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money
-type: concept
-uid: 2025-11-10T10:11:00Z
-updated: 2025-11-10T10:11:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money

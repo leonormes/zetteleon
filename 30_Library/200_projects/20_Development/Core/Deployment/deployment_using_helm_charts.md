@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:55Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [ff_deploy]
+status: ""
+tags: ["ff_deploy"]
 title: deployment_using_helm_charts
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Certainly! Below is a documentation draft for the `ff-a` demo deployment, which uses the `charts` directory and overrides specific settings. This documentation will explain the structure and how to make changes to a chart.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:36:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [AWS, Azure, GCP, identity-federation, OIDC, security]
+status: ""
+tags: ["AWS", "Azure", "GCP", "identity-federation", "OIDC", "security"]
 title: Establishing Cloud Trust for Terraform Cloud
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 To enable Terraform Cloud to use [[Dynamic Provider Credentials (DPC) in Terraform Cloud|Dynamic Provider Credentials]], a crucial step is to establish a trust relationship between Terraform Cloud and your cloud provider. This allows the cloud provider to recognize Terraform Cloud as a trusted identity provider, enabling the exchange of OIDC tokens for short-lived credentials.

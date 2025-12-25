@@ -1,92 +1,64 @@
 ---
-aliases: [Data-Centric Networking, SoT - Networking, Theory of Networking]
-confidence: 5/5
-created: 2025-03-14T01:38:49Z
-epistemic: architecture
-last_reviewed: 2025-12-22
-modified: 2025-12-22T11:15:19Z
-purpose: To define the fundamental architecture of networking as a system for the transport and management of distributed state.
-review_interval: 6 months
+aliases: ["Host-based Routing", "Networking Indirection", "Path-based Routing"]
+confidence: "5/5"
+created: 2025-03-14T13:38:49Z
+epistemic: "theory"
+last_reviewed: "2025-12-23"
+modified: 2025-12-25T18:34:54Z
+purpose: "To define the principles of indirection, stable service endpoints, and routing logic in modern network architecture."
+review_interval: "6 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data Architecture of DNS]]"]
-source_of_truth: true
-status: stable
-tags: [architecture, data-centric, networking, sot]
+source_of_truth: []
+status: "stable"
+tags: ["architecture", "data-centric", "networking", "routing", "topic/technology"]
 title: SoT - The Data-Centric Theory of Networking
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Definitive Statement
 
 > [!definition] Definition
-> **Networking** is a distributed system designed for the **reliable encapsulation, transport, and delivery of state** between decoupled compute nodes.
->
-> From a data-centric perspective, all network infrastructure (routers, switches, firewalls) exists solely to process and mutate the metadata surrounding a payload to satisfy the constraints of **Reachability**, **Integrity**, and **Security**.
+> **Data-Centric Networking** treats network addresses not as physical locations, but as **stable service endpoints**. It relies on layers of indirection (Load Balancers, Ingress Controllers) to decouple the public identifier from the transient, physical implementation.
 
 ---
 
-## 2. State Definition (The Atoms)
+## 2. Technical Nuance: DNS Name vs. Host Header
 
-The fundamental atomic unit of state in networking is the **Protocol Data Unit (PDU)**. It is a nested data structure that separates control metadata from the application payload.
+A single network request involves two distinct properties that are often conflated:
 
-### The PDU Tuple: `(Header, Payload, Trailer)`
+1. **The DNS Name:** Used by the client to find the **IP address** of the entry point (The "Where").
+2. **The HTTP Host Header:** Sent *inside* the request to tell the server which service is requested (The "Who").
 
-| Component | Role | Data Content |
-| :--- | :--- | :--- |
-| **Header** | **Control Metadata** | Addressing (IP/MAC), Sequence Numbers, TTL, Options. |
-| **Payload** | **Transparent State** | The actual data being transported (opaque to the network layer). |
-| **Trailer** | **Integrity Check** | Cyclic Redundancy Checks (CRC), Checksums. |
-
-### The Flow State
-
-A network session is represented by a **5-Tuple**:
-
-`(Source IP, Destination IP, Source Port, Destination Port, Protocol)`
+**The Virtual Hosting Principle:** Because these two can be technically separated (e.g., via `curl`), a single IP address (one Load Balancer) can handle hundreds of distinct hostnames by inspecting the `Host` header.
 
 ---
 
-## 3. Structural Mapping (The Layout)
+## 3. Routing Patterns
 
-The complexity of networking is managed through **Recursive Encapsulation** and **Distributed Sharding** of the namespace.
+### A. Host-Based Routing
 
-### Recursive Encapsulation (The Stack)
+Used to expose distinct domains on shared infrastructure.
 
-Data is organized as a "Matryoshka doll" of structures. Each layer adds a specific metadata schema:
+- `https://relay.fitfile.net` -> Routes to Relay Pool.
+- `https://api.fitfile.net` -> Routes to API Pool.
+- **Logic:** The gateway looks at the **Host Header**.
 
--   **L2 (Frame):** Header maps to physical port (MAC).
--   **L3 (Packet):** Header maps to logical network (IP).
--   **L4 (Segment):** Header maps to process endpoint (Port).
+### B. Path-Based Routing (API Gateway)
 
-### The Routing Table (The Prefix Trie)
+Used to expose multiple services under a single domain.
 
-Network reachability is stored in a **Radix Tree** or **Trie** structure.
-
--   **Index:** CIDR Prefixes (e.g., `10.0.0.0/8`).
--   **Value:** Pointers to the next "hop" or interface.
--   **Access Pattern:** Read-heavy, optimized for **Longest Prefix Match (LPM)**.
+- `https://relay.fitfile.net/relay/` -> Routes to Relay Pool.
+- `https://relay.fitfile.net/api/` -> Routes to API Pool.
+- **Logic:** The gateway looks at the **URL Path**.
 
 ---
 
-## 4. Invariants & Constraints
+## 4. The Power of Indirection
 
-For a network to maintain "Mind Like Water" stability, it must satisfy these fundamental laws:
+By pointing DNS records to a Load Balancer instead of a host, you achieve:
 
-1.  **The End-to-End Principle:** The "intelligence" of the system resides at the endpoints. The network core must remain a **stateless, transparent pipe** to maximize throughput and minimize complexity.
-2.  **Integrity Invariant:** The payload at egress must be bit-identical to the payload at ingress. This is guaranteed by the Trailer CRC and L4 Checksums.
-3.  **Uniqueness Constraint:** Within a single routing domain, an IP address must map to exactly one logical node to prevent state ambiguity.
-4.  **Conservation of Flow:** Packets must either be delivered, dropped (with signal), or expired (TTL=0). They cannot exist indefinitely in the system (loop prevention).
-
----
-
-## 5. Logic Derivation (The Algorithms)
-
-Because the data is structured as a stack of nested headers and a prefix-trie of routes, the operational logic is "degenerate":
-
--   **Routing:** Simple Trie traversal. Input: `Dest_IP`. Output: `Next_Hop`. Complexity: `O(Prefix_Length)`.
--   **Switching:** Hash-map lookup. Input: `Dest_MAC`. Output: `Port_ID`. Complexity: `O(1)`.
--   **Firewalling:** Predicate logic applied to the 5-Tuple. If `Match(Tuple, RuleSet)` then `Forward` else `Drop`.
-
-### Performance Optimization: Cache Locality
-
-Modern networking hardware (ASICs) offloads the logic into **TCAM (Ternary Content-Addressable Memory)**, turning Trie traversal into a single-clock-cycle hardware lookup. The logic disappears into the physical layout of the silicon.
+- **Zero-Downtime Maintenance:** Removing nodes from the pool for updates.
+- **Geographic Optimization (GeoDNS):** Returning different IPs based on user location to minimize latency.
+- **Security Isolation:** Terminating TLS at the edge and protecting backend hosts from direct internet exposure.

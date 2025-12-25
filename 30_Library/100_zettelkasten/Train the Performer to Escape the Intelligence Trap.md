@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T08:05:03Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [action, topic/learning, topic/productivity, topic/psychology]
+status: "null"
+tags: ["action", "topic/learning", "topic/productivity", "topic/psychology"]
 title: Train the Performer to Escape the Intelligence Trap
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The solution to [[The Intelligence Trap - Strategist vs Performer]] is not to think your way out of it. The problem is an overactive "Strategist" and an atrophied "Performer," so more thinking will only worsen the imbalance.

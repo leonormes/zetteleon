@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-18T09:03:35Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:44Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [data-centric, git]
+status: ""
+tags: ["data-centric", "git"]
 title: The Fundamental Misconception Commits as Diffs
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 The common visualization of commits as a series of diffs is misleading. When we see `git log -p`, it shows the changes between commits, reinforcing this diff-centric view. However, this is just a *presentation* of the data, not the underlying storage.

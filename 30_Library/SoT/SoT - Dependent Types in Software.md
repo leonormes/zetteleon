@@ -1,33 +1,20 @@
 ---
-aliases: [Dependent Types, Type-Level Programming]
-confidence: 4/5
-confidence-gaps: [The practical application in mainstream languages is still an area of active research.]
-created: 2025-12-19T13:17:01Z
-decay-signals: []
-epistemic: concept
-last_reviewed: 2025-12-19
-modified: 2025-12-19T13:23:46Z
+aliases: ["Dependent Types", "Type-Level Programming"]
+confidence: "4/5"
+created: 2025-12-19T00:00:00Z
+epistemic: "concept"
+last_reviewed: "2025-12-19"
+modified: 2025-12-25T11:40:22+00:00
 purpose: "To define Dependent Types as a feature of advanced type systems that allows types to depend on values, enabling compile-time proofs of program correctness."
-quality-markers: [Contrasts with traditional unit testing, Explains the 'making illegal states unrepresentable' philosophy., Provides a clear vector-indexing example]
-related-soTs: ["[[SoT - Pragmatism vs Rigour in Software]]", "[[SoT - Quantitative Type Theory]]", "[[SoT - Runtime Guards vs Compile-Time Proofs]]"]
-resonance-score: 9
-review_interval: 18 months
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: []
+review_interval: "18 months"
+see_also: ["[[SoT - Pragmatism vs Rigour in Software]]", "[[SoT - Quantitative Type Theory]]", "[[SoT - Runtime Guards vs Compile-Time Proofs]]"]
+source_of_truth: []
+status: "stable"
 tags: ["compilers", "correctness", "formal-methods", "type-theory"]
 title: SoT - Dependent Types in Software
-type: SoT
+type: "SoT"
 uid: 
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Dependent Types** are a feature of advanced type systems where types are allowed to depend on *values*. This blurs the line between types and program logic, allowing a developer to encode complex program invariants (properties that must always be true) directly into the type system. If the program compiles, the invariants are mathematically proven to hold, eliminating entire classes of runtime errors.
-
+updated: 
 ---
 
 ## 2. The Core Problem: The Brittleness of Runtime Assertions
@@ -35,7 +22,7 @@ updated:
 In conventional programming, we ensure correctness by writing code and then writing *more code* (unit tests, assertions, runtime checks) to verify that the first batch of code was correct. This is fundamentally inefficient and error-prone.
 
 | Failure Mode of Conventional Types | The Problem | The Dependent Type Solution |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Out-of-Bounds Errors** | A function that takes a list and an index has no compile-time guarantee that the index is valid. `get(list, 99)` is syntactically valid even if the list only has 2 elements. This must be checked at runtime. | **Types that Depend on Values:** A dependently-typed list would have the type `Vect n a` (a vector of `n` items of type `a`). A function to access it would take an index of type `Fin n` (a number *proven* to be less than `n`). An invalid index becomes a **compile-time type error**. |
 | **Bugs in Tests** | Unit tests are just more code, and they can have bugs themselves. A test suite can pass while the underlying logic is still flawed. | **The Compiler as Prover:** The type checker acts as a mechanical theorem prover. If the types check out, the property is proven correct. It is not merely "tested"; it is verified. |
 | **Illegal State Representation** | Conventional type systems allow you to represent impossible states (e.g., a `User` object where `isLoggedIn` is true but `sessionToken` is null). This must be prevented with defensive coding and assertions. | **Making Illegal States Unrepresentable:** The type system can enforce that a `LoggedInUser` type *must* contain a valid `sessionToken`. You cannot construct an object that violates the invariant. The invalid state cannot be modeled. |
@@ -51,7 +38,7 @@ Dependent types are the practical application of a deep idea in computer science
 - **The Problem:** In most languages, getting the `head` (first element) of an empty list is a runtime error.
 - **The Dependent Type Solution:**
     1. Define two types of lists: `Vect 0 a` (an empty vector) and `Vect (n+1) a` (a non-empty vector).
-    2. The `head` function's type signature is: `head : Vect (n+1) a -> a`.
+    2. The `head` function's type signature is: `head: Vect (n+1) a -> a`.
     3. This signature states that `head` can *only* be called on a vector that is proven, at compile time, to have at least one element.
     4. Calling `head` on an empty list is not a runtime error; it is a **type mismatch error** that the compiler catches immediately. You have failed to prove the proposition "this list is not empty."
 

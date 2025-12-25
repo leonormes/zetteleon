@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T12:57:00Z
-epistemic: technique
-last_reviewed: 
-modified: 2025-10-31T12:57:00Z
+epistemic: "technique"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Use listening to reduce tension."
-review_interval: 90
+review_interval: "90"
 see_also: ["AAA Framework for Handling Criticism.md"]
 source_of_truth: []
-status: seedling
-tags: [communication, psychology]
+status: "seedling"
+tags: ["communication", "topic/psychology"]
 title: Active Listening De-escalates Conflict
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

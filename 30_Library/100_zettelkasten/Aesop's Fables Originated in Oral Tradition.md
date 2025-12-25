@@ -1,21 +1,21 @@
 ---
-aliases: [Aesop's Oral Fables]
-confidence: 1
+aliases: ["Aesop's Oral Fables"]
+confidence: "1"
 created: 2025-11-01T21:35:00Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:43:14Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To describe the origin of Aesop's fables in oral tradition."
-review_interval: 90
-see_also: ['[[Sequence - Evolution of Fable Storytelling]]']
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Sequence - Evolution of Fable Storytelling.md"]
-status: evergreen
-tags: [aesop, fable, history, oral-tradition, storytelling]
+review_interval: "90"
+see_also: ["[[Sequence - Evolution of Fable Storytelling]]"]
+source_of_truth: []
+status: "evergreen"
+tags: ["aesop", "fable", "history", "oral-tradition", "storytelling"]
 title: "Aesop's Fables Originated in Oral Tradition"
-type: concept
-uid: 20251101213500
-updated: 2025-11-01T21:35:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 The earliest known Western fables are attributed to Aesop, a storyteller believed to have lived in ancient Greece around the 6th century BCE.

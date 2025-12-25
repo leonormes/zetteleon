@@ -1,29 +1,20 @@
 ---
-aliases: [Action-First Cognition, Embodied Understanding, Pre-Linguistic Cognition]
-confidence: 5/5
-created: 2025-12-13T19:33:49Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:07Z
-purpose: To define understanding as a fundamental, pre-linguistic process rooted in sensorimotor experience, positioning language as a secondary tool for refinement rather than the source of thought.
-review_interval: 
+aliases: ["Action-First Cognition", "Embodied Understanding", "Pre-Linguistic Cognition"]
+confidence: "5/5"
+created: 2025-12-13T00:00:00Z
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define understanding as a fundamental, pre-linguistic process rooted in sensorimotor experience, positioning language as a secondary tool for refinement rather than the source of thought."
+review_interval: "3 months"
 see_also: []
 source_of_truth: []
-status: stable
-tags: [ai, cognitive_science, education, linguistics, philosophy]
+status: "stable"
+tags: ["ai", "cognitive_science", "education", "linguistics", "philosophy"]
 title: SoT - Pre-Linguistic Understanding
-type: SoT
+type: "SoT"
 uid: 
 updated: 
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Understanding is Pre-Linguistic.** It is a cognitive state rooted in **direct sensorimotor experience** and mental simulation.
->
-> Language is not the *source* of understanding; it is a **lossy compression algorithm** used to transmit that understanding to others. Words are the map; pre-linguistic experience is the territory.
-
 ---
 
 ## 2. Core Principles

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-26T17:19:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:27Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [calico, cni, flannel, overlay, topic/technology/containers, topic/technology/kubernetes, type/fact, underlay, weave]
+status: "null"
+tags: ["calico", "cni", "flannel", "overlay", "topic/technology/containers", "topic/technology/kubernetes", "underlay", "weave"]
 title: CNI plugins provide different network models and features
-type: Fact
+type: "Fact"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## Summary

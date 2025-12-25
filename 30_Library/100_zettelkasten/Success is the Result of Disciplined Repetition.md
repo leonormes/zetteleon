@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T12:04:01Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T10:42:02Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - How to Build Discipline]]"
 source_of_truth: []
-status: seedling
-tags: [discipline, habits, repetition, success]
+status: "seedling"
+tags: ["discipline", "repetition", "success", "topic/habits"]
 title: Success is the Result of Disciplined Repetition
-type: concept
+type: "concept"
 uid: 
-updated: 2025-10-31
+updated: 
 ---
 
 Success is not the result of a single event, but the accumulation of relentless, repetitive, disciplined actions over time. What often appears as "luck" or "talent" is, in reality, the visible outcome of thousands of small, consistent choices stacked on top of each other.

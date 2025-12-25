@@ -1,23 +1,23 @@
 ---
 aliases: []
-author: 
-confidence: 
+author: ""
+confidence: ""
 created: 2025-03-25T06:15:16Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:49Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
-source: https://docs.tigera.io/calico/latest/networking/configuring/vxlan-ipip
+source: "https://docs.tigera.io/calico/latest/networking/configuring/vxlan-ipip"
 source_of_truth: []
-status: 
-tags: [calico, networking]
+status: ""
+tags: ["calico", "topic/technology/networking"]
 title: Calico vxlan
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## Overlay Networking | Calico Documentation

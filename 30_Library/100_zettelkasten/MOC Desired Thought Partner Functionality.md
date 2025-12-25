@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-07-25T08:34:51Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:38Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [type/moc]
+status: "null"
+tags: ["ai_integration", "pkm", "prodos"]
 title: MOC Desired Thought Partner Functionality
 type: map
 uid:
 updated:
-version:
+version: "null"
 ---
 
 Body:

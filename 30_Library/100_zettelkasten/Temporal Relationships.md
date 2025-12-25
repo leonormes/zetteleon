@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-05-08T06:44:40Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [linking, topic/pkm/zettelkasten]
+status: "null"
+tags: ["linking", "topic/pkm/zettelkasten"]
 title: Temporal Relationships
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 These involve time-based connections, indicating how data points relate over time, such as trends or sequences.

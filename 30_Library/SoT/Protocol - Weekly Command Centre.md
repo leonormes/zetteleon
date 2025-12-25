@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
-created: 2025-12-20T14:58:43Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T15:01:07Z
-purpose: 
-review_interval: 
+confidence: ""
+created: 2025-12-20T00:00:00Z
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:22+00:00
+purpose: ""
+review_interval: "3 months"
 see_also: []
 source_of_truth: []
-status: 
+status: "stable"
 tags: []
 title: Protocol - Weekly Command Centre
-type: 
+type: "Protocol"
 uid: 
 updated: 
 ---
@@ -61,5 +61,6 @@ updated:
 - [ ] **Wait-For Review:** Check ` @Waiting` context. Bump or mark complete.
 
 ### Phase 4: Hansei (Optimization)
+
 - [ ] **The Friction Audit:** Where did the system fail this week? Define one 1% fix.
 - [ ] **The Ikigai Check:** Did I spend time on Eudaimonia (Values) or Hedonia (Cheap Dopamine)?

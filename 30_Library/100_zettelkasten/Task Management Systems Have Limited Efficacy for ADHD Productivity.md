@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-30T12:00:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source: "[[MOC - ADHD Task Management]]"
 source_of_truth: []
-status: seedling
-tags: [task-management, topic/health/adhd, topic/productivity]
+status: "seedling"
+tags: ["task-management", "topic/health/adhd", "topic/productivity"]
 title: Task Management Systems Have Limited Efficacy for ADHD Productivity
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

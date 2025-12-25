@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-11T08:24:43Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:23Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Maths toolbox
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 You can explain that learning maths skills is like an artist learning to mix colours or a musician learning their scales; the skills aren't the final performance, they are the tools needed to create something amazing.

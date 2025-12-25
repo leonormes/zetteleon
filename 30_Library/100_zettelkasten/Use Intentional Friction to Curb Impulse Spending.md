@@ -1,18 +1,18 @@
 ---
-aliases: [Spending Friction]
-confidence: 
+aliases: ["Spending Friction"]
+confidence: ""
 created: 2025-11-18T14:38:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-18T14:01:07Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [budgeting, finance, habits, psychology]
+status: ""
+tags: ["budgeting", "finance", "topic/habits", "topic/psychology"]
 title: Use Intentional Friction to Curb Impulse Spending
-type: 
+type: ""
 uid: 
 updated: 
 ---

@@ -1,19 +1,19 @@
 ---
-aliases: [Dual needs satisfaction, Structure with flexibility]
-confidence: 
+aliases: ["Dual needs satisfaction", "Structure with flexibility"]
+confidence: ""
 created: 2025-10-30T18:05:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - The Honeyman Method]]"
 source_of_truth: []
-status: seedling
-tags: [autism, neurodivergence, routines, topic/health/adhd]
+status: "seedling"
+tags: ["autism", "neurodivergence", "routines", "topic/health/adhd"]
 title: Combining structure with flexibility satisfies neurodivergent dual needs
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

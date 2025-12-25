@@ -1,20 +1,20 @@
 ---
-aliases: [Neocortex and Pattern Recognition, Pattern-Seeking Brain]
-confidence: 0.9
+aliases: ["Neocortex and Pattern Recognition", "Pattern-Seeking Brain"]
+confidence: "0.9"
 created: 2025-11-01T12:00:02Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:43:59Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To describe the neurobiological basis of the human brain's predisposition for pattern seeking."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Apophenia is the Tendency to Perceive Patterns in Random Data]]", "[[Pattern Recognition is the Cognitive Process of Organizing Sensory Input]]"]
-source_of_truth: ["[[MOC - Pattern - From Sensory Input to Meaning]]"]
-status: seedling
-tags: [cognition, neocortex, neuroscience]
+source_of_truth: []
+status: "seedling"
+tags: ["neocortex", "neuroscience", "topic/cognition"]
 title: The Brain is a Pattern-Seeking Engine
-type: concept
-uid: 2025-11-01T12:00:02Z
-updated: 2025-11-01T12:00:02Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Brain is a Pattern-Seeking Engine

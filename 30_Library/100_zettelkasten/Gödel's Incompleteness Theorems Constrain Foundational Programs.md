@@ -1,21 +1,21 @@
 ---
-aliases: [Gödel's Theorems]
-confidence: 0.9
+aliases: ["G\\u00f6del's Theorems"]
+confidence: "0.9"
 created: 2025-11-01T11:22:13Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:35:54Z
-purpose: "Explain the impact of Gödel's theorems on foundationalist programs in mathematics."
-review_interval: 90
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "Explain the impact of G\\u00f6del's theorems on foundationalist programs in mathematics."
+review_interval: "90"
 see_also: ["[[Deductive Reasoning Underwrites Mathematical Proof]]", "[[Formalism (Mathematics as Symbol Manipulation)]]", "[[Logicism (Mathematics as Extension of Logic)]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md"]
-status: seedling
-tags: [foundations, godel, logic, topic/maths]
+source_of_truth: []
+status: "seedling"
+tags: ["foundations", "godel", "logic", "topic/maths"]
 title: "Gödel's Incompleteness Theorems Constrain Foundational Programs"
-type: concept
-uid: 2025-11-01T11:22:13Z
-updated: 2025-11-01T11:22:13Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Gödel's Incompleteness Theorems (1931) demonstrated fundamental limitations of formal systems, showing that any system strong enough to contain basic arithmetic will have true statements it cannot prove and cannot prove its own consistency.

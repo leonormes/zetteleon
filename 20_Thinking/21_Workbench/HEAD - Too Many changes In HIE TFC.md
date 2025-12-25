@@ -2,10 +2,10 @@
 aliases: []
 AoL: Work
 confidence:
-created: Invalid date
+created: 2025-12-15T10:36:05Z
 epistemic:
 last_reviewed:
-modified: 2025-12-15T14:35:18Z
+modified: 2025-12-25T18:35:29Z
 purpose:
 review_interval:
 see_also: []
@@ -98,6 +98,7 @@ It is difficult to debug without the argocd cli or the frontend for it. I can't 
 ---
 
 ### 🛑 The Compile (Exit Strategy)
+
 *When the thinking stops, extract the value and archive this note.*
 
 - [ ] **The Next Test:** (What is the binary Pass/Fail action?)
@@ -106,6 +107,7 @@ It is difficult to debug without the argocd cli or the frontend for it. I can't 
 ---
 
 ### 🚀 The Tri-State Output (Router)
+
 *Where does this thinking go next? Pick one path.*
 
 > **Path A: Kinetic (Action)**

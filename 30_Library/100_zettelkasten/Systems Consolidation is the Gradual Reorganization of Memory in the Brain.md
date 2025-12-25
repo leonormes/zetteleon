@@ -1,20 +1,20 @@
 ---
-aliases: [Systems Consolidation]
-confidence: 0.9
+aliases: ["Systems Consolidation"]
+confidence: "0.9"
 created: 2025-11-10T16:15:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T14:08:42Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the process of systems consolidation in memory."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Memory Formation Involves Three Stages Encoding Consolidation and Retrieval]]"]
-source_of_truth: ["[[MOC - Understanding vs Learning]]"]
-status: seedling
-tags: [hippocampus, memory, neocortex, neuroscience]
+source_of_truth: []
+status: "seedling"
+tags: ["hippocampus", "memory", "neocortex", "neuroscience"]
 title: Systems Consolidation is the Gradual Reorganization of Memory in the Brain
-type: concept
-uid: 2025-11-10T16:15:00Z
-updated: 2025-11-10T16:15:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Systems Consolidation is the Gradual Reorganization of Memory in the Brain

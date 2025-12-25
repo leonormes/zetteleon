@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-11T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-11T09:24:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "https://gemini.google.com/share/cc85a4639083"
 source_of_truth: []
-status: 
-tags: [1]
+status: ""
+tags: ["1", 1]
 title: Respect, Chores, and Teamwork
-type: 
+type: ""
 uid: 
 updated: 
 ---
@@ -336,7 +336,7 @@ This connects directly to your "Foundations of Our Team" discussion. You can bri
 >
 > In the past, I've said things like 'I think the room is untidy,' and your response has been 'No, it's not.' That makes me feel like my opinion has zero weight, and it's incredibly frustrating.
 >
-> I'm going to try to do a better job of explaining *how I feel* —like 'I feel stressed when the room is messy'—because that's my fact.
+> I'm going to try to do a better job of explaining *how I feel*—like 'I feel stressed when the room is messy'—because that's my fact.
 >
 > My ask for 'respect' is that if I tell you I'm feeling stressed or worried about something, we can treat *my feeling* as a valid 'team problem' that we can look at together, even if you don't feel the same way about the situation."
 
@@ -467,7 +467,7 @@ When you *do* come to a real, mutual agreement, you need a "Team Playbook."
 >
 > I have an idea I'd like to try, and I want to know what you think:
 >
-> When we come up with a new way of doing something—a system for the kids' chores, how we handle the tidying, *anything* —I want us to write it down.
+> When we come up with a new way of doing something—a system for the kids' chores, how we handle the tidying, *anything*—I want us to write it down.
 >
 > It's not a 'contract' to hit each other with. It's our 'Team Playbook'. It's so that *both* of us, when we're tired and stressed and reverting to old habits, can go and look at the 'play' we *both* agreed on when we were calm and connected.
 >
@@ -517,7 +517,7 @@ Here is how you frame it.
 
 (This is the "I feel" statement, but on a much deeper level. You are stating your core, inarguable experience.)
 
-**You:** "This is the 'square one' we always go back to. And we cannot build *anything* —no team, no partnership—if this continues. We are blocked."
+**You:** "This is the 'square one' we always go back to. And we cannot build *anything*—no team, no partnership—if this continues. We are blocked."
 
 (This establishes the stakes. You are not trying to "win"; you are trying to *un-block* the relationship.)
 

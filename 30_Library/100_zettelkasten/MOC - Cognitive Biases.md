@@ -1,20 +1,20 @@
 ---
-aliases: [Cognitive Biases MOC]
-confidence:
+aliases: ["Cognitive Biases MOC"]
+confidence: ""
 created: 2025-12-12T12:05:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-20T09:54:58Z
-purpose: A map of content for cognitive biases, heuristics, and thinking patterns.
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
+purpose: "A map of content for cognitive biases, heuristics, and thinking patterns."
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [bias, cognition, moc, psychology]
+status: "seedling"
+tags: ["bias", "moc", "topic/cognition", "topic/psychology"]
 title: MOC - Cognitive Biases
-type: map
-uid:
-updated:
+type: "map"
+uid: 
+updated: 
 ---
 
 ## Overview

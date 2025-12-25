@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-05T12:43:42Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:40Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:41+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [IAM, networking, zts]
+status: ""
+tags: ["IAM", "topic/technology/networking", "zts"]
 title: The Inherent Weaknesses of Perimeter-Based Trust
-type: documentation
+type: "documentation"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 The traditional security paradigm heavily relied on the concept of a trusted network perimeter. Once inside this boundary, users, devices, and applications were often granted a degree of implicit trust. This "castle and moat" approach, while perhaps adequate for simpler, more static environments, has proven increasingly ineffective in the face of modern threats and the evolution of IT infrastructure. The rise of cloud computing, mobile workforces, and sophisticated cyberattacks has rendered the traditional perimeter porous and easily breached.

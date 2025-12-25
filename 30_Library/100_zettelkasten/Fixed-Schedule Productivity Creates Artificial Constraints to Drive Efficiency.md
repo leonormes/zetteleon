@@ -1,21 +1,21 @@
 ---
-aliases: [Fixed Schedule Productivity]
-confidence: 1
+aliases: ["Fixed Schedule Productivity"]
+confidence: "1"
 created: 2025-11-01T21:06:00Z
-epistemic: method
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:43:14Z
+epistemic: "method"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To explain the fixed-schedule productivity method of timeboxing."
-review_interval: 90
-see_also: ['[[Timeboxing Creates Structure for Action]]']
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Timeboxing Creates Structure for Action.md"]
-status: evergreen
-tags: [method, productivity, scheduling, time-management]
+review_interval: "90"
+see_also: ["[[Timeboxing Creates Structure for Action]]"]
+source_of_truth: []
+status: "evergreen"
+tags: ["method", "scheduling", "time-management", "topic/productivity"]
 title: Fixed-Schedule Productivity Creates Artificial Constraints to Drive Efficiency
-type: concept
-uid: 20251101210600
-updated: 2025-11-01T21:06:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 Fixed-schedule productivity is a strict implementation of timeboxing where every minute of the workday is planned in advance, and a hard stop time is established.

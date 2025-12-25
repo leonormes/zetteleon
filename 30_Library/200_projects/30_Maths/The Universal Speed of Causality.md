@@ -1,25 +1,25 @@
 ---
 aliases: []
 author: ["[[Gemini]]"]
-confidence: 
+confidence: ""
 created: 2025-09-20T06:38:14Z
-description: Created with Gemini
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T11:06:55Z
-published:
-purpose: 
-review_interval: 
+description: "Created with Gemini"
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+published: ""
+purpose: ""
+review_interval: ""
 see_also: []
-source: https://gemini.google.com/share/ebd3e9c98478
+source: "https://gemini.google.com/share/ebd3e9c98478"
 source_of_truth: []
-status: 
-tags: [physics]
+status: ""
+tags: ["physics"]
 title: The Universal Speed of Causality
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 We call a constant the speed of light. But that gives the impression that it is a property of light itself rather than the speed things without mass will travel. What actually is that constant? Where does it come from and how does it effect the state of the universe
@@ -34,7 +34,7 @@ This cosmic speed limit isn't a property of light, but rather a fundamental feat
 
 ## The Origin of the Constant: From Electromagnetism to Relativity
 
-The first inkling of this constant's fundamental nature came from the work of the Scottish physicist **James Clerk Maxwell** in the 1860s. While unifying the theories of electricity and magnetism, he developed a set of equations that described the behaviour of electromagnetic fields.A startling prediction of these equations was the existence of electromagnetic waves that would propagate through a vacuum at a specific speed. This speed, derived from two fundamental constants of nature—the **electric permittivity of free space ()** and the **magnetic permeability of free space ()** —was calculated to be remarkably close to the then-known speed of light.
+The first inkling of this constant's fundamental nature came from the work of the Scottish physicist **James Clerk Maxwell** in the 1860s. While unifying the theories of electricity and magnetism, he developed a set of equations that described the behaviour of electromagnetic fields.A startling prediction of these equations was the existence of electromagnetic waves that would propagate through a vacuum at a specific speed. This speed, derived from two fundamental constants of nature—the **electric permittivity of free space ()** and the **magnetic permeability of free space ()**—was calculated to be remarkably close to the then-known speed of light.
 
 The relationship is expressed as:
 
@@ -63,7 +63,7 @@ Let's break down why "speed" feels so different for a car versus a photon of lig
 
 ## The "Effort" of Speed: The Burden of Mass
 
-For objects like cars, runners, or planets—anything with **mass** —your experience is perfectly correct. Speed is a state that must be achieved through effort. This is due to two key principles:
+For objects like cars, runners, or planets—anything with **mass**—your experience is perfectly correct. Speed is a state that must be achieved through effort. This is due to two key principles:
 
 - **Inertia:** This is an object's inherent resistance to any change in its state of motion. Mass is a measure of this inertia. To get a massive object moving (to accelerate it), you must apply a force to overcome its inertia. More mass means more inertia, which means more force (effort) is needed. `F=ma` is the classic formula here.
 - **Relativistic Mass Increase:** As a massive object gets faster, its effective mass (or "relativistic mass") increases from the perspective of a stationary observer. This means the faster you go, the "heavier" you get, and the more energy you need to pour in for each little bit of extra speed. As you get infinitesimally close to the speed of light, the energy required to go any faster approaches infinity.

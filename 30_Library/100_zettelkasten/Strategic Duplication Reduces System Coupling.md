@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T12:35:00Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T12:35:00Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Explain when duplication benefits system design."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [architecture, coupling]
+status: "seedling"
+tags: ["architecture", "coupling"]
 title: Strategic Duplication Reduces System Coupling
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

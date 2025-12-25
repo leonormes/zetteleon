@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T13:36:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:58Z
+epistemic: "fact"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Clarify the distinctions between socket, connection, and request."
-review_interval: 90
+review_interval: "90"
 see_also: ["Socket is a Software Endpoint for Network Communication.md"]
 source_of_truth: []
-status: seedling
-tags: [http, networking, socket, terminology]
+status: "seedling"
+tags: ["http", "socket", "terminology", "topic/technology/networking"]
 title: Socket vs Connection vs Request Distinctions
-type: concept
-uid: 2025-10-31T13:36:00Z
-updated: 2025-10-31T13:36:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Socket Vs Connection Vs Request Distinctions

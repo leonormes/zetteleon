@@ -1,21 +1,21 @@
 ---
-aliases: [Number Theory]
-confidence: 0.9
+aliases: ["Number Theory"]
+confidence: "0.9"
 created: 2025-11-01T11:22:13Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:35:54Z
+epistemic: "fact"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "Define number theory as the study of properties of integers."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Arithmetic (Definition)]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md"]
-status: seedling
-tags: [fields, topic/maths]
+source_of_truth: []
+status: "seedling"
+tags: ["fields", "topic/maths"]
 title: Number Theory (Definition)
-type: definition
-uid: 2025-11-01T11:22:13Z
-updated: 2025-11-01T11:22:13Z
-version: 1
+type: "definition"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Definition:** Number theory is the branch of mathematics devoted to studying the deeper properties and patterns within the natural numbers and integers, particularly focusing on questions about divisibility, prime numbers, and solutions to equations in integers.

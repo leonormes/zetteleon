@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-26T11:11:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:39Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [time-management, tools, topic/health/adhd, topic/productivity]
+status: "null"
+tags: ["time-management", "tools", "topic/health/adhd", "topic/productivity"]
 title: Visual Timers for ADHD Time Blindness
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## Visual Timers for ADHD Time Blindness

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T09:05:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [collaboration, habit, leadership, principles]
+status: ""
+tags: ["collaboration", "leadership", "principles", "topic/habits"]
 title: Habit 4 - Think Win-Win
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Habit 4: Think Win-Win** is the first habit of the Public Victory and the foundation for effective interpersonal leadership. It is a frame of mind and heart that constantly seeks mutual benefit in all human interactions. Win-Win means that agreements or solutions are mutually beneficial and satisfying.

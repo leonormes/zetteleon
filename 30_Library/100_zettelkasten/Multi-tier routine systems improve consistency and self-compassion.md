@@ -1,19 +1,19 @@
 ---
-aliases: [Honeyman Method outcomes, Multi-tier benefits]
-confidence: 
+aliases: ["Honeyman Method outcomes", "Multi-tier benefits"]
+confidence: "null"
 created: 2025-10-30T18:07:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source: "[[MOC - The Honeyman Method]]"
 source_of_truth: []
-status: seedling
-tags: [autism, outcomes, routines, self-compassion, topic/health/adhd]
+status: "seedling"
+tags: ["autism", "outcomes", "routines", "self-compassion", "topic/health/adhd"]
 title: Multi-tier routine systems improve consistency and self-compassion
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

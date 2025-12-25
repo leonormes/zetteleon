@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T16:27:00Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - Why Autistics and ADHDers NEED Routines]]"
 source_of_truth: []
-status: seedling
-tags: [adaptation, contingency-planning, flexibility]
+status: "seedling"
+tags: ["adaptation", "contingency-planning", "flexibility"]
 title: Contingency planning manages routine disruptions
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

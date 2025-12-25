@@ -1,19 +1,18 @@
 ---
-aliases: [Dystopian Theory, Fiction as Sociology]
-confidence: 5/5
-created: 2025-12-14T17:30:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:09Z
-purpose: Analysis of dystopian fiction as sociological "Operating Systems" for control, focusing on Orwell vs. Huxley.
-related-soTs: ["[[SoT - Social Stratification]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
-review_interval: 
-see_also: []
+aliases: ["Dystopian Theory", "Fiction as Sociology"]
+confidence: "5/5"
+created: 2025-12-14T00:00:00Z
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:22+00:00
+purpose: "Analysis of dystopian fiction as sociological \\\"Operating Systems\\\" for control, focusing on Orwell vs. Huxley."
+review_interval: "3 months"
+see_also: ["[[SoT - Social Stratification]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
 source_of_truth: []
-status: stable
-tags: [dystopia, literature, philosophy, sociology]
+status: "stable"
+tags: ["dystopia", "literature", "philosophy", "sociology"]
 title: SoT - Dystopian Frameworks and Social Control
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---
@@ -28,7 +27,7 @@ updated:
 ### A. 1984 vs. Brave New World (Fear vs. Desire)
 
 | Feature | **Orwellian (1984)** | **Huxleian (Brave New World)** |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Control** | Pain & Punishment (Boot) | Pleasure & Distraction (Soma) |
 | **Fear** | Information withheld | Information overload (Noise) |
 | **Status** | **North Korea** | **Modern West** |

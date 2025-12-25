@@ -1,30 +1,20 @@
 ---
-aliases: [K8s Secrets, Kubernetes Security, Secret Management]
-confidence: 5/5
-created: 2025-12-16T14:05:00Z
-epistemic: technical
-last_reviewed: 2025-12-16
-modified: 2025-12-16T13:53:11Z
-purpose: To define the technical implementation, security risks, and management patterns for Kubernetes Secrets.
-related-soTs: ["[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - Kubernetes Cluster State Architecture]]"]
-review_interval: 1 year
-see_also: ["[[Kubernetes Secrets in Helm Chart Deployment]]", "[[Vault to Kubernetes Secrets Management Guide]]"]
-source_of_truth: true
-status: stable
-tags: [devops, kubernetes, secrets, security, vault]
+aliases: ["K8s Secrets", "Kubernetes Security", "Secret Management"]
+confidence: "5/5"
+created: 2025-12-16T00:00:00Z
+epistemic: "technical"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define the technical implementation, security risks, and management patterns for Kubernetes Secrets."
+review_interval: "1 year"
+see_also: ["[[Kubernetes Secrets in Helm Chart Deployment]]", "[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - Kubernetes Cluster State Architecture]]"]
+source_of_truth: []
+status: "stable"
+tags: ["devops", "kubernetes", "secrets", "security", "vault"]
 title: SoT - Kubernetes Secrets Management
-type: SoT
-uid: 2025-12-16-K8S-SECRETS
+type: "SoT"
+uid: 
 updated: 
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> A **Kubernetes Secret** is a standard API object (`v1/Secret`) designed to decouple sensitive data from Pod configuration.
->
-> Crucially, **Base64 Encoding is NOT Encryption.** A standard Secret is essentially a ConfigMap with obfuscation. Security relies entirely on **RBAC** (Who can read it?) and **Encryption at Rest** (How it is stored in Etcd).
-
 ---
 
 ## 2. Core Data Structure
@@ -74,7 +64,7 @@ To secure this, the API Server must be configured with an **EncryptionConfigurat
 Since you cannot commit secrets to Git:
 
 | Pattern | Mechanism | Pros | Cons |
-| :--- | :--- | :--- | :--- |
+|:--- |:--- |:--- |:--- |
 | **Sealed Secrets** | Asymmetric Encryption. Commit encrypted CRD (`SealedSecret`) to Git. Controller decrypts. | Simple, Git-native. | Key rotation is hard. |
 | **External Secrets** | Controller polls external Vault (AWS/HashiCorp) and syncs to K8s Secret. | Centralized, secure. | High complexity. |
 | **Vault Secrets Operator (VSO)** | **FITFILE Standard.** Connects directly to HashiCorp Vault. | Enterprise-grade, Dynamic Secrets. | Heavy dependencies. |

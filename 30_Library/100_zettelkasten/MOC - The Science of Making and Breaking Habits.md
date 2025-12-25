@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-30T12:05:10Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:50:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [habits, map, neuroscience, topic/productivity]
+status: "null"
+tags: ["map", "neuroscience", "topic/habits", "topic/productivity"]
 title: MOC - The Science of Making and Breaking Habits
-type: map
+type: "map"
 uid: 
 updated: 
 ---

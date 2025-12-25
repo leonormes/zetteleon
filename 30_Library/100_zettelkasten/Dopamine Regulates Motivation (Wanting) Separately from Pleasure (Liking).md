@@ -1,20 +1,20 @@
 ---
-aliases: [Dopamine Wanting vs Liking]
-confidence: 0.9
+aliases: ["Dopamine Wanting vs Liking"]
+confidence: "0.9"
 created: 2025-11-10T17:05:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T15:41:37Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To distinguish the roles of dopamine in motivation and pleasure."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - The Science and Philosophy of Taking Action]]"]
-status: seedling
-tags: [dopamine, motivation, neuroscience, reward]
+source_of_truth: []
+status: "seedling"
+tags: ["dopamine", "motivation", "neuroscience", "reward"]
 title: Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)
-type: concept
-uid: 2025-11-10T17:05:00Z
-updated: 2025-11-10T17:05:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)

@@ -1,20 +1,20 @@
 ---
-aliases: [Neuroplasticity]
-confidence: 0.9
+aliases: ["Neuroplasticity"]
+confidence: "0.9"
 created: 2025-11-10T16:16:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T14:08:42Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To define neuroplasticity as the basis of learning."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Long-Term Potentiation (LTP) is a Key Cellular Mechanism for Learning]]"]
-source_of_truth: ["[[MOC - Understanding vs Learning]]"]
-status: seedling
-tags: [brain, learning, neuroplasticity, neuroscience]
+source_of_truth: []
+status: "seedling"
+tags: ["brain", "learning", "neuroplasticity", "neuroscience"]
 title: "Neuroplasticity is the Brain's Ability to Change in Response to Experience"
-type: concept
-uid: 2025-11-10T16:16:00Z
-updated: 2025-11-10T16:16:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Neuroplasticity is the Brain's Ability to Change in Response to Experience

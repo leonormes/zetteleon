@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-10T12:05:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T10:00:47Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To explain the origin of personal identity."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Every Action is a Vote for a Desired Identity]]", "[[Identity is Repeated Beingness]]"]
-source_of_truth: ["[[MOC - The Relationship Between Habits and Identity]]"]
-status: seedling
-tags: [behavior-change, habits, identity]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "identity", "topic/habits"]
 title: Identity Emerges From Habits
-type: concept
-uid: 2025-11-10T12:05:00Z
-updated: 2025-11-10T12:05:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Identity Emerges From Habits

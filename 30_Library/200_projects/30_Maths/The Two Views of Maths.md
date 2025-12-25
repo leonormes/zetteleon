@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-18T10:02:14Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:22Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: The Two Views of Maths
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 You've hit on the fundamental disconnect perfectly. Your view of mathematics as the **science of patterns and structure** is precisely how modern mathematicians see their field. It's about discovering the hidden, abstract framework behind everything from the distribution of prime numbers to the shape of the universe.

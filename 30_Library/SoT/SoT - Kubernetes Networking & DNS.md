@@ -1,124 +1,102 @@
 ---
-aliases: [Cluster Networking, K8s Networking, Pod Networking]
-confidence: 5/5
-created: 2025-12-16T14:10:00Z
-epistemic: technical
-last_reviewed: 2025-12-18
-modified: 2025-12-19T10:12:36Z
-purpose: To define the fundamental networking model of Kubernetes, including Pod-to-Pod communication, Services, DNS resolution, and Network Policies.
-related-soTs: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - Kubernetes Cluster State Architecture]]"]
-review_interval: 1 year
-see_also: ["[[Kubernetes Network Configuration Kubernetes Configures Each Pod with]]", "[[MOC - Container Networking Model]]"]
-source_of_truth: true
-status: stable
-tags: [cni, dns, kubernetes, networking, service_discovery]
+aliases: ["Cluster Networking", "K8s Networking", "Pod Networking"]
+confidence: "5/5"
+created: 2025-12-16T13:52:08Z
+epistemic: "technical"
+last_reviewed: "2025-12-23"
+modified: 2025-12-25T18:34:55Z
+purpose: "To define the fundamental networking model of Kubernetes, including Pod-to-Pod communication, Services, DNS resolution, and the request flow from external clients."
+review_interval: "1 year"
+see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data-Centric Theory of Networking]]"]
+source_of_truth: []
+status: "stable"
+tags: ["cni", "dns", "kubernetes", "networking", "service_discovery"]
 title: SoT - Kubernetes Networking & DNS
-type: SoT
-uid: 2025-12-16-K8S-NET
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
-## 1. The Core Model: Flat Network
+## 1. The Core Model: "Flat Network"
 
-> [!definition] The IP-per-Pod Rule
-> Kubernetes mandates a **Flat Network** model where:
->
-> 1. Every Pod gets its own IP address (from the Pod CIDR range).
-> 2. Every Pod can communicate with every other Pod across Nodes without NAT (Network Address Translation).
-> 3. The IP that a Pod sees itself as is the same IP that others see it as.
+Kubernetes mandates a **Flat Network** model where:
 
-This model allows Pods to be treated like VMs or physical hosts. It decouples networking from the underlying Node infrastructure.
+- All Pods can communicate with all other Pods without NAT.
+- The IP that a Pod sees itself as is the same IP that others see it as.
 
 ### The Implementation: CNI (Container Network Interface)
 
-The actual wiring is pluggable. **CNI Plugins** (like **Calico**, **Flannel**, **Cilium**) implement this flat network using different strategies:
+The wiring is pluggable. **CNI Plugins** (like **Calico**, **Cilium**, **Flannel**) implement this model:
 
-- **Overlay Networks (VXLAN/IP-in-IP):** Encapsulate packets to span across Nodes (e.g., Flannel).
-- **Direct Routing (BGP):** Route packets natively without encapsulation (e.g., Calico).
-
-*For the deep dive on Linux primitives (Namespaces, Veth pairs), see [[MOC - Container Networking Model]].*
+- **Overlay Networks:** Encapsulate packets to span across Nodes (e.g., VXLAN).
+- **Direct Routing:** Route packets natively without encapsulation (e.g., BGP).
 
 ---
 
-## 2. Service Discovery (DNS & Services)
+## 2. The Complete Request Flow: Public User to Private Pod
 
-Since Pods are ephemeral (IPs change), we need a stable address mechanism.
+Cloud-native ingress uses multiple layers of abstraction to route a single FQDN to a container.
+
+1. **Public DNS Resolution:** Browser resolves `www.example.com` to the public IP of a cloud **Application Load Balancer (ALB)**.
+2. **Edge Routing (ALB):** ALB terminates TLS, inspects the **Host Header**, and forwards traffic to the cluster nodes on a **NodePort**.
+3. **Ingress Routing (Ingress Controller):** An in-cluster proxy (e.g., NGINX) receives the traffic. It also inspects the Host header and consults an **Ingress Resource** to find the target **Kubernetes Service**.
+4. **Internal Service Discovery:** The Ingress controller queries **CoreDNS** for the service FQDN (e.g., `webapp.prod.svc.cluster.local`).
+5. **Cluster DNS Resolution:** CoreDNS returns the **ClusterIP**.
+6. **Service-to-Pod Routing:** `kube-proxy` load-balances the request from the ClusterIP to the private IP of a healthy **Backend Pod**.
+
+---
+
+## 3. Service Discovery (DNS & Services)
 
 ### The Service Abstraction
 
-A **Service** provides a stable **ClusterIP** and DNS name. It acts as an internal, Layer 4 Load Balancer.
+A **Service** provides a stable ClusterIP and DNS name, acting as an internal Layer 4 Load Balancer.
 
-- **ClusterIP:** Exposes the Service on an internal IP. Reachable only within the cluster.
-- **NodePort:** Exposes the Service on a static port on each Node's IP.
-- **LoadBalancer:** Provisions an external cloud load balancer (AWS ELB, GCP LB) to expose the Service.
+- **ClusterIP:** Internal-only IP.
+- **NodePort:** Exposes Service on a static port on each Node IP.
+- **LoadBalancer:** Provisions an external cloud load balancer (e.g., AWS ELB).
 
 ### CoreDNS (The Cluster Phonebook)
 
-- **Role:** The internal DNS server.
-- **Resolution:** Resolves `my-service.namespace.svc.cluster.local` to the Service's stable ClusterIP.
-- **Flow:** Pod -> CoreDNS -> Service IP -> iptables/IPVS -> Target Pod IP.
-
----
-
-## 3. External Traffic & Ingress
-
-How traffic enters the cluster from the outside world.
-
-| Feature | Service (Layer 4) | Ingress (Layer 7) |
-| :--- | :--- | :--- |
-| **Protocol** | TCP/UDP | HTTP/HTTPS |
-| **Routing** | IP/Port based | Host/Path based (`api.com/v1`) |
-| **Role** | Internal Plumbing / Simple External | The "Front Door" / Router |
-| **Implementation** | `kube-proxy` (iptables) | **Ingress Controller** (Nginx, Traefik) |
-
-- **Ingress Controller:** A specialized Pod (usually exposed via a LoadBalancer Service) that routes HTTP traffic to internal Services based on rules defined in the `Ingress` resource.
+CoreDNS resolves service names to ClusterIPs within the cluster and can be configured with **Conditional Forwarding** for cross-cloud name resolution (e.g., resolving AWS Route53 names from an Azure AKS pod).
 
 ---
 
 ## 4. Network Security (Policies)
 
-By default, Kubernetes networking is **Open** (All-Allow). Any Pod can talk to any other Pod.
+By default, Kubernetes networking is **Open**.
 
-### Network Policies
-
-To restrict traffic, we use **Network Policies**. These act as a firewall for Pods.
-
-- **Selector-Based:** Rules apply to Pods matching specific Labels (e.g., `app: database`).
-- **Default Deny:** A best practice is to deny all traffic and then explicitly allow required flows (Zero Trust).
-- **Requirement:** The underlying CNI plugin must support Network Policies (e.g., Calico supports them, Flannel does not).
+- **Network Policies:** Act as a firewall for Pods, using **Selector-Based** rules.
+- **Zero Trust:** A best practice is to "Default Deny" all traffic and explicitly allow only required flows.
 
 ---
 
-## 5. Cross-Cloud DNS (Hybrid Connectivity)
+## 5. Private Cluster Ingress Patterns (EKS Specifics)
 
-In complex setups (AWS EKS <-> Azure AKS), services need to resolve names across cloud boundaries.
+In private clusters where worker nodes lack public IPs, ingress requires explicit architectural choices for external connectivity (e.g., VPN, Direct Connect, or PrivateLink).
 
-### The Resolution Chain
+### Pattern A: Internal LoadBalancer (NLB/ALB)
 
-1. **Pod:** Queries CoreDNS.
-2. **CoreDNS:** Configured with **Conditional Forwarding**. "If name ends in `.aws.internal`, forward to Azure VPN Gateway."
-3. **VPN:** Tunnel carries the query to AWS.
-4. **Route53:** AWS Resolver answers with the private IP.
-5. **Return:** Answer travels back -> CoreDNS -> Pod.
+- **Mechanism:** A Service of type `LoadBalancer` with annotations for an *internal* AWS LB (`service.beta.kubernetes.io/aws-load-balancer-internal: "true"`).
+- **Use Case:** Best for private connectivity via VPC Peering or VPN.
+- **Protocol:** NLB for Layer 4 (TCP/UDP), ALB for Layer 7 (HTTP/S).
 
-*See [[SoT - Cloud Networking Core Components]] for the underlying infrastructure.*
+### Pattern B: AWS Load Balancer Controller (Ingress)
 
----
+- **Mechanism:** Uses an `Ingress` resource managed by the AWS LB Controller to provision an ALB.
+- **Key Feature:** Can be configured as `scheme: internal` to keep traffic within the VPC.
+- **Optimization:** Supports "IP Mode" targets (sending traffic directly to Pod IPs) or "Instance Mode" (via NodePorts).
 
-## 6. IPv4/IPv6 Dual Stack
+### Pattern C: NodePort + Manual Gateway
 
-Kubernetes supports assigning both IPv4 and IPv6 addresses to Pods and Services.
-
-- **Usage:** Enables incremental migration and compliance with IPv6 mandates.
-- **Config:** Requires `ipFamilies: [ipv4, ipv6]` in Pod/Service specs and a CNI that supports dual-stack.
+- **Mechanism:** Service type `NodePort` combined with a manually provisioned gateway or proxy.
+- **Source IP:** Use `externalTrafficPolicy: Local` to preserve client source IP, though this can lead to traffic imbalance across nodes.
 
 ---
 
-## 7. Troubleshooting Heuristics
+## 6. Troubleshooting Heuristics
 
-When networking fails, check layers bottom-up:
-
-1. **Pod-to-Pod:** Are Pods running? Is the CNI healthy? (Check `ip addr`, `ping` other Pod IPs).
-2. **Service Discovery:** Is CoreDNS running? Can you resolve the Service name? (`nslookup my-service`).
-3. **Service Connectivity:** Is `kube-proxy` running? Are endpoints populated? (`kubectl get endpoints`).
-4. **Network Policy:** Is a policy silently dropping traffic?
+1. **Pod-to-Pod:** Is the CNI healthy? (`ping` Pod IPs).
+2. **Service Discovery:** Can you resolve the name? (`nslookup my-service`).
+3. **Connectivity:** Is `kube-proxy` running? Are endpoints populated? (`kubectl get endpoints`).
+4. **Policy:** Is a Network Policy silently dropping packets?

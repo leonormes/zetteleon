@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:04:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [authenticity, exclusion, inclusion, prejudice, social-dynamics]
+status: ""
+tags: ["authenticity", "exclusion", "inclusion", "prejudice", "social-dynamics"]
 title: The Social Dynamics of Authenticity Can Create New In-Groups and Out-Groups
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The rise of "authenticity" as a social value, particularly among historically marginalized groups, can be a positive force for greater inclusivity. However, this pursuit of authenticity can sometimes inadvertently lead to new forms of exclusion and prejudice.

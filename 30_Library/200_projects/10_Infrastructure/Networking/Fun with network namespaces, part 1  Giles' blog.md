@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers, networking]
+status: ""
+tags: ["containers", "topic/technology/networking"]
 title: "Fun with network namespaces, part 1  Giles' blog"
-type: documentation
+type: "documentation"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## Creating a Network Namespace and Looking inside
@@ -460,7 +460,7 @@ Hello from the other Flask!
 $
 ```
 
-And we're done :-) We have two separate servers on the same machine, both of which are bound to port `8080` inside their own network namespace, with routing set up so they can connect out to the external network, and port-forwarding so that they can be accessed from outside.
+And we're done:-) We have two separate servers on the same machine, both of which are bound to port `8080` inside their own network namespace, with routing set up so they can connect out to the external network, and port-forwarding so that they can be accessed from outside.
 
 ## Summing up
 

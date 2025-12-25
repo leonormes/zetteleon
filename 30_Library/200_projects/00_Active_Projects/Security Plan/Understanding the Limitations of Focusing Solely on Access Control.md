@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-18T12:57:55Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Understanding the Limitations of Focusing Solely on Access Control
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 It's understandable that you're concerned about your team's limited view of data security. While user access and authorization are crucial, they represent only one piece of a much larger puzzle, especially in distributed systems. It sounds like your team has put effort into a specific area, which is commendable, but now the goal is to expand their understanding. Here's a breakdown of how you can nudge them towards thinking more broadly and fundamentally about data security:

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-07T10:32:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [diagnosis, neurodivergent, project/family/bessie, topic/health/adhd]
+status: ""
+tags: ["diagnosis", "neurodivergent", "project/family/bessie", "topic/health/adhd"]
 title: Bessie ADHD Diagnosis and Characteristics
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Diagnosis Date:** January 2024 (confirmed)

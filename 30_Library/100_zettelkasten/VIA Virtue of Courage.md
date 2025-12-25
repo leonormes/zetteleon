@@ -1,21 +1,21 @@
 ---
-aliases: [Virtue of Courage]
-confidence: 
+aliases: ["Virtue of Courage"]
+confidence: ""
 created: 2025-07-16T17:30:02Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-29T19:30:13Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [character, courage, via-strengths, virtue]
+status: ""
+tags: ["character", "courage", "via-strengths", "virtue"]
 title: VIA Virtue of Courage
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The virtue of Courage, as defined by the [[VIA Character Strengths]] framework, involves emotional strengths that enable the exercise of will to accomplish goals in the face of opposition, whether external or internal.

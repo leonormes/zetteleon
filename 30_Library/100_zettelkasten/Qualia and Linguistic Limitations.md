@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-08-31T16:06:51Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:39Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [consciousness, language-limitations, philosophy-of-mind, qualia]
+status: ""
+tags: ["consciousness", "language-limitations", "philosophy-of-mind", "qualia"]
 title: Qualia and Linguistic Limitations
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: ""
 ---
 
 Qualia—the subjective, qualitative aspects of our experiences—highlight a fundamental limitation of language. The raw "feel" of experiences like the redness of a sunset or the bitterness of coffee seems to resist complete linguistic capture.

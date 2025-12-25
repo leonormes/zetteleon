@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.8
+confidence: "0.8"
 created: 2025-11-10T15:21:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T13:33:51Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To explain the paradoxical benefit of structured actions."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Atomic Actions and Next Actions Framework]]"]
-status: seedling
-tags: [action, freedom, paradox, productivity, structure]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "freedom", "paradox", "structure", "topic/productivity"]
 title: The Rigid Structure of Atomic Actions Paradoxically Creates Freedom
-type: concept
-uid: 2025-11-10T15:21:00Z
-updated: 2025-11-10T15:21:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Rigid Structure of Atomic Actions Paradoxically Creates Freedom

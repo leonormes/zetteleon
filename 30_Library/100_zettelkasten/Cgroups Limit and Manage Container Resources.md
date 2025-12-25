@@ -1,0 +1,43 @@
+---
+aliases: ["cgroups", "Control Groups"]
+confidence: "5/5"
+created: 2025-12-24T12:00:00Z
+epistemic: "technical"
+last_reviewed: 2025-12-24
+modified: 2025-12-25T18:35:21Z
+purpose: "To explain the mechanism and function of cgroups in Linux."
+review_interval: "1 year"
+see_also: ["[[Cgroups v2 Unified Hierarchy]]"]
+source_of_truth: ["[[SoT - Linux Container Primitives]]"]
+status: "stable"
+tags: ["containers", "kernel", "linux", "resource-management"]
+title: Cgroups Limit and Manage Container Resources
+type: "concept"
+uid: 
+updated: 
+---
+
+## Control Groups (Cgroups)
+
+**Cgroups** are a Linux kernel feature that provides a mechanism for aggregating sets of processes into hierarchical groups with specialised behaviour. They act as the "resource containers" for modern virtualisation.
+
+### 🧩 Core Functionalities
+
+- **Resource Limiting:** Sets hard/soft limits on memory, CPU, and I/O.
+- **Prioritisation:** Assigns relative weights (shares) so critical processes get priority during contention.
+- **Accounting:** Tracks usage metrics for billing or capacity planning.
+- **Control:** Allows suspending (freezing) or resuming groups of processes.
+
+### 📁 Implementation: Cgroupfs
+
+Cgroups are managed via a pseudo-filesystem (usually at `/sys/fs/cgroup`).
+
+- **Directories:** Represent individual cgroups.
+- **Files:** Act as the interface for controllers (e.g., `cpu.max`, `memory.limit_in_bytes`).
+- **PIDs:** Processes are added by writing their PID to `cgroup.procs`.
+
+### 🚀 Usage in Containerisation
+
+- **Docker:** Maps the `--cpus` and `--memory` flags directly to cgroup settings.
+- **Kubernetes:** Uses cgroups to enforce **Resource Quotas** and manage **Burstable vs. Guaranteed** pods (Noisy Neighbour prevention).
+- **Links**: [[What is a PID namespace]], [[Cgroups v2 Unified Hierarchy]]

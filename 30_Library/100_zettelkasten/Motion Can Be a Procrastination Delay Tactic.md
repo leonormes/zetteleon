@@ -1,21 +1,21 @@
 ---
-aliases: [Motion as Procrastination, Planning as Avoidance]
-confidence: 1
+aliases: ["Motion as Procrastination", "Planning as Avoidance"]
+confidence: "1"
 created: 2025-11-01T20:22:24Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-12-07T18:13:50Z
-purpose: Explain how motion can be misused as a form of procrastination that avoids actual work.
-review_interval: 90
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "Explain how motion can be misused as a form of procrastination that avoids actual work."
+review_interval: "90"
 see_also: ["[[Motion Defined as Preparatory Activity Without Direct Outcomes]]", "[[Perfectionism]]", "[[Procrastination Triggers]]"]
-source_of_truth: [/Volumes/DAL/Zettelkasten/LLMeon/200_projects/LLMPKM/motion_vs_action.md]
-status: evergreen
-tags: [avoidance, procrastination, productivity, psychology]
+source_of_truth: []
+status: "evergreen"
+tags: ["avoidance", "procrastination", "topic/productivity", "topic/psychology"]
 title: Motion Can Be a Procrastination Delay Tactic
-type: map
-uid: 2025-11-01T20:22:24Z
-updated: 2025-11-01T20:45:00Z
-version: 2
+type: "map"
+uid: 
+updated: 
+version: "2"
 ---
 
 **Summary:** Motion, or preparatory activity, is often used as a procrastination tactic because it allows individuals to feel like they're making progress without facing the risks inherent in action. While some motion is necessary, it becomes a problem when it perpetually delays meaningful work.

@@ -1,19 +1,19 @@
 ---
-aliases: [ADHD Lab, ADHD Strategy Experiments, Protocol Testing]
-confidence: 5/5
+aliases: ["ADHD Lab", "ADHD Strategy Experiments", "Protocol Testing"]
+confidence: "5/5"
 created: 2025-12-16T12:00:00Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-16T11:57:01Z
-purpose: To serve as the "Laboratory" for testing, validating, or rejecting ADHD productivity strategies. This moves ideas from "Theory" to "Verified System."
-review_interval: 
+epistemic: "experimental"
+last_reviewed: "2025-12-16T00:00:00.000Z"
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: active
-tags: [adhd, experiments, moc, productivity, protocols]
+status: "active"
+tags: ["experiments", "hypothesis", "moc", "protocols", "topic/health/adhd", "topic/productivity"]
 title: MOC - ADHD Experiments & Protocols
-type: map
-uid: 2025-12-16-ADHD-LAB
+type: "map"
+uid: 
 updated: 
 ---
 

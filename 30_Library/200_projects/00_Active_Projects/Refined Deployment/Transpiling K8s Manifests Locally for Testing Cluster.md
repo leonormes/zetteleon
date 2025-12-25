@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-09-04T08:34:27Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:14Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:31+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/kubernetes, troubleshooting]
+status: "null"
+tags: ["topic/technology/kubernetes", "troubleshooting"]
 title: Transpiling K8s Manifests Locally for Testing Cluster
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Yes, there are several ways to render all Kubernetes manifests locally. Based on your codebase analysis, here's a comprehensive approach to generate a golden image of your testing cluster configuration:

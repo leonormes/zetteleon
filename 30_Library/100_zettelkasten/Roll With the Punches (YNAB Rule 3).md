@@ -1,18 +1,18 @@
 ---
-aliases: [Budget Adaptation, Flexible Budgeting]
-confidence: 
+aliases: ["Budget Adaptation", "Flexible Budgeting"]
+confidence: ""
 created: 2025-11-18T14:34:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-18T14:01:07Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [budgeting, finance, flexibility, ynab]
+status: ""
+tags: ["budgeting", "finance", "flexibility", "ynab"]
 title: Roll With the Punches (YNAB Rule 3)
-type: 
+type: ""
 uid: 
 updated: 
 ---

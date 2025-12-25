@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T10:02:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [feedback_loop, topic/cognition, topic/learning, topic/psychology]
+status: "null"
+tags: ["feedback_loop", "topic/cognition", "topic/learning", "topic/psychology"]
 title: Prediction Error Breaks Maladaptive Feedback Loops
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The primary mechanism that prevents [[The Cognitive-Emotional Feedback Loop]] from constantly causing problems is **reality testing** through **prediction error**.

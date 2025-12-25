@@ -1,20 +1,20 @@
 ---
-aliases: [Archivist vs Writer Mindset, Storage vs Discovery]
-confidence: 0.9
+aliases: ["Archivist vs Writer Mindset", "Storage vs Discovery"]
+confidence: "0.9"
 created: 2025-10-30T15:33:36Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-30T15:36:29Z
+epistemic: "principle"
+last_reviewed: "2025-10-30T00:00:00.000Z"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "Contrasts two fundamentally different approaches to organizing knowledge"
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [mindset, organization, topic/pkm, topic/pkm/zettelkasten]
+status: "seedling"
+tags: ["mindset", "organization", "topic/pkm", "topic/pkm/zettelkasten"]
 title: Writer Thinking vs Archivist Thinking
-type: concept
-uid: 2025-10-30T15:33:36Z
-updated: 2025-10-30T15:33:36Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Writer Thinking Vs Archivist Thinking

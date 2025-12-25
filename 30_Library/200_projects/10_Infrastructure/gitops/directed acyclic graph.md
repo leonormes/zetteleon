@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-21T04:21:01Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:50Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [git]
+status: ""
+tags: ["git"]
 title: directed acyclic graph
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 No, the data in Git is not stored as a linked list. It's stored as a directed acyclic graph (DAG).

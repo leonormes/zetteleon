@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-10T08:34:04Z
-epistemic: 
-id: 20251008_Deep_Agents_for_Long_Horizon_Planning
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "20251008_Deep_Agents_for_Long_Horizon_Planning"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [LangGraph, Planning, topic/technology/AI, topic/technology/AI/agents]
+status: ""
+tags: ["LangGraph", "Planning", "topic/technology/AI", "topic/technology/AI/agents"]
 title: Deep Agents for Long Horizon Planning
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Deep Agents** is a framework built on `LangGraph` for creating agents capable of long-horizon planning and complex problem-solving. These agents use a loop to reason about a task, take actions, and reflect on the results.

@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-31T09:20:29Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:41Z
-purpose: Explain how confirmation bias selectively filters social cues to reinforce existing beliefs about others.
-review_interval: 
+epistemic: "fact"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [topic/cognition/bias, topic/social-cognition, topic/social-perception]
+status: "seedling"
+tags: ["topic/cognition/bias", "topic/social-cognition", "topic/social-perception"]
 title: Confirmation Bias Distorts Social Perception
-type: concept
-uid: sp-confirmation-bias-social
-updated: 2025-10-31T09:20:29Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Confirmation Bias Distorts Social Perception

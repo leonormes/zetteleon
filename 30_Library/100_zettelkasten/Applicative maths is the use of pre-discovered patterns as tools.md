@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-07-21T13:34:38Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [concept/applicative-maths, idea/maths-education, status/evergreen]
+status: "null"
+tags: ["concept/applicative-maths", "idea/maths-education", "status/evergreen"]
 title: Applicative maths is the use of pre-discovered patterns as tools
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Source: [[The Two Views of Maths]]

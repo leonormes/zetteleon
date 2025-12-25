@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-05T09:58:39Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:41+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [IAM]
+status: ""
+tags: ["IAM"]
 title: Addressing Excessive Privileged Role Assignments in Azure Entra ID
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## Statement of Intent and Plan: Addressing Excessive Privileged Role Assignments in Azure Entra ID

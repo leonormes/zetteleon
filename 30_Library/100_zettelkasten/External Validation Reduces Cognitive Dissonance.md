@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-23T20:45:19Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [social, topic/cognition/bias, topic/psychology]
+status: ""
+tags: ["social", "topic/cognition/bias", "topic/psychology"]
 title: External Validation Reduces Cognitive Dissonance
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 External validation—having one's thoughts or beliefs confirmed by others—is a powerful tool for reducing [[Cognitive Dissonance]]. This is part of [[Why External Validation is So Powerful]].

@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-11T04:37:15Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-11T16:42:49Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [1]
+status: ""
+tags: ["1", 1]
 title: The Most Fundamental Issue & Initial Conversation Strategy
-type: 
+type: ""
 uid: 
 updated: 
 ---

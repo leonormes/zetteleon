@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:16:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [pattern-recognition, topic/cognition, topic/technology/AI]
+status: "null"
+tags: ["pattern-recognition", "topic/cognition", "topic/technology/AI"]
 title: LLMs mimic human conversational patterns
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 LLM responses often feel validating because they successfully mimic the patterns of human understanding we have learnt to expect throughout our lives.

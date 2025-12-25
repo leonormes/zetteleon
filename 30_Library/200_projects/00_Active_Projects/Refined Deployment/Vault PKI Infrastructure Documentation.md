@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-02T12:53:56Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:13Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [documentation, infrastructure, security]
+status: ""
+tags: ["documentation", "infrastructure", "security"]
 title: Vault PKI Infrastructure Documentation
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Overview

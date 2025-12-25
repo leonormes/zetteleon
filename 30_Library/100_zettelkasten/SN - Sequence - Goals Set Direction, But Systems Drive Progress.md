@@ -1,23 +1,23 @@
 ---
-aliases: [Goals vs Systems Map]
-confidence:
+aliases: ["Goals vs Systems Map"]
+confidence: ""
 created: 2025-11-06T19:55:04Z
-criteria: Notes must relate to the philosophy of system-driven progress over goal-oriented outcomes.
-epistemic:
-exclusions: Specific implementations of systems (e.g., GTD, Zettelkasten) unless used as examples.
-last_reviewed:
-modified: 2025-12-07T18:13:49Z
-purpose:
-review_interval:
-scope: The relationship between goals and systems in achieving long-term progress.
+criteria: "Notes must relate to the philosophy of system-driven progress over goal-oriented outcomes."
+epistemic: ""
+exclusions: "Specific implementations of systems (e.g., GTD, Zettelkasten) unless used as examples."
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
+scope: "The relationship between goals and systems in achieving long-term progress."
 see_also: []
 source_of_truth: []
-status:
-tags: [goals, productivity, sequence, structural, systems]
+status: ""
+tags: ["goals", "sequence", "structural", "topic/productivity", "topic/systems"]
 title: SN - Sequence - Goals Set Direction, But Systems Drive Progress
-type: sn
-uid: 2025-11-06T19:55:04Z
-updated: 2025-11-06T19:55:04Z
+type: "sn"
+uid: 
+updated: 
 ---
 
 ## SN - Sequence: Goals Set Direction, But Systems Drive Progress

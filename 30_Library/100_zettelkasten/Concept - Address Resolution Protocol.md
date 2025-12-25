@@ -1,20 +1,20 @@
 ---
-aliases: [ARP]
-confidence: 1.0
+aliases: ["ARP"]
+confidence: "1.0"
 created: 2025-11-22T15:00:03Z
-epistemic: fact
-last_reviewed: 2025-11-22
-modified: 2025-11-22T14:41:07Z
+epistemic: "fact"
+last_reviewed: "2025-11-22"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Defines the protocol for mapping IP addresses to MAC addresses."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [networking/protocol]
+status: "seedling"
+tags: ["topic/technology/networking/protocol"]
 title: Concept - Address Resolution Protocol
-type: concept
-uid: 2025-11-22T15:00:03Z
-updated: 2025-11-22T15:00:03Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Address Resolution Protocol (ARP)

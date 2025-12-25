@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic:
-id: emergent_properties
-last_reviewed:
-modified: 2025-10-31T09:31:38Z
-purpose:
-review_interval:
+epistemic: ""
+id: "emergent_properties"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [emergent]
+status: ""
+tags: ["emergent"]
 title: Emergent Properties
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: ""
 ---
 
 Emergent properties are characteristics that arise when individual components of a system interact, resulting in new behaviors or properties that are not present in the individual parts alone.

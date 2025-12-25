@@ -1,26 +1,20 @@
 ---
-alias: ["Computational Semantics", "Harper's CTT", "Meaning is Use"]
 aliases: []
-confidence: 5/5
-confidence-gaps: ["Implementation details of Cubical Type Theory"]
-created: 2025-12-18T10:30:00Z
-decay-signals: []
-epistemic: authoritative
-last_reviewed: 2025-12-18
-modified: 2025-12-20T09:54:09Z
-purpose: Defines Robert Harper's Computational Type Theory, emphasizing that types are defined by program behavior (semantics) rather than syntax.
-quality-markers: ["Synthesized from Robert Harper's OPLSS Lectures"]
-related-soTs: ["[[SoT - Cubical Type Theory (Computational Univalence)]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]
-resonance-score: 7
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
+confidence: "5/5"
+created: 2025-12-18T00:00:00Z
+epistemic: "authoritative"
+last_reviewed: "2025-12-18"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "Defines Robert Harper's Computational Type Theory, emphasizing that types are defined by program behavior (semantics) rather than syntax."
+review_interval: "1 year"
+see_also: ["[[SoT - Cubical Type Theory (Computational Univalence)]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]
+source_of_truth: []
+status: "stable"
 tags: ["architecture", "computational_logic", "semantics", "type_theory"]
 title: SoT - Computational Type Theory (Meaning as Use)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Working Knowledge (Stable Foundation)
@@ -58,11 +52,11 @@ In this constructive setting, the **Axiom of Choice** is not an axiom but a theo
 
 - **Logic:** $orall x
 
-exists y . R(x, y)
+exists y. R(x, y)
 
 implies
 
-exists f orall x . R(x, f(x))$.
+exists f orall x. R(x, f(x))$.
 
 - **Proof:** Because the existential quantifier $
 

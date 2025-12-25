@@ -1,21 +1,21 @@
 ---
-aliases: [Awareness of Motion as Procrastination]
-confidence: 1
+aliases: ["Awareness of Motion as Procrastination"]
+confidence: "1"
 created: 2025-11-01T20:38:00Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:35:44Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To explain that recognizing motion-as-procrastination is the first step to overcoming it."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[A Test to Differentiate Motion from Action]]", "[[Motion Can Be a Procrastination Delay Tactic]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Motion Can Be a Procrastination Delay Tactic.md"]
-status: evergreen
-tags: [awareness, metacognition, procrastination, productivity]
+source_of_truth: []
+status: "evergreen"
+tags: ["awareness", "metacognition", "procrastination", "topic/productivity"]
 title: Recognizing Motion as an Avoidance Pattern is the First Step to Overcoming It
-type: concept
-uid: 20251101203800
-updated: 2025-11-01T20:38:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 The first and most crucial step in breaking the cycle of motion-based procrastination is developing the awareness to recognize the pattern as it occurs.

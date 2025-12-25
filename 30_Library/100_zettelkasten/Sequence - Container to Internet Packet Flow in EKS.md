@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-31T11:53:00Z
-epistemic: 
+epistemic: ""
 goal: "Understand EKS networking path"
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Trace packet flow from container to internet in EKS."
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: 
-tags: [eks, networking, sequence]
+status: ""
+tags: ["eks", "sequence", "topic/technology/networking"]
 title: Sequence - Container to Internet Packet Flow in EKS
-type: sequence
+type: "sequence"
 uid: 
 updated: 
 ---

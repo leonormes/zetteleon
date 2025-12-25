@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-12T08:14:42Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Predisposition to Activities Offering Immediate Gratification
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 This aspect is strongly supported in the sources. The ADHD brain's motivation system is notably different, with "dopamine dynamics" playing a crucial role. Tasks that are not inherently interesting, novel, stimulating, or those that do not offer an immediate or tangible reward, may not trigger a sufficient dopamine response to initiate or sustain engagement. The ADHD brain is "highly attuned to immediate relevance and reward". Strategies to manage ADHD often involve leveraging this need for immediate gratification, such as:

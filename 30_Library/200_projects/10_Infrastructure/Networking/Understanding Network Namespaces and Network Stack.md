@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-03T15:54:42Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T15:59:53Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Understanding Network Namespaces and Network Stack
-type: 
+type: ""
 uid: 
 updated: 
 ---
@@ -37,7 +37,7 @@ This isolation allows processes running in different namespaces to use the same 
 More broadly, a **network stack** refers to any implementation of a set of protocols used for network communication. This can include various layers defined in models like the OSI (Open Systems Interconnection) model or the TCP/IP model. Each layer in these models serves specific functions in data transmission:
 
 | Layer | Function |
-| :-- | :-- |
+|:-- |:-- |
 | Physical Layer | Transmits raw bits over a physical medium |
 | Data Link Layer | Handles error detection and framing |
 | Network Layer | Routes packets between different networks |

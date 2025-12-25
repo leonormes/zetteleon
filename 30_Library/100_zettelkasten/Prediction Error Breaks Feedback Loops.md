@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-05T06:22:44Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Prediction Error Breaks Feedback Loops
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 The main mechanism that prevents the [[Cognitive-Emotional Feedback Loop]] from constantly causing problems is **reality testing** through prediction error. When the emotional consequences of our models consistently fail to match what actually happens, the brain is forced to update the model.

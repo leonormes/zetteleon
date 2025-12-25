@@ -1,35 +1,20 @@
 ---
-aliases: [K2A Framework, Knowledge-to-Action System, The Motivation Bridge]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-11-13T16:26:14Z
-decay-signals: []
-epistemic:
-last_reviewed: 2025-12-15
-modified: 2025-12-20T09:54:05Z
-purpose: Defines the core mechanism for overcoming ADHD executive dysfunction and initiating tasks within ProdOS.
-quality-markers: [Defines the Logic-Dopamine mismatch., establishing the PINCH model., Integrates the Vague-to-Action checklist.]
-related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS (System Architecture)]]"]
-resonance-score: 10
-review_interval: 3 months
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: ["[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]", "[[ADHD and Productivity]]", "[[Logic Does Not Produce Dopamine]]", "[[The Motivation Bridge - An ADHD Metaphor]]", "[[Vague Task to Actionable Plan Checklist]]"]
-tags: ["adhd", "behavioral_psychology", "execution", "productivity"]
+aliases: ["K2A Framework", "Knowledge-to-Action System", "The Motivation Bridge"]
+confidence: "5/5"
+created: 2025-11-13T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-15"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "Defines the core mechanism for overcoming ADHD executive dysfunction and initiating tasks within ProdOS."
+review_interval: "3 months"
+see_also: ["[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]", "[[ADHD and Productivity]]", "[[Logic Does Not Produce Dopamine]]", "[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS (System Architecture)]]", "[[The Motivation Bridge - An ADHD Metaphor]]", "[[Vague Task to Actionable Plan Checklist]]"]
+source_of_truth: []
+status: "stable"
+tags: ["execution", "topic/health/adhd", "topic/productivity", "topic/psychology"]
 title: SoT - Bridging the Intention-Action Gap
-type: SoT
-uid:
+type: "SoT"
+uid: 
 updated: 
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> The **Intention-Action Gap** is the neurological disconnect between "knowing what to do" (Intention) and "executing the task" (Action). In the ADHD brain, this is caused by a high **Activation Energy** threshold and a deficiency in the dopamine reward system.
->
-> The bridge is built not by willpower (Logic), but by **Motion** and **Ignition**. We do not wait for motivation to act; we use action to manufacture motivation.
-
 ---
 
 ## 2. The Core Problem: The Logic-Dopamine Mismatch
@@ -37,7 +22,7 @@ updated:
 Standard productivity advice fails the ADHD brain because it assumes that *importance* generates *motivation*. This is neurologically incorrect for neurodivergent minds.
 
 | Failure Mode | The Problem | The ProdOS Solution |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **The "Just Do It" Fallacy** | Assumes executive function is a choice. Fails to account for "Wall of Awful" (emotional resistance). | **Shrink the Start:** Reduce activation energy to near-zero (e.g., "Put on one shoe"). |
 | **The Logic Trap** | Logic ("I should do this") acts as a steering wheel, but provides no fuel (Dopamine). You cannot steer a parked car. | **The Heat Protocol:** Manufacture artificial dopamine via Mystery, Urgency, or Spite. |
 | **Vague Goals** | "Work on Project X" creates high cognitive load, triggering avoidance/paralysis. | **Atomic Action:** Convert vague projects into physical, binary actions (The Vague-to-Action Checklist). |
@@ -79,6 +64,7 @@ When you are stuck in "Logic Mode" (staring at a screen, knowing you *should* wo
 3. **Spite (Rebellion):** "I'm going to finish this just to prove [Person/Idea] wrong." (Friction).
 
 ### Protocol B: The Vague-to-Action Checklist
+
 *Use when a task feels "heavy" or undefined.*
 
 **Phase 1: Define the Endpoint**
@@ -88,16 +74,17 @@ When you are stuck in "Logic Mode" (staring at a screen, knowing you *should* wo
 3. [ ] **Name the Final Outcome:** Give this outcome a clear project name.
 
 **Phase 2: Capture the Steps**
-4. [ ] **Set a 5-minute timer:** Reduce pressure.
-5. [ ] **Brain Dump:** Write every question, idea, and step without filtering.
-6. [ ] **Organize into Phases:** Group items into 3-5 logical stages (Research, Draft, Review).
+4. [] **Set a 5-minute timer:** Reduce pressure.
+5. [] **Brain Dump:** Write every question, idea, and step without filtering.
+6. [] **Organize into Phases:** Group items into 3-5 logical stages (Research, Draft, Review).
 
 **Phase 3: Activate the Plan**
-7. [ ] **Identify Phase 1:** Look at the first group.
-8. [ ] **Ask 'What is the very next physical action?':** Must be small, visible, doable now (e.g., "Email Jane," "Create doc").
-9. [ ] **Write on 'Next Actions' list:** The entire project is now represented by this single task.
+7. [] **Identify Phase 1:** Look at the first group.
+8. [] **Ask 'What is the very next physical action?':** Must be small, visible, doable now (e.g., "Email Jane," "Create doc").
+9. [] **Write on 'Next Actions' list:** The entire project is now represented by this single task.
 
 ### Protocol C: The Starter Task (Momentum Generator)
+
 *Use when you are frozen by perfectionism or the "bigness" of a task.*
 
 A **Starter Task** is a micro-action designed purely to break static friction. It is **not** the work itself; it is the act of entering the workspace.

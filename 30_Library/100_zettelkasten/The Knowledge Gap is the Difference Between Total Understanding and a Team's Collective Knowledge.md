@@ -1,20 +1,20 @@
 ---
-aliases: [External Knowledge Gap]
-confidence: 0.9
+aliases: ["External Knowledge Gap"]
+confidence: "0.9"
 created: 2025-11-06T20:01:01Z
-epistemic: model
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "model"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the external knowledge gap in group understanding."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["The Illusion of Profundity Thought vs Text.md"]
-status: seedling
-tags: [collaboration, group-dynamics, knowledge, mental-model]
+source_of_truth: []
+status: "seedling"
+tags: ["collaboration", "group-dynamics", "knowledge", "mental-model"]
 title: "The Knowledge Gap is the Difference Between Total Understanding and a Team's Collective Knowledge"
-type: concept
-uid: 2025-11-06T20:01:01Z
-updated: 2025-11-06T20:01:01Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Knowledge Gap is the Difference Between Total Understanding and a Team's Collective Knowledge

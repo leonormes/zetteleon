@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-05-26T13:41:23Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [emotion, shame, topic/health/adhd]
+status: ""
+tags: ["emotion", "shame", "topic/health/adhd"]
 title: "What's the Difference Between Shame Humiliation and Embarrassment"
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 While shame, humiliation, and embarrassment are all uncomfortable emotions that involve a sense of self-consciousness, they have distinct differences in their core nature, focus, and cause.
@@ -29,7 +29,7 @@ While shame, humiliation, and embarrassment are all uncomfortable emotions that 
 Here's a table summarising the key distinctions:
 
 | Feature           | Shame                                            | Humiliation                                             | Embarrassment                                 |
-| :---------------- | :----------------------------------------------- | :------------------------------------------------------ | :-------------------------------------------- |
+|:---------------- |:----------------------------------------------- |:------------------------------------------------------ |:-------------------------------------------- |
 | **Primary Focus** | Negative self-evaluation, feeling inherently bad | Lowering of social status, loss of dignity              | Socially awkward or unacceptable behaviour    |
 | **Source**        | Internal self-appraisal                          | Inflicted by others or external circumstances           | Often self-inflicted through a social misstep |
 | **Intensity**     | Often deep, painful, and long-lasting            | Can be intense and deeply upsetting                     | Usually milder and more temporary             |

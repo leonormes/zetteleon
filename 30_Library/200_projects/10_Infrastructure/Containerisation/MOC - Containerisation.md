@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-26T17:16:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-14T17:53:09Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:41+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [container, docker, kubernetes, topic/technology/containers]
+status: "null"
+tags: ["container", "docker", "kubernetes", "topic/technology/containers"]
 title: MOC - Containerisation
-type: map
-uid:
-updated:
-version: 1
+type: "map"
+uid: 
+updated: 
+version: "1"
 ---
 
 ## Summary
@@ -33,7 +33,7 @@ Containerisation knowledge is fragmented across multiple domains - Linux kernel 
 Deep dive into Linux networking primitives that form the foundation of container networking:
 
 - Network namespaces, veth pairs, bridges, iptables
-- Packet flows and NAT mechanisms  
+- Packet flows and NAT mechanisms
 - Linux to Kubernetes networking mapping
 - Hands-on network building tutorials
 
@@ -117,7 +117,7 @@ Step-by-step tutorials and practical exercises:
 
 - **[[MOC - Container Networking Model]]** - Linux networking foundations and Kubernetes mapping
 - **[[MOC - Linux Container Primitives]]** - Kernel features enabling containers (planned)
-- **[[MOC - Container Runtime & Orchestration]]** - Runtime interfaces and orchestration (planned)  
+- **[[MOC - Container Runtime & Orchestration]]** - Runtime interfaces and orchestration (planned)
 - **[[MOC - Hands-on Container Labs]]** - Practical tutorials and debugging guides (planned)
 
 ## Core Reference Notes

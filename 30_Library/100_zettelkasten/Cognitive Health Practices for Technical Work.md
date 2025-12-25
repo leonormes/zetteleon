@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T12:46:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T13:10:59Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "List evidence-based practices for mental performance."
-review_interval: 90
+review_interval: "90"
 see_also: ["Optimal Memory Function Requires Sleep, Stress Management and Mental Exercise.md"]
 source_of_truth: []
-status: seedling
-tags: [neuroscience, productivity]
+status: "seedling"
+tags: ["neuroscience", "topic/productivity"]
 title: Cognitive Health Practices for Technical Work
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

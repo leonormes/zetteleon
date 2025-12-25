@@ -1,23 +1,23 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-10-31T09:25:39Z
-criteria: Steps and concepts directly related to the NetworkChuck tutorial on Kemp LoadMaster.
-epistemic:
-exclusions: General load balancing theory or other vendor products.
-last_reviewed:
-modified: 2025-12-07T18:13:51Z
-purpose:
-review_interval:
-scope: A procedural guide for setting up a Kemp LoadMaster in a home lab for secure service exposure.
+criteria: "Steps and concepts directly related to the NetworkChuck tutorial on Kemp LoadMaster."
+epistemic: ""
+exclusions: "General load balancing theory or other vendor products."
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: ""
+scope: "A procedural guide for setting up a Kemp LoadMaster in a home lab for secure service exposure."
 see_also: []
 source_of_truth: []
-status:
-tags: [homelab, kemp, networking, tutorial]
+status: ""
+tags: ["homelab", "kemp", "topic/technology/networking", "tutorial"]
 title: MOC - Setting up a Kemp Load Balancer in a Home Network
-type: map
-uid:
-updated:
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - Setting up a Kemp Load Balancer in a Home Network

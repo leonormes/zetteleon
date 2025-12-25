@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-02T17:05:47Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T20:28:36Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Application Entra
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 It sounds like you've successfully used Terraform to create your Entra application, which is a great step towards infrastructure as code! The challenge you're facing now, where the `email.send` API permission requires administrator approval, is a common one and stems from Microsoft Entra ID's robust consent framework designed to protect organizational data. Let's break down why this approval is needed and how you can automate it.

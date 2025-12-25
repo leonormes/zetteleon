@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:20:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [challenge, DMN, engagement, motivation, personal-growth, topic/health/adhd]
+status: ""
+tags: ["challenge", "DMN", "engagement", "motivation", "personal-growth", "topic/health/adhd"]
 title: Finding Your Right Difficult A Strategy for ADHD Engagement
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 For individuals with Attention-Deficit/Hyperactivity Disorder (ADHD), a crucial strategy for maintaining consistent engagement and preventing the brain from getting stuck in negative rumination (the "Demon" of the [[The DMN as a "Demon" - Negative Rumination in ADHD|Default Mode Network]]) is to actively seek out and cultivate what is termed "Finding Your Right Difficult."

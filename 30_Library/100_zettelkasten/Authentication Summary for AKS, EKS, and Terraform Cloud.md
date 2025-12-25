@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:33:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [AKS, authentication, cloud-native, EKS, IAM, mTLS, OIDC]
+status: ""
+tags: ["AKS", "authentication", "cloud-native", "EKS", "IAM", "mTLS", "OIDC"]
 title: Authentication Summary for AKS, EKS, and Terraform Cloud
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 For cloud-native environments utilizing Azure Kubernetes Service (AKS), Amazon Elastic Kubernetes Service (EKS), and Terraform Cloud, a modern authentication stack revolves around specific integrations and technologies:

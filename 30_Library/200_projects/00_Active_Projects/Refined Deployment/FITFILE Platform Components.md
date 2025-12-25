@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-22T11:32:55Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:11Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:33+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [architecture, components, config, helm, platform]
+status: ""
+tags: ["architecture", "components", "config", "helm", "platform"]
 title: FITFILE Platform Components
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## **Core Platform Components**

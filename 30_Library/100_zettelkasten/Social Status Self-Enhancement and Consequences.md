@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-31T09:20:29Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:41Z
-purpose: Explain the phenomenon of overestimating one's social status or likability and its social costs.
-review_interval: 
+epistemic: "fact"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [topic/cognition/bias, topic/social-cognition, topic/social-perception]
+status: "seedling"
+tags: ["topic/cognition/bias", "topic/social-cognition", "topic/social-perception"]
 title: Social Status Self-Enhancement and Consequences
-type: concept
-uid: sp-status-self-enhancement
-updated: 2025-10-31T09:20:29Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Social Status Self-Enhancement and Consequences

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-26T12:58:48Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [k8s, networking]
+status: ""
+tags: ["k8s", "topic/technology/networking"]
 title: Use Calico
-type: documentation
+type: "documentation"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 we have Kubernetes running in Aws. we have installed the Calico CNI. know the cni is there what can I do first to start using the features

@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.8
+confidence: "0.8"
 created: 2025-10-31T10:18:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "Explain mtri tree data structure for network filtering."
-review_interval: 90
+review_interval: "90"
 see_also: ["Access Control Lists Filter Traffic Based on Protocol and Address Rules.md", "Routing Tables Use Longest Prefix Match for Forwarding Decisions.md"]
 source_of_truth: []
-status: seedling
-tags: [algorithms, data-structures, networking]
+status: "seedling"
+tags: ["algorithms", "data-structures", "topic/technology/networking"]
 title: Mtri Trees Efficiently Store ACL and Routing Table Entries
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-25T12:57:08Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [calico, k8s, networking, vxlan]
+status: ""
+tags: ["calico", "k8s", "topic/technology/networking", "vxlan"]
 title: Virtual Extensible LAN
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 No worries. I'm glad to hear that the issue is solved.

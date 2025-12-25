@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-05T20:52:36Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-07T18:13:31Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: PKM PDU
-type: 
+type: ""
 uid: 
 updated: 
 ---

@@ -1,20 +1,20 @@
 ---
-aliases: [Concept-Based Organization, Cross-Domain Linking]
-confidence: 0.9
+aliases: ["Concept-Based Organization", "Cross-Domain Linking"]
+confidence: "0.9"
 created: 2025-10-30T15:31:09Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-30T15:36:29Z
+epistemic: "principle"
+last_reviewed: "2025-10-30T00:00:00.000Z"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Explains why organizing by concept rather than source enables insight"
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [connection-making, organization, topic/pkm, topic/pkm/zettelkasten]
+status: "seedling"
+tags: ["connection-making", "organization", "topic/pkm", "topic/pkm/zettelkasten"]
 title: Concept-Orientation Enables Cross-Domain Discovery
-type: principle
-uid: 2025-10-30T15:31:09Z
-updated: 2025-10-30T15:31:09Z
+type: "principle"
+uid: 
+updated: 
 ---
 
 ## Concept-Orientation Enables Cross-Domain Discovery

@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-10T11:10:00Z
-epistemic: NA
-last_reviewed:
-modified: 2025-11-10T08:55:35Z
+epistemic: "NA"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To provide a simple heuristic for analyzing a song's origin."
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [analysis, critical-thinking, music, question]
+status: "seedling"
+tags: ["analysis", "critical-thinking", "music", "question"]
 title: Asking Why a Song Exists Helps Determine its Authenticity
-type: instructional
-uid: 2025-11-10T11:10:00Z
-updated: 2025-11-10T11:10:00Z
+type: "instructional"
+uid: 
+updated: 
 ---
 
 ## Asking Why a Song Exists Helps Determine Its Authenticity

@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-02-07T12:57:55Z
-epistemic:
-ID: cultural_and_linguistic_knowledge_in_paraphrasing
-last_reviewed:
-modified: 2025-10-31T09:31:37Z
-purpose:
-review_interval:
+epistemic: ""
+ID: "cultural_and_linguistic_knowledge_in_paraphrasing"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [paraphrasing]
+status: ""
+tags: ["paraphrasing"]
 title: Cultural and Linguistic Knowledge in Paraphrasing
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: ""
 ---
 
 Cultural and linguistic knowledge are essential for [[Paraphrasing is a Complex Cognitive Skill|paraphrasing]], especially across languages or cultures. Understanding idioms, references, and context-specific meanings ensures accurate and accessible paraphrases.

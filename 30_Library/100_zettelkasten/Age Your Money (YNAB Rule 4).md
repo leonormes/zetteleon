@@ -1,18 +1,18 @@
 ---
-aliases: [Breaking the Paycheck-to-Paycheck Cycle, Financial Buffer]
-confidence: 
+aliases: ["Breaking the Paycheck-to-Paycheck Cycle", "Financial Buffer"]
+confidence: ""
 created: 2025-11-18T14:35:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-18T14:01:07Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [budgeting, finance, financial-freedom, ynab]
+status: ""
+tags: ["budgeting", "finance", "financial-freedom", "ynab"]
 title: Age Your Money (YNAB Rule 4)
-type: 
+type: ""
 uid: 
 updated: 
 ---

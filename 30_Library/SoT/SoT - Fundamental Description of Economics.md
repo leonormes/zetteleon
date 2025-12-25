@@ -1,33 +1,20 @@
 ---
-aliases: [Economic Principles, Economics, Resource Allocation, Scarcity, Trade-offs]
-confidence: 5/5
+aliases: ["Economic Principles", "Economics", "Resource Allocation", "Scarcity", "Trade-offs"]
+confidence: "5/5"
 created: 2025-12-13T00:00:00Z
-epistemic: academic
-last-synthesis: 2025-12-13
-last_reviewed: 2025-12-13
-modified: 2025-12-20T09:54:08Z
-purpose: To provide a fundamental, academic description of economics as the
-  study of resource allocation under scarcity and the resulting human
-  decision-making and trade-offs.
-related-soTs: '["[[SoT - PRODOS (System Architecture)]]", "[[SoT - Family
-  Budgeting System]]", "[[SoT - Scarcity]]", "[[SoT - Decision Making Under
-  Uncertainty]]", "[[SoT - Systems Thinking]]", "[[SoT - Cognitive Biases]]"]'
-review_interval: 12 months
-see_also: []
-source_of_truth: true
-status: stable
-tags: [decision_making, economics, resource_allocation, scarcity, trade_offs]
+epistemic: "academic"
+last_reviewed: "2025-12-13"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To provide a fundamental, academic description of economics as the"
+review_interval: "12 months"
+see_also: ["[[SoT - PRODOS (System Architecture)]]"]
+source_of_truth: []
+status: "stable"
+tags: ["decision_making", "economics", "resource_allocation", "scarcity", "trade_offs"]
 title: SoT - Fundamental Description of Economics
-type: SoT
-uid: null
-updated: null
----
-
-## 1. Definitive Statement
-
-> [!definition] Economics
-> Economics is fundamentally the study of how **individuals and societies allocate scarce resources to satisfy unlimited wants**. This involves examining human behavior and decision-making processes in the context of resource scarcity and the trade-offs that inevitably result.
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. Key Definitions and Concepts

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-25T21:58:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:49Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [networking]
+status: ""
+tags: ["topic/technology/networking"]
 title: network interface IP
-type: documentation
+type: "documentation"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 When we talk about a host "having" an IP address, it is technically more precise to say that the network interface of the host is assigned the IP address. The computer or host has these interfaces, and it's through these interfaces that it participates in a network and uses IP addresses.

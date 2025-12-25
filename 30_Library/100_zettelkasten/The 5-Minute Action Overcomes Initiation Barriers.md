@@ -1,20 +1,20 @@
 ---
-aliases: [5-Minute Rule]
-confidence: 
+aliases: ["5-Minute Rule"]
+confidence: ""
 created: 2025-11-12T15:00:08Z
-epistemic: NA
-last_reviewed:
-modified: 2025-11-12T14:01:15Z
+epistemic: "NA"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "A technique to overcome task initiation barriers in ADHD."
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [adhd, productivity, task-initiation, technique]
+status: "seedling"
+tags: ["task-initiation", "technique", "topic/health/adhd", "topic/productivity"]
 title: The 5-Minute Action Overcomes Initiation Barriers
-type: instructional
-uid: 2025-11-12T15:00:08Z
-updated: 2025-11-12T15:00:08Z
+type: "instructional"
+uid: 
+updated: 
 ---
 
 ## The 5-Minute Action Overcomes Initiation Barriers

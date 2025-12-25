@@ -1,20 +1,18 @@
 ---
-aliases: [Conditional Yes, Yes And If]
-confidence: 5/5
+aliases: ["Conditional Yes", "Yes And If"]
+confidence: "5/5"
 created: 2025-12-17T00:00:00Z
-epistemic: 
-last_reviewed: 2025-12-17
-modified: 2025-12-20T09:54:06Z
-purpose: To define a tactical communication protocol for managing scope creep and new requests without direct confrontation.
-related-soTs: ["[[MOC - Assertiveness Through System Design]]"]
-review_interval: 
-see_also: []
-source: https://gemini.google.com/share/4fce9b7c136a
-source_of_truth: true
-status: stable
-tags: [communication, negotiation, productivity, scope-management]
+epistemic: ""
+last_reviewed: "2025-12-17"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "To define a tactical communication protocol for managing scope creep and new requests without direct confrontation."
+review_interval: "3 months"
+see_also: ["[[MOC - Assertiveness Through System Design]]"]
+source_of_truth: []
+status: "stable"
+tags: ["communication", "negotiation", "scope-management", "topic/productivity"]
 title: SoT - The Yes, And-If Protocol for Scope Management
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---

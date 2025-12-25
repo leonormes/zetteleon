@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:53Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T20:28:44Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
-source: https://dev.to/aws-builders/managing-aws-eks-access-entries-with-terraform-and-opentofu-414
+source: "https://dev.to/aws-builders/managing-aws-eks-access-entries-with-terraform-and-opentofu-414"
 source_of_truth: []
-status: 
-tags: [aws, ff_deploy, IAM]
+status: ""
+tags: ["aws", "ff_deploy", "IAM"]
 title: AWS EKS Access Management With Terraform
-type: config
+type: "config"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## AWS EKS Access Management with Terraform
@@ -174,10 +174,10 @@ aws eks update-cluster-config \
 2. Integration with IAM and RBAC: Combines AWS IAM for authentication and Kubernetes RBAC for authorization, providing a robust and flexible access control system.
 3. Predefined Access Policies: AWS provides predefined access policies similar to Kubernetes ClusterRoles:
 
-- AmazonEKSClusterAdminPolicy – cluster-admin
-- AmazonEKSAdminPolicy – admin
-- AmazonEKSEditPolicy – edit
-- AmazonEKSViewPolicy – view
+- AmazonEKSClusterAdminPolicy–cluster-admin
+- AmazonEKSAdminPolicy–admin
+- AmazonEKSEditPolicy–edit
+- AmazonEKSViewPolicy–view
 
 4. Enhanced security: By managing access through the EKS API, you can ensure that only authorized users have access to your clusters, improving overall security.
 5. Infrastructure as Code (IaC): Easily manage access entries using IaC tools like Terraform, OpenTofu, Pulumi, Ansible, and CloudFormation.

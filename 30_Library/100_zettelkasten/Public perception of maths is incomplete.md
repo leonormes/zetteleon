@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-21T13:34:27Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [idea/maths-education, idea/perception, status/seedling]
+status: ""
+tags: ["idea/maths-education", "idea/perception", "status/seedling"]
 title: Public perception of maths is incomplete
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Source: [[The Two Views of Maths]]

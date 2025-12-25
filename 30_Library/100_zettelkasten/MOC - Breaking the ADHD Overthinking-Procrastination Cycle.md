@@ -1,23 +1,23 @@
 ---
-aliases: [ADHD Overthinking Playbook]
-confidence:
+aliases: ["ADHD Overthinking Playbook"]
+confidence: ""
 created: 2025-11-12T15:15:00Z
-criteria: Atomic notes must relate to the psychological drivers of the ADHD procrastination cycle or feedback-based strategies to counteract it.
-epistemic:
-exclusions: General productivity advice not tailored to ADHD neurobiology.
-last_reviewed:
-modified: 2025-12-20T09:54:58Z
-purpose:
-review_interval:
-scope: A framework for understanding and breaking the overthinking-procrastination cycle in ADHD using feedback-driven momentum.
+criteria: "Atomic notes must relate to the psychological drivers of the ADHD procrastination cycle or feedback-based strategies to counteract it."
+epistemic: ""
+exclusions: "General productivity advice not tailored to ADHD neurobiology."
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: ""
+scope: "A framework for understanding and breaking the overthinking-procrastination cycle in ADHD using feedback-driven momentum."
 see_also: []
 source_of_truth: []
-status: stable
-tags: [adhd, executive-function, procrastination, productivity, psychology]
+status: "stable"
+tags: ["executive-function", "procrastination", "topic/health/adhd", "topic/productivity", "topic/psychology"]
 title: MOC - Breaking the ADHD Overthinking-Procrastination Cycle
-type: map
-uid: 2025-11-12T15:15:00Z
-updated: 2025-11-12T15:15:00Z
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - Breaking the ADHD Overthinking-Procrastination Cycle

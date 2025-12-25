@@ -1,21 +1,21 @@
 ---
-aliases: [Execution, Taking Action]
-confidence: 0.9
+aliases: ["Execution", "Taking Action"]
+confidence: "0.9"
 created: 2025-11-01T20:22:24Z
-epistemic: definition
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:26:28Z
+epistemic: "definition"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Define action as behavior that directly produces tangible outcomes."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Motion Defined as Preparatory Activity Without Direct Outcomes]]", "[[Next Action is the Immediate Physical Step Forward]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/LLMPKM/motion_vs_action.md"]
-status: seedling
-tags: [action, execution, productivity, results]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "execution", "results", "topic/productivity"]
 title: Action Defined as Behavior That Produces Tangible Outcomes
-type: definition
-uid: 2025-11-01T20:22:24Z
-updated: 2025-11-01T20:22:24Z
-version: 1
+type: "definition"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Action is behavior that directly produces a tangible outcome. Unlike motion, action brings a project or task closer to completion through concrete execution.

@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2024-03-19T10:45:55Z
-epistemic: 
-id: 1b1
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+id: "1b1"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [note-taking, topic/pkm/zettelkasten]
+status: "null"
+tags: ["note-taking", "topic/pkm/zettelkasten"]
 title: Folgezettel Is Not Hierarchical
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Folgezettel (the alphanumeric ID system) is often misinterpreted as creating a hierarchical tree structure. This is incorrect. While IDs like 1.1a1 appear to suggest that the note is a "child" of 1.1a, this is merely an addressing convention, not a parent-child relationship.

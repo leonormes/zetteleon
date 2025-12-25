@@ -1,20 +1,20 @@
 ---
-aliases: [Process Over Outcome, Time Commitment Success]
-confidence: 0.9
+aliases: ["Process Over Outcome", "Time Commitment Success"]
+confidence: "0.9"
 created: 2025-10-30T15:17:49Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-31T09:31:40Z
+epistemic: "principle"
+last_reviewed: "2025-10-30"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To reframe task engagement from completion anxiety to process commitment"
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [mindset, reframing, time-boxing, topic/health/adhd]
+status: "seedling"
+tags: ["mindset", "reframing", "time-boxing", "topic/health/adhd"]
 title: Focus on Process Not Completion to Reduce ADHD Overwhelm
-type: strategy
-uid: 2025-10-30T15:17:49Z
-updated: 2025-10-30T15:17:49Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## Focus on Process Not Completion to Reduce ADHD Overwhelm

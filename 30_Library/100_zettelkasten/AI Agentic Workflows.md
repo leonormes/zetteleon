@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-10T08:29:12Z
-epistemic: 
-id: 20251008_AI_Agentic_Workflows
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: "null"
+id: "20251008_AI_Agentic_Workflows"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [Architecture, topic/technology/AI, topic/technology/AI/agents, Workflow]
+status: "null"
+tags: ["Architecture", "topic/technology/AI", "topic/technology/AI/agents", "Workflow"]
 title: AI Agentic Workflows
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 **AI Agentic Workflows** are systems where AI agents perform tasks with some degree of autonomy, often involving planning, tool use, and iteration to achieve a goal. Unlike simple prompt-response models, agentic systems engage in multi-step reasoning and can interact with their environment, such as a virtual file system or external APIs.

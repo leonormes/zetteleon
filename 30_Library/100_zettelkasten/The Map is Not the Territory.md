@@ -1,20 +1,20 @@
 ---
-aliases: [The Map is Not the Territory]
-confidence: 0.9
+aliases: ["The Map is Not the Territory"]
+confidence: "0.9"
 created: 2025-11-06T19:59:03Z
-epistemic: insight
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:11Z
+epistemic: "insight"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To explain the mental model of 'The Map is Not the Territory' and its use in promoting intellectual humility."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["so wrong.md"]
-status: seedling
-tags: [epistemology, mental-model, perception, reality]
+source_of_truth: []
+status: "seedling"
+tags: ["epistemology", "mental-model", "perception", "reality"]
 title: The Map is Not the Territory
-type: concept
-uid: 2025-11-06T19:59:03Z
-updated: 2025-11-06T19:59:03Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Map is Not the Territory

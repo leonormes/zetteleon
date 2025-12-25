@@ -1,34 +1,25 @@
 ---
-aliases: [Planner vs Doer, Predictive vs Iterative Processing, Simulation vs Prototyping, The Core Divergence]
-confidence: 
+aliases: ["Planner vs Doer", "Predictive vs Iterative Processing", "Simulation vs Prototyping", "The Core Divergence"]
+confidence: ""
 created: 2025-12-12T00:00:00Z
-epistemic: 
-last-synthesis: 2025-12-12
+epistemic: ""
 last_reviewed: 
-modified: 2025-12-20T09:54:09Z
-purpose: To define the fundamental divergence in cognitive architectures between "Predictive Processors" (Simulation-first) and "Iterative Processors" (Action-first), providing a framework for collaboration and self-understanding.
-review_interval: 6 months
+modified: 2025-12-25T11:40:22+00:00
+purpose: "To define the fundamental divergence in cognitive architectures between \\\\\\\"Predictive Processors\\\\\\\" (Simulation-first) and \\\\\\\"Iterative Processors\\\\\\\" (Action-first), providing a framework for collaboration and self-understanding."
+review_interval: "6 months"
 see_also: ["[[Predictive Processing and the Bayesian Brain]]", "[[SoT - Learning Mechanisms]]", "[[SoT - Myopic Understanding]]"]
-source_of_truth: true
-status: stable
-tags: [adhd, cognition, collaboration, mental_models, system_design]
+source_of_truth: []
+status: "stable"
+tags: ["cognition", "collaboration", "mental_models", "system_design", "topic/health/adhd"]
 title: SoT - Cognitive Architectures (Simulation vs Prototyping)
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Definition
-> The **Core Divergence** defines two distinct cognitive operating systems for problem-solving:
->
-> 1. **Predictive Processors (Planners):** Solve problems via high-fidelity internal **Simulation** *before* acting.
-> 2. **Iterative Processors (Doers):** Solve problems via rapid external **Prototyping** *during* action.
-> 
-> Neither is "inefficient"; they simply compile at different times. Planners compile at **Build Time** (optimizing for predictability). Iterators compile at **Run Time** (optimizing for adaptability).
-
----
+> The **Core Divergence** defines two distinct cognitive operating systems for problem-solving: ""
+> 1. **Predictive Processors (Planners): "** Solve problems via high-fidelity internal **Simulation** *before* acting."
+> 2. **Iterative Processors (Doers): "** Solve problems via rapid external **Prototyping** *during* action."
 
 ## 2. The Two Architectures
 
@@ -50,7 +41,21 @@ updated:
 
 ---
 
-## 3. The "Inefficiency" Fallacy
+## 3. Parallel Processing & Integration
+
+The human cognitive architecture is a **distributed system**, not a single-threaded executive.
+
+- **Parallel Processing Threads:** Split-brain experiments prove that multiple processing threads can run concurrently on the same hardware, completely partitioned. The "Self" is the software bridge that syncs these threads.
+- **Modular Autonomy:** Motor and sensory tasks can execute without the prefrontal cortex being online (e.g., sleepwalking), demonstrating that "Central Command" is not required for complex operation.
+
+## 4. Performance Optimization: The Flow State
+
+Peak system throughput often requires **Executive Deactivation**.
+
+- **Supervisor Shutdown:** During high-creativity tasks (like musical improvisation), the prefrontal cortex (the "Inner Critic") deactivates.
+- **Low-Latency Output:** By shutting down self-monitoring, low-level subroutines can output data directly to effectors without interference, achieving the "Flow State."
+
+## 5. The "Inefficiency" Fallacy
 
 Conflict arises when one type judges the other by their own metric.
 

@@ -1,10 +1,11 @@
 ---
 aliases: []
+AoL: Work
 confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-12T18:18:35Z
+modified: 2025-12-25T11:40:49+00:00
 purpose: To structure the thinking and planning for standardizing Kubernetes observability across the team.
 review_interval:
 see_also: ["[[30_Library/100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address]]", "[[Authentication Summary for AKS, EKS, and Terraform Cloud]]", "[[AWS ENIs Connect EKS Worker Nodes to VPC Networks]]"]
@@ -38,6 +39,7 @@ We currently have Grafana dashboards, but I suspect they are not "standardized" 
 - **Current State:** I need to know where we stand ("Audit our current Grafana dashboards") before building new things.
 
 ### The Next Test
+
 *The immediate, verifiable action to resolve the current tension.*
 
 - [ ] **Research "golden signals" for Kubernetes monitoring.** (Latency, traffic, errors, saturation).
@@ -45,6 +47,7 @@ We currently have Grafana dashboards, but I suspect they are not "standardized" 
   - *Output:* Update this note with a mapping table.
 
 ### Backlog & Sequence
+
 *Derived from the initial task dump:*
 
 1. **Research:** Research "golden signals" for Kubernetes monitoring (latency, traffic, errors, saturation) `[Next Action]`

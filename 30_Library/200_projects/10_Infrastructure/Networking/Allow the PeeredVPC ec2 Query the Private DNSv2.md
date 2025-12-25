@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-22T11:31:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T20:22:52Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [aws, ff_deploy, networking, peering, vpc]
+status: ""
+tags: ["aws", "ff_deploy", "peering", "topic/technology/networking", "vpc"]
 title: Allow the PeeredVPC ec2 Query the Private DNSv2
-type: instruction
-uid: f8412ceb-e64d-4def-a7e6-eb8f10b7f4c8
+type: "instruction"
+uid: 
 updated: 
-version: 2
+version: "2"
 ---
 
 ## Understanding The Setup

@@ -1,10 +1,11 @@
 ---
 aliases: []
+AoL: Work
 confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-09T10:16:52Z
+modified: 2025-12-23T17:53:54Z
 purpose: To figure out how to configure dynamic credentials for Terraform Cloud and Azure to remove static keys.
 review_interval:
 see_also: []

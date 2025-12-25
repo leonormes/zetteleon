@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-04T11:42:52Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [pki]
+status: ""
+tags: ["pki"]
 title: PKI Params
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## 1. **Review Of Current Naming and Structure**
@@ -90,7 +90,7 @@ If you want to restrict even further, use your internal DNS zone, e.g., `*.eoe-s
 ## 5. **Summary Table**
 
 | CA Type         | Common Name                             | Allowed Domains                 | TTL                     | Usage                |
-| :-------------- | :-------------------------------------- | :------------------------------ | :---------------------- | :------------------- |
+|:-------------- |:-------------------------------------- |:------------------------------ |:---------------------- |:------------------- |
 | Root CA         | FITFILE Root CA                         | fitfile.co.uk, \*.fitfile.co.uk | 10 years                | Sign Intermediate CA |
 | Intermediate CA | eoe.fitfile.co.uk, \*.eoe.fitfile.co.uk | 3 years                         | EOE SDE Intermediate CA | Issue leaf certs     |
 | Leaf Certs      | (service DNS name)                      | (service DNS name)              | 30 days                 | Workload TLS         |

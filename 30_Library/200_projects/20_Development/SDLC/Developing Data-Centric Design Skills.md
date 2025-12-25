@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-16T13:26:02Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [data-centric]
+status: ""
+tags: ["data-centric"]
 title: Developing Data-Centric Design Skills
-type: curriculum
+type: "curriculum"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## 1. Deepen Your Understanding of Data Structures and Algorithms

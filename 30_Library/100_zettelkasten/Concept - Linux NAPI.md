@@ -1,20 +1,20 @@
 ---
-aliases: [NAPI]
-confidence: 1.0
+aliases: ["NAPI"]
+confidence: "1.0"
 created: 2025-11-22T15:00:07Z
-epistemic: fact
-last_reviewed: 2025-11-22
-modified: 2025-11-22T14:41:28Z
+epistemic: "fact"
+last_reviewed: "2025-11-22"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Explains the Linux kernel's efficient packet processing mechanism."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [networking/kernel]
+status: "seedling"
+tags: ["topic/technology/networking/kernel"]
 title: Concept - Linux NAPI
-type: concept
-uid: 2025-11-22T15:00:07Z
-updated: 2025-11-22T15:00:07Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Linux NAPI

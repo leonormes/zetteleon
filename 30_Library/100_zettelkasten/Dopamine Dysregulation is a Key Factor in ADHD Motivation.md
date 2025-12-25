@@ -1,20 +1,20 @@
 ---
-aliases: [ADHD and Dopamine, Motivational differences in ADHD may stem from dopamine dysregulation]
-confidence: 0.9
+aliases: ["ADHD and Dopamine", "Motivational differences in ADHD may stem from dopamine dysregulation"]
+confidence: "0.9"
 created: 2025-07-16T17:30:01Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:26:24Z
-purpose: Explain how dopamine dysregulation underlies ADHD motivation patterns and the interest cycle.
-review_interval: 90
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "Explain how dopamine dysregulation underlies ADHD motivation patterns and the interest cycle."
+review_interval: "90"
 see_also: ["[[ADHD Brain Constantly Scans for Dopamine-Rewarding Stimuli]]", "[[ADHD Brain is a Novelty-Seeking Machine]]", "[[ADHD Hyperfixation-Burnout Cycle]]", "[[Dopamine Deficit Follows Hyperfixation Crash]]"]
-source_of_truth: [/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Adhd up and down cycle .md]
-status: seedling
-tags: [dopamine, motivation, neuroscience, topic/health/adhd]
+source_of_truth: []
+status: "seedling"
+tags: ["dopamine", "motivation", "neuroscience", "topic/health/adhd"]
 title: Dopamine Dysregulation is a Key Factor in ADHD Motivation
-type: concept
-uid: 2025-07-16T17:30:01Z
-updated: 2025-11-01T11:37:53Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 The unique motivational landscape of the ADHD brain is rooted in its distinct neurochemistry, particularly the dysregulation of the neurotransmitter dopamine. Dopamine is crucial for motivation, attention, and reward prediction.

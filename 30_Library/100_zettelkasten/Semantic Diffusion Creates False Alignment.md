@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-29T15:20:28Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [communication, language, teams, topic/cognition/mental-model]
+status: "null"
+tags: ["communication", "language", "teams", "topic/cognition/mental-model"]
 title: Semantic Diffusion Creates False Alignment
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Semantic diffusion occurs when a team uses the same vocabulary to describe different underlying concepts, creating a false sense of alignment.

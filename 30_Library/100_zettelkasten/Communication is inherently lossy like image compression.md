@@ -1,20 +1,20 @@
 ---
-aliases: [communication lossy compression, encoding-decoding gap, translation problem]
-confidence: 0.9
+aliases: ["communication lossy compression", "encoding-decoding gap", "translation problem"]
+confidence: "0.9"
 created: 2025-10-31T20:02:00Z
-epistemic: principle
-last_reviewed: 2025-10-31
-modified: 2025-10-31T13:11:03Z
+epistemic: "principle"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Describes the information loss inherent in translating thoughts into language"
-review_interval: 90
+review_interval: "90"
 see_also: ["Communication requires iterative approximation", "Ideas exist beyond linguistic expression"]
 source_of_truth: []
-status: seedling
-tags: [communication, information-theory, linguistics]
+status: "seedling"
+tags: ["communication", "information-theory", "linguistics"]
 title: Communication is inherently lossy like image compression
-type: concept
-uid: 2025-10-31T20:02:00Z
-updated: 2025-10-31T20:02:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Communication is Inherently Lossy like Image Compression

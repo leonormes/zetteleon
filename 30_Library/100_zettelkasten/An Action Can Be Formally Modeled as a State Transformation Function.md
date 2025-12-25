@@ -1,20 +1,20 @@
 ---
-aliases: [Formal Action Model]
-confidence: 0.8
+aliases: ["Formal Action Model"]
+confidence: "0.8"
 created: 2025-11-10T15:04:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T13:33:51Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To provide a formal model for understanding actions."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Atomic Actions and Next Actions Framework]]"]
-status: seedling
-tags: [action, model, productivity, theory]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "model", "theory", "topic/productivity"]
 title: An Action Can Be Formally Modeled as a State Transformation Function
-type: concept
-uid: 2025-11-10T15:04:00Z
-updated: 2025-11-10T15:04:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## An Action Can Be Formally Modeled as a State Transformation Function

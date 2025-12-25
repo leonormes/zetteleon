@@ -1,22 +1,22 @@
 ---
-aliases: [Theoretical Information Addiction, Type 1 Information Addiction]
-confidence: 
+aliases: ["Theoretical Information Addiction", "Type 1 Information Addiction"]
+confidence: ""
 created: 2025-09-11T20:27:49Z
-creation_date: 2025-09-11
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+creation_date: "2025-09-11"
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [addiction, information, overthinking, topic/productivity/procrastination]
+status: ""
+tags: ["addiction", "information", "overthinking", "topic/productivity/procrastination"]
 title: Information Addiction in Overthinkers
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Individuals prone to overthinking often develop an addictive relationship with [[Type 1 Information is Theoretical|theoretical information]] consumption. This creates a false sense of progress and security while avoiding the risk and vulnerability required for real-world action.

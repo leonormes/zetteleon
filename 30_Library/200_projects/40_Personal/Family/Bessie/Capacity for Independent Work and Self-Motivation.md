@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-20T15:26:10Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [independence, motivation, project/family/bessie, strengths]
+status: ""
+tags: ["independence", "motivation", "project/family/bessie", "strengths"]
 title: Capacity for Independent Work and Self-Motivation
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Bessie demonstrates a strong capacity for independent work and self-motivation when tasks align with her interests and when she has appropriate support structures in place. This strength can be leveraged to develop her autonomy and confidence in learning.

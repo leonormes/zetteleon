@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T14:05:09Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:11Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:32+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: FITFILE-Azure-Organization-Structure
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## FITFILE Azure Organization Structure
@@ -24,7 +24,7 @@ version:
 
 This document provides a comprehensive overview of how Azure resources are organized within the FITFILE tenant. It explains the management group hierarchy, subscription structure, access levels, and how these components work together to provide governance, security, and operational efficiency.
 
-**Last Updated:** October 2024  
+**Last Updated:** October 2024
 **Audience:** Platform Engineers, DevOps Teams, Security Teams, Management
 
 ### At a Glance
@@ -305,8 +305,8 @@ Currently, the organization follows Microsoft's recommended enterprise-scale pat
 
 ---
 
-**Document Owner:** Platform Engineering Team  
-**Last Reviewed:** October 2024  
+**Document Owner:** Platform Engineering Team
+**Last Reviewed:** October 2024
 **Version:** 1.0
 
 *For questions or updates to this documentation, please contact the Platform Engineering team or create a ticket in the FITFILE project (FFAPP) in Jira.*

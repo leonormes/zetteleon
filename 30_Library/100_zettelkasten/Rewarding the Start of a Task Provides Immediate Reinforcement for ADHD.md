@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-30T12:09:04Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:56Z
-purpose: To test if "Front-Loading" the reward alters the dopamine calculation for task initiation.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16T00:00:00.000Z"
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source: "[[MOC - Why Task Initiation is Difficult in ADHD]]"
-source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - The Four Laws of Behavior Change]]"]
-status: pending
-tags: [experiment, hypothesis, motivation, rewards, topic/health/adhd, topic/productivity]
+source_of_truth: []
+status: "pending"
+tags: ["experiment", "hypothesis", "motivation", "rewards", "The", "topic/health/adhd", "topic/productivity"]
 title: Rewarding the Start of a Task Provides Immediate Reinforcement for ADHD
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
 ---

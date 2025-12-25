@@ -1,20 +1,20 @@
 ---
-aliases: [Collaborative Budgeting]
-confidence: 0.9
+aliases: ["Collaborative Budgeting"]
+confidence: "0.9"
 created: 2025-11-10T10:13:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To distinguish respectful budgeting from controlling behavior."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Controlling Financial Behavior is Unilateral and Removes a Partner's Agency]]"]
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [autonomy, budgeting, finance, relationship, respect]
+source_of_truth: []
+status: "seedling"
+tags: ["autonomy", "budgeting", "finance", "relationship", "respect"]
 title: Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy
-type: concept
-uid: 2025-11-10T10:13:00Z
-updated: 2025-11-10T10:13:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy

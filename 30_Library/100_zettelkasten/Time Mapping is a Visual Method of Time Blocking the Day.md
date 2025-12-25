@@ -1,20 +1,20 @@
 ---
-aliases: [Time Mapping]
-confidence: 0.9
+aliases: ["Time Mapping"]
+confidence: "0.9"
 created: 2025-11-10T14:15:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T13:28:09Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define Time Mapping."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Time Blocking is a Technique for Dedicating Specific Segments of Time to Particular Tasks]]"]
-source_of_truth: ["[[MOC - Time Blocking and Time Boxing for Productivity]]"]
-status: seedling
-tags: [planning, productivity, time-blocking, time-management]
+source_of_truth: []
+status: "seedling"
+tags: ["planning", "time-blocking", "time-management", "topic/productivity"]
 title: Time Mapping is a Visual Method of Time Blocking the Day
-type: concept
-uid: 2025-11-10T14:15:00Z
-updated: 2025-11-10T14:15:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Time Mapping is a Visual Method of Time Blocking the Day

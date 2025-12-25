@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-10T08:29:43Z
-epistemic: 
-id: 20251008_Context_Pruning
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "20251008_Context_Pruning"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Context Pruning
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Context Pruning** is a [[Context Engineering for LLMs]] technique used to control context window bloat. It involves using an LLM prompt or other logic to analyse the existing context and remove information that is irrelevant to the current task. This is often applied to the output of tools before it is added to the agent's message history.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: null
 created: 2025-10-21T10:33:31Z
-epistemic: 
+epistemic: null
 excalidraw-plugin: parsed
-last_reviewed: 
-modified: 2025-12-21T14:58:02Z
-purpose: 
-review_interval: 
+last_reviewed: null
+modified: 2025-12-25T11:40:50+00:00
+purpose: null
+review_interval: null
 see_also: []
 source_of_truth: []
-status: 
-tags: [type/excalidraw]
+status: null
+tags: []
 title: ProdOS.excalidraw
-type: 
-uid: 
-updated: 
+type: null
+uid: null
+updated: null
 ---
 
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
@@ -53,6 +53,7 @@ Interest ^VjzLaJTy
 5e40367491956466ba09c5708950f80c7877ff11: [[Pasted Image 20251021153619_437.png]]
 
 %%
+
 ### Drawing
 
 ```compressed-json

@@ -1,20 +1,20 @@
 ---
-aliases: [communicative feedback, iterative understanding, repair mechanisms]
-confidence: 0.9
+aliases: ["communicative feedback", "iterative understanding", "repair mechanisms"]
+confidence: "0.9"
 created: 2025-10-31T20:04:00Z
-epistemic: principle
-last_reviewed: 2025-10-31
-modified: 2025-10-31T13:11:03Z
+epistemic: "principle"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Describes how communication succeeds through iterative adjustment"
-review_interval: 90
+review_interval: "90"
 see_also: ["Communication is inherently lossy like image compression"]
 source_of_truth: []
-status: seedling
-tags: [communication, conversation, pragmatics]
+status: "seedling"
+tags: ["communication", "conversation", "pragmatics"]
 title: Communication requires iterative approximation
-type: concept
-uid: 2025-10-31T20:04:00Z
-updated: 2025-10-31T20:04:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Communication Requires Iterative Approximation

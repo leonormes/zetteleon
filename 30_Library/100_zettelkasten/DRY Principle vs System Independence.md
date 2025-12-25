@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T12:37:00Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T13:10:59Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Balance code reuse with modularity."
-review_interval: 90
+review_interval: "90"
 see_also: ["Strategic Duplication Reduces System Coupling.md"]
 source_of_truth: []
-status: seedling
-tags: [architecture, principles]
+status: "seedling"
+tags: ["architecture", "principles"]
 title: DRY Principle vs System Independence
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

@@ -1,20 +1,20 @@
 ---
-aliases: [Elaboration]
-confidence: 0.9
+aliases: ["Elaboration"]
+confidence: "0.9"
 created: 2025-11-10T16:08:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T14:08:42Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define the Elaboration learning strategy."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Explaining to Others Enhances One's Own Learning]]"]
-source_of_truth: ["[[MOC - Understanding vs Learning]]"]
-status: seedling
-tags: [elaboration, learning, study-habits, understanding]
+source_of_truth: []
+status: "seedling"
+tags: ["elaboration", "learning", "topic/habits", "understanding"]
 title: Elaboration Deepens Understanding by Connecting New Material to Pre-existing Knowledge
-type: concept
-uid: 2025-11-10T16:08:00Z
-updated: 2025-11-10T16:08:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Elaboration Deepens Understanding by Connecting New Material to Pre-existing Knowledge

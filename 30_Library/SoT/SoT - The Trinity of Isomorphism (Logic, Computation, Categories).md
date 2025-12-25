@@ -1,26 +1,20 @@
 ---
-alias: ["Category Theory for Hackers", "Curry-Howard-Lambek", "Duality of Sums and Products", "Wadler's Trinity"]
 aliases: []
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-18T12:40:00Z
-decay-signals: []
-epistemic: authoritative
-last_reviewed: 2025-12-18
-modified: 2025-12-18T21:31:55Z
-purpose: Defines the architectural duality between Sums and Products using Category Theory.
-quality-markers: ["Synthesized from Philip Wadler's Categories for the Working Hacker"]
-related-soTs: ["[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]
-resonance-score: 10
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
+confidence: "5/5"
+created: 2025-12-18T00:00:00Z
+epistemic: "authoritative"
+last_reviewed: "2025-12-18"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "Defines the architectural duality between Sums and Products using Category Theory."
+review_interval: "1 year"
+see_also: ["[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]
+source_of_truth: []
+status: "stable"
 tags: ["architecture", "category_theory", "duality", "logic", "mathematics"]
 title: SoT - The Trinity of Isomorphism (Logic, Computation, Categories)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Working Knowledge (Stable Foundation)

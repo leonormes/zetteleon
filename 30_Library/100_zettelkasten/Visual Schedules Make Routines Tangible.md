@@ -1,18 +1,18 @@
 ---
-aliases: [Use Visual Aids for Routines]
-confidence: 
+aliases: ["Use Visual Aids for Routines"]
+confidence: "null"
 created: 2025-10-29T16:10:00Z
-epistemic: strategy
-last_reviewed: 
-modified: 2025-10-31T09:31:39Z
+epistemic: "strategy"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "To suggest a tool for making routines easier to follow."
-review_interval: 
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [external-cognition, routine, topic/productivity/productivity-tools, visual-thinking]
+status: "seedling"
+tags: ["external-cognition", "routine", "topic/productivity/productivity-tools", "visual-thinking"]
 title: Visual Schedules Make Routines Tangible
-type: strategy
+type: "strategy"
 uid: 
 updated: 
 ---

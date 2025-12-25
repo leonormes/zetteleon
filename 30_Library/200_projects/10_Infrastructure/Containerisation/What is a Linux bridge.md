@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-24T15:07:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:26Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:42+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [bridge, container, layer2, linux, topic/technology/networking, type/fact]
+status: "null"
+tags: ["bridge", "container", "layer2", "linux", "topic/technology/networking"]
 title: What is a Linux bridge
-type: Factual
+type: "Factual"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 **Links:**

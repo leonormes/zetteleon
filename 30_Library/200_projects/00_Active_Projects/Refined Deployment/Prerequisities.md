@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-01T05:44:33Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:13Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:32+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [azure, documentation, prerequisites, project/work/deployment, setup]
+status: ""
+tags: ["azure", "documentation", "prerequisites", "project/work/deployment", "setup"]
 title: Prerequisities
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The source materials provide a comprehensive overview of the prerequisites required for an Azure deployment, highlighting both the technical steps and the critical coordination needed between FITFILE and the customer (e.g., CUH, Telefonica Tech).
@@ -38,7 +38,7 @@ Before beginning the deployment, the individual performing the deployment needs 
 - Deployment Key Generation: A unique identifier for the deployment, called a `deployment-key`, must be generated.
 - This is done by running a script named `short_name.sh` located in the `Central Services` repository.
 - The script will ask for the full name of the customer and the deployment environment (e.g., Dev, Prod) to return a shortname.
-- You might need to change the script's permissions using `chmod +x ./short_name.sh` before running it.
+- You might need to change the script's permissions using `chmod +x./short_name.sh` before running it.
 - The generated key needs to be saved in a database. This `deployment-key` will be used consistently across the infrastructure.
 
 ## 2. Azure Tenant and Subscription Configuration (Customer Side)

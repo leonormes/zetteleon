@@ -1,25 +1,20 @@
 ---
 aliases: ["Equality Reflection", "Extensional Type Theory", "Identity Types", "Intensional Type Theory"]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-18T10:45:00Z
-decay-signals: []
-epistemic: authoritative
-last_reviewed: 2025-12-18
-modified: 2025-12-18T21:31:56Z
-purpose: Defines the central conflict in type theory between "Semantic Truth" (Equality Reflection) and "Decidability" (Intensional Equality).
-quality-markers: ["Synthesized from Robert Harper's Lecture on Equality"]
-related-soTs: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - Cubical Type Theory (Computational Univalence)]]"]
-resonance-score: 8
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
+confidence: "5/5"
+created: 2025-12-18T00:00:00Z
+epistemic: "authoritative"
+last_reviewed: "2025-12-18"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "Defines the central conflict in type theory between \\\"Semantic Truth\\\" (Equality Reflection) and \\\"Decidability\\\" (Intensional Equality)."
+review_interval: "1 year"
+see_also: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - Cubical Type Theory (Computational Univalence)]]"]
+source_of_truth: []
+status: "stable"
 tags: ["architecture", "equality", "formal_methods", "type_theory"]
 title: SoT - Equality in Type Theory (Intensional vs Extensional)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Working Knowledge (Stable Foundation)
@@ -38,7 +33,7 @@ updated:
 
 In an ideal world (Extensional Type Theory), if you prove $1+1=2$, the compiler instantly knows that `Vec<2>` is the same type as `Vec<1+1>`.
 
-- **The Rule:** If $\Gamma \vdash p : Id(a, b)$, then $\Gamma \vdash a \equiv b$.
+- **The Rule:** If $\Gamma \vdash p: Id(a, b)$, then $\Gamma \vdash a \equiv b$.
 - **The Consequence:** Type checking becomes proof search. To check if `x` fits in `Type A`, the compiler might have to discover a proof that `A` is equal to `B`. Since mathematical proof search is undecidable (Godel, Turing), the compiler might hang forever.
 
 ### The Intensional Solution (Identity Types)

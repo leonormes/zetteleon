@@ -1,23 +1,23 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-11-01T09:51:13Z
-criteria: Include concepts that address the philosophical problem of building identity after loss of absolute certainty
-epistemic:
-exclusions: Does not cover empirical psychology research or therapeutic interventions
-last_reviewed:
-modified: 2025-12-07T18:13:49Z
-purpose:
-review_interval:
-scope: Traces the logical sequence from recognizing arbitrariness to reconstructing confidence through pragmatic frameworks
+criteria: "Include concepts that address the philosophical problem of building identity after loss of absolute certainty"
+epistemic: ""
+exclusions: "Does not cover empirical psychology research or therapeutic interventions"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
+scope: "Traces the logical sequence from recognizing arbitrariness to reconstructing confidence through pragmatic frameworks"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [confidence, epistemology, identity, sequence, structural, uncertainty]
+status: "seedling"
+tags: ["confidence", "epistemology", "identity", "sequence", "structural", "uncertainty"]
 title: SN - Sequence Building Self and Confidence Without Certainty
-type: map
-uid:
-updated: 2025-11-01T09:51:13Z
+type: "map"
+uid: 
+updated: 
 ---
 
 ## SN - Sequence: Building Self and Confidence Without Certainty

@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:55Z
-epistemic: 
-ID: negative_labels
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+ID: "negative_labels"
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [self]
+status: ""
+tags: ["self"]
 title: negative_labels
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Negative Labels

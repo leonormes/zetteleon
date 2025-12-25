@@ -1,21 +1,21 @@
 ---
-aliases: [Inner Strength MOC, Resilience Skills MOC, Strong Spirit MOC]
-confidence: 1
+aliases: ["Inner Strength MOC", "Resilience Skills MOC", "Strong Spirit MOC"]
+confidence: "1"
 created: 2025-07-10T10:12:15Z
-epistemic: map
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:43:10Z
+epistemic: "map"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To provide a map of content for the skills and virtues related to inner strength and resilience."
-review_interval: 90
-see_also: ['[[A Concept Map for a Flourishing Human]]']
+review_interval: "90"
+see_also: ["[[A Concept Map for a Flourishing Human]]"]
 source_of_truth: []
-status: evergreen
-tags: [character-strength, moc, resilience, virtue]
+status: "evergreen"
+tags: ["character-strength", "moc", "resilience", "virtue"]
 title: Inner Strength & Resilience Skills (Your Strong Spirit)
-type: map
-uid: 20250710101215
-updated: 2025-11-01T21:28:00Z
-version: 2
+type: "map"
+uid: 
+updated: 
+version: "2"
 ---
 
 These are the quiet strengths inside you that help you face challenges and stay true to yourself. They are the core components of a strong and resilient spirit.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-29T15:18:10Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [analogy, chemistry, science, topic/cognition/mental-model]
+status: "null"
+tags: ["analogy", "chemistry", "science", "topic/cognition/mental-model"]
 title: The Bohr Model as a Simplified Mental Model
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The Bohr model of the atom, depicting electrons orbiting a nucleus like planets, is a common introductory mental model in chemistry. It is useful for explaining foundational concepts like energy shells.

@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-01T05:54:36Z
-epistemic: 
-id: TFC Service Principle for Azure
-last_reviewed: 
-modified: 2025-10-30T14:24:13Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "TFC Service Principle for Azure"
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: TFC Service Principle for Azure
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## 1. Purpose and Creation

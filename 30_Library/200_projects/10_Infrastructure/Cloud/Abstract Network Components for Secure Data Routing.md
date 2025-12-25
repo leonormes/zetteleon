@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-03-15T07:39:41Z
-epistemic: 
-id: Abstract Network Components for Secure Data Routing
-last_reviewed: 
-modified: 2025-12-22T11:16:22Z
-purpose: 
-review_interval: 
+epistemic: "null"
+id: "Abstract Network Components for Secure Data Routing"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [data-centric, networking]
+status: "null"
+tags: ["data-centric", "topic/technology/networking"]
 title: Abstract Network Components for Secure Data Routing
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 To achieve these data routing requirements, we need to introduce abstract network components that perform specific functions. Let's think about these functions from a data flow perspective:

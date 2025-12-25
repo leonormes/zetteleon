@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-23T10:26:50Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-14T11:53:16Z
+modified: 2025-12-25T11:40:23+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -93,7 +93,7 @@ Define the IAM role trust policy that restricts **who can assume it** to a speci
 }
 ```
 
-This ensures **only pods** running under the service account `hyve-sa` in the `hyve` namespace can assume this IAM role — not other workloads.
+This ensures **only pods** running under the service account `hyve-sa` in the `hyve` namespace can assume this IAM role—not other workloads.
 
 ### Step 4: Attach the Role to the Service Account
 

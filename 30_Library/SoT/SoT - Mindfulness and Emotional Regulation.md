@@ -1,35 +1,20 @@
 ---
-aliases: [Anicca, Meditation as Navigation, Mindfulness for ADHD, The Observer Self]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-12T17:00:00Z
-epistemic:
-last-synthesis: 2025-12-12
-last_reviewed: 2025-12-12
-modified: 2025-12-20T09:54:08Z
-purpose: Canonical synthesis of mindfulness practices as tools for emotional regulation, nervous system calibration, and developing the "Observer Self."
-quality-markers: []
-related-soTs: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Social Cognition & Self-Perception]]", "[[SoT - The Nature of Time and Perception]]"]
-resonance-score: 10
-review_interval: 1 year
-see_also: ["[[SoT - The Four Laws of Behavior Change]]", "[[SoT - Wabi-Sabi]]"]
-source_of_truth: true
-status: stable
-supersedes: ["[[The human brain is a dynamic complex emergent enti...]]"]
+aliases: ["Anicca", "Meditation as Navigation", "Mindfulness for ADHD", "The Observer Self"]
+confidence: "5/5"
+created: 2025-12-12T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-12"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "Canonical synthesis of mindfulness practices as tools for emotional regulation, nervous system calibration, and developing the \\\\\\\"Observer Self."
+review_interval: "1 year"
+see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Social Cognition & Self-Perception]]", "[[SoT - The Four Laws of Behavior Change]]", "[[SoT - The Nature of Time and Perception]]", "[[SoT - Wabi-Sabi]]", "[[The human brain is a dynamic complex emergent enti...]]"]
+source_of_truth: []
+status: "stable"
 tags: ["emotional-regulation", "meditation", "mental-health", "mindfulness"]
 title: SoT - Mindfulness and Emotional Regulation
-type: SoT
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Mindfulness as Navigation
-> The human mind is a "dynamic complex emergent entity," often experienced as a stormy sea.
->
-> Mindfulness is not the attempt to stop the storm (which is impossible); it is the training to become a **better sailor**. It changes your *relationship* to the storm by shifting you from being the "Waves" (Reaction) to being the "Sky" (Observation).
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. The Core Mechanism: Developing the "Observer Self"

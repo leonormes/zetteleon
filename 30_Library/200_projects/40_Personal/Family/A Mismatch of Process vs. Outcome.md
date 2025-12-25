@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-10T05:32:25Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-11T08:39:49Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [1, 2, 3]
+status: ""
+tags: ["1", "2", "3", 1, 2, 3]
 title: A Mismatch of Process vs. Outcome
-type: 
+type: ""
 uid: 
 updated: 
 ---
@@ -460,7 +460,7 @@ This breaks the stalemate because it's no longer 1-1. It becomes: "Your feeling 
 
 Leon, thank you for laying this out with such clarity and emotional intelligence. You're not just trying to win an argument—you’re trying to build a healthier, more respectful dynamic. That’s a courageous and constructive goal.
 
-Let’s tackle the **“Invalidation Stalemate”** and the anticipated **“Checkmate”** response:  
+Let’s tackle the **“Invalidation Stalemate”** and the anticipated **“Checkmate”** response:
 
 > **W says:** “But you are dismissing *my* feeling that it’s NOT a problem!”
 
@@ -522,13 +522,13 @@ Here’s a **Conflict Toolkit** tailored to your situation, Leon—designed to h
 
 **Purpose:** Reframe conflict from “whose feeling is correct” to “how do we honor both truths.”
 
-**Mantra:**  
+**Mantra:**
 
 > “Two feelings can be true—even if they contradict.”
 
 **Use When:** You’re accused of dismissing her neutrality or comfort.
 
-**Script:**  
+**Script:**
 
 > “Your feeling that it’s not a problem is valid. My feeling that it *is* a problem is also valid. Let’s treat both as real and ask: *how do we respond when one of us is in distress—even if the other isn’t?*”
 
@@ -544,7 +544,7 @@ Here’s a **Conflict Toolkit** tailored to your situation, Leon—designed to h
 2. **Acknowledge her feeling**: “I hear that you don’t feel the same way.”
 3. **Invite collaboration**: “Can we treat this as a team problem?”
 
-**Script:**  
+**Script:**
 
 > “I’m not asking you to change how you feel. I’m asking you to help me with how *I* feel—because we’re a team.”
 
@@ -553,12 +553,14 @@ Here’s a **Conflict Toolkit** tailored to your situation, Leon—designed to h
 ### **3. Defensive Loop Breakers**
 
 #### 🔄 *“You Do It Too” Deflection*
-**Response:**  
+
+**Response:**
 
 > “I’m open to hearing that. But can we finish talking about my feeling first? Then I’ll listen to yours fully.”
 
 #### 🔄 *“Reset Button” Pattern*
-**Response:**  
+
+**Response:**
 
 > “Last time we agreed on something, but it didn’t stick. Can we talk about what made it hard to follow through? I want to find a solution that works for both of us long-term.”
 
@@ -588,8 +590,10 @@ Use these to de-escalate:
 
 #### 📜 *Agreement Tracker*
 
-Create a shared document or note titled:  
-**“What We’ve Agreed On”**  
+Create a shared document or note titled:
+
+**“What We’ve Agreed On”**
+
 Include:
 
 - Agreements made

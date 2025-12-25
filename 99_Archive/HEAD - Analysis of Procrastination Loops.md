@@ -5,14 +5,14 @@ confidence:
 created: 2025-12-05T12:05:15Z
 epistemic:
 last_reviewed:
-modified: 2025-12-12T18:18:04Z
+modified: 2025-12-25T11:40:19+00:00
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: archived
 superseded-by: "[[SoT - PRODOS - System Failure Modes]]"
-tags: [state/thinking, topic/adhd, topic/productivity]
+tags: [state/thinking, topic/health/adhd, topic/productivity]
 title: HEAD - Analysis of Procrastination Loops
 type: head
 uid:

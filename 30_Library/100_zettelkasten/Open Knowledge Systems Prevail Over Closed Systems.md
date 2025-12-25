@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-20T13:32:17Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Open Knowledge Systems Prevail Over Closed Systems
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The historical trajectory of alchemy and mathematics suggests that open, transparent systems of knowledge are more robust and enduring than closed, esoteric ones.

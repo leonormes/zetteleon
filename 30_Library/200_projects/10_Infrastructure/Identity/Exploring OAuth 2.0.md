@@ -1,25 +1,25 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-03T08:42:58Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T09:06:41Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Exploring OAuth 2.0
-type: 
+type: ""
 uid: 
 updated: 
 ---
 
 ## Extract Key Takeaways
 
-**Key Takeaways: Exploring OAuth 2.0 — Must-Know Flows Explained**[^1_1]
+**Key Takeaways: Exploring OAuth 2.0—Must-Know Flows Explained**[^1_1]
 
 - **OAuth 2.0 enables secure access delegation**: Apps can connect without sharing passwords, e.g., "Sign in with Google" or API integrations.
 - **Core Components**:

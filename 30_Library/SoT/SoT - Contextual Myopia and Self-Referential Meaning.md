@@ -1,35 +1,20 @@
 ---
-aliases: [Focus Bubble, Myopic Understanding]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-12T13:00:00Z
-epistemic:
-last-synthesis: 2025-12-12
-last_reviewed: 2025-12-12
-modified: 2025-12-20T09:54:09Z
-purpose: Canonical definition and structural analysis of Contextual Myopia and Self-Referential Meaning.
-quality-markers: []
-related-soTs: ["[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - PRODOS (System Architecture)]]"]
-resonance-score: 8
-review_interval: 6 months
-see_also: ["[[MOC - Cognitive Biases]]"]
-source_of_truth: true
-status: stable
-supersedes: ["[[Contextual Myopia and Goal Displacement]]", "[[Goal Displacement]]", "[[Humans are susceptible to contextual myopia]]", "[[Sunk Cost Fallacy Reinforces Myopia]]", "[[The Focusing Illusion]]"]
-tags: ["bias", "cognition", "psychology", "system-thinking"]
+aliases: ["Focus Bubble", "Myopic Understanding"]
+confidence: "5/5"
+created: 2025-12-12T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-12"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "Canonical definition and structural analysis of Contextual Myopia and Self-Referential Meaning."
+review_interval: "6 months"
+see_also: ["[[Contextual Myopia and Goal Displacement]]", "[[Goal Displacement]]", "[[Humans are susceptible to contextual myopia]]", "[[MOC - Cognitive Biases]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - PRODOS (System Architecture)]]", "[[Sunk Cost Fallacy Reinforces Myopia]]", "[[The Focusing Illusion]]"]
+source_of_truth: []
+status: "stable"
+tags: ["bias", "topic/cognition", "topic/psychology", "topic/systems"]
 title: SoT - Contextual Myopia and Self-Referential Meaning
-type: SoT
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Contextual Myopia** is the cognitive phenomenon where an individual's frame of reference narrows to their immediate environment, creating a "Focus Bubble."
->
-> Inside this bubble, local tasks and emotions are magnified in importance, leading to **Goal Displacement** (mistaking the means for the ends) and **Self-Referential Meaning** (believing the process is valuable simply because *you* are doing it).
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. The Anatomy of the Bubble (The 4-Stage Cycle)

@@ -1,21 +1,21 @@
 ---
-aliases: [ADHD is Associated with Deficits in Metacognition]
-confidence: 
+aliases: ["ADHD is Associated with Deficits in Metacognition"]
+confidence: "null"
 created: 2025-08-26T15:05:03Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-29T19:39:24Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/health/adhd]
+status: "null"
+tags: ["topic/health/adhd"]
 title: Metacognitive Deficits in ADHD Create Practical Impairments
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 When a person with ADHD struggles with metacognition, it leads to tangible, real-world difficulties. This "mind-blindness" can prevent them from recognising why they feel unmotivated or stuck. Consequently, they find it hard to identify effective strategies to overcome challenges. It also impairs their ability to accurately self-assess their performance and understand the root causes of their struggles, often leading to cycles of frustration and perceived failure.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:38:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [agents, CICD, ephemeral-infrastructure, security]
+status: ""
+tags: ["agents", "CICD", "ephemeral-infrastructure", "security"]
 title: Ephemeral Agents and Environments in Terraform Cloud
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 When utilizing Terraform Cloud Agents, especially in conjunction with [[Dynamic Provider Credentials (DPC) in Terraform Cloud|Dynamic Provider Credentials]], it is a critical security best practice to ensure that these agents operate within **ephemeral environments**.

@@ -5,7 +5,7 @@ confidence:
 created: 2025-12-09T03:45:42Z
 epistemic:
 last_reviewed:
-modified: 2025-12-10T13:07:05Z
+modified: 2025-12-25T11:40:49+00:00
 purpose:
 review_interval:
 see_also: []
@@ -23,6 +23,7 @@ You are an expert Terraform Developer acting as the Guardian of the LCRCA Azure 
 When generating or modifying Terraform code, you must strictly adhere to the following naming standards and tagging policies.
 
 ## 1. Global Naming Rules
+
 **General Pattern (Long Name):** `${resource_type}-${workload}-${subscription_purpose}-${region}-${index}`
 
 - **Delimiter:** Hyphens `-`
@@ -58,7 +59,7 @@ When generating or modifying Terraform code, you must strictly adhere to the fol
 Override the default pattern for these specific resources:
 
 | Resource Type | Template | Example |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Resource Group** | `rg-${workload}-${subscription_purpose}-${index}` | `rg-lcradds-iden-01` |
 | **VNet** | `vnet-${workload}-${subscription_purpose}-${region}-${index}` | `vnet-default-iden-uks-01` |
 | **Subnet** | `sn-${workload}-${subscription_purpose}-${region}-${index}` | `sn-webtier-iden-uks-01` |

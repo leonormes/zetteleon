@@ -1,20 +1,20 @@
 ---
-aliases: [Habits Override Intentions]
-confidence: 0.9
+aliases: ["Habits Override Intentions"]
+confidence: "0.9"
 created: 2025-11-06T19:56:01Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "fact"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To explain why systems based on automatic habits are more reliable than goals based on fluctuating intentions."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["Goals are good for setting a direction, but systems are best for making progress.md"]
-status: seedling
-tags: [habits, intentions, motivation, systems]
+source_of_truth: []
+status: "seedling"
+tags: ["intentions", "motivation", "topic/habits", "topic/systems"]
 title: Strong Habits Override Weak Intentions
-type: concept
-uid: 2025-11-06T19:56:01Z
-updated: 2025-11-06T19:56:01Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Strong Habits Override Weak Intentions

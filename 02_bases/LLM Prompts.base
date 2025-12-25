@@ -3,7 +3,7 @@ views:
     name: Table
     filters:
       and:
-        - file.folder == "prompts"
+        - file.folder == "10_System/prompts"
     order:
       - file.name
       - version

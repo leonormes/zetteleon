@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-26T09:53:43Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [evolution, science, topic/philosophy, universe]
+status: "null"
+tags: ["evolution", "science", "topic/philosophy", "universe"]
 title: Non-Teleological Universe
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 The modern scientific consensus, particularly in evolutionary biology, describes a non-teleological universe. This view asserts that the universe and its contents did not come into being for any pre-ordained reason or purpose.

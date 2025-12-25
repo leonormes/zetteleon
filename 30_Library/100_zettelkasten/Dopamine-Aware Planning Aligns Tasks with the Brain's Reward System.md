@@ -1,20 +1,20 @@
 ---
 aliases: ["Dopamine-Aware Planning"]
-confidence: 0.8
+confidence: "0.8"
 created: 2025-11-11T19:05:14Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-11T10:57:47Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Describes how to structure project work to align with the brain's dopamine-based reward system."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [adhd, dopamine, planning, productivity]
+status: "seedling"
+tags: ["dopamine", "planning", "topic/health/adhd", "topic/productivity"]
 title: "Dopamine-Aware Planning Aligns Tasks with the Brain's Reward System"
-type: strategy
-uid: 2025-11-11T19:05:14Z
-updated: 2025-11-11T19:05:14Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## Dopamine-Aware Planning Aligns Tasks with the Brain's Reward System

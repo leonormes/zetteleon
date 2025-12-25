@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T10:46:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T10:46:00Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain DNS search list functionality."
-review_interval: 90
+review_interval: "90"
 see_also: ["DNS Resolvers Translate Domain Requests to IP Queries.md"]
 source_of_truth: []
-status: seedling
-tags: [dns, networking]
+status: "seedling"
+tags: ["dns", "topic/technology/networking"]
 title: DNS Resolver Search Lists Complete Unqualified Domain Names
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

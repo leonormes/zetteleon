@@ -1,20 +1,20 @@
 ---
-aliases: [Praxis]
-confidence: 0.9
+aliases: ["Praxis"]
+confidence: "0.9"
 created: 2025-11-12T14:10:03Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-12T13:54:41Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To define the modern philosophical concept of Praxis."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Aristotle Distinguished Between Episteme, Techne, and Phronesis]]"]
-source_of_truth: ["[[MOC - The Science of Taking Action Bridging the Knowledge-Action Gap]]"]
-status: seedling
-tags: [action, philosophy, theory]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "philosophy", "theory"]
 title: Praxis is the Cyclical Process of Action and Reflection to Transform the World
-type: concept
-uid: 2025-11-12T14:10:03Z
-updated: 2025-11-12T14:10:03Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Praxis is the Cyclical Process of Action and Reflection to Transform the World

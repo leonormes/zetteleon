@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-30T12:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [cbt, morita-therapy, therapy, topic/psychology]
+status: "null"
+tags: ["cbt", "morita-therapy", "therapy", "topic/psychology"]
 title: Morita Therapy - Distinctions from Western Therapies
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 [[Morita Therapy]] offers a distinct approach compared to many Western psychotherapies, particularly those that focus on cognitive restructuring (like CBT).

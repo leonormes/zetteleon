@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-31T11:25:00Z
 criteria: ["Cognitive Load", "Definition", "Demonstration"]
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Compare knowing and understanding."
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 subject: "Knowing vs Understanding"
-tags: [cognition, comparison]
+tags: ["comparison", "topic/cognition"]
 title: Comparison - Knowing vs Understanding
-type: comparison
+type: "comparison"
 uid: 
 updated: 
 ---

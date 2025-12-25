@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-29T15:17:18Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [analogy, effective-theory, physics, topic/cognition/mental-model]
+status: "null"
+tags: ["analogy", "effective-theory", "physics", "topic/cognition/mental-model"]
 title: Newtonian Physics as an Effective Theory
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Newtonian physics is a powerful example of an [[Effective Theory]]. It functions with incredible accuracy for everyday phenomena (e.g., building bridges, sending rockets to the Moon) and was considered a complete model for centuries.

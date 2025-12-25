@@ -1,18 +1,18 @@
 ---
-aliases: [Death by a Thousand Cuts Budgeting]
-confidence: 
+aliases: ["Death by a Thousand Cuts Budgeting"]
+confidence: ""
 created: 2025-11-18T14:31:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-18T14:01:07Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [budgeting, finance, habits]
+status: ""
+tags: ["budgeting", "finance", "topic/habits"]
 title: High-Frequency Micro-Spending Drains Resources
-type: 
+type: ""
 uid: 
 updated: 
 ---

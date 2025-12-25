@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 0.7
+confidence: "0.7"
 created: 2025-11-01T11:22:13Z
-epistemic: opinion
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:35:54Z
+epistemic: "opinion"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:47+00:00
 purpose: "Define the logicist philosophy that mathematics reduces to pure logic."
-review_interval: 90
-see_also: ["[[Gödel's Incompleteness Theorems Constrain Foundational Programs]]", "[[Logic Is the Grammar of Rigorous Argument]]", "[[Russell's Paradox in Naive Set Theory]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md"]
-status: seedling
-tags: [foundations, logic, philosophy, topic/maths]
+review_interval: "90"
+see_also: ["[[G\\u00f6del''s Incompleteness Theorems Constrain Foundational Programs]]", "[[Logic Is the Grammar of Rigorous Argument]]", "[[Russell''s Paradox in Naive Set Theory]]"]
+source_of_truth: []
+status: "seedling"
+tags: ["foundations", "logic", "philosophy", "topic/maths"]
 title: Logicism (Mathematics as Extension of Logic)
-type: concept
-uid: 2025-11-01T11:22:13Z
-updated: 2025-11-01T11:22:13Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Logicism proposes that all of mathematics is an extension of pure logic, and that mathematical truths are complex tautologies derivable from the axioms of logic alone.

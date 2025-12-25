@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-23T17:11:03Z
-creation_date: 2025-08-23
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+creation_date: "2025-08-23T00:00:00.000Z"
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [meaning, topic/cognition/mental-model, topic/philosophy]
+status: "null"
+tags: ["meaning", "topic/cognition/mental-model", "topic/philosophy"]
 title: The Fractal Model of Self-Referential Meaning
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The Fractal Model of Self-Referential Meaning posits that the mechanisms by which humans create localized, temporary "bubbles" of importance are a micro-version of the grand cosmic process of life's emergence. The model is fractal, meaning the same fundamental pattern repeats at different scales.

@@ -1,20 +1,20 @@
 ---
-aliases: [Externalized Direction]
-confidence: 0.9
+aliases: ["Externalized Direction"]
+confidence: "0.9"
 created: 2025-11-10T13:08:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T13:28:09Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To explain the cognitive benefit of using external systems."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Systems Act as External Containers for Motivational Energy]]"]
-source_of_truth: ["[[MOC - Productivity Systems vs Historical Achievement]]"]
-status: seedling
-tags: [cognition, flow-state, productivity, systems, working-memory]
+source_of_truth: []
+status: "seedling"
+tags: ["flow-state", "topic/cognition", "topic/productivity", "topic/systems", "working-memory"]
 title: Externalizing Direction Reduces Cognitive Load and Fosters Flow
-type: concept
-uid: 2025-11-10T13:08:00Z
-updated: 2025-11-10T13:08:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Externalizing Direction Reduces Cognitive Load and Fosters Flow

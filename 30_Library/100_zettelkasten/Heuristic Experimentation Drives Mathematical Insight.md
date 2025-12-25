@@ -1,21 +1,21 @@
 ---
-aliases: [Mathematical Experimentation, Tinkering]
-confidence: 0.8
+aliases: ["Mathematical Experimentation", "Tinkering"]
+confidence: "0.8"
 created: 2025-11-01T11:22:13Z
-epistemic: hypothesis
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:35:54Z
-purpose: "Describe experimentation and tinkering as heuristic methods for mathematical discovery."
-review_interval: 90
+epistemic: "hypothesis"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: "90"
 see_also: ["[[Mathematics Involves Creativity and Aesthetic Judgement]]", "[[The Process of Mathematical Discovery is Driven by Pattern Recognition]]", "[[Visualization Supports Mathematical Thinking]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md"]
-status: seedling
-tags: [creativity, heuristics, topic/maths]
+source_of_truth: []
+status: "seedling"
+tags: ["creativity", "heuristics", "topic/maths"]
 title: Heuristic Experimentation Drives Mathematical Insight
-type: strategy
-uid: 2025-11-01T11:22:13Z
-updated: 2025-11-01T11:22:13Z
-version: 1
+type: "strategy"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Mathematical discovery involves breaking down complex problems into smaller components, examining them through trial and experimentation, and reconstructing understanding—an iterative process that embraces failure as learning.

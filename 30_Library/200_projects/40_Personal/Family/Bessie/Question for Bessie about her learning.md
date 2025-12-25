@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-20T07:59:17Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [beliefs, project/family/bessie, topic/learning]
+status: ""
+tags: ["beliefs", "project/family/bessie", "topic/learning"]
 title: Question for Bessie about her learning
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Understanding The "I Don't Understand Any of It" Reaction

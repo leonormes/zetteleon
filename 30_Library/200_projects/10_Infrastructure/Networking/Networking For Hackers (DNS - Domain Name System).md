@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T11:41:58Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:32:14Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/networking/dns]
+status: ""
+tags: ["topic/technology/networking/dns"]
 title: Networking For Hackers (DNS - Domain Name System)
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 <https://youtube.com/watch?v=tmQ9EbUEv4Y>\&si=sU-HvlGgPpEo4QHL

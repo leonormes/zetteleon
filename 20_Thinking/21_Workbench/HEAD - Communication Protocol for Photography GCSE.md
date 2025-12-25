@@ -1,22 +1,22 @@
 ---
 aliases: []
 AoL: Personal
-confidence:
+confidence: null
 created: 2025-12-06T10:15:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-12T18:18:35Z
-purpose:
-review_interval:
+epistemic: null
+last_reviewed: null
+modified: 2025-12-25T11:40:49+00:00
+purpose: null
+review_interval: null
 see_also: []
 source_of_truth: []
 status: archived
-tags: [state/head, topic/communication, topic/family/bessie, type/bug]
+tags: [state/head, topic/communication, topic/family/bessie]
 title: HEAD - Communication Protocol for Photography GCSE
 type: head
-uid:
-up: "[[HEAD - Bessie and Her Schooling]]"
-updated:
+uid: null
+up: '[[HEAD - Bessie and Her Schooling]]'
+updated: null
 ---
 
 > [!abstract] The Spark
@@ -49,6 +49,7 @@ updated:
 - **Conflict:** By satisfying my need for order (explaining the structure), I am violating her need for safety (manageable chunks).
 
 ## 🧪 Next Test (The "Co-Pilot" Protocol)
+
 *Experiment: Invert the flow of information.*
 
 - [ ] **Action:** The "Ignorant Client" Game.

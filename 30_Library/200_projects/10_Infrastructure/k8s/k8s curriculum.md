@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:52Z
-epistemic: 
-id: container-curriculum
-last_reviewed: 
-modified: 2025-12-20T09:54:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "container-curriculum"
+last_reviewed: ""
+modified: 2025-12-25T11:40:36+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers, k8s]
+status: ""
+tags: ["containers", "k8s"]
 title: k8s curriculum
-type: curriculum
+type: "curriculum"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## Linux Containers: From Scratch to Production
@@ -2155,6 +2155,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
 ---
 
 ## Phase 1: Foundations of Containers
+
 ### 1.1 What Are Containers
 
 - Objective: Understand containers vs. VMs, isolation, and use cases.
@@ -2172,6 +2173,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
 ---
 
 ## Phase 2: Building a Container Manually
+
 ### 2.1 Filesystem Isolation
 
 - Objective: Create a minimal root filesystem.
@@ -2226,6 +2228,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
 ---
 
 ## Phase 3: Automating with CLI Tools
+
 ### 3.1 Scripting a Basic Container
 
 - Lab: Write a Bash script to automate Phase 2 steps:
@@ -2251,6 +2254,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
 ---
 
 ## Phase 4: Transition to Docker (CLI Focus)
+
 ### 4.1 Docker Internals
 
 - Key Concepts: Images, layers, Docker daemon, and `containerd`.
@@ -2289,6 +2293,7 @@ Prerequisites: Basic Linux CLI familiarity (commands like `chroot`, `mount`, `ip
 ---
 
 ## Phase 5: Advanced Topics
+
 ### 5.1 Security Hardening
 
 - Lab:
@@ -2361,10 +2366,10 @@ To transition from passive to active learning and structure a challenging curric
 
 Active learning prioritizes engagement, reflection, and application over passive consumption. For Kubernetes or similar technical topics:
 
-- Problem-Based Learning: Tackle real-world Kubernetes challenges (e.g., deploying a microservice, configuring persistent storage) instead of memorizing theory .
-- Think-Pair-Share: Collaborate with peers to solve Kubernetes cluster issues, then share solutions in forums like Kubernetes Slack or GitHub communities .
-- Simulations and Labs: Use hands-on labs (e.g., [CKAD exam simulators](https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/) or [Kubernetes Playground](https://killercoda.com/)) to practice deployments, scaling, and troubleshooting .
-- Flipped Classroom: Study Kubernetes documentation first, then apply concepts in projects like setting up a cluster with Ansible or deploying a CI/CD pipeline .
+- Problem-Based Learning: Tackle real-world Kubernetes challenges (e.g., deploying a microservice, configuring persistent storage) instead of memorizing theory.
+- Think-Pair-Share: Collaborate with peers to solve Kubernetes cluster issues, then share solutions in forums like Kubernetes Slack or GitHub communities.
+- Simulations and Labs: Use hands-on labs (e.g., [CKAD exam simulators](https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/) or [Kubernetes Playground](https://killercoda.com/)) to practice deployments, scaling, and troubleshooting.
+- Flipped Classroom: Study Kubernetes documentation first, then apply concepts in projects like setting up a cluster with Ansible or deploying a CI/CD pipeline.
 
 ---
 
@@ -2374,44 +2379,44 @@ For Kubernetes, break the topic into core components and design milestones with 
 
 ### Phase 1: Foundations
 
-- Core Concepts: Learn pods, deployments, services via interactive tutorials (e.g., [Boot.dev’s Kubernetes course](https://www.boot.dev/courses/learn-kubernetes)) .
-- Hands-On Practice: Deploy a simple app using `kubectl` and YAML manifests. Use GitHub repositories like [iKubernetes/learning-k8s](https://github.com/iKubernetes/learning-k8s) for guided projects .
-- Active Recall: Quiz yourself on Kubernetes architecture using flashcards or platforms like [CKAD Prep](https://github.com/bmuschko/ckad-prep) .
+- Core Concepts: Learn pods, deployments, services via interactive tutorials (e.g., [Boot.dev’s Kubernetes course](https://www.boot.dev/courses/learn-kubernetes)).
+- Hands-On Practice: Deploy a simple app using `kubectl` and YAML manifests. Use GitHub repositories like [iKubernetes/learning-k8s](https://github.com/iKubernetes/learning-k8s) for guided projects.
+- Active Recall: Quiz yourself on Kubernetes architecture using flashcards or platforms like [CKAD Prep](https://github.com/bmuschko/ckad-prep).
 
 ### Phase 2: Advanced Topics
 
-- Multi-Container Pods: Build sidecar or init container patterns using case studies from [Microsoft’s Kubernetes Learning Path](https://github.com/microsoft/kubernetes-learning-path) .
-- Networking and Security: Experiment with NetworkPolicies and Ingress controllers. Use tools like MetalLB or OpenELB .
-- Stateful Workloads: Deploy stateful applications (e.g., databases) with PersistentVolumes and StorageClasses .
+- Multi-Container Pods: Build sidecar or init container patterns using case studies from [Microsoft’s Kubernetes Learning Path](https://github.com/microsoft/kubernetes-learning-path).
+- Networking and Security: Experiment with NetworkPolicies and Ingress controllers. Use tools like MetalLB or OpenELB.
+- Stateful Workloads: Deploy stateful applications (e.g., databases) with PersistentVolumes and StorageClasses.
 
 ### Phase 3: Mastery and Certification
 
-- CKAD/CKA Prep: Enroll in structured courses like [Coursera’s CKAD specialization](https://www.coursera.org/specializations/certified-kubernetes-application-developer-ckad-course) with labs and exam simulations .
-- Contribute to Open Source: Fix bugs or add features to Kubernetes-related projects on GitHub (e.g., Helm charts, operators) .
+- CKAD/CKA Prep: Enroll in structured courses like [Coursera’s CKAD specialization](https://www.coursera.org/specializations/certified-kubernetes-application-developer-ckad-course) with labs and exam simulations.
+- Contribute to Open Source: Fix bugs or add features to Kubernetes-related projects on GitHub (e.g., Helm charts, operators).
 
 ---
 
 ## 3. Implement Active Learning Techniques
 
-- Uncertainty Sampling: Focus on areas where your knowledge is weakest. For example, if you struggle with Kubernetes RBAC, prioritize labs on role-based access control .
-- Reflection: After each project, write a post-mortem analysis. What went wrong? How did you fix it? Share these reflections on a blog or GitHub README .
-- Gamification: Compete in Kubernetes hackathons or set personal goals (e.g., “Deploy a fault-tolerant cluster in 2 hours”) .
+- Uncertainty Sampling: Focus on areas where your knowledge is weakest. For example, if you struggle with Kubernetes RBAC, prioritize labs on role-based access control.
+- Reflection: After each project, write a post-mortem analysis. What went wrong? How did you fix it? Share these reflections on a blog or GitHub README.
+- Gamification: Compete in Kubernetes hackathons or set personal goals (e.g., “Deploy a fault-tolerant cluster in 2 hours”).
 
 ---
 
 ## 4. Leverage Community and Feedback
 
-- Peer Teaching: Explain Kubernetes concepts to others via meetups or YouTube tutorials. Teaching forces you to solidify your understanding .
-- Join Learning Circles: Participate in study groups like [Kubernetes Community Days](https://kubernetescommunitydays.org/) or Discord channels for collaborative problem-solving .
-- Seek Feedback: Use platforms like [KodeKloud](https://kodekloud.com/) for graded Kubernetes exercises and peer reviews .
+- Peer Teaching: Explain Kubernetes concepts to others via meetups or YouTube tutorials. Teaching forces you to solidify your understanding.
+- Join Learning Circles: Participate in study groups like [Kubernetes Community Days](https://kubernetescommunitydays.org/) or Discord channels for collaborative problem-solving.
+- Seek Feedback: Use platforms like [KodeKloud](https://kodekloud.com/) for graded Kubernetes exercises and peer reviews.
 
 ---
 
 ## 5. Track Progress and Iterate
 
-- Milestones: Set SMART goals (e.g., “Master Helm chart templating by March”). Track progress using tools like Notion or GitHub Projects .
-- Assessments: Regularly test yourself with CKAD practice exams or scenario-based labs .
-- Iterate: If a method isn’t working (e.g., passive video tutorials), switch to active alternatives like coding challenges or contributing to open-source .
+- Milestones: Set SMART goals (e.g., “Master Helm chart templating by March”). Track progress using tools like Notion or GitHub Projects.
+- Assessments: Regularly test yourself with CKAD practice exams or scenario-based labs.
+- Iterate: If a method isn’t working (e.g., passive video tutorials), switch to active alternatives like coding challenges or contributing to open-source.
 
 ---
 
@@ -2419,20 +2424,20 @@ For Kubernetes, break the topic into core components and design milestones with 
 
 | Week | Topic | Active Learning Activity | Resources |
 |------|-------|--------------------------|-----------|
-| 1–2 | Core Concepts | Deploy a static website using pods and services. Debug failures using `kubectl logs` . | [Boot.dev](https://www.boot.dev/courses/learn-kubernetes)  |
-| 3–4 | Networking | Set up Ingress with Nginx and troubleshoot network policies. Use Katacoda labs for simulations . | [Kubernetes.io Docs](https://kubernetes.io/docs/concepts/services-networking/)  |
-| 5–6 | State Management | Deploy PostgreSQL with PersistentVolumes. Test failover scenarios . | [iKubernetes/learning-k8s](https://github.com/iKubernetes/learning-k8s)  |
-| 7–8 | Security | Configure RBAC and audit cluster security. Use tools like kube-bench . | [CKAD Prep Course](https://github.com/bmuschko/ckad-prep)  |
-| 9–10 | Certification Prep | Solve timed CKAD exam simulations. Review mistakes with peers . | [Linux Foundation CKAD](https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/)  |
+| 1–2 | Core Concepts | Deploy a static website using pods and services. Debug failures using `kubectl logs`. | [Boot.dev](https://www.boot.dev/courses/learn-kubernetes)  |
+| 3–4 | Networking | Set up Ingress with Nginx and troubleshoot network policies. Use Katacoda labs for simulations. | [Kubernetes.io Docs](https://kubernetes.io/docs/concepts/services-networking/)  |
+| 5–6 | State Management | Deploy PostgreSQL with PersistentVolumes. Test failover scenarios. | [iKubernetes/learning-k8s](https://github.com/iKubernetes/learning-k8s)  |
+| 7–8 | Security | Configure RBAC and audit cluster security. Use tools like kube-bench. | [CKAD Prep Course](https://github.com/bmuschko/ckad-prep)  |
+| 9–10 | Certification Prep | Solve timed CKAD exam simulations. Review mistakes with peers. | [Linux Foundation CKAD](https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/)  |
 
 ---
 
 ## Key Takeaways
 
-1. Shift from passive to active: Replace tutorials with hands-on projects and problem-solving .
-2. Structure with milestones: Break Kubernetes into manageable components and track progress .
-3. Engage the community: Learn collaboratively and teach others to reinforce knowledge .
-4. Iterate and adapt: Continuously refine your methods based on feedback and gaps .
+1. Shift from passive to active: Replace tutorials with hands-on projects and problem-solving.
+2. Structure with milestones: Break Kubernetes into manageable components and track progress.
+3. Engage the community: Learn collaboratively and teach others to reinforce knowledge.
+4. Iterate and adapt: Continuously refine your methods based on feedback and gaps.
 
 By integrating these strategies, you’ll not only master Kubernetes but also develop a lifelong framework for tackling complex topics efficiently.
 
@@ -2529,23 +2534,23 @@ Objective: Grasp the building blocks of containers at the kernel level.
 1. Namespaces:
 
    - [[PID Namespace]]: Isolate process trees.
-     *Exercise*: Use `unshare -p` to create a new PID namespace and observe isolated processes .
+     *Exercise*: Use `unshare -p` to create a new PID namespace and observe isolated processes.
    - Mount Namespace: Isolate filesystem views.
-     *Exercise*: Combine `unshare -m` with `chroot` to create a filesystem jail .
+     *Exercise*: Combine `unshare -m` with `chroot` to create a filesystem jail.
    - Network Namespace: Isolate network interfaces.
-     *Exercise*: Create a virtual Ethernet pair with `ip netns` .
-   - UTS Namespace: Isolate hostname and domain name .
+     *Exercise*: Create a virtual Ethernet pair with `ip netns`.
+   - UTS Namespace: Isolate hostname and domain name.
 
 2. Control Groups (cgroups):
 
    - Memory Limits: Restrict memory usage via `/sys/fs/cgroup/memory`.
-     *Exercise*: Limit a process to 100MB and trigger an OOM kill .
+     *Exercise*: Limit a process to 100MB and trigger an OOM kill.
    - CPU Quotas: Use `cpu.max` to allocate CPU shares.
-     *Exercise*: Cap a CPU-intensive process to 10% utilization .
+     *Exercise*: Cap a CPU-intensive process to 10% utilization.
 
 3. Filesystem Isolation:
-   - chroot: Create a minimal root filesystem using Alpine rootfs .
-   - OverlayFS: Layer read-only and writable filesystems for container images .
+   - chroot: Create a minimal root filesystem using Alpine rootfs.
+   - OverlayFS: Layer read-only and writable filesystems for container images.
 
 ---
 
@@ -2556,18 +2561,18 @@ Objective: Assemble primitives into a functional container runtime.
 1. Step-by-Step Implementation:
 
    - Create a PID namespace with `unshare --pid --fork`.
-   - Mount a custom root filesystem with `chroot` or `pivot_root` .
-   - Apply cgroups to limit CPU/memory .
-   - Use `nsenter` to debug namespaces .
+   - Mount a custom root filesystem with `chroot` or `pivot_root`.
+   - Apply cgroups to limit CPU/memory.
+   - Use `nsenter` to debug namespaces.
 
 2. Security Hardening:
 
-   - Linux Capabilities: Drop unnecessary privileges (e.g., `CAP_NET_BIND_SERVICE` for binding low ports) .
+   - Linux Capabilities: Drop unnecessary privileges (e.g., `CAP_NET_BIND_SERVICE` for binding low ports).
    - Seccomp: Filter syscalls to reduce attack surface.
 
 3. Toolchain Integration:
-   - Use `buildah` to create OCI-compliant images from scratch .
-   - Experiment with `runc` to execute containers .
+   - Use `buildah` to create OCI-compliant images from scratch.
+   - Experiment with `runc` to execute containers.
 
 ---
 
@@ -2576,11 +2581,11 @@ Objective: Assemble primitives into a functional container runtime.
 Objective: Explore real-world container ecosystems and optimizations.
 
 1. Container Networking:
-   - Bridge networks with `veth` pairs and `iptables` .
+   - Bridge networks with `veth` pairs and `iptables`.
 2. Storage Layers:
-   - Manage volumes with `overlay2` and `tmpfs` .
+   - Manage volumes with `overlay2` and `tmpfs`.
 3. Orchestration Basics:
-   - Deploy multi-container apps using `docker-compose` or `podman-play-kube` .
+   - Deploy multi-container apps using `docker-compose` or `podman-play-kube`.
 
 ---
 
@@ -2588,17 +2593,17 @@ Objective: Explore real-world container ecosystems and optimizations.
 
 1. Hands-On Labs:
 
-   - Linux Container Primitives Jupyter Notebooks [GitHub](https://github.com/aws-samples/linux-container-primitives-presentation-notebooks): Interactive tutorials for cgroups and namespaces .
-   - Containers from Scratch [Blog](https://www.cnblogs.com/lfri/p/15820394.html): Step-by-step guide to building containers without Docker .
+   - Linux Container Primitives Jupyter Notebooks [GitHub](https://github.com/aws-samples/linux-container-primitives-presentation-notebooks): Interactive tutorials for cgroups and namespaces.
+   - Containers from Scratch [Blog](https://www.cnblogs.com/lfri/p/15820394.html): Step-by-step guide to building containers without Docker.
 
 2. Structured Courses:
 
-   - LFS253: Containers Fundamentals [Linux Foundation](https://training.linuxfoundation.org/training/containers-fundamentals/): Covers Docker, Podman, and OCI specifications .
+   - LFS253: Containers Fundamentals [Linux Foundation](https://training.linuxfoundation.org/training/containers-fundamentals/): Covers Docker, Podman, and OCI specifications.
 
 3. Deep Dives:
 
-   - Control Groups Internals [Schutzwerk Blog](https://www.schutzwerk.com/en/blog/linux-container-cgroups-01-intro/): Explains cgroups v1/v2 and kernel mechanics .
-   - Building a Docker Clone in Go [Michal Pitr’s Blog](https://michalpitr.substack.com/p/linux-container-from-scratch): Code-driven approach to container internals .
+   - Control Groups Internals [Schutzwerk Blog](https://www.schutzwerk.com/en/blog/linux-container-cgroups-01-intro/): Explains cgroups v1/v2 and kernel mechanics.
+   - Building a Docker Clone in Go [Michal Pitr’s Blog](https://michalpitr.substack.com/p/linux-container-from-scratch): Code-driven approach to container internals.
 
 4. Books:
    - *Linux Kernel Development* by Robert Love: Covers namespaces and cgroups in depth.
@@ -2608,9 +2613,9 @@ Objective: Explore real-world container ecosystems and optimizations.
 
 ## Active Learning Strategies to Combat IoED
 
-1. Feynman Technique: After each module, explain concepts in simple terms (e.g., "How does a PID namespace work?") .
+1. Feynman Technique: After each module, explain concepts in simple terms (e.g., "How does a PID namespace work?").
 2. Iterative Prompting: Use ChatGPT to validate your understanding (e.g., "Why does `unshare` require `--fork`?").
-3. Break & Fix: Intentionally misconfigure cgroups/namespaces and debug the failures .
+3. Break & Fix: Intentionally misconfigure cgroups/namespaces and debug the failures.
 
 ---
 

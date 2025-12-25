@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-22T02:54:03Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:24Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [go]
+status: ""
+tags: ["go"]
 title: My Go Importer
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## ACR Import Algorithm & Go Code Explanation

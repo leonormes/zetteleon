@@ -1,20 +1,20 @@
 ---
-aliases: [Discipline vs Willpower]
-confidence: 0.9
+aliases: ["Discipline vs Willpower"]
+confidence: "0.9"
 created: 2025-11-10T13:03:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T13:28:09Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To reframe the concept of discipline."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Productivity Systems vs Historical Achievement]]"]
-status: seedling
-tags: [accountability, discipline, environment, productivity, willpower]
+source_of_truth: []
+status: "seedling"
+tags: ["accountability", "discipline", "environment", "topic/productivity", "willpower"]
 title: Discipline Relies on External Supports Not Just Willpower
-type: concept
-uid: 2025-11-10T13:03:00Z
-updated: 2025-11-10T13:03:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Discipline Relies on External Supports Not Just Willpower

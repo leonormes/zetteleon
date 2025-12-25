@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-31T16:07:06Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [cross-cultural-communication, culture, language, topic/cognition/bias]
+status: ""
+tags: ["cross-cultural-communication", "culture", "language", "topic/cognition/bias"]
 title: Cross-Cultural Communication Effectiveness
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Despite the inherent limitations of language and cultural differences, humans demonstrate a remarkable ability to communicate across linguistic and cultural boundaries. This effectiveness stems from several key factors.

@@ -1,20 +1,20 @@
 ---
-aliases: [ADHD Focus Regulation, Distractibility, Hyperfocus]
-confidence: 0.8
+aliases: ["ADHD Focus Regulation", "Distractibility", "Hyperfocus"]
+confidence: "0.8"
 created: 2025-11-06T19:54:00Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
-purpose: "To explain the dual nature of focus regulation in ADHD, encompassing both distractibility and hyperfocus."
-review_interval: 90
+epistemic: "fact"
+last_reviewed: "2025-11-06T00:00:00.000Z"
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: "90"
 see_also: []
-source_of_truth: ["A Deep Dive into Adult ADHD in Remote Software Development.md"]
-status: seedling
-tags: [adhd, focus, hyperfocus, productivity]
+source_of_truth: []
+status: "seedling"
+tags: ["focus", "hyperfocus", "topic/health/adhd", "topic/productivity"]
 title: ADHD Involves an Inability to Regulate Attention
-type: concept
-uid: 2025-11-06T19:54:00Z
-updated: 2025-11-06T19:54:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## ADHD Involves an Inability to Regulate Attention

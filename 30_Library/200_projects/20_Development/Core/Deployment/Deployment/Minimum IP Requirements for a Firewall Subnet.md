@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-17T11:58:11Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:51Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [ff_deploy, networking]
+status: ""
+tags: ["ff_deploy", "topic/technology/networking"]
 title: Minimum IP Requirements for a Firewall Subnet
-type:
+type: ""
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## Minimum IP Requirements for a Firewall Subnet

@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-22T15:00:13Z
-epistemic: NA
-last_reviewed: 2025-11-22
-modified: 2025-12-20T09:54:57Z
+epistemic: "NA"
+last_reviewed: "2025-11-22"
+modified: 2025-12-25T11:40:47+00:00
 purpose: "Maps the journey of a network packet through the Linux kernel subsystems."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [networking]
+status: "seedling"
+tags: ["topic/technology/networking"]
 title: MOC - The Life of a Packet in the Linux Kernel
-type: map
-uid: 2025-11-22T15:00:13Z
-updated: 2025-11-22T15:00:13Z
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - The Life of a Packet in the Linux Kernel

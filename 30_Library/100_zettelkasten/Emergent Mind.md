@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-28T12:10:40Z
-epistemic: 
-id: Emergent mind
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "Emergent mind"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [emergent]
+status: ""
+tags: ["emergent"]
 title: Emergent Mind
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 I am always worried that my instincts are wrong, and it holds me back. Because I am so worried about it, when I am wrong, I see it as proof to not trust my instincts.

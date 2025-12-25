@@ -1,21 +1,21 @@
 ---
-aliases: [DNS Resolution Patterns]
-confidence:
+aliases: ["DNS Resolution Patterns"]
+confidence: "null"
 created: 2025-07-16T17:30:03Z
-epistemic:
-last_reviewed:
-modified: 2025-10-30T15:36:27Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
+status: "null"
 tags: ["security", "topic/technology/networking/dns"]
 title: Private vs Public DNS Resolution Patterns
-type:
-uid:
-updated:
-version:
+type: "null"
+uid: 
+updated: 
+version: "null"
 ---
 
 There is a fundamental architectural difference between resolving private and public DNS names.

@@ -1,31 +1,23 @@
 ---
-aliases: [Logotherapy SoT, Meaning in Suffering, The Will to Meaning, Tragic Optimism, Viktor Frankl SoT]
-confidence: 
+aliases: ["Logotherapy SoT", "Meaning in Suffering", "The Will to Meaning", "Tragic Optimism", "Viktor Frankl SoT"]
+confidence: ""
 created: 2025-12-12T00:00:00Z
-epistemic: 
-last-synthesis: 2025-12-12
-last_reviewed: 
-modified: 2025-12-20T09:54:08Z
-purpose: To serve as the definitive Source of Truth for Viktor Frankl's Logotherapy, defining the pursuit of meaning as the primary human drive and offering actionable protocols for resilience.
-review_interval: 12 months
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To serve as the definitive Source of Truth for Viktor Frankl's Logotherapy, defining the pursuit of meaning as the primary human drive and offering actionable protocols for resilience."
+review_interval: "12 months"
 see_also: ["[[Existentialism - Existence Precedes Essence]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - Process Primacy (Systems Over Goals)]]"]
-source_of_truth: true
-status: stable
-tags: [meaning, mental_models, philosophy, psychology, resilience]
+source_of_truth: []
+status: "stable"
+tags: ["meaning", "mental_models", "philosophy", "resilience", "topic/psychology"]
 title: SoT - Logotherapy and the Will to Meaning
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Logotherapy** is a meaning-centered psychotherapy based on the premise that the primary motivational force of humans is the **Will to Meaning**.
->
-> Unlike the "Will to Pleasure" (Freud) or the "Will to Power" (Adler), Frankl posits that human resilience relies on the discovery of meaning, even—and especially—in the face of unavoidable suffering. Its core tenet: **"He who has a why to live for can bear almost any how."** (Nietzsche, popularized by Frankl).
-
----
+> Unlike the "Will to Pleasure" (Freud) or the "Will to Power" (Adler), Frankl posits that human resilience relies on the discovery of meaning, even—and especially—in the face of unavoidable suffering. Its core tenet: "**\"He who has a why to live for can bear almost any how.\"** (Nietzsche, popularized by Frankl)."
 
 ## 2. Core Philosophy: The Three Pillars
 
@@ -68,11 +60,13 @@ These pathways provide a concrete framework for individuals to actively pursue a
 We integrate Frankl's philosophy into ProdOS not as abstract thought, but as **Actionable Algorithms**.
 
 ### Protocol A: Dereflection (Anti-Hyperfocus)
+
 *Used when:* Trapped in anxious self-observation or hyper-reflection.
 *Action:* **Ignore the self to focus on the world.** Redirect attention from the internal state ("Am I performing well?") to the external meaning ("Who needs this help right now?").
 *Mechanism:* Paradoxically, ignoring the symptom causes it to atrophy.
 
 ### Protocol B: Socratic Meaning-Refactoring
+
 *Used when:* Facing a "Boring" or "Painful" task.
 *Action:* Refactor the task using the **Meaning Query**:
 
@@ -81,6 +75,7 @@ We integrate Frankl's philosophy into ProdOS not as abstract thought, but as **A
 - *Output:* "I am securing my family's future stability." (Meaning).
 
 ### Protocol C: Tragic Optimism
+
 *Used when:* Facing failure or unavoidable constraints (ADHD burnout).
 *Action:* Reject "Toxic Positivity" (denial). Embrace **Tragic Optimism**:
 
@@ -95,7 +90,7 @@ We integrate Frankl's philosophy into ProdOS not as abstract thought, but as **A
 Both confront the "Absurd" (the silence of the universe), but their responses diverge:
 
 | Feature | Albert Camus (Absurdism) | Viktor Frankl (Logotherapy) |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **The Universe** | Inherently meaningless and indifferent. | Contains latent meaning waiting to be found. |
 | **The Response** | **Revolt.** Accept the absurdity and live defiantly *without* hope of ultimate meaning. | **Discovery.** Believe in meaning and search for it. Hope is essential for survival. |
 | **Agency** | Freedom to create subjective value. | Freedom to choose an attitude toward objective circumstances. |

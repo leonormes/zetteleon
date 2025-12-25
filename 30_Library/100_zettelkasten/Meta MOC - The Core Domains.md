@@ -1,19 +1,19 @@
 ---
-aliases: [Meta Map of Content, My Thinking Landscape, The Core Domains]
-confidence: 5/5
+aliases: ["Meta Map of Content", "My Thinking Landscape", "The Core Domains"]
+confidence: "5/5"
 created: 2025-12-16T09:45:00Z
-description: A high-level Meta MOC categorizing the primary domains of thought and Sources of Truth (SoT) within the vault.
-epistemic: synthesis
-last_reviewed: 2025-12-16
-modified: 2025-12-21T17:14:20Z
-purpose: To provide a top-level entry point into the system, answering "What do I often think about?" by clustering SoTs into broad thematic domains.
-review_interval: 
+description: "A high-level Meta MOC categorizing the primary domains of thought and Sources of Truth (SoT) within the vault."
+epistemic: "synthesis"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "To provide a top-level entry point into the system, answering \\\"What do I often think about?\\\" by clustering SoTs into broad thematic domains."
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: stable
-tags: [index, meta, moc, structure]
+status: "stable"
+tags: ["index", "meta", "moc", "structure"]
 title: Meta MOC - The Core Domains
-type: moc
+type: "moc"
 uid: 
 updated: 
 ---
@@ -33,6 +33,7 @@ My primary intellectual loop is:
 ---
 
 ## 2. Domain 1: The Operating System (ProdOS & Systems Thinking)
+
 *The Meta-Layer. How I work, organize, and act. This is the "How".*
 
 > **Core Insight:** Productivity is not about willpower; it is about **Systems Architecture**. We must design our environment to minimize friction and maximize flow.
@@ -47,9 +48,9 @@ My primary intellectual loop is:
   - [[SoT - Systems Thinking]]
   - [[SoT - Process Primacy (Systems Over Goals)]]
   - [[SoT - Atomicity and Loose Coupling]]
-  - [[SoT - Simplicity and Re-entry (ProdOS Principles)]]
 
 ## 3. Domain 2: The Engine (Cognition, ADHD & Psychology)
+
 *The Hardware. Understanding the neurodivergent brain, motivation, and the mechanics of thought.*
 
 > **Core Insight:** The ADHD brain is not broken; it is an **Interest-Based Nervous System**. It requires specific "Ignition" protocols (Mystery, Challenge, Urgency) rather than standard motivation.
@@ -66,6 +67,7 @@ My primary intellectual loop is:
   - [[SoT - Visualization as Cognitive Architecture]]
 
 ## 4. Domain 3: The Compass (Philosophy, Identity & Meaning)
+
 *The Why. Existential direction, values, and the self-concept.*
 
 > **Core Insight:** Meaning is not found; it is **forged**. Through "Logotherapy" and "Ikigai," we define our own purpose. We are not static nouns but dynamic verbs.
@@ -82,6 +84,7 @@ My primary intellectual loop is:
   - [[SoT - Wabi-Sabi]]
 
 ## 5. Domain 4: The Trade (Software Engineering & Technology)
+
 *The Craft. Technical mastery, architectural patterns, and digital tools.*
 
 > **Core Insight:** Good software architecture mirrors good cognitive architecture. Concepts like "Loose Coupling," "Information Hiding," and "Source of Truth" apply equally to code and life.
@@ -97,6 +100,7 @@ My primary intellectual loop is:
   - [[SoT - Digital Identity]]
 
 ## 6. Domain 5: The Territory (Society, Wealth & Economics)
+
 *The Environment. Understanding the external forces of money, status, and social hierarchy.*
 
 > **Core Insight:** Money is not a scoreboard; it is **Potential Energy**. Status is a biological signal. Understanding these games allows us to play them with agency rather than envy.
@@ -113,6 +117,7 @@ My primary intellectual loop is:
   - [[SoT - Dystopian Frameworks and Social Control]]
 
 ## 7. Domain 6: Epistemology (Learning & Mental Models)
+
 *The Lens. How we know what we know, and the limits of our understanding.*
 
 > **Core Insight:** Our models of reality are maps, not the territory. We must be wary of the "Illusion of Explanatory Depth" and strive for "Deep Learning."
@@ -127,6 +132,7 @@ My primary intellectual loop is:
   - [[SoT - The Thought-Language Continuum]]
 
 ## 8. Domain 7: The Human (Life, Family & Health)
+
 *The Foundation. Parenting, physical vitality, and relationships.*
 
 - [[SoT - The Multifaceted Role of a Parent]]
@@ -135,6 +141,7 @@ My primary intellectual loop is:
 - [[SoT - Mindfulness and Emotional Regulation]]
 
 ## 8. Recurring Themes & Struggles (The Human Context)
+
 *The Shadow. The persistent challenges that this system was built to manage.*
 
 > **Observation:** This system emerged from specific, recurring struggles. We document them here to recognize the "Enemy" when it reappears.

@@ -1,20 +1,20 @@
 ---
-aliases: [Phronesis, Practical Wisdom]
-confidence: 0.9
+aliases: ["Phronesis", "Practical Wisdom"]
+confidence: "0.9"
 created: 2025-11-10T17:06:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T15:41:37Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To define Phronesis as a form of knowledge."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Akrasia is Acting Against One's Better Judgment]]"]
-source_of_truth: ["[[MOC - The Science and Philosophy of Taking Action]]"]
-status: seedling
-tags: [action, aristotle, knowledge, philosophy, wisdom]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "aristotle", "knowledge", "philosophy", "wisdom"]
 title: Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience
-type: concept
-uid: 2025-11-10T17:06:00Z
-updated: 2025-11-10T17:06:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience

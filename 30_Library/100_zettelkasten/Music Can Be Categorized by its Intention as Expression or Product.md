@@ -1,20 +1,20 @@
 ---
-aliases: [Music Intention]
-confidence: 0.9
+aliases: ["Music Intention"]
+confidence: "0.9"
 created: 2025-11-10T11:00:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T08:55:35Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To establish the core distinction between two primary motivations for creating music."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Music as Expression vs Product]]"]
-status: seedling
-tags: [art, authenticity, commerce, expression, music]
+source_of_truth: []
+status: "seedling"
+tags: ["art", "authenticity", "commerce", "expression", "music"]
 title: Music Can Be Categorized by its Intention as Expression or Product
-type: concept
-uid: 2025-11-10T11:00:00Z
-updated: 2025-11-10T11:00:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Music Can Be Categorized by Its Intention as Expression or Product

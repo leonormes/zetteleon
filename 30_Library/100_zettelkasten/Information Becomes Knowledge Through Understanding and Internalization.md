@@ -1,20 +1,20 @@
 ---
-aliases: [Knowledge through Internalization]
-confidence: 0.9
+aliases: ["Knowledge through Internalization"]
+confidence: "0.9"
 created: 2025-11-01T12:10:01Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:55:39Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define the role of comprehension and integration in knowledge formation."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Knowledge Emerges Through Application and Experience]]"]
-source_of_truth: ["[[MOC - From Information to Knowledge]]"]
-status: seedling
-tags: [cognition, knowledge, learning]
+source_of_truth: []
+status: "seedling"
+tags: ["knowledge", "learning", "topic/cognition"]
 title: Information Becomes Knowledge Through Understanding and Internalization
-type: concept
-uid: 2025-11-01T12:10:01Z
-updated: 2025-11-01T12:10:01Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Information Becomes Knowledge Through Understanding and Internalization

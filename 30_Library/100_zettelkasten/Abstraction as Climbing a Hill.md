@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-26T19:03:40Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [abstraction]
+status: ""
+tags: ["abstraction"]
 title: Abstraction as Climbing a Hill
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 The benefit of higher abstraction levels in improving understanding can be effectively compared to climbing a hill. Just as ascending a hill provides a wider, more encompassing view of the landscape below by reducing the detail of individual objects, so too does abstraction offer a broader perspective by distilling complex information. This is a primary method for overcoming our natural [[Human Understanding is Inherently Myopic|myopic understanding]].

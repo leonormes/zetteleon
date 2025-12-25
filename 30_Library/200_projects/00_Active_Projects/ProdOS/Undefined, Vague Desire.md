@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-12-04T14:28:35Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-04T14:31:40Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Undefined, Vague Desire
-type: 
+type: ""
 uid: 
 updated: 
 ---

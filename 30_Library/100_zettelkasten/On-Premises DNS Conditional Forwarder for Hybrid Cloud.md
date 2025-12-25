@@ -1,21 +1,21 @@
 ---
-aliases: [DNS Conditional Forwarder]
-confidence:
+aliases: ["DNS Conditional Forwarder"]
+confidence: ""
 created: 2025-07-16T17:30:03Z
-epistemic:
-last_reviewed:
-modified: 2025-10-30T15:36:27Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [topic/technology/networking/dns]
+status: ""
+tags: ["topic/technology/networking/dns"]
 title: On-Premises DNS Conditional Forwarder for Hybrid Cloud
-type:
-uid:
-updated:
-version:
+type: ""
+uid: 
+updated: 
+version: ""
 ---
 
 A conditional forwarder is a configuration on a DNS server that forwards queries for specific domain names to another DNS server.

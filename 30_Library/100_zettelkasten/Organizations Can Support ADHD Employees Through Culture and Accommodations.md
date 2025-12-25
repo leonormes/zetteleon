@@ -1,20 +1,20 @@
 ---
-aliases: [Neurodiversity in the Workplace, Supporting ADHD Employees]
-confidence: 0.8
+aliases: ["Neurodiversity in the Workplace", "Supporting ADHD Employees"]
+confidence: "0.8"
 created: 2025-11-06T19:54:12Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "fact"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To outline strategies organizations can implement to support neurodiverse employees, particularly those with ADHD."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["A Deep Dive into Adult ADHD in Remote Software Development.md"]
-status: seedling
-tags: [accommodation, adhd, management, neurodiversity]
+source_of_truth: []
+status: "seedling"
+tags: ["accommodation", "management", "neurodiversity", "topic/health/adhd"]
 title: Organizations Can Support ADHD Employees Through Culture and Accommodations
-type: concept
-uid: 2025-11-06T19:54:12Z
-updated: 2025-11-06T19:54:12Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Organizations Can Support ADHD Employees Through Culture and Accommodations

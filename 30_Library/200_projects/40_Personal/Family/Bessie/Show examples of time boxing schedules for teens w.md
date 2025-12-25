@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-21T16:19:48Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:29Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:25+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Show examples of time boxing schedules for teens w
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Here are examples of time boxing schedules designed for teens with ADHD. Time boxing helps by setting a specific start and stop time for each task, including important breaks, keeping the day manageable and motivating.[^1][^2][^3]
@@ -23,7 +23,7 @@ Here are examples of time boxing schedules designed for teens with ADHD. Time bo
 ## Example 1: School Day with Breaks
 
 | Time        | Activity                 | Time Box Length |
-| :---------- | :----------------------- | :-------------- |
+|:---------- |:----------------------- |:-------------- |
 | 8:00–8:30   | Morning routine          | 30 min          |
 | 8:30–9:00   | Maths homework           | 30 min          |
 | 9:00–9:10   | Short break (walk/snack) | 10 min          |
@@ -36,7 +36,7 @@ Here are examples of time boxing schedules designed for teens with ADHD. Time bo
 ## Example 2: Flexibility and Self-Care
 
 | Time      | Activity                 | Time Box Length |
-| :-------- | :----------------------- | :-------------- |
+|:-------- |:----------------------- |:-------------- |
 | 2:00–2:20 | Social studies           | 20 min          |
 | 2:20–2:30 | Short break (game/video) | 10 min          |
 | 2:30–3:00 | Science experiment       | 30 min          |
@@ -75,7 +75,7 @@ Time boxing is about giving each task a set amount of time—like putting each j
 ### What is the Difference
 
 |                  | Time Blocking                                    | Time Boxing                               |
-| :--------------- | :----------------------------------------------- | :---------------------------------------- |
+|:--------------- |:----------------------------------------------- |:---------------------------------------- |
 | What it is       | Block out chunks for activities                  | Give each task a set time limit           |
 | How it works     | Focus on a category (like “study time”)          | Focus on a specific job for exact minutes |
 | If time runs out | Move to next block—even if task isn’t finished   | Move to next box—stop when the timer ends |

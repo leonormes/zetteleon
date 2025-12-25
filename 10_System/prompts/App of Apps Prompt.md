@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-06T11:51:53Z
 epistemic:
 last_reviewed:
-modified: 2025-11-06T11:52:17Z
+modified: 2025-12-25T11:40:50+00:00
 purpose:
 review_interval:
 see_also: []
@@ -17,7 +17,7 @@ uid:
 updated:
 ---
 
-**LLM PROMPT: ArgoCD App of Apps – Render and Policy Scan Kubernetes Manifests**
+**LLM PROMPT: ArgoCD App of Apps–Render and Policy Scan Kubernetes Manifests**
 
 ***
 
@@ -47,7 +47,7 @@ Given:
 
 - Output the combined YAML set: one YAML document per manifest, separated by `---`.
 - Skip ArgoCD Application CRs themselves in the output.
-- Do **not** apply or connect to a live cluster – render only.
+- Do **not** apply or connect to a live cluster–render only.
 - Then run a policy scan (using best-practice policy rules, e.g., Kubernetes security, vulnerability, and compliance checks) on the rendered manifests.
 - Report any violations in a concise list after the manifests.
 

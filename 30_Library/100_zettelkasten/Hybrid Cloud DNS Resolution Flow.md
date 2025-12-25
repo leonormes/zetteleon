@@ -1,21 +1,21 @@
 ---
-aliases: [Hybrid DNS]
-confidence:
+aliases: ["Hybrid DNS"]
+confidence: "null"
 created: 2025-07-16T17:30:03Z
-epistemic:
-last_reviewed:
-modified: 2025-10-30T15:36:27Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [topic/technology/networking/dns]
+status: "null"
+tags: ["topic/technology/networking/dns"]
 title: Hybrid Cloud DNS Resolution Flow
-type:
-uid:
-updated:
-version:
+type: "null"
+uid: 
+updated: 
+version: "null"
 ---
 
 In a hybrid cloud environment that connects a remote private network (like an AWS-based SDE) to a cloud VNet (like Azure) via an on-premises network (CUH), DNS resolution for private endpoints follows a specific path:

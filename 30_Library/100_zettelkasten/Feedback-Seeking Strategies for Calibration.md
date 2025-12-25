@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-31T09:20:29Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:41Z
-purpose: Provide concrete methods for calibrating social self-perception through structured feedback.
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: "Provide concrete methods for calibrating social self-perception through structured feedback."
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [method/calibration, topic/social-cognition, topic/social-perception]
+status: "seedling"
+tags: ["method/calibration", "topic/social-cognition", "topic/social-perception"]
 title: Feedback-Seeking Strategies for Calibration
-type: strategy
-uid: sp-feedback-calibration
-updated: 2025-10-31T09:20:29Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## Feedback-Seeking Strategies for Calibration

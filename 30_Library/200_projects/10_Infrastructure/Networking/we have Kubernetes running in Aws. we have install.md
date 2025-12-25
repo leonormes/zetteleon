@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-03T10:02:17Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:49Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [calico, cni, k8s, networking]
+status: ""
+tags: ["calico", "cni", "k8s", "topic/technology/networking"]
 title: we have Kubernetes running in Aws. we have install
-type: documentation
+type: "documentation"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## We Have Kubernetes Running in Aws. We Have Installed the Calico CNI. Know the Cni is there what Can I Do First to Start Using the Features

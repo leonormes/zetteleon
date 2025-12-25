@@ -1,33 +1,20 @@
 ---
-aliases: [Spotlight Bias]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-12T12:50:00Z
-epistemic:
-last-synthesis: 2025-12-12
-last_reviewed: 2025-12-12
-modified: 2025-12-20T09:54:07Z
-purpose: Canonical definition and implications of the Spotlight Effect within social cognition and self-perception.
-quality-markers: []
-related-soTs: ["[[SoT - PRODOS (System Architecture)]]", "[[SoT - Social Cognition & Self-Perception]]"]
-resonance-score: 7
-review_interval: 6 months
-see_also: ["[[MOC - Cognitive Biases]]"]
-source_of_truth: true
-status: stable
-supersedes: ["[[Spotlight Effect]]"]
-tags: [bias, cognition, psychology, social-cognition]
+aliases: ["Spotlight Bias"]
+confidence: "5/5"
+created: 2025-12-12T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-12"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "Canonical definition and implications of the Spotlight Effect within social cognition and self-perception."
+review_interval: "6 months"
+see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Social Cognition & Self-Perception]]"]
+source_of_truth: []
+status: "stable"
+tags: ["bias", "social-cognition", "topic/cognition", "topic/psychology"]
 title: SoT - Spotlight Effect
-type: SoT
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> The **Spotlight Effect** is a cognitive bias in which individuals vastly overestimate the extent to which their actions, appearance, and mistakes are noticed and remembered by others. It creates the illusion that one is constantly under scrutiny, as if illuminated by a spotlight.
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. The Core Mechanism: Egocentric Bias

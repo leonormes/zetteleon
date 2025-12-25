@@ -1,19 +1,19 @@
 ---
-aliases: [Task Chunking]
-confidence: 
+aliases: ["Task Chunking"]
+confidence: "null"
 created: 2025-10-30T12:09:03Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source: "[[MOC - Why Task Initiation is Difficult in ADHD]]"
 source_of_truth: []
-status: seedling
-tags: [task-management, topic/health/adhd, topic/productivity]
+status: "seedling"
+tags: ["task-management", "topic/health/adhd", "topic/productivity"]
 title: Micro-Stepping Reduces Cognitive Load for Task Initiation
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

@@ -1,20 +1,20 @@
 ---
-aliases: [Enlightened Activity]
-confidence: 0.9
+aliases: ["Enlightened Activity"]
+confidence: "0.9"
 created: 2025-11-01T12:20:08Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T10:08:40Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "To explain the Zen focus on action over status."
-review_interval: 90
-see_also: ['[[Zen Defines Enlightenment as a Process Not a Destination]]']
-source_of_truth: ['[[MOC - Why Chasing Enlightenment Causes Suffering]]']
-status: seedling
-tags: [action, buddhism, compassion, zen]
+review_interval: "90"
+see_also: ["[[Zen Defines Enlightenment as a Process Not a Destination]]"]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "buddhism", "compassion", "zen"]
 title: Zen Emphasizes Enlightened Activity Over Enlightened People
-type: concept
-uid: 2025-11-01T12:20:08Z
-updated: 2025-11-01T12:20:08Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Zen Emphasizes Enlightened Activity Over Enlightened People

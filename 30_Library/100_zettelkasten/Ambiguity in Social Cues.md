@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-31T09:20:29Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:41Z
-purpose: Explain why social signals are inherently ambiguous and how this ambiguity amplifies perceptual errors.
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: "Explain why social signals are inherently ambiguous and how this ambiguity amplifies perceptual errors."
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [topic/social-cognition, topic/social-perception]
+status: "seedling"
+tags: ["topic/social-cognition", "topic/social-perception"]
 title: Ambiguity in Social Cues
-type: concept
-uid: sp-ambiguity-social-cues
-updated: 2025-10-31T09:20:29Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Ambiguity in Social Cues

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-16T11:22:59Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [ff_deploy, networking, relay]
+status: ""
+tags: ["ff_deploy", "relay", "topic/technology/networking"]
 title: Exposing a Private EKS Service (relay) to Other Clusters
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 You have a private AWS EKS cluster and a service called `relay` that needs to be accessible from other clusters to receive job requests and return results. Here's a comprehensive list of the components and considerations to achieve this:

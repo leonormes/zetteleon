@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-03T15:47:05Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-04T13:28:04Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: What Does Company Apex Mean in DNS
-type: 
+type: ""
 uid: 
 updated: 
 ---
@@ -34,7 +34,7 @@ The term "company apex" in DNS refers to the root of a registrable domain, also 
 ### Apex Vs Subdomain
 
 | Type | Example | DNS Record Usage | Purpose |
-| :-- | :-- | :-- | :-- |
+|:-- |:-- |:-- |:-- |
 | Apex/Root | acme.example | A/AAAA, ALIAS/ANAME | Main website, brand identity[^2][^5] |
 | Subdomain | <www.acme.example> | CNAME, A/AAAA | Specific sections/services[^2][^5] |
 
@@ -95,7 +95,7 @@ An apex domain is the root address of a registrable domain in DNS, while a subdo
 ### Direct DNS Configuration Differences
 
 | Type | Example | Record Type Restrictions | Typical Usage |
-| :-- | :-- | :-- | :-- |
+|:-- |:-- |:-- |:-- |
 | Apex Domain | acme.example | A, AAAA, ALIAS, ANAME (no CNAME) [^3] | Main website, brand, authoritative root |
 | Subdomain | <www.acme.example> | CNAME, A, AAAA allowed [^3] | Blogs, staging, APIs, microservices |
 

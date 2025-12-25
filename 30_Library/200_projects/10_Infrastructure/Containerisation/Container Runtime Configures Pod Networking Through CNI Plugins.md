@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-26T17:22:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-19T10:12:56Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [cni, container-runtime, kubelet, networking, topic/technology/containers, topic/technology/kubernetes, type/fact]
+status: "null"
+tags: ["cni", "container-runtime", "kubelet", "topic/technology/containers", "topic/technology/kubernetes", "topic/technology/networking"]
 title: Container Runtime Configures Pod Networking Through CNI Plugins
-type: Fact
+type: "Fact"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## Summary

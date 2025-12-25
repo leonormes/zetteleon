@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-07T16:40:50Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-13T11:19:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:33+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [action-required, azure, backup, cost-optimization, infrastructure, investigation]
+status: ""
+tags: ["action-required", "azure", "backup", "cost-optimization", "infrastructure", "investigation"]
 title: Azure Backup Investigation - 2025-11-07
-type: 
+type: ""
 uid: 
 updated: 
 ---
@@ -153,7 +153,7 @@ Backup vault managed identity has:
 
 3. **Clean up orphaned resources**:
 
-- Delete 93 snapshots from deleted cluster (💰 save significant )
+- Delete 93 snapshots from deleted cluster (💰 save significant)
 - Remove restore point collections for non-existent VMs
 - Review need for `tempakstest` storage account
 

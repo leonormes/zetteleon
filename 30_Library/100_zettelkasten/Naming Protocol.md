@@ -1,20 +1,20 @@
 ---
-aliases: [Naming Convention Protocol]
-confidence: 0.8
+aliases: ["Naming Convention Protocol"]
+confidence: "0.8"
 created: 2025-01-15T10:03:00Z
-epistemic: principle
-last_reviewed: 2025-01-15
-modified: 2025-11-12T14:24:42Z
-purpose: Codified rules for deriving resource identifiers from minimal inputs
-review_interval: 90
+epistemic: "principle"
+last_reviewed: "2025-01-15"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "Codified rules for deriving resource identifiers from minimal inputs"
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [conventions, infrastructure, naming, standards]
+status: "seedling"
+tags: ["conventions", "infrastructure", "naming", "standards"]
 title: Naming Protocol
-type: concept
-uid: 2025-01-15T10:03:00Z
-updated: 2025-01-15T10:03:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Naming Protocol

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T13:14:20Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [excalidraw, note-taking, obsidian, visual-thinking]
+status: ""
+tags: ["excalidraw", "note-taking", "obsidian", "visual-thinking"]
 title: Hybrid Visual and Text Notes
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Zsolt Viczián's method advocates for a "sketch first, then explain" approach, creating a hybrid note that balances visual structure with textual detail.

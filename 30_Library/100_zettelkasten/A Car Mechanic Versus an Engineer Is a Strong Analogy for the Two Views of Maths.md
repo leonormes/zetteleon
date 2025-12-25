@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-21T13:35:11Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [analogy, idea/maths-education, status/evergreen]
+status: ""
+tags: ["analogy", "idea/maths-education", "status/evergreen"]
 title: A Car Mechanic Versus an Engineer Is a Strong Analogy for the Two Views of Maths
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Source: [[The Two Views of Maths]]

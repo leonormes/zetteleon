@@ -1,28 +1,20 @@
 ---
-aliases: [Money vs Wealth, Ontology of Money, Ontology of Wealth]
-confidence: 5/5
-created: 2025-12-14T16:00:00Z
-epistemic: theory
-last_reviewed: 2025-12-14
-modified: 2025-12-20T09:54:08Z
-purpose: To define the distinct ontological nature of money and wealth, their interrelationship, and their institutional and social underpinnings.
-review_interval: 6 months
+aliases: ["Money vs Wealth", "Ontology of Money", "Ontology of Wealth"]
+confidence: "5/5"
+created: 2025-12-14T00:00:00Z
+epistemic: "theory"
+last_reviewed: "2025-12-14"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define the distinct ontological nature of money and wealth, their interrelationship, and their institutional and social underpinnings."
+review_interval: "6 months"
 see_also: ["[[SoT - Fundamental Description of Economics]]"]
-source_of_truth: true
-status: stable
-tags: [economics, money, ontology, philosophy, wealth]
+source_of_truth: []
+status: "stable"
+tags: ["economics", "money", "ontology", "philosophy", "wealth"]
 title: SoT - Ontology of Money and Wealth
-type: SoT
-uid: 2025-12-14-MONEY-WEALTH
+type: "SoT"
+uid: 
 updated: 
-version: 1
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Money** and **Wealth** are ontologically distinct yet interdependent concepts. Money is primarily an **institutionally sustained entity** serving as a medium of exchange and store of value, while wealth is a **broader concept** encompassing all valuable resources and assets. Both derive their value and function from collective acceptance and embeddedness within social and institutional structures.
-
 ---
 
 ## 2. Ontology of Money

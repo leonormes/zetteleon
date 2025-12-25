@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-20T20:06:37Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Photography (Art and Design – Photography) (Edexcel GCSE)
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 - Curriculum Content: Students learn to use DSLR cameras, edit images with Adobe Photoshop, understand studio lighting, composition, and camera techniques, and research photographers to create meaningful photographic images. Assessment is via an internal portfolio (60%) and an externally controlled assessment (40%).

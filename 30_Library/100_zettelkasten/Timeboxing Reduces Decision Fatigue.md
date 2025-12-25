@@ -1,21 +1,21 @@
 ---
-aliases: [Reduced Decision Fatigue]
-confidence: 1
+aliases: ["Reduced Decision Fatigue"]
+confidence: "1"
 created: 2025-11-01T21:04:00Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:43:14Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To explain how timeboxing reduces decision fatigue."
-review_interval: 90
-see_also: ['[[Decision Fatigue]]', '[[Timeboxing Creates Structure for Action]]']
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Timeboxing Creates Structure for Action.md"]
-status: evergreen
-tags: [decision-fatigue, productivity, psychology, time-management]
+review_interval: "90"
+see_also: ["[[Decision Fatigue]]", "[[Timeboxing Creates Structure for Action]]"]
+source_of_truth: []
+status: "evergreen"
+tags: ["decision-fatigue", "time-management", "topic/productivity", "topic/psychology"]
 title: Timeboxing Reduces Decision Fatigue
-type: concept
-uid: 20251101210400
-updated: 2025-11-01T21:04:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 By pre-deciding what to work on and when, timeboxing eliminates the constant, low-level question of "What should I do now?"

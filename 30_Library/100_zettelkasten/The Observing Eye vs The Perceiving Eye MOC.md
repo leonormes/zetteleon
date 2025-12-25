@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-20T10:20:00Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:39Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [mindfulness, objectivity, perception, stoicism, type/moc]
+status: "null"
+tags: ["mindfulness", "objectivity", "perception", "stoicism"]
 title: The Observing Eye vs The Perceiving Eye MOC
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: "null"
 ---
 
 This collection of notes explores the Stoic concept of perception, centered on the crucial distinction between two ways of seeing the world: the "observing eye" and the "perceiving eye."

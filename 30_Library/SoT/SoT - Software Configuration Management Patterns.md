@@ -1,36 +1,23 @@
 ---
-aliases: [Code as Configuration, Configuration Management SoT, SCM Patterns SoT]
-confidence: null
+aliases: ["Code as Configuration", "Configuration Management SoT", "SCM Patterns SoT"]
+confidence: "null"
 created: 2025-12-12T00:00:00Z
-epistemic: null
-last-synthesis: 2025-12-12
-last_reviewed: null
-modified: 2025-12-20T09:54:07Z
-purpose: To define the core principles of Software Configuration Management
-  (SCM) as the foundational discipline for reproducible, reliable software
-  delivery.
-related-soTs: '["[[SoT - Automated Cloud Resource Hibernation]]", "[[SoT -
-  PRODOS (System Architecture)]]", "[[SoT - Git]]", "[[SoT - Generative
-  Infrastructure Configuration Framework]]"]'
-review_interval: 6 months
-see_also: ["[[SoT - Automated Cloud Resource Hibernation]]", "[[SoT - PRODOS (System Architecture)]]"]
-source_of_truth: true
-status: stable
-tags: [architecture, devops, patterns, scm, software_engineering]
+epistemic: "null"
+last_reviewed: 
+modified: 2025-12-25T11:40:20+00:00
+purpose: "To define the core principles of Software Configuration Management"
+review_interval: "6 months"
+see_also: ["[[SoT - Automated Cloud Resource Hibernation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT -\\\\\\\", \\\\\\\"[[SoT - Automated Cloud Resource Hibernation]]"]
+source_of_truth: []
+status: "stable"
+tags: ["architecture", "devops", "patterns", "scm", "software_engineering"]
 title: SoT - Software Configuration Management Patterns
-type: SoT
-uid: null
-updated: null
+type: "SoT"
+uid: 
+updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Software Configuration Management (SCM)
-> SCM is the discipline of identifying, organizing, and controlling modifications to the software being built.
->
-> **Core Principle:** A software system is the sum of **all** its code and artifacts (data, docs, tests). If you cannot reproduce the system from version control, you do not have control.
-
----
+> **Core Principle: "** A software system is the sum of **all** its code and artifacts (data, docs, tests). If you cannot reproduce the system from version control, you do not have control."
 
 ## 2. Working Knowledge (Stable Foundation)
 
@@ -81,11 +68,13 @@ SCM is not just a tooling concern; it is an architectural one.
 - *Continuous Delivery* by Jez Humble (related concept)
 
 ## Architecture and SCM
+
 ### Git as a Foundational SCM Tool
 
 Git, as a distributed version control system, embodies many of the core principles of SCM. Its snapshot-based data model, Directed Acyclic Graph (DAG) history, and robust branching and merging capabilities make it an indispensable tool for managing source code, configurations, and documentation. For a deep dive into Git's architecture, workflows, and best practices, refer to [[SoT - Git]].
 
 ## Git as a Foundational SCM Tool
+
 ### Patterns: Configuration Management
 
 Configuration should be treated as a first-class citizen in SCM. The **Generative Infrastructure Configuration (GIC) Framework** offers a robust pattern for managing complex environments by treating configuration as a generated output derived from a minimal "Configuration Kernel" (Intent) via code (Protocol). This reduces fragility and ensures consistency. See [[SoT - Generative Infrastructure Configuration Framework]].

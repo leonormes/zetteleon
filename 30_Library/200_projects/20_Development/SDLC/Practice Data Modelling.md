@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-13T10:12:19Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:44Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [data-centric]
+status: ""
+tags: ["data-centric"]
 title: Practice Data Modelling
-type: curriculum
+type: "curriculum"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 - Real-World Problems: The best way to improve is by doing. Take real-world problems (or even hypothetical ones) and try to model the data involved. Don't jump into code right away. Instead, sketch out the entities, their attributes, and the relationships between them.

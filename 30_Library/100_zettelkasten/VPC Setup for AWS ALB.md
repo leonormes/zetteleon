@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T14:25:58Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [aws, topic/technology/networking, topic/technology/networking/cloud-networking, vpc]
+status: ""
+tags: ["aws", "topic/technology/networking", "topic/technology/networking/cloud-networking", "vpc"]
 title: VPC Setup for AWS ALB
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Setting up a **Virtual Private Cloud (VPC)** is the foundational step for deploying an AWS Application Load Balancer (ALB) and its associated resources.

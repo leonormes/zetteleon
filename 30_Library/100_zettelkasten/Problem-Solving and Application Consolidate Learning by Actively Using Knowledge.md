@@ -1,20 +1,20 @@
 ---
-aliases: [Learning by Doing]
-confidence: 0.9
+aliases: ["Learning by Doing"]
+confidence: "0.9"
 created: 2025-11-10T16:13:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T14:08:42Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To define problem-solving as a learning strategy."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Understanding vs Learning]]"]
-status: seedling
-tags: [application, learning, problem-solving, schema-theory]
+source_of_truth: []
+status: "seedling"
+tags: ["application", "learning", "problem-solving", "schema-theory"]
 title: Problem-Solving and Application Consolidate Learning by Actively Using Knowledge
-type: concept
-uid: 2025-11-10T16:13:00Z
-updated: 2025-11-10T16:13:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Problem-Solving and Application Consolidate Learning by Actively Using Knowledge

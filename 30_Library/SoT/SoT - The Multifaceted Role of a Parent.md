@@ -1,26 +1,20 @@
 ---
-aliases: [Child Development Pillars, Parental Responsibilities, Parenting Role]
-confidence: 5/5
+aliases: ["Child Development Pillars", "Parental Responsibilities", "Parenting Role"]
+confidence: "5/5"
 created: 2025-12-13T00:00:00Z
-epistemic: null
-last-synthesis: 2025-12-13
-last_reviewed: 2025-12-13
-modified: 2025-12-13T14:08:09Z
-purpose: To define the complex and evolving role of a parent in nurturing a
-  child's development towards independence and well-being.
-related-soTs: '["[[SoT - Secure Attachment]]", "[[SoT - PRODOS (System
-  Architecture)]]", "[[SoT - ADHD Self-Compassion & Strengths]]", "[[SoT -
-  Social Cognition & Self-Perception]]", "[[SoT - Identity-Based Habit
-  Formation]]"]'
-review_interval: 12 months
-see_also: []
-source_of_truth: true
-status: stable
-tags: [child_development, family, parenting, psychology, social_roles]
+epistemic: "null"
+last_reviewed: "2025-12-13"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "To define the complex and evolving role of a parent in nurturing a"
+review_interval: "12 months"
+see_also: ["[[SoT - Secure Attachment]]"]
+source_of_truth: []
+status: "stable"
+tags: ["child_development", "family", "parenting", "social_roles", "topic/psychology"]
 title: SoT - The Multifaceted Role of a Parent
-type: SoT
-uid: null
-updated: null
+type: "SoT"
+uid: 
+updated: 
 ---
 
 The role of a parent is one of the most complex and multifaceted responsibilities an individual can undertake. It is a dynamic role that evolves as a child grows, but its core function is to nurture a child's development from complete dependence into a capable, independent, and well-adjusted adult.

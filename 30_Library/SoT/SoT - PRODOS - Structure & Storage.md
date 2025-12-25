@@ -1,33 +1,26 @@
 ---
-aliases: [PARA for ProdOS, ProdOS Structure, The 4-File System]
-confidence: 5/5
-created: 2025-12-12T12:00:00Z
-epistemic:
-last_reviewed: 2025-12-12
-modified: 2025-12-12T23:41:23Z
-purpose: To define the canonical folder structure and storage protocols for ProdOS v5.0, ensuring optimal context retrieval and LLM efficiency.
-related-soTs: ["[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS (System Architecture)]]"]
-review_interval: 6 months
-see_also: []
-source_of_truth: true
-status: stable
-tags: [para, pkm, prodos, structure]
+aliases: ["Folder Structure", "ProdOS Structure", "Storage Protocols"]
+confidence: "5/5"
+created: 2025-12-12T00:00:00Z
+epistemic: "operational"
+last_reviewed: "2025-12-12"
+modified: 2025-12-25T18:34:55Z
+purpose: "To define the canonical folder structure and storage protocols for ProdOS v5.0, ensuring optimal context retrieval and LLM efficiency."
+review_interval: "6 months"
+see_also: ["[[SoT - PRODOS (System Architecture)]]"]
+source_of_truth: []
+status: "stable"
+tags: ["architecture", "pkm", "prodos", "system_design"]
 title: SoT - PRODOS - Structure & Storage
-type: SoT
-uid:
-updated:
-uuid: 3cf373a9-fe2f-49ac-8575-8a4c7a4725f8
+type: "SoT"
+uid: 
+updated: 
 ---
 
-- [x] update the structure ticket^2025-12-12T19-24-33 [completion:: 2025-12-12]
-  - [📱 View in Todoist app](todoist://task?id=6fVWW77qfRvPX6Qv) (Created: 📝 2025-12-12T19:24)
+- [x] update the structure ticket^2025-12-12T19-24-33 [completion: ": 2025-12-12]"
+- [📱 View in Todoist app](todoist: "//task?id=6fVWW77qfRvPX6Qv) (Created: \ud83d\udcdd 2025-12-12T19:24)"
 
-## 1. Definitive Statement
-
-> [!definition] The 6-Component Architecture
-> ProdOS v5.0 utilizes a flattened, **6-component** root structure designed for **Cognitive Throughput** and strict separation of concerns.
->
-> The structure mirrors the Cognitive Loop: **Stream (Inbox/Journals) -> Dashboard (Bases) -> Processing (Thinking) -> Storage (Library) -> Output (Actions).**
+> The structure mirrors the Cognitive Loop: "**Stream (Inbox/Journals) -> Dashboard (Bases) -> Processing (Thinking) -> Storage (Library) -> Output (Actions).**"
 
 ---
 
@@ -36,7 +29,7 @@ uuid: 3cf373a9-fe2f-49ac-8575-8a4c7a4725f8
 To maximize LLM context window efficiency and human retrieval speed, the vault is organized into these primary domains:
 
 | Directory | Component | Role | Cognitive Phase |
-| :--- | :--- | :--- | :--- |
+|:--- |:--- |:--- |:--- |
 | **`00_Inbox/`** | **The Stream** | Frictionless Capture | **Capture** |
 | **`01_journals/`** | **The Log** | Daily Notes & Time Logs | **Capture / Reflect** |
 | **`02_bases/`** | **The HUD** | System Dashboards (`.base` files) | **Orient** |

@@ -1,116 +1,77 @@
 ---
-aliases: [My Productivity System, ProdOS, The PRODOS Architecture]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-11-13T17:30:00Z
-decay-signals: []
-epistemic:
-last-synthesis: 2025-12-20
-last_reviewed: 2025-12-07
-modified: 2025-12-22T11:08:40Z
-purpose: The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system.
-quality-markers: [Clarifies the Human-in-the-Loop LLM workflow., Defines the core cognitive loop., Establishes verifiable acceptance criteria., Integrates Hansei Reflection Loop.]
-related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - ADHD Environmental Design]]", "[[SoT - Physical Health and Vitality]]", "[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]"]
-resonance-score: 10
-review_interval: 3 months
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: ["[[02 - GTD]]", "[[08 - Obsidian for PKM]]", "[[Complete Context ProdOS System]]", "[[Hansei]]", "[[Old ProdOS Product Description]]", "[[ProdOS System Overview and Development Progress]]", "[[The why of my zettelkasten]]"]
-tags: ["adhd", "architecture", "hansei", "prodos", "system_design"]
+aliases: ["My Productivity System", "ProdOS", "The PRODOS Architecture"]
+confidence: "5/5"
+created: 2025-11-13T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-07"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system."
+review_interval: "3 months"
+see_also: ["[[02 - GTD]]", "[[08 - Obsidian for PKM]]", "[[Complete Context ProdOS System]]", "[[Hansei]]", "[[Old ProdOS Product Description]]", "[[ProdOS System Overview and Development Progress]]", "[[SoT - ADHD and Motivation]]", "[[SoT - ADHD Environmental Design]]", "[[SoT - AI-Resilient Task Taxonomy (Human 3.0)]]", "[[SoT - Indistractable Model (Focus Management)]]", "[[SoT - Intentional Living (Habit Mastery)]]", "[[SoT - Physical Health and Vitality]]", "[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]", "[[SoT - The Discipline of Perception (Mindset)]]", "[[SoT - The Inspiration Economy (Agentic Frameworks)]]", "[[SoT - The Telos Method]]", "[[The why of my zettelkasten]]"]
+source_of_truth: []
+status: "stable"
+tags: ["architecture", "hansei", "prodos", "system_design", "topic/health/adhd"]
 title: SoT - PRODOS (System Architecture)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Definitive Statement
 
 > [!definition] Definition
-> PRODOS is **not** a traditional PKM or GTD system. It is a **Cognitive Scaffold** designed to stabilize the volatile ADHD mind.
->
-> It operates as a **Thinking Utility**, not a storage archive. Its sole purpose is to:
-> 1.  **Catch** thoughts before they vanish (RAM support).
-> 2.  **Clarify** confusion into concrete steps (Executive support).
-> 3.  **Verify** reality through action (Dopamine support).
-> 
-> **The Metric:** We do not measure "notes created." We measure "clarity achieved" and "actions taken."
+> It operates as a **Thinking Utility**, not a storage archive. Its sole purpose is to: ""
+> **The Metric: "** We do not measure "notes created." We measure "clarity achieved" and "actions taken.""
 
-This approach is a direct solution to the problem of "Psychic RAM." The human mind is a processor, not a hard drive. When you store "open loops" (unresolved commitments) in your head, you consume cognitive resources. The goal of PRODOS is to achieve a state of **"Mind Like Water,"** where your response to any stimulus is exactly proportional to its importance, freeing up your attention for high-level thinking.
+### 1.1 Theoretical Foundation: The Extended Mind
 
-### 1.1 Epistemic Stance: Utility Over Truth
+ProdOS is an operational implementation of the **[[SoT - The Extended Mind Thesis|Extended Mind Thesis]]**. It treats this Obsidian vault as a constitutive part of the user's cognitive machinery, utilizing **[[Epistemic Actions - Thinking via Doing|Epistemic Actions]]** to bypass internal executive function deficits.
 
-ProdOS is built on the principles of **General Semantics**, specifically Alfred Korzybski's insight that **"The Map is Not the Territory."**
+## 1.2 Epistemic Stance: "Utility Over Truth"
 
--   **The Map is Not the Territory:** The system is a simplified model, not reality itself.
--   **Utility over Completeness:** We do not aim to catalogue the world. If a note does not help you *think* or *act*, it is noise. We prioritize "Good Enough" over "Perfect."
--   **The Rule:** When the map disagrees with the territory (e.g., a plan fails), we update the map; we do not deny the reality.
+- **The Map is Not the Territory: "** The system is a simplified model, not reality itself."
+- **Utility over Completeness: "** We do not aim to catalogue the world. If a note does not help you *think* or *act*, it is noise. We prioritize "Good Enough" over "Perfect.""
+- **The Rule: "** When the map disagrees with the territory (e.g., a plan fails), we update the map; we do not deny the reality."
 
----
+### 1.2 The Zero-Maintenance Baseline
+
+PRODOS is engineered for **Zero Maintenance Baseline**. Standard systems fail ADHD users because they demand high "Operational Overhead" (decision fatigue, grooming).
+
+- **Maintenance Load:** Quantified as `Time Organizing / Time Executing`. Target: **< 10%**.
+- **The Mandate:** Decouple maintenance from execution. If a system requires manual "gardening" before work can begin, it is broken.
 
 ## 2. The Core Problem: Why PRODOS Exists
 
-Conventional PKM (Zettelkasten) and GTD systems fail because they assume a neurotypical brain that enjoys maintenance. They often exacerbate challenges like **task initiation paralysis**, **executive dysfunction**, and **dopamine dysregulation**. PRODOS is built to directly solve these failures:
-
-| Failure Mode | The Problem | PRODOS Solution |
-| :--- | :--- | :--- |
-| **The Zettelkasten Trap** | Treating notes as "collectibles." Infinite linking creates a "Wiki of Everything" but no actual output. | **Thinking, Not Collecting:** The goal is to solve a specific problem (HEAD), synthesize the answer (SoT), and then *stop*. |
-| **The Collector's Fallacy** | The dopamine loop of saving information creates "content sprawl" and overwhelm, mistaking acquisition for understanding. | **Action over Collection:** The system forces the conversion of knowledge into testable experiments and Minimum Viable Actions (MVAs). |
-| **Context Loss** | The rich mental model of a project evaporates over time. Returning to flat notes requires high activation energy. | **The 60-Second Test:** The system is designed to allow a complete cognitive state restore (MVU + Next Action) in under a minute. |
-| **Procrastivity** | Spending 40 hours building the "perfect" system instead of doing the work. | **The Psychiatrist Protocol:** Strict separation of "Writing to Think" (Therapy) vs. "Organizing to Hide" (Addiction). |
-| **The "Now vs. Not Now" Conflict** | The ADHD brain perceives time in two states: Now and Not Now. "Not Now" tasks vanish until they become crises. | **The "Now" Toggle & Visual Flow:** A distraction-free mode showing only the next action, combined with visual Kanban boards. |
 | **Version Control Failure** | Treating "Dev Branches" (HEAD notes) as "Master" (SoT). The system is flooded with broken, deprecated thoughts. | **The Merge & Delete Ritual:** Strict separation of ephemeral "Work" vs. durable "Knowledge". You must "squash and merge" thinking into the SoT. |
-| **Engine Stall** | Having Direction (Choice/Plan) but no Energy (Dopamine). "Turning the wheel but the car won't move." | **The Ignition Protocol:** Refactor "Boring Tasks" into "Interesting Hypotheses" (Mystery, Spite, Urgency) to manufacture dopamine. |
 
 ### Comparative Analysis: Storage (Museum) vs. Compute (Factory)
 
-The fundamental shift in ProdOS is moving from a "Librarian" mindset to an "Operator" mindset.
+## 3. The Architecture: Dual-Axis Engagement Model
 
-| Feature | Wiki / Archive (The Museum) | ProdOS (The Factory) |
-| :--- | :--- | :--- |
-| **Primary Goal** | Storage & Retrieval (Retention) | **Context Restoration & Action (Throughput)** |
-| **Input Model** | Categorisation (Filing) | **Frictionless Capture (Stream)** |
-| **Output Model** | Encyclopedia Entry | **Unit Test (Verifiable Action)** |
-| **Maintenance** | Gardening (High Friction) | **Synthesis (Zero-Toil via LLM)** |
-| **Metric** | "Did I save it?" | **"Did I change reality?"** |
+PRODOS functions as a control room balancing two axes, derived from the principles of high-efficiency solar tracking:
 
----
+| Engineering Axis | Cognitive Counterpart | ADHD Function | PRODOS Component |
+|:--- |:--- |:--- |:--- |
+| **Horizontal (Azimuth)** | **Temporal Axis (Time)** | *Time Blindness* | Calendar, Deadlines, Linear Progression. |
+| **Vertical (Elevation)** | **Attentional Axis (Focus)** | *Hyperfocus / Distraction* | Project Depth, "Rabbit Holes", Flow State. |
 
-## 3. The Architecture: Dual-Axis Engagement
-
-PRODOS functions as a control room balancing two axes:
-
-- **Horizontal Control (The Runway):** A system to capture, clarify, and execute daily actions.
-- **Vertical Perspective (The Horizons):** A hierarchical map from **50,000 feet** (Purpose/Principles) down to **10,000 feet** (Projects).
-
-This is implemented via an action-oriented cognitive loop: **Capture -> Refine -> Synthesize -> Act -> Reflect (Hansei) -> Repeat**
-
-1. **Capture (Human):** Raw, messy, unstructured thoughts are captured into a frictionless entry point.
-2. **Refine (LLM) - "The Psychiatrist Workflow":** The LLM acts as a **Convergent Tool**.
-    - **Vomit Chaos:** The user dumps raw, unstructured thought into a `HEAD` note.
-    - **Logic Linter:** The LLM debugs the thought, stripping emotion to find the signal.
-    - **Extract Action:** The sole purpose is to compile the thought into a **Verifiable Next Action**.
-    - **Nuke the Rest:** Once the lesson is extracted to an SoT and the action to Todoist, the HEAD note is archived/ignored.
-3. **Synthesize (LLM & Human):** The LLM automates the "Chronos Synthesis" ritual, updating the canonical `SoT` note.
-4. **Act (Human):** The output of thinking is not another note, but a **verifiable `Next Action`**.
-5. **Reflect (Hansei):** A structured feedback loop to transform behavior into learning (See Section 10).
-
----
+1. **Horizontal Control:** Manages the linear progression of the day. Uses **Time Blocking** and **Interstitial Journaling** to create a visible temporal landscape, compensating for Time Blindness.
+2. **Vertical Perspective:** Manages the depth of engagement. When in **Hyperfocus (High Elevation)**, the system supports depth without allowing the user to drift off-course. When dopamine is low (**Low Elevation**), the system lowers the "Bar of Entry" to maintain momentum.
 
 ## 4. The Note Schema: Thinking Space vs. Answer Space
 
-The system maintains a strict separation of concerns between *figuring things out* and *storing the answer*.
+The system maintains a strict separation of concerns utilizing a **Git Version Control** metaphor:
 
 ### The Architectural Rule: "Master" vs. "Dev" (Version Control)
 
-| Feature | HEAD Notes (Thinking Space) | SoT Notes (Answer Space) |
-| :--- | :--- | :--- |
-| **Role** | **The Workbench.** Where you struggle, draft, and fail. | **The Canon.** Where you store the verified truth. |
-| **Trust Level** | **Zero Trust.** Contains errors, dead ends, and drafts. | **High Trust.** The "Single Source of Truth." |
-| **Lifespan** | **Ephemeral.** Created to solve *one* problem, then archived. | **Permanent.** Durable, living documentation. |
-| **Searchability** | **Hidden.** Should NOT appear in standard lookups. | **Primary.** The *only* place you look for answers. |
+| Feature | HEAD Notes (Working Tree) | SoT Notes (Master Branch) |
+|:--- |:--- |:--- |
+| **Role** | **The Workbench.** Volatile state where changes happen. | **The Canon.** Stable, production-ready knowledge. |
+| **Trust Level** | **Zero Trust.** Chaotic stream of consciousness. | **High Trust.** The verified "System of Record." |
+| **Lifecycle** | **Ephemeral.** Dump data without regard for taxonomy. | **Permanent.** Atomic, clean, and interconnected. |
+| **The Protocol** | **Continuous Commit.** Log everything in real-time. | **Squash and Merge.** Synthesize and then delete HEAD. |
 
-### A. HEAD Notes (The Workbench)
+### A. HEAD Notes (The Working Tree)
 
 - **Purpose:** The **universal container for active thinking**. It captures the *process* of cognition.
 - **The Protocol (Always New, Never Resume):**
@@ -193,6 +154,7 @@ This layer supports "Now" vs. "Not Now" time-blindness.
 - **Interruption Capture:** A "Flash Capture" or "Pink Dot" button for unplanned work, allowing the user to record the interruption and return to flow state immediately.
 
 ### Core Integrations
+
 - **`00_Inbox` / Daily Note:** Frictionless capture.
 - **`20_Thinking/21_Workbench`:** Home for active `HEAD` notes.
 - **`30_Library/31_Resources`:** Home for canonical `SoT` notes.
@@ -203,6 +165,7 @@ This layer supports "Now" vs. "Not Now" time-blindness.
 ---
 
 ## 7. Tactical Protocols: The Command Centre (Manual Execution)
+
 *Source: [YouTube Video: The Command Centre (Manual Execution)](https://youtu.be/qP6e8kcurgQ)*
 
 The Command Centre is a structural solution to planning inconsistency, reframing it not as a failure of willpower but as a failure of **system design**. It externalizes hard-coded algorithms for operational routines (daily, weekly, monthly planning) that execute on "autopilot."
@@ -224,13 +187,14 @@ You do not finish thinking when you have an answer; you finish when you have a *
 - **Return Value:** Data/Outcome (Update SoT).
 
 ### The Specification (Acceptance Criteria)
+
 1. **Atomic Scope:** The smallest possible unit of work (<15 mins).
 2. **Binary Outcome:** It must Pass or Fail.
 3. **Learning Objective:** Focus on *information gain*, not just output.
 
 ### The Ignition Protocol (Stimulus Injection)
 
- To generate the energy for execution, you must convert "Work" into "Inquiry."
+ To generate the energy for execution, you must convert "Work" into "Inquiry." If paralyzed by emotion, first execute the **[[SoT - The 3-Switch Protocol (Emotional Reset)]]** to restore control.
 
 1. **The "Mystery" Hack (Hypothesis):** Refactor a chore into a bet.
     - *Boring:* "Update CSS." -> *Ignition:* "Hypothesis: I can break the layout if I change padding to 50px."
@@ -248,7 +212,7 @@ The core challenge is retrieving the right thought at the right time.
 ### The Unified Hierarchy
 
 | File Type | Role | The Question It Answers |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **SoT Notes** | **The Canon (Authority)** | "What is the trusted, current state of the system?" |
 | **MOCs** | **The Map (Entrypoint)** | "Where do I start? Show me the landscape." |
 | **HEAD Notes** | **The Workbench (Active)** | "What am I figuring out right now?" |
@@ -270,6 +234,7 @@ The system is not static; it requires active maintenance to prevent "Trust Decay
 > **Philosophy:** "No problem is a problem." If you don't find friction, you are blind to it.
 
 ### The Weekly Hansei Protocol (Kaizen & Ikigai)
+
 1. **Identify Friction (Deconstruct):** Analyze where the system failed without judgment.
 2. **Adjust Process (Kaizen):** Do not blame willpower. Apply the **1% Rule**.
 3. **Verify Alignment (Ikigai):** Check if actions align with your *Reason for Being*.
@@ -277,11 +242,13 @@ The system is not static; it requires active maintenance to prevent "Trust Decay
 ---
 
 ## 11. The Three-Layer Architecture (Capacity & Maintenance)
+
 *Source: [The Missing Middle: Why Goals Fail](http://www.youtube.com/watch?v=sztRU38bE_Q)*
 
 Most planning systems fail because they oscillate between **Strategic Goals** (Top) and **Execution Tasks** (Bottom), ignoring the **Maintenance Layer** that sustains life.
 
 ### The Architecture
+
 1. **Strategic Layer (Top-Down):** Goals, Vision. Provides *direction*.
 2. **Maintenance Layer (The Missing Link):** Recurring operations. Provides *stability*.
     - **Rule:** **Capacity Regulation.** `Capacity = Total Time - Maintenance`.
@@ -297,18 +264,22 @@ Most planning systems fail because they oscillate between **Strategic Goals** (T
 ## 13. Related Components
 
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
-- [[SoT - PRODOS - NotebookLM Integration]]
 - [[SoT - Accelerated Learning (3C Protocol)]]
 - [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
+- [[SoT - AI-Resilient Task Taxonomy (Human 3.0)]]
 - [[SoT - Dopamine Menu]]
+- [[SoT - Indistractable Model (Focus Management)]]
+- [[SoT - Intentional Living (Habit Mastery)]]
 - [[SoT - PRODOS - Action Management (GTD)]]
 - [[SoT - Temporal Management (Blocking and Boxing)]]
+- [[SoT - The Discipline of Perception (Mindset)]]
+- [[SoT - The Inspiration Economy (Agentic Frameworks)]]
+- [[SoT - The Telos Method]]
 - [[SoT - The Cognitive Physiology of Task Execution]]
 - [[SoT - Six Levels of Thinking]]
 - [[SoT - The Honeyman Method (Adaptive Routines)]]
 - [[SoT - Identity-Based Habit Formation]]
 - [[SoT - PRODOS - System Failure Modes]]
-- **Case Study:** [[Breaking the Creation Cycle]]
 - **Example Implementation:** [[Detailed Example From Spark to Synthesis]]
 
 ## 14. Status & Roadmap

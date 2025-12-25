@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.8
+confidence: "0.8"
 created: 2025-11-10T10:00:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To establish the core principle of mutual exchange in a partnership."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [partnership, principle, relationship]
+source_of_truth: []
+status: "seedling"
+tags: ["partnership", "principle", "relationship"]
 title: Reciprocity is the Central Pillar of a Healthy Partnership
-type: concept
-uid: 2025-11-10T10:00:00Z
-updated: 2025-11-10T10:00:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Reciprocity is the Central Pillar of a Healthy Partnership

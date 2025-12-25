@@ -1,20 +1,20 @@
 ---
-aliases: [Config as Output, Generated Configuration]
-confidence: 0.8
+aliases: ["Config as Output", "Generated Configuration"]
+confidence: "0.8"
 created: 2025-01-15T10:04:00Z
-epistemic: principle
-last_reviewed: 2025-01-15
-modified: 2025-11-12T14:24:42Z
-purpose: Design principle that treats configuration as generated output rather than manual input
-review_interval: 90
+epistemic: "principle"
+last_reviewed: "2025-01-15"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "Design principle that treats configuration as generated output rather than manual input"
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [configuration, design-principle, infrastructure]
+status: "seedling"
+tags: ["configuration", "design-principle", "infrastructure"]
 title: Configuration as Generated Output
-type: concept
-uid: 2025-01-15T10:04:00Z
-updated: 2025-01-15T10:04:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Configuration as Generated Output

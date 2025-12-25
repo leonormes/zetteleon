@@ -1,20 +1,20 @@
 ---
-aliases: [Certainty Gap, Synthesis Gap]
-confidence: 0.9
+aliases: ["Certainty Gap", "Synthesis Gap"]
+confidence: "0.9"
 created: 2025-11-06T20:01:02Z
-epistemic: model
-last_reviewed: 2025-11-06
-modified: 2025-12-20T09:55:00Z
+epistemic: "model"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To define the internal gaps in group understanding caused by bias and poor communication."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["The Illusion of Profundity Thought vs Text.md"]
-status: seedling
-tags: [cognitive-bias, collaboration, communication, group-dynamics, knowledge]
+source_of_truth: []
+status: "seedling"
+tags: ["collaboration", "communication", "group-dynamics", "knowledge", "topic/cognition/bias"]
 title: Certainty and Synthesis Gaps are Internal Barriers to Group Understanding
-type: concept
-uid: 2025-11-06T20:01:02Z
-updated: 2025-11-06T20:01:02Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Certainty and Synthesis Gaps Are Internal Barriers to Group Understanding

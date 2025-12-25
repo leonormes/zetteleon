@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-11T18:05:28Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Morita Therapy
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Morita Therapy is a Japanese therapeutic approach developed by psychiatrist Shoma Morita. It emphasizes accepting feelings as they are while taking purposeful, value-driven action, regardless of one's emotional state. It is a practical, action-oriented approach to mental health.

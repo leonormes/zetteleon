@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-07-29T09:08:43Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:13Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:31+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/kubernetes, troubleshooting]
+status: "null"
+tags: ["topic/technology/kubernetes", "troubleshooting"]
 title: Why Node Not Work
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Based on your description, a scheduled **node image upgrade** initiated by Azure is the most probable cause for the behaviour you observed. This is a common maintenance operation in AKS where the underlying virtual machine's operating system is updated with the latest security patches.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-17T11:24:11Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:44Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Is there a more modern way than using the resource
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Yes, there is a more modern way to replace the "null_resource" for applying Calico manifests in Terraform. As of Terraform version 1.4, introduced in 2023, you can use the built-in `terraform_data` resource instead of `null_resource`[^1][^5].

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:21:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [philosophy-of-mind, topic/technology/AI, Turing-Test]
+status: "null"
+tags: ["philosophy-of-mind", "topic/technology/AI", "Turing-Test"]
 title: LLM validation is an informal Turing Test
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The experience of feeling genuinely understood by an AI, despite knowing its non-sentient nature, is an informal demonstration of the Turing Test's core principle.

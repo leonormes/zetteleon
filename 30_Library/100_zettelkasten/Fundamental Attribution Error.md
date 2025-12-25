@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-31T09:20:29Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:41Z
-purpose: Explain the systematic bias of over-attributing others' behavior to personality while under-weighting situational factors.
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: "Explain the systematic bias of over-attributing others' behavior to personality while under-weighting situational factors."
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [topic/cognition/bias, topic/social-cognition, topic/social-perception]
+status: "seedling"
+tags: ["topic/cognition/bias", "topic/social-cognition", "topic/social-perception"]
 title: Fundamental Attribution Error
-type: concept
-uid: sp-fundamental-attribution-error
-updated: 2025-10-31T09:20:29Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Fundamental Attribution Error

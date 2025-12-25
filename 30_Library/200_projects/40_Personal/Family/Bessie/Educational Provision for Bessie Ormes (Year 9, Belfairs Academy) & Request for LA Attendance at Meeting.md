@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-15T08:33:57Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Educational Provision for Bessie Ormes (Year 9, Belfairs Academy) & Request for LA Attendance at Meeting
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 To: <clairwarner@southend.gov.uk>

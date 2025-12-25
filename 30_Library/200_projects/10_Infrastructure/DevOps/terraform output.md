@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:56Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:39Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:41+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: terraform output
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Terraform outputs can be directly interpolated into template strings to create dynamic SSH commands. Here's how to achieve this for both single and multiple instances:
@@ -23,6 +23,7 @@ Terraform outputs can be directly interpolated into template strings to create d
 ---
 
 ## SSH Command Generation
+
 ### Single Instance
 
 ```hcl
@@ -55,6 +56,7 @@ Output:
 ---
 
 ## Advanced Formatting
+
 ### Named Access with Maps
 
 ```hcl

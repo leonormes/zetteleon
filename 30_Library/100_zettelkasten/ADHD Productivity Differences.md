@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-06-25T09:10:25Z
-epistemic: 
-id: adhdzettel
-last_reviewed: 
-modified: 2025-12-16T11:55:55Z
-purpose: 
-review_interval: 
+epistemic: "null"
+id: "adhdzettel"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/health/adhd, topic/productivity/gtd]
+status: "null"
+tags: ["topic/health/adhd", "topic/productivity/gtd"]
 title: ADHD Productivity Differences
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 [[ADHD Brain Wiring vs. Classic Productivity Systems]]

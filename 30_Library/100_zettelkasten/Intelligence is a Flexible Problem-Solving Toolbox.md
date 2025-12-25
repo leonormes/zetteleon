@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.8
+confidence: "0.8"
 created: 2025-10-31T09:50:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:50:00Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Define intelligence as a set of problem-solving skills rather than a single trait."
-review_interval: 90
+review_interval: "90"
 see_also: ["Foundations of Learning and Cognition for Developers.md"]
 source_of_truth: []
-status: seedling
-tags: [cognition, intelligence, problem-solving]
+status: "seedling"
+tags: ["intelligence", "problem-solving", "topic/cognition"]
 title: Intelligence is a Flexible Problem-Solving Toolbox
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

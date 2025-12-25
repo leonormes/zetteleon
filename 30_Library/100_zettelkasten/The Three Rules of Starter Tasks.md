@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-10T15:09:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T13:33:51Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the rules for creating effective starter tasks."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[The Starter Task Overcomes Activation Energy for ADHD]]"]
-source_of_truth: ["[[MOC - Atomic Actions and Next Actions Framework]]"]
-status: seedling
-tags: [adhd, momentum, productivity, task-initiation]
+source_of_truth: []
+status: "seedling"
+tags: ["momentum", "task-initiation", "topic/health/adhd", "topic/productivity"]
 title: The Three Rules of Starter Tasks
-type: concept
-uid: 2025-11-10T15:09:00Z
-updated: 2025-11-10T15:09:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Three Rules of Starter Tasks

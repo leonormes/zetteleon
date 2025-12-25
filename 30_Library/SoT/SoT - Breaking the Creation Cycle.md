@@ -1,36 +1,26 @@
 ---
-aliases: [ADHD Creation Cycle, Breaking the Loop, Continuation Protocol]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-11-13T09:48:22Z
-decay-signals: []
-epistemic:
-last-synthesis: 2025-12-14
-last_reviewed: 2025-12-14
-modified: 2025-12-20T09:54:09Z
-purpose: To provide a protocol for breaking the ADHD cycle of starting fresh and abandoning projects due to loss of context.
-quality-markers: []
-related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]"]
-resonance-score: 10
-review_interval: 6 months
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: []
-tags: ["adhd", "developer_workflow", "mental_model", "productivity"]
+aliases: ["ADHD Creation Cycle", "Breaking the Loop", "Continuation Protocol"]
+confidence: "5/5"
+created: 2025-11-13T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-14"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "To provide a protocol for breaking the ADHD cycle of starting fresh and abandoning projects due to loss of context."
+review_interval: "6 months"
+see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]"]
+source_of_truth: []
+status: "stable"
+tags: ["developer_workflow", "mental_model", "topic/health/adhd", "topic/productivity"]
 title: SoT - Breaking the Creation Cycle
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
-## 1. The Core Problem: The Fresh Start Loop
+## 1. The Core Problem: "The Fresh Start Loop"
 
-> [!definition] The Creation Cycle Failure
-> **The Pattern:** You start a project with high dopamine and a rich mental model. When you stop, the mental model evaporates. Returning feels "flat" and confusing because the context is gone.
-> **The Maladaptive Response:** You start fresh (re-write, re-factor, new repo) to generate dopamine and a clean mental model, abandoning the previous work.
-
-This is a classic ADHD interaction between **Novelty Seeking** and **Working Memory Deficits**.
+> **The Pattern: "** You start a project with high dopamine and a rich mental model. When you stop, the mental model evaporates. Returning feels \"flat\" and confusing because the context is gone."
+> **The Maladaptive Response: "** You start fresh (re-write, re-factor, new repo) to generate dopamine and a clean mental model, abandoning the previous work."
 
 ---
 

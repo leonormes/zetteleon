@@ -1,23 +1,23 @@
 ---
 aliases: []
 author: ["[[Navya A]]"]
-confidence: 
+confidence: ""
 created: 2025-03-27T09:48:25Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
-source: https://navyadevops.hashnode.dev/step-by-step-guide-creating-an-eks-cluster-with-alb-controller-using-terraform-modules
+source: "https://navyadevops.hashnode.dev/step-by-step-guide-creating-an-eks-cluster-with-alb-controller-using-terraform-modules"
 source_of_truth: []
-status: 
-tags: [gateway, ingress, k8s, networking]
+status: ""
+tags: ["gateway", "ingress", "k8s", "topic/technology/networking"]
 title: Step-by-Step Guide Creating an EKS Cluster with ALB Controller using Terraform Modules
-type: download
+type: "download"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## Introduction
@@ -34,7 +34,7 @@ In this step-by-step guide, we'll cover everything from creating a Virtual Priva
 
 ### 1\. VPC Creation
 
-We kick things off by establishing a secure foundation – creating a VPC from scratch using Terraform modules. This sets the stage for a resilient and isolated network environment tailored for your EKS cluster.
+We kick things off by establishing a secure foundation–creating a VPC from scratch using Terraform modules. This sets the stage for a resilient and isolated network environment tailored for your EKS cluster.
 
 ### 2\. EKS Cluster Provisioning
 
@@ -50,7 +50,7 @@ Ensure the scalability of your EKS cluster with a detailed walkthrough on deploy
 
 ### 5\. AWS Load Balancer Controller Deployment
 
-Using the Helm provider, we explore the deployment of the AWS Load Balancer Controller – a critical component for managing and configuring load balancers in your EKS cluster. This step optimizes the distribution of incoming traffic across your applications.
+Using the Helm provider, we explore the deployment of the AWS Load Balancer Controller–a critical component for managing and configuring load balancers in your EKS cluster. This step optimizes the distribution of incoming traffic across your applications.
 
 ### 6\. Ingress Resource Creation
 

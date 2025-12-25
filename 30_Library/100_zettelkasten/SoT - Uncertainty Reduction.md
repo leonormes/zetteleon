@@ -1,20 +1,19 @@
 ---
 aliases: ["Entropy Reduction", "Predictive Processing", "The Certainty Drive", "Uncertainty Reduction Theory"]
-confidence: 5/5
+confidence: "5/5"
 created: 2025-08-23T20:45:19Z
-epistemic: theory
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:55Z
-purpose: To define the brain's fundamental drive to minimize entropy (uncertainty) through Predictive Processing, explaining the psychological need for validation and closure.
-related-soTs: ["[[SoT - Cognitive Ambiguity and Deep Thinking]]", "[[SoT - Myopic Understanding]]", "[[SoT - The Internal World and the Need for Validation]]"]
-review_interval: 
+epistemic: "theory"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "To define the brain's fundamental drive to minimize entropy (uncertainty) through Predictive Processing, explaining the psychological need for validation and closure."
+review_interval: ""
 see_also: ["[[Shannon's Information Theory - Information as Uncertainty]]", "[[The World's Ambiguity Drives the Need for Certainty]]"]
-source_of_truth: true
-status: stable
-tags: ["cognition", "epistemology", "neuroscience", "prediction", "psychology"]
+source_of_truth: []
+status: "stable"
+tags: ["epistemology", "neuroscience", "prediction", "topic/cognition", "topic/psychology"]
 title: SoT - Uncertainty Reduction
-type: SoT
-uid: 2025-12-16-UNCERTAINTY
+type: "SoT"
+uid: 
 updated: 
 ---
 
@@ -78,7 +77,7 @@ We use other people as "Reality Checks" to reduce our own internal entropy.
 ## 4. Integration with ProdOS Domains
 
 | Domain | Application |
-| :--- | :--- |
+|:--- |:--- |
 | **Domain 2: The Engine** | **ADHD & Dopamine:** The ADHD brain has a dysregulated relationship with Prediction Error. It craves *high* prediction error (Novelty/Surprise) to generate dopamine, which contradicts the standard drive for stability. This creates the "Hunter vs Farmer" tension. |
 | **Domain 7: Epistemology** | **Deep Learning:** Mastery requires the *willingness* to endure high entropy (Confusion) long enough to build a complex model. Avoiding this discomfort leads to the [[SoT - Illusion of Explanatory Depth (IoED)]]. |
 | **Domain 3: The Compass** | **Belief Systems:** Religions, ideologies, and rigid routines function as "Uncertainty Reduction Technologies"—scaffolding that artificially lowers the entropy of life by providing pre-packaged answers. |
@@ -89,5 +88,4 @@ We use other people as "Reality Checks" to reduce our own internal entropy.
 
 - [[The World's Ambiguity Drives the Need for Certainty]] - The existential driver.
 - [[Confirmation as a Perceived Shortcut to Truth]] - How we cheat the system.
-- [[Beliefs as Defining Spaces]] - How we limit the world to limit uncertainty.
 - [[Shannon's Information Theory - Information as Uncertainty]] - The mathematical basis.

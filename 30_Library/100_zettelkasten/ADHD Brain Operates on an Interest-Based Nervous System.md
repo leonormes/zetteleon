@@ -1,20 +1,20 @@
 ---
-aliases: [ADHD Motivation, Interest-Based Nervous System]
-confidence: 0.8
+aliases: ["ADHD Motivation", "Interest-Based Nervous System"]
+confidence: "0.8"
 created: 2025-11-06T19:53:01Z
-epistemic: fact
-last_reviewed: 2025-12-11
-modified: 2025-12-20T09:55:01Z
-purpose: "To explain the concept of the 'interest-based nervous system' in ADHD and its effect on motivation and task initiation."
-review_interval: 90
+epistemic: "fact"
+last_reviewed: "2025-12-11T00:00:00.000Z"
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: "90"
 see_also: ["[[Logic Does Not Produce Dopamine]]", "[[SoT - PRODOS (System Architecture)]]"]
-source_of_truth: ["A Deep Dive into Adult ADHD in Remote Software Development.md"]
-status: sapling
-tags: [adhd, dopamine, metaphor, motivation, task-initiation]
+source_of_truth: []
+status: "sapling"
+tags: ["dopamine", "metaphor", "motivation", "task-initiation", "topic/health/adhd"]
 title: ADHD Brain Operates on an Interest-Based Nervous System
-type: concept
-uid: 2025-11-06T19:53:01Z
-updated: 2025-11-06T19:53:01Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## ADHD Brain Operates on an Interest-Based Nervous System

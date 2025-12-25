@@ -1,25 +1,25 @@
 ---
 aliases: []
-author:
-confidence: 
+author: ""
+confidence: ""
 created: 2025-09-21T00:00:00Z
-description:
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:10Z
-published:
-purpose: 
-review_interval: 
+description: ""
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:33+00:00
+published: ""
+purpose: ""
+review_interval: ""
 see_also: []
-source: https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2240217089/Cloud+Resource+Naming+Convention
+source: "https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2240217089/Cloud+Resource+Naming+Convention"
 source_of_truth: []
-status: 
-tags: [cloud, ff-naming, naming-conventions, resources, standards]
+status: ""
+tags: ["cloud", "ff-naming", "naming-conventions", "resources", "standards"]
 title: Cloud Resource Naming Convention - FITFILE - Confluence
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Resource Groups

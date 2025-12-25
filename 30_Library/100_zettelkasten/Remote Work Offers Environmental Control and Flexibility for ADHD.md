@@ -1,20 +1,20 @@
 ---
-aliases: [Remote Work ADHD Benefits]
-confidence: 0.8
+aliases: ["Remote Work ADHD Benefits"]
+confidence: "0.8"
 created: 2025-11-06T19:54:02Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "fact"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To outline the benefits of remote work for individuals with ADHD, such as environmental control and schedule flexibility."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["A Deep Dive into Adult ADHD in Remote Software Development.md"]
-status: seedling
-tags: [accommodation, adhd, productivity, remote-work]
+source_of_truth: []
+status: "seedling"
+tags: ["accommodation", "remote-work", "topic/health/adhd", "topic/productivity"]
 title: Remote Work Offers Environmental Control and Flexibility for ADHD
-type: concept
-uid: 2025-11-06T19:54:02Z
-updated: 2025-11-06T19:54:02Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Remote Work Offers Environmental Control and Flexibility for ADHD

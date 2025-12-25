@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-27T12:57:14Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-27T13:03:18Z
+modified: 2025-12-25T11:40:20+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -90,7 +90,8 @@ When you create a VPC (AWS) or VNet (Azure) you assign it a CIDR block, e.g.:
 
 - `10.0.0.0/24`
 
-You can think of that as a *set* of IP addresses.  
+You can think of that as a *set* of IP addresses.
+
 Those IPs are then:
 
 - Split into **subnets** (still sets of IPs)
@@ -104,7 +105,8 @@ This is described in the AWS VPC docs: a VPC has a CIDR, then you add subnets an
 
 Ignoring security and just looking at routing/devices:
 
-You have a **private network** (VPC/VNet + subnets).  
+You have a **private network** (VPC/VNet + subnets).
+
 For it to talk to the **public internet**, you need:
 
 1. **A gateway that connects the private network to the internet**
@@ -147,7 +149,7 @@ Conceptual device list (public subnet):
 
 For instances that **don’t** have public IPs but still want outbound internet (e.g. for updates):
 
-1. **NAT device** in a *public* subnet  
+1. **NAT device** in a *public* subnet
     In AWS this is usually:
 
     - **NAT Gateway** (managed service), or
@@ -229,7 +231,7 @@ So minimal “pure networking” stack for an AWS-style private network talking 
 If you like, I can sketch a super minimal AWS and Azure example:
 
 - “I have `10.0.0.0/24` as my CIDR, show exact subnets, route tables, and which ‘devices’ are needed so that one VM can be public and one is private-with-outbound-only.”
-Let’s specialise the earlier explanation to: **“I have a k8s/AKS cluster in a subnet in Azure – what’s needed for ingress and egress to/from the public internet, ignoring security?”**
+Let’s specialise the earlier explanation to: **“I have a k8s/AKS cluster in a subnet in Azure–what’s needed for ingress and egress to/from the public internet, ignoring security?”**
 
 I’ll focus on Azure-managed AKS, but the same ideas apply to a DIY k8s cluster in a VNet.
 
@@ -248,13 +250,14 @@ From here, you care about:
 - **Ingress**: HTTP(S) from the internet → k8s services/pods
 - **Egress**: pods/nodes → internet (for pulling images, calling APIs, etc.)
 
-We ignore NSGs, WAF, etc. – just routing and “what devices exist”.
+We ignore NSGs, WAF, etc.–just routing and “what devices exist”.
 
 ---
 
 ### 2. Egress from the AKS Subnet (cluster → internet)
 
-AKS has the concept of **outboundType**, which controls **how cluster egress reaches the internet**:  
+AKS has the concept of **outboundType**, which controls **how cluster egress reaches the internet**:
+
 `loadBalancer` (default), `managedNATGateway`, `userAssignedNATGateway`, `userDefinedRouting`, etc. [Microsoft docs](https://learn.microsoft.com/en-us/azure/aks/egress-outboundtype).
 
 Conceptually, you always have:
@@ -304,7 +307,7 @@ Conceptual picture:
 - Egress device: **Azure NAT Gateway** on the subnet
 - Route: `0.0.0.0/0 → internet`, but enforced via NAT Gateway on that subnet
 
-#### 2.3 Outbound Type: `userDefinedRouting` (UDR) – Advanced
+#### 2.3 Outbound Type: `userDefinedRouting` (UDR)–Advanced
 
 Here your “egress device” is **whatever your route table points to**, e.g. an Azure Firewall, NVA, proxy, or even a standard LB doing NAT. In this mode:
 

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-26T17:22:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:26Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:41+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [cluster-state, configuration, etcd, service-discovery, topic/technology/containers, topic/technology/kubernetes, type/fact]
+status: "null"
+tags: ["cluster-state", "configuration", "etcd", "service-discovery", "topic/technology/containers", "topic/technology/kubernetes"]
 title: etcd stores cluster network state and service configuration
-type: Fact
+type: "Fact"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## Summary

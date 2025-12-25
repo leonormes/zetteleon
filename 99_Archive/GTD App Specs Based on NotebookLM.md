@@ -6,7 +6,7 @@ created: 2025-12-20T00:00:00Z
 description: "Created with Gemini"
 epistemic: 
 last_reviewed: 
-modified: 2025-12-20T15:25:16Z
+modified: 2025-12-25T11:40:19+00:00
 published:
 purpose: 
 review_interval: 
@@ -32,7 +32,7 @@ The following specifications detail the logical framework and functional modules
 The system must function like a software "control room" that manages the relationship between mundane actions and high-level purpose.
 
 - **Horizontal Control (The Runway):** A system to capture, clarify, and execute daily actions.
-- **Vertical Perspective (The Horizons):** A hierarchical map from **50,000 feet** (Purpose/Principles) down to **10,000 feet** (Projects) .
+- **Vertical Perspective (The Horizons):** A hierarchical map from **50,000 feet** (Purpose/Principles) down to **10,000 feet** (Projects).
 - **Logic Core:** The "How it works" is based on the principle that the mind is for having ideas, not holding them.
 
 ---
@@ -49,8 +49,8 @@ To ensure trust, the app must eliminate the "holes in the bucket" where commitme
 This module automates David Allen’s "Knowledge Work Athletics"—the thinking process required to define work before doing it.
 
 - **The Actionability Filter:** A guided workflow for every In-box item:
-	- **Is it actionable?** If NO: Auto-sort to **Trash**, **Reference**, or **Someday/Maybe** (Incubation) .
-	- **If YES:** Force-definition of the **Next Action** (the physical, visible behavior) and the **Desired Outcome** (The Project) .
+	- **Is it actionable?** If NO: Auto-sort to **Trash**, **Reference**, or **Someday/Maybe** (Incubation).
+	- **If YES:** Force-definition of the **Next Action** (the physical, visible behavior) and the **Desired Outcome** (The Project).
 - **The 2-Minute Rule Engine:** If a defined action is tagged as <2 minutes, the app triggers an immediate "Do It" prompt.
 - **Contextual Tagging:** Sorting actions by **Context** (At Computer, Calls, Agendas), **Time Available**, and **Energy Level**.
 
@@ -58,17 +58,17 @@ This module automates David Allen’s "Knowledge Work Athletics"—the thinking 
 
 Drawing from *Making Work Visible*, the app replaces static lists with dynamic visual boards to expose "Time Thieves".
 
-- **WIP (Work-In-Progress) Limits:** A hard constraint on the "Doing" column to prevent cognitive overload and "context switching" .
+- **WIP (Work-In-Progress) Limits:** A hard constraint on the "Doing" column to prevent cognitive overload and "context switching".
 - **Dependency Mapping:** Visual tags identifying "Architecture," "Expertise," or "Activity" dependencies that block progress.
-- **Flow Metrics:** Real-time dashboards for **Cycle Time** (how long it takes to finish a task) and **Aging Reports** (shining a light on neglected work) .
+- **Flow Metrics:** Real-time dashboards for **Cycle Time** (how long it takes to finish a task) and **Aging Reports** (shining a light on neglected work).
 
 ## 5\. Module 4: The Review Orchestrator
 
 The "master key" to the system is maintaining the integrity of the data.
 
 - **The Guided Weekly Review:** A ritualised, step-by-step programme:
-	1. **Get Clear:** Emptying physical and digital in-boxes .
-	2. **Get Current:** Updating Projects and Waiting-For lists .
+	1. **Get Clear:** Emptying physical and digital in-boxes.
+	2. **Get Current:** Updating Projects and Waiting-For lists.
 	3. **Get Creative:** Trigger lists to "Mind Sweep" new ideas.
 - **Horizon Alignment Check:** A quarterly prompt to verify if current **Projects** (10k feet) actually support **Goals** (30k feet) and **Vision** (40k feet).
 
@@ -79,7 +79,7 @@ The "master key" to the system is maintaining the integrity of the data.
 Based on *ADHD 2.0*, the app must support "Now" vs. "Not Now" time-blindness and the need for high-stimulus engagement.
 
 - **The "Now" Toggle:** A distraction-free mode that hides everything except the single next action for the current context.
-- **Visual Feedback Loops:** Gamified indicators of progress to provide immediate "natural rewards" for completing small tasks .
+- **Visual Feedback Loops:** Gamified indicators of progress to provide immediate "natural rewards" for completing small tasks.
 - **Interruption Capture:** A "Pink Dot" or "Flash Capture" button for unplanned work that arises, allowing the user to record the interruption and return to the flow state immediately.
 
 ## 7\. Technical Specifications

@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 1.0
+confidence: "1.0"
 created: 2025-11-22T15:00:01Z
-epistemic: definition
-last_reviewed: 2025-11-22
-modified: 2025-11-22T14:42:26Z
+epistemic: "definition"
+last_reviewed: "2025-11-22"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Defines the software endpoint for network communication."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [networking/kernel]
+status: "seedling"
+tags: ["topic/technology/networking/kernel"]
 title: Concept - Network Socket
-type: concept
-uid: 2025-11-22T15:00:01Z
-updated: 2025-11-22T15:00:01Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Network Socket

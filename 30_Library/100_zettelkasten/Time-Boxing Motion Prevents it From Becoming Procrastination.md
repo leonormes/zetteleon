@@ -1,21 +1,21 @@
 ---
-aliases: [Time-Boxing Planning]
-confidence: 1
+aliases: ["Time-Boxing Planning"]
+confidence: "1"
 created: 2025-11-01T20:41:00Z
-epistemic: tool
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:35:44Z
+epistemic: "tool"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To explain how to use time-boxing to prevent motion from becoming procrastination."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]", "[[Time-boxing]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Motion Can Be a Procrastination Delay Tactic.md"]
-status: evergreen
-tags: [procrastination, productivity, time-boxing, time-management]
+source_of_truth: []
+status: "evergreen"
+tags: ["procrastination", "time-boxing", "time-management", "topic/productivity"]
 title: Time-Boxing Motion Prevents it From Becoming Procrastination
-type: tool
-uid: 20251101204100
-updated: 2025-11-01T20:41:00Z
-version: 1
+type: "tool"
+uid: 
+updated: 
+version: "1"
 ---
 
 A powerful technique to ensure motion enables action rather than delays it is to allocate a specific, limited amount of time for preparatory activities.

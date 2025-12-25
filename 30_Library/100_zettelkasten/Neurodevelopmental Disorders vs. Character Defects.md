@@ -1,21 +1,21 @@
 ---
-aliases: [Disorder vs. Defect]
-confidence: 
+aliases: ["Disorder vs. Defect"]
+confidence: "null"
 created: 2025-07-16T17:30:02Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [ethics, neurodiversity, topic/health/adhd, topic/psychology]
+status: "null"
+tags: ["ethics", "neurodiversity", "topic/health/adhd", "topic/psychology"]
 title: Neurodevelopmental Disorders vs. Character Defects
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 A neurodevelopmental disorder, such as ADHD, is a matter of brain function and wiring. It is a medical condition and not a moral failing or a reflection of a person's character.

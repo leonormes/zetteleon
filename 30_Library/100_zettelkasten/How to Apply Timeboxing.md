@@ -1,21 +1,21 @@
 ---
-aliases: [How to Timebox]
-confidence: 1
+aliases: ["How to Timebox"]
+confidence: "1"
 created: 2025-11-01T21:13:00Z
-epistemic: method
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:43:14Z
+epistemic: "method"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To provide a practical guide for applying the timeboxing technique."
-review_interval: 90
-see_also: ['[[Timeboxing Creates Structure for Action]]']
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Timeboxing Creates Structure for Action.md"]
-status: evergreen
-tags: [how-to, productivity, scheduling, time-management]
+review_interval: "90"
+see_also: ["[[Timeboxing Creates Structure for Action]]"]
+source_of_truth: []
+status: "evergreen"
+tags: ["how-to", "scheduling", "time-management", "topic/productivity"]
 title: How to Apply Timeboxing
-type: list
-uid: 20251101211300
-updated: 2025-11-01T21:13:00Z
-version: 1
+type: "list"
+uid: 
+updated: 
+version: "1"
 ---
 
 1. **Identify Your Priorities:** Determine your most important tasks and goals for the day or week.

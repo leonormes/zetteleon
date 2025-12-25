@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 1.0
+confidence: "1.0"
 created: 2025-11-22T15:00:10Z
-epistemic: fact
-last_reviewed: 2025-11-22
-modified: 2025-11-22T14:42:11Z
+epistemic: "fact"
+last_reviewed: "2025-11-22"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Distinguishes between Layer 2 and Layer 3 packet forwarding devices."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [networking/infrastructure]
+status: "seedling"
+tags: ["topic/technology/networking/infrastructure"]
 title: Concept - Network Bridge vs Router
-type: concept
-uid: 2025-11-22T15:00:10Z
-updated: 2025-11-22T15:00:10Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Network Bridge Vs Router

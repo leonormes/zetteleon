@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-27T19:20:43Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [communication, epistemology, topic/learning, understanding]
+status: "null"
+tags: ["communication", "epistemology", "topic/learning", "understanding"]
 title: The Gap Between Knowing a Fact and Understanding a Concept
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 There is a profound difference between *knowing a fact* and *understanding a concept*.

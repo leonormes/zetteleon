@@ -1,20 +1,20 @@
 ---
-aliases: [Intrinsic Habit Motivation, Values-Driven Change]
-confidence: 0.9
+aliases: ["Intrinsic Habit Motivation", "Values-Driven Change"]
+confidence: "0.9"
 created: 2025-10-30T15:04:20Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-31T09:31:40Z
+epistemic: "principle"
+last_reviewed: "2025-10-30"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To emphasize the importance of intrinsic motivation in sustainable change"
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [habit-formation, intrinsic-motivation, topic/health/adhd, values]
+status: "seedling"
+tags: ["intrinsic-motivation", "topic/habits", "topic/health/adhd", "values"]
 title: Habit Change Must Align With Personal Values Not External Expectations
-type: principle
-uid: 2025-10-30T15:04:20Z
-updated: 2025-10-30T15:04:20Z
+type: "principle"
+uid: 
+updated: 
 ---
 
 ## Habit Change Must Align With Personal Values Not External Expectations

@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:55Z
-epistemic: 
-ID: 4a1a
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+ID: "4a1a"
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [information]
+status: ""
+tags: ["information"]
 title: What Is Information Theory
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Information theory is a scientific concept that emerged with electronic communications. Scientists formalised the concept and provided it with laws and equations, removing much of its vagueness and mystery.

@@ -1,21 +1,21 @@
 ---
-aliases: [Sincerity, Truthfulness]
-confidence: 1
+aliases: ["Sincerity", "Truthfulness"]
+confidence: "1"
 created: 2025-11-01T21:22:00Z
-epistemic: definition
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:43:14Z
+epistemic: "definition"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define the character strength of honesty."
-review_interval: 90
-see_also: ['[[Inner Strength & Resilience Skills (Your Strong Spirit)]]']
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Inner Strength & Resilience Skills (Your Strong Spirit).md"]
-status: evergreen
-tags: [character-strength, honesty, integrity, trust, virtue]
+review_interval: "90"
+see_also: ["[[Inner Strength & Resilience Skills (Your Strong Spirit)]]"]
+source_of_truth: []
+status: "evergreen"
+tags: ["character-strength", "honesty", "integrity", "trust", "virtue"]
 title: Honesty is Being Truthful and Sincere
-type: concept
-uid: 20251101212200
-updated: 2025-11-01T21:22:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 Honesty is the virtue of telling the truth, being sincere, and acting in a way that is worthy of trust.

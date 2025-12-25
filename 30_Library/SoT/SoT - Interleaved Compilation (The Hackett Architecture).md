@@ -1,25 +1,20 @@
 ---
 aliases: ["Hackett", "Interleaved Compilation", "Lisp-Haskell Fusion", "Type-Driven Macros"]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-18T12:20:00Z
-decay-signals: []
-epistemic: authoritative
-last_reviewed: 2025-12-18
-modified: 2025-12-20T09:54:08Z
-purpose: Defines the architectural pattern of interleaved macro expansion and type checking to enable type-aware meta-programming.
-quality-markers: ["Synthesized from Alexis King's Hackett presentation"]
-related-soTs: ["[[SoT - Dependent Haskell and Singletons]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]
-resonance-score: 9
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
+confidence: "5/5"
+created: 2025-12-18T00:00:00Z
+epistemic: "authoritative"
+last_reviewed: "2025-12-18"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "Defines the architectural pattern of interleaved macro expansion and type checking to enable type-aware meta-programming."
+review_interval: "1 year"
+see_also: ["[[SoT - Dependent Haskell and Singletons]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]
+source_of_truth: []
+status: "stable"
 tags: ["architecture", "macros", "programming_languages", "racket", "type_systems"]
 title: SoT - Interleaved Compilation (The Hackett Architecture)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Working Knowledge (Stable Foundation)

@@ -1,20 +1,20 @@
 ---
-aliases: [Schema Theory]
-confidence: 0.9
+aliases: ["Schema Theory"]
+confidence: "0.9"
 created: 2025-11-10T16:03:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T14:08:42Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To explain the role of prior knowledge in learning, according to Schema Theory."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Understanding vs Learning]]"]
-status: seedling
-tags: [cognition, learning, memory, schema-theory]
+source_of_truth: []
+status: "seedling"
+tags: ["learning", "memory", "schema-theory", "topic/cognition"]
 title: Prior Knowledge Organized as Schemas Provides the Foundation for New Learning
-type: concept
-uid: 2025-11-10T16:03:00Z
-updated: 2025-11-10T16:03:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Prior Knowledge Organized as Schemas Provides the Foundation for New Learning

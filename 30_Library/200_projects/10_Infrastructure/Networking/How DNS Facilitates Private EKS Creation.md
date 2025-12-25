@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-13T09:29:09Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [dns]
+status: ""
+tags: ["dns"]
 title: How DNS Facilitates Private EKS Creation
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 - Internal Communication: DNS enables internal communication within your EKS cluster and between services within your VPC. Kubernetes relies on DNS for service discovery. Therefore, having a properly configured DNS ensures that pods can find each other within the cluster.

@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-12T14:10:07Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-12T13:54:41Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To distinguish between motivation, volition, and control."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - The Science of Taking Action Bridging the Knowledge-Action Gap]]"]
-status: seedling
-tags: [action, motivation, psychology]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "motivation", "topic/psychology"]
 title: Motivation, Volition, and Control are Distinct Aspects of the Action Process
-type: concept
-uid: 2025-11-12T14:10:07Z
-updated: 2025-11-12T14:10:07Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Motivation, Volition, and Control Are Distinct Aspects of the Action Process

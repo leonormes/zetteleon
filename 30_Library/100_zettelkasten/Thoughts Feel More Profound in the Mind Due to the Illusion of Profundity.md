@@ -1,20 +1,20 @@
 ---
-aliases: [Illusion of Profundity]
-confidence: 0.9
+aliases: ["Illusion of Profundity"]
+confidence: "0.9"
 created: 2025-11-06T20:00:00Z
-epistemic: insight
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "insight"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To explain why thoughts feel more significant in the mind than when written down."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["The Illusion of Profundity Thought vs Text.md"]
-status: seedling
-tags: [cognition, epistemology, thinking, writing]
+source_of_truth: []
+status: "seedling"
+tags: ["epistemology", "thinking", "topic/cognition", "writing"]
 title: Thoughts Feel More Profound in the Mind Due to the Illusion of Profundity
-type: concept
-uid: 2025-11-06T20:00:00Z
-updated: 2025-11-06T20:00:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Thoughts Feel More Profound in the Mind Due to the Illusion of Profundity

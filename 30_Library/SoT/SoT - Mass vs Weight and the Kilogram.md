@@ -1,41 +1,26 @@
 ---
-aliases: [Mass vs Weight, SI Unit of Mass, The Kilogram Definition]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-12T18:00:00Z
-epistemic: scientific
-last-synthesis: 2025-12-12
-last_reviewed: 2025-12-12
-modified: 2025-12-20T09:54:08Z
-purpose: Canonical definition of mass vs. weight and the modern definition of the kilogram based on the Planck constant.
-quality-markers: []
-related-soTs: ["[[SoT - Reality, Models, and the Limits of Accuracy]]"]
-resonance-score: 8
-review_interval: 2 years
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: ["[[what is the difference between mass and weight]]"]
-tags: [measurement, physics, science]
+aliases: ["Mass vs Weight", "SI Unit of Mass", "The Kilogram Definition"]
+confidence: "5/5"
+created: 2025-12-12T00:00:00Z
+epistemic: "scientific"
+last_reviewed: "2025-12-12"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "Canonical definition of mass vs. weight and the modern definition of the kilogram based on the Planck constant."
+review_interval: "2 years"
+see_also: ["[[SoT - Reality", "[[what is the difference between mass and weight]]", "and the Limits of Accuracy]]", "Models"]
+source_of_truth: []
+status: "stable"
+tags: ["measurement", "physics", "science"]
 title: SoT - Mass vs Weight and the Kilogram
-type: SoT
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Mass vs. Weight
-> **Mass** is a scalar quantity measuring the amount of matter in an object; it is intrinsic and constant regardless of location.
->
-> **Weight** is a vector quantity measuring the force of gravity acting on that mass ($W = m \times g$); it is extrinsic and varies with the gravitational field strength.
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. The Core Distinction
 
 | Property | Mass | Weight |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Definition** | Amount of matter / Inertia | Force of gravity on mass |
 | **Type** | Scalar (Magnitude only) | Vector (Magnitude + Direction) |
 | **SI Unit** | Kilogram (**kg**) | Newton (**N**) |

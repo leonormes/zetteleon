@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T10:17:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T10:17:00Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Explain longest prefix match routing principle."
-review_interval: 90
+review_interval: "90"
 see_also: ["Layer 3 Network Security Protects IP Routing and Forwarding.md"]
 source_of_truth: []
-status: seedling
-tags: [networking, routing]
+status: "seedling"
+tags: ["routing", "topic/technology/networking"]
 title: Routing Tables Use Longest Prefix Match for Forwarding Decisions
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

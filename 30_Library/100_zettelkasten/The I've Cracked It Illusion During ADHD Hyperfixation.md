@@ -1,21 +1,21 @@
 ---
-aliases: ["Life-Changing Interest Illusion", "True Passion Illusion"]
-confidence: 0.9
+aliases: []
+confidence: "0.9"
 created: 2025-11-01T11:37:53Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:44:48Z
-purpose: "Explain the powerful but temporary conviction during hyperfixation that one has found their life's purpose."
-review_interval: 90
-see_also: ["[[ADHD Hyperfixation-Burnout Cycle]]", "[[Hyperfixation and Neurotransmitter Flooding in ADHD]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Adhd up and down cycle .md"]
-status: seedling
-tags: [hyperfocus, motivation, self-perception, topic/health/adhd]
+epistemic: "fact"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: "90"
+see_also: []
+source_of_truth: []
+status: "seedling"
+tags: []
 title: "The I've Cracked It Illusion During ADHD Hyperfixation"
-type: concept
-uid: 2025-11-01T11:37:53Z
-updated: 2025-11-01T11:37:53Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** During the intense period of hyperfixation, the clarity and motivation are so profound that people with ADHD often believe they've finally found their "one true passion." They may declare the new interest as their career path, life's hobby, or the system that will finally organize their life.

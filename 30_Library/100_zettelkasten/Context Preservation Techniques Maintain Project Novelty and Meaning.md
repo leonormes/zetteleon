@@ -1,20 +1,20 @@
 ---
 aliases: ["Project Context Preservation"]
-confidence: 0.8
+confidence: "0.8"
 created: 2025-11-11T19:05:09Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-11T10:57:47Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Describes methods for keeping a project feeling novel and meaningful."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [motivation, productivity, project-management]
+status: "seedling"
+tags: ["motivation", "project-management", "topic/productivity"]
 title: Context Preservation Techniques Maintain Project Novelty and Meaning
-type: strategy
-uid: 2025-11-11T19:05:09Z
-updated: 2025-11-11T19:05:09Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## Context Preservation Techniques Maintain Project Novelty and Meaning

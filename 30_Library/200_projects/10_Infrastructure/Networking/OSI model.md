@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-05-15T09:49:03Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T11:06:55Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:38+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [osi, topic/technology/networking]
+status: "null"
+tags: ["osi", "topic/technology/networking"]
 title: OSI model
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 [[Layer 7 Application Layer]]

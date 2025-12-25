@@ -1,27 +1,20 @@
 ---
 aliases: []
-confidence: 
-created: 2025-12-11T20:03:09Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:06Z
-purpose: 
-review_interval: 
+confidence: ""
+created: 2025-12-11T00:00:00Z
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:20+00:00
+purpose: ""
+review_interval: "3 months"
 see_also: []
 source_of_truth: []
-status: 
+status: "stable"
 tags: []
 title: SoT - The Thought-Language Continuum
-type: 
+type: "SoT"
 uid: 
 updated: 
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> The **Thought-Language Continuum** explores the dynamic, often bidirectional, relationship between internal mental processes (thought) and their external manifestation through language. It examines how our capacity for language shapes, constrains, and enables our ability to form, clarify, and express ideas.
-
 ---
 
 ## 2. Core Concepts

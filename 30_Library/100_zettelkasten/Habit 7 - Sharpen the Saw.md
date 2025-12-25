@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T09:08:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [effectiveness, habit, principles, renewal, self_care]
+status: ""
+tags: ["effectiveness", "principles", "renewal", "self_care", "topic/habits"]
 title: Habit 7 - Sharpen the Saw
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Habit 7: Sharpen the Saw** is the principle of balanced self-renewal. It is the habit that makes all the others possible by preserving and enhancing your greatest asset: you. It means taking time to renew yourself regularly across four key dimensions.

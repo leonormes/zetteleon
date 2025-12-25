@@ -1,23 +1,23 @@
 ---
 aliases: []
-author: 
-confidence: 
+author: ""
+confidence: ""
 created: 2025-03-04T09:42:26Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:44Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
-source: https://argo-cd.readthedocs.io/en/stable/operator-manual/ingress/#ingress-configurationh
+source: "https://argo-cd.readthedocs.io/en/stable/operator-manual/ingress/#ingress-configurationh"
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Ingress Configuration - Argo CD - Declarative GitOps CD for Kubernetes
-type: download
+type: "download"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Argo CD API server runs both a gRPC server (used by the CLI), as well as a HTTP/HTTPS server (used by the UI). Both protocols are exposed by the argocd-server service object on the following ports:
@@ -440,7 +440,7 @@ spec:
   type: NodePort
 ```
 
-Once we create this service, we can configure the Ingress to conditionally route all `application/grpc` traffic to the new HTTP2 backend, using the `alb.ingress.kubernetes.io/conditions` annotation, as seen below. Note: The value after the . in the condition annotation *must* be the same name as the service that you want traffic to route to - and will be applied on any path with a matching serviceName.
+Once we create this service, we can configure the Ingress to conditionally route all `application/grpc` traffic to the new HTTP2 backend, using the `alb.ingress.kubernetes.io/conditions` annotation, as seen below. Note: The value after the. in the condition annotation *must* be the same name as the service that you want traffic to route to - and will be applied on any path with a matching serviceName.
 
 ```sh
   apiVersion: networking.k8s.io/v1
@@ -532,13 +532,13 @@ spec:
          value: "0"
 ```
 
-After that install Argo CD (there should be only 3 yml file defined above in current directory )
+After that install Argo CD (there should be only 3 yml file defined above in current directory)
 
 ```sh
 kubectl apply -k ./ -n argocd --wait=true
 ```
 
-Be sure you create secret for Istio ( in our case secretname is argocd-server-tls on argocd Namespace). After that we create Istio Resources
+Be sure you create secret for Istio (in our case secretname is argocd-server-tls on argocd Namespace). After that we create Istio Resources
 
 ```sh
 apiVersion: networking.istio.io/v1alpha3

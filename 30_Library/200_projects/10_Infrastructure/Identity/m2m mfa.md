@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-15T02:31:02Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: m2m mfa
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 For machine-to-machine (M2M) communications, traditional multi-factor authentication (MFA) methods like OTP codes from a phone are not practical. Instead, M2M authentication relies on different mechanisms to ensure secure communication between systems. Here are some options for M2M multi-factor authentication:

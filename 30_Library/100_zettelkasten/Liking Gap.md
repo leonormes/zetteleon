@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-31T09:20:29Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:41Z
-purpose: Explain the systematic tendency to underestimate how much others like us after social interactions.
-review_interval: 
+epistemic: "fact"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [topic/cognition/bias, topic/social-cognition, topic/social-perception]
+status: "seedling"
+tags: ["topic/cognition/bias", "topic/social-cognition", "topic/social-perception"]
 title: Liking Gap
-type: concept
-uid: sp-liking-gap
-updated: 2025-10-31T09:20:29Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Liking Gap

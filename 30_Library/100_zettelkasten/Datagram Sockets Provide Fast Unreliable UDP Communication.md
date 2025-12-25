@@ -1,20 +1,20 @@
 ---
 aliases: ["datagram sockets", "UDP sockets"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T13:38:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:56Z
+epistemic: "fact"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain datagram sockets and UDP characteristics."
-review_interval: 90
+review_interval: "90"
 see_also: ["Stream Sockets Provide Reliable Ordered TCP Communication.md"]
 source_of_truth: []
-status: seedling
-tags: [networking, protocol, socket, udp]
+status: "seedling"
+tags: ["protocol", "socket", "topic/technology/networking", "udp"]
 title: Datagram Sockets Provide Fast Unreliable UDP Communication
-type: concept
-uid: 2025-10-31T13:38:00Z
-updated: 2025-10-31T13:38:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Datagram Sockets Provide Fast Unreliable UDP Communication

@@ -1,21 +1,21 @@
 ---
-aliases: [Timeboxing for ADHD Management]
-confidence: 
+aliases: ["Timeboxing for ADHD Management"]
+confidence: "null"
 created: 2025-06-25T20:14:33Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/health/adhd]
+status: "null"
+tags: ["topic/health/adhd"]
 title: Timeboxing Definition and Mindset
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Timeboxing is both a method and a mindset focused on selecting what to do before distractions, specifying tasks in a calendar with start/end times, focusing on one thing at a time, and doing tasks to an acceptable standard.

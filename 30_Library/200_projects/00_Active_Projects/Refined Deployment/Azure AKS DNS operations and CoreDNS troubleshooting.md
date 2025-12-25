@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-16T08:22:15Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:04Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:33+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/networking/dns]
+status: "null"
+tags: ["topic/technology/networking/dns"]
 title: Azure AKS DNS operations and CoreDNS troubleshooting
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Here’s a focused review of your recent work history as it relates to DNS in Kubernetes across AWS and Azure, followed by a consolidated set of best practices for private/public DNS in K8s and the two clouds.

@@ -1,29 +1,20 @@
 ---
-alias: [Economic Thermodynamics, Money as Potential Energy, Work-Abstraction Theory of Money]
 aliases: []
-confidence: 5/5
-created: 2025-12-14T19:00:00Z
-epistemic: theory
-last_reviewed: 2025-12-14
-modified: 2025-12-20T09:54:08Z
-purpose: To define money not as a store of value but as a store of potential energy (work capacity), and to formalize the mechanics of spending as vector allocation.
-review_interval: 6 months
+confidence: "5/5"
+created: 2025-12-14T00:00:00Z
+epistemic: "theory"
+last_reviewed: "2025-12-14"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define money not as a store of value but as a store of potential energy (work capacity), and to formalize the mechanics of spending as vector allocation."
+review_interval: "6 months"
 see_also: ["[[SoT - Family Financial Wellness]]", "[[SoT - Fundamental Description of Economics]]", "[[SoT - Ontology of Money and Wealth]]"]
-source_of_truth: true
-status: stable
-tags: [economics, energy, money, physics, systems_thinking]
+source_of_truth: []
+status: "stable"
+tags: ["economics", "energy", "money", "physics", "topic/systems"]
 title: SoT - Money as Potential Energy
-type: SoT
-uid: 2025-12-14-MONEY-ENERGY
+type: "SoT"
+uid: 
 updated: 
-version: 1
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Money is Tokenized Potential Energy.** It is an abstraction layer that decouples **Effort** (Input) from **Request** (Output). Just as a battery stores electrical potential to be released later as kinetic work, money stores the integral of past labour to be released later as societal action.
-
 ---
 
 ## 2. The Physics of Finance

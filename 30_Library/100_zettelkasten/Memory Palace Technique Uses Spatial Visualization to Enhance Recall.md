@@ -1,18 +1,18 @@
 ---
 aliases: ["Method of Loci"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T10:05:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "Explain the memory palace technique for memorization."
-review_interval: 90
+review_interval: "90"
 see_also: ["Memory Enables Learning by Storing Experiences for Future Use.md"]
 source_of_truth: []
-status: seedling
-tags: [learning, memory, visualization]
+status: "seedling"
+tags: ["learning", "memory", "visualization"]
 title: Memory Palace Technique Uses Spatial Visualization to Enhance Recall
-type: technique
+type: "technique"
 uid: 
 updated: 
 ---

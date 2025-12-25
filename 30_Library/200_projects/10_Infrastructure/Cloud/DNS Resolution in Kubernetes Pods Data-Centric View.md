@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-03-15T07:39:42Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [data-centric, dns]
+status: "null"
+tags: ["data-centric", "topic/technology/networking/dns"]
 title: DNS Resolution in Kubernetes Pods Data-Centric View
-type: 
+type: "null"
 uid: 
 updated: 
-version: 
+version: "null"
 ---
 
 To understand where DNS resolution occurs, we need to consider the different layers involved in a containerized application within Kubernetes:

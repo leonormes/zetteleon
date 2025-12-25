@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-31T09:20:29Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:41Z
-purpose: Explain how the brain uses fast, heuristic-driven pattern matching to form social judgments.
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: "Explain how the brain uses fast, heuristic-driven pattern matching to form social judgments."
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [topic/social-cognition, topic/social-perception]
+status: "seedling"
+tags: ["topic/social-cognition", "topic/social-perception"]
 title: Pattern Recognition in Social Cognition
-type: concept
-uid: sp-social-pattern-recognition
-updated: 2025-10-31T09:20:29Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Pattern Recognition in Social Cognition

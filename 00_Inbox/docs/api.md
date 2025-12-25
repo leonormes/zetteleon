@@ -1,0 +1,176 @@
+---
+aliases: []
+confidence: ""
+created: 2025-12-24T22:05:54Z
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T18:35:31Z
+purpose: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+status: ""
+tags: []
+title: api
+type: ""
+uid: 
+updated: 
+---
+
+## Api
+
+API is accessible with `MetadataMenu.api`
+
+### getValues (deprecated)
+
+```typescript
+getValues(fileOrFilePath: TFile | string, attribute: string) => Promise<string[]>
+```
+
+Takes a TFile containing the field and a string for the related field name
+
+Returns an array with the values of the field. If there are several fields with the same name (in object list fields for example, see [Settings](settings#object-listoptions)), this function will return an array with all the exisiting values
+
+### getValuesForIndexedPath
+
+```typescript
+getValuesForIndexedPath(fileOrFilePath: TFile | string, indexedPath: string) => Promise<string>
+```
+
+Takes a TFile containing the field and a string for the related field's [indexedPath](fields#indexed-path)
+
+Returns the value of the field for this indexedPath
+
+### postValues
+
+creates or updates fields with values in the target note
+
+```typescript
+postValues(fileOrFilePath: TFile | string, payload: FieldsPayload, lineNumber?: number, after?: boolean, asList?: boolean, asBlockquote?:boolean) => Promise<void>
+```
+
+#### Parameters
+
+- `fileOrFilePath: TFile | string`: the target file where to create or update the fields
+- `payload: FieldsPayload`: list of fields and values to create or update (see type definition below and [indexed path](fields.md#indexed-path) section of the field settings)
+- `lineNumber?: number`: optional line number where to create fields if it doesn't exist. If the field already exists, this attribute won't do anything. If line number is undefined and the field doesn't exist yet, it will be included in frontmatter
+- `after?: boolean`: optional parameter to create new fields after or before the line number. Defaults to `true`
+- `asList?: boolean`: optional parameter to create new fields as list (insert a `- ` before the field's name). Defaults to `false`
+- `asBlockquote?: boolean`: optional parameter to create new fields as comment (insert a `>` before the field's name). Defaults to `false`
+
+#### `FieldsPayload` And `FieldPayload`
+
+```typescript
+export type FieldPayload = {
+    value: string, // the field's value as string
+}
+
+export type FieldsPayload = Array<{
+    indexedPath: string, //the indexedPath of the field
+    payload: FieldPayload
+}>
+```
+
+### postNamedFieldsValues
+
+Same as [postValues](#postvalues): creates or updates fields with values in the target note. The payload identifies fields based on their names rather than their indexedPath.
+
+```typescript
+postNamedFieldsValues: (fileOrFilePath: TFile | string, payload: NamedFieldsPayload, lineNumber?: number, asList?: boolean, asBlockquote?: boolean) => Promise<void>;
+```
+
+#### Parameters
+
+- `fileOrFilePath: TFile | string`: the target file where to create or update the fields
+- `payload: NamedFieldsPayload`: list of fields and values to create or update (see type definition below)
+- `lineNumber?: number`: optional line number where to create fields if it doesn't exist. If the field already exists, this attribute won't do anything. If line number is undefined and the field doesn't exist yet, it will be included in frontmatter
+- `after?: boolean`: optional parameter to create new fields after or before the line number. Defaults to `true`
+- `asList?: boolean`: optional parameter to create new fields as list (insert a `- ` before the field's name). Defaults to `false`
+- `asBlockquote?: boolean`: optional parameter to create new fields as comment (insert a `>` before the field's name). Defaults to `false`
+
+#### `NamedFieldsPayload` And `FieldPayload`
+
+```typescript
+export type FieldPayload = {
+    value: string, // the field's value as string
+}
+
+export type NamedFieldsPayload = Array<{
+    name: string, //the name of the field
+    payload: FieldPayload
+}>
+```
+
+### fieldModifier
+
+```typescript
+fieldModifier(dv: any, p: any, fieldName: string, attrs?: { cls: string, attr: Record<string, string> }) => HTMLElement
+```
+
+Takes a dataview api instance, a page, a field name and optional attributes and returns a HTML element to modify the value of the field in the target note
+
+### fileFields
+
+```typescript
+fileFields(fileOrFilePath: TFile | string) => Promise<Record<string, IFieldInfo>>
+```
+
+Takes a TFile or e filePath and returns all the fields in the document, both frontmatter and dataview fields, and returns a collection of analysis of those fields by metadatamenu:
+
+```typescript
+{
+    (indexedPath: string): {
+        /* the value of the field in the file */
+        value: string | undefined, 
+
+        /* the fileClass name applied to this field if there is a fileClass AND if the field is set in the fileClass or the fileClass it's inheriting from */
+        fileClassName: string | undefined,
+
+        /* true if this fieldName is in "Globally ignored fields" in the plugin settings */
+        ignoreInMenu: boolean | undefined,
+
+        /* true if this field as a setting defined in the plugin settings or a fileClass and if the value is valid according to those settings */
+        isValid: boolean | undefined,
+
+        /* an object containing the options available for this field according to the plugin settings or the fileClass */
+        options: Record<string, string> | undefined,
+
+        /* wether the settings applied to this field come from a fileClass, the plugin settings or none  */
+        sourceType: "fileClass" | "settings" | undefined,
+
+        /* the type of the field according to the plugin settings or the fileClass  */
+        type: "Input" | "Select" | "Multi" | "Cycle" | "Boolean" | "Number" | "File" | "MultiFile" | "Media" | "MultiMedia" | "Date" | "Lookup" | "Formula" | "Canvas" | "CanvasGroup" | "CanvasGroupLink" | "YAML" | "JSON" | "Object" | "ObjectList"
+
+        /* the unique identifier of the field definition in the vault */
+        id: string
+
+        /* the unique idenfier of the path of this field in this file*/
+        indexedPath: string | undefined
+    }
+}
+```
+
+### namedFileFields
+
+```typescript
+namedFileFields: (fileOrFilePath: TFile | string) => Promise<Record<string, IFieldInfo>>
+```
+
+Same as [fileFields](#filefields) but the key is a "named indexedPath" (each field's ID composing the indexedPath is replaced by its name)
+
+### insertMissingFields
+
+```typescript
+insertMissingFields: (fileOrFilePath: string | TFile, lineNumber: number, boolean, asList: boolean, asBlockquote: boolean, fileClassName?: string) => Promise<void>
+```
+
+Takes:
+
+- a TFile or its path,
+- a line number,
+- asks wether insertion is in after the line (default: false),
+- asks wether insertion is as list (prepends `- `) (default: false),
+- asks wether insertion is as comment (prepends `>`) (default: false),
+- asks wether insertion should only deal with one single fileClass' fields (default: all)
+
+Inserts all missings fields of all (or one specified) fileClass fields at the line, with the format

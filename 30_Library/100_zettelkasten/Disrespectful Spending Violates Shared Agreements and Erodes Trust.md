@@ -1,20 +1,20 @@
 ---
-aliases: [Disrespectful Spending, Financial Infidelity]
-confidence: 0.9
+aliases: ["Disrespectful Spending", "Financial Infidelity"]
+confidence: "0.9"
 created: 2025-11-10T10:15:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define when spending becomes disrespectful in a partnership."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [boundaries, finance, relationship, respect, trust]
+source_of_truth: []
+status: "seedling"
+tags: ["boundaries", "finance", "relationship", "respect", "trust"]
 title: Disrespectful Spending Violates Shared Agreements and Erodes Trust
-type: concept
-uid: 2025-11-10T10:15:00Z
-updated: 2025-11-10T10:15:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Disrespectful Spending Violates Shared Agreements and Erodes Trust

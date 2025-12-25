@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T08:00:06Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [behavior, habit, topic/health/adhd, topic/productivity]
+status: "null"
+tags: ["behavior", "topic/habits", "topic/health/adhd", "topic/productivity"]
 title: ADHD Behavioral Strategies for Productivity
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Beyond building complex systems, many effective strategies for managing ADHD focus on behavior, environment, and mindset.

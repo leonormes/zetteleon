@@ -1,20 +1,20 @@
 ---
-aliases: [Time-boxed Research]
-confidence: 
+aliases: ["Time-boxed Research"]
+confidence: ""
 created: 2025-11-12T15:00:10Z
-epistemic: NA
-last_reviewed:
-modified: 2025-11-12T14:01:15Z
+epistemic: "NA"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "A technique to prevent getting lost in research 'rabbit holes'."
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [adhd, productivity, research, technique, time-management]
+status: "seedling"
+tags: ["research", "technique", "time-management", "topic/health/adhd", "topic/productivity"]
 title: Time-Boxing Research Prevents Productive Procrastination
-type: instructional
-uid: 2025-11-12T15:00:10Z
-updated: 2025-11-12T15:00:10Z
+type: "instructional"
+uid: 
+updated: 
 ---
 
 ## Time-Boxing Research Prevents Productive Procrastination

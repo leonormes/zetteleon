@@ -5,7 +5,7 @@ confidence:
 created: 2025-12-09T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-10T20:00:14Z
+modified: 2025-12-25T11:40:49+00:00
 purpose: Planning and analysis for Jira ticket FFAPP-4153 regarding Bitnami chart replacements.
 review_interval:
 see_also: []
@@ -28,6 +28,7 @@ updated:
 This ticket was triggered by the need to migrate away from or secure our usage of Bitnami charts.
 
 ## My Current Model
+
 **User Story:**
 "As a Platform Engineer, I want to identify all Bitnami charts currently in use and research suitable, vetted replacements, so that we can create a clear migration plan that meets our security and automation requirements."
 

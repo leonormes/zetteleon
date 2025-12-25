@@ -1,23 +1,23 @@
 ---
 aliases: []
 author: ["[[DEV Community]]"]
-confidence: 
+confidence: ""
 created: 2025-03-27T09:44:02Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
-source: https://dev.to/haintkit/whats-gateway-api-and-how-to-deploy-on-aws-3ma1
+source: "https://dev.to/haintkit/whats-gateway-api-and-how-to-deploy-on-aws-3ma1"
 source_of_truth: []
-status: 
-tags: [gateway, k8s, networking]
+status: ""
+tags: ["gateway", "k8s", "topic/technology/networking"]
 title: "What's Gateway API and how to deploy on AWS?"
-type: download
+type: "download"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 Co-author: [@coangha21](https://dev.to/coangha21)

@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 1.0
+confidence: "1.0"
 created: 2025-11-22T15:00:02Z
-epistemic: fact
-last_reviewed: 2025-11-22
-modified: 2025-11-22T14:41:17Z
+epistemic: "fact"
+last_reviewed: "2025-11-22"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Explains how the Linux kernel selects the path for outgoing packets."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [networking/routing]
+status: "seedling"
+tags: ["topic/technology/networking/routing"]
 title: Concept - Linux Kernel Routing Decision
-type: concept
-uid: 2025-11-22T15:00:02Z
-updated: 2025-11-22T15:00:02Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Linux Kernel Routing Decision

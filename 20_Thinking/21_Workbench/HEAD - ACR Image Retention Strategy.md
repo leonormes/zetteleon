@@ -1,10 +1,11 @@
 ---
 aliases: []
+AoL: Work
 confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-10T20:00:14Z
+modified: 2025-12-23T17:53:54Z
 purpose: To design a strategy for cleaning up old Docker images in ACR based on semantic versioning or usage, not just time.
 review_interval:
 see_also: []

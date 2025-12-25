@@ -1,28 +1,20 @@
 ---
-aliases: [Hierarchy, Social Inequality, Social Stratification]
-confidence: 5/5
-created: 2025-12-10T12:00:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-20T09:54:07Z
-purpose: To define the canonical understanding of Social Stratification as a structural system of inequality.
-related-soTs: ["[[SoT - The Evolutionary Biology of Status]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
-tags: [class, inequality, power, sociology, status, structure]
+aliases: ["Hierarchy", "Social Inequality", "Social Stratification"]
+confidence: "5/5"
+created: 2025-12-10T00:00:00Z
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:20+00:00
+purpose: "To define the canonical understanding of Social Stratification as a structural system of inequality."
+review_interval: "1 year"
+see_also: ["[[SoT - The Evolutionary Biology of Status]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
+source_of_truth: []
+status: "stable"
+tags: ["class", "inequality", "power", "sociology", "status", "structure"]
 title: SoT - Social Stratification
-type: SoT
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Social Stratification** is the hierarchical arrangement of social categories that evolve into stable structures of inequality. It is an **institutionalised system** ("the architecture"), distinct from individual differences ("runtime data"). It ensures that categories of people (defined by class, status, or power) have unequal access to resources, regardless of individual capability.
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. The Three Dimensions (Weber's Triad)
@@ -30,7 +22,7 @@ updated:
 Unlike Marx's purely economic view, Max Weber argued stratification occurs across three distinct but overlapping layers:
 
 | Dimension | Domain | Definition | Example |
-| :--- | :--- | :--- | :--- |
+|:--- |:--- |:--- |:--- |
 | **Class** | Economic Order | Market position and control over resources (wealth, income). | Factory Owner vs. Worker |
 | **Status** | Social Order | Prestige, honour, and social closure ("Access Rights"). | Priest (High Status, Low Class) |
 | **Power/Party** | Political Order | The ability to enforce one's will against resistance. | Politician, Bureaucrat |

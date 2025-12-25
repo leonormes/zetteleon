@@ -1,20 +1,18 @@
 ---
-aliases: [Assertiveness Algorithm, SBI Model for Planning]
-confidence: 5/5
+aliases: ["Assertiveness Algorithm", "SBI Model for Planning"]
+confidence: "5/5"
 created: 2025-12-17T00:00:00Z
-epistemic: 
-last_reviewed: 2025-12-17
-modified: 2025-12-20T09:54:07Z
-purpose: To provide a structured, four-step algorithm for assertive communication that focuses on objective data and collaborative problem-solving.
-related-soTs: ["[[MOC - Assertiveness Through System Design]]", "[[SoT - Transactional Analysis in the Workplace]]"]
-review_interval: 
-see_also: []
-source: https://gemini.google.com/share/4fce9b7c136a
-source_of_truth: true
-status: stable
-tags: [assertiveness, communication, framework, mental-model]
+epistemic: ""
+last_reviewed: "2025-12-17"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "To provide a structured, four-step algorithm for assertive communication that focuses on objective data and collaborative problem-solving."
+review_interval: "3 months"
+see_also: ["[[MOC - Assertiveness Through System Design]]", "[[SoT - Transactional Analysis in the Workplace]]"]
+source_of_truth: []
+status: "stable"
+tags: ["assertiveness", "communication", "framework", "mental-model"]
 title: SoT - The Data-Impact-Proposal-Check Framework
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---

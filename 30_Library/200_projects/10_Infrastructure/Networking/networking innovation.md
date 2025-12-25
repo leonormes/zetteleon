@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-26T06:42:31Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:49Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: networking innovation
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 While computer networking has matured significantly, it's far from being a solved problem. There are still exciting areas of innovation and real challenges that researchers and engineers are actively tackling. It's not just about incremental optimization and security, although those are important too.

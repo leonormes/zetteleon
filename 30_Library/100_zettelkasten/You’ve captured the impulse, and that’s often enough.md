@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-05-16T13:37:49Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/health/adhd]
+status: ""
+tags: ["topic/health/adhd"]
 title: You’ve captured the impulse, and that’s often enough
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Capturing a distracting thought or impulse into an external system (like a to-do list) is a powerful technique for maintaining focus. The primary benefit is not necessarily to create a list of future tasks, but to satisfy the brain's immediate urge, allowing you to return to the current task without getting sidetracked.

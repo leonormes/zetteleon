@@ -1,27 +1,27 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-20T06:41:19Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:29Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:25+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [curriculum, gcse, project/family/bessie]
+status: ""
+tags: ["curriculum", "gcse", "project/family/bessie"]
 title: Section 2 Summary of GCSE Assessment Structure for Bessie Ormes
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 To provide a clear and manageable overview, the following table summarises the assessment structure for each of Bessie's subjects. This visual format helps to break down the components of the GCSE courses, clarifying the balance between examinations and Non-Exam Assessment (NEA), often referred to as coursework. Understanding this structure from the outset can help in planning and managing workload throughout the two-year courses, which is a key strategy for reducing anxiety and supporting focus.2
 
 | Subject                      | Exam Board  | Component 1                                        | Weighting  | Component 2                                  | Weighting | Component 3                        | Weighting           |
-| :--------------------------- | :---------- | :------------------------------------------------- | :--------- | :------------------------------------------- | :-------- | :--------------------------------- | :------------------ |
+|:--------------------------- |:---------- |:------------------------------------------------- |:--------- |:------------------------------------------- |:-------- |:--------------------------------- |:------------------ |
 | **Art and Design**           | [[Edexcel]] | Personal Portfolio (NEA)                           | 60%        | Externally Set Assignment (NEA)              | 40%       | N/A                                | N/A                 |
 | **Photography**              | [[Edexcel]] | Personal Portfolio (NEA)                           | 60%        | Externally Set Assignment (NEA)              | 40%       | N/A                                | N/A                 |
 | **Film Studies**             | Eduqas      | Exam: Key Developments in US Film (1hr 30m)        | 35%        | Exam: Global Film (1hr 30m)                  | 35%       | Production (NEA)                   | 30%                 |

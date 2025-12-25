@@ -1,25 +1,48 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-10-18T13:25:33Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-21T14:58:01Z
-purpose: 
-review_interval: 
+energy: 5
+epistemic:
+focus: 5
+habit_meds: false
+habit_water: 0
+horse_stance_target: 300
+last_reviewed:
+migraine: false
+migraine_notes: ""
+migraine_severity: 0
+modified: 2025-12-25T18:35:29Z
+mood: 5
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status:
+tags: [daily]
 title: daily
-type: 
-uid: 
-updated: 
+type: daily
+uid:
+updated:
 ---
 
 ```journal-nav
 
 ```
+
+## Habits
+
+- [ ] Meds
+- [ ] Water (goal: 8)
+- [ ] Exercise
+- [ ] Reading
+- [ ] Journaling
+
+### Physical Ledger
+
+- **Horse Stance Total**: `$= Math.round(dv.current().file.lists.where(l => l.text.contains("stance::")).reduce((acc, curr) => acc + parseFloat(curr.text.match(/stance:: (\d+)/)[1]), 0))` seconds
+
+---
 
 <%*
 
@@ -47,7 +70,7 @@ let lifeYear = today.getFullYear() - birthDate.getFullYear();
 
 if (today.getMonth() < birthDate.getMonth() || (today.getMonth() === birthDate.getMonth() && today.getDate() < birthDate.getDate())) {
 
-lifeYear--;
+  lifeYear--;
 
 }
 

@@ -1,20 +1,20 @@
 ---
-aliases: [Generalist Advantage]
-confidence: 0.9
+aliases: ["Generalist Advantage"]
+confidence: "0.9"
 created: 2025-11-01T12:30:07Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T10:08:40Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To explain the advantage of generalists in the modern era."
-review_interval: 90
-see_also: ['[[Divergent Thinking Outperforms Narrow Specialization]]']
-source_of_truth: ['[[MOC - Divergent Thinking vs Specialization]]']
-status: seedling
-tags: [generalism, information-age, specialization]
+review_interval: "90"
+see_also: ["[[Divergent Thinking Outperforms Narrow Specialization]]"]
+source_of_truth: []
+status: "seedling"
+tags: ["generalism", "information-age", "specialization"]
 title: Generalists Have an Advantage in the Information Age
-type: concept
-uid: 2025-11-01T12:30:07Z
-updated: 2025-11-01T12:30:07Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Generalists Have an Advantage in the Information Age

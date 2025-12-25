@@ -1,49 +1,37 @@
 ---
-aliases: [Pragmatism vs Theory in Software, Rigour vs Velocity]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-19T13:09:01Z
-decay-signals: []
-epistemic: framework
-last_reviewed: 2025-12-19
-modified: 2025-12-20T09:54:05Z
+aliases: ["Pragmatism vs Theory in Software", "Rigour vs Velocity"]
+confidence: "5/5"
+created: 2025-12-19T00:00:00Z
+epistemic: "framework"
+last_reviewed: "2025-12-19"
+modified: 2025-12-25T11:40:21+00:00
 purpose: "To define the fundamental conflict between building software that is theoretically 'correct' versus software that is 'good enough' and ships quickly."
-quality-markers: [Defines the core trade-off, Establishes the two opposing philosophies.]
-related-soTs: ["[[SoT - The \"Worse is Better\" Philosophy]]"]
-resonance-score: 10
-review_interval: 6 months
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: []
+review_interval: "6 months"
+see_also: ["[[SoT - The \\\\\\\\\\\\\\\"Worse is Better\\\\\\\\\\\\\\\" Philosophy]]"]
+source_of_truth: []
+status: "stable"
 tags: ["mental-model", "philosophy", "software-engineering"]
 title: SoT - Pragmatism vs Rigour in Software
-type: SoT
+type: "SoT"
 uid: 
-updated:
+updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Definition
-> The **Pragmatism-Rigour Conflict** is the central tension in software engineering between two opposing value systems:
->
-> 1. **Pragmatism (Velocity):** Values speed of implementation, adaptability, and delivering "good enough" solutions quickly. It prioritizes market adoption and iteration.
-> 2. **Rigour (Correctness):** Values mathematical proof, theoretical purity, and building systems that are provably free of entire classes of errors. It prioritizes stability and long-term maintenance.
-
----
+> The **Pragmatism-Rigour Conflict** is the central tension in software engineering between two opposing value systems: ""
+> 1. **Pragmatism (Velocity): "** Values speed of implementation, adaptability, and delivering \"good enough\" solutions quickly. It prioritizes market adoption and iteration."
+> 2. **Rigour (Correctness): "** Values mathematical proof, theoretical purity, and building systems that are provably free of entire classes of errors. It prioritizes stability and long-term maintenance."
 
 ## 2. The Core Problem: A Spectrum of Trade-offs
 
 The software industry exists on a spectrum between these two poles. Neither is inherently "better," but choosing a position on the spectrum has profound consequences for cost, speed, safety, and scalability. The core problem is that many teams make this choice unconsciously.
 
 | Philosophy | Pragmatism (e.g., Python, JavaScript) | Rigour (e.g., Idris, Coq) |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Primary Goal** | Get a working product to market fast. | Build a verifiably correct and secure system. |
 | **View on Errors** | Errors are inevitable and should be caught at runtime (testing, monitoring). | Errors are preventable and should be eliminated at compile time. |
 | **Cost Model** | Low upfront cost (fast development), high long-term cost (maintenance, bug-fixing, security patches). | High upfront cost (slow, complex development), low long-term cost (fewer bugs, easier maintenance). |
 | **Developer Pool** | Large. Lower barrier to entry. | Small. Requires specialized knowledge of formal methods. |
-| **Dominant Principle** | [[SoT - The "Worse is Better" Philosophy]] | The "Correctness-by-Construction" Principle |
+| **Dominant Principle** | [[SoT - The Worse is Better Philosophy]] | The "Correctness-by-Construction" Principle |
 
 ---
 
@@ -98,7 +86,7 @@ The software industry exists on a spectrum between these two poles. Neither is i
 
 ## 7. Related Components
 
-- [[SoT - The "Worse is Better" Philosophy]]
+- [[SoT - The Worse is Better Philosophy]]
 - [[SoT - Dependent Types in Software]]
 - [[SoT - Padded Cell vs Nanny Languages]]
 - [[SoT - Runtime Guards vs Compile-Time Proofs]]

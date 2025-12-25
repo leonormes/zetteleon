@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-14T12:38:13Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-04T13:28:01Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:33+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: ["backup"]
 title: Azure Backup for AKS — An OOP-style Architecture Overview
-type: 
+type: ""
 uid: 
 updated: 
 ---

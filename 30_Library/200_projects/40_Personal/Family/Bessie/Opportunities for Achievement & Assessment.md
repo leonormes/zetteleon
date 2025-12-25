@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-20T13:06:13Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Opportunities for Achievement & Assessment
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 16. In your lessons, do you feel like you have opportunities to show what you know in different ways, not just by writing or speaking in front of the whole class? [17]

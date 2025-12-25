@@ -1,21 +1,21 @@
 ---
-aliases: [Motion vs Action Test]
-confidence: 1
+aliases: ["Motion vs Action Test"]
+confidence: "1"
 created: 2025-11-01T20:37:00Z
-epistemic: tool
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:35:44Z
+epistemic: "tool"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To provide a simple test to differentiate between motion and action."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Motion Can Be a Procrastination Delay Tactic.md"]
-status: evergreen
-tags: [mental-model, procrastination, productivity]
+source_of_truth: []
+status: "evergreen"
+tags: ["mental-model", "procrastination", "topic/productivity"]
 title: A Test to Differentiate Motion from Action
-type: tool
-uid: 20251101203700
-updated: 2025-11-01T20:37:00Z
-version: 1
+type: "tool"
+uid: 
+updated: 
+version: "1"
 ---
 
 To determine if an activity is productive action or merely motion-as-procrastination, ask the following question:

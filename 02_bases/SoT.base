@@ -10,11 +10,9 @@ views:
       - type
       - tags
     sort:
-      - property: type
+      - property: tags
         direction: ASC
-      - property: file.name
-        direction: ASC
-      - property: created
+      - property: file.mtime
         direction: DESC
     columnSize:
       file.name: 432

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-11T06:51:10Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:23Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: From Magic to Mathematical Notions
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Carl Friedrich Gauss, considered by some to be the greatest mathematician ever, articulated a fundamental principle in mathematics: "what matters is notions, not notations". This profound statement emphasises that the underlying ideas and conceptual understanding (notions) are more significant than the symbols or methods used to express them (notations). This concept is vividly illustrated when examining common party tricks, which, on the surface, appear magical but are, in fact, grounded in algebraic principles and the rigour of mathematical proof.
@@ -26,13 +26,13 @@ Many people dislike mathematics, often recalling it as a subject of rote memoris
 
 Consider a classic "think of a number" party trick: "Think of a number. Add ten. Double the result. Subtract six. Divide by two. Take away the number you first thought of. The answer is seven. Always". For an individual, trying concrete examples, such as picking the number five and following the steps, will always lead to seven. However, performing a hundred such examples will only convince someone that the calculation is "rigged" to produce seven; it will not reveal *how* it is rigged. This is where the distinction between "notions" and "notations" becomes crucial, and where mathematicians are "very wary indeed of 'experimental evidence'," as it can be "totally misleading".
 
-To understand *why* the trick works, one must move beyond specific numbers and think in generalities. Ancient Egyptian mathematicians had a precursor to this general thinking, using the term "heap" for an unknown number. By applying the steps of the trick to "heap," it becomes clear how the initial unknown quantity cancels out, leaving only the constant result of seven. This "heap" method is, in essence, algebra – a form of "symbolic reasoning that works with numbers without knowing their actual values". Replacing "heap" with the traditional algebraic variable 'x' and representing operations with conventional symbols transforms the "heap" calculation into formal algebra, but the underlying "notion" remains the same. As Gauss pointed out, "what matters is notions, not notations". The challenge is to "spend a lot of time getting used to the symbols before your mind latches on to the ideas".
+To understand *why* the trick works, one must move beyond specific numbers and think in generalities. Ancient Egyptian mathematicians had a precursor to this general thinking, using the term "heap" for an unknown number. By applying the steps of the trick to "heap," it becomes clear how the initial unknown quantity cancels out, leaving only the constant result of seven. This "heap" method is, in essence, algebra–a form of "symbolic reasoning that works with numbers without knowing their actual values". Replacing "heap" with the traditional algebraic variable 'x' and representing operations with conventional symbols transforms the "heap" calculation into formal algebra, but the underlying "notion" remains the same. As Gauss pointed out, "what matters is notions, not notations". The challenge is to "spend a lot of time getting used to the symbols before your mind latches on to the ideas".
 
 Other examples reinforce this principle:
 
 - **Snark Arithmetic**: Lewis Carroll's "Snark Arithmetic" from "The Hunting of the Snark" presents another rigged calculation. By applying algebra, one can reveal that the Butcher has "rigged the calculation so that he can get whatever answer he wants" by strategically including operations that cancel each other out, such as adding seventeen and later subtracting seventeen, or multiplying by one number and then dividing by its equivalent expression. The "notion" of cancellation is paramount to understanding the trick.
 - **The Mysterious Nine**: A stage magician's trick involving coins arranged in a figure 9 also demonstrates how algebra explains seemingly mysterious outcomes. The trick relies on a counting procedure that, no matter the chosen number (above a certain threshold), always ends on the same coin because the anticlockwise and clockwise counts effectively cancel each other out, leaving a fixed number of coins to be counted from a specific junction. The algebraic representation, using 'x' for the chosen number, clearly illuminates this underlying mechanism.
-- **Tap-an-Animal / Tap-a-Number**: Martin Gardner's "Tap-an-Animal" and Lee Sallows' "magic square" puzzles are examples where mathematical patterns, sometimes cleverly disguised, determine the outcome. These rely on principles like the number of taps corresponding to letters in a word or modular arithmetic, where numbers "wrap round" (e.g., counting 10 steps on an 8-point circle ends on the 2nd point because 10 = 8 + 2). Understanding these patterns – the "notions" – is key, rather than just observing the "notations" of numbers or letters.
+- **Tap-an-Animal / Tap-a-Number**: Martin Gardner's "Tap-an-Animal" and Lee Sallows' "magic square" puzzles are examples where mathematical patterns, sometimes cleverly disguised, determine the outcome. These rely on principles like the number of taps corresponding to letters in a word or modular arithmetic, where numbers "wrap round" (e.g., counting 10 steps on an 8-point circle ends on the 2nd point because 10 = 8 + 2). Understanding these patterns–the "notions"–is key, rather than just observing the "notations" of numbers or letters.
 
 **Proof: The Guarantee of General Understanding**
 

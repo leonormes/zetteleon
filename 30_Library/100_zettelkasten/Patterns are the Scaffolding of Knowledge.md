@@ -1,20 +1,20 @@
 ---
-aliases: [Learning to Learn]
-confidence: 0.9
+aliases: ["Learning to Learn"]
+confidence: "0.9"
 created: 2025-11-01T12:00:07Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:43:59Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To describe pattern recognition as a meta-skill for learning."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Early Childhood Patterning is the Foundation for Language Acquisition]]"]
-source_of_truth: ["[[MOC - Pattern - From Sensory Input to Meaning]]"]
-status: seedling
-tags: [cognition, learning, scaffolding]
+source_of_truth: []
+status: "seedling"
+tags: ["learning", "scaffolding", "topic/cognition"]
 title: Patterns are the Scaffolding of Knowledge
-type: concept
-uid: 2025-11-01T12:00:07Z
-updated: 2025-11-01T12:00:07Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Patterns Are the Scaffolding of Knowledge

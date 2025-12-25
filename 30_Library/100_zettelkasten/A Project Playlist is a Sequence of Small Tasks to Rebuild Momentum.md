@@ -1,20 +1,20 @@
 ---
 aliases: ["Project Playlist"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-11T19:05:08Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-11T10:57:47Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Defines a 'project playlist' as a tool for rebuilding work momentum."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [productivity, task-management]
+status: "seedling"
+tags: ["task-management", "topic/productivity"]
 title: A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum
-type: concept
-uid: 2025-11-11T19:05:08Z
-updated: 2025-11-11T19:05:08Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum

@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
-created: Invalid date
-epistemic: 
-last_reviewed: 
-modified: 2025-12-21T14:58:01Z
-purpose: 
-review_interval: 
+confidence: null
+created: 2025-12-04T12:02:41Z
+epistemic: null
+last_reviewed: null
+modified: 2025-12-25T18:35:29Z
+purpose: null
+review_interval: null
 see_also: []
 source_of_truth: []
-status: raw
+status: processing
 tags: [state/thinking]
 title: HEAD_note template
 type: head
-uid: 
-updated: 
+uid: null
+updated: null
 ---
 
 ## HEAD {{date:YYYY-MM-DD HH:mm}}

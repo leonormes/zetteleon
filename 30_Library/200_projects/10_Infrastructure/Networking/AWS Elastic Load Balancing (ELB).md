@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-28T11:10:21Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:49Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [networking]
+status: ""
+tags: ["topic/technology/networking"]
 title: AWS Elastic Load Balancing (ELB)
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## <https://youtube.com/watch?v=qpHLRc4Qt1E>\&si=veBzrlo2OP9emkFe
@@ -41,7 +41,7 @@ This video provides a comprehensive introduction to AWS Elastic Load Balancing (
 ### Types of AWS Load Balancers
 
 | Type | Layer | Protocols Supported | Performance | Use Case | Status |
-| :-- | :-- | :-- | :-- | :-- | :-- |
+|:-- |:-- |:-- |:-- |:-- |:-- |
 | Classic Load Balancer (CLB) | Layer 4/7 | HTTP, HTTPS, TCP, SSL | Outdated | Legacy apps, basic scenarios | Deprecated[^1_1] |
 | Application Load Balancer (ALB) | Layer 7 | HTTP, HTTPS, WebSockets | Modern, flexible | Microservices, containers, URLs/path routing | Recommended[^1_1] |
 | Network Load Balancer (NLB) | Layer 4 | TCP, SSL, static \& elastic IP | High-performance, low latency | TCP-based high-throughput apps, direct IP | Recommended[^1_1] |

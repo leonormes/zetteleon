@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T12:35:58Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - Authority Dynamics and ADHD]]"
 source_of_truth: []
-status: seedling
-tags: [executive-function, neurodiversity, psychology, topic/health/adhd]
+status: "seedling"
+tags: ["executive-function", "neurodiversity", "topic/health/adhd", "topic/psychology"]
 title: Bidirectional Authority Discomfort in ADHD
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

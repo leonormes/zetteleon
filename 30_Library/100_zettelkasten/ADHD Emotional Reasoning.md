@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-05-17T09:42:36Z
-epistemic:
-last_reviewed:
-modified: 2025-10-30T16:18:17Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [emotion, topic/cognition, topic/cognition/bias, topic/health/adhd]
+status: ""
+tags: ["emotion", "topic/cognition", "topic/cognition/bias", "topic/health/adhd"]
 title: ADHD Emotional Reasoning
-type: map
-uid:
-updated:
-version: 1
+type: "map"
+uid: 
+updated: 
+version: "1"
 ---
 
 Individuals with ADHD may fall into this thinking trap, assuming that their negative emotions accurately reflect the truth. For example, feeling anxious about a social event might lead them to believe that everyone will judge them harshly.

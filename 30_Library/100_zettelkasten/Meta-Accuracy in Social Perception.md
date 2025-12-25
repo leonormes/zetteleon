@@ -1,20 +1,20 @@
 ---
-aliases: [meta-perception accuracy]
-confidence: 
+aliases: ["meta-perception accuracy"]
+confidence: ""
 created: 2025-10-31T09:20:29Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:41Z
-purpose: Define meta-accuracy as the degree to which beliefs about how others perceive you match their actual perceptions.
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: "Define meta-accuracy as the degree to which beliefs about how others perceive you match their actual perceptions."
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [topic/social-cognition, topic/social-perception]
+status: "seedling"
+tags: ["topic/social-cognition", "topic/social-perception"]
 title: Meta-Accuracy in Social Perception
-type: concept
-uid: sp-meta-accuracy
-updated: 2025-10-31T09:20:29Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Meta-Accuracy in Social Perception

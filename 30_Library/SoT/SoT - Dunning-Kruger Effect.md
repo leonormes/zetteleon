@@ -1,33 +1,20 @@
 ---
-aliases: [DKE, Dunning Kruger]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-12T12:45:00Z
-epistemic:
-last-synthesis: 2025-12-13
-last_reviewed: 2025-12-13
-modified: 2025-12-13T09:10:07Z
-purpose: Canonical definition and implications of the Dunning-Kruger Effect within the ProdOS context.
-quality-markers: []
-related-soTs: ["[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - PRODOS (System Architecture)]]"]
-resonance-score: 9
-review_interval: 6 months
-see_also: ["[[MOC - Cognitive Biases]]"]
-source_of_truth: true
-status: stable
-supersedes: []
-tags: [bias, cognition, metacognition, psychology]
+aliases: ["DKE", "Dunning Kruger"]
+confidence: "5/5"
+created: 2025-12-12T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-13"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "Canonical definition and implications of the Dunning-Kruger Effect within the ProdOS context."
+review_interval: "6 months"
+see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - PRODOS (System Architecture)]]"]
+source_of_truth: []
+status: "stable"
+tags: ["bias", "metacognition", "topic/cognition", "topic/psychology"]
 title: SoT - Dunning-Kruger Effect
-type: SoT
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> The **Dunning-Kruger Effect** is a cognitive bias whereby individuals cannot accurately assess their own level of competence because they lack the underlying **metacognitive ability** to distinguish between proficiency and error. It is not merely about "stupidity"; it describes a universal calibration gap where the skills required to *perform* a task effectively are identical to the skills required to *evaluate* that performance.
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. The Core Mechanism: The "Double Burden"
@@ -71,14 +58,23 @@ A recursive layer of the Dunning-Kruger effect is observed in its popular usage.
 ## 5. Distinction from Illusion of Explanatory Depth (IoED)
 
 | Feature | Dunning-Kruger Effect | Illusion of Explanatory Depth (IoED) |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Primary Driver** | **Metacognitive Deficit**: Lack of skills prevents recognition of low skill. | **Confabulation**: Mistaking familiarity (surface recognition) for causal understanding. |
 | **Calibration Type** | **Relative Ranking**: "I am better than average." | **Mechanistic Knowledge**: "I know how this works." |
 | **Correction** | Improving competence (which improves metacognition). | Forcing detailed, step-by-step explanation (breaking the illusion). |
 
 ---
 
-## 6. Systemic Counter-Strategies
+## 6. Intelligence Calibration: Certainty vs. Fluidity
+
+A common misinterpretation of the Dunning-Kruger effect leads to excessive self-doubt in competent agents (Recursion Error). Recalibrating self-assessment requires shifting the metric from "Confidence" to "Error-Correction."
+
+- **Rigid Intelligence (Low):** Defined by high certainty and a slow update rate.
+- **Fluid Intelligence (High):** Defined by probabilistic thinking and a high update rate (rapid error-correction interval).
+
+**Structural Marker:** Most "naive realists" operate on a single thread (*Input -> Reaction*). Higher-order intelligence is marked by dual-threading (*Input -> Reaction + Analysis of Reaction*).
+
+## 7. Systemic Counter-Strategies
 
 Since self-assessment is inherently compromised in low-competence zones, internal validation is unreliable.
 

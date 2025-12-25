@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-09-30T09:24:58Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:10Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:33+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [project/work/mkuh, topic/technology/networking/dns]
+status: "null"
+tags: ["project/work/mkuh", "topic/technology/networking/dns"]
 title: Core DNS Components and Environments
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 This document outlines the comprehensive DNS requirements for the FITFILE deployment, focusing on the interaction between the SDE (hub) and CUH (spoke) environments. It details the authoritative zones, forwarding mechanisms, resolution paths, and critical considerations for ensuring seamless connectivity, service discovery, and certificate management across hybrid cloud infrastructure. A core aspect of this configuration is the implementation of a split-view DNS architecture, leveraging direct, reciprocal DNS zone management and conditional forwarding between Azure-native DNS services and CUH's on-premise infrastructure. This approach has rendered the Azure DNS Private Resolver redundant and it is planned for removal.

@@ -1,20 +1,20 @@
 ---
-aliases: [Wicked Environment]
-confidence: 0.9
+aliases: ["Wicked Environment"]
+confidence: "0.9"
 created: 2025-11-01T12:30:04Z
-epistemic: definition
-last_reviewed: 2025-11-01
-modified: 2025-11-01T10:08:40Z
+epistemic: "definition"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "To define a wicked learning environment."
-review_interval: 90
-see_also: ['[[Kind Learning Environments are Predictable and Rule-Based]]']
-source_of_truth: ['[[MOC - Divergent Thinking vs Specialization]]']
-status: seedling
-tags: [environment, learning, unpredictability]
+review_interval: "90"
+see_also: ["[[Kind Learning Environments are Predictable and Rule-Based]]"]
+source_of_truth: []
+status: "seedling"
+tags: ["environment", "learning", "unpredictability"]
 title: Wicked Learning Environments are Dynamic and Unpredictable
-type: concept
-uid: 2025-11-01T12:30:04Z
-updated: 2025-11-01T12:30:04Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Wicked Learning Environments Are Dynamic and Unpredictable

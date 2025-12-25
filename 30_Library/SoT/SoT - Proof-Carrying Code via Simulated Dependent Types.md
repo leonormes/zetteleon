@@ -1,25 +1,20 @@
 ---
 aliases: ["Proof-Carrying Code", "Simulated Dependent Types", "Type Theory in Rust"]
-confidence: 4/5
-confidence-gaps: ["Comparison with fully dependently-typed languages like Idris", "Implementation overhead in large codebases"]
-created: 2025-12-18T10:00:00Z
-decay-signals: ["Rust adds native dependent types"]
-epistemic: derived
-last_reviewed: 2025-12-18
-modified: 2025-12-20T09:54:07Z
-purpose: Canonical reference for leveraging type systems to eliminate runtime failure modes.
-quality-markers: ["Derived from Type Theory for the Working Rustacean"]
-related-soTs: []
-resonance-score: 5
-review_interval: 6 months
+confidence: "4/5"
+created: 2025-12-18T00:00:00Z
+epistemic: "derived"
+last_reviewed: "2025-12-18"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "Canonical reference for leveraging type systems to eliminate runtime failure modes."
+review_interval: "6 months"
 see_also: []
-source_of_truth: true
-status: stable
+source_of_truth: []
+status: "stable"
 tags: ["architecture", "formal_verification", "rust", "software_design", "type_theory"]
 title: SoT - Proof-Carrying Code via Simulated Dependent Types
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Working Knowledge (Stable Foundation)

@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-02-07T12:57:55Z
-epistemic: 
-ID: 2a2a1
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+ID: "2a2a1"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/pkm/zettelkasten]
+status: "null"
+tags: ["topic/pkm/zettelkasten"]
 title: The Processing Is the Hard Part
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 [[collectors fallacy]]
@@ -35,7 +35,7 @@ Because it is so challenging to describe a feeling and I want it to be so accura
 
 The words never match my understanding, which is why [[Paraphrasing is a Complex Cognitive Skill|paraphrasing is such a complex cognitive skill]].
 
-[[The Extended Mind Thesis]]
+[[30_Library/100_zettelkasten/The Extended Mind Thesis]]
 
 [[Cognitive Engagement Activates Zettelkasten]]
 

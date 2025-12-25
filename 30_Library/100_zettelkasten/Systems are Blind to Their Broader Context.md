@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T10:10:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [context, limitation, perspective, systems-thinking]
+status: ""
+tags: ["context", "limitation", "perspective", "topic/systems"]
 title: Systems are Blind to Their Broader Context
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Any defined system, whether it be a biological cell, a corporate culture, or a belief system, operates according to its own internal rules and information. By its very nature, it is bounded and cannot perceive the full context or "meta-system" in which it exists. Its operational reality is limited to the information within its own boundaries, rendering it inherently blind to external realities, purposes, or logics that lie outside its scope.

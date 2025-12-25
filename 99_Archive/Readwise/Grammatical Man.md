@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T15:49:32Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-12T16:07:53Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,11 +22,13 @@ updated:
 ![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/41zdzqMNS8L._SL200_.jpg)
 
 ### Metadata
+
 - Author: [[Jeremy Campbell]]
 - Full Title: Grammatical Man
 - Category: #books
 
 ### Highlights
+
 - Wiener is best known as the founder of cybernetics, an extremely wide-ranging discipline which includes information theory as one among several complementary sets of ideas. Cybernetics is the science of maintaining order in a system, whether that system is natural or artificial. Since all things in the world have a tendency to become entropic, disorderly, their random deviations from order must be corrected continually. This is accomplished by using information about the behavior of the system to produce different, more regular behavior. By such means the system is kept on course. The term cybernetics comes from a Greek word meaning steersman, and it carries the sense of stability, of constant, correct functioning. Illness is entropic, irregular, an error in the living system, while healing is cybernetic, restoring the body to its original state, correcting the error. Natural selection is also cybernetic, disallowing genetic mutations which deviate from the norm in undesirable ways. Wiener regarded a human society as a self-regulating system kept orderly by the cybernetic mechanism of its laws. Cybernetics enforces consistency. It permits change, but the change must be orderly and abide by the rules. It is a universal principle of control, and can be applied to all kinds of organization, just as Shannon’s theorems apply to communication of all kinds. It does not matter whether the system is electrical, chemical, mechanical, biological, or economic. ([Location 181](https://readwise.io/to_kindle?action=open&asin=B008XJ8O4E&location=181))
 - protean ([Location 596](https://readwise.io/to_kindle?action=open&asin=B008XJ8O4E&location=596))
 - But these events, while possible in thought, are so unlikely to occur in actual experience that they can safely be ignored. Irreversibility is fact-like rather than law-like, in that it works well in practice but is vulnerable intellectually. ([Location 682](https://readwise.io/to_kindle?action=open&asin=B008XJ8O4E&location=682))

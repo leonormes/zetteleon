@@ -1,19 +1,18 @@
 ---
-aliases: [Assertiveness MOC]
-confidence: 4/5
+aliases: ["Assertiveness MOC"]
+confidence: "4/5"
 created: 2025-12-17T00:00:00Z
-epistemic: 
-last_reviewed: 2025-12-17
-modified: 2025-12-20T09:54:10Z
-purpose: To provide a central map of concepts for being assertive in a professional environment by treating communication and boundaries as a system design problem.
-related-soTs: []
-review_interval: 
+epistemic: ""
+last_reviewed: "2025-12-17"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "To provide a central map of concepts for being assertive in a professional environment by treating communication and boundaries as a system design problem."
+review_interval: ""
 see_also: []
-source_of_truth: false
-status: stable
-tags: [assertiveness, communication, moc, systems-thinking]
+source_of_truth: []
+status: "stable"
+tags: ["assertiveness", "communication", "moc", "topic/systems"]
 title: MOC - Assertiveness Through System Design
-type: MOC
+type: "MOC"
 uid: 
 updated: 
 ---

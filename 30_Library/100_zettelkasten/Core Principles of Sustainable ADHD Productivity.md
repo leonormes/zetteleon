@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-26T11:18:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:37Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [mindset, principles, topic/health/adhd, topic/productivity]
+status: ""
+tags: ["mindset", "principles", "topic/health/adhd", "topic/productivity"]
 title: Core Principles of Sustainable ADHD Productivity
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## Core Principles of Sustainable ADHD Productivity

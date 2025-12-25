@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T12:56:00Z
-epistemic: strategy
-last_reviewed: 
-modified: 2025-10-31T13:10:59Z
+epistemic: "strategy"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Reposition criticism as growth opportunity."
-review_interval: 90
+review_interval: "90"
 see_also: ["Constructive Debate in Psychological Safety.md"]
 source_of_truth: []
-status: seedling
-tags: [growth, psychology]
+status: "seedling"
+tags: ["growth", "topic/psychology"]
 title: Cognitive Reframing of Criticism
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

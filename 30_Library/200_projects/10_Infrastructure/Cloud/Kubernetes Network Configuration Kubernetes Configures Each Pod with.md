@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-13T16:11:13Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [networking]
+status: ""
+tags: ["topic/technology/networking"]
 title: Kubernetes Network Configuration Kubernetes Configures Each Pod with
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 IP Address: A unique IP address within the cluster's network.
@@ -44,7 +44,7 @@ Routing and Forwarding: When the Kubernetes DNS service (CoreDNS in AKS) cannot 
 
 Conditional Forwarding (Cross-Cloud DNS): As we discussed in the private DNS setup, to resolve names in the AWS private DNS zone (private.aws.internal) from Azure, you need to configure conditional DNS forwarding in your Azure VNet's DNS settings. This means:
 
-Queries for names ending in .private.aws.internal are forwarded to the private IP address of the Azure VPN Gateway.
+Queries for names ending in.private.aws.internal are forwarded to the private IP address of the Azure VPN Gateway.
 
 The Azure VPN Gateway, via the VPN tunnel, routes these DNS queries to the AWS side.
 
@@ -62,7 +62,7 @@ DNS Query to CoreDNS (in Azure AKS): The DNS query for relay.private.aws.interna
 
 CoreDNS Checks Internal Zones: CoreDNS first checks if relay.private.aws.internal matches any Kubernetes service names or internal records within the Azure AKS cluster itself. It won't find it because relay is in AWS EKS.
 
-CoreDNS Forwarding (Conditional): Since it's not an internal name, CoreDNS looks at its forwarding rules. Because we've configured conditional forwarding in the Azure VNet DNS settings, CoreDNS is configured to forward queries for names ending in .private.aws.internal to the Azure VNet's custom DNS server, which we set to the private IP address of the Azure VPN Gateway.
+CoreDNS Forwarding (Conditional): Since it's not an internal name, CoreDNS looks at its forwarding rules. Because we've configured conditional forwarding in the Azure VNet DNS settings, CoreDNS is configured to forward queries for names ending in.private.aws.internal to the Azure VNet's custom DNS server, which we set to the private IP address of the Azure VPN Gateway.
 
 DNS Query via VPN Tunnel: The DNS query is routed to the Azure VPN Gateway. The VPN Gateway, based on its routing configuration and the established VPN tunnel, sends this DNS query securely over the VPN tunnel to the AWS VPN Gateway.
 

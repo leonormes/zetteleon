@@ -1,22 +1,22 @@
 ---
 aliases: []
 AoL: Personal
-confidence:
+confidence: null
 created: 2025-12-07T10:00:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-10T20:00:14Z
-purpose:
-review_interval:
+epistemic: null
+last_reviewed: null
+modified: 2025-12-25T11:40:49+00:00
+purpose: null
+review_interval: null
 see_also: []
 source_of_truth: []
 status: processing
 tags: [state/head, topic/family/bessie, topic/strategy, type/conflict, type/design]
 title: HEAD - Parenting Strategy (Dev vs Maintenance Alignment)
 type: head
-uid:
-up: "[[HEAD - Bessie and Her Schooling]]"
-updated:
+uid: null
+up: '[[HEAD - Bessie and Her Schooling]]'
+updated: null
 ---
 
 > [!abstract] The Spark
@@ -49,6 +49,7 @@ updated:
 - **Synthesis:** We introduce "Controlled Stress" (Sandboxing) that guarantees *higher* uptime for the parents.
 
 ## 🧪 Next Test (The Micro-Contracts)
+
 *Hypothesis: If I frame these hard boundaries as "Parental Relief Tools," she will accept them.*
 
 ### Proposal 1: The "Chef's Night Off" Protocol

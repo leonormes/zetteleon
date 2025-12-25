@@ -1,21 +1,21 @@
 ---
-aliases: [ADHD Hangover, Post-Hyperfixation Brain Fog, Trough Phase]
-confidence: 0.9
+aliases: []
+confidence: "0.9"
 created: 2025-11-01T11:37:53Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:44:48Z
-purpose: "Describe the mental fog and under-stimulation that follows the crash from hyperfixation."
-review_interval: 90
-see_also: ["[[ADHD Hyperfixation-Burnout Cycle]]", "[[Dopamine Deficit Follows Hyperfixation Crash]]", "[[Executive Function Impairment During ADHD Trough Phase]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Adhd up and down cycle .md"]
-status: seedling
-tags: [brain-fog, cognition, recovery, topic/health/adhd]
+epistemic: "fact"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: "90"
+see_also: []
+source_of_truth: []
+status: "seedling"
+tags: []
 title: ADHD Hangover or Brain Fog Following Hyperfixation
-type: concept
-uid: 2025-11-01T11:37:53Z
-updated: 2025-11-01T11:37:53Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Following the crash from hyperfixation comes a period often described as an "ADHD hangover" or "brain fog"—a time when the brain feels fuzzy, bored, and under-stimulated, making it difficult to think clearly or initiate any tasks.

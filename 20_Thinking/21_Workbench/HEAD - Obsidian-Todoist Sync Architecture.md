@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-16T08:52:25Z
+modified: 2025-12-25T11:40:49+00:00
 purpose:
 review_interval:
 see_also: []
@@ -38,6 +38,6 @@ I want to manage tasks in Obsidian (during planning) and have them appear in Tod
 
 ## The Next Test
 
-- [ ] Define the "Canonical Fields" map (e.g., Obsidian Task `- [ ] text` -> Todoist Content).
+- [ ] Define the "Canonical Fields" map (e.g., Obsidian Task `- [] text` -> Todoist Content).
 - [ ] Experiment with a "One-Way Push" (Obsidian -> Todoist) script for the initial plan.
 - [ ] Evaluate if existing plugins (Todoist Sync) suffice or if I need a custom script for specific "Project" note handling.

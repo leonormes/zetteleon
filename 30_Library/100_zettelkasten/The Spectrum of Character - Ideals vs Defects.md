@@ -1,21 +1,21 @@
 ---
-aliases: [Character Spectrum, Virtues and Flaws]
-confidence: 
+aliases: ["Character Spectrum", "Virtues and Flaws"]
+confidence: ""
 created: 2025-07-16T17:30:02Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [character, ethics, virtue]
+status: ""
+tags: ["character", "ethics", "virtue"]
 title: The Spectrum of Character - Ideals vs Defects
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Character can be understood as a spectrum where an ideal virtue represents one end and a defect or flaw represents the other. This framework helps in evaluating the moral and ethical dimensions of personality.

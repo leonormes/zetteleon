@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-24T15:25:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:26Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:42+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [filesystem, kernel, linux, type/fact, vfs]
+status: "null"
+tags: ["filesystem", "kernel", "linux", "vfs"]
 title: What is the Linux VFS (Virtual File System)
-type: Factual
+type: "Factual"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 **Links:**
@@ -36,7 +36,8 @@ Linux supports hundreds of file system types—ext4, NFS, tmpfs, proc, sysfs, an
 ### The Four VFS Object Types
 
 #### 1. Superblock
-**Represents**: An entire mounted file system  
+
+**Represents**: An entire mounted file system
 **Contains**:
 
 - File system type (ext4, tmpfs, NFS, etc.)
@@ -48,7 +49,8 @@ Linux supports hundreds of file system types—ext4, NFS, tmpfs, proc, sysfs, an
 **Operations**: Reading/writing superblock metadata, allocating inodes, syncing file system
 
 #### 2. Inode
-**Represents**: A file or directory  
+
+**Represents**: A file or directory
 **Contains**:
 
 - File size
@@ -63,7 +65,8 @@ Linux supports hundreds of file system types—ext4, NFS, tmpfs, proc, sysfs, an
 **Note**: Inode does NOT contain the filename—that's stored in directory entries (dentries)
 
 #### 3. Dentry (Directory Entry)
-**Represents**: A mapping from filename to inode  
+
+**Represents**: A mapping from filename to inode
 **Contains**:
 
 - Filename string
@@ -71,7 +74,7 @@ Linux supports hundreds of file system types—ext4, NFS, tmpfs, proc, sysfs, an
 - Pointer to parent dentry
 - Pointers to child dentries (if directory)
 
-**Purpose**: **Caching** to speed up path lookups  
+**Purpose**: **Caching** to speed up path lookups
 **Example**: Path `/home/user/file.txt` creates dentries:
 
 - `/` → inode 2
@@ -82,7 +85,8 @@ Linux supports hundreds of file system types—ext4, NFS, tmpfs, proc, sysfs, an
 **Operations**: Lookup, validation, cache management
 
 #### 4. File
-**Represents**: An open file (from a process perspective)  
+
+**Represents**: An open file (from a process perspective)
 **Contains**:
 
 - File descriptor (fd)
@@ -114,7 +118,7 @@ All steps use VFS abstractions—the actual file system (ext4, NFS) handles disk
 
 ### The Vfsmount Structure
 
-**Represents**: A mounted file system instance  
+**Represents**: A mounted file system instance
 **Contains**:
 
 - Mount point path (e.g., `/home`)

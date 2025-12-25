@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T12:10:07Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
 source_of_truth: []
-status: seedling
-tags: [environment, novelty, topic/health/adhd, writing]
+status: "seedling"
+tags: ["environment", "novelty", "topic/health/adhd", "writing"]
 title: Changing Environments Provides Novelty for ADHD Writing
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

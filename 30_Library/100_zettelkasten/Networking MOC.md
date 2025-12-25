@@ -1,37 +1,34 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-24T14:25:58Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:38Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [moc, topic/technology/networking]
+status: "null"
+tags: ["moc", "topic/technology/networking"]
 title: Networking MOC
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: "null"
 ---
 
 This Map of Content (MOC) serves as the top-level entry point for all networking-related concepts, technologies, and implementations.
 
 ## Foundational Concepts
 
-### OSI Model
+### Models & Units
 
-- [[osi_layers]]
+- [[MOC - OSI Model]]
+- [[SoT - Protocol Data Units (PDU)]]
+- [[SoT - Encapsulation & De-encapsulation]]
+- [[OSI Data Link Layer vs TCP/IP Link Layer]]
 - [[Physical Layer]]
-- [[Layer 1 Physical Layer]]
-- [[Layer 3 Network Layer]]
-- [[Layer 4 Transport Layer]]
-- [[Layer 7 Application Layer]]
-- [[Protocol Data Unit]]
-- [[An Example of a Tcp Packet With All Layers]]
 
 ### IP Addressing and Routing
 
@@ -53,15 +50,13 @@ This Map of Content (MOC) serves as the top-level entry point for all networking
 
 ### DNS
 
+- [[SoT - The Data Architecture of DNS]]
 - [[DNS is a distributed database]]
 - [[DNS Resolvers Translate Domain Requests to IP Queries]]
 - [[DNS Resource Records Are Structured Key-Value Pairs]]
-- [[DNS Protocol Uses UDP and TCP for Message Transport]]
-- [[DNS Delegation Handles Subdomain Authority Transfers]]
-- [[MX Records Route Email to Designated Mail Servers]]
-- [[Glue Records Solve DNS Chicken-and-Egg Problems]]
-- [[DNS Resolver Search Lists Complete Unqualified Domain Names]]
 - [[Private DNS Zones Provide Internal Network Name Resolution]]
+- [[Split-Horizon DNS Decouples Service Names from Network Topology]]
+- [[Host-Based Routing Enables Virtual Hosting in Cloud Infrastructure]]
 - [[Private vs Public DNS Resolution Patterns]]
 - [[Hybrid Cloud DNS Resolution Flow]]
 
@@ -88,6 +83,12 @@ This Map of Content (MOC) serves as the top-level entry point for all networking
 
 ## Security
 
+### Firewall Technology & Evolution
+
+- [[Next-Generation Firewalls (NGFW) Provide Application-Aware Security]]
+- [[Web Application Firewalls Protect Against Layer 7 Attacks]]
+- [[Cloud Firewalls Filter Traffic at Network and Transport Layers]]
+
 ### Layer 3 Security
 
 - [[Layer 3 Network Security Protects IP Routing and Forwarding]]
@@ -95,12 +96,6 @@ This Map of Content (MOC) serves as the top-level entry point for all networking
 - [[MOC - Layer 3 Network Security Concepts]]
 - [[Mtri Trees Efficiently Store ACL and Routing Table Entries]]
 - [[Bit Manipulation Optimizes Network Prefix Storage and Matching]]
-
-### Cloud Security
-
-- [[Cloud Firewalls Filter Traffic at Network and Transport Layers]]
-- AWS Security Groups
-- [[Web Application Firewalls Protect Against Layer 7 Attacks]]
 
 ---
 

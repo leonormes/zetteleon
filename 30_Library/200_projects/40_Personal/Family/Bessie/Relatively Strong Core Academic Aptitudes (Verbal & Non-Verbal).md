@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-20T15:38:31Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [project/family/bessie]
+status: ""
+tags: ["project/family/bessie"]
 title: Relatively Strong Core Academic Aptitudes (Verbal & Non-Verbal)
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Her CAT4 scores indicate Verbal and Non-verbal abilities in the average to high average range (SAS 107 for both).

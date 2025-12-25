@@ -1,24 +1,24 @@
 ---
-aliases: [ADHD Interest Cycle Map]
-confidence: 0.9
+aliases: []
+confidence: "0.9"
 created: 2025-11-01T11:37:53Z
-criteria: Include atomic notes addressing the cycle's phases, neurochemical basis, behavioral manifestations, and strategic implications.
+criteria: ""
 epistemic: fact
 exclusions: General ADHD topics not directly related to the hyperfixation-burnout cycle.
-last_reviewed: 2025-11-01
-modified: 2025-12-07T18:13:51Z
-purpose: Map the complete ADHD hyperfixation-burnout cycle, its phases, and system implications.
-review_interval: 90
-scope: All atomic notes related to the ADHD interest cycle, its neurological basis, phases, and practical implications.
-see_also: ["[[Dopamine Management in ADHD Productivity]]", "[[The Interest-Based Nervous System in ADHD]]"]
-source_of_truth: [/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Adhd up and down cycle .md]
+last_reviewed: 2025-11-01T00:00:00.000Z
+modified: 2025-12-25T18:35:26Z
+purpose: ""
+review_interval: "90"
+scope: ""
+see_also: []
+source_of_truth: []
 status: seedling
-tags: [cycles, dopamine, motivation, topic/health/adhd]
+tags: [topic/health/adhd]
 title: MOC - ADHD Hyperfixation-Burnout Cycle
 type: map
-uid: 2025-11-01T11:37:53Z
-updated: 2025-11-01T11:37:53Z
-version: 1
+uid:
+updated:
+version: "1"
 ---
 
 ## MOC - ADHD Hyperfixation-Burnout Cycle
@@ -43,9 +43,9 @@ This is the peak of the cycle. Your growing interest has now blossomed into [[Hy
 
 **Key Characteristics:**
 
-- [[Hyperfixation Creates Time Blindness in ADHD]] `rel:: manifests` — The world fades away; you lose track of time, forget to eat, or neglect other responsibilities.
+- [[Hyperfixation Creates Time Blindness in ADHD]] `rel:: manifests`—The world fades away; you lose track of time, forget to eat, or neglect other responsibilities.
 - **Effortless Focus:** Unlike the struggle to focus on mundane tasks, concentrating on your hyperfixation feels effortless and deeply rewarding.
-- [[The I've Cracked It Illusion During ADHD Hyperfixation]] `rel:: manifests` — During this intense period, the clarity and motivation are so profound that it's easy to believe you've finally found your "one true passion."
+- [[The I've Cracked It Illusion During ADHD Hyperfixation]] `rel:: manifests`—During this intense period, the clarity and motivation are so profound that it's easy to believe you've finally found your "one true passion."
 
 #### Phase 3: The Crash (The Dopamine Drought and Burnout)
 
@@ -53,8 +53,8 @@ Just as suddenly as it began, the wave crashes. This is often the most jarring a
 
 **Why the Crash Happens:**
 
-- [[Novelty Fading Causes Dopamine Reward to Diminish in ADHD]] `rel:: triggers-crash` — [[ADHD Brain is a Novelty-Seeking Machine]] `rel:: explains`, and once you've explored the most exciting parts, the dopamine reward diminishes significantly.
-- [[Hyperfixation Causes Mental Exhaustion and Burnout]] `rel:: triggers-crash` — Sustaining hyperfixation is incredibly energy-intensive, burning through cognitive and emotional resources.
+- [[Novelty Fading Causes Dopamine Reward to Diminish in ADHD]] `rel:: triggers-crash`—[[ADHD Brain is a Novelty-Seeking Machine]] `rel:: explains`, and once you've explored the most exciting parts, the dopamine reward diminishes significantly.
+- [[Hyperfixation Causes Mental Exhaustion and Burnout]] `rel:: triggers-crash`—Sustaining hyperfixation is incredibly energy-intensive, burning through cognitive and emotional resources.
 - **Task "Complete" in ADHD Brain:** Often, the initial exciting challenge is over. The less stimulating, more routine aspects of mastery that follow are not as appealing to the dopamine-seeking brain.
 
 This leads directly to what you describe as the interest appearing "vague and empty." It's as if a switch has been flipped. The threads of interest that were once so vibrant and compelling are gone because the neurochemical reward associated with them has vanished.
@@ -66,7 +66,7 @@ Following the crash comes [[ADHD Hangover or Brain Fog Following Hyperfixation]]
 **What's Happening:**
 
 - [[Dopamine Deficit Follows Hyperfixation Crash]] `rel:: causes` the mental emptiness—having come down from the high of hyperfixation, your brain is now in a dopamine deficit.
-- [[Executive Function Impairment During ADHD Trough Phase]] `rel:: manifests` — It's difficult to think clearly, initiate tasks, or feel motivated to do anything at all.
+- [[Executive Function Impairment During ADHD Trough Phase]] `rel:: manifests`—It's difficult to think clearly, initiate tasks, or feel motivated to do anything at all.
 - **Feelings of Frustration and Shame:** This is where the frustration you feel truly sets in. You look at the remnants of your last hyperfixation—the half-finished projects, the purchased supplies, the abandoned systems—and feel a sense of failure or confusion.
 
 This fallow period lasts until your brain, once again starved of stimulation, latches onto a new spark, and the entire cycle begins anew.
@@ -94,8 +94,8 @@ Rather than fighting your brain's need for novelty, work with it. Design systems
 
 ### Related Maps
 
-- [[The Interest-Based Nervous System in ADHD]] `rel:: see-also` — Broader context for ADHD motivation patterns
-- [[Dopamine Management in ADHD Productivity]] `rel:: see-also` — Practical strategies for working with dopamine-driven motivation
+- [[The Interest-Based Nervous System in ADHD]] `rel:: see-also`—Broader context for ADHD motivation patterns
+- [[Dopamine Management in ADHD Productivity]] `rel:: see-also`—Practical strategies for working with dopamine-driven motivation
 
 ---
 

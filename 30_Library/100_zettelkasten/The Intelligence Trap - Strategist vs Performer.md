@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T08:05:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [inaction, intelligence, topic/productivity, topic/psychology]
+status: "null"
+tags: ["inaction", "intelligence", "topic/productivity", "topic/psychology"]
 title: The Intelligence Trap - Strategist vs Performer
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The "Intelligence Trap" is a concept describing how intelligent individuals can get stuck in a cycle of thinking and planning instead of doing. This leads to "analysis paralysis." The trap can be understood as a conflict between two internal characters:

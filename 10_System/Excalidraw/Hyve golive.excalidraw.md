@@ -6,7 +6,7 @@ epistemic:
 
 excalidraw-plugin: parsed
 last_reviewed: 
-modified: 2025-12-21T14:58:02Z
+modified: 2025-12-25T11:40:50+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -30,6 +30,7 @@ Hyve ^07stFHbb
 Secrets in vault ^4XcUXoSk
 
 %%
+
 ### Drawing
 
 ```compressed-json

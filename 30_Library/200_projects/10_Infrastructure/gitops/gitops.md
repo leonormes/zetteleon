@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-10T18:34:34Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:36+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [gitops]
+status: ""
+tags: ["gitops"]
 title: gitops
-type: LLM
+type: "LLM"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Git's history, by design, is inherently tamper-evident, and this applies whether you're using GitLab, GitHub, Bitbucket, or a self-hosted Git server. The core principle that makes this work is the way Git uses cryptographic hashing. Here's a breakdown of why it's tamper-evident and the implications for GitLab:

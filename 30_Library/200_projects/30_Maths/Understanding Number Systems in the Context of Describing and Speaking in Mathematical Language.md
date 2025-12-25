@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-13T05:27:09Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:22Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Understanding Number Systems in the Context of Describing and Speaking in Mathematical Language
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Understanding number systems is a fundamental aspect of "describing and speaking in mathematical language," which is a crucial habit of mind for anyone seeking to think like a mathematician. Mathematics itself is a language, often visual, that conveys information through symbols and graphs, helping individuals make more sense of the world.
@@ -57,7 +57,7 @@ Instead, a shift towards teaching "mathematical habits of mind" is advocated. Th
 - **Tinkering (Breaking Down and Reconstructing):** Learning involves experimenting and breaking down complex ideas or numbers into smaller, understandable parts, then reassembling them to build knowledge. This approach, rooted in constructivism, is seen in decomposing numbers for addition or understanding complex formulas like the distance formula via the Pythagorean Theorem.
 - **Inventing (Understanding Algorithms):** Algorithms are efficient, repeatable procedures. While traditional education often teaches rules as tricks, mathematicians invent or deeply understand algorithms for efficiency. This algorithmic thinking is foundational to computer programming and everyday planning.
 - **Visualising:** Externalising internal thoughts through images, models, or diagrams enhances understanding and memory. This is critical for spatial problems and abstract concepts.
-- **Guessing and Making Estimations:** Developing "number sense" – the ability to understand and manipulate quantities – is crucial for making educated guesses and estimations.
+- **Guessing and Making Estimations:** Developing "number sense"–the ability to understand and manipulate quantities–is crucial for making educated guesses and estimations.
 - **Problem-Solving:** Instead of contrived exercises, real mathematics involves engaging with genuine problems that inspire curiosity and lead to the natural development of techniques and methods. The ability to reason abstractly and quantitatively, construct viable arguments, and persevere in solving problems are key mathematical practices.
 
 This holistic approach views mathematics as an art form, akin to music or painting, involving creativity, imagination, and aesthetic sensitivity. It is about having an honest intellectual relationship with the subject and encouraging students to ask "what if?" and develop their own ideas, rather than just memorising "a bag of facts".

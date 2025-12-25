@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2024-11-28T16:44:08Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:44Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [SDLC]
+status: ""
+tags: ["SDLC"]
 title: externalized_configuration
-type: documentation
+type: "documentation"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## Understanding the Externalized Configuration Pattern

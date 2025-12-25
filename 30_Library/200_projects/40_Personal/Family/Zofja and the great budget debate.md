@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-19T18:08:30Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-21T15:10:41Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Zofja and the great budget debate
-type: 
+type: ""
 uid: 
 updated: 
 ---

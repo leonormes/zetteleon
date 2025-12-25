@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T10:12:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [objectivity, perspective, relativism, subjectivity]
+status: ""
+tags: ["objectivity", "perspective", "relativism", "subjectivity"]
 title: "The Meaning of a System's Logic is Relative to Perspective"
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The logic and values that [[Systems Generate Internal Logic in Isolation|a system generates in isolation]] create a profound perceptual dichotomy.

@@ -1,19 +1,19 @@
 ---
-aliases: [Event-based reduces pressure, Reduces time anxiety]
-confidence: 
+aliases: ["Event-based reduces pressure", "Reduces time anxiety"]
+confidence: ""
 created: 2025-10-30T17:33:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - How To Create And Use Mini Routines]]"
 source_of_truth: []
-status: seedling
-tags: [anxiety, time-management, topic/health/adhd]
+status: "seedling"
+tags: ["anxiety", "time-management", "topic/health/adhd"]
 title: Event-based structure reduces time-pressure anxiety
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

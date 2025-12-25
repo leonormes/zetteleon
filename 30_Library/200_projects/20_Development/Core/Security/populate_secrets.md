@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:56Z
-depends_on:
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:45Z
-purpose: 
-review_interval: 
+depends_on: ""
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: populate_secrets
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Populate Secrets

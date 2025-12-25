@@ -1,21 +1,21 @@
 ---
-aliases: [Precision]
-confidence: 
+aliases: ["Precision"]
+confidence: "null"
 created: 2025-07-21T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [concepts, measurement, science, topic/cognition/mental-model]
+status: "null"
+tags: ["concepts", "measurement", "science", "topic/cognition/mental-model"]
 title: Precision is Consistency of Measurement
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Precision describes the reproducibility and consistency of a measurement. It refers to how close multiple measurements of the same item are to each other, regardless of their proximity to the true value.

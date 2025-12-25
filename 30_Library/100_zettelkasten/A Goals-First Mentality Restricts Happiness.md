@@ -1,20 +1,20 @@
 ---
-aliases: [Goals Postpone Happiness]
-confidence: 0.9
+aliases: ["Goals Postpone Happiness"]
+confidence: "0.9"
 created: 2025-11-06T19:57:02Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
-purpose: "To explain how a goals-first mentality can restrict happiness by postponing it until the goal is achieved."
-review_interval: 90
+epistemic: "fact"
+last_reviewed: "2025-11-06T00:00:00.000Z"
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: "90"
 see_also: []
-source_of_truth: ["Focus on Systems vs Goals.md"]
-status: seedling
-tags: [goals, happiness, process, systems]
+source_of_truth: []
+status: "seedling"
+tags: ["goals", "happiness", "process", "topic/productivity", "topic/systems"]
 title: A Goals-First Mentality Restricts Happiness
-type: concept
-uid: 2025-11-06T19:57:02Z
-updated: 2025-11-06T19:57:02Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## A Goals-First Mentality Restricts Happiness

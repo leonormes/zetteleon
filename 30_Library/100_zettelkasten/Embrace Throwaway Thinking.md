@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-05-10T10:37:03Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/pkm/zettelkasten]
+status: "null"
+tags: ["topic/pkm/zettelkasten"]
 title: Embrace Throwaway Thinking
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Your brain resists notes because it thinks they must be perfect and permanent.

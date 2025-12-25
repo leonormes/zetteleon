@@ -1,18 +1,18 @@
 ---
 aliases: ["Reverse DNS"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T10:50:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T10:50:00Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
 purpose: "Explain reverse DNS lookup mechanism."
-review_interval: 90
+review_interval: "90"
 see_also: ["DNS is a distributed database.md"]
 source_of_truth: []
-status: seedling
-tags: [dns, networking]
+status: "seedling"
+tags: ["dns", "topic/technology/networking"]
 title: in-addr.arpa Domains Enable IP-to-Name Reverse DNS Lookups
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---
@@ -23,7 +23,7 @@ updated:
 
 **Format:**
 
-- IPv4: Reverse octets + .in-addr.arpa (e.g., 1.253.253.192.in-addr.arpa for 192.253.253.1)
+- IPv4: Reverse octets +.in-addr.arpa (e.g., 1.253.253.192.in-addr.arpa for 192.253.253.1)
 - Queries return PTR records with canonical names
 
 **Uses:**

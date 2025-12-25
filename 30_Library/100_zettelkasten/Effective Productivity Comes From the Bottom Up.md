@@ -1,20 +1,20 @@
 ---
-aliases: [Bottom-Up Productivity]
-confidence: 0.9
+aliases: ["Bottom-Up Productivity"]
+confidence: "0.9"
 created: 2025-11-10T15:22:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T13:33:51Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To emphasize the foundational nature of atomic actions in productivity."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[The Action is the Atomic Unit of Productivity]]"]
-source_of_truth: ["[[MOC - Atomic Actions and Next Actions Framework]]"]
-status: seedling
-tags: [action, foundation, productivity, systems]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "foundation", "topic/productivity", "topic/systems"]
 title: Effective Productivity Comes From the Bottom Up
-type: concept
-uid: 2025-11-10T15:22:00Z
-updated: 2025-11-10T15:22:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Effective Productivity Comes From the Bottom Up

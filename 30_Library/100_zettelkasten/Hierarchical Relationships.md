@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-05-08T06:44:40Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/pkm/zettelkasten]
+status: "null"
+tags: ["topic/pkm/zettelkasten"]
 title: Hierarchical Relationships
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 These involve a structured order or ranking, such as parent-child relationships in databases or taxonomies in knowledge systems.

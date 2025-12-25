@@ -1,20 +1,20 @@
 ---
-aliases: [NDP]
-confidence: 1.0
+aliases: ["NDP"]
+confidence: "1.0"
 created: 2025-11-22T15:00:08Z
-epistemic: fact
-last_reviewed: 2025-11-22
-modified: 2025-11-22T14:41:58Z
+epistemic: "fact"
+last_reviewed: "2025-11-22"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Defines the IPv6 equivalent of ARP."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [networking/protocol]
+status: "seedling"
+tags: ["topic/technology/networking/protocol"]
 title: Concept - Neighbor Discovery Protocol
-type: concept
-uid: 2025-11-22T15:00:08Z
-updated: 2025-11-22T15:00:08Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Neighbor Discovery Protocol

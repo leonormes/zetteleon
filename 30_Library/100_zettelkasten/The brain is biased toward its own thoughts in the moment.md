@@ -1,20 +1,20 @@
 ---
-aliases: [first-person thought bias, self-thought bias]
-confidence: 0.8
+aliases: ["first-person thought bias", "self-thought bias"]
+confidence: "0.8"
 created: 2025-10-31T20:47:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-10-31T13:20:04Z
+epistemic: "fact"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Explains cognitive bias that privileges our own thoughts with unwarranted significance"
-review_interval: 90
-see_also: [[Thoughts are bundled with phenomenological qualities]]
+review_interval: "90"
+see_also: ["[[Thoughts are bundled with phenomenological qualities]]"]
 source_of_truth: []
-status: seedling
-tags: [bias, cognition, metacognition]
+status: "seedling"
+tags: ["bias", "metacognition", "topic/cognition"]
 title: The brain is biased toward its own thoughts in the moment
-type: concept
-uid: 2025-10-31T20:47:00Z
-updated: 2025-10-31T20:47:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Brain is Biased toward Its Own Thoughts in the Moment

@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-11T11:39:50Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-11T13:02:35Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T18:35:17Z
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: [backup]
 title: give me an overview of azure backup. what are the
-type: 
-uid: 
-updated: 
+type: ""
+uid:
+updated:
 ---
 
 Give me an overview of azure backup. What are the different components and how do they all fit together?
@@ -33,7 +33,7 @@ Here’s a concise, structured overview of **Azure Backup**, focusing on key com
 **Main Components**
 
 | Component | Role/Function |
-| :-- | :-- |
+|:-- |:-- |
 | Recovery Services Vault | Stores backup data for most classic workloads (VMs, SQL, SAP, etc.). Central management hub. |
 | Backup Vault | Stores backup data for newer workloads (Azure Database for PostgreSQL, Blob Storage, disks). |
 | Backup Items | The specific resources being protected (VMs, file shares, databases, etc.). |
@@ -84,7 +84,7 @@ Here’s a concise, structured overview of **Azure Backup**, focusing on key com
 **Summary Table**
 
 | Workload | Agent/Method | Storage | Notes |
-| :-- | :-- | :-- | :-- |
+|:-- |:-- |:-- |:-- |
 | Azure VM | VM Extension | Recovery Vault | Agentless, snapshots |
 | SQL/SAP on Azure VM | Built-in/Azure Plugin | Recovery Vault | App-aware, consistent |
 | On-prem Servers | MARS/DPM/MABS Agent | Recovery Vault | Requires agent installation |

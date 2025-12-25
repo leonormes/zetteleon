@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-11T08:49:57Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-12T14:24:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Relationship & Communication Strategy
-type: 
+type: ""
 uid: 
 updated: 
 ---

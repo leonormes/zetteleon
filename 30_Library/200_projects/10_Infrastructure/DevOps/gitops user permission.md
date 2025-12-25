@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-05T11:57:01Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:39Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:41+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [gitops, IAM]
+status: ""
+tags: ["gitops", "IAM"]
 title: gitops user permission
-type: plan
+type: "plan"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 To enforce safe and compliant auditing of user permission changes using GitOps with Terraform, Entra (Azure AD), and GitLab, you need to implement several key measures across your workflow and infrastructure. Here's a breakdown of what you need to enforce:
@@ -59,7 +59,7 @@ To enforce safe and compliant auditing of user permission changes using GitOps w
     - Require manual approval to proceed with terraform apply after successful plan and review.
     - Execute terraform apply automatically after approval, applying the changes to Entra.
     - Log all pipeline activities, including approvals, applies, and any errors.
-  - Immutable Pipeline Definition: Store your CI/CD pipeline definition (e.g., .gitlab-ci.yml) in the Git repository and treat it as code. Protect it from unauthorized modifications.
+  - Immutable Pipeline Definition: Store your CI/CD pipeline definition (e.g.,.gitlab-ci.yml) in the Git repository and treat it as code. Protect it from unauthorized modifications.
 - Change Approval Process:
   - Manual Approval Gate: Implement a manual approval stage in your CI/CD pipeline before the terraform apply step. This requires authorized personnel to review the terraform plan output and approve the changes before they are applied to Entra.
   - Approval Logging: Ensure that all approvals and rejections in the CI/CD pipeline are logged and auditable, including who approved or rejected and when.
@@ -126,7 +126,7 @@ Workflow:
 - Idempotency: Terraform's idempotency is crucial here. Applying the permissions.tf configuration repeatedly should safely revert permissions to the standard state without causing issues.
 Example (Simplified GitLab CI for Scheduled Rollback):
 
-## .gitlab-ci.yml
+##.gitlab-ci.yml
 
 ```yaml
 stages:

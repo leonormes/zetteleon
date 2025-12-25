@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-01T09:21:45Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [science]
+status: ""
+tags: ["science"]
 title: A Coherent System of Units Simplifies Physical Equations
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 A key strength of the SI for science is its **coherence**. This means that the equations between the numerical values of quantities have the exact same form as the equations between the quantities themselves, with no extra conversion factors.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-31T16:07:43Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [digital-communication, language-evolution, screen-time, technology]
+status: ""
+tags: ["digital-communication", "language-evolution", "screen-time", "technology"]
 title: "Technology's Impact on Language"
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Technology has a profound and multifaceted impact on language development, usage, and evolution, presenting both opportunities and challenges for linguistic capabilities.

@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-10T14:05:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T13:28:09Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To describe the synergy between time blocking and time boxing."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Time Blocking Focuses on When a Task is Done While Time Boxing Focuses on How Much Time is Spent]]"]
-source_of_truth: ["[[MOC - Time Blocking and Time Boxing for Productivity]]"]
-status: seedling
-tags: [productivity, strategy, time-blocking, time-boxing, time-management]
+source_of_truth: []
+status: "seedling"
+tags: ["strategy", "time-blocking", "time-boxing", "time-management", "topic/productivity"]
 title: Time Boxing Can Be Nested Within Larger Time Blocks
-type: concept
-uid: 2025-11-10T14:05:00Z
-updated: 2025-11-10T14:05:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Time Boxing Can Be Nested Within Larger Time Blocks

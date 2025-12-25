@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-26T10:18:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [security]
+status: ""
+tags: ["security"]
 title: Make the Threat Real and Relevant
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 Your goal is to shift the team's mindset from seeing security as a checkbox or someone else's problem to understanding it as an integral part of quality software development, especially in your domain. Policies and DoD are necessary scaffolding, but motivation is the engine.
@@ -104,12 +104,12 @@ Make security part of the process, not an afterthought.
 
 ## Motivation, Recognition, and Culture
 
-Address the human element – people need to feel valued for this work.
+Address the human element–people need to feel valued for this work.
 
 ### Explicitly Praise Security Efforts
 
 - This is crucial given your observation. When someone writes particularly secure code, identifies a vulnerability, diligently fixes a security issue, or asks good security questions, *acknowledge and praise it publicly* (in team meetings, chat channels, etc.). "Great catch finding that potential access control issue in the code review, Sarah!" or "Thanks Mark for taking the time to properly configure those IAM permissions."
-- Celebrate security "wins" – e.g., passing a security scan, successfully mitigating a threat identified during modelling.
+- Celebrate security "wins"–e.g., passing a security scan, successfully mitigating a threat identified during modelling.
 
 ### Security Champions
 

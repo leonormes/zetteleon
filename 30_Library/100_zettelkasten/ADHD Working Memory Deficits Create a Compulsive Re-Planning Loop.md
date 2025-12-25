@@ -1,20 +1,20 @@
 ---
-aliases: [Re-planning Loop]
-confidence: 0.9
+aliases: ["Re-planning Loop"]
+confidence: "0.9"
 created: 2025-11-12T15:00:03Z
-epistemic: hypothesis
-last_reviewed:
-modified: 2025-11-12T14:01:15Z
+epistemic: "hypothesis"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To explain the compulsive re-planning loop caused by ADHD working memory deficits."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Working Memory Limitations in ADHD]]"]
-source_of_truth: ["[[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]"]
-status: seedling
-tags: [adhd, anxiety, rumination, working-memory]
+source_of_truth: []
+status: "seedling"
+tags: ["anxiety", "rumination", "topic/health/adhd", "working-memory"]
 title: ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop
-type: concept
-uid: 2025-11-12T15:00:03Z
-updated: 2025-11-12T15:00:03Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop

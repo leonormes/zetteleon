@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-24T15:17:00Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:37:53Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain the neurochemical flooding that occurs during ADHD hyperfixation and its role in the interest cycle."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[ADHD Hyperfixation-Burnout Cycle]]", "[[Dopamine Deficit Follows Hyperfixation Crash]]", "[[Hyperfixation Creates Time Blindness in ADHD]]", "[[The I've Cracked It Illusion During ADHD Hyperfixation]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Adhd up and down cycle .md"]
-status: seedling
-tags: [dopamine, motivation, neuroscience, neurotransmitters, topic/health/adhd, topic/productivity/hyperfocus]
+source_of_truth: []
+status: "seedling"
+tags: ["dopamine", "motivation", "neuroscience", "neurotransmitters", "topic/health/adhd", "topic/productivity/hyperfocus"]
 title: Hyperfixation and Neurotransmitter Flooding in ADHD
-type: concept
-uid: 2025-10-24T15:17:00Z
-updated: 2025-11-01T11:37:53Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 When an individual with Attention-Deficit/Hyperactivity Disorder (ADHD) experiences hyperfixation (often referred to as hyperfocus), it is typically accompanied by a significant engagement of the [[Task-Positive Network (TPN) and Default Mode Network (DMN) Defined|Task-Positive Network (TPN)]]. This intense, sustained concentration on a highly interesting or stimulating subject is fueled by a surge of neurotransmitters, particularly dopamine.

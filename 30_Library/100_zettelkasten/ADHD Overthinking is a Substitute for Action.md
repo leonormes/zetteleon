@@ -1,20 +1,20 @@
 ---
-aliases: [Thinking as Action Substitute]
-confidence: 0.9
+aliases: []
+confidence: "0.9"
 created: 2025-11-12T15:00:02Z
-epistemic: hypothesis
-last_reviewed:
-modified: 2025-11-12T14:01:15Z
-purpose: "To explain why overthinking becomes a default activity in ADHD when action is blocked."
-review_interval: 90
-see_also: ["[[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency]]"]
-source_of_truth: ["[[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]"]
-status: seedling
-tags: [adhd, executive-function, overthinking, procrastination]
+epistemic: "hypothesis"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: "90"
+see_also: []
+source_of_truth: []
+status: "seedling"
+tags: []
 title: ADHD Overthinking is a Substitute for Action
-type: concept
-uid: 2025-11-12T15:00:02Z
-updated: 2025-11-12T15:00:02Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## ADHD Overthinking is a Substitute for Action

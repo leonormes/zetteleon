@@ -1,21 +1,21 @@
 ---
-aliases: [Flexible Structure]
-confidence: 1
+aliases: ["Flexible Structure"]
+confidence: "1"
 created: 2025-11-01T21:12:00Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:43:14Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To explain the importance of maintaining flexibility within a structured timeboxing system."
-review_interval: 90
-see_also: ['[[The Risks of Over-Scheduling]]', '[[Timeboxing Creates Structure for Action]]']
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Timeboxing Creates Structure for Action.md"]
-status: evergreen
-tags: [balance, flexibility, productivity, scheduling, time-management]
+review_interval: "90"
+see_also: ["[[The Risks of Over-Scheduling]]", "[[Timeboxing Creates Structure for Action]]"]
+source_of_truth: []
+status: "evergreen"
+tags: ["balance", "flexibility", "scheduling", "time-management", "topic/productivity"]
 title: Flexibility Within Structure is Key to Sustainable Timeboxing
-type: concept
-uid: 20251101211200
-updated: 2025-11-01T21:12:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 The key to a successful and sustainable timeboxing practice is to build in flexibility. The goal is to create a guide for your time, not a rigid prison.

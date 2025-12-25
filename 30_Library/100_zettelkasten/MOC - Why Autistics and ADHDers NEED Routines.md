@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-30T16:30:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-08T11:12:04Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
-source: https://youtube.com/watch?v=M0QeofT0_qg
+source: "https://youtube.com/watch?v=M0QeofT0_qg"
 source_of_truth: []
-status:
-tags: [autism, routine-building, topic/health/adhd]
+status: "null"
+tags: ["autism", "routine-building", "topic/health/adhd"]
 title: MOC - Why Autistics and ADHDers NEED Routines
-type: map
-uid:
-updated:
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - Why Autistics and ADHDers NEED Routines

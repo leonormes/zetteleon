@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-19T09:07:06Z
 epistemic:
 last_reviewed:
-modified: 2025-11-19T14:33:39Z
+modified: 2025-12-25T11:40:23+00:00
 purpose:
 review_interval:
 see_also: []
@@ -116,6 +116,7 @@ Leon and Oliver are the primary recipients of the Azure configuration update and
 ## Deployment Plan: Azure AKS Private Cluster
 
 ### Phase 3: Central Services & Tooling
+
 **Reference:** `FITFILE-Azure - Tooling`
 
 Configure the central management plane to accept the new cluster.
@@ -162,6 +163,7 @@ Configure the central management plane to accept the new cluster.
 ---
 
 ### Phase 4: Infrastructure Deployment
+
 **Reference:** `FITFILE-Azure - Infrastructure (private)`
 
 Deploy the actual Azure resources (VNet, AKS, Jumpbox).
@@ -206,6 +208,7 @@ Deploy the actual Azure resources (VNet, AKS, Jumpbox).
 ---
 
 ### Phase 5: Platform Configuration
+
 **Reference:** `FITFILE-Azure - Platform (private)`
 
 Configure the software running inside the cluster via the Jumpbox.
@@ -226,7 +229,7 @@ Configure the software running inside the cluster via the Jumpbox.
 1. Run `./vars_setup.sh < /home/azadmin/.kube/config`.
     - *Verify:* `cat vars.tfvars` should show certificate data.
 2. **Populate `vars.tfvars`:** Edit the file on the Jumpbox to include:
-    - `approles = { ... }` (The HCL object generated in step 5.1).
+    - `approles = {... }` (The HCL object generated in step 5.1).
     - `deployment_key`.
     - `argocd_host` (e.g., `key-argocd.privatelink.fitfile.net`).
     - `ingress_controller_ip_address` (from infra module output).

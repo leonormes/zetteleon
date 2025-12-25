@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-12-08T00:00:00Z
-description: Created with Gemini
-epistemic:
-last_reviewed:
-modified: 2025-12-08T13:38:58Z
-published:
-purpose:
-review_interval:
+description: "Created with Gemini"
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:32+00:00
+published: ""
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: []
+status: ""
+tags: ["ff_deploy", "lca"]
 title: All the Tasks That Need Doing From LCRCA This Email Change
-type:
-uid:
-updated:
+type: ""
+uid: 
+updated: 
 ---
 
 extract all the tasks that need doing from this email change

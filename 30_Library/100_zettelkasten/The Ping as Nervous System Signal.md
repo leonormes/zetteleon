@@ -1,21 +1,21 @@
 ---
-aliases: [Emotional Feedback Signal, Nervous System Ping, The Ping]
-confidence:
+aliases: ["Emotional Feedback Signal", "Nervous System Ping", "The Ping"]
+confidence: ""
 created: 2025-07-17T10:05:00Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:39Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
+status: ""
 tags: []
 title: The Ping as Nervous System Signal
-type: map
-uid:
-updated:
-version: 1
+type: "map"
+uid: 
+updated: 
+version: "1"
 ---
 
 The "ping" is a distinct nervous system signal—a jolt of fear, anxiety, excitement, or other emotional response—that occurs when engaging with meaningful real-world action. It represents the body's recognition that you are encountering genuine [[Type 2 Information is Experiential]] rather than theoretical knowledge.

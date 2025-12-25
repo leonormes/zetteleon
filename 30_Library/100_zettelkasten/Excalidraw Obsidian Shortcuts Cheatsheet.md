@@ -1,27 +1,27 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T13:14:20Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [cheatsheet, excalidraw, obsidian, shortcuts]
+status: ""
+tags: ["cheatsheet", "excalidraw", "obsidian", "shortcuts"]
 title: Excalidraw Obsidian Shortcuts Cheatsheet
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Essential Keyboard Shortcuts for Excalidraw in Obsidian
 
 | Action | Shortcut |
-| :-- | :-- |
+|:-- |:-- |
 | Select | V |
 | Pen/Freehand | P |
 | Eraser | E |
@@ -35,7 +35,7 @@ version:
 | Undo | Ctrl/Cmd + Z |
 | Redo | Ctrl/Cmd + Shift + Z |
 | Group/Ungroup | Ctrl/Cmd + G / Shift + Cmd + G |
-| Bring Forward/Backward | Ctrl/Cmd + ] / Ctrl/Cmd + [ |
+| Bring Forward/Backward | Ctrl/Cmd +] / Ctrl/Cmd + [|
 | Copy/Paste | Ctrl/Cmd + C / Ctrl/Cmd + V |
 | Save Drawing | Ctrl/Cmd + S |
 | Edit text box | Enter |

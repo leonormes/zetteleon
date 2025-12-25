@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-02-07T12:57:54Z
-epistemic: 
-ID: 8a9
-last_reviewed: 
-modified: 2025-12-20T20:28:44Z
-purpose: 
-review_interval: 
+epistemic: "null"
+ID: "8a9"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [networking]
+status: "null"
+tags: ["topic/technology/networking"]
 title: AWS Route Tables
-type: 
+type: "null"
 uid: 
 updated: 
-version: 
+version: "null"
 ---
 
 ## AWS Route Tables

@@ -1,30 +1,20 @@
 ---
 aliases: ["British Class System", "Great British Class Survey Analysis", "UK Social Structure"]
-confidence: 5/5
-created: 2025-12-14T17:30:00Z
-epistemic: Grounded in the Great British Class Survey (GBCS) and Bourdieu's Capital Theory.
-last_reviewed: 2025-12-15
-modified: 2025-12-20T09:54:06Z
-purpose: A comprehensive analysis of the contemporary UK class structure, integrating the 7-class GBCS model with Weberian and Bourdieusian sociological frameworks.
-related-soTs: ["[[SoT - Social Stratification]]"]
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
+confidence: "5/5"
+created: 2025-12-14T00:00:00Z
+epistemic: "Grounded in the Great British Class Survey (GBCS) and Bourdieu's Capital Theory."
+last_reviewed: "2025-12-15"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "A comprehensive analysis of the contemporary UK class structure, integrating the 7-class GBCS model with Weberian and Bourdieusian sociological frameworks."
+review_interval: "1 year"
+see_also: ["[[SoT - Social Stratification]]"]
+source_of_truth: []
+status: "stable"
 tags: ["class", "economics", "inequality", "sociology", "uk"]
 title: SoT - UK Social Hierarchy and Class Analysis
-type: SoT
+type: "SoT"
 uid: 
 updated: 
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> The UK Class System is no longer a simple tripartite hierarchy (Working/Middle/Upper) but a fragmented **seven-class model** defined by the interplay of **Economic Capital** (wealth), **Social Capital** (networks), and **Cultural Capital** (tastes/education).
->
-> It operates as a **Hybrid Model**, blending traditional occupational status (NS-SEC) with modern forms of capital accumulation (GBCS).
-
 ---
 
 ## 2. Theoretical Foundations
@@ -79,7 +69,7 @@ Based on the Great British Class Survey (GBCS), the UK population is stratified 
 How is the hierarchy maintained?
 
 | Mechanism | Description |
-| :--- | :--- |
+|:--- |:--- |
 | **Education** | The primary sorting hat. Private School -> Oxbridge pipeline remains the "Golden Ticket" to the Elite. |
 | **Geography** | The North-South divide creates distinct economic realities. London operates its own internal borough hierarchy. |
 | **The "Polish Penalty"** | Regional accents (especially Brummie/Scouse) face a competence penalty in high-status professions compared to RP. |

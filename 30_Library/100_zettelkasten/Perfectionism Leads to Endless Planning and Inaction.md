@@ -1,21 +1,21 @@
 ---
-aliases: [Perfectionism as Inaction, The Enemy of the Good]
-confidence: 1
+aliases: ["Perfectionism as Inaction", "The Enemy of the Good"]
+confidence: "1"
 created: 2025-11-01T20:32:00Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:35:44Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To explain how perfectionism and over-planning lead to inaction."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]", "[[Perfectionism]]", "[[The Best is the Enemy of the Good]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Motion Can Be a Procrastination Delay Tactic.md"]
-status: evergreen
-tags: [perfectionism, planning, procrastination, productivity]
+source_of_truth: []
+status: "evergreen"
+tags: ["perfectionism", "planning", "procrastination", "topic/productivity"]
 title: Perfectionism Leads to Endless Planning and Inaction
-type: concept
-uid: 20251101203200
-updated: 2025-11-01T20:32:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 Perfectionism often manifests as over-planning and endless refinement, which are forms of motion that prevent action. The pursuit of the "perfect" approach becomes a significant barrier to starting.

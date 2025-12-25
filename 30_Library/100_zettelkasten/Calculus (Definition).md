@@ -1,21 +1,21 @@
 ---
-aliases: [Calculus]
-confidence: 0.9
+aliases: ["Calculus"]
+confidence: "0.9"
 created: 2025-11-01T11:22:13Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:35:54Z
+epistemic: "fact"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Define calculus as the mathematics of continuous change."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Analysis (Definition)]]", "[[Geometry (Definition)]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md"]
-status: seedling
-tags: [fields, topic/maths]
+source_of_truth: []
+status: "seedling"
+tags: ["fields", "topic/maths"]
 title: Calculus (Definition)
-type: definition
-uid: 2025-11-01T11:22:13Z
-updated: 2025-11-01T11:22:13Z
-version: 1
+type: "definition"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Definition:** Calculus is the branch of mathematics that studies continuous change, providing tools to analyze how quantities vary smoothly with respect to one another.

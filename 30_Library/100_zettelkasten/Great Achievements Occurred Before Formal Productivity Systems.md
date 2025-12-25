@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-10T13:00:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T13:28:09Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To contextualize the role of modern productivity systems by acknowledging historical precedent."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Productivity Systems vs Historical Achievement]]"]
-status: seedling
-tags: [achievement, history, productivity, systems]
+source_of_truth: []
+status: "seedling"
+tags: ["achievement", "history", "topic/productivity", "topic/systems"]
 title: Great Achievements Occurred Before Formal Productivity Systems
-type: concept
-uid: 2025-11-10T13:00:00Z
-updated: 2025-11-10T13:00:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Great Achievements Occurred Before Formal Productivity Systems

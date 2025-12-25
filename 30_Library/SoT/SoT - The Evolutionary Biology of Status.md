@@ -1,28 +1,20 @@
 ---
-aliases: [Dominance Hierarchies, Evolutionary Status, Neuroscience of Status]
-confidence: 5/5
-created: 2025-12-14T17:30:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:07Z
-purpose: Explaining the biological and evolutionary drivers behind human status-seeking behavior.
-related-soTs: ["[[SoT - Social Stratification]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
-review_interval: 
-see_also: []
+aliases: ["Dominance Hierarchies", "Evolutionary Status", "Neuroscience of Status"]
+confidence: "5/5"
+created: 2025-12-14T00:00:00Z
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:20+00:00
+purpose: "Explaining the biological and evolutionary drivers behind human status-seeking behavior."
+review_interval: "3 months"
+see_also: ["[[SoT - Social Stratification]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
 source_of_truth: []
-status: stable
-tags: [behavior, evolutionary_psychology, neuroscience, status]
+status: "stable"
+tags: ["behavior", "neuroscience", "status", "topic/psychology"]
 title: SoT - The Evolutionary Biology of Status
-type: SoT
+type: "SoT"
 uid: 
 updated: 
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> Status is not a social construct; it is a **biological survival algorithm**. We are evolved to monitor our position in a **Dominance Hierarchy** because, for millions of years, rank determined access to resources and reproductive success.
-
 ---
 
 ## 2. Evolutionary Drivers

@@ -1,20 +1,20 @@
 ---
-aliases: [Alphanumeric IDs, Folgezettel System, Zettelkasten IDs]
-confidence: 0.9
+aliases: ["Alphanumeric IDs", "Folgezettel System", "Zettelkasten IDs"]
+confidence: "0.9"
 created: 2025-10-30T15:33:36Z
-epistemic: fact
-last_reviewed: 2025-10-30
-modified: 2025-10-30T15:36:29Z
+epistemic: "fact"
+last_reviewed: "2025-10-30T00:00:00.000Z"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explains the unique identifier system in Luhmann's Zettelkasten"
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [ids, linking, topic/pkm, topic/pkm/zettelkasten]
+status: "seedling"
+tags: ["ids", "linking", "topic/pkm", "topic/pkm/zettelkasten"]
 title: Folgezettel IDs Enable Non-Hierarchical Branching
-type: concept
-uid: 2025-10-30T15:33:36Z
-updated: 2025-10-30T15:33:36Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Folgezettel IDs Enable Non-Hierarchical Branching

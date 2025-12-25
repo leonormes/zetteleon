@@ -1,20 +1,20 @@
 ---
-aliases: [Config Error Surface, Configuration Fragility]
-confidence: 0.8
+aliases: ["Config Error Surface", "Configuration Fragility"]
+confidence: "0.8"
 created: 2025-01-15T10:05:00Z
-epistemic: fact
-last_reviewed: 2025-01-15
-modified: 2025-11-12T14:24:42Z
-purpose: Metric for measuring configuration robustness by counting editable parameters
-review_interval: 90
+epistemic: "fact"
+last_reviewed: "2025-01-15"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "Metric for measuring configuration robustness by counting editable parameters"
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [configuration, infrastructure, metrics, reliability]
+status: "seedling"
+tags: ["configuration", "infrastructure", "metrics", "reliability"]
 title: Configuration Error Surface Area
-type: concept
-uid: 2025-01-15T10:05:00Z
-updated: 2025-01-15T10:05:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Configuration Error Surface Area

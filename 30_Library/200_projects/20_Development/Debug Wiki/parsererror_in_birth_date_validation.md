@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:53Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: parsererror_in_birth_date_validation
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## ParserError in Birth Date Validation

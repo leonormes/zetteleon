@@ -1,20 +1,20 @@
 ---
-aliases: [Childhood Patterning]
-confidence: 0.9
+aliases: ["Childhood Patterning"]
+confidence: "0.9"
 created: 2025-11-01T12:00:06Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:43:59Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To explain the role of pattern recognition in early development and language."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Patterns are the Scaffolding of Knowledge]]"]
-source_of_truth: ["[[MOC - Pattern - From Sensory Input to Meaning]]"]
-status: seedling
-tags: [cognition, development, language]
+source_of_truth: []
+status: "seedling"
+tags: ["development", "language", "topic/cognition"]
 title: Early Childhood Patterning is the Foundation for Language Acquisition
-type: concept
-uid: 2025-11-01T12:00:06Z
-updated: 2025-11-01T12:00:06Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Early Childhood Patterning is the Foundation for Language Acquisition

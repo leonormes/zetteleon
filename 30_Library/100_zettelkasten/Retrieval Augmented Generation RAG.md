@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-10T08:29:35Z
-epistemic: 
-id: 20251008_Retrieval_Augmented_Generation_RAG
-last_reviewed: 
-modified: 2025-10-29T19:28:02Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "20251008_Retrieval_Augmented_Generation_RAG"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Retrieval Augmented Generation RAG
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Retrieval-Augmented Generation (RAG)** is a [[Context Engineering for LLMs]] technique where an LLM's internal knowledge is supplemented with external, just-in-time information. Instead of relying solely on its training data, the system first retrieves relevant data chunks from a knowledge source (like a vector database) based on the user's query. This retrieved data is then injected into the context window along with the original prompt, grounding the LLM's response in factual, up-to-date information.

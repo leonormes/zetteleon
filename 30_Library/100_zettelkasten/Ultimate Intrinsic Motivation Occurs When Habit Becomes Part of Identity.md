@@ -1,21 +1,21 @@
 ---
-aliases: [Identity-Based Motivation, Intrinsic Motivation Through Identity]
-confidence: 0.9
+aliases: ["Identity-Based Motivation", "Intrinsic Motivation Through Identity"]
+confidence: "0.9"
 created: 2025-11-01T12:04:20Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:26:28Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Explain how identity integration creates the strongest form of motivation."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Behavior Incongruent with Self Will Not Last]]", "[[Identity-Based Habits are More Resilient Than Goal-Based Habits]]", "[[True Behavior Change is Identity Change]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Habits and Identity.md"]
-status: seedling
-tags: [habits, identity, intrinsic-motivation, motivation]
+source_of_truth: []
+status: "seedling"
+tags: ["identity", "intrinsic-motivation", "motivation", "topic/habits"]
 title: Ultimate Intrinsic Motivation Occurs When Habit Becomes Part of Identity
-type: concept
-uid: 2025-11-01T12:04:20Z
-updated: 2025-11-01T12:04:20Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** The ultimate form of intrinsic motivation occurs when a habit becomes part of your identity. You shift from saying "I'm the type of person who wants this" to "I'm the type of person who is this."

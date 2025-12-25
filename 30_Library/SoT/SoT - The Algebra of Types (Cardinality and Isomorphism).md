@@ -1,26 +1,20 @@
 ---
-alias: ["Algebraic Data Types", "Isomorphisms", "The Algebra of Types", "Type Cardinality"]
 aliases: []
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-18T11:15:00Z
-decay-signals: []
-epistemic: authoritative
-last_reviewed: 2025-12-18
-modified: 2025-12-18T21:31:56Z
-purpose: Defines the algebraic structure of data types (Sums, Products, Exponentials) and their isomorphisms.
-quality-markers: ["Synthesized from All Angles: Type theory and the algebra of types"]
-related-soTs: ["[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]
-resonance-score: 6
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
+confidence: "5/5"
+created: 2025-12-18T00:00:00Z
+epistemic: "authoritative"
+last_reviewed: "2025-12-18"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "Defines the algebraic structure of data types (Sums, Products, Exponentials) and their isomorphisms."
+review_interval: "1 year"
+see_also: ["[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]
+source_of_truth: []
+status: "stable"
 tags: ["algebra", "architecture", "functional_programming", "type_theory"]
 title: SoT - The Algebra of Types (Cardinality and Isomorphism)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Working Knowledge (Stable Foundation)

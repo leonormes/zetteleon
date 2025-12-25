@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-24T08:23:11Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [pki]
+status: ""
+tags: ["pki"]
 title: Understanding Certificate Authorities (CAs) and Certificates
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 At its core, the goal of Public Key Infrastructure (PKI) is to enable secure communication among parties who have never met before [1]. This model relies on **Certification Authorities (CAs)**, which are mutually trusted third parties that generate and issue digital certificates [1-4].

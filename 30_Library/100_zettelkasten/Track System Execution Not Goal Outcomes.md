@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T12:06:04Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-30T11:16:24Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - Systems Thinking for Goal Achievement]]"
 source_of_truth: []
-status: seedling
-tags: [habits, metrics, process, systems-thinking]
+status: "seedling"
+tags: ["metrics", "process", "topic/habits", "topic/systems"]
 title: Track System Execution Not Goal Outcomes
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

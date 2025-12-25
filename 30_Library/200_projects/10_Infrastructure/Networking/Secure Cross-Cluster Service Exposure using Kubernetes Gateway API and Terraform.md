@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-27T12:34:09Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [gateway, ingress, k8s, networking]
+status: ""
+tags: ["gateway", "ingress", "k8s", "topic/technology/networking"]
 title: Secure Cross-Cluster Service Exposure using Kubernetes Gateway API and Terraform
-type: plan
+type: "plan"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## 1\. Introduction
@@ -227,7 +227,7 @@ While the Kubernetes Gateway API offers a standardized way to manage ingress and
 The Kubernetes Gateway API presents a modern and powerful approach to exposing the 'relay' service running on AWS EKS to a remote Azure AKS cluster. Its enhanced features, role-oriented design, and portability offer significant advantages over the traditional Ingress API. By leveraging Terraform for infrastructure-as-code, the provisioning and configuration of the necessary Gateway API resources in both cloud environments can be automated, promoting consistency and simplifying management. Implementing robust security measures, such as TLS or preferably mutual TLS, along with appropriate authentication and authorization mechanisms, will ensure that the cross-cluster communication is secure. While potential challenges such as network connectivity, latency, and cross-cloud complexity need to be carefully addressed, the combination of the Kubernetes Gateway API and Terraform provides a viable and promising solution for securely and efficiently exposing services across different Kubernetes clusters in a multi-cloud environment.
 
 | Feature | AWS EKS Gateway Controller Options | Azure AKS Gateway Controller Options |
-| :---- | :---- | :---- |
+|:---- |:---- |:---- |
 | Controller Name | AWS Gateway API Controller, Envoy Gateway, NGINX Gateway Fabric, HAProxy Kubernetes Ingress Controller | Azure Application Gateway for Containers, Istio, Envoy Gateway, Traefik Proxy |
 | Vendor/Project | Amazon, Envoy Project/Tetrate, NGINX, HAProxy Technologies | Microsoft, Istio Project, Envoy Project/Tetrate, Traefik Labs |
 | Maturity Level | GA (AWS), GA (Envoy), Beta (NGINX), GA (HAProxy) | GA (Azure), GA (Istio), GA (Envoy), GA (Traefik) |
@@ -236,7 +236,7 @@ The Kubernetes Gateway API presents a modern and powerful approach to exposing t
 | Terraform Support (Known) | Yes (Kubernetes provider), Yes (Kubernetes provider), Yes (Kubernetes provider), Yes (Kubernetes provider) | Yes (AzureRM & Kubernetes provider), Yes (Kubernetes provider), Yes (Kubernetes provider), Yes (Kubernetes provider) |
 
 | Security Aspect | Proposed Method | Implementation Details | Responsible Component(s) |
-| :---- | :---- | :---- | :---- |
+|:---- |:---- |:---- |:---- |
 | Encryption | TLS 1.3 | Configure TLS listener on the AWS EKS Gateway using a certificate stored in a Kubernetes Secret. | AWS EKS Gateway |
 | Authentication | Mutual TLS (mTLS) or JWT | mTLS: Configure the AWS EKS Gateway to require and verify client certificates presented by the Azure AKS cluster. JWT: Configure an authentication filter on the AWS EKS Gateway to validate JWTs. | AWS EKS Gateway |
 | Certificate Management | AWS Certificate Manager (ACM) and Azure Key Vault or Common CA | Utilize ACM for certificate issuance and management on AWS. Utilize Key Vault for certificate issuance and management on Azure, or use a common trusted Certificate Authority for both clusters. | Both Clusters |

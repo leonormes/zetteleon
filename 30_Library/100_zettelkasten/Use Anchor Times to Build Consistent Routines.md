@@ -1,18 +1,18 @@
 ---
-aliases: [Anchor Times for Routines]
-confidence: 
+aliases: ["Anchor Times for Routines"]
+confidence: ""
 created: 2025-10-29T16:10:00Z
-epistemic: strategy
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
+epistemic: "strategy"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To provide a method for establishing consistency in a daily routine."
-review_interval: 
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [consistency, habit-formation, routine, time-management]
+status: "seedling"
+tags: ["consistency", "routine", "time-management", "topic/habits"]
 title: Use Anchor Times to Build Consistent Routines
-type: strategy
+type: "strategy"
 uid: 
 updated: 
 ---

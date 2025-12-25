@@ -1,23 +1,23 @@
 ---
-aliases: [ADHD Developer Productivity Map]
-confidence:
+aliases: ["ADHD Developer Productivity Map"]
+confidence: ""
 created: 2025-11-06T19:53:03Z
-criteria: Notes must relate to the experience of an adult with ADHD in a professional remote software development context.
-epistemic:
-exclusions: General ADHD information not specific to remote work or software development.
-last_reviewed:
-modified: 2025-12-07T18:13:49Z
-purpose:
-review_interval:
-scope: The challenges, strengths, and strategies for remote software developers with ADHD.
+criteria: "Notes must relate to the experience of an adult with ADHD in a professional remote software development context."
+epistemic: ""
+exclusions: "General ADHD information not specific to remote work or software development."
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
+scope: "The challenges, strengths, and strategies for remote software developers with ADHD."
 see_also: []
-source_of_truth: ["[[SoT - ADHD in Remote Software Development]]"]
-status: merged
-tags: [adhd, remote-work, sequence, software-development, structural]
+source_of_truth: []
+status: "merged"
+tags: ["remote-work", "sequence", "software-development", "structural", "topic/health/adhd"]
 title: SN - Sequence - A Deep Dive into Adult ADHD in Remote Software Development
-type: sn
-uid: 2025-11-06T19:53:03Z
-updated: 2025-11-06T19:53:03Z
+type: "sn"
+uid: 
+updated: 
 ---
 
 ## SN - Sequence: A Deep Dive into Adult ADHD in Remote Software Development

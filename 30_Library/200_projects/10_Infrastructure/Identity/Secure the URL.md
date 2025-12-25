@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-25T10:49:09Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Secure the URL
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 When you connect to an HTTPS URL, your system, whether it's a web browser or an application, goes through a process to validate the server's TLS/SSL certificate. Here's how it generally works and what might be leading to your certificate warning:

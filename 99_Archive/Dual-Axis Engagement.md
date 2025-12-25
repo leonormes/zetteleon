@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-20T02:47:40Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-20T15:09:52Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -52,7 +52,7 @@ This module automates David Allen’s "Knowledge Work Athletics"—the thinking 
 
 Drawing from *Making Work Visible*, the app replaces static lists with dynamic visual boards to expose "Time Thieves".
 
-- **WIP (Work-In-Progress) Limits:** A hard constraint on the "Doing" column to prevent cognitive overload and "context switching" .
+- **WIP (Work-In-Progress) Limits:** A hard constraint on the "Doing" column to prevent cognitive overload and "context switching".
 - **Dependency Mapping:** Visual tags identifying "Architecture," "Expertise," or "Activity" dependencies that block progress.
 - **Flow Metrics:** Real-time dashboards for **Cycle Time** (how long it takes to finish a task) and **Aging Reports** (shining a light on neglected work).
 

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-01-09T06:10:58Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:50Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [SDLC]
+status: ""
+tags: ["SDLC"]
 title: efficient and effective Continuous Delivery pipeline
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 As we discussed, the goal of a CD pipeline is to get changes from commit to production safely, quickly, and sustainably. It's not just about automating deployment; it's about building quality in, working in small batches, and creating multiple feedback loops. Think of it like a well-oiled machine, where each step is carefully designed to ensure that only high-quality software makes it through to the end.
@@ -108,12 +108,12 @@ Here’s a much more granular look at each phase, integrating additional details
 The commit stage is the initial entry point for any code change into the CD pipeline. It’s triggered by a commit to the version control system, and its main purpose is to provide developers with rapid feedback regarding the quality of their changes. This stage operates as a gatekeeper, ensuring that only code which meets a baseline level of quality progresses further. It's like a quality control check at the start of the assembly line, catching errors early and preventing them from causing further problems down the line.
 
 - Key Activities in Depth:
-  - Compilation: This is the process of transforming the source code into an executable or interpretable format. It's crucial for catching syntax errors and other basic coding issues. Optimizing this step for speed is essential, as any delay here impacts the feedback loop . The compiler can also generate warnings that might indicate subtle problems with the code that should be fixed early in the cycle.
+  - Compilation: This is the process of transforming the source code into an executable or interpretable format. It's crucial for catching syntax errors and other basic coding issues. Optimizing this step for speed is essential, as any delay here impacts the feedback loop. The compiler can also generate warnings that might indicate subtle problems with the code that should be fixed early in the cycle.
   - Unit Testing: Unit tests are small, focused tests which check the behaviour of individual components or modules of code. These tests should run quickly, be isolated, and be developer-centric, validating that code behaves according to the developer's expectations. These tests are often run locally by the developer, before committing, as well as by the CI system on each commit. The aim here is for the tests to be predictable, repeatable, and reliable; a failure of a unit test should always mean a problem with the code.
-  - Static Code Analysis: Static code analysis tools examine the source code without executing it . They help to identify coding style issues, potential bugs, security vulnerabilities, code duplication, and to measure aspects of code quality such as cyclomatic complexity, coupling, and adherence to coding standards. These tools are vital for ensuring that the code adheres to standards and best practices. This analysis can also help to spot code patterns that might introduce risks and vulnerabilities, such as security defects.
+  - Static Code Analysis: Static code analysis tools examine the source code without executing it. They help to identify coding style issues, potential bugs, security vulnerabilities, code duplication, and to measure aspects of code quality such as cyclomatic complexity, coupling, and adherence to coding standards. These tools are vital for ensuring that the code adheres to standards and best practices. This analysis can also help to spot code patterns that might introduce risks and vulnerabilities, such as security defects.
   - Build and Packaging: Once the code has passed the previous steps, it needs to be built into a deployable artifact. This step involves compiling the code, linking it with necessary libraries, and packaging it into a distributable format such as a zip, jar file, or a Docker image. The resulting artifact is often referred to as a "release candidate," which signifies that it is potentially ready for release.
 - Characteristics in Detail:
-  - Speed: The primary goal of the commit stage is to provide rapid feedback to the developers. A longer time to feedback makes it more difficult and expensive to remedy any problems. A fast commit stage, targeting feedback in under 5 minutes and no more than 10, is the ideal way to keep the cycle fast. .
+  - Speed: The primary goal of the commit stage is to provide rapid feedback to the developers. A longer time to feedback makes it more difficult and expensive to remedy any problems. A fast commit stage, targeting feedback in under 5 minutes and no more than 10, is the ideal way to keep the cycle fast..
   - Precision: Tests in the commit stage must be highly precise and avoid dependencies on external systems such as databases or networks as these will slow the process and introduce complexity. They should focus on the code itself, rather than its interactions with other parts of the system.
   - Developer Focus: The unit tests and code analysis are primarily for the developer’s benefit. This step aims to give the developer confidence that their work is sound and to provide fast feedback if there is a problem. If a commit stage fails, the best person to diagnose and fix the issue is usually the developer who made the changes, so early feedback is critical.
   - Output: The successful output of this stage is the "release candidate," an artifact of software that is ready for more extensive tests, and ultimately, deployment. If the stage fails, the developer should revert their changes and make adjustments.
@@ -139,9 +139,9 @@ The artifact repository ensures that all changes to software are tracked and sto
 The acceptance test stage is the point in the pipeline where the software is evaluated from the perspective of the user or end-customer. It’s about more than just checking that the code works; it’s about ensuring that the software meets the requirements, and provides a valuable, seamless user experience. This stage determines if the code works in a way that is useful to a user.
 
 - Key Activities and Objectives:
-  - User-Centered Tests: Acceptance tests are designed to mimic real-life user scenarios. These tests are written from the perspective of a user or customer, and they check the entire system to make sure that it meets their needs. Tests are often described in terms of business workflows, or user stories . They are not focused on the internal structure of code, like unit tests, but on the application's behavior from the outside .
+  - User-Centered Tests: Acceptance tests are designed to mimic real-life user scenarios. These tests are written from the perspective of a user or customer, and they check the entire system to make sure that it meets their needs. Tests are often described in terms of business workflows, or user stories. They are not focused on the internal structure of code, like unit tests, but on the application's behavior from the outside.
   - Production-like Environments: Acceptance tests should ideally be executed in an environment that closely mirrors the production environment. This includes configurations, data, and network setups so that we have a better understanding of how the system will perform in real-world scenarios. This approach reduces the risk that changes may cause problems when they reach production.
-  - Automated Acceptance Testing: Automated acceptance tests are used to validate the functionality and behaviour of the software . These tests are essential for providing timely feedback in an environment of frequent change, and they allow teams to test quickly and reliably . Test automation is a key element of continuous delivery .
+  - Automated Acceptance Testing: Automated acceptance tests are used to validate the functionality and behaviour of the software. These tests are essential for providing timely feedback in an environment of frequent change, and they allow teams to test quickly and reliably. Test automation is a key element of continuous delivery.
   - Manual Exploratory Testing: Manual testing, though used sparingly, can provide additional perspectives not easily captured with automation. Exploratory tests, and usability testing, can help to validate the user experience from the point of view of a human.
   - Non-functional Requirements Testing: This can also be a stage where we test for aspects of non-functional requirements such as security, scalability, and performance.
 - Characteristics of the Acceptance Test Stage
@@ -166,7 +166,7 @@ The final stage of the CD pipeline involves releasing the software to the intend
     - Canary Releases: New changes are deployed to a subset of users. If those users report no problems, the new version is deployed to everyone.
   - Feedback and Monitoring: Following the deployment, it's crucial to gather feedback and monitor the system's performance. This can involve gathering metrics on system performance, user behaviour, and overall customer satisfaction.
   - Rollback: The capability to roll back changes quickly is a vital part of this process. Changes can be rolled back to a previously stable version if problems are discovered in production.
-  - Release Notes: Some systems require that details of the deployment be captured and documented .
+  - Release Notes: Some systems require that details of the deployment be captured and documented.
 
 This stage ensures that the final product is delivered to end-users promptly and effectively.
 

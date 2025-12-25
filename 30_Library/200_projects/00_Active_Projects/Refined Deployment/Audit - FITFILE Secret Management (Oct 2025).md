@@ -1,27 +1,27 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-14T11:49:19Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-22T11:09:14Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: ["secrets"]
 title: Audit - FITFILE Secret Management (Oct 2025)
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 This table outlines all the secrets deployed in the `HIE-PROD-34` environment, categorised by their respective deployment layers or namespaces.
 
 | Namespace/Layer  | Secret Name                  | Description                                                                                            |
-| :--------------- | :--------------------------- | :----------------------------------------------------------------------------------------------------- |
+|:--------------- |:--------------------------- |:----------------------------------------------------------------------------------------------------- |
 | **ffnode**       | `mongodb`                    | Contains the MongoDB root password and replica set key.                                                |
 |                  | `postgresql`                 | Stores the PostgreSQL administrator password.                                                          |
 |                  | `minio`                      | Holds the root user and password for the MinIO S3 service.                                             |

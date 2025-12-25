@@ -1,20 +1,20 @@
 ---
-aliases: [Action Bias]
-confidence: 0.9
+aliases: ["Action Bias"]
+confidence: "0.9"
 created: 2025-11-12T14:10:04Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-12T13:54:41Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To define the Action Dominance phenomenon."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - The Science of Taking Action Bridging the Knowledge-Action Gap]]"]
-status: seedling
-tags: [bias, cognition, psychology]
+source_of_truth: []
+status: "seedling"
+tags: ["bias", "topic/cognition", "topic/psychology"]
 title: Action Dominance is the Cognitive Bias Towards Action Over Inaction
-type: concept
-uid: 2025-11-12T14:10:04Z
-updated: 2025-11-12T14:10:04Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Action Dominance is the Cognitive Bias Towards Action Over Inaction

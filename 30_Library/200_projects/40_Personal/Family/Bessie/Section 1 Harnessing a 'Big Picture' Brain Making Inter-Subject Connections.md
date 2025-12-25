@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-20T06:41:19Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:29Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:25+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [curriculum, gcse, project/family/bessie]
+status: ""
+tags: ["curriculum", "gcse", "project/family/bessie"]
 title: "Section 1 Harnessing a 'Big Picture' Brain Making Inter-Subject Connections"
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 A key strength in Bessie’s learning profile is her ability to see the bigger picture and make connections between topics that others might not. This is a powerful asset that can transform her learning from a series of separate subjects into a rich, interconnected web of knowledge. By actively looking for these links, especially between subjects traditionally seen as opposites, we can deepen her understanding, boost her creativity, and make learning more engaging. This approach turns her entire GCSE curriculum into a single, coherent project.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-26T22:01:15Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:40Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:35+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [linux]
+status: ""
+tags: ["linux"]
 title: file discriptors
-type: documentation
+type: "documentation"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 In Linux, file descriptors are non-negative integers that serve as an abstraction to access input/output resources. These resources can be files, network connections, pipes, or devices. Think of a file descriptor as a handle or a pointer that a process uses to interact with these resources.
@@ -93,7 +93,7 @@ To make this more concrete, let's look at examples of what Linux treats as files
 Why "Everything is a File" is Powerful:
 - Simplicity and Uniformity: It provides a consistent and simple way to interact with diverse system resources. You don't need to learn different sets of commands or APIs for files, devices, and network connections. The basic file operations (open, read, write, close) work across all of them.
 - Flexibility and Redirection: This unified approach enables powerful features like I/O redirection. Because standard input, standard output, and standard error are file descriptors, you can easily redirect them to regular files, pipes, or sockets. This is fundamental to shell scripting and command-line workflows.
-- Abstraction and Modularity: It abstracts away the underlying hardware and implementation details. Programs don't need to know if they are reading from a disk file, a network socket, or a keyboard – they just read from a file descriptor. This makes programs more portable and modular.
+- Abstraction and Modularity: It abstracts away the underlying hardware and implementation details. Programs don't need to know if they are reading from a disk file, a network socket, or a keyboard–they just read from a file descriptor. This makes programs more portable and modular.
 Contrast with GUI Desktop Icons:
 Your analogy to desktop icons is helpful for visualizing regular files in a GUI environment. Icons are visual representations to help users interact with files in a user-friendly way. However, the "everything is a file" concept in Linux is a more fundamental, system-level abstraction.
 - GUI Icons are a representation for users. They are designed for visual interaction and ease of use.
@@ -121,6 +121,6 @@ Over time, the meaning of "file" broadened and became more abstract. Here's how 
 - Tool for Smoothing: Separately, but related in sound and possibly influencing the meaning, there's another "file" that refers to a metal tool used for smoothing or shaping materials. This "file" also comes from Latin, likely from "filum" again, perhaps suggesting the action of shaving off thin "threads" of material. While this meaning is distinct, the idea of orderliness and precision might have subtly reinforced the concept of a "file" as something organized and structured.
 "File" in the Computer Age:
 When computers were developed, the term "file" was a natural fit for describing organized collections of digital data. The concept of a structured, ordered collection of information, like papers in a physical file, translated well to digital files.
-- Digital Files as Organized Data: Computer files became the digital equivalent of paper files – containers for organized data, whether it be text, images, programs, or anything else. The "stream of bytes" concept we discussed earlier in the Linux context is a modern technical interpretation of this ordered collection.
+- Digital Files as Organized Data: Computer files became the digital equivalent of paper files–containers for organized data, whether it be text, images, programs, or anything else. The "stream of bytes" concept we discussed earlier in the Linux context is a modern technical interpretation of this ordered collection.
 In Summary:
 The word "file" journey is a progression from a literal "thread" to a more abstract concept of an ordered collection. It started with physical objects and evolved to describe both physical and digital collections of information. The core idea of order, arrangement in a line or sequence, and organized collection has been central to the meaning of "file" throughout its history. So, while a desktop icon might be a visual representation, the essence of a "file" is about structured, accessible information, whether on paper or in a computer.

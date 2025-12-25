@@ -1,21 +1,21 @@
 ---
-aliases: [Timeboxing Definition]
-confidence: 1
+aliases: ["Timeboxing Definition"]
+confidence: "1"
 created: 2025-11-01T21:00:00Z
-epistemic: definition
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:43:14Z
+epistemic: "definition"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the concept of timeboxing."
-review_interval: 90
-see_also: ['[[Timeboxing Creates Structure for Action]]']
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Timeboxing Creates Structure for Action.md"]
-status: evergreen
-tags: [definition, productivity, scheduling, time-management]
+review_interval: "90"
+see_also: ["[[Timeboxing Creates Structure for Action]]"]
+source_of_truth: []
+status: "evergreen"
+tags: ["definition", "scheduling", "time-management", "topic/productivity"]
 title: Timeboxing is Allocating Specific Time Slots for Specific Tasks
-type: concept
-uid: 20251101210000
-updated: 2025-11-01T21:00:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 Timeboxing is the practice of dedicating specific, fixed blocks of time to particular tasks or activities.

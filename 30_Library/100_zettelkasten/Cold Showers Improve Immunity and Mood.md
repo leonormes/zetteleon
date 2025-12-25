@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T12:02:02Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-30T10:39:29Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - Limitless Morning Routine]]"
 source_of_truth: []
-status: seedling
-tags: [cold-exposure, health, immunity, routine]
+status: "seedling"
+tags: ["cold-exposure", "health", "immunity", "routine"]
 title: Cold Showers Improve Immunity and Mood
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

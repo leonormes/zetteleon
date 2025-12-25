@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-30T12:05:06Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-30T10:49:50Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
-status: seedling
-tags: [chronobiology, energy-management, habits, topic/productivity]
+status: "seedling"
+tags: ["chronobiology", "energy-management", "topic/habits", "topic/productivity"]
 title: The Day Can Be Divided Into Three Phases for Habit Mapping
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

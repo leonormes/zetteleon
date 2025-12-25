@@ -1,20 +1,18 @@
 ---
-aliases: [Ego States, TA]
-confidence: 4/5
+aliases: ["Ego States", "TA"]
+confidence: "4/5"
 created: 2025-12-17T00:00:00Z
-epistemic: 
-last_reviewed: 2025-12-17
-modified: 2025-12-20T09:54:06Z
-purpose: To outline the Transactional Analysis model as a framework for understanding and improving professional communication by identifying and managing ego states.
-related-soTs: ["[[MOC - Assertiveness Through System Design]]"]
-review_interval: 
-see_also: []
-source: https://gemini.google.com/share/4fce9b7c136a
-source_of_truth: true
-status: stable
-tags: [communication, management, mental-model, psychology]
+epistemic: ""
+last_reviewed: "2025-12-17"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "To outline the Transactional Analysis model as a framework for understanding and improving professional communication by identifying and managing ego states."
+review_interval: "3 months"
+see_also: ["[[MOC - Assertiveness Through System Design]]"]
+source_of_truth: []
+status: "stable"
+tags: ["communication", "management", "mental-model", "topic/psychology"]
 title: SoT - Transactional Analysis in the Workplace
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---

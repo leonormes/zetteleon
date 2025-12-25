@@ -1,18 +1,18 @@
 ---
-aliases: [Time Timer Method, Visual Timers]
-confidence: 
+aliases: ["Time Timer Method", "Visual Timers"]
+confidence: "null"
 created: 2025-12-16T13:20:00Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:55:01Z
-purpose: To test if visualizing time passage reduces Time Blindness and panic.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16T00:00:00.000Z"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "To test if visualizing time passage reduces Time Blindness and panic."
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]", "[[MOC - Time Boxing for ADHD Brains]]"]
-source_of_truth: ["[[SoT - The Nature of Time and Perception]]"]
-status: pending
-tags: [experiment, focus, hypothesis, time-management, topic/health/adhd, topic/productivity]
+source_of_truth: []
+status: "pending"
+tags: ["experiment", "focus", "hypothesis", "time-management", "topic/health/adhd", "topic/productivity"]
 title: ADHD-Adapted Timeboxing
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
 ---

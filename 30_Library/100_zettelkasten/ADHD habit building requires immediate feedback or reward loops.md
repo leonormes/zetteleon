@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-29T16:40:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:36Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source: "[[MOC - ADHD Routine Building Strategies]]"
 source_of_truth: []
-status: seedling
-tags: [habits, reward-system, topic/health/adhd, topic/productivity]
+status: "seedling"
+tags: ["reward-system", "topic/habits", "topic/health/adhd", "topic/productivity"]
 title: ADHD habit building requires immediate feedback or reward loops
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

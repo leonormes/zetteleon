@@ -1,31 +1,23 @@
 ---
-aliases: [Breakdance Origins, Four Elements of Hip Hop, Hip Hop Culture SoT, Hip Hop History]
-confidence: 
+aliases: ["Breakdance Origins", "Four Elements of Hip Hop", "Hip Hop Culture SoT", "Hip Hop History"]
+confidence: ""
 created: 2025-12-12T00:00:00Z
-epistemic: 
-last-synthesis: 2025-12-12
-last_reviewed: 
-modified: 2025-12-19T11:16:41Z
-purpose: To serve as the definitive Source of Truth for the origins, cultural context, and evolution of Hip Hop culture and its four elements (DJing, MCing, Breaking, Graffiti).
-review_interval: 12 months
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:20+00:00
+purpose: "To serve as the definitive Source of Truth for the origins, cultural context, and evolution of Hip Hop culture and its four elements (DJing, MCing, Breaking, Graffiti)."
+review_interval: "12 months"
 see_also: ["[[Expressive Music Organically Builds Its Own Scene]]", "[[Music as Expression is Born From a Genuine Human Need]]"]
-source_of_truth: true
-status: stable
-tags: [art, culture, dance, hip_hop, history, music]
+source_of_truth: []
+status: "stable"
+tags: ["art", "culture", "dance", "hip_hop", "history", "music"]
 title: SoT - The Origins and Evolution of Hip Hop Culture
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Hip Hop** is a cultural movement that emerged in the 1970s South Bronx as a creative response to systemic neglect and urban decay. It is defined by **Four Core Elements**: DJing (Aural), MCing (Oral), B-Boying/Breaking (Physical), and Graffiti (Visual).
->
-> It functions not just as a genre, but as a mechanism for marginalized communities to reclaim space, identity, and power through the transformation of limited resources into high art.
-
----
+> **Hip Hop** is a cultural movement that emerged in the 1970s South Bronx as a creative response to systemic neglect and urban decay. It is defined by **Four Core Elements**: "DJing (Aural), MCing (Oral), B-Boying/Breaking (Physical), and Graffiti (Visual)."
 
 ## 2. The Cultural Crucible: The Burning Bronx (1970s)
 
@@ -83,7 +75,7 @@ Added later by Afrika Bambaataa. It represents the self-awareness of the culture
 The culture has traveled a trajectory from **Rejection** to **Dominance** to **Institutionalization**.
 
 | Era | State | Key Dynamic |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **1970s** | **Incubation** | Local, organic, live performance. Block parties. |
 | **1980s** | **Explosion** | "Rapper's Delight" commercializes Rap. Films (*Wild Style*) export the culture globally. |
 | **1990s** | **Diversification** | The "Golden Age." Fragmentation into Gangsta, Conscious, and Alternative sub-genres. |

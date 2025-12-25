@@ -1,20 +1,19 @@
 ---
-aliases: ["Heihō and Emotion", "Heijo-shin", "Musashi's Emotional Mastery", "The Void and Emotion"]
-confidence: 5/5
+aliases: ["Heih\\u014d and Emotion", "Heijo-shin", "Musashi's Emotional Mastery", "The Void and Emotion"]
+confidence: "5/5"
 created: 2025-09-07T15:32:45Z
-epistemic: philosophy
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:55Z
-purpose: To define Miyamoto Musashi's strategic approach to emotion, framing it not as something to be suppressed, but as a dynamic state of "Stillness in Motion" (Heijo-shin).
-related-soTs: ["[[SoT - Deep Learning & Mastery]]", "[[SoT - Mindfulness and Emotional Regulation]]", "[[SoT - The Metagame (Strategic Context)]]"]
-review_interval: 
+epistemic: "philosophy"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "To define Miyamoto Musashi's strategic approach to emotion, framing it not as something to be suppressed, but as a dynamic state of \\\"Stillness in Motion\\\" (Heijo-shin)."
+review_interval: ""
 see_also: ["[[Miyamoto Musashi]]", "[[SoT - Stoicism]]"]
-source_of_truth: true
-status: stable
+source_of_truth: []
+status: "stable"
 tags: ["emotional_regulation", "musashi", "philosophy", "stoicism", "strategy"]
 title: "SoT - Miyamoto Musashi's Philosophy on Mastering Emotions"
-type: SoT
-uid: 2025-12-16-MUSASHI-EMOTION
+type: "SoT"
+uid: 
 updated: 
 ---
 
@@ -61,7 +60,7 @@ In *The Book of Void*, Musashi describes the ultimate state as one free from con
 This note sits at the intersection of three Core Domains, serving as the bridge between **Cognition** and **Action**.
 
 | Domain | Application |
-| :--- | :--- |
+|:--- |:--- |
 | **Domain 2: The Engine** | **Emotional Regulation:** It provides the "Software" for managing [[SoT - ADHD Executive Dysfunction]]. The concept of *Heijo-shin* is a direct counter-measure to Emotional Dysregulation and RSD. |
 | **Domain 3: The Compass** | **Philosophy:** It aligns with Stoicism. It is the "Way" (Do) of living—accepting the world as it is ([[The External World is Neutral]]). |
 | **Domain 4: The Trade** | **Strategy/Mastery:** It applies to professional "combat" (coding, negotiation). Keeping the mind "ordinary" allows for access to complex skills under pressure. |

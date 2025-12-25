@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-09-05T06:22:44Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [attention, salience, topic/cognition, topic/cognition/mental-model]
+status: "null"
+tags: ["attention", "salience", "topic/cognition", "topic/cognition/mental-model"]
 title: Salience Determines What Information Enters Mental Models
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 The brain constantly filters sensory input to decide what is "salient"—what is important and worthy of attention. This filtering isn't a conscious choice but is determined by key factors:

@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-15T19:15:19Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-15T19:30:49Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: The sophistication is a bug not a feature
-type: 
+type: ""
 uid: 
 updated: 
 ---

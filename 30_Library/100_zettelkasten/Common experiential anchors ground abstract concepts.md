@@ -1,20 +1,20 @@
 ---
-aliases: [existential anchors, human commonalities, universal experiences]
-confidence: 0.8
+aliases: ["existential anchors", "human commonalities", "universal experiences"]
+confidence: "0.8"
 created: 2025-10-31T20:07:00Z
-epistemic: principle
-last_reviewed: 2025-10-31
-modified: 2025-10-31T13:11:03Z
+epistemic: "principle"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Describes how fundamental human experiences provide common ground for understanding"
-review_interval: 90
+review_interval: "90"
 see_also: ["Shared biological architecture enables communication"]
 source_of_truth: []
-status: seedling
-tags: [anthropology, communication, phenomenology]
+status: "seedling"
+tags: ["anthropology", "communication", "phenomenology"]
 title: Common experiential anchors ground abstract concepts
-type: concept
-uid: 2025-10-31T20:07:00Z
-updated: 2025-10-31T20:07:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Common Experiential Anchors Ground Abstract Concepts

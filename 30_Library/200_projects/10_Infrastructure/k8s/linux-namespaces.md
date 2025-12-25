@@ -1,39 +1,29 @@
 ---
 aliases: []
-confidence: 
+concepts: ["id: \"system-resources"]
+confidence: ""
 created: 2024-02-06T00:00:00Z
-epistemic: 
-exports:
-  - concept: namespace-isolation
-    type: derived
-    dependencies:
-      - concept: process-isolation
-        strength: 5
-      - concept: system-resources
-        strength: 4
-    validation_state: validated
+dependencies: ""
+epistemic: ""
+exports: ["concept: \"system-resources"]
 id: "20240206143000"
-imports:
-  - from: linux-core
-    concepts:
-      - id: process-isolation
-        type: foundational
-      - id: system-resources
-        type: implementation
-    validation_notes: Core Linux kernel documentation verified
-last_reviewed: 
-modified: 2025-12-13T11:39:42Z
-purpose: 
-review_interval: 
+imports: ["from: \"linux-core"]
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: active
+status: "active"
+strength: "4"
 tags: []
 title: linux-namespaces
-type: concept
+type: "concept"
 uid: 
 updated: 
-version:
+validation_notes: "Core Linux kernel documentation verified"
+validation_state: "validated"
+version: ""
 ---
 
 <!--content-block-start type="concept" id="user-namespace"-->

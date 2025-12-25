@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-02-07T12:57:55Z
-epistemic:
-last_reviewed:
-modified: 2025-12-12T18:18:31Z
-patterns:
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+patterns: ""
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [meta_framing]
+status: ""
+tags: ["meta_framing"]
 title: Meta Framing
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: ""
 ---
 
 Meta Framing helps to shine a light on our beliefs about beliefs so we can interrogate them and ultimately reveal how our mental models shape our perception and decision-making.

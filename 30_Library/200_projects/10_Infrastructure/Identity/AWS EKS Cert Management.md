@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-23T13:42:04Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:41+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: AWS EKS Cert Management
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **User:**
@@ -515,7 +515,7 @@ Here's a breakdown of what happens and why it's called "hair-pinning":
 
 router performs Network Address Translation (NAT) on the incoming request, just as it would for an external client. It translates the public IP to the internal IP of the server.
 
-5. **Loopback:** Instead of sending the traffic out to the internet and back in (which is what would happen if an *external* client made the request), the router "loops" the traffic back internally to the server. This is where the "hair-pin" analogy comes from – the traffic goes out to the router and then immediately "pins" back into the internal network.
+5. **Loopback:** Instead of sending the traffic out to the internet and back in (which is what would happen if an *external* client made the request), the router "loops" the traffic back internally to the server. This is where the "hair-pin" analogy comes from–the traffic goes out to the router and then immediately "pins" back into the internal network.
 6. **Server Response:** The server receives the request and sends its response back to the router.
 7. **Reverse NAT:** The router performs the reverse NAT translation, sending the response back to the original internal client.
 

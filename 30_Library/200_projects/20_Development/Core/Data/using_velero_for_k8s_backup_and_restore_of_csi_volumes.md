@@ -1,23 +1,23 @@
 ---
 aliases: []
-author:
-confidence: 
+author: ""
+confidence: ""
 created: 2025-02-07T12:57:56Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "https://blah.cloud/automation/using-velero-for-k8s-backup-and-restore-of-csi-volumes/"
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: using_velero_for_k8s_backup_and_restore_of_csi_volumes
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Using Velero for K8s Backup and Restore of CSI Volumes

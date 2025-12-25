@@ -1,20 +1,20 @@
 ---
-aliases: [Patternicity]
-confidence: 0.9
+aliases: ["Patternicity"]
+confidence: "0.9"
 created: 2025-11-01T12:00:03Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:43:59Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To define apophenia as the cognitive bias of seeing patterns in randomness."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[The Brain is a Pattern-Seeking Engine]]"]
-source_of_truth: ["[[MOC - Pattern - From Sensory Input to Meaning]]"]
-status: seedling
-tags: [apophenia, bias, cognition]
+source_of_truth: []
+status: "seedling"
+tags: ["apophenia", "bias", "topic/cognition"]
 title: Apophenia is the Tendency to Perceive Patterns in Random Data
-type: concept
-uid: 2025-11-01T12:00:03Z
-updated: 2025-11-01T12:00:03Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Apophenia is the Tendency to Perceive Patterns in Random Data

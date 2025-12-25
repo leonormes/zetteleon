@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T10:06:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "Explain how mnemonics aid memory through association."
-review_interval: 90
+review_interval: "90"
 see_also: ["Memory Enables Learning by Storing Experiences for Future Use.md"]
 source_of_truth: []
-status: seedling
-tags: [association, learning, memory]
+status: "seedling"
+tags: ["association", "learning", "memory"]
 title: Mnemonic Devices Create Associative Memory Hooks
-type: technique
+type: "technique"
 uid: 
 updated: 
 ---

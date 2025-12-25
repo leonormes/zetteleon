@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T11:22:00Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T11:22:00Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Explain understanding as information compression."
-review_interval: 90
+review_interval: "90"
 see_also: ["Higher Abstraction Levels Increase Breadth But Reduce Depth.md"]
 source_of_truth: []
-status: seedling
-tags: [cognition, memory]
+status: "seedling"
+tags: ["memory", "topic/cognition"]
 title: Understanding Compresses Information into Cognitive Chunks
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---
@@ -35,4 +35,4 @@ updated:
 
 ## Related Concepts
 
-[[Memory in learning]] — `applied-to` — Understanding reduces load on WM by creating chunks stored in LTM as schemas
+[[Memory in learning]]—`applied-to`—Understanding reduces load on WM by creating chunks stored in LTM as schemas

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:59:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [abstraction, models, science, topic/philosophy]
+status: "null"
+tags: ["abstraction", "models", "science", "topic/philosophy"]
 title: The Science of Modelling and Abstraction
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The concept of a "model" extends far beyond the mental models in our heads. The science of **modelling** is a fundamental practice across all scientific disciplines, and its core principle is **abstraction**.

@@ -1,23 +1,23 @@
 ---
-aliases: [MOC - Pattern Recognition]
-confidence:
+aliases: ["MOC - Pattern Recognition"]
+confidence: ""
 created: 2025-11-01T12:00:00Z
-criteria: Atomic notes must relate to the concept of pattern as a cognitive or mathematical phenomenon.
-epistemic:
-exclusions: Specific, deep mathematical proofs or detailed neuroanatomy.
-last_reviewed:
-modified: 2025-12-07T18:13:51Z
-purpose:
-review_interval:
-scope: The cognitive, evolutionary, and mathematical aspects of pattern recognition.
+criteria: "Atomic notes must relate to the concept of pattern as a cognitive or mathematical phenomenon."
+epistemic: ""
+exclusions: "Specific, deep mathematical proofs or detailed neuroanatomy."
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: ""
+scope: "The cognitive, evolutionary, and mathematical aspects of pattern recognition."
 see_also: []
 source_of_truth: []
-status:
-tags: [cognition, maths, pattern]
+status: ""
+tags: ["maths", "pattern", "topic/cognition"]
 title: MOC - Pattern - From Sensory Input to Meaning
-type: map
-uid: 2025-11-01T12:00:00Z
-updated: 2025-11-01T12:00:00Z
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - Pattern - From Sensory Input to Meaning

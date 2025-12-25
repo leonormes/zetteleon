@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-09-22T16:08:24Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:13Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:31+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/networking/dns]
+status: "null"
+tags: ["topic/technology/networking/dns"]
 title: Unified DNS Naming Policy
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 ## Unified DNS Naming Policy for FITFILE Deployments

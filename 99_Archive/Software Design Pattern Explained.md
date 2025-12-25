@@ -6,7 +6,7 @@ created: 2025-12-19T00:00:00Z
 description: "Created with Gemini"
 epistemic: 
 last_reviewed: 
-modified: 2025-12-19T09:34:56Z
+modified: 2025-12-25T11:40:19+00:00
 published:
 purpose: 
 review_interval: 
@@ -67,7 +67,7 @@ The video details four specific Monad implementations and the complexity they ab
   - *Abstraction:* Hides the manual concatenation of log arrays between function calls, allowing simple arithmetic functions to essentially "carry" a log history automatically \[[11:22](http://www.youtube.com/watch?v=C2w45qRc3aU&t=682)\].
 - **Option Monad (Maybe):**
   - *Context:* Missing values (`null` / `undefined`).
-  - *Abstraction:* Replaces defensive coding (guard clauses, `if != null`) with a pipeline that automatically short-circuits if a value is missing (`None`), effectively preventing runtime null pointer exceptions \[[06:08](http://www.youtube.com/watch?v=C2w45qRc3aU&t=368)\].
+  - *Abstraction:* Replaces defensive coding (guard clauses, `if!= null`) with a pipeline that automatically short-circuits if a value is missing (`None`), effectively preventing runtime null pointer exceptions \[[06:08](http://www.youtube.com/watch?v=C2w45qRc3aU&t=368)\].
 - **Future Monad (Promise):**
   - *Context:* Time-dependent availability (Asynchrony).
   - *Abstraction:* Encapsulates the callback hell and scheduling mechanisms. The user operates on the future value as if it were present, while the Monad handles the "when" \[[11:36](http://www.youtube.com/watch?v=C2w45qRc3aU&t=696)\].

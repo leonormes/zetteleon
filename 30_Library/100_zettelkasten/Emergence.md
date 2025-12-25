@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-26T09:53:43Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [complexity, emergence, systems-thinking]
+status: ""
+tags: ["complexity", "emergence", "topic/systems"]
 title: Emergence
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Emergence is a process where novel properties, systems, and patterns arise from the interactions of multiple, simpler components. Crucially, the properties of the emergent system are not present in its constituent parts.

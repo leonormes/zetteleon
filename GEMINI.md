@@ -4,7 +4,7 @@ confidence:
 created: 2025-07-08T12:32:39Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-20T09:54:02Z
+modified: 2025-12-25T11:40:18+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -20,6 +20,7 @@ updated:
 ## SYSTEM INSTRUCTIONS & TOOLING PROTOCOLS
 
 ### 1. Mandatory Tool Usage
+
 **STRICT RULE:** When interacting with any file, note, directory, or structure within this Obsidian vault, you **MUST** use the provided **Obsidian MCP Tool** (Model Context Protocol).
 
 - **Trigger:** Any user request involving "reading," "searching," "listing," "finding," or "summarizing" notes/files.

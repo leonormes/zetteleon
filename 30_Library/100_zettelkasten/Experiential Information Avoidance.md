@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-11T20:28:06Z
-creation_date: 2025-09-11
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+creation_date: "2025-09-11"
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [action, avoidance, fear, overthinking, topic/psychology]
+status: ""
+tags: ["action", "avoidance", "fear", "overthinking", "topic/psychology"]
 title: Experiential Information Avoidance
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Overthinkers often fear and actively avoid [[Type 2 Information is Experiential|experiential information]] because it involves risk, uncertainty, and potential emotional discomfort. This avoidance keeps them trapped in the theoretical safety of [[Type 1 Information is Theoretical|passive information consumption]].

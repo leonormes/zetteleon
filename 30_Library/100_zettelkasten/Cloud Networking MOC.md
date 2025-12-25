@@ -1,34 +1,50 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-24T14:25:58Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:37Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [moc, topic/technology/networking, topic/technology/networking/cloud-networking]
+status: "null"
+tags: ["moc", "topic/technology/networking", "topic/technology/networking/cloud-networking"]
 title: Cloud Networking MOC
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: "null"
 ---
 
 This Map of Content (MOC) serves as an entry point for various concepts and technologies related to networking in cloud environments.
 
 ## Core Concepts
 
-- What is a Virtual Private Cloud (VPC)
-- IP Addressing and CIDR
-- Network Address Translation (NAT)
-- AWS Availability Zones
-- High Availability Concepts
+...
+
+## Device Taxonomy
+
+### Data Path Devices (Forwarding)
+
+- [[Internet Gateway in AWS Networking|Internet Gateway]] - VPC edge.
+- [[NAT Gateways Enable Private Resources to Access Internet|NAT Gateway]] - Private egress.
+- [[What is an AWS Application Load Balancer (ALB)|Load Balancers]] - Traffic distribution.
+- [[Transit Gateway]] - Regional hub.
+- [[Content Delivery Network (CDN)]] - Edge caching.
+
+### Control & Inspection Path (Filtering)
+
+- [[Layer 3 Network Security Protects IP Routing and Forwarding|Firewalls]] - L3/L4 filtering.
+- [[Web Application Firewalls Protect Against Layer 7 Attacks|WAF]] - L7 application security.
+- [[DDoS Protection Service]] - Volumetric attack mitigation.
+- [[API Gateway]] - Request management and Auth.
+- [[DNS is a distributed database|DNS]] - Name resolution.
 
 ## AWS Networking
+
+...
 
 - [[AWS ALB Step-by-Step Tutorial MOC]]
 - [[What is an AWS Application Load Balancer (ALB)]]

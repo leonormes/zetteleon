@@ -1,10 +1,11 @@
 ---
 aliases: []
+AoL: Work
 confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-10T20:00:14Z
+modified: 2025-12-23T17:53:54Z
 purpose: To resolve issues with multi-arch docker images and define a strategy for selecting the correct architecture on import.
 review_interval:
 see_also: []

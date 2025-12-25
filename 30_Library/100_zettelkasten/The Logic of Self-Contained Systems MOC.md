@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-20T10:13:00Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:39Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [logic, perspective, systems-thinking, type/moc]
+status: "null"
+tags: ["logic", "perspective", "topic/systems"]
 title: The Logic of Self-Contained Systems MOC
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: "null"
 ---
 
 The behaviour of any given system can be understood as a three-stage process.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-30T08:20:51Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/cognition/mental-model, topic/learning, topic/maths]
+status: "null"
+tags: ["topic/cognition/mental-model", "topic/learning", "topic/maths"]
 title: Number As Symbol is a Flawed Initial Mental Model
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The common assumption that numbers are the symbols used to write them (e.g., '7') is a foundational mental model. It is an [[Effective Theory]] for counting and basic arithmetic with integers.

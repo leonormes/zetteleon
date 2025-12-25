@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-13T09:29:09Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [dns]
+status: ""
+tags: ["dns"]
 title: VPC DNS Configuration
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 - DNS Resolution and Hostnames: When you create a VPC, DNS resolution and DNS hostnames must be enabled. This is a prerequisite for EKS, and these features are enabled by default when you create a VPC using the AWS CLI. This ensures that instances within your VPC can resolve domain names.

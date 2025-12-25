@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:40:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [dynamic-secrets, secrets-management, security, Vault]
+status: ""
+tags: ["dynamic-secrets", "secrets-management", "security", "Vault"]
 title: Integrating Vault Secrets with Terraform Cloud
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 For managing secrets for non-cloud or custom systems within Terraform Cloud, integrating with a dedicated secrets management solution like HashiCorp Vault (or HCP Vault Secrets) is a recommended best practice. This extends the principle of [[Short-Lived Credentials Core Principle in Terraform Cloud|short-lived, ephemeral credentials]] to a wider range of services.

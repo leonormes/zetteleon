@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-29T05:01:21Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:14Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/cognition/mental-model]
+status: "null"
+tags: ["topic/cognition/mental-model"]
 title: Bug in the model
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 [[Flawed Mental Models Limit Mastery]]

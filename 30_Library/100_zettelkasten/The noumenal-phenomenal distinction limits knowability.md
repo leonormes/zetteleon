@@ -1,20 +1,20 @@
 ---
-aliases: [Kantian epistemology, noumenon vs phenomenon, thing-in-itself]
-confidence: 0.6
+aliases: ["Kantian epistemology", "noumenon vs phenomenon", "thing-in-itself"]
+confidence: "0.6"
 created: 2025-10-31T20:06:00Z
-epistemic: hypothesis
-last_reviewed: 2025-10-31
-modified: 2025-10-31T13:11:03Z
+epistemic: "hypothesis"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Philosophical position about the ontological status of meanings and concepts"
-review_interval: 90
+review_interval: "90"
 see_also: ["Ideas exist beyond linguistic expression"]
 source_of_truth: []
-status: seedling
-tags: [epistemology, Kant, limits-of-knowledge, philosophy]
+status: "seedling"
+tags: ["epistemology", "Kant", "limits-of-knowledge", "philosophy"]
 title: The noumenal-phenomenal distinction limits knowability
-type: concept
-uid: 2025-10-31T20:06:00Z
-updated: 2025-10-31T20:06:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Noumenal-phenomenal Distinction Limits Knowability

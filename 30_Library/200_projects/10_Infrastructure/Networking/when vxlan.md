@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-25T06:21:56Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [calico, networking]
+status: ""
+tags: ["calico", "topic/technology/networking"]
 title: when vxlan
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 I installed Calico cni. what is vxlan in Calico and when should I use it
@@ -45,7 +45,7 @@ Citations:
 
 [3] Calico CNI - Platform9 Docs <http://platform9.com/docs/kubernetes/networking-integration-with-calico>
 
-[4] What is VXLAN and How It is Used as an Overlay Network in ... <https://www.youtube.com/watch?v=WMLSD2y2Ig4>
+[4] What is VXLAN and How It is Used as an Overlay Network in... <https://www.youtube.com/watch?v=WMLSD2y2Ig4>
 
 [5] How Kubernetes Uses VXLAN for Overlay Networking - Support Tools <https://support.tools/training/networking/kubernetes-vxlan/>
 
@@ -78,7 +78,7 @@ Citations:
 
 [1] How Kubernetes Uses VXLAN for Overlay Networking - Support Tools <https://support.tools/training/networking/kubernetes-vxlan/>
 
-[2] What is VXLAN and How It is Used as an Overlay Network in ... <https://www.youtube.com/watch?v=WMLSD2y2Ig4>
+[2] What is VXLAN and How It is Used as an Overlay Network in... <https://www.youtube.com/watch?v=WMLSD2y2Ig4>
 
 [3] Extending Kubernetes Clusters with Cisco NX-OS VxLAN and Calico <https://www.cisco.com/c/en/us/td/docs/dcn/whitepapers/extending-kubernetes-clusters-with-nx-os-vxlan-and-calico.html>
 

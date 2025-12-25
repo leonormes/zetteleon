@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-07-01T12:05:33Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/networking]
+status: "null"
+tags: ["topic/technology/networking"]
 title: Kubernetes-Native Abstractions for Traffic Control
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Kubernetes offers several abstractions that simplify and standardize network management for developers, while providing administrators with powerful tools for traffic precision.

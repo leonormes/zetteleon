@@ -1,20 +1,20 @@
 ---
-aliases: [Songwriting Camps]
-confidence: 0.9
+aliases: ["Songwriting Camps"]
+confidence: "0.9"
 created: 2025-11-10T11:06:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T08:55:35Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To describe the creation process of commercial music."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Music as Expression vs Product]]"]
-status: seedling
-tags: [commerce, music, product, production]
+source_of_truth: []
+status: "seedling"
+tags: ["commerce", "music", "product", "production"]
 title: Commercial Music is Engineered for Mass Appeal by Specialist Teams
-type: concept
-uid: 2025-11-10T11:06:00Z
-updated: 2025-11-10T11:06:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Commercial Music is Engineered for Mass Appeal by Specialist Teams

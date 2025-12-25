@@ -1,20 +1,20 @@
 ---
 aliases: ["OS socket abstraction", "system calls for sockets"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T13:41:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:58Z
+epistemic: "fact"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "Explain the OS role in socket management and abstraction."
-review_interval: 90
+review_interval: "90"
 see_also: ["File Descriptor as OS Socket Handle.md", "Socket is a Software Endpoint for Network Communication.md"]
 source_of_truth: []
-status: seedling
-tags: [kernel, networking, operating-system, socket]
+status: "seedling"
+tags: ["kernel", "operating-system", "socket", "topic/technology/networking"]
 title: Operating System Manages Sockets via System Calls
-type: concept
-uid: 2025-10-31T13:41:00Z
-updated: 2025-10-31T13:41:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Operating System Manages Sockets via System Calls

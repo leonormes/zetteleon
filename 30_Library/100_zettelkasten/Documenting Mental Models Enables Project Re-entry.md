@@ -1,20 +1,20 @@
 ---
-aliases: [Mental Model Capture, Thought Process Documentation]
-confidence: 0.8
+aliases: ["Mental Model Capture", "Thought Process Documentation"]
+confidence: "0.8"
 created: 2025-10-30T15:00:39Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-30T15:36:29Z
+epistemic: "principle"
+last_reviewed: "2025-10-30"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To externalize and preserve mental models for future reference"
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [documentation, knowledge-capture, mental-models, project-continuity]
+status: "seedling"
+tags: ["documentation", "knowledge-capture", "mental-models", "project-continuity"]
 title: Documenting Mental Models Enables Project Re-entry
-type: strategy
-uid: 2025-10-30T15:00:39Z
-updated: 2025-10-30T15:00:39Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## Documenting Mental Models Enables Project Re-entry

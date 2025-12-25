@@ -4,13 +4,13 @@ confidence:
 created: 2025-11-12T15:00:09Z
 epistemic: NA
 last_reviewed:
-modified: 2025-12-08T00:30:39Z
+modified: 2025-12-25T11:40:20+00:00
 purpose: "A technique to free up working memory by offloading mental clutter."
 review_interval: 180
 see_also: []
 source_of_truth: []
 status: archived
-tags: [adhd, productivity, technique, working-memory]
+tags: [technique, topic/health/adhd, topic/productivity, working-memory]
 title: Brain Dumping Offloads Cognitive Load to an External System
 type: instructional
 uid: 2025-11-12T15:00:09Z

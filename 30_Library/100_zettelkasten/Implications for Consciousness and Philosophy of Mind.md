@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-31T16:07:23Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [consciousness, mental-representation, philosophy-of-mind, qualia]
+status: ""
+tags: ["consciousness", "mental-representation", "philosophy-of-mind", "qualia"]
 title: Implications for Consciousness and Philosophy of Mind
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The relationship between thought and language has profound implications for our understanding of consciousness and the philosophy of mind, challenging traditional views and opening new avenues of inquiry.

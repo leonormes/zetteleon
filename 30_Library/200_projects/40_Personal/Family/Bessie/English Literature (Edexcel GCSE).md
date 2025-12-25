@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-20T20:06:37Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: English Literature (Edexcel GCSE)
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 - Curriculum Content: Students will study a Shakespeare play, a 19th-century novel, a modern novel or play (published after 1914), and a collection of poetry. They will also analyze unseen poetry. The course aims to foster a love of reading and critical engagement with literary texts, analyzing language, form, and structure, and forming independent critical judgments.

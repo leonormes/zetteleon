@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-10-20T09:00:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-08T14:11:40Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [framework, growth, principles]
+status: ""
+tags: ["framework", "growth", "principles"]
 title: The 7 Habits - The Maturity Continuum
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: ""
 ---
 
 The 7 Habits of Highly Effective People provide a principle-centered framework for personal and interpersonal effectiveness. The habits are organized along a **Maturity Continuum**, moving from dependence to independence to interdependence.

@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-23T14:42:57Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:14Z
+modified: 2025-12-25T11:40:23+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -506,5 +506,5 @@ kubectl describe vaultauth default -n thehyve-mkuh
 
 ---
 
-**Last Updated:** 2025-10-23  
+**Last Updated:** 2025-10-23
 **Cluster:** fitfile-cloud-prod-1-aks-cluster

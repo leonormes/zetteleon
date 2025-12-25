@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-05-12T12:30:53Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T10:41:59Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/networking/dns]
+status: ""
+tags: ["topic/technology/networking/dns"]
 title: DNS is a distributed database
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 DNS is a simple idea but is made complicated by it being distributed and massive.

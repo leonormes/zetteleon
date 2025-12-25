@@ -1,21 +1,20 @@
 ---
-aliases: [Goal Attainment Architecture, The Compass Protocol, Value-Based Visioning, Vision Design]
-confidence: 5/5
-created: 2025-12-19T11:00:00Z
-epistemic: authoritative
-last_reviewed: 2025-12-19
-modified: 2025-12-19T10:21:48Z
-purpose: To define the architectural mechanics of "Visioning" and "Goal Setting" as a distinct pre-cursor to execution systems. It focuses on the "What" (Targeting) to enable the "How" (Process).
-related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - Values and Eudaimonia]]"]
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
-tags: [architecture, goals, nlp, psychology, strategy, vision]
+aliases: ["Goal Attainment Architecture", "The Compass Protocol", "Value-Based Visioning", "Vision Design"]
+confidence: "5/5"
+created: 2025-12-19T00:00:00Z
+epistemic: "authoritative"
+last_reviewed: "2025-12-19"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define the architectural mechanics of \\\"Visioning\\\" and \\\"Goal Setting\\\" as a distinct pre-cursor to execution systems. It focuses on the \\\"What\\\" (Targeting) to enable the \\\"How\\\" (Process)."
+review_interval: "1 year"
+see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - Values and Eudaimonia]]"]
+source_of_truth: []
+status: "stable"
+tags: ["architecture", "goals", "nlp", "strategy", "topic/psychology", "vision"]
 title: SoT - Goal Architecture (Vision and Alignment)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Definitive Statement
@@ -33,7 +32,7 @@ updated:
 Standard "Law of Attraction" or "Manifestation" techniques often fail because they violate cognitive mechanics.
 
 | Method | The Failure Mode (Cognitive Mechanics) |
-| :--- | :--- |
+|:--- |:--- |
 | **Vision Boards** | **External Reliance.** Uses borrowed imagery (internet photos) rather than internally generated concepts. Without a neural link to personal values, these images become background noise ("wallpaper"). |
 | **Affirmations** | **Cognitive Dissonance.** Repeating false statements ("I am rich") triggers internal conflict and resistance rather than belief change. |
 | **"Fake It..."** | **Inauthenticity.** Prevents the acknowledgment of beginner status, which is a prerequisite for genuine skill acquisition. Trains performance, not competence. |

@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T12:45:00Z
-epistemic: model
-last_reviewed: 
-modified: 2025-10-31T13:10:59Z
+epistemic: "model"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain dual cognitive processing modes."
-review_interval: 90
+review_interval: "90"
 see_also: ["Active Recall Strengthens Memory Through Retrieval Practice.md"]
 source_of_truth: []
-status: seedling
-tags: [learning, neuroscience]
+status: "seedling"
+tags: ["learning", "neuroscience"]
 title: Diffuse vs Focused Thinking Modes
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

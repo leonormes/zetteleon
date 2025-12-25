@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-30T12:00:03Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:56Z
-purpose: To test if semantic reframing can bypass executive dysfunction by shifting from obligation to purpose.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16T00:00:00.000Z"
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source: "[[MOC - ADHD Task Management]]"
-source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Values and Eudaimonia]]"]
-status: pending
-tags: [experiment, hypothesis, language, motivation, reframing, topic/health/adhd, topic/productivity]
+source_of_truth: []
+status: "pending"
+tags: ["experiment", "hypothesis", "language", "motivation", "reframing", "topic/health/adhd", "topic/productivity"]
 title: Reframing Language from Obligation to Purpose Boosts ADHD Task Initiation
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
 ---

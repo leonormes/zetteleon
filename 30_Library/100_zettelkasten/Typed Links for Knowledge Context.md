@@ -1,20 +1,20 @@
 ---
-aliases: [Relation Fields, Semantic Links]
-confidence: 0.92
+aliases: ["Relation Fields", "Semantic Links"]
+confidence: "0.92"
 created: 2025-10-31T08:19:00Z
-epistemic: principle
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:59Z
+epistemic: "principle"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Explains how typed links add semantic meaning to wikilinks, transforming them from simple references into meaningful relationships."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [linking, semantics, zettelkasten]
+status: "seedling"
+tags: ["linking", "semantics", "zettelkasten"]
 title: Typed Links for Knowledge Context
-type: concept
-uid: 2025-10-31T08:19:00Z
-updated: 2025-10-31T08:19:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Typed Links for Knowledge Context

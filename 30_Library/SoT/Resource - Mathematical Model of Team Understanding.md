@@ -1,42 +1,27 @@
 ---
-alias: [Knowledge Gap Analysis, Team Knowledge Model, The Set Theory of Teams]
 aliases: []
-confidence: 5/5
+confidence: "5/5"
 created: 2025-12-14T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:10Z
-purpose: A mathematical framework for quantifying team understanding, bias, and communication loss using set theory.
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:22+00:00
+purpose: "A mathematical framework for quantifying team understanding, bias, and communication loss using set theory."
+review_interval: "3 months"
 see_also: []
 source_of_truth: []
-status: stable
-tags: [mathematics, mental_model, systems_thinking, team_dynamics]
+status: "stable"
+tags: ["mathematics", "mental_model", "team_dynamics", "topic/systems"]
 title: Resource - Mathematical Model of Team Understanding
-type: Resource
+type: "Resource"
 uid: 
 updated: 
 ---
 
-## 🏗️ Runtime Protocol: Debugging the Team
-*Apply this model when a team feels "stuck" or "overconfident".*
+## 🏗️ Runtime Protocol: "Debugging the Team"
 
-**1. The "Synthesis Gap" Audit (Test $C$)
-
-- **Trigger:** After a complex explanation.
-- **Action:** Ask a team member: "To check my own clarity ($C$), can you repeat back what you think the constraints are?"
-- **Math:** If their $K_{Individual}$ $\neq$ your $K_{Individual}$, then $C < 1$.
-
-**2. The "Certainty Gap" Check (Test $P_{Team}$ vs $K_{Team}$)
-
-- **Trigger:** When the team says "We're 100% sure."
-- **Action:** "Let's assume we are wrong (Inversion). What is the one variable ($\\in U$) that we haven't discussed?"
-- **Math:** Exposing the **Knowledge Gap** ($U - K_{Union}$).
-
-**3. The "Diversity" Scan (Test Overlap)
-
-- **Trigger:** Everyone agrees too quickly.
-- **Action:** "We have high overlap ($\\cap$). Who has a $K_{Set}$ that is completely disjoint from ours (e.g., Legal, Customer Support)?"
+- **Trigger: "** Everyone agrees too quickly."
+- **Action: "** \"We have high overlap ($\\\\cap$). Who has a $K_{Set}$ that is completely disjoint from ours (e.g., Legal, Customer Support)?\""
+- **Math: "** Exposing the **Knowledge Gap** ($U - K_{Union}$)."
 
 ---
 
@@ -60,7 +45,7 @@ updated:
 
 > *The "Unknown Unknowns"*
 >
-> $$Gap_{Ext} = U - (K_A \cup K_B \cup ... K_n)$$
+> $$Gap_{Ext} = U - (K_A \cup K_B \cup... K_n)$$
 >
 > **Implication:** The team literally *cannot* solve this part of the problem. No amount of talking helps. You need Research (Expanding the Sets).
 

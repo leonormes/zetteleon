@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-08T19:17:33Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-21T20:27:57Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [pki, security]
+status: ""
+tags: ["pki", "security"]
 title: Trusted Certificate
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Let's break down the components involved in obtaining a trusted browser certificate.

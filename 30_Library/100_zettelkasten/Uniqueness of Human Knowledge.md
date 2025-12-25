@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-02-07T12:57:55Z
-epistemic: 
-ID: uniqueness_of_human_knowledge
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: "null"
+ID: "uniqueness_of_human_knowledge"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [knowledge, topic/pkm/zettelkasten]
+status: "null"
+tags: ["knowledge", "topic/pkm/zettelkasten"]
 title: Uniqueness of Human Knowledge
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 As far as we currently know, the vastness and nature of humanity's collective knowledge is unique within the observable universe.

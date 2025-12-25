@@ -1,20 +1,20 @@
 ---
-aliases: [Habits as Votes]
-confidence: 0.9
+aliases: ["Habits as Votes"]
+confidence: "0.9"
 created: 2025-11-10T12:07:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T10:00:47Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To provide a metaphor for how actions shape identity."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Small Habits Provide Evidence for a New Identity]]"]
-source_of_truth: ["[[MOC - The Relationship Between Habits and Identity]]"]
-status: seedling
-tags: [behavior-change, habits, identity, metaphor]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "identity", "metaphor", "topic/habits"]
 title: Every Action is a Vote for a Desired Identity
-type: concept
-uid: 2025-11-10T12:07:00Z
-updated: 2025-11-10T12:07:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Every Action is a Vote for a Desired Identity

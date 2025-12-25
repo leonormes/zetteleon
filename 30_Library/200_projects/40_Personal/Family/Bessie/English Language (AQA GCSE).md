@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-20T20:06:37Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: English Language (AQA GCSE)
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 - Curriculum Content: This course focuses on developing critical reading of diverse texts from the 19th, 20th, and 21st centuries, enabling students to interpret information, analyze language and structure, and compare ideas. Writing skills are developed for creative (descriptions, narratives) and transactional purposes (arguing, persuading, advising). Spoken language is assessed separately, focusing on clear presentation and effective use of Standard English.

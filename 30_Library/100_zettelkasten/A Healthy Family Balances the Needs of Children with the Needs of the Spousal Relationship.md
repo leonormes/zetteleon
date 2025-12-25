@@ -1,20 +1,20 @@
 ---
-aliases: [Balancing Family Needs]
-confidence: 0.9
+aliases: ["Balancing Family Needs"]
+confidence: "0.9"
 created: 2025-11-10T10:19:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To establish the need for balancing spousal and child needs."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [boundaries, family, needs, parenting, relationship]
+source_of_truth: []
+status: "seedling"
+tags: ["boundaries", "family", "needs", "parenting", "relationship"]
 title: A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship
-type: concept
-uid: 2025-11-10T10:19:00Z
-updated: 2025-11-10T10:19:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship

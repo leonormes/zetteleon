@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-14T11:31:42Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T20:28:44Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [project/family/bessie]
+status: ""
+tags: ["project/family/bessie"]
 title: More Questions For Bessie
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 To assess how consistently Bessie's teachers are implementing her support, drawing on her Individualized Education Program (IEP), Individual Support Plan (ISP), and related reports, here is a set of comprehensive questions you can ask Bessie. These questions aim to understand her day-to-day experience and the practical application of her support strategies:

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-12T11:08:55Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:22Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: The Handshake Puzzle
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Here is a practical activity that demonstrates the generative side of maths for a Year 8 pupil.
@@ -46,11 +46,11 @@ Now, collect the data for small groups:
 Record your findings in a simple table:
 
 | Number of People (p) | Total Handshakes (H) |
-| :------------------- | :------------------- |
+|:------------------- |:------------------- |
 | 2                    | 1                    |
 | 3                    | 3                    |
 | 4                    | 6                    |
-| 5                    | ?                    |
+| 5                    |?                    |
 
 Ask Bessie to work out the handshakes for **5 people** and add it to the table. (It will be $4 + 3 + 2 + 1 = 10$
 
@@ -66,7 +66,7 @@ Guide her thinking with these questions:
 
 - "If you have $p$ people in a room, how many people does each person shake hands with?" (Answer: $p - 1$ because you don't shake your own hand).
 - "So, if we multiply the number of people ($p$) by the number of handshakes each person makes ($p - 1$), what do we get?" (Answer: $p × (p - 1)$).
-- "Let's test that for 4 people: $4 × (4 - 1) = 4 × 3 = 12$ . But we only counted 6 handshakes. What do you notice about our answer?" (Answer: It's exactly double!).
+- "Let's test that for 4 people: $4 × (4 - 1) = 4 × 3 = 12$. But we only counted 6 handshakes. What do you notice about our answer?" (Answer: It's exactly double!).
 - "Why is it double?" (Answer: Because when we calculated it that way, we counted A shaking B's hand and B shaking A's hand as two separate handshakes, but they are the same one).
 - "So how can we correct our formula?" (Answer: Divide it by 2).
 

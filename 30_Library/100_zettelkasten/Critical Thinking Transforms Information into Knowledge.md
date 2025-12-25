@@ -1,20 +1,20 @@
 ---
-aliases: [Knowledge through Analysis]
-confidence: 0.9
+aliases: ["Knowledge through Analysis"]
+confidence: "0.9"
 created: 2025-11-01T12:10:03Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:55:39Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define the role of analysis and synthesis in knowledge creation."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[The Processing Is the Hard Part]]"]
-source_of_truth: ["[[MOC - From Information to Knowledge]]"]
-status: seedling
-tags: [critical-thinking, knowledge, learning]
+source_of_truth: []
+status: "seedling"
+tags: ["critical-thinking", "knowledge", "learning"]
 title: Critical Thinking Transforms Information into Knowledge
-type: concept
-uid: 2025-11-01T12:10:03Z
-updated: 2025-11-01T12:10:03Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Critical Thinking Transforms Information into Knowledge

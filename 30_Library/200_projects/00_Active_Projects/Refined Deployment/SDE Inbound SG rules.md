@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-03T12:51:42Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:07:36Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T18:35:17Z
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: [topic/technology/networking]
 title: SDE Inbound SG rules
-type: 
-uid: 
-updated: 
+type: ""
+uid:
+updated:
 ---
 
 I'll help you find all security group rules for inbound traffic and create a table to assess your security posture.

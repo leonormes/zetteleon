@@ -1,73 +1,61 @@
 ---
-aliases: [Epistemology MOC, Mental Models MOC, Perception MOC]
-confidence: 5/5
-created: 2025-12-13T09:10:00Z
-epistemic:
-last-reviewed: 2025-12-13
-last_reviewed: 
-modified: 2025-12-20T09:54:58Z
-purpose: A unified Map of Content for the philosophical and cognitive frameworks underpinning our understanding of reality, meaning, and the self.
-review_interval: 6 months
-see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - PRODOS (System Architecture)]]"]
+aliases: ["Epistemology MOC", "Mental Models Index"]
+confidence: "5/5"
+created: 2025-12-19T10:17:23Z
+epistemic: "reference"
+last_reviewed: "2025-12-23"
+modified: 2025-12-25T18:35:25Z
+purpose: "The central entry point for navigating epistemology, cognitive biases, and the architecture of mental models."
+review_interval: "6 months"
+see_also: ["[[MOC - Cognitive Biases]]", "[[MOC - ProdOS]]"]
 source_of_truth: []
-status: stable
-tags: [cognition, epistemology, mental_models, moc, philosophy, psychology]
+status: "stable"
+tags: ["epistemology", "index", "mental_models", "philosophy"]
 title: MOC - Epistemology & Mental Models
-type: map
-uid:
-updated:
+type: "map"
+uid: 
+updated: 
 ---
 
-## Overview
+## Epistemology & Mental Models - Map of Content
 
-This map organizes the Source of Truth (SoT) notes related to **Epistemology** (how we know what we know), **Cognition** (how we process reality), and **Meaning** (why we bother). It bridges the gap between abstract philosophy and practical cognitive performance.
-
----
-
-## 1. The Map vs. The Territory (Epistemology)
-
-Defining the limits of human understanding and the nature of our internal simulations.
-
-- **[[SoT - Reality, Models, and the Limits of Accuracy]]** — *The Foundation.* "The Map is Not the Territory." We never touch reality directly; we operate on internal models.
-- **[[SoT - The Thought-Language Continuum]]** — *The Medium.* How language compresses high-dimensional thought into low-dimensional symbols (The Translation Loss).
-- **[[SoT - Contextual Myopia and Self-Referential Meaning]]** — *The Distortion.* How our immediate environment creates a "Focus Bubble" that warps our sense of importance.
+> [!hint] Overview
+> This map organizes the principles of how we know what we know, the architectures of internal simulation, and the biases that distort our maps of reality.
 
 ---
 
-## 2. The Glitches in the System (Cognitive Biases)
+### 1. The Map vs. The Territory (Epistemology)
 
-Systematic errors in how we build and verify our maps.
+Defining the nature of internal models and the science of abstraction.
 
-- **[[SoT - Illusion of Explanatory Depth (IoED)]]** — *The Knowledge Gap.* Mistaking "Familiarity" (Recognition) for "Fluency" (Understanding).
-- **[[SoT - Dunning-Kruger Effect]]** — *The Competence Gap.* Lacking the metacognition to recognize one's own incompetence.
-- **[[SoT - Social Cognition & Self-Perception]]** — *The Social Gap.* Includes the **Spotlight Effect**. How we misread others and overestimate their scrutiny of us.
-
----
-
-## 3. The Search for Meaning (Existentialism)
-
-How we generate purpose in a silent universe.
-
-- **[[SoT - The Philosophy of the Absurd (Camus)]]** — *The Conflict.* Accepting the "Unreasonable Silence" of the world and choosing **Revolt** over Despair.
-- **[[SoT - Logotherapy and the Will to Meaning]]** — *The Drive.* Frankl's argument that Meaning is the primary human motivation, found through creation, experience, and attitude.
-- **[[SoT - The Internal World and the Need for Validation]]** — *The Vulnerability.* The "Soap Bubble Paradox" of creative ideas and the impact of Rejection Sensitive Dysphoria (RSD).
+- **[[SoT - Reality, Models, and the Limits of Accuracy]]**—*The Foundation.* All models are wrong, but some are useful. Abstraction levels and models as status signals.
+- **[[SoT - Naïve Realism]]**—*The Invisible Filter.* Why we believe our subjective interpretations are objective truths.
+- **[[SoT - The Thought-Language Continuum]]**—*The Medium.* How language serializes high-dimensional thought.
 
 ---
 
-## 4. The Architecture of Thought (Cognitive Science)
+### 2. The Engine of Simulation (Cognitive Science)
 
-How the brain processes and stores these models.
+How the brain builds, updates, and shares models.
 
-- **[[SoT - The Extended Mind]]** — *The Prosthesis.* Thinking extends beyond the brain into tools and environments.
-- **[[SoT - Working Memory & Schema Theory]]** — *The RAM.* The bottleneck of processing and how Schemas (Expertise) bypass it.
-- **[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]** — *The Strategy.* The difference between "Predictive" brains and "Iterative" brains (ADHD).
-- **[[SoT - Visualization as Cognitive Architecture]]** — *The Rendering Engine.* How the brain constructs reality via fractal logic and the "First Frame."
+- **[[SoT - Predictive Processing & The Bayesian Brain]]**—*The Mechanism.* Prediction error, dopamine rewards, and the ADHD novelty drive.
+- **[[SoT - The Cognitive-Emotional Loop]]**—*The Feedback.* How emotion shapes models and models trigger emotion.
+- **[[SoT - Shared Models & Mirror Neurons]]**—*The Bridge.* Biological mechanisms for sharing private internal states.
 
 ---
 
-## 5. The Toolkit (Cognitive Engineering)
+### 3. The Glitches (Cognitive Biases)
 
-Practical protocols for debugging and refactoring the mind.
+Systematic errors in map-building and verification.
 
-- **[[SoT - Cognitive Refactoring (Neural Debugging)]]** — *The Debugger.* How to use "Mapping Across" to hack belief structures (submodalities) and inject confidence.
-- **[[SoT - Journaling as Cognitive Engineering]]** — *The Log.* Using expressive writing to synchronize emotional and executive processing.
+- **[[SoT - Illusion of Explanatory Depth (IoED)]]**—*The Knowledge Gap.* Familiarity vs. Comprehension.
+- **[[SoT - Dunning-Kruger Effect]]**—*The Competence Gap.* Metacognitive blindness and calibration.
+- **[[SoT - Metacognitive Calibration]]**—*The Refiner.* Navigating self-doubt, Imposter Syndrome, and the Recursion Error.
+
+---
+
+### 4. Engineering & Refinement
+
+- **[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]**—*The Strategy.* Planners vs. Iterators (ADHD).
+- **[[SoT - Visualization as Cognitive Architecture]]**—*The Rendering.* Fractal logic and the "First Frame."
+- **[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]**—*The Processor.* Turning raw input into stable SoTs.

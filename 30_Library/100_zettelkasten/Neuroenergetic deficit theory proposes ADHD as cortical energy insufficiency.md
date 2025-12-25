@@ -1,20 +1,20 @@
 ---
 aliases: ["ADHD as energy deficiency", "Cortical energy deficit in ADHD"]
-confidence: 0.75
+confidence: "0.75"
 created: 2025-10-31T00:03:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:57Z
+epistemic: "fact"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "Explains the neurobiological theory that ADHD represents an energy-deficit syndrome affecting task initiation"
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]", "[[Task initiation requires prefrontal cortex activation and dopamine signaling]]"]
-source_of_truth: ["Russell's behavioral neuroenergetics theory", Todd and Botteron 2001]
-status: seedling
-tags: [adhd, metabolism, neurobiology]
+source_of_truth: []
+status: "seedling"
+tags: ["metabolism", "neurobiology", "topic/health/adhd"]
 title: Neuroenergetic deficit theory proposes ADHD as cortical energy insufficiency
-type: concept
-uid: 2025-10-31T00:03:00Z
-updated: 2025-10-31T00:03:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Neuroenergetic Deficit Theory Proposes ADHD as Cortical Energy Insufficiency

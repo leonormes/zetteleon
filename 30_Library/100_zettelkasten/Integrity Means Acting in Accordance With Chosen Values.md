@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-11-01T09:51:13Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-01T10:00:59Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [authenticity, identity, integrity, topic/philosophy, values]
+status: "seedling"
+tags: ["authenticity", "identity", "integrity", "topic/philosophy", "values"]
 title: Integrity Means Acting in Accordance With Chosen Values
-type: concept
+type: "concept"
 uid: 
-updated: 2025-11-01T09:51:13Z
+updated: 
 ---
 
 ## Integrity Means Acting in Accordance With Chosen Values

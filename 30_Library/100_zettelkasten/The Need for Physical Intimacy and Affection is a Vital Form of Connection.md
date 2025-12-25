@@ -1,20 +1,20 @@
 ---
-aliases: [Need for Physical Connection]
-confidence: 0.8
+aliases: ["Need for Physical Connection"]
+confidence: "0.8"
 created: 2025-11-10T10:08:00Z
-epistemic: hypothesis
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "hypothesis"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To identify the need for physical connection as a core human need in relationships."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [affection, intimacy, needs, relationship]
+source_of_truth: []
+status: "seedling"
+tags: ["affection", "intimacy", "needs", "relationship"]
 title: The Need for Physical Intimacy and Affection is a Vital Form of Connection
-type: concept
-uid: 2025-11-10T10:08:00Z
-updated: 2025-11-10T10:08:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Need for Physical Intimacy and Affection is a Vital Form of Connection

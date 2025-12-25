@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-18T10:32:02Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [cni, k8s, networking]
+status: ""
+tags: ["cni", "k8s", "topic/technology/networking"]
 title: Cluster Networking
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Networking is a central part of Kubernetes, but it can be challenging to understand exactly how it is expected to work. There are 4 distinct networking problems to address:

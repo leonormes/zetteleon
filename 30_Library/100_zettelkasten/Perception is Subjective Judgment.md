@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T10:22:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [judgment, perception, stoicism, subjectivity, topic/psychology]
+status: ""
+tags: ["judgment", "perception", "stoicism", "subjectivity", "topic/psychology"]
 title: Perception is Subjective Judgment
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Our perceptions are the root cause of many of our problems because they are not objective realities, but subjective judgments applied to events. We do not see the world as it is; we see it as we are.

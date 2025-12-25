@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-10T15:13:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-12-04T20:49:58Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To explain how the clarification process specifically benefits individuals with ADHD."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Executive Function Challenges are Central to ADHD]]"]
-source_of_truth: ["[[MOC - Atomic Actions and Next Actions Framework]]"]
-status: seedling
-tags: [adhd, executive-function, gtd, productivity, system-trust]
+source_of_truth: []
+status: "seedling"
+tags: ["executive-function", "gtd", "system-trust", "topic/health/adhd", "topic/productivity"]
 title: For ADHD The Clarification Process Externalizes Decision-Making and Builds System Trust
-type: concept
-uid: 2025-11-10T15:13:00Z
-updated: 2025-11-10T15:13:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 **Summary:** For individuals with ADHD, the clarification process externalizes decision-making, prevents paralysis by providing clear next steps, and builds system trust through consistent actionability.

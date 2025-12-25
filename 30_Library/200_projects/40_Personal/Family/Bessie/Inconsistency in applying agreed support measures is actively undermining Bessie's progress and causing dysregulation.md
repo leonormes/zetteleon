@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-21T10:04:21Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-21T10:04:36Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: "Inconsistency in applying agreed support measures is actively undermining Bessie's progress and causing dysregulation"
-type: 
+type: ""
 uid: 
 updated: 
 ---
@@ -37,7 +37,7 @@ The most urgent step is to address the repeated issues that negate positive prog
 2. **Reinforce Adherence to Existing Plans (IEP/Seating):**
 
     - The 'Pasted text' indicates issues in previous weeks, including the **IEP not being followed in Week 3** and **seating plans being changed without reason in Week 4**.
-    - Bessie’s plan specifically states that a trigger for dysregulation is "Where I sit in my lessons – check I am happy with my seat".
+    - Bessie’s plan specifically states that a trigger for dysregulation is "Where I sit in my lessons–check I am happy with my seat".
     - **Action:** Contact the key staff (e.g., Amy Burch SENCO or Michael Higginson HoY) to highlight these documented breaches and request confirmation that all staff involved are reading and actively following the established support plan, which includes printing materials on blue paper and printing off PowerPoints. Inconsistency in support implementation is detrimental to successful reintegration.
 3. **Ensure Consistent Key Adult Support:**
 
@@ -55,7 +55,7 @@ You should capitalize on the successes noted in the recent timeline.
     - **Action:** Strongly advocate for scheduled, consistent time dedicated to Art and Compass access in the updated transition plan, linking this directly to her successful regulation on Thursday.
 2. **Implement Positive Reflection Strategy:**
 
-    - The support plan outlines a specific role for parents: "Reminders of positives – support in writing a list of positives of the day, at the end of each day".
+    - The support plan outlines a specific role for parents: "Reminders of positives–support in writing a list of positives of the day, at the end of each day".
     - **Action:** Use the examples from Wednesday ("Great day") and the positive experience of Art on Thursday (before the hair issue) to actively practice this strategy and help Bessie reframe negative feelings, as suggested in generalized advice for challenging negative thoughts. Continuing to be supportive even when she is dysregulated is also specified as a parent/carer action.
 3. **Review Subject Choices:**
 

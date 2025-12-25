@@ -1,20 +1,20 @@
 ---
-aliases: [Three Layers of Behavior Change]
-confidence: 0.9
+aliases: ["Three Layers of Behavior Change"]
+confidence: "0.9"
 created: 2025-11-10T12:01:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T10:00:47Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To provide a model for understanding the different levels of behavior change."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - The Relationship Between Habits and Identity]]"]
-status: seedling
-tags: [behavior-change, habits, identity, model]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "identity", "model", "topic/habits"]
 title: Behavior Change Occurs on Three Layers Outcomes Process and Identity
-type: concept
-uid: 2025-11-10T12:01:00Z
-updated: 2025-11-10T12:01:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Behavior Change Occurs on Three Layers Outcomes Process and Identity

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-28T11:10:32Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:09:16Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [networking]
+status: ""
+tags: ["topic/technology/networking"]
 title: Network Defense   Module 5 Firewall Technologies, Module 6 Zone-Based Policy Firewalls
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## <https://youtube.com/watch?v=tDKgZNXcF7A>\&si=VmRFFpB06MCOtHTI
@@ -134,7 +134,7 @@ This configuration permits HTTP/HTTPS traffic initiated internally to flow to th
 ### Summary Table: Firewall Types
 
 | Firewall Type | OSI Layers | Main Features | Primary Use | Example Config Command |
-| :-- | :-- | :-- | :-- | :-- |
+|:-- |:-- |:-- |:-- |:-- |
 | Packet Filtering | 3,4 | Permit/Deny by IP/Port | Perimeter filtering | access-list (classic model)[^1_1] |
 | Stateful | 3,4,5 | Tracks connection state | Session management | ip inspect (classic)[^1_1] |
 | Application Gateway | 3,4,5,7 | Deep packet/app inspection (proxy) | Application filtering | match protocol (ZPF)[^1_1] |

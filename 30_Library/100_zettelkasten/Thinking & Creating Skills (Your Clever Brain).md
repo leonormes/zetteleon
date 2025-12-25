@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-10T10:12:15Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Thinking & Creating Skills (Your Clever Brain)
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 *These are the tools your brain uses to learn, solve problems, and imagine new things.*

@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-12-04T12:23:40Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-04T13:28:05Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Stage 3 Understand (The Writing to Learn Layer)
-type: 
+type: ""
 uid: 
 updated: 
 ---
@@ -23,11 +23,11 @@ With the idea now expressed clearly, you can step back and understand it for the
 
 **The Method: Active Reflection**
 
-1. **Read the Clarified Note**: Read the note from Stage 2 as if you were encountering the idea for the first time.  
-2. **Ask Key Questions**:  
-   - What is the single most important point this note makes?  
-   - What do I know now that I didn't know before I wrote this?  
-   - What new questions does this note raise?  
+1. **Read the Clarified Note**: Read the note from Stage 2 as if you were encountering the idea for the first time.
+2. **Ask Key Questions**:
+   - What is the single most important point this note makes?
+   - What do I know now that I didn't know before I wrote this?
+   - What new questions does this note raise?
    - What surprised me during this process?
 
 **Outcome**: A conscious understanding of the core insight you have just unearthed. You have moved from a vague feeling of profundity to an articulated piece of knowledge.

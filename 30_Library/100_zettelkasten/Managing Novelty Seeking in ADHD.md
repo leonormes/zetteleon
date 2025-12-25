@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-25T14:24:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:38Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [self-management, topic/health/adhd, topic/productivity]
+status: "null"
+tags: ["self-management", "topic/health/adhd", "topic/productivity"]
 title: Managing Novelty Seeking in ADHD
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Understanding the drive for [[Novelty Seeking]] is the first step toward managing it effectively. The goal is not to eliminate the trait, but to channel it productively.

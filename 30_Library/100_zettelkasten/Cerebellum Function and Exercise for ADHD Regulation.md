@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:19:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [cerebellum, emotional-regulation, exercise, focus, neuroscience, topic/health/adhd]
+status: ""
+tags: ["cerebellum", "emotional-regulation", "exercise", "focus", "neuroscience", "topic/health/adhd"]
 title: Cerebellum Function and Exercise for ADHD Regulation
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The cerebellum, traditionally known for its role in motor control and coordination, is increasingly recognized for its significant involvement in emotional and cognitive stability. In the context of Attention-Deficit/Hyperactivity Disorder (ADHD), an under-stimulated or less efficient cerebellum can contribute to the emotional and attentional fluctuations commonly observed.

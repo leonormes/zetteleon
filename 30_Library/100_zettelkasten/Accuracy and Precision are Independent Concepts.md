@@ -1,21 +1,21 @@
 ---
-aliases: [Accuracy vs Precision]
-confidence: 
+aliases: ["Accuracy vs Precision"]
+confidence: ""
 created: 2025-07-21T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Accuracy and Precision are Independent Concepts
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Accuracy and precision are two independent concepts in measurement. A set of measurements can be one without the other, though the ideal is to be both accurate and precise.

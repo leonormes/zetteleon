@@ -1,20 +1,20 @@
 ---
-aliases: [Config Kernel, Minimal Config Input]
-confidence: 0.8
+aliases: ["Config Kernel", "Minimal Config Input"]
+confidence: "0.8"
 created: 2025-01-15T10:01:00Z
-epistemic: fact
-last_reviewed: 2025-01-15
-modified: 2025-11-12T14:24:42Z
-purpose: Minimal declarative input set for infrastructure deployments
-review_interval: 90
+epistemic: "fact"
+last_reviewed: "2025-01-15"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "Minimal declarative input set for infrastructure deployments"
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [configuration, declarative, infrastructure]
+status: "seedling"
+tags: ["configuration", "declarative", "infrastructure"]
 title: Configuration Kernel
-type: concept
-uid: 2025-01-15T10:01:00Z
-updated: 2025-01-15T10:01:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Configuration Kernel

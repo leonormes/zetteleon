@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-08-22T09:57:05Z
-epistemic:
-last_reviewed:
-modified: 2025-11-03T13:48:19Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:32+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [topic/technology/networking/cloud-networking]
+status: "null"
+tags: ["topic/technology/networking/cloud-networking"]
 title: Nginx Ingress Controller Configuration
-type:
-uid:
-updated:
-version:
+type: "null"
+uid: 
+updated: 
+version: "null"
 ---
 
 The nginx ingress controller is **not directly configured within the helm chart deployment repository**. Instead, it's deployed and managed by the **private_platform_template** infrastructure. Here's where it's configured:

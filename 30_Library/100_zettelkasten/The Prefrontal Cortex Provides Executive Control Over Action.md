@@ -1,20 +1,20 @@
 ---
-aliases: [PFC]
-confidence: 0.9
+aliases: ["PFC"]
+confidence: "0.9"
 created: 2025-11-12T14:10:01Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-12T13:54:40Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the role of the Prefrontal Cortex in executive function."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]]"]
-source_of_truth: ["[[MOC - The Science of Taking Action Bridging the Knowledge-Action Gap]]"]
-status: seedling
-tags: [brain, executive-function, neuroscience]
+source_of_truth: []
+status: "seedling"
+tags: ["brain", "executive-function", "neuroscience"]
 title: The Prefrontal Cortex Provides Executive Control Over Action
-type: concept
-uid: 2025-11-12T14:10:01Z
-updated: 2025-11-12T14:10:01Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Prefrontal Cortex Provides Executive Control Over Action

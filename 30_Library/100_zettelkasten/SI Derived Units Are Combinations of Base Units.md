@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-01T09:21:45Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: SI Derived Units Are Combinations of Base Units
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Derived units** are formed by combining the [[The Seven SI Base Units|seven SI base units]] through multiplication and division. There are an unlimited number of possible derived units.

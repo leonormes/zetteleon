@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:56Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:51Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [ff_deploy]
+status: ""
+tags: ["ff_deploy"]
 title: Azure Customer Checklist
-type: instruction
+type: "instruction"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## Azure Customer Preparation Checklist

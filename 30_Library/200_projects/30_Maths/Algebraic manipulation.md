@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-10T16:52:19Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T20:28:11Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Algebraic Manipulation
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Algebraic manipulation is a cornerstone of mathematics, but it's often taught in a way that feels abstract and pointless. The key is to reframe it from a set of boring rules into what it actually is: a powerful tool for solving puzzles and a secret language for describing how the world works.
@@ -36,7 +36,7 @@ Algebraic manipulation is simply keeping those scales balanced. Whatever you do 
 
 The letter in an equation (usually 'x') is like a mystery box. Your mission is to figure out what's inside the box. To do this, you use the 'Balanced Scales' rule to cleverly move everything else away from the box until it's sitting on its own on one side of the scales. What's on the other side is your answer.
 
-So, when we "manipulate" an equation, we're not just moving symbols around – we're logically tidying up the scales to solve a mystery.
+So, when we "manipulate" an equation, we're not just moving symbols around–we're logically tidying up the scales to solve a mystery.
 
 ## Fun and Practical Ways for Bessie to Practise
 
@@ -139,7 +139,7 @@ An expression like $3x + 2$ is a mathematical phrase. It doesn't state a complet
 
 ## Why 'Simplifying' is the School Default
 
-You are spot on. In lessons, when pupils are asked to complete $2x + 5 + x =$ , the unwritten rule is to provide the simplest possible equivalent expression, which is $3x + 5$.
+You are spot on. In lessons, when pupils are asked to complete $2x + 5 + x =$, the unwritten rule is to provide the simplest possible equivalent expression, which is $3x + 5$.
 
 The reason for this is practical: simplifying an expression is like tidying up your maths. It's much easier to work with $3x + 5$ than $2x + 5 + x$, just as it's easier to find your socks in a tidy drawer. While not explicitly stated, the goal of that task is to practise the skill of simplification.
 

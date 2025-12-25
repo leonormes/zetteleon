@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T08:05:01Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [consumerism, inaction, self_help, topic/psychology]
+status: "null"
+tags: ["consumerism", "inaction", "self_help", "topic/psychology"]
 title: The Self-Help Industry Feeds the Strategist
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The self-help industry, including books, courses, and how-to videos, often worsens [[The Intelligence Trap - Strategist vs Performer]]. Most of these resources are designed to appeal to and feed the "Strategist" persona, not train the "Performer."

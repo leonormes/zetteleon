@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:42:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/cognition/thinking, topic/learning, topic/pkm, topic/pkm/zettelkasten, topic/writing, topic/writing/zinsser, writing-process]
+status: "null"
+tags: ["topic/cognition/thinking", "topic/learning", "topic/pkm", "topic/pkm/zettelkasten", "topic/writing", "topic/writing/zinsser", "writing-process"]
 title: Exploratory vs Explanatory Writing
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 William Zinsser, in "Writing to Learn," provides a crucial distinction between two modes of writing that is essential for using a PKM as a thinking tool.

@@ -1,20 +1,20 @@
 ---
-aliases: [Growth Zone, Optimal Challenge Zone]
-confidence: 0.8
+aliases: ["Growth Zone", "Optimal Challenge Zone"]
+confidence: "0.8"
 created: 2025-10-30T15:04:20Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-31T09:31:40Z
+epistemic: "principle"
+last_reviewed: "2025-10-30T00:00:00.000Z"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the optimal boundary for sustainable behavioral change"
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [growth, habit-formation, learning-theory, topic/health/adhd]
+status: "seedling"
+tags: ["growth", "learning-theory", "topic/habits", "topic/health/adhd"]
 title: The Proximal Zone of Development for Habit Change
-type: concept
-uid: 2025-10-30T15:04:20Z
-updated: 2025-10-30T15:04:20Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Proximal Zone of Development for Habit Change

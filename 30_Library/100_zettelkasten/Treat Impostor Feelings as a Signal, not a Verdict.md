@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-19T23:58:53Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [emotional-regulation, topic/health/adhd, topic/pkm]
+status: ""
+tags: ["emotional-regulation", "topic/health/adhd", "topic/pkm"]
 title: Treat Impostor Feelings as a Signal, not a Verdict
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 - Name the pattern: impostor syndrome spikes when WM is saturated and the problem is under-specified. Tighten the task and externalize the plan; the feeling typically drops.

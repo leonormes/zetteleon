@@ -1,19 +1,19 @@
 ---
-aliases: [ADHD is not laziness]
-confidence: 
+aliases: ["ADHD is not laziness"]
+confidence: "null"
 created: 2025-10-30T12:03:00Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source: "[[MOC - The Neurological Basis of Task Initiation Difficulty in ADHD]]"
 source_of_truth: []
-status: seedling
-tags: [laziness, mindset, motivation, topic/health/adhd]
+status: "seedling"
+tags: ["laziness", "mindset", "motivation", "topic/health/adhd"]
 title: ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

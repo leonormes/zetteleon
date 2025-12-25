@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-26T09:53:43Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [causation, purpose, topic/philosophy]
+status: "null"
+tags: ["causation", "purpose", "topic/philosophy"]
 title: Teleology
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Teleology is the philosophical idea that things have an inherent purpose, goal, or final cause (telos). It suggests that natural phenomena exist or occur for the sake of some end or purpose.

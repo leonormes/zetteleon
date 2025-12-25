@@ -1,21 +1,21 @@
 ---
-aliases: [GTD Motion vs Action, GTD Workflow Stages]
-confidence: 0.9
+aliases: ["GTD Motion vs Action", "GTD Workflow Stages"]
+confidence: "0.9"
 created: 2025-11-01T20:22:24Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:26:28Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain how the GTD methodology distinguishes between motion (planning) and action (doing) phases."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Action Defined as Behavior That Produces Tangible Outcomes]]", "[[Motion Defined as Preparatory Activity Without Direct Outcomes]]", "[[Next Action is the Immediate Physical Step Forward]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/LLMPKM/motion_vs_action.md"]
-status: seedling
-tags: [action, gtd, planning, productivity]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "gtd", "planning", "topic/productivity"]
 title: GTD Workflow Separates Motion and Action Phases
-type: concept
-uid: 2025-11-01T20:22:24Z
-updated: 2025-11-01T20:22:24Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** The Getting Things Done (GTD) methodology explicitly separates motion-oriented activities (preparation) from action-oriented activities (execution), providing a structured framework for moving from planning to doing.

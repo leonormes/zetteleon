@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-26T09:27:12Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [information]
+status: ""
+tags: ["information"]
 title: Kolmogorov Complexity - Information as Compressibility
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 An alternative mathematical framework that aligns more closely with the intuitive idea of [[Information as Perceivable Pattern]] is Algorithmic Information Theory, specifically Kolmogorov Complexity.

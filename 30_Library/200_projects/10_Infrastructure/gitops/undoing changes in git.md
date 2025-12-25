@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-18T12:03:49Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:51Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:36+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [data-centric, git]
+status: ""
+tags: ["data-centric", "git"]
 title: undoing changes in git
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## Understanding the Problem
@@ -329,7 +329,7 @@ done | sort -u
   - This lists all the commit hashes that have modified the specified file.
   - `--pretty=format:"%H"` formats the output to show only the commit hashes.
   - `-- <file_path>` limits the log to commits that involve the specified file.
-- `while read commit_hash; do ... done`:
+- `while read commit_hash; do... done`:
   - This loop iterates through each commit hash.
 - `git ls-tree $commit_hash <file_path> | awk '{print $3}'`:
   - `git ls-tree` lists the contents of a tree object (in this case, the tree associated with the commit).

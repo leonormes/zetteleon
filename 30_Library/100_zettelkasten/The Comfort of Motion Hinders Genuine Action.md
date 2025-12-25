@@ -1,21 +1,21 @@
 ---
-aliases: [Comfort of Motion]
-confidence: 1
+aliases: ["Comfort of Motion"]
+confidence: "1"
 created: 2025-11-01T20:31:00Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:35:44Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To explain how the comfort of motion hinders genuine, uncomfortable action."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Growth Happens Outside the Comfort Zone]]", "[[Motion Can Be a Procrastination Delay Tactic]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Motion Can Be a Procrastination Delay Tactic.md"]
-status: evergreen
-tags: [comfort-zone, procrastination, productivity, psychology]
+source_of_truth: []
+status: "evergreen"
+tags: ["comfort-zone", "procrastination", "topic/productivity", "topic/psychology"]
 title: The Comfort of Motion Hinders Genuine Action
-type: concept
-uid: 20251101203100
-updated: 2025-11-01T20:31:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 Motion provides a sense of accomplishment without requiring the discomfort of genuine action. It allows individuals to feel productive while staying within their comfort zone.

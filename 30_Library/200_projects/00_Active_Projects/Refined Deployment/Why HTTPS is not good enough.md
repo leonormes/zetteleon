@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-07-23T02:43:05Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:13Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:31+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [security, topic/technology/networking]
+status: "null"
+tags: ["security", "topic/technology/networking"]
 title: Why HTTPS is not good enough
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 This is a critical and recurring question in security architecture. Your instinct is absolutely correct, especially given the context of protecting patient data. Relying solely on HTTPS over the public internet is not sufficient, and the effort you've put into creating private networks is the foundation of a modern, defense-in-depth security strategy.

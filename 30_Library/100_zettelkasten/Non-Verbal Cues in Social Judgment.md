@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-31T09:20:29Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:41Z
-purpose: Explain the primary non-verbal channels humans use to form rapid social judgments.
-review_interval: 
+epistemic: "fact"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [topic/social-cognition, topic/social-perception]
+status: "seedling"
+tags: ["topic/social-cognition", "topic/social-perception"]
 title: Non-Verbal Cues in Social Judgment
-type: concept
-uid: sp-nonverbal-cues
-updated: 2025-10-31T09:20:29Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Non-Verbal Cues in Social Judgment

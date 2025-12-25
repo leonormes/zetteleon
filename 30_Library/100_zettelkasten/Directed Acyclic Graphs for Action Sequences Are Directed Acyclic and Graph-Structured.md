@@ -1,20 +1,20 @@
 ---
-aliases: [DAG Properties]
-confidence: 0.9
+aliases: ["DAG Properties"]
+confidence: "0.9"
 created: 2025-11-10T15:08:00Z
-epistemic: definition
-last_reviewed:
-modified: 2025-11-10T13:33:51Z
+epistemic: "definition"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define the properties of Directed Acyclic Graphs (DAGs) in the context of action sequences."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Action Sequences Form Directed Acyclic Graphs]]"]
-source_of_truth: ["[[MOC - Atomic Actions and Next Actions Framework]]"]
-status: seedling
-tags: [definition, graph-theory, productivity, workflow]
+source_of_truth: []
+status: "seedling"
+tags: ["definition", "graph-theory", "topic/productivity", "workflow"]
 title: Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured
-type: concept
-uid: 2025-11-10T15:08:00Z
-updated: 2025-11-10T15:08:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured

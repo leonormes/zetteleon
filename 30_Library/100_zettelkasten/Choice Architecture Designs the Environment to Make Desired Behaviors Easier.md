@@ -1,20 +1,20 @@
 ---
-aliases: [Choice Architecture, Nudge Theory]
-confidence: 0.9
+aliases: ["Choice Architecture", "Nudge Theory"]
+confidence: "0.9"
 created: 2025-11-10T17:13:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T15:41:37Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To define Choice Architecture as a tool for influencing behavior."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - The Science and Philosophy of Taking Action]]"]
-status: seedling
-tags: [behavior-change, design, environment, nudge, psychology]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "design", "environment", "nudge", "topic/psychology"]
 title: Choice Architecture Designs the Environment to Make Desired Behaviors Easier
-type: concept
-uid: 2025-11-10T17:13:00Z
-updated: 2025-11-10T17:13:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Choice Architecture Designs the Environment to Make Desired Behaviors Easier

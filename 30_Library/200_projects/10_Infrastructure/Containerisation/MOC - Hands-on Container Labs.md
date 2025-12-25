@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-26T17:16:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-08T11:11:52Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:43+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [debugging, hands-on, lab, topic/technology/containers, tutorial]
+status: "null"
+tags: ["debugging", "hands-on", "lab", "topic/technology/containers", "tutorial"]
 title: MOC - Hands-on Container Labs
-type: map
-uid:
-updated:
-version: 1
+type: "map"
+uid: 
+updated: 
+version: "1"
 ---
 
 ## Summary

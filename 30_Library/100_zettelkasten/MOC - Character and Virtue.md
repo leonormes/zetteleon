@@ -1,21 +1,21 @@
 ---
-aliases: [24 Character Strengths, Character and Virtue MOC, VIA Character Strengths]
-confidence: 1
+aliases: ["24 Character Strengths", "Character and Virtue MOC", "VIA Character Strengths"]
+confidence: "1"
 created: 2025-07-16T17:30:02Z
-epistemic: structural
-last_reviewed: 2025-11-02
-modified: 2025-12-10T20:00:09Z
-purpose: To serve as a central map for understanding character, virtue, and the 24 strengths identified by the VIA Institute.
-review_interval: 180
+epistemic: "structural"
+last_reviewed: "2025-11-02"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "To serve as a central map for understanding character, virtue, and the 24 strengths identified by the VIA Institute."
+review_interval: "180"
 see_also: []
-source_of_truth: [https://www.viacharacter.org/]
-status: evergreen
-tags: [character, positive-psychology, virtue]
+source_of_truth: []
+status: "evergreen"
+tags: ["character", "topic/psychology", "virtue"]
 title: MOC - Character and Virtue
-type: map
-uid: 20251102124500
-updated:
-version: 2
+type: "map"
+uid: 
+updated: 
+version: "2"
 ---
 
 This map provides a framework for understanding character through the lens of positive psychology, primarily using the **VIA (Values in Action) Classification of Character Strengths**.

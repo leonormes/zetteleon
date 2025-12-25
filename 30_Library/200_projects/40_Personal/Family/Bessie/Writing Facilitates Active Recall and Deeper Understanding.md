@@ -1,21 +1,21 @@
 ---
-aliases: [Writing for Retrieval Practice]
-confidence: 
+aliases: ["Writing for Retrieval Practice"]
+confidence: ""
 created: 2025-07-18T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:29Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Writing Facilitates Active Recall and Deeper Understanding
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Writing is a powerful tool for enhancing long-term memory through two key processes: active recall and elaboration.

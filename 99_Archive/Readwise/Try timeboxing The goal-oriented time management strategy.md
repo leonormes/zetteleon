@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T15:49:34Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-12T16:07:53Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,6 +22,7 @@ updated:
 ![rw-book-cover](https://assets.asana.biz/m/3ee135da48d9300c/webimage-article-productivity-what-is-timeboxing-2x.jpg)
 
 ### Metadata
+
 - Author: [[Asana]]
 - Full Title: Try timeboxing: The goal-oriented time management strategy
 - Category: #articles
@@ -34,6 +35,7 @@ updated:
 [[Full Document Contents/Try timeboxing The goal-oriented time management strategy.md|See full document content →]]
 
 ### Highlights
+
 - Before creating a timebox, you first need to decide if it’s a hard or a soft timebox. A hard timebox means your task or activity must stop when your timebox is up—even if you haven’t completed the task. Creating hard timeboxes can be particularly helpful if you're prone to perfectionism and you frequently toil over work that’s already been completed. In a team setting, creating a hard timebox can ensure you address every task in your backlog—similarly, during a meeting, using hard timeboxes can help you hit every item on your agenda. ([View Highlight](https://read.readwise.io/read/01jwcc26xyany9jg8krh4v2s92))
 - A soft timebox, on the other hand, is more flexible. In a soft timebox, the end of the timebox is a suggestion that you should wrap up what you’re doing and move on to the next task. You can use soft timeboxes for complex work, especially if you aren’t sure exactly how long the task will take when you get started. As a team, creating soft timeboxes gives your collaborators more flexibility while still helping everyone align on when work should be completed. During a meeting, using soft timeboxes can help you stay on track without interrupting the conversation, the way a hard timebox might. ([View Highlight](https://read.readwise.io/read/01jwcc27z4p01x3zy1gzyptnqy))
 - Deciding whether to set a hard or soft timebox depends on what your work goals are—and you don’t just have to use one or another. At the beginning of each timebox you set, decide if it’s a hard or soft timebox, and hold yourself to that expectation accordingly. ([View Highlight](https://read.readwise.io/read/01jwcc2f2vatc8dkem8hnn34ht))

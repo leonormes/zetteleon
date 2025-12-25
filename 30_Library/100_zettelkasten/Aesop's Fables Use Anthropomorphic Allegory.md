@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T12:25:00Z
-epistemic: pattern
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "pattern"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Explain Aesop's fable structure."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [literature, storytelling]
+status: "seedling"
+tags: ["literature", "storytelling"]
 title: "Aesop's Fables Use Anthropomorphic Allegory"
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

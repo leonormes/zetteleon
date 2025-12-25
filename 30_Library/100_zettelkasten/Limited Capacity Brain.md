@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-02-07T12:57:55Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [ext-mind, topic/pkm]
+status: "null"
+tags: ["ext-mind", "topic/pkm"]
 title: Limited Capacity Brain
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Working memory has several key limitations, primarily its small capacity and short duration. It can typically hold only about three or four pieces of information at a time.
@@ -28,6 +28,6 @@ The brain is also limited in its ability to pay attention, with a "window of con
 
 ## Related Concepts
 
-[[Memory in learning]] — `elaborates-on` — Detailed explanation of WM capacity and components
+[[Memory in learning]]—`elaborates-on`—Detailed explanation of WM capacity and components
 
-[[Working Memory Limitations in ADHD]] — `specific-case` — How WM limitations manifest in ADHD
+[[Working Memory Limitations in ADHD]]—`specific-case`—How WM limitations manifest in ADHD

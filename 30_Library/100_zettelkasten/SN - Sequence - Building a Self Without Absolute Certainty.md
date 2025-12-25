@@ -1,23 +1,23 @@
 ---
-aliases: [Building a Self in Uncertainty]
-confidence:
+aliases: ["Building a Self in Uncertainty"]
+confidence: ""
 created: 2025-11-06T19:58:04Z
-criteria: Notes must relate to the epistemological crisis of certainty and the subsequent reconstruction of identity and confidence.
-epistemic:
-exclusions: Simple factual claims or discussions of specific productivity systems.
-last_reviewed:
-modified: 2025-12-07T18:13:49Z
-purpose:
-review_interval:
-scope: A philosophical framework for building a functional and confident self in the absence of absolute certainty.
+criteria: "Notes must relate to the epistemological crisis of certainty and the subsequent reconstruction of identity and confidence."
+epistemic: ""
+exclusions: "Simple factual claims or discussions of specific productivity systems."
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
+scope: "A philosophical framework for building a functional and confident self in the absence of absolute certainty."
 see_also: []
 source_of_truth: []
-status:
-tags: [epistemology, identity, map, philosophy, self, sequence, structural]
+status: ""
+tags: ["epistemology", "identity", "map", "philosophy", "self", "sequence", "structural"]
 title: SN - Sequence - Building a Self Without Absolute Certainty
-type: sn
-uid: 2025-11-06T19:58:04Z
-updated: 2025-11-06T19:58:04Z
+type: "sn"
+uid: 
+updated: 
 ---
 
 ## SN - Sequence: Building a Self Without Absolute Certainty

@@ -1,21 +1,20 @@
 ---
-aliases: [GIC MOC]
-confidence: 0.9
+aliases: ["GIC MOC"]
+confidence: "0.9"
 created: 2025-01-15T10:10:00Z
-epistemic: structure
-last_reviewed: 2025-01-15
-modified: 2025-12-10T19:59:42Z
-purpose: Map of Content organizing concepts related to Generative Infrastructure Configuration
-review_interval: 90
-see_also:
-  - - AoR at Work
+epistemic: "structure"
+last_reviewed: "2025-01-15T00:00:00.000Z"
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: "90"
+see_also: []
 source_of_truth: []
-status: active
-tags: [automation, configuration, infrastructure]
+status: "active"
+tags: ["automation", "configuration", "infrastructure"]
 title: MOC - Generative Infrastructure Configuration
-type: map
-uid: 2025-01-15T10:10:00Z
-updated: 2025-01-15T10:10:00Z
+type: "map"
+uid: 
+updated: 
 ---
 
 ## Generative Infrastructure Configuration MOC

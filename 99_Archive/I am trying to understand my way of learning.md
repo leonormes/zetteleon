@@ -4,7 +4,7 @@ confidence:
 created: 2025-08-23T16:29:48Z
 epistemic: 
 last_reviewed: 
-modified: 2025-10-30T11:06:54Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -34,7 +34,7 @@ While it's crucial to remember that ADHD manifests differently in everyone and t
 
 1. **Need for Meaning and Context:** Individuals with ADHD often struggle with tasks or information that seems arbitrary or lacks clear relevance. Rote memorisation or learning isolated facts without understanding the "why" can be incredibly difficult and demotivating. Your approach actively seeks out that "why" and the broader context, making the information meaningful and therefore more engaging and easier to retain.
 2. **Interest-Driven Attention & Hyperfocus:** When something captures your interest (like figuring out the fundamental technology behind Kubernetes), the ADHD brain can often engage in periods of intense concentration, or hyperfocus. Following the trail from Kubernetes networking up the hierarchy to Linux namespaces can be highly stimulating and rewarding, tapping into this interest-driven attention system.
-3. **Dopamine Seeking:** The ADHD brain is often described as having differences in its dopamine pathways, leading to a drive for novelty, stimulation, and reward. The process of discovery – uncovering the underlying principles, making connections, having those "aha\!" moments when you see how things fit together – provides rewarding dopamine hits that reinforce this exploratory learning behaviour. It feels more like solving a fascinating puzzle than completing a rote learning task.
+3. **Dopamine Seeking:** The ADHD brain is often described as having differences in its dopamine pathways, leading to a drive for novelty, stimulation, and reward. The process of discovery–uncovering the underlying principles, making connections, having those "aha\!" moments when you see how things fit together–provides rewarding dopamine hits that reinforce this exploratory learning behaviour. It feels more like solving a fascinating puzzle than completing a rote learning task.
 4. **Non-Linear Thinking:** ADHD is often associated with non-linear, associative thinking patterns. Your brain might naturally jump between connected concepts rather than following a strictly linear path. Exploring the hierarchy allows you to follow these connections organically, moving from the specific application (k8s) to the general principle (namespaces) and back again as understanding grows.
 5. **Difficulty with "Just Because":** Being told "You need to learn Kubernetes networking" might be less compelling than discovering *how* it works at a fundamental level. The investigation satisfies curiosity and provides a deeper, more satisfying understanding than simply accepting the surface-level explanation.
 

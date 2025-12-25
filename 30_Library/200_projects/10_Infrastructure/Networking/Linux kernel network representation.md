@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-26T07:04:07Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [linux, networking]
+status: ""
+tags: ["linux", "topic/technology/networking"]
 title: Linux kernel network representation
-type: documentation
+type: "documentation"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 You're right to question the human metaphors! Linux, at its core, represents networks through a set of interconnected mechanisms that are far more abstract and code-driven than icons and folders. Let's break down the fundamental representations:
@@ -128,7 +128,7 @@ While fundamentally similar, networking operations often involve more layers of 
 
 Think of computer operations like building with Lego bricks.
 
-- Basic Operations (Memory Access, Arithmetic): These are like the simplest Lego bricks – fundamental and directly manipulated.
+- Basic Operations (Memory Access, Arithmetic): These are like the simplest Lego bricks–fundamental and directly manipulated.
 - Networking: Building a virtual network is like constructing a complex Lego model (a spaceship, a castle). You still use the same basic Lego bricks (CPU instructions, memory), but you arrange them in intricate ways, following detailed instructions (protocols, algorithms) to achieve a higher-level functionality (network communication).
 
 ## In Essence

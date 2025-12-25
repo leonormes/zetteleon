@@ -1,21 +1,21 @@
 ---
-aliases: [Logic as Grammar]
-confidence: 0.8
+aliases: ["Logic as Grammar"]
+confidence: "0.8"
 created: 2025-11-01T11:22:13Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:35:54Z
-purpose: "Establish logic as the foundational language for rigorous mathematical reasoning."
-review_interval: 90
+epistemic: "principle"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: "90"
 see_also: ["[[Deductive Reasoning Underwrites Mathematical Proof]]", "[[Logicism (Mathematics as Extension of Logic)]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md"]
-status: seedling
-tags: [logic, methodology, topic/maths]
+source_of_truth: []
+status: "seedling"
+tags: ["logic", "methodology", "topic/maths"]
 title: Logic Is the Grammar of Rigorous Argument
-type: concept
-uid: 2025-11-01T11:22:13Z
-updated: 2025-11-01T11:22:13Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Logic serves as the "grammar of reason" in mathematics, providing the rules for valid reasoning and the syntax for expressing mathematical structures precisely.

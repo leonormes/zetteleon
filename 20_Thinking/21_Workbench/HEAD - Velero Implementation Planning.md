@@ -1,10 +1,11 @@
 ---
 aliases: []
+AoL: Work
 confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-09T10:16:52Z
+modified: 2025-12-23T17:53:54Z
 purpose: To plan the implementation of Velero for Kubernetes backup and disaster recovery.
 review_interval:
 see_also: []

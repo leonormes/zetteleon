@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-05-26T19:43:25Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Unravelling the Cognitive Landscape of Software Development
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Software development stands as one of the most complex cognitive endeavours undertaken by humans. It demands intricate problem-solving, abstract thinking, meticulous attention to detail, and continuous learning. As computer programmers navigate this complex domain, they engage a sophisticated array of mental processes to understand problems, devise solutions, and translate these into functional code.

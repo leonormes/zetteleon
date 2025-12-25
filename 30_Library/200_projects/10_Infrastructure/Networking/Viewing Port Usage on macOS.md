@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-21T05:20:44Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [networking]
+status: ""
+tags: ["topic/technology/networking"]
 title: Viewing Port Usage on macOS
-type: info
+type: "info"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Code snippet
@@ -44,7 +44,7 @@ Bash
 lsof -i :<port_number>
 ```
 
-Replace `<port_number>` with the actual port number (e.g., `lsof -i :8080`).
+Replace `<port_number>` with the actual port number (e.g., `lsof -i:8080`).
 
 - List processes using a specific protocol and port:
 

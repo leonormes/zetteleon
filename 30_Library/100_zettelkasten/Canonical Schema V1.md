@@ -1,20 +1,20 @@
 ---
-aliases: [Schema V1]
-confidence: 0.95
+aliases: ["Schema V1"]
+confidence: "0.95"
 created: 2025-10-31T08:17:00Z
-epistemic: principle
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:55Z
+epistemic: "principle"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Reference definition of the required YAML frontmatter structure for all zettelkasten notes."
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [metadata, schema, zettelkasten]
+status: "seedling"
+tags: ["metadata", "schema", "zettelkasten"]
 title: Canonical Schema V1
-type: definition
-uid: 2025-10-31T08:17:00Z
-updated: 2025-10-31T08:17:00Z
+type: "definition"
+uid: 
+updated: 
 ---
 
 ## Canonical Schema V1

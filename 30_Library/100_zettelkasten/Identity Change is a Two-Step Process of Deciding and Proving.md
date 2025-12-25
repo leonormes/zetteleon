@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-10T12:09:00Z
-epistemic: NA
-last_reviewed:
-modified: 2025-11-10T10:00:47Z
+epistemic: "NA"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To provide a simple, actionable process for changing one's identity."
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [behavior-change, habits, identity, strategy]
+status: "seedling"
+tags: ["behavior-change", "identity", "strategy", "topic/habits"]
 title: Identity Change is a Two-Step Process of Deciding and Proving
-type: instructional
-uid: 2025-11-10T12:09:00Z
-updated: 2025-11-10T12:09:00Z
+type: "instructional"
+uid: 
+updated: 
 ---
 
 ## Identity Change is a Two-Step Process of Deciding and Proving

@@ -1,20 +1,20 @@
 ---
-aliases: [Organic Music Scenes]
-confidence: 0.9
+aliases: ["Organic Music Scenes"]
+confidence: "0.9"
 created: 2025-11-10T11:03:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T08:55:35Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To describe how authentic music genres develop."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Music as Expression vs Product]]"]
-status: seedling
-tags: [authenticity, community, culture, expression, music]
+source_of_truth: []
+status: "seedling"
+tags: ["authenticity", "community", "culture", "expression", "music"]
 title: Expressive Music Organically Builds Its Own Scene
-type: concept
-uid: 2025-11-10T11:03:00Z
-updated: 2025-11-10T11:03:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Expressive Music Organically Builds Its Own Scene

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-10T18:01:30Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:50Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [IAM]
+status: ""
+tags: ["IAM"]
 title: playing russian roulette
-type: LLM
+type: "LLM"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 This is indeed an extremely concerning and unprofessional situation, especially given the sensitivity of NHS patient data and the consultant's role as a security and compliance expert. You are right to be alarmed. Here’s a structured approach to present your argument for change, focusing on business risks and professional best practices, rather than making it a personal attack:
@@ -49,7 +49,7 @@ Presentation Sections:
     - Illustrate inconsistent security practices: "Developer workstations have enforced security policies (no sudo, restricted access), while the consultant's workstation, possessing root access, does not have the same restrictions."
     - Provide specific examples (anonymized): "I have observed the consultant using the root account to e.g., directly modify VM configurations in the portal, change user permissions without documentation, deploy resources manually. These actions leave no auditable record in Git and increase the risk of errors and security vulnerabilities."
   - !!! NHS Compliance Note
-    - Point out specific DSPT control failures: AC1.1.1 (RBAC – lack of least privilege), AC1.1.3 (PAM – misuse of root accounts, no JIT), AC2.1.1 (Change Management – lack of GitOps), IM1.3.1 (Audit Logging – lack of GitOps audit trails).
+    - Point out specific DSPT control failures: AC1.1.1 (RBAC–lack of least privilege), AC1.1.3 (PAM–misuse of root accounts, no JIT), AC2.1.1 (Change Management–lack of GitOps), IM1.3.1 (Audit Logging–lack of GitOps audit trails).
     - Emphasize that this lack of control and auditability makes demonstrating GDPR Article 32 compliance extremely difficult.
   - ⚠️ Risk Mitigation
     - Underscore the risks associated with this setup:
@@ -171,7 +171,7 @@ Example "Non-Tick-Box" Assessment Questions:
 
 Key Considerations:
 
-- Transparency and Communication: Be transparent with the consultant (and company owner) about the purpose of the review – to improve overall security and compliance, not to single him out. Frame it positively.
+- Transparency and Communication: Be transparent with the consultant (and company owner) about the purpose of the review–to improve overall security and compliance, not to single him out. Frame it positively.
 - Company Owner Support is Critical: Ensure the company owner fully supports this assessment and understands the business risks involved. Their backing is essential for the consultant to cooperate and for implementing any necessary changes.
 - Potential Resistance: Be prepared for potential resistance from the consultant. Remain professional, fact-based, and focus on the security and compliance objectives. Having a strong and objective assessment will be crucial in overcoming resistance.
 - Follow-Up is Crucial: The assessment is only the first step. Ensure there is a clear plan for remediation, implementation of GitOps and improved IAM, and ongoing monitoring to maintain a secure and compliant Azure environment.

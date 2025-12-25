@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-04-04T09:13:36Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [gateway, networking]
+status: ""
+tags: ["gateway", "topic/technology/networking"]
 title: I am using k8s gateway api on aws eks
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## I Am Using k8s Gateway Api on Aws Eks. <https://www.gateway-api-controller.eks.aws.dev/latest/>
@@ -57,7 +57,7 @@ Azure charges fixed fees even with 0 instances to guarantee HA, whereas AWS offl
 #### Option 1: Open-Source Ingress Controllers
 
 | Solution | Cost Impact | Implementation Steps |
-| :-- | :-- | :-- |
+|:-- |:-- |:-- |
 | **NGINX Ingress** | Only node compute costs | 1. Deploy [NGINX Ingress Controller](https://kubernetes.github.io/ingress-nginx/deploy/) <br> 2. Use with Azure Basic Load Balancer (free) |
 | **HAProxy** | Node compute costs | 1. Install via Helm <br> 2. Configure with Kubernetes Gateway API CRDs |
 

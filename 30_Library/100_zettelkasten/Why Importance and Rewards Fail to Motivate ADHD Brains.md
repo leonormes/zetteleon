@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-10-18T13:25:36Z
-epistemic:
-last_reviewed:
-llm-action: redirect-created
-modified: 2025-11-13T17:15:33Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+llm-action: "redirect-created"
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: superseded
+status: "superseded"
 superseded-by: "[[SoT - Bridging the Intention-Action Gap]]"
 tags: []
 title: Why Importance and Rewards Fail to Motivate ADHD Brains
-type:
-uid:
-updated:
+type: ""
+uid: 
+updated: 
 ---
 
 This note's unique thinking has been integrated into the canonical Source of Truth: **[[SoT - Bridging the Intention-Action Gap]]** on 2025-11-13.

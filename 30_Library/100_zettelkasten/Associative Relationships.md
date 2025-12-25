@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-05-08T06:44:40Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/pkm/zettelkasten]
+status: "null"
+tags: ["topic/pkm/zettelkasten"]
 title: Associative Relationships
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 These are based on associations or links between data points, often represented in graphs or networks. For instance, two pieces of knowledge might be related because they frequently occur together.

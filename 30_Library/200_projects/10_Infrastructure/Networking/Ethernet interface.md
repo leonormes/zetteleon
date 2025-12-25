@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers, networking]
+status: ""
+tags: ["containers", "topic/technology/networking"]
 title: Ethernet interface
-type: documentation
+type: "documentation"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 An Ethernet interface is a network interface that enables devices to communicate using the Ethernet protocol, which is widely used in local area networks (LANs) and wide area networks (WANs). Ethernet interfaces are physical or logical components that provide connectivity for sending and receiving data packets over Ethernet networks.

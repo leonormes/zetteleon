@@ -1,19 +1,19 @@
 ---
-aliases: [Bare-bones routine, Low-energy routine, Minimum tier]
-confidence: 
+aliases: ["Bare-bones routine", "Low-energy routine", "Minimum tier"]
+confidence: "null"
 created: 2025-10-30T18:03:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source: "[[MOC - The Honeyman Method]]"
 source_of_truth: []
-status: seedling
-tags: [energy-management, executive-dysfunction, routines, topic/health/adhd]
+status: "seedling"
+tags: ["energy-management", "executive-dysfunction", "routines", "topic/health/adhd"]
 title: Minimum routines are bare-bones essentials for low-energy days
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

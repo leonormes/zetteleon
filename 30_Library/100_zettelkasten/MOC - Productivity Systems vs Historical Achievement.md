@@ -1,23 +1,23 @@
 ---
-aliases: [Productivity Systems Map]
-confidence:
+aliases: ["Productivity Systems Map"]
+confidence: "null"
 created: 2025-11-10T13:10:00Z
-criteria: Atomic notes defining proto-systems, the role of systems as external structures, and the context of historical achievement.
-epistemic:
-exclusions: Specific tutorials for GTD or Atomic Habits.
-last_reviewed:
-modified: 2025-12-10T20:00:09Z
-purpose:
-review_interval:
-scope: The relationship between modern productivity systems, historical methods of achievement, and the cognitive function of routines.
+criteria: ""
+epistemic: "null"
+exclusions: "Specific tutorials for GTD or Atomic Habits."
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
+scope: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [cognition, history, productivity, systems]
+status: "null"
+tags: ["history", "topic/cognition", "topic/productivity", "topic/systems"]
 title: MOC - Productivity Systems vs Historical Achievement
-type: map
-uid: 2025-11-10T13:10:00Z
-updated: 2025-11-10T13:10:00Z
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - Productivity Systems Vs Historical Achievement

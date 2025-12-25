@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-18T03:35:24Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: PKI HCP Vault
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 To create a root CA for Fitfile that can be used across different customer deployments and ensure that specific customers trust your certificates, you need to follow a structured approach using HashiCorp Vault and cert-manager. Here's a detailed guide on how to achieve this:

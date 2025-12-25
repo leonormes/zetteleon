@@ -1,20 +1,20 @@
 ---
-aliases: [Artist Control in Music]
-confidence: 0.9
+aliases: ["Artist Control in Music"]
+confidence: "0.9"
 created: 2025-11-10T11:02:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T08:55:35Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define the role of the artist in expressive music."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Music as Expression vs Product]]"]
-status: seedling
-tags: [artist, authenticity, expression, music]
+source_of_truth: []
+status: "seedling"
+tags: ["artist", "authenticity", "expression", "music"]
 title: In Music as Expression the Artist Controls the Creative Vision
-type: concept
-uid: 2025-11-10T11:02:00Z
-updated: 2025-11-10T11:02:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## In Music as Expression the Artist Controls the Creative Vision

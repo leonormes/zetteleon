@@ -1,20 +1,20 @@
 ---
-aliases: [Unilateral Spending]
-confidence: 0.9
+aliases: ["Unilateral Spending"]
+confidence: "0.9"
 created: 2025-11-10T10:17:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To identify unilateral spending as a sign of an unhealthy relationship dynamic."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Disrespectful Spending Violates Shared Agreements and Erodes Trust]]"]
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [boundaries, conflict, finance, relationship]
+source_of_truth: []
+status: "seedling"
+tags: ["boundaries", "conflict", "finance", "relationship"]
 title: Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic
-type: concept
-uid: 2025-11-10T10:17:00Z
-updated: 2025-11-10T10:17:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic

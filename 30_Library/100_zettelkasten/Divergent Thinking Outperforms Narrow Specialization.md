@@ -1,20 +1,20 @@
 ---
-aliases: [Divergent Thinking Advantage]
-confidence: 0.9
+aliases: ["Divergent Thinking Advantage"]
+confidence: "0.9"
 created: 2025-11-01T12:30:01Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T10:08:40Z
+epistemic: "principle"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To explain the advantage of divergent thinking in dynamic environments."
-review_interval: 90
-see_also: ['[[Generalists Have an Advantage in the Information Age]]']
-source_of_truth: ['[[MOC - Divergent Thinking vs Specialization]]']
-status: seedling
-tags: [adaptability, divergent-thinking, innovation, specialization]
+review_interval: "90"
+see_also: ["[[Generalists Have an Advantage in the Information Age]]"]
+source_of_truth: []
+status: "seedling"
+tags: ["adaptability", "divergent-thinking", "innovation", "specialization"]
 title: Divergent Thinking Outperforms Narrow Specialization
-type: concept
-uid: 2025-11-01T12:30:01Z
-updated: 2025-11-01T12:30:01Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Divergent Thinking Outperforms Narrow Specialization

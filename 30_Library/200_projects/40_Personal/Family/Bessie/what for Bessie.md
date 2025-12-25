@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-23T08:56:40Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:28Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [project/family/bessie]
+status: ""
+tags: ["project/family/bessie"]
 title: what for Bessie
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 To support Bessie in the classroom, teachers should implement the following specific strategies:

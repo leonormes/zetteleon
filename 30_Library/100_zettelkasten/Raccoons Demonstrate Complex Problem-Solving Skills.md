@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.8
+confidence: "0.8"
 created: 2025-10-31T09:54:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "Illustrate advanced animal intelligence through raccoon behavior."
-review_interval: 90
+review_interval: "90"
 see_also: ["Creativity Combines Memories and Skills in Novel Ways.md"]
 source_of_truth: []
-status: seedling
-tags: [animal-cognition, problem-solving]
+status: "seedling"
+tags: ["animal-cognition", "problem-solving"]
 title: Raccoons Demonstrate Complex Problem-Solving Skills
-type: example
+type: "example"
 uid: 
 updated: 
 ---

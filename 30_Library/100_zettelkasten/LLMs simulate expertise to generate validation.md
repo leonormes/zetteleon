@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:18:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [authority, topic/psychology, topic/technology/AI]
+status: "null"
+tags: ["authority", "topic/psychology", "topic/technology/AI"]
 title: LLMs simulate expertise to generate validation
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 An LLM can create a powerful sense of validation by simulating expertise. This is achieved in two main ways:

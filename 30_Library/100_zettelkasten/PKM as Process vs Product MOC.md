@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-10-20T09:40:00Z
-epistemic:
-last_reviewed:
-modified: 2025-10-30T10:27:47Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
+status: ""
 tags: []
 title: PKM as Process vs Product MOC
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: ""
 ---
 
 This collection of notes explores the fundamental challenge of using a PKM as a tool for thinking (a **process**) rather than as a simple repository for conclusions (a **product**).

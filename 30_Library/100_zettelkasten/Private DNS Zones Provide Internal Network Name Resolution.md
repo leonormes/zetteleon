@@ -1,21 +1,21 @@
 ---
-aliases: [Internal DNS, Private TLD]
-confidence:
+aliases: ["Internal DNS", "Private TLD"]
+confidence: "null"
 created: 2025-07-16T17:30:03Z
-epistemic:
-last_reviewed:
-modified: 2025-10-30T15:36:27Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [topic/technology/networking/dns]
+status: "null"
+tags: ["topic/technology/networking/dns"]
 title: Private DNS Zones Provide Internal Network Name Resolution
-type:
-uid:
-updated:
-version:
+type: "null"
+uid: 
+updated: 
+version: "null"
 ---
 
 A private DNS zone, such as one using a private Top-Level Domain (TLD) like `privatelink.fitfile.net`, is used for name resolution exclusively within a private network (e.g., an Azure VNet). Records in a private zone are not resolvable from the public internet.

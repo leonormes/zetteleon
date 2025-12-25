@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T09:03:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [execution, habit, management, principles]
+status: ""
+tags: ["execution", "management", "principles", "topic/habits"]
 title: Habit 3 - Put First Things First
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Habit 3: Put First Things First** is the principle of personal management. It is the physical creation, the day-in, day-out execution of the vision defined in [[Habit 2 - Begin with the End in Mind]]. While Habit 2 is about leadership (doing the right things), Habit 3 is about management (doing things right).

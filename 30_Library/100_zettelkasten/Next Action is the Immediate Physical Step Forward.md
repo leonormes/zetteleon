@@ -1,20 +1,20 @@
 ---
-aliases: [Next Action, Next Physical Action]
-confidence: 0.9
+aliases: ["Next Action", "Next Physical Action"]
+confidence: "0.9"
 created: 2025-11-01T20:22:24Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:26:28Z
-purpose: Define the GTD concept of 'next action' as the critical bridge from motion to action.
-review_interval: 90
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "Define the GTD concept of 'next action' as the critical bridge from motion to action."
+review_interval: "90"
 see_also: ["[[Action Defined as Behavior That Produces Tangible Outcomes]]", "[[GTD Workflow Separates Motion and Action Phases]]"]
-source_of_truth: [/Volumes/DAL/Zettelkasten/LLMeon/200_projects/LLMPKM/motion_vs_action.md]
-status: seedling
-tags: [action, execution, gtd, productivity]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "execution", "gtd", "topic/productivity"]
 title: Next Action is the Immediate Physical Step Forward
-type: concept
-uid: 2025-11-01T20:22:24Z
-updated: 2025-11-01T20:22:24Z
+type: "concept"
+uid: 
+updated: 
 version: "1"
 ---
 

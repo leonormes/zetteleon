@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-29T16:38:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-20T09:54:57Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source: "[[phases of tasks]]"
 source_of_truth: []
-status:
-tags: [executive_function, neuroscience, topic/health/adhd]
+status: "null"
+tags: ["executive_function", "neuroscience", "topic/health/adhd"]
 title: MOC - The Phases of Task Execution and the Impact of ADHD
-type: map
-uid:
-updated:
+type: "map"
+uid: 
+updated: 
 ---
 
 Based on research across neuroscience and clinical psychology, task execution can be broken down into distinct phases, with specific brain activation patterns and impacts from ADHD at each stage.

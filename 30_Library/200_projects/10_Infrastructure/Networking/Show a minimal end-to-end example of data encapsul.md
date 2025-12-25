@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-22T09:55:38Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:22Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/networking]
+status: ""
+tags: ["topic/technology/networking"]
 title: Show a minimal end-to-end example of data encapsul
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Show a minimal end-to-end example of data encapsulation and transmission
@@ -46,9 +46,9 @@ Host: example.com
 User-Agent: Chrome
 ```
 
-This is **application data** — the part the user or program understands.
+This is **application data**—the part the user or program understands.
 
-At this point, there is **no routing or transmission metadata** — just the content to send.
+At this point, there is **no routing or transmission metadata**—just the content to send.
 
 ---
 
@@ -119,7 +119,7 @@ Encapsulated form:
 
 Finally, the frame is converted into **electrical, optical, or radio signals (bits)** and transmitted through the physical medium (e.g., fiber, copper, or Wi-Fi).
 
-At this level, data becomes **energy patterns encoding binary information** — voltages, light pulses, or EM waves.
+At this level, data becomes **energy patterns encoding binary information**—voltages, light pulses, or EM waves.
 
 ---
 
@@ -139,7 +139,7 @@ Each layer **removes its own header** in reverse order (decapsulation).
 ## 8. Summary Table
 
 | Layer       | Unit Name | Header Example Fields | Role                    |
-| :---------- | :-------- | :-------------------- | :---------------------- |
+|:---------- |:-------- |:-------------------- |:---------------------- |
 | Application | Data      | Method, Host          | User message            |
 | Transport   | Segment   | Src/Dst Port          | Reliable delivery       |
 | Network     | Packet    | Src/Dst IP            | Routing across networks |

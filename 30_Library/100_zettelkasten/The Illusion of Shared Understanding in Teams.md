@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-29T15:18:49Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: The Illusion of Shared Understanding in Teams
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 In a team, there is often an illusion that a single, shared mental model of a system exists. In reality, the "team model" is a fragile patchwork of each member's individual, differing, and often tacit models.
@@ -28,6 +28,6 @@ Links: [[Flawed Mental Models Limit Mastery]], [[Semantic Diffusion Creates Fals
 
 The illusion of shared understanding occurs when members of a team believe they are aligned on a concept because they use the same terminology, but their underlying individual mental models are actually different.
 
-This is caused by [[Semantic Diffusion Creates False Alignment]] and the fact that most knowledge is .
+This is caused by [[Semantic Diffusion Creates False Alignment]] and the fact that most knowledge is.
 
 For example, a team can discuss the number "infinity" ($\infty$). One person may hold a flawed model of it as just a very large, specific number (a location). Another may hold the more correct model of (a direction/process). They agree on the word but have a fundamental misalignment that will only surface during a crisis or deep technical discussion.

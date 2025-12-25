@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-10T15:18:00Z
-epistemic: NA
-last_reviewed:
-modified: 2025-11-10T13:33:51Z
+epistemic: "NA"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To provide guidance on structuring projects in task managers."
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [productivity, project-management, systems, task-management]
+status: "seedling"
+tags: ["project-management", "task-management", "topic/productivity", "topic/systems"]
 title: Projects in Task Managers Should Be Structured with Atomic Actions and Context Tags
-type: instructional
-uid: 2025-11-10T15:18:00Z
-updated: 2025-11-10T15:18:00Z
+type: "instructional"
+uid: 
+updated: 
 ---
 
 ## Projects in Task Managers Should Be Structured with Atomic Actions and Context Tags

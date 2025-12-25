@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-24T13:14:20Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [excalidraw, linking, obsidian, topic/pkm/zettelkasten]
+status: "null"
+tags: ["excalidraw", "linking", "obsidian", "topic/pkm/zettelkasten"]
 title: Linking Notes and Drawings in Excalidraw
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 While Excalidraw allows for rich visual linking, it's important to understand how these links interact with Obsidian's wikilink system.

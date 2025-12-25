@@ -1,20 +1,20 @@
 ---
-aliases: [Teamwork in a Relationship]
-confidence: 0.9
+aliases: ["Teamwork in a Relationship"]
+confidence: "0.9"
 created: 2025-11-10T10:06:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the elements of teamwork in a partnership."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [goals, partnership, relationship, teamwork]
+source_of_truth: []
+status: "seedling"
+tags: ["goals", "partnership", "relationship", "teamwork"]
 title: Teamwork in a Partnership is Built on Shared Goals Reliability and Mutual Appreciation
-type: concept
-uid: 2025-11-10T10:06:00Z
-updated: 2025-11-10T10:06:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Teamwork in a Partnership is Built on Shared Goals Reliability and Mutual Appreciation

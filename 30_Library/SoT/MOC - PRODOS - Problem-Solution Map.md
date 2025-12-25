@@ -1,30 +1,20 @@
 ---
-aliases: [ProdOS Problem-Solution Fit, ProdOS Why]
-confidence: 5/5
-created: 2025-12-06T18:00:00Z
-epistemic:
-last-synthesis: 2025-12-15
-last_reviewed: 2025-12-15
-modified: 2025-12-20T09:54:10Z
-purpose: To explicitly map the core problems (the 'Why') to the specific architectural solutions within ProdOS (the 'How').
-quality-markers: [Connects user pain points to system features., Grounded in notes about ADHD and executive dysfunction.]
-related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - ADHD Environmental Design]]", "[[SoT - Journaling as Cognitive Engineering]]", "[[SoT - Personal Agency and Transformation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Values and Eudaimonia]]"]
-review_interval: 6 months
-see_also: []
-source_of_truth: true
-status: stable
+aliases: ["ProdOS Problem-Solution Fit", "ProdOS Why"]
+confidence: "5/5"
+created: 2025-12-06T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-15"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "To explicitly map the core problems (the 'Why') to the specific architectural solutions within ProdOS (the 'How')."
+review_interval: "6 months"
+see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - ADHD Environmental Design]]", "[[SoT - Journaling as Cognitive Engineering]]", "[[SoT - Personal Agency and Transformation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Values and Eudaimonia]]"]
+source_of_truth: []
+status: "stable"
 tags: ["architecture", "map_of_content", "problem-solution", "prodos", "system_design"]
 title: MOC - PRODOS - Problem-Solution Map
-type: MOC
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> This document provides the canonical mapping between the core cognitive and productivity challenges this system is designed to solve, and the specific architectural components of PRODOS that provide the solution. It is the "Why" that justifies the "How."
-
+type: "MOC"
+uid: 
+updated: 
 ---
 
 ## 2. The Problem/Solution Mappings
@@ -41,7 +31,6 @@ This section details each major problem and the corresponding solution engineere
   - [[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency]]
   - [[Task Management Systems Have Limited Efficacy for ADHD Productivity]]
   - [[Executive Function Deficits in ADHD Impact Developer Productivity]]
-  - [[The Brutal Truth About Time Management No One Wants to Hear]]
 - **The PRODOS Solution**:
 
     1. **The Tri-State Router**: Drastically simplifies the initial, overwhelming decision. Any input is immediately sorted into one of only three channels: **Action** (Kinetic), **Storage** (Static), or **Synthesis** (Dynamic). This bypasses the "what is this and what do I do with it?" paralysis. See [[SoT - PRODOS - The Tri-State Router]].
@@ -54,7 +43,7 @@ This section details each major problem and the corresponding solution engineere
 - **Related Insights**:
   - [[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop]]
   - [[Working Memory Limitations in ADHD]]
-  - [[The Extended Mind Thesis]]
+  - [[30_Library/100_zettelkasten/The Extended Mind Thesis]]
   - [[Writing Acts as an External Working Memory]]
   - [[External Structure and ADHD]]
   - [[The Danger of Perpetual System-Building]]
@@ -63,7 +52,7 @@ This section details each major problem and the corresponding solution engineere
 - **The PRODOS Solution**:
 
     1. **The Extended Mind (/extend)**: This is the core real-time solution. When you begin to write about a topic, the system automatically surfaces all your previous related thoughts. This interrupts the loop by making your thinking **cumulative** instead of **cyclical**. You build on your past thinking instead of repeating it. See [[SoT - The Extended Mind]].
-    2. **A Trusted External System (The Cognitive Prosthesis)**: As a practical application of [[The Extended Mind Thesis]], ProdOS is designed to act as a trusted "external brain." By systematically offloading all thoughts, tasks, and knowledge into a digital system, it externalizes the cognitive load of memory and organization. This act breaks the anxiety loop of re-planning and compensates for [[Working Memory Limitations in ADHD]], freeing up mental resources for deeper thinking.
+    2. **A Trusted External System (The Cognitive Prosthesis)**: As a practical application of [[30_Library/100_zettelkasten/The Extended Mind Thesis]], ProdOS is designed to act as a trusted "external brain." By systematically offloading all thoughts, tasks, and knowledge into a digital system, it externalizes the cognitive load of memory and organization. This act breaks the anxiety loop of re-planning and compensates for [[Working Memory Limitations in ADHD]], freeing up mental resources for deeper thinking.
 
 ### Problem C: The Motivation Paradox & The Interest-Based Nervous System
 
@@ -73,7 +62,6 @@ This section details each major problem and the corresponding solution engineere
   - [[Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]]
   - [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]
   - [[Productive Procrastination as an Avoidance Strategy]]
-  - [[The Brutal Truth About Time Management No One Wants to Hear]]
 - **The PRODOS Solution**:
 
     1. **The Ignition Protocol**: Explicitly "refactoring" boring tasks into **Mystery**, **Urgency**, or **Spite** (The ICNU Triggers). If a task lacks dopamine, the system demands you manufacture it before attempting execution.
@@ -98,7 +86,6 @@ This section details each major problem and the corresponding solution engineere
 - **Related Insights**:
   - [[SoT - Working Memory & Schema Theory]]
   - [[SoT - Learning Mechanisms]]
-  - [[Maintaining Lines of Thought Over Time]]
 - **The PRODOS Solution**:
 
     1. **Automatic Linking & The Knowledge Graph**: The /extend command and the use of semantic search build a rich web of connections automatically. This turns your fragmented notes into a single, interconnected knowledge graph.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:32:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [authentication, best-practices, cloud-native, security, zero-trust]
+status: ""
+tags: ["authentication", "best-practices", "cloud-native", "security", "zero-trust"]
 title: Recommended Best Practices for Cloud-Native Authentication
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Implementing robust authentication in cloud-native environments requires adherence to several key best practices, focusing on dynamic, short-lived credentials and strong cryptographic trust. These practices align with Zero Trust principles.

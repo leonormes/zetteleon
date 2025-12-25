@@ -1,21 +1,21 @@
 ---
-aliases: [Effort over Outcomes]
-confidence: 1
+aliases: ["Effort over Outcomes"]
+confidence: "1"
 created: 2025-11-01T20:42:00Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:35:44Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To explain how focusing on effort instead of outcomes can reduce the pressure to act."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]", "[[Process vs Outcome Goals]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Motion Can Be a Procrastination Delay Tactic.md"]
-status: evergreen
-tags: [goals, mindset, procrastination, productivity]
+source_of_truth: []
+status: "evergreen"
+tags: ["goals", "mindset", "procrastination", "topic/productivity"]
 title: Focusing on Effort Over Outcomes Reduces the Pressure to Act
-type: concept
-uid: 20251101204200
-updated: 2025-11-01T20:42:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 The pressure to achieve a perfect outcome can be a significant driver of procrastination, making the risk-free domain of "motion" more appealing. A powerful mental shift is to focus on the effort being applied rather than the result it will produce.

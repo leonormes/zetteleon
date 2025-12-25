@@ -1,18 +1,18 @@
 ---
 aliases: ["Dependency Hell"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T12:36:00Z
-epistemic: pattern
-last_reviewed: 
-modified: 2025-10-31T12:36:00Z
+epistemic: "pattern"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain systemic risks of tight coupling."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [architecture, risk]
+status: "seedling"
+tags: ["architecture", "risk"]
 title: Dependency Problems Create Cascading Failures
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

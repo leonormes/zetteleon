@@ -1,20 +1,20 @@
 ---
-aliases: [ADHD Medication, ADHD Treatment]
-confidence: 0.8
+aliases: ["ADHD Medication", "ADHD Treatment"]
+confidence: "0.8"
 created: 2025-11-06T19:54:04Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
-purpose: "To explain the role of medication as a foundational tool for managing ADHD symptoms and enabling other productivity strategies."
-review_interval: 90
+epistemic: "fact"
+last_reviewed: "2025-11-06T00:00:00.000Z"
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: "90"
 see_also: []
-source_of_truth: ["A Deep Dive into Adult ADHD in Remote Software Development.md"]
-status: seedling
-tags: [adhd, medication, productivity, treatment]
+source_of_truth: []
+status: "seedling"
+tags: ["medication", "topic/health/adhd", "topic/productivity", "treatment"]
 title: Medication Provides a Foundational Layer for ADHD Management
-type: concept
-uid: 2025-11-06T19:54:04Z
-updated: 2025-11-06T19:54:04Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Medication Provides a Foundational Layer for ADHD Management

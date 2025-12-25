@@ -1,20 +1,18 @@
 ---
-aliases: [Social Drag]
-confidence: 4/5
+aliases: ["Social Drag"]
+confidence: "4/5"
 created: 2025-12-17T00:00:00Z
-epistemic: 
-last_reviewed: 2025-12-17
-modified: 2025-12-20T09:54:07Z
-purpose: To provide a model for quantifying the efficiency loss in a team caused by dysfunctional social dynamics, or "social drag."
-related-soTs: ["[[MOC - Socio-Technical Dissonance]]", "[[SoT - Accidental Social Complexity]]"]
-review_interval: 
-see_also: []
-source: https://gemini.google.com/share/7368b72e8f22
-source_of_truth: true
-status: stable
-tags: [efficiency, productivity, systems-thinking, team-dynamics]
+epistemic: ""
+last_reviewed: "2025-12-17"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "To provide a model for quantifying the efficiency loss in a team caused by dysfunctional social dynamics, or \\\"social drag."
+review_interval: "3 months"
+see_also: ["[[MOC - Socio-Technical Dissonance]]", "[[SoT - Accidental Social Complexity]]"]
+source_of_truth: []
+status: "stable"
+tags: ["efficiency", "team-dynamics", "topic/productivity", "topic/systems"]
 title: SoT - Social Friction Coefficient
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---

@@ -1,19 +1,19 @@
 ---
-aliases: [Daily energy assessment, Tier selection]
-confidence: 
+aliases: ["Daily energy assessment", "Tier selection"]
+confidence: ""
 created: 2025-10-30T18:04:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - The Honeyman Method]]"
 source_of_truth: []
-status: seedling
-tags: [implementation, routines, topic/health/adhd]
+status: "seedling"
+tags: ["implementation", "routines", "topic/health/adhd"]
 title: Daily tier selection based on current energy improves routine consistency
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

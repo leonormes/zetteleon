@@ -1,21 +1,21 @@
 ---
-aliases: [Mathematical Visualization]
-confidence: 0.8
+aliases: ["Mathematical Visualization"]
+confidence: "0.8"
 created: 2025-11-01T11:22:13Z
-epistemic: hypothesis
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:35:54Z
+epistemic: "hypothesis"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "Describe visualization as a strategy for mathematical understanding."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Heuristic Experimentation Drives Mathematical Insight]]", "[[The Process of Mathematical Discovery is Driven by Pattern Recognition]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md"]
-status: seedling
-tags: [cognition, topic/maths, visualization]
+source_of_truth: []
+status: "seedling"
+tags: ["topic/cognition", "topic/maths", "visualization"]
 title: Visualization Supports Mathematical Thinking
-type: strategy
-uid: 2025-11-01T11:22:13Z
-updated: 2025-11-01T11:22:13Z
-version: 1
+type: "strategy"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Mathematicians leverage visualization—using mental imagery, diagrams, and graphs—to internalize, identify, compare, connect, and share mathematical ideas and problems.

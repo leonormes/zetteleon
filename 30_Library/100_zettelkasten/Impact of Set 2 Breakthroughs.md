@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-02-07T12:57:55Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [knowledge, topic/cognition/thinking, topic/learning]
+status: "null"
+tags: ["knowledge", "topic/cognition/thinking", "topic/learning"]
 title: Impact of Set 2 Breakthroughs
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 While fundamental insights (Set 2) might be rare, their impact is disproportionately large. Each breakthrough creates new fields and possibilities for conventional problem-solving (Set 1) to explore and develop.

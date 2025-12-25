@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-11T17:28:03Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-29T19:29:49Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [habit, topic/cognition/mental-model, topic/psychology]
+status: "null"
+tags: ["topic/cognition/mental-model", "topic/habits", "topic/psychology"]
 title: The Overthinking Loop is Fuelled by Type 1 Information
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The overthinking loop is a cognitive-behavioural cycle where an individual avoids taking action by endlessly gathering theoretical ([[Type 1 Information is Theoretical]]) knowledge. This avoidance of generating real-world feedback ([[Type 2 Information is Experiential]]) increases anxiety, which in turn drives the person to seek more "safe" theoretical information, reinforcing the loop.

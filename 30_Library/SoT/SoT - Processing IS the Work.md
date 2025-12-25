@@ -1,30 +1,20 @@
 ---
-aliases: [Active Processing, Good Enough Processing, Processing IS the Work]
-confidence: 5/5
+aliases: ["Active Processing", "Good Enough Processing", "Processing IS the Work"]
+confidence: "5/5"
 created: 2025-12-07T00:00:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-20T09:54:07Z
-purpose: To reframe 'processing' from a passive administrative chore to an active, creative act of knowledge building.
-review_interval:
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: ["[[Key Principles & Mindset Shifts – Processing IS the Work]]", "[[Processing IS the Work, Not Prep for Work]]"]
-tags: ["adhd", "mindset", "pkm", "productivity"]
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To reframe 'processing' from a passive administrative chore to an active, creative act of knowledge building."
+review_interval: "3 months"
+see_also: ["Not Prep for Work]]"]
+source_of_truth: []
+status: "stable"
+tags: ["mindset", "pkm", "topic/health/adhd", "topic/productivity"]
 title: SoT - Processing IS the Work
-type: SoT
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Processing IS the Work.** It is not administrative overhead or "prep" before the real work begins.
->
-> Processing is the **creative act** of converting raw inputs into structured knowledge, insights, and actions. It is where meaning is made.
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. The Core Conflict (ADHD Resistance)

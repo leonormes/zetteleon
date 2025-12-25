@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-01T09:51:13Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-01T10:00:59Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [identity, narrative-identity, self, storytelling, topic/psychology]
+status: "seedling"
+tags: ["identity", "narrative-identity", "self", "storytelling", "topic/psychology"]
 title: Narrative Identity is the Story We Construct About Our Experiences
-type: concept
+type: "concept"
 uid: 
-updated: 2025-11-01T09:51:13Z
+updated: 
 ---
 
 ## Narrative Identity is the Story We Construct About Our Experiences

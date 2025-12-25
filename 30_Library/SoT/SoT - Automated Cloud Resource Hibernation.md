@@ -1,32 +1,20 @@
 ---
-aliases: [AKS Auto-Shutdown, Cloud Cost Saving, Environment Hibernation]
-confidence:
-confidence-gaps: [Alerting strategy for hibernation failures, GCP), Generalizability to other cloud providers (AWS, Handling stateful applications during shutdown]
-created: 2025-11-13T15:02:44Z
-creation_date: 2025-11-13
-decay-signals: []
-epistemic:
-last-resonance: 2025-11-13
-last-synthesis: 2025-11-13
-last_reviewed:
-llm-responses: 1
-modified: 2025-12-12T18:18:05Z
-mvu-hash: e1c5a0a4d1b3b0b1c0b0a4d1b3b0b1c0b0a4d1b3b0b1c0b0a4d1b3b0b1c0b0a4
-purpose:
-quality-markers: [initial synthesis]
-resonance-score: 1
-review_interval:
-see_also: []
-source_of_truth: true
-status:
-supersedes: ["[[FFAPP-4416 Schedule testing and staging clusters to hibernate outside working hours]]"]
-synthesis-count: 1
-tags: [aks, azure, cloud, cost-optimization, devops, terraform]
+aliases: ["AKS Auto-Shutdown", "Cloud Cost Saving", "Environment Hibernation"]
+confidence: ""
+created: 2025-11-13T00:00:00Z
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:22+00:00
+purpose: ""
+review_interval: "3 months"
+see_also: ["[[FFAPP-4416 Schedule testing and staging clusters to hibernate outside working hours]]"]
+source_of_truth: []
+status: "stable"
+tags: ["aks", "azure", "cloud", "cost-optimization", "devops", "terraform"]
 title: SoT - Automated Cloud Resource Hibernation
-trust-level: developing
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Working Knowledge (Stable Foundation)
@@ -40,6 +28,7 @@ Automated resource hibernation is a strategic approach to cloud cost management 
 The most robust implementation pattern involves using an IaC tool like Terraform to define and manage the hibernation schedule. This schedule is then executed by a cloud-native automation service (such as Azure Automation Accounts or AWS Lambda with EventBridge rules). By codifying the schedule, it becomes version-controlled, repeatable, and tied to the lifecycle of the infrastructure it manages, preventing configuration drift. This method provides a low-effort, high-impact way to enforce fiscal discipline in cloud operations without manual intervention.
 
 ## 3. Integration Queue (Structured Input)
+
 ### 📤 Integration Source 2025-11-13 (NoteRef: [[300_tickets/FFAPP-4416...]])
 
 - **Raw Excerpt/Key Insight:** Implemented AKS cluster hibernation for staging and testing environments using a private `aks-automation` Terraform module. The module configures an Azure Automation Account with runbooks and schedules to stop/start clusters between 9 pm and 6 am UTC, Monday-Friday.

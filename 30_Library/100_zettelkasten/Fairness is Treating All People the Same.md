@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 1
+confidence: "1"
 created: 2025-12-10T12:00:00Z
-epistemic: definition
-last_reviewed: 2025-12-10
-modified: 2025-12-10T12:00:00Z
+epistemic: "definition"
+last_reviewed: "2025-12-10"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define the character strength of Fairness."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: evergreen
-tags: [character-strength, fairness, justice]
+status: "evergreen"
+tags: ["character-strength", "fairness", "justice"]
 title: Fairness is Treating All People the Same
-type: concept
-uid: 20251210121200
-updated:
+type: "concept"
+uid: 
+updated: 
 ---
 
 Fairness is treating all people the same according to notions of fairness and justice. It involves not letting personal feelings bias decisions about others and giving everyone a fair chance.

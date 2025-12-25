@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-30T12:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [action, morita-therapy, motivation, purpose, therapy, values]
+status: ""
+tags: ["action", "morita-therapy", "motivation", "purpose", "therapy", "values"]
 title: Morita Therapy - Purpose-Driven Action Over Emotion
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 A key tenet of [[Morita Therapy]] is the emphasis on purpose-driven action. This means taking action based on what needs to be done in a given situation or what aligns with one's personal values, rather than waiting for the "right" emotional state.

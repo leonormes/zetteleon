@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2024-02-19T17:23:00Z
-epistemic:
+epistemic: "null"
 id: "20240219172300"
-last_reviewed:
-modified: 2025-11-12T14:01:15Z
-purpose:
-review_interval:
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [memory, topic/cognition, topic/health/adhd, topic/productivity]
+status: "null"
+tags: ["memory", "topic/cognition", "topic/health/adhd", "topic/productivity"]
 title: Working Memory Limitations in ADHD
-type: map
-uid:
-updated:
-version: 1
+type: "map"
+uid: 
+updated: 
+version: "1"
 ---
 
 People with ADHD often experience limitations in their working memory, which directly impacts their ability to manage complex tasks and maintain focus.
@@ -60,7 +60,7 @@ Leverage [[Diffuse vs Focused Thinking Modes]] with:
 
 ## Related Concepts
 
-- [[Memory in learning]] — `specific-case-of` — Core memory systems and WM components theory
+- [[Memory in learning]]—`specific-case-of`—Core memory systems and WM components theory
 - [[Working Memory Challenges in Technical Context]] - Specific applications
 - [[Manage Working Memory Load In-session]] - Practical techniques
 

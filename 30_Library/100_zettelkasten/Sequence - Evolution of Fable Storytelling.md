@@ -1,22 +1,22 @@
 ---
-aliases: [Fable Evolution Sequence]
-confidence: 1
+aliases: ["Fable Evolution Sequence"]
+confidence: "1"
 created: 2025-10-31T12:29:00Z
-epistemic: map
+epistemic: "map"
 goal: "Understand fable adaptation across cultures"
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:43:12Z
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Trace fable development through history."
-review_interval: 180
-see_also: ['[[Animal Allegory is a Persistent Feature of Fables for Social Commentary]]']
+review_interval: "180"
+see_also: ["[[Animal Allegory is a Persistent Feature of Fables for Social Commentary]]"]
 source_of_truth: []
-status: evergreen
-tags: [fable, history, moc, sequence, storytelling]
+status: "evergreen"
+tags: ["fable", "history", "moc", "sequence", "storytelling"]
 title: Sequence - Evolution of Fable Storytelling
-type: sequence
-uid: 20251031122900
-updated: 2025-11-01T21:42:00Z
-version: 2
+type: "sequence"
+uid: 
+updated: 
+version: "2"
 ---
 
 ## Sequence - Evolution of Fable Storytelling

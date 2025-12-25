@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-10T08:29:17Z
-epistemic: 
-id: 20251008_Context_Engineering_for_LLMs
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "20251008_Context_Engineering_for_LLMs"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Context Engineering for LLMs
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Context Engineering** is the practice of managing and optimising the information (the "context") provided to a Large Language Model (LLM) to improve its performance, reliability, and efficiency. Poor context management leads to several failure modes:

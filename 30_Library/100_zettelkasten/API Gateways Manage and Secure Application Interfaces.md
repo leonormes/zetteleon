@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T10:33:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Explain API gateway functionality."
-review_interval: 90
+review_interval: "90"
 see_also: ["Data-Centric Networking Focuses on Packet Journey Through Devices.md"]
 source_of_truth: []
-status: seedling
-tags: [apis, cloud, networking]
+status: "seedling"
+tags: ["apis", "cloud", "topic/technology/networking"]
 title: API Gateways Manage and Secure Application Interfaces
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

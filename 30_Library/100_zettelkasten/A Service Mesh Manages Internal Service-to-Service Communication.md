@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-26T17:09:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [architecture, microservices, networking, tech]
+status: ""
+tags: ["architecture", "microservices", "tech", "topic/technology/networking"]
 title: A Service Mesh Manages Internal Service-to-Service Communication
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 A Service Mesh is a dedicated infrastructure layer that manages communication between services or microservices within a network. Unlike an API Gateway, which handles north-south traffic (client-to-service), a Service Mesh is primarily concerned with east-west traffic (service-to-service).

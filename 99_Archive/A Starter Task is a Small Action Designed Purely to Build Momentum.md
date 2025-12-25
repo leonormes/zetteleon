@@ -4,13 +4,13 @@ confidence: 1
 created: 2025-11-02T12:02:00Z
 epistemic: "definition"
 last_reviewed: 2025-11-02
-modified: 2025-11-02T13:08:27Z
+modified: 2025-12-25T11:40:20+00:00
 purpose: "To define the concept and rules of a starter task."
 review_interval: 90
 see_also: ["[[Chaining Starter Tasks Creates a Momentum Ramp for Difficult Tasks]]", "[[The Momentum Method Uses Starter Tasks to Lower Activation Energy]]"]
 source_of_truth: ["[[The Starter Task Overcomes Activation Energy for ADHD]]"]
 status: "archived"
-tags: [adhd, definition, productivity, task-management]
+tags: [definition, task-management, topic/health/adhd, topic/productivity]
 title: A Starter Task is a Small Action Designed Purely to Build Momentum
 type: "permanent"
 uid: 20251102120200

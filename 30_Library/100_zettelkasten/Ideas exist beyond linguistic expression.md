@@ -1,20 +1,20 @@
 ---
-aliases: [ideas beyond words, pre-linguistic thought]
-confidence: 0.8
+aliases: ["ideas beyond words", "pre-linguistic thought"]
+confidence: "0.8"
 created: 2025-10-31T20:00:00Z
-epistemic: principle
-last_reviewed: 2025-10-31
-modified: 2025-10-31T13:11:03Z
+epistemic: "principle"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Establishes that thoughts and ideas exist as pre-linguistic mental representations distinct from their verbal expressions"
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [cognition, language, philosophy-of-mind]
+status: "seedling"
+tags: ["language", "philosophy-of-mind", "topic/cognition"]
 title: Ideas exist beyond linguistic expression
-type: concept
-uid: 2025-10-31T20:00:00Z
-updated: 2025-10-31T20:00:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Ideas Exist beyond Linguistic Expression

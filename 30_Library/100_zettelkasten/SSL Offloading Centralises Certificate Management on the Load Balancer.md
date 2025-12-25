@@ -1,18 +1,18 @@
 ---
 aliases: ["SSL Termination"]
-confidence: 0.8
+confidence: "0.8"
 created: 2025-10-31T09:25:29Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:41Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Define SSL offloading and its benefits."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [load-balancing, networking, security, ssl, tls]
+status: "seedling"
+tags: ["load-balancing", "security", "ssl", "tls", "topic/technology/networking"]
 title: SSL Offloading Centralises Certificate Management on the Load Balancer
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

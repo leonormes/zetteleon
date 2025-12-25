@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-03T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-04T13:28:10Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "https://gemini.google.com/share/0bf03c7ce4b5"
 source_of_truth: []
-status: 
+status: ""
 tags: ["clipped", "llm_session"]
 title: Building Self Beyond Objective Truth
-type: 
+type: ""
 uid: 
 updated: 
 ---

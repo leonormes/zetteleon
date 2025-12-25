@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:31:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [authentication, cloud-native, machine-to-machine, security]
+status: ""
+tags: ["authentication", "cloud-native", "machine-to-machine", "security"]
 title: Machine-to-Machine Authentication Methods
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Machine-to-machine (M2M) authentication methods are designed for automated systems to securely communicate without human intervention. These methods typically rely on programmatic exchanges and cryptographic trust.

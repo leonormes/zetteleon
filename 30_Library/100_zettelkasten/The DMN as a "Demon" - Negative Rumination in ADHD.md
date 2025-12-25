@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-24T15:18:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [DMN, emotional-dysregulation, mental-health, negative-thoughts, RSD, rumination, topic/health/adhd]
+status: "null"
+tags: ["DMN", "emotional-dysregulation", "mental-health", "negative-thoughts", "RSD", "rumination", "topic/health/adhd"]
 title: 'The DMN as a "Demon" - Negative Rumination in ADHD'
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 When the ADHD brain is not engaged in a stimulating task and gets "stuck" in the [[Task-Positive Network (TPN) and Default Mode Network (DMN) Defined|Default Mode Network (DMN)]], it can become a source of significant distress, often described as a "Demon." This is particularly true when the DMN is active without a positive focus, leading to cycles of negative rumination and self-critical thoughts.

@@ -1,22 +1,22 @@
 ---
-aliases: [Information Types, Learning Information Types]
-confidence:
+aliases: ["Information Types", "Learning Information Types"]
+confidence: "null"
 created: 2025-08-11T17:26:02Z
-creation_date: 2025-09-11
-epistemic:
-last_reviewed:
-modified: 2025-10-30T10:49:50Z
-purpose:
-review_interval:
+creation_date: "2025-09-11T00:00:00.000Z"
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [topic/learning, topic/productivity, topic/psychology, type/moc]
+status: "null"
+tags: ["topic/learning", "topic/productivity", "topic/psychology"]
 title: Type 1 vs Type 2 Information in Learning and Action
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: "null"
 ---
 
 There are two fundamental types of information that drive different learning and behavioral patterns:

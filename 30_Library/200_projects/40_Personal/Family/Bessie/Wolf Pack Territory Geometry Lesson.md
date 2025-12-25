@@ -1,25 +1,25 @@
 ---
 aliases: []
 author: ["[[Gemini]]"]
-confidence: 
+confidence: ""
 created: 2025-08-22T00:00:00Z
-description: Created with Gemini
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:31Z
-published:
-purpose: 
-review_interval: 
+description: "Created with Gemini"
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:25+00:00
+published: ""
+purpose: ""
+review_interval: ""
 see_also: []
-source: https://gemini.google.com/share/9dafcb144169
+source: "https://gemini.google.com/share/9dafcb144169"
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Wolf Pack Territory Geometry Lesson
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 take in to consideration Lockhart's lament, and design an activity that utilises Bessie's interest in the wolf quest game to help learn some geometry. We have been working out the amount of food a pack needs and i thought we could use the territory a pack controls as the area that sustains their prey, and that they would need to control and certain amount of land to have access to enough food. Make the activity progressive and start simple

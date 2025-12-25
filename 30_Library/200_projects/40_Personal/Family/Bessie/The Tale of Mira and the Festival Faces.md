@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-28T11:10:48Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:09:17Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:25+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [story]
+status: ""
+tags: ["story"]
 title: The Tale of Mira and the Festival Faces
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 My 13 year old daughter is good at special effects make up. But she is very sensitive to criticism. I want to explain to her that feedback is essential for her to improve and make the most of her talent and interest. I want her to understand that just because she has a natural ability for it doesn't mean everything she does is great. I want her to learn to sell out feedback and to constantly want to improve her skills without taking it personally. Her art is all about how people see it and it's she can learn to use feedback to improve she will get very good at it. Give me a story or fable or allogry that express the power of getting honest feedback and practicing in public so she learns from what others see

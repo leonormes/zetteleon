@@ -1,20 +1,20 @@
 ---
-aliases: [Time Chunking, Timeblocking]
-confidence: 0.9
+aliases: ["Time Chunking", "Timeblocking"]
+confidence: "0.9"
 created: 2025-11-10T14:00:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T13:28:09Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the time blocking productivity technique."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[The Core Principles of Time Blocking]]", "[[Time Blocking vs Time Boxing]]"]
-source_of_truth: ["[[MOC - Time Blocking and Time Boxing for Productivity]]"]
-status: seedling
-tags: [focus, productivity, scheduling, time-management]
+source_of_truth: []
+status: "seedling"
+tags: ["focus", "scheduling", "time-management", "topic/productivity"]
 title: Time Blocking is a Technique for Dedicating Specific Segments of Time to Particular Tasks
-type: concept
-uid: 2025-11-10T14:00:00Z
-updated: 2025-11-10T14:00:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Time Blocking is a Technique for Dedicating Specific Segments of Time to Particular Tasks

@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 1.0
+confidence: "1.0"
 created: 2025-11-22T15:00:00Z
-epistemic: fact
-last_reviewed: 2025-11-22
-modified: 2025-11-22T14:42:44Z
+epistemic: "fact"
+last_reviewed: "2025-11-22"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Defines the connection establishment process in TCP."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [networking/tcp]
+status: "seedling"
+tags: ["topic/technology/networking/tcp"]
 title: Concept - TCP Three-Way Handshake
-type: concept
-uid: 2025-11-22T15:00:00Z
-updated: 2025-11-22T15:00:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## TCP Three-Way Handshake

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T08:05:04Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [environment, topic/learning, topic/productivity, topic/psychology]
+status: "null"
+tags: ["environment", "topic/learning", "topic/productivity", "topic/psychology"]
 title: The Performer Upgrade Framework
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The "Performer Upgrade Framework" provides the necessary environment to [[Train the Performer to Escape the Intelligence Trap]]. It consists of four key elements designed to rebuild the atrophied "Performer" persona:

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-05-17T16:32:15Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/networking]
+status: "null"
+tags: ["topic/technology/networking"]
 title: Layer 6 Presentation Layer
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The Presentation Layer ensures that data is in a usable format and is where data encryption occurs. It is responsible for data translation, encryption, and compression. It transforms data into a universally understandable format, handling syntax differences between different systems.

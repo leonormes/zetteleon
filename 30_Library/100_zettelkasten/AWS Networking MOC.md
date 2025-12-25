@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-24T14:25:58Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:36Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [aws, moc, topic/technology/networking, topic/technology/networking/cloud-networking]
+status: "null"
+tags: ["aws", "moc", "topic/technology/networking", "topic/technology/networking/cloud-networking"]
 title: AWS Networking MOC
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: "null"
 ---
 
 This Map of Content (MOC) organizes notes specifically related to networking services and concepts within Amazon Web Services (AWS).
@@ -46,6 +46,7 @@ This Map of Content (MOC) organizes notes specifically related to networking ser
 
 - [[AWS ENIs Connect EKS Worker Nodes to VPC Networks]] rel:: implements
 - [[Sequence - Container to Internet Packet Flow in EKS]] rel:: demonstrates
+- [[SoT - Kubernetes Networking & DNS#5. Private Cluster Ingress Patterns (EKS Specifics)|Private EKS Ingress Patterns]]
 
 ---
 

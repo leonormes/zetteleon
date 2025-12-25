@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-27T19:18:03Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-29T18:51:23Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [curiosity, mindset, topic/learning, topic/psychology]
+status: "null"
+tags: ["curiosity", "mindset", "topic/learning", "topic/psychology"]
 title: The Feeling of Cleverness is an Engine for Curiosity
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The internal feeling of "being clever" when learning is often misinterpreted as a competitive ranking against others. It is more accurately understood as the subjective experience of the brain's learning reward system.

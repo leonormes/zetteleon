@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-29T04:23:37Z
 epistemic:
 last_reviewed:
-modified: 2025-10-30T14:04:40Z
+modified: 2025-12-25T11:40:50+00:00
 purpose: Deconstructs a long hybrid note into atomic facts and a contextual structural map, while also providing a secondary prompt for synthesizing multiple notes into consolidated concepts.
 review_interval:
 see_also: []
@@ -109,6 +109,7 @@ tags: []
 ```
 
 #### Atomic Types (bricks)
+
 **Common required:** `status`, and for (concept|strategy|definition) also `epistemic`, `purpose` (or `purpose: NA`).
 
 ```markdown

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-05-28T14:26:24Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [motivation, topic/health/adhd, topic/productivity/gtd]
+status: "null"
+tags: ["motivation", "topic/health/adhd", "topic/productivity/gtd"]
 title: All the Enthusiasm and Energy for a Plan Disappears
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 My main problem with the ADHD is the way all the enthusiasm and energy for a plan disappears.

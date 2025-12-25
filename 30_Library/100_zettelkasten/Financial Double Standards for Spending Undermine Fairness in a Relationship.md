@@ -1,20 +1,20 @@
 ---
-aliases: [Spending Double Standards]
-confidence: 0.9
+aliases: ["Spending Double Standards"]
+confidence: "0.9"
 created: 2025-11-10T10:18:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To identify the harm of financial double standards."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [conflict, fairness, finance, relationship]
+source_of_truth: []
+status: "seedling"
+tags: ["conflict", "fairness", "finance", "relationship"]
 title: Financial Double Standards for Spending Undermine Fairness in a Relationship
-type: concept
-uid: 2025-11-10T10:18:00Z
-updated: 2025-11-10T10:18:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Financial Double Standards for Spending Undermine Fairness in a Relationship

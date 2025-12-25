@@ -1,21 +1,21 @@
 ---
-aliases: [Structure vs Least Resistance]
-confidence: 1
+aliases: ["Structure vs Least Resistance"]
+confidence: "1"
 created: 2025-11-01T21:02:00Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:43:14Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To explain how timeboxing counteracts the tendency to do easy, shallow work."
-review_interval: 90
-see_also: ['[[Deep Work]]', '[[Timeboxing Creates Structure for Action]]']
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Timeboxing Creates Structure for Action.md"]
-status: evergreen
-tags: [deep-work, productivity, psychology, time-management]
+review_interval: "90"
+see_also: ["[[Deep Work]]", "[[Timeboxing Creates Structure for Action]]"]
+source_of_truth: []
+status: "evergreen"
+tags: ["deep-work", "time-management", "topic/productivity", "topic/psychology"]
 title: Timeboxing Combats the Principle of Least Resistance
-type: concept
-uid: 20251101210200
-updated: 2025-11-01T21:02:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 Without a clear structure, it is natural to gravitate toward shallow, easy tasks—the path of least resistance. Timeboxing provides the necessary structure to counteract this tendency.

@@ -1,23 +1,23 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-10-31T10:52:00Z
-criteria: Focus on protocol-level concepts.
-epistemic:
-exclusions: Implementation-specific details or cloud DNS services.
-last_reviewed:
-modified: 2025-12-07T18:13:51Z
-purpose: Organize core DNS concepts.
-review_interval: 180
-scope: Fundamental DNS mechanisms from 'DNS Explained.md'.
+criteria: "Focus on protocol-level concepts."
+epistemic: ""
+exclusions: "Implementation-specific details or cloud DNS services."
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
+purpose: "Organize core DNS concepts."
+review_interval: "180"
+scope: "Fundamental DNS mechanisms from 'DNS Explained.md'."
 see_also: []
 source_of_truth: []
-status:
-tags: [dns, networking]
+status: ""
+tags: ["dns", "topic/technology/networking"]
 title: MOC - DNS Core Concepts and Mechanisms
-type: map
-uid:
-updated:
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - DNS Core Concepts and Mechanisms

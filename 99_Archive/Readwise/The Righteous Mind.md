@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T15:49:33Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-12T16:07:53Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,11 +22,13 @@ updated:
 ![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/41h9b%2BYMawL._SL200_.jpg)
 
 ### Metadata
+
 - Author: [[Jonathan Haidt]]
 - Full Title: The Righteous Mind
 - Category: #books
 
 ### Highlights
+
 - psychological anthropologist ([Location 374](https://readwise.io/to_kindle?action=open&asin=B0076O2VMI&location=374))
     - Note: What osthis? Sound siley kond of thing
 - Timaeus adds that a man who masters his emotions will live a life of reason and justice, and will be reborn into a celestial heaven of eternal happiness. A man who is mastered by his passions, however, will be reincarnated as a woman. ([Location 613](https://readwise.io/to_kindle?action=open&asin=B0076O2VMI&location=613))

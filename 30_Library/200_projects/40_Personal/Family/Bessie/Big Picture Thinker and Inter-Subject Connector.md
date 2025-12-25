@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-20T15:26:10Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-08T00:24:36Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [connections, project/family/bessie, strengths, topic/cognition/thinking]
+status: ""
+tags: ["connections", "project/family/bessie", "strengths", "topic/cognition/thinking"]
 title: Big Picture Thinker and Inter-Subject Connector
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Bessie demonstrates exceptional ability to see connections between different subjects and concepts, thinking in broad, interconnected ways rather than in isolated silos. This strength should be leveraged in her learning approach.

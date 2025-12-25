@@ -1,22 +1,22 @@
 ---
 aliases: []
 author: ["[[Gemini]]"]
-confidence: 
+confidence: ""
 created: 2025-12-14T00:00:00Z
 description: "Created with Gemini"
-epistemic: 
-last_reviewed: 
-modified: 2025-12-14T17:53:37Z
-published:
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+published: ""
+purpose: ""
+review_interval: ""
 see_also: []
 source: "https://gemini.google.com/share/0504b04adde4"
 source_of_truth: []
-status: 
+status: ""
 tags: ["clippings"]
 title: Vegetables Ranked - Nutrition Tier Lists
-type: 
+type: ""
 uid: 
 updated: 
 ---

@@ -1,20 +1,20 @@
 ---
-aliases: [externalization effect, writing strips phenomenology]
-confidence: 0.8
+aliases: ["externalization effect", "writing strips phenomenology"]
+confidence: "0.8"
 created: 2025-10-31T20:46:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-10-31T13:20:04Z
+epistemic: "fact"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "Describes how externalization isolates propositional content from phenomenological experience"
-review_interval: 90
-see_also: [[Thoughts are bundled with phenomenological qualities]]
+review_interval: "90"
+see_also: ["[[Thoughts are bundled with phenomenological qualities]]"]
 source_of_truth: []
-status: seedling
-tags: [cognition, metacognition, writing]
+status: "seedling"
+tags: ["metacognition", "topic/cognition", "writing"]
 title: Writing isolates propositional content from phenomenological experience
-type: concept
-uid: 2025-10-31T20:46:00Z
-updated: 2025-10-31T20:46:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Writing Isolates Propositional Content from Phenomenological Experience

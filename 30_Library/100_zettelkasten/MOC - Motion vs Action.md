@@ -1,23 +1,23 @@
 ---
-aliases: [Motion Action MOC, Motion vs Action Framework]
-confidence:
+aliases: ["Motion Action MOC", "Motion vs Action Framework"]
+confidence: ""
 created: 2025-11-01T20:22:24Z
-criteria: Atomic notes must relate to the core distinction between preparatory activities (motion) and outcome-producing activities (action).
-epistemic:
-exclusions: Detailed implementation guides for specific tools; domain-specific applications outside productivity.
-last_reviewed:
-modified: 2025-12-07T18:13:51Z
-purpose:
-review_interval:
-scope: Comprehensive framework for understanding and applying the motion vs action distinction across productivity systems, with specific applications for ADHD.
+criteria: "Atomic notes must relate to the core distinction between preparatory activities (motion) and outcome-producing activities (action)."
+epistemic: ""
+exclusions: "Detailed implementation guides for specific tools; domain-specific applications outside productivity."
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: ""
+scope: "Comprehensive framework for understanding and applying the motion vs action distinction across productivity systems, with specific applications for ADHD."
 see_also: []
 source_of_truth: []
-status:
-tags: [action, motion, productivity]
+status: ""
+tags: ["action", "motion", "topic/productivity"]
 title: MOC - Motion vs Action
-type: map
-uid: 2025-11-01T20:22:24Z
-updated: 2025-11-01T20:22:24Z
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - Motion Vs Action

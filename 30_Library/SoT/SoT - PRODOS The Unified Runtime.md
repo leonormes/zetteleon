@@ -1,25 +1,24 @@
 ---
-aliases: []
-confidence:
-created: 2025-12-20T02:37:23Z
-epistemic:
-last_reviewed:
-modified: 2025-12-20T14:38:49Z
-purpose:
-review_interval:
-see_also: []
+aliases: ["High-Throughput Runtime", "ProdOS Manual", "The Unified Runtime"]
+confidence: "5/5"
+created: 2025-12-20T00:00:00Z
+epistemic: "operational"
+last_reviewed: "2025-12-24"
+modified: 2025-12-25T18:34:55Z
+purpose: "To provide a single High-Throughput Runtime Manual that supersedes separate architectural SoTs, bridging the gap between knowing and doing for an Interest-Based Nervous System."
+review_interval: "3 months"
+see_also: ["[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: []
-status:
-tags: [prodos]
+status: "stable"
+tags: ["adhd", "architecture", "prodos", "productivity", "system_design"]
 title: SoT - PRODOS The Unified Runtime
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
-Purpose: To replace the "Encyclopedia" of 30+ separate architecture notes with a single High-Throughput Runtime Manual. This document supersedes all previous architectural SoTs.
-
-Core Philosophy: The system is not a Museum for storage; it is a Factory for throughput. Its only purpose is to bridge the gap between "knowing" and "doing" for an Interest-Based Nervous System.
+> [!abstract] Core Philosophy
+> The system is not a Museum for storage; it is a Factory for throughput. Its only purpose is to bridge the gap between "knowing" and "doing" for an Interest-Based Nervous System.
 
 ---
 

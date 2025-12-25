@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T11:23:00Z
-epistemic: analogy
-last_reviewed: 
-modified: 2025-10-31T11:23:00Z
+epistemic: "analogy"
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
 purpose: "Explain abstraction through map analogy."
-review_interval: 90
+review_interval: "90"
 see_also: ["Higher Abstraction Levels Increase Breadth But Reduce Depth.md"]
 source_of_truth: []
-status: seedling
-tags: [cognition, visualization]
+status: "seedling"
+tags: ["topic/cognition", "visualization"]
 title: Map Analogy Illustrates Abstraction Tradeoffs
-type: example
+type: "example"
 uid: 
 updated: 
 ---

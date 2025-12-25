@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-24T15:06:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [creativity, neurodiversity, personal-growth, strengths, topic/health/adhd, topic/productivity/hyperfocus]
+status: "null"
+tags: ["creativity", "neurodiversity", "personal-growth", "strengths", "topic/health/adhd", "topic/productivity/hyperfocus"]
 title: Leveraging ADHD Strengths and Superpowers
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 While Attention-Deficit/Hyperactivity Disorder (ADHD) presents significant challenges, it is also associated with a unique set of strengths and "superpowers" that often go unrecognized due to a predominant focus on deficits. Recognizing and leveraging these traits is crucial for personal growth and countering negative self-image.

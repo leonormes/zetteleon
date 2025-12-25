@@ -1,33 +1,24 @@
 ---
 aliases: ["Agency Cultivation", "Taking Control", "The Gift of Desperation"]
-confidence: 5/5
+confidence: "5/5"
 created: 2025-12-15T00:00:00Z
-epistemic: Derived from Cate Hall's "Agency Cultivation" model (TED Talk).
-last_reviewed: 2025-12-15
-modified: 2025-12-20T09:54:07Z
-purpose: To define Personal Agency as a learnable capacity and provide a structural framework for radical personal transformation.
-related-soTs: ["[[SoT - Cognitive Refactoring (Neural Debugging)]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - Logotherapy and the Will to Meaning]]"]
-review_interval: 1 year
-see_also: ["[[Growth mindset]]"]
-source_of_truth: true
-status: stable
-tags: ["agency", "mindset", "personal_development", "psychology", "transformation"]
+epistemic: "Derived from Cate Hall's \\\\\\\"Agency Cultivation\\\\\\\" model (TED Talk)."
+last_reviewed: "2025-12-15"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define Personal Agency as a learnable capacity and provide a structural framework for radical personal transformation."
+review_interval: "1 year"
+see_also: ["[[Growth mindset]]", "[[SoT - Cognitive Refactoring (Neural Debugging)]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - Logotherapy and the Will to Meaning]]"]
+source_of_truth: []
+status: "stable"
+tags: ["agency", "mindset", "personal_development", "topic/psychology", "transformation"]
 title: SoT - Personal Agency and Transformation
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Personal Agency** is the capacity to **both see and act on all the degrees of freedom you actually have**.
->
-> It is not an inherent trait but a **system state** reached by removing the constraints of pride, fear, and fixed mindsets. The goal is to "locate the doors hidden within you" to unlock inconceivable kinds of freedom.
-
----
-
 ## 2. The Agency Cultivation Model
+
 *Source: [A Practical Guide to Taking Control of Your Life](http://www.youtube.com/watch?v=gN07gbipMoY)*
 
 Radical transformation follows a logical progression from "Rock Bottom" to "High Agency."

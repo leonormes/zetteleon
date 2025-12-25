@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T11:50:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T11:50:00Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Explain Kubernetes pod networking."
-review_interval: 90
+review_interval: "90"
 see_also: ["NAT Gateways Enable Private Resources to Access Internet.md"]
 source_of_truth: []
-status: seedling
-tags: [kubernetes, networking]
+status: "seedling"
+tags: ["kubernetes", "topic/technology/networking"]
 title: Containers Within a Pod Share Network Namespace and IP Address
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

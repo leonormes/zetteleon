@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:34:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [authentication, CICD, OIDC, security, short-lived-credentials]
+status: ""
+tags: ["authentication", "CICD", "OIDC", "security", "short-lived-credentials"]
 title: Short-Lived Credentials Core Principle in Terraform Cloud
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The core principle behind best practices for credentials in Terraform Cloud (now HCP Terraform) is the complete elimination of long-lived static secrets. This is achieved by replacing them with **ephemeral, OIDC-issued tokens** that are tightly coupled to each Terraform run.

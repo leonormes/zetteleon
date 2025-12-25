@@ -1,33 +1,20 @@
 ---
-aliases: [Borrow Checker, Rust Lifetimes, Rust Ownership]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-19T13:11:01Z
-decay-signals: []
-epistemic: model
-last_reviewed: 2025-12-19
-modified: 2025-12-20T09:54:05Z
+aliases: ["Borrow Checker", "Rust Lifetimes", "Rust Ownership"]
+confidence: "5/5"
+created: 2025-12-19T00:00:00Z
+epistemic: "model"
+last_reviewed: "2025-12-19"
+modified: 2025-12-25T11:40:20+00:00
 purpose: "To explain the mechanics, rules, and theoretical critique of Rust's ownership, borrowing, and lifetime system."
-quality-markers: [Connects it to the 'Nanny' language concept., Defines the three core rules, Explains the compile-time enforcement]
-related-soTs: ["[[SoT - Quantitative Type Theory and Graded Modalities]]", "[[SoT - Region-Based Memory Management]]", "[[SoT - Rust's Design Philosophy]]"]
-resonance-score: 9
-review_interval: 12 months
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: []
+review_interval: "12 months"
+see_also: ["[[SoT - Quantitative Type Theory and Graded Modalities]]", "[[SoT - Region-Based Memory Management]]", "[[SoT - Rust's Design Philosophy]]"]
+source_of_truth: []
+status: "stable"
 tags: ["compilers", "memory-management", "rust", "type-system"]
 title: "SoT - Rust's Ownership Model"
-type: SoT
+type: "SoT"
 uid: 
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Rust's Ownership Model** is a novel, compile-time memory management system that guarantees memory safety and prevents data races. It operates on a strict set of rules enforced by the compiler (the "borrow checker") to control how data is accessed and modified, replacing the need for a garbage collector or manual memory management.
-
+updated: 
 ---
 
 ## 2. The Core Problem: The Chaos of Shared Mutable State
@@ -35,7 +22,7 @@ updated:
 The majority of critical bugs and security vulnerabilities in systems programming (e.g., C/C++) stem from incorrect memory management, specifically the uncontrolled sharing of mutable state.
 
 | Failure Mode | The Problem | The Ownership Solution |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Dangling Pointers / Use-After-Free** | A pointer refers to memory that has been deallocated, leading to crashes or arbitrary code execution. | **Lifetimes:** The borrow checker ensures that no reference can outlive the data it points to. The data's "owner" is responsible for cleanup, and this is enforced at compile time. |
 | **Data Races** | Two or more threads access the same memory concurrently, with at least one access being a write, leading to unpredictable behavior. | **Borrowing Rules:** You can have either one mutable reference (`&mut T`) OR any number of immutable references (`&T`), but never both at the same time. This is enforced per scope. |
 | **Double Free** | The program tries to deallocate the same memory twice, corrupting the memory allocator's state. | **Single Owner:** Each value in Rust has a single "owner." When the owner goes out of scope, the value is dropped (deallocated). Ownership can be "moved," transferring responsibility. |

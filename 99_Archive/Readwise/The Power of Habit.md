@@ -7,7 +7,7 @@ decay-signals: []
 epistemic: theory
 last-synthesis: 2025-12-12
 last_reviewed: 2025-12-07
-modified: 2025-12-20T09:54:04Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: To define the canonical framework for habit formation and modification based on James Clear's Atomic Habits.
 quality-markers: [Habit Stacking)., Includes both creation and breaking rules., Maps Laws to the Habit Loop., Provides actionable strategies (Implementation Intentions]
 related-soTs: []
@@ -17,7 +17,7 @@ see_also: ["[[Behavior Change Occurs on Three Layers Outcomes Process and Identi
 source_of_truth: true
 status: stable
 supersedes: []
-tags: [atomic_habits, behavior_change, habits, methodology, psychology]
+tags: [behavior_change, methodology, topic/habits, topic/psychology]
 title: The Power of Habit
 type: SoT
 uid:
@@ -35,10 +35,10 @@ updated:
 
 All habits proceed through four distinct stages in a feedback loop. Failure at any stage prevents the habit from forming.
 
-1.  **Cue:** The trigger that initiates the behavior (notices the reward).
-2.  **Craving:** The motivational force or desire (wants the reward).
-3.  **Response:** The actual behavior or action performed (obtains the reward).
-4.  **Reward:** The end goal that satisfies the craving (teaches the brain).
+1. **Cue:** The trigger that initiates the behavior (notices the reward).
+2. **Craving:** The motivational force or desire (wants the reward).
+3. **Response:** The actual behavior or action performed (obtains the reward).
+4. **Reward:** The end goal that satisfies the craving (teaches the brain).
 
 ### The Neurology of Efficiency
 
@@ -54,7 +54,7 @@ Habits are the brain's strategy for energy conservation. As behaviours become au
 To build a habit, you must solve the problem of "how to act" at each stage.
 
 | Stage | Law | Principle | Actionable Strategy |
-| :--- | :--- | :--- | :--- |
+|:--- |:--- |:--- |:--- |
 | **Cue** | **1st Law** | **Make It Obvious** | **Implementation Intentions:** "I will [BEHAVIOR] at [TIME] in [LOCATION]." <br> **Habit Stacking:** "After [CURRENT HABIT], I will [NEW HABIT]."<br> **Environment Design:** Make cues visible (e.g., fruit on the counter). |
 | **Craving** | **2nd Law** | **Make It Attractive** | **Temptation Bundling:** Pair an action you *want* to do with one you *need* to do.<br> **Social Norms:** Join a culture where your desired behavior is the normal behavior. |
 | **Response** | **3rd Law** | **Make It Easy** | **Reduce Friction:** Decrease the number of steps.<br> **Prime the Environment:** Prepare tools in advance.<br> **2-Minute Rule:** "When you start a new habit, it should take less than two minutes to do."<br>**The Pomodoro Start:** Use a timer to overcome the initial resistance, focusing on the *start* not the *finish*. |
@@ -67,7 +67,7 @@ To build a habit, you must solve the problem of "how to act" at each stage.
 To eliminate a habit, you invert the laws to increase friction or remove the reward.
 
 | Stage | Inversion | Principle | Actionable Strategy |
-| :--- | :--- | :--- | :--- |
+|:--- |:--- |:--- |:--- |
 | **Cue** | **Inversion of 1st** | **Make It Invisible** | **Remove the Cue:** Hide junk food, delete apps, put phone in another room. |
 | **Craving** | **Inversion of 2nd** | **Make It Unattractive** | **Reframe Mindset:** Highlight the benefits of avoiding the habit. |
 | **Response** | **Inversion of 3rd** | **Make It Difficult** | **Increase Friction:** Add steps (e.g., take batteries out of the remote).<br> **Commitment Device:** Restrict future choices to the one you want. |
@@ -107,6 +107,7 @@ Studies show that focusing on the *process* (putting in the time) matters more t
 ## 6. Practical Application Plans
 
 ### Developer Example
+
 - **Goal:** Code for 1 hour daily.
 - **Law 1 (Obvious):** "I will open VS Code at 8:00 AM." (Implementation Intention). Sticky note on monitor (Environment).
 - **Law 2 (Attractive):** "I can listen to my favorite podcast only while coding." (Temptation Bundling).

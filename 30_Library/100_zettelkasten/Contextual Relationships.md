@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-05-08T06:44:40Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:37Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [context, relationships, topic/pkm/zettelkasten]
+status: "null"
+tags: ["context", "relationships", "topic/pkm/zettelkasten"]
 title: Contextual Relationships
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: "null"
 ---
 
 Contextual relationships are connections between concepts, data points, or ideas that derive their meaning from the specific circumstances, environment, or framework in which they exist. Unlike inherent logical connections, these relationships are situational and can change when the context shifts.

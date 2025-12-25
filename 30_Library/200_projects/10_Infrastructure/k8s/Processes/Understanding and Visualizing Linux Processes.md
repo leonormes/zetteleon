@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:36+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [cli, containers, linux, processes, Processes]
+status: ""
+tags: ["cli", "containers", "linux", "processes", "Processes"]
 title: Understanding and Visualizing Linux Processes
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Let's start with the fundamentals and build up to more advanced process visualization techniques. Think of processes like a family tree - they have parents, children, and relationships that tell us how they're connected and what they're doing.
@@ -225,7 +225,7 @@ Understanding the STAT column in ps:
 - +: Foreground process
 - l: Multi-threaded
 - N: Low priority
-- < : High priority
+- <: High priority
 - s: Session leader
 
 ## Practical Examples

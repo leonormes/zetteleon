@@ -1,20 +1,20 @@
 ---
 aliases: ["Stages of task execution", "Task phases"]
-confidence: 0.90
+confidence: "0.90"
 created: 2025-10-31T00:01:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:58Z
+epistemic: "fact"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Defines the universal cognitive model of task execution phases"
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Performance monitoring activates anterior cingulate cortex]]", "[[Sustained attention activates right-lateralized fronto-parietal networks]]", "[[Task initiation requires prefrontal cortex activation and dopamine signaling]]"]
-source_of_truth: [ACT-R cognitive architecture model, Fitts and Posner skill acquisition model]
-status: seedling
-tags: [cognitive-psychology, executive-function, task-execution]
+source_of_truth: []
+status: "seedling"
+tags: ["executive-function", "task-execution", "topic/psychology"]
 title: Task execution consists of five distinct cognitive phases
-type: concept
-uid: 2025-10-31T00:01:00Z
-updated: 2025-10-31T00:01:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Task Execution Consists of Five Distinct Cognitive Phases

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-29T15:16:19Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [philosophy-of-science, topic/cognition/mental-model]
+status: "null"
+tags: ["philosophy-of-science", "topic/cognition/mental-model"]
 title: Instrumentalism vs Realism in Understanding
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 This distinction from the philosophy of science describes two views on theories and models:
@@ -38,6 +38,6 @@ This describes a distinction in how one treats a model:
 
 A person stuck with a flawed mental model is often in an instrumentalist phase. Their model of a Kubernetes Service as a "magic IP" is a tool that works for simple deployments. They haven't progressed to a realist understanding of how `kube-proxy` and `iptables` actually function.
 
-Our conversation has been a journey from an instrumentalist view of numbers (they are tools for counting) to a more realist view (what *is* the structure of numbers? e.g., ).
+Our conversation has been a journey from an instrumentalist view of numbers (they are tools for counting) to a more realist view (what *is* the structure of numbers? e.g.,).
 
 Links: [[Flawed Mental Models Limit Mastery]], [[Effective Theory]]

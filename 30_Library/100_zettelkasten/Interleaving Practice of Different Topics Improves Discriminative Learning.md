@@ -1,20 +1,20 @@
 ---
-aliases: [Interleaving, Varied Practice]
-confidence: 0.9
+aliases: ["Interleaving", "Varied Practice"]
+confidence: "0.9"
 created: 2025-11-10T16:10:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T14:08:42Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define the Interleaving learning strategy."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Understanding vs Learning]]"]
-status: seedling
-tags: [interleaving, learning, study-habits]
+source_of_truth: []
+status: "seedling"
+tags: ["interleaving", "learning", "topic/habits"]
 title: Interleaving Practice of Different Topics Improves Discriminative Learning
-type: concept
-uid: 2025-11-10T16:10:00Z
-updated: 2025-11-10T16:10:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Interleaving Practice of Different Topics Improves Discriminative Learning

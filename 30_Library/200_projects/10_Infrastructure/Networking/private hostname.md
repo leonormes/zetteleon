@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-25T21:47:46Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:49Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: private hostname
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 In a private VPC with an EKS cluster, you have considerable flexibility in naming hostnames for your web applications that are not accessed via the public internet. Here's a breakdown of the rules and considerations:
@@ -105,7 +105,7 @@ Accurate because:
 - It starts as a hostname: An FQDN begins with a hostname, which is the basic name you'd give to a device on a network.
 - Formatted for DNS: The "formatted" part is crucial. It highlights that to become a DNS name, the hostname needs to be extended with domain information to fit into the hierarchical structure of DNS.
 Further Clarification - What "formatted for DNS" means:
-- Domain Suffix: "Formatted for DNS" primarily means appending a domain suffix to the hostname. This suffix indicates which domain the hostname belongs to within the DNS hierarchy. Examples of domain suffixes are .com, .org, .net, .co.uk, .internal, etc.
+- Domain Suffix: "Formatted for DNS" primarily means appending a domain suffix to the hostname. This suffix indicates which domain the hostname belongs to within the DNS hierarchy. Examples of domain suffixes are.com,.org,.net,.co.uk,.internal, etc.
 - Fully Qualified: The "fully qualified" part means that the name is complete and unambiguous within the DNS system. It includes all parts of the domain hierarchy, all the way up to the root (though the root is often implied and not explicitly written).
 - Example Breakdown:
   - Let's say your hostname is webserver.

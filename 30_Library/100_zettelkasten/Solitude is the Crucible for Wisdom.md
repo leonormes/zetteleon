@@ -1,24 +1,24 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-16T12:20:22Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Solitude is the Crucible for Wisdom
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
-Solitude isn’t escape — it’s a return to life’s essence.
+Solitude isn’t escape—it’s a return to life’s essence.
 
 - In solitude, the individual reconnects with authenticity [15:40].
 - Wisdom arises from reflection without outside noise [16:13].

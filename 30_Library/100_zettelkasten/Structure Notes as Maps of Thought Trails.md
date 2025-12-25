@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:44:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [organization, topic/pkm, topic/pkm/zettelkasten, type/moc]
+status: "null"
+tags: ["organization", "topic/pkm", "topic/pkm/zettelkasten"]
 title: Structure Notes as Maps of Thought Trails
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 In a PKM that embraces [[Writing as a Thinking Tool]], the role of the polished, summary-style note changes. It is no longer the final product or the primary artifact of value. Instead, it becomes a **Structure Note** (or Map of Content) that serves as a high-level guide to the messy, authentic thinking process that produced it.

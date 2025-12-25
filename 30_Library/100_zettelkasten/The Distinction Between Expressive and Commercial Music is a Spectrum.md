@@ -1,20 +1,20 @@
 ---
-aliases: [Music Authenticity Spectrum]
-confidence: 0.9
+aliases: ["Music Authenticity Spectrum"]
+confidence: "0.9"
 created: 2025-11-10T11:08:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T08:55:35Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To add nuance to the expression vs. product dichotomy."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Music as Expression vs Product]]"]
-status: seedling
-tags: [authenticity, commerce, expression, music]
+source_of_truth: []
+status: "seedling"
+tags: ["authenticity", "commerce", "expression", "music"]
 title: The Distinction Between Expressive and Commercial Music is a Spectrum
-type: concept
-uid: 2025-11-10T11:08:00Z
-updated: 2025-11-10T11:08:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Distinction Between Expressive and Commercial Music is a Spectrum

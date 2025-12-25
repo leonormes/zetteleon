@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:22:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [meaning, semantics, topic/cognition, topic/technology/AI]
+status: "null"
+tags: ["meaning", "semantics", "topic/cognition", "topic/technology/AI"]
 title: "Meaning in an LLM interaction resides in the user's interpretation"
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The "meaning" derived from an interaction with an LLM does not reside in the model itself, as it has no subjective understanding. Instead, meaning is generated entirely within the user's cognitive processes.

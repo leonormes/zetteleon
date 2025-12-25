@@ -1,20 +1,20 @@
 ---
-aliases: [Self-Comparison]
-confidence: 0.9
+aliases: ["Self-Comparison"]
+confidence: "0.9"
 created: 2025-11-01T12:30:09Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T10:08:40Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To promote self-referential progress measurement."
-review_interval: 90
-see_also: ['[[Continuous Iterative Learning Mindset is Essential]]']
-source_of_truth: ['[[MOC - Divergent Thinking vs Specialization]]']
-status: seedling
-tags: [growth, mindset, self-improvement]
+review_interval: "90"
+see_also: ["[[Continuous Iterative Learning Mindset is Essential]]"]
+source_of_truth: []
+status: "seedling"
+tags: ["growth", "mindset", "self-improvement"]
 title: "Compare Oneself to Yesterday's Self Not Others"
-type: concept
-uid: 2025-11-01T12:30:09Z
-updated: 2025-11-01T12:30:09Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Compare Oneself to Yesterday's Self Not Others

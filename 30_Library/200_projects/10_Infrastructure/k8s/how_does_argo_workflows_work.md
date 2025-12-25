@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:52Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:40Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:35+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [curriculum]
+status: ""
+tags: ["curriculum"]
 title: how_does_argo_workflows_work
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## 1. Define Purpose and Principles (Why & What Are the Guiding principles?)

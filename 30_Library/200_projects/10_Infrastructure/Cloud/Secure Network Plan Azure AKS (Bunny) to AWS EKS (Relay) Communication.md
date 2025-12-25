@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-13T12:59:40Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [ff_deploy, networking]
+status: ""
+tags: ["ff_deploy", "topic/technology/networking"]
 title: Secure Network Plan Azure AKS (Bunny) to AWS EKS (Relay) Communication
-type: plan
+type: "plan"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 This document outlines a secure network plan for establishing communication between a publicly accessible Azure Kubernetes Service (AKS) cluster and a private Amazon Elastic Kubernetes Service (EKS) cluster. The goal is to enable a service named "bunny" in the Azure AKS cluster to securely call a service named "relay" within the private AWS EKS cluster for job processing.

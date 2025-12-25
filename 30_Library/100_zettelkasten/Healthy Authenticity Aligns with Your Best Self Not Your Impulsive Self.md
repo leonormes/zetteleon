@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:02:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-29T19:27:23Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [authenticity, personal-growth, self-reflection, values]
+status: ""
+tags: ["authenticity", "personal-growth", "self-reflection", "values"]
 title: Healthy Authenticity Aligns with Your Best Self Not Your Impulsive Self
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Authenticity is often misunderstood as a license to act on every impulse or express every unfiltered thought. However, healthy authenticity involves a more nuanced approach. It requires self-reflection and self-awareness to understand one's true feelings and values, and then making conscious choices about how to act in alignment with one's *highest principles*.

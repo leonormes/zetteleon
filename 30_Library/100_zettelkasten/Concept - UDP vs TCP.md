@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 1.0
+confidence: "1.0"
 created: 2025-11-22T15:00:11Z
-epistemic: fact
-last_reviewed: 2025-11-22
-modified: 2025-11-22T14:42:51Z
+epistemic: "fact"
+last_reviewed: "2025-11-22"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Contrasts the two primary transport layer protocols."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [networking/protocol]
+status: "seedling"
+tags: ["topic/technology/networking/protocol"]
 title: Concept - UDP vs TCP
-type: concept
-uid: 2025-11-22T15:00:11Z
-updated: 2025-11-22T15:00:11Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## UDP Vs TCP

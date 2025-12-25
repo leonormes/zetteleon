@@ -1,47 +1,72 @@
 ---
-aliases: [FitFile Deployment Phase 4]
-confidence: 5/5
-created: 2025-12-21T12:00:00Z
-epistemic: process
-last_reviewed: 2025-12-21
-modified: 2025-12-21T14:57:22Z
-purpose: To provide a detailed guide for Phase 4 of the FitFile deployment process.
-review_interval: 3 months
+aliases: ["Application Stack Setup", "FitFile Deployment Phase 4"]
+confidence: "5/5"
+created: 2025-12-21T10:51:29Z
+epistemic: "process"
+last_reviewed: "2025-12-23"
+modified: 2025-12-25T18:34:55Z
+purpose: "To provide a detailed guide for Phase 4 of the FitFile deployment process: deploying the application microservices."
+review_interval: "3 months"
 see_also: ["[[MOC - FitFile Deployment]]", "[[SoT - FITFILE Platform Deployment]]"]
-source_of_truth: true
-status: stable
-tags: [application, ff_deploy, phase4]
+source_of_truth: []
+status: "stable"
+tags: ["application", "ff_deploy", "helm", "phase4"]
 title: SoT - FitFile Deployment - Phase 4 - Application Layer
-type: SoT
+type: "SoT"
 uid: 
 updated: 
-version: 1.0
 ---
 
-## Phase 4: Application Layer (The Logic)
+## 1. Goal: Deploying the Logic
 
-**Goal:** Deploy the actual FitFile services (FFNode, MongoDB, Frontend) via GitOps.
+Phase 4 is the final stage where the actual FITFILE services (FFNode, MongoDB, APIs) are deployed via GitOps. This phase leverages the foundational work of the previous three stages: secrets from Vault (Phase 1), compute resources (Phase 2), and the ArgoCD engine (Phase 3).
 
-- **Detailed Guide:** [[Set Up New Deployment]] (See "Deploy the Platform" section).
-- **Helm Charts:**
-    - [[Helm Charts Deployment]]
-    - [[Simplify the helm charts]]
-    - [[Helm Chart Management Tool]]
-    - [[refactoring_suggestions]]
-    - [[FFNODE as Umbrella Chart]]
-- **Key Actions:**
-    1. **ArgoCD:** Deploy ArgoCD.
-    2. **Vault:** Deploy Vault.
-    3. **Argo Workflows:** Deploy Argo Workflows.
-    4. **Monitoring Stack:** Deploy Prometheus, Grafana, AlertManager.
-    5. **Config:** Create the customer-specific `values.yaml` in the `ffnodes/` repository.
-    6. **Sync:** In ArgoCD, sync the Root Application (`ff-<deployment_key>`).
-    7. **Reconcile:** Watch as ArgoCD hydrates the child applications (MongoDB, FitConnect, etc.).
-- **Verification:**
-    - [ ] All ArgoCD Apps show `Synced` and `Healthy`.
-    - [ ] Frontend accessible via public URL.
-    - [ ] Integration tests pass (if configured).
-    - [ ] Validate ArgoCD deployment
-    - [ ] Test Vault secret management
-    - [ ] Confirm workflow execution
-    - [ ] Check monitoring data flow
+---
+
+## 2. Helm & GitOps Configuration (FFNode)
+
+### A. The Deployment Repository
+
+ArgoCD pulls the configuration from the dedicated customer deployment repository. This repository contains the `values.yaml` files that define the state of the cluster.
+
+### B. The Umbrella Chart
+
+The `ffnode` chart aggregates all sub-components. Configuration is managed via customer-specific `values.yaml` files.
+
+```yaml
+# Example: ffnodes/fitfile/customer-prod/values.yaml
+namespace: "customer-prod"
+deploymentKey: "customer-prod"
+deploy:
+  mongodb: true
+  spicedb: true
+  fitconnect: true
+```
+
+### C. Deployment Trigger
+
+1. Merge the `values.yaml` changes into the `master` branch of the customer repository.
+2. ArgoCD will automatically detect the change and reconcile the cluster state, pulling the specified container images using the Phase 3 image pull secrets.
+3. The application will consume secrets stored in Vault and authenticate users via the Auth0 configuration established in Phase 1.
+
+---
+
+## 3. Post-Deployment Configuration
+
+### A. Database Initialization
+
+- **MongoDB:** Insert the initial `Tenants` and `Connections` documents required for the platform to recognize the client.
+- **SpiceDB:** Create the required project relationships and permissions.
+
+### B. RBAC and Permissions
+
+Assign the `data_source_manager` role to the initial set of administrative users in Auth0 to enable platform configuration.
+
+---
+
+## 4. Verification Checklist
+
+- [ ] **ArgoCD Sync:** All child applications show "Synced" and "Healthy."
+- [ ] **Pipeline:** Integration tests in GitLab pass.
+- [ ] **Accessibility:** The frontend is reachable via the internal Ingress IP.
+- [ ] **Secrets:** Application pods successfully mount Vault-injected secrets.

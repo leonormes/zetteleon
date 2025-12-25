@@ -1,20 +1,20 @@
 ---
-aliases: [Habits]
-confidence: 0.9
+aliases: ["Habits"]
+confidence: "0.9"
 created: 2025-11-10T17:11:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T15:41:37Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define habits as a mechanism for action."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - The Science and Philosophy of Taking Action]]"]
-status: seedling
-tags: [automaticity, behavior-change, habits, psychology]
+source_of_truth: []
+status: "seedling"
+tags: ["automaticity", "behavior-change", "topic/habits", "topic/psychology"]
 title: Habits are Automatic Behaviors Triggered by Environmental Cues
-type: concept
-uid: 2025-11-10T17:11:00Z
-updated: 2025-11-10T17:11:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Habits Are Automatic Behaviors Triggered by Environmental Cues

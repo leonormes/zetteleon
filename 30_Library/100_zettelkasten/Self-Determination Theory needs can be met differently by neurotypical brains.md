@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-08T18:24:09Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/health/adhd]
+status: ""
+tags: ["topic/health/adhd"]
 title: Self-Determination Theory needs can be met differently by neurotypical brains
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The universal psychological needs outlined in Self-Determination Theory—Autonomy, Competence, and Relatedness—are motivators for everyone. However, neurotypical individuals can often satisfy these needs within conventional structures. For instance, the need for Relatedness can motivate a neurotypical person to complete a mundane task to be seen as competent by their team, a connection that an ADHD brain might find insufficiently stimulating to act upon.

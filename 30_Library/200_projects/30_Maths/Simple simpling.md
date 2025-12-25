@@ -1,25 +1,25 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-13T10:47:18Z
-epistemic: 
-id: Simple simpling
-last_reviewed: 
-modified: 2025-11-03T13:48:22Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "Simple simpling"
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [project/family/bessie, topic/maths]
+status: ""
+tags: ["project/family/bessie", "topic/maths"]
 title: Simple simpling
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
-## Activity: Unlocking the Power of Simplicity – A Journey Through Expressions
+## Activity: Unlocking the Power of Simplicity–A Journey Through Expressions
 
 Core Concept: Simplifying an expression means rewriting it in a more efficient, concise, and understandable form without changing its value. It's about finding clarity and recognizing underlying patterns and structures.
 
@@ -31,7 +31,7 @@ Mathematical Habits of Mind Emphasized:
 
 ---
 
-## Level 1: Concrete Exploration – The "Like Terms" Analogy
+## Level 1: Concrete Exploration–The "Like Terms" Analogy
 
 Goal: To intuitively grasp the concept of "like terms" and why only like terms can be combined.
 
@@ -104,4 +104,4 @@ Procedure:
 2. Factorizing Simple Quadratics: Explain that factorizing is the reverse of expanding, aiming to rewrite an expression as a product of simpler ones [26]. For example, turning $x^2 + 3x + 2$ back into $(x + 1)(x + 2)$.
    - Pattern Recognition: "What patterns do you look for in the constant term and the coefficient of the $x$ term to figure out the factors?" (e.g., factors of 2 that add up to 3) [8].
 3. Connecting to Equations: Discuss how simplifying expressions is often the first step in solving equations [29, 30]. For example, $2x + 5 + 3x = 20$ simplifies to $5x + 5 = 20$. "Why is simplifying the expression important before solving the equation?" (It makes the equation easier to manage and solve).
-4. Algorithms in Daily Life: Discuss how mathematical procedures, like simplifying expressions, are essentially algorithms – a set of steps to achieve a desired outcome efficiently . Use the example of choosing coupons (20% off vs. $5 off) where algebraic expressions are simplified to find the "optimal leverage point"
+4. Algorithms in Daily Life: Discuss how mathematical procedures, like simplifying expressions, are essentially algorithms–a set of steps to achieve a desired outcome efficiently. Use the example of choosing coupons (20% off vs. $5 off) where algebraic expressions are simplified to find the "optimal leverage point"

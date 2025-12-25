@@ -1,21 +1,21 @@
 ---
-aliases: [Adaptive Identity, Identity Flexibility]
-confidence: 0.8
+aliases: ["Adaptive Identity", "Identity Flexibility"]
+confidence: "0.8"
 created: 2025-11-01T12:04:20Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:26:24Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Provide strategic guidance for maintaining identity flexibility to enable growth."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Identity Conflict Impedes Positive Change]]", "[[Identity Emerges from Habits Not Fixed at Birth]]", "[[Two-Step Identity Change Process]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Habits and Identity.md"]
-status: seedling
-tags: [behavior-change, growth-mindset, habits, identity, strategy]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "growth-mindset", "identity", "strategy", "topic/habits"]
 title: Continuously Edit and Expand Your Identity Beliefs
-type: strategy
-uid: 2025-11-01T12:04:20Z
-updated: 2025-11-01T12:04:20Z
-version: 1
+type: "strategy"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** To enable continuous growth and prevent identity conflict from blocking positive change, you must continuously edit and expand your beliefs about yourself. Avoid clinging too tightly to a single, rigid version of your identity.

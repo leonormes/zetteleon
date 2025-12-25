@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T12:05:03Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-30T10:49:50Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
-status: seedling
-tags: [automation, context, habits]
+status: "seedling"
+tags: ["automation", "context", "topic/habits"]
 title: Strong Habits are Context-Independent
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

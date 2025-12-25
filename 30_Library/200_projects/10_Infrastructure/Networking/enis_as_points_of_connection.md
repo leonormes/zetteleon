@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:53Z
-epistemic: 
-ID: enis as points of connection
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+ID: "enis as points of connection"
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: enis_as_points_of_connection
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## ENIs as Points of Connection

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-05-26T14:09:19Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-29T19:39:28Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Overwhelm
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The ADHD brain can struggle with processing multiple tasks, managing emotions, and filtering sensory input. A system like Zettelkasten, with its perceived rules, linking requirements, and the sheer volume of potential notes, can trigger cognitive overwhelm (too many thoughts/options), task overwhelm (too many steps), and logistic overwhelm (too many decisions about organization). This feeling of being overloaded can lead to frustration, anxiety, and ultimately, shutdown or avoidance. Trying to fit everything into the system or over-collecting information without clear processing pathways exacerbates this.

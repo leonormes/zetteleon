@@ -1,20 +1,20 @@
 ---
 aliases: ["Curiosity Hooks"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-11T19:05:11Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-11T10:57:47Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Defines 'curiosity hooks' as a tool for sparking inspiration."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [creativity, motivation, productivity]
+status: "seedling"
+tags: ["creativity", "motivation", "topic/productivity"]
 title: Curiosity Hooks are Self-Posed Questions to Rekindle Inspiration
-type: concept
-uid: 2025-11-11T19:05:11Z
-updated: 2025-11-11T19:05:11Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Curiosity Hooks Are Self-Posed Questions to Rekindle Inspiration

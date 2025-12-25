@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:53Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:41+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers, workstation]
+status: ""
+tags: ["containers", "workstation"]
 title: debug lima
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The error `kex_exchange_identification: read: Connection reset by peer` typically indicates a failure in the SSH handshake process. This can occur due to a variety of issues, including the SSH server on the Lima VM not running or refusing the connection. Here's how to debug and fix this:

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-24T15:09:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [community, mental-health, social-connection, support, topic/health/adhd]
+status: "null"
+tags: ["community", "mental-health", "social-connection", "support", "topic/health/adhd"]
 title: The Importance of Social Connection for ADHD (Vitamin Connect)
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 For individuals with Attention-Deficit/Hyperactivity Disorder (ADHD), positive social connection is not merely beneficial but often essential for mental well-being and effective self-management. A lack of positive connection, sometimes referred to as "Vitamin Connect" deficiency, can be psychologically harmful, exacerbating feelings of isolation, misunderstanding, and shame.

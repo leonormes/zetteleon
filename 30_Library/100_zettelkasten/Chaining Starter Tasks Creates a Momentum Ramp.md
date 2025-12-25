@@ -1,18 +1,18 @@
 ---
-aliases: [Momentum Ramp, Task Chaining]
-confidence: 
+aliases: ["Momentum Ramp", "Task Chaining"]
+confidence: ""
 created: 2025-12-16T14:45:00Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:55:00Z
-purpose: To test if chaining micro-tasks creates an inertial ramp for hard work.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "To test if chaining micro-tasks creates an inertial ramp for hard work."
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
-source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
-status: pending
-tags: [experiment, hypothesis, momentum, task-initiation, topic/health/adhd, topic/productivity]
+source_of_truth: []
+status: "pending"
+tags: ["experiment", "hypothesis", "momentum", "task-initiation", "topic/health/adhd", "topic/productivity"]
 title: Chaining Starter Tasks Creates a Momentum Ramp
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
 ---
@@ -32,7 +32,7 @@ updated:
 - **Action:**
 
     1. Define the Hard Task.
-    2. Write down a "Runway" of 3 micro-tasks ( < 2 min each).
+    2. Write down a "Runway" of 3 micro-tasks (< 2 min each).
     3. Execute the Runway rapidly.
     4. Don't stop; crash straight into the Hard Task.
 

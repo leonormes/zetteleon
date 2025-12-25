@@ -1,23 +1,23 @@
 ---
-aliases: [ADHD Project Return Problem]
-confidence:
+aliases: ["ADHD Project Return Problem"]
+confidence: "null"
 created: 2025-10-30T15:00:39Z
-criteria: Must address the specific problem of losing mental models between work sessions or strategies to maintain project continuity
-epistemic:
-exclusions: General ADHD productivity strategies not specific to project continuation
-last_reviewed:
-modified: 2025-12-07T18:13:51Z
-purpose:
-review_interval:
-scope: Strategies and insights for overcoming the ADHD challenge of returning to creative projects
+criteria: ""
+epistemic: "null"
+exclusions: "General ADHD productivity strategies not specific to project continuation"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
+scope: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [project-continuity, topic/health/adhd]
+status: "null"
+tags: ["project-continuity", "topic/health/adhd"]
 title: MOC - ADHD Project Continuation Challenge
-type: map
-uid: 2025-10-30T15:00:39Z
-updated: 2025-10-30T15:00:39Z
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - ADHD Project Continuation Challenge
@@ -43,7 +43,7 @@ This creates a destructive cycle: starting fresh feels easier than continuing, s
 [[Documenting Mental Models Enables Project Re-entry]] rel:: solution strategy:: "Capture mental models while in flow"
 
 - Create mind maps or flowcharts of ideas and connections
-- Record voice memos explaining thought process and vision  
+- Record voice memos explaining thought process and vision
 - Write quick notes about key elements and relationships
 - **Why it works:** Externalizes what would be lost, creating scaffolding for reconstruction
 

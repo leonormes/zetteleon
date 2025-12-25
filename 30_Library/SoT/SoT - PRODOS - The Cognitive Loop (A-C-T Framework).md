@@ -1,30 +1,20 @@
 ---
-aliases: [A-C-T Framework, Human-LLM-Human Sandwich, One-Note-Container, The Cognitive Loop, The Refinement Protocol]
-confidence: 5/5
+aliases: ["A-C-T Framework", "Human-LLM-Human Sandwich", "One-Note-Container", "The Cognitive Loop", "The Refinement Protocol"]
+confidence: "5/5"
 created: 2025-12-07T00:00:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-20T09:54:07Z
-purpose: To define the standard operating procedure for converting amorphous thought into actionable outcomes using LLMs.
-review_interval:
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: ["[[ADHD, LLMs, and PKM Balance]]"]
-tags: [architecture, llm, prodos, workflow]
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define the standard operating procedure for converting amorphous thought into actionable outcomes using LLMs."
+review_interval: "3 months"
+see_also: ["[[ADHD", "and PKM Balance]]", "LLMs"]
+source_of_truth: []
+status: "stable"
+tags: ["architecture", "llm", "prodos", "workflow"]
 title: SoT - PRODOS - The Cognitive Loop (A-C-T Framework)
-type: SoT
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> The **Cognitive Loop** (specifically the **A-C-T Framework**) is the standard ProdOS protocol for interacting with LLMs. It enforces a shift from "Information Collection" (divergent) to "Process Direction" (convergent).
->
-> It mandates that **every** interaction with an LLM must be bounded by a pre-defined "Container" and must result in a specific, physical **Minimum Viable Action (MVA)**.
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. The Core Problem: The Collector's Fallacy
@@ -62,23 +52,23 @@ To bypass analysis paralysis, all "thinking" sessions must follow this three-pha
 
 If Phase A is stalled due to "Task Size Anxiety":
 
--   **The Rule:** You are only authorized to work for **2 minutes**.
--   **Constraint:** Remove the threat of a "long, boring task."
--   **Output:** After 120 seconds, you must choose: *Continue* (Dopamine high) or *Stop* (Save state via Tri-State Router).
+- **The Rule:** You are only authorized to work for **2 minutes**.
+- **Constraint:** Remove the threat of a "long, boring task."
+- **Output:** After 120 seconds, you must choose: *Continue* (Dopamine high) or *Stop* (Save state via Tri-State Router).
 
 ### Phase C: CONTAINER (Define the Boundary)
 
--   **The Constraint:** Before acting, the user must define the **One-Note-Container**.
--   **The Rule:** "I will create exactly *one* new atomic note, titled '[Title]', containing [Specific Data]."
--   **The Execution:** The user sets a timer (Time-Boxing) and performs the MVA. This is the "Act like a man of thought" phase—executing a deliberate, bounded task.
+- **The Constraint:** Before acting, the user must define the **One-Note-Container**.
+- **The Rule:** "I will create exactly *one* new atomic note, titled '[Title]', containing [Specific Data]."
+- **The Execution:** The user sets a timer (Time-Boxing) and performs the MVA. This is the "Act like a man of thought" phase—executing a deliberate, bounded task.
 
 ### Phase T: THOUGHT (Reflect & Synthesize)
 
--   **The Input:** The raw data or result generated in Phase C.
--   **The Role:** The LLM acts as a **Synthesizer**.
--   **The Tool:** **Gemini Pro** (Deep reasoning, complex analysis).
--   **The Prompt:** "Here is the data I generated. What is the single key insight? What is the logical next MVA?"
--   **The Output:** A validated **SoT Note** for the Library and the input for the next A-Phase.
+- **The Input:** The raw data or result generated in Phase C.
+- **The Role:** The LLM acts as a **Synthesizer**.
+- **The Tool:** **Gemini Pro** (Deep reasoning, complex analysis).
+- **The Prompt:** "Here is the data I generated. What is the single key insight? What is the logical next MVA?"
+- **The Output:** A validated **SoT Note** for the Library and the input for the next A-Phase.
 
 ---
 

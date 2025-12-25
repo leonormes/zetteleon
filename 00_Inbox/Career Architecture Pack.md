@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-19T02:50:28Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-20T09:54:03Z
+modified: 2025-12-24T12:52:35+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -18,12 +18,14 @@ updated:
 ---
 
 ## Career Architecture Pack: Leon Ormes
+
 **Generated:** 19 December 2025
 **Version:** 1.0 (Final Architecture)
 
 ---
 
 ### Table of Contents
+
 1. [Master CV](#1-master-cv)
 2. [Strategic Cover Letter](#2-strategic-cover-letter)
 3. [LinkedIn Profile Optimisation](#3-linkedin-profile-optimisation)
@@ -40,6 +42,7 @@ updated:
 **Links:** [LinkedIn](https://www.linkedin.com/in/leonormes)
 
 #### **Professional Profile**
+
 **Senior DevOps & Platform Engineer** transitioning from a strong software engineering background. Specialises in architecting secure, compliant, and scalable cloud-native infrastructures within high-regulatory environments (Healthcare/FinTech).
 
 - **Core Competency:** Bridging the gap between application logic and infrastructure. Expert in transforming manual, high-error deployment processes into automated, "single-command" GitOps workflows.
@@ -49,7 +52,7 @@ updated:
 #### **Technical Architecture Stack**
 
 | Domain | Technologies & Frameworks |
-| :--- | :--- |
+|:--- |:--- |
 | **Cloud & Infrastructure** | AWS (EKS, EC2, VPC), Azure (AKS, VNets, NSGs), Terraform (IaC), Terraform Cloud |
 | **Orchestration & GitOps** | Kubernetes (K8s), Helm, ArgoCD, Docker, GitHub Actions, GitLab CI/CD |
 | **Security & Identity** | HashiCorp Vault, Auth0, ISO 27001/HIPAA compliance, Trivy, SonarQube, Zero-Trust |
@@ -59,7 +62,7 @@ updated:
 #### **Professional Experience**
 
 **FITFILE | Senior Engineer / Platform Engineer**
-*Remote / London, UK | October 2022 – Present*
+*Remote / London, UK | October 2022–Present*
 *FITFILE provides privacy-enhancing technologies for healthcare data analytics.*
 
 **High-Level Achievement:** Architected a comprehensive Terraform-based platform for automating customer onboarding, reducing deployment time by **86%** (70 mins to 10 mins) and error rates from **22% to 3%**.
@@ -70,7 +73,7 @@ updated:
 - **GitOps Implementation:** Deployed ArgoCD for declarative application management across Azure (AKS) and AWS (EKS), ensuring <5 minutes sync drift and enabling rapid rollback capabilities.
 
 **nate | Software Engineer (Backend/DevOps)**
-*London, UK | September 2021 – August 2022*
+*London, UK | September 2021–August 2022*
 *FinTech startup focusing on universal shopping automation.*
 
 **High-Level Achievement:** Led the transition toward DevOps culture by introducing DORA metrics and Kubernetes-native CI/CD, directly linking engineering output to business value delivery.
@@ -80,7 +83,7 @@ updated:
 - **CI/CD Architecture:** Architected and deployed a K8s-native CI/CD pipeline using ArgoCD, shifting the team towards a continuous delivery model.
 
 **Tessian | Node.js Developer**
-*London, UK | February 2018 – September 2021*
+*London, UK | February 2018–September 2021*
 *Cybersecurity company using machine learning to prevent email security breaches.*
 
 **High-Level Achievement:** Key contributor to the email gateway server infrastructure, managing the migration from JavaScript to TypeScript to reduce technical debt and improve maintainability.
@@ -89,7 +92,7 @@ updated:
 - **Culture & Quality:** Championed "Test First" methodologies and cross-team knowledge sharing. Awarded "Culture Champion" for fostering engineering excellence and breaking down silos.
 
 **FifthMorrison | Web Developer**
-*United Kingdom | June 2017 – February 2018*.
+*United Kingdom | June 2017–February 2018*.
 
 - **Full Stack Development:** Built complex web applications using Postgres, GraphQL, Express, and Angular. Responsible for end-to-end delivery of software solutions under the Lead Developer.
 
@@ -97,14 +100,14 @@ updated:
 
 #### **Previous Experience**
 
-**Teacher (Maths, ICT, Music)** | King John School | *September 2007 – January 2017*
+**Teacher (Maths, ICT, Music)** | King John School | *September 2007–January 2017*
 - Developed high-level communication and leadership skills managing large groups.
 - *Relevance:* Transferable skills in mentorship, public speaking, and simplifying complex concepts for diverse audiences.
 
 #### **Education & Certifications**
 
 - **General Assembly:** Web Development Immersive (2017)
-- **freeCodeCamp:** Full-Stack Web Development Certification, Computer Science (2016 – 2017)
+- **freeCodeCamp:** Full-Stack Web Development Certification, Computer Science (2016–2017)
 
 ---
 
@@ -171,6 +174,7 @@ I operate at the intersection of Software Engineering and Infrastructure, applyi
 ### 4. Interview Architecture (Deep Dives)
 
 #### Topic A: The FITFILE Onboarding Architecture
+
 **Question:** *"How did you reduce onboarding time by 86%?"*
 - **Situation:** High-friction manual process (70 mins), mutable state, 22% error rate.
 - **Action:** Implemented "Central Services" repo (Single Source of Truth), reusable Terraform modules, and a custom Go tool (`chart-manager`) for Helm lifecycles.
@@ -178,6 +182,7 @@ I operate at the intersection of Software Engineering and Infrastructure, applyi
 - **Result:** 10-minute deployment time, 3% error rate, ISO 27001 compliance enforced via code.
 
 #### Topic B: Observability (nate)
+
 **Question:** *"How do you measure engineering success?"*
 - **Situation:** Invisible work and subjective "feelings" about speed vs. stability.
 - **Action:** Implemented **DORA Metrics** (Deployment Frequency, Lead Time). Architected K8s-native CI/CD (ArgoCD) to decouple CI from CD.
@@ -185,6 +190,7 @@ I operate at the intersection of Software Engineering and Infrastructure, applyi
 - **Result:** Shifted culture to data-driven delivery; enabled rapid, safe iteration.
 
 #### Topic C: Security in Regulated Ops
+
 **Question:** *"How do you handle security without slowing down devs?"*
 - **Situation:** Healthcare data (NHS) requires Zero Trust, but manual security gates kill velocity.
 - **Action:** **Policy as Code**. Terraform for network micro-segmentation (Azure NSGs, Forced Tunnelling). Kubernetes Network Policies (Calico) for pod-level isolation.
@@ -194,7 +200,7 @@ I operate at the intersection of Software Engineering and Infrastructure, applyi
 
 ### 5. Salary Negotiation Script
 
-**Target Range:** £100,000 – £115,000
+**Target Range:** £100,000–£115,000
 **Mental Model:** You are selling **leverage** (1.1x multiplier on all other devs) and **insurance** (risk mitigation).
 
 #### Phase 1: The Anchor (When Asked for expectations)

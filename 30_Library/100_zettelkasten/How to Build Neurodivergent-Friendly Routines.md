@@ -1,18 +1,18 @@
 ---
-aliases: [A Guide to Building Routines for Neurodivergent Minds]
-confidence: 
+aliases: ["A Guide to Building Routines for Neurodivergent Minds"]
+confidence: "null"
 created: 2025-10-29T16:10:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:38Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [autism, map, routine, topic/health/adhd, topic/productivity/productivity-system]
+status: "null"
+tags: ["autism", "map", "routine", "topic/health/adhd", "topic/productivity/productivity-system"]
 title: How to Build Neurodivergent-Friendly Routines
-type: sequence
+type: "sequence"
 uid: 
 updated: 
 ---

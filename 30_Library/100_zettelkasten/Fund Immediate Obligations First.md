@@ -1,18 +1,18 @@
 ---
-aliases: [Budgeting Hierarchy]
-confidence: 
+aliases: ["Budgeting Hierarchy"]
+confidence: ""
 created: 2025-11-18T14:37:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-18T14:01:07Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [budgeting, finance, prioritization]
+status: ""
+tags: ["budgeting", "finance", "prioritization"]
 title: Fund Immediate Obligations First
-type: 
+type: ""
 uid: 
 updated: 
 ---

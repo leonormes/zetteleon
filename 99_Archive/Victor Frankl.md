@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-16T02:02:21Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-07T18:13:46Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -114,8 +114,8 @@ This simple exercise trains your mind to **notice meaning** in ordinary moments 
 
 Frankl used **Socratic questioning** in therapy to help clients uncover their own truths. You can apply this by journaling or discussing with a trusted friend:
 
-> *“What matters most to me right now?”*  
-*“If I only had one year to live, how would I spend it?”*  
+> *“What matters most to me right now?”*
+*“If I only had one year to live, how would I spend it?”*
 *“What legacy do I want to leave?”*
 
 These questions prompt **self-distancing**—a key logotherapy skill that allows you to step back from immediate emotions and see the bigger picture[4].
@@ -424,7 +424,7 @@ Citations:
 
 [3] Logotherapy - Principles, Techniques, Examples & More <https://thepleasantmind.com/logotherapy/>
 
-[4] Finding life's purpose with Viktor Frankl's Man's Search for ... <https://achology.com/psychology/finding-lifes-purpose-with-viktor-frankls-mans-search-for-meaning/>
+[4] Finding life's purpose with Viktor Frankl's Man's Search for... <https://achology.com/psychology/finding-lifes-purpose-with-viktor-frankls-mans-search-for-meaning/>
 
 [5] The Philosophy of Viktor Frankl - Einzelgänger <https://einzelganger.co/the-philosophy-of-viktor-frankl/>
 
@@ -442,17 +442,17 @@ Citations:
 
 [12] Viktor Frankl Philosophy | Books And Quotes <https://balancerehabclinic.com/viktor-frankl/>
 
-[13] Relevance and Application of Logotherapy to Enhance ... <https://acmhck.org/wp-content/uploads/2013/08/Logotherapy6.pdf>
+[13] Relevance and Application of Logotherapy to Enhance... <https://acmhck.org/wp-content/uploads/2013/08/Logotherapy6.pdf>
 
 [14] Logotherapy: Viktor Frankl's Theory of Meaning <https://www.simplypsychology.org/logotherapy.html>
 
 [15] Suffering, Mental Health, and the Role of Logotherapy <https://www.researchpublish.com/upload/book/Suffering%20Mental%20Health-30102024-10.pdf>
 
-[16] A systematic review on the effects of logotherapy ... <https://pmc.ncbi.nlm.nih.gov/articles/PMC12065743/>
+[16] A systematic review on the effects of logotherapy... <https://pmc.ncbi.nlm.nih.gov/articles/PMC12065743/>
 
 [17] An Open Trial of Meaning-Centered Grief Therapy <https://pmc.ncbi.nlm.nih.gov/articles/PMC6401220/>
 
-[18] The Effect of Logotherapy and Positive Psychology Based ... <https://dergipark.org.tr/en/download/article-file/4354801>
+[18] The Effect of Logotherapy and Positive Psychology Based... <https://dergipark.org.tr/en/download/article-file/4354801>
 
 [19] Dopamine Reward System → Term <https://lifestyle.sustainability-directory.com/term/dopamine-reward-system/>
 
@@ -462,39 +462,39 @@ Citations:
 
 [22] Optimal Sense-Making and Resilience in Times of Pandemic <https://pmc.ncbi.nlm.nih.gov/articles/PMC8042252/>
 
-[23] A Review on the Impact of Logotherapy ... <https://allarticlejournal.com/media/pdf/IJASR-4-4-16.1_YAGwj0L.pdf>
+[23] A Review on the Impact of Logotherapy... <https://allarticlejournal.com/media/pdf/IJASR-4-4-16.1_YAGwj0L.pdf>
 
-[24] The differences between acceptance and commitment ... <https://www.sciencedirect.com/science/article/abs/pii/S2212144723000352>
+[24] The differences between acceptance and commitment... <https://www.sciencedirect.com/science/article/abs/pii/S2212144723000352>
 
 [25] Middle Eastern Journal of Disability Studies <https://jdisabilstud.org/browse.php?a_id=3078&slc_lang=en&sid=1&printcase=1&hbnr=1&hmb=1>
 
 [26] What is Third Wave Cognitive Behavioral Therapy? <https://3rdwavetherapy.com/about/what-is-third-wave-cognitive-behavioral-therapy/>
 
-[27] Investigating the Similarities and Differences between ... <https://pmc.ncbi.nlm.nih.gov/articles/PMC3671395/>
+[27] Investigating the Similarities and Differences between... <https://pmc.ncbi.nlm.nih.gov/articles/PMC3671395/>
 
 [28] Man's Search for Meaning <https://antilogicalism.com/wp-content/uploads/2017/07/mans-search-for-meaning.pdf>
 
-[29] Foundations and Applications of Logotherapy to Improve ... <https://pmc.ncbi.nlm.nih.gov/articles/PMC7290245/>
+[29] Foundations and Applications of Logotherapy to Improve... <https://pmc.ncbi.nlm.nih.gov/articles/PMC7290245/>
 
 [30] Logotherapy: Viktor Frankl's Theory of Meaning <https://positivepsychology.com/viktor-frankl-logotherapy/>
 
-[31] The Three Main Techniques of Logotherapy: A Path to ... <https://sweetinstitute.com/the-three-main-techniques-of-logotherapy-a-path-to-meaningful-living/>
+[31] The Three Main Techniques of Logotherapy: A Path to... <https://sweetinstitute.com/the-three-main-techniques-of-logotherapy-a-path-to-meaningful-living/>
 
-[32] The Suffering Hypothesis: Viktor Frankl's Spiritual Remedies ... <http://www.drpaulwong.com/the-suffering-hypothesis-viktor-frankls-spiritual-remedies-and-recent-developments/>
+[32] The Suffering Hypothesis: Viktor Frankl's Spiritual Remedies... <http://www.drpaulwong.com/the-suffering-hypothesis-viktor-frankls-spiritual-remedies-and-recent-developments/>
 
-[33] Design and effectiveness of an online group logotherapy ... <https://pmc.ncbi.nlm.nih.gov/articles/PMC10915759/>
+[33] Design and effectiveness of an online group logotherapy... <https://pmc.ncbi.nlm.nih.gov/articles/PMC10915759/>
 
 [34] Dereflection in Logotherapy: A path to self-discovery <https://themeaningseeker.org/dereflection/>
 
 [35] The Search for Meaning in the Face of Extreme Distress <https://www.talktoangel.com/blog/logotherapy-the-search-for-meaning-in-the-face-of-extreme-distress>
 
-[36] Acceptance and Commitment Therapy and Contextual ... <https://pmc.ncbi.nlm.nih.gov/articles/PMC3635495/>
+[36] Acceptance and Commitment Therapy and Contextual... <https://pmc.ncbi.nlm.nih.gov/articles/PMC3635495/>
 
 [37] Complicated grief therapy as a new treatment approach <https://www.tandfonline.com/doi/full/10.31887/DCNS.2012.14.2/jwetherell>
 
 [38] Existential Vacuum → Term <https://lifestyle.sustainability-directory.com/term/existential-vacuum/>
 
-[39] Effectiveness of Existential Group Therapy on Event Impact ... <https://www.journals.kmanpub.com/index.php/aftj/article/view/4045>
+[39] Effectiveness of Existential Group Therapy on Event Impact... <https://www.journals.kmanpub.com/index.php/aftj/article/view/4045>
 
 [40] 21. Writing and Art Journalling for Processing Emotions <https://pressbooks.pub/facilitationguideforsocialemotionallearning/chapter/writing-and-art-journalling-for-wellbeing/>
 
@@ -508,9 +508,9 @@ Citations:
 
 [45] Viktor Frankl | Happiness and Meaning <https://www.pursuit-of-happiness.org/history-of-happiness/viktor-frankl/>
 
-[46] Acceptance and Commitment Therapy, Relational Frame ... <https://www.reachcambridge.com/wp-content/uploads/providing-a-rationale-on-different-treatments.pdf>
+[46] Acceptance and Commitment Therapy, Relational Frame... <https://www.reachcambridge.com/wp-content/uploads/providing-a-rationale-on-different-treatments.pdf>
 
-[47] Dopamine in motivational control: rewarding, aversive, and ... <https://pmc.ncbi.nlm.nih.gov/articles/PMC3032992/>
+[47] Dopamine in motivational control: rewarding, aversive, and... <https://pmc.ncbi.nlm.nih.gov/articles/PMC3032992/>
 
 how do the ideas of Albert Camus and frankl overlap? so they complement each other? challenge each other?
 
@@ -550,25 +550,25 @@ If you want, I can also suggest ways to use both perspectives together in practi
 
 Citations:
 
-[1] Comparative Analysis of Victor Frankl's and Albert Camus's ... <https://coremag.khas.edu.tr/individual-agency-and-pursuit-of-purpose-comparative-analysis-of-victor-frankls-and-albert-camuss-perspectives/>
+[1] Comparative Analysis of Victor Frankl's and Albert Camus's... <https://coremag.khas.edu.tr/individual-agency-and-pursuit-of-purpose-comparative-analysis-of-victor-frankls-and-albert-camuss-perspectives/>
 
-[2] Frankl's Logotherapy and the Existentialism of Camus, Jaspers, and ... <https://www.academia.edu/42990290/Frankls_Logotherapy_and_the_Existentialism_of_Camus_Jaspers_and_Sartre>
+[2] Frankl's Logotherapy and the Existentialism of Camus, Jaspers, and... <https://www.academia.edu/42990290/Frankls_Logotherapy_and_the_Existentialism_of_Camus_Jaspers_and_Sartre>
 
-[3] Comparison of Albert Camus and Viktor Frankl on suicide ... - Reddit <https://www.reddit.com/r/Existentialism/comments/m9v7ps/comparison_of_albert_camus_and_viktor_frankl_on/>
+[3] Comparison of Albert Camus and Viktor Frankl on suicide... - Reddit <https://www.reddit.com/r/Existentialism/comments/m9v7ps/comparison_of_albert_camus_and_viktor_frankl_on/>
 
-[4] Yes to Life, in Spite of Everything: Viktor Frankl's Lost Lectures on ... <https://www.themarginalian.org/2020/05/17/yes-to-life-in-spite-of-everything-viktor-frankl/>
+[4] Yes to Life, in Spite of Everything: Viktor Frankl's Lost Lectures on... <https://www.themarginalian.org/2020/05/17/yes-to-life-in-spite-of-everything-viktor-frankl/>
 
 [5] Camus vs. Frankl - Word Choices <http://wordchoicesoprfhs.blogspot.com/2014/10/camus-vs-frankl.html>
 
-[6] Resolving an Essential Inconsistency in Camus' Early ... <https://philarchive.org/archive/PLZAAS>
+[6] Resolving an Essential Inconsistency in Camus' Early... <https://philarchive.org/archive/PLZAAS>
 
-[7] Positive Psychology and Existentialism: A Reconciliation of Meaning ... <https://www.thepositivepsychologypeople.com/positive-psychology-and-existentialism-a-reconciliation-of-meaning-and-acceptance/>
+[7] Positive Psychology and Existentialism: A Reconciliation of Meaning... <https://www.thepositivepsychologypeople.com/positive-psychology-and-existentialism-a-reconciliation-of-meaning-and-acceptance/>
 
 [8] Do you think this quote is similar to Albert Camus' writings? - Facebook <https://www.facebook.com/groups/119997081421884/posts/3428405857247640/>
 
-[9] Camus' Absurd and its Application to Existential ... <https://openresearch.lsbu.ac.uk/download/4cb948383cb2c6fd844aec989b021ff56300a284a8090f5e98d38729051a001e/33462/Camus%E2%80%99%20Absurd%20and%20its%20Application%20to%20Existential%20Psychotherapy%20v2.docx>
+[9] Camus' Absurd and its Application to Existential... <https://openresearch.lsbu.ac.uk/download/4cb948383cb2c6fd844aec989b021ff56300a284a8090f5e98d38729051a001e/33462/Camus%E2%80%99%20Absurd%20and%20its%20Application%20to%20Existential%20Psychotherapy%20v2.docx>
 
-[10] The Suffering Hypothesis: Viktor Frankl's Spiritual Remedies and ... <http://www.drpaulwong.com/the-suffering-hypothesis-viktor-frankls-spiritual-remedies-and-recent-developments/>
+[10] The Suffering Hypothesis: Viktor Frankl's Spiritual Remedies and... <http://www.drpaulwong.com/the-suffering-hypothesis-viktor-frankls-spiritual-remedies-and-recent-developments/>
 
 [11] The Only Serious Question of Philosophy - David Charles <https://davidcharles.info/how-to-be-human/serious-question-philosophy/>
 
@@ -578,11 +578,11 @@ Citations:
 
 [14] About The Meaning Of Life - coremag <https://coremag.khas.edu.tr/about-the-meaning-of-life/>
 
-[15] [PDF] Understanding, dealing and coping with suffering from an existential ... <https://www.meaning.ca/web/wp-content/uploads/2008/01/115-13-486-1-10-20171212.pdf>
+[15] [PDF] Understanding, dealing and coping with suffering from an existential... <https://www.meaning.ca/web/wp-content/uploads/2008/01/115-13-486-1-10-20171212.pdf>
 
 [16] Why Suffering Can Be Beautiful - YouTube <https://www.youtube.com/watch?v=JA5UDOZh4eM>
 
-[17] Sorry to say.....but....how can one relate Russell and Frankl when ... <https://www.facebook.com/groups/119997081421884/posts/892239134197671/>
+[17] Sorry to say.....but....how can one relate Russell and Frankl when... <https://www.facebook.com/groups/119997081421884/posts/892239134197671/>
 
 [18] Search for Meaning: Philosophical Techniques - StudySmarter <https://www.studysmarter.co.uk/explanations/philosophy/existentialism-in-philosophy/search-for-meaning/>
 

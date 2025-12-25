@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-06T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-12T14:24:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2411397121/Resource+Requests+Limits"
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: ["k8s"]
 title: Resource RequestsLimits
-type: 
+type: ""
 uid: 
 updated: 
 ---
@@ -23,7 +23,7 @@ updated:
 ### Table
 
 | Pod name                                  | cpu avg (over 7 days) | cpu max (over 7 days) | cpu req | cpu limit | Notes                                                         | memory avg (over 7 days) | memory max (over 7 days) | memory req | memory limit | max replicas | Features |
-| :---------------------------------------- | :-------------------- | :-------------------- | :------ | :-------- | :------------------------------------------------------------ | :----------------------- | :----------------------- | :--------- | :----------- | :----------- | :------- |
+|:---------------------------------------- |:-------------------- |:-------------------- |:------ |:-------- |:------------------------------------------------------------ |:----------------------- |:----------------------- |:--------- |:----------- |:----------- |:------- |
 | argo-workflows-server                     | 0.000711524           | 0.0112                | 50m     | 50m       | Spiky usage - limit should allow bursts.                      | 74.3 MiB                 | 116.6 MiB                | 90Mi       | 175Mi        |              |          |
 | argo-workflows-workflows-controller       | 0.001835603           | 0.0251                | 50m     | 50m       |                                                               | 127.4 MiB                | 204.4 MiB                | 153Mi      | 307Mi        |              |          |
 | argocd-server                             | 0.0006                | 0.002                 | 50m     | 50m       | Stable usage                                                  | 41.8 MiB                 | 58.1 MiB                 | 51Mi       | 88Mi         |              |          |

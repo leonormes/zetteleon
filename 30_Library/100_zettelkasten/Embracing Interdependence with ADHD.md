@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:10:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [collaboration, interdependence, self-management, strengths, topic/health/adhd]
+status: ""
+tags: ["collaboration", "interdependence", "self-management", "strengths", "topic/health/adhd"]
 title: Embracing Interdependence with ADHD
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 For individuals with Attention-Deficit/Hyperactivity Disorder (ADHD), the refusal to accept help or to operate in isolation can be a significant barrier to progress and well-being. The traditional emphasis on absolute independence often clashes with the realities of ADHD, where executive function challenges can make certain tasks disproportionately difficult.

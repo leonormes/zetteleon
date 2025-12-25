@@ -1,21 +1,20 @@
 ---
 aliases: []
-confidence: 
-created: 2025-02-26T02:00:36Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-22T11:07:48Z
-purpose: 
-review_interval: 
+confidence: ""
+created: 2025-02-26T00:00:00Z
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:22+00:00
+purpose: ""
+review_interval: "3 months"
 see_also: []
 source_of_truth: []
-status: 
-tags: [aws, terraform]
+status: "stable"
+tags: ["aws", "terraform"]
 title: SoT - Data-Centric Infrastructure (Terraform)
-type: documentation
+type: "documentation"
 uid: 
 updated: 
-version: 1
 ---
 
 **Data Architecture Analysis of `config.tf`**
@@ -31,7 +30,7 @@ The `config.tf` file primarily defines infrastructure configuration data for a
   - **Domain:** Infrastructure-as-Code
   - **Example:**
 
-```hcp
+```hcl
 locals {
  metadata = {
  name   = "ff-test-calico"
@@ -51,7 +50,7 @@ locals {
   - **Domain:** Networking
   - **Example:**
 
-```hcp
+```hcl
 locals {
  network_base = {
  vpc = {
@@ -69,7 +68,7 @@ locals {
   - **Domain:** Container Orchestration
   - **Example:**
 
-```hcp
+```hcl
 locals {
  eks = {
  kubernetes_version = "1.31"
@@ -97,7 +96,7 @@ locals {
   - **Domain:** Cloud Computing
   - **Example:**
 
-```hcp
+```hcl
 locals {
  azs = slice(data.aws_availability_zones.available.names, 0, 2)
 }
@@ -110,7 +109,7 @@ locals {
   - **Domain:** Networking
   - **Example:**
 
-```hcp
+```hcl
 locals {
  subnet_cidrs = {
  Eks_az_1 = cidrsubnet(local.network_base.vpc.cidr, 3, 0)
@@ -126,7 +125,7 @@ locals {
   - **Domain:** Infrastructure-as-Code
   - **Example:**
 
-```hcp
+```hcl
 locals {
  config = {
  metadata = local.metadata
@@ -159,7 +158,7 @@ locals {
   - **Specialized vs. Generic:** Mostly specialized (e.g., `subnet_cidrs` specifically stores CIDR calculations), improving readability.
   - **Example:**
 
-```hcp
+```hcl
 locals {
  metadata = {
  name   = "ff-test-calico"
@@ -177,7 +176,7 @@ locals {
   - **Specialized vs. Generic:** Mostly generic, but the context of use adds domain-specific meaning (e.g., `instance_types` within `node_groups`).
   - **Example:**
 
-```hcp
+```hcl
 locals {
  network_base = {
   subnet_identifiers = ["Jumpbox", "Eks_az_1"]
@@ -198,7 +197,7 @@ locals {
   - **Specialized vs. Generic:** Generic
   - **Example:**
 
-```hcp
+```hcl
 locals {
   eks = {
   kubernetes_version = "1.31"
@@ -213,10 +212,10 @@ network_base = {
 
 - **Computed Values:**
   - **Usage:** `azs`, `subnet_cidrs`.
-  - **Alignment:** Demonstrates a data-oriented approach, deriving new data from existing inputs rather than hardcoding.
+  - **Alignment:** Demonstrates a data-oriented approach, deriving new data from existing inputs rather than hard-coding.
   - **Example:**
 
-```hcp
+```hcl
 locals {
  azs = slice(data.aws_availability_zones.available.names, 0, 2)
  subnet_cidrs = {
@@ -294,7 +293,7 @@ locals {
   - **Alignment:** Directly accessing properties of maps is efficient and common in Terraform.
   - **Example:**
 
-```hcp
+```hcl
 locals {
  name = local.metadata.name
 }
@@ -305,7 +304,7 @@ locals {
   - **Alignment:** Good for abstracting away the complexity of calculations.
   - **Example:**
 
-```hcp
+```hcl
 locals {
    azs = slice(data.aws_availability_zones.available.names, 0, 2)
    subnet_cidrs = {
@@ -354,7 +353,7 @@ The `main.tf` file demonstrates a modular approach to infrastructure-as-code b
   - **Source:** Directly derived from `config.tf`
   - **Example**
 
-```hcp
+```hcl
 module "vpc" {
   source = "./modules/vpc"
 
@@ -382,7 +381,7 @@ module "vpc" {
   - **Source:** Mapped from `config.tf`'s `subnet_identifiers`, `subnet_cidrs`, and `network.subnets`.
   - **Example:**
 
-    ```hcp
+    ```hcl
     module "vpc" {
        # ...
         subnets = [
@@ -405,7 +404,7 @@ module "vpc" {
   - **Source:** Derived from `config.tf` and references the `vpc` module outputs.
   - **Example:**
 
-```hcp
+```hcl
 module "gateway" {
   # ...
   vpc_id   = module.vpc.vpc_id
@@ -421,7 +420,7 @@ module "gateway" {
   - **Source:** Mapped from `config.tf`'s `endpoints` and references the `vpc` module.
   - **Example:**
 
-```hcp
+```hcl
 module "vpc_endpoints" {
   # ...
   endpoints = merge(
@@ -451,7 +450,7 @@ module "vpc_endpoints" {
   - **Source:** Derived from `config.tf` and references the `vpc` module.
   - **Example**
 
-```hcp
+```hcl
 module "jumpbox" {
   # ...
   subnet_id   = module.vpc.subnets_id_map["Jumpbox"]
@@ -468,7 +467,7 @@ module "jumpbox" {
   - **Source:** Derived from `config.tf`'s `eks` and references the `vpc` module.
   - **Example:**
 
-```hcp
+```hcl
 module "eks" {
   # ...
   cluster_version = local.eks.kubernetes_version
@@ -525,7 +524,7 @@ module "eks" {
   - **Specialized vs. Generic:** These are specialized maps tailored for managing infrastructure components.
   - **Example:**
 
-```hcp
+```hcl
 module "vpc" {
  # ...
  subnets = [
@@ -542,7 +541,7 @@ module "vpc" {
   - **Specialized vs. Generic:** The context usually gives these generic data structures a domain-specific meaning (e.g., a list of `subnet_identifiers`).
   - **Example:**
 
-```hcp
+```hcl
 module "gateway" {
  # ...
  outbound_to_nat_route_table_ids = [module.vpc.route_table_id_map["Eks_az_1"], module.vpc.route_table_id_map["Eks_az_2"]]

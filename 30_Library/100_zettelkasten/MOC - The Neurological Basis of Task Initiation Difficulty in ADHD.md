@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-30T12:03:01Z
-epistemic:
-last_reviewed:
-modified: 2025-12-08T11:12:04Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [executive-function, neuroscience, topic/health/adhd]
+status: "null"
+tags: ["executive-function", "neuroscience", "topic/health/adhd"]
 title: MOC - The Neurological Basis of Task Initiation Difficulty in ADHD
-type: map
-uid:
-updated:
+type: "map"
+uid: 
+updated: 
 ---
 
 This note provides an overview of the neurological and psychological factors that cause difficulty with task initiation in individuals with ADHD.

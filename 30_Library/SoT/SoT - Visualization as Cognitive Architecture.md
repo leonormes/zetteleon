@@ -1,31 +1,23 @@
 ---
 aliases: ["Active Perception", "The Fractal Mind", "Three Planes of Visualization"]
-confidence: 5/5
+confidence: "5/5"
 created: 2025-12-15T00:00:00Z
-epistemic: Derived from neuroscience of the primary visual cortex and fractal geometry principles.
-last_reviewed: 2025-12-15
-modified: 2025-12-20T09:54:06Z
-purpose: To redefine visualization not as "imagination" but as a cognitive architecture for constructing reality using fractal logic.
-related-soTs: ["[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]", "[[SoT - Reality, Models, and the Limits of Accuracy]]", "[[SoT - The Cognitive Physiology of Task Execution]]"]
-review_interval: 6 months
-see_also: ["[[Visualization Supports Mathematical Thinking]]"]
-source_of_truth: true
-status: stable
+epistemic: "Derived from neuroscience of the primary visual cortex and fractal geometry principles."
+last_reviewed: "2025-12-15"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "To redefine visualization not as \\\\\\\"imagination\\\\\\\" but as a cognitive architecture for constructing reality using fractal logic."
+review_interval: "6 months"
+see_also: ["[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]", "[[SoT - Reality", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[Visualization Supports Mathematical Thinking]]", "and the Limits of Accuracy]]", "Models"]
+source_of_truth: []
+status: "stable"
 tags: ["cognitive_science", "mental_models", "neuroscience", "system_design", "visualization"]
 title: SoT - Visualization as Cognitive Architecture
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Visualization** is not the passive replay of images (Imagination) but the **active assembly of reality**.
->
-> The mind operates on **Fractal Logic**: it constructs the "Big Picture" by repeating a single "Seed Pattern" at different scales. To control the outcome, you must control the **First Frame** (the entry point of the primary visual cortex), not the final image.
-
----
+> The mind operates on **Fractal Logic**: "it constructs the \"Big Picture\" by repeating a single \"Seed Pattern\" at different scales. To control the outcome, you must control the **First Frame** (the entry point of the primary visual cortex), not the final image."
 
 ## 2. Core Concept: The Fractal Mind
 
@@ -42,7 +34,7 @@ The visual cortex does not record the world like a camera; it constructs it like
 The processing architecture changes based on consciousness:
 
 | Mode | State | Direction | Logic |
-| :--- | :--- | :--- | :--- |
+|:--- |:--- |:--- |:--- |
 | **Awake** | **Architectural** | **Inward (Deconstruction)** | Breaks infinite complexity into ordered fragments (Tasks, Concepts) to navigate reality step-by-step. |
 | **Sleep** | **Concentric** | **Outward (Construction)** | Starts with a single "Emotional Nucleus" (Feeling/Object) and expands outwards in layers to generate the dream world. |
 
@@ -51,6 +43,7 @@ The processing architecture changes based on consciousness:
 ---
 
 ## 4. The Three Planes of Visualization
+
 *Source: [Architecture of the Mind](https://youtu.be/9rH9dVTWBmg)*
 
 To visualise effectively, invert the typical "Top-Down" approach. Focus on the source code (Intention), not the output.

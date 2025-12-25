@@ -1,21 +1,21 @@
 ---
-aliases: [Body Doubling, Body Doubling is an Effective ADHD Strategy]
-confidence: 
+aliases: ["Body Doubling is an Effective ADHD Strategy", "Body Doubling"]
+confidence: ""
 created: 2025-10-26T11:12:00Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:55:00Z
-purpose: To test if "Digital Presence" (recording oneself) triggers the same focus benefits as a live human body double.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "To test if \\\"Digital Presence\\\" (recording oneself) triggers the same focus benefits as a live human body double."
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
-source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - ADHD in Remote Software Development]]"]
-status: pending
-tags: [accountability, experiment, focus, hypothesis, topic/health/adhd, topic/productivity]
+source_of_truth: []
+status: "pending"
+tags: ["accountability", "experiment", "focus", "hypothesis", "topic/health/adhd", "topic/productivity"]
 title: Body Doubling for ADHD Focus
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## 1. The Hypothesis

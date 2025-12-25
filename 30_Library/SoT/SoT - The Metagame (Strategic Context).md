@@ -1,30 +1,20 @@
 ---
-aliases: [Metagame Strategy, Strategic Context SoT, The Game Beyond the Game]
-confidence: 5/5
-created: 2025-12-10T12:00:00Z
-epistemic:
-last_reviewed: 2025-12-10
-modified: 2025-12-20T09:54:06Z
-purpose: To define the concept of "Metagame" as a strategic layer operating above direct competition, focusing on environmental and contextual manipulation.
-related-soTs: ["[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - The Cognitive Physiology of Task Execution]]"]
-review_interval: 1 year
-see_also: ["[[Kind Learning Environments are Predictable and Rule-Based]]", "[[Wicked Learning Environments are Dynamic and Unpredictable]]"]
-source_of_truth: true
-status: stable
-tags: ["game-theory", "metagame", "strategy", "systems-thinking"]
+aliases: ["Metagame Strategy", "Strategic Context SoT", "The Game Beyond the Game"]
+confidence: "5/5"
+created: 2025-12-10T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-10"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "To define the concept of \\\\\\\"Metagame\\\\\\\" as a strategic layer operating above direct competition, focusing on environmental and contextual manipulation."
+review_interval: "1 year"
+see_also: ["[[Kind Learning Environments are Predictable and Rule-Based]]", "[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[Wicked Learning Environments are Dynamic and Unpredictable]]"]
+source_of_truth: []
+status: "stable"
+tags: ["game-theory", "metagame", "strategy", "topic/systems"]
 title: SoT - The Metagame (Strategic Context)
-type: SoT
-uid:
-updated:
----
-
-## 1. Definition
-
-The **Metagame** (or "Meta-game") is the strategic layer that operates *outside* or *beyond* the explicit rules of a competition or system. It involves manipulating the environment, context, psychology, and incentives to influence the outcome before the "game" is even played.
-
-> [!definition] Metagame
-> The use of out-of-game information, resources, or strategies to affect in-game decisions. It is the "game about the game."
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. Core Mechanisms

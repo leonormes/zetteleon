@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-30T12:02:08Z
-epistemic:
-last_reviewed:
-modified: 2025-12-08T11:12:04Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [routine, topic/health/adhd, topic/productivity]
+status: "null"
+tags: ["routine", "topic/health/adhd", "topic/productivity"]
 title: MOC - Limitless Morning Routine
-type: map
-uid:
-updated:
+type: "map"
+uid: 
+updated: 
 ---
 
 This note summarizes the "limitless morning routine," a high-efficiency routine focused on rapidly activating energy, focus, and well-being in under 15 minutes.

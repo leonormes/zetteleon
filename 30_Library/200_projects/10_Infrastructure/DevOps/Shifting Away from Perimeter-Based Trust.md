@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-05T12:40:13Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:39Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:41+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [IAM]
+status: ""
+tags: ["IAM"]
 title: Shifting Away from Perimeter-Based Trust
-type: documentation
+type: "documentation"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 That's an excellent question, and it gets to the very heart of the zero trust security model. Based on the materials I've provided, identity absolutely forms the foundation of zero trust security for several crucial reasons.
@@ -24,7 +24,7 @@ That's an excellent question, and it gets to the very heart of the zero trust se
 
 Traditional network security often operates on a perimeter-based model. This approach establishes a security boundary, like a firewall, around what is considered the "trusted" internal network. Anything within this perimeter is often implicitly trusted, or at least subject to less stringent security controls. The problem with this model, especially in modern, dynamic environments, is that once an attacker breaches the perimeter, they can often move laterally within the network with relative ease because the assumption of trust persists. This is often described as a "hard shell and soft interior".
 
-Zero trust fundamentally rejects this notion of implicit trust based on network location. Instead, it operates on the principle of "never trust, always verify". In a zero trust framework, every user, device, application, and network flow is considered untrusted by default, regardless of its location – whether inside or outside a traditional network boundary.
+Zero trust fundamentally rejects this notion of implicit trust based on network location. Instead, it operates on the principle of "never trust, always verify". In a zero trust framework, every user, device, application, and network flow is considered untrusted by default, regardless of its location–whether inside or outside a traditional network boundary.
 
 ## Identity as the New Perimeter
 

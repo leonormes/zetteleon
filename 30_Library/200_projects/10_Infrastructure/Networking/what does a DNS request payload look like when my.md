@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-22T09:34:06Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-10T19:59:52Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/networking/dns]
+status: ""
+tags: ["topic/technology/networking/dns"]
 title: what does a DNS request payload look like when my
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 What Does a DNS Request Payload Look Like? when My Computer Tries to Resolve a URL for Instance
@@ -71,9 +71,9 @@ AA AA 01 00 00 01 00 00 00 00 00 00
 ### Field Breakdown
 
 | Field                       | Bytes | Description                                            |
-| :-------------------------- | :---- | :----------------------------------------------------- |
+|:-------------------------- |:---- |:----------------------------------------------------- |
 | **AA AA**                   | 0–1   | Transaction ID (randomly generated per request) [^2_1] |
-| **01 00**                   | 2–3   | Flags – standard query, recursion desired [^2_1]       |
+| **01 00**                   | 2–3   | Flags–standard query, recursion desired [^2_1]       |
 | **00 01**                   | 4–5   | QDCOUNT: one question [^2_1]                           |
 | **00 00**                   | 6–7   | ANCOUNT: no answers (request only) [^2_1]              |
 | **00 00**                   | 8–9   | NSCOUNT: no authority records [^2_1]                   |
@@ -97,7 +97,7 @@ If you’d like, the hex can be converted to bytes and sent raw via Python or ne
 
 How Does a DNS Resolver Work? is it Okay of a Database? is it a Process Running on a Server that Uses the Database? Give Me a Pseudo Code Example
 
-A **DNS resolver** is not just a database — it’s an actively running network service (process) that *uses cached data* to resolve domain names into IP addresses. It performs iterative queries to authoritative servers and may cache results in memory or in a database-like store, but the resolver itself is a **software daemon** that handles network logic and recursion [^3_1][^3_2][^3_3][^3_4].
+A **DNS resolver** is not just a database—it’s an actively running network service (process) that *uses cached data* to resolve domain names into IP addresses. It performs iterative queries to authoritative servers and may cache results in memory or in a database-like store, but the resolver itself is a **software daemon** that handles network logic and recursion [^3_1][^3_2][^3_3][^3_4].
 
 ### Key Idea
 
@@ -163,7 +163,7 @@ function resolve(domain):
 
 If you like, a next step could be showing a compact **Go or Python resolver function** that performs the real network recursion, based on this pseudo-pipeline. Would you like that version next?
 
-Here’s a concise Go example of a **recursive DNS resolver**, using the `github.com/miekg/dns` library — which handles the raw DNS packet structure and simplifies the recursion logic [^4_1][^4_2][^4_3][^4_4][^4_5].
+Here’s a concise Go example of a **recursive DNS resolver**, using the `github.com/miekg/dns` library—which handles the raw DNS packet structure and simplifies the recursion logic [^4_1][^4_2][^4_3][^4_4][^4_5].
 
 ### Minimal Recursive Resolver (Go)
 

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2024-03-19T12:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [aws, azure, ff_deploy, k8s, networking]
+status: ""
+tags: ["aws", "azure", "ff_deploy", "k8s", "topic/technology/networking"]
 title: Cross-Cloud Kubernetes Networking Documentation Index
-type: index
+type: "index"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 This index provides links to documentation related to networking between AWS EKS and Azure AKS Kubernetes clusters.

@@ -1,24 +1,24 @@
 ---
-aliases: [One Degree Framework, Sustainable Change for ADHD]
-confidence:
+aliases: ["One Degree Framework", "Sustainable Change for ADHD"]
+confidence: "null"
 created: 2025-10-30T15:04:20Z
-criteria: Must support incremental change philosophy and address ADHD-specific challenges
-epistemic:
-exclusions: Dramatic transformation strategies, willpower-based approaches, generic productivity advice
-last_reviewed:
-modified: 2025-12-07T18:13:51Z
-purpose:
-review_interval:
-scope: Framework for sustainable, incremental habit change specifically designed for ADHD brains
+criteria: ""
+epistemic: "null"
+exclusions: ""
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
+scope: ""
 see_also: []
-source: How to ADHD - How to Stick to Habits and Routines Without Falling Off
+source: "How to ADHD - How to Stick to Habits and Routines Without Falling Off"
 source_of_truth: []
-status:
-tags: [habit-formation, incremental-change, topic/health/adhd]
+status: "null"
+tags: ["incremental-change", "topic/habits", "topic/health/adhd"]
 title: MOC - The One Degree Change Framework for ADHD
-type: map
-uid: 2025-10-30T15:04:20Z
-updated: 2025-10-30T15:04:20Z
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - The One Degree Change Framework for ADHD

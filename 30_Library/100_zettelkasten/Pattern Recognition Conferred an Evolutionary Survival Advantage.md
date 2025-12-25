@@ -1,20 +1,20 @@
 ---
-aliases: [Pattern-Sniffing]
-confidence: 0.9
+aliases: ["Pattern-Sniffing"]
+confidence: "0.9"
 created: 2025-11-01T12:00:04Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:43:59Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To explain the evolutionary benefit of pattern recognition."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Pattern Recognition is an Efficient Cognitive Heuristic]]"]
-source_of_truth: ["[[MOC - Pattern - From Sensory Input to Meaning]]"]
-status: seedling
-tags: [cognition, evolution, survival]
+source_of_truth: []
+status: "seedling"
+tags: ["evolution", "survival", "topic/cognition"]
 title: Pattern Recognition Conferred an Evolutionary Survival Advantage
-type: concept
-uid: 2025-11-01T12:00:04Z
-updated: 2025-11-01T12:00:04Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Pattern Recognition Conferred an Evolutionary Survival Advantage

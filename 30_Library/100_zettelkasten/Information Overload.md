@@ -1,24 +1,24 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-04-19T00:00:00Z
-deleted: true
-epistemic: 
-id: 56004fd6-9014-418c-8360-78c79657f5ad
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+deleted: "true"
+epistemic: "null"
+id: "56004fd6-9014-418c-8360-78c79657f5ad"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_image_url: ""
 source_of_truth: []
-status: 
-tags: [information, topic/pkm/zettelkasten]
+status: "null"
+tags: ["information", "topic/pkm/zettelkasten"]
 title: Information Overload
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 <https://youtu.be/cwxRqmTpffY?si=0h1296ouNYSeuaF1>

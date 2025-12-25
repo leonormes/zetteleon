@@ -1,20 +1,20 @@
 ---
 aliases: ["Project Story"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-11T19:05:10Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-11T10:57:47Z
+epistemic: "principle"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Defines a 'project story' as a tool for maintaining a project's narrative."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [documentation, productivity, project-management]
+status: "seedling"
+tags: ["documentation", "project-management", "topic/productivity"]
 title: "A Project Story Tracks a Project's Evolving Vision"
-type: strategy
-uid: 2025-11-11T19:05:10Z
-updated: 2025-11-11T19:05:10Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## A Project Story Tracks a Project's Evolving Vision

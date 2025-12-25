@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T10:24:04Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:10Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:33+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: ["container"]
 title: Authenticate to GitHub Container Registry (ghcr.io)
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Authenticate to GitHub Container Registry (ghcr.io)

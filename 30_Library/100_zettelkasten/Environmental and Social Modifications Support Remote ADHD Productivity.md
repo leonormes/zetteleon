@@ -1,20 +1,20 @@
 ---
-aliases: [ADHD Routines, ADHD Workspace]
-confidence: 0.8
+aliases: ["ADHD Routines", "ADHD Workspace"]
+confidence: "0.8"
 created: 2025-11-06T19:54:07Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "fact"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To emphasize the need for environmental and social modifications to support remote work with ADHD."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["A Deep Dive into Adult ADHD in Remote Software Development.md"]
-status: seedling
-tags: [adhd, environment, remote-work, routine]
+source_of_truth: []
+status: "seedling"
+tags: ["environment", "remote-work", "routine", "topic/health/adhd"]
 title: Environmental and Social Modifications Support Remote ADHD Productivity
-type: concept
-uid: 2025-11-06T19:54:07Z
-updated: 2025-11-06T19:54:07Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Environmental and Social Modifications Support Remote ADHD Productivity

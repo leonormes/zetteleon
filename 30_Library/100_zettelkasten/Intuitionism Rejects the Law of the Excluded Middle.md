@@ -1,21 +1,21 @@
 ---
-aliases: [Law of Excluded Middle Rejection]
-confidence: 0.8
+aliases: ["Law of Excluded Middle Rejection"]
+confidence: "0.8"
 created: 2025-11-01T11:22:13Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:35:54Z
-purpose: "Explain intuitionism's rejection of the law of excluded middle and its consequences."
-review_interval: 90
+epistemic: "fact"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: "90"
 see_also: ["[[Deductive Reasoning Underwrites Mathematical Proof]]", "[[Intuitionism (Mathematics as Mental Construction)]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md"]
-status: seedling
-tags: [constructivism, logic, topic/maths]
+source_of_truth: []
+status: "seedling"
+tags: ["constructivism", "logic", "topic/maths"]
 title: Intuitionism Rejects the Law of the Excluded Middle
-type: concept
-uid: 2025-11-01T11:22:13Z
-updated: 2025-11-01T11:22:13Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Intuitionism rejects the classical law of excluded middle—the principle that for any proposition P, either P or ¬P must be true—arguing that a statement can be neither provably true nor provably false.

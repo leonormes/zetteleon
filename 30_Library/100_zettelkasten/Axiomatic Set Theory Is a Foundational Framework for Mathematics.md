@@ -1,21 +1,21 @@
 ---
-aliases: [Axiomatic Set Theory, ZF, ZFC]
-confidence: 0.9
+aliases: ["Axiomatic Set Theory", "ZF", "ZFC"]
+confidence: "0.9"
 created: 2025-11-01T11:22:13Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:35:54Z
-purpose: "Explain the role of axiomatic set theory as a foundation for modern mathematics."
-review_interval: 90
-see_also: ["[[Russell's Paradox in Naive Set Theory]]", "[[Set Theory Requires Distinct Objects]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md"]
-status: seedling
-tags: [foundations, set-theory, topic/maths]
+epistemic: "fact"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: "90"
+see_also: ["[[Russell''s Paradox in Naive Set Theory]]", "[[Set Theory Requires Distinct Objects]]"]
+source_of_truth: []
+status: "seedling"
+tags: ["foundations", "set-theory", "topic/maths"]
 title: Axiomatic Set Theory Is a Foundational Framework for Mathematics
-type: concept
-uid: 2025-11-01T11:22:13Z
-updated: 2025-11-01T11:22:13Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Axiomatic set theory, particularly the Zermelo-Fraenkel axioms (ZF) with the Axiom of Choice (ZFC), serves as the primary foundational framework for modern mathematics, providing a rigorous basis for defining all mathematical objects.

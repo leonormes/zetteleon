@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-15T07:39:41Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Security Principles Applied to Data
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 To summarize, the fundamental security principles applied to the data in this cross-cloud communication are:

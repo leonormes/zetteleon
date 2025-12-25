@@ -1,20 +1,20 @@
 ---
-aliases: [GTD]
-confidence: 0.9
+aliases: ["GTD"]
+confidence: "0.9"
 created: 2025-11-10T14:08:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T13:28:09Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define the Getting Things Done (GTD) system."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Time Blocking and Time Boxing for Productivity]]"]
-status: seedling
-tags: [gtd, productivity, systems, task-management]
+source_of_truth: []
+status: "seedling"
+tags: ["gtd", "task-management", "topic/productivity", "topic/systems"]
 title: Getting Things Done (GTD) is a Five-Stage Workflow for Managing Commitments
-type: concept
-uid: 2025-11-10T14:08:00Z
-updated: 2025-11-10T14:08:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Getting Things Done (GTD) is a Five-Stage Workflow for Managing Commitments

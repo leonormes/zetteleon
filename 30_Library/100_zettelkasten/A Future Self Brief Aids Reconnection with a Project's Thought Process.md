@@ -1,20 +1,20 @@
 ---
 aliases: ["Future Self Brief"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-11T19:05:04Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-11T10:57:47Z
+epistemic: "principle"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Provides a method for documenting a project's state to aid future resumption."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [documentation, productivity, project-management]
+status: "seedling"
+tags: ["documentation", "project-management", "topic/productivity"]
 title: "A Future Self Brief Aids Reconnection with a Project's Thought Process"
-type: strategy
-uid: 2025-11-11T19:05:04Z
-updated: 2025-11-11T19:05:04Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## A Future Self Brief Aids Reconnection with a Project's Thought Process

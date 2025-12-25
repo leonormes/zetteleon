@@ -1,20 +1,20 @@
 ---
-aliases: [Externalizing Progress, Visible Progress]
-confidence: 0.9
+aliases: ["Externalizing Progress", "Visible Progress"]
+confidence: "0.9"
 created: 2025-11-12T15:00:12Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-12T14:01:15Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To explain the strategy of making progress visible to bypass ADHD working memory deficits."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Brain Dumping Offloads Cognitive Load to an External System]]", "[[Working Memory Limitations in ADHD]]"]
-source_of_truth: ["[[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]"]
-status: seedling
-tags: [adhd, productivity, visualization, working-memory]
+source_of_truth: []
+status: "seedling"
+tags: ["topic/health/adhd", "topic/productivity", "visualization", "working-memory"]
 title: Externalizing Progress Makes it Tangible and Motivational
-type: concept
-uid: 2025-11-12T15:00:12Z
-updated: 2025-11-12T15:00:12Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Externalizing Progress Makes it Tangible and Motivational

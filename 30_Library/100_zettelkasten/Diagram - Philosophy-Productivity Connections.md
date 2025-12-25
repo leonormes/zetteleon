@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-31T13:15:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T13:10:59Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [diagram, philosophy, productivity]
+status: ""
+tags: ["diagram", "philosophy", "topic/productivity"]
 title: Diagram - Philosophy-Productivity Connections
-type: visualization
+type: "visualization"
 uid: 
 updated: 
 ---

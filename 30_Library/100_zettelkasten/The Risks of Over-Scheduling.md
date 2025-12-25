@@ -1,21 +1,21 @@
 ---
-aliases: [Over-Scheduling Risks]
-confidence: 1
+aliases: ["Over-Scheduling Risks"]
+confidence: "1"
 created: 2025-11-01T21:11:00Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:43:14Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To outline the risks associated with over-scheduling and excessive rigidity in timeboxing."
-review_interval: 90
-see_also: ['[[Flexibility Within Structure is Key to Sustainable Timeboxing]]', '[[Timeboxing Creates Structure for Action]]']
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Timeboxing Creates Structure for Action.md"]
-status: evergreen
-tags: [burnout, productivity, risk, scheduling, time-management]
+review_interval: "90"
+see_also: ["[[Flexibility Within Structure is Key to Sustainable Timeboxing]]", "[[Timeboxing Creates Structure for Action]]"]
+source_of_truth: []
+status: "evergreen"
+tags: ["burnout", "risk", "scheduling", "time-management", "topic/productivity"]
 title: The Risks of Over-Scheduling
-type: concept
-uid: 20251101211100
-updated: 2025-11-01T21:11:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 While timeboxing provides valuable structure, an overly rigid or packed schedule can be counterproductive and lead to negative consequences.

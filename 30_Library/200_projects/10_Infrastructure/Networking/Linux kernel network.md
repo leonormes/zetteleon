@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-25T22:46:18Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Linux kernel network
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Even if a Linux machine doesn't need to connect to other computers on a wider network, the global network namespace and some basic networking components are still essential for the Linux kernel to function correctly.

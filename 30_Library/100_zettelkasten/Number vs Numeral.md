@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-30T09:57:31Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [foundations, topic/maths, topic/philosophy]
+status: "null"
+tags: ["foundations", "topic/maths", "topic/philosophy"]
 title: Number vs Numeral
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 A **numeral** is a symbol or a name used to denote a number. Examples include '7', 'VII', or the word 'seven'.

@@ -5,7 +5,7 @@ confidence:
 created: 2025-12-07T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-20T09:54:05Z
+modified: 2025-12-25T18:34:50Z
 purpose:
 review_interval:
 see_also: []
@@ -26,9 +26,9 @@ updated:
 
 > [!abstract] The Spark
 > "The Core Problem: You can't trust your notes to represent your current thinking. Even when you find relevant past notes, you don't know if they're still valid or have been superseded by later evolution. This makes them functionally useless—so you either ignore them and duplicate work, or second-guess them and can't build confidently."
-> — *Journal Entry, 2025-11-14*
+> —*Journal Entry, 2025-11-14*
 > "My notes are encyclopedic... I can't load the context quickly when I need it... I would have to read it all again. So when written down like that it is not practical."
-> — *Journal Entry, 2025-11-17*
+> —*Journal Entry, 2025-11-17*
 
 ## My Current Model
 
@@ -53,6 +53,7 @@ My current PKM fails because it treats knowledge like a **file system** (a flat 
 - **Encyclopedia vs. Tool:** I am building an encyclopedia (storage) when I actually need a workbench (processing). An encyclopedia is hard to load into context quickly; a tool should be ready to hand.
 
 ## The Next Test
+
 **Hypothesis:** If I explicitly separate "Thinking" (volatile, HEAD) from "Knowledge" (stable, SoT), I will regain trust in the system because I will know exactly where to look for the "current version" of an idea.
 
 **Action:**

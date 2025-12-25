@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-10T15:19:00Z
-epistemic: NA
-last_reviewed:
-modified: 2025-11-10T13:33:51Z
+epistemic: "NA"
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
 purpose: "To provide a checklist for verifying project status during a weekly review."
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [gtd, productivity, project-management, weekly-review]
+status: "seedling"
+tags: ["gtd", "project-management", "topic/productivity", "weekly-review"]
 title: Weekly Review Verifies Project Actionability and Context
-type: instructional
-uid: 2025-11-10T15:19:00Z
-updated: 2025-11-10T15:19:00Z
+type: "instructional"
+uid: 
+updated: 
 ---
 
 ## Weekly Review Verifies Project Actionability and Context

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-15T10:12:06Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:49Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [data-centric, IAM]
+status: ""
+tags: ["data-centric", "IAM"]
 title: Data-Centric IAM in Zero Trust
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 From a data perspective, IAM in zero trust is about controlling access to data assets based on:

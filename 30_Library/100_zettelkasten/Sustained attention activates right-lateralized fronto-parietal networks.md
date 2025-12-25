@@ -1,20 +1,20 @@
 ---
 aliases: ["Sustained attention brain regions", "Vigilant attention network"]
-confidence: 0.90
+confidence: "0.90"
 created: 2025-10-31T00:02:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:58Z
+epistemic: "fact"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Identifies the specific brain regions and networks activated during sustained attention tasks"
-review_interval: 90
+review_interval: "90"
 see_also: ["[[ADHD shows reduced dorsolateral prefrontal cortex activation during sustained attention]]", "[[Task execution consists of five distinct cognitive phases]]"]
-source_of_truth: [Langner & Eickhoff 2013 meta-analysis, Neuroimaging studies of sustained attention]
-status: seedling
-tags: [brain-networks, neuroscience, sustained-attention]
+source_of_truth: []
+status: "seedling"
+tags: ["brain-networks", "neuroscience", "sustained-attention"]
 title: Sustained attention activates right-lateralized fronto-parietal networks
-type: concept
-uid: 2025-10-31T00:02:00Z
-updated: 2025-10-31T00:02:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Sustained Attention Activates Right-lateralized Fronto-parietal Networks

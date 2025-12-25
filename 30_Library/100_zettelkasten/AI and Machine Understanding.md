@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-08-31T16:08:38Z
-epistemic:
-last_reviewed:
-modified: 2025-10-30T10:49:48Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [llm]
+status: ""
+tags: ["llm"]
 title: AI and Machine Understanding
-type:
-uid:
-updated:
-version:
+type: ""
+uid: 
+updated: 
+version: ""
 ---
 
 The challenge of creating AI systems that truly understand language highlights the complexity of the thought-language relationship and raises fundamental questions about the nature of intelligence and understanding.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-26T17:08:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [architecture, design-patterns, tech]
+status: ""
+tags: ["architecture", "design-patterns", "tech"]
 title: Architectural Patterns for API Gateways and Load Balancers
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 API Gateways and Load Balancers are often used together in layered architectural patterns to combine their respective strengths in reliability and API management.

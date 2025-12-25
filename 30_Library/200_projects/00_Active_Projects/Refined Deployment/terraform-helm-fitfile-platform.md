@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-22T11:30:48Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:14Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [helm]
+status: ""
+tags: ["helm"]
 title: terraform-helm-fitfile-platform
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 I understand the staged deployment approach for your private infrastructure. The **TFC-Modules/terraform-helm-fitfile-platform** is the reusable Terraform module that gets consumed by the **private_platform_template** for jumpbox deployments.

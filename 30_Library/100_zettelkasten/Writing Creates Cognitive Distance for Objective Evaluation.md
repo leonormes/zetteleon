@@ -1,20 +1,20 @@
 ---
-aliases: [Cognitive Distance]
-confidence: 0.9
+aliases: ["Cognitive Distance"]
+confidence: "0.9"
 created: 2025-11-06T20:00:02Z
-epistemic: insight
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "insight"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "To explain how writing creates psychological distance for more objective self-evaluation."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["The Illusion of Profundity Thought vs Text.md"]
-status: seedling
-tags: [cognitive-bias, self-reflection, thinking, writing]
+source_of_truth: []
+status: "seedling"
+tags: ["self-reflection", "thinking", "topic/cognition/bias", "writing"]
 title: Writing Creates Cognitive Distance for Objective Evaluation
-type: concept
-uid: 2025-11-06T20:00:02Z
-updated: 2025-11-06T20:00:02Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Writing Creates Cognitive Distance for Objective Evaluation

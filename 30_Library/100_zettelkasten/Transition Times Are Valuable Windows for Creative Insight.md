@@ -1,20 +1,20 @@
 ---
-aliases: [Dream State Insights, Waking Creativity]
-confidence: 0.8
+aliases: ["Dream State Insights", "Waking Creativity"]
+confidence: "0.8"
 created: 2025-10-30T15:07:41Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-30T15:36:29Z
+epistemic: "principle"
+last_reviewed: "2025-10-30"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To highlight overlooked creative opportunities in daily transitions"
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [creativity, insight, morning-routine, transitions]
+status: "seedling"
+tags: ["creativity", "insight", "morning-routine", "transitions"]
 title: Transition Times Are Valuable Windows for Creative Insight
-type: concept
-uid: 2025-10-30T15:07:41Z
-updated: 2025-10-30T15:07:41Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Transition Times Are Valuable Windows for Creative Insight

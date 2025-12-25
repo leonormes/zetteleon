@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-25T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T11:06:55Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "https://gemini.google.com/share/9785ac99d776"
 source_of_truth: []
-status: 
+status: ""
 tags: ["clipped", "llm_session"]
 title: Network Abstraction Data and Layers
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Networking is a strange concept. it is easy to build abstract models of nodes and wires going between them like a web. but also, the network stack is just data. breaking data into packets or chunks adding metadata and so on then converting the data to some sort of transmittable medium then reconstructing that data. the actual 'web' or wire part is just a physical medium. the networking we as Devs out even network engineers is handling data and labelling it to organise transport

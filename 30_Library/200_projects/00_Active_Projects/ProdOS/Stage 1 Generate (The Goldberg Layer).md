@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-12-04T12:23:40Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-11T10:10:52Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Stage 1 Generate (The Goldberg Layer)
-type: 
+type: ""
 uid: 
 updated: 
 ---
@@ -23,12 +23,12 @@ This is the initial, messy, and essential act of getting a thought out of your h
 
 **The Method: Timed Writing Practice**
 
-1. **Set a Timer**: Start with 10 minutes.  
-2. **Pick a Topic**: Use the thought, question, or feeling that sparked your interest.  
-3. **Write with Momentum**: For the entire duration, you must follow these rules:  
-   - **Keep your hand moving**: Don't pause to think or reread. Outrun the censor.  
-   - **Don't cross out**: Leave everything, even mistakes. This is not editing.  
-   - **Lose control**: Don't worry about logic, spelling, or grammar. Follow the thought wherever it leads.  
+1. **Set a Timer**: Start with 10 minutes.
+2. **Pick a Topic**: Use the thought, question, or feeling that sparked your interest.
+3. **Write with Momentum**: For the entire duration, you must follow these rules:
+   - **Keep your hand moving**: Don't pause to think or reread. Outrun the censor.
+   - **Don't cross out**: Leave everything, even mistakes. This is not editing.
+   - **Lose control**: Don't worry about logic, spelling, or grammar. Follow the thought wherever it leads.
    - **Go for the jugular**: If a vulnerable or scary idea emerges, dive into it. That's where the energy is.
 
 **Outcome**: A raw, unedited block of text that contains the "first thoughts" and emotional energy of your idea. It will be messy, and that is the point.

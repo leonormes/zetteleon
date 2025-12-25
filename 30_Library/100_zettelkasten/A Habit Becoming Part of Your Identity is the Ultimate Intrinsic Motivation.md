@@ -1,20 +1,20 @@
 ---
-aliases: [Habit as Identity]
-confidence: 0.9
+aliases: ["Habit as Identity"]
+confidence: "0.9"
 created: 2025-11-10T12:04:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T10:00:47Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To define the peak state of intrinsic motivation."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - The Relationship Between Habits and Identity]]"]
-status: seedling
-tags: [habits, identity, motivation, psychology]
+source_of_truth: []
+status: "seedling"
+tags: ["identity", "motivation", "topic/habits", "topic/psychology"]
 title: A Habit Becoming Part of Your Identity is the Ultimate Intrinsic Motivation
-type: concept
-uid: 2025-11-10T12:04:00Z
-updated: 2025-11-10T12:04:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## A Habit Becoming Part of Your Identity is the Ultimate Intrinsic Motivation

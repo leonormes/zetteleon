@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T09:06:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [communication, empathy, habit, principles]
+status: ""
+tags: ["communication", "empathy", "principles", "topic/habits"]
 title: Habit 5 - Seek First to Understand, Then to Be Understood
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Habit 5: Seek First to Understand, Then to Be Understood** is the principle of empathic communication. It is the key to building effective interpersonal relationships and is essential for achieving [[Habit 4 - Think Win-Win]].

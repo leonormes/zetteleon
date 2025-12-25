@@ -1,110 +1,112 @@
 ---
-aliases: [Cloud Internet Connectivity, Cloud Networking SoT, Internet Gateway vs NAT Gateway]
-confidence: 
-created: 2025-12-12T00:00:00Z
-epistemic: 
-last-synthesis: 2025-12-12
-last_reviewed: 
-modified: 2025-12-20T09:54:09Z
-purpose: To define the essential networking components and architectural patterns required to establish connectivity between private cloud networks (VPC/VNet) and the public internet.
-review_interval: 6 months
-see_also: ["[[Cloud Networking MOC]]", "[[MOC - Cloud Networking Devices Data Flow]]"]
-source_of_truth: true
-status: stable
-tags: [aws, azure, cloud, infrastructure, networking]
+aliases: ["Cloud Internet Connectivity", "Cloud Networking SoT", "Internet Gateway vs NAT Gateway", "Load Balancing"]
+confidence: "5/5"
+created: 2025-12-12T18:25:55Z
+epistemic: "theory"
+last_reviewed: "2025-12-23"
+modified: 2025-12-25T18:34:56Z
+purpose: "To define the essential networking components, architectural patterns, and load balancing strategies for cloud-native infrastructure."
+review_interval: "6 months"
+see_also: ["[[SoT - The Data Architecture of DNS]]", "[[SoT - The Data-Centric Theory of Networking]]"]
+source_of_truth: []
+status: "stable"
+tags: ["aws", "azure", "cloud", "infrastructure", "networking"]
 title: SoT - Cloud Networking Core Components
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Definitive Statement
+## 1. Connectivity Layers
 
-> [!definition] Definition
-> Cloud Internet Connectivity is not a default state but an engineered path. It requires three distinct layers to function:
->
-> 1. **Gateway Device:** A bridge between the private virtual network and the public internet.
-> 2. **Routing:** Explicit rules (`0.0.0.0/0`) directing traffic to that gateway.
-> 3. **Addressing:** Public IPs (identity) and NAT (translation) to permit communication.
+Cloud networking requires three distinct layers to function:
+
+1. **Gateway Device:** A bridge between private VNets and the public internet.
+2. **Routing:** Explicit rules directing traffic to that gateway.
+3. **Addressing:** Public IPs (identity) and NAT (translation).
 
 ---
 
-## 2. Core Component 1: The Gateway (The Edge)
-
-Gateways are the physical/virtual appliances that act as the portal for traffic.
+## 2. Gateways (The Edge)
 
 ### A. Internet Gateway (Bidirectional)
 
-- **Function:** Enables **Ingress and Egress**. It creates a 1:1 static NAT between a private instance IP and a Public IP.
-- **Use Case:** Public Web Servers, Load Balancers, Bastion Hosts.
-- **Cloud Implementation:**
-  - **AWS:** **Internet Gateway (IGW)**. Must be explicitly created and attached to the VPC.
-  - **Azure:** **Implicit.** Azure VNets have default outbound access via the backbone. For inbound, you associate a Public IP directly to a NIC or Load Balancer.
+- **Function:** Enables Ingress and Egress.
+- **Use Case:** Public Web Servers, Load Balancers.
 
 ### B. NAT Gateway (Egress Only)
 
-- **Function:** Enables **Egress Only**. It performs Source NAT (SNAT), allowing private instances to initiate outbound connections (e.g., software updates) without accepting inbound connections.
-- **Use Case:** Private databases, application servers, worker nodes.
-- **Cloud Implementation:**
-  - **AWS:** **NAT Gateway**. A managed service deployed in a Public Subnet. Private subnets route to it.
-  - **Azure:** **NAT Gateway**. A managed service attached to a subnet. It takes precedence over default system routing.
+- **Function:** Performs Source NAT (SNAT), allowing private resources to initiate outbound connections without accepting inbound connections.
+- **Use Case:** Private databases, application worker nodes.
 
 ---
 
-## 3. Core Component 2: Routing (The Map)
+## 3. Load Balancing & Abstraction
 
-Having a gateway is useless if the network doesn't know how to reach it.
+...
 
-- **The Mechanism:** **Route Tables**.
-- **The Rule:** The "Default Route" (`0.0.0.0/0` for IPv4) determines the destination of all internet-bound traffic.
-- **Subnet Types:**
-  - **Public Subnet:** Route Table sends `0.0.0.0/0` -> **Internet Gateway**.
-  - **Private Subnet:** Route Table sends `0.0.0.0/0` -> **NAT Gateway**.
-  - **Isolated Subnet:** No route to `0.0.0.0/0`.
+### B. Load Balancer Types
 
----
+| Type | OSI Layer | Logic | Example |
 
-## 4. Core Component 3: Addressing (The Identity)
+|:--- |:--- |:--- |:--- |
 
-- **Public IP:** A globally routable address.
-  - *AWS:* **Elastic IP (EIP)**. Static public IPs attached to NAT Gateways or Instances.
-  - *Azure:* **Public IP Address**. A standalone resource that can be bound to NAT Gateways, Load Balancers, or VMs.
-- **Private IP:** Non-routable (RFC1918) addresses used internally (e.g., `10.0.0.5`).
+| **Network (NLB)** | Layer 4 | Fast, packet-level forwarding based on IP/Port. | AWS NLB, Azure LB |
+
+| **Application (ALB)** | Layer 7 | Content-aware; routes based on Headers, Cookies, or Path. | AWS ALB, Azure App Gateway |
+
+| **Global (GSLB)** | DNS | Routes to nearest/healthiest region based on latency. | Route 53, Cloudflare |
+
+| **Gateway (GWLB)** | Layer 3 | Transparently injects security/inspection appliances. | AWS GWLB |
 
 ---
 
-## 5. AWS vs. Azure Comparison Matrix
+## 4. Advanced Abstraction & Security
+
+### A. API Gateway (The Entry Point)
+
+- **Function:** Single entry point for microservices; handles auth, rate limiting, and protocol translation.
+- **Key Requirement:** Must authenticate requests *before* routing to backend (e.g., JWT, API Key).
+
+### B. Transit Gateway (The Hub)
+
+- **Function:** Regional network hub connecting thousands of VPCs and on-premises networks.
+- **Core Logic:** Uses a central hub-and-spoke model to eliminate complex peering relationships.
+
+### C. Web Application Firewall (WAF)
+
+- **Function:** Inspects Layer 7 traffic for OWASP Top 10 (SQLi, XSS).
+- **Difference from Firewall:** Operates on application content, not just IP/Port.
+
+### D. Content Delivery Network (CDN)
+
+- **Function:** Caches static content at edge locations to reduce latency.
+- **Logic:** "Cache Miss" triggers origin fetch; "Cache Hit" serves from edge.
+
+---
+
+## 5. Summary Matrix (Cloud Products)
 
 | Concept | AWS Component | Azure Component |
-| :--- | :--- | :--- |
+
+|:--- |:--- |:--- |
+
 | **Virtual Network** | VPC | VNet |
+
 | **Public Gateway** | Internet Gateway (IGW) | Implicit (or Public IP on NIC/LB) |
+
 | **Private Egress** | NAT Gateway | Azure NAT Gateway |
-| **Traffic Director** | Route Table | Route Table (UDR) |
-| **Identity** | Elastic IP (EIP) | Public IP Address |
 
----
+| **Layer 7 LB** | Application Load Balancer | Application Gateway |
 
-## 6. Architecture Patterns
+| **Global LB / DNS** | Route 53 | Azure DNS / Traffic Manager |
 
-### Pattern A: The Public Subnet
-*Direct access to the internet.*
+| **API Management** | API Gateway | API Management (APIM) |
 
-1. **Resource:** EC2/VM with Public IP.
-2. **Route:** `0.0.0.0/0` -> Internet Gateway.
-3. **Flow:** Traffic leaves directly via IGW.
+| **Network Hub** | Transit Gateway | Virtual WAN |
 
-### Pattern B: The Private Subnet (Standard)
-*Secure outbound access.*
+| **L7 Security** | AWS WAF | Azure WAF |
 
-1. **Resource:** EC2/VM with Private IP only.
-2. **Route:** `0.0.0.0/0` -> NAT Gateway (which sits in a Public Subnet).
-3. **Flow:** Traffic -> NAT GW (SNAT) -> Internet Gateway -> Internet.
+| **Edge Caching** | CloudFront | Azure CDN / Front Door |
 
----
-
-## 7. Sources and Links
-
-- [[Core Networking Components for Cloud Internet Connectivity]] (Archived Source)
-- [[Internet Gateway in AWS Networking]]
-- [[NAT Gateways Enable Private Resources to Access Internet]]
+| **DDoS Protection**| AWS Shield | Azure DDoS Protection |

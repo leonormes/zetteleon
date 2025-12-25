@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T12:05:00Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T12:05:00Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "Explain why problem-solving is essential for fulfillment."
-review_interval: 90
+review_interval: "90"
 see_also: ["Micro-Stepping Reduces Cognitive Load for Task Initiation.md"]
 source_of_truth: []
-status: seedling
-tags: [productivity, psychology]
+status: "seedling"
+tags: ["topic/productivity", "topic/psychology"]
 title: Problems Are Fundamental to Meaningful Work
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

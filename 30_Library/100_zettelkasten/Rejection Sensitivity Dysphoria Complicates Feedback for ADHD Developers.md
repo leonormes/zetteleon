@@ -1,20 +1,20 @@
 ---
-aliases: [Rejection Sensitivity Dysphoria, RSD]
-confidence: 0.8
+aliases: ["Rejection Sensitivity Dysphoria", "RSD"]
+confidence: "0.8"
 created: 2025-11-06T19:54:09Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "fact"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define Rejection Sensitivity Dysphoria (RSD) and its impact on developers with ADHD in feedback-rich environments."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["A Deep Dive into Adult ADHD in Remote Software Development.md"]
-status: seedling
-tags: [adhd, emotional-regulation, feedback, rsd]
+source_of_truth: []
+status: "seedling"
+tags: ["emotional-regulation", "feedback", "rsd", "topic/health/adhd"]
 title: Rejection Sensitivity Dysphoria Complicates Feedback for ADHD Developers
-type: concept
-uid: 2025-11-06T19:54:09Z
-updated: 2025-11-06T19:54:09Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Rejection Sensitivity Dysphoria Complicates Feedback for ADHD Developers

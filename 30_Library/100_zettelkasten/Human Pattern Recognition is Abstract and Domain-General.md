@@ -1,20 +1,20 @@
 ---
-aliases: [Abstract Pattern Recognition]
-confidence: 0.9
+aliases: ["Abstract Pattern Recognition"]
+confidence: "0.9"
 created: 2025-11-01T12:00:08Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:43:59Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To distinguish human pattern recognition from animal cognition."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Pattern Recognition is the Cognitive Process of Organizing Sensory Input]]"]
-source_of_truth: ["[[MOC - Pattern - From Sensory Input to Meaning]]"]
-status: seedling
-tags: [abstraction, cognition, evolution]
+source_of_truth: []
+status: "seedling"
+tags: ["abstraction", "evolution", "topic/cognition"]
 title: Human Pattern Recognition is Abstract and Domain-General
-type: concept
-uid: 2025-11-01T12:00:08Z
-updated: 2025-11-01T12:00:08Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Human Pattern Recognition is Abstract and Domain-General

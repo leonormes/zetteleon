@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-26T11:05:00Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:54Z
-purpose: To test if Timeboxing effectively replaces traditional to-do lists for ADHD task management.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16T00:00:00.000Z"
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
-source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
-status: pending
-tags: [experiment, hypothesis, task-management, time-management, topic/health/adhd, topic/productivity]
+source_of_truth: []
+status: "pending"
+tags: ["experiment", "hypothesis", "task-management", "time-management", "topic/health/adhd", "topic/productivity"]
 title: Timeboxing as a To-Do List Alternative for ADHD
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## 1. The Hypothesis

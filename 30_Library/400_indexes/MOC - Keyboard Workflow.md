@@ -1,20 +1,20 @@
 ---
 aliases: [Keyboard MOC, MOC Keyboard]
-confidence: 
+confidence: null
 created: 2025-12-21T19:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-21T14:57:24Z
-purpose: 
-review_interval: 
+epistemic: null
+last_reviewed: null
+modified: 2025-12-25T11:40:23+00:00
+purpose: null
+review_interval: null
 see_also: []
 source_of_truth: []
-status: 
-tags: ["keyboard", "moc", "workflow"]
+status: null
+tags: [keyboard, workflow]
 title: MOC - Keyboard Workflow
 type: MOC
-uid: 
-updated: 
+uid: null
+updated: null
 ---
 
 ## MOC - Keyboard Workflow
@@ -32,6 +32,6 @@ This Map of Content serves as the primary entry point for understanding the glob
 
 The definitive and detailed specification of the entire workflow, from the physical hardware up to the editor-specific actions, is documented in the following Source of Truth note:
 
--   **[[SoT - Unified Keyboard Workflow]]**
+- **[[SoT - Unified Keyboard Workflow]]**
 
 All other notes regarding specific keyboard layers or tools should be considered supporting documents to this central SoT.

@@ -1,23 +1,23 @@
 ---
 aliases: []
-author: Ben Odom
-confidence: 
+author: "Ben Odom"
+confidence: ""
 created: 2025-03-09T06:08:18Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:36+00:00
+purpose: ""
+review_interval: ""
 see_also: []
-source: https://thenewstack.io/streamlining-kubernetes-implementation-with-gitops-best-practices/
+source: "https://thenewstack.io/streamlining-kubernetes-implementation-with-gitops-best-practices/"
 source_of_truth: []
-status: 
-tags: [gitops]
+status: ""
+tags: ["gitops"]
 title: Kubernetes gitops
-type: download
+type: "download"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## Streamlining Kubernetes Implementation With GitOps Best Practices

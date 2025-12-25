@@ -1,20 +1,20 @@
 ---
-aliases: [Active Information, Empirical Information]
-confidence: 0.9
+aliases: ["Active Information", "Empirical Information"]
+confidence: "0.9"
 created: 2025-11-12T15:00:05Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-12T14:01:15Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define Type 2 (Active/Empirical) Information."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Type 1 Information is Passive and Theoretical]]", "[[Type 1 vs Type 2 Information in Learning and Action]]"]
-source_of_truth: ["[[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]"]
-status: seedling
-tags: [action, feedback, information, learning]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "feedback", "information", "learning"]
 title: Type 2 Information is Active and Empirical
-type: concept
-uid: 2025-11-12T15:00:05Z
-updated: 2025-11-12T15:00:05Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Type 2 Information is Active and Empirical

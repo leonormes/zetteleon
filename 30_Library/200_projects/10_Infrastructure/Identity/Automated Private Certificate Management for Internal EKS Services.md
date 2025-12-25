@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-23T11:23:25Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:26Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:41+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Automated Private Certificate Management for Internal EKS Services
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 This document outlines the end-to-end process for integrating AWS Private Certificate Authority (CA) with your private EKS cluster using `cert-manager`. The goal is to provide a seamless, automated workflow for issuing and renewing a wildcard TLS certificate, which can then be used by any internal-facing service.

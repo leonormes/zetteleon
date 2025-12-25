@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:56Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:40Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:41+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: terraform file read
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Terraform provides multiple methods for loading and processing files in Infrastructure-as-Code workflows, with distinct approaches for structured data (like CSV) and cloud-init configurations. Below are the key techniques:
@@ -23,6 +23,7 @@ Terraform provides multiple methods for loading and processing files in Infrastr
 ---
 
 ## 1. File Loading Fundamentals
+
 ### Basic File Reading
 
 - `file()` function: Reads file contents as a string
@@ -43,6 +44,7 @@ Terraform provides multiple methods for loading and processing files in Infrastr
 ---
 
 ## 2. Structured Data Handling
+
 ### CSV Processing
 
 - `csvdecode` function: Converts CSV rows into list of maps
@@ -74,6 +76,7 @@ locals {
 ---
 
 ## 3. Cloud-Init Implementation
+
 ### Direct Script Injection
 
 ```hcl

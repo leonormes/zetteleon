@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-11-26T04:45:04Z
-epistemic:
-last_reviewed:
-modified: 2025-11-26T16:46:07Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [networking/tcp]
+status: ""
+tags: ["topic/technology/networking/tcp"]
 title: How One Host Initiates a Connection to Another Host Over the Internet
-type:
-uid:
-updated:
+type: ""
+uid: 
+updated: 
 ---
 
 ## High-Level Overview
@@ -41,7 +41,7 @@ Assumptions:
 
 ---
 
-### Step 1: Application Layer — Initiating the Request and DNS Resolution
+### Step 1: Application Layer—Initiating the Request and DNS Resolution
 
 #### Action
 
@@ -76,7 +76,7 @@ The resolution proceeds as follows:
         - Queries a **top-level domain (TLD) server** for `.com` → learns about `example.com`'s authoritative name servers.
         - Queries the **authoritative name server** for `example.com` → obtains the A record (IPv4 address) for `www.example.com`.
 4. **Response Returned**
-    - The authoritative server replies:  
+    - The authoritative server replies:
         `www.example.com` → `93.184.216.34`
     - This result is cached at various levels (resolver, OS, browser) for a time defined by the **Time-to-Live (TTL)** value in the DNS record.
 
@@ -103,7 +103,7 @@ Before sending the frame, the client must know the **MAC address** of the next h
 
 ---
 
-### Step 2: Data Link Layer — Address Resolution Protocol (ARP)
+### Step 2: Data Link Layer—Address Resolution Protocol (ARP)
 
 #### Problem
 
@@ -111,7 +111,7 @@ To send the DNS query (and later, the TCP SYN), the client must transmit an Ethe
 
 The client checks its **ARP cache** (Address Resolution Protocol table) to see if it already knows the MAC address corresponding to `192.168.1.1`.
 
-> Example command to view ARP cache:  
+> Example command to view ARP cache:
 > `arp -a` (on Windows/Linux/macOS)
 
 If not found, **ARP** is triggered.
@@ -141,7 +141,7 @@ Now the client can correctly fill in the **destination MAC address** in the Ethe
 
 ---
 
-### Step 3: Transport Layer — TCP Three-Way Handshake
+### Step 3: Transport Layer—TCP Three-Way Handshake
 
 #### Goal
 
@@ -222,7 +222,7 @@ Without it, TCP couldn't guarantee reliability or reassembly order.
 
 ---
 
-### Step 4: Network and Data Link Layers — IP Routing and Packet Forwarding
+### Step 4: Network and Data Link Layers—IP Routing and Packet Forwarding
 
 Every packet—whether DNS query, ARP broadcast, or TCP SYN—must be delivered across potentially thousands of miles and hundreds of network links. This is achieved through **IP routing** and **packet forwarding**.
 

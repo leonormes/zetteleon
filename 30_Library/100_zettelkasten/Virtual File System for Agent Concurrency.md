@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-10T08:34:11Z
-epistemic: 
-id: 20251008_Virtual_File_System_for_Agent_Concurrency
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: "null"
+id: "20251008_Virtual_File_System_for_Agent_Concurrency"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [Concurrency, State, topic/technology/AI, topic/technology/AI/agents]
+status: "null"
+tags: ["Concurrency", "State", "topic/technology/AI", "topic/technology/AI/agents"]
 title: Virtual File System for Agent Concurrency
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 A **Virtual File System** is an architectural pattern used in agentic systems like [[Deep Agents for Long Horizon Planning]]to manage state and enable concurrent operations. It is typically implemented as a dictionary in the agent's state model, mapping filenames to their content (`dict[filename, content]`).

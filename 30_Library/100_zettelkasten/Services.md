@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-10T13:05:06Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Services
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 - Purpose: Kubernetes Services provide a stable, internal load balancing abstraction for a set of pods, abstracting away their ephemeral nature and fluctuating IP addresses. They ensure that clients can reliably discover and connect to application instances, even as pods are created, deleted, or replaced.

@@ -1,35 +1,20 @@
 ---
-aliases: [Modularity by Information Hiding, Parnas Information Hiding]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-12T17:40:00Z
-epistemic: technical
-last-synthesis: 2025-12-12
-last_reviewed: 2025-12-12
-modified: 2025-12-20T09:54:08Z
-purpose: Canonical definition and benefits of David Parnas's Information Hiding principle in software design.
-quality-markers: []
-related-soTs: ["[[SoT - Atomicity and Loose Coupling]]", "[[SoT - Code Duplication and Refactoring]]"]
-resonance-score: 8
-review_interval: 1 year
-see_also: ["[[MOC - Software Architecture Principles]]"]
-source_of_truth: true
-status: stable
-supersedes: []
-tags: [architecture, design-principles, modularity, software-engineering]
+aliases: ["Modularity by Information Hiding", "Parnas Information Hiding"]
+confidence: "5/5"
+created: 2025-12-12T00:00:00Z
+epistemic: "technical"
+last_reviewed: "2025-12-12"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "Canonical definition and benefits of David Parnas's Information Hiding principle in software design."
+review_interval: "1 year"
+see_also: ["[[MOC - Software Architecture Principles]]", "[[SoT - Atomicity and Loose Coupling]]", "[[SoT - Code Duplication and Refactoring]]"]
+source_of_truth: []
+status: "stable"
+tags: ["architecture", "design-principles", "modularity", "software-engineering"]
 title: SoT - Information Hiding (Parnas)
-type: SoT
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Information Hiding (David Parnas)
-> **Information Hiding** is a software design principle that dictates that modules should be designed to **encapsulate and hide** internal design decisions, particularly those that are difficult, complex, or likely to change.
->
-> Each module should present only an **abstract interface** (its "public API") that reveals just the information necessary for other modules to use it, while concealing its implementation details.
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. Core Principles

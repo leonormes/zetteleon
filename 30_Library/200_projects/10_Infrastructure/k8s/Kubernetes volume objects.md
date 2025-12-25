@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-05T15:02:39Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:40Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:36+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Kubernetes volume objects
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Here's a breakdown of the various components related to volumes in Kubernetes and how they relate to Linux namespacing technology:

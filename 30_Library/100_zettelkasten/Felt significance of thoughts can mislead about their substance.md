@@ -1,20 +1,20 @@
 ---
-aliases: [felt vs actual importance, significance-substance gap]
-confidence: 0.8
+aliases: ["felt vs actual importance", "significance-substance gap"]
+confidence: "0.8"
 created: 2025-10-31T20:48:00Z
-epistemic: principle
-last_reviewed: 2025-10-31
-modified: 2025-10-31T13:20:39Z
+epistemic: "principle"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explains the dissociation between felt importance and actual substance of thoughts"
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [cognition, critical-thinking, metacognition]
+status: "seedling"
+tags: ["critical-thinking", "metacognition", "topic/cognition"]
 title: Felt significance of thoughts can mislead about their substance
-type: concept
-uid: 2025-10-31T20:48:00Z
-updated: 2025-10-31T20:48:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Felt Significance of Thoughts Can Mislead about Their Substance

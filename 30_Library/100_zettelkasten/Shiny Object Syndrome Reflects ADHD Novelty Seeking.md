@@ -1,18 +1,18 @@
 ---
 aliases: ["SOS"]
-confidence: 0.8
+confidence: "0.8"
 created: 2025-10-31T11:37:00Z
-epistemic: observation
-last_reviewed: 
-modified: 2025-10-31T11:37:00Z
+epistemic: "observation"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Explain frequent system switching in ADHD."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [adhd, productivity]
+status: "seedling"
+tags: ["topic/health/adhd", "topic/productivity"]
 title: Shiny Object Syndrome Reflects ADHD Novelty Seeking
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

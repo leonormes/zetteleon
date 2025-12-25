@@ -1,18 +1,18 @@
 ---
-aliases: [Budgeted Fun Money]
-confidence: 
+aliases: ["Budgeted Fun Money"]
+confidence: ""
 created: 2025-11-18T14:40:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-18T14:01:07Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [budgeting, finance, psychology]
+status: ""
+tags: ["budgeting", "finance", "topic/psychology"]
 title: Guilt-Free Spending is a Feature of Intentional Budgeting
-type: 
+type: ""
 uid: 
 updated: 
 ---

@@ -1,20 +1,20 @@
 ---
-aliases: [Originality as Synthesis]
-confidence: 0.9
+aliases: ["Originality as Synthesis"]
+confidence: "0.9"
 created: 2025-11-06T19:59:00Z
-epistemic: insight
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "insight"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To redefine originality not as creation from nothing, but as the unique synthesis of existing ideas."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["so wrong.md"]
-status: seedling
-tags: [creativity, ideas, originality, synthesis]
+source_of_truth: []
+status: "seedling"
+tags: ["creativity", "ideas", "originality", "synthesis"]
 title: Originality is the Unique Synthesis of Existing Ideas
-type: concept
-uid: 2025-11-06T19:59:00Z
-updated: 2025-11-06T19:59:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Originality is the Unique Synthesis of Existing Ideas

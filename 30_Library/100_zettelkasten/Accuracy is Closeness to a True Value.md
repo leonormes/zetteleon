@@ -1,21 +1,21 @@
 ---
-aliases: [Accuracy]
-confidence: 
+aliases: ["Accuracy"]
+confidence: "null"
 created: 2025-07-21T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [concepts, measurement, science, topic/cognition/mental-model]
+status: "null"
+tags: ["concepts", "measurement", "science", "topic/cognition/mental-model"]
 title: Accuracy is Closeness to a True Value
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Accuracy describes the closeness of a measurement to the true or accepted value. It is a measure of correctness and is primarily affected by systematic errors, which are consistent and repeatable issues like a miscalibrated scale.

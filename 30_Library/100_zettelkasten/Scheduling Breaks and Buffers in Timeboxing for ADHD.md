@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-06-25T20:14:33Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/health/adhd]
+status: "null"
+tags: ["topic/health/adhd"]
 title: Scheduling Breaks and Buffers in Timeboxing for ADHD
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Non-negotiable scheduling of short 5-10 minute breaks between timeboxes and 30-minute buffer blocks for unexpected issues is crucial for ADHD.

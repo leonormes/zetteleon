@@ -1,20 +1,20 @@
 ---
-aliases: [50/50 Say on Finances]
-confidence: 0.9
+aliases: ["50/50 Say on Finances"]
+confidence: "0.9"
 created: 2025-11-10T10:12:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To assert the principle of equal financial say regardless of income."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money]]"]
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [budgeting, decision-making, equality, finance, relationship]
+source_of_truth: []
+status: "seedling"
+tags: ["budgeting", "decision-making", "equality", "finance", "relationship"]
 title: Partners Should Have Equal Say in Financial Decisions Regardless of Income
-type: concept
-uid: 2025-11-10T10:12:00Z
-updated: 2025-11-10T10:12:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Partners Should Have Equal Say in Financial Decisions Regardless of Income

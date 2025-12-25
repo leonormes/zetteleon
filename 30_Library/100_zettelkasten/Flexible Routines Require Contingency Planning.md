@@ -1,18 +1,18 @@
 ---
-aliases: [Build Flexibility into Routines]
-confidence: 
+aliases: ["Build Flexibility into Routines"]
+confidence: ""
 created: 2025-10-29T16:10:00Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To emphasize the need for adaptability in routine design."
-review_interval: 
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [adaptability, contingency-planning, resilience, routine]
+status: "seedling"
+tags: ["adaptability", "contingency-planning", "resilience", "routine"]
 title: Flexible Routines Require Contingency Planning
-type: strategy
+type: "strategy"
 uid: 
 updated: 
 ---

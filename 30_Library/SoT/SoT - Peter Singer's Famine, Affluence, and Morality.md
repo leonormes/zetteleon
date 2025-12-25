@@ -1,28 +1,20 @@
 ---
-aliases: [Affluence, and Morality, Effective Altruism Foundation, Peter Singer's Famine, Singerian Ethics]
-confidence: 5/5
-created: 2025-12-14T17:00:00Z
-epistemic: theory
-last_reviewed: 2025-12-14
-modified: 2025-12-20T09:54:07Z
-purpose: To provide a structural analysis of Peter Singer's 1972 paper "Famine, Affluence, and Morality," outlining its core argument and radical implications for moral obligation.
-review_interval: 6 months
+aliases: ["Affluence", "and Morality", "Effective Altruism Foundation", "Peter Singer's Famine", "Singerian Ethics"]
+confidence: "5/5"
+created: 2025-12-14T00:00:00Z
+epistemic: "theory"
+last_reviewed: "2025-12-14"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To provide a structural analysis of Peter Singer's 1972 paper \\\\\\\"Famine, Affluence, and Morality,\\\\\\\" outlining its core argument and radical implications for moral obligation."
+review_interval: "6 months"
 see_also: ["[[SoT - Moral Philosophy Overview]]", "[[SoT - Utilitarianism]]"]
-source_of_truth: true
-status: stable
-tags: [effective_altruism, ethics, moral_philosophy, peter_singer, utilitarianism]
+source_of_truth: []
+status: "stable"
+tags: ["effective_altruism", "ethics", "moral_philosophy", "peter_singer", "utilitarianism"]
 title: "SoT - Peter Singer's Famine, Affluence, and Morality"
-type: SoT
-uid: 2025-12-14-SINGER-FAMINE
+type: "SoT"
+uid: 
 updated: 
-version: 1
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> Peter Singer's **"Famine, Affluence, and Morality"** (1972) argues that if one can prevent something very bad from happening without sacrificing anything of comparable moral significance, one is morally obligated to do so. This principle radically redefines the moral status of giving to charity, asserting that affluent individuals are **morally culpable** for failing to donate to effective relief organizations, framing such inaction as morally equivalent to direct harm.
-
 ---
 
 ## 2. Conceptual Foundation: Obligation vs. Supererogation

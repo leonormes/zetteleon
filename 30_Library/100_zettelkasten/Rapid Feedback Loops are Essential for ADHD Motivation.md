@@ -1,20 +1,20 @@
 ---
-aliases: [Rapid Feedback Loops]
-confidence: 0.9
+aliases: ["Rapid Feedback Loops"]
+confidence: "0.9"
 created: 2025-11-12T15:00:06Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-12T14:01:15Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To explain the importance of immediate feedback for the ADHD brain."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[ADHD habit building requires immediate feedback or reward loops]]"]
-source_of_truth: ["[[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]"]
-status: seedling
-tags: [adhd, dopamine, feedback, motivation]
+source_of_truth: []
+status: "seedling"
+tags: ["dopamine", "feedback", "motivation", "topic/health/adhd"]
 title: Rapid Feedback Loops are Essential for ADHD Motivation
-type: concept
-uid: 2025-11-12T15:00:06Z
-updated: 2025-11-12T15:00:06Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Rapid Feedback Loops Are Essential for ADHD Motivation

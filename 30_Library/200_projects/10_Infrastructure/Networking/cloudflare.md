@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-25T18:07:48Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-21T14:57:49Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [cloudflare, dns, ff_deploy, networking]
+status: ""
+tags: ["cloudflare", "dns", "ff_deploy", "topic/technology/networking"]
 title: Cloudflare
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 We use cloudflare. It has some DNS records. Our route seems to go to cloudflare ips and from there to our loadbalancer ip. What is cloudflare? What can it do
@@ -197,7 +197,7 @@ When you enable proxying for an A, AAAA, or CNAME record, Cloudflare returns one
 
 This configuration lets Cloudflare provide additional services such as DDoS mitigation, Web Application Firewall (WAF) filtering, and edge caching, while also masking your origin server’s IP from the public Internet.
 
-For example, a proxied record ensures that attackers can only see Cloudflare’s IPs rather than your real server address, significantly reducing the risk of direct attacks. ,
+For example, a proxied record ensures that attackers can only see Cloudflare’s IPs rather than your real server address, significantly reducing the risk of direct attacks.,
 
 DNS-Only Records:
 
@@ -213,7 +213,7 @@ As a consequence, your server is directly exposed to potential DDoS attacks and 
 
 Anycast Technology: Cloudflare leverages Anycast routing so that the same IP address is announced from hundreds of data centers around the world. When a client queries a proxied DNS record, the response is an Anycast IP.
 
-Optimized Routing: Routers use BGP (Border Gateway Protocol) to automatically direct the client’s request to the nearest Cloudflare data center based on metrics such as hop count and network latency. This ensures that traffic is routed via the most efficient path. ,
+Optimized Routing: Routers use BGP (Border Gateway Protocol) to automatically direct the client’s request to the nearest Cloudflare data center based on metrics such as hop count and network latency. This ensures that traffic is routed via the most efficient path.,
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T14:25:58Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [aws, load-balancing, topic/technology/networking, topic/technology/networking/cloud-networking]
+status: ""
+tags: ["aws", "load-balancing", "topic/technology/networking", "topic/technology/networking/cloud-networking"]
 title: What is an AWS Application Load Balancer (ALB)
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 An **Application Load Balancer (ALB)** is a type of load balancer in Amazon Web Services (AWS) that operates at the application layer (Layer 7) of the OSI model.

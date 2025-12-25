@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-05-24T08:22:23Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:12Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T18:35:18Z
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: [k8s]
 title: Kubernetes Debugging Runbook
-type:
-uid: 
-updated: 
-version:
+type: ""
+uid:
+updated:
+version: ""
 ---
 
 **Purpose:** This runbook provides a starting point for general debugging of applications deployed to a cloud provider managed Kubernetes cluster, particularly when using Helm and Argo CD.

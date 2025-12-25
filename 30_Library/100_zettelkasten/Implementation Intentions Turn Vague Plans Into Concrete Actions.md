@@ -1,21 +1,21 @@
 ---
-aliases: [Specific Plans, When-Where Planning]
-confidence: 0.9
+aliases: ["Specific Plans", "When-Where Planning"]
+confidence: "0.9"
 created: 2025-11-01T20:22:24Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:26:28Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain how implementation intentions create actionable specificity from vague intentions."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Action Defined as Behavior That Produces Tangible Outcomes]]", "[[Timeboxing Creates Structure for Action]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/LLMPKM/motion_vs_action.md"]
-status: seedling
-tags: [habits, planning, productivity, strategy]
+source_of_truth: []
+status: "seedling"
+tags: ["planning", "strategy", "topic/habits", "topic/productivity"]
 title: Implementation Intentions Turn Vague Plans Into Concrete Actions
-type: concept
-uid: 2025-11-01T20:22:24Z
-updated: 2025-11-01T20:22:24Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Implementation intentions are specific plans for when and where actions will occur, transforming vague notions into concrete plans that sweep away ambiguity and create triggers for action.

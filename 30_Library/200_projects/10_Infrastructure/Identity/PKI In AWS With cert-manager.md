@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-24T07:37:08Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [pki]
+status: ""
+tags: ["pki"]
 title: PKI In AWS With cert-manager
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 To secure your application at `app.private.fitfile.net` within your private VPC and resolve the "site not secure" warning, it is essential to understand how Public Key Infrastructure (PKI) operates and how **AWS Private CA** and **cert-manager** integrate to manage digital certificates.

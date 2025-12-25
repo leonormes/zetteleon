@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-04-13T11:19:16Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-08T11:11:33Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [pdu]
+status: ""
+tags: ["pdu"]
 title: Explore the Relationship Between Protocol Data Units (PDUs) and the Processes of Encapsulation and Decapsulation in Layered Network Models
-type: source
+type: "source"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 Let's explore the relationship between Protocol Data Units (PDUs) and the processes of encapsulation and decapsulation in layered network models in greater detail.

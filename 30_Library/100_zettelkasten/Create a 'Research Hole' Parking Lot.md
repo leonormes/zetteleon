@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-05-10T10:37:03Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/health/adhd, topic/pkm/zettelkasten]
+status: ""
+tags: ["topic/health/adhd", "topic/pkm/zettelkasten"]
 title: "Create a 'Research Hole' Parking Lot"
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 You will always want to go research better note strategies mid-note. Instead of giving in, make a page called “Zettelkasten Rabbit Holes” and just write:

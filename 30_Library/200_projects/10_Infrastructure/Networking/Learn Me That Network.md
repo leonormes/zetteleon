@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-23T18:28:03Z
-epistemic: 
-id: 053cf09d-cb0b-4be9-ad6e-b39c120ed816
-last_reviewed: 
-modified: 2025-12-13T11:39:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "053cf09d-cb0b-4be9-ad6e-b39c120ed816"
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [networking]
+status: ""
+tags: ["topic/technology/networking"]
 title: Learn Me That Network
-type: LLM
+type: "LLM"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 To properly learn AWS private networking for EKS and gain a generic understanding applicable to Azure, it's best to approach it by understanding the fundamental networking concepts first, and then seeing how AWS and Azure implement them in their Kubernetes services.
@@ -24,6 +24,7 @@ To properly learn AWS private networking for EKS and gain a generic understandin
 Here's a breakdown of how you can learn this effectively:
 
 ## Foundational Networking Concepts (Generic and Cloud-Agnostic)
+
 ### Virtual Networks (VNets)
 
 - Think of these as your own logically isolated network in the cloud. They are the fundamental building block for private networking.

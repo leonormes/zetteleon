@@ -1,20 +1,20 @@
 ---
 aliases: ["Python socket operations"]
-confidence: 
+confidence: ""
 created: 2025-10-31T13:39:00Z
-epistemic: NA
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:58Z
+epistemic: "NA"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Document the standard socket lifecycle operations in Python."
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [networking, programming, python, socket]
+status: "seedling"
+tags: ["programming", "python", "socket", "topic/technology/networking"]
 title: Socket Lifecycle in Python Programming
-type: instructional
-uid: 2025-10-31T13:39:00Z
-updated: 2025-10-31T13:39:00Z
+type: "instructional"
+uid: 
+updated: 
 ---
 
 ## Socket Lifecycle in Python Programming

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-28T11:46:46Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:10Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:33+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [charts, dependency-management, helm, modules, versioning]
+status: ""
+tags: ["charts", "dependency-management", "helm", "modules", "versioning"]
 title: Create a Central Version Catalog Module
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Option 1: Create a Central Version Catalog Module (Recommended)

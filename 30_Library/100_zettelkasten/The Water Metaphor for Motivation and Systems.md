@@ -1,21 +1,21 @@
 ---
-aliases: [Energy as Liquid, Motivation as Water]
-confidence: 0.9
+aliases: ["Energy as Liquid", "Motivation as Water"]
+confidence: "0.9"
 created: 2025-10-31T10:27:26Z
-epistemic: metaphor
-last_reviewed: 2025-10-31
-modified: 2025-10-31T10:42:03Z
-purpose: Metaphor for understanding how systems channel variable motivation
-review_interval: 90
+epistemic: "metaphor"
+last_reviewed: "2025-10-31T00:00:00.000Z"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "Metaphor for understanding how systems channel variable motivation"
+review_interval: "90"
 see_also: []
 source: "[[Gemini - Systems Habits and Past Achievements]]"
 source_of_truth: []
-status: seedling
-tags: [energy-management, metaphor, motivation, systems, topic/productivity]
+status: "seedling"
+tags: ["energy-management", "metaphor", "motivation", "topic/productivity", "topic/systems"]
 title: The Water Metaphor for Motivation and Systems
-type: metaphor
-uid: 2025-10-31T10:27:26Z
-updated: 2025-10-31
+type: "metaphor"
+uid: 
+updated: 
 ---
 
 ## The Water Metaphor for Motivation and Systems

@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:55Z
-epistemic: 
-ID: information_revelation
-last_reviewed: 
-modified: 2025-11-12T08:28:14Z
-purpose: 
-review_interval: 
+epistemic: ""
+ID: "information_revelation"
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [information]
+status: ""
+tags: ["information"]
 title: information revelation
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Information isn't always apparent; it often needs to be uncovered or derived through the application of knowledge, logic, and related information.

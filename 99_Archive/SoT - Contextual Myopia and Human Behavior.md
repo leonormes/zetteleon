@@ -7,7 +7,7 @@ decay-signals: []
 epistemic:
 last-synthesis: 2025-12-11
 last_reviewed: 2025-12-11
-modified: 2025-12-20T09:54:04Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: To define the inherent limitations of human cognitive processing and the role of abstraction as a compensatory mechanism.
 quality-markers: []
 related-soTs: []
@@ -17,7 +17,7 @@ see_also: []
 source_of_truth: true
 status: stable
 supersedes: []
-tags: [abstraction, cognition, mental_models, psychology, understanding]
+tags: [abstraction, mental_models, topic/cognition, topic/psychology, understanding]
 title: SoT - Contextual Myopia and Human Behavior
 type: SoT
 uid:

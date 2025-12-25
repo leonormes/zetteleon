@@ -1,21 +1,21 @@
 ---
-aliases: [Constructivism]
-confidence: 0.7
+aliases: ["Constructivism"]
+confidence: "0.7"
 created: 2025-11-01T11:22:13Z
-epistemic: opinion
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:35:54Z
-purpose: "Define the intuitionist philosophy that mathematics requires mental construction."
-review_interval: 90
+epistemic: "opinion"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: "90"
 see_also: ["[[Deductive Reasoning Underwrites Mathematical Proof]]", "[[Intuitionism Rejects the Law of the Excluded Middle]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md"]
-status: seedling
-tags: [constructivism, philosophy, topic/maths]
+source_of_truth: []
+status: "seedling"
+tags: ["constructivism", "philosophy", "topic/maths"]
 title: Intuitionism (Mathematics as Mental Construction)
-type: concept
-uid: 2025-11-01T11:22:13Z
-updated: 2025-11-01T11:22:13Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Intuitionism asserts that mathematics is a purely mental activity of the human mind. A mathematical object exists only if it can be mentally constructed, and a proof is valid only if it provides a method for that construction.

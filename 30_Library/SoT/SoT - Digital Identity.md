@@ -1,34 +1,20 @@
 ---
-aliases: [Authentication, Authorization, Credentials, Digital Identity, Identity Attributes, Identity Data]
-confidence: 5/5
+aliases: ["Authentication", "Authorization", "Credentials", "Digital Identity", "Identity Attributes", "Identity Data"]
+confidence: "5/5"
 created: 2025-12-13T00:00:00Z
-epistemic: technical
-last-synthesis: 2025-12-13
-last_reviewed: 2025-12-13
-modified: 2025-12-20T09:54:09Z
-purpose: To define digital identity from a data-centric perspective, outlining
-  its core components, purpose, and abstracted properties for both human and
-  machine entities.
-related-soTs: '["[[SoT - PRODOS (System Architecture)]]", "[[SoT -
-  Identity-Based Habit Formation]]", "[[SoT - Zero Trust Security]]", "[[SoT -
-  Data-Centric IAM in Zero Trust]]", "[[SoT - Authentication Mechanisms]]",
-  "[[SoT - Authorization Mechanisms]]"]'
-review_interval: 6 months
-see_also: []
-source_of_truth: true
-status: stable
-tags: [authentication, authorization, data, IAM, identity, security]
+epistemic: "technical"
+last_reviewed: "2025-12-13"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define digital identity from a data-centric perspective, outlining"
+review_interval: "6 months"
+see_also: ["[[SoT - PRODOS (System Architecture)]]"]
+source_of_truth: []
+status: "stable"
+tags: ["authentication", "authorization", "data", "IAM", "identity", "security"]
 title: SoT - Digital Identity
-type: SoT
-uid: null
-updated: null
----
-
-## 1. Definitive Statement
-
-> [!definition] Digital Identity (Data-Centric View)
-> A **digital identity** is a dynamic, context-specific collection of electronically stored and correlated **attributes** that describe an entity (person, organization, or device) within a digital environment. It serves as a **proxy** for the real-world entity, enabling trust and interaction.
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. Core Components of a Digital Identity

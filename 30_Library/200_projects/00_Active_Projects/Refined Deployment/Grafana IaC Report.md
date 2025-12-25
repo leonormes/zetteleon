@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-10T11:03:37Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:11Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:32+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: ["observability"]
 title: Grafana IaC Report
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Grafana IaC Analysis Report
@@ -37,7 +37,7 @@ Below is a structured analysis of the Terraform codebase in [central-services/gr
     - Variables/outputs: [vars.tf](cci:7://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/central-services/grafana/vars.tf:0:0-0:0), [outputs.tf](cci:7://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/central-services/grafana/outputs.tf:0:0-0:0)
     - Terraform Cloud workspace config: [provider.tf](cci:7://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/central-services/grafana/provider.tf:0:0-0:0)
 - **[Terraform Cloud integration]**
-  - Uses Terraform Cloud with org/project/workspace set: [provider.tf](cci:7://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/central-services/grafana/provider.tf:0:0-0:0) (`terraform { cloud { ... } }`).
+  - Uses Terraform Cloud with org/project/workspace set: [provider.tf](cci:7://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/central-services/grafana/provider.tf:0:0-0:0) (`terraform { cloud {... } }`).
   - Provider pinned to `grafana/grafana` 3.7.0: [provider.tf](cci:7://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/central-services/grafana/provider.tf:0:0-0:0) (`required_providers`).
 - **[Providers and auth model]**
   - Org-level (Grafana Cloud) via access policy token:
@@ -85,7 +85,7 @@ Below is a structured analysis of the Terraform codebase in [central-services/gr
   - Provider configurations must be known during planning; referencing resources often causes bootstrapping/cycle issues on first apply. This pattern typically works only after an initial bootstrap (values already in state).
   - Recommendation: split bootstrap (org/stack/SA/token) from stack resource management into separate workspaces, or provide stack URLs/tokens via TFC variables/remote state.
 - **[Undefined provider alias usage]**
-  - `provider "grafana" { alias = "uhb_wm_1_stack" ... }` in [provider.tf](cci:7://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/central-services/grafana/provider.tf:0:0-0:0) references `grafana_cloud_stack.uhb_wm_1_stack` and `grafana_cloud_stack_service_account_token.uhb_wm_1_cloud_sa_token`, which do not exist in the repo. This will fail planning unless they exist in state from elsewhere.
+  - `provider "grafana" { alias = "uhb_wm_1_stack"... }` in [provider.tf](cci:7://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/central-services/grafana/provider.tf:0:0-0:0) references `grafana_cloud_stack.uhb_wm_1_stack` and `grafana_cloud_stack_service_account_token.uhb_wm_1_cloud_sa_token`, which do not exist in the repo. This will fail planning unless they exist in state from elsewhere.
 - **[Secrets exposed in comments]**
   - [contact_points.tf](cci:7://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/central-services/grafana/contact_points.tf:0:0-0:0) contains a commented Slack webhook URL (lines 5-7). Even commented, it’s in the repo. This is a security risk and should be removed or templated.
 - **[Inconsistent datasource references]**

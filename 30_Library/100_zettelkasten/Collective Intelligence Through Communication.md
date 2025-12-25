@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-05T06:22:44Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [collective-intelligence, communication, culture, knowledge-transmission]
+status: ""
+tags: ["collective-intelligence", "communication", "culture", "knowledge-transmission"]
 title: Collective Intelligence Through Communication
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Human intelligence's true power lies not in isolated minds but in our ability to create a **collective brain** through communication and cooperation. This allows knowledge to accumulate across generations rather than being reinvented repeatedly.

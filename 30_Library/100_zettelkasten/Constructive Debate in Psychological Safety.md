@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T12:47:00Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T13:10:59Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain healthy team conflict dynamics."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [psychology, teamwork]
+status: "seedling"
+tags: ["teamwork", "topic/psychology"]
 title: Constructive Debate in Psychological Safety
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

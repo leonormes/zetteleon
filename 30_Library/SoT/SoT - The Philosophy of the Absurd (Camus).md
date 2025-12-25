@@ -1,37 +1,25 @@
 ---
-aliases: [Absurdism, The Absurd, The Myth of Sisyphus]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-12T13:30:00Z
-epistemic:
-last-synthesis: 2025-12-12
-last_reviewed: 2025-12-12
-modified: 2025-12-20T09:54:06Z
-purpose: Canonical synthesis of Albert Camus's philosophy of the Absurd, its implications, and its connection to meaning generation.
-quality-markers: []
-related-soTs: ["[[SoT - Contextual Myopia and Self-Referential Meaning]]", "[[SoT - The Internal World and the Need for Validation]]"]
-resonance-score: 10
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: ["[[Camus and the Absurd]]", "[[Camus's Three Responses to the Absurd]]", "[[Philosophical Critiques of Camus]]", "[[The Myth of Sisyphus as an Absurd Hero]]", "[[Understanding Absurdism]]"]
+aliases: ["Absurdism", "The Absurd", "The Myth of Sisyphus"]
+confidence: "5/5"
+created: 2025-12-12T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-12"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "Canonical synthesis of Albert Camus's philosophy of the Absurd, its implications, and its connection to meaning generation."
+review_interval: "1 year"
+see_also: ["[[Camus and the Absurd]]", "[[Camus's Three Responses to the Absurd]]", "[[Philosophical Critiques of Camus]]", "[[SoT - Contextual Myopia and Self-Referential Meaning]]", "[[SoT - The Internal World and the Need for Validation]]", "[[The Myth of Sisyphus as an Absurd Hero]]", "[[Understanding Absurdism]]"]
+source_of_truth: []
+status: "stable"
 tags: ["absurdism", "existentialism", "meaning", "philosophy"]
 title: SoT - The Philosophy of the Absurd (Camus)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] The Absurd
-> The **Absurd** is not a property of the universe nor of the human mind, but the **irresolvable conflict** born from their confrontation:
->
-> 1. **The Human Need:** Our innate, desperate drive to find meaning, order, and rational explanations for our existence.
-> 2. **The Universe's Response:** The "unreasonable silence of the world"—a cosmos that offers no inherent meaning, no grand purpose, and no answer to our cries.
-
----
+> The **Absurd** is not a property of the universe nor of the human mind, but the **irresolvable conflict** born from their confrontation: ""
+> 1. **The Human Need: "** Our innate, desperate drive to find meaning, order, and rational explanations for our existence."
+> 2. **The Universe's Response: "** The \"unreasonable silence of the world\"\u2014a cosmos that offers no inherent meaning, no grand purpose, and no answer to our cries."
 
 ## 2. The Three Responses to the Condition
 

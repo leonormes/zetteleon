@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-17T02:57:22Z
-epistemic: 
-id: This error message Address is not allowed
-last_reviewed: 
-modified: 2025-12-13T11:39:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "This error message Address is not allowed"
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [k8s, networking]
+status: ""
+tags: ["k8s", "topic/technology/networking"]
 title: error message Address is not allowed
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 This error message, "Address is not allowed," from the `validate.nginx.ingress.kubernetes.io` webhook, indicates a network connectivity issue between your `kubectl` client (running on the jumpbox) and the admission webhook service within your EKS cluster. Let's break down the problem and explore solutions:

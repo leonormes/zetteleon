@@ -1,31 +1,31 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-12-09T11:21:13Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-09T11:24:16Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:33+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: ["azure", "ff_deploy"]
 title: Azure Jumpbox Preflight Check – Customer One‑Pager
-type: 
+type: ""
 uid: 
 updated: 
 ---
 
-## Azure Jumpbox Preflight Check – Customer One‑Pager
+## Azure Jumpbox Preflight Check–Customer One‑Pager
 
-**Goal:**  
+**Goal:**
 Before FITFILE deploys into your Azure subscription, we want to confirm that:
 
-- The jumpbox / bastion host can reach Azure over HTTPS  
-- The deployment user can log in with the Azure CLI  
-- The user has the right permissions on the target subscription  
-- Azure Resource Manager (ARM) is reachable from your network  
+- The jumpbox / bastion host can reach Azure over HTTPS
+- The deployment user can log in with the Azure CLI
+- The user has the right permissions on the target subscription
+- Azure Resource Manager (ARM) is reachable from your network
 
 This avoids “last‑minute surprises” (e.g. Conditional Access blocking `az login`) during the deployment window.
 
@@ -40,7 +40,7 @@ This avoids “last‑minute surprises” (e.g. Conditional Access blocking `az 
 
 **Your Infrastructure / Jumpbox Operator**
 
-- Runs FITFILE’s preflight script `run_me_first.sh` on the jumpbox  
+- Runs FITFILE’s preflight script `run_me_first.sh` on the jumpbox
 - Shares the script output with FITFILE
 
 FITFILE will provide the script and support you in interpreting the results.
@@ -71,21 +71,21 @@ Use the **Conditional Access “What If”** tool to make sure Azure CLI logins 
 **Inputs for the What‑If test:**
 
 - **User:** the FITFILE deployment user (e.g. `leon.ormes@…`)
-- **Cloud app:**  
+- **Cloud app:**
   - *Microsoft Azure CLI* (App ID: `04b07795-8ddb-461a-bbee-02f9e1bf7b46`)
-- **Location:**  
-  - The **egress IP or IP range that outbound traffic from the Azure spoke/jumpbox will use**  
-    (for example, your central firewall / NAT gateway egress range).  
+- **Location:**
+  - The **egress IP or IP range that outbound traffic from the Azure spoke/jumpbox will use**
+    (for example, your central firewall / NAT gateway egress range).
   - If this is not yet known, you can initially run the What‑If with **Any location**, and re‑run it later once the egress range is defined.
-- **Device state:**  
+- **Device state:**
   - Treat the jumpbox as **Unregistered / Non‑compliant**
-- **Client type:**  
+- **Client type:**
   - Modern client / mobile & desktop apps (Azure CLI uses this path)
 
 **What you’re looking for:**
 
-- No Conditional Access policy should **block** this scenario.  
-- It’s fine to **require MFA** or similar controls.  
+- No Conditional Access policy should **block** this scenario.
+- It’s fine to **require MFA** or similar controls.
 - If a policy blocks access, please adjust it (e.g. exception for the *Azure spoke egress* named location, or a dedicated “deployment” policy that allows Azure CLI for this user and IP range).
 
 ### 3.2 RBAC: Confirm the Deployment User’s Role
@@ -101,7 +101,7 @@ On the **target subscription**:
 
 If you use **PIM (Privileged Identity Management)**:
 
-- Confirm the user has an **eligible** role on this subscription  
+- Confirm the user has an **eligible** role on this subscription
 - Confirm they know how to **activate** it (and that approvers will be available) before the deployment window
 
 ---
@@ -146,7 +146,7 @@ The script will:
 
 At the end it will print either:
 
-- **“Preflight checks PASSED”** – you are ready for FITFILE deployment  
+- **“Preflight checks PASSED”**–you are ready for FITFILE deployment
 - Or a clear **error message** indicating what failed (network, login, role, etc.)
 
 ---
@@ -155,7 +155,7 @@ At the end it will print either:
 
 When the script finishes, please:
 
-1. Copy the **full terminal output** (including any warnings)  
+1. Copy the **full terminal output** (including any warnings)
 2. Send it to your **FITFILE contact**
 
 This gives us everything we need to confirm readiness or help you resolve any remaining issues **before** the deployment window.

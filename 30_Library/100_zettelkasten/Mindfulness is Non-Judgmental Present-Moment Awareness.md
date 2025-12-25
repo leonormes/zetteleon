@@ -1,21 +1,21 @@
 ---
-alias: [Mindful Presence]
+alias: ["Mindful Presence"]
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-01T12:20:06Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T10:08:58Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To define the practice of mindfulness."
-review_interval: 90
-see_also: ['[[Beginner\s Mind is a State of Openness and Curiosity]]']
-source_of_truth: ['[[MOC - Why Chasing Enlightenment Causes Suffering]]']
-status: seedling
-tags: [awareness, buddhism, mindfulness, zen]
+review_interval: "90"
+see_also: ["[[Beginner\\\\s Mind is a State of Openness and Curiosity]]"]
+source_of_truth: []
+status: "seedling"
+tags: ["awareness", "buddhism", "mindfulness", "zen"]
 title: Mindfulness is Non-Judgmental Present-Moment Awareness
-type: concept
-uid: 2025-11-01T12:20:06Z
-updated: 2025-11-01T12:20:06Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Mindfulness is Non-Judgmental Present-Moment Awareness

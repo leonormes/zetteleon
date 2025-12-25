@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-07-26T19:03:54Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:38Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [type/moc]
+status: "null"
+tags: []
 title: MOC The Nature and Scope of Understanding
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: "null"
 ---
 
 This Map of Content explores the multifaceted concept of understanding, examining its benefits, limitations, and strategies for improvement. At its core, [[Understanding Enables Accurate Predictions]] and simultaneously [[Understanding Reveals Cause-and-Effect]]. The effectiveness of these aspects is heavily influenced by the [[Broader Understanding Enhances Predictive & Causal Insight]].

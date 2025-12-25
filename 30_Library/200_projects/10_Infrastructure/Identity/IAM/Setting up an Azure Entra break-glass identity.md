@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-21T10:00:11Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:50Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [access-control, entra, IAM]
+status: ""
+tags: ["access-control", "entra", "IAM"]
 title: Setting up an Azure Entra break-glass identity
-type: plan
+type: "plan"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 Setting up an Azure Entra break-glass identity is crucial for maintaining access to your tenant in emergency situations. Here's a breakdown of best practices and essential properties for a robust break-glass account:

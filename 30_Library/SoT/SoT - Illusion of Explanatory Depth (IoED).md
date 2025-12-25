@@ -1,31 +1,23 @@
 ---
 aliases: ["Causal Opacity", "Heuristic Substitution", "IoED", "The Toilet Illusion"]
-confidence: 5/5
-created: 2025-12-12T23:11:21Z
-epistemic: Verified via Cognitive Science & Behavioral Economics (Rozenblit & Keil, 2002)
-last_reviewed: 2025-12-15
-modified: 2025-12-20T09:54:08Z
-purpose: To define the Illusion of Explanatory Depth and its critical impact on learning, systems thinking, and ADHD metacognition.
-related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - Knowledge Synthesis (Thinking)]]", "[[SoT - Thinking Patterns, Biases, and Heuristics]]"]
-review_interval: 6 months
-see_also: ["[[Familiarity is Mistaken for Comprehension in IoED]]", "[[MOC - Illusion of Explanatory Depth]]", "[[MOC ADHD and Metacognition]]"]
-source_of_truth: true
-status: stable
-tags: ["adhd", "bias", "cognition", "learning", "mental_models"]
+confidence: "5/5"
+created: 2025-12-12T00:00:00Z
+epistemic: "Verified via Cognitive Science & Behavioral Economics (Rozenblit & Keil, 2002)"
+last_reviewed: "2025-12-15"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define the Illusion of Explanatory Depth and its critical impact on learning, systems thinking, and ADHD metacognition."
+review_interval: "6 months"
+see_also: ["[[Familiarity is Mistaken for Comprehension in IoED]]", "[[MOC - Illusion of Explanatory Depth]]", "[[MOC ADHD and Metacognition]]", "[[SoT - ADHD and Motivation]]", "[[SoT - Knowledge Synthesis (Thinking)]]", "[[SoT - Thinking Patterns", "and Heuristics]]", "Biases"]
+source_of_truth: []
+status: "stable"
+tags: ["bias", "learning", "mental_models", "topic/cognition", "topic/health/adhd"]
 title: SoT - Illusion of Explanatory Depth (IoED)
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Definition: The Illusion of Explanatory Depth (IoED)
-> The **Illusion of Explanatory Depth** is a cognitive bias where individuals vastly overestimate their understanding of how complex systems work.
->
-> We mistake **Familiarity** (recognizing the label) for **Comprehension** (understanding the mechanism). The illusion is shattered only when we are forced to explain *causally*—step-by-step—how the system functions, revealing the "black boxes" in our mental models.
-
----
+> [!definition] Definition: "The Illusion of Explanatory Depth (IoED)"
 
 ## 2. The Core Mechanism: Heuristic Substitution
 
@@ -60,6 +52,13 @@ For the neurodivergent brain, IoED is not just a bias; it is a **functional impa
 
 ---
 
+### 3.1. The Illusion of Profundity
+
+Internal thoughts can feel exceptionally deep because they are supported by "tacit knowledge"—private emotional charge, intuitive leaps, and a rich subjective narrative.
+
+- **The Support Gap:** Within the mind, an idea is scaffolded by non-verbal context. When externalized (spoken or written), this internal context vanishes, often leaving the idea looking "skeletal" or flawed to others.
+- **The ADHD Intensifier:** If an idea is tied to a hyperfocus session or high-intensity dopamine flood, the *feeling* of breakthrough can be mistaken for the *integrity* of the logic.
+
 ## 4. The Antidote: Forcing Functions
 
 You cannot "think" your way out of IoED; you must "act" your way out. You must force the brain to simulate the mechanism.
@@ -73,7 +72,7 @@ Attempt to explain the concept in simple terms to a child or a rubber duck.
 
 ### B. The "Build It" Standard (The Creation Test)
 
-"What I cannot create, I do not understand." — Richard Feynman.
+"What I cannot create, I do not understand."—Richard Feynman.
 
 - **The Rule:** You do not understand a code library until you have built a small app with it. You do not understand a mental model until you have applied it to a real-life problem.
 - **Action:** Move from *Passive Consumption* to *Active Creation*.
@@ -82,11 +81,19 @@ Attempt to explain the concept in simple terms to a child or a rubber duck.
 
 Ask "Why?" five times to drill down to first principles.
 
-- *Why does the toilet flush?* Because water enters the bowl.
-- *Why does water entering the bowl make it empty?* Because of the siphon effect.
-- *Why does the siphon effect work?* Because of atmospheric pressure and gravity...
+### D. The "Question Master" Protocol
 
----
+Bypass passive reading by actively questioning the material:
+
+- **Socratic Inquiry:** Challenge assumptions and motivations behind the facts.
+- **Bloom's Taxonomy:** Use the "verbs" of high-level thinking—Analyze, Evaluate, and Create—to interrogate the subject.
+
+### E. Visual Learning & Narrative
+
+The brain is highly visual. Use **Doodling** and **Stories** to create "hooks":
+
+- **Mental Maps:** Convert abstract text into spatial diagrams to see the relationships.
+- **Narrative Anchoring:** Create a story to link items on a list, making them personally meaningful.
 
 ## 5. Related Concepts
 

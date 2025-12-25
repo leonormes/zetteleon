@@ -1,21 +1,21 @@
 ---
-aliases: [Actions as Votes, Voting Metaphor for Identity]
-confidence: 0.9
+aliases: ["Actions as Votes", "Voting Metaphor for Identity"]
+confidence: "0.9"
 created: 2025-11-01T12:04:20Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:26:24Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain the voting metaphor for how individual actions accumulate to shape identity."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Accumulating Evidence Reinforces Identity]]", "[[Identity Emerges from Habits Not Fixed at Birth]]", "[[Identity Means Repeated Beingness]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Habits and Identity.md"]
-status: seedling
-tags: [behavior-change, habits, identity, metaphor]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "identity", "metaphor", "topic/habits"]
 title: Every Action is a Vote for Who You Wish to Become
-type: concept
-uid: 2025-11-01T12:04:20Z
-updated: 2025-11-01T12:04:20Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Every action you take is metaphorically a "vote for the type of person you wish to become." Each time you perform a behavior, you're casting a ballot in the ongoing election of your identity.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T13:14:20Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [configuration, excalidraw, obsidian, setup]
+status: ""
+tags: ["configuration", "excalidraw", "obsidian", "setup"]
 title: Getting Started with Excalidraw in Obsidian
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 To begin using Excalidraw in Obsidian for visual note-taking:

@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-13T16:51:12Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-13T17:39:20Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:32+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: ["backup"]
 title: How to Backup and Restore Kubernetes Clusters Using Velero
-type: 
+type: ""
 uid: 
 updated: 
 ---
@@ -28,7 +28,7 @@ Velero (formerly Heptio Ark) is an open-source tool for backing up, restoring, a
   - **Compliance:** Provides auditable backup logs and retention policies.
   - **Disaster Recovery:** Supports cloud and on-prem storage, allowing cluster restores in a new environment.
 - **Workflow:**
-  - Velero creates .tar backup files and stores them with your chosen cloud provider (e.g. AWS S3).
+  - Velero creates.tar backup files and stores them with your chosen cloud provider (e.g. AWS S3).
   - Restoration pulls these files into the target Kubernetes cluster and re-applies resources.
 - **Prerequisites \& Installation:**
   - Install Velero CLI from its GitHub release for your platform.

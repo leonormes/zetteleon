@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-25T20:14:33Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:55:00Z
-purpose: To test the efficacy of blocking time for deep work versus granular next actions for ADHD brains.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "To test the efficacy of blocking time for deep work versus granular next actions for ADHD brains."
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
-source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
-status: active
-tags: [experiment, hypothesis, productivity, topic/health/adhd]
+source_of_truth: []
+status: "active"
+tags: ["experiment", "hypothesis", "topic/health/adhd", "topic/productivity"]
 title: Deep Dive Sessions for ADHD (Adapted GTD Next Actions)
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## 1. The Hypothesis

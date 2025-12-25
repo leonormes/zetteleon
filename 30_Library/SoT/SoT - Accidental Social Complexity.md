@@ -1,20 +1,18 @@
 ---
-aliases: [Socio-Technical Dissonance]
-confidence: 4/5
+aliases: ["Socio-Technical Dissonance"]
+confidence: "4/5"
 created: 2025-12-17T00:00:00Z
-epistemic: 
-last_reviewed: 2025-12-17
-modified: 2025-12-20T09:54:10Z
-purpose: To define Accidental Social Complexity as a primary source of inefficiency and friction in technical projects.
-related-soTs: ["[[MOC - Socio-Technical Dissonance]]"]
-review_interval: 
-see_also: []
-source: https://gemini.google.com/share/7368b72e8f22
-source_of_truth: true
-status: stable
-tags: [complexity, social-dynamics, systems-thinking, team-dynamics]
+epistemic: ""
+last_reviewed: "2025-12-17"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "To define Accidental Social Complexity as a primary source of inefficiency and friction in technical projects."
+review_interval: "3 months"
+see_also: ["[[MOC - Socio-Technical Dissonance]]"]
+source_of_truth: []
+status: "stable"
+tags: ["complexity", "social-dynamics", "team-dynamics", "topic/systems"]
 title: SoT - Accidental Social Complexity
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---

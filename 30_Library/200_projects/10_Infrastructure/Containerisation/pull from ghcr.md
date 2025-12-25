@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-03T09:40:23Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:41+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [ghcr]
+status: ""
+tags: ["ghcr"]
 title: pull from ghcr
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 Let's troubleshoot that Docker pull authentication error you're seeing with `ghcr.io`. The "401 Unauthorized" error means you're not properly authenticated to pull from the GitHub Container Registry (ghcr.io). Here's a breakdown of the problem and how to fix it, along with explanations:

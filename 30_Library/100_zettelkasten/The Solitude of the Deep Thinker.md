@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-27T19:21:32Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [loneliness, topic/cognition/thinking, topic/philosophy, topic/psychology]
+status: "null"
+tags: ["loneliness", "topic/cognition/thinking", "topic/philosophy", "topic/psychology"]
 title: The Solitude of the Deep Thinker
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Intellectual loneliness is the common and profound frustration of seeing a universe of intricate beauty and having no one with whom to share that specific view. It arises from [[The Gap Between Knowing a Fact and Understanding a Concept]].

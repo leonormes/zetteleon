@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:01:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [authenticity, philosophy, psychology, self, sociology]
+status: ""
+tags: ["authenticity", "philosophy", "self", "sociology", "topic/psychology"]
 title: The Paradox of Authenticity in a Social Context
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 There is a central paradox in the modern concept of authenticity. It is often defined as being "unfiltered by social expectations," yet the very values and self-awareness we use to define our "authentic self" are themselves shaped by our social context.

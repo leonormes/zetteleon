@@ -1,21 +1,21 @@
 ---
-aliases: [Momentum Method]
-confidence: 1
+aliases: ["Momentum Method"]
+confidence: "1"
 created: 2025-11-02T12:01:00Z
 epistemic: "solution"
-last_reviewed: 2025-11-02
-modified: 2025-11-02T13:08:32Z
+last_reviewed: "2025-11-02"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To introduce the Momentum Method as a strategy to overcome task initiation friction."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[A Starter Task is a Small Action Designed Purely to Build Momentum]]", "[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]"]
-source_of_truth: ["[[The Starter Task Overcomes Activation Energy for ADHD]]"]
+source_of_truth: []
 status: "evergreen"
-tags: [adhd, momentum, productivity, strategy, task-initiation]
+tags: ["momentum", "strategy", "task-initiation", "topic/health/adhd", "topic/productivity"]
 title: The Momentum Method Uses Starter Tasks to Lower Activation Energy
 type: "permanent"
-uid: 20251102120100
+uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 The **Momentum Method** is a behavioral strategy designed to systematically overcome the high activation energy associated with task initiation in ADHD.

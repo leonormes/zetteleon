@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-10T12:10:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T10:00:47Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To identify a key barrier to habit formation."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Behavior Incongruent with Self Will Not Last]]"]
-source_of_truth: ["[[MOC - The Relationship Between Habits and Identity]]"]
-status: seedling
-tags: [behavior-change, conflict, habits, identity, resistance]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "conflict", "identity", "resistance", "topic/habits"]
 title: Identity Conflict Can Impede Positive Habit Change
-type: concept
-uid: 2025-11-10T12:10:00Z
-updated: 2025-11-10T12:10:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Identity Conflict Can Impede Positive Habit Change

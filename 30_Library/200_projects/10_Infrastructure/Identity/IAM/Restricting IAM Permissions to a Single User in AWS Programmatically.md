@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-14T06:46:10Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:52Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [IAM]
+status: ""
+tags: ["IAM"]
 title: Restricting IAM Permissions to a Single User in AWS Programmatically
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 You're aiming to implement resource-level permissions in AWS IAM to restrict a principal's ability to manage only a specific IAM user, rather than all users. This is a security best practice to limit the blast radius of any potential security breaches. Here's how you can achieve this programmatically:

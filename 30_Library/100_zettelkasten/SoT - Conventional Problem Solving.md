@@ -1,20 +1,19 @@
 ---
 aliases: ["Applicative Intelligence", "Framework-Bound Thinking", "Incremental Optimization", "Linear Problem Solving"]
-confidence: 5/5
+confidence: "5/5"
 created: 2025-02-07T12:57:55Z
-epistemic: theory
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:55Z
-purpose: To define Applicative Intelligence—the systematic application of existing frameworks to solve problems—distinguishing it from Generative Intelligence.
-related-soTs: ["[[SoT - Deep Learning & Mastery]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - Six Levels of Thinking]]", "[[SoT - Systems Thinking]]"]
-review_interval: 
+epistemic: "theory"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "To define Applicative Intelligence\\u2014the systematic application of existing frameworks to solve problems\\u2014distinguishing it from Generative Intelligence."
+review_interval: ""
 see_also: ["[[SoT - Cognitive Refactoring (Neural Debugging)]]", "[[SoT - PRODOS - Problem Architecture]]"]
-source_of_truth: true
-status: stable
-tags: ["cognition", "mental_models", "optimization", "problem-solving", "strategy"]
+source_of_truth: []
+status: "stable"
+tags: ["mental_models", "optimization", "problem-solving", "strategy", "topic/cognition"]
 title: SoT - Conventional Problem Solving
-type: SoT
-uid: 2025-12-16-APPLICATIVE-INT
+type: "SoT"
+uid: 
 updated: 
 ---
 
@@ -74,7 +73,7 @@ Applicative thinking excels at climbing the hill it is standing on, but it canno
 This concept is a foundational component of the system's epistemology.
 
 | Domain | Application |
-| :--- | :--- |
+|:--- |:--- |
 | **Domain 4: The Trade** | **Engineering:** 90% of software engineering is Applicative. It is the disciplined application of Design Patterns, Best Practices, and Library usage. It is "Maintenance Mode" and "Feature Work." |
 | **Domain 7: Epistemology** | **Learning:** This is the domain of **Mastery**—deepening one's command of existing tools. It contrasts with **Discovery** (finding new tools). |
 | **Domain 1: ProdOS** | **Execution:** The **GTD** methodology is an Applicative framework. We do not invent a new workflow every day; we apply the *Standard Operating Procedure* to clear the inbox. |

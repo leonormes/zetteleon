@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-12-04T12:23:09Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-04T13:28:05Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Detailed Example From Spark to Synthesis
-type: 
+type: ""
 uid: 
 updated: 
 ---
@@ -35,8 +35,8 @@ The search for a perfect tool is a sophisticated form of procrastination. It fee
 
 ## **Stage 3: Understand (Reflection)**
 
-- **Core Point**: The search for the perfect tool isn't about productivity; it's a defence mechanism against the fear of confronting my own work.  
-- **What I Learned**: I've named the behaviour and connected it to a deeper fear. It's not a technical problem but an emotional one.  
+- **Core Point**: The search for the perfect tool isn't about productivity; it's a defence mechanism against the fear of confronting my own work.
+- **What I Learned**: I've named the behaviour and connected it to a deeper fear. It's not a technical problem but an emotional one.
 - **New Questions**: How does this relate to other forms of "productive procrastination"? Is this a specific manifestation of the Sunk Cost Fallacy (I've invested so much time in this tool, I must make it perfect)?
 
 ## **Stage 4: Connect (Linking the Note)**

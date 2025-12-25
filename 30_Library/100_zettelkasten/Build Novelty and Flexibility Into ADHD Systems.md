@@ -1,21 +1,21 @@
 ---
-aliases: [ADHD-Compatible Systems Design, Novelty-Based System Design]
-confidence: 0.7
+aliases: ["ADHD-Compatible Systems Design", "Novelty-Based System Design"]
+confidence: "0.7"
 created: 2025-11-01T11:37:53Z
-epistemic: hypothesis
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:44:48Z
+epistemic: "hypothesis"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Provide strategic guidance for designing systems that work with ADHD brain's need for novelty."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[ADHD Brain is a Novelty-Seeking Machine]]", "[[ADHD Hyperfixation-Burnout Cycle]]", "[[ADHD Systems Fail When They Become Monotonous]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Adhd up and down cycle .md"]
-status: seedling
-tags: [novelty, strategy, systems, topic/health/adhd, topic/productivity]
+source_of_truth: []
+status: "seedling"
+tags: ["novelty", "strategy", "topic/health/adhd", "topic/productivity", "topic/systems"]
 title: Build Novelty and Flexibility Into ADHD Systems
-type: strategy
-uid: 2025-11-01T11:37:53Z
-updated: 2025-11-01T11:37:53Z
-version: 1
+type: "strategy"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Rather than fighting the ADHD brain's need for novelty, effective systems should embrace it by intentionally incorporating variability, flexibility, and opportunities for change. This approach works with the brain's dopamine system instead of against it.

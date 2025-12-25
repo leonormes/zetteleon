@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-11T17:31:48Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-11T17:32:10Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: ["backup"]
 title: Velero
-type: 
+type: ""
 uid: 
 updated: 
 ---

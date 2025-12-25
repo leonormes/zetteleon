@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-02-07T12:57:55Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [novelty, topic/health/adhd]
+status: "null"
+tags: ["novelty", "topic/health/adhd"]
 title: Novelty Effect
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 The novelty effect refers to the increased interest and engagement individuals experience when introduced to something new. This effect can be a powerful motivator initially but tends to wane over time, as seen in the 'motivation curve' and 'honeymoon phase'.

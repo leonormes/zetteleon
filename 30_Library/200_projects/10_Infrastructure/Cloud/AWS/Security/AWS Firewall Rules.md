@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-02-07T12:57:54Z
-epistemic: 
-ID: FFAPP-3277
-last_reviewed: 
-modified: 2025-12-20T20:28:44Z
-purpose: 
-review_interval: 
+epistemic: "null"
+ID: "FFAPP-3277"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [aws, ff_deploy, networking]
+status: "null"
+tags: ["aws", "ff_deploy", "topic/technology/networking"]
 title: AWS Firewall Rules
-type: config
+type: "config"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## AWS Firewall Rules

@@ -1,23 +1,23 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-31T13:46:00Z
-criteria: Atomic notes must relate to socket fundamentals, programming interfaces, or scalability patterns
-epistemic:
-exclusions: Low-level kernel implementation details, hardware-specific networking, non-TCP/IP protocols
-last_reviewed:
-modified: 2025-12-07T18:13:51Z
-purpose:
-review_interval:
-scope: Understanding socket technology from basic concepts to advanced server architecture
+criteria: ""
+epistemic: "null"
+exclusions: ""
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
+scope: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [networking, sockets]
+status: "null"
+tags: ["sockets", "topic/technology/networking"]
 title: MOC - How Sockets Actually Work
-type: map
-uid: 2025-10-31T13:46:00Z
-updated: 2025-10-31T13:46:00Z
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - How Sockets Actually Work

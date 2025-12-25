@@ -1,29 +1,29 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-26T13:03:43Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Motivation, Recognition, and Culture
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
-Address the human element – people need to feel valued for this work.
+Address the human element–people need to feel valued for this work.
 
 ## Explicitly Praise Security Efforts
 
 - This is crucial given your observation. When someone writes particularly secure code, identifies a vulnerability, diligently fixes a security issue, or asks good security questions, *acknowledge and praise it publicly* (in team meetings, chat channels, etc.). "Great catch finding that potential access control issue in the code review, Sarah!" or "Thanks Mark for taking the time to properly configure those IAM permissions."
-- Celebrate security "wins" – e.g., passing a security scan, successfully mitigating a threat identified during modelling.
+- Celebrate security "wins"–e.g., passing a security scan, successfully mitigating a threat identified during modelling.
 
 ## Security Champions
 

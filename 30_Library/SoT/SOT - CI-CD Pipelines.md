@@ -1,34 +1,30 @@
 ---
-aliases: [CI/CD Documentation, FITFILE Pipelines, GitLab CI Flows]
-confidence: 5/5
-created: 2025-12-16T10:00:00Z
-epistemic: technical_documentation
-last_reviewed: 2025-12-16
-modified: 2025-12-20T20:28:10Z
-purpose: To serve as the Source of Truth for FITFILE's CI/CD infrastructure, detailing the build, validation, and deployment pipelines.
-review_interval: 
+aliases: ["CI/CD Documentation", "FITFILE Pipelines", "GitLab CI Flows"]
+confidence: "5/5"
+created: 2025-12-16T00:00:00Z
+epistemic: "technical_documentation"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "To serve as the Source of Truth for FITFILE's CI/CD infrastructure, detailing the build, validation, and deployment pipelines."
+review_interval: "3 months"
 see_also: []
 source_of_truth: []
-status: stable
-tags: [automation, cicd, devops, gitlab, pipeline]
+status: "stable"
+tags: ["automation", "cicd", "devops", "gitlab", "pipeline"]
 title: SOT - CI-CD Pipelines
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Executive Summary
-
-The FITFILE platform utilizes **GitLab CI/CD** to orchestrate the software delivery lifecycle. The process is split into two primary pipelines:
-
-1. **Main Pipeline (`.gitlab-ci.yml`):** Focuses on "Continuous Integration" — building artifacts (Docker images) and validating code/workflows.
-2. **Staging/Deploy Pipeline (`staging.gitlab-ci.yml`):** Focuses on "Continuous Deployment" — synchronizing state via ArgoCD and executing integration tests.
-
----
+1. **Main Pipeline (`.gitlab-ci.yml`): "** Focuses on \"Continuous Integration\" \u2014 building artifacts (Docker images) and validating code/workflows."
+2. **Staging/Deploy Pipeline (`staging.gitlab-ci.yml`): "** Focuses on \"Continuous Deployment\" \u2014 synchronizing state via ArgoCD and executing integration tests."
+The FITFILE platform utilizes **GitLab CI/CD** to orchestrate the software delivery lifecycle. The process is split into two primary pipelines: ""
 
 ## 2. Pipeline Architecture
 
 ### A. Main Pipeline (`.gitlab-ci.yml`)
+
 *Trigger: Push to default branch or Merge Requests.*
 
 This pipeline ensures that changes to the repository result in valid, buildable artifacts.
@@ -58,6 +54,7 @@ graph LR
 - `lint_workflows`: Templates Helm charts and validates Argo Workflow YAML syntax.
 
 ### B. Staging Deployment Pipeline (`staging.gitlab-ci.yml`)
+
 *Trigger: Manual or Auto-deploy to Staging Environment.*
 
 This pipeline actuates the deployment and verifies it.
@@ -97,7 +94,7 @@ graph LR
 The CI/CD runners interact with a diverse set of external infrastructure components.
 
 | Component | Endpoint / Resource | Purpose |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Cluster** | `Fitfile-cloud-testing-aks-cluster` | Target AKS cluster for staging. |
 | **GitOps Engine** | `testing-argocd.fitfile.net` | ArgoCD instance managing deployment state. |
 | **Workflow Engine** | `testing-argo-workflows.fitfile.net` | Orchestrator for integration tests. |
@@ -111,7 +108,7 @@ The CI/CD runners interact with a diverse set of external infrastructure compone
 Pipelines operate with high privileges. Credentials are injected via GitLab CI Variables.
 
 | Variable Name | Purpose | Security Scope |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | `AZ_CLIENT_ID` / `SECRET` | Service Principal for Azure/AKS auth. | **Critical:** Grants cluster admin access. |
 | `ARGOCD_STAGING_USER/PASS` | ArgoCD Authentication. | **Critical:** Allows deployment modification. |
 | `DOCKER_HUB_DEPLOY_TOKEN` | Docker Hub push access. | High. |

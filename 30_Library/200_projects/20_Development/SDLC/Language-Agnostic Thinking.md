@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-13T10:12:19Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:44Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [data-centric]
+status: ""
+tags: ["data-centric"]
 title: Language-Agnostic Thinking
-type: curriculum
+type: "curriculum"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 - Pseudocode: Before writing code in a specific language, try to express your logic in pseudocode. This forces you to think about the algorithm and data structures independently of language syntax.

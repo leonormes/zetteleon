@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-28T10:31:18Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:11Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:33+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [project/work/mkuh]
+status: ""
+tags: ["project/work/mkuh"]
 title: FITFILE Customer Onboarding Prompt
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## LLM Prompt

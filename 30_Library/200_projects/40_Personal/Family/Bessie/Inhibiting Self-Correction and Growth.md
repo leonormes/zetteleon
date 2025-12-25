@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-22T17:43:30Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [project/family/bessie]
+status: ""
+tags: ["project/family/bessie"]
 title: Inhibiting Self-Correction and Growth
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The school's current assessment practices are criticized for not effectively checking "what pupils know and understand as they progress," leading to a failure to "identify the gaps or misconceptions". This means Bessie is repeating mistakes instead of correcting them and struggles to commit knowledge to long-term memory. Without understanding *where* she is going wrong or *what* she needs to do differently, she cannot effectively adapt her learning strategies, which is critical for a student with ADHD who learns best through structured, chunked, and feedback-rich methods.

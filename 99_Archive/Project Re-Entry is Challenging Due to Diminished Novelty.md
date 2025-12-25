@@ -4,13 +4,13 @@ confidence: 0.8
 created: 2025-11-11T19:05:03Z
 epistemic: hypothesis
 last_reviewed:
-modified: 2025-11-11T10:57:47Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: "Explains why it's hard to return to projects after a break."
 review_interval: 90
 see_also: []
 source_of_truth: []
 status: archived
-tags: [adhd, dopamine, productivity, psychology]
+tags: [dopamine, topic/health/adhd, topic/productivity, topic/psychology]
 title: Project Re-Entry is Challenging Due to Diminished Novelty
 type: concept
 uid: 2025-11-11T19:05:03Z

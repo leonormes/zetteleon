@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T12:00:01Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:59Z
-purpose: To test if "Temptation Bundling" (Interest Pairing) effectively overcomes task initiation inertia for mundane chores.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "To test if \\\"Temptation Bundling\\\" (Interest Pairing) effectively overcomes task initiation inertia for mundane chores."
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source: "[[MOC - ADHD Task Management]]"
-source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
-status: pending
-tags: [experiment, hypothesis, interest-pairing, motivation, topic/health/adhd, topic/productivity]
+source_of_truth: []
+status: "pending"
+tags: ["experiment", "hypothesis", "interest-pairing", "motivation", "topic/health/adhd", "topic/productivity"]
 title: Interest Pairing Can Increase Engagement in Mundane Tasks for ADHD
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
 ---

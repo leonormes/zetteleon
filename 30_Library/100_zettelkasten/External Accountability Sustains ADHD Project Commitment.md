@@ -1,20 +1,20 @@
 ---
-aliases: [Accountability Partners, Social Commitment for ADHD]
-confidence: 0.8
+aliases: ["Accountability Partners", "Social Commitment for ADHD"]
+confidence: "0.8"
 created: 2025-10-30T15:00:39Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-31T09:31:40Z
+epistemic: "principle"
+last_reviewed: "2025-10-30"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To leverage social motivation for project completion"
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [accountability, project-completion, social-motivation, topic/health/adhd]
+status: "seedling"
+tags: ["accountability", "project-completion", "social-motivation", "topic/health/adhd"]
 title: External Accountability Sustains ADHD Project Commitment
-type: strategy
-uid: 2025-10-30T15:00:39Z
-updated: 2025-10-30T15:00:39Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## External Accountability Sustains ADHD Project Commitment

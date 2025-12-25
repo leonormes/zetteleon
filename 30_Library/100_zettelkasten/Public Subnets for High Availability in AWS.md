@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-24T14:25:58Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [aws, high-availability, subnets, topic/technology/networking, topic/technology/networking/cloud-networking]
+status: "null"
+tags: ["aws", "high-availability", "subnets", "topic/technology/networking", "topic/technology/networking/cloud-networking"]
 title: Public Subnets for High Availability in AWS
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 **Public subnets** are subnets within a VPC that have a route to an Internet Gateway, allowing resources launched within them to communicate directly with the internet.

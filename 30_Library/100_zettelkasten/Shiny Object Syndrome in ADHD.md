@@ -1,21 +1,21 @@
 ---
-aliases: [Dopamine-Seeking Behavior The Research Rabbit Hole]
-confidence: 
+aliases: ["Dopamine-Seeking Behavior The Research Rabbit Hole"]
+confidence: "null"
 created: 2025-10-25T14:26:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [novelty, topic/health/adhd, topic/productivity/procrastination]
+status: "null"
+tags: ["novelty", "topic/health/adhd", "topic/productivity/procrastination"]
 title: Shiny Object Syndrome in ADHD
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 "Shiny Object Syndrome" (SOS) is a common behavioral pattern in ADHD, describing the tendency to abandon a current project, system, or interest for a newer, more exciting one. It is a direct manifestation of the brain's intense craving for novelty.

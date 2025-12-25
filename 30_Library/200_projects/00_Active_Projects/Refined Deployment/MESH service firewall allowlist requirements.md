@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-09-03T04:36:15Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:13Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:32+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/kubernetes, topic/technology/networking]
+status: "null"
+tags: ["topic/technology/kubernetes", "topic/technology/networking"]
 title: MESH service firewall allowlist requirements
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Here’s what you need for your firewall configuration depending on whether you’re connecting via **HSCN** or **Internet**:

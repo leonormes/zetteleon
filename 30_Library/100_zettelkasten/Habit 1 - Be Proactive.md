@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T09:01:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [habit, principles, proactivity, responsibility]
+status: ""
+tags: ["principles", "proactivity", "responsibility", "topic/habits"]
 title: Habit 1 - Be Proactive
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Habit 1: Be Proactive** is the foundation of [[The 7 Habits - The Maturity Continuum]]. It asserts that we are responsible for our own lives. Our behavior is a function of our decisions, not our conditions. Proactive people recognize they have the responsibility and the ability to choose their response to any stimulus.

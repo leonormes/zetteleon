@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T08:00:03Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:56Z
-purpose: To test the behavioral activation principle that action precedes motivation.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16T00:00:00.000Z"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "To test the behavioral activation principle that action precedes motivation."
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
-source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
-status: pending
-tags: [experiment, hypothesis, motivation, topic/health/adhd, topic/productivity, topic/psychology]
+source_of_truth: []
+status: "pending"
+tags: ["experiment", "hypothesis", "motivation", "topic/health/adhd", "topic/productivity", "topic/psychology"]
 title: Motion Creates Emotion to Overcome Inertia
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## 1. The Hypothesis

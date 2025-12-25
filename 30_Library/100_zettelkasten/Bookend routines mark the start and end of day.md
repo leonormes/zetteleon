@@ -1,19 +1,19 @@
 ---
-aliases: [Daily bookends, Morning and evening routines]
-confidence: 
+aliases: ["Daily bookends", "Morning and evening routines"]
+confidence: ""
 created: 2025-10-30T17:32:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - How To Create And Use Mini Routines]]"
 source_of_truth: []
-status: seedling
-tags: [daily-structure, routines, topic/health/adhd]
+status: "seedling"
+tags: ["daily-structure", "routines", "topic/health/adhd"]
 title: Bookend routines mark the start and end of day
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

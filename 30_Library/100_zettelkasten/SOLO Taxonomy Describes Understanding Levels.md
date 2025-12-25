@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T11:24:00Z
-epistemic: model
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "model"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Explain SOLO taxonomy of understanding."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [cognition, education]
+status: "seedling"
+tags: ["education", "topic/cognition"]
 title: SOLO Taxonomy Describes Understanding Levels
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

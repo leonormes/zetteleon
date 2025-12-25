@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-11T12:14:58Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-12T14:24:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Gish Gallop of Grievances
-type: 
+type: ""
 uid: 
 updated: 
 ---
@@ -41,7 +41,7 @@ When she brings up the past comment ("I think you are spoiled"):
 When she says, "But you said I was spoiled!"
 
 | Step | Technique | Script |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **1. Validate & Move On** | Use a closed-loop phrase to confirm the past status. | "**That’s right, I did say that.** It was wrong of me, I said it out of frustration, and I apologised for it. **That point is settled.**" |
 | **2. Assert the Present** | Immediately pivot the focus to the issue at hand. | "Right now, we are talking about **finding a system for chores**, or **finding a solution to the lamp glare**." |
 | **3. Set the Boundary** | Name the derailment clearly and gently. | "When you bring up the 'spoiled' comment now, **it stops us from solving the current problem.** It makes me feel like the current discussion isn't safe or that you’re not willing to move forward." |

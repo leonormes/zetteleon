@@ -5,9 +5,10 @@ confidence:
 created: 2025-12-08T11:13:41Z
 epistemic:
 last_reviewed:
-modified: 2025-12-10T20:00:14Z
+modified: 2025-12-25T18:35:29Z
 purpose:
 review_interval:
+Reviewed: true
 see_also: []
 source_of_truth: []
 status: processing
@@ -23,6 +24,7 @@ updated:
 > We need to get better and telling customers what we need and what we are doing. As we learn more about the difficulties of deployment we should update our docs to match.
 
 ## 🧠 My Current Model (The Blind Write)
+
 *Instructions: Write this section BEFORE looking at documentation. How do you think it works? What is your logic? be messy.*
 
 **I think it works like this:**

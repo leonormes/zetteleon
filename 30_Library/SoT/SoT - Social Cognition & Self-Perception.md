@@ -1,29 +1,20 @@
 ---
 aliases: []
-confidence: 
-created: 2025-12-12T23:39:47Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:07Z
-purpose: 
-review_interval: 
+confidence: ""
+created: 2025-12-12T00:00:00Z
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:20+00:00
+purpose: ""
+review_interval: "3 months"
 see_also: []
 source_of_truth: []
-status: 
+status: "stable"
 tags: []
 title: SoT - Social Cognition & Self-Perception
-type: 
+type: "SoT"
 uid: 
 updated: 
----
-
-## 1. Definitive Statement
-
-> [!definition] Social Cognition & Self-Perception
-> **Social cognition** is the process by which individuals interpret, analyze, remember, and use information to make judgments about others and themselves in social contexts. **Self-perception** is our understanding of our own character, abilities, and actions.
->
-> In ProdOS, understanding these processes is critical for accurately assessing our impact, calibrating our internal models of reality, and fostering effective communication by recognizing inherent cognitive biases. This also involves comprehending how **moral judgments** are formed, often driven by intuition and subsequently justified by strategic reasoning.
-
 ---
 
 ## 2. How We Make Social Judgments: The Social Detective & Moral Intuition

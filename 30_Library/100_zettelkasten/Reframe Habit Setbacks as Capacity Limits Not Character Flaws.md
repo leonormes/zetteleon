@@ -1,20 +1,20 @@
 ---
-aliases: [Compassionate Attribution, Neurobiological Limits]
-confidence: 0.9
+aliases: ["Compassionate Attribution", "Neurobiological Limits"]
+confidence: "0.9"
 created: 2025-10-30T15:04:20Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-31T10:42:01Z
+epistemic: "principle"
+last_reviewed: "2025-10-30T00:00:00.000Z"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To shift attribution of failure from character to circumstances"
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [attribution, reframing, self-compassion, topic/health/adhd]
+status: "seedling"
+tags: ["attribution", "reframing", "self-compassion", "topic/health/adhd"]
 title: Reframe Habit Setbacks as Capacity Limits Not Character Flaws
-type: strategy
-uid: 2025-10-30T15:04:20Z
-updated: 2025-10-31
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## Reframe Habit Setbacks as Capacity Limits Not Character Flaws

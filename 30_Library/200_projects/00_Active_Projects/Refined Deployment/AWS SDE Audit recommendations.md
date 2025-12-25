@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-26T08:51:51Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:09Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T18:35:19Z
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: [aws, ff_deploy, security]
 title: AWS SDE Audit recommendations
-type:
-uid: 
-updated: 
-version:
+type: ""
+uid:
+updated:
+version: ""
 ---
 
 [[2025-09-26]]

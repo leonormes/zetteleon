@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-09-26T10:38:07Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:10Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:33+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [security, topic/technology/networking]
+status: "null"
+tags: ["security", "topic/technology/networking"]
 title: EKS Calico Networking Analysis Report
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 ## EKS Calico Networking Analysis Report

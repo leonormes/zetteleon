@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-18T17:28:14Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Implicit Social Hierarchies Authority
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Sometimes, even without explicit reasons, we might unconsciously grant more weight to the opinions of people we perceive as more confident, authoritative, or socially adept, even if they lack specific knowledge in the area being discussed.

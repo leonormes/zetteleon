@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-18T13:25:33Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:28Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: bess rsd
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 This is an incredibly difficult and emotionally draining situation, both for your daughter and for you. Your own experience with ADHD and RSD gives you a unique insight, but it can also make you more vulnerable to the emotional fallout. Your frustration is completely understandable; it comes from a place of love, fear, and helplessness when you see your child in distress and wanting something she seemingly "can't" do.
@@ -81,7 +81,7 @@ Here is a breakdown of what can be done, structured as a multi-layered plan.
 - Separate Yourself: It is okay to tag out. It is okay to say, "I can see you're having a hard time. I'm getting overwhelmed too. I am going to stand in the next room for 5 minutes to calm myself down, and then I will be back." This models good emotional regulation.
   This is a long road, and progress will be non-linear. There will be good days and terrible days. The goal is not "perfect attendance". The goal is to build her sense of safety, competence, and control, one tiny step at a time.
 
-My daughter, 13, had ADHD. She os currently not going into school because of anxiety. She wants to go in. She seems fine at gone where she is safe, but as soon as she gets on school she freaks out and can't control herself. I also have ADHD and rsd. I can appreciate the emotional reactions. But it's feels as though there is nothing we can about it with her. I find myself getting frustrated with her for :not trying ' , but I know that is not true. What can be done to help a child with rsd and other emotional regulation differences
+My daughter, 13, had ADHD. She os currently not going into school because of anxiety. She wants to go in. She seems fine at gone where she is safe, but as soon as she gets on school she freaks out and can't control herself. I also have ADHD and rsd. I can appreciate the emotional reactions. But it's feels as though there is nothing we can about it with her. I find myself getting frustrated with her for:not trying ', but I know that is not true. What can be done to help a child with rsd and other emotional regulation differences
 
 A child with ADHD who experiences **school anxiety and rejection-sensitive dysphoria (RSD)** often faces emotional overwhelm that isn’t about not trying—it’s about their **nervous system going into distress mode** when they encounter stress, uncertainty, or perceived rejection. Helping her means creating safety, predictability, and emotional skills over time rather than pushing for immediate exposure to school.
 
@@ -134,7 +134,7 @@ Citations:
 
 [2] Rejection Sensitive Dysphoria <https://www.justonenorfolk.nhs.uk/nd-digital-library/related-health-conditions/rejection-sensitive-dysphoria/>
 
-[3] Rejection Sensitive Dysphoria (RSD) - what is it? — ... <https://www.perfectlyautistic.co.uk/blog/rejectionsensitivedysphoria>
+[3] Rejection Sensitive Dysphoria (RSD) - what is it?—... <https://www.perfectlyautistic.co.uk/blog/rejectionsensitivedysphoria>
 
 [4] Rejection Sensitive Dysphoria (RSD): Symptoms & Treatment <https://my.clevelandclinic.org/health/diseases/24099-rejection-sensitive-dysphoria-rsd>
 
@@ -142,7 +142,7 @@ Citations:
 
 [6] ADHD Emotional Regulation for Kids <https://www.additudemag.com/emotional-regulation-adhd-kids-strategies/>
 
-[7] ADHD and Anxiety in Children: Understanding ... <https://www.adhdcentre.co.uk/adhd-and-anxiety-in-children/>
+[7] ADHD and Anxiety in Children: Understanding... <https://www.adhdcentre.co.uk/adhd-and-anxiety-in-children/>
 
 [8] School Anxiety and Refusal | Parent Guide to Support <https://www.youngminds.org.uk/parent/parents-a-z-mental-health-guide/school-anxiety-and-refusal/>
 
@@ -154,7 +154,7 @@ Citations:
 
 [12] Addressing Rejection Sensitive Dysphoria in Autism <https://www.thetreetop.com/aba-therapy/rejection-sensitive-dysphoria-and-autism>
 
-[13] How can I support myself and my child through their school ... <https://www.bbc.co.uk/bitesize/articles/zgjc7v4>
+[13] How can I support myself and my child through their school... <https://www.bbc.co.uk/bitesize/articles/zgjc7v4>
 
 [14] ADHD in children and young people <https://www.nhs.uk/conditions/adhd-children-teenagers/>
 
@@ -164,7 +164,7 @@ Citations:
 
 [17] ADHD Support For Your Child | Parents Advice Guide <https://www.youngminds.org.uk/parent/parents-a-z-mental-health-guide/adhd/>
 
-[18] Modern Emotion Regulation Supports for Neurodivergent ... <https://www.kelly-mahler.com/resources/blog/modern-emotion-regulation-supports-for-neurodivergent-learners-are-you-keeping-with-the-times/>
+[18] Modern Emotion Regulation Supports for Neurodivergent... <https://www.kelly-mahler.com/resources/blog/modern-emotion-regulation-supports-for-neurodivergent-learners-are-you-keeping-with-the-times/>
 
 [19] 8 Ways to Help a Child With Rejection Sensitive Dysphoria <https://www.beyondbooksmart.com/executive-functioning-strategies-blog/8-ways-to-help-a-child-with-rejection-sensitive-dysphoria-1>
 
@@ -172,15 +172,15 @@ Citations:
 
 She had grown up with a lot of adults and is very comfortable around adults. She can talk with them and it's charming. Even she first started year 7 in a new big school she was very happy and doing well. Teachers loved her. Then one day for some reason she got in to trouble. This seems to have been the turning point. She then escalated into neon one of the telly naughty children, leaving class, talking back to teachers, not attending lessons. It is as though getting on to trouble was a huge suprise and devastating to her sense of self. This aligns with rsd. Although this is just one idea and the change it makes sense to me. But I have confirmation bias. It is obviously complex situation. Review my ideas and elaborate but also suggest other lines of reasoning I may be over looking
 
-Your analysis that the disciplinary incident acted as a **turning point** tied to **rejection sensitive dysphoria (RSD)** is both plausible and psychologically well grounded. Children with ADHD who are socially mature and attuned to adult approval can mask difficulties effectively — but when that mask breaks under criticism or punishment, the emotional collapse can look dramatic and confusing.
+Your analysis that the disciplinary incident acted as a **turning point** tied to **rejection sensitive dysphoria (RSD)** is both plausible and psychologically well grounded. Children with ADHD who are socially mature and attuned to adult approval can mask difficulties effectively—but when that mask breaks under criticism or punishment, the emotional collapse can look dramatic and confusing.
 
 ## Why Your RSD Hypothesis Fits
 
 Children with ADHD often experience **RSD as an overwhelming flood of shame, rejection, or humiliation** at even mild discipline [1][2]. When that first “being in trouble” moment happens, it can feel like sudden evidence of unworthiness and betrayal, especially for a child who previously thrived on positive attention. This can lead to:
 
-- **Defensive defiance** — anger and talking back to regain control over unbearable vulnerability [2][3].
+- **Defensive defiance**—anger and talking back to regain control over unbearable vulnerability [2][3].
 - **Avoidance of school** or adult authority as a means of self-protection [4].
-- **Identity rupture** — if she had built her self-esteem around being liked or “good,” then one shaming experience could collapse that construction [1].
+- **Identity rupture**—if she had built her self-esteem around being liked or “good,” then one shaming experience could collapse that construction [1].
 
 You are also correct to note your confirmation bias: our brains naturally look for coherence, especially when RSD resonates personally. There are, however, several **alternative or coexisting explanations** worth exploring.
 
@@ -196,22 +196,22 @@ The transition to secondary school often coincides with **puberty’s emotional 
 
 ### 3. Trauma or Threat Response
 
-For some children, being disciplined evokes **a nervous system trauma response** — especially if it felt public, unjust, or unpredictable. Neurologically, the amygdala reacts as if to real danger, leading to “fight” (defiance), “flight” (leaving class), or “freeze” (shutdown) behaviours [9]. Once this association forms, school cues can retrigger survival instincts, not conscious misbehaviour.
+For some children, being disciplined evokes **a nervous system trauma response**—especially if it felt public, unjust, or unpredictable. Neurologically, the amygdala reacts as if to real danger, leading to “fight” (defiance), “flight” (leaving class), or “freeze” (shutdown) behaviours [9]. Once this association forms, school cues can retrigger survival instincts, not conscious misbehaviour.
 
 ### 4. Cognitive and Social Attribution Changes
 
-After one painful “rejection” experience, ADHD children can become **hypervigilant to hostile cues** — interpreting neutral teacher feedback as attack, and peers’ indifference as exclusion [10][11]. This social-cognitive shift reinforces defensive patterns.
+After one painful “rejection” experience, ADHD children can become **hypervigilant to hostile cues**—interpreting neutral teacher feedback as attack, and peers’ indifference as exclusion [10][11]. This social-cognitive shift reinforces defensive patterns.
 
 ### 5. Identity Reconstruction
 
-Children with ADHD often swing between perfectionism and self-sabotage (the two faces of RSD) [1][12]. When her “good girl” identity broke, adopting a “naughty” one might have offered psychological safety — it’s less painful to reject expectations than risk being rejected again.
+Children with ADHD often swing between perfectionism and self-sabotage (the two faces of RSD) [1][12]. When her “good girl” identity broke, adopting a “naughty” one might have offered psychological safety—it’s less painful to reject expectations than risk being rejected again.
 
 ## Integrating These Insights
 
 The situation likely represents **a convergence** of RSD, autistic-like burnout patterns (masking exhaustion), and the trauma physiology of being publicly “in trouble.” Moving forward:
 
-- **Validation before correction** — acknowledging her hurt from that event helps rebuild trust.
-- **Collaborative re-entry planning** — ensure school staff know she is not defiant but dysregulated.
+- **Validation before correction**—acknowledging her hurt from that event helps rebuild trust.
+- **Collaborative re-entry planning**—ensure school staff know she is not defiant but dysregulated.
 - **Therapeutic approaches** such as emotion coaching, trauma-informed CBT, or neurodiversity-affirming mentoring can help her separate identity from criticism.
 - **Parent coaching** or family therapy can support co-regulation between you both when RSD responses escalate.
 
@@ -223,7 +223,7 @@ Citations:
 
 [2] Understanding Rejection Sensitivity Dysphoria in ADHD <https://mindandbodyworks.com/understanding-rejection-sensitivity-dysphoria-rsd-in-adhd-and-why-it-hurts-so-deeply/>
 
-[3] Angry Kids, Explosive Reactions: Managing Emotional ... <https://www.additudemag.com/angry-kids-explosive-emotional-dysregulation-adhd/>
+[3] Angry Kids, Explosive Reactions: Managing Emotional... <https://www.additudemag.com/angry-kids-explosive-emotional-dysregulation-adhd/>
 
 [4] Rejection Sensitive Dysphoria <https://www.justonenorfolk.nhs.uk/nd-digital-library/related-health-conditions/rejection-sensitive-dysphoria/>
 
@@ -231,15 +231,15 @@ Citations:
 
 [6] Understanding Masking <https://www.kids.org.uk/guides/masking/>
 
-[7] Parenting a sensitive child and how to ensure a smooth ... <https://inourplace.co.uk/how-to-ensure-a-smooth-transition-to-secondary-school/>
+[7] Parenting a sensitive child and how to ensure a smooth... <https://inourplace.co.uk/how-to-ensure-a-smooth-transition-to-secondary-school/>
 
 [8] ADHD and Secondary School Learners <https://www.fintanoregan.com/adhd-school-learners/>
 
-[9] Understanding and responding to the effects of trauma ... <https://www.sciencedirect.com/science/article/pii/S2773233923000049>
+[9] Understanding and responding to the effects of trauma... <https://www.sciencedirect.com/science/article/pii/S2773233923000049>
 
 [10] Preventing Serious Conduct Problems in School-Age Youths <https://pmc.ncbi.nlm.nih.gov/articles/PMC2771935/>
 
-[11] Behavioral and Emotional Responding to Punishment in ... <https://pmc.ncbi.nlm.nih.gov/articles/PMC11624220/>
+[11] Behavioral and Emotional Responding to Punishment in... <https://pmc.ncbi.nlm.nih.gov/articles/PMC11624220/>
 
 [12] Sarah Ockwell-Smith <https://www.facebook.com/sarahockwellsmithauthor/posts/they-just-explode-when-i-try-to-talk-to-themif-youve-ever-said-or-thought-this-a/1293916785434514/>
 
@@ -253,7 +253,7 @@ Citations:
 
 [17] Child Acting Out in School: What to Do - Empowering Parents <https://www.empoweringparents.com/article/acting-out-in-school-when-your-child-is-the-class-troublemaker/>
 
-[18] How Does Rejection-Sensitive Dysphoria Affect Your Child ... <https://www.joonapp.io/post/rejection-sensitive-dysphoria-in-child>
+[18] How Does Rejection-Sensitive Dysphoria Affect Your Child... <https://www.joonapp.io/post/rejection-sensitive-dysphoria-in-child>
 
 [19] When Consequences Do Not Work For Your Strong-Willed Child <http://disciplinedchildren.com/when-consequences-do-not-work-for-your-strong-willed-child/>
 

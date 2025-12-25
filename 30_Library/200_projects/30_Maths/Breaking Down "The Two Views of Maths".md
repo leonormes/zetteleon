@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-07-21T02:33:41Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:23Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:29+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [type/question]
+status: "null"
+tags: []
 title: 'Breaking Down "The Two Views of Maths"'
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 ## The Foundry: Breaking Down "The Two Views of Maths"

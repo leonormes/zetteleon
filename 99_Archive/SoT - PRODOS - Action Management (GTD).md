@@ -4,7 +4,7 @@ confidence: 4/5
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed: 2025-12-08
-modified: 2025-12-21T14:57:18Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: To define the unified workflow for Task Management within ProdOS, specifically detailing the integration between Obsidian Tasks and Todoist via the Context Bridge.
 related-soTs: ["[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 0
@@ -23,7 +23,7 @@ updated:
 ProdOS distinguishes between two distinct modes of operation, which require distinct tools:
 
 | Mode         | Tool         | Unit of Work             | Characteristics                              |
-| :----------- | :----------- | :----------------------- | :------------------------------------------- |
+|:----------- |:----------- |:----------------------- |:------------------------------------------- |
 | **Thinking** | **Obsidian** | `HEAD Note`, `Checklist` | High-context, messy, exploratory, volatile.  |
 | **Doing**    | **Todoist**  | `Task`                   | Low-context, binary, time-sensitive, mobile. |
 
@@ -57,7 +57,7 @@ This separation is not just organizational; it is neurological.
 
 - Used strictly for **internal checklists** within a `HEAD` note or `Project` note.
 - Best for breaking down a complex problem into atomic steps (e.g., "Step 1: finding the error log", "Step 2: grepping for the ID").
-- **Key Syntax:** `- [ ] Task Description 📅 2025-12-08 ⏫`
+- **Key Syntax:** `- [] Task Description 📅 2025-12-08 ⏫`
 - **Constraint:** Do *not* use this for tasks that must happen "later" or "elsewhere". If the computer closes, these tasks disappear from awareness.
 
 ### B. Todoist Context Bridge (`todoist-context-bridge`)
@@ -74,10 +74,10 @@ This separation is not just organizational; it is neurological.
 
 Since the ADHD brain is interest-based rather than importance-based, tasks in Todoist must be tagged not just by context, but by their neurochemical catalyst ("Activation Fuel").
 
--   **@Fuel_Novelty:** For tasks requiring a change of environment, new tool, or "fresh start."
--   **@Fuel_Urgency:** For tasks with artificial deadlines or external accountability.
--   **@Fuel_Challenge:** For gamified tasks or "beat the clock" sprints.
--   **@Fuel_Immersion:** For "boring" tasks that require pairing with a podcast or music (Tangential Immersion).
+- **@Fuel_Novelty:** For tasks requiring a change of environment, new tool, or "fresh start."
+- **@Fuel_Urgency:** For tasks with artificial deadlines or external accountability.
+- **@Fuel_Challenge:** For gamified tasks or "beat the clock" sprints.
+- **@Fuel_Immersion:** For "boring" tasks that require pairing with a podcast or music (Tangential Immersion).
 
 ---
 
@@ -89,8 +89,8 @@ The LLM (Claude/Gemini) acts as the **Refinement Engine** between these tools. I
 
 The LLM scans `HEAD` notes for vague language.
 
-- *Input:* `- [ ] Work on the report` (Vague, likely to procrastinate)
-- *Refinement:* `- [ ] Draft the 'Executive Summary' section of the Q3 Report ⏳ 25m` (Specific, actionable)
+- *Input:* `- [] Work on the report` (Vague, likely to procrastinate)
+- *Refinement:* `- [] Draft the 'Executive Summary' section of the Q3 Report ⏳ 25m` (Specific, actionable)
 
 ### 2. The "Bridge" Preparation
 
@@ -118,8 +118,8 @@ This pipeline converts "Cognitive Fog" into "Binary Action."
 
 1. **Explode:** Break the vague fear into concrete steps using **Obsidian Tasks**.
 
-    - `- [ ] Check current uptime`
-    - `- [ ] List failed patches`
+    - `- [] Check current uptime`
+    - `- [] List failed patches`
 
 2. **Isolate:** Identify the *single* first physical action.
 

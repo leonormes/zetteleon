@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-10T12:03:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T10:00:42Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To explain why identity-based habits are effective."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Identity Conflict Can Impede Positive Habit Change]]"]
-source_of_truth: ["[[MOC - The Relationship Between Habits and Identity]]"]
-status: seedling
-tags: [behavior-change, habits, identity, psychology]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "identity", "topic/habits", "topic/psychology"]
 title: Behavior Incongruent with Self Will Not Last
-type: concept
-uid: 2025-11-10T12:03:00Z
-updated: 2025-11-10T12:03:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Behavior Incongruent with Self Will Not Last

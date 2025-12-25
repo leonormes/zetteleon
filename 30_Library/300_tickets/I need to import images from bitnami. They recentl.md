@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-22T16:51:15Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:15Z
+modified: 2025-12-25T11:40:23+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -29,7 +29,7 @@ Bitnami’s restructuring in 2025 drastically changed how image versions are man
 Bitnami now maintains three distinct registries:
 
 | Registry         | Description                                           | Status                               |
-| :--------------- | :---------------------------------------------------- | :----------------------------------- |
+|:--------------- |:---------------------------------------------------- |:----------------------------------- |
 | `bitnami/`       | Free hardened images, only `latest` tag available     | Active for small subset [^1_1][^1_2] |
 | `bitnamilegacy/` | Archived images with versioned tags (frozen Aug 2025) | Read-only [^1_3][^1_4]               |
 | `bitnamisecure/` | Paid registry with versioned and patched images       | Commercial tier [^1_1][^1_2]         |
@@ -129,7 +129,7 @@ Store both chart version and image SHA digest in your internal metadata or ACR a
 
 ## Recommended Workflow for All Bitnami Charts
 
-1. Pull Helm chart source (`helm pull ... --untar`).
+1. Pull Helm chart source (`helm pull... --untar`).
 2. Identify all image references in `values.yaml`.
 3. For any `:latest` image:
    - Pull locally and check internal version.
@@ -200,7 +200,7 @@ To import Bitnami images properly into Azure Container Registry (ACR), you must 
 ### Bitnami Image Structure (as of 2025)
 
 | Source Registry                               | Description                                         | Authentication                             |
-| :-------------------------------------------- | :-------------------------------------------------- | :----------------------------------------- |
+|:-------------------------------------------- |:-------------------------------------------------- |:----------------------------------------- |
 | `docker.io/bitnami`                           | Public legacy images (mostly pinned with `latest`)  | No auth, rate-limited                      |
 | `docker.io/bitnamilegacy`                     | Frozen August 2025 snapshots                        | Read-only public                           |
 | `registry.broadcom.com/bitnami/secure-images` | Commercial secure repository replacing old registry | Requires Broadcom credentials [^2_2][^2_3] |
@@ -248,7 +248,7 @@ This avoids downloading the image locally and copies it server-side directly int
 
 #### 2. Importing from Bitnami Secure Registry (Broadcom)
 
-If you use **Bitnami Secure Images**, first log in through Broadcom’s portal and fetch credentials for the `registry.broadcom.com` repository :[^2_2][^2_3]
+If you use **Bitnami Secure Images**, first log in through Broadcom’s portal and fetch credentials for the `registry.broadcom.com` repository:[^2_2][^2_3]
 
 ```bash
 az acr import \
@@ -357,7 +357,7 @@ This creates a self-maintained, version-resilient mirror of Bitnami assets in yo
 
 ## Do the docker.io/bitnami Get Updates Still? If We Use the Latest Charts and Images Do We Still Get the Bitnami Images with Fixes and Security? What Do We Get with that Registry? Explain with MongoDB as an Example
 
-As of late 2025, the **docker.io/bitnami** registry no longer provides actively maintained production images — it now only contains a small, curated subset of “latest” development images that may receive occasional base-level hardening but no full, ongoing patching or version support.[^3_1][^3_2][^3_3][^3_4][^3_5][^3_6]
+As of late 2025, the **docker.io/bitnami** registry no longer provides actively maintained production images—it now only contains a small, curated subset of “latest” development images that may receive occasional base-level hardening but no full, ongoing patching or version support.[^3_1][^3_2][^3_3][^3_4][^3_5][^3_6]
 
 ---
 
@@ -366,7 +366,7 @@ As of late 2025, the **docker.io/bitnami** registry no longer provides actively 
 After **August 28–September 29, 2025**, Broadcom (Bitnami’s parent company) archived nearly all historical, versioned images and Helm chart releases:
 
 | Registry                                        | Status          | Details                                                                                                                        |
-| :---------------------------------------------- | :-------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+|:---------------------------------------------- |:-------------- |:----------------------------------------------------------------------------------------------------------------------------- |
 | **docker.io/bitnami**                           | Active, minimal | Contains only “latest” tags for selected free development images, lightly hardened but not maintained like before [^3_6][^3_4] |
 | **docker.io/bitnamilegacy**                     | Archived        | Frozen August 2025 snapshot; no patches or rebuilds [^3_3][^3_2][^3_5]                                                         |
 | **registry.broadcom.com/bitnami/secure-images** | Paid tier       | Full support, patches, CVE monitoring, version history [^3_6][^3_7]                                                            |
@@ -381,7 +381,7 @@ The **MongoDB chart** at `bitnami/mongodb` and its corresponding Docker image cu
 
 - **Chart:** Still hosted on ArtifactHub and GitHub but references `docker.io/bitnami/mongodb:latest`.
 - **Image:** The `"latest"` tag on Docker Hub is periodically rebuilt with newer Debian or app dependencies, but **does not guarantee MongoDB minor or patch-level updates**.
-- **Security Fixes:** Only basic OS-level hardening (e.g., minimal CVE base image rebuilds) — no committed vulnerability response cycle.[^3_6][^3_8][^3_4]
+- **Security Fixes:** Only basic OS-level hardening (e.g., minimal CVE base image rebuilds)—no committed vulnerability response cycle.[^3_6][^3_8][^3_4]
 
 For example:
 
@@ -391,7 +391,7 @@ docker run --rm bitnami/mongodb mongod --version
 # May still show MongoDB 7.0.14 in October, but not 7.0.15 or later, as patches stop flowing.
 ```
 
-While this image might get a refreshed `latest` once in a while, it’s **not patched regularly** — meaning new Common Vulnerabilities and Exposures (CVEs) discovered in MongoDB or its dependencies after the 2025 transition will not be fixed in that free version.[^3_3][^3_5][^3_4]
+While this image might get a refreshed `latest` once in a while, it’s **not patched regularly**—meaning new Common Vulnerabilities and Exposures (CVEs) discovered in MongoDB or its dependencies after the 2025 transition will not be fixed in that free version.[^3_3][^3_5][^3_4]
 
 ---
 

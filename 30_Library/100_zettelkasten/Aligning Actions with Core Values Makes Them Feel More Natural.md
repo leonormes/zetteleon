@@ -1,20 +1,20 @@
 ---
-aliases: [Self-Concordant Goals]
-confidence: 0.9
+aliases: ["Self-Concordant Goals"]
+confidence: "0.9"
 created: 2025-11-10T17:12:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T15:41:37Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To explain the power of aligning actions with values."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Identity Emerges From Habits]]"]
-source_of_truth: ["[[MOC - The Science and Philosophy of Taking Action]]"]
-status: seedling
-tags: [action, identity, motivation, psychology, values]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "identity", "motivation", "topic/psychology", "values"]
 title: Aligning Actions with Core Values Makes Them Feel More Natural
-type: concept
-uid: 2025-11-10T17:12:00Z
-updated: 2025-11-10T17:12:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Aligning Actions with Core Values Makes Them Feel More Natural

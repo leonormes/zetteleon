@@ -1,33 +1,26 @@
 ---
 aliases: ["Functional Fitness", "Longevity Protocol", "Physical Hardware Maintenance"]
-confidence: 5/5
+confidence: "5/5"
 created: 2025-12-15T00:00:00Z
-epistemic: Derived from GMB Fitness longevity protocols and functional movement principles.
-last_reviewed: 2025-12-15
-modified: 2025-12-20T09:54:07Z
-purpose: To define the canonical protocol for maintaining physical capability, pain-free movement, and longevity, treating the body as the primary hardware for the "Extended Mind."
-related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Cognitive Physiology of Task Execution]]"]
-review_interval: 6 months
-see_also: ["[[Cognitive Health Practices for Technical Work]]", "[[Morning HIIT Boosts BDNF and Neuroplasticity]]"]
-source_of_truth: true
-status: stable
+epistemic: "Derived from GMB Fitness longevity protocols and functional movement principles."
+last_reviewed: "2025-12-15"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define the canonical protocol for maintaining physical capability, pain-free movement, and longevity, treating the body as the primary hardware for the \\\\\\\"Extended Mind."
+review_interval: "6 months"
+see_also: ["[[Cognitive Health Practices for Technical Work]]", "[[Morning HIIT Boosts BDNF and Neuroplasticity]]", "[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Cognitive Physiology of Task Execution]]"]
+source_of_truth: []
+status: "stable"
 tags: ["fitness", "health", "longevity", "mobility", "physical_hardware"]
 title: SoT - Physical Health and Vitality
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Physical Health** is not merely the absence of disease but the presence of **Capability**. It is the active maintenance of the "Biological Hardware" required to run the cognitive software (ProdOS).
->
-> The goal is **Compression of Morbidity**: maintaining high function until the very end of life, rather than a slow, painful decline.
-
----
+> The goal is **Compression of Morbidity**: "maintaining high function until the very end of life, rather than a slow, painful decline."
 
 ## 2. The 5-Point Longevity Protocol
+
 *Source: [GMB Fitness - I'm 53. If you're 30 or 40, watch this](http://www.youtube.com/watch?v=_oQOVC5ESt8)*
 
 To remain pain-free and capable at 60, 70, and beyond, these five actions are non-negotiable.
@@ -35,14 +28,14 @@ To remain pain-free and capable at 60, 70, and beyond, these five actions are no
 ### A. Hang Every Day (Spine & Grip)
 
 - **Goal:** Spinal decompression and shoulder health. Grip strength is a primary biomarker for longevity.
-- **Action:** Passive or active hang from a bar/rings for 1 cumulative minute daily.
+- **Action:** Passive or active hang for 1 cumulative minute daily. See [[SoT - Hanging Mechanics and Progressions]] for technical execution.
 - **Why:** Counters the compression of sitting and coding.
 
 ### B. Mobility over Flexibility (Control)
 
-- **Goal:** Usable range of motion, not just passive stretching.
+- **Goal:** Usable range of motion, not just passive stretching. See [[SoT - Functional Mobility & Primal Movement]].
 - **Action:** **Level Changes**. The ability to get from standing to the floor and back up without hands is a critical survival skill for aging.
-- **Target:** 5–10 minutes of active mobility work daily.
+- **Target:** 5–10 minutes of active mobility work daily. (See [[SoT - Protocol - Daily Mobility Foundation]]).
 
 ### C. Strength for Capability (Function)
 

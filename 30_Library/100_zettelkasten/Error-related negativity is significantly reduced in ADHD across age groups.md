@@ -1,20 +1,20 @@
 ---
 aliases: ["ERN reduction in ADHD", "Error processing deficit in ADHD"]
-confidence: 0.90
+confidence: "0.90"
 created: 2025-10-31T00:04:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:56Z
+epistemic: "fact"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Describes the neurophysiological deficit in error detection observable in ADHD"
-review_interval: 90
+review_interval: "90"
 see_also: ["[[ADHD shows reduced dorsolateral prefrontal cortex activation during sustained attention]]", "[[Performance monitoring activates anterior cingulate cortex]]"]
-source_of_truth: [Liotti et al. 2005, Multiple ERP studies on ADHD error processing]
-status: seedling
-tags: [adhd, erp, error-monitoring, neurobiology]
+source_of_truth: []
+status: "seedling"
+tags: ["erp", "error-monitoring", "neurobiology", "topic/health/adhd"]
 title: Error-related negativity is significantly reduced in ADHD across age groups
-type: concept
-uid: 2025-10-31T00:04:00Z
-updated: 2025-10-31T00:04:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Error-related Negativity is Significantly Reduced in ADHD across Age Groups

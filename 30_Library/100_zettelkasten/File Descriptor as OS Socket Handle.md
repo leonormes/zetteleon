@@ -1,20 +1,20 @@
 ---
 aliases: ["file descriptor", "socket handle"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T13:40:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:56Z
+epistemic: "fact"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain the file descriptor concept for sockets."
-review_interval: 90
+review_interval: "90"
 see_also: ["Socket is a Software Endpoint for Network Communication.md"]
 source_of_truth: []
-status: seedling
-tags: [file-descriptor, operating-system, socket, unix]
+status: "seedling"
+tags: ["file-descriptor", "operating-system", "socket", "unix"]
 title: File Descriptor as OS Socket Handle
-type: concept
-uid: 2025-10-31T13:40:00Z
-updated: 2025-10-31T13:40:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## File Descriptor as OS Socket Handle

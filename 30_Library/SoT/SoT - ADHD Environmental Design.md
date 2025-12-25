@@ -1,28 +1,20 @@
 ---
 aliases: ["ADHD Home Organization", "Physical Environment Design for ADHD", "Systematised Calm"]
-confidence: 5/5
+confidence: "5/5"
 created: 2025-12-15T00:00:00Z
-epistemic: Derived from visual models and structural logic of proven organizational frameworks.
-last_reviewed: 2025-12-15
-modified: 2025-12-20T09:54:10Z
-purpose: To define a canonical framework for designing physical environments to support ADHD neurophysiology, reducing cognitive load and decision paralysis.
-related-soTs: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Extended Mind]]"]
-review_interval: 6 months
-see_also: ["[[Environmental and Physical Hacks for ADHD Focus]]", "[[Environmental Design for ADHD Focus]]"]
-source_of_truth: true
-status: stable
-tags: ["adhd", "environment", "organization", "productivity", "system_design"]
+epistemic: "Derived from visual models and structural logic of proven organizational frameworks."
+last_reviewed: "2025-12-15"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "To define a canonical framework for designing physical environments to support ADHD neurophysiology, reducing cognitive load and decision paralysis."
+review_interval: "6 months"
+see_also: ["[[Environmental and Physical Hacks for ADHD Focus]]", "[[Environmental Design for ADHD Focus]]", "[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Extended Mind]]"]
+source_of_truth: []
+status: "stable"
+tags: ["environment", "organization", "system_design", "topic/health/adhd", "topic/productivity"]
 title: SoT - ADHD Environmental Design
-type: SoT
+type: "SoT"
 uid: 
 updated: 
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **ADHD Environmental Design** is the strategic refactoring of physical and digital spaces to create an external executive function system. It counters the neurophysiological challenges of ADHD (decision paralysis, task initiation, working memory limitations) by building architectural constraints and visual cues that guide behavior towards "systematised calm," rather than relying on internal willpower.
-
 ---
 
 ## 2. Core Problem: Entropy & Cognitive Load
@@ -38,6 +30,7 @@ Standard organization advice often fails because it assumes consistent executive
 ---
 
 ## 3. The Physical Architecture: Systematised Calm
+
 *Source: [Productivity System: How to Organise Your Entire Life](https://youtu.be/Py4GUH-RdQ8)*
 
 This framework visually demonstrates a structural refactoring of the home environment, moving from a deliberate state of entropy to a systematised "calm."

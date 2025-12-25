@@ -1,19 +1,18 @@
 ---
-aliases: [Socio-Technical Dissonance MOC]
-confidence: 4/5
+aliases: ["Socio-Technical Dissonance MOC"]
+confidence: "4/5"
 created: 2025-12-17T00:00:00Z
-epistemic: 
-last_reviewed: 2025-12-17
-modified: 2025-12-20T09:54:10Z
-purpose: To provide a central map of concepts related to the friction between dysfunctional social structures and the execution of technical solutions.
-related-soTs: []
-review_interval: 
+epistemic: "null"
+last_reviewed: "2025-12-17T00:00:00.000Z"
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: "null"
 see_also: []
-source_of_truth: false
-status: stable
-tags: [architecture, moc, social-dynamics, systems-thinking]
+source_of_truth: []
+status: "stable"
+tags: ["architecture", "social-dynamics", "topic/systems"]
 title: MOC - Socio-Technical Dissonance
-type: MOC
+type: "MOC"
 uid: 
 updated: 
 ---

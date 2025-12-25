@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T10:51:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
 purpose: "Explain DNS MX records."
-review_interval: 90
+review_interval: "90"
 see_also: ["DNS is a distributed database.md"]
 source_of_truth: []
-status: seedling
-tags: [dns, email, networking]
+status: "seedling"
+tags: ["dns", "email", "topic/technology/networking"]
 title: MX Records Route Email to Designated Mail Servers
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

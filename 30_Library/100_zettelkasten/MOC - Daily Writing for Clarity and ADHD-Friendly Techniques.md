@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-30T12:10:08Z
-epistemic:
-last_reviewed:
-modified: 2025-12-07T18:13:51Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [topic/health/adhd, topic/productivity, writing]
+status: "null"
+tags: ["topic/health/adhd", "topic/productivity", "writing"]
 title: MOC - Daily Writing for Clarity and ADHD-Friendly Techniques
-type: map
-uid:
-updated:
+type: "map"
+uid: 
+updated: 
 ---
 
 This note summarizes the benefits of daily writing for clarity of thought and provides ADHD-friendly techniques to make the habit more engaging and sustainable.

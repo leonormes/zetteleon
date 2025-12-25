@@ -1,20 +1,20 @@
 ---
-aliases: [lo]
-confidence: 1.0
+aliases: ["lo"]
+confidence: "1.0"
 created: 2025-11-22T15:00:12Z
-epistemic: fact
-last_reviewed: 2025-11-22
-modified: 2025-11-22T14:41:43Z
+epistemic: "fact"
+last_reviewed: "2025-11-22"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Explains the virtual internal network interface."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [networking/kernel]
+status: "seedling"
+tags: ["topic/technology/networking/kernel"]
 title: Concept - Loopback Interface
-type: concept
-uid: 2025-11-22T15:00:12Z
-updated: 2025-11-22T15:00:12Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Loopback Interface

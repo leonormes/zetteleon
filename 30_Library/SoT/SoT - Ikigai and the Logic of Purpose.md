@@ -1,30 +1,20 @@
 ---
 aliases: ["Process-Based Purpose", "The Anti-Venn Diagram", "The True Meaning of Ikigai"]
-confidence: 5/5
+confidence: "5/5"
 created: 2025-12-15T00:00:00Z
-epistemic: Grounded in authentic Japanese cultural analysis (refactoring the Westernised "Venn Diagram" misconception).
-last_reviewed: 2025-12-15
-modified: 2025-12-20T09:54:08Z
-purpose: To reframe Ikigai not as a career goal (destination) but as an autonomous internal state of process appreciation (runtime environment).
-related-soTs: ["[[SoT - Identity-Based Habit Formation]]", "[[SoT - Logotherapy and the Will to Meaning]]", "[[SoT - Process Primacy (Systems Over Goals)]]"]
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
+epistemic: "Grounded in authentic Japanese cultural analysis (refactoring the Westernised \\\\\\\"Venn Diagram\\\\\\\" misconception)."
+last_reviewed: "2025-12-15"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To reframe Ikigai not as a career goal (destination) but as an autonomous internal state of process appreciation (runtime environment)."
+review_interval: "1 year"
+see_also: ["[[SoT - Identity-Based Habit Formation]]", "[[SoT - Logotherapy and the Will to Meaning]]", "[[SoT - Process Primacy (Systems Over Goals)]]"]
+source_of_truth: []
+status: "stable"
 tags: ["ikigai", "japanese_philosophy", "meaning", "process", "purpose"]
 title: SoT - Ikigai and the Logic of Purpose
-type: SoT
+type: "SoT"
 uid: 
 updated: 
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Ikigai** (生き甲斐) is not a career path found at the intersection of "Passion, Vocation, Mission, and Profession."
->
-> It is an **autonomous internal state**—a "small feeling of joy" felt during a process—that exists independently of external validation or economic utility. It is the art of finding deep satisfaction in the "Here and Now," regardless of the outcome.
-
 ---
 
 ## 2. Ikigai: The Two Models
@@ -44,6 +34,7 @@ The concept of Ikigai has been popularized in two distinct forms:
 ---
 
 ## 3. Implementation Strategy: "Thin Sheets of Paper"
+
 *Source: [The Truth About Ikigai](https://youtu.be/8I3jW7M6XQk)*
 
 How do you cultivate this state?

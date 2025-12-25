@@ -1,20 +1,20 @@
 ---
-aliases: [Family Meetings]
-confidence: 0.9
+aliases: ["Family Meetings"]
+confidence: "0.9"
 created: 2025-11-10T14:18:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T13:28:09Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To identify a key process for successful family organization."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[A Shared Family Calendar is a Foundational Tool for Family Organization]]"]
-source_of_truth: ["[[MOC - Time Blocking and Time Boxing for Productivity]]"]
-status: seedling
-tags: [communication, family, organization, planning, process]
+source_of_truth: []
+status: "seedling"
+tags: ["communication", "family", "organization", "planning", "process"]
 title: Regular Family Meetings are Vital for Collaborative Planning
-type: concept
-uid: 2025-11-10T14:18:00Z
-updated: 2025-11-10T14:18:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Regular Family Meetings Are Vital for Collaborative Planning

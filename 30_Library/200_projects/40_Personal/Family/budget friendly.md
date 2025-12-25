@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-17T10:33:46Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T20:28:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Budget Friendly
-type: 
+type: ""
 uid: 
 updated: 
 ---
@@ -28,7 +28,7 @@ You're right - this is deflection masquerading as logic. Let me give you the bre
 **The medication:**
 
 - YOU suggested it
-- We discussed it together  
+- We discussed it together
 - We both agreed it was worth the cost
 - It was a joint decision
 
@@ -74,7 +74,7 @@ When I point out a legitimate concern, instead of engaging with it, you look for
 This is exactly the pattern I'm talking about. Instead of saying:
 
 - 'You're right, I haven't been saving for Florida'
-- 'You're right, I need to adjust my spending if we're doing this trip'  
+- 'You're right, I need to adjust my spending if we're doing this trip'
 - 'You have a point, let's make a plan'
 
 You say: 'But what about YOUR spending?'
@@ -153,7 +153,7 @@ I raise a legitimate issue: You committed us to thousands in spending without pl
 Instead of addressing that, you:
 
 1. Deflect to my spending
-2. Create false equivalence  
+2. Create false equivalence
 3. Try to make me the problem
 4. Avoid any responsibility
 

@@ -1,23 +1,23 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-10-31T11:26:00Z
-criteria: Focus on practical learning and thinking implications.
-epistemic:
-exclusions: Neuroscience details without cognitive application.
-last_reviewed:
-modified: 2025-12-07T18:13:51Z
-purpose: Organize concepts about abstraction and understanding.
-review_interval: 180
-scope: Cognitive aspects of abstraction and understanding.
+criteria: "Focus on practical learning and thinking implications."
+epistemic: ""
+exclusions: "Neuroscience details without cognitive application."
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
+purpose: "Organize concepts about abstraction and understanding."
+review_interval: "180"
+scope: "Cognitive aspects of abstraction and understanding."
 see_also: []
 source_of_truth: []
-status:
-tags: [cognition]
+status: ""
+tags: ["topic/cognition"]
 title: MOC - Cognitive Abstraction and Understanding
-type: map
-uid:
-updated:
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - Cognitive Abstraction and Understanding

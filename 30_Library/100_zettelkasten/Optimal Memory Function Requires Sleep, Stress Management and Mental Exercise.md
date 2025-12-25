@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.8
+confidence: "0.8"
 created: 2025-10-31T10:10:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "Explain supporting factors for good memory function."
-review_interval: 90
+review_interval: "90"
 see_also: ["Memory Enables Learning by Storing Experiences for Future Use.md"]
 source_of_truth: []
-status: seedling
-tags: [health, learning, memory]
+status: "seedling"
+tags: ["health", "learning", "memory"]
 title: Optimal Memory Function Requires Sleep, Stress Management and Mental Exercise
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

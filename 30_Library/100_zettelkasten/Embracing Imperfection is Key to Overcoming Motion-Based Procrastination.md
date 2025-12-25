@@ -1,21 +1,21 @@
 ---
-aliases: [Imperfect Action over Perfect Inaction]
-confidence: 1
+aliases: ["Imperfect Action over Perfect Inaction"]
+confidence: "1"
 created: 2025-11-01T20:40:00Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-12T13:45:38Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To explain the importance of embracing imperfection to overcome motion-based procrastination."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]", "[[Perfectionism Leads to Endless Planning and Inaction]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Motion Can Be a Procrastination Delay Tactic.md"]
-status: evergreen
-tags: [mindset, perfectionism, procrastination, productivity]
+source_of_truth: []
+status: "evergreen"
+tags: ["mindset", "perfectionism", "procrastination", "topic/productivity"]
 title: Embracing Imperfection is Key to Overcoming Motion-Based Procrastination
-type: concept
-uid: 20251101204000
-updated: 2025-11-01T20:40:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 To break the cycle of motion-based procrastination, one must accept that action with imperfection is superior to perfect planning with no action.

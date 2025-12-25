@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-21T05:15:57Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:40Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [networking]
+status: ""
+tags: ["topic/technology/networking"]
 title: ip link show
-type: info
+type: "info"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## Network Devices on macOS

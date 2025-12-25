@@ -1,21 +1,21 @@
 ---
-aliases: [Focused inquiry generates new ideas]
-confidence: 
+aliases: ["Focused inquiry generates new ideas"]
+confidence: "null"
 created: 2025-07-18T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [constraints, creativity, focus, topic/cognition/thinking]
+status: "null"
+tags: ["constraints", "creativity", "focus", "topic/cognition/thinking"]
 title: Deep Focus on a Single Concept Sparks Innovation
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Focusing intently on a small, specific part of a larger topic can unlock novel ideas and insights. This process of "going deep" allows the mind to move beyond a surface-level understanding and discover new connections and possibilities that are missed during a broad, superficial examination.

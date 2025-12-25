@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-24T15:16:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:27Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:43+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [bridge, cni, container, linux, topic/technology/networking, type/mechanism]
+status: "null"
+tags: ["bridge", "cni", "container", "linux", "topic/technology/networking"]
 title: How to set up a Linux bridge for container networking
-type: Mechanism
+type: "Mechanism"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 **Links:**

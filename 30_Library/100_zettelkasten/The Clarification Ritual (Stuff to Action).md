@@ -1,18 +1,18 @@
 ---
-aliases: [Clarification Ritual]
-confidence: 
+aliases: ["Clarification Ritual"]
+confidence: "null"
 created: 2025-12-16T14:40:00Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:55Z
-purpose: To test if batch-processing "Stuff" into "Actions" creates clarity.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16T00:00:00.000Z"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "To test if batch-processing \\\"Stuff\\\" into \\\"Actions\\\" creates clarity."
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
-source_of_truth: ["[[SoT - PRODOS - Action Management (GTD)]]"]
-status: pending
-tags: [clarification, experiment, gtd, hypothesis, topic/health/adhd, topic/productivity]
+source_of_truth: []
+status: "pending"
+tags: ["clarification", "experiment", "gtd", "hypothesis", "topic/health/adhd", "topic/productivity"]
 title: The Clarification Ritual (Stuff to Action)
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
 ---

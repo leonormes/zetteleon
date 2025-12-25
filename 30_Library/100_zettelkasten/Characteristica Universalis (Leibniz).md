@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-20T12:49:13Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [17th-century, leibniz, logic, topic/philosophy, universal-language]
+status: ""
+tags: ["17th-century", "leibniz", "logic", "topic/philosophy", "universal-language"]
 title: Characteristica Universalis (Leibniz)
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 The characteristica universalis (Latin for "universal characteristic") is a concept for a universal and formal language proposed by Gottfried Wilhelm Leibniz in the 17th century. He envisioned it as a system capable of expressing all mathematical, scientific, and metaphysical concepts with perfect clarity and lack of ambiguity. By translating ideas into this symbolic language, disagreements could be resolved through calculation rather than debate.

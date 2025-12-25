@@ -1,20 +1,20 @@
 ---
-aliases: [System-Level Determines Outcomes]
-confidence: 0.9
+aliases: ["System-Level Determines Outcomes"]
+confidence: "0.9"
 created: 2025-11-06T19:55:02Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "fact"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "To articulate the principle that outcomes are determined by the quality of underlying systems, not the ambition of goals."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["Goals are good for setting a direction, but systems are best for making progress.md"]
-status: seedling
-tags: [goals, habits, outcomes, systems]
+source_of_truth: []
+status: "seedling"
+tags: ["goals", "outcomes", "topic/habits", "topic/systems"]
 title: You Fall to the Level of Your Systems, Not Rise to Your Goals
-type: concept
-uid: 2025-11-06T19:55:02Z
-updated: 2025-11-06T19:55:02Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## You Fall to the Level of Your Systems, Not Rise to Your Goals

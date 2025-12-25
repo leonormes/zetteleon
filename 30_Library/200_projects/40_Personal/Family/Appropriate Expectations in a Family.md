@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-11T09:28:07Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-15T10:39:30Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Appropriate Expectations in a Family
-type: 
+type: ""
 uid: 
 updated: 
 ---
@@ -136,7 +136,7 @@ Key points in this scenario:
 - You communicated your intention and got agreement before making the purchase of a Pixel watch, showing transparency and respect for the partnership.
 - Your wife suggests financing to spread payments, which can be a reasonable strategy for managing cash flow if done within affordable limits.
 - When she labels your spending on yourself as "selfish" but justifies her unilateral spending on the children, it creates a double standard that undermines fairness and mutual respect.
-- Respectful financial behavior in a relationship involves consistent standards — discretionary spending by either partner should be discussed, budgeted, and accepted as part of shared boundaries, not criticized selectively.
+- Respectful financial behavior in a relationship involves consistent standards—discretionary spending by either partner should be discussed, budgeted, and accepted as part of shared boundaries, not criticized selectively.
 
 It is fair to expect that personal spending within agreed budgets is respected for both partners, and that financial discussions do not become a source of blame or moral judgment. Using credit responsibly is a financial tool, but it should be part of open dialogue about affordability and family priorities, not a weapon in arguments about "selfishness" [^4_1][^4_2][^4_3][^4_4].
 

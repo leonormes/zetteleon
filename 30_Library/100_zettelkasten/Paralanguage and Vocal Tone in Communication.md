@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-31T09:20:29Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:41Z
-purpose: Define how vocal characteristics beyond word content shape social perception and communication interpretation.
-review_interval: 
+epistemic: "fact"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [topic/social-cognition, topic/social-perception]
+status: "seedling"
+tags: ["topic/social-cognition", "topic/social-perception"]
 title: Paralanguage and Vocal Tone in Communication
-type: concept
-uid: sp-paralanguage
-updated: 2025-10-31T09:20:29Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Paralanguage and Vocal Tone in Communication

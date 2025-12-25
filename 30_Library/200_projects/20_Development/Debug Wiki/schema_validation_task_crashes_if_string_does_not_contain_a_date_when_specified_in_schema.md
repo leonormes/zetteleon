@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:53Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: schema_validation_task_crashes_if_string_does_not_contain_a_date_when_specified_in_schema
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Schema Validation Task Crashes if String Does not Contain a Date when Specified in Schema

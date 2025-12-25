@@ -1,20 +1,20 @@
 ---
-aliases: [Clarity of Externalization, Sobriety of Documentation]
-confidence: 0.9
+aliases: ["Clarity of Externalization", "Sobriety of Documentation"]
+confidence: "0.9"
 created: 2025-11-06T20:00:01Z
-epistemic: insight
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "insight"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "To define the role of writing as a mechanism for clarifying thought."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["The Illusion of Profundity Thought vs Text.md"]
-status: seedling
-tags: [clarity, critical-thinking, thinking, writing]
+source_of_truth: []
+status: "seedling"
+tags: ["clarity", "critical-thinking", "thinking", "writing"]
 title: Writing is a Tool for Clarification that Dispels the Illusion of Profundity
-type: concept
-uid: 2025-11-06T20:00:01Z
-updated: 2025-11-06T20:00:01Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Writing is a Tool for Clarification that Dispels the Illusion of Profundity

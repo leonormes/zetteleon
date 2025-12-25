@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-30T08:59:28Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [foundations, physics, topic/maths, topic/philosophy]
+status: ""
+tags: ["foundations", "physics", "topic/maths", "topic/philosophy"]
 title: Discreteness as a Precondition for Counting
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 For the act of counting and the concept of number to be meaningful, the universe must contain **distinction** or **discreteness**. We must be able to perceive separate, distinct things.

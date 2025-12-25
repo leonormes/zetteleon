@@ -1,20 +1,20 @@
 ---
 aliases: ["C10K problem", "maximum sockets", "socket limits"]
-confidence: 0.8
+confidence: "0.8"
 created: 2025-10-31T13:43:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:58Z
+epistemic: "fact"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Explain factors limiting maximum concurrent sockets on servers."
-review_interval: 90
+review_interval: "90"
 see_also: ["Event-Driven Socket Handling with epoll and kqueue.md"]
 source_of_truth: []
-status: seedling
-tags: [networking, performance, scalability, server, socket]
+status: "seedling"
+tags: ["performance", "scalability", "server", "socket", "topic/technology/networking"]
 title: Server Socket Scalability Limits
-type: concept
-uid: 2025-10-31T13:43:00Z
-updated: 2025-10-31T13:43:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Server Socket Scalability Limits
@@ -49,7 +49,7 @@ Multiple factors constrain socket scalability:
 **Typical capacity ranges:**
 
 - **Small server** (default config): 10,000 - 50,000 concurrent sockets
-- **Medium server** (tuned): 50,000 - 200,000 concurrent sockets  
+- **Medium server** (tuned): 50,000 - 200,000 concurrent sockets
 - **Large production server** (heavily optimized): 500,000 - 2,000,000+ concurrent sockets
 
 **Historical context:**

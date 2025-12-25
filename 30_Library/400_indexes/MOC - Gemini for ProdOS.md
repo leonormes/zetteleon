@@ -1,20 +1,20 @@
 ---
 aliases: [Gemini for ProdOS, MOC Gemini]
-confidence: 
+confidence: null
 created: 2025-12-21T20:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-21T14:57:10Z
-purpose: 
-review_interval: 
+epistemic: null
+last_reviewed: null
+modified: 2025-12-25T11:40:23+00:00
+purpose: null
+review_interval: null
 see_also: []
 source_of_truth: []
-status: 
-tags: ["ai", "gemini-cli", "moc", "prodos"]
+status: stable
+tags: [ai, gemini-cli, prodos]
 title: MOC - Gemini for ProdOS
 type: MOC
-uid: 
-updated: 
+uid: null
+updated: null
 ---
 
 ## MOC - Gemini for ProdOS
@@ -25,12 +25,12 @@ This Map of Content is the central hub for understanding and utilizing the **Gem
 
 The integration of Gemini CLI with the Obsidian vault is designed to create a "Thinking Machine." This architecture leverages the strengths of both systems:
 
--   **Obsidian:** Provides the structured, long-term knowledge base (the "wisdom").
--   **Gemini CLI:** Provides the powerful, agentic processing and execution capabilities (the "reasoning").
+- **Obsidian:** Provides the structured, long-term knowledge base (the "wisdom").
+- **Gemini CLI:** Provides the powerful, agentic processing and execution capabilities (the "reasoning").
 
 The canonical explanation of this high-level strategy is documented in:
 
--   **[[SoT - ProdOS Cognitive Architecture (Obsidian + Gemini)]]**
+- **[[SoT - ProdOS Cognitive Architecture (Obsidian + Gemini)]]**
 
 ---
 
@@ -42,10 +42,10 @@ The following Source of Truth (SoT) notes provide the detailed, practical inform
 
 For day-to-day operations, commands, and standard workflows, refer to this guide. It covers installation, authentication, session management, and core features.
 
--   **[[SoT - Gemini CLI Operations & Workflow]]**
+- **[[SoT - Gemini CLI Operations & Workflow]]**
 
 #### 2. Extending the CLI's Capabilities
 
 For advanced usage, including adding new tools and integrating with third-party applications like Obsidian, refer to this guide on the Model Context Protocol (MCP).
 
--   **[[SoT - Extending Gemini CLI with MCP]]**
+- **[[SoT - Extending Gemini CLI with MCP]]**

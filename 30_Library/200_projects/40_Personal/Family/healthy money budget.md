@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-18T18:37:44Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T20:28:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Healthy Money Budget
-type: 
+type: ""
 uid: 
 updated: 
 ---

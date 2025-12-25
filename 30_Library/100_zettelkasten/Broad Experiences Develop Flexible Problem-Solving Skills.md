@@ -1,20 +1,20 @@
 ---
-aliases: [Broad Training]
-confidence: 0.9
+aliases: ["Broad Training"]
+confidence: "0.9"
 created: 2025-11-01T12:30:10Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:17:11Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To advocate for diverse experiences in skill development."
-review_interval: 90
-see_also: ['[[Divergent Thinking Outperforms Narrow Specialization]]']
-source_of_truth: ['[[MOC - Divergent Thinking vs Specialization]]']
-status: seedling
-tags: [adaptability, experience, problem-solving]
+review_interval: "90"
+see_also: ["[[Divergent Thinking Outperforms Narrow Specialization]]"]
+source_of_truth: []
+status: "seedling"
+tags: ["adaptability", "experience", "problem-solving"]
 title: Broad Experiences Develop Flexible Problem-Solving Skills
-type: concept
-uid: 2025-11-01T12:30:10Z
-updated: 2025-11-01T12:30:10Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Broad Experiences Develop Flexible Problem-Solving Skills

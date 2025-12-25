@@ -1,18 +1,18 @@
 ---
-aliases: [Regularly Review Your Routines]
-confidence: 
+aliases: ["Regularly Review Your Routines"]
+confidence: ""
 created: 2025-10-29T16:10:00Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To establish that routines are dynamic and require iteration."
-review_interval: 
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [adaptability, continuous-improvement, routine]
+status: "seedling"
+tags: ["adaptability", "continuous-improvement", "routine"]
 title: Routines Must Be Reviewed and Adjusted Regularly
-type: principle
+type: "principle"
 uid: 
 updated: 
 ---

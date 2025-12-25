@@ -1,21 +1,21 @@
 ---
-aliases: [Meaning is Independent of Words]
-confidence: 
+aliases: ["Meaning is Independent of Words"]
+confidence: "null"
 created: 2025-07-16T17:30:04Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [language, paraphrasing, semantics, topic/philosophy]
+status: "null"
+tags: ["language", "paraphrasing", "semantics", "topic/philosophy"]
 title: Paraphrasing Demonstrates the Independence of Meaning from Language
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The fact that the same meaning can be expressed in many different ways is evidence that words and the concepts they represent are independent things. If a concept were inextricably tied to a specific set of words, paraphrasing would be impossible; changing the words would change the meaning.

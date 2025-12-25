@@ -1,19 +1,19 @@
 ---
-aliases: [Limbic Friction]
-confidence: 
+aliases: ["Limbic Friction"]
+confidence: ""
 created: 2025-10-30T12:05:02Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-30T10:49:50Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
-status: seedling
-tags: [habits, limbic-system, motivation, neuroscience]
+status: "seedling"
+tags: ["limbic-system", "motivation", "neuroscience", "topic/habits"]
 title: Limbic Friction is the Activation Energy for Habits
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

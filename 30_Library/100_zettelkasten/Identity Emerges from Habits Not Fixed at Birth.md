@@ -1,21 +1,21 @@
 ---
-aliases: [Habits Create Identity, Identity is Malleable]
-confidence: 0.9
+aliases: ["Habits Create Identity", "Identity is Malleable"]
+confidence: "0.9"
 created: 2025-11-01T12:04:20Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:26:25Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Establish that identity is not innate but emerges from accumulated habitual behavior."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Accumulating Evidence Reinforces Identity]]", "[[Every Action is a Vote for Who You Wish to Become]]", "[[Identity Means Repeated Beingness]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Habits and Identity.md"]
-status: seedling
-tags: [behavior-change, habits, identity, psychology, self-concept]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "identity", "self-concept", "topic/habits", "topic/psychology"]
 title: Identity Emerges from Habits Not Fixed at Birth
-type: concept
-uid: 2025-11-01T12:04:20Z
-updated: 2025-11-01T12:04:20Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Your identity is not fixed at birth but emerges out of your habits. This principle establishes that identity is malleable and constructed through accumulated behavior, meaning you can deliberately shape who you become through consistent action.
@@ -41,7 +41,7 @@ If identity emerges from habits, then by changing your habits, you can change yo
 
 While it's true that identity shapes behavior (you act according to who you believe you are), it's equally true—and more empowering—that behavior shapes identity. This creates a feedback loop:
 
-Behavior → Evidence → Identity → Behavior → ...
+Behavior → Evidence → Identity → Behavior →...
 
 **Examples:**
 

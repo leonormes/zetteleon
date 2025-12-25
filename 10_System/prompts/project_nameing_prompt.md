@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-18T13:25:33Z
 epistemic:
 last_reviewed:
-modified: 2025-10-30T14:04:40Z
+modified: 2025-12-25T11:40:49+00:00
 purpose: To guide an LLM acting as a GTD coach to transform a user's raw, ambiguous "stuff" into well-defined, outcome-based projects with clear definitions of done and actionable next steps.
 review_interval:
 see_also: []

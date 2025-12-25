@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-07-19T08:10:19Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/maths]
+status: "null"
+tags: ["topic/maths"]
 title: Open source knowledge
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 [[Alchemy Protected Truth Through Obscurity]]

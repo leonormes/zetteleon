@@ -1,44 +1,30 @@
 ---
-aliases: [Language Safety Models, Nanny Languages, Padded Cell Languages]
-confidence: 4/5
-confidence-gaps: [not a formal computer science classification., This is a metaphorical framework]
-created: 2025-12-19T13:16:01Z
-decay-signals: []
-epistemic: framework
-last_reviewed: 2025-12-19
-modified: 2025-12-20T09:54:05Z
+aliases: ["Language Safety Models", "Nanny Languages", "Padded Cell Languages"]
+confidence: "4/5"
+created: 2025-12-19T00:00:00Z
+epistemic: "framework"
+last_reviewed: "2025-12-19"
+modified: 2025-12-25T11:40:21+00:00
 purpose: "To provide a metaphorical framework for classifying programming languages based on their approach to developer safety and abstraction."
-quality-markers: [Clearly defines both metaphors, Links the framework to the Pragmatism-Rigour spectrum., Provides canonical examples for each category]
-related-soTs: ["[[SoT - Pragmatism vs Rigour in Software]]", "[[SoT - Rust's Design Philosophy]]"]
-resonance-score: 9
-review_interval: 18 months
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: []
+review_interval: "18 months"
+see_also: ["[[SoT - Pragmatism vs Rigour in Software]]", "[[SoT - Rust's Design Philosophy]]"]
+source_of_truth: []
+status: "stable"
 tags: ["abstraction", "mental-model", "programming-languages", "safety"]
 title: SoT - Padded Cell vs Nanny Languages
-type: SoT
+type: "SoT"
 uid: 
-updated:
+updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Definition
-> The **"Padded Cell vs. Nanny"** framework is a metaphor for classifying programming languages based on their dominant safety philosophy:
->
-> 1. **Padded Cell Languages** provide safety by abstracting away dangerous, low-level details entirely. They create a safe environment where it is difficult for a developer to get hurt, but at the cost of control and performance.
-> 2. **Nanny Languages** provide safety by implementing a strict set of rules and actively policing the developer's behavior at compile time. They allow access to dangerous, low-level details but force the developer to prove they are doing so safely.
-
----
+> The **"Padded Cell vs. Nanny"** framework is a metaphor for classifying programming languages based on their dominant safety philosophy: ""
 
 ## 2. The Core Problem: Managing Complexity and Danger
 
 Writing software, especially low-level systems software, is inherently complex and dangerous. A single mistake can lead to critical security vulnerabilities or system crashes. Languages have evolved two distinct strategies to manage this danger for the developer.
 
 | Safety Model | "Padded Cell" Languages | "Nanny" Languages |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Canonical Examples** | **Python, JavaScript, Java, C#** | **Rust, (modern) C++ with static analysis** |
 | **Core Philosophy** | **Safety through Abstraction.** "You can't hurt yourself with what you can't touch." | **Safety through Discipline.** "You can touch this, but only if you follow my rules." |
 | **Primary Safety Mechanism** | **Garbage Collection** and a **Runtime System**. The language runtime manages memory and other resources automatically. | **Compile-Time Static Analysis.** A powerful compiler (like Rust's borrow checker) analyzes the code and rejects any program that violates its safety rules. |

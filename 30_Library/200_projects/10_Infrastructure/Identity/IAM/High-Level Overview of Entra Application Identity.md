@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-02T03:55:27Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: High-Level Overview of Entra Application Identity
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Microsoft Entra ID is an Identity and Access Management (IAM) system designed to provide a central repository for digital identities. Application management in Microsoft Entra ID involves creating, configuring, managing, and monitoring applications in the cloud.

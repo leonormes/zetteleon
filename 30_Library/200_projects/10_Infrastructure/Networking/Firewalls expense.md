@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-13T09:25:29Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [networking]
+status: ""
+tags: ["topic/technology/networking"]
 title: Firewalls expense
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Firewalls, such as Azure Firewall, are indeed more expensive than other cloud resources like VMs and networks for several reasons:

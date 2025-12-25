@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T09:02:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [habit, leadership, principles, vision]
+status: ""
+tags: ["leadership", "principles", "topic/habits", "vision"]
 title: Habit 2 - Begin with the End in Mind
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Habit 2: Begin with the End in Mind** is the principle of personal leadership. It means starting each day, task, or project with a clear vision of your desired destination. It is the habit of creating a personal mission statement or philosophy.

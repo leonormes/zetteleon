@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-30T12:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [japanese-psychology, morita-therapy, therapy]
+status: ""
+tags: ["morita-therapy", "therapy", "topic/psychology"]
 title: Morita Therapy - The Four-Stage Therapeutic Process
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 The traditional practice of [[Morita Therapy]] involves a structured, four-stage process designed to guide an individual from a state of emotional preoccupation to one of purposeful action.

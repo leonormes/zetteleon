@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-02T12:19:37Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Key Findings from Your Role Assignment Data
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 1. High Number of Privileged Roles: The analysis shows many highly privileged roles have been assigned. The most common roles are `User Access Administrator` (9 assignments), `Owner` (8 assignments), and `Contributor` (3 assignments). These roles grant significant control over the resources.
@@ -39,7 +39,7 @@ Yes, effectively, they can. Anyone with an `Owner` or `Contributor` role at a sc
 I have filtered the list to show only the assignments for the most powerful roles: `Owner`, `Contributor`, and `User Access Administrator`. This is the list you should review carefully with your client.
 
 | DisplayName                         | RoleDefinitionName        | Scope                                                                                 | ObjectType       |
-| :---------------------------------- | :------------------------ | :------------------------------------------------------------------------------------ | :--------------- |
+|:---------------------------------- |:------------------------ |:------------------------------------------------------------------------------------ |:--------------- |
 | 47d1717c7ae848cdbc423ca2            | Contributor               | /providers/Microsoft.Management/managementGroups/mg-landingzones                      | ServicePrincipal |
 | Andrew Bell                         | User Access Administrator | /                                                                                     | User             |
 | Cloud Admin                         | User Access Administrator | /                                                                                     | User             |

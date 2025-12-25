@@ -1,21 +1,21 @@
 ---
-aliases: [Post-Crash Executive Function Problems, Trough Phase Executive Dysfunction]
-confidence: 0.9
+aliases: ["Post-Crash Executive Function Problems", "Trough Phase Executive Dysfunction"]
+confidence: "0.9"
 created: 2025-11-01T11:37:53Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:44:48Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain why executive functions are particularly impaired during the trough phase."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[ADHD Hangover or Brain Fog Following Hyperfixation]]", "[[ADHD Hyperfixation-Burnout Cycle]]", "[[Dopamine Deficit Follows Hyperfixation Crash]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Adhd up and down cycle .md"]
-status: seedling
-tags: [brain-fog, cognition, executive-function, topic/health/adhd]
+source_of_truth: []
+status: "seedling"
+tags: ["brain-fog", "executive-function", "topic/cognition", "topic/health/adhd"]
 title: Executive Function Impairment During ADHD Trough Phase
-type: concept
-uid: 2025-11-01T11:37:53Z
-updated: 2025-11-01T11:37:53Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** During the trough phase following hyperfixation, executive functions—which are already challenging for people with ADHD—become particularly impaired, making it extremely difficult to initiate tasks, plan, organize, or regulate emotions.

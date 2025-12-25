@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-20T05:53:41Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:28Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [curriculum, gcse, project/family/bessie]
+status: ""
+tags: ["curriculum", "gcse", "project/family/bessie"]
 title: bess gcse prompt
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 You are an expert educational consultant specializing in UK GCSEs and neurodiversity-inclusive learning strategies. Your task is to provide a comprehensive overview of the curriculum and tailored learning recommendations for Bessie Ormes, a student diagnosed with Attention Deficit Hyperactivity Disorder (ADHD), experiencing anxiety, and having learning needs associated with dyslexia. Bessie is currently in Year 7 and will be transitioning to Year 9 for her GCSEs.

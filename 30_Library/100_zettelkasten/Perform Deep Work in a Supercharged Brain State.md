@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-30T12:02:03Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source: "[[MOC - Limitless Morning Routine]]"
 source_of_truth: []
-status: seedling
-tags: [deep-work, flow-state, topic/health/adhd, topic/productivity]
+status: "seedling"
+tags: ["deep-work", "flow-state", "topic/health/adhd", "topic/productivity"]
 title: Perform Deep Work in a Supercharged Brain State
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

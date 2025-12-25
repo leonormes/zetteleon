@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:53Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:42Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Rust nightly on the laptop
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Here's a comprehensive debug wiki page documenting the issues and solutions we encountered:
@@ -145,7 +145,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 1. Single Rust installation (`which rustc` should show ~/.cargo/bin)
 2. Valid toolchain dates (`rustc --version`)
 3. No `rust-toolchain` file conflicts
-4. Correct PATH order (`echo $PATH | grep .cargo/bin`)
+4. Correct PATH order (`echo $PATH | grep.cargo/bin`)
 
 ---
 

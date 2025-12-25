@@ -1,20 +1,20 @@
 ---
-aliases: [Illusion of Fluency]
-confidence: 0.9
+aliases: ["Illusion of Fluency"]
+confidence: "0.9"
 created: 2025-11-10T16:01:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T14:08:42Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the 'Illusion of Fluency' cognitive bias."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Passive Study Habits Foster the Illusion of Fluency]]"]
-source_of_truth: ["[[MOC - Understanding vs Learning]]"]
-status: seedling
-tags: [cognition, cognitive-bias, learning, metacognition]
+source_of_truth: []
+status: "seedling"
+tags: ["learning", "metacognition", "topic/cognition", "topic/cognition/bias"]
 title: The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning
-type: concept
-uid: 2025-11-10T16:01:00Z
-updated: 2025-11-10T16:01:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning

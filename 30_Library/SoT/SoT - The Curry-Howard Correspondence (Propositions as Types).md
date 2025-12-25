@@ -1,26 +1,20 @@
 ---
-alias: ["Curry-Howard Correspondence", "Curry-Howard-Lambek Isomorphism", "Propositions as Types"]
 aliases: []
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-18T10:15:00Z
-decay-signals: []
-epistemic: authoritative
-last_reviewed: 2025-12-18
-modified: 2025-12-20T09:54:07Z
-purpose: Defines the foundational isomorphism between mathematical logic and computer programming.
-quality-markers: ["Aligned with Intuitionistic Logic", "Synthesized from Computerphile: Propositions as Types"]
-related-soTs: ["[[SoT - Proof-Carrying Code via Simulated Dependent Types]]"]
-resonance-score: 8
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
+confidence: "5/5"
+created: 2025-12-18T00:00:00Z
+epistemic: "authoritative"
+last_reviewed: "2025-12-18"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "Defines the foundational isomorphism between mathematical logic and computer programming."
+review_interval: "1 year"
+see_also: ["[[SoT - Proof-Carrying Code via Simulated Dependent Types]]"]
+source_of_truth: []
+status: "stable"
 tags: ["computer_science", "formal_methods", "logic", "type_theory"]
 title: SoT - The Curry-Howard Correspondence (Propositions as Types)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Working Knowledge (Stable Foundation)

@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T15:49:32Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-12T16:07:53Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,11 +22,13 @@ updated:
 ![rw-book-cover](https://m.media-amazon.com/images/I/61x242v8QWL._SY160.jpg)
 
 ### Metadata
+
 - Author: [[Marcus Sullivan]]
 - Full Title: How to Set Goals With Kaizen & Ikigai
 - Category: #books
 
 ### Highlights
+
 - A bad teacher, or parent, can make you doubt your own abilities, for years to come. If you let their words continue to sting, you’ll continually assume that you’ll make the same mistakes, again and again. Even if a thousand other people tell you “You can do it,” the discursive meanderings of your inner voice, may insist that “you cannot.” ([Location 228](https://readwise.io/to_kindle?action=open&asin=B07NCTD4SM&location=228))
 - This process is exemplified in this Toyota post: Even if a task is completed successfully, Toyota recognizes the need for a hansei-kai, [a] reflection meeting—a process that helps to identify failures experienced along the way, and create clear plans for future efforts. An inability to identify issues is usually seen as an indication that you did not stretch to meet or exceed expectations, that you were not sufficiently critical or objective in your analysis, or that you lack modesty and humility. Within the process, no problem is itself a problem. ([Location 459](https://readwise.io/to_kindle?action=open&asin=B07NCTD4SM&location=459))
     - Tags: [[blue]]

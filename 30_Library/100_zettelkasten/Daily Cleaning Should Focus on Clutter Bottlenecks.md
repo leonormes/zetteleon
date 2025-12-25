@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T12:08:02Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-30T11:16:24Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - How to Organize a Cleaning Schedule]]"
 source_of_truth: []
-status: seedling
-tags: [cleaning, habits, routines]
+status: "seedling"
+tags: ["cleaning", "routines", "topic/habits"]
 title: Daily Cleaning Should Focus on Clutter Bottlenecks
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

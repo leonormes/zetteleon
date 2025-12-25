@@ -1,22 +1,22 @@
 ---
-aliases: [Active Information, Experiential Information, Real-World Feedback]
-confidence: 
+aliases: ["Active Information", "Experiential Information", "Real-World Feedback"]
+confidence: "null"
 created: 2025-08-11T17:26:50Z
-creation_date: 2025-09-11
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+creation_date: "2025-09-11T00:00:00.000Z"
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [action, experience, information, topic/learning]
+status: "null"
+tags: ["action", "experience", "information", "topic/learning"]
 title: Type 2 Information is Experiential
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Type 2 information is knowledge gained through direct experience and real-world action. It consists of feedback, emotional signals, and data obtained by engaging with reality rather than consuming theoretical content.

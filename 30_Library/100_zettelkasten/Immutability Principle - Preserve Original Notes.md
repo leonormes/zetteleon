@@ -1,20 +1,20 @@
 ---
-aliases: [Note Immutability, Preserving Original Thoughts]
-confidence: 0.85
+aliases: ["Note Immutability", "Preserving Original Thoughts"]
+confidence: "0.85"
 created: 2025-10-30T15:33:36Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-31T09:31:40Z
+epistemic: "principle"
+last_reviewed: "2025-10-30T00:00:00.000Z"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explains why original notes should remain unchanged when understanding evolves"
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [evolution, topic/pkm, topic/pkm/zettelkasten, versioning]
+status: "seedling"
+tags: ["evolution", "topic/pkm", "topic/pkm/zettelkasten", "versioning"]
 title: Immutability Principle - Preserve Original Notes
-type: principle
-uid: 2025-10-30T15:33:36Z
-updated: 2025-10-30T15:33:36Z
+type: "principle"
+uid: 
+updated: 
 ---
 
 ## Immutability Principle - Preserve Original Notes

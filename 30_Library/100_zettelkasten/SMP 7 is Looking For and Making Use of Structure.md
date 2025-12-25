@@ -1,20 +1,20 @@
 ---
-aliases: [SMP 7]
-confidence: 0.9
+aliases: ["SMP 7"]
+confidence: "0.9"
 created: 2025-11-01T12:00:09Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:43:59Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the 7th Standard for Mathematical Practice (SMP)."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[SMP 8 is Looking For and Expressing Regularity in Repeated Reasoning]]"]
-source_of_truth: ["[[MOC - Pattern - From Sensory Input to Meaning]]"]
-status: seedling
-tags: [education, maths, structure]
+source_of_truth: []
+status: "seedling"
+tags: ["education", "maths", "structure"]
 title: SMP 7 is Looking For and Making Use of Structure
-type: concept
-uid: 2025-11-01T12:00:09Z
-updated: 2025-11-01T12:00:09Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## SMP 7 is Looking For and Making Use of Structure

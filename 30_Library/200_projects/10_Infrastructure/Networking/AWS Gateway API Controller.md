@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-04-02T08:41:26Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [FFAPP-3588]
+status: ""
+tags: ["FFAPP-3588"]
 title: AWS Gateway API Controller
-type: 
-uid: 160cd9bb-e0af-4b92-a096-c2314aa1bd36
+type: ""
+uid: 
 updated: 
-version: 
+version: ""
 ---
 
 I can certainly be helpful to you in this endeavour. Drawing upon the provided sources, my understanding is that to get the AWS Gateway API Controller functioning correctly, especially in a private EKS cluster, several components need to be configured precisely. The knowledge base I have access to details the prerequisites for deploying the controller, the core concepts behind it, the installation procedures, and how it interacts with AWS services like VPC Lattice. It also covers cross-cluster service exposure and security considerations. The GitHub repository likely contains example configurations and manifests which can be invaluable.

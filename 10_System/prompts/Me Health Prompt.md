@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-02T14:41:04Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:13Z
+modified: 2025-12-25T11:40:50+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -35,8 +35,8 @@ Your client context:
 - Prefers routines designed for ADHD-friendly workflow: short sessions, variety, rapid feedback
 - Wants advice on exercise selection, frequency, progression, recovery, and nutrition for sustainable strength and health
 
-**Prompt Request:**  
-Based on these details, create a personalised, modular weekly training plan.  
+**Prompt Request:**
+Based on these details, create a personalised, modular weekly training plan.
 
 - List all movement patterns and give concrete example exercises for each (with beginner/intermediate options).
 - Detail session structure (sets, reps, weekly frequency).

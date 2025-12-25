@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-25T00:07:05Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-11T18:25:35Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/pkm, topic/pkm/zettelkasten]
+status: ""
+tags: ["topic/pkm", "topic/pkm/zettelkasten"]
 title: My Vision of a Thought Partner
-type: map
+type: "map"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 A thought partner should allow for recording thoughts. These recorded thoughts need to be matched to previously held similar thoughts. This addresses the common occurrence of re-thinking the same ideas, by putting new captures into context with existing, related thoughts.

@@ -1,20 +1,20 @@
 ---
-aliases: [Mob Programming, Pair Programming for ADHD]
-confidence: 0.8
+aliases: ["Mob Programming", "Pair Programming for ADHD"]
+confidence: "0.8"
 created: 2025-11-06T19:54:10Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
-purpose: "To explain how collaborative programming methods can serve as an effective accommodation for ADHD-related challenges."
-review_interval: 90
+epistemic: "fact"
+last_reviewed: "2025-11-06T00:00:00.000Z"
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: "90"
 see_also: []
-source_of_truth: ["A Deep Dive into Adult ADHD in Remote Software Development.md"]
-status: seedling
-tags: [accommodation, adhd, pair-programming, rsd]
+source_of_truth: []
+status: "seedling"
+tags: ["accommodation", "pair-programming", "rsd", "topic/health/adhd"]
 title: Collaborative Programming Mitigates RSD and Focus Issues in ADHD
-type: concept
-uid: 2025-11-06T19:54:10Z
-updated: 2025-11-06T19:54:10Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Collaborative Programming Mitigates RSD and Focus Issues in ADHD

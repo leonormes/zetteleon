@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:55Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-16T09:31:18Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [ext-mind]
+status: ""
+tags: ["ext-mind"]
 title: Zettelkasten the Extended Mind
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The zettelkasten is an example of the extended mind.
@@ -30,6 +30,6 @@ This helps to develop a more profound understanding of complex concepts.
 
 [[Extended Thought and Reflection for Understanding]]
 
-[[The Extended Mind Thesis]]
+[[30_Library/100_zettelkasten/The Extended Mind Thesis]]
 
 [[MOC - Abstraction Improves Breadth of Understanding]]

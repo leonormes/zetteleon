@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T09:57:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Predictive Processing and the Bayesian Brain
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Predictive Processing** (or the **Bayesian Brain** hypothesis) is the leading modern theory for how the brain uses mental models. It posits that the brain is not a passive receiver of sensory information, but an active and constant **prediction machine**.

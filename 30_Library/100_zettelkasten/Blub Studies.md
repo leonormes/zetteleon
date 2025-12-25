@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:55Z
-epistemic: 
-ID: blub_studies
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+ID: "blub_studies"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [devex, mastery, topic/learning]
+status: ""
+tags: ["devex", "mastery", "topic/learning"]
 title: Blub Studies
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Blub studies refers to the deep dive into the inner workings of everyday, mundane software tools and systems that programmers use, like programming languages, frameworks, databases, and version control systems.
@@ -35,6 +35,6 @@ This concept challenges the common assumption that learning exotic technologies 
 
 Blub studies represents a form of [[SoT - Conventional Problem Solving]] that builds expertise through systematic exploration of familiar systems. It's the programming equivalent of becoming a master craftsperson rather than a dilettante.
 
-The approach also relates to [[The Extended Mind Thesis]] - by deeply understanding our tools, we effectively extend our cognitive capabilities through intimate familiarity with our technological environment.
+The approach also relates to [[30_Library/100_zettelkasten/The Extended Mind Thesis]] - by deeply understanding our tools, we effectively extend our cognitive capabilities through intimate familiarity with our technological environment.
 
 [[Knowledge Applicability of Blub Studies]]

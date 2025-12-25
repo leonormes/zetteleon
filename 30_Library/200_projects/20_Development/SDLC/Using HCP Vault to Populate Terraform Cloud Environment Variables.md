@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-13T06:50:32Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [IAM, security]
+status: ""
+tags: ["IAM", "security"]
 title: Using HCP Vault to Populate Terraform Cloud Environment Variables
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Researching HCP Vault and Terraform Cloud Integration
@@ -83,9 +83,9 @@ vault write auth/jwt/role/terraform-cloud \
 ```
 
 - vault auth enable jwt: Enables the JWT auth method in Vault.
-- vault oidc create hcp-oidc ...: Configures OIDC for HCP. You'll need to replace \<YOUR_HCP_CLIENT_ID\\> with your actual HCP Client ID. You can obtain this by creating an OIDC application in HCP.
-- vault policy write terraform-cloud - \<\<EOF ... EOF: Creates a Vault policy named terraform-cloud. Crucially, you need to adjust the path "secret/data/*" to match the actual path where your secrets are stored in Vault. This example policy grants read access to secrets under the secret/data/ path.
-- vault write auth/jwt/role/terraform-cloud ...: Creates a Vault role named terraform-cloud that uses the JWT auth method.
+- vault oidc create hcp-oidc...: Configures OIDC for HCP. You'll need to replace \<YOUR_HCP_CLIENT_ID\\> with your actual HCP Client ID. You can obtain this by creating an OIDC application in HCP.
+- vault policy write terraform-cloud - \<\<EOF... EOF: Creates a Vault policy named terraform-cloud. Crucially, you need to adjust the path "secret/data/*" to match the actual path where your secrets are stored in Vault. This example policy grants read access to secrets under the secret/data/ path.
+- vault write auth/jwt/role/terraform-cloud...: Creates a Vault role named terraform-cloud that uses the JWT auth method.
   - bound_audiences="terraform.app.hashicorp.cloud": Specifies that this role is for Terraform Cloud.
   - bound_subject_type="idf-entity-name": Specifies how the subject is identified.
   - token_period="60s": Sets the token TTL (Time To Live) to 60 seconds (adjust as needed).
@@ -161,7 +161,7 @@ output "database_url" {
 }
 ```
 
-- data "vault_generic_secret" "my_secret" { ... }: This block defines the data source to read a generic secret from Vault.
+- data "vault_generic_secret" "my_secret" {... }: This block defines the data source to read a generic secret from Vault.
   - path = "secret/data/myapp/config": Replace this with the actual path to your secret in HCP Vault. This path corresponds to where your secrets are stored in Vault's KV secrets engine.
   - kv_version = 2: If you are using the KV Secrets Engine Version 2 in Vault (recommended), you need to specify kv_version = 2. If you are using Version 1, omit this argument.
 - data.vault_generic_secret.my_secret.data["db_password"]: This shows how to access a specific key (db_password) within the secret data retrieved from Vault. The data attribute returns a map of key-value pairs representing the secret data.
@@ -326,10 +326,10 @@ resource "azuread_user_role_assignment" "example" {
 
 Explanation:
 
-- data "vault_generic_secret" "azuread_sp_creds" { ... }: Retrieves the service principal credentials from Vault at the path secret/data/terraform-cloud/azuread-gitops-sp.
-- provider "azuread" { ... }: Configures the azuread provider.
+- data "vault_generic_secret" "azuread_sp_creds" {... }: Retrieves the service principal credentials from Vault at the path secret/data/terraform-cloud/azuread-gitops-sp.
+- provider "azuread" {... }: Configures the azuread provider.
   - client_id, client_secret, tenant_id: These are dynamically populated from the data.vault_generic_secret.azuread_sp_creds.data data source, fetching the values from Vault.
-- resource "azuread_user_role_assignment" "example" { ... }: This is a placeholder example of managing an Azure AD user role assignment. You would replace this with your actual Terraform configuration to manage Entra ID roles as needed for your GitOps workflow.
+- resource "azuread_user_role_assignment" "example" {... }: This is a placeholder example of managing an Azure AD user role assignment. You would replace this with your actual Terraform configuration to manage Entra ID roles as needed for your GitOps workflow.
 
 6. Implement Your GitOps Workflow with Terraform Cloud
 Now you can integrate this Terraform configuration into your GitOps workflow with Terraform Cloud. When Terraform Cloud runs (triggered by Git changes):

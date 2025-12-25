@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T12:27:00Z
-epistemic: pattern
-last_reviewed: 
-modified: 2025-10-31T12:27:00Z
+epistemic: "pattern"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "Explain safe criticism via fables."
-review_interval: 90
+review_interval: "90"
 see_also: ["Aesop's Fables Use Anthropomorphic Allegory.md"]
 source_of_truth: []
-status: seedling
-tags: [politics, storytelling]
+status: "seedling"
+tags: ["politics", "storytelling"]
 title: Political Subversion Through Animal Allegory
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:42Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers]
+status: ""
+tags: ["containers"]
 title: main components of docker
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 what are the main components of docker
@@ -64,7 +64,7 @@ Citations:
 
 [4] What is Docker? <https://docs.docker.com/get-started/docker-overview/>
 
-[5] Understanding Docker Components :Complete Guide 2025 <https://thinksys.com/devops/docker-components/>
+[5] Understanding Docker Components:Complete Guide 2025 <https://thinksys.com/devops/docker-components/>
 
 [6] DOCKER AND ITS COMPONENTS - LinkedIn <https://www.linkedin.com/pulse/docker-its-components-bhavishay-sikka>
 

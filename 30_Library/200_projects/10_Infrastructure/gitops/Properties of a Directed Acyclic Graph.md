@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-22T11:05:17Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:50Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [dag, data-centric, git]
+status: ""
+tags: ["dag", "data-centric", "git"]
 title: Properties of a Directed Acyclic Graph
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## Properties of a Directed Acyclic Graph (DAG) from a Data Perspective

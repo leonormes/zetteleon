@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-17T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:51Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [aws, eks, ff_deploy, ip, networking]
+status: ""
+tags: ["aws", "eks", "ff_deploy", "ip", "topic/technology/networking"]
 title: IPs needed for FITFILE
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Key Considerations for VPC CIDR Range

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-07-25T10:35:05Z
-epistemic:
-last_reviewed:
-modified: 2025-11-03T13:48:14Z
-purpose:
-review_interval:
-see_also: [[Generative Infrastructure Configuration MOC]]
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
+see_also: []
 source_of_truth: []
-status:
-tags: [aor, project/work, responsibilities]
+status: ""
+tags: ["project/work", "responsibilities"]
 title: AoR at Work
-type: permanent
-uid:
-updated:
-version: 1
+type: "permanent"
+uid: 
+updated: 
+version: "1"
 ---
 
 Areas of Responsibility at work - high-level overview of my key domains.

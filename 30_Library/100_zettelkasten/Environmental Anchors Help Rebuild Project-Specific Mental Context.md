@@ -1,20 +1,20 @@
 ---
 aliases: ["Environmental Anchoring"]
-confidence: 0.8
+confidence: "0.8"
 created: 2025-11-11T19:05:12Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-11T10:57:47Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Using environmental cues to trigger a project-specific mindset."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [habits, productivity, psychology]
+status: "seedling"
+tags: ["topic/habits", "topic/productivity", "topic/psychology"]
 title: Environmental Anchors Help Rebuild Project-Specific Mental Context
-type: strategy
-uid: 2025-11-11T19:05:12Z
-updated: 2025-11-11T19:05:12Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## Environmental Anchors Help Rebuild Project-Specific Mental Context

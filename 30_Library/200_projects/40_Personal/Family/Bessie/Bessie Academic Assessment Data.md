@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-07T10:32:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [academic-data, assessment, cognitive-profile, project/family/bessie]
+status: ""
+tags: ["assessment", "cognitive-profile", "project/family/bessie"]
 title: Bessie Academic Assessment Data
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Key Stage 2 Results

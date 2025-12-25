@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T12:05:01Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-30T10:49:50Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
-status: seedling
-tags: [habits, memory, neuroscience, procedural-memory]
+status: "seedling"
+tags: ["memory", "neuroscience", "procedural-memory", "topic/habits"]
 title: Procedural Memory is Central to Habit Formation
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

@@ -1,20 +1,20 @@
 ---
-aliases: [Mutual Respect in a Relationship]
-confidence: 0.9
+aliases: ["Mutual Respect in a Relationship"]
+confidence: "0.9"
 created: 2025-11-10T10:01:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To define the components of mutual respect in a relationship."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [boundaries, communication, relationship, respect]
+source_of_truth: []
+status: "seedling"
+tags: ["boundaries", "communication", "relationship", "respect"]
 title: Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries
-type: concept
-uid: 2025-11-10T10:01:00Z
-updated: 2025-11-10T10:01:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries

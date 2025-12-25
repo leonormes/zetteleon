@@ -1,20 +1,20 @@
 ---
-aliases: [Stages of Memory]
-confidence: 0.9
+aliases: ["Stages of Memory"]
+confidence: "0.9"
 created: 2025-11-10T16:14:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T14:08:42Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To outline the three fundamental stages of memory formation."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Systems Consolidation is the Gradual Reorganization of Memory in the Brain]]"]
-source_of_truth: ["[[MOC - Understanding vs Learning]]"]
-status: seedling
-tags: [cognition, memory, neuroscience]
+source_of_truth: []
+status: "seedling"
+tags: ["memory", "neuroscience", "topic/cognition"]
 title: Memory Formation Involves Three Stages Encoding Consolidation and Retrieval
-type: concept
-uid: 2025-11-10T16:14:00Z
-updated: 2025-11-10T16:14:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Memory Formation Involves Three Stages Encoding Consolidation and Retrieval

@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-13T14:48:12Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:14Z
+modified: 2025-12-25T11:40:23+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -117,7 +117,7 @@ With the structure and variables defined, this phase involves writing the HCL co
 
 3. **Implement Conditional Logic**:
    - Use the `count` meta-argument on modules and resources to enable/disable them based on the feature flags defined in Phase 3.
-   - Example from your `jumpbox.tf` plan: `count = var.enable_jumpbox ? 1 : 0`.
+   - Example from your `jumpbox.tf` plan: `count = var.enable_jumpbox? 1: 0`.
 
 4. **Wire Variables and Outputs**:
    - Pass the abstracted variables from the root module down to the child modules.

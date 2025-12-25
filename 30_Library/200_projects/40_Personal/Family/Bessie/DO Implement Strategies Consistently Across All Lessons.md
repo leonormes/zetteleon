@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-23T11:10:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [implementation, project/family/bessie, strategies]
+status: ""
+tags: ["implementation", "project/family/bessie", "strategies"]
 title: DO Implement Strategies Consistently Across All Lessons
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The 'Do' stage involves the consistent implementation of agreed strategies across all lessons and subjects. This requires coordination between all teaching staff and support personnel.

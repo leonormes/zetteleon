@@ -1,21 +1,21 @@
 ---
-aliases: [Overthinking Loop]
-confidence: 
+aliases: ["Overthinking Loop"]
+confidence: "null"
 created: 2025-07-17T10:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [decision-making, overthinking, paralysis, topic/cognition]
+status: "null"
+tags: ["decision-making", "overthinking", "paralysis", "topic/cognition"]
 title: The Overthinking Loop Creates Mental Noise Not Clarity
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The "overthinking loop" is a cycle where individuals engage in more research, planning, and analysis in an attempt to find clarity. However, this process often has the opposite effect, leading to increased mental noise, a proliferation of options, and ultimately, inaction or paralysis.

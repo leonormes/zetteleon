@@ -1,20 +1,20 @@
 ---
 aliases: ["Intentional Unfinishing"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-11T19:05:07Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-11T10:57:47Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
 purpose: "Provides a simple trick to ensure a clear starting point for the next work session."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [productivity, task-management]
+status: "seedling"
+tags: ["task-management", "topic/productivity"]
 title: Leaving a Task Intentionally Unfinished Creates a Clear Starting Point
-type: strategy
-uid: 2025-11-11T19:05:07Z
-updated: 2025-11-11T19:05:07Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## Leaving a Task Intentionally Unfinished Creates a Clear Starting Point

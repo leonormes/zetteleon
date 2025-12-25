@@ -1,21 +1,21 @@
 ---
-aliases: [Timeboxing for ADHD]
-confidence: 1
+aliases: ["Timeboxing for ADHD"]
+confidence: "1"
 created: 2025-11-01T21:10:00Z
-epistemic: application
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:43:14Z
+epistemic: "application"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To explain why timeboxing is a particularly valuable tool for individuals with ADHD."
-review_interval: 90
-see_also: ['[[ADHD]]', '[[Executive Functions]]', '[[Timeboxing Creates Structure for Action]]']
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Timeboxing Creates Structure for Action.md"]
-status: evergreen
-tags: [adhd, executive-function, productivity, time-management]
+review_interval: "90"
+see_also: ["[[ADHD]]", "[[Executive Functions]]", "[[Timeboxing Creates Structure for Action]]"]
+source_of_truth: []
+status: "evergreen"
+tags: ["executive-function", "time-management", "topic/health/adhd", "topic/productivity"]
 title: Timeboxing is a Valuable Tool for ADHD
-type: concept
-uid: 20251101211000
-updated: 2025-11-01T21:10:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 Timeboxing is an especially effective strategy for individuals with ADHD because it provides external support for executive functions that may be challenging.

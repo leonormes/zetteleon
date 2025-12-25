@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T10:08:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Explain the active recall learning technique."
-review_interval: 90
+review_interval: "90"
 see_also: ["Memory Enables Learning by Storing Experiences for Future Use.md"]
 source_of_truth: []
-status: seedling
-tags: [learning, memory, retrieval]
+status: "seedling"
+tags: ["learning", "memory", "retrieval"]
 title: Active Recall Strengthens Memory Through Retrieval Practice
-type: technique
+type: "technique"
 uid: 
 updated: 
 ---

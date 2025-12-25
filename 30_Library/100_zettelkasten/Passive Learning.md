@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-02-06T15:25:56Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-09T10:12:49Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/learning]
+status: "null"
+tags: ["topic/learning"]
 title: Passive Learning
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Passive learning methods, such as reading or listening, can be less effective than active learning because they often lack the focused [[Attention in Learning]] required for deep processing. They frequently lead to only a superficial understanding of the material, a phenomenon influenced by our [[Perception in learning]]. This can be particularly true if one has a [[Predisposition to Passive Activities]].

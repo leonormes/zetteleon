@@ -1,20 +1,20 @@
 ---
-aliases: [ADHD Analog Strategies, Five-Minute Rule, Pomodoro Technique]
-confidence: 0.8
+aliases: ["ADHD Analog Strategies", "Five-Minute Rule", "Pomodoro Technique"]
+confidence: "0.8"
 created: 2025-11-06T19:54:06Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "fact"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To highlight the importance of analog and behavioral techniques for managing ADHD, as digital tools can be distracting."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[SoT - ADHD and Motivation]]"]
-status: merged
-tags: [adhd, habits, pomodoro, productivity]
+source_of_truth: []
+status: "merged"
+tags: ["pomodoro", "topic/habits", "topic/health/adhd", "topic/productivity"]
 title: Analog and Behavioral Techniques are Crucial for ADHD Management
-type: concept
-uid: 2025-11-06T19:54:06Z
-updated: 2025-11-06T19:54:06Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Analog and Behavioral Techniques Are Crucial for ADHD Management

@@ -1,21 +1,21 @@
 ---
-aliases: [Dopamine Seeking in ADHD, Environmental Scanning for Reward]
-confidence: 0.9
+aliases: ["Dopamine Seeking in ADHD", "Environmental Scanning for Reward"]
+confidence: "0.9"
 created: 2025-11-01T11:37:53Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-12T13:45:37Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Explain the ADHD brain's fundamental drive to seek dopamine-rewarding stimulation."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[ADHD Brain is a Novelty-Seeking Machine]]", "[[Dopamine Dysregulation is a Key Factor in ADHD Motivation]]", "[[The Interest-Based Nervous System in ADHD]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Adhd up and down cycle .md"]
-status: seedling
-tags: [dopamine, motivation, neuroscience, topic/health/adhd]
+source_of_truth: []
+status: "seedling"
+tags: ["dopamine", "motivation", "neuroscience", "topic/health/adhd"]
 title: ADHD Brain Constantly Scans for Dopamine-Rewarding Stimuli
-type: concept
-uid: 2025-11-01T11:37:53Z
-updated: 2025-11-01T11:37:53Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** The ADHD brain has a different dopamine regulation system that causes it to constantly scan the environment for something that will provide a sense of reward and stimulation. This is not a conscious choice but a fundamental neurological drive.

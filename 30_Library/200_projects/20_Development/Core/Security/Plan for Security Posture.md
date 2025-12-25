@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-06T09:39:24Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [IAM]
+status: ""
+tags: ["IAM"]
 title: Plan for Security Posture
-type: plan
+type: "plan"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Plan for Security Posture
@@ -112,7 +112,7 @@ We can think of it in defence in depth
 - Upgrade AKS node images
   - I-Upgrade Azure Kubernetes Service (AKS) node images - Azure Kubernetes Service
 - AKS: Disable local accounts with Terraform
-- Rotate cluster certificates – Rotate encryption keys
+- Rotate cluster certificates–Rotate encryption keys
 - Address Azure best practises
 - Configure securityContext correctly. Snyk Article.
 - Restrict access to Instance Metadata API

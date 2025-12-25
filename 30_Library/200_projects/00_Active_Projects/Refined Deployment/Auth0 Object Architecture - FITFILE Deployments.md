@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-25T14:15:39Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-04T13:28:02Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [project/work/mkuh]
+status: ""
+tags: ["auth0", "project/work/mkuh"]
 title: Auth0 Object Architecture - FITFILE Deployments
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Created**: 2025-09-25
@@ -283,7 +283,7 @@ graph TB
 ### **Resource Ownership Matrix**
 
 | Resource Type        | Central Services | MKUH Deployment | CUH Deployment | Other Deployments |
-| -------------------- | :--------------: | :-------------: | :------------: | :---------------: |
+| -------------------- |:--------------: |:-------------: |:------------: |:---------------: |
 | **Tenant**           |     ✅ Owns      |  ❌ References  | ❌ References  |   ❌ References   |
 | **Connection**       |     ✅ Owns      |  ❌ References  | ❌ References  |   ❌ References   |
 | **Branding**         |     ✅ Owns      |   ❌ Inherits   |  ❌ Inherits   |    ❌ Inherits    |

@@ -4,7 +4,7 @@ confidence:
 created: 2025-09-25T09:28:24Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:14Z
+modified: 2025-12-25T11:40:23+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -83,7 +83,7 @@ The `relay` service appears to be healthy and is performing several distinct, pe
 
 The RabbitMQ logs are straightforward and indicate healthy operation. They show the `relay` service connecting and disconnecting periodically.
 
-> `2025-09-25 08:30:19.811960+00:00 [info] <0.780276.0> connection ... user 'relay' authenticated and granted access to vhost '/'`
+> `2025-09-25 08:30:19.811960+00:00 [info] <0.780276.0> connection... user 'relay' authenticated and granted access to vhost '/'`
 > `2025-09-25 08:30:19.817207+00:00 [info] <0.780276.0> closing AMQP connection...`
 
 This confirms that the `relay` service has correct connectivity and credentials for the message queue within its own cluster.

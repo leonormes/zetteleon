@@ -6,14 +6,14 @@ criteria: Atomic notes relating to the definition, properties, structure, and ex
 epistemic:
 exclusions: Broad productivity philosophy; specific tool implementations beyond examples.
 last_reviewed:
-modified: 2025-12-20T09:54:58Z
+modified: 2025-12-25T11:40:19+00:00
 purpose:
 review_interval: 0
 scope: Comprehensive framework for defining, organizing, and executing atomic actions as the fundamental unit of productivity, with a focus on ADHD-friendly systems.
 see_also: []
 source_of_truth: []
 status: archived
-tags: [action, adhd, execution, gtd, productivity]
+tags: [action, execution, gtd, topic/health/adhd, topic/productivity]
 title: MOC - Atomic Actions and Next Actions Framework
 type: map
 uid: 2025-11-10T15:23:00Z

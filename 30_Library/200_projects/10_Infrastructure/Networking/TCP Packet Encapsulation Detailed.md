@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-25T17:36:44Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T11:06:55Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: TCP Packet Encapsulation Detailed
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## **A Detailed Examination of the TCP Packet and the Encapsulation Process**
@@ -53,7 +53,7 @@ The **Urgent Pointer (16 bits)** field is valid only when the URG flag is set. I
 Finally, the **Options (Variable 0–40 bytes)** field is an optional component that allows for the inclusion of additional features and parameters for the TCP connection 1. Common options include Maximum Segment Size (MSS), window scaling, timestamps, and selective acknowledgments (SACK) 6. To ensure that the TCP header ends on a 32-bit boundary, **Padding (0-320 bits)** is added as necessary 4. These options extend the base functionality of TCP, enabling performance optimizations and support for more advanced features based on network conditions and application requirements. For instance, MSS informs the receiving end about the largest amount of data it can accept in a single TCP segment 6.
 
 | Field Name | Size (bits) | Purpose/Problem Solved |
-| :---- | :---- | :---- |
+|:---- |:---- |:---- |
 | Source Port | 16 | Identifies the sending application, allowing the receiver to direct responses correctly. |
 | Destination Port | 16 | Identifies the receiving application, ensuring the segment reaches the intended service. |
 | Sequence Number | 32 | Ensures ordered delivery of data by assigning a unique number to each byte in the stream, aiding in reassembly and detection of lost packets. |

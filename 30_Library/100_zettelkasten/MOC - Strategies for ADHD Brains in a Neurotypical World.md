@@ -1,21 +1,21 @@
 ---
 aliases: [ADHD Coping Strategies, ADHD Strategy Library]
-confidence: 
+confidence: "null"
 created: 2025-07-16T17:30:01Z
 epistemic: index
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:53Z
-purpose: A high-level index of potential strategies for managing ADHD, serving as a source list for the Experiment Lab.
+last_reviewed: 2025-12-16T00:00:00.000Z
+modified: 2025-12-25T18:35:25Z
+purpose: ""
 review_interval: 6 months
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
-source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
+source_of_truth: []
 status: stable
 tags: [index, self-help, strategies, topic/health/adhd, topic/productivity]
 title: MOC - Strategies for ADHD Brains in a Neurotypical World
 type: index
-uid: 
-updated: 
-version: 1
+uid:
+updated:
+version: "1"
 ---
 
 > [!info] The Strategy Library

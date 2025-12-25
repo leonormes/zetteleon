@@ -1,18 +1,18 @@
 ---
-aliases: [The 5-Item List]
-confidence: 
+aliases: ["The 5-Item List"]
+confidence: "null"
 created: 2025-12-16T14:35:00Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:55Z
-purpose: To test if extreme prioritization (The Ivy Lee Method) reduces daily overwhelm.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16T00:00:00.000Z"
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
-source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
-status: pending
-tags: [1, 2, experiment, focus, hypothesis, prioritization, topic/health/adhd, topic/productivity]
+source_of_truth: []
+status: "pending"
+tags: ["1", "2", "experiment", "focus", "hypothesis", "prioritization", "topic/health/adhd", "topic/productivity", 1, 2]
 title: The Five-Item To-Do List Reduces Overwhelm
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
 ---

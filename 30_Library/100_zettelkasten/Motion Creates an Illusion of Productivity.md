@@ -1,21 +1,21 @@
 ---
-aliases: [Motion as Performance, The Illusion of Productivity]
-confidence: 1
+aliases: ["Motion as Performance", "The Illusion of Productivity"]
+confidence: "1"
 created: 2025-11-01T20:35:00Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:35:44Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To explain the deceptive nature of motion as a form of procrastination."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Motion Can Be a Procrastination Delay Tactic.md"]
-status: evergreen
-tags: [procrastination, productivity, psychology, self-deception]
+source_of_truth: []
+status: "evergreen"
+tags: ["procrastination", "self-deception", "topic/productivity", "topic/psychology"]
 title: Motion Creates an Illusion of Productivity
-type: concept
-uid: 20251101203500
-updated: 2025-11-01T20:35:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 Motion feels productive because it often mimics the activities associated with work. An individual can be busy, engaged, and focused while in a state of motion.

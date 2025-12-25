@@ -1,24 +1,24 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-26T10:26:07Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [pki, security]
+status: ""
+tags: ["pki", "security"]
 title: Gaining Trust and Causing Damage
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
-Okay, let's delve into the practicalities and difficulties a bad actor would face trying to subvert the PKI trust system for malicious purposes. It's not a simple "yes" or "no" – the difficulty varies enormously depending on the attacker's goals, resources, and chosen method.
+Okay, let's delve into the practicalities and difficulties a bad actor would face trying to subvert the PKI trust system for malicious purposes. It's not a simple "yes" or "no"–the difficulty varies enormously depending on the attacker's goals, resources, and chosen method.
 
 ## Gaining Trust and Causing Damage: Difficulty and Methods
 

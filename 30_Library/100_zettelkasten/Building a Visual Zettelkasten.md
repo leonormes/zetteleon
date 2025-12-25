@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T13:14:20Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:37Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [excalidraw, obsidian, topic/pkm/zettelkasten, visual-thinking]
+status: ""
+tags: ["excalidraw", "obsidian", "topic/pkm/zettelkasten", "visual-thinking"]
 title: Building a Visual Zettelkasten
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 A Visual Zettelkasten is built by creating a network of visual notes.

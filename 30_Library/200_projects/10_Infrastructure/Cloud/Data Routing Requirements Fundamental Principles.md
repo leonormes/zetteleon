@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-15T07:39:41Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [data-centric, networking]
+status: ""
+tags: ["data-centric", "topic/technology/networking"]
 title: Data Routing Requirements Fundamental Principles
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 To enable secure communication for this data, we need to establish a secure and private data pathway between the AWS and Azure environments. Here are the fundamental routing requirements, focusing on the data's journey:

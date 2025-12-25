@@ -1,141 +1,131 @@
 ---
-aliases: [Action Management, Atomic Actions, GTD Framework, Next Actions, ProdOS Action, Task Architecture]
-confidence: 5/5
-created: 2025-12-20T12:00:00Z
-epistemic: "framework"
-last_reviewed: 2025-12-20
-modified: 2025-12-20T20:28:10Z
+aliases: ["Action Management", "Atomic Action Protocol"]
+confidence: "5/5"
+created: 2025-12-20T20:01:29Z
+epistemic: "strategy"
+last_reviewed: "2025-12-23"
+modified: 2025-12-25T18:34:56Z
 purpose: "To provide a single, canonical Source of Truth for the principles, systems, and strategies for managing action, especially within an ADHD-aware context."
-review_interval: 365
-see_also: ["[[MOC - Time Boxing for ADHD Brains]]", "[[SoT - Bridging the Intention-Action Gap]]", "[[SoT - Temporal Management (Blocking and Boxing)]]", "[[SoT - The Cognitive Physiology of Task Execution]]"]
-source_of_truth: true
-status: "evergreen"
-tags: [action, adhd, execution, framework, gtd, prodos, productivity, system_design, tasks, todoist]
+review_interval: "6 months"
+see_also: ["[[SoT - Bridging the Intention-Action Gap]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Protocol - The Launch Sequence]]"]
+source_of_truth: []
+status: "stable"
+tags: ["action", "adhd", "execution", "gtd", "prodos"]
 title: SoT - Action Management Framework
-type: "permanent"
-uid: 20251220120000
+type: "SoT"
+uid: 
 updated: 
-version: 2
 ---
-
-## SoT - Action Management Framework
 
 > **Core Question:** How do we transform abstract intent into concrete reality?
 
-This Source of Truth (SoT) provides the complete framework for managing action within the ProdOS ecosystem. It is designed to counter **ADHD Task Initiation Deficits** by creating a robust system that separates thinking from doing and transforms vague intentions into executable steps.
+## 1. The System: From Thought to Action
+
+ProdOS strictly separates **Thinking** (Contextual/Exploratory) from **Doing** (Binary/Kinetic).
+
+| Mode | Tool | Unit of Work | Characteristics |
+|:--- |:--- |:--- |:--- |
+| **Thinking** | **Obsidian** | `HEAD Note` | High-context, messy, exploratory, volatile. |
+| **Doing** | **Todoist** | `MVA` | Low-context, binary, time-sensitive, mobile. |
+
+### The 4-Phase ProdOS Workflow
+
+1. **Capture:** Dump raw thoughts into `00_Inbox` or Daily Note.
+2. **Refine:** Use a `HEAD` note to identify the underlying Model and extract the first MVA.
+3. **Bridge:** Use the *Todoist Context Bridge* to promote the MVA to the Todoist runtime with a link back to Obsidian.
+4. **Engage:** Execute the single MVA when the reminder fires, restoring context via the deep link.
 
 ---
 
-### 1. The System: From Thought to Action
+## 2. The Atomic Unit: The 'What' of Action
 
-This section defines the canonical workflow for managing actions, based on Getting Things Done (GTD) principles adapted for ProdOS.
+The fundamental building block of all productive work is the **Atomic Action**.
 
-#### Core Philosophy: Separation of Thinking and Doing
+### 2.1 The Velocity Metric: Mean Time to First Action (MTTFA)
 
-ProdOS distinguishes between two modes of operation, which require distinct tools to prevent context collapse:
+The primary KPI for ProdOS. It measures the time between identifying a task and executing the first micro-kinetic step.
 
-| Mode         | Tool         | Unit of Work             | Characteristics                              |
-| :----------- | :----------- | :----------------------- | :------------------------------------------- |
-| **Thinking** | **Obsidian** | `HEAD Note`, `Checklist` | High-context, messy, exploratory, volatile.  |
-| **Doing**    | **Todoist**  | `Task`                   | Low-context, binary, time-sensitive, mobile. |
+- **The Rule:** Only "Compiled Binaries" (Executable MVAs) are permitted in the execution slot. No abstract intentions.
 
-The primary failure mode is trying to "manage tasks" in Obsidian or "do thinking" in Todoist. The bridge protocol solves this.
+### 2.2 The Minimal Viable Action (MVA)
 
-#### The 4-Phase ProdOS Workflow
+An MVA is a "momentum spark" designed to bypass initiation resistance.
 
-This pipeline converts "Cognitive Fog" into "Binary Action."
+1. **Micro-Temporal:** < 120 seconds.
+2. **Kinetic:** Involves physical movement (e.g., "Open laptop").
+3. **Binary:** Strictly True/False outcome.
 
-1.  **Phase 1: Capture (The Dump)**
-    -   **Action:** User dumps raw thoughts, ideas, and worries into a trusted inbox (e.g., Daily Note, `00_Inbox`).
-    -   **State:** `Messy`, `Emotional`, `Unstructured`.
-    -   *Example:* "I need to fix the server patching, it's a mess."
+### 2.3 Motion vs. Action: The Progress Diagnostic
 
-2.  **Phase 2: Refine (The Thinking)**
-    -   **Action:** The LLM or user refactors the messy thought into a structured `HEAD` note.
-    -   **Activity:** The vague problem is broken down into a checklist of concrete, atomic steps using Obsidian Tasks. The *single* first physical action is identified.
-    -   **State:** `Structured`, `Atomic`.
+A critical skill in ProdOS is distinguishing between **Motion** (preparatory activity) and **Action** (behavior that produces tangible results).
 
-3.  **Phase 3: Bridge (The Commitment)**
-    -   **Action:** The user invokes the `Todoist Context Bridge` on the primary Next Action.
-    -   **Result:** A task is created in Todoist containing a deep link (`obsidian://...`) back to the `HEAD` note, preserving context.
-    -   **State:** `Scheduled`, `Externalized`.
-
-4.  **Phase 4: Engage (The Doing)**
-    -   **Action:** A Todoist reminder fires. The user clicks the link, which restores the full context in Obsidian, and executes the single task.
-    -   **State:** `Complete`.
-
-#### System Tools
--   **Obsidian Tasks Plugin:** Used strictly for **internal checklists** within a `HEAD` note to break down a problem during the *Thinking* phase.
--   **Todoist Context Bridge:** The "teleporter" that promotes a finalized **Next Action** from Obsidian into the Todoist runtime, embedding a backlink to the source note.
+- **Motion:** Activities that create the *conditions* for action but do not directly move the project toward completion.
+    - *Includes:* Planning, strategizing, learning, brainstorming, and organizing.
+    - *The Trap:* Motion feels productive and safe, providing a false sense of accomplishment while avoiding the risk of failure inherent in action.
+- **Action:** Physical behavior that leads to a demonstrable outcome.
+    - *The Test:* **"If I stopped this activity right now, would I be any closer to my goal?"**
+    - *Example:* Outlining 20 ideas (Motion) vs. Writing one paragraph (Action).
 
 ---
 
-### 2. The Atomic Unit: The 'What' of Action
+## 3. The Atomic Standard: The Four Essential Properties
 
-The fundamental building block of all productive work is the **Atomic Action**. This is the answer to the question: "What is the very next physical thing I need to do?"
+Every action promoted to the Todoist runtime must satisfy the **Atomic Standard**. If an action fails any of these tests, it must be refined.
 
-- **Core Principle:** [[The Action is the Atomic Unit of Productivity]]. It transforms vague intent into tangible progress.
+### I. Indivisible (Atomic)
 
-#### The Four Essential Properties of an Atomic Action
+The smallest possible unit of work. It cannot be broken down further while remaining meaningful.
 
-An atomic action (or "Next Action" in GTD) must satisfy four properties to be valid:
+- **The Test:** Can this be completed in a single, uninterrupted session without waiting for external input?
+- **Example:** "Open new document and title it 'Q4 Report'" (Correct) vs. "Write report" (Incorrect).
 
-1.  **Indivisible (Atomic):** It cannot be broken down further. "Write report" is not atomic; "Open Google Docs and create a new document titled 'Q4 Report'" is.
-2.  **Physical & Visible:** It must be a real-world activity that produces an observable change.
-3.  **Unambiguous Definition of Done:** [[Atomic Action Completion Must Be Binary and Instantly Verifiable|Completion is binary (0 or 1)]]. You either did it or you didn't.
-4.  **Context-Specific:** [[Atomic Actions Are Context-Specific|It is tied to a specific tool, location, or person]] (e.g., `@computer`, `@phone`). Context tags are crucial for filtering and batching.
+### II. Physical & Visible
 
-#### Composing Actions into Projects
+A real-world activity that produces an observable change.
 
-Individual actions are composed into larger projects, which can be modeled as [[Action Sequences Form Directed Acyclic Graphs|Directed Acyclic Graphs (DAGs)]].
+- **The Test:** Would an observer be able to *see* you doing this?
+- **Example:** "Brainstorm strategy on whiteboard" (Correct) vs. "Decide on strategy" (Incorrect).
 
----
+### III. Unambiguous Definition of Done
 
-### 3. The Neurology: The 'Why' of Action
+Completion is binary (0 or 1) and instantly verifiable.
 
-Understanding the neurological barriers to action, especially in ADHD, is key to designing a system that works.
+- **The Test:** Can you definitively say "Yes, this is complete" without any uncertainty?
+- **Example:** "Fill in revenue numbers in cells B15-B20" (Correct) vs. "Work on budget" (Incorrect).
 
-- **Dopamine Dysregulation:** [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity|ADHD is characterized by dopamine hyposensitivity]], meaning the brain requires higher stimulation (novelty, urgency, interest) to initiate tasks.
-- **Network Switching (TPN vs. DMN):** The brain struggles to switch from the wandering "thinking" state (Default Mode Network, DMN) to the focused "doing" state (Task Positive Network, TPN). Using an external tool like Todoist acts as a hard switch.
--   **Activation Energy:** [[Activation Energy is the Primary Barrier to ADHD Task Initiation|Activation Energy is the primary bottleneck]]. The entire system is designed to lower this barrier.
--   **Purpose Over Feelings:** The system separates the *decision* to do something (made during the calm, reflective "Thinking" phase) from the *execution*. This prevents in-the-moment negotiation with your feelings.
+### IV. Context-Specific
 
----
+Tied to a specific tool, location, or person.
 
-### 4. The Strategies: The 'Fix' for Inertia
-
-These are techniques to lower activation energy and trigger action.
-
-#### For Initiating Difficult Tasks (The Momentum Method)
-- **[[SoT - Starter Tasks|Starter Tasks]]:** A special class of atomic action designed *only* to build momentum, not to make progress. They are a direct counter to high activation energy.
-- **Artificial Ignition (Activation Fuel):** As detailed in [[SoT - Bridging the Intention-Action Gap]], this involves manufacturing dopamine by framing tasks with **Novelty, Urgency, Challenge, or Immersion (Pairing)**. These can be represented by `@Fuel_` tags in Todoist.
-
-#### For Converting Thoughts into Actions (The Clarification Process)
-- **[[Clarifying Stuff Into Actions Follows a Four-Step Process|The Four-Step Clarification Process]]** converts vague thoughts ("Stuff") into clear, atomic actions, externalizing decision-making.
-- **Motion vs. Action:** It is critical to [[The Skill in Productivity is Not Confusing Motion for Action|distinguish preparatory "motion" from productive "action"]]. Motion can be a form of productive procrastination if not managed.
-
-#### For Maintaining Project Momentum
-- **Re-entry Rituals:** To combat the "always start fresh" loop, use a 10-minute ritual: read the project anchor note, run a dev environment command, and execute one small starter task.
-- **Minimal Path to Demo (MPD):** For large projects, define the smallest set of features that delivers a demonstrable outcome. This provides a concrete "done" state and prevents scope creep.
+- **The Test:** What specific tool or location is required to complete this?
+- **Example:** `@computer: Send status update email` (Correct) vs. "Send email" (Incorrect).
 
 ---
 
-### 5. Temporal Integration (The 'When')
+## 4. Maintenance & Strategy
 
-A task list (inventory) without a sense of time (capacity) leads to overwhelm. All tasks bridged to Todoist must be assigned a temporal fate, as defined in **[[SoT - Temporal Management (Blocking and Boxing)]]**.
+### A. Re-entry Rituals
 
-- **P1 (Critical):** Must be **Time Blocked** on the Calendar immediately.
-- **P2 (Important):** Must have a defined **Time Box** (e.g., `[25m]`).
-- **P3 (Routine):** Batched into a "Shallow Work" block.
+Combat the "always start fresh" loop with a 10-minute ritual: read the project anchor, run a dev command, and execute one small starter task.
+
+### B. Capacity-Based Planning
+
+- **High Gravity Days (20% Capacity):** Collapse the list to **one single MVA**. Hide all other tasks.
+- **Utilization Capping:** Cap planned work at **60%** to allow for the "ADHD Tax."
+
+### C. Violations and Fixes
+
+| Violation | Example | Fix |
+|:--- |:--- |:--- |
+| **Too Large** | "Plan marketing campaign" | "List 10 potential themes in notebook" |
+| **Not Physical** | "Consider options" | "Write pros/cons list for each option" |
+| **Ambiguous** | "Improve documentation" | "Add code examples to endpoints 1-5" |
+| **Missing Context** | "Call bank" | "@phone: Call Barclays to update address" |
 
 ---
 
-### 6. Acceptance Criteria (Definition of Done)
+## 5. Related Components
 
-A task is properly processed and ready for action *only when*:
-
-1.  **It starts with a Verb.** (e.g., Call, Write, Run, Buy).
-2.  **It has a defined Context.** (e.g., @computer, @shop).
-3.  **It exists in Todoist** if it cannot be done *right now*.
-4.  **It links back** to the Obsidian note that generated it.
-5.  **It is Real Work, not Meta-Work.** (It must "move the ball" in the real world).
+- [[SoT - PRODOS (System Architecture)]]
+- [[SoT - Bridging the Intention-Action Gap]]
+- [[SoT - Protocol - The Hemingway Bridge]]

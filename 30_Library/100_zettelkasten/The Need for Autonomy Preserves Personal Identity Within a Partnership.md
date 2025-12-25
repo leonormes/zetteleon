@@ -1,20 +1,20 @@
 ---
-aliases: [Need for Autonomy in a Relationship]
-confidence: 0.8
+aliases: ["Need for Autonomy in a Relationship"]
+confidence: "0.8"
 created: 2025-11-10T10:10:00Z
-epistemic: hypothesis
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "hypothesis"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To identify the need for autonomy as a core human need in relationships."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [autonomy, identity, needs, relationship]
+source_of_truth: []
+status: "seedling"
+tags: ["autonomy", "identity", "needs", "relationship"]
 title: The Need for Autonomy Preserves Personal Identity Within a Partnership
-type: concept
-uid: 2025-11-10T10:10:00Z
-updated: 2025-11-10T10:10:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Need for Autonomy Preserves Personal Identity Within a Partnership

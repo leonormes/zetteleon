@@ -1,20 +1,20 @@
 ---
-aliases: [Mental Load, The Hidden Load]
-confidence: 0.9
+aliases: ["Mental Load", "The Hidden Load"]
+confidence: "0.9"
 created: 2025-11-10T10:04:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define the concept of emotional labor in a family context."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Shared Responsibility in a Partnership Includes Physical Mental and Emotional Labor]]"]
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [emotional-labor, mental-load, relationship, responsibility]
+source_of_truth: []
+status: "seedling"
+tags: ["emotional-labor", "mental-load", "relationship", "responsibility"]
 title: Emotional Labor is the Invisible Work of Managing a Household and Family
-type: concept
-uid: 2025-11-10T10:04:00Z
-updated: 2025-11-10T10:04:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Emotional Labor is the Invisible Work of Managing a Household and Family

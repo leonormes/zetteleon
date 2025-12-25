@@ -1,20 +1,20 @@
 ---
-aliases: [Financial Control]
-confidence: 0.9
+aliases: ["Financial Control"]
+confidence: "0.9"
 created: 2025-11-10T10:14:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define the characteristics of controlling financial behavior."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy]]"]
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [abuse, autonomy, control, finance, relationship]
+source_of_truth: []
+status: "seedling"
+tags: ["autonomy", "finance", "relationship"]
 title: "Controlling Financial Behavior is Unilateral and Removes a Partner's Agency"
-type: concept
-uid: 2025-11-10T10:14:00Z
-updated: 2025-11-10T10:14:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Controlling Financial Behavior is Unilateral and Removes a Partner's Agency

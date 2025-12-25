@@ -1,22 +1,22 @@
 ---
-aliases: [Passive Information, Theoretical Information]
-confidence: 
+aliases: ["Passive Information", "Theoretical Information"]
+confidence: "null"
 created: 2025-08-11T17:26:24Z
-creation_date: 2025-09-11
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+creation_date: "2025-09-11T00:00:00.000Z"
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [information, theory, topic/learning]
+status: "null"
+tags: ["information", "theory", "topic/learning"]
 title: Type 1 Information is Theoretical
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Type 1 information is knowledge acquired through passive consumption - reading, watching, planning, and theoretical study. It includes books, tutorials, documentation, and conceptual frameworks that provide understanding without direct experience.

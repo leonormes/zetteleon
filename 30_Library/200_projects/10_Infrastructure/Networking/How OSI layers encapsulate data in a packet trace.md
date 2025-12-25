@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-24T15:19:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:22Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:38+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [encapsulation, osi, protocol, topic/technology/networking, type/mechanism]
+status: "null"
+tags: ["encapsulation", "osi", "protocol", "topic/technology/networking"]
 title: How OSI layers encapsulate data in a packet trace
-type: Mechanism
+type: "Mechanism"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 **Links:**

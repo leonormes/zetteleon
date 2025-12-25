@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:45:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [authenticity, topic/pkm, topic/writing, voice]
+status: "null"
+tags: ["authenticity", "topic/pkm", "topic/writing", "voice"]
 title: Making Knowledge Personal Through Voice
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 To effectively use [[Writing as a Thinking Tool]], it is crucial to write in a personal, authentic voice. A PKM is not a formal academic paper; it is a journal of your intellectual journey. Using a human voice makes knowledge accessible, engaging, and truly your own.

@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-24T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-27T08:40:23Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:33+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "https://learn.microsoft.com/en-us/azure/aks/core-aks-concepts?source=docs"
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: ["azure", "k8s"]
 title: Azure Kubernetes Services (AKS) Core Concepts - Azure Kubernetes Service
-type: 
+type: ""
 uid: 
 updated: 
 ---

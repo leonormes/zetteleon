@@ -1,20 +1,20 @@
 ---
-aliases: [ADHD Working Memory, Developer Cognitive Load]
-confidence: 0.8
+aliases: ["ADHD Working Memory", "Developer Cognitive Load"]
+confidence: "0.8"
 created: 2025-11-06T19:54:01Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "fact"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "To describe how working memory impairments in ADHD affect software development tasks."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["A Deep Dive into Adult ADHD in Remote Software Development.md"]
-status: seedling
-tags: [adhd, cognitive-load, debugging, working-memory]
+source_of_truth: []
+status: "seedling"
+tags: ["cognitive-load", "debugging", "topic/health/adhd", "working-memory"]
 title: Working Memory Impairment in ADHD Increases Cognitive Load for Developers
-type: concept
-uid: 2025-11-06T19:54:01Z
-updated: 2025-11-06T19:54:01Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Working Memory Impairment in ADHD Increases Cognitive Load for Developers

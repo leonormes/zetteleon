@@ -1,21 +1,21 @@
 ---
-aliases: [System Abandonment in ADHD, Why ADHD Productivity Systems Fail]
-confidence: 0.8
+aliases: []
+confidence: "0.8"
 created: 2025-11-01T11:37:53Z
-epistemic: hypothesis
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:44:48Z
-purpose: "Explain why organizational systems fall victim to the ADHD hyperfixation-burnout cycle."
-review_interval: 90
-see_also: ["[[ADHD Hyperfixation-Burnout Cycle]]", "[[Build Novelty and Flexibility Into ADHD Systems]]", "[[Novelty Fading Causes Dopamine Reward to Diminish in ADHD]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Adhd up and down cycle .md"]
-status: seedling
-tags: [strategy, systems, topic/health/adhd, topic/productivity]
+epistemic: "hypothesis"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: "90"
+see_also: []
+source_of_truth: []
+status: "seedling"
+tags: []
 title: ADHD Systems Fail When They Become Monotonous
-type: strategy
-uid: 2025-11-01T11:37:53Z
-updated: 2025-11-01T11:37:53Z
-version: 1
+type: "strategy"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** The very systems and processes people with ADHD implement to manage their condition often fall victim to the hyperfixation-burnout cycle. Systems fail not because of personal failure, but because routine maintenance becomes monotonous and stops providing dopamine rewards.

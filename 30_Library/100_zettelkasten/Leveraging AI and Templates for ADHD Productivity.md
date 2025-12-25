@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-26T11:07:00Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:58Z
-purpose: To test AI as an "Executive Prosthetic" for bypassing the "Blank Page" paralysis.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16T00:00:00.000Z"
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
-source_of_truth: ["[[A Digital System Can Externalise and Organise Thoughts]]", "[[SoT - ADHD Executive Dysfunction]]"]
-status: pending
-tags: [ai, executive-function, experiment, hypothesis, templates, topic/health/adhd, topic/productivity]
+source_of_truth: []
+status: "pending"
+tags: ["ai", "executive-function", "experiment", "hypothesis", "templates", "topic/health/adhd", "topic/productivity"]
 title: Leveraging AI and Templates for ADHD Productivity
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## 1. The Hypothesis

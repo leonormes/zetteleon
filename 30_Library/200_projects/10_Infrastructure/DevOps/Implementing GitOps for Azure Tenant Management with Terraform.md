@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-05T12:53:15Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:41+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [gitops, IAM]
+status: ""
+tags: ["gitops", "IAM"]
 title: Implementing GitOps for Azure Tenant Management with Terraform
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## Addressing the "Chicken and Egg" Problem: Securing Initial Root Access

@@ -4,14 +4,14 @@ confidence: 4/5
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed: 2025-12-08
-modified: 2025-12-10T19:59:42Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: The central hub for all notes related to Action Management, Execution, and Task Initiation within ProdOS.
 related-soTs: ["[[SoT - PRODOS - Action Management (GTD)]]"]
 review_interval: 0
 see_also: []
 source_of_truth: false
 status: archived
-tags: [action, adhd, execution, gtd, prodos]
+tags: [action, execution, gtd, prodos, topic/health/adhd]
 title: MOC - Action Management
 type: map
 uid:

@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-25T13:52:47Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-25T13:53:01Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Use SSH Tunnel Method
-type: 
+type: ""
 uid: 
 updated: 
 ---

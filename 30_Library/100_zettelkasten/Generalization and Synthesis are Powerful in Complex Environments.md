@@ -1,20 +1,20 @@
 ---
-aliases: [Synthesis Power]
-confidence: 0.9
+aliases: ["Synthesis Power"]
+confidence: "0.9"
 created: 2025-11-01T12:30:12Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T10:08:40Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To highlight the power of synthesis in complex environments."
-review_interval: 90
-see_also: ['[[Generalists Have an Advantage in the Information Age]]']
-source_of_truth: ['[[MOC - Divergent Thinking vs Specialization]]']
-status: seedling
-tags: [complexity, generalization, synthesis]
+review_interval: "90"
+see_also: ["[[Generalists Have an Advantage in the Information Age]]"]
+source_of_truth: []
+status: "seedling"
+tags: ["complexity", "generalization", "synthesis"]
 title: Generalization and Synthesis are Powerful in Complex Environments
-type: concept
-uid: 2025-11-01T12:30:12Z
-updated: 2025-11-01T12:30:12Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Generalization and Synthesis Are Powerful in Complex Environments

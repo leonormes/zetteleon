@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-22T17:43:30Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/health/adhd]
+status: ""
+tags: ["topic/health/adhd"]
 title: Distorted Negative Self-Image
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 For individuals with ADHD, an inability to accurately observe their own performance, coupled with heightened sensitivity to perceived criticism and a history of underachievement, often leads to a "distorted negative self-image".

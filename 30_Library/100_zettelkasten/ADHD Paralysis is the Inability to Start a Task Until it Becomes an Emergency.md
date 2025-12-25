@@ -1,19 +1,19 @@
 ---
-aliases: [ADHD Paralysis]
-confidence: 
+aliases: ["ADHD Paralysis"]
+confidence: "null"
 created: 2025-10-29T16:38:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-11-16T20:27:12Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source: "[[MOC - The Phases of Task Execution and the Impact of ADHD]]"
 source_of_truth: []
-status: seedling
-tags: [executive_function, task_initiation, topic/health/adhd]
+status: "seedling"
+tags: ["executive_function", "task_initiation", "topic/health/adhd"]
 title: ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

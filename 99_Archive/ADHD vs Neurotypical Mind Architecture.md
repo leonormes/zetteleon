@@ -6,7 +6,7 @@ created: 2025-12-14T00:00:00Z
 description: "Created with Gemini"
 epistemic: 
 last_reviewed: 
-modified: 2025-12-14T18:37:55Z
+modified: 2025-12-25T11:40:20+00:00
 published:
 purpose: 
 review_interval: 
@@ -25,7 +25,7 @@ I have ADHD and executive function difficulties. As I have always had this exper
 
 To conceptualise the difference between an ADHD mind and a neurotypical (NT) mind, it is most efficient to use an **Information Processing & Systems Architecture** framework.
 
-The fundamental distinction is not a lack of capacity, but a difference in the **Operating System's resource management** —specifically in priority queuing, signal gating, and activation energy.
+The fundamental distinction is not a lack of capacity, but a difference in the **Operating System's resource management**—specifically in priority queuing, signal gating, and activation energy.
 
 Here is the comparative architecture.
 

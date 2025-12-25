@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-24T15:15:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:27Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [container, linux, namespace, topic/technology/networking, type/mechanism, veth]
+status: "null"
+tags: ["container", "linux", "namespace", "topic/technology/networking", "veth"]
 title: How a veth pair connects two network namespaces
-type: Mechanism
+type: "Mechanism"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 **Links:**
@@ -94,10 +94,10 @@ ip -n pod-blue link set lo up
 
 ### Key Characteristics
 
-**Speed**: No actual network traversal—just kernel memory copy  
-**Directionality**: Fully bidirectional (duplex)  
-**Layer**: Operates at Layer 2 (Ethernet frames)  
-**Isolation**: Each namespace sees only its end of the pair  
+**Speed**: No actual network traversal—just kernel memory copy
+**Directionality**: Fully bidirectional (duplex)
+**Layer**: Operates at Layer 2 (Ethernet frames)
+**Isolation**: Each namespace sees only its end of the pair
 **Discovery**: Ends can be identified using `ethtool -S veth-red` (shows peer index)
 
 ### Debugging Commands

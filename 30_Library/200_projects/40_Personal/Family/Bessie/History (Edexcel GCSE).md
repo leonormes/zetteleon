@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-20T20:06:37Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:29Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: History (Edexcel GCSE)
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 - Curriculum Content: Typically includes a Thematic Study (e.g., 'Crime & Punishment c-present' including 'Whitechapel c-1900'), a British Depth Study (e.g., 'Early Elizabethan England'), a Period Study (e.g., 'Superpower relations and The Cold War'), and a Modern Depth Study (e.g., 'Weimar and Nazi Germany'). It develops skills in analyzing historical sources, understanding interpretations, and constructing arguments.

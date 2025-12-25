@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T08:00:08Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [emotional_regulation, mindset, topic/health/adhd, topic/psychology]
+status: "null"
+tags: ["emotional_regulation", "mindset", "topic/health/adhd", "topic/psychology"]
 title: ADHD Mindset and Emotional Regulation Strategies
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Mindset and emotional regulation are crucial for managing ADHD, as challenges with executive function are often intertwined with emotional responses like frustration, shame, and anxiety. These strategies complement [[ADHD Behavioral Strategies for Productivity]].

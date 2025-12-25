@@ -1,31 +1,23 @@
 ---
-aliases: [Eudaimonia, The Psychology of Duty, Values-Based Living]
-confidence: 5/5
-created: 2025-12-14T15:00:00Z
-epistemic: theory
-last_reviewed: 2025-12-14
-modified: 2025-12-20T09:54:06Z
-purpose: To define the psychological and neurobiological experience of living by values (Eudaimonia) versus living by impulse (Hedonia), and to provide a framework for constructing a self based on duty.
-review_interval: 6 months
+aliases: ["Eudaimonia", "The Psychology of Duty", "Values-Based Living"]
+confidence: "5/5"
+created: 2025-12-14T00:00:00Z
+epistemic: "theory"
+last_reviewed: "2025-12-14"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "To define the psychological and neurobiological experience of living by values (Eudaimonia) versus living by impulse (Hedonia), and to provide a framework for constructing a self based on duty."
+review_interval: "6 months"
 see_also: ["[[Integrity Means Acting in Accordance With Chosen Values]]", "[[SoT - ADHD and Motivation]]", "[[SoT - Wabi-Sabi]]", "[[The Self is Constructed Through a Commitment to Chosen Values]]"]
-source_of_truth: true
-status: stable
-tags: [adhd, eudaimonia, philosophy, psychology, values]
+source_of_truth: []
+status: "stable"
+tags: ["eudaimonia", "philosophy", "topic/health/adhd", "topic/psychology", "values"]
 title: SoT - Values and Eudaimonia
-type: SoT
-uid: 2025-12-14-VALUES
+type: "SoT"
+uid: 
 updated: 
-version: 1
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Eudaimonia** (human flourishing) is the distinct form of well-being that arises from acting in alignment with deeply held values and meaningful duties, rather than the pursuit of momentary pleasure (**Hedonia**). (Source: *Deep Dive* podcast episode).
->
-> For the neurodivergent individual, the transition to Eudaimonia involves shifting from an **Intensity-Based** emotional model (seeking the "High") to a **Resonance-Based** emotional model (seeking "Alignment" and "Safety").
-
----
+> **Eudaimonia** (human flourishing) is the distinct form of well-being that arises from acting in alignment with deeply held values and meaningful duties, rather than the pursuit of momentary pleasure (**Hedonia**). (Source: "*Deep Dive* podcast episode)."
 
 ## 2. The Phenomenology of Duty: What Does It Feel Like
 
@@ -34,7 +26,7 @@ You ask: *"What does it feel like to live a life guided by duty rather than imme
 The experience is fundamentally different in **Texture** and **Duration**.
 
 | Feature | Hedonic Experience (Impulse) | Eudaimonic Experience (Duty) |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Sensation** | **Intensity.** A spike of excitement, agitation, or relief. It is "Loud." | **Resonance.** A low hum of "rightness" or solidity. It is "Quiet." |
 | **Duration** | **Phasic (Short).** It peaks quickly and crashes (The "Post-Dopamine Dip"). | **Tonic (Long).** It is cumulative and stabilizing. It does not crash. |
 | **Aftertaste** | **Empty.** Often leaves a craving for more (The "Hungry Ghost"). | **Full.** Leaves a sense of Satiety and Integrity. |
@@ -64,7 +56,7 @@ You ask: *"Is it a fundamentally different type of reward?"*
 
 ## 4. Constructing the Self
 
-> *"The self is not a pre-existing entity to be found, but an act of construction built upon a commitment to consciously chosen values."* — [[The Self is Constructed Through a Commitment to Chosen Values]]
+> *"The self is not a pre-existing entity to be found, but an act of construction built upon a commitment to consciously chosen values."*—[[The Self is Constructed Through a Commitment to Chosen Values]]
 
 For someone with ADHD, "following your feelings" is a trap, because your feelings are often just biochemical noise (dopamine craving).
 

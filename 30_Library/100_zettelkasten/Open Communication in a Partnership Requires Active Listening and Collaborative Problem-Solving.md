@@ -1,20 +1,20 @@
 ---
-aliases: [Open Communication in a Relationship]
-confidence: 0.9
+aliases: ["Open Communication in a Relationship"]
+confidence: "0.9"
 created: 2025-11-10T10:02:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T08:52:40Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To define the key behaviors of open communication in a partnership."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Healthy Relationship Expectations and Needs]]"]
-status: seedling
-tags: [communication, conflict-resolution, relationship]
+source_of_truth: []
+status: "seedling"
+tags: ["communication", "conflict-resolution", "relationship"]
 title: Open Communication in a Partnership Requires Active Listening and Collaborative Problem-Solving
-type: concept
-uid: 2025-11-10T10:02:00Z
-updated: 2025-11-10T10:02:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Open Communication in a Partnership Requires Active Listening and Collaborative Problem-Solving

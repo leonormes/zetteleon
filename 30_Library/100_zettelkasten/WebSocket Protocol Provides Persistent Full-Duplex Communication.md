@@ -1,20 +1,20 @@
 ---
 aliases: ["WebSocket protocol", "WebSocket"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T13:44:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:59Z
+epistemic: "fact"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "Explain WebSocket protocol and its relationship to TCP sockets."
-review_interval: 90
+review_interval: "90"
 see_also: ["Stream Sockets Provide Reliable Ordered TCP Communication.md", "WebSocket Use Cases for Real-Time Applications.md"]
 source_of_truth: []
-status: seedling
-tags: [networking, protocol, real-time, websocket]
+status: "seedling"
+tags: ["protocol", "real-time", "topic/technology/networking", "websocket"]
 title: WebSocket Protocol Provides Persistent Full-Duplex Communication
-type: concept
-uid: 2025-10-31T13:44:00Z
-updated: 2025-10-31T13:44:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## WebSocket Protocol Provides Persistent Full-Duplex Communication

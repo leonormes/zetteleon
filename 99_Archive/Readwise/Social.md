@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T15:49:32Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-12T16:07:53Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,11 +22,13 @@ updated:
 ![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/41ydHdEAlRL._SL200_.jpg)
 
 ### Metadata
+
 - Author: [[Matthew D. Lieberman]]
 - Full Title: Social
 - Category: #books
 
 ### Highlights
+
 - We have already discussed at length the reasons why mammals, and particularly humans, need to feel social separation as painful. It keeps infants and caregivers close together. That may have been the reason evolution gave us social pain, but now we are stuck with it our entire lives, and it colors almost every social experience we have. ([Location 958](https://readwise.io/to_kindle?action=open&asin=B00FWPOOUU&location=958))
 - Evolution built us to desire and work to secure positive social regard. Why are we built this way? One possible explanation is that when humans, or other mammals, get together, work together, and care for one another, everyone wins. Given that other living creatures are the most complex and potentially dangerous things in our environment, a push from nature to connect with others in our species, an urge to please one another, increases our chances of reaping the benefits of group-based living. ([Location 1130](https://readwise.io/to_kindle?action=open&asin=B00FWPOOUU&location=1130))
     - Tags: [[team]] [[favorite]]
@@ -46,7 +48,9 @@ updated:
 - Jorge Moll and his colleagues at the National Institutes of Health ran an fMRI study looking at the activity in the brain when we’re giving to charity. Individuals in the scanner were asked to make a series of decisions that involved financial outcomes for themselves and for a charitable organization (different decisions involved different charities). On some trials, individuals were asked whether they would agree to receive $5 for themselves with no consequences for any charity. Not surprisingly, individuals were very quick to accept this kind of reward. On other trials, individuals were asked if they were willing to give up some of their winnings (for example, lose $2) so that a charity would receive $5. Amazingly, as a group, the individuals in this study showed even greater activity throughout the reward regions of the brain when they made the choice to give away some of their own money to help others, compared to when they received money with no strings attached. Our supposedly selfish reward system seems to like giving more than receiving. ([Location 1272](https://readwise.io/to_kindle?action=open&asin=B00FWPOOUU&location=1272))
 - Eva Telzer, Andrew Fuligni, and I replicated this finding with what you might expect to be some of the most selfish people on the planet: teenagers. Instead of mentioning a charity, we asked teenagers to make costly donations to their own families. We told the teenagers, as well as their parents, that as a precondition of being in the study, any money given to the family must not be spent on the teenager who donated it. The majority of these teenagers reported taking pleasure in helping their families in daily life; they also showed increased reward system activity when donating their money to their families. ([Location 1280](https://readwise.io/to_kindle?action=open&asin=B00FWPOOUU&location=1280))
 - On these trials, providing support through physical contact when the girlfriends knew their boyfriends were likely distressed was more rewarding than touching their boyfriends when no support was needed. Providing social support, even when doing so puts us in closer contact with someone else’s distress, is reinforced in our brains. ([Location 1290](https://readwise.io/to_kindle?action=open&asin=B00FWPOOUU&location=1290))
+
 #### Why Are Social Rewards Rewarding
+
 - As we’ve seen, there are two kinds of social rewards—the social rewards we receive when others let us know they like, respect, or care for us and the social rewards we receive when we care for or treat others well. ([Location 1307](https://readwise.io/to_kindle?action=open&asin=B00FWPOOUU&location=1307))
 - It is no accident that this parallels the two sides of the mother-infant relationship. Having strangers tell us they like us is pleasurable, in part, because we humans have generalized the positive feelings of being cared for by our mothers. Many mammalian species have shown opioid-linked pleasure responses in the brain while being groomed by their mother or peers. But in humans most of our grooming is verbal rather than physical. When others spend time verbally grooming us, it is a sign that we are safe and cared for. And given our long period of immaturity, this is an incredibly reinforcing signal to receive. ([Location 1308](https://readwise.io/to_kindle?action=open&asin=B00FWPOOUU&location=1308))
 - Mammals are thus in a bit of a bind because, on the one hand, their offspring are strangers that we are built to avoid, and on the other hand, caring for our young is essential for their survival. Oxytocin appears to alter the dopaminergic response of mammals to their own infants, tipping the balance from avoidance to approach. ([Location 1328](https://readwise.io/to_kindle?action=open&asin=B00FWPOOUU&location=1328))

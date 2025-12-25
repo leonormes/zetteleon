@@ -1,23 +1,23 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:56Z
-dependencies: 
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:45Z
-name: cicd_minimal_permissions
-purpose: 
-review_interval: 
+dependencies: ""
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+name: "cicd_minimal_permissions"
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [cli, gitops]
+status: ""
+tags: ["cli", "gitops"]
 title: cicd_minimal_permissions
-type: security_configuration
+type: "security_configuration"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Minimal IAM Permissions for GitOps Infrastructure Deployment

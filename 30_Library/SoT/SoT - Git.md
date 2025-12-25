@@ -1,30 +1,20 @@
 ---
-aliases: [Distributed Version Control, Git, Version Control System]
-confidence: 5/5
+aliases: ["Distributed Version Control", "Git", "Version Control System"]
+confidence: "5/5"
 created: 2025-12-13T00:00:00Z
-epistemic: 
-last-synthesis: 2025-12-13
-last_reviewed: 2025-12-13
-modified: 2025-12-13T13:30:38Z
-purpose: To define Git as the foundational distributed version control system, detailing its data model, core concepts, essential workflows, and security principles for robust software configuration management.
-related-soTs: ["[[SoT - Software Configuration Management Patterns]]"]
-resonance-score: 
-review_interval: 6 months
-see_also: []
-source_of_truth: true
-status: stable
+epistemic: ""
+last_reviewed: "2025-12-13"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define Git as the foundational distributed version control system, detailing its data model, core concepts, essential workflows, and security principles for robust software configuration management."
+review_interval: "6 months"
+see_also: ["[[SoT - Software Configuration Management Patterns]]"]
+source_of_truth: []
+status: "stable"
 tags: ["devops", "git", "scm", "version_control"]
 title: SoT - Git
-type: SoT
+type: "SoT"
 uid: 
 updated: 
----
-
-## 1. Definitive Statement
-
-> [!definition] Git
-> Git is a **distributed version control system (DVCS)** that tracks changes in source code during software development. It emphasizes speed, data integrity, and support for distributed, non-linear workflows by treating its history as a **Directed Acyclic Graph (DAG) of immutable snapshots**.
-
 ---
 
 ## 2. Working Knowledge (Core Concepts)

@@ -1,20 +1,18 @@
 ---
 aliases: []
-confidence: 5/5
+confidence: "5/5"
 created: 2025-12-17T00:00:00Z
-epistemic: 
-last_reviewed: 2025-12-17
-modified: 2025-12-20T09:54:09Z
-purpose: To explain how an organization's communication structure inevitably shapes the technical systems it produces.
-related-soTs: ["[[MOC - Socio-Technical Dissonance]]"]
-review_interval: 
-see_also: []
-source: https://gemini.google.com/share/7368b72e8f22
-source_of_truth: true
-status: stable
-tags: [architecture, conways-law, organizational-structure, systems-design]
+epistemic: ""
+last_reviewed: "2025-12-17"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "To explain how an organization's communication structure inevitably shapes the technical systems it produces."
+review_interval: "3 months"
+see_also: ["[[MOC - Socio-Technical Dissonance]]"]
+source_of_truth: []
+status: "stable"
+tags: ["architecture", "conways-law", "organizational-structure", "systems-design"]
 title: SoT - Conways Law and Structural Mismatch
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---

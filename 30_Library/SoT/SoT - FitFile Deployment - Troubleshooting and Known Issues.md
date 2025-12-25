@@ -1,21 +1,20 @@
 ---
-aliases: [FitFile Deployment Troubleshooting]
-confidence: 5/5
-created: 2025-12-21T12:00:00Z
-epistemic: process
-last_reviewed: 2025-12-21
-modified: 2025-12-21T14:57:22Z
-purpose: To provide a detailed guide of troubleshooting and known issues for the FitFile deployment process.
-review_interval: 3 months
+aliases: ["FitFile Deployment Troubleshooting"]
+confidence: "5/5"
+created: 2025-12-21T00:00:00Z
+epistemic: "process"
+last_reviewed: "2025-12-21"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To provide a detailed guide of troubleshooting and known issues for the FitFile deployment process."
+review_interval: "3 months"
 see_also: ["[[MOC - FitFile Deployment]]", "[[SoT - FITFILE Platform Deployment]]"]
-source_of_truth: true
-status: stable
-tags: [ff_deploy, known_issues, troubleshooting]
+source_of_truth: []
+status: "stable"
+tags: ["ff_deploy", "known_issues", "troubleshooting"]
 title: SoT - FitFile Deployment - Troubleshooting and Known Issues
-type: SoT
+type: "SoT"
 uid: 
 updated: 
-version: 1.0
 ---
 
 ## Troubleshooting & Known Issues
@@ -26,5 +25,5 @@ version: 1.0
 - **Azure Errors:** [[Errors Encountered During Azure Deployment]]
 - **Azure Backup Errors:** [[SoT - Azure Backup and Restore]]
 - **General Fixes:** [[Fitfile deployment fixes]]
-- **Connectivity:** [[from the linux jumpbox inside the vpc how do I deb]]
+- **Connectivity:** [[Debugging Internet Connectivity Issues from a Linux Jumpbox in AWS VPC]]
 - **Node.js:** [[Why Node Not Work]]

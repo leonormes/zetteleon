@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-05T06:22:44Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [empathy, mirror-neurons, neuroscience, social-cognition]
+status: ""
+tags: ["empathy", "mirror-neurons", "neuroscience", "social-cognition"]
 title: Mirror Neuron System Enables Model Sharing
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 The mirror neuron system is a crucial biological mechanism that allows humans to share models of action and intention despite the private nature of mental models. These remarkable brain cells fire both when you perform an action and when you observe someone else performing that same action.

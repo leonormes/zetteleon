@@ -1,20 +1,20 @@
 ---
-aliases: [cidrsubnet]
-confidence: 1.0
+aliases: ["cidrsubnet"]
+confidence: "1.0"
 created: 2025-11-22T15:05:00Z
-epistemic: fact
-last_reviewed: 2025-11-22
-modified: 2025-11-22T14:50:43Z
+epistemic: "fact"
+last_reviewed: "2025-11-22"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Defines the Terraform function for calculating subnets."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [HCL, networking, terraform]
+status: "seedling"
+tags: ["HCL", "terraform", "topic/technology/networking"]
 title: Concept - Terraform cidrsubnet Function
-type: concept
-uid: 2025-11-22T15:05:00Z
-updated: 2025-11-22T15:05:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Terraform Cidrsubnet Function

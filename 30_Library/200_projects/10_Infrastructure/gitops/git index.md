@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-20T07:24:49Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:51Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [git]
+status: ""
+tags: ["git"]
 title: git index
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 Unfortunately, `git ls-files --stage` by itself doesn't directly emphasize or highlight the *changes* within `file1`. It will show that `file1` is in the index and its current blob hash, but it won't show you the diff between the previous version and the staged version.
@@ -122,7 +122,7 @@ Alright, let's look at the Git staging area, working directory, and commits from
 - Data Staging:
   - When you use git add, Git:
     - Reads the data from the specified file in the working directory.
-    - Creates a blob object in the .git/objects directory, representing the file's content.
+    - Creates a blob object in the.git/objects directory, representing the file's content.
     - Updates the index to point to this new blob object.
   - Essentially the index stores the hash of the data.
 - Data Snapshot Preparation:
@@ -132,7 +132,7 @@ Alright, let's look at the Git staging area, working directory, and commits from
 
 - Data Representation:
   - A commit is a permanent snapshot of your project's data at a specific point in time.
-  - It's represented as a commit object in the .git/objects directory.
+  - It's represented as a commit object in the.git/objects directory.
   - The commit object contains:
     - Metadata (author, date, message).
     - A reference to a tree object.
@@ -161,7 +161,7 @@ Why git add Updates the Index:
   - The index is the "staging area" where you prepare the snapshot of your project's data that will be committed.
   - git add is the command that tells Git, "I want to include these changes in the next snapshot."
 - Creating Blob Objects:
-  - When you git add a file, Git reads the file's content and creates a blob object in the .git/objects directory.
+  - When you git add a file, Git reads the file's content and creates a blob object in the.git/objects directory.
   - The blob object represents the file's content as a sequence of bytes.
 - Updating Index References:
   - The index is updated to point to the new blob object.
@@ -172,7 +172,7 @@ Why git add Updates the Index:
   - You can add some files, but not others, or add specific changes within a file.
 What git commit Does:
 - Creating a Commit Object:
-  - git commit creates a new commit object in the .git/objects directory.
+  - git commit creates a new commit object in the.git/objects directory.
   - The commit object represents a snapshot of the current state of the index.
 - Creating a Tree Object:
   - Git creates a tree object that represents the directory structure and file content of the staged changes.

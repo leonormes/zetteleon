@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-20T13:06:13Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [project/family/bessie]
+status: ""
+tags: ["project/family/bessie"]
 title: Implementation of IEP Strategies (Support & Accommodations)
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 4. Do your teachers give you extra time to think about answers or to complete tasks, especially big ones? Do they break down large tasks into smaller, more manageable parts for you? [6, 7]

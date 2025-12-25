@@ -1,35 +1,20 @@
 ---
-aliases: [Code Duplication, DRY Principle, Refactoring Duplication, Types of Duplication]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-12T17:30:00Z
-epistemic: technical
-last-synthesis: 2025-12-12
-last_reviewed: 2025-12-12
-modified: 2025-12-20T09:54:09Z
-purpose: Canonical definition and analysis of code duplication, its types, and the principles of refactoring to improve software design.
-quality-markers: []
-related-soTs: ["[[SoT - Atomicity and Loose Coupling]]", "[[SoT - Information Hiding (Parnas)]]"]
-resonance-score: 9
-review_interval: 1 year
-see_also: ["[[MOC - Software Architecture Principles]]", "[[SoT - The Functional Anatomy of a Computer]]"]
-source_of_truth: true
-status: stable
-supersedes: ["[[kent beck lists multiple types of duplication that]]"]
-tags: [code-quality, design-principles, refactoring, software-engineering, sot]
+aliases: []
+confidence: "5/5"
+created: 2025-12-12T00:00:00Z
+epistemic: "technical"
+last_reviewed: "2025-12-12"
+modified: 2025-12-25T11:40:22+00:00
+purpose: ">-"
+review_interval: "1 year"
+see_also: []
+source_of_truth: []
+status: "stable"
+tags: []
 title: SoT - Code Duplication and Refactoring
-type: SoT
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Code Duplication
-> **Code Duplication** refers to the presence of identical or very similar code segments in multiple places within a software system. While sometimes seemingly harmless, it is a primary indicator of poor design, leading to increased maintenance costs, reduced flexibility, and a higher probability of introducing bugs.
->
-> **Refactoring** duplication is the process of restructuring code to eliminate these redundancies, thereby improving code clarity, maintainability, and overall design quality.
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. Kent Beck's Types of Duplication

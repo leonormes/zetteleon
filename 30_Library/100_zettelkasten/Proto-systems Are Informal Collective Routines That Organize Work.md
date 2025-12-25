@@ -1,20 +1,20 @@
 ---
-aliases: [Proto-systems]
-confidence: 0.9
+aliases: ["Proto-systems"]
+confidence: "0.9"
 created: 2025-11-10T13:05:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T13:28:09Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To define the concept of proto-systems."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Proto-systems Function Through Social Accountability and Implicit Learning]]"]
-source_of_truth: ["[[MOC - Productivity Systems vs Historical Achievement]]"]
-status: seedling
-tags: [culture, history, productivity, sociology, systems]
+source_of_truth: []
+status: "seedling"
+tags: ["culture", "history", "sociology", "topic/productivity", "topic/systems"]
 title: Proto-systems Are Informal Collective Routines That Organize Work
-type: concept
-uid: 2025-11-10T13:05:00Z
-updated: 2025-11-10T13:05:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Proto-systems Are Informal Collective Routines That Organize Work

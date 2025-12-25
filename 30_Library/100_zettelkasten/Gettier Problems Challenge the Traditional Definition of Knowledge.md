@@ -1,20 +1,20 @@
 ---
-aliases: [Gettier Problem]
-confidence: 0.9
+aliases: ["Gettier Problem"]
+confidence: "0.9"
 created: 2025-11-01T12:10:07Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:55:39Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To explain the Gettier problem's impact on epistemology."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[The Traditional Definition of Knowledge is Justified True Belief]]"]
-source_of_truth: ["[[MOC - From Information to Knowledge]]"]
-status: seedling
-tags: [epistemology, knowledge, philosophy]
+source_of_truth: []
+status: "seedling"
+tags: ["epistemology", "knowledge", "philosophy"]
 title: Gettier Problems Challenge the Traditional Definition of Knowledge
-type: concept
-uid: 2025-11-01T12:10:07Z
-updated: 2025-11-01T12:10:07Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Gettier Problems Challenge the Traditional Definition of Knowledge

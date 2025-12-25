@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-10T15:44:28Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [IAM]
+status: ""
+tags: ["IAM"]
 title: In Azure what are the best practises for setting up a Secure Tenant
-type: plan
+type: "plan"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 In Azure what Are the Best Practises for Setting up a Secure Tenant? I want to Have the Least Privilege Access with the Most Secure way of Guarding the Root Access. I Imagine there Has to Be a Root Identity, but This Should Be Locked away to Use only in Emergencies. How Do I Protect the Root Access and the Rules to Change User Privileges? I want a Zero Trust Approach that Does not Rely on a Person to Keep it Safe
@@ -141,7 +141,7 @@ steps:
   - Enforce Azure AD Conditional Access policies:
 
 | Condition | Requirement |
-| :-- | :-- |
+|:-- |:-- |
 | Role activation | Azure AD joined device + IP allowlisting |
 | New location | Secondary MFA verification |
 

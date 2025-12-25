@@ -1,25 +1,20 @@
 ---
 aliases: ["Distributivity in Types", "Set Theory in TypeScript", "Type-Level Programming", "TypeScript Proof Engine"]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-18T13:00:00Z
-decay-signals: []
-epistemic: authoritative
-last_reviewed: 2025-12-18
-modified: 2025-12-19T09:13:06Z
-purpose: Defines the architectural mental model of TypeScript as a Proof Engine operating on Set Theory, specifically addressing the distributivity trap.
-quality-markers: ["Synthesized from 'Programming or Proof' analysis"]
-related-soTs: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]
-resonance-score: 9
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
+confidence: "5/5"
+created: 2025-12-18T00:00:00Z
+epistemic: "authoritative"
+last_reviewed: "2025-12-18"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "Defines the architectural mental model of TypeScript as a Proof Engine operating on Set Theory, specifically addressing the distributivity trap."
+review_interval: "1 year"
+see_also: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]
+source_of_truth: []
+status: "stable"
 tags: ["architecture", "formal_verification", "set_theory", "type_theory", "typescript"]
 title: SoT - TypeScript as a Proof Engine (Set Theory and Distributivity)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Working Knowledge (Stable Foundation)
@@ -64,7 +59,7 @@ The type system is a functional programming language where types are the data:
 
 ### The Execution Model: The Proof Engine
 
-When you write `type F<T> = ...`, you are defining a logical proposition.
+When you write `type F<T> =...`, you are defining a logical proposition.
 
 - **Distributivity (The Map):** If `T` is a union (`A | B`), the compiler distributes the operation: `F<A> | F<B>`. This is often counter-intuitive to programmers expecting function-like behavior.
 - **The Fix (Boxing):** To disable distributivity, wrap the types in tuples: `[T] extends [U]`. This forces the compiler to treat the union as a single, atomic set (a specific data structure) rather than a list of possibilities.

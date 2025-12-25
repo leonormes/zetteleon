@@ -1,26 +1,26 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-26T07:58:18Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [pki, security]
+status: ""
+tags: ["pki", "security"]
 title: pki cert trust
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## PKI and Network Traffic: A Data-Centric View
 
-Public Key Infrastructure (PKI) isn't a single technology but rather a framework – a combination of policies, roles, hardware, software, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption.
+Public Key Infrastructure (PKI) isn't a single technology but rather a framework–a combination of policies, roles, hardware, software, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption.
 
 From a data-centric perspective, PKI's primary goals when applied to network traffic are:
 
@@ -129,7 +129,7 @@ A server doesn't inherently have trust; it earns it by proving its identity to a
 - Certificate Installation: The server administrator receives the signed certificate data (and possibly intermediate certificate data) from the CA and installs it on the server.
 Now, when your browser connects, it receives this certificate data and can verify the CA's signature data because it already trusts the CA's public key (present in its root store). The trust flows from your browser's pre-configured trust in the CA to the server's certificate, based on the CA's verification work.
 Implications of a Compromised CA Chain
-You are absolutely correct – if a CA's private key is compromised, the implications are severe and far-reaching. This is the nightmare scenario for the PKI ecosystem.
+You are absolutely correct–if a CA's private key is compromised, the implications are severe and far-reaching. This is the nightmare scenario for the PKI ecosystem.
 - What happens? If an attacker obtains a CA's private signing key (especially a Root CA or a widely trusted Intermediate CA), they can issue fraudulent certificates for any domain they choose.
   - They could create certificate data for google.com, your-bank.com, microsoft.com, etc., containing their own public key but claiming the identity of the legitimate site.
   - Because this fraudulent certificate data is signed with a compromised but trusted CA private key, browsers and operating systems performing validation will see a valid signature and trust the certificate.
@@ -153,7 +153,7 @@ While the potential impact is huge, the ecosystem isn't entirely defenseless and
 Conclusion:
 Your intuition is correct that the reliance on CAs introduces a critical point of trust. A compromised CA is indeed a catastrophic event for the specific certificates involved and potentially for wider trust. However, the system isn't naively fragile. It's protected by layers of stringent security requirements for CAs, mandatory public auditing via Certificate Transparency, revocation mechanisms, and the oversight of browser vendors. It's a system built on verified trust, continuous monitoring, and swift consequences for failure, rather than blind faith. The introduction of CT, in particular, has significantly hardened the ecosystem against undetected CA compromise or mis-issuance by making the certificate issuance data publicly verifiable.
 
-Okay, let's delve into the practicalities and difficulties a bad actor would face trying to subvert the PKI trust system for malicious purposes. It's not a simple "yes" or "no" – the difficulty varies enormously depending on the attacker's goals, resources, and chosen method.
+Okay, let's delve into the practicalities and difficulties a bad actor would face trying to subvert the PKI trust system for malicious purposes. It's not a simple "yes" or "no"–the difficulty varies enormously depending on the attacker's goals, resources, and chosen method.
 
 Gaining Trust & Causing Damage: Difficulty and Methods
 

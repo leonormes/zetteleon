@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-05T10:05:40Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:09Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [argocd, automation, gitops, infrastructure, terraform]
+status: ""
+tags: ["argocd", "automation", "gitops", "infrastructure", "terraform"]
 title: ArgoCD Terraform Module Architecture
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Overview

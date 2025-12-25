@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-02T04:17:28Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: User Management
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 User management, within the broader context of identities such as users and groups, in Microsoft Entra ID is a comprehensive system designed to provide a single place for storing and managing digital identity information. It encompasses the entire lifecycle of identities, from creation and modification to access provisioning, security, and eventual removal. This system supports both human identities (users) and non-human identities (workload identities like applications, service principals, and managed identities).

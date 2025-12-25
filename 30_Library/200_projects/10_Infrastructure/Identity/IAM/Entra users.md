@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-02T04:03:05Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Entra users
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 At its core, managing permissions in Microsoft Entra ID revolves around three key components: **Users**, **Groups**, and **Roles/Permissions**, all interacting within the context of **Applications** and **Scopes**.

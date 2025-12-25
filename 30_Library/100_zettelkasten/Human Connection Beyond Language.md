@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-31T16:07:53Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [empathy, human-connection, nonverbal-communication, universal-emotions]
+status: ""
+tags: ["empathy", "human-connection", "nonverbal-communication", "universal-emotions"]
 title: Human Connection Beyond Language
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Despite linguistic and cultural differences, humans possess a remarkable ability to connect with others on a deeper level, transcending the limitations of language through shared experiences and non-verbal communication.

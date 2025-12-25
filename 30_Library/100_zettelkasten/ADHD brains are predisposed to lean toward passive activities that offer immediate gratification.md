@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-08-11T18:12:08Z
-epistemic:
-last_reviewed:
-modified: 2025-10-30T10:49:48Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [topic/health/adhd]
+status: "null"
+tags: ["topic/health/adhd"]
 title: ADHD brains are predisposed to lean toward passive activities that offer immediate gratification
-type:
-uid:
-updated:
-version:
+type: "null"
+uid: 
+updated: 
+version: "null"
 ---
 
 The statement "Research consistently shows that ADHD brains are predisposed to lean toward passive, low-risk activities that offer immediate gratification" is partially supported by the sources, specifically concerning "passive activities" and "immediate gratification." However, the claim about "low-risk activities" is not supported; in fact, the sources suggest the opposite for ADHD brains.

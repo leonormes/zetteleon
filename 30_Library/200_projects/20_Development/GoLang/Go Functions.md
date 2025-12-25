@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-19T10:57:06Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:24Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Go Functions
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 I'll explain this Go function step by step, focusing on the syntax and concepts that might be new to you!
@@ -66,7 +66,7 @@ result.UpstreamVersion = upstreamVersion
 
 - **Multiple return values**: [getUpstreamChartVersion](cci:1://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Tools/chart-manager/internal/appservice/application_service.go:153:0-162:1) returns `(string, error)`
 - **Error handling pattern**: In Go, functions return an error as the last value
-- `if err != nil` - standard Go error checking pattern
+- `if err!= nil` - standard Go error checking pattern
 - `fmt.Errorf` - creates a formatted error message
 - `%w` - wraps the original error (Go 1.13+ feature)
 - **Early return**: If there's an error, return immediately

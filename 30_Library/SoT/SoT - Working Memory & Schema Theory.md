@@ -1,36 +1,20 @@
 ---
-aliases: [Cognitive Load in Programming, Schema Theory, WM Bottleneck, WM Components, Working Memory]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-07T13:00:00Z
-decay-signals: []
-epistemic: theory
-last-synthesis: 2025-12-07
-last_reviewed: 2025-12-07
-modified: 2025-12-20T09:54:06Z
-purpose: "To define Working Memory as the critical bottleneck in learning and complex tasks (especially programming) and to establish Schema Theory as the mechanism of expertise."
-quality-markers: ["Defines WM components (Phonological, Visuospatial, Executive).", "Explains the Schema Theory mechanism of expertise.", "Identifies Programming as a high-load domain.", "Provides strategies for WM mitigation."]
-related-soTs: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Learning Mechanisms]]", "[[SoT - The Extended Mind]]"]
-resonance-score: 10
+aliases: ["Cognitive Load", "Expertise", "Schema Theory", "Working Memory"]
+confidence: "5/5"
+created: 2025-12-07T00:00:00Z
+epistemic: "theory"
+last_reviewed: "2025-12-24"
+modified: 2025-12-25T18:34:53Z
+purpose: "To define the mechanisms of working memory and schema theory, and their specific impact on programming expertise and cognitive load management."
 review_interval: "12 months"
-see_also: ["[[Manage Working Memory Load In-session]]", "[[Working Memory Impairment in ADHD Increases Cognitive Load for Developers]]", "[[Working Memory Limitations in ADHD]]"]
-source_of_truth: true
-status: stable
-supersedes: ["[[Memory in learning]]"]
-tags: [cognition, cognitive_load, memory, neuroscience, programming, schema_theory, SoT]
+see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Extended Mind]]"]
+source_of_truth: []
+status: "stable"
+tags: ["learning", "neuroscience", "psychology", "topic/cognition"]
 title: SoT - Working Memory & Schema Theory
-type: SoT
+type: "SoT"
 uid: 
 updated: 
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Working Memory (WM)** is the brain's limited "RAM" or active workspace, capable of holding only ~3-7 items at once. It is the primary bottleneck for reasoning, learning, and programming.
->
-> **Expertise** is the bypass for this bottleneck. By encoding information into **Long-Term Memory (LTM)** as complex **Schemas**, experts can manipulate vast amounts of data as single "chunks," freeing up WM for higher-order problem solving.
-
 ---
 
 ## 2. Core Memory Systems
@@ -82,7 +66,7 @@ Neuroscience confirms that programming heavily engages the MD system (frontal/pa
 Since we cannot upgrade our biological RAM (especially with ADHD), we must optimize the software.
 
 | Strategy | Mechanism | Action |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Chunking** | Compresses data into schemas. | Use descriptive naming (`getUser` vs `func1`) and design patterns. |
 | **Externalization** | Offloads storage to the environment. | Draw diagrams (UML), write comments *before* code, use a whiteboard. |
 | **Incrementalism** | Reduces active variables. | **TDD (Test-Driven Development):** Solve one tiny problem at a time. |

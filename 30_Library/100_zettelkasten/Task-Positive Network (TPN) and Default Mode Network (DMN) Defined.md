@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-24T15:15:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [brain-networks, DMN, neuroscience, topic/health/adhd, TPN]
+status: "null"
+tags: ["brain-networks", "DMN", "neuroscience", "topic/health/adhd", "TPN"]
 title: Task-Positive Network (TPN) and Default Mode Network (DMN) Defined
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Neuroscience identifies two key brain networks that play a significant role in cognitive function:

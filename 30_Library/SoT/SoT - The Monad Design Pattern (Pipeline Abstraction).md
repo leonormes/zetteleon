@@ -1,23 +1,20 @@
 ---
-aliases: [Monad Pattern, Monads as Design Pattern, Pipeline Abstraction, The Railway Track Model]
-confidence: 5/5
-created: 2025-12-19T11:30:00Z
-epistemic: authoritative
-last_reviewed: 2025-12-19
-modified: 2025-12-19T09:42:16Z
-purpose: To define the Monad not as a mathematical abstraction, but as a software design pattern for decoupling business logic from control flow complexity (Pipeline Abstraction).
-quality-markers: [and A Byte of Code, Studying With Alex, Synthesized from Computerphile]
-related-soTs: ["[[SoT - Functional Effects (Effects as Data)]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]
-resonance-score: 8
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
-tags: [architecture, design_patterns, functional_programming, monads]
+aliases: ["Monad Pattern", "Monads as Design Pattern", "Pipeline Abstraction", "The Railway Track Model"]
+confidence: "5/5"
+created: 2025-12-19T00:00:00Z
+epistemic: "authoritative"
+last_reviewed: "2025-12-19"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "To define the Monad not as a mathematical abstraction, but as a software design pattern for decoupling business logic from control flow complexity (Pipeline Abstraction)."
+review_interval: "1 year"
+see_also: ["[[SoT - Functional Effects (Effects as Data)]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]
+source_of_truth: []
+status: "stable"
+tags: ["architecture", "design_patterns", "functional_programming", "monads"]
 title: SoT - The Monad Design Pattern (Pipeline Abstraction)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Definitive Statement
@@ -51,12 +48,12 @@ Execution alternates between two distinct worlds:
 
 ### B. The Single Point of Control
 
-By funneling all function applications through `bind`, you inject cross-cutting concerns (logging, error handling) in **one place** rather than scattering `if (x != null)` checks throughout the codebase.
+By funneling all function applications through `bind`, you inject cross-cutting concerns (logging, error handling) in **one place** rather than scattering `if (x!= null)` checks throughout the codebase.
 
 ## 4. Common Implementations & Architectural Gains
 
 | Monad | Context Handled | Abstraction Value |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Option / Maybe** | **Nullity / Failure** | Replaces defensive coding (guard clauses) with a pipeline that automatically short-circuits on failure. Prevents runtime NPEs. |
 | **Future / Promise** | **Latency / Time** | Encapsulates callback hell and scheduling. Allows operations on future values as if they were present. |
 | **Writer** | **Accumulation** | Hides the manual concatenation of logs/audit trails between function calls. |

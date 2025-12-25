@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-22T08:34:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-20T09:54:11Z
+modified: 2025-12-25T11:40:23+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -99,7 +99,7 @@ Cc: Project team
 >
 > Keiran has asked us to demonstrate The Hyve QA reports being uploaded to their S3, so we will test this first. This may require some pairing from both sides in case of needing to debug. Once this has been confirmed, we should be on track to meet the deadline.
 >
-> With regards to S3 configuration, I will ask Keiran what has been set up in our meeting tomorrow and get back to you. But yes, we should be supplying the credentials to your container – I’m not sure what has been agreed for this (environment variables or file mounts?).
+> With regards to S3 configuration, I will ask Keiran what has been set up in our meeting tomorrow and get back to you. But yes, we should be supplying the credentials to your container–I’m not sure what has been agreed for this (environment variables or file mounts?).
 >
 > Kind regards,
 > Ollie

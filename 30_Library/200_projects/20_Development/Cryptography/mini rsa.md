@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-17T12:31:05Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:24Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: mini rsa
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Of course. Let's build a complete, tiny RSA system using numbers small enough that you can see the results for yourself.

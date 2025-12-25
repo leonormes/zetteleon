@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T12:07:00Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Reframe discomfort as a growth indicator."
-review_interval: 90
+review_interval: "90"
 see_also: ["ADHD-Friendly Cleaning Strategies Focus on Cues and Transitions.md"]
 source_of_truth: []
-status: seedling
-tags: [productivity, psychology]
+status: "seedling"
+tags: ["topic/productivity", "topic/psychology"]
 title: Discomfort Signals Growth Potential
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

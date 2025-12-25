@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-20T06:57:36Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:50Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [git]
+status: ""
+tags: ["git"]
 title: dot_git folder
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 You've touched upon a very common point of confusion when learning Git! Let's break down how pushing and cloning work, and clarify what data is transferred.
@@ -29,7 +29,7 @@ You've touched upon a very common point of confusion when learning Git! Let's br
   - **Pack files:** Git uses "pack files" to efficiently transmit objects. These pack files bundle multiple objects together and use delta compression to reduce the overall size of the data being sent.
 - **Why not the whole `.git` folder?**
   - **Efficiency:** Sending the entire `.git` folder every time would be incredibly inefficient, especially for large repositories with extensive history.
-  - **Security:** There are some configurations and temporary files within the .git folder that are not intended to be shared.
+  - **Security:** There are some configurations and temporary files within the.git folder that are not intended to be shared.
   - **Redundancy:** The remote repository already has a history, so sending the entire history again is not needed.
 
 **Cloning a Repository:**

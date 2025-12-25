@@ -1,21 +1,21 @@
 ---
-aliases: [The Motion Paradox]
-confidence: 1
+aliases: ["The Motion Paradox"]
+confidence: "1"
 created: 2025-11-01T20:43:00Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:35:44Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To explain the paradoxical nature of motion in productivity."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]", "[[Motion Defined as Preparatory Activity Without Direct Outcomes]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Motion Can Be a Procrastination Delay Tactic.md"]
-status: evergreen
-tags: [mental-model, paradox, procrastination, productivity]
+source_of_truth: []
+status: "evergreen"
+tags: ["mental-model", "paradox", "procrastination", "topic/productivity"]
 title: The Paradox of Motion is Balancing Preparation and Action
-type: concept
-uid: 20251101204300
-updated: 2025-11-01T20:43:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 The relationship with motion is paradoxical. Some motion is not only necessary but highly valuable for effective action. The challenge lies in discerning useful motion from excessive motion.

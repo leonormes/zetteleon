@@ -1,21 +1,21 @@
 ---
-aliases: [Negativity Effect]
-confidence: 
+aliases: ["Negativity Effect"]
+confidence: ""
 created: 2025-10-28T09:00:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To explain why negative stimuli often have a greater psychological impact than positive ones."
-review_interval: 
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: evergreen
-tags: [cognitive-bias, evolution, psychology]
+status: "evergreen"
+tags: ["evolution", "topic/cognition/bias", "topic/psychology"]
 title: Negativity Bias
-type: concept
+type: "concept"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Our brains are wired to pay more attention to, and give more weight to, negative information and experiences than to positive ones.

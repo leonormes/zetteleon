@@ -1,21 +1,21 @@
 ---
-aliases: [Flawed Mental Models]
-confidence:
+aliases: ["Flawed Mental Models"]
+confidence: "null"
 created: 2025-08-29T15:12:41Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:38Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [topic/cognition, topic/cognition/mental-model, type/moc]
+status: "null"
+tags: ["topic/cognition", "topic/cognition/mental-model"]
 title: Flawed Mental Models Limit Mastery
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: "null"
 ---
 
 A mental model is a simplified internal representation of a complex external reality. We rely on these models to solve problems and make decisions.

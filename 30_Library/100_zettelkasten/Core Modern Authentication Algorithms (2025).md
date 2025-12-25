@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:30:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [algorithms, authentication, cloud-native, security, standards]
+status: ""
+tags: ["algorithms", "authentication", "cloud-native", "security", "standards"]
 title: Core Modern Authentication Algorithms (2025)
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Modern authentication in cloud-native environments (like AKS, EKS, Terraform Cloud) prioritizes **short-lived token exchanges, federated identity, and cryptographic trust** over static credentials. Key algorithms and standards include:

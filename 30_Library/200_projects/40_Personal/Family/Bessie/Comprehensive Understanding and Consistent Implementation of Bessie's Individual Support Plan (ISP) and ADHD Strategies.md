@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-21T10:08:44Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [project/family/bessie]
+status: ""
+tags: ["project/family/bessie"]
 title: "Comprehensive Understanding and Consistent Implementation of Bessie's Individual Support Plan (ISP) and ADHD Strategies"
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 - Failing Identified: Bessie's experience indicates inconsistent implementation of her ISP and ADHD strategies across teachers and subjects. There's a gap between the school's stated "quality first teaching and additional adaptations" and Bessie's lived reality. Her 2019 EP report recommended many strategies that align with her current ADHD diagnosis, yet she reports them not being consistently applied.

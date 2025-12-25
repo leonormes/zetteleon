@@ -1,33 +1,20 @@
 ---
-aliases: [Deforestation, Fusion, Stream Fusion]
-confidence: 4/5
-confidence-gaps: [build/foldr) are highly technical., The specific compiler transformations (e.g.]
-created: 2025-12-19T13:14:01Z
-decay-signals: []
-epistemic: concept
-last_reviewed: 2025-12-19
-modified: 2025-12-20T09:54:05Z
+aliases: ["Deforestation", "Fusion", "Stream Fusion"]
+confidence: "4/5"
+created: 2025-12-19T00:00:00Z
+epistemic: "concept"
+last_reviewed: "2025-12-19"
+modified: 2025-12-25T11:40:21+00:00
 purpose: "To define Function Fusion as a high-level, algebraic optimization technique that eliminates intermediate data structures."
-quality-markers: [Contrasts high-level fusion with low-level LLVM optimization., Provides a clear map/filter example]
-related-soTs: []
-resonance-score: 7
-review_interval: 24 months
+review_interval: "24 months"
 see_also: []
-source_of_truth: true
-status: stable
-supersedes: []
+source_of_truth: []
+status: "stable"
 tags: ["compilers", "functional-programming", "optimization"]
 title: SoT - Optimization via Function Fusion
-type: SoT
+type: "SoT"
 uid: 
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Function Fusion** (also known as *deforestation* or *stream fusion*) is a compile-time optimization technique used in functional programming that transforms a sequence of operations on a data structure into a single, unified operation. It eliminates the need to create and populate intermediate data structures, drastically reducing memory allocation and improving performance.
-
+updated: 
 ---
 
 ## 2. The Core Problem: The Waste of Intermediate Collections
@@ -41,7 +28,7 @@ Consider the operation: `numbers.map(x => x * 2).filter(x => x > 10)`
 2. `filter(x => x > 10)` runs. It iterates through the **intermediate list** and allocates a **second new list** to store the final filtered results.
 
 | Failure Mode | The Problem | The Fusion Solution |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Memory Bloat** | Each step in the chain allocates a full intermediate collection. For large datasets, this can lead to massive, temporary memory usage. | **No Intermediate Allocation:** Fusion combines the operations so that only a single, final collection is ever created. |
 | **Cache Inefficiency** | Iterating over multiple, separate collections one after another leads to poor data locality and frequent CPU cache misses. | **Single-Pass Processing:** The fused operation processes each element through the entire chain of logic in a single pass, maximizing data locality. |
 | **Redundant Iteration** | The program iterates N times for N operations in the chain, doing far more work than necessary. | **One Loop to Rule Them All:** The compiler rewrites the chain of high-level functions into a single, optimized `for` loop under the hood. |

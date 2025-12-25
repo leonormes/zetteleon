@@ -1,20 +1,20 @@
 ---
-aliases: [Contextual Knowledge]
-confidence: 0.9
+aliases: ["Contextual Knowledge"]
+confidence: "0.9"
 created: 2025-11-01T12:10:04Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:55:39Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To explain the importance of personal relevance in forming knowledge."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Contextual Relationships]]"]
-source_of_truth: ["[[MOC - From Information to Knowledge]]"]
-status: seedling
-tags: [context, knowledge, learning]
+source_of_truth: []
+status: "seedling"
+tags: ["context", "knowledge", "learning"]
 title: Personal Context and Relevance are Key to Knowledge Formation
-type: concept
-uid: 2025-11-01T12:10:04Z
-updated: 2025-11-01T12:10:04Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Personal Context and Relevance Are Key to Knowledge Formation

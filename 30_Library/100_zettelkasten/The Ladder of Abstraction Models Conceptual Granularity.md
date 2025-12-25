@@ -1,18 +1,18 @@
 ---
 aliases: ["Hayakawa's Ladder"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T11:21:00Z
-epistemic: model
-last_reviewed: 
-modified: 2025-12-04T20:51:51Z
+epistemic: "model"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Explain the ladder of abstraction concept."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [abstraction, cognition]
+status: "seedling"
+tags: ["abstraction", "topic/cognition"]
 title: The Ladder of Abstraction Models Conceptual Granularity
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

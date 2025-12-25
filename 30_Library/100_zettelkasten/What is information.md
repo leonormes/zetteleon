@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: 
-ID: 20a
-last_reviewed: 
-modified: 2025-10-29T19:28:55Z
-purpose: 
-review_interval: 
+epistemic: ""
+ID: "20a"
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [information]
+status: ""
+tags: ["information"]
 title: What is information
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Data that has been processed, organized, structured, or presented in a given context to make it meaningful and useful. Information answers the basic questions of "who," "what," "where," and "when." This definition treats information as a form of [[Information as Perceivable Pattern]].

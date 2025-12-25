@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-18T11:14:26Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [security]
+status: ""
+tags: ["security"]
 title: Questions to Challenge Assumptions about security
-type: question
+type: "question"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## Questions to Challenge Assumptions

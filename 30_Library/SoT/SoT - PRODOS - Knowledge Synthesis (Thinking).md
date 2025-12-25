@@ -1,30 +1,26 @@
 ---
-aliases: [ProdOS Thinking SoT, Synthesis Engine, The Thinking Protocol]
-confidence: 4/5
-created: 2025-12-08T00:00:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-20T09:54:07Z
-purpose: To define the function, structure, and purpose of 'Thinking' within the ProdOS architecture.
-related-soTs: ["[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS (System Architecture)]]"]
-review_interval: 3 months
-see_also: ["[[HEAD - The Purpose of Thinking]]"]
-source_of_truth: true
-status: stable
-tags: ["cognition", "prodos", "synthesis", "thinking"]
+aliases: ["Merge and Delete Ritual", "ProdOS Thinking SoT", "Synthesis Engine", "The Thinking Protocol"]
+confidence: "5/5"
+created: 2025-12-08T14:04:28Z
+epistemic: "strategy"
+last_reviewed: "2025-12-23"
+modified: 2025-12-25T18:34:55Z
+purpose: "To define the function, structure, and purpose of 'Thinking' within the ProdOS architecture."
+review_interval: "3 months"
+see_also: ["[[SoT - Action Management Framework]]", "[[SoT - PRODOS (System Architecture)]]"]
+source_of_truth: []
+status: "stable"
+tags: ["prodos", "synthesis", "thinking", "topic/cognition"]
 title: SoT - PRODOS - Knowledge Synthesis (Thinking)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
-## 1. Definition: What is Thinking
+## 1. Definition: "What is Thinking"
 
 In ProdOS, "Thinking" is defined biologically and functionally:
 
-> [!definition] The Simulation Engine
-> Thinking is the **offline simulation of action**. It is an evolutionary mechanism designed to **decouple** stimulus from response, creating a buffer where potential futures can be modeled, tested, and discarded without real-world consequences.
->
 > *Purpose:* **Entropy Minimisation.** To reduce uncertainty and surprise by predicting outcomes.
 
 ---
@@ -42,81 +38,67 @@ The human brain uses 20% of the body's energy to run these simulations. When thi
 
 ## 3. Externalizing the Mental Model: The Project Anchor Protocol
 
-To combat **Context Loss** and the "always start fresh" loop (see [[Breaking the Creation Cycle]]), ProdOS formalizes the act of creating "State Snapshots" at the end of each thinking session.
-
-**We do not use separate session files.** Instead, we maintain a persistent **Anchor** within the Project Note.
+To combat **Context Loss** and the "always start fresh" loop, ProdOS formalizes the act of creating "State Snapshots" at the end of each thinking session.
 
 ### The Project Anchor
 
-Every active project in `10_Actions/` has a **Project Note**. This note is the single "Hook" for your attention. It contains a dynamic `## Current State` block that is updated at the end of every work session.
+Every active project in `10_Actions/` has a **Project Note**. This note contains a dynamic `## Current State` block that is updated at the end of every work session.
 
 #### Key Elements at Stop-Time (The "Save Game" Ritual)
 
 When you finish a thinking session in a `HEAD` note, you must **Serialize State** by updating the Project Note's `## Current State` block with:
 
-- **Now:** What was just completed in concise, bulleted form. (e.g., "Implemented user authentication flow").
-- **Next:** The 1-3 *most concrete, smallest* steps for re-entry, each completable in <15 minutes. (e.g., "Run `npm test`," "Add basic validation to `login.html`").
-- **Why:** The current design intent, constraints, and trade-offs. This preserves the "bigger picture" for future-you.
-- **Critical Links:** Links to the `HEAD` note you just finished, PRs, docs, or specific file paths.
-
-*After updating the Project Note, the HEAD note is archived.*
-
-#### The Re-entry Ritual (≤ 10 minutes)
-
-1. **Read The Project Anchor:** Open the **Project Note** and read the `## Current State` block. This reloads the mental model instantly.
-2. **Warm Start:** Execute basic setup commands (e.g., `make dev && npm test`).
-3. **Execute Smallest Next Task:** Pick the top item from the "Next" list and execute it to build momentum.
+- **Now:** What was just completed in concise, bulleted form.
+- **Next:** The 1-3 *most concrete, smallest* steps for re-entry (MVAs).
+- **Why:** The current design intent, constraints, and trade-offs.
+- **Critical Links:** Links to the `HEAD` note, PRs, or specific file paths.
 
 ---
 
 ## 4. The Thinking Workflow (Refinement)
 
-To transform "Noise" (Anxiety) into "Signal" (Knowledge/Action), we use the **Refinement Loop**, which maps to the 5-Stage "Spark to Synthesis" protocol:
+To transform "Noise" (Anxiety) into "Signal" (Knowledge/Action), we use the **Refinement Loop**:
 
-1. **Capture (Generate):** Get the simulation out of the brain. Write raw, unfiltered text in a `HEAD` note to break the "Fear of the Blank Page." (See [[SoT - PRODOS (System Architecture)#A. HEAD Notes (The Workbench)|HEAD Note Definition]]).
-2. **Decouple (Clarify):** Rewrite the raw text. Strip emotion, identify the *Trigger* (Spark) and the underlying *Model* (Hypothesis).
-3. **Simulate (Understand):** Reflect on the model. What does this mean? What are the implications? (Manipulate the variables in the note, not the head).
-4. **Connect:** Link this new understanding to existing concepts. How does it fit into the network?
-5. **Resolve (Synthesize):**
+1. **Capture (Generate):** Get the simulation out of the brain. Write raw, unfiltered text in a `HEAD` note.
+2. **Decouple (Clarify):** Rewrite the raw text. Strip emotion, identify the underlying *Model* (Hypothesis).
+3. **Simulate (Understand):** Reflect on the model. Manipulate the variables in the note, not the head.
+4. **Connect:** Link this new understanding to existing concepts.
+5. **Resolve (Synthesize):** Merge polished insights into an **SoT** or create a **Next Test** (Action).
 
-    - **If Actionable:** Create a **Next Test** (Action).
-    - **If Insight:** Merge the polished insight into an **SoT** (Knowledge).
+---
 
 ## 5. Synthesis: From Volatile to Stable
 
 Knowledge Synthesis is the process of promoting "verified simulations" into the Canon.
 
-- **HEAD Notes** are the *Lab Experiments*.
-- **SoT Notes** are the *Published Papers*.
+- **HEAD Notes (Working Tree):** The *Lab Experiments*. Ephemeral, messy, volatile.
+- **SoT Notes (Master Branch):** The *Published Papers*. Stable, atomic, production-ready.
 
-We do not keep every thought. We keep only the **Models** that have been verified to accurately predict reality.
+---
 
-## 6. Example: The Spark to Synthesis Pipeline
+## 6. Synthesis Automation (v5.0)
 
-For a complete, step-by-step walkthrough of this process—transforming a vague feeling of procrastination into a concrete addition to the System Architecture—see the canonical example:
+### 6.1 AI-Assisted Synthesis (Garbage Collection)
 
-> [[Detailed Example From Spark to Synthesis]]
+PRODOS automates "Garbage Collection" using LLMs to refactor chaotic daily logs (HEAD) into structured insights. This prevents **Technical Debt** and "Archive Guilt."
 
-This example demonstrates:
+- **Agent Role:** The LLM acts as a Librarian, parsing the **HEAD** at stop-time to extract tasks and insights.
+- **Refactor Protocol:** Identify the core insights and open tasks. Refactor to Evergreen Note format. Format tasks for Todoist. Discard the emotional fluff.
 
-- **Stage 1 (Generate):** The raw "Vomit Draft" of a frustration.
-- **Stage 2 (Clarify)::** Refactoring the text into a clear statement.
-- **Stage 3 (Understand):** Extracting the core principle (Tool Fetishism).
-- **Stage 4 (Connect)::** Linking to [[Productive Procrastination as an Avoidance Strategy]]
-- **Stage 5 (Synthesize):** Updating the relevant structure note.
+### 6.2 The "Merge and Delete" Ritual
 
-### 6.1 Educating Your Future Self
+To satisfy completionism while preventing digital hoarding, the system mandates a final cleanup:
 
-The act of "Knowledge Synthesis" isn't about collecting facts; it's about encoding understanding so your future self can retrieve it without friction. This is the process of **"Educating the System."**
+1. **Merge:** Extracted insights move to the **SoT**.
+2. **Delete:** The original daily log is archived or deleted.
+- **Impact:** This declares **"Bankruptcy"** on the day's chaos, allowing the user to start every morning with a clean slate (Clean HEAD).
 
-- **Principle:** Write atomic units so clearly that they make sense when revisited 6 months later without context.
-- **Test:** If a note doesn't make sense upon later reading, it is "uneducated noise."
-- **Implication:** A well-educated System is a reliable cognitive prosthesis. If you trust it to hold the details, you are free to let go of them.
+---
 
 ## 7. Cognitive Compression (The 3C Protocol)
 
-To maximize learning velocity, synthesis must prioritize **Compression**—reducing high-volume theory into manageable patterns.
+To maximize learning velocity, synthesis must prioritize **Compression**:
 
--   **Selection (80/20 Rule):** Ruthlessly identify the 20% of content that yields 80% of the utility.
--   **Association:** "Hook" new data onto existing mental models. Information without a "hook" is entropy.
--   **Chunking:** Synthesize independent ideas into a single simple model, metaphor, or drawing to bypass the brain’s serial processing bottleneck (~4 ideas).
+- **Selection (80/20 Rule):** Identify the 20% of content that yields 80% of the utility.
+- **Association:** "Hook" new data onto existing mental models.
+- **Chunking:** Synthesize independent ideas into a single simple model to bypass the brain’s serial processing bottleneck.

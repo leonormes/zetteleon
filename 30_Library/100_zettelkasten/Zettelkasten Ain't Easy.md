@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-05-10T00:07:18Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/cognition/thinking, topic/pkm/zettelkasten]
+status: "null"
+tags: ["topic/cognition/thinking", "topic/pkm/zettelkasten"]
 title: "Zettelkasten Ain't Easy"
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 These workflows, GTD and Zettelkasten, have put me in a lazy mode and tricked me into seeing this process as easy. But effort is required.

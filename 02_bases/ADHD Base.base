@@ -13,6 +13,10 @@ views:
       - file.tags
       - file.size
     sort:
+      - property: type
+        direction: DESC
+      - property: file.size
+        direction: DESC
       - property: file.mtime
         direction: DESC
     columnSize:

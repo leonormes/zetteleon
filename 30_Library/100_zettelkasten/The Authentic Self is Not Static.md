@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:05:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [authenticity, personal-growth, self-improvement, values]
+status: ""
+tags: ["authenticity", "personal-growth", "self-improvement", "values"]
 title: The Authentic Self is Not Static
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The "authentic self" is not a fixed or static entity; it is dynamic and evolves over time. Authenticity, in this sense, is not about clinging to an unchanging core, but about a continuous process of self-awareness, honesty, and growth.

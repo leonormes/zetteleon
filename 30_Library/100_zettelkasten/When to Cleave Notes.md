@@ -1,20 +1,20 @@
 ---
-aliases: [Cleaving Triggers]
-confidence: 0.9
+aliases: ["Cleaving Triggers"]
+confidence: "0.9"
 created: 2025-10-31T08:18:00Z
-epistemic: principle
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:59Z
+epistemic: "principle"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "Defines the triggers and signals that indicate a note should be cleaved into atomic notes and a structural map."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [maintenance, workflow, zettelkasten]
+status: "seedling"
+tags: ["maintenance", "workflow", "zettelkasten"]
 title: When to Cleave Notes
-type: concept
-uid: 2025-10-31T08:18:00Z
-updated: 2025-10-31T08:18:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## When to Cleave Notes

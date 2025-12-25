@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:54:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [abstraction, models, science, topic/philosophy]
+status: "null"
+tags: ["abstraction", "models", "science", "topic/philosophy"]
 title: All Models Are Wrong But Some Are Useful
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 This aphorism, coined by statistician George E. P. Box, perfectly captures the paradox of using simplified representations to understand complex realities. It applies to scientific models, mathematical models, and our own internal mental models.

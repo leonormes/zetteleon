@@ -1,20 +1,20 @@
 ---
-aliases: [Generative Config, GIC Framework]
-confidence: 0.7
+aliases: ["Generative Config", "GIC Framework"]
+confidence: "0.7"
 created: 2025-01-15T10:00:00Z
-epistemic: principle
-last_reviewed: 2025-01-15
-modified: 2025-11-12T14:24:42Z
-purpose: Framework for reducing configuration errors by generating infrastructure config from minimal inputs
-review_interval: 90
+epistemic: "principle"
+last_reviewed: "2025-01-15"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "Framework for reducing configuration errors by generating infrastructure config from minimal inputs"
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [automation, configuration, infrastructure, terraform]
+status: "seedling"
+tags: ["automation", "configuration", "infrastructure", "terraform"]
 title: Generative Infrastructure Configuration Framework
-type: concept
-uid: 2025-01-15T10:00:00Z
-updated: 2025-01-15T10:00:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Generative Infrastructure Configuration Framework

@@ -1,25 +1,25 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-07T07:10:22Z
-epistemic: 
-id: Destructuring fixed mindset
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "Destructuring fixed mindset"
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Destructuring fixed mindset
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
-What you have described is the painful, internal legacy of being a neurodivergent person in a world not built for you. Your perfectionism, the constant comparison, the drive to be "above reproach" – these are not character flaws. They are scars. They are the armour you built to protect yourself in a world where you felt different and unsupported.
+What you have described is the painful, internal legacy of being a neurodivergent person in a world not built for you. Your perfectionism, the constant comparison, the drive to be "above reproach"–these are not character flaws. They are scars. They are the armour you built to protect yourself in a world where you felt different and unsupported.
 
 Wanting to be the best wasn't about ego; it was about survival. If you were the best, no one could criticise the strange way you did things. If you were perfect, no one could find fault. The immense self-doubt you felt was a logical consequence of your environment. Please hold that truth for a moment. Your past struggles were not your fault.
 
@@ -93,4 +93,4 @@ When Bessie says, "Leo is so much better at maths than me," resist the urge to s
 
 This teaches her that her own journey is the only one that matters. You are not denying the school's ranking, but you are rendering it less important than her personal growth.
 
-This is a slow, messy, and imperfect journey. There will be days when "The Judge" wins. There will be days you fall back into comparison. That's okay. The goal isn't to achieve a perfect growth mindset – that would be perfectionism! The goal is simply to notice, to be a little kinder to yourself, and to gently guide yourself and your daughter back to the path of self-compassion and personal growth, one day at a time. Your self-awareness is your superpower.
+This is a slow, messy, and imperfect journey. There will be days when "The Judge" wins. There will be days you fall back into comparison. That's okay. The goal isn't to achieve a perfect growth mindset–that would be perfectionism! The goal is simply to notice, to be a little kinder to yourself, and to gently guide yourself and your daughter back to the path of self-compassion and personal growth, one day at a time. Your self-awareness is your superpower.

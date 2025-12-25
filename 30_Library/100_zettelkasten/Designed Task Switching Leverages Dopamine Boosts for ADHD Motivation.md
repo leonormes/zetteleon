@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T12:00:02Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:55:00Z
-purpose: To test if "Productive Procrastination" (intentional switching) maintains dopamine levels better than forced mono-tasking.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "To test if \\\"Productive Procrastination\\\" (intentional switching) maintains dopamine levels better than forced mono-tasking."
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source: "[[MOC - ADHD Task Management]]"
-source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
-status: pending
-tags: [experiment, hypothesis, motivation, task-switching, topic/health/adhd, topic/productivity]
+source_of_truth: []
+status: "pending"
+tags: ["experiment", "hypothesis", "motivation", "task-switching", "topic/health/adhd", "topic/productivity"]
 title: Designed Task Switching Leverages Dopamine Boosts for ADHD Motivation
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
 ---

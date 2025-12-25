@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 0.8
+confidence: "0.8"
 created: 2025-07-18T14:12:00Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:35:52Z
-purpose: "Establish mathematics as the science of patterns and structure, synthesizing modern views."
-review_interval: 90
+epistemic: "principle"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: "90"
 see_also: ["[[Abstraction and Generalization Are Core Mathematical Methods]]", "[[Structuralism (Mathematics as Study of Structure)]]", "[[The Process of Mathematical Discovery is Driven by Pattern Recognition]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md"]
-status: seedling
-tags: [topic/maths]
+source_of_truth: []
+status: "seedling"
+tags: ["topic/maths"]
 title: Mathematics Is Frequently Described as the Science of Patterns
-type: concept
-uid: 2025-07-18T14:12:00Z
-updated: 2025-11-01T11:22:13Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Mathematics is the science of patterns, defined as the study of structure, order, and regularity in all its forms. This represents a modern synthesis that unifies diverse mathematical activities under a single principle.

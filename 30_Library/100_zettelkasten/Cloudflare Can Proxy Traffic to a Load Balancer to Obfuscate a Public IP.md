@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.8
+confidence: "0.8"
 created: 2025-10-31T09:25:33Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:41Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Describe the strategy of using Cloudflare with a self-hosted load balancer."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [cloudflare, dns, homelab, networking, security]
+status: "seedling"
+tags: ["cloudflare", "dns", "homelab", "security", "topic/technology/networking"]
 title: Cloudflare Can Proxy Traffic to a Load Balancer to Obfuscate a Public IP
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

@@ -1,19 +1,18 @@
 ---
 aliases: ["PLT MOC", "Programming Language Theory Index", "Type Theory MOC"]
-confidence: 5/5
+confidence: "5/5"
 created: 2025-12-18T11:20:00Z
-epistemic: 
-last_reviewed: 2025-12-18
-modified: 2025-12-20T09:54:10Z
-purpose: A central hub for navigating the theoretical foundations of programming languages, type systems, and formal verification.
-resonance-score: 10
-review_interval: 
+epistemic: "null"
+last_reviewed: "2025-12-18T00:00:00.000Z"
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: stable
-tags: ["computer_science", "logic", "moc", "software_engineering", "type_theory"]
+status: "stable"
+tags: ["computer_science", "logic", "software_engineering", "type_theory"]
 title: MOC - Type Theory
-type: moc
+type: "moc"
 uid: 
 updated: 
 ---

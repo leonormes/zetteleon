@@ -1,19 +1,19 @@
 ---
-aliases: [Task Bracketing]
-confidence: 
+aliases: ["Task Bracketing"]
+confidence: ""
 created: 2025-10-30T12:05:05Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-30T10:49:50Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
-status: seedling
-tags: [basal-ganglia, habits, neuroscience]
+status: "seedling"
+tags: ["basal-ganglia", "neuroscience", "topic/habits"]
 title: Task Bracketing Strengthens Habit-Related Neural Circuits
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

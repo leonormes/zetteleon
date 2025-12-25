@@ -1,20 +1,20 @@
 ---
-aliases: [RPM]
-confidence: 0.9
+aliases: ["RPM"]
+confidence: "0.9"
 created: 2025-11-10T14:14:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T13:28:09Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the Rapid Planning Method (RPM)."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Time Blocking and Time Boxing for Productivity]]"]
-status: seedling
-tags: [goals, motivation, productivity, purpose, systems]
+source_of_truth: []
+status: "seedling"
+tags: ["goals", "motivation", "purpose", "topic/productivity", "topic/systems"]
 title: The Rapid Planning Method (RPM) is a Purpose-Driven System
-type: concept
-uid: 2025-11-10T14:14:00Z
-updated: 2025-11-10T14:14:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Rapid Planning Method (RPM) is a Purpose-Driven System

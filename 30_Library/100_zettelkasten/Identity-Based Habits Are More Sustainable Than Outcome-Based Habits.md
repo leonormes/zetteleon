@@ -1,20 +1,20 @@
 ---
-aliases: [Identity-Based Habits]
-confidence: 0.9
+aliases: ["Identity-Based Habits"]
+confidence: "0.9"
 created: 2025-11-10T12:02:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T10:00:47Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To contrast two different approaches to habit formation."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[True Behavior Change is Identity Change]]"]
-source_of_truth: ["[[MOC - The Relationship Between Habits and Identity]]"]
-status: seedling
-tags: [behavior-change, habits, identity, strategy]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "identity", "strategy", "topic/habits"]
 title: Identity-Based Habits Are More Sustainable Than Outcome-Based Habits
-type: concept
-uid: 2025-11-10T12:02:00Z
-updated: 2025-11-10T12:02:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Identity-Based Habits Are More Sustainable Than Outcome-Based Habits

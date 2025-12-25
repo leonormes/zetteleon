@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-17T12:18:08Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:23Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: How do I learn the maths
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## The Scaffolding Approach: What to Learn in Order 🗺️
@@ -33,7 +33,7 @@ This is the most crucial step. Mastering this level makes everything else possib
 
 Once you have the grammar, you can form sentences and tackle your first major subjects.
 
-- **Discrete Mathematics:** This is the perfect next step for you. It deals with distinct, separate values and is the bedrock of computer science. It includes topics like combinatorics (counting), graph theory, and number theory – all of which appear constantly in places like Project Euler.
+- **Discrete Mathematics:** This is the perfect next step for you. It deals with distinct, separate values and is the bedrock of computer science. It includes topics like combinatorics (counting), graph theory, and number theory–all of which appear constantly in places like Project Euler.
 - **Pre-Calculus / College Algebra:** This solidifies your understanding of functions, polynomials, trigonometry, and logarithms, which are the essential tools for a huge portion of mathematics.
 
 ### Level 3: The First Major Branches

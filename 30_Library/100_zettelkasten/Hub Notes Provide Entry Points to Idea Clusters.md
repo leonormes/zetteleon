@@ -1,20 +1,20 @@
 ---
-aliases: [Access Points, Entry Point Notes, Hub Notes]
-confidence: 0.9
+aliases: ["Access Points", "Entry Point Notes", "Hub Notes"]
+confidence: "0.9"
 created: 2025-10-30T15:33:36Z
-epistemic: fact
-last_reviewed: 2025-10-30
-modified: 2025-10-31T09:31:40Z
+epistemic: "fact"
+last_reviewed: "2025-10-30T00:00:00.000Z"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Defines hub notes as navigational aids in distributed networks"
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [navigation, structure, topic/pkm, topic/pkm/zettelkasten]
+status: "seedling"
+tags: ["navigation", "structure", "topic/pkm", "topic/pkm/zettelkasten"]
 title: Hub Notes Provide Entry Points to Idea Clusters
-type: concept
-uid: 2025-10-30T15:33:36Z
-updated: 2025-10-30T15:33:36Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Hub Notes Provide Entry Points to Idea Clusters

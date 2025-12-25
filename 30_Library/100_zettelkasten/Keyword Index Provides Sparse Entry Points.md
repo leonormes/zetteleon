@@ -1,20 +1,20 @@
 ---
-aliases: [Entry Index, Index, Keyword List]
-confidence: 0.85
+aliases: ["Entry Index", "Index", "Keyword List"]
+confidence: "0.85"
 created: 2025-10-30T15:33:36Z
-epistemic: fact
-last_reviewed: 2025-10-30
-modified: 2025-10-30T15:36:29Z
+epistemic: "fact"
+last_reviewed: "2025-10-30T00:00:00.000Z"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explains Luhmann's sparse index system for accessing the Zettelkasten"
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [indexing, navigation, topic/pkm, topic/pkm/zettelkasten]
+status: "seedling"
+tags: ["indexing", "navigation", "topic/pkm", "topic/pkm/zettelkasten"]
 title: Keyword Index Provides Sparse Entry Points
-type: concept
-uid: 2025-10-30T15:33:36Z
-updated: 2025-10-30T15:33:36Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Keyword Index Provides Sparse Entry Points

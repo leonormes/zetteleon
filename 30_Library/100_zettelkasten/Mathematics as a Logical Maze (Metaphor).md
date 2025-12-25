@@ -1,21 +1,21 @@
 ---
-aliases: [Logical Maze Metaphor]
-confidence: 0.7
+aliases: ["Logical Maze Metaphor"]
+confidence: "0.7"
 created: 2025-11-01T11:22:13Z
-epistemic: opinion
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:35:54Z
-purpose: "Present the logical maze as a metaphor for mathematical structure and discovery."
-review_interval: 90
+epistemic: "opinion"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: "90"
 see_also: ["[[Logic Is the Grammar of Rigorous Argument]]", "[[The Process of Mathematical Discovery is Driven by Pattern Recognition]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md"]
-status: seedling
-tags: [metaphor, pedagogy, topic/maths]
+source_of_truth: []
+status: "seedling"
+tags: ["metaphor", "pedagogy", "topic/maths"]
 title: Mathematics as a Logical Maze (Metaphor)
-type: concept
-uid: 2025-11-01T11:22:13Z
-updated: 2025-11-01T11:22:13Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Mathematics is consistently described as a "logical maze"—an intricate network of ideas where the task is to navigate through logical possibilities and discover new connections.

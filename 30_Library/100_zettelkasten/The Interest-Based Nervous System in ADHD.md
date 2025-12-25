@@ -1,21 +1,21 @@
 ---
-aliases: [Interest-Based Nervous System, The ADHD nervous system is primarily interest-driven]
-confidence:
+aliases: ["Interest-Based Nervous System", "The ADHD nervous system is primarily interest-driven"]
+confidence: "null"
 created: 2025-07-16T17:30:01Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:39Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [dopamine, motivation, topic/health/adhd]
+status: "null"
+tags: ["dopamine", "motivation", "topic/health/adhd"]
 title: The Interest-Based Nervous System in ADHD
-type: map
-uid:
-updated:
-version: 1
+type: "map"
+uid: 
+updated: 
+version: "1"
 ---
 
 The "interest-based nervous system" is a concept, primarily articulated by Dr. William Dodson, that describes the primary motivational driver for individuals with ADHD. In this model, engagement is not dictated by importance, rewards, or consequences, but by genuine interest, passion, fascination, wonder, and play.

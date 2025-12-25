@@ -1,48 +1,61 @@
 ---
-aliases: []
-confidence: 
-created: 2025-12-07T23:50:46Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:08Z
-purpose: 
-review_interval: 
-see_also: []
+aliases: ["Declarative vs Procedural", "Focused vs Diffuse", "Neural Web"]
+confidence: "5/5"
+created: 2025-12-19T10:17:22Z
+epistemic: "theory"
+last_reviewed: "2025-12-23"
+modified: 2025-12-25T18:34:55Z
+purpose: "To define the neurobiological and cognitive mechanisms that drive human learning and skill acquisition."
+review_interval: "3 months"
+see_also: ["[[SoT - Deep Learning & Mastery]]", "[[SoT - Reading and the Brain]]"]
 source_of_truth: []
-status: 
-tags: []
+status: "stable"
+tags: ["cognition", "dopamine", "learning", "neuroscience", "topic/cognition"]
 title: SoT - Learning Mechanisms
-type: 
+type: "SoT"
 uid: 
 updated: 
 ---
 
-## The "Giving" Reward (Dopamine from Altruism)
+## 1. The Core Architecture: Focused vs. Diffuse Modes
 
-The brain's reward system extends beyond self-interest. Studies show:
+The brain alternates between two distinct modes of thinking. Learning is the process of moving back and forth between them.
 
-- **Cooperation is Rewarding:** Mutual cooperation activates reward centers (ventral striatum) even when personal financial gain is less, indicating a preference for collective welfare.
-- **Altruism Feels Good:** Choosing to give money to charity or family members (costly donations) results in *greater* activity in reward regions than receiving money yourself. Our reward system is sensitive to the welfare of others, suggesting giving is inherently pleasurable.
-
-## 3. Optimization Strategy: Top-Down & Contextual Learning
-
-The ADHD brain struggles with arbitrary facts ("Just Because") but thrives on **Meaning**. To maximize engagement, we must invert the traditional bottom-up curriculum.
-
-### A. The "Systems Thinking" Approach (Top-Down)
-
-Instead of learning isolated details (rote memorization), start with the **Macro-System** to establish context.
-
-- **The Mechanism:** Understanding the *problem* a technology solves creates a "Cognitive Hook" for the solution.
-- **Why it works for ADHD:** It satisfies the "Need for Meaning." When you see the entire system (e.g., "Kubernetes relies on Linux Namespaces to solve isolation"), the details become relevant, not just noise.
-
-### B. Discovery as Reward
-
-The process of tracing a high-level concept down to its first principles utilizes the brain's **Non-Linear** and associative strengths.
-
-- **The "Aha!" Moment:** Connecting a specific implementation (e.g., Containers) to a fundamental principle (e.g., OS Process Isolation) triggers a dopamine release similar to solving a puzzle. This turns learning from a chore into an investigation.
+- **Focused Mode:** Used for loading new material or working on familiar problems. High attention, linear processing.
+- **Diffuse Mode:** Used for processing new challenges and making lateral connections. Background processing that occurs during breaks, nature walks, or different activities.
+- **Strategy:** When "Stuck" in focused mode, intentionally trigger the diffuse mode to allow for non-conscious problem-solving.
 
 ---
 
-## 4. Strategies for Sustained Engagement (Beyond Novelty)
+## 2. Memory Deposition: Declarative vs. Procedural
 
-To maintain engagement after the initial "Novelty" fades, we must shift the source of the reward from **Discovery** (Finding the Island) to **Complexity** (Building on the Island).
+There are two primary ways the brain encodes information into long-term memory:
+
+| System | Nature | Speed | Function |
+|:--- |:--- |:--- |:--- |
+| **Declarative** | Conscious/Explicit | Fast to learn | Facts, events, and "starting" information. Requires working memory. |
+| **Procedural** | Unconscious/Implicit | Slow to learn | Intuitive handling, pattern-detection, and motor skills. Bypasses WM. |
+
+**Key Insight:** True mastery involves the **Proceduralization** of declarative knowledge—moving from "thinking about the steps" to "intuitive execution."
+
+---
+
+## 3. The Neural Web
+
+Learning involves creating and strengthening connections between neurons (Synaptogenesis).
+
+- **The Web:** Understanding is not a single point; it is a web. The more connections and the more varied the contexts (interleaving), the deeper the understanding.
+- **Dopamine & Surprise:** (See [[SoT - Predictive Processing & The Bayesian Brain]]). Prediction errors flag data as "salient," triggering dopamine release which promotes the synaptic plasticity needed for rewiring.
+
+---
+
+## 4. Optimization Strategy: "Top-Down & Contextual Learning"
+
+- **The Mechanism:** Understanding the *problem* a technology solves creates a "Cognitive Hook" for the solution.
+- **ADHD Synergy:** Satisfies the "Need for Meaning." When you see the entire system (e.g., "Kubernetes relies on Linux Namespaces"), the details become relevant rather than noise.
+
+---
+
+## 5. Summary
+
+Learning is a physical restructuring of the brain. By balancing focused acquisition with diffuse processing, and moving declarative concepts into procedural intuition, we minimize cognitive load and maximize mastery.

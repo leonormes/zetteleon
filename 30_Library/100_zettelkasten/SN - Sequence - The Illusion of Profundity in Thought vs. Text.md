@@ -1,23 +1,23 @@
 ---
-aliases: [Thought vs Text Map]
-confidence:
+aliases: ["Thought vs Text Map"]
+confidence: ""
 created: 2025-11-06T20:00:03Z
-criteria: Notes must relate to the phenomenon of how writing clarifies, challenges, or changes thought.
-epistemic:
-exclusions: General advice on writing style or grammar.
-last_reviewed:
-modified: 2025-12-07T18:13:49Z
-purpose:
-review_interval:
-scope: The relationship between internal thought and externalized text, and the cognitive benefits of writing.
+criteria: "Notes must relate to the phenomenon of how writing clarifies, challenges, or changes thought."
+epistemic: ""
+exclusions: "General advice on writing style or grammar."
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
+scope: "The relationship between internal thought and externalized text, and the cognitive benefits of writing."
 see_also: []
 source_of_truth: []
-status:
-tags: [cognition, map, sequence, structural, thinking, writing]
+status: ""
+tags: ["map", "sequence", "structural", "thinking", "topic/cognition", "writing"]
 title: SN - Sequence - The Illusion of Profundity in Thought vs. Text
-type: sn
-uid: 2025-11-06T20:00:03Z
-updated: 2025-11-06T20:00:03Z
+type: "sn"
+uid: 
+updated: 
 ---
 
 ## SN - Sequence: The Illusion of Profundity in Thought vs. Text

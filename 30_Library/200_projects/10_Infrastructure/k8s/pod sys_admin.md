@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-17T12:57:49Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:42Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: pod sys_admin
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 This output confirms that you have pods in your AKS cluster that are indeed requesting the `SYS_ADMIN` capability. Let's address this in your Helm chart.

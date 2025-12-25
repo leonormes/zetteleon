@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:53Z
-epistemic: 
+epistemic: ""
 ID: "8f"
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: overview_of_elastic_network_interfaces_(eni)
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Overview Of Elastic Network Interfaces (ENI)

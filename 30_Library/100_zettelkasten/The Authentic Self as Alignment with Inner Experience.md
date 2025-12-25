@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [authenticity, psychology, self, values]
+status: ""
+tags: ["authenticity", "self", "topic/psychology", "values"]
 title: The Authentic Self as Alignment with Inner Experience
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 In psychology and self-help, the "authentic self" refers to the version of you that operates in congruence with your core values, feelings, and beliefs. It is the self that is unfiltered by the need to perform for social approval, gain acceptance, or avoid conflict.

@@ -1,20 +1,20 @@
 ---
-aliases: [Elaboration, Own Words Requirement, Paraphrasing]
-confidence: 0.95
+aliases: ["Elaboration", "Own Words Requirement", "Paraphrasing"]
+confidence: "0.95"
 created: 2025-10-30T15:33:36Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-30T15:36:29Z
+epistemic: "principle"
+last_reviewed: "2025-10-30T00:00:00.000Z"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explains why writing in your own words is crucial for learning"
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [elaboration, learning, topic/pkm, topic/pkm/zettelkasten]
+status: "seedling"
+tags: ["elaboration", "learning", "topic/pkm", "topic/pkm/zettelkasten"]
 title: Elaboration Through Own Words Deepens Understanding
-type: principle
-uid: 2025-10-30T15:33:36Z
-updated: 2025-10-30T15:33:36Z
+type: "principle"
+uid: 
+updated: 
 ---
 
 ## Elaboration Through Own Words Deepens Understanding

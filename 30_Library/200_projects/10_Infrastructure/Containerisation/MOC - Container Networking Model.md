@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-24T15:00:00Z
-epistemic:
-last_reviewed:
-modified: 2025-11-03T13:48:27Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:43+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [container, k8s, kubernetes, linux, topic/technology/networking, type/model]
+status: "null"
+tags: ["container", "k8s", "kubernetes", "linux", "topic/technology/networking"]
 title: MOC - Container Networking Model
-type: map
-uid:
-updated:
-version: 1
+type: "map"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Links:**
@@ -166,6 +166,7 @@ See **[[Model - Linux to Kubernetes Networking Mapping]]** for the complete tran
 ## Child Notes (Generated from This MOC)
 
 ### Facts
+
 **Namespaces:**
 
 - [[What is a network namespace]]

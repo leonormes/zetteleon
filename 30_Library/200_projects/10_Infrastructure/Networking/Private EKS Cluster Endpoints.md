@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-13T09:29:09Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [dns]
+status: ""
+tags: ["dns"]
 title: Private EKS Cluster Endpoints
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 - Private Clusters and the EKS Auth API: For private EKS clusters, the `eks-auth` endpoint in AWS PrivateLink is required to allow nodes to reach the Amazon EKS Auth API. This ensures that communication between the nodes and the EKS control plane remains within the private network and doesn't go through the public internet.

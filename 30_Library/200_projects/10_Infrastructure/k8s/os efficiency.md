@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-12T20:07:29Z
-epistemic: 
-id: os efficiency
-last_reviewed: 
-modified: 2025-12-13T11:39:42Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "os efficiency"
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [linux, syscall]
+status: ""
+tags: ["linux", "syscall"]
 title: os efficiency
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 That's a fascinating and very insightful line of thought! You've hit on several really important points about operating systems, security, efficiency, and the changing landscape of computing. Let's break down your ideas:

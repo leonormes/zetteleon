@@ -1,24 +1,24 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-06-18T10:49:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:29+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [project/family/bessie, type/meeting]
+status: "null"
+tags: ["project/family/bessie"]
 title: Bessie Meeting summary 18th chatllm
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
-**Meeting Transcript – Teachers – Wednesday at 09:16**
+**Meeting Transcript–Teachers–Wednesday at 09:16**
 
 The meeting began with a discussion about Bessie spending time in the sensory room. It was agreed that it’s good for her to be there for part of the time.
 

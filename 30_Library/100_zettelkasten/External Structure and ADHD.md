@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-02-07T12:57:55Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [ext-mind, time_blocking, topic/health/adhd, topic/productivity/gtd]
+status: "null"
+tags: ["ext-mind", "time_blocking", "topic/health/adhd", "topic/productivity/gtd"]
 title: External Structure and ADHD
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Individuals with ADHD often struggle with internal time management and organization. The Pomodoro Technique provides an external structure with clear boundaries and expectations, aiding in focus and task completion.
@@ -24,7 +24,7 @@ Context: Exploration of the external structure provided by the Pomodoro Techniqu
 
 ---
 
-[[The Extended Mind Thesis]]
+[[30_Library/100_zettelkasten/The Extended Mind Thesis]]
 
 [[I Have Not Really Accepted the ADHD Difficulties I Have Had]]
 

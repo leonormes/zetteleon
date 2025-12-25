@@ -1,20 +1,20 @@
 ---
-aliases: [Neural Basis of Knowledge]
-confidence: 0.9
+aliases: ["Neural Basis of Knowledge"]
+confidence: "0.9"
 created: 2025-11-01T12:10:05Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:55:39Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To describe the neuroscientific basis of knowledge formation."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Neuroplasticity is the Foundation for Habit Change]]"]
-source_of_truth: ["[[MOC - From Information to Knowledge]]"]
-status: seedling
-tags: [cognition, knowledge, neuroscience]
+source_of_truth: []
+status: "seedling"
+tags: ["knowledge", "neuroscience", "topic/cognition"]
 title: Knowledge Formation is a Cognitive Process of Neural Connection
-type: concept
-uid: 2025-11-01T12:10:05Z
-updated: 2025-11-01T12:10:05Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Knowledge Formation is a Cognitive Process of Neural Connection

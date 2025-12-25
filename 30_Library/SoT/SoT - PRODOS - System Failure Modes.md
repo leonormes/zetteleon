@@ -1,21 +1,20 @@
 ---
-aliases: [ADHD System Failure Modes, Why Systems Fail]
-confidence: 5/5
-created: 2025-12-10T12:00:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-11T14:27:56Z
-purpose: To define the specific failure modes of traditional productivity systems (like Zettelkasten) for ADHD brains and how PRODOS mitigates them.
-related-soTs: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - PRODOS (System Architecture)]]"]
-review_interval: 6 months
-see_also: []
-source_of_truth: true
-status: stable
-tags: [adhd, failure-modes, prodos, system_design, zettelkasten]
+aliases: ["ADHD System Failure Modes", "Why Systems Fail"]
+confidence: "5/5"
+created: 2025-12-10T00:00:00Z
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define the specific failure modes of traditional productivity systems (like Zettelkasten) for ADHD brains and how PRODOS mitigates them."
+review_interval: "6 months"
+see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - PRODOS (System Architecture)]]"]
+source_of_truth: []
+status: "stable"
+tags: ["failure-modes", "prodos", "system_design", "topic/health/adhd", "zettelkasten"]
 title: SoT - PRODOS - System Failure Modes
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. The Core Tension: Purpose vs. Features

@@ -1,20 +1,18 @@
 ---
-aliases: [Epistemic Trespassing, HiPPO Effect]
-confidence: 4/5
+aliases: ["Epistemic Trespassing", "HiPPO Effect"]
+confidence: "4/5"
 created: 2025-12-17T00:00:00Z
-epistemic: 
-last_reviewed: 2025-12-17
-modified: 2025-12-20T09:54:09Z
-purpose: To define two key failures of decision-making where authority and rank override evidence-based expertise.
-related-soTs: ["[[MOC - Socio-Technical Dissonance]]", "[[SoT - Authority-Competence Asymmetry]]"]
-review_interval: 
-see_also: []
-source: https://gemini.google.com/share/7368b72e8f22
-source_of_truth: true
-status: stable
-tags: [authority, bias, decision-making, systems-thinking]
+epistemic: ""
+last_reviewed: "2025-12-17"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "To define two key failures of decision-making where authority and rank override evidence-based expertise."
+review_interval: "3 months"
+see_also: ["[[MOC - Socio-Technical Dissonance]]", "[[SoT - Authority-Competence Asymmetry]]"]
+source_of_truth: []
+status: "stable"
+tags: ["authority", "bias", "decision-making", "topic/systems"]
 title: SoT - Epistemic Trespassing and the HiPPO Effect
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---

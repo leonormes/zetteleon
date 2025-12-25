@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T00:00:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-30T11:00:07Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - Understanding Self-Focus in Neurodivergent Individuals]]"
 source_of_truth: []
-status: seedling
+status: "seedling"
 tags: []
 title: RSD is associated with neurodiversity particularly ADHD
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

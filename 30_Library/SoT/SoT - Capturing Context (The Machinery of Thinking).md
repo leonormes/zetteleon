@@ -1,30 +1,20 @@
 ---
-aliases: [Context Capture, Mental Models, Thinking Scaffolds]
-confidence: 5/5
+aliases: ["Context Capture", "Mental Models", "Thinking Scaffolds"]
+confidence: "5/5"
 created: 2025-12-07T00:00:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-20T09:54:09Z
-purpose: To define the strategies for capturing the 'Machinery of Thinking'—reasoning, assumptions, and context—rather than just static conclusions.
-review_interval:
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: ["[[Capture the Context]]", "[[Documenting Mental Models Enables Project Re-entry]]"]
-tags: [mental_models, pkm, thinking]
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:22+00:00
+purpose: "To define the strategies for capturing the 'Machinery of Thinking'\\\\u2014reasoning, assumptions, and context\\\\u2014rather than just static conclusions."
+review_interval: "3 months"
+see_also: ["[[Capture the Context]]", "[[Documenting Mental Models Enables Project Re-entry]]"]
+source_of_truth: []
+status: "stable"
+tags: ["mental_models", "pkm", "thinking"]
 title: SoT - Capturing Context (The Machinery of Thinking)
-type: SoT
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Context Capture** is the practice of recording the *process* of thought, not just the *product*.
->
-> A useful note does not just state "X is true"; it captures **why** you believe X, **what** triggered the thought, **how** you felt about it, and **what** assumptions underpin it. It preserves the "Cognitive State" for future re-entry.
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. The Core Problem: The "Crystallization Error"
@@ -54,7 +44,7 @@ Every significant note should include:
 Stop treating all notes as "Information." Categorize them by their cognitive role:
 
 | Type | Definition | Structure |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Model Note** | A framework for prediction. | "Analogy", "When it works", "Where it breaks". |
 | **Move Note** | A specific tactical pattern. | "When in situation S, do move M, to get outcome O." |
 | **Moment Note** | A specific event or story. | "What I thought before", "What happened", "What changed". |

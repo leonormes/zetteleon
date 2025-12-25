@@ -1,20 +1,20 @@
 ---
-aliases: [Knowledge Requires Truth]
-confidence: 0.9
+aliases: ["Knowledge Requires Truth"]
+confidence: "0.9"
 created: 2025-11-01T12:10:08Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:55:39Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To state the philosophical position that knowledge requires truth."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[The Traditional Definition of Knowledge is Justified True Belief]]"]
-source_of_truth: ["[[MOC - From Information to Knowledge]]"]
-status: seedling
-tags: [epistemology, knowledge, philosophy, truth]
+source_of_truth: []
+status: "seedling"
+tags: ["epistemology", "knowledge", "philosophy", "truth"]
 title: Truth is a Necessary Condition for Knowledge
-type: concept
-uid: 2025-11-01T12:10:08Z
-updated: 2025-11-01T12:10:08Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Truth is a Necessary Condition for Knowledge

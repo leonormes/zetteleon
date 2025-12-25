@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-22T03:17:39Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:24Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Go Helm Importer
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## 🎯 **Chart Manager CLI Overview**
@@ -69,7 +69,7 @@ type ImageExtractor interface {
 - **Helm template rendering**: Uses Helm's engine to render all templates with values
 - **Kubernetes resource parsing**: Analyzes Deployments, StatefulSets, DaemonSets, Jobs, CronJobs, Pods
 - **Container spec extraction**: Handles main containers, init containers, and ephemeral containers
-- **Template-aware parsing**: Detects Helm template expressions (`{{ .Values.image }}`)
+- **Template-aware parsing**: Detects Helm template expressions (`{{.Values.image }}`)
 - **Fallback extraction**: Falls back to `values.yaml` parsing if template rendering fails
 - **Intelligent filtering**: Avoids false positives (file paths, URLs, config files)
 

@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-11-03T12:13:28Z
-epistemic:
-last_reviewed:
-modified: 2025-12-20T20:28:17Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:33+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [bunny-relay, hie-prod-34, networking, project/work/cuh]
+status: ""
+tags: ["bunny-relay", "hie-prod-34", "project/work/cuh", "topic/technology/networking"]
 title: Configured to Query the SDE Relay Service
-type:
-uid:
-updated:
+type: ""
+uid: 
+updated: 
 ---
 
 Here’s a detailed summary of how CUH (from the "bunny" agent) was configured to query the SDE relay service, including the latest IP ranges used, based on your infrastructure code and Slack discussions.
@@ -71,7 +71,7 @@ The **latest confirmed egress IP range** for CUH traffic (as provided by Ahmed A
 
 This was explicitly confirmed in Slack:
 
-> Ahmed Aaref (External) 10/09 16:52  
+> Ahmed Aaref (External) 10/09 16:52
 > 217.38.237.128/26
 
 ### **b. ALB Security Group Rules**
@@ -114,6 +114,7 @@ The security group for the relay ALB was updated to include this range for CUH-o
 ---
 
 **If you need the exact file or want to see the full Terraform resource, let me know and I can link directly to the relevant [file](file:///your/path/to/terraform/file.tf) in your repo.**
+
 ## Network Configuration Analysis: CUH to SDE Relay Service
 
 ## CUH Bunny to SDE Relay Network Configuration Analysis

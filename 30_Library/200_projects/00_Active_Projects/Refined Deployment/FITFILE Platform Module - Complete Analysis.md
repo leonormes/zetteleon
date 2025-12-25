@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-11-25T14:27:21Z
-epistemic:
-last_reviewed:
-modified: 2025-11-27T08:40:23Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:33+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [nnuh]
+status: ""
+tags: ["nnuh"]
 title: FITFILE Platform Module - Complete Analysis
-type:
-uid:
-updated:
+type: ""
+uid: 
+updated: 
 ---
 
 ## Overview
@@ -40,6 +40,7 @@ The module deploys components in a specific dependency order:
 ## Core Components Deployed
 
 ### 1. **Vault Secrets Operator (VSO)**
+
 **Purpose**: Integrates Kubernetes with HCP Vault for secrets management
 
 **What it does**:
@@ -64,6 +65,7 @@ app_role_secrets_map = {
 ```
 
 ### 2. **Reflector**
+
 **Purpose**: Replicates secrets and configmaps across namespaces
 
 **What it does**:
@@ -75,6 +77,7 @@ app_role_secrets_map = {
 **Chart Version**: `7.1.288` (default)
 
 ### 3. **Ingress NGINX Controller**
+
 **Purpose**: Provides HTTP/HTTPS ingress to cluster services
 
 **What it does**:
@@ -94,6 +97,7 @@ ingress_load_balancer_type = "internal"  # No public exposure
 **Chart Version**: `4.12.1` (default)
 
 ### 4. **ArgoCD**
+
 **Purpose**: GitOps continuous deployment platform
 
 **What it does**:
@@ -124,6 +128,7 @@ argocd_applications = [{
 - ArgoCD Apps: `1.4.1` (default)
 
 ### 5. **Cluster Autoscaler** (AWS Only)
+
 **Purpose**: Automatically scales cluster nodes based on workload
 
 **What it does**:

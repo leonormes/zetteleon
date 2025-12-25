@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:46:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [complexity, topic/learning, topic/writing, topic/writing/zinsser]
+status: "null"
+tags: ["complexity", "topic/learning", "topic/writing", "topic/writing/zinsser"]
 title: Writing Demystifies Complex Subjects
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 One of the most powerful applications of [[Writing as a Thinking Tool]] is in the demystification of complex or "hard" subjects. William Zinsser argued that he could have overcome his fear of science and math if he had known how to "write and thereby reason my way into those disciplines."

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-29T15:17:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [analogy, history, science, topic/cognition/mental-model]
+status: "null"
+tags: ["analogy", "history", "science", "topic/cognition/mental-model"]
 title: Ptolemaic System as a Patched Flawed Model
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The geocentric Ptolemaic model of the universe is a historical example of building upon a flawed first principle. The core assumption—that the Earth is the static centre of the universe—was incorrect.

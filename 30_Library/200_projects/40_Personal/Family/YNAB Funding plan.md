@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-21T10:46:10Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-04T13:28:13Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: YNAB Funding plan
-type: 
+type: ""
 uid: 
 updated: 
 ---

@@ -1,20 +1,20 @@
 ---
 aliases: ["Evidence of Continuity"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-11T19:05:15Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-11T10:57:47Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Explains the meta-benefit of successfully re-engaging with a project."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [habits, productivity, psychology]
+status: "seedling"
+tags: ["topic/habits", "topic/productivity", "topic/psychology"]
 title: Successfully Re-engaging with a Project Builds Momentum for Future Continuity
-type: principle
-uid: 2025-11-11T19:05:15Z
-updated: 2025-11-11T19:05:15Z
+type: "principle"
+uid: 
+updated: 
 ---
 
 ## Successfully Re-engaging with a Project Builds Momentum for Future Continuity

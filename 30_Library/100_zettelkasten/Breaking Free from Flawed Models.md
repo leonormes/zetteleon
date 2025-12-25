@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-29T15:20:57Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/cognition]
+status: ""
+tags: ["topic/cognition"]
 title: Breaking Free from Flawed Models
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 [[Bug in the model]]

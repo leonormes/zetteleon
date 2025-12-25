@@ -1,20 +1,20 @@
 ---
-aliases: [Fleeting Thoughts, Quick Capture Notes, Temporary Notes]
-confidence: 0.95
+aliases: ["Fleeting Thoughts", "Quick Capture Notes", "Temporary Notes"]
+confidence: "0.95"
 created: 2025-10-30T15:31:09Z
-epistemic: fact
-last_reviewed: 2025-10-30
-modified: 2025-10-31T09:31:40Z
+epistemic: "fact"
+last_reviewed: "2025-10-30T00:00:00.000Z"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Defines the first stage of Zettelkasten note-taking"
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [capture, topic/pkm, topic/pkm/zettelkasten, workflow]
+status: "seedling"
+tags: ["capture", "topic/pkm", "topic/pkm/zettelkasten", "workflow"]
 title: Fleeting Notes Are Temporary Capture Mechanisms
-type: concept
-uid: 2025-10-30T15:31:09Z
-updated: 2025-10-30T15:31:09Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Fleeting Notes Are Temporary Capture Mechanisms

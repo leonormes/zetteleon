@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:29Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:42+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers]
+status: ""
+tags: ["containers"]
 title: Why a Container Runtime Is Needed
-type: source
+type: "source"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 A container runtime is a software component responsible for creating, managing, and executing containers. While containers are built using Linux kernel primitives like namespaces (for isolation) and cgroups (for resource limits), these primitives alone are not enough to easily create and manage containers. The runtime provides the necessary abstraction and tooling to simplify container operations. Here’s why it’s needed:
@@ -736,6 +736,7 @@ Running Linux VMs on an M3 MacBook offers several options, ranging from full vir
 ---
 
 ### Virtualization Software
+
 #### 1. VMware Fusion
 
 - Best for: High-performance Linux VMs with 3D acceleration and enterprise features.
@@ -772,6 +773,7 @@ Running Linux VMs on an M3 MacBook offers several options, ranging from full vir
 ---
 
 ### Container Runtimes
+
 #### 1. Colima
 
 - Best for: Docker/Containerd/Kubernetes with minimal setup.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:53Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:42+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers]
+status: ""
+tags: ["containers"]
 title: building a container components
-type: tutorial
+type: "tutorial"
 uid: 
 updated: 
-version: 2
+version: "2"
 ---
 
 ## Core Network Namespace Concepts Breakdown

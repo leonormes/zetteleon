@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:31:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [mindset, perfectionism, project/personal/prodos, topic/psychology]
+status: "null"
+tags: ["mindset", "perfectionism", "project/personal/prodos", "topic/psychology"]
 title: Phase 1 - The Perceptual Shift to Neutralise Perfectionism
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The first phase of the [[Three-Phase Protocol for Execution MOC]] is a mental reset designed to neutralize the perfectionism that leads to paralysis. It involves three key shifts in perception:

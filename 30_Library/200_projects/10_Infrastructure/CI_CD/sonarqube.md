@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2024-12-05T13:13:22Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:50Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [SDLC, security]
+status: ""
+tags: ["SDLC", "security"]
 title: sonarqube
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## SonarQube

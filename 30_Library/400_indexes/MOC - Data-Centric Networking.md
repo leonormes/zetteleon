@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: null
 created: 2025-07-10T12:36:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-22T11:06:24Z
-purpose: 
-review_interval: 
+epistemic: null
+last_reviewed: null
+modified: 2025-12-25T11:40:23+00:00
+purpose: null
+review_interval: null
 see_also: []
 source_of_truth: []
-status: 
-tags: [data-perspective, topic/technology/networking, type/index]
+status: null
+tags: [data-perspective, topic/technology/networking]
 title: MOC - Data-Centric Networking
 type: permanent
-uid: 
-updated: 
+uid: null
+updated: null
 version: 1
 ---
 
@@ -31,9 +31,9 @@ version: 1
 
 These are the authoritative specifications for the data-centric view of networking.
 
-- **[[SoT - The Data-Centric Theory of Networking]]** — *The "Why" and "How" of state transport, recursive encapsulation, and routing as prefix-trie traversal.*
-- **[[SoT - The Architecture of Packet Encapsulation (TCP-IP)]]** — *The bit-level anatomy of the Segment, Packet, and Frame containers.*
-- **[[SoT - The Data Architecture of DNS]]** — *DNS as a distributed hierarchical database and zone-based state partitioning.*
+- **[[SoT - The Data-Centric Theory of Networking]]**—*The "Why" and "How" of state transport, recursive encapsulation, and routing as prefix-trie traversal.*
+- **[[SoT - The Architecture of Packet Encapsulation (TCP-IP)]]**—*The bit-level anatomy of the Segment, Packet, and Frame containers.*
+- **[[SoT - The Data Architecture of DNS]]**—*DNS as a distributed hierarchical database and zone-based state partitioning.*
 
 ---
 
@@ -41,10 +41,10 @@ These are the authoritative specifications for the data-centric view of networki
 
 Lower-level details on the specific data units and identification systems.
 
-- **[[Protocol Data Unit]]** — The fundamental container of information.
-- **[[How Computers Identify Each other on a Network]]** — Resolution of identifiers (IP to MAC).
-- **[[IPs and ports form a socket]]** — The 5-tuple as a unique pointer to a process.
-- **[[DNS for Services and Pods]]** — Automated name-to-state binding in dynamic environments.
+- **[[Protocol Data Unit]]**—The fundamental container of information.
+- **[[How Computers Identify Each other on a Network]]**—Resolution of identifiers (IP to MAC).
+- **[[IPs and ports form a socket]]**—The 5-tuple as a unique pointer to a process.
+- **[[DNS for Services and Pods]]**—Automated name-to-state binding in dynamic environments.
 
 ---
 
@@ -53,18 +53,20 @@ Lower-level details on the specific data units and identification systems.
 How these data principles manifest in specific technologies and models.
 
 ### Models & Layers
-- **[[MOC - OSI Model]]** — The legacy conceptual map of encapsulation.
-- **[[Physical Layer]]** — The serialization of bits into physical signals.
+
+- **[[MOC - OSI Model]]**—The legacy conceptual map of encapsulation.
+- **[[Physical Layer]]**—The serialization of bits into physical signals.
 
 ### Cloud & Kubernetes
-- **[[SoT - Cloud Networking Core Components]]** — VPCs, Subnets, and Gateways as virtualized data structures.
-- **[[SoT - Kubernetes Networking & DNS]]** — The overlay network as a software-defined state layer.
-- **[[CNI Explained]]** — The data interface for container networking.
+
+- **[[SoT - Cloud Networking Core Components]]**—VPCs, Subnets, and Gateways as virtualized data structures.
+- **[[SoT - Kubernetes Networking & DNS]]**—The overlay network as a software-defined state layer.
+- **[[CNI Explained]]**—The data interface for container networking.
 
 ---
 
 ## 4. Related Concepts
 
-- **[[MOC - Interpretation of References]]** — How names (DNS) resolve to state (IP).
-- **[[SoT - Atomicity and Loose Coupling]]** — Why we separate the network core from endpoint intelligence.
-- **[[SoT - The Extended Mind]]** — Networking as the "Synapses" of the distributed extended mind.
+- **[[MOC - Interpretation of References]]**—How names (DNS) resolve to state (IP).
+- **[[SoT - Atomicity and Loose Coupling]]**—Why we separate the network core from endpoint intelligence.
+- **[[SoT - The Extended Mind]]**—Networking as the "Synapses" of the distributed extended mind.

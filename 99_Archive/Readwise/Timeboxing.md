@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T15:49:34Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-12T16:07:53Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,6 +22,7 @@ updated:
 ![rw-book-cover](https://clockify.me/assets/images/tags-fb-tw/timeboxing.png)
 
 ### Metadata
+
 - Author: [[Clockify]]
 - Full Title: Timeboxing
 - Category: #articles
@@ -34,6 +35,7 @@ updated:
 [[Full Document Contents/Timeboxing.md|See full document content →]]
 
 ### Highlights
+
 - Timeboxing is a simple time management technique that involves allotting a fixed, maximum unit of time for an activity in advance, and then complete the activity within that time frame. ([View Highlight](https://read.readwise.io/read/01jwccjswknbxvp7mhavkea0bh))
     - Tags: [[timeboxing]]
 - The concept was first introduced by James Martin, the author of the book Rapid Application Development, as a part of agile software development. ([View Highlight](https://read.readwise.io/read/01jwccjy9k2npsdx6fqajfvssw))

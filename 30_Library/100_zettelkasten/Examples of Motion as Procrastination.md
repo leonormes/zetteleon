@@ -1,21 +1,21 @@
 ---
-aliases: [Motion vs Action Examples]
-confidence: 1
+aliases: ["Motion vs Action Examples"]
+confidence: "1"
 created: 2025-11-01T20:36:00Z
-epistemic: observation
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:35:44Z
+epistemic: "observation"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To provide concrete examples of motion being used as a procrastination tactic."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Motion Can Be a Procrastination Delay Tactic.md"]
-status: evergreen
-tags: [examples, procrastination, productivity]
+source_of_truth: []
+status: "evergreen"
+tags: ["examples", "procrastination", "topic/productivity"]
 title: Examples of Motion as Procrastination
-type: list
-uid: 20251101203600
-updated: 2025-11-01T20:36:00Z
-version: 1
+type: "list"
+uid: 
+updated: 
+version: "1"
 ---
 
 - Researching the "perfect" productivity system instead of using any system.

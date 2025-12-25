@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-31T13:52:20Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T09:08:56Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Explain Is Technical Detail How CIDR Addressing Wo
-type: 
+type: ""
 uid: 
 updated: 
 ---

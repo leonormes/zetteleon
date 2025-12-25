@@ -1,20 +1,20 @@
 ---
-aliases: [Goals as Temporary Fixes]
-confidence: 0.9
+aliases: ["Goals as Temporary Fixes"]
+confidence: "0.9"
 created: 2025-11-06T19:57:01Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "fact"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To explain why achieving a goal is only a temporary fix if the underlying system is not changed."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["Focus on Systems vs Goals.md"]
-status: seedling
-tags: [behavior-change, goals, habits, systems]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "goals", "topic/habits", "topic/systems"]
 title: Achieving a Goal is a Momentary Change Without Systemic Improvement
-type: concept
-uid: 2025-11-06T19:57:01Z
-updated: 2025-11-06T19:57:01Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Achieving a Goal is a Momentary Change Without Systemic Improvement

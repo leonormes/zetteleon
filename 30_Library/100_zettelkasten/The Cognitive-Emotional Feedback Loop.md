@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T10:01:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [emotion, feedback_loop, topic/cognition, topic/psychology]
+status: "null"
+tags: ["emotion", "feedback_loop", "topic/cognition", "topic/psychology"]
 title: The Cognitive-Emotional Feedback Loop
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Cognition (our mental models) and emotion are not separate, independent processes. They are deeply intertwined in a constant, bi-directional **feedback loop** where each continuously creates and reinforces the other.

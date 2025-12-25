@@ -1,33 +1,20 @@
 ---
-aliases: [Graded Modalities, Linear Types, QTT]
-confidence: 4/5
-confidence-gaps: [The precise mathematical formulation is highly academic.]
-created: 2025-12-19T13:13:01Z
-decay-signals: []
-epistemic: concept
-last_reviewed: 2025-12-19
-modified: 2025-12-20T09:54:05Z
+aliases: ["Graded Modalities", "Linear Types", "QTT"]
+confidence: "4/5"
+created: 2025-12-19T00:00:00Z
+epistemic: "concept"
+last_reviewed: "2025-12-19"
+modified: 2025-12-25T11:40:21+00:00
 purpose: "To define Quantitative Type Theory as a formal system for tracking resource usage and its superiority to simpler ownership models."
-quality-markers: [Contrasts with Rust's binary ownership model., Explains graded modalities]
-related-soTs: ["[[SoT - Dependent Types in Software]]", "[[SoT - Rust's Ownership Model]]"]
-resonance-score: 8
-review_interval: 24 months
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: []
+review_interval: "24 months"
+see_also: ["[[SoT - Dependent Types in Software]]", "[[SoT - Rust's Ownership Model]]"]
+source_of_truth: []
+status: "stable"
 tags: ["formal-methods", "programming-languages", "resource-management", "type-theory"]
 title: SoT - Quantitative Type Theory
-type: SoT
+type: "SoT"
 uid: 
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Quantitative Type Theory (QTT)** is an advanced type system that extends traditional type theory with the ability to reason about the *quantity* or *number of times* a variable can be used. It provides a formal, mathematically rigorous framework for resource management that is more expressive than the simple ownership model of languages like Rust.
-
+updated: 
 ---
 
 ## 2. The Core Problem: Ownership is Too Coarse
@@ -35,7 +22,7 @@ updated:
 Simple ownership systems (like Rust's) operate on a binary model: you either own a value (and can use it once before it's moved) or you borrow it. This is a subset of a more general problem: managing resources that have specific usage constraints.
 
 | Failure Mode of Simple Ownership | The Problem | The QTT Solution |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Single-Use Limitation** | In a strict linear system, a value must be used exactly once. This is too restrictive for general programming. | **Graded Modalities:** QTT introduces types that explicitly quantify usage: 0, 1, or many times. A variable's type can specify its exact usage pattern. |
 | **No Distinction Between Resources** | A network socket, a file handle, and a configuration struct are all treated the same way by the ownership system, even though their usage patterns are fundamentally different. | **Resource-Specific Types:** QTT allows you to create types that encode the precise usage rules of a resource. For example, a type for a file handle could enforce that it is opened, written to, and then closed, all at compile time. |
 | **Inability to Express Fractional Ownership** | Complex data structures, like graphs or arenas, often require a concept of shared or fractional ownership that is difficult to express in a simple ownership model without runtime overhead (e.g., `Rc<T>`). | **Coeffects/Graded Semirings:** QTT can model complex sharing patterns by reasoning about resources algebraically, allowing for formal proofs about how data is shared and accessed. |

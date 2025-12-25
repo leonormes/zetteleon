@@ -1,30 +1,30 @@
 ---
 aliases: []
-author: Sandra Gittlen
-confidence: 
+author: "Sandra Gittlen"
+confidence: ""
 created: 2025-01-08T08:11:47Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T20:28:19Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
-source: https://about.gitlab.com/blog/2025/01/06/ultimate-guide-to-ci-cd-fundamentals-to-advanced-implementation/
+source: "https://about.gitlab.com/blog/2025/01/06/ultimate-guide-to-ci-cd-fundamentals-to-advanced-implementation/"
 source_of_truth: []
-status: 
-tags: [SDLC]
+status: ""
+tags: ["SDLC"]
 title: CICD Fundamental
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Ultimate Guide to CI/CD: Fundamentals to Advanced Implementation
 
 Clipped from: <https://about.gitlab.com/blog/2025/01/06/ultimate-guide-to-ci-cd-fundamentals-to-advanced-implementation/>
 
-Continuous integration/continuous delivery ([CI/CD](https://about.gitlab.com/topics/ci-cd/)) has revolutionized how software teams create value for their users. Gone are the days of manual deployments and integration headaches — modern development demands automation, reliability, and speed.
+Continuous integration/continuous delivery ([CI/CD](https://about.gitlab.com/topics/ci-cd/)) has revolutionized how software teams create value for their users. Gone are the days of manual deployments and integration headaches—modern development demands automation, reliability, and speed.
 
 At its core, CI/CD is about creating a seamless pipeline that takes code from a developer's environment all the way to production and incorporates feedback in real time.
 
@@ -40,7 +40,7 @@ What you'll learn:
 
 ### What is Continuous delivery?[](#what-is-continuous-delivery%3F)
 
-[Continuous delivery](https://about.gitlab.com/topics/ci-cd/#what-is-continuous-delivery-cd) (CD) – sometimes called *continuous deployment* – enables organizations to deploy their applications automatically, allowing more time for developers to focus on monitoring deployment status and assure success. With continuous delivery, DevSecOps teams set the criteria for code releases ahead of time and when those criteria are met and validated, the code is deployed into the production environment. This allows organizations to be more nimble and get new features into the hands of users faster.
+[Continuous delivery](https://about.gitlab.com/topics/ci-cd/#what-is-continuous-delivery-cd) (CD)–sometimes called *continuous deployment*–enables organizations to deploy their applications automatically, allowing more time for developers to focus on monitoring deployment status and assure success. With continuous delivery, DevSecOps teams set the criteria for code releases ahead of time and when those criteria are met and validated, the code is deployed into the production environment. This allows organizations to be more nimble and get new features into the hands of users faster.
 
 ### How Source Code Management Relates to CI/CD[](#how-source-code-management-relates-to-cicd)
 
@@ -107,7 +107,7 @@ How successful you are with CI/CD depends greatly on the
 
 #### CD Best practices[](#cd-best-practices)
 
-- Start where you are – you can always iterate.
+- Start where you are–you can always iterate.
 - Understand the best continuous delivery is done with minimal tools.
 - Track what’s happening so issues and merge requests don't get out of hand.
 - Streamline user acceptance testing and staging with automation.

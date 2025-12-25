@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-29T16:38:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - The Phases of Task Execution and the Impact of ADHD]]"
 source_of_truth: []
-status: seedling
-tags: [executive_function, neuroscience, prefrontal_cortex, self_monitoring]
+status: "seedling"
+tags: ["executive_function", "neuroscience", "prefrontal_cortex", "self_monitoring"]
 title: Performance Monitoring is Generated in the Medial Frontal Cortex
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

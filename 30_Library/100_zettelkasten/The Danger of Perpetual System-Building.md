@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T08:00:02Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [perfectionism, systems, topic/health/adhd, topic/productivity]
+status: "null"
+tags: ["perfectionism", "topic/health/adhd", "topic/productivity", "topic/systems"]
 title: The Danger of Perpetual System-Building
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 While building Complex Systems as Scaffolding for ADHD Executive Functions is a valid strategy, there is a significant danger of getting perpetually stuck in the building and refining phase rather than using the system.

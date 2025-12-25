@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T12:37:12Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-30T11:00:07Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - Authority Dynamics and ADHD]]"
 source_of_truth: []
-status: seedling
-tags: [evolutionary-psychology, psychology, social-dynamics]
+status: "seedling"
+tags: ["social-dynamics", "topic/psychology"]
 title: Shame as Social Regulatory Mechanism
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

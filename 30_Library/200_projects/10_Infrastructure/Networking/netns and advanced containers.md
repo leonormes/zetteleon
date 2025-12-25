@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers, networking]
+status: ""
+tags: ["containers", "topic/technology/networking"]
 title: netns and advanced containers
-type: instruction
+type: "instruction"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 when networking containers either in docker or k8s, is it done using the Linux kernel primitives and veth pairs objects? are the things I am learning about ip netns the exact same as used by more advanced containers
@@ -141,6 +141,7 @@ The `unshare` and `clone` system calls are fundamental to Linux namespaces and c
 ---
 
 ## 1. `clone()` Syscall
+
 ### Purpose
 
 Creates a new process (like `fork()`) but with fine-grained control over shared or isolated resources via namespace flags.
@@ -173,6 +174,7 @@ This child process will have its own PID and network stack.
 ---
 
 ## 2. `unshare()` Syscall
+
 ### Purpose
 
 "Unshares" parts of the current process's execution context (namespaces) without creating a new process.
@@ -213,6 +215,7 @@ Now, mounts/unmounts in this process won’t affect the host.
 ---
 
 ## 4. How Containers Use These Syscalls
+
 ### Docker/Kubernetes Workflow
 
 1. Container Start:
@@ -235,6 +238,7 @@ clone(child_main, stack, CLONE_NEWPID | CLONE_NEWNS | CLONE_NEWNET, ...);
 ---
 
 ## 5. Kernel Internals
+
 ### Data Structures
 
 - `struct task_struct`: Each process descriptor holds a `nsproxy` pointer.
@@ -277,6 +281,7 @@ ls -l /proc/$$/ns  # View namespaces of the current process
 ---
 
 ## 8. Practical Example
+
 ### Manual Container Setup with `clone()`
 
 1. Create Namespaces:
@@ -314,6 +319,7 @@ Here's a deep technical analysis of network switches and virtual switches, integ
 ---
 
 ## 1. Network Switch Fundamentals
+
 ### Core Functions
 
 - MAC Address Learning: Builds CAM table mapping ports to connected devices' MAC addresses[14][23]
@@ -340,6 +346,7 @@ Here's a deep technical analysis of network switches and virtual switches, integ
 ---
 
 ## 2. Virtual Switch Mechanics
+
 ### Core Components
 
 - vNIC Mapping: Virtual adapters bound to switch ports[10][40]
@@ -379,6 +386,7 @@ Here's a deep technical analysis of network switches and virtual switches, integ
 ---
 
 ## 4. Advanced Implementations
+
 ### Kubernetes Networking
 
 - OVN Integration: Implements logical switches/routers via Open vSwitch[32]
@@ -400,6 +408,7 @@ Here's a deep technical analysis of network switches and virtual switches, integ
 ---
 
 ## 5. Performance Considerations
+
 ### Throughput Optimization
 
 - SR-IOV: Bypass virtual switch via direct hardware access[32]

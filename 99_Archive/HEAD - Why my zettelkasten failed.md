@@ -1,22 +1,22 @@
 ---
 aliases: []
 AoL: Personal
-confidence:
+confidence: null
 created: 2025-12-06T07:59:11Z
-epistemic:
-last_reviewed:
-modified: 2025-12-20T09:54:05Z
-purpose:
-review_interval:
+epistemic: null
+last_reviewed: null
+modified: 2025-12-25T11:40:19+00:00
+purpose: null
+review_interval: null
 see_also: []
 source_of_truth: []
 status: archived
-superseded-by: "[[SoT - PRODOS - System Failure Modes]]"
-tags: [state/head, topic/adhd, topic/productivity, type/bug]
+superseded-by: '[[SoT - PRODOS - System Failure Modes]]'
+tags: [state/head, topic/health/adhd, topic/productivity]
 title: HEAD - Why my zettelkasten failed
 type: head
-uid:
-updated:
+uid: null
+updated: null
 ---
 
 > [!info] Status: Archived
@@ -56,6 +56,7 @@ We will refactor this into the HEAD note template using the Refactoring Protocol
 - **Vague Pain:** I was performing actions (doing Zettelkasten features) while expecting vague feelings of failure to vanish, instead of focusing on clear metrics.
 
 ### 🧪 Next Test (The Root Cause Analysis)
+
 *The immediate next step is to stop applying misaligned solutions and formally define the underlying pain.*
 
 - [ ] **Action 1 (Define the Bug):** Create a **HEAD Note** to specifically define the symptoms.
@@ -78,6 +79,7 @@ I can certainly help you validate your pivot. As a Systems Architect with an Abs
 Here is the analysis of your misalignment based on Sönke Ahrens' *How to Take Smart Notes* and general Zettelkasten principles.
 
 ### 1. The Purpose Audit
+
 **Your realization is correct.**
 
 Ahrens does not design Zettelkasten as a tool for Executive Function management or ADHD support. While he acknowledges that a good structure allows us to work without depleting willpower, the system assumes a specific input-output driver: **the production of public insight (writing).**

@@ -1,44 +1,32 @@
 ---
-aliases: [Dynamic Linking, Shared Libraries, Static Linking]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-19T13:15:01Z
-decay-signals: []
-epistemic: comparison
-last_reviewed: 2025-12-19
-modified: 2025-12-20T09:54:05Z
+aliases: ["Dynamic Linking", "Shared Libraries", "Static Linking"]
+confidence: "5/5"
+created: 2025-12-19T00:00:00Z
+epistemic: "comparison"
+last_reviewed: "2025-12-19"
+modified: 2025-12-25T11:40:20+00:00
 purpose: "To compare the trade-offs between static and dynamic linking, focusing on binary size, performance, and security."
-quality-markers: [Clearly defines both linking types, Highlights the security implications of static linking., Uses a table to contrast the trade-offs]
-related-soTs: []
-resonance-score: 9
-review_interval: 24 months
+review_interval: "24 months"
 see_also: []
-source_of_truth: true
-status: stable
-supersedes: []
+source_of_truth: []
+status: "stable"
 tags: ["compilers", "devops", "linking", "security"]
 title: SoT - Static vs Dynamic Linking
-type: SoT
+type: "SoT"
 uid: 
-updated:
+updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Linking** is the process of collecting and combining various pieces of code and data into a single file that can be loaded into memory and executed. The two primary strategies for this are:
->
-> 1. **Static Linking:** All required library code is copied directly into the final executable file at compile time. The result is a large, self-contained binary.
-> 2. **Dynamic Linking:** The executable contains only references (stubs) to shared libraries. The actual linking to the library code happens at runtime when the application is loaded by the operating system.
-
----
+> **Linking** is the process of collecting and combining various pieces of code and data into a single file that can be loaded into memory and executed. The two primary strategies for this are: ""
+> 1. **Static Linking: "** All required library code is copied directly into the final executable file at compile time. The result is a large, self-contained binary."
+> 2. **Dynamic Linking: "** The executable contains only references (stubs) to shared libraries. The actual linking to the library code happens at runtime when the application is loaded by the operating system."
 
 ## 2. The Core Problem: The Portability vs. Maintenance Trade-off
 
 The choice between static and dynamic linking represents a fundamental trade-off between creating portable, isolated applications versus creating an efficient, secure, and maintainable system.
 
 | Trade-off | Static Linking | Dynamic Linking |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Deployment** | **Simple & Portable:** The executable is a single file with no external dependencies. It "just works" when copied to a compatible system. | **Complex:** Requires the correct versions of all shared libraries (`.so`, `.dll`, `.dylib`) to be present on the target system. Can lead to "DLL Hell." |
 | **Binary Size** | **Large:** Every executable contains a full copy of every library it uses. If 10 programs use the same library, the code is duplicated 10 times on disk. | **Small:** Executables are small, containing only their own code and stubs. The library code exists in one shared place. |
 | **Memory Usage** | **High:** If 10 programs are running, the same library code is loaded into RAM 10 times, wasting memory and thrashing the instruction cache. | **Low:** The operating system loads the shared library into RAM once and maps it into the address space of all programs using it. |

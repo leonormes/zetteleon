@@ -1,18 +1,18 @@
 ---
-aliases: [Reward Yourself for Sticking to Routines]
-confidence: 
+aliases: ["Reward Yourself for Sticking to Routines"]
+confidence: ""
 created: 2025-10-29T16:10:00Z
-epistemic: strategy
-last_reviewed: 2025-12-16
-modified: 2025-12-16T11:57:38Z
+epistemic: "strategy"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To describe a method for reinforcing and motivating routine adherence."
-review_interval: 
+review_interval: ""
 see_also: ["[[Dopamine Management in ADHD Productivity]]", "[[Kaizen Method Uses Micro-Victories to Build Momentum]]"]
-source_of_truth: ["[[SoT - Identity-Based Habit Formation]]", "[[SoT - The Four Laws of Behavior Change]]"]
-status: stable
-tags: [habit-formation, motivation, positive-reinforcement, routine]
+source_of_truth: []
+status: "stable"
+tags: ["motivation", "positive-reinforcement", "routine", "topic/habits"]
 title: Celebrate Small Successes to Build Routine Momentum
-type: strategy
+type: "strategy"
 uid: 
 updated: 
 ---

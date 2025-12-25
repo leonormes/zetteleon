@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-29T16:35:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - 8 simple Japanese habits]]"
 source_of_truth: []
-status: seedling
-tags: [habit, health, Japanese_culture, mindfulness]
+status: "seedling"
+tags: ["health", "Japanese_culture", "mindfulness", "topic/habits"]
 title: Good posture supports clearer thinking
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

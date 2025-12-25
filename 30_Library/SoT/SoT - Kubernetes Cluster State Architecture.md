@@ -1,40 +1,32 @@
 ---
-aliases: [K8s Architecture, K8s Cluster State, K8s Mental Model]
-confidence: 5/5
-created: 2025-12-16T14:00:00Z
-epistemic: theory
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:08Z
-purpose: To define the correct mental model of Kubernetes cluster state as a relational database of independent records, rather than a monolithic configuration tree.
-related-soTs: ["[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - PRODOS (System Architecture)]]"]
-review_interval: 1 year
-see_also: ["[[SoT - FITFILE Platform Deployment]]", "[[SoT - Software Configuration Management Patterns]]"]
-source_of_truth: true
-status: stable
-tags: [architecture, devops, etcd, kubernetes, mental_model]
+aliases: ["K8s Architecture", "K8s Cluster State", "K8s Mental Model"]
+confidence: "5/5"
+created: 2025-12-16T00:00:00Z
+epistemic: "theory"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define the correct mental model of Kubernetes cluster state as a relational database of independent records, rather than a monolithic configuration tree."
+review_interval: "1 year"
+see_also: ["[[SoT - FITFILE Platform Deployment]]", "[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Software Configuration Management Patterns]]"]
+source_of_truth: []
+status: "stable"
+tags: ["architecture", "devops", "etcd", "kubernetes", "mental_model"]
 title: SoT - Kubernetes Cluster State Architecture
-type: SoT
-uid: 2025-12-16-K8S-STATE
+type: "SoT"
+uid: 
 updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **Kubernetes Cluster State** is not a monolithic configuration file (like a `config.json`). It is a **distributed relational database** of independent documents (Resources) stored in Etcd.
->
-> - **Objects:** Independent records (Pods, Services, Deployments).
-> - **Relationships:** Loosely coupled via **Label Selectors** (Soft Foreign Keys).
-> - **Interface:** The API Server acts as the SQL engine, translating Intent (`kubectl apply`) into CRUD operations on this database.
-
----
+> - **Objects: "** Independent records (Pods, Services, Deployments)."
+> - **Relationships: "** Loosely coupled via **Label Selectors** (Soft Foreign Keys)."
+> - **Interface: "** The API Server acts as the SQL engine, translating Intent (`kubectl apply`) into CRUD operations on this database."
 
 ## 2. The Mental Model: Database vs. Tree
 
 Newcomers often visualize Kubernetes as a nested tree (Deployment contains Pods). This is incorrect.
 
 | The Tree Model (Wrong) | The Database Model (Correct) |
-| :--- | :--- |
+|:--- |:--- |
 | A Deployment "owns" Pods physically. | A Deployment creates standalone Pods with a specific label. |
 | Deleting the parent kills the child. | Deleting the parent triggers garbage collection (OwnerReferences). |
 | Configuration is one big file. | Configuration is thousands of separate keys in `/registry/`. |
@@ -91,7 +83,7 @@ The **Ingress Controller** breaks the Namespace isolation model.
 When comparing **Git (Intent)** to **Cluster (Status)**, noise arises.
 
 | Source (Git) | Cluster (Etcd) |
-| :--- | :--- |
+|:--- |:--- |
 | `spec` (Desired State) | `spec` + `status` (Current Reality) |
 | Metadata (Name/Labels) | System Metadata (`uid`, `resourceVersion`, `managedFields`) |
 

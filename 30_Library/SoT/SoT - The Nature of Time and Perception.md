@@ -1,34 +1,23 @@
 ---
-aliases: [Consciousness and Time, Nature of Time, Time Perception]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-12T13:40:00Z
-epistemic:
-last-synthesis: 2025-12-12
-last_reviewed: 2025-12-12
-modified: 2025-12-20T09:54:06Z
-purpose: Canonical synthesis of the objective (physical) and subjective (conscious) nature of time, its philosophical implications, and the scientific pursuit of objectivity.
-quality-markers: []
-related-soTs: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Temporal Management (Blocking and Boxing)]]", "[[SoT - The Cognitive Physiology of Task Execution]]"]
-resonance-score: 10
-review_interval: 1 year
-see_also: ["[[SoT - Reality, Models, and the Limits of Accuracy]]"]
-source_of_truth: true
-status: stable
-supersedes: ["[[Time Without Human Perspective]]"]
-tags: ["consciousness", "philosophy", "physics", "psychology", "science", "time"]
+aliases: ["Consciousness and Time", "Nature of Time", "Time Perception"]
+confidence: "5/5"
+created: 2025-12-12T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-12"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "Canonical synthesis of the objective (physical) and subjective (conscious) nature of time, its philosophical implications, and the scientific pursuit of objectivity."
+review_interval: "1 year"
+see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Reality", "[[SoT - Temporal Management (Blocking and Boxing)]]", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[Time Without Human Perspective]]", "and the Limits of Accuracy]]", "Models"]
+source_of_truth: []
+status: "stable"
+tags: ["consciousness", "philosophy", "physics", "science", "time", "topic/psychology"]
 title: SoT - The Nature of Time and Perception
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Time: Objective vs. Subjective
-> **Time**, without a conscious mind to perceive it, is a physical dimension inseparable from spacetime and a measure of change governed by the laws of physics. The **subjective experience** of "flow," the specialness of "now," and the distinction between past and future are products of consciousness.
-
----
+> [!definition] Time: "Objective vs. Subjective"
 
 ## 2. Time as a Physical Dimension
 

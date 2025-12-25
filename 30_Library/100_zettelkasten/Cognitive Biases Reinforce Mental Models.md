@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:53:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [belief, topic/cognition, topic/cognition/bias, topic/psychology]
+status: "null"
+tags: ["belief", "topic/cognition", "topic/cognition/bias", "topic/psychology"]
 title: Cognitive Biases Reinforce Mental Models
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Even when faced with contradictory evidence, we have a strong tendency to believe our existing mental models are correct. This is not just stubbornness, but the result of powerful cognitive biases that create a strong reinforcement loop.

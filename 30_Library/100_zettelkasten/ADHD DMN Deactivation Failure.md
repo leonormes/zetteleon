@@ -1,20 +1,20 @@
 ---
-aliases: ["Default mode network ADHD", "DMN deactivation failure in ADHD"]
-confidence: 0.85
+aliases: []
+confidence: "0.85"
 created: 2025-10-31T00:05:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-10-31T16:42:56Z
-purpose: "Describes the specific ADHD deficit in deactivating the default mode network during tasks"
-review_interval: 90
-see_also: ["[[Neuroenergetic deficit theory proposes ADHD as cortical energy insufficiency]]", "[[Sustained attention activates right-lateralized fronto-parietal networks]]"]
-source_of_truth: [fMRI studies of ADHD during sustained attention tasks]
-status: seedling
-tags: [adhd, default-mode-network, neuroscience]
+epistemic: "fact"
+last_reviewed: "2025-10-31T00:00:00.000Z"
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: "90"
+see_also: []
+source_of_truth: []
+status: "seedling"
+tags: []
 title: ADHD DMN Deactivation Failure
-type: concept
-uid: 2025-10-31T00:05:00Z
-updated: 2025-10-31T00:05:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 **Summary:** During sustained attention tasks, healthy controls show progressive deactivation of the default mode network (particularly the precuneus) as attention load increases, but ADHD individuals fail to show this deactivation pattern, indicating problems with task-appropriate network suppression.

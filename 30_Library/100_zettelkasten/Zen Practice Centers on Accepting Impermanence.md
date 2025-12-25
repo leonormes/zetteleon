@@ -1,20 +1,20 @@
 ---
-aliases: [Accepting Impermanence]
-confidence: 0.9
+aliases: ["Accepting Impermanence"]
+confidence: "0.9"
 created: 2025-11-01T12:20:02Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T10:08:40Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "To define the Zen principle of accepting impermanence."
-review_interval: 90
-see_also: ['[[The Four Noble Truths Explain Suffering from Attachment]]']
-source_of_truth: ['[[MOC - Why Chasing Enlightenment Causes Suffering]]']
-status: seedling
-tags: [acceptance, buddhism, impermanence, zen]
+review_interval: "90"
+see_also: ["[[The Four Noble Truths Explain Suffering from Attachment]]"]
+source_of_truth: []
+status: "seedling"
+tags: ["acceptance", "buddhism", "impermanence", "zen"]
 title: Zen Practice Centers on Accepting Impermanence
-type: concept
-uid: 2025-11-01T12:20:02Z
-updated: 2025-11-01T12:20:02Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Zen Practice Centers on Accepting Impermanence

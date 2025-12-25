@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T13:14:20Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [excalidraw, icons, obsidian, visual-thinking]
+status: ""
+tags: ["excalidraw", "icons", "obsidian", "visual-thinking"]
 title: Using and Creating Icon Libraries in Excalidraw
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Excalidraw supports libraries of reusable icons to build a personal visual vocabulary.

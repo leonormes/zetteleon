@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-05-23T10:08:29Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/pkm/zettelkasten, topic/writing]
+status: "null"
+tags: ["topic/pkm/zettelkasten", "topic/writing"]
 title: Writing puts us in the powerful position of being able to observe our thinking
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Writing affords us the ability to observe our thinking.

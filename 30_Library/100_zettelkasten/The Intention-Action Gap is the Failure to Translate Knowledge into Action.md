@@ -1,20 +1,20 @@
 ---
-aliases: [Intention-Action Gap, Knowing-Doing Gap]
-confidence: 0.9
+aliases: ["Intention-Action Gap", "Knowing-Doing Gap"]
+confidence: "0.9"
 created: 2025-11-10T17:00:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T15:41:37Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the core problem of why intentions don't lead to actions."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - The Science and Philosophy of Taking Action]]"]
-status: seedling
-tags: [action, behavior, intention, psychology, willpower]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "behavior", "intention", "topic/psychology", "willpower"]
 title: The Intention-Action Gap is the Failure to Translate Knowledge into Action
-type: concept
-uid: 2025-11-10T17:00:00Z
-updated: 2025-11-10T17:00:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Intention-Action Gap is the Failure to Translate Knowledge into Action

@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T00:00:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-30T11:00:07Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - Understanding Self-Focus in Neurodivergent Individuals]]"
 source_of_truth: []
-status: seedling
+status: "seedling"
 tags: []
 title: Signs of higher-than-typical self-focus include conversation domination and poor memory for others
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

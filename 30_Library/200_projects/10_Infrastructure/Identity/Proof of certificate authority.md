@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-25T05:28:27Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [pki]
+status: ""
+tags: ["pki"]
 title: Proof of certificate authority
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 A Public Key Infrastructure (PKI) is a formal system of axioms and logical deductions designed to manage public keys and verify entity identities. Trust within this system is not absolute but is established through a transitive chain derived from a foundational, unproven axiom of trust in a root entity. Asymmetric encryption's confidentiality relies on the computational infeasibility of reversing a specific class of mathematical functions.
@@ -57,7 +57,7 @@ This certificate is a data structure containing:
 - The subject entity's public key ($K_{pub}(A)$).
 - Other metadata (validity period, etc.).
   This entire structure is then signed by the issuer, $CA$.
-  $Cert(CA \rightarrow A) = \{ \text{Data}: (A, K_{pub}(A), ...), \text{Signature}: Sign(\text{Data}, K_{priv}(CA)) \}$
+  $Cert(CA \rightarrow A) = \{ \text{Data}: (A, K_{pub}(A),...), \text{Signature}: Sign(\text{Data}, K_{priv}(CA)) \}$
 
 ## Logical Proof of Trust in a Certificate Authority (CA)
 

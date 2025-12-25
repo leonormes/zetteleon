@@ -1,20 +1,20 @@
 ---
-aliases: [Antifragility]
-confidence: 
+aliases: ["Antifragility"]
+confidence: ""
 created: 2025-11-01T09:51:13Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-01T10:00:59Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [anti-fragility, chaos, mental-model, resilience, strategy]
+status: "seedling"
+tags: ["anti-fragility", "chaos", "mental-model", "resilience", "strategy"]
 title: Anti-Fragility Means Systems That Benefit From Volatility
-type: concept
+type: "concept"
 uid: 
-updated: 2025-11-01T09:51:13Z
+updated: 
 ---
 
 ## Anti-Fragility Means Systems That Benefit From Volatility

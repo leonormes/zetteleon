@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-22T15:05:01Z
-epistemic: principle
-last_reviewed: 2025-11-22
-modified: 2025-11-22T14:50:52Z
+epistemic: "principle"
+last_reviewed: "2025-11-22"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Advocates for grouping subnets logically rather than flattening them."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [best-practices, networking, terraform]
+status: "seedling"
+tags: ["best-practices", "terraform", "topic/technology/networking"]
 title: Strategy - Hierarchical Subnetting
-type: strategy
-uid: 2025-11-22T15:05:01Z
-updated: 2025-11-22T15:05:01Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## Hierarchical Subnetting

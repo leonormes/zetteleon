@@ -1,97 +1,83 @@
 ---
-aliases: [Deployment Master Guide, FitFile Deployment Playbook]
+aliases: [Deployment Master Guide, FitFile Deployment Playbook, Start Here - Deployment]
 confidence: 5/5
-created: 2025-12-20T00:00:00Z
+created: 2025-12-21T09:34:38Z
 epistemic: synthesis
-last_reviewed: 2025-12-21
-modified: 2025-12-21T12:00:00Z
-purpose: A comprehensive, step-by-step Map of Content (MOC) and guide for deploying the FitFile platform, acting as the primary Source of Truth (SoT) for engineers.
+last_reviewed: 2025-12-23
+modified: 2025-12-25T18:34:57Z
+purpose: The primary entry point and Master Guide for the FitFile platform deployment process.
 review_interval: 3 months
-see_also: ["[[FITFILE Deployment Docs]]", "[[SoT - FITFILE Platform Components]]", "[[SoT - FITFILE Platform Deployment]]", "[[Updated Azure Customer Checklist]]"]
-source_of_truth: true
+Reviewed: true
+see_also: ["[[SoT - FITFILE Platform Deployment]]", "[[SoT - FITFILE Secret Management Architecture]]"]
+source_of_truth: []
 status: stable
-tags: [ff_deploy, guide, moc]
+tags: [ff_deploy, index, process]
 title: MOC - FitFile Deployment
 type: MOC
 uid: 
 updated: 
-version: 2.0
 ---
 
 ## MOC - FITFILE Deployment Playbook
 
 > [!abstract] Executive Summary
-> This document acts as the **Master Deployment Guide** for the FitFile platform. It orchestrates the deployment process across four distinct phases, linking to specific technical guides for detailed execution.
->
-> **Goal:** Transform an empty cloud account into a fully operational, compliant FitFile node.
+> This document orchestrates the end-to-end deployment of the FitFile platform. It routes engineers through four distinct execution phases, architectural principles, and troubleshooting protocols.
 
 ---
 
-### Core SoTs and Architectural Principles (Start Here)
+### 1. Core Architecture (Knowledge)
 
-These notes provide the high-level narrative and architecture of the deployment system.
+Understand the *Why* before the *How*. These notes define the stable logic of the system.
 
-1.  **[[SoT - FITFILE Platform Deployment]]** - **The Master Map.** The end-to-end flow from commit to cloud.
-2.  **[[SOT - CI-CD Pipelines]]** - **The Engine.** Detailed documentation of the GitLab CI/CD pipelines.
-3.  **[[SoT - FITFILE Secret Management Architecture]]** - **The Keys.** How Vault and VSO secure the platform.
-4.  **[[SoT - FitFile Deployment - Architecture and Concepts]]** - The core architectural concepts of the deployment process.
-
----
-
-### 1. Pre-Flight Checklist
-
-Before initiating any phase, ensure the following prerequisites are met:
-
-- [ ] **Access:** HashiCorp Cloud Platform (HCP), Auth0, GitLab, Cloud Provider (AWS/Azure).
-- [ ] **Tooling:** `terraform`, `tfenv`, `aws-cli` / `az-cli`, `kubectl`, `git`. See [[Tooling]] for work index.
-- [ ] **Repository:** Cloned `fitfile/terraform-infrastructure` and `fitfile/customers`. See [[Repository Structure Refactoring for Clarity]].
-- [ ] **Checklists:** Review the for Azure deployments.
-- [ ] **Prerequisites:** [[Prerequisities]]
+- **[[SoT - FITFILE Platform Deployment]]**—**The Master Map.** High-level GitOps flow, Three-Tier architecture, and "App of Apps" pattern.
+- **[[SOT - CI-CD Pipelines]]**—The engine documentation for GitLab pipelines.
+- **[[SoT - FITFILE Secret Management Architecture]]**—The canonical model for Vault and VSO. *(Updated with Oct 2025 Audit & Security Standards)*
 
 ---
 
-### 2. The Deployment Phases
+### 2. Execution Roadmap (The Phases)
+
+Follow these phases sequentially to transform an empty cloud account into an operational node.
 
 #### Phase 1: Foundation & Tooling
-**Goal:** Establish the central identity, secrets, and monitoring control plane. This is the "Key to the Castle."
 
-- **Detailed Guide:** [[SoT - FitFile Deployment - Phase 1 - Foundation and Tooling]]
+Establish the central control plane (HCP, Vault, Auth0, Monitoring).
 
-#### Phase 2: Core Infrastructure (The Bedrock)
-**Goal:** Provision the physical cloud resources (VPC, EKS/AKS, Jumpbox) using Terraform.
+- **Guide:** [[SoT - FitFile Deployment - Phase 1 - Foundation and Tooling]]
 
-- **Detailed Guide:** [[SoT - FitFile Deployment - Phase 2 - Core Infrastructure]]
+#### Phase 2: Core Infrastructure
 
-#### Phase 3: Platform Services (The Runtime)
-**Goal:** Install the "Operating System" of the cluster (ArgoCD, Vault integration, Ingress) from *within* the private network.
+Provision the private network, cluster bedrock, and Jumpbox via Terraform.
 
-- **Detailed Guide:** [[SoT - FitFile Deployment - Phase 3 - Platform Services]]
+- **Guide:** [[SoT - FitFile Deployment - Phase 2 - Core Infrastructure]]
 
-#### Phase 4: Application Layer (The Logic)
-**Goal:** Deploy the actual FitFile services (FFNode, MongoDB, Frontend) via GitOps.
+#### Phase 3: Platform Services
 
-- **Detailed Guide:** [[SoT - FitFile Deployment - Phase 4 - Application Layer]]
+Install the "Cluster OS" (ArgoCD, Ingress, VSO) from within the network.
 
----
+- **Guide:** [[SoT - FitFile Deployment - Phase 3 - Platform Services]]
 
-### 3. Networking and Security
+#### Phase 4: Application Layer
 
-- **Detailed Guide:** [[SoT - FitFile Deployment - Networking and Security]]
+Deploy microservices and perform post-deploy database/RBAC configuration.
+
+- **Guide:** [[SoT - FitFile Deployment - Phase 4 - Application Layer]]
 
 ---
 
-### 4. Troubleshooting & Known Issues
+### 3. Specialized Guides & Protocols
 
-- **Detailed Guide:** [[SoT - FitFile Deployment - Troubleshooting and Known Issues]]
-
----
-
-### 5. Field Notes & Gotchas (From the Trenches)
-
-- **Detailed Guide:** [[SoT - FitFile Deployment - Field Notes and Gotchas]]
+- **[[SoT - FitFile Deployment - Networking and Security]]**—Detailed breakdown of private link architecture and Calico policies.
+- **[[SoT - FitFile Deployment - Troubleshooting and Known Issues]]**—Rapid recovery steps for common failure modes.
 
 ---
 
-### 6. Deployment Log (Reference)
+### 4. Operational Maintenance
 
-For a raw, real-world example of a deployment log including error messages and "gotchas", see the institutional knowledge captured in this MOC.
+- **[[Kubernetes Backup and Disaster Recovery for AWS and Azure]]**—Data protection strategies.
+
+---
+
+**Navigation Hubs:**
+- [[SoT.base|All Source of Truth Notes]]
+- [[MOCx.base|All Maps of Content]]

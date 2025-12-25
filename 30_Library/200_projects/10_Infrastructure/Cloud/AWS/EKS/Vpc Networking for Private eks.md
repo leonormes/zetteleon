@@ -1,65 +1,37 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-02-07T12:57:53Z
-depends_on:
-  - name: deployment_phases
-    type: documentation
-    reason: Defines the overall deployment structure
-    doc_link: "[Deployment Phases](Deployment%20Phases.md)"
-  - name: terraform_cloud_projects
-    type: tooling
-    reason: Required for infrastructure state management and deployment
-    doc_link: "[terraform_cloud_projects](terraform_cloud_projects.md)"
-  - name: aws_account_setup
-    type: tooling
-    reason: Required for AWS resource creation
-    doc_link: "[aws_account_setup](aws_account_setup)"
-deployment_phase: 2
-description: VPC configuration for private EKS cluster
-epistemic:
-iac_path:
-  - repo: terraform-aws-eks-private
-    path: modules/vpc2
-    main_file: main.tf
-last_reviewed:
-modified: 2025-12-21T09:49:27Z
-name: vpc_networking_for_private_eks
-phase_order:
-  phase: 2
-  step: 1
-  next_steps:
-    - vpc_endpoints
-    - jumpbox
-purpose:
-required_configurations:
-  - name: CIDR ranges
-    description: Network CIDR block allocations
-  - name: AWS region
-    description: Target deployment region
-  - name: TFC workspace
-    description: Terraform Cloud workspace configuration
-required_resources:
-  - type: aws_service
-    name: vpc
-    reason: Base networking infrastructure
-  - type: aws_service
-    name: ec2
-    reason: Required for VPC endpoints
-  - type: external_service
-    name: terraform_cloud
-    reason: Required for state management and deployment
-review_interval:
+depends_on: ["name: \"TFC workspace"]
+deployment_phase: "2"
+description: "Terraform Cloud workspace configuration"
+doc_link: "[aws_account_setup](aws_account_setup)"
+epistemic: "null"
+iac_path: ["repo: \"terraform-aws-eks-private"]
+last_reviewed: "null"
+main_file: "main.tf"
+modified: 2025-12-25T11:40:44+00:00
+name: "terraform_cloud"
+next_steps: ""
+path: "modules/vpc2"
+phase: "2"
+phase_order: ""
+purpose: "null"
+reason: "Required for state management and deployment"
+required_configurations: ""
+required_resources: ["type: \"external_service"]
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [aws, ff_deploy, networking, vpc]
+status: "null"
+step: "1"
+tags: ["aws", "ff_deploy", "topic/technology/networking", "vpc"]
 title: Vpc Networking for Private eks
-type:
-uid:
-updated:
-verification_steps:
-version: 1
+type: "null"
+uid: 
+updated: 
+verification_steps: "null"
+version: "1"
 ---
 
 Information about using the CIDR range 10.1.0.0/16 for an AWS VPC that will host a private EKS cluster.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-22T09:39:10Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T15:59:53Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:43+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [bridge, hands-on, linux, namespaces, topic/technology/networking, tutorial, veth]
+status: "null"
+tags: ["bridge", "hands-on", "k8s", "linux", "namespaces", "topic", "topic/technology/networking", "tutorial", "veth", bridge, hands-on, linux, namespaces, topic/technology/networking, tutorial, veth]
 title: Linux Networking
-type: map
+type: "map"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Here’s a **hands-on learning curriculum** to help you deeply understand Kubernetes networking by **building container-like networks from scratch** using **Linux network namespaces**, **veth pairs**, and **bridges**. This approach will simulate K8s *Pod-to-Pod networking* on a single host, giving you both the conceptual and the practical grounding needed before exploring [CNI plugin](https://spacelift.io/blog/kubernetes-networking) behavior and multi-node networking
@@ -160,7 +160,7 @@ iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -j MASQUERADE
 **Goal:** Map your manual setup to actual Kubernetes concepts.
 
 | Manual Concept    | Kubernetes Analogy               | Tool/Component |
-| :---------------- | :------------------------------- | :------------- |
+|:---------------- |:------------------------------- |:------------- |
 | Namespace (netns) | Pod network namespace            | Kubelet        |
 | veth pair         | Pod eth0 ↔ Node bridge          | CNI plugin     |
 | Linux bridge      | Node-level `cni0` (“bridge CNI”) | CNI bridge     |
@@ -388,7 +388,7 @@ iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -j MASQUERADE
 **Goal:** Map your manual setup to actual Kubernetes concepts.
 
 | Manual Concept    | Kubernetes Analogy               | Tool/Component |
-| :---------------- | :------------------------------- | :------------- |
+|:---------------- |:------------------------------- |:------------- |
 | Namespace (netns) | Pod network namespace            | Kubelet        |
 | veth pair         | Pod eth0 ↔ Node bridge          | CNI plugin     |
 | Linux bridge      | Node-level `cni0` (“bridge CNI”) | CNI bridge     |
@@ -462,6 +462,7 @@ That’s why your intuition is correct: modern networking is less about tangible
 ## Analysis of Original Note
 
 ### 1. Current Classification
+
 **Mixed (Tutorial + Model + Multiple Facts + Mechanisms)**
 
 ### 2. Rationale

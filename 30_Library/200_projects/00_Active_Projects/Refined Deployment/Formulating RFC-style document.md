@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-10-27T21:22:10Z
-epistemic:
-last_reviewed:
-modified: 2025-12-21T14:57:58Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:32+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [sdlc]
+status: ""
+tags: ["sdlc"]
 title: Formulating RFC-style document
-type: rfc
-uid:
-updated:
-version:
+type: "rfc"
+uid: 
+updated: 
+version: ""
 ---
 
 ## Formulating RFC-style Document
@@ -202,7 +202,7 @@ This ensures idempotent shortening with low collision risk. Implementation must 
 
 #### 5.4 Terraform Module Interface
 
-`modules/dcd` (Builder module) – variables:
+`modules/dcd` (Builder module)–variables:
 
 ```hcl
 variable "seed" {
@@ -406,7 +406,7 @@ zone_type: public
 - `logs_bucket`: `acme-prod-eu-west-1-payments-api-logs`
 - `iam_role_name`: `acme-core-prod-payments-api-role`
 
-#### 6.4 TypeScript Helper (CLI `cdctl`) — Validation + Preview
+#### 6.4 TypeScript Helper (CLI `cdctl`)—Validation + Preview
 
 > Rationale: You prefer TDD/TypeScript; this gives fast feedback before `terraform plan`.
 
@@ -466,7 +466,7 @@ export function derive(seed: Seed) {
 
 - Output always lower-case; no invalid chars; length caps obeyed; hash suffix stable; idempotency on same Seed.
 
-#### 6.5 GitHub Actions (CI) — Plan + Policy Gate
+#### 6.5 GitHub Actions (CI)—Plan + Policy Gate
 
 ```yaml
 name: infra-plan
@@ -629,7 +629,7 @@ Would you like me to:
 - scaffold the **TypeScript CLI (**`cdctl`) with tests so you can iterate TDD-style?
   I am a developer. I have always tried to make robust flexible code. I have this sense that loosely coupled code is more resilient. But the config for a particular app deployment is so delicate and fragile. 1 wrong character in a string, 1 byte wrong in some encrypted secret cause the whole system to stop working. I would like to be able to separate out config in my terraform IAC and keep it safe and change evident. Having as much automated as possible. For instance, having a DNS Hostnaming service naming protocol that means I supply minimal config, like the base domain and the code generates the rest based on it. That way, once the builder code is validated as correct my input is small and so less error prone. Formalise this idea for me and describe it in a RFC type doc
 
-Title: RFC-XXXX — Declarative, Generative Configuration for Robust Terraform Deployments
+Title: RFC-XXXX—Declarative, Generative Configuration for Robust Terraform Deployments
 
 Status: Draft
 

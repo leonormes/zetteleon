@@ -1,30 +1,20 @@
 ---
-aliases: [ADHD Developer Guide, Remote Dev ADHD Strategy]
-confidence: 5/5
+aliases: ["ADHD Developer Guide", "Remote Dev ADHD Strategy"]
+confidence: "5/5"
 created: 2025-12-14T00:00:00Z
-epistemic: theory
-last_reviewed: 2025-12-14
-modified: 2025-12-20T09:54:10Z
-purpose: A comprehensive guide for remote software developers with ADHD to manage deficits, leverage strengths, and build sustained productivity.
-review_interval: 6 months
+epistemic: "theory"
+last_reviewed: "2025-12-14"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "A comprehensive guide for remote software developers with ADHD to manage deficits, leverage strengths, and build sustained productivity."
+review_interval: "6 months"
 see_also: ["[[MOC - ADHD Management]]", "[[SoT - The Extended Mind]]"]
-source_of_truth: true
-status: stable
-supersedes: ["[[SN - Sequence - A Deep Dive into Adult ADHD in Remote Software Development]]"]
-tags: [adhd, developer, remote_work, software_development, strategy]
+source_of_truth: []
+status: "stable"
+tags: ["developer", "remote_work", "software_development", "strategy", "topic/health/adhd"]
 title: SoT - ADHD in Remote Software Development
-type: SoT
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] The Remote Dev ADHD Paradox
-> Remote software development offers the **environmental control** the ADHD brain craves but removes the **external structure** it relies on.
->
-> Success requires replacing the "missing manager" with a personalized **External Executive Function System** that specifically addresses the cognitive load of coding, the ambiguity of remote communication, and the emotional volatility of feedback (RSD).
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. The Core Deficits in a Dev Context

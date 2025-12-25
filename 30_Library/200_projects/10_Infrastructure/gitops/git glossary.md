@@ -1,23 +1,23 @@
 ---
 aliases: []
-author:
-confidence: 
+author: ""
+confidence: ""
 created: 2025-03-22T08:27:07Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
-source: https://git-scm.com/docs/gitglossary/2.19.0?hl=en-GB#:~:text=The%20commit%20objects%20form%20a,there%20is%20no%20chain%20which
+source: "https://git-scm.com/docs/gitglossary/2.19.0?hl=en-GB#:~:text=The%20commit%20objects%20form%20a,there%20is%20no%20chain%20which"
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: git glossary
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Git - Gitglossary Documentation
@@ -96,7 +96,7 @@ Note that commands that operate on the history of the current branch (e.g. `git 
 
 [](#Documentation/gitglossary.txt-aiddefdirectoryadirectory)directory
 
-The list you get with "ls" :-)
+The list you get with "ls":-)
 
 [](#Documentation/gitglossary.txt-aiddefdirtyadirty)dirty
 
@@ -216,7 +216,7 @@ Pathspecs are used on the command line of "git ls-files", "git ls-tree", "git ad
 - the pathspec up to the last slash represents a directory prefix. The scope of that pathspec is limited to that subtree.
 - the rest of the pathspec is a pattern for the remainder of the pathname. Paths relative to the directory prefix will be matched against that pattern using fnmatch(3); in particular, *** and *?* *can* match directory separators.
 
-For example, Documentation/*.jpg will match all .jpg files in the Documentation subtree, including Documentation/chapter\_1/figure\_1.jpg.
+For example, Documentation/*.jpg will match all.jpg files in the Documentation subtree, including Documentation/chapter\_1/figure\_1.jpg.
 
 A pathspec that begins with a colon `:` has special meaning. In the short form, the leading colon `:` is followed by zero or more "magic signature" letters (which optionally is terminated by another colon `:`), and the remainder is the pattern to match against the path. The "magic signature" consists of ASCII symbols that are neither alphanumeric, glob, regex special characters nor colon. The optional colon that terminates the "magic signature" can be omitted if the pattern begins with a character that does not belong to "magic signature" symbol set and is not a colon.
 

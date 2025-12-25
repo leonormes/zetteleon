@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 0.7
+confidence: "0.7"
 created: 2025-11-01T11:22:13Z
-epistemic: opinion
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:35:44Z
+epistemic: "opinion"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "State the meta-claim that mathematics lacks a single unifying first principle."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Mathematics Is Frequently Described as the Science of Patterns]]", "[[Structuralism (Mathematics as Study of Structure)]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/Maths/What is maths.md"]
-status: seedling
-tags: [foundations, philosophy, topic/maths]
+source_of_truth: []
+status: "seedling"
+tags: ["foundations", "philosophy", "topic/maths"]
 title: There Is No Single First Principle of Mathematics
-type: concept
-uid: 2025-11-01T11:22:13Z
-updated: 2025-11-01T11:22:13Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** There is no single, universally accepted "first principle" of mathematics from which all else flows. Instead, mathematics is characterized by multiple competing philosophical frameworks that each propose different fundamental natures for the discipline.

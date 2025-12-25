@@ -1,20 +1,20 @@
 ---
-aliases: [Amateur vs Professional Mindset, Resistance (Pressfield), Turning Pro]
-confidence: 0.9
+aliases: ["Amateur vs Professional Mindset", "Resistance (Pressfield)", "Turning Pro"]
+confidence: "0.9"
 created: 2025-12-11T00:00:00Z
-epistemic: theory
-last_reviewed: 2025-12-11
-modified: 2025-12-20T09:54:54Z
-purpose: To define the concept of Resistance as the enemy of creative work and 'Turning Pro' as the solution, serving as a core mental model for ProdOS.
-review_interval: 6 months
+epistemic: "theory"
+last_reviewed: "2025-12-11"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "To define the concept of Resistance as the enemy of creative work and 'Turning Pro' as the solution, serving as a core mental model for ProdOS."
+review_interval: "6 months"
 see_also: ["[[ADHD Brain Operates on an Interest-Based Nervous System]]", "[[Logic Does Not Produce Dopamine]]", "[[SoT - PRODOS (System Architecture)]]"]
-source_of_truth: ["The War of Art"]
-status: sapling
-tags: [mental_model, pressfield, productivity, psychology]
+source_of_truth: []
+status: "sapling"
+tags: ["mental_model", "pressfield", "topic/productivity", "topic/psychology"]
 title: The War of Art - Resistance and Turning Pro
-type: principle
-uid: 20251211-RESISTANCE-PRO
-updated: 2025-12-11
+type: "principle"
+uid: 
+updated: 
 ---
 
 **Core Insight:** The greatest barrier to creative work is not lack of talent, but **Resistance**—an active, intelligent, and malicious force that opposes any growth or ascent from a lower to a higher state.
@@ -34,7 +34,7 @@ Resistance is the friction you feel when you attempt to move from "who you are" 
 You cannot "fix" Resistance; you can only outlast it. The method is **Turning Pro**.
 
 | The Amateur | The Professional |
-| :--- | :--- |
+|:--- |:--- |
 | Works only when "inspired". | Works on a schedule, inspired or not. |
 | Identifies with the work (Failure = "I am a failure"). | Detaches from the work (Failure = "Data"). |
 | Seeks external validation (Hierarchy). | Seeks internal mastery (Territory). |
@@ -42,7 +42,7 @@ You cannot "fix" Resistance; you can only outlast it. The method is **Turning Pr
 
 **The Professional's Code:**
 
-> "The professional knows that success, like happiness, comes as a by-product of work. The professional concentrates on the work and allows rewards to come or not come, whatever they like." — Steven Pressfield
+> "The professional knows that success, like happiness, comes as a by-product of work. The professional concentrates on the work and allows rewards to come or not come, whatever they like."—Steven Pressfield
 
 ## 3. The Higher Realm (The Muse)
 

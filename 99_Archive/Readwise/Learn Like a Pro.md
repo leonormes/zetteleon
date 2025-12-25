@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T15:49:34Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-12T16:07:53Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,12 +22,14 @@ updated:
 ![rw-book-cover](https://m.media-amazon.com/images/I/81viMG6VEHL._SY160.jpg)
 
 ### Metadata
+
 - Author: [[Barbara Oakley PhD and Olav Schewe]]
 - Full Title: Learn Like a Pro
 - Category: #books
 - Document Tags: [[learning]]
 
 ### Highlights
+
 - Your studies begin a pattern of focusing on the process—putting in certain amounts of dedicated time—rather than the goal or outcome. In the long run, having a good process in place is much more important than any one individual session or goal. ([Location 100](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=100))
     - Note: James Clear talks about this too
 - The Pomodoro Technique is highly adaptable. If you get into the flow and find yourself wanting to continue past 25 minutes, that’s okay. The length of the reward period is also flexible and can be longer than 5 minutes if your Pomodoro has gone longer than the usual 25 minutes. Just don’t forget that taking a mental break is important. One analysis of data from a time-recording app found that highly productive workers work for an average of 52 minutes with a 17-minute break.4 The key was that when these superstar workers focused, they focused, and when they took a break, they really took a break. ([Location 106](https://readwise.io/to_kindle?action=open&asin=B08FZ8Z6RD&location=106))

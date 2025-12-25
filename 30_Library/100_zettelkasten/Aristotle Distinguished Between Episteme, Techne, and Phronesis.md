@@ -1,20 +1,20 @@
 ---
-aliases: [Aristotelian Knowledge, Episteme-Techne-Phronesis]
-confidence: 0.9
+aliases: ["Aristotelian Knowledge", "Episteme-Techne-Phronesis"]
+confidence: "0.9"
 created: 2025-11-12T14:10:02Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-12T13:54:40Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To define Aristotle's three forms of knowledge."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience]]"]
-source_of_truth: ["[[MOC - The Science of Taking Action Bridging the Knowledge-Action Gap]]"]
-status: seedling
-tags: [aristotle, knowledge, philosophy]
+source_of_truth: []
+status: "seedling"
+tags: ["aristotle", "knowledge", "philosophy"]
 title: Aristotle Distinguished Between Episteme, Techne, and Phronesis
-type: concept
-uid: 2025-11-12T14:10:02Z
-updated: 2025-11-12T14:10:02Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Aristotle Distinguished Between Episteme, Techne, and Phronesis

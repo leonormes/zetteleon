@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-13T10:12:19Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [data-centric]
+status: ""
+tags: ["data-centric"]
 title: Continuous Learning and Practice
-type: curriculum
+type: "curriculum"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 - Read Classic Texts: Books like "Cracking the Coding Interview" and "Introduction to Algorithms" are excellent resources for deepening your understanding of data structures and algorithms.

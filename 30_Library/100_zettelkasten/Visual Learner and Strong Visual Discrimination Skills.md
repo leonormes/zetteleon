@@ -1,21 +1,21 @@
 ---
-aliases: [Visual Discrimination, Visual Learning Style]
-confidence: 0.9
+aliases: ["Visual Discrimination", "Visual Learning Style"]
+confidence: "0.9"
 created: 2025-06-20T18:34:06Z
-epistemic: concept
-last_reviewed: 2025-11-02
-modified: 2025-11-03T13:48:35Z
+epistemic: "concept"
+last_reviewed: "2025-11-02"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "To define the visual learning style and the role of visual discrimination skills in cognitive processing."
-review_interval: 180
+review_interval: "180"
 see_also: ["[[Pattern Recognition is the Cognitive Process of Organizing Sensory Input]]", "[[Perception in learning]]", "[[Thinking & Creating Skills (Your Clever Brain)]]"]
 source_of_truth: []
-status: evergreen
-tags: [cognition, learning, skills, visual-thinking]
+status: "evergreen"
+tags: ["learning", "skills", "topic/cognition", "visual-thinking"]
 title: Visual Learner and Strong Visual Discrimination Skills
-type: concept
-uid: 20250620183406
-updated: 2025-11-02T13:30:00Z
-version: 2
+type: "concept"
+uid: 
+updated: 
+version: "2"
 ---
 
 **Summary:** A visual learning style is a preference for processing information through visual means, a preference often supported by strong visual discrimination skills—the ability to discern similarities and differences in visual information.

@@ -1,20 +1,20 @@
 ---
-aliases: [Dual Coding]
-confidence: 0.9
+aliases: ["Dual Coding"]
+confidence: "0.9"
 created: 2025-11-10T16:12:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T14:08:42Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To define Dual Coding Theory."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Concept Mapping is a Technique for Visually Organizing Knowledge]]"]
-source_of_truth: ["[[MOC - Understanding vs Learning]]"]
-status: seedling
-tags: [cognition, dual-coding, learning, memory]
+source_of_truth: []
+status: "seedling"
+tags: ["dual-coding", "learning", "memory", "topic/cognition"]
 title: Dual Coding Theory Suggests Using Verbal and Visual Channels Enhances Memory
-type: concept
-uid: 2025-11-10T16:12:00Z
-updated: 2025-11-10T16:12:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Dual Coding Theory Suggests Using Verbal and Visual Channels Enhances Memory

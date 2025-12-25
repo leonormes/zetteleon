@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T13:06:00Z
-epistemic: perspective
-last_reviewed: 
-modified: 2025-10-31T13:10:58Z
+epistemic: "perspective"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Explain Camus' absurdist response to meaninglessness."
-review_interval: 90
+review_interval: "90"
 see_also: ["Nihilism vs Constructed Meaning.md"]
 source_of_truth: []
-status: seedling
-tags: [absurdism, philosophy]
+status: "seedling"
+tags: ["absurdism", "philosophy"]
 title: Absurdism as Rebellion Against Meaninglessness
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

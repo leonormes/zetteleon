@@ -1,20 +1,20 @@
 ---
-aliases: [Top-Down Music]
-confidence: 0.9
+aliases: ["Top-Down Music"]
+confidence: "0.9"
 created: 2025-11-10T11:05:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T08:55:35Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To define the origin of commercial or 'top-down' music."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Music as Expression vs Product]]"]
-status: seedling
-tags: [commerce, marketing, music, product]
+source_of_truth: []
+status: "seedling"
+tags: ["commerce", "marketing", "music", "product"]
 title: Music as a Product is Born From a Market-Driven Goal
-type: concept
-uid: 2025-11-10T11:05:00Z
-updated: 2025-11-10T11:05:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Music as a Product is Born From a Market-Driven Goal

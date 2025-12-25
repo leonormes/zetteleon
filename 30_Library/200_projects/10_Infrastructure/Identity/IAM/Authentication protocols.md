@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-03T09:19:56Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Authentication protocols
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Authentication protocols are fundamental components of Identity and Access Management (IAM) solutions, which are crucial for securely managing user identities and controlling access to valuable resources, especially as businesses move operations to the cloud. IAM, at its core, answers the question "Who are you?" through authentication. Authentication is the process of verifying an identity. This is distinct from **authorization**, which determines "What are you allowed to do?" once successfully logged in.
@@ -82,7 +82,7 @@ To address the shortcomings of traditional passwords and enhance security, vario
 
 ## Authentication and Data Security in Web Development
 
-These protocols are critical for securing data in web development, especially "data in motion" – data being transmitted between applications, databases, or APIs.
+These protocols are critical for securing data in web development, especially "data in motion"–data being transmitted between applications, databases, or APIs.
 
 - **Secure Data Transmission (SSL/TLS):** Secure Sockets Layer (SSL) and its successor, Transport Layer Security (TLS), are cryptographic protocols that should be the standard for data security. When an SSL connection is created, a public and private key pair is generated using symmetric key cryptography. TLS operates at the presentation layer (OSI Layer 6), handling encryption and compression, and at the application layer (TCP/IP model). Mutually authenticated TLS is considered a reasonable approach for network security in client/server interactions, especially for browser-based applications. It protects communications even within the same data center.
 - **Asynchronous (Public/Private Key) Cryptography:** Uses sets of public/private key pairs where the sender encrypts with the recipient's public key and signs with their private key, and the receiver decrypts with their private key and verifies with the sender's public key. This is valuable for insecure channels, such as in-aisle purchasing via BLE beacons, ensuring message integrity and origin verification. X certificates, which define public key certificates and validation methods, are crucial here.

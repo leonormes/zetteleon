@@ -1,20 +1,20 @@
 ---
-aliases: [ADHD Digital Tools, ADHD Productivity Apps]
-confidence: 0.8
+aliases: ["ADHD Digital Tools", "ADHD Productivity Apps"]
+confidence: "0.8"
 created: 2025-11-06T19:54:05Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
-purpose: "To categorize and provide examples of digital tools that can help developers with ADHD manage their workflow."
-review_interval: 90
+epistemic: "fact"
+last_reviewed: "2025-11-06T00:00:00.000Z"
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: "90"
 see_also: []
-source_of_truth: ["A Deep Dive into Adult ADHD in Remote Software Development.md"]
-status: seedling
-tags: [adhd, productivity, software, tools]
+source_of_truth: []
+status: "seedling"
+tags: ["software", "tools", "topic/health/adhd", "topic/productivity"]
 title: Digital Tools Help Externalize Memory and Structure for ADHD Developers
-type: concept
-uid: 2025-11-06T19:54:05Z
-updated: 2025-11-06T19:54:05Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Digital Tools Help Externalize Memory and Structure for ADHD Developers

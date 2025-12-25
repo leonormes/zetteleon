@@ -1,30 +1,28 @@
 ---
-aliases: [ProdOS Cognitive Architecture, The Thinking Machine]
-confidence: 5/5
-created: 2025-12-21T20:00:00Z
+aliases: ["ProdOS Cognitive Architecture", "The Thinking Machine"]
+confidence: "5/5"
+created: 2025-12-21T00:00:00Z
 epistemic: "Synthesized from system design principles and notes on AI-human interaction."
-last_reviewed: 2025-12-21
-modified: 2025-12-21T14:57:20Z
+last_reviewed: "2025-12-21"
+modified: 2025-12-25T11:40:21+00:00
 purpose: "To define the philosophical and architectural integration of the Gemini CLI (agentic reasoning) and Obsidian (structured knowledge) within the ProdOS framework."
-review_interval: 3 months
+review_interval: "3 months"
 see_also: []
-source_of_truth: true
+source_of_truth: []
 status: "stable"
-tags: ["ai", "architecture", "cognition", "gemini-cli", "obsidian", "prodos"]
+tags: ["ai", "architecture", "gemini-cli", "obsidian", "prodos", "topic/cognition"]
 title: SoT - ProdOS Cognitive Architecture (Obsidian + Gemini)
-type: SoT
+type: "SoT"
 uid: 
-updated:
+updated: 
 ---
 
-## 1. Definitive Statement: The Thinking Machine
+## 1. Definitive Statement: "The Thinking Machine"
 
-The ProdOS cognitive architecture integrates two distinct but complementary systems to create a "Thinking Machine":
+The ProdOS cognitive architecture integrates two distinct but complementary systems to create a "Thinking Machine": ""
 
-1.  **Obsidian (The Knowledge Base):** Functions as the structured, long-term memory and "wisdom" layer. It stores canonical knowledge in the form of SoTs, MOCs, and a library of mental models. This is the source of ground truth and high-level principles.
-2.  **Gemini CLI (The Agentic Processor):** Functions as the active, agentic reasoning layer. It is a powerful, transient processor that can ingest context, perform complex tasks, and execute commands, but it lacks inherent wisdom or long-term memory.
-
-The core philosophy is to **use Obsidian to *teach* the Gemini agent how to think**, moving beyond passive prompting to create a proactive AI partner that leverages the user's own structured knowledge to solve problems.
+1. **Obsidian (The Knowledge Base): "** Functions as the structured, long-term memory and \"wisdom\" layer. It stores canonical knowledge in the form of SoTs, MOCs, and a library of mental models. This is the source of ground truth and high-level principles."
+2. **Gemini CLI (The Agentic Processor): "** Functions as the active, agentic reasoning layer. It is a powerful, transient processor that can ingest context, perform complex tasks, and execute commands, but it lacks inherent wisdom or long-term memory."
 
 ---
 
@@ -36,11 +34,11 @@ The integration is governed by a master prompt system that transforms the Gemini
 
 The `gemini.md` file in the root of a project is the primary bridge between Obsidian and the CLI. It serves as the system prompt that bootstraps the agent's behavior for that specific context.
 
--   **Role Definition:** It instructs the agent on its role (e.g., "ProdOS Operator," "Chief of Staff"), its objectives (e.g., "minimize toil," "maximize action"), and its constraints.
--   **Workflow Logic:** It defines the process the agent must follow, such as:
-    1.  **Diagnose:** Ask clarifying questions to understand the deep context of a problem.
-    2.  **Scan & Select:** Access the local Obsidian vault (via `@` file references or MCPs) to find and select the most relevant mental models or SoTs for the task.
-    3.  **Synthesize & Execute:** Apply the selected frameworks to perform a detailed analysis, execute code, or generate a structured report.
+- **Role Definition:** It instructs the agent on its role (e.g., "ProdOS Operator," "Chief of Staff"), its objectives (e.g., "minimize toil," "maximize action"), and its constraints.
+- **Workflow Logic:** It defines the process the agent must follow, such as:
+    1. **Diagnose:** Ask clarifying questions to understand the deep context of a problem.
+    2. **Scan & Select:** Access the local Obsidian vault (via `@` file references or MCPs) to find and select the most relevant mental models or SoTs for the task.
+    3. **Synthesize & Execute:** Apply the selected frameworks to perform a detailed analysis, execute code, or generate a structured report.
 
 ### 2.2. The Library of Mental Models
 
@@ -51,7 +49,7 @@ Obsidian contains the library of mental models (e.g., First Principles Thinking,
 ## 3. The Roles of Each Component
 
 | Component | Role | Function | Key Analogy |
-| :--- | :--- | :--- | :--- |
+|:--- |:--- |:--- |:--- |
 | **Obsidian Vault** | **The Brain / Wisdom** | Long-term storage of structured knowledge, principles, and mental models. | The University Library |
 | **Gemini CLI** | **The Agent / Reasoner**| Active, real-time task execution, synthesis, and interaction with the digital world. | The brilliant but inexperienced research assistant |
 | **`gemini.md`** | **The Operating Manual** | A set of specific instructions that tells the assistant *how* to use the library to help you. | The Syllabus |

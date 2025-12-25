@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:33:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [deep_work, focus, project/personal/prodos, topic/productivity]
+status: "null"
+tags: ["deep_work", "focus", "project/personal/prodos", "topic/productivity"]
 title: Phase 3 - Compartmentalized Focus to Beat Distraction
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Following [[Phase 2 - Aggressive Initiation to Overcome Paralysis]], the final phase of the [[Three-Phase Protocol for Execution MOC]] is to establish a routine of ruthless, compartmentalized focus. This is designed to beat distraction and overwhelm during the execution of the work.

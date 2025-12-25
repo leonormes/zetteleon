@@ -1,20 +1,20 @@
 ---
-aliases: [Session Bridging, Work Session Rituals]
-confidence: 0.7
+aliases: ["Session Bridging", "Work Session Rituals"]
+confidence: "0.7"
 created: 2025-10-30T15:00:39Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-31T09:31:40Z
+epistemic: "principle"
+last_reviewed: "2025-10-30"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To create mental bridges between work sessions"
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [project-continuity, ritual, topic/health/adhd, workflow]
+status: "seedling"
+tags: ["project-continuity", "ritual", "topic/health/adhd", "workflow"]
 title: Continuation Rituals Bridge Work Sessions for ADHD
-type: strategy
-uid: 2025-10-30T15:00:39Z
-updated: 2025-10-30T15:00:39Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## Continuation Rituals Bridge Work Sessions for ADHD

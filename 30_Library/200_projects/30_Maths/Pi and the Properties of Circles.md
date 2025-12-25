@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-09T12:23:04Z
-epistemic: 
-id: pi
-last_reviewed: 
-modified: 2025-11-03T13:48:23Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "pi"
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Pi and the Properties of Circles
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Topic: Pi and the Properties of Circles

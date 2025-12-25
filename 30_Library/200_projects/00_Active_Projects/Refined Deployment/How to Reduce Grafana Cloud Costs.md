@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-11-04T16:58:03Z
-epistemic:
-last_reviewed:
-modified: 2025-11-04T16:58:32Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:32+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: []
+status: ""
+tags: ["observability"]
 title: How to Reduce Grafana Cloud Costs
-type:
-uid: 3077c739-204a-4c1d-93d7-5d321e9fe932
-updated:
-uuid: 3077c739-204a-4c1d-93d7-5d321e9fe932
+type: ""
+uid: 
+updated: 
+uuid: "3077c739-204a-4c1d-93d7-5d321e9fe932"
 ---
 
 ## How to Reduce Grafana Cloud Costs

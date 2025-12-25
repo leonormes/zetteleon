@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-29T07:20:03Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/networking/cloud-networking]
+status: ""
+tags: ["topic/technology/networking/cloud-networking"]
 title: cloud-networking-requirements
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Modern Cloud Network Requirements

@@ -1,24 +1,24 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-18T12:58:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: My daughter, 13, had ADHD. She os currently not go
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
-My daughter, 13, had ADHD. She is currently not going into school because of anxiety. She wants to go in. She seems fine at gone where she is safe, but as soon as she gets on school she freaks out and can't control herself. I also have ADHD and rsd. I can appreciate the emotional reactions. But it's feels as though there is nothing we can about it with her. I find myself getting frustrated with her for :not trying ' , but i know that is not true. What can be done to help a child with rsd and other emotional regulation differences
+My daughter, 13, had ADHD. She is currently not going into school because of anxiety. She wants to go in. She seems fine at gone where she is safe, but as soon as she gets on school she freaks out and can't control herself. I also have ADHD and rsd. I can appreciate the emotional reactions. But it's feels as though there is nothing we can about it with her. I find myself getting frustrated with her for:not trying ', but i know that is not true. What can be done to help a child with rsd and other emotional regulation differences
 
 A child with ADHD who experiences **school anxiety and rejection-sensitive dysphoria (RSD)** often faces emotional overwhelm that isn’t about not trying—it’s about their **nervous system going into distress mode** when they encounter stress, uncertainty, or perceived rejection. Helping her means creating safety, predictability, and emotional skills over time rather than pushing for immediate exposure to school.
 
@@ -53,15 +53,15 @@ Avoid criticism or “try harder” messages—children with RSD interpret corre
 
 ## Professional and Therapeutic Support
 
-Therapeutic guidance helps her learn regulation skills in a safe setting and reduces family frustration .
+Therapeutic guidance helps her learn regulation skills in a safe setting and reduces family frustration.
 
-- Consider CBT or emotion-coaching-based therapy focused on coping strategies for anxiety and RSD .
+- Consider CBT or emotion-coaching-based therapy focused on coping strategies for anxiety and RSD.
 - A child psychologist, occupational therapist, or ADHD coach can teach emotional awareness and nervous system calming techniques.
-- Some ADHD medications or mild alpha agonists like guanfacine or clonidine have been effective for emotional regulation under medical supervision .
+- Some ADHD medications or mild alpha agonists like guanfacine or clonidine have been effective for emotional regulation under medical supervision.
 
 ## For You as a Parent
 
-Your ADHD and RSD mean you *feel* her distress sharply. It’s okay to step back when you’re dysregulated. Use grounding or breathing tools together. Parent support groups (YoungMinds, Family Lives, or local ADHD parent coaching) can also help you offload emotional weight .
+Your ADHD and RSD mean you *feel* her distress sharply. It’s okay to step back when you’re dysregulated. Use grounding or breathing tools together. Parent support groups (YoungMinds, Family Lives, or local ADHD parent coaching) can also help you offload emotional weight.
 
 The key is **slow exposure, emotional safety, and co-regulation**. She doesn’t need to “push through”—she needs to trust her body can handle discomfort, with your calm presence beside her.
 
@@ -113,15 +113,15 @@ The key is **slow exposure, emotional safety, and co-regulation**. She doesn’t
 
 She had grown up with a lot of adults and is very comfortable around adults. She can talk with them and it's charming. Even she first started year 7 in a new big school she was very happy and doing well. Teachers loved her. Then one day for some reason she got in to trouble. This seems to have been the turning point. She then escalated into neon one of the telly naughty children, leaving class, talking back to teachers, not attending lessons. It is as though getting on to trouble was a huge suprise and devastating to her sense of self. This aligns with rsd. Although this is just one idea and the change it makes sense to me. But i have confirmation bias. It is obviously complex situation. Review my ideas and elaborate but also suggest other lines of reasoning i may be over looking
 
-Your analysis that the disciplinary incident acted as a **turning point** tied to **rejection sensitive dysphoria (RSD)** is both plausible and psychologically well grounded. Children with ADHD who are socially mature and attuned to adult approval can mask difficulties effectively — but when that mask breaks under criticism or punishment, the emotional collapse can look dramatic and confusing.
+Your analysis that the disciplinary incident acted as a **turning point** tied to **rejection sensitive dysphoria (RSD)** is both plausible and psychologically well grounded. Children with ADHD who are socially mature and attuned to adult approval can mask difficulties effectively—but when that mask breaks under criticism or punishment, the emotional collapse can look dramatic and confusing.
 
 ### Why Your RSD Hypothesis Fits
 
 Children with ADHD often experience **RSD as an overwhelming flood of shame, rejection, or humiliation** at even mild discipline. When that first “being in trouble” moment happens, it can feel like sudden evidence of unworthiness and betrayal, especially for a child who previously thrived on positive attention. This can lead to:
 
-- **Defensive defiance** — anger and talking back to regain control over unbearable vulnerability.
+- **Defensive defiance**—anger and talking back to regain control over unbearable vulnerability.
 - **Avoidance of school** or adult authority as a means of self-protection.
-- **Identity rupture** — if she had built her self-esteem around being liked or “good,” then one shaming experience could collapse that construction.
+- **Identity rupture**—if she had built her self-esteem around being liked or “good,” then one shaming experience could collapse that construction.
 
 You are also correct to note your confirmation bias: our brains naturally look for coherence, especially when RSD resonates personally. There are, however, several **alternative or coexisting explanations** worth exploring.
 
@@ -137,22 +137,22 @@ The transition to secondary school often coincides with **puberty’s emotional 
 
 #### 3. Trauma or Threat Response
 
-For some children, being disciplined evokes **a nervous system trauma response** — especially if it felt public, unjust, or unpredictable. Neurologically, the amygdala reacts as if to real danger, leading to “fight” (defiance), “flight” (leaving class), or “freeze” (shutdown) behaviours. Once this association forms, school cues can retrigger survival instincts, not conscious misbehaviour.
+For some children, being disciplined evokes **a nervous system trauma response**—especially if it felt public, unjust, or unpredictable. Neurologically, the amygdala reacts as if to real danger, leading to “fight” (defiance), “flight” (leaving class), or “freeze” (shutdown) behaviours. Once this association forms, school cues can retrigger survival instincts, not conscious misbehaviour.
 
 #### 4. Cognitive and Social Attribution Changes
 
-After one painful “rejection” experience, ADHD children can become **hypervigilant to hostile cues** — interpreting neutral teacher feedback as attack, and peers’ indifference as exclusion . This social-cognitive shift reinforces defensive patterns.
+After one painful “rejection” experience, ADHD children can become **hypervigilant to hostile cues**—interpreting neutral teacher feedback as attack, and peers’ indifference as exclusion. This social-cognitive shift reinforces defensive patterns.
 
 #### 5. Identity Reconstruction
 
-Children with ADHD often swing between perfectionism and self-sabotage (the two faces of RSD). When her “good girl” identity broke, adopting a “naughty” one might have offered psychological safety — it’s less painful to reject expectations than risk being rejected again.
+Children with ADHD often swing between perfectionism and self-sabotage (the two faces of RSD). When her “good girl” identity broke, adopting a “naughty” one might have offered psychological safety—it’s less painful to reject expectations than risk being rejected again.
 
 ### Integrating These Insights
 
 The situation likely represents **a convergence** of RSD, autistic-like burnout patterns (masking exhaustion), and the trauma physiology of being publicly “in trouble.” Moving forward:
 
-- **Validation before correction** — acknowledging her hurt from that event helps rebuild trust.
-- **Collaborative re-entry planning** — ensure school staff know she is not defiant but dysregulated.
+- **Validation before correction**—acknowledging her hurt from that event helps rebuild trust.
+- **Collaborative re-entry planning**—ensure school staff know she is not defiant but dysregulated.
 - **Therapeutic approaches** such as emotion coaching, trauma-informed CBT, or neurodiversity-affirming mentoring can help her separate identity from criticism.
 - **Parent coaching** or family therapy can support co-regulation between you both when RSD responses escalate.
 

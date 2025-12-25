@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:07:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - The Honeyman Method]]"
 source_of_truth: []
-status: 
-tags: [emotional-regulation, mental-health, self-compassion, shame, topic/health/adhd]
+status: ""
+tags: ["emotional-regulation", "mental-health", "self-compassion", "shame", "topic/health/adhd"]
 title: Cultivating Self-Compassion for ADHD
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Cultivating self-compassion is a vital practice for individuals with Attention-Deficit/Hyperactivity Disorder (ADHD), as it directly counteracts the harsh self-criticism and shame often exacerbated by a lifetime of perceived failures and negative experiences. It involves treating oneself with the same kindness, understanding, and patience one would offer to a close friend.

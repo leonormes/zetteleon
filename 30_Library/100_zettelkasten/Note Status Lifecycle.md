@@ -1,20 +1,20 @@
 ---
-aliases: [Note Maturity, Status Progression]
-confidence: 0.93
+aliases: ["Note Maturity", "Status Progression"]
+confidence: "0.93"
 created: 2025-10-31T08:20:00Z
-epistemic: principle
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:58Z
+epistemic: "principle"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "Defines the lifecycle of a note's status and the criteria for advancement from seedling to evergreen."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [quality, workflow, zettelkasten]
+status: "seedling"
+tags: ["quality", "workflow", "zettelkasten"]
 title: Note Status Lifecycle
-type: concept
-uid: 2025-10-31T08:20:00Z
-updated: 2025-10-31T08:20:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Note Status Lifecycle

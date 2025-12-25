@@ -1,18 +1,18 @@
 ---
-aliases: [Routines Create Predictability for Neurodivergents]
-confidence: 
+aliases: ["Routines Create Predictability for Neurodivergents"]
+confidence: "null"
 created: 2025-10-29T16:10:00Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T09:31:39Z
-purpose: "To explain why routines are a crucial tool for managing neurodivergent symptoms."
-review_interval: 
+epistemic: "principle"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [anxiety-reduction, autism, routine, stability, topic/health/adhd]
+status: "seedling"
+tags: ["anxiety-reduction", "autism", "routine", "stability", "topic/health/adhd"]
 title: Routines Provide Stability for Neurodivergent Individuals
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

@@ -1,20 +1,20 @@
 ---
-aliases: [Basal Ganglia Action Selection]
-confidence: 0.9
+aliases: ["Basal Ganglia Action Selection"]
+confidence: "0.9"
 created: 2025-11-10T17:04:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T15:41:37Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To explain the role of the basal ganglia in action."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - The Science and Philosophy of Taking Action]]"]
-status: seedling
-tags: [action, basal-ganglia, brain, neuroscience]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "basal-ganglia", "brain", "neuroscience"]
 title: Action Initiation Involves a Balance Between Direct and Indirect Pathways in the Basal Ganglia
-type: concept
-uid: 2025-11-10T17:04:00Z
-updated: 2025-11-10T17:04:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Action Initiation Involves a Balance Between Direct and Indirect Pathways in the Basal Ganglia

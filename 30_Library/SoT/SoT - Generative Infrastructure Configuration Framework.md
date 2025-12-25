@@ -1,32 +1,23 @@
 ---
-aliases: [Configuration Generator Pattern, Generative Config, GIC Framework]
-confidence: 5/5
+aliases: ["Configuration Generator Pattern", "Generative Config", "GIC Framework"]
+confidence: "5/5"
 created: 2025-12-13T00:00:00Z
-epistemic: 
-last-synthesis: 2025-12-13
-last_reviewed: 2025-12-13
-modified: 2025-12-20T09:54:08Z
-purpose: To define the Generative Infrastructure Configuration (GIC) Framework, a pattern for treating configuration as a generated output to maximize robustness and consistency.
-related-soTs: ["[[SoT - PRODOS (System Architecture)]]", "[[SoT - Software Configuration Management Patterns]]"]
-review_interval: 6 months
-see_also: []
-source_of_truth: true
-status: stable
-tags: [architecture, configuration_management, devops, infrastructure_as_code, terraform]
+epistemic: ""
+last_reviewed: "2025-12-13"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define the Generative Infrastructure Configuration (GIC) Framework, a pattern for treating configuration as a generated output to maximize robustness and consistency."
+review_interval: "6 months"
+see_also: ["[[SoT - PRODOS (System Architecture)]]", "[[SoT - Software Configuration Management Patterns]]"]
+source_of_truth: []
+status: "stable"
+tags: ["architecture", "configuration_management", "devops", "infrastructure_as_code", "terraform"]
 title: SoT - Generative Infrastructure Configuration Framework
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Generative Infrastructure Configuration (GIC)
-> GIC is an infrastructure management framework that treats configuration as a **generated output** rather than a manual input.
->
-> **Core Principle:** By defining a minimal, declarative **Configuration Kernel** (intent) and processing it through a validated **Configuration Generator** (code), the system automatically derives complex, error-prone values (protocols), ensuring consistency, reducing cognitive load, and making changes explicitly evident.
-
----
+> **Core Principle: "** By defining a minimal, declarative **Configuration Kernel** (intent) and processing it through a validated **Configuration Generator** (code), the system automatically derives complex, error-prone values (protocols), ensuring consistency, reducing cognitive load, and making changes explicitly evident."
 
 ## 2. Working Knowledge (The Framework)
 
@@ -65,7 +56,7 @@ The complex, derived values used by infrastructure resources.
   - DNS Hostnames: `user-service.prod.my-company.co.uk`
   - S3 Buckets: `my-company-prod-user-service-assets`
   - Secret Paths: `/prod/user-service/db_creds`
-  - Tags: `{ Application="user-service", Env="prod", ... }`
+  - Tags: `{ Application="user-service", Env="prod",... }`
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-04-14T05:02:20Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [osi, topic/technology/networking]
+status: ""
+tags: ["osi", "topic/technology/networking"]
 title: osi_layers
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 The networking stack works in 'layers'. There are 2 famous models, TCP/IP and OSI. The OSI model has 7 layers and is more fine-grained.

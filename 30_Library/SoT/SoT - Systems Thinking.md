@@ -1,19 +1,18 @@
 ---
-aliases: [Feedback Loops, Holistic Thinking, Systems Dynamics]
-confidence: 
+aliases: ["Feedback Loops", "Holistic Thinking", "Systems Dynamics"]
+confidence: ""
 created: 2025-12-12T00:00:00Z
-epistemic: 
-last-synthesis: 2025-12-12
-last_reviewed: 
-modified: 2025-12-20T09:54:07Z
-purpose: To define the mental model of viewing reality as interconnected networks of elements, flows, and feedback loops rather than isolated linear events.
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:20+00:00
+purpose: "To define the mental model of viewing reality as interconnected networks of elements, flows, and feedback loops rather than isolated linear events."
+review_interval: "3 months"
 see_also: ["[[SoT - Process Primacy (Systems Over Goals)]]"]
-source_of_truth: true
-status: stable
-tags: [complexity, mental_models, systems, thinking]
+source_of_truth: []
+status: "stable"
+tags: ["complexity", "mental_models", "thinking", "topic/systems"]
 title: SoT - Systems Thinking
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---

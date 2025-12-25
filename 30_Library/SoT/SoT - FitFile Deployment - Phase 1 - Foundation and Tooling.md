@@ -1,219 +1,107 @@
 ---
-aliases: [FitFile Deployment Phase 1]
-confidence: 5/5
-created: 2025-12-21T12:00:00Z
-epistemic: process
-last_reviewed: 2025-12-21
-modified: 2025-12-21T15:43:17Z
-purpose: To provide a detailed guide for Phase 1 of the FitFile deployment process.
-review_interval: 3 months
-see_also: ["[[MOC - FitFile Deployment]]", "[[SoT - FITFILE Platform Deployment]]"]
-source_of_truth: true
-status: stable
-tags: [ff_deploy, foundation, phase1, tooling]
+aliases: ["Central Services Index", "FitFile Deployment Phase 1"]
+confidence: "5/5"
+created: 2025-12-21T10:50:49Z
+epistemic: "process"
+last_reviewed: "2025-12-23"
+modified: 2025-12-25T18:34:55Z
+purpose: "The definitive guide and index for establishing the FitFile control plane and central services."
+review_interval: "3 months"
+see_also: ["[[Auth0 Object Architecture - FITFILE Deployments]]", "[[Grafana IaC Report]]", "[[MOC - FitFile Deployment]]", "[[SoT - FITFILE Platform Deployment]]"]
+source_of_truth: []
+status: "stable"
+tags: ["central_services", "ff_deploy", "foundation", "phase1", "tooling"]
 title: SoT - FitFile Deployment - Phase 1 - Foundation and Tooling
-type: SoT
+type: "SoT"
 uid: 
 updated: 
-version: 1.0
 ---
 
-## Phase 1: Foundation & Tooling
+## 1. Goal: Establishing the Control Plane
 
-**Goal:** Establish the central identity, secrets, and monitoring control plane. This is the "Key to the Castle."
+Phase 1 establishes the foundational components needed for authentication, secret management, and monitoring. This is the **"Key to the Castle"**—all subsequent infrastructure and application layers depend on these central services being healthy and correctly configured.
 
-These tasks must be performed by DevOps contributors responsible for the Central Services tooling. The terraform configuration for Central Services can be found in the [Central Services repository](https://gitlab.com/fitfile/central-services).
+### 1.1 The Central Services Model
 
-### 1. Vault Configuration
+FitFile uses a **Hybrid Architecture** for its control plane:
 
-#### Creating Vault Resources
+- **Shared Resources:** One instance per Org (e.g., Auth0 Tenant settings, Vault root, Grafana Cloud org). Managed in the `central-services` repository.
+- **Distributed Resources:** One instance per customer deployment (e.g., Auth0 Clients, Vault Namespaces, Grafana Stacks).
 
-First, we'll create empty secrets in vault:
+---
 
-1.  Navigate to the Central Services repository
-2.  Change directory to `hcp/vault`
-3. In `locals.tf`, add a new block to the deployments variable (e.g., for "wm-prod"):
+## 2. The Tooling Inventory
 
-```hcl
-"wm-prod" = {
-  secrets = tomap({
-    "application" = {},
-    "spicedb" = {},
-    "cloudflare" = {}, # only needed if using cloudflare
-    "monitoring" = {}, # for grafana creds
-  })
-}
-```
+Ensure your local workstation is equipped with the following "Compiled Binaries":
 
-4.  Commit and push the changes to trigger the terraform plan in [HCP Terraform](https://app.terraform.io/).
-5.  A DevOps engineer must manually approve the apply on the Run page
+| Tool | Role | Purpose |
+|:--- |:--- |:--- |
+| **Terraform** | IaC Engine | Provisioning all cloud and service resources. |
+| **tfenv** | Version Manager | Managing multiple Terraform versions (v1.9.0+ required). |
+| **aws/az CLI**| Cloud Interface | Authenticating with AWS/Azure providers. |
+| **kubectl** | Cluster Interface| Managing Kubernetes resources once the cluster is live. |
+| **UDE CLI** | Secret Generator | Generating the Unique Data Encryption (UDE) keys. |
 
-#### Populating Vault Secrets
+---
 
-The customer deployment will be referenced using a deployment-key - a short name FITFILE uses consistently throughout the infrastructure. For example, use "WM-Prod" instead of the full customer name.
+## 3. Central Services Connectivity
 
-**Accessing Vault**
+For private clusters (SDE/HIE), the following FQDNs must be present in the **Outbound Allow List** to enable the control plane to communicate with the cluster.
 
-Currently, SSO is not configured for the vault instance. To access vault:
+| Service | URL | Protocol |
+|:--- |:--- |:--- |
+| **HashiCorp Vault** | `vault-public-vault-*.hashicorp.cloud:8200` | HTTPS |
+| **Auth0 Tenant** | `fitfile-prod.eu.auth0.com` | HTTPS |
+| **Grafana (Metrics)** | `prometheus-prod-05-gb-south-0.grafana.net` | HTTPS |
+| **Grafana (Logs)** | `logs-prod-008.grafana.net` | HTTPS |
+| **Azure Registry** | `fitfileregistry.azurecr.io` | HTTPS |
 
-1.  Log into the HCP portal: <https://portal.cloud.hashicorp.com/>
-2.  Navigate to the vault dedicated instance
-3.  Generate an admin token
+---
 
-**Secret Configuration**
+## 4. Execution Protocols
 
-You'll need to create new versions of the following secrets:
+### A. Deployment Key Generation
 
-**Application Secrets**
+The `deployment_key` is the primary identifier for all resources.
 
-```json
-{
-  "cli_auth0_client_id": "",  // Leave blank - not needed
-  "cli_auth0_client_secret": "",  // Leave blank - not needed
-  "mesh_client_cert": "",  // Leave blank if optout not required
-  "mesh_client_key": "",  // Leave blank if optout not required
-  "mesh_hash_secret": "",  // Leave blank if optout not required
-  "mesh_mailbox_password": "",  // Leave blank if optout not required
-  "mongodb_password": "",  // Generate secure password (min length 10, alphanumeric)
-  "mongodb_username": "root",
-  "mongodb_replica_set_key": "",  // Generate secure password (length: 64, alphanumeric)
-  "postgresql_password": "",  // Generate secure password (min length 10, alphanumeric)
-  "postgresql_username": "postgres",
-  "s3_access_key_id": "ffadmin",
-  "s3_secret_access_key": "",  // Generate secure password (min length 10, alphanumeric)
-  "ude_key": "",  // Generate from ude_cli using key-gen command
-  "spicedb_pre_shared_key": ""  // Get from centralized spicedb or create new
-}
-```
+1. Run `./short_name.sh` in the `central-services` repo.
+2. Save the key (e.g., `WM-Prod`) and record it in the [Deployment Database](https://fitfile.atlassian.net/wiki/spaces/FITFILE/database/1839071273). This key will be used consistently across Vault, Auth0, TFC, and Cloud Providers.
 
-**SpiceDB Secrets**
+### B. Vault Configuration
 
-```json
-{
-  "postgresql_password": "",  // Generate secure password (min length 10, alphanumeric)
-  "postgresql_username": "postgres",
-  "spicedb_preshared_key": ""  // Generated and shared within application_secrets
-}
-```
+Establish the **Secrets Path** before provisioning infrastructure.
 
-**Cloudflare Secrets (if Using Cloudflare as DNS)**
+> [!warning] Security Audit (Oct 2025)
+> **Do not use `shared-secrets` charts.** The 2025 Audit found hardcoded credentials in legacy deployments. All secrets must be provisioned via VSO as defined in the [[SoT - FITFILE Secret Management Architecture]].
 
-```json
-{
-  "api_token": ""  // Generate from Cloudflare portal with Edit DNS permissions
-}
-```
+- **Pattern:** `deployments/<deployment-key>/application`
+- **Mechanism:** Add the key to `locals.tf` in `central-services/hcp/vault`.
+- **Goal:** Create all necessary credentials for databases, monitoring, and application services.
+- **See Also:** [[SoT - FITFILE Secret Management Architecture]]
 
-### 2. UDE Secret Generation
+### C. Auth0 Configuration
 
-1.  Clone the repository: [https://gitlab.com/fitfile/ude-cli](https://gitlab.com/fitfile/ude-cli)
-2.  Install the nightly version of rust:
+Create the **Logical Identity** for the new node.
 
-```bash
-rustup install nightly
-```
+- **Pattern:** Create unique SPA and M2M clients; link to the shared "Username-Password-Authentication" connection.
+- **Mechanism:** Update `locals.tf` in `central-services/auth0/prod`.
+- **Goal:** Establish the authentication mechanism for the application stack.
+- **Reference:** [[Auth0 Object Architecture - FITFILE Deployments]]
 
-3.  Run the key generation command:
+### D. Monitoring (Grafana)
 
-```bash
-cargo run -- key-gen
-```
+Setup the **Observability Stack**.
 
-4.  Copy the final line of output (unique string) for use in the secrets
+- **Pattern:** Provision a new stack and associated data sources (Loki, Prometheus).
+- **Mechanism:** Update `grafana/locals.tf` in `central-services`.
+- **Goal:** Configure monitoring through Grafana for full-stack visibility.
+- **Reference:** [[Grafana IaC Report]]
 
-### 3. Auth0 Configuration
+---
 
-Auth0 manages application user identities and provides authentication. To configure:
+## 5. Verification Checklist
 
-1.  Navigate to the central services repository
-2.  Change to the appropriate auth0 directory:
-    -   `auth0/prod` for production deployments
-    -   `auth0/non-prod` for non-production deployments
-3. Edit `auth0/locals.tf` and add a new block to the `fitfile_tenant_applications` map. The tenant and API names are typically provided by the Project Manager. Example for `wm-prod`:
-
-```hcl
-"wm-prod" = {
-  tenant_name = "West Midlands Production"
-  api_name    = "FitFile API (WM-Prod)"
-  api_audience = "https://api.westmidlands.fitfile.io"
-  enabled_apis = ["<REPLACE>"]
-  whitelist_api_audience_for_login_redirect = true # Set to true if deploying a web application
-}
-```
-
-4. Update `main.tf` with additional configuration (after logging into the [Auth0 Dashboard](https://manage.auth0.com/)):
-    - Set `additional_logout_redirect_urls` (usually `https://<host>/fitfile`)
-    - Set `additional_web_origins` (usually `https//<host>`)
-    - These can use wildcards () on the subdomain
-5. Apply the terraform changes:
-
-    ```bash
-    terraform plan
-    terraform apply
-    ```
-
-6. Once applied, collect the necessary outputs:
-
-    ```bash
-    terraform output -json
-    ```
-
-7. From the output, collect:
-    - `client_id` and `client_secret`
-    - `webapp_application_client_credential` values
-8. Update the vault application secret with Auth0 values:
-
-```json
-{
-  "auth0_client_id": "",  // Auth0 client id from terraform output
-  "auth0_client_secret": "",  // Auth0 client secret from terraform output
-  "auth0_audience": "",  // API Audience from terraform output
-  "auth0_frontend_client_id": "",  // FITFILE SPA application client id
-  "auth0_frontend_client_secret": ""  // FITFILE SPA application client secret
-}
-```
-
-### 4. Grafana Setup
-
-1.  In the central services' repository, navigate to the Grafana directory
-2.  Edit `locals.tf` and add to the "deployments" variable. Example for `wm-prod`:
-
-```hcl
-locals {
-  deployments = tomap({
-    "<replace-with-deployment-key>" = {
-      stack = local.prod_stack # or local.non_prod_stack if not production
-    }
-  })
-}
-```
-
-3.  Apply terraform and get the output:
-
-```bash
-terraform output -json
-```
-
-4.  Update the monitoring secret in vault with:
-
-```json
-{
-  "prometheus_host": "",
-  "prometheus_username": "",
-  "prometheus_password": "",  // Access policy token
-  "loki_host": "",
-  "loki_username": "",
-  "loki_password": "",  // Same access policy token
-  "tempo_host": "",  // Include port :443
-  "tempo_username": "",
-  "tempo_password": ""  // Same access policy token
-}
-```
-
-### Verification
-
-- [ ] **GitLab & Terraform Cloud:** Verify that the Terraform Cloud workspace for Central Services can successfully authenticate with GitLab and pull the repository contents.
-- [ ] **Vault Secrets:** Log into the Vault UI and confirm that the new secrets for the deployment (e.g., `secret/fig/wm-prod/application`) have been created and populated correctly.
-- [ ] **Auth0 Application:** Log into the Auth0 dashboard and verify that the new application, API, and associated permissions have been created as defined in the Terraform configuration.
-- [ ] **Grafana Dashboards:** Log into Grafana and confirm that the new stack and associated data sources (Prometheus, Loki, Tempo) have been provisioned and are accessible.
-- [ ] **IAM/RBAC Permissions:** Conduct a test to ensure that the permissions applied via Terraform grant the intended access and that there are no privilege escalation paths.
+- [ ] **TFC Connectivity:** Workspace can pull from GitLab.
+- [ ] **Vault Paths:** `secret/fig/<deployment-key>/application` exists and is populated.
+- [ ] **Auth0 Tenants:** New API and Application visible in Auth0 dashboard.
+- [ ] **Grafana Stack:** Data sources provisioned and reachable via the tokens stored in Vault.

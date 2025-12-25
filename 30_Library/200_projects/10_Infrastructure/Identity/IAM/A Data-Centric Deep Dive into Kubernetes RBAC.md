@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-06T08:40:55Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:25Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: A Data-Centric Deep Dive into Kubernetes RBAC
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 From a data-centric perspective, Kubernetes Role-Based Access Control (RBAC) is a system of declarative authorisation objects that govern who can perform what actions on which resources within a cluster. This model of granular permissioning finds a powerful real-world application when integrated with robust Identity and Access Management (IAM) solutions like Microsoft Entra ID, which serves as the authoritative source for user and group identities.

@@ -1,21 +1,20 @@
 ---
-aliases: [Container Isolation Architecture, Namespace Security Model, The Mount Namespace Gatekeeper]
-confidence: 5/5
-created: 2025-12-19T10:00:00Z
-epistemic: authoritative
-last_reviewed: 2025-12-19
-modified: 2025-12-19T10:23:20Z
-purpose: To define the definitive security model for container isolation, explicitly stating that mount namespaces are the primary gatekeeper for security.
-related-soTs: ["[[MOC - Linux Container Primitives]]", "[[SoT - Namespacing in Computing]]"]
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
-tags: [architecture, container, linux, namespace, security]
+aliases: ["Container Isolation Architecture", "Namespace Security Model", "The Mount Namespace Gatekeeper"]
+confidence: "5/5"
+created: 2025-12-19T00:00:00Z
+epistemic: "authoritative"
+last_reviewed: "2025-12-19"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "To define the definitive security model for container isolation, explicitly stating that mount namespaces are the primary gatekeeper for security."
+review_interval: "1 year"
+see_also: ["[[MOC - Linux Container Primitives]]", "[[SoT - Namespacing in Computing]]"]
+source_of_truth: []
+status: "stable"
+tags: ["architecture", "container", "linux", "namespace", "security"]
 title: SoT - Container Isolation (The Namespace Security Model)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Definitive Statement
@@ -29,7 +28,7 @@ updated:
 ## 2. The Isolation Spectrum
 
 | Namespace | Resource Isolated | Security Impact (If Missing) |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **PID** | Process IDs | Low. Process visibility only. |
 | **Network** | Interfaces, Ports | Medium. Can sniff/spoof host traffic. |
 | **UTS** | Hostname | Low. Confusion in logs. |
@@ -48,6 +47,16 @@ Creating Network, PID, and UTS namespaces without a Mount namespace creates a da
   - Apps read `/etc/shadow` from the host.
   - Attackers use setuid binaries on the host to escalate privileges.
   - `/proc` exposes host PIDs, breaking the illusion of the PID namespace.
+
+### The "Incomplete Isolation" Failure Mode: Decoupled Identity
+
+Creating Network, PID, and UTS namespaces without a **Mount Namespace** creates a dangerous state of **Decoupled Identity**:
+
+- **Syscall/File Mismatch:**
+  - The `hostname` syscall returns the isolated name (UTS isolated).
+  - The `/etc/hostname` file returns the host's name (Mount shared).
+- **VFS Leakage:** The kernel uses shared inode and dentry caches. Untrusted processes can access sensitive host files (e.g., `/etc/shadow`) because there is no filesystem-level jail.
+- **Root Exposure:** Even with user namespaces, the shared root filesystem allows a process to interfere with global system state if permissions are misconfigured.
 
 ## 3. The Security Boundary Architecture
 

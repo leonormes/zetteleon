@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-20T06:43:37Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [curriculum, gcse, project/family/bessie]
+status: ""
+tags: ["curriculum", "gcse", "project/family/bessie"]
 title: Bessie GCSE
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Bessie's GCSE subjects and their corresponding exam boards are as follows:
@@ -33,7 +33,7 @@ Optional Subjects:
 - History: Edexcel GCSE
 - Art (Art, Craft and Design): Edexcel GCSE
 - Philosophy, Ethics and Religion (Religious Studies): AQA GCSE
-- Photography (Art and Design – Photography): Edexcel GCSE
+- Photography (Art and Design–Photography): Edexcel GCSE
 
 [[English Language (AQA GCSE)]]
 

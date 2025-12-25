@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-23T11:10:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [project/family/bessie]
+status: ""
+tags: ["project/family/bessie"]
 title: "ASSESS Continuously Understand Bessie's Evolving Needs and Strengths"
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The 'Assess' stage involves gathering comprehensive and holistic information about Bessie's learning profile, which should be an ongoing process.

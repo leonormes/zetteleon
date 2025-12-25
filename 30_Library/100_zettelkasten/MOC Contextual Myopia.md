@@ -1,19 +1,19 @@
 ---
 aliases: ["Focus Bubble Map", "Myopia Map"]
-confidence: 5/5
+confidence: "5/5"
 created: 2025-07-22T08:18:45Z
-epistemic: psychology
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:57Z
-purpose: A structural map of the cognitive biases that create "Contextual Myopia" and the resulting "Focus Bubble."
-review_interval: 6 months
+epistemic: "psychology"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "A structural map of the cognitive biases that create \\\"Contextual Myopia\\\" and the resulting \\\"Focus Bubble.\\\""
+review_interval: "6 months"
 see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]"]
-source_of_truth: ["[[SoT - Contextual Myopia and Self-Referential Meaning]]"]
-status: stable
-tags: ["bias", "cognition", "moc", "problem-solving"]
+source_of_truth: []
+status: "stable"
+tags: ["bias", "moc", "problem-solving", "topic/cognition"]
 title: MOC Contextual Myopia
-type: map
-uid: 2025-12-16-MOC-MYOPIA
+type: "map"
+uid: 
 updated: 
 ---
 

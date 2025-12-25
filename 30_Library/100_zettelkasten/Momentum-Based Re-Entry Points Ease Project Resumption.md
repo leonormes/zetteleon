@@ -1,20 +1,20 @@
 ---
 aliases: ["Shallow Entry Points"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-11T19:05:06Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-11T10:57:47Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "Describes a method for lowering the barrier to re-engaging with a project."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [adhd, productivity, task-management]
+status: "seedling"
+tags: ["task-management", "topic/health/adhd", "topic/productivity"]
 title: Momentum-Based Re-Entry Points Ease Project Resumption
-type: strategy
-uid: 2025-11-11T19:05:06Z
-updated: 2025-11-11T19:05:06Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## Momentum-Based Re-Entry Points Ease Project Resumption

@@ -1,20 +1,20 @@
 ---
-aliases: [Enlightenment as Process]
-confidence: 0.9
+aliases: ["Enlightenment as Process"]
+confidence: "0.9"
 created: 2025-11-01T12:20:07Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T10:08:40Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "To define the Zen perspective on enlightenment."
-review_interval: 90
-see_also: ['[[Zen Emphasizes Enlightened Activity Over Enlightened People]]']
-source_of_truth: ['[[MOC - Why Chasing Enlightenment Causes Suffering]]']
-status: seedling
-tags: [buddhism, enlightenment, non-duality, zen]
+review_interval: "90"
+see_also: ["[[Zen Emphasizes Enlightened Activity Over Enlightened People]]"]
+source_of_truth: []
+status: "seedling"
+tags: ["buddhism", "enlightenment", "non-duality", "zen"]
 title: Zen Defines Enlightenment as a Process Not a Destination
-type: concept
-uid: 2025-11-01T12:20:07Z
-updated: 2025-11-01T12:20:07Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Zen Defines Enlightenment as a Process Not a Destination

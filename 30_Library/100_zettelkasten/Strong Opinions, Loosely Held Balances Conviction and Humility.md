@@ -1,20 +1,20 @@
 ---
-aliases: [Strong Opinions Loosely Held]
-confidence: 0.9
+aliases: ["Strong Opinions Loosely Held"]
+confidence: "0.9"
 created: 2025-11-06T19:59:01Z
-epistemic: insight
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "insight"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To present 'Strong Opinions, Loosely Held' as a mental model for balancing confident action with intellectual humility."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["so wrong.md"]
-status: seedling
-tags: [confidence, decision-making, humility, mental-model]
+source_of_truth: []
+status: "seedling"
+tags: ["confidence", "decision-making", "humility", "mental-model"]
 title: Strong Opinions, Loosely Held Balances Conviction and Humility
-type: concept
-uid: 2025-11-06T19:59:01Z
-updated: 2025-11-06T19:59:01Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## 'Strong Opinions, Loosely Held' Balances Conviction and Humility

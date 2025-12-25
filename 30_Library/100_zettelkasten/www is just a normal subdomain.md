@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-05-12T15:31:43Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/networking/dns]
+status: "null"
+tags: ["topic/technology/networking/dns"]
 title: www is just a normal subdomain
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 I think I just learned something. `www` on a url is actually a subdomain! It is the address for the web server on a host, like `www.example.com`. It is a very common one that usually means the web server. You could also have `ftp.example.com` which would point to a different server.

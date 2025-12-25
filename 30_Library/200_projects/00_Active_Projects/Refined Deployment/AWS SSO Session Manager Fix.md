@@ -1,21 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-25T11:44:47Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:09Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T18:35:20Z
+purpose: ""
+review_interval: ""
+Reviewed: true
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: [aws, iam, permissions, project/work/fitfile, session-manager, sso]
 title: AWS SSO Session Manager Fix
-type:
-uid: 
-updated: 
-version:
+type: ""
+uid:
+updated:
+version: ""
 ---
 
 ## AWS SSO Session Manager Fix

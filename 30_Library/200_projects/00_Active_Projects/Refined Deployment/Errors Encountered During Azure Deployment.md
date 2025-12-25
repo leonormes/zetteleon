@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-02T12:08:36Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:10Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:33+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [aks, azure, errors, project/work/deployment, troubleshooting]
+status: ""
+tags: ["aks", "azure", "errors", "project/work/deployment", "troubleshooting"]
 title: Errors Encountered During Azure Deployment
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Based on the provided source materials, several specific errors and challenges are highlighted concerning Azure deployments, particularly with Azure Kubernetes Service (AKS):

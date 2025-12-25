@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T09:17:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [coherence, topic/cognition, topic/technology/AI]
+status: ""
+tags: ["coherence", "topic/cognition", "topic/technology/AI"]
 title: Coherent LLM output signals meaningful processing
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 A key part of LLM-driven validation comes from the coherence and logical structure of its responses. When we express a complex idea, we might anticipate a confused or meaningless reply from a non-understanding entity.

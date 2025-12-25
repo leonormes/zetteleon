@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: 
-id: PID namespacing
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "PID namespacing"
+last_reviewed: ""
+modified: 2025-12-25T11:40:36+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers, Processes]
+status: ""
+tags: ["containers", "Processes"]
 title: PID namespacing
-type: curriculum
+type: "curriculum"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 I'm trying to learn about Linux kernel namespacing and how it is used to make containers. how can I get hands on with pod namespacing to learn how it works and what it can do at a low level? find practical tutorials

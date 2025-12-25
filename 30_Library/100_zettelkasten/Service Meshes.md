@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-10T13:05:06Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Service Meshes
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 - Purpose: A service mesh is an API-driven infrastructure layer that adds advanced capabilities for service-to-service communication, effectively outsourcing non-functional aspects like traffic control, observability, and security from application code to the mesh.

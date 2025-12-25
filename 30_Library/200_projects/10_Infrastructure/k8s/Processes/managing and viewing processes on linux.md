@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:36+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers, Processes]
+status: ""
+tags: ["containers", "Processes"]
 title: managing and viewing processes on linux
-type: documentation
+type: "documentation"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 In Linux, examining active processes and managing them effectively is essential for system administration, performance monitoring, and process isolation. Below, I’ll explain some tools, the output of `ps aux`, and alternatives for better process visualization.
@@ -408,7 +408,7 @@ Understanding the STAT column in ps:
 - +: Foreground process
 - l: Multi-threaded
 - N: Low priority
-- < : High priority
+- <: High priority
 - s: Session leader
 
 ### Practical Examples

@@ -1,20 +1,20 @@
 ---
-aliases: [Motion vs Action Distinction]
-confidence: 0.9
+aliases: ["Motion vs Action Distinction"]
+confidence: "0.9"
 created: 2025-11-10T15:14:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T13:33:51Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To highlight a common pitfall in productivity."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Action Defined as Behavior That Produces Tangible Outcomes]]", "[[Motion Defined as Preparatory Activity Without Direct Outcomes]]"]
-source_of_truth: ["[[MOC - Atomic Actions and Next Actions Framework]]"]
-status: seedling
-tags: [action, efficiency, motion, productivity]
+source_of_truth: []
+status: "seedling"
+tags: ["action", "efficiency", "motion", "topic/productivity"]
 title: The Skill in Productivity is Not Confusing Motion for Action
-type: concept
-uid: 2025-11-10T15:14:00Z
-updated: 2025-11-10T15:14:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Skill in Productivity is Not Confusing Motion for Action

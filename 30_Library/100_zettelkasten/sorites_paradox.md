@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: 
+epistemic: ""
 ID: "3"
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [knowledge, linking, relationship]
+status: ""
+tags: ["knowledge", "linking", "relationship"]
 title: sorites_paradox
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 A philosophical puzzle highlighting the difficulty in defining precise boundaries for vague concepts that exist on a spectrum.

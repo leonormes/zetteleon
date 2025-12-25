@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T09:53:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:53:00Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Demonstrate that basic memory capabilities exist even in simple organisms."
-review_interval: 90
+review_interval: "90"
 see_also: ["Memory Enables Learning by Storing Experiences for Future Use.md"]
 source_of_truth: []
-status: seedling
-tags: [biology, cognition, memory]
+status: "seedling"
+tags: ["biology", "memory", "topic/cognition"]
 title: Slime Molds Exhibit Memory-like Behavior Without a Nervous System
-type: example
+type: "example"
 uid: 
 updated: 
 ---

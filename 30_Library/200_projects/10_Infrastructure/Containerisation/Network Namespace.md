@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-02-07T12:57:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:42+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers, namespace]
+status: "null"
+tags: ["namespace", "topic/technology/containers"]
 title: Network Namespace
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 A network namespace in Linux is an isolated networking environment that provides a separate set of networking resources and configurations. It is one of the namespaces available in the Linux kernel that enables containerization and the creation of lightweight, isolated environments.

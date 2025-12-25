@@ -1,23 +1,23 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-10-31T10:11:00Z
-criteria: Focus on techniques from 'I want to be able remember facts to aid in my lear.md'.
-epistemic:
-exclusions: General learning theories without specific memory techniques.
-last_reviewed:
-modified: 2025-12-07T18:13:51Z
-purpose: Organize proven memory techniques for learning.
-review_interval: 180
-scope: Evidence-based memory techniques for learning and retention.
+criteria: "Focus on techniques from 'I want to be able remember facts to aid in my lear.md'."
+epistemic: ""
+exclusions: "General learning theories without specific memory techniques."
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
+purpose: "Organize proven memory techniques for learning."
+review_interval: "180"
+scope: "Evidence-based memory techniques for learning and retention."
 see_also: []
 source_of_truth: []
-status:
-tags: [learning, memory]
+status: ""
+tags: ["learning", "memory"]
 title: MOC - Proven Memory Techniques for Effective Learning
-type: map
-uid:
-updated:
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - Proven Memory Techniques for Effective Learning

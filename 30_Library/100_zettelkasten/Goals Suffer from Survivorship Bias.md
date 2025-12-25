@@ -1,20 +1,20 @@
 ---
-aliases: [Survivorship Bias of Goals]
-confidence: 0.9
+aliases: ["Survivorship Bias of Goals"]
+confidence: "0.9"
 created: 2025-11-06T19:57:00Z
-epistemic: fact
-last_reviewed: 2025-11-06
-modified: 2025-11-07T12:47:12Z
+epistemic: "fact"
+last_reviewed: "2025-11-06"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To explain that goals are poor differentiators of success due to survivorship bias."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["Focus on Systems vs Goals.md"]
-status: seedling
-tags: [goals, success, survivorship-bias, systems]
+source_of_truth: []
+status: "seedling"
+tags: ["goals", "success", "survivorship-bias", "topic/systems"]
 title: Goals Suffer from Survivorship Bias
-type: concept
-uid: 2025-11-06T19:57:00Z
-updated: 2025-11-06T19:57:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Goals Suffer from Survivorship Bias

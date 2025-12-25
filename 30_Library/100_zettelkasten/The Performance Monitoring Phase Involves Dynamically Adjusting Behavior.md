@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-29T16:38:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:39Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - The Phases of Task Execution and the Impact of ADHD]]"
 source_of_truth: []
-status: seedling
-tags: [executive_function, self_monitoring, topic/productivity]
+status: "seedling"
+tags: ["executive_function", "self_monitoring", "topic/productivity"]
 title: The Performance Monitoring Phase Involves Dynamically Adjusting Behavior
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

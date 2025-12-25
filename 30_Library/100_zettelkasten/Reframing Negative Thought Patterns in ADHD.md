@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-24T15:08:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [cognitive-behavioral-therapy, mindset, rumination, self-talk, topic/health/adhd]
+status: "null"
+tags: ["cognitive-behavioral-therapy", "mindset", "rumination", "self-talk", "topic/health/adhd"]
 title: Reframing Negative Thought Patterns in ADHD
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Individuals with Attention-Deficit/Hyperactivity Disorder (ADHD) often experience a tendency to brood, ruminate, or get stuck in cycles of negative, self-critical thoughts. This can be linked to the brain's "Default Mode Network" (DMN), which, when overactive or dysregulated, can lead to persistent gloomy or self-blaming thought patterns.

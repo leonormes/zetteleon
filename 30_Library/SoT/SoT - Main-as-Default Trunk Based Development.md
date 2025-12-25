@@ -1,38 +1,29 @@
 ---
 aliases: ["Commit to Main", "Main-as-Default TBD", "Trunk Based Development SoT"]
-confidence: 5/5
+confidence: "5/5"
 created: 2025-12-15T00:00:00Z
-epistemic: Validated via 10-year longitudinal practice and DORA metrics.
-last_reviewed: 2025-12-15
-modified: 2025-12-20T09:54:08Z
-purpose: To define "Main-as-Default Trunk Based Development" as the canonical software delivery methodology for ProdOS, optimizing for the smallest robust increments of change.
-related-soTs: ["[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS (System Architecture)]]"]
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
+epistemic: "Validated via 10-year longitudinal practice and DORA metrics."
+last_reviewed: "2025-12-15"
+modified: 2025-12-25T11:40:21+00:00
+purpose: "To define \\\\\\\"Main-as-Default Trunk Based Development\\\\\\\" as the canonical software delivery methodology for ProdOS, optimizing for the smallest robust increments of change."
+review_interval: "1 year"
+see_also: ["[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS (System Architecture)]]"]
+source_of_truth: []
+status: "stable"
 tags: ["agile", "devops", "git", "software_engineering", "tbd"]
 title: SoT - Main-as-Default Trunk Based Development
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Definitive Statement
+> [!definition] Definition: "Main-as-Default TBD"
+> The core hypothesis is: "**\"Optimizing for continually integrating and shipping the smallest robust increments of change will in itself ensure quality and stability.\"**"
 
-> [!definition] Definition: Main-as-Default TBD
-> **Main-as-Default Trunk Based Development** is a workflow where developers commit unfinished but safe work directly to the `main` branch, relying on small increments and feature flags rather than long-lived feature branches.
->
-> The core hypothesis is: **"Optimizing for continually integrating and shipping the smallest robust increments of change will in itself ensure quality and stability."**
-
-### The Core Protocol
-
-1. **Commit Straight to Main:** Developers push directly to the trunk.
-2. **Continuous Pipeline:** Every commit triggers build, test, and deployment to a test environment.
-3. **Deployability:** Any developer *can* deploy to production at any time.
-4. **Feedback:** Developers own the change until it is validated in production.
-
----
+1. **Commit Straight to Main: "** Developers push directly to the trunk."
+2. **Continuous Pipeline: "** Every commit triggers build, test, and deployment to a test environment."
+3. **Deployability: "** Any developer *can* deploy to production at any time."
+4. **Feedback: "** Developers own the change until it is validated in production."
 
 ## 2. The Myth of Prerequisites
 
@@ -84,7 +75,7 @@ Building software this way is like pouring concrete in **"lifts"** (small layers
 ## 5. Addressing Common Objections
 
 | Objection | Counter-Reality |
-| :--- | :--- |
+|:--- |:--- |
 | **"Main will break constantly."** | Small, atomic commits are easier to fix/revert than massive merge bombs. Empirical data shows *increased* stability. |
 | **"We need Pull Requests for quality."** | PRs often become "rubber stamps" or delay feedback. Post-commit review (or pairing) is faster and often more engaged. |
 | **"It's too cowboy."** | It requires *more* discipline, not less. The safety comes from the small batch size, not the process gate. |

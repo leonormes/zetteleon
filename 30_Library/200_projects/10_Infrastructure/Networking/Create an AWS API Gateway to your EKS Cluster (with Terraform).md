@@ -1,23 +1,23 @@
 ---
 aliases: []
 author: ["[[alex]]"]
-confidence: 
+confidence: ""
 created: 2025-03-27T09:49:25Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
-source: https://medium.com/@alex067/create-an-aws-api-gateway-to-your-eks-cluster-with-terraform-46cdc91d9cea
+source: "https://medium.com/@alex067/create-an-aws-api-gateway-to-your-eks-cluster-with-terraform-46cdc91d9cea"
 source_of_truth: []
-status: 
-tags: [gateway, ingress, networking]
+status: ""
+tags: ["gateway", "ingress", "topic/technology/networking"]
 title: Create an AWS API Gateway to your EKS Cluster (with Terraform)
-type: download
+type: "download"
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 This article is going to focus on how you can leverage an **AWS API Gateway** as your external facing endpoint for your Kubernetes services. We’re going to assume that you have an **EKS** cluster up and running.

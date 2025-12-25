@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:53Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:31+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: searchfailedevent_in_logging_datasource
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Data Error: SearchFailedEvent in Logging Datasource
@@ -33,7 +33,7 @@ The logging datasource is encountering an error where the evaluation results for
 
 ### Technical Details
 
-- Error Message: "invalid format of evaluation results for the alert definition : frame cannot uniquely be identified by its labels: has duplicate results with labels {}"
+- Error Message: "invalid format of evaluation results for the alert definition: frame cannot uniquely be identified by its labels: has duplicate results with labels {}"
 - Affected Components:
   - Logging datasource
   - `SearchFailedEvent` alert rule

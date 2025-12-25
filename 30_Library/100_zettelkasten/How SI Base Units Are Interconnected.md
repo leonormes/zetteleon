@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-01T09:21:45Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: How SI Base Units Are Interconnected
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The [[The 2019 SI Redefinition is Based on Fundamental Constants|2019 redefinition of the SI]] established that the base units are not independent of one another. They form a single, coherent system linked through the fundamental constants of nature.

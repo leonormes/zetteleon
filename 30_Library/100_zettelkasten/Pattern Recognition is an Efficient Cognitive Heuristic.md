@@ -1,20 +1,20 @@
 ---
-aliases: [Cognitive Economics of Patterns]
-confidence: 0.9
+aliases: ["Cognitive Economics of Patterns"]
+confidence: "0.9"
 created: 2025-11-01T12:00:05Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:43:59Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To describe pattern recognition as a cognitive shortcut."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Pattern Recognition Conferred an Evolutionary Survival Advantage]]"]
-source_of_truth: ["[[MOC - Pattern - From Sensory Input to Meaning]]"]
-status: seedling
-tags: [cognition, efficiency, heuristics]
+source_of_truth: []
+status: "seedling"
+tags: ["efficiency", "heuristics", "topic/cognition"]
 title: Pattern Recognition is an Efficient Cognitive Heuristic
-type: concept
-uid: 2025-11-01T12:00:05Z
-updated: 2025-11-01T12:00:05Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Pattern Recognition is an Efficient Cognitive Heuristic

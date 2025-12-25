@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-10T13:04:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T13:28:09Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To explain the value proposition of modern productivity systems."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Proto-systems Are Informal Collective Routines That Organize Work]]"]
-source_of_truth: ["[[MOC - Productivity Systems vs Historical Achievement]]"]
-status: seedling
-tags: [atomic-habits, gtd, productivity, systems]
+source_of_truth: []
+status: "seedling"
+tags: ["gtd", "topic/habits", "topic/productivity", "topic/systems"]
 title: Modern Productivity Systems Formalize Implicit Historical Strategies
-type: concept
-uid: 2025-11-10T13:04:00Z
-updated: 2025-11-10T13:04:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Modern Productivity Systems Formalize Implicit Historical Strategies

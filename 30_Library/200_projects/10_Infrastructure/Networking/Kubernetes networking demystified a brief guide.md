@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers, networking]
+status: ""
+tags: ["containers", "topic/technology/networking"]
 title: Kubernetes networking demystified a brief guide
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 CNCF projects highlighted in this post
@@ -89,9 +89,9 @@ On our GKE cluster, querying these resource types with `kubectl` returns the f
 
 For reference, our cluster has the following IP networks:
 
-- Node – 10.138.15.0/24
-- Cluster – 10.16.0.0/14
-- Service – 10.19.240.0/20
+- Node–10.138.15.0/24
+- Cluster–10.16.0.0/14
+- Service–10.19.240.0/20
 
 Our service has a Virtual IP address (VIP) of 10.19.240.1 in the cluster CIDR block.
 

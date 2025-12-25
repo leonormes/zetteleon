@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T08:00:05Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [planning, topic/productivity, topic/productivity/gtd, type/review]
+status: "null"
+tags: ["planning", "topic/productivity", "topic/productivity/gtd", "type/review"]
 title: Core Actions of a GTD Weekly Review
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 To fulfill [[The Purpose of a Weekly Review is to Restore Trust in Your System]], a "simplest viable" review must be completed. This process is one of the [[Core Principles of Sustainable ADHD Productivity]] because it externalizes executive functions, which is crucial for managing the challenges outlined in [[ADHD Brain Wiring vs. Classic Productivity Systems]].

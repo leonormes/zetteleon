@@ -1,21 +1,21 @@
 ---
-aliases: [Self-Control]
-confidence: 1
+aliases: ["Self-Control"]
+confidence: "1"
 created: 2025-11-01T21:23:00Z
-epistemic: definition
-last_reviewed: 2025-11-01
-modified: 2025-11-02T13:09:06Z
+epistemic: "definition"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the character strength of self-regulation."
-review_interval: 90
-see_also: ['[[Discipline and Values]]', '[[Emotional Dysregulation]]', '[[Executive Functions]]', '[[Inner Strength & Resilience Skills (Your Strong Spirit)]]', '[[Responding vs. Reacting]]', '[[VIA Virtue of Temperance]]', '[[Your emotions are real but they are your responsibility]]']
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Inner Strength & Resilience Skills (Your Strong Spirit).md"]
-status: evergreen
-tags: [character-strength, emotional-intelligence, self-control, self-regulation, virtue]
+review_interval: "90"
+see_also: ["[[Discipline and Values]]", "[[Emotional Dysregulation]]", "[[Executive Functions]]", "[[Inner Strength & Resilience Skills (Your Strong Spirit)]]", "[[Responding vs. Reacting]]", "[[VIA Virtue of Temperance]]", "[[Your emotions are real but they are your responsibility]]"]
+source_of_truth: []
+status: "evergreen"
+tags: ["character-strength", "emotional-intelligence", "self-control", "self-regulation", "virtue"]
 title: Self-Regulation is Managing Your Emotions and Actions
-type: concept
-uid: 20251101212300
-updated: 2025-11-01T21:23:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 Self-regulation is the ability to manage your emotions, thoughts, and actions in a controlled and deliberate way.

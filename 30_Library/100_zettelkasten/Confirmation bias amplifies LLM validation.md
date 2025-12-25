@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T09:20:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Confirmation bias amplifies LLM validation
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 If a user already believes their ideas have merit, confirmation bias will make them more likely to accept a positive or agreeable response from an LLM.

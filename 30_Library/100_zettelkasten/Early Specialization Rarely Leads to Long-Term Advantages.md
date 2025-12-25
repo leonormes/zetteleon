@@ -1,20 +1,20 @@
 ---
-aliases: [Prodigy Pathway]
-confidence: 0.8
+aliases: ["Prodigy Pathway"]
+confidence: "0.8"
 created: 2025-11-01T12:30:02Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T10:08:40Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To explain the limited long-term benefits of early specialization."
-review_interval: 90
-see_also: ['[[Divergent Thinking Outperforms Narrow Specialization]]']
-source_of_truth: ['[[MOC - Divergent Thinking vs Specialization]]']
-status: seedling
-tags: [development, learning, specialization]
+review_interval: "90"
+see_also: ["[[Divergent Thinking Outperforms Narrow Specialization]]"]
+source_of_truth: []
+status: "seedling"
+tags: ["development", "learning", "specialization"]
 title: Early Specialization Rarely Leads to Long-Term Advantages
-type: concept
-uid: 2025-11-01T12:30:02Z
-updated: 2025-11-01T12:30:02Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Early Specialization Rarely Leads to Long-Term Advantages

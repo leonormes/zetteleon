@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-11-01T09:51:13Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-01T10:00:45Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [epistemology, mental-model, pragmatism, topic/philosophy, utility]
+status: "seedling"
+tags: ["epistemology", "mental-model", "pragmatism", "topic/philosophy", "utility"]
 title: Pragmatic Truth Focuses on Utility Over Absolute Correctness
-type: concept
+type: "concept"
 uid: 
-updated: 2025-11-01T09:51:13Z
+updated: 
 ---
 
 ## Pragmatic Truth Focuses on Utility Over Absolute Correctness

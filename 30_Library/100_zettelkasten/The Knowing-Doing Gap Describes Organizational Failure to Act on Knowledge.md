@@ -1,20 +1,20 @@
 ---
-aliases: [Knowing-Doing Gap in Organizations]
-confidence: 0.9
+aliases: ["Knowing-Doing Gap in Organizations"]
+confidence: "0.9"
 created: 2025-11-12T14:10:05Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-12T13:54:41Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the knowing-doing gap in an organizational context."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[The Intention-Action Gap is the Failure to Translate Knowledge into Action]]"]
-source_of_truth: ["[[MOC - The Science of Taking Action Bridging the Knowledge-Action Gap]]"]
-status: seedling
-tags: [business, management, organizational-behavior]
+source_of_truth: []
+status: "seedling"
+tags: ["business", "management", "organizational-behavior"]
 title: The Knowing-Doing Gap Describes Organizational Failure to Act on Knowledge
-type: concept
-uid: 2025-11-12T14:10:05Z
-updated: 2025-11-12T14:10:05Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Knowing-Doing Gap Describes Organizational Failure to Act on Knowledge

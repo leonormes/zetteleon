@@ -6,7 +6,7 @@ created: 2025-11-14T12:11:50Z
 date: 2025-11-14
 epistemic: 
 last_reviewed: 
-modified: 2025-12-04T13:27:53Z
+modified: 2025-12-25T11:40:23+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -21,14 +21,14 @@ updated:
 
 ## Azure Backup Validation Summary - Staging Cluster
 
-**Date**: 2025-11-14  
-**Cluster**: staging-cluster-2  
-**Subscription**: FITCloud Non-Production (249df46b-f75d-4492-8e78-b33a00473548)  
+**Date**: 2025-11-14
+**Cluster**: staging-cluster-2
+**Subscription**: FITCloud Non-Production (249df46b-f75d-4492-8e78-b33a00473548)
 **Status**: ✓ ALL CHECKS PASSED
 
 ### Terraform Configuration
 
-**Module**: `app.terraform.io/FITFILE-Platforms/aks-backup/azure` v1.0.5  
+**Module**: `app.terraform.io/FITFILE-Platforms/aks-backup/azure` v1.0.5
 **Location**: `main.tf` lines 73-91
 
 ```hcl
@@ -232,6 +232,6 @@ az role assignment list --assignee "7fb2a7a0-ec39-4232-b0ab-edc8d6133559" --scop
 
 ---
 
-**Validated by**: Azure CLI  
-**Tools used**: `az dataprotection`, `az storage`, `az group`, `az role assignment`  
+**Validated by**: Azure CLI
+**Tools used**: `az dataprotection`, `az storage`, `az group`, `az role assignment`
 **Date validated**: 2025-11-14T12:09:38Z

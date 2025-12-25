@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-10T12:11:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T10:00:47Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "To state the ultimate reason why habits are important."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Identity Emerges From Habits]]"]
-source_of_truth: ["[[MOC - The Relationship Between Habits and Identity]]"]
-status: seedling
-tags: [behavior-change, beliefs, habits, identity]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "beliefs", "identity", "topic/habits"]
 title: Habits Are the Channel Through Which You Shape Your Beliefs About Yourself
-type: concept
-uid: 2025-11-10T12:11:00Z
-updated: 2025-11-10T12:11:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Habits Are the Channel Through Which You Shape Your Beliefs About Yourself

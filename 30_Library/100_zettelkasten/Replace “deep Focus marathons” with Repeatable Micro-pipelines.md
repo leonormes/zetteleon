@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-19T23:58:53Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/pkm]
+status: ""
+tags: ["topic/pkm"]
 title: Replace “deep Focus marathons” with Repeatable Micro-pipelines
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 - Set 25–50 minute “focus sprints” with one explicit outcome (e.g., “Prove lemma A,” “Implement SHA-256 step 3,” “Summarize section on category theory adjoints in 5 bullet points”).

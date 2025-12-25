@@ -1,40 +1,38 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:56Z
-dependencies:
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:51Z
-name: private_k8s_common
-purpose: 
-replicas: N/A
-review_interval: 
+dependencies: ""
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+name: "private_k8s_common"
+purpose: ""
+replicas: "N/A"
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
-title: private_k8s_common
-type: common_requirements
+title: Common Private Kubernetes Deployment Requirements
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
-## Common Private Kubernetes Deployment Requirements
-
-### Component Description
+## Component Description
 
 Common requirements and configurations shared between private AKS and EKS deployments, ensuring consistent security and operational standards.
 
-### Dependencies Explanation
+## Dependencies Explanation
 
 - central_networking: Shared network infrastructure
 - central_identity: Common identity and access management
 - central_private_acr: Shared container registry
 - central_monitoring: Unified monitoring solution
 
-### Common Network Requirements
+## Common Network Requirements
 
 - Private cluster endpoints
 - No public ingress by default
@@ -43,7 +41,7 @@ Common requirements and configurations shared between private AKS and EKS deploy
 - Private DNS resolution
 - Service mesh integration
 
-### Common Security Requirements
+## Common Security Requirements
 
 - Pod security standards
 - Network policies
@@ -53,7 +51,7 @@ Common requirements and configurations shared between private AKS and EKS deploy
 - Encryption at rest
 - RBAC configuration
 
-### Common Operational Requirements
+## Common Operational Requirements
 
 - Monitoring integration
 - Log aggregation
@@ -62,7 +60,7 @@ Common requirements and configurations shared between private AKS and EKS deploy
 - Disaster recovery
 - GitOps workflows
 
-### Common Identity Requirements
+## Common Identity Requirements
 
 - Federated authentication
 - Service account management
@@ -70,7 +68,7 @@ Common requirements and configurations shared between private AKS and EKS deploy
 - RBAC standardization
 - Access reviews
 
-### Shared Infrastructure Services
+## Shared Infrastructure Services
 
 - Container registry access
 - Key management
@@ -79,7 +77,7 @@ Common requirements and configurations shared between private AKS and EKS deploy
 - Storage services
 - Backup services
 
-### Compliance and Governance
+## Compliance and Governance
 
 - Policy enforcement
 - Compliance monitoring

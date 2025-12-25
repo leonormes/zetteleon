@@ -1,23 +1,23 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:56Z
-epistemic: 
-id: kubernetes_backup_improve_already_awesome_velero_with_openebs
-last_reviewed: 
-modified: 2025-12-13T11:39:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "kubernetes_backup_improve_already_awesome_velero_with_openebs"
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
-source: https://blog.mayadata.io/openebs/suggesting-ways-to-improve-already-awesome-velero
+source: "https://blog.mayadata.io/openebs/suggesting-ways-to-improve-already-awesome-velero"
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: kubernetes_backup_improve_already_awesome_velero_with_openebs
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Kubernetes Backup Improve Already Awesome Velero with OpenEBS
@@ -88,7 +88,7 @@ This is the kind of issue that we anticipated when building DMaaS by the way, so
 
 ### Conclusion
 
-Hopefully, this blog shared some useful insights into the state of stateful backups using Velero and Restic (state of state :)). I’m confident that Velero will be improved with the collective efforts of the community. MayaData and the broader OpenEBS community is doing its part by creating a cStor plugin to extend backup options and also the managed back-up and migration service
+Hopefully, this blog shared some useful insights into the state of stateful backups using Velero and Restic (state of state:)). I’m confident that Velero will be improved with the collective efforts of the community. MayaData and the broader OpenEBS community is doing its part by creating a cStor plugin to extend backup options and also the managed back-up and migration service
 
 ### Resources
 

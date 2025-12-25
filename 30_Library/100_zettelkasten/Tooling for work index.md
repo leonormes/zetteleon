@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-25T10:24:38Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T17:04:39Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [links, project/work, tools]
+status: ""
+tags: ["links", "project/work", "tools"]
 title: Tooling for work index
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Quick access to work tools and resources.

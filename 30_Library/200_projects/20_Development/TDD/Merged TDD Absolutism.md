@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:52Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-22T11:08:59Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [SDLC, TDD]
+status: ""
+tags: ["SDLC", "TDD"]
 title: Merged TDD Absolutism
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 ## TDD Absolutism

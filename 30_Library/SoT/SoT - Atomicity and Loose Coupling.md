@@ -1,35 +1,20 @@
 ---
-aliases: [Atomic Notes vs. Interconnectedness, Loose Coupling, The Problem of False Atoms SoT]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-12T14:30:00Z
-epistemic:
-last-synthesis: 2025-12-12
-last_reviewed: 2025-12-12
-modified: 2025-12-20T09:54:09Z
-purpose: Canonical resolution of the tension between note atomicity and system dependencies in ProdOS.
-quality-markers: []
-related-soTs: ["[[SoT - Contextual Myopia and Self-Referential Meaning]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]"]
-resonance-score: 10
-review_interval: 1 year
-see_also: ["[[MOC - Thought and Language]]", "[[SoT - The Thought-Language Continuum]]"]
-source_of_truth: true
-status: stable
-supersedes: ["[[Atomic vs Structural Notes]]", "[[I Don't Like Dependencies]]", "[[The Atomicity Principle - One Idea Per Note]]", "[[The problem of false atoms]]", "[[The Problem of False Atoms]]"]
-tags: ["atomicity", "pkm", "systems-thinking", "zettelkasten"]
+aliases: ["Atomic Notes vs. Interconnectedness", "Loose Coupling", "The Problem of False Atoms SoT"]
+confidence: "5/5"
+created: 2025-12-12T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-12"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "Canonical resolution of the tension between note atomicity and system dependencies in ProdOS."
+review_interval: "1 year"
+see_also: ["[[Atomic vs Structural Notes]]", "[[I Don't Like Dependencies]]", "[[MOC - Thought and Language]]", "[[SoT - Contextual Myopia and Self-Referential Meaning]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - The Thought-Language Continuum]]", "[[The Atomicity Principle - One Idea Per Note]]", "[[The problem of false atoms]]", "[[The Problem of False Atoms]]"]
+source_of_truth: []
+status: "stable"
+tags: ["atomicity", "pkm", "topic/systems", "zettelkasten"]
 title: SoT - Atomicity and Loose Coupling
-type: SoT
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] Atomicity & Loose Coupling
-> **True Atomicity** is not isolation; it is **Loose Coupling**.
->
-> An atomic note must be **understandable on its own** (self-contained context) but **designed for connection** (standardized interface). The goal is not to eliminate dependencies, but to make them **Explicit** rather than **Implicit**.
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. The Core Tension: Independence vs. Interconnectedness

@@ -1,20 +1,20 @@
 ---
-aliases: [Polished Music Production]
-confidence: 0.9
+aliases: ["Polished Music Production"]
+confidence: "0.9"
 created: 2025-11-10T11:07:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T08:55:35Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To connect musical polish with commercial goals."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Music as Expression vs Product]]"]
-status: seedling
-tags: [commerce, music, product, production]
+source_of_truth: []
+status: "seedling"
+tags: ["commerce", "music", "product", "production"]
 title: The Polish of Commercial Music is Designed to Maximize Consumption
-type: concept
-uid: 2025-11-10T11:07:00Z
-updated: 2025-11-10T11:07:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Polish of Commercial Music is Designed to Maximize Consumption

@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-26T17:19:00Z
-epistemic: 
-id: Containers within a pod share network namespace and IP address
-last_reviewed: 
-modified: 2025-12-19T10:12:56Z
-purpose: 
-review_interval: 
+epistemic: "null"
+id: "Containers within a pod share network namespace and IP address"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:44+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [container, localhost, network-namespace, pod, topic/technology/containers, topic/technology/kubernetes, type/fact]
+status: "null"
+tags: ["container", "localhost", "network-namespace", "pod", "topic/technology/containers", "topic/technology/kubernetes"]
 title: Containers Within a Pod Share Network Namespace and IP Address
-type: Fact
+type: "Fact"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## Summary

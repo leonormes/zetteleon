@@ -1,21 +1,21 @@
 ---
-aliases: [Habits Shape Self-Belief, Self-Concept Through Habits]
-confidence: 0.9
+aliases: ["Habits Shape Self-Belief", "Self-Concept Through Habits"]
+confidence: "0.9"
 created: 2025-11-01T12:04:20Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:26:24Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Establish habits as the primary mechanism through which self-concept develops."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Accumulating Evidence Reinforces Identity]]", "[[Identity Emerges from Habits Not Fixed at Birth]]", "[[True Behavior Change is Identity Change]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Habits and Identity.md"]
-status: seedling
-tags: [behavior-change, habits, identity, psychology, self-concept]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "identity", "self-concept", "topic/habits", "topic/psychology"]
 title: Habits Are the Channel for Developing Beliefs About Self
-type: concept
-uid: 2025-11-01T12:04:20Z
-updated: 2025-11-01T12:04:20Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** The real reason habits matter is not just the better results they deliver, but because they are the channel through which you develop your deepest beliefs about yourself. Habits are the mechanism by which identity is constructed and transformed.

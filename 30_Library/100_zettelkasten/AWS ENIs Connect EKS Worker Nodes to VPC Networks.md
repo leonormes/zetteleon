@@ -1,18 +1,18 @@
 ---
 aliases: ["Elastic Network Interfaces"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T11:52:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T11:52:00Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Explain AWS ENIs in EKS networking."
-review_interval: 90
+review_interval: "90"
 see_also: ["AWS Networking MOC.md", "Kubernetes Performs SNAT for Pod Egress Traffic.md"]
 source_of_truth: []
-status: seedling
-tags: [aws, eks, networking]
+status: "seedling"
+tags: ["aws", "eks", "topic/technology/networking"]
 title: AWS ENIs Connect EKS Worker Nodes to VPC Networks
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

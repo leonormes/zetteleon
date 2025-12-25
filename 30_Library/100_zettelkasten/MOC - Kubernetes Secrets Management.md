@@ -1,18 +1,18 @@
 ---
-aliases: [K8s Secrets MOC, Kubernetes Secrets Map]
-confidence: 
+aliases: ["K8s Secrets MOC", "Kubernetes Secrets Map"]
+confidence: "null"
 created: 2025-12-15T12:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-20T09:54:10Z
-purpose: A central index for all notes related to managing secrets in Kubernetes clusters, from native primitives to advanced Vault integrations.
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: active
-tags: [kubernetes, moc, secrets, security, vault]
+status: "active"
+tags: ["kubernetes", "secrets", "security", "vault"]
 title: MOC - Kubernetes Secrets Management
-type: MOC
+type: "MOC"
 uid: 
 updated: 
 ---

@@ -1,21 +1,21 @@
 ---
-aliases: [Chunking Information Through Writing]
-confidence: 
+aliases: ["Chunking Information Through Writing"]
+confidence: ""
 created: 2025-07-18T00:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:29Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Writing Reduces Cognitive Load by Chunking Information
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 For Bessie, who finds it difficult to process large amounts of information, the act of writing is a powerful strategy for mitigating cognitive overload. The process of writing naturally forces the breakdown of complex material into smaller, more manageable chunks.

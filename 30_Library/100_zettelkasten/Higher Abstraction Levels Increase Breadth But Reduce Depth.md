@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T11:20:00Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain the abstraction breadth-depth tradeoff."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [abstraction, cognition]
+status: "seedling"
+tags: ["abstraction", "topic/cognition"]
 title: Higher Abstraction Levels Increase Breadth But Reduce Depth
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

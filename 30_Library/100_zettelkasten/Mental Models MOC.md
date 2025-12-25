@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-20T09:50:00Z
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:38Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [neuroscience, topic/cognition, topic/psychology, type/moc]
+status: "null"
+tags: ["neuroscience", "topic/cognition", "topic/psychology"]
 title: Mental Models MOC
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: "null"
 ---
 
 This collection of notes explores the concept of **Mental Models**: the internal, simplified representations of reality that our brains use to navigate the world, make predictions, and guide action. For a broader exploration of thought and language, see [[Thought and Language]].
@@ -27,6 +27,7 @@ This collection of notes explores the concept of **Mental Models**: the internal
 - They are efficient, subconscious tools for survival, acting as [[Mental Models as Evolutionary Filters]] and can be influenced by personality traits like extraversion as seen in [[Extravert]]. For thinking processes, see [[The Drill Down Phase of Thinking Follows Brainstorming]]. For uncertainty reduction, see [[SoT - Uncertainty Reduction]].
 - The core paradox is that [[All Models Are Wrong But Some Are Useful]].
 - The general scientific principle behind them is [[The Science of Modelling and Abstraction]].
+- A fundamental failure of human intuition is explored in [[SoT - The Exponential Function]], which details our inability to grasp the speed of steady growth.
 
 ## How Models Are Built and Reinforced
 

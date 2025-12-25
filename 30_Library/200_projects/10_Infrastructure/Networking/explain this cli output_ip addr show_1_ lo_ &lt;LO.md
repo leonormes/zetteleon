@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-22T14:38:45Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:22Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T18:35:10Z
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/networking]
+status: ""
+tags: ["topic/technology/networking"]
 title: explain this cli output_ip addr show_1_ lo_ &lt;LO
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Explain This Cli Output
@@ -41,28 +41,28 @@ The command `ip addr show` displays detailed information about all network inter
 
 ---
 
-### First Interface – Loopback
+### First Interface–Loopback
 
 ```sh
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
 ```
 
-- `1:` — Interface index.
-- `lo:` — Interface name (loopback).
-- `<LOOPBACK,UP,LOWER_UP>` — Flags:
+- `1:`—Interface index.
+- `lo:`—Interface name (loopback).
+- `<LOOPBACK,UP,LOWER_UP>`—Flags:
   - `LOOPBACK`: special local interface.
   - `UP`: device is enabled.
   - `LOWER_UP`: link layer is active.
-- `mtu 65536` — Maximum Transmission Unit (max packet size).
-- `qdisc noqueue` — No queuing discipline (since traffic doesn’t go on the wire).
-- `state UNKNOWN` — There’s no physical carrier to test link state.
-- `group default` / `qlen 1000` — Organizational grouping and default transmit queue length.
+- `mtu 65536`—Maximum Transmission Unit (max packet size).
+- `qdisc noqueue`—No queuing discipline (since traffic doesn’t go on the wire).
+- `state UNKNOWN`—There’s no physical carrier to test link state.
+- `group default` / `qlen 1000`—Organizational grouping and default transmit queue length.
 
 ```sh
 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 ```
 
-- `link/loopback` — Type of link-layer interface.
+- `link/loopback`—Type of link-layer interface.
 - MAC address is all zeros because it’s a virtual internal interface.
 
 ```sh
@@ -70,8 +70,8 @@ inet 127.0.0.1/8 scope host lo
 inet6 ::1/128 scope host noprefixroute
 ```
 
-- IPv4 address `127.0.0.1/8` — Used internally for local host communication.
-- IPv6 address `::1/128` — IPv6 equivalent of localhost.
+- IPv4 address `127.0.0.1/8`—Used internally for local host communication.
+- IPv6 address `::1/128`—IPv6 equivalent of localhost.
 - `scope host` meaning it’s only reachable from within the machine.
 
 ```sh
@@ -82,27 +82,27 @@ valid_lft forever preferred_lft forever
 
 ---
 
-### Second Interface – Ethernet
+### Second Interface–Ethernet
 
 ```sh
 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
 ```
 
-- `eth0` — Primary ethernet NIC.
+- `eth0`—Primary ethernet NIC.
 - Flags explained:
   - `BROADCAST`: can send broadcast traffic.
   - `MULTICAST`: supports multicasting.
   - `UP`: interface enabled.
   - `LOWER_UP`: physical link detected.
-- `mtu 1500` — Common ethernet packet size.
-- `qdisc fq_codel` — Queue discipline focusing on low latency (Fair Queue Controlled Delay).
-- `state UP` — Interface active.
+- `mtu 1500`—Common ethernet packet size.
+- `qdisc fq_codel`—Queue discipline focusing on low latency (Fair Queue Controlled Delay).
+- `state UP`—Interface active.
 
 ```sh
 link/ether 52:55:55:0a:13:c6 brd ff:ff:ff:ff:ff:ff
 ```
 
-- `link/ether` — Ethernet link layer.
+- `link/ether`—Ethernet link layer.
 - MAC address: `52:55:55:0a:13:c6`.
 - `brd` (broadcast) address: standard ethernet broadcast FF:FF:FF:FF:FF:FF.
 
@@ -126,7 +126,7 @@ inet 192.168.5.15/24 metric 200 brd 192.168.5.255 scope global dynamic eth0
 valid_lft 3388sec preferred_lft 3388sec
 ```
 
-- DHCP lease lifetimes — address valid and preferred for ~56 minutes.
+- DHCP lease lifetimes—address valid and preferred for ~56 minutes.
 
 ```sh
 inet6 fe80::5055:55ff:fe0a:13c6/64 scope link proto kernel_ll
@@ -211,7 +211,7 @@ If these entries look wrong or stale, DNS queries may fail.
 
 These tools bypass normal resolution steps and query DNS servers directly:
 
-#### `dig` – Detailed DNS Query Tool
+#### `dig`–Detailed DNS Query Tool
 
 ```bash
 dig example.com             # Standard lookup
@@ -222,7 +222,7 @@ dig @8.8.8.8 example.com    # Query a specific DNS server
 
 This shows which DNS server gave the answer, how long it took, and TTL info.
 
-#### `nslookup` – Simpler Diagnostic Tool
+#### `nslookup`–Simpler Diagnostic Tool
 
 ```bash
 nslookup example.com
@@ -232,7 +232,7 @@ nslookup example.com 8.8.8.8   # Query Google DNS directly
 
 `nslookup` is easier to read than `dig` for quick checks.
 
-#### `host` – Lightweight name Resolver
+#### `host`–Lightweight Name Resolver
 
 ```bash
 host example.com
@@ -276,8 +276,8 @@ traceroute google.com
 
 If problems persist, try these options:
 
-- `tcpdump -i eth0 port 53` — Monitor DNS traffic live.
-- `journalctl -u systemd-resolved` — Check resolver logs.
+- `tcpdump -i eth0 port 53`—Monitor DNS traffic live.
+- `journalctl -u systemd-resolved`—Check resolver logs.
 - Compare `/etc/nsswitch.conf` to ensure `dns` appears in the "hosts" line (`hosts: files dns`).
 
 ### How to Explore \& Learn
@@ -370,7 +370,7 @@ options edns0 trust-ad
 
 search lan fitfile.internal
 
-Your `/etc/resolv.conf` shows that your system uses **systemd-resolved**, which runs a local stub DNS resolver listening on `127.0.0.53` (a loopback address). This means your applications don’t talk to external DNS servers directly — they query **systemd-resolved**, which forwards the request to the “uplink” DNS servers it has learned from DHCP or manual configuration.[^3_1][^3_2][^3_3]
+Your `/etc/resolv.conf` shows that your system uses **systemd-resolved**, which runs a local stub DNS resolver listening on `127.0.0.53` (a loopback address). This means your applications don’t talk to external DNS servers directly—they query **systemd-resolved**, which forwards the request to the “uplink” DNS servers it has learned from DHCP or manual configuration.[^3_1][^3_2][^3_3]
 
 Here’s what’s going on line by line and how to work with it.
 
@@ -403,9 +403,9 @@ resolvectl status
 
 You’ll see:
 
-- **Global settings** – fallback servers, DNSSEC status.
-- **Per-link (per-interface) DNS servers** – typically ones received via DHCP.
-- **Current DNS Server** – which one is being used at this moment.
+- **Global settings**–fallback servers, DNSSEC status.
+- **Per-link (per-interface) DNS servers**–typically ones received via DHCP.
+- **Current DNS Server**–which one is being used at this moment.
 
 To list only active upstream DNS servers:
 
@@ -551,7 +551,7 @@ and `resolvectl status` revealing a single upstream of `192.168.5.2`, that IP do
 ### Key Differences from a Full Linux Host
 
 | Behavior                     | Native Linux                                      | Lima VM (on macOS)                                       |
-| :--------------------------- | :------------------------------------------------ | :------------------------------------------------------- |
+|:--------------------------- |:------------------------------------------------ |:------------------------------------------------------- |
 | Network interface            | Physical (eth0 or wlan0) tied to NIC              | Virtual `eth0` bridged via slirp or VZ                   |
 | DNS servers                  | From DHCP on the real network                     | Usually `192.168.5.2` → host resolver                    |
 | `/etc/resolv.conf`           | Often lists public resolvers or DHCP-provided IPs | Stub (127.0.0.53) handled by systemd-resolved            |
@@ -594,7 +594,7 @@ scutil --dns
 You’ll see which macOS network interfaces and VPNs define resolvers.
 
 4. **Debug split DNS or VPN issues**
-   - If certain domains fail to resolve inside the VM but work on macOS, Lima’s proxy isn’t picking up your VPN-specific DNS configurations (a known limitation in some versions ).[^4_2]
+   - If certain domains fail to resolve inside the VM but work on macOS, Lima’s proxy isn’t picking up your VPN-specific DNS configurations (a known limitation in some versions).[^4_2]
    - Upgrading Lima or switching to `--network vzNAT` (available on Apple Silicon) can fix that behavior.
 
 ---
@@ -607,7 +607,7 @@ Inside your Ubuntu Lima VM:
 - Real resolution happens via Lima’s built-in DNS proxy (`192.168.5.2`), which in turn delegates queries to macOS’s DNS stack.
 - Any DNS misbehavior often stems from the macOS host’s resolver configuration, VPN split-DNS, or a disconnected host network interface rather than the VM itself.
 
-In essence, your Ubuntu VM’s DNS experience mirrors macOS’s — just transparently bridged through Lima’s virtual resolver and `systemd-resolved`.
+In essence, your Ubuntu VM’s DNS experience mirrors macOS’s—just transparently bridged through Lima’s virtual resolver and `systemd-resolved`.
 
 <span style="display:none">[^4_10][^4_11][^4_12][^4_13][^4_14][^4_15][^4_16][^4_17][^4_5][^4_6][^4_7][^4_8][^4_9]</span>
 
@@ -655,171 +655,171 @@ DNS configuration
 
 resolver \#1
 
-search domain[0] : lan
+search domain[0]: lan
 
-search domain[1] : fitfile.internal
+search domain[1]: fitfile.internal
 
-nameserver[0] : 100.103.255.254
+nameserver[0]: 100.103.255.254
 
-port : 53
+port: 53
 
-flags : Supplemental, Request A records
+flags: Supplemental, Request A records
 
-reach : 0x00000002 (Reachable)
+reach: 0x00000002 (Reachable)
 
-order : 103000
+order: 103000
 
 resolver \#2
 
-nameserver[0] : 192.168.86.1
+nameserver[0]: 192.168.86.1
 
-if_index : 14 (en0)
+if_index: 14 (en0)
 
-flags : Request A records
+flags: Request A records
 
-reach : 0x00020002 (Reachable,Directly Reachable Address)
+reach: 0x00020002 (Reachable,Directly Reachable Address)
 
-order : 200000
+order: 200000
 
 resolver \#3
 
-domain : fitfile.internal
+domain: fitfile.internal
 
-nameserver[0] : 100.103.255.254
+nameserver[0]: 100.103.255.254
 
-port : 53
+port: 53
 
-flags : Supplemental, Request A records
+flags: Supplemental, Request A records
 
-reach : 0x00000002 (Reachable)
+reach: 0x00000002 (Reachable)
 
-order : 103001
+order: 103001
 
 resolver \#4
 
-domain : lan
+domain: lan
 
-nameserver[0] : 192.168.86.1
+nameserver[0]: 192.168.86.1
 
-port : 53
+port: 53
 
-flags : Supplemental, Request A records
+flags: Supplemental, Request A records
 
-reach : 0x00020002 (Reachable,Directly Reachable Address)
+reach: 0x00020002 (Reachable,Directly Reachable Address)
 
-order : 102800
+order: 102800
 
 resolver \#5
 
-domain : local
+domain: local
 
-options : mdns
+options: mdns
 
-timeout : 5
+timeout: 5
 
-flags : Request A records
+flags: Request A records
 
-reach : 0x00000000 (Not Reachable)
+reach: 0x00000000 (Not Reachable)
 
-order : 300000
+order: 300000
 
 resolver \#6
 
-domain : 103.100.in-addr.arpa
+domain: 103.100.in-addr.arpa
 
-nameserver[0] : 100.103.255.254
+nameserver[0]: 100.103.255.254
 
-port : 53
+port: 53
 
-flags : Supplemental, Request A records
+flags: Supplemental, Request A records
 
-reach : 0x00000002 (Reachable)
+reach: 0x00000002 (Reachable)
 
-order : 102600
+order: 102600
 
 resolver \#7
 
-domain : 254.169.in-addr.arpa
+domain: 254.169.in-addr.arpa
 
-options : mdns
+options: mdns
 
-timeout : 5
+timeout: 5
 
-flags : Request A records
+flags: Request A records
 
-reach : 0x00000000 (Not Reachable)
+reach: 0x00000000 (Not Reachable)
 
-order : 300200
+order: 300200
 
 resolver \#8
 
-domain : 8.e.f.ip6.arpa
+domain: 8.e.f.ip6.arpa
 
-options : mdns
+options: mdns
 
-timeout : 5
+timeout: 5
 
-flags : Request A records
+flags: Request A records
 
-reach : 0x00000000 (Not Reachable)
+reach: 0x00000000 (Not Reachable)
 
-order : 300400
+order: 300400
 
 resolver \#9
 
-domain : 9.e.f.ip6.arpa
+domain: 9.e.f.ip6.arpa
 
-options : mdns
+options: mdns
 
-timeout : 5
+timeout: 5
 
-flags : Request A records
+flags: Request A records
 
-reach : 0x00000000 (Not Reachable)
+reach: 0x00000000 (Not Reachable)
 
-order : 300600
+order: 300600
 
 resolver \#10
 
-domain : a.e.f.ip6.arpa
+domain: a.e.f.ip6.arpa
 
-options : mdns
+options: mdns
 
-timeout : 5
+timeout: 5
 
-flags : Request A records
+flags: Request A records
 
-reach : 0x00000000 (Not Reachable)
+reach: 0x00000000 (Not Reachable)
 
-order : 300800
+order: 300800
 
 resolver \#11
 
-domain : b.e.f.ip6.arpa
+domain: b.e.f.ip6.arpa
 
-options : mdns
+options: mdns
 
-timeout : 5
+timeout: 5
 
-flags : Request A records
+flags: Request A records
 
-reach : 0x00000000 (Not Reachable)
+reach: 0x00000000 (Not Reachable)
 
-order : 301000
+order: 301000
 
 DNS configuration (for scoped queries)
 
 resolver \#1
 
-search domain[0] : lan
+search domain[0]: lan
 
-nameserver[0] : 192.168.86.1
+nameserver[0]: 192.168.86.1
 
-if_index : 14 (en0)
+if_index: 14 (en0)
 
-flags : Scoped, Request A records
+flags: Scoped, Request A records
 
-reach : 0x00020002 (Reachable,Directly Reachable Address)
+reach: 0x00020002 (Reachable,Directly Reachable Address)
 
 Your `scutil --dns` output reveals how **macOS’s DNS stack** manages multiple parallel resolvers, including split DNS behavior from your VPN and local network. Unlike Linux, macOS doesn’t rely on a single `/etc/resolv.conf` file; instead, it defines multiple *scoped resolvers*, each tied to interfaces, domains, or VPNs.[^5_1][^5_2][^5_3]
 
@@ -855,7 +855,7 @@ resolver #1
 2. **General resolution:**
    For non-matching domains, macOS uses general resolvers (`resolver #2` here → `192.168.86.1`, your LAN router/DNS).
 3. **mDNS / local resolution:**
-   Resolvers like `domain : local` handle multicast DNS (Bonjour/zeroconf on your LAN), not Internet queries.
+   Resolvers like `domain: local` handle multicast DNS (Bonjour/zeroconf on your LAN), not Internet queries.
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 1.0
+confidence: "1.0"
 created: 2025-11-22T15:05:02Z
-epistemic: fact
-last_reviewed: 2025-11-22
-modified: 2025-11-22T14:50:39Z
+epistemic: "fact"
+last_reviewed: "2025-11-22"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Provides a reference for common CIDR implementations."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [networking/cidr]
+status: "seedling"
+tags: ["topic/technology/networking/cidr"]
 title: Concept - CIDR Subnet Sizes
-type: concept
-uid: 2025-11-22T15:05:02Z
-updated: 2025-11-22T15:05:02Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## CIDR Subnet Sizes

@@ -1,20 +1,20 @@
 ---
-aliases: [Experiential Knowledge]
-confidence: 0.9
+aliases: ["Experiential Knowledge"]
+confidence: "0.9"
 created: 2025-11-01T12:10:02Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T09:55:39Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:47+00:00
 purpose: "To explain that knowledge is formed through practical use of information."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Information Becomes Knowledge Through Understanding and Internalization]]"]
-source_of_truth: ["[[MOC - From Information to Knowledge]]"]
-status: seedling
-tags: [experience, knowledge, learning]
+source_of_truth: []
+status: "seedling"
+tags: ["experience", "knowledge", "learning"]
 title: Knowledge Emerges Through Application and Experience
-type: concept
-uid: 2025-11-01T12:10:02Z
-updated: 2025-11-01T12:10:02Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Knowledge Emerges Through Application and Experience

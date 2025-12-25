@@ -1,23 +1,23 @@
 ---
 aliases: []
-author:
-confidence: 
+author: ""
+confidence: ""
 created: 2024-12-10T09:52:17Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:30+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "https://www.cncf.io/blog/2023/07/03/kubernetes-logging-best-practices/"
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: kubernetes_logging_best_practices
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Kubernetes Logging Best Practices
@@ -44,11 +44,11 @@ Best Practices for Kubernetes Logging:
 
 Here are some best practices for logging in a Kubernetes environment:
 
-1. Use a centralized logging solution — A centralized logging solution allows you to store and analyze logs in a central location, making it easier to troubleshoot issues and monitor application performance. Elasticsearch, Splunk, and Loggly are some popular centralized logging solutions used with Kubernetes.
-2. Implement log rotation — Log rotation is the process of deleting or archiving old logs to prevent disk space from filling up. It is essential to configure log rotation for your Kubernetes logs to avoid running out of disk space.
-3. Use structured logging — Structured logging formats log messages in a structured way, making it easier to search, filter, and analyze log data. Use JSON or other structured logging formats instead of plain text to make it easier to extract information from logs.
-4. Avoid logging sensitive information — Avoid logging sensitive information such as passwords, API keys, and other credentials in your Kubernetes logs. Instead, use environment variables or secrets to store this information securely.
-5. Include contextual information — Including contextual information such as timestamps, hostnames, and request IDs in your logs makes it easier to correlate log events and troubleshoot issues.
+1. Use a centralized logging solution—A centralized logging solution allows you to store and analyze logs in a central location, making it easier to troubleshoot issues and monitor application performance. Elasticsearch, Splunk, and Loggly are some popular centralized logging solutions used with Kubernetes.
+2. Implement log rotation—Log rotation is the process of deleting or archiving old logs to prevent disk space from filling up. It is essential to configure log rotation for your Kubernetes logs to avoid running out of disk space.
+3. Use structured logging—Structured logging formats log messages in a structured way, making it easier to search, filter, and analyze log data. Use JSON or other structured logging formats instead of plain text to make it easier to extract information from logs.
+4. Avoid logging sensitive information—Avoid logging sensitive information such as passwords, API keys, and other credentials in your Kubernetes logs. Instead, use environment variables or secrets to store this information securely.
+5. Include contextual information—Including contextual information such as timestamps, hostnames, and request IDs in your logs makes it easier to correlate log events and troubleshoot issues.
 6. Tagging privacy information:
 To ensure the security and privacy of sensitive data, it is advisable to tag or mask any sensitive information present in your logs. You can use a standardized format like “priv” or “\\\\” to identify and mask sensitive data such as passwords, credit card numbers, or personally identifiable information (PII).
 

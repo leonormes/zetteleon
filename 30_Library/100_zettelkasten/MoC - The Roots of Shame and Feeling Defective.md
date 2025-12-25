@@ -4,19 +4,19 @@ confidence: 5/5
 created: 2025-06-23T06:22:50Z
 epistemic: theory
 id: The Roots of Shame and Feeling Defective
-last_reviewed: 2025-12-16
-modified: 2025-12-16T11:57:33Z
-purpose: To map the causal links between ADHD neurobiology and the development of toxic shame.
-review_interval:
+last_reviewed: 2025-12-16T00:00:00.000Z
+modified: 2025-12-25T18:35:24Z
+purpose: ""
+review_interval: "null"
 see_also: ["[[SoT - ADHD Self-Compassion & Strengths]]"]
-source_of_truth: ["[[SoT - ADHD Self-Compassion & Strengths]]"]
+source_of_truth: []
 status: stable
 tags: [emotional_dysregulation, map, mental_health, shame, topic/health/adhd]
 title: MoC - The Roots of Shame and Feeling Defective
 type: map
 uid:
 updated:
-version: 1
+version: "1"
 ---
 
 > [!NOTE] Synthesis

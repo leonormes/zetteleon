@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-24T15:39:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [logging, secrets-management, security, state-management]
+status: ""
+tags: ["logging", "secrets-management", "security", "state-management"]
 title: Securing State and Logs in Terraform Cloud
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Even with the use of [[Short-Lived Credentials Core Principle in Terraform Cloud|short-lived credentials]], it is paramount to implement robust security measures for Terraform state files and logs. These artifacts can inadvertently expose sensitive information if not properly secured.

@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T15:49:33Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-12T16:07:53Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,15 +22,17 @@ updated:
 ![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/51q%2BTMvkNFL._SL200_.jpg)
 
 ### Metadata
+
 - Author: [[Donella H. Meadows]]
 - Full Title: Thinking in Systems
 - Category: #books
 
 ### Highlights
-- Because of feedback delays within complex systems, by the time a problem becomes apparent it may be unnecessarily difficult to solve. — A stitch in time saves nine. ([Location 202](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=202))
+
+- Because of feedback delays within complex systems, by the time a problem becomes apparent it may be unnecessarily difficult to solve.—A stitch in time saves nine. ([Location 202](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=202))
     - Note: [[Engineering Excellence MOC]]
-- According to the competitive exclusion principle, if a reinforcing feedback loop rewards the winner of a competition with the means to win further competitions, the result will be the elimination of all but a few competitors. — For he that hath, to him shall be given; and he that hath not, from him shall be taken even that which he hath (Mark 4:25) or —The rich get richer and the poor get poorer. ([Location 204](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=204))
-- A diverse system with multiple pathways and redundancies is more stable and less vulnerable to external shock than a uniform system with little diversity. — Don’t put all your eggs in one basket. ([Location 208](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=208))
+- According to the competitive exclusion principle, if a reinforcing feedback loop rewards the winner of a competition with the means to win further competitions, the result will be the elimination of all but a few competitors.—For he that hath, to him shall be given; and he that hath not, from him shall be taken even that which he hath (Mark 4:25) or—The rich get richer and the poor get poorer. ([Location 204](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=204))
+- A diverse system with multiple pathways and redundancies is more stable and less vulnerable to external shock than a uniform system with little diversity.—Don’t put all your eggs in one basket. ([Location 208](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=208))
 - Ever since the Industrial Revolution, Western society has benefited from science, logic, and reductionism over intuition and holism. ([Location 211](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=211))
     - Note: I spend a lot of my time trying to break things down into simple and independent parts. It makes things easier to comprehend. But does this lead to understanding? Parts affect each other
 - Because they are embedded in larger systems, however, some of our “solutions” have created further problems. ([Location 216](https://readwise.io/to_kindle?action=open&asin=B005VSRFEA&location=216))

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-20T21:40:46Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:43Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [networking]
+status: ""
+tags: ["topic/technology/networking"]
 title: networking debugging tools
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 Here are some especially useful tools on a Linux Ubuntu AWS EC2 instance for debugging network connection issues:

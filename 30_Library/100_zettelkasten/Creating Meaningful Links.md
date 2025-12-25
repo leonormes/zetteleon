@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-02-07T12:57:54Z
-epistemic: 
-ID: creating_meaningful_links
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+ID: "creating_meaningful_links"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [knowledge-work, linking, topic/pkm/zettelkasten]
+status: "null"
+tags: ["knowledge-work", "linking", "topic/pkm/zettelkasten"]
 title: Creating Meaningful Links
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Creating meaningful links between notes is the fundamental mechanism that transforms a collection of isolated thoughts into a dynamic knowledge system. The quality and intentionality of these connections determine whether a zettelkasten becomes a powerful thinking tool or merely a digital filing cabinet.
@@ -51,8 +51,6 @@ As [[Luhmann Emphasized Connection-Making]], the process of identifying and crea
 
 - [[Luhmann Emphasized Connection-Making]] - The philosophical foundation of connection-based thinking
 - [[Deep Processing is the Core of Zettelkasten]] - Why meaningful linking requires cognitive effort
-- [[Cognitive Engagement Activates Zettelkasten]] - How active connection-making brings the system to life
-- [[You Are the Zettelkasten]] - The personal nature of knowledge connections
 
 ### Relationship Types
 
@@ -64,5 +62,4 @@ As [[Luhmann Emphasized Connection-Making]], the process of identifying and crea
 ### Knowledge Work
 
 - [[The Processing Is the Hard Part]] - Why creating meaningful connections requires effort
-- [[Maintaining Lines of Thought Over Time]] - How links preserve thinking across time
 - [[Zettelkasten System Essence]] - The core principles of connection-based knowledge systems

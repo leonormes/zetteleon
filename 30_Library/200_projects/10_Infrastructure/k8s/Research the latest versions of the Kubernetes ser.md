@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-15T10:45:10Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:40Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:36+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Research the latest versions of the Kubernetes ser
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Research the latest versions of the Kubernetes service objects. Explain how ingress and egress works for a cluster. What are the benefits of each option. Also explain the process of ingress from a data centric perspectve
@@ -40,7 +40,7 @@ Egress controls outgoing traffic through:
 4. Security enforcement (TLS/mTLS termination)[^3][^4]
 
 | Feature | Ingress Benefits | Egress Benefits |
-| :-- | :-- | :-- |
+|:-- |:-- |:-- |
 | Traffic Control | Path-based routing[^4][^5] | Protocol-specific filtering[^3] |
 | Security | Centralized TLS termination[^4][^5] | Mandatory mTLS enforcement[^3] |
 | Scalability | Horizontal pod autoscaling triggers[^2][^5] | Rate limiting to external APIs[^3] |

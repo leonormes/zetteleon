@@ -1,19 +1,19 @@
 ---
-aliases: [Time Blindness]
-confidence: 
+aliases: ["Time Blindness"]
+confidence: "null"
 created: 2025-10-30T12:09:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:49+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source: "[[MOC - Why Task Initiation is Difficult in ADHD]]"
 source_of_truth: []
-status: seedling
-tags: [executive-function, time-management, topic/health/adhd]
+status: "seedling"
+tags: ["executive-function", "time-management", "topic/health/adhd"]
 title: ADHD Time Blindness Impairs Planning
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

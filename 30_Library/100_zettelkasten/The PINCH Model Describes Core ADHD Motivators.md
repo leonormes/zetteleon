@@ -1,21 +1,21 @@
 ---
-aliases: [Four main triggers activate the ADHD interest-based nervous system, PINCH Model]
-confidence: 
+aliases: ["Four main triggers activate the ADHD interest-based nervous system", "PINCH Model"]
+confidence: "null"
 created: 2025-07-16T17:30:01Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [models, motivation, pinch-model, topic/health/adhd]
+status: "null"
+tags: ["models", "motivation", "pinch-model", "topic/health/adhd"]
 title: The PINCH Model Describes Core ADHD Motivators
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 The PINCH model is a helpful acronym that summarizes the types of intrinsic motivators that effectively stimulate dopamine production in the ADHD brain, allowing for engagement and focus. These are not just preferences, but neurological necessities for activating the [[The Interest-Based Nervous System in ADHD]].

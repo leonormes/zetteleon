@@ -1,20 +1,20 @@
 ---
 aliases: ["stream sockets", "TCP sockets"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T13:37:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:58Z
+epistemic: "fact"
+last_reviewed: "2025-10-31"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Explain stream sockets and TCP characteristics."
-review_interval: 90
+review_interval: "90"
 see_also: ["Datagram Sockets Provide Fast Unreliable UDP Communication.md"]
 source_of_truth: []
-status: seedling
-tags: [networking, protocol, socket, tcp]
+status: "seedling"
+tags: ["protocol", "socket", "tcp", "topic/technology/networking"]
 title: Stream Sockets Provide Reliable Ordered TCP Communication
-type: concept
-uid: 2025-10-31T13:37:00Z
-updated: 2025-10-31T13:37:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Stream Sockets Provide Reliable Ordered TCP Communication

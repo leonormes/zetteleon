@@ -1,20 +1,20 @@
 ---
-aliases: [Parallel Action Sequences]
-confidence: 0.9
+aliases: ["Parallel Action Sequences"]
+confidence: "0.9"
 created: 2025-11-10T15:07:00Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-10T13:33:51Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To describe concurrency in project workflows."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Action Sequences Form Directed Acyclic Graphs]]"]
-source_of_truth: ["[[MOC - Atomic Actions and Next Actions Framework]]"]
-status: seedling
-tags: [concurrency, productivity, project-management, workflow]
+source_of_truth: []
+status: "seedling"
+tags: ["concurrency", "project-management", "topic/productivity", "workflow"]
 title: Projects Can Have Multiple Parallel Action Sequences
-type: concept
-uid: 2025-11-10T15:07:00Z
-updated: 2025-11-10T15:07:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Projects Can Have Multiple Parallel Action Sequences

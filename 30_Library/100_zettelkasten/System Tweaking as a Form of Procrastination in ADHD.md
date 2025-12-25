@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-25T14:28:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T10:42:02Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/health/adhd, topic/productivity, topic/productivity/hyperfocus, topic/productivity/procrastination]
+status: "null"
+tags: ["topic/health/adhd", "topic/productivity", "topic/productivity/hyperfocus", "topic/productivity/procrastination"]
 title: System Tweaking as a Form of Procrastination in ADHD
-type: permanent
+type: "permanent"
 uid: 
-updated: 2025-10-31
-version: 1
+updated: 
+version: "1"
 ---
 
 System tweaking is a common form of productive procrastination for individuals with ADHD, where they spend excessive time refining the appearance, functionality, or organization of their tools (like a PKM or to-do list) instead of using them to do the actual work.

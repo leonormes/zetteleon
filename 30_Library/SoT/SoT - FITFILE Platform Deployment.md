@@ -1,53 +1,67 @@
 ---
-aliases: [FITFILE Deployment Process, FITFILE Deployment SoT, FITFILE Platform Architecture]
-confidence: 5/5
-created: 2025-12-14T20:00:00Z
-epistemic: theory
-last_reviewed: 2025-12-21
-modified: 2025-12-21T14:57:23Z
-purpose: To provide the canonical reference for the FITFILE Platform deployment, architecture, security, and operational procedures.
-review_interval: 6 months
-see_also: []
-source_of_truth: true
-status: stable
-tags: [architecture, aws, azure, deployment, fitfile, kubernetes, process, security]
+aliases: ["FITFILE Deployment Architecture", "FITFILE Platform Overview"]
+confidence: "5/5"
+created: 2025-12-14T18:04:39Z
+epistemic: "theory"
+last_reviewed: "2025-12-23"
+modified: 2025-12-25T18:34:55Z
+purpose: "To provide the canonical architectural reference for the FITFILE Platform deployment, including GitOps flow, security model, and component architecture."
+review_interval: "6 months"
+see_also: ["[[MOC - FitFile Deployment]]", "[[SOT - CI-CD Pipelines]]", "[[SoT - FITFILE Secret Management Architecture]]"]
+source_of_truth: []
+status: "stable"
+tags: ["architecture", "deployment", "fitfile", "gitops", "kubernetes"]
 title: SoT - FITFILE Platform Deployment
-type: SoT
-uid: 2025-12-14-FITFILE-DEPLOY
+type: "SoT"
+uid: 
 updated: 
-version: 2
 ---
 
-## 1. Definitive Statement
+## 1. Executive Summary
 
-> [!definition] Definition
-> The **FITFILE Platform** is a secure, cloud-agnostic data processing system designed for healthcare environments. Its deployment architecture utilizes **Infrastructure as Code (Terraform)**, **GitOps (ArgoCD)**, and **Helm Charts** to ensure reproducible, scalable, and compliant infrastructure across Azure and AWS.
+The FITFILE platform utilizes a **Three-Tier Deployment Architecture** optimized for security, scalability, and high-velocity updates via GitOps. A unique **Deployment Key** (e.g., `WM-Prod`) serves as the primary identifier across all layers, ensuring consistency from Vault secrets to cloud resource naming.
+
+1. **Infrastructure Layer:** Cloud resources (EKS/AKS) with strictly private networking.
+2. **Platform Layer:** Management tools (ArgoCD, Vault integration, Ingress) that form the "Cluster OS."
+3. **Application Layer:** FITFILE microservices deployed as a unified unit.
 
 ---
 
-## 2. The High-Level Flow (From Commit to Cloud)
+## 2. Security by Design (Invariants)
 
-The deployment process is a hybrid **CI-Driven GitOps** workflow. It combines the automation of GitLab CI with the state reconciliation of ArgoCD.
+The deployment process is built on a "Secure-by-Default" foundation:
+
+- **Private Networking:** No public endpoints for cluster APIs or administrative interfaces.
+- **Identity-Centric Access:** Managed identities (Azure) or IAM/SSM (AWS) for infrastructure access.
+- **Centrally Managed Secrets:** Zero secrets in Git; all credentials reside in HCP Vault and are marked as `sensitive` in Terraform.
+- **Authenticated Ingress:** Application-level authentication is offloaded to Auth0.
+- **Controlled Access:** All administrative operations are conducted via a secure Jumpbox.
+
+---
+
+## 3. The High-Level Flow (From Commit to Cloud)
+
+The process is a hybrid **CI-Driven GitOps** workflow.
 
 ```mermaid
 graph TD
     Dev[Developer] -->|Push Code| GitLab[GitLab Repo]
     
-    subgraph "Continuous Integration"
+    subgraph "Continuous Integration (GitLab)"
         GitLab -->|Trigger| Pipeline[CI Pipeline]
         Pipeline -->|Build| Docker[Docker Image]
         Pipeline -->|Lint| Validate[Helm Lint/Test]
     end
     
-    subgraph "Continuous Deployment"
+    subgraph "Continuous Deployment (ArgoCD)"
         Pipeline -->|Trigger Sync| ArgoCD[ArgoCD Server]
         ArgoCD -->|Fetch| Charts[Helm Charts]
-        ArgoCD -->|Apply| K8s[AKS Cluster]
+        ArgoCD -->|Apply| K8s[Cluster]
     end
     
-    subgraph "Runtime & Secrets"
+    subgraph "Runtime & Secrets (Vault)"
         K8s -->|Create| VSO[Vault Secrets Operator]
-        VSO -->|Auth| Vault[HashiCorp Vault]
+        VSO -->|Auth| Vault[HCP Vault]
         Vault -->|Sync| Secret[K8s Secret]
         Secret -->|Mount| App[FITFILE Application]
     end
@@ -55,200 +69,49 @@ graph TD
 
 ---
 
-## 3. The Deployment Lifecycle
+## 3. Core Architectural Patterns
 
-### Phase 1: Infrastructure Provisioning (Terraform)
+### 3.1 ArgoCD "App of Apps"
 
-Before any app deployment, the bedrock is laid via Terraform.
+We do not deploy services individually. A single **Root Application** (pointing to the `ffnode` umbrella chart) manages multiple child applications.
 
-- **AWS/Azure Resources:** VPCs, AKS Clusters, Databases.
-- **Repository:** `fitfile/infrastructure` (or similar).
-- **Key Doc:** [[terraform-helm-fitfile-platform]]
+- **The Filter:** Environment-specific `values.yaml` files use feature flags (`deploy.mongodb: true`) to determine the cluster state.
+- **Consistency:** Ensures the entire stack versioning is managed as a single logical commit.
 
-#### Terraform Cloud (TFC) Workspace Setup
+### 3.2 Secret Flow (Zero-Git Strategy)
 
-A TFC workspace is required for each new deployment.
+Secrets are never stored in plain text or encrypted within Git.
 
-1.  **Create Workspace:** Create a new workspace in the correct TFC project, linked to the GitLab repository containing the Terraform code for the deployment.
-2.  **Terraform Version:** Ensure the workspace is using the latest version of Terraform.
-3.  **Variables:** The workspace needs a set of environment variables to function. These can be applied via Variable Sets. Key variables to set manually are:
-    -   `vault_namespace`: The Vault namespace for the deployment (e.g., `deployments/ff-hyve-1`).
-    -   `approles`: A sensitive HCL variable containing the AppRole credentials for Terraform to authenticate with Vault. See [[MOC - FitFile Deployment]] for the command to generate this.
+- **Source:** HashiCorp Vault (HCP).
+- **Bridge:** Vault Secrets Operator (VSO) or External Secrets Operator (ESO).
+- **Outcome:** Secrets are injected directly into Kubernetes `Secret` resources and mounted into Pods at runtime.
 
----
+### 3.3 Private Access & Networking
 
-### Phase 2: Application Configuration (Helm)
-
-Applications are packaged as Helm charts.
-
-- **Umbrella Chart:** `charts/ffnode` acts as the standard deployment unit.
-- **Configuration:** Customer-specific configuration lives in `ffnodes/fitfile/{customer-env}/values.yaml`.
-- **Key Doc:** [[FFNODE as Umbrella Chart]]
-
-### Phase 3: The Deployment Trigger (GitLab CI)
-
-1. **Change:** A merge to `master` or a manual trigger on `staging`.
-2. **Pipeline:** Executes `.gitlab-ci.yml`.
-3. **Sync:** The pipeline contacts ArgoCD to force a synchronization of the application state.
-
-### Phase 4: Runtime Reconciliation (ArgoCD & VSO)
-
-1. **ArgoCD:** Detects the change in Helm values/charts and applies manifests to AKS.
-2. **VSO:** Detects new `VaultStaticSecret` resources. It authenticates with Vault, fetches the secret data, and creates the Kubernetes `Secret`.
-3. **Kubernetes:** Starts the Pods. The Pods mount the secrets and begin operation.
+- **Zero Public Endpoints:** Cluster APIs and administrative interfaces are blocked from the internet.
+- **Secure Tunneling:** All `kubectl` and administrative access must route through a **Jumpbox** or AWS SSM/Azure Serial Console.
+- **Policy Enforcement:** Network isolation is enforced via **Calico** (Layer 3/4) and Ingress controllers (Layer 7).
 
 ---
 
-## 4. Infrastructure & Cloud Platforms
+## 4. Platform Components
 
-The platform supports a multi-cloud strategy, primarily focused on Azure and AWS.
-
-### 4.1 Azure Infrastructure
-
-- **Core Tooling:** [[Azure Tooling Configuration Guide]] provides the overview of Azure infrastructure configuration.
-- **Identity Management:** Uses [[TFC Service Principle for Azure]] for Terraform Cloud deployments.
-- **Customer Onboarding:** Follows the [[Azure Customer Checklist]].
-- **Troubleshooting:** Common issues are documented in [[Errors Encountered During Azure Deployment]].
-
-### 4.2 AWS Infrastructure
-
-- **Networking:** Based on a [[SoT - Cloud Networking Core Components|Cloud Network]] design, utilizing a [[SoT - Cloud Networking Core Components|Hub-and-Spoke Architecture]] for centralized management.
-- **VPC Resources:** Detailed in [[AWS resources associated with the hie sde VPC]].
+| Category | Component | Description |
+|:--- |:--- |:--- |
+| **Compute** | EKS / AKS | Managed Kubernetes clusters. |
+| **Storage** | MongoDB / Postgres | Persistent data stores. |
+| **Messaging** | RabbitMQ / Redis | Inter-service communication. |
+| **Ingress** | NGINX | Layer 7 traffic routing and TLS termination. |
+| **Identity** | Auth0 | Application-level authentication. |
+| **Monitoring**| Grafana / Loki | Full-stack observability and log aggregation. |
 
 ---
 
-## 5. Deployment Strategy (GitOps & IaC)
+## 5. Deployment Lifecycle (Summary)
 
-Deployment is managed via a strict GitOps workflow.
+1. **Phase 1: Foundation & Tooling** (Secrets, Identity, Monitoring).
+2. **Phase 2: Core Infrastructure** (VPC, Clusters, Networking).
+3. **Phase 3: Platform Services** (ArgoCD, Ingress, VSO).
+4. **Phase 4: Application Layer** (FFNode stack).
 
-### 5.1 Infrastructure as Code (Terraform)
-
-- **Configuration:** Managed via [[terraform-helm-fitfile-platform]].
-- **Module Management:** Uses a [[Create a Central Version Catalog Module]] for dependency standardization.
-
-### 5.2 Application Management (Helm & ArgoCD)
-
-- **GitOps Controller:** [[ArgoCD App of Apps Architecture]] manages the application lifecycle.
-- **Chart Architecture:** Utilizes [[FFNODE as Umbrella Chart]] pattern for aggregating services.
-- **Lifecycle Management:** Governed by the [[Helm Chart Management Tool]] design.
-
----
-
-## 6. Security & Secrets Management
-
-Security is a first-class citizen, leveraging Vault for dynamic secrets and PKI.
-
-### 6.1 Vault & PKI
-
-- **Core Note:** [[SoT - FITFILE Secret Management Architecture]]
-- **Infrastructure:** [[Vault PKI Infrastructure Documentation]] details the Public Key Infrastructure setup.
-- **Integration:** [[Vault to Kubernetes Secrets Management Guide]] explains how secrets are injected into pods.
-- **Troubleshooting:** See [[Errors Encountered During Azure Deployment|VaultClientConfigError]] for client configuration issues.
-
-### 6.2 Network Security
-
-- **Encryption:** Moves beyond basic HTTPS to advanced patterns ([[Why HTTPS is not good enough]]).
-- **Access Control:** strict [[Calico Cloud vs Kubernetes Network Policies in GitOps|Network Policies]] and [[Proxy Allow list]] configuration.
-
----
-
-## 7. Platform Components & Data Flow
-
-### 7.1 Architecture
-
-- **Overview:** [[FITFILE Platform Components]] defines the core services.
-- **Pipelines:** [[SOT - CI-CD Pipelines]]
-- **Data Pipeline:** [[FITFILE Platform Components|FITFILE Patient Data Transformation]] details the processing logic.
-
-### 7.2 Storage
-
-- **Database:** MongoDB configured via [[Mongo Helm Config]].
-- **Object Storage:** MinIO managed via standard image import processes.
-
-### 7.3 Connectivity
-
-- **Ingress:** Managed by [[Nginx Ingress Controller Configuration]].
-- **DNS:** Architecture defined in [[Core DNS Components and Environments]].
-
-#### AWS DNS Configuration
-
-For AWS deployments, the DNS zone is created using a dedicated `dns_zone` module. The DNS zone name is constructed based on the `deployment_key`. For example, a `deployment_key` of `ff-eoe-sde` will result in a private DNS zone named `ff-eoe-sde.privatelink.fitfile.net`.
-
-This private DNS zone will have A records for `argocd` and `app` subdomains, pointing to the EKS load balancer.
-
-```tf
-module "dns_zone" {
-  count = var.enable_dns_zone ? 1 : 0
-
-  source = "./modules/dns_zone"
-
-  name   = local.name
-  vpc_id = module.vpc.vpc_id
-  tags   = local.tags
-
-  records = [
-    {
-      dns_name  = data.aws_lb.eks_elb.dns_name
-      zone_id   = data.aws_lb.eks_elb.zone_id
-      subdomain = "argocd"
-      type      = "A"
-    },
-    {
-      dns_name  = data.aws_lb.eks_elb.dns_name
-      zone_id   = data.aws_lb.eks_elb.zone_id
-      subdomain = "app"
-      type      = "A"
-    }
-  ]
-}
-```
-
-The `local.name` is set to the `deployment_key`. The `dns_zone` module then uses this to construct the full DNS zone name:
-
-```tf
-locals {
-  dns_zone_name = coalesce(var.dns_zone_name, "${var.name}.privatelink.fitfile.net")
-}
-```
-
-This is important for the Auth0 configuration, which depends on these DNS names.
-
----
-
-## 8. Troubleshooting & Verification
-
-### 8.1 Verification Steps
-
-1. **ArgoCD UI:** Check for "Synced" and "Healthy" status.
-2. **Pipeline Logs:** Check the `run_integration_tests` job output in GitLab.
-3. **Cluster Check:** `kubectl get pods -n {namespace}`.
-
-### 8.2 Common Failure Modes
-
-- **Secret Sync Failure:** VSO cannot auth with Vault. Check `VaultAuth` resource. (See [[SoT - FITFILE Secret Management Architecture#4. Standardization Action Plan]])
-- **Integration Test Fail:** The Argo Workflow failed. Check workflow logs via Argo UI.
-- **Image Pull Error:** ACR credentials invalid or image missing.
-
----
-
-## 9. Standards & Operations
-
-### 9.1 Naming Conventions
-
-- Resources must adhere to [[Cloud Resource Naming Convention - FITFILE - Confluence|Platform Naming Conventions]] and [[Resource Naming Convention]].
-
-### 9.2 Prerequisites
-
-- Deployments require meeting the [[Prerequisities]] and following the [[Deployment Configuration Guide]].
-
----
-
-## 10. Related Components
-
-- [[Repository Structure Refactoring for Clarity]] - Repository organization.
-- [[Fitfile deployment fixes]] - Operational fixes.
-- [[FITFILE Node Deployment Guide]] - Comprehensive guide for deploying FITFILE nodes.
-- [[Phase 2 Infrastructure Deployment]] - Detailed infrastructure setup for AWS and Azure.
-- [[FITFILE Deployment Docs]] - High-level deployment dependency graph and process.
-- [[Azure Deployment Readiness Checklist]] - Readiness checklist.
-- [[Kubernetes Backup and Disaster Recovery for AWS and Azure]] - Backup strategies.
+For detailed execution steps, see the **[[MOC - FitFile Deployment]]**.

@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-16T12:20:00Z
 epistemic:
 last_reviewed: 2025-12-16
-modified: 2025-12-16T11:57:39Z
+modified: 2025-12-25T11:40:50+00:00
 purpose: A Dataview-powered dashboard to track all active, pending, and validated hypotheses within the ProdOS Laboratory.
 review_interval: 
 see_also: []
@@ -24,6 +24,7 @@ updated:
 ---
 
 ### 🟢 Active Experiments
+
 *Currently running. Needs daily logging.*
 
 ```dataview
@@ -36,6 +37,7 @@ SORT modified desc
 ---
 
 ### 🟡 Pending Hypotheses (Backlog)
+
 *Drafted but not yet started.*
 
 ```dataview
@@ -48,6 +50,7 @@ SORT created desc
 ---
 
 ### ✅ Validated Protocols
+
 *Proven to work. Promoted to SoT.*
 
 ```dataview
@@ -60,6 +63,7 @@ SORT modified desc
 ---
 
 ### ❌ Rejected / Archived
+
 *Failed the reality test.*
 
 ```dataview

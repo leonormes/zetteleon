@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T09:25:27Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:41Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
 purpose: "Explain the role and importance of health checks in load balancing."
-review_interval: 90
+review_interval: "90"
 see_also: ["AWS ALB Target Groups.md"]
 source_of_truth: []
-status: seedling
-tags: [load-balancing, networking, reliability]
+status: "seedling"
+tags: ["load-balancing", "reliability", "topic/technology/networking"]
 title: Load Balancer Health Checks Ensure Traffic is Routed Only to Healthy Servers
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

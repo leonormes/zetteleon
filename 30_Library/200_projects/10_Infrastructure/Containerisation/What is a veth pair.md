@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-24T15:06:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:26Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:42+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [container, linux, topic/technology/networking, type/fact, veth]
+status: "null"
+tags: ["container", "linux", "topic/technology/networking", "veth"]
 title: What is a veth pair
-type: Factual
+type: "Factual"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 **Links:**

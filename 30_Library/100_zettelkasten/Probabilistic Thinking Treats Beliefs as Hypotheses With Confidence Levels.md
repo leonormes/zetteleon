@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-11-01T09:51:13Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-01T10:00:59Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [epistemology, mental-model, probabilistic-thinking, uncertainty]
+status: "seedling"
+tags: ["epistemology", "mental-model", "probabilistic-thinking", "uncertainty"]
 title: Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels
-type: concept
+type: "concept"
 uid: 
-updated: 2025-11-01T09:51:13Z
+updated: 
 ---
 
 ## Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels

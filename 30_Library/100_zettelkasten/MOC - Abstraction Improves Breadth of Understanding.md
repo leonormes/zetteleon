@@ -1,21 +1,21 @@
 ---
-aliases: []
-confidence:
+aliases: ["Abstraction", "Breadth of Understanding", "Hierarchy of Abstraction"]
+confidence: "5/5"
 created: 2025-07-26T19:03:27Z
-epistemic:
-last_reviewed:
-modified: 2025-12-16T09:30:44Z
-purpose:
-review_interval:
-see_also: []
+epistemic: "synthesis"
+last_reviewed: "2025-12-24"
+modified: 2025-12-25T18:35:26Z
+purpose: "To map the relationship between levels of abstraction and the breadth of human understanding, specifically addressing the mitigation of cognitive myopia."
+review_interval: "6 months"
+see_also: ["[[Mental Models MOC]]", "[[SoT - Myopic Understanding]]"]
 source_of_truth: []
-status:
-tags: []
+status: "stable"
+tags: ["logic", "pkm", "topic/cognition"]
 title: MOC - Abstraction Improves Breadth of Understanding
-type: map
-uid:
-updated:
-version: 1
+type: "map"
+uid: 
+updated: 
+version: "1"
 ---
 
 To overcome the limitations of finite cognitive capacity and myopic understanding, resorting to higher levels of abstraction is beneficial. By simplifying complex details into broader concepts, individuals can gain a more expansive view and grasp more information at once.
@@ -33,7 +33,7 @@ The Outcome: [[Broader Understanding Enhances Predictive & Causal Insight]] thro
 ## Related Cognitive Concepts
 
 - [[Working Memory Challenges in Technical Context]] - Abstraction reduces cognitive load by chunking information
-- [[The Extended Mind Thesis]] - External tools can help manage abstraction layers
+- [[30_Library/100_zettelkasten/The Extended Mind Thesis]] - External tools can help manage abstraction layers
 - [[Metacognitive Awareness]] - Conscious monitoring of your abstraction level
 
 ## Practical Applications

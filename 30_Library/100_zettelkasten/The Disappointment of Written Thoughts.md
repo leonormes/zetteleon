@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:41:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [creativity, topic/cognition/thinking, topic/psychology, topic/writing]
+status: "null"
+tags: ["creativity", "topic/cognition/thinking", "topic/psychology", "topic/writing"]
 title: The Disappointment of Written Thoughts
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 This is the common and frustrating experience where thoughts that feel profound, rich, and interconnected in the mind appear dull, simplistic, or uninspiring once written down. This disappointment is a major obstacle that stops people from using writing as a tool for thinking.

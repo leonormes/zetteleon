@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-30T12:06:05Z
-epistemic:
-last_reviewed:
-modified: 2025-12-08T11:12:04Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status:
-tags: [goals, systems-thinking, topic/productivity]
+status: "null"
+tags: ["goals", "topic/productivity", "topic/systems"]
 title: MOC - Systems Thinking for Goal Achievement
-type: map
-uid:
-updated:
+type: "map"
+uid: 
+updated: 
 ---
 
 This note summarizes the shift from traditional goal setting to systems-based thinking, which makes progress more natural and stress-free.

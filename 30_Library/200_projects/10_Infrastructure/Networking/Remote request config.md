@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-04-06T05:21:44Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Remote request config
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Right, let's document how you can securely expose your `relay` service inside your private AWS EKS cluster in a private VPC to the `bunny` service on a remote Azure private networked AKS cluster. We'll focus on the AWS side, explaining the components from the inside out to facilitate this private and secure communication.

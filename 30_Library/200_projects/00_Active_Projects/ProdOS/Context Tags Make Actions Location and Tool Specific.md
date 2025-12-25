@@ -1,21 +1,21 @@
 ---
-aliases: [Context-Based Action Lists, GTD Contexts]
-confidence: 0.9
+aliases: []
+confidence: "0.9"
 created: 2025-11-01T20:30:10Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:35:44Z
-purpose: "Explain how context tags organize actions by the tools, locations, or people required."
-review_interval: 90
-see_also: ["[[Atomic Actions Have Four Core Properties]]", "[[GTD Workflow Separates Motion and Action Phases]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/200_projects/LLMPKM/04 - Atomic Actions and Next Actions.md"]
-status: seedling
-tags: [context, gtd, organization, productivity]
+epistemic: "principle"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: "90"
+see_also: []
+source_of_truth: []
+status: "seedling"
+tags: []
 title: Context Tags Make Actions Location and Tool Specific
-type: concept
-uid: 2025-11-01T20:30:10Z
-updated: 2025-11-01T20:30:10Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Context tags organize actions based on the specific tool, location, or person required to complete them, enabling efficient batching and ensuring actions are only visible when they're actually doable.
@@ -65,7 +65,7 @@ Group similar actions together to minimize context switching. When you're at you
 Instead of scattering phone calls throughout your task list, batch them:
 
 - `@phone`: Call dentist
-- `@phone`: Call insurance company  
+- `@phone`: Call insurance company
 - `@phone`: Schedule car service
 
 Do all phone calls in one focused session.

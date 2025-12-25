@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-28T10:23:40Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:13Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:31+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [secrets, topic/technology/kubernetes, vault]
+status: "null"
+tags: ["secrets", "topic/technology/kubernetes", "vault"]
 title: Vault to Kubernetes Secrets Management Guide
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 ## Vault to Kubernetes Secrets Management Guide
@@ -163,7 +163,7 @@ The primary objective is to ensure that sensitive information—like API keys, d
 Think of this system as a secure operation involving several key players, each with a specific role.
 
 | Entity                | Component                      | Role & Description                                                                                                                                                                                                                                                                                                 |
-| :-------------------- | :----------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|:-------------------- |:----------------------------- |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **The Treasure**      | **Secret Data**                | This is the raw, sensitive information (the "bits") you need to protect. In Vault, this data is stored as key-value pairs within a **KV Secrets Engine**. It can also be generated on-demand, like a TLS certificate from a **PKI Secrets Engine**.                                                                |
 | **The Fortress**      | **HashiCorp Vault**            | This is the secure, centralized system that stores, manages, and controls access to the secret data. It acts as a fortified safe. In our environment, Vault is organized into **Namespaces** (e.g., `admin/central`, `deployments/...`) to isolate tenants and environments, creating a "vault within a vault."    |
 | **The Client**        | **Kubernetes Pod/Application** | This is the end consumer of the secret data. It's an application running in a Kubernetes pod that needs the information to perform its function (e.g., connect to a database).                                                                                                                                     |

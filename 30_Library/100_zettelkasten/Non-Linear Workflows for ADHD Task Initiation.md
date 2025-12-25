@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-26T11:08:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:38Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [perfectionism, task-initiation, topic/health/adhd, topic/productivity]
+status: "null"
+tags: ["perfectionism", "task-initiation", "topic/health/adhd", "topic/productivity"]
 title: Non-Linear Workflows for ADHD Task Initiation
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## Non-Linear Workflows for ADHD Task Initiation

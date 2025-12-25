@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-31T16:08:04Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [embodied-cognition, evolution, gesture, pantomime, proto-language]
+status: ""
+tags: ["embodied-cognition", "evolution", "gesture", "pantomime", "proto-language"]
 title: Pantomime as Proto-Language
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 Some researchers propose that pantomime—the ability to convey narratives through gestures and actions—may have served as an early form of expressing thought before the development of spoken language, providing insight into the evolution of human communication.

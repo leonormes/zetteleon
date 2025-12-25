@@ -1,20 +1,20 @@
 ---
-aliases: [Micro-Tasks for ADHD, Task Chunking Strategy]
-confidence: 0.8
+aliases: ["Micro-Tasks for ADHD", "Task Chunking Strategy"]
+confidence: "0.8"
 created: 2025-10-30T15:00:39Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-31T09:31:40Z
+epistemic: "principle"
+last_reviewed: "2025-10-30"
+modified: 2025-12-25T11:40:49+00:00
 purpose: "To reduce overwhelm and enable progress on complex projects"
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [overwhelm, project-management, task-management, topic/health/adhd]
+status: "seedling"
+tags: ["overwhelm", "project-management", "task-management", "topic/health/adhd"]
 title: Breaking Projects Into Micro-Tasks Reduces ADHD Overwhelm
-type: strategy
-uid: 2025-10-30T15:00:39Z
-updated: 2025-10-30T15:00:39Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## Breaking Projects Into Micro-Tasks Reduces ADHD Overwhelm

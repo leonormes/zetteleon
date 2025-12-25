@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T09:51:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [perception, topic/cognition, topic/cognition/bias, topic/psychology]
+status: ""
+tags: ["perception", "topic/cognition", "topic/cognition/bias", "topic/psychology"]
 title: Naïve Realism Makes Mental Models Invisible
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Naïve realism** is the inherent and largely unconscious belief that we perceive the world objectively and directly as it truly is, rather than as a subjective interpretation.

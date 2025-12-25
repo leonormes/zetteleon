@@ -1,35 +1,20 @@
 ---
-aliases: [ADHD Strengths, Interdependence, Self-Compassion, Vitamin Connect]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-12T15:15:00Z
-epistemic:
-last-synthesis: 2025-12-12
-last_reviewed: 2025-12-12
-modified: 2025-12-20T09:54:10Z
-purpose: Canonical synthesis of the emotional and strength-based approach to living with ADHD, focusing on self-compassion, connection, and interdependence.
-quality-markers: []
-related-soTs: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Mindfulness and Emotional Regulation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Social Cognition & Self-Perception]]"]
-resonance-score: 9
-review_interval: 1 year
-see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - Identity-Based Habit Formation]]"]
-source_of_truth: true
-status: stable
-supersedes: ["[[MoC - The Roots of Shame and Feeling Defective]]", "[[Moving Towards Self-Compassion and Understanding Your Strengths]]"]
-tags: [adhd, connection, mental-health, self-compassion]
+aliases: ["ADHD Strengths", "Interdependence", "Self-Compassion", "Vitamin Connect"]
+confidence: "5/5"
+created: 2025-12-12T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-12"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "Canonical synthesis of the emotional and strength-based approach to living with ADHD, focusing on self-compassion, connection, and interdependence."
+review_interval: "1 year"
+see_also: ["[[MOC - Cognitive Biases]]", "[[MoC - The Roots of Shame and Feeling Defective]]", "[[Moving Towards Self-Compassion and Understanding Your Strengths]]", "[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - Mindfulness and Emotional Regulation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Social Cognition & Self-Perception]]"]
+source_of_truth: []
+status: "stable"
+tags: ["connection", "mental-health", "self-compassion", "topic/health/adhd"]
 title: SoT - ADHD Self-Compassion & Strengths
-type: SoT
-uid:
-updated:
----
-
-## 1. Definitive Statement
-
-> [!definition] From Shame to Strength
-> Managing ADHD requires a fundamental shift from a **Deficit Model** (fixing a broken person) to a **Strength-Based Model** (optimizing a unique engine).
->
-> Success is not achieved by "trying harder" to be neurotypical, but by cultivating **Self-Compassion**, leveraging unique **Superpowers**, and embracing **Strategic Interdependence**.
-
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 2. Reframing the Condition: Not a Flaw, But a Feature

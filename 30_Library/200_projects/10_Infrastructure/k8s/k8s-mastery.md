@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: 
-id: k8s-mastery
-last_reviewed: 
-modified: 2025-12-13T11:39:42Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "k8s-mastery"
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers]
+status: ""
+tags: ["containers"]
 title: k8s-mastery
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Level 1: Foundation Builder

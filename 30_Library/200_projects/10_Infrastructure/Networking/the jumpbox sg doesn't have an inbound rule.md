@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-19T10:50:18Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-22T11:09:04Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [networking]
+status: ""
+tags: ["topic/technology/networking"]
 title: "The Jumpbox sg Doesn't Have an Inbound Rule"
-type: question
+type: "question"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Does it Need to Have One to Allow the Response for the Outbound

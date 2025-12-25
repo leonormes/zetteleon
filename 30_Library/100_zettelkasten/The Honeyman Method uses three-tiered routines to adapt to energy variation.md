@@ -1,19 +1,19 @@
 ---
-aliases: [Honeyman Method structure, Three-tier routines]
-confidence: 
+aliases: ["Honeyman Method structure", "Three-tier routines"]
+confidence: "null"
 created: 2025-10-30T18:00:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T09:31:40Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source: "[[MOC - The Honeyman Method]]"
 source_of_truth: []
-status: seedling
-tags: [autism, energy-management, routines, topic/health/adhd]
+status: "seedling"
+tags: ["autism", "energy-management", "routines", "topic/health/adhd"]
 title: The Honeyman Method uses three-tiered routines to adapt to energy variation
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

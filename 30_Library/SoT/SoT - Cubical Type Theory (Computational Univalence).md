@@ -1,25 +1,20 @@
 ---
 aliases: ["Computational Univalence", "Cubical Type Theory", "Higher Dimensional Types"]
-confidence: 5/5
-confidence-gaps: ["Specifics of Kan Composition algorithms"]
-created: 2025-12-18T11:00:00Z
-decay-signals: []
-epistemic: authoritative
-last_reviewed: 2025-12-18
-modified: 2025-12-18T21:31:56Z
-purpose: Explains the architectural solution to the "Computational Content of Univalence" problem in Type Theory.
-quality-markers: ["Synthesized from Robert Harper's Final Lecture"]
-related-soTs: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - Equality in Type Theory (Intensional vs Extensional)]]"]
-resonance-score: 7
-review_interval: 1 year
-see_also: []
-source_of_truth: true
-status: stable
+confidence: "5/5"
+created: 2025-12-18T00:00:00Z
+epistemic: "authoritative"
+last_reviewed: "2025-12-18"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "Explains the architectural solution to the \\\"Computational Content of Univalence\\\" problem in Type Theory."
+review_interval: "1 year"
+see_also: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - Equality in Type Theory (Intensional vs Extensional)]]"]
+source_of_truth: []
+status: "stable"
 tags: ["architecture", "cubical", "hott", "mathematics", "type_theory"]
 title: SoT - Cubical Type Theory (Computational Univalence)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
 ## 1. Working Knowledge (Stable Foundation)
@@ -34,8 +29,8 @@ updated:
 
 Instead of adding new rules for terms (which failed), Harper explains that we must generalize the context.
 
-- **Standard Context:** $\Gamma \vdash M : A$ (Terms depend on Variables).
-- **Cubical Context:** $\Gamma, i, j \vdash M : A$ (Terms depend on Variables AND **Dimension Variables**).
+- **Standard Context:** $\Gamma \vdash M: A$ (Terms depend on Variables).
+- **Cubical Context:** $\Gamma, i, j \vdash M: A$ (Terms depend on Variables AND **Dimension Variables**).
 
 ### The Geometry of Types
 

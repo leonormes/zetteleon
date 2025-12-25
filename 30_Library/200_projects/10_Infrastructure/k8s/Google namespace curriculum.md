@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-01-19T11:35:06Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:40Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:36+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Google namespace curriculum
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 I can help you by summarising key concepts, clarifying complex topics, guiding you to the most relevant information in the provided materials, and testing your comprehension with quizzes and scenarios.

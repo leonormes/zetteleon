@@ -1,21 +1,21 @@
 ---
-aliases: [Identity as Barrier, Old Identity Blocks Change]
-confidence: 0.9
+aliases: ["Identity as Barrier", "Old Identity Blocks Change"]
+confidence: "0.9"
 created: 2025-11-01T12:04:20Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T12:33:47Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain how allegiance to existing identity can actively prevent positive behavior change."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Behavior Incongruent with Self Will Not Last]]", "[[Continuously Edit and Expand Your Identity Beliefs]]", "[[True Behavior Change is Identity Change]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Habits and Identity.md"]
-status: seedling
-tags: [behavior-change, habits, identity, psychology, resistance]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "identity", "resistance", "topic/habits", "topic/psychology"]
 title: Identity Conflict Impedes Positive Change
-type: concept
-uid: 2025-11-01T12:04:20Z
-updated: 2025-11-01T12:04:20Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Allegiance to an existing identity can actively impede positive change, resulting in identity conflict. People may resist new, rational habits if those habits conflict with established self-images, even when the new habits would clearly benefit them.

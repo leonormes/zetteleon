@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-16T09:53:19Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:10Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:33+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/technology/networking/dns]
+status: "null"
+tags: ["topic/technology/networking/dns"]
 title: DNS Best Practices for Kubernetes in Hybrid Cloud (AWS & Azure)
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 ## DNS Best Practices for Kubernetes in Hybrid Cloud (AWS & Azure)
@@ -274,7 +274,7 @@ Here is the corrected mental model:
    - **Rule 1:** Does the query end in `cluster.local`? No.
    - **Rule 2:** Is it for `nhs.local`? No.
    - **(Missing Rule):** Crucially, in a simple setup, there is no specific rule for `fitfile.com`.
-   - **Rule 3 (The Catch-All):** The query matches the final `forward . 1.1.1.1` rule. The `.` means "everything else".
+   - **Rule 3 (The Catch-All):** The query matches the final `forward. 1.1.1.1` rule. The `.` means "everything else".
 
 3. **The query is forwarded publicly.** CoreDNS sends the query to `1.1.1.1`, which resolves the public IP address. The internal authoritative server for the *private* `fitfile.com` zone was never even consulted.
 

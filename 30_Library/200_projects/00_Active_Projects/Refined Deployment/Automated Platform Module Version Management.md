@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-04T11:40:12Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:10Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:33+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [automation, config, project/work/deployment, terraform, versioning]
+status: ""
+tags: ["automation", "config", "project/work/deployment", "terraform", "versioning"]
 title: Automated Platform Module Version Management
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 You're absolutely right - Terraform doesn't allow variables in the `version` field of module blocks. Here are several alternative approaches to centralize platform module version management:

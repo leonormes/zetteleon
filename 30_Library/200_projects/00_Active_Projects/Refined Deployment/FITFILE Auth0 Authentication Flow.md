@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-23T08:41:59Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:11Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:33+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: []
+status: ""
+tags: ["auth0"]
 title: FITFILE Auth0 Authentication Flow
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## FITFILE Auth0 Authentication Flow - Technical Wiki

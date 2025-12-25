@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-12T18:26:03Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:49Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [IAM]
+status: ""
+tags: ["IAM"]
 title: Securing the Root Identity
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 The root identity, typically the initial Global Administrator account, holds the highest level of privilege in your Azure tenant. Securing this identity is paramount to maintaining the overall security of your environment. Here are some key measures to consider:

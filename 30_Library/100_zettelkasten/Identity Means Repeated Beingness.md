@@ -1,21 +1,21 @@
 ---
-aliases: [Etymology of Identity, Repeated Beingness]
-confidence: 0.9
+aliases: ["Etymology of Identity", "Repeated Beingness"]
+confidence: "0.9"
 created: 2025-11-01T12:04:20Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:26:25Z
+epistemic: "fact"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain the etymological meaning of identity and its implications for habit formation."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Accumulating Evidence Reinforces Identity]]", "[[Every Action is a Vote for Who You Wish to Become]]", "[[Identity Emerges from Habits Not Fixed at Birth]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Habits and Identity.md"]
-status: seedling
-tags: [etymology, habits, identity, linguistics, philosophy]
+source_of_truth: []
+status: "seedling"
+tags: ["etymology", "identity", "linguistics", "philosophy", "topic/habits"]
 title: Identity Means Repeated Beingness
-type: concept
-uid: 2025-11-01T12:04:20Z
-updated: 2025-11-01T12:04:20Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** The word "identity" is derived from Latin words meaning "being" (essentitas) and "repeatedly" (identidem), literally translating to "repeated beingness." This etymology reveals that identity is fundamentally about who you repeatedly are, not who you occasionally are.

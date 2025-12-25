@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-26T11:56:14Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:39+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [dns, ff_deploy]
+status: ""
+tags: ["dns", "ff_deploy"]
 title: Fitfile DNS database
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 Okay, here is a description and explanation of the DNS database data provided in the file `fitfile.net (1).txt`.
@@ -41,7 +41,7 @@ The file contains several types of DNS records, each serving a different purpose
 
     - `fitfile.net. 86400 IN NS aragorn.ns.cloudflare.com.`
     - `fitfile.net. 86400 IN NS carioca.ns.cloudflare.com.`
-    - **Meaning:** These records list the authoritative name servers responsible for handling DNS queries for the `fitfile.net` domain. In this case, Cloudflare's name servers (`aragorn` and `carioca`) are designated . `86400` is the TTL in seconds (24 hours).
+    - **Meaning:** These records list the authoritative name servers responsible for handling DNS queries for the `fitfile.net` domain. In this case, Cloudflare's name servers (`aragorn` and `carioca`) are designated. `86400` is the TTL in seconds (24 hours).
 3. **A (Address) Records:**
 
     - Examples:
@@ -57,23 +57,23 @@ The file contains several types of DNS records, each serving a different purpose
         - `ftp.fitfile.net. 1 IN CNAME fitfile.net.`
         - `email.fitfile.net. 1 IN CNAME email.secureserver.net.`
         - `s1._domainkey.fitfile.net. 1 IN CNAME s1.domainkey.u30519247.wl248.sendgrid.net.`
-    - **Meaning:** CNAME records create an alias, pointing one hostname to another hostname (the "canonical" name). For example, `ftp.fitfile.net` resolves to the same place as `fitfile.net`. Other CNAMEs point to external services like SendGrid (for email) , secureserver.net (likely for email hosting) , AWS ACM (for SSL certificate validation) , and Redocly (for API docs hosting).
+    - **Meaning:** CNAME records create an alias, pointing one hostname to another hostname (the "canonical" name). For example, `ftp.fitfile.net` resolves to the same place as `fitfile.net`. Other CNAMEs point to external services like SendGrid (for email), secureserver.net (likely for email hosting), AWS ACM (for SSL certificate validation), and Redocly (for API docs hosting).
 5. **MX (Mail Exchanger) Records:**
 
     - `fitfile.net. 1 IN MX 0 smtp.secureserver.net.`
     - `fitfile.net. 1 IN MX 10 mailstore1.secureserver.net.
-    - **Meaning:** These records specify which mail servers are responsible for receiving emails sent to addresses @fitfile.net. The number (0 and 10) indicates priority, with lower numbers being preferred . Here, email is directed to servers hosted by `secureserver.net` .
+    - **Meaning:** These records specify which mail servers are responsible for receiving emails sent to addresses @fitfile.net. The number (0 and 10) indicates priority, with lower numbers being preferred. Here, email is directed to servers hosted by `secureserver.net`.
 6. **TXT (Text) Records:**
 
     - Examples:
         - `_acme-challenge.testing.fitfile.net. 120 IN TXT "1PMk0qaUm4we3jkXULWnztkQBeuoQqULHHEjmTs591Y"`
         - `fitfile.net. 1 IN TXT "MS=ms72564386"`
-        - `cf2024-1._domainkey.fitfile.net. 1 IN TXT "v=DKIM1; ..."`
+        - `cf2024-1._domainkey.fitfile.net. 1 IN TXT "v=DKIM1;..."`
         - `pentest.fitfile.net. 1 IN TXT "Probely=719d01df-a6c8-497d-b476-f0ebd23e2399"`
-    - **Meaning:** TXT records hold arbitrary text strings associated with the domain. They are commonly used for various verification purposes :
-        - `_acme-challenge.*`: Used for domain validation when obtaining SSL/TLS certificates via the ACME protocol (e.g., Let's Encrypt) .
-        - `MS=...`: Often used for Microsoft Office 365 domain verification .
-        - `_domainkey.*`: Used for DKIM (DomainKeys Identified Mail), an email authentication method .
-        - `Probely=...`: Used for verifying domain ownership with the Pronely security scanning service .
+    - **Meaning:** TXT records hold arbitrary text strings associated with the domain. They are commonly used for various verification purposes:
+        - `_acme-challenge.*`: Used for domain validation when obtaining SSL/TLS certificates via the ACME protocol (e.g., Let's Encrypt).
+        - `MS=...`: Often used for Microsoft Office 365 domain verification.
+        - `_domainkey.*`: Used for DKIM (DomainKeys Identified Mail), an email authentication method.
+        - `Probely=...`: Used for verifying domain ownership with the Pronely security scanning service.
 
 In summary, this file provides a snapshot of the DNS configuration for `fitfile.net`, detailing how different hostnames within the domain map to IP addresses, which servers handle email, which servers are authoritative for DNS lookups, and various verification/configuration data stored in TXT records. The comments indicate it's managed via Cloudflare and includes records for development, staging, testing, and production-like environments.

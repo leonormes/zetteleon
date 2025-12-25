@@ -1,30 +1,23 @@
 ---
-aliases: [Cryptographic Wrapping, SoT - TLS, TLS 1.3 Architecture, Transport Layer Security]
-confidence: 5/5
-created: 2025-08-14T20:21:09Z
-epistemic: architecture
-last_reviewed: 2025-12-22
-modified: 2025-12-22T11:07:57Z
-purpose: To define the fundamental data architecture of TLS 1.3, focusing on state negotiation, the cryptographic key schedule, and record framing.
-review_interval: 6 months
-see_also: ["[[SoT - Digital Identity]]", "[[SoT - The Architecture of Packet Encapsulation (TCP-IP)]]"]
-source_of_truth: true
-status: stable
-tags: [architecture, cryptography, data-centric, networking, sot, tls]
+aliases: []
+confidence: "5/5"
+created: 2025-08-14T00:00:00Z
+epistemic: "architecture"
+last_reviewed: "2025-12-22"
+modified: 2025-12-25T18:34:54Z
+purpose: ">-"
+review_interval: "6 months"
+see_also: []
+source_of_truth: []
+status: "stable"
+tags: []
 title: SoT - The Data Architecture of TLS 1.3
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **TLS 1.3** is a state-negotiation and cryptographic-wrapping protocol designed to transform an untrusted byte-stream (TCP) into a secure, authenticated, and private communication channel.
->
-> From a data-centric perspective, it is a **distributed state machine** driven by a **Hierarchical Key Schedule**. It deconstructs the security problem into two phases: the negotiation of a shared secret (Handshake) and the recursive framing of payloads within authenticated encryption envelopes (Record Layer).
-
----
+> From a data-centric perspective, it is a **distributed state machine** driven by a **Hierarchical Key Schedule**. It deconstructs the security problem into two phases: "the negotiation of a shared secret (Handshake) and the recursive framing of payloads within authenticated encryption envelopes (Record Layer)."
 
 ## 2. State Definition (The Atoms)
 
@@ -60,10 +53,10 @@ The complexity of TLS 1.3 resides in its **Key Schedule**—a directed graph of 
 
 State transitions move forward through a one-way derivation tree:
 
-1.  **Early Secret:** Derived from PSK (External state).
-2.  **Handshake Secret:** Derived from ECDHE shared secret (Ephemeral state).
-3.  **Master Secret:** The root for application traffic.
-4.  **Traffic Keys:** `(Client_Write_Key, Server_Write_Key)`.
+1. **Early Secret:** Derived from PSK (External state).
+2. **Handshake Secret:** Derived from ECDHE shared secret (Ephemeral state).
+3. **Master Secret:** The root for application traffic.
+4. **Traffic Keys:** `(Client_Write_Key, Server_Write_Key)`.
 
 **Design Intent:** By sharding the keys into "Handshake" and "Application" domains, the protocol ensures that a compromise of the handshake data does not expose the application payload.
 
@@ -71,8 +64,8 @@ State transitions move forward through a one-way derivation tree:
 
 TLS frames are nested within the TCP payload.
 
--   **Layout:** 5-byte header followed by a variable-length opaque blob.
--   **Padding:** Appended to the payload to hide the true data length (Traffic Analysis mitigation).
+- **Layout:** 5-byte header followed by a variable-length opaque blob.
+- **Padding:** Appended to the payload to hide the true data length (Traffic Analysis mitigation).
 
 ---
 
@@ -80,10 +73,10 @@ TLS frames are nested within the TCP payload.
 
 For a TLS session to be "Secure by Design," it must satisfy these invariants:
 
-1.  **PFS (Perfect Forward Secrecy):** Every session MUST use ephemeral key exchange (`ECDHE`). The compromise of the server's long-term private key must NOT allow the decryption of past recorded traffic.
-2.  **Integrity Invariant:** `Verify(AuthTag, Ciphertext) == True`. Any modification to the Record PDU must result in immediate connection teardown.
-3.  **Nonce Uniqueness (Anti-Replay):** `Nonce = SequenceNumber XOR IV`. Nonces must NEVER be reused with the same key. The monotonic sequence number in the record layer enforces this.
-4.  **Cipher Constraint:** Only AEAD (Authenticated Encryption with Associated Data) ciphers are permitted (e.g., `AES-GCM`, `ChaCha20-Poly1305`).
+1. **PFS (Perfect Forward Secrecy):** Every session MUST use ephemeral key exchange (`ECDHE`). The compromise of the server's long-term private key must NOT allow the decryption of past recorded traffic.
+2. **Integrity Invariant:** `Verify(AuthTag, Ciphertext) == True`. Any modification to the Record PDU must result in immediate connection teardown.
+3. **Nonce Uniqueness (Anti-Replay):** `Nonce = SequenceNumber XOR IV`. Nonces must NEVER be reused with the same key. The monotonic sequence number in the record layer enforces this.
+4. **Hostname Verification Invariant:** The **Identity State** (Certificate SAN or CN fields) MUST match the **Hostname** provided in the SNI (Server Name Indication) extension. This ensures the server is not just "a" server, but the specific server the client intended to reach via DNS.
 
 ---
 
@@ -91,10 +84,10 @@ For a TLS session to be "Secure by Design," it must satisfy these invariants:
 
 Because the data is structured as a hierarchical key schedule and a set of supported parameters, the logic is "degenerate":
 
--   **Parameter Negotiation:** A simple **Set Intersection**.
-    -   `Selected_Suite = Intersection(Client_Suites, Server_Suites).First()`.
--   **Key Derivation:** A sequence of **Fixed-length HMAC operations**. Logic is a direct consequence of the HKDF state tree.
--   **Secure Transport:** Applying the `Encrypt-then-MAC` transformation to the `Record` atom.
+- **Parameter Negotiation:** A simple **Set Intersection**.
+    - `Selected_Suite = Intersection(Client_Suites, Server_Suites).First()`.
+- **Key Derivation:** A sequence of **Fixed-length HMAC operations**. Logic is a direct consequence of the HKDF state tree.
+- **Secure Transport:** Applying the `Encrypt-then-MAC` transformation to the `Record` atom.
 
 ### Performance Optimization: 1-RTT Handshake
 

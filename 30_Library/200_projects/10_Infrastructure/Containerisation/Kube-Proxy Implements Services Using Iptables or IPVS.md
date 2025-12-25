@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-26T17:19:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-19T10:12:56Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:43+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [iptables, ipvs, kube-proxy, load-balancing, service, topic/technology/containers, topic/technology/kubernetes, type/fact]
+status: "null"
+tags: ["iptables", "ipvs", "kube-proxy", "load-balancing", "service", "topic/technology/containers", "topic/technology/kubernetes"]
 title: Kube-Proxy Implements Services Using Iptables or IPVS
-type: Fact
+type: "Fact"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## Summary

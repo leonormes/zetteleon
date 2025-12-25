@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-06-21T10:08:44Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:34Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [project/family/bessie]
+status: ""
+tags: ["project/family/bessie"]
 title: Effective Monitoring, Review, and Genuine Parental Partnership
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 - Failing Identified: The October 2024 review stated "Parent's views - none available at time of review", a direct failure of the school's stated objective to "Support a partnership with parents/carers, valuing their views and contributions and keeping them fully involved". Ofsted also noted the school "has not thought enough about how to check what pupils know and understand". Bessie herself "has to guess" how well she's doing.

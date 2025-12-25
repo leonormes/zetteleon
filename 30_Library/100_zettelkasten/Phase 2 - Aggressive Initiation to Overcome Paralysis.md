@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T09:32:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [action, momentum, project/personal/prodos, topic/productivity/procrastination]
+status: "null"
+tags: ["action", "momentum", "project/personal/prodos", "topic/productivity/procrastination"]
 title: Phase 2 - Aggressive Initiation to Overcome Paralysis
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 After the [[Phase 1 - The Perceptual Shift to Neutralise Perfectionism]], the second phase of the [[Three-Phase Protocol for Execution MOC]] is to generate momentum through immediate, aggressive action. This phase is designed to bypass the common perfectionist trap of endless preparation.

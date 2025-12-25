@@ -1,20 +1,20 @@
 ---
-aliases: [Atomic Notes, Evergreen Notes, Main Notes, Permanent Notes]
-confidence: 0.95
+aliases: ["Atomic Notes", "Evergreen Notes", "Main Notes", "Permanent Notes"]
+confidence: "0.95"
 created: 2025-10-30T15:31:09Z
-epistemic: fact
-last_reviewed: 2025-10-30
-modified: 2025-10-30T15:36:29Z
+epistemic: "fact"
+last_reviewed: "2025-10-30T00:00:00.000Z"
+modified: 2025-12-25T11:40:47+00:00
 purpose: "Defines the core note type in Zettelkasten methodology"
-review_interval: 180
+review_interval: "180"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [knowledge-work, note-types, topic/pkm, topic/pkm/zettelkasten]
+status: "seedling"
+tags: ["knowledge-work", "note-types", "topic/pkm", "topic/pkm/zettelkasten"]
 title: Main Notes Are the Essential Building Blocks
-type: concept
-uid: 2025-10-30T15:31:09Z
-updated: 2025-10-30T15:31:09Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Main Notes Are the Essential Building Blocks

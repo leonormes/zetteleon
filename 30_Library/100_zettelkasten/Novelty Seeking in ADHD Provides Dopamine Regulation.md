@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T11:36:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "Explain novelty-seeking behavior in ADHD."
-review_interval: 90
+review_interval: "90"
 see_also: ["Reduced Dopamine D2 D3 Receptors Impair Motivation in ADHD.md", "The ADHD Brain Operates as an Interest-Based Nervous System.md"]
 source_of_truth: []
-status: seedling
-tags: [adhd, neuroscience]
+status: "seedling"
+tags: ["neuroscience", "topic/health/adhd"]
 title: Novelty Seeking in ADHD Provides Dopamine Regulation
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

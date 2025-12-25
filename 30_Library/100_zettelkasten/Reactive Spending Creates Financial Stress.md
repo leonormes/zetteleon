@@ -1,18 +1,18 @@
 ---
-aliases: [Spend-First Mentality]
-confidence: 
+aliases: ["Spend-First Mentality"]
+confidence: ""
 created: 2025-11-18T14:30:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-18T14:01:07Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [budgeting, finance, psychology]
+status: ""
+tags: ["budgeting", "finance", "topic/psychology"]
 title: Reactive Spending Creates Financial Stress
-type: 
+type: ""
 uid: 
 updated: 
 ---

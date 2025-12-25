@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-10-21T03:05:55Z
-epistemic:
-last_reviewed:
-modified: 2025-12-04T13:28:06Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [pkm]
+status: ""
+tags: ["pkm"]
 title: Units of a PKM
-type:
-uid:
-updated:
-version:
+type: ""
+uid: 
+updated: 
+version: ""
 ---
 
 Here is an organised breakdown of the terms and concepts for a Personal Knowledge Management (PKM) system, based on the file you provided.

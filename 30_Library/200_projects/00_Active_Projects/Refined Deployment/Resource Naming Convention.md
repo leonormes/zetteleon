@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-07-09T09:29:11Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-17T16:15:11Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:32+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [config, documentation]
+status: ""
+tags: ["config", "documentation"]
 title: Resource Naming Convention
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The High-Level Design (HLD) and organizational standards specify required naming conventions for various Azure resource types within the FITFILE infrastructure. A key organizational standard is the use of a `deployment-key`, which is a short name for a specific customer deployment (e.g., `WM-Prod`) and must be kept consistent across the infrastructure.

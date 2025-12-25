@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T12:04:04Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-30T10:49:50Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - How to Build Discipline]]"
 source_of_truth: []
-status: seedling
-tags: [consistency, discipline, habits, progress]
+status: "seedling"
+tags: ["consistency", "discipline", "progress", "topic/habits"]
 title: Progress is Built From Small Boring Repeated Actions
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

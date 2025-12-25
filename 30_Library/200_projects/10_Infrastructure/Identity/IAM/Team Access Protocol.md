@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-13T08:35:46Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:50Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [IAM]
+status: ""
+tags: ["IAM"]
 title: Team Access Protocol
-type: 
+type: ""
 uid: 
 updated: 
-version: 
+version: ""
 ---
 
 Daily Workflow
@@ -38,4 +38,3 @@ E --> F[Time-bound Session]
 ```
 
 This model reduces attack surface by 89% compared to individual admin accounts[^1], while meeting NHS England's requirement for "strict access controls with data minimization"[^8]. All changes remain auditable through Git commit history and Azure Activity Logs[^5][^7].
-

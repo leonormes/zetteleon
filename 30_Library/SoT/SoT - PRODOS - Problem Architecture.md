@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 5/5
-created: 2025-12-06T21:51:26Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-07T18:13:20Z
-purpose: 
-review_interval: 
+confidence: "5/5"
+created: 2025-12-06T00:00:00Z
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:21+00:00
+purpose: ""
+review_interval: "3 months"
 see_also: []
 source_of_truth: []
-status: stable
-tags: [problem_solving, source/lib, system_design]
+status: "stable"
+tags: ["problem_solving", "source/lib", "system_design"]
 title: SoT - PRODOS - Problem Architecture
-type: lib-sot
+type: "lib-sot"
 uid: 
 updated: 
 ---
@@ -27,7 +27,7 @@ updated:
 ## 2. Taxonomy of Challenges
 
 | Type | Definition | PRODOS Strategy |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Problem** | Gap + Unknown Path. | **HEAD Note**. Structure the gap, hypothesize the path. |
 | **Task** | Gap + Known Path. | **Kinetic Action**. Execute immediately. |
 | **Constraint** | Unchangeable Variable. | **Boundary Condition**. Optimise *around* it; do not try to solve it. |

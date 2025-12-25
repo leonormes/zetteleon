@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [containers, networking]
+status: ""
+tags: ["containers", "topic/technology/networking"]
 title: Mastering Kubernetes Networking The Ultimate Guide for Advanced Engineers
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 In the modern [cloud native](https://www.getambassador.io/kubernetes-glossary/cloud-native) ecosystem, Kubernetes is the go-to choice for container orchestration with its ability to easily manage and scale containerized applications. At its core, Kubernetes can be seen as a distributed system where independent [nodes](https://www.getambassador.io/kubernetes-glossary/node) (containers) come together to present a unified, cohesive environment to users.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-14T01:54:25Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:09Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:34+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [aws, hie-prod-34, infrastructure, topic/technology/networking, vpc]
+status: "null"
+tags: ["aws", "hie-prod-34", "infrastructure", "topic/technology/networking", "vpc"]
 title: AWS resources associated with the hie sde VPC
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Based on the information you provided, here is a summary of the AWS resources associated with the VPC `vpc-0aabc42188b2162bf`:

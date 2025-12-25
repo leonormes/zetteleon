@@ -1,18 +1,18 @@
 ---
 aliases: ["ACLs"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T10:16:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Explain how Access Control Lists filter network traffic."
-review_interval: 90
+review_interval: "90"
 see_also: ["Layer 3 Network Security Protects IP Routing and Forwarding.md"]
 source_of_truth: []
-status: seedling
-tags: [filtering, networking, security]
+status: "seedling"
+tags: ["filtering", "security", "topic/technology/networking"]
 title: Access Control Lists Filter Traffic Based on Protocol and Address Rules
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

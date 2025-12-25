@@ -1,19 +1,19 @@
 ---
-aliases: [Positive Cargo]
-confidence: 
+aliases: ["Positive Cargo"]
+confidence: ""
 created: 2025-10-30T12:05:08Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-30T10:49:50Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
-status: seedling
-tags: [behavior-change, habits]
+status: "seedling"
+tags: ["behavior-change", "topic/habits"]
 title: Positive Cargo is a Strategy for Overwriting Bad Habits
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

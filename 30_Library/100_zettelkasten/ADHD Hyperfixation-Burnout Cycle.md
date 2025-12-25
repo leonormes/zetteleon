@@ -1,21 +1,21 @@
 ---
-aliases: [ADHD Interest Cycle, Hyperfixation-Burnout Pattern]
-confidence: 0.9
+aliases: []
+confidence: "0.9"
 created: 2025-11-01T11:37:53Z
-epistemic: fact
-last_reviewed: 2025-11-01
-modified: 2025-11-01T11:44:48Z
-purpose: "Define the cyclical pattern of intense engagement followed by complete disengagement in ADHD."
-review_interval: 90
-see_also: ["[[ADHD Brain is a Novelty-Seeking Machine]]", "[[Dopamine Dysregulation is a Key Factor in ADHD Motivation]]", "[[Hyperfixation and Neurotransmitter Flooding in ADHD]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Adhd up and down cycle .md"]
-status: seedling
-tags: [cycles, dopamine, motivation, topic/health/adhd]
+epistemic: "fact"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: "90"
+see_also: []
+source_of_truth: []
+status: "seedling"
+tags: []
 title: ADHD Hyperfixation-Burnout Cycle
-type: concept
-uid: 2025-11-01T11:37:53Z
-updated: 2025-11-01T11:37:53Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** The ADHD hyperfixation-burnout cycle is a recurring pattern where individuals with ADHD experience intense, all-consuming engagement with a new interest followed by a sudden crash into complete disinterest and mental fog. This cycle is neurological in origin, driven by the ADHD brain's unique dopamine regulation system.

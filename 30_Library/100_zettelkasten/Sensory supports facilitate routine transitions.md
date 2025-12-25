@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T16:28:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-30T10:27:48Z
-purpose: 
-review_interval: 
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - Why Autistics and ADHDers NEED Routines]]"
 source_of_truth: []
-status: seedling
-tags: [coping-tools, sensory-support, transition-aids]
+status: "seedling"
+tags: ["coping-tools", "sensory-support", "transition-aids"]
 title: Sensory supports facilitate routine transitions
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

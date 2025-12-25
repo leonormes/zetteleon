@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-02-07T12:57:53Z
-epistemic: 
+epistemic: ""
 ID: "8"
-last_reviewed: 
-modified: 2025-12-13T11:39:52Z
-purpose: 
-review_interval: 
+last_reviewed: ""
+modified: 2025-12-25T11:40:44+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: overview_of_aws_security_groups
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 ## Overview of AWS Security Groups

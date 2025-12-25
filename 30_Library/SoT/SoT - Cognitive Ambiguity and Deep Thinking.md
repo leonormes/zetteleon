@@ -1,28 +1,20 @@
 ---
-aliases: [Cognitive Dissonance SoT, The Ambiguity Barrier]
-confidence: 5/5
-created: 2025-12-14T18:00:00Z
-epistemic: theory
-last_reviewed: 2025-12-14
-modified: 2025-12-20T09:54:09Z
-purpose: To define the relationship between cognitive ambiguity, mental dissonance, and the depth of thinking, establishing a framework for why deep thought is avoided and how to overcome it.
-review_interval: 6 months
+aliases: ["Cognitive Dissonance SoT", "The Ambiguity Barrier"]
+confidence: "5/5"
+created: 2025-12-14T00:00:00Z
+epistemic: "theory"
+last_reviewed: "2025-12-14"
+modified: 2025-12-25T11:40:22+00:00
+purpose: "To define the relationship between cognitive ambiguity, mental dissonance, and the depth of thinking, establishing a framework for why deep thought is avoided and how to overcome it."
+review_interval: "6 months"
 see_also: ["[[Cognitive Dissonance]]", "[[Discomfort with Ambiguity Prevents Deeper Thinking]]", "[[Psychological Stress of Dissonance]]"]
-source_of_truth: true
-status: stable
-tags: [ambiguity, cognition, deep_work, dissonance, mental_models, psychology]
+source_of_truth: []
+status: "stable"
+tags: ["ambiguity", "deep_work", "dissonance", "mental_models", "topic/cognition", "topic/psychology"]
 title: SoT - Cognitive Ambiguity and Deep Thinking
-type: SoT
-uid: 2025-12-14-AMBIGUITY
+type: "SoT"
+uid: 
 updated: 
-version: 1
----
-
-## 1. Definitive Statement
-
-> [!definition] Definition
-> **The Ambiguity Barrier** is the psychological threshold where the discomfort of holding conflicting ideas (**Cognitive Dissonance**) or uncertain states (**Ambiguity**) exceeds an individual's willingness to expend mental effort. This barrier functions as a "cognitive filter," preventing deeper understanding by incentivizing the premature closure of inquiry in favor of surface-level certainty.
-
 ---
 
 ## 2. The Mechanics of Avoidance

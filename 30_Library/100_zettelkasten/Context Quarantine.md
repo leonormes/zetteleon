@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-10T08:29:46Z
-epistemic: 
-id: 20251008_Context_Quarantine
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+id: "20251008_Context_Quarantine"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Context Quarantine
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 **Context Quarantine** is a [[Context Engineering for LLMs]] strategy used in multi-agent systems. It involves dividing a complex task across multiple specialised agents, each with its own isolated sub-context. This prevents topic clash and distraction that could occur if all information were shared in a single, large context window.

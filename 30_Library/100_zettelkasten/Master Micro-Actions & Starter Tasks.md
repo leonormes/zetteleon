@@ -1,18 +1,18 @@
 ---
-aliases: [5-Minute Rule, Micro-Actions, Starter Tasks]
-confidence: 
+aliases: ["5-Minute Rule", "Micro-Actions", "Starter Tasks"]
+confidence: "null"
 created: 2025-12-16T13:15:00Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:57Z
-purpose: To test if extreme task decomposition overcomes the "Wall of Awful" in task initiation.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16T00:00:00.000Z"
+modified: 2025-12-25T11:40:47+00:00
+purpose: ""
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
-source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
-status: pending
-tags: [experiment, focus, hypothesis, momentum, topic/health/adhd, topic/productivity]
+source_of_truth: []
+status: "pending"
+tags: ["experiment", "focus", "hypothesis", "momentum", "The", "topic/health/adhd", "topic/productivity"]
 title: Master Micro-Actions & Starter Tasks
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
 ---

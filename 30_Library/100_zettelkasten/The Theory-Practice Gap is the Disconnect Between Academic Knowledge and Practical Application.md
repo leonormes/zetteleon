@@ -1,20 +1,20 @@
 ---
-aliases: [Theory-Practice Gap]
-confidence: 0.9
+aliases: ["Theory-Practice Gap"]
+confidence: "0.9"
 created: 2025-11-12T14:10:06Z
-epistemic: fact
-last_reviewed:
-modified: 2025-11-12T13:54:41Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
 purpose: "To define the theory-practice gap in an educational context."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - The Science of Taking Action Bridging the Knowledge-Action Gap]]"]
-status: seedling
-tags: [education, learning, pedagogy]
+source_of_truth: []
+status: "seedling"
+tags: ["education", "learning", "pedagogy"]
 title: The Theory-Practice Gap is the Disconnect Between Academic Knowledge and Practical Application
-type: concept
-uid: 2025-11-12T14:10:06Z
-updated: 2025-11-12T14:10:06Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## The Theory-Practice Gap is the Disconnect Between Academic Knowledge and Practical Application

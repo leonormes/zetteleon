@@ -1,20 +1,20 @@
 ---
-aliases: [Action Dependencies, DAG Model for Actions]
-confidence: 0.8
+aliases: []
+confidence: "0.8"
 created: 2025-11-01T20:30:10Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-12-07T18:13:32Z
-purpose: Explain how individual actions compose into larger workflows using the DAG model.
-review_interval: 90
-see_also: ["[[Atomic Actions Have Four Core Properties]]", "[[Next Action is the Immediate Physical Step Forward]]"]
-source_of_truth: [/Volumes/DAL/Zettelkasten/LLMeon/200_projects/LLMPKM/04 - Atomic Actions and Next Actions.md]
-status: seedling
-tags: [dependencies, productivity, systems, workflow]
+epistemic: "principle"
+last_reviewed: "2025-11-01T00:00:00.000Z"
+modified: 2025-12-25T11:40:34+00:00
+purpose: ""
+review_interval: "90"
+see_also: []
+source_of_truth: []
+status: "seedling"
+tags: []
 title: Action Sequences Form Directed Acyclic Graphs
-type: concept
-uid: 2025-11-01T20:30:10Z
-updated: 2025-11-01T20:30:10Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 **Summary:** Individual atomic actions compose into larger workflows using a Directed Acyclic Graph (DAG) model, where actions have dependencies and can run in sequence or parallel, but never form circular dependencies.

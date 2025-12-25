@@ -1,22 +1,22 @@
 ---
-aliases: [Non-Teleological Universe]
-confidence:
+aliases: ["Non-Teleological Universe"]
+confidence: ""
 created: 2025-08-23T17:08:40Z
-creation_date: 2025-08-23
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:38Z
-purpose:
-review_interval:
+creation_date: "2025-08-23"
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [emergence, evolution, hub, science, topic/philosophy]
+status: ""
+tags: ["emergence", "evolution", "hub", "science", "topic/philosophy"]
 title: Emergence and the Absence of Teleology
-type: map
-uid:
-updated:
-version: 1
+type: "map"
+uid: 
+updated: 
+version: "1"
 ---
 
 This note explores the relationship between two fundamental concepts that shape modern scientific understanding: the rejection of predetermined purpose and the natural arising of complexity.

@@ -6,7 +6,7 @@ created: 2025-09-19T06:20:58Z
 description: Created with Gemini
 epistemic: 
 last_reviewed: 
-modified: 2025-10-30T11:06:55Z
+modified: 2025-12-25T11:40:19+00:00
 published:
 purpose: 
 review_interval: 
@@ -36,7 +36,7 @@ This is the crux of the issue, often referred to as the **problem of the criteri
 
 This famous phrase, coined by Alfred Korzybski, is the perfect analogy for your insight. It captures the essential difference between an object and the representation of that object.
 
-- **Reality (The Territory):** This can be defined as the objective, mind-independent existence of everything, governed by its own inherent principles and laws, whether we are aware of them or not. In philosophy, Immanuel Kant called this the **noumenal world** —the world of "things-in-themselves," which we can never directly access or experience. It is the complete, infinitely detailed, and unfiltered truth of existence.
+- **Reality (The Territory):** This can be defined as the objective, mind-independent existence of everything, governed by its own inherent principles and laws, whether we are aware of them or not. In philosophy, Immanuel Kant called this the **noumenal world**—the world of "things-in-themselves," which we can never directly access or experience. It is the complete, infinitely detailed, and unfiltered truth of existence.
 - **Mental Models (The Map):** These are our internal representations, theories, beliefs, and conceptual frameworks about the territory. They are necessarily **abstractions** and **simplifications**. A map that was as detailed as the territory would be the territory itself, and therefore useless as a map. Our mental models—from scientific theories like General Relativity to personal beliefs about how relationships work—are useful precisely *because* they filter out immense amounts of information to provide a workable, navigable guide.
 
 ---
@@ -161,7 +161,7 @@ Instead of building a model from scratch based on sensory input (a "bottom-up" p
 
 1. **It Predicts:** Based on your existing mental models, memories, and beliefs, your brain is constantly making predictions about what it expects to see, hear, and feel in the next moment. As you walk into your kitchen, your brain pre-emptively generates a simulation of what your kitchen should look like.
 2. **It Compares:** It then compares this prediction to the raw sensory data that actually comes in from your eyes and ears.
-3. **It Highlights the Error:** Here is the crucial, energy-saving step. If the sensory data **matches** the prediction, very little information needs to be processed. The brain effectively says, "Yep, everything is as expected. No need to waste energy." This is what creates the seamless, stable feeling of reality. However, if there is a **mismatch** —a "prediction error"—the brain flags it for conscious attention.
+3. **It Highlights the Error:** Here is the crucial, energy-saving step. If the sensory data **matches** the prediction, very little information needs to be processed. The brain effectively says, "Yep, everything is as expected. No need to waste energy." This is what creates the seamless, stable feeling of reality. However, if there is a **mismatch**—a "prediction error"—the brain flags it for conscious attention.
 
 Imagine your brain's model predicts a red coffee mug on the counter. If your eyes see a red mug, the signal sent up to your conscious mind is minimal. But if your eyes see a *blue* mug, or no mug at all, your brain generates a powerful "prediction error" signal. You will consciously notice the difference. This is why you notice when something is out of place in a familiar room, but you don't actively notice every single thing that is exactly where it should be.
 
@@ -183,7 +183,7 @@ Our models aren't just abstract ideas; they have a physical basis in the connect
 
 ### Schemas and Chunking
 
-The brain doesn't model the world one tiny detail at a time. It uses **schemas** —mental templates or frameworks built from past experience. For example, you have a "restaurant" schema that includes concepts like menus, waiters, ordering, and paying. When you enter a new restaurant, you don't build a model from scratch. You activate the existing schema and just fill in the new details (cuisine, decor). This use of pre-built templates is incredibly efficient and makes the world feel familiar and stable, even in novel situations.
+The brain doesn't model the world one tiny detail at a time. It uses **schemas**—mental templates or frameworks built from past experience. For example, you have a "restaurant" schema that includes concepts like menus, waiters, ordering, and paying. When you enter a new restaurant, you don't build a model from scratch. You activate the existing schema and just fill in the new details (cuisine, decor). This use of pre-built templates is incredibly efficient and makes the world feel familiar and stable, even in novel situations.
 
 My ADHD brain is constantly trying to rebuild these models. I Love the feeling of realising my model is wrong and crafting a new one. It feels like improvement. Not publicly of course, but I am always reading about physics and maths to discover mind blowing perspectives. When I found out that the speed of light is not actually a properly of light but a constant of reality that anything without mass would travel I was fascinated to the extreme. Because it broke my assumptions about light and even time. I assume dopamine is involved if it had this effect on ADHD behind?
 

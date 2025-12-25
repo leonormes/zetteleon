@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T09:23:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [llm]
+status: ""
+tags: ["llm"]
 title: LLMs as tools for thought
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 An LLM can be used as a powerful tool for thought. It acts as an intellectual "mirror," reflecting a user's ideas back to them in a clarified, structured, or expanded form.

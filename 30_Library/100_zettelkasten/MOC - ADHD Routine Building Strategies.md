@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence:
+confidence: "null"
 created: 2025-10-29T16:40:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-08T11:12:04Z
-purpose:
-review_interval:
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source: "[[ADHD Routines]]"
 source_of_truth: []
-status:
-tags: [habits, routines, topic/health/adhd, topic/productivity]
+status: "null"
+tags: ["routines", "topic/habits", "topic/health/adhd", "topic/productivity"]
 title: MOC - ADHD Routine Building Strategies
-type: map
-uid:
-updated:
+type: "map"
+uid: 
+updated: 
 ---
 
 This note outlines strategies for building effective and sustainable routines for individuals with ADHD, based on the principles from ADHD coach Caren Magill.

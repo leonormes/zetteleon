@@ -1,21 +1,21 @@
 ---
-aliases: [Identity as Compass, Identity-Driven Change]
-confidence: 0.9
+aliases: ["Identity as Compass", "Identity-Driven Change"]
+confidence: "0.9"
 created: 2025-11-01T12:04:20Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:26:25Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Establish identity as the guiding principle and long-term trajectory for habit change."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Identity-Based Habits are More Resilient Than Goal-Based Habits]]", "[[Three Layers of Behavior Change Model]]", "[[True Behavior Change is Identity Change]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Habits and Identity.md"]
-status: seedling
-tags: [behavior-change, fundamentals, habits, identity, strategy]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "fundamentals", "identity", "strategy", "topic/habits"]
 title: Identity as North Star of Habit Change
-type: concept
-uid: 2025-11-01T12:04:20Z
-updated: 2025-11-01T12:04:20Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Identity acts as the North Star of habit change—the guiding principle that determines the trajectory of improvement. It provides direction when goals are reached and maintains motivation when circumstances change.

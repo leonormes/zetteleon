@@ -1,20 +1,20 @@
 ---
-aliases: [Calendar Architecture, Self-Expression Scheduling]
-confidence: 0.9
+aliases: ["Calendar Architecture", "Self-Expression Scheduling"]
+confidence: "0.9"
 created: 2025-10-30T15:07:41Z
-epistemic: principle
-last_reviewed: 2025-10-30
-modified: 2025-10-30T15:36:29Z
+epistemic: "principle"
+last_reviewed: "2025-10-30"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To shift from reactive to proactive calendar architecture"
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [calendar-design, deep-work, scheduling, time-management]
+status: "seedling"
+tags: ["calendar-design", "deep-work", "scheduling", "time-management"]
 title: Proactive Schedule Design Protects Creative Time From Reactive Demands
-type: strategy
-uid: 2025-10-30T15:07:41Z
-updated: 2025-10-30T15:07:41Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## Proactive Schedule Design Protects Creative Time From Reactive Demands

@@ -1,24 +1,24 @@
 ---
-aliases: [Day Design Framework, Optimal Daily Routine]
-confidence:
+aliases: ["Day Design Framework", "Optimal Daily Routine"]
+confidence: "null"
 created: 2025-10-30T15:07:41Z
-criteria: Must support individualized day design aligned with energy patterns and creative rhythms
-epistemic:
-exclusions: Generic time management advice, one-size-fits-all routines, productivity hacks without neuroscience foundation
-last_reviewed:
-modified: 2025-12-07T18:13:50Z
-purpose:
-review_interval:
-scope: Science-based strategies for structuring daily routines to maximize creative output and cognitive performance
+criteria: ""
+epistemic: "null"
+exclusions: ""
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
+scope: ""
 see_also: []
-source: Josh Waitzkin & Dr. Andrew Huberman - Day Architecture
+source: "Josh Waitzkin & Dr. Andrew Huberman - Day Architecture"
 source_of_truth: []
-status:
-tags: [day-architecture, peak-performance, routines]
+status: "null"
+tags: ["day-architecture", "peak-performance", "routines"]
 title: MOC - Day Architecture for Peak Performance
-type: map
-uid: 2025-10-30T15:07:41Z
-updated: 2025-10-30T15:07:41Z
+type: "map"
+uid: 
+updated: 
 ---
 
 ## MOC - Day Architecture for Peak Performance

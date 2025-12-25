@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T15:49:34Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-12T16:07:53Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,11 +22,13 @@ updated:
 ![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/514ToTCeWNL._SL200_.jpg)
 
 ### Metadata
+
 - Author: [[James Gleick]]
 - Full Title: The Information
 - Category: #books
 
 ### Highlights
+
 - The Muses are the daughters of Mnemosyne. ([Location 419](https://readwise.io/to_kindle?action=open&asin=B004P1JEY8&location=419))
 - the fewer symbols available, the more of them must be transmitted to get across a given amount of information. For the African drummers, messages need to be about eight times as long as their spoken equivalents. ([Location 438](https://readwise.io/to_kindle?action=open&asin=B004P1JEY8&location=438))
 - Writing appeared to draw knowledge away from the person, to place their memories in storage. It also separated the speaker from the listener, by so many miles or years. The deepest consequences of writing, ([Location 511](https://readwise.io/to_kindle?action=open&asin=B004P1JEY8&location=511))

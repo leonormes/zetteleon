@@ -1,23 +1,23 @@
 ---
 aliases: ["Networking thoughts"]
-confidence: 
+confidence: ""
 created: 2025-02-23T19:35:05Z
-epistemic: 
+epistemic: ""
 id: "69b1a4aa-4e89-4475-b24e-198e40b4cf03"
-last_reviewed: 
-modified: 2025-12-13T11:39:48Z
-purpose: 
-review_interval: 
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: ""
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Networking thoughts
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 What is going on?

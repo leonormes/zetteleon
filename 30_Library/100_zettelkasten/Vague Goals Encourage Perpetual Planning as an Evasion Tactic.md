@@ -1,21 +1,21 @@
 ---
-aliases: [Clarity for Action, Vague Goals Encourage Procrastination]
-confidence: 1
+aliases: ["Clarity for Action", "Vague Goals Encourage Procrastination"]
+confidence: "1"
 created: 2025-11-01T20:33:00Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:35:44Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:44+00:00
 purpose: "To explain how a lack of clear goals enables perpetual planning and procrastination."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Clarity]]", "[[Goal Setting]]", "[[Motion Can Be a Procrastination Delay Tactic]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/100_zettelkasten/Motion Can Be a Procrastination Delay Tactic.md"]
-status: evergreen
-tags: [clarity, goals, planning, procrastination, productivity]
+source_of_truth: []
+status: "evergreen"
+tags: ["clarity", "goals", "planning", "procrastination", "topic/productivity"]
 title: Vague Goals Encourage Perpetual Planning as an Evasion Tactic
-type: concept
-uid: 20251101203300
-updated: 2025-11-01T20:33:00Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 A lack of clarity about goals or the specific steps required to achieve them creates an environment where planning can continue indefinitely. This ambiguity serves as a shield, justifying inaction.

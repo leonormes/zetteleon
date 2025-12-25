@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-20T10:23:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [mindfulness, objectivity, stoicism, technique]
+status: ""
+tags: ["mindfulness", "objectivity", "stoicism", "technique"]
 title: Techniques for Objective Perception
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 To strengthen the [[The Observing Eye vs The Perceiving Eye MOC|observing eye]] and weaken the reactive, subjective perceiving eye, one can practice several Stoic techniques designed to create space between an event and our perception of it.

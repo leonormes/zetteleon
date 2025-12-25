@@ -1,19 +1,19 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-30T12:04:06Z
-epistemic: principle
-last_reviewed: 
-modified: 2025-10-30T10:49:50Z
-purpose: 
-review_interval: 
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source: "[[MOC - How to Build Discipline]]"
 source_of_truth: []
-status: seedling
-tags: [discipline, habits, identity, mindset]
+status: "seedling"
+tags: ["discipline", "identity", "mindset", "topic/habits"]
 title: Disciplined Choices are Votes for Your Future Self
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-08-05T08:45:48Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T14:24:13Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:31+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [allowlist, firewall, proxy, security, topic/technology/networking]
+status: "null"
+tags: ["allowlist", "firewall", "proxy", "security", "topic/technology/networking"]
 title: Proxy Allow list
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 | **Title**                                                                   | **Purpose**                                                  | **Ports** | **Protocol** |

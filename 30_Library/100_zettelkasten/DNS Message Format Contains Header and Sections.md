@@ -1,18 +1,18 @@
 ---
 aliases: []
-confidence: 0.9
+confidence: "0.9"
 created: 2025-10-31T11:07:00Z
-epistemic: fact
-last_reviewed: 
-modified: 2025-10-31T10:42:03Z
+epistemic: "fact"
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
 purpose: "Explain DNS message structure."
-review_interval: 90
+review_interval: "90"
 see_also: ["DNS Protocol Uses UDP and TCP for Message Transport.md"]
 source_of_truth: []
-status: seedling
-tags: [dns, networking, protocols]
+status: "seedling"
+tags: ["dns", "protocols", "topic/technology/networking"]
 title: DNS Message Format Contains Header and Sections
-type: concept
+type: "concept"
 uid: 
 updated: 
 ---

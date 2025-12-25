@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-22T08:24:54Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:50Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:37+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [git]
+status: ""
+tags: ["git"]
 title: git extended
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 You're right, Git's version tracking opens up a fascinating web of related subjects. Here are some areas you could explore, building upon your understanding of Git's data model:

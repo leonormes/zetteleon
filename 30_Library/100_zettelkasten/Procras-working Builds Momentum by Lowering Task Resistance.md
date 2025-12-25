@@ -1,18 +1,18 @@
 ---
-aliases: [Procras-working]
-confidence: 
+aliases: ["Procras-working"]
+confidence: "null"
 created: 2025-10-29T16:31:10Z
-epistemic: strategy
-last_reviewed: 
-modified: 2025-10-31T09:31:39Z
+epistemic: "strategy"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To provide a specific method for overcoming task initiation inertia."
-review_interval: 
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [momentum, procrastination, task-initiation, topic/health/adhd, topic/productivity]
+status: "seedling"
+tags: ["momentum", "procrastination", "task-initiation", "topic/health/adhd", "topic/productivity"]
 title: Procras-working Builds Momentum by Lowering Task Resistance
-type: strategy
+type: "strategy"
 uid: 
 updated: 
 ---

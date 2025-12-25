@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-23T11:01:03Z
 epistemic: 
 last_reviewed: 
-modified: 2025-11-03T13:48:15Z
+modified: 2025-12-25T11:40:23+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -20,8 +20,8 @@ version:
 
 ## IAM Role Analysis Report - EKS Node AssumeRole Permissions
 
-**Date:** 2025-10-23  
-**Instance ID:** i-0ade93e1cfcfbe9f7  
+**Date:** 2025-10-23
+**Instance ID:** i-0ade93e1cfcfbe9f7
 **Target Role to Assume:** arn:aws:iam::339713007003:role/dlz-tst-writer-codisc
 
 ---

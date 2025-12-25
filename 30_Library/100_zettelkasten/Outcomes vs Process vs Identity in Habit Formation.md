@@ -1,21 +1,21 @@
 ---
-aliases: [Get vs Do vs Believe]
-confidence: 0.9
+aliases: ["Get vs Do vs Believe"]
+confidence: "0.9"
 created: 2025-11-01T12:04:20Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:26:26Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "Clarify the distinction between outcome-based, process-based, and identity-based approaches to habits."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Identity-Based Habits are More Resilient Than Goal-Based Habits]]", "[[Three Layers of Behavior Change Model]]", "[[True Behavior Change is Identity Change]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Habits and Identity.md"]
-status: seedling
-tags: [behavior-change, goals, habits, identity]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "goals", "identity", "topic/habits"]
 title: Outcomes vs Process vs Identity in Habit Formation
-type: concept
-uid: 2025-11-01T12:04:20Z
-updated: 2025-11-01T12:04:20Z
-version: 1
+type: "concept"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** Outcomes are about what you get, processes are about what you do, and identity is about what you believe. Understanding this distinction is crucial for building lasting habits, as identity-based approaches are fundamentally more sustainable than outcome-based ones.

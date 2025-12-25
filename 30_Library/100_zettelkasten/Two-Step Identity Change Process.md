@@ -1,21 +1,21 @@
 ---
-aliases: [Decide and Prove Method, Identity Change Method]
-confidence: 0.9
+aliases: ["Decide and Prove Method", "Identity Change Method"]
+confidence: "0.9"
 created: 2025-11-01T12:04:20Z
-epistemic: principle
-last_reviewed: 2025-11-01
-modified: 2025-11-01T20:26:28Z
+epistemic: "principle"
+last_reviewed: "2025-11-01"
+modified: 2025-12-25T11:40:45+00:00
 purpose: "Provide the practical two-step framework for deliberately changing identity through habits."
-review_interval: 90
+review_interval: "90"
 see_also: ["[[Accumulating Evidence Reinforces Identity]]", "[[Every Action is a Vote for Who You Wish to Become]]", "[[True Behavior Change is Identity Change]]"]
-source_of_truth: ["/Volumes/DAL/Zettelkasten/LLMeon/001_input/llm_sessions/Habits and Identity.md"]
-status: seedling
-tags: [behavior-change, habits, identity, method, strategy]
+source_of_truth: []
+status: "seedling"
+tags: ["behavior-change", "identity", "method", "strategy", "topic/habits"]
 title: Two-Step Identity Change Process
-type: strategy
-uid: 2025-11-01T12:04:20Z
-updated: 2025-11-01T12:04:20Z
-version: 1
+type: "strategy"
+uid: 
+updated: 
+version: "1"
 ---
 
 **Summary:** The simplest path to changing who you are is a two-step process: (1) Decide the type of person you want to be, and (2) Prove it to yourself with small wins. This framework makes identity change concrete and actionable.

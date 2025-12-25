@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-01-17T20:51:48Z
-epistemic: 
-ID: 2a4d
-last_reviewed: 
-modified: 2025-10-29T19:30:37Z
-purpose: 
-review_interval: 
+epistemic: "null"
+ID: "2a4d"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/pkm/zettelkasten]
+status: "null"
+tags: ["topic/pkm/zettelkasten"]
 title: Embracing the Garbage
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 Luhmann acknowledged that not every note or idea would be immediately useful.

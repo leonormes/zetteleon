@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T08:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-12T14:01:13Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [topic/health/adhd, topic/productivity, topic/productivity/procrastination]
+status: "null"
+tags: ["topic/health/adhd", "topic/productivity", "topic/productivity/procrastination"]
 title: Productive Procrastination as an Avoidance Strategy
-type:
+type: "null"
 uid: 
-updated: 2025-10-31
-version:
+updated: 
+version: "null"
 ---
 
 Productive procrastination is a form of avoidance where one engages in complex, interesting, and seemingly productive tasks—like endlessly refining a personal productivity system—as a way to put off more critical or difficult work. This behavior is especially common for those with ADHD, as it provides the novelty and engagement the brain craves, delivering a dopamine hit that core tasks may not.

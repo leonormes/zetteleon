@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-05T06:22:44Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [amygdala, emotion, memory, topic/cognition, topic/cognition/mental-model]
+status: ""
+tags: ["amygdala", "emotion", "memory", "topic/cognition", "topic/cognition/mental-model"]
 title: Emotion Tags Information with Importance
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 Emotion acts as the brain's primary valuation system, tagging information with importance and marking it for memory and inclusion in long-term mental models.

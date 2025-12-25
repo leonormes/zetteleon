@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-02T22:12:34Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:48Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:38+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: IPs and ports form a socket
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 This is a fundamental question about how IP addresses and ports work together. The answer is: Every IP address has the full range of ports.
@@ -27,7 +27,7 @@ Here's a breakdown:
 - The Combination: IP Address + Port: The combination of an IP address and a port (IP:Port) forms a socket, which is a unique endpoint for communication. For example, 192.168.1.100:80 might represent a web server listening on port 80 on the machine with IP address 192.168.1.100. 192.168.1.100:443 could be the same web server, but listening for HTTPS connections on port 443.
 - Per IP, Not Per Host (Mostly): The full range of 65536 ports (0-65535) is available on each IP address. It's not a pool of ports shared across the entire host. Crucially, it's per network interface's IP address.
 - If a machine has a single network interface with a single IP address (e.g., 192.168.1.100), then ports 0-65535 are available on that IP address. You could have one process listening on 192.168.1.100:80, another on 192.168.1.100:8080, and so on.
-- If a machine has two network interfaces, each with its own IP address (e.g., 192.168.1.100 and 10.0.0.5), then each of those IP addresses has its own full range of ports. You could have a process listening on 192.168.1.100:80 and another process listening on 10.0.0.5:80 – these are completely independent.
+- If a machine has two network interfaces, each with its own IP address (e.g., 192.168.1.100 and 10.0.0.5), then each of those IP addresses has its own full range of ports. You could have a process listening on 192.168.1.100:80 and another process listening on 10.0.0.5:80–these are completely independent.
 - If a single network interface has two IP addresses (e.g., both assigned to the same Ethernet adapter), each of those IPs gets its own 0-65535 port range.
 - Port Restrictions:
   - Well-Known Ports (0-1023): Ports 0-1023 are called "well-known ports" and are reserved for standard services (e.g., HTTP on port 80, HTTPS on 443, SSH on 22). On most operating systems, you need administrative privileges to bind a process to a well-known port.

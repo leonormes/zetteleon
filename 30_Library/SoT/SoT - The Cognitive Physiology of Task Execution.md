@@ -1,33 +1,23 @@
 ---
-aliases: [Cognitive Phases SoT, Task Execution Physiology]
-confidence: 5/5
-created: 2025-12-10T12:00:00Z
-epistemic: scientific
-last_reviewed: 2025-12-10
-modified: 2025-12-20T09:54:07Z
-purpose: To define the biological and cognitive phases of task execution, providing the scientific basis for the ProdOS workflow design.
-related-soTs: ["[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]"]
-review_interval: 1 year
-see_also: ["[[Task execution consists of five distinct cognitive phases]]"]
-source_of_truth: true
-status: stable
-tags: ["cognition", "neuroscience", "prodos", "task-execution"]
+aliases: ["Cognitive Physiology", "Initiation", "Mood Repair Trap", "Task Execution Stages"]
+confidence: "5/5"
+created: 2025-12-10T00:00:00Z
+epistemic: "scientific"
+last_reviewed: "2025-12-24"
+modified: 2025-12-25T18:34:54Z
+purpose: "To define the biological and cognitive phases of task execution, providing the scientific basis for the ProdOS workflow design."
+review_interval: "1 year"
+see_also: ["[[SoT - Accelerated Learning (3C Protocol)]]", "[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]"]
+source_of_truth: []
+status: "stable"
+tags: ["neuroscience", "prodos", "productivity", "task_management", "topic/cognition"]
 title: SoT - The Cognitive Physiology of Task Execution
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
-## 1. Definition
-
-Task execution is not a singular event but a sequential biological process consisting of **five distinct cognitive phases**. Each phase recruits different brain networks and requires specific metabolic resources.
-
-> [!warning] The ADHD Failure Mode
-> Most productivity failures (procrastination, paralysis, abandonment) occur because the user attempts to perform all five phases simultaneously or in the wrong order.
->
-> **ProdOS Design Goal:** To decouple these phases into distinct tool-supported steps.
-
----
+> **ProdOS Design Goal: "** To decouple these phases into distinct tool-supported steps."
 
 ## 2. The Five Cognitive Phases
 
@@ -88,9 +78,9 @@ Research (ACT-R Model) suggests that the transition between these phases—the *
 
 Learning and task mastery are not complete upon execution. The brain requires specific physiological states to physically rewire (Neural Consolidation).
 
--   **Micro-Consolidation:** 10–20 second "micro-breaks" during intense work allow the brain to replay neural sequences at 20x speed.
--   **Ultradian Rhythms:** Focus is bounded by ~90-minute metabolic cycles. Pushing beyond this results in diminished returns and "Engine Stall."
--   **Macro-Consolidation (Rest):** Physical rewiring occurs during **Rest**, not work. Non-Sleep Deep Rest (NSDR) and Sleep are functional components of the "Learning Algorithm."
+- **Micro-Consolidation:** 10–20 second "micro-breaks" during intense work allow the brain to replay neural sequences at 20x speed.
+- **Ultradian Rhythms:** Focus is bounded by ~90-minute metabolic cycles. Pushing beyond this results in diminished returns and "Engine Stall."
+- **Macro-Consolidation (Rest):** Physical rewiring occurs during **Rest**, not work. Non-Sleep Deep Rest (NSDR) and Sleep are functional components of the "Learning Algorithm."
 
 ---
 

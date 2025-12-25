@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-10-26T00:00:00Z
-epistemic:
-last_reviewed:
-modified: 2025-12-12T18:18:39Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:29+00:00
+purpose: ""
+review_interval: ""
 see_also: []
-source: https://gemini.google.com/share/9b6f6fdd7c5e
+source: "https://gemini.google.com/share/9b6f6fdd7c5e"
 source_of_truth: []
-status:
-tags: [llm_session]
+status: ""
+tags: ["llm_session"]
 title: Time, Patterns, and Mathematics
-type:
-uid:
-updated:
-version:
+type: ""
+uid: 
+updated: 
+version: ""
 ---
 
 Humans are pattern detecting machines. But for there to be patterns we need linear tine. Time need to move in 1 direction. Without time out causality there can not be patterns. Some physicians suggest that time is an illusion the way humans perceive it. But without patterns there is no maths. Therefore we invented it. Photons don't experience time.
@@ -55,7 +55,7 @@ Therefore, even if time doesn't "flow," the ordered structures that we call patt
 This leads directly to the core philosophical debate about mathematics.
 
 - **Invention (Formalism)**: The view that mathematics is a human invention, a set of consistent rules and symbols we created to describe the world. Your argument—that since our perception of time is illusory, the patterns we base maths on must be products of our mind—aligns with this.
-- **Discovery (Platonism)**: The view that mathematical truths and patterns exist independently of human minds. The number , the properties of a prime number, or the Mandelbrot set exist as fundamental aspects of reality, and we simply discover them.
+- **Discovery (Platonism)**: The view that mathematical truths and patterns exist independently of human minds. The number, the properties of a prime number, or the Mandelbrot set exist as fundamental aspects of reality, and we simply discover them.
 
 If patterns (both spatial and temporal) are fundamental features of the universe (as in the block universe model), then this would support the idea that mathematics is **discovered**. It is the language we use to describe these pre-existing, mind-independent structures.
 
@@ -87,6 +87,6 @@ This is where the **Block Universe** model becomes so useful again. In that fram
 - The "repetition" you mention is simply a repeating shape along the time axis.
 - The "cause and effect" is a fixed, geometric relationship between an earlier event (the cause) and a later event (the effect) in the block.
 
-The fundamental laws of physics are not processes that happen *in* time; they are the timeless rules that dictate the overall shape and structure of the entire spacetime block. The Higgs mechanism doesn't *happen* —it's a fundamental property of the universe that describes relationships within that block.
+The fundamental laws of physics are not processes that happen *in* time; they are the timeless rules that dictate the overall shape and structure of the entire spacetime block. The Higgs mechanism doesn't *happen*—it's a fundamental property of the universe that describes relationships within that block.
 
 So, while our human experience, embedded within time, perceives the *creation* of the pattern, mathematics is capable of describing both the temporal creation process *and* the final timeless pattern itself. The existence of a temporal origin story doesn't negate the existence of a final, static, and mathematically describable form.

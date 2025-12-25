@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-26T11:14:00Z
-epistemic: experimental
-last_reviewed: 2025-12-16
-modified: 2025-12-20T09:54:59Z
-purpose: To test if "Structured Wandering" is more effective than "Forced Focus" for physical tasks.
-review_interval: 2 weeks
+epistemic: "experimental"
+last_reviewed: "2025-12-16"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "To test if \\\"Structured Wandering\\\" is more effective than \\\"Forced Focus\\\" for physical tasks."
+review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
-source_of_truth: ["[[SoT - ADHD Executive Dysfunction]]"]
-status: pending
-tags: [experiment, focus, hypothesis, self-compassion, topic/health/adhd, topic/productivity]
+source_of_truth: []
+status: "pending"
+tags: ["experiment", "focus", "hypothesis", "self-compassion", "topic/health/adhd", "topic/productivity"]
 title: Junebugging - A Gentle Focus Strategy for ADHD
-type: hypothesis
+type: "hypothesis"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 ## 1. The Hypothesis

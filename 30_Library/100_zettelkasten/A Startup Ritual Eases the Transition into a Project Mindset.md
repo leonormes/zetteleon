@@ -1,20 +1,20 @@
 ---
 aliases: ["Startup Ritual"]
-confidence: 0.9
+confidence: "0.9"
 created: 2025-11-11T19:05:13Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-11T10:57:47Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
 purpose: "Defines a 'startup ritual' as a method for transitioning into a work mode."
-review_interval: 90
+review_interval: "90"
 see_also: []
 source_of_truth: []
-status: seedling
-tags: [habits, productivity, rituals]
+status: "seedling"
+tags: ["rituals", "topic/habits", "topic/productivity"]
 title: A Startup Ritual Eases the Transition into a Project Mindset
-type: strategy
-uid: 2025-11-11T19:05:13Z
-updated: 2025-11-11T19:05:13Z
+type: "strategy"
+uid: 
+updated: 
 ---
 
 ## A Startup Ritual Eases the Transition into a Project Mindset

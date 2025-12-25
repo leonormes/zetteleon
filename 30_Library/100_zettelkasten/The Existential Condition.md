@@ -1,22 +1,22 @@
 ---
-aliases: [Existence Precedes Essence, The Absurd]
-confidence: 
+aliases: ["Existence Precedes Essence", "The Absurd"]
+confidence: "null"
 created: 2025-08-23T17:10:46Z
-creation_date: 2025-08-23
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+creation_date: "2025-08-23T00:00:00.000Z"
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [existentialism, topic/philosophy]
+status: "null"
+tags: ["existentialism", "topic/philosophy"]
 title: The Existential Condition
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 When an emergent, [[Autopoiesis The Self-Referential System|autopoietic]] process produces a being with self-awareness, it leads directly to the existential condition. This condition is defined by a conflict between our innate drive to find meaning and the universe's apparent lack of any inherent purpose.

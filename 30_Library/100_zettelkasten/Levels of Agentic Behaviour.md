@@ -1,22 +1,22 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-10T08:33:55Z
-epistemic: 
-id: 20251008_Levels_of_Agentic_Behaviour
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+epistemic: "null"
+id: "20251008_Levels_of_Agentic_Behaviour"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:47+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [Classification, topic/technology/AI, topic/technology/AI/agents]
+status: "null"
+tags: ["Classification", "topic/technology/AI", "topic/technology/AI/agents"]
 title: Levels of Agentic Behaviour
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The capabilities of [[AI Agentic Workflows]] can be classified into different levels of sophistication and autonomy:

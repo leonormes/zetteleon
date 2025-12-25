@@ -1,50 +1,30 @@
 ---
-aliases: [Time Blocking SoT, Time Management SoT, Timeboxing SoT]
-confidence: 5/5
-confidence-gaps: []
-created: 2025-12-10T20:12:09Z
-decay-signals: []
-epistemic:
-last-synthesis: 2025-12-15
-last_reviewed: 2025-12-15
-modified: 2025-12-20T09:54:07Z
-purpose: Canonical guide to Temporal Management (Blocking and Boxing) within ProdOS.
-quality-markers: []
-related-soTs: ["[[SoT - PRODOS (System Architecture)]]"]
-resonance-score: 10
-review_interval: 3 months
-see_also: []
-source_of_truth: true
-status: stable
-supersedes: ["[[90-Minute Work Blocks Align with Natural Attention Rhythms]]", "[[Time Blocking Creates Urgency While Time Boxing Combats Parkinson's Law]]", "[[Time Blocking is a Technique for Dedicating Specific Segments of Time to Particular Tasks]]", "[[Timeboxing Creates Structure for Action]]", "[[Timeboxing vs. Time Blocking]]"]
-tags: ["parkinsons-law", "productivity", "scheduling", "time-management", "ultradian-rhythms"]
+aliases: ["Time Blocking SoT", "Time Management SoT", "Timeboxing SoT"]
+confidence: "5/5"
+created: 2025-12-10T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-15"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "Canonical guide to Temporal Management (Blocking and Boxing) within ProdOS."
+review_interval: "3 months"
+see_also: ["[[90-Minute Work Blocks Align with Natural Attention Rhythms]]", "[[SoT - PRODOS (System Architecture)]]", "[[Time Blocking Creates Urgency While Time Boxing Combats Parkinson's Law]]", "[[Time Blocking is a Technique for Dedicating Specific Segments of Time to Particular Tasks]]", "[[Timeboxing Creates Structure for Action]]", "[[Timeboxing vs. Time Blocking]]"]
+source_of_truth: []
+status: "stable"
+tags: ["parkinsons-law", "scheduling", "time-management", "topic/productivity", "ultradian-rhythms"]
 title: SoT - Temporal Management (Blocking and Boxing)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
-## 1. Definition
+**Temporal Management** in ProdOS is the discipline of treating time as a finite, physical resource. It relies on two distinct but complementary protocols: ""
 
-**Temporal Management** in ProdOS is the discipline of treating time as a finite, physical resource. It relies on two distinct but complementary protocols:
-
-> [!definition] The Two Modes
->
-> 1. **Time Blocking (Strategic):** *The Architect Mode.*
-> 
-> - **Goal:** To defend time for priorities.
-> - **Action:** "I will block 9:00-11:00 for Writing."
-> - **Mechanism:** Creates **Artificial Urgency** by assigning a specific "when" to tasks, preventing "I'll do it later."
-> - **Result:** A Calendar that reflects your values.
-> 
-> 2. **Time Boxing (Tactical):** *The Builder Mode.*
-> 
-> - **Goal:** To force efficiency and completion.
-> - **Action:** "I will write this section in 45 minutes."
-> - **Mechanism:** Combats **Parkinson's Law** by creating a hard constraint, forcing the brain to prioritize "done" over "perfect."
-> - **Result:** A Timer that combats perfectionism.
-
----
+> 1. **Time Blocking (Strategic): "** *The Architect Mode.*"
+> - **Goal: "** To force efficiency and completion."
+> - **Action: "** \"I will write this section in 45 minutes.\""
+> - **Mechanism: "** Combats **Parkinson's Law** by creating a hard constraint, forcing the brain to prioritize \"done\" over \"perfect.\""
+> - **Result: "** A Timer that combats perfectionism."
+> 2. **Time Boxing (Tactical): "** *The Builder Mode.*"
 
 ## 2. The Core Problem & Psychology
 
@@ -89,12 +69,12 @@ Traditional "Hard Scheduling" (planning every minute) often leads to the "Planni
 
 Instead of planning work *before* it happens, you record it *after* it happens.
 
-1.  **Schedule Non-Negotiables First:** Fill your calendar with *only* fixed commitments (Meetings, Meals, Sleep, Exercise, Social). The white space remaining is your *potential* capacity.
-2.  **Record Quality Work Backwards:** You only "earn" a block on your calendar by completing it.
-    -   **Rule:** Work must be done for at least **15-30 minutes** to qualify.
-    -   **Action:** After finishing a block, draw it on your calendar/timeline.
-3.  **The Reward Signal:** Seeing the calendar fill up with "Done Blocks" provides an immediate dopamine reward and a realistic map of your actual velocity.
-4.  **Capacity Awareness:** This eliminates the shame of "unmet plans" because you are not breaking promises to yourself; you are simply recording reality.
+1. **Schedule Non-Negotiables First:** Fill your calendar with *only* fixed commitments (Meetings, Meals, Sleep, Exercise, Social). The white space remaining is your *potential* capacity.
+2. **Record Quality Work Backwards:** You only "earn" a block on your calendar by completing it.
+    - **Rule:** Work must be done for at least **15-30 minutes** to qualify.
+    - **Action:** After finishing a block, draw it on your calendar/timeline.
+3. **The Reward Signal:** Seeing the calendar fill up with "Done Blocks" provides an immediate dopamine reward and a realistic map of your actual velocity.
+4. **Capacity Awareness:** This eliminates the shame of "unmet plans" because you are not breaking promises to yourself; you are simply recording reality.
 
 ### The "Guilt-Free Play" Rule
 
@@ -103,6 +83,7 @@ You must proactively schedule guilt-free play. Knowing you have a guaranteed "St
 ---
 
 ## 5. The ADHD Adaptation (Visual & Flexible)
+
 *Source: [How to Plan Your Day With ADHD](https://youtu.be/-bUAku0FySI)*
 
 Standard time blocking can fail for the neurodivergent brain because rigid scheduling creates "fragility"—one deviation leads to system abandonment. This alternative framework prioritizes **flexibility** and **dopamine Management**.
@@ -136,7 +117,7 @@ Replace urgency-based lists with a category-based visual hierarchy to maintain i
 ## 6. Common Pitfalls & Solutions
 
 | Pitfall | Solution |
-| :--- | :--- |
+|:--- |:--- |
 | **The Rigid Prison** | "My calendar creates anxiety." -> **Solution:** Treat blocks as *intentions*, not laws. Use "Fluid Blocking" (drag and drop) to adjust as reality changes. |
 | **The Planning Fallacy** | "I didn't finish." -> **Solution:** You are not a robot. Schedule 1 hour of "Overflow/Buffer" time every afternoon. |
 | **Interruption Hell** | "My boss walked in." -> **Solution:** The "Interruption Catch-All." Have a notepad ready. Write it down, promise to process it in the next "Admin Box," and return to work. |

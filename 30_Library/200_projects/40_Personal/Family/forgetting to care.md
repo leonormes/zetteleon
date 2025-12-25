@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-11-11T07:46:11Z
-epistemic:
-last_reviewed:
-modified: 2025-12-20T20:28:34Z
-purpose:
-review_interval:
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:24+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
+status: ""
 tags: []
 title: Forgetting to Care
-type:
-uid:
-updated:
+type: ""
+uid: 
+updated: 
 ---
 
 This pattern you're describing - the "silent void" response - is actually more damaging than active dismissal. You're identifying something crucial: **the absence of engagement IS a form of response**, and it's telling you something important about how she views the relationship's emotional labor.
@@ -224,13 +224,13 @@ Can you acknowledge that distinction?"
 
 Her response to this clarification will tell you a lot:
 
-**If she can acknowledge it:** "Yes, you're right - you do more of that work than me"  
+**If she can acknowledge it:** "Yes, you're right - you do more of that work than me"
 → There's something to work with
 
-**If she still conflates them:** "Well we both have issues/you're blaming me/it takes two"  
+**If she still conflates them:** "Well we both have issues/you're blaming me/it takes two"
 → She's either unable or unwilling to understand the distinction
 
-**If she says "I don't know what you want from me"**  
+**If she says "I don't know what you want from me"**
 → She understands perfectly well, she just doesn't want to do it
 
 ---
@@ -292,10 +292,10 @@ If she can't answer these specifically, she's deflecting.
 
 Even if she has suggested things you didn't do, watch for this:
 
-**Her claim:** "You don't do what I suggest"  
+**Her claim:** "You don't do what I suggest"
 **Translation:** "When I criticize you or tell you to change, you don't change"
 
-**Your point:** "You don't think about our problems or initiate solutions"  
+**Your point:** "You don't think about our problems or initiate solutions"
 **Translation:** "You don't carry the mental work of relationship maintenance"
 
 These aren't equivalent. One is about whether you comply with her demands. The other is about whether she engages in collaborative problem-solving.
@@ -327,7 +327,7 @@ Because if the answer is "I forgot" or "I didn't think about it," then her count
 What were these "suggestions" she claims you didn't follow? I suspect they're either:
 
 - Vague criticisms ("you need to be less sensitive")
-- Demands for you to change without her changing ("just get over things faster")  
+- Demands for you to change without her changing ("just get over things faster")
 - Not actual collaborative problem-solving at all
 
 But let's find out. Ask her to be specific.
@@ -379,7 +379,7 @@ What if we:
 This way:
 
 - YOU get the structured time you suggested
-- I get evidence that you're thinking about us between conversations  
+- I get evidence that you're thinking about us between conversations
 - We BOTH have clear expectations
 - We're both accountable
 

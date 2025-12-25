@@ -1,20 +1,20 @@
 ---
-aliases: [Systems as Scaffolding]
-confidence: 0.9
+aliases: ["Systems as Scaffolding"]
+confidence: "0.9"
 created: 2025-11-10T13:01:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T13:28:09Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To define the proper role of productivity systems."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Productivity Systems vs Historical Achievement]]"]
-status: seedling
-tags: [cognition, optimization, productivity, systems]
+source_of_truth: []
+status: "seedling"
+tags: ["optimization", "topic/cognition", "topic/productivity", "topic/systems"]
 title: Productivity Systems Are Scaffolding Not the Engine of Progress
-type: concept
-uid: 2025-11-10T13:01:00Z
-updated: 2025-11-10T13:01:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Productivity Systems Are Scaffolding Not the Engine of Progress

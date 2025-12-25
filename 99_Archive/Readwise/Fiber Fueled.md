@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T15:49:32Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-12T16:07:53Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,12 +22,14 @@ updated:
 ![rw-book-cover](https://m.media-amazon.com/images/I/81FHldSXCsL._SY160.jpg)
 
 ### Metadata
+
 - Author: [[Will Bulsiewicz]]
 - Full Title: Fiber Fueled
 - Category: #books
 - Document Tags: [[diet]]
 
 ### Highlights
+
 - Simply put, the greatest determinant of your health during your lifetime is the food that you choose to eat. As it turns out, your diet is also the greatest determinant of the health of your microbiome. ([Location 208](https://readwise.io/to_kindle?action=open&asin=B07ZY7J2XW&location=208))
 - There are five types of microorganisms residing within you. They include bacteria, yeasts, parasites, viruses, and archaea. ([Location 356](https://readwise.io/to_kindle?action=open&asin=B07ZY7J2XW&location=356))
 - Depending on how you look at it, some would say you are only 10 percent human—and 90 percent bacteria! You’re not just human, you’re a superorganism that serves as an ecosystem for four of the six kingdoms of life: Eubacteria, Fungi, Archaebacteria, and Protista. The other two are Animalia (us) and plantae (what we eat). We are more than just human. We are the circle of life. ([Location 384](https://readwise.io/to_kindle?action=open&asin=B07ZY7J2XW&location=384))

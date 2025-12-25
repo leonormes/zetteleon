@@ -1,63 +1,38 @@
 ---
 aliases: []
-confidence:
+confidence: ""
 created: 2025-01-06T13:59:42Z
-depends_on:
-  - name: deployment_phases
-    type: documentation
-    reason: Defines the overall deployment structure
-    doc_link: "[Deployment Phases](Deployment%20Phases.md)"
-  - name: aws_service_principal
-    type: tooling
-    reason: Required for AWS authentication and permissions
-    doc_link: "[aws_service_principal](aws_service_principal.md)"
-deployment_phase: 1
-description: Terraform Cloud Projects configuration for infrastructure deployment
-epistemic:
-estimated_duration: 30m
-iac_path:
-  - repo: terraform-aws-eks-private
-    path: Production/central-services/hcp/tfc
-    main_file: tfe_projects.tf
-last_reviewed:
-modified: 2025-12-13T11:39:51Z
-name: terraform_cloud_projects
-phase_order:
-  phase: 1
-  step: 3
-  next_steps:
-    - vpc_networking_for_private_eks
-purpose:
-required_configurations:
-  - name: Organization settings
-    description: Terraform Cloud organization configuration
-  - name: VCS provider
-    description: GitLab VCS provider setup
-  - name: Variable sets
-    description: AWS credentials and shared variables
-  - name: AWS authentication
-    description: Service principal credentials and roles
-required_resources:
-  - type: external_service
-    name: terraform_cloud
-    reason: Required for infrastructure state management and deployment
-  - type: external_service
-    name: gitlab
-    reason: Required for VCS integration
-  - type: aws_service
-    name: iam
-    reason: Required for AWS authentication
-review_interval:
+depends_on: ["name: \"AWS authentication"]
+deployment_phase: "1"
+description: "Service principal credentials and roles"
+doc_link: "[aws_service_principal](aws_service_principal.md)"
+epistemic: ""
+estimated_duration: "30m"
+iac_path: ["repo: \"terraform-aws-eks-private"]
+last_reviewed: ""
+main_file: "tfe_projects.tf"
+modified: 2025-12-25T11:40:34+00:00
+name: "iam"
+next_steps: ""
+path: "Production/central-services/hcp/tfc"
+phase: "1"
+phase_order: ""
+purpose: ""
+reason: "Required for AWS authentication"
+required_configurations: ""
+required_resources: ["type: \"aws_service"]
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
+status: ""
+step: "3"
 tags: []
 title: terraform_cloud_projects
-type: tooling
-uid:
-updated:
-verification_steps:
-version:
+type: "tooling"
+uid: 
+updated: 
+verification_steps: ""
+version: ""
 ---
 
 ## Terraform Cloud Projects

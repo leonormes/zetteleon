@@ -4,13 +4,13 @@ confidence: 0.9
 created: 2025-11-12T15:00:07Z
 epistemic: principle
 last_reviewed:
-modified: 2025-11-12T14:01:15Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: "To define the Kaizen method as a tool for building momentum."
 review_interval: 90
 see_also: ["[[Success Accumulates Through Thousands of Tiny Daily Choices]]"]
 source_of_truth: ["[[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]"]
 status: archived
-tags: [adhd, habits, momentum, productivity]
+tags: [momentum, topic/habits, topic/health/adhd, topic/productivity]
 title: Kaizen Method Uses Micro-Victories to Build Momentum
 type: concept
 uid: 2025-11-12T15:00:07Z

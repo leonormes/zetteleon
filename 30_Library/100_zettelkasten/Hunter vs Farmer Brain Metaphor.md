@@ -1,22 +1,22 @@
 ---
-aliases: [Cognitive Operating Systems, Farmer Brain, Hunter Brain]
-confidence: 
+aliases: ["Cognitive Operating Systems", "Farmer Brain", "Hunter Brain"]
+confidence: "null"
 created: 2025-09-11T20:23:16Z
-creation_date: 2025-09-11
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:46Z
-purpose: 
-review_interval: 
+creation_date: "2025-09-11T00:00:00.000Z"
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:48+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [cognitive-styles, metaphor, neurodiversity, topic/health/adhd]
+status: "null"
+tags: ["cognitive-styles", "metaphor", "neurodiversity", "topic/health/adhd"]
 title: Hunter vs Farmer Brain Metaphor
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The hunter brain operates by scanning the horizon for interesting targets, pursuing them with intense focus, extracting valuable insights, and then moving on to the next opportunity. This contrasts with the farmer brain, which methodically cultivates a single domain over extended periods through sustained, consistent effort.

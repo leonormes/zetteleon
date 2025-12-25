@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-08-15T03:15:45Z
-epistemic: 
-last_reviewed: 
-modified: 2025-11-03T13:48:26Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: Common Properties and Claims of a Digital Identity
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 To provide an abstracted understanding of digital identity, we can define it functionally as "how we recognise, remember, and respond to specific people and things". Digital identity systems are designed to acquire, correlate, apply, reason over, and govern information assets pertaining to subjects, identifiers, attributes, raw data, and context. These systems enable trust in the digital world.

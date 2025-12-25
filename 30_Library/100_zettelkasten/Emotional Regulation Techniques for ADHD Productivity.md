@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-26T11:15:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:38Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [emotional-regulation, topic/health/adhd, topic/productivity]
+status: ""
+tags: ["emotional-regulation", "topic/health/adhd", "topic/productivity"]
 title: Emotional Regulation Techniques for ADHD Productivity
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 For individuals with ADHD, emotional dysregulation can be a significant barrier to productivity. Techniques that help manage and process difficult emotions can free up cognitive resources for tasks.

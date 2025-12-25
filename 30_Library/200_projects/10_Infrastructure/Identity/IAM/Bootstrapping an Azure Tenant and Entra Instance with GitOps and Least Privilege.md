@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-03-10T04:26:20Z
-epistemic: 
-last_reviewed: 
-modified: 2025-12-13T11:39:49Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:40+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [azure, IAM]
+status: ""
+tags: ["azure", "IAM"]
 title: Bootstrapping an Azure Tenant and Entra Instance with GitOps and Least Privilege
-type: plan
+type: "plan"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 This article provides a comprehensive guide to bootstrapping an Azure tenant and an Entra ID (formerly Azure AD) instance using GitOps principles and adhering to the principle of least privilege. We will cover the initial account setup, securing the root identity, creating necessary identities for your development team, and bootstrapping the environment with GitOps.

@@ -1,21 +1,20 @@
 ---
-aliases: [Creation Cycle Failure, Novelty-Driven Dopamine Release, Project Re-Entry]
-confidence: 1
-created: 2025-12-20T10:15:00Z
+aliases: ["Creation Cycle Failure", "Novelty-Driven Dopamine Release", "Project Re-Entry"]
+confidence: "1"
+created: 2025-12-20T00:00:00Z
 epistemic: "principle"
-last_reviewed: 2025-12-20
-modified: 2025-12-20T20:28:10Z
+last_reviewed: "2025-12-20"
+modified: 2025-12-25T11:40:21+00:00
 purpose: "To provide a canonical explanation of why returning to projects is difficult and to outline strategies to overcome this challenge."
-review_interval: 365
+review_interval: "365"
 see_also: ["[[MOC - ADHD Project Continuation Challenge]]", "[[MOC - Project Continuity]]", "[[SoT - Breaking the Creation Cycle]]", "[[SoT - Starter Tasks]]"]
 source_of_truth: []
 status: "evergreen"
-tags: [adhd, dopamine, productivity, project-management, psychology, task-management]
+tags: ["dopamine", "project-management", "task-management", "topic/health/adhd", "topic/productivity", "topic/psychology"]
 title: SoT - Overcoming Project Re-Entry Challenges
 type: "permanent"
-uid: 20251220101500
+uid: 
 updated: 
-version: 1
 ---
 
 ## Current Understanding
@@ -74,7 +73,7 @@ Returning to a project is hard because it's not "new" anymore, so the brain gets
 
 ## Tensions & Gaps
 
--   How can these strategies be effectively integrated into digital project management tools?
--   What is the optimal level of detail for a "Future Self Brief" to be useful without becoming a burden?
--   How can the "Fresh Start Loop" be differentiated from necessary project pivots or restarts?
--   Further research into the specific neurological differences in how novelty and familiarity are processed in ADHD versus neurotypical brains.
+- How can these strategies be effectively integrated into digital project management tools?
+- What is the optimal level of detail for a "Future Self Brief" to be useful without becoming a burden?
+- How can the "Fresh Start Loop" be differentiated from necessary project pivots or restarts?
+- Further research into the specific neurological differences in how novelty and familiarity are processed in ADHD versus neurotypical brains.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-26T11:13:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-31T09:31:38Z
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:46+00:00
 purpose: "To provide a map of strategies for overcoming task inertia in ADHD."
-review_interval: 
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [map, motivation, task-initiation, topic/health/adhd, topic/productivity]
+status: "null"
+tags: ["map", "motivation", "task-initiation", "topic/health/adhd", "topic/productivity"]
 title: Momentum-Building Strategies for ADHD
-type: map
+type: "map"
 uid: 
 updated: 
-version: 2
+version: "2"
 ---
 
 ## Momentum-Building Strategies for ADHD

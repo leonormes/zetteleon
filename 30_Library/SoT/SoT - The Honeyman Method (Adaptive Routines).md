@@ -1,33 +1,23 @@
 ---
-aliases: [Adaptive Routines, Energy-Based Tiered Routines, The Honeyman Method]
-confidence: 5/5
-created: 2025-12-10T12:00:00Z
-epistemic:
-last_reviewed: 2025-12-10
-modified: 2025-12-20T09:54:06Z
-purpose: To define the adaptive routine protocol used in ProdOS to manage energy fluctuations and prevent system abandonment.
-related-soTs: ["[[SoT - Bridging the Intention-Action Gap]]", "[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS - Action Management (GTD)]]"]
-review_interval: 6 months
-see_also: ["[[MOC - The Honeyman Method]]"]
-source_of_truth: true
-status: stable
-tags: ["adhd", "energy-management", "prodos", "routines"]
+aliases: ["Adaptive Routines", "Energy-Based Tiered Routines", "The Honeyman Method"]
+confidence: "5/5"
+created: 2025-12-10T00:00:00Z
+epistemic: ""
+last_reviewed: "2025-12-10"
+modified: 2025-12-25T11:40:20+00:00
+purpose: "To define the adaptive routine protocol used in ProdOS to manage energy fluctuations and prevent system abandonment."
+review_interval: "6 months"
+see_also: ["[[MOC - The Honeyman Method]]", "[[SoT - Bridging the Intention-Action Gap]]", "[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS - Action Management (GTD)]]"]
+source_of_truth: []
+status: "stable"
+tags: ["energy-management", "prodos", "routines", "topic/health/adhd"]
 title: SoT - The Honeyman Method (Adaptive Routines)
-type: SoT
-uid:
-updated:
+type: "SoT"
+uid: 
+updated: 
 ---
 
-## 1. Definition
-
-The **Honeyman Method** is an adaptive, three-tiered framework for managing routines. It replaces binary "Success/Failure" models with a dynamic scope that scales based on available executive function.
-
-> [!definition] Core Principle
-> Consistency is not achieved by performing the *same action* every day, but by maintaining the *same habit loop* at varying intensities.
->
-> **The Goal:** To prevent the "All-or-Nothing" collapse where a single missed "Ideal" day leads to total system abandonment.
-
----
+> **The Goal: "** To prevent the \"All-or-Nothing\" collapse where a single missed \"Ideal\" day leads to total system abandonment."
 
 ## 2. The Three Tiers (Scope Definition)
 
@@ -95,7 +85,7 @@ The Honeyman Method provides a **Pre-Approved Fallback**. When you switch to Tie
 ## 4. Implementation Example (The Daily Ritual)
 
 | Routine Phase | Tier 1 (Ideal) | Tier 2 (Standard) | Tier 3 (Minimum) |
-| :--- | :--- | :--- | :--- |
+|:--- |:--- |:--- |:--- |
 | **Capture** | Process all Inboxes (Email, Slack, Todoist) to Zero. | Clear only Todoist Inbox. Check Email for fires. | Dump brain to Daily Note. Ignore others. |
 | **Plan** | Time-block entire day. Set 3 Major Outcomes. | List top 3 priorities. No time-blocking. | Pick **ONE** thing. Do it. |
 | **Synthesis** | Process `HEAD` notes. Merge insights to `SoT`. | Review one `HEAD` note. | Skip. |

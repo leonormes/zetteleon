@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-20T02:58:05Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-20T14:58:20Z
+modified: 2025-12-25T11:40:50+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,16 +22,17 @@ You are acting as the "ProdOS Chief Architect" and System Administrator. I have 
 Your goal is to bootstrap the "Runtime Layer" by creating three critical missing system files.
 
 **Context & Constraints:**
-1.  **Style:** Use British English. Be concise, imperative, and structural.
-2.  **Location:** - Search for a folder named "Templates" or "99_Templates". If found, place the templates there. If not, create them in `31_Resources/Templates`.
+1. **Style:** Use British English. Be concise, imperative, and structural.
+2. **Location:** - Search for a folder named "Templates" or "99_Templates". If found, place the templates there. If not, create them in `31_Resources/Templates`.
     - Place the "Command Centre" protocol in `30_Library/Protocols` (create the folder if it doesn't exist).
-3.  **Overwrite:** If these files exist, ask for confirmation before overwriting.
+3. **Overwrite:** If these files exist, ask for confirmation before overwriting.
 
 **Task: Create the following 3 files with the exact content provided below.**
 
 ---
 
 ## FILE 1: The Weekly Review Protocol
+
 **Filename:** `Protocol - Weekly Command Centre.md`
 **Content:**
 
@@ -79,20 +80,24 @@ Your goal is to bootstrap the "Runtime Layer" by creating three critical missing
 - [ ] **Wait-For Review:** Check `@Waiting` context. Bump or mark complete.
 
 ### Phase 4: Hansei (Optimization)
+
 - [ ] **The Friction Audit:** Where did the system fail this week? Define one 1% fix.
 - [ ] **The Ikigai Check:** Did I spend time on Eudaimonia (Values) or Hedonia (Cheap Dopamine)?
 
 ---
 
 #### FILE 2: The Debugging Template
+
 **Filename:** `Template - Stuck Task Recovery.md`
 **Content:**
 
 ## HEAD - STUCK - {{title}}
+
 **Date:** {{date}} {{time}}
 **Status:** 🔴 Stuck / Debugging
 
 ### 1. The Diagnosis (Why is This hung?)
+
 *Do not judge. Just observe the error log.*
 - [ ] **The Wall of Awful:** What emotion comes up? (Boredom / Fear / Confusion / Shame)
 - [ ] **The "Have-To" Trap:** Am I using "Importance" instead of "Interest"?
@@ -101,6 +106,7 @@ Your goal is to bootstrap the "Runtime Layer" by creating three critical missing
 **Root Cause:** ---
 
 ### 2. The Refactor (Ignition Protocol)
+
 *Refactor the task using one of these Energy Hacks.*
 
 **Option A: The Mystery Hack (Curiosity)**
@@ -112,6 +118,7 @@ Your goal is to bootstrap the "Runtime Layer" by creating three critical missing
 *Draft:* ---
 
 ### 3. The "Start in the Middle" Strategy
+
 *Logical order is forbidden. Dopamine order is mandatory.*
 - **The Fun Part:** What is the one tiny part that is actually interesting?
 - **Step 1:** [Write the fun step here]
@@ -119,6 +126,7 @@ Your goal is to bootstrap the "Runtime Layer" by creating three critical missing
 ---
 
 ### 4. The New Output (Kinetic Egress)
+
 - [ ] **Action:** [Verb] [Noun] (Context: @Computer, Time: [15m])
 - [ ] **Metric:** How will I know it passed/failed?
 
@@ -127,6 +135,7 @@ Your goal is to bootstrap the "Runtime Layer" by creating three critical missing
 ---
 
 #### FILE 3: The System Linter Prompt
+
 **Filename:** `Prompt - ProdOS System Linter.md`
 **Content:**
 

@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-12T15:49:33Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-12T16:07:53Z
+modified: 2025-12-25T11:40:19+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -22,11 +22,13 @@ updated:
 ![rw-book-cover](https://m.media-amazon.com/images/I/71ZenN7kpfL._SY160.jpg)
 
 ### Metadata
+
 - Author: [[Amishi Jha]]
 - Full Title: Peak Mind
 - Category: #books
 
 ### Highlights
+
 - In other words: Don’t waste your energy trying to get better at fighting the pull on your attention. You cannot win that fight. Instead, cultivate the capacity and skill to position your mind so you don’t have to fight. ([Location 214](https://readwise.io/to_kindle?action=open&asin=B08WRGDPH9&location=214))
     - Tags: [[adhd]]
 - But I knew we needed to ask the next question: How can we make it work better? ([Location 272](https://readwise.io/to_kindle?action=open&asin=B08WRGDPH9&location=272))

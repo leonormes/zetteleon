@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: null
 created: 2025-10-21T08:06:35Z
-epistemic: 
+epistemic: null
 excalidraw-plugin: parsed
-last_reviewed: 
-modified: 2025-12-21T14:58:02Z
-purpose: 
-review_interval: 
+last_reviewed: null
+modified: 2025-12-25T11:40:50+00:00
+purpose: null
+review_interval: null
 see_also: []
 source_of_truth: []
-status: 
+status: null
 tags: [topic/technology/networking/dns]
 title: DNS and Hostname.excalidraw
-type: 
-uid: 
-updated: 
+type: null
+uid: null
+updated: null
 ---
 
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
@@ -71,6 +71,7 @@ cc1f93efca9d53669132d3652daecb3d4d67e68d: [[Pasted Image 20251021152706_688.png]
 65b4a0722b88a8397978fbf082b5707193ac71e5: [[Pasted Image 20251021153102_171.png]]
 
 %%
+
 ### Drawing
 
 ```compressed-json

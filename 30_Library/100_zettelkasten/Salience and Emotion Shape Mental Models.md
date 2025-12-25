@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: "null"
 created: 2025-10-20T10:00:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: "null"
+last_reviewed: "null"
+modified: 2025-12-25T11:40:45+00:00
+purpose: "null"
+review_interval: "null"
 see_also: []
 source_of_truth: []
-status: 
-tags: [emotion, memory, perception, topic/cognition]
+status: "null"
+tags: ["emotion", "memory", "perception", "topic/cognition"]
 title: Salience and Emotion Shape Mental Models
-type:
+type: "null"
 uid: 
 updated: 
-version:
+version: "null"
 ---
 
 The brain does not build its mental models with objective completeness like a mathematician. Instead, it filters information through subconscious layers of **salience** and **emotion** to determine what is relevant and important enough to include.

@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-10-26T17:06:00Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:45Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:49+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
-tags: [architecture, networking, scalability, tech]
+status: ""
+tags: ["architecture", "scalability", "tech", "topic/technology/networking"]
 title: A Load Balancer Distributes Traffic for Reliability and Scale
-type: permanent
+type: "permanent"
 uid: 
 updated: 
-version: 1
+version: "1"
 ---
 
 A Load Balancer is a core infrastructural component that distributes incoming network traffic across multiple backend servers to ensure high availability, scalability, and fault tolerance.

@@ -1,22 +1,22 @@
 ---
-aliases: [Bikeshedding]
-confidence:
+aliases: ["Bikeshedding"]
+confidence: ""
 created: 2025-08-23T17:07:03Z
-creation_date: 2025-08-23
-epistemic:
-last_reviewed:
-modified: 2025-10-31T09:31:39Z
-purpose:
-review_interval:
+creation_date: "2025-08-23"
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status:
-tags: [sociology, topic/psychology, topic/psychology/cognitive-bias]
+status: ""
+tags: ["sociology", "topic/cognition/bias", "topic/psychology"]
 title: The Law of Triviality (Bikeshedding)
-type: map
-uid:
-updated:
-version:
+type: "map"
+uid: 
+updated: 
+version: ""
 ---
 
 Coined by C. Northcote Parkinson, the Law of Triviality states that members of an organisation give disproportionate weight to trivial issues.

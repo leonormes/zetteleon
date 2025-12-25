@@ -1,21 +1,21 @@
 ---
 aliases: []
-confidence: 
+confidence: ""
 created: 2025-09-01T09:21:45Z
-epistemic: 
-last_reviewed: 
-modified: 2025-10-30T10:27:47Z
-purpose: 
-review_interval: 
+epistemic: ""
+last_reviewed: ""
+modified: 2025-12-25T11:40:45+00:00
+purpose: ""
+review_interval: ""
 see_also: []
 source_of_truth: []
-status: 
+status: ""
 tags: []
 title: The International System of Units (SI) is the Global Standard for Measurement
-type:
+type: ""
 uid: 
 updated: 
-version:
+version: ""
 ---
 
 The **International System of Units (SI)** is the modern form of the metric system and the most widely used system of measurement in the world. It provides a single, practical system of units used globally in science, technology, industry, and trade.

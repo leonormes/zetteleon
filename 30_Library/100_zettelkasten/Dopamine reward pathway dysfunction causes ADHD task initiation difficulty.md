@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 0.85
+confidence: "0.85"
 created: 2025-10-31T00:00:00Z
-epistemic: fact
-last_reviewed: 2025-10-31
-modified: 2025-11-01T09:43:56Z
-purpose: "Explains the neurobiological mechanism underlying task initiation difficulty in ADHD"
-review_interval: 90
-see_also: ["[[Neuroenergetic deficit theory proposes ADHD as cortical energy insufficiency]]", "[[Task initiation requires prefrontal cortex activation and dopamine signaling]]"]
-source_of_truth: [NIH ADHD research, Volkow 2011 PET imaging study]
-status: seedling
-tags: [adhd, dopamine, neurobiology, task-initiation]
+epistemic: "fact"
+last_reviewed: "2025-10-31T00:00:00.000Z"
+modified: 2025-12-25T11:40:48+00:00
+purpose: ""
+review_interval: "90"
+see_also: []
+source_of_truth: []
+status: "seedling"
+tags: []
 title: Dopamine reward pathway dysfunction causes ADHD task initiation difficulty
-type: concept
-uid: 2025-10-31T00:00:00Z
-updated: 2025-10-31T00:00:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Dopamine Reward Pathway Dysfunction Causes ADHD Task Initiation Difficulty

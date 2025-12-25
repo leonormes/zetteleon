@@ -1,20 +1,20 @@
 ---
-aliases: [Learning vs Understanding]
-confidence: 0.9
+aliases: ["Learning vs Understanding"]
+confidence: "0.9"
 created: 2025-11-10T16:00:00Z
-epistemic: principle
-last_reviewed:
-modified: 2025-11-10T14:08:42Z
+epistemic: "principle"
+last_reviewed: ""
+modified: 2025-12-25T11:40:47+00:00
 purpose: "To distinguish between the cognitive processes of learning and understanding."
-review_interval: 90
+review_interval: "90"
 see_also: []
-source_of_truth: ["[[MOC - Understanding vs Learning]]"]
-status: seedling
-tags: [cognition, learning, pedagogy, understanding]
+source_of_truth: []
+status: "seedling"
+tags: ["learning", "pedagogy", "topic/cognition", "understanding"]
 title: Learning is the Acquisition of Information While Understanding is the Construction of Meaning
-type: concept
-uid: 2025-11-10T16:00:00Z
-updated: 2025-11-10T16:00:00Z
+type: "concept"
+uid: 
+updated: 
 ---
 
 ## Learning is the Acquisition of Information While Understanding is the Construction of Meaning
