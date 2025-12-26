@@ -1,5 +1,7 @@
 ---
+id: FITFILE Node Deployment Guide
 aliases: []
+tags: []
 confidence: ""
 created: 2025-09-07T08:50:31Z
 epistemic: ""
@@ -10,11 +12,8 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: []
 title: FITFILE Node Deployment Guide
 type: ""
-uid: 
-updated: 
 version: ""
 ---
 
@@ -180,17 +179,17 @@ The deployment uses the "App of Apps" pattern, where a single root ArgoCD Applic
 **The Reconciliation Flow:**
 
 1. **Root Application (`ffnode` chart)**:
-    - The `private_platform_template` deploys the root ArgoCD Application (e.g., `ff-cuh-prod-1`).
-    - This application points to the `charts/ffnode` Helm chart.
+   - The `private_platform_template` deploys the root ArgoCD Application (e.g., `ff-cuh-prod-1`).
+   - This application points to the `charts/ffnode` Helm chart.
 
 2. **Child Applications (Templates)**:
-    - The `ffnode` chart contains templates (e.g., `mongodb-application.yaml`, `fitconnect-application.yaml`) that generate child ArgoCD `Application` resources.
-    - **Control:** The `values.yaml` `deploy:` section acts as feature flags (e.g., `deploy.mongodb: true`) to determine which child apps are created.
+   - The `ffnode` chart contains templates (e.g., `mongodb-application.yaml`, `fitconnect-application.yaml`) that generate child ArgoCD `Application` resources.
+   - **Control:** The `values.yaml` `deploy:` section acts as feature flags (e.g., `deploy.mongodb: true`) to determine which child apps are created.
 
 3. **Component Deployment**:
-    - ArgoCD detects the new child `Application` resources.
-    - It fetches the specific component charts (e.g., `helm/mongodb` from ACR) and deploys them to the cluster.
-    - **Sync Policy:** Automated sync with pruning and self-healing ensures the cluster matches the Git state.
+   - ArgoCD detects the new child `Application` resources.
+   - It fetches the specific component charts (e.g., `helm/mongodb` from ACR) and deploys them to the cluster.
+   - **Sync Policy:** Automated sync with pruning and self-healing ensures the cluster matches the Git state.
 
 **Key Benefit:** This centralized configuration allows managing the entire stack versioning and composition from a single `values.yaml` file per environment.
 
@@ -216,93 +215,91 @@ This phase involves critical setup steps and agreements that must be completed b
 ### Phase 1: Tooling (Central Services Configuration)
 
 1. **Vault Setup**:
-    - Update `hcp/vault/locals.tf` to define new deployment secrets.
-    - Populate secrets in HCP Vault for `application`, `spicedb`, `monitoring`, etc.
+   - Update `hcp/vault/locals.tf` to define new deployment secrets.
+   - Populate secrets in HCP Vault for `application`, `spicedb`, `monitoring`, etc.
 2. **UDE Secret**: Generate `ude_key` via `cargo run -- key-gen` in UDE CLI repo.
 3. **Auth0 Configuration**:
-    - Update `environments/fitfile/<env>/auth0/main.tf` to add the new tenant application.
-    - Apply Terraform and record `client_id` and `client_secret` for Vault.
+   - Update `environments/fitfile/<env>/auth0/main.tf` to add the new tenant application.
+   - Apply Terraform and record `client_id` and `client_secret` for Vault.
 4. **Grafana Configuration**:
-    - Update `grafana/locals.tf` with the new stack.
-    - Apply Terraform and record monitoring credentials for Vault.
+   - Update `grafana/locals.tf` with the new stack.
+   - Apply Terraform and record monitoring credentials for Vault.
 
 ### Phase 2: Infrastructure Provisioning
 
 1. **Configure Deployment Parameters**
 
-    ```hcl
-    # In locals.tf
-    deployment_key = "cuh-poc-1"
-    vnet_address_space = "10.250.16.0/24"
-    firewall_private_ip = "10.250.1.68"
-    ```
+```hcl
+# In locals.tf
+deployment_key = "cuh-poc-1"
+vnet_address_space = "10.250.16.0/24"
+firewall_private_ip = "10.250.1.68"
+```
 
 2. **SDE Deployment Specifics (Hub-Spoke Connectivity)**
-    *For SDE deployments requiring on-premise connectivity:*
-    - **VNet Architecture**: Ensure a Hub-Spoke model where the Hub VNet connects to on-premise (ExpressRoute/VPN) and peers with the FITFILE Spoke VNet.
-    - **IP Allocation**:
-        - **Spoke CIDR**: A non-overlapping `/24` block.
-        - **Firewall IP**: Private IP of the central firewall.
-        - **DNS**: Corporate DNS server IP reachable from the Spoke.
-    - **Traffic Forwarding**: Enable on the VNet peering.
-    - **Firewall Rules**: Allow outbound traffic from the Spoke CIDR to required endpoints (see FITFILE endpoint list).
+   _For SDE deployments requiring on-premise connectivity:_
+   - **VNet Architecture**: Ensure a Hub-Spoke model where the Hub VNet connects to on-premise (ExpressRoute/VPN) and peers with the FITFILE Spoke VNet.
+   - **IP Allocation**:
+     - **Spoke CIDR**: A non-overlapping `/24` block.
+     - **Firewall IP**: Private IP of the central firewall.
+     - **DNS**: Corporate DNS server IP reachable from the Spoke.
+   - **Traffic Forwarding**: Enable on the VNet peering.
+   - **Firewall Rules**: Allow outbound traffic from the Spoke CIDR to required endpoints (see FITFILE endpoint list).
 
 3. **Deploy Infrastructure**
-
-    - **Azure**: Use `terraform-azure-private-infrastructure` module.
-    - **AWS**: Use `terraform-aws-eks-private` template.
-    - Run `terraform init` and `terraform apply`.
+   - **Azure**: Use `terraform-azure-private-infrastructure` module.
+   - **AWS**: Use `terraform-aws-eks-private` template.
+   - Run `terraform init` and `terraform apply`.
 
 4. **Verify Cluster Access**
-
-    - Connect to Jumpbox (Azure: Serial Console, AWS: SSM).
-    - **Conditional Access**: If interactive login is blocked, use a dedicated service principal or request an IP exception.
-    - Run `az aks get-credentials` or `aws eks update-kubeconfig`.
-    - Verify with `kubectl get nodes`.
+   - Connect to Jumpbox (Azure: Serial Console, AWS: SSM).
+   - **Conditional Access**: If interactive login is blocked, use a dedicated service principal or request an IP exception.
+   - Run `az aks get-credentials` or `aws eks update-kubeconfig`.
+   - Verify with `kubectl get nodes`.
 
 ### Phase 3: Platform Setup
 
 1. **ArgoCD Installation**
-    - Automatically deployed via the platform module.
-    - **Manual Step**: Edit `vars.tfvars` on Jumpbox with Vault approles and ingress IPs.
-    - Run `terraform apply` on the Jumpbox.
+   - Automatically deployed via the platform module.
+   - **Manual Step**: Edit `vars.tfvars` on Jumpbox with Vault approles and ingress IPs.
+   - Run `terraform apply` on the Jumpbox.
 
 2. **Namespace Preparation**
 
-    ```bash
-    kubectl create namespace cuh-prod-1
-    kubectl create secret docker-registry fitfile-image-pull-secret ...
-    ```
+   ```bash
+   kubectl create namespace cuh-prod-1
+   kubectl create secret docker-registry fitfile-image-pull-secret ...
+   ```
 
 3. **Post-Infrastructure Configuration**
-    - **StorageClass**: Set `gp2` (or default) to `Retain` policy.
-    - **CoreDNS**: Add rewrite rules to prevent hairpin routing.
+   - **StorageClass**: Set `gp2` (or default) to `Retain` policy.
+   - **CoreDNS**: Add rewrite rules to prevent hairpin routing.
 
 ### Phase 4: Application Deployment
 
 1. **Configure FFNode Values**
 
-    ```yaml
-    # ffnodes/eoe/cuh-prod-1/values.yaml
-    namespace: "cuh-prod-1"
-    deploymentKey: "cuh-prod-1"
+   ```yaml
+   # ffnodes/eoe/cuh-prod-1/values.yaml
+   namespace: "cuh-prod-1"
+   deploymentKey: "cuh-prod-1"
 
-    argocdApp:
-      targetRevision: cuh-prod-1-latest-release
-    ```
+   argocdApp:
+     targetRevision: cuh-prod-1-latest-release
+   ```
 
 2. **Deploy FFNode Chart**
 
-    ```bash
-    helm install cuh-prod-1 charts/ffnode \
-      -f ffnodes/eoe/cuh-prod-1/values.yaml \
-      --namespace argocd
-    ```
+   ```bash
+   helm install cuh-prod-1 charts/ffnode \
+     -f ffnodes/eoe/cuh-prod-1/values.yaml \
+     --namespace argocd
+   ```
 
 3. **Post-Deployment Configuration**
-    - **Spicedb**: Create project relationships.
-    - **MongoDB**: Insert Tenants and Connections documents.
-    - **RBAC**: Assign `data_source_manager` roles.
+   - **Spicedb**: Create project relationships.
+   - **MongoDB**: Insert Tenants and Connections documents.
+   - **RBAC**: Assign `data_source_manager` roles.
 
 ## Deployment Patterns
 
@@ -387,7 +384,7 @@ ffnodes/fitfile/
 
 ### Critical Checks & Blockers
 
-*Before starting, verify these common blocking points:*
+_Before starting, verify these common blocking points:_
 
 1. **Quotas**: Is the Azure vCPU quota sufficient?
 2. **Encryption**: Is `EncryptionAtHost` fully registered?
@@ -486,13 +483,14 @@ ffnodes/fitfile/
 
 ## Roadmap: Automated Onboarding
 
-*Proposed Refactoring to replace manual steps with a unified Makefile workflow.*
+_Proposed Refactoring to replace manual steps with a unified Makefile workflow._
 
 ### Overall Goal
 
 Refactor the Terraform codebase to enable single-command onboarding: `make apply CUSTOMER_NAME="new-customer-xyz"`.
 
 **Key Constraints:**
+
 - **No Hardcoded Secrets:** All credentials managed in HCP Terraform Cloud.
 - **Parameterisation:** Dynamic generation of customer resources.
 - **Modularity:** Logical, verifiable steps.
@@ -501,28 +499,28 @@ Refactor the Terraform codebase to enable single-command onboarding: `make apply
 
 - **Goal:** Create a generic, reusable module for GitLab repositories.
 - **Changes:**
-    - Add `customer_name` variable to `central-services/gitlab`.
-    - Refactor `gitlab_project` resources to use dynamic names (e.g., `${var.customer_name}-prod-repo`).
-    - Remove default values for sensitive tokens.
+  - Add `customer_name` variable to `central-services/gitlab`.
+  - Refactor `gitlab_project` resources to use dynamic names (e.g., `${var.customer_name}-prod-repo`).
+  - Remove default values for sensitive tokens.
 
 ### Phase 2: Parameterise Terraform Cloud
 
 - **Goal:** Automatically create TFC workspaces for new customers.
 - **Changes:**
-    - Add `customer_name` variable to `central-services/hcp/tfc`.
-    - Create dynamic `tfe_workspace` resources that link to the dynamic GitLab repos from Phase 1.
+  - Add `customer_name` variable to `central-services/hcp/tfc`.
+  - Create dynamic `tfe_workspace` resources that link to the dynamic GitLab repos from Phase 1.
 
 ### Phase 3: Orchestration (Makefile)
 
 - **Goal:** A single interface for execution.
 - **Proposed Workflow:**
 
-    ```makefile
-    # Example Usage: make apply CUSTOMER_NAME="new-customer"
-    plan: plan-gitlab plan-tfc
-    apply: apply-gitlab apply-tfc
-    ```
+  ```makefile
+  # Example Usage: make apply CUSTOMER_NAME="new-customer"
+  plan: plan-gitlab plan-tfc
+  apply: apply-gitlab apply-tfc
+  ```
 
 ---
 
-*This documentation is maintained as part of the FITFILE deployment repository. Please keep it updated as the architecture evolves.*
+_This documentation is maintained as part of the FITFILE deployment repository. Please keep it updated as the architecture evolves._

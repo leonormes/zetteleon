@@ -30,7 +30,7 @@ updated:
 
 ### 🧠 My Current Model (The Blind Write)
 
-*Instructions: Write this section BEFORE looking at documentation. How do you think it works? What is your logic? be messy.*
+_Instructions: Write this section BEFORE looking at documentation. How do you think it works? What is your logic? be messy._
 
 **I think it works like this:**
 
@@ -40,7 +40,7 @@ updated:
 
 **I am assuming that:**
 
-- We need to identify *where* this configuration data lives (PVC? DB?).
+- We need to identify _where_ this configuration data lives (PVC? DB?).
 - The solution will likely involve **Velero** for cluster resource/PVC backups, or a specific database backup script if it's external.
 - "CAB/TT" refers to previous Change Advisory Board or Trouble Ticket records that might already authorize or describe this work.
 - I need to communicate the window for this work to the client (CUH) as per the comments.
