@@ -146,7 +146,7 @@ The video highlights two critical files you will work with:
 
 Go
 
-```markdown
+```go
 type MyResourceSpec struct {
     // +kubebuilder:validation:Minimum=1
     Replicas int32 \`json:"replicas"\` // This defines the YAML field 'replicas'
@@ -158,7 +158,7 @@ type MyResourceSpec struct {
 
 Go
 
-```markdown
+```go
 func (r *MyReconciler) Reconcile(ctx context.Context, req ctrl.Request) (ctrl.Result, error) {
     // 1. Fetch the resource from the cache
     // 2. Check if sub-resources (e.g. Deployments) exist
@@ -195,7 +195,7 @@ Forget about Kubernetes and HTTP for a moment. A Vault is fundamentally a secure
 
 Go
 
-```markdown
+```go
 package core
 
 import "time"
@@ -219,7 +219,7 @@ type SecretStore interface {
 
 Go
 
-```markdown
+```go
 type VaultService struct {
     store SecretStore
     // We will add an Encryptor interface here later
@@ -238,7 +238,7 @@ Create `internal/core/service_test.go`.
 
 Go
 
-```markdown
+```go
 package core
 
 import (
@@ -372,7 +372,7 @@ Instead of asking "What libraries do I need?", ask these four questions in stric
 - **The Glue:** This is where the magic happens. You inject the interface into the struct.
 - **The Derivation:** "I need a `VaultService`. It cannot work without storage, so it holds a `SecretStore`."
 	Go
-	```markdown
+	```go
 	type VaultService struct {
 	    store SecretStore // The Interface, NOT the implementation
 	}
