@@ -1,31 +1,29 @@
 ---
-aliases: [ ]
-type: ""
-status: ""
+aliases: []
+type: input
+status: toProcess
 confidence: ""
 epistemic: ""
 purpose: ""
-modified: 2025-12-26T14:17:23+00:00
+modified: 2025-12-26T14:56:16+00:00
 last_reviewed: ""
 review_interval: ""
-see_also: [ ]
-source_of_truth: [ ]
-title: 💹 The Contribution Ledger
-source: "https://gemini.google.com/share/a06feefe2539"
+see_also: []
+source_of_truth: []
+title: 🏠 Household System Master List
+source: https://gemini.google.com/share/a06feefe2539
 author:
   - "[[Gemini]]"
 published:
 created: 2025-12-26T10:18:28+00:00
-description: "Created with Gemini"
+description: Created with Gemini
 tags:
-  - "clippings"
+  - clippings
 ---
 
 I need a comprehensive family chores list for our home. There are 3 daughters 10, 13, 15 and mum and dad. Each child has their own room. There are 2 bathrooms. A kitchen dinning room. Give me a suggested list in markdown format for obsidian. Use UK English terms
 
 This framework treats household maintenance as a **distributed system**. It prioritises logic-based delegation, ensuring that shared spaces (the "Core") are maintained collectively while personal spaces (the "Nodes") remain the responsibility of the individual.
-
-The following list is formatted for **Obsidian**, utilising checkboxes and a hierarchical structure for easy integration into your vault.
 
 ---
 
@@ -268,35 +266,40 @@ Copy this into a new note titled `Family Chore Framework.md`.
 
 Markdown
 
-```markdown
 # 🏠 Household System Master List
 
 ## 📅 Daily Maintenance
+
 - [ ] **Kitchen Reset:** (D10) Table cleared/wiped.
 - [ ] **Dishwasher Cycle:** (D13/D15/P) Load/Unload.
 - [ ] **Car Zero-Exit:** (All) No personal items or rubbish left in the vehicle.
 
 ## 🧼 Weekly Sprints (Saturday/Sunday)
+
 ### Bathrooms
+
 - [ ] **Sanitation A (Main):** (D13) Scrub loo, sink, and taps.
 - [ ] **Sanitation B (En-suite):** (D15) Scrub loo, shower, and taps.
 
 ### Cold Storage
+
 - [ ] **Fridge Audit:** (D15) Remove expired items and wipe shelves.
 - [ ] **Inventory Sync:** (Parents) Match fridge stock with the shopping list.
 
 ### Floors & Surfaces
+
 - [ ] **Vacuuming:** (D13/D15) Communal areas and stairs.
 - [ ] **Dusting:** (D10) Low-level furniture.
 
 ### Mobile Node (Car)
+
 - [ ] **Interior Valet:** (D13/D15) Vacuum mats and wipe dashboard/windows.
 
 ## ⚙️ Monthly Infrastructure
+
 - [ ] **Freezer Inventory:** (Parents) Check for frost and log contents.
 - [ ] **Vehicle Mechanics:** (Parents) Check oil, tyres, and screenwash.
 - [ ] **Filter Clean:** (Parents) Dishwasher and washing machine maintenance.
-```
 
 Would you like me to generate a **"Standard Operating Procedure" (SOP)** for the fridge cleaning to ensure the daughters use the correct food-safe cleaning agents?
 
@@ -364,13 +367,9 @@ This **Standard Operating Procedure (SOP)** is designed for the daughters to fol
 
 Add this block to your **Family Chore Framework** note. It ensures the children know when the task is officially "Complete."
 
-Markdown
-
-```markdown
 > [!ABSTRACT] Definition of Done (DoD)
 > **Fridge:** No visible spills, no expired items, and the drainage hole at the back is clear of ice/debris.
 > **Car:** No rubbish in door pockets, mats are grit-free, and windows are smear-free.
-```
 
 Would you like me to create a **"Consumables Inventory"** list for your Obsidian vault so you can track when cleaning supplies (Dettol, bin liners, etc.) need restocking?
 
@@ -521,12 +520,12 @@ Use this logic to quantify the "Leisure and Luxury" they receive.
 
 ## 🛠️ System Tasks (The "Inputs")
 
-| Task | Points | Assignee | Status |
-|:--- |:---: |:--- |:--- |
-| Bathroom Deep Clean | 5 | TBD | [] |
-| Fridge/Freezer Audit | 4 | TBD | [] |
-| Car Interior Valet | 5 | TBD | [] |
-| Kitchen Reset (Daily) | 1 | TBD | [] |
+| Task                  | Points | Assignee | Status |
+|:-------------------- |:----: |:------- |:----- |
+| Bathroom Deep Clean   |   5    | TBD      | []    |
+| Fridge/Freezer Audit  |   4    | TBD      | []    |
+| Car Interior Valet    |   5    | TBD      | []    |
+| Kitchen Reset (Daily) |   1    | TBD      | []    |
 
 ---
 
@@ -539,8 +538,6 @@ To implement this without a total "System Crash" (rebellion), hold a **Family Sy
 3. **The Choice:** "You can choose to do the work and enjoy the luxuries, or choose not to do the work and lose access to the luxuries. We will no longer argue about it; the list in Obsidian will track the status."
 
 **Would you like me to draft a "Parental Alignment Contract" that you and your wife can sign to ensure you both stick to the new protocol?**
-
-Yes
 
 This **Parental Alignment Contract** serves as a **Service Level Agreement (SLA)** between the two "System Administrators" (Mum and Dad). Its primary function is to prevent **System Bypass** (children exploiting inconsistency) and to eliminate **Technical Debt** (long-term behavioral issues caused by short-term conflict avoidance).
 
@@ -699,77 +696,6 @@ To avoid the usual friction, this is framed as a **Synchronized System Reset**: 
 
 ---
 
-## 🎄 Boxing Day System Reset: Operational Checklist
-
-### Phase 1: Waste Extraction (All Hands)
-
-*Logic: Clear the physical backlog to regain floor and surface space.*
-
-- [ ] **Packaging Consolidation:** All cardboard flattened and moved to the recycling bin/area.
-- [ ] **Rubbish Sweep:** All non-recyclable Christmas waste (crackers, broken balloons, wrapping scraps) into black bags.
-- [ ] **External Logistics:** (Dad/D15) Move all accumulated waste to external bins or the staging area for the tip.
-
-### Phase 2: Node Integration (The Daughters)
-
-*Logic: Transition new "Assets" (Gifts) from common areas to personal storage.*
-
-- [ ] **Asset Relocation:** Move all personal gifts from the lounge to your respective bedrooms.
-- [ ] **Inventory Consolidation:** For every 1 new item brought in, identify 1 old item to be "Deprecated" (donated or binned) to prevent clutter.
-- [ ] **Staging:** Ensure all new clothes are put away or placed in the laundry basket if they require washing.
-
-### Phase 3: The Core Restoration (Kitchen & Lounge)
-
-*Logic: Restore high-traffic zones to 100% functionality.*
-
-- [ ] **Kitchen Throughput (D13/D15):** - [] Empty dishwasher from morning cycle.
-	- [ ] Hand-wash oversized Christmas platters/roasting tins.
-	- [ ] Wipe down all worktops.
-- [ ] **Lounge Surface Reset (D10):**
-	- [ ] Plump sofa cushions.
-	- [ ] Clear coffee tables of all mugs and snack bowls.
-	- [ ] Neatly stack any remaining board games or shared gifts.
-- [ ] **Leftover Audit (Mum/Dad):**
-	- [ ] Review fridge contents; discard any perished items.
-	- [ ] Portion out remaining turkey/meats for freezing or upcoming meals.
-
-### Phase 4: Floor Defragmentation (Vacuum/Sweep)
-
-*Logic: Final removal of "Micro-debris" (pine needles, glitter, crumbs).*
-
-- [ ] **High-Traffic Vacuum:** (D15) Full hoover of the lounge and dining area.
-- [ ] **Secondary Sweep:** (D13) Hoover the hallway and stairs.
-
----
-
-## 📊 Boxing Day Deployment Matrix
-
-| Member | Sector | Key Objective |
-| --- | --- | --- |
-| **D10** | Lounge/Dining | Surface clearing and game organisation. |
-| **D13** | Kitchen/Stairs | Washing up and stair hoovering. |
-| **D15** | Lounge/Bins | Main hoovering and heavy waste extraction. |
-| **Mum/Dad** | Kitchen/Utility | Leftover management and system oversight. |
-
----
-
-## ⚖️ The "Boxing Day Protocol" (Conflict Mitigation)
-
-To prevent the "Optional" mindset and the "Bare Minimum" quality issue, apply the following logic today:
-
-1. **The "Sync" Rule:** No one is "finished" until the entire house meets the **Definition of Done**. If one person finishes early, they are assigned as "Support" to another node. This eliminates the "unfair workload" argument.
-2. **The Incentive (The "Reward Token"):** Boxing Day films, gaming, or leftover snacks are "Locked" until the **Audit** is passed.
-3. **The Audit Gate:** Dad or Mum performs a 5-minute walk-through. If "Micro-debris" or "Asset Overflow" (gifts on the floor) is found, the **Sprint** continues for another 15 minutes.
-
-> [!TIP] **Obsidian Tip:** Create a new note titled `Boxing Day Reset 2025`. Use the `[]` syntax. If you have a tablet or laptop, leave this open in the kitchen as a **Status Dashboard**. Seeing the progress visually often reduces the urge to argue.
-
-**Would you like me to create a "New Item Integration" list for the daughters to help them organise their bedrooms with their new Christmas gifts?**
-
-Yes
-
-This **New Item Integration (NII)** framework is designed to prevent "Clutter Creep" in the daughters' bedrooms. It operates on the principle of **Volume Neutrality**: for every new asset introduced to a room, the occupant must identify and remove an equivalent volume of old or redundant items.
-
----
-
 ## 📦 New Item Integration (NII) Protocol
 
 ## 1. The Audit (Input Processing)
@@ -896,8 +822,6 @@ To prevent future "dumps" of items, implement **Physical Zoning** in your Obsidi
 
 **Would you like me to create a "Storage Map" template for your Obsidian vault so you can clearly define which areas of the house are for 'Hot', 'Warm', and 'Cold' storage?**
 
-yes
-
 This **Storage Map Template** creates a logical partition of the home's physical capacity. It is designed to act as a "Building Regulation" for your home, preventing the misallocation of high-value space (like the utility cupboard) for low-utility items (like seasonal decorations).
 
 Copy the following into a new Obsidian note titled `[Property Name] Storage Architecture`.
@@ -955,6 +879,7 @@ Copy the following into a new Obsidian note titled `[Property Name] Storage Arch
 *Logic to be applied when new items enter the house or areas are rearranged.*
 
 1. **The Latency Check:** Ask: *"How often do we actually touch this?"*
+
 	- > 365 days? → **L3 (Loft/Bin)**
 	- Once a month? → **L2 (Secondary Cupboard)**
 	- Every day? → **L1 (Primary Surface)**

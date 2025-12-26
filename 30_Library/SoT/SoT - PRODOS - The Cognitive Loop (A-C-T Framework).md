@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-07T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-25T11:40:21+00:00
+modified: 2025-12-26T14:56:21+00:00
 purpose: "To define the standard operating procedure for converting amorphous thought into actionable outcomes using LLMs."
 review_interval: "3 months"
 see_also: ["[[ADHD", "and PKM Balance]]", "LLMs"]
@@ -26,7 +26,31 @@ The ADHD brain is drawn to the dopamine hit of *acquiring* information, often mi
 
 ---
 
-## 3. The Architecture: The Human-LLM-Human Sandwich
+## 3. The Bergson Architecture (Theoretical Framework)
+
+*Based on: "Think like a Man of Action, Act like a Man of Thought" (Henri Bergson).*
+
+We reject the dichotomy between strategy and execution, viewing them as a continuous **CI/CD Cycle**.
+
+### A. Thinking like a Man of Action (Compile-Time Optimisation)
+
+*Goal: Reduce latency between idea and execution.*
+
+- **The Interface Adapter:** Treat abstract ideals (e.g., "Justice", "Health") as *Interfaces*. You must write the **Implementation Class** (binary, concrete actions).
+- **The Compute Budget (TTL):** Apply a strict **Time-To-Live** to decision-making to prevent infinite analysis loops.
+- **The Sandbox (Unit Tests):** Use intellect to run "Unit Tests"—simulating specific execution paths and exception handling—rather than vague worrying.
+
+### B. Acting like a Man of Thought (Runtime Monitoring)
+
+*Goal: Maintain system stability during execution.*
+
+- **The Daemon Process:** Run a lightweight background thread during action to monitor internal state (tone, pacing, distraction) without blocking the main execution thread.
+- **The Control Loop (PID Controller):** Treat action as a closed-loop system. Constantly measure *Current State* vs. *Target State* and apply steering impulses in real-time.
+- **Signal-to-Noise Ratio:** Every output must change the system state. Remove all "bloat" (hesitation, qualifiers).
+
+---
+
+## 4. The Architecture: The Human-LLM-Human Sandwich
 
 The workflow strictly enforces the user's role as the **Director**, not the Consumer.
 
@@ -36,7 +60,7 @@ The workflow strictly enforces the user's role as the **Director**, not the Cons
 
 ---
 
-## 4. The Operational Workflow: The A-C-T Framework
+## 5. The Operational Workflow: The A-C-T Framework
 
 To bypass analysis paralysis, all "thinking" sessions must follow this three-phase loop.
 
@@ -72,7 +96,7 @@ If Phase A is stalled due to "Task Size Anxiety":
 
 ---
 
-## 5. Tactical Rules
+## 6. Tactical Rules
 
 ### Model Selection Strategy
 
@@ -87,7 +111,7 @@ If Phase A is stalled due to "Task Size Anxiety":
 
 ---
 
-## 6. Related Components
+## 7. Related Components
 
 - [[SoT - PRODOS (System Architecture)]]
 - [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-15T00:00:00Z
 epistemic: "Derived from GMB Fitness longevity protocols and functional movement principles."
 last_reviewed: "2025-12-15"
-modified: 2025-12-25T11:40:21+00:00
+modified: 2025-12-26T14:55:33+00:00
 purpose: "To define the canonical protocol for maintaining physical capability, pain-free movement, and longevity, treating the body as the primary hardware for the \\\\\\\"Extended Mind."
 review_interval: "6 months"
 see_also: ["[[Cognitive Health Practices for Technical Work]]", "[[Morning HIIT Boosts BDNF and Neuroplasticity]]", "[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Cognitive Physiology of Task Execution]]"]
@@ -76,6 +76,12 @@ For bodyweight training, structural integrity supersedes repetition count.
 - **Time Under Tension (TUT):** Slow, controlled tempo builds strength and connective tissue resilience.
 - **The Hollow Body:** The "Master Key" for all calisthenics. Ribs tucked, lower back flat, glutes engaged. This 360-degree core tension protects the spine and enables advanced levers.
 - **Active Mobility:** Train the nervous system to *control* end-range positions (e.g., Pike Push-ups) rather than passively stretching into them.
+
+### H. Tendon Resilience (Isometrics)
+
+- **Goal:** Strengthen connective tissue through "Time Under Tension" (TUT) and end-range loading.
+- **Protocol:** See **[[SoT - Protocol - Tendon Resilience (Isometrics)]]**.
+- **Key Insight:** Tendons adapt slower than muscles and require static holds (not reps) to trigger collagen remodeling.
 
 ---
 

@@ -44,24 +44,52 @@ Imagine your life is a ship at sea.
 
 ---
 
-## 3. Structural Tools (The Architecture)
+## 3. The 9-Point Consistency Framework (Tactical Architecture)
 
-Intentionality is not willpower; it is **Architecture**.
+*Source: [9 Ways to be Extraordinarily Consistent](http://www.youtube.com/watch?v=2D8UJ-WIBQE)*
 
-### A. The Minimum Viable Habit (MVH)
+Intentionality is not willpower; it is **Structural Design**.
+
+### 1. Define Intent & Logic (The Why)
+Document exactly *what* you want to achieve and *why*.
+- **Vivid Description:** Writing down goals is statistically linked to higher success rates.
+- **ProdOS:** Use the `SoT - ...` note to define the MVU (Minimum Viable Understanding).
+
+### 2. Establish Parameters (The Anchor)
+Define objectives with specific timeframes (e.g., "A 6-month training block").
+- **Function:** Provides a mental anchor to prevent abandonment during high-friction periods.
+
+### 3. Minimum Viable Habits (The Start)
 *Overcoming Activation Energy.*
-- **Concept:** Reduce the habit until it is too small to fail (e.g., 1 minute of meditation).
-- **Why:** The brain resists large changes. Small wins build momentum (Dopamine).
+- **Concept:** Reduce the entry barrier to a 'tiny' version (e.g., 1 sentence, 10 seconds).
+- **Why:** Ensures the habit survives low-motivation days.
 
-### B. Habit Stacking
+### 4. Habit Stacking (The Trigger)
 *Reducing Decision Fatigue.*
-- **Concept:** `After [Current Habit], I will [New Habit].`
-- **Mechanism:** Use an existing neural pathway (brushing teeth) as the trigger for a new one (flossing).
+- **Formula:** `After [Current Habit], I will [New Habit].`
+- **Mechanism:** Anchors new behaviors to established automated routines (e.g., Journal after Coffee).
 
-### C. The "Sacred No"
-*Protecting the Yes.*
-- **Concept:** To be truly intentional about your "Big Rocks" (Key Priorities), you must be a "Sacred No" to everything else during that block.
-- **Application:** Use the **"Now" Toggle** in ProdOS (Focus Mode) to enforce this.
+### 5. Scheduling (The Commitment)
+Formally book the activity in a diary/calendar.
+- **Function:** Assigning specific days creates a mental commitment, even if rigid time-blocking isn't used.
+
+### 6. Gamification (The Reward)
+Utilize visual tracking (e.g., "The Purple Line").
+- **Mechanism:** The psychological drive to maintain an 'unbroken chain' provides a non-monetary dopamine reward.
+
+### 7. Friction Reduction (The Path of Least Resistance)
+Pre-prepare the environment to make the 'right' choice the easiest one.
+- **Example:** Laying out running gear the night before.
+- **ProdOS:** The "Night Before" protocol in the Daily Note.
+
+### 8. Identity Integration (The Core)
+Shift from *doing* to *being*.
+- **Concept:** "I am a runner," not "I am running."
+- **See:** **[[SoT - Identity-Based Habit Formation]]** for the deep protocol.
+
+### 9. External Accountability (The Pressure)
+Leverage social pressure or personal pride.
+- **Action:** Announce goals to others to create a secondary layer of motivation when internal drive fails.
 
 ---
 
@@ -80,6 +108,11 @@ Intentionality is not willpower; it is **Architecture**.
 *Breaking Autopilot.*
 - **Protocol:** Before opening a browser tab or checking a phone, insert a 3-second pause to state the **Intention**.
 - **The Question:** "What am I hiring this tool to do right now?"
+
+### C. The "Sacred No"
+*Protecting the Yes.*
+- **Concept:** To be truly intentional about your "Big Rocks" (Key Priorities), you must be a "Sacred No" to everything else during that block.
+- **Application:** Use the **"Now" Toggle** in ProdOS (Focus Mode) to enforce this.
 
 ---
 
