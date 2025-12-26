@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-02-15T07:24:57Z
 epistemic: architecture
 last_reviewed: 2025-12-22
-modified: 2025-12-25T11:40:23+00:00
+modified: 2025-12-26T18:50:12+00:00
 purpose: The central index for cultivating Data-Centric Software Engineering skills and methodology.
 review_interval: 6 months
 see_also: ["[[SoT - Data-Centric Software Engineering]]"]
@@ -30,23 +30,26 @@ updated:
 
 A structured path to developing the "Data-First" mindset.
 
-- **[[Deepen Your Understanding of Data Structures and Algorithms]]**—*Moving beyond memorization to trade-off analysis (Time vs. Space complexity).*
-- **[[Practice Data Modelling]]**—*Mapping reality to Entity-Relationship diagrams before writing code.*
-- **[[Language-Agnostic Thinking]]**—*Solving problems in pseudocode to decouple logic from implementation syntax.*
-- **[[Continuous Learning and Practice]]**—*Studying open-source architectures (Redis, SQLite) to see data-centricity in action.*
+*See **[[SoT - Data-Centric Software Engineering#2. The Core Curriculum|The Core Curriculum]]** for detailed study paths.*
+
+- **Deepen Understanding:** Moving beyond memorization to trade-off analysis (Time vs. Space complexity).
+- **Data Modelling:** Mapping reality to Entity-Relationship diagrams before writing code.
+- **Language-Agnostic Thinking:** Solving problems in pseudocode to decouple logic from implementation syntax.
+- **Continuous Learning:** Studying open-source architectures (Redis, SQLite) to see data-centricity in action.
 
 ---
 
-## 2. Applied Data-Centricity (Infrastructure)
+## 2. Applied Data-Centricity (The Stack)
 
-Applying these principles to Infrastructure as Code (IaC).
+Applying these principles beyond code to the entire engineering stack.
 
-- **[[SoT - Data-Centric Infrastructure (Terraform)]]**—*A deep dive into treating Terraform configuration as a Data Schema (Maps/Lists) rather than a script.*
-- **[[SoT - The Data Architecture of Source Control (Git)]]**—*Understanding version control as a Merkle DAG.*
+- **Infrastructure:** [[SoT - Data-Centric Infrastructure (Terraform)]]—*Treating configuration as a Data Schema.*
+- **Identity:** [[SoT - Data-Centric IAM in Zero Trust]]—*AuthZ as a data-processing operation.*
+- **Networking:** [[SoT - The Data-Centric Theory of Networking]]—*Routing as state transport.*
+- **Source Control:** [[SoT - The Data Architecture of Source Control (Git)]]—*Version control as a Merkle DAG.*
 
 ---
 
 ## 3. Related Domains
 
-- **[[MOC - Data-Centric Networking]]**—*Applying data structures to the movement of packets.*
 - **[[MOC - Interpretation of References]]**—*How symbols (Code) map to reality (Memory).*

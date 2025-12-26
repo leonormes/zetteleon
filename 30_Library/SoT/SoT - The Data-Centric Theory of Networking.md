@@ -62,3 +62,22 @@ By pointing DNS records to a Load Balancer instead of a host, you achieve:
 - **Zero-Downtime Maintenance:** Removing nodes from the pool for updates.
 - **Geographic Optimization (GeoDNS):** Returning different IPs based on user location to minimize latency.
 - **Security Isolation:** Terminating TLS at the edge and protecting backend hosts from direct internet exposure.
+
+---
+
+## 5. Case Study: Kubernetes DNS Resolution
+
+In Kubernetes, "Networking" is simply the propagation of configuration state through three layers of abstraction.
+
+### A. The Configuration Chain
+1.  **The Pod (Source of Truth):** The Pod spec defines the `dnsPolicy`.
+2.  **The Container (Runtime):** Kubernetes injects a `/etc/resolv.conf` file based on the Pod's spec.
+3.  **The Process (Consumer):** The application reads `/etc/resolv.conf` to find the Nameserver IP (CoreDNS).
+
+### B. The Resolution Logic
+The application does not "know" networking. It strictly follows the data path:
+1.  **Query:** `curl relay`
+2.  **Expansion:** Application appends search domains from `resolv.conf` (e.g., `relay.default.svc.cluster.local`).
+3.  **Lookup:** Sends query to the Nameserver IP defined in `resolv.conf`.
+
+This demonstrates that "resolution" is not a magic network property, but a file-read operation followed by a structured query.

@@ -4,7 +4,7 @@ confidence: null
 created: 2025-10-24T14:25:58Z
 epistemic: null
 last_reviewed: null
-modified: 2025-12-25T11:40:46+00:00
+modified: 2025-12-26T16:19:14+00:00
 purpose: null
 review_interval: null
 see_also: []
@@ -28,7 +28,6 @@ This Map of Content (MOC) serves as the top-level entry point for all networking
 - [[MOC - OSI Model]]
 - [[SoT - Protocol Data Units (PDU)]]
 - [[SoT - Encapsulation & De-encapsulation]]
-- [[OSI Data Link Layer vs TCP/IP Link Layer]]
 - [[Physical Layer]]
 
 ### IP Addressing and Routing

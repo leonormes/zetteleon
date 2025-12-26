@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-26T15:00:00Z
 epistemic: "Technical/Mechanical"
 last_reviewed: "2025-12-26"
-modified: 2025-12-26T10:27:28+00:00
+modified: 2025-12-26T16:43:40+00:00
 purpose: "Defining the fundamental unit of LLM processing: the Token. Covers architectural trade-offs, encoding/decoding, and economic implications."
 review_interval: "6 months"
 see_also: ["[[MOC - LLM-Augmented Thinking]]", "[[SoT - ProdOS Cognitive Architecture (Obsidian + Gemini)]]"]

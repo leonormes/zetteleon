@@ -7,7 +7,7 @@ last_reviewed: "2025-12-23"
 modified: 2025-12-25T18:34:55Z
 purpose: "To provide the canonical architectural reference for the FITFILE Platform deployment, including GitOps flow, security model, and component architecture."
 review_interval: "6 months"
-see_also: ["[[MOC - FitFile Deployment]]", "[[SOT - CI-CD Pipelines]]", "[[SoT - FITFILE Secret Management Architecture]]"]
+see_also: ["[[MOC - FitFile Deployment]]", "[[SOT - CI-CD Pipelines]]", "[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - FitFile Deployment - Helm Configuration & Operations]]"]
 source_of_truth: []
 status: "stable"
 tags: ["architecture", "deployment", "fitfile", "gitops", "kubernetes"]

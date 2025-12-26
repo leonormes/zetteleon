@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-26T00:00:00Z
 epistemic: "Derived from GMB Fitness/Ryan Hurst protocols for isometric tendon conditioning."
 last_reviewed: "2025-12-26"
-modified: 2025-12-26T14:55:44+00:00
+modified: 2025-12-26T16:43:24+00:00
 purpose: "A specific protocol for strengthening tendons through concept density and time under tension."
 review_interval: "1 year"
 see_also: ["[[SoT - Physical Health and Vitality]]", "[[SoT - Protocol - Daily Mobility Foundation]]"]

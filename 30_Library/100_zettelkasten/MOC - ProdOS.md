@@ -16,7 +16,6 @@ source_of_truth: []
 status: stable
 tags:
   - architecture
-  - index
   - prodos
 title: MOC - ProdOS
 type: map

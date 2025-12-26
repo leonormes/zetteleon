@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-26T15:08:39+00:00
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-26T15:31:19+00:00
+modified: 2025-12-26T16:20:11+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -227,15 +227,15 @@ Based on the structural logic of Clause 14 (Restrictive Covenants), the post-ter
 
 This layer protects the Company's internal structure and human capital. For **12 months** following your Termination Date, you are prohibited from:
 
-- **Poaching Talent:** Inducing, soliciting, or enticing away any "Critical Person" (senior/technical staff you worked with or managed in your final 12 months)1111111111111111.
-- **Disrupting Relations:** Providing competitive employment information to employees or disrupting the Company's relationship with its workforce2222.
+- **Poaching Talent:** Inducing, soliciting, or enticing away any "Critical Person" (senior/technical staff you worked with or managed in your final 12 months).
+- **Disrupting Relations:** Providing competitive employment information to employees or disrupting the Company's relationship with its workforce.
 
 ### II. 6-Month Restrictions (Commercial Protection)
 
 This layer protects market share and client relationships. For **6 months** following your Termination Date, you are prohibited from:
 
-- **Client Solicitation:** Soliciting business from, or supplying products/services to, any "Relevant Customer" (clients you dealt with or held confidential info on in your final 12 months)3333333333333333.
-- **Supplier Interference:** Attempting to cause a "Relevant Supplier" to reduce supplies or alter terms to the Company's detriment4444.
+- **Client Solicitation:** Soliciting business from, or supplying products/services to, any "Relevant Customer" (clients you dealt with or held confidential info on in your final 12 months).
+- **Supplier Interference:** Attempting to cause a "Relevant Supplier" to reduce supplies or alter terms to the Company's detriment.
 - **Competitor Engagement:** Being employed by or providing advice to any "Restricted Company"5.
     - _Note:_ "Restricted Company" is a defined variable in the contract including specific entities (e.g., IQVIA, Flatiron Health, Syneos) and businesses competing directly with parts of the Group you were engaged with6666.
 
@@ -246,6 +246,6 @@ This layer protects market share and client relationships. For **6 months** foll
 ### IV. Indefinite Restrictions
 
 - **Brand Protection:** You must not use the Company’s name, similar signs, or represent yourself as connected with the Group8.
-- **Confidentiality:** You generally cannot disclose or use Confidential Information (trade secrets, client lists, technical data) indefinitely9999.
+- **Confidentiality:** You generally cannot disclose or use Confidential Information (trade secrets, client lists, technical data) indefinitely.
 
 **Next Step:** Would you like me to extract the full list of named entities defined as "Restricted Companies" to clarify the scope of the non-compete clause?

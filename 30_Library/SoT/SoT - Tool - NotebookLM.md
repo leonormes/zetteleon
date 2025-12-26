@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-26T00:00:00Z
 epistemic: "Based on 2025 feature updates (Gemini 3, Deep Research, Studio)."
 last_reviewed: "2025-12-26"
-modified: 2025-12-26T00:00:00Z
+modified: 2025-12-26T16:43:21+00:00
 purpose: "Canonical documentation for NotebookLM as a grounded research and synthesis engine."
 review_interval: "6 months"
 see_also: ["[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]", "[[SoT - ProdOS Cognitive Architecture (Obsidian + Gemini)]]"]
@@ -33,30 +33,32 @@ updated:
 
 The "Studio" panel transforms raw data into structured assets:
 
-1.  **Audio Overviews (Podcasts):** Generates conversational audio between two AI hosts.
-    -   *Use Case:* "Listen to your reading list" during commute.
-    -   *Controls:* Customisable personas (Expert vs. Beginner).
-2.  **Deep Research:** Autonomous web agents that verify facts and generate cited reports, bypassing manual Google Search.
-3.  **Visual Assets:** Auto-generates Slide Decks, Flashcards, and Mind Maps from source text.
+1. **Audio Overviews (Podcasts):** Generates conversational audio between two AI hosts.
+    - *Use Case:* "Listen to your reading list" during commute.
+    - *Controls:* Customisable personas (Expert vs. Beginner).
+2. **Deep Research:** Autonomous web agents that verify facts and generate cited reports, bypassing manual Google Search.
+3. **Visual Assets:** Auto-generates Slide Decks, Flashcards, and Mind Maps from source text.
 
 ## 3. ProdOS Integration Strategy
 
 NotebookLM functions as a **Phase T (Thinking)** accelerator in the [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)|Cognitive Loop]].
 
 ### A. The "Ingestion Engine" (Pattern Recognition)
+
 *Problem:* You have 50 PDFs on a topic (e.g., "Kubernetes Networking"). You cannot read them all.
 *Protocol:*
-1.  Create a Notebook: "Kubernetes Networking".
-2.  Upload all 50 PDFs.
-3.  **Prompt:** "Synthesize the 3 conflicting approaches to Ingress Controllers found in these documents."
-4.  **Output:** A grounded summary to paste into a HEAD note.
+1. Create a Notebook: "Kubernetes Networking".
+2. Upload all 50 PDFs.
+3. **Prompt:** "Synthesize the 3 conflicting approaches to Ingress Controllers found in these documents."
+4. **Output:** A grounded summary to paste into a HEAD note.
 
 ### B. The "Podcast" Hack (Passive Absorption)
+
 *Problem:* Low executive function prevents reading long SoT notes.
 *Protocol:*
-1.  Upload your own `SoT - ...` notes to a Notebook.
-2.  Generate an **Audio Overview**.
-3.  **Action:** Listen to *your own system* explaining itself to you while walking.
+1. Upload your own `SoT -...` notes to a Notebook.
+2. Generate an **Audio Overview**.
+3. **Action:** Listen to *your own system* explaining itself to you while walking.
 
 ## 4. Workflows
 

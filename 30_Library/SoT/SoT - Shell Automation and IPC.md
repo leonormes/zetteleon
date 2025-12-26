@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-26T13:00:00Z
 epistemic: "Verified Patterns"
 last_reviewed: "2025-12-26"
-modified: 2025-12-26T13:00:00Z
+modified: 2025-12-26T16:43:47+00:00
 purpose: "To define the patterns and tools for implementing event-driven logic within a terminal environment."
 review_interval: "6 months"
 see_also: ["[[SoT - Bash Scripting]]", "[[SoT - Process Execution (Kernel Logic)]]"]
@@ -25,6 +25,7 @@ updated:
 ## 2. Working Knowledge (Stable Foundation)
 
 ### The Event-Handler Model
+
 The core logic relies on defining an **Event** (asynchronous state change) and a **Handler** (callback function).
 
 | Pattern | Mechanism | Tooling | Use Case |
@@ -37,10 +38,12 @@ The core logic relies on defining an **Event** (asynchronous state change) and a
 ## 3. Current Understanding (Coherent Narrative)
 
 ### Deep Dive: Signal Processing (`trap`)
+
 The `trap` builtin allows a script to register an event listener for OS signals.
 
 - **The Transmitter:** `kill -USR1 <PID>` is not just for termination; it is a generic signal transmitter.
 - **The Receiver:**
+
   ```bash
   # Define a handler function
   handle_event() {
@@ -56,10 +59,11 @@ The `trap` builtin allows a script to register an event listener for OS signals.
   ```
 
 ### Hierarchy of Automation
-1.  **Ad-hoc (Manual):** Use `entr` for temporary dev loops.
-    *   `ls *.py | entr -c python main.py`
-2.  **Scripted (Internal):** Use `trap` for robust internal tool logic (cleanup, reloads).
-3.  **Production (Daemon):** Use `systemd` or `supervisord` for persistent event listeners.
+
+1. **Ad-hoc (Manual):** Use `entr` for temporary dev loops.
+    * `ls *.py | entr -c python main.py`
+2. **Scripted (Internal):** Use `trap` for robust internal tool logic (cleanup, reloads).
+3. **Production (Daemon):** Use `systemd` or `supervisord` for persistent event listeners.
 
 ## 4. Minimum Viable Understanding (MVU)
 

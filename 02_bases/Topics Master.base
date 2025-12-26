@@ -101,3 +101,25 @@ views:
     columnSize:
       file.name: 400
       note.tags: 300
+  - type: table
+    name: "Topic: Data-Centric Coding"
+    filters:
+      or:
+        - file.tags.contains("data-centric")
+        - file.tags.contains("data_structure")
+        - file.tags.contains("type_theory")
+        - file.tags.contains("functional_programming")
+        - file.tags.contains("software_design")
+        - file.tags.contains("rust")
+        - file.tags.contains("haskell")
+    order:
+      - file.name
+      - type
+      - status
+      - tags
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 400
+      note.tags: 300
