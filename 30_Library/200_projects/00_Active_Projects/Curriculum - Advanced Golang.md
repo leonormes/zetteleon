@@ -1,89 +1,107 @@
 ---
-aliases: []
-benchmark_source: "Official Go Docs, 'The Go Programming Language'"
+aliases: ["Go for DevOps", "Golang Learning Path", "Node to Go Transition"]
+benchmark_source: "Official Go Docs, 'The Go Programming Language', Kubebuilder"
 confidence: ""
 created: 2025-12-24T17:16:29Z
-epistemic: ""
-last_reviewed: ""
-modified: 2025-12-25T18:35:16Z
-purpose: ""
+epistemic: "Synthesized from Node.js -> Go transition patterns and Cloud Native architectural requirements."
+last_reviewed: "2025-12-26"
+modified: 2025-12-26T00:00:00Z
+purpose: "A project-driven curriculum to transition from Node.js/TS to Cloud Native Go."
 related_project: "[[Project - Concurrent TCP Log Ingestor]]"
-review_interval: ""
-see_also: []
+review_interval: "3 months"
+see_also: ["[[SoT - Tool - NotebookLM]]"]
 source_of_truth: []
 status: Active
-tags: ["backend", "curriculum", "golang", "skill_acquisition"]
+tags: ["backend", "curriculum", "golang", "skill_acquisition", "devops"]
 title: Curriculum - Advanced Golang
 type: Curriculum
 uid: 
 updated: 
-version: 1.1
+version: 2.0
 ---
 
-## Curriculum: Advanced Golang (Node Dev Perspective)
+## Curriculum: Go for Cloud Native DevOps
 
 > [!mission] The Philosophy
-> **Directness:** We do not study topics; we build projects.
-> **The Goal:** To transition from "Async/Await" thinking to "CSP/Channels" thinking.
-
-### 1. The Challenge (Directness)
-
-**The Capstone Project:**
-
-> *Build a High-Throughput Concurrent TCP Log Ingestor.*
-
-- [ ] **Build:** A service that accepts raw log lines via TCP, buffers them, parses them concurrently, and writes batches to a file/DB.
-
-**Definition of Done:**
-- [ ] Server handles 10k concurrent connections without leaking goroutines.
-- [ ] Graceful shutdown (SIGTERM) drains all active channels before exiting.
-- [ ] Race detector (`go run -race`) reports zero issues.
+> **Identity Shift:** You are not learning "Syntax"; you are re-aligning your mental model from **Event Loops (Node)** to **Scheduler/CSP (Go)**.
+> **Methodology:** "Think like a Man of Action." We build 3 specific tools to master 3 specific architectural domains.
 
 ---
 
-### 2. Metalearning Decomposition (The Map)
+## 1. The Mental Shift (Node.js -> Go)
 
-> *Linked Drills must be actionable.*
-
-| Category | Key Items (The Syllabus) | Linked Drill (The Action) |
-|:--- |:--- |:--- |
-| **Concepts** | **Concurrency (CSP):** Sharing memory by communicating. | *Drill:* Refactor a shared `map` using a `Mutex`, then refactor it again using a `Monitor Goroutine` (Channel). Measure the difference. |
-| | **Interfaces:** Structural Typing. | *Drill:* Create a `Logger` interface. Implement it with `FileLogger` and `ConsoleLogger`. Swap them at runtime. |
-| **Facts** | **Syntax:** `defer`, `panic`, `recover`. | *Drill:* Create a function that panics. Wrap it in a middleware that recovers and logs the stack trace. |
-| | **Allocation:** `make` vs `new`. | *Drill:* Write a snippet that crashes by assigning to a `nil` map. Fix it using `make`. |
-| **Procedures** | **Debugging:** Race Detection. | *Drill:* Intentionally write a race condition (2 goroutines incrementing an int). Run `go run -race` to catch it. |
-| | **Profiling:** `pprof`. | *Drill:* Generate a CPU profile of the Ingestor under load (using `wrk` or `hey`). |
+| Concept | Node/TS Mental Model | Go Mental Model | The Shift |
+|:--- |:--- |:--- |:--- |
+| **Concurrency** | **Async/Await** (Single Thread). Fear blocking the main thread. | **Goroutines/CSP** (M:N Scheduler). Blocking is fine; the scheduler handles it. Share memory by communicating (Channels). |
+| **Types** | **Structural** (Shapes, Unions `A \| B`). | **Interfaces** (Behavior). Implicit Duck Typing. No `implements` keyword. |
+| **Errors** | **Exceptions** (`try/catch`). Bubbling. | **Values** (`if err != nil`). Explicit handling at point-of-failure. |
+| **Architecture** | **Layer-First** (DB -> Controller). | **Domain-First** (Struct -> Interface). Hexagonal/Ports & Adapters. |
 
 ---
 
-### 3. The Timebox Menu (The Implementation)
+## 2. The Project Ladder (Execution)
 
-> [!warning] Action Required
-> Select one item below and assign it a **50-minute Timebox** on your Calendar.
+### Level 1: The CLI (The Syntax Shift)
+**Project A: "DevOps Swiss Army Knife"**
+*Goal:* Replace a Bash/Node script (e.g., Log Parser, S3 Cleaner) with a binary.
+*Focus:* Structs, Interfaces, `os/exec`, `flag`.
 
-| Drill Name / Activity | Est. Pomodoros | Definition of Done (Output) |
-|:--- |:--- |:--- |
-| **Setup & Hello World** | 1 (25m) | *Go installed, VSCode configured, "Hello" prints.* |
-| **The TCP Listener Drill** | 2 (50m) | *Server accepts telnet connection and echoes text back.* |
-| **The Race Condition Lab** | 1 (25m) | *Race detector flags the error, then passes after Mutex fix.* |
-| **Worker Pool V1** | 2 (50m) | *5 workers process 100 jobs from a channel.* |
-| **Graceful Shutdown Impl** | 2 (50m) | *Server catches Ctrl+C and prints "Draining..." before exit.* |
+| Drill / Timebox (50m) | Definition of Done (Output) |
+|:--- |:--- |
+| **Setup & Hello World** | Go installed, `go.mod` init, VSCode configured. |
+| **The Flag Parser** | CLI accepts flags (`--file`, `--dry-run`) using the `flag` stdlib. |
+| **The Interface Drill** | Create a `Reader` interface. Implement `FileReader` and `StdinReader`. Swap them. |
+| **The Executioner** | Use `os/exec` to run a system command (e.g., `grep`) and capture stdout. |
+
+### Level 2: The Service (The Concurrency Shift)
+**Project B: "Resilient Microservice / TCP Ingestor"**
+*Goal:* A long-running service that manages goroutine lifecycles and timeouts.
+*Focus:* Goroutines, Channels, `context.Context`, `net/http` or `net`.
+
+| Drill / Timebox (50m) | Definition of Done (Output) |
+|:--- |:--- |
+| **The TCP Listener** | Server accepts telnet connection and echoes text back. |
+| **The Context Lab** | Create a handler that sleeps for 5s. Cancel the request from client. Handler must stop work immediately. |
+| **The Race Lab** | Write a race condition (shared map). Fix it with `sync.Mutex`. Fix it again with Channels. |
+| **The Worker Pool** | 5 workers process 100 jobs from a buffered channel. Graceful shutdown on SIGTERM. |
+
+### Level 3: The Operator (The Architecture Shift)
+**Project C: "Kubernetes Custom Controller"**
+*Goal:* A controller that watches a CRD and reconciles state.
+*Focus:* Level-Triggered Logic, Kubebuilder, Eventual Consistency.
+
+| Drill / Timebox (50m) | Definition of Done (Output) |
+|:--- |:--- |
+| **The Reconciliation Loop** | Watch a video on "Level-Triggered Logic". Draw the `Observe -> Compare -> Act` loop. |
+| **The Scaffold** | Use `kubebuilder` to generate a project structure. Explore `api/` and `internal/controller/`. |
+| **The CRD Def** | Define a `Database` struct in Go. Generate the YAML CRD. Apply it to a Kind cluster. |
+
+### Level 4: The Architect (Domain-First Design)
+**Project D: "Mini-Vault" (The Hexagonal Challenge)**
+*Goal:* Build a secure Key-Value store using TDD and "Core-Out" design.
+*Focus:* Dependency Inversion, TDD, Encryption.
+
+| Drill / Timebox (50m) | Definition of Done (Output) |
+|:--- |:--- |
+| **The Domain Core** | Define `Secret` struct and `SecretStore` interface. No imports allowed. |
+| **The Mock Test** | Write a `MockStore`. Write a TDD test for `VaultService` that passes. |
+| **The Adapter** | Implement `FileStore` or `K8sStore` that satisfies the interface. |
 
 ---
 
-### 4. Failure Mode Protocols (ADHD Support)
+## 3. Failure Mode Protocols (ADHD Support)
 
 > *If I get stuck on the Hard Problem, I will switch to these Diffuse Mode activities:*
 
-- **Stuck on Channels?** -> Switch to: *Typing out the "Tour of Go" syntax examples for 10 mins.*
-- **Stuck on Pointers?** -> Switch to: *Drawing the memory layout (Stack vs Heap) on paper.*
-- **Too Tired?** -> Switch to: *Configuring `golangci-lint` or vim keybindings.*
+- **Stuck on Architecture?** -> Switch to: *Drawing the "Nouns" (Structs) and "Verbs" (Interfaces) on paper.*
+- **Stuck on Concurrency?** -> Switch to: *The "Race Condition Lab" drill. Break things intentionally.*
+- **Stuck on Syntax?** -> Switch to: *Typing out "Tour of Go" examples physically (Muscle Memory).*
+- **Overwhelmed?** -> Switch to: *Configuring `golangci-lint` or reading `go.mod` docs.*
 
 ---
 
-### 5. Synthesis Queue & Feedback
+## 4. Synthesis & Resources
 
-> [!quote] Feynman Exit
-> Raw insights go here.
-
-**Confidence Score:** `1 - 5`
+- **Book:** "The Go Programming Language" (Donovan/Kernighan) - *Chapters 1, 8, 9.*
+- **Video:** [Master of Resources: Building Kubernetes Operators in Go](https://www.youtube.com/watch?v=uJlGa3ygiBI)
+- **Pattern:** **Hexagonal Architecture** (Ports & Adapters).
