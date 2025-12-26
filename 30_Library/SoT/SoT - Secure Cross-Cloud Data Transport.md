@@ -93,3 +93,33 @@ The logic of secure transport is derived from the data structure of the tunnel a
 ### Performance Optimization: Protocol Selection
 
 - For high-throughput "Job Results" (Bulk Data), prefer **UDP-based tunneling** (like WireGuard) to avoid TCP-over-TCP meltdown, or use dedicated **Cloud Interconnects** (Direct Connect / ExpressRoute) to bypass the public internet entirely.
+
+---
+
+## 6. The Strategic Argument: Why HTTPS is Insufficient
+
+*Source: [[99_Archive/Why HTTPS is not good enough|Analysis of Public vs Private Networking]]*
+
+A common architectural fallacy is believing that HTTPS (Encryption) negates the need for Private Networking (Isolation). This conflates **Message Security** with **Endpoint Security**.
+
+### A. The Core Analogy: The Armored Car vs. The Tunnel
+
+- **HTTPS (Public Internet):** Sending an armored car full of cash through busy public streets. The contents are safe, but the vehicle can be followed, mapped, and attacked (DDoS). The *Address* is public.
+- **Private Connection (VPN/ExpressRoute):** Building a secret underground tunnel between two bank vaults. The armored car drives through it, but the tunnel itself is invisible to the world. The *Address* is private.
+
+### B. The Four Risks of Public Endpoints
+
+1.  **Attack Surface (Reconnaissance):** A public IP announces your existence. Scanners will fingerprint your OS, Web Server, and TLS versions instantly. A private network is invisible.
+2.  **Endpoint Integrity:** HTTPS protects the *data*, not the *server*. It does not stop an attacker from exploiting an OS vulnerability (Heartbleed) or overwhelming the server (DDoS).
+3.  **Broken "Least Privilege":** Exposing a service changes the default from "Deny All" to "Allow All (who have a key)." This is a weaker posture than "Network Unreachable."
+4.  **Audit Fragility:** "We use a private tunnel" is a stronger compliance narrative than "We use a public endpoint with a firewall whitelist."
+
+---
+
+## 7. Compliance & Regulatory Alignment
+
+For sensitive data (e.g., Patient Records), the **NHS Digital** and **NCSC** frameworks mandate a defense-in-depth approach.
+
+- **NCSC Principle 1 (Data in Transit):** Requires both Encryption (HTTPS) *and* Network-Level Protection (VPN/Private Link).
+- **NCSC Principle 11 (External Interface Protection):** Mandates defending external interfaces. The most effective defense is to *have no external interface* by using private peering.
+- **GDPR Article 32:** Mandates "Security by Design." Network segmentation and isolation are fundamental to limiting the blast radius of a potential breach.

@@ -1,25 +1,71 @@
 ---
-aliases: []
-confidence: ""
+aliases: ["Computer Architecture", "CPU I/O", "Hardware Communication"]
+confidence: "5/5"
 created: 2025-12-13T00:00:00Z
-epistemic: ""
-last_reviewed: ""
-modified: 2025-12-25T11:40:20+00:00
-purpose: ""
+epistemic: "Technical/Architectural"
+last_reviewed: "2025-12-26"
+modified: 2025-12-26T10:08:11+00:00
+purpose: "Defining the functional components of a computer and the communication protocols between the CPU and hardware."
 review_interval: "3 months"
-see_also: []
-source_of_truth: []
+see_also: ["[[SoT - Process Execution (Kernel Logic)]]"]
+source_of_truth: ["[[CPU IO Management and Communication]]"]
 status: "stable"
-tags: []
+tags: ["hardware", "cpu", "computer-science", "architecture"]
 title: SoT - The Functional Anatomy of a Computer
 type: "SoT"
 uid: 
 updated: 
 ---
 
-When a user presses a key, the computer does not receive a letter (e.g., "A"). It receives a coordinate. The translation from **Physical Action** to **Digital Symbol** happens in distinct layers: ""
+## 1. Definitive Statement
 
-1. **Hardware (Scancode): "** The keyboard firmware generates a `Scancode` based on the key's physical location on the matrix (e.g., Row 2, Column 3). It knows *where* you pressed, not *what* you pressed."
-2. **Driver/OS (Keycode): "** The OS receives the Scancode and maps it to a standardized `Keycode` (e.g., \"Key 0x04\"). This is still abstract."
-3. **Layout Software (Symbol): "** The OS applies a \"Locale/Layout\" (e.g., QWERTY, Dvorak) to map the `Keycode` to a final `Symbol` or `Action`."
-- *Implication: "* Remapping can happen at the **Firmware Level** (sending a different Scancode, e.g., via QMK on an Atreus) or at the **OS Level** (interpreting the Keycode differently)."
+> [!definition] Definition
+> A computer is a functional system that implements the **IPOS Model** (Input, Processing, Output, Storage). Its architecture is designed to decouple high-speed computation (CPU) from low-speed physical interaction (I/O) via delegation, abstraction, and standardized communication protocols.
+
+## 2. Working Knowledge (Stable Foundation)
+
+### The Principle of Delegation
+
+The CPU does not manage hardware directly. It delegates low-level mechanics (e.g., spinning a disk, scanning a keyboard matrix) to **Device Controllers**.
+
+- **CPU Role:** Orchestration and high-level logic.
+- **Controller Role:** Micro-management of physical signals.
+
+### Communication Frameworks
+
+The CPU "talks" to these controllers using two primary methods:
+
+1. **Memory Mapped I/O (MMIO):** Device registers are mapped into the main RAM address space. The CPU uses standard memory instructions (`load`/`store`) to interact with hardware.
+2. **Isolated I/O (Port-Mapped):** Uses a dedicated bus and specialized instructions (e.g., `IN`, `OUT`) separate from the memory bus.
+
+## 3. Current Understanding (Coherent Narrative)
+
+### Data Synchronization: Polling vs. Interrupts
+
+Managing the speed disparity between the fast CPU and slow peripherals:
+
+- **Polling:** The CPU repeatedly checks a status register. High overhead; "busy-waiting."
+- **Interrupts:** The device sends a signal to the CPU when it needs attention. Allows the CPU to focus on other tasks until a physical event occurs.
+
+### System Topology Evolution
+
+- **Legacy (Bridge Architecture):** Used a **Northbridge** (high-speed: RAM, GPU) and **Southbridge** (low-speed: USB, SATA). The "Front Side Bus" was a common bottleneck.
+- **Modern (Integrated/SoC):** The memory controller and I/O hubs are integrated directly into the CPU die (System-on-Chip), drastically reducing latency.
+
+### The Abstraction Layer
+
+- **Physical Buses:** Standardized links like **PCI Express (PCIe)** and **USB** provide the "pipes."
+- **Device Drivers:** Software translators that convert generic OS requests into the specific register-level commands required by the hardware.
+
+## 4. Example: The Keyboard Input Path
+
+When you press a key, the translation from **Physical Action** to **Digital Symbol** involves:
+
+1. **Hardware (Scancode):** Keyboard controller generates a `Scancode` based on matrix coordinates.
+2. **Driver (Keycode):** The OS receives the Scancode via an **Interrupt** and maps it to a `Keycode`.
+3. **Layout (Symbol):** Layout software (e.g., QWERTY) maps the Keycode to a final `Symbol`.
+
+## 5. Minimum Viable Understanding (MVU)
+
+> [!check] The Core Logic
+> **Hardware is an abstraction.** The CPU treats a complex device like a keyboard or disk as a set of memory addresses (MMIO) or ports, relying on dedicated controllers and interrupts to handle the messy reality of the physical world.

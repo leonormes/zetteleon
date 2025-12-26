@@ -39,9 +39,11 @@ How systems agree on "Truth."
 | **Kubernetes (etcd)** | **B+Tree / Event Log** | Namespace-based (`ns/name`) |
 | **Git** | **Merkle DAG** | Content-based (SHA-1 Hash) |
 | **DNS** | **Distributed Tree** | Hierarchical (`.com` -> `.google`) |
+| **Secure Transport** | **Encapsulated Tunnel** | Private IP (`10.0.x.x`) vs Public IP |
 
 ## 4. Architectural Patterns
 
+- **[[SoT - Container Security & Hardening]]** - Defense-in-depth for containerized workloads.
 - **[[SoT - Namespacing in Computing]]** - How distinct systems isolate data (OS, K8s, Languages).
 - **[[SoT - Data-Centric Infrastructure (Terraform)]]** - Treating infrastructure as a configuration graph.
 - **[[SoT - FITFILE Secret Management Architecture]]** - Practical application of the Vault-to-K8s bridge (VSO).

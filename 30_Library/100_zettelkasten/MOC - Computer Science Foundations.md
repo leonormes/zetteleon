@@ -5,7 +5,7 @@ created: 2025-12-13T09:15:00Z
 epistemic: "null"
 last-reviewed: "2025-12-13T00:00:00.000Z"
 last_reviewed: "null"
-modified: 2025-12-25T11:40:47+00:00
+modified: 2025-12-26T10:08:10+00:00
 purpose: ""
 review_interval: "6 months"
 see_also: ["[[MOC - Linux Container Primitives]]", "[[MOC - Software Architecture Principles]]"]
@@ -28,7 +28,7 @@ This map organizes the Source of Truth (SoT) notes covering the stack from physi
 
 The physical reality of computation.
 
-- **[[SoT - The Functional Anatomy of a Computer]]**—*The Core.* The IPOS Model (Input, Processing, Output, Storage) and the shift to SoC architecture.
+- **[[SoT - The Functional Anatomy of a Computer]]**—*The Core.* IPOS model, I/O delegation (MMIO vs Port-Mapped), Interrupts, and the evolution of System-on-Chip (SoC) topology.
 - **[[SoT - Mass vs Weight and the Kilogram]]**—*The Physics.* Foundational measurement concepts underpinning physical reality.
 
 ---
@@ -62,3 +62,12 @@ How we scale and connect systems.
 
 - **[[SoT - Cloud Networking Core Components]]**—*The Pipe.* Gateways, Routing, and Addressing in AWS/Azure.
 - **[[SoT - Automated Cloud Resource Hibernation]]**—*The Cost.* Strategies for managing cloud spend through scheduled dormancy.
+
+---
+
+## 5. Scripting & Automation (The Glue)
+
+The languages and patterns used to orchestrate systems.
+
+- **[[SoT - Bash Scripting]]**—*The Shell.* Core patterns for safe process orchestration and file manipulation (Quoting, Arrays, IFS).
+- **[[SoT - Shell Automation and IPC]]**—*The Workflow.* Event-driven logic (Signals, Traps, FS Watching) for reactive terminal environments.

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-22T12:15:00Z
 epistemic: "Meta-index of all health, fitness, and vitality knowledge within ProdOS."
 last_reviewed: "2025-12-22T00:00:00.000Z"
-modified: 2025-12-25T11:40:47+00:00
+modified: 2025-12-26T10:27:08+00:00
 purpose: ""
 review_interval: "6 months"
 see_also: []
@@ -38,16 +38,21 @@ updated:
 - **Core Framework:** [[SoT - Functional Mobility & Primal Movement]]
 - **Daily Protocol:** [[SoT - Protocol - Daily Mobility Foundation]]
 - **Principles:**
-    - [[Good posture supports clearer thinking]]
     - [[Motion Creates Emotion to Overcome Inertia]]
-    - [[Cold Showers Improve Immunity and Mood]]
+
+### Strength & Calisthenics
+
+*Focus: Force production, power, and bodyweight mastery.*
+- **Core Framework:** [[SoT - Push-Up Progression (Squat University)]]
+- **Principles:**
+    - [[SoT - Primal Movement - Crab]]
+    - [[SoT - Hanging Mechanics and Progressions]]
 
 ### Brain-Body Connection
 
 *Focus: How physical movement regulates the ADHD brain.*
 - [[Cerebellum Function and Exercise for ADHD Regulation]]
 - [[Morning HIIT Boosts BDNF and Neuroplasticity]]
-- [[Sunlight and Nature Exposure Improves Executive Function]]
 - [[Cognitive Health Practices for Technical Work]]
 
 ### Sleep & Recovery
@@ -66,7 +71,7 @@ updated:
 *Focus: Managing the "Storms" and Rejection Sensitivity.*
 - [[SoT - ADHD Self-Compassion & Strengths]]
 - [[Rejection Sensitive Dysphoria]]
-- [[The Shame-Procrastination Cycle]]
+- [[SoT - The Shame-Procrastination Cycle]]
 - [[Defensive Hypervigilance]]
 
 ### Focus & Executive Function
@@ -80,17 +85,19 @@ updated:
 
 ## 4. The Fuel: Nutrition & Environment
 
-*Canonical Source:* [[SoT - Physical Health and Vitality]] (Integrated Section)
+*Canonical Source:* [[SoT - Metabolic Health & Satiety Management]]
 
-### Nutritional Psychiatry
+### Metabolic Health & Satiety
 
-- [[Low-Carb Raw Breakfast Supports Mental Clarity]]
-- **Philosophy:** Food is neurotransmitter precursors.
+*Focus: Hormonal signaling, energy balance, and satiety leverage.*
+- **Core Framework:** [[SoT - Metabolic Health & Satiety Management]] (Protein Leverage, Fiber, Volume Eating).
+- **Protocols:
+    - [[SoT - The YNAB Method#5.4 ADHD Integration (Cognitive Support)|The ADHD Tax (Food Waste/Impulse)]]
+    - [[Low-Carb Raw Breakfast Supports Mental Clarity]]
 
 ### Environmental Inputs
 
 - [[Environmental and Physical Hacks for ADHD Focus]]
-- [[Sunlight and Nature Exposure Improves Executive Function]]
 - [[Avoid Morning Phone Use to Protect Dopamine]]
 
 ---

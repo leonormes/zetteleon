@@ -1,0 +1,103 @@
+filters:
+  and:
+    - file.ext == "md"
+    - '!file.path.startsWith("99_Archive")'
+    - status != "archived"
+views:
+  - type: table
+    name: "System: ProdOS"
+    filters:
+      and:
+        - file.tags.contains("prodos")
+    order:
+      - file.name
+      - type
+      - status
+      - tags
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 400
+      note.tags: 300
+  - type: table
+    name: "Topic: ADHD"
+    filters:
+      and:
+        - file.tags.contains("adhd")
+    order:
+      - file.name
+      - type
+      - status
+      - tags
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 400
+      note.tags: 300
+  - type: table
+    name: "Topic: Health & Fitness"
+    filters:
+      or:
+        - file.tags.contains("fitness")
+        - file.tags.contains("health")
+        - file.tags.contains("longevity")
+        - file.tags.contains("physical_hardware")
+    order:
+      - file.name
+      - type
+      - status
+      - tags
+    sort:
+      - property: type
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 400
+      note.tags: 300
+  - type: table
+    name: "Topic: Finance"
+    filters:
+      or:
+        - file.tags.contains("finance")
+        - file.tags.contains("money")
+        - file.tags.contains("ynab")
+        - file.tags.contains("wealth")
+        - file.tags.contains("economics")
+    order:
+      - file.name
+      - type
+      - status
+      - tags
+    sort:
+      - property: type
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 400
+      note.tags: 300
+  - type: table
+    name: "Topic: Technology"
+    filters:
+      or:
+        - file.tags.contains("technology")
+        - file.tags.contains("architecture")
+        - file.tags.contains("kubernetes")
+        - file.tags.contains("networking")
+        - file.tags.contains("security")
+    order:
+      - file.name
+      - type
+      - status
+      - tags
+    sort:
+      - property: type
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 400
+      note.tags: 300

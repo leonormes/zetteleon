@@ -42,7 +42,6 @@ updated:
 
 ### 3. The Human's Role (The "What")
 
-- **[[Prompt - User Context (The Leon Model)]]**: The practical implementation of "Policy" for day-to-day interaction. It provides the LLM with your cognitive profile and operational rules.
 - **Context Engineering**: The primary skill. You must curate the `State` (your Obsidian vault) to ensure the AI has high-quality context to work with.
 
 ---

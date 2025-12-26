@@ -34,6 +34,15 @@ The security of any asymmetric system is only as strong as the mathematical "Har
 | **Diffie-Hellman** | Discrete Logarithm | Impossible to find the exponent in modular exponentiation. |
 | **ECC** | Elliptic Curve Logarithm| A more efficient version of the discrete log problem. |
 
+### 2.1 Modern Algorithm Standards (2025)
+
+| Use Case | Recommended Algorithm | Notes |
+|:--- |:--- |:--- |
+| **Signing (JWT/Auth)** | **Ed25519** (EdDSA) | High speed, constant time, side-channel resistant. |
+| **Signing (Legacy/Compat)** | **ES256** (P-256) | Widely supported (e.g., WebAuthn). |
+| **Encryption (Asymmetric)** | **RSA-4096** | Robust but computationally expensive. |
+| **Hashing** | **SHA-256** | The industry standard baseline. |
+
 ## 3. Confidentiality vs. Authenticity
 
 Asymmetric keys serve two distinct purposes based on the order of operations:

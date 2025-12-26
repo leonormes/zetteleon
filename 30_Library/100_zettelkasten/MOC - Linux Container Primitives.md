@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-10-26T17:16:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2025-12-25T18:35:21Z
+modified: 2025-12-26T10:08:13+00:00
 purpose: "Map of Content for Linux kernel primitives enabling containers."
 review_interval: "1 year"
 see_also: ["[[SoT - Linux Container Primitives]]"]
@@ -20,6 +20,7 @@ updated:
 ## 🏛️ Foundational Principles
 
 - [[SoT - Linux Container Primitives]] (Source of Truth)
+- [[SoT - Process Execution (Kernel Logic)]]
 - [[SoT - Namespacing in Computing]]
 - [[SoT - Container Isolation (The Namespace Security Model)]]
 
@@ -39,7 +40,8 @@ updated:
 
 ## 🔐 Security Hardening
 
-- [[Container_Security/three_methods_for_enhancing_container_security|Container Security Methods]]
+- [[SoT - Container Security & Hardening]] (Best Practices)
+- [[SoT - Container Isolation (The Namespace Security Model)]]
 - Linux Capabilities (Planned)
 - Seccomp Profiles (Planned)
 

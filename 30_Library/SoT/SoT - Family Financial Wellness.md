@@ -60,6 +60,19 @@ To maintain system trust, fund non-negotiables first, then distribute the remain
 
 ---
 
-## 5. Summary
+## 5. Relational Architecture: The One-Pot Model
+
+*Source: [[99_Archive/A Fair Financial System Uses a Shared Pot and Equal Personal Spending Money|Fair Financial Systems Protocol]]*
+
+To maximize teamwork while protecting individual autonomy, the household operates on a **One-Pot** relational model.
+
+1.  **Shared Foundation:** All primary income flows into a single joint "Pot" (the Budget).
+2.  **Shared Goals:** The joint pot funds all "Non-Negotiable" and "Quality of Life" categories (Mortgage, Groceries, Holidays).
+3.  **Equal Autonomy:** From the joint pot, each partner receives a **fixed, identical amount** transferred to their personal account monthly (e.g., Personal Pocket Money).
+    - **The Rule:** This money is 100% autonomous. It can be spent or saved with "no questions asked," eliminating the need for one partner to police the other’s discretionary spending.
+
+---
+
+## 6. Summary
 
 This is a **Flow-Oriented** system. We do not forecast future income; we assign the cash currently held. Alignment between spending and values is achieved through the daily practice of **Rolling with the Punches**—moving money guilt-free when priorities shift.

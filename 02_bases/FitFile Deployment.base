@@ -22,6 +22,8 @@ views:
     sort:
       - property: file.size
         direction: DESC
+      - property: file.name
+        direction: ASC
       - property: file.mtime
         direction: DESC
     columnSize:

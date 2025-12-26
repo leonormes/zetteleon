@@ -35,6 +35,7 @@ From the perspective of physics, particularly Einstein's theory of relativity, t
 ### C. The Arrow of Time (Entropy)
 
 - The **Second Law of Thermodynamics** dictates that the total entropy (disorder) in an isolated system can only increase over time.
+- **Counterpoint:** In open systems (like Life or Earth), the **[[SoT - The Law of Increasing Functional Information]]** suggests that complexity and order *increase* over time due to selection, creating a "Yin-Yang" relationship with entropy.
 - This irreversible progression from order to disorder gives time its direction, independent of our perception. We remember the past (lower entropy) and not the future (higher entropy).
 
 ---
@@ -55,6 +56,14 @@ Our subjective experience connects:
 - **The Past (Memory):** Our sense of personal history and learning. Without memory, each moment would be isolated.
 - **The Present (Perception):** Integration of sensory data into a cohesive "perceptual moment."
 - **The Future (Anticipation):** Ability to plan, set goals, and project into what is to come, essential for motivation and meaning.
+
+### C. The Neural Clock (Dopamine & Novelty)
+
+Our perception of time's speed is dictated by the density of new memories.
+
+- **The Routine Compression:** When days are identical, the brain encodes them as a single "event." A month of routine vanishes in retrospect.
+- **The Novelty Expansion:** New experiences write dense memories. A two-week holiday feels longer than two months of office work.
+- **Application:** The **"Side Quests"** protocol in [[SoT - The YNAB Method]] operationalizes this by funding low-friction novelty to artificially expand the perception of a life well-lived.
 
 ---
 

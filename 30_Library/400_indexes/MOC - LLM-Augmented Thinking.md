@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-25T10:00:00Z
 epistemic: synthesis
 last_reviewed: 2025-12-25
-modified: 2025-12-25T18:34:57Z
+modified: 2025-12-26T10:27:15+00:00
 purpose: To map the practical workflows, skills, and architectures for using LLMs as a cognitive extension for thinking and problem definition.
 review_interval: 3 months
 see_also: ["[[MOC - AI as Thought Partner]]", "[[SoT - AI-Resilient Task Taxonomy (Human 3.0)]]"]
@@ -71,7 +71,15 @@ In ProdOS, "Thinking" is an active process that moves through stages:
 
 ---
 
-### 5. Related Concepts
+### 6. Technical & Economic Foundations
+
+Understanding the underlying mechanics and constraints of the LLM medium.
+
+- **[[SoT - LLM Tokenization and Economics]]**: The fundamental unit of AI processing. Covers encoding, vocabulary trade-offs, and billing logic.
+
+---
+
+### 7. Related Concepts
 
 - **[[SoT - The Inspiration Economy (Agentic Frameworks)]]**
 - **[[SoT - The Telos Method]]**

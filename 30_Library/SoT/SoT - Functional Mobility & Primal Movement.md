@@ -76,7 +76,7 @@ A structured approach to ground-based movement, divided into six components.
 
 - **Ape:** Deep squat pattern (Lateral movement, Hip opening).
 - **Beast:** Prone (face down) quadrupedal pattern (Anterior chain, Loaded shoulders).
-- **Crab:** Supine (face up) quadrupedal pattern (Posterior chain, Chest opening).
+- **Crab:** Supine (face up) quadrupedal pattern (Posterior chain, Chest opening). See **[[SoT - Primal Movement - Crab]]** for technical setup.
 
 ### The Six Components
 
