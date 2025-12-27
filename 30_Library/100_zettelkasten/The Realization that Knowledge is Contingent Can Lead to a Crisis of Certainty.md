@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-06T19:58:00Z
 epistemic: "insight"
 last_reviewed: "2025-11-06"
-modified: 2025-12-25T11:40:45+00:00
+modified: 2025-12-27T20:41:16+00:00
 purpose: "To define the intellectual crisis that arises from recognizing the contingent nature of knowledge."
 review_interval: "90"
 see_also: []

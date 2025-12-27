@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T11:37:53Z
 epistemic: "fact"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2025-12-25T11:40:48+00:00
+modified: 2025-12-27T20:41:19+00:00
 purpose: "Explain why sustained hyperfixation leads to cognitive and emotional burnout."
 review_interval: "90"
 see_also: []

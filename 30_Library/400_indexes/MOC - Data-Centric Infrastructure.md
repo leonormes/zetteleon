@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-25T12:10:00Z
 epistemic: "index"
 last_reviewed: "2025-12-25"
-modified: 2025-12-25T18:34:56Z
+modified: 2025-12-27T20:40:58+00:00
 purpose: "A Map of Content (MOC) connecting infrastructure components through the lens of their underlying data structures and synchronization models."
 review_interval: "6 months"
 see_also: ["[[SoT - HashiCorp Vault Architecture]]", "[[SoT - Kubernetes Networking & DNS]]", "[[SoT - State Synchronization Models]]"]
@@ -21,7 +21,7 @@ updated:
 
 Infrastructure tools are best understood not by their "Marketing Features" (Secrets, Deployments, GitOps) but by their **First-Principles Data Structures** (Tries, Merkle Trees, Event Logs).
 
-> "Show me your flowcharts and conceal your tables, and I shall continue to be mystified. Show me your tables, and I won't usually need your flowcharts; they'll be obvious." — *Fred Brooks*
+> "Show me your flowcharts and conceal your tables, and I shall continue to be mystified. Show me your tables, and I won't usually need your flowcharts; they'll be obvious."—*Fred Brooks*
 
 ## 2. Synchronization Models
 

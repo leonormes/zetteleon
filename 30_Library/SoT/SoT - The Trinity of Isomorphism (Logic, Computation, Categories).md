@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2025-12-25T11:40:20+00:00
+modified: 2025-12-27T01:28:16+00:00
 purpose: "Defines the architectural duality between Sums and Products using Category Theory."
 review_interval: "1 year"
 see_also: ["[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]

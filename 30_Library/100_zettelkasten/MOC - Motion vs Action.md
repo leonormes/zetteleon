@@ -6,7 +6,7 @@ criteria: "Atomic notes must relate to the core distinction between preparatory 
 epistemic: ""
 exclusions: "Detailed implementation guides for specific tools; domain-specific applications outside productivity."
 last_reviewed: ""
-modified: 2025-12-25T11:40:47+00:00
+modified: 2025-12-27T20:41:18+00:00
 purpose: ""
 review_interval: ""
 scope: "Comprehensive framework for understanding and applying the motion vs action distinction across productivity systems, with specific applications for ADHD."

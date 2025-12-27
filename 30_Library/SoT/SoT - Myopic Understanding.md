@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-11T00:00:00Z
 epistemic: "theory"
 last_reviewed: "2025-12-24"
-modified: 2025-12-25T18:34:55Z
+modified: 2025-12-27T20:40:57+00:00
 purpose: "To define understanding as a mechanism for minimizing prediction error and revealing causal structures to prevent myopic decision-making."
 review_interval: "3 months"
 see_also: ["[[Mental Models MOC]]", "[[SoT - Predictive Processing & The Bayesian Brain]]"]

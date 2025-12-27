@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2025-12-25T18:35:21Z
+modified: 2025-12-27T20:41:16+00:00
 purpose: "To identify the defensive tactic where a behavioural choice is reframed as an unsolvable problem."
 review_interval: "1 year"
 see_also: ["[[The Silent Void - Absence of Engagement as a Response]]"]

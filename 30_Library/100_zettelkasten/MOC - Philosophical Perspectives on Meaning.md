@@ -5,7 +5,7 @@ created: 2025-10-31T13:08:00Z
 epistemic: ""
 exclusions: "Religious interpretations"
 last_reviewed: ""
-modified: 2025-12-25T11:40:47+00:00
+modified: 2025-12-27T20:41:18+00:00
 purpose: "Organize philosophical views on meaning."
 review_interval: "180"
 scope: "Theories of meaning from philosophy"

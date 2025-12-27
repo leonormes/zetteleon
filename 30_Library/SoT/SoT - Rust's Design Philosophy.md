@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "analysis"
 last_reviewed: "2025-12-19"
-modified: 2025-12-25T11:40:20+00:00
+modified: 2025-12-27T20:40:56+00:00
 purpose: "To analyze Rust's core design as a deliberate compromise between performance, safety, and pragmatic implementation."
 review_interval: "12 months"
 see_also: ["[[SoT - Padded Cell vs Nanny Languages]]", "[[SoT - Pragmatism vs Rigour in Software]]", "[[SoT - Rust's Ownership Model]]"]

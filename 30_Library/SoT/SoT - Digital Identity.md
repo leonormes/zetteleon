@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-13T00:00:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-13"
-modified: 2025-12-25T11:40:21+00:00
+modified: 2025-12-27T20:40:57+00:00
 purpose: "To define digital identity from a data-centric perspective, outlining"
 review_interval: "6 months"
 see_also: ["[[SoT - PRODOS (System Architecture)]]"]

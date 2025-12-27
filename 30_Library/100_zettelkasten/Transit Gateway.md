@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-12-24T12:00:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-25T11:40:45+00:00
+modified: 2025-12-27T20:41:16+00:00
 purpose: "Explain central network hub architecture."
 review_interval: "90"
 see_also: []

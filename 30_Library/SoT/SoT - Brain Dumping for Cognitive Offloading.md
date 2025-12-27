@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-12-20T00:00:00Z
 epistemic: "technique"
 last_reviewed: "2025-12-20"
-modified: 2025-12-25T11:40:22+00:00
+modified: 2025-12-27T20:40:58+00:00
 purpose: "To provide a canonical explanation of the brain dumping technique for managing cognitive load."
 review_interval: "365"
 see_also: ["[[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]", "[[SoT - The Extended Mind]]", "[[Writing Creates Cognitive Distancing]]"]

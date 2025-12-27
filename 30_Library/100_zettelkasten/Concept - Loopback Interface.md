@@ -4,7 +4,7 @@ confidence: "1.0"
 created: 2025-11-22T15:00:12Z
 epistemic: "fact"
 last_reviewed: "2025-11-22"
-modified: 2025-12-25T11:40:49+00:00
+modified: 2025-12-27T20:41:19+00:00
 purpose: "Explains the virtual internal network interface."
 review_interval: "90"
 see_also: []

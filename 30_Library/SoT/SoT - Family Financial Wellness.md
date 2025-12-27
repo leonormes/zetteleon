@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T18:44:03Z
 epistemic: "strategy"
 last_reviewed: "2025-12-23"
-modified: 2025-12-25T18:34:55Z
+modified: 2025-12-27T20:40:57+00:00
 purpose: "The applied framework for UK household financial management, focusing on allocation, stability, and the 'Month Ahead' buffer."
 review_interval: "6 months"
 see_also: ["[[SoT - The Psychology of Spendfulness]]", "[[SoT - The YNAB Method]]"]
@@ -66,9 +66,9 @@ To maintain system trust, fund non-negotiables first, then distribute the remain
 
 To maximize teamwork while protecting individual autonomy, the household operates on a **One-Pot** relational model.
 
-1.  **Shared Foundation:** All primary income flows into a single joint "Pot" (the Budget).
-2.  **Shared Goals:** The joint pot funds all "Non-Negotiable" and "Quality of Life" categories (Mortgage, Groceries, Holidays).
-3.  **Equal Autonomy:** From the joint pot, each partner receives a **fixed, identical amount** transferred to their personal account monthly (e.g., Personal Pocket Money).
+1. **Shared Foundation:** All primary income flows into a single joint "Pot" (the Budget).
+2. **Shared Goals:** The joint pot funds all "Non-Negotiable" and "Quality of Life" categories (Mortgage, Groceries, Holidays).
+3. **Equal Autonomy:** From the joint pot, each partner receives a **fixed, identical amount** transferred to their personal account monthly (e.g., Personal Pocket Money).
     - **The Rule:** This money is 100% autonomous. It can be spent or saved with "no questions asked," eliminating the need for one partner to police the other’s discretionary spending.
 
 ---

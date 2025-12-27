@@ -5,7 +5,7 @@ created: 2025-12-13T09:15:00Z
 epistemic: "null"
 last-reviewed: "2025-12-13T00:00:00.000Z"
 last_reviewed: "null"
-modified: 2025-12-26T10:08:10+00:00
+modified: 2025-12-27T20:41:18+00:00
 purpose: ""
 review_interval: "6 months"
 see_also: ["[[MOC - Linux Container Primitives]]", "[[MOC - Software Architecture Principles]]"]

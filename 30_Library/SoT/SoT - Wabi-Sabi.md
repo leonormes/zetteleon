@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-16T00:00:00Z
 epistemic: "derived"
 last_reviewed: "2025-12-16"
-modified: 2025-12-25T11:40:20+00:00
+modified: 2025-12-27T20:40:55+00:00
 purpose: "To define Wabi-Sabi as a spiritual philosophy for finding beauty in imperfection, impermanence, and the harsh realities of life, contrasting its true meaning with common Western misconceptions."
 review_interval: "12 months"
 see_also: ["[[SoT - Mindfulness and Emotional Regulation]]", "[[SoT - Values and Eudaimonia]]"]
@@ -17,7 +17,9 @@ uid:
 updated: 
 ---
 
-> **Wabi-Sabi** is a profound Japanese spiritual philosophy, distinct from mere aesthetic trends like minimalism. It is rooted in confronting the raw, often harsh realities of life and death, finding **beauty that emerges from imperfection, impermanence, and the acceptance of transience and suffering.** It is the inner depth (Wabi) made manifest as external character (Sabi). (Source: "\"What Wabi-Sabi Really Means \u2013 More Than Minimalism\" by Zen to Manabi)."
+> [!definition] Definition
+>
+> **Wabi-Sabi** is a profound Japanese spiritual philosophy, distinct from mere aesthetic trends like minimalism. It is rooted in confronting the raw, often harsh realities of life and death, finding **beauty that emerges from imperfection, impermanence, and the acceptance of transience and suffering.** It is the inner depth (Wabi) made manifest as external character (Sabi). (Source: ""What Wabi-Sabi Really Means 2013 More Than Minimalism" by Zen to Manabi)."
 
 ## 2. Misconception vs. Reality
 

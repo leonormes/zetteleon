@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "model"
 last_reviewed: "2025-12-19"
-modified: 2025-12-25T11:40:20+00:00
+modified: 2025-12-27T20:31:14+00:00
 purpose: "To explain the mechanics, rules, and theoretical critique of Rust's ownership, borrowing, and lifetime system."
 review_interval: "12 months"
 see_also: ["[[SoT - Quantitative Type Theory and Graded Modalities]]", "[[SoT - Region-Based Memory Management]]", "[[SoT - Rust's Design Philosophy]]"]
@@ -50,7 +50,31 @@ To allow access to data without transferring ownership, Rust uses **references**
 
 ---
 
-## 4. The Theoretical Critique: An Orthogonal System
+## 4. Smart Pointers: Escaping the Stack
+
+To manage memory beyond the strict single-owner stack model, Rust provides "Smart Pointers." These are types that wrap a value and provide additional metadata (like size or reference counts) to manage its lifecycle on the heap.
+
+### 1. `Box<T>` (Unique Ownership)
+
+- **Purpose:** The simplest smart pointer. It moves a value from the stack to the heap.
+- **Use Case:** When you need a value of a known size at compile time (e.g., for recursive types like linked lists) or to transfer ownership of large data without copying it.
+- **Semantics:** Single owner. When the `Box` is dropped, the heap memory is deallocated.
+
+### 2. `Rc<T>` (Reference Counting - Single Threaded)
+
+- **Purpose:** Enables **multiple owners** for the same data. It tracks the number of active references.
+- **Use Case:** Graph data structures or shared immutable state within a single thread.
+- **Semantics:** The data is dropped only when the reference count reaches zero. **Not thread-safe.**
+
+### 3. `Arc<T>` (Atomic Reference Counting - Multi-Threaded)
+
+- **Purpose:** The thread-safe equivalent of `Rc`. Uses atomic operations to track references.
+- **Use Case:** Sharing ownership of data across multiple threads.
+- **Cost:** Slightly more expensive than `Rc` due to atomic overhead.
+
+---
+
+## 5. The Theoretical Critique: An Orthogonal System
 
 From a formalist perspective, Rust's ownership model is a brilliant piece of engineering but is not grounded in established type theory.
 
@@ -59,7 +83,7 @@ From a formalist perspective, Rust's ownership model is a brilliant piece of eng
 
 ---
 
-## 5. Minimum Viable Understanding (MVU)
+## 6. Minimum Viable Understanding (MVU)
 
 1. **Every piece of data has one, and only one, owner.**
 2. **You can either *move* ownership (transfer it) or *borrow* it (create a reference).**
@@ -68,13 +92,13 @@ From a formalist perspective, Rust's ownership model is a brilliant piece of eng
 
 ---
 
-## 6. Open Questions & Tensions
+## 7. Open Questions & Tensions
 
 - **Tension:** **"Fighting the Borrow Checker."** New Rust developers often spend a significant amount of time fighting the compiler because the ownership model forces a new way of thinking about program architecture. Code that is trivial in other languages can require significant restructuring in Rust.
 - **Tension:** **`async` Complexity.** The ownership model's interaction with `async/await` can be particularly complex, especially around lifetimes and moving data across threads, leading to a steep learning curve for asynchronous programming.
 - **Confidence Gap:** Is the ownership model's complexity a necessary price for memory safety, or is it a sign of a brilliant but ultimately flawed "local maximum" that will be improved upon by more theoretically-grounded languages?
 
-## 7. Related Components
+## 8. Related Components
 
 - [[SoT - Rust's Design Philosophy]]
 - [[SoT - Region-Based Memory Management]]

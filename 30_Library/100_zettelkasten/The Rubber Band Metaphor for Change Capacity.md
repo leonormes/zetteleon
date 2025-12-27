@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-30T15:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2025-12-25T11:40:45+00:00
+modified: 2025-12-27T20:41:16+00:00
 purpose: "To illustrate the limits of change capacity and consequences of overextension"
 review_interval: "90"
 see_also: []

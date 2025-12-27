@@ -5,7 +5,7 @@ created: 2025-07-10T08:30:31Z
 epistemic: ""
 id: "azure_entra_iam_implementation_guide"
 last_reviewed: ""
-modified: 2025-12-25T11:40:40+00:00
+modified: 2025-12-27T20:41:10+00:00
 purpose: ""
 review_interval: ""
 see_also: []

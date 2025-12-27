@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: "theory"
 last_reviewed: "2025-12-14"
-modified: 2025-12-25T11:40:21+00:00
+modified: 2025-12-27T20:40:56+00:00
 purpose: "To provide a structural analysis of Peter Singer's 1972 paper \\\\\\\"Famine, Affluence, and Morality,\\\\\\\" outlining its core argument and radical implications for moral obligation."
 review_interval: "6 months"
 see_also: ["[[SoT - Moral Philosophy Overview]]", "[[SoT - Utilitarianism]]"]

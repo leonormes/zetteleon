@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T10:14:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-25T11:40:48+00:00
+modified: 2025-12-27T01:23:45+00:00
 purpose: "To define the characteristics of controlling financial behavior."
 review_interval: "90"
 see_also: ["[[Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy]]"]

@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-21T09:34:38Z
 epistemic: synthesis
 last_reviewed: 2025-12-23
-modified: 2025-12-25T18:34:57Z
+modified: 2025-12-27T20:40:58+00:00
 purpose: The primary entry point and Master Guide for the FitFile platform deployment process.
 review_interval: 3 months
 Reviewed: true
@@ -41,7 +41,7 @@ Follow these phases sequentially to transform an empty cloud account into an ope
 
 #### Phase 1: Foundation & Tooling
 
-Establish the central control plane (HCP, Vault, Auth0, Monitoring).
+Establish the central control plane (HCP, Vault, Auth0, Monitoring). [[HEAD - Auth0 is not part of control plane]]
 
 - **Guide:** [[SoT - FitFile Deployment - Phase 1 - Foundation and Tooling]]
 

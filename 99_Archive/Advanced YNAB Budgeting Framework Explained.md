@@ -1,14 +1,26 @@
 ---
-title: "‎Gemini – direct access to Google AI"
+aliases: []
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+modified: 2025-12-27T20:40:55+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+title: Advanced YNAB Budgeting Framework Explained
 source: "https://gemini.google.com/share/5f1a09cecb06"
 author:
   - "[[Gemini]]"
 published:
-created: 2025-12-25
+created: 2025-12-25T19:55:19+00:00
 description: "Created with Gemini"
 tags:
   - "clippings"
 ---
+
 https://youtu.be/ixJkDof3VRw?si=slFG-fHCRIlJEln9
 
 This video from the **YNAB (You Need A Budget)** YouTube channel outlines an advanced structural framework for setting up a budget, moving beyond basic expense tracking to sophisticated financial modeling.
@@ -30,7 +42,7 @@ Advanced users leverage specific "Refill" logic to optimise cash flow efficiency
 
 ### The "Cost to be Me" Metric
 
-This represents the high-level sum of all targets within a month \[[40:42](http://www.youtube.com/watch?v=ixJkDof3VRw&t=2442)\]. It serves as a structural "gut check" to compare total financial obligations against expected income. A healthy model maintains a **"Margin"** —the delta between total targets and total income—allowing for discretionary movement and unexpected volatility \[[41:32](http://www.youtube.com/watch?v=ixJkDof3VRw&t=2492)\].
+This represents the high-level sum of all targets within a month \[[40:42](http://www.youtube.com/watch?v=ixJkDof3VRw&t=2442)\]. It serves as a structural "gut check" to compare total financial obligations against expected income. A healthy model maintains a **"Margin"**—the delta between total targets and total income—allowing for discretionary movement and unexpected volatility \[[41:32](http://www.youtube.com/watch?v=ixJkDof3VRw&t=2492)\].
 
 ### Operational Efficiency Tools
 
@@ -168,7 +180,7 @@ This video from the **YNAB** YouTube channel provides 19 advanced tips and struc
 - **Scheduled Transactions (Advanced):** Use these not just for recurring bills, but for non-monthly expenses (e.g., a water bill every 3 months) to visualize upcoming outflows in your category registers \[[01:57](http://www.youtube.com/watch?v=VQUPIduVaSo&t=117), [03:21](http://www.youtube.com/watch?v=VQUPIduVaSo&t=201)\].
 - **Manage Payees (Manual Rules):** Deselect "Automatically categorize payee" for big-box stores like Amazon or Costco. This forces you to manually categorize them each time, preventing incorrect historical categorization for multi-department stores \[[43:55](http://www.youtube.com/watch?v=VQUPIduVaSo&t=2635), [45:20](http://www.youtube.com/watch?v=VQUPIduVaSo&t=2720)\].
 - **Pending Transactions:** For banks that support high-frequency updates, use the "Enter Now" feature on pending items to gain a 2–3 day lead on your cleared balance \[[48:55](http://www.youtube.com/watch?v=VQUPIduVaSo&t=2935), [50:31](http://www.youtube.com/watch?v=VQUPIduVaSo&t=3031)\].
-- **Keyboard Shortcuts:** Power users should use `Shift + ?` to view the full list of web app shortcuts. Key examples include `A` for approving transactions and `Shift + Click` to select a range of items \[[57:03](http://www.youtube.com/watch?v=VQUPIduVaSo&t=3423), [58:32](http://www.youtube.com/watch?v=VQUPIduVaSo&t=3512)\].
+- **Keyboard Shortcuts:** Power users should use `Shift +?` to view the full list of web app shortcuts. Key examples include `A` for approving transactions and `Shift + Click` to select a range of items \[[57:03](http://www.youtube.com/watch?v=VQUPIduVaSo&t=3423), [58:32](http://www.youtube.com/watch?v=VQUPIduVaSo&t=3512)\].
 
 ### Conceptual Budget Management
 

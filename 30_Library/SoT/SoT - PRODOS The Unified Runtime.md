@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-20T00:00:00Z
 epistemic: "operational"
 last_reviewed: "2025-12-24"
-modified: 2025-12-25T18:34:55Z
+modified: 2025-12-27T20:40:56+00:00
 purpose: "To provide a single High-Throughput Runtime Manual that supersedes separate architectural SoTs, bridging the gap between knowing and doing for an Interest-Based Nervous System."
 review_interval: "3 months"
 see_also: ["[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS (System Architecture)]]"]

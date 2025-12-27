@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-21T00:00:00Z
 epistemic: "framework"
 last_reviewed: "2025-12-21"
-modified: 2025-12-25T11:40:20+00:00
+modified: 2025-12-27T20:40:56+00:00
 purpose: "To document the four-step framework for managing high cognitive load (Mom Brain/ADHD) through systemic accommodation rather than willpower."
 review_interval: "365"
 see_also: ["[[SoT - Action Management Framework]]", "[[SoT - ADHD Environmental Design]]", "[[SoT - Brain Dumping for Cognitive Offloading]]", "[[SoT - The Honeyman Method (Adaptive Routines)]]"]

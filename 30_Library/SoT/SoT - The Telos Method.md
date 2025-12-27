@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-24T12:12:06Z
 epistemic: synthesis
 last_reviewed: 2025-12-24
-modified: 2025-12-25T18:34:53Z
+modified: 2025-12-27T20:40:55+00:00
 purpose: Canonical source of truth for The Telos Method, a hierarchical framework for self-knowledge and AI context integration.
 review_interval: 6 months
 see_also: ["[[SoT - Identity-Based Habit Formation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Extended Mind Thesis]]"]
@@ -47,10 +47,10 @@ The framework organizes self-knowledge into a strict directed acyclic graph (DAG
 
 > **Why am I doing this Project?**
 > Because it is part of a **Strategy**...
-> ...to overcome a **Challenge**...
-> ...that is blocking a **Goal**...
-> ...which serves my **Mission**...
-> ...to solve a specific **Problem**.
+>...to overcome a **Challenge**...
+>...that is blocking a **Goal**...
+>...which serves my **Mission**...
+>...to solve a specific **Problem**.
 
 ### The Military Analogy
 

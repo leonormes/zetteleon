@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-11-13T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-15"
-modified: 2025-12-25T11:40:22+00:00
+modified: 2025-12-27T20:40:58+00:00
 purpose: "Defines the core mechanism for overcoming ADHD executive dysfunction and initiating tasks within ProdOS."
 review_interval: "3 months"
 see_also: ["[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]", "[[ADHD and Productivity]]", "[[Logic Does Not Produce Dopamine]]", "[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS (System Architecture)]]", "[[The Motivation Bridge - An ADHD Metaphor]]", "[[Vague Task to Actionable Plan Checklist]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-22T00:00:00Z
 epistemic: "Synthesized from Animal Flow, GMB Fitness, and Phantom Core methodologies."
 last_reviewed: "2025-12-22"
-modified: 2025-12-25T11:40:21+00:00
+modified: 2025-12-27T20:40:57+00:00
 purpose: "To document the theoretical framework of Functional Mobility, Isometrics, and Primal Movement as a system for joint health and longevity."
 review_interval: "6 months"
 see_also: ["[[SoT - Physical Health and Vitality]]", "[[SoT - Protocol - Daily Mobility Foundation]]"]

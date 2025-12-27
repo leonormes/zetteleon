@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2025-11-02T12:04:00Z
 epistemic: "technique"
 last_reviewed: 2025-11-02
-modified: 2025-12-25T11:40:20+00:00
+modified: 2025-12-27T20:40:55+00:00
 purpose: "To explain the technique of chaining multiple starter tasks for very difficult tasks."
 review_interval: 180
 see_also: ["[[A Starter Task is a Small Action Designed Purely to Build Momentum]]"]

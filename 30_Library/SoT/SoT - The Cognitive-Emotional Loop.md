@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:24:38Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2025-12-25T18:34:53Z
+modified: 2025-12-27T20:40:56+00:00
 purpose: "To define the bidirectional feedback loop between mental models and emotional states."
 review_interval: "6 months"
 see_also: ["[[SoT - Naïve Realism]]", "[[SoT - Predictive Processing & The Bayesian Brain]]"]

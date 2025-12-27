@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T20:30:10Z
 epistemic: "strategy"
 last_reviewed: "2025-11-01"
-modified: 2025-12-25T11:40:49+00:00
+modified: 2025-12-27T20:41:19+00:00
 purpose: "Provide the systematic four-step process for converting vague captured thoughts into atomic actions."
 review_interval: "90"
 see_also: ["[[Atomic Actions Have Four Core Properties]]", "[[GTD Workflow Separates Motion and Action Phases]]", "[[The Starter Task Overcomes Activation Energy for ADHD]]"]

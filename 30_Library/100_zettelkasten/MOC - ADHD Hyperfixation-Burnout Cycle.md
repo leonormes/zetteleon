@@ -6,7 +6,7 @@ criteria: ""
 epistemic: fact
 exclusions: General ADHD topics not directly related to the hyperfixation-burnout cycle.
 last_reviewed: 2025-11-01T00:00:00.000Z
-modified: 2025-12-25T18:35:26Z
+modified: 2025-12-27T20:41:18+00:00
 purpose: ""
 review_interval: "90"
 scope: ""

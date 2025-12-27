@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:30:04Z
 epistemic: "definition"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2025-12-25T11:40:44+00:00
+modified: 2025-12-27T20:41:15+00:00
 purpose: "To define a wicked learning environment."
 review_interval: "90"
 see_also: ["[[Kind Learning Environments are Predictable and Rule-Based]]"]

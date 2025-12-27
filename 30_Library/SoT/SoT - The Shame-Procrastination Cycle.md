@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T23:02:00Z
 epistemic: "principle"
 last_reviewed: "2025-12-23"
-modified: 2025-12-25T18:34:53Z
+modified: 2025-12-27T20:40:55+00:00
 purpose: "To define the neurobiological feedback loop between executive dysfunction, shame, and task avoidance in ADHD."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Bridging the Intention-Action Gap]]", "[[SoT - Rejection Sensitive Dysphoria (RSD)]]"]

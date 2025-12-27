@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-21T10:50:49Z
 epistemic: "process"
 last_reviewed: "2025-12-23"
-modified: 2025-12-25T18:34:55Z
+modified: 2025-12-26T21:52:05+00:00
 purpose: "The definitive guide and index for establishing the FitFile control plane and central services."
 review_interval: "3 months"
 see_also: ["[[Auth0 Object Architecture - FITFILE Deployments]]", "[[Grafana IaC Report]]", "[[MOC - FitFile Deployment]]", "[[SoT - FITFILE Platform Deployment]]"]

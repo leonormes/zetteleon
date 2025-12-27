@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-09-07T15:32:45Z
 epistemic: "philosophy"
 last_reviewed: "2025-12-16"
-modified: 2025-12-25T11:40:45+00:00
+modified: 2025-12-27T20:41:16+00:00
 purpose: "To define Miyamoto Musashi's strategic approach to emotion, framing it not as something to be suppressed, but as a dynamic state of \\\"Stillness in Motion\\\" (Heijo-shin)."
 review_interval: ""
 see_also: ["[[Miyamoto Musashi]]", "[[SoT - Stoicism]]"]

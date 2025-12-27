@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "synthesis"
 last_reviewed: "2025-12-25"
-modified: 2025-12-25T19:00:00Z
+modified: 2025-12-27T20:40:57+00:00
 purpose: "Canonical source for habit formation protocols and the philosophy of intentionality, integrating Zen to Done (ZTD) and Essentialism."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - Indistractable Model (Focus Management)]]"]
@@ -38,6 +38,7 @@ Imagine your life is a ship at sea.
 **The Failure Mode:** Without the Captain (Intentionality), the Autopilot (Habit) will sail the ship in circles or crash into the same rocks as yesterday.
 
 ### Distinction: Intentions vs. Goals
+
 - **Goals are Destinations:** Future-focused (e.g., "Climb the mountain").
 - **Intentions are "How You Show Up":** Present-focused (e.g., "Climb with presence and gratitude").
 - *Key:* Goals give direction; Intentions give quality of life.
@@ -51,44 +52,60 @@ Imagine your life is a ship at sea.
 Intentionality is not willpower; it is **Structural Design**.
 
 ### 1. Define Intent & Logic (The Why)
+
 Document exactly *what* you want to achieve and *why*.
+
 - **Vivid Description:** Writing down goals is statistically linked to higher success rates.
-- **ProdOS:** Use the `SoT - ...` note to define the MVU (Minimum Viable Understanding).
+- **ProdOS:** Use the `SoT -...` note to define the MVU (Minimum Viable Understanding).
 
 ### 2. Establish Parameters (The Anchor)
+
 Define objectives with specific timeframes (e.g., "A 6-month training block").
+
 - **Function:** Provides a mental anchor to prevent abandonment during high-friction periods.
 
 ### 3. Minimum Viable Habits (The Start)
+
 *Overcoming Activation Energy.*
 - **Concept:** Reduce the entry barrier to a 'tiny' version (e.g., 1 sentence, 10 seconds).
 - **Why:** Ensures the habit survives low-motivation days.
 
 ### 4. Habit Stacking (The Trigger)
+
 *Reducing Decision Fatigue.*
 - **Formula:** `After [Current Habit], I will [New Habit].`
 - **Mechanism:** Anchors new behaviors to established automated routines (e.g., Journal after Coffee).
 
 ### 5. Scheduling (The Commitment)
+
 Formally book the activity in a diary/calendar.
+
 - **Function:** Assigning specific days creates a mental commitment, even if rigid time-blocking isn't used.
 
 ### 6. Gamification (The Reward)
+
 Utilize visual tracking (e.g., "The Purple Line").
+
 - **Mechanism:** The psychological drive to maintain an 'unbroken chain' provides a non-monetary dopamine reward.
 
 ### 7. Friction Reduction (The Path of Least Resistance)
+
 Pre-prepare the environment to make the 'right' choice the easiest one.
+
 - **Example:** Laying out running gear the night before.
 - **ProdOS:** The "Night Before" protocol in the Daily Note.
 
 ### 8. Identity Integration (The Core)
+
 Shift from *doing* to *being*.
+
 - **Concept:** "I am a runner," not "I am running."
 - **See:** **[[SoT - Identity-Based Habit Formation]]** for the deep protocol.
 
 ### 9. External Accountability (The Pressure)
+
 Leverage social pressure or personal pride.
+
 - **Action:** Announce goals to others to create a secondary layer of motivation when internal drive fails.
 
 ---
@@ -96,6 +113,7 @@ Leverage social pressure or personal pride.
 ## 4. Mindfulness Protocols (The Software)
 
 ### A. The "Third Urge" Rule
+
 *The Middle Way between rigidity and quitting.*
 - **Trigger:** When doing a hard task (meditation/deep work), you will feel the urge to quit.
 - **Protocol:**
@@ -105,11 +123,13 @@ Leverage social pressure or personal pride.
 - **Result:** Builds "Urge Surfing" capability without forcing failure.
 
 ### B. The Intentional Pause
+
 *Breaking Autopilot.*
 - **Protocol:** Before opening a browser tab or checking a phone, insert a 3-second pause to state the **Intention**.
 - **The Question:** "What am I hiring this tool to do right now?"
 
 ### C. The "Sacred No"
+
 *Protecting the Yes.*
 - **Concept:** To be truly intentional about your "Big Rocks" (Key Priorities), you must be a "Sacred No" to everything else during that block.
 - **Application:** Use the **"Now" Toggle** in ProdOS (Focus Mode) to enforce this.
@@ -117,6 +137,7 @@ Leverage social pressure or personal pride.
 ---
 
 ## 5. The Zen to Done (ZTD) System
+
 *Minimalist Productivity (Leo Babauta).*
 
 1. **Collect:** Capture 100% of inputs (Inbox).

@@ -4,7 +4,7 @@ confidence: 1
 created: 2025-11-02T12:02:00Z
 epistemic: "definition"
 last_reviewed: 2025-11-02
-modified: 2025-12-25T11:40:20+00:00
+modified: 2025-12-27T20:40:55+00:00
 purpose: "To define the concept and rules of a starter task."
 review_interval: 90
 see_also: ["[[Chaining Starter Tasks Creates a Momentum Ramp for Difficult Tasks]]", "[[The Momentum Method Uses Starter Tasks to Lower Activation Energy]]"]

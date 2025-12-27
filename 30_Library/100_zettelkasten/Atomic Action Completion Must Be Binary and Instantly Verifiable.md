@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T15:02:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-25T11:40:49+00:00
+modified: 2025-12-27T20:41:20+00:00
 purpose: "To specify a key property of atomic actions."
 review_interval: "90"
 see_also: ["[[Atomic Actions Have Four Core Properties]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-25T12:00:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-25"
-modified: 2025-12-25T18:34:53Z
+modified: 2025-12-27T20:40:57+00:00
 purpose: "To define the first-principles data architecture of HashiCorp Vault, stripping away security terminology to reveal the underlying versioned document store and merkle-tree sync models."
 review_interval: "1 year"
 see_also: ["[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - Kubernetes Architecture]]", "[[SoT - Namespacing in Computing]]", "[[SoT - State Synchronization Models]]"]
@@ -81,11 +81,13 @@ In this data-centric model, **ACL Policies** are not abstract permissions; they 
 The **[[SoT - FITFILE Secret Management Architecture|Vault Secrets Operator]]** acts as a bridge between Vault's **Identity-Based** model and Kubernetes' **Namespace-Based** model.
 
 ### 5.1 The Transformation Pipeline
+
 1. **Source:** Versioned JSON Object in Vault (Path-addressed).
 2. **Bridge:** VSO Authenticates via Kubernetes JWT (Identity Brokering).
 3. **Sink:** Flat Map of Strings in a Kubernetes Secret (Namespace-addressed).
 
 ### 5.2 Dynamic vs. Static
+
 - **Static:** Mirroring a JSON document. (Storage).
 - **Dynamic:** Triggering a "Generator" function at a path to create ephemeral credentials with a **TTL (Time-To-Live)**.
 

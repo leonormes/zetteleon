@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T09:40:41Z
 epistemic: "synthesis"
 last_reviewed: "2025-12-24"
-modified: 2025-12-25T18:34:53Z
+modified: 2025-12-27T20:40:57+00:00
 purpose: "A central HUD for visualizing migraine frequency, severity, and notes over time."
 review_interval: "1 month"
 see_also: ["[[SoT - Personal Health Logging]]"]

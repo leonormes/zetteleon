@@ -5,7 +5,7 @@ created: 2025-01-18T10:15:17Z
 epistemic: ""
 id: "k8s network learning project"
 last_reviewed: ""
-modified: 2025-12-25T11:40:35+00:00
+modified: 2025-12-27T20:41:06+00:00
 purpose: ""
 review_interval: ""
 see_also: []

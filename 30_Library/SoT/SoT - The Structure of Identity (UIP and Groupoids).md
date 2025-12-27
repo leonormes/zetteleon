@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2025-12-25T11:40:20+00:00
+modified: 2025-12-27T20:40:55+00:00
 purpose: "Defines the pivotal realization that proofs of equality are not unique, leading to the Groupoid structure of types."
 review_interval: "1 year"
 see_also: ["[[SoT - Cubical Type Theory (Computational Univalence)]]", "[[SoT - Equality in Type Theory (Intensional vs Extensional)]]"]

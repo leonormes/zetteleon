@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-03-13T15:51:37Z
 epistemic: "architecture"
 last_reviewed: "2025-12-22"
-modified: 2025-12-25T11:40:21+00:00
+modified: 2025-12-27T20:40:56+00:00
 purpose: "To define the architectural data patterns for secure, private communication between decoupled cloud environments (AWS/Azure)."
 review_interval: "6 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data-Centric Theory of Networking]]"]
@@ -109,10 +109,10 @@ A common architectural fallacy is believing that HTTPS (Encryption) negates the 
 
 ### B. The Four Risks of Public Endpoints
 
-1.  **Attack Surface (Reconnaissance):** A public IP announces your existence. Scanners will fingerprint your OS, Web Server, and TLS versions instantly. A private network is invisible.
-2.  **Endpoint Integrity:** HTTPS protects the *data*, not the *server*. It does not stop an attacker from exploiting an OS vulnerability (Heartbleed) or overwhelming the server (DDoS).
-3.  **Broken "Least Privilege":** Exposing a service changes the default from "Deny All" to "Allow All (who have a key)." This is a weaker posture than "Network Unreachable."
-4.  **Audit Fragility:** "We use a private tunnel" is a stronger compliance narrative than "We use a public endpoint with a firewall whitelist."
+1. **Attack Surface (Reconnaissance):** A public IP announces your existence. Scanners will fingerprint your OS, Web Server, and TLS versions instantly. A private network is invisible.
+2. **Endpoint Integrity:** HTTPS protects the *data*, not the *server*. It does not stop an attacker from exploiting an OS vulnerability (Heartbleed) or overwhelming the server (DDoS).
+3. **Broken "Least Privilege":** Exposing a service changes the default from "Deny All" to "Allow All (who have a key)." This is a weaker posture than "Network Unreachable."
+4. **Audit Fragility:** "We use a private tunnel" is a stronger compliance narrative than "We use a public endpoint with a firewall whitelist."
 
 ---
 

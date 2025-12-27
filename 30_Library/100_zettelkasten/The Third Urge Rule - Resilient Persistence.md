@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2025-12-25T18:35:21Z
+modified: 2025-12-27T20:41:16+00:00
 purpose: "To provide a structured method for balancing persistence with self-compassion."
 review_interval: "1 year"
 see_also: ["[[SoT - ADHD and Motivation]]"]

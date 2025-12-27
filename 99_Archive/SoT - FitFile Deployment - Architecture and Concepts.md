@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-21T00:00:00Z
 epistemic: "process"
 last_reviewed: "2025-12-21"
-modified: 2025-12-25T11:40:19+00:00
+modified: 2025-12-27T20:40:54+00:00
 purpose: "To provide a detailed guide of the architecture and concepts for the FitFile deployment process."
 review_interval: "3 months"
 see_also: ["[[MOC - FitFile Deployment]]", "[[SoT - FITFILE Platform Deployment]]"]

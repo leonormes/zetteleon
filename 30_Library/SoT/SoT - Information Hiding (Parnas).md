@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-12"
-modified: 2025-12-25T11:40:21+00:00
+modified: 2025-12-27T20:40:57+00:00
 purpose: "Canonical definition and benefits of David Parnas's Information Hiding principle in software design."
 review_interval: "1 year"
 see_also: ["[[MOC - Software Architecture Principles]]", "[[SoT - Atomicity and Loose Coupling]]", "[[SoT - Code Duplication and Refactoring]]"]

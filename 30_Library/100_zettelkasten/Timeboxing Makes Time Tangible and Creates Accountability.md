@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T21:01:00Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-25T11:40:45+00:00
+modified: 2025-12-27T20:41:16+00:00
 purpose: "To explain how timeboxing makes time tangible and creates accountability."
 review_interval: "90"
 see_also: ["[[Timeboxing Creates Structure for Action]]"]

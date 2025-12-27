@@ -1,20 +1,34 @@
 ---
-aliases: ["FITFILE Secret Management Architecture", "Secret Management SoT", "VSO Implementation Guide"]
-confidence: "5/5"
+aliases:
+  - FITFILE Secret Management Architecture
+  - Secret Management SoT
+  - VSO Implementation Guide
+confidence: 5/5
 created: 2025-12-15T00:00:00Z
 epistemic: ""
-last_reviewed: "2025-12-15"
-modified: 2025-12-25T11:40:22+00:00
-purpose: "The canonical source of truth for FITFILE's secret management architecture, defining the standard VSO implementation and the path to remediate legacy technical debt."
-review_interval: "6 months"
-see_also: ["[[FITFILE Platform Terraform Module Wiki]]", "[[General Principles for Adding Secrets]]", "[[SoT - FITFILE Platform Deployment]]", "[[SoT - PRODOS (System Architecture)]]", "[[Vault to Kubernetes Secrets Management Guide]]"]
+last_reviewed: 2025-12-15
+modified: 2025-12-27T20:40:57+00:00
+purpose: The canonical source of truth for FITFILE's secret management architecture, defining the standard VSO implementation and the path to remediate legacy technical debt.
+review_interval: 6 months
+see_also:
+  - "[[FITFILE Platform Terraform Module Wiki]]"
+  - "[[General Principles for Adding Secrets]]"
+  - "[[SoT - FITFILE Platform Deployment]]"
+  - "[[SoT - PRODOS (System Architecture)]]"
+  - "[[Vault to Kubernetes Secrets Management Guide]]"
 source_of_truth: []
-status: "stable"
-tags: ["architecture", "fitfile", "kubernetes", "security", "vault"]
+status: stable
+tags:
+  - architecture
+  - fitfile
+  - kubernetes
+  - security
+  - vault
 title: SoT - FITFILE Secret Management Architecture
-type: "SoT"
-uid: 
-updated: 
+type: SoT
+uid:
+updated:
+uuid: d33b2418-260e-4eba-8375-26c545e2792e
 ---
 
 Currently, the deployment landscape is split: ""
@@ -136,13 +150,13 @@ The deployment manages **19 VaultStaticSecret resources** across three logical l
 2. **Transformation (The `extraDeploy` Pattern):**
    While `ffnode` handles standard secrets, integrations like Hutch use `extraDeploy` to inject raw VSO resources with complex transformations.
 
-   ```yaml
-   # Example: Transforming raw credentials into a connection string
+```yaml
+# Example: Transforming raw credentials into a connection string
    transformation:
      templates:
        db_connection_string:
          text: 'Host=postgres;User={{get .Secrets "username"}};Password={{get .Secrets "password"}}'
-   ```
+```
 
 ### 5.3 Security Analysis (2025 Audit Findings)
 
@@ -199,3 +213,5 @@ Currently, populating Vault is a manual process using the HCP UI.
 
 - **Goal:** Move from static KV secrets (long-lived passwords) to Vault's Database Secrets Engine.
 - **Benefit:** Short-lived, automatically rotated credentials (TTL 1h) generated on-the-fly for each pod.
+- [ ] R&D how to use vault's dB secrets engine ^2025-12-26T21-58-48
+    - [📱 View in Todoist app](todoist://task?id=6fcrF7wgv6cfR48M) (Created: 📝 2025-12-26T21:59)

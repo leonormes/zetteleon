@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T13:37:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2025-12-25T11:40:45+00:00
+modified: 2025-12-27T20:41:16+00:00
 purpose: "Explain stream sockets and TCP characteristics."
 review_interval: "90"
 see_also: ["Datagram Sockets Provide Fast Unreliable UDP Communication.md"]

@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-01T11:22:13Z
 epistemic: "principle"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2025-12-25T11:40:47+00:00
+modified: 2025-12-27T20:41:18+00:00
 purpose: ""
 review_interval: "90"
 see_also: ["[[Deductive Reasoning Underwrites Mathematical Proof]]", "[[Logicism (Mathematics as Extension of Logic)]]"]

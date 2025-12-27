@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-21T00:00:00Z
 epistemic: "Derived from external content on personal operating principles."
 last_reviewed: "2025-12-21"
-modified: 2025-12-25T11:40:21+00:00
+modified: 2025-12-27T20:40:56+00:00
 purpose: "To define a set of actionable rules designed to architect a life of peace and productivity by managing energy, boundaries, and focus."
 review_interval: "3 months"
 see_also: []

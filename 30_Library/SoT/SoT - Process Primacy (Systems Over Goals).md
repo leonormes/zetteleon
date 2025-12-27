@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-07T00:00:00Z
 epistemic: "principle"
 last_reviewed: "2025-12-23"
-modified: 2025-12-25T18:34:54Z
+modified: 2025-12-27T20:40:56+00:00
 purpose: "To define the operational philosophy of prioritizing daily systems and processes over lagging outcomes and unreliable motivation."
 review_interval: "3 months"
 see_also: ["[[Process Over Goals Actionable System]]", "[[Shifting Focus From Goals Outcomes to Systems Processes]]", "[[Systems Habits and Past Achievements]]"]

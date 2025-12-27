@@ -4,7 +4,7 @@ confidence: 0.8
 created: 2025-11-11T19:05:03Z
 epistemic: hypothesis
 last_reviewed:
-modified: 2025-12-25T11:40:19+00:00
+modified: 2025-12-27T20:40:54+00:00
 purpose: "Explains why it's hard to return to projects after a break."
 review_interval: 90
 see_also: []

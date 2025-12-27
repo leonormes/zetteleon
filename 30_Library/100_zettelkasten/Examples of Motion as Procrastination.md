@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T20:36:00Z
 epistemic: "observation"
 last_reviewed: "2025-11-01"
-modified: 2025-12-25T11:40:48+00:00
+modified: 2025-12-27T20:41:19+00:00
 purpose: "To provide concrete examples of motion being used as a procrastination tactic."
 review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]"]

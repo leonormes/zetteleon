@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "fact"
 last_reviewed: 2025-12-24
-modified: 2025-12-25T18:35:21Z
+modified: 2025-12-27T20:41:19+00:00
 purpose: "To explain the unique prime factorization property."
 review_interval: "1 year"
 see_also: ["[[Infinitude of Primes Guarantees a Limitless Supply for Keys]]"]

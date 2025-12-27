@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:00:06Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2025-12-25T11:40:48+00:00
+modified: 2025-12-27T20:41:19+00:00
 purpose: "To explain the role of pattern recognition in early development and language."
 review_interval: "90"
 see_also: ["[[Patterns are the Scaffolding of Knowledge]]"]

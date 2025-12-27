@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-01-15T10:04:00Z
 epistemic: "principle"
 last_reviewed: "2025-01-15"
-modified: 2025-12-25T11:40:49+00:00
+modified: 2025-12-27T20:41:19+00:00
 purpose: "Design principle that treats configuration as generated output rather than manual input"
 review_interval: "90"
 see_also: []

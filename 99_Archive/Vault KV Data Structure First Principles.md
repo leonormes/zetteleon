@@ -6,7 +6,7 @@ created: 2025-12-25T00:00:00Z
 description: "Created with Gemini"
 epistemic: 
 last_reviewed: 
-modified: 2025-12-25T18:34:49Z
+modified: 2025-12-27T20:40:53+00:00
 published:
 purpose: 
 review_interval: 
@@ -76,7 +76,7 @@ To integrate **Access Control Lists (ACLs)** into this mental model, we must vie
 
 In a data-centric model, an ACL is a set of rules that act as a gatekeeper between the **Request Path** and the **Storage Node**.
 
-If we represent the store as a Tree , an ACL policy defines a subset of that a specific identity can "see" or "mutate." It is effectively a **Regex-based filter** applied to the URI.
+If we represent the store as a Tree, an ACL policy defines a subset of that a specific identity can "see" or "mutate." It is effectively a **Regex-based filter** applied to the URI.
 
 ### 2\. The Data Structure of a Policy
 
@@ -172,7 +172,7 @@ It is important to distinguish these two in your mental model, as Vault uses bot
 
 A Merkle Tree is a **Summary of State**. It allows Vault to treat a massive database of secrets as a single 32-byte string (the Root). If the Root is valid, every single piece of data below it is implicitly proven to be valid.
 
-Would you like to see how Vault uses this specific structure to handle **"Seal Wrapping"** —where the root of the tree is itself encrypted by an external HSM?
+Would you like to see how Vault uses this specific structure to handle **"Seal Wrapping"**—where the root of the tree is itself encrypted by an external HSM?
 
 Do k8s controllers utilise Merkel tree? Or something like argocd
 

@@ -4,7 +4,7 @@ confidence: "0.95"
 created: 2025-10-30T15:33:36Z
 epistemic: "principle"
 last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2025-12-25T11:40:48+00:00
+modified: 2025-12-27T20:41:19+00:00
 purpose: "Explains why writing in your own words is crucial for learning"
 review_interval: "180"
 see_also: []

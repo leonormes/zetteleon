@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-21T10:51:29Z
 epistemic: "process"
 last_reviewed: "2025-12-23"
-modified: 2025-12-25T18:34:55Z
+modified: 2025-12-27T20:40:57+00:00
 purpose: "To provide a detailed guide for Phase 4 of the FitFile deployment process: deploying the application microservices."
 review_interval: "3 months"
 see_also: ["[[MOC - FitFile Deployment]]", "[[SoT - FITFILE Platform Deployment]]"]

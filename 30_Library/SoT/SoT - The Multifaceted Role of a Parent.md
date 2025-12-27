@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-13T00:00:00Z
 epistemic: "null"
 last_reviewed: "2025-12-13"
-modified: 2025-12-25T11:40:20+00:00
+modified: 2025-12-27T20:40:55+00:00
 purpose: "To define the complex and evolving role of a parent in nurturing a"
 review_interval: "12 months"
 see_also: ["[[SoT - Secure Attachment]]"]
@@ -53,7 +53,7 @@ This role extends far beyond formal schooling.
 
 - **Encouraging Curiosity:** Fostering a love of learning by answering questions, exploring the world together, and encouraging their interests.
 - **Supporting Formal Education:** Creating an environment that values education, helping with schoolwork, and engaging with teachers and the school community.
-- **Teaching Life Skills:** Imparting practical skills necessary for independent life, such as cooking, cleaning, financial literacy, and problem-solving.
+- **Teaching Life Skills:** Imparting practical skills necessary for independent life, such as cooking, cleaning, financial literacy, and problem-solving. (See **[[SoT - Family Household Governance]]** for the operational framework).
 
 ## The Evolving Nature of the Role
 

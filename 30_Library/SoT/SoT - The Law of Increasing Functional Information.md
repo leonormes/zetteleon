@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-25T12:00:00Z
 epistemic: "theoretical"
 last_reviewed: "2025-12-25"
-modified: 2025-12-25T12:00:00Z
+modified: 2025-12-27T20:40:56+00:00
 purpose: "To define the proposed scientific law unifying evolution across physical, biological, and technological systems."
 review_interval: "2 years"
 see_also: ["[[SoT - The Nature of Time and Perception]]", "[[SoT - Human vs AI Cognition]]"]
@@ -39,23 +39,24 @@ This law serves as the necessary counterweight to the **Second Law of Thermodyna
 
 For a system to fall under this law (e.g., atoms, biology, technology), it must possess:
 
-1.  **Diverse Interacting Components:** The "Lego bricks" (e.g., proteins, bits, atoms).
-2.  **Configuration Generation:** A mechanism to arrange these components in new ways (e.g., mutation, chemical bonding, ideation).
-3.  **Selection Pressure:** A filter that preserves only "functional" arrangements (e.g., natural selection, market forces).
+1. **Diverse Interacting Components:** The "Lego bricks" (e.g., proteins, bits, atoms).
+2. **Configuration Generation:** A mechanism to arrange these components in new ways (e.g., mutation, chemical bonding, ideation).
+3. **Selection Pressure:** A filter that preserves only "functional" arrangements (e.g., natural selection, market forces).
 
 ## 4. Selection Mechanisms
 
 The law identifies three distinct types of selection that drive complexity:
 
-1.  **Static Persistence:** Stability of matter. (Why protons don't decay).
-2.  **Dynamic Persistence:** Stability of function. (Why a metabolic cycle keeps running).
-3.  **Novelty Generation:** Selection for new capabilities. (Why eyes or AI evolved).
+1. **Static Persistence:** Stability of matter. (Why protons don't decay).
+2. **Dynamic Persistence:** Stability of function. (Why a metabolic cycle keeps running).
+3. **Novelty Generation:** Selection for new capabilities. (Why eyes or AI evolved).
 
 ## 5. Measure: "Functional Information"
 
 Defined by Jack Szostak (2003), functional information is a measure of **Rarity**.
-*   It quantifies how unlikely a specific functional configuration is compared to the total space of possible random configurations.
-*   **Implication:** High functional information = High evidence of selection/evolution. (e.g., finding a Boeing 747 on Mars proves evolution/intelligence, finding a rock does not).
+
+* It quantifies how unlikely a specific functional configuration is compared to the total space of possible random configurations.
+* **Implication:** High functional information = High evidence of selection/evolution. (e.g., finding a Boeing 747 on Mars proves evolution/intelligence, finding a rock does not).
 
 ## 6. Significance
 

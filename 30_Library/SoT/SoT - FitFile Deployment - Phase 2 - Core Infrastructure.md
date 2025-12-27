@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-21T10:51:07Z
 epistemic: "process"
 last_reviewed: "2025-12-23"
-modified: 2025-12-25T18:34:55Z
+modified: 2025-12-27T20:40:57+00:00
 purpose: "To provide a detailed guide for Phase 2 of the FitFile deployment process: provisioning the cloud bedrock."
 review_interval: "3 months"
 see_also: ["[[MOC - FitFile Deployment]]", "[[SoT - Data-Centric Infrastructure (Terraform)]]", "[[SoT - FITFILE Platform Deployment]]", "[[SoT - FitFile Deployment - Azure Organization Architecture]]"]
@@ -69,6 +69,7 @@ touch main.tf variables.tf outputs.tf versions.tf providers.tf
 For Azure deployments, Terraform Cloud requires a Service Principal (non-human identity) with specific credentials and role assignments.
 
 #### 1. Creation & Credentials
+
 Create an App Registration in Microsoft Entra ID. The following credentials must be set as **Terraform Cloud Environment Variables**:
 
 | Variable | Source | Sensitive? |
@@ -78,6 +79,7 @@ Create an App Registration in Microsoft Entra ID. The following credentials must
 | `ARM_CLIENT_SECRET` | Client Secret Value | **Yes** |
 
 #### 2. Role Assignments (Standard vs. Least Privilege)
+
 The Service Principal requires permissions to create the cluster and allow the cluster to operate.
 
 **Baseline Roles:**
@@ -87,26 +89,26 @@ The Service Principal requires permissions to create the cluster and allow the c
 **Refined Least Privilege (Custom Role):**
 To adhere to strict security standards, replace `Contributor` with a custom role containing only these actions:
 
-- **Compute:** 
+- **Compute:**
     - `Microsoft.Compute/diskEncryptionSets/read`
     - `Microsoft.Compute/proximityPlacementGroups/write`
     - `Microsoft.Compute/disks/*`
     - `Microsoft.Compute/virtualMachines/*`
     - `Microsoft.Compute/locations/vmSizes/read`
     - `Microsoft.Compute/locations/operations/read`
-- **Network:** 
+- **Network:**
     - `Microsoft.Network/virtualNetworks/joinLoadBalancer/action`
     - `Microsoft.Network/networkInterfaces/*`
     - `Microsoft.Network/virtualNetworks/*`
     - `Microsoft.Network/virtualNetworks/subnets/*`
-- **Identity:** 
+- **Identity:**
     - `Microsoft.ManagedIdentity/userAssignedIdentities/assign/action` (Critical for assigning Identity to Nodes)
-- **Cluster Management:** 
+- **Cluster Management:**
     - `Microsoft.ContainerService/managedClusters/*`
-- **Monitoring:** 
+- **Monitoring:**
     - `Microsoft.OperationalInsights/workspaces/*`
     - `Microsoft.OperationsManagement/solutions/*`
-- **Resource Groups:** 
+- **Resource Groups:**
     - `Microsoft.Resources/subscriptions/resourcegroups/*`
 
 > **Note:** The AKS Cluster itself will use a **Managed Identity** for runtime operations (Load Balancers, Storage), distinct from the Terraform Service Principal. The Service Principal essentially bootstraps this identity.

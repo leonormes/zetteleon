@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T20:22:24Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-25T11:40:46+00:00
+modified: 2025-12-27T20:41:17+00:00
 purpose: "Define the GTD concept of 'next action' as the critical bridge from motion to action."
 review_interval: "90"
 see_also: ["[[Action Defined as Behavior That Produces Tangible Outcomes]]", "[[GTD Workflow Separates Motion and Action Phases]]"]

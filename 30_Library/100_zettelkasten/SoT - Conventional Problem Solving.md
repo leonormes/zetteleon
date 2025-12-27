@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-02-07T12:57:55Z
 epistemic: "theory"
 last_reviewed: "2025-12-16"
-modified: 2025-12-25T11:40:45+00:00
+modified: 2025-12-27T20:41:16+00:00
 purpose: "To define Applicative Intelligence\\u2014the systematic application of existing frameworks to solve problems\\u2014distinguishing it from Generative Intelligence."
 review_interval: ""
 see_also: ["[[SoT - Cognitive Refactoring (Neural Debugging)]]", "[[SoT - PRODOS - Problem Architecture]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T09:40:32Z
 epistemic: "process"
 last_reviewed: "2025-12-24"
-modified: 2025-12-25T18:34:53Z
+modified: 2025-12-27T20:40:56+00:00
 purpose: "To define a low-friction protocol for tracking health events (e.g., migraines) within the ProdOS ecosystem."
 review_interval: "12 months"
 see_also: ["[[MOC - ProdOS Lite]]", "[[SoT - Migraine Tracking Dashboard]]"]

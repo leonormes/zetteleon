@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-17T01:57:15Z
 epistemic:
 last_reviewed:
-modified: 2025-12-25T11:40:50+00:00
+modified: 2025-12-27T20:41:21+00:00
 purpose: To instruct an LLM on how to act as a technical writer for the FITFILE product, enforcing a strict, hierarchical numbering and cross-referencing system for creating and managing Features, Requirements, and FAQ documents within Confluence and Jira.
 review_interval:
 see_also: []

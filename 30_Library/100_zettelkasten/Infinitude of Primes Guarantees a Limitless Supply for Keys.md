@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-08-19T23:32:29Z
 epistemic: "fact"
 last_reviewed: 2025-12-24
-modified: 2025-12-25T18:35:26Z
+modified: 2025-12-27T20:41:18+00:00
 purpose: "To explain why there is no largest prime number and its impact on key generation."
 review_interval: "1 year"
 see_also: ["[[Fundamental Theorem of Arithmetic]]", "[[Primes Become Rarer But Remain Searchable]]"]

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T12:17:00Z
 epistemic: "model"
 last_reviewed: ""
-modified: 2025-12-25T11:40:46+00:00
+modified: 2025-12-27T20:41:17+00:00
 purpose: "Explain the PINCH model of ADHD motivation."
 review_interval: "90"
 see_also: ["The ADHD Brain Operates as an Interest-Based Nervous System.md"]

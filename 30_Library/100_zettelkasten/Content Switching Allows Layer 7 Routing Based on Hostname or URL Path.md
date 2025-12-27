@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T09:25:24Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-25T11:40:48+00:00
+modified: 2025-12-27T20:41:19+00:00
 purpose: "Define Layer 7 routing in the context of load balancing."
 review_interval: "90"
 see_also: ["A Load Balancer Distributes Traffic for Reliability and Scale.md"]

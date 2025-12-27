@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-24T09:36:40Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-25T18:35:20Z
+modified: 2025-12-27T18:19:28+00:00
 purpose: "A low-friction, low-energy entry point for ADHD cognitive support. Focuses on throughput over storage."
 review_interval: ""
 see_also: []
@@ -52,6 +52,22 @@ Inside a `HEAD` note, only answer these three questions. Spend no more than 2 mi
 - **NO METADATA:** Skip the YAML header if it slows you down.
 - **NO POLISHING:** This is a workbench, not a museum. Messy is fine.
 - **NO STORAGE:** If a note hasn't turned into an Action or a Fact in 24 hours, **Delete it**.
+
+---
+
+### 4. THE LEARNING LOOP (The "Lite" Learning Path)
+
+> [!mission] Learn by Building
+> Don't "study". Pick a **Boss Fight** (Project) and grind the levels to beat it.
+
+1. **THE ANCHOR:** Create a **Project Note** (`10_Actions/11_Projects/Project - Learn X`). This is your "Save State".
+2. **THE GRIND:**
+    * **Pick a Mission:** Select *one* check-box from your Project note.
+    * **Spin Up:** Create a **HEAD Note** (`cmd+shift+n`) to "fight" the concept.
+    * **The Test:** Write code/output. Fail. Fix it.
+3. **THE LOOT:**
+    * **Synthesize:** Extract the "Aha!" into an **SoT Note** (`30_Library/SoT`).
+    * **Clean Up:** Check off the mission. Delete/Archive the HEAD note.
 
 ---
 

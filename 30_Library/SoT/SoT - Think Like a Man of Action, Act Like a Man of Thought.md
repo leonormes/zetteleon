@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-07T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-25T18:34:54Z
+modified: 2025-12-27T20:40:55+00:00
 purpose: "To define the operational philosophy of balancing analysis with execution."
 review_interval: "3 months"
 see_also: ["[[Think Like a Man of Action]]"]

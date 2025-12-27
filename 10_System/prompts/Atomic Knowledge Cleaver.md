@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-29T04:23:37Z
 epistemic:
 last_reviewed:
-modified: 2025-12-25T11:40:50+00:00
+modified: 2025-12-27T20:41:21+00:00
 purpose: Deconstructs a long hybrid note into atomic facts and a contextual structural map, while also providing a secondary prompt for synthesizing multiple notes into consolidated concepts.
 review_interval:
 see_also: []

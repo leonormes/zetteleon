@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: "theory"
 last_reviewed: "2025-12-14"
-modified: 2025-12-25T11:40:22+00:00
+modified: 2025-12-27T20:40:58+00:00
 purpose: "A comprehensive guide for remote software developers with ADHD to manage deficits, leverage strengths, and build sustained productivity."
 review_interval: "6 months"
 see_also: ["[[MOC - ADHD Management]]", "[[SoT - The Extended Mind]]"]

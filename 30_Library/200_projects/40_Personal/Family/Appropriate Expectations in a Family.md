@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-11T09:28:07Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-25T11:40:24+00:00
+modified: 2025-12-27T20:41:03+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -207,3 +207,9 @@ For a healthier relationship balance, it’s important to:
 - Seek to approach decisions as collaborative problem-solving rather than battlegrounds for control or emotional reactions.
 
 Professional couples counseling or mediated conversations can be particularly helpful to break patterns where one partner feels systematically disregarded and to foster mutual respect and cooperation. The goal is shifting from “my way or the highway” to genuine partnership with shared goals and respect for individual needs
+
+## System Implementation
+
+For a practical framework on how to implement "Shared Responsibilities" and "Parenting Duties" effectively within the household, see:
+
+- **[[SoT - Family Household Governance]]** - Defines the "Earned Access" model and operational protocols for distributing household labour fairly.

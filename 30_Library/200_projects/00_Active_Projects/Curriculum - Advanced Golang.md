@@ -5,7 +5,7 @@ confidence: ""
 created: 2025-12-24T17:16:29Z
 epistemic: "Synthesized from Node.js -> Go transition patterns and Cloud Native architectural requirements."
 last_reviewed: "2025-12-26"
-modified: 2025-12-26T00:00:00Z
+modified: 2025-12-27T20:41:15+00:00
 purpose: "A project-driven curriculum to transition from Node.js/TS to Cloud Native Go."
 related_project: "[[Project - Concurrent TCP Log Ingestor]]"
 review_interval: "3 months"
@@ -34,7 +34,7 @@ version: 2.0
 |:--- |:--- |:--- |:--- |
 | **Concurrency** | **Async/Await** (Single Thread). Fear blocking the main thread. | **Goroutines/CSP** (M:N Scheduler). Blocking is fine; the scheduler handles it. Share memory by communicating (Channels). |
 | **Types** | **Structural** (Shapes, Unions `A \| B`). | **Interfaces** (Behavior). Implicit Duck Typing. No `implements` keyword. |
-| **Errors** | **Exceptions** (`try/catch`). Bubbling. | **Values** (`if err != nil`). Explicit handling at point-of-failure. |
+| **Errors** | **Exceptions** (`try/catch`). Bubbling. | **Values** (`if err!= nil`). Explicit handling at point-of-failure. |
 | **Architecture** | **Layer-First** (DB -> Controller). | **Domain-First** (Struct -> Interface). Hexagonal/Ports & Adapters. |
 
 ---
@@ -42,6 +42,7 @@ version: 2.0
 ## 2. The Project Ladder (Execution)
 
 ### Level 1: The CLI (The Syntax Shift)
+
 **Project A: "DevOps Swiss Army Knife"**
 *Goal:* Replace a Bash/Node script (e.g., Log Parser, S3 Cleaner) with a binary.
 *Focus:* Structs, Interfaces, `os/exec`, `flag`.
@@ -54,6 +55,7 @@ version: 2.0
 | **The Executioner** | Use `os/exec` to run a system command (e.g., `grep`) and capture stdout. |
 
 ### Level 2: The Service (The Concurrency Shift)
+
 **Project B: "Resilient Microservice / TCP Ingestor"**
 *Goal:* A long-running service that manages goroutine lifecycles and timeouts.
 *Focus:* Goroutines, Channels, `context.Context`, `net/http` or `net`.
@@ -66,6 +68,7 @@ version: 2.0
 | **The Worker Pool** | 5 workers process 100 jobs from a buffered channel. Graceful shutdown on SIGTERM. |
 
 ### Level 3: The Operator (The Architecture Shift)
+
 **Project C: "Kubernetes Custom Controller"**
 *Goal:* A controller that watches a CRD and reconciles state.
 *Focus:* Level-Triggered Logic, Kubebuilder, Eventual Consistency.
@@ -77,6 +80,7 @@ version: 2.0
 | **The CRD Def** | Define a `Database` struct in Go. Generate the YAML CRD. Apply it to a Kind cluster. |
 
 ### Level 4: The Architect (Domain-First Design)
+
 **Project D: "Mini-Vault" (The Hexagonal Challenge)**
 *Goal:* Build a secure Key-Value store using TDD and "Core-Out" design.
 *Focus:* Dependency Inversion, TDD, Encryption.

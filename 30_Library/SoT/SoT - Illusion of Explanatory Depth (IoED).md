@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: "Verified via Cognitive Science & Behavioral Economics (Rozenblit & Keil, 2002)"
 last_reviewed: "2025-12-15"
-modified: 2025-12-25T11:40:21+00:00
+modified: 2025-12-27T01:26:23+00:00
 purpose: "To define the Illusion of Explanatory Depth and its critical impact on learning, systems thinking, and ADHD metacognition."
 review_interval: "6 months"
 see_also: ["[[Familiarity is Mistaken for Comprehension in IoED]]", "[[MOC - Illusion of Explanatory Depth]]", "[[MOC ADHD and Metacognition]]", "[[SoT - ADHD and Motivation]]", "[[SoT - Knowledge Synthesis (Thinking)]]", "[[SoT - Thinking Patterns", "and Heuristics]]", "Biases"]

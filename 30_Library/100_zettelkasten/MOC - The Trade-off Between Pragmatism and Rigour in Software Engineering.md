@@ -6,7 +6,7 @@ criteria: "Links to canonical SoT notes defining the core principles of this con
 epistemic: ""
 exclusions: "Implementation details of specific projects."
 last_reviewed: ""
-modified: 2025-12-25T11:40:47+00:00
+modified: 2025-12-27T20:41:18+00:00
 purpose: ""
 review_interval: ""
 scope: "The core conflict between building software quickly (pragmatism) and building it correctly (rigour)."

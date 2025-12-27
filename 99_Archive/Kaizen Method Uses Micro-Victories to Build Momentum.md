@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2025-11-12T15:00:07Z
 epistemic: principle
 last_reviewed:
-modified: 2025-12-25T11:40:19+00:00
+modified: 2025-12-27T20:40:54+00:00
 purpose: "To define the Kaizen method as a tool for building momentum."
 review_interval: 90
 see_also: ["[[Success Accumulates Through Thousands of Tiny Daily Choices]]"]

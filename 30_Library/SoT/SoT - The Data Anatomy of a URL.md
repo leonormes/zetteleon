@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T08:47:50Z
 epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2025-12-25T18:34:53Z
+modified: 2025-12-27T20:40:56+00:00
 purpose: "To define the structured components of a Uniform Resource Locator (URL) and its role in network resource retrieval."
 review_interval: "1 year"
 see_also: ["[[SoT - Protocol Data Units (PDU)]]", "[[SoT - The Data Architecture of DNS]]"]

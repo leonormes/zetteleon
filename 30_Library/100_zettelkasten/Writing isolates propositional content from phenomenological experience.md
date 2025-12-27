@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-31T20:46:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2025-12-25T11:40:44+00:00
+modified: 2025-12-27T20:41:15+00:00
 purpose: "Describes how externalization isolates propositional content from phenomenological experience"
 review_interval: "90"
 see_also: ["[[Thoughts are bundled with phenomenological qualities]]"]

@@ -4,7 +4,7 @@ confidence: "0.93"
 created: 2025-10-31T08:20:00Z
 epistemic: "principle"
 last_reviewed: "2025-10-31"
-modified: 2025-12-25T11:40:46+00:00
+modified: 2025-12-27T20:41:17+00:00
 purpose: "Defines the lifecycle of a note's status and the criteria for advancement from seedling to evergreen."
 review_interval: "90"
 see_also: []

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:10:01Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-25T11:40:48+00:00
+modified: 2025-12-27T20:41:18+00:00
 purpose: "To define the role of comprehension and integration in knowledge formation."
 review_interval: "90"
 see_also: ["[[Knowledge Emerges Through Application and Experience]]"]

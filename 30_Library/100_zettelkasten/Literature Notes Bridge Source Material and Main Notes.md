@@ -4,7 +4,7 @@ confidence: "0.95"
 created: 2025-10-30T15:31:09Z
 epistemic: "fact"
 last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2025-12-25T11:40:47+00:00
+modified: 2025-12-27T20:41:18+00:00
 purpose: "Defines the intermediate stage between capture and permanent notes"
 review_interval: "180"
 see_also: []

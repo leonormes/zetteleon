@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:30:46Z
 epistemic: "reference"
 last_reviewed: "2025-12-23"
-modified: 2025-12-25T18:34:53Z
+modified: 2025-12-27T20:40:56+00:00
 purpose: "To provide a comparative analysis of the major personal finance budgeting systems."
 review_interval: "1 year"
 see_also: ["[[SoT - Family Financial Wellness]]", "[[SoT - The YNAB Method]]"]

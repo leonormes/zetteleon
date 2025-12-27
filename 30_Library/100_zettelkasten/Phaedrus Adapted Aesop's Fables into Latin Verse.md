@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T21:36:00Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2025-12-25T11:40:46+00:00
+modified: 2025-12-27T20:41:17+00:00
 purpose: "To describe Phaedrus' role in adapting Aesop's fables into Latin literature."
 review_interval: "90"
 see_also: ["[[Aesops Fables Originated in Oral Tradition]]", "[[Sequence - Evolution of Fable Storytelling]]"]

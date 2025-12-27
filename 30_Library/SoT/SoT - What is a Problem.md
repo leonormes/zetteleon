@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-07T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-07"
-modified: 2025-12-25T11:40:20+00:00
+modified: 2025-12-27T20:40:55+00:00
 purpose: "To define the fundamental concept of a 'Problem' in a domain-agnostic sense, distinguishing it from Tasks, Goals, and Constraints."
 review_interval: "6 months"
 see_also: ["[[Fixed-Schedule Productivity Creates Artificial Constraints to Drive Efficiency]]", "[[Problems Are Fundamental to Meaningful Work]]", "[[SoT - PRODOS - Problem Architecture]]", "[[SoT - PRODOS - Problem-Solution Map]]"]

@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-12-12T00:00:00Z
 epistemic: "null"
 last_reviewed: 
-modified: 2025-12-25T11:40:20+00:00
+modified: 2025-12-27T20:40:56+00:00
 purpose: "To define the core principles of Software Configuration Management"
 review_interval: "6 months"
 see_also: ["[[SoT - Automated Cloud Resource Hibernation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT -\\\\\\\", \\\\\\\"[[SoT - Automated Cloud Resource Hibernation]]"]

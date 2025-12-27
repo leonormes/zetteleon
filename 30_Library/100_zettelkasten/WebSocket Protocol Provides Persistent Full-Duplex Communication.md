@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T13:44:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2025-12-25T11:40:44+00:00
+modified: 2025-12-27T20:41:15+00:00
 purpose: "Explain WebSocket protocol and its relationship to TCP sockets."
 review_interval: "90"
 see_also: ["Stream Sockets Provide Reliable Ordered TCP Communication.md", "WebSocket Use Cases for Real-Time Applications.md"]

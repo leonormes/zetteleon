@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T12:25:00Z
 epistemic: "pattern"
 last_reviewed: ""
-modified: 2025-12-25T11:40:49+00:00
+modified: 2025-12-27T20:41:20+00:00
 purpose: "Explain Aesop's fable structure."
 review_interval: "90"
 see_also: []

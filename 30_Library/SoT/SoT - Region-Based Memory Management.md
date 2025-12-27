@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "concept"
 last_reviewed: "2025-12-19"
-modified: 2025-12-25T11:40:21+00:00
+modified: 2025-12-27T20:40:56+00:00
 purpose: "To define the formal computer science concept of Region-Based Memory Management and its relationship to Rust's lifetime system."
 review_interval: "24 months"
 see_also: ["[[SoT - Rust's Ownership Model]]"]
