@@ -7,7 +7,7 @@ confidence: 5/5
 created: 2025-12-04T14:38:32Z
 epistemic: reference
 last_reviewed: 2025-12-23
-modified: 2025-12-27T20:41:18+00:00
+modified: 2025-12-28T09:56:30+00:00
 purpose: The Master Map of Content and entry point for the ProdOS ecosystem, routing to all Source of Truth notes and protocols.
 review_interval: 3 months
 see_also:

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-27T20:31:13+00:00
 epistemic: "knowledge"
 last_reviewed: "2025-12-27"
-modified: 2025-12-27T20:40:55+00:00
+modified: 2025-12-28T09:56:09+00:00
 purpose: "To explain the mechanics of Rust's polymorphism, focusing on how Generics and Traits enable type abstraction with zero runtime cost."
 review_interval: "6 months"
 see_also: ["[[SoT - Rust Language]]", "[[SoT - Rust Type System]]", "[[SoT - Rust's Design Philosophy]]"]
@@ -71,9 +71,9 @@ Some traits have no methods but instruct the compiler to change its behavior.
 
 This pattern allows you to add methods to types you do not own (e.g., standard library types), enabling a "fluent" API style.
 
-1.  **Define a Trait:** Create a trait with the desired new method.
-2.  **Implement Generic:** Implement it for *all* types that satisfy a condition (`impl<T: Iterator> MyExt for T`).
-3.  **Result:** You can now call `.my_method()` on `Vec::iter()` directly.
+1. **Define a Trait:** Create a trait with the desired new method.
+2. **Implement Generic:** Implement it for *all* types that satisfy a condition (`impl<T: Iterator> MyExt for T`).
+3. **Result:** You can now call `.my_method()` on `Vec::iter()` directly.
 
 ### 3.4 Conditional Capabilities (Conditional API)
 

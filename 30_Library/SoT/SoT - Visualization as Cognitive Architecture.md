@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-15T00:00:00Z
 epistemic: "Derived from neuroscience of the primary visual cortex and fractal geometry principles."
 last_reviewed: "2025-12-15"
-modified: 2025-12-27T20:40:55+00:00
+modified: 2025-12-28T09:56:09+00:00
 purpose: "To redefine visualization not as \\\\\\\"imagination\\\\\\\" but as a cognitive architecture for constructing reality using fractal logic."
 review_interval: "6 months"
 see_also: ["[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]", "[[SoT - Reality", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[Visualization Supports Mathematical Thinking]]", "and the Limits of Accuracy]]", "Models"]

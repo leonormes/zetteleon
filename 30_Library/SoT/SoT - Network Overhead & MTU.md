@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:39:13Z
 epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2025-12-27T20:40:57+00:00
+modified: 2025-12-28T09:56:10+00:00
 purpose: "To define the mathematical impact of protocol headers on bandwidth and the constraints of Maximum Transmission Units (MTU)."
 review_interval: "6 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - Encapsulation & De-encapsulation]]"]

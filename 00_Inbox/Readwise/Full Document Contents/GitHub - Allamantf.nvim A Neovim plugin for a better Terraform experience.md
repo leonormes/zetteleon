@@ -1,17 +1,36 @@
+---
+aliases: []
+tags: []
+title: "GitHub - Allaman/tf.nvim: A Neovim plugin for a better Terraform experience"
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+created: 2025-12-28T08:49:52+00:00
+modified: 2025-12-28T09:56:35+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+---
+
 # GitHub - Allaman/tf.nvim: A Neovim plugin for a better Terraform experience
 
 ![rw-book-cover](https://opengraph.githubassets.com/fb62eaa481967888b3bcf4dca58b1812a9a19ff496e387ad3a6ef595d4e39538/Allaman/tf.nvim)
 
 ## Metadata
+
 - Author: [[https://github.com/Allaman/]]
 - Full Title: GitHub - Allaman/tf.nvim: A Neovim plugin for a better Terraform experience
 - Category: #articles
-- Summary: tf.nvim is a Neovim plugin that makes working with Terraform easier.  
-It opens provider docs, shows and edits Terraform state, and runs validate without leaving the editor.  
+- Summary: tf.nvim is a Neovim plugin that makes working with Terraform easier.
+It opens provider docs, shows and edits Terraform state, and runs validate without leaving the editor.
 It is configurable (providers, browser, filetypes) and supports major providers.
 - URL: https://github.com/Allaman/tf.nvim
 
 ## Full Document
+
 ### Allaman/tf.nvim
 
 main
@@ -25,13 +44,21 @@ Open more actions menu
 ### tf.nvim
 
 [![Neovim](https://camo.githubusercontent.com/28b5ffd8f49341656d05ea42230b36f741bf5b55617b8b723888486557cdab1a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e656f56696d2d2532333537413134332e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d6e656f76696d266c6f676f436f6c6f723d7768697465)](https://camo.githubusercontent.com/28b5ffd8f49341656d05ea42230b36f741bf5b55617b8b723888486557cdab1a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e656f56696d2d2532333537413134332e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d6e656f76696d266c6f676f436f6c6f723d7768697465)
+
 [![Lua](https://camo.githubusercontent.com/e36213a395c2482ef182bcbce90143b8213e49aefa0761e9681cc96d38e05ffc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c75612d2532333243324437322e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6c7561266c6f676f436f6c6f723d7768697465)](https://camo.githubusercontent.com/e36213a395c2482ef182bcbce90143b8213e49aefa0761e9681cc96d38e05ffc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c75612d2532333243324437322e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6c7561266c6f676f436f6c6f723d7768697465)
+
 [![CI](https://github.com/Allaman/tf.nvim/actions/workflows/ci.yml/badge.svg)](https://github.com/Allaman/tf.nvim/actions/workflows/ci.yml/badge.svg)
+
 [![size](https://camo.githubusercontent.com/1bd8c8bd3483e7fcb281a4dbc267d1892f9648c2fe90c41e5a96330e8543a733/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f7265706f2d73697a652f416c6c616d616e2f74662e6e76696d)](https://camo.githubusercontent.com/1bd8c8bd3483e7fcb281a4dbc267d1892f9648c2fe90c41e5a96330e8543a733/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f7265706f2d73697a652f416c6c616d616e2f74662e6e76696d)
+
 [![issues](https://camo.githubusercontent.com/d8752464fc6fd092d0f8d336c2fc43d6fc3a0ed52131166d39f6282b3ddd4708/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f416c6c616d616e2f74662e6e76696d2e737667)](https://camo.githubusercontent.com/d8752464fc6fd092d0f8d336c2fc43d6fc3a0ed52131166d39f6282b3ddd4708/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f416c6c616d616e2f74662e6e76696d2e737667)
+
 [![last commit](https://camo.githubusercontent.com/24b10188f246ff482490b0e47af61c4d9c68dab2859d36004f65bb5a7c1d00a5/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f416c6c616d616e2f74662e6e76696d)](https://camo.githubusercontent.com/24b10188f246ff482490b0e47af61c4d9c68dab2859d36004f65bb5a7c1d00a5/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f416c6c616d616e2f74662e6e76696d)
+
 [![license](https://camo.githubusercontent.com/4181ab611afd4d4a5a7fd5bc7a9afd97268630f370f4968aaca9090e8c7db6c7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f416c6c616d616e2f74662e6e76696d)](https://camo.githubusercontent.com/4181ab611afd4d4a5a7fd5bc7a9afd97268630f370f4968aaca9090e8c7db6c7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f416c6c616d616e2f74662e6e76696d)
+
 [![release](https://camo.githubusercontent.com/df00d1750312b74ce47bf8d2ff24ace2d01209d3cca84a99bbf03593cf4bbc64/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f416c6c616d616e2f74662e6e76696d3f736f72743d73656d766572)](https://camo.githubusercontent.com/df00d1750312b74ce47bf8d2ff24ace2d01209d3cca84a99bbf03593cf4bbc64/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f416c6c616d616e2f74662e6e76696d3f736f72743d73656d766572)
+
 A Neovim plugin for
 
 * quickly accessing Terraform provider documentation
@@ -72,6 +99,7 @@ A Neovim plugin for
 * `:TerraformDocOpen` - Always open URL in browser
 
 [![tf-doc.png](https://camo.githubusercontent.com/18d86a2cf4cd9989c50f9c33efb050b3a2d70c3cca086ac1b8e267407aa9e7cd/68747470733a2f2f7331322e67696679752e636f6d2f696d616765732f62684d4c452e706e67)](https://camo.githubusercontent.com/18d86a2cf4cd9989c50f9c33efb050b3a2d70c3cca086ac1b8e267407aa9e7cd/68747470733a2f2f7331322e67696679752e636f6d2f696d616765732f62684d4c452e706e67)
+
 **State Management:**
 
 * `:TerraformState` - Open interactive state viewer
@@ -81,6 +109,7 @@ A Neovim plugin for
 * `:TerraformValidate` - Run `terraform validate` in the detected project root
 
 [![ts-state.png](https://camo.githubusercontent.com/f3feb79dc84e2f722b12a917fc1a5558ddc449204d19344378d3a91cb094d1ba/68747470733a2f2f7331322e67696679752e636f6d2f696d616765732f62684d4c682e706e67)](https://camo.githubusercontent.com/f3feb79dc84e2f722b12a917fc1a5558ddc449204d19344378d3a91cb094d1ba/68747470733a2f2f7331322e67696679752e636f6d2f696d616765732f62684d4c682e706e67)
+
 ##### Terraform Documentation
 
 1. Open a Terraform file (`.tf`)

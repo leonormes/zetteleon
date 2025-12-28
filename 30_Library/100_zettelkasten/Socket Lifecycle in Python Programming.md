@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-31T13:39:00Z
 epistemic: "NA"
 last_reviewed: "2025-10-31"
-modified: 2025-12-27T20:41:16+00:00
+modified: 2025-12-28T09:56:29+00:00
 purpose: "Document the standard socket lifecycle operations in Python."
 review_interval: "180"
 see_also: []

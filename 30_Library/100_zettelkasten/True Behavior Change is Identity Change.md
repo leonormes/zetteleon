@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T12:00:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-27T20:41:16+00:00
+modified: 2025-12-28T09:56:28+00:00
 purpose: "To establish the core principle that lasting behavior change is rooted in identity."
 review_interval: "90"
 see_also: ["[[Identity-Based Habits Are More Sustainable Than Outcome-Based Habits]]"]

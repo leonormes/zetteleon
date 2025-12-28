@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-19"
-modified: 2025-12-27T20:40:58+00:00
+modified: 2025-12-28T09:56:11+00:00
 purpose: "To define the definitive security model for container isolation, explicitly stating that mount namespaces are the primary gatekeeper for security."
 review_interval: "1 year"
 see_also: ["[[MOC - Linux Container Primitives]]", "[[SoT - Namespacing in Computing]]"]

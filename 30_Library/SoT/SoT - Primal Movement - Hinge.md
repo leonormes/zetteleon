@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2025-12-27T20:40:56+00:00
+modified: 2025-12-28T09:56:10+00:00
 purpose: "To define the Hinge pattern as a foundational primal movement."
 review_interval: "6 months"
 see_also: ["[[SoT - Functional Mobility & Primal Movement]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2025-12-27T20:40:56+00:00
+modified: 2025-12-28T09:56:10+00:00
 purpose: "A high-efficiency daily routine to activate all 7 primal movement pillars in 5 minutes."
 review_interval: "3 months"
 see_also: ["[[SoT - Functional Mobility & Primal Movement]]"]

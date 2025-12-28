@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-24T12:11:31Z
 epistemic: synthesis
 last_reviewed: 2025-12-24
-modified: 2025-12-27T20:40:55+00:00
+modified: 2025-12-28T09:56:09+00:00
 purpose: To define the economic and technical architecture of the 'Inspiration Economy' where humans orchestrate AI labor.
 review_interval: 6 months
 see_also: ["[[AI-Resilient Task Taxonomy]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Telos Method]]"]

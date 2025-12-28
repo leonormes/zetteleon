@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T20:02:00Z
 epistemic: "principle"
 last_reviewed: "2025-10-31"
-modified: 2025-12-27T20:41:19+00:00
+modified: 2025-12-28T09:56:32+00:00
 purpose: "Describes the information loss inherent in translating thoughts into language"
 review_interval: "90"
 see_also: ["Communication requires iterative approximation", "Ideas exist beyond linguistic expression"]

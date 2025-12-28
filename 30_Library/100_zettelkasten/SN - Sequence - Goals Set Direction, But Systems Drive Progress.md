@@ -6,7 +6,7 @@ criteria: "Notes must relate to the philosophy of system-driven progress over go
 epistemic: ""
 exclusions: "Specific implementations of systems (e.g., GTD, Zettelkasten) unless used as examples."
 last_reviewed: ""
-modified: 2025-12-27T20:41:16+00:00
+modified: 2025-12-28T09:56:29+00:00
 purpose: ""
 review_interval: ""
 scope: "The relationship between goals and systems in achieving long-term progress."

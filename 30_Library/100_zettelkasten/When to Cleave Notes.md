@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T08:18:00Z
 epistemic: "principle"
 last_reviewed: "2025-10-31"
-modified: 2025-12-27T20:41:15+00:00
+modified: 2025-12-28T09:56:28+00:00
 purpose: "Defines the triggers and signals that indicate a note should be cleaved into atomic notes and a structural map."
 review_interval: "90"
 see_also: []

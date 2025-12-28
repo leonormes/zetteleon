@@ -4,7 +4,7 @@ confidence: "1.0"
 created: 2025-11-22T15:00:01Z
 epistemic: "definition"
 last_reviewed: "2025-11-22"
-modified: 2025-12-27T20:41:19+00:00
+modified: 2025-12-28T09:56:32+00:00
 purpose: "Defines the software endpoint for network communication."
 review_interval: "90"
 see_also: []

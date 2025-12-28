@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-27T14:11:28+00:00
 epistemic: "knowledge"
 last_reviewed: "2025-12-27"
-modified: 2025-12-27T20:31:38+00:00
+modified: 2025-12-28T09:56:09+00:00
 purpose: "The canonical entry point for the Rust programming language in the SoT."
 review_interval: "6 months"
 see_also: ["[[MOC - Rust Programming Language]]", "[[SoT - Rust's Design Philosophy]]", "[[SoT - Rust's Ownership Model]]", "[[SoT - Rust Type System]]"]
@@ -40,6 +40,7 @@ Classical logic treats information as eternal. **Affine Logic** treats it as a r
     - **Liveness:** References must never outlive their data.
 
 This system effectively eliminates:
+
 1. **Use-After-Free:** Impossible because the resource is invalidated on move.
 2. **Data Races:** Impossible because simultaneous mutation and reading are forbidden.
 3. **GC Pauses:** Memory is freed deterministically when it goes out of scope.

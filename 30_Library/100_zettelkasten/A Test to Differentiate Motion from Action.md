@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T20:37:00Z
 epistemic: "tool"
 last_reviewed: "2025-11-01"
-modified: 2025-12-27T20:41:20+00:00
+modified: 2025-12-28T09:56:33+00:00
 purpose: "To provide a simple test to differentiate between motion and action."
 review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]"]

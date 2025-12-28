@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T11:02:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-27T20:41:18+00:00
+modified: 2025-12-28T09:56:31+00:00
 purpose: "To define the role of the artist in expressive music."
 review_interval: "90"
 see_also: []

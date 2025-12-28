@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: "operational"
 last_reviewed: "2025-12-12"
-modified: 2025-12-27T20:40:56+00:00
+modified: 2025-12-28T09:56:10+00:00
 purpose: "To define the canonical folder structure and storage protocols for ProdOS v5.0, ensuring optimal context retrieval and LLM efficiency."
 review_interval: "6 months"
 see_also: ["[[SoT - PRODOS (System Architecture)]]"]

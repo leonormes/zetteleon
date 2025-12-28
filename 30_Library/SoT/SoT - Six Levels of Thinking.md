@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-14"
-modified: 2025-12-27T20:40:56+00:00
+modified: 2025-12-28T09:56:09+00:00
 purpose: "To define the framework of cognitive progression from 1st person objectification to 6th person pure awareness."
 review_interval: "1 year"
 see_also: ["[[SoT - PRODOS (System Architecture)]]"]

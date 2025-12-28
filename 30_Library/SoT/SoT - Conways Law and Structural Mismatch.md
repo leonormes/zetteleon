@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-17T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-17"
-modified: 2025-12-27T20:40:58+00:00
+modified: 2025-12-28T09:56:11+00:00
 purpose: "To explain how an organization's communication structure inevitably shapes the technical systems it produces."
 review_interval: "3 months"
 see_also: ["[[MOC - Socio-Technical Dissonance]]"]

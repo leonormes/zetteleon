@@ -4,7 +4,7 @@ confidence: "0.7"
 created: 2025-10-31T20:01:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2025-12-27T20:41:17+00:00
+modified: 2025-12-28T09:56:30+00:00
 purpose: "Describes potential forms of pre-linguistic mental representation in human cognition"
 review_interval: "90"
 see_also: ["Ideas exist beyond linguistic expression"]

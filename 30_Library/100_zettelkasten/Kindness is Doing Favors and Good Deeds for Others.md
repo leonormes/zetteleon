@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-12-10T12:00:00Z
 epistemic: "definition"
 last_reviewed: "2025-12-10"
-modified: 2025-12-27T20:41:18+00:00
+modified: 2025-12-28T09:56:31+00:00
 purpose: "To define the character strength of Kindness."
 review_interval: "90"
 see_also: []

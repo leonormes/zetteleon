@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-25T12:30:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-25"
-modified: 2025-12-27T20:40:58+00:00
+modified: 2025-12-28T09:56:11+00:00
 purpose: "To define the canonical best practices for securing containerized workloads, spanning image construction, supply chain, and runtime execution."
 review_interval: "6 months"
 see_also: ["[[SoT - Linux Container Primitives]]", "[[SoT - Container Isolation (The Namespace Security Model)]]", "[[SoT - Namespacing in Computing]]"]

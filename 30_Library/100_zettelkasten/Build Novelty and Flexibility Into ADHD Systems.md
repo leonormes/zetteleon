@@ -4,7 +4,7 @@ confidence: "0.7"
 created: 2025-11-01T11:37:53Z
 epistemic: "hypothesis"
 last_reviewed: "2025-11-01"
-modified: 2025-12-27T20:41:20+00:00
+modified: 2025-12-28T09:56:32+00:00
 purpose: "Provide strategic guidance for designing systems that work with ADHD brain's need for novelty."
 review_interval: "90"
 see_also: ["[[ADHD Brain is a Novelty-Seeking Machine]]", "[[ADHD Hyperfixation-Burnout Cycle]]", "[[ADHD Systems Fail When They Become Monotonous]]"]

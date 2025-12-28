@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T10:17:23Z
 epistemic: "reference"
 last_reviewed: "2025-12-23"
-modified: 2025-12-27T20:41:18+00:00
+modified: 2025-12-28T09:56:31+00:00
 purpose: "The central entry point for navigating epistemology, cognitive biases, and the architecture of mental models."
 review_interval: "6 months"
 see_also: ["[[MOC - Cognitive Biases]]", "[[MOC - ProdOS]]"]

@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2025-11-02T12:03:00Z
 epistemic: "explanation"
 last_reviewed: 2025-11-02
-modified: 2025-12-27T20:40:54+00:00
+modified: 2025-12-28T09:56:07+00:00
 purpose: "To explain the psychological mechanisms that make starter tasks effective."
 review_interval: 90
 see_also: ["[[A Starter Task is a Small Action Designed Purely to Build Momentum]]", "[[The Zeigarnik Effect Creates a Cognitive Pull Towards Task Completion]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-28T00:00:00Z
 epistemic: "knowledge"
 last_reviewed: "2025-12-28"
-modified: 2025-12-28T00:00:00Z
+modified: 2025-12-28T09:56:09+00:00
 purpose: "To provide a high-contrast comparative analysis between Rust and TypeScript to aid developers in shifting mental models."
 review_interval: "12 months"
 see_also: ["[[SoT - Rust Language]]", "[[SoT - Rust Type System]]"]

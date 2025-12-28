@@ -6,7 +6,7 @@ criteria: "Atomic notes defining foundational concepts of respect, communication
 epistemic: ""
 exclusions: "Specific therapeutic advice or non-cooperative relationship models."
 last_reviewed: ""
-modified: 2025-12-27T20:41:18+00:00
+modified: 2025-12-28T09:56:30+00:00
 purpose: ""
 review_interval: ""
 scope: "Core principles, common needs, and financial dynamics within a healthy, cooperative partnership, particularly for a married parent."

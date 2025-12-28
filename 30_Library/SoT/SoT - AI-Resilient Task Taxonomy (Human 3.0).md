@@ -5,7 +5,7 @@ created: 2025-12-24T12:00:00Z
 epistemic: synthesis
 fileClass: SoT
 last_reviewed: 2025-12-24
-modified: 2025-12-27T20:40:58+00:00
+modified: 2025-12-28T09:56:11+00:00
 purpose: To define the human roles that remain valuable in an AI-driven economy (Problem Definition vs. Execution).
 review_interval: 6 months
 see_also: ["[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Inspiration Economy (Agentic Frameworks)]]", "[[SoT - The Telos Method]]"]

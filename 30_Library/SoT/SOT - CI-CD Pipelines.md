@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-16T00:00:00Z
 epistemic: "technical_documentation"
 last_reviewed: "2025-12-16"
-modified: 2025-12-27T20:40:58+00:00
+modified: 2025-12-28T09:56:11+00:00
 purpose: "To serve as the Source of Truth for FITFILE's CI/CD infrastructure, detailing the build, validation, and deployment pipelines."
 review_interval: "3 months"
 see_also: []

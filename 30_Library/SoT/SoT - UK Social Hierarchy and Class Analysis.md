@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: "Grounded in the Great British Class Survey (GBCS) and Bourdieu's Capital Theory."
 last_reviewed: "2025-12-15"
-modified: 2025-12-27T20:40:55+00:00
+modified: 2025-12-28T09:56:09+00:00
 purpose: "A comprehensive analysis of the contemporary UK class structure, integrating the 7-class GBCS model with Weberian and Bourdieusian sociological frameworks."
 review_interval: "1 year"
 see_also: ["[[SoT - Social Stratification]]"]

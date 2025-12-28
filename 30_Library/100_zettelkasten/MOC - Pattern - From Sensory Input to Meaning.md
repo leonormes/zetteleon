@@ -6,7 +6,7 @@ criteria: "Atomic notes must relate to the concept of pattern as a cognitive or 
 epistemic: ""
 exclusions: "Specific, deep mathematical proofs or detailed neuroanatomy."
 last_reviewed: ""
-modified: 2025-12-27T20:41:18+00:00
+modified: 2025-12-28T09:56:30+00:00
 purpose: ""
 review_interval: ""
 scope: "The cognitive, evolutionary, and mathematical aspects of pattern recognition."

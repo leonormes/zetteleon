@@ -6,7 +6,7 @@ criteria: ""
 epistemic: "null"
 exclusions: "General ADHD productivity strategies not specific to project continuation"
 last_reviewed: "null"
-modified: 2025-12-27T20:41:18+00:00
+modified: 2025-12-28T09:56:31+00:00
 purpose: "null"
 review_interval: "null"
 scope: ""

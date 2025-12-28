@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-27T20:41:18+00:00
+modified: 2025-12-28T09:56:31+00:00
 purpose: "Establish identity as the guiding principle and long-term trajectory for habit change."
 review_interval: "90"
 see_also: ["[[Identity-Based Habits are More Resilient Than Goal-Based Habits]]", "[[Three Layers of Behavior Change Model]]", "[[True Behavior Change is Identity Change]]"]

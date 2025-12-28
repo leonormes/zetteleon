@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-30T12:00:01Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16"
-modified: 2025-12-27T20:41:18+00:00
+modified: 2025-12-28T09:56:31+00:00
 purpose: "To test if \\\"Temptation Bundling\\\" (Interest Pairing) effectively overcomes task initiation inertia for mundane chores."
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-30T12:00:02Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16"
-modified: 2025-12-27T20:41:19+00:00
+modified: 2025-12-28T09:56:32+00:00
 purpose: "To test if \\\"Productive Procrastination\\\" (intentional switching) maintains dopamine levels better than forced mono-tasking."
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]

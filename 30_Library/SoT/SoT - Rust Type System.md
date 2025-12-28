@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-27T20:28:33+00:00
 epistemic: "pattern"
 last_reviewed: "2025-12-27"
-modified: 2025-12-27T20:31:07+00:00
+modified: 2025-12-28T09:56:09+00:00
 purpose: "To document the patterns and mechanisms for using Rust's type system to enforce invariants and correctness at compile time."
 review_interval: "6 months"
 see_also: ["[[SoT - Rust Language]]", "[[SoT - Rust's Ownership Model]]", "[[SoT - Rust's Design Philosophy]]", "[[SoT - Dependent Types in Software]]"]
@@ -51,18 +51,18 @@ This pattern uses the type system to model the **valid state transitions** of an
 
 ### Mechanics
 
-1.  **State Modeling:** Define distinct structs for each state (e.g., `OrderDraft`, `OrderPaid`, `OrderShipped`).
-2.  **Ownership Transitions:** Transition functions take `self` by value (consuming the old state) and return the new state.
-    -   `fn pay(self: OrderDraft) -> OrderPaid`
-3.  **Invalidation:** Because `OrderDraft` is consumed, the compiler prevents any further modification to the draft once it is paid. The "old" state no longer exists.
+1. **State Modeling:** Define distinct structs for each state (e.g., `OrderDraft`, `OrderPaid`, `OrderShipped`).
+2. **Ownership Transitions:** Transition functions take `self` by value (consuming the old state) and return the new state.
+    - `fn pay(self: OrderDraft) -> OrderPaid`
+3. **Invalidation:** Because `OrderDraft` is consumed, the compiler prevents any further modification to the draft once it is paid. The "old" state no longer exists.
 
 ### Example: The Builder Pattern (Progress Bar)
 
 Instead of a single struct with `Option` fields (runtime checks), use generics to track initialization state.
 
--   **Start:** `ProgressBar<Unbounded>`
--   **Transition:** calling `.with_limit(100)` returns `ProgressBar<Bounded>`.
--   **Enforcement:** Methods like `.eta()` are *only* implemented for `ProgressBar<Bounded>`. Calling `.eta()` on an unbounded bar is a compiler error.
+- **Start:** `ProgressBar<Unbounded>`
+- **Transition:** calling `.with_limit(100)` returns `ProgressBar<Bounded>`.
+- **Enforcement:** Methods like `.eta()` are *only* implemented for `ProgressBar<Bounded>`. Calling `.eta()` on an unbounded bar is a compiler error.
 
 ## 4. The Sum Type (Enum) Architecture
 

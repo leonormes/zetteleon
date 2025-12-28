@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T17:01:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-27T20:41:20+00:00
+modified: 2025-12-28T09:56:32+00:00
 purpose: "To define Activation Energy as a barrier to action."
 review_interval: "90"
 see_also: ["[[The Starter Task Overcomes Activation Energy for ADHD]]"]

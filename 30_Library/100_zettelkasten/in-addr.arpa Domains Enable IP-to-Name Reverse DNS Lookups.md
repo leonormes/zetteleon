@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T10:50:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-27T20:41:15+00:00
+modified: 2025-12-28T09:56:28+00:00
 purpose: "Explain reverse DNS lookup mechanism."
 review_interval: "90"
 see_also: ["DNS is a distributed database.md"]

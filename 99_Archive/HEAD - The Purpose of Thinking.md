@@ -5,7 +5,7 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-27T20:40:54+00:00
+modified: 2025-12-28T09:56:08+00:00
 purpose: To capture the biological and functional purpose of thinking as a simulation engine.
 review_interval:
 see_also: []

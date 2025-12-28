@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-07T18:28:36Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2025-12-27T20:40:56+00:00
+modified: 2025-12-28T09:56:09+00:00
 purpose: "To define the 'Extended Mind' as the foundational cognitive architecture for PRODOS."
 review_interval: "3 months"
 see_also: ["[[SoT - Material Symbols]]", "[[SoT - The Negotiable Body]]", "[[What Organizing Your Thoughts Really Means]]"]

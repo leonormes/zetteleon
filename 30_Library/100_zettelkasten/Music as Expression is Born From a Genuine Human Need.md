@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T11:01:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-27T20:41:17+00:00
+modified: 2025-12-28T09:56:30+00:00
 purpose: "To define the origin of authentic or 'ground-up' music."
 review_interval: "90"
 see_also: []

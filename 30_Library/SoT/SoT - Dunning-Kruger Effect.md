@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-13"
-modified: 2025-12-27T20:40:57+00:00
+modified: 2025-12-28T09:56:11+00:00
 purpose: "Canonical definition and implications of the Dunning-Kruger Effect within the ProdOS context."
 review_interval: "6 months"
 see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - PRODOS (System Architecture)]]"]

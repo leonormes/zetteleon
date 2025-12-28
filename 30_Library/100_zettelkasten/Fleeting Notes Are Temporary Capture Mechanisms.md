@@ -4,7 +4,7 @@ confidence: "0.95"
 created: 2025-10-30T15:31:09Z
 epistemic: "fact"
 last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2025-12-27T20:41:19+00:00
+modified: 2025-12-28T09:56:31+00:00
 purpose: "Defines the first stage of Zettelkasten note-taking"
 review_interval: "180"
 see_also: []

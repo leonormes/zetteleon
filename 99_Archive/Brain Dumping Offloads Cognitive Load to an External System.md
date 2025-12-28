@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-12T15:00:09Z
 epistemic: NA
 last_reviewed:
-modified: 2025-12-27T20:40:55+00:00
+modified: 2025-12-28T09:56:08+00:00
 purpose: "A technique to free up working memory by offloading mental clutter."
 review_interval: 180
 see_also: []

@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-31T09:25:33Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-27T20:41:19+00:00
+modified: 2025-12-28T09:56:32+00:00
 purpose: "Describe the strategy of using Cloudflare with a self-hosted load balancer."
 review_interval: "90"
 see_also: []

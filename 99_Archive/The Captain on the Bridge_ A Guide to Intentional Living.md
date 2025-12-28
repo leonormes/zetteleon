@@ -8,7 +8,7 @@ confidence: ""
 epistemic: ""
 purpose: ""
 created: 2025-12-25T19:26:37+00:00
-modified: 2025-12-27T20:40:54+00:00
+modified: 2025-12-28T09:56:07+00:00
 last_reviewed: ""
 review_interval: ""
 see_also: []
@@ -20,6 +20,7 @@ The sources present the concept of intentionality not merely as a method of plan
 ### **The Core Distinction: Intention vs. Autopilot**
 
 Most daily life is governed by habit, where actions are performed automatically in response to environmental cues without conscious thought 2, 3\. While efficient, this "autopilot" mode means actions often persist regardless of whether they still serve our current goals 4\.
+
 **Intentionality is the conscious override of this automaticity.**
 
 * **Definition:** The Japanese kanji for "intention" combines the characters for **"heart" and "direction"** 1\. This suggests that true intentionality is not just mental planning, but aligning one's path with one's deeper values or "heart" 1, 5\.
@@ -37,6 +38,7 @@ While goals provide a target, intentions provide the quality of attention and sp
 ### **Intentionality in Habit Formation and Breaking**
 
 Neurobiologically, habits differ from goal-directed behaviour. Habits use "model-free" learning (efficient, rigid) while intentional actions use "model-based" learning (flexible, cognitively expensive) 14\.
+
 **1\. Disruption of Old Habits**Because habits are triggered automatically by context cues (like a location or time of day), simply wanting to change is often insufficient 15, 16\. **Intention acts as the necessary intervention.**
 
 * **The "Sacred No":** To live intentionally, one must cultivate the ability to say a "Sacred No" to distractions and existing patterns to create a "Sacred Yes" for the chosen activity 17, 18\.

@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T21:09:00Z
 epistemic: "method"
 last_reviewed: "2025-11-01"
-modified: 2025-12-27T20:41:16+00:00
+modified: 2025-12-28T09:56:28+00:00
 purpose: "To explain the three-way blueprint method of timeboxing."
 review_interval: "90"
 see_also: ["[[Timeboxing Creates Structure for Action]]", "[[Work-Life Balance]]"]

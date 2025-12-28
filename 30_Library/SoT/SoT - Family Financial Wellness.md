@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T18:44:03Z
 epistemic: "strategy"
 last_reviewed: "2025-12-23"
-modified: 2025-12-27T20:40:57+00:00
+modified: 2025-12-28T09:56:10+00:00
 purpose: "The applied framework for UK household financial management, focusing on allocation, stability, and the 'Month Ahead' buffer."
 review_interval: "6 months"
 see_also: ["[[SoT - The Psychology of Spendfulness]]", "[[SoT - The YNAB Method]]"]

@@ -1,25 +1,43 @@
+---
+aliases: []
+tags: []
+title: "Refactoring: `src/strategies/binary_search.rs`"
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+created: 2025-12-28T09:19:43+00:00
+modified: 2025-12-28T09:56:35+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+---
+
 # Refactoring: `src/strategies/binary_search.rs`
 
 ## 👃 Code Smell Report
 
 **1. The "Torvalds Loop" Violation: Representing "Jobs" with Primitive Tuples**
 The current implementation manages state using a `VecDeque<(isize, isize, isize, isize)>`.
-*   **Critique:** This is "Stringly/Numberly Typed". `(0, 10, 5, 20)` has no semantic meaning. It requires manual unwrapping and index arithmetic that is prone to off-by-one errors (hence the `isize` usage).
-*   **Better Data Shape:** A `Job` struct with proper `Range<usize>` or `Slice` references.
+* **Critique:** This is "Stringly/Numberly Typed". `(0, 10, 5, 20)` has no semantic meaning. It requires manual unwrapping and index arithmetic that is prone to off-by-one errors (hence the `isize` usage).
+* **Better Data Shape:** A `Job` struct with proper `Range<usize>` or `Slice` references.
 
 **2. The "Trinity" Violation: Implicit Invariants (The "Sorted" Assumption)**
 The algorithm implements a "Divide and Conquer" intersection (splitting the target list `g_n` based on a match). This logic **only works if `g_n` is sorted**.
-*   **Critique:** The function signature `fn binary_search(..., g_n: &Vec<T>)` accepts *any* vector. If an unsorted vector is passed, the algorithm silently drops data (as seen in the `[A, Z]` vs `[Z, A]` counter-example).
-*   **Better Type System:** Accept `SortedSlice<T>` or similar wrapper that proves the data is sorted.
+* **Critique:** The function signature `fn binary_search(..., g_n: &Vec<T>)` accepts *any* vector. If an unsorted vector is passed, the algorithm silently drops data (as seen in the `[A, Z]` vs `[Z, A]` counter-example).
+* **Better Type System:** Accept `SortedSlice<T>` or similar wrapper that proves the data is sorted.
 
 **3. The "Node.js" Legacy: Callbacks & Dynamic Types**
 The use of `mut cb: F` where `F: FnMut(...)` is a classic JavaScript pattern.
-*   **Critique:** In Rust, we use Traits (`Ord`, `PartialEq`) to define comparability, or iterators. Passing a closure to "find an item in a slice" abstracts away the one thing that needs to be efficient (the search).
-*   **Better Logic:** Use `std::cmp::Ord`.
+* **Critique:** In Rust, we use Traits (`Ord`, `PartialEq`) to define comparability, or iterators. Passing a closure to "find an item in a slice" abstracts away the one thing that needs to be efficient (the search).
+* **Better Logic:** Use `std::cmp::Ord`.
 
 ## 🔧 The Refactor Proposal
 
 We will replace the entire "Divide and Conquer with Linear Scan" approach with a **Data-Oriented Merge Join**.
+
 Since both inputs must be sorted for the original logic to behave correctly, we can use a linear scan $O(N+M)$ which is cache-friendly and strictly faster than the current implementation.
 
 ### Step 1: Define the Data (Data-Oriented)
@@ -100,9 +118,11 @@ where T: Clone
 ```
 
 ## ⚠️ Breaking Change Warning
+
 The caller (`basic_reidentification.rs`) currently **does not sort** `g_n` (the tokens).
-*   `read_tokens` returns a `Vec<String>` from an `IndexSet` (Insertion Order).
-*   We **MUST** update `read_tokens` to sort the vector before returning, or sort it at the call site.
+
+* `read_tokens` returns a `Vec<String>` from an `IndexSet` (Insertion Order).
+* We **MUST** update `read_tokens` to sort the vector before returning, or sort it at the call site.
 
 ## Proposed New File Content (`src/strategies/binary_search.rs`)
 

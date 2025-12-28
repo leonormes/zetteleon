@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-27T20:40:57+00:00
+modified: 2025-12-28T09:56:10+00:00
 purpose: "Analysis of dystopian fiction as sociological \\\"Operating Systems\\\" for control, focusing on Orwell vs. Huxley."
 review_interval: "3 months"
 see_also: ["[[SoT - Social Stratification]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]

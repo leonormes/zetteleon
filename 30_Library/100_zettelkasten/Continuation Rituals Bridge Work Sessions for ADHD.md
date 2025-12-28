@@ -4,7 +4,7 @@ confidence: "0.7"
 created: 2025-10-30T15:00:39Z
 epistemic: "principle"
 last_reviewed: "2025-10-30"
-modified: 2025-12-27T20:41:19+00:00
+modified: 2025-12-28T09:56:32+00:00
 purpose: "To create mental bridges between work sessions"
 review_interval: "90"
 see_also: []

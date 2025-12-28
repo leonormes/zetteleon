@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-02T12:01:00Z
 epistemic: "solution"
 last_reviewed: "2025-11-02"
-modified: 2025-12-27T20:41:16+00:00
+modified: 2025-12-28T09:56:29+00:00
 purpose: "To introduce the Momentum Method as a strategy to overcome task initiation friction."
 review_interval: "90"
 see_also: ["[[A Starter Task is a Small Action Designed Purely to Build Momentum]]", "[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]"]

@@ -4,7 +4,7 @@ confidence: null
 created: 2025-10-16T08:19:54Z
 epistemic: null
 last_reviewed: null
-modified: 2025-12-27T20:41:21+00:00
+modified: 2025-12-28T09:56:33+00:00
 purpose: >-
   Provides an LLM with a comprehensive understanding of the Getting Things Done
   (GTD) methodology, including its core principles, workflow phases, and the six
