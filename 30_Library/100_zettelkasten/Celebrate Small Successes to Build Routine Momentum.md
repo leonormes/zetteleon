@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-29T16:10:00Z
 epistemic: "strategy"
 last_reviewed: "2025-12-16"
-modified: 2025-12-28T09:56:32+00:00
+modified: 2025-12-28T18:49:34+00:00
 purpose: "To describe a method for reinforcing and motivating routine adherence."
 review_interval: ""
 see_also: ["[[Dopamine Management in ADHD Productivity]]", "[[Kaizen Method Uses Micro-Victories to Build Momentum]]"]

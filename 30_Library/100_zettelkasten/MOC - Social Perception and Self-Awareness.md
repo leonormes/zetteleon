@@ -6,7 +6,7 @@ criteria: "Atomic notes on perception formation, accuracy, and meta-awareness"
 epistemic: "synthesis"
 exclusions: "Interpersonal skills training, persuasion techniques, cultural anthropology"
 last_reviewed: "null"
-modified: 2025-12-28T09:56:30+00:00
+modified: 2025-12-28T18:49:32+00:00
 purpose: "Connect atomic notes on how people form and calibrate social perceptions."
 review_interval: "null"
 scope: "Social perception mechanisms, biases, and calibration strategies"

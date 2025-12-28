@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T18:25:55Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T09:56:11+00:00
+modified: 2025-12-28T18:49:18+00:00
 purpose: "To define the essential networking components, architectural patterns, and load balancing strategies for cloud-native infrastructure."
 review_interval: "6 months"
 see_also: ["[[SoT - The Data Architecture of DNS]]", "[[SoT - The Data-Centric Theory of Networking]]"]

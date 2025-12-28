@@ -7,7 +7,7 @@ decay-signals: []
 epistemic:
 last-synthesis: 2025-12-11
 last_reviewed: 2025-12-11
-modified: 2025-12-28T09:56:07+00:00
+modified: 2025-12-28T18:49:14+00:00
 purpose: To define the inherent limitations of human cognitive processing and the role of abstraction as a compensatory mechanism.
 quality-markers: []
 related-soTs: []

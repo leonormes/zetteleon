@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-07T00:00:00Z
 epistemic: "Synthesized from multiple sources on the cognitive benefits and practical frameworks of writing."
 last_reviewed: "2025-12-21"
-modified: 2025-12-28T09:56:09+00:00
+modified: 2025-12-28T18:49:16+00:00
 purpose: "To provide a definitive framework for using writing as a tool for cognitive clarification, problem-solving, and knowledge synthesis."
 review_interval: "3 months"
 see_also: []

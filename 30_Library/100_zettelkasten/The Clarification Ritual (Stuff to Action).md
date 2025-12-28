@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-12-16T14:40:00Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2025-12-28T09:56:29+00:00
+modified: 2025-12-28T18:49:31+00:00
 purpose: "To test if batch-processing \\\"Stuff\\\" into \\\"Actions\\\" creates clarity."
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]

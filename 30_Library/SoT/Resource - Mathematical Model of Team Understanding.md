@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-28T09:56:11+00:00
+modified: 2025-12-28T18:49:18+00:00
 purpose: "A mathematical framework for quantifying team understanding, bias, and communication loss using set theory."
 review_interval: "3 months"
 see_also: []

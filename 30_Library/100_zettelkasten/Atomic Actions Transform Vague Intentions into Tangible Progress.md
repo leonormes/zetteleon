@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T15:01:00Z
 epistemic: "definition"
 last_reviewed: ""
-modified: 2025-12-28T09:56:32+00:00
+modified: 2025-12-28T18:49:34+00:00
 purpose: "To provide a precise definition of an atomic action."
 review_interval: "90"
 see_also: ["[[The Action is the Atomic Unit of Productivity]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-25T12:10:00Z
 epistemic: "index"
 last_reviewed: "2025-12-25"
-modified: 2025-12-28T09:56:11+00:00
+modified: 2025-12-28T18:49:18+00:00
 purpose: "A Map of Content (MOC) connecting infrastructure components through the lens of their underlying data structures and synchronization models."
 review_interval: "6 months"
 see_also: ["[[SoT - HashiCorp Vault Architecture]]", "[[SoT - Kubernetes Networking & DNS]]", "[[SoT - State Synchronization Models]]"]

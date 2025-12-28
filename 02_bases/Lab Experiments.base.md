@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-16T12:20:00Z
 epistemic:
 last_reviewed: 2025-12-16
-modified: 2025-12-28T09:56:33+00:00
+modified: 2025-12-28T18:49:35+00:00
 purpose: A Dataview-powered dashboard to track all active, pending, and validated hypotheses within the ProdOS Laboratory.
 review_interval: 
 see_also: []

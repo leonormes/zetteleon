@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T12:03:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-28T09:56:32+00:00
+modified: 2025-12-28T18:49:34+00:00
 purpose: "To explain why identity-based habits are effective."
 review_interval: "90"
 see_also: ["[[Identity Conflict Can Impede Positive Habit Change]]"]

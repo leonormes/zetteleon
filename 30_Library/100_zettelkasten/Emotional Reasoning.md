@@ -5,7 +5,7 @@ created: 2025-06-18T17:28:14Z
 epistemic: ""
 ID: "emotional_reasoning"
 last_reviewed: ""
-modified: 2025-12-28T09:56:32+00:00
+modified: 2025-12-28T18:49:33+00:00
 purpose: ""
 review_interval: ""
 see_also: []

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T20:22:33Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T09:56:10+00:00
+modified: 2025-12-28T18:49:17+00:00
 purpose: "To provide a framework for navigating the tension between epistemic humility and valid insight."
 review_interval: "6 months"
 see_also: ["[[SoT - Dunning-Kruger Effect]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]"]

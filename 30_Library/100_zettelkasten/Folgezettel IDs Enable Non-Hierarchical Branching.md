@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-30T15:33:36Z
 epistemic: "fact"
 last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2025-12-28T09:56:31+00:00
+modified: 2025-12-28T18:49:33+00:00
 purpose: "Explains the unique identifier system in Luhmann's Zettelkasten"
 review_interval: "180"
 see_also: []

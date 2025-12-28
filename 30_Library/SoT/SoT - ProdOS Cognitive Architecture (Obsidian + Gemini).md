@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-21T00:00:00Z
 epistemic: "Synthesized from system design principles and notes on AI-human interaction."
 last_reviewed: "2025-12-21"
-modified: 2025-12-28T09:56:10+00:00
+modified: 2025-12-28T18:49:16+00:00
 purpose: "To define the philosophical and architectural integration of the Gemini CLI (agentic reasoning) and Obsidian (structured knowledge) within the ProdOS framework."
 review_interval: "3 months"
 see_also: []

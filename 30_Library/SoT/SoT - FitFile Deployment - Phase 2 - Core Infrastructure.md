@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-21T10:51:07Z
 epistemic: "process"
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T09:56:11+00:00
+modified: 2025-12-28T18:49:17+00:00
 purpose: "To provide a detailed guide for Phase 2 of the FitFile deployment process: provisioning the cloud bedrock."
 review_interval: "3 months"
 see_also: ["[[MOC - FitFile Deployment]]", "[[SoT - Data-Centric Infrastructure (Terraform)]]", "[[SoT - FITFILE Platform Deployment]]", "[[SoT - FitFile Deployment - Azure Organization Architecture]]"]

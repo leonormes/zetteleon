@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-10T00:00:00Z
 epistemic: "scientific"
 last_reviewed: "2025-12-24"
-modified: 2025-12-28T09:56:09+00:00
+modified: 2025-12-28T18:49:16+00:00
 purpose: "To define the biological and cognitive phases of task execution, providing the scientific basis for the ProdOS workflow design."
 review_interval: "1 year"
 see_also: ["[[SoT - Accelerated Learning (3C Protocol)]]", "[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]"]

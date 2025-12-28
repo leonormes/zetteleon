@@ -4,7 +4,7 @@ confidence: "1.0"
 created: 2025-11-22T15:00:05Z
 epistemic: "fact"
 last_reviewed: "2025-11-22"
-modified: 2025-12-28T09:56:32+00:00
+modified: 2025-12-28T18:49:33+00:00
 purpose: "Clarifies the distinction between Layer 2 and Layer 4 payload limits."
 review_interval: "90"
 see_also: []

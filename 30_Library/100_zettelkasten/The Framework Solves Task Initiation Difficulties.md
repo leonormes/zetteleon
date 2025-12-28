@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T15:16:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-28T09:56:29+00:00
+modified: 2025-12-28T18:49:31+00:00
 purpose: "To explain how the atomic action framework addresses task initiation difficulties."
 review_interval: "90"
 see_also: ["[[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-11-13T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-07"
-modified: 2025-12-28T09:56:10+00:00
+modified: 2025-12-28T18:49:17+00:00
 purpose: "The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system."
 review_interval: "3 months"
 see_also: ["[[02 - GTD]]", "[[08 - Obsidian for PKM]]", "[[Complete Context ProdOS System]]", "[[Hansei]]", "[[Old ProdOS Product Description]]", "[[ProdOS System Overview and Development Progress]]", "[[SoT - ADHD and Motivation]]", "[[SoT - ADHD Environmental Design]]", "[[SoT - AI-Resilient Task Taxonomy (Human 3.0)]]", "[[SoT - Indistractable Model (Focus Management)]]", "[[SoT - Intentional Living (Habit Mastery)]]", "[[SoT - Physical Health and Vitality]]", "[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS - Structure & Storage (PARA/PKM)]]", "[[SoT - The Discipline of Perception (Mindset)]]", "[[SoT - The Inspiration Economy (Agentic Frameworks)]]", "[[SoT - The Telos Method]]", "[[The why of my zettelkasten]]"]

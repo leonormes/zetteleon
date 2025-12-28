@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-25T12:00:00Z
 epistemic: "theoretical"
 last_reviewed: "2025-12-25"
-modified: 2025-12-28T09:56:09+00:00
+modified: 2025-12-28T18:49:16+00:00
 purpose: "To define the proposed scientific law unifying evolution across physical, biological, and technological systems."
 review_interval: "2 years"
 see_also: ["[[SoT - The Nature of Time and Perception]]", "[[SoT - Human vs AI Cognition]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-16T00:00:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-16"
-modified: 2025-12-28T09:56:10+00:00
+modified: 2025-12-28T18:49:17+00:00
 purpose: "To define the technical implementation, security risks, and management patterns for Kubernetes Secrets."
 review_interval: "1 year"
 see_also: ["[[Kubernetes Secrets in Helm Chart Deployment]]", "[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - Kubernetes Cluster State Architecture]]"]

@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-31T20:00:00Z
 epistemic: "principle"
 last_reviewed: "2025-10-31"
-modified: 2025-12-28T09:56:31+00:00
+modified: 2025-12-28T18:49:33+00:00
 purpose: "Establishes that thoughts and ideas exist as pre-linguistic mental representations distinct from their verbal expressions"
 review_interval: "90"
 see_also: []

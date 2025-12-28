@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T16:14:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-28T09:56:30+00:00
+modified: 2025-12-28T18:49:32+00:00
 purpose: "To outline the three fundamental stages of memory formation."
 review_interval: "90"
 see_also: ["[[Systems Consolidation is the Gradual Reorganization of Memory in the Brain]]"]

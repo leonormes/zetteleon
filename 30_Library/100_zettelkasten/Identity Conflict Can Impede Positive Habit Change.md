@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T12:10:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-28T09:56:31+00:00
+modified: 2025-12-28T18:49:33+00:00
 purpose: "To identify a key barrier to habit formation."
 review_interval: "90"
 see_also: ["[[Behavior Incongruent with Self Will Not Last]]"]

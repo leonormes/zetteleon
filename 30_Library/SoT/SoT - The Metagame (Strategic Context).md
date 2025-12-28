@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-10T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-10"
-modified: 2025-12-28T09:56:09+00:00
+modified: 2025-12-28T18:49:16+00:00
 purpose: "To define the concept of \\\\\\\"Metagame\\\\\\\" as a strategic layer operating above direct competition, focusing on environmental and contextual manipulation."
 review_interval: "1 year"
 see_also: ["[[Kind Learning Environments are Predictable and Rule-Based]]", "[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[Wicked Learning Environments are Dynamic and Unpredictable]]"]

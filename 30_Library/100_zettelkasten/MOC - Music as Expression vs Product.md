@@ -6,7 +6,7 @@ criteria: "Atomic notes defining the origins, characteristics, and social functi
 epistemic: ""
 exclusions: "Value judgments on specific genres; technical music theory."
 last_reviewed: ""
-modified: 2025-12-28T09:56:30+00:00
+modified: 2025-12-28T18:49:32+00:00
 purpose: ""
 review_interval: ""
 scope: "The distinction between music created as authentic expression versus music designed as a commercial product."

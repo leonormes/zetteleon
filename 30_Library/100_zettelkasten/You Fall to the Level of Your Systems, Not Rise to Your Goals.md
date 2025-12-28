@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-06T19:55:02Z
 epistemic: "fact"
 last_reviewed: "2025-11-06"
-modified: 2025-12-28T09:56:28+00:00
+modified: 2025-12-28T18:49:31+00:00
 purpose: "To articulate the principle that outcomes are determined by the quality of underlying systems, not the ambition of goals."
 review_interval: "90"
 see_also: []

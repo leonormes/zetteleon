@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-29T16:10:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-28T09:56:29+00:00
+modified: 2025-12-28T18:49:32+00:00
 purpose: "To establish that routines are dynamic and require iteration."
 review_interval: ""
 see_also: []

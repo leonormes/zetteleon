@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:23:09Z
 epistemic: "reference"
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T09:56:31+00:00
+modified: 2025-12-28T18:49:33+00:00
 purpose: "The central entry point for navigating financial management, budgeting methods, and spendfulness psychology."
 review_interval: "6 months"
 see_also: ["[[MOC - ProdOS]]"]

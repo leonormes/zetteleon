@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-10T15:19:00Z
 epistemic: "NA"
 last_reviewed: ""
-modified: 2025-12-28T09:56:28+00:00
+modified: 2025-12-28T18:49:31+00:00
 purpose: "To provide a checklist for verifying project status during a weekly review."
 review_interval: "180"
 see_also: []

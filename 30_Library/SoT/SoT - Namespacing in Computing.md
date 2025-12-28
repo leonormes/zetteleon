@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-13T08:50:56Z
 epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T09:56:10+00:00
+modified: 2025-12-28T18:49:17+00:00
 purpose: "To define the principles, types, and architectural impact of namespacing across operating systems, networking, and programming."
 review_interval: "2 years"
 see_also: ["[[SoT - Container Isolation (The Namespace Security Model)]]", "[[SoT - Namespace-Aware Pseudo-Filesystems]]"]

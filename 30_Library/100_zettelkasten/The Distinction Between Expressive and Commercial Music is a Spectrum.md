@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T11:08:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-28T09:56:29+00:00
+modified: 2025-12-28T18:49:31+00:00
 purpose: "To add nuance to the expression vs. product dichotomy."
 review_interval: "90"
 see_also: []

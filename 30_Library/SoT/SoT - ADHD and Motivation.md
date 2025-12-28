@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-07-16T00:00:00Z
 epistemic: "theory"
 last_reviewed: "2025-12-14"
-modified: 2025-12-28T09:56:11+00:00
+modified: 2025-12-28T18:49:18+00:00
 purpose: "Defines the unique motivational system of the ADHD brain, its neurobiological underpinnings, common challenges like procrastination, and the strategies for engineering motivation and discipline."
 review_interval: "3 months"
 see_also: ["[[Analog and Behavioral Techniques are Crucial for ADHD Management]]"]

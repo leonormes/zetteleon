@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-08-19T23:32:29Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2025-12-28T09:56:29+00:00
+modified: 2025-12-28T18:49:32+00:00
 purpose: "To define the mathematical distinction between public and private keys in RSA."
 review_interval: "1 year"
 see_also: ["[[Modular Arithmetic Creates a Cyclical System]]", "[[RSA Algorithm Relies on Integer Factorisation]]"]

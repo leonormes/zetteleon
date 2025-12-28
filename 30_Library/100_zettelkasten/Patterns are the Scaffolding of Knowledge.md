@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:00:07Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2025-12-28T09:56:29+00:00
+modified: 2025-12-28T18:49:32+00:00
 purpose: "To describe pattern recognition as a meta-skill for learning."
 review_interval: "90"
 see_also: ["[[Early Childhood Patterning is the Foundation for Language Acquisition]]"]

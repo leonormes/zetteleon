@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T18:34:35Z
 epistemic: "Grounded in General Semantics (Korzybski), Philosophy of Science (Popper/Hawking), and Cognitive Science (Predictive Processing)."
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T09:56:09+00:00
+modified: 2025-12-28T18:49:16+00:00
 purpose: "To define the fundamental epistemological stance of ProdOS that all understanding is a simplified model (Map) of a complex reality (Territory), and to provide protocols for managing the gap between them."
 review_interval: "12 months"
 see_also: ["[[SoT - Naïve Realism]]", "[[SoT - Predictive Processing & The Bayesian Brain]]", "[[SoT - The User Interface of the Self]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2025-12-28T09:56:31+00:00
+modified: 2025-12-28T18:49:33+00:00
 purpose: "To explain the real-world architecture of secure communications like TLS/SSH."
 review_interval: "1 year"
 see_also: ["[[Encryption vs Digital Signatures - Confidentiality vs Authenticity]]"]

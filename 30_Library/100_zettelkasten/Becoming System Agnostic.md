@@ -5,7 +5,7 @@ created: 2025-04-30T01:58:44Z
 epistemic: ""
 id: "Becoming tool agnostic"
 last_reviewed: ""
-modified: 2025-12-28T09:56:32+00:00
+modified: 2025-12-28T18:49:34+00:00
 purpose: ""
 review_interval: ""
 see_also: []

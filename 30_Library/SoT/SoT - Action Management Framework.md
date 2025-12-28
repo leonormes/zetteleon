@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-20T20:01:29Z
 epistemic: "strategy"
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T09:56:11+00:00
+modified: 2025-12-28T18:49:18+00:00
 purpose: "To provide a single, canonical Source of Truth for the principles, systems, and strategies for managing action, especially within an ADHD-aware context."
 review_interval: "6 months"
 see_also: ["[[SoT - Bridging the Intention-Action Gap]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Protocol - The Launch Sequence]]"]

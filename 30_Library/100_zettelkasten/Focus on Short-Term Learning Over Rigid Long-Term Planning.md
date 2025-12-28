@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:30:08Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-28T09:56:31+00:00
+modified: 2025-12-28T18:49:33+00:00
 purpose: "To advocate for flexible, adaptive planning in a changing world."
 review_interval: "90"
 see_also: ["[[Continuous Iterative Learning Mindset is Essential]]"]

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T10:34:00Z
 epistemic: "fact"
 last_reviewed: "null"
-modified: 2025-12-28T09:56:30+00:00
+modified: 2025-12-28T18:49:32+00:00
 purpose: "Explain NAT gateway functionality."
 review_interval: "90"
 see_also: ["Data-Centric Networking Focuses on Packet Journey Through Devices.md"]

@@ -5,7 +5,7 @@ created: 2025-10-31T12:38:00Z
 epistemic: ""
 exclusions: "Language-specific implementations"
 last_reviewed: ""
-modified: 2025-12-28T09:56:30+00:00
+modified: 2025-12-28T18:49:32+00:00
 purpose: "Organize software architecture concepts."
 review_interval: "180"
 scope: "Design principles and patterns"

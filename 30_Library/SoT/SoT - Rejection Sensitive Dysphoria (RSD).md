@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:19:43Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T09:56:09+00:00
+modified: 2025-12-28T18:49:16+00:00
 purpose: "To define the neurological mechanism of RSD, its impact on emotional regulation, and its role in the avoidance of external feedback."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - The Internal World and the Need for Validation]]"]

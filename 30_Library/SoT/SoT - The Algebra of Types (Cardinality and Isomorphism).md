@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2025-12-28T09:56:09+00:00
+modified: 2025-12-28T18:49:16+00:00
 purpose: "Defines the algebraic structure of data types (Sums, Products, Exponentials) and their isomorphisms."
 review_interval: "1 year"
 see_also: ["[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]

@@ -4,7 +4,7 @@ confidence: "0.7"
 created: 2025-08-30T08:57:56Z
 epistemic: "opinion"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2025-12-28T09:56:30+00:00
+modified: 2025-12-28T18:49:32+00:00
 purpose: ""
 review_interval: "90"
 see_also: ["[[Logicism (Mathematics as Extension of Logic)]]", "[[Mathematics Is Frequently Described as the Science of Patterns]]", "[[Structuralism (Mathematics as Study of Structure)]]"]

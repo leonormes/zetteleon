@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-07-10T10:12:15Z
 epistemic: "map"
 last_reviewed: "2025-11-01"
-modified: 2025-12-28T09:56:31+00:00
+modified: 2025-12-28T18:49:33+00:00
 purpose: "To provide a map of content for the skills and virtues related to inner strength and resilience."
 review_interval: "90"
 see_also: ["[[A Concept Map for a Flourishing Human]]"]

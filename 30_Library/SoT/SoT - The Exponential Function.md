@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-25T11:45:00Z
 epistemic: principle
 last_reviewed: 2025-12-25
-modified: 2025-12-28T09:56:09+00:00
+modified: 2025-12-28T18:49:16+00:00
 purpose: To define the mechanics and cognitive implications of the exponential function and steady growth.
 review_interval: 6 months
 see_also: ["[[Mental Models MOC]]", "[[SoT - Systems Thinking]]"]

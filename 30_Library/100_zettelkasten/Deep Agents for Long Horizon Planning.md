@@ -5,7 +5,7 @@ created: 2025-10-10T08:34:04Z
 epistemic: ""
 id: "20251008_Deep_Agents_for_Long_Horizon_Planning"
 last_reviewed: ""
-modified: 2025-12-28T09:56:32+00:00
+modified: 2025-12-28T18:49:33+00:00
 purpose: ""
 review_interval: ""
 see_also: []

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-12T14:10:02Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-28T09:56:32+00:00
+modified: 2025-12-28T18:49:34+00:00
 purpose: "To define Aristotle's three forms of knowledge."
 review_interval: "90"
 see_also: ["[[Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience]]"]

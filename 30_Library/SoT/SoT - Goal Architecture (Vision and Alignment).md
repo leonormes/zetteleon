@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-19"
-modified: 2025-12-28T09:56:10+00:00
+modified: 2025-12-28T18:49:17+00:00
 purpose: "To define the architectural mechanics of \\\"Visioning\\\" and \\\"Goal Setting\\\" as a distinct pre-cursor to execution systems. It focuses on the \\\"What\\\" (Targeting) to enable the \\\"How\\\" (Process)."
 review_interval: "1 year"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - Values and Eudaimonia]]"]

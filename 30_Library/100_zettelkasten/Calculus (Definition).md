@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T11:22:13Z
 epistemic: "fact"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2025-12-28T09:56:32+00:00
+modified: 2025-12-28T18:49:34+00:00
 purpose: "Define calculus as the mathematics of continuous change."
 review_interval: "90"
 see_also: ["[[Analysis (Definition)]]", "[[Geometry (Definition)]]"]

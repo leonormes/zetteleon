@@ -5,7 +5,7 @@ created: 2025-12-16T09:45:00Z
 description: "A high-level Meta MOC categorizing the primary domains of thought and Sources of Truth (SoT) within the vault."
 epistemic: "synthesis"
 last_reviewed: "2025-12-16"
-modified: 2025-12-28T09:56:29+00:00
+modified: 2025-12-28T18:49:32+00:00
 purpose: "To provide a top-level entry point into the system, answering \\\"What do I often think about?\\\" by clustering SoTs into broad thematic domains."
 review_interval: ""
 see_also: []

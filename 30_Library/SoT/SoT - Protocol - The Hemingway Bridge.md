@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T20:31:10Z
 epistemic: "strategy"
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T09:56:09+00:00
+modified: 2025-12-28T18:49:16+00:00
 purpose: "To provide a mechanism for context restoration and state persistence during task transitions."
 review_interval: "6 months"
 see_also: ["[[SoT - Action Management Framework]]", "[[SoT - PRODOS (System Architecture)]]"]

@@ -6,7 +6,7 @@ criteria: "Focus on packet transformations through each device."
 epistemic: ""
 exclusions: "Physical network devices."
 last_reviewed: ""
-modified: 2025-12-28T09:56:31+00:00
+modified: 2025-12-28T18:49:33+00:00
 purpose: "Organize cloud networking devices by packet flow."
 review_interval: "180"
 scope: "Data-centric view of cloud networking devices."

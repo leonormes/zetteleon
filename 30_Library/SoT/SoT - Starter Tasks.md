@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-12-20T00:00:00Z
 epistemic: "principle"
 last_reviewed: "2025-12-20"
-modified: 2025-12-28T09:56:09+00:00
+modified: 2025-12-28T18:49:16+00:00
 purpose: "To provide a canonical definition and explanation of Starter Tasks and their application."
 review_interval: "365"
 see_also: ["[[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]]", "[[MOC - Atomic Actions and Next Actions Framework]]", "[[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]", "[[Success Accumulates Through Thousands of Tiny Daily Choices]]", "[[The Zeigarnik Effect Creates a Cognitive Pull Towards Task Completion]]"]

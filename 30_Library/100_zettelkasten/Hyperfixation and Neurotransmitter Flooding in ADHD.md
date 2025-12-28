@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-24T15:17:00Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2025-12-28T09:56:31+00:00
+modified: 2025-12-28T18:49:33+00:00
 purpose: "Explain the neurochemical flooding that occurs during ADHD hyperfixation and its role in the interest cycle."
 review_interval: "90"
 see_also: ["[[ADHD Hyperfixation-Burnout Cycle]]", "[[Dopamine Deficit Follows Hyperfixation Crash]]", "[[Hyperfixation Creates Time Blindness in ADHD]]", "[[The I've Cracked It Illusion During ADHD Hyperfixation]]"]

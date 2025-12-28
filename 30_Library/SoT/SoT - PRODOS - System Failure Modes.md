@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-10T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-28T09:56:10+00:00
+modified: 2025-12-28T18:49:16+00:00
 purpose: "To define the specific failure modes of traditional productivity systems (like Zettelkasten) for ADHD brains and how PRODOS mitigates them."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - PRODOS (System Architecture)]]"]
