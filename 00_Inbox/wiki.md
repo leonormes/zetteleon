@@ -8,7 +8,7 @@ confidence: ""
 epistemic: ""
 purpose: ""
 created: 2025-12-28T19:57:21+00:00
-modified: 2025-12-28T20:03:57+00:00
+modified: 2025-12-28T20:05:12+00:00
 last_reviewed: ""
 review_interval: ""
 see_also: []
@@ -185,9 +185,7 @@ We model the chart's life not as a single mutable object, but as a series of dis
 - **Context:** Static configuration. No network IO has occurred.
 - **Guarantee:** The names and paths are valid strings, but the resources they point to might not exist.
 
-    Rust
-
-    ```
+    ```rust
     pub struct ChartBlueprint {
         pub name: ChartName,
         pub repo: RepoName,
@@ -202,9 +200,7 @@ We model the chart's life not as a single mutable object, but as a series of dis
 - **Context:** We have queried the Upstream (Helm/OCI) and the Downstream (ACR).
 - **Invariant:** You cannot possess this struct without having known the version difference.
 
-    Rust
-
-    ```
+    ```rust
     pub struct ChartAssessment {
         pub blueprint: ChartBlueprint,
         pub upstream_version: String,
@@ -218,9 +214,7 @@ We model the chart's life not as a single mutable object, but as a series of dis
 - **Context:** The chart exists on the local filesystem.
 - **Safety Mechanism (Tabula Rasa):** The Fetcher _must_ delete any existing directory before creating this struct. This guarantees the filesystem is clean and matches the `upstream_version`.
 
-    Rust
-
-    ```
+    ```rust
     pub struct FetchedChart {
         pub assessment: ChartAssessment,
         // The existence of this struct proves the file system is ready
@@ -235,7 +229,7 @@ We model the chart's life not as a single mutable object, but as a series of dis
 
     Rust
 
-    ```
+    ```rust
     pub struct ChartInventory {
         pub assessment: ChartAssessment,
         pub images: HashSet<ImageReference>,
@@ -267,7 +261,7 @@ The application logic is structured as a **Kernel** function wrapped in a parall
 
 Rust
 
-```
+```rust
 // The Result Type for the Kernel
 pub enum ProcessingOutcome {
     Success { chart: String, images_found: usize, ... },
