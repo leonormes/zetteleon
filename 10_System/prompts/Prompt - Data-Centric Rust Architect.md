@@ -2,13 +2,13 @@
 aliases: []
 tags: []
 title: Prompt - Data-Centric Rust Architect
-type: ""
-status: ""
+type: prompt
+status: active
 confidence: ""
 epistemic: ""
 purpose: ""
 created: 2025-12-28T10:01:21+00:00
-modified: 2025-12-28T10:05:37+00:00
+modified: 2025-12-28T11:21:11+00:00
 last_reviewed: ""
 review_interval: ""
 see_also: []
