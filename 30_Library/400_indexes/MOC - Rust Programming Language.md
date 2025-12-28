@@ -25,6 +25,10 @@ type: "MOC"
 - **Memory Model:** [[SoT - Rust's Ownership Model]] - The unique discipline of Borrowing and Lifetimes.
 - **Type System:** [[MOC - Type Theory]] - Rust's type system is heavily influenced by affine types and algebraic data types.
 
+## Conceptual Bridges
+
+- **For TS Developers:** [[SoT - Rust vs TypeScript]] - A high-contrast comparison of type systems and memory models (Nominal vs. Structural, Enums vs. Discriminated Unions).
+
 ## Learning & Projects
 
 - **Active Curriculum:** [[2025-12-27-1015-HEAD - Learning Rust via Release Tool]]
