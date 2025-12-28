@@ -8,7 +8,7 @@ confidence: ""
 epistemic: ""
 purpose: ""
 created: 2025-12-28T19:57:21+00:00
-modified: 2025-12-28T20:05:12+00:00
+modified: 2025-12-28T20:40:43+00:00
 last_reviewed: ""
 review_interval: ""
 see_also: []
@@ -73,7 +73,6 @@ pub struct ChartAssessment {
     pub upstream_version: String,
     pub acr_version: Option<String>, // None = New Chart
 }
-
 ```
 
 #### Stage 3: The Artifact (`FetchedChart`)
@@ -185,14 +184,14 @@ We model the chart's life not as a single mutable object, but as a series of dis
 - **Context:** Static configuration. No network IO has occurred.
 - **Guarantee:** The names and paths are valid strings, but the resources they point to might not exist.
 
-    ```rust
-    pub struct ChartBlueprint {
-        pub name: ChartName,
-        pub repo: RepoName,
-        pub local_path: PathBuf,
-        pub target_acr: RegistryAlias, // The Single Source of Truth
-    }
-    ```
+```rust
+pub struct ChartBlueprint {
+    pub name: ChartName,
+    pub repo: RepoName,
+    pub local_path: PathBuf,
+    pub target_acr: RegistryAlias, // The Single Source of Truth
+}
+```
 
 ### Phase 2: The Decision (`ChartAssessment`)
 
@@ -200,13 +199,13 @@ We model the chart's life not as a single mutable object, but as a series of dis
 - **Context:** We have queried the Upstream (Helm/OCI) and the Downstream (ACR).
 - **Invariant:** You cannot possess this struct without having known the version difference.
 
-    ```rust
-    pub struct ChartAssessment {
-        pub blueprint: ChartBlueprint,
-        pub upstream_version: String,
-        pub acr_version: Option<String>, // None = New Chart
-    }
-    ```
+```rust
+pub struct ChartAssessment {
+    pub blueprint: ChartBlueprint,
+    pub upstream_version: String,
+    pub acr_version: Option<String>, // None = New Chart
+}
+```
 
 ### Phase 3: The Artifact (`FetchedChart`)
 
@@ -214,12 +213,12 @@ We model the chart's life not as a single mutable object, but as a series of dis
 - **Context:** The chart exists on the local filesystem.
 - **Safety Mechanism (Tabula Rasa):** The Fetcher _must_ delete any existing directory before creating this struct. This guarantees the filesystem is clean and matches the `upstream_version`.
 
-    ```rust
-    pub struct FetchedChart {
-        pub assessment: ChartAssessment,
-        // The existence of this struct proves the file system is ready
-    }
-    ```
+```rust
+pub struct FetchedChart {
+    pub assessment: ChartAssessment,
+    // The existence of this struct proves the file system is ready
+}
+```
 
 ### Phase 4: The Inventory (`ChartInventory`)
 
@@ -227,14 +226,12 @@ We model the chart's life not as a single mutable object, but as a series of dis
 - **Context:** We have parsed the chart and extracted its dependencies.
 - **Invariant:** The `images` set is populated, unique, and technically valid (parseable as OCI references).
 
-    Rust
-
-    ```rust
-    pub struct ChartInventory {
-        pub assessment: ChartAssessment,
-        pub images: HashSet<ImageReference>,
-    }
-    ```
+```rust
+pub struct ChartInventory {
+    pub assessment: ChartAssessment,
+    pub images: HashSet<ImageReference>,
+}
+```
 
 ---
 
@@ -258,8 +255,6 @@ The application logic is structured as a **Kernel** function wrapped in a parall
 - **The Kernel (`process_chart_logic`):** A pure function that takes a `Blueprint` and returns a `ProcessingOutcome`. It owns the flow of `Assess -> Fetch -> Analyze -> Import -> Rewrite -> Push`.
 - **The Map Phase:** `rayon` distributes Blueprints across threads.
 - **The Reduce Phase:** `ProcessingOutcome` enums are aggregated into a `RunReport`.
-
-Rust
 
 ```rust
 // The Result Type for the Kernel
