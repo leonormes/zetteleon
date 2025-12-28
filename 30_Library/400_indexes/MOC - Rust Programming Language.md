@@ -3,16 +3,21 @@ modified: 2025-12-28T09:56:11+00:00
 review_interval: ""
 see_also: []
 source_of_truth: []
-aliases: ["Rust MOC", "Map of Rust"]
-confidence: "5/5"
+aliases:
+  - Rust MOC
+  - Map of Rust
+confidence: 5/5
 created: 2025-12-27T14:11:28+00:00
-epistemic: "index"
-last_reviewed: "2025-12-27"
-purpose: "To map the landscape of the Rust Programming Language notes within the vault."
-status: "stable"
-tags: ["moc", "rust", "programming"]
+epistemic: index
+last_reviewed: 2025-12-27
+purpose: To map the landscape of the Rust Programming Language notes within the vault.
+status: stable
+tags:
+  - moc
+  - rust
+  - programming
 title: MOC - Rust Programming Language
-type: "MOC"
+type: map
 ---
 
 # MOC - Rust Programming Language

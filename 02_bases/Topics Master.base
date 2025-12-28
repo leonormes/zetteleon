@@ -118,6 +118,8 @@ views:
       - status
       - tags
     sort:
+      - property: type
+        direction: ASC
       - property: file.mtime
         direction: DESC
     columnSize:
