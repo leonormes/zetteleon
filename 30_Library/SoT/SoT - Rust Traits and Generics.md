@@ -67,6 +67,21 @@ Some traits have no methods but instruct the compiler to change its behavior.
 - **`Copy`:** The type is bitwise copyable (stack-only).
 - **`Send` / `Sync`:** The type is safe to move/share across threads.
 
+### 3.3 Extension Traits (Retroactive Abstraction)
+
+This pattern allows you to add methods to types you do not own (e.g., standard library types), enabling a "fluent" API style.
+
+1.  **Define a Trait:** Create a trait with the desired new method.
+2.  **Implement Generic:** Implement it for *all* types that satisfy a condition (`impl<T: Iterator> MyExt for T`).
+3.  **Result:** You can now call `.my_method()` on `Vec::iter()` directly.
+
+### 3.4 Conditional Capabilities (Conditional API)
+
+You can restrict functionality based on the capabilities of the generic type. A method will **only exist** if the underlying type meets specific bounds.
+
+- **Example:** A `Progress<T>` struct might only have a `.with_bound()` method if `T` implements `ExactSizeIterator`.
+- **Safety:** Attempting to call this on an infinite stream is a compile-time error, not a runtime crash.
+
 ## 4. Minimum Viable Understanding (MVU)
 
 1. **Generics let you write code once for many types.**

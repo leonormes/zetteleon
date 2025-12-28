@@ -45,16 +45,24 @@ Instead of passing a primitive (e.g., `String`) and repeatedly validating it, yo
     3. Provide a constructor (e.g., `parse()`) that returns `Result<EmailAddress, Error>`.
     4. Downstream functions accept `EmailAddress`, guaranteed to be valid by its very existence.
 
-## 3. The Type State Pattern
+### 3. The Type State Pattern
 
 This pattern uses the type system to model the **valid state transitions** of an object (finite state machine), making illegal operations impossible.
 
 ### Mechanics
 
-1. **State Modeling:** Define distinct structs for each state (e.g., `OrderDraft`, `OrderPaid`, `OrderShipped`).
-2. **Ownership Transitions:** Transition functions take `self` by value (consuming the old state) and return the new state.
-    - `fn pay(self: OrderDraft) -> OrderPaid`
-3. **Invalidation:** Because `OrderDraft` is consumed, the compiler prevents any further modification to the draft once it is paid. The "old" state no longer exists.
+1.  **State Modeling:** Define distinct structs for each state (e.g., `OrderDraft`, `OrderPaid`, `OrderShipped`).
+2.  **Ownership Transitions:** Transition functions take `self` by value (consuming the old state) and return the new state.
+    -   `fn pay(self: OrderDraft) -> OrderPaid`
+3.  **Invalidation:** Because `OrderDraft` is consumed, the compiler prevents any further modification to the draft once it is paid. The "old" state no longer exists.
+
+### Example: The Builder Pattern (Progress Bar)
+
+Instead of a single struct with `Option` fields (runtime checks), use generics to track initialization state.
+
+-   **Start:** `ProgressBar<Unbounded>`
+-   **Transition:** calling `.with_limit(100)` returns `ProgressBar<Bounded>`.
+-   **Enforcement:** Methods like `.eta()` are *only* implemented for `ProgressBar<Bounded>`. Calling `.eta()` on an unbounded bar is a compiler error.
 
 ## 4. The Sum Type (Enum) Architecture
 
