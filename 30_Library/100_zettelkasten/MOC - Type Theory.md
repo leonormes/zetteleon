@@ -50,6 +50,7 @@ Bridging the gap between structure and computation.
 Applying type theory to eliminate runtime failure.
 
 - **[[SoT - Type-Driven Development (The Torvalds Loop)]]**: The PRODOS core philosophy; bridging the gap between hardware reality and mathematical truth.
+- **[[SoT - Type-Level Programming]]**: Computing at compile-time by encoding values and logic as types.
 - **[[SoT - Rust Type System Modeling (Formality Core)]]**: Making type systems executable and verifiable for busy engineers.
 - **[[SoT - Rust Type System Tensions and Critiques]]**: Theoretical analysis of Rust's debt regarding Linearity, Dependent Types, and the ABI.
 - **[[SoT - Proof-Carrying Code via Simulated Dependent Types]]**: Techniques for encoding logic proofs into Rust's type system to render bugs unrepresentable.

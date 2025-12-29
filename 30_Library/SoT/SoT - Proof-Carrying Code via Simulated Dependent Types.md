@@ -20,7 +20,7 @@ updated:
 ## 1. Working Knowledge (Stable Foundation)
 
 - **Definition:** Proof-Carrying Code is a software design pattern where the validity of data and logic is encoded directly into the type system. This forces the compiler to verify correctness, transforming runtime checks (which can panic) into compile-time theorems (which fail to build).
-- **Core Mechanism:** **Dependent Typing**—where types depend on values. Since Rust lacks native dependent types, this is simulated using **Type-Level Programming** (e.g., Peano arithmetic) and **Trait Bounds**.
+- **Core Mechanism:** **Dependent Typing**—where types depend on values. Since most mainstream languages lack native dependent types, this is simulated using **[[SoT - Type-Level Programming]]** (e.g., Peano arithmetic) and **Trait Bounds**.
 - **Theoretical Basis:** The approach is grounded in resolving **Russell's Paradox** (avoiding self-reference) by establishing a strict hierarchy: Terms < Types < Kinds < Sorts.
 
 ## 2. Current Understanding (Coherent Narrative)
@@ -34,8 +34,9 @@ Standard type systems prevent type errors (e.g., treating an integer as a string
 By moving constraints from values (runtime) to types (compile-time), we make invalid states **unrepresentable**.
 
 1. **The Hierarchy of Types:** To avoid paradoxes, systems like Rust enforce stratification. Terms (values) cannot easily influence Types. Dependent types bridge this gap, allowing a Type to be "A vector of length N" where N is a value.
-2. **Simulated Dependent Types in Rust:**
+2. **Implementation Vectors:**
     - **Peano Arithmetic:** Numbers are defined as recursive types (`Zero`, `Successor<N>`) rather than `u32` values.
+    - **Match Types (Scala 3):** An evolution of implicit resolution that provides direct, readable pattern matching on types.
     - **Proof-Carrying Structs:** Data structures (like `SizeProofVec<Length>`) include the logic in their signature. `Vec<Nat3>` is a distinct type from `Vec<Nat4>`.
     - **Trait Solver as Logic Engine:** Logic operations (equality, comparison) are implemented as traits. The compiler "solves" these traits to prove validity.
 

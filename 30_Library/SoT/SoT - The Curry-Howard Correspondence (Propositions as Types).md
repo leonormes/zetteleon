@@ -61,9 +61,10 @@ This framework transforms the compiler from a syntax checker into a **Theorem Pr
 
 ### Practical Engineering Application
 
-By leveraging CHI, systems like Rust can move runtime errors to compile-time logical proofs:
+By leveraging CHI, systems like Rust and Scala can move runtime errors to compile-time logical proofs:
 - **Matrix Verification**: Encoding dimensions into types so that $A_{m \times n} \times B_{n \times p}$ is proven valid before execution.
 - **Length-Indexed Lists**: A `Zip` function that only compiles if two lists have exactly the same length, eliminating `IndexOutOfBounds` risks.
+- **The Proof Searcher (Scala 3)**: Features like `given` and `using` allow the compiler to act as an automated theorem prover. A `given CanShow[Int]` is a proof that the proposition "Int can be shown" is true. When the user `summon`s this type, the compiler performs a **Proof Search** to find the evidence.
 
 ## 4. Minimum Viable Understanding (MVU)
 
