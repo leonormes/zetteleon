@@ -1,10 +1,11 @@
 ---
+aliases: []
 alias: ["ADTs", "Sum and Product Types", "Algebraic Types"]
 confidence: "5/5"
-created: 2025-12-29
+created: 2025-12-29T11:10:13+00:00
 epistemic: "authoritative"
 last_reviewed: "2025-12-29"
-modified: 2025-12-29
+modified: 2025-12-29T16:25:02+00:00
 purpose: "To define the framework, logic, and cross-language implementation of Algebraic Data Types (ADTs)."
 review_interval: "6 months"
 see_also: ["[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]", "[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
@@ -27,12 +28,14 @@ updated:
 ## 2. Fundamental Building Blocks
 
 ### A. Product Types (Logical AND)
+
 - **Concept:** Requires Value A **AND** Value B to coexist.
 - **Cardinality:** Multiplication ($|A \times B| = |A| \cdot |B|$).
 - **Implementations:** `struct` (Rust/C), `case class` (Scala), `record` (Java/C#), Tuples.
 - **Example:** A `Point` requires both `x` and `y`.
 
 ### B. Sum Types (Logical OR)
+
 - **Concept:** Represents a choice between mutually exclusive variants (Choice).
 - **Cardinality:** Addition ($|A + B| = |A| + |B|$).
 - **Implementations:** `enum` (Rust/Swift), `sealed trait` (Scala), Discriminated Union (TS), `sealed interface` (Java).
@@ -54,7 +57,7 @@ The power of ADTs lies in their ability to enforce domain invariants at the type
 ## 4. Cross-Language Implementation Patterns
 
 | Language | Sum Type Mechanism | Product Type Mechanism |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Rust** | `enum` (with data payloads) | `struct` / `tuple` |
 | **Scala** | `sealed trait` / `sealed abstract class` | `case class` |
 | **TypeScript** | Discriminated Unions (`kind` property) | `interface` / `type` |
@@ -62,10 +65,12 @@ The power of ADTs lies in their ability to enforce domain invariants at the type
 | **Java** | `sealed interface` + `permits` | `record` |
 
 ### C# / Java Simulation (Legacy)
+
 In languages lacking native Sum types, they are simulated using **Closed Hierarchies**:
-1.  **Sealed Base Class:** Prevents external inheritance.
-2.  **Private Constructor:** Ensures only nested variants can exist.
-3.  **Functional Dispatch:** A `Match` method using lambdas replaces standard polymorphism to enforce exhaustiveness.
+
+1. **Sealed Base Class:** Prevents external inheritance.
+2. **Private Constructor:** Ensures only nested variants can exist.
+3. **Functional Dispatch:** A `Match` method using lambdas replaces standard polymorphism to enforce exhaustiveness.
 
 ---
 

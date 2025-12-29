@@ -61,6 +61,8 @@ How these data principles manifest in specific technologies and models.
 
 - **[[SoT - Cloud Networking Core Components]]**—VPCs, Subnets, and Gateways as virtualized data structures.
 - **[[SoT - Kubernetes Networking & DNS]]**—The overlay network as a software-defined state layer.
+- **[[SoT - Secure Cross-Cloud Data Transport]]**—The Virtual Private Data Plane pattern for multi-cloud systems.
+- **[[Cross-Cloud Kubernetes Networking Documentation Index]]**—Implementation-specific guides for AWS/Azure connectivity.
 - **[[CNI Explained]]**—The data interface for container networking.
 
 ---
