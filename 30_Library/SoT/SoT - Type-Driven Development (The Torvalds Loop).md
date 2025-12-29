@@ -37,6 +37,13 @@ In this protocol, Logic is the *last* consideration. We prioritize the physical 
 | **3. Invariants** | **Integrity** | Define constraints that must *always* be true. Use the type system to enforce them. |
 | **4. Logic** | **Transformation** | Write simple, linear algorithms that transform valid state A into valid state B. |
 
+### The "Unified Protocol": Torvalds + Type Theory
+Type-Driven Development is the mechanism used to enforce the **Torvalds Loop**. In Rust, defining a type satisfies both gritty systems engineering and formal logic.
+
+1.  **Phase 1: Shape (Physical Reality) $\to$ Sum Types (Enums).** Instead of pointer-chasing classes, use tagged unions to keep data compact and mutually exclusive.
+2.  **Phase 2: Invariants (The Rules) $\to$ Newtypes & Smart Constructors.** Use `struct UserId(u32)` to ensure semantic separation without runtime overhead.
+3.  **Phase 3: Logic (The Behavior) $\to$ Pattern Matching.** Your code becomes a "switchboard" routing data based on its shape.
+
 ### The "Parse, Don't Validate" Principle
 Do not write code to "validate" messy input. Instead, **parse** it into a Type where the invalid state cannot exist. If parsing succeeds, the logic that follows is guaranteed to be safe.
 

@@ -25,10 +25,14 @@ updated:
   - **Proof** $\iff$ **Program** (Inhabitant of the Type)
   - **Simplification of Proof** $\iff$ **Execution of Program** (Beta-reduction)
 - **Logical Mapping:**
+  - **Proposition** $\iff$ **Type**
+  - **Proof** $\iff$ **Program / Function**
+  - **True** $\iff$ **Unit Type** (e.g., `()`)
+  - **False ($\bot$)** $\iff$ **Bottom / Never Type** (e.g., `!`)
   - **Implication ($A \implies B$)** $\iff$ **Function ($A \to B$)**
   - **Conjunction ($A \land B$)** $\iff$ **Product Type (Tuple/Struct)**
   - **Disjunction ($A \lor B$)** $\iff$ **Sum Type (Enum/Union)**
-  - **False ($\bot$)** $\iff$ **Empty Type (Void/Never)**
+  - **Universal Quantifier ($\forall$)** $\iff$ **Generics**
   - **Negation ($\neg A$)** $\iff$ **Function to Empty Type ($A \to \bot$)**
 
 ## 2. Current Understanding (Coherent Narrative)
@@ -53,6 +57,13 @@ This framework transforms the compiler from a syntax checker into a **Theorem Pr
 - **Layer 1 (Basic Model):** Writing code is the same as proving math.
 - **Layer 2 (Mapping):** Every common programming construct has a logical twin (e.g., an `if/else` on an Enum is a proof of a Disjunction).
 - **Layer 3 (Deep Theory):** Type systems are formal languages for expressing Intuitionistic Logic. Proof simplification (computation) is the process of removing unnecessary steps from a proof.
+- **Layer 4 (The Peano Example):** Using types like `Zero`, `Succ<Zero>` (1), `Succ<Succ<Zero>>` (2) to represent natural numbers. Traits then become proofs of mathematical properties (e.g., Equality, Addition) verified by the compiler.
+
+### Practical Engineering Application
+
+By leveraging CHI, systems like Rust can move runtime errors to compile-time logical proofs:
+- **Matrix Verification**: Encoding dimensions into types so that $A_{m \times n} \times B_{n \times p}$ is proven valid before execution.
+- **Length-Indexed Lists**: A `Zip` function that only compiles if two lists have exactly the same length, eliminating `IndexOutOfBounds` risks.
 
 ## 4. Minimum Viable Understanding (MVU)
 

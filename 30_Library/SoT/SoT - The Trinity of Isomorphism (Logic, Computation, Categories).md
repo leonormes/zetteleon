@@ -60,13 +60,25 @@ A function $A \to B$ is an object $B^A$.
 - **Layer 2 (The Architect):** "Sums and Products are duals. If I design an API with inputs (Arrows In), I should consider the dual output structure (Arrows Out)."
 - **Layer 3 (The Theorist):** "Logic, Code, and Categories are the same thing. I can use intuition from one to solve problems in the other."
 
-## 4. Minimum Viable Understanding (MVU)
+## 4. Market Alignment (Real World Context)
+
+The utility of the Trinity depends on the language's capacity to express Sum types and control memory.
+
+| Language | Sum Type Support | Memory Control | Alignment |
+| :--- | :--- | :--- | :--- |
+| **Rust** | ⭐⭐⭐⭐⭐ (Native ADTs) | ⭐⭐⭐⭐⭐ (Maximum) | **100%** |
+| **TypeScript** | ⭐⭐⭐⭐ (Discriminated Unions) | ⭐ (Erasure) | **80%** |
+| **Go** | ⭐ (Interface Hacks) | ⭐⭐⭐⭐ (Explicit Layout) | **20%** |
+| **Haskell** | ⭐⭐⭐⭐⭐ (Pure ADTs) | ⭐ (Lazy Thunks) | **90%** |
+
+## 5. Minimum Viable Understanding (MVU)
 
 - **Trinity:** Logic = Code = Categories.
 - **Duals:** Sums and Products are mirror images.
+- **The Equation:** $C^{A+B} \cong C^A \times C^B$. Handling a Sum (OR) requires a Product (AND) of handlers. This is the mathematical basis for **exhaustive pattern matching**.
 - **Candle in the Dark:** Using a language with Sum types (Rust/Haskell) gives you mathematical guidance. Using one without (Java/Go) leaves you "groping in the dark."
 
-## 5. Tensions, Gaps, and Cross-SoT Coherence
+## 6. Tensions, Gaps, and Cross-SoT Coherence
 
 - **Reinforcement:** This note provides the *Categorical* view of the concepts in [[SoT - The Algebra of Types (Cardinality and Isomorphism)]].
   - *Algebra:* $A + B$.

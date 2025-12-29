@@ -16,6 +16,8 @@ type: "SoT"
 ---
 
 > **The Core Divergence:** While both languages use static analysis to improve reliability, TypeScript optimizes for **Flexibility** (matching the dynamic nature of JavaScript), while Rust optimizes for **Correctness and Performance** (matching the strict nature of hardware).
+> 
+> **The Metaphor:** TypeScript is a **painting** (a high-fidelity representation that vanishes at runtime); Rust is a **sculpture** (the types dictate the physical structure of the matter).
 
 ## 1. Type Philosophy: Nominal vs. Structural
 
@@ -24,6 +26,7 @@ The most fundamental shift for a TypeScript developer learning Rust is the natur
 | Feature | TypeScript (Structural / Duck Typing) | Rust (Nominal Typing) |
 |:--- |:--- |:--- |
 | **Identity** | **Shape-based.** If it *looks* like a duck (has `walk()`), it *is* a duck. | **Name-based.** A type is defined by its explicit declaration name. |
+| **Soundness** | **Erasure.** Types are stripped at runtime. You can lie via `as Any`. | **Reification.** Types dictate memory layout. You cannot lie without `unsafe`. |
 | **Logic** | `interface A { x: number }` is compatible with `interface B { x: number }`. | `struct A { x: i32 }` is **distinct** from `struct B { x: i32 }`. |
 | **Why?** | To interoperate with the "wild west" of existing JavaScript libraries. | To enforce semantic strictness and ensure invariants in systems code (e.g., `FileHandle` ≠ `SocketHandle`). |
 | **Exception** | N/A | Rust uses structural typing for **Tuples** and **References**. |

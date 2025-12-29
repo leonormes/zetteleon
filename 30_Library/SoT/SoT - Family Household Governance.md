@@ -1,16 +1,16 @@
 ---
-aliases: ["Household System", "Family Chores Framework", "Parental Alignment Contract", "Earned Access Protocol"]
+aliases: ["Household System", "Family Chores Framework", "Parental Alignment Contract", "Earned Access Protocol", "Family Maintenance SOPs"]
 confidence: "5/5"
 created: 2025-12-26T12:00:00Z
 epistemic: "governance"
-last_reviewed: "2025-12-26"
-modified: 2025-12-27T13:02:29+00:00
-purpose: "To define the operational logic, governance protocols, and conflict resolution strategies for the household distributed system."
+last_reviewed: "2025-12-29"
+modified: 2025-12-29T10:55:03+00:00
+purpose: "To define the operational logic, governance protocols, and standard operating procedures (SOPs) for the household distributed system."
 review_interval: "6 months"
-see_also: ["[[SoT - The Multifaceted Role of a Parent]]", "[[SoT - Relationship Maintenance and Emotional Labour]]", "[[Appropriate Expectations in a Family]]"]
+see_also: ["[[SoT - The Multifaceted Role of a Parent]]", "[[SoT - Relationship Maintenance and Emotional Labour]]"]
 source_of_truth: []
 status: "stable"
-tags: ["family", "governance", "systems", "chores", "prodos"]
+tags: ["family", "governance", "systems", "chores", "prodos", "sops"]
 title: SoT - Family Household Governance
 type: "SoT"
 uid: 
@@ -103,19 +103,58 @@ Physical storage is architected by **Access Frequency**, not Volume.
 
 ---
 
-## 5. Delegation Logic (Age-Appropriate Architecture)
+## 5. Standard Operating Procedures (SOPs) & DoD
 
-| Role | Responsibility | Complexity |
-|:--- |:--- |:--- |
-| **D10** | Surface management (Dusting, Table clearing) | Low |
-| **D13** | Sanitation A (Main Bathroom), Vacuuming | Medium |
-| **D15** | Sanitation B (En-suite), Food Safety Audit | High |
-| **Parents** | System Admin (Logistics, Finance, Infrastructure) | Critical |
+### 🧊 Cold Storage (Fridge)
+
+**Definition of Done (DoD):** No visible spills, no expired items, and the drainage hole at the back is clear of ice/debris.
+
+**SOP:**
+1. **Extraction:** Clear one shelf at a time.
+2. **Audit:** Check Use-By dates. Wipe sticky jars.
+3. **Sanitisation:** Spray anti-bacterial; wipe with damp cloth; dry with microfibre.
+4. **Restock:** Ready-to-eat (Top), Raw Meat (Bottom/Sealed), Veg (Drawers).
+
+### 🚗 Mobile Node (Car Interior Valet)
+
+**Definition of Done (DoD):** No rubbish in door pockets, mats are grit-free, and windows are smear-free.
+
+**SOP:**
+1. **De-clutter:** Remove all loose items.
+2. **Gravity Clean:** Brush crumbs to floor; shake mats outside.
+3. **Suction:** Vacuum seats then footwells (use crevice tool).
+4. **Clarity:** Glass cleaner on interior windows (spray cloth, not glass).
+5. **Touch-Points:** Wipe steering wheel/gear stick with anti-bacterial.
+
+### 🧼 Bathrooms
+
+**Definition of Done (DoD):**
+* **Reflection:** Mirrors/Chrome have zero spots.
+* **Surface:** No hair/dust on basin or toilet lid.
+* **Sanitation:** Toilet bowl clear and smells disinfected.
+* **Inventory:** Hand towel fresh, loo roll restocked.
 
 ---
 
-## 6. Implementation Strategy
+## 6. The Contribution Ledger (Template)
 
-1. **The Ledger:** A visual tracker (Obsidian/Analog) showing **Task Status** vs. **Privilege Status**.
-2. **The Audit:** Tasks are not marked "Done" until a Parent visually verifies the DoD.
-3. **The Consistency:** The system fails if the Admins do not enforce the "No Rescue" rule.
+Use this table to track compliance weekly.
+
+| Task | Assigned | Points | QA Status (Audit) |
+|:--- |:--- |:---: |:--- |
+| **Bathroom 1** | D13 | 5 | [] Approved |
+| **Bathroom 2** | D15 | 5 | [] Approved |
+| **Kitchen Reset** | D10 | 3 | [] Approved |
+| **Car Valet** | D15 | 5 | [] Approved |
+
+---
+
+## 7. Storage Architecture (Zoning Law)
+
+| Tier | Category | Frequency | Allowed Assets | Prohibited Assets |
+|:--- |:--- |:--- |:--- |:--- |
+| **L1** | **Hot Storage** | **Daily** | Kettle, keys, bin bags, chargers. | Anything used < daily. |
+| **L2** | **Warm Storage** | **Weekly** | Vacuum, tools, mop, laundry. | Seasonal items, archives. |
+| **L3** | **Cold Storage** | **Annual** | Christmas decs, suitcases, camping. | Items needed for weekly chores. |
+
+**The 20% Buffer Rule:** No L1 or L2 storage zone may exceed **80% volume capacity**. Functional throughput requires empty space for access.

@@ -87,7 +87,14 @@ A **Variant** is a formal "branch" of the type. It consists of:
 > [!tip] Mental Model for TS Devs
 > Think of a Rust Enum as a **Discriminated Union** (`type Shape = Circle | Square`) flattened into a single atomic structure where the "kind" field is managed automatically by the compiler.
 
-## 5. Advanced: Pattern Types (Future)
+## 5. Formal Modeling & Executable Specifications
+
+As the type system grows, maintaining a manual mental model becomes unsustainable. The community uses formal frameworks to validate language features.
+
+- **[[SoT - Rust Type System Modeling (Formality Core)]]**: Niko Matsakis's lightweight framework for defining grammar and judgment rules as executable Rust code. It allows testing new RFCs for soundness before stabilization.
+- **Oxide**: A formalization of Rust using region-based aliasing to decouple lifetimes from the call stack.
+
+## 6. Advanced: Pattern Types (Future)
 
 *Note: As of late 2025, this is an emerging feature.*
 

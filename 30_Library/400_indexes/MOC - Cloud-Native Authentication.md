@@ -35,12 +35,20 @@ How code proves its identity to other code.
     - **OIDC Federation:** Eliminating static keys for GitHub/AWS connectivity.
     - **SPIFFE/SPIRE:** (Planned) Identity bootstrapping for dynamic workloads.
 
-## 3. User Identity (Human-to-Machine)
+## 3. Authorization & Zero Trust
+
+Authentication proves identity; Authorization defines the boundaries.
+
+- **[[SoT - Data-Centric IAM in Zero Trust]]** - The PDP/PEP architecture and trust equation.
+- **[[SoT - Role-Based Access Control (RBAC)]]** - (Planned) Traditional static permissions.
+- **[[SoT - Attribute-Based Access Control (ABAC)]]** - Dynamic, fine-grained control.
+
+## 4. User Identity (Human-to-Machine)
 
 - **FIDO2 / Passkeys:** Phishing-resistant authentication.
 - **SSO (Single Sign-On):** Centralizing trust via OIDC.
 
-## 4. Key Algorithms
+## 5. Key Algorithms
 
 - **Signing:** `RS256`, `ES256`, `EdDSA` (Ed25519).
 - **Hashing:** `SHA-256`.

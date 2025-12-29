@@ -55,6 +55,7 @@ This architecture firmly places Rust in the "Nanny" category of languages as def
 
 - **Tension:** **The Learning Cliff.** Rust's novel ownership model is its greatest strength and its biggest hurdle. The learning curve is notoriously steep, which can slow down initial development velocity compared to more familiar paradigms.
 - **Tension:** **Expressiveness vs. Safety.** The borrow checker, while ensuring safety, can sometimes make it difficult or verbose to express certain valid programming patterns (e.g., doubly-linked lists, self-referential structs), forcing developers to use `unsafe` "escape hatches," which subverts the core safety promise.
+- **Tension:** **Theoretical Debt.** Critics argue that ignoring formal type theory has led to an "incomplete" system. See [[SoT - Rust Type System Tensions and Critiques]].
 - **Confidence Gap:** Is Rust a "local maximum"? Critics argue that while it is a significant improvement over C++, it is a "stopgap" technology that will eventually be superseded by languages that more fully embrace [[SoT - Dependent Types in Software]] and formal correctness.
 
 ## 7. Related Components

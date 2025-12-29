@@ -20,13 +20,15 @@ updated:
 ## 1. Working Knowledge (Stable Foundation)
 
 - **Core Concept:** Types can be understood algebraically by the size (cardinality) of their set of possible values.
-- **The Arithmetic:**
+- **The Arithmetic (The "Rig" Structure):**
   - **Sum Types ($A + B$):** `Enum` / `Union`. Cardinality = $|A| + |B|$.
   - **Product Types ($A \times B$):** `Struct` / `Tuple`. Cardinality = $|A| \times |B|$.
   - **Function Types ($A \to B$):** `Map` / `Exponent`. Cardinality = $|B|^{|A|}$.
 - **Neutral Elements:**
   - **Void ($0$):** Identity for Sums ($A + 0 = A$).
   - **Unit ($1$):** Identity for Products ($A \times 1 = A$).
+- **The Annihilation Law:** $A \times 0 = 0$.
+  - *Logic:* If a product requires a value from an empty set (Void), the product itself becomes impossible to construct.
 
 ## 2. Current Understanding (Coherent Narrative)
 
@@ -46,6 +48,8 @@ A type is a set of allowed values equipped with operations. By counting these va
 
 Because types follow standard algebraic laws, we can prove that two different code structures are mathematically identical (Isomorphic).
 
+- **The Fundamental Equation:** $C^{A+B} \cong C^A \times C^B$.
+  - *Translation:* Handling a Choice (Sum $A+B$) requires a Group (Product $C^A \times C^B$) of handlers. This is the mathematical proof that pattern matching must be **exhaustive**.
 - **Distributivity:** $a \times (b + c) = (a \times b) + (a \times c)$.
   - *Code:* `(A, Either<B, C>)` is isomorphic to `Either<(A, B), (A, C)>`.
 - **Currying (Exponent Laws):** $(a^b)^c = a^{b \times c}$.

@@ -26,6 +26,7 @@ updated:
 
 The "Meta-Framework" linking logic, math, and code.
 
+- **[[SoT - Algebraic Data Types (ADTs)]]**: The core building blocks (Sums and Products) used to model domain state space and eliminate invalid states.
 - **[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]**: The full Curry-Howard-Lambek correspondence, defining Products and Sums via Category Theory arrows and duality.
 - **[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]**: The bedrock isomorphism between logical propositions and computer types. "A program is a proof."
 - **[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]**: Understanding types through set cardinality and algebraic laws (Sums, Products, Exponentials).
@@ -49,6 +50,8 @@ Bridging the gap between structure and computation.
 Applying type theory to eliminate runtime failure.
 
 - **[[SoT - Type-Driven Development (The Torvalds Loop)]]**: The PRODOS core philosophy; bridging the gap between hardware reality and mathematical truth.
+- **[[SoT - Rust Type System Modeling (Formality Core)]]**: Making type systems executable and verifiable for busy engineers.
+- **[[SoT - Rust Type System Tensions and Critiques]]**: Theoretical analysis of Rust's debt regarding Linearity, Dependent Types, and the ABI.
 - **[[SoT - Proof-Carrying Code via Simulated Dependent Types]]**: Techniques for encoding logic proofs into Rust's type system to render bugs unrepresentable.
 - **[[SoT - Dependent Haskell and Singletons]]**: The architectural patterns (Promoted Constructors, Singletons) for implementing dependent types in Haskell.
 - **[[SoT - Interleaved Compilation (The Hackett Architecture)]]**: Fusing Lisp macros with Haskell types by running expansion and type-checking simultaneously.
