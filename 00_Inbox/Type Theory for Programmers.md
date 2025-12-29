@@ -5,7 +5,7 @@ status: ""
 confidence: ""
 epistemic: ""
 purpose: ""
-modified: 2025-12-29T09:48:02+00:00
+modified: 2025-12-29T09:52:09+00:00
 last_reviewed: ""
 review_interval: ""
 see_also: []
@@ -213,7 +213,7 @@ Let's define our specific Algebra:
 
 TypeScript
 
-```markdown
+```ts
 type User = { id: string; name: string };
 type Guest = { ip: string };
 
@@ -237,7 +237,7 @@ Structurally, this is a **Product** (a Tuple or Object) containing two separate 
 
 TypeScript
 
-```markdown
+```ts
 // The Pair of Functions
 type RenderHandlers = {
     renderUser: (u: User) => HTML;   // A -> C
@@ -596,7 +596,7 @@ Let's look at a messy "procedure" vs. a "chain of arrows."
 
 TypeScript
 
-```markdown
+```ts
 function processUser(input: string): string {
   // We are stuck inside the implementation details
   const trimmed = input.trim();
@@ -610,7 +610,7 @@ function processUser(input: string): string {
 
 TypeScript
 
-```markdown
+```ts
 type RawString = string;
 type CleanString = string;
 type JsonBlob = any;
@@ -659,7 +659,7 @@ You have two objects, but **no arrow** connects them. You cannot compose the sys
 
 TypeScript
 
-```markdown
+```ts
 const toDate = (ts: number): Date => new Date(ts * 1000);
 ```
 
@@ -708,7 +708,7 @@ It is a **Product Type** (Struct): A grouping of `Key` AND `Value`.
 
 Go
 
-```markdown
+```go
 package physical
 
 // Entry is the "Object" moving through the pipes.
@@ -728,7 +728,7 @@ This is the most critical part. The `Backend` interface defines the **Topology**
 
 Go
 
-```markdown
+```go
 package physical
 
 import "context"
@@ -765,7 +765,7 @@ Notice that the `InMem` struct is the **state** (the internal hidden implementat
 
 Go
 
-```markdown
+```go
 package physical
 
 import (
@@ -827,7 +827,7 @@ We can create a `TransactionalBackend` or a `CacheBackend` that wraps our `InMem
 
 Go
 
-```markdown
+```go
 type LoggedBackend struct {
     next Backend // Pointing to another set of arrows
 }
@@ -868,7 +868,7 @@ In Go (Product logic), you model the Vault's barrier as a struct with a flag. Yo
 
 Go
 
-```markdown
+```go
 type Barrier struct {
     isSealed  bool
     masterKey *Key // DANGER: This exists even if isSealed is true!
@@ -887,7 +887,7 @@ In Rust (Sum logic), you model the barrier as an **Enum**. The data *literally d
 
 Rust
 
-```markdown
+```rust
 // The Sum Type (The OR)
 enum BarrierState {
     Sealed,                  // No data here. Empty.
@@ -903,7 +903,7 @@ If you try to write a function that handles the Barrier, Rust forces you to hand
 
 Rust
 
-```markdown
+```rust
 fn handle_request(state: BarrierState, data: Data) -> Result<Secret> {
     match state {
         // Case B: The Happy Path
@@ -1006,7 +1006,7 @@ The AI should stop suggesting things like `is_sealed: bool` inside a struct. Ins
 
 Rust
 
-```markdown
+```rust
 // Expect this kind of output from the AI
 enum VaultState {
     Sealed,
@@ -1085,25 +1085,25 @@ The AI should identify that your Bash script is actually a linear **State Machin
 - **Rust (Goal):** Should propose an Enum like:
 	Rust
 
-	```markdown
-	enum ExecutionContext {
-	    DryRun(Logger), // Can only log
-	    Live(GitLabClient), // Holds the "Keys" to actually do work
-	}
-	```
+```rust
+enum ExecutionContext {
+   DryRun(Logger), // Can only log
+   Live(GitLabClient), // Holds the "Keys" to actually do work
+}
+```
 
 - **Bash:** Functions like `increment_version` taking strings.
 - **Rust (Goal):**
 	Rust
 
-	```markdown
-	enum Increment {
-	    Major,
-	    Minor,
-	    Patch,
-	    Exact(Version),
-	}
-	```
+```rust
+enum Increment {
+   Major,
+   Minor,
+   Patch,
+   Exact(Version),
+}
+```
 
 This will clarify the "Sum vs Product" concept immediately: Configuration is a Product, but the *Release Process* is a series of Sum choices.
 
@@ -1241,7 +1241,7 @@ Let's see how these two models protect you from a classic bug.
 
 Go
 
-```markdown
+```go
 // A messy "Bag of Data"
 type Config struct {
     IsRemote bool   // The "Switch"
@@ -1265,7 +1265,7 @@ func Read(c Config) {
 
 Rust
 
-```markdown
+```go
 // The Physical Reality (Data)
 enum ConfigSource {
     Local(PathBuf), // The path exists INSIDE this choice
