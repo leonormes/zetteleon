@@ -50,6 +50,13 @@ To prevent the ADHD brain from defaulting to "cheap dopamine" (infinite scrollin
 - **Social:** Virtual Body Doubling (Focusmate, muted cameras).
 - **Fidget:** Squeezing putty, mechanical keyboard tactile feedback.
 
+### 🧘 Intermezzos (Boring Breaks)
+
+**Cost:** 5-10 minutes (Between task blocks)
+**Goal:** Metabolic reset without baseline spikes.
+- **Action:** Staring at the ceiling, focused breathing, stretching, walking without a phone.
+- **Rule:** **No Input.** Use this to let the TPN rest so you can return to flow without resistance.
+
 ### 🍩 Desserts (Post-Task Rewards)
 
 **Cost:** Post-work only
@@ -86,4 +93,5 @@ When "Self-Care" fails, use the **Adversarial Protocol**.
 1. **The Signal:** Feeling "Bored," "Stuck," or "Tired."
 2. **The selection:** Pick one **Appetizer**.
 3. **The Execution:** Do it immediately to achieve "Ignition."
-4. **The Commit:** Attempt the **120-Second Commitment** on the main task.
+4. **The Commit:** Attempt the **120-Second Commitment** (Two-Minute Rule) on the main task.
+5. **The Guardrail:** **No Dopamine Stacking.** Do not combine loud music with pre-workout and intense focus; this ensures your baseline doesn't crash post-session.

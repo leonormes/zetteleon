@@ -25,10 +25,8 @@ updated:
 
 - **Function:** Overcoming inertia. Organizing materials, estimating time, and generating metabolic energy (dopamine/norepinephrine) to start.
 - **Brain Network:** Prefrontal Cortex (PFC) & Basal Ganglia.
-- **ProdOS Tool:** **Todoist Context Bridge**.
-- **The ProdOS Fix:** We separate "Deciding to Start" from "Doing the Work." The Context Bridge provides a single, low-friction button to trigger the brain's "Go" signal.
-  - **Mechanism:** This triggers a **Cognitive Shift** from the daunting question *"Should I start?"* (Resistance) to the manageable question *"What should I do next?"* (Execution).
-  - **Trigger:** A **Starter Task** (e.g., "Open file") is too small to trigger perfectionism or overthinking, allowing the brain to bypass the "Mood Repair Trap" and enter the motion state. (See: [[Starter Tasks Bypass Overthinking and Reduce Perfectionism]])
+- **ProdOS Tool:** **The Two-Minute Rule**.
+- **The ProdOS Fix:** We lower the "entry cost" by committing to just 120 seconds. This bypasses the PFC's overestimation of effort and triggers momentum.
 
 > [!failure] The Mood Repair Trap
 > This is where **Procrastination** strikes. The brain predicts negative emotion from the task and refuses to initiate in order to "repair mood" immediately. **Counter-measure:** Ignore feelings; execute the Context Bridge mechanically.
@@ -44,8 +42,8 @@ updated:
 
 - **Function:** The active performance of the task. Requires suppressing distractions (inhibition) and maintaining focus.
 - **Brain Network:** Task Positive Network (TPN).
-- **ProdOS Tool:** **Timeboxing / Pomodoro Timer**.
-- **The ProdOS Fix:** We use strict temporal constraints (Timeboxing) to maintain TPN activation and prevent the Default Mode Network (DMN) from hijacking attention (daydreaming).
+- **ProdOS Tool:** **Boring Breaks**.
+- **The ProdOS Fix:** We use "Boring Breaks" (staring at the ceiling, stretching) instead of doomscrolling. This allows the mind to breathe without spiking the dopamine baseline, making the return to work effortless.
 
 ### Phase 4: Performance Monitoring
 
@@ -58,8 +56,8 @@ updated:
 
 - **Function:** Stopping the task, verifying the outcome, and shifting attention to the next context.
 - **Brain Network:** Default Mode Network (DMN) reactivation (for reflection).
-- **ProdOS Tool:** **Closing the Loop (Checkmark & Archive)**.
-- **The ProdOS Fix:** Explicitly checking off the task and archiving the HEAD note provides a "Dopamine Closure" event, allowing the brain to release the context and rest.
+- **ProdOS Tool:** **Closing the Loop**.
+- **The ProdOS Fix:** Explicitly checking off a task triggers **"Completion Addiction"**—training the brain to crave the satisfaction of being finished rather than the comfort of quitting.
 
 ---
 

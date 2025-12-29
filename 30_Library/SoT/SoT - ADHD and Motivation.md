@@ -37,9 +37,19 @@ Contrary to popular belief, dopamine is not the molecule of pleasure; it is the 
 | **"Wanting" (Hedonia)** | **Dopamine** (Mesolimbic Pathway) | Drives pursuit, craving, and anticipation. Peaks *before* the reward. | **Hyper-Active:** The "Reward Deficiency" causes the brain to scream for high-stimulation inputs (sugar, scrolling, risk) to normalize baseline levels. |
 | **"Liking" (Eudaimonia)** | **Opioids / Serotonin / Oxytocin** | Mediates satisfaction, contentment, sensory pleasure, and social bonding. | **Hypo-Active:** Often overshadowed by the "noise" of dopamine seeking. Duty and satisfaction feel "too quiet" to register. |
 
-**The Trap:** The ADHD brain chases the *dopamine spike* (The Hunt) hoping for satisfaction, but often finds only exhaustion. True satisfaction (Eudaimonia) relies on "quiet" neurochemicals that do not provide the "rush" the ADHD brain is addicted to.
+### 2.2 Dopamine Regulation Protocols
 
-### 2.2 Reframing "Duty" (The Software Analogy)
+To maintain a functional baseline and avoid the "Motivation Crash":
+
+- **Dopamine Loading & Sequencing (The 14:01 Rule):** Always perform **Low-Dopamine (Hard) tasks first**.
+    - Morning: High-effort, low-stimulation work.
+    - Evening: High-stimulation activities (gaming, scrolling).
+    - *Logic:* Starting with high stimulation spikes the baseline, making later low-stimulation tasks feel physically painful.
+- **Dopamine Stacking (The Addiction Trap):** Avoid combining multiple high-stimulation inputs (e.g., Loud Music + Pre-workout + Intense Exercise).
+    - *Risk:* While it boosts immediate output, it crashes the baseline afterward and raises the "threshold of entry" for future work.
+- **Internal Rewards (Effort-Based Dopamine):** Focus on the friction itself rather than the goal. By rewarding the **effort** during the task, you access dopamine *during* the work, reducing the need for post-task "treats."
+
+### 2.3 Reframing "Duty" (The Software Analogy)
 
 You cannot expect "Duty" (Values-based living) to feel like "Fun" (Dopamine-based living). They are different operating modes.
 
@@ -105,9 +115,10 @@ For high-frequency, low-dopamine tasks (Cooking, Cleaning), do not rely on "Deci
 
 ### 4.3 Behavioral Scaffolding
 
+- **Social Mirroring:** Leverage the biological tendency to mirror the focus of those around you. Use **Body Doubling** (virtual or physical) to set a shared standard for discipline.
+- **The Two-Minute Rule:** Lower the "entry cost" by committing to only 120 seconds of work. This bypasses the brain's overestimation of "task pain."
 - **Urge Surfing:** When a craving for dopamine hits, treat it like a wave. It peaks in ~20 minutes. Don't fight it; observe it. "My brain is screaming for dopamine." Breathe through it until it breaks.
 - **Implementation Intentions:** "If [Cue], Then [Action]." Offload the decision to the environment. "If I sit at my desk, Then I put my phone in the drawer."
-- **Cue Spotting:** Identify the specific internal triggers (boredom, anxiety) that precede distraction. Recognizing the cue allows you to intervene before the behavior (e.g., reaching for phone) becomes automatic. (Source: *Indistractable* by Nir Eyal).
 - **The Dopamine Menu:** Create a physical menu of healthy dopamine sources (Appetizers: 5 jumping jacks; Entrees: A complex puzzle) to replace "Junk Dopamine" (Scrolling).
 
 #### 4.3.1 Analog & Behavioral Techniques

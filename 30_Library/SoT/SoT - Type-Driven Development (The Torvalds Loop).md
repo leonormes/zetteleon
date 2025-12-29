@@ -7,7 +7,7 @@ last_reviewed: "2025-12-29"
 modified: 2025-12-29
 purpose: "To define the core programming philosophy of PRODOS: a synthesis of hardware-conscious data design and mathematical type theory."
 review_interval: "6 months"
-see_also: ["[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]", "[[SoT - Rust's Design Philosophy]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]
+see_also: ["[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]", "[[SoT - Rust's Design Philosophy]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]", "[[SoT - Type-Driven Infrastructure as Code]]"]
 source_of_truth: []
 status: "stable"
 tags: ["philosophy", "programming", "rust", "type_theory", "architecture"]
