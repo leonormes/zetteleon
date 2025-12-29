@@ -48,6 +48,7 @@ Bridging the gap between structure and computation.
 
 Applying type theory to eliminate runtime failure.
 
+- **[[SoT - Type-Driven Development (The Torvalds Loop)]]**: The PRODOS core philosophy; bridging the gap between hardware reality and mathematical truth.
 - **[[SoT - Proof-Carrying Code via Simulated Dependent Types]]**: Techniques for encoding logic proofs into Rust's type system to render bugs unrepresentable.
 - **[[SoT - Dependent Haskell and Singletons]]**: The architectural patterns (Promoted Constructors, Singletons) for implementing dependent types in Haskell.
 - **[[SoT - Interleaved Compilation (The Hackett Architecture)]]**: Fusing Lisp macros with Haskell types by running expansion and type-checking simultaneously.

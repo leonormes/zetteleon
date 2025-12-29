@@ -26,7 +26,7 @@ type: map
 
 ## Core Concepts (The Pillars)
 
-- **Philosophy:** [[SoT - Rust's Design Philosophy]] - Why Rust exists (Performance + Safety).
+- **Philosophy:** [[SoT - Rust's Design Philosophy]] & [[SoT - Type-Driven Development (The Torvalds Loop)]] - Moving from "Stringly Typed" to "Type-Driven".
 - **Memory Model:** [[SoT - Rust's Ownership Model]] - The unique discipline of Borrowing and Lifetimes.
 - **Type System:** [[MOC - Type Theory]] - Rust's type system is heavily influenced by affine types and algebraic data types.
 

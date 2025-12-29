@@ -56,7 +56,7 @@ A function $A \to B$ is an object $B^A$.
 
 ## 3. Understanding Layers (Progressive Abstraction)
 
-- **Layer 1 (The Hacker):** "Sums are Enums, Products are Structs."
+- **Layer 1 (The Hacker):** "Sums are Enums, Products are Structs." Use the [[SoT - Type-Driven Development (The Torvalds Loop)]] to ensure memory layout reflects logical invariants.
 - **Layer 2 (The Architect):** "Sums and Products are duals. If I design an API with inputs (Arrows In), I should consider the dual output structure (Arrows Out)."
 - **Layer 3 (The Theorist):** "Logic, Code, and Categories are the same thing. I can use intuition from one to solve problems in the other."
 
