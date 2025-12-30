@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-29T16:09:40+00:00
 epistemic: "authoritative"
 last_reviewed: "2025-12-29"
-modified: 2025-12-29T16:24:53+00:00
+modified: 2025-12-29T18:58:29+00:00
 purpose: "To define Type-Level Programming (TLP) as a paradigm for performing computations at compile-time using the type system."
 review_interval: "6 months"
 see_also: ["[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]", "[[SoT - Proof-Carrying Code via Simulated Dependent Types]]"]

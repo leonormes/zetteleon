@@ -35,6 +35,13 @@ The cycle deepens over time as each failure provides evidence for a negative sel
 5. **Performance Failure:** As deadlines pass or quality drops, the negative outcome is realized.
 6. **Identity Reinforcement:** The failure "proves" the initial feeling of incompetence, making the next initiation even more daunting.
 
+### 2.1 The Mechanism of Hypervigilance (Preemptive Rejection)
+
+The cycle is fueled by a defensive strategy: **Scanning for Failure**.
+
+- **The Logic:** "If I find my flaws first, I can protect myself from the pain of someone else pointing them out."
+- **The Cost:** This creates a state of constant self-rejection. You are both the accused and the executioner. The energy spent on "guarding against failure" depletes the energy available for "doing the work."
+
 ---
 
 ## 3. Breaking the Cycle: Interruption Strategies

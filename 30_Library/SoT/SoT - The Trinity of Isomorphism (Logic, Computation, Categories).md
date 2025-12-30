@@ -1,90 +1,102 @@
 ---
-aliases: []
+alias: ["Curry-Howard Correspondence", "Category Theory in Rust", "Isomorphic Architecture", "The Trinity"]
 confidence: "5/5"
-created: 2025-12-18T00:00:00Z
-epistemic: "authoritative"
-last_reviewed: "2025-12-18"
-modified: 2025-12-27T01:28:16+00:00
-purpose: "Defines the architectural duality between Sums and Products using Category Theory."
-review_interval: "1 year"
-see_also: ["[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]
+created: 2025-12-30
+epistemic: "theory"
+last_reviewed: "2025-12-30"
+modified: 2025-12-30
+purpose: "To explore the deep isomorphism between Logic, Computation (Types), and Category Theory, and applying it to Software Architecture."
+review_interval: "12 months"
+see_also: ["[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]", "[[SoT - Rust's Design Philosophy]]", "[[SoT - Type-Driven Infrastructure as Code]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "category_theory", "duality", "logic", "mathematics"]
+tags: ["type_theory", "category_theory", "architecture", "logic"]
 title: SoT - The Trinity of Isomorphism (Logic, Computation, Categories)
 type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Working Knowledge (Stable Foundation)
+## 1. The Trinity
 
-- **The Trinity (Curry-Howard-Lambek):** Three fields describe the exact same structure:
-    1. **Logic:** Propositions & Proofs (Gentzen).
-    2. **Computation:** Types & Functions (Church).
-    3. **Categories:** Objects & Arrows (Eilenberg/Mac Lane).
-- **The Architectural Insight:** Data structures are defined by their **arrows** (relationships), not their contents.
-  - **Products (AND):** Defined by arrows pointing **OUT** (Projections: `fst`, `snd`).
-  - **Sums (OR):** Defined by arrows pointing **IN** (Injections: `Left`, `Right`).
-- **Duality:** If you reverse the arrows of a Product, you get a Sum. The logic of construction is the mirror image of the logic of destruction.
+Isomorphism is not just about data shapes; it connects three fundamental fields of thought.
 
-## 2. Current Understanding (Coherent Narrative)
+1.  **Logic:** Propositions and Proofs.
+2.  **Computation:** Types and Programs.
+3.  **Categories:** Objects and Morphisms.
 
-### The Category Abstraction
+This connection allows us to use Logic to prove our Programs are correct.
 
-A Category is the simplest possible structure: Objects (Types) and Arrows (Functions).
+---
 
-- **Composition:** If $f: A \to B$ and $g: B \to C$, then $g \circ f: A \to C$.
-- **Identity:** $id: A \to A$.
 
-### Products vs. Sums (The Dual Shapes)
+## 2. The Curry-Howard Correspondence (Logic $\cong$ Computation)
 
-Wadler visualizes the "Shape" of data:
+The "Propositions as Types" principle states that **Types are Logical Propositions** and **Programs are Proofs**.
 
-1. **Product ($A \times B$):** A "Source" object that can project to A and B. It is the essence of **Conjunction** ($A \land B$).
-    - *Code:* `struct Point { x: Int, y: Int }`. You extract `x` and `y`.
-2. **Sum ($A + B$):** A "Target" object that A and B can inject into. It is the essence of **Disjunction** ($A \lor B$).
-    - *Code:* `enum Result { Ok(T), Err(E) }`. You construct it from `Ok` or `Err`.
-
-### Functions as Exponentials
-
-A function $A \to B$ is an object $B^A$.
-
-- **Algebraic Proof:** $C^{A+B} \cong C^A \times C^B$.
-- *Translation:* A function taking a Sum (`Either A B -> C`) is isomorphic to a Pair of functions (`(A -> C, B -> C)`).
-- *Application:* This is the mathematical proof that a `case` statement (pattern match) must handle all branches to be valid.
-
-## 3. Understanding Layers (Progressive Abstraction)
-
-- **Layer 1 (The Hacker):** "Sums are Enums, Products are Structs." Use the [[SoT - Type-Driven Development (The Torvalds Loop)]] to ensure memory layout reflects logical invariants.
-- **Layer 2 (The Architect):** "Sums and Products are duals. If I design an API with inputs (Arrows In), I should consider the dual output structure (Arrows Out)."
-- **Layer 3 (The Theorist):** "Logic, Code, and Categories are the same thing. I can use intuition from one to solve problems in the other."
-
-## 4. Market Alignment (Real World Context)
-
-The utility of the Trinity depends on the language's capacity to express Sum types and control memory.
-
-| Language | Sum Type Support | Memory Control | Alignment |
+| Logical Concept | Notation | Rust Construct | Interpretation |
 | :--- | :--- | :--- | :--- |
-| **Rust** | ⭐⭐⭐⭐⭐ (Native ADTs) | ⭐⭐⭐⭐⭐ (Maximum) | **100%** |
-| **TypeScript** | ⭐⭐⭐⭐ (Discriminated Unions) | ⭐ (Erasure) | **80%** |
-| **Go** | ⭐ (Interface Hacks) | ⭐⭐⭐⭐ (Explicit Layout) | **20%** |
-| **Haskell** | ⭐⭐⭐⭐⭐ (Pure ADTs) | ⭐ (Lazy Thunks) | **90%** |
+| **Implication** | $A \implies B$ | `Fn(A) -> B` | If you give me an A, I can produce a B. |
+| **Conjunction** | $A \land B$ | `(A, B)` | I have proof of A AND proof of B. |
+| **Disjunction** | $A \lor B$ | `enum { A(A), B(B) }` | I have proof of A OR proof of B. |
+| **True** | $\top$ | `()` (Unit) | Always provable (trivial). |
+| **False** | $\bot$ | `!` (Never) | Impossible to construct (cannot exist). |
+| **Universal** | $\forall T. P(T)$ | `fn foo<T>(x: T)` | True for any Type T (Generics). |
 
-## 5. Minimum Viable Understanding (MVU)
+### 2.1 Practical Application: The Unconstructible State
+If a state is "Logically False" (e.g., an authenticated user without an ID), we represent it with the `!` (Never) type or by making the type unconstructible.
+> **Rule:** If the type checks, the logic is sound.
 
-- **Trinity:** Logic = Code = Categories.
-- **Duals:** Sums and Products are mirror images.
-- **The Equation:** $C^{A+B} \cong C^A \times C^B$. Handling a Sum (OR) requires a Product (AND) of handlers. This is the mathematical basis for **exhaustive pattern matching**.
-- **Candle in the Dark:** Using a language with Sum types (Rust/Haskell) gives you mathematical guidance. Using one without (Java/Go) leaves you "groping in the dark."
+---
 
-## 6. Tensions, Gaps, and Cross-SoT Coherence
 
-- **Reinforcement:** This note provides the *Categorical* view of the concepts in [[SoT - The Algebra of Types (Cardinality and Isomorphism)]].
-  - *Algebra:* $A + B$.
-  - *Category:* Arrows pointing IN.
-  - *Logic:* $A \lor B$.
+## 3. The Category $\mathcal{Rust}$ (Categories $\cong$ Computation)
 
-## 6. Sources and Links
+We can model Rust programming as a Category:
+-   **Objects:** Rust Types (`String`, `User`).
+-   **Morphisms:** Pure Functions (`fn(A) -> B`).
+-   **Composition:** Connecting functions ($g \circ f$).
 
-- **Source:** Philip Wadler, *Categories for the Working Hacker* (YouTube).
+### 3.1 Hexagonal Architecture as Morphism Substitution
+Hexagonal Architecture (Ports & Adapters) is a categorical concept.
+-   **Port (Trait):** Defines the "Category" of allowed morphisms.
+-   **Adapter (Struct):** A specific Object that satisfies the morphisms.
+
+For a Mock Repository to be valid, it must be **Behaviorally Isomorphic** to the Postgres Repository with respect to the Trait laws.
+
+---
+
+
+## 4. Architectural Isomorphism
+
+We extend isomorphism beyond a single process to the entire distributed system.
+
+### 4.1 The Universal Application (Wasm)
+In Rust, "Isomorphic" means sharing the exact same **Bytecode** via generic libraries.
+-   **Core:** Pure Logic (Platform Agnostic).
+-   **Server:** Imports Core.
+-   **Client (Wasm):** Imports Core.
+
+$$Logic_{server} \cong Logic_{client}$$
+
+This prevents "Logic Drift" (e.g., frontend validation differing from backend validation).
+
+### 4.2 Type-Safe API Boundaries (Shared Types)
+Instead of loose JSON schemas, we share **Type Definitions** across the network.
+
+1.  **Shared Crate:** Defines `struct CreateUserCmd`.
+2.  **Server:** Expects `CreateUserCmd`.
+3.  **Client:** Constructs `CreateUserCmd`.
+
+The Compiler guarantees the isomorphism. If you change the struct, both Client and Server builds fail. This elevates "Contract Testing" to "Compile-Time Verification."
+
+---
+
+
+## 5. Conclusion
+
+By understanding these isomorphisms, we stop viewing "Type Safety" as a nuisance and start viewing it as "Logical Proof."
+
+-   **Refactoring** is algebraic simplification.
+-   **Architecture** is defining category boundaries.
+-   **Coding** is constructing proofs.

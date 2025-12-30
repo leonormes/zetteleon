@@ -75,3 +75,62 @@ Because history is a DAG and state is content-addressed, the complex operations 
 ### Performance Optimization: Object Packing
 
 To mitigate the storage overhead of many small files, Git periodically performs **Delta Compression**, storing objects as a base blob plus a series of XOR-like deltas in a **Packfile**, optimized for disk locality and retrieval speed.
+
+---
+
+## 6. Theoretical Foundation: The Directed Acyclic Graph (DAG)
+
+Git's architecture is a specialized implementation of a **Directed Acyclic Graph (DAG)**. Understanding the abstract properties of a DAG illuminates why it is the chosen structure for version control.
+
+### 6.1 Core Properties from a Data Perspective
+
+1.  **Directed Edges:**
+    -   Each edge has a direction, indicating a one-way relationship (Dependency / Flow).
+    -   *In Git:* Child Commits point to Parent Commits.
+2.  **Acyclicity:**
+    -   No cycles are permitted. You cannot start at a node and follow edges back to itself.
+    -   *In Git:* Prevents infinite loops in history traversal and ensures strict temporal ordering.
+3.  **Nodes and Edges:**
+    -   **Nodes:** Data entities (Tasks, States, Commits).
+    -   **Edges:** Relationships (Dependencies, Lineage).
+4.  **Topological Ordering:**
+    -   Nodes can be arranged linearly where `A -> B` implies `A` comes before `B`.
+    -   *In Git:* Essential for build systems and linearizing history (e.g., `git log`).
+5.  **Reachability:**
+    -   Determines which nodes are accessible from a given starting point.
+    -   *In Git:* Used for garbage collection (unreachable nodes are pruned) and sync (finding common ancestors).
+6.  **Multi-Root / Multi-Leaf:**
+    -   Unlike trees, DAGs can have multiple entry and exit points (Orphan branches, multiple branch tips).
+
+### 6.2 Why DAGs? (The Utility)
+
+DAGs are the primary abstraction for managing **dependencies** and **causality**.
+
+-   **Task Scheduling:** CI/CD pipelines, Build Systems (Make/Bazel).
+-   **Data Pipelines:** ETL processes (Airflow) where data flows through transformation steps.
+-   **Compiler Optimization:** Representing code dependencies.
+-   **Causal History:** Distributed Systems and Version Control (Git, Blockchain).
+
+### 6.3 Comparative Implementation: Mental Model vs. Git Reality
+
+A standard, mutable DAG (like one you might write in TypeScript) differs fundamentally from Git's immutable **Merkle DAG**.
+
+**A. Simple Mutable DAG (In-Memory)**
+
+```typescript
+class DAGNode<T> {
+  data: T;
+  neighbors: DAGNode<T>[] = [];
+  constructor(data: T) { this.data = data; }
+  addNeighbor(node: DAGNode<T>): void { this.neighbors.push(node); }
+}
+// Edges are mutable pointers.
+// Data is not hashed.
+// Cycles must be checked at runtime.
+```
+
+**B. Git's Merkle DAG (Persistent)**
+
+1.  **Content-Addressable:** Nodes are not pointers to memory addresses; they are pointers to **Hashes**.
+2.  **Immutable:** You cannot "add a neighbor" to an existing node. You must create a *new* node that points to the old one.
+3.  **Self-Verifying:** The ID of the node (`Hash`) inherently proves the integrity of its entire history (Sub-graph).

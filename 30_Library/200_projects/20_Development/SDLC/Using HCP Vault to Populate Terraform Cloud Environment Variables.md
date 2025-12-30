@@ -62,13 +62,13 @@ In your HCP Vault instance, you need to create a Vault role that Terraform Cloud
 
 You can configure this role using Vault's UI or CLI. Here's an example of a Vault role configuration (using CLI commands as an example):
 
-```sh
+```hcl
 vault auth enable jwt
 vault oidc create hcp-oidc display_name="HCP OIDC" \
     jwks_uri="https://accounts.hashicorp.cloud/.well-known/jwks.json" \
     token_endpoint="https://accounts.hashicorp.cloud/oidc/token" \
-    client_id="\<YOUR_HCP_CLIENT_ID\\>" # Replace with your HCP Client ID
-vault policy write terraform-cloud - \<\<EOF
+    client_id="\\\<YOUR_HCP_CLIENT_ID\\>" # Replace with your HCP Client ID
+vault policy write terraform-cloud - \\\<\\\<EOF
 path "secret/data/*" { # Adjust path to your secrets
   capabilities = ["read"]
 }
@@ -83,7 +83,7 @@ vault write auth/jwt/role/terraform-cloud \
 ```
 
 - vault auth enable jwt: Enables the JWT auth method in Vault.
-- vault oidc create hcp-oidc...: Configures OIDC for HCP. You'll need to replace \<YOUR_HCP_CLIENT_ID\\> with your actual HCP Client ID. You can obtain this by creating an OIDC application in HCP.
+- vault oidc create hcp-oidc...: Configures OIDC for HCP. You'll need to replace \<YOUR_HCP_CLIENT_ID\> with your actual HCP Client ID. You can obtain this by creating an OIDC application in HCP.
 - vault policy write terraform-cloud - \<\<EOF... EOF: Creates a Vault policy named terraform-cloud. Crucially, you need to adjust the path "secret/data/*" to match the actual path where your secrets are stored in Vault. This example policy grants read access to secrets under the secret/data/ path.
 - vault write auth/jwt/role/terraform-cloud...: Creates a Vault role named terraform-cloud that uses the JWT auth method.
   - bound_audiences="terraform.app.hashicorp.cloud": Specifies that this role is for Terraform Cloud.
@@ -95,7 +95,7 @@ b. Configure Terraform Cloud Workspace Variables
 In your Terraform Cloud workspace, you need to set environment variables that will enable Terraform Cloud to authenticate with HCP Vault using the Vault role you created.
 Navigate to your Terraform Cloud workspace \\> Settings \\> Variables. Add the following Environment Variables:
 - TFC_VAULT_PROVIDER_AUTH: Set the value to true. This variable signals to Terraform Cloud to use Vault authentication.
-- TFC_VAULT_ADDR: Set the value to the address of your HCP Vault instance. This will be in the format https://\<your-vault-cluster-url\\>.vault.hashicorp.cloud:8200. You can find this URL in your HCP Vault cluster details.
+- TFC_VAULT_ADDR: Set the value to the address of your HCP Vault instance. This will be in the format https://\\\<your-vault-cluster-url\\>.vault.hashicorp.cloud:8200. You can find this URL in your HCP Vault cluster details.
 - TFC_VAULT_RUN_ROLE: Set the value to the name of the Vault role you created in the previous step (e.g., terraform-cloud).
 Sensitive Variables: It is highly recommended to mark TFC_VAULT_ADDR and TFC_VAULT_RUN_ROLE as sensitive in Terraform Cloud to prevent them from being displayed in plain text in logs and UI.
 
@@ -103,7 +103,7 @@ Sensitive Variables: It is highly recommended to mark TFC_VAULT_ADDR and TFC_VAU
 In your Terraform configuration files, you need to configure the vault provider. The vault provider will use the environment variables you set in Terraform Cloud to automatically authenticate with HCP Vault.
 Here's a basic example of how to configure the vault provider in your providers.tf file:
 
-```hcp
+```hcl
 terraform {
   required_providers {
     vault = {
@@ -129,7 +129,7 @@ Now, within your Terraform configuration, you can use the data "vault_generic_se
 
 Here's an example of how to fetch a secret:
 
-```hcp
+```hcl
 data "vault_generic_secret" "my_secret" {
 
   path = "secret/data/myapp/config" # Path to your secret in Vault
@@ -224,14 +224,14 @@ You can create a service principal using the Azure CLI. **Carefully consider the
 **Example Azure CLI command to create a Service Principal (adjust permissions as needed):**
 
 ```sh
-az ad sp create-for-rbac --name "terraform-cloud-entra-gitops" --role "User Administrator" --scopes "/subscriptions/<YOUR_SUBSCRIPTION_ID>" --output json
+az ad sp create-for-rbac --name "terraform-cloud-entra-gitops" --role "User Administrator" --scopes "/subscriptions/\\<YOUR_SUBSCRIPTION_ID>" --output json
 ```
 
 Important Considerations:
 
 - --name "terraform-cloud-entra-gitops": Choose a descriptive name for your service principal.
 - --role "User Administrator": This is a powerful role. For production environments, strongly consider using a custom role with the least privilege necessary for Terraform to manage user roles. Overly broad roles increase security risks. Research and define the precise permissions required and create a custom role instead of using built-in administrator roles if possible.
-- --scopes "/subscriptions/<YOUR_SUBSCRIPTION_ID>": Scope the service principal to your Azure subscription. Adjust the scope if you need to manage resources at a higher or lower level.
+- --scopes "/subscriptions/\\<YOUR_SUBSCRIPTION_ID>": Scope the service principal to your Azure subscription. Adjust the scope if you need to manage resources at a higher or lower level.
 - --output json: Outputs the credentials in JSON format, which you will need to securely store in HCP Vault.
 Output of the az ad sp create-for-rbac command will include:
 - appId (Client ID)
@@ -244,15 +244,15 @@ Now, you will store the appId (Client ID), password (Client Secret), and tenant 
 Recommended Vault Secret Path: Establish a consistent and secure path in Vault to store these credentials. For example: secret/data/terraform-cloud/azuread-gitops-sp.
 Using Vault CLI to store the secrets:
 vault kv put secret/data/terraform-cloud/azuread-gitops-sp \
-  client_id="<YOUR_APP_ID>" \
-  client_secret="<YOUR_PASSWORD>" \
-  tenant_id="<YOUR_TENANT_ID>"
+  client_id="\\<YOUR_APP_ID>" \
+  client_secret="\\<YOUR_PASSWORD>" \
+  tenant_id="\\<YOUR_TENANT_ID>"
 
 Replace placeholders:
 
-- <YOUR_APP_ID>: With the appId from the service principal creation output.
-- <YOUR_PASSWORD>: With the password (client secret) from the service principal creation output.
-- <YOUR_TENANT_ID>: With the tenant ID from the service principal creation output.
+- \\<YOUR_APP_ID>: With the appId from the service principal creation output.
+- \\<YOUR_PASSWORD>: With the password (client secret) from the service principal creation output.
+- \\<YOUR_TENANT_ID>: With the tenant ID from the service principal creation output.
 Verification: You can verify the secret is stored correctly in Vault using:
 vault kv get secret/data/terraform-cloud/azuread-gitops-sp
 
@@ -262,8 +262,8 @@ Follow the steps outlined in the previous research to configure your Terraform C
 - Creating a Vault Role for Terraform Cloud.
 - Setting Environment Variables in Terraform Cloud Workspace:
   - TFC_VAULT_PROVIDER_AUTH=true
-  - TFC_VAULT_ADDR=<YOUR_HCP_VAULT_ADDRESS>
-  - TFC_VAULT_RUN_ROLE=<YOUR_VAULT_ROLE_NAME>
+  - TFC_VAULT_ADDR=\\<YOUR_HCP_VAULT_ADDRESS>
+  - TFC_VAULT_RUN_ROLE=\\<YOUR_VAULT_ROLE_NAME>
   - Mark TFC_VAULT_ADDR and TFC_VAULT_RUN_ROLE as sensitive.
 Refer back to the previous detailed response on HCP Vault integration for the exact commands and steps to configure the Vault role and Terraform Cloud environment variables.
 

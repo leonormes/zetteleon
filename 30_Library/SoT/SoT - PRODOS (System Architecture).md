@@ -39,6 +39,7 @@ PRODOS is engineered for **Zero Maintenance Baseline**. Standard systems fail AD
 
 - **Maintenance Load:** Quantified as `Time Organizing / Time Executing`. Target: **< 10%**.
 - **The Mandate:** Decouple maintenance from execution. If a system requires manual "gardening" before work can begin, it is broken.
+- **Effortless Engagement:** The system must function on "Low Power Mode." It should rely on capture-first workflows and intuitive tools that work even during periods of low executive function. Neglect should not cause system failure.
 
 ## 2. The Core Problem: Why PRODOS Exists
 

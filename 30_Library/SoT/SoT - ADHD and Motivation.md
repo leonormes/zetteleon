@@ -68,6 +68,14 @@ This manifests as **"The Demon"**: a state where you are trying to work while yo
 - **The "TPN Anchor" (Ambient Sound):** Use tools like **Endel** or **Brain.fm**. These use AI-generated neural-phase-locked audio to artificially stimulate the TPN, providing a "background track" that helps keep the DMN quiet.
 - **The "DMN Dump" (Obsidian/Notion):** Before starting a task, use a digital scratchpad to "vent" the DMN’s ruminations. Log the specific negative emotions (e.g., "I'm worried this will fail") to move them from the background of your consciousness into a tangible record.
 
+### 2.4 The Authority Paradox (Autonomy vs. Connection)
+
+ADHD brains often exhibit a bidirectional resistance to power dynamics, rooted in **RSD** (fear of judgment) and **Justice Sensitivity**.
+
+- **Resisting Control (Incoming):** Directives trigger RSD ("You don't trust me"). The need for autonomy creates a "rebel reflex" against micromanagement.
+- **Resisting Leadership (Outgoing):** Wielding authority feels like "becoming the oppressor." The fear of failing those who rely on you (RSD) leads to avoiding leadership roles.
+- **The Solution:** Reframe authority as **Collaboration** (Shared Agency) rather than Hierarchy (Control).
+
 ---
 
 ## 3. The Interest-Based Nervous System (ICNU)

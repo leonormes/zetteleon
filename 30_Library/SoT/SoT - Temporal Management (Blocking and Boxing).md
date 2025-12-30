@@ -25,6 +25,10 @@ updated:
 > - **Mechanism: "** Combats **Parkinson's Law** by creating a hard constraint, forcing the brain to prioritize \"done\" over \"perfect.\""
 > - **Result: "** A Timer that combats perfectionism."
 > 2. **Time Boxing (Tactical): "** *The Builder Mode.*"
+> - **Goal:** To force a decision and "good enough" output.
+> - **Action:** "I will work on this for *exactly* 25 minutes, then stop."
+> - **Mechanism:** The **Hard Stop**. Unlike blocking (which reserves time), boxing enforces a deadline. When the timer rings, the work ends.
+> - **Result:** A check on perfectionism and "toil."
 
 ## 2. The Core Problem & Psychology
 

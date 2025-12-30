@@ -20,11 +20,14 @@ version: "1"
 
 ## Summary
 
-Container runtime interfaces and orchestration systems that automate Linux primitives for production deployments. This MOC covers CRI, CNI, Kubernetes components, and the automation layers that make containers manageable at scale.
+A comprehensive map of the software layers that bridge raw Linux kernel primitives and production-grade container platforms. This covers the **Container Runtime Interface (CRI)**, the **OCI Standards**, and the orchestration logic that manages lifecycle, networking, and storage at scale.
 
 ## Context / Problem
 
-Manual container creation using Linux primitives works for learning but is impractical for production. Runtime interfaces and orchestration systems automate the creation, networking, and lifecycle management of containers. Understanding these layers is crucial for debugging, security, and system design.
+While containers are built on Linux primitives (Namespaces, Cgroups), using these raw APIs manually is impractical for production.
+- **The Gap:** Kernel primitives do not handle image distribution, persistent storage, or cross-node networking.
+- **The Solution:** **Container Runtimes** abstract this complexity. They handle the "boring" work of setting up the environment so developers can focus on applications.
+- **The Layering:** The ecosystem is split into **High-Level Runtimes** (containerd, CRI-O) which manage the lifecycle and images, and **Low-Level Runtimes** (runc, crun) which actually interact with the kernel to spawn processes. Understanding this distinction is vital for debugging and security.
 
 ## Structure
 
@@ -64,28 +67,35 @@ graph TD
     H --> I
 ```
 
-## Runtime Responsibilities
+## Runtime Architecture & Responsibilities
 
-### Kubelet
+The runtime ecosystem is stratified to separate concerns (Image/Lifecycle vs. Kernel Execution).
 
-- Pod creation and deletion
-- Health checking and restarts
-- Resource monitoring
-- CRI/CNI plugin invocation
+### High-Level Runtimes (CRI Implementations)
+*Examples: containerd, CRI-O*
+- **Image Management:** Pulling images from registries, verifying signatures, and managing overlay filesystems (unpacking layers).
+- **CRI Implementation:** Exposing the gRPC API that the Kubelet calls.
+- **Lifecycle Orchestration:** Instructing the low-level runtime to start/stop containers.
+- **CNI Coordination:** Invoking network plugins to set up the Pod sandbox.
 
-### CNI Plugins
+### Low-Level Runtimes (OCI Runtimes)
+*Examples: runc, crun, Kata Containers, gVisor*
+- **Kernel Interaction:** Making the actual `clone()`, `unshare()`, and `cgroup` syscalls.
+- **Isolation Enforcement:** Applying Seccomp profiles, AppArmor profiles, and dropping capabilities.
+- **Process Execution:** Spawning the user process as `PID 1` inside the namespace.
 
-- Network namespace creation
-- IP address assignment (IPAM)
-- veth pair and bridge setup
-- iptables rule configuration
+### Kubernetes Components
 
-### Kube-proxy
+#### Kubelet
+- **Node Agent:** The primary "captain" of the node.
+- **Pod Loop:** Ensures the running containers match the desired PodSpec.
+- **CRI Client:** Calls the High-Level Runtime to execute actions.
 
-- Service ClusterIP management
-- iptables/IPVS rule generation
-- NodePort and LoadBalancer handling
-- Endpoint health monitoring
+#### CNI Plugins
+- **Network Plumbing:** Creating veth pairs, assigning IPs (IPAM), and configuring bridges.
+
+#### Kube-proxy
+- **Service Abstraction:** Managing iptables/IPVS rules to route Virtual Cluster IPs to Pod IPs.
 
 ## Integration Points
 

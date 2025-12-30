@@ -1,11 +1,32 @@
+---
+aliases: []
+tags: []
+title: Azure Container Registry Inventory (Typed)
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+created: 2025-12-29T20:02:36+00:00
+modified: 2025-12-29T20:20:46+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+---
+
 # Azure Container Registry Inventory (Typed)
+
 Generated on: Mon 29 Dec 2025 16:56:55 GMT
+
 Classification Strategy: MIME-Type Invariants
 
 ## Registry: FITFILEPublic
+
 **Login Server**: 	fitfilepublic.azurecr.io
 
 ### Repo: aquasec/trivy
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-11T12:37:39.738687Z | s390x/linux | `sha256:d5fbe...` |
@@ -15,12 +36,14 @@ Classification Strategy: MIME-Type Invariants
 | 0.65.0 | 📦 Multi-Arch Index | 2025-09-11T12:37:32.0916396Z | *Multi-Platform* | `sha256:08697...` |
 
 ### Repo: aquasec/trivy-checks
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1 | 🐳 Container Image | 2025-09-11T12:37:23.9948077Z | unknown/unknown | `sha256:fb04c...` |
 | _(untagged)_ | 🐳 Container Image | 2024-11-27T15:09:51.6811533Z | unknown/unknown | `sha256:a6fed...` |
 
 ### Repo: aquasec/trivy-operator
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-10-09T10:29:23.200501Z | s390x/linux | `sha256:2754e...` |
@@ -30,17 +53,20 @@ Classification Strategy: MIME-Type Invariants
 | 0.29.0 | 📦 Multi-Arch Index | 2025-10-09T10:29:17.1605923Z | *Multi-Platform* | `sha256:93351...` |
 
 ### Repo: aquasecurity/node-collector
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-11-27T15:11:49.390108Z | amd64/linux | `sha256:b3c6a...` |
 | 0.2.1 | 📦 Multi-Arch Index | 2024-11-27T15:11:46.4667016Z | *Multi-Platform* | `sha256:fc482...` |
 
 ### Repo: aquasecurity/trivy
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.51.2 | 📦 Multi-Arch Index | 2024-11-27T15:11:34.5919996Z | *Multi-Platform* | `sha256:2cc0d...` |
 
 ### Repo: argoproj/argocd
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:55:03.4592554Z | ppc64le/linux | `sha256:7387c...` |
@@ -50,6 +76,7 @@ Classification Strategy: MIME-Type Invariants
 | v3.2.3 | 📦 Multi-Arch Index | 2025-12-28T19:55:02.6615051Z | *Multi-Platform* | `sha256:9ab6b...` |
 
 ### Repo: argoprojlabs/argocd-extension-installer
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-03-06T11:43:52.9811889Z | unknown/unknown | `sha256:10b7f...` |
@@ -59,6 +86,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-03-06T11:43:48.3992604Z | arm/linux | `sha256:4bd32...` |
 
 ### Repo: autoscaling/cluster-autoscaler
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-08-29T16:41:47.6250427Z | s390x/linux | `sha256:5c90e...` |
@@ -68,6 +96,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-10-09T07:29:42.2745079Z | s390x/linux | `sha256:e93e0...` |
 
 ### Repo: bitnami/redis-exporter
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-03-06T11:43:19.7249198Z | amd64/linux | `sha256:88b28...` |
@@ -75,6 +104,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.58.0 | 🐳 Container Image | 2024-09-11T13:14:30.9268801Z | amd64/linux | `sha256:06226...` |
 
 ### Repo: brancz/kube-rbac-proxy
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-11-27T12:58:06.011372Z | arm64/linux | `sha256:f6286...` |
@@ -84,11 +114,13 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-11-27T12:57:09.7170462Z | s390x/linux | `sha256:2df8c...` |
 
 ### Repo: defaultbackend-amd64
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.5 | 🐳 Container Image | 2024-09-11T13:24:28.1876333Z | amd64/linux | `sha256:4dc5e...` |
 
 ### Repo: dexidp/dex
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-10-01T09:07:13.0493182Z | s390x/linux | `sha256:8255f...` |
@@ -98,11 +130,13 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-10-01T09:06:12.9054436Z | unknown/unknown | `sha256:fb000...` |
 
 ### Repo: docker/library/haproxy
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 3.0.8-alpine | 🐳 Container Image | 2025-10-07T17:38:29.7123985Z | arm64/linux | `sha256:370e6...` |
 
 ### Repo: docker/library/redis
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-11-10T09:36:31.6857028Z | amd64/linux | `sha256:3f835...` |
@@ -112,6 +146,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-11-10T09:36:29.431771Z | riscv64/linux | `sha256:65ff3...` |
 
 ### Repo: ecr-public.aws.com/docker/library/redis
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-10-01T09:05:57.0505026Z | mips64le/linux | `sha256:d6bcf...` |
@@ -121,6 +156,7 @@ Classification Strategy: MIME-Type Invariants
 | 7.2.8-alpine | 📦 Multi-Arch Index | 2025-10-01T09:05:46.3169272Z | *Multi-Platform* | `sha256:d7d4d...` |
 
 ### Repo: emberstack/kubernetes-reflector
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:54:55.5722274Z | arm/linux | `sha256:e2b14...` |
@@ -130,6 +166,7 @@ Classification Strategy: MIME-Type Invariants
 | 9.1.34 | 🐳 Container Image | 2025-10-08T08:43:13.8765344Z | amd64/linux | `sha256:900ca...` |
 
 ### Repo: ghcr.io/dexidp/dex
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-05T07:03:47.8255031Z | unknown/unknown | `sha256:c407a...` |
@@ -139,6 +176,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-09-05T07:03:47.4133999Z | s390x/linux | `sha256:a36ef...` |
 
 ### Repo: ghcr.io/oliver006/redis_exporter
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-05T07:04:01.211242Z | unknown/unknown | `sha256:a5052...` |
@@ -148,6 +186,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-09-05T07:04:00.7336602Z | amd64/linux | `sha256:79c30...` |
 
 ### Repo: hashicorp/vault-secrets-operator
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:55:05.3482372Z | arm64/linux | `sha256:07de0...` |
@@ -157,11 +196,13 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-09-01T10:52:26.3667857Z | arm64/linux | `sha256:2863a...` |
 
 ### Repo: hashicorp/vault-secrets-operator-csi
+
 | Tags  | Type               | Created Time                 | Arch/OS     | Digest (Prefix)   |
 | ----- | ------------------ | ---------------------------- | ----------- | ----------------- |
 | 1.0.0 | 🐳 Container Image | 2025-10-07T15:28:01.5640918Z | arm64/linux | `sha256:fd7a2...` |
 
 ### Repo: helm/argo-cd
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 9.2.2 | ⎈ Helm Chart | 2025-12-28T22:32:19.9539648Z | unknown/unknown | `sha256:6131a...` |
@@ -171,6 +212,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:47:22.0647181Z | unknown/unknown | `sha256:f05e3...` |
 
 ### Repo: helm/argocd-apps
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 2.0.2 | ⎈ Helm Chart | 2025-12-28T22:31:40.5385601Z | unknown/unknown | `sha256:2eaab...` |
@@ -180,6 +222,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:32:15.2879113Z | unknown/unknown | `sha256:75f7f...` |
 
 ### Repo: helm/calico-cloud
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | v1.23.0 | ⎈ Helm Chart | 2025-12-28T22:31:44.6093257Z | unknown/unknown | `sha256:77720...` |
@@ -189,6 +232,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:32:18.6035444Z | unknown/unknown | `sha256:ee8b0...` |
 
 ### Repo: helm/calico-cloud-crds
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | v1.23.0 | ⎈ Helm Chart | 2025-12-28T22:31:50.8313008Z | unknown/unknown | `sha256:9c372...` |
@@ -198,6 +242,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:32:22.252306Z | unknown/unknown | `sha256:de891...` |
 
 ### Repo: helm/cluster-autoscaler
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 9.54.0 | ⎈ Helm Chart | 2025-12-28T22:31:40.6362204Z | unknown/unknown | `sha256:20552...` |
@@ -207,6 +252,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:32:15.8189381Z | unknown/unknown | `sha256:2cd87...` |
 
 ### Repo: helm/ingress-nginx
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 4.14.1 | ⎈ Helm Chart | 2025-12-28T22:31:46.7344816Z | unknown/unknown | `sha256:1919d...` |
@@ -216,6 +262,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:32:20.5811233Z | unknown/unknown | `sha256:f93e1...` |
 
 ### Repo: helm/reflector
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 9.1.45 | ⎈ Helm Chart | 2025-12-28T22:31:47.3203941Z | unknown/unknown | `sha256:cb1a5...` |
@@ -225,6 +272,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:32:14.0842138Z | unknown/unknown | `sha256:fed53...` |
 
 ### Repo: helm/trivy-operator
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.31.0 | ⎈ Helm Chart | 2025-12-28T22:31:48.7773225Z | unknown/unknown | `sha256:5bfa7...` |
@@ -234,6 +282,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:32:18.8573776Z | unknown/unknown | `sha256:eb7e5...` |
 
 ### Repo: helm/trivy-operator/trivy-operator
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.30.0 | ⎈ Helm Chart | 2025-09-02T14:07:35.55188Z | unknown/unknown | `sha256:329d3...` |
@@ -242,6 +291,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-09-02T13:44:28.569447Z | unknown/unknown | `sha256:c5cde...` |
 
 ### Repo: helm/vault-secrets-operator
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.1.0 | ⎈ Helm Chart | 2025-12-28T22:31:48.5443712Z | unknown/unknown | `sha256:a80c9...` |
@@ -251,6 +301,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:32:22.3539755Z | unknown/unknown | `sha256:fdb51...` |
 
 ### Repo: ingress-nginx/controller
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:54:53.6188695Z | arm64/linux | `sha256:75494...` |
@@ -260,6 +311,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:54:53.2968508Z | amd64/linux | `sha256:d552a...` |
 
 ### Repo: ingress-nginx/kube-webhook-certgen
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:54:50.4854109Z | unknown/unknown | `sha256:a99f8...` |
@@ -269,6 +321,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:54:50.1915022Z | amd64/linux | `sha256:e2d8d...` |
 
 ### Repo: ingress-nginx/opentelemetry-1.25.3
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-11T13:23:07.3032009Z | arm/linux | `sha256:1e958...` |
@@ -278,11 +331,13 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-09-11T13:21:22.3123481Z | unknown/unknown | `sha256:7badd...` |
 
 ### Repo: koalaman/shellcheck
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | v0.10.0 | 🐳 Container Image | 2025-10-07T17:38:53.1096817Z | arm64/linux | `sha256:63401...` |
 
 ### Repo: kubebuilder/kube-rbac-proxy
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-10T14:50:14.8903929Z | arm64/linux | `sha256:a33d1...` |
@@ -292,6 +347,7 @@ Classification Strategy: MIME-Type Invariants
 | v0.15.0 | 📦 Multi-Arch Index | 2024-09-10T14:48:29.0463761Z | *Multi-Platform* | `sha256:d8cc6...` |
 
 ### Repo: oliver006/redis_exporter
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-11-10T09:55:55.039171Z | arm64/linux | `sha256:5f8a1...` |
@@ -301,16 +357,19 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-11-10T09:54:54.978792Z | amd64/linux | `sha256:36dd9...` |
 
 ### Repo: sig-storage/csi-node-driver-registrar
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | v2.14.0 | 🐳 Container Image | 2025-10-07T15:28:10.3313607Z | arm64/linux | `sha256:da302...` |
 
 ### Repo: sig-storage/livenessprobe
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | v2.16.0 | 🐳 Container Image | 2025-10-07T15:28:06.3592547Z | arm64/linux | `sha256:f8d68...` |
 
 ### Repo: test/controller
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-10-09T09:00:26.5187422Z | arm64/linux | `sha256:4ae52...` |
@@ -320,6 +379,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-10-09T08:59:27.3345443Z | unknown/unknown | `sha256:fd7bf...` |
 
 ### Repo: tigera/cc-operator
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:54:51.139789Z | arm64/linux | `sha256:2e9e4...` |
@@ -327,10 +387,13 @@ Classification Strategy: MIME-Type Invariants
 | v1.23.0 | 📦 Multi-Arch Index | 2025-12-28T19:54:50.5943658Z | *Multi-Platform* | `sha256:ae60c...` |
 
 ---
+
 ## Registry: Fitfileregistry
+
 **Login Server**: 	fitfileregistry.azurecr.io
 
 ### Repo: access-control
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.1.4, latest | 🐳 Container Image | 2023-09-04T15:09:20.6139378Z | amd64/linux | `sha256:325c9...` |
@@ -339,6 +402,7 @@ Classification Strategy: MIME-Type Invariants
 | 0.1.1 | 🐳 Container Image | 2023-08-17T13:49:27.01084Z | amd64/linux | `sha256:f0db5...` |
 
 ### Repo: alpine/openssl
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-02-18T10:15:17.2199015Z | arm/linux | `sha256:90067...` |
@@ -348,6 +412,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-02-18T10:15:13.5207309Z | ppc64le/linux | `sha256:abc11...` |
 
 ### Repo: argoproj/argo-events
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-06-18T17:38:51.8557461Z | arm64/linux | `sha256:28365...` |
@@ -355,6 +420,7 @@ Classification Strategy: MIME-Type Invariants
 | v1.9.2 | 📦 Multi-Arch Index | 2024-06-18T17:37:07.3515014Z | *Multi-Platform* | `sha256:33f22...` |
 
 ### Repo: argoproj/argocd
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-08T11:03:23.1456429Z | ppc64le/linux | `sha256:73fb4...` |
@@ -364,6 +430,7 @@ Classification Strategy: MIME-Type Invariants
 | v3.1.3 | 📦 Multi-Arch Index | 2025-09-08T11:03:06.5005938Z | *Multi-Platform* | `sha256:e193f...` |
 
 ### Repo: argoproj/argocli
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:54:53.6860654Z | amd64/linux | `sha256:f8c59...` |
@@ -373,6 +440,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-09-17T07:19:46.3210648Z | amd64/linux | `sha256:1bba9...` |
 
 ### Repo: argoproj/argoexec
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-18T06:13:53.1667132Z | amd64/windows | `sha256:fcfdf...` |
@@ -382,6 +450,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-06-16T16:49:52.491783Z | amd64/windows | `sha256:b6291...` |
 
 ### Repo: argoproj/workflow-controller
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:54:51.2142008Z | arm64/linux | `sha256:6b99d...` |
@@ -391,6 +460,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-09-17T07:20:03.111031Z | amd64/linux | `sha256:5afb6...` |
 
 ### Repo: argoprojlabs/argocd-extension-installer
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-06-18T17:45:08.8617386Z | arm/linux | `sha256:4d683...` |
@@ -400,6 +470,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-06-18T17:44:09.8111756Z | unknown/unknown | `sha256:76ab6...` |
 
 ### Repo: argovaultplugin
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | latest | 🐳 Container Image | 2025-03-10T14:11:30.1461748Z | amd64/linux | `sha256:6c4e1...` |
@@ -407,6 +478,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-02-29T17:38:35.0720704Z | amd64/linux | `sha256:e20c4...` |
 
 ### Repo: audit-service
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.94 | 🐳 Container Image | 2023-03-09T08:10:22.2004351Z | amd64/linux | `sha256:dbfbb...` |
@@ -416,6 +488,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.90 | 🐳 Container Image | 2023-02-27T19:56:11.8938738Z | amd64/linux | `sha256:e7ce1...` |
 
 ### Repo: authzed/spicedb
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-09T16:50:10.8025665Z | arm64/linux | `sha256:266b7...` |
@@ -423,6 +496,7 @@ Classification Strategy: MIME-Type Invariants
 | v1.34.0-debug | 📦 Multi-Arch Index | 2024-09-09T16:50:09.867832Z | *Multi-Platform* | `sha256:708e7...` |
 
 ### Repo: authzed/zed
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-09T16:51:00.8377178Z | amd64/linux | `sha256:1dc55...` |
@@ -430,6 +504,7 @@ Classification Strategy: MIME-Type Invariants
 | v0.18.2-debug | 📦 Multi-Arch Index | 2024-09-09T16:50:54.9511286Z | *Multi-Platform* | `sha256:08f14...` |
 
 ### Repo: bitnami/bitnami-shell
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-08-27T18:06:18.2624009Z | arm64/linux | `sha256:1d605...` |
@@ -439,6 +514,7 @@ Classification Strategy: MIME-Type Invariants
 | 11-debian-11-r21 | 🐳 Container Image | 2024-06-18T13:11:45.6350493Z | amd64/linux | `sha256:d05ec...` |
 
 ### Repo: bitnami/configmap-reload
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-08T16:20:30.0037659Z | arm64/linux | `sha256:0fdc5...` |
@@ -446,6 +522,7 @@ Classification Strategy: MIME-Type Invariants
 | 0.15.0-debian-12-r12 | 📦 Multi-Arch Index | 2025-09-08T16:20:25.8087202Z | *Multi-Platform* | `sha256:f47e8...` |
 
 ### Repo: bitnami/grafana-alloy
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-08T16:21:03.9239439Z | amd64/linux | `sha256:2fdac...` |
@@ -453,6 +530,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.10.2-debian-12-r0 | 📦 Multi-Arch Index | 2025-09-08T16:20:47.5261017Z | *Multi-Platform* | `sha256:5f43e...` |
 
 ### Repo: bitnami/kubectl
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-01T11:29:14.8117847Z | amd64/linux | `sha256:68160...` |
@@ -462,6 +540,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-07-24T08:44:05.2560033Z | amd64/linux | `sha256:91e0e...` |
 
 ### Repo: bitnami/minio
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-03T13:42:32.7505774Z | arm64/linux | `sha256:219a2...` |
@@ -471,6 +550,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-09-12T17:14:35.6059008Z | arm64/linux | `sha256:5e478...` |
 
 ### Repo: bitnami/minio-client
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-03T13:44:03.812667Z | arm64/linux | `sha256:bb71e...` |
@@ -480,6 +560,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-09-12T17:14:44.3584064Z | arm64/linux | `sha256:6c6fc...` |
 
 ### Repo: bitnami/minio-object-browser
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-03T13:44:37.8147249Z | arm64/linux | `sha256:ed202...` |
@@ -487,6 +568,7 @@ Classification Strategy: MIME-Type Invariants
 | 2.0.2-debian-12-r3 | 📦 Multi-Arch Index | 2025-09-03T13:44:35.2770958Z | *Multi-Platform* | `sha256:4ca16...` |
 
 ### Repo: bitnami/mongodb
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-10-22T14:26:44.1684947Z | amd64/linux | `sha256:4cccb...` |
@@ -496,6 +578,7 @@ Classification Strategy: MIME-Type Invariants
 | 8.0.13-debian-12-r0 | 📦 Multi-Arch Index | 2025-09-01T11:30:55.9602809Z | *Multi-Platform* | `sha256:2579e...` |
 
 ### Repo: bitnami/mongodb-exporter
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-01T11:32:01.2378569Z | arm64/linux | `sha256:923f7...` |
@@ -505,6 +588,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-07-24T08:44:47.8536492Z | amd64/linux | `sha256:a5010...` |
 
 ### Repo: bitnami/nginx
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-01T11:32:20.8869468Z | arm64/linux | `sha256:a34d2...` |
@@ -514,6 +598,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-07-24T08:43:49.373239Z | amd64/linux | `sha256:2a143...` |
 
 ### Repo: bitnami/os-shell
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-08T16:13:09.2966888Z | amd64/linux | `sha256:fc7db...` |
@@ -523,6 +608,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-09-03T13:44:20.5585852Z | arm64/linux | `sha256:84e7f...` |
 
 ### Repo: bitnami/postgres-exporter
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-08T16:28:08.262677Z | arm64/linux | `sha256:a72ae...` |
@@ -532,6 +618,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-09-03T11:04:04.0147101Z | arm64/linux | `sha256:17ec5...` |
 
 ### Repo: bitnami/postgresql
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-08T15:58:23.0788941Z | amd64/linux | `sha256:7961e...` |
@@ -541,6 +628,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-09-03T11:03:13.7801645Z | arm64/linux | `sha256:6c1c9...` |
 
 ### Repo: bitnami/rabbitmq
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-02-20T10:43:12.1810989Z | arm64/linux | `sha256:91ff6...` |
@@ -550,16 +638,19 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-07-16T20:51:45.9121008Z | arm64/linux | `sha256:316de...` |
 
 ### Repo: bitnami/redis-exporter
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.58.0 | 🐳 Container Image | 2024-06-18T17:43:49.4224118Z | amd64/linux | `sha256:06226...` |
 
 ### Repo: bitnamilegacy/kubectl
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.27 | 🐳 Container Image | 2025-11-13T17:15:22.3292855Z | amd64/linux | `sha256:5491b...` |
 
 ### Repo: brancz/kube-rbac-proxy
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-27T09:34:59.2729752Z | ppc64le/linux | `sha256:33653...` |
@@ -569,6 +660,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-09-27T09:34:01.9879507Z | amd64/linux | `sha256:62eeb...` |
 
 ### Repo: busybox
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-09T16:32:23.6657384Z | unknown/unknown | `sha256:f74bd...` |
@@ -578,6 +670,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-09-09T16:32:23.3213611Z | unknown/unknown | `sha256:e9aaa...` |
 
 ### Repo: client
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | prod | 🐳 Container Image | 2021-04-19T08:59:17.4006819Z | amd64/linux | `sha256:b7fc5...` |
@@ -587,6 +680,7 @@ Classification Strategy: MIME-Type Invariants
 | 214211054 | 🐳 Container Image | 2020-11-10T14:07:34.7534773Z | amd64/linux | `sha256:fd52b...` |
 
 ### Repo: config-service
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.10 | 🐳 Container Image | 2022-07-15T17:37:17.3381155Z | amd64/linux | `sha256:db32c...` |
@@ -596,6 +690,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.6 | 🐳 Container Image | 2022-07-12T17:08:40.2319977Z | amd64/linux | `sha256:71870...` |
 
 ### Repo: crypto-service
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.131, 1.0.132, abcd1234-rc | 🐳 Container Image | 2023-10-10T13:38:01.9942312Z | amd64/linux | `sha256:6dfd1...` |
@@ -605,6 +700,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.127 | 🐳 Container Image | 2023-09-22T12:36:16.8818435Z | amd64/linux | `sha256:00ff1...` |
 
 ### Repo: data-dictionary
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.35 | 🐳 Container Image | 2023-10-17T15:33:03.4027681Z | amd64/linux | `sha256:a1088...` |
@@ -614,16 +710,19 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.31 | 🐳 Container Image | 2023-10-01T12:36:07.4063925Z | amd64/linux | `sha256:ee8a8...` |
 
 ### Repo: data-pipeline-scripts
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | arm64 | 🐳 Container Image | 2023-08-29T14:21:59.3583538Z | arm64/linux | `sha256:fe25d...` |
 
 ### Repo: dataset-loader-cli
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | arm64 | 🐳 Container Image | 2023-08-24T15:00:25.1353432Z | arm64/linux | `sha256:2b07a...` |
 
 ### Repo: dataset-service
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.184 | 🐳 Container Image | 2024-04-05T16:57:31.7146031Z | amd64/linux | `sha256:64593...` |
@@ -633,12 +732,14 @@ Classification Strategy: MIME-Type Invariants
 | d5a23ce1-rc | 🐳 Container Image | 2024-04-05T14:05:09.0660762Z | amd64/linux | `sha256:5e665...` |
 
 ### Repo: db-proxy
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.1 | 🐳 Container Image | 2021-08-19T16:33:05.1776271Z | amd64/linux | `sha256:07a2e...` |
 | 1.0.0 | 🐳 Container Image | 2021-08-16T07:56:27.0747724Z | amd64/linux | `sha256:dd185...` |
 
 ### Repo: default-exit-handler
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | b62b104b-rc | 🐳 Container Image | 2025-08-06T13:28:11.9776701Z | amd64/linux | `sha256:cd847...` |
@@ -648,26 +749,31 @@ Classification Strategy: MIME-Type Invariants
 | 0.0.8 | 🐳 Container Image | 2023-11-29T11:13:41.9158136Z | amd64/linux | `sha256:a109a...` |
 
 ### Repo: defaultbackend-amd64
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.5 | 🐳 Container Image | 2024-09-10T13:41:05.8568866Z | amd64/linux | `sha256:4dc5e...` |
 
 ### Repo: demo-client
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | prod | 🐳 Container Image | 2022-05-06T13:01:20.5628126Z | amd64/linux | `sha256:4b1ec...` |
 
 ### Repo: demo-cloud
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | prod | 🐳 Container Image | 2022-05-06T12:54:47.2199804Z | amd64/linux | `sha256:1483e...` |
 
 ### Repo: demo-connect
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | prod | 🐳 Container Image | 2022-05-06T12:55:16.4084444Z | amd64/linux | `sha256:1290f...` |
 
 ### Repo: dexidp/dex
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-06-18T17:41:07.672625Z | arm64/linux | `sha256:cfe49...` |
@@ -677,6 +783,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-06-18T17:40:08.5776965Z | s390x/linux | `sha256:7b694...` |
 
 ### Repo: docker/library/redis
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-10-14T08:41:27.4825761Z | riscv64/linux | `sha256:a00c9...` |
@@ -686,6 +793,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-10-14T08:41:26.3313563Z | 386/linux | `sha256:868b9...` |
 
 ### Repo: dps/integration-test-validator
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.17 | 🐳 Container Image | 2025-12-18T13:25:22.2747708Z | amd64/linux | `sha256:cff11...` |
@@ -695,11 +803,13 @@ Classification Strategy: MIME-Type Invariants
 | 22de0e09-rc | 🐳 Container Image | 2025-12-15T18:08:57.8052367Z | amd64/linux | `sha256:98729...` |
 
 ### Repo: dps/k-anonymise
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | arm64 | 🐳 Container Image | 2023-08-24T15:18:16.2243396Z | arm64/linux | `sha256:03e36...` |
 
 ### Repo: dps/omop-converter
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.17 | 🐳 Container Image | 2025-12-18T13:29:00.1620817Z | amd64/linux | `sha256:84259...` |
@@ -709,6 +819,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.13 | 🐳 Container Image | 2025-12-15T18:35:49.9321769Z | amd64/linux | `sha256:7d747...` |
 
 ### Repo: dps/pii-analysis
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.16 | 🐳 Container Image | 2025-12-18T13:27:48.8946679Z | amd64/linux | `sha256:d7a22...` |
@@ -718,6 +829,7 @@ Classification Strategy: MIME-Type Invariants
 | 22de0e09-rc | 🐳 Container Image | 2025-12-15T18:11:11.5655058Z | amd64/linux | `sha256:4acd7...` |
 
 ### Repo: dps/probabilistic-matching
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.15 | 🐳 Container Image | 2025-12-18T13:26:30.5920808Z | amd64/linux | `sha256:c89fd...` |
@@ -727,6 +839,7 @@ Classification Strategy: MIME-Type Invariants
 | 22de0e09-rc | 🐳 Container Image | 2025-12-15T18:11:32.5902908Z | amd64/linux | `sha256:88959...` |
 
 ### Repo: dps/queue-listener
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.322 | 🐳 Container Image | 2025-12-23T13:46:41.2866664Z | amd64/linux | `sha256:de665...` |
@@ -736,11 +849,13 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.318 | 🐳 Container Image | 2025-12-18T13:30:52.7746464Z | amd64/linux | `sha256:1c899...` |
 
 ### Repo: dps/sftp-loader
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | arm64 | 🐳 Container Image | 2023-09-04T15:10:26.7350903Z | arm64/linux | `sha256:c1584...` |
 
 ### Repo: dps/spark
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.112 | 🐳 Container Image | 2023-10-17T10:00:23.5077985Z | amd64/linux | `sha256:30496...` |
@@ -750,6 +865,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2023-10-12T10:36:53.0959369Z | amd64/linux | `sha256:493d6...` |
 
 ### Repo: dps/spark-base
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.4 | 🐳 Container Image | 2022-03-14T12:00:44.3282455Z | amd64/linux | `sha256:14491...` |
@@ -759,6 +875,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.0 | 🐳 Container Image | 2022-03-07T07:07:02.6515028Z | amd64/linux | `sha256:84128...` |
 
 ### Repo: dps/workflows-api
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.0.61 | 🐳 Container Image | 2025-12-23T12:29:49.6871477Z | amd64/linux | `sha256:cb635...` |
@@ -768,6 +885,7 @@ Classification Strategy: MIME-Type Invariants
 | 3930654a-rc | 🐳 Container Image | 2025-12-12T13:53:11.8730819Z | amd64/linux | `sha256:44721...` |
 
 ### Repo: emis-processing
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | b62b104b-rc | 🐳 Container Image | 2025-08-06T13:28:47.0073418Z | amd64/linux | `sha256:329ba...` |
@@ -777,6 +895,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-12-17T10:08:42.9062708Z | amd64/linux | `sha256:e8667...` |
 
 ### Repo: event-service
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.95 | 🐳 Container Image | 2023-03-09T08:10:09.8674297Z | amd64/linux | `sha256:08fb8...` |
@@ -786,6 +905,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.91 | 🐳 Container Image | 2023-02-27T19:56:04.1728024Z | amd64/linux | `sha256:d064b...` |
 
 ### Repo: facade
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.3 | 🐳 Container Image | 2022-01-17T19:15:49.5314011Z | amd64/linux | `sha256:4d2b0...` |
@@ -795,6 +915,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.0 | 🐳 Container Image | 2021-04-21T08:48:44.3683373Z | amd64/linux | `sha256:00eec...` |
 
 ### Repo: ffcloud
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | dev3 | 🐳 Container Image | 2024-01-18T11:31:33.6868478Z | amd64/linux | `sha256:9ac9e...` |
@@ -802,6 +923,7 @@ Classification Strategy: MIME-Type Invariants
 | dev | 🐳 Container Image | 2024-01-18T09:32:24.5592321Z | amd64/linux | `sha256:639bf...` |
 
 ### Repo: ffcloud-cli
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.49 | 🐳 Container Image | 2025-01-13T11:05:05.2779796Z | amd64/linux | `sha256:396df...` |
@@ -811,6 +933,7 @@ Classification Strategy: MIME-Type Invariants
 | 913ef139-rc | 🐳 Container Image | 2024-12-18T08:56:19.6102036Z | amd64/linux | `sha256:58a93...` |
 
 ### Repo: ffcloud-service
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.737 | 🐳 Container Image | 2025-12-29T11:50:03.914283Z | amd64/linux | `sha256:a09a6...` |
@@ -820,6 +943,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.733 | 🐳 Container Image | 2025-12-18T17:30:53.8734491Z | amd64/linux | `sha256:75a1b...` |
 
 ### Repo: ffnode-service
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.19 | 🐳 Container Image | 2023-04-21T10:39:38.8649605Z | amd64/linux | `sha256:558a7...` |
@@ -829,6 +953,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.15 | 🐳 Container Image | 2023-04-05T17:07:25.2918908Z | amd64/linux | `sha256:c6513...` |
 
 ### Repo: finalize
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.0.18 | 🐳 Container Image | 2025-12-18T13:25:31.9708087Z | amd64/linux | `sha256:28f7c...` |
@@ -838,6 +963,7 @@ Classification Strategy: MIME-Type Invariants
 | 22de0e09-rc | 🐳 Container Image | 2025-12-15T18:09:03.9812878Z | amd64/linux | `sha256:1249a...` |
 
 ### Repo: fitconnect
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | dev3 | 🐳 Container Image | 2024-04-12T09:17:38.9005361Z | arm64/linux | `sha256:eb964...` |
@@ -847,6 +973,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-01-18T08:38:46.27325Z | arm64/linux | `sha256:0091c...` |
 
 ### Repo: fitconnect-service
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.674 | 🐳 Container Image | 2025-12-23T17:09:37.8100498Z | amd64/linux | `sha256:044fa...` |
@@ -856,6 +983,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.670 | 🐳 Container Image | 2025-12-15T23:01:15.5208327Z | amd64/linux | `sha256:4b262...` |
 
 ### Repo: fitconnect-web
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.125 | 🐳 Container Image | 2023-11-09T07:41:38.4796273Z | amd64/linux | `sha256:737c3...` |
@@ -865,6 +993,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.122 | 🐳 Container Image | 2023-07-13T13:34:52.5476784Z | amd64/linux | `sha256:3aa5c...` |
 
 ### Repo: frontend
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.1.585 | 🐳 Container Image | 2025-12-29T10:58:26.1822928Z | amd64/linux | `sha256:0f53a...` |
@@ -874,6 +1003,7 @@ Classification Strategy: MIME-Type Invariants
 | 0.1.581 | 🐳 Container Image | 2025-12-18T18:29:53.1621207Z | amd64/linux | `sha256:f09c1...` |
 
 ### Repo: grafana/agent
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-10T18:07:22.660983Z | amd64/linux | `sha256:61f02...` |
@@ -883,6 +1013,7 @@ Classification Strategy: MIME-Type Invariants
 | v0.40.4 | 📦 Multi-Arch Index | 2024-09-10T18:07:16.6830144Z | *Multi-Platform* | `sha256:7a1b0...` |
 
 ### Repo: grafana/alloy
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-27T09:31:11.9632733Z | s390x/linux | `sha256:038fa...` |
@@ -892,6 +1023,7 @@ Classification Strategy: MIME-Type Invariants
 | v1.3.1 | 📦 Multi-Arch Index | 2024-09-27T09:31:10.3376585Z | *Multi-Platform* | `sha256:e5a67...` |
 
 ### Repo: grafana/alloy-operator
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:55:08.0607384Z | unknown/unknown | `sha256:b59ec...` |
@@ -901,6 +1033,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.5.1 | 📦 Multi-Arch Index | 2025-12-28T19:55:07.6222643Z | *Multi-Platform* | `sha256:483ec...` |
 
 ### Repo: grafana/beyla
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-27T09:33:13.4350442Z | amd64/linux | `sha256:30e6c...` |
@@ -910,6 +1043,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.8.0 | 📦 Multi-Arch Index | 2024-09-27T09:31:29.0510073Z | *Multi-Platform* | `sha256:0c326...` |
 
 ### Repo: grafana/helm-chart-toolbox-kubectl
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:55:01.8332822Z | unknown/unknown | `sha256:a0cd2...` |
@@ -919,6 +1053,7 @@ Classification Strategy: MIME-Type Invariants
 | 0.1.2 | 📦 Multi-Arch Index | 2025-12-28T19:55:01.4483018Z | *Multi-Platform* | `sha256:c7adc...` |
 
 ### Repo: hashicorp/vault
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-06-18T21:25:53.5123989Z | arm64/linux | `sha256:ec50b...` |
@@ -928,6 +1063,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.15.1 | 📦 Multi-Arch Index | 2024-06-18T21:24:53.091753Z | *Multi-Platform* | `sha256:6a966...` |
 
 ### Repo: hashicorp/vault-csi-provider
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-06-18T21:27:01.2850486Z | arm64/linux | `sha256:e0df0...` |
@@ -937,6 +1073,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.4.1 | 📦 Multi-Arch Index | 2024-06-18T21:26:58.2921528Z | *Multi-Platform* | `sha256:bb7d5...` |
 
 ### Repo: hashicorp/vault-k8s
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-06-18T21:08:52.1118868Z | arm/linux | `sha256:df5c0...` |
@@ -946,6 +1083,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.3.1 | 📦 Multi-Arch Index | 2024-06-18T21:08:43.2652817Z | *Multi-Platform* | `sha256:5d74a...` |
 
 ### Repo: hashicorp/vault-secrets-operator
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-10T13:34:48.9807075Z | amd64/linux | `sha256:d3040...` |
@@ -953,6 +1091,7 @@ Classification Strategy: MIME-Type Invariants
 | 0.8.1, latest | 📦 Multi-Arch Index | 2024-09-10T13:33:04.020563Z | *Multi-Platform* | `sha256:2f9f8...` |
 
 ### Repo: healthfile
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.132 | 🐳 Container Image | 2023-07-13T13:35:27.1428555Z | amd64/linux | `sha256:d6d3c...` |
@@ -962,11 +1101,13 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.128 | 🐳 Container Image | 2023-06-15T00:14:59.0502804Z | amd64/linux | `sha256:ccc56...` |
 
 ### Repo: helm/argo-events
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 2.4.6 | ⎈ Helm Chart | 2024-06-18T17:38:59.6960037Z | unknown/unknown | `sha256:5ac53...` |
 
 ### Repo: helm/argo-workflows
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.46.2 | ⎈ Helm Chart | 2025-12-28T22:31:46.3198136Z | unknown/unknown | `sha256:e1b13...` |
@@ -976,11 +1117,13 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:32:29.7225045Z | unknown/unknown | `sha256:5330f...` |
 
 ### Repo: helm/argocd-apps
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.4.1 | ⎈ Helm Chart | 2024-09-10T16:08:07.852812Z | unknown/unknown | `sha256:b8770...` |
 
 ### Repo: helm/cert-manager
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | v1.19.2 | ⎈ Helm Chart | 2025-12-28T22:31:49.1567464Z | unknown/unknown | `sha256:69a02...` |
@@ -990,16 +1133,19 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:32:24.7631151Z | unknown/unknown | `sha256:6fbc7...` |
 
 ### Repo: helm/common
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 2.27.0 | ⎈ Helm Chart | 2025-02-18T17:39:53.7213338Z | unknown/unknown | `sha256:69cb8...` |
 
 ### Repo: helm/grafana-alloy
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.7 | ⎈ Helm Chart | 2025-09-08T16:43:09.6041579Z | unknown/unknown | `sha256:d8b96...` |
 
 ### Repo: helm/ingress-nginx
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 4.12.1 | ⎈ Helm Chart | 2025-03-25T10:11:49.3973115Z | unknown/unknown | `sha256:5c104...` |
@@ -1007,6 +1153,7 @@ Classification Strategy: MIME-Type Invariants
 | 4.11.2 | ⎈ Helm Chart | 2024-09-10T13:41:17.1279847Z | unknown/unknown | `sha256:e9be3...` |
 
 ### Repo: helm/k8s-monitoring
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 3.7.1 | ⎈ Helm Chart | 2025-12-28T22:32:02.6956756Z | unknown/unknown | `sha256:72da1...` |
@@ -1016,6 +1163,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:44:01.2653691Z | unknown/unknown | `sha256:b68d9...` |
 
 ### Repo: helm/minio
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 17.0.21 | ⎈ Helm Chart | 2025-12-28T22:32:03.2972414Z | unknown/unknown | `sha256:644e1...` |
@@ -1025,6 +1173,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:32:24.2330453Z | unknown/unknown | `sha256:87386...` |
 
 ### Repo: helm/mongodb
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 16.5.45 | ⎈ Helm Chart | 2025-12-29T17:00:47.8739073Z | unknown/unknown | `sha256:59954...` |
@@ -1034,6 +1183,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T22:16:08.009291Z | unknown/unknown | `sha256:a6543...` |
 
 ### Repo: helm/postgresql
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 18.2.0 | ⎈ Helm Chart | 2025-12-28T22:32:01.0920432Z | unknown/unknown | `sha256:1fe75...` |
@@ -1043,11 +1193,13 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:32:34.4594279Z | unknown/unknown | `sha256:827ce...` |
 
 ### Repo: helm/prometheus-operator-crds
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 8.0.1 | ⎈ Helm Chart | 2024-06-18T20:21:13.8349392Z | unknown/unknown | `sha256:308f0...` |
 
 ### Repo: helm/rabbitmq
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 14.7.0 | ⎈ Helm Chart | 2025-02-20T10:43:28.2971213Z | unknown/unknown | `sha256:6cd49...` |
@@ -1055,16 +1207,19 @@ Classification Strategy: MIME-Type Invariants
 | 11.9.0 | ⎈ Helm Chart | 2024-06-18T13:16:54.7987092Z | unknown/unknown | `sha256:02b8c...` |
 
 ### Repo: helm/vault
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.26.1 | ⎈ Helm Chart | 2024-06-18T21:27:31.031549Z | unknown/unknown | `sha256:bc482...` |
 
 ### Repo: helm/vault-secrets-operator
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.8.1 | ⎈ Helm Chart | 2024-09-10T13:35:04.5459884Z | unknown/unknown | `sha256:c4164...` |
 
 ### Repo: helm/velero
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 11.2.0 | ⎈ Helm Chart | 2025-12-28T22:31:58.0738704Z | unknown/unknown | `sha256:c8efb...` |
@@ -1074,6 +1229,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | ⎈ Helm Chart | 2025-12-28T21:26:18.7509096Z | unknown/unknown | `sha256:d048e...` |
 
 ### Repo: hutch/bunny
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-04T17:51:41.9501955Z | arm64/linux | `sha256:ee21f...` |
@@ -1083,6 +1239,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.4.4 | 📦 Multi-Arch Index | 2025-12-04T17:51:24.8591741Z | *Multi-Platform* | `sha256:d52f2...` |
 
 ### Repo: hutch/relay
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.1.0-beta.1, latest | 📦 Multi-Arch Index | 2025-09-10T13:39:15.7159311Z | *Multi-Platform* | `sha256:90136...` |
@@ -1092,6 +1249,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-09-10T12:59:41.6191198Z | unknown/unknown | `sha256:8f58a...` |
 
 ### Repo: ingress-nginx/controller
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-03-25T10:21:32.1630332Z | arm/linux | `sha256:55bad...` |
@@ -1101,6 +1259,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-03-25T10:20:31.1998501Z | unknown/unknown | `sha256:d8752...` |
 
 ### Repo: ingress-nginx/kube-webhook-certgen
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-10T13:40:53.99573Z | arm64/linux | `sha256:7c4c1...` |
@@ -1110,6 +1269,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-09-10T13:39:54.061698Z | unknown/unknown | `sha256:11895...` |
 
 ### Repo: ingress-nginx/opentelemetry-1.25.3
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-10T13:39:40.4975562Z | amd64/linux | `sha256:e7e1d...` |
@@ -1119,6 +1279,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-09-10T13:38:40.1428477Z | arm64/linux | `sha256:f9498...` |
 
 ### Repo: insightfile
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.132 | 🐳 Container Image | 2023-07-13T13:35:01.9371799Z | amd64/linux | `sha256:24771...` |
@@ -1128,6 +1289,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.128 | 🐳 Container Image | 2023-06-15T00:14:47.7683829Z | amd64/linux | `sha256:9e5c3...` |
 
 ### Repo: int-test-helper
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.15 | 🐳 Container Image | 2023-07-12T10:10:30.7987302Z | amd64/linux | `sha256:382ca...` |
@@ -1137,6 +1299,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.14 | 🐳 Container Image | 2022-09-26T16:39:45.2544941Z | amd64/linux | `sha256:7f2c3...` |
 
 ### Repo: integration-test-validator
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.0.11 | 🐳 Container Image | 2024-12-17T12:36:33.6515025Z | amd64/linux | `sha256:749a5...` |
@@ -1146,6 +1309,7 @@ Classification Strategy: MIME-Type Invariants
 | 0cd63b34-rc | 🐳 Container Image | 2024-04-12T13:05:08.5279308Z | amd64/linux | `sha256:9d204...` |
 
 ### Repo: integration-tests
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.6 | 🐳 Container Image | 2022-05-10T16:53:58.0806279Z | amd64/linux | `sha256:25d2c...` |
@@ -1155,6 +1319,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.2 | 🐳 Container Image | 2022-05-06T12:47:21.3363877Z | amd64/linux | `sha256:a1a51...` |
 
 ### Repo: jetstack/cert-manager-acmesolver
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-08T10:49:45.7455536Z | s390x/linux | `sha256:86485...` |
@@ -1164,6 +1329,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-09-08T10:49:44.346191Z | amd64/linux | `sha256:b3718...` |
 
 ### Repo: jetstack/cert-manager-cainjector
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:55:04.4747275Z | arm64/linux | `sha256:975fe...` |
@@ -1173,6 +1339,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:55:04.0792782Z | amd64/linux | `sha256:68739...` |
 
 ### Repo: jetstack/cert-manager-controller
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:55:02.937078Z | s390x/linux | `sha256:b75ab...` |
@@ -1182,6 +1349,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:55:02.2501317Z | amd64/linux | `sha256:ab090...` |
 
 ### Repo: jetstack/cert-manager-startupapicheck
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:55:07.8191111Z | arm64/linux | `sha256:bf360...` |
@@ -1191,6 +1359,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:55:07.368386Z | arm/linux | `sha256:cfb55...` |
 
 ### Repo: jetstack/cert-manager-webhook
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:55:09.7319009Z | arm64/linux | `sha256:f245a...` |
@@ -1200,6 +1369,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:55:09.1096405Z | arm/linux | `sha256:d9143...` |
 
 ### Repo: jimmidyson/configmap-reload
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-06-18T19:48:40.0358175Z | unknown/unknown | `sha256:a8e53...` |
@@ -1209,6 +1379,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-06-18T19:48:39.7551755Z | unknown/unknown | `sha256:fa149...` |
 
 ### Repo: kube-state-metrics/kube-state-metrics
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-11-10T16:19:53.2753217Z | amd64/linux | `sha256:12d34...` |
@@ -1218,6 +1389,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-11-10T16:19:40.7771614Z | arm64/linux | `sha256:a9a8d...` |
 
 ### Repo: kubebuilder/kube-rbac-proxy
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-10T13:32:23.9062Z | amd64/linux | `sha256:a3768...` |
@@ -1227,6 +1399,7 @@ Classification Strategy: MIME-Type Invariants
 | v0.15.0 | 📦 Multi-Arch Index | 2024-09-10T13:32:22.8313851Z | *Multi-Platform* | `sha256:d8cc6...` |
 
 ### Repo: kubecost1/kubecost-cost-model
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.108.0 | 📦 Multi-Arch Index | 2024-06-18T19:56:29.9431949Z | *Multi-Platform* | `sha256:b32c5...` |
@@ -1234,6 +1407,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-06-18T19:56:28.6640972Z | amd64/linux | `sha256:87f50...` |
 
 ### Repo: kubecost1/opencost-ui
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-06-18T19:56:38.8074366Z | arm64/linux | `sha256:4279f...` |
@@ -1241,6 +1415,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.108.0 | 📦 Multi-Arch Index | 2024-06-18T19:56:35.8393228Z | *Multi-Platform* | `sha256:46e23...` |
 
 ### Repo: live-service-integration-tests
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.0.55 | 🐳 Container Image | 2025-10-31T13:16:56.9087777Z | amd64/linux | `sha256:fad6c...` |
@@ -1250,6 +1425,7 @@ Classification Strategy: MIME-Type Invariants
 | 0.0.53 | 🐳 Container Image | 2025-09-08T08:24:08.6181107Z | amd64/linux | `sha256:5f3ab...` |
 
 ### Repo: medcat-annotation
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.0.4 | 🐳 Container Image | 2024-06-06T12:33:05.1716581Z | amd64/linux | `sha256:b21d8...` |
@@ -1259,11 +1435,13 @@ Classification Strategy: MIME-Type Invariants
 | b1871dc1-rc | 🐳 Container Image | 2024-06-06T09:10:46.596559Z | amd64/linux | `sha256:78275...` |
 
 ### Repo: mesh-mailbox-sandbox
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | latest | 🐳 Container Image | 2024-10-28T14:23:10.3979651Z | amd64/linux | `sha256:a239b...` |
 
 ### Repo: mockrest
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.0.5 | 🐳 Container Image | 2025-09-18T08:00:10.2479896Z | amd64/linux | `sha256:8b377...` |
@@ -1273,6 +1451,7 @@ Classification Strategy: MIME-Type Invariants
 | 0.0.3 | 🐳 Container Image | 2025-07-17T12:53:59.8451508Z | amd64/linux | `sha256:9e4b0...` |
 
 ### Repo: mutating-proxy-webhook
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | b62b104b-rc | 🐳 Container Image | 2025-08-06T13:28:18.903954Z | amd64/linux | `sha256:a1d9d...` |
@@ -1282,6 +1461,7 @@ Classification Strategy: MIME-Type Invariants
 | 0.0.2 | 🐳 Container Image | 2025-07-31T13:28:58.5253813Z | amd64/linux | `sha256:e9d93...` |
 
 ### Repo: nhs-pet
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.0.15 | 🐳 Container Image | 2025-10-23T15:58:31.7842759Z | amd64/linux | `sha256:f4ba8...` |
@@ -1291,6 +1471,7 @@ Classification Strategy: MIME-Type Invariants
 | 0.0.13 | 🐳 Container Image | 2025-09-30T08:36:18.1049467Z | amd64/linux | `sha256:170c8...` |
 
 ### Repo: nicolaka/netshoot
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-09-09T13:17:01.9265808Z | arm64/linux | `sha256:a4cab...` |
@@ -1300,6 +1481,7 @@ Classification Strategy: MIME-Type Invariants
 | latest | 📦 Multi-Arch Index | 2025-09-09T13:16:51.3372487Z | *Multi-Platform* | `sha256:7f08c...` |
 
 ### Repo: oliver006/redis_exporter
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-10-14T08:37:12.8133632Z | arm/linux | `sha256:b335d...` |
@@ -1309,21 +1491,25 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-10-14T08:36:12.9239165Z | arm64/linux | `sha256:406b4...` |
 
 ### Repo: oncology-demo-client
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | prod | 🐳 Container Image | 2022-05-06T14:56:36.5656888Z | amd64/linux | `sha256:086ee...` |
 
 ### Repo: oncology-demo-cloud
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | prod | 🐳 Container Image | 2022-05-06T14:50:12.7687494Z | amd64/linux | `sha256:55d7f...` |
 
 ### Repo: oncology-demo-connect
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | prod | 🐳 Container Image | 2022-05-06T14:50:23.0018113Z | amd64/linux | `sha256:aacb5...` |
 
 ### Repo: opencost/opencost
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-27T09:40:11.9684873Z | arm64/linux | `sha256:e51fa...` |
@@ -1333,6 +1519,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-09-10T18:09:22.2101267Z | arm64/linux | `sha256:64d09...` |
 
 ### Repo: opencost/opencost-ui
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-27T09:42:29.2494052Z | arm64/linux | `sha256:d52fb...` |
@@ -1342,6 +1529,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-09-10T18:10:33.5222498Z | amd64/linux | `sha256:e274b...` |
 
 ### Repo: optout-service
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.262 | 🐳 Container Image | 2024-10-29T23:36:07.0738736Z | amd64/linux | `sha256:81e52...` |
@@ -1351,6 +1539,7 @@ Classification Strategy: MIME-Type Invariants
 | 65c2624d-rc | 🐳 Container Image | 2024-10-25T08:34:29.1245657Z | amd64/linux | `sha256:10046...` |
 
 ### Repo: prometheus/node-exporter
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-11-10T16:19:25.1410206Z | arm/linux | `sha256:c7e55...` |
@@ -1360,6 +1549,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-11-10T16:19:20.3637362Z | arm64/linux | `sha256:608e1...` |
 
 ### Repo: prometheus-community/windows-exporter
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:55:03.8893141Z | unknown/unknown | `sha256:132d4...` |
@@ -1369,6 +1559,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-09-27T09:43:23.7624864Z | amd64/windows | `sha256:0e2ee...` |
 
 ### Repo: proxy-service
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.9 | 🐳 Container Image | 2022-07-15T11:36:28.4242598Z | amd64/linux | `sha256:443c6...` |
@@ -1378,6 +1569,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.5 | 🐳 Container Image | 2022-04-21T13:45:16.6121439Z | amd64/linux | `sha256:2620d...` |
 
 ### Repo: python
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-09T16:36:18.7426581Z | 386/linux | `sha256:c129a...` |
@@ -1387,6 +1579,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2024-09-09T16:36:17.437067Z | amd64/linux | `sha256:27ef9...` |
 
 ### Repo: query-service
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.114 | 🐳 Container Image | 2023-09-27T06:23:28.8375643Z | amd64/linux | `sha256:cc4be...` |
@@ -1396,6 +1589,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.110 | 🐳 Container Image | 2023-09-18T09:41:01.2328341Z | amd64/linux | `sha256:0e7cf...` |
 
 ### Repo: s3-fitfile-cli
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.0.77 | 🐳 Container Image | 2025-10-31T13:17:21.7538247Z | amd64/linux | `sha256:d7c5e...` |
@@ -1405,6 +1599,7 @@ Classification Strategy: MIME-Type Invariants
 | 0.0.71 | 🐳 Container Image | 2025-10-23T15:58:59.9665464Z | amd64/linux | `sha256:bb28d...` |
 
 ### Repo: scheduler-service
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.309 | 🐳 Container Image | 2025-12-23T17:07:20.0288609Z | amd64/linux | `sha256:1ba91...` |
@@ -1414,6 +1609,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.306 | 🐳 Container Image | 2025-12-12T14:12:31.8668913Z | amd64/linux | `sha256:dfe16...` |
 
 ### Repo: schema-service
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 1.0.124 | 🐳 Container Image | 2023-11-21T14:18:08.0112666Z | amd64/linux | `sha256:4409f...` |
@@ -1423,6 +1619,7 @@ Classification Strategy: MIME-Type Invariants
 | 1.0.122 | 🐳 Container Image | 2023-11-17T17:46:31.9371617Z | amd64/linux | `sha256:18d27...` |
 
 ### Repo: server
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | prod | 🐳 Container Image | 2021-02-09T09:19:42.7612472Z | amd64/linux | `sha256:12935...` |
@@ -1432,12 +1629,14 @@ Classification Strategy: MIME-Type Invariants
 | 214239689 | 🐳 Container Image | 2020-11-10T14:34:52.949146Z | amd64/linux | `sha256:5755a...` |
 
 ### Repo: set-intersection-estimator
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.0.2 | 🐳 Container Image | 2024-08-09T09:11:33.4961512Z | amd64/linux | `sha256:4ed4e...` |
 | 96837ca0-rc | 🐳 Container Image | 2024-08-09T08:43:53.0183954Z | amd64/linux | `sha256:3fe9f...` |
 
 ### Repo: sftp-loader
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | b62b104b-rc | 🐳 Container Image | 2025-08-06T13:29:51.7870316Z | amd64/linux | `sha256:1e8eb...` |
@@ -1447,6 +1646,7 @@ Classification Strategy: MIME-Type Invariants
 | 0.0.12 | 🐳 Container Image | 2024-12-17T14:59:32.5117379Z | amd64/linux | `sha256:0e593...` |
 
 ### Repo: storybook
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.1.585 | 🐳 Container Image | 2025-12-29T10:57:31.8310231Z | amd64/linux | `sha256:3cd9a...` |
@@ -1456,6 +1656,7 @@ Classification Strategy: MIME-Type Invariants
 | 0.1.581 | 🐳 Container Image | 2025-12-18T18:28:41.7935725Z | amd64/linux | `sha256:36c46...` |
 
 ### Repo: sustainable_computing_io/kepler
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-09-27T09:33:28.9995437Z | arm64/linux | `sha256:d8e0d...` |
@@ -1465,6 +1666,7 @@ Classification Strategy: MIME-Type Invariants
 | release-0.7.11 | 📦 Multi-Arch Index | 2024-09-27T09:33:21.9520803Z | *Multi-Platform* | `sha256:72e7c...` |
 
 ### Repo: thehyve/fitfile_etl_container
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.3.2 | 🐳 Container Image | 2025-04-03T09:24:47.9596235Z | amd64/linux | `sha256:98292...` |
@@ -1473,12 +1675,14 @@ Classification Strategy: MIME-Type Invariants
 | latest | 🐳 Container Image | 2025-02-18T09:57:12.4404412Z | amd64/linux | `sha256:49007...` |
 
 ### Repo: thehyve/fitfile_etl_container_cuh
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.4.1 | 🐳 Container Image | 2025-05-07T08:36:57.9480558Z | amd64/linux | `sha256:eaba6...` |
 | 0.4.0 | 🐳 Container Image | 2025-04-24T09:02:30.8593322Z | amd64/linux | `sha256:d67c9...` |
 
 ### Repo: thehyve/fitfile_etl_container_mkuh
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.4.5-test | 🐳 Container Image | 2025-11-04T15:11:02.4248475Z | amd64/linux | `sha256:82f5a...` |
@@ -1487,6 +1691,7 @@ Classification Strategy: MIME-Type Invariants
 | 0.4.2 | 🐳 Container Image | 2025-06-04T13:47:46.3712335Z | amd64/linux | `sha256:7c1e0...` |
 
 ### Repo: thehyve/fitfile_etl_container_nnuh
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 0.5.0 | 🐳 Container Image | 2025-12-04T16:07:48.4154833Z | amd64/linux | `sha256:96cff...` |
@@ -1494,6 +1699,7 @@ Classification Strategy: MIME-Type Invariants
 | 0.4.0 | 🐳 Container Image | 2025-04-24T08:49:36.1916025Z | amd64/linux | `sha256:cdbd2...` |
 
 ### Repo: ude-cli
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | 2.0.10 | 🐳 Container Image | 2025-12-17T15:00:28.2624507Z | amd64/linux | `sha256:a4544...` |
@@ -1503,6 +1709,7 @@ Classification Strategy: MIME-Type Invariants
 | 2.0.6 | 🐳 Container Image | 2025-06-10T11:06:54.2718256Z | amd64/linux | `sha256:c119e...` |
 
 ### Repo: velero/velero
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2025-12-28T19:54:53.2228591Z | amd64/windows | `sha256:ef138...` |
@@ -1512,6 +1719,7 @@ Classification Strategy: MIME-Type Invariants
 | _(untagged)_ | 🐳 Container Image | 2025-11-13T17:13:39.4996459Z | amd64/windows | `sha256:16c81...` |
 
 ### Repo: zcube/bitnami-compat-mongodb
+
 | Tags | Type | Created Time | Arch/OS | Digest (Prefix) |
 | --- | --- | --- | --- | --- |
 | _(untagged)_ | 🐳 Container Image | 2024-08-27T18:08:35.6761062Z | amd64/linux | `sha256:6aa9d...` |

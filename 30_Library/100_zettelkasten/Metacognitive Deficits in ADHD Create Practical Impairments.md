@@ -23,6 +23,6 @@ When a person with ADHD struggles with metacognition, it leads to tangible, real
 [[Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]]
 
 - [[ADHD Emotional Reasoning]]
-- [[The DMN as a "Demon" - Negative Rumination in ADHD]]
+- [[The DMN as a Demon - Negative Rumination in ADHD]]
 - [[Why Importance and Rewards Fail to Motivate ADHD Brains]]
 - [[Cultivating Self-Compassion for ADHD]]

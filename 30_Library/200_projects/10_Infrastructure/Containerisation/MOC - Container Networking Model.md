@@ -1,75 +1,51 @@
 ---
 aliases: []
-confidence: "null"
+confidence: "High"
 created: 2025-10-24T15:00:00Z
-epistemic: "null"
-last_reviewed: "null"
-modified: 2025-12-28T18:49:28+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
-status: "null"
+epistemic: "Map"
+last_reviewed: "2025-12-30"
+modified: 2025-12-30T13:55:01+00:00
+purpose: "To map the foundational Linux networking primitives to their Kubernetes abstractions."
+review_interval: "1 year"
+see_also: ["[[SoT - Linux Networking Primitives]]", "[[SoT - Kubernetes Networking & DNS]]"]
+source_of_truth: ["[[SoT - Linux Networking Primitives]]", "[[SoT - Linux Container Primitives]]", "[[SoT - Kubernetes Networking & DNS]]"]
+status: "stable"
 tags: ["container", "k8s", "kubernetes", "linux", "topic/technology/networking"]
 title: MOC - Container Networking Model
 type: "map"
 uid: 
 updated: 
-version: "1"
+version: "2"
 ---
 
 **Links:**
 
 - Up: [[MOC - Containerisation]]
-- Related: [[What is a network namespace]], [[What is a veth pair]], [[What is a Linux bridge]], [[What is iptables NAT MASQUERADE]]
+- Related: [[SoT - Linux Networking Primitives]], [[SoT - Linux Container Primitives]], [[SoT - Kubernetes Networking & DNS]]
 
 ## Summary
 
-A comprehensive Map of Content (MOC) for understanding how Linux networking primitives (namespaces, veth pairs, bridges, iptables) form the foundation of container networking and map to Kubernetes CNI plugins and network policies.
+A comprehensive Map of Content (MOC) connecting the low-level Linux networking primitives (Veth, Bridges, IPTables) defined in **[[SoT - Linux Networking Primitives]]** to their high-level Kubernetes abstractions (Services, Ingress, CNI) defined in **[[SoT - Kubernetes Networking & DNS]]**.
 
 ## Context / Problem
 
-Kubernetes networking appears magical—Pods communicate seamlessly across nodes without manual NAT configuration. This abstraction hides critical Linux primitives that CNI plugins automate. Without understanding these building blocks (network namespaces, veth pairs, bridges, routing, iptables), debugging container connectivity issues or designing custom network policies becomes impossible. This MOC serves as the entry point for building a mental model from first principles.
+Kubernetes networking appears magical—Pods communicate seamlessly across nodes without manual NAT configuration. This abstraction hides critical Linux primitives that CNI plugins automate. Without understanding these building blocks (network namespaces, veth pairs, bridges, routing, iptables), debugging container connectivity issues or designing custom network policies becomes impossible.
 
 ## Model
 
 ### Core Linux Primitives
 
-Container networking AND isolation is built on these fundamental Linux constructs:
+Container networking relies on the "Trinity of Containerisation" and specific networking constructs defined in our Source of Truth notes:
 
-**Namespace Types:**
+**Isolation & Environment:**
+1. **[[SoT - Linux Container Primitives#A. Namespaces (Isolation)|Network Namespace]]** - Isolated network stack per container.
+2. **[[SoT - Container Isolation (The Namespace Security Model)|Mount Namespace]]** - The primary security gatekeeper.
 
-1. **[[What is a network namespace|Network Namespace]]** - Isolated network stack per container
-2. **[[What is a mount namespace|Mount Namespace]]** - Isolated file system mount points
-3. **[[What is a PID namespace|PID Namespace]]** - Isolated process ID space
-4. **[[What is a UTS namespace|UTS Namespace]]** - Isolated hostname and domain name
-
-**Networking Primitives:**
-
-5. **[[What is a veth pair|Veth Pair]]** - Virtual Ethernet cable connecting namespaces
-6. **[[What is a Linux bridge|Linux Bridge]]** - Virtual Layer 2 switch for multi-container connectivity
-7. **[[What is iptables NAT MASQUERADE|iptables MASQUERADE]]** - Source NAT for container egress traffic
-8. **[[What is IP forwarding|IP Forwarding]]** - Kernel packet routing between interfaces
-
-**Supporting Infrastructure:**
-
-9. **[[What is the Linux VFS (Virtual File System)|Linux VFS]]** - Abstraction layer for file systems
-
-### Key Mechanisms
-
-How these primitives work together:
-
-**Namespace Management:**
-
-- **[[How to create and connect network namespaces]]** - Building isolated Pod-like environments
-- **[[How namespaces interact without mount namespace]]** - Understanding incomplete isolation scenarios
-
-**Network Connectivity:**
-
-- **[[How a veth pair connects two network namespaces]]** - Point-to-point Pod communication
-- **[[How to set up a Linux bridge for container networking]]** - Multi-Pod same-node networking
-- **[[How a packet exits a container via NAT]]** - Container-to-internet egress flow
-- [[How Linux bridge learns MAC addresses]] - Layer 2 forwarding mechanics
+**Connectivity Mechanics (See [[SoT - Linux Networking Primitives]]):**
+3. **Veth Pair:** The virtual cable tunneling traffic from Host to Container.
+4. **Linux Bridge:** The virtual Layer 2 switch (`cni0`) connecting Pods on the same node.
+5. **IPTables/NAT:** The mechanism for Masquerading (Source NAT) for egress and DNAT for Services.
+6. **IP Forwarding:** The kernel flag (`net.ipv4.ip_forward`) permitting packet routing.
 
 ### Architecture Layers
 
@@ -77,6 +53,7 @@ How these primitives work together:
 ┌─────────────────────────────────────────┐
 │         Application Layer               │
 │      (Pod-to-Pod communication)         │
+│  See: [[SoT - Kubernetes Networking & DNS]]
 └─────────────────┬───────────────────────┘
                   │
 ┌─────────────────▼───────────────────────┐
@@ -89,17 +66,15 @@ How these primitives work together:
                   │
 ┌─────────────────▼───────────────────────┐
 │      Linux Kernel Networking            │
+│  See: [[SoT - Linux Networking Primitives]]
 │  - Network namespaces                   │
 │  - veth devices                         │
 │  - Linux bridges (cni0)                 │
 │  - iptables rules                       │
-│  - Routing tables                       │
 └─────────────────────────────────────────┘
 ```
 
 ### Mapping to Kubernetes
-
-See **[[Model - Linux to Kubernetes Networking Mapping]]** for the complete translation table between Linux primitives and Kubernetes components.
 
 | Linux Primitive | K8s Equivalent | Managed By |
 |-----------------|----------------|------------|
@@ -111,108 +86,28 @@ See **[[Model - Linux to Kubernetes Networking Mapping]]** for the complete tran
 
 ## Connections / Implications
 
-### What This Model Enables
+### Debugging & Troubleshooting
 
-- **Debugging**: Trace packet flows from Pod through veth → bridge → iptables → external network
-- **Design**: Understand trade-offs between CNI plugins (overlay vs native routing)
-- **Troubleshooting**: Identify where connectivity breaks (namespace isolation, bridge config, NAT rules)
-- **Security**: Implement network policies by understanding underlying iptables mechanics
-
-### What Breaks If Components Fail
-
-- **No network namespace**: Pods share host network, losing isolation
-- **Veth pair missing**: Pod cannot communicate even on same node
-- **Bridge misconfigured**: Pods cannot discover each other locally
-- **iptables NAT broken**: Pods cannot reach external services
-- **IP forwarding disabled**: Packets cannot route between interfaces
+- **Connectivity Breaks:** Most "Kubernetes Networking" issues are actually Linux networking issues.
+    - Check **IP Forwarding** on the host.
+    - Check **IPTables** chains for dropped packets.
+    - Check **Bridge** FDB (Forwarding Database) for MAC learning issues.
+- **Security:** Network Policies are often implemented as IPTables chains or eBPF programs (Cilium).
 
 ### Cross-Domain Connections
 
-- **[[MOC - OSI Model]]**: Container networking operates across OSI Layers 2-4
-
-## Questions / To Explore
-
-### Factual Gaps
-
-- [[What is the CNI specification?]]
-- [[What is IPAM in CNI?]]
-- [[What is the cni0 bridge?]]
-- [[What is kube-proxy?]]
-- [[What are iptables chains and tables?]]
-
-### Mechanism Gaps
-
-- [[How does kubelet invoke CNI plugins?]]
-- [[How does kube-proxy generate iptables rules for Services?]]
-- [[How does Calico implement network policies with iptables?]]
-- [[How does Flannel VXLAN encapsulate packets for cross-node traffic?]]
-- [[How does CoreDNS resolve Service names to ClusterIPs?]]
-
-### Debugging Scenarios
-
-- [[DEBUG - Pod cannot ping other Pods on same node]]
-- [[DEBUG - Pod can reach same-node Pods but not cross-node]]
-- [[DEBUG - Pod cannot resolve DNS names]]
-- [[DEBUG - Service ClusterIP unreachable from Pods]]
-
-### Applied Learning
-
-- [[Lab - Build Container Network from Scratch]] (hands-on tutorial)
-- [[INSIGHT - Networking is data labeling not wires]]
-- [[INSIGHT - CNI plugins are just automation of manual ip commands]]
+- **[[MOC - OSI Model]]**: Container networking operates across OSI Layers 2-4.
+- **[[SoT - Container Isolation (The Namespace Security Model)]]**: Security implications of sharing the host network namespace.
 
 ---
 
-## Child Notes (Generated from This MOC)
+## Child Notes (Key Sources of Truth)
 
-### Facts
+**Foundations:**
+- [[SoT - Linux Networking Primitives]] (Veth, Bridge, IPTables)
+- [[SoT - Linux Container Primitives]] (Namespaces, Cgroups)
+- [[SoT - Container Isolation (The Namespace Security Model)]] (Security)
 
-**Namespaces:**
-
-- [[What is a network namespace]]
-- [[What is a mount namespace]]
-- [[What is a PID namespace]]
-- [[What is a UTS namespace]]
-- [[What is the Linux VFS (Virtual File System)]]
-
-**Networking:**
-
-- [[What is a veth pair]]
-- [[What is a Linux bridge]]
-- [[What is iptables NAT MASQUERADE]]
-- [[What is IP forwarding]]
-- [[What is ARP]]
-
-### Mechanisms
-
-- [[How to create and connect network namespaces]]
-- [[How namespaces interact without mount namespace]]
-- [[How a veth pair connects two network namespaces]]
-- [[How to set up a Linux bridge for container networking]]
-- [[How a packet exits a container via NAT]]
-- [[How Linux bridge learns MAC addresses]]
-
-### Models
-
-- [[Model - Linux to Kubernetes Networking Mapping]]
-- [[Pods communicate across cluster using CNI-provided networking]] - CNI network models
-- [[CNI plugins provide different network models and features]] - Plugin comparison
-- [[MOC - OSI Model]] (related)
-
-### Insights
-
-- [[Lab - Build Container Network from Scratch]]
-- [[INSIGHT - Networking is data labeling]]
-- [[Namespace Isolation Is Incomplete Without Mount Namespace]]
-- [[DEBUG - Common veth and bridge setup issues]]
-
-### Kubernetes Orchestration
-
-- [[30_Library/200_projects/Containerisation/Containers Within a Pod Share Network Namespace and IP Address]] - Pod communication
-- [[Network policies control traffic flow between pods using labels and namespaces]] - Security policies
-- [[Kube-Proxy Implements Services Using Iptables or IPVS]] - Service implementation
-- [[Kubernetes Provides NodePort and LoadBalancer for External Service Access]] - External access
-- [[Container Runtime Configures Pod Networking Through CNI Plugins]] - Runtime responsibilities
-- [[etcd stores cluster network state and service configuration]] - State management
-- [[Service mesh provides advanced traffic management and security for service communication]] - Advanced communication
-- [[Kubernetes networking components coordinate through a defined workflow]] - Component coordination
+**Orchestration:**
+- [[SoT - Kubernetes Networking & DNS]] (Services, Ingress, CNI)
+- [[SoT - Cloud Networking Core Components]] (Cloud Integration)

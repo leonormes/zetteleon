@@ -30,7 +30,7 @@ ProdOS strictly separates **Thinking** (Contextual/Exploratory) from **Doing** (
 
 ### The 4-Phase ProdOS Workflow
 
-1. **Capture:** Dump raw thoughts into `00_Inbox` or Daily Note.
+1. **Capture (The Digital Dump):** Dump raw thoughts into `00_Inbox` or Daily Note. **Critical:** Decouple capture from organization. Do not tag, sort, or process during this phase. Just get it out of your head.
 2. **Refine:** Use a `HEAD` note to identify the underlying Model and extract the first MVA.
 3. **Bridge:** Use the *Todoist Context Bridge* to promote the MVA to the Todoist runtime with a link back to Obsidian.
 4. **Engage:** Execute the single MVA when the reminder fires, restoring context via the deep link.

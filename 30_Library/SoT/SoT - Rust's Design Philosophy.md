@@ -37,7 +37,13 @@ Rust's architecture is built on three pillars, each representing a pragmatic cho
 
 1. **Performance:** The primary goal is to be as fast as C++. This necessitates compiling to native code, giving developers low-level control, and avoiding a runtime/GC. This is the "follow the silicon" mandate.
 2. **Safety:** The core innovation is the ownership and borrowing system, which provides compile-time memory safety. This is a novel, engineering-led solution, not one derived from decades of type theory research. See [[SoT - Rust's Ownership Model]].
-3. **Productivity:** A modern toolchain (`cargo`), excellent documentation, and helpful compiler errors are prioritized to make the steep learning curve manageable and to attract developers from both C++ and higher-level languages.
+3. **Productivity:** A modern toolchain (`cargo`), excellent documentation, and helpful compiler errors are prioritized to make the steep learning curve manageable.
+
+### 3.1 The "Zero-Sized Type" Pattern
+A unique architectural feature of Rust is the **Zero-Sized Type (ZST)**.
+-   **Concept:** A struct with no fields (`struct Service;`) occupies **0 bytes** of memory.
+-   **Usage:** It acts as a compile-time "Token" or "Stateless Service Handle." You can attach methods to it (`impl Service { ... }`), but passing it around costs nothing at runtime.
+-   **Why?** It allows purely Type-Driven logic (like the **Witness Pattern**) without performance penalty.
 
 This architecture firmly places Rust in the "Nanny" category of languages as defined in [[SoT - Padded Cell vs Nanny Languages]]. It is a reaction to the chaos of C++, designed to prevent common mistakes rather than to enable the expression of mathematical truth.
 

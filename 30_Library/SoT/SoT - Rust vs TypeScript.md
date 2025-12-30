@@ -72,7 +72,23 @@ This distinction dictates the performance characteristics and binary size of the
 - **Explicit Control Flow:** Errors are just data returned on the stack.
 - **Mandatory Handling:** You *must* deal with the `Result` (using `match` or `?`) or the code won't compile.
 
-## 5. Minimum Viable Understanding (MVU)
+## 5. Architecture: Bundled vs. Separated (State & Logic)
+
+In TypeScript (OOP), you use a `class` to bundle data properties and methods together. In Rust (DOD), these are distinct entities.
+
+| Concept | TypeScript (`class`) | Rust (`struct` + `impl`) |
+| :--- | :--- | :--- |
+| **State Definition** | `class Person { name: string; }` | `struct Person { name: String }` |
+| **Logic Definition** | Methods inside the `class` block. | `impl Person { ... }` blocks (can be in different files). |
+| **Context** | `this` keyword (implicit). | `self` argument (explicit). |
+
+**Why the separation?**
+1.  **Data Layout:** Rust optimizes the `struct` purely for memory alignment and padding. There are no hidden v-tables unless you use Trait Objects.
+2.  **Composition:** You can implement different Traits for the same Struct in different modules, decoupling the data from its behavior.
+
+---
+
+## 6. Minimum Viable Understanding (MVU)
 
 1. **Rust Types exist at Runtime (compiled in):** Unlike TS types which vanish, Rust types dictate the physical layout of memory.
 2. **Nominal Typing is stricter:** You cannot accidentally mix two types just because they have the same fields.

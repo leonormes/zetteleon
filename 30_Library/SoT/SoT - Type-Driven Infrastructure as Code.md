@@ -59,6 +59,14 @@ For complex domains (like Security/IAM), HCL is insufficient. We use a **stronge
 2. **Compile:** Run the TS code to generate a `terraform.tfvars.json`.
 3. **Apply:** Terraform acts as the "Runtime," blindly actuating the JSON without complex logic.
 
+### Strategy C: The Witness Pattern (Proof-Carrying Code)
+
+For dependencies that require strict ordering and validation (e.g., DNS requires IP), we use **[[SoT - The Infrastructure Witness Pattern|The Witness Pattern]]**.
+
+- **Concept:** Pass a "Witness Object" (Proof) instead of a raw string ID.
+- **Mechanic:** A `Certificate` resource cannot be created without a `DnsBindingWitness`, which in turn cannot be created without an `IpReachabilityWitness`.
+- **Result:** "Dangling" resources become unrepresentable at the type level.
+
 ---
 
 ## 3. Security Application: Capability-Based Access

@@ -15,7 +15,7 @@ views:
       - status
       - tags
     sort:
-      - property: file.mtime
+      - property: file.size
         direction: DESC
     columnSize:
       file.name: 400

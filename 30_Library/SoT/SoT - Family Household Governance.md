@@ -85,13 +85,16 @@ Physical storage is architected by **Access Frequency**, not Volume.
 
 *Focus: Resetting shared zones to baseline.*
 * **Kitchen:** Table clear, Dishwasher cycle.
+* **Laundry Node:** Personal dirty clothes transported to Downstairs Basket (Zero-Bedroom Rule).
 * **Personal Nodes:** Floor clear, Bed made, Personal waste extracted.
 * **Mobile Node (Car):** Zero-Exit rule (No rubbish left behind).
 
 ### Weekly Sprints (Weekend)
 
 *Focus: Deep cleaning and system reset.*
-* **Bathrooms:** "White Glove" sanitation of toilets/sinks.
+* **Rotation Nodes (Children):** Tasks rotate weekly between D10, D13, D15 (See Ledger).
+    * **Bathrooms:** "White Glove" sanitation of toilets/sinks.
+    * **Waste Management:** Emptying all indoor bins to outdoor refuse.
 * **Floors:** Vacuuming of communal high-traffic areas.
 * **Inventory:** Fridge audit (expiry check) and restocking.
 
@@ -104,6 +107,17 @@ Physical storage is architected by **Access Frequency**, not Volume.
 ---
 
 ## 5. Standard Operating Procedures (SOPs) & DoD
+
+### 🧺 Laundry Loop (Daily)
+
+**Definition of Done (DoD):** Bedroom floor is clear of clothes; all dirty items are inside the downstairs basket (not just near it).
+
+### 🗑️ Waste Management (Weekly)
+
+**Definition of Done (DoD):**
+* **Extraction:** All indoor bins (Bathrooms, Bedrooms, Office, Kitchen) emptied into outdoor Wheelie Bins.
+* **Hygiene:** Bin liners replaced if soiled/full.
+* **Completion:** Outdoor bins presented for collection (if Sunday evening).
 
 ### 🧊 Cold Storage (Fridge)
 
@@ -136,16 +150,18 @@ Physical storage is architected by **Access Frequency**, not Volume.
 
 ---
 
-## 6. The Contribution Ledger (Template)
+## 6. The Contribution Ledger (Rotation)
 
-Use this table to track compliance weekly.
+**Logic:** Tasks rotate weekly.
+* **Week A:** Rae (Kitchen), Bessie (Bathrooms), Pearl (Bins/Car)
+* **Week B:** Pearl (Kitchen), Rae (Bathrooms), Bessie (Bins/Car)
+* **Week C:** Bessie (Kitchen), Pearl (Bathrooms), Rae (Bins/Car)
 
-| Task | Assigned | Points | QA Status (Audit) |
-|:--- |:--- |:---: |:--- |
-| **Bathroom 1** | D13 | 5 | [] Approved |
-| **Bathroom 2** | D15 | 5 | [] Approved |
-| **Kitchen Reset** | D10 | 3 | [] Approved |
-| **Car Valet** | D15 | 5 | [] Approved |
+| Task | Assigned | Frequency | QA Status (Audit) |
+|:--- |:--- |:--- |:--- |
+| **Kitchen Reset** | Rotating | Daily | [] Approved |
+| **Bathrooms (1 & 2)** | Rotating | Weekly | [] Approved |
+| **Indoor Bins & Car** | Rotating | Weekly | [] Approved |
 
 ---
 

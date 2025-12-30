@@ -45,8 +45,29 @@ Cgroups provide **metering and limiting**. They aggregate sets of processes into
 - **Namespaces** answer the question: *"What can I see?"* (Isolation).
 - **Cgroups** answer the question: *"How much can I use?"* (Resource Control).
 
-## 4. Implementation Layers
+## 4. The Runtime Abstraction Layer
 
-1. **Low-Level Runtimes (runc, crun):** Directly interact with kernel syscalls (`clone`, `unshare`, `setns`) and `cgroupfs`.
-2. **High-Level Runtimes (Docker, Containerd):** Manage image layers and lifecycle.
-3. **Orchestrators (Kubernetes):** Use primitives to enforce **Quality of Service (QoS)** and multi-tenancy.
+While kernel primitives provide the raw capabilities, they are too low-level for practical application development. **Container Runtimes** bridge this gap.
+
+### Why Runtimes are Essential (The Missing Link)
+
+1.  **Complexity Abstraction:** Manually configuring namespaces, cgroups, and capabilities for every process is error-prone. Runtimes automate this via declarative configs (OCI Spec).
+2.  **Lifecycle Management:** Kernel primitives do not know about "starting", "stopping", or "pulling" containers. Runtimes manage this state machine.
+3.  **Image Management:** The kernel understands filesystems, not "images." Runtimes handle the pulling, unpacking, and layering (OverlayFS) of OCI images from registries.
+4.  **Standardization:** Runtimes adhere to **OCI (Open Container Initiative)** standards, ensuring that a container built with one tool runs on any compliant platform.
+
+### Runtime Architecture
+
+1.  **Low-Level Runtimes (runc, crun, Kata):**
+    -   **Scope:** The mechanical interface to the kernel.
+    -   **Responsibility:** Spawns the process, sets up namespaces/cgroups, applies security profiles (Seccomp/AppArmor), and hands over control.
+    -   **Analogy:** The "Engine" that turns the gears.
+
+2.  **High-Level Runtimes (containerd, CRI-O):**
+    -   **Scope:** The manager of the container ecosystem.
+    -   **Responsibility:** Image transport (pull/push), storage management (unpacking layers), network interface creation (CNI invocation), and supervision of low-level runtimes.
+    -   **Analogy:** The "Property Manager" that handles tenants and maintenance.
+
+3.  **Orchestrators (Kubernetes):**
+    -   **Scope:** Multi-node fleet management.
+    -   **Responsibility:** Scheduling, scaling, self-healing, and networking *across* hosts using the underlying runtimes via the **CRI (Container Runtime Interface)**.
