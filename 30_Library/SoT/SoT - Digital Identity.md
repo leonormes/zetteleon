@@ -72,6 +72,16 @@ To reliably link digital actions to a specific identity, and by extension, to th
 - **Mechanism:** Creating a verifiable record of who did what and when.
 - **Outcome:** Enabling legal and commercial trust, non-repudiation (inability to deny an action), and accountability.
 
+### D. The Identity Witness Pattern
+
+In high-assurance systems (like Cloud-Native IAM), Identity is modeled as a **Witness**.
+
+*   **The Witness (OIDC Token):** A cryptographically signed token (JWT) that serves as proof of a claimed identity (e.g., a Kubernetes Service Account).
+*   **The Verifier (IAM Role):** The infrastructure component that accepts the Witness and validates the claim against a **Trust Anchor** (OIDC Provider).
+*   **The Result (Capability):** Temporary credentials granting specific permissions (e.g., `acm-pca:IssueCertificate`).
+
+This pattern ensures that **Privileges (Capabilities)** are only dispensed upon the presentation of a valid **Witness (Proof)**.
+
 ---
 
 ## 4. Identity Claims: Human vs. Machine

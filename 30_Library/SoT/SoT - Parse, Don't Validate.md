@@ -82,7 +82,28 @@ If a state is impossible (e.g., "Logged in but no User ID"), the Type System sho
 
 ---
 
-## 5. Summary
+## 5. Naming Heuristics for Parsed Types
+
+Naming is the vocabulary of the domain. In this paradigm, we name **Invariants** and **Roles**, not just "containers."
+
+### I. Name the Invariant (The Guarantee)
+Name the type after the proof it carries.
+- **Bad:** `StringWrapper`, `ValidatedData`.
+- **Good:** `EmailAddress`, `NonEmptyString`, `SortedList`.
+- *Logic:* When you see `SortedList`, you know the property "is sorted" is already proven.
+
+### II. Name the Role (The Context)
+Name the type based on its stage in the pipeline or its function.
+- **Bad:** `CertData`, `KeyInfo`.
+- **Good:** `CertificateSigningRequest`, `VerifiedCertificate`, `SessionKey`.
+
+### III. The "State as Type" Pattern
+For complex transitions, reflect the lifecycle stage in the name.
+- **Example:** `DraftOrder` $\to$ `PaidOrder` $\to$ `ShippedOrder`.
+
+---
+
+## 6. Summary
 
 **"Validation"** is a question ("Is this true?").
 **"Parsing"** is a transformation ("Turn this raw data into a Fact").
