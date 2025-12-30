@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:24:14Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T18:49:16+00:00
+modified: 2025-12-30T14:11:34+00:00
 purpose: "To define the neurobiological mechanism of predictive processing and its impact on learning, surprise, and ADHD dopamine regulation."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Reality, Models, and the Limits of Accuracy]]"]

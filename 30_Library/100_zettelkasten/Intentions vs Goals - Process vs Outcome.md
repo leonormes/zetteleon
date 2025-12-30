@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2025-12-28T18:49:33+00:00
+modified: 2025-12-30T14:11:53+00:00
 purpose: "To deconflict the concepts of goals and intentions for better psychological health."
 review_interval: "1 year"
 see_also: ["[[SoT - Intentional Living]]"]

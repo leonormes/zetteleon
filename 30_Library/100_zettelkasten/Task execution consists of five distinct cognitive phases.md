@@ -4,7 +4,7 @@ confidence: "0.90"
 created: 2025-10-31T00:01:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2025-12-28T18:49:31+00:00
+modified: 2025-12-30T14:11:51+00:00
 purpose: "Defines the universal cognitive model of task execution phases"
 review_interval: "90"
 see_also: ["[[Performance monitoring activates anterior cingulate cortex]]", "[[Sustained attention activates right-lateralized fronto-parietal networks]]", "[[Task initiation requires prefrontal cortex activation and dopamine signaling]]"]

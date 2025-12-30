@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-15T00:00:00Z
 epistemic: "Grounded in neurobiology (Amygdala-PFC synchronisation), clinical psychology (Pennebaker's Expressive Writing), and Dr. Amirah Hall's \\\\\\\"Journaling Method for Brain Health\\\\\\\"."
 last_reviewed: "2025-12-15"
-modified: 2025-12-28T18:49:17+00:00
+modified: 2025-12-30T14:11:34+00:00
 purpose: "To define journaling not as a habit but as a cognitive engineering tool for regulating emotional processing and optimizing executive function."
 review_interval: "6 months"
 see_also: ["[[SoT - Mindfulness and Emotional Regulation]]", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[SoT - The Extended Mind]]", "[[Writing Creates Cognitive Distancing]]"]

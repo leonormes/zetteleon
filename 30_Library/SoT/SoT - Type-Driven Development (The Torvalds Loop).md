@@ -1,10 +1,10 @@
 ---
 aliases: ["The Torvalds Loop", "Type-Driven Design", "Data-Centric Programming", "Type-First Development"]
 confidence: "5/5"
-created: 2025-12-29
+created: 2025-12-29T10:28:01+00:00
 epistemic: "authoritative"
 last_reviewed: "2025-12-29"
-modified: 2025-12-29
+modified: 2025-12-30T14:11:32+00:00
 purpose: "To define the core programming philosophy of PRODOS: a synthesis of hardware-conscious data design and mathematical type theory."
 review_interval: "6 months"
 see_also: ["[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]", "[[SoT - Rust's Design Philosophy]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]", "[[SoT - Type-Driven Infrastructure as Code]]"]
@@ -31,20 +31,22 @@ The fundamental principle of this system is to move from **"Stringly Typed"** lo
 In this protocol, Logic is the *last* consideration. We prioritize the physical reality of data over the behavior of code.
 
 | Phase | Focus | Architectural Goal |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **1. Shape** | **Physical Reality** | Design memory layout (`struct`/`enum`) for cache efficiency and logical exclusion. |
 | **2. Access** | **Mechanics** | Define how data moves (Value vs. Pointer semantics). Control ownership and allocation. |
 | **3. Invariants** | **Integrity** | Define constraints that must *always* be true. Use the type system to enforce them. |
 | **4. Logic** | **Transformation** | Write simple, linear algorithms that transform valid state A into valid state B. |
 
 ### The "Unified Protocol": Torvalds + Type Theory
+
 Type-Driven Development is the mechanism used to enforce the **Torvalds Loop**. In Rust, defining a type satisfies both gritty systems engineering and formal logic.
 
-1.  **Phase 1: Shape (Physical Reality) $\to$ Sum Types (Enums).** Instead of pointer-chasing classes, use tagged unions to keep data compact and mutually exclusive.
-2.  **Phase 2: Invariants (The Rules) $\to$ Newtypes & Smart Constructors.** Use `struct UserId(u32)` to ensure semantic separation without runtime overhead.
-3.  **Phase 3: Logic (The Behavior) $\to$ Pattern Matching.** Your code becomes a "switchboard" routing data based on its shape.
+1. **Phase 1: Shape (Physical Reality) $\to$ Sum Types (Enums).** Instead of pointer-chasing classes, use tagged unions to keep data compact and mutually exclusive.
+2. **Phase 2: Invariants (The Rules) $\to$ Newtypes & Smart Constructors.** Use `struct UserId(u32)` to ensure semantic separation without runtime overhead.
+3. **Phase 3: Logic (The Behavior) $\to$ Pattern Matching.** Your code becomes a "switchboard" routing data based on its shape.
 
 ### The "Parse, Don't Validate" Principle
+
 Do not write code to "validate" messy input. Instead, **parse** it into a Type where the invalid state cannot exist. If parsing succeeds, the logic that follows is guaranteed to be safe.
 
 ---
@@ -54,6 +56,7 @@ Do not write code to "validate" messy input. Instead, **parse** it into a Type w
 Logic, Code, and Category Theory are isomorphic. This provides a rigorous foundation for data design.
 
 ### A. Sum Types (The "OR" Relationship)
+
 - **Rust Construct:** `enum`.
 - **Logic:** $A \lor B$.
 - **Definition:** Defined by "Arrows In" (Constructors).
@@ -61,6 +64,7 @@ Logic, Code, and Category Theory are isomorphic. This provides a rigorous founda
 - **The Equation:** Handling a Sum type ($A+B$) requires a **Product of functions** ($C^A \times C^B$). This is why `match` statements must be exhaustive.
 
 ### B. Product Types (The "AND" Relationship)
+
 - **Rust Construct:** `struct`.
 - **Logic:** $A \land B$.
 - **Definition:** Defined by "Arrows Out" (Projections).
@@ -82,7 +86,7 @@ Logic, Code, and Category Theory are isomorphic. This provides a rigorous founda
 ## 5. Active Implementation Contexts
 
 | Project | Architectural Lens | Key Type Transition |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **[[Project - Toy Vault]]** | State Machine | `Barrier` as a Sum Type: `Sealed | Unsealed`. |
 | **[[Project - Chart Manager]]** | Type Refinement | `ImageRef` as an atomic unit; `ImageVersion` as a Sum Type. |
 | **[[Project - Release Script]]** | Process Reification | Linear Bash script $\to$ Rust Finite State Machine (FSM). |

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-27T14:11:28+00:00
 epistemic: "knowledge"
 last_reviewed: "2025-12-27"
-modified: 2025-12-28T18:49:16+00:00
+modified: 2025-12-30T14:11:33+00:00
 purpose: "The canonical entry point for the Rust programming language in the SoT."
 review_interval: "6 months"
 see_also: ["[[MOC - Rust Programming Language]]", "[[SoT - Rust's Design Philosophy]]", "[[SoT - Rust's Ownership Model]]", "[[SoT - Rust Type System]]"]

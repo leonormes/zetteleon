@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T17:13:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-28T18:49:34+00:00
+modified: 2025-12-30T14:11:53+00:00
 purpose: "To define Choice Architecture as a tool for influencing behavior."
 review_interval: "90"
 see_also: []

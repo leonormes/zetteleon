@@ -6,7 +6,7 @@ criteria: "Focus on routing, ACLs, and data structures for network security."
 epistemic: ""
 exclusions: "Higher-layer (L4-L7) security concepts."
 last_reviewed: ""
-modified: 2025-12-28T18:49:32+00:00
+modified: 2025-12-30T14:11:52+00:00
 purpose: "Organize Layer 3 network security concepts."
 review_interval: "180"
 scope: "Technical concepts from 'L3 Network Security Explained.md'."

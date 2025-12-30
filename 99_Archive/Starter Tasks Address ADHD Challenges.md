@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2025-11-10T15:11:00Z
 epistemic: fact
 last_reviewed:
-modified: 2025-12-28T18:49:14+00:00
+modified: 2025-12-30T14:11:30+00:00
 purpose: "To explain how starter tasks specifically benefit individuals with ADHD."
 review_interval: 90
 see_also: ["[[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]]"]

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T17:12:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-28T18:49:34+00:00
+modified: 2025-12-30T14:11:54+00:00
 purpose: "To explain the power of aligning actions with values."
 review_interval: "90"
 see_also: ["[[Identity Emerges From Habits]]"]

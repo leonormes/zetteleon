@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-20T09:30:07Z
 epistemic: "strategy"
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T18:49:17+00:00
+modified: 2025-12-30T14:11:35+00:00
 purpose: "A 'Runtime Fuel Station' providing a categorized menu of dopamine-generating activities to regulate executive function and energy levels."
 review_interval: "3 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]"]

@@ -1,10 +1,11 @@
 ---
+aliases: []
 alias: ["Type Theory", "The Algebra of Types", "Mathematical Foundation of Types"]
 confidence: "5/5"
-created: 2025-12-29
+created: 2025-12-29T21:52:00+00:00
 epistemic: "foundational"
 last_reviewed: "2025-12-29"
-modified: 2025-12-29
+modified: 2025-12-30T14:11:32+00:00
 purpose: "To provide the mathematical justification for Type-Driven Development and Data-Oriented Design, linking Abstract Algebra to Physical Memory."
 review_interval: "1 year"
 see_also: ["[[SoT - Algebraic Data Types (ADTs)]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[SoT - Data-Centric Software Engineering]]"]
@@ -31,7 +32,7 @@ In the context of **ProdOS**, Type Theory bridges the gap between **Abstract Log
 The foundation of modern type systems (Rust, Haskell) is the correspondence between Logic and Computation.
 
 | Logic (Propositions) | Computation (Types) |
-| :--- | :--- |
+|:--- |:--- |
 | **Proposition** ($P$) | **Type** ($T$) |
 | **Proof** ($P \implies Q$) | **Program** (`fn(T) -> U`) |
 | **False** ($ot$) | **Void** (Uninhabitable Type) |
@@ -50,7 +51,7 @@ To "Make Illegal States Unrepresentable," we must first *count* the representabl
 ### The Arithmetic of Composition
 
 | Operation       | Logical Name | Type         | Cardinality Formula | Example |        |     |     |                                                  |
-| :-------------- | :----------- | :----------- | :------------------ | :------ | ------ | --- | --- | ------------------------------------------------ |
+|:-------------- |:----------- |:----------- |:------------------ |:------ | ------ | --- | --- | ------------------------------------------------ |
 | **Sum*-       | OR           | `enum`       | $                   | A       | +      | B   | $   | `Option<bool>` ($1 + 2 = 3$)                     |
 | **Product*-   | AND          | `struct`     | $                   | A       | \times | B   | $   | `struct { a: bool, b: bool }` ($2 \times 2 = 4$) |
 | **Exponential** | Function     | `fn(A) -> B` | $                   | B       | ^{     | A   | }$  | `fn(bool) -> bool` ($2^2 = 4$)                   |
@@ -70,6 +71,7 @@ To "Make Illegal States Unrepresentable," we must first *count* the representabl
 Two types are **Isomorphic** ($A \cong B$) if you can convert between them without losing data ($to: A \to B$ and $from: B \to A$).
 
 ### Refactoring via Algebra
+
 Just as $a \times (b + c) = (a \times b) + (a \times c)$ in math, types can be refactored algebraically to optimize memory layout.
 
 - **Expanded Form:** `struct { common: Header, variant: Enum }`
@@ -84,12 +86,16 @@ Understanding Isomorphism allows you to strictly separate **Wire Format** (JSON)
 Rust is unique because it exposes these theoretical concepts as zero-cost abstractions over memory.
 
 ### A. Affine Types (Linear Logic)
+
 Standard logic implies facts are eternal ($A \implies A$). **Linear Logic** treats facts as resources that can be consumed.
+
 - **Rust Ownership:** A value `T` is a "resource." Passing it to a function `fn(T)` consumes it.
 - **Benefit:** Memory safety without garbage collection. The type system proves exactly when a resource is dead.
 
 ### B. Lifetimes (Temporal Logic)
+
 Lifetimes (`'a`) introduce **Time** into Type Theory.
+
 - **Definition:** `&'a T` means "A reference to T that is valid for duration 'a".
 - **Proof:** The compiler proves that no pointer outlives its data, preventing "Use After Free" errors mathematically.
 
@@ -97,7 +103,7 @@ Lifetimes (`'a`) introduce **Time** into Type Theory.
 
 ## 6. Minimum Viable Understanding (MVU)
 
-1.  **Types are Sets:** A Type is a set of all possible values. A `bool` is a set of size 2.
-2.  **Logic is Code:** Writing a function is writing a proof.
-3.  **Sum Types Reduce Entropy:** Prefer `enum` (Addition) over `struct` (Multiplication) to keep the state space small.
-4.  **Memory is the Reality:** These algebraic rules directly dictate how bytes are laid out in RAM (Tag + Union).
+1. **Types are Sets:** A Type is a set of all possible values. A `bool` is a set of size 2.
+2. **Logic is Code:** Writing a function is writing a proof.
+3. **Sum Types Reduce Entropy:** Prefer `enum` (Addition) over `struct` (Multiplication) to keep the state space small.
+4. **Memory is the Reality:** These algebraic rules directly dictate how bytes are laid out in RAM (Tag + Union).

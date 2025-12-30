@@ -1,10 +1,10 @@
 ---
 aliases: ["Typestate Pattern", "State Machines in Type Theory", "Affine Types for State"]
 confidence: "5/5"
-created: 2025-12-30
+created: 2025-12-30T12:12:00+00:00
 epistemic: "architecture"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30
+modified: 2025-12-30T14:11:32+00:00
 purpose: "To define how Rust's type system (Enums and Ownership) is used to implement rigorous, zero-cost State Machines where invalid transitions are unrepresentable."
 review_interval: "12 months"
 see_also: ["[[SoT - Algebraic Data Types (ADTs)]]", "[[SoT - Rust's Ownership Model]]", "[[SoT - Parse, Don't Validate]]"]
@@ -50,6 +50,7 @@ enum Connection {
 This is the advanced pattern where each state is a **distinct Type**. It uses Rust's **Ownership (Affine Logic)** to "consume" the previous state, making it physically impossible to use an old state after a transition.
 
 ### The Mechanics
+
 1. **Linear Progression:** A transition function consumes `self` (Ownership) and returns a new type.
 2. **Compile-time Enforcement:** If you try to call a `read()` method on a `Closed` file, the compiler will fail because that method only exists for the `Open` type.
 
@@ -79,7 +80,7 @@ impl Post<Published> {
 ## 4. Comparison: Why Typestate?
 
 | Feature | Enum-based | Typestate Pattern |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Logic Location** | Centralized in `match` blocks. | Distributed in specific `impl` blocks. |
 | **Safety** | Runtime branch (safe). | **Compile-time** (impossible to call wrong methods). |
 | **Memory** | Fixed size (Max variant). | 0 bytes (Phantom types/ZSTs). |

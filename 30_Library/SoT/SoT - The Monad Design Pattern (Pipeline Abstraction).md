@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-19"
-modified: 2025-12-28T18:49:16+00:00
+modified: 2025-12-30T14:11:33+00:00
 purpose: "To define the Monad not as a mathematical abstraction, but as a software design pattern for decoupling business logic from control flow complexity (Pipeline Abstraction)."
 review_interval: "1 year"
 see_also: ["[[SoT - Functional Effects (Effects as Data)]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]

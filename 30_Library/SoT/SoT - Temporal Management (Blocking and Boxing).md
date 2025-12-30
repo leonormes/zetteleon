@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-10T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-15"
-modified: 2025-12-28T18:49:16+00:00
+modified: 2025-12-30T14:11:33+00:00
 purpose: "Canonical guide to Temporal Management (Blocking and Boxing) within ProdOS."
 review_interval: "3 months"
 see_also: ["[[90-Minute Work Blocks Align with Natural Attention Rhythms]]", "[[SoT - PRODOS (System Architecture)]]", "[[Time Blocking Creates Urgency While Time Boxing Combats Parkinson's Law]]", "[[Time Blocking is a Technique for Dedicating Specific Segments of Time to Particular Tasks]]", "[[Timeboxing Creates Structure for Action]]", "[[Timeboxing vs. Time Blocking]]"]

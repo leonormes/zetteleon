@@ -1,17 +1,17 @@
 ---
 aliases: ["Parse Don't Validate", "Type-Driven Validation", "Alexis King Principle"]
 confidence: "5/5"
-created: 2025-12-30
+created: 2025-12-30T11:05:24+00:00
 epistemic: "principle"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30
+modified: 2025-12-30T14:11:32+00:00
 purpose: "To define the architectural principle of shifting validation to the system boundaries by transforming data into Types, rather than just checking it."
 review_interval: "12 months"
 see_also: ["[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[SoT - Algebraic Data Types (ADTs)]]", "[[SoT - The Infrastructure Witness Pattern]]"]
 source_of_truth: []
 status: "stable"
 tags: ["architecture", "type_theory", "security", "principle"]
-title: SoT - Parse, Don't Validate
+title: "SoT - Parse, Don't Validate"
 type: "SoT"
 uid: 
 updated: 
@@ -44,6 +44,7 @@ By parsing, we use the Type System to capture the "Proof of Validity."
 ### Example: The Non-Empty List
 
 **Validation Approach (Bad):**
+
 ```rust
 fn head(list: List<T>) -> Option<T> {
     if list.is_empty() { None } else { Some(list[0]) }
@@ -52,6 +53,7 @@ fn head(list: List<T>) -> Option<T> {
 ```
 
 **Parsing Approach (Good):**
+
 ```rust
 struct NonEmptyList<T>(T, Vec<T>); // Proof: Head is always present.
 
@@ -65,11 +67,14 @@ fn head(list: NonEmptyList<T>) -> T {
 ## 4. Application to Architecture
 
 ### 4.1 The Boundary Layer
+
 All external input (User, Network, Disk) is "Untrusted."
+
 - **Layer 1 (The Parser):** The *only* place where runtime checks happen. It attempts to construct a valid Type (e.g., `UserId`, `Email`, `Config`).
 - **Layer 2 (The Core):** Accepts *only* the valid Types. It contains **zero** validation logic because the types themselves prove the data is valid.
 
 ### 4.2 Making Illegal States Unrepresentable
+
 If a state is impossible (e.g., "Logged in but no User ID"), the Type System should make it impossible to construct.
 
 - **Bad:** `struct User { logged_in: bool, id: Option<String> }`
@@ -78,6 +83,7 @@ If a state is impossible (e.g., "Logged in but no User ID"), the Type System sho
 ---
 
 ## 5. Summary
+
 **"Validation"** is a question ("Is this true?").
 **"Parsing"** is a transformation ("Turn this raw data into a Fact").
 

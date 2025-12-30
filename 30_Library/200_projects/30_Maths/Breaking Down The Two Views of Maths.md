@@ -4,14 +4,14 @@ confidence: "null"
 created: 2025-07-21T02:33:41Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2025-12-28T18:49:22+00:00
+modified: 2025-12-30T14:11:47+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
 tags: []
-title: 'Breaking Down "The Two Views of Maths"'
+title: Breaking Down The Two Views of Maths
 type: "null"
 uid: 
 updated: 

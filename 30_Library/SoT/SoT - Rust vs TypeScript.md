@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-28T00:00:00Z
 epistemic: "knowledge"
 last_reviewed: "2025-12-28"
-modified: 2025-12-28T18:49:16+00:00
+modified: 2025-12-30T14:11:33+00:00
 purpose: "To provide a high-contrast comparative analysis between Rust and TypeScript to aid developers in shifting mental models."
 review_interval: "12 months"
 see_also: ["[[SoT - Rust Language]]", "[[SoT - Rust Type System]]"]
@@ -16,7 +16,7 @@ type: "SoT"
 ---
 
 > **The Core Divergence:** While both languages use static analysis to improve reliability, TypeScript optimizes for **Flexibility** (matching the dynamic nature of JavaScript), while Rust optimizes for **Correctness and Performance** (matching the strict nature of hardware).
-> 
+>
 > **The Metaphor:** TypeScript is a **painting** (a high-fidelity representation that vanishes at runtime); Rust is a **sculpture** (the types dictate the physical structure of the matter).
 
 ## 1. Type Philosophy: Nominal vs. Structural
@@ -77,14 +77,14 @@ This distinction dictates the performance characteristics and binary size of the
 In TypeScript (OOP), you use a `class` to bundle data properties and methods together. In Rust (DOD), these are distinct entities.
 
 | Concept | TypeScript (`class`) | Rust (`struct` + `impl`) |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **State Definition** | `class Person { name: string; }` | `struct Person { name: String }` |
-| **Logic Definition** | Methods inside the `class` block. | `impl Person { ... }` blocks (can be in different files). |
+| **Logic Definition** | Methods inside the `class` block. | `impl Person {... }` blocks (can be in different files). |
 | **Context** | `this` keyword (implicit). | `self` argument (explicit). |
 
 **Why the separation?**
-1.  **Data Layout:** Rust optimizes the `struct` purely for memory alignment and padding. There are no hidden v-tables unless you use Trait Objects.
-2.  **Composition:** You can implement different Traits for the same Struct in different modules, decoupling the data from its behavior.
+1. **Data Layout:** Rust optimizes the `struct` purely for memory alignment and padding. There are no hidden v-tables unless you use Trait Objects.
+2. **Composition:** You can implement different Traits for the same Struct in different modules, decoupling the data from its behavior.
 
 ---
 

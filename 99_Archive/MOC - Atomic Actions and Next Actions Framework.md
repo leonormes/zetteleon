@@ -6,7 +6,7 @@ criteria: Atomic notes relating to the definition, properties, structure, and ex
 epistemic:
 exclusions: Broad productivity philosophy; specific tool implementations beyond examples.
 last_reviewed:
-modified: 2025-12-28T18:49:14+00:00
+modified: 2025-12-30T14:11:31+00:00
 purpose:
 review_interval: 0
 scope: Comprehensive framework for defining, organizing, and executing atomic actions as the fundamental unit of productivity, with a focus on ADHD-friendly systems.

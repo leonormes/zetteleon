@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-02-07T12:57:55Z
 epistemic: "guide"
 last_reviewed: "2025-12-26"
-modified: 2025-12-26T18:21:35+00:00
+modified: 2025-12-30T14:11:35+00:00
 purpose: "To provide the standard operating procedure for deploying FitFile applications using Helm, specifically focusing on the FFNode umbrella chart and configuration overrides."
 review_interval: "6 months"
 see_also: ["[[SoT - FITFILE Platform Deployment]]", "[[SoT - Kubernetes Networking & DNS]]", "[[SOT - CI-CD Pipelines]]", "[[SoT - FitFile Deployment - Release Process]]"]

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-11T19:05:15Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-28T18:49:31+00:00
+modified: 2025-12-30T14:11:51+00:00
 purpose: "Explains the meta-benefit of successfully re-engaging with a project."
 review_interval: "90"
 see_also: []

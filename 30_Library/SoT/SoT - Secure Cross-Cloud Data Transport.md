@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-03-13T15:51:37Z
 epistemic: "architecture"
 last_reviewed: "2025-12-22"
-modified: 2025-12-28T18:49:16+00:00
+modified: 2025-12-30T14:11:33+00:00
 purpose: "To define the architectural data patterns for secure, private communication between decoupled cloud environments (AWS/Azure)."
 review_interval: "6 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data-Centric Theory of Networking]]"]
@@ -74,22 +74,27 @@ The structural entry/exit points for data are **Gateways**, not individual nodes
 To maintain the security envelope, the transport bridge employs five abstract functional components at the **Network Entry Points** of each cloud environment.
 
 ### I. Private Pathway Creator (The Conduit)
+
 - **Function:** Establishes a dedicated, isolated path (tunnel) between VPCs, bypassing the public internet.
 - **Data Role:** Ensures all packets travel on a pre-defined, non-public logical route.
 
 ### II. Data Encryptor / Decryptor (Confidentiality)
+
 - **Function:** Transforms plaintext into ciphertext at the Egress Gateway and reverses the process at the Ingress Gateway.
 - **Data Role:** Ensures that data is unreadable to any entity outside the peer gateways.
 
 ### III. Data Integrity Verifier (Trustworthiness)
+
 - **Function:** Attaches cryptographic signatures or hashes to data units.
 - **Data Role:** Guarantees that the received data is bit-identical to the sent data, detecting any tampering.
 
 ### IV. Endpoint Authenticator (Identity)
+
 - **Function:** Verifies the cryptographic identity of the peer gateway and the requesting service.
 - **Data Role:** Ensures that "Bunny" only speaks to the real "Relay," and vice-versa.
 
 ### V. Access Controller (Authorization)
+
 - **Function:** Enforces the "Allow/Deny" logic based on service permissions.
 - **Data Role:** Regulates the flow of specific payloads (e.g., Job Requests vs. Logs) based on the requesting entity's role.
 
@@ -100,23 +105,28 @@ To maintain the security envelope, the transport bridge employs five abstract fu
 Every cross-cloud data pathway must adhere to five fundamental principles to ensure the security and stability of the distributed system.
 
 ### I. Privacy and Isolation
+
 - **Principle**: Data in transit must be isolated from the public internet to prevent unauthorized interception.
 - **Requirement**: Establish a logically private network path (e.g., VPN Tunnel, AWS PrivateLink).
 - **Example**: "Bunny" (Azure AKS) and "Relay" (AWS EKS) communicate over a private bridge rather than open ingress.
 
 ### II. Confidentiality (Encryption)
+
 - **Principle**: Data must be unreadable to interceptors.
 - **Requirement**: Strong encryption (TLS 1.2+, AES-256) for all data flowing between environments.
 
 ### III. Integrity
+
 - **Principle**: Data must not be altered or tampered with during transit.
 - **Requirement**: Cryptographic signatures (HMAC) or hashing to guarantee that "Bunny" receives exactly what "Relay" sent.
 
 ### IV. Authentication
+
 - **Principle**: Bidirectional verification of source and destination identity.
 - **Requirement**: Implement **Mutual TLS (mTLS)** where possible. "Bunny" must verify "Relay" is legitimate, and "Relay" must verify the request comes from a valid "Bunny" instance.
 
 ### V. Authorization
+
 - **Principle**: Access is granted based on the principle of least privilege.
 - **Requirement**: "Bunny" is only authorized to poll the job queue and return results; it has no broader access to the AWS VPC or EKS APIs.
 

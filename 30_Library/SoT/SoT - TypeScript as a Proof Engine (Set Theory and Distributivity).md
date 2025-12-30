@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2025-12-28T18:49:16+00:00
+modified: 2025-12-30T14:11:32+00:00
 purpose: "Defines the architectural mental model of TypeScript as a Proof Engine operating on Set Theory, specifically addressing the distributivity trap."
 review_interval: "1 year"
 see_also: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]

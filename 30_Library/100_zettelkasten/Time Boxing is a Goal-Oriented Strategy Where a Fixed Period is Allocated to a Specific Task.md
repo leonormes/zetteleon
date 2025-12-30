@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T14:02:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-28T18:49:31+00:00
+modified: 2025-12-30T14:11:50+00:00
 purpose: "To define the time boxing productivity technique."
 review_interval: "90"
 see_also: ["[[The Core Principles of Time Boxing]]", "[[Time Blocking vs Time Boxing]]"]

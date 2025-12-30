@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "principle"
 last_reviewed: "2025-12-19"
-modified: 2025-12-28T18:49:16+00:00
+modified: 2025-12-30T14:11:32+00:00
 purpose: "To explain the market dynamics that allow simple, less-correct systems to dominate complex, theoretically pure ones."
 review_interval: "12 months"
 see_also: ["[[SoT - Pragmatism vs Rigour in Software]]"]

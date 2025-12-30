@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-29T21:52:02+00:00
 epistemic: "index"
 last_reviewed: "2025-12-29"
-modified: 2025-12-29T21:53:20+00:00
+modified: 2025-12-30T14:11:36+00:00
 purpose: "The central entry point for Type Theory, linking mathematical foundations with software engineering practices."
 review_interval: "6 months"
 see_also: ["[[MOC - Rust Programming Language]]", "[[MOC - Data-Centric Infrastructure]]"]

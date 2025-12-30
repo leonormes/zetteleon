@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2025-12-28T18:49:16+00:00
+modified: 2025-12-30T14:11:33+00:00
 purpose: "Defines the foundational isomorphism between mathematical logic and computer programming."
 review_interval: "1 year"
 see_also: ["[[SoT - Proof-Carrying Code via Simulated Dependent Types]]"]
@@ -62,6 +62,7 @@ This framework transforms the compiler from a syntax checker into a **Theorem Pr
 ### Practical Engineering Application
 
 By leveraging CHI, systems like Rust and Scala can move runtime errors to compile-time logical proofs:
+
 - **Matrix Verification**: Encoding dimensions into types so that $A_{m \times n} \times B_{n \times p}$ is proven valid before execution.
 - **Length-Indexed Lists**: A `Zip` function that only compiles if two lists have exactly the same length, eliminating `IndexOutOfBounds` risks.
 - **The Proof Searcher (Scala 3)**: Features like `given` and `using` allow the compiler to act as an automated theorem prover. A `given CanShow[Int]` is a proof that the proposition "Int can be shown" is true. When the user `summon`s this type, the compiler performs a **Proof Search** to find the evidence.

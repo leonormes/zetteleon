@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-08T14:04:28Z
 epistemic: "strategy"
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T18:49:17+00:00
+modified: 2025-12-30T14:11:34+00:00
 purpose: "To define the function, structure, and purpose of 'Thinking' within the ProdOS architecture."
 review_interval: "3 months"
 see_also: ["[[SoT - Action Management Framework]]", "[[SoT - PRODOS (System Architecture)]]"]

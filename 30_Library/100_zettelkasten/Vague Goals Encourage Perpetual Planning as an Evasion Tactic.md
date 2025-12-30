@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T20:33:00Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-28T18:49:31+00:00
+modified: 2025-12-30T14:11:50+00:00
 purpose: "To explain how a lack of clear goals enables perpetual planning and procrastination."
 review_interval: "90"
 see_also: ["[[Clarity]]", "[[Goal Setting]]", "[[Motion Can Be a Procrastination Delay Tactic]]"]

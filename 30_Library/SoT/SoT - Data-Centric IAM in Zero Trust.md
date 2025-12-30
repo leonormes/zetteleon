@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-03-15T10:12:06Z
 epistemic: "theory"
 last_reviewed: "2025-12-29"
-modified: 2025-12-29T12:00:00+00:00
+modified: 2025-12-30T14:11:35+00:00
 purpose: "To define IAM within a Zero Trust framework as a function of data relationships, specifying the schemas and logic required for trust establishment."
 review_interval: "6 months"
 see_also: ["[[SoT - Digital Identity]]", "[[SoT - Modern Authentication Standards]]", "[[MOC - Cloud-Native Authentication]]"]
@@ -26,17 +26,23 @@ In a Zero Trust architecture, **Identity and Access Management (IAM)** is a cont
 To architect a Zero Trust IAM system, we must define the structural entities involved. These are concrete data objects that the **Policy Decision Point (PDP)** must ingest.
 
 ### A. The Subject Entity (Identity)
+
 The *Subject* is the actor requesting access, defined by bound attributes (claims).
+
 * **Source:** Identity Provider (IdP) / Directory Service.
 * **Key Attributes:** `sub` (Subject ID), `groups` (Affiliation), `auth_time` (Freshness), `amr` (Auth Method Reference).
 
 ### B. The Context Entity (Environment)
+
 The *Context* is the ephemeral state surrounding the request (metadata wrapper).
+
 * **Source:** EDR, Network telemetry, Threat Intel.
 * **Key Attributes:** `device_id`, `trust_level` (Managed/Compliant), `network_location`, `risk_score` (0-100).
 
 ### C. The Resource Entity (Object)
+
 The *Resource* is the target asset, which must self-describe its security requirements.
+
 * **Source:** Resource Server / CMDB.
 * **Key Attributes:** `classification` (Confidential/PII), `sensitivity_label` (Required `auth_strength`).
 
@@ -45,13 +51,15 @@ The *Resource* is the target asset, which must self-describe its security requir
 ## 3. The Logic Function & Topology
 
 ### The Equation of Trust
+
 Access ($A$) is a boolean output derived from a function ($f$) of the aggregate dataset:
 
 $$A = f(Identity \cup Context \cup Resource, Policy)$$
 
 ### Architectural Planes
-1.  **Data Plane (The Muscle):** Handles actual data transmission. Sits behind the **PEP (Policy Enforcement Point)**.
-2.  **Control Plane (The Brain):** Computes trust scores and issues instructions. Contains the **PDP (Policy Decision Point)**.
+
+1. **Data Plane (The Muscle):** Handles actual data transmission. Sits behind the **PEP (Policy Enforcement Point)**.
+2. **Control Plane (The Brain):** Computes trust scores and issues instructions. Contains the **PDP (Policy Decision Point)**.
 
 ---
 
@@ -107,14 +115,14 @@ This JSON schema formalizes the "equation" by defining how these attributes must
 
 The relationship between an **OIDC Token** (Identity Data) and a **Kubernetes RBAC Binding** (Policy Data) is a perfect implementation of this model.
 
-1.  **Identity (JWT):** The IdP asserts `groups: ["9999-8888..."]`.
-2.  **Policy (RoleBinding):** Kubernetes defines a link between `subject.name: "9999-8888..."` and `role: view`.
-3.  **Relational Mapping:** The Group Object ID acts as a **Foreign Key** connecting the remote Identity database to the local Permission table.
+1. **Identity (JWT):** The IdP asserts `groups: ["9999-8888..."]`.
+2. **Policy (RoleBinding):** Kubernetes defines a link between `subject.name: "9999-8888..."` and `role: view`.
+3. **Relational Mapping:** The Group Object ID acts as a **Foreign Key** connecting the remote Identity database to the local Permission table.
 
 ---
 
 ## 5. Minimum Viable Understanding (MVU)
 
-1.  **Schema over Strings:** Identities are structured objects (claims sets), not just usernames.
-2.  **Intersection Logic:** Authorization is the calculated intersection of Identity Claims, Context Signals, and Resource Policies.
-3.  **Segregation of Duties:** The component that *moves* the data (PEP) never decides *if* it should move; it obeys the PDP.
+1. **Schema over Strings:** Identities are structured objects (claims sets), not just usernames.
+2. **Intersection Logic:** Authorization is the calculated intersection of Identity Claims, Context Signals, and Resource Policies.
+3. **Segregation of Duties:** The component that *moves* the data (PEP) never decides *if* it should move; it obeys the PDP.

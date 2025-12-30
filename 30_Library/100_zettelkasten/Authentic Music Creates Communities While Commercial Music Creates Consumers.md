@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-10T11:09:00Z
 epistemic: "hypothesis"
 last_reviewed: ""
-modified: 2025-12-28T18:49:34+00:00
+modified: 2025-12-30T14:11:54+00:00
 purpose: "To propose a key social difference between authentic and commercial music."
 review_interval: "90"
 see_also: []

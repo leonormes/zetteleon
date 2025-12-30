@@ -5,7 +5,7 @@ confidence: ""
 created: 2025-12-24T17:16:29Z
 epistemic: "Synthesized from Node.js -> Go transition patterns and Cloud Native architectural requirements."
 last_reviewed: "2025-12-26"
-modified: 2025-12-28T18:49:31+00:00
+modified: 2025-12-30T14:11:48+00:00
 purpose: "A project-driven curriculum to transition from Node.js/TS to Cloud Native Go."
 related_project: "[[Project - Concurrent TCP Log Ingestor]]"
 review_interval: "3 months"

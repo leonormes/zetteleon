@@ -1,14 +1,26 @@
 ---
-title: "‎Gemini – direct access to Google AI"
+aliases: []
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+modified: 2025-12-30T14:11:55+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+title: Identifying an Ibanez Lawsuit Guitar
 source: "https://gemini.google.com/share/64247a585657"
 author:
   - "[[Gemini]]"
 published:
-created: 2025-12-29
+created: 2025-12-29T10:45:15+00:00
 description: "Created with Gemini"
 tags:
   - "clippings"
 ---
+
 Identify the guitar
 
 Based on the visual evidence, this is an **Ibanez Model 2355**, manufactured during the "Lawsuit Era" (specifically mid-1970s, pre-1977).

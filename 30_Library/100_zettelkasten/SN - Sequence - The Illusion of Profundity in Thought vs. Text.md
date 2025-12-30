@@ -6,7 +6,7 @@ criteria: "Notes must relate to the phenomenon of how writing clarifies, challen
 epistemic: ""
 exclusions: "General advice on writing style or grammar."
 last_reviewed: ""
-modified: 2025-12-28T18:49:32+00:00
+modified: 2025-12-30T14:11:51+00:00
 purpose: ""
 review_interval: ""
 scope: "The relationship between internal thought and externalized text, and the cognitive benefits of writing."

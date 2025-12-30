@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T14:15:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-28T18:49:31+00:00
+modified: 2025-12-30T14:11:50+00:00
 purpose: "To define Time Mapping."
 review_interval: "90"
 see_also: ["[[Time Blocking is a Technique for Dedicating Specific Segments of Time to Particular Tasks]]"]

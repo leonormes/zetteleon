@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: "theory"
 last_reviewed: "2025-12-14"
-modified: 2025-12-28T18:49:17+00:00
+modified: 2025-12-30T14:11:34+00:00
 purpose: "To define the distinct ontological nature of money and wealth, their interrelationship, and their institutional and social underpinnings."
 review_interval: "6 months"
 see_also: ["[[SoT - Fundamental Description of Economics]]"]

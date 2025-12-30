@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-15T00:00:00Z
 epistemic: "technique"
 last_reviewed: "2025-12-16"
-modified: 2025-12-28T18:49:18+00:00
+modified: 2025-12-30T14:11:35+00:00
 purpose: "To define the active process of debugging and rewriting maladaptive thought patterns, specifically for the ADHD mind."
 review_interval: "1 year"
 see_also: ["[[Cognitive Reframing of Criticism]]", "[[Reframing Negative Thought Patterns in ADHD]]", "[[SoT - ADHD Self-Compassion & Strengths]]", "[[SoT - Belief Architecture & Cognitive Spaces]]", "[[SoT - The Negativity Bias]]"]

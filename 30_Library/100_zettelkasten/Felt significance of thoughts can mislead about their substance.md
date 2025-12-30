@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-31T20:48:00Z
 epistemic: "principle"
 last_reviewed: "2025-10-31"
-modified: 2025-12-28T18:49:33+00:00
+modified: 2025-12-30T14:11:53+00:00
 purpose: "Explains the dissociation between felt importance and actual substance of thoughts"
 review_interval: "90"
 see_also: []

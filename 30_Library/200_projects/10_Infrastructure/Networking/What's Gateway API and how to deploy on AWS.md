@@ -5,7 +5,7 @@ confidence: ""
 created: 2025-03-27T09:44:02Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-28T18:49:25+00:00
+modified: 2025-12-30T14:11:42+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -13,7 +13,7 @@ source: "https://dev.to/haintkit/whats-gateway-api-and-how-to-deploy-on-aws-3ma1
 source_of_truth: []
 status: ""
 tags: ["gateway", "k8s", "topic/technology/networking"]
-title: "What's Gateway API and how to deploy on AWS?"
+title: "What's Gateway API and how to deploy on AWS"
 type: "download"
 uid: 
 updated: 

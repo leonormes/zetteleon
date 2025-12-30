@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T11:07:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-28T18:49:33+00:00
+modified: 2025-12-30T14:11:53+00:00
 purpose: "Explain DNS message structure."
 review_interval: "90"
 see_also: ["DNS Protocol Uses UDP and TCP for Message Transport.md"]

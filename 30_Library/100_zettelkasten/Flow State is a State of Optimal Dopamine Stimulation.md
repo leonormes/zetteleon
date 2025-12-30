@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-11T19:05:02Z
 epistemic: "fact"
 last_reviewed: "null"
-modified: 2025-12-28T18:49:33+00:00
+modified: 2025-12-30T14:11:53+00:00
 purpose: "Explains the neurochemical basis of a 'flow state'."
 review_interval: "90"
 see_also: []

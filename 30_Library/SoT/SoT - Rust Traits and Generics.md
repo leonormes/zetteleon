@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-27T20:31:13+00:00
 epistemic: "knowledge"
 last_reviewed: "2025-12-27"
-modified: 2025-12-28T18:49:16+00:00
+modified: 2025-12-30T14:11:33+00:00
 purpose: "To explain the mechanics of Rust's polymorphism, focusing on how Generics and Traits enable type abstraction with zero runtime cost."
 review_interval: "6 months"
 see_also: ["[[SoT - Rust Language]]", "[[SoT - Rust Type System]]", "[[SoT - Rust's Design Philosophy]]"]

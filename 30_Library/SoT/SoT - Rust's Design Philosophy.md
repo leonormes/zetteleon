@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "analysis"
 last_reviewed: "2025-12-19"
-modified: 2025-12-29T16:29:13+00:00
+modified: 2025-12-30T14:11:33+00:00
 purpose: "To analyze Rust's core design as a deliberate compromise between performance, safety, and pragmatic implementation."
 review_interval: "12 months"
 see_also: ["[[SoT - Padded Cell vs Nanny Languages]]", "[[SoT - Pragmatism vs Rigour in Software]]", "[[SoT - Rust's Ownership Model]]"]
@@ -40,10 +40,12 @@ Rust's architecture is built on three pillars, each representing a pragmatic cho
 3. **Productivity:** A modern toolchain (`cargo`), excellent documentation, and helpful compiler errors are prioritized to make the steep learning curve manageable.
 
 ### 3.1 The "Zero-Sized Type" Pattern
+
 A unique architectural feature of Rust is the **Zero-Sized Type (ZST)**.
--   **Concept:** A struct with no fields (`struct Service;`) occupies **0 bytes** of memory.
--   **Usage:** It acts as a compile-time "Token" or "Stateless Service Handle." You can attach methods to it (`impl Service { ... }`), but passing it around costs nothing at runtime.
--   **Why?** It allows purely Type-Driven logic (like the **Witness Pattern**) without performance penalty.
+
+- **Concept:** A struct with no fields (`struct Service;`) occupies **0 bytes** of memory.
+- **Usage:** It acts as a compile-time "Token" or "Stateless Service Handle." You can attach methods to it (`impl Service {... }`), but passing it around costs nothing at runtime.
+- **Why?** It allows purely Type-Driven logic (like the **Witness Pattern**) without performance penalty.
 
 This architecture firmly places Rust in the "Nanny" category of languages as defined in [[SoT - Padded Cell vs Nanny Languages]]. It is a reaction to the chaos of C++, designed to prevent common mistakes rather than to enable the expression of mathematical truth.
 

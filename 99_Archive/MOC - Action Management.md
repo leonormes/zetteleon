@@ -4,7 +4,7 @@ confidence: 4/5
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed: 2025-12-08
-modified: 2025-12-28T18:49:14+00:00
+modified: 2025-12-30T14:11:31+00:00
 purpose: The central hub for all notes related to Action Management, Execution, and Task Initiation within ProdOS.
 related-soTs: ["[[SoT - PRODOS - Action Management (GTD)]]"]
 review_interval: 0

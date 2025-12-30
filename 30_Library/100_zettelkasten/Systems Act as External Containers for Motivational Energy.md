@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-10T13:07:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-28T18:49:31+00:00
+modified: 2025-12-30T14:11:51+00:00
 purpose: "To provide a metaphor for the function of systems and routines."
 review_interval: "90"
 see_also: ["[[Externalizing Direction Reduces Cognitive Load and Fosters Flow]]"]

@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-17T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-17"
-modified: 2025-12-28T18:49:18+00:00
+modified: 2025-12-30T14:11:35+00:00
 purpose: "To define Accidental Social Complexity as a primary source of inefficiency and friction in technical projects."
 review_interval: "3 months"
 see_also: ["[[MOC - Socio-Technical Dissonance]]"]

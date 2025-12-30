@@ -1,10 +1,11 @@
 ---
+aliases: []
 alias: ["Type Theory Study Plan", "Applied Type Theory"]
 confidence: "5/5"
 created: 2025-12-29T23:32:47+00:00
 epistemic: "curriculum"
 last_reviewed: "2025-12-29"
-modified: 2025-12-29T23:45:00+00:00
+modified: 2025-12-30T14:11:37+00:00
 purpose: "A purely practical, code-first curriculum to master Type Theory by refactoring code and proving correctness in Rust."
 review_interval: "3 months"
 see_also: ["[[MOC - Type Theory]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
@@ -20,8 +21,9 @@ updated:
 ## 1. The Strategy: "Proof by Implementation"
 
 You stated you struggle to **implement** and **explain**. This curriculum solves that by inverting the standard learning model:
-1.  **Do (Code First):** You will write code that fails to compile until the logic is correct.
-2.  **Explain (Feynman Test):** You will write a 3-sentence "commit message" explaining *why* the refactor was necessary.
+
+1. **Do (Code First):** You will write code that fails to compile until the logic is correct.
+2. **Explain (Feynman Test):** You will write a 3-sentence "commit message" explaining *why* the refactor was necessary.
 
 > **The Capstone Project:** You will iteratively build a **Secure Payment State Machine**.
 
@@ -30,13 +32,15 @@ You stated you struggle to **implement** and **explain**. This curriculum solves
 ## 2. Level 1: The Shape of Data (Algebraic Data Types)
 
 **Theory:** Types are not just labels; they are Sets. We count them to measure complexity.
-*   **Reading:** [[SoT - Algebraic Data Types (ADTs)]]
+* **Reading:** [[SoT - Algebraic Data Types (ADTs)]]
 
 ### 🛠️ Practical Challenge 1: The Boolean Blindness Exorcism
+
 **Scenario:** You have a `struct` with multiple boolean flags. This is a "Product Type" explosion ($2 \times 2 \times 2 = 8$ states).
 **Task:** Refactor the following "Zombie Struct" into a proper "Sum Type" (`enum`).
 
 *Bad Code (Start Here):*
+
 ```rust
 struct Request {
     is_loading: bool,
@@ -52,6 +56,7 @@ struct Request {
 - Create an `enum RequestState` where invalid combinations (like Loading + Error) are physically impossible to represent.
 
 ### 🗣️ The Feynman Test
+
 > "Explain to a Java/Python developer why `Option<T>` is mathematically safer than `null`. Do not use the word 'Monad'. Use the concept of a 'Box' that might be empty."
 
 ---
@@ -59,13 +64,15 @@ struct Request {
 ## 3. Level 2: Logic as Code (Propositions as Types)
 
 **Theory:** Writing a function is writing a proof. If `fn(A) -> B` compiles, you have proved that "If I have A, I can produce B."
-*   **Reading:** [[SoT - The Curry-Howard Correspondence (Propositions as Types)]]
+* **Reading:** [[SoT - The Curry-Howard Correspondence (Propositions as Types)]]
 
 ### 🛠️ Practical Challenge 2: The "Parse, Don't Validate" Pattern
+
 **Scenario:** You have a function that accepts a `String` and returns a `String`. This is "Stringly Typed."
 **Task:** Create a **NewType** `EmailAddress` that *cannot* be constructed with invalid data.
 
 *Bad Code:*
+
 ```rust
 fn send_email(to: String, body: String) {
     if !to.contains("@") { panic!("Invalid email!"); }
@@ -74,12 +81,13 @@ fn send_email(to: String, body: String) {
 ```
 
 *Required Output:*
-1.  Define `struct EmailAddress(String);`.
-2.  Implement a `parse` constructor: `impl TryFrom<String> for EmailAddress`.
-3.  Refactor `send_email` to accept `EmailAddress`.
-4.  **Goal:** Remove the `if` check from `send_email`. The validation happens *once* at the edge; the function logic is now "correct by construction."
+1. Define `struct EmailAddress(String);`.
+2. Implement a `parse` constructor: `impl TryFrom<String> for EmailAddress`.
+3. Refactor `send_email` to accept `EmailAddress`.
+4. **Goal:** Remove the `if` check from `send_email`. The validation happens *once* at the edge; the function logic is now "correct by construction."
 
 ### 🗣️ The Feynman Test
+
 > "Explain why 'NewTypes' (wrapper structs) are free in Rust (Zero-Cost Abstractions) but expensive in languages like Java (Object Overhead)."
 
 ---
@@ -87,13 +95,15 @@ fn send_email(to: String, body: String) {
 ## 4. Level 3: Time & Transition (Affine Types & State Machines)
 
 **Theory:** Data has a lifecycle. It flows from one state to another. We use **Move Semantics** (Affine Types) to consume the old state so it can never be used again.
-*   **Reading:** [[SoT - Type-Driven Development (The Torvalds Loop)]]
+* **Reading:** [[SoT - Type-Driven Development (The Torvalds Loop)]]
 
 ### 🛠️ Practical Challenge 3: The Payment State Machine
+
 **Scenario:** A Payment can be `Pending`, `Authorized`, or `Settled`. You cannot Settle a Pending payment without Authorizing it first.
 **Task:** Implement the **Type State Pattern**.
 
 *Code Goal:*
+
 ```rust
 let pending = Payment::new(100);
 let authorized = pending.authorize(creds); // `pending` is consumed here!
@@ -102,11 +112,12 @@ let settled = authorized.settle();
 ```
 
 *Steps:*
-1.  Define structs: `Pending`, `Authorized`, `Settled`.
-2.  Define `Payment<State>`.
-3.  Implement methods *only* on specific states (e.g., `impl Payment<Authorized> { fn settle(...) }`).
+1. Define structs: `Pending`, `Authorized`, `Settled`.
+2. Define `Payment<State>`.
+3. Implement methods *only* on specific states (e.g., `impl Payment<Authorized> { fn settle(...) }`).
 
 ### 🗣️ The Feynman Test
+
 > "Explain 'Ownership' to a C++ developer using the metaphor of a 'Physical Ticket' that must be handed over to enter a room."
 
 ---
@@ -114,19 +125,21 @@ let settled = authorized.settle();
 ## 5. Level 4: Systems Thinking (Equality & Identity)
 
 **Theory:** Identity is tricky. Are two files equal if they have the same content? (Intensional vs. Extensional).
-*   **Reading:** [[SoT - The Structure of Identity (UIP and Groupoids)]]
+* **Reading:** [[SoT - The Structure of Identity (UIP and Groupoids)]]
 
 ### 🛠️ Practical Challenge 4: Content-Addressable Storage (Git-Lite)
+
 **Scenario:** We need to store data efficiently. If two users save the same file, we should only store it once.
 **Task:** Implement a simple **Merkle Tree** node.
 
 *Required Output:*
-1.  Create a `Blob` struct.
-2.  Implement `fn hash(&self) -> String`.
-3.  Store blobs in a `HashMap<Hash, Blob>`.
-4.  **Goal:** Prove that if `Hash(A) == Hash(B)`, then `A` and `B` are effectively the same object, regardless of where they came from.
+1. Create a `Blob` struct.
+2. Implement `fn hash(&self) -> String`.
+3. Store blobs in a `HashMap<Hash, Blob>`.
+4. **Goal:** Prove that if `Hash(A) == Hash(B)`, then `A` and `B` are effectively the same object, regardless of where they came from.
 
 ### 🗣️ The Feynman Test
+
 > "Explain why Distributed Systems (like Git or Blockchain) use Hashes for ID instead of Auto-Incrementing Integers."
 
 ---
@@ -134,6 +147,7 @@ let settled = authorized.settle();
 ## 6. Resources for "Getting Unstuck"
 
 If you cannot solve a challenge:
-1.  **Read:** *Parse, Don't Validate* (Alexis King).
-2.  **Watch:** *Type-Driven API Design in Rust* (Will Crichton).
-3.  **Reference:** [[SoT - Rust's Design Philosophy]].
+
+1. **Read:** *Parse, Don't Validate* (Alexis King).
+2. **Watch:** *Type-Driven API Design in Rust* (Will Crichton).
+3. **Reference:** [[SoT - Rust's Design Philosophy]].

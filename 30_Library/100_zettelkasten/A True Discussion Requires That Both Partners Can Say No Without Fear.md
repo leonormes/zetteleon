@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T10:20:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-28T18:49:34+00:00
+modified: 2025-12-30T14:11:54+00:00
 purpose: "To define a core requirement for genuine discussion."
 review_interval: "90"
 see_also: []

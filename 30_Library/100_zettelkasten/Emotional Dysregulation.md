@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-06-26T15:03:54Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-28T18:49:33+00:00
+modified: 2025-12-30T14:11:53+00:00
 purpose: ""
 review_interval: ""
 see_also: ["[[Self-Regulation is Managing Your Emotions and Actions]]"]

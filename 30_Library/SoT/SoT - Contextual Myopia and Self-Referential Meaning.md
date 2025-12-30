@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-12"
-modified: 2025-12-28T18:49:18+00:00
+modified: 2025-12-30T14:11:35+00:00
 purpose: "Canonical definition and structural analysis of Contextual Myopia and Self-Referential Meaning."
 review_interval: "6 months"
 see_also: ["[[Contextual Myopia and Goal Displacement]]", "[[Goal Displacement]]", "[[Humans are susceptible to contextual myopia]]", "[[MOC - Cognitive Biases]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - PRODOS (System Architecture)]]", "[[Sunk Cost Fallacy Reinforces Myopia]]", "[[The Focusing Illusion]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "fact"
 last_reviewed: 2025-12-24
-modified: 2025-12-28T18:49:32+00:00
+modified: 2025-12-30T14:11:52+00:00
 purpose: "To explain the 'clock arithmetic' foundation of modern cryptography."
 review_interval: "1 year"
 see_also: ["[[RSA Algorithm Relies on Integer Factorisation]]"]

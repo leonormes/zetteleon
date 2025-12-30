@@ -5,7 +5,7 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-28T18:49:34+00:00
+modified: 2025-12-30T14:11:54+00:00
 purpose: To structure the thinking and planning for standardizing Kubernetes observability across the team.
 review_interval:
 see_also: ["[[30_Library/100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address]]", "[[Authentication Summary for AKS, EKS, and Terraform Cloud]]", "[[AWS ENIs Connect EKS Worker Nodes to VPC Networks]]"]

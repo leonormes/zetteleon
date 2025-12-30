@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "derived"
 last_reviewed: "2025-12-18"
-modified: 2025-12-28T18:49:16+00:00
+modified: 2025-12-30T14:11:33+00:00
 purpose: "Canonical reference for leveraging type systems to eliminate runtime failure modes."
 review_interval: "6 months"
 see_also: []

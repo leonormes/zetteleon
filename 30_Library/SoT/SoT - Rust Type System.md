@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-27T20:28:33+00:00
 epistemic: "pattern"
 last_reviewed: "2025-12-27"
-modified: 2025-12-28T18:49:16+00:00
+modified: 2025-12-30T14:11:33+00:00
 purpose: "To document the patterns and mechanisms for using Rust's type system to enforce invariants and correctness at compile time."
 review_interval: "6 months"
 see_also: ["[[SoT - Rust Language]]", "[[SoT - Rust's Ownership Model]]", "[[SoT - Rust's Design Philosophy]]", "[[SoT - Dependent Types in Software]]"]

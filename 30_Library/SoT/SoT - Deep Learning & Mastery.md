@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T10:17:22Z
 epistemic: "strategy"
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T18:49:17+00:00
+modified: 2025-12-30T14:11:35+00:00
 purpose: "To provide a comprehensive roadmap for moving from passive information acquisition to high-level mastery and intuitive understanding."
 review_interval: "3 months"
 see_also: ["[[SoT - Accelerated Learning (3C Protocol)]]", "[[SoT - Active Learning Techniques]]"]

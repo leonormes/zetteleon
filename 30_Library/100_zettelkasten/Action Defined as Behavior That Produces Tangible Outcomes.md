@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T20:22:24Z
 epistemic: "definition"
 last_reviewed: "2025-11-01"
-modified: 2025-12-28T18:49:34+00:00
+modified: 2025-12-30T14:11:54+00:00
 purpose: "Define action as behavior that directly produces tangible outcomes."
 review_interval: "90"
 see_also: ["[[Motion Defined as Preparatory Activity Without Direct Outcomes]]", "[[Next Action is the Immediate Physical Step Forward]]"]

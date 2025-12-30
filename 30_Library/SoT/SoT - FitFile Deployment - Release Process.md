@@ -1,10 +1,10 @@
 ---
 aliases: ["Release Tagging Procedure", "FitFile Release Checklist", "FitFile Smoke Tests"]
 confidence: "5/5"
-created: 2025-12-29
+created: 2025-12-29T10:26:01+00:00
 epistemic: "procedure"
 last_reviewed: "2025-12-29"
-modified: 2025-12-29
+modified: 2025-12-30T14:11:32+00:00
 purpose: "To define the standard operating procedure for tagging, promoting, and verifying FitFile platform releases across environments."
 review_interval: "3 months"
 see_also: ["[[SoT - FITFILE Platform Deployment]]", "[[SoT - FitFile Deployment - Helm Configuration & Operations]]"]
@@ -31,7 +31,7 @@ The release process relies on **Semantic Versioning** and **Environment Pointers
 Environments track specific "pointer tags" rather than raw version numbers. Promotion involves moving these pointers.
 
 | Environment | Pointer Tag Name | Usage |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Production** | `latest-release` | Commercial Demos / Live |
 | **East of England** | `eoe-latest-release` | Region Specific |
 | **CUH** | `cuh-prod-1-latest-release` | Dedicated Customer |
@@ -46,15 +46,18 @@ Environments track specific "pointer tags" rather than raw version numbers. Prom
 Completed prior to any tagging.
 
 ### A. Scheduling & Stakeholders
+
 - [ ] **Timing:** Schedule outside customer working hours (unless confirmed idle).
 - [ ] **Conflict Check:** Verify no active customer demos (check `FITFILE` calendar and `@danielle.hawley`).
 - [ ] **Sync:** Ensure all nodes in a network are promoted in the same window (API compatibility).
 
 ### B. Readiness
+
 - [ ] **Validation:** All 'Ready for Test' tickets verified and moved to 'Ready for Release'.
 - [ ] **Staging Health:** Confirm `staging-argocd.fitfile.net` shows all apps synced/healthy.
 
 ### C. Communication
+
 - [ ] **Notify:** Post to Slack `#dev` channel: "Release starting."
 - [ ] **Alerts:** Check `#non-prod-alerts` for active incidents.
 
@@ -76,11 +79,13 @@ To promote a commit:
 Execute on Staging (`ff-test-a`) before production promotion.
 
 ### A. Resource Verification
+
 - [ ] **Login:** As `diya.kumar@fitfile.com`.
 - [ ] **Project:** "2401 Oncology Cohort Identification".
 - [ ] **Queries:** Run plans `int-test-8`, `int-test-26`, `int-test-6`. Verify counts and graphs.
 
 ### B. New Customer Workflow
+
 1. **Setup:**
     - [ ] Create new project & add external user.
     - [ ] Tenant Settings: `Small Number Suppression = 0`, `Data Disclosure = Disabled`.
@@ -98,6 +103,7 @@ Execute on Staging (`ff-test-a`) before production promotion.
     - [ ] **Merge/Concat:** Run operations between datasets 1 & 2 (Limit 0.1). Verify results.
 
 ### C. Teardown
+
 - [ ] Delete Query Plans.
 - [ ] Disconnect & Delete Datasource.
 - [ ] Delete Project.

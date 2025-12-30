@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T09:51:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-28T18:49:32+00:00
+modified: 2025-12-30T14:11:52+00:00
 purpose: "Explain how memory serves as a foundation for learning and intelligence."
 review_interval: "90"
 see_also: ["Foundations of Learning and Cognition for Developers.md", "The Neuroscience of Developer Cognition.md"]

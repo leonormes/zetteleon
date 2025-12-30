@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-15T00:00:00Z
 epistemic: "Derived from visual models and structural logic of proven organizational frameworks."
 last_reviewed: "2025-12-15"
-modified: 2025-12-28T18:49:18+00:00
+modified: 2025-12-30T14:11:35+00:00
 purpose: "To define a canonical framework for designing physical environments to support ADHD neurophysiology, reducing cognitive load and decision paralysis."
 review_interval: "6 months"
 see_also: ["[[Environmental and Physical Hacks for ADHD Focus]]", "[[Environmental Design for ADHD Focus]]", "[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Extended Mind]]"]

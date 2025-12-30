@@ -4,7 +4,7 @@ confidence: "1.0"
 created: 2025-11-22T15:00:10Z
 epistemic: "fact"
 last_reviewed: "2025-11-22"
-modified: 2025-12-28T18:49:33+00:00
+modified: 2025-12-30T14:11:53+00:00
 purpose: "Distinguishes between Layer 2 and Layer 3 packet forwarding devices."
 review_interval: "90"
 see_also: []

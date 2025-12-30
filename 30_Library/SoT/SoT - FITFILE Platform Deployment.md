@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T18:04:39Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T18:49:17+00:00
+modified: 2025-12-30T14:11:35+00:00
 purpose: "To provide the canonical architectural reference for the FITFILE Platform deployment, including GitOps flow, security model, and component architecture."
 review_interval: "6 months"
 see_also: ["[[MOC - FitFile Deployment]]", "[[SOT - CI-CD Pipelines]]", "[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - FitFile Deployment - Helm Configuration & Operations]]", "[[SoT - FitFile Deployment - Release Process]]"]

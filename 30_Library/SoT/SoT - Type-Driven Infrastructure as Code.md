@@ -1,10 +1,10 @@
 ---
 aliases: ["Type-Safe IaC", "Type-Driven Infrastructure", "Terraform Type Safety", "Data-Centric IaC"]
 confidence: "5/5"
-created: 2025-12-29
+created: 2025-12-29T10:49:08+00:00
 epistemic: "architecture"
 last_reviewed: "2025-12-29"
-modified: 2025-12-29
+modified: 2025-12-30T14:11:32+00:00
 purpose: "To define the architectural pattern of applying Type Theory and State Space reduction to Infrastructure as Code (Terraform), preventing 'Configuration Explosion'."
 review_interval: "6 months"
 see_also: ["[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]", "[[SoT - Rust's Design Philosophy]]"]

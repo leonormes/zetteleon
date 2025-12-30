@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-06T19:59:03Z
 epistemic: "insight"
 last_reviewed: "2025-11-06"
-modified: 2025-12-28T18:49:31+00:00
+modified: 2025-12-30T14:11:51+00:00
 purpose: "To explain the mental model of 'The Map is Not the Territory' and its use in promoting intellectual humility."
 review_interval: "90"
 see_also: []

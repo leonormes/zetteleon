@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-29T16:10:00Z
 epistemic: "strategy"
 last_reviewed: ""
-modified: 2025-12-28T18:49:31+00:00
+modified: 2025-12-30T14:11:50+00:00
 purpose: "To provide a method for establishing consistency in a daily routine."
 review_interval: ""
 see_also: []

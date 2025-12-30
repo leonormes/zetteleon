@@ -1,10 +1,10 @@
 ---
 aliases: ["Infrastructure Witness", "Witness Pattern", "Proof-Carrying Infrastructure", "Type Witness"]
 confidence: "5/5"
-created: 2025-12-30
+created: 2025-12-30T10:39:13+00:00
 epistemic: "architecture"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30
+modified: 2025-12-30T14:11:32+00:00
 purpose: "To define the Witness Pattern in infrastructure, enabling 'Proof-Carrying Code' that replaces implicit trust (strings) with explicit capabilities (types)."
 review_interval: "6 months"
 see_also: ["[[SoT - Type-Driven Infrastructure as Code]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[MOC - Type Theory]]", "[[SoT - Parse, Don't Validate]]"]
@@ -44,9 +44,9 @@ The Witness pattern enforces the **[[SoT - Parse, Don't Validate|Parse, Don't Va
 
 ### 3.1 The Mechanics of a Witness
 
-1.  **Unforgeable:** A Witness cannot be created manually by the user (e.g., via a private constructor). It is only returned by a trusted "Factory" (e.g., a Network Module).
-2.  **Context-Aware:** It often uses **Phantom Types** or Generics to carry metadata (e.g., `<Public>` vs `<Private>`) that disappears at runtime but enforces logic at compile-time.
-3.  **Required Consumer:** Downstream resources do not accept strings; they accept only the specific Witness type.
+1. **Unforgeable:** A Witness cannot be created manually by the user (e.g., via a private constructor). It is only returned by a trusted "Factory" (e.g., a Network Module).
+2. **Context-Aware:** It often uses **Phantom Types** or Generics to carry metadata (e.g., `<Public>` vs `<Private>`) that disappears at runtime but enforces logic at compile-time.
+3. **Required Consumer:** Downstream resources do not accept strings; they accept only the specific Witness type.
 
 > "A Witness is a capability token. Holding the token proves you have the right to use the resource."
 
@@ -151,7 +151,7 @@ If you try to construct this struct without providing the `dns_proof` (which you
 ## 6. Comparison: Implicit vs. Explicit Trust
 
 | Feature | Standard IaC (HCL/YAML) | Type-Driven (Witness Pattern) |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **Identity** | String (`"api.com"`) | `HostName` (NewType) |
 | **Binding** | Resource (loose pointer) | `VerifiedRecord<Scope>` (Proof) |
 | **Reachability** | Boolean flag / Tag | `IpAddress<Public>` vs `IpAddress<Private>` |
@@ -164,4 +164,5 @@ If you try to construct this struct without providing the `dns_proof` (which you
 
 - **CDKTF (TypeScript):** Use `private` constructors and class nominal typing (`private _scope: Scope`) to simulate Phantom Types.
 - **Linear Types:** In the future, we can use Affine Types (Rust's Move semantics) to ensure a specific IP port is bound *exactly once*, preventing port collisions at compile time.
+
 ```

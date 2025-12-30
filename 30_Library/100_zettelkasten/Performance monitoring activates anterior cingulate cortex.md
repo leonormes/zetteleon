@@ -4,7 +4,7 @@ confidence: "0.90"
 created: 2025-10-31T00:06:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2025-12-28T18:49:32+00:00
+modified: 2025-12-30T14:11:51+00:00
 purpose: "Identifies brain regions responsible for performance monitoring during task execution"
 review_interval: "90"
 see_also: ["[[Error-related negativity is significantly reduced in ADHD across age groups]]", "[[Task execution consists of five distinct cognitive phases]]"]

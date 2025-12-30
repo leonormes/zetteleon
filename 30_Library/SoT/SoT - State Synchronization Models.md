@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-25T12:05:00Z
 epistemic: "theoretical"
 last_reviewed: "2025-12-25"
-modified: 2025-12-28T18:49:16+00:00
+modified: 2025-12-30T14:11:33+00:00
 purpose: "To define and contrast the two primary models of state synchronization in distributed infrastructure: Cryptographic Integrity (Merkle) vs. Functional Intent (Reconciliation)."
 review_interval: "2 years"
 see_also: ["[[SoT - Git Architecture]]", "[[SoT - HashiCorp Vault Architecture]]", "[[SoT - Kubernetes Architecture]]"]

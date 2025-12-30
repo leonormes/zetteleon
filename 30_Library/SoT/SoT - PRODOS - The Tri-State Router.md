@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-06T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-07"
-modified: 2025-12-28T18:49:16+00:00
+modified: 2025-12-30T14:11:34+00:00
 purpose: "To define the routing logic that classifies both Inputs (Ingress) and Outputs (Egress) into Kinetic (Action), Static (Storage), or Dynamic (Thinking) states."
 review_interval: "6 months"
 see_also: ["[[SoT - PRODOS - Problem-Solution Map]]", "[[SoT - PRODOS (System Architecture)]]"]

@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-26T17:16:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2025-12-28T18:49:28+00:00
+modified: 2025-12-30T14:11:46+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -25,6 +25,7 @@ A comprehensive map of the software layers that bridge raw Linux kernel primitiv
 ## Context / Problem
 
 While containers are built on Linux primitives (Namespaces, Cgroups), using these raw APIs manually is impractical for production.
+
 - **The Gap:** Kernel primitives do not handle image distribution, persistent storage, or cross-node networking.
 - **The Solution:** **Container Runtimes** abstract this complexity. They handle the "boring" work of setting up the environment so developers can focus on applications.
 - **The Layering:** The ecosystem is split into **High-Level Runtimes** (containerd, CRI-O) which manage the lifecycle and images, and **Low-Level Runtimes** (runc, crun) which actually interact with the kernel to spawn processes. Understanding this distinction is vital for debugging and security.
@@ -72,6 +73,7 @@ graph TD
 The runtime ecosystem is stratified to separate concerns (Image/Lifecycle vs. Kernel Execution).
 
 ### High-Level Runtimes (CRI Implementations)
+
 *Examples: containerd, CRI-O*
 - **Image Management:** Pulling images from registries, verifying signatures, and managing overlay filesystems (unpacking layers).
 - **CRI Implementation:** Exposing the gRPC API that the Kubelet calls.
@@ -79,6 +81,7 @@ The runtime ecosystem is stratified to separate concerns (Image/Lifecycle vs. Ke
 - **CNI Coordination:** Invoking network plugins to set up the Pod sandbox.
 
 ### Low-Level Runtimes (OCI Runtimes)
+
 *Examples: runc, crun, Kata Containers, gVisor*
 - **Kernel Interaction:** Making the actual `clone()`, `unshare()`, and `cgroup` syscalls.
 - **Isolation Enforcement:** Applying Seccomp profiles, AppArmor profiles, and dropping capabilities.
@@ -87,14 +90,17 @@ The runtime ecosystem is stratified to separate concerns (Image/Lifecycle vs. Ke
 ### Kubernetes Components
 
 #### Kubelet
+
 - **Node Agent:** The primary "captain" of the node.
 - **Pod Loop:** Ensures the running containers match the desired PodSpec.
 - **CRI Client:** Calls the High-Level Runtime to execute actions.
 
 #### CNI Plugins
+
 - **Network Plumbing:** Creating veth pairs, assigning IPs (IPAM), and configuring bridges.
 
 #### Kube-proxy
+
 - **Service Abstraction:** Managing iptables/IPVS rules to route Virtual Cluster IPs to Pod IPs.
 
 ## Integration Points

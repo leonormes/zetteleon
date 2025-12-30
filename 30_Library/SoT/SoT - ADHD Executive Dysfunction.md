@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-06T09:29:49Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2025-12-28T18:49:18+00:00
+modified: 2025-12-30T14:11:35+00:00
 purpose: "To define the neurological and functional reality of ADHD within the ProdOS context, moving from a deficit model to a management model."
 review_interval: "6 months"
 see_also: ["[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[SoT - The Four Laws of Behavior Change]]", "[[SoT - The Nature of Time and Perception]]", "[[SoT - The Shame-Procrastination Cycle]]"]

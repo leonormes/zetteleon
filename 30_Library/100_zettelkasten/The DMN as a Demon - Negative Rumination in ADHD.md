@@ -4,14 +4,14 @@ confidence: "null"
 created: 2025-10-24T15:18:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2025-12-28T18:49:31+00:00
+modified: 2025-12-30T14:11:50+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
 tags: ["DMN", "emotional-dysregulation", "mental-health", "negative-thoughts", "RSD", "rumination", "topic/health/adhd"]
-title: 'The DMN as a "Demon" - Negative Rumination in ADHD'
+title: The DMN as a Demon - Negative Rumination in ADHD
 type: "permanent"
 uid: 
 updated: 

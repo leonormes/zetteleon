@@ -6,7 +6,7 @@ criteria: "Atomic notes must relate to the psychological drivers of the ADHD pro
 epistemic: ""
 exclusions: "General productivity advice not tailored to ADHD neurobiology."
 last_reviewed: ""
-modified: 2025-12-28T18:49:33+00:00
+modified: 2025-12-30T14:11:52+00:00
 purpose: ""
 review_interval: ""
 scope: "A framework for understanding and breaking the overthinking-procrastination cycle in ADHD using feedback-driven momentum."

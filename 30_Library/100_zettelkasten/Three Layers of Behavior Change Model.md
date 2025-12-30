@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-28T18:49:31+00:00
+modified: 2025-12-30T14:11:50+00:00
 purpose: "Define the three-layer model of behavior change from outcomes to identity."
 review_interval: "90"
 see_also: ["[[Identity as North Star of Habit Change]]", "[[Outcomes vs Process vs Identity in Habit Formation]]", "[[True Behavior Change is Identity Change]]"]

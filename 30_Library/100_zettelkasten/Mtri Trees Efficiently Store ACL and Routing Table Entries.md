@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-31T10:18:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-28T18:49:32+00:00
+modified: 2025-12-30T14:11:52+00:00
 purpose: "Explain mtri tree data structure for network filtering."
 review_interval: "90"
 see_also: ["Access Control Lists Filter Traffic Based on Protocol and Address Rules.md", "Routing Tables Use Longest Prefix Match for Forwarding Decisions.md"]

@@ -6,7 +6,7 @@ criteria: "Includes concepts about pre-linguistic thought, limitations of langua
 epistemic: ""
 exclusions: "Specific linguistic theories, detailed neuroscience of language processing"
 last_reviewed: ""
-modified: 2025-12-28T18:49:32+00:00
+modified: 2025-12-30T14:11:52+00:00
 purpose: ""
 review_interval: ""
 scope: "Philosophical exploration of the relationship between thought, language, and communication"

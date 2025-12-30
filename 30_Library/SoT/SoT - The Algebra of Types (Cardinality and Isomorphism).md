@@ -1,10 +1,11 @@
 ---
+aliases: []
 alias: ["Type Algebra", "Cardinality of Types", "Isomorphic Refactoring", "Type Arithmetic"]
 confidence: "5/5"
-created: 2025-12-30
+created: 2025-12-18T21:23:11+00:00
 epistemic: "theory"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30
+modified: 2025-12-30T14:11:33+00:00
 purpose: "To define the rigorous mathematical rules for counting type states (Cardinality) and transforming structures without losing information (Isomorphism)."
 review_interval: "6 months"
 see_also: ["[[SoT - Algebraic Data Types (ADTs)]]", "[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]", "[[SoT - Rust's Design Philosophy]]"]
@@ -33,7 +34,7 @@ Just as we perform arithmetic on numbers, we can perform arithmetic on Types bas
 ### 1.2 Algebraic Operations
 
 | Operation | Logical Equivalent | Type Construct | Formula |
-| :--- | :--- | :--- | :--- |
+|:--- |:--- |:--- |:--- |
 | **Sum (+)** | OR (Disjunction) | Enum / Union | $|A + B| = |A| + |B|$ |
 | **Product ($	imes$)** | AND (Conjunction) | Struct / Tuple | $|A 	imes B| = |A| 	imes |B|$ |
 | **Exponential ($^$)** | Implication ($	o$) | Function | $|A 	o B| = |B|^{|A|}$ |
@@ -48,7 +49,9 @@ Just as we perform arithmetic on numbers, we can perform arithmetic on Types bas
 Formally, two types $A$ and $B$ are **Isomorphic** ($A \cong B$) if there exist two total functions that allow lossless conversion back and forth:
 
 $$f: A \to B$$
+
 $$g: B \to A$$
+
 $$g(f(a)) = a \quad \text{and} \quad f(g(b)) = b$$
 
 In Rust, this is codified by the `From` and `Into` traits. If you can implement `From<A> for B` and `From<B> for A` without losing data, they are isomorphic.
@@ -67,6 +70,7 @@ In Rust, this is codified by the `From` and `Into` traits. If you can implement 
 These algebraic identities prove that certain refactorings are mathematically safe.
 
 ### 3.1 The Boolean Isomorphism ($2 \cong 1 + 1$)
+
 The primitive `bool` is isomorphic to any Enum with two Unit variants.
 
 ```rust
@@ -78,6 +82,7 @@ enum Bit { Zero, One }
 ```
 
 ### 3.2 The Distributive Law ($A \times (B + C) \cong A \times B + A \times C$)
+
 This validates the equivalence between "Normalized" and "Denormalized" data structures.
 
 - **LHS (Normalized):** `(A, Choice<B, C>)` - We store `A` once, alongside the choice.
@@ -86,13 +91,17 @@ This validates the equivalence between "Normalized" and "Denormalized" data stru
 **Insight:** You can push shared state *into* variants or pull it *out* without changing the information content.
 
 ### 3.3 Currying (Exponential Laws) ($C^{A \times B} \cong (C^B)^A$)
+
 A function taking a tuple is isomorphic to a function returning a function.
+
 - `Fn(A, B) -> C` $\cong$ `Fn(A) -> Fn(B) -> C`
 
 **Architecture Hint:** Dependency Injection is **Partial Application** (Currying). You apply the configuration (`A`) at startup, returning a handler that awaits the request (`B`) to produce the response (`C`).
 
 ### 3.4 Struct/Tuple Isomorphism
+
 Named structs are isomorphic to anonymous tuples.
+
 - `struct User { name: String, age: u8 }` $\cong$ `(String, u8)`
 
 Use Tuples for local, ephemeral data transfer; use Structs for long-lived domain modeling.

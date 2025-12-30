@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-06T19:57:01Z
 epistemic: "fact"
 last_reviewed: "2025-11-06"
-modified: 2025-12-28T18:49:34+00:00
+modified: 2025-12-30T14:11:54+00:00
 purpose: "To explain why achieving a goal is only a temporary fix if the underlying system is not changed."
 review_interval: "90"
 see_also: []

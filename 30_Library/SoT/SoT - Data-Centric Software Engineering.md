@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-22T00:00:00Z
 epistemic: architecture
 last_reviewed: 2025-12-22
-modified: 2025-12-28T18:49:17+00:00
+modified: 2025-12-30T14:11:35+00:00
 purpose: ">-"
 review_interval: 6 months
 see_also: []

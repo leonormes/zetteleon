@@ -5,7 +5,7 @@ created: 2025-07-07T07:10:22Z
 epistemic: ""
 id: "Destructuring fixed mindset"
 last_reviewed: ""
-modified: 2025-12-28T18:49:21+00:00
+modified: 2025-12-30T14:11:40+00:00
 purpose: ""
 review_interval: ""
 see_also: []

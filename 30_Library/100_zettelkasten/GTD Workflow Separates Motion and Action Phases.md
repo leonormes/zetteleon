@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T20:22:24Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-28T18:49:33+00:00
+modified: 2025-12-30T14:11:53+00:00
 purpose: "Explain how the GTD methodology distinguishes between motion (planning) and action (doing) phases."
 review_interval: "90"
 see_also: ["[[Action Defined as Behavior That Produces Tangible Outcomes]]", "[[Motion Defined as Preparatory Activity Without Direct Outcomes]]", "[[Next Action is the Immediate Physical Step Forward]]"]

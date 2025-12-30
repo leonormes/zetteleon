@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-08T00:17:39Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-28T18:49:21+00:00
+modified: 2025-12-30T14:11:40+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -94,30 +94,30 @@ Moving from theory to action is the key to cementing these neural pathways. Try 
 
 ### **1. The "Power of Yet" Game (Linguistic Reframe)**
 
-*   **Concept:** A simple linguistic shift that transforms a statement of permanent inability into a temporary state of learning.
-*   **The Rule:** Whenever anyone in the house says "I can't do this" or "I'm not good at this," someone else must gently add "...yet."
-*   **Example:**
-    *   *Bessie:* "I can't do this algebra equation!"
-    *   *You:* "You can't do it *yet*."
-    *   *You:* "I'm useless at this new software."
-    *   *Bessie:* "You're useless at it *yet*, Dad."
+* **Concept:** A simple linguistic shift that transforms a statement of permanent inability into a temporary state of learning.
+* **The Rule:** Whenever anyone in the house says "I can't do this" or "I'm not good at this," someone else must gently add "...yet."
+* **Example:**
+    * *Bessie:* "I can't do this algebra equation!"
+    * *You:* "You can't do it *yet*."
+    * *You:* "I'm useless at this new software."
+    * *Bessie:* "You're useless at it *yet*, Dad."
 
 ### **2. The "Failure Autopsy" (Scientific Detachment)**
 
-*   **Concept:** Removing the shame from failure by treating it as data.
-*   **Activity:** When a mistake happens (a bad test result, a burnt dinner), sit down with a notebook and do a "clinical review" without emotion.
-*   **The Questions:**
-    1.  **The Hypothesis:** What did I think would happen?
-    2.  **The Data:** What actually happened?
-    3.  **The Variable:** What one thing could I change next time to get a different result?
-*   **Goal:** This trains the brain to switch from "I am a failure" (Identity) to "My strategy failed" (Process).
+* **Concept:** Removing the shame from failure by treating it as data.
+* **Activity:** When a mistake happens (a bad test result, a burnt dinner), sit down with a notebook and do a "clinical review" without emotion.
+* **The Questions:**
+    1. **The Hypothesis:** What did I think would happen?
+    2. **The Data:** What actually happened?
+    3. **The Variable:** What one thing could I change next time to get a different result?
+* **Goal:** This trains the brain to switch from "I am a failure" (Identity) to "My strategy failed" (Process).
 
 ### **3. The 30-Day "Beginner" Challenge (Shared Vulnerability)**
 
-*   **Concept:** Normalising the clumsy, awkward phase of learning.
-*   **Activity:** You both pick a skill you are objectively bad at (e.g., You: Drawing; Her: Juggling).
-*   **The Commitment:** Practice for 10 minutes every day for 30 days.
-*   **The Check-in:** Once a week, show each other your (likely terrible) progress. Laugh at the failures and celebrate the tiny improvements.
-*   **Goal:** To prove that *talent* is often just *consistent practice* in disguise.
+* **Concept:** Normalising the clumsy, awkward phase of learning.
+* **Activity:** You both pick a skill you are objectively bad at (e.g., You: Drawing; Her: Juggling).
+* **The Commitment:** Practice for 10 minutes every day for 30 days.
+* **The Check-in:** Once a week, show each other your (likely terrible) progress. Laugh at the failures and celebrate the tiny improvements.
+* **Goal:** To prove that *talent* is often just *consistent practice* in disguise.
 
 This is a slow, messy, and imperfect journey. There will be days when "The Judge" wins. There will be days you fall back into comparison. That's okay. The goal isn't to achieve a perfect growth mindset–that would be perfectionism\! The goal is simply to notice, to be a little kinder to yourself, and to gently guide yourself and your daughter back to the path of self-compassion and personal growth, one day at a time. Your self-awareness is your superpower.

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2025-12-28T18:49:33+00:00
+modified: 2025-12-30T14:11:53+00:00
 purpose: "To disambiguate the lowest layers of the OSI and TCP/IP models."
 review_interval: "1 year"
 see_also: ["[[SoT - Protocol Data Units (PDU)]]"]
