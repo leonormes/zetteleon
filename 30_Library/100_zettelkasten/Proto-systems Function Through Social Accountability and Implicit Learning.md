@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T13:06:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-30T14:11:51+00:00
+modified: 2025-12-30T17:49:48+00:00
 purpose: "To describe the functional mechanisms of proto-systems."
 review_interval: "90"
 see_also: ["[[Proto-systems Are Informal Collective Routines That Organize Work]]"]

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T11:22:13Z
 epistemic: "fact"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2025-12-30T14:11:53+00:00
+modified: 2025-12-30T17:49:53+00:00
 purpose: "Explain the role of deductive reasoning in establishing mathematical truth."
 review_interval: "90"
 see_also: ["[[Logic Is the Grammar of Rigorous Argument]]", "[[The Process of Mathematical Discovery is Driven by Pattern Recognition]]"]

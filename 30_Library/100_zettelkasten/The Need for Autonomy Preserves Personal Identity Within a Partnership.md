@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-10T10:10:00Z
 epistemic: "hypothesis"
 last_reviewed: ""
-modified: 2025-12-30T14:11:51+00:00
+modified: 2025-12-30T17:49:46+00:00
 purpose: "To identify the need for autonomy as a core human need in relationships."
 review_interval: "90"
 see_also: []

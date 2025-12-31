@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-04T01:32:27Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-30T14:11:47+00:00
+modified: 2025-12-30T17:49:22+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -40,6 +40,10 @@ Security (highlighted in orange) serves as a critical foundation that:
 - **Underpins** infrastructure, data management, and software configuration management
 - Is **maintained** by the platform
 
+**Expanded Capabilities:**
+- **Threat Intelligence & Vulnerability Management:** Incorporate external threat feeds and track internal vulnerabilities to proactively harden the platform.
+- **Vendor Security Management:** Evaluate and monitor third-party integrations and dependencies.
+
 **Best Practices:**
 
 - Implement [defense in depth](https://csrc.nist.gov/publications/detail/white-paper/2018/10/16/strategy-for-information-security) strategies with multiple security layers
@@ -55,9 +59,12 @@ Infrastructure (outlined in green) represents the foundational hardware, softwar
 - **Maintains** observability capabilities
 - Is **underpinned** by security measures
 
+**Expanded Capabilities:**
+- **Container & Orchestration Security:** Specific hardening for Docker/Kubernetes (See: [[SoT - Container Security & Hardening]] and [[SoT - Kubernetes Cluster State Architecture]]).
+
 **Best Practices:**
 
-- Implement [Infrastructure as Code (IaC)](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html) for consistent provisioning
+- Implement [Infrastructure as Code (IaC)](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html) for consistent provisioning (See: [[SoT - Generative Infrastructure Configuration Framework]])
 - Adopt [immutable infrastructure](https://www.hashicorp.com/resources/what-is-mutable-vs-immutable-infrastructure) patterns
 - Use [cloud security best practices](https://cloud.google.com/docs/security/best-practices) for your environment
 - Implement proper [network segmentation](https://www.cisa.gov/topics/cybersecurity-best-practices/network-segmentation) to limit the blast radius of breaches
@@ -70,6 +77,9 @@ Observability provides insight into system behaviour and:
 
 - Is **maintained** by infrastructure
 - Leads to effective monitoring capabilities
+
+**Expanded Capabilities:**
+- **SRE Practices:** Adopt Site Reliability Engineering concepts like SLOs and Error Budgets (See: [[SoT - Software Estimation and Management]]).
 
 **Best Practices:**
 
@@ -110,6 +120,9 @@ Incident management responds to and resolves system issues:
 
 - Follows from alerting processes
 
+**Expanded Capabilities:**
+- **Incident Response Team Structure:** Define clear roles (Commander, Scribe, Ops) beyond just the process.
+
 **Best Practices:**
 
 - Establish [incident response plans](https://www.nist.gov/cyberframework) for different scenarios
@@ -125,6 +138,9 @@ Networking provides communication between systems and:
 - Is **maintained** by the platform and infrastructure
 - Is **required for** data management
 - Is **necessary for** auditing
+
+**Expanded Capabilities:**
+- **API Security & Management:** Secure, version, and govern APIs (Gateways, Rate Limiting, Auth). See [[SoT - Cloud Networking Core Components]].
 
 **Best Practices:**
 
@@ -142,12 +158,26 @@ Data management handles data storage and processing:
 - Is **part of** software configuration management
 - Is **necessary for** data operations
 
+**Expanded Capabilities:**
+- **Backup & Recovery:** Validation of data protection and recovery time objectives (RTO/RPO).
+
 **Best Practices:**
 
 - Implement [data classification](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf) schemes
 - Use [data encryption](https://www.nist.gov/identity-access-management/nist-special-publication-800-175b) at rest and in transit
 - Establish [data retention policies](https://www.nist.gov/privacy-framework/nist-sp-800-53)
 - Implement [database security controls](https://www.cisecurity.org/cis-benchmarks)
+
+### Secrets Management (New)
+
+Secure storage and access of credentials, ensuring no hardcoded secrets exist in code.
+
+- **See Also:** [[SoT - Kubernetes Secrets Management]], [[SoT - HashiCorp Vault Architecture]].
+
+**Best Practices:**
+- Centralized secret storage (Vault, AWS Secrets Manager).
+- Automated rotation of credentials.
+- Injection at runtime, never build time.
 
 ### Access
 
@@ -201,16 +231,30 @@ Software configuration management controls software versions and configurations:
 
 **Best Practices:**
 
-- Implement [version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) for all code and configurations
+- Implement [version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) for all code and configurations (See: [[SoT - Software Configuration Management Patterns]])
 - Use [continuous integration](https://martinfowler.com/articles/continuousIntegration.html) practices
 - Establish [configuration as code](https://www.terraform.io/docs/cloud/guides/recommended-practices/part1.html) practices
 - Conduct [security scanning](https://owasp.org/www-community/Source_Code_Analysis_Tools) in the CI/CD pipeline
+
+### CI/CD Pipeline (New)
+
+The automated transport mechanism for code from commit to production.
+
+- **See Also:** [[SOT - CI-CD Pipelines]]
+
+**Best Practices:**
+- **Shift-Left Security:** Integrate SAST/DAST and dependency scanning early.
+- **Signed Commits/Artifacts:** Ensure supply chain integrity.
+- **Environment Parity:** Keep dev/staging/prod as similar as possible.
 
 ### Developer Experience
 
 Developer experience encompasses tools and processes that developers use:
 
 - Is **influenced** by software configuration management and development
+
+**Expanded Capabilities:**
+- **Human Factors:** Include Security Awareness Training and a "Security Champions" program to embed security knowledge in teams.
 
 **Best Practices:**
 
@@ -226,6 +270,9 @@ Development (in green) encompasses the software development process:
 - **Influences** developer experience
 - Is **necessary for** configuration
 - **Requires** production considerations
+
+**Expanded Capabilities:**
+- **Automated Testing:** Integrate security testing frameworks (SAST, DAST, IAST) and vulnerability scanning.
 
 **Best Practices:**
 
@@ -254,12 +301,32 @@ Production (highlighted in yellow) represents live environments:
 
 - **Requires** configuration management
 
+**Expanded Capabilities:**
+- **Business Continuity Planning:** Ensuring critical functions survive disruptions.
+- **Change Management:** Formal processes for managing changes to production.
+
 **Best Practices:**
 
 - Implement [environment separation](https://cloud.google.com/architecture/landing-zones) (dev/test/prod)
 - Use [blue/green deployments](https://martinfowler.com/bliki/BlueGreenDeployment.html) for safer releases
 - Establish [production change management](https://www.itgovernance.co.uk/blog/it-governance-what-is-change-management) procedures
 - Conduct regular [disaster recovery tests](https://www.ready.gov/business/implementation/IT)
+
+## Governance, Risk, and Compliance (GRC)
+
+*New section synthesizing governance requirements.*
+
+### Compliance & Risk
+
+- **Compliance Framework:** Map controls to regulatory requirements (GDPR, HIPAA, PCI-DSS).
+- **Risk Management:** Systematic identification and mitigation of security risks.
+
+### Human Factors
+
+*New section synthesizing human elements.*
+
+- **Security Awareness:** Regular training for all staff.
+- **Security Champions:** Embedded experts within development teams.
 
 ## Auditing
 
@@ -280,33 +347,3 @@ Auditing verifies compliance with policies and standards:
 This secure platform architecture provides a comprehensive framework for building and maintaining secure systems. By understanding the relationships between these components and implementing the associated best practices, organizations can create a robust security posture that protects their applications, data, and infrastructure.
 
 The architecture emphasizes that security is not a standalone component but rather a foundational element that underpins all aspects of the platform. By maintaining these relationships and constantly improving security measures, organizations can adapt to evolving threats while supporting business objectives.
-
-## Missing Technical Components
-
-1. **CI/CD Pipeline** - While implied in development, a dedicated component showing how code moves securely from development to production would strengthen your model
-2. **Secrets Management** - How credentials, API keys, certificates, and sensitive configuration are securely stored, rotated, and accessed
-3. **Container & Orchestration Security** - If using containerization (Docker, Kubernetes), specific security considerations for images, runtime, and orchestration
-4. **API Security & Management** - How APIs are secured, versioned, monitored, and governed
-5. **Automated Testing** - Security testing frameworks (SAST, DAST, IAST), vulnerability scanning, and penetration testing processes
-6. **Backup & Recovery** - Processes for data protection, backup validation, and recovery procedures
-
-## Missing Governance Components
-
-7. **Compliance Framework** - Regulatory requirements (GDPR, HIPAA, PCI-DSS, etc.) and how they map to technical controls
-8. **Risk Management** - Systematic processes for identifying, assessing, and mitigating security risks
-9. **Change Management** - Formal processes for managing changes to production environments
-10. **Vendor Security Management** - How third-party components and services are evaluated and monitored
-
-## Missing Operational Components
-
-11. **Threat Intelligence & Vulnerability Management** - How external threat information is incorporated and vulnerabilities are tracked
-12. **Business Continuity Planning** - Broader than disaster recovery, addressing how critical functions continue during disruptions
-13. **SRE Practices** - Site Reliability Engineering concepts like SLOs, error budgets, and reliability engineering
-
-## Missing Human Components
-
-14. **Security Awareness & Training** - Educational components for developers and other stakeholders
-15. **Incident Response Team Structure** - Beyond the process, the team organization and responsibilities
-16. **Security Champions Program** - How security knowledge is embedded within development teams
-
-The diagram effectively shows relationships between components, but these additions would provide a more holistic view of what's needed for a secure platform. Depending on your specific organizational needs, some of these might be more critical than others.

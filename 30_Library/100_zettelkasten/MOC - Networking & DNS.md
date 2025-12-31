@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:10:31Z
 epistemic: "reference"
 last_reviewed: "2025-12-23"
-modified: 2025-12-30T14:11:52+00:00
+modified: 2025-12-30T17:49:50+00:00
 purpose: "The central entry point for navigating networking, naming, and routing architectures."
 review_interval: "6 months"
 see_also: ["[[MOC - ProdOS]]"]

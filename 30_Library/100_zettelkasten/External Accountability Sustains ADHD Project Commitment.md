@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-30T15:00:39Z
 epistemic: "principle"
 last_reviewed: "2025-10-30"
-modified: 2025-12-30T14:11:53+00:00
+modified: 2025-12-30T17:49:52+00:00
 purpose: "To leverage social motivation for project completion"
 review_interval: "90"
 see_also: []

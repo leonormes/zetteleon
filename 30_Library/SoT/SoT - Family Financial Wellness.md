@@ -1,78 +1,91 @@
 ---
-aliases: ["Family Budgeting System", "Financial Peace Protocol", "UK Household Allocation"]
+aliases: ["Family Budgeting System", "Financial Peace Protocol", "UK Household Allocation", "The YNAB Method", "Zero-Based Budgeting"]
 confidence: "5/5"
 created: 2025-12-14T18:44:03Z
-epistemic: "strategy"
-last_reviewed: "2025-12-23"
-modified: 2025-12-30T14:11:35+00:00
-purpose: "The applied framework for UK household financial management, focusing on allocation, stability, and the 'Month Ahead' buffer."
+epistemic: "authoritative"
+last_reviewed: "2025-12-30"
+modified: 2025-12-30T17:49:07+00:00
+purpose: "The definitive operational framework for UK household financial management using Zero-Based Budgeting (YNAB) logic."
 review_interval: "6 months"
-see_also: ["[[SoT - The Psychology of Spendfulness]]", "[[SoT - The YNAB Method]]"]
+see_also: ["[[SoT - Financial Philosophy and Spendfulness]]"]
 source_of_truth: []
 status: "stable"
-tags: ["budget", "family", "finance", "wealth", "ynab"]
+tags: ["budget", "family", "finance", "wealth", "ynab", "prodos"]
 title: SoT - Family Financial Wellness
 type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Definitive Statement: "The Applied Strategy"
+# SoT - Family Financial Wellness
 
-For a UK household of five, financial wellness is defined by **Resilience**—ensuring that irregular expenses (medical, car, holidays) are normalized into monthly contributions, and that the "Month Ahead" buffer eliminates paycheck-to-paycheck anxiety.
+## 1. Definitive Statement
+
+> [!definition] Financial Wellness
+> For a UK household of five, financial wellness is the state of **Resilience** achieved by eliminating "Mental Math" and "Income Forecasting" in favor of **Zero-Based Allocation**. We assign every pound a job based only on cash currently held.
 
 ---
 
-## 2. The Household Allocation Plan (76/24 Split)
+## 2. The Core Logic: YNAB Methodology
 
-To maintain system trust, fund non-negotiables first, then distribute the remainder across flexible categories.
+We follow the four rules of Zero-Based Budgeting (ZBB):
+
+1. **Rule One: Give Every Pound a Job.** Allocation must continue until the "Ready to Assign" balance is zero.
+2. **Rule Two: Embrace Your True Expenses.** Treat large, irregular bills (Insurance, Car Repairs, Holidays) as monthly installments (e.g., £600/12 = £50/month).
+3. **Rule Three: Roll With the Punches.** Moving money between categories is **successful engagement**, not failure. It makes the "True Cost" of overspending visible.
+4. **Rule Four: Age Your Money.** Aim to spend money earned at least 30 days ago. This breaks the paycheck-to-paycheck cycle.
+
+---
+
+## 3. The UK Household Allocation (76/24 Split)
+
+Target distribution to maintain system trust and stability.
 
 ### A. Non-Negotiables (76% of Income)
 
 | Category Group | Target % | Items |
 |:--- |:--- |:--- |
-| **Immediate Obligations** | **50%** | Mortgage (£1,470), Car (£400), Utilities, Council Tax, Credit Minimums. |
-| **Essential Variable** | **26%** | Groceries (11%), Medical (3.5%), Petrol (3.5%), Transport, Tax Sinking Fund. |
+| **Immediate Obligations** | **50%** | Mortgage (£1,470), Car (£400), Utilities, Council Tax. |
+| **Essential Variable** | **26%** | Groceries (11%), Medical (3.5%), Petrol (3.5%), Tax Sinking Fund. |
 
 ### B. Flexible / Discretionary (24% of Income)
 
 | Category Group | Items |
 |:--- |:--- |
-| **Quality of Life** | School (tutoring/clothes), Netball, Cheerleading, Holiday Fund. |
-| **Just for Fun** | Dining Out (3.8%), Coffee (1.2%), Days Out, Personal Pocket Money. |
+| **Quality of Life** | Schooling, Netball, Cheerleading, Holiday Fund. |
+| **Just for Fun** | Dining Out (3.8%), Coffee (1.2%), Personal Pocket Money. |
 | **Resilience** | Buffer/True Savings, Extra Debt Payoff. |
 
 ---
 
-## 3. The Payday Protocol
+## 4. Operational Protocols
 
-1. **Reality Check:** Money received on the 31st must fund all obligations due between the 1st and 12th of the following month.
-2. **Zero Negative Balances:** Before assigning new funds, you **must** cover any "red" categories from the previous month. This is the "Whack-a-Mole" (WAM) step.
-3. **Stability over Acceleration:** Prioritize building the "True Expense" funds (especially recurring Medical costs) over aggressive debt payoff. Stability prevents the slide back into credit.
+### I. The Payday Protocol
 
----
+1. **Reality Check:** money received on the 31st must fund all obligations due between the 1st and 12th of the following month.
+2. **Zero Negative Balances:** Cover all "red" categories from the previous month first (**Whack-a-Mole / WAM**).
+3. **Stability over Acceleration:** Prioritize "True Expense" funding (Medical/Car) over aggressive debt payoff to prevent sliding back into credit.
 
-## 4. Resilience: The "Month Ahead" Metric
-
-- **Goal:** Reach an **Age of Money (AoM)** of 30-50 days.
-- **Action:** Any surplus after funding Reality and Stability must go toward the *following* month's bills. Start small: fund next month's Phones or Energy bill first.
-- **Result:** You shift from having a stack of bills waiting for money to a **stack of money waiting for bills**.
-
----
-
-## 5. Relational Architecture: The One-Pot Model
-
-*Source: [[99_Archive/A Fair Financial System Uses a Shared Pot and Equal Personal Spending Money|Fair Financial Systems Protocol]]*
-
-To maximize teamwork while protecting individual autonomy, the household operates on a **One-Pot** relational model.
+### II. Relational Architecture: The One-Pot Model
 
 1. **Shared Foundation:** All primary income flows into a single joint "Pot" (the Budget).
-2. **Shared Goals:** The joint pot funds all "Non-Negotiable" and "Quality of Life" categories (Mortgage, Groceries, Holidays).
-3. **Equal Autonomy:** From the joint pot, each partner receives a **fixed, identical amount** transferred to their personal account monthly (e.g., Personal Pocket Money).
-    - **The Rule:** This money is 100% autonomous. It can be spent or saved with "no questions asked," eliminating the need for one partner to police the other’s discretionary spending.
+2. **Equal Autonomy:** Each partner receives a **fixed, identical amount** transferred to their personal account monthly.
+3. **The Rule:** Personal money is 100% autonomous—"no questions asked." This eliminates the need for partners to police each other's discretionary spending.
 
 ---
 
-## 6. Summary
+## 5. ADHD Integration (Cognitive Scaffolding)
 
-This is a **Flow-Oriented** system. We do not forecast future income; we assign the cash currently held. Alignment between spending and values is achieved through the daily practice of **Rolling with the Punches**—moving money guilt-free when priorities shift.
+The budget acts as a **"Money Timer"** for the neurodivergent brain:
+
+* **Concreteness:** Replaces abstract forecasting with "Cash-on-Hand" reality.
+* **The ADHD Tax:** Explicitly budget for inevitable slips (late fees, forgotten lunches) to remove shame.
+* **Visual Awareness:** Use widgets/balances to keep category limits in sight without opening the app.
+
+---
+
+## 6. Minimum Viable Understanding (MVU)
+
+1. **Forecast Nothing:** Only assign money you physically have today.
+2. **Smooth the Spikes:** Large bills are monthly contributions, not surprises.
+3. **WAM Guilt-Free:** Moving money between buckets is how the system adapts to reality.

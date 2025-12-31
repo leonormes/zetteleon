@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T20:22:24Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-30T14:11:53+00:00
+modified: 2025-12-30T17:49:52+00:00
 purpose: "Explain how implementation intentions create actionable specificity from vague intentions."
 review_interval: "90"
 see_also: ["[[Action Defined as Behavior That Produces Tangible Outcomes]]", "[[Timeboxing Creates Structure for Action]]"]

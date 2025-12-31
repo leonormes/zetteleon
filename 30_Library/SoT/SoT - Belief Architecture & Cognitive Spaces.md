@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-16T00:00:00Z
 epistemic: "theory"
 last_reviewed: "2025-12-16"
-modified: 2025-12-30T14:11:35+00:00
+modified: 2025-12-30T17:49:08+00:00
 purpose: "To define beliefs not as static truths, but as functional architecture (walls and doors) that define the \\\\\\\"search space\\\\\\\" of possibility for the mind."
 review_interval: "1 year"
 see_also: ["[[SoT - ADHD Self-Compassion & Strengths]]", "[[SoT - Cognitive Ambiguity and Deep Thinking]]", "[[SoT - Cognitive Refactoring (Neural Debugging)]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - The Explorer Mindset (Overcoming Imposter Syndrome)]]"]

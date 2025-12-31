@@ -1,10 +1,10 @@
 ---
 aliases: ["Cryptographic Types", "PKI as Logic", "Trust as Transformation"]
 confidence: "5/5"
-created: 2025-12-30
+created: 2025-12-30T14:53:35+00:00
 epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30
+modified: 2025-12-30T17:49:03+00:00
 purpose: "To define Public Key Infrastructure (PKI) through the lens of Type Theory and Data-Oriented Design, treating certificates as proofs and verification as type conversion."
 review_interval: "6 months"
 see_also: ["[[SoT - Parse, Don't Validate]]", "[[SoT - The Infrastructure Witness Pattern]]", "[[SoT - Digital Identity]]"]
@@ -85,6 +85,7 @@ struct Certificate {
 We apply the **[[SoT - Parse, Don't Validate|Parse, Don't Validate]]** pattern to cryptographic operations.
 
 ### A. The Signing Transformation
+
 Constructs a new `Certificate` from a `Csr` (Identity + PublicKey) and a `PrivateKey` (Capability).
 
 ```rust
@@ -96,6 +97,7 @@ fn issue_certificate(csr: Csr, ca_key: &PrivateKey, ca_cert: &Certificate) -> Ce
 ```
 
 ### B. The Verification Transformation (The Proof)
+
 Transforms a raw `Certificate` into a `VerifiedCertificate`. This is the **Structure Discovery** phase of parsing.
 
 ```rust
@@ -130,6 +132,6 @@ Revocation is a check against a dynamic exclusion set, representing the **tempor
 
 ## 7. Minimum Viable Understanding (MVU)
 
-1.  **Trust is a Type:** You should not be able to use a certificate until it has been "parsed" into a `VerifiedCertificate` type.
-2.  **Context is King:** Verification cannot happen in a vacuum; it requires a `TrustStore` (Environment).
-3.  **Naming:** Use names that reflect the **guarantee** (`VerifiedCertificate`) or the **capability** (`SigningOracle`).
+1. **Trust is a Type:** You should not be able to use a certificate until it has been "parsed" into a `VerifiedCertificate` type.
+2. **Context is King:** Verification cannot happen in a vacuum; it requires a `TrustStore` (Environment).
+3. **Naming:** Use names that reflect the **guarantee** (`VerifiedCertificate`) or the **capability** (`SigningOracle`).

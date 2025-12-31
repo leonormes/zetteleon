@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-25T12:10:00Z
 epistemic: "index"
 last_reviewed: "2025-12-25"
-modified: 2025-12-30T14:11:36+00:00
+modified: 2025-12-31T12:34:52+00:00
 purpose: "A Map of Content (MOC) connecting infrastructure components through the lens of their underlying data structures and synchronization models."
 review_interval: "6 months"
 see_also: ["[[SoT - HashiCorp Vault Architecture]]", "[[SoT - Kubernetes Networking & DNS]]", "[[SoT - State Synchronization Models]]"]
@@ -28,24 +28,23 @@ Infrastructure tools are best understood not by their "Marketing Features" (Secr
 How systems agree on "Truth."
 
 - **[[SoT - State Synchronization Models]]** - The fundamental divergence:
-    - **Merkle Trees (Integrity):** Used by [[SoT - HashiCorp Vault Architecture|Vault]] and [[SoT - Git Architecture|Git]]. "Is it *exactly* the same?"
-    - **Reconciliation Loops (Intent):** Used by [[SoT - Kubernetes Architecture|Kubernetes]] and **ArgoCD**. "Is it *functionally* compliant?"
+    - **Merkle Trees (Integrity):** Used by [[SoT - HashiCorp Vault Architecture|Vault]] and [[SoT - The Data Architecture of Source Control (Git)|Git]]. "Is it *exactly* the same?"
+    - **Reconciliation Loops (Intent):** Used by [[SoT - Kubernetes Cluster State Architecture|Kubernetes]] and **ArgoCD**. "Is it *functionally* compliant?"
 
 ## 3. Data Structures by Tool
 
-| Tool | Core Data Structure | Addressing Model |
-|:--- |:--- |:--- |
-| **[[SoT - HashiCorp Vault Architecture|HashiCorp Vault]]** | **Versioned Prefix Trie** | Path-based (`secret/data/app`) |
-| **Kubernetes (etcd)** | **B+Tree / Event Log** | Namespace-based (`ns/name`) |
-| **Git** | **Merkle DAG** | Content-based (SHA-1 Hash) |
-| **DNS** | **Distributed Tree** | Hierarchical (`.com` -> `.google`) |
-| **Secure Transport** | **Encapsulated Tunnel** | Private IP (`10.0.x.x`) vs Public IP |
+| Tool                                                        | Core Data Structure       | Addressing Model                     |
+|:---------------------------------------------------------- |:------------------------ |:----------------------------------- |
+| **[[SoT - HashiCorp Vault Architecture]]**                  | **Versioned Prefix Trie** | Path-based (`secret/data/app`)       |
+| **[[SoT - Kubernetes Cluster State Architecture]]**         | **B+Tree / Event Log**    | Namespace-based (`ns/name`)          |
+| **[[SoT - The Data Architecture of Source Control (Git)]]** | **Merkle DAG**            | Content-based (SHA-1 Hash)           |
+| **[[SoT - The Data Architecture of DNS]]**                  | **Distributed Tree**      | Hierarchical (`.com` -> `.google`)   |
+| **[[SoT - Secure Cross-Cloud Data Transport]]**             | **Encapsulated Tunnel**   | Private IP (`10.0.x.x`) vs Public IP |
 
 ## 4. Architectural Patterns
 
 - **[[SoT - Container Security & Hardening]]** - Defense-in-depth for containerized workloads.
 - **[[SoT - Namespacing in Computing]]** - How distinct systems isolate data (OS, K8s, Languages).
-- **[[SoT - Data-Centric Infrastructure (Terraform)]]** - Treating infrastructure as a configuration graph.
 - **[[SoT - FITFILE Secret Management Architecture]]** - Practical application of the Vault-to-K8s bridge (VSO).
 
 ## 5. Bridges & Transformers

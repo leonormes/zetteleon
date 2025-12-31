@@ -5,7 +5,7 @@ created: 2025-06-23T06:22:50Z
 epistemic: theory
 id: The Roots of Shame and Feeling Defective
 last_reviewed: 2025-12-16T00:00:00.000Z
-modified: 2025-12-30T14:11:52+00:00
+modified: 2025-12-30T17:49:49+00:00
 purpose: ""
 review_interval: "null"
 see_also: ["[[SoT - ADHD Self-Compassion & Strengths]]"]

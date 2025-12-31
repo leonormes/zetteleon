@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-12T15:00:10Z
 epistemic: "NA"
 last_reviewed: ""
-modified: 2025-12-30T14:11:50+00:00
+modified: 2025-12-30T17:49:46+00:00
 purpose: "A technique to prevent getting lost in research 'rabbit holes'."
 review_interval: "180"
 see_also: []

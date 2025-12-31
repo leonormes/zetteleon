@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-31T11:37:00Z
 epistemic: "observation"
 last_reviewed: ""
-modified: 2025-12-30T14:11:51+00:00
+modified: 2025-12-30T17:49:47+00:00
 purpose: "Explain frequent system switching in ADHD."
 review_interval: "90"
 see_also: []

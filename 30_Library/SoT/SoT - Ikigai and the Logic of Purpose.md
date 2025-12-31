@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-15T00:00:00Z
 epistemic: "Grounded in authentic Japanese cultural analysis (refactoring the Westernised \\\\\\\"Venn Diagram\\\\\\\" misconception)."
 last_reviewed: "2025-12-15"
-modified: 2025-12-30T14:11:34+00:00
+modified: 2025-12-30T17:49:06+00:00
 purpose: "To reframe Ikigai not as a career goal (destination) but as an autonomous internal state of process appreciation (runtime environment)."
 review_interval: "1 year"
 see_also: ["[[SoT - Identity-Based Habit Formation]]", "[[SoT - Logotherapy and the Will to Meaning]]", "[[SoT - Process Primacy (Systems Over Goals)]]"]

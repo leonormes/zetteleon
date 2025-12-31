@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:24:21Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2025-12-30T14:11:34+00:00
+modified: 2025-12-30T17:49:06+00:00
 purpose: "To define the 'Invisible Filter' of naïve realism and the cognitive mechanisms that reinforce flawed mental models."
 review_interval: "6 months"
 see_also: ["[[SoT - Dunning-Kruger Effect]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - Reality, Models, and the Limits of Accuracy]]"]

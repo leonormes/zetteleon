@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T12:57:00Z
 epistemic: "technique"
 last_reviewed: ""
-modified: 2025-12-30T14:11:54+00:00
+modified: 2025-12-30T17:49:54+00:00
 purpose: "Use listening to reduce tension."
 review_interval: "90"
 see_also: ["AAA Framework for Handling Criticism.md"]

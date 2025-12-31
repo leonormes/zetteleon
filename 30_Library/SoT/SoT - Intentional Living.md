@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "synthesis"
 last_reviewed: "2025-12-25"
-modified: 2025-12-30T14:11:34+00:00
+modified: 2025-12-30T17:49:06+00:00
 purpose: "Canonical source for habit formation protocols and the philosophy of intentionality, integrating Zen to Done (ZTD) and Essentialism."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - Indistractable Model (Focus Management)]]"]

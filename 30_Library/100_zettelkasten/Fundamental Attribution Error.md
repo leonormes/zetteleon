@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-31T09:20:29Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-30T14:11:53+00:00
+modified: 2025-12-30T17:49:52+00:00
 purpose: "Explain the systematic bias of over-attributing others' behavior to personality while under-weighting situational factors."
 review_interval: ""
 see_also: []

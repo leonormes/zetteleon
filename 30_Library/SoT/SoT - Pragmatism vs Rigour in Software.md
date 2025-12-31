@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "framework"
 last_reviewed: "2025-12-19"
-modified: 2025-12-30T14:11:34+00:00
+modified: 2025-12-30T17:49:05+00:00
 purpose: "To define the fundamental conflict between building software that is theoretically 'correct' versus software that is 'good enough' and ships quickly."
 review_interval: "6 months"
 see_also: ["[[SoT - The \\\\\\\\\\\\\\\"Worse is Better\\\\\\\\\\\\\\\" Philosophy]]"]

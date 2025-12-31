@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-11T19:05:09Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-30T14:11:53+00:00
+modified: 2025-12-30T17:49:53+00:00
 purpose: "Describes methods for keeping a project feeling novel and meaningful."
 review_interval: "90"
 see_also: []

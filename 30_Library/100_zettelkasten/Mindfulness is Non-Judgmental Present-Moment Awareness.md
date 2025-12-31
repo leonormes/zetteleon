@@ -5,7 +5,7 @@ confidence: "0.9"
 created: 2025-11-01T12:20:06Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-30T14:11:52+00:00
+modified: 2025-12-30T17:49:49+00:00
 purpose: "To define the practice of mindfulness."
 review_interval: "90"
 see_also: ["[[Beginner\\\\s Mind is a State of Openness and Curiosity]]"]

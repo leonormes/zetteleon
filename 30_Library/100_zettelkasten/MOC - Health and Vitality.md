@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-22T12:15:00Z
 epistemic: "Meta-index of all health, fitness, and vitality knowledge within ProdOS."
 last_reviewed: "2025-12-22T00:00:00.000Z"
-modified: 2025-12-30T14:11:52+00:00
+modified: 2025-12-30T17:49:50+00:00
 purpose: ""
 review_interval: "6 months"
 see_also: []

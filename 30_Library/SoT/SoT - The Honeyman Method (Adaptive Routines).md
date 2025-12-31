@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-10T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-10"
-modified: 2025-12-30T14:11:33+00:00
+modified: 2025-12-30T17:49:03+00:00
 purpose: "To define the adaptive routine protocol used in ProdOS to manage energy fluctuations and prevent system abandonment."
 review_interval: "6 months"
 see_also: ["[[MOC - The Honeyman Method]]", "[[SoT - Bridging the Intention-Action Gap]]", "[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS - Action Management (GTD)]]"]

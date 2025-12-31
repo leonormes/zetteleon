@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-24T12:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-30T14:11:36+00:00
+modified: 2025-12-30T17:49:09+00:00
 purpose: Centralized Life OS Dashboard
 review_interval:
 see_also: []
@@ -58,3 +58,10 @@ WHERE status = "active"
 
 > [!info] Tip
 > Use the **Log Habit/Metric** QuickAdd command to update your stats on the fly!
+
+### 🎬 Media & Leisure
+
+- **[[Sci-Fi Watchlist (Screen)]]**
+- **[[Sci-Fi Watchlist (Books)]]**
+- **[[Music Watchlist (Listening)]]**
+- **[[LIST - Master Sci-Fi Rankings]]** (Reference)

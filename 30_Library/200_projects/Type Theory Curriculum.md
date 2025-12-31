@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-29T23:32:47+00:00
 epistemic: "curriculum"
 last_reviewed: "2025-12-29"
-modified: 2025-12-30T14:11:37+00:00
+modified: 2025-12-31T14:33:19+00:00
 purpose: "A purely practical, code-first curriculum to master Type Theory by refactoring code and proving correctness in Rust."
 review_interval: "3 months"
 see_also: ["[[MOC - Type Theory]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
@@ -32,7 +32,7 @@ You stated you struggle to **implement** and **explain**. This curriculum solves
 ## 2. Level 1: The Shape of Data (Algebraic Data Types)
 
 **Theory:** Types are not just labels; they are Sets. We count them to measure complexity.
-* **Reading:** [[SoT - Algebraic Data Types (ADTs)]]
+* **Reading:**  [[SoT - The Algebra of Types (Cardinality and Isomorphism)]]
 
 ### 🛠️ Practical Challenge 1: The Boolean Blindness Exorcism
 

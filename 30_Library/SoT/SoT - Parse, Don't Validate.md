@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-30T11:05:24+00:00
 epistemic: "principle"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T14:11:32+00:00
+modified: 2025-12-30T14:31:10+00:00
 purpose: "To define the architectural principle of shifting validation to the system boundaries by transforming data into Types, rather than just checking it."
 review_interval: "12 months"
 see_also: ["[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[SoT - Algebraic Data Types (ADTs)]]", "[[SoT - The Infrastructure Witness Pattern]]"]
@@ -87,18 +87,24 @@ If a state is impossible (e.g., "Logged in but no User ID"), the Type System sho
 Naming is the vocabulary of the domain. In this paradigm, we name **Invariants** and **Roles**, not just "containers."
 
 ### I. Name the Invariant (The Guarantee)
+
 Name the type after the proof it carries.
+
 - **Bad:** `StringWrapper`, `ValidatedData`.
 - **Good:** `EmailAddress`, `NonEmptyString`, `SortedList`.
 - *Logic:* When you see `SortedList`, you know the property "is sorted" is already proven.
 
 ### II. Name the Role (The Context)
+
 Name the type based on its stage in the pipeline or its function.
+
 - **Bad:** `CertData`, `KeyInfo`.
 - **Good:** `CertificateSigningRequest`, `VerifiedCertificate`, `SessionKey`.
 
 ### III. The "State as Type" Pattern
+
 For complex transitions, reflect the lifecycle stage in the name.
+
 - **Example:** `DraftOrder` $\to$ `PaidOrder` $\to$ `ShippedOrder`.
 
 ---

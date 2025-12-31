@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T21:11:00Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-30T14:11:51+00:00
+modified: 2025-12-30T17:49:46+00:00
 purpose: "To outline the risks associated with over-scheduling and excessive rigidity in timeboxing."
 review_interval: "90"
 see_also: ["[[Flexibility Within Structure is Key to Sustainable Timeboxing]]", "[[Timeboxing Creates Structure for Action]]"]

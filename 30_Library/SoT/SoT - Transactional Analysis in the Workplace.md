@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-17T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-17"
-modified: 2025-12-30T14:11:32+00:00
+modified: 2025-12-30T17:49:03+00:00
 purpose: "To outline the Transactional Analysis model as a framework for understanding and improving professional communication by identifying and managing ego states."
 review_interval: "3 months"
 see_also: ["[[MOC - Assertiveness Through System Design]]"]

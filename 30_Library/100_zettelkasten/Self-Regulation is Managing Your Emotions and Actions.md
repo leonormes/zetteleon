@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T21:23:00Z
 epistemic: "definition"
 last_reviewed: "2025-11-01"
-modified: 2025-12-30T14:11:51+00:00
+modified: 2025-12-30T17:49:47+00:00
 purpose: "To define the character strength of self-regulation."
 review_interval: "90"
 see_also: ["[[Discipline and Values]]", "[[Emotional Dysregulation]]", "[[Executive Functions]]", "[[Inner Strength & Resilience Skills (Your Strong Spirit)]]", "[[Responding vs. Reacting]]", "[[VIA Virtue of Temperance]]", "[[Your emotions are real but they are your responsibility]]"]

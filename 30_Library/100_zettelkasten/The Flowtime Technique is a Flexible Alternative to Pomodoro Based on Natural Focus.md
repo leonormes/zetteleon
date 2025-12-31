@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T14:13:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-30T14:11:51+00:00
+modified: 2025-12-30T17:49:46+00:00
 purpose: "To define the Flowtime Technique."
 review_interval: "90"
 see_also: ["[[The Pomodoro Technique Uses Short Timed Intervals to Maintain Focus]]"]

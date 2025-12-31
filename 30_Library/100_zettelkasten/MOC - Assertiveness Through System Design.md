@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-17T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-17"
-modified: 2025-12-30T14:11:52+00:00
+modified: 2025-12-30T17:49:51+00:00
 purpose: "To provide a central map of concepts for being assertive in a professional environment by treating communication and boundaries as a system design problem."
 review_interval: ""
 see_also: []

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-30T12:02:15+00:00
 epistemic: "architecture"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T14:11:32+00:00
+modified: 2025-12-30T17:49:07+00:00
 purpose: "To define the architectural standard for managing IAM and Permissions via GitOps, enforcing Type-Driven safety and Temporal constraints (PIM)."
 review_interval: "6 months"
 see_also: ["[[SoT - Data-Centric IAM in Zero Trust]]", "[[SoT - The Infrastructure Witness Pattern]]", "[[SoT - Type-Driven Infrastructure as Code]]"]

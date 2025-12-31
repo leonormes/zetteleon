@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-31T12:06:00Z
 epistemic: "metaphor"
 last_reviewed: ""
-modified: 2025-12-30T14:11:53+00:00
+modified: 2025-12-30T17:49:52+00:00
 purpose: "Illustrate persistent unaddressed tasks."
 review_interval: "90"
 see_also: ["ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness.md"]

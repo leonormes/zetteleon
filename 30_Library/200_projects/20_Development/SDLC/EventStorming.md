@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-20T02:46:46Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-30T14:11:47+00:00
+modified: 2025-12-31T12:14:14+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -17,8 +17,6 @@ uid:
 updated: 
 version: ""
 ---
-
-![EventStorming in Detail](EventStorming%20in%20Detail.md)
 
 User Story Mapping in Detail
 

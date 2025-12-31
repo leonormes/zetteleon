@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-06T19:58:03Z
 epistemic: "insight"
 last_reviewed: "2025-11-06"
-modified: 2025-12-30T14:11:50+00:00
+modified: 2025-12-30T17:49:46+00:00
 purpose: "To define the self as an act of conscious curation and commitment to chosen values."
 review_interval: "90"
 see_also: ["Identity-Based Habits are the Most Profound Level of Change.md"]

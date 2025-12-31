@@ -6,7 +6,7 @@ criteria: "Atomic notes defining core time management techniques, major producti
 epistemic: ""
 exclusions: "Deep dives into specific software tutorials."
 last_reviewed: ""
-modified: 2025-12-30T14:11:52+00:00
+modified: 2025-12-30T17:49:50+00:00
 purpose: ""
 review_interval: ""
 scope: "The theory and application of time blocking and time boxing for personal and family productivity."

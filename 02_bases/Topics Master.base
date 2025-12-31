@@ -125,3 +125,25 @@ views:
     columnSize:
       file.name: 400
       note.tags: 300
+  - type: table
+    name: "Topic: Type Theory"
+    filters:
+      or:
+        - file.tags.contains("type-theory")
+        - file.tags.contains("type_theory")
+        - file.tags.contains("adt")
+        - file.tags.contains("category_theory")
+        - file.tags.contains("logic")
+        - file.tags.contains("formal_methods")
+        - file.tags.contains("cdktf")
+    order:
+      - file.name
+      - type
+      - status
+      - tags
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 636
+      note.tags: 300

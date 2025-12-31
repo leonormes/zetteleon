@@ -3,19 +3,20 @@ aliases: []
 confidence: ""
 created: 2025-06-18T17:28:14Z
 epistemic: ""
-ID: "emotional_reasoning"
+ID: emotional_reasoning
 last_reviewed: ""
-modified: 2025-12-30T14:11:53+00:00
+modified: 2025-12-30T17:49:53+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["emotion", "logic"]
+tags:
+  - emotion
 title: Emotional Reasoning
-type: "permanent"
-uid: 
-updated: 
+type: permanent
+uid:
+updated:
 version: ""
 ---
 

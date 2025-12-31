@@ -6,7 +6,7 @@ criteria: ""
 epistemic: "null"
 exclusions: "Generic time management without ADHD considerations"
 last_reviewed: "null"
-modified: 2025-12-30T14:11:52+00:00
+modified: 2025-12-30T17:49:50+00:00
 purpose: "null"
 review_interval: "null"
 scope: "Comprehensive strategies for using time boxing as an ADHD productivity tool"

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-30T15:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-10-30"
-modified: 2025-12-30T14:11:53+00:00
+modified: 2025-12-30T17:49:52+00:00
 purpose: "To emphasize the importance of intrinsic motivation in sustainable change"
 review_interval: "90"
 see_also: []

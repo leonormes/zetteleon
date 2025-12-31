@@ -1,20 +1,30 @@
 ---
-aliases: ["The Torvalds Loop", "Type-Driven Design", "Data-Centric Programming", "Type-First Development"]
+aliases: ["The Torvalds Loop", "Type-Driven Design", "Data-Centric Programming", "Type-First Development", "Parse Don't Validate", "Typestate Pattern"]
 confidence: "5/5"
 created: 2025-12-29T10:28:01+00:00
 epistemic: "authoritative"
-last_reviewed: "2025-12-29"
-modified: 2025-12-30T14:11:32+00:00
-purpose: "To define the core programming philosophy of PRODOS: a synthesis of hardware-conscious data design and mathematical type theory."
+last_reviewed: "2025-12-30"
+modified: 2025-12-31T11:19:10+00:00
+purpose: "To define the core programming philosophy of ProdOS: a synthesis of hardware-conscious data design and mathematical type theory."
 review_interval: "6 months"
-see_also: ["[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]", "[[SoT - Rust's Design Philosophy]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]", "[[SoT - Type-Driven Infrastructure as Code]]"]
+see_also: ["[[SoT - Rust Type Mechanics]]", "[[SoT - Rust Language]]", "[[SoT - Rust's Ownership Model]]"]
 source_of_truth: []
 status: "stable"
-tags: ["philosophy", "programming", "rust", "type_theory", "architecture"]
+tags: ["philosophy", "programming", "rust", "type_theory", "architecture", "design-patterns"]
 title: SoT - Type-Driven Development (The Torvalds Loop)
 type: "SoT"
 uid: 
 updated: 
+---
+
+## 0. The Lineage
+
+This protocol is the **Methodological Implementation** of the broader Data-Centric philosophy. It translates abstract principles into a concrete workflow.
+
+* **The Axiom (Physics):** **[[SoT - Data-Centric Software Engineering]]**—*Structure is truth; Code is a derivative.*
+* **The Theory (Math):** **[[MOC - Type Theory]]**—*Using Category Theory (Sum/Product types) to model that structure rigorosuly.*
+* **The Practice (Method):** **[[SoT - Type-Driven Development (The Torvalds Loop)]]**—*The strict 4-phase protocol to execute the design.*
+
 ---
 
 ## 1. The Core Mandate
@@ -37,21 +47,40 @@ In this protocol, Logic is the *last* consideration. We prioritize the physical 
 | **3. Invariants** | **Integrity** | Define constraints that must *always* be true. Use the type system to enforce them. |
 | **4. Logic** | **Transformation** | Write simple, linear algorithms that transform valid state A into valid state B. |
 
-### The "Unified Protocol": Torvalds + Type Theory
+---
 
-Type-Driven Development is the mechanism used to enforce the **Torvalds Loop**. In Rust, defining a type satisfies both gritty systems engineering and formal logic.
+## 3. Pattern: Parse, Don't Validate
 
-1. **Phase 1: Shape (Physical Reality) $\to$ Sum Types (Enums).** Instead of pointer-chasing classes, use tagged unions to keep data compact and mutually exclusive.
-2. **Phase 2: Invariants (The Rules) $\to$ Newtypes & Smart Constructors.** Use `struct UserId(u32)` to ensure semantic separation without runtime overhead.
-3. **Phase 3: Logic (The Behavior) $\to$ Pattern Matching.** Your code becomes a "switchboard" routing data based on its shape.
+Do not write code to "validate" messy input repeatedly. Instead, **parse** it *once* at the edge into a Type where the invalid state cannot exist.
 
-### The "Parse, Don't Validate" Principle
-
-Do not write code to "validate" messy input. Instead, **parse** it into a Type where the invalid state cannot exist. If parsing succeeds, the logic that follows is guaranteed to be safe.
+- **Anti-Pattern:** Passing `email: String` and running a regex check in every function.
+- **Pattern:**
+    1. Define `struct Email(String)`. Keep the field private.
+    2. Constructor `Email::parse(s: String) -> Result<Email, Error>` performs the check.
+    3. Functions accept `e: Email`. The existence of the instance *proves* validity to the compiler.
 
 ---
 
-## 3. The Trinity: Mathematical Truth
+## 4. Pattern: Typestate (State Machines)
+
+We use **Affine Types** (Move Semantics) to enforce State Machines where invalid transitions are impossible.
+
+### The Mechanics
+
+1. **State Types:** Define structs for each state (`struct Draft`, `struct Published`).
+2. **Transition:** The function consumes the old state (`self`) and returns the new state.
+
+```rust
+impl Post<Draft> {
+    pub fn publish(self) -> Post<Published> { ... }
+}
+```
+
+3. **Enforcement:** Because `self` is consumed, the old `Draft` value is invalidated. You physically cannot double-publish.
+
+---
+
+## 5. The Trinity: Mathematical Truth
 
 Logic, Code, and Category Theory are isomorphic. This provides a rigorous foundation for data design.
 
@@ -59,41 +88,39 @@ Logic, Code, and Category Theory are isomorphic. This provides a rigorous founda
 
 - **Rust Construct:** `enum`.
 - **Logic:** $A \lor B$.
-- **Definition:** Defined by "Arrows In" (Constructors).
-- **Rule:** Used for **Choice** and **State**.
-- **The Equation:** Handling a Sum type ($A+B$) requires a **Product of functions** ($C^A \times C^B$). This is why `match` statements must be exhaustive.
+- **Rule:** Used for **Choice** and **State**. If states are mutually exclusive, they must be variants of an Enum.
 
 ### B. Product Types (The "AND" Relationship)
 
 - **Rust Construct:** `struct`.
 - **Logic:** $A \land B$.
-- **Definition:** Defined by "Arrows Out" (Projections).
 - **Rule:** Used for **Grouping** data that must coexist.
 
 ---
 
-## 4. Anti-Patterns to Exorcise
+## 6. Anti-Patterns to Exorcise
 
 - **Boolean Blindness:** Using `bool` flags (e.g., `isBitnami`) to switch behavior.
     - *Fix:* Use a Sum Type (`enum Vendor { Bitnami, Community }`).
-- **Primitive Obsession:** Passing raw `String` or `Int` values for semantic concepts (e.g., `Version`).
-    - *Fix:* Use **NewTypes** (`struct Version(String)`) with specific parsing rules.
-- **Zombie States:** Memory layouts where flags and data are decoupled, allowing states like "IsBuilt = false, but BuildArtifact is present."
+- **Primitive Obsession:** Passing raw `String` or `Int` values for semantic concepts.
+    - *Fix:* Use **NewTypes** (`struct Version(String)`).
+- **Zombie States:** Memory layouts where flags and data are decoupled (e.g., `isBuilt` flag + `artifact` field).
     - *Fix:* Move the artifact into the `Built` variant of a `State` enum.
 
 ---
 
-## 5. Active Implementation Contexts
+## 6.5 Paradigm Shift: OOD vs. Data-Centric
 
-| Project | Architectural Lens | Key Type Transition |
+| Phase | OOD Perspective (Typical) | Data-Centric Perspective (Torvalds Loop) |
 |:--- |:--- |:--- |
-| **[[Project - Toy Vault]]** | State Machine | `Barrier` as a Sum Type: `Sealed | Unsealed`. |
-| **[[Project - Chart Manager]]** | Type Refinement | `ImageRef` as an atomic unit; `ImageVersion` as a Sum Type. |
-| **[[Project - Release Script]]** | Process Reification | Linear Bash script $\to$ Rust Finite State Machine (FSM). |
+| **Shape** | Classes modelling "real world" concepts. | Structs modelling memory layout and hardware access. |
+| **Access** | Getters/Setters, Encapsulation. | Semantic consistency (Value vs Pointer), API boundaries. |
+| **Invariants** | Often checked inside every method or ignored. | Checked at the boundary (Construction); assumed true internally. |
+| **Logic** | The primary focus; complex state management. | The final step; simple transformations of trusted data. |
 
 ---
 
-## 6. Minimum Viable Understanding (MVU)
+## 7. Minimum Viable Understanding (MVU)
 
 1. **Data First:** If the `struct` allows an invalid state, the architecture is broken.
 2. **Exhaustiveness:** Use Enums for state; use the compiler to ensure every state is handled.

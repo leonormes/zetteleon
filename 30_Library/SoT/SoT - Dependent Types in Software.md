@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "concept"
 last_reviewed: "2025-12-19"
-modified: 2025-12-30T14:11:35+00:00
+modified: 2025-12-30T17:49:07+00:00
 purpose: "To define Dependent Types as a feature of advanced type systems that allows types to depend on values, enabling compile-time proofs of program correctness."
 review_interval: "18 months"
 see_also: ["[[SoT - Pragmatism vs Rigour in Software]]", "[[SoT - Quantitative Type Theory]]", "[[SoT - Runtime Guards vs Compile-Time Proofs]]"]

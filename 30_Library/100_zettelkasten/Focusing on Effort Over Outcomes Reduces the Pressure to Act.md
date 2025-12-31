@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T20:42:00Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-30T14:11:53+00:00
+modified: 2025-12-30T17:49:52+00:00
 purpose: "To explain how focusing on effort instead of outcomes can reduce the pressure to act."
 review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]", "[[Process vs Outcome Goals]]"]

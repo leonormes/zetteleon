@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-06T19:57:00Z
 epistemic: "fact"
 last_reviewed: "2025-11-06"
-modified: 2025-12-30T14:11:53+00:00
+modified: 2025-12-30T17:49:52+00:00
 purpose: "To explain that goals are poor differentiators of success due to survivorship bias."
 review_interval: "90"
 see_also: []

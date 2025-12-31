@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-30T15:33:36Z
 epistemic: "principle"
 last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2025-12-30T14:11:50+00:00
+modified: 2025-12-30T17:49:45+00:00
 purpose: "Contrasts two fundamentally different approaches to organizing knowledge"
 review_interval: "180"
 see_also: []

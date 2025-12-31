@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2025-12-30T14:11:35+00:00
+modified: 2025-12-30T17:49:08+00:00
 purpose: "Defines Robert Harper's Computational Type Theory, emphasizing that types are defined by program behavior (semantics) rather than syntax."
 review_interval: "1 year"
 see_also: ["[[SoT - Cubical Type Theory (Computational Univalence)]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]

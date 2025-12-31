@@ -1,13 +1,14 @@
 ---
-aliases: ["The Unified Systems Paradigm", "Type-Driven Data Design", "Constructive Realism", "System Reliability Map"]
+aliases: []
+alias: ["The Unified Systems Paradigm", "Type-Driven Data Design", "Constructive Realism", "System Reliability Map"]
 confidence: "5/5"
 created: 2025-12-30T12:08:43+00:00
 epistemic: "root_index"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T12:20:32+00:00
+modified: 2025-12-30T17:49:09+00:00
 purpose: "The Master Index organizing the convergence of Data-Oriented Design (Physics) and Type Theory (Logic) into a unified methodology for reliable systems."
 review_interval: "6 months"
-see_also: ["[[MOC - Type Theory]]", "[[MOC - Rust Programming Language]]", "[[SoT - Rust's Design Philosophy]]"]
+see_also: ["[[MOC - Type Theory]]", "[[MOC - Rust Programming Language]]", "[[SoT - Rust's Design Philosophy]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
 source_of_truth: []
 status: "stable"
 tags: ["moc", "architecture", "root", "philosophy"]
@@ -34,12 +35,14 @@ The system stands on two non-negotiable foundations. One governs the hardware; t
 **Data-Oriented Design (DOD).** The machine cares only about bytes, cache lines, and memory access patterns.
 - **[[SoT - Data-Centric Software Engineering]]** - The physical reality of software.
 - **[[SoT - Rust's Ownership Model]]** - Managing memory without a Garbage Collector (Linear Logic).
+- **[[MOC - Data-Centric Networking]]** - Networking as distributed state transport.
 
 ### B. The Logic (Mind)
 
 **Type Theory.** The rigorous mathematics of classification and proof.
 - **[[MOC - Type Theory]]** - The central hub for Logical Correctness.
-- **[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]** - Why Programs *are* Proofs.
+- **[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]** - The foundational link: Programs are Proofs.
+- **[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]** - The "Rosetta Stone" of systems design.
 - **[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]** - The math of counting states ($1 + 1 = 2$).
 
 ---
@@ -48,8 +51,11 @@ The system stands on two non-negotiable foundations. One governs the hardware; t
 
 How do we connect Mind and Matter? Through **Zero-Cost Abstractions**. We use high-level Logic to generate optimal low-level Machine Code.
 
-- **[[SoT - Rust's Design Philosophy]]** - The "Pragmatic Compromise" that binds them.
-- **[[SoT - Rust vs TypeScript]]** - The difference between "Types as Paint" (Erasure) and "Types as Sculpture" (Monomorphization/Layout).
+- **[[SoT - Type-Driven Development (The Torvalds Loop)]]** - **The Protocol.** Shape $\to$ Access $\to$ Invariants $\to$ Logic.
+- **[[SoT - Type-Level Programming]]** - **The Engine.** Executing logic inside the type system at compile-time.
+- **[[SoT - Rust's Design Philosophy]]** - The "Pragmatic Compromise" that binds performance and safety.
+- **[[SoT - Rust Type System Tensions and Critiques]]** - Theoretical debt and the limits of current implementations.
+- **[[SoT - Rust vs TypeScript]]** - "Types as Sculpture" (Reification) vs. "Types as Paint" (Erasure).
 - **[[SoT - Algebraic Data Types (ADTs)]]** - The structural building blocks (Sum & Product types).
 
 ---
@@ -58,9 +64,10 @@ How do we connect Mind and Matter? Through **Zero-Cost Abstractions**. We use hi
 
 How do we apply the Synthesis to write code? We replace "Runtime Validation" with "Construction Proofs."
 
-- **[[SoT - Parse, Don't Validate]]** - **The Boundary.** Don't check data; transform it into a Type that *proves* it is valid.
-- **[[SoT - The Infrastructure Witness Pattern]]** - **The Flow.** Passing "Tokens of Proof" between functions to enforce dependency chains (IP $\to$ DNS $\to$ Cert).
-- **[[SoT - State Machines in Rust]]** - **The State.** Using Types to make invalid transitions impossible.
+- **[[SoT - Parse, Don't Validate]]** - **The Boundary.** Transform untrusted data into trusted Types at the edge.
+- **[[SoT - The Infrastructure Witness Pattern]]** - **The Flow.** Passing "Tokens of Proof" to enforce dependency chains.
+- **[[SoT - State Machines in Rust]]** - **The State.** Using Types to make invalid transitions physically impossible.
+- **[[SoT - Rust Type System Modeling (Formality Core)]]** - **The Specification.** Creating executable models of type logic.
 
 ---
 
@@ -70,10 +77,13 @@ When applied to complex domains, this paradigm produces "Unbreakable" systems.
 
 ### Infrastructure & Cloud
 
-- **[[SoT - Type-Driven Infrastructure as Code]]** - Treating Terraform modules as Types, preventing "Configuration Explosion."
-- **[[SoT - Azure Hybrid Networking (ExpressRoute)]]** - Applying strict boundaries and routing types to Hybrid Cloud.
+- **[[SoT - Type-Driven Infrastructure as Code]]** - Treating Terraform modules as Types to prevent Configuration Explosion.
+- **[[SoT - Secure Cross-Cloud Data Transport]]** - Establishing a Virtual Private Data Plane via functional handlers.
+- **[[SoT - Azure Hybrid Networking (ExpressRoute)]]** - Applying strict boundaries to hybrid state.
 
 ### Security & Identity
 
-- **[[SoT - GitOps for IAM and Permissions]]** - Treating Permissions as **Temporal Types** (Leases) and PRs as **Witnesses**.
-- **[[SoT - Public Key Infrastructure (PKI) and Trust]]** - Trust as a chain of cryptographic proofs (Data-Centric Trust).
+- **[[MOC - Cloud-Native Authentication]]** - The intersection of Identity, Cryptography, and Protocols.
+- **[[SoT - Data-Centric IAM in Zero Trust]]** - Trust as a calculated intersection of Identity, Context, and Resource data.
+- **[[SoT - Type Theory of PKI and Cryptography]]** - Verification as type conversion; certificates as proof objects.
+- **[[SoT - GitOps for IAM and Permissions]]** - Treating Permissions as Temporal Types (Leases).

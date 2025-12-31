@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:44:23Z
 epistemic: "strategy"
 last_reviewed: "2025-12-23"
-modified: 2025-12-30T14:11:33+00:00
+modified: 2025-12-30T17:49:05+00:00
 purpose: "To provide a rapid, four-step decision filter for processing incoming tasks and reducing decision fatigue."
 review_interval: "6 months"
 see_also: ["[[SoT - Action Management Framework]]", "[[SoT - PRODOS - The Tri-State Router]]"]

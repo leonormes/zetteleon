@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-01T11:22:13Z
 epistemic: "hypothesis"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2025-12-30T14:11:53+00:00
+modified: 2025-12-30T17:49:52+00:00
 purpose: ""
 review_interval: "90"
 see_also: ["[[Mathematics Involves Creativity and Aesthetic Judgement]]", "[[The Process of Mathematical Discovery is Driven by Pattern Recognition]]", "[[Visualization Supports Mathematical Thinking]]"]

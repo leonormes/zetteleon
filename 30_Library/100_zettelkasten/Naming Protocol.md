@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-01-15T10:03:00Z
 epistemic: "principle"
 last_reviewed: "2025-01-15"
-modified: 2025-12-30T14:11:51+00:00
+modified: 2025-12-30T17:49:49+00:00
 purpose: "Codified rules for deriving resource identifiers from minimal inputs"
 review_interval: "90"
 see_also: []

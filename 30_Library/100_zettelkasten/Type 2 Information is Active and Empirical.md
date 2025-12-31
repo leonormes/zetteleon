@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-12T15:00:05Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-30T14:11:50+00:00
+modified: 2025-12-30T17:49:45+00:00
 purpose: "To define Type 2 (Active/Empirical) Information."
 review_interval: "90"
 see_also: ["[[Type 1 Information is Passive and Theoretical]]", "[[Type 1 vs Type 2 Information in Learning and Action]]"]

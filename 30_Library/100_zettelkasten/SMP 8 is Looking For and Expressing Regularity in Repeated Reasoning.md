@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:00:10Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2025-12-30T14:11:51+00:00
+modified: 2025-12-30T17:49:48+00:00
 purpose: "To define the 8th Standard for Mathematical Practice (SMP)."
 review_interval: "90"
 see_also: ["[[SMP 7 is Looking For and Making Use of Structure]]"]

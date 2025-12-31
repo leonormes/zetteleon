@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-01T11:22:13Z
 epistemic: "opinion"
 last_reviewed: "2025-11-01"
-modified: 2025-12-30T14:11:54+00:00
+modified: 2025-12-30T17:49:54+00:00
 purpose: "Establish beauty and aesthetic sensitivity as guiding values in mathematical practice."
 review_interval: "90"
 see_also: ["[[Mathematics Involves Creativity and Aesthetic Judgement]]", "[[The Process of Mathematical Discovery is Driven by Pattern Recognition]]"]

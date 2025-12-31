@@ -1,16 +1,16 @@
 ---
-aliases: ["Formal Methods for IaC", "Type-Driven Infrastructure", "The Witness Pattern", "Infrastructure as Applied Type Theory"]
-confidence: "High"
+aliases: ["Formal Methods for IaC", "Type-Driven Infrastructure", "The Witness Pattern", "Infrastructure as Applied Type Theory", "Type-Safe IaC"]
+confidence: "5/5"
 created: 2025-12-30T14:00:00Z
-epistemic: "principle"
+epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T14:11:32+00:00
-purpose: "To define the architectural paradigm of using Type Theory and Formal Methods to make broken infrastructure configurations unrepresentable at synthesis time."
+modified: 2025-12-30T17:49:02+00:00
+purpose: "To define the definitive paradigm for making broken infrastructure configurations unrepresentable via Type Theory and Formal Methods."
 review_interval: "6 months"
-see_also: []
+see_also: ["[[SoT - Type Theory & Data Structures]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "iac", "type-theory", "devops", "rust", "cdktf"]
+tags: ["architecture", "iac", "type-theory", "devops", "rust", "cdktf", "terraform"]
 title: SoT - Type-Driven Infrastructure Strategy
 type: "SoT"
 uid: 
@@ -19,123 +19,78 @@ updated:
 
 # SoT - Type-Driven Infrastructure Strategy
 
-## 1. Executive Summary
+## 1. Definitive Statement
 
-**Thesis:** Software architecture is Applied Type Theory.
-**Goal:** Make "Illegal Infrastructure States" Unrepresentable.
-**Method:** Shift validation from **Runtime** (Deployment Failure/OPA) to **Synthesis Time** (Compiler Failure).
-
-Current paradigms (Terraform HCL, Helm) are "Stringly Typed." They allow loose couplings where dependencies (e.g., DNS pointing to a non-existent IP) are checked only after the expensive process of provisioning has begun.
-
-We adopt a **Type-Driven** approach where infrastructure is treated not as a collection of resources, but as a **Dependency Chain of Proofs**.
+> [!definition] Type-Driven Infrastructure
+> A paradigm shift from **Stringly-Typed** configuration (loose strings/HCL) to **Proof-Carrying Logic**. It treats infrastructure as a dependency chain where valid states are mathematically proven at synthesis time, making illegal architectures unrepresentable.
 
 ---
 
-## 2. Core Concepts
+## 2. Core Operational Primitives
 
-### A. The "Witness" Pattern (Proof-Carrying Code)
+### I. The Witness Pattern (Capability Tokens)
 
-A **Witness** is a data type whose existence serves as a mathematical proof that a prerequisite state is satisfied.
+A **Witness** is a data type whose instantiation serves as proof that a prerequisite state is satisfied.
 
-* **Traditional IaC:** "I hope this resource ID exists." (String)
-* **Type-Driven IaC:** "Here is the token proving I created this resource." (Witness)
+* **Mechanic:** Downstream resources demand a Witness Type (e.g., `IpReachabilityWitness`) as an argument, not a raw string ID.
+* **Result:** You cannot create a Certificate without proving DNS control; you cannot create DNS without proving IP existence.
 
-**Rules of the Witness:**
-1. **Unforgeable:** Cannot be created manually (private constructor).
-2. **Context-Aware:** Carries "Phantom Types" (e.g., `<Public>` vs `<Private>`) to enforce logic at compile time.
-3. **Mandatory:** Downstream resources demand the Witness, not a string.
+### II. Reachability as a Type (Phantom Types)
 
-### B. Reachability as a Type
+Reachability is a **Type State**, not a tag or metadata.
 
-Reachability is not a tag; it is a **Type State**. A generic IP string is insufficient. We must differentiate between `IpAddress<Public>` and `IpAddress<Private>` at the compiler level.
+* **Constraint:** Use generics/phantom types to differentiate `IpAddress<Public>` from `IpAddress<Private>`.
+* **Gateway Functions:** Transitioning a resource from private to public requires a explicit transformation function (e.g., `NatGateway::expose(Private) -> Public`).
 
-* **Phantom Types:** Types used during synthesis to enforce constraints but erased at runtime.
-* **Gateway Functions:** You cannot cast `Private` to `Public`. You must pass the `PrivateIP` through a `NatGateway` function to obtain a `PublicIP` witness.
+### III. Affine Resource Ownership (Move Semantics)
 
-### C. Resource Ownership (Affine Types)
+Treat infrastructure resources as **Linear Assets** (Rust model).
 
-We use **Rust** as our mental model for resource lifecycles because of **Affine Types (Move Semantics)**.
-
-* **Linearity:** A specific Port 80 on a Load Balancer can be bound *exactly once*.
-* **Consumption:** Binding a Volume to a Pod "moves" the Volume handle, preventing double-binding errors at the syntax level.
+* **Linearity:** A specific Port 80 or PVC can be bound **exactly once**.
+* **Consumption:** "Moving" a resource handle into a consumer prevents double-binding errors at the compiler level.
 
 ---
 
-## 3. The Trinity of Identity (Domain Model)
+## 3. Implementation Patterns
 
-To eliminate "loose couplings" between Network, DNS, and Identity, we model them as a dependent chain.
+### Pattern A: The "Compiler" (CDKTF + TypeScript)
 
-### 1. Existence (IP)
+When HCL is insufficient, use a high-level language to synthesize the JSON manifest.
 
-* **Type:** `IpAddress<Scope>`
-* **Constraint:** Must be produced by a trusted Network Factory.
+1. **Source:** Define strict types and private constructors in TypeScript.
+2. **Synthesis:** `cdktf synth` validates logic. If types mismatch, the build fails.
+3. **Deployment:** Commit the **Assembly** (`cdk.tf.json`) alongside source for VCS-triggered runs.
 
-### 2. Binding (DNS)
+### Pattern B: HCL Simulation (The "Poor Man's" Type System)
 
-* **Type:** `VerifiedRecord<Scope>`
-* **Constraint:** Requires a `HostName` AND an `IpAddress<Scope>`.
-* **Invariant:** You cannot create a DNS record without proving the target IP exists.
+In pure Terraform, simulate Sum Types (Enums) to reduce state space.
 
-### 3. Identity (Certificate)
+1. **The Interface:** Restrict a `profile` variable to specific strings using `validation` blocks.
+2. **The Implementation:** Use a `local` map to define the fixed configuration for each profile variant.
+3. **The Result:** Users choose a **Variant**, not individual parameters, preventing "Configuration Explosion."
 
-* **Type:** `TlsCertificate`
-* **Constraint:** Requires a `VerifiedRecord<Public>`.
-* **Invariant:** A CA will not sign a cert unless you prove you control the DNS binding.
+### Pattern C: Capability-Based Access
 
-**Rust Pseudo-Code Model:**
+Reject raw RBAC strings in favor of **Capability Tokens**.
 
-```rust
-// The Service cannot be constructed unless all proofs are provided.
-struct PublicService {
-    name: String,
-    ingress_ip: IpAddress<Public>,
-    dns_proof: VerifiedRecord<Public>, // Proves DNS -> IP
-    identity: TlsCertificate,          // Proves Cert -> DNS
-}
-```
+* **Identity:** Modeled as a Sum Type (`Human | Bot`).
+* **Logic:** A `DevCapability` token is physically incapable of targeting a `Production` environment in the code model.
 
 ---
 
-## 4. Implementation: The "Compiler" Pattern
+## 4. Architectural Mapping (Data-Oriented View)
 
-Since HCL is insufficient for this logic, we use **CDKTF (Cloud Development Kit for Terraform)** with **TypeScript**.
-
-### Architecture
-
-1. **Source (Logic):** TypeScript with strict types and private constructors.
-2. **Synthesis (Compiler):** `cdktf synth` runs the logic. If types mismatch (e.g., Private IP to Public DNS), the build fails.
-3. **Artifact (Assembly):** The compiler emits `cdk.tf.json` (Standard Terraform JSON).
-4. **Execution (Runtime):** Terraform Cloud/CLI applies the JSON.
-
-### Workflow: "Synthesize & Ship"
-
-When using GitOps/VCS triggers:
-
-1. **Dev:** Write logic in `main.ts`.
-2. **Build:** Run `npx cdktf synth` locally/CI.
-3. **Commit:** Commit the **Assembly** (`cdk.tf.json`) alongside the source.
-4. **Deploy:** TFC/Atlantis executes the plan against the verified JSON.
-
----
-
-## 5. Kubernetes Data-Oriented View
-
-We reframe Kubernetes objects as Type Constraints to explain failures (like "Pending" PVCs) as missing Witnesses.
-
-| Concept | Traditional K8s (YAML) | Type-Driven (Data Oriented) |
+| Concept | Traditional IaC (Stringly) | Type-Driven (Data-Oriented) |
 |:--- |:--- |:--- |
-| **StorageClass** | A String field | A **Factory Function** producing PVs |
-| **PVC** | A Request | A **Type Constraint** (`Request<Pending>`) |
-| **Binding** | Status: Bound | A **Witness Type** (`BoundClaim`) |
-| **Pod** | Resource | A Consumer requiring `Vec<VolumeSource>` |
-
-**The Invariant:** A Pod cannot be instantiated (scheduled) without a `BoundClaim` witness.
+| **Storage Class** | String ID | **Factory Function** producing PVs |
+| **PVC** | Resource Request | **Type Constraint** (`Req<Pending>`) |
+| **Binding** | Status Code | **Witness Type** (`BoundClaim`) |
+| **Pod** | Resource Bag | **Consumer** requiring `Vec<Witness>` |
 
 ---
 
-## 6. Glossary
+## 5. Minimum Viable Understanding (MVU)
 
-* **Phantom Type:** A type parameter `T` in `Type<T>` that is not used in the runtime representation but enforces compile-time constraints.
-* **Sum Type:** An "OR" type (Enum). Data is *either* A *or* B. (e.g., `VolumeSource = Ephemeral | Persistent`).
-* **Product Type:** An "AND" type (Struct). Data requires A *and* B. (e.g., `PublicService = IP + DNS + Cert`).
-* **Affine Type:** A type that can be used at most once (Resource Ownership).
+1. **Shift Left:** Move validation from Runtime (OPA/Deployment Failure) to Synthesis Time (Build Failure).
+2. **Modules are Types:** Modules are contracts. Don't expose "all parameters"; expose "all valid states."
+3. **Parse, Don't Validate:** Structure data so that only valid configurations can be represented.

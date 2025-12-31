@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-25T12:00:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-25"
-modified: 2025-12-30T14:11:34+00:00
+modified: 2025-12-30T17:49:06+00:00
 purpose: "To define the first-principles data architecture of HashiCorp Vault, stripping away security terminology to reveal the underlying versioned document store and merkle-tree sync models."
 review_interval: "1 year"
 see_also: ["[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - Kubernetes Architecture]]", "[[SoT - Namespacing in Computing]]", "[[SoT - State Synchronization Models]]"]

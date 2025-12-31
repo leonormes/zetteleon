@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-13T00:00:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-13"
-modified: 2025-12-30T14:11:35+00:00
+modified: 2025-12-30T17:49:07+00:00
 purpose: "To define digital identity from a data-centric perspective, outlining"
 review_interval: "6 months"
 see_also: ["[[SoT - PRODOS (System Architecture)]]"]
@@ -76,9 +76,9 @@ To reliably link digital actions to a specific identity, and by extension, to th
 
 In high-assurance systems (like Cloud-Native IAM), Identity is modeled as a **Witness**.
 
-*   **The Witness (OIDC Token):** A cryptographically signed token (JWT) that serves as proof of a claimed identity (e.g., a Kubernetes Service Account).
-*   **The Verifier (IAM Role):** The infrastructure component that accepts the Witness and validates the claim against a **Trust Anchor** (OIDC Provider).
-*   **The Result (Capability):** Temporary credentials granting specific permissions (e.g., `acm-pca:IssueCertificate`).
+* **The Witness (OIDC Token):** A cryptographically signed token (JWT) that serves as proof of a claimed identity (e.g., a Kubernetes Service Account).
+* **The Verifier (IAM Role):** The infrastructure component that accepts the Witness and validates the claim against a **Trust Anchor** (OIDC Provider).
+* **The Result (Capability):** Temporary credentials granting specific permissions (e.g., `acm-pca:IssueCertificate`).
 
 This pattern ensures that **Privileges (Capabilities)** are only dispensed upon the presentation of a valid **Witness (Proof)**.
 

@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-22T00:00:00Z
 epistemic: architecture
 last_reviewed: 2025-12-22
-modified: 2025-12-30T14:11:35+00:00
+modified: 2025-12-31T13:02:41+00:00
 purpose: ">-"
 review_interval: 6 months
 see_also: []
@@ -24,31 +24,78 @@ updated:
 >
 > **Data-Centric Software Engineering** is the discipline of treating **Data Structures** as the primary source of truth and complexity in a system, rendering the **Code** (Logic) as a trivial derivation of that structure.
 
-### The Conservation Law of Complexity
+### 1.1 The Conservation Law of Complexity
 
 Software complexity obeys a conservation law: it must reside either in the procedural logic (the Code) or the structural representation (the Data).
 
 * **Code-Centric:** Complexity is handled by imperative logic (nested `if`, flags, loops). Result: Fragile, hard to test.
 * **Data-Centric:** Complexity is encoded in the schema (Graph, Map, Table). Result: "Dumb" code that merely traverses the "Smart" structure.
 
+### 1.2 The Consensus of the Masters
+
+The industry's most impactful architects share a consensus: **Data Dominates Code**.
+
+| Architect | Mental Model | The Core Tenet |
+| --- | --- | --- |
+| **Linus Torvalds** | **Data-Centric** | "Bad programmers worry about code. Good programmers worry about data structures." |
+| **Fred Brooks** | **Table-Driven** | "Show me your tables, and I won't usually need your flowcharts; they'll be obvious." |
+| **Rob Pike** | **Structural** | "Data dominates. If you've chosen the right data structures... the algorithms will almost always be self-evident." |
+| **Mike Acton** | **Data-Oriented** | "The purpose of all programs is to transform data from one form to another." (Hardware sympathy). |
+
+### 1.3 Case Study: The "Good Taste" of Linked Lists
+
+Torvalds distinguishes "bad taste" from "good taste" by how a developer handles edge cases. If the data model is correct, the edge case vanishes.
+
+* **Bad Taste:** Treating the "head" pointer and "next" pointers differently, requiring `if` statements to handle the list start.
+* **Good Taste:** Using indirect pointers (pointer-to-pointer) to treat the address of any "incoming link" uniformly. The edge case is topologically identical to the standard case.
+
+> **Insight:** Complexity in code is a symptom of an insufficient understanding of the data topology.
+
 ---
 
 ## 2. The Structural Logic (10 Pillars)
 
-Software quality is a direct function of its underlying structural logic. If the foundation is flawed, the algorithms built atop it will inevitably fail.
+These ten principles form the structural backbone of the Data-Centric methodology, synthesizing the wisdom of the masters into a unified discipline.
 
-| Pillar | Principle | The Data-Centric View |
-|:--- |:--- |:--- |
-| **1. Foundational Integrity** | *Structure is Bedrock* | A robust data structure is the foundation. If flawed, the entire system is compromised. |
-| **2. Epistemology** | *The Problem Lens* | The choice of structure defines *how* you view the problem. The right choice turns complex tasks into simple operations. |
-| **3. Efficiency** | *Emergent Property* | Performance is not an added feature; it is an emergent property of the correct memory layout. |
-| **4. Systemic Influence** | *Upstream Design* | Solving problems at the data layer simplifies downstream architecture, preventing technical debt. |
-| **5. Algorithmic Symbiosis** | *Data Limits Logic* | Algorithms are functionally dependent on data. A superior algorithm cannot fix a poor structure. |
-| **6. Scalability** | *Graceful Failure* | Handling load is not about "more servers"; it is about how data is organized and accessed under pressure. |
-| **7. Cognitive Load** | *Legibility* | Clear data organization makes code obvious to other humans, reducing onboarding time. |
-| **8. Debugging** | *State Tracing* | Bugs live in state transitions. Organized data makes these transitions trivial to trace. |
-| **9. Performance** | *Optimization* | Optimization is fundamentally an exercise in data structure refinement (memory footprint, cache locality). |
-| **10. Flexibility** | *Adaptability* | Robust structures allow business pivots with minimal friction; brittle structures require rewrites. |
+### 1. Data Dominates Code (Torvalds/Pike)
+
+Algorithms are ephemeral; data structures are foundational. If you choose the right data structures, the algorithms will be self-evident. Complexity in code is a failure of data modeling.
+
+### 2. Mechanical Sympathy (Acton)
+
+Hardware is the platform, not the language. Software must respect the physical reality of the machine: cache lines, memory alignment, and instruction pipelines. Design for the hardware, not the "abstract machine."
+
+### 3. The Conservation of Complexity
+
+Complexity cannot be destroyed, only displaced. Shift complexity from procedural logic (fragile, hard to test) to structural schema (robust, easy to query). Smart data, dumb code.
+
+### 4. Table-Driven Logic (Brooks)
+
+Replace cyclomatic complexity (nested `if`/`else` logic) with data lookups. Control flow should be determined by traversing a data structure (tables, state machines), not by hard-coded branches.
+
+### 5. Parse, Don't Validate (Wlaschin)
+
+Use the type system to make invalid states unrepresentable. Do not check for validity deep in the code; parse data at the boundary into strict types that prove their own validity.
+
+### 6. Value Semantics (The Stack)
+
+Prefer immutable values (copies) over mutable references (pointers). Value semantics guarantee local reasoning, thread safety, and cache locality. Pointers introduce action-at-a-distance and aliasing bugs.
+
+### 7. Semantic Compression (Muratori)
+
+Avoid premature abstraction. Write the specific, concrete solution first. Only when patterns physically repeat should you "compress" them into a function. DRY (Don't Repeat Yourself) is a result, not a goal.
+
+### 8. The Error Kernel (Armstrong)
+
+Reliability comes from isolation, not defensive coding. Partition systems into a "Kernel" (must be correct) and "User Space" (allowed to crash). Supervision hierarchies manage failure; they do not prevent it.
+
+### 9. Simplicity vs. Easy (Hickey)
+
+Simplicity is the absence of interleaving (decomplected). "Easy" is merely familiarity. Strive for Simple (unbraided state), even if it is not Easy (requires learning).
+
+### 10. Specification First (Lamport)
+
+Coding is the final, trivial step. Understanding the problem is the work. Model the system's state space and invariants mathematically (or rigorously) before writing a single line of implementation.
 
 ---
 
@@ -56,7 +103,15 @@ Software quality is a direct function of its underlying structural logic. If the
 
 Data-centricity is not just logical elegance; it is a physical requirement of modern hardware.
 
-### The Lie of Object-Oriented Programming (OOP)
+### 3.1 Mike Acton and the "Three Big Lies"
+
+Modern software is often bogged down by abstraction layers that ignore reality. Acton identifies three pervasive industry lies:
+
+1. **"Software is the platform."** (Reality: Hardware is the platform.)
+2. **"Code is designed around the model of the world."** (Reality: Code is designed to transform data.)
+3. **"Code is more important than data."** (Reality: Data is paramount.)
+
+### 3.2 The Lie of Object-Oriented Programming (OOP)
 
 OOP organizes data as an **Array of Structures (AoS)** (e.g., `[Ball(x,y,c), Ball(x,y,c)]`). This causes **Cache Pollution**: loading a `Ball` to update its position `x` also loads irrelevant data like color `c` into the CPU cache line.
 
@@ -97,13 +152,22 @@ The Data-Centric philosophy is not limited to code; it applies to the entire sta
 
 * **Concept:** Infrastructure is not a script; it is a **Data Schema**.
 * **Application:** Treating `config.tf` as a database of "Desirable State" (Maps/Lists) and `main.tf` as the "Renderer" that transforms that state into API calls.
-* **Deep Dive:** [[SoT - Data-Centric Infrastructure (Terraform)]]
+* **Deep Dive:** [[MOC - Data-Centric Infrastructure]]
+
+### C. Shell Environment (Zsh/Chezmoi)
+
+* **Concept:** The shell environment is a **Data Structure to be instantiated**, not a script to be executed.
+* **Application:** Using Chezmoi as a "Compiler" to resolve Sum Types (OS variants) and Product Types (config structs) into a static environment.
+* **Deep Dive:** [[Impl - Type-Driven Shell Architecture]]
+[[SoT - Type-Driven Shell Architecture|Type-Driven Shell]]
 
 ---
 
 ## 6. The Methodology: The Torvalds Loop
 
 To practice this discipline, resist the urge to write logic immediately. Follow this strict four-phase protocol: **Shape -> Access -> Invariants -> Logic**.
+
+*See also:* [[SoT - Type-Driven Development (The Torvalds Loop)]]
 
 ### Phase 1: Shape (The Physical Reality)
 
@@ -192,3 +256,155 @@ func Process(events []Event) {
     }
 }
 ```
+
+---
+
+## 8. The Architecture of Reliability (Joe Armstrong)
+
+Reliability is not achieved through defensive programming, but through **Isolation** and **Supervision**.
+
+### 8.1 The \"Let It Crash\" Philosophy
+
+Instead of wrapping code in brittle `try/catch` blocks, allow processes to fail and restart from a known clean state. This prevents \"zombie\" systems that run in inconsistent states.
+
+### 8.2 The Error Kernel Pattern
+
+Partition the system into a minimal \"Kernel\" that *must* be correct and cannot crash, and outer layers where failure is expected and managed. The reliability of the system is defined by the robustness of the supervision hierarchy, not the absence of bugs.
+
+---
+
+## 9. The Discipline of Simplicity (Rich Hickey)
+
+Simplicity is an objective property of a system, distinct from "Ease" (familiarity).
+
+* **Simple vs. Easy:** A tool is "Easy" if it is near at hand or familiar. A tool is "Simple" if it is unentangled (**Decomplected**).
+* **Value-Oriented Programming:** Treat data as **Values** (Immutable). State is not a value; it is an identity that changes over time. Immutability eliminates the need for locks and makes systems trivially testable.
+* **Deep Dive:** [[SoT - Simple Made Easy (Rich Hickey)]]
+
+---
+
+## 10. Thinking Above the Code (Leslie Lamport)
+
+Coding is the last and least important step of software engineering.
+
+* **The Specification Mindset:** Model the system mathematically before writing a single line of code. Define the \"State Space\" and \"Next State\" relations.
+* **Invariants and Liveness:** Use formal tools (like TLA+) to check for properties that must always be true and those that must eventually happen.
+
+---
+
+## 11. Strategic Modelling (Domain-Driven Design)
+
+Before defining physical data structures, we must define the **Domain Model**. DDD bridges the gap between Business Intent and Engineering Reality.
+
+### 11.1 Ubiquitous Language as Schema
+
+The **Ubiquitous Language** is the shared vocabulary of the business. In Data-Centric Engineering, this vocabulary dictates the **Type Names** and **Field Names**.
+
+* **Rule:** If the expert says "Invoice," the type is `Invoice`. The code must "speak" the language of the domain.
+* **The Artifact:** Gherkin scenarios or Event Storming outputs become the blueprint for your struct definitions.
+
+### 11.2 Bounded Contexts (The Scope of Validity)
+
+A **Bounded Context** defines the logical boundary where a specific Data Model applies.
+
+* **Separation of Concerns:** A `Product` in the *Sales Context* (Price, Description) is structurally different from a `Product` in the *Shipping Context* (Weight, Dimensions).
+* **Data Implication:** Do not create a single "God Object." Create distinct, optimized structs for each context, mapping between them only at the edges.
+
+---
+
+## 12. Semantic Compression (Casey Muratori)
+
+Avoid \"Premature Abstraction.\" Abstractions should be born from necessity, not dogma.
+
+* **Compression over DRY:** Write the specific logic first. Only once the semantics are fully understood should you \"compress\" repeating patterns into functions or utilities.
+* **The Jungle of Dependencies:** Every external library is a \"jungle\" you must manage. Minimize dependencies to maintain total control and debugging capability.
+
+---
+
+## 13. Type System Rigor (Wlaschin / Rust)
+
+The type system is a verification tool, not just a set of labels.
+
+* **Make Invalid States Unrepresentable:** Design data structures such that it is mathematically impossible for them to hold nonsensical data.
+* **Types over Tests:** If the structure itself enforces the business rule, there is no need for runtime validity checks.
+
+---
+
+## 14. Type-Driven API Design (Will Crichton / Rust)
+
+A well-designed API should guide the user toward correctness by making invalid states unrepresentable and providing compile-time feedback.
+
+### 14.1 Traits as Behavioral Specifications
+
+Traits define what a type *can do* rather than what it *is*. This decouples data from implementation and enables retroactive abstraction via **Extension Traits** (adding methods to types you don't own).
+
+### 13.2 The Type State Pattern
+
+Encode the lifecycle of an object directly into the type system.
+
+* **Logic:** Transitioning between states (e.g., `Unbounded` -> `Bounded`) returns a new type.
+* **Result:** Methods relevant only to a specific state are physically unavailable in other states, turning documentation into compiler-enforced constraints.
+
+### 13.3 Philosophical Root: Leibniz's Dream
+
+The strict Type System is the practical realization of Gottfried Wilhelm Leibniz's **[[Characteristica Universalis (Leibniz)|Characteristica Universalis]]** (17th Century).
+
+* **The Vision:** A universal formal language where ambiguity is impossible.
+* **The Modern Reality:** When we "Make Invalid States Unrepresentable," we are fulfilling Leibniz's goal of resolving disputes (bugs) through calculation (compilation) rather than debate (debugging).
+
+---
+
+## 15. Case Study: The Transformation Pipeline (Azure ACR)
+
+How to transcend "Mediocre" Object-Oriented Design (OOD) using Data-Centric principles.
+
+### 15.1 The Shift: From "Managers" to "Pipelines"
+
+* **Mediocre OOD:** A `ChartManager` object iterates through charts, calling `update()` on each.
+    * *Problem:* **N+1 Latency** (network calls per chart), hidden state, fragile error handling.
+* **Data-Centric:** A linear pipeline of **Batch Transformations**.
+    * *Process:* `Ingest` -> `Parse` -> `Discovery` -> `Transform` -> `Apply`.
+    * *Benefit:* **Latency Hiding** (batch network queries), **Debuggability** (dump the buffer at any stage), **Simplicity** (flat loops).
+
+### 15.2 Making Invalid States Unrepresentable (Rust)
+
+Use the Type System to enforce the pipeline stages. It should be impossible to "patch a chart" before the image is confirmed in the registry.
+
+```rust
+// STAGE 1: The Input (Tainted/External)
+struct PublicImageRef {
+    registry: String, // "docker.io"
+    digest: Option<Digest>,
+}
+
+// STAGE 2: The Target (Safe/Internal)
+// Cannot be constructed unless verified in ACR.
+struct ACRImageRef {
+    acr_domain: String,
+    digest: Digest, // Mandatory for immutability
+}
+
+// STAGE 3: The Verified Transition
+// This struct is the ONLY input accepted by the "Patch" function.
+// It physically couples the Chart with the PROOF that the image is safe.
+struct VerifiedMigration {
+    chart_id: Uuid,
+    replacements: HashMap<PublicImageRef, ACRImageRef>,
+}
+
+// The Final Transformation
+fn patch_chart(tarball: Vec<u8>, migration: VerifiedMigration) -> Result<Vec<u8>>;
+```
+
+---
+
+## 16. Summary: The Table of Transcendence
+
+| Domain | Mediocre Mental Model | Transcendental Mental Model (The Masters) |
+|:---- |:---- |:---- |
+| **Foundation** | **Code-Centric:** Focus on algorithms and syntax. | **Data-Centric:** Focus on topology and state. |
+| **Reality** | **Modeling the World:** \"Nouns\"/Objects. | **Transformation:** Data streams and pipelines. |
+| **Reliability** | **Defensive:** Try/Catch, null checks. | **Isolation:** Error Kernels, \"Let it Crash\". |
+| **Complexity** | **Easy:** Familiarity, massive frameworks. | **Simple:** Unbraided, immutable values. |
+| **Design** | **Abstraction:** Premature patterns. | **Compression:** Empirical abstraction. |
+| **Verification** | **Testing:** Happy path checking. | **Specification/Typing:** Formal logic, state constraints. |

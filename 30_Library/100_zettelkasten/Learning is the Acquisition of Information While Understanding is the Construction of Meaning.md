@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T16:00:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-30T14:11:52+00:00
+modified: 2025-12-30T17:49:51+00:00
 purpose: "To distinguish between the cognitive processes of learning and understanding."
 review_interval: "90"
 see_also: []

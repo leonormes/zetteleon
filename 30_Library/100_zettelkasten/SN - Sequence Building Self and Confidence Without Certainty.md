@@ -6,7 +6,7 @@ criteria: "Include concepts that address the philosophical problem of building i
 epistemic: ""
 exclusions: "Does not cover empirical psychology research or therapeutic interventions"
 last_reviewed: ""
-modified: 2025-12-30T14:11:51+00:00
+modified: 2025-12-30T17:49:47+00:00
 purpose: ""
 review_interval: ""
 scope: "Traces the logical sequence from recognizing arbitrariness to reconstructing confidence through pragmatic frameworks"

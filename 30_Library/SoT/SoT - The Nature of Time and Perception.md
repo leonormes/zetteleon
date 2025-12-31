@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-12"
-modified: 2025-12-30T14:11:33+00:00
+modified: 2025-12-30T17:49:03+00:00
 purpose: "Canonical synthesis of the objective (physical) and subjective (conscious) nature of time, its philosophical implications, and the scientific pursuit of objectivity."
 review_interval: "1 year"
 see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Reality", "[[SoT - Temporal Management (Blocking and Boxing)]]", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[Time Without Human Perspective]]", "and the Limits of Accuracy]]", "Models"]

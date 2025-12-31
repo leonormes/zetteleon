@@ -6,7 +6,7 @@ criteria: "Focus on protocol-level concepts."
 epistemic: ""
 exclusions: "Implementation-specific details or cloud DNS services."
 last_reviewed: ""
-modified: 2025-12-30T14:11:52+00:00
+modified: 2025-12-30T17:49:51+00:00
 purpose: "Organize core DNS concepts."
 review_interval: "180"
 scope: "Fundamental DNS mechanisms from 'DNS Explained.md'."

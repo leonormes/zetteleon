@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2025-12-30T14:11:33+00:00
+modified: 2025-12-30T17:49:04+00:00
 purpose: "Defines the foundational isomorphism between mathematical logic and computer programming."
 review_interval: "1 year"
 see_also: ["[[SoT - Proof-Carrying Code via Simulated Dependent Types]]"]
@@ -74,12 +74,24 @@ By leveraging CHI, systems like Rust and Scala can move runtime errors to compil
 - **Computation = Proof Checking**: The compiler verifying that your code actually satisfies the requirements of the type.
 - **Constructive Requirement**: To prove something, you must build it. You cannot assume $A \lor \neg A$ without a way to compute the result.
 
-## 5. Tensions, Gaps, and Cross-SoT Coherence
+## 5. Extension: Infrastructure as Applied Type Theory
+
+The Curry-Howard Correspondence is not limited to software binaries; it extends to **Infrastructure as Code (IaC)**.
+
+- **Thesis:** A valid infrastructure configuration is a proof that the system architecture is sound.
+- **The Witness Pattern:** In Type-Driven Infrastructure, a "Witness" is a data type (Proof) required to construct a resource.
+    - *Proposition:* "A Public IP exists."
+    - *Type:* `IpAddress<Public>` (The Witness).
+    - *Proof:* The successful instantiation of this type by a trusted factory.
+- **Application:** By demanding a `Witness` of type `VerifiedRecord<Public>` to create a `TlsCertificate`, we enforce the logical proposition: "A Certificate cannot exist without a valid, publicly routable DNS record." The compiler prevents the representation of the illegal state (Dangling Cert).
+
+## 6. Tensions, Gaps, and Cross-SoT Coherence
 
 - **Conflict with Classical Intuition:** Most developers think in classical logic ($A$ is either true or false). Learning to think constructively (can I *calculate* the truth of $A$?) is a significant cognitive shift.
 - **Connection to Formal Verification:** This SoT provides the "Why" for [[SoT - Proof-Carrying Code via Simulated Dependent Types]]. If types are propositions, then encoding sizes into types is encoding a proof about memory safety.
+- **Infrastructure Link:** Directly underpins [[SoT - Type-Driven Infrastructure Strategy]].
 
-## 6. Sources and Links
+## 7. Sources and Links
 
 - **Source:** Computerphile - "Propositions as Types" (Thorsten Altenkirch).
-- **Related:** [[Logicism (Mathematics as Extension of Logic)]], [[Intuitionism Rejects the Law of Excluded Middle]].
+- **Related:** [[Logicism (Mathematics as Extension of Logic)]], [[Intuitionism Rejects the Law of Excluded Middle]], [[SoT - Type-Driven Infrastructure Strategy]].

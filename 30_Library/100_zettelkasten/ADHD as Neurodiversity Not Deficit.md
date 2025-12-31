@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T12:15:00Z
 epistemic: "framework"
 last_reviewed: "null"
-modified: 2025-12-30T14:11:54+00:00
+modified: 2025-12-30T17:49:55+00:00
 purpose: "Explain ADHD through neurodiversity lens."
 review_interval: "90"
 see_also: ["The ADHD Brain Operates as an Interest-Based Nervous System.md"]

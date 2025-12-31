@@ -7,7 +7,7 @@ confidence: 5/5
 created: 2025-12-15T00:00:00Z
 epistemic: ""
 last_reviewed: 2025-12-15
-modified: 2025-12-30T14:11:35+00:00
+modified: 2025-12-30T17:49:07+00:00
 purpose: The canonical source of truth for FITFILE's secret management architecture, defining the standard VSO implementation and the path to remediate legacy technical debt.
 review_interval: 6 months
 see_also:

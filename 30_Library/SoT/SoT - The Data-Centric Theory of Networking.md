@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-03-14T13:38:49Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2025-12-30T14:11:33+00:00
+modified: 2025-12-30T17:49:04+00:00
 purpose: "To define the principles of indirection, stable service endpoints, and routing logic in modern network architecture."
 review_interval: "6 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data Architecture of DNS]]"]

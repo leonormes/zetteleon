@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-30T15:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2025-12-30T14:11:51+00:00
+modified: 2025-12-30T17:49:48+00:00
 purpose: "To shift attribution of failure from character to circumstances"
 review_interval: "90"
 see_also: []

@@ -3,8 +3,8 @@ aliases: ["AuthN Standards", "OAuth and OIDC", "Modern Auth Protocols"]
 confidence: "5/5"
 created: 2025-12-25T13:00:00Z
 epistemic: "technical"
-last_reviewed: 2025-12-25"
-modified: 2025-12-25T21:04:32+00:00
+last_reviewed: "2025-12-30"
+modified: 2025-12-30T21:00:00+00:00
 purpose: "To define the canonical standards for modern, cloud-native authentication, focusing on token-based flows and cryptographic trust."
 review_interval: "6 months"
 see_also: ["[[SoT - Digital Identity]]", "[[SoT - Cryptography and Encryption]]", "[[MOC - Cloud-Native Authentication]]"]
@@ -31,7 +31,7 @@ Modern authentication moves away from **Static Credentials** (long-lived passwor
 - **Mechanism:** Delegated authorization. An Identity Provider (IdP) issues tokens to a Client.
 - **Key Flows:**
     - **Authorization Code Flow (+PKCE):** Standard for users/browsers.
-    - **Client Credentials Flow:** Standard for machine-to-machine (M2M) auth.
+    - **Client Credentials Flow:** Standard for machine-to-machine (M2M) auth where no user is present (Service-to-Service).
     - **OIDC Workload Identity:** Federation that allows cloud workloads (e.g., GitHub Actions, K8s Pods) to trade their native tokens for cloud provider access tokens (AWS/Azure) without stored secrets.
 
 ### B. JWT (JSON Web Token)
@@ -52,7 +52,21 @@ Modern authentication moves away from **Static Credentials** (long-lived passwor
 
 ---
 
-## 3. Cloud-Native Identity Primitives
+## 3. M2M Authentication Patterns
+
+Strategies for Machine-to-Machine communication where traditional MFA (OTP) is not feasible.
+
+| Method | Mechanism | Use Case | Security Level |
+|:--- |:--- |:--- |:--- |
+| **Client Credentials (OAuth)** | App ID + Secret exchange for Token. | Service-to-Service, Daemons. | High (if secrets managed). |
+| **Mutual TLS (mTLS)** | Certificate-based mutual auth. | Zero Trust Networks, Financial/Healthcare. | Very High (Hardware-bound). |
+| **JWT Assertion** | Signed JWT used as credential. | Distributed Systems, Microservices. | High. |
+| **API Keys** | Static string in header. | Public APIs, Simple Integrations. | Low (Hard to rotate). |
+| **Cloud IAM Roles** | Identity federation / metadata service. | Cloud-native workloads (AWS/Azure). | Very High (Short-lived). |
+
+---
+
+## 4. Cloud-Native Identity Primitives
 
 Cloud providers implement these standards as managed services to eliminate credential management.
 
@@ -65,7 +79,7 @@ Cloud providers implement these standards as managed services to eliminate crede
 
 ---
 
-## 4. User Authentication Evolution
+## 5. User Authentication Evolution
 
 Moving beyond passwords to cryptographic proof of possession.
 

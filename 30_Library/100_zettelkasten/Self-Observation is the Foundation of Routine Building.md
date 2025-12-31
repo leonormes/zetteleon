@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-29T16:10:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-30T14:11:51+00:00
+modified: 2025-12-30T17:49:47+00:00
 purpose: "To outline the first step in creating a personalized and effective routine."
 review_interval: ""
 see_also: []

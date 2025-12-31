@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:10:08Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-30T14:11:50+00:00
+modified: 2025-12-30T17:49:45+00:00
 purpose: "To state the philosophical position that knowledge requires truth."
 review_interval: "90"
 see_also: ["[[The Traditional Definition of Knowledge is Justified True Belief]]"]

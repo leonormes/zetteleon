@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-26T11:14:00Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16"
-modified: 2025-12-30T14:11:52+00:00
+modified: 2025-12-30T17:49:51+00:00
 purpose: "To test if \\\"Structured Wandering\\\" is more effective than \\\"Forced Focus\\\" for physical tasks."
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]

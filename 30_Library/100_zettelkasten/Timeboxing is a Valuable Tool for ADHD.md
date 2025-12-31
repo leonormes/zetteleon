@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T21:10:00Z
 epistemic: "application"
 last_reviewed: "2025-11-01"
-modified: 2025-12-30T14:11:50+00:00
+modified: 2025-12-30T17:49:46+00:00
 purpose: "To explain why timeboxing is a particularly valuable tool for individuals with ADHD."
 review_interval: "90"
 see_also: ["[[ADHD]]", "[[Executive Functions]]", "[[Timeboxing Creates Structure for Action]]"]

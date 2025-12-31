@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T13:42:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2025-12-30T14:11:53+00:00
+modified: 2025-12-30T17:49:53+00:00
 purpose: "Explain event-driven socket monitoring for high-performance servers."
 review_interval: "90"
 see_also: ["Server Socket Scalability Limits.md"]

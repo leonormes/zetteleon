@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-15T00:00:00Z
 epistemic: "Validated via 10-year longitudinal practice and DORA metrics."
 last_reviewed: "2025-12-15"
-modified: 2025-12-30T14:11:34+00:00
+modified: 2025-12-30T17:49:06+00:00
 purpose: "To define \\\\\\\"Main-as-Default Trunk Based Development\\\\\\\" as the canonical software delivery methodology for ProdOS, optimizing for the smallest robust increments of change."
 review_interval: "1 year"
 see_also: ["[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS (System Architecture)]]"]
