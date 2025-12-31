@@ -5,7 +5,7 @@ created: 2024-03-30T00:00:00Z
 epistemic: ""
 id: "20240330001"
 last_reviewed: "2025-12-21"
-modified: 2025-12-30T17:49:47+00:00
+modified: 2025-12-31T23:08:51+00:00
 purpose: "To define Generative Intelligence as the capacity to create new frameworks, distinct from optimizing existing ones."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Cognitive Ambiguity and Deep Thinking]]", "[[SoT - Conventional Problem Solving]]"]

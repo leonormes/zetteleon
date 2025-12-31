@@ -6,7 +6,7 @@ criteria: "Must directly relate to the phenomenology of thought, externalization
 epistemic: ""
 exclusions: "General philosophy of mind, consciousness studies not directly related to the thought-writing distinction"
 last_reviewed: ""
-modified: 2025-12-30T17:49:49+00:00
+modified: 2025-12-31T23:08:53+00:00
 purpose: ""
 review_interval: ""
 scope: "Explores why thoughts feel more important in the moment of thinking than when written down, and the cognitive mechanisms underlying this phenomenon"

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-16T00:00:00Z
 epistemic: "derived"
 last_reviewed: "2025-12-16"
-modified: 2025-12-30T17:49:02+00:00
+modified: 2025-12-31T23:08:33+00:00
 purpose: "To define Wabi-Sabi as a spiritual philosophy for finding beauty in imperfection, impermanence, and the harsh realities of life, contrasting its true meaning with common Western misconceptions."
 review_interval: "12 months"
 see_also: ["[[SoT - Mindfulness and Emotional Regulation]]", "[[SoT - Values and Eudaimonia]]"]

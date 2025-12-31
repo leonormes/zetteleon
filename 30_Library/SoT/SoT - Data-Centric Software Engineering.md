@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-22T00:00:00Z
 epistemic: architecture
 last_reviewed: 2025-12-22
-modified: 2025-12-31T13:02:41+00:00
+modified: 2025-12-31T23:08:35+00:00
 purpose: ">-"
 review_interval: 6 months
 see_also: []
@@ -111,6 +111,8 @@ Modern software is often bogged down by abstraction layers that ignore reality. 
 2. **"Code is designed around the model of the world."** (Reality: Code is designed to transform data.)
 3. **"Code is more important than data."** (Reality: Data is paramount.)
 
+> **Hardware Context:** To understand the specific platform you are deploying to (AWS/Azure), consult **[[MOC - Cloud Hardware Architecture]]**.
+
 ### 3.2 The Lie of Object-Oriented Programming (OOP)
 
 OOP organizes data as an **Array of Structures (AoS)** (e.g., `[Ball(x,y,c), Ball(x,y,c)]`). This causes **Cache Pollution**: loading a `Ball` to update its position `x` also loads irrelevant data like color `c` into the CPU cache line.
@@ -122,10 +124,19 @@ DOD organizes data as contiguous arrays of single attributes (e.g., `[x,x,x]`, `
 * **Cache Locality:** The CPU loads only relevant data.
 * **SIMD:** The CPU can process multiple data points in a single clock cycle.
 * **Result:** Orders of magnitude performance improvement (e.g., 10x more entities in game engines).
+* **Deep Dive:** [[SoT - Data-Oriented Programming (DOP)]]
+
+### 3.2 The Snapshot Reality (Git)
+
+Git is the canonical example of a Data-Centric system. By treating commits as **Snapshots** (immutable state) rather than Diffs (operations), Git ensures:
+
+- **Integrity:** The state is verified by its content hash.
+- **Independence:** Any snapshot can be restored without replaying 10,000 intermediate diffs.
+- **Parallelism:** Branching is just a pointer to an existing state in the graph.
 
 ---
 
-## 4. Algorithmic Simplification
+## 4. Minimum Viable Understanding (MVU)
 
 ### Table-Driven Methods
 
@@ -158,8 +169,7 @@ The Data-Centric philosophy is not limited to code; it applies to the entire sta
 
 * **Concept:** The shell environment is a **Data Structure to be instantiated**, not a script to be executed.
 * **Application:** Using Chezmoi as a "Compiler" to resolve Sum Types (OS variants) and Product Types (config structs) into a static environment.
-* **Deep Dive:** [[Impl - Type-Driven Shell Architecture]]
-[[SoT - Type-Driven Shell Architecture|Type-Driven Shell]]
+* **Deep Dive:** [[SoT - Type-Driven Shell Architecture|Type-Driven Shell]]
 
 ---
 
@@ -338,14 +348,14 @@ A well-designed API should guide the user toward correctness by making invalid s
 
 Traits define what a type *can do* rather than what it *is*. This decouples data from implementation and enables retroactive abstraction via **Extension Traits** (adding methods to types you don't own).
 
-### 13.2 The Type State Pattern
+### 14.2 The Type State Pattern
 
 Encode the lifecycle of an object directly into the type system.
 
 * **Logic:** Transitioning between states (e.g., `Unbounded` -> `Bounded`) returns a new type.
 * **Result:** Methods relevant only to a specific state are physically unavailable in other states, turning documentation into compiler-enforced constraints.
 
-### 13.3 Philosophical Root: Leibniz's Dream
+### 14.3 Philosophical Root: Leibniz's Dream
 
 The strict Type System is the practical realization of Gottfried Wilhelm Leibniz's **[[Characteristica Universalis (Leibniz)|Characteristica Universalis]]** (17th Century).
 
@@ -398,7 +408,28 @@ fn patch_chart(tarball: Vec<u8>, migration: VerifiedMigration) -> Result<Vec<u8>
 
 ---
 
-## 16. Summary: The Table of Transcendence
+## 16. The Leakage of Abstraction (Cloud Reality)
+
+In Cloud Computing, the "Abstraction" (vCPU, GiB) is a lie. To achieve true Data-Centric performance, you must pierce the veil of virtualization.
+
+### 16.1 The Lie of the vCPU
+
+A "vCPU" is not a core; it is a time-slice on a hyperthread.
+
+* **Cache Pollution:** When the hypervisor schedules a noisy neighbor on your physical core, they evict your data from L1/L2 cache.
+* **The Penalty:** You incur a ~200-cycle stall to fetch data back from RAM when your thread returns.
+* **Mitigation:** Use **Guaranteed QoS** (Kubernetes) or **Dedicated Instances** (AWS.metal) to pin threads to physical silicon.
+
+### 16.2 NUMA: The Hidden Network
+
+On large instances (e.g., >64 vCPUs), your VM spans multiple physical sockets.
+
+* **The Trap:** A process on Socket 0 accessing memory on Socket 1 incurs **QPI/UPI Interconnect latency** (2x slower).
+* **The Fix:** Use `topologyManagerPolicy: single-numa-node` in Kubernetes to force alignment.
+
+---
+
+## 17. Summary: The Table of Transcendence
 
 | Domain | Mediocre Mental Model | Transcendental Mental Model (The Masters) |
 |:---- |:---- |:---- |

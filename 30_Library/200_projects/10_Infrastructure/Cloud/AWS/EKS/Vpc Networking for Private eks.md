@@ -10,7 +10,7 @@ epistemic: "null"
 iac_path: ["repo: \"terraform-aws-eks-private"]
 last_reviewed: "null"
 main_file: "main.tf"
-modified: 2025-12-30T17:49:40+00:00
+modified: 2025-12-31T23:08:48+00:00
 name: "terraform_cloud"
 next_steps: ""
 path: "modules/vpc2"

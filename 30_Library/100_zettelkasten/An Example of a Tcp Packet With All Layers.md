@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-21T13:23:09Z
 epistemic: "example"
 last_reviewed: ""
-modified: 2025-12-30T17:49:54+00:00
+modified: 2025-12-31T23:08:54+00:00
 purpose: "Provides detailed field-level reference for TCP/IP packet structure across all OSI layers"
 review_interval: ""
 see_also: ["[[Layer 3 Network Layer]]", "[[Layer 4 Transport Layer]]", "[[osi_layers]]", "[[Protocol Data Unit]]"]

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-11T19:05:11Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-30T17:49:53+00:00
+modified: 2025-12-31T23:08:54+00:00
 purpose: "Defines 'curiosity hooks' as a tool for sparking inspiration."
 review_interval: "90"
 see_also: []

@@ -7,7 +7,7 @@ decay-signals: []
 epistemic: theory
 last-synthesis: 2025-12-12
 last_reviewed: 2025-12-07
-modified: 2025-12-30T17:48:59+00:00
+modified: 2025-12-31T23:08:31+00:00
 purpose: To define the canonical framework for habit formation and modification based on James Clear's Atomic Habits.
 quality-markers: [Habit Stacking)., Includes both creation and breaking rules., Maps Laws to the Habit Loop., Provides actionable strategies (Implementation Intentions]
 related-soTs: []

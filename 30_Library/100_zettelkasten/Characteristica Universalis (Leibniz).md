@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-20T12:49:13Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-30T17:49:54+00:00
+modified: 2025-12-31T23:08:54+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -53,4 +53,5 @@ From the perspective of [[SoT - Data-Centric Software Engineering]], this concep
 | **Eliminating Ambiguity** | **Parse, Don't Validate** | **[[SoT - Data-Centric Software Engineering#5. Parse, Don't Validate (Wlaschin)|Parse, Don't Validate]].** We do not guess if data is valid; we translate it into a specific Type (Symbol) that guarantees validity. |
 
 ### The "Compilation" of Reality
+
 Leibniz's dream that "disagreements could be resolved through calculation" is realized in **Static Analysis**. When we model the domain using **Domain-Driven Design (Strategic Modeling)**, we are essentially creating a local *Characteristica Universalis* for that business problem.

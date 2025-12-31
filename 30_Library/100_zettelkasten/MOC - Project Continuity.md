@@ -6,7 +6,7 @@ criteria: "Atomic notes explaining the cognitive challenges or providing specifi
 epistemic: ""
 exclusions: "General project management techniques not focused on cognitive re-engagement."
 last_reviewed: ""
-modified: 2025-12-30T17:49:50+00:00
+modified: 2025-12-31T23:08:53+00:00
 purpose: ""
 review_interval: ""
 scope: "Strategies for maintaining engagement and continuity in long-term projects, especially for neurodivergent minds."

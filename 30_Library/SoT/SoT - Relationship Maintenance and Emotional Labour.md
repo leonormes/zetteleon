@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2025-12-30T17:49:04+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "To define the principles of sustained relationship maintenance and the labour required for repair."
 review_interval: "6 months"
 see_also: ["[[SoT - Framework for Healthy Communication]]"]

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-12T15:00:12Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-30T17:49:52+00:00
+modified: 2025-12-31T23:08:54+00:00
 purpose: "To explain the strategy of making progress visible to bypass ADHD working memory deficits."
 review_interval: "90"
 see_also: ["[[Brain Dumping Offloads Cognitive Load to an External System]]", "[[Working Memory Limitations in ADHD]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-12"
-modified: 2025-12-30T17:49:04+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "Canonical definition and implications of the Spotlight Effect within social cognition and self-perception."
 review_interval: "6 months"
 see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Social Cognition & Self-Perception]]"]

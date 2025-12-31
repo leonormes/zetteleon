@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T19:53:33Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2025-12-30T17:49:03+00:00
+modified: 2025-12-31T23:08:33+00:00
 purpose: "To define the plastic nature of human bodily boundaries and the physiological mechanisms of tool incorporation."
 review_interval: "6 months"
 see_also: ["[[SoT - Functional Mobility & Primal Movement]]", "[[SoT - The Extended Mind]]"]

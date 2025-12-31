@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T10:27:26Z
 epistemic: "metaphor"
 last_reviewed: "2025-10-31T00:00:00.000Z"
-modified: 2025-12-30T17:49:46+00:00
+modified: 2025-12-31T23:08:51+00:00
 purpose: "Metaphor for understanding how systems channel variable motivation"
 review_interval: "90"
 see_also: []

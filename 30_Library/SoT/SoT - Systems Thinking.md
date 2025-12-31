@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-30T17:49:04+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "To define the mental model of viewing reality as interconnected networks of elements, flows, and feedback loops rather than isolated linear events."
 review_interval: "3 months"
 see_also: ["[[SoT - Process Primacy (Systems Over Goals)]]"]

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-06T20:01:02Z
 epistemic: "model"
 last_reviewed: "2025-11-06"
-modified: 2025-12-30T17:49:54+00:00
+modified: 2025-12-31T23:08:54+00:00
 purpose: "To define the internal gaps in group understanding caused by bias and poor communication."
 review_interval: "90"
 see_also: []

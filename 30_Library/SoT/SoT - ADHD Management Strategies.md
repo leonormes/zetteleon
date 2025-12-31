@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-30T00:00:00Z
 epistemic: "strategy"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T17:49:02+00:00
+modified: 2025-12-31T23:08:36+00:00
 purpose: "The master manual of tactical interventions and environmental design for managing ADHD executive function."
 review_interval: "3 months"
 see_also: ["[[SoT - ADHD & Executive Function]]", "[[SoT - ADHD Emotional Regulation]]", "[[SoT - PRODOS (System Architecture)]]"]

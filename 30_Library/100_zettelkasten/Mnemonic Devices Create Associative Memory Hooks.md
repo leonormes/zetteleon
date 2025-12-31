@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T10:06:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-30T17:49:49+00:00
+modified: 2025-12-31T23:08:52+00:00
 purpose: "Explain how mnemonics aid memory through association."
 review_interval: "90"
 see_also: ["Memory Enables Learning by Storing Experiences for Future Use.md"]

@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T21:35:00Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2025-12-30T17:49:54+00:00
+modified: 2025-12-31T23:08:54+00:00
 purpose: "To describe the origin of Aesop's fables in oral tradition."
 review_interval: "90"
 see_also: ["[[Sequence - Evolution of Fable Storytelling]]"]

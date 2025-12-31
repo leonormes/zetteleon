@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-10T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-30T17:49:04+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "To define the canonical understanding of Social Stratification as a structural system of inequality."
 review_interval: "1 year"
 see_also: ["[[SoT - The Evolutionary Biology of Status]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]

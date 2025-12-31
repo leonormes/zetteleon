@@ -6,7 +6,7 @@ criteria: "Notes must describe a specific flaw or psychological trap of prioriti
 epistemic: ""
 exclusions: "The benefits of systems, which are covered in a separate map."
 last_reviewed: ""
-modified: 2025-12-30T17:49:47+00:00
+modified: 2025-12-31T23:08:52+00:00
 purpose: ""
 review_interval: ""
 scope: "The specific problems inherent in a goals-first mentality."

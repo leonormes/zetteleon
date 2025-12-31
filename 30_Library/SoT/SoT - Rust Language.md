@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-27T14:11:28+00:00
 epistemic: "knowledge"
 last_reviewed: "2025-12-30"
-modified: 2025-12-31T11:19:07+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "The canonical entry point for the Rust programming language in ProdOS, defining its philosophy, architecture, and role."
 review_interval: "6 months"
 see_also: ["[[MOC - Rust Programming Language]]", "[[SoT - Rust's Ownership Model]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[SoT - Rust Type Mechanics]]"]
@@ -120,3 +120,14 @@ The safety of Rust is not just heuristic; it is formally verified.
 - **Memory:** [[SoT - Rust's Ownership Model]] (The Borrow Checker mechanics)
 - **Types:** [[SoT - Rust Type Mechanics]] (Enums, Traits, Generics)
 - **Strategy:** [[SoT - Type-Driven Development (The Torvalds Loop)]] (Parse don't validate)
+
+---
+
+## 8. Advanced Paradigms: Data-Oriented Programming
+
+Rust is the *lingua franca* of **Data-Oriented Programming (DOP)** because it exposes memory layout control without sacrificing safety.
+
+* **SoA Support:** The borrow checker allows safe splitting of arrays (e.g., `split_at_mut`), enabling parallel processing of Structure-of-Arrays layouts.
+* **SIMD:** Auto-vectorization in LLVM is triggered reliably by Rust's immutable-by-default iterators.
+* **Ecosystem:** Rust hosts the world's most advanced ECS (Entity Component System) frameworks like **Bevy** and **Flecs**.
+* **Deep Dive:** [[SoT - Data-Oriented Programming (DOP)]] & [[SoT - Entity Component System (ECS)]]

@@ -5,7 +5,7 @@ created: 2025-07-07T09:40:14Z
 epistemic: ""
 id: "A Concept Map for a Flourishing Human"
 last_reviewed: ""
-modified: 2025-12-30T17:49:21+00:00
+modified: 2025-12-31T23:08:41+00:00
 purpose: ""
 review_interval: ""
 see_also: []

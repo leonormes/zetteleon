@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:46:10Z
 epistemic: "strategy"
 last_reviewed: "2025-12-23"
-modified: 2025-12-30T17:49:05+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "A three-step, CBT-based framework for habit formation and modification designed for the ADHD brain's need for structure over willpower."
 review_interval: "6 months"
 see_also: ["[[SoT - Identity-Based Habit Formation]]", "[[SoT - The Four Laws of Behavior Change]]"]

@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-24T12:12:06Z
 epistemic: synthesis
 last_reviewed: 2025-12-24
-modified: 2025-12-30T17:49:03+00:00
+modified: 2025-12-31T23:08:33+00:00
 purpose: Canonical source of truth for The Telos Method, a hierarchical framework for self-knowledge and AI context integration.
 review_interval: 6 months
 see_also: ["[[SoT - Identity-Based Habit Formation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Extended Mind Thesis]]"]

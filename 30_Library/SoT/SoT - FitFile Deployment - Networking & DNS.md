@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-10-16T08:22:15Z
 epistemic: "technical"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T17:49:02+00:00
+modified: 2025-12-31T23:08:35+00:00
 purpose: "Technical specification for DNS architecture and hybrid networking within the FitFile environment."
 review_interval: "6 months"
 see_also: ["[[SoT - FitFile Deployment - Strategy & Architecture]]", "[[SoT - FitFile Deployment - Operations & Troubleshooting]]"]

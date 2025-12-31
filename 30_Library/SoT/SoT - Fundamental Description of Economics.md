@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-13T00:00:00Z
 epistemic: "academic"
 last_reviewed: "2025-12-13"
-modified: 2025-12-30T17:49:07+00:00
+modified: 2025-12-31T23:08:35+00:00
 purpose: "To provide a fundamental, academic description of economics as the"
 review_interval: "12 months"
 see_also: ["[[SoT - PRODOS (System Architecture)]]"]

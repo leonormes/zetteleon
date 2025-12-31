@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-29T23:32:47+00:00
 epistemic: "curriculum"
 last_reviewed: "2025-12-29"
-modified: 2025-12-31T14:33:19+00:00
+modified: 2025-12-31T17:11:13+00:00
 purpose: "A purely practical, code-first curriculum to master Type Theory by refactoring code and proving correctness in Rust."
 review_interval: "3 months"
 see_also: ["[[MOC - Type Theory]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
@@ -150,4 +150,4 @@ If you cannot solve a challenge:
 
 1. **Read:** *Parse, Don't Validate* (Alexis King).
 2. **Watch:** *Type-Driven API Design in Rust* (Will Crichton).
-3. **Reference:** [[SoT - Rust's Design Philosophy]].
+3. **Reference:** [[SoT - Rust Language|Rust Design]]

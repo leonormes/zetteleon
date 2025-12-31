@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-30T16:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T17:49:02+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "A dense technical registry of foundational human movement patterns, progressions, and standards."
 review_interval: "6 months"
 see_also: ["[[SoT - Functional Mobility & Primal Movement]]"]

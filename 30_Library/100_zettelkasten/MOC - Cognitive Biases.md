@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-12T12:05:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-30T17:49:51+00:00
+modified: 2025-12-31T23:08:53+00:00
 purpose: "A map of content for cognitive biases, heuristics, and thinking patterns."
 review_interval: ""
 see_also: []

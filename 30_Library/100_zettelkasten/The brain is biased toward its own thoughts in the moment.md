@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-31T20:47:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2025-12-30T17:49:46+00:00
+modified: 2025-12-31T23:08:51+00:00
 purpose: "Explains cognitive bias that privileges our own thoughts with unwarranted significance"
 review_interval: "90"
 see_also: ["[[Thoughts are bundled with phenomenological qualities]]"]

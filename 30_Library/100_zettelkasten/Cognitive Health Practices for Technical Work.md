@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T12:46:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-30T17:49:54+00:00
+modified: 2025-12-31T23:08:54+00:00
 purpose: "List evidence-based practices for mental performance."
 review_interval: "90"
 see_also: ["Optimal Memory Function Requires Sleep, Stress Management and Mental Exercise.md"]

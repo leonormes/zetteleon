@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T15:00:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-30T17:49:47+00:00
+modified: 2025-12-31T23:08:51+00:00
 purpose: "To define the fundamental building block of productivity systems."
 review_interval: "90"
 see_also: []

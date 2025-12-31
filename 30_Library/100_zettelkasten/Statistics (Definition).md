@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T11:22:13Z
 epistemic: "fact"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2025-12-30T17:49:47+00:00
+modified: 2025-12-31T23:08:51+00:00
 purpose: "Define statistics as the applied science of data analysis and inference."
 review_interval: "90"
 see_also: ["[[Probability (Definition)]]"]

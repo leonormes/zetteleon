@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "Unified listening list for Music discovery."
 last_reviewed: "2025-12-31"
-modified: 2025-12-31T00:00:00Z
+modified: 2025-12-31T23:08:36+00:00
 purpose: "A unified checkbox list for tracking music discovery and listening."
 review_interval: "3 months"
 see_also: ["[[Sci-Fi Watchlist (Screen)]]", "[[Sci-Fi Watchlist (Books)]]"]
@@ -31,6 +31,7 @@ updated:
 ## 2. Electronic / IDM / Experimental
 
 ### The IDM Canon (Pitchfork/Consensus)
+
 - [x] **Aphex Twin** - *Selected Ambient Works / Drukqs* (Implicit Reference)  [completion:: 2025-12-31]
 - [ ] **Autechre** - *Tri Repetae* (Rhythm deconstruction)
 - [x] **Boards of Canada** - *In a Beautiful Place Out in the Country* (Psychedelic nostalgia)  [completion:: 2025-12-31]
@@ -46,6 +47,7 @@ updated:
 - [ ] **Clark** - *Body Riddle*
 
 ### Minimal & Glitch
+
 - [ ] **Jan Jelinek** - *Loop-Finding-Jazz-Records*
 - [ ] **Pole** - *1*
 - [ ] **Farben** - *Textstar*
@@ -54,6 +56,7 @@ updated:
 - [ ] **Various Artists** - *Clicks_&_Cuts* (Seminal compilation)
 
 ### Deep / Ambient / Texture
+
 - [ ] **Tycho** - *Dive / Awake* (Expansive soundscapes)
 - [ ] **Jon Hopkins** - *Immunity*
 - [ ] **Floating Points** - *Crush / Elaenia* (Jazz/Classical fusion)
@@ -65,6 +68,7 @@ updated:
 - [ ] **Arca** - *Xen / Mutant*
 
 ### 90s Drum & Bass / Jungle (Old Skool)
+
 - [ ] **Unit 1** - *Arden*
 - [ ] **Invisible Man** - *The Bell Tune*
 - [ ] **Bass Influence** - *All Massive*
@@ -89,6 +93,7 @@ updated:
 - [ ] **Aladdin** - *Mash Up Yer Know*
 
 ### Other Electronic Projects
+
 - [ ] **Blectum from Blechdom** - *Haus de Snaus*
 - [ ] **Kid606** - *Down with the Scene*
 - [ ] **Flying Lotus** - *Los Angeles*
@@ -130,6 +135,7 @@ updated:
 ## 4. 20th Century Composers (Classical Modernism)
 
 ### The Titans
+
 - [ ] **Igor Stravinsky** - *The Rite of Spring*
 - [ ] **Arnold Schoenberg** - *Verklärte Nacht / Pierrot Lunaire*
 - [ ] **Dmitri Shostakovich** - *Symphony No. 5*
@@ -137,6 +143,7 @@ updated:
 - [ ] **Benjamin Britten** - *War Requiem*
 
 ### The Avant-Garde & Minimalists
+
 - [ ] **John Cage** - *4'33"* / *Sonatas and Interludes*
 - [ ] **Karlheinz Stockhausen** - *Gesang der Jünglinge*
 - [ ] **Edgard Varèse** - *Poème électronique*
@@ -145,6 +152,15 @@ updated:
 - [ ] **Steve Reich** - *Music for 18 Musicians*
 
 ### Other Essentials
+
 - [ ] **Edward Elgar** - *Cello Concerto*
 - [ ] **Ralph Vaughan Williams** - *The Lark Ascending*
 - [ ] **Sergei Prokofiev** - *Romeo and Juliet*
+
+---
+
+## 5. Curated: Brian Eno's "Soil" (Ezra Klein Show)
+
+- [ ] **The Rural Folk Blues** (Folkways Records) - *The raw material of pop.*
+- [ ] **The Velvet Underground** - *The Velvet Underground* (3rd Album) - *"Pale Blue Eyes" as catalyst.*
+- [ ] **The Consolers** - *Sullivan and Iola Pugh* - *Outsider gospel music.*

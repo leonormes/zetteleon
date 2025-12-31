@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T10:32:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-30T17:49:51+00:00
+modified: 2025-12-31T23:08:53+00:00
 purpose: "Explain load balancer functionality in cloud networks."
 review_interval: "90"
 see_also: ["Data-Centric Networking Focuses on Packet Journey Through Devices.md"]

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-06T20:00:02Z
 epistemic: "insight"
 last_reviewed: "2025-11-06"
-modified: 2025-12-30T17:49:45+00:00
+modified: 2025-12-31T23:08:50+00:00
 purpose: "To explain how writing creates psychological distance for more objective self-evaluation."
 review_interval: "90"
 see_also: []

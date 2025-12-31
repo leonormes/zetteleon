@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-13T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-13"
-modified: 2025-12-30T17:49:07+00:00
+modified: 2025-12-31T23:08:35+00:00
 purpose: "To define Git as the foundational distributed version control system, detailing its data model, core concepts, essential workflows, and security principles for robust software configuration management."
 review_interval: "6 months"
 see_also: ["[[SoT - Software Configuration Management Patterns]]"]

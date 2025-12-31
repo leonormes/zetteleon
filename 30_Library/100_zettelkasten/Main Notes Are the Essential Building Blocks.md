@@ -4,7 +4,7 @@ confidence: "0.95"
 created: 2025-10-30T15:31:09Z
 epistemic: "fact"
 last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2025-12-30T17:49:49+00:00
+modified: 2025-12-31T23:08:52+00:00
 purpose: "Defines the core note type in Zettelkasten methodology"
 review_interval: "180"
 see_also: []

@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-02-15T07:24:57Z
 epistemic: architecture
 last_reviewed: 2025-12-26
-modified: 2025-12-31T10:18:44+00:00
+modified: 2025-12-31T23:08:36+00:00
 purpose: The central index for cultivating Data-Centric Software Engineering skills and methodology.
 review_interval: 6 months
 see_also: ["[[SoT - Data-Centric Software Engineering]]"]
@@ -68,7 +68,7 @@ Applying these principles beyond code to the entire engineering stack.
 - **Secrets:** [[SoT - Vault KV Data Structure]]—*Vault as a Versioned Trie of JSON Documents.*
 - **Integrity:** [[SoT - Vault KV Data Structure#6. The Integrity Model (Merkle Tree)|Merkle Trees]]—*Recursive integrity proofs and binary identity.*
 - **Control Planes:** [[SoT - Vault KV Data Structure#7. Comparison: Vault vs. Kubernetes vs. GitOps|Reconciliation vs. Sync]]—*Functional equivalence (K8s) vs. Cryptographic identity (Vault).*
-- **Infrastructure:** [[MOC - Data-Centric Infrastructure]] —*Treating configuration as a Data Schema.*
+- **Infrastructure:** [[MOC - Data-Centric Infrastructure]]—*Treating configuration as a Data Schema.*
 - **Shell Environment:** [[SoT - Type-Driven Shell Architecture]]—*The Shell as an instantiated Data Structure.*
 
 ### B. Networking & IAM

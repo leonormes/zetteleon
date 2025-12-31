@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-29T21:52:00+00:00
 epistemic: "foundational"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T17:49:03+00:00
+modified: 2025-12-31T23:08:33+00:00
 purpose: "To provide the mathematical justification for Type-Driven Development and Data-Oriented Design, linking Abstract Algebra to Physical Memory."
 review_interval: "1 year"
 see_also: ["[[SoT - Type-Driven Infrastructure Strategy]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]

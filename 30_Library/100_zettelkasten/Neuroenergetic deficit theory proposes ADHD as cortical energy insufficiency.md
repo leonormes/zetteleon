@@ -4,7 +4,7 @@ confidence: "0.75"
 created: 2025-10-31T00:03:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2025-12-30T17:49:49+00:00
+modified: 2025-12-31T23:08:52+00:00
 purpose: "Explains the neurobiological theory that ADHD represents an energy-deficit syndrome affecting task initiation"
 review_interval: "90"
 see_also: ["[[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]", "[[Task initiation requires prefrontal cortex activation and dopamine signaling]]"]

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-30T17:49:55+00:00
+modified: 2025-12-31T23:08:55+00:00
 purpose: "Explain how repeated behaviors create proof that solidifies identity beliefs."
 review_interval: "90"
 see_also: ["[[Every Action is a Vote for Who You Wish to Become]]", "[[Identity Emerges from Habits Not Fixed at Birth]]", "[[Two-Step Identity Change Process]]"]

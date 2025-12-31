@@ -6,7 +6,7 @@ criteria: "Atomic notes defining the layers of change, the role of identity, and
 epistemic: ""
 exclusions: "Specific habit-formation techniques (e.g., habit stacking) unless directly related to identity."
 last_reviewed: ""
-modified: 2025-12-30T17:49:50+00:00
+modified: 2025-12-31T23:08:53+00:00
 purpose: ""
 review_interval: ""
 scope: "The relationship between habits and identity as the core driver of behavior change."

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T15:15:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-30T17:49:47+00:00
+modified: 2025-12-31T23:08:51+00:00
 purpose: "To explain how the atomic action framework supports executive functions."
 review_interval: "90"
 see_also: ["[[Executive Function Challenges are Central to ADHD]]"]

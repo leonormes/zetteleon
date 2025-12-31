@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:24:46Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2025-12-30T17:49:04+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "To define the biological mechanisms that allow for the sharing and alignment of mental models between individuals."
 review_interval: "6 months"
 see_also: ["[[SoT - The Data Architecture of DNS]]", "[[SoT - The Extended Mind]]"]

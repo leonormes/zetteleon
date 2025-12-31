@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2025-12-30T17:49:46+00:00
+modified: 2025-12-31T23:08:51+00:00
 purpose: "To provide a high-fidelity analogy for understanding the self as an intentional agent."
 review_interval: "1 year"
 see_also: ["[[SoT - Intentional Living]]"]

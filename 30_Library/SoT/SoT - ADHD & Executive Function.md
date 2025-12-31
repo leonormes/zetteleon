@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-06T09:29:49Z
 epistemic: "theory"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T17:49:02+00:00
+modified: 2025-12-31T23:08:36+00:00
 purpose: "The canonical definition of ADHD neurology and functional constraints within the ProdOS framework."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD Management Strategies]]", "[[SoT - ADHD Emotional Regulation]]", "[[SoT - PRODOS (System Architecture)]]"]

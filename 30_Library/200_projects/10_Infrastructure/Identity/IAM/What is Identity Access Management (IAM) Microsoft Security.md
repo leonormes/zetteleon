@@ -6,7 +6,7 @@ created: 2025-07-03T00:00:00Z
 description: "Learn about identity and access management (IAM) and how it helps organizations secure, manage, and define roles and access privileges for users and identities."
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-30T17:49:35+00:00
+modified: 2025-12-31T23:08:46+00:00
 published: ""
 purpose: ""
 review_interval: ""

@@ -4,7 +4,7 @@ confidence: "1.0"
 created: 2025-11-22T15:00:06Z
 epistemic: "fact"
 last_reviewed: "2025-11-22"
-modified: 2025-12-30T17:49:54+00:00
+modified: 2025-12-31T23:08:54+00:00
 purpose: "Explains how Network Interface Cards access system memory."
 review_interval: "90"
 see_also: []

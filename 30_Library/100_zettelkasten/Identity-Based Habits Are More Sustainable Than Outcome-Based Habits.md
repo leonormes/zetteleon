@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T12:02:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-30T17:49:52+00:00
+modified: 2025-12-31T23:08:53+00:00
 purpose: "To contrast two different approaches to habit formation."
 review_interval: "90"
 see_also: ["[[True Behavior Change is Identity Change]]"]

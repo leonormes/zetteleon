@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T11:37:53Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2025-12-30T17:49:53+00:00
+modified: 2025-12-31T23:08:54+00:00
 purpose: "Explain the neurochemical basis for the trough phase following hyperfixation."
 review_interval: "90"
 see_also: ["[[ADHD Hangover or Brain Fog Following Hyperfixation]]", "[[Dopamine Dysregulation is a Key Factor in ADHD Motivation]]", "[[Hyperfixation Causes Mental Exhaustion and Burnout]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-30T14:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T17:49:02+00:00
+modified: 2025-12-31T23:08:33+00:00
 purpose: "To define the definitive paradigm for making broken infrastructure configurations unrepresentable via Type Theory and Formal Methods."
 review_interval: "6 months"
 see_also: ["[[SoT - Type Theory & Data Structures]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]

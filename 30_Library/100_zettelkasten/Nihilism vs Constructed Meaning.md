@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T13:07:00Z
 epistemic: "comparison"
 last_reviewed: ""
-modified: 2025-12-30T17:49:48+00:00
+modified: 2025-12-31T23:08:52+00:00
 purpose: "Contrast nihilism with active meaning-making."
 review_interval: "90"
 see_also: ["Existentialism - Existence Precedes Essence.md"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-21T10:50:49Z
 epistemic: "process"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T17:49:02+00:00
+modified: 2025-12-31T23:08:35+00:00
 purpose: "The definitive operational guide for deploying a FITFILE node from scratch."
 review_interval: "3 months"
 see_also: ["[[SoT - FitFile Deployment - Strategy & Architecture]]", "[[SoT - FITFILE Secret Management Architecture]]"]

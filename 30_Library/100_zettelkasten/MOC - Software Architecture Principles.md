@@ -5,7 +5,7 @@ created: 2025-10-31T12:38:00Z
 epistemic: "The principles of designing High-Cohesion, Low-Coupling Systems."
 exclusions: "Data-Level Implementation Details (See [[MOC - Data-Centric Software Engineering]])"
 last_reviewed: "2025-12-31"
-modified: 2025-12-31T12:05:00+00:00
+modified: 2025-12-31T23:08:53+00:00
 purpose: "To organize principles regarding System Boundaries, Coupling, and Integration."
 review_interval: "180"
 scope: "Macro-Architecture (System-to-System)"
@@ -23,8 +23,8 @@ updated:
 
 While **[[MOC - Data-Centric Software Engineering]]** governs *how* we build components (Micro), this MOC governs *how* we connect them (Macro).
 
-> "Architecture is about the important stuff. Whatever that is." — *Ralph Johnson*
-> "Architecture represents the significant design decisions that shape a system, where significant is measured by cost of change." — *Grady Booch*
+> "Architecture is about the important stuff. Whatever that is."—*Ralph Johnson*
+> "Architecture represents the significant design decisions that shape a system, where significant is measured by cost of change."—*Grady Booch*
 
 ---
 

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-31T09:20:29Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-30T17:49:49+00:00
+modified: 2025-12-31T23:08:52+00:00
 purpose: "Define meta-accuracy as the degree to which beliefs about how others perceive you match their actual perceptions."
 review_interval: ""
 see_also: []

@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-06T19:54:11Z
 epistemic: "fact"
 last_reviewed: "2025-11-06"
-modified: 2025-12-30T17:49:51+00:00
+modified: 2025-12-31T23:08:53+00:00
 purpose: "To provide actionable strategies for individual developers with ADHD to manage their condition."
 review_interval: "90"
 see_also: []

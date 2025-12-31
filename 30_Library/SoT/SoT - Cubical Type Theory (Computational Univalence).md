@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2025-12-30T17:49:07+00:00
+modified: 2025-12-31T23:08:35+00:00
 purpose: "Explains the architectural solution to the \\\"Computational Content of Univalence\\\" problem in Type Theory."
 review_interval: "1 year"
 see_also: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - Equality in Type Theory (Intensional vs Extensional)]]"]

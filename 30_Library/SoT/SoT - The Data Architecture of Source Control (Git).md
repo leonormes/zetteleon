@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-02-07T00:00:00Z
 epistemic: "architecture"
 last_reviewed: "2025-12-22"
-modified: 2025-12-30T17:49:04+00:00
+modified: 2025-12-31T23:08:33+00:00
 purpose: ">-"
 review_interval: "6 months"
 see_also: []
@@ -17,40 +17,25 @@ uid:
 updated: 
 ---
 
-## 2. State Definition (The Atoms)
+## 1. The Core Model: Snapshots, Not Diffs
 
-The state of a repository is represented by four primary atomic objects, each indexed by a SHA-1 (or SHA-256) hash of its content.
+The fundamental misconception of Git is that it stores a series of "diffs" or "deltas." While `git log -p` presents changes this way for human consumption, the underlying storage is **Snapshot-based**.
 
-### The Git Object Tuple: `(Hash, Type, Size, Payload)`
+- **The Logic:** Every commit is a complete snapshot of the entire project tree at a specific point in time.
+- **The Mechanic:** Git uses a Content-Addressable storage model. If a file does not change between commits, the new commit simply points to the existing **Blob** (binary large object) from the previous snapshot.
+- **Presentation vs. Storage:** Diffs are calculated on-the-fly during commands like `git diff`. Storage optimizations (deltas) happen internally via "Packfiles," but this is an implementation detail that does not change the logic of the object graph.
 
-| Object Type | Conceptual Role | Data Content |
-|:--- |:--- |:--- |
-| **Blob** | **File State** | Raw byte stream of a file's content. No metadata (names/perms). |
-| **Tree** | **Directory State** | A list of tuples: `(Mode, Type, Hash, Name)`. Maps names to Blobs or other Trees. |
-| **Commit** | **Point-in-Time State** | A tuple: `(Tree_Hash, Parent_Hashes, Author, Message)`. Defines a snapshot and its lineage. |
-| **Tag** | **Named State** | A persistent alias for a specific Object Hash. |
+## 2. The Trinity of Objects (The DAG)
 
----
+Git's reality is constructed from three primary object types, identified by SHA-1 hashes:
 
-## 3. Structural Mapping (The Layout)
-
-The complexity of SCM resides in the **Merkle DAG** structure, which provides cryptographically verifiable integrity and efficient state comparison.
-
-### The Merkle DAG (The Object Store)
-
-State is organized as a graph of hashes:
-
-- **Content-Addressability:** The `Hash(Content)` is the primary key. If two files have identical content, they share the same **Blob** atom, providing "free" deduplication.
-- **Recursive Hashing:** A **Tree** hash depends on the hashes of its children. A change in a single leaf (Blob) cascades up, changing the Root Tree hash and the subsequent Commit hash.
-
-### References (The Mutable Pointers)
-
-While the Object Store is immutable, the user interacts with it via **Refs**.
-
-- **Branch:** A mutable pointer to a **Commit** node.
-- **HEAD:** A symbolic link pointing to the "active" Branch ref.
+1. **Blobs (Content):** Pure data. No filenames, no permissions. Just the bytes of a file.
+2. **Trees (Structure):** The equivalent of a directory. Maps names and permissions to Blobs or other Trees.
+3. **Commits (Metadata):** A pointer to a root Tree, a list of parent commits, and author/message metadata.
 
 ---
+
+## 3. Data-Centric Implications
 
 ## 4. Invariants & Constraints
 

@@ -4,7 +4,7 @@ confidence: "0.90"
 created: 2025-10-31T00:04:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2025-12-30T17:49:53+00:00
+modified: 2025-12-31T23:08:54+00:00
 purpose: "Describes the neurophysiological deficit in error detection observable in ADHD"
 review_interval: "90"
 see_also: ["[[ADHD shows reduced dorsolateral prefrontal cortex activation during sustained attention]]", "[[Performance monitoring activates anterior cingulate cortex]]"]

@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-07-16T17:30:02Z
 epistemic: "structural"
 last_reviewed: "2025-11-02"
-modified: 2025-12-30T17:49:51+00:00
+modified: 2025-12-31T23:08:53+00:00
 purpose: "To serve as a central map for understanding character, virtue, and the 24 strengths identified by the VIA Institute."
 review_interval: "180"
 see_also: []

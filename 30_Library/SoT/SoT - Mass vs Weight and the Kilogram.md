@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: "scientific"
 last_reviewed: "2025-12-12"
-modified: 2025-12-30T17:49:06+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "Canonical definition of mass vs. weight and the modern definition of the kilogram based on the Planck constant."
 review_interval: "2 years"
 see_also: ["[[SoT - Reality", "[[what is the difference between mass and weight]]", "and the Limits of Accuracy]]", "Models"]

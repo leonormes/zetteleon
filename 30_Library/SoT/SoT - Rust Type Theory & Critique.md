@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-29T11:13:41+00:00
 epistemic: "critical"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T17:49:02+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "To document the theoretical underpinnings, formal modeling efforts, and academic critiques of the Rust Type System."
 review_interval: "1 year"
 see_also: ["[[SoT - Rust Type System]]", "[[SoT - Dependent Types in Software]]"]

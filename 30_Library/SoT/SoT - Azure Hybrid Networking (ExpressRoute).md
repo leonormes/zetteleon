@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-30T11:41:24+00:00
 epistemic: "architecture"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T17:49:08+00:00
+modified: 2025-12-31T23:08:36+00:00
 purpose: "To define the architectural standards for secure Azure Hybrid Networking using ExpressRoute, focusing on Isolation, Routing, and Egress control."
 review_interval: "12 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - Secure Cross-Cloud Data Transport]]", "[[SoT - Type-Driven Infrastructure as Code]]"]

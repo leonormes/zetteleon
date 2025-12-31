@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-30T16:15:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T17:49:02+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "A unified system for tracking health events (migraines) and visualizing trends using Dataview and Tracker."
 review_interval: "3 months"
 see_also: ["[[SoT - Metabolic Health & Satiety Management]]"]

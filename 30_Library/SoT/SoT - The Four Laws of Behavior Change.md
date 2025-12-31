@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-07T00:00:00Z
 epistemic: "theory"
 last_reviewed: "2025-12-07"
-modified: 2025-12-30T17:49:03+00:00
+modified: 2025-12-31T23:08:33+00:00
 purpose: "To define the canonical framework for habit formation and modification based on James Clear's Atomic Habits."
 review_interval: "6 months"
 see_also: ["[[Behavior Change Occurs on Three Layers Outcomes Process and Identity]]", "[[Habits are Automatic Behaviors Triggered by Environmental Cues]]", "[[Implementation Intentions Automate Action Initiation with If-Then Plans]]", "[[Making a behavior easy increases the likelihood it will become a habit]]"]

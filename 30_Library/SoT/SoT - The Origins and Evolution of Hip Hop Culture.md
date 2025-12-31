@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-30T17:49:03+00:00
+modified: 2025-12-31T23:08:33+00:00
 purpose: "To serve as the definitive Source of Truth for the origins, cultural context, and evolution of Hip Hop culture and its four elements (DJing, MCing, Breaking, Graffiti)."
 review_interval: "12 months"
 see_also: ["[[Expressive Music Organically Builds Its Own Scene]]", "[[Music as Expression is Born From a Genuine Human Need]]"]

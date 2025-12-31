@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-12"
-modified: 2025-12-30T17:49:08+00:00
+modified: 2025-12-31T23:08:36+00:00
 purpose: "Canonical synthesis of the emotional and strength-based approach to living with ADHD, focusing on self-compassion, connection, and interdependence."
 review_interval: "1 year"
 see_also: ["[[MOC - Cognitive Biases]]", "[[MoC - The Roots of Shame and Feeling Defective]]", "[[Moving Towards Self-Compassion and Understanding Your Strengths]]", "[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - Mindfulness and Emotional Regulation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Social Cognition & Self-Perception]]"]

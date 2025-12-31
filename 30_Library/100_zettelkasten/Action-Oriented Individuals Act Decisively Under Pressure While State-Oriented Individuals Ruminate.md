@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-12T14:10:08Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-30T17:49:54+00:00
+modified: 2025-12-31T23:08:55+00:00
 purpose: "To define action orientation vs. state orientation."
 review_interval: "90"
 see_also: []

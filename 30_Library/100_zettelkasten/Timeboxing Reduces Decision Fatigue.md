@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T21:04:00Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-30T17:49:46+00:00
+modified: 2025-12-31T23:08:51+00:00
 purpose: "To explain how timeboxing reduces decision fatigue."
 review_interval: "90"
 see_also: ["[[Decision Fatigue]]", "[[Timeboxing Creates Structure for Action]]"]

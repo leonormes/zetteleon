@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-31T09:52:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-30T17:49:53+00:00
+modified: 2025-12-31T23:08:54+00:00
 purpose: "Define creativity as a component of intelligence."
 review_interval: "90"
 see_also: ["The Neuroscience of Developer Cognition.md"]

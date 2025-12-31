@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-20T20:01:29Z
 epistemic: "strategy"
 last_reviewed: "2025-12-23"
-modified: 2025-12-30T17:49:08+00:00
+modified: 2025-12-31T23:08:36+00:00
 purpose: "To provide a single, canonical Source of Truth for the principles, systems, and strategies for managing action, especially within an ADHD-aware context."
 review_interval: "6 months"
 see_also: ["[[SoT - Bridging the Intention-Action Gap]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Protocol - The Launch Sequence]]"]
@@ -60,9 +60,9 @@ An MVA is a "momentum spark" designed to bypass initiation resistance.
 A critical skill in ProdOS is distinguishing between **Motion** (preparatory activity) and **Action** (behavior that produces tangible results).
 
 - **Motion:** Activities that create the *conditions* for action but do not directly move the project toward completion.
-    *   *Includes:* Planning, strategizing, learning, brainstorming, and organizing.
-    *   *The Trap:* Motion feels productive and safe, providing a false sense of accomplishment while avoiding the risk of failure inherent in action.
-    *   *Deep Dive:* [[SoT - Motion vs Action (The Physics of Productivity)]]
+    * *Includes:* Planning, strategizing, learning, brainstorming, and organizing.
+    * *The Trap:* Motion feels productive and safe, providing a false sense of accomplishment while avoiding the risk of failure inherent in action.
+    * *Deep Dive:* [[SoT - Motion vs Action (The Physics of Productivity)]]
 - **Action:** Physical behavior that leads to a demonstrable outcome.
     - *The Test:* **"If I stopped this activity right now, would I be any closer to my goal?"**
     - *Example:* Outlining 20 ideas (Motion) vs. Writing one paragraph (Action).

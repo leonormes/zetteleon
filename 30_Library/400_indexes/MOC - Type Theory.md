@@ -1,10 +1,11 @@
 ---
+aliases: []
 alias: ["Type Theory Index", "PLT MOC", "Programming Language Theory Index"]
 confidence: "5/5"
 created: 2025-12-29T21:52:02+00:00
 epistemic: "The central entry point for Type Theory, linking mathematical foundations with software engineering practices."
 last_reviewed: "2025-12-31"
-modified: 2025-12-31T12:10:00+00:00
+modified: 2025-12-31T23:08:36+00:00
 purpose: "To bridge the gap between rigorous Mathematical Logic (Isomorphism, Homotopy) and Pragmatic Software Engineering (Rust, Data-Centric)."
 review_interval: "6 months"
 see_also: ["[[MOC - Rust Programming Language]]", "[[MOC - Data-Centric Infrastructure]]", "[[MOC - Data-Centric Software Engineering]]"]
@@ -30,10 +31,9 @@ Software architecture is an exercise in **Applied Type Theory**. By understandin
 The rigorous mathematical rules that govern how data behaves and the "Meta-Framework" linking logic, math, and code.
 
 - **[[SoT - Type Theory & Data Structures]]** - The Master Note. Connects Logic, Math, and Memory.
-- **[[SoT - Algebraic Data Types (ADTs)]]** - The core building blocks: Sum Types (OR) and Product Types (AND).
+- **[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]** - The core building blocks: Sum Types (OR), Product Types (AND), and Exponentials.
 - **[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]** - The full Curry-Howard-Lambek correspondence, defining Products and Sums via Category Theory arrows and duality.
 - **[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]**: The bedrock isomorphism between logical propositions and computer types. "A program is a proof."
-- **[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]**: Understanding types through set cardinality and algebraic laws (Sums, Products, Exponentials).
 
 ---
 
@@ -73,13 +73,15 @@ Applying type theory to eliminate runtime failure in real-world systems.
 How specific languages reify these concepts.
 
 ### Rust (Systems & Affine Types)
-- **[[SoT - Rust's Design Philosophy]]**: Why Rust forces you to think about types.
+
+- **[[SoT - Rust Language]]**: Why Rust forces you to think about types.
 - **[[SoT - Rust's Ownership Model]]**: Implementing Linear Logic (Affine Types) for memory safety.
-- **[[SoT - Rust Type System Modeling (Formality Core)]]**: Making type systems executable and verifiable.
-- **[[SoT - Rust Type System Tensions and Critiques]]**: Analysis of Rust's debt regarding Linearity, Dependent Types, and the ABI.
+- **[[SoT - Rust Type Mechanics]]**: The mechanical components: Generics, Traits, and Layout.
+- **[[SoT - Rust Type Theory & Critique]]**: Formal modeling (Formality Core) and analysis of Rust's theoretical debt.
 - **[[SoT - Proof-Carrying Code via Simulated Dependent Types]]**: Encoding logic proofs into Rust's type system.
 
 ### Haskell & TypeScript (Expressivity)
+
 - **[[SoT - Dependent Haskell and Singletons]]**: Architectural patterns (Promoted Constructors, Singletons) for dependent types.
 - **[[SoT - TypeScript as a Proof Engine (Set Theory and Distributivity)]]**: TypeScript types as Sets and the compiler as a constraint solver.
 - **[[SoT - Interleaved Compilation (The Hackett Architecture)]]**: Fusing Lisp macros with Haskell types.

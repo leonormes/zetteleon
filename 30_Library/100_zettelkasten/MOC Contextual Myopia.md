@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-07-22T08:18:45Z
 epistemic: "psychology"
 last_reviewed: "2025-12-16"
-modified: 2025-12-30T17:49:49+00:00
+modified: 2025-12-31T23:08:52+00:00
 purpose: "A structural map of the cognitive biases that create \\\"Contextual Myopia\\\" and the resulting \\\"Focus Bubble.\\\""
 review_interval: "6 months"
 see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]"]

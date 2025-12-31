@@ -14,8 +14,6 @@ views:
       - status
       - AoL
     sort:
-      - property: AoL
-        direction: ASC
       - property: file.ctime
         direction: DESC
     columnSize:

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-25T13:00:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T21:00:00+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "To define the canonical standards for modern, cloud-native authentication, focusing on token-based flows and cryptographic trust."
 review_interval: "6 months"
 see_also: ["[[SoT - Digital Identity]]", "[[SoT - Cryptography and Encryption]]", "[[MOC - Cloud-Native Authentication]]"]

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-11T19:05:06Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-30T17:49:49+00:00
+modified: 2025-12-31T23:08:52+00:00
 purpose: "Describes a method for lowering the barrier to re-engaging with a project."
 review_interval: "90"
 see_also: []

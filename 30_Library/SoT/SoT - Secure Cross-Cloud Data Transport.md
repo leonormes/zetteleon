@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-03-13T15:51:37Z
 epistemic: "architecture"
 last_reviewed: "2025-12-22"
-modified: 2025-12-30T17:49:04+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "To define the architectural data patterns for secure, private communication between decoupled cloud environments (AWS/Azure)."
 review_interval: "6 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data-Centric Theory of Networking]]"]

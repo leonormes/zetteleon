@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-07-26T19:03:27Z
 epistemic: "synthesis"
 last_reviewed: "2025-12-24"
-modified: 2025-12-30T17:49:51+00:00
+modified: 2025-12-31T23:08:53+00:00
 purpose: "To map the relationship between levels of abstraction and the breadth of human understanding, specifically addressing the mitigation of cognitive myopia."
 review_interval: "6 months"
 see_also: ["[[Mental Models MOC]]", "[[SoT - Myopic Understanding]]"]

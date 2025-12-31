@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-30T17:49:52+00:00
+modified: 2025-12-31T23:08:53+00:00
 purpose: "Establish that identity is not innate but emerges from accumulated habitual behavior."
 review_interval: "90"
 see_also: ["[[Accumulating Evidence Reinforces Identity]]", "[[Every Action is a Vote for Who You Wish to Become]]", "[[Identity Means Repeated Beingness]]"]

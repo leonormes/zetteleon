@@ -5,7 +5,7 @@ created: 2025-07-16T19:03:13Z
 epistemic: ""
 id: "Give me the logic"
 last_reviewed: ""
-modified: 2025-12-30T17:49:22+00:00
+modified: 2025-12-31T23:08:41+00:00
 purpose: ""
 review_interval: ""
 see_also: []

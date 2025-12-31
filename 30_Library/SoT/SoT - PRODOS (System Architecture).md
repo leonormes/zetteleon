@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-11-13T00:00:00Z
 epistemic: "The canonical definition of the ProdOS system architecture."
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T17:49:05+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "The Master Index Note and System Specification for PRODOS, defining its architecture as an ADHD-centric cognitive augmentation system."
 review_interval: "3 months"
 see_also: ["[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]", "[[SoT - PRODOS - Structure & Storage]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - The Extended Mind Thesis]]"]

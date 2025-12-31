@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-10-28T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-22"
-modified: 2025-12-30T17:49:05+00:00
+modified: 2025-12-31T23:08:34+00:00
 purpose: "To define Perfectionism not as a high standard, but as a mechanism of avoidance and anxiety management in ADHD."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - PRODOS - System Failure Modes]]"]

@@ -7,7 +7,7 @@ source_of_truth: []
 aliases: ["MOC - Cyberpunk", "Cyberpunk Index"]
 created: 2025-12-30T00:00:00Z
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T21:10:30+00:00
+modified: 2025-12-31T23:08:36+00:00
 purpose: "Master Index for the Cyberpunk genre, its derivatives, and philosophical underpinnings."
 status: "active"
 tags: ["moc", "index", "scifi", "cyberpunk"]
