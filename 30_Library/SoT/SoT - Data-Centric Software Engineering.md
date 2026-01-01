@@ -1,16 +1,16 @@
 ---
-aliases: []
+alias: []
 confidence: 5/5
 created: 2025-12-22T00:00:00Z
 epistemic: architecture
-last_reviewed: 2025-12-22
-modified: 2025-12-31T23:08:35+00:00
+last_reviewed: 2026-01-01
+modified: 2026-01-01T00:00:00+00:00
 purpose: ">-"
 review_interval: 6 months
-see_also: []
+see_also: ["[[SoT - Rust Type Mechanics]]", "[[SoT - Rust Language]]", "[[SoT - Data-Oriented Programming (DOP)]]"]
 source_of_truth: []
 status: stable
-tags: [data-centric, dod, systems-programming, go]
+tags: [data-centric, dod, systems-programming, go, rust]
 title: SoT - Data-Centric Software Engineering
 type: SoT
 uid:
@@ -21,7 +21,7 @@ updated:
 
 > [!definition] The Core Philosophy
 > "Bad programmers worry about the code. Good programmers worry about data structures and their relationships."—**Linus Torvalds**
->
+> 
 > **Data-Centric Software Engineering** is the discipline of treating **Data Structures** as the primary source of truth and complexity in a system, rendering the **Code** (Logic) as a trivial derivation of that structure.
 
 ### 1.1 The Conservation Law of Complexity
@@ -41,6 +41,7 @@ The industry's most impactful architects share a consensus: **Data Dominates Cod
 | **Fred Brooks** | **Table-Driven** | "Show me your tables, and I won't usually need your flowcharts; they'll be obvious." |
 | **Rob Pike** | **Structural** | "Data dominates. If you've chosen the right data structures... the algorithms will almost always be self-evident." |
 | **Mike Acton** | **Data-Oriented** | "The purpose of all programs is to transform data from one form to another." (Hardware sympathy). |
+| **Andrew Kelley** | **Layout-First** | "Modern performance is governed by memory latency, not instruction speed." |
 
 ### 1.3 Case Study: The "Good Taste" of Linked Lists
 
@@ -58,81 +59,95 @@ Torvalds distinguishes "bad taste" from "good taste" by how a developer handles 
 These ten principles form the structural backbone of the Data-Centric methodology, synthesizing the wisdom of the masters into a unified discipline.
 
 ### 1. Data Dominates Code (Torvalds/Pike)
-
 Algorithms are ephemeral; data structures are foundational. If you choose the right data structures, the algorithms will be self-evident. Complexity in code is a failure of data modeling.
 
-### 2. Mechanical Sympathy (Acton)
-
+### 2. Mechanical Sympathy (Acton/Kelley)
 Hardware is the platform, not the language. Software must respect the physical reality of the machine: cache lines, memory alignment, and instruction pipelines. Design for the hardware, not the "abstract machine."
 
 ### 3. The Conservation of Complexity
-
 Complexity cannot be destroyed, only displaced. Shift complexity from procedural logic (fragile, hard to test) to structural schema (robust, easy to query). Smart data, dumb code.
 
 ### 4. Table-Driven Logic (Brooks)
-
 Replace cyclomatic complexity (nested `if`/`else` logic) with data lookups. Control flow should be determined by traversing a data structure (tables, state machines), not by hard-coded branches.
 
 ### 5. Parse, Don't Validate (Wlaschin)
-
 Use the type system to make invalid states unrepresentable. Do not check for validity deep in the code; parse data at the boundary into strict types that prove their own validity.
 
 ### 6. Value Semantics (The Stack)
-
 Prefer immutable values (copies) over mutable references (pointers). Value semantics guarantee local reasoning, thread safety, and cache locality. Pointers introduce action-at-a-distance and aliasing bugs.
 
 ### 7. Semantic Compression (Muratori)
-
 Avoid premature abstraction. Write the specific, concrete solution first. Only when patterns physically repeat should you "compress" them into a function. DRY (Don't Repeat Yourself) is a result, not a goal.
 
 ### 8. The Error Kernel (Armstrong)
-
 Reliability comes from isolation, not defensive coding. Partition systems into a "Kernel" (must be correct) and "User Space" (allowed to crash). Supervision hierarchies manage failure; they do not prevent it.
 
 ### 9. Simplicity vs. Easy (Hickey)
-
 Simplicity is the absence of interleaving (decomplected). "Easy" is merely familiarity. Strive for Simple (unbraided state), even if it is not Easy (requires learning).
 
 ### 10. Specification First (Lamport)
-
 Coding is the final, trivial step. Understanding the problem is the work. Model the system's state space and invariants mathematically (or rigorously) before writing a single line of implementation.
 
 ---
 
-## 3. The Hardware Reality: Data-Oriented Design (DOD)
+## 3. The Hardware Reality: Data-Oriented Design (DoD)
 
-Data-centricity is not just logical elegance; it is a physical requirement of modern hardware.
+Data-centricity is not just logical elegance; it is a physical requirement of modern hardware. The CPU does not see "Objects"; it sees **Structure** and **Stride**.
 
 ### 3.1 Mike Acton and the "Three Big Lies"
 
-Modern software is often bogged down by abstraction layers that ignore reality. Acton identifies three pervasive industry lies:
+Modern software is often bogged down by abstraction layers that ignore reality. Mike Acton (Unity) identifies three pervasive industry lies:
 
-1. **"Software is the platform."** (Reality: Hardware is the platform.)
-2. **"Code is designed around the model of the world."** (Reality: Code is designed to transform data.)
-3. **"Code is more important than data."** (Reality: Data is paramount.)
+1.  **"Software is the platform."**
+    *   *The Lie:* We write code for Java, C#, or Python.
+    *   *The Reality:* **Hardware is the platform.** Reasoning about software independent of hardware is a denial of engineering reality.
+2.  **"Code is designed around the model of the world."**
+    *   *The Lie:* We should model a "Dog" class because dogs exist in the real world.
+    *   *The Reality:* **Code is designed to transform data.** The CPU does not know what a "Dog" is; it only processes streams of bytes.
+3.  **"Code is more important than data."**
+    *   *The Lie:* We study syntax, patterns, and hierarchies.
+    *   *The Reality:* **Data is paramount.** Code only exists to manipulate data. If you don't understand the data layout, you cannot understand the performance.
 
 > **Hardware Context:** To understand the specific platform you are deploying to (AWS/Azure), consult **[[MOC - Cloud Hardware Architecture]]**.
 
-### 3.2 The Lie of Object-Oriented Programming (OOP)
+### 3.2 The Physics of Computing (Mental Models)
 
-OOP organizes data as an **Array of Structures (AoS)** (e.g., `[Ball(x,y,c), Ball(x,y,c)]`). This causes **Cache Pollution**: loading a `Ball` to update its position `x` also loads irrelevant data like color `c` into the CPU cache line.
+To engineer for the machine, we must internalize its physical constraints.
 
-### The Solution: Structure of Arrays (SoA)
+#### A. The Kitchen Analogy (Nic Barker)
+*   **The Chef (CPU):** Can chop vegetables (process instructions) incredibly fast.
+*   **The Counter (L1 Cache):** Holds a small amount of ingredients right in front of the chef. Access is instant (~3 cycles).
+*   **The Supermarket (Main RAM):** Where all the ingredients live.
+*   **The Problem:** Going to the supermarket takes **~200-300 cycles**.
+*   **The Consequence:** If your data is scattered (pointers/objects), you are driving to the supermarket to buy *one single onion* for every chop. The Chef spends 99% of their time waiting for the truck.
 
-DOD organizes data as contiguous arrays of single attributes (e.g., `[x,x,x]`, `[y,y,y]`).
+#### B. The Cache Line (The Truck)
+*   **The Unit of Transfer:** Memory is not fetched byte-by-byte; it is fetched in **64-byte chunks** (Cache Lines).
+*   **The Efficiency Rule:** Every byte fetched into the cache line *must* be used.
+*   **The OOP Failure:** Standard objects are "Swiss Cheese" in memory—data + vtables + padding + pointers. You fetch 64 bytes to use 4 bytes. This is **~90% bandwidth waste**.
 
-* **Cache Locality:** The CPU loads only relevant data.
-* **SIMD:** The CPU can process multiple data points in a single clock cycle.
-* **Result:** Orders of magnitude performance improvement (e.g., 10x more entities in game engines).
-* **Deep Dive:** [[SoT - Data-Oriented Programming (DOP)]]
+### 3.3 The DoD Optimisation Toolbox
 
-### 3.2 The Snapshot Reality (Git)
+To maximise "Cache Density" (packing the truck efficiently), we use specific structural patterns.
 
-Git is the canonical example of a Data-Centric system. By treating commits as **Snapshots** (immutable state) rather than Diffs (operations), Git ensures:
+| Strategy | OOP Approach (The Anti-Pattern) | DoD Approach (The Solution) | Result |
+| :--- | :--- | :--- | :--- |
+| **Storage** | **Array of Structures (AoS).** `[Ball(x,y,c), Ball(x,y,c)]`. | **Structure of Arrays (SoA).** `[x,x,x]`, `[y,y,y]`. | **100% Cache Line Utilization.** The CPU processes homogeneous streams. |
+| **State** | **Boolean Flags.** `if (obj.isActive) update()`. | **Existence-Based Predication.** Move "Active" objects to a separate array. | **Zero Branching.** Iterate linearly over the "Active" array. |
+| **Polymorphism** | **Virtual Functions.** `shape.Area()`. Forces a pointer chase + vtable lookup. | **Tagged Unions (Enums).** `match shape { Circle, Rect }`. | **Instruction Locality.** Data is contiguous; branch prediction works. |
+| **References** | **Pointers (8 bytes).** `*Object`. Latency spike on dereference. | **Indexes (4 bytes).** `u32` ID. | **Halved size.** Better cache density; verifiable safety. |
 
-- **Integrity:** The state is verified by its content hash.
-- **Independence:** Any snapshot can be restored without replaying 10,000 intermediate diffs.
-- **Parallelism:** Branching is just a pointer to an existing state in the graph.
+### 3.4 Constructive Realism: The Synthesis
+
+**Thesis:** High-level Correctness (Logic/Type Theory) and Low-level Performance (Physics/Layout) are isomorphic.
+
+*   **The Conflict:** Engineers often choose between "Clean Code" (Abstractions) and "Fast Code" (Hacks).
+*   **The Synthesis:** Use **Type Theory** to rigorously define the **Data Layout**. The Type System becomes the "Compiler's Physics Engine," ensuring that logical impossibilities are physically unrepresentable.
+
+#### Empirical Validation: The Cost of "Clean Code"
+Casey Muratori demonstrated that adhering to "Clean Code" dogmas (Polymorphism, Encapsulation) degrades performance by **1.5x to 10x**.
+*   **The Cost:** A 10x loss erases ~12 years of hardware advancement. It effectively runs modern hardware at 2010 speeds.
+*   **The Fix:** Aligning the Logical Model (Enum/Switch) with the Physical Model (Contiguous Memory) restores the hardware's potential.
 
 ---
 
@@ -145,6 +160,14 @@ The "Code-Centric" developer writes a "Giant Switch Statement" to handle state. 
 * **Code:** `if cmd == "SAVE": save()`
 * **Data:** `commands = {"SAVE": save_fn}`. Logic becomes `commands[input]()`.
 * **Benefit:** Cyclomatic complexity drops to 1. New commands are added to data, not code.
+
+### The Transformation Pipeline (Stoyan Nikolov)
+
+View software not as a collection of "Entities" (Objects) but as a **Data Transformation Pipeline**.
+*   **Input:** Homogeneous Streams (Tables).
+*   **Process:** Independent Systems (Transformers).
+*   **Output:** Mutation Tables (Decoupled State Changes).
+*   *Result:* Testable, parallelizable, and cache-friendly.
 
 ---
 
@@ -218,8 +241,8 @@ Only now do you write the algorithms. Because the Shape is optimised and Invaria
 
 In the **Access** phase, hardware realities dictate choices:
 
-1. **Value Semantics (Stack):** Preferred. Data is contiguous (Cache Friendly). Allocation/Deallocation is instant (Stack Pointer movement). Zero GC cost.
-2. **Pointer Semantics (Heap):** Use only when necessary. Data is scattered (Cache Misses). Allocation requires finding free space; Deallocation requires Garbage Collection (GC Pause).
+1.  **Value Semantics (Stack):** Preferred. Data is contiguous (Cache Friendly). Allocation/Deallocation is instant (Stack Pointer movement). Zero GC cost.
+2.  **Pointer Semantics (Heap):** Use only when necessary. Data is scattered (Cache Misses). Allocation requires finding free space; Deallocation requires Garbage Collection (GC Pause).
 
 **Rule of Thumb:**
 - **Sharing Down (Stack Safe):** Passing a pointer *into* a function keeps it on the stack.
@@ -273,13 +296,13 @@ func Process(events []Event) {
 
 Reliability is not achieved through defensive programming, but through **Isolation** and **Supervision**.
 
-### 8.1 The \"Let It Crash\" Philosophy
+### 8.1 The "Let It Crash" Philosophy
 
-Instead of wrapping code in brittle `try/catch` blocks, allow processes to fail and restart from a known clean state. This prevents \"zombie\" systems that run in inconsistent states.
+Instead of wrapping code in brittle `try/catch` blocks, allow processes to fail and restart from a known clean state. This prevents "zombie" systems that run in inconsistent states.
 
 ### 8.2 The Error Kernel Pattern
 
-Partition the system into a minimal \"Kernel\" that *must* be correct and cannot crash, and outer layers where failure is expected and managed. The reliability of the system is defined by the robustness of the supervision hierarchy, not the absence of bugs.
+Partition the system into a minimal "Kernel" that *must* be correct and cannot crash, and outer layers where failure is expected and managed. The reliability of the system is defined by the robustness of the supervision hierarchy, not the absence of bugs.
 
 ---
 
@@ -297,7 +320,7 @@ Simplicity is an objective property of a system, distinct from "Ease" (familiari
 
 Coding is the last and least important step of software engineering.
 
-* **The Specification Mindset:** Model the system mathematically before writing a single line of code. Define the \"State Space\" and \"Next State\" relations.
+* **The Specification Mindset:** Model the system mathematically before writing a single line of code. Define the "State Space" and "Next State" relations.
 * **Invariants and Liveness:** Use formal tools (like TLA+) to check for properties that must always be true and those that must eventually happen.
 
 ---
@@ -324,10 +347,10 @@ A **Bounded Context** defines the logical boundary where a specific Data Model a
 
 ## 12. Semantic Compression (Casey Muratori)
 
-Avoid \"Premature Abstraction.\" Abstractions should be born from necessity, not dogma.
+Avoid "Premature Abstraction." Abstractions should be born from necessity, not dogma.
 
-* **Compression over DRY:** Write the specific logic first. Only once the semantics are fully understood should you \"compress\" repeating patterns into functions or utilities.
-* **The Jungle of Dependencies:** Every external library is a \"jungle\" you must manage. Minimize dependencies to maintain total control and debugging capability.
+* **Compression over DRY:** Write the specific logic first. Only once the semantics are fully understood should you "compress" repeating patterns into functions or utilities.
+* **The Jungle of Dependencies:** Every external library is a "jungle" you must manage. Minimize dependencies to maintain total control and debugging capability.
 
 ---
 
@@ -434,8 +457,9 @@ On large instances (e.g., >64 vCPUs), your VM spans multiple physical sockets.
 | Domain | Mediocre Mental Model | Transcendental Mental Model (The Masters) |
 |:---- |:---- |:---- |
 | **Foundation** | **Code-Centric:** Focus on algorithms and syntax. | **Data-Centric:** Focus on topology and state. |
-| **Reality** | **Modeling the World:** \"Nouns\"/Objects. | **Transformation:** Data streams and pipelines. |
-| **Reliability** | **Defensive:** Try/Catch, null checks. | **Isolation:** Error Kernels, \"Let it Crash\". |
+| **Reality** | **Modeling the World:** "Nouns"/Objects. | **Transformation:** Data streams and pipelines. |
+| **Reliability** | **Defensive:** Try/Catch, null checks. | **Isolation:** Error Kernels, "Let it Crash". |
 | **Complexity** | **Easy:** Familiarity, massive frameworks. | **Simple:** Unbraided, immutable values. |
 | **Design** | **Abstraction:** Premature patterns. | **Compression:** Empirical abstraction. |
 | **Verification** | **Testing:** Happy path checking. | **Specification/Typing:** Formal logic, state constraints. |
+| **Performance** | **Cycles:** Optimizing instructions. | **Physics:** Optimizing memory layout. |
