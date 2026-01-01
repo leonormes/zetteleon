@@ -1,19 +1,66 @@
 ---
 aliases: []
 tags: []
-title: YNAB Budget Improvement Report
+title: January 2026 Budget Review & Migration Report
 type: ""
 status: ""
 confidence: ""
 epistemic: ""
 purpose: ""
 created: 2026-01-01T10:24:11+00:00
-modified: 2026-01-01T10:25:28+00:00
+modified: 2026-01-01T13:10:04+00:00
 last_reviewed: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 ---
+
+# January 2026 Budget Review & Migration Report
+
+**Date:** 2026-01-01
+**Status:** Debt Migration Initialized
+
+## 📊 Current Budget Snapshot
+
+- **Ready to Assign:** £263.59
+- **Main Groceries:** £800.00
+- **Consolidated Debt Funding:** £625.40 (Distributed across 10 individual loan categories)
+
+## 🔄 Migration Status: Debt Consoldiation
+
+The transition to a consolidated "Monthly Debt Obligations" view is in progress.
+
+- **Migration Complete:** All individual loan categories (America, Klarna, Glasses, etc.) have been funded for January.
+- **Pending Action:** To fully consolidate into a single line item, you must manually re-pair the Loan Accounts in the YNAB web/mobile app (1-to-1 relationship requirement).
+- **Strategy:** Retain individual categories to keep YNAB's automated interest/payoff tracking, but manage them via the **Debt Repayments** group header for a "consolidated" feel.
+
+## 💡 Spendfulness & Strategic Suggestions
+
+Based on a review of statement data (`all_statements.csv`) and vault notes on "Healthy Money":
+
+### 1. Convenience Tracking
+
+**Observation:** Frequent transactions at Co-op, Sainsbury’s Local, and Greggs are currently unfunded in the new categories.
+**Recommendation:**
+- Allocate **£50–£80** to "Convenience Top-Up" (True Expenses) to cover mid-week necessities.
+- Use "Convenience Food" (Just for Fun) specifically for "lazy" meals (e.g., McDonald's, Petrol Station snacks) to distinguish them from intentional family "Dining Out."
+
+### 2. Family & Child Spending
+
+**Observation:** Tension regarding "unilateral spending" on children is noted in vault documentation.
+**Recommendation:**
+- **The Florida Pot:** Create a specific "Florida Trip" category under "Girl's Money." Even if unfunded, it provides visibility for this major goal and prevents it from leaking into other categories.
+- **Strict Categorization:** Ensure all club fees, uniforms, and cheerleading costs are logged here to provide clean data for "Budget Dates."
+
+### 3. Protecting "Value" Spending
+
+- **Dining Out:** Reserve this for high-value family time.
+- **Convenience Food:** Use this as the "pressure valve" category when time/energy is low, ensuring it doesn't mask the true cost of your intentional social spending.
+
+## 🗓️ Next Steps
+
+1. **February Budgeting:** Assign the full £625.40 to "Monthly Debt Obligations" first, then distribute to individual loans as needed.
+2. **Weekly Review:** Conduct a 15-minute "Budget Date" to review the balance in the "Convenience" categories.
 
 # YNAB Budget Improvement Report
 

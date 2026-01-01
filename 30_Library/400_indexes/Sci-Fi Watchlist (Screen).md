@@ -411,3 +411,33 @@ The *Alien* franchise operates on a hierarchy of "Engineers" (Architects), "Blac
 | **Black Goo** | The Process | Rapid, aggressive genetic reconfiguration ("Universal Compiler"). |
 | **Xenomorph** | The Result | Pure survival, adaptation, and "DNA Reflex" (stealing host traits). |
 
+
+---
+
+## 8. Franchise Deep Dive: The Terminator
+
+Viewing the franchise as a series of **forks and patches** applied to a core codebase. Release order is the most efficient way to track the evolution of the "Time Travel" logic.
+
+### The Viewing Order (Release Chronology)
+
+- [ ] **The Terminator** (1984) - *Root Directory: Closed causal loop; Bootstrap Paradox.*
+- [ ] **Terminator 2: Judgment Day** (1991) - *The Elite Tier: Divergent point; attempting to delete "Skynet" file.*
+- [ ] **Terminator 3: Rise of the Machines** (2003) - *Fork A: Inevitability protocol; decentralised software Skynet.*
+- [ ] **Terminator: The Sarah Connor Chronicles** (TV, 2008–2009) - *Fork B: Expanded universe; "Self-Learning" AI evolution.*
+- [ ] **Terminator Salvation** (2009) - *Fork A: Future War simulation set in the T3 timeline.*
+- [ ] **Terminator Genisys** (2015) - *Fork C: Hard Reset; attempting to overwrite 1984 root variables.*
+- [ ] **Terminator: Dark Fate** (2019) - *Fork D: Legacy patch; "Legion" replaces Skynet as the primary vacuum filler.*
+- [ ] **Terminator Zero** (Anime, 2024) - *Fork E: Multiverse bridge; changing the past creates parallel data streams.*
+
+### System Architecture: Summary of Dependencies
+
+| Title | Narrative Parent | Timeline Status |
+| --- | --- | --- |
+| **The Terminator** | N/A | Root Directory |
+| **Terminator 2** | The Terminator | Root Directory |
+| **Terminator 3** | Terminator 2 | **Fork A** (Ignores nothing) |
+| **Salvation** | Terminator 3 | **Fork A** (Sequel) |
+| **Sarah Connor Chronicles** | Terminator 2 | **Fork B** (Ignores T3) |
+| **Genisys** | The Terminator | **Fork C** (Rewrites T1/T2) |
+| **Dark Fate** | Terminator 2 | **Fork D** (Ignores T3, Salvation, Genisys) |
+| **Terminator Zero** | Terminator 2 | **Fork E** (Multiverse concept) |

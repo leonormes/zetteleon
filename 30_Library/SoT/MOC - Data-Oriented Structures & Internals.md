@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "index"
 last_reviewed: "2025-12-31"
-modified: 2025-12-31T23:08:33+00:00
+modified: 2026-01-01T16:30:02+00:00
 purpose: "A structured learning path for mastering the Data Structures and Database Internals required for Data-Oriented Design."
 review_interval: "3 months"
 see_also: ["[[SoT - Curriculum - Data-Oriented Design]]", "[[SoT - Data-Centric Software Engineering]]"]

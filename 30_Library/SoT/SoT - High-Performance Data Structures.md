@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "knowledge"
 last_reviewed: "2025-12-31"
-modified: 2025-12-31T23:08:33+00:00
+modified: 2026-01-01T16:30:06+00:00
 purpose: "To define the specific data structures required for Data-Oriented Programming, replacing standard 'Node-Based' CS structures."
 review_interval: "6 months"
 see_also: ["[[SoT - Slot Map (Generational Arena)]]", "[[SoT - Data-Oriented Programming (DOP)]]"]
