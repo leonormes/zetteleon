@@ -7,7 +7,7 @@ confidence: 5/5
 created: 2025-12-04T14:38:32Z
 epistemic: reference
 last_reviewed: 2025-12-23
-modified: 2025-12-31T23:08:53+00:00
+modified: 2026-01-02T14:14:52+00:00
 purpose: The Master Map of Content and entry point for the ProdOS ecosystem, routing to all Source of Truth notes and protocols.
 review_interval: 3 months
 see_also:
@@ -51,7 +51,6 @@ The definitive specification of the system, its biological basis, and the "Why".
 #### Phase 1: Capture & Routing (Input)
 
 - **[[SoT - PRODOS - Structure & Storage]]**—_The 6-Component Architecture (Stream, HUD, Engine, Workbench, Canon, Archive)._
-- **[[SoT - PRODOS - The Tri-State Router]]**—_Routing inputs to Kinetic (Action), Static (Storage), or Dynamic (Thinking)._
 - **[[SoT - Protocol - The 4D Decision Matrix]]**—_The tactical filter for rapid Inbox clearing (Do, Delegate, Defer, Delete)._
 - **[[SoT - PRODOS - Problem Architecture]]**—_Defining "Problems" (Gap + Unknown) vs. "Tasks" (Gap + Known)._
 
@@ -74,7 +73,7 @@ The definitive specification of the system, its biological basis, and the "Why".
 ### 3. Protocols & Fuel (Operations)
 
 - **[[SoT - Protocol - The Launch Sequence]]**—_A concrete algorithm for bypassing task initiation paralysis._
-- **[[SoT - Dopamine Menu]]**—_The Runtime Fuel Station (Appetizers, Entrees, Sides, Desserts) and Spite-Driven Development._
+- **[[SoT - ADHD Management Strategies#4. The Dopamine Menu (Fueling)|SoT - ADHD Management Strategies]]**—_The Runtime Fuel Station (Appetizers, Entrees, Sides, Desserts) and Spite-Driven Development._
 - **[[Protocol - Weekly Command Centre]]**—_The system reset ritual to restore trust and clear technical debt._
 - **[[SoT - Learning Mechanisms]]**—_The 30-Day Brain Rewiring Experiment and the choice between Reading and Scrolling._
 
@@ -86,8 +85,7 @@ How to sustain the system and grow.
 
 - **[[SoT - Identity-Based Habit Formation]]**—_Dismantling negative beliefs ("I am lazy") and building "Repeated Beingness."_
 - **[[SoT - Protocol - The ADHD Habit Loop (Map-Build-Dismantle)]]**—_A practical framework for habit change (CBT-based)._
-- **[[SoT - PRODOS - System Failure Modes]]**—_Why traditional systems fail ADHD brains._
-- **[[SoT - The Four-Step ADHD Organization Framework]]**—_A practical framework for systemic accommodation (Brain Dump -> Plan -> Cues -> Track)._
+- **[[SoT - ADHD Management Strategies#5. The Four-Step Organization Framework|SoT - ADHD Management Strategies]]**—_A practical framework for systemic accommodation (Brain Dump -> Plan -> Cues -> Track)._
 - **[[SoT - Process Primacy (Systems Over Goals)]]**—_Why systems beat willpower._
 
 ---

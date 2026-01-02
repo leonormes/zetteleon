@@ -20,6 +20,6 @@ updated:
 
 ## HEAD 2025-12-24 07:52
 
-Let's create a curriculum generator prompt to turn things I want to learn on to ADHD friendly curriculum.
+Let's create a curriculum generator prompt to turn things I want to learn into ADHD friendly curriculum.
 
 Get ideas from the learning books I have

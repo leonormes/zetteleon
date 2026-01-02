@@ -5,11 +5,15 @@ purpose: ""
 modified: 2025-12-31T23:08:55+00:00
 last_reviewed: ""
 review_interval: ""
-see_also: []
+see_also: ["[[SoT - Protocol - Learning Engine]]"]
 source_of_truth: []
 aliases: ["Learning Path Template"]
-created: 2025-12-27T14:23:22+00:00
-status: active
+created: {{date}}
+status: queued
+priority: 0
+progress: 0%
+boss_fight: "{{The Project Name}}"
+goal: "{{What this enables}}"
 tags: ["learning", "project", "prodos"]
 title: "Project: Learn {{Topic}} (The Path)"
 type: project
@@ -71,3 +75,14 @@ type: project
 3. **The Test:** Write code/output. Fail. Fix it.
 4. **Synthesize:** When you understand it, create/update an SoT note (The Loot).
 5. **Level Up:** Check the box in this Project note.
+
+---
+
+## 5. Save States
+
+*Log your context before quitting.*
+
+> **💾 Save State: [YYYY-MM-DD]**
+> 1. **Current Location:** ...
+> 2. **Mental RAM Dump:** ...
+> 3. **Next Physical Action:** ...

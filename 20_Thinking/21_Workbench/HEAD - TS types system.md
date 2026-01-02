@@ -23,3 +23,4 @@ updated:
 I am thinking about typescript type system and how to think about it.
 
 I think I need to get more comfortable with union and intersection. I have to think about them rather than just intuiting them. This adds cognitive load.
+

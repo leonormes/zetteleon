@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-25T17:36:44Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-31T23:08:45+00:00
+modified: 2026-01-02T10:44:47+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -52,19 +52,19 @@ The **Urgent Pointer (16 bits)** field is valid only when the URG flag is set. I
 
 Finally, the **Options (Variable 0–40 bytes)** field is an optional component that allows for the inclusion of additional features and parameters for the TCP connection 1. Common options include Maximum Segment Size (MSS), window scaling, timestamps, and selective acknowledgments (SACK) 6. To ensure that the TCP header ends on a 32-bit boundary, **Padding (0-320 bits)** is added as necessary 4. These options extend the base functionality of TCP, enabling performance optimizations and support for more advanced features based on network conditions and application requirements. For instance, MSS informs the receiving end about the largest amount of data it can accept in a single TCP segment 6.
 
-| Field Name | Size (bits) | Purpose/Problem Solved |
-|:---- |:---- |:---- |
-| Source Port | 16 | Identifies the sending application, allowing the receiver to direct responses correctly. |
-| Destination Port | 16 | Identifies the receiving application, ensuring the segment reaches the intended service. |
-| Sequence Number | 32 | Ensures ordered delivery of data by assigning a unique number to each byte in the stream, aiding in reassembly and detection of lost packets. |
-| Acknowledgment Number | 32 | Confirms receipt of data up to a specific sequence number, requesting the next expected data and ensuring reliable delivery. |
-| Data Offset | 4 | Specifies the length of the TCP header, indicating where the data payload begins in the segment, especially important due to variable header size with options. |
-| Reserved | 3 | Reserved for future use. |
-| Flags | 9 | Control various aspects of the TCP connection, including connection establishment (SYN), acknowledgment (ACK), termination (FIN, RST), urgent data handling (URG), and flow control. |
-| Window Size | 16 | Implements flow control by indicating the amount of data the receiver is willing to accept, preventing sender overload. |
-| Checksum | 16 | Detects errors in the TCP header and data payload, ensuring data integrity during transmission over an unreliable IP network. |
-| Urgent Pointer | 16 | Indicates the end of urgent data within the segment when the URG flag is set, allowing for prioritized processing. |
-| Options | Variable | Provides additional features and parameters for the TCP connection, such as MSS, window scaling, and SACK, enhancing performance and functionality. |
+| Field Name            | Size (bits) | Purpose/Problem Solved                                                                                                                                                               |
+|:-------------------- |:---------- |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Source Port           | 16          | Identifies the sending application, allowing the receiver to direct responses correctly.                                                                                             |
+| Destination Port      | 16          | Identifies the receiving application, ensuring the segment reaches the intended service.                                                                                             |
+| Sequence Number       | 32          | Ensures ordered delivery of data by assigning a unique number to each byte in the stream, aiding in reassembly and detection of lost packets.                                        |
+| Acknowledgment Number | 32          | Confirms receipt of data up to a specific sequence number, requesting the next expected data and ensuring reliable delivery.                                                         |
+| Data Offset           | 4           | Specifies the length of the TCP header, indicating where the data payload begins in the segment, especially important due to variable header size with options.                      |
+| Reserved              | 3           | Reserved for future use.                                                                                                                                                             |
+| Flags                 | 9           | Control various aspects of the TCP connection, including connection establishment (SYN), acknowledgment (ACK), termination (FIN, RST), urgent data handling (URG), and flow control. |
+| Window Size           | 16          | Implements flow control by indicating the amount of data the receiver is willing to accept, preventing sender overload.                                                              |
+| Checksum              | 16          | Detects errors in the TCP header and data payload, ensuring data integrity during transmission over an unreliable IP network.                                                        |
+| Urgent Pointer        | 16          | Indicates the end of urgent data within the segment when the URG flag is set, allowing for prioritized processing.                                                                   |
+| Options               | Variable    | Provides additional features and parameters for the TCP connection, such as MSS, window scaling, and SACK, enhancing performance and functionality.                                  |
 
 ### **4\. Layer 3: Encapsulation in the IP Packet - Routing Across Networks**
 

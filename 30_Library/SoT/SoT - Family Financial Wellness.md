@@ -82,6 +82,13 @@ The budget acts as a **"Money Timer"** for the neurodivergent brain:
 * **The ADHD Tax:** Explicitly budget for inevitable slips (late fees, forgotten lunches) to remove shame.
 * **Visual Awareness:** Use widgets/balances to keep category limits in sight without opening the app.
 
+### I. The Current Goal Protocol (Mere Exposure)
+
+Leverage the **[[SoT - YNAB Current Goal Feature]]** to hack the "Mere Exposure Effect." By pinning a specific **Custom Target** to the top of the mobile dashboard, you force the brain to weigh impulse purchases against a high-value desire (e.g., "Slippers vs. Engagement Ring").
+
+*   **The Test Drive:** Before adding a recurring cost (e.g., a pet), use a Current Goal to "save" that monthly cost for 6 months. If you fail to save it, you cannot afford the commitment.
+*   **The Shield:** Use the "Have a Balance of" logic for one-time purchases to prevent "raiding" the category.
+
 ---
 
 ## 6. Minimum Viable Understanding (MVU)

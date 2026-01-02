@@ -1,179 +1,166 @@
 ---
-aliases: ["DOD Curriculum", "DOP Learning Path", "Data-First Challenges"]
+aliases: ["DOD Curriculum", "DOP Learning Path", "Data-First Challenges", "Protocol - Data-Oriented Design"]
 confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "curriculum"
-last_reviewed: "2025-12-31"
-modified: 2025-12-31T23:08:33+00:00
-purpose: "A progressive series of exercises to transition from 'Code-First' to 'Data-First' thinking, specifically designed to instill the Linus Torvalds/Data-Oriented mindset."
+last_reviewed: "2026-01-01"
+modified: 2026-01-01T20:06:54+00:00
+purpose: "A 'Boss Fight' structured curriculum to transition from Code-First to Data-First thinking."
 review_interval: "3 months"
-see_also: ["[[SoT - Data-Oriented Programming (DOP)]]", "[[SoT - Data-Centric Software Engineering]]", "[[SoT - Slot Map (Generational Arena)]]"]
+see_also: ["[[SoT - Data-Oriented Programming (DOP)]]", "[[SoT - Data-Centric Software Engineering]]", "[[SoT - Slot Map (Generational Arena)]]", "[[SoT - Protocol - Learning Engine]]"]
 source_of_truth: []
 status: "active"
-tags: ["curriculum", "dop", "practice", "exercises"]
+tags: ["curriculum", "dop", "practice", "exercises", "learning-engine"]
 title: SoT - Curriculum - Data-Oriented Design
 type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. The Philosophy: "Code is Derivative"
+# SoT - Curriculum - Data-Oriented Design
 
+> [!abstract] The Core Philosophy
 > "Bad programmers worry about the code. Good programmers worry about data structures and their relationships."—**Linus Torvalds**
-
-This curriculum is designed to break the habit of "writing code to manage state" and replace it with "designing state that manages itself."
-
----
-
-## Level 1: The State Enforcer (Invariants)
-
-**The Principle:** Make invalid states impossible to represent.
-**The Goal:** Eliminate `if (isValid)` checks from your codebase.
-
-### Challenge: The "Smart" Traffic Light
-
-Design the data model for a traffic light system that handles the transition between Green, Amber, and Red.
-
-#### The Code-First Trap (The "Flag" Soup)
-
-```typescript
-class TrafficLight {
-    isGreen: boolean;
-    isAmber: boolean;
-    isRed: boolean;
-}
-```
-
-* **The Bug:** It is technically possible for `isGreen` and `isRed` to be true simultaneously.
-* **The Cost:** You must write "Guard Clauses" everywhere.
-
-#### The Data-First Solution (The Union)
-
-```typescript
-type TrafficLight = { state: 'Green' } | { state: 'Amber' } | { state: 'Red' };
-```
-
-### 🛑 Your Task: User Registration Refactor
-
-* **Current State:** `isEmailVerified`, `hasPassword`, `isSuspended`.
-* **Goal:** Create a state machine where a user cannot be "Suspended" if they haven't "Verified Email" yet.
-* **Hint:** A `SuspendedUser` type should be distinct from a `PendingUser` type.
+>
+> **The Objective:** Break the habit of "writing code to manage state" and replace it with "designing state that manages itself."
 
 ---
 
-## Level 2: The Flat Hierarchy (Recursion Killer)
+## 🗺️ The Map (Syllabus)
 
-**The Principle:** Pointers are expensive; Indices are cheap. Avoid recursion in data structures.
-**The Goal:** Query complex trees without recursion.
+You are not here to read. You are here to build. Each stage requires you to defeat a specific "Boss" (Project) to prove your mastery.
 
-### Challenge: The Reddit Comment Section
-
-Design a model for thousands of comments, where comments can be replies to other comments (infinite nesting).
-
-#### The Code-First Trap (The Recursive Node)
-
-```typescript
-class Comment {
-    id: number;
-    text: string;
-    replies: Comment[]; // Recursion here
-}
-```
-
-* **The Bug:** To display the thread, you need a recursive render function. To find a specific comment, you have to traverse the tree.
-
-#### The Data-First Solution (Adjacency List)
-
-Flatten the tree into a list. Use `parentId` integers.
-
-### 🛑 Your Task: Design a File System
-
-* **Constraint:** Do not use a `Folder` class that contains a list of `Files`.
-* **Goal:** How do you delete a folder and all its sub-contents efficiently without writing a recursive "delete children" function?
-* **Hint:** Look up "Path Enumeration" or "Closure Tables".
+**Global Constraints:**
+1. **No Tutorials:** You may read documentation for syntax, but the logic must be yours.
+2. **Strict Types:** All code must be statically typed (TypeScript/Rust/Go).
+3. **Data First:** Define your data structures *before* writing a single function.
 
 ---
 
-## Level 3: The Sparse Entity (Composition)
+## ⚔️ Stage 1: The State Enforcer
 
-**The Principle:** Don't pay for what you don't use.
-**The Goal:** Handle heterogeneous data without massive inheritance trees.
+**The Concept:** Invariants & Impossible States.
+**The Trap:** "Flag Soup" (e.g., `isLoading`, `isSuccess`, `isError` all true at once).
 
-### Challenge: The E-Commerce Product Catalog
+### Mini-Boss: The "Smart" Traffic Light
 
-You sell Books (Author, ISBN), T-Shirts (Size, Material), and Gift Cards (Value, Expiry).
+* **Context:** A simple Red-Amber-Green system.
+* **The Trap:** `class TrafficLight { isGreen: boolean; isRed: boolean; }`
 
-#### The Code-First Trap (Inheritance Hell)
+### 💀 Main Boss: The User Registration Flow
 
-```typescript
-class Product { id, price }
-class PhysicalProduct extends Product { weight }
-class Book extends PhysicalProduct { isbn }
-```
+**The Arena:** Refactor a user account system that manages registration steps.
+**The Problem:** Users currently exist in a quantum state of "Suspended" but "Unverified."
 
-* **The Bug:** What happens when you sell a "Digital Book"? It has an ISBN but no weight.
+**Victory Conditions:**
+- [ ] Create a `User` type where it is **compilation-time impossible** for a user to be `Suspended` if they have not yet `VerifiedEmail`.
+- [ ] Define distinct types for `PendingUser`, `ActiveUser`, and `SuspendedUser`.
+- [ ] Eliminate all `if (user.isValid)` runtime checks. The compiler must guarantee validity.
 
-#### The Data-First Solution (Composition/Tags)
-
-Treat properties as data rows (tables), not class members.
-
-```typescript
-const prices = new Map<ProductId, number>();
-const weights = new Map<ProductId, number>(); // Only physical items are here
-```
-
-### 🛑 Your Task: RPG Character System
-
-* **Characters:** Warrior (Health, Strength), Mage (Health, Mana), Ghost (Mana, but no Health/Physical body).
-* **Goal:** Create a data structure where "Taking Damage" works for Warriors and Mages but is impossible to call on a Ghost, without using `if (obj.hasHealth)`.
+**Loot (Resources):**
+* [[SoT - Data-Oriented Programming (DOP)#Algebraic Data Types]]
+* *Search Term:* "Parse, Don't Validate" (Alexis King).
 
 ---
 
-## Level 4: The Time Traveller (Event Sourcing)
+## ⚔️ Stage 2: The Recursion Killer
 
-**The Principle:** Current state is just a cache of history.
-**The Goal:** Debugging impossible scenarios.
+**The Concept:** Flat Hierarchies & Indices.
+**The Trap:** Recursive Classes (e.g., `class Comment { replies: Comment[] }`). Pointers are expensive; Indices are cheap.
 
-### Challenge: The Bank Account
+### Mini-Boss: The Reddit Thread
 
-Manage a balance where money comes in and goes out.
+* **Context:** A comment section with infinite nesting depth.
+* **The Trap:** Recursive rendering functions that crash the stack on deep threads.
 
-#### The Code-First Trap (The Mutable Snapshot)
+### 💀 Main Boss: The Flat File System
 
-```typescript
-class Account {
-    balance: number = 0;
-    deposit(amount) { this.balance += amount; }
-}
-```
+**The Arena:** Design a Virtual File System (Folders and Files) without recursion.
+**The Problem:** You need to delete a folder and all 10,000 sub-items efficiently.
 
-* **The Bug:** The balance is 50. Why? You lost the data.
+**Victory Conditions:**
+- [ ] **Constraint:** You strictly cannot use a `Folder` class that contains a list/array of `Files`.
+- [ ] Implement a `deleteFolder(id)` function that runs in $O(N)$ (or better) without a recursive helper function.
+- [ ] Render the full file tree using a single flat loop.
 
-#### The Data-First Solution (The Log)
-
-The "Data Structure" is an append-only array of events.
-
-```typescript
-type Transaction = { type: 'deposit' | 'withdrawal', amount: number };
-const ledger: Transaction[] = [];
-```
-
-### 🛑 Your Task: Design a Chess Game
-
-* **Constraint:** You cannot store the "Board" (an 8x8 array of pieces) as the primary source of truth.
-* **Goal:** Store the game as a list of moves (`e2 -> e4`). How do you determine if a move is valid? (You must replay the history).
+**Loot (Resources):**
+* *Search Term:* "Adjacency List vs Closure Table"
+* *Search Term:* "Database Path Enumeration"
 
 ---
 
-## Final Boss: The "Do It Yourself" Relational Model
+## ⚔️ Stage 3: The Sparse Entity
 
-**Project:** Build a Task Management System (Jira/Trello).
+**The Concept:** Composition over Inheritance.
+**The Trap:** "Inheritance Hell" (e.g., `class Book extends PhysicalProduct`). Paying for memory/fields you don't use.
 
-1. **Users** (Level 1: Strict States - Active/Invited).
-2. **Tasks** (Level 2: Flat Hierarchy - Tasks can have sub-tasks).
-3. **Custom Fields** (Level 3: Sparse Data - Some tasks have "Due Dates," some have "Story Points").
-4. **Audit Trail** (Level 4: History - Who moved the ticket?).
+### Mini-Boss: The E-Commerce Catalog
 
-**Constraint:** You may use TypeScript, but you are **banned from using Classes**. You must use `Interfaces`, `Arrays`, `Maps`, and `Functions` only.
+* **Context:** Selling Books (ISBN), T-Shirts (Size), and Gift Cards (Virtual).
+* **The Trap:** A base `Product` class that gets bloated with optional fields.
 
-**Why this works:** By stripping away the Class/Object "shell," you are forced to look at the naked data. You will naturally start organising it into efficient tables and indices.
+### 💀 Main Boss: The ECS Character System
+
+**The Arena:** An RPG engine with Warriors, Mages, and Ghosts.
+* *Warrior:* Health, Strength, Position.
+* *Mage:* Health, Mana, Position.
+* *Ghost:* Mana, Position (No Health, No Physical Body).
+
+**Victory Conditions:**
+- [ ] Create a data structure where "Taking Damage" can be applied to Warriors and Mages.
+- [ ] **Constraint:** It must be impossible to call `takeDamage()` on a Ghost (compile-time error or structural impossibility).
+- [ ] **Constraint:** Do not use `if (entity.hasHealth)` checks.
+- [ ] Implement a "System" that updates the position of *all* entities (Warrior, Mage, Ghost) in a single tight loop.
+
+**Loot (Resources):**
+* [[SoT - Entity Component System (ECS)]]
+* *Search Term:* "Data-Oriented Design Composition"
+
+---
+
+## ⚔️ Stage 4: The Time Traveller
+
+**The Concept:** Event Sourcing & Immutability.
+**The Trap:** The Mutable Snapshot (e.g., `account.balance += 50`). Information is destroyed on every write.
+
+### Mini-Boss: The Bank Ledger
+
+* **Context:** A bank account that needs a transaction history.
+* **The Trap:** Storing only `currentBalance`.
+
+### 💀 Main Boss: The Chess Replay Engine
+
+**The Arena:** A chess game logic engine.
+**The Problem:** Validating moves requires knowing the history (e.g., En Passant, Castling rights).
+
+**Victory Conditions:**
+- [ ] **Constraint:** You cannot store the "Board" (8x8 grid) as the primary source of truth.
+- [ ] The game state must be derived entirely from an append-only list of moves (`e2 -> e4`).
+- [ ] Implement an `undo()` function that simply drops the last event and re-projects the state.
+- [ ] Implement a "Time Travel" slider to view the board state at Move 5.
+
+**Loot (Resources):**
+* *Search Term:* "Event Sourcing vs Command Sourcing"
+* *Search Term:* "Redux Pattern"
+
+---
+
+## 👹 The Final Boss: The "Do It Yourself" Jira
+
+**The Project:** Build a high-performance Task Management System.
+
+**The Architecture:**
+1. **Users:** (Stage 1 Strict States) - `Invited` vs `Active`.
+2. **Tasks:** (Stage 2 Flat Hierarchy) - Infinite sub-task nesting.
+3. **Custom Fields:** (Stage 3 Sparse Data) - Some tasks have "Due Dates," some have "Story Points."
+4. **Audit Trail:** (Stage 4 History) - "Who moved this card?" is answered by default.
+
+**The Ultimate Constraint:**
+* You are **BANNED** from using Classes (`class`).
+* You must use only: `Interfaces`, `Arrays`, `Maps`, and `Functions`.
+* *Why?* Stripping away the Object-Oriented shell forces you to see the naked data topology.
+
+**Victory Conditions:**
+- [ ] The entire application state must be serializable to a single JSON object.
+- [ ] You can save/load the entire project state instantly.
+- [ ] 100% Type Safety.

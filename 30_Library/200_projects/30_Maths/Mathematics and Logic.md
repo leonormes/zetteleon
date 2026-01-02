@@ -99,7 +99,7 @@ Here is a guide with practical activities to help you develop these skills.
   b. Proof by Contrapositive
 - Idea: To prove $P \implies Q$, you can instead prove the logical equivalent: $\neg Q \implies \neg P$. That is, assume the conclusion is false and show the hypothesis must also be false.
 - Problem Type: "Prove that if $n^2$ is even, then n is even."
-  - Direct approach is hard: Assume n^2 is even, so $n^2 = 2k$. Then $n = \sqrt{2k}$, which is not easy to work with.
+  - Direct approach is hard: Assume n^2 is even, so $n^2 = 2k$. Then $n = \sqrt{2k}$, which is difficult to work with.
   - Contrapositive is easy: Assume n is not even (i.e., odd) and show that n^2 is also not even (i.e., odd). This is much more direct (see the worked example below).
     c. Proof by Contradiction
 - Idea: To prove a statement P is true, you assume it is false ($\neg P$) and show that this assumption leads to a logical contradiction (e.g., x is both rational and irrational, or 1=0).
