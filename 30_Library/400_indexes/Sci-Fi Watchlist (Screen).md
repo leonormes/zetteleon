@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "Watchlist for Sci-Fi media (Movies & TV)."
 last_reviewed: "2025-12-31"
-modified: 2026-01-02T12:55:41+00:00
+modified: 2026-01-02T20:48:38+00:00
 purpose: "A unified checkbox list for tracking Sci-Fi viewing."
 review_interval: "3 months"
 see_also: ["[[Sci-Fi Tier List]]", "[[Cinema Watchlist (Screen)]]"]
@@ -37,9 +37,9 @@ updated:
 - [ ] Aliens (1986)
 - [ ] Mad Max: Fury Road (2015)
 - [ ] Star Wars: A New Hope (1977)
-- [ ] Terminator 2: Judgment Day (1991)
-- [ ] Arrival (2016)
-- [ ] Blade Runner (1982)
+- [x] Terminator 2: Judgment Day (1991)  [completion:: 2026-01-02]
+- [x] Arrival (2016)  [completion:: 2026-01-02]
+- [x] Blade Runner (1982)  [completion:: 2026-01-02]
 
 ---
 
@@ -92,7 +92,7 @@ updated:
 - [ ] Nope
 - [ ] Godzilla (1954)
 - [ ] Godzilla Minus One
-- [ ] Jurassic Park
+- [x] Jurassic Park  [completion:: 2026-01-02]
 - [ ] The Host
 
 ### Time Travel & Alternate Realities
@@ -136,16 +136,6 @@ updated:
 - [ ] **Episode II: Attack of the Clones** (Film) - _62%_
 - [ ] **The Clone Wars** (Film) - _18%_
 - [ ] **The Clone Wars** (TV Series) - *93%*23:32:15+00:00
-      purpose: "A unified checkbox list for tracking Sci-Fi viewing."
-      review_interval: "3 months"
-      see_also: ["[[Sci-Fi Tier List]]"]
-      source_of_truth: []
-      status: "active"
-      tags: ["watchlist", "scifi", "entertainment"]
-      title: Sci-Fi Watchlist (Screen)
-      type: "map"
-      uid:
-      updated:
 
 ---
 
@@ -511,3 +501,57 @@ Viewing the franchise as a series of **forks and patches** applied to a core cod
 - [ ] **Star Trek** (2009)
 - [ ] **Star Trek Into Darkness** (2013)
 - [ ] **Star Trek Beyond** (2016)
+
+---
+
+## 11. Incoming & Unsorted (Inbox)
+
+- [ ] Men In Black 3 (2012)
+- [ ] In The Flesh (Series)
+- [ ] After Earth (2013)
+- [ ] Cloud Atlas (2012)
+- [ ] Moon (2009)
+- [ ] Sorry to Bother You (2018)
+- [ ] Avatar: The Way of Water (2022)
+- [ ] Person of Interest (Series)
+- [ ] Jurassic Park III (2001)
+- [ ] Jurassic World: Fallen Kingdom (2018)
+- [ ] Watchmen (2009)
+- [ ] Lovecraft Country (Series)
+- [ ] Babylon 5 (Series)
+- [ ] The Wild Robot (2024)
+- [ ] Flash Gordon (1980)
+- [ ] Jurassic World Rebirth
+- [ ] Jurassic World: Dominion (2022)
+
+---
+
+## 12. Franchise Deep Dive: Mad Max
+
+The *Mad Max* series operates as a collection of **"Campfire Myths"** rather than a strict, linear history. This legend-based model explains why the character remains roughly the same age despite decades passing between films.
+
+### The Chronological Timeline
+
+1. **Mad Max (1979)**
+   - **Setting:** Mid-apocalypse (societal decay).
+   - **Context:** Max is a highway patrolman in a failing world. Origin story.
+2. **Mad Max 2: The Road Warrior (1981)**
+   - **Setting:** Post-apocalypse (approx. 3 years later).
+   - **Context:** Global war and oil collapse. Max is now a scavenger.
+3. **Mad Max Beyond Thunderdome (1985)**
+   - **Setting:** Deep post-apocalypse (approx. 15 years after *Road Warrior*).
+   - **Context:** Primitive tribal structures (Bartertown).
+4. **Furiosa: A Mad Max Saga (2024)**
+   - **Setting:** Pre-*Fury Road* (covers 15–20 years).
+   - **Context:** Direct prequel tracking Furiosa's rise from kidnapping to Imperator.
+5. **Mad Max: Fury Road (2015)**
+   - **Setting:** The furthest point in the timeline.
+   - **Context:** Max entangled in Furiosa's mission to rescue Immortan Joe’s wives.
+
+### System Architecture: Summary of Logic
+
+| Feature | The Legend Model (Myth) |
+|:--- |:--- |
+| **Continuity** | Technology (phones/newer cars) shifts forward in time for newer films. |
+| **Persistence** | Character details (like the Interceptor) "reset" between stories. |
+| **Source of Truth** | The storyteller (survivors) determines the details of the legend. |
