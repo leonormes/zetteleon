@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["dns"]
+tags: ["topic/technology/networking/dns"]
 title: Private EKS Cluster Endpoints
 type: ""
 uid: 

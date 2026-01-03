@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-25T12:30:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-25"
-modified: 2025-12-31T23:08:35+00:00
+modified: 2026-01-03T10:18:57+00:00
 purpose: "To define the canonical best practices for securing containerized workloads, spanning image construction, supply chain, and runtime execution."
 review_interval: "6 months"
 see_also: ["[[SoT - Linux Container Primitives]]", "[[SoT - Container Isolation (The Namespace Security Model)]]", "[[SoT - Namespacing in Computing]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "container", "kubernetes", "security"]
+tags: ["architecture", "topic/technology/containers", "kubernetes", "security"]
 title: SoT - Container Security & Hardening
 type: "SoT"
 uid: 

@@ -20,6 +20,8 @@ views:
       - status
       - file.size
     sort:
+      - property: Reviewed
+        direction: ASC
       - property: file.size
         direction: DESC
       - property: file.name

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["DNS is a distributed database.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["dns", "topic/technology/networking"]
+tags: ["topic/technology/networking/dns", "topic/technology/networking"]
 title: DNS Delegation Handles Subdomain Authority Transfers
 type: "concept"
 uid: 

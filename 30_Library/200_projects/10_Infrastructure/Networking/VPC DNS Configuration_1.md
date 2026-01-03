@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["dns", "topic/technology/networking"]
+tags: ["topic/technology/networking/dns", "topic/technology/networking"]
 title: VPC DNS Configuration_1
 type: ""
 uid: 

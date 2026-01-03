@@ -3,11 +3,11 @@ aliases: ["Cognitive Physiology", "Initiation", "Mood Repair Trap", "Task Execut
 confidence: "5/5"
 created: 2025-12-10T00:00:00Z
 epistemic: "scientific"
-last_reviewed: "2025-12-24"
-modified: 2025-12-31T23:08:33+00:00
+last_reviewed: "2026-01-03"
+modified: 2026-01-03T10:18:50+00:00
 purpose: "To define the biological and cognitive phases of task execution, providing the scientific basis for the ProdOS workflow design."
 review_interval: "1 year"
-see_also: ["[[SoT - Accelerated Learning (3C Protocol)]]", "[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]"]
+see_also: ["[[SoT - PRODOS - Learning Architecture]]", "[[SoT - ADHD Neurology & Core Concepts]]", "[[SoT - PRODOS Core Specification]]"]
 source_of_truth: []
 status: "stable"
 tags: ["neuroscience", "prodos", "productivity", "task_management", "topic/cognition"]
@@ -25,11 +25,11 @@ updated:
 
 - **Function:** Overcoming inertia. Organizing materials, estimating time, and generating metabolic energy (dopamine/norepinephrine) to start.
 - **Brain Network:** Prefrontal Cortex (PFC) & Basal Ganglia.
-- **ProdOS Tool:** **The Two-Minute Rule**.
+- **ProdOS Tool:** **The Two-Minute Rule** (from [[SoT - Habit Formation Framework]]).
 - **The ProdOS Fix:** We lower the "entry cost" by committing to just 120 seconds. This bypasses the PFC's overestimation of effort and triggers momentum.
 
 > [!failure] The Mood Repair Trap
-> This is where **Procrastination** strikes. The brain predicts negative emotion from the task and refuses to initiate in order to "repair mood" immediately. **Counter-measure:** Ignore feelings; execute the Context Bridge mechanically.
+> This is where **Procrastination** strikes. The brain predicts negative emotion from the task and refuses to initiate in order to "repair mood" immediately. **Counter-measure:** Ignore feelings; execute the [[SoT - Bridging the Intention-Action Gap|Context Bridge]] mechanically.
 
 ### Phase 2: Encoding / Planning
 
@@ -78,7 +78,7 @@ Learning and task mastery are not complete upon execution. The brain requires sp
 
 - **Micro-Consolidation:** 10–20 second "micro-breaks" during intense work allow the brain to replay neural sequences at 20x speed.
 - **Ultradian Rhythms:** Focus is bounded by ~90-minute metabolic cycles. Pushing beyond this results in diminished returns and "Engine Stall."
-- **Macro-Consolidation (Rest):** Physical rewiring occurs during **Rest**, not work. Non-Sleep Deep Rest (NSDR) and Sleep are functional components of the "Learning Algorithm."
+- **Macro-Consolidation (Rest):** Physical rewiring occurs during **Rest**, not work. Non-Sleep Deep Rest (NSDR) and Sleep are functional components of the "Learning Algorithm" defined in [[SoT - PRODOS - Learning Architecture]].
 
 ---
 

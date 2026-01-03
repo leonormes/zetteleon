@@ -22,7 +22,7 @@ views:
         direction: DESC
     columnSize:
       file.name: 400
-      note.tags: 300
+      note.tags: 460
   - type: table
     name: "Topic: ADHD"
     filters:
@@ -86,24 +86,20 @@ views:
     name: "Topic: Technology"
     filters:
       or:
-        - file.tags.contains("technology")
-        - file.tags.contains("architecture")
-        - file.tags.contains("kubernetes")
-        - file.tags.contains("networking")
-        - file.tags.contains("security")
+        - file.tags.contains("topic/technology")
     order:
-      - file.name
       - type
+      - file.name
       - status
-      - tags
+      - file.path
     sort:
       - property: type
         direction: ASC
       - property: file.mtime
         direction: DESC
     columnSize:
+      note.type: 107
       file.name: 400
-      note.tags: 300
   - type: table
     name: "Topic: Data-Centric Coding"
     filters:

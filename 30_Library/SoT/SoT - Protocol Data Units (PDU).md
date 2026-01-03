@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-23T22:38:57Z
 epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2025-12-31T23:08:34+00:00
+modified: 2026-01-03T10:18:52+00:00
 purpose: "To define the Protocol Data Unit (PDU) as the fundamental unit of information at each layer of the network stack."
 review_interval: "6 months"
 see_also: ["[[SoT - Encapsulation & De-encapsulation]]", "[[SoT - The Data Architecture of DNS]]"]
 source_of_truth: []
 status: "stable"
-tags: ["networking", "osi", "pdu", "protocol", "topic/technology"]
+tags: ["topic/technology/networking", "osi", "pdu", "protocol", "topic/technology"]
 title: SoT - Protocol Data Units (PDU)
 type: "SoT"
 uid: 

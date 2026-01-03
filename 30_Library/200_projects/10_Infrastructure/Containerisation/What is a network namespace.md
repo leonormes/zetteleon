@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-24T15:05:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2025-12-31T23:08:47+00:00
+modified: 2026-01-03T10:19:25+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["container", "linux", "namespace", "topic/technology/networking"]
+tags: ["topic/technology/containers", "topic/linux", "namespace", "topic/technology/networking"]
 title: What is a network namespace
 type: "Factual"
 uid: 

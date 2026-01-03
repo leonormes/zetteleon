@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[Private DNS Zones Provide Internal Network Name Resolution]]"]
 source_of_truth: ["[[SoT - The Data Architecture of DNS]]"]
 status: "stable"
-tags: ["dns", "hybrid-cloud", "security"]
+tags: ["topic/technology/networking/dns", "hybrid-cloud", "security"]
 title: Split-Horizon DNS Decouples Service Names from Network Topology
 type: "concept"
 uid: 

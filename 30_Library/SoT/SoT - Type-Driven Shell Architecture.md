@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: ["[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[SoT - Type Theory & Data Structures]]", "[[SoT - Data-Centric Software Engineering]]"]
 source_of_truth: ["zsh/dot_zshenv.tmpl", "zsh/modules/00-preflight.zsh", ".chezmoidata.toml"]
 status: "active"
-tags: ["zsh", "architecture", "implementation", "linux", "macos", "chezmoi"]
+tags: ["zsh", "architecture", "implementation", "topic/linux", "macos", "chezmoi"]
 title: SoT - Type-Driven Shell Architecture
 type: "SoT"
 uid:

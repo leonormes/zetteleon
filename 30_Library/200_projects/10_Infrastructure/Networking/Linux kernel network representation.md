@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-02-26T07:04:07Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-31T23:08:45+00:00
+modified: 2026-01-03T10:19:20+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["linux", "topic/technology/networking"]
+tags: ["topic/linux", "topic/technology/networking"]
 title: Linux kernel network representation
 type: "documentation"
 uid: 

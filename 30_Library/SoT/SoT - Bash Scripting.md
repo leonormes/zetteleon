@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Process Execution (Kernel Logic)]]"]
 source_of_truth: ["[[Bash for loops confused me until I learned these 4 expansion rules]]", "[[Kernel Hints and Path Resolution]]"]
 status: "stable"
-tags: ["programming", "linux", "bash", "scripting"]
+tags: ["programming", "topic/linux", "bash", "scripting"]
 title: SoT - Bash Scripting
 type: "SoT"
 uid: 

@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-24T15:29:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2025-12-31T23:08:48+00:00
+modified: 2026-01-03T10:19:27+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["container", "isolation", "linux", "namespace", "security"]
+tags: ["topic/technology/containers", "isolation", "topic/linux", "namespace", "security"]
 title: How namespaces interact without mount namespace
 type: "Mechanism"
 uid: 

@@ -12,11 +12,14 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: Active
-tags: ["curriculum", "learning", "metalearning", "prodos"]
+tags:
+  - curriculum
+  - learning
+  - metalearning
 title: Template - Curriculum
 type: Curriculum
-uid: 
-updated: 
+uid:
+updated:
 version: 1.1
 ---
 

@@ -7,10 +7,15 @@ last_reviewed: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
-aliases: ["Rust Learning Path", "Project - Learn Rust"]
+aliases:
+  - Rust Learning Path
+  - Project - Learn Rust
 created: 2025-12-27T12:00:00Z
 status: active
-tags: ["learning", "rust", "project", "prodos"]
+tags:
+  - learning
+  - rust
+  - project
 title: "Project: Learn Rust (The Path)"
 type: project
 ---

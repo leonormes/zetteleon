@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-16T13:52:08Z
 epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2025-12-31T23:08:35+00:00
+modified: 2026-01-03T10:18:53+00:00
 purpose: "To define the fundamental networking model of Kubernetes, including Pod-to-Pod communication, Services, DNS resolution, and the request flow from external clients."
 review_interval: "1 year"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data-Centric Theory of Networking]]"]
 source_of_truth: []
 status: "stable"
-tags: ["cni", "dns", "kubernetes", "networking", "service_discovery"]
+tags: ["cni", "topic/technology/networking/dns", "kubernetes", "topic/technology/networking", "service_discovery"]
 title: SoT - Kubernetes Networking & DNS
 type: "SoT"
 uid: 

@@ -4,13 +4,13 @@ confidence: null
 created: 2025-10-24T15:30:00Z
 epistemic: null
 last_reviewed: null
-modified: 2025-12-31T23:08:31+00:00
+modified: 2026-01-03T10:18:46+00:00
 purpose: null
 review_interval: null
 see_also: []
 source_of_truth: []
 status: null
-tags: [container, isolation, linux, namespace, security]
+tags: [topic/technology/containers, isolation, topic/linux, namespace, security]
 title: Namespace Isolation Is Incomplete Without Mount Namespace
 type: Insight
 uid: null

@@ -2,19 +2,23 @@
 confidence: ""
 epistemic: ""
 purpose: ""
-modified: 2025-12-31T23:08:55+00:00
+modified: 2026-01-03T10:19:44+00:00
 last_reviewed: ""
 review_interval: ""
-see_also: ["[[SoT - Protocol - Learning Engine]]"]
+see_also:
+  - "[[SoT - Protocol - Learning Engine]]"
 source_of_truth: []
-aliases: ["Learning Path Template"]
-created: {{date}}
+aliases:
+  - Learning Path Template
+created: 2025-12-29T20:01:31+00:00
 status: queued
 priority: 0
 progress: 0%
 boss_fight: "{{The Project Name}}"
 goal: "{{What this enables}}"
-tags: ["learning", "project", "prodos"]
+tags:
+  - learning
+  - project
 title: "Project: Learn {{Topic}} (The Path)"
 type: project
 ---
@@ -83,6 +87,6 @@ type: project
 *Log your context before quitting.*
 
 > **💾 Save State: [YYYY-MM-DD]**
-> 1. **Current Location:** ...
-> 2. **Mental RAM Dump:** ...
-> 3. **Next Physical Action:** ...
+> 1. **Current Location:**...
+> 2. **Mental RAM Dump:**...
+> 3. **Next Physical Action:**...

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["cluster-networking", "cni", "overlay", "pod", "topic/technology/containers", "topic/technology/kubernetes", "underlay"]
+tags: ["topic/technology/networking/cluster-networking", "cni", "overlay", "pod", "topic/technology/containers", "topic/technology/kubernetes", "underlay"]
 title: Pods communicate across cluster using CNI-provided networking
 type: "Fact"
 uid: 

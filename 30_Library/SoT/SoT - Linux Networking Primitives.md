@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Linux Container Primitives]]", "[[SoT - Kubernetes Networking & DNS]]"]
 source_of_truth: []
 status: "stable"
-tags: ["linux", "networking", "kernel", "containers"]
+tags: ["topic/linux", "topic/technology/networking", "kernel", "topic/technology/containers"]
 title: SoT - Linux Networking Primitives
 type: "SoT"
 uid: 

@@ -202,7 +202,7 @@ xargs -I {} az snapshot delete --name {}
 
 - [ ] **Implement Storage Tiering** (Priority: High)
 
-```bash
+```sh
 # Move storage accounts to Cool tier
 az storage account update --name aksprodbackups --access-tier Cool
 az storage account update --name prod1backupsa --access-tier Cool

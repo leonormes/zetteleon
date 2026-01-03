@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-24T15:07:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2025-12-31T23:08:47+00:00
+modified: 2026-01-03T10:19:26+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["bridge", "container", "layer2", "linux", "topic/technology/networking"]
+tags: ["bridge", "topic/technology/containers", "layer2", "topic/linux", "topic/technology/networking"]
 title: What is a Linux bridge
 type: "Factual"
 uid: 

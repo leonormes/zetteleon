@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-23T22:28:46Z
 epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2025-12-31T23:08:34+00:00
+modified: 2026-01-03T10:18:53+00:00
 purpose: "To define how the Linux kernel provides isolated views of system resources through specialized pseudo-filesystems like procfs and sysfs."
 review_interval: "1 year"
 see_also: ["[[SoT - Container Isolation (The Namespace Security Model)]]", "[[SoT - Namespacing in Computing]]"]
 source_of_truth: []
 status: "stable"
-tags: ["kernel", "linux", "namespace", "procfs", "sysfs"]
+tags: ["kernel", "topic/linux", "namespace", "procfs", "sysfs"]
 title: SoT - Namespace-Aware Pseudo-Filesystems
 type: "SoT"
 uid: 

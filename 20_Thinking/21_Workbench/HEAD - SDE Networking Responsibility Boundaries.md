@@ -11,7 +11,7 @@ review_interval: null
 see_also: []
 source_of_truth: []
 status: processing
-tags: [state/head, topic/networking, topic/sde, type/design]
+tags: [state/head, topic/technology/networking, topic/sde, type/design]
 title: HEAD - SDE Networking Responsibility Boundaries
 type: head
 uid: null

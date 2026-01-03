@@ -37,18 +37,24 @@ Do not read 50 PDFs. Use AI to compress the noise.
 *   [ ] **Environment:** Phone in "Cold Zone." Timer set to **45m**.
 *   [ ] **MVA:** Open the IDE/Editor. Read the **Bridge Note**.
 
-### 2.2 Protocol: The Oakley Hard Start (Deep Dive)
-Replace linear reading with cyclical failure.
-1.  **The Probe (0-5m):** Attempt the **Unit Test** immediately *before* reading the theory.
-    *   *Why:* Failure loads the problem into Working Memory (The Generation Effect).
-2.  **The Diffuse Retreat (5-20m):** If stuck, step back. Read the specific documentation/chapter needed to fix *that specific error*.
-3.  **The Attack (20-45m):** Apply the fix. Write the code.
-4.  **The Critique:** Paste result into LLM with **Hostile Compiler Prompt**.
+### 2.2 Protocol: The Oakley Hard Start (Deep Dive Algorithm)
+Replace linear reading with a cycle of "Focus" (Head-On) and "Diffuse" (Background Processing).
+
+1.  **The Probe (00:00 - 05:00):** Immediately attempt the hardest problem in your timebox (e.g., "Write the Worker Pool implementation").
+    *   *The Struggle:* Push until you hit a wall. Failure loads the problem into Working Memory.
+    *   *The Pivot:* If stuck after 5 mins, **STOP**.
+2.  **The Diffuse Retreat (05:00 - 25:00):** Switch context to a "Mechanical Drill" (e.g., Flashcards, Syntax).
+    *   *Why:* Build momentum/dopamine while the subconscious processes the "Hard Problem."
+3.  **The Return (25:00 - 45:00):** Return to the Hard Problem with fresh eyes.
+    *   *The Breakthrough:* Apply the new angle. Write the code.
+    *   *The Critique:* Paste result into LLM with **Hostile Compiler Prompt**.
+4.  **Feynman Exit (45:00 - 50:00):** Mandatory Synthesis.
+    *   *Constraint:* Explain the core concept aloud without using technical jargon.
 
 ### 2.3 Tactics: Active Learning (The Peter Method)
 Never copy-paste.
-*   **Feynman Technique:** Explain the concept to an empty chair in simple language.
 *   **The Peter Method:** Read -> Look Away -> Write Summary -> Compare.
+*   **Interleaving:** Mix different problem types to force discrimination learning.
 
 ### 2.4 Error Handling (Focus Drift)
 *   *Signal:* "I'm bored/distracted."
@@ -93,10 +99,10 @@ When the Capstone is built:
 - [ ] **Syllabus:** Extracted Concepts, Facts, Procedures.
 
 ## Phase II: Cockpit (Repeat per Session)
-- [ ] **Hard Start:** Attempted Unit Test first.
-- [ ] **Study:** Read *only* what was needed to fix the error.
-- [ ] **Verify:** Passed Hostile Compiler check.
-- [ ] **Feynman:** Explained concept aloud.
+- [ ] **Hard Start:** Attempted Unit Test first (5m).
+- [ ] **Retreat:** Switched to Drill if stuck (20m).
+- [ ] **Return:** Re-engaged and verified with Hostile Compiler (20m).
+- [ ] **Feynman:** Explained concept aloud (5m).
 
 ## Phase III: Cryosleep
 - [ ] **Bridge:** Wrote Save State log.

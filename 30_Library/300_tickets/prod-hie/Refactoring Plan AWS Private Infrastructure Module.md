@@ -42,24 +42,24 @@ This phase lays the foundation for the new module, ensuring a logical separation
 2. **Implement the Standard Module Layout**:
    - The directory structure from your plan is excellent and should be implemented exactly. Breaking resources into files like `networking.tf`, `compute.tf`, and `gateway.tf` directly maps to the components identified in your infrastructure analysis and improves maintainability.
 
-   ```sh
-   terraform-aws-private-infrastructure/
-   ├── README.md
-   ├── main.tf
-   ├── variables.tf
-   ├── outputs.tf
-   ├── locals.tf
-   ├── versions.tf
-   ├── networking.tf    # VPC, Subnets, Endpoints
-   ├── compute.tf       # EKS Cluster, Node Groups
-   ├── gateway.tf       # NAT, Network Firewall
-   ├── jumpbox.tf       # Conditional Jumpbox resources
-   ├── relay.tf         # Conditional Relay Service resources
-   └── modules/         # Existing child modules
-       ├── vpc/
-       ├── eks/
-       └── ... (all others)
-   ```
+```sh
+terraform-aws-private-infrastructure/
+├── README.md
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── locals.tf
+├── versions.tf
+├── networking.tf
+├── compute.tf
+├── gateway.tf
+├── jumpbox.tf
+├── relay.tf
+└── modules/
+   ├── vpc/
+   ├── eks/
+   └──
+```
 
 3. **Migrate Child Modules**:
    - Copy all existing child modules (vpc, eks, gateway, etc.) from `hie-sde-v2/modules/` into the new `modules/` subdirectory. As your analysis notes, these are already well-structured and require no immediate changes.

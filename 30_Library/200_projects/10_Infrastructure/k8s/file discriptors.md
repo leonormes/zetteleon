@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-02-26T22:01:15Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-31T23:08:44+00:00
+modified: 2026-01-03T10:19:16+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["linux"]
+tags: ["topic/linux"]
 title: file discriptors
 type: "documentation"
 uid: 

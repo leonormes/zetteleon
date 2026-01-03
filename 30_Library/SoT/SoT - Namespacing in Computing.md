@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-13T08:50:56Z
 epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2025-12-31T23:08:34+00:00
+modified: 2026-01-03T10:18:53+00:00
 purpose: "To define the principles, types, and architectural impact of namespacing across operating systems, networking, and programming."
 review_interval: "2 years"
 see_also: ["[[SoT - Container Isolation (The Namespace Security Model)]]", "[[SoT - Namespace-Aware Pseudo-Filesystems]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "isolation", "kubernetes", "linux", "networking"]
+tags: ["architecture", "isolation", "kubernetes", "topic/linux", "topic/technology/networking"]
 title: SoT - Namespacing in Computing
 type: "SoT"
 uid: 

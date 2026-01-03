@@ -5,13 +5,13 @@ created: 2025-02-07T12:57:54Z
 epistemic: ""
 id: "networking stack"
 last_reviewed: ""
-modified: 2025-12-31T23:08:44+00:00
+modified: 2026-01-03T10:19:18+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["containers", "topic/technology/networking"]
+tags: ["topic/technology/containers", "topic/technology/networking"]
 title: networking stack
 type: ""
 uid: 

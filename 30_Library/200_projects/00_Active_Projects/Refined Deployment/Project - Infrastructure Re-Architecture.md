@@ -1,12 +1,25 @@
 ---
-aliases: ["Infrastructure Re-Architecture", "Project - DoD IaC", "FitFile Data-Oriented Infrastructure"]
+confidence: ""
+epistemic: ""
+purpose: ""
+modified: 2026-01-03T10:19:29+00:00
+review_interval: ""
+see_also: []
+source_of_truth: []
+aliases:
+  - Infrastructure Re-Architecture
+  - Project - DoD IaC
+  - FitFile Data-Oriented Infrastructure
 created: 2026-01-02T23:45:00Z
-last_reviewed: "2026-01-02"
-priority: "High"
-status: "active"
-tags: ["project", "devops", "iac", "prodos"]
+last_reviewed: 2026-01-02
+priority: High
+status: active
+tags:
+  - project
+  - devops
+  - iac
 title: Project - Infrastructure Re-Architecture
-type: "project"
+type: project
 ---
 
 # Project - Infrastructure Re-Architecture
@@ -21,17 +34,17 @@ type: "project"
 
 *Source: [[SoT - DevOps & Infrastructure Architecture Strategy]]*
 
-*   **The Pivot:** Move from "Configuring Resources" to "Defining Data Models."
-*   **The Core Model:**
-    *   **Identity:** `Hostname` + `Certificate` + `IP` must be a single atomic unit, not scattered config.
-    *   **Network:** Modeled as a graph of **Resources** and **Reachability** constraints.
-*   **The Tooling:** Rust (for the model/CLI) wrapping Terraform/Helm (for execution).
+* **The Pivot:** Move from "Configuring Resources" to "Defining Data Models."
+* **The Core Model:**
+    * **Identity:** `Hostname` + `Certificate` + `IP` must be a single atomic unit, not scattered config.
+    * **Network:** Modeled as a graph of **Resources** and **Reachability** constraints.
+* **The Tooling:** Rust (for the model/CLI) wrapping Terraform/Helm (for execution).
 
 ## 2. Active Quests (The Grind)
 
-*   [ ] **Quest 1: The Object Model:** Map the current "Implicit" dependencies (DNS -> Cert -> IP) into an explicit Rust struct/Type system.
-*   [ ] **Quest 2: The Validator:** Write a tool that ingests our current `.tfvars` and validates them against this new strict model.
-*   [ ] **Quest 3: The Refactor:** Re-write the Terraform modules to accept this structured data input.
+* [] **Quest 1: The Object Model:** Map the current "Implicit" dependencies (DNS -> Cert -> IP) into an explicit Rust struct/Type system.
+* [] **Quest 2: The Validator:** Write a tool that ingests our current `.tfvars` and validates them against this new strict model.
+* [] **Quest 3: The Refactor:** Re-write the Terraform modules to accept this structured data input.
 
 ---
 
@@ -47,5 +60,6 @@ type: "project"
 ---
 
 ## 4. Resources
+
 - [[SoT - DevOps & Infrastructure Architecture Strategy]]
 - [[FITFILE Platform Terraform Module Wiki]]

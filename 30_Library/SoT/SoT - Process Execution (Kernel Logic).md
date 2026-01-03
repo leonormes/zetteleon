@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Bash Scripting]]", "[[SoT - Linux Container Primitives]]"]
 source_of_truth: ["[[Kernel Hints and Path Resolution]]"]
 status: "stable"
-tags: ["linux", "kernel", "operating-systems", "programming"]
+tags: ["topic/linux", "kernel", "operating-systems", "programming"]
 title: SoT - Process Execution (Kernel Logic)
 type: "SoT"
 uid: 

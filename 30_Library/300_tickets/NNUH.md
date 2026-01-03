@@ -126,17 +126,17 @@ Configure the central management plane to accept the new cluster.
 1. Navigate to `Central Services/hcp/vault`.
 2. Edit `locals.tf`: Add the deployment block.
 
-    ```hcl
-    "<deployment_key>" = {
-      secrets = tomap({
-        "application" = {},
-        "spicedb" = {},
-        "cloudflare" = {},
-        "monitoring" = {},
-        "argo-workflows" = {},
-      })
-    }
-    ```
+```hcl
+"<deployment_key>" = {
+  secrets = tomap({
+    "application" = {},
+    "spicedb" = {},
+    "cloudflare" = {},
+    "monitoring" = {},
+    "argo-workflows" = {},
+  })
+}
+```
 
 3. Commit, push, and apply in Terraform Cloud (HCP Terraform).
 4. **Populate Secrets:** Go to the Vault UI (`admin/deployments/<key>`) and populate:
@@ -187,14 +187,14 @@ Deploy the actual Azure resources (VNet, AKS, Jumpbox).
 4. **Versions.tf:** Configure the `cloud` block to point to the Workspace created above.
 5. **Main.tf:**
 
-    ```hcl
-    module "private-infrastructure" {
-      source = "app.terraform.io/FITFILE-Platforms/private-infrastructure/azure"
-      version = "<latest>"
-      deployment_key = "<deployment-key>"
-      admin_password = var.admin_password
-    }
-    ```
+```hcl
+module "private-infrastructure" {
+  source = "app.terraform.io/FITFILE-Platforms/private-infrastructure/azure"
+  version = "<latest>"
+  deployment_key = "<deployment-key>"
+  admin_password = var.admin_password
+}
+```
 
 6. **Outputs.tf:** Expose `aks_cluster_outbound_ip_address`.
 

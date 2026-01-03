@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Protocol Data Units (PDU)]]", "[[SoT - The Data Architecture of DNS]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "networking", "topic/technology", "url"]
+tags: ["architecture", "topic/technology/networking", "topic/technology", "url"]
 title: SoT - The Data Anatomy of a URL
 type: "SoT"
 uid: 

@@ -8,7 +8,7 @@ confidence: ""
 epistemic: ""
 purpose: ""
 created: 2025-12-31T09:43:47+00:00
-modified: 2025-12-31T23:08:31+00:00
+modified: 2026-01-03T10:18:46+00:00
 last_reviewed: ""
 review_interval: ""
 see_also: []
@@ -394,7 +394,7 @@ The "Good Programmer" that Torvalds speaks of is not a wizard of algorithms. The
 3. Torvalds' quote about good programmer [closed] - Software Engineering Stack Exchange, accessed on December 31, 2025, [https://softwareengineering.stackexchange.com/questions/163185/torvalds-quote-about-good-programmer](https://softwareengineering.stackexchange.com/questions/163185/torvalds-quote-about-good-programmer)
 4. There is a quote by Linus Torvalds that is relevant here: "Bad programmers worry... | Hacker News, accessed on December 31, 2025, [https://news.ycombinator.com/item?id=17580598](https://news.ycombinator.com/item?id=17580598)
 5. An illustration of good taste in code - GitHub Pages, accessed on December 31, 2025, [https://felipec.github.io/good-taste/parts/1.html](https://felipec.github.io/good-taste/parts/1.html)
-6. What makes good taste? #linux #linus #torvalds - Gist - GitHub, accessed on December 31, 2025, [https://gist.github.com/santisbon/42580049705ba3d8fbef7168e4668e3c](https://gist.github.com/santisbon/42580049705ba3d8fbef7168e4668e3c)
+6. What makes good taste? #topic/linux #linus #torvalds - Gist - GitHub, accessed on December 31, 2025, [https://gist.github.com/santisbon/42580049705ba3d8fbef7168e4668e3c](https://gist.github.com/santisbon/42580049705ba3d8fbef7168e4668e3c)
 7. mkirchner/linked-list-good-taste: Linus Torvalds' linked list... - GitHub, accessed on December 31, 2025, [https://github.com/mkirchner/linked-list-good-taste](https://github.com/mkirchner/linked-list-good-taste)
 8. Applying the Linus Torvalds “Good Taste” Coding Requirement | Hacker News, accessed on December 31, 2025, [https://news.ycombinator.com/item?id=12793624](https://news.ycombinator.com/item?id=12793624)
 9. Git turns 20: A Q&A with Linus Torvalds - The GitHub Blog, accessed on December 31, 2025, [https://github.blog/open-source/git/git-turns-20-a-qa-with-linus-torvalds/](https://github.blog/open-source/git/git-turns-20-a-qa-with-linus-torvalds/)

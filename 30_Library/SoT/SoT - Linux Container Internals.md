@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-30"
-modified: 2025-12-31T23:08:35+00:00
+modified: 2026-01-03T10:18:53+00:00
 purpose: "To define the definitive kernel-level mechanisms (Namespaces, Cgroups, Layered Filesystems) that enable modern containerisation."
 review_interval: "6 months"
 see_also: ["[[SoT - Container Security & Hardening]]", "[[SoT - Namespacing in Computing]]", "[[SoT - Kubernetes Cluster State Architecture]]"]
 source_of_truth: []
 status: "stable"
-tags: ["containers", "docker", "k8s", "kernel", "linux", "systems_engineering"]
+tags: ["topic/technology/containers", "docker", "k8s", "kernel", "topic/linux", "systems_engineering"]
 title: SoT - Linux Container Internals
 type: "SoT"
 uid: 

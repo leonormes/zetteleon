@@ -5,13 +5,13 @@ created: 2025-02-07T12:57:52Z
 epistemic: ""
 id: "container-curriculum"
 last_reviewed: ""
-modified: 2025-12-31T23:08:44+00:00
+modified: 2026-01-03T10:19:16+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["containers", "k8s"]
+tags: ["topic/technology/containers", "k8s"]
 title: k8s curriculum
 type: "curriculum"
 uid: 

@@ -11,7 +11,7 @@ review_interval: "180"
 see_also: ["[[Animal Allegory is a Persistent Feature of Fables for Social Commentary]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["fable", "history", "moc", "sequence", "storytelling"]
+tags: ["fable", "history", "type/moc", "sequence", "storytelling"]
 title: Sequence - Evolution of Fable Storytelling
 type: "sequence"
 uid: 

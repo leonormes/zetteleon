@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["container"]
+tags: ["topic/technology/containers"]
 title: Authenticate to GitHub Container Registry (ghcr.io)
 type: ""
 uid: 

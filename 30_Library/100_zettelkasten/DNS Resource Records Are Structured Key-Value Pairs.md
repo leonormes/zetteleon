@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["DNS is a distributed database.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["data-structures", "dns", "topic/technology/networking"]
+tags: ["data-structures", "topic/technology/networking/dns", "topic/technology/networking"]
 title: DNS Resource Records Are Structured Key-Value Pairs
 type: "concept"
 uid: 

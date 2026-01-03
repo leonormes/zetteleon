@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["DNS Protocol Uses UDP and TCP for Message Transport.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["dns", "protocols", "topic/technology/networking"]
+tags: ["topic/technology/networking/dns", "protocols", "topic/technology/networking"]
 title: DNS Message Format Contains Header and Sections
 type: "concept"
 uid: 

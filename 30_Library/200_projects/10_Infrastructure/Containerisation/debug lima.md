@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["containers", "workstation"]
+tags: ["topic/technology/containers", "workstation"]
 title: debug lima
 type: ""
 uid: 

@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - Encapsulation & De-encapsulation]]"]
 source_of_truth: []
 status: "stable"
-tags: ["mtu", "networking", "overhead", "performance", "vpn"]
+tags: ["mtu", "topic/technology/networking", "overhead", "performance", "vpn"]
 title: SoT - Network Overhead & MTU
 type: "SoT"
 uid: 
