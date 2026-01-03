@@ -122,7 +122,7 @@ views:
       - property: file.mtime
         direction: DESC
     columnSize:
-      file.name: 400
+      file.name: 476
       note.tags: 300
   - type: table
     name: "Topic: Type Theory"

@@ -8,6 +8,9 @@ views:
       - file.name
       - version
       - purpose
+    sort:
+      - property: file.ctime
+        direction: DESC
     properties:
       note.purpose:
         wrap: true

@@ -1,6 +1,6 @@
 ---
 title: HEAD - Learning Rust via Release Tool
-type: ""
+type: head
 confidence: ""
 epistemic: ""
 purpose: ""
@@ -9,10 +9,16 @@ last_reviewed: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
-aliases: ["Rust Learning Project", "Release Tool Curriculum"]
-tags: ["project", "learning", "rust", "head"]
+aliases:
+  - Rust Learning Project
+  - Release Tool Curriculum
+tags:
+  - project
+  - learning
+  - rust
+  - head
 created: 2025-12-27T14:11:28+00:00
-status: "active"
+status: active
 ---
 
 # HEAD - Learning Rust via Release Tool

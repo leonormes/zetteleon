@@ -1,7 +1,7 @@
 ---
 aliases: []
 title: "Project: Master Data-Oriented Design (Rust)"
-type: ""
+type: project
 confidence: ""
 epistemic: ""
 purpose: ""
@@ -11,7 +11,12 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 created: 2026-01-02T09:33:27+00:00
-tags: ["project", "learning", "rust", "architecture", "active"]
+tags:
+  - project
+  - learning
+  - rust
+  - architecture
+  - active
 status: Active
 priority: High
 bridge_note: "Ready to start. First Mission: The Traffic Light State Enforcer."
