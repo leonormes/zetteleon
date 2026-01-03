@@ -106,11 +106,3 @@ For an Abstract-Conceptual user, think of the smoothie as a **modular assembly**
 - **Temperature Control:** Maintain a sub-zero temperature. The colder the drink, the less sensitive your taste buds are to bitter/earthy notes.
 
 **Would you like me to calculate the caloric impact of switching from a water-based shake to a coconut milk-based smoothie?**
-
-Google Account
-
-Leon Ormes
-
-leonormes@gmail.com
-
-Uploaded image not shown
