@@ -2,8 +2,8 @@
 aliases: []
 tags: []
 title: Role
-type: "prompt"
-status: ""
+type: prompt
+status: active
 confidence: ""
 epistemic: ""
 purpose: ""
