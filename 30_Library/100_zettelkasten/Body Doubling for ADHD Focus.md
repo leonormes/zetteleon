@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-26T11:12:00Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16"
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:42+00:00
 purpose: "To test if \\\"Digital Presence\\\" (recording oneself) triggers the same focus benefits as a live human body double."
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]

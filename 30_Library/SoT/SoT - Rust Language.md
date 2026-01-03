@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-27T14:11:28+00:00
 epistemic: "knowledge"
 last_reviewed: "2025-12-30"
-modified: 2025-12-31T23:08:34+00:00
+modified: 2026-01-03T10:18:51+00:00
 purpose: "The canonical entry point for the Rust programming language in ProdOS, defining its philosophy, architecture, and role."
 review_interval: "6 months"
 see_also: ["[[MOC - Rust Programming Language]]", "[[SoT - Rust's Ownership Model]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[SoT - Rust Type Mechanics]]"]

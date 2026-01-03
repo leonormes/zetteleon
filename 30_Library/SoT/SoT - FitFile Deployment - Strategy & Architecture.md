@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T18:04:39Z
 epistemic: "theory"
 last_reviewed: "2025-12-30"
-modified: 2025-12-31T23:08:35+00:00
+modified: 2026-01-03T10:18:54+00:00
 purpose: "The canonical architectural reference for the FITFILE Platform deployment, covering the cloud hierarchy, security model, and GitOps design."
 review_interval: "6 months"
 see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - FitFile Deployment - Networking & DNS]]"]

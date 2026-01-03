@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "A consolidated list of general non-fiction and fiction recommendations (excluding Sci-Fi)."
 last_reviewed: "2025-12-31"
-modified: 2025-12-31T23:08:36+00:00
+modified: 2026-01-03T10:18:59+00:00
 purpose: "To track book recommendations that fall outside the specific Sci-Fi index."
 review_interval: "3 months"
 see_also: ["[[Sci-Fi Watchlist (Books)]]", "[[LIST - Master Sci-Fi Rankings]]"]

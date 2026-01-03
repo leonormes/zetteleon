@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-12-10T12:00:00Z
 epistemic: "definition"
 last_reviewed: "2025-12-10"
-modified: 2025-12-31T23:08:52+00:00
+modified: 2026-01-03T10:19:37+00:00
 purpose: "To define the character strength of Perseverance."
 review_interval: "90"
 see_also: []

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2025-12-31T23:08:51+00:00
+modified: 2026-01-03T10:19:35+00:00
 purpose: "To explain the architecture where a single domain name resolves to different IPs based on the client's network location."
 review_interval: "1 year"
 see_also: ["[[Private DNS Zones Provide Internal Network Name Resolution]]"]

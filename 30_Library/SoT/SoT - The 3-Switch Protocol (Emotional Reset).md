@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-25T11:45:00Z
 epistemic: principle
 last_reviewed: 2025-12-25
-modified: 2025-12-31T23:08:34+00:00
+modified: 2026-01-03T10:18:51+00:00
 purpose: To define the 15-second physiological protocol for bypassing emotional loops and restoring cognitive control.
 review_interval: 6 months
 see_also: ["[[Emotional Regulation Techniques for ADHD Productivity]]", "[[SoT - Journaling as Cognitive Engineering]]", "[[SoT - PRODOS (System Architecture)]]"]

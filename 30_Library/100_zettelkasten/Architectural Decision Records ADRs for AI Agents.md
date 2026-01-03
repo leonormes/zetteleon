@@ -5,7 +5,7 @@ created: 2025-10-10T08:29:31Z
 epistemic: ""
 id: "20251008_Architectural_Decision_Records_ADRs_for_AI_Agents"
 last_reviewed: ""
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:43+00:00
 purpose: ""
 review_interval: ""
 see_also: []

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T14:05:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-31T23:08:51+00:00
+modified: 2026-01-03T10:19:34+00:00
 purpose: "To describe the synergy between time blocking and time boxing."
 review_interval: "90"
 see_also: ["[[Time Blocking Focuses on When a Task is Done While Time Boxing Focuses on How Much Time is Spent]]"]

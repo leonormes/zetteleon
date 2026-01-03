@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-12-16T13:20:00Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2025-12-31T23:08:55+00:00
+modified: 2026-01-03T10:19:43+00:00
 purpose: "To test if visualizing time passage reduces Time Blindness and panic."
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]", "[[MOC - Time Boxing for ADHD Brains]]"]

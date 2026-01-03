@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-31T09:50:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-31T23:08:53+00:00
+modified: 2026-01-03T10:19:40+00:00
 purpose: "Define intelligence as a set of problem-solving skills rather than a single trait."
 review_interval: "90"
 see_also: ["Foundations of Learning and Cognition for Developers.md"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-21T00:00:00Z
 epistemic: "Synthesized from a deep dive on cognitive science, AI architecture, and the Free Energy Principle."
 last_reviewed: "2025-12-21"
-modified: 2025-12-31T23:08:35+00:00
+modified: 2026-01-03T10:18:54+00:00
 purpose: "To provide a definitive architectural comparison between human (biological) cognition and Large Language Model (artificial) 'cognition'."
 review_interval: "6 months"
 see_also: []

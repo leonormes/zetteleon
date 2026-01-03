@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-10T15:18:00Z
 epistemic: "NA"
 last_reviewed: ""
-modified: 2025-12-31T23:08:52+00:00
+modified: 2026-01-03T10:19:36+00:00
 purpose: "To provide guidance on structuring projects in task managers."
 review_interval: "180"
 see_also: []

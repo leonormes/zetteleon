@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "comparison"
 last_reviewed: "2025-12-19"
-modified: 2025-12-31T23:08:34+00:00
+modified: 2026-01-03T10:18:51+00:00
 purpose: "To compare the trade-offs between static and dynamic linking, focusing on binary size, performance, and security."
 review_interval: "24 months"
 see_also: []

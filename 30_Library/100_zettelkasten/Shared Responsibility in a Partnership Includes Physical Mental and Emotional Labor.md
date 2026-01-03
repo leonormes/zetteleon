@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T10:03:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-31T23:08:51+00:00
+modified: 2026-01-03T10:19:36+00:00
 purpose: "To define shared responsibility beyond physical tasks."
 review_interval: "90"
 see_also: ["[[Emotional Labor is the Invisible Work of Managing a Household and Family]]"]

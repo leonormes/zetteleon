@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "The logical framework of the Cosmic Horror genre."
 last_reviewed: "2025-12-31"
-modified: 2025-12-31T23:08:33+00:00
+modified: 2026-01-03T10:18:57+00:00
 purpose: "To define the conceptual frameworks and underlying logic of Cosmic Horror as an exploration of human insignificance."
 review_interval: "1 year"
 see_also: ["[[SoT - Reality, Models, and the Limits of Accuracy]]", "[[SoT - Belief Architecture & Cognitive Spaces]]"]

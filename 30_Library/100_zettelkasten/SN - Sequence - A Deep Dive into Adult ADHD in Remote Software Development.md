@@ -6,7 +6,7 @@ criteria: "Notes must relate to the experience of an adult with ADHD in a profes
 epistemic: ""
 exclusions: "General ADHD information not specific to remote work or software development."
 last_reviewed: ""
-modified: 2025-12-31T23:08:52+00:00
+modified: 2026-01-03T10:19:36+00:00
 purpose: ""
 review_interval: ""
 scope: "The challenges, strengths, and strategies for remote software developers with ADHD."

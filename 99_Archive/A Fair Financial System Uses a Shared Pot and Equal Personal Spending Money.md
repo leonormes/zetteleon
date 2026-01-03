@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-10T10:16:00Z
 epistemic: "NA"
 last_reviewed: ""
-modified: 2025-12-31T23:08:32+00:00
+modified: 2026-01-03T10:18:48+00:00
 purpose: "To provide a practical model for fair financial management in a couple."
 review_interval: "180"
 see_also: []

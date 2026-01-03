@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "fact"
 last_reviewed: "2025-12-31"
-modified: 2025-12-31T23:08:33+00:00
+modified: 2026-01-03T10:18:53+00:00
 purpose: "To map the physical latency terrain of cloud memory interconnects."
 review_interval: "1 year"
 see_also: ["[[MOC - Cloud Hardware Architecture]]"]

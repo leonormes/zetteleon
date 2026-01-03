@@ -5,7 +5,7 @@ created: 2025-10-31T11:25:00Z
 criteria: ["Cognitive Load", "Definition", "Demonstration"]
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:42+00:00
 purpose: "Compare knowing and understanding."
 review_interval: "180"
 see_also: []

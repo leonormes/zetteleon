@@ -16,13 +16,17 @@ views:
     order:
       - type
       - file.name
-      - tags
+      - file.path
     sort:
+      - property: type
+        direction: DESC
+      - property: file.path
+        direction: ASC
       - property: file.mtime
         direction: DESC
     columnSize:
+      note.type: 136
       file.name: 502
-      note.epistemic: 172
   - type: list
     name: Recently Updated
     filters:

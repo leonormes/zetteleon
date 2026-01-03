@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:10:06Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2025-12-31T23:08:51+00:00
+modified: 2026-01-03T10:19:34+00:00
 purpose: "To define the classical philosophical definition of knowledge."
 review_interval: "90"
 see_also: ["[[Gettier Problems Challenge the Traditional Definition of Knowledge]]"]

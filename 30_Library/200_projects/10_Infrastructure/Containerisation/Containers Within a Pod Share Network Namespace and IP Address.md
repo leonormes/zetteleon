@@ -5,7 +5,7 @@ created: 2025-10-26T17:19:00Z
 epistemic: "null"
 id: "Containers within a pod share network namespace and IP address"
 last_reviewed: "null"
-modified: 2025-12-31T23:08:48+00:00
+modified: 2026-01-03T10:19:27+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-06T19:55:03Z
 epistemic: "fact"
 last_reviewed: "2025-11-06"
-modified: 2025-12-31T23:08:51+00:00
+modified: 2026-01-03T10:19:35+00:00
 purpose: "To explain how systems leverage the power of compounding through small, consistent actions."
 review_interval: "90"
 see_also: []

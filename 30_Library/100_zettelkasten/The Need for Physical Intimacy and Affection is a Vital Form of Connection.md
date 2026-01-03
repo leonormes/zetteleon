@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-10T10:08:00Z
 epistemic: "hypothesis"
 last_reviewed: ""
-modified: 2025-12-31T23:08:51+00:00
+modified: 2026-01-03T10:19:34+00:00
 purpose: "To identify the need for physical connection as a core human need in relationships."
 review_interval: "90"
 see_also: []

@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-31T10:19:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:42+00:00
 purpose: "Explain bit-level operations for network prefix handling."
 review_interval: "90"
 see_also: ["Mtri Trees Efficiently Store ACL and Routing Table Entries.md"]

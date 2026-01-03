@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-18T21:30:15+00:00
 epistemic: "theory"
 last_reviewed: "2025-12-30"
-modified: 2025-12-31T23:08:33+00:00
+modified: 2026-01-03T10:18:49+00:00
 purpose: "To explore the deep isomorphism between Logic, Computation (Types), and Category Theory, and applying it to Software Architecture."
 review_interval: "12 months"
 see_also: ["[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]", "[[SoT - Rust's Design Philosophy]]", "[[SoT - Type-Driven Infrastructure as Code]]"]

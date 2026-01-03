@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2025-11-10T15:10:00Z
 epistemic: fact
 last_reviewed:
-modified: 2025-12-31T23:08:31+00:00
+modified: 2026-01-03T10:18:43+00:00
 purpose: "To explain the mechanism by which starter tasks are effective."
 review_interval: 90
 see_also: ["[[The Starter Task Overcomes Activation Energy for ADHD]]"]

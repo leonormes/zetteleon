@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "strategy"
 last_reviewed: "2025-12-24"
-modified: 2025-12-31T23:08:36+00:00
+modified: 2026-01-03T10:18:57+00:00
 purpose: "To define a systematic protocol for high-velocity learning, shifting from passive consumption to neural integration."
 review_interval: "3 months"
 see_also: ["[[Protocol - Deep Dive Session]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS (System Architecture)]]"]
@@ -74,6 +74,8 @@ Treat cognitive capacity like **soil**: it requires periods of "lying fallow" to
 
 ## 4. Architectural Integration (PRODOS)
 
-- **Input:** Use **NotebookLM** for the **Compress** phase (Initial pattern recognition).
-- **Execution:** Phase C of the **A-C-T Framework** is the **Compile** phase (The specific test).
-- **Maintenance:** The **Dopamine Menu** (Appetizers) can serve as **Micro-Consolidation** triggers.
+This theoretical framework is operationalized through the **[[SoT - Protocol - The Learning System (Hangar & Cockpit)|Learning System Protocol]]**.
+
+- **Compress:** Happens in **The Hangar** (Architect Phase).
+- **Compile:** Happens in **The Engine** (Boss Fight / Flight Simulator).
+- **Consolidate:** Happens during **Cryosleep** (State Management) and Rest periods.

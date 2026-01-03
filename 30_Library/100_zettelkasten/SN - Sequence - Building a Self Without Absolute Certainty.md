@@ -6,7 +6,7 @@ criteria: "Notes must relate to the epistemological crisis of certainty and the 
 epistemic: ""
 exclusions: "Simple factual claims or discussions of specific productivity systems."
 last_reviewed: ""
-modified: 2025-12-31T23:08:52+00:00
+modified: 2026-01-03T10:19:36+00:00
 purpose: ""
 review_interval: ""
 scope: "A philosophical framework for building a functional and confident self in the absence of absolute certainty."

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T20:00:20Z
 epistemic: "strategy"
 last_reviewed: "2025-12-23"
-modified: 2025-12-31T23:08:34+00:00
+modified: 2026-01-03T10:18:52+00:00
 purpose: "To provide a concrete algorithm for task initiation by offloading executive function onto the body and environment."
 review_interval: "3 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - The Extended Mind]]"]

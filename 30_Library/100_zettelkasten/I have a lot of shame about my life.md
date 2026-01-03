@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-05-18T08:57:31Z
 epistemic: "personal"
 last_reviewed: "2025-10-31"
-modified: 2025-12-31T23:08:53+00:00
+modified: 2026-01-03T10:19:40+00:00
 purpose: "Personal reflection on shame and its drivers"
 review_interval: ""
 see_also: []

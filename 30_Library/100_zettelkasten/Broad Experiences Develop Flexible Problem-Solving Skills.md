@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:30:10Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:42+00:00
 purpose: "To advocate for diverse experiences in skill development."
 review_interval: "90"
 see_also: ["[[Divergent Thinking Outperforms Narrow Specialization]]"]

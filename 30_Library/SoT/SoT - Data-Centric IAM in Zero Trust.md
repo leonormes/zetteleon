@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-03-15T10:12:06Z
 epistemic: "theory"
 last_reviewed: "2025-12-29"
-modified: 2025-12-31T23:08:35+00:00
+modified: 2026-01-03T10:18:56+00:00
 purpose: "To define IAM within a Zero Trust framework as a function of data relationships, specifying the schemas and logic required for trust establishment."
 review_interval: "6 months"
 see_also: ["[[SoT - Digital Identity]]", "[[SoT - Modern Authentication Standards]]", "[[MOC - Cloud-Native Authentication]]"]

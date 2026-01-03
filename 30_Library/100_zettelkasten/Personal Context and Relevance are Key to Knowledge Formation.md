@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:10:04Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2025-12-31T23:08:52+00:00
+modified: 2026-01-03T10:19:37+00:00
 purpose: "To explain the importance of personal relevance in forming knowledge."
 review_interval: "90"
 see_also: ["[[Contextual Relationships]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-30T15:50:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2025-12-31T23:08:35+00:00
+modified: 2026-01-03T10:18:54+00:00
 purpose: "To define the mindset and philosophical framework for money as a generative resource rather than a source of anxiety."
 review_interval: "1 year"
 see_also: ["[[SoT - Family Financial Wellness]]", "[[SoT - Fundamental Description of Economics]]"]

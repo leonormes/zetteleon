@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:20:07Z
 epistemic: "synthesis"
 last_reviewed: "2025-12-24"
-modified: 2025-12-31T23:08:33+00:00
+modified: 2026-01-03T10:18:50+00:00
 purpose: "Canonical source of truth for the Discipline of Perception, defining how interpretation dictates action capability."
 review_interval: "6 months"
 see_also: ["[[SoT - Indistractable Model (Focus Management)]]", "[[SoT - PRODOS (System Architecture)]]"]

@@ -1,10 +1,11 @@
 ---
+aliases: []
 alias: []
 confidence: 5/5
 created: 2025-12-22T00:00:00Z
 epistemic: architecture
 last_reviewed: 2026-01-01
-modified: 2026-01-01T00:00:00+00:00
+modified: 2026-01-03T10:18:56+00:00
 purpose: ">-"
 review_interval: 6 months
 see_also: ["[[SoT - Rust Type Mechanics]]", "[[SoT - Rust Language]]", "[[SoT - Data-Oriented Programming (DOP)]]"]
@@ -21,7 +22,7 @@ updated:
 
 > [!definition] The Core Philosophy
 > "Bad programmers worry about the code. Good programmers worry about data structures and their relationships."—**Linus Torvalds**
-> 
+>
 > **Data-Centric Software Engineering** is the discipline of treating **Data Structures** as the primary source of truth and complexity in a system, rendering the **Code** (Logic) as a trivial derivation of that structure.
 
 ### 1.1 The Conservation Law of Complexity
@@ -59,33 +60,43 @@ Torvalds distinguishes "bad taste" from "good taste" by how a developer handles 
 These ten principles form the structural backbone of the Data-Centric methodology, synthesizing the wisdom of the masters into a unified discipline.
 
 ### 1. Data Dominates Code (Torvalds/Pike)
+
 Algorithms are ephemeral; data structures are foundational. If you choose the right data structures, the algorithms will be self-evident. Complexity in code is a failure of data modeling.
 
 ### 2. Mechanical Sympathy (Acton/Kelley)
+
 Hardware is the platform, not the language. Software must respect the physical reality of the machine: cache lines, memory alignment, and instruction pipelines. Design for the hardware, not the "abstract machine."
 
 ### 3. The Conservation of Complexity
+
 Complexity cannot be destroyed, only displaced. Shift complexity from procedural logic (fragile, hard to test) to structural schema (robust, easy to query). Smart data, dumb code.
 
 ### 4. Table-Driven Logic (Brooks)
+
 Replace cyclomatic complexity (nested `if`/`else` logic) with data lookups. Control flow should be determined by traversing a data structure (tables, state machines), not by hard-coded branches.
 
 ### 5. Parse, Don't Validate (Wlaschin)
+
 Use the type system to make invalid states unrepresentable. Do not check for validity deep in the code; parse data at the boundary into strict types that prove their own validity.
 
 ### 6. Value Semantics (The Stack)
+
 Prefer immutable values (copies) over mutable references (pointers). Value semantics guarantee local reasoning, thread safety, and cache locality. Pointers introduce action-at-a-distance and aliasing bugs.
 
 ### 7. Semantic Compression (Muratori)
+
 Avoid premature abstraction. Write the specific, concrete solution first. Only when patterns physically repeat should you "compress" them into a function. DRY (Don't Repeat Yourself) is a result, not a goal.
 
 ### 8. The Error Kernel (Armstrong)
+
 Reliability comes from isolation, not defensive coding. Partition systems into a "Kernel" (must be correct) and "User Space" (allowed to crash). Supervision hierarchies manage failure; they do not prevent it.
 
 ### 9. Simplicity vs. Easy (Hickey)
+
 Simplicity is the absence of interleaving (decomplected). "Easy" is merely familiarity. Strive for Simple (unbraided state), even if it is not Easy (requires learning).
 
 ### 10. Specification First (Lamport)
+
 Coding is the final, trivial step. Understanding the problem is the work. Model the system's state space and invariants mathematically (or rigorously) before writing a single line of implementation.
 
 ---
@@ -98,15 +109,15 @@ Data-centricity is not just logical elegance; it is a physical requirement of mo
 
 Modern software is often bogged down by abstraction layers that ignore reality. Mike Acton (Unity) identifies three pervasive industry lies:
 
-1.  **"Software is the platform."**
-    *   *The Lie:* We write code for Java, C#, or Python.
-    *   *The Reality:* **Hardware is the platform.** Reasoning about software independent of hardware is a denial of engineering reality.
-2.  **"Code is designed around the model of the world."**
-    *   *The Lie:* We should model a "Dog" class because dogs exist in the real world.
-    *   *The Reality:* **Code is designed to transform data.** The CPU does not know what a "Dog" is; it only processes streams of bytes.
-3.  **"Code is more important than data."**
-    *   *The Lie:* We study syntax, patterns, and hierarchies.
-    *   *The Reality:* **Data is paramount.** Code only exists to manipulate data. If you don't understand the data layout, you cannot understand the performance.
+1. **"Software is the platform."**
+    * *The Lie:* We write code for Java, C#, or Python.
+    * *The Reality:* **Hardware is the platform.** Reasoning about software independent of hardware is a denial of engineering reality.
+2. **"Code is designed around the model of the world."**
+    * *The Lie:* We should model a "Dog" class because dogs exist in the real world.
+    * *The Reality:* **Code is designed to transform data.** The CPU does not know what a "Dog" is; it only processes streams of bytes.
+3. **"Code is more important than data."**
+    * *The Lie:* We study syntax, patterns, and hierarchies.
+    * *The Reality:* **Data is paramount.** Code only exists to manipulate data. If you don't understand the data layout, you cannot understand the performance.
 
 > **Hardware Context:** To understand the specific platform you are deploying to (AWS/Azure), consult **[[MOC - Cloud Hardware Architecture]]**.
 
@@ -115,23 +126,25 @@ Modern software is often bogged down by abstraction layers that ignore reality. 
 To engineer for the machine, we must internalize its physical constraints.
 
 #### A. The Kitchen Analogy (Nic Barker)
-*   **The Chef (CPU):** Can chop vegetables (process instructions) incredibly fast.
-*   **The Counter (L1 Cache):** Holds a small amount of ingredients right in front of the chef. Access is instant (~3 cycles).
-*   **The Supermarket (Main RAM):** Where all the ingredients live.
-*   **The Problem:** Going to the supermarket takes **~200-300 cycles**.
-*   **The Consequence:** If your data is scattered (pointers/objects), you are driving to the supermarket to buy *one single onion* for every chop. The Chef spends 99% of their time waiting for the truck.
+
+* **The Chef (CPU):** Can chop vegetables (process instructions) incredibly fast.
+* **The Counter (L1 Cache):** Holds a small amount of ingredients right in front of the chef. Access is instant (~3 cycles).
+* **The Supermarket (Main RAM):** Where all the ingredients live.
+* **The Problem:** Going to the supermarket takes **~200-300 cycles**.
+* **The Consequence:** If your data is scattered (pointers/objects), you are driving to the supermarket to buy *one single onion* for every chop. The Chef spends 99% of their time waiting for the truck.
 
 #### B. The Cache Line (The Truck)
-*   **The Unit of Transfer:** Memory is not fetched byte-by-byte; it is fetched in **64-byte chunks** (Cache Lines).
-*   **The Efficiency Rule:** Every byte fetched into the cache line *must* be used.
-*   **The OOP Failure:** Standard objects are "Swiss Cheese" in memory—data + vtables + padding + pointers. You fetch 64 bytes to use 4 bytes. This is **~90% bandwidth waste**.
+
+* **The Unit of Transfer:** Memory is not fetched byte-by-byte; it is fetched in **64-byte chunks** (Cache Lines).
+* **The Efficiency Rule:** Every byte fetched into the cache line *must* be used.
+* **The OOP Failure:** Standard objects are "Swiss Cheese" in memory—data + vtables + padding + pointers. You fetch 64 bytes to use 4 bytes. This is **~90% bandwidth waste**.
 
 ### 3.3 The DoD Optimisation Toolbox
 
 To maximise "Cache Density" (packing the truck efficiently), we use specific structural patterns.
 
 | Strategy | OOP Approach (The Anti-Pattern) | DoD Approach (The Solution) | Result |
-| :--- | :--- | :--- | :--- |
+|:--- |:--- |:--- |:--- |
 | **Storage** | **Array of Structures (AoS).** `[Ball(x,y,c), Ball(x,y,c)]`. | **Structure of Arrays (SoA).** `[x,x,x]`, `[y,y,y]`. | **100% Cache Line Utilization.** The CPU processes homogeneous streams. |
 | **State** | **Boolean Flags.** `if (obj.isActive) update()`. | **Existence-Based Predication.** Move "Active" objects to a separate array. | **Zero Branching.** Iterate linearly over the "Active" array. |
 | **Polymorphism** | **Virtual Functions.** `shape.Area()`. Forces a pointer chase + vtable lookup. | **Tagged Unions (Enums).** `match shape { Circle, Rect }`. | **Instruction Locality.** Data is contiguous; branch prediction works. |
@@ -141,13 +154,15 @@ To maximise "Cache Density" (packing the truck efficiently), we use specific str
 
 **Thesis:** High-level Correctness (Logic/Type Theory) and Low-level Performance (Physics/Layout) are isomorphic.
 
-*   **The Conflict:** Engineers often choose between "Clean Code" (Abstractions) and "Fast Code" (Hacks).
-*   **The Synthesis:** Use **Type Theory** to rigorously define the **Data Layout**. The Type System becomes the "Compiler's Physics Engine," ensuring that logical impossibilities are physically unrepresentable.
+* **The Conflict:** Engineers often choose between "Clean Code" (Abstractions) and "Fast Code" (Hacks).
+* **The Synthesis:** Use **Type Theory** to rigorously define the **Data Layout**. The Type System becomes the "Compiler's Physics Engine," ensuring that logical impossibilities are physically unrepresentable.
 
 #### Empirical Validation: The Cost of "Clean Code"
+
 Casey Muratori demonstrated that adhering to "Clean Code" dogmas (Polymorphism, Encapsulation) degrades performance by **1.5x to 10x**.
-*   **The Cost:** A 10x loss erases ~12 years of hardware advancement. It effectively runs modern hardware at 2010 speeds.
-*   **The Fix:** Aligning the Logical Model (Enum/Switch) with the Physical Model (Contiguous Memory) restores the hardware's potential.
+
+* **The Cost:** A 10x loss erases ~12 years of hardware advancement. It effectively runs modern hardware at 2010 speeds.
+* **The Fix:** Aligning the Logical Model (Enum/Switch) with the Physical Model (Contiguous Memory) restores the hardware's potential.
 
 ---
 
@@ -164,10 +179,11 @@ The "Code-Centric" developer writes a "Giant Switch Statement" to handle state. 
 ### The Transformation Pipeline (Stoyan Nikolov)
 
 View software not as a collection of "Entities" (Objects) but as a **Data Transformation Pipeline**.
-*   **Input:** Homogeneous Streams (Tables).
-*   **Process:** Independent Systems (Transformers).
-*   **Output:** Mutation Tables (Decoupled State Changes).
-*   *Result:* Testable, parallelizable, and cache-friendly.
+
+* **Input:** Homogeneous Streams (Tables).
+* **Process:** Independent Systems (Transformers).
+* **Output:** Mutation Tables (Decoupled State Changes).
+* *Result:* Testable, parallelizable, and cache-friendly.
 
 ---
 
@@ -241,8 +257,8 @@ Only now do you write the algorithms. Because the Shape is optimised and Invaria
 
 In the **Access** phase, hardware realities dictate choices:
 
-1.  **Value Semantics (Stack):** Preferred. Data is contiguous (Cache Friendly). Allocation/Deallocation is instant (Stack Pointer movement). Zero GC cost.
-2.  **Pointer Semantics (Heap):** Use only when necessary. Data is scattered (Cache Misses). Allocation requires finding free space; Deallocation requires Garbage Collection (GC Pause).
+1. **Value Semantics (Stack):** Preferred. Data is contiguous (Cache Friendly). Allocation/Deallocation is instant (Stack Pointer movement). Zero GC cost.
+2. **Pointer Semantics (Heap):** Use only when necessary. Data is scattered (Cache Misses). Allocation requires finding free space; Deallocation requires Garbage Collection (GC Pause).
 
 **Rule of Thumb:**
 - **Sharing Down (Stack Safe):** Passing a pointer *into* a function keeps it on the stack.

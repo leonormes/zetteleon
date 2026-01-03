@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-30T15:31:09Z
 epistemic: "principle"
 last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:42+00:00
 purpose: "Explains why organizing by concept rather than source enables insight"
 review_interval: "180"
 see_also: []

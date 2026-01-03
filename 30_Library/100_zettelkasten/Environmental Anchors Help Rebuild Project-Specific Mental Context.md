@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-11T19:05:12Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:41+00:00
 purpose: "Using environmental cues to trigger a project-specific mindset."
 review_interval: "90"
 see_also: []

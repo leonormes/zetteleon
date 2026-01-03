@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-12T14:10:01Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-31T23:08:51+00:00
+modified: 2026-01-03T10:19:34+00:00
 purpose: "To define the role of the Prefrontal Cortex in executive function."
 review_interval: "90"
 see_also: ["[[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]]"]

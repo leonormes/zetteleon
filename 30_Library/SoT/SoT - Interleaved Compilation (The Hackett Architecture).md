@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2025-12-31T23:08:35+00:00
+modified: 2026-01-03T10:18:53+00:00
 purpose: "Defines the architectural pattern of interleaved macro expansion and type checking to enable type-aware meta-programming."
 review_interval: "1 year"
 see_also: ["[[SoT - Dependent Haskell and Singletons]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]

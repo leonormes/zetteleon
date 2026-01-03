@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-30T12:00:03Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2025-12-31T23:08:52+00:00
+modified: 2026-01-03T10:19:36+00:00
 purpose: ""
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]

@@ -4,7 +4,7 @@ confidence: "1.0"
 created: 2025-11-22T15:00:03Z
 epistemic: "fact"
 last_reviewed: "2025-11-22"
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:42+00:00
 purpose: "Defines the protocol for mapping IP addresses to MAC addresses."
 review_interval: "90"
 see_also: []

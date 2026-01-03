@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:00:03Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:43+00:00
 purpose: "To define apophenia as the cognitive bias of seeing patterns in randomness."
 review_interval: "90"
 see_also: ["[[The Brain is a Pattern-Seeking Engine]]"]

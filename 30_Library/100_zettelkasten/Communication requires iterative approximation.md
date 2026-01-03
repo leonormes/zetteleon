@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T20:04:00Z
 epistemic: "principle"
 last_reviewed: "2025-10-31"
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:42+00:00
 purpose: "Describes how communication succeeds through iterative adjustment"
 review_interval: "90"
 see_also: ["Communication is inherently lossy like image compression"]

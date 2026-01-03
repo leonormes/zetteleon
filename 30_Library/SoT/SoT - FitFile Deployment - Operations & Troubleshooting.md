@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-29T10:26:01+00:00
 epistemic: "procedure"
 last_reviewed: "2025-12-30"
-modified: 2025-12-31T23:08:35+00:00
+modified: 2026-01-03T10:18:54+00:00
 purpose: "Standard operating procedures for managing releases, performing smoke tests, and troubleshooting cluster issues."
 review_interval: "3 months"
 see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FitFile Deployment - Networking & DNS]]"]

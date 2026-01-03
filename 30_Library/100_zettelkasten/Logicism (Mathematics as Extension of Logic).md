@@ -4,7 +4,7 @@ confidence: "0.7"
 created: 2025-11-01T11:22:13Z
 epistemic: "opinion"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2025-12-31T23:08:53+00:00
+modified: 2026-01-03T10:19:39+00:00
 purpose: "Define the logicist philosophy that mathematics reduces to pure logic."
 review_interval: "90"
 see_also: ["[[G\\u00f6del''s Incompleteness Theorems Constrain Foundational Programs]]", "[[Logic Is the Grammar of Rigorous Argument]]", "[[Russell''s Paradox in Naive Set Theory]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-11-01T20:22:24Z
 epistemic: "The fundamental physics of productivity, defining the distinction between preparation and execution."
 last_reviewed: "2025-12-31"
-modified: 2025-12-31T23:08:34+00:00
+modified: 2026-01-03T10:18:53+00:00
 purpose: "To provide a diagnostic framework for identifying procrastination disguised as preparation."
 review_interval: "6 months"
 see_also: ["[[SoT - Action Management Framework]]", "[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]", "[[SoT - Bridging the Intention-Action Gap]]"]

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T12:36:00Z
 epistemic: "pattern"
 last_reviewed: ""
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:41+00:00
 purpose: "Explain systemic risks of tight coupling."
 review_interval: "90"
 see_also: []

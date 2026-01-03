@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T18:44:03Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2025-12-31T23:08:35+00:00
+modified: 2026-01-03T10:18:55+00:00
 purpose: "The definitive operational framework for UK household financial management using Zero-Based Budgeting (YNAB) logic."
 review_interval: "6 months"
 see_also: ["[[SoT - Financial Philosophy and Spendfulness]]"]
@@ -86,8 +86,8 @@ The budget acts as a **"Money Timer"** for the neurodivergent brain:
 
 Leverage the **[[SoT - YNAB Current Goal Feature]]** to hack the "Mere Exposure Effect." By pinning a specific **Custom Target** to the top of the mobile dashboard, you force the brain to weigh impulse purchases against a high-value desire (e.g., "Slippers vs. Engagement Ring").
 
-*   **The Test Drive:** Before adding a recurring cost (e.g., a pet), use a Current Goal to "save" that monthly cost for 6 months. If you fail to save it, you cannot afford the commitment.
-*   **The Shield:** Use the "Have a Balance of" logic for one-time purchases to prevent "raiding" the category.
+* **The Test Drive:** Before adding a recurring cost (e.g., a pet), use a Current Goal to "save" that monthly cost for 6 months. If you fail to save it, you cannot afford the commitment.
+* **The Shield:** Use the "Have a Balance of" logic for one-time purchases to prevent "raiding" the category.
 
 ---
 

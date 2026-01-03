@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-06-25T20:14:33Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16"
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:41+00:00
 purpose: "To test the efficacy of blocking time for deep work versus granular next actions for ADHD brains."
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]

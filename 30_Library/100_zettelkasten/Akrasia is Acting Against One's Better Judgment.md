@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T17:07:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:43+00:00
 purpose: "To define the philosophical concept of Akrasia."
 review_interval: "90"
 see_also: ["[[Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience]]"]

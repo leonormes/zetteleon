@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T12:55:00Z
 epistemic: "framework"
 last_reviewed: ""
-modified: 2025-12-31T23:08:55+00:00
+modified: 2026-01-03T10:19:43+00:00
 purpose: "Provide structured response to criticism."
 review_interval: "90"
 see_also: ["RSD is associated with neurodiversity particularly ADHD.md"]

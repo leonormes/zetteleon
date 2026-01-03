@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "Analysis of Denis Villeneuve's recurring themes and directorial evolution."
 last_reviewed: "2025-12-31"
-modified: 2025-12-31T23:08:35+00:00
+modified: 2026-01-03T10:18:55+00:00
 purpose: "To document the structural and philosophical framework of Denis Villeneuve's filmography."
 review_interval: "1 year"
 see_also: ["[[SoT - Cyberpunk Case Study - Blade Runner]]", "[[SoT - Cyberpunk Philosophy]]"]

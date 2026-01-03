@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "concept"
 last_reviewed: "2025-12-19"
-modified: 2025-12-31T23:08:34+00:00
+modified: 2026-01-03T10:18:53+00:00
 purpose: "To define Function Fusion as a high-level, algebraic optimization technique that eliminates intermediate data structures."
 review_interval: "24 months"
 see_also: []

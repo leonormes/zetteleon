@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-13T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-13"
-modified: 2025-12-31T23:08:35+00:00
+modified: 2026-01-03T10:18:54+00:00
 purpose: "To define the Generative Infrastructure Configuration (GIC) Framework, a pattern for treating configuration as a generated output to maximize robustness and consistency."
 review_interval: "6 months"
 see_also: ["[[SoT - PRODOS (System Architecture)]]", "[[SoT - Software Configuration Management Patterns]]"]

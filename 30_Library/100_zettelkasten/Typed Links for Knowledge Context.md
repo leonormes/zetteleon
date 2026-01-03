@@ -4,7 +4,7 @@ confidence: "0.92"
 created: 2025-10-31T08:19:00Z
 epistemic: "principle"
 last_reviewed: "2025-10-31"
-modified: 2025-12-31T23:08:51+00:00
+modified: 2026-01-03T10:19:34+00:00
 purpose: "Explains how typed links add semantic meaning to wikilinks, transforming them from simple references into meaningful relationships."
 review_interval: "90"
 see_also: []

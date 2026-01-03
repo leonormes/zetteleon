@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-13T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-31T23:08:34+00:00
+modified: 2026-01-03T10:18:52+00:00
 purpose: "To define understanding as a fundamental, pre-linguistic process rooted in sensorimotor experience, positioning language as a secondary tool for refinement rather than the source of thought."
 review_interval: "3 months"
 see_also: []

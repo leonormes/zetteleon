@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-12-24T12:00:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:41+00:00
 purpose: "Explain DDoS mitigation in cloud networking."
 review_interval: "90"
 see_also: ["Web Application Firewalls Protect Against Layer 7 Attacks.md"]

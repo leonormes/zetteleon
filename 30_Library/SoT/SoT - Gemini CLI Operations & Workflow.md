@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-21T00:00:00Z
 epistemic: "Synthesized from multiple video tutorials and hands-on use."
 last_reviewed: "2025-12-21"
-modified: 2025-12-31T23:08:35+00:00
+modified: 2026-01-03T10:18:54+00:00
 purpose: "To provide a practical, actionable guide to the core operations and workflows of the Gemini CLI."
 review_interval: "1 month"
 see_also: []

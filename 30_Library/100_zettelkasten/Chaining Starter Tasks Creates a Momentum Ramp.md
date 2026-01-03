@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-16T14:45:00Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16"
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:42+00:00
 purpose: "To test if chaining micro-tasks creates an inertial ramp for hard work."
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]

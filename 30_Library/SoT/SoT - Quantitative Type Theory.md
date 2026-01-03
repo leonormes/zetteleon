@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "concept"
 last_reviewed: "2025-12-19"
-modified: 2025-12-31T23:08:34+00:00
+modified: 2026-01-03T10:18:51+00:00
 purpose: "To define Quantitative Type Theory as a formal system for tracking resource usage and its superiority to simpler ownership models."
 review_interval: "24 months"
 see_also: ["[[SoT - Dependent Types in Software]]", "[[SoT - Rust's Ownership Model]]"]

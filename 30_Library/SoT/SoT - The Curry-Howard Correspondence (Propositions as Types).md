@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2025-12-31T23:08:33+00:00
+modified: 2026-01-03T10:18:50+00:00
 purpose: "Defines the foundational isomorphism between mathematical logic and computer programming."
 review_interval: "1 year"
 see_also: ["[[SoT - Proof-Carrying Code via Simulated Dependent Types]]"]

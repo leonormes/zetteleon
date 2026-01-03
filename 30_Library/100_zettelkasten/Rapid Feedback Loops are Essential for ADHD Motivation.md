@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-12T15:00:06Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-31T23:08:52+00:00
+modified: 2026-01-03T10:19:36+00:00
 purpose: "To explain the importance of immediate feedback for the ADHD brain."
 review_interval: "90"
 see_also: ["[[ADHD habit building requires immediate feedback or reward loops]]"]

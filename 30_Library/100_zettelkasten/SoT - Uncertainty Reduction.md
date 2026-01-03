@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-08-23T20:45:19Z
 epistemic: "theory"
 last_reviewed: "2025-12-16"
-modified: 2025-12-31T23:08:51+00:00
+modified: 2026-01-03T10:19:35+00:00
 purpose: "To define the brain's fundamental drive to minimize entropy (uncertainty) through Predictive Processing, explaining the psychological need for validation and closure."
 review_interval: ""
 see_also: ["[[Shannon's Information Theory - Information as Uncertainty]]", "[[The World's Ambiguity Drives the Need for Certainty]]"]

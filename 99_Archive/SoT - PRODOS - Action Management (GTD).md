@@ -4,7 +4,7 @@ confidence: 4/5
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed: 2025-12-08
-modified: 2025-12-31T23:08:31+00:00
+modified: 2026-01-03T10:18:44+00:00
 purpose: To define the unified workflow for Task Management within ProdOS, specifically detailing the integration between Obsidian Tasks and Todoist via the Context Bridge.
 related-soTs: ["[[SoT - PKM Confidence and Acceptance Criteria]]", "[[SoT - PRODOS (System Architecture)]]"]
 review_interval: 0

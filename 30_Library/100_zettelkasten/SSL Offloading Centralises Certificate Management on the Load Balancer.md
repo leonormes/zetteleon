@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-31T09:25:29Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-31T23:08:52+00:00
+modified: 2026-01-03T10:19:36+00:00
 purpose: "Define SSL offloading and its benefits."
 review_interval: "90"
 see_also: []

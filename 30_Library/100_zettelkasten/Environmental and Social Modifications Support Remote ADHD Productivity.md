@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-06T19:54:07Z
 epistemic: "fact"
 last_reviewed: "2025-11-06"
-modified: 2025-12-31T23:08:54+00:00
+modified: 2026-01-03T10:19:41+00:00
 purpose: "To emphasize the need for environmental and social modifications to support remote work with ADHD."
 review_interval: "90"
 see_also: []

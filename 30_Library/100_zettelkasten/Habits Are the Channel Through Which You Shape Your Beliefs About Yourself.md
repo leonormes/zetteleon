@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T12:11:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2025-12-31T23:08:53+00:00
+modified: 2026-01-03T10:19:40+00:00
 purpose: "To state the ultimate reason why habits are important."
 review_interval: "90"
 see_also: ["[[Identity Emerges From Habits]]"]

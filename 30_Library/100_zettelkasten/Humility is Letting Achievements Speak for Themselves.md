@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T21:25:00Z
 epistemic: "definition"
 last_reviewed: "2025-11-01"
-modified: 2025-12-31T23:08:53+00:00
+modified: 2026-01-03T10:19:40+00:00
 purpose: "To define the character strength of humility."
 review_interval: "90"
 see_also: ["[[Inner Strength & Resilience Skills (Your Strong Spirit)]]"]

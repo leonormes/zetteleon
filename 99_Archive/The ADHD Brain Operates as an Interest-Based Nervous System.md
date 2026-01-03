@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2025-10-31T11:35:00Z
 epistemic: model
 last_reviewed: 
-modified: 2025-12-31T23:08:31+00:00
+modified: 2026-01-03T10:18:43+00:00
 purpose: "Explain the interest-based nervous system model of ADHD."
 review_interval: 90
 see_also: ["ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity.md", "Dopamine Management in ADHD Productivity.md"]

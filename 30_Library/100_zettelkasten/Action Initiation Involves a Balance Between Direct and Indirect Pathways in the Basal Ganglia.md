@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T17:04:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2025-12-31T23:08:55+00:00
+modified: 2026-01-03T10:19:43+00:00
 purpose: "To explain the role of the basal ganglia in action."
 review_interval: "90"
 see_also: []

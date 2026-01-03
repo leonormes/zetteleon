@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-30T00:00:00Z
 epistemic: "Analysis of the philosophical, socio-economic, and existential themes of Cyberpunk."
 last_reviewed: "2025-12-30"
-modified: 2025-12-31T23:08:35+00:00
+modified: 2026-01-03T10:18:56+00:00
 purpose: "To deconstruct the underlying logic and critique offered by the Cyberpunk genre."
 review_interval: "1 year"
 see_also: ["[[SoT - Cyberpunk Genre]]"]

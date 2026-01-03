@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-06T19:59:02Z
 epistemic: "insight"
 last_reviewed: "2025-11-06"
-modified: 2025-12-31T23:08:52+00:00
+modified: 2026-01-03T10:19:36+00:00
 purpose: "To introduce probabilistic thinking as a tool for navigating uncertainty."
 review_interval: "90"
 see_also: []

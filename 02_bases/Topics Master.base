@@ -14,7 +14,10 @@ views:
       - type
       - status
       - tags
+      - file.path
     sort:
+      - property: file.path
+        direction: ASC
       - property: file.size
         direction: DESC
     columnSize:

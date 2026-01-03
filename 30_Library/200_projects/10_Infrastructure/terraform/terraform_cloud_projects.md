@@ -11,7 +11,7 @@ estimated_duration: "30m"
 iac_path: ["repo: \"terraform-aws-eks-private"]
 last_reviewed: ""
 main_file: "tfe_projects.tf"
-modified: 2025-12-31T23:08:42+00:00
+modified: 2026-01-03T10:19:12+00:00
 name: "iam"
 next_steps: ""
 path: "Production/central-services/hcp/tfc"
