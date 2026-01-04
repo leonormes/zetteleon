@@ -91,21 +91,27 @@ def run_command(cmd):
 
 def main():
     print("Fetching books and tags...")
-    books_csv = run_command('calibredb list --fields id,tags --csv')
+    books_json = run_command('calibredb list --fields id,tags --for-machine')
     
-    if not books_csv:
+    if not books_json:
         print("Failed to fetch books.")
         return
 
-    reader = csv.DictReader(io.StringIO(books_csv))
+    import json
+    try:
+        # Strip trailing non-JSON content
+        if ']' in books_json:
+            books_json = books_json[:books_json.rfind(']')+1]
+        books = json.loads(books_json)
+    except Exception as e:
+        print(f"Error parsing JSON: {e}")
+        return
     
     count = 0
-    for row in reader:
-        book_id = row['id']
-        current_tags_str = row['tags']
+    for book in books:
+        book_id = book['id']
+        current_tags = book.get('tags', [])
         
-        # Split current tags and clean them
-        current_tags = [t.strip() for t in current_tags_str.split(',') if t.strip()]
         new_tags = set()
         changed = False
         
@@ -124,7 +130,7 @@ def main():
         
         if changed:
             tags_to_set = ",".join(sorted(list(new_tags)))
-            print(f"[{book_id}] Updating tags...")
+            print(f"[{book_id}] Updating tags: {current_tags} -> {tags_to_set}")
             # Use printf to avoid shell escape issues with special characters in tags
             cmd = f'calibredb set_metadata {book_id} --field "tags:{tags_to_set}"'
             run_command(cmd)

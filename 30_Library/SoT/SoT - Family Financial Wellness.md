@@ -1,20 +1,31 @@
 ---
-aliases: ["Family Budgeting System", "Financial Peace Protocol", "UK Household Allocation", "The YNAB Method", "Zero-Based Budgeting"]
-confidence: "5/5"
+aliases:
+  - Family Budgeting System
+  - Financial Peace Protocol
+  - UK Household Allocation
+  - The YNAB Method
+  - Zero-Based Budgeting
+confidence: 5/5
 created: 2025-12-14T18:44:03Z
-epistemic: "authoritative"
-last_reviewed: "2025-12-30"
+epistemic: authoritative
+last_reviewed: 2025-12-30
 modified: 2026-01-03T10:18:55+00:00
-purpose: "The definitive operational framework for UK household financial management using Zero-Based Budgeting (YNAB) logic."
-review_interval: "6 months"
-see_also: ["[[SoT - Financial Philosophy and Spendfulness]]"]
+purpose: The definitive operational framework for UK household financial management using Zero-Based Budgeting (YNAB) logic.
+review_interval: 6 months
+see_also:
+  - "[[SoT - Financial Philosophy and Spendfulness]]"
 source_of_truth: []
-status: "stable"
-tags: ["budget", "family", "finance", "wealth", "ynab", "prodos"]
+status: stable
+tags:
+  - budget
+  - family
+  - finance
+  - wealth
+  - ynab
 title: SoT - Family Financial Wellness
-type: "SoT"
-uid: 
-updated: 
+type: SoT
+uid:
+updated:
 ---
 
 # SoT - Family Financial Wellness

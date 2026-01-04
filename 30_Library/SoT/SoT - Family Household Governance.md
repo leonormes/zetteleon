@@ -1,20 +1,32 @@
 ---
-aliases: ["Household System", "Family Chores Framework", "Parental Alignment Contract", "Earned Access Protocol", "Family Maintenance SOPs"]
-confidence: "5/5"
+aliases:
+  - Household System
+  - Family Chores Framework
+  - Parental Alignment Contract
+  - Earned Access Protocol
+  - Family Maintenance SOPs
+confidence: 5/5
 created: 2025-12-26T12:00:00Z
-epistemic: "governance"
-last_reviewed: "2025-12-29"
+epistemic: governance
+last_reviewed: 2025-12-29
 modified: 2026-01-03T10:18:55+00:00
-purpose: "To define the operational logic, governance protocols, and standard operating procedures (SOPs) for the household distributed system."
-review_interval: "6 months"
-see_also: ["[[SoT - The Multifaceted Role of a Parent]]", "[[SoT - Relationship Maintenance and Emotional Labour]]"]
+purpose: To define the operational logic, governance protocols, and standard operating procedures (SOPs) for the household distributed system.
+review_interval: 6 months
+see_also:
+  - "[[SoT - The Multifaceted Role of a Parent]]"
+  - "[[SoT - Relationship Maintenance and Emotional Labour]]"
 source_of_truth: []
-status: "stable"
-tags: ["family", "governance", "systems", "chores", "prodos", "sops"]
+status: stable
+tags:
+  - family
+  - governance
+  - systems
+  - chores
+  - sops
 title: SoT - Family Household Governance
-type: "SoT"
-uid: 
-updated: 
+type: SoT
+uid:
+updated:
 ---
 
 ## 1. Definitive Statement
