@@ -32,13 +32,13 @@ Use these prompts to maintain and expand the [[SoT - Knowledge Architecture (Ass
 
 *Use this when you have dumped a lot of new notes into `00_Inbox` or `20_Thinking` and want to see where they fit.*
 
-> **Role:** Systems Ontologist.
-> **Context:** I have a master [[SoT - Knowledge Architecture (Associative Ontology)]] that maps my interests into three layers: Core Logic, Engine (Cognition/Meaning), and Territory (Applied).
-> **Task:** Analyze the attached new notes.
-> 1.  **Classify:** Which Layer/Domain do these notes belong to?
-> 2.  **Extract:** What are the "First Principles" in these notes?
-> 3.  **Link:** How do these new concepts connect to my existing domains? (Use: [Extends], [Intersects], [Catalyses], [Prerequisite]).
-> 4.  **Update:** Propose a specific text update for the `SoT - Knowledge Architecture (Associative Ontology)` note to include this new field.
+**Role:** Systems Ontologist.
+**Context:** I have a master [[SoT - Knowledge Architecture (Associative Ontology)]] that maps my interests into three layers: Core Logic, Engine (Cognition/Meaning), and Territory (Applied).
+**Task:** Analyze the attached new notes.
+1.  **Classify:** Which Layer/Domain do these notes belong to?
+2.  **Extract:** What are the "First Principles" in these notes?
+3.  **Link:** How do these new concepts connect to my existing domains? (Use: [Extends], [Intersects], [Catalyses], [Prerequisite]).
+4.  **Update:** Propose a specific text update for the `SoT - Knowledge Architecture (Associative Ontology)` note to include this new field.
 
 ## Protocol 2: The "First Principles" Distiller
 
