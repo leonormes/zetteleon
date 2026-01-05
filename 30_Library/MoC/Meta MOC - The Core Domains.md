@@ -45,15 +45,15 @@ My primary intellectual loop is:
 
 > **Core Insight:** Productivity is not about willpower; it is about **Systems Architecture**. We must design our environment to minimize friction and maximize flow.
 
-- **The Architecture:** [[SoT - PRODOS (System Architecture)]]
+- **The Architecture:** [[SoT - PRODOS Core Specification]]
 - **The Frameworks:**
-  - [[SoT - PRODOS - Action Management (GTD)]]
+  - [[MOC - ProdOS]]
   - [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
-  - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
-  - [[SoT - PRODOS - Structure & Storage]]
+  - [[SoT - PRODOS Core Specification#2. The Core Loop (Workflow)]]
+  - [[Reference - File Structure]]
 - **The Principles:**
   - [[SoT - Systems Thinking]]
-  - [[SoT - Process Primacy (Systems Over Goals)]]
+  - [[SoT - Habit Formation Framework]]
   - [[SoT - Atomicity and Loose Coupling]]
 
 ## 3. Domain 2: The Engine (Cognition, ADHD & Psychology)
@@ -63,9 +63,8 @@ My primary intellectual loop is:
 > **Core Insight:** The ADHD brain is not broken; it is an **Interest-Based Nervous System**. It requires specific "Ignition" protocols (Mystery, Challenge, Urgency) rather than standard motivation.
 
 - **ADHD Mechanics:**
-  - [[SoT - ADHD Executive Dysfunction]]
-  - [[SoT - ADHD and Motivation]]
-  - [[SoT - ADHD Environmental Design]]
+  - [[SoT - ADHD Neurology & Core Concepts]]
+  - [[SoT - ADHD Management Protocols#2. Environmental Design: Systematized Calm]]
   - [[SoT - The Cognitive Physiology of Task Execution]]
 - **Cognitive Science:**
   - [[SoT - Working Memory & Schema Theory]]
@@ -85,7 +84,7 @@ My primary intellectual loop is:
   - [[SoT - Values and Eudaimonia]]
   - [[SoT - The Philosophy of the Absurd (Camus)]]
 - **Self & Identity:**
-  - [[SoT - Identity-Based Habit Formation]]
+  - [[SoT - Habit Formation Framework#3. Driver: Identity-Based Habits]]
   - [[SoT - Personal Agency and Transformation]]
   - [[SoT - The Internal World and the Need for Validation]]
   - [[SoT - Wabi-Sabi]]
@@ -113,8 +112,7 @@ My primary intellectual loop is:
 > **Core Insight:** Money is not a scoreboard; it is **Potential Energy**. Status is a biological signal. Understanding these games allows us to play them with agency rather than envy.
 
 - **Economics of Energy:**
-  - [[SoT - Money as Potential Energy]]
-  - [[SoT - Ontology of Money and Wealth]]
+  - [[SoT - Financial Philosophy and Spendfulness]]
   - [[SoT - Fundamental Description of Economics]]
   - [[SoT - Family Financial Wellness]]
 - **Social Dynamics:**
@@ -134,7 +132,7 @@ My primary intellectual loop is:
   - [[SoT - Illusion of Explanatory Depth (IoED)]]
   - [[SoT - Reality, Models, and the Limits of Accuracy]]
 - **Learning:**
-  - [[SoT - Deep Learning & Mastery]]
+  - [[SoT - Active Learning Techniques]]
   - [[SoT - Learning Mechanisms]]
   - [[SoT - The Thought-Language Continuum]]
 
@@ -154,8 +152,8 @@ My primary intellectual loop is:
 > **Observation:** This system emerged from specific, recurring struggles. We document them here to recognize the "Enemy" when it reappears.
 
 - **The Meta-Trap:** Using PKM as a form of procrastination (The "Illusion of Profundity").
-    - *Solution:* [[SoT - Processing IS the Work]], [[SoT - PRODOS (System Architecture)]].
+    - *Solution:* [[SoT - Processing IS the Work]], [[SoT - PRODOS Core Specification]].
 - **The Emotional Cycle:** The loop of enthusiasm -> overwhelm -> shame -> avoidance (RSD).
-    - *Solution:* [[SoT - ADHD Self-Compassion & Strengths]], [[SoT - The Internal World and the Need for Validation]].
+    - *Solution:* [[SoT - ADHD Neurology & Core Concepts]], [[SoT - The Internal World and the Need for Validation]].
 - **The Continuity Gap:** The struggle to maintain lines of thought over time.
     - *Solution:* [[SoT - The Extended Mind]], [[SoT - PRODOS - Knowledge Synthesis (Thinking)]].

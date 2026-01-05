@@ -90,3 +90,4 @@ The software industry exists on a spectrum between these two poles. Neither is i
 - [[SoT - Dependent Types in Software]]
 - [[SoT - Padded Cell vs Nanny Languages]]
 - [[SoT - Runtime Guards vs Compile-Time Proofs]]
+- [[SoT - System Incompleteness and Meta-Systems]]

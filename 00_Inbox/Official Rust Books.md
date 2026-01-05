@@ -1,14 +1,32 @@
-# Official Rust Books
+---
+aliases: []
+tags: []
+title: Official Rust Books
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+created: 2026-01-04T09:35:09+00:00
+modified: 2026-01-04T12:46:08+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+---
 
 The following books are maintained at [rust-lang.org](https://www.rust-lang.org/).
+
 Many of them are mentioned in [Learn Rust](https://www.rust-lang.org/learn).
 
 Introductory:
+
 * [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/) - runnable examples illustrating Rust concepts
 * [_Rustlings_](https://github.com/rust-lang/rustlings) - small exercises to get you used to reading and writing Rust code
 * [The Rust Programming Language](https://doc.rust-lang.org/book/) - "the book"
 
 Core:
+
 * [The Cargo Book](https://doc.rust-lang.org/cargo/index.html) - the Rust package manager
 * [The Edition Guide](https://doc.rust-lang.org/edition-guide/index.html) - guide on introducing changes into the Rust language
 * [The rustc Book](https://doc.rust-lang.org/rustc/index.html) - guide to the compiler for the Rust programming language
@@ -16,6 +34,7 @@ Core:
 * [The rustup Book](https://rust-lang.github.io/rustup/index.html) - guide to the tool which installs the Rust language from release channels
 
 Advanced:
+
 * [Guide to Rustc Development](https://rustc-dev-guide.rust-lang.org/) - compiler internals
 * [Rust Forge](https://forge.rust-lang.org/) - Rust team documentation
 * [The Rust Reference](https://doc.rust-lang.org/reference/) - primary reference to the Rust language
@@ -24,6 +43,7 @@ Advanced:
 * [Unsafe Code Guidelines Reference](https://rust-lang.github.io/unsafe-code-guidelines/) - `unsafe` coding practices
 
 Working groups:
+
 * [_Compiler team working groups_](https://rust-lang.github.io/compiler-team/working-groups/) - a list of working groups
 * [Const Generics Project Group](https://rust-lang.github.io/project-const-generics/index.html) - design and implementation of the const generics feature
 * [Rust Project Goals](https://rust-lang.github.io/rust-project-goals/) - Rust Project Goals tracker
@@ -33,17 +53,19 @@ Working groups:
 * [wg-async](https://rust-lang.github.io/wg-async/) - foundations of async I/O
 
 Initiative:
+
 * [async fn fundamentals initiative](https://rust-lang.github.io/async-fundamentals-initiative/index.html)
 * [Dyn upcast initiative](https://rust-lang.github.io/dyn-upcasting-coercion-initiative/index.html)
 * [Generic Associated Types Initiative](https://rust-lang.github.io/generic-associated-types-initiative/index.html)
 * [Impl trait initiative](https://rust-lang.github.io/impl-trait-initiative/index.html)
 
 Other:
+
 * [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/) - non-blocking coroutines
 * [cargo-bisect-rustc](https://rust-lang.github.io/cargo-bisect-rustc/) - tool for automatically downloading and bisecting rustc artifacts and tests until it finds a given regression
 * [Clippy Documentation](https://doc.rust-lang.org/nightly/clippy/development/infrastructure/book.html) - code lints for programmers
 * [Criterion.rs](https://bheisler.github.io/criterion.rs/book/getting_started.html) - statistics-driven micro-benchmarking
-* [Error Codes Index](https://doc.rust-lang.org/stable/error_codes/error-index.html) - list of all error codes emitted from the Rust compiler 
+* [Error Codes Index](https://doc.rust-lang.org/stable/error_codes/error-index.html) - list of all error codes emitted from the Rust compiler
 * [mdBook](https://rust-lang.github.io/mdBook/) - authoring, rendering and serving markdown books
 * [Polonius](https://rust-lang.github.io/polonius/) - experimental borrow checker crate
 * [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/) - how to design and present APIs
