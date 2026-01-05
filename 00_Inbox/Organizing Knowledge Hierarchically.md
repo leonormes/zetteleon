@@ -1,14 +1,26 @@
 ---
-title: ‎Gemini – direct access to Google AI
+aliases: []
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+modified: 2026-01-05T16:59:10+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+title: Organizing Knowledge Hierarchically
 source: https://gemini.google.com/share/fada3c949292
 author:
   - "[[Gemini]]"
 published:
-created: 2026-01-04 11:39:05
+created: 2026-01-04T11:49:43+00:00
 description: Created with Gemini
 tags:
   - input
 ---
+
 I am interested in lots of topics. I want to organise the interests into a outline list. I often start with a subject, investigate the 1st principles and abstractions so I end up with a top down view of the subject. What is this sort of subject hierachy called? taxonomy? I might have - Science -> Biology -> Cells -> Early life... but also - Science -> physics -> Nature of time...
 
 The system you are describing is a **Taxonomy**, specifically a **Hierarchical Taxonomy**. In the context of knowledge management and information architecture, it is the practice of classifying entities into a nested structure based on shared characteristics and logical inheritance.
@@ -118,10 +130,6 @@ The following prompt is designed for a CLI-based LLM with a high-level, architec
 
 THe gemini cli keeps saying > @00\_Inbox/Knowledge\\ Architect\\ and\\ Systems\\ Ontologist.md load for context and execute. Use the obsidian mcp to interact with files and focus on @30\_Library/ notes
 
-  
-
-  
-
 ℹ Sending this message (1936202 tokens) might exceed the remaining context window limit (1045923 tokens).
 
 The token overflow you are seeing is a **buffer saturation** issue. Attempting to ingest the entire `@30_Library/` directory in a single pass exceeds the 2-million-token context limit because the CLI is likely trying to load every character of every note simultaneously.
@@ -147,9 +155,9 @@ Once Phase 1 defines the domains, you can instruct the LLM to perform a "Deep Sc
 **Use this prompt for the final output:**
 
 > **Role:** Systems Ontologist.**Task:** Refine the "Primary Domains" identified previously into a formal **Associative Ontology**.
-> 
+>
 > **Instructions:**
-> 
+>
 > 1. **Identify Anchors:** Use the Obsidian MCP to `search` or `read` only the top 3-5 most central/dense notes within each Domain (focusing on notes that have the most internal links).
 > 2. **Extract Logic:** Ignore "syntax" and "filler." Focus on 1st principles.
 > 3. **Map Non-Linear Links:** Use the following relationship tags to describe how subjects interact across traditional boundaries:

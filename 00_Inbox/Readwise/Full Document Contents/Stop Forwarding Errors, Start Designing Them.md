@@ -1,8 +1,26 @@
+---
+aliases: []
+tags: []
+title: Stop Forwarding Errors, Start Designing Them
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+created: 2026-01-05T14:21:04+00:00
+modified: 2026-01-05T16:59:11+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+---
+
 # Stop Forwarding Errors, Start Designing Them
 
 ![rw-book-cover](https://fast.github.io/og_image.png)
 
 ## Metadata
+
 - Author: [[fast.github.io]]
 - Full Title: Stop Forwarding Errors, Start Designing Them
 - Category: #articles
@@ -10,6 +28,7 @@
 - URL: https://fast.github.io/blog/stop-forwarding-errors-start-designing-them/
 
 ## Full Document
+
 It’s 3am. Production is down. You’re staring at a log line that says:
 
 You know JSON is broke. But you have zero idea *why*, *where*, or *who* caused it. Was it the config loader? The user API? The webhook consumer?
@@ -23,8 +42,6 @@ You add a `println!`, restart the service, wait for the bug to reproduce. It’s
 As noted in a [detailed analysis of error handling in a large Rust project](https://bugenzhao.com/2024/04/24/error-handling-1/):
 
 >  “There’re tons of opinionated articles or libraries promoting their best practices, leading to an epic debate that never ends. We were all starting to notice that there was something wrong with the error handling practices, but pinpointing the exact problems is challenging.”
-> 
->  
 
 #### What’s Wrong with Current Practices
 

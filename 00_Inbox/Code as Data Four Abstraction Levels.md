@@ -5,7 +5,7 @@ status: ""
 confidence: ""
 epistemic: ""
 purpose: ""
-modified: 2026-01-05T16:13:54+00:00
+modified: 2026-01-05T16:56:09+00:00
 last_reviewed: ""
 review_interval: ""
 see_also: []
@@ -61,9 +61,3 @@ This is the most direct application of "code as data," where instructions are ge
 **Conclusion:** Treating code as data is a high-leverage architectural pattern, but the video cautions that excessive meta-layers can degrade code readability and maintainability [[15:20](http://www.youtube.com/watch?v=FFgvV0sA3kU&t=920)].
 
 **URL:**[https://www.youtube.com/watch?v=FFgvV0sA3kU](https://www.youtube.com/watch?v=FFgvV0sA3kU)
-
-Google Account
-
-Leon Ormes
-
-leonormes@gmail.com

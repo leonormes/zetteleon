@@ -1,6 +1,20 @@
 ---
-created: 2026-01-05 07:37:57
+aliases: []
+tags: []
+title: "Simple vs. Easy: A Programmer's Guide to Better Choices"
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+modified: 2026-01-05T16:59:10+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+created: 2026-01-05T07:37:57+00:00
 ---
+
 # Simple vs. Easy: A Programmer's Guide to Better Choices
 
 ### Introduction: More Than Just Words

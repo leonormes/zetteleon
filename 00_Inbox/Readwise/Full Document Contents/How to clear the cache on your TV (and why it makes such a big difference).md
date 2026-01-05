@@ -1,8 +1,26 @@
+---
+aliases: []
+tags: []
+title: How to clear the cache on your TV (and why it makes such a big difference)
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+created: 2026-01-03T16:35:34+00:00
+modified: 2026-01-05T16:59:11+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+---
+
 # How to clear the cache on your TV (and why it makes such a big difference)
 
 ![rw-book-cover](https://www.zdnet.com/a/img/resize/93ea7b5d41009a72e2761e684b9179f6d1f55ab2/2025/03/24/c3e56176-af93-4341-a405-066e751a20c2/dsc05049-2.jpg?auto=webp&fit=crop&height=675&width=1200)
 
 ## Metadata
+
 - Author: [[Chris Bayer]]
 - Full Title: How to clear the cache on your TV (and why it makes such a big difference)
 - Category: #articles
@@ -10,8 +28,10 @@
 - URL: https://www.zdnet.com/home-and-office/home-entertainment/how-to-clear-tv-cache/
 
 ## Full Document
+
 ![Sony Bravia 8 II TV with remote](https://www.zdnet.com/a/img/resize/0448a42a04a9a8a0ec6bf926a6d6abe519e3d512/2025/04/01/6d633835-097b-4ede-a4c2-f254ed46b4ce/dsc04767.jpg?auto=webp&width=1280)Kerry Wan/ZDNET
-In the era of smart TVs, convenience rules. With just a few clicks, we can access endless entertainment — but that convenience comes with a catch: cache buildup.
+
+In the era of smart TVs, convenience rules. With just a few clicks, we can access endless entertainment—but that convenience comes with a catch: cache buildup.
 
 **Also: [How to disable ACR on your TV (and why you should do it ASAP)](https://www.zdnet.com/home-and-office/home-entertainment/how-to-disable-acr-on-your-tv/)**
 
