@@ -1,14 +1,26 @@
 ---
-title: "‎Gemini – direct access to Google AI"
+aliases: []
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+modified: 2026-01-05T16:14:19+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+title: Custom RAG for Obsidian Notes
 source: "https://gemini.google.com/share/7ab24d640ad0"
 author:
   - "[[Gemini]]"
 published:
-created: 2026-01-05
+created: 2026-01-05T15:58:44+00:00
 description: "Created with Gemini"
 tags:
   - "input"
 ---
+
 I have a lot of markdown notes on an obsidian vault. I use a plugin called smart connections to embed them so I can get LLM to search semantically through the notes. Is there any advantage to crafting a custom LLM system that creates the vector dB of my notes? Can I improve the outcomes? I use Gemini cli on my notes and often search them semantically
 
 Building a custom vector database for your Obsidian notes represents a shift from a **black-box plugin architecture** to a **modular Retrieval-Augmented Generation (RAG) pipeline**. While plugins like *Smart Connections* offer convenience, they often use generic chunking and retrieval logic that may not align with a high-density, conceptual note-taking style.
@@ -92,6 +104,7 @@ Standard semantic search often hallucinates proximity. A modular system allows f
 - **Vector Search:** For "vibes" and broad concepts (e.g., "theories on systems thinking").
 - **Keyword (BM25) Search:** For specific technical terms or names that embeddings might "smooth over."
 - **Metadata Filtering:** Before the search, you can programmatically filter the vector DB based on your Calibre tags.
+
 	> **Example Query:** "Search for 'asymmetric encryption' but only in books tagged with '#cryptography' or '#security'."
 
 ### 4\. The Generation Layer: Long-Context Synthesis
@@ -180,8 +193,6 @@ Would you like a Python script that bridges the gap—extracting the file path f
 
 error: externally-managed-environment
 
-  
-
 × This environment is externally managed
 
 ╰─> To install Python packages system-wide, try apt install
@@ -189,8 +200,6 @@ error: externally-managed-environment
 python3-xyz, where xyz is the package you are trying to
 
 install.
-
-  
 
 If you wish to install a non-Debian-packaged Python package,
 
@@ -200,19 +209,13 @@ Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
 
 sure you have python3-full installed.
 
-  
-
 If you wish to install a non-Debian packaged Python application,
 
 it may be easiest to use pipx install xyz, which will manage a
 
 virtual environment for you. Make sure you have pipx installed.
 
-  
-
 See /usr/share/doc/python3.12/README.venv for more information.
-
-  
 
 note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
 
@@ -430,8 +433,6 @@ Processing triggers for man-db (2.12.0-4build2)...
 
 /home/leon/.local/bin is already in PATH.
 
-  
-
 ⚠️ All pipx binary directories have been added to PATH. If you are sure you want to proceed, try again with the '--force' flag.
 
 Since you have successfully configured `pipx`, you can now install **Marker** in an isolated environment. This ensures that its complex dependencies (like PyTorch and Surya OCR) do not conflict with your system-level Python or other tools.
@@ -512,19 +513,13 @@ Usage: marker\_single \[OPTIONS\] FPATH
 
 Try 'marker\_single --help' for help.
 
-  
-
 Error: No such option: --languages
 
 leon@leon-XPS-13-9360:~/Downloads$ marker\_single --help
 
 Usage: marker\_single \[OPTIONS\] FPATH
 
-  
-
 Convert a single PDF to markdown.
-
-  
 
 Options:
 

@@ -1,14 +1,26 @@
 ---
-title: "‎Gemini – direct access to Google AI"
+aliases: []
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+modified: 2026-01-05T16:14:11+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+title: Recursive Language Models Solving Context Rot
 source: "https://gemini.google.com/share/38adad67f95a"
 author:
   - "[[Gemini]]"
 published:
-created: 2026-01-05
+created: 2026-01-05T15:59:44+00:00
 description: "Created with Gemini"
 tags:
   - "input"
 ---
+
 https://youtu.be/mtRJmIup3b8?si=QJ2I5zoPNXbUZubC
 
 This video explores a new MIT research paper introducing **Recursive Language Models (RLM)**, a neuro-symbolic inference strategy designed to overcome "context rot" and the failure of traditional transformer architectures in complex reasoning tasks over long contexts.

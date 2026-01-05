@@ -1,14 +1,26 @@
 ---
-title: "‎Gemini – direct access to Google AI"
+aliases: []
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+modified: 2026-01-05T16:14:08+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+title: Rethinking Computation Beyond Scarcity
 source: "https://gemini.google.com/share/70024f38abf3"
 author:
   - "[[Gemini]]"
 published:
-created: 2026-01-05
+created: 2026-01-05T16:00:11+00:00
 description: "Created with Gemini"
 tags:
   - "input"
 ---
+
 https://youtu.be/HB5TrK7A4pI?si=\_Bk\_vPHBH8mZwiU9
 
 This presentation by Gerald Sussman, "We Really Don't Know How to Compute!", argues that modern computing remains trapped in a paradigm of scarcity, prioritising low-level optimisation over the high-level flexibility and evolvability found in biological systems.
@@ -53,7 +65,7 @@ To handle real-world complexity, systems must manage **provenance** (the origin 
 
 ### 4\. Degeneracy as a Design Principle
 
-Sussman advocates for **degeneracy** —the biological principle of having multiple, overlapping ways to achieve the same result \[[01:03:14](http://www.youtube.com/watch?v=HB5TrK7A4pI&t=3794)\]. In software, this means using different mathematical formulations (Newtonian, Lagrangian, Hamiltonian) or programming styles (functional, imperative, logic-based) within the same problem space to reveal different insights and provide redundancy \[[39:18](http://www.youtube.com/watch?v=HB5TrK7A4pI&t=2358)\].
+Sussman advocates for **degeneracy**—the biological principle of having multiple, overlapping ways to achieve the same result \[[01:03:14](http://www.youtube.com/watch?v=HB5TrK7A4pI&t=3794)\]. In software, this means using different mathematical formulations (Newtonian, Lagrangian, Hamiltonian) or programming styles (functional, imperative, logic-based) within the same problem space to reveal different insights and provide redundancy \[[39:18](http://www.youtube.com/watch?v=HB5TrK7A4pI&t=2358)\].
 
 ### Summary of Architectural Shift
 

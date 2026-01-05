@@ -1,14 +1,26 @@
 ---
-title: "‎Gemini – direct access to Google AI"
+aliases: []
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+modified: 2026-01-05T16:14:27+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+title: Rust Data-Oriented Design and Caching
 source: "https://gemini.google.com/share/54b20195c5b5"
 author:
   - "[[Gemini]]"
 published:
-created: 2026-01-05
+created: 2026-01-05T15:55:40+00:00
 description: "Created with Gemini"
 tags:
   - "input"
 ---
+
 I am learning about rust and data oriented programming. There is a lot of talk about memory chache and L1 and lines. This is new to me. Give me a detailed explanation with cli commands I can run on Linux to see memory in action. How does it relate to my rust struct and enum design
 
 Here is a conceptual framework regarding memory hierarchies, specifically tailored for a data-oriented architectural perspective in Rust.
