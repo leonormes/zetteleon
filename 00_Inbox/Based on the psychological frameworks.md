@@ -1,14 +1,26 @@
 ---
-title: "‎Gemini – direct access to Google AI"
+aliases: []
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+modified: 2026-01-05T10:20:39+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+title: Based on the psychological frameworks
 source: "https://gemini.google.com/share/4da4240bb121"
 author:
   - "[[Gemini]]"
 published:
-created: 2026-01-05
+created: 2026-01-05T10:19:35+00:00
 description: "Created with Gemini"
 tags:
   - "input"
 ---
+
 I have a new line manager at work. We are a small company and have weekly whole company meetings. When I talk this new line manager interrupts me and cuts me off. When we talk 1 to 1 he interrupts me mid flow. Review the attached note and break down what might be happening
 
 Based on the psychological frameworks provided in the source text, your manager's behaviour can be analysed through three primary drivers: dominance, anxiety, and timing blindness.
