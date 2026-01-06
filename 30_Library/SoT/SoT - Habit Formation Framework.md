@@ -1,4 +1,19 @@
-# SoT - Habit Formation Framework
+---
+aliases: []
+tags: []
+title: SoT - Habit Formation Framework
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+created: 2026-01-03T10:24:34+00:00
+modified: 2026-01-05T19:42:22+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+---
 
 ## 1. Philosophy: Process Primacy
 
@@ -6,11 +21,12 @@
 > **"You do not rise to the level of your goals; you fall to the level of your systems."**—James Clear.
 
 Success is not a result of "trying harder" (Willpower/Desire); it is a result of **Architectural Constraints** (Systems/Pipes).
-*   **The Water Metaphor:** Motivation is water (fluid, evaporates). Systems are pipes (capture, direct, pressurize). Without pipes, motivation creates a puddle. With pipes, even a trickle generates pressure.
-*   **The 3-Layer Hierarchy:**
-    1.  **Identity (Core):** "I am a runner." (Belief).
-    2.  **Process (System):** "Run 20m at 7am." (Action).
-    3.  **Outcome (Surface):** "Lose 10kg." (Result).
+
+* **The Water Metaphor:** Motivation is water (fluid, evaporates). Systems are pipes (capture, direct, pressurize). Without pipes, motivation creates a puddle. With pipes, even a trickle generates pressure.
+* **The 3-Layer Hierarchy:**
+    1. **Identity (Core):** "I am a runner." (Belief).
+    2. **Process (System):** "Run 20m at 7am." (Action).
+    3. **Outcome (Surface):** "Lose 10kg." (Result).
 
 ---
 
@@ -30,13 +46,15 @@ To build a habit, solve the problem at each stage of the loop.
 ## 3. Driver: Identity-Based Habits
 
 Lasting change occurs not by chasing outcomes, but by upgrading the self-image.
-*   **Repeated Beingness:** Every action is a "vote" for the type of person you wish to become.
-*   **The Logic:**
-    *   *Outcome-Based:* "I want to write a book." (Fragile).
-    *   *Identity-Based:* "I am a writer." (Resilient).
-*   **Protocol:**
-    1.  **Decide** the type of person you want to be.
-    2.  **Prove it** to yourself with small wins (Votes).
+
+* **Repeated Beingness:** Every action is a "vote" for the type of person you wish to become.
+* **The Logic:**
+    * *Outcome-Based:* "I want to write a book." (Fragile).
+    * *Identity-Based:* "I am a writer." (Resilient).
+* **Protocol:**
+    1. **Decide** the type of person you want to be.
+    2. **Prove it** to yourself with small wins (Votes).
 
 ### The "Never Miss Twice" Rule
+
 The first mistake is an accident. The second is the start of a new identity. If you miss a day, your *only* job is to cast a "Vote" immediately (even a 2-minute version) to restore the identity.

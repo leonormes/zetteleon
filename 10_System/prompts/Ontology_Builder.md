@@ -1,7 +1,16 @@
 ---
+title: "Protocol: Ontology Maintenance"
+status: ""
+epistemic: ""
+purpose: ""
+modified: 2026-01-05T18:04:22+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
 aliases: ["Ontology Prompts", "LLM Meta-Prompts"]
 confidence: "High"
-created: 2026-01-05
+created: 2026-01-05T07:38:02+00:00
 tags: ["prompts", "meta", "system", "llm"]
 type: "System"
 ---
@@ -35,10 +44,10 @@ Use these prompts to maintain and expand the [[SoT - Knowledge Architecture (Ass
 **Role:** Systems Ontologist.
 **Context:** I have a master [[SoT - Knowledge Architecture (Associative Ontology)]] that maps my interests into three layers: Core Logic, Engine (Cognition/Meaning), and Territory (Applied).
 **Task:** Analyze the attached new notes.
-1.  **Classify:** Which Layer/Domain do these notes belong to?
-2.  **Extract:** What are the "First Principles" in these notes?
-3.  **Link:** How do these new concepts connect to my existing domains? (Use: [Extends], [Intersects], [Catalyses], [Prerequisite]).
-4.  **Update:** Propose a specific text update for the `SoT - Knowledge Architecture (Associative Ontology)` note to include this new field.
+1. **Classify:** Which Layer/Domain do these notes belong to?
+2. **Extract:** What are the "First Principles" in these notes?
+3. **Link:** How do these new concepts connect to my existing domains? (Use: [Extends], [Intersects], [Catalyses], [Prerequisite]).
+4. **Update:** Propose a specific text update for the `SoT - Knowledge Architecture (Associative Ontology)` note to include this new field.
 
 ## Protocol 2: The "First Principles" Distiller
 

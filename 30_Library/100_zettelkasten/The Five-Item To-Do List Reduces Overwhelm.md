@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-12-16T14:35:00Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-06T07:49:10+00:00
 purpose: ""
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source_of_truth: []
 status: "pending"
-tags: ["1", "2", "experiment", "focus", "hypothesis", "prioritization", "topic/health/adhd", "topic/productivity", 1, 2]
+tags: ["experiment", "focus", "hypothesis", "prioritization", "topic/health/adhd", "topic/productivity", 1, 2]
 title: The Five-Item To-Do List Reduces Overwhelm
 type: "hypothesis"
 uid: 
