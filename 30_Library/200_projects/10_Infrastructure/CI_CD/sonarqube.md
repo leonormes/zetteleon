@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["SDLC", "security"]
+tags: ["SDLC", "SoftwareEngineering/Security"]
 title: sonarqube
 type: ""
 uid: 

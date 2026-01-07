@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/networking/tcp"]
+tags: ["SoftwareEngineering/networking/tcp"]
 title: How One Host Initiates a Connection to Another Host Over the Internet
 type: ""
 uid: 

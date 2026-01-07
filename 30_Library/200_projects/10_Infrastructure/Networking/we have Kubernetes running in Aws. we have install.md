@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["calico", "cni", "k8s", "topic/technology/networking"]
+tags: ["calico", "cni", "k8s", "SoftwareEngineering/Networking"]
 title: we have Kubernetes running in Aws. we have install
 type: "documentation"
 uid: 

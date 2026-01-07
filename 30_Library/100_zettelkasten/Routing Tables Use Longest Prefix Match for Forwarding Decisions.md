@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Layer 3 Network Security Protects IP Routing and Forwarding.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["routing", "topic/technology/networking"]
+tags: ["routing", "SoftwareEngineering/Networking"]
 title: Routing Tables Use Longest Prefix Match for Forwarding Decisions
 type: "concept"
 uid: 

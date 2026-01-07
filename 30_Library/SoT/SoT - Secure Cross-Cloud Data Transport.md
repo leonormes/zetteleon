@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data-Centric Theory of Networking]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "cloud", "data-centric", "security", "sot"]
+tags: ["SoftwareEngineering/Architecture", "cloud", "data-centric", "SoftwareEngineering/Security", "sot"]
 title: SoT - Secure Cross-Cloud Data Transport
 type: "SoT"
 uid: 

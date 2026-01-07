@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["aws", "ff_deploy", "topic/technology/networking"]
+tags: ["aws", "ff_deploy", "SoftwareEngineering/Networking"]
 title: AWS Firewall Rules
 type: "config"
 uid: 

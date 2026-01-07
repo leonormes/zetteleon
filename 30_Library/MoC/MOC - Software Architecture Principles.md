@@ -12,7 +12,7 @@ scope: "Macro-Architecture (System-to-System)"
 see_also: ["[[MOC - Data-Centric Software Engineering]]"]
 source_of_truth: []
 status: "active"
-tags: ["architecture", "systems_design", "boundaries", "type/moc"]
+tags: ["SoftwareEngineering/Architecture", "systems_design", "boundaries", "type/moc"]
 title: MOC - Software Architecture Principles
 type: "map"
 uid: 

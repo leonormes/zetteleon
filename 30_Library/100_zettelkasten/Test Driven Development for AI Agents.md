@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["Reliability", "topic/technology/AI", "topic/testing", "topic/testing/TDD"]
+tags: ["Reliability", "SoftwareEngineering/AI", "topic/testing", "topic/testing/TDD"]
 title: Test Driven Development for AI Agents
 type: "null"
 uid: 

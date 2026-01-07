@@ -10,7 +10,7 @@ purpose: "To define the architectural paradigms of Concurrency and Async in Rust
 review_interval: "6 months"
 see_also: ["[[MOC - Rust Programming Language]]", "[[SoT - Rust Language]]", "[[SoT - Rust High-Performance Computing (HPC) Optimization]]"]
 status: "stable"
-tags: ["rust", "concurrency", "async", "architecture", "performance"]
+tags: ["rust", "concurrency", "async", "SoftwareEngineering/Architecture", "performance"]
 title: SoT - Rust Concurrency & Async Paradigms
 type: "SoT"
 ---

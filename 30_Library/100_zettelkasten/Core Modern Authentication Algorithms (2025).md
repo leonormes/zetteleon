@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["algorithms", "authentication", "cloud-native", "security", "standards"]
+tags: ["algorithms", "authentication", "cloud-native", "SoftwareEngineering/Security", "standards"]
 title: Core Modern Authentication Algorithms (2025)
 type: ""
 uid: 

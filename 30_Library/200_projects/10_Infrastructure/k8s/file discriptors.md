@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/linux"]
+tags: ["SoftwareEngineering/Linux"]
 title: file discriptors
 type: "documentation"
 uid: 

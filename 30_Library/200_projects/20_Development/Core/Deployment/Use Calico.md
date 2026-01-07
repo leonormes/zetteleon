@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["k8s", "topic/technology/networking"]
+tags: ["k8s", "SoftwareEngineering/Networking"]
 title: Use Calico
 type: "documentation"
 uid: 

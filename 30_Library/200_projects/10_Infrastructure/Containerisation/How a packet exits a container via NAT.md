@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/containers", "egress", "iptables", "topic/linux", "nat", "topic/technology/networking"]
+tags: ["SoftwareEngineering/Containers", "egress", "iptables", "SoftwareEngineering/Linux", "nat", "SoftwareEngineering/Networking"]
 title: How a packet exits a container via NAT
 type: "Mechanism"
 uid: 

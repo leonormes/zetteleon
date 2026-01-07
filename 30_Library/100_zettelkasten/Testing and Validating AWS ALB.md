@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["aws", "load-balancing", "testing", "topic/technology/networking/cloud-networking"]
+tags: ["aws", "load-balancing", "testing", "SoftwareEngineering/networking/cloud-networking"]
 title: Testing and Validating AWS ALB
 type: "null"
 uid: 

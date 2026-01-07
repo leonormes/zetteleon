@@ -12,7 +12,7 @@ see_also:
   - "[[SoT - OHDSI Toolstack & Atlas]]"
 source_of_truth: []
 status: "Active"
-tags: ["ohdsi", "infrastructure", "federation", "security"]
+tags: ["ohdsi", "infrastructure", "federation", "SoftwareEngineering/Security"]
 title: SoT - ARACHNE
 type: "SoT"
 uid: 

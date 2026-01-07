@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Cloud Networking Core Components]]"]
 source_of_truth: ["[[SoT - The Data Architecture of DNS]]"]
 status: "stable"
-tags: ["cloud", "http", "topic/technology/networking"]
+tags: ["cloud", "http", "SoftwareEngineering/Networking"]
 title: Host-Based Routing Enables Virtual Hosting in Cloud Infrastructure
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/networking"]
+tags: ["SoftwareEngineering/Networking"]
 title: Network Defense   Module 5 Firewall Technologies, Module 6 Zone-Based Policy Firewalls
 type: ""
 uid: 

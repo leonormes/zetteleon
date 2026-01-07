@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["ff_deploy", "topic/technology/networking"]
+tags: ["ff_deploy", "SoftwareEngineering/Networking"]
 title: Core Networking Requirements
 type: "config"
 uid: 

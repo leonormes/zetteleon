@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Stream Sockets Provide Reliable Ordered TCP Communication.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["protocol", "socket", "topic/technology/networking", "udp"]
+tags: ["protocol", "socket", "SoftwareEngineering/Networking", "udp"]
 title: Datagram Sockets Provide Fast Unreliable UDP Communication
 type: "concept"
 uid: 

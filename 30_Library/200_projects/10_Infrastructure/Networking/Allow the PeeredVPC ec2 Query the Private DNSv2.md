@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["aws", "ff_deploy", "peering", "topic/technology/networking", "vpc"]
+tags: ["aws", "ff_deploy", "peering", "SoftwareEngineering/Networking", "vpc"]
 title: Allow the PeeredVPC ec2 Query the Private DNSv2
 type: "instruction"
 uid: 

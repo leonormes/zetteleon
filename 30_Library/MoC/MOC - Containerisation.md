@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/containers", "docker", "kubernetes", "topic/technology/containers"]
+tags: ["SoftwareEngineering/Containers", "docker", "kubernetes", "SoftwareEngineering/Containers"]
 title: MOC - Containerisation
 type: "map"
 uid: 

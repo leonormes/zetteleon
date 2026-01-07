@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["DevOps", "Production", "Reliability", "topic/technology/AI"]
+tags: ["DevOps", "Production", "Reliability", "SoftwareEngineering/AI"]
 title: Production Best Practices for AI Agents
 type: "null"
 uid: 

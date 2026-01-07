@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["authentication", "best-practices", "cloud-native", "security", "zero-trust"]
+tags: ["authentication", "best-practices", "cloud-native", "SoftwareEngineering/Security", "zero-trust"]
 title: Recommended Best Practices for Cloud-Native Authentication
 type: ""
 uid: 

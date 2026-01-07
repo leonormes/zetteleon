@@ -11,7 +11,7 @@ review_interval: "180"
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["eks", "sequence", "topic/technology/networking"]
+tags: ["eks", "sequence", "SoftwareEngineering/Networking"]
 title: Sequence - Container to Internet Packet Flow in EKS
 type: "sequence"
 uid: 

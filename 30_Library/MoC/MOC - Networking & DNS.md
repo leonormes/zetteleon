@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[MOC - ProdOS]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "topic/technology/networking/dns", "index", "topic/technology/networking"]
+tags: ["SoftwareEngineering/Architecture", "SoftwareEngineering/networking/dns", "index", "SoftwareEngineering/Networking"]
 title: MOC - Networking & DNS
 type: "map"
 uid: 

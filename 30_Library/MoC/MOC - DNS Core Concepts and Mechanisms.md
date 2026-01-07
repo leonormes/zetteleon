@@ -13,7 +13,7 @@ scope: "Fundamental DNS mechanisms from 'DNS Explained.md'."
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/networking/dns", "topic/technology/networking"]
+tags: ["SoftwareEngineering/networking/dns", "SoftwareEngineering/Networking"]
 title: MOC - DNS Core Concepts and Mechanisms
 type: "map"
 uid: 

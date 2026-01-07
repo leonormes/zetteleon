@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["topic/technology/networking/cidr"]
+tags: ["SoftwareEngineering/networking/cidr"]
 title: Concept - CIDR Subnet Sizes
 type: "concept"
 uid: 

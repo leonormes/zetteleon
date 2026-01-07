@@ -13,7 +13,7 @@ scope: ""
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["sockets", "topic/technology/networking"]
+tags: ["sockets", "SoftwareEngineering/Networking"]
 title: MOC - How Sockets Actually Work
 type: "map"
 uid: 

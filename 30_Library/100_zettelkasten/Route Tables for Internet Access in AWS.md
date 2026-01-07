@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["aws", "route-tables", "topic/technology/networking", "topic/technology/networking/cloud-networking"]
+tags: ["aws", "route-tables", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/cloud-networking"]
 title: Route Tables for Internet Access in AWS
 type: "null"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: ["[[MOC - Socio-Technical Dissonance]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "conways-law", "organizational-structure", "systems-design"]
+tags: ["SoftwareEngineering/Architecture", "conways-law", "organizational-structure", "systems-design"]
 title: SoT - Conways Law and Structural Mismatch
 type: "SoT"
 uid: 

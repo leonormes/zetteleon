@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/containers", "localhost", "network-namespace", "pod", "topic/technology/containers", "topic/technology/kubernetes"]
+tags: ["SoftwareEngineering/Containers", "localhost", "network-namespace", "pod", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes"]
 title: Containers Within a Pod Share Network Namespace and IP Address
 type: "Fact"
 uid: 

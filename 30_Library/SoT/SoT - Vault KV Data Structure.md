@@ -11,7 +11,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - The Data Architecture of Source Control (Git)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["vault", "data-structures", "infrastructure", "security"]
+tags: ["vault", "data-structures", "infrastructure", "SoftwareEngineering/Security"]
 title: SoT - Vault KV Data Structure
 type: "SoT"
 uid: 

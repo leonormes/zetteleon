@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[MOC - Type Theory]]"]
 source_of_truth: []
 status: "stable"
-tags: ["functional-programming", "architecture", "type-theory", "roc"]
+tags: ["functional-programming", "SoftwareEngineering/Architecture", "type-theory", "roc"]
 title: SoT - Effects as Data (Tag Unions)
 type: "SoT"
 uid: 

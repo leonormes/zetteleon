@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: []
 source_of_truth: []
 status: "evolving"
-tags: ["architecture", "extensions", "gemini-cli", "mcp", "tools"]
+tags: ["SoftwareEngineering/Architecture", "extensions", "gemini-cli", "mcp", "tools"]
 title: SoT - Extending Gemini CLI with MCP
 type: "SoT"
 uid: 

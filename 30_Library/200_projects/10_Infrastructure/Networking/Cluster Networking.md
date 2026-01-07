@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["cni", "k8s", "topic/technology/networking"]
+tags: ["cni", "k8s", "SoftwareEngineering/Networking"]
 title: Cluster Networking
 type: ""
 uid: 

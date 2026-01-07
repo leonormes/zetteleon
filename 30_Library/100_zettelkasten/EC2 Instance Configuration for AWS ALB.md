@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["aws", "cloud-computing", "ec2", "topic/technology/networking"]
+tags: ["aws", "cloud-computing", "ec2", "SoftwareEngineering/Networking"]
 title: EC2 Instance Configuration for AWS ALB
 type: ""
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["namespace", "topic/technology/containers"]
+tags: ["namespace", "SoftwareEngineering/Containers"]
 title: Network Namespace
 type: "null"
 uid: 

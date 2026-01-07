@@ -19,10 +19,10 @@ see_also:
 source_of_truth: []
 status: stable
 tags:
-  - architecture
+  - "SoftwareEngineering/Architecture"
   - fitfile
   - kubernetes
-  - security
+  - "SoftwareEngineering/Security"
   - vault
 title: SoT - FITFILE Secret Management Architecture
 type: SoT

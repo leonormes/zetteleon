@@ -12,7 +12,7 @@ see_also: []
 source_of_truth: []
 status: stable
 tags:
-  - architecture
+  - "SoftwareEngineering/Architecture"
   - social-dynamics
   - topic/systems
 title: MOC - Socio-Technical Dissonance

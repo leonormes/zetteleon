@@ -11,7 +11,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Algebraic Data Types (ADTs)]]", "[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]", "[[SoT - Rust's Design Philosophy]]"]
 source_of_truth: []
 status: "stable"
-tags: ["type_theory", "math", "architecture", "rust"]
+tags: ["type_theory", "math", "SoftwareEngineering/Architecture", "rust"]
 title: SoT - The Algebra of Types (Cardinality and Isomorphism)
 type: "SoT"
 uid: 

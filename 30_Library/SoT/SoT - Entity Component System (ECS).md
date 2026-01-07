@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Data-Oriented Programming (DOP)]]", "[[SoT - Rust Language]]"]
 source_of_truth: []
 status: "stable"
-tags: ["ecs", "architecture", "game_development", "rust"]
+tags: ["ecs", "SoftwareEngineering/Architecture", "game_development", "rust"]
 title: SoT - Entity Component System (ECS)
 type: "SoT"
 uid: 

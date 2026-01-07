@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/linux", "syscall"]
+tags: ["SoftwareEngineering/Linux", "syscall"]
 title: os efficiency
 type: ""
 uid: 

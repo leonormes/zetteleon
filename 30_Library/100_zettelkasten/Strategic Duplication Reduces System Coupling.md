@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["architecture", "coupling"]
+tags: ["SoftwareEngineering/Architecture", "coupling"]
 title: Strategic Duplication Reduces System Coupling
 type: "concept"
 uid: 

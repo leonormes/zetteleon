@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["load-balancing", "type/moc", "sre", "topic/technology/networking"]
+tags: ["load-balancing", "type/moc", "sre", "SoftwareEngineering/Networking"]
 title: Load Balancing MOC
 type: "map"
 uid: 

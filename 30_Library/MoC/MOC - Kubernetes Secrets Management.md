@@ -15,7 +15,7 @@ status: active
 tags:
   - kubernetes
   - secrets
-  - security
+  - "SoftwareEngineering/Security"
   - vault
 title: MOC - Kubernetes Secrets Management
 type: map

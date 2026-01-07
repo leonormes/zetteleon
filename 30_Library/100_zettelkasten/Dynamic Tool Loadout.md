@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["Optimization", "Tools", "topic/technology/AI", "topic/technology/AI/agents"]
+tags: ["Optimization", "Tools", "SoftwareEngineering/AI", "SoftwareEngineering/AI/agents"]
 title: Dynamic Tool Loadout
 type: ""
 uid: 

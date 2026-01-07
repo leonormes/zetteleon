@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["aws", "topic/technology/networking", "topic/technology/networking/cloud-networking", "vpc"]
+tags: ["aws", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/cloud-networking", "vpc"]
 title: VPC Setup for AWS ALB
 type: ""
 uid: 

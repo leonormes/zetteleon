@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["mental-model", "philosophy", "topic/technology/networking"]
+tags: ["mental-model", "philosophy", "SoftwareEngineering/Networking"]
 title: INSIGHT - Networking is data labeling not wires
 type: "Insight"
 uid: 

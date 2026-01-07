@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["model", "osi", "protocol", "topic/technology/networking"]
+tags: ["model", "osi", "protocol", "SoftwareEngineering/Networking"]
 title: MOC - OSI Model
 type: "map"
 uid: 

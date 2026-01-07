@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["documentation", "infrastructure", "security"]
+tags: ["documentation", "infrastructure", "SoftwareEngineering/Security"]
 title: Vault PKI Infrastructure Documentation
 type: ""
 uid: 

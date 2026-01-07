@@ -10,7 +10,7 @@ purpose: "To define the application of Data-Oriented Programming (DOP) principle
 review_interval: "6 months"
 see_also: ["[[SoT - Rust Language]]", "[[SoT - Data-Centric Software Engineering]]"]
 status: "stable"
-tags: ["rust", "dop", "architecture", "design-patterns"]
+tags: ["rust", "dop", "SoftwareEngineering/Architecture", "design-patterns"]
 title: SoT - Data-Oriented Programming (DOP) in Rust
 type: "SoT"
 ---

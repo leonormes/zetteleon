@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[La Fontaines Fables Served as Courtly Education in 17th Century France]]", "[[Sequence - Evolution of Fable Storytelling]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["architecture", "art", "fable", "history", "storytelling", "versailles"]
+tags: ["SoftwareEngineering/Architecture", "art", "fable", "history", "storytelling", "versailles"]
 title: The Versailles Labyrinth Used Fable Installations for Visual Storytelling
 type: "concept"
 uid: 

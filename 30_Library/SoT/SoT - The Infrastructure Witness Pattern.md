@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Type-Driven Infrastructure as Code]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[MOC - Type Theory]]", "[[SoT - Parse, Don't Validate]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "iac", "type_theory", "security", "pattern"]
+tags: ["SoftwareEngineering/Architecture", "iac", "type_theory", "SoftwareEngineering/Security", "pattern"]
 title: SoT - The Infrastructure Witness Pattern
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["coherence", "topic/cognition", "topic/technology/AI"]
+tags: ["coherence", "topic/cognition", "SoftwareEngineering/AI"]
 title: Coherent LLM output signals meaningful processing
 type: ""
 uid: 

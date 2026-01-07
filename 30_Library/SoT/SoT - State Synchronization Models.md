@@ -10,7 +10,7 @@ review_interval: "2 years"
 see_also: ["[[SoT - Git Architecture]]", "[[SoT - HashiCorp Vault Architecture]]", "[[SoT - Kubernetes Architecture]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "distributed_systems", "git", "kubernetes", "theory"]
+tags: ["SoftwareEngineering/Architecture", "distributed_systems", "git", "kubernetes", "theory"]
 title: SoT - State Synchronization Models
 type: "SoT"
 uid: 

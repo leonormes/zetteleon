@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["security", "topic/technology/networking"]
+tags: ["SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
 title: EKS Calico Networking Analysis Report
 type: "null"
 uid: 

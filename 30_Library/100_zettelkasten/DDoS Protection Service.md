@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Web Application Firewalls Protect Against Layer 7 Attacks.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["security", "topic/technology/networking"]
+tags: ["SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
 title: DDoS Protection Service
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "12 months"
 see_also: ["[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[SoT - Algebraic Data Types (ADTs)]]", "[[SoT - The Infrastructure Witness Pattern]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "type_theory", "security", "principle"]
+tags: ["SoftwareEngineering/Architecture", "type_theory", "SoftwareEngineering/Security", "principle"]
 title: "SoT - Parse, Don't Validate"
 type: "SoT"
 uid: 

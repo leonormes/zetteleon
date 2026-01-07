@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["architecture", "scalability", "tech", "topic/technology/networking"]
+tags: ["SoftwareEngineering/Architecture", "scalability", "tech", "SoftwareEngineering/Networking"]
 title: A Load Balancer Distributes Traffic for Reliability and Scale
 type: "permanent"
 uid: 

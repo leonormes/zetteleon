@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[MOC - Layer 3 Network Security Concepts]]"]
 source_of_truth: ["[[SoT - Cryptography and Encryption]]"]
 status: "stable"
-tags: ["cryptography", "type/moc", "security"]
+tags: ["cryptography", "type/moc", "SoftwareEngineering/Security"]
 title: Cryptography MOC
 type: "map"
 uid: 

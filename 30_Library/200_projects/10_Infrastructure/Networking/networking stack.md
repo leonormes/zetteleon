@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/containers", "topic/technology/networking"]
+tags: ["SoftwareEngineering/Containers", "SoftwareEngineering/Networking"]
 title: networking stack
 type: ""
 uid: 

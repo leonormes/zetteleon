@@ -21,7 +21,7 @@ source_of_truth: []
 status: stable
 tags:
   - type/moc
-  - architecture
+  - "SoftwareEngineering/Architecture"
   - root
   - philosophy
 title: MOC - The Unified Systems Paradigm

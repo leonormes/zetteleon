@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["methodology", "topic/technology/networking"]
+tags: ["methodology", "SoftwareEngineering/Networking"]
 title: Data-Centric Networking Focuses on Packet Journey Through Devices
 type: "concept"
 uid: 

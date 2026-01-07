@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["aws", "health-checks", "load-balancing", "target-groups", "topic/technology/networking"]
+tags: ["aws", "health-checks", "load-balancing", "target-groups", "SoftwareEngineering/Networking"]
 title: AWS ALB Target Groups
 type: "null"
 uid: 

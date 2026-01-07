@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Dependent Haskell and Singletons]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "macros", "programming_languages", "racket", "type_systems"]
+tags: ["SoftwareEngineering/Architecture", "macros", "programming_languages", "racket", "type_systems"]
 title: SoT - Interleaved Compilation (The Hackett Architecture)
 type: "SoT"
 uid: 

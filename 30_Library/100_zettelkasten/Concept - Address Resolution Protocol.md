@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["topic/technology/networking/protocol"]
+tags: ["SoftwareEngineering/networking/protocol"]
 title: Concept - Address Resolution Protocol
 type: "concept"
 uid: 

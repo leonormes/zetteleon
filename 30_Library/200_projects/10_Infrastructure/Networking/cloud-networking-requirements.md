@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/networking/cloud-networking"]
+tags: ["SoftwareEngineering/networking/cloud-networking"]
 title: cloud-networking-requirements
 type: ""
 uid: 

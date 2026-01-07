@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - Values and Eudaimonia]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "goals", "nlp", "strategy", "topic/psychology", "vision"]
+tags: ["SoftwareEngineering/Architecture", "goals", "nlp", "strategy", "topic/psychology", "vision"]
 title: SoT - Goal Architecture (Vision and Alignment)
 type: "SoT"
 uid: 

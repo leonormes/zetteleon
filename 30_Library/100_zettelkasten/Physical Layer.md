@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/networking"]
+tags: ["SoftwareEngineering/Networking"]
 title: Physical Layer
 type: "permanent"
 uid: 

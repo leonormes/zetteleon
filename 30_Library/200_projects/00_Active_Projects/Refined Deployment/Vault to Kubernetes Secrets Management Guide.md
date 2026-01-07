@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["secrets", "topic/technology/kubernetes", "vault"]
+tags: ["secrets", "SoftwareEngineering/Kubernetes", "vault"]
 title: Vault to Kubernetes Secrets Management Guide
 type: "null"
 uid: 

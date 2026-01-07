@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/containers", "topic/linux", "topic/technology/networking", "veth"]
+tags: ["SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking", "veth"]
 title: What is a veth pair
 type: "Factual"
 uid: 

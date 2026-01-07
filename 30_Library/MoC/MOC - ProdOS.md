@@ -15,7 +15,7 @@ see_also:
 source_of_truth: []
 status: stable
 tags:
-  - architecture
+  - "SoftwareEngineering/Architecture"
   - prodos
 title: MOC - ProdOS
 type: map

@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data-Centric Theory of Networking]]"]
 source_of_truth: []
 status: "stable"
-tags: ["cni", "topic/technology/networking/dns", "kubernetes", "topic/technology/networking", "service_discovery"]
+tags: ["cni", "SoftwareEngineering/networking/dns", "kubernetes", "SoftwareEngineering/Networking", "service_discovery"]
 title: SoT - Kubernetes Networking & DNS
 type: "SoT"
 uid: 

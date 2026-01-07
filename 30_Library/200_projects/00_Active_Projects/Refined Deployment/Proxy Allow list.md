@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["allowlist", "firewall", "proxy", "security", "topic/technology/networking"]
+tags: ["allowlist", "firewall", "proxy", "SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
 title: Proxy Allow list
 type: "null"
 uid: 

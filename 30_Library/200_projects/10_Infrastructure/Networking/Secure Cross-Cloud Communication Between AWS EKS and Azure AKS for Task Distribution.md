@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["ingress", "topic/technology/networking"]
+tags: ["ingress", "SoftwareEngineering/Networking"]
 title: Secure Cross-Cloud Communication Between AWS EKS and Azure AKS for Task Distribution
 type: "plan"
 uid: 

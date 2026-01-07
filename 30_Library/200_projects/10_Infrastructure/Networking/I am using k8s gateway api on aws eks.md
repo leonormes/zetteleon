@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["gateway", "topic/technology/networking"]
+tags: ["gateway", "SoftwareEngineering/Networking"]
 title: I am using k8s gateway api on aws eks
 type: ""
 uid: 

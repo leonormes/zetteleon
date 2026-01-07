@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["cluster-state", "configuration", "etcd", "service-discovery", "topic/technology/containers", "topic/technology/kubernetes"]
+tags: ["cluster-state", "configuration", "etcd", "service-discovery", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes"]
 title: etcd stores cluster network state and service configuration
 type: "Fact"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - Slot Map (Generational Arena)]]", "[[SoT - Rust Language]]", "[[SoT - Database Internals for Systems Programmers]]"]
 source_of_truth: []
 status: "stable"
-tags: ["dop", "dod", "performance", "architecture", "rust"]
+tags: ["dop", "dod", "performance", "SoftwareEngineering/Architecture", "rust"]
 title: SoT - Data-Oriented Programming (DOP)
 type: "SoT"
 uid: 

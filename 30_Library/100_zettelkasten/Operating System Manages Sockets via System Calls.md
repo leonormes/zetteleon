@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["File Descriptor as OS Socket Handle.md", "Socket is a Software Endpoint for Network Communication.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["kernel", "operating-system", "socket", "topic/technology/networking"]
+tags: ["kernel", "operating-system", "socket", "SoftwareEngineering/Networking"]
 title: Operating System Manages Sockets via System Calls
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["kernel", "topic/linux", "routing", "topic/technology/networking"]
+tags: ["kernel", "SoftwareEngineering/Linux", "routing", "SoftwareEngineering/Networking"]
 title: What is IP forwarding
 type: "Factual"
 uid: 

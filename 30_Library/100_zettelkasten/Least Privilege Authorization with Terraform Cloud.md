@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["authorization", "IAM", "least-privilege", "RBAC", "security"]
+tags: ["authorization", "IAM", "least-privilege", "RBAC", "SoftwareEngineering/Security"]
 title: Least Privilege Authorization with Terraform Cloud
 type: ""
 uid: 

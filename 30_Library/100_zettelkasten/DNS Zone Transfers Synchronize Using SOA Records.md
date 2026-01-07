@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["DNS is a distributed database.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["topic/technology/networking/dns", "topic/technology/networking"]
+tags: ["SoftwareEngineering/networking/dns", "SoftwareEngineering/Networking"]
 title: DNS Zone Transfers Synchronize Using SOA Records
 type: "concept"
 uid: 

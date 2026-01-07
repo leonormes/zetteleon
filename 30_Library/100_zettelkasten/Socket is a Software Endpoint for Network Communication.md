@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["programming", "socket", "topic/technology/networking"]
+tags: ["programming", "socket", "SoftwareEngineering/Networking"]
 title: Socket is a Software Endpoint for Network Communication
 type: "concept"
 uid: 

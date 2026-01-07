@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[Public and Private Keys Are Mathematically Asymmetric]]"]
 source_of_truth: ["[[SoT - Cryptography and Encryption]]"]
 status: "stable"
-tags: ["cryptography", "security"]
+tags: ["cryptography", "SoftwareEngineering/Security"]
 title: Encryption vs Digital Signatures - Confidentiality vs Authenticity
 type: "concept"
 uid: 

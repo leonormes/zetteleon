@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/linux", "topic/technology/networking"]
+tags: ["SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]
 title: Linux kernel network representation
 type: "documentation"
 uid: 

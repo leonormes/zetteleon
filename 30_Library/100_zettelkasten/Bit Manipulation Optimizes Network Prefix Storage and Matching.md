@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Mtri Trees Efficiently Store ACL and Routing Table Entries.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["algorithms", "optimization", "topic/technology/networking"]
+tags: ["algorithms", "optimization", "SoftwareEngineering/Networking"]
 title: Bit Manipulation Optimizes Network Prefix Storage and Matching
 type: "concept"
 uid: 

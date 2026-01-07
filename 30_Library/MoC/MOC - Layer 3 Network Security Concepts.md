@@ -13,7 +13,7 @@ scope: "Technical concepts from 'L3 Network Security Explained.md'."
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["security", "topic/technology/networking"]
+tags: ["SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
 title: MOC - Layer 3 Network Security Concepts
 type: "map"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["calico", "gitops", "k8s", "topic/technology/networking"]
+tags: ["calico", "gitops", "k8s", "SoftwareEngineering/Networking"]
 title: Calico Cloud vs Kubernetes Network Policies in GitOps
 type: "LLM"
 uid: 

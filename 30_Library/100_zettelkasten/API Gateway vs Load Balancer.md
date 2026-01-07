@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["architecture", "comparison", "tech"]
+tags: ["SoftwareEngineering/Architecture", "comparison", "tech"]
 title: API Gateway vs Load Balancer
 type: "permanent"
 uid: 

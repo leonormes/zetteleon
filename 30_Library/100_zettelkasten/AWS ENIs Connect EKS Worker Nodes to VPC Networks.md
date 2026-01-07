@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["AWS Networking MOC.md", "Kubernetes Performs SNAT for Pod Egress Traffic.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["aws", "eks", "topic/technology/networking"]
+tags: ["aws", "eks", "SoftwareEngineering/Networking"]
 title: AWS ENIs Connect EKS Worker Nodes to VPC Networks
 type: "concept"
 uid: 

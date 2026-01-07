@@ -20,7 +20,7 @@ tags:
   - cloud
   - hardware
   - performance
-  - architecture
+  - "SoftwareEngineering/Architecture"
 title: MOC - Cloud Hardware Architecture
 type: map
 uid:

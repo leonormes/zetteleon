@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/networking/dns"]
+tags: ["SoftwareEngineering/networking/dns"]
 title: Networking For Hackers (DNS - Domain Name System)
 type: ""
 uid: 

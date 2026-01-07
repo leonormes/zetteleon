@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["agents", "CICD", "ephemeral-infrastructure", "security"]
+tags: ["agents", "CICD", "ephemeral-infrastructure", "SoftwareEngineering/Security"]
 title: Ephemeral Agents and Environments in Terraform Cloud
 type: ""
 uid: 

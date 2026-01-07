@@ -10,7 +10,7 @@ review_interval: ""
 see_also: ["[[Layer 3 Network Layer]]", "[[Layer 4 Transport Layer]]", "[[osi_layers]]", "[[Protocol Data Unit]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["topic/technology/networking"]
+tags: ["SoftwareEngineering/Networking"]
 title: An Example of a Tcp Packet With All Layers
 type: "reference"
 uid: 

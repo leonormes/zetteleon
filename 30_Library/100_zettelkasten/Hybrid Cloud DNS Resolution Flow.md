@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/networking/dns"]
+tags: ["SoftwareEngineering/networking/dns"]
 title: Hybrid Cloud DNS Resolution Flow
 type: "null"
 uid: 

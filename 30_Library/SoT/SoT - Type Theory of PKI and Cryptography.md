@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Parse, Don't Validate]]", "[[SoT - The Infrastructure Witness Pattern]]", "[[SoT - Digital Identity]]"]
 source_of_truth: []
 status: "stable"
-tags: ["cryptography", "pki", "rust", "type_theory", "architecture"]
+tags: ["cryptography", "pki", "rust", "type_theory", "SoftwareEngineering/Architecture"]
 title: SoT - Type Theory of PKI and Cryptography
 type: "SoT"
 uid: 

@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["ADR", "Architecture", "Planning", "topic/technology/AI"]
+tags: ["ADR", "Architecture", "Planning", "SoftwareEngineering/AI"]
 title: Architecture First Approach to AI Development
 type: ""
 uid: 

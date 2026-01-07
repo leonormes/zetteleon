@@ -13,7 +13,7 @@ see_also:
   - "[[SoT - Type-Driven Development (The Torvalds Loop)]]"
 source_of_truth: []
 status: "Active"
-tags: ["anti-pattern", "architecture", "types", "devops"]
+tags: ["anti-pattern", "SoftwareEngineering/Architecture", "types", "devops"]
 title: SoT - Stringly Typed vs Strongly Typed
 type: "SoT"
 uid: 

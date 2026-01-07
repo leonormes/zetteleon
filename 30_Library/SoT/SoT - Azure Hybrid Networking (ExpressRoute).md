@@ -11,7 +11,7 @@ review_interval: "12 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - Secure Cross-Cloud Data Transport]]", "[[SoT - Type-Driven Infrastructure as Code]]"]
 source_of_truth: []
 status: "stable"
-tags: ["azure", "topic/technology/networking", "security", "architecture", "hybrid_cloud"]
+tags: ["azure", "SoftwareEngineering/Networking", "SoftwareEngineering/Security", "SoftwareEngineering/Architecture", "hybrid_cloud"]
 title: SoT - Azure Hybrid Networking (ExpressRoute)
 type: "SoT"
 uid: 

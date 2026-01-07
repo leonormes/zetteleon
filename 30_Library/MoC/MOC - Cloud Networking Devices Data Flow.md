@@ -13,7 +13,7 @@ scope: "Data-centric view of cloud networking devices."
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["cloud", "topic/technology/networking"]
+tags: ["cloud", "SoftwareEngineering/Networking"]
 title: MOC - Cloud Networking Devices Data Flow
 type: "map"
 uid: 

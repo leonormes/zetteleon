@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["aws", "internet-gateway", "topic/technology/networking", "topic/technology/networking/cloud-networking"]
+tags: ["aws", "internet-gateway", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/cloud-networking"]
 title: Internet Gateway in AWS Networking
 type: ""
 uid: 

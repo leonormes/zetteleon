@@ -12,7 +12,7 @@ see_also:
   - "[[SoT - Data-Centric Software Engineering]]"
 source_of_truth: []
 status: "Active"
-tags: ["moc", "ohdsi", "omop", "health-informatics", "architecture"]
+tags: ["moc", "ohdsi", "omop", "health-informatics", "SoftwareEngineering/Architecture"]
 title: MoC - OHDSI & OMOP Architecture
 type: "MoC"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Socket is a Software Endpoint for Network Communication.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["http", "socket", "terminology", "topic/technology/networking"]
+tags: ["http", "socket", "terminology", "SoftwareEngineering/Networking"]
 title: Socket vs Connection vs Request Distinctions
 type: "concept"
 uid: 

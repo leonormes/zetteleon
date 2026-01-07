@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["authentication", "cloud-native", "machine-to-machine", "security"]
+tags: ["authentication", "cloud-native", "machine-to-machine", "SoftwareEngineering/Security"]
 title: Machine-to-Machine Authentication Methods
 type: ""
 uid: 

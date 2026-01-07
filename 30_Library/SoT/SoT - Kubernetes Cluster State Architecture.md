@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - FITFILE Platform Deployment]]", "[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Software Configuration Management Patterns]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "devops", "etcd", "kubernetes", "mental_model"]
+tags: ["SoftwareEngineering/Architecture", "devops", "etcd", "kubernetes", "mental_model"]
 title: SoT - Kubernetes Cluster State Architecture
 type: "SoT"
 uid: 

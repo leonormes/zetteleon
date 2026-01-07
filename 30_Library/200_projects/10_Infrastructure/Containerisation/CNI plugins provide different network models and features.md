@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["calico", "cni", "flannel", "overlay", "topic/technology/containers", "topic/technology/kubernetes", "underlay", "weave"]
+tags: ["calico", "cni", "flannel", "overlay", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes", "underlay", "weave"]
 title: CNI plugins provide different network models and features
 type: "Fact"
 uid: 

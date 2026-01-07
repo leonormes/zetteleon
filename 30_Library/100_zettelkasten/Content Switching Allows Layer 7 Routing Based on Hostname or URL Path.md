@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["A Load Balancer Distributes Traffic for Reliability and Scale.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["load-balancing", "topic/technology/networking"]
+tags: ["load-balancing", "SoftwareEngineering/Networking"]
 title: Content Switching Allows Layer 7 Routing Based on Hostname or URL Path
 type: "concept"
 uid: 

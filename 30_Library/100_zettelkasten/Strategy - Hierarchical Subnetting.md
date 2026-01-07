@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["best-practices", "terraform", "topic/technology/networking"]
+tags: ["best-practices", "terraform", "SoftwareEngineering/Networking"]
 title: Strategy - Hierarchical Subnetting
 type: "strategy"
 uid: 

@@ -11,7 +11,7 @@ review_interval: "12 months"
 see_also: ["[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]", "[[SoT - Rust's Design Philosophy]]", "[[SoT - Type-Driven Infrastructure as Code]]"]
 source_of_truth: []
 status: "stable"
-tags: ["type_theory", "category_theory", "architecture", "logic"]
+tags: ["type_theory", "category_theory", "SoftwareEngineering/Architecture", "logic"]
 title: SoT - The Trinity of Isomorphism (Logic, Computation, Categories)
 type: "SoT"
 uid: 

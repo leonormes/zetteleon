@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["encapsulation", "osi", "protocol", "topic/technology/networking"]
+tags: ["encapsulation", "osi", "protocol", "SoftwareEngineering/Networking"]
 title: How OSI layers encapsulate data in a packet trace
 type: "Mechanism"
 uid: 

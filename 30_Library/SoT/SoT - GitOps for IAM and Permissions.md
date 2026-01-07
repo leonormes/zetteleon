@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Data-Centric IAM in Zero Trust]]", "[[SoT - The Infrastructure Witness Pattern]]", "[[SoT - Type-Driven Infrastructure as Code]]"]
 source_of_truth: []
 status: "stable"
-tags: ["gitops", "iam", "security", "architecture", "type_theory"]
+tags: ["gitops", "iam", "SoftwareEngineering/Security", "SoftwareEngineering/Architecture", "type_theory"]
 title: SoT - GitOps for IAM and Permissions
 type: "SoT"
 uid: 

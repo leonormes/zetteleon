@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - Cubical Type Theory (Computational Univalence)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "equality", "formal_methods", "type_theory"]
+tags: ["SoftwareEngineering/Architecture", "equality", "formal_methods", "type_theory"]
 title: SoT - Equality in Type Theory (Intensional vs Extensional)
 type: "SoT"
 uid: 

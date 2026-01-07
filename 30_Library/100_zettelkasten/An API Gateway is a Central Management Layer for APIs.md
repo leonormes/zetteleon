@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["api", "architecture", "tech"]
+tags: ["api", "SoftwareEngineering/Architecture", "tech"]
 title: An API Gateway is a Central Management Layer for APIs
 type: "permanent"
 uid: 

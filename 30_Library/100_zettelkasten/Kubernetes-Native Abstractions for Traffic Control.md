@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/networking"]
+tags: ["SoftwareEngineering/Networking"]
 title: Kubernetes-Native Abstractions for Traffic Control
 type: "null"
 uid: 

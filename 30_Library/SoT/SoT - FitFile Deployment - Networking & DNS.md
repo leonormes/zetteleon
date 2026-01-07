@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - FitFile Deployment - Strategy & Architecture]]", "[[SoT - FitFile Deployment - Operations & Troubleshooting]]"]
 source_of_truth: []
 status: "stable"
-tags: ["topic/technology/networking/dns", "kubernetes", "topic/technology/networking", "aks", "eks"]
+tags: ["SoftwareEngineering/networking/dns", "kubernetes", "SoftwareEngineering/Networking", "aks", "eks"]
 title: SoT - FitFile Deployment - Networking & DNS
 type: "SoT"
 uid: 

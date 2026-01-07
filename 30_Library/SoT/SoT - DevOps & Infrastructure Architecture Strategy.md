@@ -10,7 +10,7 @@ purpose: "To define the architectural philosophy for DevOps and IaC, moving from
 review_interval: "6 months"
 see_also: ["[[SoT - Data-Oriented Programming (DOP) in Rust]]", "[[SoT - PRODOS (System Architecture)]]"]
 status: "stable"
-tags: ["devops", "iac", "architecture", "strategy", "fitfile"]
+tags: ["devops", "iac", "SoftwareEngineering/Architecture", "strategy", "fitfile"]
 title: SoT - DevOps & Infrastructure Architecture Strategy
 type: "SoT"
 ---

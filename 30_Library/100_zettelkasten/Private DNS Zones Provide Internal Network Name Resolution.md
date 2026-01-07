@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/networking/dns"]
+tags: ["SoftwareEngineering/networking/dns"]
 title: Private DNS Zones Provide Internal Network Name Resolution
 type: "null"
 uid: 

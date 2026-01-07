@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/containers", "topic/technology/networking"]
+tags: ["SoftwareEngineering/Containers", "SoftwareEngineering/Networking"]
 title: "Fun with network namespaces, part 1  Giles' blog"
 type: "documentation"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Digital Identity]]", "[[SoT - Cryptography and Encryption]]", "[[MOC - Cloud-Native Authentication]]"]
 source_of_truth: []
 status: "stable"
-tags: ["authentication", "oauth", "oidc", "security", "standards"]
+tags: ["authentication", "oauth", "oidc", "SoftwareEngineering/Security", "standards"]
 title: SoT - Modern Authentication Standards
 type: "SoT"
 uid: 

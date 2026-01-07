@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["dynamic-secrets", "secrets-management", "security", "Vault"]
+tags: ["dynamic-secrets", "secrets-management", "SoftwareEngineering/Security", "Vault"]
 title: Integrating Vault Secrets with Terraform Cloud
 type: ""
 uid: 

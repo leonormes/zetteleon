@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/containers", "k8s"]
+tags: ["SoftwareEngineering/Containers", "k8s"]
 title: k8s curriculum
 type: "curriculum"
 uid: 

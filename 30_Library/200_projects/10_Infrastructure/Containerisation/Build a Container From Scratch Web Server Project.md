@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/containers"]
+tags: ["SoftwareEngineering/Containers"]
 title: Build a Container From Scratch Web Server Project
 type: "tutorial"
 uid: 

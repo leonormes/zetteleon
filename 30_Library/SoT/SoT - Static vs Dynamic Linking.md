@@ -10,7 +10,7 @@ review_interval: "24 months"
 see_also: []
 source_of_truth: []
 status: "stable"
-tags: ["compilers", "devops", "linking", "security"]
+tags: ["compilers", "devops", "linking", "SoftwareEngineering/Security"]
 title: SoT - Static vs Dynamic Linking
 type: "SoT"
 uid: 

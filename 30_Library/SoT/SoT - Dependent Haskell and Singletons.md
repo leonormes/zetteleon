@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - Proof-Carrying Code via Simulated Dependent Types]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "functional_programming", "haskell", "singletons", "type_theory"]
+tags: ["SoftwareEngineering/Architecture", "functional_programming", "haskell", "singletons", "type_theory"]
 title: SoT - Dependent Haskell and Singletons
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["DNS Delegation Handles Subdomain Authority Transfers.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["topic/technology/networking/dns", "topic/technology/networking"]
+tags: ["SoftwareEngineering/networking/dns", "SoftwareEngineering/Networking"]
 title: Glue Records Solve DNS Chicken-and-Egg Problems
 type: "concept"
 uid: 

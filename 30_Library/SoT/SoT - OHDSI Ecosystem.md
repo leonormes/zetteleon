@@ -5,7 +5,7 @@ created: 2026-01-06
 last_reviewed: 2026-01-06
 purpose: "Defines the high-level mission, architecture, and federated nature of the OHDSI collaborative."
 status: "stable"
-tags: ["ohdsi", "architecture", "sot"]
+tags: ["ohdsi", "SoftwareEngineering/Architecture", "sot"]
 type: "SoT"
 ---
 

@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["ADR", "Documentation", "topic/technology/AI", "topic/technology/AI/context"]
+tags: ["ADR", "Documentation", "SoftwareEngineering/AI", "SoftwareEngineering/AI/context"]
 title: Architectural Decision Records ADRs for AI Agents
 type: ""
 uid: 

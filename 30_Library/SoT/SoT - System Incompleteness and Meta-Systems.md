@@ -13,7 +13,7 @@ see_also:
   - "[[Gödel's Incompleteness Theorems Constrain Foundational Programs]]"
 source_of_truth: []
 status: "Active"
-tags: ["architecture", "systems-theory", "philosophy", "compilers"]
+tags: ["SoftwareEngineering/Architecture", "systems-theory", "philosophy", "compilers"]
 title: SoT - System Incompleteness and Meta-Systems
 type: "SoT"
 uid: 

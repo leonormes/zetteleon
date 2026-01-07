@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["cloudflare", "topic/technology/networking/dns", "homelab", "security", "topic/technology/networking"]
+tags: ["cloudflare", "SoftwareEngineering/networking/dns", "homelab", "SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
 title: Cloudflare Can Proxy Traffic to a Load Balancer to Obfuscate a Public IP
 type: "concept"
 uid: 

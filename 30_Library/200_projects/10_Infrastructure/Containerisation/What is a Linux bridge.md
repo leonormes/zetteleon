@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["bridge", "topic/technology/containers", "layer2", "topic/linux", "topic/technology/networking"]
+tags: ["bridge", "SoftwareEngineering/Containers", "layer2", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]
 title: What is a Linux bridge
 type: "Factual"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Linux Container Primitives]]", "[[SoT - Container Isolation (The Namespace Security Model)]]", "[[SoT - Namespacing in Computing]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "topic/technology/containers", "kubernetes", "security"]
+tags: ["SoftwareEngineering/Architecture", "SoftwareEngineering/Containers", "kubernetes", "SoftwareEngineering/Security"]
 title: SoT - Container Security & Hardening
 type: "SoT"
 uid: 

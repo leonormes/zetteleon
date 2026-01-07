@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["type/moc", "topic/technology/networking", "topic/technology/networking/cloud-networking"]
+tags: ["type/moc", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/cloud-networking"]
 title: Cloud Networking MOC
 type: "map"
 uid: 

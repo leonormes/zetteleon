@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Stream Sockets Provide Reliable Ordered TCP Communication.md", "WebSocket Use Cases for Real-Time Applications.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["protocol", "real-time", "topic/technology/networking", "websocket"]
+tags: ["protocol", "real-time", "SoftwareEngineering/Networking", "websocket"]
 title: WebSocket Protocol Provides Persistent Full-Duplex Communication
 type: "concept"
 uid: 

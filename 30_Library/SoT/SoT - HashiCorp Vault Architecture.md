@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - Kubernetes Architecture]]", "[[SoT - Namespacing in Computing]]", "[[SoT - State Synchronization Models]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "data_structures", "hashicorp", "security", "vault"]
+tags: ["SoftwareEngineering/Architecture", "data_structures", "hashicorp", "SoftwareEngineering/Security", "vault"]
 title: SoT - HashiCorp Vault Architecture
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/containers", "isolation", "topic/linux", "mount", "namespace"]
+tags: ["SoftwareEngineering/Containers", "isolation", "SoftwareEngineering/Linux", "mount", "namespace"]
 title: What is a mount namespace
 type: "Factual"
 uid: 

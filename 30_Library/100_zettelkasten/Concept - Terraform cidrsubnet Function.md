@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["HCL", "terraform", "topic/technology/networking"]
+tags: ["HCL", "terraform", "SoftwareEngineering/Networking"]
 title: Concept - Terraform cidrsubnet Function
 type: "concept"
 uid: 

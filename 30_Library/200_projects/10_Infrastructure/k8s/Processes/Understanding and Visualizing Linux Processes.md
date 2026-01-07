@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["cli", "topic/technology/containers", "topic/linux", "Processes", "Processes"]
+tags: ["cli", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "Processes", "Processes"]
 title: Understanding and Visualizing Linux Processes
 type: ""
 uid: 

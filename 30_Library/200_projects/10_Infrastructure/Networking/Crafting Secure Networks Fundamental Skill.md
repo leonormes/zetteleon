@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/networking"]
+tags: ["SoftwareEngineering/Networking"]
 title: Crafting Secure Networks Fundamental Skill
 type: "curriculum"
 uid: 

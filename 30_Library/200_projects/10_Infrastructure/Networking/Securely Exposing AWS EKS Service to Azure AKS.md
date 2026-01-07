@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["ingress", "k8s", "topic/technology/networking"]
+tags: ["ingress", "k8s", "SoftwareEngineering/Networking"]
 title: Securely Exposing AWS EKS Service to Azure AKS
 type: ""
 uid: 

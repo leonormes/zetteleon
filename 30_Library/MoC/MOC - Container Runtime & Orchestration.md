@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["cni", "cri", "docker", "kubernetes", "orchestration", "topic/technology/containers", "topic/technology/kubernetes", "type/moc"]
+tags: ["cni", "cri", "docker", "kubernetes", "orchestration", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes", "type/moc"]
 title: MOC - Container Runtime & Orchestration
 type: "map"
 uid: 

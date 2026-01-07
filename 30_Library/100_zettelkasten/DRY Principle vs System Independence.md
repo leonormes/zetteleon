@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Strategic Duplication Reduces System Coupling.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["architecture", "principles"]
+tags: ["SoftwareEngineering/Architecture", "principles"]
 title: DRY Principle vs System Independence
 type: "concept"
 uid: 

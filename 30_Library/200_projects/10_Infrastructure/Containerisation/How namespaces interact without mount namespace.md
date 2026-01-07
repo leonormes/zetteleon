@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/containers", "isolation", "topic/linux", "namespace", "security"]
+tags: ["SoftwareEngineering/Containers", "isolation", "SoftwareEngineering/Linux", "namespace", "SoftwareEngineering/Security"]
 title: How namespaces interact without mount namespace
 type: "Mechanism"
 uid: 

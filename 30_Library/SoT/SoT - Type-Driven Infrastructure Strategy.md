@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Type Theory & Data Structures]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "iac", "type-theory", "devops", "rust", "cdktf", "terraform"]
+tags: ["SoftwareEngineering/Architecture", "iac", "type-theory", "devops", "rust", "cdktf", "terraform"]
 title: SoT - Type-Driven Infrastructure Strategy
 type: "SoT"
 uid: 

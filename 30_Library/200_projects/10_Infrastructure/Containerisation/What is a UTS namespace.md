@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/containers", "hostname", "isolation", "topic/linux", "namespace"]
+tags: ["SoftwareEngineering/Containers", "hostname", "isolation", "SoftwareEngineering/Linux", "namespace"]
 title: What is a UTS namespace
 type: "Factual"
 uid: 

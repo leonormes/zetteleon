@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[Kubernetes Secrets in Helm Chart Deployment]]", "[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - Kubernetes Cluster State Architecture]]"]
 source_of_truth: []
 status: "stable"
-tags: ["devops", "kubernetes", "secrets", "security", "vault"]
+tags: ["devops", "kubernetes", "secrets", "SoftwareEngineering/Security", "vault"]
 title: SoT - Kubernetes Secrets Management
 type: "SoT"
 uid: 

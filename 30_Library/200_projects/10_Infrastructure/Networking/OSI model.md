@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["osi", "topic/technology/networking"]
+tags: ["osi", "SoftwareEngineering/Networking"]
 title: OSI model
 type: "null"
 uid: 

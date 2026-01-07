@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Data-Centric Networking Focuses on Packet Journey Through Devices.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["cloud", "scalability", "topic/technology/networking"]
+tags: ["cloud", "scalability", "SoftwareEngineering/Networking"]
 title: Load Balancers Distribute Traffic Across Backend Services
 type: "concept"
 uid: 

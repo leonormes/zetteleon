@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["aws", "high-availability", "subnets", "topic/technology/networking", "topic/technology/networking/cloud-networking"]
+tags: ["aws", "high-availability", "subnets", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/cloud-networking"]
 title: Public Subnets for High Availability in AWS
 type: "null"
 uid: 

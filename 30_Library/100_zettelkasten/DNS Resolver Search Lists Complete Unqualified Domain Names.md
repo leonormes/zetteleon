@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["DNS Resolvers Translate Domain Requests to IP Queries.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["topic/technology/networking/dns", "topic/technology/networking"]
+tags: ["SoftwareEngineering/networking/dns", "SoftwareEngineering/Networking"]
 title: DNS Resolver Search Lists Complete Unqualified Domain Names
 type: "concept"
 uid: 

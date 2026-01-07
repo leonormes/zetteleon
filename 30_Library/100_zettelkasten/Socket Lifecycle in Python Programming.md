@@ -10,7 +10,7 @@ review_interval: "180"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["programming", "python", "socket", "topic/technology/networking"]
+tags: ["programming", "python", "socket", "SoftwareEngineering/Networking"]
 title: Socket Lifecycle in Python Programming
 type: "instructional"
 uid: 

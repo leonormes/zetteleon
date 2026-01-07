@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "formal_verification", "set_theory", "type_theory", "typescript"]
+tags: ["SoftwareEngineering/Architecture", "formal_verification", "set_theory", "type_theory", "typescript"]
 title: SoT - TypeScript as a Proof Engine (Set Theory and Distributivity)
 type: "SoT"
 uid: 

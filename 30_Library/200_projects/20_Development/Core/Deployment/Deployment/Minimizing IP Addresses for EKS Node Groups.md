@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["ff_deploy", "topic/technology/networking"]
+tags: ["ff_deploy", "SoftwareEngineering/Networking"]
 title: Minimizing IP Addresses for EKS Node Groups
 type: ""
 uid: 

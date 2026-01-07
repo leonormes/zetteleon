@@ -11,7 +11,7 @@ review_interval: "6 months"
 see_also: ["[[MOC - Rust Programming Language]]", "[[MOC - Data-Centric Infrastructure]]", "[[MOC - Data-Centric Software Engineering]]"]
 source_of_truth: []
 status: "stable"
-tags: ["type/moc", "type_theory", "programming", "logic", "architecture"]
+tags: ["type/moc", "type_theory", "programming", "logic", "SoftwareEngineering/Architecture"]
 title: MOC - Type Theory
 type: "map"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data Architecture of DNS]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "data-centric", "topic/technology/networking", "routing", "topic/technology"]
+tags: ["SoftwareEngineering/Architecture", "data-centric", "SoftwareEngineering/Networking", "routing", "topic/technology"]
 title: SoT - The Data-Centric Theory of Networking
 type: "SoT"
 uid: 

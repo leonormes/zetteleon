@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["calico", "topic/technology/networking"]
+tags: ["calico", "SoftwareEngineering/Networking"]
 title: when vxlan
 type: ""
 uid: 

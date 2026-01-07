@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["topic/technology/networking/infrastructure"]
+tags: ["SoftwareEngineering/networking/infrastructure"]
 title: Concept - Network Bridge vs Router
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "2 years"
 see_also: ["[[SoT - Container Isolation (The Namespace Security Model)]]", "[[SoT - Namespace-Aware Pseudo-Filesystems]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "isolation", "kubernetes", "topic/linux", "topic/technology/networking"]
+tags: ["SoftwareEngineering/Architecture", "isolation", "kubernetes", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]
 title: SoT - Namespacing in Computing
 type: "SoT"
 uid: 

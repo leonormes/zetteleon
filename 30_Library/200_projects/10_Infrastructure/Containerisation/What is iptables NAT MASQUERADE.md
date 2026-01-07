@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["firewall", "iptables", "topic/linux", "nat", "topic/technology/networking"]
+tags: ["firewall", "iptables", "SoftwareEngineering/Linux", "nat", "SoftwareEngineering/Networking"]
 title: What is iptables NAT MASQUERADE
 type: "Factual"
 uid: 

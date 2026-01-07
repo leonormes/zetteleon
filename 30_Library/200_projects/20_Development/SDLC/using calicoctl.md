@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["calico", "cni", "topic/technology/networking", "workstation"]
+tags: ["calico", "cni", "SoftwareEngineering/Networking", "workstation"]
 title: using calicoctl
 type: ""
 uid: 

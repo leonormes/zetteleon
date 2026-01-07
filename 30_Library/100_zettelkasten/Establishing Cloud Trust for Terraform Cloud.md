@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["AWS", "Azure", "GCP", "identity-federation", "OIDC", "security"]
+tags: ["AWS", "Azure", "GCP", "identity-federation", "OIDC", "SoftwareEngineering/Security"]
 title: Establishing Cloud Trust for Terraform Cloud
 type: ""
 uid: 

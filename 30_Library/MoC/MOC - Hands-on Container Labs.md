@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["debugging", "hands-on", "lab", "topic/technology/containers", "tutorial"]
+tags: ["debugging", "hands-on", "lab", "SoftwareEngineering/Containers", "tutorial"]
 title: MOC - Hands-on Container Labs
 type: "map"
 uid: 

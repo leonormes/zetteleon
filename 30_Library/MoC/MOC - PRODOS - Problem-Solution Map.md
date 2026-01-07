@@ -19,7 +19,7 @@ see_also:
 source_of_truth: []
 status: stable
 tags:
-  - architecture
+  - "SoftwareEngineering/Architecture"
   - map_of_content
   - problem-solution
   - prodos

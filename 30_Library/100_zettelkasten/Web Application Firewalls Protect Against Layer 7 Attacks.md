@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Data-Centric Networking Focuses on Packet Journey Through Devices.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["security", "topic/technology/networking", "web"]
+tags: ["SoftwareEngineering/Security", "SoftwareEngineering/Networking", "web"]
 title: Web Application Firewalls Protect Against Layer 7 Attacks
 type: "concept"
 uid: 

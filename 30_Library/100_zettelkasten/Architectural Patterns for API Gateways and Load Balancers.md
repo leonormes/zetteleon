@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["architecture", "design-patterns", "tech"]
+tags: ["SoftwareEngineering/Architecture", "design-patterns", "tech"]
 title: Architectural Patterns for API Gateways and Load Balancers
 type: "permanent"
 uid: 

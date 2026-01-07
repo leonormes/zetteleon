@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["Classification", "topic/technology/AI", "topic/technology/AI/agents"]
+tags: ["Classification", "SoftwareEngineering/AI", "SoftwareEngineering/AI/agents"]
 title: Levels of Agentic Behaviour
 type: "null"
 uid: 

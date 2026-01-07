@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/containers"]
+tags: ["SoftwareEngineering/Containers"]
 title: building a container components
 type: "tutorial"
 uid: 

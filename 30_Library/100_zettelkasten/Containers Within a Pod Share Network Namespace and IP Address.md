@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["NAT Gateways Enable Private Resources to Access Internet.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["kubernetes", "topic/technology/networking"]
+tags: ["kubernetes", "SoftwareEngineering/Networking"]
 title: Containers Within a Pod Share Network Namespace and IP Address
 type: "concept"
 uid: 

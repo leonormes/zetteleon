@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["aws", "eks", "ff_deploy", "ip", "topic/technology/networking"]
+tags: ["aws", "eks", "ff_deploy", "ip", "SoftwareEngineering/Networking"]
 title: IPs needed for FITFILE
 type: ""
 uid: 

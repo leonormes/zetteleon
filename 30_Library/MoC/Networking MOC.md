@@ -12,7 +12,7 @@ source_of_truth: []
 status: null
 tags:
   - type/moc
-  - topic/technology/networking
+  - "SoftwareEngineering/Networking"
 title: Networking MOC
 type: map
 version: null

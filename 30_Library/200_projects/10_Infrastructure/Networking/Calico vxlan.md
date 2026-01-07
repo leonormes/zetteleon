@@ -12,7 +12,7 @@ see_also: []
 source: "https://docs.tigera.io/calico/latest/networking/configuring/vxlan-ipip"
 source_of_truth: []
 status: ""
-tags: ["calico", "topic/technology/networking"]
+tags: ["calico", "SoftwareEngineering/Networking"]
 title: Calico vxlan
 type: ""
 uid: 

@@ -12,7 +12,7 @@ see_also:
   - "[[SoT - Kubernetes Networking & DNS]]"
 source_of_truth: []
 status: "Active"
-tags: ["topic/linux", "topic/technology/networking", "kernel", "topic/technology/containers"]
+tags: ["SoftwareEngineering/Linux", "SoftwareEngineering/Networking", "kernel", "SoftwareEngineering/Containers"]
 title: SoT - Linux Networking Primitives
 type: "SoT"
 uid: 

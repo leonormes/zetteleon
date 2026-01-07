@@ -13,7 +13,7 @@ see_also:
   - "[[SoT - Parse, Don't Validate]]"
 source_of_truth: []
 status: "Active"
-tags: ["architecture", "error-handling", "observability", "rust"]
+tags: ["SoftwareEngineering/Architecture", "error-handling", "observability", "rust"]
 title: SoT - Error Handling Architecture
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["filesystem", "kernel", "topic/linux", "vfs"]
+tags: ["filesystem", "kernel", "SoftwareEngineering/Linux", "vfs"]
 title: What is the Linux VFS (Virtual File System)
 type: "Factual"
 uid: 

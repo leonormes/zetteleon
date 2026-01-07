@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/networking/dns", "ff_deploy"]
+tags: ["SoftwareEngineering/networking/dns", "ff_deploy"]
 title: Fitfile DNS database
 type: ""
 uid: 

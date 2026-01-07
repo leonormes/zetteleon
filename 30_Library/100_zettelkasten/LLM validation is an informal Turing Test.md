@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["philosophy-of-mind", "topic/technology/AI", "Turing-Test"]
+tags: ["philosophy-of-mind", "SoftwareEngineering/AI", "Turing-Test"]
 title: LLM validation is an informal Turing Test
 type: "null"
 uid: 

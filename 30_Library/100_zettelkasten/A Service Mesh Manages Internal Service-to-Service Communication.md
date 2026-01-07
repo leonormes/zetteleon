@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["architecture", "microservices", "tech", "topic/technology/networking"]
+tags: ["SoftwareEngineering/Architecture", "microservices", "tech", "SoftwareEngineering/Networking"]
 title: A Service Mesh Manages Internal Service-to-Service Communication
 type: "permanent"
 uid: 

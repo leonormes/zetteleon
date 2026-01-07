@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/containers", "topic/linux", "namespace", "topic/technology/networking", "veth"]
+tags: ["SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "namespace", "SoftwareEngineering/Networking", "veth"]
 title: How a veth pair connects two network namespaces
 type: "Mechanism"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["architecture", "components", "config", "helm", "platform"]
+tags: ["SoftwareEngineering/Architecture", "components", "config", "helm", "platform"]
 title: FITFILE Platform Components
 type: ""
 uid: 

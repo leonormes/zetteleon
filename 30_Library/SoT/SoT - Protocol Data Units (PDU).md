@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Encapsulation & De-encapsulation]]", "[[SoT - The Data Architecture of DNS]]"]
 source_of_truth: []
 status: "stable"
-tags: ["topic/technology/networking", "osi", "pdu", "protocol", "topic/technology"]
+tags: ["SoftwareEngineering/Networking", "osi", "pdu", "protocol", "topic/technology"]
 title: SoT - Protocol Data Units (PDU)
 type: "SoT"
 uid: 

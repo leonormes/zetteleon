@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/networking"]
+tags: ["SoftwareEngineering/Networking"]
 title: explain this cli output_ip addr show_1_ lo_ &lt;LO
 type: ""
 uid: 

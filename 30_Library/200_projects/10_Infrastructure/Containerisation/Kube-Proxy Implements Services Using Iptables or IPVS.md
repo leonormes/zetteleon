@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["iptables", "ipvs", "kube-proxy", "load-balancing", "service", "topic/technology/containers", "topic/technology/kubernetes"]
+tags: ["iptables", "ipvs", "kube-proxy", "load-balancing", "service", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes"]
 title: Kube-Proxy Implements Services Using Iptables or IPVS
 type: "Fact"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/networking/dns"]
+tags: ["SoftwareEngineering/networking/dns"]
 title: DNS Best Practices for Kubernetes in Hybrid Cloud (AWS & Azure)
 type: "null"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["aws", "load-balancing", "type/moc", "topic/technology/networking", "topic/technology/networking/cloud-networking", "tutorial"]
+tags: ["aws", "load-balancing", "type/moc", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/cloud-networking", "tutorial"]
 title: AWS ALB Step-by-Step Tutorial MOC
 type: "map"
 uid: 

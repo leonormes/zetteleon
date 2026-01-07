@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[Modular Arithmetic Creates a Cyclical System]]", "[[RSA Algorithm Relies on Integer Factorisation]]"]
 source_of_truth: ["[[SoT - Cryptography and Encryption]]"]
 status: "stable"
-tags: ["cryptography", "maths", "security"]
+tags: ["cryptography", "maths", "SoftwareEngineering/Security"]
 title: Public and Private Keys Are Mathematically Asymmetric
 type: "concept"
 uid: 

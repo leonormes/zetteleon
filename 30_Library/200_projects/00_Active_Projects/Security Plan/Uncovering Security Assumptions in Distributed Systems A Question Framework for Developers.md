@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["security"]
+tags: ["SoftwareEngineering/Security"]
 title: Uncovering Security Assumptions in Distributed Systems A Question Framework for Developers
 type: "question"
 uid: 

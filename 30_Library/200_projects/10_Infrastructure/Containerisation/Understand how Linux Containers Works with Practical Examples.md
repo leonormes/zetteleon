@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/containers"]
+tags: ["SoftwareEngineering/Containers"]
 title: Understand how Linux Containers Works with Practical Examples
 type: ""
 uid: 

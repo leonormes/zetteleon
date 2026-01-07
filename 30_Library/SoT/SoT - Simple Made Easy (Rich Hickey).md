@@ -10,7 +10,7 @@ review_interval: 1 year
 see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - Information Hiding (Parnas)]]"]
 source_of_truth: true
 status: stable
-tags: [architecture, simplicity, clojure, rich-hickey, design-patterns]
+tags: ["SoftwareEngineering/Architecture", simplicity, clojure, rich-hickey, design-patterns]
 title: SoT - Simple Made Easy (Rich Hickey)
 type: SoT
 uid:

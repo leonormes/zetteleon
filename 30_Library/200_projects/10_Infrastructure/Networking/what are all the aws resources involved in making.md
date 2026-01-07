@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["routing", "topic/technology/networking"]
+tags: ["routing", "SoftwareEngineering/Networking"]
 title: what are all the aws resources involved in making
 type: ""
 uid: 

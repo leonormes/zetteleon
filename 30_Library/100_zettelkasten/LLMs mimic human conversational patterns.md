@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["pattern-recognition", "topic/cognition", "topic/technology/AI"]
+tags: ["pattern-recognition", "topic/cognition", "SoftwareEngineering/AI"]
 title: LLMs mimic human conversational patterns
 type: "null"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/networking/cloud-networking"]
+tags: ["SoftwareEngineering/networking/cloud-networking"]
 title: Nginx Ingress Controller Configuration
 type: "null"
 uid: 

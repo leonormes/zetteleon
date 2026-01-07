@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Rust Language]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "compilers", "rust", "type-system"]
+tags: ["SoftwareEngineering/Architecture", "compilers", "rust", "type-system"]
 title: SoT - Rust Type Mechanics
 type: "SoT"
 uid: 

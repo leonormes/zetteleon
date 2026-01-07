@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[MOC - Software Architecture Principles]]", "[[SoT - Atomicity and Loose Coupling]]", "[[SoT - Code Duplication and Refactoring]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "design-principles", "modularity", "software-engineering"]
+tags: ["SoftwareEngineering/Architecture", "design-principles", "modularity", "software-engineering"]
 title: SoT - Information Hiding (Parnas)
 type: "SoT"
 uid: 

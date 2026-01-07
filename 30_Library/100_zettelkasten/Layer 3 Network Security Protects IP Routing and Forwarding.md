@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["layer3", "security", "topic/technology/networking"]
+tags: ["layer3", "SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
 title: Layer 3 Network Security Protects IP Routing and Forwarding
 type: "concept"
 uid: 

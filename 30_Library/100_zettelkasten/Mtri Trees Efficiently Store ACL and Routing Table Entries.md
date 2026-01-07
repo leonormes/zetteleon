@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Access Control Lists Filter Traffic Based on Protocol and Address Rules.md", "Routing Tables Use Longest Prefix Match for Forwarding Decisions.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["algorithms", "data-structures", "topic/technology/networking"]
+tags: ["algorithms", "data-structures", "SoftwareEngineering/Networking"]
 title: Mtri Trees Efficiently Store ACL and Routing Table Entries
 type: "concept"
 uid: 

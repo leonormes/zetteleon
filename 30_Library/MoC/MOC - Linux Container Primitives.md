@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Linux Container Primitives]]"]
 source_of_truth: ["[[SoT - Linux Container Primitives]]"]
 status: "stable"
-tags: ["topic/technology/containers", "kernel", "topic/linux", "type/moc"]
+tags: ["SoftwareEngineering/Containers", "kernel", "SoftwareEngineering/Linux", "type/moc"]
 title: MOC - Linux Container Primitives
 type: "map"
 uid: 

@@ -4,7 +4,7 @@ confidence: "High"
 created: 2026-01-06T19:57:18+00:00
 epistemic: "Pattern"
 last_reviewed: 
-modified: 2026-01-06T20:19:14+00:00
+modified: 2026-01-07T14:56:34+00:00
 purpose: "To define the specific architectural patterns required to expose ArgoCD's dual-protocol (gRPC and HTTP) API server through standard Kubernetes Ingress controllers."
 review_interval: "1 year"
 see_also: 
@@ -18,8 +18,6 @@ type: "SoT"
 uid: 
 updated: 
 ---
-
-# SoT - ArgoCD Networking Patterns
 
 > **The Problem:** The ArgoCD API server serves both **gRPC** (CLI) and **HTTP/HTTPS** (UI) on the same port (443). Most Kubernetes Ingress controllers (like NGINX) treat a backend as a single protocol type, causing conflicts when trying to route both via a single Ingress object.
 

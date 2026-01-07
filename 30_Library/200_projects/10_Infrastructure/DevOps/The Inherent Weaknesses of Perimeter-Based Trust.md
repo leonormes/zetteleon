@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["IAM", "topic/technology/networking", "zts"]
+tags: ["IAM", "SoftwareEngineering/Networking", "zts"]
 title: The Inherent Weaknesses of Perimeter-Based Trust
 type: "documentation"
 uid: 

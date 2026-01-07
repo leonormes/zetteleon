@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Linux Networking Primitives]]", "[[SoT - Kubernetes Networking & DNS]]"]
 source_of_truth: ["[[SoT - Linux Networking Primitives]]", "[[SoT - Linux Container Primitives]]", "[[SoT - Kubernetes Networking & DNS]]"]
 status: "stable"
-tags: ["topic/technology/containers", "k8s", "kubernetes", "topic/linux", "topic/technology/networking"]
+tags: ["SoftwareEngineering/Containers", "k8s", "kubernetes", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]
 title: MOC - Container Networking Model
 type: "map"
 uid: 

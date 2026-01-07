@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["topic/technology/networking/tcp"]
+tags: ["SoftwareEngineering/networking/tcp"]
 title: Concept - TCP Three-Way Handshake
 type: "concept"
 uid: 

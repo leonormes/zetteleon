@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Layer 3 Network Security Protects IP Routing and Forwarding.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["filtering", "security", "topic/technology/networking"]
+tags: ["filtering", "SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
 title: Access Control Lists Filter Traffic Based on Protocol and Address Rules
 type: "concept"
 uid: 

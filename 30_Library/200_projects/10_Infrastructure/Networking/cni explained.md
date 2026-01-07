@@ -12,7 +12,7 @@ see_also: []
 source: "https://qdnqn.com/networking-on-kubernetes-calico-and-ebpf/"
 source_of_truth: []
 status: ""
-tags: ["calico", "topic/technology/networking"]
+tags: ["calico", "SoftwareEngineering/Networking"]
 title: CNI Explained
 type: ""
 uid: 

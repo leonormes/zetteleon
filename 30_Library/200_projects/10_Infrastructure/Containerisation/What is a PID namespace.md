@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/containers", "isolation", "topic/linux", "namespace", "pid"]
+tags: ["SoftwareEngineering/Containers", "isolation", "SoftwareEngineering/Linux", "namespace", "pid"]
 title: What is a PID namespace
 type: "Factual"
 uid: 

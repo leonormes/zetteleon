@@ -12,7 +12,7 @@ source_of_truth: []
 status:
 tags:
   - data-perspective
-  - topic/technology/networking
+  - "SoftwareEngineering/Networking"
 title: MOC - Data-Centric Networking
 type: map
 uid:

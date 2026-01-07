@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/kubernetes", "troubleshooting"]
+tags: ["SoftwareEngineering/Kubernetes", "troubleshooting"]
 title: Transpiling K8s Manifests Locally for Testing Cluster
 type: "null"
 uid: 

@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["LangGraph", "Planning", "topic/technology/AI", "topic/technology/AI/agents"]
+tags: ["LangGraph", "Planning", "SoftwareEngineering/AI", "SoftwareEngineering/AI/agents"]
 title: Deep Agents for Long Horizon Planning
 type: ""
 uid: 

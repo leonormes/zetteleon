@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["http", "ingress", "topic/technology/kubernetes", "topic/technology/networking"]
+tags: ["http", "ingress", "SoftwareEngineering/Kubernetes", "SoftwareEngineering/Networking"]
 title: Kubernetes Ingress Controllers Handle L7 Traffic
 type: "null"
 uid: 

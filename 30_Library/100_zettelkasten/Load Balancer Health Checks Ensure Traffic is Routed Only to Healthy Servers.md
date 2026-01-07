@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["AWS ALB Target Groups.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["load-balancing", "reliability", "topic/technology/networking"]
+tags: ["load-balancing", "reliability", "SoftwareEngineering/Networking"]
 title: Load Balancer Health Checks Ensure Traffic is Routed Only to Healthy Servers
 type: "concept"
 uid: 

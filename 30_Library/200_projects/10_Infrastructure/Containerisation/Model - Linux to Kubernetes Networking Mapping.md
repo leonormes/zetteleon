@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["cni", "topic/technology/containers", "kubernetes", "topic/linux", "mapping", "topic/technology/networking"]
+tags: ["cni", "SoftwareEngineering/Containers", "kubernetes", "SoftwareEngineering/Linux", "mapping", "SoftwareEngineering/Networking"]
 title: Model - Linux to Kubernetes Networking Mapping
 type: "Model"
 uid: 

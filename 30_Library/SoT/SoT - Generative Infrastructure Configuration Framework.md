@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - PRODOS (System Architecture)]]", "[[SoT - Software Configuration Management Patterns]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "configuration_management", "devops", "infrastructure_as_code", "terraform"]
+tags: ["SoftwareEngineering/Architecture", "configuration_management", "devops", "infrastructure_as_code", "terraform"]
 title: SoT - Generative Infrastructure Configuration Framework
 type: "SoT"
 uid: 

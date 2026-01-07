@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Protocol Data Units (PDU)]]"]
 source_of_truth: ["[[SoT - Protocol Data Units (PDU)]]"]
 status: "stable"
-tags: ["topic/technology/networking", "osi", "tcp-ip"]
+tags: ["SoftwareEngineering/Networking", "osi", "tcp-ip"]
 title: IP Link Layer
 type: "concept"
 uid: 

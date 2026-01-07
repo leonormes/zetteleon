@@ -12,7 +12,7 @@ see_also:
   - "[[SoT - OHDSI Standardized Vocabularies]]"
 source_of_truth: []
 status: "Active"
-tags: ["ohdsi", "fhir", "interoperability", "architecture"]
+tags: ["ohdsi", "fhir", "interoperability", "SoftwareEngineering/Architecture"]
 title: SoT - OHDSI and FHIR Convergence
 type: "SoT"
 uid: 

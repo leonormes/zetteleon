@@ -12,7 +12,7 @@ see_also:
   - "[[SoT - OMOP Common Data Model (CDM)]]"
 source_of_truth: []
 status: "Active"
-tags: ["ohdsi", "architecture", "read-only", "sql"]
+tags: ["ohdsi", "SoftwareEngineering/Architecture", "read-only", "sql"]
 title: SoT - OHDSI Read-Only Architecture
 type: "SoT"
 uid: 

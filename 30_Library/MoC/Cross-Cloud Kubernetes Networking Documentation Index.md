@@ -15,7 +15,7 @@ tags:
   - azure
   - ff_deploy
   - k8s
-  - topic/technology/networking
+  - "SoftwareEngineering/Networking"
 title: Cross-Cloud Kubernetes Networking Documentation Index
 type: map
 uid:

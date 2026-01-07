@@ -11,7 +11,7 @@ review_interval: "6 months"
 see_also: ["[[MOC - Linux Container Primitives]]", "[[MOC - Software Architecture Principles]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "cloud", "computer-science", "software-engineering"]
+tags: ["SoftwareEngineering/Architecture", "cloud", "computer-science", "software-engineering"]
 title: MOC - Computer Science Foundations
 type: "map"
 uid: 

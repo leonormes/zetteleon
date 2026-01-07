@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Server Socket Scalability Limits.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["bsd", "topic/linux", "performance", "scalability", "socket", "topic/technology/networking"]
+tags: ["bsd", "SoftwareEngineering/Linux", "performance", "scalability", "socket", "SoftwareEngineering/Networking"]
 title: Event-Driven Socket Handling with epoll and kqueue
 type: "concept"
 uid: 

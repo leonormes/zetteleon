@@ -10,7 +10,7 @@ review_interval: 6 months
 see_also: ["[[AI-Resilient Task Taxonomy]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Telos Method]]"]
 source_of_truth: []
 status: stable
-tags: ["ai", "architecture", "economics", "spqa"]
+tags: ["ai", "SoftwareEngineering/Architecture", "economics", "spqa"]
 title: SoT - The Inspiration Economy (Agentic Frameworks)
 type: SoT
 uid:

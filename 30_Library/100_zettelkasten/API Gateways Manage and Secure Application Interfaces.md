@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Data-Centric Networking Focuses on Packet Journey Through Devices.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["apis", "cloud", "topic/technology/networking"]
+tags: ["apis", "cloud", "SoftwareEngineering/Networking"]
 title: API Gateways Manage and Secure Application Interfaces
 type: "concept"
 uid: 

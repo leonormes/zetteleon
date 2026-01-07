@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/technology/kubernetes", "topic/technology/networking"]
+tags: ["SoftwareEngineering/Kubernetes", "SoftwareEngineering/Networking"]
 title: Network Policies
 type: "null"
 uid: 

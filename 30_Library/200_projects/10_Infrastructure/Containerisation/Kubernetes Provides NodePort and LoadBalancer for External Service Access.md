@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["external-access", "loadbalancer", "nodeport", "service", "topic/technology/containers", "topic/technology/kubernetes"]
+tags: ["external-access", "loadbalancer", "nodeport", "service", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes"]
 title: Kubernetes Provides NodePort and LoadBalancer for External Service Access
 type: "Fact"
 uid: 

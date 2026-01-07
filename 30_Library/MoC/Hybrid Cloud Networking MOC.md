@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: [topic/technology/networking]
+tags: ["SoftwareEngineering/Networking"]
 title: Hybrid Cloud Networking MOC
 type: map
 uid:

@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Automated Cloud Resource Hibernation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT -\\\\\\\", \\\\\\\"[[SoT - Automated Cloud Resource Hibernation]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "devops", "patterns", "scm", "software_engineering"]
+tags: ["SoftwareEngineering/Architecture", "devops", "patterns", "scm", "software_engineering"]
 title: SoT - Software Configuration Management Patterns
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["logging", "secrets-management", "security", "state-management"]
+tags: ["logging", "secrets-management", "SoftwareEngineering/Security", "state-management"]
 title: Securing State and Logs in Terraform Cloud
 type: ""
 uid: 

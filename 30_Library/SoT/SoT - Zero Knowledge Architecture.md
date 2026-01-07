@@ -12,7 +12,7 @@ see_also:
   - "[[SoT - Data-Centric Software Engineering]]"
 source_of_truth: []
 status: "Active"
-tags: ["cryptography", "zkp", "rust", "architecture", "data"]
+tags: ["cryptography", "zkp", "rust", "SoftwareEngineering/Architecture", "data"]
 title: SoT - Zero Knowledge Architecture
 type: "SoT"
 uid: 

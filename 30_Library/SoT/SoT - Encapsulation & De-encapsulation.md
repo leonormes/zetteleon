@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Protocol Data Units (PDU)]]", "[[SoT - The Data-Centric Theory of Networking]]"]
 source_of_truth: []
 status: "stable"
-tags: ["encapsulation", "topic/technology/networking", "osi", "protocol", "topic/technology"]
+tags: ["encapsulation", "SoftwareEngineering/Networking", "osi", "protocol", "topic/technology"]
 title: SoT - Encapsulation & De-encapsulation
 type: "SoT"
 uid: 

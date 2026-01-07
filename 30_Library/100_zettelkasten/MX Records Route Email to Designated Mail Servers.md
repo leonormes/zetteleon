@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["DNS is a distributed database.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["topic/technology/networking/dns", "email", "topic/technology/networking"]
+tags: ["SoftwareEngineering/networking/dns", "email", "SoftwareEngineering/Networking"]
 title: MX Records Route Email to Designated Mail Servers
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: ["[[SoT - Process Execution (Kernel Logic)]]"]
 source_of_truth: ["[[CPU IO Management and Communication]]"]
 status: "stable"
-tags: ["hardware", "cpu", "computer-science", "architecture"]
+tags: ["hardware", "cpu", "computer-science", "SoftwareEngineering/Architecture"]
 title: SoT - The Functional Anatomy of a Computer
 type: "SoT"
 uid: 

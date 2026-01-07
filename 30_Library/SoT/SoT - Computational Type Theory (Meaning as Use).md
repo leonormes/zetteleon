@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Cubical Type Theory (Computational Univalence)]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "computational_logic", "semantics", "type_theory"]
+tags: ["SoftwareEngineering/Architecture", "computational_logic", "semantics", "type_theory"]
 title: SoT - Computational Type Theory (Meaning as Use)
 type: "SoT"
 uid: 

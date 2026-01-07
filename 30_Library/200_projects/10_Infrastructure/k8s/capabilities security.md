@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/containers", "security"]
+tags: ["SoftwareEngineering/Containers", "SoftwareEngineering/Security"]
 title: Capabilities Security
 type: ""
 uid: 

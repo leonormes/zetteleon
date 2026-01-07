@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["security"]
+tags: ["SoftwareEngineering/Security"]
 title: Questions to Challenge Assumptions about security
 type: "question"
 uid: 

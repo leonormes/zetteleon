@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["topic/technology/networking/hardware"]
+tags: ["SoftwareEngineering/networking/hardware"]
 title: Concept - NIC Direct Memory Access
 type: "concept"
 uid: 

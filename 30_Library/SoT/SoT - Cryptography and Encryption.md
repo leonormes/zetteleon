@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[Public and Private Keys Are Mathematically Asymmetric]]"]
 source_of_truth: []
 status: "stable"
-tags: ["cryptography", "security", "SoT"]
+tags: ["cryptography", "SoftwareEngineering/Security", "SoT"]
 title: SoT - Cryptography and Encryption
 type: "SoT"
 uid: 

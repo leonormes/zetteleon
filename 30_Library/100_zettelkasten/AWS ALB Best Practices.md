@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["aws", "cost-optimization", "load-balancing", "security", "topic/technology/networking/cloud-networking"]
+tags: ["aws", "cost-optimization", "load-balancing", "SoftwareEngineering/Security", "SoftwareEngineering/networking/cloud-networking"]
 title: AWS ALB Best Practices
 type: "null"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["ff_deploy", "relay", "topic/technology/networking"]
+tags: ["ff_deploy", "relay", "SoftwareEngineering/Networking"]
 title: Exposing a Private EKS Service (relay) to Other Clusters
 type: ""
 uid: 

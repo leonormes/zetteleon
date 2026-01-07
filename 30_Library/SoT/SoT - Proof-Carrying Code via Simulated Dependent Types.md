@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: []
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "formal_verification", "rust", "software_design", "type_theory"]
+tags: ["SoftwareEngineering/Architecture", "formal_verification", "rust", "software_design", "type_theory"]
 title: SoT - Proof-Carrying Code via Simulated Dependent Types
 type: "SoT"
 uid: 

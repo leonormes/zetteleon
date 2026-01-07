@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Container Isolation (The Namespace Security Model)]]", "[[SoT - Namespacing in Computing]]"]
 source_of_truth: []
 status: "stable"
-tags: ["kernel", "topic/linux", "namespace", "procfs", "sysfs"]
+tags: ["kernel", "SoftwareEngineering/Linux", "namespace", "procfs", "sysfs"]
 title: SoT - Namespace-Aware Pseudo-Filesystems
 type: "SoT"
 uid: 

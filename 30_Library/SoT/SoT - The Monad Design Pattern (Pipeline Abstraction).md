@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Functional Effects (Effects as Data)]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "design_patterns", "functional_programming", "monads"]
+tags: ["SoftwareEngineering/Architecture", "design_patterns", "functional_programming", "monads"]
 title: SoT - The Monad Design Pattern (Pipeline Abstraction)
 type: "SoT"
 uid: 

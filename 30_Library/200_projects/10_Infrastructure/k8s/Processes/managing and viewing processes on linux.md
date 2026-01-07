@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/containers", "Processes"]
+tags: ["SoftwareEngineering/Containers", "Processes"]
 title: managing and viewing processes on linux
 type: "documentation"
 uid: 

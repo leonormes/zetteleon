@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["calico", "k8s", "topic/technology/networking", "vxlan"]
+tags: ["calico", "k8s", "SoftwareEngineering/Networking", "vxlan"]
 title: Virtual Extensible LAN
 type: ""
 uid: 

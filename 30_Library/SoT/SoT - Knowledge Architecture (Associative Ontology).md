@@ -10,7 +10,7 @@ purpose: "To provide a non-linear map of knowledge, shifting from a hierarchical
 review_interval: "6 months"
 see_also: ["[[Meta MOC - The Core Domains]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - Systems Thinking]]"]
 status: stable
-tags: ["ontology", "structure", "meta", "systems_thinking", "architecture"]
+tags: ["ontology", "structure", "meta", "systems_thinking", "SoftwareEngineering/Architecture"]
 title: SoT - Knowledge Architecture (Associative Ontology)
 type: SoT
 uid: 

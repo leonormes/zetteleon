@@ -18,7 +18,7 @@ status: stable
 tags:
   - authentication
   - type/moc
-  - security
+  - "SoftwareEngineering/Security"
   - map
 title: MOC - Cloud-Native Authentication
 type: map

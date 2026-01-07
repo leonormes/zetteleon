@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Data-Centric Networking Focuses on Packet Journey Through Devices.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["cloud", "security", "topic/technology/networking"]
+tags: ["cloud", "SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
 title: Cloud Firewalls Filter Traffic at Network and Transport Layers
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/containers", "topic/linux"]
+tags: ["SoftwareEngineering/Containers", "SoftwareEngineering/Linux"]
 title: Practical File permissions
 type: ""
 uid: 

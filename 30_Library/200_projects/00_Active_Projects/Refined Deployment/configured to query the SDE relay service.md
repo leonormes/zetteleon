@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["bunny-relay", "hie-prod-34", "project/work/cuh", "topic/technology/networking"]
+tags: ["bunny-relay", "hie-prod-34", "project/work/cuh", "SoftwareEngineering/Networking"]
 title: Configured to Query the SDE Relay Service
 type: ""
 uid: 

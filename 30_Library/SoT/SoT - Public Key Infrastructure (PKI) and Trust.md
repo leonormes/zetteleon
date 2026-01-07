@@ -10,7 +10,7 @@ review_interval: "12 months"
 see_also: ["[[SoT - The Data Architecture of TLS 1.3]]", "[[SoT - The Infrastructure Witness Pattern]]", "[[SoT - Cryptography and Encryption]]", "[[SoT - Modern Authentication Standards]]"]
 source_of_truth: []
 status: "stable"
-tags: ["security", "pki", "cryptography", "architecture", "trust"]
+tags: ["SoftwareEngineering/Security", "pki", "cryptography", "SoftwareEngineering/Architecture", "trust"]
 title: SoT - Public Key Infrastructure (PKI) and Trust
 type: "SoT"
 uid: 

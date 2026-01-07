@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["security", "topic/technology/networking/dns"]
+tags: ["SoftwareEngineering/Security", "SoftwareEngineering/networking/dns"]
 title: Private vs Public DNS Resolution Patterns
 type: "null"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["osi", "topic/technology/networking"]
+tags: ["osi", "SoftwareEngineering/Networking"]
 title: osi_layers
 type: "permanent"
 uid: 

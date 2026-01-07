@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Bash Scripting]]", "[[SoT - Process Execution (Kernel Logic)]]"]
 source_of_truth: ["[[Terminal Event-Driven Workflows Explained]]"]
 status: "stable"
-tags: ["automation", "shell", "ipc", "topic/linux"]
+tags: ["automation", "shell", "ipc", "SoftwareEngineering/Linux"]
 title: SoT - Shell Automation and IPC
 type: "SoT"
 uid: 

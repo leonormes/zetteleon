@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["aws", "FFAPP-3588", "gateway", "lattice", "topic/technology/networking"]
+tags: ["aws", "FFAPP-3588", "gateway", "lattice", "SoftwareEngineering/Networking"]
 title: VPC Lattice Service Network
 type: ""
 uid: 

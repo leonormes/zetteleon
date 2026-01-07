@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["topic/technology/networking"]
+tags: ["SoftwareEngineering/Networking"]
 title: MOC - The Life of a Packet in the Linux Kernel
 type: "map"
 uid: 

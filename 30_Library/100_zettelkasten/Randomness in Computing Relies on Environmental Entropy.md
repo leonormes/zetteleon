@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[Primes Become Rarer But Remain Searchable]]"]
 source_of_truth: ["[[SoT - Cryptography and Encryption]]"]
 status: "stable"
-tags: ["computing", "security"]
+tags: ["computing", "SoftwareEngineering/Security"]
 title: Randomness in Computing Relies on Environmental Entropy
 type: "concept"
 uid: 

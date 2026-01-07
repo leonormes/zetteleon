@@ -12,7 +12,7 @@ see_also:
   - "[[SoT - OMOP Common Data Model (CDM)]]"
 source_of_truth: []
 status: "Active"
-tags: ["ohdsi", "software", "atlas", "architecture"]
+tags: ["ohdsi", "software", "atlas", "SoftwareEngineering/Architecture"]
 title: SoT - OHDSI Toolstack & Atlas
 type: "SoT"
 uid: 

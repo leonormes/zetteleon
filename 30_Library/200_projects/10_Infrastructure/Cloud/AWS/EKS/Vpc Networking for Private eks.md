@@ -25,7 +25,7 @@ see_also: []
 source_of_truth: []
 status: "null"
 step: "1"
-tags: ["aws", "ff_deploy", "topic/technology/networking", "vpc"]
+tags: ["aws", "ff_deploy", "SoftwareEngineering/Networking", "vpc"]
 title: Vpc Networking for Private eks
 type: "null"
 uid: 

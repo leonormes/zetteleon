@@ -12,7 +12,7 @@ see_also: []
 source: "https://medium.com/@alex067/create-an-aws-api-gateway-to-your-eks-cluster-with-terraform-46cdc91d9cea"
 source_of_truth: []
 status: ""
-tags: ["gateway", "ingress", "topic/technology/networking"]
+tags: ["gateway", "ingress", "SoftwareEngineering/Networking"]
 title: Create an AWS API Gateway to your EKS Cluster (with Terraform)
 type: "download"
 uid: 

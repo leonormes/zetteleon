@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["topic/technology/networking/routing"]
+tags: ["SoftwareEngineering/networking/routing"]
 title: Concept - Linux Kernel Routing Decision
 type: "concept"
 uid: 

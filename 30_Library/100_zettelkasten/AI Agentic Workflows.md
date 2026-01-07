@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["Architecture", "topic/technology/AI", "topic/technology/AI/agents", "Workflow"]
+tags: ["Architecture", "SoftwareEngineering/AI", "SoftwareEngineering/AI/agents", "Workflow"]
 title: AI Agentic Workflows
 type: "null"
 uid: 

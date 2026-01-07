@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Container Security & Hardening]]", "[[SoT - Namespacing in Computing]]", "[[SoT - Kubernetes Cluster State Architecture]]"]
 source_of_truth: []
 status: "stable"
-tags: ["topic/technology/containers", "docker", "k8s", "kernel", "topic/linux", "systems_engineering"]
+tags: ["SoftwareEngineering/Containers", "docker", "k8s", "kernel", "SoftwareEngineering/Linux", "systems_engineering"]
 title: SoT - Linux Container Internals
 type: "SoT"
 uid: 

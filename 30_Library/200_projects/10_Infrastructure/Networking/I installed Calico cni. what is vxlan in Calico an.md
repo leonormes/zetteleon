@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/networking"]
+tags: ["SoftwareEngineering/Networking"]
 title: I installed Calico cni. what is vxlan in Calico an
 type: ""
 uid: 

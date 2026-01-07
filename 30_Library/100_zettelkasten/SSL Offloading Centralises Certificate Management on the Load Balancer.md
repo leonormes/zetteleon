@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["load-balancing", "security", "ssl", "tls", "topic/technology/networking"]
+tags: ["load-balancing", "SoftwareEngineering/Security", "ssl", "tls", "SoftwareEngineering/Networking"]
 title: SSL Offloading Centralises Certificate Management on the Load Balancer
 type: "concept"
 uid: 

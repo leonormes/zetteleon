@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - FitFile Deployment - Networking & DNS]]"]
 source_of_truth: []
 status: "stable"
-tags: ["architecture", "azure", "deployment", "fitfile", "gitops", "kubernetes"]
+tags: ["SoftwareEngineering/Architecture", "azure", "deployment", "fitfile", "gitops", "kubernetes"]
 title: SoT - FitFile Deployment - Strategy & Architecture
 type: "SoT"
 uid: 

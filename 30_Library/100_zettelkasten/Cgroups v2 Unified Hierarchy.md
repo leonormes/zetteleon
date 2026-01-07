@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[Cgroups Limit and Manage Container Resources]]"]
 source_of_truth: ["[[SoT - Linux Container Primitives]]"]
 status: "stable"
-tags: ["kernel", "topic/linux", "modern-cgroups"]
+tags: ["kernel", "SoftwareEngineering/Linux", "modern-cgroups"]
 title: Cgroups v2 Unified Hierarchy
 type: "concept"
 uid: 

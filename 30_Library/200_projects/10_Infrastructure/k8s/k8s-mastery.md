@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/technology/containers"]
+tags: ["SoftwareEngineering/Containers"]
 title: k8s-mastery
 type: ""
 uid: 

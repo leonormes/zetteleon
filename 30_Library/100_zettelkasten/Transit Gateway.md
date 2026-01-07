@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["aws", "azure", "topic/technology/networking"]
+tags: ["aws", "azure", "SoftwareEngineering/Networking"]
 title: Transit Gateway
 type: "concept"
 uid: 

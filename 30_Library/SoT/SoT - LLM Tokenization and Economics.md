@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[MOC - LLM-Augmented Thinking]]", "[[SoT - ProdOS Cognitive Architecture (Obsidian + Gemini)]]"]
 source_of_truth: ["[[LLM Tokens The Core Concept]]"]
 status: "stable"
-tags: ["ai", "llm", "architecture", "economics", "tokenization"]
+tags: ["ai", "llm", "SoftwareEngineering/Architecture", "economics", "tokenization"]
 title: SoT - LLM Tokenization and Economics
 type: "SoT"
 uid: 

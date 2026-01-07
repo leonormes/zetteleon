@@ -13,7 +13,7 @@ scope: "A procedural guide for setting up a Kemp LoadMaster in a home lab for se
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["homelab", "kemp", "topic/technology/networking", "tutorial"]
+tags: ["homelab", "kemp", "SoftwareEngineering/Networking", "tutorial"]
 title: MOC - Setting up a Kemp Load Balancer in a Home Network
 type: "map"
 uid: 

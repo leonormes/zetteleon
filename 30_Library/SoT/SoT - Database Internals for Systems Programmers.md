@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Data-Oriented Programming (DOP)]]", "[[SoT - Data-Centric Software Engineering]]"]
 source_of_truth: []
 status: "stable"
-tags: ["database", "internals", "performance", "architecture", "learning"]
+tags: ["database", "internals", "performance", "SoftwareEngineering/Architecture", "learning"]
 title: SoT - Database Internals for Systems Programmers
 type: "SoT"
 uid: 

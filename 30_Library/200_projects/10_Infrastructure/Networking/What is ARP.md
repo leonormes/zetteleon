@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["arp", "layer2", "protocol", "topic/technology/networking"]
+tags: ["arp", "layer2", "protocol", "SoftwareEngineering/Networking"]
 title: What is ARP
 type: "Factual"
 uid: 
