@@ -1,8 +1,26 @@
+---
+aliases: []
+tags: []
+title: The secret to human intelligence? It might be in our gut
+type: ""
+status: ""
+confidence: ""
+epistemic: ""
+purpose: ""
+created: 2026-01-07T08:39:51+00:00
+modified: 2026-01-07T10:39:19+00:00
+last_reviewed: ""
+review_interval: ""
+see_also: []
+source_of_truth: []
+---
+
 # The secret to human intelligence? It might be in our gut
 
 ![rw-book-cover](https://www.sciencedaily.com/images/1920/brain-gut-connection.webp)
 
 ## Metadata
+
 - Author: [[Science Daily]]
 - Full Title: The secret to human intelligence? It might be in our gut
 - Category: #articles
@@ -10,7 +28,9 @@
 - URL: https://www.sciencedaily.com/releases/2026/01/260105165806.htm
 
 ## Full Document
+
 ![Gut Microbes Shape Brain Function](https://www.sciencedaily.com/images/1920/brain-gut-connection.webp)Gut microbes can rewire the brain in powerful ways, according to a new study that swapped primate bacteria into mice. The mice’s brains began to function like those of the primates the microbes came from, hinting that microbes may have helped fuel the evolution of large, energy-hungry brains. Credit: Shutterstock
+
 A new study shows that changes in the gut microbiome can directly influence how the brain works, revealing a powerful connection between microbes and brain activity.
 
 Humans have the largest brain size relative to body size of any primate, yet scientists still know surprisingly little about how mammals with large brains evolved to meet the enormous energy demands needed to grow and maintain them.
