@@ -33,7 +33,42 @@ updated:
 
 ## 2. Layer-Specific Terminology
 
-...
+## 2. Layer-by-Layer Encapsulation Logic
+
+### Layer 4: The TCP Segment (Reliability)
+**Function:** Takes the continuous stream of application data and divides it into manageable chunks. It adds a header to ensure reliable, ordered delivery.
+
+| Header Field | Size (bits) | Purpose |
+|:--- |:--- |:--- |
+| **Source/Dest Port** | 16 | **Multiplexing.** Identifies the specific sending and receiving applications (e.g., Web Server on 80). |
+| **Sequence Number** | 32 | **Ordering.** Assigns a unique ID to every byte to allow reassembly of out-of-order packets. |
+| **Ack Number** | 32 | **Reliability.** Confirms receipt of data, implicitly requesting the next chunk. |
+| **Window Size** | 16 | **Flow Control.** Tells the sender how much buffer space the receiver has left to prevent overflow. |
+| **Checksum** | 16 | **Integrity.** Detecting errors in the header and payload. |
+| **Flags** | 9 | **Control.** SYN (Start), ACK (Confirm), FIN (End), RST (Reset/Error). |
+
+### Layer 3: The IP Packet (Routing)
+**Function:** Encapsulates the TCP Segment to handle global addressing and routing across different networks.
+
+| Header Field | Size (bits) | Purpose |
+|:--- |:--- |:--- |
+| **Source/Dest IP** | 32 | **Global Addressing.** The logical address used by routers to forward the packet to the final destination. |
+| **TTL** | 8 | **Loop Prevention.** Time To Live. Decremented by each router; packet dropped if 0. |
+| **Protocol** | 8 | **Demultiplexing.** Tells the receiver which L4 protocol is inside (6=TCP, 17=UDP). |
+| **Fragment Offset** | 13 | **Reassembly.** Used if the packet was split (fragmented) to fit a smaller network link. |
+
+### Layer 2: The Ethernet Frame (Local Delivery)
+**Function:** Encapsulates the IP Packet for transmission over a physical medium (wire/air) within a local network (LAN). It adds a header and a trailer.
+
+| Field | Size (bytes) | Purpose |
+|:--- |:--- |:--- |
+| **Preamble/SFD** | 8 | **Synchronization.** Alternating 1s and 0s to wake up the receiver and sync clocks. |
+| **Source/Dest MAC** | 6 | **Physical Addressing.** The hardware address of the NIC. Used by switches to forward frames locally. |
+| **EtherType** | 2 | **Demultiplexing.** Identifies the L3 protocol inside (0x0800 = IPv4). |
+| **FCS / CRC** | 4 | **Error Detection.** A cyclical redundancy check at the *end* (trailer) to verify the frame arrived intact. |
+
+### Layer 1: The Physical Bit Stream
+**Function:** Encodes the Frame into physical signals (Voltage, Light, Radio Waves) for transmission. No headers are added here; the PDU is the raw **Bit**.
 ---
 
 ## 3. Historical Context: OSI vs. TCP/IP

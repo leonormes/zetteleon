@@ -75,8 +75,42 @@ If a CA's private key is stolen, the attacker creates a **Golden Key** scenario.
 
 ---
 
-## 5. Minimum Viable Understanding (MVU)
+## 6. Automation & Issuance (ACME)
 
-1. **Trust is Local:** You don't trust the internet; you trust the list of Root CAs shipped with your OS.
-2. **Private Key = Identity:** If you lose the private key, you are no longer you. If someone else gets it, they *are* you.
-3. **Certs are Witnesses:** A certificate is a portable proof of identity. It turns "I claim to be Google" into "Verisign swears I am Google."
+The **Automated Certificate Management Environment (ACME)** protocol (used by Let's Encrypt) automates the "Proof of Ownership" required to get a certificate.
+
+### The Challenge Mechanism
+To get a cert for `example.com`, the CA challenges the requester to prove control over the domain.
+
+*   **HTTP-01 Challenge:**
+    *   **Mechanism:** CA says "Put this token at `http://example.com/.well-known/acme-challenge/token`".
+    *   **Validation:** CA makes an HTTP request to that URL.
+    *   **Constraint:** Requires port 80 to be open and public DNS to point to the server.
+*   **DNS-01 Challenge:**
+    *   **Mechanism:** CA says "Put this token in a TXT record at `_acme-challenge.example.com`".
+    *   **Validation:** CA queries DNS.
+    *   **Benefit:** Supports **Wildcards** (`*.example.com`) and private servers (no incoming HTTP needed).
+
+## 7. Private CAs & Internal Trust
+
+For internal services (e.g., `privatelink` URLs), you cannot use public CAs. You act as your own CA.
+
+### The Private Architecture
+1.  **Issuance:** An internal CA (e.g., AWS Private CA, Vault) signs the certs.
+2.  **The Trust Gap:** Standard browsers/OSs do *not* trust your internal Root CA by default. They will show "Security Warning."
+3.  **The Fix (Distribution):** You must distribute your Root CA public certificate to every client's Trust Store.
+    *   *Linux:* `/etc/ssl/certs/`
+    *   *Kubernetes:* Use **trust-manager** to mount the CA bundle into pods.
+
+## 8. Alternative Architectures: DANE
+
+**DNS-based Authentication of Named Entities (DANE)** uses DNSSEC to bind a cert to a domain directly in DNS (using `TLSA` records), potentially bypassing the need for CAs entirely. However, client support (browsers) remains low.
+
+---
+
+## 9. Minimum Viable Understanding (MVU)
+
+1.  **Trust is Local:** You don't trust the internet; you trust the list of Root CAs shipped with your OS.
+2.  **Private Key = Identity:** If you lose the private key, you are no longer you. If someone else gets it, they *are* you.
+3.  **Certs are Witnesses:** A certificate is a portable proof of identity. It turns "I claim to be Google" into "Verisign swears I am Google."
+4.  **ACME proves Control:** You only get a cert if you can prove you own the DNS or the Server.

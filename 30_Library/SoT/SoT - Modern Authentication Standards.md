@@ -25,30 +25,47 @@ Modern authentication moves away from **Static Credentials** (long-lived passwor
 
 ## 2. Core Protocols
 
-### A. OAuth 2.1 / OIDC (Identity Layer)
+### A. OAuth 2.0 & 2.1 (Authorization Framework)
 
-- **Role:** The standard for User and Workload identity.
-- **Mechanism:** Delegated authorization. An Identity Provider (IdP) issues tokens to a Client.
-- **Key Flows:**
-    - **Authorization Code Flow (+PKCE):** Standard for users/browsers.
-    - **Client Credentials Flow:** Standard for machine-to-machine (M2M) auth where no user is present (Service-to-Service).
-    - **OIDC Workload Identity:** Federation that allows cloud workloads (e.g., GitHub Actions, K8s Pods) to trade their native tokens for cloud provider access tokens (AWS/Azure) without stored secrets.
+-   **Role:** The industry standard for **Delegated Authorization** (accessing resources on behalf of a user).
+-   **Evolution:**
+    -   *OAuth 1.0a (Legacy):* Relied on complex cryptographic signing of every request. Deprecated for most use cases.
+    -   *OAuth 2.0 (Standard):* Relies on **TLS (HTTPS)** for transport security. Uses **Bearer Tokens** (if you hold the token, you have access). Simpler but requires strict transport security.
+-   **Key Flows:**
+    -   **Authorization Code Flow (+PKCE):** The gold standard for users. Browser redirects to IdP, returns a code, code is exchanged for a token. PKCE prevents code injection attacks.
+    -   **Client Credentials Flow:** Machine-to-Machine (M2M). Service uses `AppID` + `Secret` to get a token. No user context.
 
-### B. JWT (JSON Web Token)
+### B. OpenID Connect (OIDC) - The Identity Layer
 
-- **Role:** The container for identity claims.
-- **Structure:** `Header.Payload.Signature`.
-- **Trust:** The recipient validates the **Signature** using the issuer's public keys (JWKS endpoint).
-- **Algorithms:**
-    - **RS256:** RSA Signature with SHA-256 (Legacy/Standard).
-    - **ES256:** ECDSA with P-256 and SHA-256 (Modern/Efficient).
+-   **Role:** Adds **Authentication** (Who are you?) on top of OAuth 2.0 (What can you do?).
+-   **The ID Token:** A JWT containing user profile data (`sub`, `email`, `name`). Signed by the IdP.
+-   **UserInfo Endpoint:** An API endpoint to fetch more user details using the Access Token.
+-   **Significance:** Standardizes how Identity is shared between Google, Microsoft, and your app.
 
-### C. Mutual TLS (mTLS)
+### C. Mutual TLS (mTLS) - Zero Trust Identity
 
-- **Role:** Service-to-Service authentication (Zero Trust).
-- **Mechanism:** Two-way verification. The Client verifies the Server's certificate, AND the Server verifies the Client's certificate.
-- **Stack:** X.509 Certificates + TLS 1.3.
-- **Use Case:** Service Meshes (Istio, Linkerd) where sidecars handle identity transparently.
+-   **Role:** Service-to-Service authentication where **Every Request** is verified.
+-   **Mechanism:** Two-way verification. The Client verifies the Server's certificate, AND the Server verifies the Client's certificate.
+-   **Zero Trust Principle:** "Never Trust, Always Verify." mTLS binds identity to the workload (certificate), not the network location (IP address).
+-   **Stack:** X.509 Certificates + TLS 1.3.
+
+---
+
+## 6. FIDO & Passwordless Standards
+
+Moving beyond "shared secrets" (passwords) to public key cryptography.
+
+### A. FIDO2 / WebAuthn
+The standard for passwordless authentication on the web.
+*   **Mechanism:** The user unlocks a private key stored on their device using a local gesture (PIN, Fingerprint). The device signs a challenge from the server.
+*   **Security:** Phishing-resistant. The private key never leaves the device.
+
+### B. UAF vs U2F (Legacy FIDO)
+*   **UAF (Universal Authentication Framework):** Passwordless experience (Biometrics).
+*   **U2F (Universal 2nd Factor):** The "Dongle" experience (YubiKey). Requires a password first, then the key.
+
+### C. Passkeys
+*   **Evolution:** Syncable FIDO credentials. Allows the private key to exist across a user's ecosystem (e.g., iCloud Keychain), solving the "lost device" recovery problem.
 
 ---
 

@@ -138,3 +138,7 @@ The timeline bifurcates at specific "Nexus Points" where external interference r
 | **Klingon Empire** | Feudal Monarchy | Honour & Conquest |
 | **Romulan Empire** | Totalitarian Meritocracy | Secrecy & Security |
 | **The Borg** | Hive Mind | Perfection through Assimilation |
+## 6. Next Actions
+
+- **Refactor SoT:** Consolidate disparate notes into definitive "Source of Truth" files.
+- **Prototype Transpiler:** Begin proof-of-concept for the SQL-to-CTE transpiler described in the "Read-Only" architectural notes.

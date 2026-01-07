@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-29T23:32:47+00:00
 epistemic: "curriculum"
 last_reviewed: "2025-12-29"
-modified: 2025-12-31T17:11:13+00:00
+modified: 2026-01-06T19:39:40+00:00
 purpose: "A purely practical, code-first curriculum to master Type Theory by refactoring code and proving correctness in Rust."
 review_interval: "3 months"
 see_also: ["[[MOC - Type Theory]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
@@ -32,7 +32,7 @@ You stated you struggle to **implement** and **explain**. This curriculum solves
 ## 2. Level 1: The Shape of Data (Algebraic Data Types)
 
 **Theory:** Types are not just labels; they are Sets. We count them to measure complexity.
-* **Reading:**  [[SoT - The Algebra of Types (Cardinality and Isomorphism)]]
+- **Reading:**  [[SoT - The Algebra of Types (Cardinality and Isomorphism)]]
 
 ### 🛠️ Practical Challenge 1: The Boolean Blindness Exorcism
 
@@ -64,7 +64,7 @@ struct Request {
 ## 3. Level 2: Logic as Code (Propositions as Types)
 
 **Theory:** Writing a function is writing a proof. If `fn(A) -> B` compiles, you have proved that "If I have A, I can produce B."
-* **Reading:** [[SoT - The Curry-Howard Correspondence (Propositions as Types)]]
+- **Reading:** [[SoT - The Curry-Howard Correspondence (Propositions as Types)]]
 
 ### 🛠️ Practical Challenge 2: The "Parse, Don't Validate" Pattern
 
@@ -95,7 +95,7 @@ fn send_email(to: String, body: String) {
 ## 4. Level 3: Time & Transition (Affine Types & State Machines)
 
 **Theory:** Data has a lifecycle. It flows from one state to another. We use **Move Semantics** (Affine Types) to consume the old state so it can never be used again.
-* **Reading:** [[SoT - Type-Driven Development (The Torvalds Loop)]]
+- **Reading:** [[SoT - Type-Driven Development (The Torvalds Loop)]]
 
 ### 🛠️ Practical Challenge 3: The Payment State Machine
 
@@ -125,7 +125,7 @@ let settled = authorized.settle();
 ## 5. Level 4: Systems Thinking (Equality & Identity)
 
 **Theory:** Identity is tricky. Are two files equal if they have the same content? (Intensional vs. Extensional).
-* **Reading:** [[SoT - The Structure of Identity (UIP and Groupoids)]]
+- **Reading:** [[SoT - The Structure of Identity (UIP and Groupoids)]]
 
 ### 🛠️ Practical Challenge 4: Content-Addressable Storage (Git-Lite)
 

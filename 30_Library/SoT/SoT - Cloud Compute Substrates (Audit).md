@@ -163,6 +163,8 @@ Synthesizing data from Intel Memory Latency Checker (MLC) benchmarks provides a 
 
 ## **5. Kubernetes & OS Configuration Efficacy**
 
+> **Refactored:** See [[SoT - High-Performance Kubernetes Node Tuning]] for the definitive configuration guide.
+
 The hardware reality described above is rendered moot if the software stack ignores it. Optimizing Kubernetes for this infrastructure requires precise configuration to map logical pods to physical topology.
 
 ### **5.1. Topology Manager Policies**

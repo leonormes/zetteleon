@@ -1,6 +1,7 @@
 ---
 aliases: []
-tags: []
+tags:
+  - prodos
 title: PRODOS Core Specification (v2.0)
 type: ""
 status: ""

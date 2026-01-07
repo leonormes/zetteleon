@@ -67,14 +67,42 @@ A unique architectural feature is the **Zero-Sized Type**.
 
 ---
 
-## 5. Related Components
+## 5. Memory Layout & Padding
+
+Rust structs are not always tightly packed. They must satisfy **alignment requirements** (e.g., a `u64` must start at a memory address divisible by 8).
+
+### 5.1 The Padding Problem
+The compiler inserts invisible padding bytes to ensure alignment, which wastes cache space.
+
+```rust
+struct Bad {
+    a: u8,   // 1 byte
+    // 7 bytes padding
+    b: u64,  // 8 bytes
+} // Total: 16 bytes (50% waste)
+```
+
+### 5.2 The Solution: Field Reordering
+Order fields from **Largest to Smallest** to minimize padding.
+
+```rust
+struct Good {
+    b: u64,  // 8 bytes
+    a: u8,   // 1 byte
+    // 7 bytes padding at end (only if needed for array alignment)
+}
+```
+
+---
+
+## 6. Related Components
 
 - For design patterns using these mechanics (Parse don't Validate, Typestates), see [[SoT - Type-Driven Development (The Torvalds Loop)]].
 - For memory rules, see [[SoT - Rust's Ownership Model]].
 
 ---
 
-## 6. Applied Patterns (Will Crichton)
+## 7. Applied Patterns (Will Crichton)
 
 How to use these mechanics to build "Misuse-Resistant" APIs.
 

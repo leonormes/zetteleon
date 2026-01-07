@@ -1,69 +1,80 @@
 ---
-aliases: ["K8s Node Tuning", "Golden Config", "Topology Manager", "Hugepages"]
-confidence: "5/5"
-created: 2025-12-31T00:00:00Z
-epistemic: "pattern"
-last_reviewed: "2025-12-31"
-modified: 2026-01-03T10:18:54+00:00
-purpose: "To define the 'Golden Config' for high-performance Kubernetes data planes on modern cloud hardware."
-review_interval: "6 months"
-see_also: ["[[MOC - Cloud Hardware Architecture]]"]
+aliases: ["K8s Node Tuning", "The Golden Config", "Topology Manager Policy", "CPU Pinning K8s"]
+confidence: "High"
+created: 2026-01-06
+epistemic: "Guide"
+last_reviewed: 
+modified: 
+purpose: "To define the specific OS and Kubernetes configurations required to align the software data plane with the underlying hardware topology for maximum performance."
+review_interval: "1 year"
+see_also: 
+  - "[[SoT - Cloud Compute Substrates (Audit)]]"
+  - "[[MOC - Cloud Hardware Architecture]]"
 source_of_truth: []
-status: "stable"
-tags: ["kubernetes", "performance", "configuration", "tuning"]
+status: "Active"
+tags: ["kubernetes", "performance", "tuning", "linux", "numa"]
 title: SoT - High-Performance Kubernetes Node Tuning
 type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. The "Golden Config"
+# SoT - High-Performance Kubernetes Node Tuning
 
-To align the software data plane with the physical reality of Cloud Silicon, the following Kubelet and OS configurations are mandatory.
+> **The Golden Config:** Bridging the gap between virtual abstraction and silicon reality. The default "Best Effort" policies of Kubernetes are insufficient for high-throughput data planes on tiled CPUs (Sapphire/Emerald Rapids).
 
-### 1.1 Topology Manager
+## 1. The Core Strategy: Alignment
 
-**Policy:** `single-numa-node`
-* **Effect:** Restricts a Pod's resource allocation (CPU + Memory) to a single NUMA domain.
-* **Why:** Prevents the "Split Brain" scenario where a Pod straddles the UPI link, incurring the ~140ns remote memory penalty.
+We must align three layers:
+1.  **Physical:** The NUMA/Socket topology.
+2.  **Kernel:** The Linux scheduler and memory manager.
+3.  **Kubernetes:** The Kubelet's resource allocation.
 
-### 1.2 CPU Manager
+## 2. Kubernetes Configuration (Kubelet)
 
-**Policy:** `static`
-* **Effect:** Grants exclusive physical cores to containers in the `Guaranteed` QoS class.
-* **Why:** Removes the container from the CFS Shared Pool, eliminating "Steal Time" and maximizing L1/L2 cache locality.
+### A. Topology Manager
+*   **Policy:** `single-numa-node`
+*   **Mechanism:** Restricts a pod's CPU and Memory allocation to a single NUMA domain.
+*   **Why:** Prevents cross-socket traffic (UPI traversal), which incurs a ~1.5x latency penalty. On tiled CPUs (Sapphire Rapids), this aligns the pod to a specific "quadrant" of the mesh.
 
-### 1.3 Huge Pages (Explicit)
+### B. CPU Manager
+*   **Policy:** `static`
+*   **Mechanism:** Grants **exclusive**, pinned physical cores to containers requesting integer CPU limits (Guaranteed QoS).
+*   **Why:** Eliminates "Steal Time" and cache thrashing caused by the Linux CFS scheduler migrating threads between cores.
 
-**Config:** `hugepages-1Gi` (Boot Parameter: `hugepagesz=1G hugepages=N`)
-**Disable:** `transparent_hugepage=never`
-* **Why:**
-    1. Reduces TLB misses (critical for large heaps).
-    2. Eliminates the non-deterministic jitter of the `khugepaged` background defragmenter.
-
-### 1.4 Interrupt Isolation
-
-**Config:** `isolcpus=<data_plane_cores>`
-* **Effect:** Instructs the Linux kernel to NEVER schedule general processes or IRQs on these cores.
-* **Usage:** The Data Plane application must manually bind itself to these cores using `taskset` or internal affinity APIs.
-
----
-
-## 2. Pod Specification Example
-
+### C. Pod Specification (Guaranteed QoS)
+To trigger the strict policies above, the Pod spec must meet specific criteria:
 ```yaml
-apiVersion: v1
-kind: Pod
-metadata:
-  name: high-perf-data-plane
-spec:
-  containers:
-  - name: dp-app
-    resources:
-      limits:
-        cpu: "8" # Must be integer for static policy
-        memory: "16Gi"
-        hugepages-1Gi: "16Gi" # Explicit hugepages
-    securityContext:
-      privileged: true # Often needed for specialized networking (SR-IOV/DPDK)
+resources:
+  limits:
+    cpu: "8"            # Must be an integer (not 8.5)
+    memory: "16Gi"
+    hugepages-1Gi: "16Gi"
+  requests:
+    cpu: "8"            # Must match limits exactly
+    memory: "16Gi"
 ```
+
+## 3. Kernel & OS Tuning (Boot Parameters)
+
+### A. Explicit Huge Pages
+*   **Parameter:** `default_hugepagesz=1G hugepagesz=1G hugepages=N`
+*   **Why:** Reduces TLB (Translation Lookaside Buffer) misses. 1GB pages are superior to 2MB pages for large heaps because they require 512x fewer TLB entries.
+*   **Critical:** Must be allocated at boot time to ensure physical contiguity.
+
+### B. Transparent Huge Pages (THP)
+*   **Parameter:** `transparent_hugepage=never`
+*   **Why:** The `khugepaged` background daemon introduces non-deterministic latency spikes ("jitter") as it defragments memory. For predictable latency, disable it and use explicit pages.
+
+### C. CPU Isolation (Advanced)
+*   **Parameter:** `isolcpus=<list>`
+*   **Why:** Removes specific cores from the general kernel scheduler balancing algorithms. Useful for extreme low-latency requirements, but requires manual thread placement (`taskset`) inside the application.
+
+## 4. Application-Layer Alignment (DOD)
+
+The software must be aware of its boundaries.
+
+1.  **Thread Affinity:** Bind worker threads to specific logical cores (Hyper-threads).
+    *   *Pattern:* Place cooperative threads (Worker + Helper) on sibling hyper-threads (L1/L2 sharing).
+    *   *Pattern:* Place contentious threads (Worker + Worker) on separate physical cores.
+2.  **Memory Awareness:** Use `libnuma` to ensure memory is allocated on the local node. (Usually handled automatically by the `single-numa-node` policy if the application doesn't explicitly override it).

@@ -32,14 +32,12 @@ This Map of Content (MOC) serves as an entry point for various concepts and tech
 - [[NAT Gateways Enable Private Resources to Access Internet|NAT Gateway]] - Private egress.
 - [[What is an AWS Application Load Balancer (ALB)|Load Balancers]] - Traffic distribution.
 - [[Transit Gateway]] - Regional hub.
-- [[Content Delivery Network (CDN)]] - Edge caching.
 
 ### Control & Inspection Path (Filtering)
 
 - [[Layer 3 Network Security Protects IP Routing and Forwarding|Firewalls]] - L3/L4 filtering.
 - [[Web Application Firewalls Protect Against Layer 7 Attacks|WAF]] - L7 application security.
 - [[DDoS Protection Service]] - Volumetric attack mitigation.
-- [[API Gateway]] - Request management and Auth.
 - [[DNS is a distributed database|DNS]] - Name resolution.
 
 ## AWS Networking

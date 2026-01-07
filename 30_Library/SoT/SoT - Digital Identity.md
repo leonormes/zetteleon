@@ -1,153 +1,81 @@
 ---
-aliases: ["Authentication", "Authorization", "Credentials", "Digital Identity", "Identity Attributes", "Identity Data"]
-confidence: "5/5"
-created: 2025-12-13T00:00:00Z
-epistemic: "technical"
-last_reviewed: "2025-12-13"
-modified: 2026-01-03T10:18:55+00:00
-purpose: "To define digital identity from a data-centric perspective, outlining"
-review_interval: "6 months"
-see_also: ["[[SoT - PRODOS (System Architecture)]]"]
+aliases: ["Identity Fundamentals", "Machine Identity", "Human Identity", "Digital Identity Properties"]
+confidence: "High"
+created: 2026-01-06
+epistemic: "Foundation"
+last_reviewed: 
+modified: 
+purpose: "To define the abstract properties of Digital Identity for both humans and machines, serving as the foundational model for all IAM and authentication architectures."
+review_interval: "1 year"
+see_also: 
+  - "[[SoT - Public Key Infrastructure (PKI) and Trust]]"
+  - "[[SoT - Modern Authentication Standards]]"
+  - "[[SoT - Zero Trust Architecture]]"
 source_of_truth: []
-status: "stable"
-tags: ["authentication", "authorization", "data", "IAM", "identity", "security"]
+status: "Active"
+tags: ["identity", "iam", "security", "architecture", "concepts"]
 title: SoT - Digital Identity
 type: "SoT"
 uid: 
 updated: 
 ---
 
-## 2. Core Components of a Digital Identity
+# SoT - Digital Identity
 
-A digital identity is best understood through its fundamental data components:
+> **Definition:** Digital Identity is "how we recognize, remember, and respond to specific people and things." It is the set of **Attributes**, **Identifiers**, and **Credentials** that allow an entity to exist and act within a digital system.
+
+## 1. The Trinity of Identity
+
+Every digital identity consists of three core components:
+
+1.  **Identifier (The Name):** A unique string referring to the entity (e.g., `user-123`, `api-service-alpha`, `leon.ormes@company.com`).
+2.  **Attributes (The Claims):** Facts *about* the entity (e.g., "Role: Admin", "Department: Engineering", "Region: EU-West").
+3.  **Credentials (The Proof):** Secrets used to prove ownership of the identity (e.g., Password, API Key, X.509 Certificate, Biometrics).
+
+---
+
+## 2. Human vs. Machine Identity
+
+While the structure is shared, the nature of the claims differs fundamentally.
+
+### A. Human Identity
+*   **Context:** Tied to legal and social existence. High complexity, "personas," and privacy concerns.
+*   **Core Claims:** PII (Name, Email), Biometrics, Legal Status.
+*   **Entitlements:** Qualifications, Organizational Role ("Manager"), Relationships.
+*   **Behavior:** Unpredictable, adaptive.
+*   **Lifecycle:** Long-lived (Joiner, Mover, Leaver).
+
+### B. Machine Identity (Non-Person Entity - NPE)
+*   **Context:** Workloads, devices, containers, and services.
+*   **Core Claims:** IP Address, MAC Address, Service Name, Image Hash.
+*   **Entitlements:** Functional Permissions ("Can Write to S3", "Can Read Queue").
+*   **Behavior:** Deterministic, repetitive.
+*   **Lifecycle:** Often ephemeral (spin up, execute, destroy).
+
+---
+
+## 3. Properties of Identity Systems
 
 ### A. Identifiers
+*   **Omnidirectional:** Public discovery (Email, DNS). Resolvable by anyone.
+*   **Unidirectional:** Private scope (Internal UUID). Used for privacy or internal logic.
+*   **Zooko's Triangle:** Identifiers can only be two of three: **Decentralized**, **Secure**, and **Human-Readable**. (e.g., DIDs are Decentralized + Secure, but not Readable).
 
-Unique labels used to refer to a specific identity within a system. An identifier acts as a primary key or pointer to the collection of attributes.
+### B. Control Models
+*   **Administrative (Centralized):** The organization owns the identity (e.g., Active Directory). Most common in enterprise.
+*   **Federated:** The user brings an identity from a trusted provider (e.g., "Log in with Google").
+*   **Self-Sovereign (SSI):** The entity owns the identity and keys entirely (e.g., DIDs, Verifiable Credentials).
 
-- **Purpose:** To uniquely name an entity within a given context.
-- **Examples:** Username, email address, UUID, passport number (digitized). A single person has multiple identifiers across various systems.
-
-### B. Attributes
-
-Individual pieces of data or claims made about the subject of the identity. These are key-value pairs that describe what the entity *is* or *has*.
-
-- **Purpose:** To describe characteristics of the entity.
-- **Types:**
-  - **Self-asserted:** Claimed by the entity itself (e.g., "My name is John").
-  - **Verified:** Attested by a trusted authority (e.g., government digitally confirms date of birth).
-- **Examples:** `given_name: "John"`, `date_of_birth: "1990-10-26"`, `is_over_18: true`, `role: "administrator"`.
-
-### C. Credentials
-
-Tamper-evident, machine-readable data structures that cryptographically bind attributes to an identifier. They are issued by an authority and presented to a relying party to prove claims.
-
-- **Purpose:** To verifiably prove specific attributes without necessarily revealing all other attributes.
-- **Examples:** Digital equivalent of a driver's license (proves "over 18" without revealing exact DOB). Can be passwords, digital certificates, OAuth tokens.
+### C. Trust & Confidence
+*   **Trust:** Based on **Provenance** (Who issued this? Do I trust the issuer?).
+*   **Confidence:** Based on **Fidelity** (How strong was the authentication? MFA vs Password).
 
 ---
 
-## 3. Purpose of Digital Identity (Abstract View)
+## 4. Architectural Implications
 
-From an abstract viewpoint, the fundamental purpose of a digital identity is to **establish sufficient trust to enable interactions in a digital environment**. It achieves this by performing three core functions:
-
-### A. Authentication
-
-To answer the question, "*Are you who you claim to be?*".
-
-- **Mechanism:** Verifying a claimed identity (e.g., password, fingerprint, digital certificate).
-- **Outcome:** Proving to the system that the entity is the legitimate operator of that digital identity.
-
-### B. Authorization
-
-To answer the question, "*Are you allowed to do that?*".
-
-- **Mechanism:** Determining what actions an authenticated entity is permitted to perform based on its attributes (e.g., `role: "manager"`, `clearance_level: "secret"`).
-- **Outcome:** Granting or denying access to resources, data, or functionalities.
-
-### C. Attribution & Accountability
-
-To reliably link digital actions to a specific identity, and by extension, to the person or system it represents.
-
-- **Mechanism:** Creating a verifiable record of who did what and when.
-- **Outcome:** Enabling legal and commercial trust, non-repudiation (inability to deny an action), and accountability.
-
-### D. The Identity Witness Pattern
-
-In high-assurance systems (like Cloud-Native IAM), Identity is modeled as a **Witness**.
-
-* **The Witness (OIDC Token):** A cryptographically signed token (JWT) that serves as proof of a claimed identity (e.g., a Kubernetes Service Account).
-* **The Verifier (IAM Role):** The infrastructure component that accepts the Witness and validates the claim against a **Trust Anchor** (OIDC Provider).
-* **The Result (Capability):** Temporary credentials granting specific permissions (e.g., `acm-pca:IssueCertificate`).
-
-This pattern ensures that **Privileges (Capabilities)** are only dispensed upon the presentation of a valid **Witness (Proof)**.
-
----
-
-## 4. Identity Claims: Human vs. Machine
-
-While the abstract properties are shared, the *nature* of the claims (attributes) and the *authority* that verifies them differ significantly.
-
-### A. 🧑 Human Digital Identity
-
-Designed to represent a natural person; its claims are tied to legal and social existence.
-
-- **Core Claims (Who you are):**
-  - **Personally Identifiable Information (PII):** Legal name, date of birth, government ID numbers (e.g., passport). Verified by government authorities.
-  - **Biometrics:** Fingerprints, facial scans, voice patterns (link digital identity to unique physical person).
-  - **Contact Information:** Email, phone, physical address.
-- **Entitlement & Status Claims (What you are allowed):**
-  - **Qualifications:** University degrees, professional certifications.
-  - **Status:** "Over 18", "UK Resident", "Employee", "Platinum Member".
-- **Behavioural Claims (How you act):**
-  - **History:** Purchase history, browsing activity.
-  - **Reputation:** Credit score, online reviews.
-
-### B. ⚙️ Machine/Application/Process Digital Identity
-
-Designed to represent a non-person entity (NPE) like software, server, IoT device, or microservice. Claims relate to its function, origin, and operational context.
-
-- **Core Claims (What it is):**
-  - **Unique Identifiers:** UUID, MAC address, service name, process ID (PID), cryptographic key pair.
-  - **Origin & Integrity:** Software vendor, code signature, version number, hash of the binary (proves no tampering).
-  - **Configuration:** IP address, operating system, location (e.g., `aws:region:eu-west-2`), hardware specifications.
-- **Entitlement & Status Claims (What it is allowed):**
-  - **Roles & Permissions:** "Database Reader", "Queue Writer", "Metrics Publisher" (defined within IAM).
-  - **Security Posture:** Security patch level, last vulnerability scan date, compliance status (e.g., "PCI-DSS Compliant").
-- **Behavioural Claims (How it acts):**
-  - **Operational Telemetry:** CPU usage patterns, network traffic flows, API call logs.
-  - **Reputation:** Known good or malicious process, IP address reputation.
-
----
-
-## 5. Relationship to a Person & Levels of Assurance
-
-A digital identity is a **proxy** of a natural person. The link between the data (digital identity) and the person (subject) is through **identity proofing** or **binding**.
-
-- **Binding:** The act of linking the digital representation to the physical person with a certain confidence level (e.g., scanning a passport and taking a selfie for a bank account).
-- **Levels of Assurance (LoA):** The strength of this binding.
-  - **Low LoA:** Email and self-asserted name (e.g., social media). Weak link.
-  - **High LoA:** Rigorous proofing against authoritative sources (government IDs, biometrics). Strong, reliable link.
-
-A single person can have multiple digital identities, each for a different context (professional, social, citizen).
-
----
-
-## 6. Minimum Viable Understanding (MVU)
-
-1. **Digital Identity = Data:** It's a collection of identifiers, attributes, and verifiable credentials.
-2. **Purpose = Trust:** It enables authentication ("who are you?"), authorization ("what can you do?"), and accountability ("who did it?").
-3. **Human ≠ Machine:** Claims differ significantly (personal/legal vs. operational/functional).
-4. **Identity is a Proxy:** It's a digital representation, bound to a person with varying Levels of Assurance.
-
----
-
-## 7. Sources and Links
-
-- Original Proposal: "What is a Digital Identity? A Data-Centric View" (Archived)
-- [[SoT - PRODOS (System Architecture)]] (Foundational for system architecture)
-- [[SoT - Identity-Based Habit Formation]] (Relates to human identity and self-perception)
-- [[SoT - Zero Trust Security]] (Foundational security model for modern identity management)
-- [[SoT - Data-Centric IAM in Zero Trust]] (Details IAM within a Zero Trust framework)
-- [[SoT - Authentication Mechanisms]] (Explores different methods of verifying identity)
-- [[SoT - Authorization Mechanisms]] (Explores different methods of granting permissions)
+1.  **Least Privilege:** Identities should only possess the attributes required for their function. Machine identities should have zero access to human data unless explicitly required.
+2.  **Lifecycle Management:**
+    *   *Humans:* Focus on efficient Onboarding/Offboarding (JML).
+    *   *Machines:* Focus on automated rotation (Short-lived Certs, SPIFFE/SPIRE).
+3.  **The Identity Layer:** Identity is the new perimeter. Trust is no longer based on "being on the network" but on "proving who you are."

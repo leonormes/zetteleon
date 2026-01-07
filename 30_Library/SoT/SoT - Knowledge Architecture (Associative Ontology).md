@@ -154,6 +154,10 @@ To maintain this architecture, we must distinguish between the container and the
     *   *Writer View:* The MOC (Map of Content).
     *   *Action View:* The Todoist Project list.
 
+### C. Conceptual Frameworks
+-   **Deductive Reasoning:** We start with universal axioms (The "Why") and move toward specific instances (The "How"). This drives the Top-Down structure.
+-   **MECE Principle:** (Mutually Exclusive, Collectively Exhaustive). We aim for domains that do not overlap but together cover the entirety of the subject.
+
 ---
 
 ## 7. Strategic Cross-Link Summary

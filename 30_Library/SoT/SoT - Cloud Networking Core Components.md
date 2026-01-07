@@ -1,112 +1,69 @@
 ---
-aliases: ["Cloud Internet Connectivity", "Cloud Networking SoT", "Internet Gateway vs NAT Gateway", "Load Balancing"]
-confidence: "5/5"
-created: 2025-12-12T18:25:55Z
-epistemic: "theory"
-last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:57+00:00
-purpose: "To define the essential networking components, architectural patterns, and load balancing strategies for cloud-native infrastructure."
-review_interval: "6 months"
-see_also: ["[[SoT - The Data Architecture of DNS]]", "[[SoT - The Data-Centric Theory of Networking]]"]
+aliases: ["Cloud Networking Concepts", "AWS vs Azure Networking", "VPC and VNet Fundamentals"]
+confidence: "High"
+created: 2026-01-06
+epistemic: "Technical"
+last_reviewed: 
+modified: 
+purpose: "To define the foundational networking components in cloud infrastructure, mapping universal concepts to their specific implementations in AWS and Azure."
+review_interval: "1 year"
+see_also: 
+  - "[[SoT - Kubernetes Networking & DNS]]"
+  - "[[SoT - Linux Networking Primitives]]"
+  - "[[SoT - Data-Centric Theory of Networking]]"
 source_of_truth: []
-status: "stable"
-tags: ["aws", "azure", "cloud", "infrastructure", "topic/technology/networking"]
+status: "Active"
+tags: ["networking", "cloud", "aws", "azure", "kubernetes"]
 title: SoT - Cloud Networking Core Components
 type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Connectivity Layers
+# SoT - Cloud Networking Core Components
 
-Cloud networking requires three distinct layers to function:
+> **The Core Abstraction:** Cloud networking is an overlay. While the physical implementation differs, both AWS and Azure expose the same logical primitives: **Isolation** (VPC/VNet), **Segmentation** (Subnets), **Routing** (Route Tables), and **Filtering** (Security Groups/NSGs).
 
-1. **Gateway Device:** A bridge between private VNets and the public internet.
-2. **Routing:** Explicit rules directing traffic to that gateway.
-3. **Addressing:** Public IPs (identity) and NAT (translation).
+## 1. Universal Concepts & Cloud Mapping
 
----
-
-## 2. Gateways (The Edge)
-
-### A. Internet Gateway (Bidirectional)
-
-- **Function:** Enables Ingress and Egress.
-- **Use Case:** Public Web Servers, Load Balancers.
-
-### B. NAT Gateway (Egress Only)
-
-- **Function:** Performs Source NAT (SNAT), allowing private resources to initiate outbound connections without accepting inbound connections.
-- **Use Case:** Private databases, application worker nodes.
-
----
-
-## 3. Load Balancing & Abstraction
-
-...
-
-### B. Load Balancer Types
-
-| Type | OSI Layer | Logic | Example |
-
+| Universal Concept | Definition | AWS Implementation | Azure Implementation |
 |:--- |:--- |:--- |:--- |
+| **Virtual Network** | A logically isolated network slice within the cloud. | **VPC** (Virtual Private Cloud) | **VNet** (Virtual Network) |
+| **Subnet** | A segmented range of IP addresses within the virtual network. | **Subnet** (AZ-specific) | **Subnet** (Region-wide) |
+| **Firewall (Stateful)** | Rules controlling traffic to/from an instance/interface. | **Security Group** (Instance level) | **Network Security Group** (Subnet/NIC level) |
+| **Firewall (Stateless)** | Rules controlling traffic in/out of a subnet. | **NACL** (Network ACL) | **NSG** (Can act as both) |
+| **Routing** | Rules defining next-hop paths for traffic. | **Route Table** | **Route Table** (UDR) |
+| **Ingress (L7)** | HTTP/HTTPS load balancing. | **ALB** (Application Load Balancer) | **Application Gateway** |
+| **Ingress (L4)** | TCP/UDP load balancing. | **NLB** (Network Load Balancer) | **Azure Load Balancer** |
+| **Egress (NAT)** | Allowing private instances to reach the internet. | **NAT Gateway** | **NAT Gateway** |
+| **Private Access** | Accessing cloud services without public internet. | **PrivateLink** (Interface Endpoint) | **Private Endpoint** |
+| **Interconnect** | Dedicated physical link to on-premise. | **Direct Connect** | **ExpressRoute** |
 
-| **Network (NLB)** | Layer 4 | Fast, packet-level forwarding based on IP/Port. | AWS NLB, Azure LB |
+## 2. Kubernetes Integration (EKS vs AKS)
 
-| **Application (ALB)** | Layer 7 | Content-aware; routes based on Headers, Cookies, or Path. | AWS ALB, Azure App Gateway |
+Both platforms use the **CNI (Container Network Interface)** standard to bridge the Cloud Network with the Cluster Network.
 
-| **Global (GSLB)** | DNS | Routes to nearest/healthiest region based on latency. | Route 53, Cloudflare |
+### AWS EKS (VPC CNI)
+*   **Mechanism:** Pods receive real IPs from the VPC Subnet.
+*   **Constraint:** Pod density is limited by the number of ENIs (Elastic Network Interfaces) and IPs an EC2 instance can hold.
+*   **Security:** Security Groups can be applied directly to Pods (Security Groups for Pods).
 
-| **Gateway (GWLB)** | Layer 3 | Transparently injects security/inspection appliances. | AWS GWLB |
+### Azure AKS (Azure CNI vs Kubenet)
+*   **Azure CNI:** Similar to AWS. Pods get VNet IPs. High performance, high IP consumption.
+*   **Kubenet:** Uses a simpler overlay (NAT). Pods get internal IPs not visible to the VNet. Saves IP space but adds a NAT hop.
 
----
+## 3. The Routing Logic (The Path of a Packet)
 
-## 4. Advanced Abstraction & Security
+Understanding the "Next Hop" is the key to debugging.
 
-### A. API Gateway (The Entry Point)
+1.  **Local Traffic:** Always routed internally within the VNet/VPC (default local route).
+2.  **Internet Traffic:**
+    *   *Public Subnet:* Route `0.0.0.0/0` -> Internet Gateway.
+    *   *Private Subnet:* Route `0.0.0.0/0` -> NAT Gateway.
+3.  **Peered Traffic:** Route `Target_CIDR` -> Peering Connection.
+4.  **VPN/On-Prem:** Route `OnPrem_CIDR` -> Virtual Private Gateway / VPN Gateway.
 
-- **Function:** Single entry point for microservices; handles auth, rate limiting, and protocol translation.
-- **Key Requirement:** Must authenticate requests *before* routing to backend (e.g., JWT, API Key).
+## 4. Debugging Primitives
 
-### B. Transit Gateway (The Hub)
-
-- **Function:** Regional network hub connecting thousands of VPCs and on-premises networks.
-- **Core Logic:** Uses a central hub-and-spoke model to eliminate complex peering relationships.
-
-### C. Web Application Firewall (WAF)
-
-- **Function:** Inspects Layer 7 traffic for OWASP Top 10 (SQLi, XSS).
-- **Difference from Firewall:** Operates on application content, not just IP/Port.
-
-### D. Content Delivery Network (CDN)
-
-- **Function:** Caches static content at edge locations to reduce latency.
-- **Logic:** "Cache Miss" triggers origin fetch; "Cache Hit" serves from edge.
-
----
-
-## 5. Summary Matrix (Cloud Products)
-
-| Concept | AWS Component | Azure Component |
-
-|:--- |:--- |:--- |
-
-| **Virtual Network** | VPC | VNet |
-
-| **Public Gateway** | Internet Gateway (IGW) | Implicit (or Public IP on NIC/LB) |
-
-| **Private Egress** | NAT Gateway | Azure NAT Gateway |
-
-| **Layer 7 LB** | Application Load Balancer | Application Gateway |
-
-| **Global LB / DNS** | Route 53 | Azure DNS / Traffic Manager |
-
-| **API Management** | API Gateway | API Management (APIM) |
-
-| **Network Hub** | Transit Gateway | Virtual WAN |
-
-| **L7 Security** | AWS WAF | Azure WAF |
-
-| **Edge Caching** | CloudFront | Azure CDN / Front Door |
-
-| **DDoS Protection**| AWS Shield | Azure DDoS Protection |
+*   **Flow Logs:** (VPC Flow Logs / NSG Flow Logs). The source of truth for "blocked vs allowed."
+*   **Reachability Analyzer:** (AWS Reachability Analyzer / Azure Network Watcher). Simulates a packet to find the configuration error (missing route, blocking NSG).

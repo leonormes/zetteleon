@@ -139,6 +139,15 @@ To engineer for the machine, we must internalize its physical constraints.
 * **The Efficiency Rule:** Every byte fetched into the cache line *must* be used.
 * **The OOP Failure:** Standard objects are "Swiss Cheese" in memory—data + vtables + padding + pointers. You fetch 64 bytes to use 4 bytes. This is **~90% bandwidth waste**.
 
+#### C. Observability (Linux CLI)
+You can verify your hardware's architecture immediately using these tools:
+
+*   **Inspect Hardware:** `lscpu | grep -i cache` (Look for L1d cache size).
+*   **Query Line Size:** `getconf LEVEL1_DCACHE_LINESIZE` (Usually 64).
+*   **Profile Cache Misses:**
+    *   **Perf (Real HW):** `perf stat -e L1-dcache-load-misses ./my_program`
+    *   **Cachegrind (Sim):** `valgrind --tool=cachegrind ./my_program`
+
 ### 3.3 The DoD Optimisation Toolbox
 
 To maximise "Cache Density" (packing the truck efficiently), we use specific structural patterns.
