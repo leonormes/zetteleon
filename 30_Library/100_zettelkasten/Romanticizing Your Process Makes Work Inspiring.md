@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - You Need to Romanticize Your Process]]"
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "mindset", "process", "ritual"]
+tags: ["TheHuman/Creativity", "TheHuman/Mindset", "process", "ritual"]
 title: Romanticizing Your Process Makes Work Inspiring
 type: "concept"
 uid: 

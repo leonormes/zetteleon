@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["self-management", "topic/health/adhd", "topic/productivity"]
+tags: ["self-management", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Managing Novelty Seeking in ADHD
 type: "permanent"
 uid: 

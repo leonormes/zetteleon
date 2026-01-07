@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Indistractable Model (Focus Management)]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["action", "mindset", "perception", "ryan_holiday", "stoicism"]
+tags: ["action", "TheHuman/Mindset", "perception", "ryan_holiday", "stoicism"]
 title: SoT - The Discipline of Perception (Mindset)
 type: "SoT"
 uid: 

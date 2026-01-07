@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "merged"
-tags: ["pomodoro", "topic/habits", "topic/health/adhd", "topic/productivity"]
+tags: ["pomodoro", "TheHuman/Habits", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Analog and Behavioral Techniques are Crucial for ADHD Management
 type: "concept"
 uid: 

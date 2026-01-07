@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "jazz", "metaphor", "originality", "topic/creativity"]
+tags: ["TheHuman/Creativity", "jazz", "metaphor", "originality", "topic/creativity"]
 title: Jazz Musician Metaphor for Originality Through Unique Expression
 type: "concept"
 uid: 

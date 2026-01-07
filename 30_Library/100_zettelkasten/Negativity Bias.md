@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: "evergreen"
-tags: ["evolution", "topic/cognition/bias", "topic/psychology"]
+tags: ["evolution", "TheHuman/Cognition/bias", "TheHuman/Psychology"]
 title: Negativity Bias
 type: "concept"
 uid: 

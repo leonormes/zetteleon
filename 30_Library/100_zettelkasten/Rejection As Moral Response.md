@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Authority Dynamics and ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["moral-frameworks", "power-dynamics", "topic/psychology"]
+tags: ["moral-frameworks", "power-dynamics", "TheHuman/Psychology"]
 title: Rejection As Moral Response
 type: "concept"
 uid: 

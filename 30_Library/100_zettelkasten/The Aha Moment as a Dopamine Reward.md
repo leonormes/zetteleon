@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["motivation", "neuroscience", "topic/learning", "topic/psychology"]
+tags: ["TheHuman/Motivation", "TheHuman/Neuroscience", "topic/learning", "TheHuman/Psychology"]
 title: The Aha Moment as a Dopamine Reward
 type: "null"
 uid: 

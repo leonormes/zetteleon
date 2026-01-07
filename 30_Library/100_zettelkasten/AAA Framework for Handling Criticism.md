@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["RSD is associated with neurodiversity particularly ADHD.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["communication", "topic/psychology"]
+tags: ["communication", "TheHuman/Psychology"]
 title: AAA Framework for Handling Criticism
 type: "technique"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["action", "behavior", "intention", "topic/psychology", "willpower"]
+tags: ["action", "behavior", "intention", "TheHuman/Psychology", "willpower"]
 title: The Intention-Action Gap is the Failure to Translate Knowledge into Action
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["addiction", "information", "overthinking", "topic/cognition"]
+tags: ["addiction", "information", "overthinking", "TheHuman/Cognition"]
 title: The Cost of Type 1 Information Addiction
 type: "null"
 uid: 

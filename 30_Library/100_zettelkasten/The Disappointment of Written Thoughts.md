@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["creativity", "topic/cognition/thinking", "topic/psychology", "topic/writing"]
+tags: ["TheHuman/Creativity", "TheHuman/Cognition/thinking", "TheHuman/Psychology", "topic/writing"]
 title: The Disappointment of Written Thoughts
 type: "null"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "identity", "topic/habits", "topic/systems"]
+tags: ["behavior-change", "TheHuman/Identity", "TheHuman/Habits", "topic/systems"]
 title: Identity-Based Habits are the Most Profound Level of Change
 type: "concept"
 uid: 

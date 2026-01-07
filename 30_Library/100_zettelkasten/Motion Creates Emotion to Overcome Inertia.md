@@ -10,7 +10,7 @@ review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "hypothesis", "motivation", "topic/health/adhd", "topic/productivity", "topic/psychology"]
+tags: ["experiment", "hypothesis", "TheHuman/Motivation", "TheHuman/Health/ADHD", "topic/productivity", "TheHuman/Psychology"]
 title: Motion Creates Emotion to Overcome Inertia
 type: "hypothesis"
 uid: 

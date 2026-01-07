@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[The Traditional Definition of Knowledge is Justified True Belief]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["epistemology", "knowledge", "philosophy", "truth"]
+tags: ["epistemology", "knowledge", "TheHuman/Philosophy", "truth"]
 title: Truth is a Necessary Condition for Knowledge
 type: "concept"
 uid: 

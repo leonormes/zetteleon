@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - How To Create And Use Mini Routines]]"
 source_of_truth: []
 status: "seedling"
-tags: ["autism", "energy-management", "topic/health/adhd"]
+tags: ["autism", "energy-management", "TheHuman/Health/ADHD"]
 title: Event-based pacing matches boom and bust energy cycles
 type: "concept"
 uid: 

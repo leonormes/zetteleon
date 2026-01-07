@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Memory Enables Learning by Storing Experiences for Future Use.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["biology", "memory", "topic/cognition"]
+tags: ["biology", "memory", "TheHuman/Cognition"]
 title: Slime Molds Exhibit Memory-like Behavior Without a Nervous System
 type: "example"
 uid: 

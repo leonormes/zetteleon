@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Identity Emerges From Habits]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["etymology", "identity", "topic/habits"]
+tags: ["etymology", "TheHuman/Identity", "TheHuman/Habits"]
 title: Identity is Repeated Beingness
 type: "concept"
 uid: 

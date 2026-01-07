@@ -10,7 +10,7 @@ review_interval: "180"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["mindset", "organization", "topic/pkm", "topic/pkm/zettelkasten"]
+tags: ["TheHuman/Mindset", "organization", "topic/pkm", "topic/pkm/zettelkasten"]
 title: Writer Thinking vs Archivist Thinking
 type: "concept"
 uid: 

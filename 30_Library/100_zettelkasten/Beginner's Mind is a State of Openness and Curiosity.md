@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Mindfulness is Non-Judgmental Present-Moment Awareness]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["buddhism", "curiosity", "mindset", "zen"]
+tags: ["buddhism", "curiosity", "TheHuman/Mindset", "zen"]
 title: "Beginner's Mind is a State of Openness and Curiosity"
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "planning", "topic/health/adhd", "topic/productivity"]
+tags: ["dopamine", "planning", "TheHuman/Health/ADHD", "topic/productivity"]
 title: "Dopamine-Aware Planning Aligns Tasks with the Brain's Reward System"
 type: "strategy"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]", "[[MOC - Time Boxing for ADHD Brains]]"]
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "focus", "hypothesis", "time-management", "topic/health/adhd", "topic/productivity"]
+tags: ["experiment", "focus", "hypothesis", "time-management", "TheHuman/Health/ADHD", "topic/productivity"]
 title: ADHD-Adapted Timeboxing
 type: "hypothesis"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["task-management", "topic/health/adhd", "topic/productivity"]
+tags: ["task-management", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Momentum-Based Re-Entry Points Ease Project Resumption
 type: "strategy"
 uid: 

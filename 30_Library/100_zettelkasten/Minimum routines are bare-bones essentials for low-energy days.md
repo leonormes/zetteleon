@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Honeyman Method]]"
 source_of_truth: []
 status: "seedling"
-tags: ["energy-management", "executive-dysfunction", "routines", "topic/health/adhd"]
+tags: ["energy-management", "executive-dysfunction", "routines", "TheHuman/Health/ADHD"]
 title: Minimum routines are bare-bones essentials for low-energy days
 type: "concept"
 uid: 

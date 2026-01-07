@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["belief", "topic/cognition", "topic/cognition/bias", "topic/psychology"]
+tags: ["belief", "TheHuman/Cognition", "TheHuman/Cognition/bias", "TheHuman/Psychology"]
 title: Cognitive Biases Reinforce Mental Models
 type: "null"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Family Financial Wellness]]", "[[SoT - Fundamental Description of Economics]]"]
 source_of_truth: []
 status: "stable"
-tags: ["finance", "mindset", "psychology", "physics", "ontology"]
+tags: ["finance", "TheHuman/Mindset", "psychology", "physics", "ontology"]
 title: SoT - Financial Philosophy and Spendfulness
 type: "SoT"
 uid: 

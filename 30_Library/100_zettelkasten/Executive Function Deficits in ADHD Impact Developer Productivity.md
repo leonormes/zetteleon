@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["executive-function", "software-development", "topic/health/adhd", "topic/productivity"]
+tags: ["executive-function", "software-development", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Executive Function Deficits in ADHD Impact Developer Productivity
 type: "concept"
 uid: 

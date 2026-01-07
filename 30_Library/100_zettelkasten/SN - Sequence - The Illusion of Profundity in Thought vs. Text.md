@@ -13,7 +13,7 @@ scope: "The relationship between internal thought and externalized text, and the
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["map", "sequence", "structural", "thinking", "topic/cognition", "writing"]
+tags: ["map", "sequence", "structural", "thinking", "TheHuman/Cognition", "writing"]
 title: SN - Sequence - The Illusion of Profundity in Thought vs. Text
 type: "sn"
 uid: 

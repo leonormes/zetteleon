@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/health/adhd"]
+tags: ["TheHuman/Health/ADHD"]
 title: I Have Not Really Accepted the ADHD Difficulties I Have Had
 type: "permanent"
 uid: 

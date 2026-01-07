@@ -3,7 +3,7 @@ aliases: []
 tags:
   - head
   - "SoftwareEngineering/Architecture"
-  - philosophy
+  - "TheHuman/Philosophy"
 created: 2026-01-07T12:25:00
 status: Active
 ---

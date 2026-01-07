@@ -10,7 +10,7 @@ review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags: [topic/health/adhd, topic/productivity]
+tags: ["TheHuman/Health/ADHD", topic/productivity]
 title: I am a developer
 type: map
 uid:

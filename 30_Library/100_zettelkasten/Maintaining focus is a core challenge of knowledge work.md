@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["focus", "topic/cognition", "topic/productivity"]
+tags: ["focus", "TheHuman/Cognition", "topic/productivity"]
 title: Maintaining focus is a core challenge of knowledge work
 type: "permanent"
 uid: 

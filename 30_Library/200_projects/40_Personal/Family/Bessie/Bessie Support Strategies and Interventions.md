@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["interventions", "isp", "project/family/bessie", "support-strategies"]
+tags: ["interventions", "isp", "TheHuman/Family/Bessie", "support-strategies"]
 title: Bessie Support Strategies and Interventions
 type: ""
 uid: 

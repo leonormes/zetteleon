@@ -10,7 +10,7 @@ review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "hypothesis", "momentum", "task-initiation", "topic/health/adhd", "topic/productivity"]
+tags: ["experiment", "hypothesis", "momentum", "task-initiation", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Chaining Starter Tasks Creates a Momentum Ramp
 type: "hypothesis"
 uid: 

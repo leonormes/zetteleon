@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Every Action is a Vote for a Desired Identity]]", "[[Identity is Repeated Beingness]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "identity", "topic/habits"]
+tags: ["behavior-change", "TheHuman/Identity", "TheHuman/Habits"]
 title: Identity Emerges From Habits
 type: "concept"
 uid: 

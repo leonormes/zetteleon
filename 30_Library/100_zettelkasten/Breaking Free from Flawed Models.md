@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/cognition"]
+tags: ["TheHuman/Cognition"]
 title: Breaking Free from Flawed Models
 type: ""
 uid: 

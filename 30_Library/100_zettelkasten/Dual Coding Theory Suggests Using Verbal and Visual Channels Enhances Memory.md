@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Concept Mapping is a Technique for Visually Organizing Knowledge]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["dual-coding", "learning", "memory", "topic/cognition"]
+tags: ["dual-coding", "learning", "memory", "TheHuman/Cognition"]
 title: Dual Coding Theory Suggests Using Verbal and Visual Channels Enhances Memory
 type: "concept"
 uid: 

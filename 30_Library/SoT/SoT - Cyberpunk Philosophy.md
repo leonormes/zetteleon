@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Cyberpunk Genre]]"]
 source_of_truth: ["[[00_Inbox/cyberpunk.md]]"]
 status: "stable"
-tags: ["philosophy", "sociology", "transhumanism", "capitalism"]
+tags: ["TheHuman/Philosophy", "sociology", "transhumanism", "capitalism"]
 title: SoT - Cyberpunk Philosophy
 type: "SoT"
 uid: 

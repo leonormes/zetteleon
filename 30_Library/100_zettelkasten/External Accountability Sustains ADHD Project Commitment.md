@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["accountability", "project-completion", "social-motivation", "topic/health/adhd"]
+tags: ["accountability", "project-completion", "social-motivation", "TheHuman/Health/ADHD"]
 title: External Accountability Sustains ADHD Project Commitment
 type: "strategy"
 uid: 

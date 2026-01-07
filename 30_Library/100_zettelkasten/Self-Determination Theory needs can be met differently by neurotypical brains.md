@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/health/adhd"]
+tags: ["TheHuman/Health/ADHD"]
 title: Self-Determination Theory needs can be met differently by neurotypical brains
 type: ""
 uid: 

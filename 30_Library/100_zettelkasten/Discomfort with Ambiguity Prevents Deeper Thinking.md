@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["ambiguity", "topic/cognition", "topic/cognition/thinking", "topic/psychology"]
+tags: ["ambiguity", "TheHuman/Cognition", "TheHuman/Cognition/thinking", "TheHuman/Psychology"]
 title: Discomfort with Ambiguity Prevents Deeper Thinking
 type: ""
 uid: 

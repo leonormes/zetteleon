@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["automation", "context", "topic/habits"]
+tags: ["automation", "context", "TheHuman/Habits"]
 title: Strong Habits are Context-Independent
 type: "concept"
 uid: 

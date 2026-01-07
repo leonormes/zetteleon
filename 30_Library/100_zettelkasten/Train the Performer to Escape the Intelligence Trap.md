@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["action", "topic/learning", "topic/productivity", "topic/psychology"]
+tags: ["action", "topic/learning", "topic/productivity", "TheHuman/Psychology"]
 title: Train the Performer to Escape the Intelligence Trap
 type: "null"
 uid: 

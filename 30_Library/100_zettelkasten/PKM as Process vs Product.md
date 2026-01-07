@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["process", "topic/cognition/thinking", "topic/pkm", "topic/pkm/zettelkasten"]
+tags: ["process", "TheHuman/Cognition/thinking", "topic/pkm", "topic/pkm/zettelkasten"]
 title: PKM as Process vs Product
 type: "permanent"
 uid: 

@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Limitless Morning Routine]]"
 source_of_truth: []
 status: "seedling"
-tags: ["digital-minimalism", "dopamine", "focus", "topic/health/adhd"]
+tags: ["digital-minimalism", "dopamine", "focus", "TheHuman/Health/ADHD"]
 title: Avoid Morning Phone Use to Protect Dopamine
 type: "concept"
 uid: 

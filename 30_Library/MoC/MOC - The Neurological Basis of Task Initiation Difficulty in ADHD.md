@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["executive-function", "neuroscience", "topic/health/adhd"]
+tags: ["executive-function", "TheHuman/Neuroscience", "TheHuman/Health/ADHD"]
 title: MOC - The Neurological Basis of Task Initiation Difficulty in ADHD
 type: "map"
 uid: 

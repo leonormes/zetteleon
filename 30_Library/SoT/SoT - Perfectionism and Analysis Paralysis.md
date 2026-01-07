@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - PRODOS - System Failure Modes]]"]
 source_of_truth: []
 status: "stable"
-tags: ["mindset", "prodos", "topic/cognition/bias", "topic/psychology"]
+tags: ["TheHuman/Mindset", "prodos", "TheHuman/Cognition/bias", "TheHuman/Psychology"]
 title: SoT - Perfectionism and Analysis Paralysis
 type: "SoT"
 uid: 

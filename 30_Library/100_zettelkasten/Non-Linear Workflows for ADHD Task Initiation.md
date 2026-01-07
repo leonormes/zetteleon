@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["perfectionism", "task-initiation", "topic/health/adhd", "topic/productivity"]
+tags: ["perfectionism", "task-initiation", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Non-Linear Workflows for ADHD Task Initiation
 type: "permanent"
 uid: 

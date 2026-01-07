@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Long-Term Potentiation (LTP) is a Key Cellular Mechanism for Learning]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["brain", "learning", "neuroplasticity", "neuroscience"]
+tags: ["brain", "learning", "neuroplasticity", "TheHuman/Neuroscience"]
 title: "Neuroplasticity is the Brain's Ability to Change in Response to Experience"
 type: "concept"
 uid: 

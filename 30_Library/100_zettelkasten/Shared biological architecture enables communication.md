@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Communication is inherently lossy like image compression"]
 source_of_truth: []
 status: "seedling"
-tags: ["anthropology", "communication", "neuroscience"]
+tags: ["anthropology", "communication", "TheHuman/Neuroscience"]
 title: Shared biological architecture enables communication
 type: "concept"
 uid: 

@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["cognitive-styles", "metaphor", "neurodiversity", "topic/health/adhd"]
+tags: ["cognitive-styles", "metaphor", "neurodiversity", "TheHuman/Health/ADHD"]
 title: Hunter vs Farmer Brain Metaphor
 type: "null"
 uid: 

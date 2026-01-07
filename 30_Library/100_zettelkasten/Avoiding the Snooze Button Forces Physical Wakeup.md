@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Limitless Morning Routine]]"
 source_of_truth: []
 status: "seedling"
-tags: ["routine", "sleep", "topic/habits", "willpower"]
+tags: ["routine", "sleep", "TheHuman/Habits", "willpower"]
 title: Avoiding the Snooze Button Forces Physical Wakeup
 type: "concept"
 uid: 

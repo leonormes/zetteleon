@@ -14,7 +14,7 @@ see_also: []
 source: "How to ADHD - How to Stick to Habits and Routines Without Falling Off"
 source_of_truth: []
 status: "null"
-tags: ["incremental-change", "topic/habits", "topic/health/adhd"]
+tags: ["incremental-change", "TheHuman/Habits", "TheHuman/Health/ADHD"]
 title: MOC - The One Degree Change Framework for ADHD
 type: "map"
 uid: 

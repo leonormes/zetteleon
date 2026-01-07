@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["meaning", "mindset", "personal-growth", "topic/philosophy"]
+tags: ["meaning", "TheHuman/Mindset", "personal-growth", "topic/philosophy"]
 title: The Impact Fallacy in Intellectual Life
 type: "null"
 uid: 

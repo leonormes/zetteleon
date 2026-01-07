@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Ideas exist beyond linguistic expression"]
 source_of_truth: []
 status: "seedling"
-tags: ["cognitive-science", "mental-representation", "neuroscience"]
+tags: ["cognitive-science", "mental-representation", "TheHuman/Neuroscience"]
 title: Mental representations take multiple forms
 type: "concept"
 uid: 

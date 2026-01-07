@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Continuous Iterative Learning Mindset is Essential]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["growth", "mindset", "self-improvement"]
+tags: ["growth", "TheHuman/Mindset", "self-improvement"]
 title: "Compare Oneself to Yesterday's Self Not Others"
 type: "concept"
 uid: 

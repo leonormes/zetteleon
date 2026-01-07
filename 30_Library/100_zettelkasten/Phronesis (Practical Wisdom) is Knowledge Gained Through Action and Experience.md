@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Akrasia is Acting Against One's Better Judgment]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["action", "aristotle", "knowledge", "philosophy", "wisdom"]
+tags: ["action", "aristotle", "knowledge", "TheHuman/Philosophy", "wisdom"]
 title: Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Abstraction and Generalization Are Core Mathematical Methods]]", "[[Mathematics Is Frequently Described as the Science of Patterns]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["philosophy", "structuralism", "topic/maths"]
+tags: ["TheHuman/Philosophy", "structuralism", "topic/maths"]
 title: Structuralism (Mathematics as Study of Structure)
 type: "concept"
 uid: 

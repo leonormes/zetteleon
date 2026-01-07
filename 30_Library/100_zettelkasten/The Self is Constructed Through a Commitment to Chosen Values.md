@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Identity-Based Habits are the Most Profound Level of Change.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["existentialism", "identity", "integrity", "self", "values"]
+tags: ["existentialism", "TheHuman/Identity", "integrity", "self", "values"]
 title: The Self is Constructed Through a Commitment to Chosen Values
 type: "concept"
 uid: 

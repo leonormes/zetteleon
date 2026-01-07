@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: ["[[SoT - Material Symbols]]", "[[SoT - The Negotiable Body]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["extended_mind", "mental_models", "pkm", "topic/cognition", "topic/health/adhd", "philosophy"]
+tags: ["extended_mind", "mental_models", "pkm", "TheHuman/Cognition", "TheHuman/Health/ADHD", "TheHuman/Philosophy"]
 title: SoT - The Extended Mind
 type: "SoT"
 uid: 

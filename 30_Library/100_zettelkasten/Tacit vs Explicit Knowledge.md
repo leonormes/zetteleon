@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["teams", "topic/cognition/mental-model", "topic/knowledge-management"]
+tags: ["teams", "TheHuman/Cognition/mental-model", "topic/knowledge-management"]
 title: Tacit vs Explicit Knowledge
 type: "null"
 uid: 

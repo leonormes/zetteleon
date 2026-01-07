@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["planning", "time-agnosia", "time-management", "topic/health/adhd"]
+tags: ["planning", "time-agnosia", "time-management", "TheHuman/Health/ADHD"]
 title: Time Agnosia Impairs Planning for Developers with ADHD
 type: "concept"
 uid: 

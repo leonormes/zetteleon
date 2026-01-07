@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["growth", "learning-theory", "topic/habits", "topic/health/adhd"]
+tags: ["growth", "learning-theory", "TheHuman/Habits", "TheHuman/Health/ADHD"]
 title: The Proximal Zone of Development for Habit Change
 type: "concept"
 uid: 

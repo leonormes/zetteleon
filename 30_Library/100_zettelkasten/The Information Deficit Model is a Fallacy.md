@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "fallacy", "topic/psychology"]
+tags: ["behavior-change", "fallacy", "TheHuman/Psychology"]
 title: The Information Deficit Model is a Fallacy
 type: "concept"
 uid: 

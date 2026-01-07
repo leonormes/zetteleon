@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[The Brain is a Pattern-Seeking Engine]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["apophenia", "bias", "topic/cognition"]
+tags: ["apophenia", "bias", "TheHuman/Cognition"]
 title: Apophenia is the Tendency to Perceive Patterns in Random Data
 type: "concept"
 uid: 

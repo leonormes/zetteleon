@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["learning", "neuroplasticity", "neuroscience", "topic/habits"]
+tags: ["learning", "neuroplasticity", "TheHuman/Neuroscience", "TheHuman/Habits"]
 title: Neuroplasticity is the Foundation for Habit Change
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["ethics", "neurodiversity", "topic/health/adhd", "topic/psychology"]
+tags: ["ethics", "neurodiversity", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
 title: Neurodevelopmental Disorders vs. Character Defects
 type: "null"
 uid: 

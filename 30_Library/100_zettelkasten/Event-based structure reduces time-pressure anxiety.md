@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - How To Create And Use Mini Routines]]"
 source_of_truth: []
 status: "seedling"
-tags: ["anxiety", "time-management", "topic/health/adhd"]
+tags: ["anxiety", "time-management", "TheHuman/Health/ADHD"]
 title: Event-based structure reduces time-pressure anxiety
 type: "concept"
 uid: 

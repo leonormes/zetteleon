@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - You Need to Romanticize Your Process]]"
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "mindset", "process"]
+tags: ["TheHuman/Creativity", "TheHuman/Mindset", "process"]
 title: Loving the Process is Key to Sustained Creativity
 type: "concept"
 uid: 

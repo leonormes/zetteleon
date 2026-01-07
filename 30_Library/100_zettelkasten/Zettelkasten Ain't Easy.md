@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/cognition/thinking", "topic/pkm/zettelkasten"]
+tags: ["TheHuman/Cognition/thinking", "topic/pkm/zettelkasten"]
 title: "Zettelkasten Ain't Easy"
 type: "permanent"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["models", "motivation", "pinch-model", "topic/health/adhd"]
+tags: ["models", "TheHuman/Motivation", "pinch-model", "TheHuman/Health/ADHD"]
 title: The PINCH Model Describes Core ADHD Motivators
 type: "permanent"
 uid: 

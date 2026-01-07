@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - How To Create And Use Mini Routines]]"
 source_of_truth: []
 status: "seedling"
-tags: ["daily-structure", "routines", "topic/health/adhd"]
+tags: ["daily-structure", "routines", "TheHuman/Health/ADHD"]
 title: Bookend routines mark the start and end of day
 type: "concept"
 uid: 

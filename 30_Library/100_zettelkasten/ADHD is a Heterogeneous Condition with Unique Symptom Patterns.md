@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Neuroscience of Task Initiation in ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["heterogeneity", "neuroscience", "topic/health/adhd"]
+tags: ["heterogeneity", "TheHuman/Neuroscience", "TheHuman/Health/ADHD"]
 title: ADHD is a Heterogeneous Condition with Unique Symptom Patterns
 type: "concept"
 uid: 

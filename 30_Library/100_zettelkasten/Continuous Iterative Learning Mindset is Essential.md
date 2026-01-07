@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Focus on Short-Term Learning Over Rigid Long-Term Planning]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["adaptability", "learning", "mindset"]
+tags: ["adaptability", "learning", "TheHuman/Mindset"]
 title: Continuous Iterative Learning Mindset is Essential
 type: "concept"
 uid: 

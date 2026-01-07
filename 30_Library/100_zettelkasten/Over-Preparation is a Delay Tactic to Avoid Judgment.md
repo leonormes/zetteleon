@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]", "[[Risk Avoidance Drives Motion-Based Procrastination]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["avoidance", "planning", "preparation", "procrastination", "topic/psychology"]
+tags: ["avoidance", "planning", "preparation", "procrastination", "TheHuman/Psychology"]
 title: Over-Preparation is a Delay Tactic to Avoid Judgment
 type: "concept"
 uid: 

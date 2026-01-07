@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["bias", "metacognition", "topic/cognition", "topic/psychology"]
+tags: ["bias", "metacognition", "TheHuman/Cognition", "TheHuman/Psychology"]
 title: SoT - Dunning-Kruger Effect
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: ["[[Self-Regulation is Managing Your Emotions and Actions]]"]
 source_of_truth: []
 status: ""
-tags: ["emotion", "topic/cognition", "topic/health/adhd", "topic/psychology"]
+tags: ["emotion", "TheHuman/Cognition", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
 title: Emotional Dysregulation
 type: "map"
 uid: 

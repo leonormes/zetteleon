@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Behavior Incongruent with Self Will Not Last]]", "[[Identity-Based Habits are More Resilient Than Goal-Based Habits]]", "[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["identity", "intrinsic-motivation", "motivation", "topic/habits"]
+tags: ["TheHuman/Identity", "intrinsic-motivation", "TheHuman/Motivation", "TheHuman/Habits"]
 title: Ultimate Intrinsic Motivation Occurs When Habit Becomes Part of Identity
 type: "concept"
 uid: 

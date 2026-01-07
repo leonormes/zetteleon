@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - The Extended Mind]]"]
 source_of_truth: []
 status: "stable"
-tags: ["extended_mind", "language", "logic", "scaffolding", "topic/cognition"]
+tags: ["extended_mind", "language", "logic", "scaffolding", "TheHuman/Cognition"]
 title: SoT - Material Symbols
 type: "SoT"
 uid: 

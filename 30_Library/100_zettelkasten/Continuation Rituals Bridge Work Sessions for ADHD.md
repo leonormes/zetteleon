@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["project-continuity", "ritual", "topic/health/adhd", "workflow"]
+tags: ["project-continuity", "ritual", "TheHuman/Health/ADHD", "workflow"]
 title: Continuation Rituals Bridge Work Sessions for ADHD
 type: "strategy"
 uid: 

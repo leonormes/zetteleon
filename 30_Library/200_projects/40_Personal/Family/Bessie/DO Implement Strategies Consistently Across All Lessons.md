@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["implementation", "project/family/bessie", "strategies"]
+tags: ["implementation", "TheHuman/Family/Bessie", "strategies"]
 title: DO Implement Strategies Consistently Across All Lessons
 type: ""
 uid: 

@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - 8 simple Japanese habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["Japanese_culture", "mindfulness", "routine", "topic/habits"]
+tags: ["Japanese_culture", "mindfulness", "routine", "TheHuman/Habits"]
 title: Waking up early provides an energizing start to the day
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["motivation", "topic/health/adhd", "topic/productivity/gtd"]
+tags: ["TheHuman/Motivation", "TheHuman/Health/ADHD", "topic/productivity/gtd"]
 title: All the Enthusiasm and Energy for a Plan Disappears
 type: "null"
 uid: 

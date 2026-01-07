@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - The \\\\\\\\\\\\\\\"Worse is Better\\\\\\\\\\\\\\\" Philosophy]]"]
 source_of_truth: []
 status: "stable"
-tags: ["mental-model", "philosophy", "software-engineering"]
+tags: ["mental-model", "TheHuman/Philosophy", "software-engineering"]
 title: SoT - Pragmatism vs Rigour in Software
 type: "SoT"
 uid: 

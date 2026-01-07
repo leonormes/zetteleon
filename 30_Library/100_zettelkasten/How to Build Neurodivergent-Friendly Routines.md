@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["autism", "map", "routine", "topic/health/adhd", "topic/productivity/productivity-system"]
+tags: ["autism", "map", "routine", "TheHuman/Health/ADHD", "topic/productivity/productivity-system"]
 title: How to Build Neurodivergent-Friendly Routines
 type: "sequence"
 uid: 

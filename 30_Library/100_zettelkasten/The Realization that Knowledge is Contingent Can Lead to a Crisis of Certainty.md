@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["certainty", "epistemology", "philosophy", "topic/cognition/bias"]
+tags: ["certainty", "epistemology", "TheHuman/Philosophy", "TheHuman/Cognition/bias"]
 title: The Realization that Knowledge is Contingent Can Lead to a Crisis of Certainty
 type: "concept"
 uid: 

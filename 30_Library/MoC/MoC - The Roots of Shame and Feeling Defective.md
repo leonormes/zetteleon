@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: ["[[SoT - ADHD Self-Compassion & Strengths]]"]
 source_of_truth: []
 status: stable
-tags: [emotional_dysregulation, map, mental_health, shame, topic/health/adhd]
+tags: [emotional_dysregulation, map, mental_health, shame, "TheHuman/Health/ADHD"]
 title: MoC - The Roots of Shame and Feeling Defective
 type: map
 uid:

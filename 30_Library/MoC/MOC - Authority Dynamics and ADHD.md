@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["authority", "shame", "topic/health/adhd", "topic/psychology"]
+tags: ["authority", "shame", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
 title: MOC - Authority Dynamics and ADHD
 type: "map"
 uid: 

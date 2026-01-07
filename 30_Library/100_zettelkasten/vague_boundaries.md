@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["knowledge", "topic/cognition/thinking"]
+tags: ["knowledge", "TheHuman/Cognition/thinking"]
 title: vague_boundaries
 type: "permanent"
 uid: 

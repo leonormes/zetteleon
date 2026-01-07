@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/health/adhd", "topic/productivity/gtd"]
+tags: ["TheHuman/Health/ADHD", "topic/productivity/gtd"]
 title: Manage Working Memory Load In-session
 type: "null"
 uid: 

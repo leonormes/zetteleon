@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]", "[[Perfectionism Leads to Endless Planning and Inaction]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["mindset", "perfectionism", "procrastination", "topic/productivity"]
+tags: ["TheHuman/Mindset", "perfectionism", "procrastination", "topic/productivity"]
 title: Embracing Imperfection is Key to Overcoming Motion-Based Procrastination
 type: "concept"
 uid: 

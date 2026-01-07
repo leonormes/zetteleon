@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["capacity", "change-management", "metaphor", "topic/health/adhd"]
+tags: ["capacity", "change-management", "metaphor", "TheHuman/Health/ADHD"]
 title: The Rubber Band Metaphor for Change Capacity
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["analogy", "neurodiversity", "self-management", "topic/health/adhd"]
+tags: ["analogy", "neurodiversity", "self-management", "TheHuman/Health/ADHD"]
 title: The Race Car Brain with Bicycle Brakes Analogy for ADHD
 type: "null"
 uid: 

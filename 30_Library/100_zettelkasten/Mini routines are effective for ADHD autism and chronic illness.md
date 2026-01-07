@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - How To Create And Use Mini Routines]]"
 source_of_truth: []
 status: "seedling"
-tags: ["autism", "chronic-illness", "routines", "topic/health/adhd"]
+tags: ["autism", "chronic-illness", "routines", "TheHuman/Health/ADHD"]
 title: Mini routines are effective for ADHD autism and chronic illness
 type: "concept"
 uid: 

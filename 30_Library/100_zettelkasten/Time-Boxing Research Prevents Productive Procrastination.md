@@ -10,7 +10,7 @@ review_interval: "180"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["research", "technique", "time-management", "topic/health/adhd", "topic/productivity"]
+tags: ["research", "technique", "time-management", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Time-Boxing Research Prevents Productive Procrastination
 type: "instructional"
 uid: 

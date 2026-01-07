@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["map", "motivation", "task-initiation", "topic/health/adhd", "topic/productivity"]
+tags: ["map", "TheHuman/Motivation", "task-initiation", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Momentum-Building Strategies for ADHD
 type: "map"
 uid: 

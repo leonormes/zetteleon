@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["dopamine", "motivation", "reward-system", "topic/health/adhd", "topic/productivity"]
+tags: ["dopamine", "TheHuman/Motivation", "reward-system", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Dopamine Management in ADHD Productivity
 type: "permanent"
 uid: 

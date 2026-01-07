@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "topic/habits"]
+tags: ["behavior-change", "TheHuman/Habits"]
 title: Positive Cargo is a Strategy for Overwriting Bad Habits
 type: "concept"
 uid: 

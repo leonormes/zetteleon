@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[Growth mindset]]", "[[SoT - Cognitive Refactoring (Neural Debugging)]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - Logotherapy and the Will to Meaning]]"]
 source_of_truth: []
 status: "stable"
-tags: ["agency", "mindset", "personal_development", "topic/psychology", "transformation"]
+tags: ["agency", "TheHuman/Mindset", "personal_development", "TheHuman/Psychology", "transformation"]
 title: SoT - Personal Agency and Transformation
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Identity Conflict Impedes Positive Change]]", "[[Identity Emerges from Habits Not Fixed at Birth]]", "[[Two-Step Identity Change Process]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "growth-mindset", "identity", "strategy", "topic/habits"]
+tags: ["behavior-change", "growth-mindset", "TheHuman/Identity", "strategy", "TheHuman/Habits"]
 title: Continuously Edit and Expand Your Identity Beliefs
 type: "strategy"
 uid: 

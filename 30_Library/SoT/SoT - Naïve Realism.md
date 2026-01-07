@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Dunning-Kruger Effect]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - Reality, Models, and the Limits of Accuracy]]"]
 source_of_truth: []
 status: "stable"
-tags: ["bias", "epistemology", "mental_models", "psychology", "topic/psychology"]
+tags: ["bias", "epistemology", "mental_models", "psychology", "TheHuman/Psychology"]
 title: SoT - Naïve Realism
 type: "SoT"
 uid: 

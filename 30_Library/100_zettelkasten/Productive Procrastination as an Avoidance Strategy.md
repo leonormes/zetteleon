@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/health/adhd", "topic/productivity", "topic/productivity/procrastination"]
+tags: ["TheHuman/Health/ADHD", "topic/productivity", "topic/productivity/procrastination"]
 title: Productive Procrastination as an Avoidance Strategy
 type: "null"
 uid: 

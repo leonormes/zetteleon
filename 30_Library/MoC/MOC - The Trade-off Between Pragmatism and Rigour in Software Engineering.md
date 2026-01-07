@@ -13,7 +13,7 @@ scope: "The core conflict between building software quickly (pragmatism) and bui
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["map", "mental-model", "philosophy", "software-engineering"]
+tags: ["map", "mental-model", "TheHuman/Philosophy", "software-engineering"]
 title: MOC - The Trade-off Between Pragmatism and Rigour in Software Engineering
 type: "map"
 uid: 

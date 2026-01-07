@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: ["[[SoT - Social Stratification]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
 source_of_truth: []
 status: "stable"
-tags: ["dystopia", "literature", "philosophy", "sociology"]
+tags: ["dystopia", "literature", "TheHuman/Philosophy", "sociology"]
 title: SoT - Dystopian Frameworks and Social Control
 type: "SoT"
 uid: 

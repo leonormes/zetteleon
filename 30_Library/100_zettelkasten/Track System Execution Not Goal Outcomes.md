@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Systems Thinking for Goal Achievement]]"
 source_of_truth: []
 status: "seedling"
-tags: ["metrics", "process", "topic/habits", "topic/systems"]
+tags: ["metrics", "process", "TheHuman/Habits", "topic/systems"]
 title: Track System Execution Not Goal Outcomes
 type: "concept"
 uid: 

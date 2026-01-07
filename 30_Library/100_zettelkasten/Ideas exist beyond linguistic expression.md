@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["language", "philosophy-of-mind", "topic/cognition"]
+tags: ["language", "philosophy-of-mind", "TheHuman/Cognition"]
 title: Ideas exist beyond linguistic expression
 type: "concept"
 uid: 

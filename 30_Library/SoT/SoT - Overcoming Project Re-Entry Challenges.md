@@ -10,7 +10,7 @@ review_interval: "365"
 see_also: ["[[MOC - ADHD Project Continuation Challenge]]", "[[MOC - Project Continuity]]", "[[SoT - Breaking the Creation Cycle]]", "[[SoT - Starter Tasks]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["dopamine", "project-management", "task-management", "topic/health/adhd", "topic/productivity", "topic/psychology"]
+tags: ["dopamine", "project-management", "task-management", "TheHuman/Health/ADHD", "topic/productivity", "TheHuman/Psychology"]
 title: SoT - Overcoming Project Re-Entry Challenges
 type: "permanent"
 uid: 

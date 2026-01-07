@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["topic/cognition/bias", "topic/social-cognition", "topic/social-perception"]
+tags: ["TheHuman/Cognition/bias", "topic/social-cognition", "topic/social-perception"]
 title: Mind-Reading Fallacy and Projection
 type: "concept"
 uid: 

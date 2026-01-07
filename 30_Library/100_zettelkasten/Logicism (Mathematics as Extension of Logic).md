@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[G\\u00f6del''s Incompleteness Theorems Constrain Foundational Programs]]", "[[Logic Is the Grammar of Rigorous Argument]]", "[[Russell''s Paradox in Naive Set Theory]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["foundations", "logic", "philosophy", "topic/maths"]
+tags: ["foundations", "logic", "TheHuman/Philosophy", "topic/maths"]
 title: Logicism (Mathematics as Extension of Logic)
 type: "concept"
 uid: 

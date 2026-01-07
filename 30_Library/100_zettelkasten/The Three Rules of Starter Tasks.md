@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[The Starter Task Overcomes Activation Energy for ADHD]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["momentum", "task-initiation", "topic/health/adhd", "topic/productivity"]
+tags: ["momentum", "task-initiation", "TheHuman/Health/ADHD", "topic/productivity"]
 title: The Three Rules of Starter Tasks
 type: "concept"
 uid: 

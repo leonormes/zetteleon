@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Decision Fatigue]]", "[[Timeboxing Creates Structure for Action]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["decision-fatigue", "time-management", "topic/productivity", "topic/psychology"]
+tags: ["decision-fatigue", "time-management", "topic/productivity", "TheHuman/Psychology"]
 title: Timeboxing Reduces Decision Fatigue
 type: "concept"
 uid: 

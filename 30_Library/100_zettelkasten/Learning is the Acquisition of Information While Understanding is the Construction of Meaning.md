@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["learning", "pedagogy", "topic/cognition", "understanding"]
+tags: ["learning", "pedagogy", "TheHuman/Cognition", "understanding"]
 title: Learning is the Acquisition of Information While Understanding is the Construction of Meaning
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["beliefs", "project/family/bessie", "topic/learning"]
+tags: ["beliefs", "TheHuman/Family/Bessie", "topic/learning"]
 title: Question for Bessie about her learning
 type: ""
 uid: 

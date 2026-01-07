@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Phases of Task Execution and the Impact of ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["executive_function", "project_management", "task_completion", "topic/health/adhd"]
+tags: ["executive_function", "project_management", "task_completion", "TheHuman/Health/ADHD"]
 title: ADHD Causes Deficits in Completing Long-Term Projects
 type: "concept"
 uid: 

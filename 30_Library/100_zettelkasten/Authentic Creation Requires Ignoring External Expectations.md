@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - You Need to Romanticize Your Process]]"
 source_of_truth: []
 status: "seedling"
-tags: ["authenticity", "creativity", "mindset"]
+tags: ["authenticity", "TheHuman/Creativity", "TheHuman/Mindset"]
 title: Authentic Creation Requires Ignoring External Expectations
 type: "concept"
 uid: 

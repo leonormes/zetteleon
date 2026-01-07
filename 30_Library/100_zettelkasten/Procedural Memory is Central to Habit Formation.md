@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["memory", "neuroscience", "procedural-memory", "topic/habits"]
+tags: ["memory", "TheHuman/Neuroscience", "procedural-memory", "TheHuman/Habits"]
 title: Procedural Memory is Central to Habit Formation
 type: "concept"
 uid: 

@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
 source_of_truth: []
 status: "seedling"
-tags: ["environment", "novelty", "topic/health/adhd", "writing"]
+tags: ["environment", "novelty", "TheHuman/Health/ADHD", "writing"]
 title: Changing Environments Provides Novelty for ADHD Writing
 type: "concept"
 uid: 

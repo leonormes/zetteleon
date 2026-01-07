@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["behavior", "topic/habits", "topic/health/adhd", "topic/productivity"]
+tags: ["behavior", "TheHuman/Habits", "TheHuman/Health/ADHD", "topic/productivity"]
 title: ADHD Behavioral Strategies for Productivity
 type: "null"
 uid: 

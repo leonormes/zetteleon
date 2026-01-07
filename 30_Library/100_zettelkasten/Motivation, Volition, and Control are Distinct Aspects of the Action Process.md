@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["action", "motivation", "topic/psychology"]
+tags: ["action", "TheHuman/Motivation", "TheHuman/Psychology"]
 title: Motivation, Volition, and Control are Distinct Aspects of the Action Process
 type: "concept"
 uid: 

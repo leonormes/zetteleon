@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "active"
-tags: ["experiments", "hypothesis", "type/moc", "protocols", "topic/health/adhd", "topic/productivity"]
+tags: ["experiments", "hypothesis", "type/moc", "protocols", "TheHuman/Health/ADHD", "topic/productivity"]
 title: MOC - ADHD Experiments & Protocols
 type: "map"
 uid: 

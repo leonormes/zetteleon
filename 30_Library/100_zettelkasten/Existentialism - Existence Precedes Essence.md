@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["The Existential Condition.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["existentialism", "philosophy"]
+tags: ["existentialism", "TheHuman/Philosophy"]
 title: Existentialism - Existence Precedes Essence
 type: "concept"
 uid: 

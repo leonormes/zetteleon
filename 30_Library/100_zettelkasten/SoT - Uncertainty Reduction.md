@@ -10,7 +10,7 @@ review_interval: ""
 see_also: ["[[Shannon's Information Theory - Information as Uncertainty]]", "[[The World's Ambiguity Drives the Need for Certainty]]"]
 source_of_truth: []
 status: "stable"
-tags: ["epistemology", "neuroscience", "prediction", "topic/cognition", "topic/psychology"]
+tags: ["epistemology", "TheHuman/Neuroscience", "prediction", "TheHuman/Cognition", "TheHuman/Psychology"]
 title: SoT - Uncertainty Reduction
 type: "SoT"
 uid: 

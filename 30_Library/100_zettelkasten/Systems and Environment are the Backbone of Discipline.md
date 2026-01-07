@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - How to Build Discipline]]"
 source_of_truth: []
 status: "seedling"
-tags: ["discipline", "environment", "motivation", "topic/systems"]
+tags: ["discipline", "environment", "TheHuman/Motivation", "topic/systems"]
 title: Systems and Environment are the Backbone of Discipline
 type: "concept"
 uid: 

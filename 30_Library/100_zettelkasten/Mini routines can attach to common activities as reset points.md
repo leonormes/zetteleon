@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - How To Create And Use Mini Routines]]"
 source_of_truth: []
 status: "seedling"
-tags: ["routines", "topic/habits", "topic/health/adhd"]
+tags: ["routines", "TheHuman/Habits", "TheHuman/Health/ADHD"]
 title: Mini routines can attach to common activities as reset points
 type: "concept"
 uid: 

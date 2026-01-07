@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["physics", "science", "topic/cognition/mental-model"]
+tags: ["physics", "science", "TheHuman/Cognition/mental-model"]
 title: Effective Theory
 type: ""
 uid: 

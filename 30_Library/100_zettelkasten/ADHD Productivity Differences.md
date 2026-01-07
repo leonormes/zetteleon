@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/health/adhd", "topic/productivity/gtd"]
+tags: ["TheHuman/Health/ADHD", "topic/productivity/gtd"]
 title: ADHD Productivity Differences
 type: "null"
 uid: 

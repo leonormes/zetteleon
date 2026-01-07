@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["collaboration", "communication", "group-dynamics", "knowledge", "topic/cognition/bias"]
+tags: ["collaboration", "communication", "group-dynamics", "knowledge", "TheHuman/Cognition/bias"]
 title: Certainty and Synthesis Gaps are Internal Barriers to Group Understanding
 type: "concept"
 uid: 

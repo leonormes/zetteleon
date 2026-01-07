@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["focus", "hyperfocus", "topic/health/adhd", "topic/productivity"]
+tags: ["focus", "hyperfocus", "TheHuman/Health/ADHD", "topic/productivity"]
 title: ADHD Involves an Inability to Regulate Attention
 type: "concept"
 uid: 

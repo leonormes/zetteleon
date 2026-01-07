@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["dopamine", "interest", "motivation", "novelty", "topic/health/adhd"]
+tags: ["dopamine", "interest", "TheHuman/Motivation", "novelty", "TheHuman/Health/ADHD"]
 title: Novelty Seeking
 type: "map"
 uid: 

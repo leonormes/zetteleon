@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["social", "topic/cognition/bias", "topic/psychology"]
+tags: ["social", "TheHuman/Cognition/bias", "TheHuman/Psychology"]
 title: External Validation Reduces Cognitive Dissonance
 type: "permanent"
 uid: 

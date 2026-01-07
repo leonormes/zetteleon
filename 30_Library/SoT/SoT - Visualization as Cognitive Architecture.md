@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]", "[[SoT - Reality", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[Visualization Supports Mathematical Thinking]]", "and the Limits of Accuracy]]", "Models"]
 source_of_truth: []
 status: "stable"
-tags: ["cognitive_science", "mental_models", "neuroscience", "system_design", "visualization"]
+tags: ["cognitive_science", "mental_models", "TheHuman/Neuroscience", "system_design", "visualization"]
 title: SoT - Visualization as Cognitive Architecture
 type: "SoT"
 uid: 

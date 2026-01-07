@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[Cognitive Dissonance]]", "[[Discomfort with Ambiguity Prevents Deeper Thinking]]", "[[Psychological Stress of Dissonance]]"]
 source_of_truth: []
 status: "stable"
-tags: ["ambiguity", "deep_work", "dissonance", "mental_models", "topic/cognition", "topic/psychology"]
+tags: ["ambiguity", "deep_work", "dissonance", "mental_models", "TheHuman/Cognition", "TheHuman/Psychology"]
 title: SoT - Cognitive Ambiguity and Deep Thinking
 type: "SoT"
 uid: 

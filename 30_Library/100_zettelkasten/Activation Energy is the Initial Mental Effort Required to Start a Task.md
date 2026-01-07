@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[The Starter Task Overcomes Activation Energy for ADHD]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior", "friction", "task-initiation", "topic/psychology"]
+tags: ["behavior", "friction", "task-initiation", "TheHuman/Psychology"]
 title: Activation Energy is the Initial Mental Effort Required to Start a Task
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "motivation", "neuroscience", "reward"]
+tags: ["dopamine", "TheHuman/Motivation", "TheHuman/Neuroscience", "reward"]
 title: Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)
 type: "concept"
 uid: 

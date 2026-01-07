@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["rituals", "topic/habits", "topic/productivity"]
+tags: ["rituals", "TheHuman/Habits", "topic/productivity"]
 title: A Startup Ritual Eases the Transition into a Project Mindset
 type: "strategy"
 uid: 

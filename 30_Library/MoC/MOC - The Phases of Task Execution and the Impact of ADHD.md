@@ -11,7 +11,7 @@ see_also: []
 source: "[[phases of tasks]]"
 source_of_truth: []
 status: "null"
-tags: ["executive_function", "neuroscience", "topic/health/adhd"]
+tags: ["executive_function", "TheHuman/Neuroscience", "TheHuman/Health/ADHD"]
 title: MOC - The Phases of Task Execution and the Impact of ADHD
 type: "map"
 uid: 

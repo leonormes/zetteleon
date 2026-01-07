@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/health/adhd"]
+tags: ["TheHuman/Health/ADHD"]
 title: You’ve captured the impulse, and that’s often enough
 type: "permanent"
 uid: 

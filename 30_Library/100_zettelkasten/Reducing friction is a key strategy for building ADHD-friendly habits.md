@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - ADHD Routine Building Strategies]]"
 source_of_truth: []
 status: "seedling"
-tags: ["strategy", "topic/habits", "topic/health/adhd", "topic/productivity"]
+tags: ["strategy", "TheHuman/Habits", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Reducing friction is a key strategy for building ADHD-friendly habits
 type: "concept"
 uid: 

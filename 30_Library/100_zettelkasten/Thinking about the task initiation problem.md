@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["Integrating", "topic/health/adhd"]
+tags: ["Integrating", "TheHuman/Health/ADHD"]
 title: Thinking about the task initiation problem
 type: "permanent"
 uid: 

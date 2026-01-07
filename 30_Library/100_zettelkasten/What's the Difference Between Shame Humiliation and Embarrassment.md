@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["emotion", "shame", "topic/health/adhd"]
+tags: ["emotion", "shame", "TheHuman/Health/ADHD"]
 title: "What's the Difference Between Shame Humiliation and Embarrassment"
 type: "permanent"
 uid: 

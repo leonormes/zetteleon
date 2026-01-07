@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Accumulating Evidence Reinforces Identity]]", "[[Every Action is a Vote for Who You Wish to Become]]", "[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "identity", "method", "strategy", "topic/habits"]
+tags: ["behavior-change", "TheHuman/Identity", "method", "strategy", "TheHuman/Habits"]
 title: Two-Step Identity Change Process
 type: "strategy"
 uid: 

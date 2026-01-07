@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["learning", "metacognition", "self-awareness", "topic/cognition"]
+tags: ["learning", "metacognition", "self-awareness", "TheHuman/Cognition"]
 title: Metacognition is Essential for Guiding the Deep Learning Process
 type: "concept"
 uid: 

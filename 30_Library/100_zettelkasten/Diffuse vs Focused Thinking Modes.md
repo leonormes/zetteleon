@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Active Recall Strengthens Memory Through Retrieval Practice.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["learning", "neuroscience"]
+tags: ["learning", "TheHuman/Neuroscience"]
 title: Diffuse vs Focused Thinking Modes
 type: "concept"
 uid: 

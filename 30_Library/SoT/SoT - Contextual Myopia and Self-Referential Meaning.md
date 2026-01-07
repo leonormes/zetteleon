@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[Contextual Myopia and Goal Displacement]]", "[[Goal Displacement]]", "[[Humans are susceptible to contextual myopia]]", "[[MOC - Cognitive Biases]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - PRODOS (System Architecture)]]", "[[Sunk Cost Fallacy Reinforces Myopia]]", "[[The Focusing Illusion]]"]
 source_of_truth: []
 status: "stable"
-tags: ["bias", "topic/cognition", "topic/psychology", "topic/systems"]
+tags: ["bias", "TheHuman/Cognition", "TheHuman/Psychology", "topic/systems"]
 title: SoT - Contextual Myopia and Self-Referential Meaning
 type: "SoT"
 uid: 

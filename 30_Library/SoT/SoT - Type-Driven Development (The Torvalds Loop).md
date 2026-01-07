@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Rust Type Mechanics]]", "[[SoT - Rust Language]]", "[[SoT - Rust's Ownership Model]]"]
 source_of_truth: []
 status: "stable"
-tags: ["philosophy", "programming", "rust", "type_theory", "SoftwareEngineering/Architecture", "design-patterns"]
+tags: ["TheHuman/Philosophy", "programming", "rust", "type_theory", "SoftwareEngineering/Architecture", "design-patterns"]
 title: SoT - Type-Driven Development (The Torvalds Loop)
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]", "[[Process vs Outcome Goals]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["goals", "mindset", "procrastination", "topic/productivity"]
+tags: ["goals", "TheHuman/Mindset", "procrastination", "topic/productivity"]
 title: Focusing on Effort Over Outcomes Reduces the Pressure to Act
 type: "concept"
 uid: 

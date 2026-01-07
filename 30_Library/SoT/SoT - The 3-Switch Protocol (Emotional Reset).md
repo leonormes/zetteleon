@@ -10,7 +10,7 @@ review_interval: 6 months
 see_also: ["[[Emotional Regulation Techniques for ADHD Productivity]]", "[[SoT - Journaling as Cognitive Engineering]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: [theMITmonk - 3 Switches to Happiness]
 status: stable
-tags: [adhd, emotional_regulation, neuroscience, protocol]
+tags: [adhd, emotional_regulation, "TheHuman/Neuroscience", protocol]
 title: SoT - The 3-Switch Protocol (Emotional Reset)
 type: SoT
 uid: 

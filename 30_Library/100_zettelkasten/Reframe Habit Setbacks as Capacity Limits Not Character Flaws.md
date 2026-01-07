@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["attribution", "reframing", "self-compassion", "topic/health/adhd"]
+tags: ["attribution", "reframing", "self-compassion", "TheHuman/Health/ADHD"]
 title: Reframe Habit Setbacks as Capacity Limits Not Character Flaws
 type: "strategy"
 uid: 

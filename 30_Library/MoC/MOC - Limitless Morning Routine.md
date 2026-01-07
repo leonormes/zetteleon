@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["routine", "topic/health/adhd", "topic/productivity"]
+tags: ["routine", "TheHuman/Health/ADHD", "topic/productivity"]
 title: MOC - Limitless Morning Routine
 type: "map"
 uid: 

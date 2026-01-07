@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["ADHD as Neurodiversity Not Deficit.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["society", "topic/health/adhd"]
+tags: ["society", "TheHuman/Health/ADHD"]
 title: Societal Stigma of ADHD Motivation
 type: "concept"
 uid: 

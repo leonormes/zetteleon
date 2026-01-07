@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Passive Study Habits Foster the Illusion of Fluency]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["learning", "metacognition", "topic/cognition", "topic/cognition/bias"]
+tags: ["learning", "metacognition", "TheHuman/Cognition", "TheHuman/Cognition/bias"]
 title: The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning
 type: "concept"
 uid: 

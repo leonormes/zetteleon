@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - How To Create And Use Mini Routines]]"
 source_of_truth: []
 status: "seedling"
-tags: ["routines", "scheduling", "topic/health/adhd"]
+tags: ["routines", "scheduling", "TheHuman/Health/ADHD"]
 title: Mini routines are event-triggered sequences rather than time-based schedules
 type: "concept"
 uid: 

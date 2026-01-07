@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["bias", "type/moc", "topic/cognition", "topic/psychology"]
+tags: ["bias", "type/moc", "TheHuman/Cognition", "TheHuman/Psychology"]
 title: MOC - Cognitive Biases
 type: "map"
 uid: 

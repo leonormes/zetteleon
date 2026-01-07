@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["emotional-regulation", "topic/health/adhd", "topic/productivity"]
+tags: ["emotional-regulation", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Emotional Regulation Techniques for ADHD Productivity
 type: "permanent"
 uid: 

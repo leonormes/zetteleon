@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Authority Dynamics and ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["neurodiversity", "shame", "topic/psychology"]
+tags: ["neurodiversity", "shame", "TheHuman/Psychology"]
 title: Productive vs Destructive Shame
 type: "concept"
 uid: 

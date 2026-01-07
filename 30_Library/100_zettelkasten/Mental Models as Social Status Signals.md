@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["sociology", "status", "topic/cognition", "topic/psychology"]
+tags: ["sociology", "status", "TheHuman/Cognition", "TheHuman/Psychology"]
 title: Mental Models as Social Status Signals
 type: "null"
 uid: 

@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["meaning", "topic/cognition/mental-model", "topic/philosophy"]
+tags: ["meaning", "TheHuman/Cognition/mental-model", "topic/philosophy"]
 title: The Fractal Model of Self-Referential Meaning
 type: "null"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Behavior Incongruent with Self Will Not Last]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "conflict", "identity", "resistance", "topic/habits"]
+tags: ["behavior-change", "conflict", "TheHuman/Identity", "resistance", "TheHuman/Habits"]
 title: Identity Conflict Can Impede Positive Habit Change
 type: "concept"
 uid: 

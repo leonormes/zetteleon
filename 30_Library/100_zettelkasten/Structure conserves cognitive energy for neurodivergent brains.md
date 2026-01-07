@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Why Autistics and ADHDers NEED Routines]]"
 source_of_truth: []
 status: "seedling"
-tags: ["autism", "energy-management", "executive-function", "topic/health/adhd"]
+tags: ["autism", "energy-management", "executive-function", "TheHuman/Health/ADHD"]
 title: Structure conserves cognitive energy for neurodivergent brains
 type: "concept"
 uid: 

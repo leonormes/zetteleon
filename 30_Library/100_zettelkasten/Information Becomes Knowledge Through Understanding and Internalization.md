@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Knowledge Emerges Through Application and Experience]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["knowledge", "learning", "topic/cognition"]
+tags: ["knowledge", "learning", "TheHuman/Cognition"]
 title: Information Becomes Knowledge Through Understanding and Internalization
 type: "concept"
 uid: 

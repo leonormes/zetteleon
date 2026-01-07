@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Why Task Initiation is Difficult in ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["task-management", "topic/health/adhd", "topic/productivity"]
+tags: ["task-management", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Micro-Stepping Reduces Cognitive Load for Task Initiation
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Social Cognition & Self-Perception]]"]
 source_of_truth: []
 status: "stable"
-tags: ["bias", "social-cognition", "topic/cognition", "topic/psychology"]
+tags: ["bias", "social-cognition", "TheHuman/Cognition", "TheHuman/Psychology"]
 title: SoT - Spotlight Effect
 type: "SoT"
 uid: 

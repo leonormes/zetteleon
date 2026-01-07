@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Externalizing Direction Reduces Cognitive Load and Fosters Flow]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["motivation", "neurodiversity", "topic/health/adhd", "topic/productivity", "topic/systems"]
+tags: ["TheHuman/Motivation", "neurodiversity", "TheHuman/Health/ADHD", "topic/productivity", "topic/systems"]
 title: External Systems Are Vital for Managing Fluctuating Motivation
 type: "concept"
 uid: 

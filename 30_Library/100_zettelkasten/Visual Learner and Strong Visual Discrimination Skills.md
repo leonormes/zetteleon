@@ -10,7 +10,7 @@ review_interval: "180"
 see_also: ["[[Pattern Recognition is the Cognitive Process of Organizing Sensory Input]]", "[[Perception in learning]]", "[[Thinking & Creating Skills (Your Clever Brain)]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["learning", "skills", "topic/cognition", "visual-thinking"]
+tags: ["learning", "skills", "TheHuman/Cognition", "visual-thinking"]
 title: Visual Learner and Strong Visual Discrimination Skills
 type: "concept"
 uid: 

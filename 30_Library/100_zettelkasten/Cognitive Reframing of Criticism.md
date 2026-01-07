@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Constructive Debate in Psychological Safety.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["growth", "topic/psychology"]
+tags: ["growth", "TheHuman/Psychology"]
 title: Cognitive Reframing of Criticism
 type: "concept"
 uid: 

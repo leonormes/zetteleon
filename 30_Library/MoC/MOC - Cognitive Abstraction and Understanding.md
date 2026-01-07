@@ -13,7 +13,7 @@ scope: "Cognitive aspects of abstraction and understanding."
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/cognition"]
+tags: ["TheHuman/Cognition"]
 title: MOC - Cognitive Abstraction and Understanding
 type: "map"
 uid: 

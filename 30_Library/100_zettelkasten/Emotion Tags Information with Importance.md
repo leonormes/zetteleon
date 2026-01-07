@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["amygdala", "emotion", "memory", "topic/cognition", "topic/cognition/mental-model"]
+tags: ["amygdala", "emotion", "memory", "TheHuman/Cognition", "TheHuman/Cognition/mental-model"]
 title: Emotion Tags Information with Importance
 type: "permanent"
 uid: 

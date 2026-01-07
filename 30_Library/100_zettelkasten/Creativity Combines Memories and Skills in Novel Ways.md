@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["The Neuroscience of Developer Cognition.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "problem-solving", "topic/cognition"]
+tags: ["TheHuman/Creativity", "problem-solving", "TheHuman/Cognition"]
 title: Creativity Combines Memories and Skills in Novel Ways
 type: "concept"
 uid: 

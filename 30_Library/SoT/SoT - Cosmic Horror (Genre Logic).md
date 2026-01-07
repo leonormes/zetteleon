@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Reality, Models, and the Limits of Accuracy]]", "[[SoT - Belief Architecture & Cognitive Spaces]]"]
 source_of_truth: []
 status: "stable"
-tags: ["genre", "philosophy", "horror", "cosmic-horror", "media-analysis"]
+tags: ["genre", "TheHuman/Philosophy", "horror", "cosmic-horror", "media-analysis"]
 title: SoT - Cosmic Horror (Genre Logic)
 type: "SoT"
 uid: 

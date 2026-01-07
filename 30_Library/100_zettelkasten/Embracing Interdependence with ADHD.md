@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["collaboration", "interdependence", "self-management", "strengths", "topic/health/adhd"]
+tags: ["collaboration", "interdependence", "self-management", "strengths", "TheHuman/Health/ADHD"]
 title: Embracing Interdependence with ADHD
 type: ""
 uid: 

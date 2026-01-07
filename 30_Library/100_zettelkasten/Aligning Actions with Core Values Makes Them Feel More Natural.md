@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Identity Emerges From Habits]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["action", "identity", "motivation", "topic/psychology", "values"]
+tags: ["action", "TheHuman/Identity", "TheHuman/Motivation", "TheHuman/Psychology", "values"]
 title: Aligning Actions with Core Values Makes Them Feel More Natural
 type: "concept"
 uid: 

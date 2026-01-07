@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "novelty", "topic/health/adhd", "writing"]
+tags: ["dopamine", "novelty", "TheHuman/Health/ADHD", "writing"]
 title: Novelty Prompts Increase Engagement in ADHD Writing
 type: "concept"
 uid: 

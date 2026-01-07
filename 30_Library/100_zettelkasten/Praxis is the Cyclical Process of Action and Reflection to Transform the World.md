@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Aristotle Distinguished Between Episteme, Techne, and Phronesis]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["action", "philosophy", "theory"]
+tags: ["action", "TheHuman/Philosophy", "theory"]
 title: Praxis is the Cyclical Process of Action and Reflection to Transform the World
 type: "concept"
 uid: 

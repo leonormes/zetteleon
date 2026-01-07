@@ -13,7 +13,7 @@ scope: ""
 see_also: []
 source_of_truth: []
 status: seedling
-tags: [topic/health/adhd]
+tags: ["TheHuman/Health/ADHD"]
 title: MOC - ADHD Hyperfixation-Burnout Cycle
 type: map
 uid:

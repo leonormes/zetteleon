@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["knowledge", "topic/cognition/thinking", "topic/learning"]
+tags: ["knowledge", "TheHuman/Cognition/thinking", "topic/learning"]
 title: Impact of Set 2 Breakthroughs
 type: "permanent"
 uid: 

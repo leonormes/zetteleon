@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[ADHD]]", "[[Executive Functions]]", "[[Timeboxing Creates Structure for Action]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["executive-function", "time-management", "topic/health/adhd", "topic/productivity"]
+tags: ["executive-function", "time-management", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Timeboxing is a Valuable Tool for ADHD
 type: "concept"
 uid: 

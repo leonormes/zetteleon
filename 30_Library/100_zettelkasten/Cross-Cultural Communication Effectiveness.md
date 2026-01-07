@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["cross-cultural-communication", "culture", "language", "topic/cognition/bias"]
+tags: ["cross-cultural-communication", "culture", "language", "TheHuman/Cognition/bias"]
 title: Cross-Cultural Communication Effectiveness
 type: ""
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Pattern Recognition Conferred an Evolutionary Survival Advantage]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["efficiency", "heuristics", "topic/cognition"]
+tags: ["efficiency", "heuristics", "TheHuman/Cognition"]
 title: Pattern Recognition is an Efficient Cognitive Heuristic
 type: "concept"
 uid: 

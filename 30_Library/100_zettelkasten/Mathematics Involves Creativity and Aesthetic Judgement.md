@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Beauty Is a Guiding Value in Mathematics]]", "[[The Process of Mathematical Discovery is Driven by Pattern Recognition]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["aesthetics", "creativity", "topic/maths"]
+tags: ["aesthetics", "TheHuman/Creativity", "topic/maths"]
 title: Mathematics Involves Creativity and Aesthetic Judgement
 type: "concept"
 uid: 

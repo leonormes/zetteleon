@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Micro-Stepping Reduces Cognitive Load for Task Initiation.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["topic/productivity", "topic/psychology"]
+tags: ["topic/productivity", "TheHuman/Psychology"]
 title: Problems Are Fundamental to Meaningful Work
 type: "concept"
 uid: 

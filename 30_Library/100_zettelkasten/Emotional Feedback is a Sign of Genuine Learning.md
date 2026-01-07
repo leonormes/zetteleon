@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["emotion", "feedback", "topic/cognition", "topic/learning"]
+tags: ["emotion", "feedback", "TheHuman/Cognition", "topic/learning"]
 title: Emotional Feedback is a Sign of Genuine Learning
 type: ""
 uid: 

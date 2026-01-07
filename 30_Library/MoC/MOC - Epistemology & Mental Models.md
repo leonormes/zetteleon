@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[MOC - Cognitive Biases]]", "[[MOC - ProdOS]]"]
 source_of_truth: []
 status: "stable"
-tags: ["epistemology", "index", "mental_models", "philosophy"]
+tags: ["epistemology", "index", "mental_models", "TheHuman/Philosophy"]
 title: MOC - Epistemology & Mental Models
 type: "map"
 uid: 

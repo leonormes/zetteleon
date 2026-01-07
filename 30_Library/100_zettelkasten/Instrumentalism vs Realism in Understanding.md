@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["philosophy-of-science", "topic/cognition/mental-model"]
+tags: ["philosophy-of-science", "TheHuman/Cognition/mental-model"]
 title: Instrumentalism vs Realism in Understanding
 type: "null"
 uid: 

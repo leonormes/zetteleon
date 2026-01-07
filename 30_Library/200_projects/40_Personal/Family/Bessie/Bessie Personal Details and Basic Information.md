@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["personal-info", "project/family/bessie"]
+tags: ["personal-info", "TheHuman/Family/Bessie"]
 title: Bessie Personal Details and Basic Information
 type: ""
 uid: 

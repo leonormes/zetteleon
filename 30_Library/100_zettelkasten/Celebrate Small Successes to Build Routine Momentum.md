@@ -10,7 +10,7 @@ review_interval: ""
 see_also: ["[[Dopamine Management in ADHD Productivity]]", "[[Kaizen Method Uses Micro-Victories to Build Momentum]]"]
 source_of_truth: []
 status: "stable"
-tags: ["motivation", "positive-reinforcement", "routine", "topic/habits"]
+tags: ["TheHuman/Motivation", "positive-reinforcement", "routine", "TheHuman/Habits"]
 title: Celebrate Small Successes to Build Routine Momentum
 type: "strategy"
 uid: 

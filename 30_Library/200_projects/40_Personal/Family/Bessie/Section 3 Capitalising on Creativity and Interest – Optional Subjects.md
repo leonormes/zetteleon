@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["curriculum", "gcse", "project/family/bessie"]
+tags: ["curriculum", "gcse", "TheHuman/Family/Bessie"]
 title: Section 3 Capitalising on Creativity and Interest – Optional Subjects
 type: ""
 uid: 

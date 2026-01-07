@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["remote-work", "topic/health/adhd", "topic/productivity", "zoom-fatigue"]
+tags: ["remote-work", "TheHuman/Health/ADHD", "topic/productivity", "zoom-fatigue"]
 title: Remote Work Lacks Structure and Can Overwhelm Developers with ADHD
 type: "concept"
 uid: 

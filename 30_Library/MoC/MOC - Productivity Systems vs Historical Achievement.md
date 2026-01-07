@@ -13,7 +13,7 @@ scope: ""
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["history", "topic/cognition", "topic/productivity", "topic/systems"]
+tags: ["history", "TheHuman/Cognition", "topic/productivity", "topic/systems"]
 title: MOC - Productivity Systems vs Historical Achievement
 type: "map"
 uid: 

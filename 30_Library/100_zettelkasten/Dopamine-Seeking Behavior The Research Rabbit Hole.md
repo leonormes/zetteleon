@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/health/adhd"]
+tags: ["TheHuman/Health/ADHD"]
 title: Dopamine-Seeking Behavior The Research Rabbit Hole
 type: "permanent"
 uid: 

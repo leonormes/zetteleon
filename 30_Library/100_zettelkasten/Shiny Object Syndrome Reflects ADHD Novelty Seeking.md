@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["topic/health/adhd", "topic/productivity"]
+tags: ["TheHuman/Health/ADHD", "topic/productivity"]
 title: Shiny Object Syndrome Reflects ADHD Novelty Seeking
 type: "concept"
 uid: 

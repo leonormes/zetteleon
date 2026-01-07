@@ -11,7 +11,7 @@ see_also: []
 source: "[[Gemini - Systems Habits and Past Achievements]]"
 source_of_truth: []
 status: "seedling"
-tags: ["energy-management", "metaphor", "motivation", "topic/productivity", "topic/systems"]
+tags: ["energy-management", "metaphor", "TheHuman/Motivation", "topic/productivity", "topic/systems"]
 title: The Water Metaphor for Motivation and Systems
 type: "metaphor"
 uid: 

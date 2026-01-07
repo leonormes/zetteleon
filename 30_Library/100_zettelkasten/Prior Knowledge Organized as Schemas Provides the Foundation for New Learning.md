@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["learning", "memory", "schema-theory", "topic/cognition"]
+tags: ["learning", "memory", "schema-theory", "TheHuman/Cognition"]
 title: Prior Knowledge Organized as Schemas Provides the Foundation for New Learning
 type: "concept"
 uid: 

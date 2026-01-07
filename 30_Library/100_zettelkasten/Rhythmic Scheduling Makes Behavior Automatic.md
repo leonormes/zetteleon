@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Timeboxing Creates Structure for Action]]", "[[Timeboxing Enables Rhythmic Consistency and Habit Formation]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["method", "scheduling", "time-management", "topic/habits", "topic/productivity"]
+tags: ["method", "scheduling", "time-management", "TheHuman/Habits", "topic/productivity"]
 title: Rhythmic Scheduling Makes Behavior Automatic
 type: "concept"
 uid: 

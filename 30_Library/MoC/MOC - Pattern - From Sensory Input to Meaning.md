@@ -13,7 +13,7 @@ scope: "The cognitive, evolutionary, and mathematical aspects of pattern recogni
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["maths", "pattern", "topic/cognition"]
+tags: ["maths", "pattern", "TheHuman/Cognition"]
 title: MOC - Pattern - From Sensory Input to Meaning
 type: "map"
 uid: 

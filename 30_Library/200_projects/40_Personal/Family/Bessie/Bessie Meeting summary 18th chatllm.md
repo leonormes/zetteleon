@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["project/family/bessie"]
+tags: ["TheHuman/Family/Bessie"]
 title: Bessie Meeting summary 18th chatllm
 type: "null"
 uid: 

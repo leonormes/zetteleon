@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[Familiarity is Mistaken for Comprehension in IoED]]", "[[MOC - Illusion of Explanatory Depth]]", "[[MOC ADHD and Metacognition]]", "[[SoT - ADHD and Motivation]]", "[[SoT - Knowledge Synthesis (Thinking)]]", "[[SoT - Thinking Patterns", "and Heuristics]]", "Biases"]
 source_of_truth: []
 status: "stable"
-tags: ["bias", "learning", "mental_models", "topic/cognition", "topic/health/adhd"]
+tags: ["bias", "learning", "mental_models", "TheHuman/Cognition", "TheHuman/Health/ADHD"]
 title: SoT - Illusion of Explanatory Depth (IoED)
 type: "SoT"
 uid: 

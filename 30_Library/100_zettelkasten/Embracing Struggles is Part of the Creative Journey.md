@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - You Need to Romanticize Your Process]]"
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "mindset", "resilience"]
+tags: ["TheHuman/Creativity", "TheHuman/Mindset", "resilience"]
 title: Embracing Struggles is Part of the Creative Journey
 type: "concept"
 uid: 

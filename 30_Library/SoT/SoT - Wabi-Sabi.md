@@ -10,7 +10,7 @@ review_interval: "12 months"
 see_also: ["[[SoT - Mindfulness and Emotional Regulation]]", "[[SoT - Values and Eudaimonia]]"]
 source_of_truth: []
 status: "stable"
-tags: ["aesthetics", "buddhism", "japanese_philosophy", "mindfulness", "philosophy", "resilience"]
+tags: ["aesthetics", "buddhism", "japanese_philosophy", "mindfulness", "TheHuman/Philosophy", "resilience"]
 title: SoT - Wabi-Sabi
 type: "SoT"
 uid: 

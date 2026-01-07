@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/cognition/mental-model"]
+tags: ["TheHuman/Cognition/mental-model"]
 title: Bug in the model
 type: "null"
 uid: 

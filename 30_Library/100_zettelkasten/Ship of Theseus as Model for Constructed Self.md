@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["identity", "metaphor", "philosophy", "self", "topic/philosophy"]
+tags: ["TheHuman/Identity", "metaphor", "TheHuman/Philosophy", "self", "topic/philosophy"]
 title: Ship of Theseus as Model for Constructed Self
 type: "concept"
 uid: 

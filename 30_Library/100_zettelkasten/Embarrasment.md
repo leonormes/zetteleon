@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["embarrassment", "emotion", "topic/health/adhd"]
+tags: ["embarrassment", "emotion", "TheHuman/Health/ADHD"]
 title: Embarrasment
 type: "permanent"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Optimal Memory Function Requires Sleep, Stress Management and Mental Exercise.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["neuroscience", "topic/productivity"]
+tags: ["TheHuman/Neuroscience", "topic/productivity"]
 title: Cognitive Health Practices for Technical Work
 type: "concept"
 uid: 

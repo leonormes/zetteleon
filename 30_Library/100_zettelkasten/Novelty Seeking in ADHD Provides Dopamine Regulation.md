@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Reduced Dopamine D2 D3 Receptors Impair Motivation in ADHD.md", "The ADHD Brain Operates as an Interest-Based Nervous System.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["neuroscience", "topic/health/adhd"]
+tags: ["TheHuman/Neuroscience", "TheHuman/Health/ADHD"]
 title: Novelty Seeking in ADHD Provides Dopamine Regulation
 type: "concept"
 uid: 

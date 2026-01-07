@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: []
 source_of_truth: []
 status: "stable"
-tags: ["ai", "epistemology", "llm", "mental-models", "philosophy", "topic/cognition"]
+tags: ["ai", "epistemology", "llm", "mental-models", "TheHuman/Philosophy", "TheHuman/Cognition"]
 title: SoT - Human vs AI Cognition
 type: "SoT"
 uid: 

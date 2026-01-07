@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["anthropomorphism", "HCI", "topic/psychology"]
+tags: ["anthropomorphism", "HCI", "TheHuman/Psychology"]
 title: Humans are primed to feel validated by conversational AI
 type: ""
 uid: 

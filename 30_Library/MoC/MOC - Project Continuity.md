@@ -13,7 +13,7 @@ scope: "Strategies for maintaining engagement and continuity in long-term projec
 see_also: []
 source_of_truth: []
 status: "stable"
-tags: ["topic/health/adhd", "topic/productivity"]
+tags: ["TheHuman/Health/ADHD", "topic/productivity"]
 title: MOC - Project Continuity
 type: "map"
 uid: 

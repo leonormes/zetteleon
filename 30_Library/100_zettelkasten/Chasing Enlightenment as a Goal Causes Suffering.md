@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Zen Defines Enlightenment as a Process Not a Destination]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["buddhism", "mindset", "suffering", "zen"]
+tags: ["buddhism", "TheHuman/Mindset", "suffering", "zen"]
 title: Chasing Enlightenment as a Goal Causes Suffering
 type: "concept"
 uid: 

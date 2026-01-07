@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["motivation", "project-management", "topic/productivity"]
+tags: ["TheHuman/Motivation", "project-management", "topic/productivity"]
 title: Context Preservation Techniques Maintain Project Novelty and Meaning
 type: "strategy"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["critical-thinking", "metacognition", "topic/cognition"]
+tags: ["critical-thinking", "metacognition", "TheHuman/Cognition"]
 title: Felt significance of thoughts can mislead about their substance
 type: "concept"
 uid: 

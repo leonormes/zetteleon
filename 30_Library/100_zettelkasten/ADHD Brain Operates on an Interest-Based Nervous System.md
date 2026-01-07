@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Logic Does Not Produce Dopamine]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: []
 status: "sapling"
-tags: ["dopamine", "metaphor", "motivation", "task-initiation", "topic/health/adhd"]
+tags: ["dopamine", "metaphor", "TheHuman/Motivation", "task-initiation", "TheHuman/Health/ADHD"]
 title: ADHD Brain Operates on an Interest-Based Nervous System
 type: "concept"
 uid: 

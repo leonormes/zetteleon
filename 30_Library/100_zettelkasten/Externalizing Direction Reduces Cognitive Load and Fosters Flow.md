@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Systems Act as External Containers for Motivational Energy]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["flow-state", "topic/cognition", "topic/productivity", "topic/systems", "working-memory"]
+tags: ["flow-state", "TheHuman/Cognition", "topic/productivity", "topic/systems", "working-memory"]
 title: Externalizing Direction Reduces Cognitive Load and Fosters Flow
 type: "concept"
 uid: 

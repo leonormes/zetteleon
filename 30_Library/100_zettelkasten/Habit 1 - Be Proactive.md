@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["principles", "proactivity", "responsibility", "topic/habits"]
+tags: ["principles", "proactivity", "responsibility", "TheHuman/Habits"]
 title: Habit 1 - Be Proactive
 type: ""
 uid: 

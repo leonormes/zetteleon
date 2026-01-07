@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Every Action is a Vote for a Desired Identity]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "identity", "small-wins", "topic/habits"]
+tags: ["behavior-change", "TheHuman/Identity", "small-wins", "TheHuman/Habits"]
 title: Small Habits Provide Evidence for a New Identity
 type: "concept"
 uid: 

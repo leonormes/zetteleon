@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["creativity", "mindset", "process"]
+tags: ["TheHuman/Creativity", "TheHuman/Mindset", "process"]
 title: MOC - You Need to Romanticize Your Process
 type: "map"
 uid: 

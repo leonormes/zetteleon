@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["beliefs", "reframing", "topic/cognition", "topic/cognition/bias"]
+tags: ["beliefs", "reframing", "TheHuman/Cognition", "TheHuman/Cognition/bias"]
 title: Common Cognitive Distortions
 type: "permanent"
 uid: 

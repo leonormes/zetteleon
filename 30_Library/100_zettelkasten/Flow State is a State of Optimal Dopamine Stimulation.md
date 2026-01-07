@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "topic/health/adhd", "topic/productivity", "topic/psychology"]
+tags: ["dopamine", "TheHuman/Health/ADHD", "topic/productivity", "TheHuman/Psychology"]
 title: Flow State is a State of Optimal Dopamine Stimulation
 type: "concept"
 uid: 

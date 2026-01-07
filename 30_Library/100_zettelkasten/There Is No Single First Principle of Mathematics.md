@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Mathematics Is Frequently Described as the Science of Patterns]]", "[[Structuralism (Mathematics as Study of Structure)]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["foundations", "philosophy", "topic/maths"]
+tags: ["foundations", "TheHuman/Philosophy", "topic/maths"]
 title: There Is No Single First Principle of Mathematics
 type: "concept"
 uid: 

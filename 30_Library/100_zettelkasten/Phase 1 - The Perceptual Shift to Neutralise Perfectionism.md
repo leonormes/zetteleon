@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["mindset", "perfectionism", "project/personal/prodos", "topic/psychology"]
+tags: ["TheHuman/Mindset", "perfectionism", "project/personal/prodos", "TheHuman/Psychology"]
 title: Phase 1 - The Perceptual Shift to Neutralise Perfectionism
 type: "null"
 uid: 

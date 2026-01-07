@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["adaptation", "confidence", "mental-model", "mindset", "process"]
+tags: ["adaptation", "confidence", "mental-model", "TheHuman/Mindset", "process"]
 title: Confidence as Trust in Process Not Certainty in Outcomes
 type: "concept"
 uid: 

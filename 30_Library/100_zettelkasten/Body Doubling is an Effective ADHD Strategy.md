@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["accountability", "focus", "strategies", "topic/health/adhd", "topic/productivity"]
+tags: ["accountability", "focus", "strategies", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Body Doubling is an Effective ADHD Strategy
 type: "permanent"
 uid: 

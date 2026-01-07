@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["environment", "topic/learning", "topic/productivity", "topic/psychology"]
+tags: ["environment", "topic/learning", "topic/productivity", "TheHuman/Psychology"]
 title: The Performer Upgrade Framework
 type: "null"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Memory Formation Involves Three Stages Encoding Consolidation and Retrieval]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["hippocampus", "memory", "neocortex", "neuroscience"]
+tags: ["hippocampus", "memory", "neocortex", "TheHuman/Neuroscience"]
 title: Systems Consolidation is the Gradual Reorganization of Memory in the Brain
 type: "concept"
 uid: 

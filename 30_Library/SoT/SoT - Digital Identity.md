@@ -13,7 +13,7 @@ see_also:
   - "[[SoT - Zero Trust Architecture]]"
 source_of_truth: []
 status: "Active"
-tags: ["identity", "iam", "SoftwareEngineering/Security", "SoftwareEngineering/Architecture", "concepts"]
+tags: ["TheHuman/Identity", "iam", "SoftwareEngineering/Security", "SoftwareEngineering/Architecture", "concepts"]
 title: SoT - Digital Identity
 type: "SoT"
 uid: 

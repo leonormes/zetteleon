@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[ADHD Hyperfixation-Burnout Cycle]]", "[[Dopamine Deficit Follows Hyperfixation Crash]]", "[[Hyperfixation Creates Time Blindness in ADHD]]", "[[The I've Cracked It Illusion During ADHD Hyperfixation]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "motivation", "neuroscience", "neurotransmitters", "topic/health/adhd", "topic/productivity/hyperfocus"]
+tags: ["dopamine", "TheHuman/Motivation", "TheHuman/Neuroscience", "neurotransmitters", "TheHuman/Health/ADHD", "topic/productivity/hyperfocus"]
 title: Hyperfixation and Neurotransmitter Flooding in ADHD
 type: "concept"
 uid: 

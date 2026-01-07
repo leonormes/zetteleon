@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - The Data Architecture of DNS]]", "[[SoT - The Extended Mind]]"]
 source_of_truth: []
 status: "stable"
-tags: ["language", "mirror_neurons", "neuroscience", "social_intelligence", "topic/cognition"]
+tags: ["language", "mirror_neurons", "TheHuman/Neuroscience", "social_intelligence", "TheHuman/Cognition"]
 title: SoT - Shared Models & Mirror Neurons
 type: "SoT"
 uid: 

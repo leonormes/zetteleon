@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["independence", "motivation", "project/family/bessie", "strengths"]
+tags: ["independence", "TheHuman/Motivation", "TheHuman/Family/Bessie", "strengths"]
 title: Capacity for Independent Work and Self-Motivation
 type: ""
 uid: 

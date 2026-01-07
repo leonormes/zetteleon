@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "stable"
-tags: ["error", "naive-realism", "topic/cognition", "topic/cognition/mental-model"]
+tags: ["error", "naive-realism", "TheHuman/Cognition", "TheHuman/Cognition/mental-model"]
 title: Mistaking the Map for the Territory
 type: "permanent"
 uid: 

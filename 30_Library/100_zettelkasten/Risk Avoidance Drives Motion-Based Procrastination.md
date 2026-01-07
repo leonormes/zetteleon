@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Action Involves Risk]]", "[[Motion Can Be a Procrastination Delay Tactic]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["avoidance", "procrastination", "risk", "topic/productivity", "topic/psychology"]
+tags: ["avoidance", "procrastination", "risk", "topic/productivity", "TheHuman/Psychology"]
 title: Risk Avoidance Drives Motion-Based Procrastination
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["developer_workflow", "mental_model", "topic/health/adhd", "topic/productivity"]
+tags: ["developer_workflow", "mental_model", "TheHuman/Health/ADHD", "topic/productivity"]
 title: SoT - Breaking the Creation Cycle
 type: "SoT"
 uid: 

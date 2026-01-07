@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - How To Create And Use Mini Routines]]"
 source_of_truth: []
 status: "seedling"
-tags: ["routines", "topic/health/adhd", "transitions"]
+tags: ["routines", "TheHuman/Health/ADHD", "transitions"]
 title: Event-based anchor points use activities as natural transitions
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["creativity", "topic/health/adhd", "topic/productivity/hyperfocus", "topic/productivity/procrastination"]
+tags: ["TheHuman/Creativity", "TheHuman/Health/ADHD", "topic/productivity/hyperfocus", "topic/productivity/procrastination"]
 title: The Duality of Novelty Seeking in ADHD
 type: "permanent"
 uid: 

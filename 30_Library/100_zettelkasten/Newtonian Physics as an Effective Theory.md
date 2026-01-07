@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["analogy", "effective-theory", "physics", "topic/cognition/mental-model"]
+tags: ["analogy", "effective-theory", "physics", "TheHuman/Cognition/mental-model"]
 title: Newtonian Physics as an Effective Theory
 type: "null"
 uid: 

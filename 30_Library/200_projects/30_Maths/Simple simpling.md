@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["project/family/bessie", "topic/maths"]
+tags: ["TheHuman/Family/Bessie", "topic/maths"]
 title: Simple simpling
 type: ""
 uid: 

@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Why Task Initiation is Difficult in ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["behavioral-therapy", "topic/health/adhd", "topic/productivity"]
+tags: ["behavioral-therapy", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Behavioral Interventions for ADHD Compensate for Neurobiological Deficits
 type: "concept"
 uid: 

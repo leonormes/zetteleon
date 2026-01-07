@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["momentum", "procrastination", "task-initiation", "topic/health/adhd", "topic/productivity"]
+tags: ["momentum", "procrastination", "task-initiation", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Procras-working Builds Momentum by Lowering Task Resistance
 type: "strategy"
 uid: 

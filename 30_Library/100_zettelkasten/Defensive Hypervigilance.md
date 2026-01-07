@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Authority Dynamics and ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["coping-strategies", "topic/health/adhd", "topic/psychology"]
+tags: ["coping-strategies", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
 title: Defensive Hypervigilance
 type: "concept"
 uid: 

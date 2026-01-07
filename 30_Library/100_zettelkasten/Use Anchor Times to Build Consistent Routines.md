@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["consistency", "routine", "time-management", "topic/habits"]
+tags: ["consistency", "routine", "time-management", "TheHuman/Habits"]
 title: Use Anchor Times to Build Consistent Routines
 type: "strategy"
 uid: 

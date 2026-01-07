@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["mindset", "reframing", "time-boxing", "topic/health/adhd"]
+tags: ["TheHuman/Mindset", "reframing", "time-boxing", "TheHuman/Health/ADHD"]
 title: Focus on Process Not Completion to Reduce ADHD Overwhelm
 type: "strategy"
 uid: 

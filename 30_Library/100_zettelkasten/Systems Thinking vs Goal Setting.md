@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Systems Thinking for Goal Achievement]]"
 source_of_truth: []
 status: "seedling"
-tags: ["goals", "mindset", "topic/productivity", "topic/systems"]
+tags: ["goals", "TheHuman/Mindset", "topic/productivity", "topic/systems"]
 title: Systems Thinking vs Goal Setting
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/health/adhd", "topic/productivity", "topic/productivity/hyperfocus", "topic/productivity/procrastination"]
+tags: ["TheHuman/Health/ADHD", "topic/productivity", "topic/productivity/hyperfocus", "topic/productivity/procrastination"]
 title: System Tweaking as a Form of Procrastination in ADHD
 type: "permanent"
 uid: 

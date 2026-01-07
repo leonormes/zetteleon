@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["intrinsic-motivation", "topic/habits", "topic/health/adhd", "values"]
+tags: ["intrinsic-motivation", "TheHuman/Habits", "TheHuman/Health/ADHD", "values"]
 title: Habit Change Must Align With Personal Values Not External Expectations
 type: "principle"
 uid: 

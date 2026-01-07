@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Higher Abstraction Levels Increase Breadth But Reduce Depth.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["memory", "topic/cognition"]
+tags: ["memory", "TheHuman/Cognition"]
 title: Understanding Compresses Information into Cognitive Chunks
 type: "concept"
 uid: 

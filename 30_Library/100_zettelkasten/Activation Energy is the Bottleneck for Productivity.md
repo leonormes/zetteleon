@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[The Starter Task Overcomes Activation Energy for ADHD]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["task-initiation", "topic/health/adhd", "topic/productivity", "topic/psychology"]
+tags: ["task-initiation", "TheHuman/Health/ADHD", "topic/productivity", "TheHuman/Psychology"]
 title: Activation Energy is the Bottleneck for Productivity
 type: "concept"
 uid: 

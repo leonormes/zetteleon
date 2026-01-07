@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "identity", "model", "topic/habits"]
+tags: ["behavior-change", "TheHuman/Identity", "model", "TheHuman/Habits"]
 title: Behavior Change Occurs on Three Layers Outcomes Process and Identity
 type: "concept"
 uid: 

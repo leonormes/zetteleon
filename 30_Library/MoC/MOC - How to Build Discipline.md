@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["discipline", "success", "topic/habits"]
+tags: ["discipline", "success", "TheHuman/Habits"]
 title: MOC - How to Build Discipline
 type: "map"
 uid: 

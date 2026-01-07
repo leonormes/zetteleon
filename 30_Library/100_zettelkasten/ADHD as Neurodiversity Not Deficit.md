@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["The ADHD Brain Operates as an Interest-Based Nervous System.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["neurodiversity", "topic/health/adhd"]
+tags: ["neurodiversity", "TheHuman/Health/ADHD"]
 title: ADHD as Neurodiversity Not Deficit
 type: "concept"
 uid: 

@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Phases of Task Execution and the Impact of ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["executive_function", "neuroscience", "self_monitoring", "topic/health/adhd"]
+tags: ["executive_function", "TheHuman/Neuroscience", "self_monitoring", "TheHuman/Health/ADHD"]
 title: ADHD is Associated with Reduced Error-Related Negativity (ERN) and Error Positivity (Pe)
 type: "concept"
 uid: 

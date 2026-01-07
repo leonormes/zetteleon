@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["abstraction", "topic/cognition"]
+tags: ["abstraction", "TheHuman/Cognition"]
 title: The Ladder of Abstraction Models Conceptual Granularity
 type: "concept"
 uid: 

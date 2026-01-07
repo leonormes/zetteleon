@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/health/adhd"]
+tags: ["TheHuman/Health/ADHD"]
 title: "What's Next Loop within Time Box (ADHD Superpower)"
 type: "permanent"
 uid: 

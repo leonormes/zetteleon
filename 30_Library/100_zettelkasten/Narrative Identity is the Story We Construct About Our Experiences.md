@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["identity", "narrative-identity", "self", "storytelling", "topic/psychology"]
+tags: ["TheHuman/Identity", "narrative-identity", "self", "storytelling", "TheHuman/Psychology"]
 title: Narrative Identity is the Story We Construct About Our Experiences
 type: "concept"
 uid: 

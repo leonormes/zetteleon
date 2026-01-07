@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[Cognitive Reframing of Criticism]]", "[[Reframing Negative Thought Patterns in ADHD]]", "[[SoT - ADHD Self-Compassion & Strengths]]", "[[SoT - Belief Architecture & Cognitive Spaces]]", "[[SoT - The Negativity Bias]]"]
 source_of_truth: []
 status: "stable"
-tags: ["cbt", "debugging", "mindset", "topic/health/adhd", "topic/psychology"]
+tags: ["cbt", "debugging", "TheHuman/Mindset", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
 title: SoT - Cognitive Refactoring (Neural Debugging)
 type: "SoT"
 uid: 

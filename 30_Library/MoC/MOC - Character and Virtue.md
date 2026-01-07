@@ -10,7 +10,7 @@ review_interval: "180"
 see_also: []
 source_of_truth: []
 status: "evergreen"
-tags: ["character", "topic/psychology", "virtue"]
+tags: ["character", "TheHuman/Psychology", "virtue"]
 title: MOC - Character and Virtue
 type: "map"
 uid: 

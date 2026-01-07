@@ -11,7 +11,7 @@ see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source: "[[MOC - ADHD Task Management]]"
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "hypothesis", "motivation", "task-switching", "topic/health/adhd", "topic/productivity"]
+tags: ["experiment", "hypothesis", "TheHuman/Motivation", "task-switching", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Designed Task Switching Leverages Dopamine Boosts for ADHD Motivation
 type: "hypothesis"
 uid: 

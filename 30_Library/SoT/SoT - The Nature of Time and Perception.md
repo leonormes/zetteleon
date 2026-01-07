@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Reality", "[[SoT - Temporal Management (Blocking and Boxing)]]", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[Time Without Human Perspective]]", "and the Limits of Accuracy]]", "Models"]
 source_of_truth: []
 status: "stable"
-tags: ["consciousness", "philosophy", "physics", "science", "time", "topic/psychology"]
+tags: ["consciousness", "TheHuman/Philosophy", "physics", "science", "time", "TheHuman/Psychology"]
 title: SoT - The Nature of Time and Perception
 type: "SoT"
 uid: 

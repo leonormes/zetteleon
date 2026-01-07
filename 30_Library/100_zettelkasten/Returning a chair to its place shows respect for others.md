@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - 8 simple Japanese habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["Japanese_culture", "mindfulness", "respect", "topic/habits"]
+tags: ["Japanese_culture", "mindfulness", "respect", "TheHuman/Habits"]
 title: Returning a chair to its place shows respect for others
 type: "concept"
 uid: 

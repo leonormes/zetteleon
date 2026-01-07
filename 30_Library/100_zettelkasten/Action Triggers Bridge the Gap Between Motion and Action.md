@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Implementation Intentions]]", "[[Motion Can Be a Procrastination Delay Tactic]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["implementation-intentions", "procrastination", "topic/habits", "topic/productivity"]
+tags: ["implementation-intentions", "procrastination", "TheHuman/Habits", "topic/productivity"]
 title: Action Triggers Bridge the Gap Between Motion and Action
 type: "tool"
 uid: 

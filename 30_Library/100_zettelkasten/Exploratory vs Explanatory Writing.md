@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/cognition/thinking", "topic/learning", "topic/pkm", "topic/pkm/zettelkasten", "topic/writing", "topic/writing/zinsser", "writing-process"]
+tags: ["TheHuman/Cognition/thinking", "topic/learning", "topic/pkm", "topic/pkm/zettelkasten", "topic/writing", "topic/writing/zinsser", "writing-process"]
 title: Exploratory vs Explanatory Writing
 type: "null"
 uid: 

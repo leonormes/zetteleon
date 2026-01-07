@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["empathy", "mirror-neurons", "neuroscience", "social-cognition"]
+tags: ["empathy", "mirror-neurons", "TheHuman/Neuroscience", "social-cognition"]
 title: Mirror Neuron System Enables Model Sharing
 type: "permanent"
 uid: 

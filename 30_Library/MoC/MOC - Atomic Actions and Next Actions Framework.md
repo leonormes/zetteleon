@@ -13,7 +13,7 @@ scope: Comprehensive framework for defining, organizing, and executing atomic ac
 see_also: []
 source_of_truth: []
 status: archived
-tags: [action, execution, gtd, topic/health/adhd, topic/productivity]
+tags: [action, execution, gtd, "TheHuman/Health/ADHD", topic/productivity]
 title: MOC - Atomic Actions and Next Actions Framework
 type: map
 uid: 2025-11-10T15:23:00Z

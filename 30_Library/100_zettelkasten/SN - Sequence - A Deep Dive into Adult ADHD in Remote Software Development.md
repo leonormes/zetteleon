@@ -13,7 +13,7 @@ scope: "The challenges, strengths, and strategies for remote software developers
 see_also: []
 source_of_truth: []
 status: "merged"
-tags: ["remote-work", "sequence", "software-development", "structural", "topic/health/adhd"]
+tags: ["remote-work", "sequence", "software-development", "structural", "TheHuman/Health/ADHD"]
 title: SN - Sequence - A Deep Dive into Adult ADHD in Remote Software Development
 type: "sn"
 uid: 

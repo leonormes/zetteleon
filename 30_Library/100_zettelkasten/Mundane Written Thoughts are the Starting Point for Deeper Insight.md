@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "process", "thinking", "writing"]
+tags: ["TheHuman/Creativity", "process", "thinking", "writing"]
 title: Mundane Written Thoughts are the Starting Point for Deeper Insight
 type: "concept"
 uid: 

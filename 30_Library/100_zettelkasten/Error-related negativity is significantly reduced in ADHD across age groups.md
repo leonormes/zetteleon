@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[ADHD shows reduced dorsolateral prefrontal cortex activation during sustained attention]]", "[[Performance monitoring activates anterior cingulate cortex]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["erp", "error-monitoring", "neurobiology", "topic/health/adhd"]
+tags: ["erp", "error-monitoring", "neurobiology", "TheHuman/Health/ADHD"]
 title: Error-related negativity is significantly reduced in ADHD across age groups
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["neurodiversity", "relationships", "RSD", "self-awareness", "topic/health/adhd"]
+tags: ["neurodiversity", "relationships", "RSD", "self-awareness", "TheHuman/Health/ADHD"]
 title: MOC - Understanding Self-Focus in Neurodivergent Individuals
 type: "map"
 uid: 

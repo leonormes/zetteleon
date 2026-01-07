@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Systems Thinking for Goal Achievement]]"
 source_of_truth: []
 status: "seedling"
-tags: ["consistency", "topic/habits", "topic/systems"]
+tags: ["consistency", "TheHuman/Habits", "topic/systems"]
 title: Consistency is More Important Than Intensity for Building Systems
 type: "concept"
 uid: 

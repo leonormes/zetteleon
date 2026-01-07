@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - 8 simple Japanese habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["Japanese_culture", "mindfulness", "topic/habits"]
+tags: ["Japanese_culture", "mindfulness", "TheHuman/Habits"]
 title: Organizing shoes fosters order and self-affirmation
 type: "concept"
 uid: 

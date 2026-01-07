@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Accumulating Evidence Reinforces Identity]]", "[[Every Action is a Vote for Who You Wish to Become]]", "[[Identity Emerges from Habits Not Fixed at Birth]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["etymology", "identity", "linguistics", "philosophy", "topic/habits"]
+tags: ["etymology", "TheHuman/Identity", "linguistics", "TheHuman/Philosophy", "TheHuman/Habits"]
 title: Identity Means Repeated Beingness
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["topic/health/adhd", "topic/productivity"]
+tags: ["TheHuman/Health/ADHD", "topic/productivity"]
 title: Gnawing Rats Metaphor for Avoided Tasks
 type: "example"
 uid: 

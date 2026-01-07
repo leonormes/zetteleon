@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Accumulating Evidence Reinforces Identity]]", "[[Identity Emerges from Habits Not Fixed at Birth]]", "[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "identity", "self-concept", "topic/habits", "topic/psychology"]
+tags: ["behavior-change", "TheHuman/Identity", "self-concept", "TheHuman/Habits", "TheHuman/Psychology"]
 title: Habits Are the Channel for Developing Beliefs About Self
 type: "concept"
 uid: 

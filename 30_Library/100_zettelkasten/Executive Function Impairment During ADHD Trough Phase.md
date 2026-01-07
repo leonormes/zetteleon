@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[ADHD Hangover or Brain Fog Following Hyperfixation]]", "[[ADHD Hyperfixation-Burnout Cycle]]", "[[Dopamine Deficit Follows Hyperfixation Crash]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["brain-fog", "executive-function", "topic/cognition", "topic/health/adhd"]
+tags: ["brain-fog", "executive-function", "TheHuman/Cognition", "TheHuman/Health/ADHD"]
 title: Executive Function Impairment During ADHD Trough Phase
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["emotions", "growth", "topic/psychology"]
+tags: ["emotions", "growth", "TheHuman/Psychology"]
 title: The Ping as a Signal for Growth
 type: "redirect"
 uid: 

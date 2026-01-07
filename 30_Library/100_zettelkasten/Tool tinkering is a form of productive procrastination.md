@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["meta-work", "topic/cognition/bias", "topic/productivity", "topic/productivity/procrastination"]
+tags: ["meta-work", "TheHuman/Cognition/bias", "topic/productivity", "topic/productivity/procrastination"]
 title: Tool tinkering is a form of productive procrastination
 type: "permanent"
 uid: 

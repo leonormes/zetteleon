@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["authenticity", "identity", "integrity", "topic/philosophy", "values"]
+tags: ["authenticity", "TheHuman/Identity", "integrity", "topic/philosophy", "values"]
 title: Integrity Means Acting in Accordance With Chosen Values
 type: "concept"
 uid: 

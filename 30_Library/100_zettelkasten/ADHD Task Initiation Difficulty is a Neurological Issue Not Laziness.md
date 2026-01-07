@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Neurological Basis of Task Initiation Difficulty in ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["laziness", "mindset", "motivation", "topic/health/adhd"]
+tags: ["laziness", "TheHuman/Mindset", "TheHuman/Motivation", "TheHuman/Health/ADHD"]
 title: ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness
 type: "concept"
 uid: 

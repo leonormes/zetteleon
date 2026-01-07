@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Phases of Task Execution and the Impact of ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["neuroscience", "theory", "topic/health/adhd"]
+tags: ["TheHuman/Neuroscience", "theory", "TheHuman/Health/ADHD"]
 title: The Neuroenergetic Deficit Theory Posits Chronic Energy Insufficiency in ADHD Brains
 type: "concept"
 uid: 

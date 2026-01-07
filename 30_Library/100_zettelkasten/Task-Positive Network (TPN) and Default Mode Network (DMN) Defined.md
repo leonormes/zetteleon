@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["brain-networks", "DMN", "neuroscience", "topic/health/adhd", "TPN"]
+tags: ["brain-networks", "DMN", "TheHuman/Neuroscience", "TheHuman/Health/ADHD", "TPN"]
 title: Task-Positive Network (TPN) and Default Mode Network (DMN) Defined
 type: "permanent"
 uid: 

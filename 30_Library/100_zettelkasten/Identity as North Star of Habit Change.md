@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Identity-Based Habits are More Resilient Than Goal-Based Habits]]", "[[Three Layers of Behavior Change Model]]", "[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "fundamentals", "identity", "strategy", "topic/habits"]
+tags: ["behavior-change", "fundamentals", "TheHuman/Identity", "strategy", "TheHuman/Habits"]
 title: Identity as North Star of Habit Change
 type: "concept"
 uid: 

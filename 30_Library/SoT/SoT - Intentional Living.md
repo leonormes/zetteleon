@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - Indistractable Model (Focus Management)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["habits", "intentionality", "mindfulness", "philosophy", "productivity", "deep_life"]
+tags: ["habits", "intentionality", "mindfulness", "TheHuman/Philosophy", "productivity", "deep_life"]
 title: SoT - Intentional Living
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["project/family/bessie"]
+tags: ["TheHuman/Family/Bessie"]
 title: Relatively Strong Core Academic Aptitudes (Verbal & Non-Verbal)
 type: ""
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["environment", "focus", "topic/health/adhd", "topic/productivity"]
+tags: ["environment", "focus", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Environmental and Physical Hacks for ADHD Focus
 type: "permanent"
 uid: 

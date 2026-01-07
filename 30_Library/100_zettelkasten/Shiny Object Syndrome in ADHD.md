@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["novelty", "topic/health/adhd", "topic/productivity/procrastination"]
+tags: ["novelty", "TheHuman/Health/ADHD", "topic/productivity/procrastination"]
 title: Shiny Object Syndrome in ADHD
 type: "permanent"
 uid: 

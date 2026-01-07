@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["budgeting", "finance", "topic/habits", "topic/psychology"]
+tags: ["budgeting", "finance", "TheHuman/Habits", "TheHuman/Psychology"]
 title: Use Intentional Friction to Curb Impulse Spending
 type: ""
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Performance monitoring activates anterior cingulate cortex]]", "[[Sustained attention activates right-lateralized fronto-parietal networks]]", "[[Task initiation requires prefrontal cortex activation and dopamine signaling]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["executive-function", "task-execution", "topic/psychology"]
+tags: ["executive-function", "task-execution", "TheHuman/Psychology"]
 title: Task execution consists of five distinct cognitive phases
 type: "concept"
 uid: 

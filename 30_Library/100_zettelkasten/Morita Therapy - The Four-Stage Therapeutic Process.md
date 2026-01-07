@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["morita-therapy", "therapy", "topic/psychology"]
+tags: ["morita-therapy", "therapy", "TheHuman/Psychology"]
 title: Morita Therapy - The Four-Stage Therapeutic Process
 type: "permanent"
 uid: 

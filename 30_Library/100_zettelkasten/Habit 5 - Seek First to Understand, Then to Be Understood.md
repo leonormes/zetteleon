@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["communication", "empathy", "principles", "topic/habits"]
+tags: ["communication", "empathy", "principles", "TheHuman/Habits"]
 title: Habit 5 - Seek First to Understand, Then to Be Understood
 type: ""
 uid: 

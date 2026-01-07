@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["constants", "topic/cognition/mental-model", "topic/maths"]
+tags: ["constants", "TheHuman/Cognition/mental-model", "topic/maths"]
 title: Mathematical Constants as Fundamental Ratios and Processes
 type: ""
 uid: 

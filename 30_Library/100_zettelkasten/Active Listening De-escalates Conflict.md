@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["AAA Framework for Handling Criticism.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["communication", "topic/psychology"]
+tags: ["communication", "TheHuman/Psychology"]
 title: Active Listening De-escalates Conflict
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: []
 source_of_truth: []
 status: "stable"
-tags: ["exercise", "health", "somatics", "topic/health/adhd"]
+tags: ["exercise", "health", "somatics", "TheHuman/Health/ADHD"]
 title: Resource - Animal Flow Movement Guide
 type: "Resource"
 uid: 

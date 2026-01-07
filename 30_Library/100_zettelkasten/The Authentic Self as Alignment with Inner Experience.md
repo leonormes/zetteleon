@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["authenticity", "self", "topic/psychology", "values"]
+tags: ["authenticity", "self", "TheHuman/Psychology", "values"]
 title: The Authentic Self as Alignment with Inner Experience
 type: ""
 uid: 

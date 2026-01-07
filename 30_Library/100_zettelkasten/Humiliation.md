@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["emotion", "topic/health/adhd"]
+tags: ["emotion", "TheHuman/Health/ADHD"]
 title: Humiliation
 type: "permanent"
 uid: 

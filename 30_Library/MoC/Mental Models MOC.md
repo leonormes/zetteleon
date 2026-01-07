@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["neuroscience", "topic/cognition", "topic/psychology"]
+tags: ["TheHuman/Neuroscience", "TheHuman/Cognition", "TheHuman/Psychology"]
 title: Mental Models MOC
 type: "map"
 uid: 

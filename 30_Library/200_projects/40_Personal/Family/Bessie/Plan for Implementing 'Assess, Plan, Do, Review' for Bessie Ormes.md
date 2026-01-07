@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["project/family/bessie"]
+tags: ["TheHuman/Family/Bessie"]
 title: "Plan for Implementing 'Assess, Plan, Do, Review' for Bessie Ormes"
 type: ""
 uid: 

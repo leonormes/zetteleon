@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - ADHD Routine Building Strategies]]"
 source_of_truth: []
 status: "seedling"
-tags: ["routines", "topic/habits", "topic/health/adhd", "topic/productivity"]
+tags: ["routines", "TheHuman/Habits", "TheHuman/Health/ADHD", "topic/productivity"]
 title: ADHD-friendly routines must be individualized and not based on neurotypical systems
 type: "concept"
 uid: 

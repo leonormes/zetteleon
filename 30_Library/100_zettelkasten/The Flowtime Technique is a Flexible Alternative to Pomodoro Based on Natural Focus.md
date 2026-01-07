@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[The Pomodoro Technique Uses Short Timed Intervals to Maintain Focus]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "flow-state", "focus", "topic/productivity"]
+tags: ["TheHuman/Creativity", "flow-state", "focus", "topic/productivity"]
 title: The Flowtime Technique is a Flexible Alternative to Pomodoro Based on Natural Focus
 type: "concept"
 uid: 

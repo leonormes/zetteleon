@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["communication", "evolution", "sociology", "topic/cognition"]
+tags: ["communication", "evolution", "sociology", "TheHuman/Cognition"]
 title: Collective Intelligence is Enabled by Communication
 type: ""
 uid: 

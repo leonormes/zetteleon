@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Neuroplasticity is the Foundation for Habit Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["knowledge", "neuroscience", "topic/cognition"]
+tags: ["knowledge", "TheHuman/Neuroscience", "TheHuman/Cognition"]
 title: Knowledge Formation is a Cognitive Process of Neural Connection
 type: "concept"
 uid: 

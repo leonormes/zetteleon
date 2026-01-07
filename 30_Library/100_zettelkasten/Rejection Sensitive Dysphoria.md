@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Authority Dynamics and ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["neurodiversity", "topic/health/adhd", "topic/psychology"]
+tags: ["neurodiversity", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
 title: Rejection Sensitive Dysphoria
 type: "concept"
 uid: 

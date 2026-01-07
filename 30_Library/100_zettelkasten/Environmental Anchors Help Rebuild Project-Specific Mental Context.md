@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["topic/habits", "topic/productivity", "topic/psychology"]
+tags: ["TheHuman/Habits", "topic/productivity", "TheHuman/Psychology"]
 title: Environmental Anchors Help Rebuild Project-Specific Mental Context
 type: "strategy"
 uid: 

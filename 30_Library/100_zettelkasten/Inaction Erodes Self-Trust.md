@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["confidence", "inaction", "self_esteem", "topic/psychology"]
+tags: ["confidence", "inaction", "self_esteem", "TheHuman/Psychology"]
 title: Inaction Erodes Self-Trust
 type: ""
 uid: 

@@ -13,7 +13,7 @@ scope: "A framework for understanding and breaking the overthinking-procrastinat
 see_also: []
 source_of_truth: []
 status: "stable"
-tags: ["executive-function", "procrastination", "topic/health/adhd", "topic/productivity", "topic/psychology"]
+tags: ["executive-function", "procrastination", "TheHuman/Health/ADHD", "topic/productivity", "TheHuman/Psychology"]
 title: MOC - Breaking the ADHD Overthinking-Procrastination Cycle
 type: "map"
 uid: 

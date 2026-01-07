@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["emotional-regulation", "therapy", "topic/health/adhd"]
+tags: ["emotional-regulation", "therapy", "TheHuman/Health/ADHD"]
 title: Morita Therapy - Applications for Anxiety, Perfectionism, and ADHD
 type: "permanent"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[ADHD Brain Constantly Scans for Dopamine-Rewarding Stimuli]]", "[[ADHD Brain is a Novelty-Seeking Machine]]", "[[ADHD Hyperfixation-Burnout Cycle]]", "[[Dopamine Deficit Follows Hyperfixation Crash]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "motivation", "neuroscience", "topic/health/adhd"]
+tags: ["dopamine", "TheHuman/Motivation", "TheHuman/Neuroscience", "TheHuman/Health/ADHD"]
 title: Dopamine Dysregulation is a Key Factor in ADHD Motivation
 type: "concept"
 uid: 

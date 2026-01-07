@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Deep Work]]", "[[Timeboxing Creates Structure for Action]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["deep-work", "time-management", "topic/productivity", "topic/psychology"]
+tags: ["deep-work", "time-management", "topic/productivity", "TheHuman/Psychology"]
 title: Timeboxing Combats the Principle of Least Resistance
 type: "concept"
 uid: 

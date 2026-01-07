@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "mental-model", "originality", "synthesis", "topic/creativity"]
+tags: ["TheHuman/Creativity", "mental-model", "originality", "synthesis", "topic/creativity"]
 title: Originality is Synthesis Not Creation From Nothing
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["novelty", "topic/cognition/bias", "topic/health/adhd"]
+tags: ["novelty", "TheHuman/Cognition/bias", "TheHuman/Health/ADHD"]
 title: Appeal to Novelty
 type: "permanent"
 uid: 

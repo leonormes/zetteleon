@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "insight", "morning-routine", "transitions"]
+tags: ["TheHuman/Creativity", "insight", "morning-routine", "transitions"]
 title: Transition Times Are Valuable Windows for Creative Insight
 type: "concept"
 uid: 

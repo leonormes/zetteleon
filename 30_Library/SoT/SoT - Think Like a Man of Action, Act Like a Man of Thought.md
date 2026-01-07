@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: ["[[Think Like a Man of Action]]"]
 source_of_truth: []
 status: "stable"
-tags: ["action", "thinking", "topic/health/adhd", "topic/productivity"]
+tags: ["action", "thinking", "TheHuman/Health/ADHD", "topic/productivity"]
 title: SoT - Think Like a Man of Action, Act Like a Man of Thought
 type: "SoT"
 uid: 

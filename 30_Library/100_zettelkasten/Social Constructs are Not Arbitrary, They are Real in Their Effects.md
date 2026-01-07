@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["meaning", "philosophy", "reality", "social-constructs"]
+tags: ["meaning", "TheHuman/Philosophy", "reality", "social-constructs"]
 title: Social Constructs are Not Arbitrary, They are Real in Their Effects
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["importance", "motivation", "neurotypical", "topic/health/adhd"]
+tags: ["importance", "TheHuman/Motivation", "neurotypical", "TheHuman/Health/ADHD"]
 title: Neurotypical motivation is primarily importance-driven
 type: "permanent"
 uid: 

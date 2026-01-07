@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["environment", "remote-work", "routine", "topic/health/adhd"]
+tags: ["environment", "remote-work", "routine", "TheHuman/Health/ADHD"]
 title: Environmental and Social Modifications Support Remote ADHD Productivity
 type: "concept"
 uid: 

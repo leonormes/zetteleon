@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["diagnosis", "neurodivergent", "project/family/bessie", "topic/health/adhd"]
+tags: ["diagnosis", "neurodivergent", "TheHuman/Family/Bessie", "TheHuman/Health/ADHD"]
 title: Bessie ADHD Diagnosis and Characteristics
 type: ""
 uid: 

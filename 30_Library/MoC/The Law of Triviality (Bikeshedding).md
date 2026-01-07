@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["sociology", "topic/cognition/bias", "topic/psychology"]
+tags: ["sociology", "TheHuman/Cognition/bias", "TheHuman/Psychology"]
 title: The Law of Triviality (Bikeshedding)
 type: "map"
 uid: 

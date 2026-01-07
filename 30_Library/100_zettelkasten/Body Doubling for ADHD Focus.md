@@ -10,7 +10,7 @@ review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source_of_truth: []
 status: "pending"
-tags: ["accountability", "experiment", "focus", "hypothesis", "topic/health/adhd", "topic/productivity"]
+tags: ["accountability", "experiment", "focus", "hypothesis", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Body Doubling for ADHD Focus
 type: "hypothesis"
 uid: 

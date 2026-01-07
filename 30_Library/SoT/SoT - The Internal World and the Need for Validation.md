@@ -10,7 +10,7 @@ review_interval: "12 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - Rejection Sensitive Dysphoria (RSD)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["creativity", "mental_models", "neurodivergence", "topic/psychology", "validation"]
+tags: ["TheHuman/Creativity", "mental_models", "neurodivergence", "TheHuman/Psychology", "validation"]
 title: SoT - The Internal World and the Need for Validation
 type: "SoT"
 uid: 

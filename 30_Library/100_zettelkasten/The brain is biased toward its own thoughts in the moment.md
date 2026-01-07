@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Thoughts are bundled with phenomenological qualities]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["bias", "metacognition", "topic/cognition"]
+tags: ["bias", "metacognition", "TheHuman/Cognition"]
 title: The brain is biased toward its own thoughts in the moment
 type: "concept"
 uid: 

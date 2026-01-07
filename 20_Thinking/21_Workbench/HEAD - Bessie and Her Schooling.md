@@ -11,7 +11,7 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: processing
-tags: [project/family/bessie]
+tags: ["TheHuman/Family/Bessie"]
 title: HEAD - Bessie and Her Schooling
 type: head
 uid:

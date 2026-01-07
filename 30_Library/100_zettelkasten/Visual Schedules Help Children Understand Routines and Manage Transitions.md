@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["autism", "family", "organization", "parenting", "tools", "topic/health/adhd"]
+tags: ["autism", "family", "organization", "parenting", "tools", "TheHuman/Health/ADHD"]
 title: Visual Schedules Help Children Understand Routines and Manage Transitions
 type: "concept"
 uid: 

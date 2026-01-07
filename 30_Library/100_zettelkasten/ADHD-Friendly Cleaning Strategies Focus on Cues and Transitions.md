@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - How to Organize a Cleaning Schedule]]"
 source_of_truth: []
 status: "seedling"
-tags: ["cleaning", "environmental-cues", "topic/habits", "topic/health/adhd"]
+tags: ["cleaning", "environmental-cues", "TheHuman/Habits", "TheHuman/Health/ADHD"]
 title: ADHD-Friendly Cleaning Strategies Focus on Cues and Transitions
 type: "concept"
 uid: 

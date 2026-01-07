@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[ADHD Hyperfixation-Burnout Cycle]]", "[[Hyperfixation and Neurotransmitter Flooding in ADHD]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["hyperfocus", "time-perception", "topic/cognition", "topic/health/adhd"]
+tags: ["hyperfocus", "time-perception", "TheHuman/Cognition", "TheHuman/Health/ADHD"]
 title: Hyperfixation Creates Time Blindness in ADHD
 type: "concept"
 uid: 

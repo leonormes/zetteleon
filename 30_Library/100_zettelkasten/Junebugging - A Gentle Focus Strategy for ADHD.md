@@ -10,7 +10,7 @@ review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "focus", "hypothesis", "self-compassion", "topic/health/adhd", "topic/productivity"]
+tags: ["experiment", "focus", "hypothesis", "self-compassion", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Junebugging - A Gentle Focus Strategy for ADHD
 type: "hypothesis"
 uid: 

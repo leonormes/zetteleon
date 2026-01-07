@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[Camus and the Absurd]]", "[[Camus's Three Responses to the Absurd]]", "[[Philosophical Critiques of Camus]]", "[[SoT - Contextual Myopia and Self-Referential Meaning]]", "[[SoT - The Internal World and the Need for Validation]]", "[[The Myth of Sisyphus as an Absurd Hero]]", "[[Understanding Absurdism]]"]
 source_of_truth: []
 status: "stable"
-tags: ["absurdism", "existentialism", "meaning", "philosophy"]
+tags: ["absurdism", "existentialism", "meaning", "TheHuman/Philosophy"]
 title: SoT - The Philosophy of the Absurd (Camus)
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["curriculum", "project/family/bessie"]
+tags: ["curriculum", "TheHuman/Family/Bessie"]
 title: Combined Science (AQA GCSE)
 type: ""
 uid: 

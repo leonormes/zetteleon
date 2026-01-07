@@ -10,7 +10,7 @@ review_interval: "12 months"
 see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Extended Mind]]"]
 source_of_truth: []
 status: "stable"
-tags: ["learning", "neuroscience", "psychology", "topic/cognition"]
+tags: ["learning", "TheHuman/Neuroscience", "psychology", "TheHuman/Cognition"]
 title: SoT - Working Memory & Schema Theory
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "evergreen"
-tags: ["character-strength", "creativity", "wisdom"]
+tags: ["character-strength", "TheHuman/Creativity", "wisdom"]
 title: Creativity is Thinking of Novel and Productive Ways to Do Things
 type: "concept"
 uid: 

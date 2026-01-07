@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["meta-work", "procrastination", "shame", "topic/health/adhd", "topic/productivity"]
+tags: ["meta-work", "procrastination", "shame", "TheHuman/Health/ADHD", "topic/productivity"]
 title: I have a lot of shame about my life
 type: "personal"
 uid: 

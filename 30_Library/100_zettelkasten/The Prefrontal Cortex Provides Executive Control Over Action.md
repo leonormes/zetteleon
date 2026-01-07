@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["brain", "executive-function", "neuroscience"]
+tags: ["brain", "executive-function", "TheHuman/Neuroscience"]
 title: The Prefrontal Cortex Provides Executive Control Over Action
 type: "concept"
 uid: 

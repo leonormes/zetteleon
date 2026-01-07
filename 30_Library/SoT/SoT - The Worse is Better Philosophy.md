@@ -10,7 +10,7 @@ review_interval: "12 months"
 see_also: ["[[SoT - Pragmatism vs Rigour in Software]]"]
 source_of_truth: []
 status: "stable"
-tags: ["market-dynamics", "philosophy", "software-design"]
+tags: ["market-dynamics", "TheHuman/Philosophy", "software-design"]
 title: SoT - The Worse is Better Philosophy
 type: "SoT"
 uid: 

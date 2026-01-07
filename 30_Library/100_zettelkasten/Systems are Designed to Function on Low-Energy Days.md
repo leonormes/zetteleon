@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Systems Thinking for Goal Achievement]]"
 source_of_truth: []
 status: "seedling"
-tags: ["energy-management", "topic/habits", "topic/health/adhd", "topic/systems"]
+tags: ["energy-management", "TheHuman/Habits", "TheHuman/Health/ADHD", "topic/systems"]
 title: Systems are Designed to Function on Low-Energy Days
 type: "concept"
 uid: 

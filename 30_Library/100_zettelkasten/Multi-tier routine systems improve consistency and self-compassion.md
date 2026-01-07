@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Honeyman Method]]"
 source_of_truth: []
 status: "seedling"
-tags: ["autism", "outcomes", "routines", "self-compassion", "topic/health/adhd"]
+tags: ["autism", "outcomes", "routines", "self-compassion", "TheHuman/Health/ADHD"]
 title: Multi-tier routine systems improve consistency and self-compassion
 type: "concept"
 uid: 

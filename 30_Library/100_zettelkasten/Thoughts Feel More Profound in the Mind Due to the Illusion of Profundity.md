@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["epistemology", "thinking", "topic/cognition", "writing"]
+tags: ["epistemology", "thinking", "TheHuman/Cognition", "writing"]
 title: Thoughts Feel More Profound in the Mind Due to the Illusion of Profundity
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[ADHD Brain is a Novelty-Seeking Machine]]", "[[ADHD Hyperfixation-Burnout Cycle]]", "[[ADHD Systems Fail When They Become Monotonous]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["novelty", "strategy", "topic/health/adhd", "topic/productivity", "topic/systems"]
+tags: ["novelty", "strategy", "TheHuman/Health/ADHD", "topic/productivity", "topic/systems"]
 title: Build Novelty and Flexibility Into ADHD Systems
 type: "strategy"
 uid: 

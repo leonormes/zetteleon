@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Thoughts are bundled with phenomenological qualities]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["metacognition", "topic/cognition", "writing"]
+tags: ["metacognition", "TheHuman/Cognition", "writing"]
 title: Writing isolates propositional content from phenomenological experience
 type: "concept"
 uid: 

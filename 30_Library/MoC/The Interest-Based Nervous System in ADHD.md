@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["dopamine", "motivation", "topic/health/adhd"]
+tags: ["dopamine", "TheHuman/Motivation", "TheHuman/Health/ADHD"]
 title: The Interest-Based Nervous System in ADHD
 type: "map"
 uid: 

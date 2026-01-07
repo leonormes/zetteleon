@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["teamwork", "topic/psychology"]
+tags: ["teamwork", "TheHuman/Psychology"]
 title: Constructive Debate in Psychological Safety
 type: "concept"
 uid: 

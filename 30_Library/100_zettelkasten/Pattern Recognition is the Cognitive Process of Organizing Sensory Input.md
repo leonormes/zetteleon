@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[The Brain is a Pattern-Seeking Engine]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["learning", "perception", "topic/cognition"]
+tags: ["learning", "perception", "TheHuman/Cognition"]
 title: Pattern Recognition is the Cognitive Process of Organizing Sensory Input
 type: "concept"
 uid: 

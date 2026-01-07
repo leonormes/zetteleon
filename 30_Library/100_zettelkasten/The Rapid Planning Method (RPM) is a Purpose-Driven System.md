@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["goals", "motivation", "purpose", "topic/productivity", "topic/systems"]
+tags: ["goals", "TheHuman/Motivation", "purpose", "topic/productivity", "topic/systems"]
 title: The Rapid Planning Method (RPM) is a Purpose-Driven System
 type: "concept"
 uid: 

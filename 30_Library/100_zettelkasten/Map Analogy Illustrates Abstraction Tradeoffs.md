@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Higher Abstraction Levels Increase Breadth But Reduce Depth.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["topic/cognition", "visualization"]
+tags: ["TheHuman/Cognition", "visualization"]
 title: Map Analogy Illustrates Abstraction Tradeoffs
 type: "example"
 uid: 

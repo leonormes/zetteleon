@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "hyperfocus", "strengths", "topic/health/adhd"]
+tags: ["TheHuman/Creativity", "hyperfocus", "strengths", "TheHuman/Health/ADHD"]
 title: ADHD is Associated with Strengths like Hyperfocus and Creativity
 type: "concept"
 uid: 

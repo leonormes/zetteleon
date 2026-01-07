@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["focus", "interest", "motivation", "topic/health/adhd", "topic/productivity/hyperfocus"]
+tags: ["focus", "interest", "TheHuman/Motivation", "TheHuman/Health/ADHD", "topic/productivity/hyperfocus"]
 title: Hyperfocus is a State of Intense Interest-Driven Focus in ADHD
 type: "permanent"
 uid: 

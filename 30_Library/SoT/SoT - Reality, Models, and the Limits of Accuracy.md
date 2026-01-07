@@ -10,7 +10,7 @@ review_interval: "12 months"
 see_also: ["[[SoT - Naïve Realism]]", "[[SoT - Predictive Processing & The Bayesian Brain]]", "[[SoT - The User Interface of the Self]]"]
 source_of_truth: []
 status: "stable"
-tags: ["epistemology", "logic", "mental_models", "philosophy", "topic/cognition"]
+tags: ["epistemology", "logic", "mental_models", "TheHuman/Philosophy", "TheHuman/Cognition"]
 title: SoT - Reality, Models, and the Limits of Accuracy
 type: "SoT"
 uid: 

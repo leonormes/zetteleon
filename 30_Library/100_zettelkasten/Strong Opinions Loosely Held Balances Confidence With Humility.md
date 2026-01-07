@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["adaptation", "decision-making", "intellectual-humility", "mental-model", "mindset"]
+tags: ["adaptation", "decision-making", "intellectual-humility", "mental-model", "TheHuman/Mindset"]
 title: Strong Opinions Loosely Held Balances Confidence With Humility
 type: "concept"
 uid: 

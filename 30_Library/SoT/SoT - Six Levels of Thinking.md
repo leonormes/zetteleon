@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["awareness", "mental_model", "metacognition", "topic/psychology"]
+tags: ["awareness", "mental_model", "metacognition", "TheHuman/Psychology"]
 title: SoT - Six Levels of Thinking
 type: "SoT"
 uid: 

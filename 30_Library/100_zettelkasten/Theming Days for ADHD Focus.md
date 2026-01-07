@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["focus", "planning", "topic/health/adhd", "topic/productivity"]
+tags: ["focus", "planning", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Theming Days for ADHD Focus
 type: "permanent"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source_of_truth: []
 status: "pending"
-tags: ["ai", "executive-function", "experiment", "hypothesis", "templates", "topic/health/adhd", "topic/productivity"]
+tags: ["ai", "executive-function", "experiment", "hypothesis", "templates", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Leveraging AI and Templates for ADHD Productivity
 type: "hypothesis"
 uid: 

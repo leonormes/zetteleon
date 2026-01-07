@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/cognition/bias", "topic/psychology"]
+tags: ["TheHuman/Cognition/bias", "TheHuman/Psychology"]
 title: Commitment, Consistency, and Sunk Cost Fallacy
 type: ""
 uid: 

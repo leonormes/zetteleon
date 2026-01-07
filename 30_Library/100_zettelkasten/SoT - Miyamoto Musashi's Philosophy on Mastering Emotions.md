@@ -10,7 +10,7 @@ review_interval: ""
 see_also: ["[[Miyamoto Musashi]]", "[[SoT - Stoicism]]"]
 source_of_truth: []
 status: "stable"
-tags: ["emotional_regulation", "musashi", "philosophy", "stoicism", "strategy"]
+tags: ["emotional_regulation", "musashi", "TheHuman/Philosophy", "stoicism", "strategy"]
 title: "SoT - Miyamoto Musashi's Philosophy on Mastering Emotions"
 type: "SoT"
 uid: 

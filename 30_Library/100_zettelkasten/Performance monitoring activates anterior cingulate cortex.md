@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Error-related negativity is significantly reduced in ADHD across age groups]]", "[[Task execution consists of five distinct cognitive phases]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["anterior-cingulate", "neuroscience", "performance-monitoring"]
+tags: ["anterior-cingulate", "TheHuman/Neuroscience", "performance-monitoring"]
 title: Performance monitoring activates anterior cingulate cortex
 type: "concept"
 uid: 

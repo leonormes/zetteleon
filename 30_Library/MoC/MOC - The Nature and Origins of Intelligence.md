@@ -13,7 +13,7 @@ scope: "Definitions, components, and examples of intelligence across life forms.
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["intelligence", "topic/cognition"]
+tags: ["intelligence", "TheHuman/Cognition"]
 title: MOC - The Nature and Origins of Intelligence
 type: "map"
 uid: 

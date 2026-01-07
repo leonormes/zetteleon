@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Felt significance of thoughts can mislead about their substance]]", "[[The brain is biased toward its own thoughts in the moment]]", "[[Writing isolates propositional content from phenomenological experience]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["metacognition", "phenomenology", "topic/cognition"]
+tags: ["metacognition", "phenomenology", "TheHuman/Cognition"]
 title: Thoughts are bundled with phenomenological qualities
 type: "concept"
 uid: 

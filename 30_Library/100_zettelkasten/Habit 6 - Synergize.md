@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["cooperation", "creativity", "principles", "topic/habits"]
+tags: ["cooperation", "TheHuman/Creativity", "principles", "TheHuman/Habits"]
 title: Habit 6 - Synergize
 type: ""
 uid: 

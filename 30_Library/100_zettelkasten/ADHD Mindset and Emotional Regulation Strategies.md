@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["emotional_regulation", "mindset", "topic/health/adhd", "topic/psychology"]
+tags: ["emotional_regulation", "TheHuman/Mindset", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
 title: ADHD Mindset and Emotional Regulation Strategies
 type: "permanent"
 uid: 

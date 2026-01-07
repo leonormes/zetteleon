@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/health/adhd"]
+tags: ["TheHuman/Health/ADHD"]
 title: The ADHD nervous system is primarily interest-driven
 type: "permanent"
 uid: 

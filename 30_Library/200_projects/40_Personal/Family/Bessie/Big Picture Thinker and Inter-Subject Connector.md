@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["connections", "project/family/bessie", "strengths", "topic/cognition/thinking"]
+tags: ["connections", "TheHuman/Family/Bessie", "strengths", "TheHuman/Cognition/thinking"]
 title: Big Picture Thinker and Inter-Subject Connector
 type: ""
 uid: 

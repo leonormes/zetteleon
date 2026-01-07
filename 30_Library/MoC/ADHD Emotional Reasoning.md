@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["emotion", "topic/cognition", "topic/cognition/bias", "topic/health/adhd"]
+tags: ["emotion", "TheHuman/Cognition", "TheHuman/Cognition/bias", "TheHuman/Health/ADHD"]
 title: ADHD Emotional Reasoning
 type: "map"
 uid: 

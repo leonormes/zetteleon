@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["chronobiology", "energy-management", "topic/habits", "topic/productivity"]
+tags: ["chronobiology", "energy-management", "TheHuman/Habits", "topic/productivity"]
 title: The Day Can Be Divided Into Three Phases for Habit Mapping
 type: "concept"
 uid: 

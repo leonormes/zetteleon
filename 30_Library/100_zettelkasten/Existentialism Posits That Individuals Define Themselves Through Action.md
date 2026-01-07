@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["action", "choice", "existentialism", "identity", "philosophy"]
+tags: ["action", "choice", "existentialism", "TheHuman/Identity", "TheHuman/Philosophy"]
 title: Existentialism Posits That Individuals Define Themselves Through Action
 type: "concept"
 uid: 

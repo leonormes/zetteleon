@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]", "[[SoT - Human vs AI Cognition]]", "[[SoT - The Extended Mind]]"]
 source_of_truth: []
 status: "stable"
-tags: ["agency", "cognitive_science", "identity", "mental_models", "neuroscience"]
+tags: ["agency", "cognitive_science", "TheHuman/Identity", "mental_models", "TheHuman/Neuroscience"]
 title: SoT - The User Interface of the Self
 type: "SoT"
 uid: 

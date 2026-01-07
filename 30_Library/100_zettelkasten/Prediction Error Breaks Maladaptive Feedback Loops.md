@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["feedback_loop", "topic/cognition", "topic/learning", "topic/psychology"]
+tags: ["feedback_loop", "TheHuman/Cognition", "topic/learning", "TheHuman/Psychology"]
 title: Prediction Error Breaks Maladaptive Feedback Loops
 type: "null"
 uid: 

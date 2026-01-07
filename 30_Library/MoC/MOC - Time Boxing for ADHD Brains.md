@@ -13,7 +13,7 @@ scope: "Comprehensive strategies for using time boxing as an ADHD productivity t
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["time-boxing", "topic/health/adhd", "topic/productivity"]
+tags: ["time-boxing", "TheHuman/Health/ADHD", "topic/productivity"]
 title: MOC - Time Boxing for ADHD Brains
 type: "map"
 uid: 

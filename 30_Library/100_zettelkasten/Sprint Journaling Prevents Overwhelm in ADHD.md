@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
 source_of_truth: []
 status: "seedling"
-tags: ["time-management", "topic/health/adhd", "topic/productivity", "writing"]
+tags: ["time-management", "TheHuman/Health/ADHD", "topic/productivity", "writing"]
 title: Sprint Journaling Prevents Overwhelm in ADHD
 type: "concept"
 uid: 

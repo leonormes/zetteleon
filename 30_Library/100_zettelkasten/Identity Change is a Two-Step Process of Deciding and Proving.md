@@ -10,7 +10,7 @@ review_interval: "180"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "identity", "strategy", "topic/habits"]
+tags: ["behavior-change", "TheHuman/Identity", "strategy", "TheHuman/Habits"]
 title: Identity Change is a Two-Step Process of Deciding and Proving
 type: "instructional"
 uid: 

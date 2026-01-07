@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Gettier Problems Challenge the Traditional Definition of Knowledge]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["epistemology", "knowledge", "philosophy"]
+tags: ["epistemology", "knowledge", "TheHuman/Philosophy"]
 title: The Traditional Definition of Knowledge is Justified True Belief
 type: "concept"
 uid: 

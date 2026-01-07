@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Authority Dynamics and ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["social-dynamics", "topic/psychology"]
+tags: ["social-dynamics", "TheHuman/Psychology"]
 title: Shame as Social Regulatory Mechanism
 type: "concept"
 uid: 

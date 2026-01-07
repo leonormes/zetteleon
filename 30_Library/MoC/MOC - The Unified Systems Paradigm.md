@@ -23,7 +23,7 @@ tags:
   - type/moc
   - "SoftwareEngineering/Architecture"
   - root
-  - philosophy
+  - "TheHuman/Philosophy"
 title: MOC - The Unified Systems Paradigm
 type: map
 uid:

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Heuristic Experimentation Drives Mathematical Insight]]", "[[The Process of Mathematical Discovery is Driven by Pattern Recognition]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["topic/cognition", "topic/maths", "visualization"]
+tags: ["TheHuman/Cognition", "topic/maths", "visualization"]
 title: Visualization Supports Mathematical Thinking
 type: "strategy"
 uid: 

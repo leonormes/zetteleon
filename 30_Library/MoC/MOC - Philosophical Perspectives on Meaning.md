@@ -12,7 +12,7 @@ scope: "Theories of meaning from philosophy"
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["philosophy"]
+tags: ["TheHuman/Philosophy"]
 title: MOC - Philosophical Perspectives on Meaning
 type: "map"
 uid: 

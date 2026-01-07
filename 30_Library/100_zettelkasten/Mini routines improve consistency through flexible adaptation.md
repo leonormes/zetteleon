@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - How To Create And Use Mini Routines]]"
 source_of_truth: []
 status: "seedling"
-tags: ["consistency", "routines", "topic/health/adhd"]
+tags: ["consistency", "routines", "TheHuman/Health/ADHD"]
 title: Mini routines improve consistency through flexible adaptation
 type: "concept"
 uid: 

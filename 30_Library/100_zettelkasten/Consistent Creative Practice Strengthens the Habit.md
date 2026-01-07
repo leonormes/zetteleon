@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - You Need to Romanticize Your Process]]"
 source_of_truth: []
 status: "seedling"
-tags: ["consistency", "creativity", "topic/habits"]
+tags: ["consistency", "TheHuman/Creativity", "TheHuman/Habits"]
 title: Consistent Creative Practice Strengthens the Habit
 type: "concept"
 uid: 

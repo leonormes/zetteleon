@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "design", "environment", "nudge", "topic/psychology"]
+tags: ["behavior-change", "design", "environment", "nudge", "TheHuman/Psychology"]
 title: Choice Architecture Designs the Environment to Make Desired Behaviors Easier
 type: "concept"
 uid: 

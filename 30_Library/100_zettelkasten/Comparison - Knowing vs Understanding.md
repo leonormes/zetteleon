@@ -12,7 +12,7 @@ see_also: []
 source_of_truth: []
 status: ""
 subject: "Knowing vs Understanding"
-tags: ["comparison", "topic/cognition"]
+tags: ["comparison", "TheHuman/Cognition"]
 title: Comparison - Knowing vs Understanding
 type: "comparison"
 uid: 

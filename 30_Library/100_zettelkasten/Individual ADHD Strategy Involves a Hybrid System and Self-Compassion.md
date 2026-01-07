@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["self-management", "strategies", "topic/health/adhd", "topic/productivity"]
+tags: ["self-management", "strategies", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Individual ADHD Strategy Involves a Hybrid System and Self-Compassion
 type: "concept"
 uid: 

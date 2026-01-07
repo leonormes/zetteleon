@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: ["[[SoT - Deep Learning & Mastery]]", "[[SoT - Reading and the Brain]]"]
 source_of_truth: []
 status: "stable"
-tags: ["cognition", "dopamine", "learning", "neuroscience", "topic/cognition"]
+tags: ["cognition", "dopamine", "learning", "TheHuman/Neuroscience", "TheHuman/Cognition"]
 title: SoT - Learning Mechanisms
 type: "SoT"
 uid: 

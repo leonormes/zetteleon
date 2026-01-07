@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - How to Organize a Cleaning Schedule]]"
 source_of_truth: []
 status: "seedling"
-tags: ["cleaning", "routines", "topic/habits"]
+tags: ["cleaning", "routines", "TheHuman/Habits"]
 title: Daily Cleaning Should Focus on Clutter Bottlenecks
 type: "concept"
 uid: 

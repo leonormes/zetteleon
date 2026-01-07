@@ -11,7 +11,7 @@ see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source: "[[MOC - ADHD Task Management]]"
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "hypothesis", "language", "motivation", "reframing", "topic/health/adhd", "topic/productivity"]
+tags: ["experiment", "hypothesis", "language", "TheHuman/Motivation", "reframing", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Reframing Language from Obligation to Purpose Boosts ADHD Task Initiation
 type: "hypothesis"
 uid: 

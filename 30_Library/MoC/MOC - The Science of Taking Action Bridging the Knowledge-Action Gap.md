@@ -13,7 +13,7 @@ scope: "The science and philosophy of taking action, focusing on the gap between
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["action", "neuroscience", "philosophy", "topic/productivity", "topic/psychology"]
+tags: ["action", "TheHuman/Neuroscience", "TheHuman/Philosophy", "topic/productivity", "TheHuman/Psychology"]
 title: MOC - The Science of Taking Action Bridging the Knowledge-Action Gap
 type: "map"
 uid: 

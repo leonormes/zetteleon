@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["brainstorming", "creativity", "problem-solving", "topic/cognition/thinking"]
+tags: ["brainstorming", "TheHuman/Creativity", "problem-solving", "TheHuman/Cognition/thinking"]
 title: The Drill Down Phase of Thinking Follows Brainstorming
 type: "null"
 uid: 

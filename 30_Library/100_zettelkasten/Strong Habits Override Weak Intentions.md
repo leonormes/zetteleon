@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["intentions", "motivation", "topic/habits", "topic/systems"]
+tags: ["intentions", "TheHuman/Motivation", "TheHuman/Habits", "topic/systems"]
 title: Strong Habits Override Weak Intentions
 type: "concept"
 uid: 

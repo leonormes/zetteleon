@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["knowledge-management", "pkm", "synthesis", "thinking", "topic/cognition"]
+tags: ["knowledge-management", "pkm", "synthesis", "thinking", "TheHuman/Cognition"]
 title: SoT - Evolutionary Note System
 type: "SoT"
 uid: 

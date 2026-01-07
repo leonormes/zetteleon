@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Atomic Actions and Next Actions]]", "[[MOC - Why Task Initiation is Difficult in ADHD]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["momentum", "strategy", "task-initiation", "topic/health/adhd", "topic/productivity"]
+tags: ["momentum", "strategy", "task-initiation", "TheHuman/Health/ADHD", "topic/productivity"]
 title: MOC - The Momentum Method
 type: "map"
 uid: 

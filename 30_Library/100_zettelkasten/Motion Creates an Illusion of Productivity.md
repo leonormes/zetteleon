@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["procrastination", "self-deception", "topic/productivity", "topic/psychology"]
+tags: ["procrastination", "self-deception", "topic/productivity", "TheHuman/Psychology"]
 title: Motion Creates an Illusion of Productivity
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["efficiency", "evolution", "perception", "topic/cognition"]
+tags: ["efficiency", "evolution", "perception", "TheHuman/Cognition"]
 title: Mental Models as Evolutionary Filters
 type: "null"
 uid: 

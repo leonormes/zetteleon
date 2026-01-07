@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - ADHD Self-Compassion & Strengths]]", "[[SoT - Cognitive Ambiguity and Deep Thinking]]", "[[SoT - Cognitive Refactoring (Neural Debugging)]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - The Explorer Mindset (Overcoming Imposter Syndrome)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["beliefs", "cognition", "mental_models", "mindset", "topic/psychology"]
+tags: ["beliefs", "cognition", "mental_models", "TheHuman/Mindset", "TheHuman/Psychology"]
 title: SoT - Belief Architecture & Cognitive Spaces
 type: "SoT"
 uid: 

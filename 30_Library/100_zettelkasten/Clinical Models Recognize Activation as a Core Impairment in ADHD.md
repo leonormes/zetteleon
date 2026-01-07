@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Neuroscience of Task Initiation in ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["assessment", "diagnosis", "executive-function", "topic/health/adhd"]
+tags: ["assessment", "diagnosis", "executive-function", "TheHuman/Health/ADHD"]
 title: Clinical Models Recognize Activation as a Core Impairment in ADHD
 type: "concept"
 uid: 

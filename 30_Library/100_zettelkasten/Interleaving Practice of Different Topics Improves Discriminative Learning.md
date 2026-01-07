@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["interleaving", "learning", "topic/habits"]
+tags: ["interleaving", "learning", "TheHuman/Habits"]
 title: Interleaving Practice of Different Topics Improves Discriminative Learning
 type: "concept"
 uid: 

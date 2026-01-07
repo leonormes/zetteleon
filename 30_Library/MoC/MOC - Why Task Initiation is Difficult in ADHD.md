@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["executive-function", "task-initiation", "topic/health/adhd"]
+tags: ["executive-function", "task-initiation", "TheHuman/Health/ADHD"]
 title: MOC - Why Task Initiation is Difficult in ADHD
 type: "map"
 uid: 

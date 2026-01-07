@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Executive Function Challenges are Central to ADHD]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["executive-function", "gtd", "system-trust", "topic/health/adhd", "topic/productivity"]
+tags: ["executive-function", "gtd", "system-trust", "TheHuman/Health/ADHD", "topic/productivity"]
 title: For ADHD The Clarification Process Externalizes Decision-Making and Builds System Trust
 type: "concept"
 uid: 

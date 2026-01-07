@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["authenticity", "philosophy", "self", "sociology", "topic/psychology"]
+tags: ["authenticity", "TheHuman/Philosophy", "self", "sociology", "TheHuman/Psychology"]
 title: The Paradox of Authenticity in a Social Context
 type: ""
 uid: 

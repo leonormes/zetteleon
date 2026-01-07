@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["topic/cognition/bias", "topic/social-cognition", "topic/social-perception"]
+tags: ["TheHuman/Cognition/bias", "topic/social-cognition", "topic/social-perception"]
 title: Fundamental Attribution Error
 type: "concept"
 uid: 

@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - You Need to Romanticize Your Process]]"
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "ideation", "mindfulness", "stillness"]
+tags: ["TheHuman/Creativity", "ideation", "mindfulness", "stillness"]
 title: Stillness and Quiet Time are Vital for Idea Generation
 type: "concept"
 uid: 

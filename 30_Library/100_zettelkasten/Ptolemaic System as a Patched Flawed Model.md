@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["analogy", "history", "science", "topic/cognition/mental-model"]
+tags: ["analogy", "history", "science", "TheHuman/Cognition/mental-model"]
 title: Ptolemaic System as a Patched Flawed Model
 type: "null"
 uid: 

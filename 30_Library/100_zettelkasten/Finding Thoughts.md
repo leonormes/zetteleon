@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["ext-mind", "topic/cognition/thinking", "topic/pkm/zettelkasten"]
+tags: ["ext-mind", "TheHuman/Cognition/thinking", "topic/pkm/zettelkasten"]
 title: Finding Thoughts
 type: "permanent"
 uid: 

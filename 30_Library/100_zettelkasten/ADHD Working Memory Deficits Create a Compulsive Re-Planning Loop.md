@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Working Memory Limitations in ADHD]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["anxiety", "rumination", "topic/health/adhd", "working-memory"]
+tags: ["anxiety", "rumination", "TheHuman/Health/ADHD", "working-memory"]
 title: ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop
 type: "concept"
 uid: 

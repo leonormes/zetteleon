@@ -11,7 +11,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - The Extended Mind Thesis]]"]
 source_of_truth: ["[[SoT - The Extended Mind Thesis]]"]
 status: "stable"
-tags: ["evolution", "neuroplasticity", "philosophy"]
+tags: ["evolution", "neuroplasticity", "TheHuman/Philosophy"]
 title: Natural-Born Cyborgs - Human Plasticity and Tool Merger
 type: "concept"
 uid: 

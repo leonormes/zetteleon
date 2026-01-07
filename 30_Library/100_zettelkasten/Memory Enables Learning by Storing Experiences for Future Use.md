@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Foundations of Learning and Cognition for Developers.md", "The Neuroscience of Developer Cognition.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["learning", "memory", "topic/cognition"]
+tags: ["learning", "memory", "TheHuman/Cognition"]
 title: Memory Enables Learning by Storing Experiences for Future Use
 type: "concept"
 uid: 

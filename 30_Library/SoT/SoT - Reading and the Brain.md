@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Learning Mechanisms]]", "[[SoT - Neuroplasticity is the Brain's Ability to Change in Response to Experience]]"]
 source_of_truth: []
 status: "stable"
-tags: ["intelligence", "neuroplasticity", "neuroscience", "reading", "topic/cognition"]
+tags: ["intelligence", "neuroplasticity", "TheHuman/Neuroscience", "reading", "TheHuman/Cognition"]
 title: SoT - Reading and the Brain
 type: "SoT"
 uid: 

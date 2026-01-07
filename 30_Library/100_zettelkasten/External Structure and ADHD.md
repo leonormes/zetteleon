@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["ext-mind", "time_blocking", "topic/health/adhd", "topic/productivity/gtd"]
+tags: ["ext-mind", "time_blocking", "TheHuman/Health/ADHD", "topic/productivity/gtd"]
 title: External Structure and ADHD
 type: "permanent"
 uid: 

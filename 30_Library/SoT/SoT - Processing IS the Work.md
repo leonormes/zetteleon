@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: ["Not Prep for Work]]"]
 source_of_truth: []
 status: "stable"
-tags: ["mindset", "pkm", "topic/health/adhd", "topic/productivity"]
+tags: ["TheHuman/Mindset", "pkm", "TheHuman/Health/ADHD", "topic/productivity"]
 title: SoT - Processing IS the Work
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["community", "mental-health", "social-connection", "support", "topic/health/adhd"]
+tags: ["community", "mental-health", "social-connection", "support", "TheHuman/Health/ADHD"]
 title: The Importance of Social Connection for ADHD (Vitamin Connect)
 type: "null"
 uid: 

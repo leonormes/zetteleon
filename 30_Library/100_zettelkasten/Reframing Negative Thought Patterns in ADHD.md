@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["cognitive-behavioral-therapy", "mindset", "rumination", "self-talk", "topic/health/adhd"]
+tags: ["cognitive-behavioral-therapy", "TheHuman/Mindset", "rumination", "self-talk", "TheHuman/Health/ADHD"]
 title: Reframing Negative Thought Patterns in ADHD
 type: "permanent"
 uid: 

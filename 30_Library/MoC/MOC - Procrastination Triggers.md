@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - ADHD Executive Dysfunction]]", "[[SoT - The Cognitive Physiology of Task Execution]]"]
 source_of_truth: []
 status: "stable"
-tags: ["motivation", "procrastination", "psychology", "topic/health/adhd"]
+tags: ["TheHuman/Motivation", "procrastination", "psychology", "TheHuman/Health/ADHD"]
 title: MOC - Procrastination Triggers
 type: "map"
 uid: 

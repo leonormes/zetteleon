@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Phases of Task Execution and the Impact of ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "executive_function", "neuroscience", "topic/health/adhd"]
+tags: ["dopamine", "executive_function", "TheHuman/Neuroscience", "TheHuman/Health/ADHD"]
 title: ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity
 type: "concept"
 uid: 

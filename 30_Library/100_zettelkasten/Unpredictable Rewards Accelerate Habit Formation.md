@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "neuroscience", "rewards", "topic/habits"]
+tags: ["dopamine", "TheHuman/Neuroscience", "rewards", "TheHuman/Habits"]
 title: Unpredictable Rewards Accelerate Habit Formation
 type: "concept"
 uid: 

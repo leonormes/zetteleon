@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/cognition/mental-model", "topic/habits", "topic/psychology"]
+tags: ["TheHuman/Cognition/mental-model", "TheHuman/Habits", "TheHuman/Psychology"]
 title: The Overthinking Loop is Fuelled by Type 1 Information
 type: "null"
 uid: 

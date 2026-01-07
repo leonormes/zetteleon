@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Phases of Task Execution and the Impact of ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["executive_function", "neuroscience", "prefrontal_cortex", "self_monitoring"]
+tags: ["executive_function", "TheHuman/Neuroscience", "prefrontal_cortex", "self_monitoring"]
 title: Performance Monitoring is Generated in the Medial Frontal Cortex
 type: "concept"
 uid: 

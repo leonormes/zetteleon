@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Honeyman Method]]"
 source_of_truth: []
 status: "seedling"
-tags: ["implementation", "routines", "topic/health/adhd"]
+tags: ["implementation", "routines", "TheHuman/Health/ADHD"]
 title: Daily tier selection based on current energy improves routine consistency
 type: "concept"
 uid: 

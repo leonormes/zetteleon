@@ -10,7 +10,7 @@ review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "hypothesis", "task-management", "time-management", "topic/health/adhd", "topic/productivity"]
+tags: ["experiment", "hypothesis", "task-management", "time-management", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Timeboxing as a To-Do List Alternative for ADHD
 type: "hypothesis"
 uid: 

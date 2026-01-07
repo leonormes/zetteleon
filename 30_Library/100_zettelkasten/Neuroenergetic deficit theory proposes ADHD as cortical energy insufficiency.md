@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]", "[[Task initiation requires prefrontal cortex activation and dopamine signaling]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["metabolism", "neurobiology", "topic/health/adhd"]
+tags: ["metabolism", "neurobiology", "TheHuman/Health/ADHD"]
 title: Neuroenergetic deficit theory proposes ADHD as cortical energy insufficiency
 type: "concept"
 uid: 

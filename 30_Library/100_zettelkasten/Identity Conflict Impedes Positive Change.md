@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Behavior Incongruent with Self Will Not Last]]", "[[Continuously Edit and Expand Your Identity Beliefs]]", "[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "identity", "resistance", "topic/habits", "topic/psychology"]
+tags: ["behavior-change", "TheHuman/Identity", "resistance", "TheHuman/Habits", "TheHuman/Psychology"]
 title: Identity Conflict Impedes Positive Change
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["emotion", "shame", "topic/health/adhd"]
+tags: ["emotion", "shame", "TheHuman/Health/ADHD"]
 title: Shame
 type: "map"
 uid: 

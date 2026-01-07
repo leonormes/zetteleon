@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - ADHD Routine Building Strategies]]"
 source_of_truth: []
 status: "seedling"
-tags: ["mindset", "self_trust", "topic/habits", "topic/health/adhd", "topic/productivity"]
+tags: ["TheHuman/Mindset", "self_trust", "TheHuman/Habits", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Building self-trust is essential for creating sustainable ADHD routines
 type: "concept"
 uid: 

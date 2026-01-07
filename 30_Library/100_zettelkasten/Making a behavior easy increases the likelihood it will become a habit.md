@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - ADHD Routine Building Strategies]]"
 source_of_truth: []
 status: "seedling"
-tags: ["topic/habits", "topic/health/adhd", "topic/productivity", "topic/psychology"]
+tags: ["TheHuman/Habits", "TheHuman/Health/ADHD", "topic/productivity", "TheHuman/Psychology"]
 title: Making a behavior easy increases the likelihood it will become a habit
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["mindset", "neurodiversity", "self-compassion", "stigma", "topic/health/adhd"]
+tags: ["TheHuman/Mindset", "neurodiversity", "self-compassion", "stigma", "TheHuman/Health/ADHD"]
 title: Reframing ADHD - From Deficit to Difference
 type: "permanent"
 uid: 

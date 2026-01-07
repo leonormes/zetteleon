@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["mindset", "principles", "topic/health/adhd", "topic/productivity"]
+tags: ["TheHuman/Mindset", "principles", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Core Principles of Sustainable ADHD Productivity
 type: "permanent"
 uid: 

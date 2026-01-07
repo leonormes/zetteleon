@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
 source_of_truth: []
 status: "seedling"
-tags: ["tools", "topic/health/adhd", "topic/productivity", "writing"]
+tags: ["tools", "TheHuman/Health/ADHD", "topic/productivity", "writing"]
 title: Voice-to-Text Can Be an Effective Writing Tool for ADHD
 type: "concept"
 uid: 

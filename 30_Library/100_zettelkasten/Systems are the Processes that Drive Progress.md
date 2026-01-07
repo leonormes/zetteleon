@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["process", "topic/habits", "topic/productivity", "topic/systems"]
+tags: ["process", "TheHuman/Habits", "topic/productivity", "topic/systems"]
 title: Systems are the Processes that Drive Progress
 type: "concept"
 uid: 

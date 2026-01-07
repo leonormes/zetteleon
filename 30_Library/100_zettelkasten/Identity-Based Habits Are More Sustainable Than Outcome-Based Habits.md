@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "identity", "strategy", "topic/habits"]
+tags: ["behavior-change", "TheHuman/Identity", "strategy", "TheHuman/Habits"]
 title: Identity-Based Habits Are More Sustainable Than Outcome-Based Habits
 type: "concept"
 uid: 

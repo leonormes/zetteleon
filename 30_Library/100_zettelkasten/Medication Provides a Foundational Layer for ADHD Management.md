@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["medication", "topic/health/adhd", "topic/productivity", "treatment"]
+tags: ["medication", "TheHuman/Health/ADHD", "topic/productivity", "treatment"]
 title: Medication Provides a Foundational Layer for ADHD Management
 type: "concept"
 uid: 

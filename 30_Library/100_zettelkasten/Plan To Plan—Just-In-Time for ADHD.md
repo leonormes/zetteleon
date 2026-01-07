@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/health/adhd"]
+tags: ["TheHuman/Health/ADHD"]
 title: Plan To Plan—Just-In-Time for ADHD
 type: "permanent"
 uid: 

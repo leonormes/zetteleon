@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["overwhelm", "project-management", "task-management", "topic/health/adhd"]
+tags: ["overwhelm", "project-management", "task-management", "TheHuman/Health/ADHD"]
 title: Breaking Projects Into Micro-Tasks Reduces ADHD Overwhelm
 type: "strategy"
 uid: 

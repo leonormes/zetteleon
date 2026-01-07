@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[Predictive Processing and the Bayesian Brain]]", "[[SoT - Learning Mechanisms]]", "[[SoT - Myopic Understanding]]"]
 source_of_truth: []
 status: "stable"
-tags: ["cognition", "collaboration", "mental_models", "system_design", "topic/health/adhd"]
+tags: ["cognition", "collaboration", "mental_models", "system_design", "TheHuman/Health/ADHD"]
 title: SoT - Cognitive Architectures (Simulation vs Prototyping)
 type: "SoT"
 uid: 

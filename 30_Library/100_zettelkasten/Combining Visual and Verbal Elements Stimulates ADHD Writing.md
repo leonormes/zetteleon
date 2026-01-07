@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "topic/health/adhd", "visual-thinking", "writing"]
+tags: ["TheHuman/Creativity", "TheHuman/Health/ADHD", "visual-thinking", "writing"]
 title: Combining Visual and Verbal Elements Stimulates ADHD Writing
 type: "concept"
 uid: 

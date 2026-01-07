@@ -17,7 +17,7 @@ tags:
   - index
   - self-help
   - strategies
-  - topic/health/adhd
+  - "TheHuman/Health/ADHD"
   - topic/productivity
 title: MOC - Strategies for ADHD Brains in a Neurotypical World
 type: map

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Pattern Recognition is the Cognitive Process of Organizing Sensory Input]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["abstraction", "evolution", "topic/cognition"]
+tags: ["abstraction", "evolution", "TheHuman/Cognition"]
 title: Human Pattern Recognition is Abstract and Domain-General
 type: "concept"
 uid: 

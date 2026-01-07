@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Explaining to Others Enhances One's Own Learning]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["elaboration", "learning", "topic/habits", "understanding"]
+tags: ["elaboration", "learning", "TheHuman/Habits", "understanding"]
 title: Elaboration Deepens Understanding by Connecting New Material to Pre-existing Knowledge
 type: "concept"
 uid: 

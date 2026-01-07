@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["attention", "salience", "topic/cognition", "topic/cognition/mental-model"]
+tags: ["attention", "salience", "TheHuman/Cognition", "TheHuman/Cognition/mental-model"]
 title: Salience Determines What Information Enters Mental Models
 type: "permanent"
 uid: 

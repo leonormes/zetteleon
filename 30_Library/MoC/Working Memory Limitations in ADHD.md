@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["memory", "topic/cognition", "topic/health/adhd", "topic/productivity"]
+tags: ["memory", "TheHuman/Cognition", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Working Memory Limitations in ADHD
 type: "map"
 uid: 

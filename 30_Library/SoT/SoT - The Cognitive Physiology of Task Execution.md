@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - PRODOS - Learning Architecture]]", "[[SoT - ADHD Neurology & Core Concepts]]", "[[SoT - PRODOS Core Specification]]"]
 source_of_truth: []
 status: "stable"
-tags: ["neuroscience", "prodos", "productivity", "task_management", "topic/cognition"]
+tags: ["TheHuman/Neuroscience", "prodos", "productivity", "task_management", "TheHuman/Cognition"]
 title: SoT - The Cognitive Physiology of Task Execution
 type: "SoT"
 uid: 

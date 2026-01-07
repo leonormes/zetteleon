@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["judgment", "perception", "stoicism", "subjectivity", "topic/psychology"]
+tags: ["judgment", "perception", "stoicism", "subjectivity", "TheHuman/Psychology"]
 title: Perception is Subjective Judgment
 type: ""
 uid: 

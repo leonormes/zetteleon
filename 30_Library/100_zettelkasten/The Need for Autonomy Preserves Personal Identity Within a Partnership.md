@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["autonomy", "identity", "needs", "relationship"]
+tags: ["autonomy", "TheHuman/Identity", "needs", "relationship"]
 title: The Need for Autonomy Preserves Personal Identity Within a Partnership
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Identity-Based Habits are More Resilient Than Goal-Based Habits]]", "[[Three Layers of Behavior Change Model]]", "[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "goals", "identity", "topic/habits"]
+tags: ["behavior-change", "goals", "TheHuman/Identity", "TheHuman/Habits"]
 title: Outcomes vs Process vs Identity in Habit Formation
 type: "concept"
 uid: 

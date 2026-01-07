@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Originality is Synthesis Not Creation From Nothing]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "innovation", "lateral-thinking"]
+tags: ["TheHuman/Creativity", "innovation", "lateral-thinking"]
 title: Lateral Thinking with Withered Technology Drives Innovation
 type: "concept"
 uid: 

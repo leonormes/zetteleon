@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Deductive Reasoning Underwrites Mathematical Proof]]", "[[Heuristic Experimentation Drives Mathematical Insight]]", "[[Mathematics Is Frequently Described as the Science of Patterns]]", "[[Visualization Supports Mathematical Thinking]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "discovery", "maths", "methodology", "proof"]
+tags: ["TheHuman/Creativity", "discovery", "maths", "methodology", "proof"]
 title: The Process of Mathematical Discovery is Driven by Pattern Recognition
 type: "concept"
 uid: 

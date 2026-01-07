@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Ideas exist beyond linguistic expression"]
 source_of_truth: []
 status: "seedling"
-tags: ["epistemology", "Kant", "limits-of-knowledge", "philosophy"]
+tags: ["epistemology", "Kant", "limits-of-knowledge", "TheHuman/Philosophy"]
 title: The noumenal-phenomenal distinction limits knowability
 type: "concept"
 uid: 

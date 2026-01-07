@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[Natural-Born Cyborgs - Human Plasticity and Tool Merger]]"]
 source_of_truth: ["[[SoT - The Extended Mind Thesis]]"]
 status: "stable"
-tags: ["phenomenology", "philosophy", "tools", "UX"]
+tags: ["phenomenology", "TheHuman/Philosophy", "tools", "UX"]
 title: Transparent Equipment - The Phenomenology of Tool Integration
 type: "concept"
 uid: 

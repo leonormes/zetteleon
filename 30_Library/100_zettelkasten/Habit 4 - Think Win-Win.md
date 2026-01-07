@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["collaboration", "leadership", "principles", "topic/habits"]
+tags: ["collaboration", "leadership", "principles", "TheHuman/Habits"]
 title: Habit 4 - Think Win-Win
 type: ""
 uid: 

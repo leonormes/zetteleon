@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Habit Formation]]", "[[Timeboxing Creates Structure for Action]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["consistency", "time-management", "topic/habits", "topic/productivity"]
+tags: ["consistency", "time-management", "TheHuman/Habits", "topic/productivity"]
 title: Timeboxing Enables Rhythmic Consistency and Habit Formation
 type: "concept"
 uid: 

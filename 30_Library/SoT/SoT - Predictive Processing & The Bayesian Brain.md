@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Reality, Models, and the Limits of Accuracy]]"]
 source_of_truth: []
 status: "stable"
-tags: ["adhd", "dopamine", "neuroscience", "predictive_processing", "topic/cognition"]
+tags: ["adhd", "dopamine", "TheHuman/Neuroscience", "predictive_processing", "TheHuman/Cognition"]
 title: SoT - Predictive Processing & The Bayesian Brain
 type: "SoT"
 uid: 

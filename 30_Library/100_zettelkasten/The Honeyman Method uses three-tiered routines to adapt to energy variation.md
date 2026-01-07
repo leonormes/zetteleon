@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Honeyman Method]]"
 source_of_truth: []
 status: "seedling"
-tags: ["autism", "energy-management", "routines", "topic/health/adhd"]
+tags: ["autism", "energy-management", "routines", "TheHuman/Health/ADHD"]
 title: The Honeyman Method uses three-tiered routines to adapt to energy variation
 type: "concept"
 uid: 

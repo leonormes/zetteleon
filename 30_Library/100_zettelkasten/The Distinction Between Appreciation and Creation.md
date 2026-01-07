@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["creativity", "mindset", "topic/learning", "topic/philosophy"]
+tags: ["TheHuman/Creativity", "TheHuman/Mindset", "topic/learning", "topic/philosophy"]
 title: The Distinction Between Appreciation and Creation
 type: "null"
 uid: 

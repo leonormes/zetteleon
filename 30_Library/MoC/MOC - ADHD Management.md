@@ -12,7 +12,7 @@ review_interval: "3 months"
 see_also: ["[[MOC - ProdOS]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["executive-function", "health", "neurology", "topic/health/adhd", "topic/psychology"]
+tags: ["executive-function", "health", "neurology", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
 title: MOC - ADHD Management
 type: "map"
 uid: 

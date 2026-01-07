@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Existentialism - Existence Precedes Essence.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["philosophy", "topic/psychology"]
+tags: ["TheHuman/Philosophy", "TheHuman/Psychology"]
 title: Nihilism vs Constructed Meaning
 type: "concept"
 uid: 

@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/learning", "topic/productivity", "topic/psychology"]
+tags: ["topic/learning", "topic/productivity", "TheHuman/Psychology"]
 title: Type 1 vs Type 2 Information in Learning and Action
 type: "map"
 uid: 

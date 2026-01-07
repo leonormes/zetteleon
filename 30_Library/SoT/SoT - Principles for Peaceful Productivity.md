@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: []
 source_of_truth: []
 status: "stable"
-tags: ["boundaries", "mindset", "principles", "rules", "topic/productivity"]
+tags: ["boundaries", "TheHuman/Mindset", "principles", "rules", "topic/productivity"]
 title: SoT - Principles for Peaceful Productivity
 type: "SoT"
 uid: 

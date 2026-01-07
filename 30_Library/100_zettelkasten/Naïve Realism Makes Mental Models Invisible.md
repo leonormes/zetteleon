@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["perception", "topic/cognition", "topic/cognition/bias", "topic/psychology"]
+tags: ["perception", "TheHuman/Cognition", "TheHuman/Cognition/bias", "TheHuman/Psychology"]
 title: Naïve Realism Makes Mental Models Invisible
 type: ""
 uid: 

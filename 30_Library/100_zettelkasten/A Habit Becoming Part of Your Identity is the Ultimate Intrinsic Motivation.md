@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["identity", "motivation", "topic/habits", "topic/psychology"]
+tags: ["TheHuman/Identity", "TheHuman/Motivation", "TheHuman/Habits", "TheHuman/Psychology"]
 title: A Habit Becoming Part of Your Identity is the Ultimate Intrinsic Motivation
 type: "concept"
 uid: 

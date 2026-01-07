@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["anxiety", "emotional-regulation", "mental-health", "project/family/bessie"]
+tags: ["anxiety", "emotional-regulation", "mental-health", "TheHuman/Family/Bessie"]
 title: Bessie Anxiety and Emotional Regulation
 type: ""
 uid: 

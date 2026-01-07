@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["abstraction", "topic/cognition"]
+tags: ["abstraction", "TheHuman/Cognition"]
 title: Higher Abstraction Levels Increase Breadth But Reduce Depth
 type: "concept"
 uid: 

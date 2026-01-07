@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Early Childhood Patterning is the Foundation for Language Acquisition]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["learning", "scaffolding", "topic/cognition"]
+tags: ["learning", "scaffolding", "TheHuman/Cognition"]
 title: Patterns are the Scaffolding of Knowledge
 type: "concept"
 uid: 

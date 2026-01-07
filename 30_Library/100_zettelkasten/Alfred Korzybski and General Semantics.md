@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["language", "semantics", "topic/cognition", "topic/philosophy"]
+tags: ["language", "semantics", "TheHuman/Cognition", "topic/philosophy"]
 title: Alfred Korzybski and General Semantics
 type: "permanent"
 uid: 

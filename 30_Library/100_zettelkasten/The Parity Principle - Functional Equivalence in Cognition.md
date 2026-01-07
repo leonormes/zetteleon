@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - The Extended Mind Thesis]]"]
 source_of_truth: ["[[SoT - The Extended Mind Thesis]]"]
 status: "stable"
-tags: ["cognition", "logic", "philosophy"]
+tags: ["cognition", "logic", "TheHuman/Philosophy"]
 title: The Parity Principle - Functional Equivalence in Cognition
 type: "concept"
 uid: 

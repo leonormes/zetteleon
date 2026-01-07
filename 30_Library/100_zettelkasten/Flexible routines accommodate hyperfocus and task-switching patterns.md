@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - How To Create And Use Mini Routines]]"
 source_of_truth: []
 status: "seedling"
-tags: ["flexibility", "hyperfocus", "task-switching", "topic/health/adhd"]
+tags: ["flexibility", "hyperfocus", "task-switching", "TheHuman/Health/ADHD"]
 title: Flexible routines accommodate hyperfocus and task-switching patterns
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "planning", "topic/habits", "topic/psychology"]
+tags: ["behavior-change", "planning", "TheHuman/Habits", "TheHuman/Psychology"]
 title: Implementation Intentions Automate Action Initiation with If-Then Plans
 type: "concept"
 uid: 

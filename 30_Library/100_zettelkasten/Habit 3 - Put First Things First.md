@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["execution", "management", "principles", "topic/habits"]
+tags: ["execution", "management", "principles", "TheHuman/Habits"]
 title: Habit 3 - Put First Things First
 type: ""
 uid: 

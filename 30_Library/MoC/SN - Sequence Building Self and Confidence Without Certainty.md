@@ -13,7 +13,7 @@ scope: "Traces the logical sequence from recognizing arbitrariness to reconstruc
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["confidence", "epistemology", "identity", "sequence", "structural", "uncertainty"]
+tags: ["confidence", "epistemology", "TheHuman/Identity", "sequence", "structural", "uncertainty"]
 title: SN - Sequence Building Self and Confidence Without Certainty
 type: "map"
 uid: 

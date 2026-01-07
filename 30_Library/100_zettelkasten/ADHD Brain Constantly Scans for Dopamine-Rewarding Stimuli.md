@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[ADHD Brain is a Novelty-Seeking Machine]]", "[[Dopamine Dysregulation is a Key Factor in ADHD Motivation]]", "[[The Interest-Based Nervous System in ADHD]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "motivation", "neuroscience", "topic/health/adhd"]
+tags: ["dopamine", "TheHuman/Motivation", "TheHuman/Neuroscience", "TheHuman/Health/ADHD"]
 title: ADHD Brain Constantly Scans for Dopamine-Rewarding Stimuli
 type: "concept"
 uid: 

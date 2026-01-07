@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["anxiety-reduction", "autism", "routine", "stability", "topic/health/adhd"]
+tags: ["anxiety-reduction", "autism", "routine", "stability", "TheHuman/Health/ADHD"]
 title: Routines Provide Stability for Neurodivergent Individuals
 type: "concept"
 uid: 

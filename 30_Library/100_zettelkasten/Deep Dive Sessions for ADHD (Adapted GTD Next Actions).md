@@ -10,7 +10,7 @@ review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source_of_truth: []
 status: "active"
-tags: ["experiment", "hypothesis", "topic/health/adhd", "topic/productivity"]
+tags: ["experiment", "hypothesis", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Deep Dive Sessions for ADHD (Adapted GTD Next Actions)
 type: "hypothesis"
 uid: 

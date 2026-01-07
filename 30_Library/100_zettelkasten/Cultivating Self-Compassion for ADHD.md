@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Honeyman Method]]"
 source_of_truth: []
 status: ""
-tags: ["emotional-regulation", "mental-health", "self-compassion", "shame", "topic/health/adhd"]
+tags: ["emotional-regulation", "mental-health", "self-compassion", "shame", "TheHuman/Health/ADHD"]
 title: Cultivating Self-Compassion for ADHD
 type: "permanent"
 uid: 

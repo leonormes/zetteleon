@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - You Need to Romanticize Your Process]]"
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "environment", "inspiration"]
+tags: ["TheHuman/Creativity", "environment", "inspiration"]
 title: A Supportive Environment is Critical for Inspiration
 type: "concept"
 uid: 

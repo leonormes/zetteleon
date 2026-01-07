@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Spaced Repetition Combats Forgetting by Scheduling Reviews Over Time]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["active-recall", "learning", "memory", "topic/habits"]
+tags: ["active-recall", "learning", "memory", "TheHuman/Habits"]
 title: Active Recall Strengthens Memory by Effortfully Pulling Information From It
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: ["[[MOC - Assertiveness Through System Design]]"]
 source_of_truth: []
 status: "stable"
-tags: ["communication", "management", "mental-model", "topic/psychology"]
+tags: ["communication", "management", "mental-model", "TheHuman/Psychology"]
 title: SoT - Transactional Analysis in the Workplace
 type: "SoT"
 uid: 

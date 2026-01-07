@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["emotional-regulation", "feedback", "rsd", "topic/health/adhd"]
+tags: ["emotional-regulation", "feedback", "rsd", "TheHuman/Health/ADHD"]
 title: Rejection Sensitivity Dysphoria Complicates Feedback for ADHD Developers
 type: "concept"
 uid: 

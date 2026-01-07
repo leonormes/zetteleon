@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Honeyman Method]]"
 source_of_truth: []
 status: "seedling"
-tags: ["autism", "neurodivergence", "routines", "topic/health/adhd"]
+tags: ["autism", "neurodivergence", "routines", "TheHuman/Health/ADHD"]
 title: Combining structure with flexibility satisfies neurodivergent dual needs
 type: "concept"
 uid: 

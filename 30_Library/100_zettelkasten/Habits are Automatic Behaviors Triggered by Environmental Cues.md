@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["automaticity", "behavior-change", "topic/habits", "topic/psychology"]
+tags: ["automaticity", "behavior-change", "TheHuman/Habits", "TheHuman/Psychology"]
 title: Habits are Automatic Behaviors Triggered by Environmental Cues
 type: "concept"
 uid: 

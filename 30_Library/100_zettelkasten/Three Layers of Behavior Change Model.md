@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Identity as North Star of Habit Change]]", "[[Outcomes vs Process vs Identity in Habit Formation]]", "[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "frameworks", "identity", "models", "topic/habits"]
+tags: ["behavior-change", "frameworks", "TheHuman/Identity", "models", "TheHuman/Habits"]
 title: Three Layers of Behavior Change Model
 type: "concept"
 uid: 

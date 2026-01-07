@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/cognition/mental-model", "topic/learning", "topic/maths"]
+tags: ["TheHuman/Cognition/mental-model", "topic/learning", "topic/maths"]
 title: Number As Symbol is a Flawed Initial Mental Model
 type: "null"
 uid: 

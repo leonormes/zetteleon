@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["time-management", "tools", "topic/health/adhd", "topic/productivity"]
+tags: ["time-management", "tools", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Visual Timers for ADHD Time Blindness
 type: "permanent"
 uid: 

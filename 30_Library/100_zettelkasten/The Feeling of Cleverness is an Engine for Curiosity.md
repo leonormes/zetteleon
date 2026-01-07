@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["curiosity", "mindset", "topic/learning", "topic/psychology"]
+tags: ["curiosity", "TheHuman/Mindset", "topic/learning", "TheHuman/Psychology"]
 title: The Feeling of Cleverness is an Engine for Curiosity
 type: "null"
 uid: 

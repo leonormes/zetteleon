@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["action", "basal-ganglia", "brain", "neuroscience"]
+tags: ["action", "basal-ganglia", "brain", "TheHuman/Neuroscience"]
 title: Action Initiation Involves a Balance Between Direct and Indirect Pathways in the Basal Ganglia
 type: "concept"
 uid: 

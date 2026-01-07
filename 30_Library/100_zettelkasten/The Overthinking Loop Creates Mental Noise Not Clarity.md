@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["decision-making", "overthinking", "paralysis", "topic/cognition"]
+tags: ["decision-making", "overthinking", "paralysis", "TheHuman/Cognition"]
 title: The Overthinking Loop Creates Mental Noise Not Clarity
 type: "null"
 uid: 

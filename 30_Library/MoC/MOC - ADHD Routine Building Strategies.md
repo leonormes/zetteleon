@@ -11,7 +11,7 @@ see_also: []
 source: "[[ADHD Routines]]"
 source_of_truth: []
 status: "null"
-tags: ["routines", "topic/habits", "topic/health/adhd", "topic/productivity"]
+tags: ["routines", "TheHuman/Habits", "TheHuman/Health/ADHD", "topic/productivity"]
 title: MOC - ADHD Routine Building Strategies
 type: "map"
 uid: 

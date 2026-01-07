@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["technique", "topic/habits", "topic/productivity/procrastination", "topic/writing"]
+tags: ["technique", "TheHuman/Habits", "topic/productivity/procrastination", "topic/writing"]
 title: The Five-Minute Free-Write Technique
 type: "null"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["accommodation", "remote-work", "topic/health/adhd", "topic/productivity"]
+tags: ["accommodation", "remote-work", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Remote Work Offers Environmental Control and Flexibility for ADHD
 type: "concept"
 uid: 

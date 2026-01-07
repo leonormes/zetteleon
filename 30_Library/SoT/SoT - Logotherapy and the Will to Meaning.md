@@ -10,7 +10,7 @@ review_interval: "12 months"
 see_also: ["[[Existentialism - Existence Precedes Essence]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - Process Primacy (Systems Over Goals)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["meaning", "mental_models", "philosophy", "resilience", "topic/psychology"]
+tags: ["meaning", "mental_models", "TheHuman/Philosophy", "resilience", "TheHuman/Psychology"]
 title: SoT - Logotherapy and the Will to Meaning
 type: "SoT"
 uid: 

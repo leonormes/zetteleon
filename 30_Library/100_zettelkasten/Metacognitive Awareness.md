@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/cognition"]
+tags: ["TheHuman/Cognition"]
 title: Metacognitive Awareness
 type: "null"
 uid: 

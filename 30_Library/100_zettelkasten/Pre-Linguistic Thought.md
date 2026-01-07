@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["development", "pre-linguistic", "thought", "topic/cognition"]
+tags: ["development", "pre-linguistic", "thought", "TheHuman/Cognition"]
 title: Pre-Linguistic Thought
 type: "null"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Naïve Realism]]", "[[SoT - Predictive Processing & The Bayesian Brain]]"]
 source_of_truth: []
 status: "stable"
-tags: ["emotion", "feedback_loop", "mental_models", "psychology", "topic/psychology"]
+tags: ["emotion", "feedback_loop", "mental_models", "psychology", "TheHuman/Psychology"]
 title: SoT - The Cognitive-Emotional Loop
 type: "SoT"
 uid: 

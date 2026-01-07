@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[ADHD shows reduced dorsolateral prefrontal cortex activation during sustained attention]]", "[[Task execution consists of five distinct cognitive phases]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["brain-networks", "neuroscience", "sustained-attention"]
+tags: ["brain-networks", "TheHuman/Neuroscience", "sustained-attention"]
 title: Sustained attention activates right-lateralized fronto-parietal networks
 type: "concept"
 uid: 

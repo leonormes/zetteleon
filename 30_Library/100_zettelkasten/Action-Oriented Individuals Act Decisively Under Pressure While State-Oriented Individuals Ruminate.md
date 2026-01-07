@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["personality", "topic/psychology", "volition"]
+tags: ["personality", "TheHuman/Psychology", "volition"]
 title: Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate
 type: "concept"
 uid: 

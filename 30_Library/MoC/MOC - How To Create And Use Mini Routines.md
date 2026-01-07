@@ -11,7 +11,7 @@ see_also: []
 source: "https://youtube.com/watch?v=Z6EIzckM3os&si=zOgsTdIAKbWezPOi"
 source_of_truth: []
 status: "null"
-tags: ["autism", "routines", "topic/health/adhd", "topic/productivity"]
+tags: ["autism", "routines", "TheHuman/Health/ADHD", "topic/productivity"]
 title: MOC - How To Create And Use Mini Routines
 type: "map"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Mathematics Involves Creativity and Aesthetic Judgement]]", "[[The Process of Mathematical Discovery is Driven by Pattern Recognition]]", "[[Visualization Supports Mathematical Thinking]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "heuristics", "topic/maths"]
+tags: ["TheHuman/Creativity", "heuristics", "topic/maths"]
 title: Heuristic Experimentation Drives Mathematical Insight
 type: "strategy"
 uid: 

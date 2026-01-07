@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Nihilism vs Constructed Meaning.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["absurdism", "philosophy"]
+tags: ["absurdism", "TheHuman/Philosophy"]
 title: Absurdism as Rebellion Against Meaninglessness
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["goals", "outcomes", "topic/habits", "topic/systems"]
+tags: ["goals", "outcomes", "TheHuman/Habits", "topic/systems"]
 title: You Fall to the Level of Your Systems, Not Rise to Your Goals
 type: "concept"
 uid: 

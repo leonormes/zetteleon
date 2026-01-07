@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["brain", "models", "neuroscience", "topic/cognition"]
+tags: ["brain", "models", "TheHuman/Neuroscience", "TheHuman/Cognition"]
 title: The Brain as a Distributed Prediction Machine
 type: ""
 uid: 

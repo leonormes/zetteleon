@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["mindset", "motivation", "topic/health/adhd", "topic/learning"]
+tags: ["TheHuman/Mindset", "TheHuman/Motivation", "TheHuman/Health/ADHD", "topic/learning"]
 title: Process Over Outcome Mindset
 type: "permanent"
 uid: 

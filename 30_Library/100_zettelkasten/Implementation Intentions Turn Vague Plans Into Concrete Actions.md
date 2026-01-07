@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Action Defined as Behavior That Produces Tangible Outcomes]]", "[[Timeboxing Creates Structure for Action]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["planning", "strategy", "topic/habits", "topic/productivity"]
+tags: ["planning", "strategy", "TheHuman/Habits", "topic/productivity"]
 title: Implementation Intentions Turn Vague Plans Into Concrete Actions
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["task-initiation", "topic/health/adhd", "topic/productivity", "topic/systems"]
+tags: ["task-initiation", "TheHuman/Health/ADHD", "topic/productivity", "topic/systems"]
 title: The Framework Solves Task Initiation Difficulties
 type: "concept"
 uid: 

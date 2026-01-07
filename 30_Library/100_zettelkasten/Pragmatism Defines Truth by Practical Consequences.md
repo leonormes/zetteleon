@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["action", "philosophy", "pragmatism", "truth"]
+tags: ["action", "TheHuman/Philosophy", "pragmatism", "truth"]
 title: Pragmatism Defines Truth by Practical Consequences
 type: "concept"
 uid: 

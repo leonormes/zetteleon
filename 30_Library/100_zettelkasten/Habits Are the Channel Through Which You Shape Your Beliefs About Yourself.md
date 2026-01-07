@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Identity Emerges From Habits]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "beliefs", "identity", "topic/habits"]
+tags: ["behavior-change", "beliefs", "TheHuman/Identity", "TheHuman/Habits"]
 title: Habits Are the Channel Through Which You Shape Your Beliefs About Yourself
 type: "concept"
 uid: 

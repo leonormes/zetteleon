@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["diagram", "philosophy", "topic/productivity"]
+tags: ["diagram", "TheHuman/Philosophy", "topic/productivity"]
 title: Diagram - Philosophy-Productivity Connections
 type: "visualization"
 uid: 

@@ -13,7 +13,7 @@ scope: "A philosophical framework for building a functional and confident self i
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["epistemology", "identity", "map", "philosophy", "self", "sequence", "structural"]
+tags: ["epistemology", "TheHuman/Identity", "map", "TheHuman/Philosophy", "self", "sequence", "structural"]
 title: SN - Sequence - Building a Self Without Absolute Certainty
 type: "sn"
 uid: 

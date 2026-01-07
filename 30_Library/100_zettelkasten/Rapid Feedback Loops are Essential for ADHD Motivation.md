@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[ADHD habit building requires immediate feedback or reward loops]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "feedback", "motivation", "topic/health/adhd"]
+tags: ["dopamine", "feedback", "TheHuman/Motivation", "TheHuman/Health/ADHD"]
 title: Rapid Feedback Loops are Essential for ADHD Motivation
 type: "concept"
 uid: 

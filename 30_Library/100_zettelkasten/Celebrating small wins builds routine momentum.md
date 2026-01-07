@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Why Autistics and ADHDers NEED Routines]]"
 source_of_truth: []
 status: "seedling"
-tags: ["motivation", "positive-reinforcement", "routine-adherence"]
+tags: ["TheHuman/Motivation", "positive-reinforcement", "routine-adherence"]
 title: Celebrating small wins builds routine momentum
 type: "concept"
 uid: 

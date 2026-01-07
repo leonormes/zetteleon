@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["assessment", "cognitive-profile", "project/family/bessie"]
+tags: ["assessment", "cognitive-profile", "TheHuman/Family/Bessie"]
 title: Bessie Academic Assessment Data
 type: ""
 uid: 

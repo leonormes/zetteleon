@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["brain-networks", "distraction", "DMN", "dysregulation", "neuroscience", "rumination", "topic/health/adhd", "TPN"]
+tags: ["brain-networks", "distraction", "DMN", "dysregulation", "TheHuman/Neuroscience", "rumination", "TheHuman/Health/ADHD", "TPN"]
 title: The Glitchy Switch - TPN and DMN Dysregulation in ADHD
 type: "permanent"
 uid: 

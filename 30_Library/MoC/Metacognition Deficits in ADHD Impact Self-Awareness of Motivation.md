@@ -10,7 +10,7 @@ review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags: [metacognition, motivation, self-awareness, topic/health/adhd, type/moc]
+tags: [metacognition, "TheHuman/Motivation", self-awareness, "TheHuman/Health/ADHD", type/moc]
 title: Metacognition Deficits in ADHD Impact Self-Awareness of Motivation
 type: map
 uid:

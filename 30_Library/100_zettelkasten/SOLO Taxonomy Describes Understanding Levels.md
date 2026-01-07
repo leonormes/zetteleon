@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["education", "topic/cognition"]
+tags: ["education", "TheHuman/Cognition"]
 title: SOLO Taxonomy Describes Understanding Levels
 type: "concept"
 uid: 

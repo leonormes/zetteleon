@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Authority Dynamics and ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["executive-function", "neurodiversity", "topic/health/adhd", "topic/psychology"]
+tags: ["executive-function", "neurodiversity", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
 title: Bidirectional Authority Discomfort in ADHD
 type: "concept"
 uid: 

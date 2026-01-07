@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Limitless Morning Routine]]"
 source_of_truth: []
 status: "seedling"
-tags: ["bdnf", "exercise", "hiit", "learning", "neuroscience"]
+tags: ["bdnf", "exercise", "hiit", "learning", "TheHuman/Neuroscience"]
 title: Morning HIIT Boosts BDNF and Neuroplasticity
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["biology", "communication", "empathy", "neuroscience"]
+tags: ["biology", "communication", "empathy", "TheHuman/Neuroscience"]
 title: Shared Biology and Mirror Neurons Enable Model Sharing
 type: ""
 uid: 

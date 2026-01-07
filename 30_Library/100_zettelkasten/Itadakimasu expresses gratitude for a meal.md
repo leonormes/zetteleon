@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - 8 simple Japanese habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["gratitude", "Japanese_culture", "mindfulness", "topic/habits"]
+tags: ["gratitude", "Japanese_culture", "mindfulness", "TheHuman/Habits"]
 title: Itadakimasu expresses gratitude for a meal
 type: "concept"
 uid: 

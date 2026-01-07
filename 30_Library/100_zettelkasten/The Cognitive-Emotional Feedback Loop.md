@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["emotion", "feedback_loop", "topic/cognition", "topic/psychology"]
+tags: ["emotion", "feedback_loop", "TheHuman/Cognition", "TheHuman/Psychology"]
 title: The Cognitive-Emotional Feedback Loop
 type: "null"
 uid: 

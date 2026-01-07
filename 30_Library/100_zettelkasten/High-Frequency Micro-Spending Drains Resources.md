@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["budgeting", "finance", "topic/habits"]
+tags: ["budgeting", "finance", "TheHuman/Habits"]
 title: High-Frequency Micro-Spending Drains Resources
 type: ""
 uid: 

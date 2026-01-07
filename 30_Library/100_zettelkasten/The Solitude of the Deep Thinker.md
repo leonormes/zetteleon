@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["loneliness", "topic/cognition/thinking", "topic/philosophy", "topic/psychology"]
+tags: ["loneliness", "TheHuman/Cognition/thinking", "topic/philosophy", "TheHuman/Psychology"]
 title: The Solitude of the Deep Thinker
 type: "null"
 uid: 

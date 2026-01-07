@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["challenge", "DMN", "engagement", "motivation", "personal-growth", "topic/health/adhd"]
+tags: ["challenge", "DMN", "engagement", "TheHuman/Motivation", "personal-growth", "TheHuman/Health/ADHD"]
 title: Finding Your Right Difficult A Strategy for ADHD Engagement
 type: ""
 uid: 

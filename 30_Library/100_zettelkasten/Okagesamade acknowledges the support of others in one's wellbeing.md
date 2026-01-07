@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - 8 simple Japanese habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["community", "gratitude", "Japanese_culture", "topic/habits"]
+tags: ["community", "gratitude", "Japanese_culture", "TheHuman/Habits"]
 title: "Okagesamade acknowledges the support of others in one's wellbeing"
 type: "concept"
 uid: 

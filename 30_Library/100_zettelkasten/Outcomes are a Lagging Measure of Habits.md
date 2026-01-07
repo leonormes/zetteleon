@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["measurement", "outcomes", "topic/habits", "topic/systems"]
+tags: ["measurement", "outcomes", "TheHuman/Habits", "topic/systems"]
 title: Outcomes are a Lagging Measure of Habits
 type: "concept"
 uid: 

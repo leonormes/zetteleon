@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["cognitive-load", "debugging", "topic/health/adhd", "working-memory"]
+tags: ["cognitive-load", "debugging", "TheHuman/Health/ADHD", "working-memory"]
 title: Working Memory Impairment in ADHD Increases Cognitive Load for Developers
 type: "concept"
 uid: 

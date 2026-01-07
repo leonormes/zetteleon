@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/health/adhd", "topic/pkm/zettelkasten", "topic/productivity"]
+tags: ["TheHuman/Health/ADHD", "topic/pkm/zettelkasten", "topic/productivity"]
 title: Getting Started with Zettelkasten with ADHD
 type: "permanent"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Apophenia is the Tendency to Perceive Patterns in Random Data]]", "[[Pattern Recognition is the Cognitive Process of Organizing Sensory Input]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["neocortex", "neuroscience", "topic/cognition"]
+tags: ["neocortex", "TheHuman/Neuroscience", "TheHuman/Cognition"]
 title: The Brain is a Pattern-Seeking Engine
 type: "concept"
 uid: 

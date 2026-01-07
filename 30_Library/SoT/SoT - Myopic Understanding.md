@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: ["[[Mental Models MOC]]", "[[SoT - Predictive Processing & The Bayesian Brain]]"]
 source_of_truth: []
 status: "stable"
-tags: ["neuroscience", "predictive_processing", "topic/cognition"]
+tags: ["TheHuman/Neuroscience", "predictive_processing", "TheHuman/Cognition"]
 title: SoT - Myopic Understanding
 type: "SoT"
 uid: 

@@ -11,7 +11,7 @@ see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source: "[[MOC - Why Task Initiation is Difficult in ADHD]]"
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "hypothesis", "motivation", "rewards", "The", "topic/health/adhd", "topic/productivity"]
+tags: ["experiment", "hypothesis", "TheHuman/Motivation", "rewards", "The", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Rewarding the Start of a Task Provides Immediate Reinforcement for ADHD
 type: "hypothesis"
 uid: 

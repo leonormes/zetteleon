@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["success-metrics", "synthesis", "topic/health/adhd", "topic/learning"]
+tags: ["success-metrics", "synthesis", "TheHuman/Health/ADHD", "topic/learning"]
 title: Success is Connection Not Mastery
 type: "null"
 uid: 

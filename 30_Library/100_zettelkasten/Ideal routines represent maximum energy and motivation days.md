@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Honeyman Method]]"
 source_of_truth: []
 status: "seedling"
-tags: ["energy-management", "routines", "topic/health/adhd"]
+tags: ["energy-management", "routines", "TheHuman/Health/ADHD"]
 title: Ideal routines represent maximum energy and motivation days
 type: "concept"
 uid: 

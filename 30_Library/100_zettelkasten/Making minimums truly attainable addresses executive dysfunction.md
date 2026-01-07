@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Honeyman Method]]"
 source_of_truth: []
 status: "seedling"
-tags: ["executive-dysfunction", "routines", "strategy", "topic/health/adhd"]
+tags: ["executive-dysfunction", "routines", "strategy", "TheHuman/Health/ADHD"]
 title: Making minimums truly attainable addresses executive dysfunction
 type: "concept"
 uid: 

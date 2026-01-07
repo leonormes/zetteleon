@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["overthinking", "paralysis", "topic/cognition"]
+tags: ["overthinking", "paralysis", "TheHuman/Cognition"]
 title: Overcoming Intelligent Paralysis MOC
 type: "map"
 uid: 

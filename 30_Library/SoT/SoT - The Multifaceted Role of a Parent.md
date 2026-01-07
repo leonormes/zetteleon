@@ -10,7 +10,7 @@ review_interval: "12 months"
 see_also: ["[[SoT - Secure Attachment]]"]
 source_of_truth: []
 status: "stable"
-tags: ["child_development", "family", "parenting", "social_roles", "topic/psychology"]
+tags: ["child_development", "family", "parenting", "social_roles", "TheHuman/Psychology"]
 title: SoT - The Multifaceted Role of a Parent
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["topic/health/adhd", "topic/pkm/zettelkasten"]
+tags: ["TheHuman/Health/ADHD", "topic/pkm/zettelkasten"]
 title: "Create a 'Research Hole' Parking Lot"
 type: ""
 uid: 

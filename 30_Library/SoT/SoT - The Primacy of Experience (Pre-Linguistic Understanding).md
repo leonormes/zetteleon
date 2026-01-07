@@ -10,7 +10,7 @@ purpose: "To define understanding as a fundamentally pre-linguistic, embodied pr
 review_interval: "1 year"
 see_also: ["[[SoT - The Extended Mind Thesis]]", "[[SoT - Embodied Cognition]]", "[[SoT - Conceptual Metaphor Theory]]"]
 status: "stable"
-tags: ["cognition", "philosophy", "language", "understanding", "embodiment"]
+tags: ["cognition", "TheHuman/Philosophy", "language", "understanding", "embodiment"]
 title: SoT - The Primacy of Experience (Pre-Linguistic Understanding)
 type: "SoT"
 ---

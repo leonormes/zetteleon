@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[Integrity Means Acting in Accordance With Chosen Values]]", "[[SoT - ADHD and Motivation]]", "[[SoT - Wabi-Sabi]]", "[[The Self is Constructed Through a Commitment to Chosen Values]]"]
 source_of_truth: []
 status: "stable"
-tags: ["eudaimonia", "philosophy", "topic/health/adhd", "topic/psychology", "values"]
+tags: ["eudaimonia", "TheHuman/Philosophy", "TheHuman/Health/ADHD", "TheHuman/Psychology", "values"]
 title: SoT - Values and Eudaimonia
 type: "SoT"
 uid: 

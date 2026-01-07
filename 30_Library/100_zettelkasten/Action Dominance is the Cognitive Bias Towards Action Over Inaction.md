@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["bias", "topic/cognition", "topic/psychology"]
+tags: ["bias", "TheHuman/Cognition", "TheHuman/Psychology"]
 title: Action Dominance is the Cognitive Bias Towards Action Over Inaction
 type: "concept"
 uid: 

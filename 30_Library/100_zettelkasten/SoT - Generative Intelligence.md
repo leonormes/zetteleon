@@ -11,7 +11,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Cognitive Ambiguity and Deep Thinking]]", "[[SoT - Conventional Problem Solving]]"]
 source_of_truth: []
 status: "stable"
-tags: ["innovation", "intelligence", "topic/cognition", "topic/health/adhd"]
+tags: ["innovation", "intelligence", "TheHuman/Cognition", "TheHuman/Health/ADHD"]
 title: SoT - Generative Intelligence
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["epistemology", "topic/psychology", "uncertainty"]
+tags: ["epistemology", "TheHuman/Psychology", "uncertainty"]
 title: "The World's Ambiguity Drives the Need for Certainty"
 type: "permanent"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Executive Function Challenges are Central to ADHD]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["executive-function", "metaphor", "topic/health/adhd"]
+tags: ["executive-function", "metaphor", "TheHuman/Health/ADHD"]
 title: The ADHD Brain as a High-Performance Engine with a Faulty Transmission
 type: "concept"
 uid: 

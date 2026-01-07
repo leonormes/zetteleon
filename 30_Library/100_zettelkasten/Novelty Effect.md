@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["novelty", "topic/health/adhd"]
+tags: ["novelty", "TheHuman/Health/ADHD"]
 title: Novelty Effect
 type: "permanent"
 uid: 

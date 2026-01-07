@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/health/adhd"]
+tags: ["TheHuman/Health/ADHD"]
 title: Motivational differences in ADHD may stem from dopamine dysregulation
 type: "permanent"
 uid: 

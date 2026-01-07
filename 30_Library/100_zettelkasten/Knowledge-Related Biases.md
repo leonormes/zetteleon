@@ -11,7 +11,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["knowledge", "topic/cognition/bias"]
+tags: ["knowledge", "TheHuman/Cognition/bias"]
 title: Knowledge-Related Biases
 type: "permanent"
 uid: 

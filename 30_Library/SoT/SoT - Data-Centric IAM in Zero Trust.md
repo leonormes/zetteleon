@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Digital Identity]]", "[[SoT - Modern Authentication Standards]]", "[[MOC - Cloud-Native Authentication]]"]
 source_of_truth: []
 status: "stable"
-tags: ["data-centric", "IAM", "SoftwareEngineering/Security", "zero-trust", "identity", "SoftwareEngineering/Architecture"]
+tags: ["data-centric", "IAM", "SoftwareEngineering/Security", "zero-trust", "TheHuman/Identity", "SoftwareEngineering/Architecture"]
 title: SoT - Data-Centric IAM in Zero Trust
 type: "SoT"
 uid: 

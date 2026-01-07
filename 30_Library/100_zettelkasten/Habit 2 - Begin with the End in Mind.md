@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["leadership", "principles", "topic/habits", "vision"]
+tags: ["leadership", "principles", "TheHuman/Habits", "vision"]
 title: Habit 2 - Begin with the End in Mind
 type: ""
 uid: 

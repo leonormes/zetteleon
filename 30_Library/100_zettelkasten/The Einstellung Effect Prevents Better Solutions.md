@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["problem-solving", "topic/cognition", "topic/cognition/bias"]
+tags: ["problem-solving", "TheHuman/Cognition", "TheHuman/Cognition/bias"]
 title: The Einstellung Effect Prevents Better Solutions
 type: "null"
 uid: 

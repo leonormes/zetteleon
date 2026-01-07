@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - You Need to Romanticize Your Process]]"
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "enjoyment", "flow-state"]
+tags: ["TheHuman/Creativity", "enjoyment", "flow-state"]
 title: Enjoyment is Essential for Creative Flow
 type: "concept"
 uid: 

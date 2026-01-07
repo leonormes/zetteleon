@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Deductive Reasoning Underwrites Mathematical Proof]]", "[[G\\u00f6del''s Incompleteness Theorems Constrain Foundational Programs]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["foundations", "philosophy", "topic/maths"]
+tags: ["foundations", "TheHuman/Philosophy", "topic/maths"]
 title: Formalism (Mathematics as Symbol Manipulation)
 type: "concept"
 uid: 

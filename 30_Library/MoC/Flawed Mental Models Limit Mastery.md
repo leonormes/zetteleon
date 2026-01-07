@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/cognition", "topic/cognition/mental-model"]
+tags: ["TheHuman/Cognition", "TheHuman/Cognition/mental-model"]
 title: Flawed Mental Models Limit Mastery
 type: "map"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["emotion", "memory", "perception", "topic/cognition"]
+tags: ["emotion", "memory", "perception", "TheHuman/Cognition"]
 title: Salience and Emotion Shape Mental Models
 type: "null"
 uid: 

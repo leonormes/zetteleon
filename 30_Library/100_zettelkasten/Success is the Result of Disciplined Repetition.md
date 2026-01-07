@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - How to Build Discipline]]"
 source_of_truth: []
 status: "seedling"
-tags: ["discipline", "repetition", "success", "topic/habits"]
+tags: ["discipline", "repetition", "success", "TheHuman/Habits"]
 title: Success is the Result of Disciplined Repetition
 type: "concept"
 uid: 

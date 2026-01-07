@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Brain Dumping Offloads Cognitive Load to an External System]]", "[[Working Memory Limitations in ADHD]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["topic/health/adhd", "topic/productivity", "visualization", "working-memory"]
+tags: ["TheHuman/Health/ADHD", "topic/productivity", "visualization", "working-memory"]
 title: Externalizing Progress Makes it Tangible and Motivational
 type: "concept"
 uid: 

@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Systems Thinking for Goal Achievement]]"
 source_of_truth: []
 status: "seedling"
-tags: ["topic/habits", "topic/systems"]
+tags: ["TheHuman/Habits", "topic/systems"]
 title: Effective Systems are Built From Tiny Initial Actions
 type: "concept"
 uid: 

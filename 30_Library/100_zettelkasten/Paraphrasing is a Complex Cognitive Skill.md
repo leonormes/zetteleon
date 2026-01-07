@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["paraphrasing", "topic/cognition", "topic/cognition/thinking", "topic/learning"]
+tags: ["paraphrasing", "TheHuman/Cognition", "TheHuman/Cognition/thinking", "topic/learning"]
 title: Paraphrasing is a Complex Cognitive Skill
 type: "null"
 uid: 

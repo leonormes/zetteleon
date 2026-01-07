@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "subconscious-processing", "work-flow", "writing"]
+tags: ["TheHuman/Creativity", "subconscious-processing", "work-flow", "writing"]
 title: The Hemingway Technique - End Work With Unfinished Problems
 type: "strategy"
 uid: 

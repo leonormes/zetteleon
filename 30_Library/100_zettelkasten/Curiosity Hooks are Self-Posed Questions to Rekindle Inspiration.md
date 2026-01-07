@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "motivation", "topic/productivity"]
+tags: ["TheHuman/Creativity", "TheHuman/Motivation", "topic/productivity"]
 title: Curiosity Hooks are Self-Posed Questions to Rekindle Inspiration
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["emotional-regulation", "topic/health/adhd", "topic/pkm"]
+tags: ["emotional-regulation", "TheHuman/Health/ADHD", "topic/pkm"]
 title: Treat Impostor Feelings as a Signal, not a Verdict
 type: "permanent"
 uid: 

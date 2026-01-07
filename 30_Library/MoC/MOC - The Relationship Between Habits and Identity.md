@@ -13,7 +13,7 @@ scope: "The relationship between habits and identity as the core driver of behav
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["behavior-change", "identity", "topic/habits", "topic/psychology"]
+tags: ["behavior-change", "TheHuman/Identity", "TheHuman/Habits", "TheHuman/Psychology"]
 title: MOC - The Relationship Between Habits and Identity
 type: "map"
 uid: 

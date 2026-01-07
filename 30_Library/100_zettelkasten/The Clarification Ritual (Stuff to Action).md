@@ -10,7 +10,7 @@ review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source_of_truth: []
 status: "pending"
-tags: ["clarification", "experiment", "gtd", "hypothesis", "topic/health/adhd", "topic/productivity"]
+tags: ["clarification", "experiment", "gtd", "hypothesis", "TheHuman/Health/ADHD", "topic/productivity"]
 title: The Clarification Ritual (Stuff to Action)
 type: "hypothesis"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["constraints", "creativity", "focus", "topic/cognition/thinking"]
+tags: ["constraints", "TheHuman/Creativity", "focus", "TheHuman/Cognition/thinking"]
 title: Deep Focus on a Single Concept Sparks Innovation
 type: "null"
 uid: 

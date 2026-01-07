@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Why Task Initiation is Difficult in ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["executive-function", "time-management", "topic/health/adhd"]
+tags: ["executive-function", "time-management", "TheHuman/Health/ADHD"]
 title: ADHD Time Blindness Impairs Planning
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[ADHD Hangover or Brain Fog Following Hyperfixation]]", "[[Dopamine Dysregulation is a Key Factor in ADHD Motivation]]", "[[Hyperfixation Causes Mental Exhaustion and Burnout]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "neuroscience", "neurotransmitters", "topic/health/adhd"]
+tags: ["dopamine", "TheHuman/Neuroscience", "neurotransmitters", "TheHuman/Health/ADHD"]
 title: Dopamine Deficit Follows Hyperfixation Crash
 type: "concept"
 uid: 

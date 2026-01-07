@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Proto-systems Are Informal Collective Routines That Organize Work]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["gtd", "topic/habits", "topic/productivity", "topic/systems"]
+tags: ["gtd", "TheHuman/Habits", "topic/productivity", "topic/systems"]
 title: Modern Productivity Systems Formalize Implicit Historical Strategies
 type: "concept"
 uid: 

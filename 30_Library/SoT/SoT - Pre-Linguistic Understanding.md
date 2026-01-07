@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: []
 source_of_truth: []
 status: "stable"
-tags: ["ai", "cognitive_science", "education", "linguistics", "philosophy"]
+tags: ["ai", "cognitive_science", "education", "linguistics", "TheHuman/Philosophy"]
 title: SoT - Pre-Linguistic Understanding
 type: "SoT"
 uid: 

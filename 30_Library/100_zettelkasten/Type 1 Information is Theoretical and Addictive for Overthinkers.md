@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["addiction", "information", "overthinking", "topic/cognition"]
+tags: ["addiction", "information", "overthinking", "TheHuman/Cognition"]
 title: Type 1 Information is Theoretical and Addictive for Overthinkers
 type: "redirect"
 uid: 

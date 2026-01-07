@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: ["[[Protocol - Deep Dive Session]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["learning", "metalearning", "prodos", "protocol", "topic/cognition"]
+tags: ["learning", "metalearning", "prodos", "protocol", "TheHuman/Cognition"]
 title: SoT - Accelerated Learning (3C Protocol)
 type: "SoT"
 uid: 

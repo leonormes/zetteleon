@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[Mental Models MOC]]", "[[SoT - Myopic Understanding]]"]
 source_of_truth: []
 status: "stable"
-tags: ["logic", "pkm", "topic/cognition"]
+tags: ["logic", "pkm", "TheHuman/Cognition"]
 title: MOC - Abstraction Improves Breadth of Understanding
 type: "map"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: ["[[SoT - Dunning-Kruger Effect]]", "[[SoT - The Metagame (Strategic Context)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["identity", "imposter_syndrome", "learning", "mindset", "topic/health/adhd"]
+tags: ["TheHuman/Identity", "imposter_syndrome", "learning", "TheHuman/Mindset", "TheHuman/Health/ADHD"]
 title: SoT - Reframe Your Mindset From Pretender to Explorer
 type: "SoT"
 uid: 

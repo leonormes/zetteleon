@@ -10,7 +10,7 @@ review_interval: ""
 see_also: ["[[Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain]]", "[[MOC - Cognitive Biases]]"]
 source_of_truth: []
 status: "stable"
-tags: ["emotional_regulation", "evolution", "topic/cognition/bias", "topic/health/adhd", "topic/psychology"]
+tags: ["emotional_regulation", "evolution", "TheHuman/Cognition/bias", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
 title: SoT - The Negativity Bias
 type: "SoT"
 uid: 

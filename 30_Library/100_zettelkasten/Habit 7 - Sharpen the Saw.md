@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["effectiveness", "principles", "renewal", "self_care", "topic/habits"]
+tags: ["effectiveness", "principles", "renewal", "self_care", "TheHuman/Habits"]
 title: Habit 7 - Sharpen the Saw
 type: ""
 uid: 

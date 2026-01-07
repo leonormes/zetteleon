@@ -10,7 +10,7 @@ review_interval: "1 year"
 see_also: ["[[SoT - Cyberpunk Case Study - Blade Runner]]", "[[SoT - Cyberpunk Philosophy]]"]
 source_of_truth: ["[[00_Inbox/Denis Villeneuve Film Ranking Analysis.md]]"]
 status: "stable"
-tags: ["film", "philosophy", "language", "sociology"]
+tags: ["film", "TheHuman/Philosophy", "language", "sociology"]
 title: SoT - Denis Villeneuve (Directorial Philosophy)
 type: "SoT"
 uid: 

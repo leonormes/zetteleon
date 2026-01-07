@@ -13,7 +13,7 @@ scope: ""
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["project-continuity", "topic/health/adhd"]
+tags: ["project-continuity", "TheHuman/Health/ADHD"]
 title: MOC - ADHD Project Continuation Challenge
 type: "map"
 uid: 

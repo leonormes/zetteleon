@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["identity", "mindset", "topic/habits"]
+tags: ["TheHuman/Identity", "TheHuman/Mindset", "TheHuman/Habits"]
 title: Identity-Based Habits are More Resilient Than Goal-Based Habits
 type: "concept"
 uid: 

@@ -11,7 +11,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["action", "avoidance", "fear", "overthinking", "topic/psychology"]
+tags: ["action", "avoidance", "fear", "overthinking", "TheHuman/Psychology"]
 title: Experiential Information Avoidance
 type: ""
 uid: 

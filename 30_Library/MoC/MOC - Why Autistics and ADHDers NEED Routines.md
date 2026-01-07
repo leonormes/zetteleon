@@ -11,7 +11,7 @@ see_also: []
 source: "https://youtube.com/watch?v=M0QeofT0_qg"
 source_of_truth: []
 status: "null"
-tags: ["autism", "routine-building", "topic/health/adhd"]
+tags: ["autism", "routine-building", "TheHuman/Health/ADHD"]
 title: MOC - Why Autistics and ADHDers NEED Routines
 type: "map"
 uid: 

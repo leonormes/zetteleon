@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["communication", "language", "teams", "topic/cognition/mental-model"]
+tags: ["communication", "language", "teams", "TheHuman/Cognition/mental-model"]
 title: Semantic Diffusion Creates False Alignment
 type: "null"
 uid: 

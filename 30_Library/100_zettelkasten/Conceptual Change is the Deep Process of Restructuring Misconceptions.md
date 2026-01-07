@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["conceptual-change", "learning", "misconceptions", "topic/cognition"]
+tags: ["conceptual-change", "learning", "misconceptions", "TheHuman/Cognition"]
 title: Conceptual Change is the Deep Process of Restructuring Misconceptions
 type: "concept"
 uid: 

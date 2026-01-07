@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Proto-systems Are Informal Collective Routines That Organize Work]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["achievement", "collaboration", "history", "motivation"]
+tags: ["achievement", "collaboration", "history", "TheHuman/Motivation"]
 title: Historical Achievements Were Driven by Collective Will and Urgent Necessity
 type: "concept"
 uid: 

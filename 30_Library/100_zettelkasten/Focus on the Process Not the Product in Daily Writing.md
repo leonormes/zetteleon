@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
 source_of_truth: []
 status: "seedling"
-tags: ["mindset", "process", "writing"]
+tags: ["TheHuman/Mindset", "process", "writing"]
 title: Focus on the Process Not the Product in Daily Writing
 type: "concept"
 uid: 

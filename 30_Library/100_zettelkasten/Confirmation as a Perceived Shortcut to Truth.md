@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["epistemology", "heuristics", "topic/psychology"]
+tags: ["epistemology", "heuristics", "TheHuman/Psychology"]
 title: Confirmation as a Perceived Shortcut to Truth
 type: "permanent"
 uid: 

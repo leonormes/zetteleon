@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["accommodation", "management", "neurodiversity", "topic/health/adhd"]
+tags: ["accommodation", "management", "neurodiversity", "TheHuman/Health/ADHD"]
 title: Organizations Can Support ADHD Employees Through Culture and Accommodations
 type: "concept"
 uid: 

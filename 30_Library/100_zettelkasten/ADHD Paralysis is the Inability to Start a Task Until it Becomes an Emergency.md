@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - The Phases of Task Execution and the Impact of ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["executive_function", "task_initiation", "topic/health/adhd"]
+tags: ["executive_function", "task_initiation", "TheHuman/Health/ADHD"]
 title: ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency
 type: "concept"
 uid: 

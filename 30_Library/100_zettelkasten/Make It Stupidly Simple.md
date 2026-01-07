@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/health/adhd", "topic/pkm/zettelkasten", "topic/productivity/gtd"]
+tags: ["TheHuman/Health/ADHD", "topic/pkm/zettelkasten", "topic/productivity/gtd"]
 title: Make It Stupidly Simple
 type: "null"
 uid: 

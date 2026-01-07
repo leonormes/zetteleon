@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["analogy", "chemistry", "science", "topic/cognition/mental-model"]
+tags: ["analogy", "chemistry", "science", "TheHuman/Cognition/mental-model"]
 title: The Bohr Model as a Simplified Mental Model
 type: "null"
 uid: 

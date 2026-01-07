@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["map", "neuroscience", "topic/habits", "topic/productivity"]
+tags: ["map", "TheHuman/Neuroscience", "TheHuman/Habits", "topic/productivity"]
 title: MOC - The Science of Making and Breaking Habits
 type: "map"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/cognition/mental-model", "topic/maths", "topic/philosophy"]
+tags: ["TheHuman/Cognition/mental-model", "topic/maths", "topic/philosophy"]
 title: The Nature of Number
 type: "null"
 uid: 

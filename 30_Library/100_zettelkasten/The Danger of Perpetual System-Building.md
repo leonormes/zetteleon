@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["perfectionism", "topic/health/adhd", "topic/productivity", "topic/systems"]
+tags: ["perfectionism", "TheHuman/Health/ADHD", "topic/productivity", "topic/systems"]
 title: The Danger of Perpetual System-Building
 type: "null"
 uid: 

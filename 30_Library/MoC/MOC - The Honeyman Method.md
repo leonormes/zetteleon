@@ -11,7 +11,7 @@ see_also: []
 source: "https://www.youtube.com/watch?v=JQFZNQS6eQ0&si=aJON_ftW7HkzZnhv"
 source_of_truth: []
 status: "null"
-tags: ["autism", "energy-management", "routines", "self-compassion", "topic/health/adhd"]
+tags: ["autism", "energy-management", "routines", "self-compassion", "TheHuman/Health/ADHD"]
 title: MOC - The Honeyman Method
 type: "map"
 uid: 

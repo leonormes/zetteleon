@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["creativity", "neurodiversity", "personal-growth", "strengths", "topic/health/adhd", "topic/productivity/hyperfocus"]
+tags: ["TheHuman/Creativity", "neurodiversity", "personal-growth", "strengths", "TheHuman/Health/ADHD", "topic/productivity/hyperfocus"]
 title: Leveraging ADHD Strengths and Superpowers
 type: "null"
 uid: 

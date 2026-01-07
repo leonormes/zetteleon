@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Executive Function Challenges are Central to ADHD]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["executive-function", "topic/health/adhd", "topic/productivity", "topic/systems"]
+tags: ["executive-function", "TheHuman/Health/ADHD", "topic/productivity", "topic/systems"]
 title: The Atomic Action Framework Supports Executive Function
 type: "concept"
 uid: 

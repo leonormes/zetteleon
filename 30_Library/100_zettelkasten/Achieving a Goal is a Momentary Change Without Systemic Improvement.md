@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "goals", "topic/habits", "topic/systems"]
+tags: ["behavior-change", "goals", "TheHuman/Habits", "topic/systems"]
 title: Achieving a Goal is a Momentary Change Without Systemic Improvement
 type: "concept"
 uid: 

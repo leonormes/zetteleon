@@ -10,7 +10,7 @@ review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "focus", "hypothesis", "momentum", "The", "topic/health/adhd", "topic/productivity"]
+tags: ["experiment", "focus", "hypothesis", "momentum", "The", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Master Micro-Actions & Starter Tasks
 type: "hypothesis"
 uid: 

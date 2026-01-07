@@ -10,7 +10,7 @@ review_interval: "180"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["task-initiation", "technique", "topic/health/adhd", "topic/productivity"]
+tags: ["task-initiation", "technique", "TheHuman/Health/ADHD", "topic/productivity"]
 title: The 5-Minute Action Overcomes Initiation Barriers
 type: "instructional"
 uid: 

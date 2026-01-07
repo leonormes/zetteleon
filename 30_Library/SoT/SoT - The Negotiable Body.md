@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Functional Mobility & Primal Movement]]", "[[SoT - The Extended Mind]]"]
 source_of_truth: []
 status: "stable"
-tags: ["embodiment", "extended_mind", "neuroscience", "somatics", "topic/cognition"]
+tags: ["embodiment", "extended_mind", "TheHuman/Neuroscience", "somatics", "TheHuman/Cognition"]
 title: SoT - The Negotiable Body
 type: "SoT"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Motion Defined as Preparatory Activity Without Direct Outcomes]]", "[[Perfectionism]]", "[[Procrastination Triggers]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["avoidance", "procrastination", "topic/productivity", "topic/psychology"]
+tags: ["avoidance", "procrastination", "topic/productivity", "TheHuman/Psychology"]
 title: Motion Can Be a Procrastination Delay Tactic
 type: "map"
 uid: 

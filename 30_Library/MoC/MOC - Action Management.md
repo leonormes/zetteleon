@@ -11,7 +11,7 @@ review_interval: 0
 see_also: []
 source_of_truth: false
 status: archived
-tags: [action, execution, gtd, prodos, topic/health/adhd]
+tags: [action, execution, gtd, prodos, "TheHuman/Health/ADHD"]
 title: MOC - Action Management
 type: map
 uid:

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["Foundations of Learning and Cognition for Developers.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["intelligence", "problem-solving", "topic/cognition"]
+tags: ["intelligence", "problem-solving", "TheHuman/Cognition"]
 title: Intelligence is a Flexible Problem-Solving Toolbox
 type: "concept"
 uid: 

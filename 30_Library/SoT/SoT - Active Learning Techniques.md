@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[SoT - Deep Learning & Mastery]]", "[[SoT - Learning Mechanisms]]"]
 source_of_truth: []
 status: "stable"
-tags: ["active_learning", "feynman", "learning", "protocol", "topic/cognition"]
+tags: ["active_learning", "feynman", "learning", "protocol", "TheHuman/Cognition"]
 title: SoT - Active Learning Techniques
 type: "SoT"
 uid: 

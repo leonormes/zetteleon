@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Growth Happens Outside the Comfort Zone]]", "[[Motion Can Be a Procrastination Delay Tactic]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["comfort-zone", "procrastination", "topic/productivity", "topic/psychology"]
+tags: ["comfort-zone", "procrastination", "topic/productivity", "TheHuman/Psychology"]
 title: The Comfort of Motion Hinders Genuine Action
 type: "concept"
 uid: 

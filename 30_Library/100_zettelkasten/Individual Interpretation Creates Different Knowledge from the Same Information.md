@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Personal Context and Relevance are Key to Knowledge Formation]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["bias", "interpretation", "knowledge", "topic/cognition"]
+tags: ["bias", "interpretation", "knowledge", "TheHuman/Cognition"]
 title: Individual Interpretation Creates Different Knowledge from the Same Information
 type: "concept"
 uid: 

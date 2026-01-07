@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["cbt", "morita-therapy", "therapy", "topic/psychology"]
+tags: ["cbt", "morita-therapy", "therapy", "TheHuman/Psychology"]
 title: Morita Therapy - Distinctions from Western Therapies
 type: "permanent"
 uid: 

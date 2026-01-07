@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: ["[[SoT - Social Stratification]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
 source_of_truth: []
 status: "stable"
-tags: ["behavior", "neuroscience", "status", "topic/psychology"]
+tags: ["behavior", "TheHuman/Neuroscience", "status", "TheHuman/Psychology"]
 title: SoT - The Evolutionary Biology of Status
 type: "SoT"
 uid: 

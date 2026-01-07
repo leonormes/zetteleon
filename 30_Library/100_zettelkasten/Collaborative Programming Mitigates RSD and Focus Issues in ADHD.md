@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["accommodation", "pair-programming", "rsd", "topic/health/adhd"]
+tags: ["accommodation", "pair-programming", "rsd", "TheHuman/Health/ADHD"]
 title: Collaborative Programming Mitigates RSD and Focus Issues in ADHD
 type: "concept"
 uid: 

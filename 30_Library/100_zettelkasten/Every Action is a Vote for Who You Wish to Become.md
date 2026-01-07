@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Accumulating Evidence Reinforces Identity]]", "[[Identity Emerges from Habits Not Fixed at Birth]]", "[[Identity Means Repeated Beingness]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "identity", "metaphor", "topic/habits"]
+tags: ["behavior-change", "TheHuman/Identity", "metaphor", "TheHuman/Habits"]
 title: Every Action is a Vote for Who You Wish to Become
 type: "concept"
 uid: 

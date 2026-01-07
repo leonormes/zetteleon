@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["concepts", "measurement", "science", "topic/cognition/mental-model"]
+tags: ["concepts", "measurement", "science", "TheHuman/Cognition/mental-model"]
 title: Precision is Consistency of Measurement
 type: "null"
 uid: 

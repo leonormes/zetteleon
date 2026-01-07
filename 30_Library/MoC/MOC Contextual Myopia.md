@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["bias", "type/moc", "problem-solving", "topic/cognition"]
+tags: ["bias", "type/moc", "problem-solving", "TheHuman/Cognition"]
 title: MOC Contextual Myopia
 type: "map"
 uid: 

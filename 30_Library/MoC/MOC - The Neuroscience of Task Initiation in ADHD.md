@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["neuroscience", "task-initiation", "topic/health/adhd"]
+tags: ["TheHuman/Neuroscience", "task-initiation", "TheHuman/Health/ADHD"]
 title: MOC - The Neuroscience of Task Initiation in ADHD
 type: "map"
 uid: 

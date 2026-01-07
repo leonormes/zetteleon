@@ -12,7 +12,7 @@ see_also:
   - "[[SoT - Experiential Learning & Education]]"
 source_of_truth: []
 status: "Active"
-tags: ["maths", "education", "philosophy", "pedagogy"]
+tags: ["maths", "education", "TheHuman/Philosophy", "pedagogy"]
 title: SoT - The Philosophy of Mathematics Education
 type: "SoT"
 uid: 

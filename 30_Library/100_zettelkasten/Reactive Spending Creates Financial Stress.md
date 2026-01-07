@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["budgeting", "finance", "topic/psychology"]
+tags: ["budgeting", "finance", "TheHuman/Psychology"]
 title: Reactive Spending Creates Financial Stress
 type: ""
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Accumulating Evidence Reinforces Identity]]", "[[Every Action is a Vote for Who You Wish to Become]]", "[[Identity Means Repeated Beingness]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "identity", "self-concept", "topic/habits", "topic/psychology"]
+tags: ["behavior-change", "TheHuman/Identity", "self-concept", "TheHuman/Habits", "TheHuman/Psychology"]
 title: Identity Emerges from Habits Not Fixed at Birth
 type: "concept"
 uid: 

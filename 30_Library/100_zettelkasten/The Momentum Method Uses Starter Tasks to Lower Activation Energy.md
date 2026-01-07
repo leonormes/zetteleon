@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[A Starter Task is a Small Action Designed Purely to Build Momentum]]", "[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["momentum", "strategy", "task-initiation", "topic/health/adhd", "topic/productivity"]
+tags: ["momentum", "strategy", "task-initiation", "TheHuman/Health/ADHD", "topic/productivity"]
 title: The Momentum Method Uses Starter Tasks to Lower Activation Energy
 type: "permanent"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Timeboxing Creates Structure for Action]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["accountability", "time-management", "topic/productivity", "topic/psychology"]
+tags: ["accountability", "time-management", "topic/productivity", "TheHuman/Psychology"]
 title: Timeboxing Makes Time Tangible and Creates Accountability
 type: "concept"
 uid: 

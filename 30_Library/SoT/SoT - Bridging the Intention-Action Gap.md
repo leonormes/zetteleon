@@ -10,7 +10,7 @@ review_interval: "3 months"
 see_also: ["[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]", "[[ADHD and Productivity]]", "[[Logic Does Not Produce Dopamine]]", "[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS (System Architecture)]]", "[[The Motivation Bridge - An ADHD Metaphor]]", "[[Vague Task to Actionable Plan Checklist]]"]
 source_of_truth: []
 status: "stable"
-tags: ["execution", "topic/health/adhd", "topic/productivity", "topic/psychology"]
+tags: ["execution", "TheHuman/Health/ADHD", "topic/productivity", "TheHuman/Psychology"]
 title: SoT - Bridging the Intention-Action Gap
 type: "SoT"
 uid: 

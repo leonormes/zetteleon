@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["inaction", "intelligence", "topic/productivity", "topic/psychology"]
+tags: ["inaction", "intelligence", "topic/productivity", "TheHuman/Psychology"]
 title: The Intelligence Trap - Strategist vs Performer
 type: "null"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/health/adhd", "topic/productivity", "writing"]
+tags: ["TheHuman/Health/ADHD", "topic/productivity", "writing"]
 title: MOC - Daily Writing for Clarity and ADHD-Friendly Techniques
 type: "map"
 uid: 

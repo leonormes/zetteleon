@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["decision_making", "ego", "mindset", "probabilistic_thinking", "topic/learning"]
+tags: ["decision_making", "ego", "TheHuman/Mindset", "probabilistic_thinking", "topic/learning"]
 title: Decoupling Ego from Outcomes to Improve Decisions
 type: ""
 uid: 

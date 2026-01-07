@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["ADHD-Friendly Cleaning Strategies Focus on Cues and Transitions.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["topic/productivity", "topic/psychology"]
+tags: ["topic/productivity", "TheHuman/Psychology"]
 title: Discomfort Signals Growth Potential
 type: "concept"
 uid: 

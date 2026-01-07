@@ -13,7 +13,7 @@ scope: "The science and philosophy of taking action, focusing on the gap between
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["action", "behavior-change", "philosophy", "topic/productivity", "topic/psychology"]
+tags: ["action", "behavior-change", "TheHuman/Philosophy", "topic/productivity", "TheHuman/Psychology"]
 title: MOC - The Science and Philosophy of Taking Action
 type: "map"
 uid: 

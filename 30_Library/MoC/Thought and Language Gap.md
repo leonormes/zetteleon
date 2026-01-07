@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["consciousness", "language", "topic/cognition", "topic/philosophy"]
+tags: ["consciousness", "language", "TheHuman/Cognition", "topic/philosophy"]
 title: Thought and Language Gap
 type: "map"
 uid: 

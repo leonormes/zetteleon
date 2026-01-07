@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - You Need to Romanticize Your Process]]"
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "gratitude", "mindset", "satisfaction"]
+tags: ["TheHuman/Creativity", "gratitude", "TheHuman/Mindset", "satisfaction"]
 title: Finding Gratitude in the Process Leads to Long-Term Satisfaction
 type: "concept"
 uid: 

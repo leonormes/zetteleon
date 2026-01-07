@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["self-reflection", "thinking", "topic/cognition/bias", "writing"]
+tags: ["self-reflection", "thinking", "TheHuman/Cognition/bias", "writing"]
 title: Writing Creates Cognitive Distance for Objective Evaluation
 type: "concept"
 uid: 

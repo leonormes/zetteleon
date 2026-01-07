@@ -11,7 +11,7 @@ see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source: "[[MOC - ADHD Task Management]]"
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "hypothesis", "interest-pairing", "motivation", "topic/health/adhd", "topic/productivity"]
+tags: ["experiment", "hypothesis", "interest-pairing", "TheHuman/Motivation", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Interest Pairing Can Increase Engagement in Mundane Tasks for ADHD
 type: "hypothesis"
 uid: 

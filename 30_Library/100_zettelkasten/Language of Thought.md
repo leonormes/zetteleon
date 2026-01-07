@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["language", "mentalese", "philosophy-of-mind", "topic/cognition"]
+tags: ["language", "mentalese", "philosophy-of-mind", "TheHuman/Cognition"]
 title: Language of Thought
 type: "null"
 uid: 

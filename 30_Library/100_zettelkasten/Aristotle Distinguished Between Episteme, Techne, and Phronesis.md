@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["aristotle", "knowledge", "philosophy"]
+tags: ["aristotle", "knowledge", "TheHuman/Philosophy"]
 title: Aristotle Distinguished Between Episteme, Techne, and Phronesis
 type: "concept"
 uid: 

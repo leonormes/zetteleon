@@ -10,7 +10,7 @@ review_interval: ""
 see_also: ["[[SoT - Cognitive Refactoring (Neural Debugging)]]", "[[SoT - PRODOS - Problem Architecture]]"]
 source_of_truth: []
 status: "stable"
-tags: ["mental_models", "optimization", "problem-solving", "strategy", "topic/cognition"]
+tags: ["mental_models", "optimization", "problem-solving", "strategy", "TheHuman/Cognition"]
 title: SoT - Conventional Problem Solving
 type: "SoT"
 uid: 

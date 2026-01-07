@@ -13,7 +13,7 @@ scope: ""
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["foundations", "philosophy", "topic/maths"]
+tags: ["foundations", "TheHuman/Philosophy", "topic/maths"]
 title: MOC - What is Maths
 type: "map"
 uid: 

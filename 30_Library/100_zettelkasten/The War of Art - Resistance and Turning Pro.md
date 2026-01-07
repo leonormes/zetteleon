@@ -10,7 +10,7 @@ review_interval: "6 months"
 see_also: ["[[ADHD Brain Operates on an Interest-Based Nervous System]]", "[[Logic Does Not Produce Dopamine]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: []
 status: "sapling"
-tags: ["mental_model", "pressfield", "topic/productivity", "topic/psychology"]
+tags: ["mental_model", "pressfield", "topic/productivity", "TheHuman/Psychology"]
 title: The War of Art - Resistance and Turning Pro
 type: "principle"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Inner Strength & Resilience Skills (Your Strong Spirit)]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["character-strength", "growth", "resilience", "topic/psychology", "virtue"]
+tags: ["character-strength", "growth", "resilience", "TheHuman/Psychology", "virtue"]
 title: Resilience is the Ability to Bounce Back from Setbacks
 type: "concept"
 uid: 

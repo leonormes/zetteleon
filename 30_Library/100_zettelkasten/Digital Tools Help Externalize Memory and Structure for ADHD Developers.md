@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["software", "tools", "topic/health/adhd", "topic/productivity"]
+tags: ["software", "tools", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Digital Tools Help Externalize Memory and Structure for ADHD Developers
 type: "concept"
 uid: 

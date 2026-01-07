@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Deductive Reasoning Underwrites Mathematical Proof]]", "[[Intuitionism Rejects the Law of the Excluded Middle]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["constructivism", "philosophy", "topic/maths"]
+tags: ["constructivism", "TheHuman/Philosophy", "topic/maths"]
 title: Intuitionism (Mathematics as Mental Construction)
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["creativity", "ideas", "originality", "synthesis"]
+tags: ["TheHuman/Creativity", "ideas", "originality", "synthesis"]
 title: Originality is the Unique Synthesis of Existing Ideas
 type: "concept"
 uid: 

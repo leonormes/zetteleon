@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["optimization", "topic/cognition", "topic/productivity", "topic/systems"]
+tags: ["optimization", "TheHuman/Cognition", "topic/productivity", "topic/systems"]
 title: Productivity Systems Are Scaffolding Not the Engine of Progress
 type: "concept"
 uid: 

@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["decision-making", "problem-solving", "topic/cognition"]
+tags: ["decision-making", "problem-solving", "TheHuman/Cognition"]
 title: Satisficing Leads to Sub-optimal Solutions
 type: "null"
 uid: 

@@ -10,7 +10,7 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["action", "morita-therapy", "motivation", "purpose", "therapy", "values"]
+tags: ["action", "morita-therapy", "TheHuman/Motivation", "purpose", "therapy", "values"]
 title: Morita Therapy - Purpose-Driven Action Over Emotion
 type: "permanent"
 uid: 

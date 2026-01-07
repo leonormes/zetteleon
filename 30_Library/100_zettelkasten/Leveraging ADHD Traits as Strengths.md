@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["creativity", "strengths", "topic/health/adhd", "topic/productivity/hyperfocus"]
+tags: ["TheHuman/Creativity", "strengths", "TheHuman/Health/ADHD", "topic/productivity/hyperfocus"]
 title: Leveraging ADHD Traits as Strengths
 type: "null"
 uid: 

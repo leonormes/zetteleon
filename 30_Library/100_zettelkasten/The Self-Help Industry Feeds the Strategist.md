@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["consumerism", "inaction", "self_help", "topic/psychology"]
+tags: ["consumerism", "inaction", "self_help", "TheHuman/Psychology"]
 title: The Self-Help Industry Feeds the Strategist
 type: "null"
 uid: 

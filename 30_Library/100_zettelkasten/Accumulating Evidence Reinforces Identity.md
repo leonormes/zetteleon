@@ -10,7 +10,7 @@ review_interval: "90"
 see_also: ["[[Every Action is a Vote for Who You Wish to Become]]", "[[Identity Emerges from Habits Not Fixed at Birth]]", "[[Two-Step Identity Change Process]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "evidence", "identity", "topic/habits", "topic/psychology"]
+tags: ["behavior-change", "evidence", "TheHuman/Identity", "TheHuman/Habits", "TheHuman/Psychology"]
 title: Accumulating Evidence Reinforces Identity
 type: "concept"
 uid: 

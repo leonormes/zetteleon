@@ -10,7 +10,7 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["agency", "curation", "identity", "self-construction", "topic/psychology"]
+tags: ["agency", "curation", "TheHuman/Identity", "self-construction", "TheHuman/Psychology"]
 title: The Self is Constructed Through Curation of Influences
 type: "concept"
 uid: 

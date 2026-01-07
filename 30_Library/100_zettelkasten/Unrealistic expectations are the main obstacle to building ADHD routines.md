@@ -11,7 +11,7 @@ see_also: []
 source: "[[MOC - ADHD Routine Building Strategies]]"
 source_of_truth: []
 status: "seedling"
-tags: ["mindset", "topic/habits", "topic/health/adhd", "topic/productivity"]
+tags: ["TheHuman/Mindset", "TheHuman/Habits", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Unrealistic expectations are the main obstacle to building ADHD routines
 type: "concept"
 uid: 
