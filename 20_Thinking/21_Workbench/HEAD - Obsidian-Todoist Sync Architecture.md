@@ -10,7 +10,7 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: archived
-tags: [architecture, prodos, thinking]
+tags: ["SoftwareEngineering/Architecture", prodos, thinking]
 title: HEAD - Obsidian-Todoist Sync Architecture
 type: head
 uid:

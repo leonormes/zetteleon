@@ -2,7 +2,7 @@
 aliases: []
 tags:
   - head
-  - architecture
+  - "SoftwareEngineering/Architecture"
   - philosophy
 created: 2026-01-07T12:25:00
 status: Active

@@ -11,7 +11,7 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: someday
-tags: [azure, head, security, terraform, thinking]
+tags: [azure, head, "SoftwareEngineering/Security", terraform, thinking]
 title: HEAD - Dynamic Credentials for TFC and Azure
 type: head
 uid:

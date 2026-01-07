@@ -11,7 +11,7 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: someday
-tags: [bitnami, ffapp-4153, head, jira, kubernetes, security]
+tags: [bitnami, ffapp-4153, head, jira, kubernetes, "SoftwareEngineering/Security"]
 title: HEAD - FFAPP-4153 - Discovery and Analysis of Bitnami Chart Replacements
 type: head
 uid:

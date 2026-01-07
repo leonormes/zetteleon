@@ -15,7 +15,7 @@ tags:
   - project
   - learning
   - rust
-  - architecture
+  - "SoftwareEngineering/Architecture"
   - active
 status: Active
 priority: High

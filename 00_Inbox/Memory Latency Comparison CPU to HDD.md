@@ -53,9 +53,3 @@ This table scales typical modern hardware latencies (measured in nanoseconds or 
 When a CPU experiences a **Cache Miss** (data isn't in L1), it doesn't just wait; it often stalls. In the time it takes to fetch one piece of data from a traditional **HDD**, a modern CPU could have theoretically completed **hundreds of millions** of instructions if the data had been in the L1 cache.
 
 Would you like me to break down the specific "cache hit" logic or explain how "branch prediction" helps the CPU avoid these long wait times?
-
-Google Account
-
-Leon Ormes
-
-leonormes@gmail.com

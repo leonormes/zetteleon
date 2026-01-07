@@ -11,7 +11,7 @@ review_interval: null
 see_also: []
 source_of_truth: []
 status: null
-tags: [topic/technology/networking/dns]
+tags: ["SoftwareEngineering/networking/dns"]
 title: DNS and Hostname.excalidraw
 type: null
 uid: null

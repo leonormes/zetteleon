@@ -11,7 +11,7 @@ review_interval:
 see_also: []
 source_of_truth: []
 status: someday
-tags: [architecture, docker, head, kubernetes, thinking]
+tags: ["SoftwareEngineering/Architecture", docker, head, kubernetes, thinking]
 title: HEAD - Image Architecture Strategy
 type: head
 uid:
