@@ -6,7 +6,7 @@ criteria: "Atomic notes defining the core problem (intention-action gap), its ps
 epistemic: ""
 exclusions: "Specific self-help plans without reference to underlying principles."
 last_reviewed: ""
-modified: 2026-01-08T10:49:46+00:00
+modified: 2026-01-08T15:03:30+00:00
 purpose: ""
 review_interval: ""
 scope: "The science and philosophy of taking action, focusing on the gap between knowledge and behavior and the strategies to bridge it."

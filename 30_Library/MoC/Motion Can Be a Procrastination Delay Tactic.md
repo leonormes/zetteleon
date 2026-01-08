@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T20:22:24Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-08T10:49:45+00:00
+modified: 2026-01-08T15:03:31+00:00
 purpose: "Explain how motion can be misused as a form of procrastination that avoids actual work."
 review_interval: "90"
 see_also: ["[[Motion Defined as Preparatory Activity Without Direct Outcomes]]", "[[Perfectionism]]", "[[Procrastination Triggers]]"]

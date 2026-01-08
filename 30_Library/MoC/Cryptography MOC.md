@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-08T10:49:47+00:00
+modified: 2026-01-08T15:03:27+00:00
 purpose: "Map of Content for Cryptography and Encryption concepts."
 review_interval: "1 year"
 see_also: ["[[MOC - Layer 3 Network Security Concepts]]"]

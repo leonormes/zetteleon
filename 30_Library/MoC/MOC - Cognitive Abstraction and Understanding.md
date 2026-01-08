@@ -6,7 +6,7 @@ criteria: "Focus on practical learning and thinking implications."
 epistemic: ""
 exclusions: "Neuroscience details without cognitive application."
 last_reviewed: ""
-modified: 2026-01-08T10:49:47+00:00
+modified: 2026-01-08T15:03:28+00:00
 purpose: "Organize concepts about abstraction and understanding."
 review_interval: "180"
 scope: "Cognitive aspects of abstraction and understanding."

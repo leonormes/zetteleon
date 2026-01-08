@@ -6,7 +6,7 @@ criteria: "Atomic notes must relate to Zen concepts of suffering, impermanence, 
 epistemic: ""
 exclusions: "Discussion of enlightenment from other spiritual traditions."
 last_reviewed: ""
-modified: 2026-01-08T10:49:46+00:00
+modified: 2026-01-08T15:03:30+00:00
 purpose: ""
 review_interval: ""
 scope: "The Zen Buddhist perspective on why seeking enlightenment as a goal leads to suffering."

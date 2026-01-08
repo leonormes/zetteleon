@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-08-16T13:14:06Z
 epistemic: "synthesis"
 last_reviewed: "2025-12-24"
-modified: 2026-01-08T10:49:46+00:00
+modified: 2026-01-08T15:03:29+00:00
 purpose: "To map the specific cognitive and emotional triggers that cause task initiation failure in ADHD brains, distinguishing between lack of reward and lack of energy."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - ADHD Executive Dysfunction]]", "[[SoT - The Cognitive Physiology of Task Execution]]"]

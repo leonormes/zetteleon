@@ -5,7 +5,7 @@ confidence: 5/5
 created: 2025-12-30T12:08:43+00:00
 epistemic: root_index
 last_reviewed: 2025-12-30
-modified: 2026-01-08T10:49:46+00:00
+modified: 2026-01-08T15:03:30+00:00
 purpose: The Master Index organizing the convergence of Data-Oriented Design (Physics) and Type Theory (Logic) into a unified methodology for reliable systems.
 review_interval: 6 months
 see_also:

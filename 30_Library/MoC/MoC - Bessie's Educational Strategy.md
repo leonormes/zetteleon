@@ -4,7 +4,7 @@ confidence: "High"
 created: 2026-01-06T19:41:04+00:00
 epistemic: "Strategy"
 last_reviewed: 
-modified: 2026-01-08T10:49:45+00:00
+modified: 2026-01-08T15:03:31+00:00
 purpose: "To map the specific educational strategies, philosophies, and tools required to support Bessie's neurodivergent learning profile, shifting from 'obligation' to 'opportunity'."
 review_interval: "Quarterly"
 see_also:

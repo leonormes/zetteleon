@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-16T13:52:13Z
 epistemic: "reference"
 last_reviewed: "2025-12-23"
-modified: 2026-01-08T10:49:46+00:00
+modified: 2026-01-08T15:03:29+00:00
 purpose: "The central entry point for navigating Kubernetes architecture, from low-level container primitives to high-level platform deployment."
 review_interval: "6 months"
 see_also: ["[[MOC - Networking & DNS]]", "[[MOC - ProdOS]]"]

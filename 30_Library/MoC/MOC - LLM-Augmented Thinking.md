@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-25T10:00:00Z
 epistemic: synthesis
 last_reviewed: 2025-12-25
-modified: 2026-01-08T10:49:46+00:00
+modified: 2026-01-08T15:03:29+00:00
 purpose: To map the practical workflows, skills, and architectures for using LLMs as a cognitive extension for thinking and problem definition.
 review_interval: 3 months
 see_also:

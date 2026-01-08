@@ -6,7 +6,7 @@ criteria: "Focus on techniques from 'I want to be able remember facts to aid in 
 epistemic: ""
 exclusions: "General learning theories without specific memory techniques."
 last_reviewed: ""
-modified: 2026-01-08T10:49:46+00:00
+modified: 2026-01-08T15:03:29+00:00
 purpose: "Organize proven memory techniques for learning."
 review_interval: "180"
 scope: "Evidence-based memory techniques for learning and retention."

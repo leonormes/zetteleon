@@ -4,7 +4,7 @@ confidence: "High"
 created: 2026-01-06T19:25:32+00:00
 epistemic: "Index"
 last_reviewed: 
-modified: 2026-01-08T10:49:46+00:00
+modified: 2026-01-08T15:03:29+00:00
 purpose: "To map the OHDSI/OMOP ecosystem, focusing on the architectural constraints of read-only implementations and the convergence with FHIR."
 review_interval: "Quarterly"
 see_also:

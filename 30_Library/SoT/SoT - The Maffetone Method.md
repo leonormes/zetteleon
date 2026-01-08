@@ -4,7 +4,7 @@ confidence: 1.0
 created: 2026-01-08T12:50:00Z
 epistemic: principle
 last_reviewed: 2026-01-08
-modified: 2026-01-08T10:49:39+00:00
+modified: 2026-01-08T15:00:24+00:00
 purpose: "Canonical source of truth for the Maffetone Method methodology."
 review_interval: 90
 see_also: ["[[MOC - The Maffetone Method]]"]

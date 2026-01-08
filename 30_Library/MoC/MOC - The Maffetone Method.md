@@ -4,7 +4,7 @@ created: 2026-01-08T12:46:00Z
 criteria: "Must be related to MAF heart rate, aerobic base building, or Maffetone's stress/nutrition principles."
 exclusions: "General fitness advice not specific to Phil Maffetone's methodology."
 last_reviewed: ""
-modified: 2026-01-08T10:49:45+00:00
+modified: 2026-01-08T15:00:28+00:00
 review_interval: ""
 scope: "The Maffetone Method and its components."
 status: ""

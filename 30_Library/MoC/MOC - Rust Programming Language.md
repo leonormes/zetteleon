@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-27T14:11:28+00:00
 epistemic: index
 last_reviewed: 2025-12-27
-modified: 2026-01-08T10:49:46+00:00
+modified: 2026-01-08T15:03:29+00:00
 purpose: To map the landscape of the Rust Programming Language notes within the vault.
 review_interval: ""
 see_also: []

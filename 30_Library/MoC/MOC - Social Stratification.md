@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-10T12:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:46+00:00
+modified: 2026-01-08T15:03:29+00:00
 purpose: "To serve as the central hub for understanding social stratification, inequality, and hierarchy."
 review_interval: "1 year"
 see_also: []

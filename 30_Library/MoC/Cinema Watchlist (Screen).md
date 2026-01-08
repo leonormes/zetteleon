@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2026-01-02T00:00:00Z
 epistemic: "Watchlist for general and classic cinema (Movies)."
 last_reviewed: "2026-01-02"
-modified: 2026-01-08T10:49:47+00:00
+modified: 2026-01-08T15:03:27+00:00
 purpose: "A unified checkbox list for tracking non-Sci-Fi cinema."
 review_interval: "3 months"
 see_also: ["[[Sci-Fi Watchlist (Screen)]]"]

@@ -5,7 +5,7 @@ created: 2025-10-31T12:28:00Z
 epistemic: ""
 exclusions: "Specific literary works without technique focus"
 last_reviewed: ""
-modified: 2026-01-08T10:49:46+00:00
+modified: 2026-01-08T15:03:29+00:00
 purpose: "Organize storytelling concepts."
 review_interval: "180"
 scope: "Narrative structures and techniques"

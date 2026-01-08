@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-30T00:00:00Z
 epistemic: ""
 last_reviewed: 2025-12-30
-modified: 2026-01-08T10:49:47+00:00
+modified: 2026-01-08T15:03:28+00:00
 purpose: Master Index for the Cyberpunk genre, its derivatives, and philosophical underpinnings.
 review_interval: ""
 see_also: []

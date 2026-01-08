@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2026-01-07T00:00:00Z
 epistemic: "Physical Reality"
 last_reviewed: 
-modified: 2026-01-08T10:49:47+00:00
+modified: 2026-01-08T15:03:28+00:00
 purpose: "To define the physical constraints of computing hardware (Cache, Memory, Layout) and how they dictate software performance."
 review_interval: "1 year"
 see_also:

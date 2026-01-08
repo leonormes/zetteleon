@@ -6,7 +6,7 @@ criteria: "Focus on core concepts from 'What Is Intelligence Where Does it Begin
 epistemic: ""
 exclusions: "Human-specific cognitive abilities without cross-species comparison."
 last_reviewed: ""
-modified: 2026-01-08T10:49:46+00:00
+modified: 2026-01-08T15:03:30+00:00
 purpose: "Organize notes about the fundamental nature of intelligence across species."
 review_interval: "180"
 scope: "Definitions, components, and examples of intelligence across life forms."

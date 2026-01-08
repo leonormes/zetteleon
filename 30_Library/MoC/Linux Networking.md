@@ -4,7 +4,7 @@ confidence: "High"
 created: 2025-10-22T09:39:10Z
 epistemic: "Map"
 last_reviewed: 
-modified: 2026-01-08T10:49:47+00:00
+modified: 2026-01-08T15:03:27+00:00
 purpose: "To map the foundational Linux networking concepts that underpin Kubernetes and Container networking."
 review_interval: "1 year"
 see_also:

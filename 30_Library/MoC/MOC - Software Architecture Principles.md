@@ -5,7 +5,7 @@ created: 2025-10-31T12:38:00Z
 epistemic: "The principles of designing High-Cohesion, Low-Coupling Systems."
 exclusions: "Data-Level Implementation Details (See [[MOC - Data-Centric Software Engineering]])"
 last_reviewed: "2025-12-31"
-modified: 2026-01-08T10:49:46+00:00
+modified: 2026-01-08T15:03:29+00:00
 purpose: "To organize principles regarding System Boundaries, Coupling, and Integration."
 review_interval: "180"
 scope: "Macro-Architecture (System-to-System)"

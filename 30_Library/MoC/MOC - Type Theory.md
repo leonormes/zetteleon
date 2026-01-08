@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-29T21:52:02+00:00
 epistemic: "The central entry point for Type Theory, linking mathematical foundations with software engineering practices."
 last_reviewed: "2025-12-31"
-modified: 2026-01-08T10:49:46+00:00
+modified: 2026-01-08T15:03:30+00:00
 purpose: "To bridge the gap between rigorous Mathematical Logic (Isomorphism, Homotopy) and Pragmatic Software Engineering (Rust, Data-Centric)."
 review_interval: "6 months"
 see_also: ["[[MOC - Data-Centric Infrastructure]]", "[[MOC - Data-Centric Software Engineering]]", "[[MOC - Rust Programming Language]]"]

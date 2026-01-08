@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-25T12:10:00Z
 epistemic: index
 last_reviewed: 2025-12-25
-modified: 2026-01-08T10:49:47+00:00
+modified: 2026-01-08T15:03:28+00:00
 purpose: A Map of Content (MOC) connecting infrastructure components through the lens of their underlying data structures and synchronization models.
 review_interval: 6 months
 see_also:

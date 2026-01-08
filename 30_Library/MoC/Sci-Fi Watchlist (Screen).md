@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "Watchlist for Sci-Fi media (Movies & TV)."
 last_reviewed: "2025-12-31"
-modified: 2026-01-08T10:49:45+00:00
+modified: 2026-01-08T15:03:31+00:00
 purpose: "A unified checkbox list for tracking Sci-Fi viewing."
 review_interval: "3 months"
 see_also: ["[[Cinema Watchlist (Screen)]]", "[[Sci-Fi Tier List]]"]
