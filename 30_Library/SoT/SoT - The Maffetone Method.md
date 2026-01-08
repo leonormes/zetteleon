@@ -21,7 +21,7 @@ updated: 2026-01-08T12:50:00Z
 
 ### Minimum Viable Understanding (MVU)
 
-The Maffetone Method is a holistic fitness philosophy developed by Dr. Phil Maffetone that prioritizes **health** over performance. It centers on building a powerful [[Aerobic Function Efficiently Burns Fat for Long-Term Energy]] while minimizing the physiological stress caused by [[Anaerobic Function Relies on Glycogen and Increases Physiological Stress]].
+The Maffetone Method is a holistic fitness philosophy developed by Dr. Phil Maffetone that prioritizes **health** over performance. It centres on building a powerful [[Aerobic Function Efficiently Burns Fat for Long-Term Energy]] while minimizing the physiological stress caused by [[Anaerobic Function Relies on Glycogen and Increases Physiological Stress]].
 
 ### Working Knowledge
 
