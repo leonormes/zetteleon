@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-15T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:58+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: "Technical reference for Animal Flow movements and the 'Runtime Protocol' for daily practice."
 review_interval: "3 months"
 see_also: []
@@ -34,7 +34,7 @@ updated:
 
 ### I. The Base Positions (Static Stability)
 
-*Check these points if you feel unstable.*
+_Check these points if you feel unstable._
 
 | Position | Key Cue | Common Fault |
 |:--- |:--- |:--- |
@@ -47,7 +47,7 @@ updated:
 
 **A. Underswitch (The Connector)**
 
-- **Concept:** Rotating *under* yourself to switch between Beast and Crab.
+- **Concept:** Rotating _under_ yourself to switch between Beast and Crab.
 - **Cue:** "Lift opposite hand and foot. Push the gas pedal. Travel under the window."
 
 **B. Side Kickthrough (The Rotator)**
@@ -66,7 +66,7 @@ updated:
 
 ### Video 1: The System (Base, Mobilise, Flow)
 
-*Source: [YouTube Link](https://youtube.com/watch?v=CkFqQD-sMXk)*
+_Source: [YouTube Link](https://youtube.com/watch?v=CkFqQD-sMXk)_
 
 **Flow Sequence:**
 
@@ -81,7 +81,7 @@ updated:
 
 ### Video 2: Maintenance Protocol
 
-*Source: [YouTube Link](https://youtu.be/pJHCgMrAg38)*
+_Source: [YouTube Link](https://youtu.be/pJHCgMrAg38)_
 
 - **Intent:** Reconnection, not fatigue.
 - **Frequency:** 2x per week.
@@ -89,7 +89,7 @@ updated:
 
 ### Video 3: The 5 Foundational Crawls
 
-*Source: [YouTube Link](https://youtu.be/jKVk9lK9kCk)*
+_Source: [YouTube Link](https://youtu.be/jKVk9lK9kCk)_
 
 1. **Cat Crawl:** Opposite hand/foot (reflexive).
 2. **Bear Crawl:** Hips high, legs straight (posterior chain).

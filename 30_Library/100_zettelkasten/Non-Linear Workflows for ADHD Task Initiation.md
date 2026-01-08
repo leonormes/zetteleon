@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-26T11:08:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -26,7 +26,7 @@ For the ADHD brain, the friction of starting a task is often the biggest obstacl
 
 1. **Start in the Middle**: Instead of forcing a linear, step-by-step progression from the beginning of a project, start wherever you have the most clarity, energy, or interest. The goal is to generate momentum, which can then be used to tackle the more ambiguous or less interesting parts of the task.
 2. **Do It Inefficiently**: When stuck, intentionally break conventional or "efficient" rules to get moving. This is a direct antidote to perfectionism, where the pressure to do things the "right" way can be paralyzing. Giving yourself permission to be inefficient can liberate you to simply act.
-    - *Example*: Showering *before* a workout if it helps you get out the door.
+    - _Example_: Showering _before_ a workout if it helps you get out the door.
 
 ### Why It Works for ADHD
 
@@ -40,4 +40,4 @@ For the ADHD brain, the friction of starting a task is often the biggest obstacl
 - This is a practical application of the principle [[Motion Creates Emotion to Overcome Inertia]].
 - It is a direct counter-strategy to the challenges of [[Perfectionism]] and [[The Shame-Procrastination Cycle]].
 
-*Source: Synthesized from notes on ADHD productivity hacks.*
+_Source: Synthesized from notes on ADHD productivity hacks._

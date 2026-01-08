@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-25T10:24:38Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -34,8 +34,8 @@ Quick access to work tools and resources.
 
 ### General Development
 
-*(Add tools as needed)*
+_(Add tools as needed)_
 
 ## Monitoring & Observability
 
-*(Add monitoring tools as needed)*
+_(Add monitoring tools as needed)_

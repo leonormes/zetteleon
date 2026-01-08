@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-12T15:00:06Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To explain the importance of immediate feedback for the ADHD brain."
 review_interval: "90"
 see_also: ["[[ADHD habit building requires immediate feedback or reward loops]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "feedback", "TheHuman/Motivation", "TheHuman/Health/ADHD"]
+tags: ["dopamine", "feedback", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
 title: Rapid Feedback Loops are Essential for ADHD Motivation
 type: "concept"
 uid: 

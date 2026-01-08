@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-12T15:00:01Z
 epistemic: "opinion"
 last_reviewed: ""
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To provide a metaphor for the ADHD experience of high intellect paired with executive dysfunction."
 review_interval: "90"
 see_also: ["[[Executive Function Challenges are Central to ADHD]]"]

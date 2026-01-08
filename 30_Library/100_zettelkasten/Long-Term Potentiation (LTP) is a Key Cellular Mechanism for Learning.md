@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-10T16:17:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "To define Long-Term Potentiation (LTP)."
 review_interval: "90"
 see_also: ["[[Neuroplasticity is the Brain's Ability to Change in Response to Experience]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["learning", "memory", "TheHuman/Neuroscience", "synapses"]
+tags: ["learning", "memory", "synapses", "TheHuman/Neuroscience"]
 title: Long-Term Potentiation (LTP) is a Key Cellular Mechanism for Learning
 type: "concept"
 uid: 

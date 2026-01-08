@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T12:30:06Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "To define innovation through cross-domain recombination."
 review_interval: "90"
 see_also: ["[[Originality is Synthesis Not Creation From Nothing]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Creativity", "innovation", "lateral-thinking"]
+tags: ["innovation", "lateral-thinking", "TheHuman/Creativity"]
 title: Lateral Thinking with Withered Technology Drives Innovation
 type: "concept"
 uid: 

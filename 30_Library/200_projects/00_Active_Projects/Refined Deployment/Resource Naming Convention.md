@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-09T09:29:11Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:29+00:00
+modified: 2026-01-08T10:49:56+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -56,11 +56,11 @@ Here are the detailed naming conventions and related information for each resour
 - **Naming Constraints**:
 - A subnet name must be unique within the virtual network.
 - For maximum compatibility with other Azure services, the subnet name should begin with a letter (e.g., Azure Application Gateway cannot deploy into a subnet whose name starts with a number).
-- The gateway subnet *must* be named `GatewaySubnet` for gateway creation to succeed.
+- The gateway subnet _must_ be named `GatewaySubnet` for gateway creation to succeed.
 - If you're using your own subnet to deploy an AKS cluster with Azure CNI Overlay, the names of the subnet, VNet, and resource group containing the VNet must be 63 characters or less and are subject to Kubernetes label syntax rules.
 - Terraform examples show `subnet1` or `subnet-${random_string.name.result}`.
 
-**4. Route Tables** Route tables are explicitly mentioned as needing to follow the organizational naming convention. While a direct example of a route table *name* adhering to the `Resource Type – Workload – Region – Environment` format isn't provided, it's inferred that they should conform to similar standards as other network resources within the CUH ALZ.
+**4. Route Tables** Route tables are explicitly mentioned as needing to follow the organizational naming convention. While a direct example of a route table _name_ adhering to the `Resource Type – Workload – Region – Environment` format isn't provided, it's inferred that they should conform to similar standards as other network resources within the CUH ALZ.
 
 - **General Rule**: Ensure route tables follow the organizational naming convention.
 - **Association**: Route tables are associated with the subnet of a virtual network, not directly with the VNet itself.

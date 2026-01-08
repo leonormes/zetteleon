@@ -1,17 +1,17 @@
 ---
+alias: ["Cardinality of Types", "Isomorphic Refactoring", "Type Algebra", "Type Arithmetic"]
 aliases: []
-alias: ["Type Algebra", "Cardinality of Types", "Isomorphic Refactoring", "Type Arithmetic"]
 confidence: "5/5"
 created: 2025-12-18T21:23:11+00:00
 epistemic: "theory"
 last_reviewed: "2025-12-30"
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the rigorous mathematical rules for counting type states (Cardinality) and transforming structures without losing information (Isomorphism)."
 review_interval: "6 months"
-see_also: ["[[SoT - Algebraic Data Types (ADTs)]]", "[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]", "[[SoT - Rust's Design Philosophy]]"]
+see_also: ["[[SoT - Algebraic Data Types (ADTs)]]", "[[SoT - Rust's Design Philosophy]]", "[[SoT - The Trinity of Isomorphism (Logic, Computation, Categories)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["type_theory", "math", "SoftwareEngineering/Architecture", "rust"]
+tags: ["math", "rust", "SoftwareEngineering/Architecture", "type_theory"]
 title: SoT - The Algebra of Types (Cardinality and Isomorphism)
 type: "SoT"
 uid: 
@@ -40,7 +40,7 @@ Just as we perform arithmetic on numbers, we can perform arithmetic on Types bas
 | **Exponential ($^$)** | Implication ($	o$) | Function | $|A 	o B| = |B|^{|A|}$ |
 
 > **Why Exponentiation?**
-> For a function `A -> B`, for *each* of the $|A|$ possible inputs, we must choose one of the $|B|$ possible outputs. Thus, we multiply $|B|$ by itself $|A|$ times.
+> For a function `A -> B`, for _each_ of the $|A|$ possible inputs, we must choose one of the $|B|$ possible outputs. Thus, we multiply $|B|$ by itself $|A|$ times.
 
 ---
 
@@ -88,7 +88,7 @@ This validates the equivalence between "Normalized" and "Denormalized" data stru
 - **LHS (Normalized):** `(A, Choice<B, C>)` - We store `A` once, alongside the choice.
 - **RHS (Denormalized):** `Choice<(A, B), (A, C)>` - We store `A` inside every variant.
 
-**Insight:** You can push shared state *into* variants or pull it *out* without changing the information content.
+**Insight:** You can push shared state _into_ variants or pull it _out_ without changing the information content.
 
 ### 3.3 Currying (Exponential Laws) ($C^{A \times B} \cong (C^B)^A$)
 

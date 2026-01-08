@@ -4,14 +4,14 @@ confidence: ""
 created: 2025-10-30T12:00:02Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16"
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To test if \\\"Productive Procrastination\\\" (intentional switching) maintains dopamine levels better than forced mono-tasking."
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source: "[[MOC - ADHD Task Management]]"
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "hypothesis", "TheHuman/Motivation", "task-switching", "TheHuman/Health/ADHD", "topic/productivity"]
+tags: ["experiment", "hypothesis", "task-switching", "TheHuman/Health/ADHD", "TheHuman/Motivation", "topic/productivity"]
 title: Designed Task Switching Leverages Dopamine Boosts for ADHD Motivation
 type: "hypothesis"
 uid: 
@@ -31,7 +31,7 @@ updated:
 - **Duration:** 1 Work Day.
 - **Setup:** Open two distinct projects (e.g., "Coding Feature A" and "Writing Documentation B").
 - **The Timer:** Set a timer for 25 minutes.
-- **The Switch:** When the timer rings, I *must* switch to the other project, regardless of where I am.
+- **The Switch:** When the timer rings, I _must_ switch to the other project, regardless of where I am.
 - **Logic:** Use the frustration of "interrupted closure" to fuel the desire to return to it later (Zeigarnik Effect).
 
 ---
@@ -45,7 +45,7 @@ updated:
 
 ## 4. Results Log
 
-- *(Log results here)*
+- _(Log results here)_
 
 ---
 

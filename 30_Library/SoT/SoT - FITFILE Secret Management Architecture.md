@@ -1,13 +1,10 @@
 ---
-aliases:
-  - FITFILE Secret Management Architecture
-  - Secret Management SoT
-  - VSO Implementation Guide
+aliases: [FITFILE Secret Management Architecture, Secret Management SoT, VSO Implementation Guide]
 confidence: 5/5
 created: 2025-12-15T00:00:00Z
 epistemic: ""
 last_reviewed: 2025-12-15
-modified: 2026-01-03T10:18:55+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: The canonical source of truth for FITFILE's secret management architecture, defining the standard VSO implementation and the path to remediate legacy technical debt.
 review_interval: 6 months
 see_also:
@@ -18,12 +15,7 @@ see_also:
   - "[[Vault to Kubernetes Secrets Management Guide]]"
 source_of_truth: []
 status: stable
-tags:
-  - "SoftwareEngineering/Architecture"
-  - fitfile
-  - kubernetes
-  - "SoftwareEngineering/Security"
-  - vault
+tags: ["SoftwareEngineering/Architecture", "SoftwareEngineering/Security", fitfile, kubernetes, vault]
 title: SoT - FITFILE Secret Management Architecture
 type: SoT
 uid:
@@ -71,7 +63,7 @@ extraVaultSecrets:
 
 ### A. Canonical Deployments (VSO Enabled)
 
-*Status: Healthy*
+_Status: Healthy_
 
 These environments purely use VSO and do not rely on hardcoded secrets.
 
@@ -83,7 +75,7 @@ These environments purely use VSO and do not rely on hardcoded secrets.
 
 ### B. Legacy Deployments (Technical Debt)
 
-*Status: Remediation Required*
+_Status: Remediation Required_
 
 Environments like `stg` and `kch` currently fail to use VSO correctly, relying on `vault-replacement-secrets.yaml`.
 
@@ -109,7 +101,7 @@ To eliminate the security risk and technical debt, we must migrate Legacy enviro
 
 ## 5. Reference Implementation: `hie-prod-34` (Audit & Deep Dive)
 
-*Based on: [[Audit - FITFILE Secret Management (Oct 2025)]]*
+_Based on: [[Audit - FITFILE Secret Management (Oct 2025)]]_
 
 The `hie-prod-34` deployment serves as the primary reference implementation for the FITFILE secrets architecture. A comprehensive audit (Oct 2025) confirmed the efficacy of the VSO model while highlighting key areas for optimization.
 
@@ -119,7 +111,7 @@ The deployment manages **19 VaultStaticSecret resources** across three logical l
 
 #### A. Core Application Layer (FFNode Chart)
 
-*Managed via `extraVaultSecrets` or Standard Chart Values.*
+_Managed via `extraVaultSecrets` or Standard Chart Values._
 
 | Secret Name | Vault Path | Purpose | Refresh Policy |
 |:--- |:--- |:--- |:--- |
@@ -132,7 +124,7 @@ The deployment manages **19 VaultStaticSecret resources** across three logical l
 
 #### B. Integration Layer (Hutch & TheHyve)
 
-*Managed via `extraDeploy` pattern.*
+_Managed via `extraDeploy` pattern._
 
 | Secret Name | Vault Path | Purpose | Refresh Policy |
 |:--- |:--- |:--- |:--- |
@@ -169,14 +161,14 @@ The deployment manages **19 VaultStaticSecret resources** across three logical l
 #### ⚠️ Critical Risks & Remediation
 
 1. **Hardcoded Credentials (Legacy):**
-   - *Risk:* Plaintext passwords found in legacy `shared-secrets` charts.
-   - *Fix:* Immediate migration to VSO.
+   - _Risk:_ Plaintext passwords found in legacy `shared-secrets` charts.
+   - _Fix:_ Immediate migration to VSO.
 2. **Stale Secrets (No Refresh): САЩ
-   - *Risk:* Database secrets (`mongodb`, `postgresql`) lacked `refreshAfter`, preventing rotation.
-   - *Fix:* Standardized on a **1h Refresh Interval** for databases.
+   - _Risk:_ Database secrets (`mongodb`, `postgresql`) lacked `refreshAfter`, preventing rotation.
+   - _Fix:_ Standardized on a **1h Refresh Interval** for databases.
 3. **No Rollout Restart:**
-   - *Risk:* Pods holding old connection pools would fail after rotation.
-   - *Fix:* Added `rolloutRestartTargets` to StatefulSets.
+   - _Risk:_ Pods holding old connection pools would fail after rotation.
+   - _Fix:_ Added `rolloutRestartTargets` to StatefulSets.
 
 ### 5.4 Operational Standards (The "Golden Config")
 

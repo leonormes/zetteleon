@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "comparison"
 last_reviewed: "2025-12-19"
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To compare the trade-offs between static and dynamic linking, focusing on binary size, performance, and security."
 review_interval: "24 months"
 see_also: []
@@ -31,7 +31,7 @@ The choice between static and dynamic linking represents a fundamental trade-off
 | **Binary Size** | **Large:** Every executable contains a full copy of every library it uses. If 10 programs use the same library, the code is duplicated 10 times on disk. | **Small:** Executables are small, containing only their own code and stubs. The library code exists in one shared place. |
 | **Memory Usage** | **High:** If 10 programs are running, the same library code is loaded into RAM 10 times, wasting memory and thrashing the instruction cache. | **Low:** The operating system loads the shared library into RAM once and maps it into the address space of all programs using it. |
 | **Performance** | **Faster Startup:** No runtime linking is required. Potentially faster function calls due to compiler optimizations like inlining across library boundaries. | **Slower Startup:** The OS dynamic linker must resolve stubs and load libraries when the program starts. |
-| **Security** | **Brittle & Insecure:** If a vulnerability is found in a library, *every single application* that was statically linked against it must be recompiled and redeployed. Old, vulnerable binaries can persist on a system for years. | **Robust & Secure:** If a vulnerability is found in a shared library, updating that single file on the operating system instantly patches *every application* that uses it. |
+| **Security** | **Brittle & Insecure:** If a vulnerability is found in a library, _every single application_ that was statically linked against it must be recompiled and redeployed. Old, vulnerable binaries can persist on a system for years. | **Robust & Secure:** If a vulnerability is found in a shared library, updating that single file on the operating system instantly patches _every application_ that uses it. |
 | **Ecosystem** | Favored by modern, single-binary focused languages like **Go** and **Rust**. | The standard for traditional operating systems (**Linux**, **Windows**, **macOS**) and languages like **C/C++**. |
 
 ---
@@ -46,7 +46,7 @@ The primary modern critique of static linking centers on its profound negative i
 2. **Deployment:** `MyCoolApp.exe` is deployed to thousands of servers.
 3. **Vulnerability Disclosure:** A critical vulnerability (like Heartbleed) is discovered in `libSSL v1.1`.
 4. **The Failure:** The system administrator updates the system's shared `libSSL` to the patched `v1.2`. However, `MyCoolApp.exe` **remains vulnerable**. It has its own private, outdated copy of the library bundled inside it.
-5. **The Nightmare:** To fix the vulnerability, the owners of *every single application* must now find their source code, recompile against the new library, and redeploy their binary. This is a logistical and security nightmare at scale.
+5. **The Nightmare:** To fix the vulnerability, the owners of _every single application_ must now find their source code, recompile against the new library, and redeploy their binary. This is a logistical and security nightmare at scale.
 
 Dynamic linking solves this elegantly. The administrator updates the shared `libSSL.so` file, and the next time `MyCoolApp.exe` starts, the OS automatically links it against the patched version.
 

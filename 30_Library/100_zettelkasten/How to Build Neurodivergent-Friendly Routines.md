@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-29T16:10:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -21,7 +21,7 @@ This note outlines a sequence for building a supportive, flexible, and sustainab
 
 ## 1. Understand the Purpose
 
-First, it is crucial to understand *why* routines are so beneficial. They are not about rigid control, but about creating a predictable foundation to reduce cognitive load.
+First, it is crucial to understand _why_ routines are so beneficial. They are not about rigid control, but about creating a predictable foundation to reduce cognitive load.
 
 - `supports::` [[Routines Provide Stability for Neurodivergent Individuals]]
 

@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-10T12:05:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "To explain the origin of personal identity."
 review_interval: "90"
 see_also: ["[[Every Action is a Vote for a Desired Identity]]", "[[Identity is Repeated Beingness]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "TheHuman/Identity", "TheHuman/Habits"]
+tags: ["behavior-change", "TheHuman/Habits", "TheHuman/Identity"]
 title: Identity Emerges From Habits
 type: "concept"
 uid: 

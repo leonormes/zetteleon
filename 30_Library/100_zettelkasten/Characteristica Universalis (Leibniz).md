@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-20T12:49:13Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -54,4 +54,4 @@ From the perspective of [[SoT - Data-Centric Software Engineering]], this concep
 
 ### The "Compilation" of Reality
 
-Leibniz's dream that "disagreements could be resolved through calculation" is realized in **Static Analysis**. When we model the domain using **Domain-Driven Design (Strategic Modeling)**, we are essentially creating a local *Characteristica Universalis* for that business problem.
+Leibniz's dream that "disagreements could be resolved through calculation" is realized in **Static Analysis**. When we model the domain using **Domain-Driven Design (Strategic Modeling)**, we are essentially creating a local _Characteristica Universalis_ for that business problem.

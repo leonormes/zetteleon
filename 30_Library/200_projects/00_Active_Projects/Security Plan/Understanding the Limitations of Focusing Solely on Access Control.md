@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-18T12:57:55Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:28+00:00
+modified: 2026-01-08T10:49:56+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -22,7 +22,7 @@ It's understandable that you're concerned about your team's limited view of data
 
 ## Understanding the Limitations of Focusing Solely on Access Control
 
-Before diving into solutions, it's important to articulate *why* focusing solely on access control is insufficient in distributed environments:
+Before diving into solutions, it's important to articulate _why_ focusing solely on access control is insufficient in distributed environments:
 
 - **Data at Rest:** Access control doesn't protect data once an authorized user (or a compromised account) has access. What prevents them from exfiltrating or corrupting large amounts of data? Encryption, data loss prevention (DLP) measures, and integrity checks are crucial here.
 - **Data in Transit:** Data moving between different components of a distributed system is vulnerable to interception. Encryption protocols (like TLS/SSL), secure communication channels, and potentially network segmentation are necessary.

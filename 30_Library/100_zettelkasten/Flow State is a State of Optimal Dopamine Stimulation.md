@@ -4,13 +4,13 @@ confidence: "0.8"
 created: 2025-11-11T19:05:02Z
 epistemic: "fact"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "Explains the neurochemical basis of a 'flow state'."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "TheHuman/Health/ADHD", "topic/productivity", "TheHuman/Psychology"]
+tags: ["dopamine", "TheHuman/Health/ADHD", "TheHuman/Psychology", "topic/productivity"]
 title: Flow State is a State of Optimal Dopamine Stimulation
 type: "concept"
 uid: 

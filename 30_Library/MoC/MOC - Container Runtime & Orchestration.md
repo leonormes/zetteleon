@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-26T17:16:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:27+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -74,7 +74,8 @@ The runtime ecosystem is stratified to separate concerns (Image/Lifecycle vs. Ke
 
 ### High-Level Runtimes (CRI Implementations)
 
-*Examples: containerd, CRI-O*
+_Examples: containerd, CRI-O_
+
 - **Image Management:** Pulling images from registries, verifying signatures, and managing overlay filesystems (unpacking layers).
 - **CRI Implementation:** Exposing the gRPC API that the Kubelet calls.
 - **Lifecycle Orchestration:** Instructing the low-level runtime to start/stop containers.
@@ -82,7 +83,8 @@ The runtime ecosystem is stratified to separate concerns (Image/Lifecycle vs. Ke
 
 ### Low-Level Runtimes (OCI Runtimes)
 
-*Examples: runc, crun, Kata Containers, gVisor*
+_Examples: runc, crun, Kata Containers, gVisor_
+
 - **Kernel Interaction:** Making the actual `clone()`, `unshare()`, and `cgroup` syscalls.
 - **Isolation Enforcement:** Applying Seccomp profiles, AppArmor profiles, and dropping capabilities.
 - **Process Execution:** Spawning the user process as `PID 1` inside the namespace.

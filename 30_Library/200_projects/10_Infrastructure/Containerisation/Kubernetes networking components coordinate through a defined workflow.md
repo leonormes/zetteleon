@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-26T17:22:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:27+00:00
+modified: 2026-01-08T10:49:55+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["cni", "SoftwareEngineering/containers/container-runtime", "coordination", "kube-proxy", "kubelet", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes", "workflow"]
+tags: ["cni", "coordination", "kube-proxy", "kubelet", "SoftwareEngineering/Containers", "SoftwareEngineering/containers/container-runtime", "SoftwareEngineering/Kubernetes", "workflow"]
 title: Kubernetes networking components coordinate through a defined workflow
 type: "Fact"
 uid: 

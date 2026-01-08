@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-09-05T06:22:44Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["empathy", "mirror-neurons", "TheHuman/Neuroscience", "social-cognition"]
+tags: ["empathy", "mirror-neurons", "social-cognition", "TheHuman/Neuroscience"]
 title: Mirror Neuron System Enables Model Sharing
 type: "permanent"
 uid: 

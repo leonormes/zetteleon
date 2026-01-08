@@ -4,15 +4,13 @@ confidence: ""
 created: 2025-02-27T02:44:32Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:25+00:00
+modified: 2026-01-08T10:49:55+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags:
-  - ff_deploy
-  - helm
+tags: [ff_deploy, helm]
 title: Helm charts for FF_Deployment
 type: ""
 uid:

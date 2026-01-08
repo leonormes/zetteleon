@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-07-16T17:30:03Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -27,7 +27,7 @@ When a DNS query, such as for `app.privatelink.fitfile.net`, resolves to the Ing
 Broadly, there are two types of Ingress solutions:
 
 - **In-cluster (e.g., NGINX, Traefik, Contour):** Software proxies running as Pods within the cluster. They offer horizontal scalability and rich features (canary, rate limiting) but require exposing themselves via a `LoadBalancer` or `NodePort` service.
-- **External (e.g., AWS ALB Ingress Controller, GKE Ingress):** The control plane provisions a cloud-managed load balancer (ALB) *outside* the cluster. This reduces operational complexity but may be limited by cloud provider feature sets.
+- **External (e.g., AWS ALB Ingress Controller, GKE Ingress):** The control plane provisions a cloud-managed load balancer (ALB) _outside_ the cluster. This reduces operational complexity but may be limited by cloud provider feature sets.
 
 ## Protocol & Use Cases
 

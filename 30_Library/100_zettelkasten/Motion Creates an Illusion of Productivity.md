@@ -4,13 +4,13 @@ confidence: "1"
 created: 2025-11-01T20:35:00Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "To explain the deceptive nature of motion as a form of procrastination."
 review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["procrastination", "self-deception", "topic/productivity", "TheHuman/Psychology"]
+tags: ["procrastination", "self-deception", "TheHuman/Psychology", "topic/productivity"]
 title: Motion Creates an Illusion of Productivity
 type: "concept"
 uid: 

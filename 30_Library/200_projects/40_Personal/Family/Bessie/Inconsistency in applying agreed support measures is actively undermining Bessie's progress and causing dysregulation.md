@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-21T10:04:21Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:08+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -32,7 +32,7 @@ The most urgent step is to address the repeated issues that negate positive prog
 1. **Resolve the Uniform/Hair Issue Formally:**
 
     - The recent incidents show conflicting messages: on Monday, Bessie wouldn't be let in due to hair, but on Tuesday, it was "fine". On Thursday, Ms Rowland (AHT, listed as having access to the plan) said it was okay to tuck the hair behind the ear, yet after lunch, Mr Williams (DHT, listed as having access to the plan) and the office staff insisted she put it up, causing her to "kick off".
-    - **Action:** Immediately communicate with the school leadership (e.g., Alex, who sent the draft plan, or Mr Higginson, HoY) requesting a definitive, written clarification of the uniform/hair policy *specifically applied to Bessie* to prevent further conflict.
+    - **Action:** Immediately communicate with the school leadership (e.g., Alex, who sent the draft plan, or Mr Higginson, HoY) requesting a definitive, written clarification of the uniform/hair policy _specifically applied to Bessie_ to prevent further conflict.
     - **Rationale:** Changing expectations about appearance directly violates the core requirement in Bessie’s plan that changes should not be made to her day without advance notice, which is a known trigger for her dysregulation. School staff are required to read her learning profile and risk assessment, and know what does and does not help her.
 2. **Reinforce Adherence to Existing Plans (IEP/Seating):**
 
@@ -59,7 +59,7 @@ You should capitalize on the successes noted in the recent timeline.
     - **Action:** Use the examples from Wednesday ("Great day") and the positive experience of Art on Thursday (before the hair issue) to actively practice this strategy and help Bessie reframe negative feelings, as suggested in generalized advice for challenging negative thoughts. Continuing to be supportive even when she is dysregulated is also specified as a parent/carer action.
 3. **Review Subject Choices:**
 
-    - Bessie's earlier concern was about English due to the stress of *Macbeth* and assessments, suggesting Philosophy and Ethics might be better.
+    - Bessie's earlier concern was about English due to the stress of _Macbeth_ and assessments, suggesting Philosophy and Ethics might be better.
     - The revised plan for the week commencing 10.11.25 includes Philosophy and Ethics with Lauren.
     - **Action:** Check in with Bessie regarding her current feelings about Philosophy and Ethics, confirming that if she agrees to try it but struggles, this is fine, as Alex has previously re-iterated that the plan can be flexible.
 
@@ -72,7 +72,7 @@ You should capitalize on the successes noted in the recent timeline.
 2. **Utilise Available Resources for EBSA and SEND:**
 
     - The challenges Bessie is facing align with issues of Emotional Based School Avoidance (EBSA). If strategies put in place by the school do not work, parents may want to speak to their GP or contact **SENDIASS Southend** for support, especially if the child has special educational needs (SEND) or a disability. Bessie’s diagnosis (dyslexia and ADHD) is acknowledged in the school plans.
-    - **Action:** Review the resources provided in the sources for managing anxiety and sensory needs, such as the *Sensory checklist for schools* and the information on the "Fight, Flight, Freeze" response to anxiety. Ensure the school is implementing measures like noise reduction and designated quiet spaces, which are listed in the sensory checklist.
+    - **Action:** Review the resources provided in the sources for managing anxiety and sensory needs, such as the _Sensory checklist for schools_ and the information on the "Fight, Flight, Freeze" response to anxiety. Ensure the school is implementing measures like noise reduction and designated quiet spaces, which are listed in the sensory checklist.
     - You can access support through websites like YoungMinds, which is a leading charity for children and young people's mental health and offers a parents helpline.
 
 By focusing on these steps—primarily **eliminating implementation inconsistency** (especially regarding the hair) and **prioritizing known positive coping mechanisms** (Art, Compass)—you can better support Bessie’s return, which is currently being hindered by staff members contradicting the established support system.

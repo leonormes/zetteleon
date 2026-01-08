@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-06T19:54:03Z
 epistemic: "fact"
 last_reviewed: "2025-11-06"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To describe the challenges of remote work for individuals with ADHD, including lack of structure and communication overload."
 review_interval: "90"
 see_also: []

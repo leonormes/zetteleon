@@ -1,38 +1,33 @@
 ---
+aliases: ["Project - FitFile Helm Refactor"]
 confidence: high
+created: 2026-01-07T10:14:15+00:00
 epistemic: confirmed
-purpose: "Track the refactoring of Helm charts to a Data-Centric Compiler pattern"
-modified: 2026-01-07T10:17:07+00:00
 last_reviewed: 2026-01-07
+modified: 2026-01-08T10:50:03+00:00
+purpose: "Track the refactoring of Helm charts to a Data-Centric Compiler pattern"
 review_interval: weekly
-see_also: 
+see_also:
   - "[[Pattern - Helm Chart as a Compiler]]"
 source_of_truth: []
-aliases:
-  - "Project - FitFile Helm Refactor"
-created: 2026-01-07T10:14:15+00:00
 status: active
-tags:
-  - project
-  - devops
-  - helm
-  - refactor
-title: "Refactor: Helm Chart Compiler"
+tags: [devops, helm, project, refactor]
+title: Refactor - Helm Chart Compiler
 type: project
 ---
 
-# Refactor: Helm Chart Compiler
+## Refactor: Helm Chart Compiler
 
 > [!abstract] The "Why" (Top-Down Context)
 > **Goal:** Eliminate "configuration drift" and "magic numbers" in multi-tenant deployments.
 > **The Problem:** Current `ffnode` chart is a "Wrapper" that exposes raw vendor complexity (Bitnami/Argo) to the user. Adding a tenant requires 50+ lines of fragile YAML copy-paste.
-> **The Solution:** A **Data-Centric "Compiler" Pattern**. Users declare *Intent* (`class: production-ha`), and the Chart *compiles* it into vendor-specific config.
+> **The Solution:** A **Data-Centric "Compiler" Pattern**. Users declare _Intent_ (`class: production-ha`), and the Chart _compiles_ it into vendor-specific config.
 
 ---
 
-## 1. Reentry Protocol (Ignition)
+### 1. Reentry Protocol (Ignition)
 
-*How to pick up where you left off.*
+_How to pick up where you left off._
 
 **The Experiment:**
 We are building a new 2-repo structure:
@@ -59,19 +54,21 @@ helm template test .
 
 ---
 
-## 2. The Map (Roadmap)
+### 2. The Map (Roadmap)
 
-### Phase 1: The Foundation (Core Logic)
+#### Phase 1: The Foundation (Core Logic)
 
-*Goal: Prove we can compile a simple service (Mongo) from a high-level Class.*
+_Goal: Prove we can compile a simple service (Mongo) from a high-level Class._
+
 - [x] **Mission 1:** Create Repo Structure (`fitfile-platform` vs `customer-repo`).
 - [x] **Mission 2:** Define `_specs.yaml` (The Source of Truth).
 - [x] **Mission 3:** Implement MongoDB Compiler (`_compiler.tpl`).
 - [x] **Verification:** `helm template` outputs correct HA config.
 
-### Phase 2: Feature Flags & Identity
+#### Phase 2: Feature Flags & Identity
 
-*Goal: Support complex, conditional deployments (Hutch, PGWeb).*
+_Goal: Support complex, conditional deployments (Hutch, PGWeb)._
+
 - [ ] **Mission 4:** Implement **Feature Toggles**.
     - Add `features: { hutch: true }` to schema.
     - Write `fitfile.compile.hutch` logic to inject `COLLECTION_ID`.
@@ -80,16 +77,17 @@ helm template test .
 - [ ] **Mission 6:** Migration Test (`customer-nhs-trust-b`).
     - Prove we can deploy a second tenant with different features in isolation.
 
-### Phase 3: The Shadow Deploy
+#### Phase 3: The Shadow Deploy
 
-*Goal: Validate against the running cluster without breaking it.*
+_Goal: Validate against the running cluster without breaking it._
+
 - [ ] **Mission 7:** Generate "Legacy" manifest (`helm template ffnode`).
 - [ ] **Mission 8:** Generate "New" manifest (`helm template fitfile-deploy`).
 - [ ] **Mission 9:** Diff & Refine until "Physics" match (ignoring whitespace).
 
 ---
 
-## 3. The Architecture
+### 3. The Architecture
 
 See: [[Pattern - Helm Chart as a Compiler]]
 
@@ -100,7 +98,7 @@ See: [[Pattern - Helm Chart as a Compiler]]
 
 ---
 
-## 4. Current Context
+### 4. Current Context
 
 - **Active Directory:** `fitfile-platform` and `customer-experiment-1` (created in root).
 - **Status:** Core MongoDB compiler is working.

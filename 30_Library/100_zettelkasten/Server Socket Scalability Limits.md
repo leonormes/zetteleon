@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-31T13:43:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "Explain factors limiting maximum concurrent sockets on servers."
 review_interval: "90"
 see_also: ["Event-Driven Socket Handling with epoll and kqueue.md"]

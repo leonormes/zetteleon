@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-03T09:40:23Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:25+00:00
+modified: 2026-01-08T10:49:55+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -23,8 +23,8 @@ Let's troubleshoot that Docker pull authentication error you're seeing with `ghc
 Understanding the Problem
 
 - GitHub Container Registry (ghcr.io): This is GitHub's container registry, similar to Docker Hub. It requires authentication, even for public images in many cases.
-- Anonymous Pulls (and their limitations): While some registries allow anonymous pulls of *public* images, ghcr.io has tighter restrictions, and you'll almost always need to authenticate. The error message "failed to fetch anonymous token" indicates this.
-- Scope: The `scope=repository%3Athehyve%2Ffitfile_etl_container%3Apull` part of the URL indicates that the Docker client is trying to get a token that grants *pull* access to the specific repository `thehyve/fitfile_etl_container`.
+- Anonymous Pulls (and their limitations): While some registries allow anonymous pulls of _public_ images, ghcr.io has tighter restrictions, and you'll almost always need to authenticate. The error message "failed to fetch anonymous token" indicates this.
+- Scope: The `scope=repository%3Athehyve%2Ffitfile_etl_container%3Apull` part of the URL indicates that the Docker client is trying to get a token that grants _pull_ access to the specific repository `thehyve/fitfile_etl_container`.
 - 401 Unauthorized: This is the HTTP status code for "Unauthorized." The server understands the request but refuses to authorize it. This means your credentials (or lack thereof) are the issue.
 
 Troubleshooting and Solutions
@@ -42,7 +42,7 @@ Here's a prioritized list of steps to solve this, from the most common and easie
         3. Click "Personal access tokens" -> "Tokens (classic)". (Using "Fine-grained tokens" is also possible, but "classic" is simpler for this case.)
         4. Click "Generate new token" -> "Generate new token (classic)".
         5. Give your token a descriptive name (e.g., "Docker ghcr.io access").
-        6. Crucially, select the `read:packages` scope. This grants your token permission to read container packages. *Do not* select more permissions than necessary for security reasons. `write:packages` would be needed for pushing, but not for pulling. `delete:packages` is for deleting. `read:packages` is sufficient.
+        6. Crucially, select the `read:packages` scope. This grants your token permission to read container packages. _Do not_ select more permissions than necessary for security reasons. `write:packages` would be needed for pushing, but not for pulling. `delete:packages` is for deleting. `read:packages` is sufficient.
         7. Click "Generate token".
         8. Copy the token immediately! You won't be able to see it again. Treat this token like a password.
     - Login to ghcr.io:
@@ -85,11 +85,11 @@ Or, even better for repeated use, add `export CR_PAT=YOUR_PERSONAL_ACCESS_TOKEN`
 3. Check for Typographical Errors
 
 - Username/PAT: Double-check your GitHub username and the PAT for typos. A single incorrect character will cause authentication to fail.
-- Image Name: Verify that `ghcr.io/thehyve/fitfile_etl_container:latest` is the *exact* image name and tag you intend to pull.
+- Image Name: Verify that `ghcr.io/thehyve/fitfile_etl_container:latest` is the _exact_ image name and tag you intend to pull.
 
 3. Verify Permissions (If it's a Private Repository)
 
-If the `fitfile_etl_container` image is in a *private* repository on GitHub, ensure:
+If the `fitfile_etl_container` image is in a _private_ repository on GitHub, ensure:
 
 - Your GitHub Account has Access: You need to be a member of the organization (`thehyve` in this case) or have explicit access granted to the repository. If you're not sure, contact the repository owners.
 - PAT Scope (still `read:packages`): Even for private repositories, the `read:packages` scope on your PAT is still sufficient for pulling.
@@ -100,10 +100,10 @@ Although rare, it's possible that ghcr.io is experiencing an outage or temporary
 
 6. Docker Configuration Issues (Less Likely, but Possible)
 
-    - `~/.docker/config.json`: This file stores your Docker authentication credentials. It's *rare* that this file gets corrupted in a way that causes this specific error, but it's worth knowing about.
-        - Caution: *Do not* manually edit this file unless you are *absolutely* sure what you're doing. Incorrect edits can break your Docker setup.
+    - `~/.docker/config.json`: This file stores your Docker authentication credentials. It's _rare_ that this file gets corrupted in a way that causes this specific error, but it's worth knowing about.
+        - Caution: _Do not_ manually edit this file unless you are _absolutely_ sure what you're doing. Incorrect edits can break your Docker setup.
         - Location: The file is located at `~/.docker/config.json` on Linux/macOS and `%USERPROFILE%\.docker\config.json` on Windows.
-        - Troubleshooting: If you suspect a problem, you can try *temporarily* renaming the file (e.g., to `config.json.bak`) and then re-running `docker login ghcr.io`. This will force Docker to create a fresh configuration file. If this fixes the problem, you can compare the old and new files to see what might have been wrong.
+        - Troubleshooting: If you suspect a problem, you can try _temporarily_ renaming the file (e.g., to `config.json.bak`) and then re-running `docker login ghcr.io`. This will force Docker to create a fresh configuration file. If this fixes the problem, you can compare the old and new files to see what might have been wrong.
 7. Network Issues (Unlikely in this Specific Case)
 
     - Firewall: While less likely with a 401 error (which indicates the request reached the server), ensure your firewall isn't blocking outgoing connections to `ghcr.io`.
@@ -129,6 +129,6 @@ docker login ghcr.io -u YOUR_GITHUB_USERNAME -p YOUR_PERSONAL_ACCESS_TOKEN
 cat ~/.docker/config.json  # CAREFULLY inspect the contents.
 ```
 
-Look for the `ghcr.io` entry in the `auths` section. It should contain a base64-encoded string representing your username and PAT. You *could* decode this (using a tool like `base64`) to verify it, but be very careful with the decoded output, as it will contain your credentials in plain text.
+Look for the `ghcr.io` entry in the `auths` section. It should contain a base64-encoded string representing your username and PAT. You _could_ decode this (using a tool like `base64`) to verify it, but be very careful with the decoded output, as it will contain your credentials in plain text.
 
 By following these steps, you should be able to resolve the 401 Unauthorized error and successfully pull the Docker image from ghcr.io. Remember to prioritize using a PAT with the correct scope and storing it securely. The most common fix by far is simply running `docker login ghcr.io` with a valid PAT.

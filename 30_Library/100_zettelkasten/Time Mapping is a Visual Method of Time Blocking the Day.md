@@ -4,10 +4,10 @@ confidence: "0.9"
 created: 2025-11-10T14:15:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T08:09:22+00:00
 purpose: "To define Time Mapping."
 review_interval: "90"
-see_also: ["[[Time Blocking is a Technique for Dedicating Specific Segments of Time to Particular Tasks]]"]
+see_also: ["[[SoT - Temporal Management (Blocking and Boxing)]]"]
 source_of_truth: []
 status: "seedling"
 tags: ["planning", "time-blocking", "time-management", "topic/productivity"]

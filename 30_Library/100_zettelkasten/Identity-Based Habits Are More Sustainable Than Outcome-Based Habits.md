@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-10T12:02:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "To contrast two different approaches to habit formation."
 review_interval: "90"
 see_also: ["[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "TheHuman/Identity", "strategy", "TheHuman/Habits"]
+tags: ["behavior-change", "strategy", "TheHuman/Habits", "TheHuman/Identity"]
 title: Identity-Based Habits Are More Sustainable Than Outcome-Based Habits
 type: "concept"
 uid: 

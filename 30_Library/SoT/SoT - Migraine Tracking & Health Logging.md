@@ -1,25 +1,25 @@
 ---
-aliases: ["Migraine HUD", "Health Schema", "ProdOS Symptom Tracking"]
+aliases: ["Health Schema", "Migraine HUD", "ProdOS Symptom Tracking"]
 confidence: "5/5"
 created: 2025-12-30T16:15:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "A unified system for tracking health events (migraines) and visualizing trends using Dataview and Tracker."
 review_interval: "3 months"
 see_also: ["[[SoT - Metabolic Health & Satiety Management]]"]
 source_of_truth: []
 status: "stable"
-tags: ["health", "tracking", "dataview", "dashboard", "migraine"]
+tags: ["dashboard", "dataview", "health", "migraine", "tracking"]
 title: SoT - Migraine Tracking & Health Logging
 type: "SoT"
 uid: 
 updated: 
 ---
 
-# SoT - Migraine Tracking & Health Logging
+## SoT - Migraine Tracking & Health Logging
 
-## 1. The Data Schema (Input)
+### 1. The Data Schema (Input)
 
 To maintain tracking consistency, use these specific frontmatter fields in your **Daily Notes**.
 
@@ -31,9 +31,9 @@ migraine_notes: "Description of triggers/symptoms"
 
 ---
 
-## 2. The Command Dashboard (View)
+### 2. The Command Dashboard (View)
 
-### I. Recent History (Last 30 Days)
+#### I. Recent History (Last 30 Days)
 
 ```dataview
 TABLE
@@ -45,7 +45,7 @@ SORT file.name DESC
 LIMIT 30
 ```
 
-### II. Severity Heat Map
+#### II. Severity Heat Map
 
 > [!info] Requirement
 > Requires the **Obsidian Tracker** plugin.
@@ -64,7 +64,7 @@ line:
 
 ---
 
-## 3. The Review Protocol
+### 3. The Review Protocol
 
 During your **Weekly Command Centre**, analyze the dashboard for:
 
@@ -74,7 +74,7 @@ During your **Weekly Command Centre**, analyze the dashboard for:
 
 ---
 
-## 4. Minimum Viable Understanding (MVU)
+### 4. Minimum Viable Understanding (MVU)
 
 1. **Passive Input:** Just toggle the boolean in your daily note.
 2. **Zero Recall:** Don't try to remember how bad it was; let the severity field capture the "present truth."

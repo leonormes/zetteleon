@@ -1,16 +1,16 @@
 ---
-aliases: ["FITFILE Deployment Architecture", "FITFILE Platform Overview", "Azure Org Architecture", "Terraform Design Principles"]
+aliases: ["Azure Org Architecture", "FITFILE Deployment Architecture", "FITFILE Platform Overview", "Terraform Design Principles"]
 confidence: "5/5"
 created: 2025-12-14T18:04:39Z
 epistemic: "theory"
 last_reviewed: "2025-12-30"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "The canonical architectural reference for the FITFILE Platform deployment, covering the cloud hierarchy, security model, and GitOps design."
 review_interval: "6 months"
-see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - FitFile Deployment - Networking & DNS]]"]
+see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FitFile Deployment - Networking & DNS]]", "[[SoT - FITFILE Secret Management Architecture]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "azure", "deployment", "fitfile", "gitops", "kubernetes"]
+tags: ["azure", "deployment", "fitfile", "gitops", "kubernetes", "SoftwareEngineering/Architecture"]
 title: SoT - FitFile Deployment - Strategy & Architecture
 type: "SoT"
 uid: 

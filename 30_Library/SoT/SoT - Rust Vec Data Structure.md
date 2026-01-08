@@ -1,61 +1,65 @@
 ---
 aliases: []
-tags: []
-title: SoT - Rust Vec Data Structure
-type: SoT
-status: stable
 confidence: "1"
-epistemic: ""
-purpose: ""
 created: 2026-01-03T18:24:19+00:00
-modified: 2026-01-03T18:52:41+00:00
+epistemic: ""
 last_reviewed: ""
+modified: 2026-01-08T10:49:41+00:00
+purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
+status: stable
+tags: []
+title: SoT - Rust Vec Data Structure
+type: SoT
 ---
 
-# SoT - Rust Vec Data Structure
+## SoT - Rust Vec Data Structure
 
-## Overview
+### Overview
 
 Synthesized knowledge from **"A Common-Sense Guide to Data Structures and Algorithms"** (Theory) and **"The Rust Programming Language"** (Implementation).
 
 ---
 
-## Syllabus: Understanding Rust `Vec<T>`
+### Syllabus: Understanding Rust `Vec<T>`
 
-### Phase 1: Physical Data Layout (Theory)
+#### Phase 1: Physical Data Layout (Theory)
 
-*Source: Wengrow, Ch. 1 & 14*
+_Source: Wengrow, Ch. 1 & 14_
+
 - **Contiguous Memory:** Learn how `Vec` stores data in adjacent memory slots on the heap.
 - **The Array Foundation:** Understand why `Vec` is technically a "Dynamic Array."
 - **O(1) Reading:** Why calculating the memory address `base_address + (index * size_of_T)` allows instant access.
 
-### Phase 2: Basic Operations in Rust
+#### Phase 2: Basic Operations in Rust
 
-*Source: The Book, Ch. 8.1*
+_Source: The Book, Ch. 8.1_
+
 - **Creation & Inference:** Using `Vec::new()` vs the `vec![]` macro.
 - **Growth (The `push` method):** Understanding how `Vec` handles adding items.
 - **Accessing Data:** The difference between `&v[index]` (panics on out-of-bounds) and `v.get(index)` (returns `Option<&T>`).
 
-### Phase 3: Ownership & The Borrow Checker
+#### Phase 3: Ownership & The Borrow Checker
 
-*Source: The Book, Ch. 8.1 & Ch. 4*
+_Source: The Book, Ch. 8.1 & Ch. 4_
+
 - **Reallocation Risks:** Why adding an item to a `Vec` can invalidate existing references (memory is moved if the current heap block is too small).
 - **Simultaneous Borrows:** Understanding why you can't push to a `Vec` while holding a reference to one of its elements.
 
-### Phase 4: Performance & Optimization
+#### Phase 4: Performance & Optimization
 
-*Source: Wengrow, Ch. 19*
+_Source: Wengrow, Ch. 19_
+
 - **Space Complexity:** The "Capacity vs. Length" trade-off.
 - **Time Complexity:** Why `pop()` is O(1) but `remove(0)` is O(n) (shifting elements).
 
 ---
 
-## Practical Code Examples
+### Practical Code Examples
 
-### 1. Creation, Growth, and Indexing
+#### 1. Creation, Growth, and Indexing
 
 This example shows how Rust infers types and how `Vec` provides safe access to contiguous memory.
 
@@ -81,7 +85,7 @@ fn main() {
 }
 ```
 
-### 2. The Borrow Checker vs. Data Layout
+#### 2. The Borrow Checker vs. Data Layout
 
 This example demonstrates the "shifting memory" problem described in both books.
 
@@ -103,7 +107,7 @@ fn main() {
 }
 ```
 
-### 3. Efficiency: Iteration and Cache Locality
+#### 3. Efficiency: Iteration and Cache Locality
 
 Iterating over a `Vec` is extremely fast because the data is physically next to each other in memory (Cache Locality).
 
@@ -123,7 +127,7 @@ fn main() {
 }
 ```
 
-### 4. Handling Multiple Types (Advanced Data Layout)
+#### 4. Handling Multiple Types (Advanced Data Layout)
 
 Rust `Vec` can only hold one type. To hold "different" types, we use an Enum to make them look like one type.
 

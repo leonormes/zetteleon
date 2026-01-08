@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-06-20T06:41:19Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:01+00:00
+modified: 2026-01-08T10:49:48+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -22,8 +22,8 @@ A key strength in Bessie’s learning profile is her ability to see the bigger p
 
 Here are some examples of how to foster these connections:
 
-- **Art, History, and Film:** These subjects are intrinsically linked. A History topic like *Weimar and Nazi Germany* directly informs the context of German Expressionist cinema studied in Film Studies. The artistic principles of this film movement can then be explored practically in her Art and Photography projects. Bessie can create a portfolio piece that asks: "How can I use the visual style of *The Cabinet of Dr. Caligari* to create a photographic series about the anxieties of modern life?"
-- **English and Philosophy & Ethics:** The novels and plays in English Literature are rich grounds for exploring the ethical dilemmas discussed in Philosophy. When studying *An Inspector Calls*, she can directly apply the ethical theories of social responsibility. A debate in Philosophy class about justice can be supported with examples from a character's struggle in *A Christmas Carol*.
+- **Art, History, and Film:** These subjects are intrinsically linked. A History topic like _Weimar and Nazi Germany_ directly informs the context of German Expressionist cinema studied in Film Studies. The artistic principles of this film movement can then be explored practically in her Art and Photography projects. Bessie can create a portfolio piece that asks: "How can I use the visual style of _The Cabinet of Dr. Caligari_ to create a photographic series about the anxieties of modern life?"
+- **English and Philosophy & Ethics:** The novels and plays in English Literature are rich grounds for exploring the ethical dilemmas discussed in Philosophy. When studying _An Inspector Calls_, she can directly apply the ethical theories of social responsibility. A debate in Philosophy class about justice can be supported with examples from a character's struggle in _A Christmas Carol_.
 - **Science and Art/Photography:** These subjects are deeply connected through observation and technical understanding. The study of **Biology** (anatomy, animal movement) is fundamental to life drawing and capturing the form of horses in her art. The **Physics** of light (optics, waves) is the very foundation of photography, explaining how a camera works. The **Chemistry** of pigments, emulsions, and developing agents explains how art materials and photographic processes function. A project could involve photographing chemical reactions or using a microscope to find abstract patterns for an art piece.
 - **Mathematics and Art/English:** The link between these "opposite" subjects is surprisingly strong.
   - In **Art and Photography**, mathematical concepts like ratio, proportion, and geometry are central to composition. She can analyse how artists use the "Golden Ratio" to create balanced images and then apply these principles to her own photography.

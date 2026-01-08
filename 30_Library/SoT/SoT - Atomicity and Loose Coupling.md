@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-12"
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: "Canonical resolution of the tension between note atomicity and system dependencies in ProdOS."
 review_interval: "1 year"
 see_also: ["[[Atomic vs Structural Notes]]", "[[I Don't Like Dependencies]]", "[[MOC - Thought and Language]]", "[[SoT - Contextual Myopia and Self-Referential Meaning]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - The Thought-Language Continuum]]", "[[The Atomicity Principle - One Idea Per Note]]", "[[The problem of false atoms]]", "[[The Problem of False Atoms]]"]
@@ -38,10 +38,10 @@ To manage complexity, we must distinguish between two types of dependencies:
 
 ### B. Explicit Dependencies (Coupling)
 
-- **Definition:** When Note A *cannot be understood* without immediately reading Note B.
+- **Definition:** When Note A _cannot be understood_ without immediately reading Note B.
 - **Example:** Note A says "See previous note for context."
 - **Strategy:** **Eliminate.** This is "Tight Coupling" and breaks the system.
-  - *Fix:* Rewrite Note A to include the necessary context in its first sentence.
+  - _Fix:_ Rewrite Note A to include the necessary context in its first sentence.
 
 ---
 
@@ -49,12 +49,12 @@ To manage complexity, we must distinguish between two types of dependencies:
 
 How to write notes that are "Usefully Independent":
 
-1. **Title as API:** The title must be a complete, declarative sentence that summarizes the core insight. (e.g., *"Supply increases lead to price decreases"* vs *"Supply"*).
+1. **Title as API:** The title must be a complete, declarative sentence that summarizes the core insight. (e.g., _"Supply increases lead to price decreases"_ vs _"Supply"_).
 2. **Context Injection:** The first paragraph must define the "Who, What, Where" necessary to understand the rest of the note.
 3. **One Idea Per Note:** If a note discusses Cause AND Effect, split it. Link them with a typed relationship (`leads to`).
-4. **Semantic Linking:** Never just drop a link. Explain *why* the link exists.
-    - *Bad:* `[[Topic B]]`
-    - *Good:* "This concept is a specific instance of `[[Topic B]]`."
+4. **Semantic Linking:** Never just drop a link. Explain _why_ the link exists.
+    - _Bad:_ `[[Topic B]]`
+    - _Good:_ "This concept is a specific instance of `[[Topic B]]`."
 
 ---
 

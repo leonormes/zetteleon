@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "concept"
 last_reviewed: "2025-12-19"
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the formal computer science concept of Region-Based Memory Management and its relationship to Rust's lifetime system."
 review_interval: "24 months"
 see_also: ["[[SoT - Rust's Ownership Model]]"]
@@ -34,7 +34,7 @@ Traditional memory management forces a trade-off between the rigid, automatic sc
 1. **Region Declaration:** A program declares a region `r`. This can be thought of as creating a new, temporary memory pool.
 2. **Allocation:** When allocating memory for a value, you specify which region it belongs to (e.g., `let x = new(r) MyStruct`).
 3. **Region Scope:** The region `r` has a defined lexical or dynamic scope.
-4. **Bulk Deallocation:** When the control flow of the program exits the scope of `r`, the compiler inserts code to deallocate the *entire* memory pool associated with `r` at once.
+4. **Bulk Deallocation:** When the control flow of the program exits the scope of `r`, the compiler inserts code to deallocate the _entire_ memory pool associated with `r` at once.
 
 ### Rust's Lifetimes as an Imperfect Analogy
 
@@ -48,7 +48,7 @@ Critics of Rust argue that its lifetime system is an ad-hoc, less powerful imple
 ## 5. Minimum Viable Understanding (MVU)
 
 1. **Think of regions as named, temporary heaps.** You can create one for a specific phase of your program.
-2. **You allocate objects *into* a region.**
+2. **You allocate objects _into_ a region.**
 3. **When the region goes out of scope, everything in it is deleted at once.** No need to `free` individual objects.
 4. **Rust's lifetimes are a simplified, stack-bound version of this more powerful, formal concept.**
 

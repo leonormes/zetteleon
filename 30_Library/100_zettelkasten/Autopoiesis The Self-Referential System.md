@@ -5,7 +5,7 @@ created: 2025-08-23T17:10:01Z
 creation_date: "2025-08-23T00:00:00.000Z"
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -19,9 +19,9 @@ updated:
 version: "null"
 ---
 
-**Autopoiesis** (from Greek *auto-* 'self' and *poiesis* 'creation, production') is a concept where a system continuously produces and maintains itself. Its primary organization is geared towards its own continuation.
+**Autopoiesis** (from Greek _auto-_ 'self' and _poiesis_ 'creation, production') is a concept where a system continuously produces and maintains itself. Its primary organization is geared towards its own continuation.
 
-A living cell is a key example. It constantly uses energy to rebuild its own structures and maintain its boundaries, separating itself from its environment. In this view, the "drive for survival" is not an abstract goal but the defining operational principle of the system. The system's purpose *is* its own existence.
+A living cell is a key example. It constantly uses energy to rebuild its own structures and maintain its boundaries, separating itself from its environment. In this view, the "drive for survival" is not an abstract goal but the defining operational principle of the system. The system's purpose _is_ its own existence.
 
 Life is the ultimate self-referential loop, generating its own reason to be. This idea is a core component of the [[The Fractal Model of Self-Referential Meaning]].
 

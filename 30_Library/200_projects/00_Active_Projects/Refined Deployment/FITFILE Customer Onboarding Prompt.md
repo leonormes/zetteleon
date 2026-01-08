@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-09-28T10:31:18Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:31+00:00
+modified: 2026-01-08T10:49:57+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -105,7 +105,7 @@ This is a Terraform module, so the primary workflow involves using the Terraform
 
 **`README.md`:**
 
-*I am omitting the full `README.md` here for brevity, as it is very detailed and you have it in your context. The key takeaway is that it provides a comprehensive overview of the module's architecture, configuration options, and usage.*
+_I am omitting the full `README.md` here for brevity, as it is very detailed and you have it in your context. The key takeaway is that it provides a comprehensive overview of the module's architecture, configuration options, and usage._
 
 ### 2. The `mkuh-prod-1` Customer Deployment
 

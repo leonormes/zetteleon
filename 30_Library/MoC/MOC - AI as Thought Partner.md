@@ -1,13 +1,10 @@
 ---
-aliases:
-  - AI as Thought Partner
-  - Human-AI Interaction
-  - LLM Augmentation
+aliases: [AI as Thought Partner, Human-AI Interaction, LLM Augmentation]
 confidence: 5/5
 created: 2025-12-24T12:00:00Z
 epistemic: synthesis
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:18:59+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: To map the core principles and architectures governing the use of AI as an augmented thinking tool within ProdOS.
 review_interval: 3 months
 see_also:
@@ -15,10 +12,7 @@ see_also:
   - "[[SoT - PRODOS (System Architecture)]]"
 source_of_truth: []
 status: stable
-tags:
-  - llm
-  - prodos
-  - thinking
+tags: [llm, prodos, thinking]
 title: MOC - AI as Thought Partner
 type: map
 uid:

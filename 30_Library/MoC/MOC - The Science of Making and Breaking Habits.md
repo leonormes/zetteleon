@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-30T12:05:10Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["map", "TheHuman/Neuroscience", "TheHuman/Habits", "topic/productivity"]
+tags: ["map", "TheHuman/Habits", "TheHuman/Neuroscience", "topic/productivity"]
 title: MOC - The Science of Making and Breaking Habits
 type: "map"
 uid: 

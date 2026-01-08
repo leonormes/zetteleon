@@ -4,13 +4,13 @@ confidence: "0.8"
 created: 2025-11-01T11:22:13Z
 epistemic: "hypothesis"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: ""
 review_interval: "90"
 see_also: ["[[Mathematics Involves Creativity and Aesthetic Judgement]]", "[[The Process of Mathematical Discovery is Driven by Pattern Recognition]]", "[[Visualization Supports Mathematical Thinking]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Creativity", "heuristics", "topic/maths"]
+tags: ["heuristics", "TheHuman/Creativity", "topic/maths"]
 title: Heuristic Experimentation Drives Mathematical Insight
 type: "strategy"
 uid: 

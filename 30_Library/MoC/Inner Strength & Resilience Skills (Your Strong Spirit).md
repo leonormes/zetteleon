@@ -4,13 +4,13 @@ confidence: "1"
 created: 2025-07-10T10:12:15Z
 epistemic: "map"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: "To provide a map of content for the skills and virtues related to inner strength and resilience."
 review_interval: "90"
 see_also: ["[[A Concept Map for a Flourishing Human]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["character-strength", "type/moc", "resilience", "virtue"]
+tags: ["character-strength", "resilience", "type/moc", "virtue"]
 title: Inner Strength & Resilience Skills (Your Strong Spirit)
 type: "map"
 uid: 

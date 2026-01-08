@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-01-19T11:35:06Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:17+00:00
+modified: 2026-01-08T10:49:52+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -40,58 +40,58 @@ Phase 1: Linux Fundamentals
 
 1. Core Concepts:
     - Linux Namespaces: Understand the different types of namespaces (PID, network, mount, UTS, IPC, user) and how they provide isolation. Learn how to use tools like `ip netns` to create and manage them.
-        - *Practical Learning*: Create your own namespaces, and explore their differences. See how they isolate processes and networking. Start with the "Connect Two Network Namespaces" project from the `k8s network learning project.md` and use a structured learning session as described in the same document
+        - _Practical Learning_: Create your own namespaces, and explore their differences. See how they isolate processes and networking. Start with the "Connect Two Network Namespaces" project from the `k8s network learning project.md` and use a structured learning session as described in the same document
     - Control Groups (cgroups): Learn how cgroups limit resource usage (CPU, memory, I/O). Understand their role in managing resource allocation for containers.
-        - *Practical Learning*: Implement cgroups to set resource limits on processes you create inside the isolated namespaces that you made in the previous step.
+        - _Practical Learning_: Implement cgroups to set resource limits on processes you create inside the isolated namespaces that you made in the previous step.
     - Virtual Ethernet (veth) Pairs: Learn how they connect namespaces. Understand how to use `ip link` to create and connect them.
-        - *Practical Learning*: Create `veth` pairs, assign one end to one namespace and the other end to another, and then configure them to enable communication.
+        - _Practical Learning_: Create `veth` pairs, assign one end to one namespace and the other end to another, and then configure them to enable communication.
 2. Hands-on Projects:
     - Create a basic container from scratch: Combine namespaces and cgroups to create an isolated process environment.
-        - *Practical Learning*: Build a simple container using the skills that you have developed in the previous practical learning sections. The goal is to truly understand the foundational mechanisms that enable container technology.
+        - _Practical Learning_: Build a simple container using the skills that you have developed in the previous practical learning sections. The goal is to truly understand the foundational mechanisms that enable container technology.
     - Set up isolated network environments: Connect namespaces using veth pairs and configure IP addresses. Implement a network bridge to understand container networking.
-        - *Practical Learning*: Build a more complex network by connecting multiple namespaces to a bridge. Learn how to isolate network traffic. Implement basic network policies using `iptables` within the namespaces.
+        - _Practical Learning_: Build a more complex network by connecting multiple namespaces to a bridge. Learn how to isolate network traffic. Implement basic network policies using `iptables` within the namespaces.
     - Start from first principles**: Create all the required configuration step by step in such a way that you could explain each step as you are doing it.
 
 Phase 2: Containerisation
 
 1. Container Images:
     - Layered Architecture: Understand how container images are composed of read-only layers. Learn how to create layered filesystems.
-        - *Practical Learning*: Investigate a Docker image. Look at its layers using the `docker image inspect` command. See how the layers have been put together.
+        - _Practical Learning_: Investigate a Docker image. Look at its layers using the `docker image inspect` command. See how the layers have been put together.
     - Dockerfiles: Learn how to use Dockerfiles to define the steps for building a container image.
-        - *Practical Learning*: Create a Dockerfile for a basic web app. Use multi-stage builds.
+        - _Practical Learning_: Create a Dockerfile for a basic web app. Use multi-stage builds.
     - Image Registries: Learn about the role of registries and how they are used for storing and sharing container images.
-        - *Practical Learning*: Use Docker Hub or other registries to push and pull images.
+        - _Practical Learning_: Use Docker Hub or other registries to push and pull images.
 2. Container Runtimes:
     - Docker Engine: Understand the architecture of the Docker Engine, including the daemon, containerd, and runc.
-        - *Practical Learning*: Explore these components using the `docker` CLI or by looking at the underlying process structure on your machine.
+        - _Practical Learning_: Explore these components using the `docker` CLI or by looking at the underlying process structure on your machine.
     - Other runtimes: Learn about OCI-compliant runtimes like containerd and runc, and explore LXC and LXD.
-        - *Practical Learning*: Compare the performance of multiple container runtimes.
+        - _Practical Learning_: Compare the performance of multiple container runtimes.
 3. Container Networking:
     - Docker Networking: Learn about Docker's networking model, including bridge and overlay networks.
-        - *Practical Learning*: Create a custom network bridge and connect multiple containers using Docker's network features. Explore the network configuration of a running Docker container. Use `docker network inspect` to view your networks. Use tools like `tcpdump` to see how traffic flows in the network.
+        - _Practical Learning_: Create a custom network bridge and connect multiple containers using Docker's network features. Explore the network configuration of a running Docker container. Use `docker network inspect` to view your networks. Use tools like `tcpdump` to see how traffic flows in the network.
     - Container Network Interface (CNI): Understand the CNI specification and how it allows container runtimes to work with different networking solutions.
-        - *Practical Learning:* Look at the different CNI plugins like Calico, Flannel, and Weave.
+        - _Practical Learning:_ Look at the different CNI plugins like Calico, Flannel, and Weave.
 4. Security:
     - Linux Capabilities: Understand how Linux capabilities control access to privileged operations.
-        - *Practical Learning*: Drop capabilities from a running container.
+        - _Practical Learning_: Drop capabilities from a running container.
     - Seccomp: Learn how seccomp profiles can restrict the system calls available to a container.
-        - *Practical Learning*: Create and implement a seccomp profile for a container.
+        - _Practical Learning_: Create and implement a seccomp profile for a container.
     - AppArmor and SELinux: Understand MAC systems and their use in container security.
-        - *Practical Learning*: Investigate the security policies for a running container that is using SELinux.
+        - _Practical Learning_: Investigate the security policies for a running container that is using SELinux.
 
 Phase 3: Container Orchestration with Kubernetes
 
 1. Kubernetes Networking:
     - Pod-to-Pod Communication: Learn how pods communicate with each other, including on the same and different nodes. Understand the role of `kube-proxy` and services.
-        - *Practical Learning*: Examine the networking configuration of a pod in a Kubernetes cluster. Trace packet flows between pods.
+        - _Practical Learning_: Examine the networking configuration of a pod in a Kubernetes cluster. Trace packet flows between pods.
     - Network Policies: Configure network policies to control traffic flow within the cluster.
-        - *Practical Learning*: Implement Kubernetes network policies to restrict traffic between namespaces and pods.
+        - _Practical Learning_: Implement Kubernetes network policies to restrict traffic between namespaces and pods.
     - Calico Policies: Explore Calico, an open-source project that simplifies, scales, and secures container and Kubernetes networks.
-        - *Practical Learning*: Set up a cluster with Calico and follow the Calico policy lab.
+        - _Practical Learning_: Set up a cluster with Calico and follow the Calico policy lab.
 2. Kubernetes Security:
     - Pod Security Policies: Understand how PSPs can control the capabilities and security settings of pods.
     - Observability: Learn how to monitor and secure a Kubernetes cluster. Understand how to collect logs and set up alerts.
-        - *Practical Learning*: Explore the observability features of your Kubernetes implementation, using metrics, logs, and traces.
+        - _Practical Learning_: Explore the observability features of your Kubernetes implementation, using metrics, logs, and traces.
 
 Overcoming the Illusion of Explanatory Depth:
 

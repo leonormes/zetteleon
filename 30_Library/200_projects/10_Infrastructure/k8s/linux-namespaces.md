@@ -9,7 +9,7 @@ exports: ["concept: \"system-resources"]
 id: "20240206143000"
 imports: ["from: \"linux-core"]
 last_reviewed: ""
-modified: 2026-01-03T10:19:13+00:00
+modified: 2026-01-08T10:49:51+00:00
 purpose: ""
 review_interval: ""
 see_also: []

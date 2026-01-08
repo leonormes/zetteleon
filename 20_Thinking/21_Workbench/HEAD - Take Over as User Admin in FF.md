@@ -5,7 +5,7 @@ confidence:
 created: 2025-12-15T09:14:09Z
 epistemic:
 last_reviewed:
-modified: 2025-12-25T18:35:29Z
+modified: 2026-01-08T10:50:02+00:00
 purpose:
 review_interval:
 see_also: []
@@ -32,7 +32,7 @@ What do I need to know? How does SpiceDB work? Setup the users via Terraform.
 
 ### 🛑 The Compile (Exit Strategy)
 
-*When the thinking stops, extract the value and archive this note.*
+_When the thinking stops, extract the value and archive this note._
 
 - [ ] **The Next Test:** (What is the binary Pass/Fail action?)
 - [ ] **The Update:** (Did I update the relevant SoT?) `[[Link SoT Here]]`
@@ -41,22 +41,22 @@ What do I need to know? How does SpiceDB work? Setup the users via Terraform.
 
 ### 🚀 The Tri-State Output (Router)
 
-*Where does this thinking go next? Pick one path.*
+_Where does this thinking go next? Pick one path._
 
 > **Path A: Kinetic (Action)**
-> *I figured it out. I just need to do it.*
+> _I figured it out. I just need to do it._
 >
 > - [ ] **Task:** (Write the binary Next Action here) `-> Send to Todoist`
 
 > **Path B: Static (Storage)**
-> *I learned a fact / defined a spec. No action needed.*
+> _I learned a fact / defined a spec. No action needed._
 >
 > - [ ] **SoT Update:** (What did I learn?) `-> Merge into [[SoT - Topic]]`
 
 > **Path C: Dynamic (Still Thinking)**
-> *I am pausing this thread. Serialize state to resume later.*
+> _I am pausing this thread. Serialize state to resume later._
 >
 > 1. [ ] **The Save State:** (Write 1 sentence: "I stopped at X, the very next step is Y")
->    - *Constraint: If you don't write this, you fail the 60-Second Restore Test.*
+>    - _Constraint: If you don't write this, you fail the 60-Second Restore Test._
 > 2. [ ] **The Pointer:** (Create Todoist Task with Link) `-> Schedule for [Date]`
 > 3. [ ] **TTL Check:** (Is this the 3rd resume? If yes, refactor to Project).

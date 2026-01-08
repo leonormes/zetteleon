@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-10-31T10:15:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "Define Layer 3 network security in the OSI model."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["layer3", "SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
+tags: ["layer3", "SoftwareEngineering/Networking", "SoftwareEngineering/Security"]
 title: Layer 3 Network Security Protects IP Routing and Forwarding
 type: "concept"
 uid: 

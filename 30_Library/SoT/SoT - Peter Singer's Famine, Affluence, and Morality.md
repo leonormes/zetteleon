@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: "theory"
 last_reviewed: "2025-12-14"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To provide a structural analysis of Peter Singer's 1972 paper \\\\\\\"Famine, Affluence, and Morality,\\\\\\\" outlining its core argument and radical implications for moral obligation."
 review_interval: "6 months"
 see_also: ["[[SoT - Moral Philosophy Overview]]", "[[SoT - Utilitarianism]]"]
@@ -23,7 +23,7 @@ Singer's argument challenges the conventional distinction between moral duties.
 
 ### 2.1 Obligatory Acts
 
-- Actions one *must* do, where failure results in moral culpability (e.g., paying debts, saving a life when easily able).
+- Actions one _must_ do, where failure results in moral culpability (e.g., paying debts, saving a life when easily able).
 
 ### 2.2 Supererogatory Acts
 

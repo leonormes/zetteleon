@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-11-13T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-21"
-modified: 2026-01-03T10:18:55+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "To define how knowledge evolves from volatile thinking into stable truth via the Merge Protocol."
 review_interval: "6 months"
 see_also: ["[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["knowledge-management", "pkm", "synthesis", "thinking", "TheHuman/Cognition"]
+tags: ["knowledge-management", "pkm", "synthesis", "TheHuman/Cognition", "thinking"]
 title: SoT - Evolutionary Note System
 type: "SoT"
 uid: 
@@ -41,7 +41,7 @@ The system separates "Thinking" (Volatile) from "Knowing" (Stable).
 ### Step 3: The Supersede (Deprecation)
 
 - **Context:** Your new insight contradicts an old one.
-- **Action:** Overwrite the old SoT content. Do not hoard outdated facts. The goal is *Utility*, not *History*.
+- **Action:** Overwrite the old SoT content. Do not hoard outdated facts. The goal is _Utility_, not _History_.
 
 ---
 

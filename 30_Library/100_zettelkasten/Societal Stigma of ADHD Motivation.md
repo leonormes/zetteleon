@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T12:16:00Z
 epistemic: "observation"
 last_reviewed: ""
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "Document stigma around ADHD motivation patterns."
 review_interval: "90"
 see_also: ["ADHD as Neurodiversity Not Deficit.md"]

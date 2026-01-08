@@ -4,14 +4,14 @@ confidence: ""
 created: 2025-10-30T12:10:02Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Mindset", "process", "writing"]
+tags: ["process", "TheHuman/Mindset", "writing"]
 title: Focus on the Process Not the Product in Daily Writing
 type: "concept"
 uid: 

@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-12-12T12:05:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: "A map of content for cognitive biases, heuristics, and thinking patterns."
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["bias", "type/moc", "TheHuman/Cognition", "TheHuman/Psychology"]
+tags: ["bias", "TheHuman/Cognition", "TheHuman/Psychology", "type/moc"]
 title: MOC - Cognitive Biases
 type: "map"
 uid: 
@@ -30,8 +30,8 @@ Understanding these biases is critical for **Metacognition** (thinking about thi
 These biases specifically affect how we acquire, assess, and retain information. They are the primary enemies of a reliable PKM system.
 
 - **[[SoT - Illusion of Explanatory Depth (IoED)]]**: The belief that we understand a complex concept simply because we recognize its terms. This is the "Master Note" on the topic.
-  - *Related:* [[The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning]] - The mechanism behind IoED.
-  - *Related:* [[Familiarity is Mistaken for Comprehension in IoED]] - The specific error of confusing recognition with recall.
+  - _Related:_ [[The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning]] - The mechanism behind IoED.
+  - _Related:_ [[Familiarity is Mistaken for Comprehension in IoED]] - The specific error of confusing recognition with recall.
 - **[[SoT - Dunning-Kruger Effect]]**: Overestimating competence in areas where we lack expertise.
 
 ---

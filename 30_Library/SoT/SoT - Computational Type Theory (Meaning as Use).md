@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "Defines Robert Harper's Computational Type Theory, emphasizing that types are defined by program behavior (semantics) rather than syntax."
 review_interval: "1 year"
 see_also: ["[[SoT - Cubical Type Theory (Computational Univalence)]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "computational_logic", "semantics", "type_theory"]
+tags: ["computational_logic", "semantics", "SoftwareEngineering/Architecture", "type_theory"]
 title: SoT - Computational Type Theory (Meaning as Use)
 type: "SoT"
 uid: 
@@ -79,9 +79,9 @@ Sigma$ contains the witness ($y$) in its data structure, a proof of "For all x t
 - **Tension:** **Decidability vs. Expressiveness.**
   - **Semantic View:** "If they run the same, they are the same." (True, but hard to check).
   - **Formal View:** "I need to check this in milliseconds." (Fast, but rejects some valid programs).
-  - *See [[SoT - Equality in Type Theory (Intensional vs Extensional)]] for the deep dive on this conflict.*
+  - _See [[SoT - Equality in Type Theory (Intensional vs Extensional)]] for the deep dive on this conflict._
 
 ## 6. Sources and Links
 
-- **Source:** Robert Harper, *Computational Type Theory* (Lectures 1-4).
-- **Source:** Robert Harper, *OPLSS 2018: Computational Type Theory* (Lecture 1) - Establishes "Types as Specifications of Program Behavior" vs. Formalism.
+- **Source:** Robert Harper, _Computational Type Theory_ (Lectures 1-4).
+- **Source:** Robert Harper, _OPLSS 2018: Computational Type Theory_ (Lecture 1) - Establishes "Types as Specifications of Program Behavior" vs. Formalism.

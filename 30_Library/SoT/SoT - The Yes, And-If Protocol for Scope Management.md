@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-17T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-17"
-modified: 2026-01-03T10:18:49+00:00
+modified: 2026-01-08T08:42:50+00:00
 purpose: "To define a tactical communication protocol for managing scope creep and new requests without direct confrontation."
 review_interval: "3 months"
 see_also: ["[[MOC - Assertiveness Through System Design]]"]

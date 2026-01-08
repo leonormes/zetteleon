@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-24T15:33:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -22,7 +22,7 @@ For cloud-native environments utilizing Azure Kubernetes Service (AKS), Amazon E
 
 - **Terraform Cloud ↔ Kubernetes (EKS/AKS):** Authentication for Terraform runs should leverage **OIDC-based dynamic provider credentials**. This allows Terraform to obtain short-lived tokens directly from the Kubernetes cluster's OIDC provider.
 - **In-cluster services ↔ Cloud APIs:** Services running within Kubernetes clusters (EKS/AKS) should authenticate to cloud APIs using native identity federation. Examples include **IAM roles for service accounts (EKS)** or **AKS Managed Identity**, which provide workloads with short-lived, fine-grained access to cloud resources.
-- **Inter-service within clusters:** For communication between services *within* the Kubernetes cluster, implement **mTLS via SPIFFE** or utilize **OAuth2 client credential tokens** issued by a secrets provider like Vault.
+- **Inter-service within clusters:** For communication between services _within_ the Kubernetes cluster, implement **mTLS via SPIFFE** or utilize **OAuth2 client credential tokens** issued by a secrets provider like Vault.
 
 In summary, the modern authentication stack for these platforms is built upon **OIDC + OAuth2 client credentials + mTLS**, all underpinned by **short-lived, cryptographically signed tokens** (e.g., RSA/ECDSA).
 

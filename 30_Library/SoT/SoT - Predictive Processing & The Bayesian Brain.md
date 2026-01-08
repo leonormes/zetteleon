@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-23T22:24:14Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:52+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the neurobiological mechanism of predictive processing and its impact on learning, surprise, and ADHD dopamine regulation."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Reality, Models, and the Limits of Accuracy]]"]
 source_of_truth: []
 status: "stable"
-tags: ["adhd", "dopamine", "TheHuman/Neuroscience", "predictive_processing", "TheHuman/Cognition"]
+tags: ["adhd", "dopamine", "predictive_processing", "TheHuman/Cognition", "TheHuman/Neuroscience"]
 title: SoT - Predictive Processing & The Bayesian Brain
 type: "SoT"
 uid: 
@@ -57,4 +57,4 @@ The leading theory of ADHD involves **Dopamine Dysregulation**, particularly in 
 
 ## 5. Summary
 
-We are only consciously alerted when reality *doesn't* match our model. Understanding this allows us to leverage high-prediction-error environments (Novelty, Challenge) to regulate focus and drive learning.
+We are only consciously alerted when reality _doesn't_ match our model. Understanding this allows us to leverage high-prediction-error environments (Novelty, Challenge) to regulate focus and drive learning.

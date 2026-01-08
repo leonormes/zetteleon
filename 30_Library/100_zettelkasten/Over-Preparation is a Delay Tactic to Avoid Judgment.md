@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T20:34:00Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To explain how over-preparation is used as a delay tactic to avoid judgment or failure."
 review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]", "[[Risk Avoidance Drives Motion-Based Procrastination]]"]

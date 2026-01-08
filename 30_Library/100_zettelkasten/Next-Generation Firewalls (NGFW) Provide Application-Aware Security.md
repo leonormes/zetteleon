@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-12-24T12:00:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "Explain Next-Generation Firewall technology."
 review_interval: "90"
 see_also: ["Cloud Firewalls Filter Traffic at Network and Transport Layers.md", "Web Application Firewalls Protect Against Layer 7 Attacks.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
+tags: ["SoftwareEngineering/Networking", "SoftwareEngineering/Security"]
 title: Next-Generation Firewalls (NGFW) Provide Application-Aware Security
 type: "concept"
 uid: 

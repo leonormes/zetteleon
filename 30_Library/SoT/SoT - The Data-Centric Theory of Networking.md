@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-03-14T13:38:49Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the principles of indirection, stable service endpoints, and routing logic in modern network architecture."
 review_interval: "6 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data Architecture of DNS]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "data-centric", "SoftwareEngineering/Networking", "routing", "topic/technology"]
+tags: ["data-centric", "routing", "SoftwareEngineering/Architecture", "SoftwareEngineering/Networking", "topic/technology"]
 title: SoT - The Data-Centric Theory of Networking
 type: "SoT"
 uid: 
@@ -29,7 +29,7 @@ updated:
 A single network request involves two distinct properties that are often conflated:
 
 1. **The DNS Name:** Used by the client to find the **IP address** of the entry point (The "Where").
-2. **The HTTP Host Header:** Sent *inside* the request to tell the server which service is requested (The "Who").
+2. **The HTTP Host Header:** Sent _inside_ the request to tell the server which service is requested (The "Who").
 
 **The Virtual Hosting Principle:** Because these two can be technically separated (e.g., via `curl`), a single IP address (one Load Balancer) can handle hundreds of distinct hostnames by inspecting the `Host` header.
 

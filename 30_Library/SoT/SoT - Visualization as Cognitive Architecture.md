@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-15T00:00:00Z
 epistemic: "Derived from neuroscience of the primary visual cortex and fractal geometry principles."
 last_reviewed: "2025-12-15"
-modified: 2026-01-03T10:18:49+00:00
+modified: 2026-01-08T10:49:39+00:00
 purpose: "To redefine visualization not as \\\\\\\"imagination\\\\\\\" but as a cognitive architecture for constructing reality using fractal logic."
 review_interval: "6 months"
 see_also: ["[[SoT - Cognitive Architectures (Simulation vs Prototyping)]]", "[[SoT - Reality", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[Visualization Supports Mathematical Thinking]]", "and the Limits of Accuracy]]", "Models"]
 source_of_truth: []
 status: "stable"
-tags: ["cognitive_science", "mental_models", "TheHuman/Neuroscience", "system_design", "visualization"]
+tags: ["cognitive_science", "mental_models", "system_design", "TheHuman/Neuroscience", "visualization"]
 title: SoT - Visualization as Cognitive Architecture
 type: "SoT"
 uid: 
@@ -44,7 +44,7 @@ The processing architecture changes based on consciousness:
 
 ## 4. The Three Planes of Visualization
 
-*Source: [Architecture of the Mind](https://youtu.be/9rH9dVTWBmg)*
+_Source: [Architecture of the Mind](https://youtu.be/9rH9dVTWBmg)_
 
 To visualise effectively, invert the typical "Top-Down" approach. Focus on the source code (Intention), not the output.
 
@@ -64,7 +64,7 @@ To visualise effectively, invert the typical "Top-Down" approach. Focus on the s
 
 - **Function:** The general background or "Big Picture."
 - **Role:** The "Result."
-- **Action:** **Release.** Do not try to design this manually. If Plane 1 and 2 are stable, the brain's fractal nature will *automatically* generate the context (just as a dream builds a world around a feeling).
+- **Action:** **Release.** Do not try to design this manually. If Plane 1 and 2 are stable, the brain's fractal nature will _automatically_ generate the context (just as a dream builds a world around a feeling).
 
 ---
 
@@ -77,4 +77,4 @@ To visualise effectively, invert the typical "Top-Down" approach. Focus on the s
 3. **Expand the Fractal:** Allow your awareness to drift to the Observation Plane (Plane 2).
 4. **Let the World Build:** Trust the Ground Plane (Plane 3) to fill itself in.
 
-*Why this works:* It respects the brain's bandwidth limits. By locking the "First Frame," you provide the stable geometry the brain needs to render the rest of the simulation.
+_Why this works:_ It respects the brain's bandwidth limits. By locking the "First Frame," you provide the stable geometry the brain needs to render the rest of the simulation.

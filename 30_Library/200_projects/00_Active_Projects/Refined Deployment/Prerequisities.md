@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-01T05:44:33Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:29+00:00
+modified: 2026-01-08T10:49:56+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -43,7 +43,7 @@ Before beginning the deployment, the individual performing the deployment needs 
 
 ## 2. Azure Tenant and Subscription Configuration (Customer Side)
 
-These are crucial prerequisites that often require close liaison between FITFILE and the customer's IT team. Lessons learned from past deployments emphasize the importance of having these details ironed out *before* starting any Terraform work.
+These are crucial prerequisites that often require close liaison between FITFILE and the customer's IT team. Lessons learned from past deployments emphasize the importance of having these details ironed out _before_ starting any Terraform work.
 
 - Azure Tenant and Subscription IDs: The customer needs to share their Azure Tenant ID and Azure Subscription ID with FITFILE.
 - Resource Provider Registration: The Azure Subscription must have specific Resource Providers registered. These are necessary for deploying various Azure services. The required providers include:
@@ -65,7 +65,7 @@ These are crucial prerequisites that often require close liaison between FITFILE
 - Adding FITFILE DevOps User: A designated FITFILE DevOps user needs to be invited to the customer's Azure Tenant as an external user.
 - The user type should be changed from Guest to Member.
 - This user should then be assigned the `Contributor` role on the subscription. This is necessary for day-to-day management access (e.g., via a Jumpbox or VPN).
-- Adhering to Naming Conventions: It's critical to request and follow the official naming convention document (like the HLD) for *every* resource type created (Resource Groups, VNets, Subnets, Route Tables, NSGs, AKS clusters, etc.). Failure to do so will require time-consuming teardowns and redeployments.
+- Adhering to Naming Conventions: It's critical to request and follow the official naming convention document (like the HLD) for _every_ resource type created (Resource Groups, VNets, Subnets, Route Tables, NSGs, AKS clusters, etc.). Failure to do so will require time-consuming teardowns and redeployments.
 - Finalizing IP Addressing: All VNet and Subnet CIDR blocks must be finalized and confirmed upfront (e.g., `10.250.16.0/24`). Incorrect IP ranges, or insufficient ranges for services like AKS, will necessitate redeployments.
 
 ## 3. Network and Connectivity Requirements
@@ -74,7 +74,7 @@ Network configuration and firewall rules are often a source of delays and requir
 
 - Virtual Network (VNet) Peering: Peering must be configured between the FITFILE vNet and the existing shared/hub vNet (e.g., CUH Shared Service vNet). This allows communication between the vNets and onward to ExpressRoute. If removed by accident during redeployments, it needs to be recreated.
 - Defined Egress Path/Routing: All outbound traffic (`0.0.0.0/0`) from the FITFILE vNet needs to be explicitly routed through a specific firewall or virtual appliance IP (e.g., `10.250.1.68` for the Azure FortiGate). This ensures traffic goes via the on-premises proxy as required, rather than directly to the internet.
-- Comprehensive Outbound Firewall Rules: A comprehensive list of all external endpoints, their protocols, and ports that the cluster and applications need to reach must be provided *before* the project starts. This includes:
+- Comprehensive Outbound Firewall Rules: A comprehensive list of all external endpoints, their protocols, and ports that the cluster and applications need to reach must be provided _before_ the project starts. This includes:
 - Hashicorp Vault (HTTPS/443, 8200).
 - Auth0 authentication and UI components (HTTPS/443).
 - FITFILE main domain (HTTPS/443).
@@ -116,7 +116,7 @@ Connecting to external systems requires upfront definition of access methods and
 
 Beyond technical steps, clear communication and a structured approach are vital.
 
-- Formal Pre-Deployment Checklist Sign-off: A detailed technical prerequisite checklist, completed in collaboration with the customer and managed service provider, should be formally signed off *before* any deployment work begins. This is key to avoiding "firefighting" during deployment.
+- Formal Pre-Deployment Checklist Sign-off: A detailed technical prerequisite checklist, completed in collaboration with the customer and managed service provider, should be formally signed off _before_ any deployment work begins. This is key to avoiding "firefighting" during deployment.
 - Clarify Roles and Responsibilities: Clearly define who is responsible for what. For example, FITFILE for application and AKS infrastructure deployment within the subscription, and the managed service provider (e.g., Telefonica Tech) for core networking, subscription-level permissions, and liaising with internal teams.
 - Understand Change Management Process (CAB): Familiarity with the customer's Change Advisory Board (CAB) process, including standard and expedited lead times for changes (e.g., firewall rule changes), is crucial for building realistic timelines and submitting requests well in advance.
 - Pre-Flight Checks: Implement small scripts or manual checks before the main deployment to verify that prerequisites (e.g., jumpbox connectivity to external services, ACR URL access) are in place. This provides early failure detection and prevents long, failed deployments.

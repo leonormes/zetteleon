@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-09-16T12:20:22Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -18,7 +18,7 @@ updated:
 version: ""
 ---
 
-Solitude is not loneliness but a *privileged state* where intelligence flourishes.
+Solitude is not loneliness but a _privileged state_ where intelligence flourishes.
 
 - Provides space for independent thought, deep reading, and creative self-discovery [05:25].
 - Withdrawal from society becomes "a demanding yet liberating climb towards self-discovery" [01:55].

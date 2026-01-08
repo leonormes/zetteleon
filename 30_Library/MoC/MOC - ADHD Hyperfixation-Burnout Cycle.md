@@ -6,7 +6,7 @@ criteria: ""
 epistemic: fact
 exclusions: General ADHD topics not directly related to the hyperfixation-burnout cycle.
 last_reviewed: 2025-11-01T00:00:00.000Z
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: ""
 review_interval: "90"
 scope: ""
@@ -73,7 +73,7 @@ This fallow period lasts until your brain, once again starved of stimulation, la
 
 ### Why This Sabotages Your Systems
 
-[[ADHD Systems Fail When They Become Monotonous]] `rel:: explains-system-failure`. The very systems and processes you try to implement to manage your ADHD often fall victim to this cycle. You might hyperfixate on finding the *perfect* planner, the *ultimate* productivity app, or a revolutionary organizational method. You'll research it obsessively, set it up with intense focus, and for a few days or weeks, it will feel like you've finally solved everything.
+[[ADHD Systems Fail When They Become Monotonous]] `rel:: explains-system-failure`. The very systems and processes you try to implement to manage your ADHD often fall victim to this cycle. You might hyperfixate on finding the _perfect_ planner, the _ultimate_ productivity app, or a revolutionary organizational method. You'll research it obsessively, set it up with intense focus, and for a few days or weeks, it will feel like you've finally solved everything.
 
 However, the routine and maintenance required to keep a system going are inherently monotonous. Once the novelty of creating the system wears off, it no longer provides the dopamine hit your brain is seeking. The system itself becomes a chore, another "vague and empty" task, and is abandoned during the crash.
 
@@ -83,7 +83,7 @@ In essence, you are not failing to maintain the system; the system is failing to
 
 ### Strategic Response
 
-Recognizing this as a core trait of your ADHD, rather than a personal flaw, can help you approach solutions with more self-compassion and strategy. [[Build Novelty and Flexibility Into ADHD Systems]] `rel:: strategy` provides the solution: building novelty and flexibility *into* your systems rather than expecting your brain to maintain interest in static routines.
+Recognizing this as a core trait of your ADHD, rather than a personal flaw, can help you approach solutions with more self-compassion and strategy. [[Build Novelty and Flexibility Into ADHD Systems]] `rel:: strategy` provides the solution: building novelty and flexibility _into_ your systems rather than expecting your brain to maintain interest in static routines.
 
 Rather than fighting your brain's need for novelty, work with it. Design systems that:
 

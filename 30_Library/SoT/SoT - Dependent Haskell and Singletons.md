@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2025-12-26T21:48:35+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "Defines the architectural patterns for implementing Dependent Types in Haskell using Singletons and GADTs."
 review_interval: "1 year"
 see_also: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - Proof-Carrying Code via Simulated Dependent Types]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "functional_programming", "haskell", "singletons", "type_theory"]
+tags: ["functional_programming", "haskell", "singletons", "SoftwareEngineering/Architecture", "type_theory"]
 title: SoT - Dependent Haskell and Singletons
 type: "SoT"
 uid: 
@@ -20,7 +20,7 @@ updated:
 ## 1. Working Knowledge (Stable Foundation)
 
 - **The Goal:** To bridge the "Syntax Gap" between the **Term Level** (Runtime Values) and the **Type Level** (Compile-time Logic) in Haskell.
-- **The Problem:** Haskell traditionally separates these worlds. We want to write functions where the *Type* of the output depends on the *Value* of the input.
+- **The Problem:** Haskell traditionally separates these worlds. We want to write functions where the _Type_ of the output depends on the _Value_ of the input.
 - **The Solution (The Singleton Pattern):** A structural bridge that mirrors runtime values at the type level.
   - **Promoted Constructors:** Lifting data (like `'True`, `'False`) to be Types.
   - **Singleton Types (`SBool`):** A GADT that links the Term-level value (`True`) to the Type-level index (`'True`).
@@ -36,7 +36,7 @@ Weirich demonstrates a "Compiler-Driven Development" workflow where the compiler
     - Dependent Haskell: `'True` is a Type of kind `Bool`. We "lift" data to the type level so the compiler can reason about it.
 
 2. **The Singleton Bridge ("Fake Pi Types"):**
-    - To write a dependent function (where $f(x)$ returns a type depending on $x$), we need to know *which* type to return at runtime.
+    - To write a dependent function (where $f(x)$ returns a type depending on $x$), we need to know _which_ type to return at runtime.
     - **The Mechanism:** The `Singleton` library generates a "Mirror Type" (e.g., `SOnce`, `SMany`).
     - **Pattern Matching:** When you match on a Singleton (`case s of SOnce ->...`), you prove to the compiler exactly which Type-level branch is active. This is the "runtime witness" for the static proof.
 
@@ -64,10 +64,10 @@ The architecture uses Template Haskell (`[r|... |]`) as the **Ingress Controller
 ## 5. Tensions, Gaps, and Cross-SoT Coherence
 
 - **Comparison with Rust:** This is the Haskell equivalent of the "Simulated Dependent Types" technique in [[SoT - Proof-Carrying Code via Simulated Dependent Types]].
-  - *Rust:* Uses Traits and PhantomData.
-  - *Haskell:* Uses GADTs and DataKinds (Singletons).
+  - _Rust:_ Uses Traits and PhantomData.
+  - _Haskell:_ Uses GADTs and DataKinds (Singletons).
 - **Boilerplate:** Both approaches suffer from high verbosity ("Type Gymnastics") to achieve what languages like Idris do natively.
 
 ## 6. Sources and Links
 
-- **Source:** Stephanie Weirich, *Dependent Types in Haskell* (YouTube).
+- **Source:** Stephanie Weirich, _Dependent Types in Haskell_ (YouTube).

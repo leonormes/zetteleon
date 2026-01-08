@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-17T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-17"
-modified: 2026-01-03T10:18:49+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To outline the Transactional Analysis model as a framework for understanding and improving professional communication by identifying and managing ego states."
 review_interval: "3 months"
 see_also: ["[[MOC - Assertiveness Through System Design]]"]
@@ -32,7 +32,7 @@ All professional communication can be mapped to one of these states:
 
 ## 3. The Core Dysfunction and Solution
 
-- **Dysfunctional Loop:** Most workplace confrontation is a **Parent-Child loop**. A manager's *Controlling Parent* triggers an employee's *Submissive or Rebellious Child*, leading to resentment, lack of clarity, and poor outcomes.
+- **Dysfunctional Loop:** Most workplace confrontation is a **Parent-Child loop**. A manager's _Controlling Parent_ triggers an employee's _Submissive or Rebellious Child_, leading to resentment, lack of clarity, and poor outcomes.
 - **The Solution (Forcing an Adult State):** Assertiveness is the act of breaking this loop by refusing to engage in a Parent or Child state. You must respond to any communication, regardless of its tone, from the **Adult** state.
 
 ### Example: Shifting the Transaction

@@ -4,10 +4,10 @@ confidence: "0.9"
 created: 2025-11-10T14:01:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To outline the foundational ideas behind time blocking."
 review_interval: "90"
-see_also: ["[[Time Blocking is a Technique for Dedicating Specific Segments of Time to Particular Tasks]]"]
+see_also: ["[[SoT - Temporal Management (Blocking and Boxing)]]"]
 source_of_truth: []
 status: "seedling"
 tags: ["principles", "time-blocking", "time-management", "topic/productivity"]

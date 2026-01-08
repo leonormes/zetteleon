@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-12"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "Canonical synthesis of mindfulness practices as tools for emotional regulation, nervous system calibration, and developing the \\\\\\\"Observer Self."
 review_interval: "1 year"
 see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Social Cognition & Self-Perception]]", "[[SoT - The Four Laws of Behavior Change]]", "[[SoT - The Nature of Time and Perception]]", "[[SoT - Wabi-Sabi]]", "[[The human brain is a dynamic complex emergent enti...]]"]
@@ -21,10 +21,10 @@ updated:
 
 Normally, we are **fused** with our thoughts.
 
-- *Fusion:* "I *am* anxious." (The wave hits, you dissolve into it).
-- *Observation:* "I *notice* a feeling of anxiety." (You are the screen; the movie is playing on you).
+- _Fusion:_ "I _am_ anxious." (The wave hits, you dissolve into it).
+- _Observation:_ "I _notice_ a feeling of anxiety." (You are the screen; the movie is playing on you).
 
-**The Protocol:** Meditation is the gym for the "Observer Self" (Witness Consciousness). By repeatedly anchoring attention (e.g., to the breath), you prove to yourself that thoughts arise and pass *independently of your will*. You realize you are the container, not the content.
+**The Protocol:** Meditation is the gym for the "Observer Self" (Witness Consciousness). By repeatedly anchoring attention (e.g., to the breath), you prove to yourself that thoughts arise and pass _independently of your will_. You realize you are the container, not the content.
 
 ---
 
@@ -54,7 +54,7 @@ Normally, we are **fused** with our thoughts.
 ### E. The Gratitude Reframe (Survivor Mindset)
 
 - **The Insight:** Surviving a crisis recontextualizes ordinary stress.
-- **The Protocol:** Adopt the mindset: **"Never have a bad day again."** If you are breathing and mobile, the day is a gift. This perspective finds gratitude and strength even in difficulty. (Source: *My Next Breath* by Jeremy Renner).
+- **The Protocol:** Adopt the mindset: **"Never have a bad day again."** If you are breathing and mobile, the day is a gift. This perspective finds gratitude and strength even in difficulty. (Source: _My Next Breath_ by Jeremy Renner).
 
 ---
 
@@ -82,7 +82,7 @@ These Japanese philosophies offer concrete, actionable ways to integrate mindful
 
 - **Core Principle:** A practice of mindful eating, stopping when 80% full.
 - **Mindfulness Connection:** Develops interoceptive awareness (sensing internal bodily states) and prevents unconscious overeating.
-- **Impact:** Since the brain takes approximately 20 minutes to register fullness, stopping at 80% ensures slight, continuous calorie restriction, extending lifespan and preventing post-meal sluggishness, which can impact executive function. (Source: *Deep Dive* podcast episode).
+- **Impact:** Since the brain takes approximately 20 minutes to register fullness, stopping at 80% ensures slight, continuous calorie restriction, extending lifespan and preventing post-meal sluggishness, which can impact executive function. (Source: _Deep Dive_ podcast episode).
 
 ---
 

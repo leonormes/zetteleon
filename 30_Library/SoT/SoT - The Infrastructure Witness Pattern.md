@@ -1,16 +1,16 @@
 ---
-aliases: ["Infrastructure Witness", "Witness Pattern", "Proof-Carrying Infrastructure", "Type Witness"]
+aliases: ["Infrastructure Witness", "Proof-Carrying Infrastructure", "Type Witness", "Witness Pattern"]
 confidence: "5/5"
 created: 2025-12-30T10:39:13+00:00
 epistemic: "architecture"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T17:48:20+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the Witness Pattern in infrastructure, enabling 'Proof-Carrying Code' that replaces implicit trust (strings) with explicit capabilities (types)."
 review_interval: "6 months"
-see_also: ["[[SoT - Type-Driven Infrastructure as Code]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[MOC - Type Theory]]", "[[SoT - Parse, Don't Validate]]"]
+see_also: ["[[MOC - Type Theory]]", "[[SoT - Parse, Don't Validate]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[SoT - Type-Driven Infrastructure as Code]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "iac", "type_theory", "SoftwareEngineering/Security", "pattern"]
+tags: ["iac", "pattern", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "type_theory"]
 title: SoT - The Infrastructure Witness Pattern
 type: "SoT"
 uid: 
@@ -22,7 +22,7 @@ updated:
 > [!definition] The Infrastructure Witness
 > A **Witness** is a specific data type (or object) whose existence serves as a mathematical proof that a prerequisite infrastructure state has been successfully satisfied.
 >
-> Unlike standard configuration values (strings, booleans) which describe *what* we want, a Witness describes *what has been established*.
+> Unlike standard configuration values (strings, booleans) which describe _what_ we want, a Witness describes _what has been established_.
 
 It transforms temporal dependencies ("Resource A must exist before Resource B") into structural dependencies ("Function B requires Type A as an argument").
 
@@ -33,7 +33,7 @@ It transforms temporal dependencies ("Resource A must exist before Resource B") 
 In traditional paradigms (Terraform HCL, Helm), dependencies are loose and trust is implicit. This is the "Stringly Typed" anti-pattern.
 
 - **The Anti-Pattern:** A Load Balancer resource asks for a `subnet_id` as a `string`.
-- **The Risk:** The developer can supply *any* string (e.g., a private subnet ID, a deleted ID, or `"foo"`).
+- **The Risk:** The developer can supply _any_ string (e.g., a private subnet ID, a deleted ID, or `"foo"`).
 - **The Failure Mode:** The error is only discovered at **Runtime** (during `terraform apply` or, worse, via outage).
 
 ---
@@ -163,4 +163,4 @@ If you try to construct this struct without providing the `dns_proof` (which you
 ## 7. Implementation Notes
 
 - **CDKTF (TypeScript):** Use `private` constructors and class nominal typing (`private _scope: Scope`) to simulate Phantom Types.
-- **Linear Types:** In the future, we can use Affine Types (Rust's Move semantics) to ensure a specific IP port is bound *exactly once*, preventing port collisions at compile time.
+- **Linear Types:** In the future, we can use Affine Types (Rust's Move semantics) to ensure a specific IP port is bound _exactly once_, preventing port collisions at compile time.

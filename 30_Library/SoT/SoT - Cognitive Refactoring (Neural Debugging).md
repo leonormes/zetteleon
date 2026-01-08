@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-15T00:00:00Z
 epistemic: "technique"
 last_reviewed: "2025-12-16"
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "To define the active process of debugging and rewriting maladaptive thought patterns, specifically for the ADHD mind."
 review_interval: "1 year"
 see_also: ["[[Cognitive Reframing of Criticism]]", "[[Reframing Negative Thought Patterns in ADHD]]", "[[SoT - ADHD Self-Compassion & Strengths]]", "[[SoT - Belief Architecture & Cognitive Spaces]]", "[[SoT - The Negativity Bias]]"]
 source_of_truth: []
 status: "stable"
-tags: ["cbt", "debugging", "TheHuman/Mindset", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
+tags: ["cbt", "debugging", "TheHuman/Health/ADHD", "TheHuman/Mindset", "TheHuman/Psychology"]
 title: SoT - Cognitive Refactoring (Neural Debugging)
 type: "SoT"
 uid: 
@@ -22,18 +22,27 @@ updated:
 The process follows a standard troubleshooting workflow:
 
 1. **Catch (Monitoring):** Use Mindfulness to detect the "Error Signal" (Negative Emotion/Resistance).
-    - *Link:* [[SoT - Mindfulness and Emotional Regulation]].
+    - _Link:_ [[SoT - Mindfulness and Emotional Regulation]].
 2. **Isolate (Identification):** Identify the specific thought causing the error.
-    - *Example:* "I am lazy because I didn't start."
+    - _Example:_ "I am lazy because I didn't start."
 3. **Audit (Testing):** Check the thought against reality/evidence. Is this a [[Common Cognitive Distortions|Cognitive Distortion]]?
-    - *Test:* "Am I lazy? Or did I lack clarity? Evidence shows I worked hard yesterday."
+    - _Test:_ "Am I lazy? Or did I lack clarity? Evidence shows I worked hard yesterday."
 4. **Patch (Reframing):** Rewrite the thought to be accurate and functional.
-    - *Patch:* "I am not lazy; I am stuck. I need to break this task down."
-5. **Deploy (Action):** Act on the new thought.
+    - _Patch:_ "I am not lazy; I am stuck. I need to break this task down."
+- **The "Yet" Mentality:** "I haven't mastered this _yet_."
+
+### 2.4 The Social Function of Shame
+
+Shame is not a bug; it is an **Evolutionary Feature** designed to enforce group cohesion (Behavior Correction).
+
+- **The Mismatch:** In a neurotypical world, ADHD traits (timeliness, organization) trigger shame signals disproportionate to the actual social harm.
+- **Productive Shame:** Brief discomfort that guides specific behavior correction.
+- **Destructive Shame:** Persistent, identity-level belief ("I am defective") that causes withdrawal and paralysis.
+- **The Fix:** Distinguish the signal. "Is this shame helping me function, or just punishing me for my neurotype?"
 
 ---
 
-## 3. The Core Distortions (The Bugs)
+## 3. The Strengths Engine (Features)
 
 ADHD brains are prone to specific logic errors due to [[SoT - The Negativity Bias]].
 

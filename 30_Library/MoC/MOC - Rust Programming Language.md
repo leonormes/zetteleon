@@ -1,45 +1,40 @@
 ---
-modified: 2026-01-03T10:18:58+00:00
-review_interval: ""
-see_also: []
-source_of_truth: []
-aliases:
-  - Rust MOC
-  - Map of Rust
+aliases: [Map of Rust, Rust MOC]
 confidence: 5/5
 created: 2025-12-27T14:11:28+00:00
 epistemic: index
 last_reviewed: 2025-12-27
+modified: 2026-01-08T10:49:46+00:00
 purpose: To map the landscape of the Rust Programming Language notes within the vault.
+review_interval: ""
+see_also: []
+source_of_truth: []
 status: stable
-tags:
-  - type/moc
-  - rust
-  - programming
+tags: [programming, rust, type/moc]
 title: MOC - Rust Programming Language
 type: map
 ---
 
-# MOC - Rust Programming Language
+## MOC - Rust Programming Language
 
 > **Rust** is a systems programming language that empowers everyone to build reliable and efficient software. It enforces memory safety without a garbage collector via its unique **Ownership** model.
 
-## Core Concepts (The Pillars)
+### Core Concepts (The Pillars)
 
 - **Philosophy:** [[SoT - Rust's Design Philosophy]] & [[SoT - Type-Driven Development (The Torvalds Loop)]] - Moving from "Stringly Typed" to "Type-Driven".
 - **Memory Model:** [[SoT - Rust's Ownership Model]] - The unique discipline of Borrowing and Lifetimes.
 - **Type System:** [[MOC - Type Theory]] - Rust's type system is heavily influenced by affine types and algebraic data types.
 
-## Conceptual Bridges
+### Conceptual Bridges
 
 - **For TS Developers:** [[SoT - Rust vs TypeScript]] - A high-contrast comparison of type systems and memory models (Nominal vs. Structural, Enums vs. Discriminated Unions).
 
-## Learning & Projects
+### Learning & Projects
 
 - **Active Curriculum:** [[2025-12-27-1015-HEAD - Learning Rust via Release Tool]]
 - **Learning Protocol:** [[SoT - Accelerated Learning (3C Protocol)]]
 
-## Specific Topics
+### Specific Topics
 
 - **Error Handling:** (Link to future note on Result/Option)
 - **Concurrency:** [[SoT - Rust Concurrency & Async Paradigms]] - Understanding Send/Sync and Work-Stealing vs Shared-Nothing.
@@ -47,7 +42,7 @@ type: map
 - **Optimization:** [[SoT - Rust High-Performance Computing (HPC) Optimization]] - Hardware targeting, CPU pinning, and memory allocators.
 - **Paradigms:** [[SoT - Data-Oriented Programming (DOP) in Rust]] - Applying DOP principles to Rust's type system.
 
-## External Resources
+### External Resources
 
 - [The Rust Programming Language (Book)](https://doc.rust-lang.org/book/)
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/)

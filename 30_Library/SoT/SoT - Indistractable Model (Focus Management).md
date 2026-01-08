@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:10:45Z
 epistemic: "synthesis"
 last_reviewed: "2025-12-24"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "Canonical source of truth for the Indistractable Model and focus management strategies, integrating Nir Eyal, Neil Fiore, and ADHD-centric research."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS (System Architecture)]]"]
@@ -22,7 +22,7 @@ updated:
 > [!definition] Definition
 > **Traction:** Actions that move you toward what you really want.
 > **Distraction:** Actions that move you away from what you want.
-> **The Mandate:** You cannot call something a distraction unless you know what it is distracting you *from*.
+> **The Mandate:** You cannot call something a distraction unless you know what it is distracting you _from_.
 
 ### 1. Minimum Viable Understanding (MVU)
 
@@ -34,7 +34,7 @@ Focus is not the absence of distraction, but the management of **Triggers** (Int
 
 #### Pillar 1: Master Internal Triggers (Pain Management)
 
-*Root Cause: Motivation is a desire to escape discomfort.*
+_Root Cause: Motivation is a desire to escape discomfort._
 
 - **The Anxiety Loop:** Procrastination is a coping mechanism for the anxiety of the task (Neil Fiore).
 - **The ADHD Factor:** Boredom is "kryptonite." The "glitchy switch" traps the brain in the **Default Mode Network (DMN)**. Engaging the **Task-Positive Network (TPN)** through external focus shuts down rumination (Hallowell/Ratey).
@@ -42,22 +42,22 @@ Focus is not the absence of distraction, but the management of **Triggers** (Int
 
 #### Pillar 2: Make Time for Traction (Timeboxing)
 
-*If you don't schedule it, you can't complain when it's gone.*
+_If you don't schedule it, you can't complain when it's gone._
 
 - **Timeboxing:** Deciding what to do and when, reserving time for "You," "Relationships," and "Work" (Marc Zao-Sanders).
-- **The Unschedule:** Schedule guilt-free play *before* work to reduce resentment and the need to escape (Neil Fiore).
+- **The Unschedule:** Schedule guilt-free play _before_ work to reduce resentment and the need to escape (Neil Fiore).
 - **Energy Management:** Align tasks with energy highs/lows (Key Result Areas) rather than just time slots (Rob Moore).
 
 #### Pillar 3: Hack Back External Triggers (Environmental Design)
 
-*Ask: "Is this trigger serving me, or am I serving it?"*
+_Ask: "Is this trigger serving me, or am I serving it?"_
 
 - **Environmental Engineering:** Create "stellar environments" and remove notifications, declutter workstations, and assert communication boundaries.
 - **Managing Prompts:** Turn off digital prompts (notifications) and physical prompts (clutter) that derail a timebox.
 
 #### Pillar 4: Prevent Distraction with Pacts (Precommitments)
 
-*Binding your future self to prevent impulsive behavior.*
+_Binding your future self to prevent impulsive behavior._
 
 1. **Effort Pacts:** Increase the friction of distraction (e.g., app blockers).
 2. **Price Pacts:** Attach a financial penalty to failure.

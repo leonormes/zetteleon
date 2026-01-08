@@ -1,25 +1,18 @@
 ---
-aliases:
-  - AuthN MOC
-  - Identity Map
-  - Cloud Security Map
+aliases: [AuthN MOC, Cloud Security Map, Identity Map]
 confidence: 5/5
 created: 2025-12-25T13:05:00Z
 epistemic: index
 last_reviewed: 2025-12-25"
-modified: 2026-01-03T10:18:59+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: Map of Content connecting Identity, Cryptography, and Authentication standards for cloud-native systems.
 review_interval: 6 months
 see_also:
-  - "[[SoT - Modern Authentication Standards]]"
   - "[[SoT - Digital Identity]]"
+  - "[[SoT - Modern Authentication Standards]]"
 source_of_truth: []
 status: stable
-tags:
-  - authentication
-  - type/moc
-  - "SoftwareEngineering/Security"
-  - map
+tags: ["SoftwareEngineering/Security", authentication, map, type/moc]
 title: MOC - Cloud-Native Authentication
 type: map
 uid:

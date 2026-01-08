@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-10T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-10"
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the concept of \\\\\\\"Metagame\\\\\\\" as a strategic layer operating above direct competition, focusing on environmental and contextual manipulation."
 review_interval: "1 year"
 see_also: ["[[Kind Learning Environments are Predictable and Rule-Based]]", "[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[Wicked Learning Environments are Dynamic and Unpredictable]]"]
@@ -51,8 +51,8 @@ Metagame strategy relies on four primary levers:
 
 The Metagame often treads the line between "Smart Strategy" and "Unsportsmanlike Conduct."
 
-- **The Line:** Strategies that violate the *spirit* of the game while adhering to the *letter* of the rules are often considered "Cheese" or unethical (e.g., spawn camping).
-- **The Reality:** High-level competition *always* evolves into the metagame. To ignore it is to play a suboptimal game.
+- **The Line:** Strategies that violate the _spirit_ of the game while adhering to the _letter_ of the rules are often considered "Cheese" or unethical (e.g., spawn camping).
+- **The Reality:** High-level competition _always_ evolves into the metagame. To ignore it is to play a suboptimal game.
 
 ---
 
@@ -62,5 +62,5 @@ In ProdOS, we apply Metagame thinking to **Productivity**:
 
 - **The Game:** Completing tasks.
 - **The Metagame:** Designing the environment (Context) so that completing tasks is the path of least resistance.
-  - *Example:* [[SoT - The Honeyman Method (Adaptive Routines)]] is a metagame strategy to "hack" the energy levels of an ADHD brain.
-  - *Example:* [[SoT - Temporal Management (Blocking and Boxing)]] manipulates the "Time" variable to force efficiency (Parkinson's Law).
+  - _Example:_ [[SoT - The Honeyman Method (Adaptive Routines)]] is a metagame strategy to "hack" the energy levels of an ADHD brain.
+  - _Example:_ [[SoT - Temporal Management (Blocking and Boxing)]] manipulates the "Time" variable to force efficiency (Parkinson's Law).

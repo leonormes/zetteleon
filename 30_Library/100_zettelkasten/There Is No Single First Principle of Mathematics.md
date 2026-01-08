@@ -4,7 +4,7 @@ confidence: "0.7"
 created: 2025-11-01T11:22:13Z
 epistemic: "opinion"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "State the meta-claim that mathematics lacks a single unifying first principle."
 review_interval: "90"
 see_also: ["[[Mathematics Is Frequently Described as the Science of Patterns]]", "[[Structuralism (Mathematics as Study of Structure)]]"]

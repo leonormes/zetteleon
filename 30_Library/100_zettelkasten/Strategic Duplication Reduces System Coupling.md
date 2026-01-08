@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-10-31T12:35:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "Explain when duplication benefits system design."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["SoftwareEngineering/Architecture", "coupling"]
+tags: ["coupling", "SoftwareEngineering/Architecture"]
 title: Strategic Duplication Reduces System Coupling
 type: "concept"
 uid: 

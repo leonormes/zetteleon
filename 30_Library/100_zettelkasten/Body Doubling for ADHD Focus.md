@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-26T11:12:00Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16"
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To test if \\\"Digital Presence\\\" (recording oneself) triggers the same focus benefits as a live human body double."
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -36,7 +36,7 @@ version: "1"
     3. Work for 45 minutes.
 
 - **The Rule:** I am "On Air." I cannot pick up my phone or tab-switch to Reddit because "the camera is watching."
-- **Post-Session:** Delete the video (or keep it if it's cool). The point is the *recording*, not the playback.
+- **Post-Session:** Delete the video (or keep it if it's cool). The point is the _recording_, not the playback.
 
 ---
 
@@ -49,7 +49,7 @@ version: "1"
 
 ## 4. Results Log
 
-- *(Log results here)*
+- _(Log results here)_
 
 ---
 

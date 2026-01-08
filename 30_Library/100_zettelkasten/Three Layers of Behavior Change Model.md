@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T12:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "Define the three-layer model of behavior change from outcomes to identity."
 review_interval: "90"
 see_also: ["[[Identity as North Star of Habit Change]]", "[[Outcomes vs Process vs Identity in Habit Formation]]", "[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "frameworks", "TheHuman/Identity", "models", "TheHuman/Habits"]
+tags: ["behavior-change", "frameworks", "models", "TheHuman/Habits", "TheHuman/Identity"]
 title: Three Layers of Behavior Change Model
 type: "concept"
 uid: 
@@ -24,19 +24,19 @@ version: "1"
 
 **1. Outcomes (The Outer Layer):**
 
-- Concerned with changing *results*
+- Concerned with changing _results_
 - Examples: losing weight, publishing a book, winning a championship
 - About what you **get**
 
 **2. Process (The Middle Layer):**
 
-- Concerned with changing *habits and systems*
+- Concerned with changing _habits and systems_
 - Examples: implementing a new gym routine, developing a meditation practice, creating a writing schedule
 - About what you **do**
 
 **3. Identity (The Deepest Layer):**
 
-- Concerned with changing *beliefs, worldview, self-image*
+- Concerned with changing _beliefs, worldview, self-image_
 - Examples: "I am a healthy person," "I am a writer," "I am disciplined"
 - About what you **believe**
 

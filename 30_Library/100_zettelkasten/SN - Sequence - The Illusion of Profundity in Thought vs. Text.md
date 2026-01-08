@@ -6,14 +6,14 @@ criteria: "Notes must relate to the phenomenon of how writing clarifies, challen
 epistemic: ""
 exclusions: "General advice on writing style or grammar."
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: ""
 review_interval: ""
 scope: "The relationship between internal thought and externalized text, and the cognitive benefits of writing."
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["map", "sequence", "structural", "thinking", "TheHuman/Cognition", "writing"]
+tags: ["map", "sequence", "structural", "TheHuman/Cognition", "thinking", "writing"]
 title: SN - Sequence - The Illusion of Profundity in Thought vs. Text
 type: "sn"
 uid: 

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-12T14:10:05Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To define the knowing-doing gap in an organizational context."
 review_interval: "90"
 see_also: ["[[The Intention-Action Gap is the Failure to Translate Knowledge into Action]]"]

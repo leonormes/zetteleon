@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-29T16:38:00Z
 epistemic: "fact"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -22,7 +22,7 @@ updated:
 
 ## Cognitive Gridlock
 
-This state of inaction is a cognitive "freeze response" triggered by executive dysfunction. When faced with a complex project, the impaired ability to sequence and prioritize tasks creates a gridlock. The brain, unable to engage its activation system, defaults to *thinking about the task* as a substitute for action. This creates a negative feedback loop:
+This state of inaction is a cognitive "freeze response" triggered by executive dysfunction. When faced with a complex project, the impaired ability to sequence and prioritize tasks creates a gridlock. The brain, unable to engage its activation system, defaults to _thinking about the task_ as a substitute for action. This creates a negative feedback loop:
 
 1. Inability to plan generates a feeling of being overwhelmed.
 2. To escape this aversive feeling, the brain defaults to avoidance and procrastination.

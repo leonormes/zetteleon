@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-10-30T12:01:09Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["TheHuman/Creativity", "TheHuman/Mindset", "process"]
+tags: ["process", "TheHuman/Creativity", "TheHuman/Mindset"]
 title: MOC - You Need to Romanticize Your Process
 type: "map"
 uid: 
@@ -27,4 +27,4 @@ A [[A Supportive Environment is Critical for Inspiration]], and a [[Consistent C
 
 Ultimately, [[Finding Gratitude in the Process Leads to Long-Term Satisfaction]], and one must learn that [[Embracing Struggles is Part of the Creative Journey]].
 
-*Source: [[You Need to Romanticize Your Process]]*
+_Source: [[You Need to Romanticize Your Process]]_

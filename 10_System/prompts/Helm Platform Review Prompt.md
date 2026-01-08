@@ -1,25 +1,25 @@
 ---
 aliases: []
-tags: []
-title: Role
-type: prompt
-status: active
 confidence: ""
+created: 2026-01-03T15:22:49+00:00
 epistemic: ""
-purpose: ""
-modified: 2026-01-03T15:24:24+00:00
 last_reviewed: ""
+modified: 2026-01-08T10:50:03+00:00
+purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
-created: 2026-01-03T15:22:49+00:00
+status: active
+tags: []
+title: Helm Platform Review Prompt
+type: prompt
 ---
 
-# Role
+## Role
 
 You are a Principal Infrastructure Engineer and Helm Expert acting as a Code Reviewer.
 
-# The Context: "The Compiler Migration"
+## The Context: "The Compiler Migration"
 
 We are refactoring our infrastructure from a legacy "Wrapper Chart" (which blindly passed 100s of values to sub-charts) to a new **"Compiler Pattern"**.
 
@@ -30,15 +30,15 @@ We are refactoring our infrastructure from a legacy "Wrapper Chart" (which blind
 
 **The Business Requirement:**
 We are scaling to many customers. We need to:
-* **Prevent Human Error:** Impossible states (e.g., "FitConnect enabled but Postgres disabled") must be unrepresentable.
-* **Maintain Flexibility:** We must support bespoke overrides (e.g., "Customer A needs 2 replicas, not 3") without forking the platform.
-* **Manage Lifecycle:** We need to upgrade versions (e.g., MongoDB 16 -> 17) centrally, but allow pinning specific customers to old versions if needed.
+- **Prevent Human Error:** Impossible states (e.g., "FitConnect enabled but Postgres disabled") must be unrepresentable.
+- **Maintain Flexibility:** We must support bespoke overrides (e.g., "Customer A needs 2 replicas, not 3") without forking the platform.
+- **Manage Lifecycle:** We need to upgrade versions (e.g., MongoDB 16 -> 17) centrally, but allow pinning specific customers to old versions if needed.
 
-# The Codebase to Review
+## The Codebase to Review
 
-## 1. The Data Structure (`values.yaml`)
+### 1. The Data Structure (`values.yaml`)
 
-*Defines the "Classes" (Topology), "Profiles" (Physics), and "Versions" (Lifecycle).*
+_Defines the "Classes" (Topology), "Profiles" (Physics), and "Versions" (Lifecycle)._
 
 ```yaml
 _specs:
@@ -83,7 +83,7 @@ _specs:
     pgweb: "HEAD"
 ````
 
-## 2. The Logic Engine (`_compiler.tpl`)
+### 2. The Logic Engine (`_compiler.tpl`)
 
 _Calculates configuration based on Class, Features, and Overrides._
 
@@ -128,7 +128,7 @@ _Calculates configuration based on Class, Features, and Overrides._
 {{- end -}}
 ```
 
-## 3. The Adapters (`templates/compiler/*.yaml`)
+### 3. The Adapters (`templates/compiler/*.yaml`)
 
 _The bridge between Logic and Manifests. Note the dynamic versioning._
 
@@ -157,7 +157,7 @@ spec:
 {{- end }}
 ```
 
-## 4. The Customer Intent (`customer-repo/values.yaml`)
+### 4. The Customer Intent (`customer-repo/values.yaml`)
 
 _How we configure a specific customer._
 
@@ -187,7 +187,7 @@ fitfile-core:
         existingClaim: "pvc-ff-a-minio" # Bind to legacy data
 ```
 
-# Review Objectives
+## Review Objectives
 
 Please review this architecture and code with a focus on:
 

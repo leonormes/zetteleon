@@ -1,16 +1,16 @@
 ---
-aliases: ["Release Process", "Troubleshooting Guide", "FitFile Smoke Tests", "Release Tagging"]
+aliases: ["FitFile Smoke Tests", "Release Process", "Release Tagging", "Troubleshooting Guide"]
 confidence: "5/5"
 created: 2025-12-29T10:26:01+00:00
 epistemic: "procedure"
 last_reviewed: "2025-12-30"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "Standard operating procedures for managing releases, performing smoke tests, and troubleshooting cluster issues."
 review_interval: "3 months"
 see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FitFile Deployment - Networking & DNS]]"]
 source_of_truth: []
 status: "stable"
-tags: ["ops", "release", "troubleshooting", "fitfile"]
+tags: ["fitfile", "ops", "release", "troubleshooting"]
 title: SoT - FitFile Deployment - Operations & Troubleshooting
 type: "SoT"
 uid: 
@@ -44,20 +44,20 @@ Execute on Staging before Production promotion:
 ### 2.1 Deployment Failures
 
 - **ArgoCD Sync Failed:**
-    - *Cause:* VaultAuth failure or missing secret keys in Phase 1.
-    - *Action:* Check `kubectl describe vaultstaticsecret` in the app namespace.
+    - _Cause:_ VaultAuth failure or missing secret keys in Phase 1.
+    - _Action:_ Check `kubectl describe vaultstaticsecret` in the app namespace.
 - **Image Pull Error:**
-    - *Cause:* Expired registry credentials or incorrect `imagePullSecrets` name.
-    - *Action:* Verify the `fitfile-image-pull-secret` in the target namespace.
+    - _Cause:_ Expired registry credentials or incorrect `imagePullSecrets` name.
+    - _Action:_ Verify the `fitfile-image-pull-secret` in the target namespace.
 
 ### 2.2 Connectivity & DNS
 
 - **SERVFAIL / NXDOMAIN:**
-    - *Cause:* Pods forwarding to On-Prem DNS which doesn't know Azure Private Link zones.
-    - *Action:* Check CoreDNS ConfigMap for `privatelink` forwarding rules.
+    - _Cause:_ Pods forwarding to On-Prem DNS which doesn't know Azure Private Link zones.
+    - _Action:_ Check CoreDNS ConfigMap for `privatelink` forwarding rules.
 - **Hairpin Routing:**
-    - *Cause:* Service fails to call its own public FQDN from inside the cluster.
-    - *Action:* Ensure CoreDNS has a rewrite rule mapping the public FQDN to the internal ClusterIP.
+    - _Cause:_ Service fails to call its own public FQDN from inside the cluster.
+    - _Action:_ Ensure CoreDNS has a rewrite rule mapping the public FQDN to the internal ClusterIP.
 
 ### 2.3 Cloud Infrastructure
 

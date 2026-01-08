@@ -1,16 +1,16 @@
 ---
-aliases: ["Event-Driven Shell", "Terminal Automation", "IPC Workflows", "Signal Traps"]
+aliases: ["Event-Driven Shell", "IPC Workflows", "Signal Traps", "Terminal Automation"]
 confidence: "5/5"
 created: 2025-12-26T13:00:00Z
 epistemic: "Verified Patterns"
 last_reviewed: "2025-12-26"
-modified: 2025-12-26T16:43:47+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the patterns and tools for implementing event-driven logic within a terminal environment."
 review_interval: "6 months"
 see_also: ["[[SoT - Bash Scripting]]", "[[SoT - Process Execution (Kernel Logic)]]"]
 source_of_truth: ["[[Terminal Event-Driven Workflows Explained]]"]
 status: "stable"
-tags: ["automation", "shell", "ipc", "SoftwareEngineering/Linux"]
+tags: ["automation", "ipc", "shell", "SoftwareEngineering/Linux"]
 title: SoT - Shell Automation and IPC
 type: "SoT"
 uid: 
@@ -61,7 +61,7 @@ The `trap` builtin allows a script to register an event listener for OS signals.
 ### Hierarchy of Automation
 
 1. **Ad-hoc (Manual):** Use `entr` for temporary dev loops.
-    * `ls *.py | entr -c python main.py`
+    - `ls *.py | entr -c python main.py`
 2. **Scripted (Internal):** Use `trap` for robust internal tool logic (cleanup, reloads).
 3. **Production (Daemon):** Use `systemd` or `supervisord` for persistent event listeners.
 

@@ -6,7 +6,7 @@ criteria: "Only atomic and evergreen notes. Must be directly referenced in the c
 epistemic: ""
 exclusions: "Synthesis (consolidating many notes into one), advanced query techniques, dataview automation, or vault administration."
 last_reviewed: ""
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: ""
 review_interval: ""
 scope: "The complete system of atomic knowledge cleaving\\u2014how to deconstruct long hybrid notes into pure atomic facts and contextual structural maps."

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-09-16T12:20:22Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -20,7 +20,7 @@ version: ""
 
 Schopenhauer: awareness of suffering is the **first step to freedom**.
 
-- Root of all pain = insatiable *will* (constant desire) [10:02].
+- Root of all pain = insatiable _will_ (constant desire) [10:02].
 - By detaching from desire, the individual achieves tranquility [10:09].
 
 👉 Connects to: [[Intelligence and Suffering]], [[Detachment is the Ultimate Form of Freedom]]

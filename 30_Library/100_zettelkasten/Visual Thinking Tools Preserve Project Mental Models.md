@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-11T19:05:05Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "Using visual aids to capture and preserve abstract project models."
 review_interval: "90"
 see_also: []

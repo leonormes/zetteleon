@@ -1,167 +1,157 @@
 ---
-aliases: ["Interest Ontology", "My Intellectual Landscape", "The Knowledge Graph"]
-confidence: 5/5
-created: 2026-01-04T12:15:00Z
-description: "The definitive associative ontology of my intellectual landscape, mapping the recursive relationships between systems, cognition, and philosophy."
-epistemic: synthesis
-last_reviewed: 2026-01-04
-modified: 2026-01-04T12:15:00Z
-purpose: "To provide a non-linear map of knowledge, shifting from a hierarchical taxonomy to a relational network focused on logical dependencies."
+alias: ["Intellectual Landscape", "Knowledge Map", "Ontology"]
+aliases: []
+confidence: "High"
+created: 2026-01-05T06:58:46+00:00
+epistemic: "Meta-Architecture"
+last_reviewed: 
+modified: 2026-01-08T10:49:42+00:00
+purpose: "To map the user's intellectual landscape, defining the primary domains, their first principles, and the structural relationships between them."
 review_interval: "6 months"
-see_also: ["[[Meta MOC - The Core Domains]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - Systems Thinking]]"]
-status: stable
-tags: ["ontology", "structure", "meta", "systems_thinking", "SoftwareEngineering/Architecture"]
+see_also:
+  - "[[SoT - Cognitive Refactoring (Neural Debugging)]]"
+  - "[[SoT - Data-Centric Software Engineering]]"
+  - "[[SoT - PRODOS Core Specification]]"
+source_of_truth: []
+status: "Active"
+tags: ["architecture", "knowledge-management", "meta", "ontology"]
 title: SoT - Knowledge Architecture (Associative Ontology)
-type: SoT
+type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Definitive Statement
+> **The Thesis:** The user's intellectual landscape is not a collection of isolated facts, but a **Unified System** where principles of **Type Theory** (Software) mirror principles of **Cognitive Engineering** (Mind), all governed by an **Existential** substrate (Meaning) and executed via **PRODOS** (Action).
 
-> [!definition] The Associative Ontology
-> My knowledge landscape is not a static tree of silod subjects, but a **Recursive System** where abstract principles from software and systems theory are applied to biological constraints (ADHD) to forge meaningful action (Philosophy/Life). 
-> 
-> **Core Axiom:** Structure Determines Behavior. We do not "try harder"; we engineer the environment.
+## 1. The Topography (5 Primary Domains)
+
+### Domain I: PRODOS (The Operating System)
+
+- **Role:** The Runtime Environment. The meta-layer that converts Thought into Action.
+- **Core Axiom:** **"System > Willpower."** Reliability comes from architectural constraints (Pipes), not human effort (Water).
+- **Key Notes:**
+    - [[SoT - PRODOS Core Specification]]
+    - [[SoT - Habit Formation Framework]]
+
+### Domain II: Cognitive Engineering (The Wetware)
+
+- **Role:** The Hardware Spec. Understanding the biological machine (ADHD) to optimize performance.
+- **Core Axiom:** **"Interest > Importance."** The nervous system is fuel-dependent (Dopamine); it cannot run on abstract "Shoulds."
+- **Key Notes:**
+    - [[SoT - ADHD Neurology & Core Concepts]]
+    - [[SoT - Cognitive Refactoring (Neural Debugging)]]
+    - [[SoT - Active Learning Techniques]]
+
+### Domain III: Data-Centric Systems (The Logic)
+
+- **Role:** The Source Code. The rigor of Truth-seeking via formal logic and physical layout.
+- **Core Axiom:** **"Data > Code."** Complexity obeys a conservation law; move it from fragile Logic to robust Structure (Types).
+- **Key Notes:**
+    - [[SoT - The Data-Centric Philosophy]]
+    - [[MOC - Data-Oriented Design]]
+    - [[SoT - Rust Type Theory & Critique]]
+    - [[SoT - The Logical Definition of a Computer]]
+    - [[SoT - Type Theory & Data Structures]]
+    - [[SoT - Virtual Knowledge Graph Paradigm]]
+
+### Domain IV: Generative Infrastructure (The Platform)
+
+- **Role:** The Physics. The tangible substrate where logic meets reality (Silicon/Cloud).
+- **Core Axiom:** **"Intent > Implementation."** Define the "Kernel" of intent; generate the "Manifest" of complexity.
+- **Key Notes:**
+    - [[SoT - Generative Infrastructure Configuration Framework]]
+    - [[SoT - Kubernetes Cluster State Architecture]]
+    - [[SoT - Cloud Compute Architectures]]
+    - [[SoT - Hypervisor Abstractions]]
+    - [[SoT - Processor Microarchitectures]]
+
+### Domain V: Existential Architecture (The Meaning)
+
+- **Role:** The Fuel. The "Why" that powers the "How."
+- **Core Axiom:** **"Meaning > Pleasure."** Resilience is born from the active construction of meaning in a silent universe (Revolt).
+- **Key Notes:**
+    - [[SoT - The Philosophy of the Absurd (Camus)]]
+    - [[SoT - Logotherapy and the Will to Meaning]]
+    - [[SoT - Values and Eudaimonia]]
+
+### Domain VI: Physics & First Principles (The Substrate)
+
+- **Role:** The Reality. The hard constraints of the universe that cannot be engineered around.
+- **Core Axiom:** **"Causality is Absolute."** The speed of light is the speed of information; mass is the resistance to change.
+- **Key Notes:**
+    - [[SoT - The Universal Speed of Causality]]
+    - [[SoT - The Logical Definition of a Computer]]
 
 ---
 
-## 2. The Logical Layers (Functional Stack)
+## 2. The Relationship Matrix (Inter-Domain Dynamics)
 
-### Layer 1: Core Logic (The Lens)
-*The fundamental abstractions used to process all other information.*
-
-- **[[SoT - Systems Thinking|Systems Thinking]]:** The study of elements, interconnections, and feedback loops. **Principle:** Structure Determines Behavior.
-- **[[SoT - Reality, Models, and the Limits of Accuracy|Epistemology]]:** General Semantics and Model-Dependent Realism. **Principle:** The Map is not the Territory.
-- **[[SoT - PRODOS Core Specification|ProdOS (The Scaffolding)]]:** The operating system for thought. **Principle:** Throughput over Storage.
-
-### Layer 2: The Biological & Existential Engine (Systemic)
-*The "Hardware" constraints and the "Why" that drives the system.*
-
-- **[[SoT - ADHD Neurology & Core Concepts|Cognition (ADHD)]]:** The Interest-Based Nervous System (INCUP). **Principle:** Dopamine is the Activation Fuel.
-- **[[SoT - Values and Eudaimonia|Philosophy (The Compass)]]:** Constructing the self through duty and meaning. **Principle:** Integrity as Structure.
-
-### Layer 3: The Implementation (Applied)
-*The "Territory" where principles meet reality.*
-
-- **[[SoT - Software Configuration Management Patterns|The Trade (Software)]]:** Applying engineering rigor. **Principle:** Information Hiding & Loose Coupling.
-- **[[SoT - UK Social Hierarchy and Class Analysis|The Territory (Society)]]:** Navigating external games. **Principle:** Money as Potential Energy.
-- **[[SoT - The Multifaceted Role of a Parent|The Foundation (Life)]]:** Nurturing development. **Principle:** Making yourself unnecessary.
+| Source Domain | Relation | Target Domain | The Principle |
+|:--- |:--- |:--- |:--- |
+| **Cognitive Engineering** | **[Informs]** | **PRODOS** | The "Interest-Based Nervous System" dictates the PRODOS "Alignment Over Obligation" rule. |
+| **Data-Centric Systems** | **[Extends]** | **Generative Infra** | "Make Invalid States Unrepresentable" (Type Theory) becomes "Generative Config" (Infra). |
+| **Existential Arch** | **[Catalyses]** | **PRODOS** | Logotherapy provides the "North Star" (Identity) that guides the PRODOS "Trajectory." |
+| **Data-Centric Systems** | **[Intersects]** | **Cognitive Engineering** | **Constraint Theory:** Just as Types constrain code to prevent bugs, Environments constrain behavior to prevent distraction. |
+| **Cognitive Engineering** | **[Catalyses]** | **Existential Arch** | "Refactoring Thoughts" (CBT) is the mechanism for "Choosing One's Attitude" (Logotherapy). |
+| **Physics** | **[Informs]** | **Generative Infra** | The Speed of Causality ($c$) defines the latency floor for distributed systems and cloud regions. |
 
 ---
 
-## 3. Associative Relationships (The Connection Matrix)
-
-| Source | Relation | Target | Logic / Principle |
-| :--- | :--- | :--- | :--- |
-| **[[SoT - Information Hiding (Parnas)\|Software Patterns]]** | `[Extends]` | **[[SoT - PRODOS Core Specification\|ProdOS]]** | SoT notes are "Abstract Interfaces" that hide the "Implementation Details" of thinking. |
-| **[[SoT - ADHD Neurology & Core Concepts\|Cognition]]** | `[Catalyses]` | **[[SoT - PRODOS Core Specification\|ProdOS]]** | Executive dysfunction necessitates an external, structural "Prosthetic Mind." |
-| **[[SoT - Systems Thinking\|Systems Thinking]]** | `[Intersects]` | **[[SoT - Logotherapy and the Will to Meaning\|Philosophy]]** | They meet at "Purpose"—the behavior of a system is its true goal. |
-| **[[SoT - Values and Eudaimonia\|Philosophy]]** | `[Informs]` | **[[SoT - Financial Philosophy and Spendfulness\|Economics]]** | Using "Use Value" (Utility) over "Exchange Value" (Status) to guide spending. |
-| **[[SoT - Physical Health and Vitality\|Foundation]]** | `[Prerequisite]` | **[[SoT - The Cognitive Physiology of Task Execution\|Engine]]** | Biological homeostasis is the required stock for cognitive flow. |
-| **[[SoT - The Law of Increasing Functional Information\|Physics]]** | `[Intersects]` | **[[SoT - Fundamental Description of Economics\|Economics]]** | Money is "stored energy" (Potential); Organisations decay without energy injection (Entropy). |
-| **[[SoT - Logotherapy and the Will to Meaning\|Philosophy]]** | `[Prerequisite]` | **[[SoT - The Science of Taking Action Bridging the Knowledge-Action Gap\|Action]]** | You cannot "Productivity" your way out of a "Meaning" crisis. |
-
----
-
-## 4. Visual Ontology (D2)
+## 3. The Visual Architecture
 
 ```d2
-direction: down
+direction: right
 
-# Layers defined by abstraction depth
-Layer_1_Core_Logic: {
-  label: "Layer 1: Core Logic (The Lens)"
-  style: {
-    stroke-dash: 5
-    fill: "#f8f9fa"
+# Classes
+classes: {
+  domain: {
+    shape: package
+    style: {
+      stroke-width: 2
+      font-size: 16
+    }
   }
-  EPI: Epistemology {
-    tooltip: "The Lens: Mental Models & Explanatory Depth"
-  }
-  SYS: Systems Thinking {
-    tooltip: "The Scaffolding: Feedback Loops & Structural Behavior"
+  core: {
+    shape: cylinder
+    style: {
+      fill: "#e1f5fe"
+      stroke: "#01579b"
+    }
   }
 }
 
-Layer_2_Engine: {
-  label: "Layer 2: The Engine (Biological/Existential)"
-  style: {
-    stroke-dash: 5
-    fill: "#e9ecef"
-  }
-  COG: Cognition {
-    tooltip: "The Hardware: ADHD Mechanics & Neurobiology"
-  }
-  PHI: Philosophy {
-    tooltip: "The Compass: Logotherapy & Forging Meaning"
-  }
-}
+# Nodes
+MEANING: "Domain V\nExistential Architecture" {class: domain}
+MIND: "Domain II\nCognitive Engineering" {class: domain}
+LOGIC: "Domain III\nData-Centric Systems" {class: domain}
+PLATFORM: "Domain IV\nGenerative Infra" {class: domain}
+PHYSICS: "Domain VI\nPhysics & First Principles" {class: domain}
 
-Layer_3_Applied: {
-  label: "Layer 3: The Territory (Implementation)"
-  style: {
-    stroke-dash: 5
-    fill: "#dee2e6"
-  }
-  SW: Software Engineering {
-    tooltip: "The Trade: Modularity & Information Hiding"
-  }
-  SOC: Society & Economics {
-    tooltip: "The Territory: External Status & Potential Energy"
-  }
-  HUM: The Human {
-    tooltip: "The Foundation: Health, Family & Vitality"
-  }
-}
+PRODOS: "Domain I\nPRODOS (The Kernel)" {class: core}
 
-# Associative Relationships
+# Relationships
+MEANING -> PRODOS: "[Catalyses]\n(Provides Fuel/Why)"
+MIND -> PRODOS: "[Informs]\n(Defines Constraints)"
+LOGIC -> PRODOS: "[Informs]\n(Structural Principles)"
+PLATFORM -> PRODOS: "[Extends]\n(Execution Layer)"
 
-# Epistemology and Philosophy intersect at the point of subjective meaning
-Layer_1_Core_Logic.EPI <-> Layer_2_Engine.PHI: Intersects
-
-# Systems thinking catalyzes the design of the ADHD-centric OS
-Layer_1_Core_Logic.SYS -> Layer_2_Engine.COG: Catalyses
-
-# Software patterns (Modularity) extend into the system design (SoT architecture)
-Layer_3_Applied.SW -> Layer_1_Core_Logic.SYS: Extends
-
-# Biological health is the hardware prerequisite for cognitive function
-Layer_3_Applied.HUM -> Layer_2_Engine.COG: Prerequisite
-
-# Philosophical values inform economic navigation
-Layer_2_Engine.PHI -> Layer_3_Applied.SOC: Informs
+LOGIC -> PLATFORM: "[Extends]\n(Type Theory -> Infra Schema)"
+MIND -> MEANING: "[Catalyses]\n(CBT -> Attitude Choice)"
+LOGIC -> MIND: "[Intersects]\n(Invalid States = Impossible Behaviors)"
+PHYSICS -> PLATFORM: "[Informs]\n(Latency & Locality)"
 ```
 
 ---
 
-## 6. Ontological Mechanics (The Meta-Model)
+## 4. Synthesis: The Grand Unified Theory
 
-To maintain this architecture, we must distinguish between the container and the content.
+The user's intellectual life operates on a **Single Isomorphic Principle**:
 
-### A. The Hierarchy of Structure
-1.  **Taxonomy (The Skeleton):** The hierarchical classification (Parent-Child).
-    *   *Example:* "Systems Thinking" is a child of "Core Logic."
-2.  **Ontology (The Web):** The rules of relationship (The Schema).
-    *   *Example:* Defining that `[Catalyses]` means "Prerequisite + Fuel."
-3.  **Knowledge Graph (The Instance):** The actual notes and their links (The Data).
-    *   *Example:* This specific note and its `[[wikilinks]]`.
+> **"Structure determines Behavior."**
 
-### B. Maintenance Patterns
--   **Ontology Stitching:** The act of taking a new domain (e.g., "Biology") and manually defining the `[Intersects]` links to existing domains (e.g., "Physics") to prevent siloed knowledge.
--   **Graph Projection:** The ability to "project" this abstract graph into different views:
-    *   *Developer View:* The D2 Diagram.
-    *   *Writer View:* The MOC (Map of Content).
-    *   *Action View:* The Todoist Project list.
+1. **In Software (Domain III):** The Data Layout (Type) determines the algorithm.
+2. **In Mind (Domain II):** The Environment (Context) determines the focus.
+3. **In Life (Domain V):** The Meaning (Attitude) determines the resilience.
+4. **In Action (Domain I):** The System (Pipe) determines the consistency.
 
-### C. Conceptual Frameworks
--   **Deductive Reasoning:** We start with universal axioms (The "Why") and move toward specific instances (The "How"). This drives the Top-Down structure.
--   **MECE Principle:** (Mutually Exclusive, Collectively Exhaustive). We aim for domains that do not overlap but together cover the entirety of the subject.
-
----
-
-## 7. Strategic Cross-Link Summary
-
-*   **Recursive Loops:** The "Software" layer informs the "Systems" layer, which in turn fixes the "Cognition" layer. This is a **Reinforcing Loop (R)** of cognitive efficiency.
-*   **The Continuity Bridge:** By using the **Extended Mind** (Obsidian) to store the "Abstract Interfaces" (SoT notes), we bypass the **Continuity Gap** of ADHD (RAM volatility).
-*   **Actionable Egress:** Every theoretical intersection must terminate in a **Unit Test** (Action) to avoid the "Meta-Trap" of hoarding information.
+**The conclusion:** To change the output (Code, Behavior, Life), do not push harder on the output. **Change the Structure of the Input.**

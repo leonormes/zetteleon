@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-12T14:10:03Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To define the modern philosophical concept of Praxis."
 review_interval: "90"
 see_also: ["[[Aristotle Distinguished Between Episteme, Techne, and Phronesis]]"]

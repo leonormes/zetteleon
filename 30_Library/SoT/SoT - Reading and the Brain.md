@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-23T19:54:57Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the neurobiological impact of reading on brain structure, connectivity, and cognitive capacity."
 review_interval: "6 months"
 see_also: ["[[SoT - Learning Mechanisms]]", "[[SoT - Neuroplasticity is the Brain's Ability to Change in Response to Experience]]"]
 source_of_truth: []
 status: "stable"
-tags: ["intelligence", "neuroplasticity", "TheHuman/Neuroscience", "reading", "TheHuman/Cognition"]
+tags: ["intelligence", "neuroplasticity", "reading", "TheHuman/Cognition", "TheHuman/Neuroscience"]
 title: SoT - Reading and the Brain
 type: "SoT"
 uid: 

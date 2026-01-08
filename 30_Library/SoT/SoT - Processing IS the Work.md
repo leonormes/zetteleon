@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-07T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:52+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To reframe 'processing' from a passive administrative chore to an active, creative act of knowledge building."
 review_interval: "3 months"
 see_also: ["Not Prep for Work]]"]
 source_of_truth: []
 status: "stable"
-tags: ["TheHuman/Mindset", "pkm", "TheHuman/Health/ADHD", "topic/productivity"]
+tags: ["pkm", "TheHuman/Health/ADHD", "TheHuman/Mindset", "topic/productivity"]
 title: SoT - Processing IS the Work
 type: "SoT"
 uid: 
@@ -54,19 +54,19 @@ These strategies bypass executive dysfunction by lowering the barrier to entry.
 ### Strategy 1: The "Two-Minute Rule" for Capture
 
 - **Trigger:** When you see a raw note.
-- **Question:** "Can I do *anything* with this in 2 minutes?" (Tag it, link it, archive it).
+- **Question:** "Can I do _anything_ with this in 2 minutes?" (Tag it, link it, archive it).
 - **Action:** Do it now. If not, move to "Later Soup" and ignore.
 
 ### Strategy 2: The "One Question Game"
 
 - **Trigger:** Processing a backlog.
-- **Question:** "What is the *smallest interesting thing* I could do with this right now?"
+- **Question:** "What is the _smallest interesting thing_ I could do with this right now?"
 - **Goal:** Engagement, not utility. Add a funny tag, a random link, or a reaction.
 
 ### Strategy 3: Contextual Cues (Piggybacking)
 
 - **Trigger:** Waiting for a meeting, coffee, or bus.
-- **Action:** Process *one* item. Don't schedule "Review Time"; snatch "Review Moments."
+- **Action:** Process _one_ item. Don't schedule "Review Time"; snatch "Review Moments."
 
 ### Strategy 4: The "Traffic Light" Triage
 

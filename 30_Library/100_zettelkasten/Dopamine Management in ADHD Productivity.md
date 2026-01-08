@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-10-26T11:09:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["dopamine", "TheHuman/Motivation", "reward-system", "TheHuman/Health/ADHD", "topic/productivity"]
+tags: ["dopamine", "reward-system", "TheHuman/Health/ADHD", "TheHuman/Motivation", "topic/productivity"]
 title: Dopamine Management in ADHD Productivity
 type: "permanent"
 uid: 
@@ -44,4 +44,4 @@ Because the ADHD brain operates on an [[The Interest-Based Nervous System in ADH
 - This is a practical application of understanding [[Dopamine Dysregulation is a Key Factor in ADHD Motivation]].
 - It directly addresses the fact that [[Extrinsic rewards are less effective for activating the ADHD brain]] if they are not immediate.
 
-*Source: Synthesized from notes on ADHD productivity hacks.*
+_Source: Synthesized from notes on ADHD productivity hacks._

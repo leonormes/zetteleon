@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-10-31T13:42:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Explain event-driven socket monitoring for high-performance servers."
 review_interval: "90"
 see_also: ["Server Socket Scalability Limits.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["bsd", "SoftwareEngineering/Linux", "performance", "scalability", "socket", "SoftwareEngineering/Networking"]
+tags: ["bsd", "performance", "scalability", "socket", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]
 title: Event-Driven Socket Handling with epoll and kqueue
 type: "concept"
 uid: 

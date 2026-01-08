@@ -6,14 +6,14 @@ criteria: ""
 epistemic: "null"
 exclusions: "Generic time management without ADHD considerations"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "null"
 review_interval: "null"
 scope: "Comprehensive strategies for using time boxing as an ADHD productivity tool"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["time-boxing", "TheHuman/Health/ADHD", "topic/productivity"]
+tags: ["TheHuman/Health/ADHD", "time-boxing", "topic/productivity"]
 title: MOC - Time Boxing for ADHD Brains
 type: "map"
 uid: 
@@ -56,7 +56,7 @@ Don't time box "work on report"—that's too vague. Instead:
 
 [[The Done State as a Boundary for ADHD Projects]] rel:: prerequisite-strategy
 
-Before starting a time box, define what "done" looks like for *that specific box*:
+Before starting a time box, define what "done" looks like for _that specific box_:
 
 - "Write at least three paragraphs"
 - "Get main points down, even if rough"
@@ -103,7 +103,7 @@ Visual timers make abstract time concrete:
 
 **The "No Matter What" rule:**
 
-- Commit to working *only* on that specific task
+- Commit to working _only_ on that specific task
 - If you finish early: take extra break or assess next step
 - **If timer rings before finishing: STOP.** This is crucial—you succeeded by working the time
 

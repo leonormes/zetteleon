@@ -6,7 +6,7 @@ criteria: "Must directly relate to the phenomenology of thought, externalization
 epistemic: ""
 exclusions: "General philosophy of mind, consciousness studies not directly related to the thought-writing distinction"
 last_reviewed: ""
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: ""
 review_interval: ""
 scope: "Explores why thoughts feel more important in the moment of thinking than when written down, and the cognitive mechanisms underlying this phenomenon"
@@ -44,7 +44,7 @@ Our cognitive architecture naturally privileges our own thoughts as they occur. 
 
 [[Writing isolates propositional content from phenomenological experience]] rel:: reveals
 
-Writing performs a crucial cognitive operation: it strips away the phenomenological qualities and leaves only the propositional content. What appears on the page is the semantic claim or idea, divorced from the felt significance that accompanied it. This is why written thoughts often seem disappointingly ordinary—the feeling of profundity was real, but it was a feature of the *experience* of thinking, not the content itself.
+Writing performs a crucial cognitive operation: it strips away the phenomenological qualities and leaves only the propositional content. What appears on the page is the semantic claim or idea, divorced from the felt significance that accompanied it. This is why written thoughts often seem disappointingly ordinary—the feeling of profundity was real, but it was a feature of the _experience_ of thinking, not the content itself.
 
 [[Writing Creates Cognitive Distancing]] rel:: enables-evaluation
 
@@ -63,19 +63,19 @@ This gap is amplified by [[Illusion of Explanatory Depth (IoED)|the illusion of 
 This phenomenon, once recognized, becomes a powerful tool for metacognition:
 
 1. **Reality testing**: Writing provides objective feedback on whether our thoughts have substance beyond their felt significance
-2. **Distinguishing types of value**: Some thoughts are genuinely insightful but poorly articulated; others just *feel* insightful due to phenomenological qualities
+2. **Distinguishing types of value**: Some thoughts are genuinely insightful but poorly articulated; others just _feel_ insightful due to phenomenological qualities
 3. **Intellectual humility**: Recognizing this pattern helps us hold our own ideas more lightly and evaluate them more critically
 4. **Enhanced self-awareness**: The practice trains [[Metacognitive Awareness]] rel:: develops, teaching us to distinguish between the experience of thinking and the quality of thoughts
 
 ### The Personal Meaning Question
 
-Not every thought that appears mundane when written is without value. Some thoughts that seem obvious when externalized still capture something personally meaningful—a realization about one's own situation, a shift in perspective, or an emotional insight. The mundanity of the *propositional content* doesn't negate the value of the *phenomenological experience* or its personal significance.
+Not every thought that appears mundane when written is without value. Some thoughts that seem obvious when externalized still capture something personally meaningful—a realization about one's own situation, a shift in perspective, or an emotional insight. The mundanity of the _propositional content_ doesn't negate the value of the _phenomenological experience_ or its personal significance.
 
 The key is learning to distinguish:
 
 - Thoughts that feel important because of phenomenology but lack substance
 - Thoughts that have genuine personal value even if their content seems ordinary
-- Thoughts that are both phenomenologically rich *and* substantively insightful
+- Thoughts that are both phenomenologically rich _and_ substantively insightful
 
 ### Meta-Reflection
 

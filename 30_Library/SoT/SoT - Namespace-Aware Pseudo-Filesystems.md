@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-23T22:28:46Z
 epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To define how the Linux kernel provides isolated views of system resources through specialized pseudo-filesystems like procfs and sysfs."
 review_interval: "1 year"
 see_also: ["[[SoT - Container Isolation (The Namespace Security Model)]]", "[[SoT - Namespacing in Computing]]"]
 source_of_truth: []
 status: "stable"
-tags: ["kernel", "SoftwareEngineering/Linux", "namespace", "procfs", "sysfs"]
+tags: ["kernel", "namespace", "procfs", "SoftwareEngineering/Linux", "sysfs"]
 title: SoT - Namespace-Aware Pseudo-Filesystems
 type: "SoT"
 uid: 
@@ -39,7 +39,7 @@ Even without a private Mount namespace, the following locations are "Virtualized
 
 ### A. Network Namespace (`/proc/net`)
 
-Files like `/proc/net/tcp` or `/proc/net/dev` reflect the network interfaces and socket states *only* for the associated network namespace.
+Files like `/proc/net/tcp` or `/proc/net/dev` reflect the network interfaces and socket states _only_ for the associated network namespace.
 
 ### B. PID Namespace (`/proc/[pid]`)
 
@@ -53,10 +53,10 @@ The hostname and domainname files reflect the UTS namespace of the accessing pro
 
 ## 4. The "Leakage" Limitation
 
-While the *content* of these files is virtualized, their **locations** are not.
+While the _content_ of these files is virtualized, their **locations** are not.
 
 - **Problem:** If a new PID namespace is created but `/proc` is not remounted, tools like `ps` will still read from the host's `procfs` instance, revealing all host processes.
-- **The Mandate:** For true isolation, a private **Mount Namespace** is required to mount *new* instances of these pseudo-filesystems that are anchored to the process's specific namespaces.
+- **The Mandate:** For true isolation, a private **Mount Namespace** is required to mount _new_ instances of these pseudo-filesystems that are anchored to the process's specific namespaces.
 
 ---
 

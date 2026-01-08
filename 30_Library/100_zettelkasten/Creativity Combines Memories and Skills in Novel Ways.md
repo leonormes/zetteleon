@@ -4,13 +4,13 @@ confidence: "0.8"
 created: 2025-10-31T09:52:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Define creativity as a component of intelligence."
 review_interval: "90"
 see_also: ["The Neuroscience of Developer Cognition.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Creativity", "problem-solving", "TheHuman/Cognition"]
+tags: ["problem-solving", "TheHuman/Cognition", "TheHuman/Creativity"]
 title: Creativity Combines Memories and Skills in Novel Ways
 type: "concept"
 uid: 

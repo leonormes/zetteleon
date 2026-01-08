@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T09:53:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "Demonstrate that basic memory capabilities exist even in simple organisms."
 review_interval: "90"
 see_also: ["Memory Enables Learning by Storing Experiences for Future Use.md"]

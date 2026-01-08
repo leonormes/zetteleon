@@ -1,16 +1,16 @@
 ---
-aliases: ["Sci-Fi Book List", "Reading Watchlist"]
+aliases: ["Reading Watchlist", "Sci-Fi Book List"]
 confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "Unified reading list for Sci-Fi literature."
 last_reviewed: "2025-12-31"
-modified: 2026-01-03T10:18:58+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: "A unified checkbox list for tracking Sci-Fi reading, categorized by conceptual impact."
 review_interval: "3 months"
-see_also: ["[[Sci-Fi Watchlist (Screen)]]", "[[LIST - Master Sci-Fi Rankings]]"]
+see_also: ["[[LIST - Master Sci-Fi Rankings]]", "[[Sci-Fi Watchlist (Screen)]]"]
 source_of_truth: []
 status: "active"
-tags: ["watchlist", "scifi", "books", "literature"]
+tags: ["books", "literature", "scifi", "watchlist"]
 title: Sci-Fi Watchlist (Books)
 type: "map"
 uid: 
@@ -19,22 +19,22 @@ updated:
 
 ## 1. Top-Tier Conceptual Frameworks (Bookpilled Ranking)
 
-- [x] **Blindsight**–Peter Watts *[Consciousness vs. Intelligence paradigm shift]* [completion:: 2025-12-21]
-- [ ] **A Fire Upon the Deep**–Vernor Vinge *[Galactic "Zones of Thought" physics]*
-- [x] **Solaris**–Stanisław Lem *[Limits of human cognition and communication]*  [completion:: 2025-12-31]
-- [ ] **The Dying Earth**–Jack Vance *[Linguistic flourish in an entropic end-state]*
-- [x] **Blood Music**–Greg Bear *[Macro-scale biological consciousness]*  [completion:: 2025-12-31]
-- [ ] **Neuromancer**–William Gibson *[Digitization of identity and cyberpunk logic]*
-- [ ] **Do Androids Dream of Electric Sheep?**–Philip K. Dick *[The Empathy Metric]*
-- [ ] **Hot House**–Brian Aldiss *[Ecological niches in a hostile non-rotating Earth]*
-- [ ] **City**–Clifford D. Simak *[Anthropological study of humanity's decline]*
-- [ ] **Norstrilia**–Cordwainer Smith *[Immortality commodity and desert subsistence]*
-- [ ] **The Dispossessed**–Ursula K. Le Guin *[Anarchist vs. Capitalist systems]*
-- [ ] **The War of the Worlds**–H.G. Wells *[Institutional failure during existential crisis]*
-- [ ] **Frankenstein**–Mary Shelley *[The foundational creator-creation pathos]*
-- [ ] **The Stars My Destination**–Alfred Bester *[High-momentum revenge and potential]*
-- [ ] **The Mote in God's Eye**–Niven & Pournelle *[Precise logical narrative building blocks]*
-- [x] **Dune**–Frank Herbert *[Ecology, religion, and messianic prophecy]* [completion:: 2025-12-21]
+- [x] **Blindsight**–Peter Watts _[Consciousness vs. Intelligence paradigm shift]_ [completion:: 2025-12-21]
+- [ ] **A Fire Upon the Deep**–Vernor Vinge _[Galactic "Zones of Thought" physics]_
+- [x] **Solaris**–Stanisław Lem _[Limits of human cognition and communication]_  [completion:: 2025-12-31]
+- [ ] **The Dying Earth**–Jack Vance _[Linguistic flourish in an entropic end-state]_
+- [x] **Blood Music**–Greg Bear _[Macro-scale biological consciousness]_  [completion:: 2025-12-31]
+- [ ] **Neuromancer**–William Gibson _[Digitization of identity and cyberpunk logic]_
+- [ ] **Do Androids Dream of Electric Sheep?**–Philip K. Dick _[The Empathy Metric]_
+- [ ] **Hot House**–Brian Aldiss _[Ecological niches in a hostile non-rotating Earth]_
+- [ ] **City**–Clifford D. Simak _[Anthropological study of humanity's decline]_
+- [ ] **Norstrilia**–Cordwainer Smith _[Immortality commodity and desert subsistence]_
+- [ ] **The Dispossessed**–Ursula K. Le Guin _[Anarchist vs. Capitalist systems]_
+- [ ] **The War of the Worlds**–H.G. Wells _[Institutional failure during existential crisis]_
+- [ ] **Frankenstein**–Mary Shelley _[The foundational creator-creation pathos]_
+- [ ] **The Stars My Destination**–Alfred Bester _[High-momentum revenge and potential]_
+- [ ] **The Mote in God's Eye**–Niven & Pournelle _[Precise logical narrative building blocks]_
+- [x] **Dune**–Frank Herbert _[Ecology, religion, and messianic prophecy]_ [completion:: 2025-12-21]
 
 ---
 
@@ -51,9 +51,9 @@ updated:
 - [ ] Starship Troopers–Robert A. Heinlein
 - [ ] Service Model–Adrian Tchaikovsky
 - [ ] Anathem–Neal Stephenson
-- [ ] **Schild’s Ladder**–Greg Egan *[Quantum existentialism]*
-- [ ] **Tau Zero**–Poul Anderson *[Time dilation extremism]*
-- [x] **Rendezvous with Rama**–Arthur C. Clarke *[Cosmic indifference]*  [completion:: 2025-12-31]
+- [ ] **Schild’s Ladder**–Greg Egan _[Quantum existentialism]_
+- [ ] **Tau Zero**–Poul Anderson _[Time dilation extremism]_
+- [x] **Rendezvous with Rama**–Arthur C. Clarke _[Cosmic indifference]_  [completion:: 2025-12-31]
 
 ---
 

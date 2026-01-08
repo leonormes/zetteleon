@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-04-14T16:08:31Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -24,7 +24,7 @@ At the mysterious boundary between software and hardware sits the Physical Layer
 
 Ref:
 
-Casad, *TCP/IP in 24 Hours, Sams Teach Yourself*.
+Casad, _TCP/IP in 24 Hours, Sams Teach Yourself_.
 
 Harmoush, Ed. ‘OSI Model’. Practical Networking.net, 11 January 2016. [https://www.practicalnetworking.net/series/packet-traveling/osi-model/](https://www.practicalnetworking.net/series/packet-traveling/osi-model/).
 

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-26T11:10:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -25,10 +25,10 @@ For the ADHD brain, focus is heavily influenced by the external environment. Ins
 ### Core Strategies
 
 1. **Change Work Environments for Novelty**: When focus wanes or you hit a mental wall, changing your physical location can be a powerful reset. The novelty of a new environment provides a dopamine boost that can restore focus.
-    - *Examples*: Moving from a home office to a library, a coffee shop, or even just a different room in the house.
+    - _Examples_: Moving from a home office to a library, a coffee shop, or even just a different room in the house.
 
 2. **Physically Remove Distractions**: The ADHD brain is highly susceptible to environmental cues. The mere presence of a distraction, like a phone, can create a significant attention barrier. Physically removing it from your line of sight is more effective than trying to ignore it.
-    - *Example*: Gently tossing your phone onto a sofa or into another room when you need to focus.
+    - _Example_: Gently tossing your phone onto a sofa or into another room when you need to focus.
 
 ### Why It Works for ADHD
 
@@ -40,4 +40,4 @@ For the ADHD brain, focus is heavily influenced by the external environment. Ins
 
 - It is a practical strategy for managing the challenges of [[Executive Function Challenges are Central to ADHD]].
 
-*Source: Synthesized from notes on ADHD productivity hacks.*
+_Source: Synthesized from notes on ADHD productivity hacks._

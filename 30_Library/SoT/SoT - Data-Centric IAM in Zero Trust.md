@@ -1,16 +1,16 @@
 ---
-aliases: ["Zero Trust IAM", "Data-Centric Security", "PDP-PEP Architecture"]
+aliases: ["Data-Centric Security", "PDP-PEP Architecture", "Zero Trust IAM"]
 confidence: "5/5"
 created: 2025-03-15T10:12:06Z
 epistemic: "theory"
 last_reviewed: "2025-12-29"
-modified: 2026-01-03T10:18:56+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "To define IAM within a Zero Trust framework as a function of data relationships, specifying the schemas and logic required for trust establishment."
 review_interval: "6 months"
-see_also: ["[[SoT - Digital Identity]]", "[[SoT - Modern Authentication Standards]]", "[[MOC - Cloud-Native Authentication]]"]
+see_also: ["[[MOC - Cloud-Native Authentication]]", "[[SoT - Digital Identity]]", "[[SoT - Modern Authentication Standards]]"]
 source_of_truth: []
 status: "stable"
-tags: ["data-centric", "IAM", "SoftwareEngineering/Security", "zero-trust", "TheHuman/Identity", "SoftwareEngineering/Architecture"]
+tags: ["data-centric", "IAM", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "TheHuman/Identity", "zero-trust"]
 title: SoT - Data-Centric IAM in Zero Trust
 type: "SoT"
 uid: 
@@ -27,24 +27,24 @@ To architect a Zero Trust IAM system, we must define the structural entities inv
 
 ### A. The Subject Entity (Identity)
 
-The *Subject* is the actor requesting access, defined by bound attributes (claims).
+The _Subject_ is the actor requesting access, defined by bound attributes (claims).
 
-* **Source:** Identity Provider (IdP) / Directory Service.
-* **Key Attributes:** `sub` (Subject ID), `groups` (Affiliation), `auth_time` (Freshness), `amr` (Auth Method Reference).
+- **Source:** Identity Provider (IdP) / Directory Service.
+- **Key Attributes:** `sub` (Subject ID), `groups` (Affiliation), `auth_time` (Freshness), `amr` (Auth Method Reference).
 
 ### B. The Context Entity (Environment)
 
-The *Context* is the ephemeral state surrounding the request (metadata wrapper).
+The _Context_ is the ephemeral state surrounding the request (metadata wrapper).
 
-* **Source:** EDR, Network telemetry, Threat Intel.
-* **Key Attributes:** `device_id`, `trust_level` (Managed/Compliant), `network_location`, `risk_score` (0-100).
+- **Source:** EDR, Network telemetry, Threat Intel.
+- **Key Attributes:** `device_id`, `trust_level` (Managed/Compliant), `network_location`, `risk_score` (0-100).
 
 ### C. The Resource Entity (Object)
 
-The *Resource* is the target asset, which must self-describe its security requirements.
+The _Resource_ is the target asset, which must self-describe its security requirements.
 
-* **Source:** Resource Server / CMDB.
-* **Key Attributes:** `classification` (Confidential/PII), `sensitivity_label` (Required `auth_strength`).
+- **Source:** Resource Server / CMDB.
+- **Key Attributes:** `classification` (Confidential/PII), `sensitivity_label` (Required `auth_strength`).
 
 ---
 
@@ -111,7 +111,7 @@ This JSON schema formalizes the "equation" by defining how these attributes must
 
 ---
 
-##  Case Study: OIDC + Kubernetes RBAC
+## Case Study: OIDC + Kubernetes RBAC
 
 The relationship between an **OIDC Token** (Identity Data) and a **Kubernetes RBAC Binding** (Policy Data) is a perfect implementation of this model.
 
@@ -125,4 +125,4 @@ The relationship between an **OIDC Token** (Identity Data) and a **Kubernetes RB
 
 1. **Schema over Strings:** Identities are structured objects (claims sets), not just usernames.
 2. **Intersection Logic:** Authorization is the calculated intersection of Identity Claims, Context Signals, and Resource Policies.
-3. **Segregation of Duties:** The component that *moves* the data (PEP) never decides *if* it should move; it obeys the PDP.
+3. **Segregation of Duties:** The component that _moves_ the data (PEP) never decides _if_ it should move; it obeys the PDP.

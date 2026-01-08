@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-20T08:00:08Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["emotional_regulation", "TheHuman/Mindset", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
+tags: ["emotional_regulation", "TheHuman/Health/ADHD", "TheHuman/Mindset", "TheHuman/Psychology"]
 title: ADHD Mindset and Emotional Regulation Strategies
 type: "permanent"
 uid: 

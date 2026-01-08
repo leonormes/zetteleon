@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:58+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: "A mathematical framework for quantifying team understanding, bias, and communication loss using set theory."
 review_interval: "3 months"
 see_also: []
@@ -37,21 +37,21 @@ updated:
 
 - $U$ = **The Whole Picture** (Total complexity of the problem).
 - $K_A$ = **Knowledge of Person A** (Subset of $U$).
-- $P_A$ = **Perceived Knowledge** (What A *thinks* they know).
+- $P_A$ = **Perceived Knowledge** (What A _thinks_ they know).
 
 ### B. The Three Gaps
 
 **1. The Knowledge Gap (External)
 
-> *The "Unknown Unknowns"*
+> _The "Unknown Unknowns"_
 >
 > $$Gap_{Ext} = U - (K_A \cup K_B \cup... K_n)$$
 >
-> **Implication:** The team literally *cannot* solve this part of the problem. No amount of talking helps. You need Research (Expanding the Sets).
+> **Implication:** The team literally _cannot_ solve this part of the problem. No amount of talking helps. You need Research (Expanding the Sets).
 
 **2. The Certainty Gap (Internal Bias)
 
-> *The "Delusion"*
+> _The "Delusion"_
 >
 > $$Gap_{Cert} = P_{Team} - K_{Team}$$
 >
@@ -59,11 +59,11 @@ updated:
 
 **3. The Synthesis Gap (Process Loss)
 
-> *The "Tragedy of Communication"*
+> _The "Tragedy of Communication"_
 >
 > $$Gap_{Syn} = K_{Union} - (K_{Union} \times C)$$
 >
-> **Implication:** $C$ is the efficiency coefficient ($0 \dots 1$). If documentation is poor or meetings are chaotic ($C=0.2$), the team effectively knows only 20% of what it *actually* knows.
+> **Implication:** $C$ is the efficiency coefficient ($0 \dots 1$). If documentation is poor or meetings are chaotic ($C=0.2$), the team effectively knows only 20% of what it _actually_ knows.
 
 ---
 

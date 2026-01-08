@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-26T10:26:07Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:12+00:00
+modified: 2026-01-08T10:49:51+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -45,26 +45,26 @@ Here’s a breakdown of potential methods, their estimated difficulty, and the a
   - Root CA: Extremely Difficult. Likely requires nation-state level resources, expertise, and persistence. These are among the most heavily guarded digital assets globally.
   - Intermediate CA: Very Difficult. Still requires significant resources and sophistication.
   - Subordinate/Reseller: Difficult to Very Difficult, but potentially feasible for highly skilled criminal groups or state actors, depending on the specific target's security posture.
-- Advantage Gained: Catastrophic. The attacker can issue fraudulent, trusted certificates for *any* domain (e.g., `google.com`, `your-bank.com`). This enables undetectable Man-in-the-Middle (MitM) attacks, perfect phishing sites, signing malicious code as trusted publishers, etc., on a potentially global scale until the compromise is detected and the CA is distrusted by browsers/OSs.
+- Advantage Gained: Catastrophic. The attacker can issue fraudulent, trusted certificates for _any_ domain (e.g., `google.com`, `your-bank.com`). This enables undetectable Man-in-the-Middle (MitM) attacks, perfect phishing sites, signing malicious code as trusted publishers, etc., on a potentially global scale until the compromise is detected and the CA is distrusted by browsers/OSs.
 
 ### 2. Fraudulently Obtaining a Specific Certificate (Without Compromising CA)
 
 - Goal: Trick a legitimate CA into issuing a certificate for a domain/organization the attacker doesn't legitimately control.
 - Methods:
   - Exploiting Domain Validation (DV): This is the most common vector.
-    - *Compromise Email:* Hack the administrative email account (e.g., `admin@targetdomain.com`) used for domain verification.
-    - *Compromise DNS:* Hack the DNS hosting provider account to create the required validation DNS records.
-    - *Compromise Web Server:* Hack the web server to upload the required validation file.
-    - *Subdomain Takeover:* If a subdomain (`sub.targetdomain.com`) points (via CNAME) to a service that the attacker can claim (e.g., an expired cloud storage bucket), they might be able to complete HTTP validation for that subdomain.
-    - *Race Conditions/Bugs:* Exploit flaws in the CA's implementation of DV procedures.
+    - _Compromise Email:_ Hack the administrative email account (e.g., `admin@targetdomain.com`) used for domain verification.
+    - _Compromise DNS:_ Hack the DNS hosting provider account to create the required validation DNS records.
+    - _Compromise Web Server:_ Hack the web server to upload the required validation file.
+    - _Subdomain Takeover:_ If a subdomain (`sub.targetdomain.com`) points (via CNAME) to a service that the attacker can claim (e.g., an expired cloud storage bucket), they might be able to complete HTTP validation for that subdomain.
+    - _Race Conditions/Bugs:_ Exploit flaws in the CA's implementation of DV procedures.
   - Exploiting Organization/Extended Validation (OV/EV):
-    - *Social Engineering:* Impersonate company officers, trick CA validation staff via phone/email, potentially using deepfakes or sophisticated pretexts.
-    - *Document Forgery:* Provide falsified business registration documents, legal opinions, etc. (Requires high-quality forgeries to pass scrutiny).
-    - *Fake Company Setup:* Establish shell corporations that mimic legitimate ones to try and pass validation checks (complex, expensive, higher risk of detection).
+    - _Social Engineering:_ Impersonate company officers, trick CA validation staff via phone/email, potentially using deepfakes or sophisticated pretexts.
+    - _Document Forgery:_ Provide falsified business registration documents, legal opinions, etc. (Requires high-quality forgeries to pass scrutiny).
+    - _Fake Company Setup:_ Establish shell corporations that mimic legitimate ones to try and pass validation checks (complex, expensive, higher risk of detection).
 - Difficulty:
   - DV Exploitation: Moderate. Requires standard hacking skills (web, DNS, email). The difficulty depends on the target domain's specific security for those elements. Easier than compromising a CA. Relatively common.
   - OV/EV Exploitation: Difficult to Very Difficult. Requires significant effort, resources, research, and social engineering skills. Less common due to the effort and higher chance of detection.
-- Advantage Gained: Allows the attacker to impersonate the *specific domain(s)* listed in the fraudulently obtained certificate. Enables targeted MitM attacks, highly convincing phishing sites, or session hijacking for users of that specific site/service. The scope is limited compared to a full CA compromise but still highly damaging for the targeted entity and its users.
+- Advantage Gained: Allows the attacker to impersonate the _specific domain(s)_ listed in the fraudulently obtained certificate. Enables targeted MitM attacks, highly convincing phishing sites, or session hijacking for users of that specific site/service. The scope is limited compared to a full CA compromise but still highly damaging for the targeted entity and its users.
 
 ### 3. Exploiting Client-Side Vulnerabilities or User Trust
 
@@ -79,7 +79,7 @@ Here’s a breakdown of potential methods, their estimated difficulty, and the a
   - Exploit Validation Bugs: Very Difficult. Requires finding zero-day vulnerabilities in widely used, heavily audited cryptographic code, or targeting users who haven't patched known vulnerabilities.
   - Relying on User Apathy: Easy. Sadly, many users ignore security warnings, making this a perpetually viable (though less sophisticated) approach.
   - DNS Hijacking + Bad Cert: Moderate to Difficult, depending on the scale and method of DNS compromise.
-- Advantage Gained: If successful (especially with a malicious root install or validation bypass), the attacker gains full MitM capability against the *affected user(s)* for potentially *all* TLS traffic they generate, not just one site. Allows widespread eavesdropping, credential theft, etc., localized to the compromised clients. Relying on user apathy only works if the user ignores the warning signals.
+- Advantage Gained: If successful (especially with a malicious root install or validation bypass), the attacker gains full MitM capability against the _affected user(s)_ for potentially _all_ TLS traffic they generate, not just one site. Allows widespread eavesdropping, credential theft, etc., localized to the compromised clients. Relying on user apathy only works if the user ignores the warning signals.
 
 ### 4. Attacking Supporting Infrastructure
 

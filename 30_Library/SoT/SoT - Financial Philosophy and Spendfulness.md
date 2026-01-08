@@ -1,39 +1,39 @@
 ---
-aliases: ["Money as Energy", "Financial Physics", "Spendfulness", "Ontology of Money"]
+aliases: ["Financial Physics", "Money as Energy", "Ontology of Money", "Spendfulness"]
 confidence: "5/5"
 created: 2025-12-30T15:50:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "To define the mindset and philosophical framework for money as a generative resource rather than a source of anxiety."
 review_interval: "1 year"
 see_also: ["[[SoT - Family Financial Wellness]]", "[[SoT - Fundamental Description of Economics]]"]
 source_of_truth: []
 status: "stable"
-tags: ["finance", "TheHuman/Mindset", "psychology", "physics", "ontology"]
+tags: ["finance", "ontology", "physics", "psychology", "TheHuman/Mindset"]
 title: SoT - Financial Philosophy and Spendfulness
 type: "SoT"
 uid: 
 updated: 
 ---
 
-# SoT - Financial Philosophy and Spendfulness
+## SoT - Financial Philosophy and Spendfulness
 
-## 1. Definitive Statement
+### 1. Definitive Statement
 
 > [!definition] Spendfulness
 > A state of psychological agency where spending decisions are vectors perfectly aligned with personal values. It treats money not as a scoreboard for status, but as **Stored Labour** (Potential Energy) waiting to be actuated.
 
 ---
 
-## 2. The Physics of Finance
+### 2. The Physics of Finance
 
-### I. Potential vs. Kinetic Energy
+#### I. Potential vs. Kinetic Energy
 
-* **Money ($E_p$):** A bank account is a static battery. It represents the *capacity* to cause change but does no work itself.
-* **Spending ($E_k$):** The act of conversion. The "power" of money is the moment potential energy becomes kinetic motion (labour, logistics, manufacturing).
+- **Money ($E_p$):** A bank account is a static battery. It represents the _capacity_ to cause change but does no work itself.
+- **Spending ($E_k$):** The act of conversion. The "power" of money is the moment potential energy becomes kinetic motion (labour, logistics, manufacturing).
 
-### II. The Vector of Allocation
+#### II. The Vector of Allocation
 
 Spending is a **Vector** (Amount + Direction).
 
@@ -42,17 +42,17 @@ Spending is a **Vector** (Amount + Direction).
 
 ---
 
-## 3. The Money River Model (Subconscious Scarcity)
+### 3. The Money River Model (Subconscious Scarcity)
 
 To trigger healthy spending adjustments without willpower, we induce **Perceived Scarcity**.
 
-* **The River:** The raw flow of income and bills.
-* **The Lake (Diversion):** Diverting a portion of flow *immediately* upon receipt (e.g., "Zero-Out Method").
-* **The Result:** The brain perceives a lower balance and naturally adjusts lifestyle to fit the remaining flow without significant effort.
+- **The River:** The raw flow of income and bills.
+- **The Lake (Diversion):** Diverting a portion of flow _immediately_ upon receipt (e.g., "Zero-Out Method").
+- **The Result:** The brain perceives a lower balance and naturally adjusts lifestyle to fit the remaining flow without significant effort.
 
 ---
 
-## 4. Ontological Framework
+### 4. Ontological Framework
 
 | Entity | Nature | Role |
 |:--- |:--- |:--- |
@@ -62,15 +62,15 @@ To trigger healthy spending adjustments without willpower, we induce **Perceived
 
 ---
 
-## 5. The Accumulation Trap
+### 5. The Accumulation Trap
 
-* **Scoreboard vs. Fuel:** Traditional narratives treat wealth as a scoreboard ("He who has the most wins"). We treat it as fuel. Carrying a million extra gallons of fuel simply weighs down the vehicle.
-* **The Personal 100%:** A state where you lack nothing essential.
-* **Success Criteria:** If you can wake up and decide what to do with your time, you have achieved the highest form of wealth available.
+- **Scoreboard vs. Fuel:** Traditional narratives treat wealth as a scoreboard ("He who has the most wins"). We treat it as fuel. Carrying a million extra gallons of fuel simply weighs down the vehicle.
+- **The Personal 100%:** A state where you lack nothing essential.
+- **Success Criteria:** If you can wake up and decide what to do with your time, you have achieved the highest form of wealth available.
 
 ---
 
-## 6. Minimum Viable Understanding (MVU)
+### 6. Minimum Viable Understanding (MVU)
 
 1. **Alignment over Restriction:** A budget is a tool for **Permission** (Guilt-Free Spending) rather than deprivation.
 2. **Resources are for Deploying:** Stored energy that is never used does no work.

@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-10-24T15:19:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["cerebellum", "emotional-regulation", "exercise", "focus", "TheHuman/Neuroscience", "TheHuman/Health/ADHD"]
+tags: ["cerebellum", "emotional-regulation", "exercise", "focus", "TheHuman/Health/ADHD", "TheHuman/Neuroscience"]
 title: Cerebellum Function and Exercise for ADHD Regulation
 type: ""
 uid: 

@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-08-29T15:16:19Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -38,6 +38,6 @@ This describes a distinction in how one treats a model:
 
 A person stuck with a flawed mental model is often in an instrumentalist phase. Their model of a Kubernetes Service as a "magic IP" is a tool that works for simple deployments. They haven't progressed to a realist understanding of how `kube-proxy` and `iptables` actually function.
 
-Our conversation has been a journey from an instrumentalist view of numbers (they are tools for counting) to a more realist view (what *is* the structure of numbers? e.g.,).
+Our conversation has been a journey from an instrumentalist view of numbers (they are tools for counting) to a more realist view (what _is_ the structure of numbers? e.g.,).
 
 Links: [[Flawed Mental Models Limit Mastery]], [[Effective Theory]]

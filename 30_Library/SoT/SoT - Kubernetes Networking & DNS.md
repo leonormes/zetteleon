@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-16T13:52:08Z
 epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To define the fundamental networking model of Kubernetes, including Pod-to-Pod communication, Services, DNS resolution, and the request flow from external clients."
 review_interval: "1 year"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data-Centric Theory of Networking]]"]
 source_of_truth: []
 status: "stable"
-tags: ["cni", "SoftwareEngineering/networking/dns", "kubernetes", "SoftwareEngineering/Networking", "service_discovery"]
+tags: ["cni", "kubernetes", "service_discovery", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
 title: SoT - Kubernetes Networking & DNS
 type: "SoT"
 uid: 
@@ -77,7 +77,7 @@ In private clusters where worker nodes lack public IPs, ingress requires explici
 
 ### Pattern A: Internal LoadBalancer (NLB/ALB)
 
-- **Mechanism:** A Service of type `LoadBalancer` with annotations for an *internal* AWS LB (`service.beta.kubernetes.io/aws-load-balancer-internal: "true"`).
+- **Mechanism:** A Service of type `LoadBalancer` with annotations for an _internal_ AWS LB (`service.beta.kubernetes.io/aws-load-balancer-internal: "true"`).
 - **Use Case:** Best for private connectivity via VPC Peering or VPN.
 - **Protocol:** NLB for Layer 4 (TCP/UDP), ALB for Layer 7 (HTTP/S).
 

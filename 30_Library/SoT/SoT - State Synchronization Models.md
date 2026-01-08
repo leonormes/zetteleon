@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-25T12:05:00Z
 epistemic: "theoretical"
 last_reviewed: "2025-12-25"
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define and contrast the two primary models of state synchronization in distributed infrastructure: Cryptographic Integrity (Merkle) vs. Functional Intent (Reconciliation)."
 review_interval: "2 years"
 see_also: ["[[SoT - Git Architecture]]", "[[SoT - HashiCorp Vault Architecture]]", "[[SoT - Kubernetes Architecture]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "distributed_systems", "git", "kubernetes", "theory"]
+tags: ["distributed_systems", "git", "kubernetes", "SoftwareEngineering/Architecture", "theory"]
 title: SoT - State Synchronization Models
 type: "SoT"
 uid: 
@@ -33,7 +33,7 @@ In distributed systems, ensuring two entities share the same "State" is handled 
 
 ## 2. The Merkle Model (The Safe)
 
-**Principle:** "If the ID is the same, the data *must* be the same."
+**Principle:** "If the ID is the same, the data _must_ be the same."
 
 This model uses **Merkle Trees** (or DAGs) to create a recursive chain of custody. A single root hash represents the entire dataset.
 
@@ -45,14 +45,14 @@ This model uses **Merkle Trees** (or DAGs) to create a recursive chain of custod
 
 ### Use Cases
 
-- **Git:** Ensures history is tamper-evident. A commit hash *is* the state of the repo.
+- **Git:** Ensures history is tamper-evident. A commit hash _is_ the state of the repo.
 - **Vault:** Ensures zero-trust replication. If a single bit of a secret changes, replication must detect it.
 
 ---
 
 ## 3. The Reconciliation Model (The Thermostat)
 
-**Principle:** "Is the current state *close enough* to the desired state?"
+**Principle:** "Is the current state _close enough_ to the desired state?"
 
 This model accepts that the "Live State" will contain noise (timestamps, default values, status fields) that does not exist in the "Desired State" (manifests).
 
@@ -75,7 +75,7 @@ This model accepts that the "Live State" will contain noise (timestamps, default
 A common confusion is why GitOps tools (ArgoCD) perform a "Deep Diff" instead of just trusting Git's commit hash.
 
 1. **Noise:** K8s adds fields (`creationTimestamp`) that change the bytes but not the meaning. A Merkle hash would strictly fail.
-2. **Mutation:** Admission controllers (e.g., Istio sidecars) modify objects *after* submission. The Live State *should* be different from the Git State.
+2. **Mutation:** Admission controllers (e.g., Istio sidecars) modify objects _after_ submission. The Live State _should_ be different from the Git State.
 3. **Partiality:** ArgoCD often manages only a subset of fields in a resource (e.g., ignoring `replicas` if using HPA).
 
 **Conclusion:** Use Merkle Trees for **Storage and Transport** (getting the blueprint to the site). Use Reconciliation for **Construction and Maintenance** (building the house).

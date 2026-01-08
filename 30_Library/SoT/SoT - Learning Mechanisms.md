@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-19T10:17:22Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To define the neurobiological and cognitive mechanisms that drive human learning and skill acquisition."
 review_interval: "3 months"
 see_also: ["[[SoT - Deep Learning & Mastery]]", "[[SoT - Reading and the Brain]]"]
 source_of_truth: []
 status: "stable"
-tags: ["cognition", "dopamine", "learning", "TheHuman/Neuroscience", "TheHuman/Cognition"]
+tags: ["cognition", "dopamine", "learning", "TheHuman/Cognition", "TheHuman/Neuroscience"]
 title: SoT - Learning Mechanisms
 type: "SoT"
 uid: 
@@ -51,7 +51,7 @@ Learning involves creating and strengthening connections between neurons (Synapt
 
 ## 4. Optimization Strategy: "Top-Down & Contextual Learning"
 
-- **The Mechanism:** Understanding the *problem* a technology solves creates a "Cognitive Hook" for the solution.
+- **The Mechanism:** Understanding the _problem_ a technology solves creates a "Cognitive Hook" for the solution.
 - **ADHD Synergy:** Satisfies the "Need for Meaning." When you see the entire system (e.g., "Kubernetes relies on Linux Namespaces"), the details become relevant rather than noise.
 
 ---

@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-06T19:56:01Z
 epistemic: "fact"
 last_reviewed: "2025-11-06"
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To explain why systems based on automatic habits are more reliable than goals based on fluctuating intentions."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["intentions", "TheHuman/Motivation", "TheHuman/Habits", "topic/systems"]
+tags: ["intentions", "TheHuman/Habits", "TheHuman/Motivation", "topic/systems"]
 title: Strong Habits Override Weak Intentions
 type: "concept"
 uid: 

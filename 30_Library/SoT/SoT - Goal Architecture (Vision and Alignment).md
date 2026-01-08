@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-19"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "To define the architectural mechanics of \\\"Visioning\\\" and \\\"Goal Setting\\\" as a distinct pre-cursor to execution systems. It focuses on the \\\"What\\\" (Targeting) to enable the \\\"How\\\" (Process)."
 review_interval: "1 year"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - Values and Eudaimonia]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "goals", "nlp", "strategy", "TheHuman/Psychology", "vision"]
+tags: ["goals", "nlp", "SoftwareEngineering/Architecture", "strategy", "TheHuman/Psychology", "vision"]
 title: SoT - Goal Architecture (Vision and Alignment)
 type: "SoT"
 uid: 
@@ -22,10 +22,10 @@ updated:
 > [!definition] Definition
 > **Goal Architecture** is the structural process of defining a target state ("The Vision") that is cognitively compatible with the brain's navigation systems.
 >
-> Unlike "Process Primacy" (which manages *movement*), Goal Architecture manages *direction*. It turns vague desires into a calibrated **Compass** that the unconscious mind can use to filter reality.
+> Unlike "Process Primacy" (which manages _movement_), Goal Architecture manages _direction_. It turns vague desires into a calibrated **Compass** that the unconscious mind can use to filter reality.
 
 - **The Error:** Believing that "Goals" are outcomes to be obsessed over.
-- **The Correction:** "Vision" is a guidance system. Once set, it should be encoded and then *released* so the system (Process) can execute.
+- **The Correction:** "Vision" is a guidance system. Once set, it should be encoded and then _released_ so the system (Process) can execute.
 
 ## 2. Critique of Standard Models ("The Failure Modes")
 
@@ -44,7 +44,7 @@ This framework focuses on **structural alignment** of internal values rather tha
 
 ### Phase 1: Value Elicitation (The Source Code)
 
-Before defining *what* you want (Object), you must define *why* it matters (Value).
+Before defining _what_ you want (Object), you must define _why_ it matters (Value).
 
 - **Protocol:** Recursively ask "What do I want?" regarding a specific domain (Health, Career).
 - **Output:** A hierarchy of 5-20 core values.
@@ -56,8 +56,8 @@ Project the elicited values onto a mental canvas.
 
 - **Constraint A (Vagueness):** Keep environmental details indistinct (e.g., "a workspace" not "a mahogany desk"). This acts as a **Compass, not a Map**. It allows the unconscious to navigate obstacles flexibly without breaking the pattern if specific details change.
 - **Constraint B (Dissociation):** Visualise your future self from the **3rd Person Perspective** (outside).
-  - *Why:* "Associating" (being inside) signals to the brain that the goal is *achieved*, killing drive.
-  - *Result:* "Dissociating" creates a **Tension Gap** between *Current State* and *Desired State*, generating propulsion.
+  - _Why:_ "Associating" (being inside) signals to the brain that the goal is _achieved_, killing drive.
+  - _Result:_ "Dissociating" creates a **Tension Gap** between _Current State_ and _Desired State_, generating propulsion.
 
 ### Phase 3: Ecology Check (Resistance Integration)
 

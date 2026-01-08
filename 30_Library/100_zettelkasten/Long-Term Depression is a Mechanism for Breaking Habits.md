@@ -4,14 +4,14 @@ confidence: ""
 created: 2025-10-30T12:05:07Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["learning", "TheHuman/Neuroscience", "TheHuman/Habits"]
+tags: ["learning", "TheHuman/Habits", "TheHuman/Neuroscience"]
 title: Long-Term Depression is a Mechanism for Breaking Habits
 type: "concept"
 uid: 

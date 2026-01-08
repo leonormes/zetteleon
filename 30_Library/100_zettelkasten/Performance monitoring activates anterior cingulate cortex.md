@@ -4,13 +4,13 @@ confidence: "0.90"
 created: 2025-10-31T00:06:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "Identifies brain regions responsible for performance monitoring during task execution"
 review_interval: "90"
 see_also: ["[[Error-related negativity is significantly reduced in ADHD across age groups]]", "[[Task execution consists of five distinct cognitive phases]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["anterior-cingulate", "TheHuman/Neuroscience", "performance-monitoring"]
+tags: ["anterior-cingulate", "performance-monitoring", "TheHuman/Neuroscience"]
 title: Performance monitoring activates anterior cingulate cortex
 type: "concept"
 uid: 

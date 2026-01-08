@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-06-14T11:31:42Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:08+00:00
+modified: 2026-01-08T10:49:48+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -85,4 +85,4 @@ To assess how consistently Bessie's teachers are implementing her support, drawi
 
 This set of questions should provide a comprehensive picture of Bessie's experience with the implementation of her support. Once you have her responses, you can compare them with the documented support strategies and identify any gaps or inconsistencies.
 
-For your next step, you might consider using Bessie's responses to draft specific follow-up questions for the school's SENCO or individual teachers, asking them about *their* perspective on implementing these strategies. This can help identify potential communication gaps or areas where teachers might need additional training or resources.
+For your next step, you might consider using Bessie's responses to draft specific follow-up questions for the school's SENCO or individual teachers, asking them about _their_ perspective on implementing these strategies. This can help identify potential communication gaps or areas where teachers might need additional training or resources.

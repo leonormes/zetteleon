@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-03-26T07:42:22Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:12+00:00
+modified: 2026-01-08T10:49:51+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
+tags: ["SoftwareEngineering/Networking", "SoftwareEngineering/Security"]
 title: Is Whitelisting Cloudflare IPs Enough for Maximum Kubernetes Security
 type: ""
 uid: 

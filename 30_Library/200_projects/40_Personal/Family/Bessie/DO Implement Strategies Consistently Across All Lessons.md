@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-06-23T11:10:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:08+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["implementation", "TheHuman/Family/Bessie", "strategies"]
+tags: ["implementation", "strategies", "TheHuman/Family/Bessie"]
 title: DO Implement Strategies Consistently Across All Lessons
 type: ""
 uid: 

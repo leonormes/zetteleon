@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-26T04:45:04Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:21+00:00
+modified: 2026-01-08T10:49:53+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -326,7 +326,7 @@ Let's look at full encapsulation when the client sends the **first TCP SYN packe
 1. **Application Layer**
 
     - **Data**: No headers yet; just the intent to connect (no application data yet, since connection isn't established).
-    - *Note*: Actual HTTP request comes **after** TCP handshake.
+    - _Note_: Actual HTTP request comes **after** TCP handshake.
 2. **Transport Layer (TCP)**
 
     - Add **TCP header**:

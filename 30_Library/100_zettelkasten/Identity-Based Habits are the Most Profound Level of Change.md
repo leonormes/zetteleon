@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-06T19:56:03Z
 epistemic: "fact"
 last_reviewed: "2025-11-06"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "To distinguish between outcome-based and identity-based habits as the deepest level of change."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "TheHuman/Identity", "TheHuman/Habits", "topic/systems"]
+tags: ["behavior-change", "TheHuman/Habits", "TheHuman/Identity", "topic/systems"]
 title: Identity-Based Habits are the Most Profound Level of Change
 type: "concept"
 uid: 

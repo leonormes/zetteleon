@@ -4,13 +4,13 @@ confidence: "1"
 created: 2025-11-01T20:30:00Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To explain how the desire to avoid risk encourages procrastination through motion."
 review_interval: "90"
 see_also: ["[[Action Involves Risk]]", "[[Motion Can Be a Procrastination Delay Tactic]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["avoidance", "procrastination", "risk", "topic/productivity", "TheHuman/Psychology"]
+tags: ["avoidance", "procrastination", "risk", "TheHuman/Psychology", "topic/productivity"]
 title: Risk Avoidance Drives Motion-Based Procrastination
 type: "concept"
 uid: 

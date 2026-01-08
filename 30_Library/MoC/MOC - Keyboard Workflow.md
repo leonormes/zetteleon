@@ -1,20 +1,16 @@
 ---
-aliases:
-  - Keyboard MOC
-  - MOC Keyboard
+aliases: [Keyboard MOC, MOC Keyboard]
 confidence:
 created: 2025-12-21T19:00:00Z
 epistemic:
 last_reviewed:
-modified: 2026-01-03T10:18:58+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - keyboard
-  - workflow
+tags: [keyboard, workflow]
 title: MOC - Keyboard Workflow
 type: map
 uid:

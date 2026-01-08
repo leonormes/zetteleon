@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T12:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Explain how repeated behaviors create proof that solidifies identity beliefs."
 review_interval: "90"
 see_also: ["[[Every Action is a Vote for Who You Wish to Become]]", "[[Identity Emerges from Habits Not Fixed at Birth]]", "[[Two-Step Identity Change Process]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "evidence", "TheHuman/Identity", "TheHuman/Habits", "TheHuman/Psychology"]
+tags: ["behavior-change", "evidence", "TheHuman/Habits", "TheHuman/Identity", "TheHuman/Psychology"]
 title: Accumulating Evidence Reinforces Identity
 type: "concept"
 uid: 

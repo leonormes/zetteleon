@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-30T12:10:08Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -34,4 +34,4 @@ This note summarizes the benefits of daily writing for clarity of thought and pr
 - **Change Environments**: [[Changing Environments Provides Novelty for ADHD Writing|Change your writing environment]] to provide novelty.
 - **Reward Loops**: [[ADHD habit building requires immediate feedback or reward loops|Pair writing sessions with immediate rewards]] to reinforce the habit.
 
-*Source: [[Why You Should Write Every Day]]*
+_Source: [[Why You Should Write Every Day]]_

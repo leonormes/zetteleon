@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-30T12:07:05Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["TheHuman/Neuroscience", "task-initiation", "TheHuman/Health/ADHD"]
+tags: ["task-initiation", "TheHuman/Health/ADHD", "TheHuman/Neuroscience"]
 title: MOC - The Neuroscience of Task Initiation in ADHD
 type: "map"
 uid: 
@@ -47,4 +47,4 @@ The difficulty initiating tasks reflects convergent deficits across multiple bra
 
 Task execution itself is a multi-phase process, and ADHD impacts each stage. See [[MOC - The Phases of Task Execution and the Impact of ADHD]] for a detailed breakdown.
 
-*Source: [[task initiation ADHD]]*
+_Source: [[task initiation ADHD]]_

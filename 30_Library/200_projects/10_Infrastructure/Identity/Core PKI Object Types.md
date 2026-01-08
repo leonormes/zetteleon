@@ -1,31 +1,31 @@
 ---
 aliases: []
-tags: []
-title: Core PKI Object Types
-type: ""
-status: ""
 confidence: ""
-epistemic: ""
-purpose: ""
 created: 2025-10-18T14:25:33+01:00
-modified: 2025-12-30T00:34:37+00:00
+epistemic: ""
 last_reviewed: ""
+modified: 2026-01-08T10:49:54+00:00
+purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
+status: ""
+tags: []
+title: Core PKI Object Types
+type: ""
 ---
 
-### Conceptual Framework: PKI as Type Verification
+## Conceptual Framework: PKI as Type Verification
 
 In a Type Theory context, Public Key Infrastructure (PKI) is not merely a hierarchy of objects, but a system of **cryptographic proofs** and **type constraints**.
 
-* **Data Immutable:** Certificates and Keys are immutable data structures. They do not have internal state changes; they are created, verified, or discarded.
-* **Verification as Type Conversion:** The act of "verifying" a certificate is a transformation function. It takes a `RawCertificate` (untrusted data) and a `TrustStore` (context) and, if successful, returns a `VerifiedCertificate` (a distinct type). This prevents the "use of unverified data" class of errors at the compiler level.
-* **Signatures as Predicates:** A digital signature is a predicate  that asserts the message  was processed by the holder of.
+- **Data Immutable:** Certificates and Keys are immutable data structures. They do not have internal state changes; they are created, verified, or discarded.
+- **Verification as Type Conversion:** The act of "verifying" a certificate is a transformation function. It takes a `RawCertificate` (untrusted data) and a `TrustStore` (context) and, if successful, returns a `VerifiedCertificate` (a distinct type). This prevents the "use of unverified data" class of errors at the compiler level.
+- **Signatures as Predicates:** A digital signature is a predicate  that asserts the message  was processed by the holder of.
 
 ---
 
-### 1. Core Data Structures (The Primitive Types)
+## 1. Core Data Structures (The Primitive Types)
 
 We define the domain using strictly typed `structs`. We avoid "stringly typed" logic by using newtypes for distinct semantic concepts (e.g., a `SerialNumber` is not just a `u64`).
 
@@ -58,7 +58,7 @@ struct PrivateKey {
 
 ---
 
-### 2. The Certificate Composition
+## 2. The Certificate Composition
 
 A Certificate is a composite type containing the Data (TBS - To Be Signed) and the Proof (Signature).
 
@@ -81,11 +81,11 @@ struct Certificate {
 
 ```
 
-### 3. Transformations and Operations (Functional Logic)
+## 3. Transformations and Operations (Functional Logic)
 
 Instead of methods mutating state on an object (OOP), we use pure functions representing cryptographic operations.
 
-#### The Signing Transformation
+### The Signing Transformation
 
 ```rust
 fn sign(data: &[u8], key: &PrivateKey) -> Result<Signature, CryptoError> {
@@ -114,7 +114,7 @@ fn issue_certificate(csr: Csr, ca_key: &PrivateKey, ca_cert: &Certificate) -> Ce
 
 ```
 
-#### The Verification Transformation
+### The Verification Transformation
 
 This utilizes the **Parse, don't validate** pattern. We do not just return a boolean; we return a semantic type that carries the proof of validity.
 
@@ -144,7 +144,7 @@ fn verify_signature<'a>(
 
 ---
 
-### 4. Trust Evaluation (The TrustStore)
+## 4. Trust Evaluation (The TrustStore)
 
 The `TrustStore` acts as the evaluation context or the "Environment" in type theory. It defines the axioms (Root CAs) accepted as true without proof.
 
@@ -168,12 +168,12 @@ impl TrustStore {
 
 ---
 
-### 5. Revocation State (Oracles)
+## 5. Revocation State (Oracles)
 
 Revocation is a check against a dynamic exclusion set. This represents the mutability of trust over time.
 
-* **CRL:** A `Set<SerialNumber>` representing invalidated proofs.
-* **OCSP:** A function query `fn(SerialNumber) -> Status`.
+- **CRL:** A `Set<SerialNumber>` representing invalidated proofs.
+- **OCSP:** A function query `fn(SerialNumber) -> Status`.
 
 ```rust
 enum CertStatus {
@@ -190,17 +190,17 @@ trait RevocationOracle {
 
 ---
 
-### 6. Architecture Scenario: Kubernetes mTLS
+## 6. Architecture Scenario: Kubernetes mTLS
 
 We re-map the "HTTPS Trust between Clusters" scenario as a data distribution and verification pipeline.
 
-#### A. The Bootstrapping Phase (Axiom Distribution)
+### A. The Bootstrapping Phase (Axiom Distribution)
 
-* **Input:** `RootCA_Certificate` (The Axiom).
-* **Process:** Out-of-band distribution to Cluster A and Cluster B.
-* **State Change:** `ClusterA.TrustStore` and `ClusterB.TrustStore` are mutated to include `RootCA`.
+- **Input:** `RootCA_Certificate` (The Axiom).
+- **Process:** Out-of-band distribution to Cluster A and Cluster B.
+- **State Change:** `ClusterA.TrustStore` and `ClusterB.TrustStore` are mutated to include `RootCA`.
 
-#### B. The Issuance Pipeline (Data Factory)
+### B. The Issuance Pipeline (Data Factory)
 
 This flow represents the **AWS Private CA + cert-manager** integration.
 
@@ -209,7 +209,7 @@ This flow represents the **AWS Private CA + cert-manager** integration.
 3. **Oracle (AWS Private CA):** Maps `(CSR, CA_Context)`  `Certificate`.
 4. **Sink (Kubernetes Secret):** Stores the pair `(Certificate, PrivateKey)`.
 
-#### C. The Runtime Handshake (Proof Exchange)
+### C. The Runtime Handshake (Proof Exchange)
 
 The TLS handshake is a bidirectional exchange of serialised data structures to establish a shared session key.
 
@@ -225,7 +225,7 @@ The TLS handshake is a bidirectional exchange of serialised data structures to e
 
 | **4** | **Result** | If `Ok(VerifiedCertificate)`, derivation of session keys proceeds. |
 
-### Summary Matrix
+## Summary Matrix
 
 | OOP Concept | Data-Oriented/Rust Equivalent |
 | --- | --- |
@@ -239,14 +239,14 @@ Here are the specific `cert-manager` manifests to implement the **Issuance Pipel
 
 I have annotated these manifests to map the YAML fields back to our **Type Theory** and **Rust** definitions, highlighting how the abstract data structures map to the concrete configuration.
 
-### 1. The Oracle Definition (The Issuer)
+## 1. The Oracle Definition (The Issuer)
 
 In our model, the `Issuer` is the interface to the external signing oracle (AWS Private CA). It defines the `Sign` function scope.
 
 **Type Mapping:**
 
-* **Role:** `SigningOracle`
-* **Rust Equivalent:** `struct AwsPcaClient { arn: String, region: Region }`
+- **Role:** `SigningOracle`
+- **Rust Equivalent:** `struct AwsPcaClient { arn: String, region: Region }`
 
 ```yaml
 # This Custom Resource Definition (CRD) represents the bound context 
@@ -271,14 +271,14 @@ spec:
 
 ```
 
-### 2. The Type Request (The Certificate)
+## 2. The Type Request (The Certificate)
 
 This resource represents the `Csr` (Certificate Signing Request) constructor. It defines the constraints and shape of the desired output type (`VerifiedCertificate`).
 
 **Type Mapping:**
 
-* **Role:** `TypeConstructor` & `Sink`
-* **Rust Equivalent:** `fn request_cert(subject: Dn, dns: Vec<String>) -> (Certificate, PrivateKey)`
+- **Role:** `TypeConstructor` & `Sink`
+- **Rust Equivalent:** `fn request_cert(subject: Dn, dns: Vec<String>) -> (Certificate, PrivateKey)`
 
 ```yaml
 apiVersion: cert-manager.io/v1
@@ -334,7 +334,7 @@ spec:
 
 ```
 
-### 3. The Runtime Implementation (Under the Hood)
+## 3. The Runtime Implementation (Under the Hood)
 
 When you apply these manifests, the system executes the logical flow described in the `Core PKI Object Types.md` "Issuance" section:
 
@@ -348,8 +348,8 @@ When you apply these manifests, the system executes the logical flow described i
 Here is the Terraform configuration to provision the Identity Witness (IAM Role) required for the AWSPCAClusterIssuer.
 Conceptual Framework: Capability & Witness
 In our Type Theory model, the AWSPCAClusterIssuer requires a Capability (permission) to execute the Sign function on the AWS Private CA.
- * The Capability (IAM Role): A bounded context defining what functions can be called (IssueCertificate).
- * The Witness (OIDC Token): A cryptographically verifiable token presented by the Kubernetes Pod. The AWS IAM STS (Security Token Service) verifies this token against the OIDC provider (the "Trust Anchor") to dispense temporary credentials.
+ - The Capability (IAM Role): A bounded context defining what functions can be called (IssueCertificate).
+ - The Witness (OIDC Token): A cryptographically verifiable token presented by the Kubernetes Pod. The AWS IAM STS (Security Token Service) verifies this token against the OIDC provider (the "Trust Anchor") to dispense temporary credentials.
 Terraform Configuration
 This code creates the Capability and defines the Trust Relationship that allows the cert-manager Service Account to assume it.
 1. The Permissions (The Functional Scope)
@@ -467,7 +467,8 @@ metadata:
   name: aws-pca-issuer
   namespace: cert-manager
   annotations:
-    # The pointer to the Capability
+
+## The Pointer to the Capability
 
     eks.amazonaws.com/role-arn: "arn:aws:iam::123456789012:role/AWSPCAIssuerRole"
 

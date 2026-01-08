@@ -6,14 +6,14 @@ criteria: "Focus on protocol-level concepts."
 epistemic: ""
 exclusions: "Implementation-specific details or cloud DNS services."
 last_reviewed: ""
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: "Organize core DNS concepts."
 review_interval: "180"
 scope: "Fundamental DNS mechanisms from 'DNS Explained.md'."
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["SoftwareEngineering/networking/dns", "SoftwareEngineering/Networking"]
+tags: ["SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
 title: MOC - DNS Core Concepts and Mechanisms
 type: "map"
 uid: 

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-26T10:18:54Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:12+00:00
+modified: 2026-01-08T10:49:51+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -24,32 +24,32 @@ Here’s a breakdown of strategies to persuade, educate, and motivate your team,
 
 ## Education & Awareness: Make the Threat Real and Relevant
 
-People need to understand *why* it matters *to them* and *to this project*.
+People need to understand _why_ it matters _to them_ and _to this project_.
 
 ### Threat Modelling as a Team Exercise
 
-- Don't do this in isolation. Schedule regular, short sessions (maybe once a sprint or month) where the *whole team* brainstorms potential threats to *your specific system*.
+- Don't do this in isolation. Schedule regular, short sessions (maybe once a sprint or month) where the _whole team_ brainstorms potential threats to _your specific system_.
 - Use frameworks like STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) but keep it practical. Ask questions like:
   - "What are the most valuable assets in our system?" (e.g., Patient PII, medical records, access keys)
   - "Who might want to attack us and why?" (e.g., Ransomware groups, individuals seeking specific data, disgruntled insiders)
-  - "How could they try to get in *given our current architecture/codebase*?" (Focus on APIs, databases, cloud configurations, dependencies)
+  - "How could they try to get in _given our current architecture/codebase_?" (Focus on APIs, databases, cloud configurations, dependencies)
   - "What would be the impact if they succeeded?"
 - This collaborative process makes threats less abstract and fosters shared ownership.
 
 ### Real-World Healthcare Breach Case Studies
 
 - Find examples of security breaches in the healthcare sector. Discuss:
-  - *How* the breach occurred (e.g., misconfigured cloud storage, vulnerability in a dependency, phishing, weak authentication).
-  - *What* the consequences were (e.g., massive fines under GDPR/HIPAA, reputational damage, lawsuits, patient harm, mandatory disclosures, operational disruption).
-  - *How* similar vulnerabilities might exist in your own system.
+  - _How_ the breach occurred (e.g., misconfigured cloud storage, vulnerability in a dependency, phishing, weak authentication).
+  - _What_ the consequences were (e.g., massive fines under GDPR/HIPAA, reputational damage, lawsuits, patient harm, mandatory disclosures, operational disruption).
+  - _How_ similar vulnerabilities might exist in your own system.
 - Hearing about concrete failures and their severe fallout in your specific industry can be a powerful motivator.
 
 ### Focused Training Snippets
 
 - Instead of generic security awareness training, focus on relevant topics.
 - Dedicate 15-30 minutes in a team meeting to cover:
-  - A specific OWASP Top 10 vulnerability (e.g., Injection, Broken Access Control) with code examples *in your language/framework*.
-  - Secure coding practices for a feature you are *currently building*.
+  - A specific OWASP Top 10 vulnerability (e.g., Injection, Broken Access Control) with code examples _in your language/framework_.
+  - Secure coding practices for a feature you are _currently building_.
   - Best practices for the specific cloud services you use (e.g., IAM policies, security group configurations, secret management).
 - Keep it short, practical, and immediately applicable.
 
@@ -63,7 +63,7 @@ Security work needs to be seen and valued, not hidden.
 
 ### Frame Security as a Core Feature & Quality Attribute
 
-- Shift the narrative. Security isn't just "insurance"; it's a fundamental requirement for handling medical data. It's about *patient safety*, *trust*, and *system reliability*.
+- Shift the narrative. Security isn't just "insurance"; it's a fundamental requirement for handling medical data. It's about _patient safety_, _trust_, and _system reliability_.
 - A breach doesn't just leak data; it can bring the entire service down, directly impacting users (patients, clinicians). Frame security work as essential for uptime and performance.
 
 ### Visualize Security Status
@@ -91,7 +91,7 @@ Make security part of the process, not an afterthought.
   - SCA (Software Composition Analysis): Checks third-party dependencies for known vulnerabilities. Crucial, as many breaches exploit vulnerable libraries.
   - Secrets Scanning: Prevents accidental commits of API keys, passwords, etc.
   - IaC (Infrastructure as Code) Scanning: Checks Terraform/CloudFormation/etc. for insecure configurations.
-- Configure these tools to provide feedback *early* and *automatically*. Developers are more likely to fix issues found immediately than those discovered weeks later.
+- Configure these tools to provide feedback _early_ and _automatically_. Developers are more likely to fix issues found immediately than those discovered weeks later.
 
 ### Security Focus in Code Reviews
 
@@ -108,7 +108,7 @@ Address the human element–people need to feel valued for this work.
 
 ### Explicitly Praise Security Efforts
 
-- This is crucial given your observation. When someone writes particularly secure code, identifies a vulnerability, diligently fixes a security issue, or asks good security questions, *acknowledge and praise it publicly* (in team meetings, chat channels, etc.). "Great catch finding that potential access control issue in the code review, Sarah!" or "Thanks Mark for taking the time to properly configure those IAM permissions."
+- This is crucial given your observation. When someone writes particularly secure code, identifies a vulnerability, diligently fixes a security issue, or asks good security questions, _acknowledge and praise it publicly_ (in team meetings, chat channels, etc.). "Great catch finding that potential access control issue in the code review, Sarah!" or "Thanks Mark for taking the time to properly configure those IAM permissions."
 - Celebrate security "wins"–e.g., passing a security scan, successfully mitigating a threat identified during modelling.
 
 ### Security Champions
@@ -121,7 +121,7 @@ Address the human element–people need to feel valued for this work.
 
 ### Foster a "No-Blame" Culture for Security Issues
 
-- If a vulnerability *is* found (ideally internally), focus on the systemic causes and learning from it, not on blaming the individual developer. This encourages people to report issues without fear.
+- If a vulnerability _is_ found (ideally internally), focus on the systemic causes and learning from it, not on blaming the individual developer. This encourages people to report issues without fear.
 
 ### Connect to Professional Development
 

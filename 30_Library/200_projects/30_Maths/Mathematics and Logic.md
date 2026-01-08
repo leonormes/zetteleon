@@ -5,7 +5,7 @@ created: 2025-07-16T19:03:13Z
 epistemic: ""
 id: "Give me the logic"
 last_reviewed: ""
-modified: 2026-01-03T10:19:10+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -183,10 +183,10 @@ Here are the core components of mathematical thinking and practical ways to prac
 
 The sources highlight that traditional math education often focuses on facts and procedures without the underlying "why" or "how" of mathematical thinking, leading to disengagement. Your experience with difficult online problems likely stems from this gap.
 
-- **Focus on the "Art" and "Why":** Instead of jumping to complex formulas, try to understand the *ideas* behind them. For example, the sources discuss the Pythagorean Theorem and how it can be understood visually (breaking a square into pieces) rather than just memorizing the formula $a^2 + b^2 = c^2$.
+- **Focus on the "Art" and "Why":** Instead of jumping to complex formulas, try to understand the _ideas_ behind them. For example, the sources discuss the Pythagorean Theorem and how it can be understood visually (breaking a square into pieces) rather than just memorizing the formula $a^2 + b^2 = c^2$.
 - **Start with Engaging Questions:** Mathematics arises from natural human questions and problems, not contrived exercises. Instead of looking for generic "math problems," identify real-life situations where you naturally use quantitative reasoning, then try to formalize or deepen your understanding using the habits of mind discussed above.
 - **Embrace Struggle and Iteration:** Mathematicians themselves struggle, make mistakes, and persevere. Don't expect to get the "right" answer immediately. The value is in the process of exploration, conjecture, and devising arguments.
 - **Play Games and Puzzles:** For young children, playing games like Chess, Go, Hex, or Sprouts is recommended to develop deductive reasoning skills. This approach is equally valid for adults wanting to develop mathematical thinking without formal curriculum. The book "The Magical Maze" [l] itself is structured around puzzles and aims to guide you to think like a mathematician through engaging problems
-- **Build Foundational Understanding:** If you find yourself needing specific arithmetic or algebraic "building blocks" that you didn't learn well, you can consult resources that explain these concepts from the ground up, focusing on understanding rather than rote memorization. For instance, the "KS3 Maths Yearly Topic Map" [j] outlines topics typically covered in middle school mathematics, such as place value, basic operations, fractions, percentages, and an introduction to algebra and geometry. This can serve as a reference for *what* areas exist in foundational math, but remember to approach them with the "how to think" mindset rather than just memorizing rules.
+- **Build Foundational Understanding:** If you find yourself needing specific arithmetic or algebraic "building blocks" that you didn't learn well, you can consult resources that explain these concepts from the ground up, focusing on understanding rather than rote memorization. For instance, the "KS3 Maths Yearly Topic Map" [j] outlines topics typically covered in middle school mathematics, such as place value, basic operations, fractions, percentages, and an introduction to algebra and geometry. This can serve as a reference for _what_ areas exist in foundational math, but remember to approach them with the "how to think" mindset rather than just memorizing rules.
 
 By consciously adopting these habits of mind and applying them to problems you encounter or find interesting in your daily life, you will train your brain to think mathematically. This approach will not only help you understand math more deeply but will also enhance your critical thinking and problem-solving skills for strategic recommendations.

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-22T15:00:13Z
 epistemic: "NA"
 last_reviewed: "2025-11-22"
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "Maps the journey of a network packet through the Linux kernel subsystems."
 review_interval: "90"
 see_also: []

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-09-01T09:21:45Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -30,7 +30,7 @@ The **International System of Units (SI)** is founded on seven base units, each 
 | Amount of substance       | mole      | mol    |
 | Luminous intensity        | candela   | cd     |
 
-*Table data sourced from the Wikipedia article.*
+_Table data sourced from the Wikipedia article._
 
 The kilogram is unique as it is the only base unit whose name includes a prefix. These units are no longer defined by physical objects but by fundamental constants of nature, which makes them inherently stable and universal.
 

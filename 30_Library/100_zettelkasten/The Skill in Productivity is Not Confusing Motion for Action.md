@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T15:14:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To highlight a common pitfall in productivity."
 review_interval: "90"
 see_also: ["[[Action Defined as Behavior That Produces Tangible Outcomes]]", "[[Motion Defined as Preparatory Activity Without Direct Outcomes]]"]

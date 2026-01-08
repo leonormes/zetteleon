@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-30T15:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-10-30"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "To emphasize the importance of intrinsic motivation in sustainable change"
 review_interval: "90"
 see_also: []
@@ -21,7 +21,7 @@ updated:
 
 **Summary:** Sustainable habit change must be driven by your own values and goals, not by external pressures or others' expectations. Growth aligned with external standards is fragile and unsustainable.
 
-**Details:** For change to last, it must answer the question "Why does this matter to *me*?" rather than "What do others expect of me?" When supporting someone else's change, encouragement must match their personal goals and values—not what you wish for them. "One degree" of change looks different for everyone based on their unique values, circumstances, and priorities. Change driven by shoulds, peer comparison, or attempting to meet idealized standards (even self-imposed) lacks the intrinsic motivation necessary for long-term adherence. This is especially crucial for ADHD individuals, whose interest-based nervous system requires genuine personal relevance for sustained engagement.
+**Details:** For change to last, it must answer the question "Why does this matter to _me_?" rather than "What do others expect of me?" When supporting someone else's change, encouragement must match their personal goals and values—not what you wish for them. "One degree" of change looks different for everyone based on their unique values, circumstances, and priorities. Change driven by shoulds, peer comparison, or attempting to meet idealized standards (even self-imposed) lacks the intrinsic motivation necessary for long-term adherence. This is especially crucial for ADHD individuals, whose interest-based nervous system requires genuine personal relevance for sustained engagement.
 
 > **Status gates**
 >

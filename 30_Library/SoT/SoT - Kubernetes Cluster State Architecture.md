@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-16T00:00:00Z
 epistemic: "theory"
 last_reviewed: "2025-12-16"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To define the correct mental model of Kubernetes cluster state as a relational database of independent records, rather than a monolithic configuration tree."
 review_interval: "1 year"
 see_also: ["[[SoT - FITFILE Platform Deployment]]", "[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Software Configuration Management Patterns]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "devops", "etcd", "kubernetes", "mental_model"]
+tags: ["devops", "etcd", "kubernetes", "mental_model", "SoftwareEngineering/Architecture"]
 title: SoT - Kubernetes Cluster State Architecture
 type: "SoT"
 uid: 
@@ -36,7 +36,7 @@ Newcomers often visualize Kubernetes as a nested tree (Deployment contains Pods)
 While no root object exists in storage, the API can synthesize one.
 
 - **Command:** `kubectl get pods -o json` returns a virtual `List` object containing an array of items.
-- **Utility:** This is how we dump cluster state, but it is a *runtime view*, not a storage artifact.
+- **Utility:** This is how we dump cluster state, but it is a _runtime view_, not a storage artifact.
 
 ---
 
@@ -61,7 +61,7 @@ The Namespace acts as a mandatory filter on every selector query.
 
 ## 4. The Network Bridge: Ingress & Services
 
-While Namespaces isolate *management* (Selectors), they do not isolate *networking* by default.
+While Namespaces isolate _management_ (Selectors), they do not isolate _networking_ by default.
 
 ### A. Flat Network
 
@@ -73,7 +73,7 @@ While Namespaces isolate *management* (Selectors), they do not isolate *networki
 The **Ingress Controller** breaks the Namespace isolation model.
 
 - **Role:** The Concierge in the lobby.
-- **Power:** It reads Ingress Resources from *all* Namespaces and builds a global routing table.
+- **Power:** It reads Ingress Resources from _all_ Namespaces and builds a global routing table.
 - **Risk:** It bridges traffic from the public edge directly into isolated Namespaces.
 
 ---

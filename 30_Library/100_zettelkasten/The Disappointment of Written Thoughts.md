@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-20T09:41:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["TheHuman/Creativity", "TheHuman/Cognition/thinking", "TheHuman/Psychology", "topic/writing"]
+tags: ["TheHuman/Cognition/thinking", "TheHuman/Creativity", "TheHuman/Psychology", "topic/writing"]
 title: The Disappointment of Written Thoughts
 type: "null"
 uid: 

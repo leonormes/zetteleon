@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-12"
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "Canonical definition and implications of the Spotlight Effect within social cognition and self-perception."
 review_interval: "6 months"
 see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - Social Cognition & Self-Perception]]"]
@@ -41,7 +41,7 @@ The Spotlight Effect is rooted in **egocentric bias**, our natural tendency to v
 
 Combating the Spotlight Effect involves recalibrating one's social perception and recognizing the reality of others' attention.
 
-- **Reality Testing:** Consciously asking "How many people *actually* noticed that?" can help to reduce the perceived magnitude.
+- **Reality Testing:** Consciously asking "How many people _actually_ noticed that?" can help to reduce the perceived magnitude.
 - **Perspective-Taking:** Reminding oneself that others are primarily focused on their own lives and internal states.
 - **Embrace Imperfection:** Accepting that minor flaws and mistakes are common, and rarely as significant to others as they are to oneself.
 

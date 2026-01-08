@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-23T11:23:25Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:24+00:00
+modified: 2026-01-08T10:49:55+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -179,7 +179,7 @@ Let's break it down from the perspective of its components and data structures.
 
 When your browser connects to a server like `https://app.eoe-sde-codisc.privatelink.fitfile.net`, it receives a certificate. The "insecure" warning appears because of two potential issues:
 
-1. **Unproven Identity:** The browser has no way of knowing if the server it's talking to is *really* `app.eoe-sde-codisc.privatelink.fitfile.net` or an imposter. The certificate presented is "self-signed," meaning the server essentially says, "Trust me, I am who I say I am," without any external validation.
+1. **Unproven Identity:** The browser has no way of knowing if the server it's talking to is _really_ `app.eoe-sde-codisc.privatelink.fitfile.net` or an imposter. The certificate presented is "self-signed," meaning the server essentially says, "Trust me, I am who I say I am," without any external validation.
 2. **Unencrypted Communication:** Without a trusted certificate, a secure, encrypted (TLS) channel cannot be established, leaving the connection vulnerable.
 
 PKI solves the identity problem, which in turn enables the encryption.
@@ -200,7 +200,7 @@ This is the certificate that your application server (like ArgoCD) will use. It'
 - **Public Key:** The public part of a cryptographic key pair. The server holds the corresponding private key securely and secretly. This is what allows for encryption.
 - **Issuer:** Who issued and vouched for this certificate (e.g., "EOE Internal Subordinate CA").
 - **Validity Period:** The dates for which the certificate is valid.
-- **Signature:** A cryptographic signature created by the **Issuer** using *their* private key. This is the seal of approval that proves the certificate is authentic and hasn't been tampered with.
+- **Signature:** A cryptographic signature created by the **Issuer** using _their_ private key. This is the seal of approval that proves the certificate is authentic and hasn't been tampered with.
 
 This is the "leaf" node in our data structure tree.
 
@@ -244,7 +244,7 @@ A single CA issuing all certificates is possible, but it's not secure. If that o
 
 When a VDI user's browser connects to your internal service, the following "chain of trust" verification happens in milliseconds:
 
-1. **Server Presents Certificates:** Your application server presents its **End-Entity Certificate** *and* the **Intermediate CA's certificate**.
+1. **Server Presents Certificates:** Your application server presents its **End-Entity Certificate** _and_ the **Intermediate CA's certificate**.
 2. **Browser Verifies Step 1:** The browser looks at the End-Entity certificate and sees it was signed by the "Intermediate CA". It uses the public key from the Intermediate CA's certificate to mathematically verify the signature. If it checks out, the browser knows the End-Entity certificate is authentic and unaltered.
 3. **Browser Verifies Step 2:** The browser now looks at the Intermediate CA's certificate and sees it was signed by the "Root CA".
 4. **The Final Check:** The browser now looks in its own local "Trusted Root Certificate Store". This is a list of Root CAs that the browser manufacturer (Microsoft, Google, Mozilla) has pre-installed and trusts implicitly.

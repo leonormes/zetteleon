@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:20:07Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To define the Zen perspective on enlightenment."
 review_interval: "90"
 see_also: ["[[Zen Emphasizes Enlightened Activity Over Enlightened People]]"]
@@ -21,4 +21,4 @@ updated:
 
 **Summary:** In Zen, enlightenment is not a permanent, mystical state to be achieved, but an ongoing process of "waking up" to the true nature of reality.
 
-**Details:** This waking up involves the direct recognition of interconnectedness, impermanence, and the absence of a permanent, separate self (anatta). It is not a final destination but a series of moments of clarity. According to this view, no one is *always* enlightened; there are only enlightened actions or moments that come and go like everything else.
+**Details:** This waking up involves the direct recognition of interconnectedness, impermanence, and the absence of a permanent, separate self (anatta). It is not a final destination but a series of moments of clarity. According to this view, no one is _always_ enlightened; there are only enlightened actions or moments that come and go like everything else.

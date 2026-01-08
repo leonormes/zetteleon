@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-09T11:21:13Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:32+00:00
+modified: 2026-01-08T10:49:57+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -66,13 +66,13 @@ If you later change Conditional Access, firewall rules, or user roles, we recomm
 
 ### 3.1 Conditional Access: Test Azure CLI from the Jumpbox
 
-Use the **Conditional Access “What If”** tool to make sure Azure CLI logins from the *Azure environment* (where the jumpbox will run) are not blocked.
+Use the **Conditional Access “What If”** tool to make sure Azure CLI logins from the _Azure environment_ (where the jumpbox will run) are not blocked.
 
 **Inputs for the What‑If test:**
 
 - **User:** the FITFILE deployment user (e.g. `leon.ormes@…`)
 - **Cloud app:**
-  - *Microsoft Azure CLI* (App ID: `04b07795-8ddb-461a-bbee-02f9e1bf7b46`)
+  - _Microsoft Azure CLI_ (App ID: `04b07795-8ddb-461a-bbee-02f9e1bf7b46`)
 - **Location:**
   - The **egress IP or IP range that outbound traffic from the Azure spoke/jumpbox will use**
     (for example, your central firewall / NAT gateway egress range).
@@ -86,7 +86,7 @@ Use the **Conditional Access “What If”** tool to make sure Azure CLI logins 
 
 - No Conditional Access policy should **block** this scenario.
 - It’s fine to **require MFA** or similar controls.
-- If a policy blocks access, please adjust it (e.g. exception for the *Azure spoke egress* named location, or a dedicated “deployment” policy that allows Azure CLI for this user and IP range).
+- If a policy blocks access, please adjust it (e.g. exception for the _Azure spoke egress_ named location, or a dedicated “deployment” policy that allows Azure CLI for this user and IP range).
 
 ### 3.2 RBAC: Confirm the Deployment User’s Role
 

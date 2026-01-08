@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-19T01:57:08Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:17+00:00
+modified: 2026-01-08T10:49:52+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -28,7 +28,7 @@ version: ""
 2. **The Rebase Process:**
 
     - `git rebase main` (while on the `feature` branch) essentially replays the commits from your `feature` branch onto the tip of the `main` branch.
-    - Crucially, it **doesn't** just copy the diffs. It creates *new* snapshots (commits) based on the changes in your `feature` branch, but applied on top of the current state of `main`.
+    - Crucially, it **doesn't** just copy the diffs. It creates _new_ snapshots (commits) based on the changes in your `feature` branch, but applied on top of the current state of `main`.
 3. **Step-by-Step Breakdown:**
 
     - Git identifies the common ancestor of the `feature` and `main` branches.
@@ -78,13 +78,13 @@ Here's why you're seeing the same conflict again, even after you've seemingly fi
 
     - You edit `fileA.js` to resolve the conflict and then use `git add fileA.js` to stage the resolution.
     - You then use `git rebase --continue` to tell Git to proceed with the rebase.
-    - Git creates a *new* commit (a new snapshot) that incorporates your conflict resolution.
+    - Git creates a _new_ commit (a new snapshot) that incorporates your conflict resolution.
 4. **The Next Commit:**
 
-    - Git then moves on to the *next* commit in your feature branch.
+    - Git then moves on to the _next_ commit in your feature branch.
     - This next commit also has changes to `fileA.js` (or potentially related changes).
-    - Git attempts to apply those changes to the *current state* of the target branch (which now includes your previous conflict resolution).
-    - **Crucially, the next commit's changes are still based on the original state of your feature branch, *before* you resolved the conflict.**
+    - Git attempts to apply those changes to the _current state_ of the target branch (which now includes your previous conflict resolution).
+    - **Crucially, the next commit's changes are still based on the original state of your feature branch, _before_ you resolved the conflict.**
     - Therefore, if the new commit's changes conflict with the changes from `main` (or with your previous resolution), you'll encounter the same conflict again.
 
 **Why It Seems Counterintuitive**

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-18T09:41:07Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:29+00:00
+modified: 2026-01-08T10:49:56+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -63,7 +63,7 @@ Copy and paste the following block into an LLM (or back to me) to generate the s
 
 - Replace manual "LastPass generation" with `resource "random_password"`.
 - Replace the manual OpenSSL/PKCS8 steps with the `tls_private_key` Terraform provider.
-*Challenge:* Replace the Rust CLI (UDE) key generation with an `external` data source wrapper or a Dockerized ephemeral container execution within Terraform to output the key string.
+_Challenge:_ Replace the Rust CLI (UDE) key generation with an `external` data source wrapper or a Dockerized ephemeral container execution within Terraform to output the key string.
 
 3. **Module 1: Vault Setup (Pre-requisite):**
 
@@ -78,8 +78,8 @@ Copy and paste the following block into an LLM (or back to me) to generate the s
 
 5. **Module 3: Secret Injection (The "Glue"):**
 
-- *Crucial Step:* This module depends on Modules 1 & 2.
-- It constructs the JSON payloads dynamically using the *outputs* from Module 2 and the *generated secrets* from the Secret Fabrication step.
+- _Crucial Step:_ This module depends on Modules 1 & 2.
+- It constructs the JSON payloads dynamically using the _outputs_ from Module 2 and the _generated secrets_ from the Secret Fabrication step.
 - It writes these JSON blobs directly into the Vault KV paths created in Module 1, removing the need for human copy-pasting.
 
 **Deliverables:**

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:23:09Z
 epistemic: "reference"
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: "The central entry point for navigating financial management, budgeting methods, and spendfulness psychology."
 review_interval: "6 months"
 see_also: ["[[MOC - ProdOS]]"]
@@ -28,9 +28,9 @@ updated:
 
 The rules and mechanics of effective money management.
 
-- **[[SoT - The YNAB Method]]**—*Rule One (Jobs), The Five Questions, and the mechanics of Zero-Based Budgeting.*
-- **[[SoT - Personal Budgeting Methodologies]]**—*Comparing ZBB, 50/30/20, Envelope, and Pay-Yourself-First systems.*
-- **[[SoT - Process Primacy (Systems Over Goals)]]**—*Why the habit of budgeting beats the goal of saving.*
+- **[[SoT - The YNAB Method]]**—_Rule One (Jobs), The Five Questions, and the mechanics of Zero-Based Budgeting._
+- **[[SoT - Personal Budgeting Methodologies]]**—_Comparing ZBB, 50/30/20, Envelope, and Pay-Yourself-First systems._
+- **[[SoT - Process Primacy (Systems Over Goals)]]**—_Why the habit of budgeting beats the goal of saving._
 
 ---
 
@@ -38,8 +38,8 @@ The rules and mechanics of effective money management.
 
 Breaking the internal loops that drive financial anxiety.
 
-- **[[SoT - The Psychology of Spendfulness]]**—*Redefining scarcity, ending the debt cycle, and achieving guilt-free spending.*
-- **[[SoT - Values and Eudaimonia]]**—*Aligning spending with what actually leads to flourishing.*
+- **[[SoT - The Psychology of Spendfulness]]**—_Redefining scarcity, ending the debt cycle, and achieving guilt-free spending._
+- **[[SoT - Values and Eudaimonia]]**—_Aligning spending with what actually leads to flourishing._
 
 ---
 
@@ -47,8 +47,8 @@ Breaking the internal loops that drive financial anxiety.
 
 Practical guidelines for your specific household.
 
-- **[[SoT - Family Financial Wellness]]**—*The UK allocation plan (76/24 split), fixed vs variable funding, and the Payday Protocol.*
-- **[[SoT - Ontology of Money and Wealth]]**—*The philosophical nature of money as potential energy.*
+- **[[SoT - Family Financial Wellness]]**—_The UK allocation plan (76/24 split), fixed vs variable funding, and the Payday Protocol._
+- **[[SoT - Ontology of Money and Wealth]]**—_The philosophical nature of money as potential energy._
 
 ---
 

@@ -1,29 +1,21 @@
 ---
+alias: [Constructive Realism, System Reliability Map, The Unified Systems Paradigm, Type-Driven Data Design]
 aliases: []
-alias:
-  - The Unified Systems Paradigm
-  - Type-Driven Data Design
-  - Constructive Realism
-  - System Reliability Map
 confidence: 5/5
 created: 2025-12-30T12:08:43+00:00
 epistemic: root_index
 last_reviewed: 2025-12-30
-modified: 2026-01-01T09:02:40+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: The Master Index organizing the convergence of Data-Oriented Design (Physics) and Type Theory (Logic) into a unified methodology for reliable systems.
 review_interval: 6 months
 see_also:
-  - "[[MOC - Type Theory]]"
   - "[[MOC - Rust Programming Language]]"
+  - "[[MOC - Type Theory]]"
   - "[[SoT - Rust's Design Philosophy]]"
   - "[[SoT - Type-Driven Development (The Torvalds Loop)]]"
 source_of_truth: []
 status: stable
-tags:
-  - type/moc
-  - "SoftwareEngineering/Architecture"
-  - root
-  - "TheHuman/Philosophy"
+tags: ["SoftwareEngineering/Architecture", "TheHuman/Philosophy", root, type/moc]
 title: MOC - The Unified Systems Paradigm
 type: map
 uid:
@@ -99,3 +91,9 @@ When applied to complex domains, this paradigm produces "Unbreakable" systems.
 - **[[SoT - Data-Centric IAM in Zero Trust]]** - Trust as a calculated intersection of Identity, Context, and Resource data.
 - **[[SoT - Type Theory of PKI and Cryptography]]** - Verification as type conversion; certificates as proof objects.
 - **[[SoT - GitOps for IAM and Permissions]]** - Treating Permissions as Temporal Types (Leases).
+
+### Physical Systems & SDX
+
+- **[[Video - What is Software-Defined]]** - **The Paradigm.** Applying "Compilation" to Physical Hardware via Virtualization.
+- **[[Digital Twin]]** - **The Model.** Splitting reality into Executable (Physics) and Declarative (Specs).
+- **[[Verification Threading bridges the gap between Requirements and Simulation]]** - **The Bridge.** Continuous verification of hardware specs against software needs.

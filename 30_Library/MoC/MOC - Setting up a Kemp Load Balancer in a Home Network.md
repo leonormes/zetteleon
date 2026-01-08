@@ -6,7 +6,7 @@ criteria: "Steps and concepts directly related to the NetworkChuck tutorial on K
 epistemic: ""
 exclusions: "General load balancing theory or other vendor products."
 last_reviewed: ""
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: ""
 review_interval: ""
 scope: "A procedural guide for setting up a Kemp LoadMaster in a home lab for secure service exposure."

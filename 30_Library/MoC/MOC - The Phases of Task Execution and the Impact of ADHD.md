@@ -4,14 +4,14 @@ confidence: "null"
 created: 2025-10-29T16:38:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source: "[[phases of tasks]]"
 source_of_truth: []
 status: "null"
-tags: ["executive_function", "TheHuman/Neuroscience", "TheHuman/Health/ADHD"]
+tags: ["executive_function", "TheHuman/Health/ADHD", "TheHuman/Neuroscience"]
 title: MOC - The Phases of Task Execution and the Impact of ADHD
 type: "map"
 uid: 

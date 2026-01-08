@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-30T11:26:53Z
 epistemic: NA
 last_reviewed:
-modified: 2026-01-03T10:19:45+00:00
+modified: 2026-01-08T10:50:03+00:00
 purpose: Consolidate and deduplicate knowledge across an Obsidian vault using semantic search
 review_interval:
 see_also: []

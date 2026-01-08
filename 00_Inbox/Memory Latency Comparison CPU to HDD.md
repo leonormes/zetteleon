@@ -1,31 +1,30 @@
 ---
 aliases: []
-type: ""
-status: ""
-confidence: ""
-epistemic: ""
-purpose: ""
-modified: 2026-01-05T16:14:14+00:00
-last_reviewed: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
-title: Memory Latency Comparison CPU to HDD
-source: "https://gemini.google.com/share/9df4530c494c"
 author:
   - "[[Gemini]]"
-published:
+confidence: ""
 created: 2026-01-05T15:59:12+00:00
 description: "Created with Gemini"
-tags:
-  - "input"
+epistemic: ""
+last_reviewed: ""
+modified: 2026-01-08T10:50:03+00:00
+published:
+purpose: ""
+review_interval: ""
+see_also: []
+source: "https://gemini.google.com/share/9df4530c494c"
+source_of_truth: []
+status: ""
+tags: ["input"]
+title: Memory Latency Comparison CPU to HDD
+type: ""
 ---
 
 Give me a comparison of the relative speed of the CPU process in a computer. The CPU cache is the fastest memory for the CPU to use. If loading the L1 cache took 1 second give me the other levels of memory used from the HDD through to the cache relative to the 1 second
 
 To conceptualise the memory hierarchy, we must view it as a pyramid where speed and cost are inversely proportional to capacity. Using your request of **L1 Cache = 1 second** as the baseline, the relative latencies scale dramatically as we move further from the CPU.
 
-### The Memory Latency Hierarchy
+## The Memory Latency Hierarchy
 
 This table scales typical modern hardware latencies (measured in nanoseconds or cycles) into a "human-scale" time format where L1 is a single second.
 
@@ -40,7 +39,7 @@ This table scales typical modern hardware latencies (measured in nanoseconds or 
 
 ---
 
-### Architectural Logic: Why the Gap?
+## Architectural Logic: Why the Gap?
 
 1. **Proximity & Physics:** L1 and L2 caches are physically located inside the CPU core. Signal propagation speed is limited by the speed of light; the further the data travels, the more "wait states" the CPU must endure.
 2. **Storage Medium:**
@@ -48,7 +47,7 @@ This table scales typical modern hardware latencies (measured in nanoseconds or 
 	- **DRAM (RAM):** Uses 1 transistor and 1 capacitor. It is "dynamic" and must be electrically refreshed thousands of times per second. This refresh cycle adds significant latency.
 	- **NAND/Magnetic (SSD/HDD):** These require complex controllers, bus negotiations (PCIe/SATA), or physical mechanical movement (HDD heads), which adds orders of magnitude to the delay.
 
-### The "Wait State" Problem
+## The "Wait State" Problem
 
 When a CPU experiences a **Cache Miss** (data isn't in L1), it doesn't just wait; it often stalls. In the time it takes to fetch one piece of data from a traditional **HDD**, a modern CPU could have theoretically completed **hundreds of millions** of instructions if the data had been in the L1 cache.
 

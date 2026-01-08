@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-07-22T08:18:45Z
 epistemic: "psychology"
 last_reviewed: "2025-12-16"
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "A structural map of the cognitive biases that create \\\"Contextual Myopia\\\" and the resulting \\\"Focus Bubble.\\\""
 review_interval: "6 months"
 see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["bias", "type/moc", "problem-solving", "TheHuman/Cognition"]
+tags: ["bias", "problem-solving", "TheHuman/Cognition", "type/moc"]
 title: MOC Contextual Myopia
 type: "map"
 uid: 
@@ -29,7 +29,7 @@ Contextual Myopia is not a single bias but a **chain reaction** of cognitive fai
 
 1. **The Trigger (Narrowing):** The environment (e.g., a full-screen IDE) restricts sensory input, creating a "Bubble."
 2. **The Lens (Distortion):** **[[The Focusing Illusion]]** magnifies the importance of whatever is inside the bubble.
-3. **The Error (Displacement):** **[[Goal Displacement]]** occurs—we mistake the *process* (refactoring) for the *goal* (shipping).
+3. **The Error (Displacement):** **[[Goal Displacement]]** occurs—we mistake the _process_ (refactoring) for the _goal_ (shipping).
 4. **The Trap (Lock-In):** **[[Sunk Cost Fallacy Reinforces Myopia]]** prevents escape. We double down to justify the wasted time.
 
 ---

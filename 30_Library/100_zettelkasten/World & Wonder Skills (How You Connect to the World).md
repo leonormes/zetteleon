@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-10T10:12:15Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -18,7 +18,7 @@ updated:
 version: ""
 ---
 
-*These skills are about how you find joy, meaning, and your place in the wider world.*
+_These skills are about how you find joy, meaning, and your place in the wider world._
 
 - Appreciation of Beauty & Excellence: Noticing and feeling "wow!" about the beauty in nature, art, music, or seeing someone do something really well. (VIA Strength & National Curriculum: Arts)
 - Gratitude: Being thankful for the good things in your life and taking the time to show it. (VIA Strength)
@@ -28,6 +28,6 @@ version: ""
 - Understanding the World: Learning about different places, cultures, beliefs, and history to understand how our world works. (National Curriculum: Geography, History, RE)
 - Responsibility & Care: Understanding our duty to care for each other, for our community, and for the environment. (National Curriculum Values)
 
-*PSHE: Personal, Social, Health and Economic education is a key part of the curriculum that teaches many of these life skills.*
+_PSHE: Personal, Social, Health and Economic education is a key part of the curriculum that teaches many of these life skills._
 
 [[A Concept Map for a Flourishing Human]]

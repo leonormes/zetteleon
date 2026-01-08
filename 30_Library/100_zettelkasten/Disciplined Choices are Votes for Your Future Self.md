@@ -4,14 +4,14 @@ confidence: ""
 created: 2025-10-30T12:04:06Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source: "[[MOC - How to Build Discipline]]"
 source_of_truth: []
 status: "seedling"
-tags: ["discipline", "TheHuman/Identity", "TheHuman/Mindset", "TheHuman/Habits"]
+tags: ["discipline", "TheHuman/Habits", "TheHuman/Identity", "TheHuman/Mindset"]
 title: Disciplined Choices are Votes for Your Future Self
 type: "concept"
 uid: 

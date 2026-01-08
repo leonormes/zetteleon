@@ -1,13 +1,10 @@
 ---
-aliases:
-  - Data Structures in Infrastructure
-  - Data-Centric View
-  - Infrastructure as Data
+aliases: [Data Structures in Infrastructure, Data-Centric View, Infrastructure as Data]
 confidence: 5/5
 created: 2025-12-25T12:10:00Z
 epistemic: index
 last_reviewed: 2025-12-25
-modified: 2025-12-31T12:34:52+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: A Map of Content (MOC) connecting infrastructure components through the lens of their underlying data structures and synchronization models.
 review_interval: 6 months
 see_also:
@@ -16,11 +13,7 @@ see_also:
   - "[[SoT - State Synchronization Models]]"
 source_of_truth: []
 status: stable
-tags:
-  - data_structures
-  - infrastructure
-  - mental_models
-  - type/moc
+tags: [data_structures, infrastructure, mental_models, type/moc]
 title: MOC - Data-Centric Infrastructure
 type: map
 uid:
@@ -31,15 +24,15 @@ updated:
 
 Infrastructure tools are best understood not by their "Marketing Features" (Secrets, Deployments, GitOps) but by their **First-Principles Data Structures** (Tries, Merkle Trees, Event Logs).
 
-> "Show me your flowcharts and conceal your tables, and I shall continue to be mystified. Show me your tables, and I won't usually need your flowcharts; they'll be obvious."—*Fred Brooks*
+> "Show me your flowcharts and conceal your tables, and I shall continue to be mystified. Show me your tables, and I won't usually need your flowcharts; they'll be obvious."—_Fred Brooks_
 
 ## 2. Synchronization Models
 
 How systems agree on "Truth."
 
 - **[[SoT - State Synchronization Models]]** - The fundamental divergence:
-    - **Merkle Trees (Integrity):** Used by [[SoT - HashiCorp Vault Architecture|Vault]] and [[SoT - The Data Architecture of Source Control (Git)|Git]]. "Is it *exactly* the same?"
-    - **Reconciliation Loops (Intent):** Used by [[SoT - Kubernetes Cluster State Architecture|Kubernetes]] and **ArgoCD**. "Is it *functionally* compliant?"
+    - **Merkle Trees (Integrity):** Used by [[SoT - HashiCorp Vault Architecture|Vault]] and [[SoT - The Data Architecture of Source Control (Git)|Git]]. "Is it _exactly_ the same?"
+    - **Reconciliation Loops (Intent):** Used by [[SoT - Kubernetes Cluster State Architecture|Kubernetes]] and **ArgoCD**. "Is it _functionally_ compliant?"
 
 ## 3. Data Structures by Tool
 
@@ -61,5 +54,5 @@ How systems agree on "Truth."
 
 Tools that translate between data models:
 
-- **Vault Secrets Operator:** Transforms *Path-Addressed JSON* (Vault) -> *Namespace-Addressed Maps* (K8s).
-- **Ingress Controller:** Transforms *Host Headers* (HTTP) -> *Service Selectors* (K8s Labels).
+- **Vault Secrets Operator:** Transforms _Path-Addressed JSON_ (Vault) -> _Namespace-Addressed Maps_ (K8s).
+- **Ingress Controller:** Transforms _Host Headers_ (HTTP) -> _Service Selectors_ (K8s Labels).

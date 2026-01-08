@@ -1,16 +1,16 @@
 ---
-aliases: ["Metabolic Health", "Satiety Management", "Post-Mounjaro Maintenance", "Protein Leverage"]
+aliases: ["Metabolic Health", "Post-Mounjaro Maintenance", "Protein Leverage", "Satiety Management"]
 confidence: "5/5"
 created: 2025-12-26T16:00:00Z
 epistemic: "Biological/Nutritional"
 last_reviewed: "2025-12-26"
-modified: 2025-12-26T16:43:27+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To define the structural and biological framework for managing metabolic health and satiety, specifically during transitions from pharmacological weight management."
 review_interval: "6 months"
-see_also: ["[[SoT - Physical Health and Vitality]]", "[[SoT - Dopamine Menu]]"]
+see_also: ["[[SoT - Dopamine Menu]]", "[[SoT - Physical Health and Vitality]]"]
 source_of_truth: ["[[Post-Mounjaro Weight Management Strategies]]"]
 status: "stable"
-tags: ["health", "nutrition", "metabolism", "satiety", "mounjaro"]
+tags: ["health", "metabolism", "mounjaro", "nutrition", "satiety"]
 title: SoT - Metabolic Health & Satiety Management
 type: "SoT"
 uid: 
@@ -73,5 +73,6 @@ To close the metabolic gap, implement three primary satiety levers:
 Satiety management is a core component of **ADHD Platform Engineering**:
 
 - **Dopamine Regulation:** High-protein intake provides amino acid precursors (Tyrosine) for dopamine synthesis.
+- **Energy Production:** The gut microbiome acts as a metabolic engine, providing the high-level energy required for synaptic plasticity and brain function (See: [[SoT - ADHD Neurology & Core Concepts]]).
 - **Impulse Control:** Stable blood sugar and satiety levels reduce the "impulse to graze" driven by low dopamine.
 - **Structural Satiety:** Replaces the need for "willpower" with biological satiety, reducing executive function load.

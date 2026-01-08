@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-10T12:00:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To establish the core principle that lasting behavior change is rooted in identity."
 review_interval: "90"
 see_also: ["[[Identity-Based Habits Are More Sustainable Than Outcome-Based Habits]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "TheHuman/Identity", "TheHuman/Habits", "TheHuman/Psychology"]
+tags: ["behavior-change", "TheHuman/Habits", "TheHuman/Identity", "TheHuman/Psychology"]
 title: True Behavior Change is Identity Change
 type: "concept"
 uid: 

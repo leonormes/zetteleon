@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-10T10:12:15Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -18,7 +18,7 @@ updated:
 version: ""
 ---
 
-*These are the tools your brain uses to learn, solve problems, and imagine new things.*
+_These are the tools your brain uses to learn, solve problems, and imagine new things._
 
 - **Curiosity**: Being interested in the world, asking many questions, and loving to explore new topics. (VIA Strength & National Curriculum aim)
 - **Love of Learning**: Enjoying mastering new skills and adding to your knowledge, not just because you have to, but because you want to. (VIA Strength & National Curriculum aim)

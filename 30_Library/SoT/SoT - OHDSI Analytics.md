@@ -1,11 +1,17 @@
 ---
-aliases: ["OHDSI Analytics", "Evidence Generation", "Cohort Generation"]
+aliases: ["Cohort Generation", "Evidence Generation", "OHDSI Analytics"]
 confidence: "High"
-created: 2026-01-06
+created: 2026-01-06T18:52:01+00:00
+epistemic: ""
 last_reviewed: 2026-01-06
+modified: 2026-01-08T10:49:42+00:00
 purpose: "Defines the standard analytical methods and use cases supported by the OHDSI framework."
+review_interval: ""
+see_also: []
+source_of_truth: []
 status: "stable"
-tags: ["ohdsi", "analytics", "evidence", "sot"]
+tags: ["analytics", "evidence", "ohdsi", "sot"]
+title: SoT - OHDSI Analytics
 type: "SoT"
 ---
 
@@ -21,10 +27,10 @@ type: "SoT"
 OHDSI categorizes all observational research into three distinct pillars.
 
 | Type | Question | Method/Tools |
-| :--- | :--- | :--- |
-| **Characterization** | *"What happened to them?"* | **Descriptive Statistics.** Counts, distributions, incidence rates. <br>*(Tool: Achilles, CohortDiagnostics)* |
-| **Population-Level Estimation (PLE)** | *"What is the causal effect?"* | **Causal Inference.** Propensity score matching, negative controls. Comparative safety/effectiveness. <br>*(Tool: CohortMethod, SelfControlledCaseSeries)* |
-| **Patient-Level Prediction (PLP)** | *"What will happen to me?"* | **Machine Learning.** Training predictive models on historical data to predict future risk. <br>*(Tool: PatientLevelPrediction)* |
+|:--- |:--- |:--- |
+| **Characterization** | _"What happened to them?"_ | **Descriptive Statistics.** Counts, distributions, incidence rates. <br>_(Tool: Achilles, CohortDiagnostics)_ |
+| **Population-Level Estimation (PLE)** | _"What is the causal effect?"_ | **Causal Inference.** Propensity score matching, negative controls. Comparative safety/effectiveness. <br>_(Tool: CohortMethod, SelfControlledCaseSeries)_ |
+| **Patient-Level Prediction (PLP)** | _"What will happen to me?"_ | **Machine Learning.** Training predictive models on historical data to predict future risk. <br>_(Tool: PatientLevelPrediction)_ |
 
 ---
 
@@ -35,14 +41,16 @@ In OHDSI, almost all analysis begins with the **Cohort**.
 > [!definition] Cohort Definition
 > A set of **Persons** who satisfy specific **Inclusion Criteria** for a **Duration of Time**.
 >
-> *Key Components:*
+> _Key Components:_
 > 1.  **Entry Event:** What triggers entry? (e.g., First diagnosis of Diabetes).
 > 2.  **Inclusion Rules:** Additional logic (e.g., Must have >365 days observation prior).
 > 3.  **Exit Strategy:** When do they leave? (e.g., End of observation, death, or fixed duration).
 
 ### 3.1 The "Read-Only" Challenge
+
 Standard OHDSI analytics assume the ability to **Materialize** (write) these cohorts into a `COHORT` table in the database.
-*   **The Workaround:** For read-only environments, the cohort logic must be "transpiled" into ephemeral **Common Table Expressions (CTEs)** that generate the population on-the-fly during query execution.
+
+- **The Workaround:** For read-only environments, the cohort logic must be "transpiled" into ephemeral **Common Table Expressions (CTEs)** that generate the population on-the-fly during query execution.
 
 ---
 
@@ -50,6 +58,6 @@ Standard OHDSI analytics assume the ability to **Materialize** (write) these coh
 
 Just because code runs doesn't mean the evidence is valid. OHDSI enforces quality via:
 
-*   **Software Validity:** Unit testing the HASES packages.
-*   **Clinical Validity:** Using **PheValuator** to probabilistically estimate the sensitivity/specificity of a cohort definition against a gold standard.
-*   **Method Validity:** Using **Negative Controls** (outcomes known *not* to be caused by the exposure) to calibrate p-values and detect systematic error/bias.
+- **Software Validity:** Unit testing the HASES packages.
+- **Clinical Validity:** Using **PheValuator** to probabilistically estimate the sensitivity/specificity of a cohort definition against a gold standard.
+- **Method Validity:** Using **Negative Controls** (outcomes known _not_ to be caused by the exposure) to calibrate p-values and detect systematic error/bias.

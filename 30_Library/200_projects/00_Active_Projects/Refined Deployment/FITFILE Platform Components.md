@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-08-22T11:32:55Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:31+00:00
+modified: 2026-01-08T10:49:57+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["SoftwareEngineering/Architecture", "components", "config", "helm", "platform"]
+tags: ["components", "config", "helm", "platform", "SoftwareEngineering/Architecture"]
 title: FITFILE Platform Components
 type: ""
 uid: 

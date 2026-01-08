@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-07-21T02:33:41Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:10+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -56,6 +56,6 @@ The central conflict in maths education is that it primarily teaches [[Applicati
 
 **Developing Thoughts & Open Questions:**
 
-- If we accept this disconnect, what is the actual *purpose* of compulsory maths education? Is it to create competent "mechanics" for the economy, or is it to foster the "engineering" mindset of logical and abstract thought?
+- If we accept this disconnect, what is the actual _purpose_ of compulsory maths education? Is it to create competent "mechanics" for the economy, or is it to foster the "engineering" mindset of logical and abstract thought?
 - How could we introduce generative thinking into the curriculum without sacrificing applicative skill?
 - Does my own experience with ADHD give me a different perspective on the 'pattern-spotting' nature of generative maths? Is there a link between neurodivergence and mathematical thinking?

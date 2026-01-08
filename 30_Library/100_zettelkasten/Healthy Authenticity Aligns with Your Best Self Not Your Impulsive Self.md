@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-24T15:02:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -18,7 +18,7 @@ updated:
 version: ""
 ---
 
-Authenticity is often misunderstood as a license to act on every impulse or express every unfiltered thought. However, healthy authenticity involves a more nuanced approach. It requires self-reflection and self-awareness to understand one's true feelings and values, and then making conscious choices about how to act in alignment with one's *highest principles*.
+Authenticity is often misunderstood as a license to act on every impulse or express every unfiltered thought. However, healthy authenticity involves a more nuanced approach. It requires self-reflection and self-awareness to understand one's true feelings and values, and then making conscious choices about how to act in alignment with one's _highest principles_.
 
 This means that if one's initial, impulsive "authentic" reactions are petty, selfish, or harmful, true authenticity involves acknowledging these traits and taking responsibility for them. The goal is to align actions with a "best self" that embodies values like kindness, respect, and personal growth, rather than simply indulging the most immediate or least desirable impulses.
 

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-16T00:00:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-16"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To define the technical implementation, security risks, and management patterns for Kubernetes Secrets."
 review_interval: "1 year"
 see_also: ["[[Kubernetes Secrets in Helm Chart Deployment]]", "[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - Kubernetes Cluster State Architecture]]"]
@@ -69,7 +69,7 @@ Since you cannot commit secrets to Git:
 | **External Secrets** | Controller polls external Vault (AWS/HashiCorp) and syncs to K8s Secret. | Centralized, secure. | High complexity. |
 | **Vault Secrets Operator (VSO)** | **FITFILE Standard.** Connects directly to HashiCorp Vault. | Enterprise-grade, Dynamic Secrets. | Heavy dependencies. |
 
-*See [[SoT - FITFILE Secret Management Architecture]] for our specific VSO implementation.*
+_See [[SoT - FITFILE Secret Management Architecture]] for our specific VSO implementation._
 
 ---
 

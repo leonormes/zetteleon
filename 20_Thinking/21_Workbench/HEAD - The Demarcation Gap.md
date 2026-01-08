@@ -6,7 +6,7 @@ created: 2025-12-09T00:00:00Z
 description: "Created with Gemini"
 epistemic: 
 last_reviewed: 
-modified: 2026-01-03T10:19:44+00:00
+modified: 2026-01-08T10:50:02+00:00
 published:
 purpose: 
 review_interval: 
@@ -39,7 +39,7 @@ To effectively communicate this to your manager, use the following three pillars
 
 ### 2. The Incident Resolution Boundary (Operations)
 
-- **The Problem:** Currently, a network outage defaults to an *Application Incident*, paging our team.
+- **The Problem:** Currently, a network outage defaults to an _Application Incident_, paging our team.
 - **The Litmus Test:** If the connection is severed, do we have the permissions to fix the Peering or VPN Gateway? If the answer is **No**, we cannot be the primary owners of the uptime.
 - **Resolution:** We need to decouple "Infrastructure Incidents" (Platform/NetOps) from "Application Incidents" (SDE).
 
@@ -57,9 +57,9 @@ Use this concise logic flow to drive the conversation:
 
 > "I have identified a sustainability risk in our architecture regarding the Data Provider integration.
 >
-> 1. **The Ambiguity:** We haven't defined where the Network ends and the Application begins. Because we consume the data, we've implicitly inherited the responsibility for the *transport* of that data.
+> 1. **The Ambiguity:** We haven't defined where the Network ends and the Application begins. Because we consume the data, we've implicitly inherited the responsibility for the _transport_ of that data.
 > 2. **The Operational Risk:** We are currently treating network infrastructure issues as application bugs. If the VPN gateway or peering fails, my team gets paged, but we likely lack the permissions or toolset to resolve it.
-> 3. **The Solution:** We need to establish a **Demarcation Point**. The application should be responsible for *processing* the data, but the *availability of the route* should fall under a Platform or Infrastructure remit.
+> 3. **The Solution:** We need to establish a **Demarcation Point**. The application should be responsible for _processing_ the data, but the _availability of the route_ should fall under a Platform or Infrastructure remit.
 > 
 > I propose we audit our Terraform state to see exactly who provisions the gateway and formally map this boundary."
 
@@ -73,20 +73,20 @@ Here is the **Boundary Audit Checklist**, structured to help you rigorously test
 
 ## Phase 1: The Terraform State Analysis (Static Analysis)
 
-*Objective: Determine if you own the lifecycle of the infrastructure or merely consume it.*
+_Objective: Determine if you own the lifecycle of the infrastructure or merely consume it._
 
 - [ ] **Identify the Resource Type:**
   - Search your Terraform files (`.tf`). Are you using a **resource** block (e.g., `resource "aws_vpn_gateway"`) or a **data** source block (e.g., `data "aws_vpn_gateway"`)?
   - **The Logic:** If it is a `resource`, you are provisioning (owning). If it is `data`, you are pointing (consuming).
 - [ ] **Check State Ownership:**
-  - Run `terraform state list`. Do the Peering connections, VPN Gateways, or Transit Gateways appear in *your* local/remote state file?
+  - Run `terraform state list`. Do the Peering connections, VPN Gateways, or Transit Gateways appear in _your_ local/remote state file?
   - If they exist in your state file, your team is technically responsible for their drift and corruption.
 - [ ] **Review Parameter Hardcoding:**
   - Are IP CIDR blocks (e.g., `10.0.1.0/24`) hardcoded in your repo, or are they passed in as variables from a central infrastructure repo? Hardcoding implies you are managing the network topology.
 
 ## Phase 2: The Permissions "Litmus Test" (Active Analysis)
 
-*Objective: Verify if you possess the privileges required to resolve an "Infrastructure Incident".*
+_Objective: Verify if you possess the privileges required to resolve an "Infrastructure Incident"._
 
 - [ ] **The "Break-Fix" Simulation:**
   - Locate the specific Network Interface (ENI) or Gateway ID used for the Data Provider connection.
@@ -99,7 +99,7 @@ Here is the **Boundary Audit Checklist**, structured to help you rigorously test
 
 ## Phase 3: The Observability Horizon
 
-*Objective: Define the limit of your visibility.*
+_Objective: Define the limit of your visibility._
 
 - [ ] **Log Access:**
   - Do you have access to **VPC Flow Logs** or **Gateway Logs**?
@@ -111,8 +111,8 @@ Here is the **Boundary Audit Checklist**, structured to help you rigorously test
 
 Once you complete this, you will likely fall into one of two categories:
 
-1. **The Consumer (Ideal):** You use `data` sources, have Read-Only access to Gateways, and cannot see Flow Logs. *Conclusion: You are not responsible.*
-2. **The Owner (Current Risk):** You use `resource` blocks, have Write access, and manage CIDRs. *Conclusion: You are currently the Network Engineer.*
+1. **The Consumer (Ideal):** You use `data` sources, have Read-Only access to Gateways, and cannot see Flow Logs. _Conclusion: You are not responsible._
+2. **The Owner (Current Risk):** You use `resource` blocks, have Write access, and manage CIDRs. _Conclusion: You are currently the Network Engineer._
 
 ## Next Step
 

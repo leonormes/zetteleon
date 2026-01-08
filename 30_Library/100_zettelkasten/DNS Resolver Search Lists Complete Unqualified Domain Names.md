@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-10-31T10:46:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Explain DNS search list functionality."
 review_interval: "90"
 see_also: ["DNS Resolvers Translate Domain Requests to IP Queries.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["SoftwareEngineering/networking/dns", "SoftwareEngineering/Networking"]
+tags: ["SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
 title: DNS Resolver Search Lists Complete Unqualified Domain Names
 type: "concept"
 uid: 

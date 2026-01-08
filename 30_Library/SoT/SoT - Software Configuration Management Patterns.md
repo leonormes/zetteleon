@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-12-12T00:00:00Z
 epistemic: "null"
 last_reviewed: 
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the core principles of Software Configuration Management"
 review_interval: "6 months"
 see_also: ["[[SoT - Automated Cloud Resource Hibernation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT -\\\\\\\", \\\\\\\"[[SoT - Automated Cloud Resource Hibernation]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "devops", "patterns", "scm", "software_engineering"]
+tags: ["devops", "patterns", "scm", "SoftwareEngineering", "SoftwareEngineering/Architecture"]
 title: SoT - Software Configuration Management Patterns
 type: "SoT"
 uid: 
@@ -24,8 +24,8 @@ updated:
 - **Everything is Code:** Not just application logic, but infrastructure, configuration, and documentation must be versioned. The "shape" of the artifacts defines the system.
 - **The Mainline Model:** A single, shared codebase (Main/Trunk) is the source of truth. Divergence (branching) should be short-lived to minimize integration pain.
 - **Continuous Integration (CI):** The practice of merging all developer working copies to the shared mainline several times a day.
-  - *Goal:* To detect integration errors as quickly as possible ("Fail Fast").
-  - *Rule:* You cannot integrate if the build is broken. Fix the build immediately.
+  - _Goal:_ To detect integration errors as quickly as possible ("Fail Fast").
+  - _Rule:_ You cannot integrate if the build is broken. Fix the build immediately.
 - **Reproducibility:** You must be able to rebuild any version of the software at any time. This requires versioning not just source code, but build tools, libraries, and environments.
 
 ---
@@ -37,7 +37,7 @@ updated:
 Agile methodologies (like XP) advocate for **Continuous Integration**.
 
 - **The Tension:** Integration takes time (overhead).
-- **The Solution:** Err on the side of integrating *too often*. Frequent integration reduces the "integration hell" of merging long-lived branches.
+- **The Solution:** Err on the side of integrating _too often_. Frequent integration reduces the "integration hell" of merging long-lived branches.
 - **Optimization:** Find the balance point where the speed of feedback outweighs the overhead of the commit process.
 
 ### Architecture and SCM
@@ -64,8 +64,8 @@ SCM is not just a tooling concern; it is an architectural one.
 ## 5. Sources and Links
 
 - [[Software Configuration Management Patterns]] by Steve Berczuk and Brad Appleton
-- *Extreme Programming Explained* by Kent Beck (referenced)
-- *Continuous Delivery* by Jez Humble (related concept)
+- _Extreme Programming Explained_ by Kent Beck (referenced)
+- _Continuous Delivery_ by Jez Humble (related concept)
 
 ## Architecture and SCM
 

@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-20T08:00:02Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -25,4 +25,4 @@ This form of [[Productive Procrastination as an Avoidance Strategy]] can be driv
 - **Perfectionism**: The belief that the system must be perfect before it can be used.
 - **Fear**: A subconscious fear that even this perfectly designed system won't be enough to solve the underlying problems of procrastination or overwhelm.
 
-The core impulse to create external support is valid and necessary, but the crucial step is to shift focus from perfecting the design to consistently *using* the simplest viable version. Real-world use, however imperfect, should guide iteration, not abstract design.
+The core impulse to create external support is valid and necessary, but the crucial step is to shift focus from perfecting the design to consistently _using_ the simplest viable version. Real-world use, however imperfect, should guide iteration, not abstract design.

@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-06-20T15:26:10Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:08+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["independence", "TheHuman/Motivation", "TheHuman/Family/Bessie", "strengths"]
+tags: ["independence", "strengths", "TheHuman/Family/Bessie", "TheHuman/Motivation"]
 title: Capacity for Independent Work and Self-Motivation
 type: ""
 uid: 

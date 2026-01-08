@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-10T15:44:28Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:11+00:00
+modified: 2026-01-08T10:49:50+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -51,7 +51,7 @@ Configure alerts to trigger for any User Access Administrator assignments at roo
 
 **1. Role-Based Access Control (RBAC)**
 
-- Use Azure’s 65+ built-in roles (e.g., *Virtual Machine Contributor*) instead of custom roles where possible. Avoid broad roles like *Owner* or *Contributor*[^1_1][^1_6].
+- Use Azure’s 65+ built-in roles (e.g., _Virtual Machine Contributor_) instead of custom roles where possible. Avoid broad roles like _Owner_ or _Contributor_[^1_1][^1_6].
 - For custom permissions, scope roles to specific resources or management groups, not entire subscriptions[^1_1][^1_3].
 
 **2. Just-In-Time (JIT) Access**
@@ -185,7 +185,7 @@ graph LR
     I -->|Yes| J[Time-bound Access]
 ```
 
-*Automated GitOps flow with embedded IAM controls*[^2_1][^2_4][^2_7]
+_Automated GitOps flow with embedded IAM controls_[^2_1][^2_4][^2_7]
 
 ---
 
@@ -257,7 +257,7 @@ provider "azurerm" {
 }
 ```
 
-*(Source: Search Result[^3_5])*
+_(Source: Search Result[^3_5])_
 
 **2. Least-Privilege Deployment Identity**
 
@@ -295,7 +295,7 @@ Rotate credentials quarterly via Azure Automation[^3_2][^3_4].
 }
 ```
 
-*(Reference: Search Result[^3_1][^3_3])*
+_(Reference: Search Result[^3_1][^3_3])_
 
 **2. Federated CI/CD Identities**
 

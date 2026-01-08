@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-02-07T12:57:54Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-06T19:39:19+00:00
+modified: 2026-01-08T10:49:51+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["cli", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "Processes", "Processes"]
+tags: ["cli", "Processes", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux"]
 title: Understanding and Visualizing Linux Processes
 type: ""
 uid: 

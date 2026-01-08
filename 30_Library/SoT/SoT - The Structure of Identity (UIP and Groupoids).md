@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "Defines the pivotal realization that proofs of equality are not unique, leading to the Groupoid structure of types."
 review_interval: "1 year"
 see_also: ["[[SoT - Cubical Type Theory (Computational Univalence)]]", "[[SoT - Equality in Type Theory (Intensional vs Extensional)]]"]
@@ -63,10 +63,10 @@ This realization transformed the "bug" of Intensional Equality into a "feature."
 
 ## 5. Tensions, Gaps, and Cross-SoT Coherence
 
-- **Coherence:** This explains *why* the "Groupoid Interpretation" exists in [[SoT - Equality in Type Theory (Intensional vs Extensional)]].
+- **Coherence:** This explains _why_ the "Groupoid Interpretation" exists in [[SoT - Equality in Type Theory (Intensional vs Extensional)]].
 - **Coherence:** This provides the historical motivation for [[SoT - Cubical Type Theory (Computational Univalence)]]—if equality has structure, we need a computational way to traverse it.
 
 ## 6. Sources and Links
 
-- **Source:** Computerphile, *The Hardest Problem in Type Theory* (Thorsten Altenkirch).
+- **Source:** Computerphile, _The Hardest Problem in Type Theory_ (Thorsten Altenkirch).
 - **Key Figure:** Martin Hofmann (1965–2018).

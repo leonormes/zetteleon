@@ -5,7 +5,7 @@ filters:
     - status != "archived"
 views:
   - type: table
-    name: "System: ProdOS"
+    name: "Domain I: PRODOS (System)"
     filters:
       and:
         - file.tags.contains("prodos")
@@ -24,10 +24,15 @@ views:
       file.name: 400
       note.tags: 460
   - type: table
-    name: "Topic: ADHD"
+    name: "Domain II: Cognitive Engineering (Mind)"
     filters:
-      and:
+      or:
         - file.tags.contains("adhd")
+        - file.tags.contains("neuroscience")
+        - file.tags.contains("learning")
+        - file.tags.contains("psychology")
+        - file.tags.contains("cbt")
+        - file.tags.contains("TheHuman/Cognition")
     order:
       - file.name
       - type
@@ -40,13 +45,91 @@ views:
       file.name: 400
       note.tags: 300
   - type: table
-    name: "Topic: Health & Fitness"
+    name: "Domain III: Data-Centric Systems (Logic)"
+    filters:
+      or:
+        - file.tags.contains("data-centric")
+        - file.tags.contains("data_structure")
+        - file.tags.contains("type_theory")
+        - file.tags.contains("functional_programming")
+        - file.tags.contains("rust")
+        - file.tags.contains("haskell")
+        - file.tags.contains("knowledge-graph")
+        - file.tags.contains("ontop")
+    order:
+      - file.name
+      - type
+      - status
+      - tags
+    sort:
+      - property: type
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 476
+      note.tags: 300
+  - type: table
+    name: "Domain IV: Generative Infra (Platform)"
+    filters:
+      or:
+        - file.tags.contains("infrastructure")
+        - file.tags.contains("terraform")
+        - file.tags.contains("kubernetes")
+        - file.tags.contains("cloud")
+        - file.tags.contains("networking")
+        - file.tags.contains("devops")
+        - file.tags.contains("configuration_management")
+    order:
+      - type
+      - file.name
+      - status
+      - file.path
+      - file.size
+    sort:
+      - property: type
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      note.type: 107
+      file.name: 400
+      file.path: 877
+  - type: table
+    name: "Domain V: Existential Architecture (Meaning)"
+    filters:
+      or:
+        - file.tags.contains("philosophy")
+        - file.tags.contains("meaning")
+        - file.tags.contains("existentialism")
+        - file.tags.contains("logotherapy")
+        - file.tags.contains("absurdism")
+        - file.tags.contains("identity")
+        - file.tags.contains("TheHuman/Philosophy")
+    order:
+      - file.name
+      - type
+      - status
+      - tags
+      - file.size
+    sort:
+      - property: file.size
+        direction: DESC
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 400
+      note.tags: 504
+  - type: table
+    name: "Resource: Health & Vitality"
     filters:
       or:
         - file.tags.contains("fitness")
         - file.tags.contains("health")
         - file.tags.contains("longevity")
         - file.tags.contains("physical_hardware")
+        - file.tags.contains("metabolism")
+        - file.tags.contains("nutrition")
     order:
       - file.name
       - type
@@ -61,7 +144,7 @@ views:
       file.name: 400
       note.tags: 300
   - type: table
-    name: "Topic: Finance"
+    name: "Resource: Finance"
     filters:
       or:
         - file.tags.contains("finance")
@@ -81,68 +164,4 @@ views:
         direction: DESC
     columnSize:
       file.name: 400
-      note.tags: 300
-  - type: table
-    name: "Topic: Technology"
-    filters:
-      or:
-        - file.tags.contains("topic/technology")
-    order:
-      - type
-      - file.name
-      - status
-      - file.path
-    sort:
-      - property: type
-        direction: ASC
-      - property: file.mtime
-        direction: DESC
-    columnSize:
-      note.type: 107
-      file.name: 400
-  - type: table
-    name: "Topic: Data-Centric Coding"
-    filters:
-      or:
-        - file.tags.contains("data-centric")
-        - file.tags.contains("data_structure")
-        - file.tags.contains("type_theory")
-        - file.tags.contains("functional_programming")
-        - file.tags.contains("software_design")
-        - file.tags.contains("rust")
-        - file.tags.contains("haskell")
-    order:
-      - file.name
-      - type
-      - status
-      - tags
-    sort:
-      - property: type
-        direction: ASC
-      - property: file.mtime
-        direction: DESC
-    columnSize:
-      file.name: 476
-      note.tags: 300
-  - type: table
-    name: "Topic: Type Theory"
-    filters:
-      or:
-        - file.tags.contains("type-theory")
-        - file.tags.contains("type_theory")
-        - file.tags.contains("adt")
-        - file.tags.contains("category_theory")
-        - file.tags.contains("logic")
-        - file.tags.contains("formal_methods")
-        - file.tags.contains("cdktf")
-    order:
-      - file.name
-      - type
-      - status
-      - tags
-    sort:
-      - property: file.mtime
-        direction: DESC
-    columnSize:
-      file.name: 636
       note.tags: 300

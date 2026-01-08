@@ -1,17 +1,17 @@
 ---
+alias: ["Azure ExpressRoute Architecture", "Azure Secure Egress", "ExpressRoute Isolation", "Hybrid Cloud Security"]
 aliases: []
-alias: ["Azure ExpressRoute Architecture", "Hybrid Cloud Security", "Azure Secure Egress", "ExpressRoute Isolation"]
 confidence: "5/5"
 created: 2025-12-30T11:41:24+00:00
 epistemic: "architecture"
 last_reviewed: "2025-12-30"
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "To define the architectural standards for secure Azure Hybrid Networking using ExpressRoute, focusing on Isolation, Routing, and Egress control."
 review_interval: "12 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - Secure Cross-Cloud Data Transport]]", "[[SoT - Type-Driven Infrastructure as Code]]"]
 source_of_truth: []
 status: "stable"
-tags: ["azure", "SoftwareEngineering/Networking", "SoftwareEngineering/Security", "SoftwareEngineering/Architecture", "hybrid_cloud"]
+tags: ["azure", "hybrid_cloud", "SoftwareEngineering/Architecture", "SoftwareEngineering/Networking", "SoftwareEngineering/Security"]
 title: SoT - Azure Hybrid Networking (ExpressRoute)
 type: "SoT"
 uid: 

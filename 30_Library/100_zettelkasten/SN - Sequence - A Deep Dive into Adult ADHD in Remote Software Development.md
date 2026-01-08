@@ -6,14 +6,14 @@ criteria: "Notes must relate to the experience of an adult with ADHD in a profes
 epistemic: ""
 exclusions: "General ADHD information not specific to remote work or software development."
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: ""
 review_interval: ""
 scope: "The challenges, strengths, and strategies for remote software developers with ADHD."
 see_also: []
 source_of_truth: []
 status: "merged"
-tags: ["remote-work", "sequence", "software-development", "structural", "TheHuman/Health/ADHD"]
+tags: ["remote-work", "sequence", "SoftwareEngineering", "structural", "TheHuman/Health/ADHD"]
 title: SN - Sequence - A Deep Dive into Adult ADHD in Remote Software Development
 type: "sn"
 uid: 
@@ -34,7 +34,7 @@ The challenges faced by remote software developers with ADHD are not moral faili
 
 This leads to specific, tangible difficulties in a developer's daily workflow. One of the most significant is simply getting started.
 
-- The [[ADHD Brain Operates on an Interest-Based Nervous System]] rel:: explains *why* task initiation is a primary struggle.
+- The [[ADHD Brain Operates on an Interest-Based Nervous System]] rel:: explains _why_ task initiation is a primary struggle.
 
 Compounding this is a distorted perception of time, which undermines a developer's ability to plan and meet expectations in a structured environment like agile development.
 

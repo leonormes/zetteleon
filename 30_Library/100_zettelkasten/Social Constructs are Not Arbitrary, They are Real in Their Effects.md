@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-06T19:58:01Z
 epistemic: "insight"
 last_reviewed: "2025-11-06"
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To reframe social constructs as real and functional, rather than meaningless and arbitrary."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["meaning", "TheHuman/Philosophy", "reality", "social-constructs"]
+tags: ["meaning", "reality", "social-constructs", "TheHuman/Philosophy"]
 title: Social Constructs are Not Arbitrary, They are Real in Their Effects
 type: "concept"
 uid: 

@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-10-31T12:37:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Balance code reuse with modularity."
 review_interval: "90"
 see_also: ["Strategic Duplication Reduces System Coupling.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["SoftwareEngineering/Architecture", "principles"]
+tags: ["principles", "SoftwareEngineering/Architecture"]
 title: DRY Principle vs System Independence
 type: "concept"
 uid: 

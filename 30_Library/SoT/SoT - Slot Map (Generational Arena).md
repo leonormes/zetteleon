@@ -1,16 +1,16 @@
 ---
-aliases: ["Generational Arena", "Slot Map", "Generational Indices", "Safe Indices"]
+aliases: ["Generational Arena", "Generational Indices", "Safe Indices", "Slot Map"]
 confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "pattern"
 last_reviewed: "2025-12-31"
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the standard solution for the 'Dangling Pointer' and 'Memory Reuse' problems in Data-Oriented systems."
 review_interval: "1 year"
 see_also: ["[[SoT - Data-Oriented Programming (DOP)]]", "[[SoT - Rust Language]]", "[[SoT - TypeScript]]"]
 source_of_truth: []
 status: "stable"
-tags: ["data_structures", "performance", "memory_safety", "rust", "typescript"]
+tags: ["data_structures", "memory_safety", "performance", "rust", "typescript", 5, 99]
 title: SoT - Slot Map (Generational Arena)
 type: "SoT"
 uid: 
@@ -33,8 +33,8 @@ updated:
 
 We do not give out a raw `index`. We give out a "Key" (Ticket).
 
-* **Index:** Where the data lives in the array (Physical Location).
-* **Generation:** A version counter for that slot (Logical Identity).
+- **Index:** Where the data lives in the array (Physical Location).
+- **Generation:** A version counter for that slot (Logical Identity).
 
 **The Check:**
 When accessing `map.get(key)`:

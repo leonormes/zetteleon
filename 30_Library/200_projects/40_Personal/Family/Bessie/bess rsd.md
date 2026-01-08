@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-18T13:25:33Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:00+00:00
+modified: 2026-01-08T10:49:48+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -91,7 +91,7 @@ Children with ADHD have emotional regulation differences due to how their brain 
 
 ## Emotional Regulation Strategies
 
-Helping her learn to *notice, name, and navigate* feelings before they escalate builds long-term resilience.
+Helping her learn to _notice, name, and navigate_ feelings before they escalate builds long-term resilience.
 
 - Practice “body check-ins” when she’s calm—help her describe physical signs of rising anxiety (tight chest, shaky hands) [1].
 - Create a custom emotional plan together: what she can do when she feels it coming (listen to music, fidget tool, quiet area).
@@ -124,7 +124,7 @@ Therapeutic guidance helps her learn regulation skills in a safe setting and red
 
 ## For You as a Parent
 
-Your ADHD and RSD mean you *feel* her distress sharply. It’s okay to step back when you’re dysregulated. Use grounding or breathing tools together. Parent support groups (YoungMinds, Family Lives, or local ADHD parent coaching) can also help you offload emotional weight [13][9].
+Your ADHD and RSD mean you _feel_ her distress sharply. It’s okay to step back when you’re dysregulated. Use grounding or breathing tools together. Parent support groups (YoungMinds, Family Lives, or local ADHD parent coaching) can also help you offload emotional weight [13][9].
 
 The key is **slow exposure, emotional safety, and co-regulation**. She doesn’t need to “push through”—she needs to trust her body can handle discomfort, with your calm presence beside her.
 

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-06T19:58:02Z
 epistemic: "insight"
 last_reviewed: "2025-11-06"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To propose utility and effectiveness as a new foundation for confidence, replacing the need for objective rightness."
 review_interval: "90"
 see_also: ["You Fall to the Level of Your Systems, Not Rise to Your Goals.md"]

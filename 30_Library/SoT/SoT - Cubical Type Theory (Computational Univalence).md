@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "Explains the architectural solution to the \\\"Computational Content of Univalence\\\" problem in Type Theory."
 review_interval: "1 year"
 see_also: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - Equality in Type Theory (Intensional vs Extensional)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "cubical", "hott", "mathematics", "type_theory"]
+tags: ["cubical", "hott", "mathematics", "SoftwareEngineering/Architecture", "type_theory"]
 title: SoT - Cubical Type Theory (Computational Univalence)
 type: "SoT"
 uid: 
@@ -19,7 +19,7 @@ updated:
 
 ## 1. Working Knowledge (Stable Foundation)
 
-- **The Goal:** To make **Univalence** (treating isomorphic types as equal) *computable*.
+- **The Goal:** To make **Univalence** (treating isomorphic types as equal) _computable_.
 - **The Problem it Solves:** In standard Homotopy Type Theory (HoTT), Univalence is an Axiom. Axioms don't compute; they act as "walls" that stop a program from reducing (breaking Canonicity).
 - **The Solution:** **Cubical Type Theory**. It refactors the very environment of the logic to include **Dimensions** (Intervals), allowing the compiler to "trace" paths between types and execute them as programs.
 
@@ -45,8 +45,8 @@ This is the engine that makes Univalence run.
 
 - **Definition:** `coe` moves a term from the "start" of a line to the "end".
 - **Application:** If you have a Path between Type A and Type B (an isomorphism), `coe` effectively "runs" the transformation.
-  - *Example:* If Path is `swap`, `coe` actually swaps the data.
-  - *Result:* We no longer need an axiom. The path *is* the program.
+  - _Example:_ If Path is `swap`, `coe` actually swaps the data.
+  - _Result:_ We no longer need an axiom. The path _is_ the program.
 
 ### Kan Composition (`com`)
 
@@ -73,4 +73,4 @@ To ensure these 3D shapes hold together (e.g., that we can combine paths transit
 
 ## 6. Sources and Links
 
-- **Source:** Robert Harper, *Computational Type Theory* (Lecture 5).
+- **Source:** Robert Harper, _Computational Type Theory_ (Lecture 5).

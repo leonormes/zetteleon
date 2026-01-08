@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-24T12:20:07Z
 epistemic: "synthesis"
 last_reviewed: "2025-12-24"
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "Canonical source of truth for the Discipline of Perception, defining how interpretation dictates action capability."
 review_interval: "6 months"
 see_also: ["[[SoT - Indistractable Model (Focus Management)]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["action", "TheHuman/Mindset", "perception", "ryan_holiday", "stoicism"]
+tags: ["action", "perception", "ryan_holiday", "stoicism", "TheHuman/Mindset"]
 title: SoT - The Discipline of Perception (Mindset)
 type: "SoT"
 uid: 
@@ -25,7 +25,7 @@ updated:
 
 ### 1. Minimum Viable Understanding (MVU)
 
-Perception precedes Action. You cannot act effectively if your mind is paralyzed by the *story* of the problem. To regain agency, you must shift from the **Perceiving Eye** (Subjective/Emotional) to the **Observing Eye** (Objective/detached).
+Perception precedes Action. You cannot act effectively if your mind is paralyzed by the _story_ of the problem. To regain agency, you must shift from the **Perceiving Eye** (Subjective/Emotional) to the **Observing Eye** (Objective/detached).
 
 ---
 
@@ -33,30 +33,30 @@ Perception precedes Action. You cannot act effectively if your mind is paralyzed
 
 #### A. The Observing Eye vs. The Perceiving Eye
 
-*Derived from Miyamoto Musashi.*
+_Derived from Miyamoto Musashi._
 
 - **The Perceiving Eye (Weak):** Adds judgment. "This is an insurmountable disaster." It creates paralysis.
 - **The Observing Eye (Strong):** Sees facts. "The project failed. The budget is gone." It creates options.
-- **The Protocol:** Ask: *"What is the objective fact, and what is the story I am adding to it?"*
+- **The Protocol:** Ask: _"What is the objective fact, and what is the story I am adding to it?"_
 
 #### B. Emotional Control (The Astronaut Strategy)
 
-*Panic is suicide.*
+_Panic is suicide._
 
 - **Domestication of Emotion:** Emotions are tools, not masters.
-- **The Test:** Ask: *"Does getting upset provide me with more options?"* If No, the emotion is waste.
-- **Target State:** *Apatheia* (Calm equanimity).
+- **The Test:** Ask: _"Does getting upset provide me with more options?"_ If No, the emotion is waste.
+- **Target State:** _Apatheia_ (Calm equanimity).
 
 #### C. The "Flip" (The Rockefeller Approach)
 
-*Aggressive Perception.*
+_Aggressive Perception._
 
 - **The Principle:** Every obstacle contains a specific benefit or opportunity that did not exist before.
 - **The Method:** Don't just tolerate the problem; use it. (e.g., Eisenhower seeing a German counter-attack as an opportunity for encirclement).
 
 #### D. The Stoic Distinction
 
-*Focus only on what is "Up to You".*
+_Focus only on what is "Up to You"._
 
 - **Up to You:** Judgments, Creativity, Decisions.
 - **Not Up to You:** Outcomes, Opinions, Economy.
@@ -64,7 +64,7 @@ Perception precedes Action. You cannot act effectively if your mind is paralyzed
 
 #### E. The Engagement Paradox (Pragmatism over Absolutism)
 
-*Rejection is not Justice; Influence is Power.*
+_Rejection is not Justice; Influence is Power._
 
 - **The Trap:** Moral Absolutism ("Exclusion = Good"). Believing that rejecting a "bad" actor is the only valid moral response.
 - **The Reality:** Power is relational. Isolation often consolidates the opponent's power (victim narrative) while reducing your own leverage.

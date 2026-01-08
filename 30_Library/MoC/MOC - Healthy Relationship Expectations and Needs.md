@@ -6,7 +6,7 @@ criteria: "Atomic notes defining foundational concepts of respect, communication
 epistemic: ""
 exclusions: "Specific therapeutic advice or non-cooperative relationship models."
 last_reviewed: ""
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: ""
 review_interval: ""
 scope: "Core principles, common needs, and financial dynamics within a healthy, cooperative partnership, particularly for a married parent."
@@ -68,7 +68,7 @@ This section explores the active work required to keep a relationship functional
 
 ### Common Needs Expressed in a Partnership
 
-While every individual is different, these are fundamental *human* needs that are often prioritized in the context of a long-term relationship.
+While every individual is different, these are fundamental _human_ needs that are often prioritized in the context of a long-term relationship.
 
 1. **The Need to Feel Respected & Admired:** This is often a core need, as explained in [[The Need to Feel Respected and Admired is a Core Human Need in a Partnership]].
 2. **The Need for Physical Intimacy & Affection:** This is a vital form of connection, detailed in [[The Need for Physical Intimacy and Affection is a Vital Form of Connection]].

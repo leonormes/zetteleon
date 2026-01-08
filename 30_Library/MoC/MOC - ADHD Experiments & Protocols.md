@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-16T12:00:00Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: ""
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "active"
-tags: ["experiments", "hypothesis", "type/moc", "protocols", "TheHuman/Health/ADHD", "topic/productivity"]
+tags: ["experiments", "hypothesis", "protocols", "TheHuman/Health/ADHD", "topic/productivity", "type/moc"]
 title: MOC - ADHD Experiments & Protocols
 type: "map"
 uid: 
@@ -37,8 +37,8 @@ To move a strategy from "Candidate" to "Validated," follow this 3-step loop:
 1. **Define:** Convert a note into a `type: hypothesis`. Define the **Context** and **Expected Outcome**.
 2. **Test:** Mark status as `active`. Commit to the protocol for 1 week. Log results in the note.
 3. **Review:** Rate the efficacy.
-    - *Pass:* Mark `status: validated`. Merge findings into the relevant [[SoT - ADHD Executive Dysfunction]].
-    - *Fail:* Mark `status: rejected`.
+    - _Pass:_ Mark `status: validated`. Merge findings into the relevant [[SoT - ADHD Executive Dysfunction]].
+    - _Fail:_ Mark `status: rejected`.
 
 ---
 
@@ -54,7 +54,7 @@ WHERE status = "active"
 
 ## 4. Candidate Protocols (The Backlog)
 
-*Potentials awaiting definition.*
+_Potentials awaiting definition._
 
 ```dataview
 TABLE without id file.link as "Candidate", purpose as "Goal"
@@ -66,7 +66,7 @@ WHERE status = "pending"
 
 ## 5. Validated Protocols (The System)
 
-*Strategies that have passed the test.*
+_Strategies that have passed the test._
 
 ```dataview
 TABLE without id file.link as "Protocol", source_of_truth as "SoT Link"

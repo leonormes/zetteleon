@@ -1,23 +1,16 @@
 ---
-aliases:
-  - Health MOC
-  - Physical and Mental Performance Map
-  - Vitality Index
+aliases: [Health MOC, Physical and Mental Performance Map, Vitality Index]
 confidence: 5/5
 created: 2025-12-22T12:15:00Z
 epistemic: Meta-index of all health, fitness, and vitality knowledge within ProdOS.
 last_reviewed: 2025-12-22T00:00:00.000Z
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: ""
 review_interval: 6 months
 see_also: []
 source_of_truth: []
 status: stable
-tags:
-  - fitness
-  - health
-  - index
-  - vitality
+tags: [fitness, health, index, vitality]
 title: MOC - Health and Vitality
 type: map
 uid:
@@ -37,11 +30,12 @@ updated:
 
 ## 2. The Hardware: Physical Health
 
-*Canonical Source:* [[SoT - Physical Health and Vitality]]
+_Canonical Source:_ [[SoT - Physical Health and Vitality]]
 
 ### Mobility & Longevity
 
-*Focus: Joint health, pain-free movement, and structural integrity.*
+_Focus: Joint health, pain-free movement, and structural integrity._
+
 - **Core Framework:** [[SoT - Functional Mobility & Primal Movement]]
 - **Daily Protocol:** [[SoT - Protocol - Daily Mobility Foundation]]
 - **Principles:**
@@ -49,7 +43,8 @@ updated:
 
 ### Strength & Calisthenics
 
-*Focus: Force production, power, and bodyweight mastery.*
+_Focus: Force production, power, and bodyweight mastery._
+
 - **Core Framework:** [[SoT - Push-Up Progression (Squat University)]]
 - **Principles:**
     - [[SoT - Primal Movement - Crab]]
@@ -57,25 +52,28 @@ updated:
 
 ### Brain-Body Connection
 
-*Focus: How physical movement regulates the ADHD brain.*
+_Focus: How physical movement regulates the ADHD brain._
+
 - [[Cerebellum Function and Exercise for ADHD Regulation]]
 - [[Morning HIIT Boosts BDNF and Neuroplasticity]]
 - [[Cognitive Health Practices for Technical Work]]
 
 ### Sleep & Recovery
 
-*Focus: Memory consolidation and neurotoxin clearance.*
+_Focus: Memory consolidation and neurotoxin clearance._
+
 - [[Optimal Memory Function Requires Sleep, Stress Management and Mental Exercise]]
 
 ---
 
 ## 3. The Software: Mental & Cognitive Health
 
-*Canonical Source:* [[SoT - Mindfulness and Emotional Regulation]]
+_Canonical Source:_ [[SoT - Mindfulness and Emotional Regulation]]
 
 ### Emotional Regulation (ADHD Specific)
 
-*Focus: Managing the "Storms" and Rejection Sensitivity.*
+_Focus: Managing the "Storms" and Rejection Sensitivity._
+
 - [[SoT - ADHD Self-Compassion & Strengths]]
 - [[Rejection Sensitive Dysphoria]]
 - [[SoT - The Shame-Procrastination Cycle]]
@@ -83,7 +81,8 @@ updated:
 
 ### Focus & Executive Function
 
-*Focus: The mechanics of attention.*
+_Focus: The mechanics of attention._
+
 - [[SoT - The Cognitive Physiology of Task Execution]]
 - [[SoT - Dopamine Menu]]
 - [[Reduced Dopamine D2 D3 Receptors Impair Motivation in ADHD]]
@@ -92,11 +91,12 @@ updated:
 
 ## 4. The Fuel: Nutrition & Environment
 
-*Canonical Source:* [[SoT - Metabolic Health & Satiety Management]]
+_Canonical Source:_ [[SoT - Metabolic Health & Satiety Management]]
 
 ### Metabolic Health & Satiety
 
-*Focus: Hormonal signaling, energy balance, and satiety leverage.*
+_Focus: Hormonal signaling, energy balance, and satiety leverage._
+
 - **Core Framework:** [[SoT - Metabolic Health & Satiety Management]] (Protein Leverage, Fiber, Volume Eating).
 - **Protocols:
     - [[SoT - The YNAB Method#5.4 ADHD Integration (Cognitive Support)|The ADHD Tax (Food Waste/Impulse)]]
@@ -111,7 +111,7 @@ updated:
 
 ## 5. Protocols & Routines
 
-*Verifiable actions to maintain the system.*
+_Verifiable actions to maintain the system._
 
 - **Daily:** [[SoT - Protocol - Daily Mobility Foundation]]
 - **Morning:** [[MOC - Limitless Morning Routine]]

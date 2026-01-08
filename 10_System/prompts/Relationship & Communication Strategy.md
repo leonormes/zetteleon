@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-11T08:48:55Z
 epistemic: 
 last_reviewed: 
-modified: 2026-01-03T10:19:45+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -29,8 +29,8 @@ The central issue is that the user's subjective experience is consistently inval
 
 - **Standard Loop:**
     1. **H states a problem (as a feeling):** "I feel stressed when I see the mess."
-    2. **W states her opposing feeling as fact:** "Well, *I feel* it's *not* a problem."
-- **The "Checkmate":** W claims H is dismissing *her* feeling of neutrality.
+    2. **W states her opposing feeling as fact:** "Well, _I feel_ it's _not_ a problem."
+- **The "Checkmate":** W claims H is dismissing _her_ feeling of neutrality.
 - **The Result:** A 1-1 "stalemate of realities" where H's "feeling of distress" is cancelled by W's "feeling of neutrality." Because there is no shared problem, no action is taken, and H's initial distress is dismissed as invalid.
 
 ---
@@ -40,8 +40,8 @@ The central issue is that the user's subjective experience is consistently inval
 This stalemate is protected by several other dynamics:
 
 - **The "You Do It Too" Deflection:** When H tries to name a dynamic (e.g., "I feel dismissed"), W's immediate response is, "You do it to me!" This "whataboutism" successfully derails the conversation, and H's original point is never addressed.
-- **The "Reset Button":** On the rare occasions an agreement is reached, W "forgets" it by the next time the issue arises and reverts to her "stock argument." This indicates she merely *conceded* to end the conflict but never had genuine *buy-in*.
-- **The "Silent Void":** W often responds to difficult conversations with silence and *never* initiates a follow-up. This places the entire "mental load" for the relationship's emotional maintenance on H, who must always re-initiate.
+- **The "Reset Button":** On the rare occasions an agreement is reached, W "forgets" it by the next time the issue arises and reverts to her "stock argument." This indicates she merely _conceded_ to end the conflict but never had genuine _buy-in_.
+- **The "Silent Void":** W often responds to difficult conversations with silence and _never_ initiates a follow-up. This places the entire "mental load" for the relationship's emotional maintenance on H, who must always re-initiate.
 
 ---
 
@@ -49,7 +49,7 @@ This stalemate is protected by several other dynamics:
 
 These loops manifest in specific, recurring conflicts:
 
-- **The Chores:** W asks H to "help" by tidying. H feels aggrieved because his "optimal" solution (a long-term *system* to make the children tidy) is ignored in favour of W's need for an immediate *task* (relieving her stress *now*).
+- **The Chores:** W asks H to "help" by tidying. H feels aggrieved because his "optimal" solution (a long-term _system_ to make the children tidy) is ignored in favour of W's need for an immediate _task_ (relieving her stress _now_).
 - **The Lamp:** A "zero-sum" conflict where H needed a lamp off due to TV glare, and W needed it on. It became a "Me vs. You" battle rather than an "Us vs. The Problem" collaboration.
 
 ---
@@ -68,18 +68,18 @@ The user brings his own "failings" and fears to the dynamic:
 A "Team Charter" of first principles has been developed to address these loops:
 
 - **Stalemate-Breaker: "Distress Overrules Neutrality"**
-  - This is the key solution. The "stalemate" is broken by differentiating the *types* of feelings.
+  - This is the key solution. The "stalemate" is broken by differentiating the _types_ of feelings.
   - W's "feeling of neutrality" is a **"no-light"** on the dashboard.
   - H's "feeling of distress" is a **"red light"**.
-  - **The Principle:** A team's job is not to debate if the "red light" *should* be on; its job is to *address the distress*.
+  - **The Principle:** A team's job is not to debate if the "red light" _should_ be on; its job is to _address the distress_.
   - **The New "One Rule":** "If it is a problem for **one** of us, it is a problem for **the team**."
 - **Key Script (for the "Checkmate"):**
 
-    > "I am not dismissing your feeling of neutrality. I am 100% accepting it. But your 'feeling of neutrality' doesn't *solve* my 'feeling of distress.' I am not asking you to *share* my feeling. I am asking you to *care* that I am distressed. The 'Team Problem' isn't the *room*; the 'Team Problem' is that *your partner is in distress*."
+    > "I am not dismissing your feeling of neutrality. I am 100% accepting it. But your 'feeling of neutrality' doesn't _solve_ my 'feeling of distress.' I am not asking you to _share_ my feeling. I am asking you to _care_ that I am distressed. The 'Team Problem' isn't the _room_; the 'Team Problem' is that _your partner is in distress_."
 
 - **Solution for "You Do It Too" (Deflection):**
   - Use the **"Acknowledge, Park, and Re-focus"** technique.
-  - **Script:** "You are probably right, and we *must* talk about that. But this is the trap we always fall into. Can we 'park' that for one minute and *please* stay on this point? I promise we will address your feeling next."
+  - **Script:** "You are probably right, and we _must_ talk about that. But this is the trap we always fall into. Can we 'park' that for one minute and _please_ stay on this point? I promise we will address your feeling next."
 - **Solution for "Reset Button":**
     1. **Seek genuine buy-in, not concession:** Actively ask, "Is this a solution that works for you, or are you just agreeing to end the conversation?"
     2. **Create a "Team Playbook":** Write down agreements. This makes them tangible, proves mutual buy-in, and creates a shared "mental load" for remembering them.
@@ -87,4 +87,4 @@ A "Team Charter" of first principles has been developed to address these loops:
 - **Solution for User's "Concession" Fear:**
   - Redefine "respect."
   - **Principle:** **"Respect is not Agreement."**
-  - **Script:** "I can *respect* your need for the light (validation) *while also* stating my need to remove the glare (boundary)." This allows him to validate her without "conceding".
+  - **Script:** "I can _respect_ your need for the light (validation) _while also_ stating my need to remove the glare (boundary)." This allows him to validate her without "conceding".

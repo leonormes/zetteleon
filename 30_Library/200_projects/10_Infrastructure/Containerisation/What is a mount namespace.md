@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-24T15:26:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:25+00:00
+modified: 2026-01-08T10:49:55+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["SoftwareEngineering/Containers", "isolation", "SoftwareEngineering/Linux", "mount", "namespace"]
+tags: ["isolation", "mount", "namespace", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux"]
 title: What is a mount namespace
 type: "Factual"
 uid: 

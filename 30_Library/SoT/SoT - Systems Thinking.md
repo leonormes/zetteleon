@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the mental model of viewing reality as interconnected networks of elements, flows, and feedback loops rather than isolated linear events."
 review_interval: "3 months"
 see_also: ["[[SoT - Process Primacy (Systems Over Goals)]]"]
@@ -20,7 +20,7 @@ updated:
 ## Working Knowledge (Stable)
 
 - **The Trinity of Systems:** A system consists of three things: **Elements** (the parts), **Interconnections** (the relationships/flows), and a **Function/Purpose** (the goal).
-- **Purpose is King:** The least obvious part—the *purpose*—is the most critical determinant of behavior. Purpose is deduced from what the system *actually does* (behavior), not what it *says* it does (rhetoric).
+- **Purpose is King:** The least obvious part—the _purpose_—is the most critical determinant of behavior. Purpose is deduced from what the system _actually does_ (behavior), not what it _says_ it does (rhetoric).
 - **Feedback Loops:**
   - **Balancing Loops (B):** Stability-seeking mechanisms that try to keep a stock at a set level (e.g., thermostat, homeostasis).
   - **Reinforcing Loops (R):** Amplifying mechanisms that lead to exponential growth or collapse (e.g., compound interest, "the rich get richer").
@@ -43,10 +43,10 @@ True leverage comes not from pushing harder on the existing loops, but from:
 
 - **Don't Blame the Person, Look at the Loop:** If a pattern persists despite changing the people involved, the problem is structural.
 - **The Iceberg Model:**
-  - *Events* (What just happened?) <- React
-  - *Patterns* (What has been happening?) <- Anticipate
-  - *Structure* (What interactions cause these patterns?) <- **Design** (Leverage Point)
-  - *Mental Models* (What beliefs uphold this structure?) <- Transform
+  - _Events_ (What just happened?) <- React
+  - _Patterns_ (What has been happening?) <- Anticipate
+  - _Structure_ (What interactions cause these patterns?) <- **Design** (Leverage Point)
+  - _Mental Models_ (What beliefs uphold this structure?) <- Transform
 - **The Core Heuristic:** When analyzing a situation, ask: "Is this a Balancing Loop (trying to stay the same) or a Reinforcing Loop (trying to run away)?"
 
 ## 4. Applied Systems Thinking
@@ -64,8 +64,8 @@ Systems thinking isn't just for engineering; it explains our internal psychology
 Donella Meadows identified that not all interventions are equal.
 
 1. **Low Leverage:** Changing constants, parameters, or numbers (e.g., "Spend 5% more").
-2. **Medium Leverage:** Changing the *feedback loops* (e.g., adding a new sensor or check).
-3. **High Leverage:** Changing the *goal* or *paradigm* of the system (e.g., "We are no longer maximizing profit, but sustainability").
+2. **Medium Leverage:** Changing the _feedback loops_ (e.g., adding a new sensor or check).
+3. **High Leverage:** Changing the _goal_ or _paradigm_ of the system (e.g., "We are no longer maximizing profit, but sustainability").
 
 ## 5. Tensions and Gaps
 

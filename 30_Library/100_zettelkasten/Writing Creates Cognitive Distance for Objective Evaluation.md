@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-06T20:00:02Z
 epistemic: "insight"
 last_reviewed: "2025-11-06"
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To explain how writing creates psychological distance for more objective self-evaluation."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["self-reflection", "thinking", "TheHuman/Cognition/bias", "writing"]
+tags: ["self-reflection", "TheHuman/Cognition/bias", "thinking", "writing"]
 title: Writing Creates Cognitive Distance for Objective Evaluation
 type: "concept"
 uid: 

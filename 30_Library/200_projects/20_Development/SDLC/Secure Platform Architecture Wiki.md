@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-04T01:32:27Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:10+00:00
+modified: 2026-01-08T10:49:50+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -314,7 +314,7 @@ Production (highlighted in yellow) represents live environments:
 
 ## Governance, Risk, and Compliance (GRC)
 
-*New section synthesizing governance requirements.*
+_New section synthesizing governance requirements._
 
 ### Compliance & Risk
 
@@ -323,7 +323,7 @@ Production (highlighted in yellow) represents live environments:
 
 ### Human Factors
 
-*New section synthesizing human elements.*
+_New section synthesizing human elements._
 
 - **Security Awareness:** Regular training for all staff.
 - **Security Champions:** Embedded experts within development teams.

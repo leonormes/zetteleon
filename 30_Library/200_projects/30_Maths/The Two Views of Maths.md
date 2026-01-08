@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-18T10:02:14Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:09+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -37,7 +37,7 @@ Your distinction between 'applicative' and 'generative' is an excellent way to p
 
 The public perception isn't wrong; it's just incomplete. It's like the difference between a skilled car mechanic and an automotive engineer.
 
-- The **mechanic** is a master of the *applicative*. They know the existing systems inside out and can expertly apply tools to fix a problem.
-- The **engineer** is a master of the *generative*. They understand the fundamental principles of thermodynamics and materials science to design a new type of engine from the ground up.
+- The **mechanic** is a master of the _applicative_. They know the existing systems inside out and can expertly apply tools to fix a problem.
+- The **engineer** is a master of the _generative_. They understand the fundamental principles of thermodynamics and materials science to design a new type of engine from the ground up.
 
 Both are brilliant and essential, but they are doing fundamentally different jobs. The public interacts with the 'mechanics' of mathematics, so it's natural that they view the entire subject through that practical, utilitarian lens. Your journey into proofs and logic is you moving from learning how the car works to learning how to design the engine.

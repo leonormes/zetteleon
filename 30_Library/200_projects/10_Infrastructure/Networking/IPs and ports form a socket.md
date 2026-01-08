@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-02T22:12:34Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:21+00:00
+modified: 2026-01-08T10:49:53+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -192,7 +192,7 @@ PORT = 80
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
- s.connect((HOST, PORT)) # DNS resolution happens *inside* connect()
+ s.connect((HOST, PORT)) # DNS resolution happens _inside_ connect()
 
 ##
 

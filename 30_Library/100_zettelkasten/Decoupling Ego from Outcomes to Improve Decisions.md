@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-08-12T07:55:33Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["decision_making", "ego", "TheHuman/Mindset", "probabilistic_thinking", "topic/learning"]
+tags: ["decision_making", "ego", "probabilistic_thinking", "TheHuman/Mindset", "topic/learning"]
 title: Decoupling Ego from Outcomes to Improve Decisions
 type: ""
 uid: 

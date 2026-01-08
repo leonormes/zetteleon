@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-06T19:58:00Z
 epistemic: "insight"
 last_reviewed: "2025-11-06"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To define the intellectual crisis that arises from recognizing the contingent nature of knowledge."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["certainty", "epistemology", "TheHuman/Philosophy", "TheHuman/Cognition/bias"]
+tags: ["certainty", "epistemology", "TheHuman/Cognition/bias", "TheHuman/Philosophy"]
 title: The Realization that Knowledge is Contingent Can Lead to a Crisis of Certainty
 type: "concept"
 uid: 

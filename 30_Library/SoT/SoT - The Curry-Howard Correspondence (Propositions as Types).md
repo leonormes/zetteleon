@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "Defines the foundational isomorphism between mathematical logic and computer programming."
 review_interval: "1 year"
 see_also: ["[[SoT - Proof-Carrying Code via Simulated Dependent Types]]"]
@@ -45,7 +45,7 @@ The Curry-Howard correspondence reveals that software architecture is not merely
 
 Unlike classical logic, Curry-Howard relies on **Constructive Logic**. In this framework, you cannot claim a statement is true simply by showing its negation is impossible. You must provide a **construction** (a program).
 
-- **Rejection of the Law of Excluded Middle:** In classical logic, $P \lor \neg P$ is always true. In computation, $P \lor \neg P$ is only "true" if you have a program that can *decide* which branch holds for any given input.
+- **Rejection of the Law of Excluded Middle:** In classical logic, $P \lor \neg P$ is always true. In computation, $P \lor \neg P$ is only "true" if you have a program that can _decide_ which branch holds for any given input.
 - **The Halting Problem:** The inability to assume every program returns a value directly mirrors the logical limit that not every proposition is provable/decidable.
 
 ### Architectural Consequence
@@ -80,14 +80,14 @@ The Curry-Howard Correspondence is not limited to software binaries; it extends 
 
 - **Thesis:** A valid infrastructure configuration is a proof that the system architecture is sound.
 - **The Witness Pattern:** In Type-Driven Infrastructure, a "Witness" is a data type (Proof) required to construct a resource.
-    - *Proposition:* "A Public IP exists."
-    - *Type:* `IpAddress<Public>` (The Witness).
-    - *Proof:* The successful instantiation of this type by a trusted factory.
+    - _Proposition:_ "A Public IP exists."
+    - _Type:_ `IpAddress<Public>` (The Witness).
+    - _Proof:_ The successful instantiation of this type by a trusted factory.
 - **Application:** By demanding a `Witness` of type `VerifiedRecord<Public>` to create a `TlsCertificate`, we enforce the logical proposition: "A Certificate cannot exist without a valid, publicly routable DNS record." The compiler prevents the representation of the illegal state (Dangling Cert).
 
 ## 6. Tensions, Gaps, and Cross-SoT Coherence
 
-- **Conflict with Classical Intuition:** Most developers think in classical logic ($A$ is either true or false). Learning to think constructively (can I *calculate* the truth of $A$?) is a significant cognitive shift.
+- **Conflict with Classical Intuition:** Most developers think in classical logic ($A$ is either true or false). Learning to think constructively (can I _calculate_ the truth of $A$?) is a significant cognitive shift.
 - **Connection to Formal Verification:** This SoT provides the "Why" for [[SoT - Proof-Carrying Code via Simulated Dependent Types]]. If types are propositions, then encoding sizes into types is encoding a proof about memory safety.
 - **Infrastructure Link:** Directly underpins [[SoT - Type-Driven Infrastructure Strategy]].
 

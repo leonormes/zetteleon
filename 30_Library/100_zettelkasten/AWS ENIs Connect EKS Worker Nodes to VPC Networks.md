@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T11:52:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: "Explain AWS ENIs in EKS networking."
 review_interval: "90"
 see_also: ["AWS Networking MOC.md", "Kubernetes Performs SNAT for Pod Egress Traffic.md"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-22T00:00:00Z
 epistemic: "Designed for age 50+ structural maintenance based on Animal Flow \\\\\\\"Foundation Protocol\\\\\\\"."
 last_reviewed: "2025-12-22"
-modified: 2025-12-26T14:55:39+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "An accessible, daily execution guide for functional mobility and joint health."
 review_interval: "1 year"
 see_also: ["[[SoT - Functional Mobility & Primal Movement]]", "[[SoT - Physical Health and Vitality]]"]
@@ -26,7 +26,7 @@ updated:
 
 ### Phase 1: Preparation (Hardware Check)
 
-*Prepares wrists for load bearing.*
+_Prepares wrists for load bearing._
 
 - [ ] **Wrist Rolls:** Clasp hands, roll in figure-8s. (30s)
 - [ ] **Palm Rocks:** Hands on floor, gentle rock forward/back. (30s)
@@ -34,59 +34,60 @@ updated:
 
 ### Phase 2: Activation (System Online)
 
-*Static Isometrics to engage core and neural connection.*
+_Static Isometrics to engage core and neural connection._
 
 - [ ] **Static Beast Hold:**
-    - *Cue:* Hands under shoulders, knees under navel. Lift knees 1 inch. "Screw" hands into floor.
-    - *Dosage:* 3 x 20 seconds.
+    - _Cue:_ Hands under shoulders, knees under navel. Lift knees 1 inch. "Screw" hands into floor.
+    - _Dosage:_ 3 x 20 seconds.
 - [ ] **Static Crab Hold:**
-    - *Cue:* Fingers point away. Lift hips 1 inch. Open chest, pull shoulders down.
-    - *Dosage:* 3 x 20 seconds.
+    - _Cue:_ Fingers point away. Lift hips 1 inch. Open chest, pull shoulders down.
+    - _Dosage:_ 3 x 20 seconds.
 
 ### Phase 3: Mobility (Dynamic Range)
 
-*Full body expansion.*
+_Full body expansion._
 
 - [ ] **Ape Reach:**
     - [ ] <https://youtu.be/KzaV7Mmt2KU?si=xYYxktHFkd2OziKX>
-    - *Cue:* Deep squat, reach forward (spine curve), open wide (spine extend).
-    - *Dosage:* 5 slow reps.
+    - _Cue:_ Deep squat, reach forward (spine curve), open wide (spine extend).
+    - _Dosage:_ 5 slow reps.
 - [ ] **Crab Reach (Modified):**
-    - *Cue:* From Crab, drive hips up, reach one arm over.
-    - *Dosage:* 3 per side.
+    - _Cue:_ From Crab, drive hips up, reach one arm over.
+    - _Dosage:_ 3 per side.
 
 ### Phase 4: Locomotion (Coordination)
 
-*Cognitive movement.*
+_Cognitive movement._
 
 - [ ] **Lateral Traveling Beast:**
     - [ ] <https://youtu.be/KJa0qPYcrUs?si=7tYGOwnKXicSIfA3>
-    - *Cue:* Opposite hand and foot move together. Small steps. Keep knees low.
-    - *Dosage:* 1 minute continuous movement (slow).
+    - _Cue:_ Opposite hand and foot move together. Small steps. Keep knees low.
+    - _Dosage:_ 1 minute continuous movement (slow).
 
 ### Phase 5: Integration (Flow)
 
-*Connecting the nodes.*
+_Connecting the nodes._
 
 - [ ] **The Underswitch Loop:**
-    - *Sequence:* Static Beast $\rightarrow$ Underswitch $\rightarrow$ Static Crab $\rightarrow$ Underswitch $\rightarrow$ Static Beast.
-    - *Cue:* "Slow Motion." Pivot on ball of foot. Leg travels *under*.
-    - *Dosage:* 5 full rotations each direction.
+    - _Sequence:_ Static Beast $\rightarrow$ Underswitch $\rightarrow$ Static Crab $\rightarrow$ Underswitch $\rightarrow$ Static Beast.
+    - _Cue:_ "Slow Motion." Pivot on ball of foot. Leg travels _under_.
+    - _Dosage:_ 5 full rotations each direction.
 
 ### Phase 6: Decompression (Finisher)
 
-*Spinal reset.*
+_Spinal reset._
 
 - [ ] **Dead Hang:**
-    - *Cue:* Shoulders down and back (Active Hang).
-    - *Dosage:* 1 minute cumulative hold.
+    - _Cue:_ Shoulders down and back (Active Hang).
+    - _Dosage:_ 1 minute cumulative hold.
 
 ---
 
 ## 3. Option B: The 7-Minute Decompression Protocol
 
-*Source: [GMB Fitness Morning Routine](https://youtu.be/Gw6EDGAWifM)*
-*Focus: Full-body decompression and posterior chain mobility.*
+_Source: [GMB Fitness Morning Routine](https://youtu.be/Gw6EDGAWifM)_
+
+_Focus: Full-body decompression and posterior chain mobility._
 
 1. **Squat Rotations (Thoracic & Hip):** Deep squat, grasp ankle, rotate free arm to sky. (10 reps/side + 10s hold).
 2. **Squat Flexion (Spinal):** Deep squat, pull head toward floor. (10 reps + hold).

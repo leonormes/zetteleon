@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-01T09:46:30Z
 epistemic:
 last_reviewed:
-modified: 2026-01-03T10:19:45+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: Deconstructs a long hybrid note into atomic facts and a contextual structural map, while also providing a secondary prompt for synthesizing multiple notes into consolidated concepts.
 review_interval:
 see_also: []
@@ -37,9 +37,9 @@ Your goal is to perform a "cleaving" process:
 
     - **Atomic Notes (bricks):** Must be **context-free**, containing one single, indivisible idea. Must be written in **full, self-explanatory sentences**, as if writing for a future, forgetful self.
     - **Structural Notes (architecture/hubs):** Exist **only to create context** and sequential relationships by linking Atomic Notes (e.g., narratives, arguments, sequences).
-2. **Atomicity:** Each new Atomic Note must contain only *one* idea.
-3. **Sequential Linking (Train of Thought):** The Structural Note must impose an explicit, logical sequence on the Atomic Notes, reflecting how *Folgezettel* creates a traceable train of thought.
-4. **Contextual Linking:** Use `[[wikilinks]]` with inline fields (typed links) to semantically define *why* ideas are connected (e.g., `rel:: supports`, `rel:: contradicts`).
+2. **Atomicity:** Each new Atomic Note must contain only _one_ idea.
+3. **Sequential Linking (Train of Thought):** The Structural Note must impose an explicit, logical sequence on the Atomic Notes, reflecting how _Folgezettel_ creates a traceable train of thought.
+4. **Contextual Linking:** Use `[[wikilinks]]` with inline fields (typed links) to semantically define _why_ ideas are connected (e.g., `rel:: supports`, `rel:: contradicts`).
 
 ---
 
@@ -80,13 +80,13 @@ Execute the plan by generating and updating the necessary notes, strictly adheri
   - Compare and merge the new information into the existing note (if valuable).
   - The `[[wikilink]]` used in the Structural Note will always point to the **existing note's title**.
 
-**2. Create *one* Structural Note for the "Context":**
+**2. Create _one_ Structural Note for the "Context":**
 
 - **Format:** Use the `map` template below.
 - **Title:** Use the original note's title, prefixed with "SN - Sequence" (Structural Note - Sequence).
 - **Content:**
   - Begin the content by explicitly stating the **Framing Question** identified in Phase 2.
-  - Rewrite the *original* narrative. Insert the `[[wikilink]]` to the Atomic Notes (new or existing).
+  - Rewrite the _original_ narrative. Insert the `[[wikilink]]` to the Atomic Notes (new or existing).
   - **Mandate Sequential Order:** The links must be arranged in a clear, logical, traceable **Train of Thought**, reflecting how one idea builds on or follows the previous one. Use introductory phrases or line breaks to emphasize this sequence.
 
 ---
@@ -95,7 +95,7 @@ Execute the plan by generating and updating the necessary notes, strictly adheri
 
 Present your output as a series of new files, strictly following the Canonical Schema V1.
 
-*Since no `[INPUT TEXT]` was provided for cleaving, I will provide the templates you requested, ensuring the Zettelkasten rules are reflected in the process instructions.*
+_Since no `[INPUT TEXT]` was provided for cleaving, I will provide the templates you requested, ensuring the Zettelkasten rules are reflected in the process instructions._
 
 ### Canonical Schema V1 (type-safe & enforceable)
 

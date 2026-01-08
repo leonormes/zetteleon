@@ -4,13 +4,13 @@ confidence: "0.8"
 created: 2025-11-10T13:07:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To provide a metaphor for the function of systems and routines."
 review_interval: "90"
 see_also: ["[[Externalizing Direction Reduces Cognitive Load and Fosters Flow]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["metaphor", "TheHuman/Motivation", "routines", "topic/productivity", "topic/systems"]
+tags: ["metaphor", "routines", "TheHuman/Motivation", "topic/productivity", "topic/systems"]
 title: Systems Act as External Containers for Motivational Energy
 type: "concept"
 uid: 

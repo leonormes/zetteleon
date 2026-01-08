@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-01T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -22,7 +22,7 @@ Do you want to come up with more imaginative ideas? Do you stumble with complica
 
 Of course, you do. So do I.
 
-But when is the last time you thought about *how* you think?
+But when is the last time you thought about _how_ you think?
 
 Do you have a [process for making decisions](https://fs.blog/what-matters-more-in-decisions-analysis-or-process/)? Are you using [mental models](https://fs.blog/mental-models/) and connecting big ideas from multiple disciplines? Are you taking steps to [reduce cognitive biases](https://fs.blog/how-to-make-better-choices-in-life-and-work/)? Have you defined [the problem](https://fs.blog/an-introduction-to-decision-making/), and do you know what success looks like?
 

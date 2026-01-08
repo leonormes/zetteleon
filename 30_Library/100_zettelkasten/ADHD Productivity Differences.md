@@ -5,7 +5,7 @@ created: 2025-06-25T09:10:25Z
 epistemic: "null"
 id: "adhdzettel"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []

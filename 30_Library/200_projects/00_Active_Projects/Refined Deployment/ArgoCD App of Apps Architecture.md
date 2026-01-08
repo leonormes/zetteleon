@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-09-04T07:55:44Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -244,7 +244,7 @@ Based on my analysis of the FITFILE deployment infrastructure, here's a comprehe
 
 ### **🔧 Terraform-Deployed Foundational Components**
 
-*Deployed via [terraform-helm-fitfile-platform](cci:7://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/TFC-Modules/terraform-helm-fitfile-platform:0:0-0:0) module - Required before ArgoCD*
+_Deployed via [terraform-helm-fitfile-platform](cci:7://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/TFC-Modules/terraform-helm-fitfile-platform:0:0-0:0) module - Required before ArgoCD_
 
 | Component                  | Chart Source                        | Namespace                       | Purpose                                        |
 | -------------------------- | ----------------------------------- | ------------------------------- | ---------------------------------------------- |
@@ -257,7 +257,7 @@ Based on my analysis of the FITFILE deployment infrastructure, here's a comprehe
 
 ### **🚀 ArgoCD-Managed Applications**
 
-*Deployed via ArgoCD App of Apps pattern from FFNode umbrella chart*
+_Deployed via ArgoCD App of Apps pattern from FFNode umbrella chart_
 
 #### **Infrastructure & Platform Services**
 

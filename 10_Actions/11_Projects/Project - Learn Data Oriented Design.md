@@ -1,28 +1,23 @@
 ---
 aliases: []
-title: "Project: Master Data-Oriented Design (Rust)"
-type: project
+bridge_note: "Ready to start. First Mission: The Traffic Light State Enforcer."
 confidence: ""
+created: 2026-01-02T09:33:27+00:00
 epistemic: ""
-purpose: ""
-modified: 2026-01-03T10:19:45+00:00
 last_reviewed: ""
+modified: 2026-01-08T10:50:03+00:00
+priority: High
+purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
-created: 2026-01-02T09:33:27+00:00
-tags:
-  - project
-  - learning
-  - rust
-  - "SoftwareEngineering/Architecture"
-  - active
 status: Active
-priority: High
-bridge_note: "Ready to start. First Mission: The Traffic Light State Enforcer."
+tags: ["SoftwareEngineering/Architecture", active, learning, project, rust]
+title: Project - Learn Data Oriented Design
+type: project
 ---
 
-# Project: Master Data-Oriented Design (Rust)
+## Project: Master Data-Oriented Design (Rust)
 
 > [!mission] Objective
 > Shift from "Object-Oriented" thinking (encapsulation/identity) to "Data-Oriented" thinking (transformations/memory).
@@ -30,7 +25,7 @@ bridge_note: "Ready to start. First Mission: The Traffic Light State Enforcer."
 
 ---
 
-## 1. The Syllabus (The Map)
+### 1. The Syllabus (The Map)
 
 | Module | Concepts (Mental Models) | Facts (Syntax/Hardware) | Procedures (Unit Tests) |
 |:--- |:--- |:--- |:--- |
@@ -41,13 +36,13 @@ bridge_note: "Ready to start. First Mission: The Traffic Light State Enforcer."
 
 ---
 
-## 2. First Unit Test: The Traffic Light (State Enforcer)
+### 2. First Unit Test: The Traffic Light (State Enforcer)
 
 **Goal:** Prevent logical bugs at compile time.
 **Context:** A Traffic Light system.
 **Constraint:** It must be impossible to have `Red` and `Green` active simultaneously.
 
-### Requirements:
+#### Requirements
 
 1. Define a `TrafficLight` Enum.
 2. Each variant (`Red`, `Amber`, `Green`) must hold its own distinct data (e.g., `timer: u32`).
@@ -56,17 +51,17 @@ bridge_note: "Ready to start. First Mission: The Traffic Light State Enforcer."
 
 ---
 
-## 3. Resources (Reference Only)
+### 3. Resources (Reference Only)
 
-* *Read only when the Unit Test fails.*
-* [Article] "Parse, Don't Validate" by Alexis King.
-* [Book] "Data-Oriented Design" by Richard Fabian.
-* [Docs] Rust `enum` and Pattern Matching documentation.
+- _Read only when the Unit Test fails._
+- [Article] "Parse, Don't Validate" by Alexis King.
+- [Book] "Data-Oriented Design" by Richard Fabian.
+- [Docs] Rust `enum` and Pattern Matching documentation.
 
 ---
 
-## 4. Bridge Note (Cryosleep)
+### 4. Bridge Note (Cryosleep)
 
-* **Current State:** Project Initialized. Syllabus defined.
-* **Next Physical Action:** Open IDE. Create `traffic_light.rs`. Define the `TrafficLight` enum.
-* **Hook:** If I get this right, I never have to write `if (is_valid)` ever again.
+- **Current State:** Project Initialized. Syllabus defined.
+- **Next Physical Action:** Open IDE. Create `traffic_light.rs`. Define the `TrafficLight` enum.
+- **Hook:** If I get this right, I never have to write `if (is_valid)` ever again.

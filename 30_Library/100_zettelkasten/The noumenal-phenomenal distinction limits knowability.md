@@ -4,7 +4,7 @@ confidence: "0.6"
 created: 2025-10-31T20:06:00Z
 epistemic: "hypothesis"
 last_reviewed: "2025-10-31"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "Philosophical position about the ontological status of meanings and concepts"
 review_interval: "90"
 see_also: ["Ideas exist beyond linguistic expression"]

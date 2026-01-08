@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-24T11:41:58Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:20+00:00
+modified: 2026-01-08T10:49:53+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -26,7 +26,7 @@ Published in **July 2025**, this 16‑minute video explains the **Domain Name Sy
 
 ## Key Concepts Covered
 
-- **DNS fundamentals:** Explains why DNS is the “Internet’s phonebook” that translates human-readable names like *netflix.com* into IP addresses.
+- **DNS fundamentals:** Explains why DNS is the “Internet’s phonebook” that translates human-readable names like _netflix.com_ into IP addresses.
 - **Step-by-step resolution:** Demonstrates how a request flows from a local cache to recursive resolvers, root servers, TLD servers, and finally the authoritative name server.
 - **Caching behavior:** Shows how Windows’ DNS cache works using `ipconfig /displaydns` and how entries persist until TTL (Time To Live) expiry.
 - **Diagnostic tools:**

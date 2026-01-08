@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-14"
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the framework of cognitive progression from 1st person objectification to 6th person pure awareness."
 review_interval: "1 year"
 see_also: ["[[SoT - PRODOS (System Architecture)]]"]
@@ -29,8 +29,8 @@ The first four levels focus on engagement with one's mind and the minds of other
 |:--- |:--- |:--- |
 | **1st Person Thinking** | **The Object** | Perceiving others as objects/obstacles. Lacks Theory of Mind. Judgments are based solely on face-value perception. |
 | **2nd Person Thinking** | **The Other Thinker** | Recognizing others have independent thoughts, but without empathy or flexibility. "I know you think differently, but I don't care." |
-| **3rd Person Thinking** | **Mutual Perspective** | Thinking about *the other's thoughts about oneself*. The basis of **empathy**, compromise, and social cohesion. |
-| **4th Person Thinking** | **Self-Reflection** | Thinking about *one's own thoughts* in relation to the world. <br>**The Trap:** This level allows for identity formation but often leads to **Analysis Paralysis**—getting stuck in the content of the mind. |
+| **3rd Person Thinking** | **Mutual Perspective** | Thinking about _the other's thoughts about oneself_. The basis of **empathy**, compromise, and social cohesion. |
+| **4th Person Thinking** | **Self-Reflection** | Thinking about _one's own thoughts_ in relation to the world. <br>**The Trap:** This level allows for identity formation but often leads to **Analysis Paralysis**—getting stuck in the content of the mind. |
 
 ### Phase II: Awareness (The Observer)
 

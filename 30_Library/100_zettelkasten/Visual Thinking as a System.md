@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-24T13:14:20Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -18,7 +18,7 @@ updated:
 version: "null"
 ---
 
-Zsolt Viczián, in his book *Sketch Your Mind*, distinguishes between two modes of visual thinking:
+Zsolt Viczián, in his book _Sketch Your Mind_, distinguishes between two modes of visual thinking:
 
 1. **Visuals as a tool**: Sketching to clarify a concept when you are stuck.
 2. **Visuals as a system**: A persistent, evolving map where sketches themselves form the knowledge structure.

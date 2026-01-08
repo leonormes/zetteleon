@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T12:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "Establish habits as the primary mechanism through which self-concept develops."
 review_interval: "90"
 see_also: ["[[Accumulating Evidence Reinforces Identity]]", "[[Identity Emerges from Habits Not Fixed at Birth]]", "[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "TheHuman/Identity", "self-concept", "TheHuman/Habits", "TheHuman/Psychology"]
+tags: ["behavior-change", "self-concept", "TheHuman/Habits", "TheHuman/Identity", "TheHuman/Psychology"]
 title: Habits Are the Channel for Developing Beliefs About Self
 type: "concept"
 uid: 
@@ -67,4 +67,4 @@ The person you become through your habits is more valuable than any specific out
 
 **The Deep Truth:**
 
-You cannot separate habits from identity. Your habits *are* your identity-in-action. Change your habits, and you inevitably change your identity. Change your identity, and your habits naturally follow.
+You cannot separate habits from identity. Your habits _are_ your identity-in-action. Change your habits, and you inevitably change your identity. Change your identity, and your habits naturally follow.

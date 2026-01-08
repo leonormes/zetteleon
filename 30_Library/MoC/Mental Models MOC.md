@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-20T09:50:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["TheHuman/Neuroscience", "TheHuman/Cognition", "TheHuman/Psychology"]
+tags: ["TheHuman/Cognition", "TheHuman/Neuroscience", "TheHuman/Psychology"]
 title: Mental Models MOC
 type: "map"
 uid: 

@@ -1,16 +1,16 @@
 ---
-aliases: ["Zsh Type System", "Shell Architecture Implementation", "Torvalds Loop in Zsh", "Type-Driven Shell"]
+aliases: ["Shell Architecture Implementation", "Torvalds Loop in Zsh", "Type-Driven Shell", "Zsh Type System"]
 confidence: "5/5"
 created: 2025-12-31T02:16:13+00:00
 epistemic: "empirical"
 last_reviewed: "2025-12-31"
-modified: 2025-12-31T12:20:35+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To document the concrete implementation of Type-Driven Development and the Torvalds Loop within the Zsh configuration."
 review_interval: "3 months"
-see_also: ["[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[SoT - Type Theory & Data Structures]]", "[[SoT - Data-Centric Software Engineering]]"]
-source_of_truth: ["zsh/dot_zshenv.tmpl", "zsh/modules/00-preflight.zsh", ".chezmoidata.toml"]
+see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - Type Theory & Data Structures]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
+source_of_truth: [".chezmoidata.toml", "zsh/dot_zshenv.tmpl", "zsh/modules/00-preflight.zsh"]
 status: "active"
-tags: ["zsh", "SoftwareEngineering/Architecture", "implementation", "SoftwareEngineering/Linux", "macos", "chezmoi"]
+tags: ["chezmoi", "implementation", "macos", "SoftwareEngineering/Architecture", "SoftwareEngineering/Linux", "zsh"]
 title: SoT - Type-Driven Shell Architecture
 type: "SoT"
 uid:
@@ -21,9 +21,9 @@ updated:
 
 This is a **Concrete Implementation** of the philosophy.
 
-* **The Axiom:** **[[SoT - Data-Centric Software Engineering]]**—*Environment is Data, not Code.*
-* **The Method:** **[[SoT - Type-Driven Development (The Torvalds Loop)]]**—*Applying the Shape -> Access -> Invariants -> Logic loop to Zsh.*
-* **The Subject:** **The Shell (Zsh/Chezmoi)**—*Treating the terminal environment as an instantiated struct.*
+- **The Axiom:** **[[SoT - Data-Centric Software Engineering]]**—_Environment is Data, not Code._
+- **The Method:** **[[SoT - Type-Driven Development (The Torvalds Loop)]]**—_Applying the Shape -> Access -> Invariants -> Logic loop to Zsh._
+- **The Subject:** **The Shell (Zsh/Chezmoi)**—_Treating the terminal environment as an instantiated struct._
 
 ---
 
@@ -127,8 +127,8 @@ We use Zinit as a "Runtime Enforcer" to ensure that tools incompatible with the 
 
 In `dot_zshrc`, we load plugins conditionally based on the flags injected by the Context Layer (`dot_zshenv`).
 
-* **Anti-Pattern:** Loading `kubectl` and checking if it works every time.
-* **Type-Driven:** If `FEATURE_K8S` is 0, the `kubectl` alias and completion do not exist.
+- **Anti-Pattern:** Loading `kubectl` and checking if it works every time.
+- **Type-Driven:** If `FEATURE_K8S` is 0, the `kubectl` alias and completion do not exist.
 
 ```sh
 # Implied Logic in Zinit
@@ -141,6 +141,6 @@ fi
 
 ## 5. Summary of Benefits
 
-* **Correctness by Construction:** It is impossible to generate a `dot_zshenv` with invalid paths for the current OS because the template logic prevents it.
-* **Fail Fast:** The `00-preflight.zsh` script stops the shell from loading into a broken state, clearly identifying "Type Errors" (Missing Dependencies).
-* **Isomorphism:** The Logic Layer (`modules/*.zsh`) looks identical on Mac and Linux because the Context Layer (`zshenv`) handles the mapping of "Abstract Concept" (`VOLUMES_ROOT`) to "Physical Path" (`/Volumes` vs `/mnt`).
+- **Correctness by Construction:** It is impossible to generate a `dot_zshenv` with invalid paths for the current OS because the template logic prevents it.
+- **Fail Fast:** The `00-preflight.zsh` script stops the shell from loading into a broken state, clearly identifying "Type Errors" (Missing Dependencies).
+- **Isomorphism:** The Logic Layer (`modules/*.zsh`) looks identical on Mac and Linux because the Context Layer (`zshenv`) handles the mapping of "Abstract Concept" (`VOLUMES_ROOT`) to "Physical Path" (`/Volumes` vs `/mnt`).

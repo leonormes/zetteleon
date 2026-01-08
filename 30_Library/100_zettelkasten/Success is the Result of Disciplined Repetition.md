@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-30T12:04:01Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -29,7 +29,7 @@ Throughout history, great achievements came from systematic repetition:
 - **Renaissance artists** mastered technique through years of repetitive practice in apprenticeship systems
 - **The Apollo program** succeeded through thousands of repeated procedures and simulations
 
-Discipline is not a magical well of willpower; it is the *result* of a good system that you have practiced repeatedly.
+Discipline is not a magical well of willpower; it is the _result_ of a good system that you have practiced repeatedly.
 
 ## Modern Codification
 

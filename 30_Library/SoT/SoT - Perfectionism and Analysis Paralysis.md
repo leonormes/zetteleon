@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-10-28T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-22"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define Perfectionism not as a high standard, but as a mechanism of avoidance and anxiety management in ADHD."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - PRODOS - System Failure Modes]]"]
 source_of_truth: []
 status: "stable"
-tags: ["TheHuman/Mindset", "prodos", "TheHuman/Cognition/bias", "TheHuman/Psychology"]
+tags: ["prodos", "TheHuman/Cognition/bias", "TheHuman/Mindset", "TheHuman/Psychology"]
 title: SoT - Perfectionism and Analysis Paralysis
 type: "SoT"
 uid: 
@@ -24,7 +24,7 @@ updated:
 Perfectionism functions as an infinite loop that halts execution.
 
 1. **The Threat:** The brain perceives a potential mistake or "mess" not as a learning opportunity, but as a confirmation of incompetence (Rejection Sensitivity).
-2. **The Shield:** "If I don't do it, I can't fail." The brain chooses *not starting* over *starting imperfectly*.
+2. **The Shield:** "If I don't do it, I can't fail." The brain chooses _not starting_ over _starting imperfectly_.
 3. **The Paralysis:** This leads to endless planning, research, and system-building (Productive Procrastination) as a substitute for action.
 
 ### The "All-or-Nothing" Distortion
@@ -37,7 +37,7 @@ ADHD brains often lack "graduated" thinking. A project is either **Perfect** (10
 
 - **System Perfectionism:** Refusing to use a productivity system (like ProdOS) because it "isn't finished yet."
 - **Draft Avoidance:** Inability to write a "vomit draft" because the first sentence must be perfect.
-- **Decision Fatigue:** Inability to choose between two good options because of the fear that one *might* be slightly suboptimal.
+- **Decision Fatigue:** Inability to choose between two good options because of the fear that one _might_ be slightly suboptimal.
 
 ---
 
@@ -46,5 +46,5 @@ ADHD brains often lack "graduated" thinking. A project is either **Perfect** (10
 ProdOS architecture is designed to break this cycle by enforcing **Process over Product**.
 
 1. **The MVA (Minimum Viable Action):** We lower the bar so low that "failure" is impossible.
-2. **HEAD Notes (The Trash Can):** We explicitly designate a "Zero Trust" space (`HEAD` notes) where mess is not just allowed, but *required*.
-3. **Iterative Synthesis:** We accept that truth is evolutionary. You don't write the final SoT; you *grow* it from imperfect drafts.
+2. **HEAD Notes (The Trash Can):** We explicitly designate a "Zero Trust" space (`HEAD` notes) where mess is not just allowed, but _required_.
+3. **Iterative Synthesis:** We accept that truth is evolutionary. You don't write the final SoT; you _grow_ it from imperfect drafts.

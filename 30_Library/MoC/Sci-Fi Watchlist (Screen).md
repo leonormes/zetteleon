@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "Watchlist for Sci-Fi media (Movies & TV)."
 last_reviewed: "2025-12-31"
-modified: 2026-01-02T20:48:38+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: "A unified checkbox list for tracking Sci-Fi viewing."
 review_interval: "3 months"
-see_also: ["[[Sci-Fi Tier List]]", "[[Cinema Watchlist (Screen)]]"]
+see_also: ["[[Cinema Watchlist (Screen)]]", "[[Sci-Fi Tier List]]"]
 source_of_truth: []
 status: "active"
-tags: ["watchlist", "scifi", "entertainment"]
+tags: ["entertainment", "scifi", "watchlist"]
 title: Sci-Fi Watchlist (Screen)
 type: "map"
 uid:
@@ -528,7 +528,7 @@ Viewing the franchise as a series of **forks and patches** applied to a core cod
 
 ## 12. Franchise Deep Dive: Mad Max
 
-The *Mad Max* series operates as a collection of **"Campfire Myths"** rather than a strict, linear history. This legend-based model explains why the character remains roughly the same age despite decades passing between films.
+The _Mad Max_ series operates as a collection of **"Campfire Myths"** rather than a strict, linear history. This legend-based model explains why the character remains roughly the same age despite decades passing between films.
 
 ### The Chronological Timeline
 
@@ -539,10 +539,10 @@ The *Mad Max* series operates as a collection of **"Campfire Myths"** rather tha
    - **Setting:** Post-apocalypse (approx. 3 years later).
    - **Context:** Global war and oil collapse. Max is now a scavenger.
 3. **Mad Max Beyond Thunderdome (1985)**
-   - **Setting:** Deep post-apocalypse (approx. 15 years after *Road Warrior*).
+   - **Setting:** Deep post-apocalypse (approx. 15 years after _Road Warrior_).
    - **Context:** Primitive tribal structures (Bartertown).
 4. **Furiosa: A Mad Max Saga (2024)**
-   - **Setting:** Pre-*Fury Road* (covers 15–20 years).
+   - **Setting:** Pre-_Fury Road_ (covers 15–20 years).
    - **Context:** Direct prequel tracking Furiosa's rise from kidnapping to Imperator.
 5. **Mad Max: Fury Road (2015)**
    - **Setting:** The furthest point in the timeline.

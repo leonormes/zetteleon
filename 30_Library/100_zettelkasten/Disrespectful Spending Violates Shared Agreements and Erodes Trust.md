@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T10:15:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To define when spending becomes disrespectful in a partnership."
 review_interval: "90"
 see_also: []

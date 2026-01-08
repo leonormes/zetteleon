@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-10T12:01:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To provide a model for understanding the different levels of behavior change."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "TheHuman/Identity", "model", "TheHuman/Habits"]
+tags: ["behavior-change", "model", "TheHuman/Habits", "TheHuman/Identity"]
 title: Behavior Change Occurs on Three Layers Outcomes Process and Identity
 type: "concept"
 uid: 
@@ -23,6 +23,6 @@ updated:
 
 **Details:**
 
-1. **Outcomes (Outer Layer):** This layer is concerned with changing results (e.g., losing weight, publishing a book). It is about what you *get*.
-2. **Process (Middle Layer):** This layer is concerned with changing habits and systems (e.g., going to the gym, writing daily). It is about what you *do*.
-3. **Identity (Deepest Layer):** This layer is concerned with changing beliefs, worldview, and self-image. It is about what you *believe*.
+1. **Outcomes (Outer Layer):** This layer is concerned with changing results (e.g., losing weight, publishing a book). It is about what you _get_.
+2. **Process (Middle Layer):** This layer is concerned with changing habits and systems (e.g., going to the gym, writing daily). It is about what you _do_.
+3. **Identity (Deepest Layer):** This layer is concerned with changing beliefs, worldview, and self-image. It is about what you _believe_.

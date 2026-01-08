@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-11T06:51:10Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:10+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -24,9 +24,9 @@ Many people dislike mathematics, often recalling it as a subject of rote memoris
 
 **Party Tricks: From Magic to Mathematical Notions**
 
-Consider a classic "think of a number" party trick: "Think of a number. Add ten. Double the result. Subtract six. Divide by two. Take away the number you first thought of. The answer is seven. Always". For an individual, trying concrete examples, such as picking the number five and following the steps, will always lead to seven. However, performing a hundred such examples will only convince someone that the calculation is "rigged" to produce seven; it will not reveal *how* it is rigged. This is where the distinction between "notions" and "notations" becomes crucial, and where mathematicians are "very wary indeed of 'experimental evidence'," as it can be "totally misleading".
+Consider a classic "think of a number" party trick: "Think of a number. Add ten. Double the result. Subtract six. Divide by two. Take away the number you first thought of. The answer is seven. Always". For an individual, trying concrete examples, such as picking the number five and following the steps, will always lead to seven. However, performing a hundred such examples will only convince someone that the calculation is "rigged" to produce seven; it will not reveal _how_ it is rigged. This is where the distinction between "notions" and "notations" becomes crucial, and where mathematicians are "very wary indeed of 'experimental evidence'," as it can be "totally misleading".
 
-To understand *why* the trick works, one must move beyond specific numbers and think in generalities. Ancient Egyptian mathematicians had a precursor to this general thinking, using the term "heap" for an unknown number. By applying the steps of the trick to "heap," it becomes clear how the initial unknown quantity cancels out, leaving only the constant result of seven. This "heap" method is, in essence, algebra–a form of "symbolic reasoning that works with numbers without knowing their actual values". Replacing "heap" with the traditional algebraic variable 'x' and representing operations with conventional symbols transforms the "heap" calculation into formal algebra, but the underlying "notion" remains the same. As Gauss pointed out, "what matters is notions, not notations". The challenge is to "spend a lot of time getting used to the symbols before your mind latches on to the ideas".
+To understand _why_ the trick works, one must move beyond specific numbers and think in generalities. Ancient Egyptian mathematicians had a precursor to this general thinking, using the term "heap" for an unknown number. By applying the steps of the trick to "heap," it becomes clear how the initial unknown quantity cancels out, leaving only the constant result of seven. This "heap" method is, in essence, algebra–a form of "symbolic reasoning that works with numbers without knowing their actual values". Replacing "heap" with the traditional algebraic variable 'x' and representing operations with conventional symbols transforms the "heap" calculation into formal algebra, but the underlying "notion" remains the same. As Gauss pointed out, "what matters is notions, not notations". The challenge is to "spend a lot of time getting used to the symbols before your mind latches on to the ideas".
 
 Other examples reinforce this principle:
 
@@ -36,7 +36,7 @@ Other examples reinforce this principle:
 
 **Proof: The Guarantee of General Understanding**
 
-The conceptual leap from isolated examples to general principles is cemented by the concept of proof. Proofs provide a "once-and-all guarantee that certain lines of reasoning always work". Instead of merely checking numerous instances, a proof offers a logical argument demonstrating that a method is universally valid. For the initial party trick, the algebraic manipulation of 'x' serves as this proof, showing that the number '7' will *always* be the answer, irrespective of the starting number.
+The conceptual leap from isolated examples to general principles is cemented by the concept of proof. Proofs provide a "once-and-all guarantee that certain lines of reasoning always work". Instead of merely checking numerous instances, a proof offers a logical argument demonstrating that a method is universally valid. For the initial party trick, the algebraic manipulation of 'x' serves as this proof, showing that the number '7' will _always_ be the answer, irrespective of the starting number.
 
 The emphasis on stringent, logically impeccable proof is a cornerstone of modern mathematics, especially given historical crises where seemingly correct theorems contradicted each other. David Hilbert, a leading mathematician around 1900, famously expressed optimism that all mathematical questions would eventually be solved and that mathematics could be proven consistent, stating, "We must know: we shall know". However, Kurt Gödel later demonstrated the inherent limits to this ambition. Gödel's incompleteness theorems, which are conceptually deep and rely on logical paradoxes similar to the "liar paradox" ("This statement is false"), showed that it is impossible to prove the consistency of mathematics from within the system itself. This profound discovery revealed that certain mathematical statements are "undecidable," meaning there is no algorithmic solution to determine their truth or falsity, and that some theorems might be unprovable.
 

@@ -4,13 +4,13 @@ confidence: "1.0"
 created: 2025-11-22T15:05:00Z
 epistemic: "fact"
 last_reviewed: "2025-11-22"
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Defines the Terraform function for calculating subnets."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["HCL", "terraform", "SoftwareEngineering/Networking"]
+tags: ["HCL", "SoftwareEngineering/Networking", "terraform"]
 title: Concept - Terraform cidrsubnet Function
 type: "concept"
 uid: 

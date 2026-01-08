@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-08-27T19:19:29Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["meaning", "TheHuman/Mindset", "personal-growth", "topic/philosophy"]
+tags: ["meaning", "personal-growth", "TheHuman/Mindset", "topic/philosophy"]
 title: The Impact Fallacy in Intellectual Life
 type: "null"
 uid: 

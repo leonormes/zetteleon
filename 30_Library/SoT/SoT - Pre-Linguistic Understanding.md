@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-13T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:52+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define understanding as a fundamental, pre-linguistic process rooted in sensorimotor experience, positioning language as a secondary tool for refinement rather than the source of thought."
 review_interval: "3 months"
 see_also: []
@@ -21,7 +21,7 @@ updated:
 
 1. **The Weak Sapir-Whorf Hypothesis:** Language influences thought (by providing scaffolding) but does not determine it. A mechanic understands an engine's torque through their hands long before they can explain the physics formula.
 2. **Embodied Cognition:** We understand "heavy" because we have muscles. We understand "forward" because we have eyes. An AI without a body has no "grounding" for these concepts; it only has statistical correlations of tokens.
-3. **The Translation Gap:** Miscommunication occurs because Speaker A translates their rich, pre-linguistic model into limited words, and Listener B attempts to reconstruct a *different* model from those words based on their own differing experiences.
+3. **The Translation Gap:** Miscommunication occurs because Speaker A translates their rich, pre-linguistic model into limited words, and Listener B attempts to reconstruct a _different_ model from those words based on their own differing experiences.
 
 ---
 
@@ -30,8 +30,8 @@ updated:
 ### A. Education (Pedagogy)
 
 - **Action First, Words Second:** You cannot "explain" a complex system to someone until they have a sensorimotor hook.
-  - *Bad:* Lecturing on "Torque" for an hour.
-  - *Good:* Handing them a wrench, letting them struggle to turn a bolt, *then* explaining Torque.
+  - _Bad:_ Lecturing on "Torque" for an hour.
+  - _Good:_ Handing them a wrench, letting them struggle to turn a bolt, _then_ explaining Torque.
 - **Inquiry-Based Learning:** Questions force the brain to build a pre-linguistic "slot" that the answer can then fill.
 
 ### B. Communication
@@ -42,7 +42,7 @@ updated:
 ### C. Artificial Intelligence
 
 - **The Chinese Room Problem:** LLMs operate entirely on the "Map" level (Language). They have zero access to the "Territory" (Pre-linguistic reality). They can generate the sentence "The stove is hot" without having the neural pathway for "Pain/Heat."
-- **Result:** AI "Hallucinations" are not errors of fact; they are errors of *grounding*. The AI does not "know" anything; it predicts tokens.
+- **Result:** AI "Hallucinations" are not errors of fact; they are errors of _grounding_. The AI does not "know" anything; it predicts tokens.
 
 ---
 

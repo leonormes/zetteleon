@@ -5,7 +5,7 @@ created: 2025-07-10T08:30:31Z
 epistemic: ""
 id: "azure_entra_iam_implementation_guide"
 last_reviewed: ""
-modified: 2026-01-03T10:19:23+00:00
+modified: 2026-01-08T10:49:54+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -48,7 +48,7 @@ To effectively implement and manage a modern IAM system, it is beneficial to ado
    Once a user is authenticated, access control determines which resources they are permitted to enter or use. This is the "front door" of your digital assets. The most prevalent model is Role-Based Access Control (RBAC), where permissions are assigned to roles (e.g., "Accountant," "Sales Manager") rather than individual users. This simplifies administration and enforces the principle of least privilege by ensuring users only have access to what is necessary for their job function. In today's distributed environments, access control must be consistently enforced across on-premises systems, multiple cloud platforms, and countless applications.
 
 3. Authorization: What can you do once you're inside?
-   Authorization goes a step beyond access control by defining the specific actions an authenticated and admitted user can perform within a resource. For example, a user might be authorized to *view* a document but not *edit* or *delete* it. These permissions are typically defined in granular policies and are often tied to the user's role or specific attributes. Effective authorization prevents unauthorized data modification, deletion, or exfiltration, providing a critical layer of internal security.
+   Authorization goes a step beyond access control by defining the specific actions an authenticated and admitted user can perform within a resource. For example, a user might be authorized to _view_ a document but not _edit_ or _delete_ it. These permissions are typically defined in granular policies and are often tied to the user's role or specific attributes. Effective authorization prevents unauthorized data modification, deletion, or exfiltration, providing a critical layer of internal security.
 
 4. Administration and Governance: Who makes the rules, and how are they enforced?
    This pillar encompasses the overarching policies, procedures, and tools for managing the entire identity lifecycle. It involves the automated processes of provisioning new user accounts, modifying access as roles change, and de-provisioning accounts when a user leaves the organization. Strong governance is essential to prevent "privilege creep," where users accumulate unnecessary access rights over time, creating significant security risks. This function is often managed by dedicated Identity Governance and Administration (IGA) solutions that provide centralized control, automated workflows, and regular access reviews to ensure compliance and security.

@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-10-31T10:51:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "Explain DNS MX records."
 review_interval: "90"
 see_also: ["DNS is a distributed database.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["SoftwareEngineering/networking/dns", "email", "SoftwareEngineering/Networking"]
+tags: ["email", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
 title: MX Records Route Email to Designated Mail Servers
 type: "concept"
 uid: 

@@ -1,26 +1,26 @@
 ---
 aliases: []
-title: 🧠 Learning Registry
-status: ""
 confidence: ""
-epistemic: ""
-purpose: ""
 created: 2026-01-01T19:03:57+00:00
-modified: 2026-01-03T10:18:58+00:00
+epistemic: ""
 last_reviewed: ""
+modified: 2026-01-08T10:49:46+00:00
+purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
-tags: type/moc
+status: ""
+tags: [type/moc]
+title: MOC - Learning Registry
 type: map
 ---
 
-# 🧠 Learning Registry
+## 🧠 Learning Registry
 
 > [!tip] Prime Directive
 > **Single Threaded Processing.** You cannot start a new quest until the current Boss Fight is won or the quest is formally abandoned.
 
-## ⚔️ Active Quest (Limit: 1)
+### ⚔️ Active Quest (Limit: 1)
 
 ```dataview
 TABLE WITHOUT ID 
@@ -31,9 +31,9 @@ FROM "30_Library/200_projects/50_Learning"
 WHERE status = "active"
 ```
 
-## 📜 Quest Board (Backlog)
+### 📜 Quest Board (Backlog)
 
-*Priority ordered. Do not hoard cursors here.*
+_Priority ordered. Do not hoard cursors here._
 
 ```dataview
 TABLE WITHOUT ID
@@ -45,7 +45,7 @@ WHERE status = "queued"
 SORT priority desc
 ```
 
-## 🏆 Hall of Heroes (Completed)
+### 🏆 Hall of Heroes (Completed)
 
 ```dataview
 TABLE WITHOUT ID
@@ -58,7 +58,7 @@ SORT completed_date desc
 
 ---
 
-### ⚙️ Engine Rules
+#### ⚙️ Engine Rules
 
 1. **The Slot Rule:** There is only one "Active" slot. To move a card from `queued` to `active`, you must first move the current `active` project to `finished` or `paused`.
 2. **The Boss Rule:** No project enters `active` without a defined **Boss Fight** (a concrete deliverable).

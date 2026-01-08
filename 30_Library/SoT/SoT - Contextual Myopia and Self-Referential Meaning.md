@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-12"
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "Canonical definition and structural analysis of Contextual Myopia and Self-Referential Meaning."
 review_interval: "6 months"
 see_also: ["[[Contextual Myopia and Goal Displacement]]", "[[Goal Displacement]]", "[[Humans are susceptible to contextual myopia]]", "[[MOC - Cognitive Biases]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - PRODOS (System Architecture)]]", "[[Sunk Cost Fallacy Reinforces Myopia]]", "[[The Focusing Illusion]]"]
@@ -36,8 +36,8 @@ Contextual Myopia is not a static state; it is a self-reinforcing loop driven by
 ### Stage 3: The Error (The Outcome)
 
 - **Mechanism:** **Goal Displacement.**
-- **Description:** Originating in organizational sociology, Goal Displacement occurs when the *original goals (ends)* of an activity are replaced by the *rules, procedures, and processes (means)* that were meant to achieve them. The process becomes more important than the outcome.
-  - *Classic Example:* A development team deriving achievement from completing tasks and closing tickets (means) rather than providing value to users (end).
+- **Description:** Originating in organizational sociology, Goal Displacement occurs when the _original goals (ends)_ of an activity are replaced by the _rules, procedures, and processes (means)_ that were meant to achieve them. The process becomes more important than the outcome.
+  - _Classic Example:_ A development team deriving achievement from completing tasks and closing tickets (means) rather than providing value to users (end).
 - **Result:** Efficiency (doing things right) replaces Effectiveness (doing the right things).
 
 ### Stage 4: The Lock-In (The Trap)
@@ -62,7 +62,7 @@ In high-complexity environments (like software engineering or PKM), Contextual M
 ## 4. Counter-Strategies: Bursting the Bubble
 
 1. **The "Zoom Out" Ritual:** Deliberately break the environmental lock. Stand up, walk away, change context.
-2. **The "Why" Test:** Ask "What is the *ultimate* goal of this task?" If the answer is "to finish the task," you are in goal displacement.
+2. **The "Why" Test:** Ask "What is the _ultimate_ goal of this task?" If the answer is "to finish the task," you are in goal displacement.
 3. **The "Sunk Cost" Audit:** Explicitly ask: "If I had not started this, would I start it now?" If no, stop immediately.
 4. **External Validation:** Use a "Squad" or a mentor to provide an objective, outside view of importance.
 
@@ -70,7 +70,7 @@ In high-complexity environments (like software engineering or PKM), Contextual M
 
 ## 5. Related Concepts
 
-- **[[SoT - Illusion of Explanatory Depth (IoED)]]**: Related to overestimating understanding; here we overestimate *importance*.
+- **[[SoT - Illusion of Explanatory Depth (IoED)]]**: Related to overestimating understanding; here we overestimate _importance_.
 - **[[SoT - Dunning-Kruger Effect]]**: Can exacerbate the inability to see the broader context.
 - **[[SoT - Simplicity and Re-entry (ProdOS Principles)]]**: Designed to prevent the complexity that breeds myopia.
 - **[[SoT - Process Primacy (Systems Over Goals)]]**: A counter-philosophy emphasizing outcomes over rigid adherence to process.

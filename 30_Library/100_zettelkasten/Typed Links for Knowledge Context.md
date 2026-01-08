@@ -4,7 +4,7 @@ confidence: "0.92"
 created: 2025-10-31T08:19:00Z
 epistemic: "principle"
 last_reviewed: "2025-10-31"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "Explains how typed links add semantic meaning to wikilinks, transforming them from simple references into meaningful relationships."
 review_interval: "90"
 see_also: []
@@ -23,7 +23,7 @@ updated:
 
 **Details:**
 
-A bare wikilink `[[Atomic Note]]` tells you that two notes are connected, but not *why* or *how*. A typed link answers that question by adding semantic metadata.
+A bare wikilink `[[Atomic Note]]` tells you that two notes are connected, but not _why_ or _how_. A typed link answers that question by adding semantic metadata.
 
 Common relation types include:
 
@@ -33,7 +33,7 @@ Common relation types include:
 - `rel:: contradicts`: Atomic note challenges or opposes the point
 - `rel:: mitigates`: Atomic note reduces risk or provides a solution
 
-**Example:** Instead of `[[Error Budgets]]`, you write `[[Error Budgets]] rel:: mitigates strategy:: "Use bounded failure modes"`. This tells both humans and machines that the atomic note "Error Budgets" *mitigates* a risk mentioned in the structural note.
+**Example:** Instead of `[[Error Budgets]]`, you write `[[Error Budgets]] rel:: mitigates strategy:: "Use bounded failure modes"`. This tells both humans and machines that the atomic note "Error Budgets" _mitigates_ a risk mentioned in the structural note.
 
 Typed links are placed inline within the narrative of a structural note (map, argument, comparison). They become queryable via Dataview, enabling you to ask questions like "show me all atomic notes that contradict this argument" or "find examples of X".
 

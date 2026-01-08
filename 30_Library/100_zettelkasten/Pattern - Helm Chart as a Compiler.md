@@ -1,39 +1,34 @@
 ---
+aliases: ["Pattern - Data Centric IaC"]
 confidence: high
+created: 2026-01-07T10:14:28+00:00
 epistemic: confirmed
-purpose: "Define the Data-Centric pattern for Infrastructure as Code"
-modified: 2026-01-07T14:56:29+00:00
 last_reviewed: 2026-01-07
+modified: 2026-01-08T10:49:59+00:00
+purpose: "Define the Data-Centric pattern for Infrastructure as Code"
 review_interval: yearly
-see_also: 
+see_also:
   - "[[Refactor: Helm Chart Compiler]]"
 source_of_truth: []
-aliases:
-  - "Pattern - Data Centric IaC"
-created: 2026-01-07T10:14:28+00:00
 status: stable
-tags:
-  - pattern
-  - "SoftwareEngineering/Architecture"
-  - helm
-  - devops
-title: "Pattern: Helm Chart as a Compiler"
+tags: ["SoftwareEngineering/Architecture", devops, helm, pattern]
+title: Pattern - Helm Chart as a Compiler
 type: concept
 ---
 
-# Pattern: Helm Chart as a Compiler
+## Pattern: Helm Chart as a Compiler
 
 > [!abstract] The Concept
 > Move infrastructure configuration from a **Wrapper** model (exposing vendor flags) to a **Compiler** model (expanding Intent into Configuration).
-> **Goal:** The user declares *Service Level Objectives* (SLA), and the system generates the *Implementation Details*.
+> **Goal:** The user declares _Service Level Objectives_ (SLA), and the system generates the _Implementation Details_.
 
 ---
 
-## 1. The Core Philosophy
+### 1. The Core Philosophy
 
 This pattern applies **Data-Oriented Design** to DevOps.
 
-### The Shift
+#### The Shift
 
 | Feature | Wrapper Pattern (Old) | Compiler Pattern (New) |
 |:--- |:--- |:--- |
@@ -42,7 +37,7 @@ This pattern applies **Data-Oriented Design** to DevOps.
 | **Validation** | Runtime Errors (Invalid Config) | **Unrepresentable States** (Enum) |
 | **Role** | Pass-through | Transformer |
 
-### The "Torvalds Loop" for IaC
+#### The "Torvalds Loop" for IaC
 
 1. **Shape (The Type):** Define the business intent. (e.g., "Mission Critical" vs "Dev").
 2. **Data (The Spec):** Create a lookup table that maps Types to physical values.
@@ -50,9 +45,9 @@ This pattern applies **Data-Oriented Design** to DevOps.
 
 ---
 
-## 2. Implementation Strategy
+### 2. Implementation Strategy
 
-### Phase 1: The Shape (Intent Schema)
+#### Phase 1: The Shape (Intent Schema)
 
 Reduce the user interface (`values.yaml`) to the absolute minimum.
 
@@ -63,7 +58,7 @@ database:
   vendor: "bitnami"          # The Provider
 ```
 
-### Phase 2: The Data (Structure of Arrays)
+#### Phase 2: The Data (Structure of Arrays)
 
 Replace conditional logic with a **Spec Table** (`_specs.yaml`). This is the "Source of Truth".
 
@@ -77,9 +72,9 @@ _specs:
       backup: true
 ```
 
-### Phase 3: The Logic (Compiler)
+#### Phase 3: The Logic (Compiler)
 
-The template acts as an adapter. It does not decide *what* to do; it only decides *how* to format the instruction for the specific vendor.
+The template acts as an adapter. It does not decide _what_ to do; it only decides _how_ to format the instruction for the specific vendor.
 
 ```yaml
 # The Compiler Logic
@@ -94,7 +89,7 @@ The template acts as an adapter. It does not decide *what* to do; it only decide
 
 ---
 
-## 3. Benefits
+### 3. Benefits
 
 1. **Zero Human Error:** Users cannot accidentally set `replicas: 1` on a `mission-critical` database. The state is unrepresentable.
 2. **Hardware Sympathy:** Resources are defined in "T-Shirt Sizes" (Profiles) that match physical node pools, ensuring perfect bin-packing.

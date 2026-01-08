@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-17T12:18:08Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:10+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -54,7 +54,7 @@ This is how you balance the "hard" with the "boring".
 Don't just read a textbook for a month. Break your learning into a tight loop.
 
 - **Learn (The Theory):** For one week, focus on learning a single concept from a textbook or video course. For example, "Mathematical Induction". Watch the lectures, read the chapter, and take notes.
-- **Play (The Problems):** For the next week, **do not learn anything new**. Instead, dedicate your time to solving problems *only* on that topic. Start with the easy exercises in the book. Then, find more challenging problems from sites like Project Euler or Brilliant.org. This hands-on "play" is what solidifies knowledge and makes it fun.
+- **Play (The Problems):** For the next week, **do not learn anything new**. Instead, dedicate your time to solving problems _only_ on that topic. Start with the easy exercises in the book. Then, find more challenging problems from sites like Project Euler or Brilliant.org. This hands-on "play" is what solidifies knowledge and makes it fun.
 
 ### 2. Pick a "Spine" Resource
 

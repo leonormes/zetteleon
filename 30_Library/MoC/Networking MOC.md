@@ -3,20 +3,18 @@ aliases: []
 confidence: null
 created: 2025-10-24T14:25:58Z
 epistemic: null
+id: Networking MOC
 last_reviewed: null
-modified: 2025-12-26T16:19:14+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: null
 review_interval: null
 see_also: []
 source_of_truth: []
 status: null
-tags:
-  - type/moc
-  - "SoftwareEngineering/Networking"
+tags: ["SoftwareEngineering/Networking", type/moc]
 title: Networking MOC
 type: map
 version: null
-id: Networking MOC
 ---
 
 This Map of Content (MOC) serves as the top-level entry point for all networking-related concepts, technologies, and implementations.

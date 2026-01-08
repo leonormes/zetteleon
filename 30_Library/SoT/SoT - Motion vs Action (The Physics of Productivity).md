@@ -1,16 +1,16 @@
 ---
-aliases: ["Motion vs Action", "The Physics of Productivity", "Action Bias"]
+aliases: ["Action Bias", "Motion vs Action", "The Physics of Productivity"]
 confidence: "5/5"
 created: 2025-11-01T20:22:24Z
 epistemic: "The fundamental physics of productivity, defining the distinction between preparation and execution."
 last_reviewed: "2025-12-31"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To provide a diagnostic framework for identifying procrastination disguised as preparation."
 review_interval: "6 months"
-see_also: ["[[SoT - Action Management Framework]]", "[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]", "[[SoT - Bridging the Intention-Action Gap]]"]
+see_also: ["[[SoT - Action Management Framework]]", "[[SoT - Bridging the Intention-Action Gap]]", "[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]"]
 source_of_truth: ["[[30_Library/100_zettelkasten/MOC - Motion vs Action.md]]"]
 status: "stable"
-tags: ["action", "productivity", "adhd", "mental_models", "prodos"]
+tags: ["action", "adhd", "mental_models", "prodos", "productivity"]
 title: SoT - Motion vs Action (The Physics of Productivity)
 type: "SoT"
 uid: 
@@ -23,15 +23,15 @@ updated:
 > **Motion** is planning, strategizing, and learning. It creates **Potential Energy** (Possibility).
 > **Action** is the behavior that produces a tangible outcome. It creates **Kinetic Energy** (Result).
 >
-> **The Law:** Motion is necessary but *insufficient*. You cannot plan your way to a result; you must act your way there.
+> **The Law:** Motion is necessary but _insufficient_. You cannot plan your way to a result; you must act your way there.
 
 ### 1.1 The Progress Diagnostic
 
 To determine if you are working or just moving, ask:
 
-* **"If I stopped this activity right now, would I be physically closer to my goal?"**
-    * *Yes:* You are in Action.
-    * *No:* You are in Motion.
+- **"If I stopped this activity right now, would I be physically closer to my goal?"**
+    - _Yes:_ You are in Action.
+    - _No:_ You are in Motion.
 
 | Activity | Motion (Preparation) | Action (Execution) |
 |:--- |:--- |:--- |
@@ -56,8 +56,8 @@ Motion is dangerous because it **feels like progress** without the risk of failu
 
 For the ADHD brain, Motion is a trap of **Executive Dysfunction**:
 
-* **Initiation Paralysis:** The transition from Static to Kinetic energy requires a high activation threshold.
-* **Vagueness:** "Work on Project" is a vague concept (Motion). The brain freezes. "Open file X" is a specific instruction (Action).
+- **Initiation Paralysis:** The transition from Static to Kinetic energy requires a high activation threshold.
+- **Vagueness:** "Work on Project" is a vague concept (Motion). The brain freezes. "Open file X" is a specific instruction (Action).
 
 ---
 
@@ -67,15 +67,15 @@ For the ADHD brain, Motion is a trap of **Executive Dysfunction**:
 
 Stop looking at the "Project." Look at the **Atomic Step**.
 
-* *Protocol:* [[SoT - Action Management Framework#2.2 The Minimal Viable Action (MVA)|The Minimal Viable Action (MVA)]].
-* *Logic:* Reducing the scope reduces the activation energy required to start.
+- _Protocol:_ [[SoT - Action Management Framework#2.2 The Minimal Viable Action (MVA)|The Minimal Viable Action (MVA)]].
+- _Logic:_ Reducing the scope reduces the activation energy required to start.
 
 ### 3.2 Implementation Intentions
 
 Transform vague intentions into **Triggered Scripts**.
 
-* *Vague:* "I will work out more."
-* *Concrete:* "When I close my laptop at 5pm (Trigger), I will immediately put on my running shoes (Action)."
+- _Vague:_ "I will work out more."
+- _Concrete:_ "When I close my laptop at 5pm (Trigger), I will immediately put on my running shoes (Action)."
 
 ### 3.3 The 4D Decision Matrix
 
@@ -92,14 +92,14 @@ When facing a task, strictly categorize it to prevent "churn" (Motion).
 
 Leaders often confuse "Meetings" (Motion) with "Decisions" (Action).
 
-* **Strategic Motion:** "We need a strategy for Q4."
-* **Strategic Action:** "Draft the 3 core objectives and email them to the team by 4pm."
-* **The Rule:** Every meeting must end with assigned **Actions**, not just "Next Steps" (which are often just more Motion).
+- **Strategic Motion:** "We need a strategy for Q4."
+- **Strategic Action:** "Draft the 3 core objectives and email them to the team by 4pm."
+- **The Rule:** Every meeting must end with assigned **Actions**, not just "Next Steps" (which are often just more Motion).
 
 ---
 
 ## 5. Summary
 
-* **Motion** is good for *planning* but bad for *doing*.
-* **Action** is the only thing that changes reality.
-* **The Goal:** Minimize the time spent in Motion. Move to Action as quickly as possible.
+- **Motion** is good for _planning_ but bad for _doing_.
+- **Action** is the only thing that changes reality.
+- **The Goal:** Minimize the time spent in Motion. Move to Action as quickly as possible.

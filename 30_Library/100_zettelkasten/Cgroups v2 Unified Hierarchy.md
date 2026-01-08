@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To explain the differences and improvements in cgroups v2."
 review_interval: "1 year"
 see_also: ["[[Cgroups Limit and Manage Container Resources]]"]
 source_of_truth: ["[[SoT - Linux Container Primitives]]"]
 status: "stable"
-tags: ["kernel", "SoftwareEngineering/Linux", "modern-cgroups"]
+tags: ["kernel", "modern-cgroups", "SoftwareEngineering/Linux"]
 title: Cgroups v2 Unified Hierarchy
 type: "concept"
 uid: 

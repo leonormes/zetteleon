@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-11-22T15:05:03Z
 epistemic: "NA"
 last_reviewed: "2025-11-22"
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "Explains the refactoring of subnet logic for clarity."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["terraform", "SoftwareEngineering/Networking"]
+tags: ["SoftwareEngineering/Networking", "terraform"]
 title: MOC - Refactoring Subnet Definitions for Readability
 type: "map"
 uid: 
@@ -39,7 +39,7 @@ The improved approach uses [[Strategy - Hierarchical Subnetting]] to break the c
 jumpbox_block_prefix = cidrsubnet(local.vnet_address_space, 2, 2) # Result: 192.168.200.128/26
 ```
 
-2. **Carve the specific subnet:** Then, define the specific VM subnet (`/29`) from *that* intermediate block.
+2. **Carve the specific subnet:** Then, define the specific VM subnet (`/29`) from _that_ intermediate block.
 
 ```hcl
 vm_subnet_address_prefix = [cidrsubnet(local.jumpbox_block_prefix, 3, 0)] # Result: 192.168.200.128/29

@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "To deconflict the concepts of goals and intentions for better psychological health."
 review_interval: "1 year"
 see_also: ["[[SoT - Intentional Living]]"]
@@ -23,7 +23,7 @@ A critical failure in many productivity systems is the conflation of **Goals** a
 ## 📐 The Distinction
 
 - **Goals are Destinations:** Focused on a future outcome (e.g., "Finish the app," "Climb the mountain"). They provide the target.
-- **Intentions are "How You Show Up":** Process-oriented and grounded in the present. They define the *quality* of attention applied to the task (e.g., "Work with creativity," "Face fear with compassion").
+- **Intentions are "How You Show Up":** Process-oriented and grounded in the present. They define the _quality_ of attention applied to the task (e.g., "Work with creativity," "Face fear with compassion").
 
 ## 🧠 Burnout Prevention
 

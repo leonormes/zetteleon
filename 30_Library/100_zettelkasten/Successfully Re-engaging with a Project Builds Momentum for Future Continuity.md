@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-11T19:05:15Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "Explains the meta-benefit of successfully re-engaging with a project."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Habits", "topic/productivity", "TheHuman/Psychology"]
+tags: ["TheHuman/Habits", "TheHuman/Psychology", "topic/productivity"]
 title: Successfully Re-engaging with a Project Builds Momentum for Future Continuity
 type: "principle"
 uid: 

@@ -6,14 +6,14 @@ criteria: "Notes must relate to the epistemological crisis of certainty and the 
 epistemic: ""
 exclusions: "Simple factual claims or discussions of specific productivity systems."
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: ""
 review_interval: ""
 scope: "A philosophical framework for building a functional and confident self in the absence of absolute certainty."
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["epistemology", "TheHuman/Identity", "map", "TheHuman/Philosophy", "self", "sequence", "structural"]
+tags: ["epistemology", "map", "self", "sequence", "structural", "TheHuman/Identity", "TheHuman/Philosophy"]
 title: SN - Sequence - Building a Self Without Absolute Certainty
 type: "sn"
 uid: 

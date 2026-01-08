@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-01T19:59:08Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:17+00:00
+modified: 2026-01-08T10:49:52+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -19,23 +19,23 @@ updated:
 
 ## So the Nat Gateway Can Be Attached to the Vnet and All Subnets Can Use it
 
-No, the NAT gateway in Azure is *not* attached to the VNet itself—it is always attached at the *subnet* level. Only the subnets explicitly associated with the NAT gateway will use it for outbound connectivity.[^1][^2][^3][^9]
+No, the NAT gateway in Azure is _not_ attached to the VNet itself—it is always attached at the _subnet_ level. Only the subnets explicitly associated with the NAT gateway will use it for outbound connectivity.[^1][^2][^3][^9]
 
 ### Key Details
 
 - **Subnet Association:** Each NAT gateway must be explicitly associated with one or more subnets inside a virtual network. There is no option to attach a NAT gateway to the whole VNet—association is per-subnet.[^3][^5][^1]
 - **Multiple Subnets:** You can associate the same NAT gateway resource to multiple subnets within a single VNet (but not across VNets). Each associated subnet will use the NAT gateway for outbound traffic.[^3]
-- **Unassociated Subnets:** Subnets in the same VNet that are *not* associated with any NAT gateway will not use it—those subnets will have no outbound internet access unless you configure a different outbound method (such as Azure Firewall, or the legacy default outbound access in some scenarios).[^2][^9]
+- **Unassociated Subnets:** Subnets in the same VNet that are _not_ associated with any NAT gateway will not use it—those subnets will have no outbound internet access unless you configure a different outbound method (such as Azure Firewall, or the legacy default outbound access in some scenarios).[^2][^9]
 
 ### Practical Example
 
 - Create NAT gateway → Select public IP → Select subnets → Attach.
-- Subnets selected in this step get outbound via NAT gateway. Others in the VNet do *not*.
+- Subnets selected in this step get outbound via NAT gateway. Others in the VNet do _not_.
 - If you want all subnets in the VNet to use NAT gateway, you must associate each subnet with it during or after deployment.[^7][^1][^3]
 
 ***
 
-In summary: NAT gateway *must* be attached per-subnet, not at the VNet level, and only attached subnets get outbound via NAT gateway.[^9][^1][^2][^3]
+In summary: NAT gateway _must_ be attached per-subnet, not at the VNet level, and only attached subnets get outbound via NAT gateway.[^9][^1][^2][^3]
 
 <span style="display:none">[^10][^4][^6][^8]</span>
 

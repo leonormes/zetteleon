@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: "scientific"
 last_reviewed: "2025-12-12"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "Canonical definition of mass vs. weight and the modern definition of the kilogram based on the Planck constant."
 review_interval: "2 years"
 see_also: ["[[SoT - Reality", "[[what is the difference between mass and weight]]", "and the Limits of Accuracy]]", "Models"]
@@ -48,4 +48,4 @@ Since 2019, the kilogram is no longer defined by a physical object (the "Grand K
 
 - **Stability:** Physical artifacts (like the platinum-iridium cylinder) can lose atoms or degrade over time. Constants of nature do not.
 - **Universality:** This definition allows any laboratory in the universe with sufficient equipment (like a Kibble Balance) to realize the kilogram without comparing it to a piece of metal in Paris.
-- **Interconnectedness:** The definition depends on the definitions of the *second* (time) and the *meter* (length), reflecting the unified nature of physical laws.
+- **Interconnectedness:** The definition depends on the definitions of the _second_ (time) and the _meter_ (length), reflecting the unified nature of physical laws.

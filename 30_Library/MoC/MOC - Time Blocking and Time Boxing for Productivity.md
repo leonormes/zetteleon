@@ -6,7 +6,7 @@ criteria: "Atomic notes defining core time management techniques, major producti
 epistemic: ""
 exclusions: "Deep dives into specific software tutorials."
 last_reviewed: ""
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: ""
 review_interval: ""
 scope: "The theory and application of time blocking and time boxing for personal and family productivity."
@@ -34,10 +34,9 @@ This map explores intentional time management as a liberating force for achievin
 
 ### 1. Core Concepts: The Powerhouses
 
-- **Time Blocking:** This is the practice where [[Time Blocking is a Technique for Dedicating Specific Segments of Time to Particular Tasks|specific blocks of time are dedicated to tasks]]. Its effectiveness is based on [[The Core Principles of Time Blocking are Proactive Planning Single-Tasking and Visual Schedule Integration|proactive planning, single-tasking, and visual scheduling]].
-- **Time Boxing:** This is a goal-oriented strategy where [[Time Boxing is a Goal-Oriented Strategy Where a Fixed Period is Allocated to a Specific Task|a fixed period is allocated to a task]]. Its strength comes from [[The Core Principles of Time Boxing are Fixed Time Allocation a Goal-Oriented Approach and Commitment to Focus|its principles of fixed limits and clear goals]].
-
-While distinct, these methods are highly synergistic. [[Time Blocking Focuses on When a Task is Done While Time Boxing Focuses on How Much Time is Spent|Time blocking schedules the 'when', while time boxing defines the 'how long']]. A powerful strategy is to ensure that [[Time Boxing Can Be Nested Within Larger Time Blocks|time boxes are nested within larger time blocks]]. These techniques are effective because they tap into psychological drivers; for instance, [[Time Blocking Creates Urgency While Time Boxing Combats Parkinson's Law|time blocking creates urgency while time boxing counters perfectionism]].
+- **Canonical Source:** [[SoT - Temporal Management (Blocking and Boxing)]] defines the unified protocol for these techniques.
+- **Time Blocking:** Its effectiveness is based on [[The Core Principles of Time Blocking are Proactive Planning Single-Tasking and Visual Schedule Integration|proactive planning, single-tasking, and visual scheduling]].
+- **Time Boxing:** Its strength comes from [[The Core Principles of Time Boxing are Fixed Time Allocation a Goal-Oriented Approach and Commitment to Focus|its principles of fixed limits and clear goals]].
 
 ---
 

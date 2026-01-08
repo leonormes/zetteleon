@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-09-26T10:38:07Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:31+00:00
+modified: 2026-01-08T10:49:57+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
+tags: ["SoftwareEngineering/Networking", "SoftwareEngineering/Security"]
 title: EKS Calico Networking Analysis Report
 type: "null"
 uid: 

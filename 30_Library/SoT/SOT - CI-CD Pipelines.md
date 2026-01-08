@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-16T00:00:00Z
 epistemic: "technical_documentation"
 last_reviewed: "2025-12-16"
-modified: 2026-01-03T10:18:58+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: "To serve as the Source of Truth for FITFILE's CI/CD infrastructure, detailing the build, validation, and deployment pipelines."
 review_interval: "3 months"
 see_also: []
@@ -25,7 +25,7 @@ The FITFILE platform utilizes **GitLab CI/CD** to orchestrate the software deliv
 
 ### A. Main Pipeline (`.gitlab-ci.yml`)
 
-*Trigger: Push to default branch or Merge Requests.*
+_Trigger: Push to default branch or Merge Requests._
 
 This pipeline ensures that changes to the repository result in valid, buildable artifacts.
 
@@ -55,7 +55,7 @@ graph LR
 
 ### B. Staging Deployment Pipeline (`staging.gitlab-ci.yml`)
 
-*Trigger: Manual or Auto-deploy to Staging Environment.*
+_Trigger: Manual or Auto-deploy to Staging Environment._
 
 This pipeline actuates the deployment and verifies it.
 
@@ -123,8 +123,8 @@ Pipelines operate with high privileges. Credentials are injected via GitLab CI V
 The deployment is **GitOps-driven** but **CI-triggered**.
 
 1. GitLab CI generates the specific configuration (values.yaml).
-2. It *pushes* this configuration to ArgoCD (via API/CLI).
-3. ArgoCD *pulls* the charts and applies them to the cluster.
+2. It _pushes_ this configuration to ArgoCD (via API/CLI).
+3. ArgoCD _pulls_ the charts and applies them to the cluster.
 
 ### The "Test" Mechanism
 

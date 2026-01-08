@@ -4,20 +4,20 @@ confidence:
 created: 2025-12-26T00:00:00Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-26T20:30:04+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: "A prompt for IDE-based LLMs (Cursor, Copilot) to analyze code purely through the lens of data structures and state."
 review_interval: 
 see_also: []
 source_of_truth: []
 status: stable
-tags: [prompt, data-centric, dev-tools]
-title: "Prompt: Data-Centric IDE Analysis"
+tags: [data-centric, dev-tools, prompt]
+title: Prompt - Data-Centric IDE Analysis
 type: prompt
 uid: 
 updated: 
 ---
 
-# Prompt: Data-Centric IDE Analysis
+## Prompt: Data-Centric IDE Analysis
 
 **Role:** Act as a Senior Software Architect with a "Data-Structures-First" philosophy.
 

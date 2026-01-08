@@ -4,13 +4,13 @@ confidence: "High"
 created: 2025-10-24T15:00:00Z
 epistemic: "Map"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T13:55:01+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: "To map the foundational Linux networking primitives to their Kubernetes abstractions."
 review_interval: "1 year"
-see_also: ["[[SoT - Linux Networking Primitives]]", "[[SoT - Kubernetes Networking & DNS]]"]
-source_of_truth: ["[[SoT - Linux Networking Primitives]]", "[[SoT - Linux Container Primitives]]", "[[SoT - Kubernetes Networking & DNS]]"]
+see_also: ["[[SoT - Kubernetes Networking & DNS]]", "[[SoT - Linux Networking Primitives]]"]
+source_of_truth: ["[[SoT - Kubernetes Networking & DNS]]", "[[SoT - Linux Container Primitives]]", "[[SoT - Linux Networking Primitives]]"]
 status: "stable"
-tags: ["SoftwareEngineering/Containers", "k8s", "kubernetes", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]
+tags: ["k8s", "kubernetes", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]
 title: MOC - Container Networking Model
 type: "map"
 uid: 

@@ -1,29 +1,23 @@
 ---
-title: HEAD - Learning Rust via Release Tool
-type: head
+aliases: [Release Tool Curriculum, Rust Learning Project]
 confidence: ""
+created: 2025-12-27T14:11:28+00:00
 epistemic: ""
-purpose: ""
-modified: 2025-12-27T18:19:23+00:00
 last_reviewed: ""
+modified: 2026-01-08T10:50:02+00:00
+purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
-aliases:
-  - Rust Learning Project
-  - Release Tool Curriculum
-tags:
-  - project
-  - learning
-  - rust
-  - head
-created: 2025-12-27T14:11:28+00:00
 status: active
+tags: [head, learning, project, rust]
+title: 2025-12-27-1015-HEAD - Learning Rust via Release Tool
+type: head
 ---
 
-# HEAD - Learning Rust via Release Tool
+## HEAD - Learning Rust via Release Tool
 
-## 1. The Spark
+### 1. The Spark
 
 > "I want to learn Rust. I have a simple tool for making releases via git tags... I need a curriculum."
 
@@ -31,7 +25,7 @@ status: active
 
 **The Goal:** Build the `release-tool` from scratch, using it to master Rust's specific "borrow checker" constraints and "systems" focus.
 
-## 2. The Model: "Type-Driven Systems Programming"
+### 2. The Model: "Type-Driven Systems Programming"
 
 We will avoid standard "Hello World" tutorials. Instead, we map the **Release Tool Wiki** directly to Rust concepts.
 
@@ -44,9 +38,9 @@ We will avoid standard "Hello World" tutorials. Instead, we map the **Release To
 
 ---
 
-## 3. The Curriculum (The "Compile" Phase)
+### 3. The Curriculum (The "Compile" Phase)
 
-### Module 1: The Domain Layer (Defining the Universe)
+#### Module 1: The Domain Layer (Defining the Universe)
 
 **Objective:** Define the "Nouns" so invalid states are unrepresentable.
 
@@ -59,21 +53,21 @@ We will avoid standard "Hello World" tutorials. Instead, we map the **Release To
 - [ ] `cargo test` confirms `SemanticVersion(1,0,0) < SemanticVersion(2,0,0)`.
 - [ ] `cargo test` confirms `Ticket::parse("invalid")` returns `Err`.
 
-### Module 2: The Logic Layer (The Morphisms)
+#### Module 2: The Logic Layer (The Morphisms)
 
 **Objective:** Write pure functions that transform data.
 
 1. **Task A (Pattern Matching):** Implement `fn bump(current: &SemanticVersion, strategy: &IncrementStrategy) -> SemanticVersion`.
-    * *Constraint:* Must use `match`. Handle the `Custom(v)` variant to extract data.
+    - _Constraint:_ Must use `match`. Handle the `Custom(v)` variant to extract data.
 2. **Task B (Option/Result):** Implement `fn parse_commit(msg: &str) -> Option<ConventionalCommit>`.
-    * *Constraint:* Use `Option` to handle non-compliant commits without panicking.
+    - _Constraint:_ Use `Option` to handle non-compliant commits without panicking.
 3. **Task C (Unit Tests):** Write tests in the same file (`mod tests`) to verify logic.
 
 **The Next Test:**
 - [ ] Function correctly bumps `1.0.0` + `Minor` -> `1.1.0`.
 - [ ] Function correctly extracts version from `Custom` strategy.
 
-### Module 3: The Boundary Layer (Talking to the World)
+#### Module 3: The Boundary Layer (Talking to the World)
 
 **Objective:** Interface with the "Dirty" OS (Git) and convert to "Clean" Domain types.
 
@@ -84,7 +78,7 @@ We will avoid standard "Hello World" tutorials. Instead, we map the **Release To
 **The Next Test:**
 - [ ] Run `git log` from Rust and print a struct field to stdout.
 
-### Module 4: The Application Layer (The Interface)
+#### Module 4: The Application Layer (The Interface)
 
 **Objective:** Assemble the parts into a binary.
 
@@ -94,14 +88,14 @@ We will avoid standard "Hello World" tutorials. Instead, we map the **Release To
 
 ---
 
-## 4. Tensions & Risks
+### 4. Tensions & Risks
 
-* **Borrow Checker Wall:** In Module 3, parsing strings from Git output will trigger lifetime issues (`&str` vs `String`).
-    * *Mitigation:* Start by owning everything (`String`). Refactor to `&str` (references) only in Week 2.
-* **Over-Engineering:** The temptation to make the "perfect" Type System (e.g., specific types for `MajorVersion`, `MinorVersion`) will slow progress.
-    * *Mitigation:* Stick to the Wiki's types.
+- **Borrow Checker Wall:** In Module 3, parsing strings from Git output will trigger lifetime issues (`&str` vs `String`).
+    - _Mitigation:_ Start by owning everything (`String`). Refactor to `&str` (references) only in Week 2.
+- **Over-Engineering:** The temptation to make the "perfect" Type System (e.g., specific types for `MajorVersion`, `MinorVersion`) will slow progress.
+    - _Mitigation:_ Stick to the Wiki's types.
 
-## 5. Resources
+### 5. Resources
 
 - [[SoT - Rust's Design Philosophy]]
 - [[SoT - Rust's Ownership Model]]

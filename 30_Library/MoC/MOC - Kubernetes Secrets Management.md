@@ -1,22 +1,16 @@
 ---
-aliases:
-  - K8s Secrets MOC
-  - Kubernetes Secrets Map
+aliases: [K8s Secrets MOC, Kubernetes Secrets Map]
 confidence: "null"
 created: 2025-12-15T12:00:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: ""
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: active
-tags:
-  - kubernetes
-  - secrets
-  - "SoftwareEngineering/Security"
-  - vault
+tags: ["SoftwareEngineering/Security", kubernetes, secrets, vault]
 title: MOC - Kubernetes Secrets Management
 type: map
 uid:
@@ -30,18 +24,18 @@ updated:
 Understanding the baseline mechanisms provided by Kubernetes.
 
 - [[kubernetes_secrets]] - **Primary Reference.** Covers the distinction between ConfigMaps and Secrets, base64 encoding vs. encryption, and best practices like in-memory mounting (`tmpfs`).
-  - *Key Insight:* Native secrets are base64 encoded, not encrypted by default. True security requires "Encryption at Rest" and external KMS integration.
+  - _Key Insight:_ Native secrets are base64 encoded, not encrypted by default. True security requires "Encryption at Rest" and external KMS integration.
 
 ### 2. Advanced Management (HashiCorp Vault)
 
 The preferred "Production" pattern using external secret managers.
 
 - [[Vault to Kubernetes Secrets Management Guide]] - **The Architecture Guide.** Detailed walkthrough of the Vault + Vault Secrets Operator (VSO) pattern.
-  - *Components:* Vault AppRole, Vault Policy, VSO Controller.
-  - *Flow:* Auth -> Token -> Fetch -> Sync to K8s Secret.
+  - _Components:_ Vault AppRole, Vault Policy, VSO Controller.
+  - _Flow:_ Auth -> Token -> Fetch -> Sync to K8s Secret.
 - Secrets Management Report - hie-prod-34 - **Implementation Case Study.** A live report of this architecture in the `hie-prod-34` deployment.
-  - *Pattern:* `VaultStaticSecret` CRDs -> VSO -> Native K8s Secrets.
-  - *Diagram:* Includes a Mermaid object diagram of the dependency flow.
+  - _Pattern:_ `VaultStaticSecret` CRDs -> VSO -> Native K8s Secrets.
+  - _Diagram:_ Includes a Mermaid object diagram of the dependency flow.
 
 ### 3. Related Security Context
 

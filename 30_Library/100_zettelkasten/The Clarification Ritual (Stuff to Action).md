@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-12-16T14:40:00Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To test if batch-processing \\\"Stuff\\\" into \\\"Actions\\\" creates clarity."
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -19,7 +19,7 @@ updated:
 
 ## 1. The Hypothesis
 
-> **If** I dedicate 15 minutes daily *solely* to clarifying "Stuff" (Inbox) into "Atomic Actions" (Next Actions),
+> **If** I dedicate 15 minutes daily _solely_ to clarifying "Stuff" (Inbox) into "Atomic Actions" (Next Actions),
 > **Then** my execution phase will be frictionless,
 > **Because** I am separating the "Manager" (Decision Making) from the "Worker" (Execution).
 
@@ -46,13 +46,13 @@ updated:
 ## 3. Expected Outcome
 
 - **Success:** Next morning starts with zero friction because the list is clear.
-- **Failure:** Getting sucked into *doing* the tasks during the clarification phase.
+- **Failure:** Getting sucked into _doing_ the tasks during the clarification phase.
 
 ---
 
 ## 4. Results Log
 
-- *(Log results here)*
+- _(Log results here)_
 
 ---
 

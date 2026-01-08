@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-11T08:08:07Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:31+00:00
+modified: 2026-01-08T10:49:57+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -29,7 +29,7 @@ This curriculum assumes a foundational knowledge of Kubernetes concepts (Pods, S
 | Topic                            | Key Concepts and Actions                                                                                                                                                                                                                                                                                                                                                | Source Citations |
 |:------------------------------- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:--------------- |
 | **1.1 CoreDNS Role in K8s**      | CoreDNS is the default DNS server shipped with Kubernetes starting with version 1.13 [1]. It functions as a **service directory** for containerized environments [2]. CoreDNS is necessary because service IP addresses often change rapidly (e.g., when pods are started and stopped) [2, 3].                                                                          | [1-3]            |
-| **1.2 CoreDNS Integration**      | CoreDNS integrates with Kubernetes using the `kubernetes` plug-in [4]. This plug-in operates similarly to a Kubernetes controller by using the **API server's watch feature** to monitor **Services** and **Endpoints** resources [4-6]. The DNS records are generated *on the fly* based on this cached, up-to-date data, keeping responses fast [5].                  | [4-6]            |
+| **1.2 CoreDNS Integration**      | CoreDNS integrates with Kubernetes using the `kubernetes` plug-in [4]. This plug-in operates similarly to a Kubernetes controller by using the **API server's watch feature** to monitor **Services** and **Endpoints** resources [4-6]. The DNS records are generated _on the fly_ based on this cached, up-to-date data, keeping responses fast [5].                  | [4-6]            |
 | **1.3 Deployment Configuration** | Standard deployment involves several K8s resources: **ServiceAccount**, **ClusterRole**, and **ClusterRoleBinding** to grant CoreDNS cluster-wide read access (list/watch) to resources like Endpoints, Services, Pods, and Namespaces [7-10]. The CoreDNS pod uses the `Default` DNS policy to enable external name resolution via the host node's configuration [11]. | [7, 10, 11]      |
 | **1.4 Autoscaling**              | To handle query load, CoreDNS instances can be scaled [12]. Autoscaling is typically handled by a cluster-proportional autoscaler [12]. Alternatively, the **Horizontal Pod Autoscaler (HPA)** can be used, targeting CPU utilization (e.g., 50%) or the `coredns_health_request_duration_seconds` metric [13, 14].                                                     | [12-14]          |
 

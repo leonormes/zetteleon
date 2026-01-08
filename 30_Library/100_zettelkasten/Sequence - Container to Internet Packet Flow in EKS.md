@@ -5,7 +5,7 @@ created: 2025-10-31T11:53:00Z
 epistemic: ""
 goal: "Understand EKS networking path"
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "Trace packet flow from container to internet in EKS."
 review_interval: "180"
 see_also: []

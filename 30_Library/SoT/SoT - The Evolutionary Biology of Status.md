@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "Explaining the biological and evolutionary drivers behind human status-seeking behavior."
 review_interval: "3 months"
 see_also: ["[[SoT - Social Stratification]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
 source_of_truth: []
 status: "stable"
-tags: ["behavior", "TheHuman/Neuroscience", "status", "TheHuman/Psychology"]
+tags: ["behavior", "status", "TheHuman/Neuroscience", "TheHuman/Psychology"]
 title: SoT - The Evolutionary Biology of Status
 type: "SoT"
 uid: 

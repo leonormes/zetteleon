@@ -4,13 +4,13 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2025-12-23T17:53:54Z
+modified: 2026-01-08T10:50:02+00:00
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: archived
-tags: [prodos, thinking, "TheHuman/Psychology"]
+tags: ["TheHuman/Psychology", prodos, thinking]
 title: HEAD - Modeling Resistance in ProdOS
 type: head
 uid:
@@ -36,7 +36,7 @@ Identifying resistance might change how I schedule or break down a task.
 ### The Tension
 
 - **Subjectivity:** Resistance is a feeling, not a hard metric. How do I record it?
-- **Actionability:** If I label a task "High Resistance", what does the system *do* about it?
+- **Actionability:** If I label a task "High Resistance", what does the system _do_ about it?
 - **Avoidance:** Will labeling it just make me avoid it more?
 
 ### The Next Test

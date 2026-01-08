@@ -1,16 +1,16 @@
 ---
-aliases: ["Tokenization", "LLM Tokens", "LLM Economics", "Encoding and Decoding"]
+aliases: ["Encoding and Decoding", "LLM Economics", "LLM Tokens", "Tokenization"]
 confidence: "5/5"
 created: 2025-12-26T15:00:00Z
 epistemic: "Technical/Mechanical"
 last_reviewed: "2025-12-26"
-modified: 2025-12-26T16:43:40+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "Defining the fundamental unit of LLM processing: the Token. Covers architectural trade-offs, encoding/decoding, and economic implications."
 review_interval: "6 months"
 see_also: ["[[MOC - LLM-Augmented Thinking]]", "[[SoT - ProdOS Cognitive Architecture (Obsidian + Gemini)]]"]
 source_of_truth: ["[[LLM Tokens The Core Concept]]"]
 status: "stable"
-tags: ["ai", "llm", "SoftwareEngineering/Architecture", "economics", "tokenization"]
+tags: ["ai", "economics", "llm", "SoftwareEngineering/Architecture", "tokenization"]
 title: SoT - LLM Tokenization and Economics
 type: "SoT"
 uid: 
@@ -35,11 +35,11 @@ LLMs do not "read" text character-by-character or word-by-word. They process a s
 The efficiency of an LLM is heavily dictated by its **Vocabulary Size** (the number of unique tokens it recognizes).
 
 - **Small Vocabulary:**
-    - *Pros:* Requires less memory to store the embedding matrix.
-    - *Cons:* Breaks words into more tokens (e.g., "understanding" becomes `un`+`der`+`stand`+`ing`). This increases the "Context Window" usage and compute cost per word.
+    - _Pros:_ Requires less memory to store the embedding matrix.
+    - _Cons:_ Breaks words into more tokens (e.g., "understanding" becomes `un`+`der`+`stand`+`ing`). This increases the "Context Window" usage and compute cost per word.
 - **Large Vocabulary:**
-    - *Pros:* Represents complex concepts or long words in fewer tokens (e.g., "understanding" becomes 1-2 tokens). Higher throughput and lower cost per word.
-    - *Cons:* Requires a larger model die/memory footprint to store the lookup table.
+    - _Pros:_ Represents complex concepts or long words in fewer tokens (e.g., "understanding" becomes 1-2 tokens). Higher throughput and lower cost per word.
+    - _Cons:_ Requires a larger model die/memory footprint to store the lookup table.
 
 ## 4. Economic Implications (The Currency)
 
@@ -58,4 +58,4 @@ Tokens are the primary billing unit for LLM APIs (OpenAI, Anthropic, Google).
 ## 6. Implementation Notes
 
 - **Tooling:** Use libraries like `tiktoken` (OpenAI) or `js-tiktoken` (TypeScript) to count tokens locally before sending requests to manage costs and context limits.
-- **Preference:** While Python is the standard for *training* models, **TypeScript** is increasingly preferred for *building* AI-augmented applications due to its superior asynchronous handling and integration with modern web stacks.
+- **Preference:** While Python is the standard for _training_ models, **TypeScript** is increasingly preferred for _building_ AI-augmented applications due to its superior asynchronous handling and integration with modern web stacks.

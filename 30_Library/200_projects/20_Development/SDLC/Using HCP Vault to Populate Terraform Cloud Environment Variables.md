@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-13T06:50:32Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:10+00:00
+modified: 2026-01-07T21:26:23+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -30,17 +30,17 @@ Let's explore how you can effectively use HCP Vault to populate environment vari
 
 ### Key Concepts and Approach
 
-Instead of directly "populating" Terraform Cloud environment variables from HCP Vault in the traditional sense, the integration works by enabling your Terraform configurations running in Terraform Cloud to **dynamically fetch secrets from HCP Vault during runtime**.
+Instead of directly "populating" Terraform Cloud environment variables from HCP Vault in the traditional sense, the integration works by enabling your Terraform configurations running in Terraform Cloud to dynamically fetch secrets from HCP Vault during runtime.
 
 Here's the general approach:
 
-1. **Configure HCP Vault:** You'll need an HCP Vault instance where your secrets are stored and managed.
-2. **Authenticate Terraform Cloud with HCP Vault:** Terraform Cloud needs to authenticate to HCP Vault to retrieve secrets. This is typically done using a Vault role and service principal.
-3. **Use the `vault` Provider in Terraform:** Your Terraform configurations will use the `vault` provider to interact with your HCP Vault instance.
-4. **Fetch Secrets using `data "vault_generic_secret"`:** Within your Terraform code, you'll use the `vault_generic_secret` data source to read secrets from specific paths in HCP Vault.
-5. **Utilize Secrets in Terraform Cloud:** The retrieved secrets from HCP Vault can then be used within your Terraform configuration, effectively populating values that might otherwise be set as environment variables.
+1. Configure HCP Vault: You'll need an HCP Vault instance where your secrets are stored and managed.
+2. Authenticate Terraform Cloud with HCP Vault: Terraform Cloud needs to authenticate to HCP Vault to retrieve secrets. This is typically done using a Vault role and service principal.
+3. Use the `vault` Provider in Terraform: Your Terraform configurations will use the `vault` provider to interact with your HCP Vault instance.
+4. Fetch Secrets using `data "vault_generic_secret"`: Within your Terraform code, you'll use the `vault_generic_secret` data source to read secrets from specific paths in HCP Vault.
+5. Utilize Secrets in Terraform Cloud: The retrieved secrets from HCP Vault can then be used within your Terraform configuration, effectively populating values that might otherwise be set as environment variables.
 
-**Important Note:** Terraform Cloud environment variables are still relevant in this setup, but their role shifts. Instead of storing the *secrets themselves*, environment variables are used to configure the **authentication** between Terraform Cloud and HCP Vault.
+Important Note: Terraform Cloud environment variables are still relevant in this setup, but their role shifts. Instead of storing the secrets themselves, environment variables are used to configure the authentication between Terraform Cloud and HCP Vault.
 
 ### Steps to Integrate HCP Vault with Terraform Cloud
 
@@ -48,13 +48,13 @@ Here's a detailed breakdown of the steps involved in integrating HCP Vault with 
 
 #### 1. Prerequisites
 
-- **HCP Vault Instance:** You need an active HCP Vault instance.
-- **Terraform Cloud Account:** You need a Terraform Cloud account and a workspace where you want to use secrets.
-- **HCP CLI (Optional but Recommended for Setup):** The HCP CLI can simplify the initial setup and configuration. You can download and install it from [HashiCorp Developer - HCP CLI](https://developer.hashicorp.com/hcp/docs/cli).
+- HCP Vault Instance: You need an active HCP Vault instance.
+- Terraform Cloud Account: You need a Terraform Cloud account and a workspace where you want to use secrets.
+- HCP CLI (Optional but Recommended for Setup): The HCP CLI can simplify the initial setup and configuration. You can download and install it from [HashiCorp Developer - HCP CLI](https://developer.hashicorp.com/hcp/docs/cli).
 
 #### 2. Configure Authentication between Terraform Cloud and HCP Vault
 
-Terraform Cloud needs to authenticate with HCP Vault to securely retrieve secrets. The recommended method is using **Vault Workload Identity**.
+Terraform Cloud needs to authenticate with HCP Vault to securely retrieve secrets. The recommended method is using Vault Workload Identity.
 
 ##### A. Create a Vault Role for Terraform Cloud
 
@@ -69,7 +69,7 @@ vault oidc create hcp-oidc display_name="HCP OIDC" \
     token_endpoint="https://accounts.hashicorp.cloud/oidc/token" \
     client_id="\\\<YOUR_HCP_CLIENT_ID\\>" # Replace with your HCP Client ID
 vault policy write terraform-cloud - \\\<\\\<EOF
-path "secret/data/*" { # Adjust path to your secrets
+path "secret/data/" { # Adjust path to your secrets
   capabilities = ["read"]
 }
 EOF
@@ -84,7 +84,7 @@ vault write auth/jwt/role/terraform-cloud \
 
 - vault auth enable jwt: Enables the JWT auth method in Vault.
 - vault oidc create hcp-oidc...: Configures OIDC for HCP. You'll need to replace \<YOUR_HCP_CLIENT_ID\> with your actual HCP Client ID. You can obtain this by creating an OIDC application in HCP.
-- vault policy write terraform-cloud - \<\<EOF... EOF: Creates a Vault policy named terraform-cloud. Crucially, you need to adjust the path "secret/data/*" to match the actual path where your secrets are stored in Vault. This example policy grants read access to secrets under the secret/data/ path.
+- vault policy write terraform-cloud - \<\<EOF... EOF: Creates a Vault policy named terraform-cloud. Crucially, you need to adjust the path "secret/data/" to match the actual path where your secrets are stored in Vault. This example policy grants read access to secrets under the secret/data/ path.
 - vault write auth/jwt/role/terraform-cloud...: Creates a Vault role named terraform-cloud that uses the JWT auth method.
   - bound_audiences="terraform.app.hashicorp.cloud": Specifies that this role is for Terraform Cloud.
   - bound_subject_type="idf-entity-name": Specifies how the subject is identified.
@@ -116,12 +116,12 @@ terraform {
 provider "vault" {
 
 ## Authentication is Automatically Handled by Terraform Cloud
-## Using the TFC_VAULT_* Environment Variables
+## Using the TFC_VAULT_ Environment Variables
 
 }
 ```
 
-Note: You do not need to explicitly configure authentication details like address or token in the vault provider block when running in Terraform Cloud with the TFC_VAULT_* environment variables set. The provider automatically detects and uses these variables for authentication.
+Note: You do not need to explicitly configure authentication details like address or token in the vault provider block when running in Terraform Cloud with the TFC_VAULT_ environment variables set. The provider automatically detects and uses these variables for authentication.
 
 4. Fetch Secrets in Terraform Configuration using data "vault_generic_secret"
 
@@ -193,12 +193,12 @@ Let's break down how to achieve this, ensuring your service principal credential
 
 ### Core Security Principle: Dynamic Secret Retrieval from HCP Vault
 
-The cornerstone of this secure approach is to **avoid storing service principal secrets directly in Terraform Cloud**. Instead, we will use HCP Vault to:
+The cornerstone of this secure approach is to avoid storing service principal secrets directly in Terraform Cloud. Instead, we will use HCP Vault to:
 
-1. **Securely store** the Azure Entra ID service principal credentials.
-2. **Dynamically provide** these credentials to Terraform Cloud runtime environments *only when needed*.
+1. Securely store the Azure Entra ID service principal credentials.
+2. Dynamically provide these credentials to Terraform Cloud runtime environments only when needed.
 
-This method leverages the **Vault Workload Identity** feature, allowing Terraform Cloud to authenticate to Vault and retrieve secrets without needing long-lived static credentials in Terraform Cloud itself.
+This method leverages the Vault Workload Identity feature, allowing Terraform Cloud to authenticate to Vault and retrieve secrets without needing long-lived static credentials in Terraform Cloud itself.
 
 ### Steps to Implement Secure Service Principal Management with HCP Vault
 
@@ -206,22 +206,22 @@ Here's a detailed step-by-step guide to implement this secure approach:
 
 #### 1. Prerequisites
 
-- **HCP Vault Instance:** You need a running and configured HCP Vault instance.
-- **Terraform Cloud Account & Workspace:** You need a Terraform Cloud account and the specific workspace you intend to use for managing Azure Entra ID roles.
-- **Azure Subscription:** You need access to your Azure subscription where your Entra ID is managed.
-- **Azure CLI (Recommended for Service Principal Creation):** The Azure CLI simplifies service principal creation and role assignment.
+- HCP Vault Instance: You need a running and configured HCP Vault instance.
+- Terraform Cloud Account & Workspace: You need a Terraform Cloud account and the specific workspace you intend to use for managing Azure Entra ID roles.
+- Azure Subscription: You need access to your Azure subscription where your Entra ID is managed.
+- Azure CLI (Recommended for Service Principal Creation): The Azure CLI simplifies service principal creation and role assignment.
 
 #### 2. Create an Azure Entra ID Service Principal
 
 First, you need to create a service principal in Azure Entra ID that Terraform Cloud will use. This service principal needs the necessary permissions to manage user roles within your Entra ID tenant.
 
-You can create a service principal using the Azure CLI. **Carefully consider the necessary permissions.** For managing user roles, you likely need permissions related to:
+You can create a service principal using the Azure CLI. Carefully consider the necessary permissions. For managing user roles, you likely need permissions related to:
 
 - Reading and writing user information.
 - Reading and writing role assignments.
 - Potentially reading role definitions.
 
-**Example Azure CLI command to create a Service Principal (adjust permissions as needed):**
+Example Azure CLI command to create a Service Principal (adjust permissions as needed):
 
 ```sh
 az ad sp create-for-rbac --name "terraform-cloud-entra-gitops" --role "User Administrator" --scopes "/subscriptions/\\<YOUR_SUBSCRIPTION_ID>" --output json

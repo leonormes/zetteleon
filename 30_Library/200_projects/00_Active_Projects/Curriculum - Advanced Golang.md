@@ -5,14 +5,14 @@ confidence: ""
 created: 2025-12-24T17:16:29Z
 epistemic: "Synthesized from Node.js -> Go transition patterns and Cloud Native architectural requirements."
 last_reviewed: "2025-12-26"
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "A project-driven curriculum to transition from Node.js/TS to Cloud Native Go."
 related_project: "[[Project - Concurrent TCP Log Ingestor]]"
 review_interval: "3 months"
 see_also: ["[[SoT - Tool - NotebookLM]]"]
 source_of_truth: []
 status: Active
-tags: ["backend", "curriculum", "golang", "skill_acquisition", "devops"]
+tags: ["backend", "curriculum", "devops", "golang", "skill_acquisition"]
 title: Curriculum - Advanced Golang
 type: Curriculum
 uid: 
@@ -44,8 +44,8 @@ version: 2.0
 ### Level 1: The CLI (The Syntax Shift)
 
 **Project A: "DevOps Swiss Army Knife"**
-*Goal:* Replace a Bash/Node script (e.g., Log Parser, S3 Cleaner) with a binary.
-*Focus:* Structs, Interfaces, `os/exec`, `flag`.
+_Goal:_ Replace a Bash/Node script (e.g., Log Parser, S3 Cleaner) with a binary.
+_Focus:_ Structs, Interfaces, `os/exec`, `flag`.
 
 | Drill / Timebox (50m) | Definition of Done (Output) |
 |:--- |:--- |
@@ -57,8 +57,8 @@ version: 2.0
 ### Level 2: The Service (The Concurrency Shift)
 
 **Project B: "Resilient Microservice / TCP Ingestor"**
-*Goal:* A long-running service that manages goroutine lifecycles and timeouts.
-*Focus:* Goroutines, Channels, `context.Context`, `net/http` or `net`.
+_Goal:_ A long-running service that manages goroutine lifecycles and timeouts.
+_Focus:_ Goroutines, Channels, `context.Context`, `net/http` or `net`.
 
 | Drill / Timebox (50m) | Definition of Done (Output) |
 |:--- |:--- |
@@ -70,8 +70,8 @@ version: 2.0
 ### Level 3: The Operator (The Architecture Shift)
 
 **Project C: "Kubernetes Custom Controller"**
-*Goal:* A controller that watches a CRD and reconciles state.
-*Focus:* Level-Triggered Logic, Kubebuilder, Eventual Consistency.
+_Goal:_ A controller that watches a CRD and reconciles state.
+_Focus:_ Level-Triggered Logic, Kubebuilder, Eventual Consistency.
 
 | Drill / Timebox (50m) | Definition of Done (Output) |
 |:--- |:--- |
@@ -82,8 +82,8 @@ version: 2.0
 ### Level 4: The Architect (Domain-First Design)
 
 **Project D: "Mini-Vault" (The Hexagonal Challenge)**
-*Goal:* Build a secure Key-Value store using TDD and "Core-Out" design.
-*Focus:* Dependency Inversion, TDD, Encryption.
+_Goal:_ Build a secure Key-Value store using TDD and "Core-Out" design.
+_Focus:_ Dependency Inversion, TDD, Encryption.
 
 | Drill / Timebox (50m) | Definition of Done (Output) |
 |:--- |:--- |
@@ -95,17 +95,17 @@ version: 2.0
 
 ## 3. Failure Mode Protocols (ADHD Support)
 
-> *If I get stuck on the Hard Problem, I will switch to these Diffuse Mode activities:*
+> _If I get stuck on the Hard Problem, I will switch to these Diffuse Mode activities:_
 
-- **Stuck on Architecture?** -> Switch to: *Drawing the "Nouns" (Structs) and "Verbs" (Interfaces) on paper.*
-- **Stuck on Concurrency?** -> Switch to: *The "Race Condition Lab" drill. Break things intentionally.*
-- **Stuck on Syntax?** -> Switch to: *Typing out "Tour of Go" examples physically (Muscle Memory).*
-- **Overwhelmed?** -> Switch to: *Configuring `golangci-lint` or reading `go.mod` docs.*
+- **Stuck on Architecture?** -> Switch to: _Drawing the "Nouns" (Structs) and "Verbs" (Interfaces) on paper._
+- **Stuck on Concurrency?** -> Switch to: _The "Race Condition Lab" drill. Break things intentionally._
+- **Stuck on Syntax?** -> Switch to: _Typing out "Tour of Go" examples physically (Muscle Memory)._
+- **Overwhelmed?** -> Switch to: _Configuring `golangci-lint` or reading `go.mod` docs._
 
 ---
 
 ## 4. Synthesis & Resources
 
-- **Book:** "The Go Programming Language" (Donovan/Kernighan) - *Chapters 1, 8, 9.*
+- **Book:** "The Go Programming Language" (Donovan/Kernighan) - _Chapters 1, 8, 9._
 - **Video:** [Master of Resources: Building Kubernetes Operators in Go](https://www.youtube.com/watch?v=uJlGa3ygiBI)
 - **Pattern:** **Hexagonal Architecture** (Ports & Adapters).

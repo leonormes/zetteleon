@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-10-26T17:08:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["SoftwareEngineering/Architecture", "design-patterns", "tech"]
+tags: ["design-patterns", "SoftwareEngineering/Architecture", "tech"]
 title: Architectural Patterns for API Gateways and Load Balancers
 type: "permanent"
 uid: 

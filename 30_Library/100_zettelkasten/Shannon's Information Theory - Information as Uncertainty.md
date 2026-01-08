@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-08-26T09:26:38Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -24,7 +24,7 @@ Key principles:
 
 1. **Information equals uncertainty**: The more unpredictable or surprising a message is, the more information it contains.
 2. **Maximum randomness = maximum information**: A sequence with a uniform probability distribution (i.e., completely random) has the highest possible uncertainty and therefore the maximum information content, or **entropy**. The formula for entropy is $H(X)=−∑p(x)log2​p(x)$.
-3. **Patterns reduce information**: Predictability, rules, and repetition introduce redundancy, which *decreases* the Shannon information content. A perfectly predictable message (e.g., "AAAAA") has zero entropy and contains no information in this technical sense.
+3. **Patterns reduce information**: Predictability, rules, and repetition introduce redundancy, which _decreases_ the Shannon information content. A perfectly predictable message (e.g., "AAAAA") has zero entropy and contains no information in this technical sense.
 
 This definition directly contradicts the common-sense notion of [[Information as Perceivable Pattern]].
 

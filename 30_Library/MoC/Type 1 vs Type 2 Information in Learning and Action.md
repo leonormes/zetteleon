@@ -5,13 +5,13 @@ created: 2025-08-11T17:26:02Z
 creation_date: "2025-09-11T00:00:00.000Z"
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["topic/learning", "topic/productivity", "TheHuman/Psychology"]
+tags: ["TheHuman/Psychology", "topic/learning", "topic/productivity"]
 title: Type 1 vs Type 2 Information in Learning and Action
 type: "map"
 uid: 

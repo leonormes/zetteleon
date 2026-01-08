@@ -4,7 +4,7 @@ confidence:
 created: 2025-07-26T19:02:37Z
 epistemic:
 last_reviewed:
-modified: 2026-01-03T10:18:43+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose:
 review_interval:
 see_also: []
@@ -83,7 +83,7 @@ I am applying intellectual 'solvents'—a series of focused questions—to the c
 - **Idea C:** Grasping cause-and-effect relationships is a prerequisite for effective problem-solving and for understanding complex systems.
 
 **Internal Thought:**
-Excellent. These three ideas are now truly distinct. Idea A is about the *nature* of understanding, Idea B is about its *mechanism* (causality), and Idea C is about its *application*. I can now write a separate, stand-alone note for each without any conceptual overlap.
+Excellent. These three ideas are now truly distinct. Idea A is about the _nature_ of understanding, Idea B is about its _mechanism_ (causality), and Idea C is about its _application_. I can now write a separate, stand-alone note for each without any conceptual overlap.
 
 ---
 
@@ -105,7 +105,7 @@ In this final stage, I will perform Coagulatio, taking each dissolved, atomic id
 
 - **Title:** Deep Understanding Reveals Causality
 - **Body:**
-  The defining characteristic of a deep understanding is the ability to see the network of cause-and-effect relationships. It is the mental model of how different elements within a system interact and influence one another. This moves beyond observing *that* B follows A, to comprehending *how* A causes B.
+  The defining characteristic of a deep understanding is the ability to see the network of cause-and-effect relationships. It is the mental model of how different elements within a system interact and influence one another. This moves beyond observing _that_ B follows A, to comprehending _how_ A causes B.
 - **Properties Check:**
   - **Atomic?** Yes, it focuses specifically on causality as the core of understanding.
   - **Autonomous?** Yes, its meaning is self-contained.

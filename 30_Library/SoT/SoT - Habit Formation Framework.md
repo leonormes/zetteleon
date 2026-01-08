@@ -1,18 +1,18 @@
 ---
 aliases: []
-tags: []
-title: SoT - Habit Formation Framework
-type: ""
-status: ""
 confidence: ""
-epistemic: ""
-purpose: ""
 created: 2026-01-03T10:24:34+00:00
-modified: 2026-01-05T19:42:22+00:00
+epistemic: ""
 last_reviewed: ""
+modified: 2026-01-08T10:49:42+00:00
+purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
+status: ""
+tags: []
+title: SoT - Habit Formation Framework
+type: ""
 ---
 
 ## 1. Philosophy: Process Primacy
@@ -22,8 +22,8 @@ source_of_truth: []
 
 Success is not a result of "trying harder" (Willpower/Desire); it is a result of **Architectural Constraints** (Systems/Pipes).
 
-* **The Water Metaphor:** Motivation is water (fluid, evaporates). Systems are pipes (capture, direct, pressurize). Without pipes, motivation creates a puddle. With pipes, even a trickle generates pressure.
-* **The 3-Layer Hierarchy:**
+- **The Water Metaphor:** Motivation is water (fluid, evaporates). Systems are pipes (capture, direct, pressurize). Without pipes, motivation creates a puddle. With pipes, even a trickle generates pressure.
+- **The 3-Layer Hierarchy:**
     1. **Identity (Core):** "I am a runner." (Belief).
     2. **Process (System):** "Run 20m at 7am." (Action).
     3. **Outcome (Surface):** "Lose 10kg." (Result).
@@ -47,14 +47,14 @@ To build a habit, solve the problem at each stage of the loop.
 
 Lasting change occurs not by chasing outcomes, but by upgrading the self-image.
 
-* **Repeated Beingness:** Every action is a "vote" for the type of person you wish to become.
-* **The Logic:**
-    * *Outcome-Based:* "I want to write a book." (Fragile).
-    * *Identity-Based:* "I am a writer." (Resilient).
-* **Protocol:**
+- **Repeated Beingness:** Every action is a "vote" for the type of person you wish to become.
+- **The Logic:**
+    - _Outcome-Based:_ "I want to write a book." (Fragile).
+    - _Identity-Based:_ "I am a writer." (Resilient).
+- **Protocol:**
     1. **Decide** the type of person you want to be.
     2. **Prove it** to yourself with small wins (Votes).
 
 ### The "Never Miss Twice" Rule
 
-The first mistake is an accident. The second is the start of a new identity. If you miss a day, your *only* job is to cast a "Vote" immediately (even a 2-minute version) to restore the identity.
+The first mistake is an accident. The second is the start of a new identity. If you miss a day, your _only_ job is to cast a "Vote" immediately (even a 2-minute version) to restore the identity.

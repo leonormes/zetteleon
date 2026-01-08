@@ -4,13 +4,13 @@ confidence: "0.8"
 created: 2025-11-10T10:10:00Z
 epistemic: "hypothesis"
 last_reviewed: ""
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To identify the need for autonomy as a core human need in relationships."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["autonomy", "TheHuman/Identity", "needs", "relationship"]
+tags: ["autonomy", "needs", "relationship", "TheHuman/Identity"]
 title: The Need for Autonomy Preserves Personal Identity Within a Partnership
 type: "concept"
 uid: 

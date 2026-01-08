@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-20T09:16:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["pattern-recognition", "TheHuman/Cognition", "SoftwareEngineering/AI"]
+tags: ["pattern-recognition", "SoftwareEngineering/AI", "TheHuman/Cognition"]
 title: LLMs mimic human conversational patterns
 type: "null"
 uid: 

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-30T15:07:41Z
 epistemic: "principle"
 last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To emphasize excellence over volume in knowledge work"
 review_interval: "90"
 see_also: []

@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-20T09:31:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["TheHuman/Mindset", "perfectionism", "project/personal/prodos", "TheHuman/Psychology"]
+tags: ["perfectionism", "project/personal/prodos", "TheHuman/Mindset", "TheHuman/Psychology"]
 title: Phase 1 - The Perceptual Shift to Neutralise Perfectionism
 type: "null"
 uid: 

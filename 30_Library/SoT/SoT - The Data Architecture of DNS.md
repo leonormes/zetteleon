@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-03-04T13:42:19Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2025-12-26T18:18:09+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the Domain Name System as a hierarchical naming architecture for unique host identification and service discovery."
 review_interval: "6 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data-Centric Theory of Networking]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "data-centric", "SoftwareEngineering/networking/dns", "SoftwareEngineering/Networking", "topic/technology"]
+tags: ["data-centric", "SoftwareEngineering/Architecture", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns", "topic/technology"]
 title: SoT - The Data Architecture of DNS
 type: "SoT"
 uid: 
@@ -42,7 +42,7 @@ DNS operates on a tree structure where each resource is identified by a **Fully 
 The term "hostname" is context-dependent and frequently conflated:
 
 1. **OS Identity (Nodename):** The local identity defined in `/etc/hostname` (e.g., `prod-web-34`). Used for local identification within a LAN.
-2. **Service Identifier:** The leftmost label of an FQDN (e.g., `www` in `www.example.com`). This represents a *logical service* rather than a physical machine.
+2. **Service Identifier:** The leftmost label of an FQDN (e.g., `www` in `www.example.com`). This represents a _logical service_ rather than a physical machine.
 
 Modern architecture achieves **Elasticity** by mapping one logical service name to many ephemeral machine identities.
 

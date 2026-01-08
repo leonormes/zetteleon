@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T12:27:00Z
 epistemic: "pattern"
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "Explain safe criticism via fables."
 review_interval: "90"
 see_also: ["Aesop's Fables Use Anthropomorphic Allegory.md"]

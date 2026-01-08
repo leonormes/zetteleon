@@ -1,16 +1,16 @@
 ---
-aliases: ["K8s DNS Architecture", "Hybrid Cloud DNS", "CoreDNS Configuration"]
+aliases: ["CoreDNS Configuration", "Hybrid Cloud DNS", "K8s DNS Architecture"]
 confidence: "5/5"
 created: 2025-10-16T08:22:15Z
 epistemic: "technical"
 last_reviewed: "2025-12-30"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "Technical specification for DNS architecture and hybrid networking within the FitFile environment."
 review_interval: "6 months"
-see_also: ["[[SoT - FitFile Deployment - Strategy & Architecture]]", "[[SoT - FitFile Deployment - Operations & Troubleshooting]]"]
+see_also: ["[[SoT - FitFile Deployment - Operations & Troubleshooting]]", "[[SoT - FitFile Deployment - Strategy & Architecture]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/networking/dns", "kubernetes", "SoftwareEngineering/Networking", "aks", "eks"]
+tags: ["aks", "eks", "kubernetes", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
 title: SoT - FitFile Deployment - Networking & DNS
 type: "SoT"
 uid: 
@@ -80,7 +80,8 @@ Similar to Azure, we use **Route 53 Resolver Endpoints**.
 
 ## 4. Troubleshooting DNS
 
-*Detailed troubleshooting steps are located in: [[SoT - FitFile Deployment - Operations & Troubleshooting]]*
+_Detailed troubleshooting steps are located in: [[SoT - FitFile Deployment - Operations & Troubleshooting]]_
+
 - Use `netshoot` for debugging.
 - Verify `ndots:2` configuration in application pods.
 - Check firewall rules (UDP/TCP 53) between the cluster and resolvers.

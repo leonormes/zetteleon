@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:35:33Z
 epistemic: "strategy"
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: "To define and detail the high-utility active learning protocols used within the ProdOS ecosystem."
 review_interval: "6 months"
 see_also: ["[[SoT - Deep Learning & Mastery]]", "[[SoT - Learning Mechanisms]]"]
@@ -52,10 +52,14 @@ A rigorous four-step process for deep cognitive integration:
 ## 4. Interleaving & Elaboration
 
 - **Interleaving:** Mixing different subjects or types of problems within a single session. This forces the brain to "discriminatively learn" the differences between concepts.
-- **Self-Explanation:** Explaining the *Why* behind each step while solving a problem. This connects procedural steps to declarative principles.
+- **Self-Explanation:** Explaining the _Why_ behind each step while solving a problem. This connects procedural steps to declarative principles.
 
 ---
 
 ## 5. Summary
 
 Active learning is high-effort by design. By introducing "Desirable Difficulties" through retrieval and elaboration, we force the brain to physically rewire for long-term retention.
+
+## - **Self-Testing:** Work through Problems without Looking at Solutions
+
+- **Active Struggle:** Passive consumption is "Mental Candy." Active learning involves frustration and feedback, which is estimated to be up to **six times more effective** than passive watching (Source: [[Video - How the Algorithm Hijacked Monkey's Brain]]).

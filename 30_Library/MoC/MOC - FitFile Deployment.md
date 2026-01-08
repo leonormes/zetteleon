@@ -1,13 +1,10 @@
 ---
-aliases:
-  - Deployment Master Guide
-  - FitFile Deployment Playbook
-  - Start Here - Deployment
+aliases: [Deployment Master Guide, FitFile Deployment Playbook, Start Here - Deployment]
 confidence: 5/5
 created: 2025-12-21T09:34:38Z
 epistemic: synthesis
 last_reviewed: 2025-12-23
-modified: 2026-01-03T10:18:59+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: The primary entry point and Master Guide for the FitFile platform deployment process.
 review_interval: 3 months
 Reviewed: true
@@ -16,10 +13,7 @@ see_also:
   - "[[SoT - FITFILE Secret Management Architecture]]"
 source_of_truth: []
 status: stable
-tags:
-  - ff_deploy
-  - index
-  - process
+tags: [ff_deploy, index, process]
 title: MOC - FitFile Deployment
 type: map
 uid:
@@ -35,11 +29,11 @@ updated:
 
 ### 1. Core Architecture (Knowledge)
 
-Understand the *Why* before the *How*. These notes define the stable logic of the system.
+Understand the _Why_ before the _How_. These notes define the stable logic of the system.
 
 - **[[SoT - FITFILE Platform Deployment]]**—**The Master Map.** High-level GitOps flow, Three-Tier architecture, and "App of Apps" pattern.
 - **[[SOT - CI-CD Pipelines]]**—The engine documentation for GitLab pipelines.
-- **[[SoT - FITFILE Secret Management Architecture]]**—The canonical model for Vault and VSO. *(Updated with Oct 2025 Audit & Security Standards)*
+- **[[SoT - FITFILE Secret Management Architecture]]**—The canonical model for Vault and VSO. _(Updated with Oct 2025 Audit & Security Standards)_
 
 ---
 

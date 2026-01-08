@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-02T04:03:05Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:24+00:00
+modified: 2026-01-08T10:49:54+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -48,7 +48,7 @@ Groups are collections of users, devices, or service principals. They are a high
 
 ## **Permissions And Roles**
 
-- **Permissions**: These are specific actions that can be performed on Microsoft Entra resources, such as "create users," "read groups," or "update application properties". They define what an identity *can do*.
+- **Permissions**: These are specific actions that can be performed on Microsoft Entra resources, such as "create users," "read groups," or "update application properties". They define what an identity _can do_.
 - **Roles (Role Definitions)**: A role is a collection of permissions. Instead of granting individual permissions, you assign a role that bundles multiple related permissions.
 - **Built-in Roles**: Pre-defined roles by Microsoft with a fixed set of permissions (e.g., Global Administrator, User Administrator, Groups Administrator, Cloud Application Administrator).
 - **Custom Roles**: Roles created by your organization with a specific set of permissions tailored to your needs.
@@ -66,7 +66,7 @@ The "portal process" can indeed seem like a maze because permissions can be assi
 
 ### 1. Assigning Users/Groups to an Enterprise Application (for Application Access)
 
-This is how you control *who can use* a specific application (like GitLab) integrated with Entra ID for SSO.
+This is how you control _who can use_ a specific application (like GitLab) integrated with Entra ID for SSO.
 
 - **Path**: Identity > Applications > Enterprise applications > All applications.
 - **Steps**:
@@ -79,7 +79,7 @@ This is how you control *who can use* a specific application (like GitLab) integ
 6. On the "Add Assignment" pane, select "None Selected" under **Users and groups**.
 7. Search for and select the user(s) or group(s) you want to assign to the application.
 8. Select **Select**.
-9. Under "Select a role", choose the specific role you want to assign to the user or group for *this application*. If no roles are defined, the default is "Default Access". This relates to `app_roles` defined within the application's service principal.
+9. Under "Select a role", choose the specific role you want to assign to the user or group for _this application_. If no roles are defined, the default is "Default Access". This relates to `app_roles` defined within the application's service principal.
 10. On the "Add Assignment" pane, select **Assign**.
 
 - **Key Concept**:
@@ -88,7 +88,7 @@ This is how you control *who can use* a specific application (like GitLab) integ
 
 ### 2. Assigning Users/Groups to an Administrative Role (Directory Roles)
 
-This is how you grant administrative privileges *within Microsoft Entra ID itself* (e.g., permission to create users, manage groups, or configure applications).
+This is how you grant administrative privileges _within Microsoft Entra ID itself_ (e.g., permission to create users, manage groups, or configure applications).
 
 - **Path for Users (Method 2: Directory Roles)**: Identity > Roles and Administrators > Roles and Administrators.
 - **Steps**:
@@ -138,7 +138,7 @@ This shows direct administrative roles and roles inherited through role-assignab
 This shows all groups a user is a member of, which is crucial because groups are often used to grant access to applications and resources.
 
 - **Path**: Identity > Users > (Select User) > Groups.
-- **Details**: This list shows all groups the user is a direct or indirect member of (excluding nested group limitations for application assignments). Once you know the groups, you can then check what permissions *those groups* have.
+- **Details**: This list shows all groups the user is a direct or indirect member of (excluding nested group limitations for application assignments). Once you know the groups, you can then check what permissions _those groups_ have.
 
 ### 3. Check an Application's User/Group Assignments
 
@@ -149,7 +149,7 @@ This shows which specific users and groups have been granted access to a particu
 
 ### 4. Check API Permissions Granted to an Application (Service Principal)
 
-This is about what permissions the *application itself* has to access other APIs (like Microsoft Graph) on behalf of a user or itself. This is distinct from *who can use* the application.
+This is about what permissions the _application itself_ has to access other APIs (like Microsoft Graph) on behalf of a user or itself. This is distinct from _who can use_ the application.
 
 - **Path**: Identity > Applications > Enterprise applications > (Select Application) > Permissions.
 - **Details**:
@@ -163,10 +163,10 @@ This is about what permissions the *application itself* has to access other APIs
 - **Permissions vs. Roles**:
 - **Permissions** are the raw, granular actions (e.g., `microsoft.directory/users/create` to create a user).
 - **Roles** are predefined or custom bundles of these raw permissions (e.g., the "User Administrator" role contains the `microsoft.directory/users/create` permission, among others). You generally assign roles, not individual permissions, directly to users or groups for administrative purposes.
-- **`app_role_assignment_required`**: This attribute on a service principal determines if users or groups *must be explicitly assigned* to the enterprise application before Microsoft Entra ID will issue a token for them to access the application. If `true`, only assigned users/groups can sign in. If `false`, any user can sign in, but only assigned users will see the app in their My Apps portal.
-- **`app_roles`**: These are roles *published by the application itself*. For instance, a CRM application might define "Sales Representative," "Sales Manager," or "Admin" roles. When you assign users or groups to the application, you can assign them to one of these specific app roles. These are different from Microsoft Entra administrative roles.
-- **`oauth2_permission_scopes`**: Also known as "delegated permissions," these define permissions that an application can request to act *on behalf of a signed-in user* (e.g., "read user's profile"). The user, or an administrator on their behalf, consents to these permissions.
-- **`Directory.Read.All` vs. `User.Read.All` vs. `Application.Read.All`**: These are specific permissions within Microsoft Graph API that grant an application or service principal the ability to read directory objects (users, groups, applications). They are typically assigned to the *application's service principal* (not directly to a user).
+- **`app_role_assignment_required`**: This attribute on a service principal determines if users or groups _must be explicitly assigned_ to the enterprise application before Microsoft Entra ID will issue a token for them to access the application. If `true`, only assigned users/groups can sign in. If `false`, any user can sign in, but only assigned users will see the app in their My Apps portal.
+- **`app_roles`**: These are roles _published by the application itself_. For instance, a CRM application might define "Sales Representative," "Sales Manager," or "Admin" roles. When you assign users or groups to the application, you can assign them to one of these specific app roles. These are different from Microsoft Entra administrative roles.
+- **`oauth2_permission_scopes`**: Also known as "delegated permissions," these define permissions that an application can request to act _on behalf of a signed-in user_ (e.g., "read user's profile"). The user, or an administrator on their behalf, consents to these permissions.
+- **`Directory.Read.All` vs. `User.Read.All` vs. `Application.Read.All`**: These are specific permissions within Microsoft Graph API that grant an application or service principal the ability to read directory objects (users, groups, applications). They are typically assigned to the _application's service principal_ (not directly to a user).
 
 ## Summary of the Portal Process Flow
 
@@ -179,10 +179,10 @@ This is about what permissions the *application itself* has to access other APIs
 
 - **To give a user access to an application (for SSO)**: Go to the **Enterprise Application** object in the portal, select **Users and groups**, and assign the user (or a group they are a member of) to the application, potentially selecting an `app_role` specific to that application. Ensure "Assignment required" is set to "Yes" on the application's properties for stricter control.
 
-1. **Roles** grant administrative powers or access to specific data/features *within Entra ID*.
+1. **Roles** grant administrative powers or access to specific data/features _within Entra ID_.
 
 - **To give a user administrative permissions (e.g., to create users or manage groups)**: Go to **Identity** > **Roles & admins** > **Roles & admins**, select the desired **Role**, and then add the user (or a role-assignable group) as an **Assignment**.
-- **To give an *application* (service principal) permissions to interact with Entra ID or other Microsoft services**: Go to the **App Registration** or **Enterprise Application** object, select **API permissions**, and add the required Microsoft Graph (or other API) permissions. This is usually followed by granting admin consent.
+- **To give an _application_ (service principal) permissions to interact with Entra ID or other Microsoft services**: Go to the **App Registration** or **Enterprise Application** object, select **API permissions**, and add the required Microsoft Graph (or other API) permissions. This is usually followed by granting admin consent.
 
 The "different pages and subsections" you mentioned are generally organized logically:
 
@@ -192,4 +192,4 @@ The "different pages and subsections" you mentioned are generally organized logi
 - **Roles & admins blade**: For managing Microsoft Entra administrative roles and their assignments, including custom roles and administrative units.
 - **App registrations blade**: Primarily for developers to register and configure their applications, including API permissions exposed or required by the application.
 
-It's common to move between these sections depending on whether you're trying to manage *who can access an app*, *who has admin privileges*, or *what an app can do*.
+It's common to move between these sections depending on whether you're trying to manage _who can access an app_, _who has admin privileges_, or _what an app can do_.

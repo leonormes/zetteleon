@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T11:51:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "Explain Kubernetes egress traffic handling."
 review_interval: "90"
 see_also: ["Containers Within a Pod Share Network Namespace and IP Address.md", "NAT Gateways Enable Private Resources to Access Internet.md"]

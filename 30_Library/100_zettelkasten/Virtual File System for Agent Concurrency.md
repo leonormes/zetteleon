@@ -5,13 +5,13 @@ created: 2025-10-10T08:34:11Z
 epistemic: "null"
 id: "20251008_Virtual_File_System_for_Agent_Concurrency"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["Concurrency", "State", "SoftwareEngineering/AI", "SoftwareEngineering/AI/agents"]
+tags: ["Concurrency", "SoftwareEngineering/AI", "SoftwareEngineering/AI/agents", "State"]
 title: Virtual File System for Agent Concurrency
 type: "null"
 uid: 

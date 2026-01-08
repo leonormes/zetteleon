@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-06-21T10:08:44Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:00+00:00
+modified: 2026-01-08T10:49:48+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -20,7 +20,7 @@ version: ""
 
 - Failing Identified: The inconsistencies in support suggest that despite general SEND training, not all staff are adequately equipped to meet Bessie's complex needs, particularly around ADHD, emotional regulation, and masking.
 - What to Ask the School to DO:
-  - Mandatory Specialised Training: Implement mandatory, recurring, and in-depth training for *all* teaching and pastoral staff on:
+  - Mandatory Specialised Training: Implement mandatory, recurring, and in-depth training for _all_ teaching and pastoral staff on:
     - Understanding ADHD and potential AuDHD, specifically the female presentation and the impact of masking.
     - Effective strategies for supporting students with executive function difficulties (e.g., planning, organisation, working memory, emotional regulation).
     - Neurodiversity-affirming approaches to behaviour management and distress, moving away from punitive responses to understanding underlying needs.

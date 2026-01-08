@@ -1,16 +1,16 @@
 ---
-aliases: ["NUMA", "SNC", "Sub-NUMA Clustering", "UPI", "Cloud Latency"]
+aliases: ["Cloud Latency", "NUMA", "SNC", "Sub-NUMA Clustering", "UPI"]
 confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "fact"
 last_reviewed: "2025-12-31"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To map the physical latency terrain of cloud memory interconnects."
 review_interval: "1 year"
 see_also: ["[[MOC - Cloud Hardware Architecture]]"]
 source_of_truth: []
 status: "stable"
-tags: ["hardware", "numa", "performance", "latency"]
+tags: ["hardware", "latency", "numa", "performance"]
 title: SoT - NUMA & Cloud Memory Topology
 type: "SoT"
 uid: 
@@ -38,15 +38,15 @@ In modern cloud servers, "Memory" is not a flat pool. It is a tiered landscape d
 
 The bridge between Sockets.
 
-* **Cost:** Crossing this link adds ~50ns of latency.
-* **Risk:** If a Kubernetes pod is split across sockets, 50% of its memory access might be remote, degrading performance by 30-40%.
+- **Cost:** Crossing this link adds ~50ns of latency.
+- **Risk:** If a Kubernetes pod is split across sockets, 50% of its memory access might be remote, degrading performance by 30-40%.
 
 ### 2.2 Sub-NUMA Clustering (SNC)
 
 Modern CPUs partition a single socket into logical NUMA domains (SNC2 or SNC4) to localize traffic.
 
-* **AWS:** Often disables SNC, presenting 1 NUMA node per socket. This "averages" latency (raising the floor but lowering the ceiling).
-* **Azure:** Often exposes SNC. This allows higher peak performance *if* the application is NUMA-aware, but risks severe penalties if the OS scheduler migrates threads across domains.
+- **AWS:** Often disables SNC, presenting 1 NUMA node per socket. This "averages" latency (raising the floor but lowering the ceiling).
+- **Azure:** Often exposes SNC. This allows higher peak performance _if_ the application is NUMA-aware, but risks severe penalties if the OS scheduler migrates threads across domains.
 
 ---
 

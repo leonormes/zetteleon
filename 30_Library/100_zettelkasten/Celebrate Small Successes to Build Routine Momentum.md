@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-10-29T16:10:00Z
 epistemic: "strategy"
 last_reviewed: "2025-12-16"
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To describe a method for reinforcing and motivating routine adherence."
 review_interval: ""
 see_also: ["[[Dopamine Management in ADHD Productivity]]", "[[Kaizen Method Uses Micro-Victories to Build Momentum]]"]
 source_of_truth: []
 status: "stable"
-tags: ["TheHuman/Motivation", "positive-reinforcement", "routine", "TheHuman/Habits"]
+tags: ["positive-reinforcement", "routine", "TheHuman/Habits", "TheHuman/Motivation"]
 title: Celebrate Small Successes to Build Routine Momentum
 type: "strategy"
 uid: 

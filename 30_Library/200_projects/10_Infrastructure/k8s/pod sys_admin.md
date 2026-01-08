@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-17T12:57:49Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:13+00:00
+modified: 2026-01-08T10:49:51+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -60,7 +60,7 @@ securityContext:
 Explanation of Changes:
 
 - `capabilities.drop: - SYS_ADMIN`**: This explicitly tells Kubernetes to drop the `CAP_SYS_ADMIN` capability for this container. This is the primary fix for the security recommendation.
-- `privileged: false`**: If `privileged: true` was present, explicitly set it to `false`. Privileged mode grants *all* capabilities and relaxes many security restrictions. It should be avoided unless absolutely necessary. If you are not sure if you need it, try removing it.
+- `privileged: false`**: If `privileged: true` was present, explicitly set it to `false`. Privileged mode grants _all_ capabilities and relaxes many security restrictions. It should be avoided unless absolutely necessary. If you are not sure if you need it, try removing it.
 - `runAsUser: 1000`**: Keep this line if your application requires running as a specific non-root user (user ID 1000 in this case). This is a good security practice in general.
 
 Example Snippet in `deployment.yaml` (Helm Template):
@@ -126,7 +126,7 @@ After ArgoCD has completed the synchronization and your pods have been redeploye
 
 Important Considerations Before Applying Changes:
 
-- Understand Why `SYS_ADMIN` Was Requested: Before blindly removing `SYS_ADMIN`, try to understand *why* it was initially requested for these pods.
+- Understand Why `SYS_ADMIN` Was Requested: Before blindly removing `SYS_ADMIN`, try to understand _why_ it was initially requested for these pods.
   - Investigate the Application: Examine the application running in these pods. Does it actually require `SYS_ADMIN`? Often, `SYS_ADMIN` is requested unnecessarily due to outdated container images or a lack of understanding of Kubernetes security best practices.
   - Alternative Capabilities: If the application needs some elevated privileges, research if there are more specific and less powerful capabilities that could be used instead of `SYS_ADMIN`. Consult the [Kubernetes documentation on capabilities](https://www.google.com/search?q=https://www.google.com/search%3Fq%3Dkubernetes%2Bcapabilities) for a full list. You might find that capabilities like `CAP_NET_ADMIN`, `CAP_SYS_CHROOT`, or others are sufficient for your application's needs without the broad scope of `SYS_ADMIN`.
 - Test Thoroughly: After making these changes, thoroughly test your application to ensure it still functions correctly without `SYS_ADMIN`. Monitor for any errors or unexpected behavior.

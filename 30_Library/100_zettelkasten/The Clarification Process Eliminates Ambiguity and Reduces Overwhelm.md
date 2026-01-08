@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T15:12:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To explain the benefits of the clarification process for converting 'stuff' into actions."
 review_interval: "90"
 see_also: ["[[Clarifying Stuff Into Actions Follows a Four-Step Process]]"]

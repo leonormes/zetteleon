@@ -1,13 +1,10 @@
 ---
-aliases:
-  - DOP Learning Path
-  - Database and Structures Syllabus
-  - Systems Programming Curriculum
+aliases: [Database and Structures Syllabus, DOP Learning Path, Systems Programming Curriculum]
 confidence: 5/5
 created: 2025-12-31T00:00:00Z
 epistemic: index
 last_reviewed: 2025-12-31
-modified: 2026-01-01T16:30:02+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: A structured learning path for mastering the Data Structures and Database Internals required for Data-Oriented Design.
 review_interval: 3 months
 see_also:
@@ -15,12 +12,7 @@ see_also:
   - "[[SoT - Data-Centric Software Engineering]]"
 source_of_truth: []
 status: active
-tags:
-  - type/moc
-  - learning
-  - curriculum
-  - dop
-  - database
+tags: [curriculum, database, dop, learning, type/moc]
 title: MOC - Data-Oriented Structures & Internals
 type: map
 uid:
@@ -33,42 +25,42 @@ This syllabus is based on the principle that **"Software is just a Database that
 
 ### Module A: The Structures (The Vocabulary)
 
-*Goal: Stop using Objects/Nodes. Start using Arrays/Indices.*
+_Goal: Stop using Objects/Nodes. Start using Arrays/Indices._
 
 1. **The Foundation:** **[[SoT - Data-Oriented Programming (DOP)]]**
-    * *Concept:* Structure of Arrays (SoA) vs. Array of Structures (AoS).
+    - _Concept:_ Structure of Arrays (SoA) vs. Array of Structures (AoS).
 2. **The Safe Pointer:** **[[SoT - Slot Map (Generational Arena)]]**
-    * *Critical:* How to safely reference data in an array without garbage collection.
+    - _Critical:_ How to safely reference data in an array without garbage collection.
 3. **The Toolkit:** **[[SoT - High-Performance Data Structures]]**
-    * *Ring Buffers:* For queues/events.
-    * *Flattened Trees:* For hierarchies.
-    * *CSR Graphs:* For networks.
+    - _Ring Buffers:_ For queues/events.
+    - _Flattened Trees:_ For hierarchies.
+    - _CSR Graphs:_ For networks.
 
 ### Module B: The Internals (The Theory)
 
-*Goal: Understand storage, indexing, and concurrency.*
+_Goal: Understand storage, indexing, and concurrency._
 
 1. **The Database Model:** **[[SoT - Database Internals for Systems Programmers]]**
-    * *Storage:* Why Pages matter (Cache Lines).
-    * *Indexing:* B-Trees (Read) vs. LSM Trees (Write).
-    * *Concurrency:* MVCC (Lock-free reading).
-    * *Planning:* Cost Models and Cardinality.
+    - _Storage:_ Why Pages matter (Cache Lines).
+    - _Indexing:_ B-Trees (Read) vs. LSM Trees (Write).
+    - _Concurrency:_ MVCC (Lock-free reading).
+    - _Planning:_ Cost Models and Cardinality.
 
 ### Module C: The Practice (The Gym)
 
-*Goal: Write code that proves you understand the above.*
+_Goal: Write code that proves you understand the above._
 
 1. **Exercises:** **[[SoT - Curriculum - Data-Oriented Design]]**
-    * *Level 1:* State Enforcers (Enums).
-    * *Level 2:* Recursion Killing (Flattened Arrays).
-    * *Level 3:* Composition (ECS-lite).
-    * *Level 4:* Event Sourcing (The Log).
+    - _Level 1:_ State Enforcers (Enums).
+    - _Level 2:_ Recursion Killing (Flattened Arrays).
+    - _Level 3:_ Composition (ECS-lite).
+    - _Level 4:_ Event Sourcing (The Log).
 
 ---
 
 ## 2. Recommended Reading Order
 
-1. Start with **[[SoT - Data-Oriented Programming (DOP)]]** to understand *Why*.
+1. Start with **[[SoT - Data-Oriented Programming (DOP)]]** to understand _Why_.
 2. Implement a **[[SoT - Slot Map (Generational Arena)]]** in TypeScript/Rust.
 3. Read **[[SoT - Database Internals for Systems Programmers]]** to understand the "Page" model.
 4. Attempt the "File System" challenge in **[[SoT - Curriculum - Data-Oriented Design]]** using a **Flattened Tree**.

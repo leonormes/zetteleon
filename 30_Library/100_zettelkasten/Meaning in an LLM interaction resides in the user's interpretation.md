@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-20T09:22:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["meaning", "semantics", "TheHuman/Cognition", "SoftwareEngineering/AI"]
+tags: ["meaning", "semantics", "SoftwareEngineering/AI", "TheHuman/Cognition"]
 title: "Meaning in an LLM interaction resides in the user's interpretation"
 type: "null"
 uid: 

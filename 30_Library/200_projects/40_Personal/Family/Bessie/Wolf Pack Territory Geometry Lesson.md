@@ -6,7 +6,7 @@ created: 2025-08-22T00:00:00Z
 description: "Created with Gemini"
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:00+00:00
+modified: 2026-01-08T10:49:48+00:00
 published: ""
 purpose: ""
 review_interval: ""
@@ -30,7 +30,7 @@ Custom Gem
 
 Of course. It's crucial to design learning experiences that are not only tailored to Bessie's specific needs but are also engaging and meaningful to her. Drawing from Paul Lockhart's philosophy in "A Mathematician's Lament," this activity will avoid presenting mathematics as a sterile set of rules to be memorized. Instead, it will frame geometry as a creative, problem-solving art form, rooted in a context Bessie is passionate about: the
 
-*WolfQuest* game.
+_WolfQuest_ game.
 
 The activity is progressive, starting with simple, tangible problems and gradually building in complexity. Each stage is designed as a "session" which can be tackled in one or more lessons, using the Pomodoro Technique (25 minutes of focused work, 5-minute break) to help with her ADHD and maintain focus.
 
@@ -41,7 +41,7 @@ The activity is progressive, starting with simple, tangible problems and gradual
 **Core Principles from "A Mathematician's Lament":**
 
 - **Start with a Problem, Not a Formula:** The question "Is this territory big enough?" drives the learning, not the formula itself.
-- **Mathematics as Explanation:** The goal is not just to get the right answer, but for Bessie to be able to *explain* her thinking, crafting her own arguments and narratives.
+- **Mathematics as Explanation:** The goal is not just to get the right answer, but for Bessie to be able to _explain_ her thinking, crafting her own arguments and narratives.
 - **Embrace Creativity and Play:** The activity is set within a fantasy world she enjoys, allowing her to play with ideas and make the problem her own.
 
 ---
@@ -93,7 +93,7 @@ The activity is progressive, starting with simple, tangible problems and gradual
    - Present a new map, this time an L-shaped compound shape. For example, one rectangle of 12x8 km attached to another of 6x4 km.
    - **Question:** "This is our new territory. We can't use our simple length x width formula anymore. How could we possibly figure out the area of this shape?"
 2. **Discovery and Strategy (The 'Aha!' Moment):**
-   - Encourage Bessie to think creatively. Let her propose ideas. Guide her towards the insight that she can split the L-shape into two rectangles that she *already knows how to find the area of*. This follows Lockhart's principle of letting the student discover the method.
+   - Encourage Bessie to think creatively. Let her propose ideas. Guide her towards the insight that she can split the L-shape into two rectangles that she _already knows how to find the area of_. This follows Lockhart's principle of letting the student discover the method.
    - Use the CGP guide's method as a scaffold:
 
      > 3. SPLIT THEM UP into the basic shapes...
@@ -123,7 +123,7 @@ The activity is progressive, starting with simple, tangible problems and gradual
 
      > **Area of TRIANGLE = 1/2 x base x vertical height**
 
-   - Use this opportunity to explicitly discuss the difference between the *vertical height* and the *sloping side*, a common point of confusion.
+   - Use this opportunity to explicitly discuss the difference between the _vertical height_ and the _sloping side_, a common point of confusion.
 
 3. **Problem Solving:**
    - Bessie calculates the area of the lost triangle and subtracts it from her total territory.
@@ -148,7 +148,7 @@ The activity is progressive, starting with simple, tangible problems and gradual
      2. It must be a compound shape made of at least one rectangle and at least one triangle.
 2. **Creation and Explanation (The Art of Mathematics):**
    - This is where Bessie takes full control. She can design a shape that is interesting to her. This task is perfectly suited for her creative talents and taps into her aspiration to be a designer.
-   - Once she has designed her map, her main task is to *prove* it meets the requirements. She must:
+   - Once she has designed her map, her main task is to _prove_ it meets the requirements. She must:
      - Break her custom shape into its component parts.
      - Calculate the area of each part, showing her work.
      - Add them together to find the total area.
@@ -164,7 +164,7 @@ Bessie Teacher
 
 Custom Gem
 
-Excellent. This is a fantastic observation and makes the activity far more authentic and engaging for Bessie. The screenshot shows that *WolfQuest* uses a hexagonal grid, which is a much more interesting and natural way to tile a landscape than simple squares.
+Excellent. This is a fantastic observation and makes the activity far more authentic and engaging for Bessie. The screenshot shows that _WolfQuest_ uses a hexagonal grid, which is a much more interesting and natural way to tile a landscape than simple squares.
 
 This changes our approach in a way that aligns even more closely with Paul Lockhart's philosophy. Instead of starting with pre-defined formulas for squares and triangles, we are now faced with a more genuine mathematical problem:
 
@@ -191,7 +191,7 @@ Here is a collaborative "canvas" for the revised lesson plan. We can adjust and 
 - **Activity:**
   1. Using the screenshot, Bessie counts the number of yellow hexes. (There are 16).
   2. She records this on her laptop in a "Pack Stats" document: `Athena Pack Territory: 16 hexes.`
-  3. **Connect to the Problem:** "Let's imagine each hex has enough prey to support one wolf for a season. If your pack has 6 wolves, is a 16-hex territory big enough for the whole year (4 seasons)?" This gets her thinking about what the area *means*. (6 wolves x 4 seasons = 24 hexes needed. So, 16 is not enough).
+  3. **Connect to the Problem:** "Let's imagine each hex has enough prey to support one wolf for a season. If your pack has 6 wolves, is a 16-hex territory big enough for the whole year (4 seasons)?" This gets her thinking about what the area _means_. (6 wolves x 4 seasons = 24 hexes needed. So, 16 is not enough).
 - **Bessie's Profile:** This is a simple, low-anxiety entry point. It requires no complex calculation, builds confidence, and immediately connects to the game's visuals. It plays to her strength of seeing the "big picture" (territory = strength).
 
 ---
@@ -199,14 +199,14 @@ Here is a collaborative "canvas" for the revised lesson plan. We can adjust and 
 **Session 2: What's a Hex Worth? (Deconstructing the Hexagon)**
 
 - **Objective:** To find the area of a single hexagon by breaking it down into familiar shapes.
-- **The Problem:** "Okay, so we know our area in 'hexes', but the ecologists measure in square kilometres (km²). How can we figure out the area of a *single* hex?" The screenshot tells us a hex has a **diameter of 750m**.
+- **The Problem:** "Okay, so we know our area in 'hexes', but the ecologists measure in square kilometres (km²). How can we figure out the area of a _single_ hex?" The screenshot tells us a hex has a **diameter of 750m**.
 - **Guided Discovery:**
   1. Provide Bessie with a large, perfectly drawn hexagon on blue grid paper.
   2. Ask, "What simple shapes can you see inside the hexagon? How could we split it up into shapes we already know how to find the area of?" Let her draw lines and explore.
   3. Guide her to see that a hexagon can be split into **two trapeziums** or, even better, **six equilateral triangles**.
   4. Focus on the "six triangles" method. Now the problem is simpler: find the area of one triangle and multiply by six!
 - **Introducing Technique (When Needed):** We now need the formula for a triangle's area from the CGP guide: `Area = 1/2 x base x height`. We can use the 750m diameter to figure out the triangle's dimensions and calculate the area of the hex in m² (which we can then convert to km²). This is a challenging step, so we'll work through it together slowly.
-- **Lockhart Principle:** We only introduced the formula because we *needed* it to solve a problem we had posed and simplified ourselves. The formula is a tool, not the starting point.
+- **Lockhart Principle:** We only introduced the formula because we _needed_ it to solve a problem we had posed and simplified ourselves. The formula is a tool, not the starting point.
 
 ---
 
@@ -232,7 +232,7 @@ Here is a collaborative "canvas" for the revised lesson plan. We can adjust and 
 - **Process:**
   1. Bessie uses coloured pencils to shade in the hexes on her blue hex grid, creating a shape she finds interesting and strategic. This taps directly into her creativity and future career interest.
   2. She then proves her design works by counting the hexes and writing a short justification on her laptop, perhaps with a photo of her map.
-- **Lockhart Principle:** She is not just solving a problem; she is *creating* her own mathematical object (the territory shape) and explaining it. This is mathematics as a creative act.
+- **Lockhart Principle:** She is not just solving a problem; she is _creating_ her own mathematical object (the territory shape) and explaining it. This is mathematics as a creative act.
 
 ---
 
@@ -288,7 +288,7 @@ Let's build on our canvas to create an activity where Bessie can use mathematics
   4. **Discovery:** Give her two simple territories that both have an **area of 4 hexes**: one in a straight line and one in a compact block.
      - The straight-line territory has a perimeter of **10 sides**.
      - The compact block has a perimeter of **8 sides**.
-  5. **Aha! Moment:** Guide her to the key discovery: "Look! Two territories with the same area can have different perimeters. The *shape* of the territory matters!" This is a profound geometric idea discovered through play, just as Lockhart suggests.
+  5. **Aha! Moment:** Guide her to the key discovery: "Look! Two territories with the same area can have different perimeters. The _shape_ of the territory matters!" This is a profound geometric idea discovered through play, just as Lockhart suggests.
 
 ---
 
@@ -340,7 +340,7 @@ This activity pack is now ready for Bessie. It provides a clear, progressive str
 
 **Season:** Summer moving into Winter
 
-*Alpha's Note: Bessie, this journal is our guide. We'll use it to make the best decisions for our pack by combining our knowledge of wolves with the power of mathematics. Your creativity and big-picture thinking are your greatest strengths as a leader. Let's put them to work!*
+_Alpha's Note: Bessie, this journal is our guide. We'll use it to make the best decisions for our pack by combining our knowledge of wolves with the power of mathematics. Your creativity and big-picture thinking are your greatest strengths as a leader. Let's put them to work!_
 
 ## PART 1: The Lay of the Land (Understanding Area)
 
@@ -423,7 +423,7 @@ Let's investigate two small territories. Both have an **AREA** of **5 hexes**.
 \_/
 ```
 
-*(Imagine these as hex shapes)*
+_(Imagine these as hex shapes)_
 
 1. **Count the Perimeters:** For each territory, count the number of exposed sides.
 2. **Record Your Findings:**
@@ -540,7 +540,7 @@ Here is the updated, consolidated activity pack. I've added "Part 5" to the end 
 
 **Season:** Summer moving into Winter
 
-*Alpha's Note: Bessie, this journal is our guide. We'll use it to make the best decisions for our pack by combining our knowledge of wolves with the power of mathematics. Your creativity and big-picture thinking are your greatest strengths as a leader. Let's put them to work!*
+_Alpha's Note: Bessie, this journal is our guide. We'll use it to make the best decisions for our pack by combining our knowledge of wolves with the power of mathematics. Your creativity and big-picture thinking are your greatest strengths as a leader. Let's put them to work!_
 
 ## PART 5: The Art of the Hunt (Speed, Distance & Probability)
 
@@ -558,7 +558,7 @@ A good territory is useless if we can't successfully hunt. A hunt is a balance o
 > - **Top Speed:** 12 metres per second (m/s)
 > - **Reaction:** The elk is alert. It gets a **2-second head start** the moment the wolf commits to the chase.
 > 
-> **The Goal:** The wolf must catch the elk *before* its 20 seconds of stamina runs out.
+> **The Goal:** The wolf must catch the elk _before_ its 20 seconds of stamina runs out.
 
 ### Task 5.1: The Chase Calculator (Speed, Distance, Time)
 
@@ -583,7 +583,7 @@ To figure out if a chase is possible, we need to calculate how far the wolf and 
 
 ### Alpha's Analysis: The "Must-Be-Closer-Than" Distance
 
-> **Question:** Look at the Wolf's Maximum Chase Distance and the Total Distance the Elk Covers. For a successful hunt, the wolf *must* be able to run further than the total distance the elk covers. What is the absolute maximum starting distance the wolf can be from the elk and still have a chance?
+> **Question:** Look at the Wolf's Maximum Chase Distance and the Total Distance the Elk Covers. For a successful hunt, the wolf _must_ be able to run further than the total distance the elk covers. What is the absolute maximum starting distance the wolf can be from the elk and still have a chance?
 >
 > **Your Answer:**
 
@@ -633,7 +633,7 @@ Now, you must advise a lone wolf on the best strategy. Analyze three possible am
 
 ### Future Field Notes: The Power of the Pack
 
-*Alpha's Note: This entire analysis was for a **lone wolf**. How would our strategy change if we were hunting as a pack? We could use teamwork to overcome the elk's advantages. Think about it: one wolf could chase the elk towards another wolf waiting in ambush. This would change all our calculations for distance and stamina. This is our next challenge!*
+_Alpha's Note: This entire analysis was for a **lone wolf**. How would our strategy change if we were hunting as a pack? We could use teamwork to overcome the elk's advantages. Think about it: one wolf could chase the elk towards another wolf waiting in ambush. This would change all our calculations for distance and stamina. This is our next challenge!_
 
 Google Account
 

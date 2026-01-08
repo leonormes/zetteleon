@@ -4,14 +4,14 @@ confidence: "null"
 created: 2025-10-30T12:07:03Z
 epistemic: "fact"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source: "[[MOC - The Neuroscience of Task Initiation in ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "TheHuman/Neuroscience", "norepinephrine", "prefrontal-cortex", "TheHuman/Health/ADHD"]
+tags: ["dopamine", "norepinephrine", "prefrontal-cortex", "TheHuman/Health/ADHD", "TheHuman/Neuroscience"]
 title: Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD
 type: "concept"
 uid: 

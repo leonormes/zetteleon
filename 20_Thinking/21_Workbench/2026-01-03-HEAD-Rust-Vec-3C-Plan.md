@@ -1,21 +1,21 @@
 ---
 aliases: []
-tags: []
-title: "HEAD - Learning Plan: Rust Vec (3C Protocol)"
-type: ""
-status: ""
 confidence: ""
-epistemic: ""
-purpose: ""
 created: 2026-01-03T18:28:05+00:00
-modified: 2026-01-03T18:28:29+00:00
+epistemic: ""
 last_reviewed: ""
+modified: 2026-01-08T10:50:02+00:00
+purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
+status: ""
+tags: []
+title: 2026-01-03-HEAD-Rust-Vec-3C-Plan
+type: ""
 ---
 
-# HEAD - Learning Plan: Rust Vec (3C Protocol)
+## HEAD - Learning Plan: Rust Vec (3C Protocol)
 
 > **Goal:** High-velocity mastery of `Vec<T>` through the lens of Data Layout.
 > **Protocol:** [[SoT - Accelerated Learning (3C Protocol)]]
@@ -23,20 +23,20 @@ source_of_truth: []
 
 ---
 
-## 1. COMPRESS (Input Optimization)
+### 1. COMPRESS (Input Optimization)
 
-*Objective: Reduce 500+ pages of documentation into the 20% "Power Patterns."*
+_Objective: Reduce 500+ pages of documentation into the 20% "Power Patterns."_
 
-### The "3-Word Model" (Chunking)
+#### The "3-Word Model" (Chunking)
 
 To the computer, a `Vec<T>` is simply a **(Pointer, Capacity, Length)** triple.
 
 - **Hook:** Imagine a **Reservoir**.
-    - *Pointer:* The location of the water.
-    - *Capacity:* The size of the concrete tank (allocated memory).
-    - *Length:* How much water is actually in it (initialized elements).
+    - _Pointer:_ The location of the water.
+    - _Capacity:_ The size of the concrete tank (allocated memory).
+    - _Length:_ How much water is actually in it (initialized elements).
 
-### The Data Layout Pattern (Association)
+#### The Data Layout Pattern (Association)
 
 - **Physical Layout:** Contiguous memory. No gaps.
 - **The "Cache Locality" Win:** Because items are neighbors, the CPU pre-fetches them. This is the primary reason to use `Vec` over `LinkedList`.
@@ -44,31 +44,31 @@ To the computer, a `Vec<T>` is simply a **(Pointer, Capacity, Length)** triple.
 
 ---
 
-## 2. COMPILE (Process Execution)
+### 2. COMPILE (Process Execution)
 
-*Objective: 90-minute Deep Work Block (The Engine).*
+_Objective: 90-minute Deep Work Block (The Engine)._
 
-### Sprint 1: The "Manual Layout" Experiment (30 mins)
+#### Sprint 1: The "Manual Layout" Experiment (30 mins)
 
 - **Test:** Use `std::mem::size_of` and `std::mem::align_of` to calculate the footprint of `Vec<i32>` vs `Vec<String>`.
-- **Goal:** Visualize why `Vec<String>` stores the *pointers* to strings contiguously, while the actual text is scattered elsewhere.
+- **Goal:** Visualize why `Vec<String>` stores the _pointers_ to strings contiguously, while the actual text is scattered elsewhere.
 
-### Sprint 2: The "Borrow Checker Boss Fight" (30 mins)
+#### Sprint 2: The "Borrow Checker Boss Fight" (30 mins)
 
 - **Test:** Intentionally trigger `E0502` (cannot borrow as mutable because it is also borrowed as immutable).
 - **Exercise:** Create a `Vec`, take a reference to `v[0]`, then `v.push()`.
 - **Internalization:** Understand that `push` is dangerous not because it adds data, but because it might **move the entire memory layout**, leaving your reference pointing at "ghost" memory.
 
-### Sprint 3: The "Slow Burn" (30 mins)
+#### Sprint 3: The "Slow Burn" (30 mins)
 
 - **Test:** Implement a basic "Search" function manually using `.iter()` and compare it to indexing.
 - **Protégé Effect:** Explain to the "Rubber Duck" why `v.remove(0)` is significantly more expensive than `v.pop()` in terms of physical memory shifting.
 
 ---
 
-## 3. CONSOLIDATE (Neural Integration)
+### 3. CONSOLIDATE (Neural Integration)
 
-*Objective: Shift from Work-Centric to Cycle-Centric.*
+_Objective: Shift from Work-Centric to Cycle-Centric._
 
 - **Micro-Consolidation:** After every "Boss Fight" (compiler error resolved), close your eyes for 20 seconds. Let the neural pathways "replay" the fix.
 - **The Fallow Field:** Post-sprint, perform **20 minutes of NSDR** or a walk without digital input. This is when the "Memory Geometry" of the `Vec` moves from your 4oz "Cognitive Bowl" to long-term neural architecture.
@@ -76,7 +76,7 @@ To the computer, a `Vec<T>` is simply a **(Pointer, Capacity, Length)** triple.
 
 ---
 
-## Strategic Link: The Data Layout Hierarchy
+### Strategic Link: The Data Layout Hierarchy
 
 Mastering `Vec` is your entry point into **Data Layout**. Use this as a "Hook" for future learning:
 

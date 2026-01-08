@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-12"
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "Canonical synthesis of the objective (physical) and subjective (conscious) nature of time, its philosophical implications, and the scientific pursuit of objectivity."
 review_interval: "1 year"
 see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Reality", "[[SoT - Temporal Management (Blocking and Boxing)]]", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[Time Without Human Perspective]]", "and the Limits of Accuracy]]", "Models"]
 source_of_truth: []
 status: "stable"
-tags: ["consciousness", "TheHuman/Philosophy", "physics", "science", "time", "TheHuman/Psychology"]
+tags: ["consciousness", "physics", "science", "TheHuman/Philosophy", "TheHuman/Psychology", "time"]
 title: SoT - The Nature of Time and Perception
 type: "SoT"
 uid: 
@@ -35,14 +35,14 @@ From the perspective of physics, particularly Einstein's theory of relativity, t
 ### C. The Arrow of Time (Entropy)
 
 - The **Second Law of Thermodynamics** dictates that the total entropy (disorder) in an isolated system can only increase over time.
-- **Counterpoint:** In open systems (like Life or Earth), the **[[SoT - The Law of Increasing Functional Information]]** suggests that complexity and order *increase* over time due to selection, creating a "Yin-Yang" relationship with entropy.
+- **Counterpoint:** In open systems (like Life or Earth), the **[[SoT - The Law of Increasing Functional Information]]** suggests that complexity and order _increase_ over time due to selection, creating a "Yin-Yang" relationship with entropy.
 - This irreversible progression from order to disorder gives time its direction, independent of our perception. We remember the past (lower entropy) and not the future (higher entropy).
 
 ---
 
 ## 3. The Subjective Experience: Consciousness as a Time-Binding Machine
 
-What vanishes without a conscious observer is the *experience* of time. Consciousness actively constructs our sense of time's passage.
+What vanishes without a conscious observer is the _experience_ of time. Consciousness actively constructs our sense of time's passage.
 
 ### A. The "Flow" and Privileged "Now"
 
@@ -90,7 +90,7 @@ Science's methodology is a systematic attempt to separate human consciousness (t
 ### A. Tools for Objectivity
 
 - **Reproducibility:** Experiments must yield the same results across different observers and labs.
-- **Falsifiability:** Theories must be potentially provable *wrong*, not just *right*.
+- **Falsifiability:** Theories must be potentially provable _wrong_, not just _right_.
 - **Instrumentation:** Machines measure objective data (e.g., wavelengths, frequencies), removing immediate subjective interpretation.
 - **Blinding:** Removing belief and expectation from both observer and subject (e.g., double-blind trials).
 

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:24:21Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To define the 'Invisible Filter' of naïve realism and the cognitive mechanisms that reinforce flawed mental models."
 review_interval: "6 months"
 see_also: ["[[SoT - Dunning-Kruger Effect]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - Reality, Models, and the Limits of Accuracy]]"]
@@ -20,7 +20,7 @@ updated:
 ## 1. Definitive Statement
 
 > [!definition] Definition
-> **Naïve Realism** is the inherent and largely unconscious belief that we perceive the world objectively, as it truly is, rather than as a subjective interpretation. Our mental models act as an **Invisible Filter**; we don't experience the model, we experience the world *through* it.
+> **Naïve Realism** is the inherent and largely unconscious belief that we perceive the world objectively, as it truly is, rather than as a subjective interpretation. Our mental models act as an **Invisible Filter**; we don't experience the model, we experience the world _through_ it.
 
 ---
 

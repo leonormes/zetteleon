@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-13T02:28:53Z
 epistemic: 
 last_reviewed: 
-modified: 2026-01-03T10:19:45+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -65,7 +65,7 @@ If multiple notes cover the same concept:
 
 1. **Select Canonical SoT:** Select the most developed, referenced, or recently synthesised note as the canonical SoT.
 2. **Structured Migration:** Migrate all unique and non-redundant insights from superseded notes into the canonical SoT's **Integration Queue**. Structure the migration to capture the source note reference.
-3. **Deprecation:** Convert the others into **Permanent Redirects** by adding the following metadata. *Ensure the agent deletes no original note content, only adds the frontmatter.*
+3. **Deprecation:** Convert the others into **Permanent Redirects** by adding the following metadata. _Ensure the agent deletes no original note content, only adds the frontmatter._
 
 Markdown
 
@@ -89,7 +89,7 @@ This note's unique thinking has been integrated into [[<SoT Title>]] on <YYYY-MM
 
 ### Frontmatter (The Metadata Engine)
 
-- **New/Updated Fields are **bolded**.*
+- *_New/Updated Fields are **bolded**._
 
 Markdown
 

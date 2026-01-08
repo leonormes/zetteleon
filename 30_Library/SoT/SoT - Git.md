@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-13T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-13"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "To define Git as the foundational distributed version control system, detailing its data model, core concepts, essential workflows, and security principles for robust software configuration management."
 review_interval: "6 months"
 see_also: ["[[SoT - Software Configuration Management Patterns]]"]
@@ -21,7 +21,7 @@ updated:
 
 ### Git's Data Model: Commits as Snapshots
 
-- A core concept in Git is that each **commit** is a complete **snapshot** of the project's entire working directory at a specific point in time, not a series of diffs. Diffs are merely a *presentation* of the changes calculated by comparing two snapshots.
+- A core concept in Git is that each **commit** is a complete **snapshot** of the project's entire working directory at a specific point in time, not a series of diffs. Diffs are merely a _presentation_ of the changes calculated by comparing two snapshots.
 - The **`.git` folder** is the repository itself, containing the entire object database, references (branches, tags), and configuration.
 - The commit history forms a **Directed Acyclic Graph (DAG)**. Nodes are commits, and directed edges represent parent-child relationships. Acyclicity ensures a consistent order without loops.
 
@@ -36,7 +36,7 @@ Git uses a content-addressable object database, where objects are identified by 
 ### Key Git Areas
 
 1. **Working Directory:** The actual files you are editing. Git detects changes here.
-2. **Index (Staging Area):** A binary file where changes are prepared for the next commit. `git add` reads files from the working directory, creates new blob objects, and updates the index to point to these blobs. It represents the *next snapshot* to be committed.
+2. **Index (Staging Area):** A binary file where changes are prepared for the next commit. `git add` reads files from the working directory, creates new blob objects, and updates the index to point to these blobs. It represents the _next snapshot_ to be committed.
 3. **Repository (Object Database):** Stores all commits, trees, and blobs. This is the permanent record.
 
 ---
@@ -73,8 +73,8 @@ Breaking Changes:
 ### Branching & Merging
 
 - **Branching Strategy:** Employ short-lived feature branches that merge frequently into the mainline.
-- **Rebasing (`git rebase`):** Reapplies a series of changes from one branch onto a different base, creating *new snapshots* for each replayed commit. This results in a clean, linear history but rewrites commit history, requiring careful use in shared branches.
-- **Merge Commits:** Represents the integration of changes from multiple parent branches. Viewing its diff shows the *net result* of all combined changes since the common ancestor.
+- **Rebasing (`git rebase`):** Reapplies a series of changes from one branch onto a different base, creating _new snapshots_ for each replayed commit. This results in a clean, linear history but rewrites commit history, requiring careful use in shared branches.
+- **Merge Commits:** Represents the integration of changes from multiple parent branches. Viewing its diff shows the _net result_ of all combined changes since the common ancestor.
 
 ### Security & Auditability
 

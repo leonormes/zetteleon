@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-10-30T15:33:36Z
 epistemic: "principle"
 last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "Contrasts two fundamentally different approaches to organizing knowledge"
 review_interval: "180"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Mindset", "organization", "topic/pkm", "topic/pkm/zettelkasten"]
+tags: ["organization", "TheHuman/Mindset", "topic/pkm", "topic/pkm/zettelkasten"]
 title: Writer Thinking vs Archivist Thinking
 type: "concept"
 uid: 

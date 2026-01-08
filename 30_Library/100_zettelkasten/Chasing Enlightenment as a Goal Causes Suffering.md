@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T12:20:01Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To explain why pursuing enlightenment as a fixed goal leads to suffering."
 review_interval: "90"
 see_also: ["[[Zen Defines Enlightenment as a Process Not a Destination]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["buddhism", "TheHuman/Mindset", "suffering", "zen"]
+tags: ["buddhism", "suffering", "TheHuman/Mindset", "zen"]
 title: Chasing Enlightenment as a Goal Causes Suffering
 type: "concept"
 uid: 

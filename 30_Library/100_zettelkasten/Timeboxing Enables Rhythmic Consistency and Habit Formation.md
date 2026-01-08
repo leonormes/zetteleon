@@ -4,13 +4,13 @@ confidence: "1"
 created: 2025-11-01T21:05:00Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To explain how timeboxing fosters consistency and habit formation."
 review_interval: "90"
 see_also: ["[[Habit Formation]]", "[[Timeboxing Creates Structure for Action]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["consistency", "time-management", "TheHuman/Habits", "topic/productivity"]
+tags: ["consistency", "TheHuman/Habits", "time-management", "topic/productivity"]
 title: Timeboxing Enables Rhythmic Consistency and Habit Formation
 type: "concept"
 uid: 

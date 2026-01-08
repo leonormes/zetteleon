@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-01T12:30:02Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To explain the limited long-term benefits of early specialization."
 review_interval: "90"
 see_also: ["[[Divergent Thinking Outperforms Narrow Specialization]]"]

@@ -1,13 +1,13 @@
 ---
-aliases: ["High-Performance Data Structures", "DOP Data Structures", "Ring Buffer", "CSR Graph", "Implicit Heap"]
+aliases: ["CSR Graph", "DOP Data Structures", "High-Performance Data Structures", "Implicit Heap", "Ring Buffer"]
 confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "knowledge"
 last_reviewed: "2025-12-31"
-modified: 2026-01-01T16:30:06+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To define the specific data structures required for Data-Oriented Programming, replacing standard 'Node-Based' CS structures."
 review_interval: "6 months"
-see_also: ["[[SoT - Slot Map (Generational Arena)]]", "[[SoT - Data-Oriented Programming (DOP)]]"]
+see_also: ["[[SoT - Data-Oriented Programming (DOP)]]", "[[SoT - Slot Map (Generational Arena)]]"]
 source_of_truth: []
 status: "stable"
 tags: ["data_structures", "performance", "rust", "typescript"]
@@ -23,7 +23,7 @@ Standard CS teaches "Node-Based" structures (Objects pointing to other Objects).
 
 **DOP teaches "Index-Based" structures (Integers pointing to Array Slots).**
 
-* **Why?** CPU Cache. Following a pointer is a random jump in RAM (Cache Miss). Incrementing an integer index is linear (Cache Hit).
+- **Why?** CPU Cache. Following a pointer is a random jump in RAM (Cache Miss). Incrementing an integer index is linear (Cache Hit).
 
 ---
 
@@ -33,34 +33,34 @@ Standard CS teaches "Node-Based" structures (Objects pointing to other Objects).
 
 Standard Maps (Chaining) use linked lists for collisions.
 
-* **The DOP Way:** **Linear Probing.** If a slot is taken, check the next one. Keep everything in one flat array.
-* **Use Case:** High-performance lookups where `malloc` is forbidden.
+- **The DOP Way:** **Linear Probing.** If a slot is taken, check the next one. Keep everything in one flat array.
+- **Use Case:** High-performance lookups where `malloc` is forbidden.
 
 ### 2.2 The Ring Buffer (Circular Queue)
 
 The backbone of all async I/O.
 
-* **Problem:** `Array.shift()` is $O(N)$ because it shifts all elements.
-* **Solution:** A fixed-size array with `Head` and `Tail` indices that wrap around.
-* **Use Case:** Event queues, Audio buffers, Network packets. Zero allocation after startup.
+- **Problem:** `Array.shift()` is $O(N)$ because it shifts all elements.
+- **Solution:** A fixed-size array with `Head` and `Tail` indices that wrap around.
+- **Use Case:** Event queues, Audio buffers, Network packets. Zero allocation after startup.
 
 ### 2.3 The Flattened Tree (Implicit Heap)
 
 Used for File Systems, DOMs, and Scene Graphs.
 
-* **Textbook:** `Node { children: Node[] }`. Recursive traversal.
-* **DOP:** **Breadth-First Layout** in a flat array.
-    * `Root` at 0.
-    * `Left Child` = `2 * Index + 1`.
-    * `Right Child` = `2 * Index + 2`.
-* **Use Case:** traversing a tree mathematically without following a single pointer.
+- **Textbook:** `Node { children: Node[] }`. Recursive traversal.
+- **DOP:** **Breadth-First Layout** in a flat array.
+    - `Root` at 0.
+    - `Left Child` = `2 * Index + 1`.
+    - `Right Child` = `2 * Index + 2`.
+- **Use Case:** traversing a tree mathematically without following a single pointer.
 
 ### 2.4 The Graph: CSR (Compressed Sparse Row)
 
 Most real-world data is a graph. Pointer-based graphs explode memory.
 
-* **Technique:** Three integer arrays (`Values`, `Column Indices`, `Row Pointers`) represent millions of connections tightly.
-* **Use Case:** Social networks, Logistics routing, GPU meshes.
+- **Technique:** Three integer arrays (`Values`, `Column Indices`, `Row Pointers`) represent millions of connections tightly.
+- **Use Case:** Social networks, Logistics routing, GPU meshes.
 
 ---
 

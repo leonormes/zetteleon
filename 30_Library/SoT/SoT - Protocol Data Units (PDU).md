@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-23T22:38:57Z
 epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:52+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the Protocol Data Unit (PDU) as the fundamental unit of information at each layer of the network stack."
 review_interval: "6 months"
 see_also: ["[[SoT - Encapsulation & De-encapsulation]]", "[[SoT - The Data Architecture of DNS]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Networking", "osi", "pdu", "protocol", "topic/technology"]
+tags: ["osi", "pdu", "protocol", "SoftwareEngineering/Networking", "topic/technology"]
 title: SoT - Protocol Data Units (PDU)
 type: "SoT"
 uid: 
@@ -36,6 +36,7 @@ updated:
 ## 2. Layer-by-Layer Encapsulation Logic
 
 ### Layer 4: The TCP Segment (Reliability)
+
 **Function:** Takes the continuous stream of application data and divides it into manageable chunks. It adds a header to ensure reliable, ordered delivery.
 
 | Header Field | Size (bits) | Purpose |
@@ -48,6 +49,7 @@ updated:
 | **Flags** | 9 | **Control.** SYN (Start), ACK (Confirm), FIN (End), RST (Reset/Error). |
 
 ### Layer 3: The IP Packet (Routing)
+
 **Function:** Encapsulates the TCP Segment to handle global addressing and routing across different networks.
 
 | Header Field | Size (bits) | Purpose |
@@ -58,6 +60,7 @@ updated:
 | **Fragment Offset** | 13 | **Reassembly.** Used if the packet was split (fragmented) to fit a smaller network link. |
 
 ### Layer 2: The Ethernet Frame (Local Delivery)
+
 **Function:** Encapsulates the IP Packet for transmission over a physical medium (wire/air) within a local network (LAN). It adds a header and a trailer.
 
 | Field | Size (bytes) | Purpose |
@@ -65,9 +68,10 @@ updated:
 | **Preamble/SFD** | 8 | **Synchronization.** Alternating 1s and 0s to wake up the receiver and sync clocks. |
 | **Source/Dest MAC** | 6 | **Physical Addressing.** The hardware address of the NIC. Used by switches to forward frames locally. |
 | **EtherType** | 2 | **Demultiplexing.** Identifies the L3 protocol inside (0x0800 = IPv4). |
-| **FCS / CRC** | 4 | **Error Detection.** A cyclical redundancy check at the *end* (trailer) to verify the frame arrived intact. |
+| **FCS / CRC** | 4 | **Error Detection.** A cyclical redundancy check at the _end_ (trailer) to verify the frame arrived intact. |
 
 ### Layer 1: The Physical Bit Stream
+
 **Function:** Encodes the Frame into physical signals (Voltage, Light, Radio Waves) for transmission. No headers are added here; the PDU is the raw **Bit**.
 ---
 

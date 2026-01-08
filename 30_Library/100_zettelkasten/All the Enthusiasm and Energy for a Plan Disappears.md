@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-05-28T14:26:24Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["TheHuman/Motivation", "TheHuman/Health/ADHD", "topic/productivity/gtd"]
+tags: ["TheHuman/Health/ADHD", "TheHuman/Motivation", "topic/productivity/gtd"]
 title: All the Enthusiasm and Energy for a Plan Disappears
 type: "null"
 uid: 

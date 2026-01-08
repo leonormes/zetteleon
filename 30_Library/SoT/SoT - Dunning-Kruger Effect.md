@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-13"
-modified: 2026-01-03T10:18:55+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "Canonical definition and implications of the Dunning-Kruger Effect within the ProdOS context."
 review_interval: "6 months"
 see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - PRODOS (System Architecture)]]"]
@@ -72,7 +72,7 @@ A common misinterpretation of the Dunning-Kruger effect leads to excessive self-
 - **Rigid Intelligence (Low):** Defined by high certainty and a slow update rate.
 - **Fluid Intelligence (High):** Defined by probabilistic thinking and a high update rate (rapid error-correction interval).
 
-**Structural Marker:** Most "naive realists" operate on a single thread (*Input -> Reaction*). Higher-order intelligence is marked by dual-threading (*Input -> Reaction + Analysis of Reaction*).
+**Structural Marker:** Most "naive realists" operate on a single thread (_Input -> Reaction_). Higher-order intelligence is marked by dual-threading (_Input -> Reaction + Analysis of Reaction_).
 
 ## 7. Systemic Counter-Strategies
 

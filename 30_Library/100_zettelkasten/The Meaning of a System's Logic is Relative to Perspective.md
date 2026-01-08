@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-20T10:12:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -20,8 +20,8 @@ version: ""
 
 The logic and values that [[Systems Generate Internal Logic in Isolation|a system generates in isolation]] create a profound perceptual dichotomy.
 
-- **Internal View:** For an observer *inside* the system, its rules and goals are all-consuming. They constitute reality itself and hold ultimate importance.
-- **External View:** For an observer *outside* the system, who can see the broader context, that same logic and importance can appear arbitrary, trivial, or even nonsensical.
+- **Internal View:** For an observer _inside_ the system, its rules and goals are all-consuming. They constitute reality itself and hold ultimate importance.
+- **External View:** For an observer _outside_ the system, who can see the broader context, that same logic and importance can appear arbitrary, trivial, or even nonsensical.
 
 The meaning is not inherent in the system, but is a product of the observer's position relative to it. This highlights the difference between Subjectivity vs Objectivity and is the foundation for Paradigm Shif|paradigm shifts, where an observer moves from an internal to an external viewpoint, suddenly seeing the system in a new light.
 

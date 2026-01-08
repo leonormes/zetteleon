@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T20:30:10Z
 epistemic: "structural"
 last_reviewed: "2025-11-02"
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "To provide a structured map of the Momentum Method for overcoming task initiation challenges in ADHD."
 review_interval: "90"
 see_also: ["[[Atomic Actions and Next Actions]]", "[[MOC - Why Task Initiation is Difficult in ADHD]]"]

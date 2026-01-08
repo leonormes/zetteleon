@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-30T12:09:05Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -38,4 +38,4 @@ This note summarizes the reasons why task initiation is so difficult for individ
 - **Reward the Start**: [[Rewarding the Start of a Task Provides Immediate Reinforcement for ADHD|Rewarding the start of a task]], not just the finish, provides immediate reinforcement.
 - **Social Structures**: [[Body Doubling for ADHD Focus|Body doubling]] and accountability partners provide external motivation.
 
-*Source: [[I have a claim that with ADHD the hardest part abo]]*
+_Source: [[I have a claim that with ADHD the hardest part abo]]_

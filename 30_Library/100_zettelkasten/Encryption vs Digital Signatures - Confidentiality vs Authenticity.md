@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To distinguish between the two primary uses of asymmetric key pairs."
 review_interval: "1 year"
 see_also: ["[[Public and Private Keys Are Mathematically Asymmetric]]"]

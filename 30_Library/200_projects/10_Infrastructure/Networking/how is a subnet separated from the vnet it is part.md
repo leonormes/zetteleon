@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-01T19:58:18Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:18+00:00
+modified: 2026-01-08T10:49:52+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -31,13 +31,13 @@ Within Azure, a Virtual Network (VNet) is an overarching IP address range that i
 
 ### Subnet Communication and Isolation
 
-- By default, everything in a VNet—across all subnets—*can communicate* with everything else in that VNet.[^4]
+- By default, everything in a VNet—across all subnets—_can communicate_ with everything else in that VNet.[^4]
 - Subnets do not isolate traffic; they are not firewalls or VLANs. They are used for addressing, grouping, and for applying network security controls.[^1][^4]
 - Traffic between subnets flows freely unless restricted by security components (see below).[^2][^4]
 
 ### Blocking Intra-VNet Communication
 
-- To *prevent* a resource in one subnet from accessing another subnet (or specific resources within it), you must use Network Security Groups (NSGs) to create allow/deny rules targeting the relevant IP ranges or ports.[^5][^2]
+- To _prevent_ a resource in one subnet from accessing another subnet (or specific resources within it), you must use Network Security Groups (NSGs) to create allow/deny rules targeting the relevant IP ranges or ports.[^5][^2]
 - Without custom NSG rules, there is no built-in segmentation beyond the IP address boundaries.
 - NSGs can be scoped to subnets and/or network interfaces for granular control, enabling explicit denial of cross-subnet flows as needed.[^2][^5]
 

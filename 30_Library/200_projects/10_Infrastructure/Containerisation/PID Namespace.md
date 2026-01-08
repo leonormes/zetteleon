@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-02-07T12:57:54Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:26+00:00
+modified: 2026-01-08T10:49:55+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -417,7 +417,7 @@ docker run -it --pid=host ubuntu bash
 1. Observe Processes from Within the Host-PID Container:
 
     - Inside this new container (which is sharing the host's PID namespace), he ran `ps aux`.
-    - The output showed *all* the processes running on the host system, including processes from other containers and the host itself. This clearly demonstrated that when a container shares the host's PID namespace, it loses the PID isolation.
+    - The output showed _all_ the processes running on the host system, including processes from other containers and the host itself. This clearly demonstrated that when a container shares the host's PID namespace, it loses the PID isolation.
 2. Run a Container Sharing Another Container's PID Namespace:
 
     - Finally, he launched a third container, this time sharing the PID namespace of the first container:Bash

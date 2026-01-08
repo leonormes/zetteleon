@@ -1,23 +1,23 @@
 ---
-source_of_truth: []
-aliases: ["Pre-Linguistic Understanding", "Embodied Understanding", "Primacy of Experience", "Language as a Tool", "Experiential Grounding"]
+aliases: ["Embodied Understanding", "Experiential Grounding", "Language as a Tool", "Pre-Linguistic Understanding", "Primacy of Experience"]
 confidence: "5/5"
 created: 2026-01-02T15:00:00Z
 epistemic: "knowledge"
 last_reviewed: "2026-01-02"
-modified: 2026-01-03T10:18:48+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define understanding as a fundamentally pre-linguistic, embodied process, positioning language as a secondary tool for articulation rather than the source of thought."
 review_interval: "1 year"
-see_also: ["[[SoT - The Extended Mind Thesis]]", "[[SoT - Embodied Cognition]]", "[[SoT - Conceptual Metaphor Theory]]"]
+see_also: ["[[SoT - Conceptual Metaphor Theory]]", "[[SoT - Embodied Cognition]]", "[[SoT - The Extended Mind Thesis]]"]
+source_of_truth: []
 status: "stable"
-tags: ["cognition", "TheHuman/Philosophy", "language", "understanding", "embodiment"]
+tags: ["cognition", "embodiment", "language", "TheHuman/Philosophy", "understanding"]
 title: SoT - The Primacy of Experience (Pre-Linguistic Understanding)
 type: "SoT"
 ---
 
 ## 1. Definitive Statement
 
-**Understanding is fundamentally pre-linguistic.** It is rooted in embodied interaction with the world and exists independently of language. Language is not the *source* or *container* of understanding but a specialized cognitive tool for articulating, refining, and communicating an experiential foundation.
+**Understanding is fundamentally pre-linguistic.** It is rooted in embodied interaction with the world and exists independently of language. Language is not the _source_ or _container_ of understanding but a specialized cognitive tool for articulating, refining, and communicating an experiential foundation.
 
 > **The Core Thesis:** "We can know more than we can tell." (Polanyi). Words are external stimuli that trigger active interpretation based on pre-existing, experientially derived cognitive structures.
 
@@ -29,17 +29,17 @@ type: "SoT"
 
 Cognitive science and developmental psychology demonstrate that sophisticated cognition precedes language:
 
-* **Infant Cognition:** Pre-verbal infants demonstrate object permanence, causal reasoning, and categorization (sorting sounds/faces) long before producing words.
-* **Animal Cognition:** Non-linguistic species exhibit complex navigation and problem-solving, indicating abstract representation without syntax.
-* **Conclusion:** The "Language of Thought" is likely not propositional (Mentalese) but **Embodied Know-How**—dynamic, sensorimotor schemas derived from interaction.
+- **Infant Cognition:** Pre-verbal infants demonstrate object permanence, causal reasoning, and categorization (sorting sounds/faces) long before producing words.
+- **Animal Cognition:** Non-linguistic species exhibit complex navigation and problem-solving, indicating abstract representation without syntax.
+- **Conclusion:** The "Language of Thought" is likely not propositional (Mentalese) but **Embodied Know-How**—dynamic, sensorimotor schemas derived from interaction.
 
 ### 2.2 Language as a Tool (Not a Source)
 
 Language functions as a scaffold for the mind:
 
-* **Articulation:** Translates fuzzy, tacit experiential knowledge into explicit, stable forms.
-* **Stabilization:** "Photosynthesis" anchors a complex biological process into a handleable mental object.
-* **Coordination:** Aligns the conceptual maps of individuals. It does not transfer thought; it *orchestrates* the reconstruction of thought in the listener's mind.
+- **Articulation:** Translates fuzzy, tacit experiential knowledge into explicit, stable forms.
+- **Stabilization:** "Photosynthesis" anchors a complex biological process into a handleable mental object.
+- **Coordination:** Aligns the conceptual maps of individuals. It does not transfer thought; it _orchestrates_ the reconstruction of thought in the listener's mind.
 
 ---
 
@@ -47,8 +47,8 @@ Language functions as a scaffold for the mind:
 
 We reject **Linguistic Determinism** (Language determines thought limits) in favor of **Linguistic Relativity** (Language influences thought patterns).
 
-* **The Lens Effect:** Language provides specific tools that highlight certain aspects of reality (e.g., color terms, tense markers).
-* **The Mechanism:** Language habits shape *attention*, not *capacity*. It influences how we carve up the continuous flow of experience but does not imprison us.
+- **The Lens Effect:** Language provides specific tools that highlight certain aspects of reality (e.g., color terms, tense markers).
+- **The Mechanism:** Language habits shape _attention_, not _capacity_. It influences how we carve up the continuous flow of experience but does not imprison us.
 
 ---
 
@@ -58,7 +58,7 @@ We reject **Linguistic Determinism** (Language determines thought limits) in fav
 
 Understanding emerges from the dynamic coupling of an organism and its environment. It is not a passive representation in the head but a **potential for situated action**.
 
-* **Challenge to AI:** If understanding requires a body to ground symbols in reality, disembodied LLMs may be incapable of genuine understanding (The Grounding Problem). They manipulate linguistic representations of understanding, not the understanding itself.
+- **Challenge to AI:** If understanding requires a body to ground symbols in reality, disembodied LLMs may be incapable of genuine understanding (The Grounding Problem). They manipulate linguistic representations of understanding, not the understanding itself.
 
 ### 4.2 Tacit Knowledge
 
@@ -69,8 +69,8 @@ Because understanding is experiential, much of it remains **Tacit**—know-how t
 ## 5. The Role of Metaphor
 
 **Metaphor is the bridge between experience and abstraction.**
-* **Conceptual Metaphor Theory (Lakoff & Johnson):** We understand abstract concepts (Target) by mapping them onto concrete, embodied experiences (Source).
-    * *Argument is War* (Defend, Attack).
-    * *Time is Motion* (Approaching, Flying).
-    * *Theories are Buildings* (Foundations, Support).
-* **Function:** Metaphor allows pre-linguistic sensorimotor logic to structure high-level abstract reasoning.
+- **Conceptual Metaphor Theory (Lakoff & Johnson):** We understand abstract concepts (Target) by mapping them onto concrete, embodied experiences (Source).
+    - _Argument is War_ (Defend, Attack).
+    - _Time is Motion_ (Approaching, Flying).
+    - _Theories are Buildings_ (Foundations, Support).
+- **Function:** Metaphor allows pre-linguistic sensorimotor logic to structure high-level abstract reasoning.

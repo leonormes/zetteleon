@@ -1,43 +1,33 @@
 ---
-aliases:
-  - Family Budgeting System
-  - Financial Peace Protocol
-  - UK Household Allocation
-  - The YNAB Method
-  - Zero-Based Budgeting
+aliases: [Family Budgeting System, Financial Peace Protocol, The YNAB Method, UK Household Allocation, Zero-Based Budgeting]
 confidence: 5/5
 created: 2025-12-14T18:44:03Z
 epistemic: authoritative
 last_reviewed: 2025-12-30
-modified: 2026-01-03T10:18:55+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: The definitive operational framework for UK household financial management using Zero-Based Budgeting (YNAB) logic.
 review_interval: 6 months
 see_also:
   - "[[SoT - Financial Philosophy and Spendfulness]]"
 source_of_truth: []
 status: stable
-tags:
-  - budget
-  - family
-  - finance
-  - wealth
-  - ynab
+tags: [budget, family, finance, wealth, ynab]
 title: SoT - Family Financial Wellness
 type: SoT
 uid:
 updated:
 ---
 
-# SoT - Family Financial Wellness
+## SoT - Family Financial Wellness
 
-## 1. Definitive Statement
+### 1. Definitive Statement
 
 > [!definition] Financial Wellness
 > For a UK household of five, financial wellness is the state of **Resilience** achieved by eliminating "Mental Math" and "Income Forecasting" in favor of **Zero-Based Allocation**. We assign every pound a job based only on cash currently held.
 
 ---
 
-## 2. The Core Logic: YNAB Methodology
+### 2. The Core Logic: YNAB Methodology
 
 We follow the four rules of Zero-Based Budgeting (ZBB):
 
@@ -48,18 +38,18 @@ We follow the four rules of Zero-Based Budgeting (ZBB):
 
 ---
 
-## 3. The UK Household Allocation (76/24 Split)
+### 3. The UK Household Allocation (76/24 Split)
 
 Target distribution to maintain system trust and stability.
 
-### A. Non-Negotiables (76% of Income)
+#### A. Non-Negotiables (76% of Income)
 
 | Category Group | Target % | Items |
 |:--- |:--- |:--- |
 | **Immediate Obligations** | **50%** | Mortgage (£1,470), Car (£400), Utilities, Council Tax. |
 | **Essential Variable** | **26%** | Groceries (11%), Medical (3.5%), Petrol (3.5%), Tax Sinking Fund. |
 
-### B. Flexible / Discretionary (24% of Income)
+#### B. Flexible / Discretionary (24% of Income)
 
 | Category Group | Items |
 |:--- |:--- |
@@ -69,15 +59,15 @@ Target distribution to maintain system trust and stability.
 
 ---
 
-## 4. Operational Protocols
+### 4. Operational Protocols
 
-### I. The Payday Protocol
+#### I. The Payday Protocol
 
 1. **Reality Check:** money received on the 31st must fund all obligations due between the 1st and 12th of the following month.
 2. **Zero Negative Balances:** Cover all "red" categories from the previous month first (**Whack-a-Mole / WAM**).
 3. **Stability over Acceleration:** Prioritize "True Expense" funding (Medical/Car) over aggressive debt payoff to prevent sliding back into credit.
 
-### II. Relational Architecture: The One-Pot Model
+#### II. Relational Architecture: The One-Pot Model
 
 1. **Shared Foundation:** All primary income flows into a single joint "Pot" (the Budget).
 2. **Equal Autonomy:** Each partner receives a **fixed, identical amount** transferred to their personal account monthly.
@@ -85,24 +75,24 @@ Target distribution to maintain system trust and stability.
 
 ---
 
-## 5. ADHD Integration (Cognitive Scaffolding)
+### 5. ADHD Integration (Cognitive Scaffolding)
 
 The budget acts as a **"Money Timer"** for the neurodivergent brain:
 
-* **Concreteness:** Replaces abstract forecasting with "Cash-on-Hand" reality.
-* **The ADHD Tax:** Explicitly budget for inevitable slips (late fees, forgotten lunches) to remove shame.
-* **Visual Awareness:** Use widgets/balances to keep category limits in sight without opening the app.
+- **Concreteness:** Replaces abstract forecasting with "Cash-on-Hand" reality.
+- **The ADHD Tax:** Explicitly budget for inevitable slips (late fees, forgotten lunches) to remove shame.
+- **Visual Awareness:** Use widgets/balances to keep category limits in sight without opening the app.
 
-### I. The Current Goal Protocol (Mere Exposure)
+#### I. The Current Goal Protocol (Mere Exposure)
 
 Leverage the **[[SoT - YNAB Current Goal Feature]]** to hack the "Mere Exposure Effect." By pinning a specific **Custom Target** to the top of the mobile dashboard, you force the brain to weigh impulse purchases against a high-value desire (e.g., "Slippers vs. Engagement Ring").
 
-* **The Test Drive:** Before adding a recurring cost (e.g., a pet), use a Current Goal to "save" that monthly cost for 6 months. If you fail to save it, you cannot afford the commitment.
-* **The Shield:** Use the "Have a Balance of" logic for one-time purchases to prevent "raiding" the category.
+- **The Test Drive:** Before adding a recurring cost (e.g., a pet), use a Current Goal to "save" that monthly cost for 6 months. If you fail to save it, you cannot afford the commitment.
+- **The Shield:** Use the "Have a Balance of" logic for one-time purchases to prevent "raiding" the category.
 
 ---
 
-## 6. Minimum Viable Understanding (MVU)
+### 6. Minimum Viable Understanding (MVU)
 
 1. **Forecast Nothing:** Only assign money you physically have today.
 2. **Smooth the Spikes:** Large bills are monthly contributions, not surprises.

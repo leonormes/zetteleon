@@ -4,14 +4,14 @@ confidence: "null"
 created: 2025-10-30T12:10:06Z
 epistemic: "principle"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
 source_of_truth: []
 status: "seedling"
-tags: ["tools", "TheHuman/Health/ADHD", "topic/productivity", "writing"]
+tags: ["TheHuman/Health/ADHD", "tools", "topic/productivity", "writing"]
 title: Voice-to-Text Can Be an Effective Writing Tool for ADHD
 type: "concept"
 uid: 

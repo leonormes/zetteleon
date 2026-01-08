@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-10-31T11:05:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Explain DNS resource record structure."
 review_interval: "90"
 see_also: ["DNS is a distributed database.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["data-structures", "SoftwareEngineering/networking/dns", "SoftwareEngineering/Networking"]
+tags: ["data-structures", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
 title: DNS Resource Records Are Structured Key-Value Pairs
 type: "concept"
 uid: 

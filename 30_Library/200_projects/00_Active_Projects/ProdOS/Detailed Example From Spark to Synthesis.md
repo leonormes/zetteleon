@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-04T12:23:09Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -51,6 +51,6 @@ In a structure note titled [[Productive Procrastination as an Avoidance Strategy
 
 ### **Tool Fetishism**
 
-One of the most common forms of productive procrastination, especially in technical or creative fields, is the endless search for the "perfect tool" (e.g., software, notebook, workflow). This search creates the *illusion* of progress while actively avoiding the core task of creation or problem-solving. It is a defence mechanism against the [[Fear of the Blank Page]]. See [[202507221650-The-Search-for-the-Perfect-Tool-is-Procrastination]].
+One of the most common forms of productive procrastination, especially in technical or creative fields, is the endless search for the "perfect tool" (e.g., software, notebook, workflow). This search creates the _illusion_ of progress while actively avoiding the core task of creation or problem-solving. It is a defence mechanism against the [[Fear of the Blank Page]]. See [[202507221650-The-Search-for-the-Perfect-Tool-is-Procrastination]].
 
 [[200_projects/ProdOS/The Unified Writing to Think Process]]

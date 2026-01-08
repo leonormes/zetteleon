@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-25T12:00:00Z
 epistemic: "theoretical"
 last_reviewed: "2025-12-25"
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the proposed scientific law unifying evolution across physical, biological, and technological systems."
 review_interval: "2 years"
-see_also: ["[[SoT - The Nature of Time and Perception]]", "[[SoT - Human vs AI Cognition]]"]
+see_also: ["[[SoT - Human vs AI Cognition]]", "[[SoT - The Nature of Time and Perception]]"]
 source_of_truth: []
 status: "stable"
-tags: ["physics", "evolution", "complexity", "information_theory", "systems_theory"]
+tags: ["complexity", "evolution", "information_theory", "physics", "systems_theory"]
 title: SoT - The Law of Increasing Functional Information
 type: "SoT"
 uid: 
@@ -55,8 +55,8 @@ The law identifies three distinct types of selection that drive complexity:
 
 Defined by Jack Szostak (2003), functional information is a measure of **Rarity**.
 
-* It quantifies how unlikely a specific functional configuration is compared to the total space of possible random configurations.
-* **Implication:** High functional information = High evidence of selection/evolution. (e.g., finding a Boeing 747 on Mars proves evolution/intelligence, finding a rock does not).
+- It quantifies how unlikely a specific functional configuration is compared to the total space of possible random configurations.
+- **Implication:** High functional information = High evidence of selection/evolution. (e.g., finding a Boeing 747 on Mars proves evolution/intelligence, finding a rock does not).
 
 ## 6. Significance
 

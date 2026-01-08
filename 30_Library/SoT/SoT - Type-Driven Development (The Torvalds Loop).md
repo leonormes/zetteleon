@@ -1,16 +1,16 @@
 ---
-aliases: ["The Torvalds Loop", "Type-Driven Design", "Data-Centric Programming", "Type-First Development", "Parse Don't Validate", "Typestate Pattern"]
+aliases: ["Data-Centric Programming", "Parse Don't Validate", "The Torvalds Loop", "Type-Driven Design", "Type-First Development", "Typestate Pattern"]
 confidence: "5/5"
 created: 2025-12-29T10:28:01+00:00
 epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2025-12-31T11:19:10+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the core programming philosophy of ProdOS: a synthesis of hardware-conscious data design and mathematical type theory."
 review_interval: "6 months"
-see_also: ["[[SoT - Rust Type Mechanics]]", "[[SoT - Rust Language]]", "[[SoT - Rust's Ownership Model]]"]
+see_also: ["[[SoT - Rust Language]]", "[[SoT - Rust Type Mechanics]]", "[[SoT - Rust's Ownership Model]]"]
 source_of_truth: []
 status: "stable"
-tags: ["TheHuman/Philosophy", "programming", "rust", "type_theory", "SoftwareEngineering/Architecture", "design-patterns"]
+tags: ["design-patterns", "programming", "rust", "SoftwareEngineering/Architecture", "TheHuman/Philosophy", "type_theory"]
 title: SoT - Type-Driven Development (The Torvalds Loop)
 type: "SoT"
 uid: 
@@ -21,9 +21,9 @@ updated:
 
 This protocol is the **Methodological Implementation** of the broader Data-Centric philosophy. It translates abstract principles into a concrete workflow.
 
-* **The Axiom (Physics):** **[[SoT - Data-Centric Software Engineering]]**—*Structure is truth; Code is a derivative.*
-* **The Theory (Math):** **[[MOC - Type Theory]]**—*Using Category Theory (Sum/Product types) to model that structure rigorosuly.*
-* **The Practice (Method):** **[[SoT - Type-Driven Development (The Torvalds Loop)]]**—*The strict 4-phase protocol to execute the design.*
+- **The Axiom (Physics):** **[[SoT - Data-Centric Software Engineering]]**—_Structure is truth; Code is a derivative._
+- **The Theory (Math):** **[[MOC - Type Theory]]**—_Using Category Theory (Sum/Product types) to model that structure rigorosuly._
+- **The Practice (Method):** **[[SoT - Type-Driven Development (The Torvalds Loop)]]**—_The strict 4-phase protocol to execute the design._
 
 ---
 
@@ -38,26 +38,26 @@ The fundamental principle of this system is to move from **"Stringly Typed"** lo
 
 ## 2. The Torvalds Loop: A Four-Phase Design Protocol
 
-In this protocol, Logic is the *last* consideration. We prioritize the physical reality of data over the behavior of code.
+In this protocol, Logic is the _last_ consideration. We prioritize the physical reality of data over the behavior of code.
 
 | Phase | Focus | Architectural Goal |
 |:--- |:--- |:--- |
 | **1. Shape** | **Physical Reality** | Design memory layout (`struct`/`enum`) for cache efficiency and logical exclusion. |
 | **2. Access** | **Mechanics** | Define how data moves (Value vs. Pointer semantics). Control ownership and allocation. |
-| **3. Invariants** | **Integrity** | Define constraints that must *always* be true. Use the type system to enforce them. |
+| **3. Invariants** | **Integrity** | Define constraints that must _always_ be true. Use the type system to enforce them. |
 | **4. Logic** | **Transformation** | Write simple, linear algorithms that transform valid state A into valid state B. |
 
 ---
 
 ## 3. Pattern: Parse, Don't Validate
 
-Do not write code to "validate" messy input repeatedly. Instead, **parse** it *once* at the edge into a Type where the invalid state cannot exist.
+Do not write code to "validate" messy input repeatedly. Instead, **parse** it _once_ at the edge into a Type where the invalid state cannot exist.
 
 - **Anti-Pattern:** Passing `email: String` and running a regex check in every function.
 - **Pattern:**
     1. Define `struct Email(String)`. Keep the field private.
     2. Constructor `Email::parse(s: String) -> Result<Email, Error>` performs the check.
-    3. Functions accept `e: Email`. The existence of the instance *proves* validity to the compiler.
+    3. Functions accept `e: Email`. The existence of the instance _proves_ validity to the compiler.
 
 ---
 
@@ -101,11 +101,11 @@ Logic, Code, and Category Theory are isomorphic. This provides a rigorous founda
 ## 6. Anti-Patterns to Exorcise
 
 - **Boolean Blindness:** Using `bool` flags (e.g., `isBitnami`) to switch behavior.
-    - *Fix:* Use a Sum Type (`enum Vendor { Bitnami, Community }`).
+    - _Fix:_ Use a Sum Type (`enum Vendor { Bitnami, Community }`).
 - **Primitive Obsession:** Passing raw `String` or `Int` values for semantic concepts.
-    - *Fix:* Use **NewTypes** (`struct Version(String)`).
+    - _Fix:_ Use **NewTypes** (`struct Version(String)`).
 - **Zombie States:** Memory layouts where flags and data are decoupled (e.g., `isBuilt` flag + `artifact` field).
-    - *Fix:* Move the artifact into the `Built` variant of a `State` enum.
+    - _Fix:_ Move the artifact into the `Built` variant of a `State` enum.
 
 ---
 

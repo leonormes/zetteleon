@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-06T20:00:00Z
 epistemic: "insight"
 last_reviewed: "2025-11-06"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To explain why thoughts feel more significant in the mind than when written down."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["epistemology", "thinking", "TheHuman/Cognition", "writing"]
+tags: ["epistemology", "TheHuman/Cognition", "thinking", "writing"]
 title: Thoughts Feel More Profound in the Mind Due to the Illusion of Profundity
 type: "concept"
 uid: 

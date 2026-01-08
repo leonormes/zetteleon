@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-09-02T12:53:56Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:29+00:00
+modified: 2026-01-07T20:59:37+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -140,11 +140,11 @@ resource "vault_pki_secret_backend_role" "deployment_server" {
    - Search for `group_policy_application`
    - Send an API request with:
 
-     ```json
-     {
-       "group_policy_application_mode": "any"
-     }
-     ```
+```json
+{
+  "group_policy_application_mode": "any"
+}
+```
 
 2. **Configure Vault JWT Auth for Terraform Cloud** (as documented in [README.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/helm_chart_deployment/central-services/README.md)):
    - Login to Vault with root token

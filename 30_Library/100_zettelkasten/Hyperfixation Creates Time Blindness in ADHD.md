@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T11:37:53Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "Describe the phenomenon of losing time awareness during ADHD hyperfixation."
 review_interval: "90"
 see_also: ["[[ADHD Hyperfixation-Burnout Cycle]]", "[[Hyperfixation and Neurotransmitter Flooding in ADHD]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["hyperfocus", "time-perception", "TheHuman/Cognition", "TheHuman/Health/ADHD"]
+tags: ["hyperfocus", "TheHuman/Cognition", "TheHuman/Health/ADHD", "time-perception"]
 title: Hyperfixation Creates Time Blindness in ADHD
 type: "concept"
 uid: 

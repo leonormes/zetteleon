@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-05-26T14:06:58Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["dopamine", "interest", "TheHuman/Motivation", "novelty", "TheHuman/Health/ADHD"]
+tags: ["dopamine", "interest", "novelty", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
 title: Novelty Seeking
 type: "map"
 uid: 

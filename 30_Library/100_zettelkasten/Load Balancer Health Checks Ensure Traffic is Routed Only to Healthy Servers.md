@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T09:25:27Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "Explain the role and importance of health checks in load balancing."
 review_interval: "90"
 see_also: ["AWS ALB Target Groups.md"]

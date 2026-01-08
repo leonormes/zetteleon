@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "framework"
 last_reviewed: "2025-12-19"
-modified: 2026-01-03T10:18:52+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the fundamental conflict between building software that is theoretically 'correct' versus software that is 'good enough' and ships quickly."
 review_interval: "6 months"
 see_also: ["[[SoT - The \\\\\\\\\\\\\\\"Worse is Better\\\\\\\\\\\\\\\" Philosophy]]"]
 source_of_truth: []
 status: "stable"
-tags: ["mental-model", "TheHuman/Philosophy", "software-engineering"]
+tags: ["mental-model", "SoftwareEngineering", "TheHuman/Philosophy"]
 title: SoT - Pragmatism vs Rigour in Software
 type: "SoT"
 uid: 
@@ -51,7 +51,7 @@ The software industry exists on a spectrum between these two poles. Neither is i
 ### B. The Rigorous Architecture ("Correctness by Construction")
 
 1. **Languages:** Use languages with powerful type systems, like [[SoT - Dependent Types in Software]], that can enforce invariants at compile time.
-2. **Safety Net:** The compiler *is* the primary safety net. If the code compiles, it is guaranteed to be free of certain types of errors.
+2. **Safety Net:** The compiler _is_ the primary safety net. If the code compiles, it is guaranteed to be free of certain types of errors.
 3. **Testing:** Testing focuses on high-level properties and logic, not on "did I forget a null check?"
 4. **Outcome:** Provably correct, robust systems that are conceptually harder to build but far cheaper to maintain and secure.
 
@@ -61,7 +61,7 @@ The software industry exists on a spectrum between these two poles. Neither is i
 
 ### Protocol: Choosing Your Position on the Spectrum
 
-*Use when starting a new project or defining team engineering principles.*
+_Use when starting a new project or defining team engineering principles._
 
 1. [ ] **Define the Cost of Failure:** What happens if this software fails? Is it a critical medical device (requires rigour) or a social media app (can tolerate pragmatism)?
 2. [ ] **Estimate Project Lifespan:** Is this a short-lived prototype (favor pragmatism) or a 10-year platform (invest in rigour)?

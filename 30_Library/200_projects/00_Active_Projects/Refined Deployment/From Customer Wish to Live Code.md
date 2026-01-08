@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-17T12:12:21Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:30+00:00
+modified: 2026-01-08T10:49:57+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -32,7 +32,7 @@ version: ""
 
 ### Monday, 9:15 AM: The Spark
 
-The story begins on Monday morning. WJ is reviewing feedback from a key customer, a university research department. A clear theme emerges from their notes: they love the automatic de-identification in FITFILE Core, but they need more control. A researcher writes, *"We need to pseudonymise the 'Patient ID' but fully anonymise the 'Postcode' within the same dataset. Right now, it's all or nothing. We need to choose the privacy treatment for each field."*
+The story begins on Monday morning. WJ is reviewing feedback from a key customer, a university research department. A clear theme emerges from their notes: they love the automatic de-identification in FITFILE Core, but they need more control. A researcher writes, _"We need to pseudonymise the 'Patient ID' but fully anonymise the 'Postcode' within the same dataset. Right now, it's all or nothing. We need to choose the privacy treatment for each field."_
 
 WJ has seen similar requests before. It’s time to formalise it.
 
@@ -53,7 +53,7 @@ He creates a new page:
 >
 > We understand that many users require more granular control, such as applying different rules to specific fields. This is a priority for our team and is currently in the planning phase.
 >
-> For more details on the business need, see our internal requirement: [[RQ-1.1.3 Granular Privacy Control]]. *(He creates this as a placeholder link for now, knowing it's his next step).*
+> For more details on the business need, see our internal requirement: [[RQ-1.1.3 Granular Privacy Control]]. _(He creates this as a placeholder link for now, knowing it's his next step)._
 
 This page immediately provides value. It acknowledges the user's problem and points them towards the internal process.
 
@@ -61,18 +61,18 @@ This page immediately provides value. It acknowledges the user's problem and poi
 
 ## Document 2: The Requirement (The Business Need)
 
-Now, RM needs to define *what* the business needs to solve. He goes to the "FITFILE Core Requirements" space in Confluence and clicks **Create from template**, selecting his "Requirement" template.
+Now, RM needs to define _what_ the business needs to solve. He goes to the "FITFILE Core Requirements" space in Confluence and clicks **Create from template**, selecting his "Requirement" template.
 
 1. **Assign an ID:** He checks the existing list. Privacy requirements are under `RQ-1.1.x`. The last one was `RQ-1.1.2`. He assigns this new one **`RQ-1.1.3`**.
 2. **Create the Page:** He creates a new page titled `RQ-1.1.3 Granular Privacy Control`.
 3. **Fill the Metadata:** He fills out the **Page Properties** macro at the top:
    - **Requirement ID:** `RQ-1.1.3`
-   - **Implemented by:** *(He leaves this blank for now)*
+   - **Implemented by:** _(He leaves this blank for now)_
    - **Related FAQs:** He links the FAQ page he just created.
    - **Owner:** `@WJ`
    - **Status:** He clicks the `/status` macro and sets it to `🔵 Planning`.
 
-4. **Define the Scope:** In the body of the page, he defines the business need, writing formal statements like: *"The system must allow a user to select a specific privacy treatment (e.g., Anonymisation, Pseudonymisation) for each individual field within a dataset during the transformation process."*
+4. **Define the Scope:** In the body of the page, he defines the business need, writing formal statements like: _"The system must allow a user to select a specific privacy treatment (e.g., Anonymisation, Pseudonymisation) for each individual field within a dataset during the transformation process."_
 
 The requirement is now formally documented and linked to the initial user query.
 
@@ -120,6 +120,6 @@ The feature is finally built, tested, and deployed. All Jira tickets under the E
 
 1. **Update Feature:** OR goes to the `1.3.4` Feature page and triumphantly clicks the status, changing it to `🟢 Live`.
 2. **Update Requirement:** RM updates the `RQ-1.1.3` Requirement page to `🟢 Live`.
-3. **Update the FAQ:** RM goes back to the very first document—the FAQ. He edits the page, updating the text to say: *"Yes! As of version 2.5, you can now select a specific privacy treatment for each field in your dataset. Here’s how..."* He adds a link to the user guide and to the `1.3.4` Feature page for those interested in the technical details.
+3. **Update the FAQ:** RM goes back to the very first document—the FAQ. He edits the page, updating the text to say: _"Yes! As of version 2.5, you can now select a specific privacy treatment for each field in your dataset. Here’s how..."_ He adds a link to the user guide and to the `1.3.4` Feature page for those interested in the technical details.
 
 The workflow is complete. A customer's need has been traced through the entire process, from a simple question to a documented requirement, a specified feature, tracked development work, and finally, a solution communicated back to the user.

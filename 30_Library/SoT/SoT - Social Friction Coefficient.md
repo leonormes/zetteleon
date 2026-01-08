@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-17T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-17"
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T08:42:48+00:00
 purpose: "To provide a model for quantifying the efficiency loss in a team caused by dysfunctional social dynamics, or \\\"social drag."
 review_interval: "3 months"
 see_also: ["[[MOC - Socio-Technical Dissonance]]", "[[SoT - Accidental Social Complexity]]"]

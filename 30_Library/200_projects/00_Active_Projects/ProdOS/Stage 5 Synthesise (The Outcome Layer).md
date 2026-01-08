@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-04T12:23:40Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -17,7 +17,7 @@ uid:
 updated: 
 ---
 
-*The Goal: To use your connected notes to build larger arguments and summaries.*
+_The Goal: To use your connected notes to build larger arguments and summaries._
 
 This is where you zoom out from the atomic level to see the bigger picture that your notes are forming.
 

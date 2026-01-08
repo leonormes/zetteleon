@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T20:30:10Z
 epistemic: "principle"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: "90"
 see_also: []
@@ -155,4 +155,4 @@ A context system only works if you consistently tag actions. Make it part of you
 
 **The Context-Action Fit:**
 
-The power of context tags is that they make actions "context-aware." An action isn't just a thing to do—it's a thing to do *given specific circumstances*. By encoding those circumstances, you ensure you're always looking at the right subset of your work.
+The power of context tags is that they make actions "context-aware." An action isn't just a thing to do—it's a thing to do _given specific circumstances_. By encoding those circumstances, you ensure you're always looking at the right subset of your work.

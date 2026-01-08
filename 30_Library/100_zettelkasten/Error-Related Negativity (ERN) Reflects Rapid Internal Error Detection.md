@@ -4,14 +4,14 @@ confidence: ""
 created: 2025-10-29T16:38:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source: "[[MOC - The Phases of Task Execution and the Impact of ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["executive_function", "TheHuman/Neuroscience", "self_monitoring"]
+tags: ["executive_function", "self_monitoring", "TheHuman/Neuroscience"]
 title: Error-Related Negativity (ERN) Reflects Rapid Internal Error Detection
 type: "concept"
 uid: 

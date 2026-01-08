@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-04T12:23:40Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -17,7 +17,7 @@ uid:
 updated: 
 ---
 
-*The Goal: To place your new understanding into the context of your existing knowledge.*
+_The Goal: To place your new understanding into the context of your existing knowledge._
 
 An idea gains its true power when it is connected to other ideas. This stage transforms an isolated note into a node in your network of thought.
 

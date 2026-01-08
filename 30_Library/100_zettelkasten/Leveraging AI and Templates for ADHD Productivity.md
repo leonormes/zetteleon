@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-26T11:07:00Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: ""
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -34,7 +34,7 @@ version: "1"
 
     1. Open ChatGPT / Voice Memo.
     2. Ramble for 2 minutes about what I want to say/do. (No filtering).
-    3. Prompt: *"Turn this ramble into a structured bullet point list/draft email."*
+    3. Prompt: _"Turn this ramble into a structured bullet point list/draft email."_
     4. Edit the result.
 
 ---
@@ -48,7 +48,7 @@ version: "1"
 
 ## 4. Results Log
 
-- *(Log results here)*
+- _(Log results here)_
 
 ---
 

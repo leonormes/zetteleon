@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T11:37:53Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: "Explain the ADHD brain's fundamental drive to seek dopamine-rewarding stimulation."
 review_interval: "90"
 see_also: ["[[ADHD Brain is a Novelty-Seeking Machine]]", "[[Dopamine Dysregulation is a Key Factor in ADHD Motivation]]", "[[The Interest-Based Nervous System in ADHD]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "TheHuman/Motivation", "TheHuman/Neuroscience", "TheHuman/Health/ADHD"]
+tags: ["dopamine", "TheHuman/Health/ADHD", "TheHuman/Motivation", "TheHuman/Neuroscience"]
 title: ADHD Brain Constantly Scans for Dopamine-Rewarding Stimuli
 type: "concept"
 uid: 

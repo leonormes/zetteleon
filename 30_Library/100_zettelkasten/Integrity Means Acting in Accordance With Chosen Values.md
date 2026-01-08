@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-11-01T09:51:13Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["authenticity", "TheHuman/Identity", "integrity", "topic/philosophy", "values"]
+tags: ["authenticity", "integrity", "TheHuman/Identity", "topic/philosophy", "values"]
 title: Integrity Means Acting in Accordance With Chosen Values
 type: "concept"
 uid: 

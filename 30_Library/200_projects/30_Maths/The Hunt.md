@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-16T11:14:48Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:09+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -26,7 +26,7 @@ version: ""
 
 **Season:** Summer moving into Winter
 
-*Alpha's Note: Bessie, this journal is our guide. We'll use it to make the best decisions for our pack by combining our knowledge of wolves with the power of mathematics. Your creativity and big-picture thinking are your greatest strengths as a leader. Let's put them to work!*
+_Alpha's Note: Bessie, this journal is our guide. We'll use it to make the best decisions for our pack by combining our knowledge of wolves with the power of mathematics. Your creativity and big-picture thinking are your greatest strengths as a leader. Let's put them to work!_
 
 ### PART 5: The Art of the Hunt (Speed, Distance & Probability)
 
@@ -44,7 +44,7 @@ A good territory is useless if we can't successfully hunt. A hunt is a balance o
 - **Top Speed:** 12 metres per second (m/s)
 - **Reaction:** The elk is alert. It gets a **2-second head start** the moment the wolf commits to the chase.
 
-**The Goal:** The wolf must catch the elk *before* its 20 seconds of stamina runs out.
+**The Goal:** The wolf must catch the elk _before_ its 20 seconds of stamina runs out.
 
 #### Task 5.1: The Chase Calculator (Speed, Distance, Time)
 
@@ -72,7 +72,7 @@ To figure out if a chase is possible, we need to calculate how far the wolf and 
 
 #### Alpha's Analysis: The "Must-Be-Closer-Than" Distance
 
-> **Question:** Look at the Wolf's Maximum Chase Distance and the Total Distance the Elk Covers. For a successful hunt, the wolf *must* be able to run further than the total distance the elk covers. What is the absolute maximum starting distance the wolf can be from the elk and still have a chance?
+> **Question:** Look at the Wolf's Maximum Chase Distance and the Total Distance the Elk Covers. For a successful hunt, the wolf _must_ be able to run further than the total distance the elk covers. What is the absolute maximum starting distance the wolf can be from the elk and still have a chance?
 >
 > **Your Answer:** [Calculate the difference and explain your reasoning here]
 
@@ -119,4 +119,4 @@ Now, you must advise a lone wolf on the best strategy. Analyse three possible am
 
 #### Future Field Notes: The Power of the Pack
 
-*Alpha's Note: This entire analysis was for a **lone wolf**. How would our strategy change if we were hunting as a pack? We could use teamwork to overcome the elk's advantages. Think about it: one wolf could chase the elk towards another wolf waiting in ambush. This would change all our calculations for distance and stamina. This is our next challenge!*
+_Alpha's Note: This entire analysis was for a **lone wolf**. How would our strategy change if we were hunting as a pack? We could use teamwork to overcome the elk's advantages. Think about it: one wolf could chase the elk towards another wolf waiting in ambush. This would change all our calculations for distance and stamina. This is our next challenge!_

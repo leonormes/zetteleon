@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-09-07T10:32:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:08+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["interventions", "isp", "TheHuman/Family/Bessie", "support-strategies"]
+tags: ["interventions", "isp", "support-strategies", "TheHuman/Family/Bessie"]
 title: Bessie Support Strategies and Interventions
 type: ""
 uid: 

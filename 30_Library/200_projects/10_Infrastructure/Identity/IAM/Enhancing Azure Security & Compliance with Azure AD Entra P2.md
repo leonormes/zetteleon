@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-11T01:44:14Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:24+00:00
+modified: 2026-01-08T10:49:54+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -41,9 +41,9 @@ Upgrading to Entra P2 unlocks a suite of advanced security features that directl
 
 1. **Privileged Identity Management (PIM) - Just-in-Time Access & Enhanced Security:**
 
-    - **Feature:** PIM allows us to implement "Just-in-Time" (JIT) access for administrative roles. Instead of users having standing admin privileges (like we discussed previously being a risk), they only *request and receive* elevated access *when needed* and for a *limited time*.
+    - **Feature:** PIM allows us to implement "Just-in-Time" (JIT) access for administrative roles. Instead of users having standing admin privileges (like we discussed previously being a risk), they only _request and receive_ elevated access _when needed_ and for a _limited time_.
     - **Business Benefit:** **Dramatically reduces the risk of standing privileged access.** If an admin account is compromised, the window of opportunity for attackers is drastically minimized. **This is a crucial security improvement, especially for protecting root-level access.**
-    - **NHS Compliance:** Directly supports **DSPT AC1.1.3 Privileged Access Management (PAM)**, demonstrating strong controls over privileged accounts, a *key requirement* for NHS data handling.
+    - **NHS Compliance:** Directly supports **DSPT AC1.1.3 Privileged Access Management (PAM)**, demonstrating strong controls over privileged accounts, a _key requirement_ for NHS data handling.
 2. **Conditional Access Policies - Intelligent & Adaptive Security:**
 
     - **Feature:** Conditional Access allows us to create smart, context-aware access policies. We can enforce MFA based on risk level, location, device health, application sensitivity, and more. We can tailor security requirements dynamically.
@@ -52,7 +52,7 @@ Upgrading to Entra P2 unlocks a suite of advanced security features that directl
 3. **Identity Protection - Proactive Threat Detection & Remediation:**
 
     - **Feature:** Azure AD Identity Protection uses machine learning to detect risky sign-in behaviour and vulnerabilities in user accounts in real-time (e.g., unusual sign-in locations, impossible travel, leaked credentials). It can automatically trigger alerts and even automate remediation actions (like forcing password resets).
-    - **Business Benefit:** **Provides proactive threat detection and faster incident response.** We get early warnings of potential account compromises and automated actions to mitigate risks *before* they escalate into data breaches. **Crucial for rapid security incident handling and minimizing damage.**
+    - **Business Benefit:** **Provides proactive threat detection and faster incident response.** We get early warnings of potential account compromises and automated actions to mitigate risks _before_ they escalate into data breaches. **Crucial for rapid security incident handling and minimizing damage.**
     - **NHS Compliance:** Supports **IM1.1.1 Security Monitoring and Alerting** by providing advanced threat detection capabilities, improving our ability to identify and respond to security incidents involving identities, a DSPT requirement.
 4. **Access Reviews - Automated Governance & Compliance Auditing:**
 
@@ -68,7 +68,7 @@ Upgrading to Entra P2 unlocks a suite of advanced security features that directl
 
 While Entra P2 is an additional cost, it's essential to view it as an **investment in risk mitigation and business continuity**, not just an IT expense.
 
-- **Cost of a Data Breach:** The potential financial and reputational damage from a data breach involving NHS patient data is *significantly* higher than the cost of Entra P2 licensing. GDPR fines alone can be substantial.
+- **Cost of a Data Breach:** The potential financial and reputational damage from a data breach involving NHS patient data is _significantly_ higher than the cost of Entra P2 licensing. GDPR fines alone can be substantial.
 - **Cost of Non-Compliance:** Failure to meet DSPT requirements can jeopardize our ability to work with the NHS, impacting contracts and revenue.
 - **Improved Efficiency:** Reduced manual administration and faster incident response can lead to operational cost savings over time.
 - **Enhanced Trust & Reputation:** Demonstrating a strong commitment to security and data protection through Entra P2 strengthens our reputation with the NHS and builds trust with patients, a critical intangible asset.

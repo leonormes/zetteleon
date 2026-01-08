@@ -1,13 +1,13 @@
 ---
-aliases: ["Active Externalism", "Cumulative Thinking", "Distributed Cognition", "Embodied Cognition", "The Extended Mind Thesis", "EMT", "HEC", "Hypothesis of Extended Cognition"]
+aliases: ["Active Externalism", "Cumulative Thinking", "Distributed Cognition", "Embodied Cognition", "EMT", "HEC", "Hypothesis of Extended Cognition", "The Extended Mind Thesis"]
 confidence: "5/5"
 created: 2025-12-07T18:28:36Z
 epistemic: "theory"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T20:52:37+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the 'Extended Mind' as the foundational cognitive architecture for ProdOS."
 review_interval: "3 months"
-see_also: ["[[SoT - Material Symbols]]", "[[SoT - The Negotiable Body]]", "[[SoT - PRODOS (System Architecture)]]"]
+see_also: ["[[SoT - Material Symbols]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Negotiable Body]]"]
 source_of_truth: []
 status: "stable"
 tags: ["extended_mind", "mental_models", "pkm", "TheHuman/Cognition", "TheHuman/Health/ADHD", "TheHuman/Philosophy"]
@@ -30,7 +30,7 @@ updated:
 
 EMT advocates for **Active Externalism**, where external features play a crucial, causal role in the "here-and-now" driving of cognitive processes.
 
-- **The Parity Principle:** If a process in the world functions in a way that we would accept as *cognitive* if it were occurring inside the head, then that process *is* part of the cognitive system (Andy Clark & David Chalmers).
+- **The Parity Principle:** If a process in the world functions in a way that we would accept as _cognitive_ if it were occurring inside the head, then that process _is_ part of the cognitive system (Andy Clark & David Chalmers).
 - **Hypothesis of Cognitive Impartiality:** The brain is a "locus of recruitment" that uses whatever resource (neural, bodily, or digital) is most cost-effective for the task at hand. It does not privilege "biological" neurons over "silicon" bits if the silicon is reliable.
 - **The Case of Otto:** A thought experiment comparing a person using biological memory vs. a person (Otto) using a notebook for memory. If the notebook is constant, accessible, and trusted, it functions identically to biological memory and is therefore a constituent part of the mind.
 
@@ -48,7 +48,7 @@ Cognition extends in multiple directions, all of which are leveraged by ProdOS t
 
 ### B. Situated Cognition (The Environment)
 
-- **Principle:** We think *with* our environment. We perform **Epistemic Actions**—physical actions (like rotating Tetris blocks or shuffling Index Cards) performed to aid computation rather than just to change the world.
+- **Principle:** We think _with_ our environment. We perform **Epistemic Actions**—physical actions (like rotating Tetris blocks or shuffling Index Cards) performed to aid computation rather than just to change the world.
 - **Niche Construction:** Humans actively engineer structural layers (like specialized workspaces or IDEs) to reshape how our biological brains process information.
 
 ### C. Distributed Cognition (The Network)
@@ -58,7 +58,7 @@ Cognition extends in multiple directions, all of which are leveraged by ProdOS t
 
 ### D. Digital Systems as Cognitive Tools
 
-- **Principle:** A digital system (like this Vault) acts as a **prosthetic prefrontal cortex**. It is not just for storage; it is for *processing*.
+- **Principle:** A digital system (like this Vault) acts as a **prosthetic prefrontal cortex**. It is not just for storage; it is for _processing_.
 - **Objective Interaction:** Offloading thoughts allows us to **observe our thinking** as a stable physical object, enabling high-level reflection and critique impossible within biological memory alone.
 
 ---

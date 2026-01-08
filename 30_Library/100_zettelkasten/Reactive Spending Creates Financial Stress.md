@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-18T14:30:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -19,4 +19,4 @@ updated:
 
 Reactive spending, the 'spend-first, categorize-later' approach, is a primary source of financial anxiety. Without a proactive plan, every purchase requires complex mental math against a single checking account balance, creating constant, low-grade stress.
 
-This method obscures the fundamental scarcity of money and prevents clear decision-making. It only reveals where money *went*, not where it is *going*, making it impossible to align spending with long-term goals. It is the direct opposite of proactive budgeting, as described in [[Give Every Dollar a Job (YNAB Rule 1)]].
+This method obscures the fundamental scarcity of money and prevents clear decision-making. It only reveals where money _went_, not where it is _going_, making it impossible to align spending with long-term goals. It is the direct opposite of proactive budgeting, as described in [[Give Every Dollar a Job (YNAB Rule 1)]].

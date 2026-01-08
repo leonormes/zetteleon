@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T20:22:24Z
 epistemic: "definition"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Define action as behavior that directly produces tangible outcomes."
 review_interval: "90"
 see_also: ["[[Motion Defined as Preparatory Activity Without Direct Outcomes]]", "[[Next Action is the Immediate Physical Step Forward]]"]
@@ -47,4 +47,4 @@ Action carries risk that motion does not—the risk of failure, criticism, publi
 
 **Action Over Perfection:**
 
-Embracing imperfection is essential. Don't wait for the perfect time or optimal conditions to start. Start now and refine the process as you go. Focus on making the decision *right* through good execution, not on making the *right* decision through perfect planning.
+Embracing imperfection is essential. Don't wait for the perfect time or optimal conditions to start. Start now and refine the process as you go. Focus on making the decision _right_ through good execution, not on making the _right_ decision through perfect planning.

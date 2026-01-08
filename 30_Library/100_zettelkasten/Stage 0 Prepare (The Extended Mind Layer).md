@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-08-11T15:30:49Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -18,7 +18,7 @@ updated:
 version: ""
 ---
 
-*The Goal: To create a state of mind and body conducive to novel thought.*
+_The Goal: To create a state of mind and body conducive to novel thought._
 
 Before you even begin to write, you can use your body and environment to prepare your mind for insight. This stage is about moving from a state of focused, "brainbound" thinking to a more open, receptive state.
 

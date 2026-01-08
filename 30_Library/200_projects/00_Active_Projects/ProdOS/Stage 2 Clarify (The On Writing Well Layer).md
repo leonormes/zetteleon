@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-04T12:23:40Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -17,7 +17,7 @@ uid:
 updated: 
 ---
 
-*The Goal: To transform raw energy into a clear, understandable idea.*
+_The Goal: To transform raw energy into a clear, understandable idea._
 
 This is the craftsman's stage. You now look at the raw text from Stage 1 with an objective, editorial eye. The goal is not to change the core idea, but to make it clear and strong.
 

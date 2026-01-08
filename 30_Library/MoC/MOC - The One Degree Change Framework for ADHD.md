@@ -6,7 +6,7 @@ criteria: ""
 epistemic: "null"
 exclusions: ""
 last_reviewed: "null"
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "null"
 review_interval: "null"
 scope: ""
@@ -55,13 +55,13 @@ The zone is personal and dynamic, varying with energy levels, life circumstances
 
 [[Morita Therapy - Arugamama is Accepting Reality As It Is]] rel:: prerequisite strategy:: "Accept current reality first"
 
-Practice radical acceptance: honestly acknowledge your *current* reality—actual capacity, energy levels, existing patterns—before deciding next steps. Growth must align with where you truly are, not where you wish you were or where others expect you to be.
+Practice radical acceptance: honestly acknowledge your _current_ reality—actual capacity, energy levels, existing patterns—before deciding next steps. Growth must align with where you truly are, not where you wish you were or where others expect you to be.
 
 #### Align With Your Values
 
 [[Habit Change Must Align With Personal Values Not External Expectations]] rel:: prerequisite principle:: "Intrinsic motivation required"
 
-Change must answer "Why does this matter to *me*?" not "What do others expect?" For ADHD brains with interest-based nervous systems, genuine personal relevance is non-negotiable for sustained engagement.
+Change must answer "Why does this matter to _me_?" not "What do others expect?" For ADHD brains with interest-based nervous systems, genuine personal relevance is non-negotiable for sustained engagement.
 
 ### Core Strategies
 
@@ -81,7 +81,7 @@ Change must answer "Why does this matter to *me*?" not "What do others expect?" 
 [[The ADHD Habit Protocol (Map-Build-Dismantle)]] rel:: complementary-framework
 
 - Break habits into micro-steps and clear sequential actions
-- Match routines to your *real* self and energy patterns, not idealized versions
+- Match routines to your _real_ self and energy patterns, not idealized versions
 - Use external cues and triggers (timers, if-then rules, habit stacking)
 - Reduce friction at every step
 
@@ -157,9 +157,9 @@ Only increase challenge once current step feels **easy and automatic**
 
 **One Degree Approach:**
 
-1. **Week 1-2:** Open writing app and write *one sentence* after coffee (proximal zone)
-2. **Week 3-4:** If one sentence feels automatic, increase to *one paragraph*
-3. **Week 5-6:** If paragraph feels easy, increase to *10 minutes timed writing*
+1. **Week 1-2:** Open writing app and write _one sentence_ after coffee (proximal zone)
+2. **Week 3-4:** If one sentence feels automatic, increase to _one paragraph_
+3. **Week 5-6:** If paragraph feels easy, increase to _10 minutes timed writing_
 4. **Week 7+:** Continue gradual increases only when previous level is comfortable
 
 Track each completion. Celebrate showing up. If you miss days, investigate: Was the step too big? Recalibrate down.

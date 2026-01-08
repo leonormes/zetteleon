@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-26T11:11:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["time-management", "tools", "TheHuman/Health/ADHD", "topic/productivity"]
+tags: ["TheHuman/Health/ADHD", "time-management", "tools", "topic/productivity"]
 title: Visual Timers for ADHD Time Blindness
 type: "permanent"
 uid: 
@@ -38,4 +38,4 @@ A visual timer displays the passage of time graphically (e.g., a disappearing co
 - This tool is a key component of [[Timeboxing for ADHD Management]].
 - It is a practical strategy for managing the [[Executive Function Challenges are Central to ADHD]], specifically those related to time management.
 
-*Source: Synthesized from notes on ADHD productivity hacks.*
+_Source: Synthesized from notes on ADHD productivity hacks._

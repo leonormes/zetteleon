@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-08-30T12:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["action", "morita-therapy", "TheHuman/Motivation", "purpose", "therapy", "values"]
+tags: ["action", "morita-therapy", "purpose", "TheHuman/Motivation", "therapy", "values"]
 title: Morita Therapy - Purpose-Driven Action Over Emotion
 type: "permanent"
 uid: 

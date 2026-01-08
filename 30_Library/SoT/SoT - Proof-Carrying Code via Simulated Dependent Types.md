@@ -4,13 +4,13 @@ confidence: "4/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "derived"
 last_reviewed: "2025-12-18"
-modified: 2026-01-03T10:18:52+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "Canonical reference for leveraging type systems to eliminate runtime failure modes."
 review_interval: "6 months"
 see_also: []
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "formal_verification", "rust", "software_design", "type_theory"]
+tags: ["formal_verification", "rust", "SoftwareEngineering", "SoftwareEngineering/Architecture", "type_theory"]
 title: SoT - Proof-Carrying Code via Simulated Dependent Types
 type: "SoT"
 uid: 
@@ -42,7 +42,7 @@ By moving constraints from values (runtime) to types (compile-time), we make inv
 
 ### The Benefit: Compile-Time Theorems
 
-In this paradigm, a function like `copy_from` doesn't check sizes at runtime. It demands a *proof* (via the type system) that `SourceSize <= DestSize`. If the developer attempts to pass incompatible vectors, the code refuses to compile. The failure mode is shifted from "Crash in Production" to "Build Error."
+In this paradigm, a function like `copy_from` doesn't check sizes at runtime. It demands a _proof_ (via the type system) that `SourceSize <= DestSize`. If the developer attempts to pass incompatible vectors, the code refuses to compile. The failure mode is shifted from "Crash in Production" to "Build Error."
 
 ## 3. Understanding Layers (Progressive Abstraction)
 
@@ -65,4 +65,4 @@ In this paradigm, a function like `copy_from` doesn't check sizes at runtime. It
 
 ## 6. Sources and Links
 
-- **Source:** Summary of *"Type Theory for the Working Rustacean"* (YouTube).
+- **Source:** Summary of _"Type Theory for the Working Rustacean"_ (YouTube).

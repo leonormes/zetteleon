@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-16T09:53:19Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2025-12-31T18:35:35+00:00
+modified: 2026-01-08T10:49:57+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -263,7 +263,7 @@ You thought: "If a DNS resolver asks my internal DNS server for a record in a zo
 
 ### Where the Model Went Wrong: The Role of the Resolver
 
-Your mistake was assuming the initial query from a client (like a Kubernetes pod) *always* goes directly to that authoritative internal server. In modern setups, it goes to a **smart resolver** first, like `CoreDNS` or a cloud provider's resolver (e.g., Azure DNS Private Resolver).
+Your mistake was assuming the initial query from a client (like a Kubernetes pod) _always_ goes directly to that authoritative internal server. In modern setups, it goes to a **smart resolver** first, like `CoreDNS` or a cloud provider's resolver (e.g., Azure DNS Private Resolver).
 
 This resolver acts more like a traffic controller than a simple phone book. It follows a set of rules before deciding where to send the query.
 
@@ -276,7 +276,7 @@ Here is the corrected mental model:
    - **(Missing Rule):** Crucially, in a simple setup, there is no specific rule for `fitfile.com`.
    - **Rule 3 (The Catch-All):** The query matches the final `forward. 1.1.1.1` rule. The `.` means "everything else".
 
-3. **The query is forwarded publicly.** CoreDNS sends the query to `1.1.1.1`, which resolves the public IP address. The internal authoritative server for the *private* `fitfile.com` zone was never even consulted.
+3. **The query is forwarded publicly.** CoreDNS sends the query to `1.1.1.1`, which resolves the public IP address. The internal authoritative server for the _private_ `fitfile.com` zone was never even consulted.
 
 This is the "fallback" I was referring to. It's not the authoritative server falling back; it's the **resolver choosing the public forwarder by default** because the query didn't match a more specific, private rule.
 
@@ -284,9 +284,9 @@ This is the "fallback" I was referring to. It's not the authoritative server fal
 
 ### The Scenario Where You Were Right (and Why It's Dangerous)
 
-Now, consider a true split-horizon setup where the cloud VNet's DNS setting is pointed at a resolver that *is* authoritative for the private `fitfile.com` zone.
+Now, consider a true split-horizon setup where the cloud VNet's DNS setting is pointed at a resolver that _is_ authoritative for the private `fitfile.com` zone.
 
-1. A pod needs to resolve `public-cdn.fitfile.com` (a record that *only* exists in the public Cloudflare zone).
+1. A pod needs to resolve `public-cdn.fitfile.com` (a record that _only_ exists in the public Cloudflare zone).
 2. The query goes to the VNet's configured DNS resolver (e.g., Azure's internal DNS).
 3. This resolver sees the `fitfile.com` suffix and says, "Aha! I am authoritative for this zone."
 4. It checks its list of **private** records for `public-cdn.fitfile.com`, finds nothing, and returns `NXDOMAIN`.

@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-10-26T17:07:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["SoftwareEngineering/Architecture", "comparison", "tech"]
+tags: ["comparison", "SoftwareEngineering/Architecture", "tech"]
 title: API Gateway vs Load Balancer
 type: "permanent"
 uid: 
@@ -27,7 +27,7 @@ While both API Gateways and Load Balancers manage traffic, they operate at diffe
 | **Protocol**       | TCP, UDP, HTTP/S (protocol-agnostic at L4)          | HTTP/S, WebSocket, gRPC (protocol-aware)                     |
 | **Core Focus**     | Ensures fault tolerance and uptime                  | Enforces security, routing logic, and usage policies for APIs |
 
-In essence, a Load Balancer ensures that traffic *reaches* a server, while an API Gateway ensures that the traffic is *authorized, well-formed, and correctly routed* before it reaches the backend service.
+In essence, a Load Balancer ensures that traffic _reaches_ a server, while an API Gateway ensures that the traffic is _authorized, well-formed, and correctly routed_ before it reaches the backend service.
 
 ## Related Concepts
 

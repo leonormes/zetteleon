@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T12:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "Clarify the distinction between outcome-based, process-based, and identity-based approaches to habits."
 review_interval: "90"
 see_also: ["[[Identity-Based Habits are More Resilient Than Goal-Based Habits]]", "[[Three Layers of Behavior Change Model]]", "[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "goals", "TheHuman/Identity", "TheHuman/Habits"]
+tags: ["behavior-change", "goals", "TheHuman/Habits", "TheHuman/Identity"]
 title: Outcomes vs Process vs Identity in Habit Formation
 type: "concept"
 uid: 

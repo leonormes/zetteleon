@@ -6,14 +6,14 @@ criteria: "Links to canonical SoT notes defining the core principles of this con
 epistemic: ""
 exclusions: "Implementation details of specific projects."
 last_reviewed: ""
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: ""
 review_interval: ""
 scope: "The core conflict between building software quickly (pragmatism) and building it correctly (rigour)."
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["map", "mental-model", "TheHuman/Philosophy", "software-engineering"]
+tags: ["map", "mental-model", "SoftwareEngineering", "TheHuman/Philosophy"]
 title: MOC - The Trade-off Between Pragmatism and Rigour in Software Engineering
 type: "map"
 uid: 

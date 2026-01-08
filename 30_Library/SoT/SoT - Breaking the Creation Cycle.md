@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-11-13T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-14"
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "To provide a protocol for breaking the ADHD cycle of starting fresh and abandoning projects due to loss of context."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]"]
@@ -35,7 +35,7 @@ Make it trivial to reload your mental model. Never close a session without a **S
 **Format: `SESSION.md`**
 
 - **Now:** Bullet points of what was just completed.
-- **Next:** 1-3 concrete steps for the *next* session (≤ 15 mins each).
+- **Next:** 1-3 concrete steps for the _next_ session (≤ 15 mins each).
 - **Why:** The design intent and constraints (Plain English).
 - **WTF Guide:** Traps, open questions, and things you are avoiding.
 - **Links:** Critical file paths, commands, logs.
@@ -73,7 +73,7 @@ Big ideas stall because "done" is vague. Define a **Minimal Path to Demo**.
 
 ### C. The Restart Guardrails
 
-If you *must* restart, you must pass these gates:
+If you _must_ restart, you must pass these gates:
 
 1. **One-Pager Rule:** The new plan must fit on one page (Scope, Sketch, MPD).
 2. **Reuse-First:** You must reuse at least one core component/test from the old version.
@@ -84,7 +84,7 @@ If you *must* restart, you must pass these gates:
 ## 4. Environment & Dopamine Hacks
 
 - **Return Anchor:** A physical sticky note on the monitor: "Next Step: Run tests for payment flow."
-- **Cliffhangers:** Stop a session in the middle of an *easy* task. This makes starting the next day automatic.
+- **Cliffhangers:** Stop a session in the middle of an _easy_ task. This makes starting the next day automatic.
 - **Streak Board:** Track "Touches" (15 mins), not just big wins.
 
 ---

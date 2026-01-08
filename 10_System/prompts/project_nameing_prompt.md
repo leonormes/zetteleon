@@ -4,7 +4,7 @@ confidence:
 created: 2025-10-18T13:25:33Z
 epistemic:
 last_reviewed:
-modified: 2026-01-03T10:19:44+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: To guide an LLM acting as a GTD coach to transform a user's raw, ambiguous "stuff" into well-defined, outcome-based projects with clear definitions of done and actionable next steps.
 review_interval:
 see_also: []
@@ -90,3 +90,5 @@ Notes:
 Which of these projects should we clarify further right now?
 
 Do you want me to draft project note templates or dashboards for any of them?
+
+> **Note:** This prompt implements the logic defined in [[SoT - Execution Protocol (GTD & PARA)]].

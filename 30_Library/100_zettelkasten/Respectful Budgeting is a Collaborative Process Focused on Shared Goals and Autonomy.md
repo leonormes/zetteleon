@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T10:13:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To distinguish respectful budgeting from controlling behavior."
 review_interval: "90"
 see_also: ["[[Controlling Financial Behavior is Unilateral and Removes a Partner's Agency]]"]

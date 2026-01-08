@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-30T12:06:05Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -29,4 +29,4 @@ The core idea is to embrace [[Systems Thinking vs Goal Setting]]. While goals pr
 2. **Consistency**: For building systems, [[Consistency is More Important Than Intensity for Building Systems|consistency is more important than intensity]].
 3. **Track Systems**: The focus of measurement should be to [[Track System Execution Not Goal Outcomes|track the execution of the system, not the outcome of the goal]].
 
-*Source: [[Shifting From Traditional Goal Setting to Systems-Based Thinking]]*
+_Source: [[Shifting From Traditional Goal Setting to Systems-Based Thinking]]_

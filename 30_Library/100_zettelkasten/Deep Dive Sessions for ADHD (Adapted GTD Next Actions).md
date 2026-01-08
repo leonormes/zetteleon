@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-06-25T20:14:33Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16"
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To test the efficacy of blocking time for deep work versus granular next actions for ADHD brains."
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
@@ -34,7 +34,7 @@ version: "1"
     1. Hide the standard "Next Actions" list in Todoist.
     2. Block two 75-minute "Deep Dive" slots per day in the calendar.
     3. Assign one Project to each block.
-    4. Rule: During the block, I can do *anything* related to that project, but *nothing* else.
+    4. Rule: During the block, I can do _anything_ related to that project, but _nothing_ else.
 
 ---
 
@@ -47,7 +47,7 @@ version: "1"
 
 ## 4. Results Log
 
-- *(Log daily results here: e.g., "Mon: Success. Tue: Failed, distraction.")*
+- _(Log daily results here: e.g., "Mon: Success. Tue: Failed, distraction.")_
 
 ---
 

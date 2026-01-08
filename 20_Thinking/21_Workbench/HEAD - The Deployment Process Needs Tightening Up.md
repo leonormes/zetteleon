@@ -5,7 +5,7 @@ confidence:
 created: 2025-12-08T11:13:41Z
 epistemic:
 last_reviewed:
-modified: 2025-12-25T18:35:29Z
+modified: 2026-01-08T10:50:02+00:00
 purpose:
 review_interval:
 Reviewed: true
@@ -21,11 +21,11 @@ updated:
 ---
 
 > [!abstract] The Spark (Contextual Wrapper)
-> We need to get better and telling customers what we need and what we are doing. As we learn more about the difficulties of deployment we should update our docs to match.
+> We need to get better at telling customers what we need and what we are doing. As we learn more about the difficulties of deployment we should update our docs to match.
 
 ## 🧠 My Current Model (The Blind Write)
 
-*Instructions: Write this section BEFORE looking at documentation. How do you think it works? What is your logic? be messy.*
+_Instructions: Write this section BEFORE looking at documentation. How do you think it works? What is your logic? be messy._
 
 **I think it works like this:**
 

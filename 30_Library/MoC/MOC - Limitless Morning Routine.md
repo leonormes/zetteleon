@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-30T12:02:08Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -36,4 +36,4 @@ The routine is a sequence of dominos, each one triggering the next:
 
 The routine emphasizes [[Avoid Morning Phone Use to Protect Dopamine|avoiding phone or social media use]] to protect dopamine for essential tasks. Each step is designed to stack momentum, creating compounding benefits that are particularly helpful for managing ADHD-related distractibility.
 
-*Source: [[Limitless Morning Routine]]*
+_Source: [[Limitless Morning Routine]]_

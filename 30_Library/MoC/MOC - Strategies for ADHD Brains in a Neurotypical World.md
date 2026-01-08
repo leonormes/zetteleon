@@ -1,24 +1,17 @@
 ---
-aliases:
-  - ADHD Coping Strategies
-  - ADHD Strategy Library
+aliases: [ADHD Coping Strategies, ADHD Strategy Library]
 confidence: "null"
 created: 2025-07-16T17:30:01Z
 epistemic: index
 last_reviewed: 2025-12-16T00:00:00.000Z
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: ""
 review_interval: 6 months
 see_also:
   - "[[MOC - ADHD Experiments & Protocols]]"
 source_of_truth: []
 status: stable
-tags:
-  - index
-  - self-help
-  - strategies
-  - "TheHuman/Health/ADHD"
-  - topic/productivity
+tags: ["TheHuman/Health/ADHD", index, self-help, strategies, topic/productivity]
 title: MOC - Strategies for ADHD Brains in a Neurotypical World
 type: map
 uid:
@@ -33,7 +26,7 @@ Navigating a world designed for neurotypical functioning requires individuals wi
 
 ## 1. Active Experiments (Currently Testing)
 
-*Strategies that have been converted into active hypotheses:*
+_Strategies that have been converted into active hypotheses:_
 
 - **Gamification/Interest:** [[Interest Pairing Can Increase Engagement in Mundane Tasks for ADHD]]
 - **External Structure:** [[ADHD-Adapted Timeboxing]] (Visual Timers)
@@ -43,7 +36,7 @@ Navigating a world designed for neurotypical functioning requires individuals wi
 
 ## 2. Candidate Strategies (To Be Tested)
 
-*These concepts need to be converted into Hypothesis notes:*
+_These concepts need to be converted into Hypothesis notes:_
 
 - **Gamify Tasks:** Turn chores into challenges or games (e.g., "Beat the Clock").
 - **Novelty Seeking:** Change your environment (Coffee Shop Effect) or introduce new tools.

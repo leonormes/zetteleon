@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T12:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "Explain how identity integration creates the strongest form of motivation."
 review_interval: "90"
 see_also: ["[[Behavior Incongruent with Self Will Not Last]]", "[[Identity-Based Habits are More Resilient Than Goal-Based Habits]]", "[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Identity", "intrinsic-motivation", "TheHuman/Motivation", "TheHuman/Habits"]
+tags: ["intrinsic-motivation", "TheHuman/Habits", "TheHuman/Identity", "TheHuman/Motivation"]
 title: Ultimate Intrinsic Motivation Occurs When Habit Becomes Part of Identity
 type: "concept"
 uid: 

@@ -4,15 +4,13 @@ confidence:
 created: 2025-07-10T12:36:00Z
 epistemic:
 last_reviewed:
-modified: 2026-01-03T10:18:59+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags:
-  - data-perspective
-  - "SoftwareEngineering/Networking"
+tags: ["SoftwareEngineering/Networking", data-perspective]
 title: MOC - Data-Centric Networking
 type: map
 uid:
@@ -33,9 +31,9 @@ version: 1
 
 These are the authoritative specifications for the data-centric view of networking.
 
-- **[[SoT - The Data-Centric Theory of Networking]]**—*The "Why" and "How" of state transport, recursive encapsulation, and routing as prefix-trie traversal.*
-- **[[SoT - The Architecture of Packet Encapsulation (TCP-IP)]]**—*The bit-level anatomy of the Segment, Packet, and Frame containers.*
-- **[[SoT - The Data Architecture of DNS]]**—*DNS as a distributed hierarchical database and zone-based state partitioning.*
+- **[[SoT - The Data-Centric Theory of Networking]]**—_The "Why" and "How" of state transport, recursive encapsulation, and routing as prefix-trie traversal._
+- **[[SoT - The Architecture of Packet Encapsulation (TCP-IP)]]**—_The bit-level anatomy of the Segment, Packet, and Frame containers._
+- **[[SoT - The Data Architecture of DNS]]**—_DNS as a distributed hierarchical database and zone-based state partitioning._
 
 ---
 

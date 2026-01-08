@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-10-26T17:16:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2025-12-26T10:08:13+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "Map of Content for Linux kernel primitives enabling containers."
 review_interval: "1 year"
 see_also: ["[[SoT - Linux Container Primitives]]"]
 source_of_truth: ["[[SoT - Linux Container Primitives]]"]
 status: "stable"
-tags: ["SoftwareEngineering/Containers", "kernel", "SoftwareEngineering/Linux", "type/moc"]
+tags: ["kernel", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "type/moc"]
 title: MOC - Linux Container Primitives
 type: "map"
 uid: 

@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-30T12:02:15+00:00
 epistemic: "architecture"
 last_reviewed: "2025-12-30"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "To define the architectural standard for managing IAM and Permissions via GitOps, enforcing Type-Driven safety and Temporal constraints (PIM)."
 review_interval: "6 months"
 see_also: ["[[SoT - Data-Centric IAM in Zero Trust]]", "[[SoT - The Infrastructure Witness Pattern]]", "[[SoT - Type-Driven Infrastructure as Code]]"]
 source_of_truth: []
 status: "stable"
-tags: ["gitops", "iam", "SoftwareEngineering/Security", "SoftwareEngineering/Architecture", "type_theory"]
+tags: ["gitops", "iam", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "type_theory"]
 title: SoT - GitOps for IAM and Permissions
 type: "SoT"
 uid: 
@@ -19,7 +19,7 @@ updated:
 
 ## 1. The Core Principle: Repository as Authority
 
-In a GitOps IAM model, the **Git Repository** is the sole Source of Truth for *who* can do *what*.
+In a GitOps IAM model, the **Git Repository** is the sole Source of Truth for _who_ can do _what_.
 
 - **Anti-Pattern:** ClickOps (changing roles in Azure Portal).
 - **Pattern:** All assignments are defined as code. If it's not in Git, it doesn't exist.
@@ -83,7 +83,7 @@ To execute a privileged change, we require a **Witness** (Proof of Approval).
 1. **The Proposal:** Developer creates a PR to add `User A` to `Group B`.
 2. **The Verification:** CI runs `terraform plan`.
 3. **The Witness:** A Security Officer approves the PR.
-    - *Crucial:* The CI pipeline should enforce that `Approve_Count >= 1` before allowing the merge.
+    - _Crucial:_ The CI pipeline should enforce that `Approve_Count >= 1` before allowing the merge.
 4. **The Execution:** The pipeline applies the change.
 
 ---

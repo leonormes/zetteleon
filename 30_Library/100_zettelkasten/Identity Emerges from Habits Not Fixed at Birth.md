@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T12:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "Establish that identity is not innate but emerges from accumulated habitual behavior."
 review_interval: "90"
 see_also: ["[[Accumulating Evidence Reinforces Identity]]", "[[Every Action is a Vote for Who You Wish to Become]]", "[[Identity Means Repeated Beingness]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "TheHuman/Identity", "self-concept", "TheHuman/Habits", "TheHuman/Psychology"]
+tags: ["behavior-change", "self-concept", "TheHuman/Habits", "TheHuman/Identity", "TheHuman/Psychology"]
 title: Identity Emerges from Habits Not Fixed at Birth
 type: "concept"
 uid: 

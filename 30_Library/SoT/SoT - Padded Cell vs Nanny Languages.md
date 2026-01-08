@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "framework"
 last_reviewed: "2025-12-19"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To provide a metaphorical framework for classifying programming languages based on their approach to developer safety and abstraction."
 review_interval: "18 months"
 see_also: ["[[SoT - Pragmatism vs Rigour in Software]]", "[[SoT - Rust's Design Philosophy]]"]
@@ -45,7 +45,7 @@ Writing software, especially low-level systems software, is inherently complex a
 ### B. The Nanny Architecture
 
 1. **Direct Compilation:** The code is compiled directly to native machine code, with no intervening runtime.
-2. **Aggressive Static Analysis:** The compiler's most important job is not just to translate code, but to *prove* its safety. It acts as an automated theorem prover for a specific set of properties (e.g., memory safety, data race freedom).
+2. **Aggressive Static Analysis:** The compiler's most important job is not just to translate code, but to _prove_ its safety. It acts as an automated theorem prover for a specific set of properties (e.g., memory safety, data race freedom).
 3. **Ownership and Lifetimes:** The developer is forced to explicitly model the lifetime and ownership of every piece of data. The "nanny" (the compiler) checks this model for logical inconsistencies. See [[SoT - Rust's Ownership Model]].
 
 ---
@@ -53,7 +53,7 @@ Writing software, especially low-level systems software, is inherently complex a
 ## 5. Minimum Viable Understanding (MVU)
 
 1. **Padded Cell (Python, JS):** You are in a safe room where you can't hurt yourself because all the sharp objects have been removed. It's safe, but you can't do certain things. This is safety by **prevention through abstraction**.
-2. **Nanny (Rust):** You are given a sharp knife, but a very strict nanny is watching you. The nanny will stop you *before* you can hurt yourself if you use it improperly. This is safety by **disciplined use**.
+2. **Nanny (Rust):** You are given a sharp knife, but a very strict nanny is watching you. The nanny will stop you _before_ you can hurt yourself if you use it improperly. This is safety by **disciplined use**.
 3. **The Old Way (C/C++):** You are in a room full of sharp objects with no supervision. Good luck.
 
 ---

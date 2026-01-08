@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T12:10:05Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "To describe the neuroscientific basis of knowledge formation."
 review_interval: "90"
 see_also: ["[[Neuroplasticity is the Foundation for Habit Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["knowledge", "TheHuman/Neuroscience", "TheHuman/Cognition"]
+tags: ["knowledge", "TheHuman/Cognition", "TheHuman/Neuroscience"]
 title: Knowledge Formation is a Cognitive Process of Neural Connection
 type: "concept"
 uid: 

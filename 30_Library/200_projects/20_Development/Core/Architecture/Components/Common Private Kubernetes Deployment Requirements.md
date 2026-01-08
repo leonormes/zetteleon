@@ -5,7 +5,7 @@ created: 2025-02-07T12:57:56Z
 dependencies: ""
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:12+00:00
+modified: 2026-01-08T10:49:51+00:00
 name: "private_k8s_common"
 purpose: ""
 replicas: "N/A"

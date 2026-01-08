@@ -1,59 +1,59 @@
 ---
-aliases: ["Formal Methods for IaC", "Type-Driven Infrastructure", "The Witness Pattern", "Infrastructure as Applied Type Theory", "Type-Safe IaC"]
+aliases: ["Formal Methods for IaC", "Infrastructure as Applied Type Theory", "The Witness Pattern", "Type-Driven Infrastructure", "Type-Safe IaC"]
 confidence: "5/5"
 created: 2025-12-30T14:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2026-01-03T10:18:49+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the definitive paradigm for making broken infrastructure configurations unrepresentable via Type Theory and Formal Methods."
 review_interval: "6 months"
-see_also: ["[[SoT - Type Theory & Data Structures]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]
+see_also: ["[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]", "[[SoT - Type Theory & Data Structures]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "iac", "type-theory", "devops", "rust", "cdktf", "terraform"]
+tags: ["cdktf", "devops", "iac", "rust", "SoftwareEngineering/Architecture", "terraform", "type-theory"]
 title: SoT - Type-Driven Infrastructure Strategy
 type: "SoT"
 uid: 
 updated: 
 ---
 
-# SoT - Type-Driven Infrastructure Strategy
+## SoT - Type-Driven Infrastructure Strategy
 
-## 1. Definitive Statement
+### 1. Definitive Statement
 
 > [!definition] Type-Driven Infrastructure
 > A paradigm shift from **Stringly-Typed** configuration (loose strings/HCL) to **Proof-Carrying Logic**. It treats infrastructure as a dependency chain where valid states are mathematically proven at synthesis time, making illegal architectures unrepresentable.
 
 ---
 
-## 2. Core Operational Primitives
+### 2. Core Operational Primitives
 
-### I. The Witness Pattern (Capability Tokens)
+#### I. The Witness Pattern (Capability Tokens)
 
 A **Witness** is a data type whose instantiation serves as proof that a prerequisite state is satisfied.
 
-* **Mechanic:** Downstream resources demand a Witness Type (e.g., `IpReachabilityWitness`) as an argument, not a raw string ID.
-* **Result:** You cannot create a Certificate without proving DNS control; you cannot create DNS without proving IP existence.
+- **Mechanic:** Downstream resources demand a Witness Type (e.g., `IpReachabilityWitness`) as an argument, not a raw string ID.
+- **Result:** You cannot create a Certificate without proving DNS control; you cannot create DNS without proving IP existence.
 
-### II. Reachability as a Type (Phantom Types)
+#### II. Reachability as a Type (Phantom Types)
 
 Reachability is a **Type State**, not a tag or metadata.
 
-* **Constraint:** Use generics/phantom types to differentiate `IpAddress<Public>` from `IpAddress<Private>`.
-* **Gateway Functions:** Transitioning a resource from private to public requires a explicit transformation function (e.g., `NatGateway::expose(Private) -> Public`).
+- **Constraint:** Use generics/phantom types to differentiate `IpAddress<Public>` from `IpAddress<Private>`.
+- **Gateway Functions:** Transitioning a resource from private to public requires a explicit transformation function (e.g., `NatGateway::expose(Private) -> Public`).
 
-### III. Affine Resource Ownership (Move Semantics)
+#### III. Affine Resource Ownership (Move Semantics)
 
 Treat infrastructure resources as **Linear Assets** (Rust model).
 
-* **Linearity:** A specific Port 80 or PVC can be bound **exactly once**.
-* **Consumption:** "Moving" a resource handle into a consumer prevents double-binding errors at the compiler level.
+- **Linearity:** A specific Port 80 or PVC can be bound **exactly once**.
+- **Consumption:** "Moving" a resource handle into a consumer prevents double-binding errors at the compiler level.
 
 ---
 
-## 3. Implementation Patterns
+### 3. Implementation Patterns
 
-### Pattern A: The "Compiler" (CDKTF + TypeScript)
+#### Pattern A: The "Compiler" (CDKTF + TypeScript)
 
 When HCL is insufficient, use a high-level language to synthesize the JSON manifest.
 
@@ -61,7 +61,7 @@ When HCL is insufficient, use a high-level language to synthesize the JSON manif
 2. **Synthesis:** `cdktf synth` validates logic. If types mismatch, the build fails.
 3. **Deployment:** Commit the **Assembly** (`cdk.tf.json`) alongside source for VCS-triggered runs.
 
-### Pattern B: HCL Simulation (The "Poor Man's" Type System)
+#### Pattern B: HCL Simulation (The "Poor Man's" Type System)
 
 In pure Terraform, simulate Sum Types (Enums) to reduce state space.
 
@@ -69,16 +69,16 @@ In pure Terraform, simulate Sum Types (Enums) to reduce state space.
 2. **The Implementation:** Use a `local` map to define the fixed configuration for each profile variant.
 3. **The Result:** Users choose a **Variant**, not individual parameters, preventing "Configuration Explosion."
 
-### Pattern C: Capability-Based Access
+#### Pattern C: Capability-Based Access
 
 Reject raw RBAC strings in favor of **Capability Tokens**.
 
-* **Identity:** Modeled as a Sum Type (`Human | Bot`).
-* **Logic:** A `DevCapability` token is physically incapable of targeting a `Production` environment in the code model.
+- **Identity:** Modeled as a Sum Type (`Human | Bot`).
+- **Logic:** A `DevCapability` token is physically incapable of targeting a `Production` environment in the code model.
 
 ---
 
-## 4. Architectural Mapping (Data-Oriented View)
+### 4. Architectural Mapping (Data-Oriented View)
 
 | Concept | Traditional IaC (Stringly) | Type-Driven (Data-Oriented) |
 |:--- |:--- |:--- |
@@ -89,7 +89,7 @@ Reject raw RBAC strings in favor of **Capability Tokens**.
 
 ---
 
-## 5. Minimum Viable Understanding (MVU)
+### 5. Minimum Viable Understanding (MVU)
 
 1. **Shift Left:** Move validation from Runtime (OPA/Deployment Failure) to Synthesis Time (Build Failure).
 2. **Modules are Types:** Modules are contracts. Don't expose "all parameters"; expose "all valid states."

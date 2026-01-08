@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:56Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:12+00:00
+modified: 2026-01-08T10:49:51+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -30,7 +30,7 @@ The sources provide a comprehensive overview of how ConfigMaps function within K
 - Non-Sensitive Data Storage: ConfigMaps are primarily used for storing non-sensitive configuration data such as environment variables, configuration files, hostnames, service ports, and account names. For sensitive information like passwords and certificates, Kubernetes Secrets should be used.
 - Mechanics:
 - Key-Value Structure: ConfigMaps are essentially a collection of key-value pairs that can be referenced and used within Pods and containers. Keys are arbitrary names, and values can range from simple strings to entire configuration files.
-- Creation: You can create ConfigMaps either *imperatively* using `kubectl create configmap` with literal values or files, or *declaratively* using YAML files.
+- Creation: You can create ConfigMaps either _imperatively_ using `kubectl create configmap` with literal values or files, or _declaratively_ using YAML files.
 - Injection Methods: There are three main ways to inject ConfigMap data into containers:
   - Environment Variables: Map ConfigMap entries directly to environment variables within the container.
   - Command Arguments: Reference ConfigMap entries within the container's startup command, similar to using environment variables.

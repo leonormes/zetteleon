@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-25T15:00:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["TheHuman/Mindset", "neurodiversity", "self-compassion", "stigma", "TheHuman/Health/ADHD"]
+tags: ["neurodiversity", "self-compassion", "stigma", "TheHuman/Health/ADHD", "TheHuman/Mindset"]
 title: Reframing ADHD - From Deficit to Difference
 type: "permanent"
 uid: 
@@ -31,7 +31,7 @@ Adopting a neurodiversity paradigm has profound implications:
 
 1. **Reduces Stigma and Shame**: It combats the harmful societal misconceptions that fuel stigma. By understanding ADHD as a neurodevelopmental disorder affecting the brain's structure and chemistry, we can move away from judgmental labels and toward empathy and acceptance.
 2. **Promotes Self-Compassion**: For individuals, this reframe is a powerful act of self-compassion. It allows them to see their struggles not as personal failures, but as predictable challenges arising from a mismatch between their brain's operating system and a world largely designed for neurotypicals. This is especially important for those diagnosed later in life who have a history of overcoming significant, unsupported difficulties.
-3. **Fosters Effective Strategies**: By removing the lens of pathology, we can focus on creating accommodations and leveraging strengths, rather than trying to force the ADHD brain to operate like a neurotypical one. It shifts the focus to building supportive environments and using strategies that work *with* the ADHD brain, not against it.
+3. **Fosters Effective Strategies**: By removing the lens of pathology, we can focus on creating accommodations and leveraging strengths, rather than trying to force the ADHD brain to operate like a neurotypical one. It shifts the focus to building supportive environments and using strategies that work _with_ the ADHD brain, not against it.
 
 ## Related Concepts
 

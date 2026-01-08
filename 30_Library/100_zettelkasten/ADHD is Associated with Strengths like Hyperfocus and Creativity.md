@@ -4,13 +4,13 @@ confidence: "0.8"
 created: 2025-11-06T19:54:08Z
 epistemic: "fact"
 last_reviewed: "2025-11-06T00:00:00.000Z"
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: ""
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Creativity", "hyperfocus", "strengths", "TheHuman/Health/ADHD"]
+tags: ["hyperfocus", "strengths", "TheHuman/Creativity", "TheHuman/Health/ADHD"]
 title: ADHD is Associated with Strengths like Hyperfocus and Creativity
 type: "concept"
 uid: 

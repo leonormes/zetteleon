@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T15:03:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To specify a key property of atomic actions."
 review_interval: "90"
 see_also: ["[[Atomic Actions Have Four Core Properties]]", "[[Context Tags Make Actions Location and Tool Specific]]"]

@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-30T14:53:35+00:00
 epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2026-01-03T10:18:49+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define Public Key Infrastructure (PKI) through the lens of Type Theory and Data-Oriented Design, treating certificates as proofs and verification as type conversion."
 review_interval: "6 months"
-see_also: ["[[SoT - Parse, Don't Validate]]", "[[SoT - The Infrastructure Witness Pattern]]", "[[SoT - Digital Identity]]"]
+see_also: ["[[SoT - Digital Identity]]", "[[SoT - Parse, Don't Validate]]", "[[SoT - The Infrastructure Witness Pattern]]"]
 source_of_truth: []
 status: "stable"
-tags: ["cryptography", "pki", "rust", "type_theory", "SoftwareEngineering/Architecture"]
+tags: ["cryptography", "pki", "rust", "SoftwareEngineering/Architecture", "type_theory"]
 title: SoT - Type Theory of PKI and Cryptography
 type: "SoT"
 uid: 

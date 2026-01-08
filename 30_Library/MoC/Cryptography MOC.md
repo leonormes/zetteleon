@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: "Map of Content for Cryptography and Encryption concepts."
 review_interval: "1 year"
 see_also: ["[[MOC - Layer 3 Network Security Concepts]]"]
 source_of_truth: ["[[SoT - Cryptography and Encryption]]"]
 status: "stable"
-tags: ["cryptography", "type/moc", "SoftwareEngineering/Security"]
+tags: ["cryptography", "SoftwareEngineering/Security", "type/moc"]
 title: Cryptography MOC
 type: "map"
 uid: 

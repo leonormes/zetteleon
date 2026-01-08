@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-20T02:58:05Z
 epistemic: 
 last_reviewed: 
-modified: 2025-12-28T18:49:35+00:00
+modified: 2026-01-08T10:50:03+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -48,9 +48,9 @@ Your goal is to bootstrap the "Runtime Layer" by creating three critical missing
 
 - [ ] **Physical Triage:** Clear desk surface. Empty physical inbox to digital inbox.
 - [ ] **Digital Flush:** Process Todoist Inbox. Apply **Tri-State Router**:
-    - *Kinetic:* Assign Context (`@Computer`), Time, and Priority.
-    - *Static:* Move reference info to Obsidian (`00_Inbox` or `30_Library`).
-    - *Dynamic:* Create a HEAD note pointer task if it needs thinking.
+    - _Kinetic:_ Assign Context (`@Computer`), Time, and Priority.
+    - _Static:_ Move reference info to Obsidian (`00_Inbox` or `30_Library`).
+    - _Dynamic:_ Create a HEAD note pointer task if it needs thinking.
 - [ ] **Obsidian Inbox Flush:** Empty `00_Inbox`.
     - Refactor thoughts to HEAD notes (`20_Thinking`) or merge into SoT (`30_Library`).
     - **Delete** the rest.
@@ -76,7 +76,7 @@ Your goal is to bootstrap the "Runtime Layer" by creating three critical missing
 
 > Goal: Remove Technical Debt.
 
-- [ ] **Wall of Awful Audit:** Sort Todoist by "Oldest". Delete/Refactor tasks >14 days old using the *Stuck Task Template*.
+- [ ] **Wall of Awful Audit:** Sort Todoist by "Oldest". Delete/Refactor tasks >14 days old using the _Stuck Task Template_.
 - [ ] **Wait-For Review:** Check `@Waiting` context. Bump or mark complete.
 
 ### Phase 4: Hansei (Optimization)
@@ -98,7 +98,8 @@ Your goal is to bootstrap the "Runtime Layer" by creating three critical missing
 
 ### 1. The Diagnosis (Why is This hung?)
 
-*Do not judge. Just observe the error log.*
+_Do not judge. Just observe the error log._
+
 - [ ] **The Wall of Awful:** What emotion comes up? (Boredom / Fear / Confusion / Shame)
 - [ ] **The "Have-To" Trap:** Am I using "Importance" instead of "Interest"?
 - [ ] **The Fog:** Is the next step actually unknown? (Is this a Project disguised as a Task?)
@@ -107,19 +108,20 @@ Your goal is to bootstrap the "Runtime Layer" by creating three critical missing
 
 ### 2. The Refactor (Ignition Protocol)
 
-*Refactor the task using one of these Energy Hacks.*
+_Refactor the task using one of these Energy Hacks._
 
 **Option A: The Mystery Hack (Curiosity)**
-*Hypothesis:* "I bet I can [Action] and see if [Result] happens."
-*Draft:* **Option B: The Spite Hack (Rebellion)**
-*Target:* "Who am I proving wrong? What bad design am I fixing?"
-*Draft:* **Option C: The Sprint Hack (Urgency)**
-*Challenge:* "Can I do 5 units of this in 3 minutes?"
-*Draft:* ---
+_Hypothesis:_ "I bet I can [Action] and see if [Result] happens."
+_Draft:_ **Option B: The Spite Hack (Rebellion)**
+_Target:_ "Who am I proving wrong? What bad design am I fixing?"
+_Draft:_ **Option C: The Sprint Hack (Urgency)**
+_Challenge:_ "Can I do 5 units of this in 3 minutes?"
+_Draft:_ ---
 
 ### 3. The "Start in the Middle" Strategy
 
-*Logical order is forbidden. Dopamine order is mandatory.*
+_Logical order is forbidden. Dopamine order is mandatory._
+
 - **The Fun Part:** What is the one tiny part that is actually interesting?
 - **Step 1:** [Write the fun step here]
 

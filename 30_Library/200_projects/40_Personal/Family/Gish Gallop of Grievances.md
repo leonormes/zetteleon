@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-11T12:14:58Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:00+00:00
+modified: 2026-01-08T10:49:48+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -19,7 +19,7 @@ updated:
 
 I see that your insightful analysis of the "Invalidation Stalemate" has given way to another frustrating communications loop, which often happens when underlying issues of respect and safety haven't been resolved. The situation you describe—where an acknowledged mistake is repeatedly used as a "fact" to derail the present conversation—is a form of **"Weaponised Recall"** or **"Gish Gallop of Grievances."**
 
-The objective here is to introduce a **"Time Boundary"** to the conversation, forcing the focus back to the *current* topic and preventing a single, regrettable past comment from dictating the present reality.
+The objective here is to introduce a **"Time Boundary"** to the conversation, forcing the focus back to the _current_ topic and preventing a single, regrettable past comment from dictating the present reality.
 
 Here is the framework and a script for responding to the 'But You Said' attack.
 
@@ -31,7 +31,7 @@ When she brings up the past comment ("I think you are spoiled"):
 
 1. **Swiftly Validate the Past Correction:** Acknowledge the comment was made and immediately reaffirm your previous correction/apology. **Do not re-apologise or re-explain the original error.** This prevents the conversation from getting dragged back into the past.
 2. **Assert the Present Topic:** Explicitly name the current issue you need to discuss.
-3. **Set the Boundary:** State clearly that using the past comment now is derailing the progress you are *currently* trying to make.
+3. **Set the Boundary:** State clearly that using the past comment now is derailing the progress you are _currently_ trying to make.
 4. **Issue the Invitation:** Re-invite her to engage with the current, productive discussion.
 
 ---
@@ -65,9 +65,9 @@ This deflection often arises because she feels attacked and is using the deflect
 
 This happens because the agreement was likely a transactional concession (to end the fight) rather than a **transformational agreement** (a shared commitment).
 
-- **Your Solution:** **Codify the Agreement** and link it to the underlying *value* or *need*, not just the *action*.
-  - *Instead of:* "We agree I'll put the dishes away on Monday."
-  - *Try:* "We agree that **mutual respect** means we need a shared system to manage the kitchen, so the plan is that I'll put the dishes away every Monday, because **it supports our value of shared responsibility.**"
+- **Your Solution:** **Codify the Agreement** and link it to the underlying _value_ or _need_, not just the _action_.
+  - _Instead of:_ "We agree I'll put the dishes away on Monday."
+  - _Try:_ "We agree that **mutual respect** means we need a shared system to manage the kitchen, so the plan is that I'll put the dishes away every Monday, because **it supports our value of shared responsibility.**"
 - **During the Conversation:** Write down the agreement immediately and post it. This provides an external, objective reference point, making it harder to revert to the stock argument.
 
 ---
@@ -76,7 +76,7 @@ This happens because the agreement was likely a transactional concession (to end
 
 Your internal fear ("respecting her is a one-way street") is a sign that the fundamental issue of **reciprocity** has been lost.
 
-- **Reciprocity in Mutual Respect** is defined by $R \equiv \frac{A \rightarrow B}{B \rightarrow A}$, where $A \rightarrow B$ is Person A respecting Person B, and $B \rightarrow A$ is the reverse. It is not about *agreeing* with the other's feeling, but about treating their feeling as a **valid data point** that *must* be factored into the shared solution.
+- **Reciprocity in Mutual Respect** is defined by $R \equiv \frac{A \rightarrow B}{B \rightarrow A}$, where $A \rightarrow B$ is Person A respecting Person B, and $B \rightarrow A$ is the reverse. It is not about _agreeing_ with the other's feeling, but about treating their feeling as a **valid data point** that _must_ be factored into the shared solution.
 
 When you feel you are conceding too much, you can gently introduce the concept of **reciprocal effort** back into the conversation:
 

@@ -4,7 +4,7 @@ confidence:
 created: 2025-05-10T08:47:45Z
 epistemic: 
 last_reviewed: 
-modified: 2026-01-03T10:19:45+00:00
+modified: 2026-01-08T10:50:03+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -40,7 +40,7 @@ Using a minimal number of assumptions, steps, or conjectures.
 
 Not conceding many goals.
 
-A precise word for this concept is parsimonious. In psychology and neuroscience, the brain is often described as *parsimonious* in its use of energy and effort—meaning it tends to use the least amount necessary, sometimes at the expense of accuracy or completeness.
+A precise word for this concept is parsimonious. In psychology and neuroscience, the brain is often described as _parsimonious_ in its use of energy and effort—meaning it tends to use the least amount necessary, sometimes at the expense of accuracy or completeness.
 
 Other words and phrases that capture this idea include:
 
@@ -55,4 +55,4 @@ But parsimonious is the most commonly used term in scientific literature to desc
 
 For example:
 
-*"The human brain is parsimonious, often defaulting to energy-saving shortcuts even when they lead to errors or biases."*
+_"The human brain is parsimonious, often defaulting to energy-saving shortcuts even when they lead to errors or biases."_

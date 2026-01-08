@@ -4,13 +4,13 @@ confidence:
 created: 2025-07-16T17:30:01Z
 epistemic:
 last_reviewed:
-modified: 2026-01-03T10:18:46+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status:
-tags: [metacognition, "TheHuman/Motivation", self-awareness, "TheHuman/Health/ADHD", type/moc]
+tags: ["TheHuman/Health/ADHD", "TheHuman/Motivation", metacognition, self-awareness, type/moc]
 title: Metacognition Deficits in ADHD Impact Self-Awareness of Motivation
 type: map
 uid:

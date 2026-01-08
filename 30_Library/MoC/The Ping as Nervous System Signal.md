@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-17T10:05:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -40,7 +40,7 @@ The ping is the core learning signal in [[The Action-Reaction-Ping-Adjust Cycle 
 
 ## Practical Application
 
-Learning to act *despite* the ping, or even *because* of it, becomes a meta-skill for overcoming [[The Overthinking Loop Creates Mental Noise Not Clarity|overthinking loops]] and achieving personal growth. The discomfort signals meaningful engagement with reality rather than the false safety of endless preparation.
+Learning to act _despite_ the ping, or even _because_ of it, becomes a meta-skill for overcoming [[The Overthinking Loop Creates Mental Noise Not Clarity|overthinking loops]] and achieving personal growth. The discomfort signals meaningful engagement with reality rather than the false safety of endless preparation.
 
 ## Related Concepts
 

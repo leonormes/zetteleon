@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-30T00:00:00Z
 epistemic: "The canonical definition and history of the Cyberpunk genre."
 last_reviewed: "2025-12-30"
-modified: 2026-01-03T10:18:56+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "To define the Cyberpunk genre, its core conceptual framework, and its historical evolution."
 review_interval: "1 year"
-see_also: ["[[SoT - Cyberpunk Philosophy]]", "[[SoT - Cyberpunk Derivatives]]"]
+see_also: ["[[SoT - Cyberpunk Derivatives]]", "[[SoT - Cyberpunk Philosophy]]"]
 source_of_truth: ["[[00_Inbox/cyberpunk.md]]"]
 status: "stable"
-tags: ["genre", "scifi", "cyberpunk", "history"]
+tags: ["cyberpunk", "genre", "history", "scifi"]
 title: SoT - Cyberpunk Genre
 type: "SoT"
 uid: 
@@ -24,8 +24,8 @@ updated:
 
 ### 1.1 The Core Duality
 
-* **High-Tech:** Ubiquitous information technology, cybernetics, artificial intelligence, and virtual reality. The boundary between the organic and the synthetic is blurred.
-* **Low-Life:** Systemic poverty, urban decay, crime, drug use, and the struggle of the individual (often an anti-hero or mercenary) to survive outside the protection of the state or corporation.
+- **High-Tech:** Ubiquitous information technology, cybernetics, artificial intelligence, and virtual reality. The boundary between the organic and the synthetic is blurred.
+- **Low-Life:** Systemic poverty, urban decay, crime, drug use, and the struggle of the individual (often an anti-hero or mercenary) to survive outside the protection of the state or corporation.
 
 ---
 
@@ -35,28 +35,28 @@ The genre emerged not as a prediction, but as a reaction to the anxieties of the
 
 ### 2.1 Origins (Post-WWII - 1970s)
 
-* **Anxiety:** Post-war fears of mechanization and the Cold War.
-* **Literary Roots:** Philip K. Dick (*Do Androids Dream of Electric Sheep?*, 1968) introduced the "Empathy Metric"—empathy, not intelligence, as the defining human trait.
-* **Visual Roots:** *The Long Tomorrow* (1976) by Moebius and Dan O'Bannon established the visual archetype: vertical megacities and "technology-glazed neo-noir."
+- **Anxiety:** Post-war fears of mechanization and the Cold War.
+- **Literary Roots:** Philip K. Dick (_Do Androids Dream of Electric Sheep?_, 1968) introduced the "Empathy Metric"—empathy, not intelligence, as the defining human trait.
+- **Visual Roots:** _The Long Tomorrow_ (1976) by Moebius and Dan O'Bannon established the visual archetype: vertical megacities and "technology-glazed neo-noir."
 
 ### 2.2 Codification (The 1980s)
 
 Two seminal works formalized the genre:
 
-1. **The Aesthetic Anchor:** *Blade Runner* (1982). Ridley Scott defined the visual language: rain-soaked, neon-lit urban sprawl, mixing futurism with 1940s noir. See: [[SoT - Cyberpunk Case Study - Blade Runner]].
-2. **The Literary Framework:** *Neuromancer* (1984). William Gibson provided the lexicon ("cyberspace," "matrix") and the mental model of the "Console Cowboy." He described his work as a "hallucinatory take on contemporary reality."
+1. **The Aesthetic Anchor:** _Blade Runner_ (1982). Ridley Scott defined the visual language: rain-soaked, neon-lit urban sprawl, mixing futurism with 1940s noir. See: [[SoT - Cyberpunk Case Study - Blade Runner]].
+2. **The Literary Framework:** _Neuromancer_ (1984). William Gibson provided the lexicon ("cyberspace," "matrix") and the mental model of the "Console Cowboy." He described his work as a "hallucinatory take on contemporary reality."
 
 ### 2.3 Expansion (The 1990s)
 
 The genre moved from niche to mainstream as technology caught up with fiction (the rise of the Internet, VR, and personal computing).
 
-* **Software focus:** Shifted from hardware/robotics to the "software of the mind" (*Ghost in the Shell*, *The Matrix*).
-* **Gaming:** Interactive media (*Shadowrun*, *Syndicate*, *System Shock*) simulated the socio-economic logic of the genre (mercenary work, corporate warfare).
+- **Software focus:** Shifted from hardware/robotics to the "software of the mind" (_Ghost in the Shell_, _The Matrix_).
+- **Gaming:** Interactive media (_Shadowrun_, _Syndicate_, _System Shock_) simulated the socio-economic logic of the genre (mercenary work, corporate warfare).
 
 ---
 
 ## 3. Key Archetypes
 
-* **The Anti-Hero:** Flawed, cynical, operating in moral grey areas (Noir lineage).
-* **The Mega-Corp:** Multinational entities that have superseded governments (Zaibatsus).
-* **The Sprawl:** Endless, homogenized urban zones where borders have dissolved.
+- **The Anti-Hero:** Flawed, cynical, operating in moral grey areas (Noir lineage).
+- **The Mega-Corp:** Multinational entities that have superseded governments (Zaibatsus).
+- **The Sprawl:** Endless, homogenized urban zones where borders have dissolved.

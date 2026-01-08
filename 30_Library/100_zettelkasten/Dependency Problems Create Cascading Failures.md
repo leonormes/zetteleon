@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-10-31T12:36:00Z
 epistemic: "pattern"
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Explain systemic risks of tight coupling."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["SoftwareEngineering/Architecture", "risk"]
+tags: ["risk", "SoftwareEngineering/Architecture"]
 title: Dependency Problems Create Cascading Failures
 type: "concept"
 uid: 

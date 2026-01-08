@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-16T00:00:00Z
 epistemic: "theory"
 last_reviewed: "2025-12-16"
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "To define beliefs not as static truths, but as functional architecture (walls and doors) that define the \\\\\\\"search space\\\\\\\" of possibility for the mind."
 review_interval: "1 year"
 see_also: ["[[SoT - ADHD Self-Compassion & Strengths]]", "[[SoT - Cognitive Ambiguity and Deep Thinking]]", "[[SoT - Cognitive Refactoring (Neural Debugging)]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - The Explorer Mindset (Overcoming Imposter Syndrome)]]"]
@@ -17,7 +17,7 @@ uid:
 updated: 
 ---
 
-> A belief is not merely "true" or "false" in a vacuum; it is **Limiting** (shrinking the space) or **Empowering** (expanding the space). The ProdOS approach judges beliefs by their **Utility**: "*Does this belief expand my agency?*"
+> A belief is not merely "true" or "false" in a vacuum; it is **Limiting** (shrinking the space) or **Empowering** (expanding the space). The ProdOS approach judges beliefs by their **Utility**: "_Does this belief expand my agency?_"
 
 ## 2. The Concept of "Defining Spaces"
 
@@ -58,8 +58,8 @@ For neurodivergent minds, the most dangerous beliefs are Identity-Level Constrai
 In ProdOS, we adopt a **Pragmatic Truth** standard. We do not ask "Is this objectively true?" (often unknowable); we ask **"Is this useful?"**
 
 - **Example:** "I am an Explorer."
-  - *Is it true?* Maybe.
-  - *Is it useful?* Yes. It reframes failure as "Data Gathering," reducing shame and increasing resilience ([[SoT - Reframe Your Mindset From Pretender to Explorer]]). Therefore, we install this belief.
+  - _Is it true?_ Maybe.
+  - _Is it useful?_ Yes. It reframes failure as "Data Gathering," reducing shame and increasing resilience ([[SoT - Reframe Your Mindset From Pretender to Explorer]]). Therefore, we install this belief.
 
 ---
 

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-03T08:42:58Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:24+00:00
+modified: 2026-01-08T10:49:54+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -23,10 +23,10 @@ updated:
 
 - **OAuth 2.0 enables secure access delegation**: Apps can connect without sharing passwords, e.g., "Sign in with Google" or API integrations.
 - **Core Components**:
-  - *Resource Owner*: User whose data is being accessed.
-  - *Client Application*: App requesting the data.
-  - *Resource Server*: Where user data lives.
-  - *Authorization Server*: Trusted to issue tokens and validate users.
+  - _Resource Owner_: User whose data is being accessed.
+  - _Client Application_: App requesting the data.
+  - _Resource Server_: Where user data lives.
+  - _Authorization Server_: Trusted to issue tokens and validate users.
 - **Authorization Code Flow**:
   - Most common for web apps.
   - User is redirected to authorize and grant scopes (profile, photos, etc.).
@@ -48,4 +48,4 @@ updated:
   - Only use secure flows; avoid implicit flow and resource owner password credentials grant—they’re outdated and insecure.
   - Understand service-specific token and refresh behaviors, as implementation varies.
 
-**Bottom Line:** OAuth 2.0 lets registered apps act *on your behalf*—for both users and backend services—without ever exposing passwords. The right flow depends on the app and use case, but knowing all five standard flows prepares you for most integration scenarios.
+**Bottom Line:** OAuth 2.0 lets registered apps act _on your behalf_—for both users and backend services—without ever exposing passwords. The right flow depends on the app and use case, but knowing all five standard flows prepares you for most integration scenarios.

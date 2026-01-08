@@ -5,13 +5,13 @@ created: 2025-10-10T08:29:40Z
 epistemic: ""
 id: "20251008_Dynamic_Tool_Loadout"
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["Optimization", "Tools", "SoftwareEngineering/AI", "SoftwareEngineering/AI/agents"]
+tags: ["Optimization", "SoftwareEngineering/AI", "SoftwareEngineering/AI/agents", "Tools"]
 title: Dynamic Tool Loadout
 type: ""
 uid: 

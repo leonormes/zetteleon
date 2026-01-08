@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-12"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "Canonical definition and benefits of David Parnas's Information Hiding principle in software design."
 review_interval: "1 year"
 see_also: ["[[MOC - Software Architecture Principles]]", "[[SoT - Atomicity and Loose Coupling]]", "[[SoT - Code Duplication and Refactoring]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "design-principles", "modularity", "software-engineering"]
+tags: ["design-principles", "modularity", "SoftwareEngineering", "SoftwareEngineering/Architecture"]
 title: SoT - Information Hiding (Parnas)
 type: "SoT"
 uid: 
@@ -23,7 +23,7 @@ Parnas's approach contrasts with decomposition based on functional flowcharts. I
 
 - **Decision-Based Decomposition:** Modules should be organized around design decisions, not steps in processing.
 - **Encapsulation of Change:** Modules should hide decisions that are likely to change (e.g., file formats, hardware devices, complex algorithms).
-- **Abstract Interfaces:** Modules communicate through well-defined, stable interfaces that expose *what* the module does, but not *how* it does it.
+- **Abstract Interfaces:** Modules communicate through well-defined, stable interfaces that expose _what_ the module does, but not _how_ it does it.
 
 ---
 

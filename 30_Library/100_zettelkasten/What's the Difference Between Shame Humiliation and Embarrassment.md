@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-05-26T13:41:23Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -38,9 +38,9 @@ Here's a table summarising the key distinctions:
 
 In essence:
 
-- You feel **shame** when you believe *you are* bad.
-- You feel **humiliation** when you feel *others have unjustly made you appear* bad or insignificant.
-- You feel **embarrassment** when you believe *you have done something* awkward or socially unacceptable.
+- You feel **shame** when you believe _you are_ bad.
+- You feel **humiliation** when you feel _others have unjustly made you appear_ bad or insignificant.
+- You feel **embarrassment** when you believe _you have done something_ awkward or socially unacceptable.
 
 [[I have only recently started to come to terms emotionally with ADHD]]
 

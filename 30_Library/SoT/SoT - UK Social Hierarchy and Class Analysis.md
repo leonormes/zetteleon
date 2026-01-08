@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: "Grounded in the Great British Class Survey (GBCS) and Bourdieu's Capital Theory."
 last_reviewed: "2025-12-15"
-modified: 2026-01-03T10:18:49+00:00
+modified: 2026-01-08T10:49:39+00:00
 purpose: "A comprehensive analysis of the contemporary UK class structure, integrating the 7-class GBCS model with Weberian and Bourdieusian sociological frameworks."
 review_interval: "1 year"
 see_also: ["[[SoT - Social Stratification]]"]
@@ -19,7 +19,7 @@ updated:
 
 ## 2. Theoretical Foundations
 
-To understand *why* the hierarchy exists, we apply key sociological frameworks:
+To understand _why_ the hierarchy exists, we apply key sociological frameworks:
 
 ### A. Weber's Triad (The Dimensions)
 
@@ -45,7 +45,7 @@ Based on the Great British Class Survey (GBCS), the UK population is stratified 
 ### I. The Elites
 
 1. **The Elite:** High capital across all three dimensions. Wealthy, highly educated, and socially connected.
-    - *Symbolic Apex:* **The Monarchy** exists outside this scale as the ultimate source of Status (Social Honour), independent of market forces.
+    - _Symbolic Apex:_ **The Monarchy** exists outside this scale as the ultimate source of Status (Social Honour), independent of market forces.
 
 ### II. The Established Middle
 

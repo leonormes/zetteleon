@@ -5,14 +5,13 @@ confidence:
 created: 2025-12-23T09:36:41Z
 epistemic:
 last_reviewed:
-modified: 2026-01-03T10:19:44+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose:
 review_interval:
 see_also: []
 source_of_truth: []
 status: archived
-tags:
-  - state/thinking
+tags: [state/thinking]
 title: HEAD - bowel screening
 type: head
 uid:

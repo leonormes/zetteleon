@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-11-18T14:32:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "To define the foundational principle of proactive resource allocation in the YNAB method."
 review_interval: "6 months"
 see_also: ["[[Embrace Your True Expenses (YNAB Rule 2)]]", "[[Reactive Spending Creates Financial Stress]]"]
@@ -21,7 +21,7 @@ The foundational principle of the YNAB method is to **"Give Every Dollar (or Pou
 
 ## 🧠 The Emotional Shift: From Guessing to Intentionality
 
-This rule transforms budgeting from a reactive chore into an intentional act of prioritisation. It replaces the stressful question *"Can I afford this?"* with the empowering question **"What do I want my money to do for me?"**
+This rule transforms budgeting from a reactive chore into an intentional act of prioritisation. It replaces the stressful question _"Can I afford this?"_ with the empowering question **"What do I want my money to do for me?"**
 
 - **Eliminating Mental Accounting:** By assigning specific "digital envelopes," you prevent the fallacy that a single pool of savings can cover multiple conflicting goals (e.g., a holiday vs. a car repair).
 - **Spendfulness:** Aligning spending with true values, allowing for **guilt-free spending** on prioritised joys.

@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-26T17:19:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:26+00:00
+modified: 2026-01-08T10:49:55+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["labels", "network-policy", "SoftwareEngineering/Security", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes", "traffic-control"]
+tags: ["labels", "network-policy", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes", "SoftwareEngineering/Security", "traffic-control"]
 title: Network policies control traffic flow between pods using labels and namespaces
 type: "Fact"
 uid: 

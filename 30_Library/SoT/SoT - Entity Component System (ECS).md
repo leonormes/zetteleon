@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "architecture"
 last_reviewed: "2025-12-31"
-modified: 2026-01-03T10:18:55+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "To define the ECS architecture as the standard framework for Data-Oriented Programming."
 review_interval: "1 year"
 see_also: ["[[SoT - Data-Oriented Programming (DOP)]]", "[[SoT - Rust Language]]"]
 source_of_truth: []
 status: "stable"
-tags: ["ecs", "SoftwareEngineering/Architecture", "game_development", "rust"]
+tags: ["ecs", "game_development", "rust", "SoftwareEngineering/Architecture"]
 title: SoT - Entity Component System (ECS)
 type: "SoT"
 uid: 
@@ -56,9 +56,9 @@ fn movement_system(mut query: Query<(&mut Position, &Velocity)>) {
 
 Modern ECS engines (like Bevy, Flecs) use **Archetypes** to guarantee memory contiguity.
 
-* **Archetype:** A unique combination of components (e.g., `[Pos, Vel]` vs `[Pos, Vel, Name]`).
-* **Storage:** Entities of the same Archetype are stored in specific "Tables" (tightly packed arrays).
-* **Transition:** Adding a component moves the entity from "Table A" to "Table B" (memcpy).
+- **Archetype:** A unique combination of components (e.g., `[Pos, Vel]` vs `[Pos, Vel, Name]`).
+- **Storage:** Entities of the same Archetype are stored in specific "Tables" (tightly packed arrays).
+- **Transition:** Adding a component moves the entity from "Table A" to "Table B" (memcpy).
 
 ## 5. Benefits over OOP
 
@@ -68,5 +68,5 @@ Modern ECS engines (like Bevy, Flecs) use **Archetypes** to guarantee memory con
 
 ## 6. Trade-offs
 
-* **Rigidity:** Easy to add global behavior (new System). Hard to handle specific interactions between two specific entities (e.g., "If *this* Key unlocks *that* Door").
-* **Discovery:** Harder to know "what can a Player do?" because logic is scattered across independent Systems.
+- **Rigidity:** Easy to add global behavior (new System). Hard to handle specific interactions between two specific entities (e.g., "If _this_ Key unlocks _that_ Door").
+- **Discovery:** Harder to know "what can a Player do?" because logic is scattered across independent Systems.

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-04T12:23:40Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -17,7 +17,7 @@ uid:
 updated: 
 ---
 
-*The Goal: To capture the raw energy of a thought without judgment.*
+_The Goal: To capture the raw energy of a thought without judgment._
 
 This is the initial, messy, and essential act of getting a thought out of your head and onto the page. It overcomes the inertia and "dullness" of translating profound feelings into linear text.
 

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-27T21:22:10Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:30+00:00
+modified: 2026-01-07T21:24:48+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -26,18 +26,23 @@ Below is a self‑contained, “RFC‑style” document that formalizes your ide
 
 ## RFC-00XX: Deterministic Config Derivation for Terraform (DCD-TF)
 
-**Status:** Draft
-**Authors:** *You (Leon Ormes)*
-**Reviewers:** *TBD (e.g., Platform Team)*
-**Created:** 2025‑10‑27
-**Target Release:** *TBD*
-**Last Updated:** 2025‑10‑27
+Status: Draft
+
+Authors: You (Leon Ormes)
+
+Reviewers: TBD (e.g., Platform Team)
+
+Created: 2025‑10‑27
+
+Target Release: TBD
+
+Last Updated: 2025‑10‑27
 
 ### 0. Abstract
 
-This RFC proposes a **Deterministic Config Derivation (DCD)** pattern for Terraform-based infrastructure. The goal is to **minimize the amount of human-supplied configuration**, and instead **derive** the majority of environmentand naming-specific values from a small, validated **Seed Config** (e.g., `base_domain`, `env`, `region`, `service_id`, `tenant`). The derivation logic, implemented as a **Builder**, produces consistent DNS hostnames, resource names, tags/labels, certificate SANs, and other infra identifiers.
+This RFC proposes a Deterministic Config Derivation (DCD) pattern for Terraform-based infrastructure. The goal is to minimize the amount of human-supplied configuration, and instead derive the majority of environmentand naming-specific values from a small, validated Seed Config (e.g., `base_domain`, `env`, `region`, `service_id`, `tenant`). The derivation logic, implemented as a Builder, produces consistent DNS hostnames, resource names, tags/labels, certificate SANs, and other infra identifiers.
 
-The approach aims to make config changes **safe**, **change‑evident**, and **automated** while reducing fragility caused by typos and hand-crafted strings. The Builder is validated via tests and policy checks so that the “surface area” of human input is small, declarative, and resilient.
+The approach aims to make config changes safe, change‑evident, and automated while reducing fragility caused by typos and hand-crafted strings. The Builder is validated via tests and policy checks so that the “surface area” of human input is small, declarative, and resilient.
 
 ---
 
@@ -52,21 +57,21 @@ Infrastructure deployments often fail due to brittle configuration:
 
 We need an approach where:
 
-1. The **human input** is minimized and **strongly validated**.
-2. Most values are **derived deterministically** from a small Seed Config.
-3. **Secrets** are referenced safely and excluded from state/repo while still being **change‑evident**.
-4. **Policies** enforce correctness (pre-commit, CI, and policy-as-code).
-5. **DNS and naming** follow a protocol that’s derived from the Seed, not hand-written.
+1. The human input is minimized and strongly validated.
+2. Most values are derived deterministically from a small Seed Config.
+3. Secrets are referenced safely and excluded from state/repo while still being change‑evident.
+4. Policies enforce correctness (pre-commit, CI, and policy-as-code).
+5. DNS and naming follow a protocol that’s derived from the Seed, not hand-written.
 
 ---
 
 ### 2. Goals
 
-- **Minimal Inputs:** A compact **Seed Config** (e.g., `org`, `tenant`, `env`, `region`, `service_id`, `base_domain`) from which most infrastructure values are derived.
-- **Determinism:** Reproducible string generation (names, tags, DNS labels), including truncation and stable hash suffixing.
-- **Separation:** Configuration independent from Terraform logic; modules consume derived values, not arbitrary strings.
-- **Safety & Evidence:** Secrets never committed or stored in Terraform state; changes are visible via checksums and plan diffs.
-- **Policy & Testing:** Schema validation, OPA/Conftest policies, static analysis, unit/property tests for the Builder, and plan gates in CI.
+- Minimal Inputs: A compact Seed Config (e.g., `org`, `tenant`, `env`, `region`, `service_id`, `base_domain`) from which most infrastructure values are derived.
+- Determinism: Reproducible string generation (names, tags, DNS labels), including truncation and stable hash suffixing.
+- Separation: Configuration independent from Terraform logic; modules consume derived values, not arbitrary strings.
+- Safety & Evidence: Secrets never committed or stored in Terraform state; changes are visible via checksums and plan diffs.
+- Policy & Testing: Schema validation, OPA/Conftest policies, static analysis, unit/property tests for the Builder, and plan gates in CI.
 
 #### Non‑Goals
 
@@ -77,10 +82,10 @@ We need an approach where:
 
 ### 3. Terminology
 
-- **Seed Config:** Minimal, typed inputs supplied by humans or a higher-level orchestrator.
-- **Builder:** Code + Terraform locals that deterministically derive all secondary values.
-- **Derivation Grammar:** Formal rules for generating identifiers (e.g., hostnames) from Seed fields.
-- **Change‑Evident:** Changes show up in PR diffs or plan artifacts (e.g., checksum updates), without leaking secrets.
+- Seed Config: Minimal, typed inputs supplied by humans or a higher-level orchestrator.
+- Builder: Code + Terraform locals that deterministically derive all secondary values.
+- Derivation Grammar: Formal rules for generating identifiers (e.g., hostnames) from Seed fields.
+- Change‑Evident: Changes show up in PR diffs or plan artifacts (e.g., checksum updates), without leaking secrets.
 
 ---
 
@@ -101,32 +106,32 @@ base_domain:   "acme.example"  # company apex or subdomain root
 zone_type:     "public"        # public|private (DNS split-horizon)
 ```
 
-**Optional:** `is_internal`, `compliance_tier`, `data_classification`, `az_count`, `shard`, `cluster_id`, etc.
+Optional: `is_internal`, `compliance_tier`, `data_classification`, `az_count`, `shard`, `cluster_id`, etc.
 
 #### 4.2 Builder Responsibilities
 
-1. **Name Derivation**
+1. Name Derivation
    - Resource names, tags/labels, role names, KMS aliases, bucket/container names
    - Deterministic truncation and hashing to respect provider limits
-2. **DNS Derivation**
+1. DNS Derivation
    - FQDNs for services and tiers
    - Split-horizon DNS (public/private zones) and zone attachment
    - Cert SANs for ACME/ACM/Key Vault issuance
-3. **Secret References**
+1. Secret References
    - Use references to external secret managers (Vault, AWS Secrets Manager, Azure Key Vault)
    - Compute change‑evident checksums for PRs without revealing values
-4. **Validation & Policies**
+1. Validation & Policies
    - JSON Schema/OPA validation in pre-commit & CI
    - Enforce allowed characters, length, reserved words, and disallowed mutations in prod
-5. **Outputs for Modules**
+1. Outputs for Modules
    - A compact map of derived values that Terraform modules consume
 
 #### 4.3 Terraform Integration
 
-- **Root Module** takes Seed Config; **locals** compute derived values via the Builder.
-- **Child Modules** accept a single map `derived` and reference fields internally.
-- **No Raw Strings:** Modules should avoid re-deriving names; consume `derived` consistently.
-- **Provider-Specific Layers:** If multi-cloud, keep providers in submodules but preserve the same input contract.
+- Root Module takes Seed Config; locals compute derived values via the Builder.
+- Child Modules accept a single map `derived` and reference fields internally.
+- No Raw Strings: Modules should avoid re-deriving names; consume `derived` consistently.
+- Provider-Specific Layers: If multi-cloud, keep providers in submodules but preserve the same input contract.
 
 ---
 
@@ -134,9 +139,9 @@ zone_type:     "public"        # public|private (DNS split-horizon)
 
 #### 5.1 Naming Grammar (BNF-like)
 
-We define a canonical **Resource ID** grammar and a **Hostname** grammar.
+We define a canonical Resource ID grammar and a Hostname grammar.
 
-**Resource ID (generic):**
+Resource ID (generic):
 
 ```sh
 resource-id    := segment { "-" segment } [ "-" hash-suffix ]
@@ -150,25 +155,25 @@ Construction rule (before truncation/rehash):
 resource-id := org "-" tenant "-" env "-" region "-" service_id [ "-" tier ]
 ```
 
-**Hostname (DNS label-safe):**
+Hostname (DNS label-safe):
 
 ```sh
-host-label    := [a-z0-9] ( [a-z0-9-]* [a-z0-9] )?
+host-label    := [a-z0-9] ( [a-z0-9-] [a-z0-9] )?
 hostname      := svc "." tier "." env "." region "." base_domain
 ```
 
-**Limits & Normalization Rules:**
+Limits & Normalization Rules:
 
 - Lowercase alphanumerics and hyphens only.
 - Collapse consecutive hyphens, strip leading/trailing hyphens.
 - Per provider length caps:
   - DNS label ≤ 63 chars; full hostname ≤ 253 chars.
   - S3 buckets ≤ 63 chars; Azure Storage containers ≤ 63; IAM role names ≤ 64; Key aliases ≤ 256; etc.
-- **Truncation policy:** If exceeded, truncate from left-to-right at inflection points, then append `-` + `fnv1a_32(seed)[:6]`.
+- Truncation policy: If exceeded, truncate from left-to-right at inflection points, then append `-` + `fnv1a_32(seed)[:6]`.
 
 #### 5.2 Deterministic Hash
 
-Use a stable, fast hash (e.g., **FNV‑1a 32** or **XXH32**) over the **canonical seed string**:
+Use a stable, fast hash (e.g., FNV‑1a 32 or XXH32) over the canonical seed string:
 
 ```sh
 seed-string := org "|" tenant "|" env "|" region "|" service_id "|" tier "|" base_domain
@@ -220,7 +225,7 @@ variable "seed" {
 }
 ```
 
-**Derived outputs (partial):**
+Derived outputs (partial):
 
 ```hcl
 output "derived" {
@@ -263,7 +268,7 @@ output "derived" {
 }
 ```
 
-**Usage in a workload module:**
+Usage in a workload module:
 
 ```hcl
 module "dcd" {
@@ -287,28 +292,28 @@ module "service_runtime" {
 
 #### 5.5 DNS Hostnaming Service
 
-- **Protocol:** `svc.tier.env.region.base_domain`
-- **Split-Horizon:** If `zone_type == "private"`, create an internal zone (e.g., Route 53 Private Hosted Zone / Azure Private DNS); otherwise public zone.
-- **Records:** Provide A/AAAA (or ALIAS) for LBs, CNAMEs for services, and optionally wildcard `*.tier.env.region.base_domain` for dynamic sub-services.
-- **Certificates:** Issue via ACM/Let’s Encrypt/Key Vault using `cert_sans` from `derived`, with DNS-01 validation automated through the same zone.
-- **TTL Defaults:** 60s for dynamic endpoints; 300s for stable edges (configurable).
+- Protocol: `svc.tier.env.region.base_domain`
+- Split-Horizon: If `zone_type == "private"`, create an internal zone (e.g., Route 53 Private Hosted Zone / Azure Private DNS); otherwise public zone.
+- Records: Provide A/AAAA (or ALIAS) for LBs, CNAMEs for services, and optionally wildcard `.tier.env.region.base_domain` for dynamic sub-services.
+- Certificates: Issue via ACM/Let’s Encrypt/Key Vault using `cert_sans` from `derived`, with DNS-01 validation automated through the same zone.
+- TTL Defaults: 60s for dynamic endpoints; 300s for stable edges (configurable).
 
 #### 5.6 Secrets Handling (Change‑Evident, Safe)
 
-- **Storage:** External secrets only
+- Storage: External secrets only
   - AWS: Secrets Manager / SSM Parameter Store
   - Azure: Key Vault
   - (Optionally) Vault
-- **In Terraform:** Use data sources to read references (not values) at apply-time; **avoid** storing secret values in state.
-- **PR Evidence:** Store **HMAC/SHA256 checksums** of secret values (or versions) in a generated manifest (e.g., `.dcd/manifest.json`) so PRs show that a secret changed without revealing content.
-- **Encryption at Rest:** Use KMS/Key Vault keys with clear key alias conventions derived from Seed.
-- **No Secrets in Repo:** Enforce via pre-commit secret scanners (e.g., `gitleaks`) and CI.
+- In Terraform: Use data sources to read references (not values) at apply-time; avoid storing secret values in state.
+- PR Evidence: Store HMAC/SHA256 checksums of secret values (or versions) in a generated manifest (e.g., `.dcd/manifest.json`) so PRs show that a secret changed without revealing content.
+- Encryption at Rest: Use KMS/Key Vault keys with clear key alias conventions derived from Seed.
+- No Secrets in Repo: Enforce via pre-commit secret scanners (e.g., `gitleaks`) and CI.
 
 #### 5.7 Policy & Validation
 
-- **Pre-commit:** JSON schema lint of Seed; `terraform fmt/validate`; `tflint`; `trivy iac`/`checkov`; `conftest` (OPA) for org policies; `gitleaks`.
-- **CI Gates:** Run full plan; attach plan file to PR; block on policy violations; require signed commits.
-- **Prod Safety:** Disallow destructive changes in `env == prod` without a `break-glass` label and approval.
+- Pre-commit: JSON schema lint of Seed; `terraform fmt/validate`; `tflint`; `trivy iac`/`checkov`; `conftest` (OPA) for org policies; `gitleaks`.
+- CI Gates: Run full plan; attach plan file to PR; block on policy violations; require signed commits.
+- Prod Safety: Disallow destructive changes in `env == prod` without a `break-glass` label and approval.
 
 ---
 
@@ -385,7 +390,7 @@ locals {
 
 #### 6.3 Example Seed → Derived
 
-**Seed (**`seeds/payments-api.prod.eu-west-1.yaml`):
+Seed (`seeds/payments-api.prod.eu-west-1.yaml`):
 
 ```yaml
 org: acme
@@ -398,7 +403,7 @@ base_domain: acme.example
 zone_type: public
 ```
 
-**Key Derived:**
+Key Derived:
 
 - `name`: `acme-core-prod-eu-west-1-payments-api-app`
 - `host_fqdn`: `payments-api.app.prod.eu-west-1.acme.example.`
@@ -462,7 +467,7 @@ export function derive(seed: Seed) {
 }
 ```
 
-**Property-based tests (fast-check) recommend:**
+Property-based tests (fast-check) recommend:
 
 - Output always lower-case; no invalid chars; length caps obeyed; hash suffix stable; idempotency on same Seed.
 
@@ -472,7 +477,7 @@ export function derive(seed: Seed) {
 name: infra-plan
 on:
   pull_request:
-    paths: ["infra/**"]
+    paths: ["infra/"]
 jobs:
   plan:
     runs-on: ubuntu-latest
@@ -527,20 +532,20 @@ repos:
 
 ### 7. Security Considerations
 
-- **Secrets Never in State/Repo:** Only references. Verify `sensitive = true` on outputs; audit with scanners.
-- **KMS/Key Vault:** Derived aliases (e.g., `alias/acme-prod-eu-west-1-payments`) with key rotation policy.
-- **DNS Ownership Proof:** ACME DNS‑01 with least privilege for CI roles.
-- **Signed Artifacts:** Enable signed commits/tags; verify `.terraform.lock.hcl` changes in PR.
-- **RBAC:** Tie IAM roles and Kubernetes RBAC to derived identifiers to maintain least privilege and traceability.
+- Secrets Never in State/Repo: Only references. Verify `sensitive = true` on outputs; audit with scanners.
+- KMS/Key Vault: Derived aliases (e.g., `alias/acme-prod-eu-west-1-payments`) with key rotation policy.
+- DNS Ownership Proof: ACME DNS‑01 with least privilege for CI roles.
+- Signed Artifacts: Enable signed commits/tags; verify `.terraform.lock.hcl` changes in PR.
+- RBAC: Tie IAM roles and Kubernetes RBAC to derived identifiers to maintain least privilege and traceability.
 
 ---
 
 ### 8. Operational Considerations
 
-- **Drift Detection:** Scheduled `terraform plan` runs; alert on divergence.
-- **Blue/Green & Ephemerals:** `env = ephemeral-<id>` creates isolated namespaces; TTL defaults lower; automatic teardown policies.
-- **Incident Hygiene:** Because identifiers are deterministic, it’s faster to grep logs and correlate resources across systems.
-- **Documented Escape Hatches:** Allow a `derived_overrides` map for rare exceptions (e.g., third‑party name constraints), but log and gate via policy.
+- Drift Detection: Scheduled `terraform plan` runs; alert on divergence.
+- Blue/Green & Ephemerals: `env = ephemeral-<id>` creates isolated namespaces; TTL defaults lower; automatic teardown policies.
+- Incident Hygiene: Because identifiers are deterministic, it’s faster to grep logs and correlate resources across systems.
+- Documented Escape Hatches: Allow a `derived_overrides` map for rare exceptions (e.g., third‑party name constraints), but log and gate via policy.
 
 ---
 
@@ -557,17 +562,17 @@ repos:
 
 ### 10. Alternatives Considered
 
-- **Free-form variables everywhere:** Flexible but brittle; high cognitive load.
-- **Terragrunt-only approach:** Helpful for orchestration, but still benefits from a deterministic naming Builder.
-- **Global Templates:** Often too rigid across clouds; this RFC’s Builder is composable per provider.
+- Free-form variables everywhere: Flexible but brittle; high cognitive load.
+- Terragrunt-only approach: Helpful for orchestration, but still benefits from a deterministic naming Builder.
+- Global Templates: Often too rigid across clouds; this RFC’s Builder is composable per provider.
 
 ---
 
 ### 11. Open Questions
 
 1. Which stable hash (FNV‑1a/XXH32) do we standardize on across languages?
-2. Do we enforce a **single** hostname pattern or allow a library of patterns (edge/internal/data-plane)?
-3. Where should the **secret checksum manifest** live and how is it protected?
+2. Do we enforce a single hostname pattern or allow a library of patterns (edge/internal/data-plane)?
+3. Where should the secret checksum manifest live and how is it protected?
 4. What’s the threshold for truncation vs. abbreviations (e.g., `eu-west-1` → `euw1`)?
 
 ---
@@ -601,10 +606,10 @@ variable "derived" {
 
 ### 13. Appendix B: Developer Experience (DX)
 
-- **One file to edit:** `seeds/<service>.<env>.<region>.yaml`
-- **Fast feedback:** `cdctl preview seeds/foo.stage.eu-west-1.yaml` → prints derived names/DNS before any `plan`
-- **Guardrails:** Pre-commit stops typos; CI blocks unsafe plans
-- **TDD-friendly:** Builder has unit + property tests; Terraform modules have integration tests (e.g., `terratest`)
+- One file to edit: `seeds/<service>.<env>.<region>.yaml`
+- Fast feedback: `cdctl preview seeds/foo.stage.eu-west-1.yaml` → prints derived names/DNS before any `plan`
+- Guardrails: Pre-commit stops typos; CI blocks unsafe plans
+- TDD-friendly: Builder has unit + property tests; Terraform modules have integration tests (e.g., `terratest`)
 
 ---
 
@@ -616,17 +621,17 @@ By constraining human input to a tightly validated Seed and deriving everything 
 
 ### Suggested Next Steps
 
-1. **Pick the Seed fields** you want to standardize (above defaults are a good start).
-2. **Create the Builder module** (`modules/dcd`) and the **TypeScript CLI** for validation/preview.
-3. **Add pre-commit & CI gates** from this RFC.
-4. **Pilot** on one service (e.g., `payments-api` in `dev`), then roll out progressively.
+1. Pick the Seed fields you want to standardize (above defaults are a good start).
+2. Create the Builder module (`modules/dcd`) and the TypeScript CLI for validation/preview.
+3. Add pre-commit & CI gates from this RFC.
+4. Pilot on one service (e.g., `payments-api` in `dev`), then roll out progressively.
 
 ---
 
 Would you like me to:
 
-- generate a working **Terraform module skeleton** for `modules/dcd` and `modules/dns`, or
-- scaffold the **TypeScript CLI (**`cdctl`) with tests so you can iterate TDD-style?
+- generate a working Terraform module skeleton for `modules/dcd` and `modules/dns`, or
+- scaffold the TypeScript CLI (`cdctl`) with tests so you can iterate TDD-style?
   I am a developer. I have always tried to make robust flexible code. I have this sense that loosely coupled code is more resilient. But the config for a particular app deployment is so delicate and fragile. 1 wrong character in a string, 1 byte wrong in some encrypted secret cause the whole system to stop working. I would like to be able to separate out config in my terraform IAC and keep it safe and change evident. Having as much automated as possible. For instance, having a DNS Hostnaming service naming protocol that means I supply minimal config, like the base domain and the code generates the rest based on it. That way, once the builder code is validated as correct my input is small and so less error prone. Formalise this idea for me and describe it in a RFC type doc
 
 Title: RFC-XXXX—Declarative, Generative Configuration for Robust Terraform Deployments

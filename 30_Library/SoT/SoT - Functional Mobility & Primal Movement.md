@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-22T00:00:00Z
 epistemic: "Synthesized from Animal Flow, GMB Fitness, and Phantom Core methodologies."
 last_reviewed: "2025-12-22"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "To document the theoretical framework of Functional Mobility, Isometrics, and Primal Movement as a system for joint health and longevity."
 review_interval: "6 months"
 see_also: ["[[SoT - Physical Health and Vitality]]", "[[SoT - Protocol - Daily Mobility Foundation]]"]
@@ -60,9 +60,9 @@ Isometrics—creating tension without movement—are essential for joint stabili
 Propper alignment is not aesthetic; it is mechanical efficiency.
 
 - **The Energy Leak:** Misalignment causes force to bypass muscles and dump into joints/tendons (e.g., knee valgus).
-- **Dynamic Alignment:** The goal is maintaining structure *in motion*.
-    - *Shoulders:* "Packed" (depressed and retracted) during crawling.
-    - *Spine:* Thoracic extension to counter "Tech Neck."
+- **Dynamic Alignment:** The goal is maintaining structure _in motion_.
+    - _Shoulders:_ "Packed" (depressed and retracted) during crawling.
+    - _Spine:_ Thoracic extension to counter "Tech Neck."
 
 ---
 
@@ -95,6 +95,6 @@ The fundamental transition unit of the system.
 
 - **Function:** Transfers the body between Anterior (Beast) and Posterior (Crab) base structures.
 - **Biomechanical Logic:**
-    - **Axis:** Rotation occurs on the *ball* of the foot and opposing hand.
-    - **Path:** The leg travels *under* the body (Low Centre of Mass).
+    - **Axis:** Rotation occurs on the _ball_ of the foot and opposing hand.
+    - **Path:** The leg travels _under_ the body (Low Centre of Mass).
     - **Safety:** Hips must stay low (below knee height) to protect the lumbar spine.

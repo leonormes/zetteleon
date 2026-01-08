@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T12:00:02Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To describe the neurobiological basis of the human brain's predisposition for pattern seeking."
 review_interval: "90"
 see_also: ["[[Apophenia is the Tendency to Perceive Patterns in Random Data]]", "[[Pattern Recognition is the Cognitive Process of Organizing Sensory Input]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["neocortex", "TheHuman/Neuroscience", "TheHuman/Cognition"]
+tags: ["neocortex", "TheHuman/Cognition", "TheHuman/Neuroscience"]
 title: The Brain is a Pattern-Seeking Engine
 type: "concept"
 uid: 

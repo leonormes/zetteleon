@@ -6,14 +6,14 @@ criteria: "Atomic notes defining the layers of change, the role of identity, and
 epistemic: ""
 exclusions: "Specific habit-formation techniques (e.g., habit stacking) unless directly related to identity."
 last_reviewed: ""
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: ""
 review_interval: ""
 scope: "The relationship between habits and identity as the core driver of behavior change."
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["behavior-change", "TheHuman/Identity", "TheHuman/Habits", "TheHuman/Psychology"]
+tags: ["behavior-change", "TheHuman/Habits", "TheHuman/Identity", "TheHuman/Psychology"]
 title: MOC - The Relationship Between Habits and Identity
 type: "map"
 uid: 

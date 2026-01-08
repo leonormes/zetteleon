@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-06T20:01:02Z
 epistemic: "model"
 last_reviewed: "2025-11-06"
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To define the internal gaps in group understanding caused by bias and poor communication."
 review_interval: "90"
 see_also: []
@@ -23,5 +23,5 @@ updated:
 
 **Details:**
 
-- **The Certainty Gap:** This is the gap between a team's *perceived* understanding and their *actual* collective knowledge. It is a measure of overconfidence, often driven by cognitive biases like the Dunning-Kruger effect or groupthink.
-- **The Synthesis Gap:** This is the gap between a team's total *potential* knowledge and the knowledge they actually manage to synthesize and use. This gap is created by process losses, such as inefficient communication, poor documentation, or a failure to integrate diverse perspectives.
+- **The Certainty Gap:** This is the gap between a team's _perceived_ understanding and their _actual_ collective knowledge. It is a measure of overconfidence, often driven by cognitive biases like the Dunning-Kruger effect or groupthink.
+- **The Synthesis Gap:** This is the gap between a team's total _potential_ knowledge and the knowledge they actually manage to synthesize and use. This gap is created by process losses, such as inefficient communication, poor documentation, or a failure to integrate diverse perspectives.

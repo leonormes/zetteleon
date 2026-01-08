@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-07-16T17:30:01Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Explain how dopamine dysregulation underlies ADHD motivation patterns and the interest cycle."
 review_interval: "90"
 see_also: ["[[ADHD Brain Constantly Scans for Dopamine-Rewarding Stimuli]]", "[[ADHD Brain is a Novelty-Seeking Machine]]", "[[ADHD Hyperfixation-Burnout Cycle]]", "[[Dopamine Deficit Follows Hyperfixation Crash]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "TheHuman/Motivation", "TheHuman/Neuroscience", "TheHuman/Health/ADHD"]
+tags: ["dopamine", "TheHuman/Health/ADHD", "TheHuman/Motivation", "TheHuman/Neuroscience"]
 title: Dopamine Dysregulation is a Key Factor in ADHD Motivation
 type: "concept"
 uid: 

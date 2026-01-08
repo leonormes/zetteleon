@@ -1,16 +1,16 @@
 ---
-aliases: ["Database Internals", "Storage Engines", "B-Trees vs LSM", "MVCC", "Query Planning"]
+aliases: ["B-Trees vs LSM", "Database Internals", "MVCC", "Query Planning", "Storage Engines"]
 confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "knowledge"
 last_reviewed: "2025-12-31"
-modified: 2026-01-01T16:30:09+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "To define the subset of Database Theory that applies directly to High-Performance Data-Oriented Programming."
 review_interval: "6 months"
-see_also: ["[[SoT - Data-Oriented Programming (DOP)]]", "[[SoT - Data-Centric Software Engineering]]"]
+see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - Data-Oriented Programming (DOP)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["database", "internals", "performance", "SoftwareEngineering/Architecture", "learning"]
+tags: ["database", "internals", "learning", "performance", "SoftwareEngineering/Architecture"]
 title: SoT - Database Internals for Systems Programmers
 type: "SoT"
 uid: 
@@ -33,8 +33,8 @@ Databases don't read bytes; they read **Pages** (usually 4KB or 8KB blocks). Thi
 
 How do you pack variable-length data (strings) into a fixed-size block without fragmentation?
 
-* **Technique:** Grow headers from the front, data from the back.
-* **DOP Application:** Writing custom memory allocators or serializing network packets efficiently.
+- **Technique:** Grow headers from the front, data from the back.
+- **DOP Application:** Writing custom memory allocators or serializing network packets efficiently.
 
 ---
 
@@ -46,14 +46,15 @@ You know Arrays and HashMaps. These are the structures for when data is **Sorted
 
 The standard for disk-based indexing.
 
-* **Structure:** "Fat and Short." High fan-out (hundreds of children) to minimize pointer chasing (disk seeks).
-* **DOP Application:** Spatial partitioning (QuadTrees/Octrees) are specialized B-Trees.
+- **Structure:** "Fat and Short." High fan-out (hundreds of children) to minimize pointer chasing (disk seeks).
+- **DOP Application:** Spatial partitioning (QuadTrees/Octrees) are specialized B-Trees.
 
 ### 3.2 The LSM Tree (Write-Optimized)
 
-*Log-Structured Merge-Tree.* Used in high-write systems (Cassandra, RocksDB).
-* **Mechanism:** Treats storage as an **Append-Only Log**. Writes go to memory (MemTable), then flush to disk (SSTable). Background threads merge these files.
-* **DOP Application:** Handling massive event streams or telemetry logs without locking the UI thread.
+_Log-Structured Merge-Tree._ Used in high-write systems (Cassandra, RocksDB).
+
+- **Mechanism:** Treats storage as an **Append-Only Log**. Writes go to memory (MemTable), then flush to disk (SSTable). Background threads merge these files.
+- **DOP Application:** Handling massive event streams or telemetry logs without locking the UI thread.
 
 ---
 
@@ -61,10 +62,10 @@ The standard for disk-based indexing.
 
 When you run a SQL query, the DB calculates the "Cost" of options based on **Cardinality** (Selectivity).
 
-* **Option A:** Scan whole table (Slow read, linear access).
-* **Option B:** Use Index (Fast lookup, random access).
-* **The Switch:** If reading >10% of data, a **Scan** is faster than an **Index**.
-* **DOP Application:** **Level of Detail (LOD).** If you have 10 particles, run high-fidelity physics. If you have 10,000, switch to cheap approximation.
+- **Option A:** Scan whole table (Slow read, linear access).
+- **Option B:** Use Index (Fast lookup, random access).
+- **The Switch:** If reading >10% of data, a **Scan** is faster than an **Index**.
+- **DOP Application:** **Level of Detail (LOD).** If you have 10 particles, run high-fidelity physics. If you have 10,000, switch to cheap approximation.
 
 ---
 
@@ -72,10 +73,10 @@ When you run a SQL query, the DB calculates the "Cost" of options based on **Car
 
 How do you read data while someone else is writing it, without locks?
 
-* **MVCC (Multi-Version Concurrency Control):** Never overwrite data. Create a new "Version".
-    * Readers see `Version 1`.
-    * Writers create `Version 2`.
-* **DOP Application:** Solving **Race Conditions** in multi-threaded simulation engines without using Mutexes (which kill performance).
+- **MVCC (Multi-Version Concurrency Control):** Never overwrite data. Create a new "Version".
+    - Readers see `Version 1`.
+    - Writers create `Version 2`.
+- **DOP Application:** Solving **Race Conditions** in multi-threaded simulation engines without using Mutexes (which kill performance).
 
 ---
 

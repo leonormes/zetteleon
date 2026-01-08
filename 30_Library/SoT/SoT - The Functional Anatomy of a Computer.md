@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-13T00:00:00Z
 epistemic: "Technical/Architectural"
 last_reviewed: "2025-12-26"
-modified: 2025-12-26T10:08:11+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "Defining the functional components of a computer and the communication protocols between the CPU and hardware."
 review_interval: "3 months"
 see_also: ["[[SoT - Process Execution (Kernel Logic)]]"]
 source_of_truth: ["[[CPU IO Management and Communication]]"]
 status: "stable"
-tags: ["hardware", "cpu", "computer-science", "SoftwareEngineering/Architecture"]
+tags: ["computer-science", "cpu", "hardware", "SoftwareEngineering/Architecture"]
 title: SoT - The Functional Anatomy of a Computer
 type: "SoT"
 uid: 

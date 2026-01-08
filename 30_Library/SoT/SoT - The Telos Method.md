@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-24T12:12:06Z
 epistemic: synthesis
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: Canonical source of truth for The Telos Method, a hierarchical framework for self-knowledge and AI context integration.
 review_interval: 6 months
 see_also: ["[[SoT - Identity-Based Habit Formation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Extended Mind Thesis]]"]
@@ -33,13 +33,13 @@ The framework organizes self-knowledge into a strict directed acyclic graph (DAG
 
 | Layer | Definition | ProdOS Mapping |
 |:--- |:--- |:--- |
-| **1. Problems** | *Foundational.* Specific issues in the world you aim to address (e.g., "Software is insecure"). | **Vision / Values** |
-| **2. Mission** | *Intent.* The primary statement of what you will do about the Problem. | **Life Goal** |
-| **3. Narratives** | *Identity.* "Quick handles" or scripts to explain yourself to others and combat impostor syndrome. | **Identity Pacts** |
-| **4. Goals** | *Targets.* Concrete, measurable milestones (e.g., "1M Downloads"). Categorized by urgency. | **Strategic Goals** |
-| **5. Challenges** | *Obstacles.* Specific barriers preventing the Goal (e.g., "Lack of UX skills"). | **Tensions / Blockers** |
-| **6. Strategies** | *Method.* "A very specific way you are addressing a challenge." The detailed plan of attack. | **Strategy Layer** |
-| **7. Projects** | *Undertaking.* Long-term undertakings that "fall out" of the Strategy. | **Projects (Level 1)** |
+| **1. Problems** | _Foundational._ Specific issues in the world you aim to address (e.g., "Software is insecure"). | **Vision / Values** |
+| **2. Mission** | _Intent._ The primary statement of what you will do about the Problem. | **Life Goal** |
+| **3. Narratives** | _Identity._ "Quick handles" or scripts to explain yourself to others and combat impostor syndrome. | **Identity Pacts** |
+| **4. Goals** | _Targets._ Concrete, measurable milestones (e.g., "1M Downloads"). Categorized by urgency. | **Strategic Goals** |
+| **5. Challenges** | _Obstacles._ Specific barriers preventing the Goal (e.g., "Lack of UX skills"). | **Tensions / Blockers** |
+| **6. Strategies** | _Method._ "A very specific way you are addressing a challenge." The detailed plan of attack. | **Strategy Layer** |
+| **7. Projects** | _Undertaking._ Long-term undertakings that "fall out" of the Strategy. | **Projects (Level 1)** |
 
 ---
 
@@ -47,10 +47,10 @@ The framework organizes self-knowledge into a strict directed acyclic graph (DAG
 
 > **Why am I doing this Project?**
 > Because it is part of a **Strategy**...
->...to overcome a **Challenge**...
->...that is blocking a **Goal**...
->...which serves my **Mission**...
->...to solve a specific **Problem**.
+> ...to overcome a **Challenge**...
+> ...that is blocking a **Goal**...
+> ...which serves my **Mission**...
+> ...to solve a specific **Problem**.
 
 ### The Military Analogy
 
@@ -66,7 +66,7 @@ The Telos Method is designed to be **Machine Readable**.
 
 - **Format:** Markdown, JSON, or Graph (Excalidraw).
 - **Usage:** This context is fed to AI agents (e.g., ProdOS LLM) to enable "Threat Modeling" of plans and identifying "Neglected Goals."
-- **Benefit:** Allows the AI to function as a Chief of Staff that understands *why* you are doing something, not just *what* you are doing.
+- **Benefit:** Allows the AI to function as a Chief of Staff that understands _why_ you are doing something, not just _what_ you are doing.
 
 ---
 

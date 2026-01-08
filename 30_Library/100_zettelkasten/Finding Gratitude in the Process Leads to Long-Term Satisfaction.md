@@ -4,14 +4,14 @@ confidence: ""
 created: 2025-10-30T12:01:07Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source: "[[MOC - You Need to Romanticize Your Process]]"
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Creativity", "gratitude", "TheHuman/Mindset", "satisfaction"]
+tags: ["gratitude", "satisfaction", "TheHuman/Creativity", "TheHuman/Mindset"]
 title: Finding Gratitude in the Process Leads to Long-Term Satisfaction
 type: "concept"
 uid: 

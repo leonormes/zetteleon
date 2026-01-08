@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To serve as the definitive Source of Truth for the origins, cultural context, and evolution of Hip Hop culture and its four elements (DJing, MCing, Breaking, Graffiti)."
 review_interval: "12 months"
 see_also: ["[[Expressive Music Organically Builds Its Own Scene]]", "[[Music as Expression is Born From a Genuine Human Need]]"]
@@ -21,7 +21,7 @@ updated:
 
 ## 2. The Cultural Crucible: The Burning Bronx (1970s)
 
-Hip Hop did not emerge *despite* the destruction of the Bronx; it emerged *because* of it.
+Hip Hop did not emerge _despite_ the destruction of the Bronx; it emerged _because_ of it.
 
 - **The Context:** Following the construction of the Cross-Bronx Expressway (which displaced 60,000 residents) and the subsequent "White Flight," the South Bronx lost 40% of its manufacturing sector and 300,000 residents. Landlords burned buildings for insurance money ("The Bronx is Burning").
 - **The Void:** With music programs cut and gangs (like the Black Spades) filling the power vacuum, youth had no institutional outlets.
@@ -77,7 +77,7 @@ The culture has traveled a trajectory from **Rejection** to **Dominance** to **I
 | Era | State | Key Dynamic |
 |:--- |:--- |:--- |
 | **1970s** | **Incubation** | Local, organic, live performance. Block parties. |
-| **1980s** | **Explosion** | "Rapper's Delight" commercializes Rap. Films (*Wild Style*) export the culture globally. |
+| **1980s** | **Explosion** | "Rapper's Delight" commercializes Rap. Films (_Wild Style_) export the culture globally. |
 | **1990s** | **Diversification** | The "Golden Age." Fragmentation into Gangsta, Conscious, and Alternative sub-genres. |
 | **2020s** | **Institutionalization** | Breaking at the Olympics (2024). Graffiti in Museums. Rap as the 1 global genre. |
 
@@ -94,5 +94,5 @@ The "Commercialization vs. Authenticity" tension defines the modern era.
 ## 6. Sources and Links
 
 - **Integrated Note:** [[hiprapgraffi]] (Archived)
-- **Key Text:** *Can't Stop Won't Stop* by Jeff Chang.
+- **Key Text:** _Can't Stop Won't Stop_ by Jeff Chang.
 - **Related Concept:** [[Expressive Music Organically Builds Its Own Scene]]

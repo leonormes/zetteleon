@@ -1,16 +1,16 @@
 ---
-aliases: ["Process Execution", "Shebang Logic", "Kernel Hints", "argv[0]"]
+aliases: ["argv[0]", "Kernel Hints", "Process Execution", "Shebang Logic"]
 confidence: "5/5"
 created: 2025-12-26T12:30:00Z
 epistemic: "Architectural/Technical"
 last_reviewed: "2025-12-26"
-modified: 2025-12-26T10:08:17+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "Canonical knowledge on how the OS kernel executes binaries and scripts, specifically covering path resolution and interpreter hints."
 review_interval: "6 months"
 see_also: ["[[SoT - Bash Scripting]]", "[[SoT - Linux Container Primitives]]"]
 source_of_truth: ["[[Kernel Hints and Path Resolution]]"]
 status: "stable"
-tags: ["SoftwareEngineering/Linux", "kernel", "operating-systems", "programming"]
+tags: ["kernel", "operating-systems", "programming", "SoftwareEngineering/Linux"]
 title: SoT - Process Execution (Kernel Logic)
 type: "SoT"
 uid: 
@@ -51,8 +51,8 @@ Hardcoding paths (e.g., `#!/bin/bash`) is fragile due to filesystem diversity (m
 Different kernels parse the shebang line with varying logic regarding multiple arguments:
 
 - **Linux (GNU/Linux):** Treats everything after the first space as a **single string**.
-    - *Problem:* `#!/usr/bin/env bash -x` might fail because Linux looks for a binary named `env bash -x`.
-    - *Solution:* GNU `env` provides the `-S` (split-string) flag: `#!/usr/bin/env -S bash -x`.
+    - _Problem:_ `#!/usr/bin/env bash -x` might fail because Linux looks for a binary named `env bash -x`.
+    - _Solution:_ GNU `env` provides the `-S` (split-string) flag: `#!/usr/bin/env -S bash -x`.
 - **macOS (Darwin):** Natively supports multiple discrete arguments in the shebang.
 - **SunOS (Solaris):** Discards all arguments after the first one.
 

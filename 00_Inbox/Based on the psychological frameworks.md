@@ -1,31 +1,30 @@
 ---
 aliases: []
-type: ""
-status: ""
-confidence: ""
-epistemic: ""
-purpose: ""
-modified: 2026-01-05T10:20:39+00:00
-last_reviewed: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
-title: Based on the psychological frameworks
-source: "https://gemini.google.com/share/4da4240bb121"
 author:
   - "[[Gemini]]"
-published:
+confidence: ""
 created: 2026-01-05T10:19:35+00:00
 description: "Created with Gemini"
-tags:
-  - "input"
+epistemic: ""
+last_reviewed: ""
+modified: 2026-01-08T10:50:03+00:00
+published:
+purpose: ""
+review_interval: ""
+see_also: []
+source: "https://gemini.google.com/share/4da4240bb121"
+source_of_truth: []
+status: ""
+tags: ["input"]
+title: Based on the psychological frameworks
+type: ""
 ---
 
 I have a new line manager at work. We are a small company and have weekly whole company meetings. When I talk this new line manager interrupts me and cuts me off. When we talk 1 to 1 he interrupts me mid flow. Review the attached note and break down what might be happening
 
 Based on the psychological frameworks provided in the source text, your manager's behaviour can be analysed through three primary drivers: dominance, anxiety, and timing blindness.
 
-### Primary Psychological Drivers
+## Primary Psychological Drivers
 
 To understand the underlying logic of these interruptions, we can categorise the behaviour into three distinct models:
 
@@ -35,17 +34,17 @@ To understand the underlying logic of these interruptions, we can categorise the
 
 ---
 
-### Contextual Analysis: Group vs. 1-to-1
+## Contextual Analysis: Group vs. 1-to-1
 
 The fact that this happens in both settings suggests a deeply rehearsed "control strategy".
 
-### Systemic Impact on Performance
+## Systemic Impact on Performance
 
 If this pattern continues, it may lead to **"learned devaluation"**. You might unconsciously start "editing" yourself or sharing fewer ideas to avoid the "mini-sting" of being overridden. This creates a feedback loop where your professional creativity shrinks because the "cost" of speaking becomes too high.
 
 ---
 
-### Strategic Response Framework
+## Strategic Response Framework
 
 To decode the specific driver, the text suggests observing the pattern rather than the single event:
 
@@ -60,7 +59,7 @@ yes
 
 To address this behaviour effectively, you should move from **reactive frustration** to **proactive structural management**. The goal is to provide your manager with a clear feedback loop that highlights the pattern without triggering a defensive response.
 
-### Intervention Framework: Pattern Naming
+## Intervention Framework: Pattern Naming
 
 Psychology suggests that naming the pattern once is more effective than reacting to every individual instance. This moves the conversation from the content (what you are saying) to the process (how you are communicating).
 
@@ -73,7 +72,7 @@ Psychology suggests that naming the pattern once is more effective than reacting
 
 ---
 
-### Real-Time Tactical Scripts
+## Real-Time Tactical Scripts
 
 When an interruption occurs in the moment, your response should be immediate, calm, and neutral. This provides the "flash of feedback" required to reset their nervous system's habit.
 
@@ -83,7 +82,7 @@ When an interruption occurs in the moment, your response should be immediate, ca
 
 ---
 
-### Environmental Controls for 1-to-1s
+## Environmental Controls for 1-to-1s
 
 If the manager’s driver is **anxiety** (fear of losing the thread), you can use external structures to reduce their cognitive load:
 
@@ -91,7 +90,7 @@ If the manager’s driver is **anxiety** (fear of losing the thread), you can us
 - **Visual Aids:** Use a shared document or a notepad. If they see you have a list of three points, they are more likely to wait until point three is checked off before intervening.
 - **The 'Two-Second' Rule:** Suggest a pilot where you both agree to wait two seconds after the other finishes before responding. This gives their brain space to choose their words more sharply.
 
-### Risks of Inaction
+## Risks of Inaction
 
 Failure to address this leads to **"learned devaluation"**, where you subconsciously edit your contributions and shrink your creative output to avoid the "mini-sting" of being overridden. By asserting the boundary now, you prevent the long-term erosion of your professional status within the company.
 
@@ -101,7 +100,7 @@ This is interesting. I also suffer this within my family. My wife, without excep
 
 In your family dynamic, the behaviour you describe—predicting your thought, getting it wrong, and then dismissing the incorrect assumption—is a complex psychological "control strategy" designed to manage the emotional environment.
 
-### The Prediction-Dismissal Framework
+## The Prediction-Dismissal Framework
 
 This specific cycle functions as a defensive logic loop that prevents genuine communication from occurring.
 
@@ -111,13 +110,13 @@ This specific cycle functions as a defensive logic loop that prevents genuine co
 
 ---
 
-### Analysis of Potential Drivers
+## Analysis of Potential Drivers
 
 Applying the psychological profiles from the source, her behaviour likely stems from one of three areas:
 
 ---
 
-### The Cost to the Relationship: Learned Devaluation
+## The Cost to the Relationship: Learned Devaluation
 
 In a domestic setting, the text notes that this does not just end a conversation; it "slowly rewrites how you see yourself".
 
@@ -127,7 +126,7 @@ In a domestic setting, the text notes that this does not just end a conversation
 
 ---
 
-### Strategic Re-engagement
+## Strategic Re-engagement
 
 To change this dynamic, you must shift from participating in the "unconscious race" to defining the "conversational rhythm".
 

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-06-20T06:43:37Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:09+00:00
+modified: 2026-01-08T08:06:48+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -17,6 +17,8 @@ uid:
 updated: 
 version: ""
 ---
+
+> **DEPRECATED:** See [[SoT - Bessie GCSE Dashboard]] for the active subject matrix.
 
 Bessie's GCSE subjects and their corresponding exam boards are as follows:
 

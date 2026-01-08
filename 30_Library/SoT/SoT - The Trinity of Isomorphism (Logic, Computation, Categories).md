@@ -1,17 +1,17 @@
 ---
+alias: ["Category Theory in Rust", "Curry-Howard Correspondence", "Isomorphic Architecture", "The Trinity"]
 aliases: []
-alias: ["Curry-Howard Correspondence", "Category Theory in Rust", "Isomorphic Architecture", "The Trinity"]
 confidence: "5/5"
 created: 2025-12-18T21:30:15+00:00
 epistemic: "theory"
 last_reviewed: "2025-12-30"
-modified: 2026-01-03T10:18:49+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To explore the deep isomorphism between Logic, Computation (Types), and Category Theory, and applying it to Software Architecture."
 review_interval: "12 months"
-see_also: ["[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]", "[[SoT - Rust's Design Philosophy]]", "[[SoT - Type-Driven Infrastructure as Code]]"]
+see_also: ["[[SoT - Rust's Design Philosophy]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]", "[[SoT - Type-Driven Infrastructure as Code]]"]
 source_of_truth: []
 status: "stable"
-tags: ["type_theory", "category_theory", "SoftwareEngineering/Architecture", "logic"]
+tags: ["category_theory", "logic", "SoftwareEngineering/Architecture", "type_theory"]
 title: SoT - The Trinity of Isomorphism (Logic, Computation, Categories)
 type: "SoT"
 uid: 

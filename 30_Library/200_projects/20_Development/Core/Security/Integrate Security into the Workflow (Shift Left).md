@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-26T13:03:43Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:12+00:00
+modified: 2026-01-08T10:49:51+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -32,7 +32,7 @@ Make security part of the process, not an afterthought.
   - SCA (Software Composition Analysis): Checks third-party dependencies for known vulnerabilities. Crucial, as many breaches exploit vulnerable libraries.
   - Secrets Scanning: Prevents accidental commits of API keys, passwords, etc.
   - IaC (Infrastructure as Code) Scanning: Checks Terraform/CloudFormation/etc. for insecure configurations.
-- Configure these tools to provide feedback *early* and *automatically*. Developers are more likely to fix issues found immediately than those discovered weeks later.
+- Configure these tools to provide feedback _early_ and _automatically_. Developers are more likely to fix issues found immediately than those discovered weeks later.
 
 ## Security Focus in Code Reviews
 

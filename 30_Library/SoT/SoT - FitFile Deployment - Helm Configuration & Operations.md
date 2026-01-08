@@ -1,17 +1,17 @@
 ---
+alias: ["FFNode Deployment", "Helm Chart Deployment Guide"]
 aliases: []
-alias: ["Helm Chart Deployment Guide", "FFNode Deployment"]
 confidence: "5/5"
 created: 2025-02-07T12:57:55Z
 epistemic: "guide"
 last_reviewed: "2025-12-26"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "To provide the standard operating procedure for deploying FitFile applications using Helm, specifically focusing on the FFNode umbrella chart and configuration overrides."
 review_interval: "6 months"
-see_also: ["[[SoT - FITFILE Platform Deployment]]", "[[SoT - Kubernetes Networking & DNS]]", "[[SOT - CI-CD Pipelines]]", "[[SoT - FitFile Deployment - Release Process]]"]
+see_also: ["[[SOT - CI-CD Pipelines]]", "[[SoT - FitFile Deployment - Release Process]]", "[[SoT - FITFILE Platform Deployment]]", "[[SoT - Kubernetes Networking & DNS]]"]
 source_of_truth: []
 status: "stable"
-tags: ["helm", "deployment", "kubernetes", "sop", "fitfile"]
+tags: ["deployment", "fitfile", "helm", "kubernetes", "sop"]
 title: SoT - FitFile Deployment - Helm Configuration & Operations
 type: "SoT"
 uid: 

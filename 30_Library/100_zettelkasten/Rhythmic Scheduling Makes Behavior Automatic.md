@@ -4,13 +4,13 @@ confidence: "1"
 created: 2025-11-01T21:07:00Z
 epistemic: "method"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To explain the rhythmic scheduling method of timeboxing."
 review_interval: "90"
 see_also: ["[[Timeboxing Creates Structure for Action]]", "[[Timeboxing Enables Rhythmic Consistency and Habit Formation]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["method", "scheduling", "time-management", "TheHuman/Habits", "topic/productivity"]
+tags: ["method", "scheduling", "TheHuman/Habits", "time-management", "topic/productivity"]
 title: Rhythmic Scheduling Makes Behavior Automatic
 type: "concept"
 uid: 

@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-07-16T17:30:01Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["models", "TheHuman/Motivation", "pinch-model", "TheHuman/Health/ADHD"]
+tags: ["models", "pinch-model", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
 title: The PINCH Model Describes Core ADHD Motivators
 type: "permanent"
 uid: 

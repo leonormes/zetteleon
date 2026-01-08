@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-11-01T09:51:13Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Identity", "metaphor", "TheHuman/Philosophy", "self", "topic/philosophy"]
+tags: ["metaphor", "self", "TheHuman/Identity", "TheHuman/Philosophy", "topic/philosophy"]
 title: Ship of Theseus as Model for Constructed Self
 type: "concept"
 uid: 

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-02T17:05:47Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:24+00:00
+modified: 2026-01-08T10:49:54+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -128,11 +128,11 @@ It's critical to **migrate away from using Azure CLI with an Entra ID user and p
    - **Service Principals (SPs):** These are essentially identities for applications. When configuring a Service Principal for managing Azure Active Directory, you must grant it the necessary permissions to create and modify Azure Active Directory objects such as users and groups [1, 2]. When authenticating using a service principal, Microsoft recommends **assigning permissions using app roles** rather than directory roles, especially when working with Microsoft Graph [14].
    - **Managed Identities:** These are Azure-managed identities for applications that eliminate the need to manage secrets, credentials, certificates, and keys [15].
      - **User-Assigned Managed Identities are Recommended:** For Microsoft services, user-assigned identities are generally the recommended type [16]. They are provisioned independently from compute resources and can be assigned to multiple resources, offering more efficiency across a broader range of scenarios [16-18]. Their lifecycle is decoupled from the resources they are associated with, allowing you to pre-configure them and their role assignments before the resources requiring them are deployed [18]. This also helps avoid rate limits for Microsoft Entra object creations if you're rapidly deploying many resources [19, 20].
-     - **Direct Permission Assignment for Managed Identities (Crucial for Automation Efficiency):** While Managed Identities can be added to Microsoft Entra groups that have permissions, there's a **limitation**: changes to a Managed Identity's group or role membership can take **several hours** to propagate because these changes are expressed as claims in access tokens, which are cached [21, 22]. If this delay is unacceptable for your automation requirements, it is **recommended to group Azure resources using a user-assigned managed identity with permissions applied *directly to the identity***, rather than adding or removing the managed identities from a Microsoft Entra group that has permissions [22]. This ensures changes take effect more quickly [22].
+     - **Direct Permission Assignment for Managed Identities (Crucial for Automation Efficiency):** While Managed Identities can be added to Microsoft Entra groups that have permissions, there's a **limitation**: changes to a Managed Identity's group or role membership can take **several hours** to propagate because these changes are expressed as claims in access tokens, which are cached [21, 22]. If this delay is unacceptable for your automation requirements, it is **recommended to group Azure resources using a user-assigned managed identity with permissions applied _directly to the identity_**, rather than adding or removing the managed identities from a Microsoft Entra group that has permissions [22]. This ensures changes take effect more quickly [22].
 
 ### The Role of Human Approval
 
-The question of human approval to limit SP privileges is central to a robust security posture. While direct, least-privilege permissions are best for *runtime automation*, human approval plays a vital role in the *initial setup, configuration changes, and highly sensitive operations*.
+The question of human approval to limit SP privileges is central to a robust security posture. While direct, least-privilege permissions are best for _runtime automation_, human approval plays a vital role in the _initial setup, configuration changes, and highly sensitive operations_.
 
 1. **Admin Consent Workflow:**
    This workflow allows users to provide a justification and request an administrator's review and approval for an application when they are unable to consent to the permissions themselves [23-28]. This is particularly relevant when:
@@ -141,7 +141,7 @@ The question of human approval to limit SP privileges is central to a robust sec
    - A "risky" user consent request is detected by Microsoft Entra ID Protection; such requests require a "step-up" to admin consent [32-35].
    - **Process:** When a user attempts to sign in to an application requiring admin consent, an "Approval required" message appears. The user can then submit a request to designated administrators/reviewers, who receive notifications [24, 28, 36-39]. Administrators can then review the requested permissions, application details, and justification before approving, denying, or blocking the request [40, 41].
    - **Granular Control:** Even after an administrator grants tenant-wide admin consent, user access to the application can still be limited by configuring the application to require user assignment [23, 42-46]. This means only assigned users (or groups) can sign in.
-   - **Trust is Key:** Granting tenant-wide admin consent is a sensitive operation, as it can give the application publisher access to significant organizational data or highly privileged operations [47-49]. Administrators should carefully review the permissions and *trust the application and its publisher* before granting consent [47, 48, 50, 51].
+   - **Trust is Key:** Granting tenant-wide admin consent is a sensitive operation, as it can give the application publisher access to significant organizational data or highly privileged operations [47-49]. Administrators should carefully review the permissions and _trust the application and its publisher_ before granting consent [47, 48, 50, 51].
 
 2. **Privileged Identity Management (PIM):**
    While primarily for human administrators, PIM introduces the concept of "just-in-time" (JIT) access and approval workflows that are highly relevant to controlling privileges.
@@ -150,7 +150,7 @@ The question of human approval to limit SP privileges is central to a robust sec
    - **PIM for Groups:** You can use PIM for Groups to activate multiple roles at once. A user can be an eligible member or owner of a PIM group, and with one activation, they gain access to all linked resources, potentially subject to approval [57].
 
 3. **Protected Actions:**
-   This is a newer feature that allows you to assign Conditional Access policies to specific, high-impact permissions [58, 59]. When a user attempts to perform a *protected action*, they must satisfy the Conditional Access policies assigned to those permissions *at the time of the action* [58, 60].
+   This is a newer feature that allows you to assign Conditional Access policies to specific, high-impact permissions [58, 59]. When a user attempts to perform a _protected action_, they must satisfy the Conditional Access policies assigned to those permissions _at the time of the action_ [58, 60].
    - **Dynamic Enforcement:** This means a user might have the permission assigned, but if the action is protected, they might be prompted for additional security (e.g., phishing-resistant MFA, access from a Privileged Access Workstation) [59, 60].
    - **Complementary to PIM:** Protected Actions enforce policies when an action is performed, while PIM enforces policies when a role is activated. They can be used together for stronger coverage [61, 62].
 

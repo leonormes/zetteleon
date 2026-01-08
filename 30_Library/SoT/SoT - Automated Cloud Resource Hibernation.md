@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-13T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: ""
 review_interval: "3 months"
 see_also: ["[[FFAPP-4416 Schedule testing and staging clusters to hibernate outside working hours]]"]
@@ -56,7 +56,7 @@ The most robust implementation pattern involves using an IaC tool like Terraform
 
 - **Core Claim(s):** Scheduled hibernation of non-production environments is a low-effort, high-impact strategy for reducing cloud expenditure. Managing this via IaC makes it reliable and scalable.
 - **Challenges Survived:**
-  - *(Awaiting real-world data on cost savings and developer feedback)*
+  - _(Awaiting real-world data on cost savings and developer feedback)_
 - **Current Status:** UNDER REVIEW
 - **Decay/Obsolescence Markers:** None yet.
 

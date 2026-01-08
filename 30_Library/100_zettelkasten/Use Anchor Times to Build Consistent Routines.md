@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-10-29T16:10:00Z
 epistemic: "strategy"
 last_reviewed: ""
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To provide a method for establishing consistency in a daily routine."
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["consistency", "routine", "time-management", "TheHuman/Habits"]
+tags: ["consistency", "routine", "TheHuman/Habits", "time-management"]
 title: Use Anchor Times to Build Consistent Routines
 type: "strategy"
 uid: 

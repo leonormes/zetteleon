@@ -4,13 +4,13 @@ confidence: "4/5"
 created: 2025-12-21T00:00:00Z
 epistemic: "Derived from external content on personal operating principles."
 last_reviewed: "2025-12-21"
-modified: 2026-01-03T10:18:52+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define a set of actionable rules designed to architect a life of peace and productivity by managing energy, boundaries, and focus."
 review_interval: "3 months"
 see_also: []
 source_of_truth: []
 status: "stable"
-tags: ["boundaries", "TheHuman/Mindset", "principles", "rules", "topic/productivity"]
+tags: ["boundaries", "principles", "rules", "TheHuman/Mindset", "topic/productivity"]
 title: SoT - Principles for Peaceful Productivity
 type: "SoT"
 uid: 

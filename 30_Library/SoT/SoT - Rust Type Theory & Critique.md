@@ -1,14 +1,14 @@
 ---
+alias: ["Formality Core", "Rust Formal Modeling", "Rust Type Theory", "The Price of Ignoring Theory"]
 aliases: []
-alias: ["The Price of Ignoring Theory", "Formality Core", "Rust Formal Modeling", "Rust Type Theory"]
 confidence: "5/5"
 created: 2025-12-29T11:13:41+00:00
 epistemic: "critical"
 last_reviewed: "2025-12-30"
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To document the theoretical underpinnings, formal modeling efforts, and academic critiques of the Rust Type System."
 review_interval: "1 year"
-see_also: ["[[SoT - Rust Type System]]", "[[SoT - Dependent Types in Software]]"]
+see_also: ["[[SoT - Dependent Types in Software]]", "[[SoT - Rust Type System]]"]
 source_of_truth: []
 status: "stable"
 tags: ["critique", "formal-methods", "rust", "type-theory"]
@@ -25,7 +25,7 @@ A critical perspective from formal type theory argues that Rust was developed "o
 ### Core Critique: Borrowing vs. Linearity
 
 - **The Flaw:** Rust's Borrow Checker is an engineered solution, distinct from the mathematical concept of **Linear Logic**.
-- **Linearity:** In Type Theory, Linear Logic ensures a resource is used *exactly once*.
+- **Linearity:** In Type Theory, Linear Logic ensures a resource is used _exactly once_.
 - **The Gap:** Borrowing and Linearity form an adjunction. Rust focuses on borrowing but misses the full power of Linearity (and Graded Modal Types), which would allow for more precise resource tracking without "fighting the borrower."
 
 ## 2. Missing Features: Dependent Types

@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-10T14:17:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To identify an effective tool for helping children with routines."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["autism", "family", "organization", "parenting", "tools", "TheHuman/Health/ADHD"]
+tags: ["autism", "family", "organization", "parenting", "TheHuman/Health/ADHD", "tools"]
 title: Visual Schedules Help Children Understand Routines and Manage Transitions
 type: "concept"
 uid: 

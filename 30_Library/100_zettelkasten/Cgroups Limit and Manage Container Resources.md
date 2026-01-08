@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To explain the mechanism and function of cgroups in Linux."
 review_interval: "1 year"
 see_also: ["[[Cgroups v2 Unified Hierarchy]]"]
 source_of_truth: ["[[SoT - Linux Container Primitives]]"]
 status: "stable"
-tags: ["SoftwareEngineering/Containers", "kernel", "SoftwareEngineering/Linux", "resource-management"]
+tags: ["kernel", "resource-management", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux"]
 title: Cgroups Limit and Manage Container Resources
 type: "concept"
 uid: 

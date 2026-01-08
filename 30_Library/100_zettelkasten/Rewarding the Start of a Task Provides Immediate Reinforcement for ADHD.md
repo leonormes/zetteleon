@@ -4,14 +4,14 @@ confidence: "null"
 created: 2025-10-30T12:09:04Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: ""
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source: "[[MOC - Why Task Initiation is Difficult in ADHD]]"
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "hypothesis", "TheHuman/Motivation", "rewards", "The", "TheHuman/Health/ADHD", "topic/productivity"]
+tags: ["experiment", "hypothesis", "rewards", "The", "TheHuman/Health/ADHD", "TheHuman/Motivation", "topic/productivity"]
 title: Rewarding the Start of a Task Provides Immediate Reinforcement for ADHD
 type: "hypothesis"
 uid: 
@@ -20,7 +20,7 @@ updated:
 
 ## 1. The Hypothesis
 
-> **If** I provide a tangible reward immediately upon the *initiation* of a task (e.g., "The First Step"), rather than waiting for completion,
+> **If** I provide a tangible reward immediately upon the _initiation_ of a task (e.g., "The First Step"), rather than waiting for completion,
 > **Then** I will overcome inertia more frequently,
 > **Because** the ADHD brain (with its steep temporal discounting) values a small "Now" reward significantly more than a large "Later" reward.
 
@@ -30,8 +30,8 @@ updated:
 
 - **Duration:** 1 Week.
 - **The Reward:** A specific micro-treat (e.g., a high-quality coffee, a single chocolate, a specific track of music).
-- **The Rule:** I get the reward the *second* I perform the first physical action of the task (e.g., opening the IDE, putting on gym shoes). I do not have to finish the task to keep the reward.
-- **The Logic:** This Pavlovian pairing reinforces the *act of starting*, which is the hardest part.
+- **The Rule:** I get the reward the _second_ I perform the first physical action of the task (e.g., opening the IDE, putting on gym shoes). I do not have to finish the task to keep the reward.
+- **The Logic:** This Pavlovian pairing reinforces the _act of starting_, which is the hardest part.
 
 ---
 
@@ -44,7 +44,7 @@ updated:
 
 ## 4. Results Log
 
-- *(Log results here)*
+- _(Log results here)_
 
 ---
 

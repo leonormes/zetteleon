@@ -5,13 +5,13 @@ created: 2025-10-26T17:19:00Z
 epistemic: "null"
 id: "Containers within a pod share network namespace and IP address"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:27+00:00
+modified: 2026-01-08T10:49:55+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["SoftwareEngineering/Containers", "localhost", "network-namespace", "pod", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes"]
+tags: ["localhost", "network-namespace", "pod", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes"]
 title: Containers Within a Pod Share Network Namespace and IP Address
 type: "Fact"
 uid: 

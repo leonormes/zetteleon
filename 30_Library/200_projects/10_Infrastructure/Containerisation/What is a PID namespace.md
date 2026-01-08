@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-24T15:27:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:26+00:00
+modified: 2026-01-08T10:49:55+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["SoftwareEngineering/Containers", "isolation", "SoftwareEngineering/Linux", "namespace", "pid"]
+tags: ["isolation", "namespace", "pid", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux"]
 title: What is a PID namespace
 type: "Factual"
 uid: 

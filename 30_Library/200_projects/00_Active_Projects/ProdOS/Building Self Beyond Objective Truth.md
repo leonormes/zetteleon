@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-03T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -32,36 +32,36 @@ The error is not in your analysis. The error is in the assumption that "objectiv
 
 You need a new foundation. If the old foundation was **Truth**, the new one can be **Utility**, **Values**, and **Coherence**.
 
-Here is a way to build a self *after* this realisation.
+Here is a way to build a self _after_ this realisation.
 
 ## 1\. Reframe "Arbitrary" as "Constructed"
 
 You say everything feels "arbitrary." This word implies randomness or meaninglessness. A more accurate and useful word is "contingent" or "constructed."
 
-- **Money** is a social construct. It is not "arbitrary." It has immense power, rules, and real-world consequences. You cannot simply *decide* it isn't real.
+- **Money** is a social construct. It is not "arbitrary." It has immense power, rules, and real-world consequences. You cannot simply _decide_ it isn't real.
 - **Language** is a social construct. It is the primary tool you are using to form these very thoughts.
 - **Ethics** are largely constructed. Yet, a society built on the construct of "murder is wrong" is functionally different and (most would argue) better than one that is not.
 
-These things are not "true" in the way gravity is true, but they are *real* in their effects. Your "self" is also a construct. Your task is not to *find* your true, objective self; it is to *build* a functional, coherent, and meaningful one.
+These things are not "true" in the way gravity is true, but they are _real_ in their effects. Your "self" is also a construct. Your task is not to _find_ your true, objective self; it is to _build_ a functional, coherent, and meaningful one.
 
 ## 2\. Shift Your Goal from "Rightness" to "Utility"
 
 Since you can no longer be confident in "being right," be confident in "being effective." Ask different questions:
 
-- Instead of: "Is this belief *true*?"
-- Ask: "Is this belief *useful*? Does holding it lead to a better outcome for me and others? Does it align with my chosen principles?"
+- Instead of: "Is this belief _true_?"
+- Ask: "Is this belief _useful_? Does holding it lead to a better outcome for me and others? Does it align with my chosen principles?"
 
-This is a pragmatic approach. Your confidence no longer comes from a brittle, unprovable claim to "truth." It comes from *experience*. "I am confident in this course of action, not because it is the one objective 'right' way, but because my experience and reasoning suggest it is the most *useful* and *value-aligned* path forward."
+This is a pragmatic approach. Your confidence no longer comes from a brittle, unprovable claim to "truth." It comes from _experience_. "I am confident in this course of action, not because it is the one objective 'right' way, but because my experience and reasoning suggest it is the most _useful_ and _value-aligned_ path forward."
 
 ## 3\. Build Your Foundation on Chosen Values
 
-If everything is a social construct, then you have the incredible, terrifying freedom to *choose* which constructs you live by.
+If everything is a social construct, then you have the incredible, terrifying freedom to _choose_ which constructs you live by.
 
-Your "self" is not the ideas imprinted on you. Your "self" is the *act of curating* those ideas. You are the filter. You are the editor.
+Your "self" is not the ideas imprinted on you. Your "self" is the _act of curating_ those ideas. You are the filter. You are the editor.
 
 1. **Acknowledge the Imprints:** You learned to value (or not value) honesty, hard work, kindness, a certain political view, etc.
-2. **Actively Choose:** Now, as a conscious adult, *you* get to decide. Sit down and write them out. What do you *choose* to value? Curiosity? Compassion? Integrity? Discipline?
-3. **Define Your "Self":** Your "self" is the *commitment* to these chosen values.
+2. **Actively Choose:** Now, as a conscious adult, _you_ get to decide. Sit down and write them out. What do you _choose_ to value? Curiosity? Compassion? Integrity? Discipline?
+3. **Define Your "Self":** Your "self" is the _commitment_ to these chosen values.
 
 Confidence is reborn from this. It is no longer "I am confident because I am right." It becomes "I am confident because I am acting in accordance with my chosen values." This is the definition of **integrity**. You can be 100% wrong about a fact, but 100% right in your integrity, and that is a much more stable foundation.
 
@@ -69,23 +69,23 @@ Confidence is reborn from this. It is no longer "I am confident because I am rig
 
 You say, "Nothing I have to say is mine or original."
 
-This is, in a literal sense, true for everyone. We are all swimming in the same sea of language and ideas (memes). Originality is not *creatio ex nihilo* (creation from nothing).
+This is, in a literal sense, true for everyone. We are all swimming in the same sea of language and ideas (memes). Originality is not _creatio ex nihilo_ (creation from nothing).
 
 **Originality is synthesis.**
 
-Your DNA is built from the same four base pairs (A, T, C, G) as every other living thing. You are not "unoriginal" because you use the same building blocks. You are unique because of the *specific sequence* in which they are combined.
+Your DNA is built from the same four base pairs (A, T, C, G) as every other living thing. You are not "unoriginal" because you use the same building blocks. You are unique because of the _specific sequence_ in which they are combined.
 
-Your mind is the same. You have absorbed thousands of ideas, experiences, biases, and lessons. Your "self" and your "originality" are the unique *way you synthesise them*. The way you connect idea A with experience B and filter it through value C—that specific combination *is you*. It has never existed before and will never exist again.
+Your mind is the same. You have absorbed thousands of ideas, experiences, biases, and lessons. Your "self" and your "originality" are the unique _way you synthesise them_. The way you connect idea A with experience B and filter it through value C—that specific combination _is you_. It has never existed before and will never exist again.
 
-Your voice is not in the *invention* of new words, but in the *selection* and *arrangement* of existing ones.
+Your voice is not in the _invention_ of new words, but in the _selection_ and _arrangement_ of existing ones.
 
 ## 5\. Adopt "Strong Opinions, Loosely Held"
 
 This is the practical antidote to being "suspicious of feeling certain." It allows for both confidence and intellectual humility.
 
-- **Strong Opinions:** You must act. To act, you must make a choice based on the best information and reasoning you have *right now*. You commit to that choice fully. This is your "strong opinion." It allows you to be confident, decisive, and effective.
-- **Loosely Held:** You simultaneously acknowledge that you are a biased, limited human and that new information may prove your choice wrong. You remain open, curious, and ready to update your opinion. You decouple your *identity* from your *opinion*.
+- **Strong Opinions:** You must act. To act, you must make a choice based on the best information and reasoning you have _right now_. You commit to that choice fully. This is your "strong opinion." It allows you to be confident, decisive, and effective.
+- **Loosely Held:** You simultaneously acknowledge that you are a biased, limited human and that new information may prove your choice wrong. You remain open, curious, and ready to update your opinion. You decouple your _identity_ from your _opinion_.
 
-When you are wrong, it is not a *failure of your self*. It is a *success of your process*, because you have just updated your model of the world to be more accurate.
+When you are wrong, it is not a _failure of your self_. It is a _success of your process_, because you have just updated your model of the world to be more accurate.
 
-Your confidence is no longer in being right. Your confidence is in your *process* of seeking, acting, and adapting.
+Your confidence is no longer in being right. Your confidence is in your _process_ of seeking, acting, and adapting.

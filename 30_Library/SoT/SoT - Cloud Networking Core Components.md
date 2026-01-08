@@ -1,30 +1,30 @@
 ---
-aliases: ["Cloud Networking Concepts", "AWS vs Azure Networking", "VPC and VNet Fundamentals"]
+aliases: ["AWS vs Azure Networking", "Cloud Networking Concepts", "VPC and VNet Fundamentals"]
 confidence: "High"
-created: 2026-01-06
+created: 2025-12-29T20:01:57+00:00
 epistemic: "Technical"
 last_reviewed: 
-modified: 
+modified: 2026-01-08T10:49:44+00:00
 purpose: "To define the foundational networking components in cloud infrastructure, mapping universal concepts to their specific implementations in AWS and Azure."
 review_interval: "1 year"
-see_also: 
+see_also:
+  - "[[SoT - Data-Centric Theory of Networking]]"
   - "[[SoT - Kubernetes Networking & DNS]]"
   - "[[SoT - Linux Networking Primitives]]"
-  - "[[SoT - Data-Centric Theory of Networking]]"
 source_of_truth: []
 status: "Active"
-tags: ["networking", "cloud", "aws", "azure", "kubernetes"]
+tags: ["aws", "azure", "cloud", "kubernetes", "networking"]
 title: SoT - Cloud Networking Core Components
 type: "SoT"
 uid: 
 updated: 
 ---
 
-# SoT - Cloud Networking Core Components
+## SoT - Cloud Networking Core Components
 
 > **The Core Abstraction:** Cloud networking is an overlay. While the physical implementation differs, both AWS and Azure expose the same logical primitives: **Isolation** (VPC/VNet), **Segmentation** (Subnets), **Routing** (Route Tables), and **Filtering** (Security Groups/NSGs).
 
-## 1. Universal Concepts & Cloud Mapping
+### 1. Universal Concepts & Cloud Mapping
 
 | Universal Concept | Definition | AWS Implementation | Azure Implementation |
 |:--- |:--- |:--- |:--- |
@@ -39,31 +39,34 @@ updated:
 | **Private Access** | Accessing cloud services without public internet. | **PrivateLink** (Interface Endpoint) | **Private Endpoint** |
 | **Interconnect** | Dedicated physical link to on-premise. | **Direct Connect** | **ExpressRoute** |
 
-## 2. Kubernetes Integration (EKS vs AKS)
+### 2. Kubernetes Integration (EKS Vs AKS)
 
 Both platforms use the **CNI (Container Network Interface)** standard to bridge the Cloud Network with the Cluster Network.
 
-### AWS EKS (VPC CNI)
-*   **Mechanism:** Pods receive real IPs from the VPC Subnet.
-*   **Constraint:** Pod density is limited by the number of ENIs (Elastic Network Interfaces) and IPs an EC2 instance can hold.
-*   **Security:** Security Groups can be applied directly to Pods (Security Groups for Pods).
+#### AWS EKS (VPC CNI)
 
-### Azure AKS (Azure CNI vs Kubenet)
-*   **Azure CNI:** Similar to AWS. Pods get VNet IPs. High performance, high IP consumption.
-*   **Kubenet:** Uses a simpler overlay (NAT). Pods get internal IPs not visible to the VNet. Saves IP space but adds a NAT hop.
+- **Mechanism:** Pods receive real IPs from the VPC Subnet.
+- **Constraint:** Pod density is limited by the number of ENIs (Elastic Network Interfaces) and IPs an EC2 instance can hold.
+- **Security:** Security Groups can be applied directly to Pods (Security Groups for Pods).
 
-## 3. The Routing Logic (The Path of a Packet)
+#### Azure AKS (Azure CNI Vs Kubenet)
+
+- **Azure CNI:** Similar to AWS. Pods get VNet IPs. High performance, high IP consumption.
+- **Kubenet:** Uses a simpler overlay (NAT). Pods get internal IPs not visible to the VNet. Saves IP space but adds a NAT hop.
+
+### 3. The Routing Logic (The Path of a Packet)
 
 Understanding the "Next Hop" is the key to debugging.
 
-1.  **Local Traffic:** Always routed internally within the VNet/VPC (default local route).
-2.  **Internet Traffic:**
-    *   *Public Subnet:* Route `0.0.0.0/0` -> Internet Gateway.
-    *   *Private Subnet:* Route `0.0.0.0/0` -> NAT Gateway.
-3.  **Peered Traffic:** Route `Target_CIDR` -> Peering Connection.
-4.  **VPN/On-Prem:** Route `OnPrem_CIDR` -> Virtual Private Gateway / VPN Gateway.
+1. **Local Traffic:** Always routed internally within the VNet/VPC (default local route).
+2. **Internet Traffic:**
+    - _Public Subnet:_ Route `0.0.0.0/0` -> Internet Gateway.
+    - _Private Subnet:_ Route `0.0.0.0/0` -> NAT Gateway.
+3. **Peered Traffic:** Route `Target_CIDR` -> Peering Connection.
+4. **VPN/On-Prem:** Route `OnPrem_CIDR` -> Virtual Private Gateway / VPN Gateway.
+5. **Traffic Hair-pinning (NAT Loopback):** Internal clients accessing internal services via Public IP. The router translates Public IP -> Private IP and reflects traffic back to LAN.
 
-## 4. Debugging Primitives
+### 4. Debugging Primitives
 
-*   **Flow Logs:** (VPC Flow Logs / NSG Flow Logs). The source of truth for "blocked vs allowed."
-*   **Reachability Analyzer:** (AWS Reachability Analyzer / Azure Network Watcher). Simulates a packet to find the configuration error (missing route, blocking NSG).
+- **Flow Logs:** (VPC Flow Logs / NSG Flow Logs). The source of truth for "blocked vs allowed."
+- **Reachability Analyzer:** (AWS Reachability Analyzer / Azure Network Watcher). Simulates a packet to find the configuration error (missing route, blocking NSG).

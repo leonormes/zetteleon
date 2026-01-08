@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-20T07:24:49Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:17+00:00
+modified: 2026-01-08T10:49:52+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -18,7 +18,7 @@ updated:
 version: ""
 ---
 
-Unfortunately, `git ls-files --stage` by itself doesn't directly emphasize or highlight the *changes* within `file1`. It will show that `file1` is in the index and its current blob hash, but it won't show you the diff between the previous version and the staged version.
+Unfortunately, `git ls-files --stage` by itself doesn't directly emphasize or highlight the _changes_ within `file1`. It will show that `file1` is in the index and its current blob hash, but it won't show you the diff between the previous version and the staged version.
 
 However, you can combine `git ls-files --stage` with other Git commands to see the differences.
 
@@ -91,8 +91,8 @@ This shows all the changes you have made that are not yet staged.
 
 **Key Points:**
 
-- `git ls-files --stage` shows the *presence* of `file1` in the index and its blob hash.
-- `git diff --cached` shows the *changes* that have been staged in the index.
+- `git ls-files --stage` shows the _presence_ of `file1` in the index and its blob hash.
+- `git diff --cached` shows the _changes_ that have been staged in the index.
 - `git diff HEAD -- file1` shows the changes between the last commit and your working directory.
 - `git diff file1` shows the changes between the index and your working directory.
 

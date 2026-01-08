@@ -1,16 +1,16 @@
 ---
-source_of_truth: []
-aliases: ["Experiential Learning", "Active Learning Pedagogy", "Kolb's Cycle", "Inquiry-Based Learning"]
+aliases: ["Active Learning Pedagogy", "Experiential Learning", "Inquiry-Based Learning", "Kolb's Cycle"]
 confidence: "5/5"
 created: 2026-01-02T15:10:00Z
 epistemic: "knowledge"
 last_reviewed: "2026-01-02"
-modified: 2026-01-03T10:18:48+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "To define educational principles based on the premise that understanding is rooted in experience, emphasizing the need to build experiential foundations before linguistic description."
 review_interval: "2 years"
-see_also: ["[[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]", "[[SoT - Accelerated Learning (3C Protocol)]]"]
+see_also: ["[[SoT - Accelerated Learning (3C Protocol)]]", "[[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]"]
+source_of_truth: []
 status: "stable"
-tags: ["education", "learning", "pedagogy", "kolb", "active-learning"]
+tags: ["active-learning", "education", "kolb", "learning", "pedagogy"]
 title: SoT - Experiential Learning & Education
 type: "SoT"
 ---
@@ -18,7 +18,7 @@ type: "SoT"
 ## 1. Core Pedagogical Principle
 
 **Experience Precedes Description.**
-If understanding is fundamentally pre-linguistic, education must prioritize building an experiential foundation *before* introducing formal definitions or abstract language. The educator's role shifts from "Transmitter of Knowledge" to **"Architect of Experience."**
+If understanding is fundamentally pre-linguistic, education must prioritize building an experiential foundation _before_ introducing formal definitions or abstract language. The educator's role shifts from "Transmitter of Knowledge" to **"Architect of Experience."**
 
 ---
 
@@ -37,8 +37,8 @@ Learning is a recursive process transforming experience into knowledge:
 
 Mirroring the natural scientific process, students start with questions/problems rather than answers.
 
-* **Mechanism:** Curiosity drives the acquisition of knowledge.
-* **Outcome:** Higher retention and critical thinking compared to passive reception.
+- **Mechanism:** Curiosity drives the acquisition of knowledge.
+- **Outcome:** Higher retention and critical thinking compared to passive reception.
 
 ---
 
@@ -48,26 +48,26 @@ Mirroring the natural scientific process, students start with questions/problems
 
 Educators must help students wield language as a tool to refine their experience:
 
-* **Joint Attention:** Naming processes *while* they occur ("Notice how it turns blue?").
-* **Articulation:** Journaling and discussion *after* the experience to translate tacit know-how into explicit language.
-* **Vocabulary Placement:** Introduce terms only *after* the concept has been felt/observed. "Here is the name for what you just saw."
+- **Joint Attention:** Naming processes _while_ they occur ("Notice how it turns blue?").
+- **Articulation:** Journaling and discussion _after_ the experience to translate tacit know-how into explicit language.
+- **Vocabulary Placement:** Introduce terms only _after_ the concept has been felt/observed. "Here is the name for what you just saw."
 
 ### 3.2 Teaching Abstractions
 
 How to teach concepts with no direct sensory referent (e.g., Justice, Calculus)?
 
-* **Analogical Grounding:** Use metaphor to map the abstract onto the concrete (Electricity -> Water Flow).
-* **Simulation:** Use role-play or case studies to create a "proxy experience."
-* **Inductive Approach:** Move from specific examples -> General Principle, rather than Definition -> Examples.
+- **Analogical Grounding:** Use metaphor to map the abstract onto the concrete (Electricity -> Water Flow).
+- **Simulation:** Use role-play or case studies to create a "proxy experience."
+- **Inductive Approach:** Move from specific examples -> General Principle, rather than Definition -> Examples.
 
 ---
 
 ## 4. Assessment Implications
 
-If language is only a *proxy* for understanding:
+If language is only a _proxy_ for understanding:
 
-* **Linguistic Fluency!= Understanding.** A student can memorize definitions without grasping the concept.
-* **True Assessment:** Requires **Transfer**—the ability to apply the concept in a novel, non-linguistic, or problem-solving context.
+- **Linguistic Fluency!= Understanding.** A student can memorize definitions without grasping the concept.
+- **True Assessment:** Requires **Transfer**—the ability to apply the concept in a novel, non-linguistic, or problem-solving context.
 
 | Feature | Traditional Approach | Experiential Approach |
 |:--- |:--- |:--- |

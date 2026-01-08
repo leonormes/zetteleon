@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-19"
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the Monad not as a mathematical abstraction, but as a software design pattern for decoupling business logic from control flow complexity (Pipeline Abstraction)."
 review_interval: "1 year"
 see_also: ["[[SoT - Functional Effects (Effects as Data)]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "design_patterns", "functional_programming", "monads"]
+tags: ["design_patterns", "functional_programming", "monads", "SoftwareEngineering/Architecture"]
 title: SoT - The Monad Design Pattern (Pipeline Abstraction)
 type: "SoT"
 uid: 
@@ -22,19 +22,19 @@ updated:
 > [!definition] Definition
 > The **Monad Design Pattern** is a structural mechanism that abstracts away **control flow complexity** (context) to allow for the composition of **pure business logic** (content).
 >
-> Architecturally, it serves as a **Pipeline Abstraction**: it shifts the focus from *imperative implementation details* (how to handle nulls, errors, or async scheduling at every step) to *declarative intent* (what operations to perform in sequence).
+> Architecturally, it serves as a **Pipeline Abstraction**: it shifts the focus from _imperative implementation details_ (how to handle nulls, errors, or async scheduling at every step) to _declarative intent_ (what operations to perform in sequence).
 
 ## 2. Structural Components
 
 Every Monad consists of three fundamental primitives that enable this abstraction:
 
 1. **The Wrapper (Type Constructor):** A generic type `M<T>` that adds context to a raw type `T`.
-    - *Examples:* `Option<T>` (Context: Existence), `Promise<T>` (Context: Time), `List<T>` (Context: Cardinality).
+    - _Examples:_ `Option<T>` (Context: Existence), `Promise<T>` (Context: Time), `List<T>` (Context: Cardinality).
 2. **The Wrap Function (Unit/Pure/Return):** A constructor that lifts a raw value `T` into the monadic context `M<T>`.
-    - *Examples:* `Some(value)`, `Promise.resolve(value)`.
+    - _Examples:_ `Some(value)`, `Promise.resolve(value)`.
 3. **The Run Function (Bind/FlatMap/`>>=`):** The core operator that enables chaining.
-    - *Signature:* `M<T>, (T -> M<U>) -> M<U>`
-    - *Logic:* It unwraps `M<T>`, executes the hidden infrastructure logic (null checks, error handling), applies the user's function, and returns the new `M<U>`.
+    - _Signature:_ `M<T>, (T -> M<U>) -> M<U>`
+    - _Logic:_ It unwraps `M<T>`, executes the hidden infrastructure logic (null checks, error handling), applies the user's function, and returns the new `M<U>`.
 
 ## 3. Core Mental Models
 

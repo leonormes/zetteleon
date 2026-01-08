@@ -4,13 +4,13 @@ confidence: "0.8"
 created: 2025-11-06T19:53:02Z
 epistemic: "fact"
 last_reviewed: "2025-11-06"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To define time agnosia (time blindness) and explain its impact on project planning and deadlines for developers with ADHD."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["planning", "time-agnosia", "time-management", "TheHuman/Health/ADHD"]
+tags: ["planning", "TheHuman/Health/ADHD", "time-agnosia", "time-management"]
 title: Time Agnosia Impairs Planning for Developers with ADHD
 type: "concept"
 uid: 

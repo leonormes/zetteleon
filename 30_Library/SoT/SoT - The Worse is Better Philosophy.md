@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "principle"
 last_reviewed: "2025-12-19"
-modified: 2026-01-03T10:18:49+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To explain the market dynamics that allow simple, less-correct systems to dominate complex, theoretically pure ones."
 review_interval: "12 months"
 see_also: ["[[SoT - Pragmatism vs Rigour in Software]]"]
 source_of_truth: []
 status: "stable"
-tags: ["market-dynamics", "TheHuman/Philosophy", "software-design"]
+tags: ["market-dynamics", "SoftwareEngineering", "TheHuman/Philosophy"]
 title: SoT - The Worse is Better Philosophy
 type: "SoT"
 uid: 
@@ -46,7 +46,7 @@ The success of "Worse is Better" systems is not an accident; it's a predictable 
 
 ### Protocol: Applying "Worse is Better" for Project Success
 
-*Use when launching a new open-source project, internal tool, or library.*
+_Use when launching a new open-source project, internal tool, or library._
 
 **Phase 1: Maximize for Initial Adoption**
 

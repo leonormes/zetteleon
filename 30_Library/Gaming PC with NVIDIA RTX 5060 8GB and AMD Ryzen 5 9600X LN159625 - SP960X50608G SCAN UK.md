@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-24T10:22:42Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:58+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -35,15 +35,15 @@ Price is about £1,030 with free delivery and optional finance.
 
 [Hello, we are SCAN](https://www.scan.co.uk/hello) [SITE FEEDBACK](https://www.scan.co.uk/help/website/feedback/new-site-feedback)
 
-[*Scan.co.uk***Award winning**\
+[_Scan.co.uk_**Award winning**\
 
 Systems and customer service](<https://www.scan.co.uk/info/awards>)
 
-[*Trustpilot***4.8 rating on Trustpilot**\
+[_Trustpilot_**4.8 rating on Trustpilot**\
 
 From over 47,786 customer reviews](<https://secure.scan.co.uk/web/the-word>)
 
-[*PayPal Credit***0% interest up to 4 months**\
+[_PayPal Credit_**0% interest up to 4 months**\
 
 Minimum spend applies from £99](<https://www.scan.co.uk/info/paypal-credit>)
 

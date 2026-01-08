@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-10-20T09:17:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["coherence", "TheHuman/Cognition", "SoftwareEngineering/AI"]
+tags: ["coherence", "SoftwareEngineering/AI", "TheHuman/Cognition"]
 title: Coherent LLM output signals meaningful processing
 type: ""
 uid: 

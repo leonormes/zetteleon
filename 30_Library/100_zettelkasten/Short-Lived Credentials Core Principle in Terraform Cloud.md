@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-10-24T15:34:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["authentication", "CICD", "OIDC", "SoftwareEngineering/Security", "short-lived-credentials"]
+tags: ["authentication", "CICD", "OIDC", "short-lived-credentials", "SoftwareEngineering/Security"]
 title: Short-Lived Credentials Core Principle in Terraform Cloud
 type: ""
 uid: 

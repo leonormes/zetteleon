@@ -1,32 +1,32 @@
 ---
-aliases: ["The Seven Pillars of Movement", "Technical Movement Standards", "Primal Progressions", "Hanging Mechanics"]
+aliases: ["Hanging Mechanics", "Primal Progressions", "Technical Movement Standards", "The Seven Pillars of Movement"]
 confidence: "5/5"
 created: 2025-12-30T16:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2026-01-03T10:18:52+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "A dense technical registry of foundational human movement patterns, progressions, and standards."
 review_interval: "6 months"
 see_also: ["[[SoT - Functional Mobility & Primal Movement]]"]
 source_of_truth: []
 status: "stable"
-tags: ["fitness", "mobility", "primal_movement", "longevity", "progressions"]
+tags: ["fitness", "longevity", "mobility", "primal_movement", "progressions"]
 title: SoT - Primal Movement Patterns
 type: "SoT"
 uid: 
 updated: 
 ---
 
-# SoT - Primal Movement Patterns
+## SoT - Primal Movement Patterns
 
-## 1. Definitive Statement
+### 1. Definitive Statement
 
 > [!definition] Primal Movement Patterns
 > The "Alphabet" of human motion. All complex physical activity is a derivation or combination of these foundational patterns. Mastery requires balancing **Stability (Stillness)** with **Mobility (Motion)**.
 
 ---
 
-## 2. The Technical Registry (The Seven Pillars)
+### 2. The Technical Registry (The Seven Pillars)
 
 | Pattern | Primary Mechanic | Isometric Baseline | Primary Exercises |
 |:--- |:--- |:--- |:--- |
@@ -40,25 +40,25 @@ updated:
 
 ---
 
-## 3. Deep-Dive: Specific Forms & Mechanics
+### 3. Deep-Dive: Specific Forms & Mechanics
 
-### I. The Crab (Supine Quadrupedal)
+#### I. The Crab (Supine Quadrupedal)
 
-* **Role:** Posterior Chain activation and Chest opening.
-* **Hand Position:**
-    * *Standard:* Fingers toward feet (Max external rotation/Chest stretch).
-    * *Safety:* Fingers away/outward (Reduces wrist extension demand).
-* **Technical Cue:** Prioritize **Scapular Depression** (pulling blades away from ears) to prevent shoulder impingement.
+- **Role:** Posterior Chain activation and Chest opening.
+- **Hand Position:**
+    - _Standard:_ Fingers toward feet (Max external rotation/Chest stretch).
+    - _Safety:_ Fingers away/outward (Reduces wrist extension demand).
+- **Technical Cue:** Prioritize **Scapular Depression** (pulling blades away from ears) to prevent shoulder impingement.
 
-### II. Hanging Mechanics (The Pull Foundation)
+#### II. Hanging Mechanics (The Pull Foundation)
 
-* **Passive Hang:** Total relaxation; focus on spinal decompression and grip endurance.
-* **Active Hang:** Scapular depression/retraction; "packing" the shoulders to build structural stability.
-* **The 7-Minute Challenge:** Accumulate 7 minutes of total hanging time per day to remodel shoulder tissue and maximize grip longevity.
+- **Passive Hang:** Total relaxation; focus on spinal decompression and grip endurance.
+- **Active Hang:** Scapular depression/retraction; "packing" the shoulders to build structural stability.
+- **The 7-Minute Challenge:** Accumulate 7 minutes of total hanging time per day to remodel shoulder tissue and maximize grip longevity.
 
 ---
 
-## 4. Stability & Stillness (The Root)
+### 4. Stability & Stillness (The Root)
 
 Movement is only as safe as the stillness that precedes it.
 
@@ -68,7 +68,7 @@ Movement is only as safe as the stillness that precedes it.
 
 ---
 
-## 5. Minimum Viable Understanding (MVU)
+### 5. Minimum Viable Understanding (MVU)
 
 1. **Hinge vs Squat:** Hinge is "Butt back" (Hips); Squat is "Butt down" (Knees).
 2. **Pull vs Push:** Pulling requires Scapular initiation (Back); Pushing requires Shoulder packing (Stability).

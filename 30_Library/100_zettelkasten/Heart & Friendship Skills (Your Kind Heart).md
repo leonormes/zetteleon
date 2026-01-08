@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-10T10:12:15Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -18,7 +18,7 @@ updated:
 version: ""
 ---
 
-*These strengths are all about how you connect with other people and show you care.*
+_These strengths are all about how you connect with other people and show you care._
 
 - Kindness: Being generous, compassionate, and doing good things for others just to make them happy. (VIA Strength)
 - Love: Valuing your close relationships with family and friends and showing them you care. (VIA Strength)

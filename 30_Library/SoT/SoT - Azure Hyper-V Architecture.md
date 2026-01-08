@@ -1,10 +1,10 @@
 ---
-aliases: ["Azure Hypervisor", "Hyper-V Root Partition", "Azure Boost"]
+aliases: ["Azure Boost", "Azure Hypervisor", "Hyper-V Root Partition"]
 confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "architecture"
 last_reviewed: "2025-12-31"
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "To define the Azure virtualization model and its implications for latency-sensitive workloads."
 review_interval: "1 year"
 see_also: ["[[MOC - Cloud Hardware Architecture]]", "[[SoT - AWS Nitro System]]"]
@@ -31,8 +31,8 @@ Azure presents a **Virtual NUMA (vNUMA)** topology to the guest, which attempts 
 
 Hyper-V may construct a large VM (e.g., `Standard_D96s_v6`) from non-contiguous physical cores if the host is fragmented.
 
-* **The Problem:** The guest sees "1 NUMA Node," but physically, the memory spans two sockets.
-* **The Cost:** A thread accesses "Local RAM" (according to vNUMA) but physically traverses the UPI link (Remote RAM), incurring a **1.5x - 2.5x latency penalty**.
+- **The Problem:** The guest sees "1 NUMA Node," but physically, the memory spans two sockets.
+- **The Cost:** A thread accesses "Local RAM" (according to vNUMA) but physically traverses the UPI link (Remote RAM), incurring a **1.5x - 2.5x latency penalty**.
 
 ### 2.2 Root Partition Jitter
 

@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T13:41:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "Explain the OS role in socket management and abstraction."
 review_interval: "90"
 see_also: ["File Descriptor as OS Socket Handle.md", "Socket is a Software Endpoint for Network Communication.md"]

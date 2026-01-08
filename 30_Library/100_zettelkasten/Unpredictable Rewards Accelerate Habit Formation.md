@@ -4,14 +4,14 @@ confidence: ""
 created: 2025-10-30T12:05:09Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "TheHuman/Neuroscience", "rewards", "TheHuman/Habits"]
+tags: ["dopamine", "rewards", "TheHuman/Habits", "TheHuman/Neuroscience"]
 title: Unpredictable Rewards Accelerate Habit Formation
 type: "concept"
 uid: 

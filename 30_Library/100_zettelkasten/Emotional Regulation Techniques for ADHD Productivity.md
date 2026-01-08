@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-26T11:15:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -47,4 +47,4 @@ The process combines a physical component (tapping) with a cognitive component (
 - Practice [[Cognitive Reframing of Criticism]] preemptively
 - Schedule recovery time after tough exchanges
 
-*Source: Synthesized from notes on ADHD productivity hacks.*
+_Source: Synthesized from notes on ADHD productivity hacks._

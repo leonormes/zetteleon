@@ -1,21 +1,21 @@
 ---
 aliases: []
-tags: []
-title: "Prompt for Gemini Pro: Architecting the ProdOS Learning Engine"
-type: ""
-status: ""
 confidence: ""
-epistemic: ""
-purpose: ""
 created: 2026-01-01T18:58:13+00:00
-modified: 2026-01-03T10:19:44+00:00
+epistemic: ""
 last_reviewed: ""
+modified: 2026-01-08T10:50:02+00:00
+purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
+status: ""
+tags: []
+title: planning-learning-system-prompt
+type: ""
 ---
 
-# Prompt for Gemini Pro: Architecting the ProdOS Learning Engine
+## Prompt for Gemini Pro: Architecting the ProdOS Learning Engine
 
 **Context:**
 I am a developer with ADHD using "ProdOS," an Obsidian-based system designed for "Action over Collection." I currently have scattered notes containing curriculums and learning paths, but I lack a cohesive system to manage them. I struggle with focus and need a system that enforces working on **one learning project at a time** while allowing me to easily pick up where I left off.
@@ -24,7 +24,7 @@ I am a developer with ADHD using "ProdOS," an Obsidian-based system designed for
 1. **Single Threaded:** I can only have ONE "Active Learning Project" at a time.
 2. **Gamified:** I want to treat learning like a game (Levels, Missions, Boss Fights).
 3. **Practical:** Theory is useless without a "Boss Fight" (a concrete project proving knowledge).
-4. **Low Friction:** It must be easy to switch contexts if I *must*, but the system should discourage it.
+4. **Low Friction:** It must be easy to switch contexts if I _must_, but the system should discourage it.
 
 **Existing Assets:**
 I already have a `Template - Learning Project` that looks like this:

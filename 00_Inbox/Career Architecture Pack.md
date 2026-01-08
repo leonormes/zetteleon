@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-26T15:08:39+00:00
 epistemic: ""
 last_reviewed: ""
-modified: 2025-12-26T16:20:11+00:00
+modified: 2026-01-08T10:50:03+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -62,8 +62,8 @@ updated:
 #### **Professional Experience**
 
 **FITFILE | Senior Engineer / Platform Engineer**
-*Remote / London, UK | October 2022–Present*
-*FITFILE provides privacy-enhancing technologies for healthcare data analytics.*
+_Remote / London, UK | October 2022–Present_
+_FITFILE provides privacy-enhancing technologies for healthcare data analytics._
 
 **High-Level Achievement:** Architected a comprehensive Terraform-based platform for automating customer onboarding, reducing deployment time by **86%** (70 mins to 10 mins) and error rates from **22% to 3%**.
 
@@ -73,8 +73,8 @@ updated:
 - **GitOps Implementation:** Deployed ArgoCD for declarative application management across Azure (AKS) and AWS (EKS), ensuring <5 minutes sync drift and enabling rapid rollback capabilities.
 
 **nate | Software Engineer (Backend/DevOps)**
-*London, UK | September 2021–August 2022*
-*FinTech startup focusing on universal shopping automation.*
+_London, UK | September 2021–August 2022_
+_FinTech startup focusing on universal shopping automation._
 
 **High-Level Achievement:** Led the transition toward DevOps culture by introducing DORA metrics and Kubernetes-native CI/CD, directly linking engineering output to business value delivery.
 
@@ -83,8 +83,8 @@ updated:
 - **CI/CD Architecture:** Architected and deployed a K8s-native CI/CD pipeline using ArgoCD, shifting the team towards a continuous delivery model.
 
 **Tessian | Node.js Developer**
-*London, UK | February 2018–September 2021*
-*Cybersecurity company using machine learning to prevent email security breaches.*
+_London, UK | February 2018–September 2021_
+_Cybersecurity company using machine learning to prevent email security breaches._
 
 **High-Level Achievement:** Key contributor to the email gateway server infrastructure, managing the migration from JavaScript to TypeScript to reduce technical debt and improve maintainability.
 
@@ -92,7 +92,7 @@ updated:
 - **Culture & Quality:** Championed "Test First" methodologies and cross-team knowledge sharing. Awarded "Culture Champion" for fostering engineering excellence and breaking down silos.
 
 **FifthMorrison | Web Developer**
-*United Kingdom | June 2017–February 2018*.
+_United Kingdom | June 2017–February 2018_.
 
 - **Full Stack Development:** Built complex web applications using Postgres, GraphQL, Express, and Angular. Responsible for end-to-end delivery of software solutions under the Lead Developer.
 
@@ -100,9 +100,9 @@ updated:
 
 #### **Previous Experience**
 
-**Teacher (Maths, ICT, Music)** | King John School | *September 2007–January 2017*
+**Teacher (Maths, ICT, Music)** | King John School | _September 2007–January 2017_
 - Developed high-level communication and leadership skills managing large groups.
-- *Relevance:* Transferable skills in mentorship, public speaking, and simplifying complex concepts for diverse audiences.
+- _Relevance:_ Transferable skills in mentorship, public speaking, and simplifying complex concepts for diverse audiences.
 
 #### **Education & Certifications**
 
@@ -175,7 +175,7 @@ I operate at the intersection of Software Engineering and Infrastructure, applyi
 
 #### Topic A: The FITFILE Onboarding Architecture
 
-**Question:** *"How did you reduce onboarding time by 86%?"*
+**Question:** _"How did you reduce onboarding time by 86%?"_
 - **Situation:** High-friction manual process (70 mins), mutable state, 22% error rate.
 - **Action:** Implemented "Central Services" repo (Single Source of Truth), reusable Terraform modules, and a custom Go tool (`chart-manager`) for Helm lifecycles.
 - **Key Concept:** **Immutability**. Replacing "repairing servers" with "re-provisioning validated state."
@@ -183,7 +183,7 @@ I operate at the intersection of Software Engineering and Infrastructure, applyi
 
 #### Topic B: Observability (nate)
 
-**Question:** *"How do you measure engineering success?"*
+**Question:** _"How do you measure engineering success?"_
 - **Situation:** Invisible work and subjective "feelings" about speed vs. stability.
 - **Action:** Implemented **DORA Metrics** (Deployment Frequency, Lead Time). Architected K8s-native CI/CD (ArgoCD) to decouple CI from CD.
 - **Key Concept:** **Feedback Loops**. Making the invisible visible to drive safe velocity.
@@ -191,7 +191,7 @@ I operate at the intersection of Software Engineering and Infrastructure, applyi
 
 #### Topic C: Security in Regulated Ops
 
-**Question:** *"How do you handle security without slowing down devs?"*
+**Question:** _"How do you handle security without slowing down devs?"_
 - **Situation:** Healthcare data (NHS) requires Zero Trust, but manual security gates kill velocity.
 - **Action:** **Policy as Code**. Terraform for network micro-segmentation (Azure NSGs, Forced Tunnelling). Kubernetes Network Policies (Calico) for pod-level isolation.
 - **Key Concept:** **Guardrails, not Gates**. Security is baked into the platform; developers can't deploy insecurely even if they try.

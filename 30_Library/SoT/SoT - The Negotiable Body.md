@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-23T19:53:33Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the plastic nature of human bodily boundaries and the physiological mechanisms of tool incorporation."
 review_interval: "6 months"
 see_also: ["[[SoT - Functional Mobility & Primal Movement]]", "[[SoT - The Extended Mind]]"]
 source_of_truth: []
 status: "stable"
-tags: ["embodiment", "extended_mind", "TheHuman/Neuroscience", "somatics", "TheHuman/Cognition"]
+tags: ["embodiment", "extended_mind", "somatics", "TheHuman/Cognition", "TheHuman/Neuroscience"]
 title: SoT - The Negotiable Body
 type: "SoT"
 uid: 
@@ -53,4 +53,4 @@ Bodily negotiability extends to how we sense the world (e.g., Tactile-Visual Sub
 
 ## 5. Summary
 
-The **Negotiable Body** serves as a biological proof-of-concept for the Extended Mind. If our *physical* boundaries are this fluid, it is highly plausible that our *mental* boundaries are equally permeable, incorporating external media (notebooks, digital interfaces) into the circuitry of the mind.
+The **Negotiable Body** serves as a biological proof-of-concept for the Extended Mind. If our _physical_ boundaries are this fluid, it is highly plausible that our _mental_ boundaries are equally permeable, incorporating external media (notebooks, digital interfaces) into the circuitry of the mind.

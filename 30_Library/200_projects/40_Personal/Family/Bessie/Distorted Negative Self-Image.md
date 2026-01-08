@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-06-22T17:43:30Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:08+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -20,7 +20,7 @@ version: ""
 
 For individuals with ADHD, an inability to accurately observe their own performance, coupled with heightened sensitivity to perceived criticism and a history of underachievement, often leads to a "distorted negative self-image".
 
-Without consistent, clear feedback, Bessie is left to interpret her performance, which can be misread and contribute to feelings of shame and low self-regard, further impacting her willingness to engage with opportunities. The *ADHD 2.0* authors state that "shame is the most disabling learning disability".
+Without consistent, clear feedback, Bessie is left to interpret her performance, which can be misread and contribute to feelings of shame and low self-regard, further impacting her willingness to engage with opportunities. The _ADHD 2.0_ authors state that "shame is the most disabling learning disability".
 
 [[How the Lack of Formative Assessment is Damaging for Bessie's Self-Efficacy]]
 

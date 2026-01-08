@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-15T10:49:42Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:30+00:00
+modified: 2026-01-08T10:49:57+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -27,7 +27,7 @@ Grafana Cloud offers a comprehensive system for monitoring, alerting, and incide
 ### Key Components in Grafana Cloud IRM
 
 1. **Alert Rules**: These define the conditions in your monitored metrics or log data that indicate a problem. For example, an alert rule might be set to fire when CPU usage exceeds 90% for 5 minutes.
-2. **Contact Points**: These specify *who* should get notified and *how* (e.g., Slack message, email, PagerDuty).
+2. **Contact Points**: These specify _who_ should get notified and _how_ (e.g., Slack message, email, PagerDuty).
 3. **Notification Policies (Routing)**: These manage how alert instances are routed to contact points, including escalation paths and grouping.
 4. **Alert Instances and States**: When an alert rule condition is met, an alert instance is created and goes through states like pending, firing, or recovered.
 5. **Alertmanager**: This component handles alert deduplication, grouping, silencing, and routing notifications.

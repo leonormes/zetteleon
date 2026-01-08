@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To define the pattern where a partner's lack of follow-up signals a dismissal of relational concerns."
 review_interval: "1 year"
 see_also: ["[[SoT - Relationship Maintenance and Emotional Labour]]"]
@@ -30,7 +30,7 @@ When a partner goes silent after a valid point and never returns to the topic, t
 
 ## 🧪 The Diagnostic (Acid Test)
 
-Does the partner follow up on things that matter to *them* (work stress, family plans, personal needs)?
+Does the partner follow up on things that matter to _them_ (work stress, family plans, personal needs)?
 
 - **If Yes:** They possess the cognitive capacity to remember; they are choosing not to apply it to your concerns.
 - **If No:** There may be a broader cognitive or memory issue unrelated to the relationship.

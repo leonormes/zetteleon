@@ -1,149 +1,149 @@
 ---
-aliases: ["Chores List", "Home Maintenance Registry", "Cleaning SOPs", "Atomic Chores Inventory"]
+aliases: ["Atomic Chores Inventory", "Chores List", "Cleaning SOPs", "Home Maintenance Registry"]
 confidence: "Draft"
 created: 2025-12-30T10:00:00Z
 epistemic: "inventory"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T14:42:06+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To provide a comprehensive, atomic inventory of all household maintenance tasks to enable flexible assignment and iterating on standards."
 review_interval: "3 months"
 see_also: ["[[SoT - Family Household Governance]]"]
 source_of_truth: []
 status: "proposal"
-tags: ["family", "chores", "system", "inventory"]
+tags: ["chores", "family", "inventory", "system"]
 title: SoT - Master Household Chores Inventory
 type: "SoT"
 uid: 
 updated: 
 ---
 
-# SoT - Master Household Chores Inventory
+## SoT - Master Household Chores Inventory
 
-## 1. Governance Principles
+### 1. Governance Principles
 
-* **Atomic Design:** Tasks are broken down into their smallest executable units (e.g., "Load" vs. "Unload") to allow for micro-assignments and precise definition of done.
-* **Frequency Definitions:**
-    * **Daily:** Required to maintain operational baseline (avoiding entropy).
-    * **Weekly:** Hygiene and deep resets.
-    * **Monthly/Quarterly:** Infrastructure maintenance.
-
----
-
-## 2. Zone: Kitchen & Dining
-
-*The engine room of the house. High throughput, high hygiene requirement.*
-
-### Daily (Operational)
-
-* **[Atomic] Clear Table:** Remove all crockery, glasses, and debris from dining table.
-* **[Atomic] Wipe Table:** Spray and wipe dining table surface (crumb-free).
-* **[Atomic] Load Dishwasher:** Place dirty items in racks; ensure spray arms spin freely.
-* **[Atomic] Unload Dishwasher:** Return clean, dry items to cupboards.
-* **[Atomic] Wipe Counters:** Sanitize food preparation surfaces.
-* **[Atomic] Sink Reset:** Empty strainer, scrub sink basin, rinse away foam/debris.
-* **[Atomic] Floor Spot-Sweep:** Sweep up visible crumbs/debris after meals.
-
-### Weekly (Hygiene)
-
-* **[Atomic] Deep Floor Clean:** Vacuum edges and mop entire floor area.
-* **[Atomic] Microwave Interior:** Steam/wipe inside of microwave.
-* **[Atomic] Hob Clean:** Scrub stovetop and splashback.
-* **[Atomic] Cabinet Fronts:** Wipe down cupboard doors/handles (fingerprints).
-
-### Monthly (Maintenance)
-
-* **[Atomic] Fridge Audit:** Check dates, discard expired, wipe shelves.
-* **[Atomic] Bin Deep Clean:** Disinfect inside of kitchen bin.
-* **[Atomic] Dishwasher Filter:** Remove and rinse filter.
+- **Atomic Design:** Tasks are broken down into their smallest executable units (e.g., "Load" vs. "Unload") to allow for micro-assignments and precise definition of done.
+- **Frequency Definitions:**
+    - **Daily:** Required to maintain operational baseline (avoiding entropy).
+    - **Weekly:** Hygiene and deep resets.
+    - **Monthly/Quarterly:** Infrastructure maintenance.
 
 ---
 
-## 3. Zone: Front Room (Living Area)
+### 2. Zone: Kitchen & Dining
 
-*Shared social space. Focus on clutter control and comfort.*
+_The engine room of the house. High throughput, high hygiene requirement._
 
-### Daily (Reset)
+#### Daily (Operational)
 
-* **[Atomic] Floor Clear:** Remove items (shoes, toys, mugs) that do not belong.
-* **[Atomic] Cushion Plumping:** Reset sofa cushions and fold throw blankets.
+- **[Atomic] Clear Table:** Remove all crockery, glasses, and debris from dining table.
+- **[Atomic] Wipe Table:** Spray and wipe dining table surface (crumb-free).
+- **[Atomic] Load Dishwasher:** Place dirty items in racks; ensure spray arms spin freely.
+- **[Atomic] Unload Dishwasher:** Return clean, dry items to cupboards.
+- **[Atomic] Wipe Counters:** Sanitize food preparation surfaces.
+- **[Atomic] Sink Reset:** Empty strainer, scrub sink basin, rinse away foam/debris.
+- **[Atomic] Floor Spot-Sweep:** Sweep up visible crumbs/debris after meals.
 
-### Weekly (Clean)
+#### Weekly (Hygiene)
 
-* **[Atomic] Dust Surfaces:** TV stand, shelves, skirting boards.
-* **[Atomic] Vacuum Floor:** Including under coffee table and sofa edges.
-* **[Atomic] Glass Clean:** Wipe TV screen (microfibre only) and mirrors/glass surfaces.
+- **[Atomic] Deep Floor Clean:** Vacuum edges and mop entire floor area.
+- **[Atomic] Microwave Interior:** Steam/wipe inside of microwave.
+- **[Atomic] Hob Clean:** Scrub stovetop and splashback.
+- **[Atomic] Cabinet Fronts:** Wipe down cupboard doors/handles (fingerprints).
 
----
+#### Monthly (Maintenance)
 
-## 4. Zone: Bathrooms (x2)
-
-*Sanitation critical zones.*
-
-### Daily (Maintenance)
-
-* **[Atomic] Towel Reset:** Hang up damp towels; put dirty ones in hamper.
-* **[Atomic] Sink Rinse:** Rinse toothpaste/soap marks from basin.
-
-### Weekly (Deep Clean)
-
-* **[Atomic] Toilet Sanitation:** Bleach/scrub bowl, wipe seat, lid, and flush handle.
-* **[Atomic] Bath/Shower Scrub:** Remove grime ring/hair; rinse thoroughy.
-* **[Atomic] Sink Polish:** Clean basin and polish taps (water-spot free).
-* **[Atomic] Mirror Clean:** Glass cleaner for spot-free reflection.
-* **[Atomic] Floor Mop:** Disinfectant mop of bathroom floor.
-* **[Atomic] Bin Empty:** Empty small bathroom bin to main refuse.
+- **[Atomic] Fridge Audit:** Check dates, discard expired, wipe shelves.
+- **[Atomic] Bin Deep Clean:** Disinfect inside of kitchen bin.
+- **[Atomic] Dishwasher Filter:** Remove and rinse filter.
 
 ---
 
-## 5. Zone: Transit Areas (Hall, Stairs, Landing)
+### 3. Zone: Front Room (Living Area)
 
-*First impressions and connecting arteries.*
+_Shared social space. Focus on clutter control and comfort._
 
-### Daily
+#### Daily (Reset)
 
-* **[Atomic] Shoe Rack Tidy:** Ensure shoes are paired and on the rack/in box.
-* **[Atomic] Coat Rack Audit:** Hang up coats; remove items not currently in use.
+- **[Atomic] Floor Clear:** Remove items (shoes, toys, mugs) that do not belong.
+- **[Atomic] Cushion Plumping:** Reset sofa cushions and fold throw blankets.
 
-### Weekly
+#### Weekly (Clean)
 
-* **[Atomic] Stair Vacuum:** Vacuum treads and risers (corners focus).
-* **[Atomic] Hall/Landing Vacuum:** Vacuum walkways.
-* **[Atomic] Dust Banisters:** Wipe down handrails and spindles.
-
----
-
-## 6. Zone: Private Quarters (Girls' Rooms x3 + Loft)
-
-*Individual responsibility zones.*
-
-### Daily (Occupant Responsibility)
-
-* **[Atomic] Bed Making:** Duvet pulled up, pillows arranged.
-* **[Atomic] Floor Clear:** No clothes or rubbish on the floor.
-* **[Atomic] Laundry Extraction:** Dirty clothes moved to Downstairs Basket.
-
-### Weekly (Occupant/Deep)
-
-* **[Atomic] Change Bedding:** Strip sheets, put on fresh linen.
-* **[Atomic] Dust Surfaces:** Desk, bedside tables, shelves.
-* **[Atomic] Vacuum Room:** Thorough vacuum of carpet.
-* **[Atomic] Bin Empty:** Empty room bin to main refuse.
+- **[Atomic] Dust Surfaces:** TV stand, shelves, skirting boards.
+- **[Atomic] Vacuum Floor:** Including under coffee table and sofa edges.
+- **[Atomic] Glass Clean:** Wipe TV screen (microfibre only) and mirrors/glass surfaces.
 
 ---
 
-## 7. Global Systems
+### 4. Zone: Bathrooms (x2)
 
-*Tasks that span the whole house.*
+_Sanitation critical zones._
 
-### Laundry Cycle
+#### Daily (Maintenance)
 
-* **[Atomic] Wash Load:** Separate colors, load machine, add detergent, start cycle.
-* **[Atomic] Transfer to Dry:** Move wet clothes to dryer or hang on airer/line.
-* **[Atomic] Fold/Sort:** Fold dry clothes and sort into piles by owner.
-* **[Atomic] Put Away:** Return folded clothes to drawers/wardrobes.
+- **[Atomic] Towel Reset:** Hang up damp towels; put dirty ones in hamper.
+- **[Atomic] Sink Rinse:** Rinse toothpaste/soap marks from basin.
 
-### Waste Management
+#### Weekly (Deep Clean)
 
-* **[Atomic] Indoor Consolidation:** Collect bags from all indoor bins (Kitchen, Bathrooms, Bedrooms).
-* **[Atomic] Outdoor Disposal:** Place consolidated bags into Wheelie Bins.
-* **[Atomic] Bin Presentation:** Drag Wheelie Bins to curb for collection (Sunday/Monday).
+- **[Atomic] Toilet Sanitation:** Bleach/scrub bowl, wipe seat, lid, and flush handle.
+- **[Atomic] Bath/Shower Scrub:** Remove grime ring/hair; rinse thoroughy.
+- **[Atomic] Sink Polish:** Clean basin and polish taps (water-spot free).
+- **[Atomic] Mirror Clean:** Glass cleaner for spot-free reflection.
+- **[Atomic] Floor Mop:** Disinfectant mop of bathroom floor.
+- **[Atomic] Bin Empty:** Empty small bathroom bin to main refuse.
+
+---
+
+### 5. Zone: Transit Areas (Hall, Stairs, Landing)
+
+_First impressions and connecting arteries._
+
+#### Daily
+
+- **[Atomic] Shoe Rack Tidy:** Ensure shoes are paired and on the rack/in box.
+- **[Atomic] Coat Rack Audit:** Hang up coats; remove items not currently in use.
+
+#### Weekly
+
+- **[Atomic] Stair Vacuum:** Vacuum treads and risers (corners focus).
+- **[Atomic] Hall/Landing Vacuum:** Vacuum walkways.
+- **[Atomic] Dust Banisters:** Wipe down handrails and spindles.
+
+---
+
+### 6. Zone: Private Quarters (Girls' Rooms X3 + Loft)
+
+_Individual responsibility zones._
+
+#### Daily (Occupant Responsibility)
+
+- **[Atomic] Bed Making:** Duvet pulled up, pillows arranged.
+- **[Atomic] Floor Clear:** No clothes or rubbish on the floor.
+- **[Atomic] Laundry Extraction:** Dirty clothes moved to Downstairs Basket.
+
+#### Weekly (Occupant/Deep)
+
+- **[Atomic] Change Bedding:** Strip sheets, put on fresh linen.
+- **[Atomic] Dust Surfaces:** Desk, bedside tables, shelves.
+- **[Atomic] Vacuum Room:** Thorough vacuum of carpet.
+- **[Atomic] Bin Empty:** Empty room bin to main refuse.
+
+---
+
+### 7. Global Systems
+
+_Tasks that span the whole house._
+
+#### Laundry Cycle
+
+- **[Atomic] Wash Load:** Separate colors, load machine, add detergent, start cycle.
+- **[Atomic] Transfer to Dry:** Move wet clothes to dryer or hang on airer/line.
+- **[Atomic] Fold/Sort:** Fold dry clothes and sort into piles by owner.
+- **[Atomic] Put Away:** Return folded clothes to drawers/wardrobes.
+
+#### Waste Management
+
+- **[Atomic] Indoor Consolidation:** Collect bags from all indoor bins (Kitchen, Bathrooms, Bedrooms).
+- **[Atomic] Outdoor Disposal:** Place consolidated bags into Wheelie Bins.
+- **[Atomic] Bin Presentation:** Drag Wheelie Bins to curb for collection (Sunday/Monday).

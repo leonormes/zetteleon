@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-07T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-07"
-modified: 2026-01-03T10:18:49+00:00
+modified: 2026-01-08T10:49:39+00:00
 purpose: "To define the fundamental concept of a 'Problem' in a domain-agnostic sense, distinguishing it from Tasks, Goals, and Constraints."
 review_interval: "6 months"
 see_also: ["[[Fixed-Schedule Productivity Creates Artificial Constraints to Drive Efficiency]]", "[[Problems Are Fundamental to Meaningful Work]]", "[[SoT - PRODOS - Problem Architecture]]", "[[SoT - PRODOS - Problem-Solution Map]]"]
@@ -29,9 +29,9 @@ updated:
 From logic and cognitive science (Newell & Simon), a problem is defined by **imperfect knowledge**.
 
 - **Scenario A:** You are hungry -> You have an apple -> You eat it.
-  - *Analysis:* Gap exists, but Method is known. **This is a Task.**
+  - _Analysis:_ Gap exists, but Method is known. **This is a Task.**
 - **Scenario B:** You are hungry -> You have no food and no money -> You don't know how to eat.
-  - *Analysis:* Gap exists, and Method is unknown. **This is a Problem.**
+  - _Analysis:_ Gap exists, and Method is unknown. **This is a Problem.**
 
 ### B. Systems Thinking Perspective
 
@@ -47,7 +47,7 @@ Precise definitions prevent "busy work" (treating problems like tasks) and frust
 |:--- |:--- |:--- |:--- |
 | **Situation** | A neutral snapshot of reality. | No "Desired State" implies no problem. | **Acceptance** or Monitoring. |
 | **Goal** | The targeted Desired State. | Defines the destination, implies no difficulty. | **Direction Setting**. |
-| **Task** | A unit of work with a *known path*. | **Zero Uncertainty**. Can be executed immediately. | **Execution** (Do it). |
+| **Task** | A unit of work with a _known path_. | **Zero Uncertainty**. Can be executed immediately. | **Execution** (Do it). |
 | **Problem** | A Goal with **Resistance/Uncertainty**. | **High Uncertainty**. The path must be discovered. | **Solution Design** (Figure it out). |
 
 ### The "Knowledge Gap" Test
@@ -70,7 +70,7 @@ A **Constraint** is a condition that bounds the "solution space." It is a variab
 
 - **Problems** are the search for coordinates (the solution).
 - **Constraints** are the edges of the map (the search space).
-- *Insight:* Constraints are helpful filters that reduce the infinite possibilities of a problem.
+- _Insight:_ Constraints are helpful filters that reduce the infinite possibilities of a problem.
 
 **The Control Test:**
 To distinguish a Problem from a Constraint, use the 1-Minute Decision Tree:
@@ -78,7 +78,7 @@ To distinguish a Problem from a Constraint, use the 1-Minute Decision Tree:
 > "Can I, my team, or my boss change this factor right now?"
 >
 > - **YES:** It is a **Problem**. Solve it.
-> - **NO:** It is a **Constraint**. Optimize *around* it.
+> - **NO:** It is a **Constraint**. Optimize _around_ it.
 
 ---
 
@@ -90,5 +90,5 @@ Before attempting to solve, explicitly define the three components to avoid "Sol
 
 1. **Current State:** (e.g., "Conversion is 1%")
 2. **Desired State:** (e.g., "Conversion is 3%")
-3. **The Gap:** (e.g., "We don't know *why* users drop off.")
-    - *Implication:* The next step is **Discovery** (Analytics), not **Action** (Redesign).
+3. **The Gap:** (e.g., "We don't know _why_ users drop off.")
+    - _Implication:_ The next step is **Discovery** (Analytics), not **Action** (Redesign).

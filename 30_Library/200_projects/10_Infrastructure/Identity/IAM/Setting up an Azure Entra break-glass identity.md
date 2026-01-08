@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-21T10:00:11Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:23+00:00
+modified: 2026-01-08T10:49:54+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -22,7 +22,7 @@ Setting up an Azure Entra break-glass identity is crucial for maintaining access
 
 **Core Principles:**
 
-- **Minimize Usage:** Break-glass accounts should be used *only* when absolutely necessary, such as when all other administrative accounts are inaccessible
+- **Minimize Usage:** Break-glass accounts should be used _only_ when absolutely necessary, such as when all other administrative accounts are inaccessible
 - **Strict Control:** Implement rigorous controls around the account's credentials and usage.
 - **Auditing and Monitoring:** Thoroughly audit and monitor all activity performed by the break-glass account
 - **Separation of Duties:** The break-glass account should be distinct from regular administrative accounts.
@@ -147,7 +147,7 @@ Here's how to implement a least privilege system:
     - This is a strong way to add layers of protection to your environment.
 7. **Break-Glass Account (As Discussed):**
 
-    - The break-glass account should be the *only* standing Global Administrator account (or an account that can be elevated to Global Admin via PIM).
+    - The break-glass account should be the _only_ standing Global Administrator account (or an account that can be elevated to Global Admin via PIM).
     - Follow the best practices outlined in the previous response.
 8. **Automation:**
 

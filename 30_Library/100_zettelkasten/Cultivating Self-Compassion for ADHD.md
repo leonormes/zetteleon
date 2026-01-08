@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-24T15:07:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -24,7 +24,7 @@ Cultivating self-compassion is a vital practice for individuals with Attention-D
 Practical steps to cultivate self-compassion for ADHD include:
 
 - **Reframing the Inner Critic:** Actively questioning self-critical thoughts (e.g., "Would I say this to a friend?") and consciously rephrasing them into more supportive and understanding statements.
-- **"Yet" Mentality:** Adopting a growth mindset by adding "yet" to statements of limitation (e.g., "I haven't mastered this *yet*"), acknowledging that skills can be developed over time.
+- **"Yet" Mentality:** Adopting a growth mindset by adding "yet" to statements of limitation (e.g., "I haven't mastered this _yet_"), acknowledging that skills can be developed over time.
 - **Mindfulness:** Practicing non-judgmental observation of emotions and thoughts, allowing them to be felt without indulgence or immediate reaction. Journaling can be a helpful tool for this.
 - **Embracing "Good Enough":** Shifting focus from perfection to progress, recognizing that "done is better than perfect" is a valuable mantra for the ADHD brain, which is prone to [[Perfectionism]] and Analysis Paralysis.
 - **Normalizing Minimum Days:** Accepting and planning for low-energy days removes guilt and supports sustainable habits. By establishing "minimum viable routines" for difficult days—where even basic self-care counts as success—you eliminate the shame cycle that comes from failing unrealistic expectations. This approach acknowledges energy variation as normal rather than pathologizing low-functioning periods.

@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-03-13T15:51:37Z
 epistemic: "architecture"
 last_reviewed: "2025-12-22"
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the architectural data patterns for secure, private communication between decoupled cloud environments (AWS/Azure)."
 review_interval: "6 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data-Centric Theory of Networking]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "cloud", "data-centric", "SoftwareEngineering/Security", "sot"]
+tags: ["cloud", "data-centric", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "sot"]
 title: SoT - Secure Cross-Cloud Data Transport
 type: "SoT"
 uid: 
@@ -32,7 +32,8 @@ The system manages two distinct types of data state, each with specific sensitiv
 
 ### A. The Request State (Job Queue)
 
-*Direction: Consumer (Azure) -> Producer (AWS)*
+_Direction: Consumer (Azure) -> Producer (AWS)_
+
 - **Tuple:** `(JobID, Parameters, Metadata, AuthToken)`
 - **Characteristics:**
     - **Idempotency:** Requests must be uniquely identifiable to prevent duplicate processing.
@@ -40,7 +41,8 @@ The system manages two distinct types of data state, each with specific sensitiv
 
 ### B. The Response State (Job Result)
 
-*Direction: Producer (AWS) -> Consumer (Azure)*
+_Direction: Producer (AWS) -> Consumer (Azure)_
+
 - **Tuple:** `(JobID, Status, OutputData, Logs)`
 - **Characteristics:**
     - **Volume:** Highly variable (kB to GB).
@@ -151,7 +153,7 @@ The logic of secure transport is derived from the data structure of the tunnel a
     - If `Dest_IP` is in `Peer_CIDR`, forward to `Local_Gateway`.
     - The `Local_Gateway` encapsulates and forwards to `Remote_Gateway_Public_IP`.
 - **Access Control Logic (Zero Trust):**
-    - **Authorization:** `Allow(Subject, Resource, Action)` is evaluated at the Application Layer (Layer 7) *after* the network connection is established. Network reachability does not imply application access.
+    - **Authorization:** `Allow(Subject, Resource, Action)` is evaluated at the Application Layer (Layer 7) _after_ the network connection is established. Network reachability does not imply application access.
 
 ### Performance Optimization: Protocol Selection
 
@@ -161,19 +163,19 @@ The logic of secure transport is derived from the data structure of the tunnel a
 
 ## 6. The Strategic Argument: Why HTTPS is Insufficient
 
-*Source: [[99_Archive/Why HTTPS is not good enough|Analysis of Public vs Private Networking]]*
+_Source: [[99_Archive/Why HTTPS is not good enough|Analysis of Public vs Private Networking]]_
 
 A common architectural fallacy is believing that HTTPS (Encryption) negates the need for Private Networking (Isolation). This conflates **Message Security** with **Endpoint Security**.
 
 ### A. The Core Analogy: The Armored Car vs. The Tunnel
 
-- **HTTPS (Public Internet):** Sending an armored car full of cash through busy public streets. The contents are safe, but the vehicle can be followed, mapped, and attacked (DDoS). The *Address* is public.
-- **Private Connection (VPN/ExpressRoute):** Building a secret underground tunnel between two bank vaults. The armored car drives through it, but the tunnel itself is invisible to the world. The *Address* is private.
+- **HTTPS (Public Internet):** Sending an armored car full of cash through busy public streets. The contents are safe, but the vehicle can be followed, mapped, and attacked (DDoS). The _Address_ is public.
+- **Private Connection (VPN/ExpressRoute):** Building a secret underground tunnel between two bank vaults. The armored car drives through it, but the tunnel itself is invisible to the world. The _Address_ is private.
 
 ### B. The Four Risks of Public Endpoints
 
 1. **Attack Surface (Reconnaissance):** A public IP announces your existence. Scanners will fingerprint your OS, Web Server, and TLS versions instantly. A private network is invisible.
-2. **Endpoint Integrity:** HTTPS protects the *data*, not the *server*. It does not stop an attacker from exploiting an OS vulnerability (Heartbleed) or overwhelming the server (DDoS).
+2. **Endpoint Integrity:** HTTPS protects the _data_, not the _server_. It does not stop an attacker from exploiting an OS vulnerability (Heartbleed) or overwhelming the server (DDoS).
 3. **Broken "Least Privilege":** Exposing a service changes the default from "Deny All" to "Allow All (who have a key)." This is a weaker posture than "Network Unreachable."
 4. **Audit Fragility:** "We use a private tunnel" is a stronger compliance narrative than "We use a public endpoint with a firewall whitelist."
 
@@ -183,6 +185,6 @@ A common architectural fallacy is believing that HTTPS (Encryption) negates the 
 
 For sensitive data (e.g., Patient Records), the **NHS Digital** and **NCSC** frameworks mandate a defense-in-depth approach.
 
-- **NCSC Principle 1 (Data in Transit):** Requires both Encryption (HTTPS) *and* Network-Level Protection (VPN/Private Link).
-- **NCSC Principle 11 (External Interface Protection):** Mandates defending external interfaces. The most effective defense is to *have no external interface* by using private peering.
+- **NCSC Principle 1 (Data in Transit):** Requires both Encryption (HTTPS) _and_ Network-Level Protection (VPN/Private Link).
+- **NCSC Principle 11 (External Interface Protection):** Mandates defending external interfaces. The most effective defense is to _have no external interface_ by using private peering.
 - **GDPR Article 32:** Mandates "Security by Design." Network segmentation and isolation are fundamental to limiting the blast radius of a potential breach.

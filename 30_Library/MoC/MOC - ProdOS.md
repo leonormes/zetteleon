@@ -1,25 +1,20 @@
 ---
-aliases:
-  - ProdOS Index
-  - Productivity Operating System
-  - Start Here
+aliases: [ProdOS Index, Productivity Operating System, Start Here]
 confidence: 5/5
 created: 2025-12-04T14:38:32Z
 epistemic: reference
+id: MOC - ProdOS
 last_reviewed: 2025-12-23
-modified: 2026-01-03T10:35:00+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: The Master Map of Content and entry point for the ProdOS ecosystem, routing to all Source of Truth notes and protocols.
 review_interval: 3 months
 see_also:
   - "[[MOC - PRODOS - Problem-Solution Map]]"
 source_of_truth: []
 status: stable
-tags:
-  - "SoftwareEngineering/Architecture"
-  - prodos
+tags: ["SoftwareEngineering/Architecture", prodos]
 title: MOC - ProdOS
 type: map
-id: MOC - ProdOS
 ---
 
 ## ProdOS - Productivity Operating System
@@ -31,27 +26,27 @@ id: MOC - ProdOS
 
 ### 1. ProdOS Lite: The Thinking Stream (Quick Start)
 
-*A low-friction, low-energy loop for rapid processing. Use this when you just need to think.*
+_A low-friction, low-energy loop for rapid processing. Use this when you just need to think._
 
 > [!important] The Rule of Zero Toil
 > If it feels like "organizing," stop. This view is for **Thinking** and **Doing** only.
 
-1.  **CAPTURE:** Dump noise into **Daily Note**. Raw text only.
-2.  **REFINE:** If stuck, create a **HEAD Note** in `20_Thinking`.
-3.  **PROCESS (The 120s Loop):**
-    *   **Goal:** What is the single outcome?
-    *   **Block:** What is the exact friction?
-    *   **MVA:** What is the next physical step (<120s)?
-4.  **EXIT:**
-    *   **Action?** -> Todoist.
-    *   **Fact?** -> SoT Note.
-    *   **Skill?** -> Hangar (Project Note).
-    *   **Trash?** -> **DELETE** the note.
+1. **CAPTURE:** Dump noise into **Daily Note**. Raw text only.
+2. **REFINE:** If stuck, create a **HEAD Note** in `20_Thinking`.
+3. **PROCESS (The 120s Loop):**
+    - **Goal:** What is the single outcome?
+    - **Block:** What is the exact friction?
+    - **MVA:** What is the next physical step (<120s)?
+4. **EXIT:**
+    - **Action?** -> Todoist.
+    - **Fact?** -> SoT Note.
+    - **Skill?** -> Hangar (Project Note).
+    - **Trash?** -> **DELETE** the note.
 
 **The Guardrails:**
-*   **NO FOLDERS:** Dump everything in `20_Thinking`.
-*   **NO POLISHING:** Messy is fine.
-*   **NO STORAGE:** If not actionable in 24h, delete.
+- **NO FOLDERS:** Dump everything in `20_Thinking`.
+- **NO POLISHING:** Messy is fine.
+- **NO STORAGE:** If not actionable in 24h, delete.
 
 ---
 

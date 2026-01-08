@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-26T17:22:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:26+00:00
+modified: 2026-01-08T10:49:55+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["istio", "linkerd", "observability", "SoftwareEngineering/Security", "service-mesh", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes", "traffic-management"]
+tags: ["istio", "linkerd", "observability", "service-mesh", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes", "SoftwareEngineering/Security", "traffic-management"]
 title: Service mesh provides advanced traffic management and security for service communication
 type: "Fact"
 uid: 

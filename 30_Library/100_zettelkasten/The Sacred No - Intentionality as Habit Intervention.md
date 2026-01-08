@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To define the linguistic and cognitive intervention required to protect intentionality."
 review_interval: "1 year"
 see_also: ["[[The Captain on the Bridge - The Intentionality Analogy]]"]

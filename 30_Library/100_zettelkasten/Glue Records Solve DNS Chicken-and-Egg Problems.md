@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-10-31T10:49:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "Explain DNS glue records."
 review_interval: "90"
 see_also: ["DNS Delegation Handles Subdomain Authority Transfers.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["SoftwareEngineering/networking/dns", "SoftwareEngineering/Networking"]
+tags: ["SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
 title: Glue Records Solve DNS Chicken-and-Egg Problems
 type: "concept"
 uid: 

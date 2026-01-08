@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-10T14:13:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To define the Flowtime Technique."
 review_interval: "90"
 see_also: ["[[The Pomodoro Technique Uses Short Timed Intervals to Maintain Focus]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Creativity", "flow-state", "focus", "topic/productivity"]
+tags: ["flow-state", "focus", "TheHuman/Creativity", "topic/productivity"]
 title: The Flowtime Technique is a Flexible Alternative to Pomodoro Based on Natural Focus
 type: "concept"
 uid: 

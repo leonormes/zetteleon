@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-07-18T00:00:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["constraints", "TheHuman/Creativity", "focus", "TheHuman/Cognition/thinking"]
+tags: ["constraints", "focus", "TheHuman/Cognition/thinking", "TheHuman/Creativity"]
 title: Deep Focus on a Single Concept Sparks Innovation
 type: "null"
 uid: 

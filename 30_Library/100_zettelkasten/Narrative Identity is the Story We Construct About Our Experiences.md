@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-11-01T09:51:13Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Identity", "narrative-identity", "self", "storytelling", "TheHuman/Psychology"]
+tags: ["narrative-identity", "self", "storytelling", "TheHuman/Identity", "TheHuman/Psychology"]
 title: Narrative Identity is the Story We Construct About Our Experiences
 type: "concept"
 uid: 

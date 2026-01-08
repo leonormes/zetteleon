@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To explain the architecture where a single domain name resolves to different IPs based on the client's network location."
 review_interval: "1 year"
 see_also: ["[[Private DNS Zones Provide Internal Network Name Resolution]]"]
 source_of_truth: ["[[SoT - The Data Architecture of DNS]]"]
 status: "stable"
-tags: ["SoftwareEngineering/networking/dns", "hybrid-cloud", "SoftwareEngineering/Security"]
+tags: ["hybrid-cloud", "SoftwareEngineering/networking/dns", "SoftwareEngineering/Security"]
 title: Split-Horizon DNS Decouples Service Names from Network Topology
 type: "concept"
 uid: 

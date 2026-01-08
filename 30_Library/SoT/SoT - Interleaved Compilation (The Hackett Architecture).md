@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "Defines the architectural pattern of interleaved macro expansion and type checking to enable type-aware meta-programming."
 review_interval: "1 year"
 see_also: ["[[SoT - Dependent Haskell and Singletons]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "macros", "programming_languages", "racket", "type_systems"]
+tags: ["macros", "programming_languages", "racket", "SoftwareEngineering/Architecture", "type_systems"]
 title: SoT - Interleaved Compilation (The Hackett Architecture)
 type: "SoT"
 uid: 
@@ -29,12 +29,12 @@ updated:
 
 Hackett unifies two distinct meta-programming peaks:
 
-1. **Macros (Racket):** *Syntactic* transformation. Local scope. Blind to types.
-2. **Type Classes (Haskell):** *Semantic* transformation. Global scope. Rigid syntax.
+1. **Macros (Racket):** _Syntactic_ transformation. Local scope. Blind to types.
+2. **Type Classes (Haskell):** _Semantic_ transformation. Global scope. Rigid syntax.
 
 ### The Mechanism: Type-Directed Macros
 
-By interleaving expansion and checking, Hackett enables "Smart Macros" that know the *expected type* of the expression they are generating.
+By interleaving expansion and checking, Hackett enables "Smart Macros" that know the _expected type_ of the expression they are generating.
 
 - **Example (Typed Holes):** A `todo!` macro can ask the compiler "What type is expected here?" and generate a compile-time error message saying "Expected `String -> Int`".
 - **Example (DSLs):** A macro can generate a web server (like Servant) or a DB connection where the syntax is arbitrary (Lisp-like), but the generated code is strictly type-checked against a schema.
@@ -62,4 +62,4 @@ The live demo proves this is not just "Lisp with Types." The IDE integration (to
 
 ## 6. Sources and Links
 
-- **Source:** Alexis King, *Hackett: Type-Aware Macros* (YouTube).
+- **Source:** Alexis King, _Hackett: Type-Aware Macros_ (YouTube).

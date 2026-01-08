@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:52Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:10+00:00
+modified: 2026-01-08T10:49:50+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -20,9 +20,9 @@ version: ""
 
 Our Delivery Pipeline should be an utter nightmare for any defect trying to get through to production.
 
-Any code bold enough to enter our pipeline should have one promise, one truth, on its mind. I am *ready*.
+Any code bold enough to enter our pipeline should have one promise, one truth, on its mind. I am _ready_.
 
-The code should be smashed, bent, torn, and burned to the ground. Dragged to its feet, pulverised, obliterated, driven to its limits, driven insane with torment before rising again clean and pure, certain it can live up to the promise it has made to production. I *am* ready
+The code should be smashed, bent, torn, and burned to the ground. Dragged to its feet, pulverised, obliterated, driven to its limits, driven insane with torment before rising again clean and pure, certain it can live up to the promise it has made to production. I _am_ ready
 
 The pipeline should be cunning in its cataclysmal and annihilatory assault on the code, in its devastating cleansing.
 

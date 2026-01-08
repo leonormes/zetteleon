@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-02-07T12:57:55Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["ext-mind", "time_blocking", "TheHuman/Health/ADHD", "topic/productivity/gtd"]
+tags: ["ext-mind", "TheHuman/Health/ADHD", "time_blocking", "topic/productivity/gtd"]
 title: External Structure and ADHD
 type: "permanent"
 uid: 

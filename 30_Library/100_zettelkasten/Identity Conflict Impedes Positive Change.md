@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T12:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "Explain how allegiance to existing identity can actively prevent positive behavior change."
 review_interval: "90"
 see_also: ["[[Behavior Incongruent with Self Will Not Last]]", "[[Continuously Edit and Expand Your Identity Beliefs]]", "[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "TheHuman/Identity", "resistance", "TheHuman/Habits", "TheHuman/Psychology"]
+tags: ["behavior-change", "resistance", "TheHuman/Habits", "TheHuman/Identity", "TheHuman/Psychology"]
 title: Identity Conflict Impedes Positive Change
 type: "concept"
 uid: 
@@ -48,7 +48,7 @@ Identity conflict occurs when a desired behavior clashes with a deeply held beli
 
 **The Danger:**
 
-Identity conflict means you can *know* what would help you and still resist doing it. The resistance isn't logical—it's identity-based. You're not being lazy or lacking discipline; you're being internally consistent with a limiting identity.
+Identity conflict means you can _know_ what would help you and still resist doing it. The resistance isn't logical—it's identity-based. You're not being lazy or lacking discipline; you're being internally consistent with a limiting identity.
 
 **The Solution:**
 

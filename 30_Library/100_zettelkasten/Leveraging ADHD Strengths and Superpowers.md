@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-24T15:06:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["TheHuman/Creativity", "neurodiversity", "personal-growth", "strengths", "TheHuman/Health/ADHD", "topic/productivity/hyperfocus"]
+tags: ["neurodiversity", "personal-growth", "strengths", "TheHuman/Creativity", "TheHuman/Health/ADHD", "topic/productivity/hyperfocus"]
 title: Leveraging ADHD Strengths and Superpowers
 type: "null"
 uid: 

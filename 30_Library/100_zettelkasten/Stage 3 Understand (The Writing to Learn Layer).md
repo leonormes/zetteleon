@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-08-11T15:30:49Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -18,7 +18,7 @@ updated:
 version: ""
 ---
 
-*The Goal: To reflect on the clarified idea and discover what you now know.*
+_The Goal: To reflect on the clarified idea and discover what you now know._
 
 With the idea now expressed with clarity and care, you can understand it on a deeper level.
 
@@ -41,7 +41,7 @@ With the idea now expressed with clarity and care, you can understand it on a de
 
 [[100_zettelkasten/The Unified Writing to Think Process]]
 
-*The Goal: To reflect on the clarified idea and discover what you now know.*
+_The Goal: To reflect on the clarified idea and discover what you now know._
 
 With the idea now expressed with both clarity and care, you can understand it on a deeper level. This is the reflective part of the process where true learning occurs.
 

@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-24T14:25:58Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["aws", "health-checks", "load-balancing", "target-groups", "SoftwareEngineering/Networking"]
+tags: ["aws", "health-checks", "load-balancing", "SoftwareEngineering/Networking", "target-groups"]
 title: AWS ALB Target Groups
 type: "null"
 uid: 

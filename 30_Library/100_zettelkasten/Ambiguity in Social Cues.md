@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-31T09:20:29Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Explain why social signals are inherently ambiguous and how this ambiguity amplifies perceptual errors."
 review_interval: ""
 see_also: []

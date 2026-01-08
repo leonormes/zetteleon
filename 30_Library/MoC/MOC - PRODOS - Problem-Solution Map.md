@@ -1,12 +1,10 @@
 ---
-aliases:
-  - ProdOS Problem-Solution Fit
-  - ProdOS Why
+aliases: [ProdOS Problem-Solution Fit, ProdOS Why]
 confidence: 5/5
 created: 2025-12-06T00:00:00Z
 epistemic: ""
 last_reviewed: 2025-12-15
-modified: 2026-01-03T10:18:58+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: To explicitly map the core problems (the 'Why') to the specific architectural solutions within ProdOS (the 'How').
 review_interval: 6 months
 see_also:
@@ -18,12 +16,7 @@ see_also:
   - "[[SoT - Values and Eudaimonia]]"
 source_of_truth: []
 status: stable
-tags:
-  - "SoftwareEngineering/Architecture"
-  - map_of_content
-  - problem-solution
-  - prodos
-  - system_design
+tags: ["SoftwareEngineering/Architecture", map_of_content, problem-solution, prodos, system_design]
 title: MOC - PRODOS - Problem-Solution Map
 type: map
 uid:
@@ -115,7 +108,7 @@ This section details each major problem and the corresponding solution engineere
 - **The PRODOS Solution**:
 
     1. **The Choice Point**: A cognitive tool to visualize the fork in the road between "Away Moves" (Impulse) and "Toward Moves" (Values).
-    2. **Structural Integrity**: Shifting identity from "I am what I feel" (Volatile) to "I am what I do" (Structural). The system records *actions*, building a trail of evidence for the new identity.
+    2. **Structural Integrity**: Shifting identity from "I am what I feel" (Volatile) to "I am what I do" (Structural). The system records _actions_, building a trail of evidence for the new identity.
     3. **Reframing Boredom**: Explicitly labeling the "quiet" of duty not as a lack of fun, but as the **Safety** of a stable system.
 
 ### Problem G: Goal/Task Oscillation & Burnout
@@ -153,7 +146,7 @@ This section details each major problem and the corresponding solution engineere
 
 ### Problem J: Learned Helplessness & Low Agency
 
-- **The Experience**: Feeling like life is happening *to* you. A passive acceptance of limitations ("I'm just bad at this") and a fear of trying due to a history of failure.
+- **The Experience**: Feeling like life is happening _to_ you. A passive acceptance of limitations ("I'm just bad at this") and a fear of trying due to a history of failure.
 - **Related Insights**:
   - [[SoT - Personal Agency and Transformation]]
   - [[Growth mindset]]

@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-10-31T20:03:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "Explains why humans can understand each other despite linguistic limitations"
 review_interval: "90"
 see_also: ["Communication is inherently lossy like image compression"]

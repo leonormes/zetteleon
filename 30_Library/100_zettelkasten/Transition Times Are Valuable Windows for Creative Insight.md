@@ -4,13 +4,13 @@ confidence: "0.8"
 created: 2025-10-30T15:07:41Z
 epistemic: "principle"
 last_reviewed: "2025-10-30"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To highlight overlooked creative opportunities in daily transitions"
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Creativity", "insight", "morning-routine", "transitions"]
+tags: ["insight", "morning-routine", "TheHuman/Creativity", "transitions"]
 title: Transition Times Are Valuable Windows for Creative Insight
 type: "concept"
 uid: 

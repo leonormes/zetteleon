@@ -6,7 +6,7 @@ criteria: "Atomic notes defining the origins, characteristics, and social functi
 epistemic: ""
 exclusions: "Value judgments on specific genres; technical music theory."
 last_reviewed: ""
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: ""
 review_interval: ""
 scope: "The distinction between music created as authentic expression versus music designed as a commercial product."
@@ -24,7 +24,7 @@ updated:
 
 > **Inclusion criteria:** Atomic only; must be evergreen or growing.
 
-This map explores a core concept in music: the difference between music born from expression and music designed as a product. It's not about "good" vs. "bad," but about *intention* and *origin*. The core idea is that [[Music Can Be Categorized by its Intention as Expression or Product]].
+This map explores a core concept in music: the difference between music born from expression and music designed as a product. It's not about "good" vs. "bad," but about _intention_ and _origin_. The core idea is that [[Music Can Be Categorized by its Intention as Expression or Product]].
 
 ---
 

@@ -4,14 +4,14 @@ confidence: 4/5
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed: 2025-12-08
-modified: 2026-01-03T10:18:46+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: The central hub for all notes related to Action Management, Execution, and Task Initiation within ProdOS.
 related-soTs: ["[[SoT - PRODOS - Action Management (GTD)]]"]
 review_interval: 0
 see_also: []
 source_of_truth: false
 status: archived
-tags: [action, execution, gtd, prodos, "TheHuman/Health/ADHD"]
+tags: ["TheHuman/Health/ADHD", action, execution, gtd, prodos]
 title: MOC - Action Management
 type: map
 uid:
@@ -22,7 +22,7 @@ updated:
 
 > **Core Question:** How do we transform abstract intent into concrete reality?
 
-This Map of Content (MOC) aggregates the principles, systems, and strategies for managing action within the ProdOS ecosystem. It is designed specifically to counter **ADHD Task Initiation Deficits** by enforcing a strict separation between *Thinking* (Obsidian) and *Doing* (Todoist).
+This Map of Content (MOC) aggregates the principles, systems, and strategies for managing action within the ProdOS ecosystem. It is designed specifically to counter **ADHD Task Initiation Deficits** by enforcing a strict separation between _Thinking_ (Obsidian) and _Doing_ (Todoist).
 
 ### 1. The ProdOS System (The How)
 
@@ -47,7 +47,7 @@ Productivity is built on the "Atomic Action."
 
 ### 3. The Neurological Challenge (The Why)
 
-Understanding *why* action is hard is critical to solving it.
+Understanding _why_ action is hard is critical to solving it.
 
 - **[[MOC - The Neurological Basis of Task Initiation Difficulty in ADHD]]**: Explains the dopamine dysregulation that causes paralysis.
 - **[[SoT - The Cognitive Physiology of Task Execution]]**: The biological basis for the 5 phases of work (Initiation -> Planning -> Execution).

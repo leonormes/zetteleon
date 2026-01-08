@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-23T22:24:46Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the biological mechanisms that allow for the sharing and alignment of mental models between individuals."
 review_interval: "6 months"
 see_also: ["[[SoT - The Data Architecture of DNS]]", "[[SoT - The Extended Mind]]"]
 source_of_truth: []
 status: "stable"
-tags: ["language", "mirror_neurons", "TheHuman/Neuroscience", "social_intelligence", "TheHuman/Cognition"]
+tags: ["language", "mirror_neurons", "social_intelligence", "TheHuman/Cognition", "TheHuman/Neuroscience"]
 title: SoT - Shared Models & Mirror Neurons
 type: "SoT"
 uid: 
@@ -27,7 +27,7 @@ All humans run on remarkably similar biological architecture. Barring significan
 
 ### B. The Mirror Neuron System
 
-**Mirror Neurons** are brain cells that fire both when an agent *performs* an action and when they *observe* another performing it.
+**Mirror Neurons** are brain cells that fire both when an agent _performs_ an action and when they _observe_ another performing it.
 - **Internal Simulation:** This creates a low-level simulation of the other person's intent and feeling in your own brain.
 - **Function:** It acts as non-verbal empathy, allowing our models of other people's internal states to be surprisingly accurate.
 

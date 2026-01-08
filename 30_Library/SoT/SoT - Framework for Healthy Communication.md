@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-21T00:00:00Z
 epistemic: "Synthesized from a conversational exploration of relationship communication dynamics."
 last_reviewed: "2025-12-21"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "To provide a definitive framework and a set of actionable protocols for conducting healthy, respectful, and productive disagreements within a partnership."
 review_interval: "3 months"
 see_also: []
@@ -24,8 +24,8 @@ The core thesis is: "**\"My feelings are a diagnostic report of my current state
 
 ## 2. Core Principles of a Healthy Feedback Loop
 
-1. **The Principle of Subjective Sovereignty:** An individual's internal state (their feeling) is an **immutable data point**. In any system, a sensor reading is a fact *of the system*, even if the cause of that reading is disputed. One can dispute the *source* of the feeling, but not the *presence* of the feeling. To do so is a category error.
-2. **The Distinction between Intent & Impact:** It is critical to separate the *intent* behind an action from the *impact* it produces. Even if the intent is positive or null, the impact may be negative. A functional system optimizes for the *impact* of an action, rather than endlessly defending the intent.
+1. **The Principle of Subjective Sovereignty:** An individual's internal state (their feeling) is an **immutable data point**. In any system, a sensor reading is a fact _of the system_, even if the cause of that reading is disputed. One can dispute the _source_ of the feeling, but not the _presence_ of the feeling. To do so is a category error.
+2. **The Distinction between Intent & Impact:** It is critical to separate the _intent_ behind an action from the _impact_ it produces. Even if the intent is positive or null, the impact may be negative. A functional system optimizes for the _impact_ of an action, rather than endlessly defending the intent.
 3. **The Autonomy of Moral Judgement:** One partner's feeling is a report on the relationship interface, not a moral verdict on the other's character. If acknowledging the report triggers a "Bad Person" self-schema in the listener, that is an internal process the listener is responsible for, not a "transferred guilt" from the speaker.
 
 ---
@@ -73,7 +73,7 @@ This version focuses on invalidating the other's data ("who did what?"). It is c
 - **Zofja:** Well, I feel attacked! You constantly tell me I’m stupid and a bully. You’re the one who is mean.
 - **Leon:** That is a different subject. Can we stay on the fact that I feel rejected?
 - **Zofja:** No, because your "feeling" is just a way to blame me. I don't want to talk about this if you're just going to judge me.
-- ***System Result:*** *Total Crash. Both parties feel unheard; the original error signal is amplified.*
+- _**System Result:**_ _Total Crash. Both parties feel unheard; the original error signal is amplified._
 
 ### Version B: The Mature Conversation (Output Resolution)
 
@@ -85,4 +85,4 @@ This version accepts both data points as valid and focuses on co-creating a solu
 - **Zofja:** Yes. I don't want you to feel rejected, but I need you to stop using words that make me feel like a "bully."
 - **Leon:** Agreed. If I change my syntax to be less critical, will you commit to acknowledging my feelings of rejection instead of dismissing them?
 - **Zofja:** Yes. If you speak to me with more respect, I can listen to your feelings without getting defensive. Let’s try to adjust those two specific behaviours.
-- ***System Result:*** *Successful Patch. Both error signals are validated, and a clear path for behavioural adjustment is established.*
+- _**System Result:**_ _Successful Patch. Both error signals are validated, and a clear path for behavioural adjustment is established._

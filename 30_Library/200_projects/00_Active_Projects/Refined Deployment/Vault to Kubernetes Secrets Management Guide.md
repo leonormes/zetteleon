@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-08-28T10:23:40Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:29+00:00
+modified: 2026-01-08T10:49:56+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -168,7 +168,7 @@ Think of this system as a secure operation involving several key players, each w
 | **The Fortress**      | **HashiCorp Vault**            | This is the secure, centralized system that stores, manages, and controls access to the secret data. It acts as a fortified safe. In our environment, Vault is organized into **Namespaces** (e.g., `admin/central`, `deployments/...`) to isolate tenants and environments, creating a "vault within a vault."    |
 | **The Client**        | **Kubernetes Pod/Application** | This is the end consumer of the secret data. It's an application running in a Kubernetes pod that needs the information to perform its function (e.g., connect to a database).                                                                                                                                     |
 | **The Identity Card** | **Vault AppRole**              | This is how an application proves its identity to Vault. It's designed for machine-to-machine authentication and consists of two pieces: a **Role ID** (like a username, publicly known) and a **Secret ID** (like a password, which is itself a secret).                                                          |
-| **The Rulebook**      | **Vault Policy**               | This is a set of rules that dictates what an authenticated entity (identified by its AppRole) is allowed to do. For example, a policy might state, "The holder of this identity is allowed to *read* the secret at path `secrets/database/config` but nothing else." Policies are the foundation of authorization. |
+| **The Rulebook**      | **Vault Policy**               | This is a set of rules that dictates what an authenticated entity (identified by its AppRole) is allowed to do. For example, a policy might state, "The holder of this identity is allowed to _read_ the secret at path `secrets/database/config` but nothing else." Policies are the foundation of authorization. |
 | **The Butler**        | **Vault Secrets Operator**     | This is a specialized controller running inside Kubernetes. Its job is to automate the entire process of authenticating with Vault, retrieving the secret data, and making it available to the application as a native Kubernetes `Secret` object. It acts as a trusted intermediary.                              |
 
 ### The Workflow: How They Protect the Data

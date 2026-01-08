@@ -4,13 +4,13 @@ confidence: "0.8"
 created: 2025-11-01T12:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Provide strategic guidance for maintaining identity flexibility to enable growth."
 review_interval: "90"
 see_also: ["[[Identity Conflict Impedes Positive Change]]", "[[Identity Emerges from Habits Not Fixed at Birth]]", "[[Two-Step Identity Change Process]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "growth-mindset", "TheHuman/Identity", "strategy", "TheHuman/Habits"]
+tags: ["behavior-change", "growth-mindset", "strategy", "TheHuman/Habits", "TheHuman/Identity"]
 title: Continuously Edit and Expand Your Identity Beliefs
 type: "strategy"
 uid: 
@@ -38,7 +38,7 @@ If you hold your identity too rigidly, it becomes a prison rather than a foundat
 **1. Use "And" Instead of "But":**
 
 - Limiting: "I'm an introvert, but I need to network"
-- Expansive: "I'm an introvert *and* I can be selective about meaningful networking"
+- Expansive: "I'm an introvert _and_ I can be selective about meaningful networking"
 
 **2. Add Layers Rather Than Replace:**
 

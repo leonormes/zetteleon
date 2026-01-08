@@ -1,17 +1,17 @@
 ---
+alias: ["Compile-Time Computation", "TLP", "Type-Level Logic"]
 aliases: []
-alias: ["TLP", "Type-Level Logic", "Compile-Time Computation"]
 confidence: "5/5"
 created: 2025-12-29T16:09:40+00:00
 epistemic: "authoritative"
 last_reviewed: "2025-12-29"
-modified: 2025-12-29T18:58:29+00:00
+modified: 2026-01-08T10:49:39+00:00
 purpose: "To define Type-Level Programming (TLP) as a paradigm for performing computations at compile-time using the type system."
 review_interval: "6 months"
-see_also: ["[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]", "[[SoT - Proof-Carrying Code via Simulated Dependent Types]]"]
+see_also: ["[[SoT - Proof-Carrying Code via Simulated Dependent Types]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["programming", "type_theory", "scala", "rust", "compilers"]
+tags: ["compilers", "programming", "rust", "scala", "type_theory"]
 title: SoT - Type-Level Programming
 type: "SoT"
 uid: 
@@ -35,7 +35,7 @@ Numbers are represented as nested type constructors.
 
 - `Zero`: Represents 0.
 - `Succ[N]`: Represents the successor of N ($N+1$).
-- *Example:* `Succ[Succ[Zero]]` is the type-level representation of $2$.
+- _Example:_ `Succ[Succ[Zero]]` is the type-level representation of $2$.
 
 ### B. Booleans as Types
 

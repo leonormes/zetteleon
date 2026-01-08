@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T12:30:09Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To promote self-referential progress measurement."
 review_interval: "90"
 see_also: ["[[Continuous Iterative Learning Mindset is Essential]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["growth", "TheHuman/Mindset", "self-improvement"]
+tags: ["growth", "self-improvement", "TheHuman/Mindset"]
 title: "Compare Oneself to Yesterday's Self Not Others"
 type: "concept"
 uid: 

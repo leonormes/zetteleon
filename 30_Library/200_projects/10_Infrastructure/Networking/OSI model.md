@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-05-15T09:49:03Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:20+00:00
+modified: 2026-01-08T10:49:53+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -219,7 +219,7 @@ You've hit on a very insightful point about the transition from application-spec
    - The code is highly specific to the programming language and the libraries you use.
 
 2. **System Call Boundary:**
-   - The transition from user space (where your application runs) to kernel space occurs when your application makes a *system call*.
+   - The transition from user space (where your application runs) to kernel space occurs when your application makes a _system call_.
    - In the context of network communication, this happens when the application needs to send or receive data over the network.
    - For example, when Axios calls the underlying `http` or `https` module, which eventually uses the operating system's socket API (e.g., `socket()`, `connect()`, `send()`, `recv()`).
 

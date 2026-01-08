@@ -5,7 +5,7 @@ created: 2025-12-24T12:00:00Z
 epistemic: synthesis
 fileClass: SoT
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: To define the human roles that remain valuable in an AI-driven economy (Problem Definition vs. Execution).
 review_interval: 6 months
 see_also: ["[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Inspiration Economy (Agentic Frameworks)]]", "[[SoT - The Telos Method]]"]
@@ -32,26 +32,30 @@ As AI commoditizes execution (The Capital Economy), human value migrates to the 
 
 ### A. The Problem Definer (Chief Question Officer)
 
-*The Architect of Intent.*
-- **Function:** AI excels at solving defined problems. The human value is in *framing* the right problem.
+_The Architect of Intent._
+
+- **Function:** AI excels at solving defined problems. The human value is in _framing_ the right problem.
 - **Key Skill:** **Context Engineering**—curating the information environment to guide the AI.
 - **Telos Connection:** Aligns with the "Mission" layer of [[SoT - The Telos Method]].
 
 ### B. The Empathy Catalyst
 
-*The Bridge of Trust.*
+_The Bridge of Trust._
+
 - **Function:** While AI simulates sentiment, it cannot build trust. Healing, community building, and leadership require shared human experience.
 - **Key Skill:** **Emotional Resonance.**
 
 ### C. The Strategic Narrator
 
-*The Visionary.*
+_The Visionary._
+
 - **Function:** AI provides probabilistic forecasts. Humans provide "Leaps of Logic" and craft the **Narrative** that mobilizes people.
 - **Key Skill:** **Fusion Strategy**—blending AI data with geopolitical/market intuition.
 
 ### D. The Craft Master
 
-*The Artisan.*
+_The Artisan._
+
 - **Function:** High-touch physical craftsmanship. The value lies in the "imperfection" and the story of the human hand.
 
 ---

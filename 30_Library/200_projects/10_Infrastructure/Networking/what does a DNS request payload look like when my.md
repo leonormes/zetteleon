@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-22T09:34:06Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:17+00:00
+modified: 2026-01-08T10:49:52+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -97,7 +97,7 @@ If you’d like, the hex can be converted to bytes and sent raw via Python or ne
 
 How Does a DNS Resolver Work? is it Okay of a Database? is it a Process Running on a Server that Uses the Database? Give Me a Pseudo Code Example
 
-A **DNS resolver** is not just a database—it’s an actively running network service (process) that *uses cached data* to resolve domain names into IP addresses. It performs iterative queries to authoritative servers and may cache results in memory or in a database-like store, but the resolver itself is a **software daemon** that handles network logic and recursion [^3_1][^3_2][^3_3][^3_4].
+A **DNS resolver** is not just a database—it’s an actively running network service (process) that _uses cached data_ to resolve domain names into IP addresses. It performs iterative queries to authoritative servers and may cache results in memory or in a database-like store, but the resolver itself is a **software daemon** that handles network logic and recursion [^3_1][^3_2][^3_3][^3_4].
 
 ### Key Idea
 

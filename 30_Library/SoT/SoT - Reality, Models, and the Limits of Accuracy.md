@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-12T18:34:35Z
 epistemic: "Grounded in General Semantics (Korzybski), Philosophy of Science (Popper/Hawking), and Cognitive Science (Predictive Processing)."
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the fundamental epistemological stance of ProdOS that all understanding is a simplified model (Map) of a complex reality (Territory), and to provide protocols for managing the gap between them."
 review_interval: "12 months"
 see_also: ["[[SoT - Naïve Realism]]", "[[SoT - Predictive Processing & The Bayesian Brain]]", "[[SoT - The User Interface of the Self]]"]
 source_of_truth: []
 status: "stable"
-tags: ["epistemology", "logic", "mental_models", "TheHuman/Philosophy", "TheHuman/Cognition"]
+tags: ["epistemology", "logic", "mental_models", "TheHuman/Cognition", "TheHuman/Philosophy"]
 title: SoT - Reality, Models, and the Limits of Accuracy
 type: "SoT"
 uid: 
@@ -87,5 +87,5 @@ We are biologically wired to defend our maps because the brain is a **Prediction
 
 To function effectively, we must decouple **Self-Worth** from **Map Accuracy**.
 
-- **Learner Identity:** Value is defined by the *speed of updating*, not being right.
+- **Learner Identity:** Value is defined by the _speed of updating_, not being right.
 - **Provisional Language:** Use "My current model suggests..." rather than "It is..."

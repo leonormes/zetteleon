@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To identify the defensive tactic where a behavioural choice is reframed as an unsolvable problem."
 review_interval: "1 year"
 see_also: ["[[The Silent Void - Absence of Engagement as a Response]]"]
@@ -34,7 +34,7 @@ In most behavioural contexts, **there is always a solution** (reminders, journal
 
 ## 🧪 Identifying the Pattern
 
-Notice what they *don't* say:
+Notice what they _don't_ say:
 
 - "I don't know what to do, can we figure this out together?"
 - "I am struggling to understand why I do this."

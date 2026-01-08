@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-13T00:00:00Z
 epistemic: "null"
 last_reviewed: "2025-12-13"
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the complex and evolving role of a parent in nurturing a"
 review_interval: "12 months"
 see_also: ["[[SoT - Secure Attachment]]"]
@@ -44,8 +44,8 @@ A child's emotional well-being is critical for developing self-esteem, resilienc
 Parents are a child's first and most important teachers about how to navigate the social world.
 
 - **Moral Compass:** Teaching the difference between right and wrong, and instilling core values such as honesty, empathy, kindness, and respect for others.
-- **Setting Boundaries and Discipline:** Discipline, from the Latin *disciplina* ('teaching, instruction'), is about teaching self-control and acceptable behaviour, not just punishment. It requires clear, consistent, and fair boundaries.
-- **Modelling Behaviour:** Children learn more from what their parents *do* than what they *say*. Parents serve as the primary role models for relationships, conflict resolution, and social interaction.
+- **Setting Boundaries and Discipline:** Discipline, from the Latin _disciplina_ ('teaching, instruction'), is about teaching self-control and acceptable behaviour, not just punishment. It requires clear, consistent, and fair boundaries.
+- **Modelling Behaviour:** Children learn more from what their parents _do_ than what they _say_. Parents serve as the primary role models for relationships, conflict resolution, and social interaction.
 
 ## 4. The Educator: Cultivating Curiosity and Intellect
 

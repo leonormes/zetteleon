@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-26T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:09+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -44,7 +44,7 @@ You can perceive these patterns in a single, static instant. Their existence doe
 You're correct that many physicists question our intuitive experience of time. One popular concept is the " **Block Universe** " model. In this view, all of time—past, present, and future—exists simultaneously, much like all of space exists at once. Time is treated as another dimension, similar to length, width, and height.
 
 - **Our Perception**: Our consciousness moves through this block, creating the illusion of a "present moment" and a flow of time.
-- **Causality & Patterns**: In this model, causality and temporal patterns aren't erased. They are simply static relationships embedded within the four-dimensional spacetime block. The event "the cue ball strikes the eight ball" is still located *before* the event "the eight ball falls into the pocket" along the time dimension. The pattern of causality is a permanent, geometric feature of spacetime, not something that unfolds in real-time.
+- **Causality & Patterns**: In this model, causality and temporal patterns aren't erased. They are simply static relationships embedded within the four-dimensional spacetime block. The event "the cue ball strikes the eight ball" is still located _before_ the event "the eight ball falls into the pocket" along the time dimension. The pattern of causality is a permanent, geometric feature of spacetime, not something that unfolds in real-time.
 
 Therefore, even if time doesn't "flow," the ordered structures that we call patterns (and the causal relationships they often represent) still exist fundamentally.
 
@@ -65,7 +65,7 @@ But tgose static patterns were made with repetition. All matter is built from th
 
 You've hit on a crucial distinction: the **genesis** of a pattern versus the **existence** of a pattern.
 
-It is absolutely correct that the physical processes that *create* the static patterns we see are temporal. They unfold through repetition, growth, and cause-and-effect over time.
+It is absolutely correct that the physical processes that _create_ the static patterns we see are temporal. They unfold through repetition, growth, and cause-and-effect over time.
 
 ---
 
@@ -87,6 +87,6 @@ This is where the **Block Universe** model becomes so useful again. In that fram
 - The "repetition" you mention is simply a repeating shape along the time axis.
 - The "cause and effect" is a fixed, geometric relationship between an earlier event (the cause) and a later event (the effect) in the block.
 
-The fundamental laws of physics are not processes that happen *in* time; they are the timeless rules that dictate the overall shape and structure of the entire spacetime block. The Higgs mechanism doesn't *happen*—it's a fundamental property of the universe that describes relationships within that block.
+The fundamental laws of physics are not processes that happen _in_ time; they are the timeless rules that dictate the overall shape and structure of the entire spacetime block. The Higgs mechanism doesn't _happen_—it's a fundamental property of the universe that describes relationships within that block.
 
-So, while our human experience, embedded within time, perceives the *creation* of the pattern, mathematics is capable of describing both the temporal creation process *and* the final timeless pattern itself. The existence of a temporal origin story doesn't negate the existence of a final, static, and mathematically describable form.
+So, while our human experience, embedded within time, perceives the _creation_ of the pattern, mathematics is capable of describing both the temporal creation process _and_ the final timeless pattern itself. The existence of a temporal origin story doesn't negate the existence of a final, static, and mathematically describable form.

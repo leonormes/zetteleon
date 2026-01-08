@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-10T00:00:00Z
 epistemic: "scientific"
 last_reviewed: "2026-01-03"
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the biological and cognitive phases of task execution, providing the scientific basis for the ProdOS workflow design."
 review_interval: "1 year"
-see_also: ["[[SoT - PRODOS - Learning Architecture]]", "[[SoT - ADHD Neurology & Core Concepts]]", "[[SoT - PRODOS Core Specification]]"]
+see_also: ["[[SoT - ADHD Neurology & Core Concepts]]", "[[SoT - PRODOS - Learning Architecture]]", "[[SoT - PRODOS Core Specification]]"]
 source_of_truth: []
 status: "stable"
-tags: ["TheHuman/Neuroscience", "prodos", "productivity", "task_management", "TheHuman/Cognition"]
+tags: ["prodos", "productivity", "task_management", "TheHuman/Cognition", "TheHuman/Neuroscience"]
 title: SoT - The Cognitive Physiology of Task Execution
 type: "SoT"
 uid: 
@@ -86,3 +86,9 @@ Learning and task mastery are not complete upon execution. The brain requires sp
 
 - [[Performance monitoring activates anterior cingulate cortex]]
 - [[Sustained attention activates right-lateralized fronto-parietal networks]]
+
+## Phase 1: Initiation / Activation
+
+### The "Mental Candy" Trap (Dopamine Hijack)
+
+Digital platforms exploit the initiation phase by offering "Mental Candy" (quick, high-dopamine content) over "Vegetables" (deep, structured learning). This creates a feedback loop where the user feels the _sensation_ of productivity (watching a tutorial) without the _metabolic cost_ of actual encoding, leading to "Motion without Action." (See: [[Video - How the Algorithm Hijacked Monkey's Brain]])

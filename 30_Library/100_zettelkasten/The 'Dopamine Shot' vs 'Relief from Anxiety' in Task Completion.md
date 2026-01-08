@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-07-16T17:30:01Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["dopamine", "TheHuman/Motivation", "neurotypical", "reward-system", "TheHuman/Health/ADHD"]
+tags: ["dopamine", "neurotypical", "reward-system", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
 title: "The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion"
 type: "permanent"
 uid: 

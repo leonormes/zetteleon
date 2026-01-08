@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-04T12:23:40Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -17,7 +17,7 @@ uid:
 updated: 
 ---
 
-*The Goal: To reflect on the clarified idea and discover what you now know.*
+_The Goal: To reflect on the clarified idea and discover what you now know._
 
 With the idea now expressed clearly, you can step back and understand it for the first time. This is the reflective part of the process where true learning occurs.
 

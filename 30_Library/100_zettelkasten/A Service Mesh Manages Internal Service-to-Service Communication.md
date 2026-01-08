@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-10-26T17:09:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["SoftwareEngineering/Architecture", "microservices", "tech", "SoftwareEngineering/Networking"]
+tags: ["microservices", "SoftwareEngineering/Architecture", "SoftwareEngineering/Networking", "tech"]
 title: A Service Mesh Manages Internal Service-to-Service Communication
 type: "permanent"
 uid: 

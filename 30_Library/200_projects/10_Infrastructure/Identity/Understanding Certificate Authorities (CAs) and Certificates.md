@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-24T08:23:11Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:22+00:00
+modified: 2026-01-08T10:49:54+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -32,10 +32,10 @@ The trust in a Root CA stems from a "chain of trust" model [5-9]. Here's how it 
 
 3. **AWS Private CA as a Root CA**:
    - **Purpose**: AWS Private CA enables you to create and manage private CA hierarchies, including root and subordinate CAs, for **internal use** within your organization [20, 21]. These private certificates are **not publicly trusted** on the internet by default [22].
-   - **Trust in a Private PKI**: If you set up AWS Private CA as your Root CA, it is trusted **within your defined environment** because *you* (the internal administrator) explicitly configure your applications, browsers, or operating systems to trust that private Root CA by adding its certificate to their trust stores [13, 22]. This is a crucial distinction from public CAs like Let's Encrypt or DigiCert, whose roots are already universally trusted by common software.
+   - **Trust in a Private PKI**: If you set up AWS Private CA as your Root CA, it is trusted **within your defined environment** because _you_ (the internal administrator) explicitly configure your applications, browsers, or operating systems to trust that private Root CA by adding its certificate to their trust stores [13, 22]. This is a crucial distinction from public CAs like Let's Encrypt or DigiCert, whose roots are already universally trusted by common software.
    - **Benefits of AWS Private CA**: Even though they are private, using a service like AWS Private CA provides significant security and operational advantages over self-managed CAs, such as secure storage of private keys, managed revocation services (OCSP/CRLs), and integrations with other AWS services [23-26]. It also allows you to customize certificates to meet internal needs, such as subject names, expiration dates, and algorithms, without external validation requirements [27, 28].
 
-In summary, when AWS is mentioned as a "Root CA," it's important to differentiate between a publicly trusted CA whose roots are pre-installed by default, and a private CA (like AWS Private CA) which *you* set up, and whose trust is established within your specific organizational environment by explicitly configuring clients to trust it. Both types of CAs rely on the fundamental concept of a trusted third party, but the scope of their trust differs.
+In summary, when AWS is mentioned as a "Root CA," it's important to differentiate between a publicly trusted CA whose roots are pre-installed by default, and a private CA (like AWS Private CA) which _you_ set up, and whose trust is established within your specific organizational environment by explicitly configuring clients to trust it. Both types of CAs rely on the fundamental concept of a trusted third party, but the scope of their trust differs.
 
 ## How a Certificate Works (for Your Wiki)
 
@@ -52,7 +52,7 @@ This means it includes:
 
 - **Public Key (kpub,A)**: The public key of the entity (e.g., a server, user, or another CA) [2, 4, 29].
 - **Identity (IDA)**: Information identifying the entity, such as its distinguished name (DN) and common name (CN) [2, 29, 34-37].
-- **Digital Signature (sigkpr)**: A signature created by the *issuing CA's private key* over the public key and identity information [2, 4]. This signature assures the recipient that the CA vouches for the binding between the public key and the identity [2].
+- **Digital Signature (sigkpr)**: A signature created by the _issuing CA's private key_ over the public key and identity information [2, 4]. This signature assures the recipient that the CA vouches for the binding between the public key and the identity [2].
 
 Certificates also contain extensions that provide additional information and constraints [38]. Key extensions include:
 
@@ -78,12 +78,12 @@ The process of issuing a certificate involves the entity (subscriber) requesting
 **5. How Certificates are Verified (Validation Path)**
 When a client (e.g., a web browser) receives a certificate (typically a leaf certificate) from a server, it performs a validation process [2, 14]:
 
-- **Signature Verification**: The client uses the public key of the *issuing CA* to decrypt the digital signature on the received certificate [2, 4]. It then independently hashes the certificate's content and compares this hash to the decrypted signature [4]. If they match, the signature is valid, meaning the certificate has not been tampered with and was indeed issued by that CA [2].
+- **Signature Verification**: The client uses the public key of the _issuing CA_ to decrypt the digital signature on the received certificate [2, 4]. It then independently hashes the certificate's content and compares this hash to the decrypted signature [4]. If they match, the signature is valid, meaning the certificate has not been tampered with and was indeed issued by that CA [2].
 - **Chain Building**: Since leaf certificates are rarely signed directly by a Root CA, the client receives a "chain" of certificates (leaf, then intermediate(s)) [7, 68]. The client "walks up" this chain, verifying each certificate's signature using the public key of the next certificate in the chain, until it reaches a Root CA certificate [7, 14, 68].
 - **Trust Anchor Check**: Finally, the client checks if this Root CA certificate is present in its **trust store** (a collection of pre-installed, explicitly trusted Root CA certificates) [3, 11-13]. If a valid chain can be built to a trusted root, the certificate is deemed trustworthy [13, 14]. This process confirms the identity of the server and establishes a secure, encrypted communication channel (TLS/SSL) [88].
 
 **6. Certificate Revocation**
-Certificates have a validity period, but they may need to be invalidated *before* their expiration if, for example, the private key is compromised or the certificate was issued erroneously [24, 87, 89, 90]. Two primary mechanisms exist for revocation:
+Certificates have a validity period, but they may need to be invalidated _before_ their expiration if, for example, the private key is compromised or the certificate was issued erroneously [24, 87, 89, 90]. Two primary mechanisms exist for revocation:
 
 - **Certificate Revocation Lists (CRLs)**: The CA periodically publishes a list of revoked certificates (identified by serial number) [89]. Clients download these lists and check if a certificate is on it [89, 91-93]. CRLs are signed by the CA to ensure their integrity [89, 91].
 - **Online Certificate Status Protocol (OCSP)**: Clients can send real-time queries to an OCSP responder to check the revocation status of a specific certificate [24, 25, 38, 39]. The responder returns a cryptographically signed status message (e.g., "good," "revoked," or "unknown") [40].

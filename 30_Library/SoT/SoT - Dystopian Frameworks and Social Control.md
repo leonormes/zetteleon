@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:55+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "Analysis of dystopian fiction as sociological \\\"Operating Systems\\\" for control, focusing on Orwell vs. Huxley."
 review_interval: "3 months"
 see_also: ["[[SoT - Social Stratification]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
 source_of_truth: []
 status: "stable"
-tags: ["dystopia", "literature", "TheHuman/Philosophy", "sociology"]
+tags: ["dystopia", "literature", "sociology", "TheHuman/Philosophy"]
 title: SoT - Dystopian Frameworks and Social Control
 type: "SoT"
 uid: 
@@ -32,7 +32,7 @@ updated:
 | **Fear** | Information withheld | Information overload (Noise) |
 | **Status** | **North Korea** | **Modern West** |
 
-- **The Verdict:** The State *wants* to be Orwellian (Control), but Society *is* Huxleian (Distraction).
+- **The Verdict:** The State _wants_ to be Orwellian (Control), but Society _is_ Huxleian (Distraction).
 
 ### B. Other Architectures
 
@@ -44,7 +44,7 @@ updated:
 
 - **Main Character Syndrome:** We identify with the "Exception" (Katniss/Neo), not the statistic. We believe we would be the rebel, not the bureaucrat.
 - **Poverty Porn:** The middle class craves "High Stakes" anxiety to replace their mundane "Low Stakes" anxiety (emails).
-- **Recuperation:** The Elite do not fear these stories; they sell them. "Anti-Capitalism" is a best-selling product (e.g., *The Boys* on Amazon).
+- **Recuperation:** The Elite do not fear these stories; they sell them. "Anti-Capitalism" is a best-selling product (e.g., _The Boys_ on Amazon).
 
 ## 4. Class Dynamics in Fiction
 

@@ -1,25 +1,26 @@
 ---
-aliases:
-  - Bessie Index
-  - Complete Bessie Topics
+aliases: [Bessie Index, Complete Bessie Topics]
 confidence: ""
 created: 2025-09-06T18:18:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:09+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags:
-  - topic/family/bessie
+tags: [topic/family/bessie]
 title: Bessie Complete Index
 type: map
 uid:
 updated:
 version: "1"
 ---
+
+## 🚀 Active Control Centre
+
+- [[SoT - Bessie GCSE Dashboard]]
 
 ## Bessie Complete Index
 
@@ -38,7 +39,7 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 #### Comprehensive Educational Plans
 
 - [[A Personalised Educational Pathway for Bessie Ormes_ A Comprehensive GCSE Support Plan]]
-- [[Foundational Principles for Bessie's Home Curriculum]]
+- Foundational Principles for Bessie's Home Curriculum (Missing)
 - [[Bessie GCSE]]
 - [[A Concept Map for a Flourishing Human]]
 
@@ -59,8 +60,8 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 
 #### VIA Character Strengths Framework
 
-- [[Character and Virtue MOC]]
-- [[VIA Character Strengths]]
+- [[MOC - Character and Virtue|Character and Virtue MOC]]
+- [[MOC - Character and Virtue|VIA Character Strengths]]
 
 #### Six Core Virtues
 
@@ -73,6 +74,7 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 
 #### Character-Enhanced Learning Notes
 
+- [[Mental Model - The Monkey vs The Algorithm]]
 - [[Neurodevelopmental Disorders vs. Character Defects]]
 - [[The Concept of a Character Ideal]]
 - [[The Spectrum of Character - Ideals vs Defects]]
@@ -164,7 +166,7 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 - [[Destructuring fixed mindset]]
 - [[Introduction Building on Strengths for a Successful GCSE Journey]]
 - [[Conclusion And Recommended Next Steps Implementing Bessie's Success Plan]]
-- [[School Opportunity, Not Obligation]]
+- School Opportunity, Not Obligation (Missing)
 
 #### Support Systems
 
@@ -176,9 +178,9 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 
 #### Reports & Evaluations
 
-- [[Year 8 report]]
-- [[Bessie Info]]
-- [[Bess friday]]
+- Year 8 report (Missing)
+- Bessie Info (Missing)
+- Bess friday (Missing)
 - [[Bessie's Answers]]
 - [[Answers to Bessie Question]]
 
@@ -210,4 +212,4 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 
 ---
 
-*This index serves as the central navigation hub for all Bessie-related materials. It organizes content by theme and function to support comprehensive understanding of her educational journey, learning profile, and support needs.*
+_This index serves as the central navigation hub for all Bessie-related materials. It organizes content by theme and function to support comprehensive understanding of her educational journey, learning profile, and support needs._

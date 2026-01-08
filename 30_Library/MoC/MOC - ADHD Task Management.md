@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-30T12:00:04Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -32,4 +32,4 @@ This note is a summary of the key insights from Steve's video, "Re-thinking task
 
 This approach reframes ADHD productivity struggles as an issue of action and motivation rather than system failure. Task managers alone don’t solve ADHD challenges; effective initiation and meaningful engagement are essential.
 
-*Source: [[ADHD Task Management]]*
+_Source: [[ADHD Task Management]]_

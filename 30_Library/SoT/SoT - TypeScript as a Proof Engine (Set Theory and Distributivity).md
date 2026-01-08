@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2026-01-03T10:18:49+00:00
+modified: 2026-01-08T10:49:39+00:00
 purpose: "Defines the architectural mental model of TypeScript as a Proof Engine operating on Set Theory, specifically addressing the distributivity trap."
 review_interval: "1 year"
 see_also: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "formal_verification", "set_theory", "type_theory", "typescript"]
+tags: ["formal_verification", "set_theory", "SoftwareEngineering/Architecture", "type_theory", "typescript"]
 title: SoT - TypeScript as a Proof Engine (Set Theory and Distributivity)
 type: "SoT"
 uid: 
@@ -35,9 +35,9 @@ updated:
 
 Types are visualized as sets of allowed values.
 
-- **Union (`|`)**: Logical OR (Disjunction). Represents the union of sets. A value belongs to the union if it belongs to *at least one* component set.
+- **Union (`|`)**: Logical OR (Disjunction). Represents the union of sets. A value belongs to the union if it belongs to _at least one_ component set.
 - **Intersection (`&`)**: Logical AND (Conjunction). Overlap of sets.
-  - *Logic:* Intersection increases the *constraints* (requirements), which in turn *narrows* the set of compatible values. More requirements = fewer valid objects.
+  - _Logic:_ Intersection increases the _constraints_ (requirements), which in turn _narrows_ the set of compatible values. More requirements = fewer valid objects.
 - **Subtyping (`extends`)**: Subset inclusion.
 - **Control Flow Analysis:** The compiler narrows the "set" of a variable within code blocks (e.g., narrowing `string | number` to `string` inside an `if (typeof x === "string")` block).
 
@@ -87,7 +87,7 @@ Treating types as "runtime functions" leads to bugs because:
 ## 5. Tensions, Gaps, and Cross-SoT Coherence
 
 - **Structural vs. Nominal:** This model relies on **Structural Typing** (The "Predicate" model: checking shape/sets). It contrasts with the **Nominal Typing** (The "Club" model: checking names/declarations) often assumed in OOP.
-- **Relation to Algebra:** The "Union" here is the **Sum Type** from [[SoT - The Algebra of Types (Cardinality and Isomorphism)]], but with the added property of being *untagged* and commutative (A | B == B | A).
+- **Relation to Algebra:** The "Union" here is the **Sum Type** from [[SoT - The Algebra of Types (Cardinality and Isomorphism)]], but with the added property of being _untagged_ and commutative (A | B == B | A).
 - **The Logic Engine:** TypeScript frames itself not just as "JS with Types," but as a formal logic engine for hoisting runtime invariants into compile-time constraints.
 
 ## 6. Sources and Links

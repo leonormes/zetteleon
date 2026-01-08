@@ -5,7 +5,7 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2026-01-03T10:19:44+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: To structure the thinking and planning for standardizing Kubernetes observability across the team.
 review_interval:
 see_also: ["[[30_Library/100_zettelkasten/Containers Within a Pod Share Network Namespace and IP Address]]", "[[Authentication Summary for AKS, EKS, and Terraform Cloud]]", "[[AWS ENIs Connect EKS Worker Nodes to VPC Networks]]"]
@@ -35,20 +35,20 @@ We currently have Grafana dashboards, but I suspect they are not "standardized" 
 ### The Tension
 
 - **Knowledge Gap:** I need to "Complete a tutorial" and "Research golden signals" before I can effectively "Document the new standard."
-- **Action vs. Planning:** There is a temptation to just "Build a new dashboard" (Task) without first defining *what* is critical (Task: "Define 3 critical alerts").
+- **Action vs. Planning:** There is a temptation to just "Build a new dashboard" (Task) without first defining _what_ is critical (Task: "Define 3 critical alerts").
 - **Current State:** I need to know where we stand ("Audit our current Grafana dashboards") before building new things.
 
 ### The Next Test
 
-*The immediate, verifiable action to resolve the current tension.*
+_The immediate, verifiable action to resolve the current tension._
 
 - [ ] **Research "golden signals" for Kubernetes monitoring.** (Latency, traffic, errors, saturation).
-  - *Success Criteria:* I can list the 4 signals and how they map to our specific K8s metrics.
-  - *Output:* Update this note with a mapping table.
+  - _Success Criteria:_ I can list the 4 signals and how they map to our specific K8s metrics.
+  - _Output:_ Update this note with a mapping table.
 
 ### Backlog & Sequence
 
-*Derived from the initial task dump:*
+_Derived from the initial task dump:_
 
 1. **Research:** Research "golden signals" for Kubernetes monitoring (latency, traffic, errors, saturation) `[Next Action]`
 2. **Learn:** Complete a tutorial on building a Kubernetes health dashboard in Grafana.

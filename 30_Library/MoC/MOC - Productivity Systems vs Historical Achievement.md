@@ -6,7 +6,7 @@ criteria: ""
 epistemic: "null"
 exclusions: "Specific tutorials for GTD or Atomic Habits."
 last_reviewed: "null"
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: "null"
 review_interval: "null"
 scope: ""

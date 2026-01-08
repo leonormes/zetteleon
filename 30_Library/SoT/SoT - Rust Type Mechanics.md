@@ -1,16 +1,16 @@
 ---
-aliases: ["Rust Type System", "Rust Generics", "Rust Traits", "Monomorphization", "Rust ADTs"]
+aliases: ["Monomorphization", "Rust ADTs", "Rust Generics", "Rust Traits", "Rust Type System"]
 confidence: "5/5"
 created: 2025-12-27T20:28:33+00:00
 epistemic: "technical"
 last_reviewed: "2025-12-30"
-modified: 2025-12-31T11:19:03+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the mechanical components of Rust's Type System: Generics, Traits, Bounds, and Layout."
 review_interval: "6 months"
 see_also: ["[[SoT - Rust Language]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "compilers", "rust", "type-system"]
+tags: ["compilers", "rust", "SoftwareEngineering/Architecture", "type-system"]
 title: SoT - Rust Type Mechanics
 type: "SoT"
 uid: 
@@ -52,7 +52,7 @@ Rust does not use type erasure (like Java/TS) or v-tables (like C++ virtual func
 In Rust, an `enum` is a **Sum Type** (Tagged Union), representing a closed set of mutually exclusive possibilities.
 
 - **Comparison:** Unlike C/TS Enums (which are integers/constants), Rust Enums can hold different shapes of data per variant.
-- **Exhaustiveness:** `match` expressions must handle *every* variant. This makes invalid states unrepresentable.
+- **Exhaustiveness:** `match` expressions must handle _every_ variant. This makes invalid states unrepresentable.
 - **Optimization:** Rust uses "Niche Optimization" (e.g., using a pointer's null-bit to store the tag) to often make `Option<Box<T>>` the same size as `Box<T>`.
 
 ---
@@ -72,6 +72,7 @@ A unique architectural feature is the **Zero-Sized Type**.
 Rust structs are not always tightly packed. They must satisfy **alignment requirements** (e.g., a `u64` must start at a memory address divisible by 8).
 
 ### 5.1 The Padding Problem
+
 The compiler inserts invisible padding bytes to ensure alignment, which wastes cache space.
 
 ```rust
@@ -83,6 +84,7 @@ struct Bad {
 ```
 
 ### 5.2 The Solution: Field Reordering
+
 Order fields from **Largest to Smallest** to minimize padding.
 
 ```rust
@@ -110,19 +112,19 @@ How to use these mechanics to build "Misuse-Resistant" APIs.
 
 You can add methods to types you do not own (e.g., standard library types) by defining a new trait and implementing it.
 
-* **Mechanism:** `impl<T: Iterator> MyExtension for T {... }`
-* **Result:** Enables fluent dot-notation (`vec.iter().my_custom_method()`) without modifying upstream code.
+- **Mechanism:** `impl<T: Iterator> MyExtension for T {... }`
+- **Result:** Enables fluent dot-notation (`vec.iter().my_custom_method()`) without modifying upstream code.
 
 ### 6.2 Conditional Capabilities (Trait Bounds)
 
 Functionality can be conditionally enabled based on the properties of T.
 
-* **Mechanism:** `impl<T> Progress<T> where T: ExactSizeIterator {... }`
-* **Result:** The method `show_eta()` is *only* physically available if the underlying iterator knows its length. Calling it on an unbounded stream is a compile-time error.
+- **Mechanism:** `impl<T> Progress<T> where T: ExactSizeIterator {... }`
+- **Result:** The method `show_eta()` is _only_ physically available if the underlying iterator knows its length. Calling it on an unbounded stream is a compile-time error.
 
 ### 6.3 Type State Pattern (State Machines)
 
 Encoding the state of an object into its Type to make invalid transitions unrepresentable.
 
-* **Mechanism:** `fn start(self: Request<Builder>) -> Request<Pending>`
-* **Result:** You cannot call `send()` on a `Builder`; you must transition it to `Pending` first. The compiler enforces the order of operations.
+- **Mechanism:** `fn start(self: Request<Builder>) -> Request<Pending>`
+- **Result:** You cannot call `send()` on a `Builder`; you must transition it to `Pending` first. The compiler enforces the order of operations.

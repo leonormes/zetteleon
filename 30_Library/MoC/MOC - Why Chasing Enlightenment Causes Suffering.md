@@ -6,7 +6,7 @@ criteria: "Atomic notes must relate to Zen concepts of suffering, impermanence, 
 epistemic: ""
 exclusions: "Discussion of enlightenment from other spiritual traditions."
 last_reviewed: ""
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: ""
 review_interval: ""
 scope: "The Zen Buddhist perspective on why seeking enlightenment as a goal leads to suffering."
@@ -32,7 +32,7 @@ updated:
 
 To understand this paradox, one must grasp several key Zen concepts:
 
-- **Impermanence:** [[Zen Practice Centers on Accepting Impermanence]] rel:: explains that all things, including mental states, are constantly changing. Clinging to the idea of a *permanent* enlightened state is a direct contradiction of this reality.
+- **Impermanence:** [[Zen Practice Centers on Accepting Impermanence]] rel:: explains that all things, including mental states, are constantly changing. Clinging to the idea of a _permanent_ enlightened state is a direct contradiction of this reality.
 - **Suffering (Dukkha):** [[The Four Noble Truths Explain Suffering from Attachment]] rel:: part-of, which arises from our attachments and aversions. Chasing enlightenment is a form of attachment.
 - **Letting Go:** [[Letting Go of Fixed Views Leads to Peace]] rel:: solution. This includes letting go of the need for oneself to be a permanently "enlightened" person.
 

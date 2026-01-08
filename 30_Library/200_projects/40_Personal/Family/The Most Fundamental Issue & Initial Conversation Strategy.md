@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-11T04:37:15Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:59+00:00
+modified: 2026-01-08T10:49:48+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -103,7 +103,7 @@ Based on your "Silent Void" analysis:
 1. **Don't** make this a "discussion about chores disguised as respect"
 2. **Don't** list multiple grievances—focus on the ONE principle
 3. **Don't** expect resolution in one conversation
-4. **Don't** let her deflect to "You do it too" without parking it: *"If I've done this to you, I want to fix that. Can we solve this one first, then address yours?"*
+4. **Don't** let her deflect to "You do it too" without parking it: _"If I've done this to you, I want to fix that. Can we solve this one first, then address yours?"_
 
 ---
 

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:53Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:13+00:00
+modified: 2026-01-08T10:49:51+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -33,7 +33,7 @@ These namespaces are not used in isolation. They are used in combination to crea
 
 Capabilities
 
-It's also important to understand *capabilities*. While not a namespace, they work hand-in-hand with namespaces to determine what processes inside a namespace can do. Each namespace has its own set of capabilities, and a namespace cannot have more permissions than its creator.
+It's also important to understand _capabilities_. While not a namespace, they work hand-in-hand with namespaces to determine what processes inside a namespace can do. Each namespace has its own set of capabilities, and a namespace cannot have more permissions than its creator.
 
 Containerisation
 

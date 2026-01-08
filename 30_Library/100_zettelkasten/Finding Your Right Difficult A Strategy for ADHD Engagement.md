@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-10-24T15:20:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["challenge", "DMN", "engagement", "TheHuman/Motivation", "personal-growth", "TheHuman/Health/ADHD"]
+tags: ["challenge", "DMN", "engagement", "personal-growth", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
 title: Finding Your Right Difficult A Strategy for ADHD Engagement
 type: ""
 uid: 

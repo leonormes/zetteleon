@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-10T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the canonical understanding of Social Stratification as a structural system of inequality."
 review_interval: "1 year"
 see_also: ["[[SoT - The Evolutionary Biology of Status]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]
@@ -35,8 +35,8 @@ Is stratification natural?
 
 - **Hunter-Gatherer Baseline:** For 95% of human history, society was aggressively egalitarian with active "levelling mechanisms" to suppress dominance. Status existed but was not heritable.
 - **The Shift (Agriculture):** Stratification is a function of **Scalability** and **Surplus**.
-  - *Surplus:* Storable calories (grain) allowed hoarding and theft.
-  - *Complexity:* Irrigation/Defense required central administration (The State).
+  - _Surplus:_ Storable calories (grain) allowed hoarding and theft.
+  - _Complexity:_ Irrigation/Defense required central administration (The State).
 - **Conclusion:** Status-seeking is biological (firmware); Systemic Stratification is technological/structural (hardware scale).
 
 ---
@@ -59,9 +59,9 @@ Is stratification natural?
 
 - **Thesis:** Inequality is reproduced through the conversion of capital types.
 - **Forms of Capital:**
-  - *Economic:* Money.
-  - *Social:* Networks.
-  - *Cultural:* Knowledge, taste, mannerisms (Habitus).
+  - _Economic:_ Money.
+  - _Social:_ Networks.
+  - _Cultural:_ Knowledge, taste, mannerisms (Habitus).
 - **Mechanism:** Elites reproduce their status by defining "good taste" and "competence" in ways that exclude others.
 
 ---
@@ -86,7 +86,7 @@ How does the system maintain stability?
 
 - **Contingency:** The level of inequality is a **political choice**. (Comparison: Sweden vs. USA).
 - **Distributive Justice (Rawls):** A system is just only if you would enter it behind a "Veil of Ignorance" (not knowing your station).
-- **Inequality harms everyone:** High inequality correlates with lower trust, higher crime, and worse health outcomes for *all* classes.
+- **Inequality harms everyone:** High inequality correlates with lower trust, higher crime, and worse health outcomes for _all_ classes.
 
 ---
 

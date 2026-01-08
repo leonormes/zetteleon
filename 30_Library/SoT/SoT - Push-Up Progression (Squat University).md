@@ -1,16 +1,16 @@
 ---
-aliases: ["Push-Up Technique", "Push-Up Program", "Bodyweight Strength"]
+aliases: ["Bodyweight Strength", "Push-Up Program", "Push-Up Technique"]
 confidence: "5/5"
 created: 2025-12-26T14:00:00Z
 epistemic: "Mechanical/Structural"
 last_reviewed: "2025-12-26"
-modified: 2025-12-26T16:43:43+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "Canonical protocol for optimizing push-up performance through mechanical efficiency and phased overload."
 review_interval: "6 months"
 see_also: ["[[SoT - Physical Health and Vitality]]"]
 source_of_truth: ["[[Push-Up Progression Framework Explained]]"]
 status: "stable"
-tags: ["fitness", "calisthenics", "strength", "technique"]
+tags: ["calisthenics", "fitness", "strength", "technique"]
 title: SoT - Push-Up Progression (Squat University)
 type: "SoT"
 uid: 

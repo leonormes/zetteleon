@@ -4,14 +4,14 @@ confidence: ""
 created: 2025-10-30T12:05:04Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source: "[[MOC - The Science of Making and Breaking Habits]]"
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Identity", "TheHuman/Mindset", "TheHuman/Habits"]
+tags: ["TheHuman/Habits", "TheHuman/Identity", "TheHuman/Mindset"]
 title: Identity-Based Habits are More Resilient Than Goal-Based Habits
 type: "concept"
 uid: 

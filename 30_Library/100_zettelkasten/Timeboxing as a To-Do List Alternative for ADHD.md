@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-26T11:05:00Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: ""
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "hypothesis", "task-management", "time-management", "TheHuman/Health/ADHD", "topic/productivity"]
+tags: ["experiment", "hypothesis", "task-management", "TheHuman/Health/ADHD", "time-management", "topic/productivity"]
 title: Timeboxing as a To-Do List Alternative for ADHD
 type: "hypothesis"
 uid: 
@@ -48,7 +48,7 @@ version: "1"
 
 ## 4. Results Log
 
-- *(Log results here)*
+- _(Log results here)_
 
 ---
 

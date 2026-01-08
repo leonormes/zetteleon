@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-21T00:00:00Z
 epistemic: "Synthesized from multiple video tutorials and hands-on use."
 last_reviewed: "2025-12-21"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "To provide a practical, actionable guide to the core operations and workflows of the Gemini CLI."
 review_interval: "1 month"
 see_also: []
@@ -62,7 +62,7 @@ You can control how much autonomy the agent has.
 
 ## 5. Advanced Workflows & UX
 
-- **Test-Driven Development (TDD):** Instruct the agent to write tests *before* writing the feature code. This enforces a "Red-Green" loop and results in more reliable code.
+- **Test-Driven Development (TDD):** Instruct the agent to write tests _before_ writing the feature code. This enforces a "Red-Green" loop and results in more reliable code.
 - **Multimodal Debugging (Vision):** For UI bugs or visual errors, pass a screenshot directly to the CLI. Vision-enabled models are significantly more effective at fixing non-crashing UI issues.
 - **Concurrent Contexts (`tmux`):** Use a terminal multiplexer like `tmux` to run multiple, independent Gemini CLI instances in parallel panes for different tasks (e.g., bug fixing, documentation, feature development).
 - **Interactive Focus (`Ctrl+F`):** If the agent is waiting for manual input in a tool (e.g., a `git commit` message), press `Ctrl+F` (or `Cmd+F`) to jump focus directly to the input prompt.

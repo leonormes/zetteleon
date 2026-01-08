@@ -1,16 +1,16 @@
 ---
-aliases: ["Parse Don't Validate", "Type-Driven Validation", "Alexis King Principle"]
+aliases: ["Alexis King Principle", "Parse Don't Validate", "Type-Driven Validation"]
 confidence: "5/5"
 created: 2025-12-30T11:05:24+00:00
 epistemic: "principle"
 last_reviewed: "2025-12-30"
-modified: 2025-12-30T14:31:10+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the architectural principle of shifting validation to the system boundaries by transforming data into Types, rather than just checking it."
 review_interval: "12 months"
-see_also: ["[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[SoT - Algebraic Data Types (ADTs)]]", "[[SoT - The Infrastructure Witness Pattern]]"]
+see_also: ["[[SoT - Algebraic Data Types (ADTs)]]", "[[SoT - The Infrastructure Witness Pattern]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "type_theory", "SoftwareEngineering/Security", "principle"]
+tags: ["principle", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "type_theory"]
 title: "SoT - Parse, Don't Validate"
 type: "SoT"
 uid: 
@@ -33,7 +33,7 @@ When we rely on validation, we often fall into the trap of **Shotgun Parsing**: 
 
 - **Redundancy:** Every function checks `if valid(x)`.
 - **Fragility:** If one function forgets to check, the system breaks.
-- **Boolean Blindness:** The boolean result (`true`) doesn't carry *why* it's valid or *what* invariants are guaranteed.
+- **Boolean Blindness:** The boolean result (`true`) doesn't carry _why_ it's valid or _what_ invariants are guaranteed.
 
 ---
 
@@ -70,8 +70,8 @@ fn head(list: NonEmptyList<T>) -> T {
 
 All external input (User, Network, Disk) is "Untrusted."
 
-- **Layer 1 (The Parser):** The *only* place where runtime checks happen. It attempts to construct a valid Type (e.g., `UserId`, `Email`, `Config`).
-- **Layer 2 (The Core):** Accepts *only* the valid Types. It contains **zero** validation logic because the types themselves prove the data is valid.
+- **Layer 1 (The Parser):** The _only_ place where runtime checks happen. It attempts to construct a valid Type (e.g., `UserId`, `Email`, `Config`).
+- **Layer 2 (The Core):** Accepts _only_ the valid Types. It contains **zero** validation logic because the types themselves prove the data is valid.
 
 ### 4.2 Making Illegal States Unrepresentable
 
@@ -92,7 +92,7 @@ Name the type after the proof it carries.
 
 - **Bad:** `StringWrapper`, `ValidatedData`.
 - **Good:** `EmailAddress`, `NonEmptyString`, `SortedList`.
-- *Logic:* When you see `SortedList`, you know the property "is sorted" is already proven.
+- _Logic:_ When you see `SortedList`, you know the property "is sorted" is already proven.
 
 ### II. Name the Role (The Context)
 

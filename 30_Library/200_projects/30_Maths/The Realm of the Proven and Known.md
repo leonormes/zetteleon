@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-18T09:32:24Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:09+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -23,11 +23,11 @@ version: ""
 This is the mathematics of the school curriculum. From a logical standpoint, it is a closed, certain world.
 
 - **What is Proven?** Everything. Every single tool you learn in school—the quadratic formula, Pythagoras's theorem, the rules of differentiation—is a **proven theorem**. These are statements that have been rigorously derived from a set of foundational axioms (the basic assumptions of mathematics) using the rules of logic.
-- **What is Known?** The "known" is the vast library of these proven theorems. The curriculum is a guided tour of a small part of this library. The student's task is not to prove these facts but to *know* them and *know how to apply them*.
+- **What is Known?** The "known" is the vast library of these proven theorems. The curriculum is a guided tour of a small part of this library. The student's task is not to prove these facts but to _know_ them and _know how to apply them_.
 - **What is Speculation?** This is entirely absent. In school maths, you are never presented with a problem that has not yet been solved by anyone. There are no open questions or conjectures. The system is designed to provide certainty.
 - **What can be Known/Never Known?** These concepts do not apply here. The world of applicative maths is, by definition, the world of things already known. The idea of an "unknowable" mathematical truth is completely outside the scope of the curriculum.
 
-In essence, applicative maths is the act of operating *within* a fixed system of proven results.
+In essence, applicative maths is the act of operating _within_ a fixed system of proven results.
 
 ## Generative Maths: The Realm of Speculation and the Unknowable
 

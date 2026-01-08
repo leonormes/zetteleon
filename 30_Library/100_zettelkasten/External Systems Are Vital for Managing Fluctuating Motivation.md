@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-10T13:09:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "To identify a key use case for external productivity systems."
 review_interval: "90"
 see_also: ["[[Externalizing Direction Reduces Cognitive Load and Fosters Flow]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Motivation", "neurodiversity", "TheHuman/Health/ADHD", "topic/productivity", "topic/systems"]
+tags: ["neurodiversity", "TheHuman/Health/ADHD", "TheHuman/Motivation", "topic/productivity", "topic/systems"]
 title: External Systems Are Vital for Managing Fluctuating Motivation
 type: "concept"
 uid: 

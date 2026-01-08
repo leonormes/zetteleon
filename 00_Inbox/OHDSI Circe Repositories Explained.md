@@ -1,36 +1,36 @@
 ---
 aliases: []
-type: ""
-status: ""
-confidence: ""
-epistemic: ""
-purpose: ""
-modified: 2026-01-07T10:39:19+00:00
-last_reviewed: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
-title: OHDSI Circe Repositories Explained
-source: "https://gemini.google.com/share/e71ae6e8e846"
 author:
   - "[[Gemini]]"
-published:
+confidence: ""
 created: 2026-01-07T08:39:43+00:00
 description: "Created with Gemini"
-tags:
-  - "input"
+epistemic: ""
+last_reviewed: ""
+modified: 2026-01-08T10:50:03+00:00
+published:
+purpose: ""
+review_interval: ""
+see_also: []
+source: "https://gemini.google.com/share/e71ae6e8e846"
+source_of_truth: []
+status: ""
+tags: ["input"]
+title: OHDSI Circe Repositories Explained
+type: ""
 ---
+
 **OHDSI/Circe** is archived because it is a legacy repository that has been superseded by the modern OHDSI technology stack, specifically **ATLAS** and **WebAPI**.
 
 Here is the breakdown of the relationship between the repositories and the architecture:
 
-### 1\. Why OHDSI/Circe is archived
+## 1\. Why OHDSI/Circe is Archived
 
 - **Obsolete UI:** The `OHDSI/Circe` repository contained a standalone, Knockout.js-based user interface for creating cohort definitions.
 - **Superseded by ATLAS:** This UI functionality was integrated into **ATLAS**, the primary unified interface for the OHDSI platform. ATLAS uses the same underlying technology (Knockout.js) but centralises cohort definitions, data characterisation, and pathway analysis into one tool.
 - **Repo Cleanup:** Although the move to ATLAS happened years ago (circa 2015–2016), the `OHDSI/Circe` repository was officially archived on **September 3, 2024**, likely as part of a housekeeping effort to mark it clearly as read-only and deprecated.
 
-### 2\. Is OHDSI/circe-be related?
+## 2\. Is OHDSI/circe-be Related?
 
 **Yes, it is the core engine.**
 
@@ -40,7 +40,7 @@ Here is the breakdown of the relationship between the repositories and the archi
 	- **Middle/Backend:** ATLAS sends a JSON object to **WebAPI**.
 	- **Library:** WebAPI calls **circe-be** to translate that JSON into executable SQL.
 
-### Summary
+## Summary
 
 | Repository | Status | Role |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ Here is the technical explanation for why:
 2. **Format:** Miredot generates static HTML documentation directly from Java source code and annotations. Unlike Swagger/OpenAPI, which creates a schema file that fuels a UI, Miredot produces the HTML view directly.
 3. **No Endpoint:** Because the application is not configured with the `springfox` or `springdoc` libraries (standard tools for exposing OpenAPI specs in Java Spring apps), there is no `/v2/api-docs` or `/swagger.json` endpoint available on the server.
 
-### Available "Definition"
+## Available "Definition"
 
 While a raw JSON spec is unavailable, the **endpoints** exposed by the API (based on your provided URL) include the following primary resources:
 
@@ -78,16 +78,16 @@ To provide a "software architect" view of the 367+ repositories in the OHDSI Git
 
 The OHDSI stack is structured into distinct layers: **Standards**, **ETL/Engineering**, **Web Platform**, and **Analytics Engine (HADES)**.
 
-### 1\. Data Standards Layer
+## 1\. Data Standards Layer
 
 These repositories define the schema and semantic framework upon which all other tools rely.
 
 | Repository | Description |
 | --- | --- |
 | **[CommonDataModel](https://github.com/OHDSI/CommonDataModel)** | **The Kernel.** Contains the definition, DDLs (for Oracle, SQL Server, PostgreSQL, etc.), and documentation for the OMOP Common Data Model. |
-| **[Vocabulary-v5.0](https://github.com/OHDSI/Vocabulary-v5.0)** | The build process for the Standardized Vocabularies. *Note: Users typically download the compiled vocabularies from [Athena](https://www.google.com/search?q=http://athena.ohdsi.org) rather than build them from this repo.* |
+| **[Vocabulary-v5.0](https://github.com/OHDSI/Vocabulary-v5.0)** | The build process for the Standardized Vocabularies. _Note: Users typically download the compiled vocabularies from [Athena](https://www.google.com/search?q=http://athena.ohdsi.org) rather than build them from this repo._ |
 
-### 2\. ETL & Data Engineering Layer
+## 2\. ETL & Data Engineering Layer
 
 Tools designed to profile source data, map it to the standard, and validate quality.
 
@@ -100,7 +100,7 @@ Tools designed to profile source data, map it to the standard, and validate qual
 | **[Achilles](https://github.com/OHDSI/Achilles)** | **Characteriser.** Runs SQL scripts to compute descriptive statistics (counts, distributions, treemaps) of the entire database. Output is a "Results Schema" used by ATLAS and Ares. |
 | **[ETL-LambdaBuilder](https://github.com/OHDSI/ETL-LambdaBuilder)** | A.NET Core application designed to orchestrate the ETL process on AWS Lambda (Serverless). |
 
-### 3\. The Web Platform (Application Layer)
+## 3\. The Web Platform (Application Layer)
 
 The user-facing tools for defining cohorts and executing analyses.
 
@@ -110,7 +110,7 @@ The user-facing tools for defining cohorts and executing analyses.
 | **[WebAPI](https://github.com/OHDSI/WebAPI)** | **The Backend.** A Java (Spring Boot) RESTful service that manages the database connections, translates OHDSI JSON definitions into SQL, and handles job execution. |
 | **[Ares](https://github.com/OHDSI/Ares)** | **Data Catalog.** A newer static site generator that publishes the results from Achilles/DataQualityDashboard to showcase the contents of a data network without exposing patient-level data. |
 
-### 4\. HADES (Analytics Engine)
+## 4\. HADES (Analytics Engine)
 
 **H** ealth **A** nalytics **D** ata-to- **E** vidence **S** uite. This is the "Standard Library" of R packages used by the platform to perform heavy statistical lifting.
 
@@ -125,7 +125,7 @@ The user-facing tools for defining cohorts and executing analyses.
 	- **[CirceR](https://github.com/OHDSI/CirceR):** R wrapper for the cohort logic engine (frontend for `circe-be`).
 	- **[Capr](https://github.com/OHDSI/Capr):** A programmatic (code-first) way to define cohorts in R, an alternative to the ATLAS GUI.
 
-### 5\. Infrastructure
+## 5\. Infrastructure
 
 | Repository | Description |
 | --- | --- |
@@ -141,19 +141,19 @@ As of early 2026, **there is no official, machine-readable OpenAPI (Swagger) def
 
 The platform relies on a different documentation generation stack that does not produce standard JSON/YAML specifications.
 
-### 1\. The Source of Truth: Miredot
+## 1\. The Source of Truth: Miredot
 
 Instead of Swagger, WebAPI uses **Miredot** to generate static HTML documentation directly from the Java source code (Spring annotations).
 
 - **Documentation URL:**[http://webapidoc.ohdsi.org/](http://webapidoc.ohdsi.org/)
 - **Limitation:** This provides a human-readable list of endpoints (GET/POST) and parameters, but it **cannot be imported** into tools like Postman or Swagger UI for automated client generation.
 
-### 2\. Why it is missing (Architectural Context)
+## 2\. Why it is Missing (Architectural Context)
 
 - **Legacy Stack:** WebAPI is a legacy Java 8 application built on Spring Boot 1.x (later migrated to 2.x). It pre-dates the widespread adoption of the OpenAPI V3 standard.
 - **Build Pipeline:** The Maven build process (`pom.xml`) is configured to run the `miredot-plugin` during the `package` phase. There is no `springdoc` or `springfox` dependency included, which would be required to auto-generate a `/v2/api-docs` or `/swagger.json` endpoint at runtime.
 
-### 3\. Alternative "Definitions"
+## 3\. Alternative "Definitions"
 
 If you need to understand the contract for integration purposes, these are your best proxies:
 
@@ -169,7 +169,7 @@ If you need to understand the contract for integration purposes, these are your 
 	- `VocabularyService.java` (Search & Concepts)
 	- `DDLService.java` (Schema generation)
 
-### Next Step
+## Next Step
 
 Would you like me to extract the JSON payload structure for a specific endpoint (e.g., `POST /cohortdefinition`) from the Java source code for you?
 
@@ -177,25 +177,25 @@ parse this youtube playlist and create a list of the individual videos links htt
 
 The YouTube playlist provided (**PLpzbqK7kvfeUXjgnpNMFoff3PDOwv61lZ**) contains the sessions from the **2024 OHDSI Global Symposium**. Below is a list of the primary sessions and presentations included in this collection:
 
-### 2024 OHDSI Global Symposium Videos
+## 2024 OHDSI Global Symposium Videos
 
 - **State of the Community**
-	- *Presenter:* George Hripcsak
-	- *Link:*[https://www.youtube.com/watch?v=Iz-jMxrgUCM](https://www.youtube.com/watch?v=Iz-jMxrgUCM)
+	- _Presenter:_ George Hripcsak
+	- _Link:_[https://www.youtube.com/watch?v=Iz-jMxrgUCM](https://www.youtube.com/watch?v=Iz-jMxrgUCM)
 - **Value Proposition for Participating in OHDSI Network Studies like LEGEND-T2DM**
-	- *Presenter:* Various (Introduction by Patrick Ryan)
-	- *Link:*[https://www.youtube.com/watch?v=o19SSkEDKIg](https://www.youtube.com/watch?v=o19SSkEDKIg)
+	- _Presenter:_ Various (Introduction by Patrick Ryan)
+	- _Link:_[https://www.youtube.com/watch?v=o19SSkEDKIg](https://www.youtube.com/watch?v=o19SSkEDKIg)
 - **Clinical Insights from LEGEND-T2DM**
-	- *Moderator:* Aline Pedroso
-	- *Link:*[https://www.youtube.com/watch?v=QLyFaEuIlPc](https://www.youtube.com/watch?v=QLyFaEuIlPc)
+	- _Moderator:_ Aline Pedroso
+	- _Link:_[https://www.youtube.com/watch?v=QLyFaEuIlPc](https://www.youtube.com/watch?v=QLyFaEuIlPc)
 - **2024 Global Symposium Plenary Panel: JACC-OHDSI Partnership**
-	- *Moderators:* Nicole Pratt, Marc Suchard
-	- *Link:*[https://www.youtube.com/watch?v=N-663a-8898](https://www.youtube.com/watch?v=N-663a-8898)
+	- _Moderators:_ Nicole Pratt, Marc Suchard
+	- _Link:_[https://www.youtube.com/watch?v=N-663a-8898](https://www.youtube.com/watch?v=N-663a-8898)
 - **Closing Talk: Collaborating on Evidence at Scale**
-	- *Presenter:* Patrick Ryan
-	- *Link:*[https://www.youtube.com/watch?v=LZ0WaUcRQLM](https://www.youtube.com/watch?v=LZ0WaUcRQLM)
+	- _Presenter:_ Patrick Ryan
+	- _Link:_[https://www.youtube.com/watch?v=LZ0WaUcRQLM](https://www.youtube.com/watch?v=LZ0WaUcRQLM)
 
-*Note: This playlist also includes a large number of lightning talks, collaborator showcases, and posters from the event. You can view the full interactive list on the [OHDSI 2024 Event Page](https://www.ohdsi.org/ohdsi2024).*
+_Note: This playlist also includes a large number of lightning talks, collaborator showcases, and posters from the event. You can view the full interactive list on the [OHDSI 2024 Event Page](https://www.ohdsi.org/ohdsi2024)._
 
 Google Account
 

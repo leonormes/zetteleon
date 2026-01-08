@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-26T13:03:43Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:12+00:00
+modified: 2026-01-08T10:49:51+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -26,7 +26,7 @@ Security work needs to be seen and valued, not hidden.
 
 ## Frame Security as a Core Feature & Quality Attribute
 
-- Shift the narrative. Security isn't just "insurance"; it's a fundamental requirement for handling medical data. It's about *patient safety*, *trust*, and *system reliability*.
+- Shift the narrative. Security isn't just "insurance"; it's a fundamental requirement for handling medical data. It's about _patient safety_, _trust_, and _system reliability_.
 - A breach doesn't just leak data; it can bring the entire service down, directly impacting users (patients, clinicians). Frame security work as essential for uptime and performance.
 
 ## Visualize Security Status

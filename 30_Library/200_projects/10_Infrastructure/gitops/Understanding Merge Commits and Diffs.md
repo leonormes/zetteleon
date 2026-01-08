@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-19T05:57:33Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:17+00:00
+modified: 2026-01-08T10:49:52+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -24,7 +24,7 @@ You're right, commit `164909` is a merge commit with two parents (`eb2c5e` and `
 
 **Understanding Merge Commits and Diffs**
 
-When you view the diff for a merge commit, it doesn't show the difference between the merge commit and *either* of its parents in isolation. Instead, it shows the **combined changes** that were introduced by *both* parent branches since their common ancestor.
+When you view the diff for a merge commit, it doesn't show the difference between the merge commit and _either_ of its parents in isolation. Instead, it shows the **combined changes** that were introduced by _both_ parent branches since their common ancestor.
 
 Here's a breakdown:
 
@@ -32,8 +32,8 @@ Here's a breakdown:
 2. **Changes on Each Branch:**
     - Branch `eb2c5e` introduced a set of changes from the common ancestor up to `eb2c5e`.
     - Branch `196908` introduced a set of changes from the common ancestor up to `196908`.
-3. **Merge Commit's Changes:** The merge commit `164909` represents the integration of *all* the changes from both `eb2c5e` and `196908` since their common ancestor.
-4. **The Diff:** The diff you see for `164909` shows the *net result* of applying all those changes. It's effectively the difference between the common ancestor and the merged state represented by `164909`.
+3. **Merge Commit's Changes:** The merge commit `164909` represents the integration of _all_ the changes from both `eb2c5e` and `196908` since their common ancestor.
+4. **The Diff:** The diff you see for `164909` shows the _net result_ of applying all those changes. It's effectively the difference between the common ancestor and the merged state represented by `164909`.
 
 **In simpler terms:**
 

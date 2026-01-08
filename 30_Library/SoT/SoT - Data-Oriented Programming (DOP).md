@@ -1,16 +1,16 @@
 ---
-aliases: ["DOP", "DOD", "Data-Oriented Design", "Structure of Arrays"]
+aliases: ["Data-Oriented Design", "DOD", "DOP", "Structure of Arrays"]
 confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "pattern"
 last_reviewed: 2026-01-01
-modified: 2026-01-01T12:32:06+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "To define the tactical patterns of Data-Oriented Programming, specifically optimizing for CPU Cache, SIMD, and Memory Layout."
 review_interval: "6 months"
-see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - Slot Map (Generational Arena)]]", "[[SoT - Rust Language]]", "[[SoT - Database Internals for Systems Programmers]]"]
+see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - Database Internals for Systems Programmers]]", "[[SoT - Rust Language]]", "[[SoT - Slot Map (Generational Arena)]]"]
 source_of_truth: []
 status: "stable"
-tags: ["dop", "dod", "performance", "SoftwareEngineering/Architecture", "rust"]
+tags: ["dod", "dop", "performance", "rust", "SoftwareEngineering/Architecture"]
 title: SoT - Data-Oriented Programming (DOP)
 type: "SoT"
 uid: 
@@ -35,8 +35,8 @@ While OOP optimises for the developer's mental model (grouping properties by ent
 The fundamental difference lies in how data is arranged in RAM.
 
 > **The Hardware Reality:** Cache line sizes and memory latencies are not theoretical; they are defined by the silicon.
-> *   *See:* **[[MOC - Cloud Hardware Architecture]]** for the specific latency maps of AWS/Azure.
-> *   *See:* **[[SoT - Intel Server Microarchitectures]]** for L1/L2/L3 sizes (Ice Lake vs Sapphire Rapids).
+> -   _See:_ **[[MOC - Cloud Hardware Architecture]]** for the specific latency maps of AWS/Azure.
+> -   _See:_ **[[SoT - Intel Server Microarchitectures]]** for L1/L2/L3 sizes (Ice Lake vs Sapphire Rapids).
 
 | Layout | Description | Diagram | Pros | Cons |
 |:--- |:--- |:--- |:--- |:--- |
@@ -47,19 +47,19 @@ The fundamental difference lies in how data is arranged in RAM.
 
 The CPU fetches memory in **64-byte chunks** (Cache Lines).
 
-* **OOP:** Fetching a `Player` to update their `x` position brings in `name`, `inventory`, and `status` (Junk data).
-* **DOP:** Fetching the `Position` array brings in 16 `x` coordinates at once. Every byte loaded is used.
+- **OOP:** Fetching a `Player` to update their `x` position brings in `name`, `inventory`, and `status` (Junk data).
+- **DOP:** Fetching the `Position` array brings in 16 `x` coordinates at once. Every byte loaded is used.
 
 ### 2.2 SIMD (Single Instruction, Multiple Data)
 
 Because SoA layout places homogeneous data contiguously (e.g., `[x1, x2, x3, x4]`), the compiler (LLVM) or hardware can execute a single instruction to update multiple entities simultaneously.
 
-* **Scalar (OOP):** `x1 += v1` (1 cycle) -> `x2 += v2` (1 cycle)...
-* **Vector (DOP):** `[x1,x2,x3,x4] += [v1,v2,v3,v4]` (**1 cycle total**).
+- **Scalar (OOP):** `x1 += v1` (1 cycle) -> `x2 += v2` (1 cycle)...
+- **Vector (DOP):** `[x1,x2,x3,x4] += [v1,v2,v3,v4]` (**1 cycle total**).
 
 ---
 
-## 3. Structural Comparison: OOP vs DOP
+## 3. Structural Comparison: OOP Vs DOP
 
 | Feature | Object-Oriented (OOP) | Data-Oriented (DOP) |
 |:--- |:--- |:--- |
@@ -78,8 +78,8 @@ Pure DOP can be cognitively difficult. The standard industry solution (used in G
 
 ### The "Iceberg" Model
 
-* **Above Water (API):** Standard OOP classes/interfaces for ease of use.
-* **Below Water (Core):** DOP/SoA arrays for performance.
+- **Above Water (API):** Standard OOP classes/interfaces for ease of use.
+- **Below Water (Core):** DOP/SoA arrays for performance.
 
 ### The "Handle" Pattern
 
@@ -110,37 +110,37 @@ class ParticleHandle {
 
 Instead of checking every object `if (obj.isActive)` or `if (obj.isDirty)`:
 
-* **The Anti-Pattern:** Branch misprediction hell. The CPU cannot guess the state of the flag.
-* **The Pattern:** Move objects to separate collections based on state (e.g., `ActiveParticles` vs `InactiveParticles`).
-* **Result:** Iterate linearly over the `Active` array. **Zero branching.**
+- **The Anti-Pattern:** Branch misprediction hell. The CPU cannot guess the state of the flag.
+- **The Pattern:** Move objects to separate collections based on state (e.g., `ActiveParticles` vs `InactiveParticles`).
+- **Result:** Iterate linearly over the `Active` array. **Zero branching.**
 
 ### 5.2 The "Database" Mindset
 
 Treat application state as an **In-Memory Relational Database**.
 
-* **Objects** -> Primary Keys (IDs).
-* **Properties** -> Columns (Arrays).
-* **References** -> Foreign Keys (IDs).
-* **Loops** -> Query Plans (Full Table Scans).
-* **Find** -> Index Lookups (Maps).
+- **Objects** -> Primary Keys (IDs).
+- **Properties** -> Columns (Arrays).
+- **References** -> Foreign Keys (IDs).
+- **Loops** -> Query Plans (Full Table Scans).
+- **Find** -> Index Lookups (Maps).
 
 ### 5.3 Slot Maps (Safe References)
 
 To solve the "Dangling Pointer" problem in DOP (where indices are reused), use **Generational Indices**.
 
-* *See:* [[SoT - Slot Map (Generational Arena)]]
+- _See:_ [[SoT - Slot Map (Generational Arena)]]
 
 ### 5.4 Table-Based Output (Decoupling)
 
 Rather than calling methods on external systems (e.g., `Render()`), output a **Table of Changes**.
 
-* **Process:** Logic -> `DrawCommands[]`.
-* **Consumption:** Renderer consumes `DrawCommands`.
-* **Benefit:** The Logic is now a pure transformation pipeline. The Renderer is just a consumer. No tight coupling.
+- **Process:** Logic -> `DrawCommands[]`.
+- **Consumption:** Renderer consumes `DrawCommands`.
+- **Benefit:** The Logic is now a pure transformation pipeline. The Renderer is just a consumer. No tight coupling.
 
 ---
 
-## 6. When to use DOP? (The Benchmark)
+## 6. When to Use DOP? (The Benchmark)
 
 **Casey Muratori's Benchmark:** Pure "Clean Code" (OOP) vs. DOP can result in a **1.5x to 10x** performance difference. A 10x loss is equivalent to erasing **12 years of hardware progress**.
 

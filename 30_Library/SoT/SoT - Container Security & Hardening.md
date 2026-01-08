@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-25T12:30:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-25"
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "To define the canonical best practices for securing containerized workloads, spanning image construction, supply chain, and runtime execution."
 review_interval: "6 months"
-see_also: ["[[SoT - Linux Container Primitives]]", "[[SoT - Container Isolation (The Namespace Security Model)]]", "[[SoT - Namespacing in Computing]]"]
+see_also: ["[[SoT - Container Isolation (The Namespace Security Model)]]", "[[SoT - Linux Container Primitives]]", "[[SoT - Namespacing in Computing]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "SoftwareEngineering/Containers", "kubernetes", "SoftwareEngineering/Security"]
+tags: ["kubernetes", "SoftwareEngineering/Architecture", "SoftwareEngineering/Containers", "SoftwareEngineering/Security"]
 title: SoT - Container Security & Hardening
 type: "SoT"
 uid: 
@@ -25,7 +25,7 @@ Container security is not a single setting; it is a multi-layered approach that 
 
 ## 2. Pillar 1: Minimizing the Attack Surface
 
-The primary goal is to ensure the container contains *only* what is necessary for the application to run.
+The primary goal is to ensure the container contains _only_ what is necessary for the application to run.
 
 - **Minimal Base Images:** Use lightweight distributions (e.g., **Alpine**, **Distroless**, **Flatcar**, **Bottlerocket**). Fewer binaries = fewer exploits.
 - **Run as Non-Root:** Enforce `runAsNonRoot: true` in Kubernetes security contexts. UID 0 inside a container is too close to UID 0 on the host.

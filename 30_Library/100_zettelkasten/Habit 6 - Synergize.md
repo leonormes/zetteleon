@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-10-20T09:07:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["cooperation", "TheHuman/Creativity", "principles", "TheHuman/Habits"]
+tags: ["cooperation", "principles", "TheHuman/Creativity", "TheHuman/Habits"]
 title: Habit 6 - Synergize
 type: ""
 uid: 

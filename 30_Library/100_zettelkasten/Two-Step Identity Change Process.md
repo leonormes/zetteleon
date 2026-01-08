@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-01T12:04:20Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "Provide the practical two-step framework for deliberately changing identity through habits."
 review_interval: "90"
 see_also: ["[[Accumulating Evidence Reinforces Identity]]", "[[Every Action is a Vote for Who You Wish to Become]]", "[[True Behavior Change is Identity Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "TheHuman/Identity", "method", "strategy", "TheHuman/Habits"]
+tags: ["behavior-change", "method", "strategy", "TheHuman/Habits", "TheHuman/Identity"]
 title: Two-Step Identity Change Process
 type: "strategy"
 uid: 
@@ -31,7 +31,7 @@ This is about defining your desired identity, not your goals:
 - **Values-Based:** "I want to be someone who values learning and growth"
 - **Role Model:** "I want to be the kind of parent/leader/friend who..."
 
-**Key Principle:** Focus on the *who*, not the *what*. Not "I want to lose 20 pounds" but "Who is the type of person who could maintain a healthy weight?"
+**Key Principle:** Focus on the _who_, not the _what_. Not "I want to lose 20 pounds" but "Who is the type of person who could maintain a healthy weight?"
 
 **Step 2: Prove It to Yourself with Small Wins**
 

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-08-17T12:31:05Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:11+00:00
+modified: 2026-01-08T10:49:50+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -33,7 +33,7 @@ A Tiny RSA System from Scratch ⚙️
 2. Calculate the Modulus (n)
    This sets the size of our "clock." All our maths will wrap around this number.
 
-- n = p *q = 7* 11 = 77
+- n = p _q = 7_ 11 = 77
 
 3. Calculate the Totient (λ(n))
    This is the "magic number" that tells us the length of the exponentiation cycle.
@@ -68,16 +68,16 @@ A Tiny RSA System from Scratch ⚙️
   The rule is that any number raised to the power of the totient will equal 1 (in our mod 77 system). Let's check:
   5^30 % 77 = 1 (You can verify this with a calculator).
   Now, look at what happens when we combine the encryption and decryption steps. We are effectively calculating:
-  (M^e)^d = M^(e*d) = 5^(13* 7) = 5^91
+  (M^e)^d = M^(e_d) = 5^(13_ 7) = 5^91
   Why does 5^91 % 77 give us back 5? Because the exponent 91 is related to our magic cycle length of 30.
-- 91 = (3 *30) + 1
+- 91 = (3 _30) + 1
   This means we are going around the cycle 3 full times and then taking 1 extra step. Let's break it down:
   5^91 % 77
-  = 5^(3*30 + 1) % 77
-  = (5^(3*30)* 5^1) % 77
-  = ((5^30)^3 *5) % 77
+  = 5^(3_30 + 1) % 77
+  = (5^(3_30)_ 5^1) % 77
+  = ((5^30)^3 _5) % 77
   Since we know 5^30 % 77 = 1, we can substitute that in:
-  = ((1)^3* 5) % 77
-  = (1 *5) % 77
+  = ((1)^3_ 5) % 77
+  = (1 _5) % 77
   = 5 % 77
-  This leaves us with our original number, 5. The private key d was specifically calculated to ensure that e* d would be exactly one step more than a multiple of the totient's cycle length, guaranteeing the process always works.
+  This leaves us with our original number, 5. The private key d was specifically calculated to ensure that e_ d would be exactly one step more than a multiple of the totient's cycle length, guaranteeing the process always works.

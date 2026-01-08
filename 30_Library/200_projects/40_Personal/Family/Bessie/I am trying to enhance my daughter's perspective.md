@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-05T12:56:12Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:08+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -23,7 +23,7 @@ Many parents face the challenge of encouraging their children to see school not 
 
 ### **1\. Beyond the Books: School as a "Skill-Building Workshop"**
 
-Instead of focusing solely on academic subjects and grades, frame school as a place where she is actively building a "toolkit" of skills for life. Explain that while subjects like maths and history are important, the *way* she learns them is just as crucial.
+Instead of focusing solely on academic subjects and grades, frame school as a place where she is actively building a "toolkit" of skills for life. Explain that while subjects like maths and history are important, the _way_ she learns them is just as crucial.
 
 **Key Skills to Highlight:**
 
@@ -65,7 +65,7 @@ One of the most powerful shifts you can encourage is the move from a "fixed mind
 - **Connect with Her Teachers:** They can provide valuable insights into her strengths and challenges and may have suggestions for how to support her.
 - **Make Learning Fun:** Connect what she's learning in school to real-world experiences. Visit museums, watch documentaries, or do a science experiment in the kitchen.
 
-By shifting the conversation from what she *has* to do to what she is *becoming*, you can help your daughter see school not as a prison sentence, but as a place of immense opportunity and personal development. It's a long-term conversation, but one that can profoundly shape her attitude towards learning and her future.
+By shifting the conversation from what she _has_ to do to what she is _becoming_, you can help your daughter see school not as a prison sentence, but as a place of immense opportunity and personal development. It's a long-term conversation, but one that can profoundly shape her attitude towards learning and her future.
 
 Of course. Here is a more detailed elaboration on the key skills your daughter is developing at school, with practical examples and connections to her future.
 
@@ -125,7 +125,7 @@ This is the practical skill of prioritising tasks, scheduling time effectively, 
 
 You have hit upon the central challenge of motivation, especially for a child with ADHD. The concept of the "future self" is abstract and distant, whereas the ADHD brain is wired for the "now/not now." The lack of connection you're seeing is not a choice; it's a neurological reality.
 
-Therefore, the entire strategy needs to shift from long-term benefits to immediate engagement and intrinsic satisfaction. The goal is to make the *process* of skill-building interesting in the present moment. Here’s how you can approach this for your daughter.
+Therefore, the entire strategy needs to shift from long-term benefits to immediate engagement and intrinsic satisfaction. The goal is to make the _process_ of skill-building interesting in the present moment. Here’s how you can approach this for your daughter.
 
 ## **Strategy 1: Connect Skills to Her Current Passions (The Hyperfocus Gateway)**
 
@@ -135,7 +135,7 @@ Apathy towards a skill often vanishes when it becomes a necessary tool to do som
   - **If she loves gaming:** Ask her to teach you or a younger relative how to play her favourite game. To do this, she'll have to organise her thoughts, explain rules sequentially, and communicate clearly. You can then say, "See how you organised those instructions? That's exactly what you do when you plan an essay. Let's try it."
   - **If she loves art or a specific creator:** Suggest she starts her own project inspired by them. This could be a comic strip, a fan-fiction story, or a video script. This project will inherently require planning (organisation), writing (communication), and sticking with it (perseverance). The project is the motivation; the skills are just the tools she needs to get it done.
 - **Skill: Problem-Solving**
-  - **Frame it as a real-world puzzle:** If she's frustrated that her tablet is always low on battery, turn it into a problem-solving mission. "Okay, we have a problem. The battery is always dead when you want it. What are all the possible solutions? We could create a charging schedule, set an alarm, put the charger in a more obvious place. What do you think would work best?" This makes her the agent of the solution to a problem that directly affects her *now*.
+  - **Frame it as a real-world puzzle:** If she's frustrated that her tablet is always low on battery, turn it into a problem-solving mission. "Okay, we have a problem. The battery is always dead when you want it. What are all the possible solutions? We could create a charging schedule, set an alarm, put the charger in a more obvious place. What do you think would work best?" This makes her the agent of the solution to a problem that directly affects her _now_.
 
 ## **Strategy 2: Gamify the Process (Make it a Dopamine Win)**
 

@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-11-12T15:00:10Z
 epistemic: "NA"
 last_reviewed: ""
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "A technique to prevent getting lost in research 'rabbit holes'."
 review_interval: "180"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["research", "technique", "time-management", "TheHuman/Health/ADHD", "topic/productivity"]
+tags: ["research", "technique", "TheHuman/Health/ADHD", "time-management", "topic/productivity"]
 title: Time-Boxing Research Prevents Productive Procrastination
 type: "instructional"
 uid: 

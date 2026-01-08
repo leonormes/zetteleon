@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-20T09:18:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["authority", "TheHuman/Psychology", "SoftwareEngineering/AI"]
+tags: ["authority", "SoftwareEngineering/AI", "TheHuman/Psychology"]
 title: LLMs simulate expertise to generate validation
 type: "null"
 uid: 

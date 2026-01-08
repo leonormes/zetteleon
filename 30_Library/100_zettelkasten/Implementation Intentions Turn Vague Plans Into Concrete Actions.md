@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T20:22:24Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "Explain how implementation intentions create actionable specificity from vague intentions."
 review_interval: "90"
 see_also: ["[[Action Defined as Behavior That Produces Tangible Outcomes]]", "[[Timeboxing Creates Structure for Action]]"]
@@ -22,7 +22,7 @@ version: "1"
 
 **The Problem They Solve:**
 
-Vague intentions like "I want to work out more" or "I want to be more productive" lack the specificity needed to trigger action. Without clear cues about *when* and *where*, these intentions remain abstract and easily avoided.
+Vague intentions like "I want to work out more" or "I want to be more productive" lack the specificity needed to trigger action. Without clear cues about _when_ and _where_, these intentions remain abstract and easily avoided.
 
 **What Implementation Intentions Are:**
 
@@ -44,7 +44,7 @@ An implementation intention follows the format: "When [SITUATION X OCCURS], I wi
 
 **The Power of Specificity:**
 
-Implementation intentions work because they remove ambiguity. The brain doesn't have to decide *if* to act or *when* to act—those decisions are already made. The only remaining question is whether to follow through on the pre-made plan.
+Implementation intentions work because they remove ambiguity. The brain doesn't have to decide _if_ to act or _when_ to act—those decisions are already made. The only remaining question is whether to follow through on the pre-made plan.
 
 **For ADHD Brains:**
 

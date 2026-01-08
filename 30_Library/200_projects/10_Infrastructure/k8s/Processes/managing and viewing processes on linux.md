@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-02-07T12:57:54Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:16+00:00
+modified: 2026-01-08T10:49:51+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["SoftwareEngineering/Containers", "Processes"]
+tags: ["Processes", "SoftwareEngineering/Containers"]
 title: managing and viewing processes on linux
 type: "documentation"
 uid: 
@@ -93,7 +93,7 @@ PID USER   PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
 pidstat -u -p 1234
 ```
 
-    This shows CPU usage for process ID 1234.
+This shows CPU usage for process ID 1234.
 
 ---
 

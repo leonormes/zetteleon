@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-02-07T12:57:53Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:19+00:00
+modified: 2026-01-08T10:49:53+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["SoftwareEngineering/networking/dns", "SoftwareEngineering/Networking"]
+tags: ["SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
 title: VPC DNS Configuration_1
 type: ""
 uid: 

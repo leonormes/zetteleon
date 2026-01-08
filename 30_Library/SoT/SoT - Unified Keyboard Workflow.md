@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-21T00:00:00Z
 epistemic: "Synthesized from personal notes on keyboard hardware, layers, and software tools."
 last_reviewed: "2025-12-21"
-modified: 2026-01-03T10:18:49+00:00
+modified: 2026-01-08T08:42:51+00:00
 purpose: "To provide a definitive, canonical specification for a globally consistent, keyboard-driven workflow, organized by scope."
 review_interval: "3 months"
 see_also: []

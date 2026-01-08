@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T20:22:33Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To provide a framework for navigating the tension between epistemic humility and valid insight."
 review_interval: "6 months"
 see_also: ["[[SoT - Dunning-Kruger Effect]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]"]
@@ -22,7 +22,7 @@ updated:
 High-intelligence agents often experience a **Recursion Error** where the internal error-checking mechanism (self-doubt/epistemic humility) becomes so aggressive that it blocks valid output.
 
 - **The Paradox:** If you assume you are biased, you discount your insights. If you stop discounting them, you risk becoming a "naive realist."
-- **Higher-Order Marker:** Running a meta-analysis on your own thought process is a structural marker of higher-order thinking (Dual-threading: *Input Reaction + Analysis of Reaction*).
+- **Higher-Order Marker:** Running a meta-analysis on your own thought process is a structural marker of higher-order thinking (Dual-threading: _Input Reaction + Analysis of Reaction_).
 
 ---
 
@@ -41,7 +41,7 @@ To bypass internal bias and external consensus (which is not a proxy for truth),
 
 ### A. Predictive Validity (The Architect's Test)
 
-Forget the *feeling* of profundity. Does the model accurately predict future states or system behaviors? If reality confirms the model, the insight is valid regardless of consensus.
+Forget the _feeling_ of profundity. Does the model accurately predict future states or system behaviors? If reality confirms the model, the insight is valid regardless of consensus.
 
 ### B. The "Steel Man" Argument
 

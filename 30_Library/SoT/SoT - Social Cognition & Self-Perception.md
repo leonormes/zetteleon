@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: ""
 review_interval: "3 months"
 see_also: []
@@ -66,7 +66,7 @@ Philosophers like David Hume and Thomas Hobbes proposed the "axiom of self-inter
 
 ### I. Social Support & Belonging (Moai)
 
-- **Concept:** A "secure social network" or lifelong circle of friends who support each other financially and emotionally. (Source: *Deep Dive* podcast episode, referencing Blue Zones).
+- **Concept:** A "secure social network" or lifelong circle of friends who support each other financially and emotionally. (Source: _Deep Dive_ podcast episode, referencing Blue Zones).
 - **Impact:** Reduces stress, provides a sense of purpose and belonging, and contributes to longevity. It's an external scaffold for emotional and practical resilience.
 
 ---

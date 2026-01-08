@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-21T00:00:00Z
 epistemic: "Synthesized from a deep dive on cognitive science, AI architecture, and the Free Energy Principle."
 last_reviewed: "2025-12-21"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To provide a definitive architectural comparison between human (biological) cognition and Large Language Model (artificial) 'cognition'."
 review_interval: "6 months"
 see_also: []
 source_of_truth: []
 status: "stable"
-tags: ["ai", "epistemology", "llm", "mental-models", "TheHuman/Philosophy", "TheHuman/Cognition"]
+tags: ["ai", "epistemology", "llm", "mental-models", "TheHuman/Cognition", "TheHuman/Philosophy"]
 title: SoT - Human vs AI Cognition
 type: "SoT"
 uid: 
@@ -48,7 +48,7 @@ John Searle's **"Chinese Room"** argument provides the philosophical proof. An o
 
 ## 3. Part II: The Biological Architecture of Understanding
 
-The **Free Energy Principle (FEP)**, championed by Karl Friston, provides a mathematical framework for biological intelligence, fundamentally reframing it from *pattern recognition* to *survival*.
+The **Free Energy Principle (FEP)**, championed by Karl Friston, provides a mathematical framework for biological intelligence, fundamentally reframing it from _pattern recognition_ to _survival_.
 
 ### 3.1. The Core Logic: Generative Prediction vs. Feed-Forward Processing
 
@@ -60,7 +60,7 @@ The **Free Energy Principle (FEP)**, championed by Karl Friston, provides a math
 Deep Learning minimizes a loss function (error). Biology's objective is to minimize **Free Energy**, or "surprise" (entropy), to maintain homeostasis and survive. A fish on dry land is experiencing maximum surprise. This is achieved in two ways:
 
 1. **Perceptual Inference (Change the Mind):** Update internal beliefs to better explain sensory input.
-2. **Active Inference (Change the World):** Move the body to *change the sensory input* so it matches the internal prediction. We act to fulfill our own prophecies. LLMs cannot do this.
+2. **Active Inference (Change the World):** Move the body to _change the sensory input_ so it matches the internal prediction. We act to fulfill our own prophecies. LLMs cannot do this.
 
 ### 3.3. The Markov Blanket: The Definition of "Self"
 
@@ -73,12 +73,12 @@ For any system to exist as distinct from its environment, it must have a statist
 
 The human brain is not just a reactor; it is a **time-travelling simulator**.
 
-- **Counterfactual Reasoning:** Before acting, the brain runs a high-speed simulation of possible futures to calculate the *Expected Free Energy* (future surprise) of each path. It prunes the bad branches, allowing our "hypotheses to die in our stead" (Karl Popper).
+- **Counterfactual Reasoning:** Before acting, the brain runs a high-speed simulation of possible futures to calculate the _Expected Free Energy_ (future surprise) of each path. It prunes the bad branches, allowing our "hypotheses to die in our stead" (Karl Popper).
 - **The AI Gap:** Standard LLMs are autoregressive, predicting the next token in a sequence. Their planning is a "Chain of Thought"—text that looks like a plan. Human planning is a **Tree Search** of simulated futures. This is the difference between mimicking a plan and running a genuine simulation.
 
 ### 3.5. Consciousness as System-Wide Integration
 
-Consciousness is a function of the *state of communication* between brain regions, rather than a location.
+Consciousness is a function of the _state of communication_ between brain regions, rather than a location.
 
 - **The Integration Hub:** Under anaesthesia, the thalamus (the sensory router) shuts down, preventing local brain regions from communicating. Consciousness collapses when the "dynamic conversation" between regions turns into isolated, monotonous noise.
 - **Latency & Bandwidth:** Conscious processing is slow and resource-intensive. Most regulatory functions are offloaded to unconscious sub-processes to preserve bandwidth for high-level integration.

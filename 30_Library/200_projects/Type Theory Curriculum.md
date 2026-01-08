@@ -1,17 +1,17 @@
 ---
+alias: ["Applied Type Theory", "Type Theory Study Plan"]
 aliases: []
-alias: ["Type Theory Study Plan", "Applied Type Theory"]
 confidence: "5/5"
 created: 2025-12-29T23:32:47+00:00
 epistemic: "curriculum"
 last_reviewed: "2025-12-29"
-modified: 2026-01-06T19:39:40+00:00
+modified: 2026-01-08T10:49:48+00:00
 purpose: "A purely practical, code-first curriculum to master Type Theory by refactoring code and proving correctness in Rust."
 review_interval: "3 months"
 see_also: ["[[MOC - Type Theory]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
 source_of_truth: []
 status: "active"
-tags: ["curriculum", "rust", "practice", "exercises"]
+tags: ["curriculum", "exercises", "practice", "rust"]
 title: Type Theory Curriculum
 type: "Project"
 uid: 
@@ -23,7 +23,7 @@ updated:
 You stated you struggle to **implement** and **explain**. This curriculum solves that by inverting the standard learning model:
 
 1. **Do (Code First):** You will write code that fails to compile until the logic is correct.
-2. **Explain (Feynman Test):** You will write a 3-sentence "commit message" explaining *why* the refactor was necessary.
+2. **Explain (Feynman Test):** You will write a 3-sentence "commit message" explaining _why_ the refactor was necessary.
 
 > **The Capstone Project:** You will iteratively build a **Secure Payment State Machine**.
 
@@ -39,7 +39,7 @@ You stated you struggle to **implement** and **explain**. This curriculum solves
 **Scenario:** You have a `struct` with multiple boolean flags. This is a "Product Type" explosion ($2 \times 2 \times 2 = 8$ states).
 **Task:** Refactor the following "Zombie Struct" into a proper "Sum Type" (`enum`).
 
-*Bad Code (Start Here):*
+_Bad Code (Start Here):_
 
 ```rust
 struct Request {
@@ -52,7 +52,8 @@ struct Request {
 // Problem: What does `is_loading: true, is_error: true` mean?
 ```
 
-*Required Output:*
+_Required Output:_
+
 - Create an `enum RequestState` where invalid combinations (like Loading + Error) are physically impossible to represent.
 
 ### 🗣️ The Feynman Test
@@ -69,9 +70,9 @@ struct Request {
 ### 🛠️ Practical Challenge 2: The "Parse, Don't Validate" Pattern
 
 **Scenario:** You have a function that accepts a `String` and returns a `String`. This is "Stringly Typed."
-**Task:** Create a **NewType** `EmailAddress` that *cannot* be constructed with invalid data.
+**Task:** Create a **NewType** `EmailAddress` that _cannot_ be constructed with invalid data.
 
-*Bad Code:*
+_Bad Code:_
 
 ```rust
 fn send_email(to: String, body: String) {
@@ -80,11 +81,12 @@ fn send_email(to: String, body: String) {
 }
 ```
 
-*Required Output:*
+_Required Output:_
+
 1. Define `struct EmailAddress(String);`.
 2. Implement a `parse` constructor: `impl TryFrom<String> for EmailAddress`.
 3. Refactor `send_email` to accept `EmailAddress`.
-4. **Goal:** Remove the `if` check from `send_email`. The validation happens *once* at the edge; the function logic is now "correct by construction."
+4. **Goal:** Remove the `if` check from `send_email`. The validation happens _once_ at the edge; the function logic is now "correct by construction."
 
 ### 🗣️ The Feynman Test
 
@@ -102,7 +104,7 @@ fn send_email(to: String, body: String) {
 **Scenario:** A Payment can be `Pending`, `Authorized`, or `Settled`. You cannot Settle a Pending payment without Authorizing it first.
 **Task:** Implement the **Type State Pattern**.
 
-*Code Goal:*
+_Code Goal:_
 
 ```rust
 let pending = Payment::new(100);
@@ -111,10 +113,11 @@ let authorized = pending.authorize(creds); // `pending` is consumed here!
 let settled = authorized.settle();
 ```
 
-*Steps:*
+_Steps:_
+
 1. Define structs: `Pending`, `Authorized`, `Settled`.
 2. Define `Payment<State>`.
-3. Implement methods *only* on specific states (e.g., `impl Payment<Authorized> { fn settle(...) }`).
+3. Implement methods _only_ on specific states (e.g., `impl Payment<Authorized> { fn settle(...) }`).
 
 ### 🗣️ The Feynman Test
 
@@ -132,7 +135,8 @@ let settled = authorized.settle();
 **Scenario:** We need to store data efficiently. If two users save the same file, we should only store it once.
 **Task:** Implement a simple **Merkle Tree** node.
 
-*Required Output:*
+_Required Output:_
+
 1. Create a `Blob` struct.
 2. Implement `fn hash(&self) -> String`.
 3. Store blobs in a `HashMap<Hash, Blob>`.
@@ -148,6 +152,6 @@ let settled = authorized.settle();
 
 If you cannot solve a challenge:
 
-1. **Read:** *Parse, Don't Validate* (Alexis King).
-2. **Watch:** *Type-Driven API Design in Rust* (Will Crichton).
+1. **Read:** _Parse, Don't Validate_ (Alexis King).
+2. **Watch:** _Type-Driven API Design in Rust_ (Will Crichton).
 3. **Reference:** [[SoT - Rust Language|Rust Design]]

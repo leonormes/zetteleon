@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-10T17:08:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To define the core tenet of Pragmatism."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["action", "TheHuman/Philosophy", "pragmatism", "truth"]
+tags: ["action", "pragmatism", "TheHuman/Philosophy", "truth"]
 title: Pragmatism Defines Truth by Practical Consequences
 type: "concept"
 uid: 

@@ -4,13 +4,13 @@ confidence: "0.8"
 created: 2025-11-06T19:53:01Z
 epistemic: "fact"
 last_reviewed: "2025-12-11T00:00:00.000Z"
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: ""
 review_interval: "90"
 see_also: ["[[Logic Does Not Produce Dopamine]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: []
 status: "sapling"
-tags: ["dopamine", "metaphor", "TheHuman/Motivation", "task-initiation", "TheHuman/Health/ADHD"]
+tags: ["dopamine", "metaphor", "task-initiation", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
 title: ADHD Brain Operates on an Interest-Based Nervous System
 type: "concept"
 uid: 
@@ -40,5 +40,5 @@ A useful analogy for the ADHD brain vs. the Productivity System:
 The goal of an effective ADHD system is not to force the brain to become "Importance-Based" (which is neurologically impossible), but to **bridge the gap**:
 
 1. **Acknowledge:** The brain will never "want" to go to the bank.
-2. **Refactor:** Use the system to "re-skin" the boring task (The Bank) so it *looks* like an amusement park (Mystery, Challenge, Spite).
+2. **Refactor:** Use the system to "re-skin" the boring task (The Bank) so it _looks_ like an amusement park (Mystery, Challenge, Spite).
 3. **Ignite:** This "Stimulus Injection" creates the necessary activation energy to move the Ferrari along the steered path.

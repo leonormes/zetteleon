@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-22T10:40:51Z
 epistemic: 
 last_reviewed: 
-modified: 2026-01-03T10:19:45+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -45,7 +45,7 @@ For any note I provide, rewrite it completely using this structural template:
 
 #### 4. Invariants & Constraints (The Rules)
 
-- **Action:** Define the "Laws of Physics" for this system. What must *always* be true? (e.g., "CAP Theorem trade-offs," "ACID properties," "Uniqueness constraints").
+- **Action:** Define the "Laws of Physics" for this system. What must _always_ be true? (e.g., "CAP Theorem trade-offs," "ACID properties," "Uniqueness constraints").
 
 #### 5. Logic Derivation (The Algorithms)
 
@@ -55,4 +55,4 @@ For any note I provide, rewrite it completely using this structural template:
 
 - **Voice:** Authoritative, precise, British English. No fluff.
 - **Formatting:** Use Markdown tables for data definitions. Use callouts `> [!definition]` for core concepts.
-- **Goal:** The output must be timeless. It should describe the *architecture*, which remains true even if the *implementation* changes.
+- **Goal:** The output must be timeless. It should describe the _architecture_, which remains true even if the _implementation_ changes.

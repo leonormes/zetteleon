@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To explain how tools disappear from consciousness when they become integrated into the mind's circuits."
 review_interval: "1 year"
 see_also: ["[[Natural-Born Cyborgs - Human Plasticity and Tool Merger]]"]
@@ -21,7 +21,7 @@ updated:
 
 ## 🧠 The Phenomenological Shift
 
-When a tool becomes transparent, the user does not focus *on* the tool, but looks *through* it to the task.
+When a tool becomes transparent, the user does not focus _on_ the tool, but looks _through_ it to the task.
 
 - **Example:** A writer does not think about the pen; they think about the sentence. The pen becomes an extension of the hand.
 - **Example:** A blind person does not "feel" the cane; they "feel" the pavement at the end of the cane.

@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-10-30T15:07:41Z
 epistemic: "principle"
 last_reviewed: "2025-10-30"
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To leverage subconscious processing between work sessions"
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Creativity", "subconscious-processing", "work-flow", "writing"]
+tags: ["subconscious-processing", "TheHuman/Creativity", "work-flow", "writing"]
 title: The Hemingway Technique - End Work With Unfinished Problems
 type: "strategy"
 uid: 

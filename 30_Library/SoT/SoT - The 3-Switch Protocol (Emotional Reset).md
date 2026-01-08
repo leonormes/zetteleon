@@ -4,13 +4,13 @@ confidence: 5/5
 created: 2025-12-25T11:45:00Z
 epistemic: principle
 last_reviewed: 2025-12-25
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: To define the 15-second physiological protocol for bypassing emotional loops and restoring cognitive control.
 review_interval: 6 months
 see_also: ["[[Emotional Regulation Techniques for ADHD Productivity]]", "[[SoT - Journaling as Cognitive Engineering]]", "[[SoT - PRODOS (System Architecture)]]"]
 source_of_truth: [theMITmonk - 3 Switches to Happiness]
 status: stable
-tags: [adhd, emotional_regulation, "TheHuman/Neuroscience", protocol]
+tags: ["TheHuman/Neuroscience", adhd, emotional_regulation, protocol]
 title: SoT - The 3-Switch Protocol (Emotional Reset)
 type: SoT
 uid: 
@@ -29,7 +29,7 @@ updated:
 
 #### Switch 1: The Face Feedback (Body-to-Brain)
 
-*The Signal of Safety.*
+_The Signal of Safety._
 
 - **Action:**
     1. Raise eyebrows gently.
@@ -40,18 +40,18 @@ updated:
 
 #### Switch 2: The "Name It to Tame It" (Amygdala Dampening)
 
-*The Logic Override.*
+_The Logic Override._
 
 - **Action:** Explicitly label the emotion. "I am feeling overwhelmed." "I am feeling defensive."
 - **Mechanism:** **Affect Labeling**. As detailed in [[SoT - Journaling as Cognitive Engineering]], labeling an emotion shifts activity from the Amygdala (Reaction) to the Ventrolateral Prefrontal Cortex (Logic), physically reducing the intensity of the "panic loop."
 
 #### Switch 3: The Micro-Win (Dopamine Injection)
 
-*The Progress Signal.*
+_The Progress Signal._
 
 - **Action:** Execute a task that takes <15 seconds.
-    - *Examples:* Take one deep breath. Drink a sip of water. Fix posture.
-- **Mechanism:** The brain releases dopamine upon *any* completion of a goal, regardless of size. This "Micro-Win" breaks the inertia of failure and creates a tiny spark of momentum.
+    - _Examples:_ Take one deep breath. Drink a sip of water. Fix posture.
+- **Mechanism:** The brain releases dopamine upon _any_ completion of a goal, regardless of size. This "Micro-Win" breaks the inertia of failure and creates a tiny spark of momentum.
 
 ---
 
@@ -61,10 +61,10 @@ This protocol serves as the **"Emergency Brake"** within the **Ignition Protocol
 
 - **Trigger:** When the "Wall of Awful" (ADHD Paralysis) prevents starting a task.
 - **Sequence:**
-    1. *Feel Stuck.*
+    1. _Feel Stuck._
     2. **Execute 3-Switch Protocol.** (Reset State).
     3. **Execute Ignition Hack.** (Mystery/Time Trial/Spite).
-    4. *Begin Work.*
+    4. _Begin Work._
 
 ---
 

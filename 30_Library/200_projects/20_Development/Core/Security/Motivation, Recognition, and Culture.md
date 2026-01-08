@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-26T13:03:43Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:12+00:00
+modified: 2026-01-08T10:49:51+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -22,7 +22,7 @@ Address the human element–people need to feel valued for this work.
 
 ## Explicitly Praise Security Efforts
 
-- This is crucial given your observation. When someone writes particularly secure code, identifies a vulnerability, diligently fixes a security issue, or asks good security questions, *acknowledge and praise it publicly* (in team meetings, chat channels, etc.). "Great catch finding that potential access control issue in the code review, Sarah!" or "Thanks Mark for taking the time to properly configure those IAM permissions."
+- This is crucial given your observation. When someone writes particularly secure code, identifies a vulnerability, diligently fixes a security issue, or asks good security questions, _acknowledge and praise it publicly_ (in team meetings, chat channels, etc.). "Great catch finding that potential access control issue in the code review, Sarah!" or "Thanks Mark for taking the time to properly configure those IAM permissions."
 - Celebrate security "wins"–e.g., passing a security scan, successfully mitigating a threat identified during modelling.
 
 ## Security Champions
@@ -35,7 +35,7 @@ Address the human element–people need to feel valued for this work.
 
 ## Foster a "No-Blame" Culture for Security Issues
 
-- If a vulnerability *is* found (ideally internally), focus on the systemic causes and learning from it, not on blaming the individual developer. This encourages people to report issues without fear.
+- If a vulnerability _is_ found (ideally internally), focus on the systemic causes and learning from it, not on blaming the individual developer. This encourages people to report issues without fear.
 
 ## Connect to Professional Development
 

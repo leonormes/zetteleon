@@ -4,13 +4,13 @@ confidence: "1"
 created: 2025-11-01T20:31:00Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:35+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To explain how the comfort of motion hinders genuine, uncomfortable action."
 review_interval: "90"
 see_also: ["[[Growth Happens Outside the Comfort Zone]]", "[[Motion Can Be a Procrastination Delay Tactic]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["comfort-zone", "procrastination", "topic/productivity", "TheHuman/Psychology"]
+tags: ["comfort-zone", "procrastination", "TheHuman/Psychology", "topic/productivity"]
 title: The Comfort of Motion Hinders Genuine Action
 type: "concept"
 uid: 

@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-20T08:00:03Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "To test the behavioral activation principle that action precedes motivation."
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "hypothesis", "TheHuman/Motivation", "TheHuman/Health/ADHD", "topic/productivity", "TheHuman/Psychology"]
+tags: ["experiment", "hypothesis", "TheHuman/Health/ADHD", "TheHuman/Motivation", "TheHuman/Psychology", "topic/productivity"]
 title: Motion Creates Emotion to Overcome Inertia
 type: "hypothesis"
 uid: 
@@ -20,9 +20,9 @@ version: "1"
 
 ## 1. The Hypothesis
 
-> **If** I force a physical action *before* I feel the emotional desire or "motivation" to act,
+> **If** I force a physical action _before_ I feel the emotional desire or "motivation" to act,
 > **Then** the feeling of motivation will genuinely follow the action,
-> **Because** the ADHD brain's "Reward Deficiency" means dopamine is often only released *during* engagement (kinetic), not in anticipation (potential). Waiting for the feeling is a trap.
+> **Because** the ADHD brain's "Reward Deficiency" means dopamine is often only released _during_ engagement (kinetic), not in anticipation (potential). Waiting for the feeling is a trap.
 
 ---
 
@@ -40,14 +40,14 @@ version: "1"
 
 ## 3. Expected Outcome
 
-- **Success:** I realize that the *dread* was all in the anticipation, not the execution.
+- **Success:** I realize that the _dread_ was all in the anticipation, not the execution.
 - **Metric:** Number of times I successfully "tricked" myself into starting.
 
 ---
 
 ## 4. Results Log
 
-- *(Log results here)*
+- _(Log results here)_
 
 ---
 

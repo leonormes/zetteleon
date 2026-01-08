@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-08-05T08:45:48Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:29+00:00
+modified: 2026-01-08T10:49:56+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["allowlist", "firewall", "proxy", "SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
+tags: ["allowlist", "firewall", "proxy", "SoftwareEngineering/Networking", "SoftwareEngineering/Security"]
 title: Proxy Allow list
 type: "null"
 uid: 

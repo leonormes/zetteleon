@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-20T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:58+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: ""
 review_interval: "3 months"
 see_also: []
@@ -29,9 +29,9 @@ updated:
 
 - [ ] **Physical Triage:** Clear desk surface. Empty physical inbox to digital inbox.
 - [ ] **Digital Flush:** Process Todoist Inbox. Apply **Tri-State Router**:
-    - *Kinetic:* Assign Context (` @Computer`), Time, and Priority.
-    - *Static:* Move reference info to Obsidian (`00_Inbox` or `30_Library`).
-    - *Dynamic:* Create a HEAD note pointer task if it needs thinking.
+    - _Kinetic:_ Assign Context (` @Computer`), Time, and Priority.
+    - _Static:_ Move reference info to Obsidian (`00_Inbox` or `30_Library`).
+    - _Dynamic:_ Create a HEAD note pointer task if it needs thinking.
 - [ ] **Obsidian Inbox Flush:** Empty `00_Inbox`.
     - Refactor thoughts to HEAD notes (`20_Thinking`) or merge into SoT (`30_Library`).
     - **Delete** the rest.
@@ -57,7 +57,7 @@ updated:
 
 > Goal: Remove Technical Debt.
 
-- [ ] **Wall of Awful Audit:** Sort Todoist by "Oldest". Delete/Refactor tasks >14 days old using the *Stuck Task Template*.
+- [ ] **Wall of Awful Audit:** Sort Todoist by "Oldest". Delete/Refactor tasks >14 days old using the _Stuck Task Template_.
 - [ ] **Wait-For Review:** Check ` @Waiting` context. Bump or mark complete.
 
 ### Phase 4: Hansei (Optimization)

@@ -5,13 +5,13 @@ confidence:
 created: 2025-12-09T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2026-01-03T10:19:44+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: Planning and analysis for Jira ticket FFAPP-4153 regarding Bitnami chart replacements.
 review_interval:
 see_also: []
 source_of_truth: []
 status: someday
-tags: [bitnami, ffapp-4153, head, jira, kubernetes, "SoftwareEngineering/Security"]
+tags: ["SoftwareEngineering/Security", bitnami, ffapp-4153, head, jira, kubernetes]
 title: HEAD - FFAPP-4153 - Discovery and Analysis of Bitnami Chart Replacements
 type: head
 uid:
@@ -35,7 +35,7 @@ This ticket was triggered by the need to migrate away from or secure our usage o
 **Context from Comments:**
 
 - There is a discussion about whether we can import the `latest` tag as a specific version into our Azure Container Registry (ACR).
-- We need to review all dependencies on Bitnami that are *not* currently within our ACR.
+- We need to review all dependencies on Bitnami that are _not_ currently within our ACR.
 - An RFC has been updated with findings: [RFC Transition from Bitnami Helm Charts](https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2296381442/RFC+Transition+from+Bitnami+Helm+Charts+to+an+Alternative+Source#7.-Findings%3A-Status-of-Free-Bitnami-Images-(as-of-%5Bdate%5D))
 
 ## The Tension

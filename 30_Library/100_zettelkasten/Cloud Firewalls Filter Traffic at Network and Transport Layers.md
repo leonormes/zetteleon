@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-10-31T10:31:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Explain cloud firewall functionality."
 review_interval: "90"
 see_also: ["Data-Centric Networking Focuses on Packet Journey Through Devices.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["cloud", "SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
+tags: ["cloud", "SoftwareEngineering/Networking", "SoftwareEngineering/Security"]
 title: Cloud Firewalls Filter Traffic at Network and Transport Layers
 type: "concept"
 uid: 

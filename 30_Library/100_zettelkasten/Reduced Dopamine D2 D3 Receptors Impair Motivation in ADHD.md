@@ -4,14 +4,14 @@ confidence: "null"
 created: 2025-10-30T12:07:02Z
 epistemic: "fact"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source: "[[MOC - The Neuroscience of Task Initiation in ADHD]]"
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "TheHuman/Motivation", "TheHuman/Neuroscience", "TheHuman/Health/ADHD"]
+tags: ["dopamine", "TheHuman/Health/ADHD", "TheHuman/Motivation", "TheHuman/Neuroscience"]
 title: Reduced Dopamine D2 D3 Receptors Impair Motivation in ADHD
 type: "concept"
 uid: 

@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T21:00:00Z
 epistemic: "definition"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To define the concept of timeboxing."
 review_interval: "90"
 see_also: ["[[Timeboxing Creates Structure for Action]]"]

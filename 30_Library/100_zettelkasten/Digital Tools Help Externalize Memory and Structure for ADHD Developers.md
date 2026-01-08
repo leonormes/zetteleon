@@ -4,13 +4,13 @@ confidence: "0.8"
 created: 2025-11-06T19:54:05Z
 epistemic: "fact"
 last_reviewed: "2025-11-06T00:00:00.000Z"
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["software", "tools", "TheHuman/Health/ADHD", "topic/productivity"]
+tags: ["SoftwareEngineering", "TheHuman/Health/ADHD", "tools", "topic/productivity"]
 title: Digital Tools Help Externalize Memory and Structure for ADHD Developers
 type: "concept"
 uid: 

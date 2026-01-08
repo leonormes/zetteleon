@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-17T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-17"
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "To explain how an organization's communication structure inevitably shapes the technical systems it produces."
 review_interval: "3 months"
 see_also: ["[[MOC - Socio-Technical Dissonance]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "conways-law", "organizational-structure", "systems-design"]
+tags: ["conways-law", "organizational-structure", "SoftwareEngineering/Architecture", "systems-design"]
 title: SoT - Conways Law and Structural Mismatch
 type: "SoT"
 uid: 
@@ -26,7 +26,7 @@ updated:
 
 The law, articulated by Melvin Conway in 1967, provides a powerful lens for understanding why technical designs often fail for non-technical reasons.
 
-> *"If you have four groups working on a compiler, you'll get a 4-pass compiler."*
+> _"If you have four groups working on a compiler, you'll get a 4-pass compiler."_
 
 ### 2.1 Structural Mismatch
 

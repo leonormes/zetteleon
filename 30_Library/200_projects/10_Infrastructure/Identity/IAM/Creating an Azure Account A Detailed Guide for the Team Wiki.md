@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-11T10:03:10Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:24+00:00
+modified: 2026-01-08T10:49:54+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -46,7 +46,7 @@ Creating an Azure account is typically initiated by a human user through the Azu
 To create a new Azure account and tenant, the human user needs to possess one of the following identities:
 
 - **A Microsoft Account (MSA):** This is the most straightforward way to create an Azure account, especially for individual use or testing. Any valid MSA can be used.
-- **A Work or School Account associated with an existing Azure AD/Entra ID:** If the user is part of an organization already using Microsoft cloud services, they can use their organizational account. However, creating a *new* Azure tenant typically requires using an MSA or creating a *new* Entra ID instance in conjunction with the Azure signup process.
+- **A Work or School Account associated with an existing Azure AD/Entra ID:** If the user is part of an organization already using Microsoft cloud services, they can use their organizational account. However, creating a _new_ Azure tenant typically requires using an MSA or creating a _new_ Entra ID instance in conjunction with the Azure signup process.
 
 **Important Note:** You cannot create an Azure tenant without associating it with one of these identity types initially. There's always a root identity tied to the creation.
 
@@ -70,7 +70,7 @@ The identity (MSA or Work/School account) used to create the Azure account recei
 
 ### Does the Initial Identity Get an Entra ID? Does it Have a Special Identity in the Azure Account/Tenant
 
-- **Yes, the identity *becomes* an Entra ID identity:** When you use an MSA to create an Azure account, behind the scenes, that MSA is effectively *provisioned* or *represented* as a user identity within the new Entra ID tenant. If you use a Work/School account from an existing Entra ID, that account is simply granted Global Administrator rights in the *new* tenant.
+- **Yes, the identity _becomes_ an Entra ID identity:** When you use an MSA to create an Azure account, behind the scenes, that MSA is effectively _provisioned_ or _represented_ as a user identity within the new Entra ID tenant. If you use a Work/School account from an existing Entra ID, that account is simply granted Global Administrator rights in the _new_ tenant.
 - **Special Identity - Global Administrator Role:** The special aspect is the **Global Administrator role** assigned to this initial identity in the Entra ID tenant. This role is not just "special"–it's the most privileged role in the entire Microsoft cloud ecosystem for your tenant. It bypasses most access controls within Entra ID and Azure services.
 - **No "Special" Azure Account Identity Beyond Roles:** Beyond the Global Administrator role, there isn't a fundamentally different type of identity within the Azure account or tenant. It's simply a user identity within Entra ID that has been granted this initial, highly privileged role. You can (and should) later create other identities, including service principals and regular user accounts, and assign them roles based on the principle of least privilege.
 
@@ -78,7 +78,7 @@ The identity (MSA or Work/School account) used to create the Azure account recei
 
 Let's clarify the terminology, as it can be confusing:
 
-- **Azure Account (Billing Account):** This is the top-level entity that represents your relationship with Microsoft for Azure services. It's primarily a billing and organizational construct. You sign up for an Azure *account*. It can contain one or more Azure subscriptions. Think of it as the umbrella over everything. However, the term "Azure Account" is sometimes used loosely to refer to the entire Azure environment, including the tenant and subscriptions.
+- **Azure Account (Billing Account):** This is the top-level entity that represents your relationship with Microsoft for Azure services. It's primarily a billing and organizational construct. You sign up for an Azure _account_. It can contain one or more Azure subscriptions. Think of it as the umbrella over everything. However, the term "Azure Account" is sometimes used loosely to refer to the entire Azure environment, including the tenant and subscriptions.
 - **Azure Tenant (Microsoft Entra Tenant):** This is your organization's dedicated instance of Microsoft Entra ID. It's the identity management service. It's often referred to as your "directory." It's automatically created when you create your first Azure subscription. You manage users, groups, applications, and access control within your Azure tenant. **Yes, when you sign up for an Azure account, you are essentially creating an Azure tenant.**
 - **Entra ID Instance (Azure Active Directory Instance):** This is essentially synonymous with "Azure Tenant." "Entra ID" is the new name for "Azure Active Directory." So, an "Entra ID instance" and an "Azure Tenant" refer to the same thing–your organization's dedicated cloud-based directory service in Azure.
 - **Azure Subscription:** This is a logical container for Azure resources. It's the unit of resource deployment and billing. You can have multiple subscriptions within an Azure account, all associated with the same Azure tenant for identity management. Subscriptions help you organize and manage your Azure resources for different projects, teams, or environments.

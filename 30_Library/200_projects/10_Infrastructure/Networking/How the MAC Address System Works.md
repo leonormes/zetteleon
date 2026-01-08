@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-25T17:43:33Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:21+00:00
+modified: 2026-01-08T10:49:53+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -22,7 +22,7 @@ Okay, let's break down the MAC address system.
 
 **How the MAC Address System Works**
 
-1. Purpose: A Media Access Control (MAC) address is a unique identifier assigned to a Network Interface Controller (NIC).1 The NIC is the hardware component (like an Ethernet port or Wi-Fi chip) that connects a device to a network.2 Its primary function is to provide a unique, hardware-level address for devices communicating on a *local* network segment.3
+1. Purpose: A Media Access Control (MAC) address is a unique identifier assigned to a Network Interface Controller (NIC).1 The NIC is the hardware component (like an Ethernet port or Wi-Fi chip) that connects a device to a network.2 Its primary function is to provide a unique, hardware-level address for devices communicating on a _local_ network segment.3
 2. **Layer:** MAC addresses operate at the Data Link Layer (Layer 2\) of the OSI network model. This layer is responsible for node-to-node data transfer between devices on the same physical network segment (like your home Wi-Fi network).4
 3. Format: A standard MAC address (EUI-48) is a 48-bit number.5 It's usually represented as 12 hexadecimal digits (0-9 and A-F), typically grouped in pairs and separated by colons or hyphens (e.g., 00:1A:2B:3C:4D:5E or 00-1A-2B-3C-4D-5E).6
 4. **Structure:** The 48 bits are divided into two main parts:
@@ -32,8 +32,8 @@ Okay, let's break down the MAC address system.
 
 **Is a MAC Address Globally Unique? How?**
 
-- In Theory: Yes, MAC addresses are *designed* to be globally unique.11 The system of the IEEE assigning unique OUIs to manufacturers, and manufacturers assigning unique serial numbers within their OUI block, creates a potential address space of 248 (over 281 trillion) unique identifiers. This system ensures that, theoretically, no two NICs manufactured anywhere should have the same MAC address.
-- **In Practice:** While the system aims for global uniqueness, MAC addresses only *need* to be unique within the same Layer 2 broadcast domain (e.g., your local LAN or VLAN). It is *possible* (though rare) for duplicate MAC addresses to exist globally due to manufacturing errors, virtual machine configurations, or deliberate changing ("spoofing") of MAC addresses via software.12 However, as long as two devices with the same MAC address are not on the *same* local network simultaneously, it typically doesn't cause a problem because MAC addresses aren't used for routing across the wider internet. If a manufacturer uses up all the addresses in their assigned OUI (over 16.7 million), they must obtain a new OUI from the IEEE.
+- In Theory: Yes, MAC addresses are _designed_ to be globally unique.11 The system of the IEEE assigning unique OUIs to manufacturers, and manufacturers assigning unique serial numbers within their OUI block, creates a potential address space of 248 (over 281 trillion) unique identifiers. This system ensures that, theoretically, no two NICs manufactured anywhere should have the same MAC address.
+- **In Practice:** While the system aims for global uniqueness, MAC addresses only _need_ to be unique within the same Layer 2 broadcast domain (e.g., your local LAN or VLAN). It is _possible_ (though rare) for duplicate MAC addresses to exist globally due to manufacturing errors, virtual machine configurations, or deliberate changing ("spoofing") of MAC addresses via software.12 However, as long as two devices with the same MAC address are not on the _same_ local network simultaneously, it typically doesn't cause a problem because MAC addresses aren't used for routing across the wider internet. If a manufacturer uses up all the addresses in their assigned OUI (over 16.7 million), they must obtain a new OUI from the IEEE.
 
 **When Did the Concept First Develop?**
 
@@ -41,10 +41,10 @@ The concept of the MAC address originated with the **Xerox Network Systems (XNS)
 
 **Was it Part of the Routable Network Spec from the Beginning?**
 
-No, MAC addresses were not part of the *routable* network specification (like the Internet Protocol, IP) from the beginning.13
+No, MAC addresses were not part of the _routable_ network specification (like the Internet Protocol, IP) from the beginning.13
 
-- MAC addresses operate at Layer 2 (Data Link Layer) and are intended for addressing on a *local* network segment only.14 They have a "flat" structure and contain no information about network location.15 They are not routable across different networks.
-- **IP addresses** operate at Layer 3 (Network Layer) and were designed for routing packets *between* different networks across the internet. They have a hierarchical structure (network portion and host portion).16
+- MAC addresses operate at Layer 2 (Data Link Layer) and are intended for addressing on a _local_ network segment only.14 They have a "flat" structure and contain no information about network location.15 They are not routable across different networks.
+- **IP addresses** operate at Layer 3 (Network Layer) and were designed for routing packets _between_ different networks across the internet. They have a hierarchical structure (network portion and host portion).16
 
 When a data packet travels from a computer on one network to a computer on another network across the internet, the IP addresses (source and destination) generally remain the same for the entire journey. However, the Layer 2 frame containing the packet, including the source and destination MAC addresses, is stripped and rebuilt at each router (hop) along the path. The MAC addresses used are only relevant for the specific local link between two adjacent devices (e.g., computer to router, router to next router).
 

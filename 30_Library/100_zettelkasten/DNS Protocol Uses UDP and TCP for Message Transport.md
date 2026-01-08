@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-10-31T11:06:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Explain DNS transport protocols."
 review_interval: "90"
 see_also: ["DNS is a distributed database.md", "DNS Message Format Contains Header and Sections.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["SoftwareEngineering/networking/dns", "protocols", "SoftwareEngineering/Networking"]
+tags: ["protocols", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
 title: DNS Protocol Uses UDP and TCP for Message Transport
 type: "concept"
 uid: 

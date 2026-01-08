@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-20T06:57:36Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:17+00:00
+modified: 2026-01-08T10:49:52+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -22,7 +22,7 @@ You've touched upon a very common point of confusion when learning Git! Let's br
 
 **Pushing to a Remote Server (like GitHub):**
 
-- **Not just the `.git` folder:** While the `.git` folder contains all the history and metadata of your repository, pushing to a remote server does *not* simply copy the entire `.git` folder wholesale. Instead, Git intelligently packages and transmits only the necessary data.
+- **Not just the `.git` folder:** While the `.git` folder contains all the history and metadata of your repository, pushing to a remote server does _not_ simply copy the entire `.git` folder wholesale. Instead, Git intelligently packages and transmits only the necessary data.
 - **What gets sent:**
   - **Objects:** Git sends the objects (commits, trees, blobs) that are needed to bring the remote repository up-to-date with your local branch. This includes any new commits you've made, as well as any objects referenced by those commits.
   - **References:** Git also sends updates to references (branches, tags) to reflect their new positions.
@@ -34,7 +34,7 @@ You've touched upon a very common point of confusion when learning Git! Let's br
 
 **Cloning a Repository:**
 
-- **Not just the object database:** When you clone a repository, you *do* receive a complete copy of the `.git` folder, including the object database. However, this is not the *only* thing you get.
+- **Not just the object database:** When you clone a repository, you _do_ receive a complete copy of the `.git` folder, including the object database. However, this is not the _only_ thing you get.
 - **What gets received:**
   - **`.git` folder:** This contains the entire object database (commits, trees, blobs), as well as references (branches, tags), and configuration information.
   - **Working directory:** Git also checks out the default branch (usually `main` or `master`) and populates your working directory with the files from that branch.
@@ -48,7 +48,7 @@ You've touched upon a very common point of confusion when learning Git! Let's br
 
 **In essence:**
 
-- Pushing sends the *changes* needed to update the remote.
-- Cloning gets a *complete copy* of the repository, including the history and the working directory.
+- Pushing sends the _changes_ needed to update the remote.
+- Cloning gets a _complete copy_ of the repository, including the history and the working directory.
 
 I hope this clarifies things!

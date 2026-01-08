@@ -5,13 +5,13 @@ created: 2025-09-11T20:23:33Z
 creation_date: "2025-09-11T00:00:00.000Z"
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["TheHuman/Mindset", "TheHuman/Motivation", "TheHuman/Health/ADHD", "topic/learning"]
+tags: ["TheHuman/Health/ADHD", "TheHuman/Mindset", "TheHuman/Motivation", "topic/learning"]
 title: Process Over Outcome Mindset
 type: "permanent"
 uid: 

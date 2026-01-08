@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-12"
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: ">-"
 review_interval: "1 year"
 see_also: []
@@ -43,7 +43,7 @@ Kent Beck, a pioneer in agile software development, identifies several categorie
 
 ### E. Temporal Duplication
 
-- **Description:** Code whose meaning or correctness is highly dependent on the *order* or *timing* of operations, rather than clear logical flow. Often indicates a long, complex function where steps are implicitly linked in time.
+- **Description:** Code whose meaning or correctness is highly dependent on the _order_ or _timing_ of operations, rather than clear logical flow. Often indicates a long, complex function where steps are implicitly linked in time.
 - **Indicators:** Long methods, code taking a long time to comprehend, unclear variable purposes.
 - **Refactoring:** Renaming, extracting methods, applying "Compose Method" pattern.
 
@@ -66,7 +66,7 @@ Kent Beck, a pioneer in agile software development, identifies several categorie
 ### David Parnas: Information Hiding
 
 - **Core Principle:** Design modules to encapsulate and **hide** difficult or likely-to-change design decisions from other modules.
-- **Goal:** Create abstract interfaces that expose *only* necessary information.
+- **Goal:** Create abstract interfaces that expose _only_ necessary information.
 - **Impact:** Enables independent development, localizes impact of changes, and improves system comprehensibility.
 
 ---

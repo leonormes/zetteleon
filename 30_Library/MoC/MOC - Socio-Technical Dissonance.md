@@ -1,20 +1,16 @@
 ---
-aliases:
-  - Socio-Technical Dissonance MOC
+aliases: [Socio-Technical Dissonance MOC]
 confidence: 4/5
 created: 2025-12-17T00:00:00Z
 epistemic: "null"
 last_reviewed: 2025-12-17T00:00:00.000Z
-modified: 2026-01-03T10:19:38+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: ""
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: stable
-tags:
-  - "SoftwareEngineering/Architecture"
-  - social-dynamics
-  - topic/systems
+tags: ["SoftwareEngineering/Architecture", social-dynamics, topic/systems]
 title: MOC - Socio-Technical Dissonance
 type: map
 uid:
@@ -37,7 +33,7 @@ This is a **Low-Trust, High-Context Political Environment**, where **Social Capi
 - **[[SoT - Accidental Social Complexity]]**
   - This is the primary form of waste, where effort is spent on navigating egos and politics instead of solving the inherent technical problem.
 - **[[SoT - Epistemic Trespassing and the HiPPO Effect]]**
-  - These concepts explain *why* unqualified authorities (the **H**ighest **P**aid **P**erson's **O**pinion) override qualified experts, leading to flawed decisions.
+  - These concepts explain _why_ unqualified authorities (the **H**ighest **P**aid **P**erson's **O**pinion) override qualified experts, leading to flawed decisions.
 - **[[SoT - Authority-Competence Asymmetry]]**
   - This note defines the core conflict between **Positional Authority** (power from rank) and **Expert Authority** (power from knowledge), which is the root cause of the dissonance.
 - **[[SoT - Conways Law and Structural Mismatch]]**

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-03T15:29:37Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:31+00:00
+modified: 2026-01-08T10:49:57+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -54,7 +54,7 @@ Log in to our `Fitfileregistry` ACR. You last accessed details about this regist
 az acr login --name fitfileregistry
 ```
 
-*(Alternatively, you can use `docker login fitfileregistry.azurecr.io`)*
+_(Alternatively, you can use `docker login fitfileregistry.azurecr.io`)_
 
 #### **1.4. Tag the Image for Your ACR**
 

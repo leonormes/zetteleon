@@ -1,13 +1,10 @@
 ---
-aliases:
-  - AI Thinking
-  - Co-Intelligence
-  - LLM-Augmented Thinking
+aliases: [AI Thinking, Co-Intelligence, LLM-Augmented Thinking]
 confidence: 5/5
 created: 2025-12-25T10:00:00Z
 epistemic: synthesis
 last_reviewed: 2025-12-25
-modified: 2025-12-26T10:27:15+00:00
+modified: 2026-01-08T10:49:46+00:00
 purpose: To map the practical workflows, skills, and architectures for using LLMs as a cognitive extension for thinking and problem definition.
 review_interval: 3 months
 see_also:
@@ -15,11 +12,7 @@ see_also:
   - "[[SoT - AI-Resilient Task Taxonomy (Human 3.0)]]"
 source_of_truth: []
 status: stable
-tags:
-  - llm
-  - type/moc
-  - prodos
-  - thinking
+tags: [llm, prodos, thinking, type/moc]
 title: MOC - LLM-Augmented Thinking
 type: map
 uid:
@@ -57,7 +50,7 @@ If the Model is the Engine, **Context** is the Fuel. The quality of the output i
 
 ### 3. Workflows & Architectures
 
-How do we actually *do* the thinking?
+How do we actually _do_ the thinking?
 
 - **[[MOC - AI as Thought Partner]]**: The broader architectural view of Human-AI collaboration.
 - **[[AI Agentic Workflows]]**: Moving from simple chat to multi-step, goal-oriented agent loops.
@@ -72,9 +65,9 @@ In ProdOS, "Thinking" is an active process that moves through stages:
 
 1. **The Spark**: A raw idea or "vomit" (Ingested into `00_Inbox`).
 2. **The Workbench**: A **HEAD Note** is created. The LLM is invoked to:
-    - *Lint* the emotional noise.
-    - *Structure* the chaos.
-    - *Challenge* the assumptions (The "Sparring Partner" mode).
+    - _Lint_ the emotional noise.
+    - _Structure_ the chaos.
+    - _Challenge_ the assumptions (The "Sparring Partner" mode).
 3. **The Synthesis**: The insight is merged into a **SoT Note** (Source of Truth).
 4. **The Action**: A verifiable next step is defined.
 

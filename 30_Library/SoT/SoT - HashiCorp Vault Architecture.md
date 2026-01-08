@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-25T12:00:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-25"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To define the first-principles data architecture of HashiCorp Vault, stripping away security terminology to reveal the underlying versioned document store and merkle-tree sync models."
 review_interval: "1 year"
 see_also: ["[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - Kubernetes Architecture]]", "[[SoT - Namespacing in Computing]]", "[[SoT - State Synchronization Models]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "data_structures", "hashicorp", "SoftwareEngineering/Security", "vault"]
+tags: ["data_structures", "hashicorp", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "vault"]
 title: SoT - HashiCorp Vault Architecture
 type: "SoT"
 uid: 
@@ -42,7 +42,7 @@ Vault organizes data in a **Radix Trie** (Prefix Tree).
 
 When using the KV Version 2 engine, the leaf node is not a simple value. It is a **Linked List of Snapshots**.
 
-- **Path Separation:** Vault strictly separates the *Payload* from the *Metadata* in the URI schema:
+- **Path Separation:** Vault strictly separates the _Payload_ from the _Metadata_ in the URI schema:
     - `secret/data/...` -> Accesses the JSON payload (The Value).
     - `secret/metadata/...` -> Accesses the version history and settings (The Framework).
 - **Atomic Put:** There is no "PATCH" for a secret. Every write is a full replacement of the JSON object, creating a new version node.
@@ -74,7 +74,7 @@ In this data-centric model, **ACL Policies** are not abstract permissions; they 
 
 - **The Filter:** A Policy maps a `Path Prefix` to a `Capability Set` (Bitmask: Create, Read, Update, Delete, List).
 - **Resolution:** Vault uses **Longest Prefix Match (LPM)** (similar to IP routing) to find the most specific policy rule for a requested path.
-- **Implicit Deny:** If the path does not match a filter allowing access, the node effectively *does not exist* for that identity (404/403).
+- **Implicit Deny:** If the path does not match a filter allowing access, the node effectively _does not exist_ for that identity (404/403).
 
 ## 5. Integration: The Vault Secrets Operator (VSO)
 
@@ -93,7 +93,7 @@ The **[[SoT - FITFILE Secret Management Architecture|Vault Secrets Operator]]** 
 
 ## 6. The Barrier: Encryption Layer
 
-Everything described above happens *inside* the "Barrier."
+Everything described above happens _inside_ the "Barrier."
 
 - **Storage Backend:** The physical storage (Consul, Raft, S3) sees only encrypted blobs.
 - **The Barrier:** A cryptographic membrane. The Trie and Merkle structures exist in memory (or encrypted on disk) and are only intelligible when the Barrier is "Unsealed" (Decryption Key provided).

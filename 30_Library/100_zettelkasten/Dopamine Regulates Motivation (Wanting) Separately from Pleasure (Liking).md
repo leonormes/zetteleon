@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-10T17:05:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To distinguish the roles of dopamine in motivation and pleasure."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["dopamine", "TheHuman/Motivation", "TheHuman/Neuroscience", "reward"]
+tags: ["dopamine", "reward", "TheHuman/Motivation", "TheHuman/Neuroscience"]
 title: Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)
 type: "concept"
 uid: 

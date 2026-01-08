@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-10T12:03:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:42+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To explain why identity-based habits are effective."
 review_interval: "90"
 see_also: ["[[Identity Conflict Can Impede Positive Habit Change]]"]
 source_of_truth: []
 status: "seedling"
-tags: ["behavior-change", "TheHuman/Identity", "TheHuman/Habits", "TheHuman/Psychology"]
+tags: ["behavior-change", "TheHuman/Habits", "TheHuman/Identity", "TheHuman/Psychology"]
 title: Behavior Incongruent with Self Will Not Last
 type: "concept"
 uid: 

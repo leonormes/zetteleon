@@ -6,14 +6,14 @@ criteria: "Atomic notes must relate to the psychological drivers of the ADHD pro
 epistemic: ""
 exclusions: "General productivity advice not tailored to ADHD neurobiology."
 last_reviewed: ""
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: ""
 review_interval: ""
 scope: "A framework for understanding and breaking the overthinking-procrastination cycle in ADHD using feedback-driven momentum."
 see_also: []
 source_of_truth: []
 status: "stable"
-tags: ["executive-function", "procrastination", "TheHuman/Health/ADHD", "topic/productivity", "TheHuman/Psychology"]
+tags: ["executive-function", "procrastination", "TheHuman/Health/ADHD", "TheHuman/Psychology", "topic/productivity"]
 title: MOC - Breaking the ADHD Overthinking-Procrastination Cycle
 type: "map"
 uid: 

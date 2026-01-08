@@ -4,13 +4,13 @@ confidence: "0.8"
 created: 2025-10-31T09:25:29Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "Define SSL offloading and its benefits."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["load-balancing", "SoftwareEngineering/Security", "ssl", "tls", "SoftwareEngineering/Networking"]
+tags: ["load-balancing", "SoftwareEngineering/Networking", "SoftwareEngineering/Security", "ssl", "tls"]
 title: SSL Offloading Centralises Certificate Management on the Load Balancer
 type: "concept"
 uid: 

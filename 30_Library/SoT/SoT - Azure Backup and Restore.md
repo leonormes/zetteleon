@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2025-12-21T00:00:00Z
 epistemic: "synthesis"
 last_reviewed: "2025-12-21"
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:45+00:00
 purpose: ">-"
 review_interval: "3 months"
 see_also: []
@@ -67,33 +67,33 @@ Azure Backup provides a native solution for backing up AKS clusters. It requires
 From an object-oriented programming (OOP) perspective, the architecture for backing up AKS clusters can be modeled as follows:
 
 - **BackupVault**
-    - *Attributes*: storage location, policies, redundancy type, supported clusters
-    - *Methods*: addBackup(), restoreBackup(), setPolicy(), getStatus()
-    - *Relationships*: Owns and stores BackupInstance objects
+    - _Attributes_: storage location, policies, redundancy type, supported clusters
+    - _Methods_: addBackup(), restoreBackup(), setPolicy(), getStatus()
+    - _Relationships_: Owns and stores BackupInstance objects
 - **AKSCluster**
-    - *Attributes*: resourceGroup, subscription, clusterState, persistentVolumes[]
-    - *Methods*: registerForBackup(), snapshotVolume(), restoreFromBackup()
-    - *Relationships*: Registers with BackupVault for protection
+    - _Attributes_: resourceGroup, subscription, clusterState, persistentVolumes[]
+    - _Methods_: registerForBackup(), snapshotVolume(), restoreFromBackup()
+    - _Relationships_: Registers with BackupVault for protection
 - **BackupPolicy**
-    - *Attributes*: schedule, retentionPeriod, type (Operational/Vault tier), targetResources
-    - *Methods*: createPolicy(), updatePolicy(), applyPolicy()
-    - *Relationships*: Linked to BackupVault; applied to AKSCluster and volumes
+    - _Attributes_: schedule, retentionPeriod, type (Operational/Vault tier), targetResources
+    - _Methods_: createPolicy(), updatePolicy(), applyPolicy()
+    - _Relationships_: Linked to BackupVault; applied to AKSCluster and volumes
 - **BackupExtension (Agent/CSI Driver)**
-    - *Attributes*: version, installedOn
-    - *Methods*: initBackup(), captureSnapshot(), pushToVault(), restoreJob()
-    - *Relationships*: Installed on AKSCluster; communicates with BackupVault
+    - _Attributes_: version, installedOn
+    - _Methods_: initBackup(), captureSnapshot(), pushToVault(), restoreJob()
+    - _Relationships_: Installed on AKSCluster; communicates with BackupVault
 - **BackupInstance**
-    - *Attributes*: AKSCluster reference, timestamp, recoveryPoint, location (Operational/Vault)
-    - *Methods*: startBackup(), viewRecoveryPoint(), deleteBackup(), restore()
-    - *Relationships*: Contained *inside* BackupVault; references AKSCluster
+    - _Attributes_: AKSCluster reference, timestamp, recoveryPoint, location (Operational/Vault)
+    - _Methods_: startBackup(), viewRecoveryPoint(), deleteBackup(), restore()
+    - _Relationships_: Contained _inside_ BackupVault; references AKSCluster
 - **PersistentVolume**
-    - *Attributes*: diskType, volumeSize, backupStatus, snapshotId
-    - *Methods*: snapshot(), restore(), registerForBackup()
-    - *Relationships*: Belongs to AKSCluster; snapshots managed by BackupInstance
+    - _Attributes_: diskType, volumeSize, backupStatus, snapshotId
+    - _Methods_: snapshot(), restore(), registerForBackup()
+    - _Relationships_: Belongs to AKSCluster; snapshots managed by BackupInstance
 - **StorageAccount/BlobContainer**
-    - *Attributes*: redundancy, region, blobs[]
-    - *Methods*: storeBackup(), retrieveBackup()
-    - *Relationships*: Linked to BackupVault and AKSCluster, holds backup blobs/snapshots
+    - _Attributes_: redundancy, region, blobs[]
+    - _Methods_: storeBackup(), retrieveBackup()
+    - _Relationships_: Linked to BackupVault and AKSCluster, holds backup blobs/snapshots
 
 ### Typical Flow
 

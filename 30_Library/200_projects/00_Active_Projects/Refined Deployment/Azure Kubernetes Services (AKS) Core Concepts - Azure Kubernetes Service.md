@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-24T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:32+00:00
+modified: 2026-01-08T10:49:57+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -63,9 +63,9 @@ Each AKS cluster has at least one node, which is an Azure VM that runs Kubernete
 
 Configure the following settings for nodes.
 
-The *Azure VM size* for your nodes defines CPUs, memory, size, and the storage type available, such as a high-performance solid-state drive or a regular hard-disk drive. The VM size you choose depends on the workload requirements and the number of pods that you plan to run on each node. As of May 2025, the default VM SKU and size will be dynamically selected by AKS based on available capacity and quota if the parameter is left blank during deployment. For more information, see [Supported VM sizes in Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/quotas-skus-regions#supported-vm-sizes).
+The _Azure VM size_ for your nodes defines CPUs, memory, size, and the storage type available, such as a high-performance solid-state drive or a regular hard-disk drive. The VM size you choose depends on the workload requirements and the number of pods that you plan to run on each node. As of May 2025, the default VM SKU and size will be dynamically selected by AKS based on available capacity and quota if the parameter is left blank during deployment. For more information, see [Supported VM sizes in Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/quotas-skus-regions#supported-vm-sizes).
 
-In AKS, the *VM image* for your cluster's nodes is based on Ubuntu Linux, [Azure Linux](https://learn.microsoft.com/en-us/azure/aks/use-azure-linux), or Windows Server 2022. When you create an AKS cluster or scale out the number of nodes, the Azure platform automatically creates and configures the requested number of VMs. Agent nodes are billed as standard VMs. Any VM size discounts, including [Azure reservations](https://learn.microsoft.com/en-us/azure/cost-management-billing/reservations/save-compute-costs-reservations), are automatically applied.
+In AKS, the _VM image_ for your cluster's nodes is based on Ubuntu Linux, [Azure Linux](https://learn.microsoft.com/en-us/azure/aks/use-azure-linux), or Windows Server 2022. When you create an AKS cluster or scale out the number of nodes, the Azure platform automatically creates and configures the requested number of VMs. Agent nodes are billed as standard VMs. Any VM size discounts, including [Azure reservations](https://learn.microsoft.com/en-us/azure/cost-management-billing/reservations/save-compute-costs-reservations), are automatically applied.
 
 ### OS Disks
 
@@ -85,19 +85,19 @@ A container runtime is software that executes containers and manages container i
 
 ## Pods
 
-A *pod* is a group of one or more containers that share the same network and storage resources and a specification for how to run the containers. Pods typically have a 1:1 mapping with a container, but you can run multiple containers in a pod.
+A _pod_ is a group of one or more containers that share the same network and storage resources and a specification for how to run the containers. Pods typically have a 1:1 mapping with a container, but you can run multiple containers in a pod.
 
 ## Node Pools
 
-In AKS, nodes of the same configuration are grouped together into *node pools*. These node pools contain the underlying virtual machine scale sets and virtual machines (VMs) that run your applications.
+In AKS, nodes of the same configuration are grouped together into _node pools_. These node pools contain the underlying virtual machine scale sets and virtual machines (VMs) that run your applications.
 
 When you create an AKS cluster, you define the initial number of nodes and their size (version), which creates a [system node pool](https://learn.microsoft.com/en-us/azure/aks/use-system-pools). System node pools serve the primary purpose of hosting critical system pods, such as CoreDNS and `konnectivity`.
 
-To support applications that have different compute or storage demands, you can create *user node pools*. User node pools serve the primary purpose of hosting your application pods.
+To support applications that have different compute or storage demands, you can create _user node pools_. User node pools serve the primary purpose of hosting your application pods.
 
 For more information, see [Create node pools in AKS](https://learn.microsoft.com/en-us/azure/aks/create-node-pools) and [Manage node pools in AKS](https://learn.microsoft.com/en-us/azure/aks/manage-node-pools).
 
-When you create an AKS cluster in an Azure resource group, the AKS resource provider automatically creates a second resource group called the *node resource group*. This resource group contains all the infrastructure resources associated with the cluster, including VMs, virtual machine scale sets, and storage.
+When you create an AKS cluster in an Azure resource group, the AKS resource provider automatically creates a second resource group called the _node resource group_. This resource group contains all the infrastructure resources associated with the cluster, including VMs, virtual machine scale sets, and storage.
 
 For more information, see the following resources:
 
@@ -107,7 +107,7 @@ For more information, see the following resources:
 
 ## Namespaces
 
-Kubernetes resources, such as pods and deployments, are logically grouped into *namespaces* to divide an AKS cluster and create, view, or manage access to resources.
+Kubernetes resources, such as pods and deployments, are logically grouped into _namespaces_ to divide an AKS cluster and create, view, or manage access to resources.
 
 The following namespaces are created by default in an AKS cluster:
 

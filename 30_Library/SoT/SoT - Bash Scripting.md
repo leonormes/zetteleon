@@ -1,16 +1,16 @@
 ---
-aliases: ["Bash Scripting", "Shell Scripting", "Bash Arrays"]
+aliases: ["Bash Arrays", "Bash Scripting", "Shell Scripting"]
 confidence: "5/5"
 created: 2025-12-26T12:00:00Z
 epistemic: "Verified via practical examples"
 last_reviewed: "2025-12-26"
-modified: 2025-12-26T10:08:15+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "Canonical knowledge regarding Bash scripting patterns, best practices, and pitfalls."
 review_interval: "6 months"
 see_also: ["[[SoT - Process Execution (Kernel Logic)]]"]
 source_of_truth: ["[[Bash for loops confused me until I learned these 4 expansion rules]]", "[[Kernel Hints and Path Resolution]]"]
 status: "stable"
-tags: ["programming", "SoftwareEngineering/Linux", "bash", "scripting"]
+tags: ["bash", "programming", "scripting", "SoftwareEngineering/Linux"]
 title: SoT - Bash Scripting
 type: "SoT"
 uid: 
@@ -78,7 +78,7 @@ done
 
 > [!check] The Golden Rule
 > **Always double-quote your array expansions: `"${array[@]}"`**.
-> Only omit quotes if you *explicitly intend* to split strings by whitespace.
+> Only omit quotes if you _explicitly intend_ to split strings by whitespace.
 
 ## 5. Tensions, Gaps, and Cross-SoT Coherence
 

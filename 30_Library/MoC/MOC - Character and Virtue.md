@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-07-16T17:30:02Z
 epistemic: "structural"
 last_reviewed: "2025-11-02"
-modified: 2026-01-03T10:19:39+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose: "To serve as a central map for understanding character, virtue, and the 24 strengths identified by the VIA Institute."
 review_interval: "180"
 see_also: []
@@ -28,7 +28,7 @@ The VIA framework identifies 24 universal character strengths organized into six
 
 ### 1. [[VIA Virtue of Wisdom|Wisdom]]
 
-*Cognitive strengths related to acquiring and using knowledge.*
+_Cognitive strengths related to acquiring and using knowledge._
 
 - [[Creativity is Thinking of Novel and Productive Ways to Do Things|Creativity]]
 - [[Curiosity is Taking an Interest in Experience for its Own Sake|Curiosity]]
@@ -38,7 +38,7 @@ The VIA framework identifies 24 universal character strengths organized into six
 
 ### 2. [[VIA Virtue of Courage|Courage]]
 
-*Emotional strengths to achieve goals despite opposition.*
+_Emotional strengths to achieve goals despite opposition._
 
 - [[Bravery is Not Shrinking From What is Frightening|Bravery]]
 - [[Perseverance is Finishing What One Starts Despite Obstacles|Perseverance]]
@@ -47,7 +47,7 @@ The VIA framework identifies 24 universal character strengths organized into six
 
 ### 3. [[VIA Virtue of Humanity|Humanity]]
 
-*Interpersonal strengths focused on caring for and befriending others.*
+_Interpersonal strengths focused on caring for and befriending others._
 
 - [[Love is Valuing Close Relations with Others|Love]]
 - [[Kindness is Doing Favors and Good Deeds for Others|Kindness]]
@@ -55,7 +55,7 @@ The VIA framework identifies 24 universal character strengths organized into six
 
 ### 4. [[VIA Virtue of Justice|Justice]]
 
-*Civic strengths that support a healthy community.*
+_Civic strengths that support a healthy community._
 
 - [[Teamwork is Working Well as a Member of a Group|Teamwork]]
 - [[Fairness is Treating All People the Same|Fairness]]
@@ -63,7 +63,7 @@ The VIA framework identifies 24 universal character strengths organized into six
 
 ### 5. [[VIA Virtue of Temperance|Temperance]]
 
-*Strengths that guard against excess.*
+_Strengths that guard against excess._
 
 - [[Forgiveness is Accepting Shortcomings and Giving Second Chances|Forgiveness]]
 - [[Humility is Letting Achievements Speak for Themselves|Humility]]
@@ -72,7 +72,7 @@ The VIA framework identifies 24 universal character strengths organized into six
 
 ### 6. [[VIA Virtue of Transcendence|Transcendence]]
 
-*Strengths that connect to the broader universe and provide meaning.*
+_Strengths that connect to the broader universe and provide meaning._
 
 - [[Appreciation of Beauty is Noticing Excellence in the World|Appreciation of Beauty & Excellence]]
 - [[Gratitude is Being Aware of and Thankful for Good Things|Gratitude]]

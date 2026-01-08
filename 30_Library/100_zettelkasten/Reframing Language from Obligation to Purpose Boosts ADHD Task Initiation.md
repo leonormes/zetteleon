@@ -4,14 +4,14 @@ confidence: "null"
 created: 2025-10-30T12:00:03Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: ""
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source: "[[MOC - ADHD Task Management]]"
 source_of_truth: []
 status: "pending"
-tags: ["experiment", "hypothesis", "language", "TheHuman/Motivation", "reframing", "TheHuman/Health/ADHD", "topic/productivity"]
+tags: ["experiment", "hypothesis", "language", "reframing", "TheHuman/Health/ADHD", "TheHuman/Motivation", "topic/productivity"]
 title: Reframing Language from Obligation to Purpose Boosts ADHD Task Initiation
 type: "hypothesis"
 uid: 
@@ -20,7 +20,7 @@ updated:
 
 ## 1. The Hypothesis
 
-> **If** I reframe "Have to" tasks into "User Stories" (*"As a [Role], I want [Action], So that [Benefit]"*),
+> **If** I reframe "Have to" tasks into "User Stories" (_"As a [Role], I want [Action], So that [Benefit]"_),
 > **Then** task initiation resistance will decrease significantly,
 > **Because** the ADHD brain creates resistance against external obligation (ODD-lite) but is motivated by intrinsic purpose and identity.
 
@@ -29,14 +29,14 @@ updated:
 ## 2. Experiment Protocol
 
 - **Duration:** 3 Days.
-- **Trigger:** Whenever I feel the "UGH" sensation or say "I *need* to do X."
+- **Trigger:** Whenever I feel the "UGH" sensation or say "I _need_ to do X."
 - **Action:**
 
     1. **Stop.** Do not try to push through the resistance.
     2. **Rephrase:** Speak the User Story aloud.
 
-        - *Old:* "I need to do the dishes."
-        - *New:* "As a *Father*, I want to *clear the sink*, so that *my morning coffee is peaceful tomorrow*."
+        - _Old:_ "I need to do the dishes."
+        - _New:_ "As a _Father_, I want to _clear the sink_, so that _my morning coffee is peaceful tomorrow_."
 
     3. **Assess:** Does the "Wall of Awful" shrink?
 
@@ -51,7 +51,7 @@ updated:
 
 ## 4. Results Log
 
-- *(Log results here upon activation)*
+- _(Log results here upon activation)_
 
 ---
 

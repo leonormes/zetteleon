@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-12T19:43:57Z
 epistemic:
 last_reviewed:
-modified: 2026-01-03T10:19:45+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose:
 review_interval:
 see_also: []
@@ -254,7 +254,7 @@ He was previously a **school teacher** and, before that, a **musician**.
 
 He has **ADHD** and a lifelong love of learning, creativity, and new perspectives.
 
-He is reflective, articulate, and curious—he doesn’t just want productivity; he wants *meaningful flow* where curiosity and action reinforce each other.
+He is reflective, articulate, and curious—he doesn’t just want productivity; he wants _meaningful flow_ where curiosity and action reinforce each other.
 
 ---
 
@@ -271,7 +271,7 @@ However, he experiences a recurring loop:
 3. When starting a project, he can’t easily recall what he already knows, so he **re‑researches**, adding more content instead of building on existing understanding.
 4. He wants to **condense and organize his notes** so that it’s easy to find relevant context and remember reasoning behind past work.
 
-This cycle leads to frustration—too much *input*, not enough *synthesis or reuse*.
+This cycle leads to frustration—too much _input_, not enough _synthesis or reuse_.
 
 ---
 
@@ -281,7 +281,7 @@ At work, he’s currently tackling a **real technical task**: configuring **Vele
 
 Ideally, he’d like to:
 
-- Search his PKM for what he already knows about *backups for cloud-native apps*,
+- Search his PKM for what he already knows about _backups for cloud-native apps_,
 - Build on that understanding,
 - Execute the technical work efficiently, and
 - Document it clearly for future recall.
@@ -294,10 +294,10 @@ Instead, his notes are scattered and don’t reflect his latest thinking or expe
 
 He’s seeking to understand his **motivation** and **workflow design**:
 
-- What is he *really* trying to do with knowledge?
+- What is he _really_ trying to do with knowledge?
 - How can he balance curiosity-driven learning with action-driven output?
-- How can his PKM (Obsidian + LLMs) become a living, *trusted* system instead of a research dump?
-- How can he turn knowledge into *performative* value—i.e., improved execution, reuse, and mastery?
+- How can his PKM (Obsidian + LLMs) become a living, _trusted_ system instead of a research dump?
+- How can he turn knowledge into _performative_ value—i.e., improved execution, reuse, and mastery?
 
 ---
 
@@ -306,7 +306,7 @@ He’s seeking to understand his **motivation** and **workflow design**:
 - He learns best by **connecting ideas between disciplines** (teaching, music, programming, knowledge systems).
 - His motivation is not “getting tasks done,” but **making meaning and seeing connections**.
 - His brain thrives on **novelty, pattern recognition, and coherence**, but he struggles with **activation energy** when a task feels unstructured or cognitively heavy.
-- He uses research as a dopamine reward loop (novelty), but wants to rewire that toward *reuse and synthesis* instead.
+- He uses research as a dopamine reward loop (novelty), but wants to rewire that toward _reuse and synthesis_ instead.
 
 ---
 
@@ -327,8 +327,8 @@ He wants help with any or all of:
 - Be practical but reflective.
 - Don’t lecture—collaborate.
 - Tie abstract ideas to real, concrete workflows (e.g., actual Obsidian note patterns, Git ticket examples, command lines, or scripts).
-- Respect cognitive load: suggest *one small improvement at a time*.
-- Don’t push “theoretical productivity”—aim for **actionable flow**, *like a thinking partner who gets ADHD brains and builders.*
+- Respect cognitive load: suggest _one small improvement at a time_.
+- Don’t push “theoretical productivity”—aim for **actionable flow**, _like a thinking partner who gets ADHD brains and builders._
 
 ---
 

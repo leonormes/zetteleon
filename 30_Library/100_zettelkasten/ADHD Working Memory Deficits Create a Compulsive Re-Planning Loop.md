@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-12T15:00:03Z
 epistemic: "hypothesis"
 last_reviewed: ""
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: "To explain the compulsive re-planning loop caused by ADHD working memory deficits."
 review_interval: "90"
 see_also: ["[[Working Memory Limitations in ADHD]]"]

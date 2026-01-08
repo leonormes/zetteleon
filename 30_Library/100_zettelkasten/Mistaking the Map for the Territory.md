@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-09-11T21:37:21Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -22,7 +22,7 @@ The critical error occurs when we forget we are using a simplified model and tre
 
 ## Examples of Map-Territory Confusion
 
-**Numerical Symbols**: Thinking that numbers *are* their decimal representations rather than abstract mathematical concepts. The decimal system is just one way to represent numerical relationships.
+**Numerical Symbols**: Thinking that numbers _are_ their decimal representations rather than abstract mathematical concepts. The decimal system is just one way to represent numerical relationships.
 
 **Scientific Models**: Treating the Bohr model as if electrons literally orbit like planets, rather than understanding it as a useful but limited visualization.
 

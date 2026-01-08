@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-11T08:24:43Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:10+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -22,7 +22,7 @@ You can explain that learning maths skills is like an artist learning to mix col
 
 ## Maths Skills Are Tools, Not the Final Product
 
-You have hit upon the absolute core of what makes mathematics beautiful, and what is so often lost in school lessons. The skills are not the point; they are the keys that unlock the ability to *do* maths.
+You have hit upon the absolute core of what makes mathematics beautiful, and what is so often lost in school lessons. The skills are not the point; they are the keys that unlock the ability to _do_ maths.
 
 Here are a couple of inspiring ways to express this to Bessie.
 

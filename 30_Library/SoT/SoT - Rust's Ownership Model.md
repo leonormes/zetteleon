@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "model"
 last_reviewed: "2025-12-19"
-modified: 2025-12-27T20:31:14+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To explain the mechanics, rules, and theoretical critique of Rust's ownership, borrowing, and lifetime system."
 review_interval: "12 months"
 see_also: ["[[SoT - Quantitative Type Theory and Graded Modalities]]", "[[SoT - Region-Based Memory Management]]", "[[SoT - Rust's Design Philosophy]]"]
@@ -33,11 +33,11 @@ The majority of critical bugs and security vulnerabilities in systems programmin
 
 The entire system can be derived from three core rules that the borrow checker statically enforces.
 
-1. **Each value has a variable that’s called its *owner*.**
+1. **Each value has a variable that’s called its _owner_.**
 2. **There can only be one owner at a time.**
-    - When a value is assigned to another variable or passed to a function, ownership is *moved*. The original variable is no longer valid.
+    - When a value is assigned to another variable or passed to a function, ownership is _moved_. The original variable is no longer valid.
     - `let s1 = String::from("hello"); let s2 = s1;` // `s1` is now invalid.
-3. **When the owner goes out of scope, the value will be *dropped*.**
+3. **When the owner goes out of scope, the value will be _dropped_.**
     - Rust automatically calls a special `drop` function to free the resources associated with the value.
 
 ### The Borrowing and Lifetimes Sub-System
@@ -86,7 +86,7 @@ From a formalist perspective, Rust's ownership model is a brilliant piece of eng
 ## 6. Minimum Viable Understanding (MVU)
 
 1. **Every piece of data has one, and only one, owner.**
-2. **You can either *move* ownership (transfer it) or *borrow* it (create a reference).**
+2. **You can either _move_ ownership (transfer it) or _borrow_ it (create a reference).**
 3. **You can have many read-only borrows (`&T`) or just one writeable borrow (`&mut T`). The compiler will stop you if you break this rule.**
 4. **When the owner is gone, the data is automatically dropped. No manual free, no garbage collector.**
 

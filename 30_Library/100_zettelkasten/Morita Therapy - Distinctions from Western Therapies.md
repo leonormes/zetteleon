@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-08-30T12:00:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["cbt", "morita-therapy", "therapy", "TheHuman/Psychology"]
+tags: ["cbt", "morita-therapy", "TheHuman/Psychology", "therapy"]
 title: Morita Therapy - Distinctions from Western Therapies
 type: "permanent"
 uid: 

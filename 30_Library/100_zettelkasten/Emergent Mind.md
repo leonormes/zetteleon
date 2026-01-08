@@ -5,7 +5,7 @@ created: 2025-03-28T12:10:40Z
 epistemic: ""
 id: "Emergent mind"
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []

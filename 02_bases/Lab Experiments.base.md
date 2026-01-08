@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-16T12:20:00Z
 epistemic:
 last_reviewed: 2025-12-16
-modified: 2025-12-28T18:49:35+00:00
+modified: 2026-01-08T10:50:03+00:00
 purpose: A Dataview-powered dashboard to track all active, pending, and validated hypotheses within the ProdOS Laboratory.
 review_interval: 
 see_also: []
@@ -25,7 +25,7 @@ updated:
 
 ### 🟢 Active Experiments
 
-*Currently running. Needs daily logging.*
+_Currently running. Needs daily logging._
 
 ```dataview
 TABLE without id file.link as "Experiment Title (Click for full note)", purpose as "Hypothesis Summary/Goal", last_reviewed as "Last Updated"
@@ -38,7 +38,7 @@ SORT modified desc
 
 ### 🟡 Pending Hypotheses (Backlog)
 
-*Drafted but not yet started.*
+_Drafted but not yet started._
 
 ```dataview
 TABLE without id file.link as "Hypothesis Title (Click for full note)", purpose as "Core Hypothesis/Goal"
@@ -51,7 +51,7 @@ SORT created desc
 
 ### ✅ Validated Protocols
 
-*Proven to work. Promoted to SoT.*
+_Proven to work. Promoted to SoT._
 
 ```dataview
 TABLE without id file.link as "Validated Protocol (Click for full note)", source_of_truth as "Integrated Into SoT(s)"
@@ -64,7 +64,7 @@ SORT modified desc
 
 ### ❌ Rejected / Archived
 
-*Failed the reality test.*
+_Failed the reality test._
 
 ```dataview
 TABLE without id file.link as "Rejected Experiment (Click for full note)", purpose as "Reason for Rejection/Lessons Learned"

@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-10T10:00:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To establish the core principle of mutual exchange in a partnership."
 review_interval: "90"
 see_also: []

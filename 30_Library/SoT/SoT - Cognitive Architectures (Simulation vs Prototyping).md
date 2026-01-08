@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: 
-modified: 2026-01-03T10:18:57+00:00
+modified: 2026-01-08T10:49:44+00:00
 purpose: "To define the fundamental divergence in cognitive architectures between \\\\\\\"Predictive Processors\\\\\\\" (Simulation-first) and \\\\\\\"Iterative Processors\\\\\\\" (Action-first), providing a framework for collaboration and self-understanding."
 review_interval: "6 months"
 see_also: ["[[Predictive Processing and the Bayesian Brain]]", "[[SoT - Learning Mechanisms]]", "[[SoT - Myopic Understanding]]"]
@@ -18,8 +18,8 @@ updated:
 ---
 
 > The **Core Divergence** defines two distinct cognitive operating systems for problem-solving: ""
-> 1. **Predictive Processors (Planners): "** Solve problems via high-fidelity internal **Simulation** *before* acting."
-> 2. **Iterative Processors (Doers): "** Solve problems via rapid external **Prototyping** *during* action."
+> 1. **Predictive Processors (Planners): "** Solve problems via high-fidelity internal **Simulation** _before_ acting."
+> 2. **Iterative Processors (Doers): "** Solve problems via rapid external **Prototyping** _during_ action."
 
 ## 2. The Two Architectures
 
@@ -28,7 +28,7 @@ updated:
 - **Mechanism:** High-fidelity internal simulation.
 - **Process:** Loads all constraints into working memory, runs a mental simulation, identifies errors, and produces a "pre-debugged" plan.
 - **View of a Plan:** A set of instructions to be followed. Deviation is seen as "error" or "waste."
-- **Core Metric:** **Predictability**. Minimizing *rework*.
+- **Core Metric:** **Predictability**. Minimizing _rework_.
 - **Failure Mode:** **Analysis Paralysis**. Cannot start without complete data.
 
 ### Type B: The Iterative Processor (The Doer/ADHD)
@@ -36,7 +36,7 @@ updated:
 - **Mechanism:** Real-time feedback loops.
 - **Process:** Treats reality as an external compiler. Writes "code" (takes action), checks the output (feedback), and refactors.
 - **View of a Plan:** A low-confidence hypothesis. Following it blindly feels dangerous because it lacks data validation.
-- **Core Metric:** **Adaptability**. Minimizing *uncertainty*.
+- **Core Metric:** **Adaptability**. Minimizing _uncertainty_.
 - **Failure Mode:** **Local Maxima**. Solving the wrong problem efficiently; lack of cohesion.
 
 ---
@@ -79,16 +79,16 @@ Planners send **Instructions** (How). You need **Constraints** (What).
 
 - **The Conflict:** You cannot follow their plan because you lack the context to validate it.
 - **The Fix:** **"Requirement Extraction."**
-  - *Action:* Accept the plan, but ask: "What is the single most critical 'Definition of Done'?"
-  - *Reframing:* Treat their "Steps 1-10" not as a recipe, but as **Boundary Conditions** (Walls of the room, not the dance steps).
+  - _Action:_ Accept the plan, but ask: "What is the single most critical 'Definition of Done'?"
+  - _Reframing:_ Treat their "Steps 1-10" not as a recipe, but as **Boundary Conditions** (Walls of the room, not the dance steps).
 
 ### Phase 2: The Handshake (Black Box Implementation)
 
-Planners want assurance of the *path*. You can only provide assurance of the *result*.
+Planners want assurance of the _path_. You can only provide assurance of the _result_.
 
 - **The Conflict:** They demand a schedule; you need to test first.
 - **The Fix:** **"The Spike."**
-  - *Script:* "I cannot commit to this full plan yet because there are unknown variables. Let me spend 2 hours doing a practical test (Spike). Afterward, I will give you a confirmed timeline based on real data."
+  - _Script:_ "I cannot commit to this full plan yet because there are unknown variables. Let me spend 2 hours doing a practical test (Spike). Afterward, I will give you a confirmed timeline based on real data."
 
 ### Phase 3: Reporting (Data Validation)
 
@@ -96,8 +96,8 @@ Iterators change course when they learn. Planners see this as "flakiness."
 
 - **The Conflict:** Changing the plan breaks their internal simulation.
 - **The Fix:** Frame change as **"Data Validation."**
-  - *Bad:* "I changed my mind."
-  - *Good:* "The initial assumption [A] proved incorrect during testing. Data suggests approach [B] is faster. I am updating the implementation to match reality."
+  - _Bad:_ "I changed my mind."
+  - _Good:_ "The initial assumption [A] proved incorrect during testing. Data suggests approach [B] is faster. I am updating the implementation to match reality."
 
 ---
 

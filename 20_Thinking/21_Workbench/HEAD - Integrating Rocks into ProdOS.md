@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2026-01-03T10:19:44+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose:
 review_interval:
 see_also: []
@@ -29,7 +29,7 @@ I need a way to track "Rocks" (90-day/Quarterly Goals) as defined in EOS (Entrep
 
 Rocks sit between "Vision" (SoT) and "Projects" (Active).
 
-Currently, ProdOS has `Projects` and `SoT`s. Rocks are likely a specific *type* of Project or a container for Projects.
+Currently, ProdOS has `Projects` and `SoT`s. Rocks are likely a specific _type_ of Project or a container for Projects.
 
 They need high visibility.
 

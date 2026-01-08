@@ -5,7 +5,7 @@ created: 2025-02-07T12:57:54Z
 epistemic: "null"
 ID: "knowledge_applicability"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []

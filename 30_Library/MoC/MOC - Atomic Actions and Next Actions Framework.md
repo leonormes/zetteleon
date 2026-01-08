@@ -6,14 +6,14 @@ criteria: Atomic notes relating to the definition, properties, structure, and ex
 epistemic:
 exclusions: Broad productivity philosophy; specific tool implementations beyond examples.
 last_reviewed:
-modified: 2026-01-03T10:18:46+00:00
+modified: 2026-01-08T10:49:47+00:00
 purpose:
 review_interval: 0
 scope: Comprehensive framework for defining, organizing, and executing atomic actions as the fundamental unit of productivity, with a focus on ADHD-friendly systems.
 see_also: []
 source_of_truth: []
 status: archived
-tags: [action, execution, gtd, "TheHuman/Health/ADHD", topic/productivity]
+tags: ["TheHuman/Health/ADHD", action, execution, gtd, topic/productivity]
 title: MOC - Atomic Actions and Next Actions Framework
 type: map
 uid: 2025-11-10T15:23:00Z
@@ -28,7 +28,7 @@ updated: 2025-11-10T15:23:00Z
 
 The atomic unit of any effective productivity system is [[The Action is the Atomic Unit of Productivity]]. This is a discrete, indivisible, and clearly defined step. [[Atomic Actions Transform Vague Intentions into Tangible Progress|Atomic actions are fundamental for transforming vague intentions into tangible progress]], a practice especially critical for ADHD-friendly systems.
 
-[[Next Action is the Immediate Physical Step Forward]] rel:: defines-core-concept is the answer to the fundamental question: "What is the very next thing to *do*?"
+[[Next Action is the Immediate Physical Step Forward]] rel:: defines-core-concept is the answer to the fundamental question: "What is the very next thing to _do_?"
 
 ### Defining the Atomic Action
 

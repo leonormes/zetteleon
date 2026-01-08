@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-07T00:00:00Z
 epistemic: "theory"
 last_reviewed: "2025-12-24"
-modified: 2026-01-03T10:18:49+00:00
+modified: 2026-01-08T10:49:39+00:00
 purpose: "To define the mechanisms of working memory and schema theory, and their specific impact on programming expertise and cognitive load management."
 review_interval: "12 months"
 see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Extended Mind]]"]
 source_of_truth: []
 status: "stable"
-tags: ["learning", "TheHuman/Neuroscience", "psychology", "TheHuman/Cognition"]
+tags: ["learning", "psychology", "TheHuman/Cognition", "TheHuman/Neuroscience"]
 title: SoT - Working Memory & Schema Theory
 type: "SoT"
 uid: 
@@ -23,9 +23,9 @@ updated:
 
 The active processing unit.
 
-- **Phonological Loop:** Stores verbal/auditory info (e.g., variable names, verbal instructions). *Limit: ~2 seconds.*
+- **Phonological Loop:** Stores verbal/auditory info (e.g., variable names, verbal instructions). _Limit: ~2 seconds._
 - **Visuospatial Sketchpad:** Stores visual/spatial info (e.g., architecture diagrams, code nesting).
-- **Central Executive:** The "Manager" that focuses attention and switches tasks. *Crucial for debugging.*
+- **Central Executive:** The "Manager" that focuses attention and switches tasks. _Crucial for debugging._
 
 ### B. Long-Term Memory (The Library)
 
@@ -68,7 +68,7 @@ Since we cannot upgrade our biological RAM (especially with ADHD), we must optim
 | Strategy | Mechanism | Action |
 |:--- |:--- |:--- |
 | **Chunking** | Compresses data into schemas. | Use descriptive naming (`getUser` vs `func1`) and design patterns. |
-| **Externalization** | Offloads storage to the environment. | Draw diagrams (UML), write comments *before* code, use a whiteboard. |
+| **Externalization** | Offloads storage to the environment. | Draw diagrams (UML), write comments _before_ code, use a whiteboard. |
 | **Incrementalism** | Reduces active variables. | **TDD (Test-Driven Development):** Solve one tiny problem at a time. |
 | **Tooling** | Offloads syntax/state tracking. | Use Linters (syntax check) and Debuggers (state tracking) to free up WM. |
 

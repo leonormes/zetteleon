@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-13T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-13"
-modified: 2026-01-03T10:18:54+00:00
+modified: 2026-01-08T10:49:43+00:00
 purpose: "To define the Generative Infrastructure Configuration (GIC) Framework, a pattern for treating configuration as a generated output to maximize robustness and consistency."
 review_interval: "6 months"
 see_also: ["[[SoT - PRODOS (System Architecture)]]", "[[SoT - Software Configuration Management Patterns]]"]
 source_of_truth: []
 status: "stable"
-tags: ["SoftwareEngineering/Architecture", "configuration_management", "devops", "infrastructure_as_code", "terraform"]
+tags: ["configuration_management", "devops", "infrastructure_as_code", "SoftwareEngineering/Architecture", "terraform"]
 title: SoT - Generative Infrastructure Configuration Framework
 type: "SoT"
 uid: 
@@ -36,7 +36,7 @@ GIC shifts the source of truth from fragile inputs to robust code.
 
 #### 1. The Configuration Kernel (The Intent)
 
-A minimal set of human-defined inputs describing *what* is being deployed, not *how*.
+A minimal set of human-defined inputs describing _what_ is being deployed, not _how_.
 
 - **Example Inputs:** `app_name`, `environment`, `base_domain`, `aws_region`, `cost_centre`.
 - **Characteristic:** Small surface area, high robustness.
@@ -71,7 +71,7 @@ GIC is particularly powerful when chaining tools. Terraform acts as the "Root Ge
 1. **Kernel:** Developer commits a minimal `.tfvars` file.
 2. **Generator:** Terraform GIC module derives all names, tags, and paths.
 3. **Infrastructure:** Terraform provisions cloud resources using these derived values.
-4. **Application:** Terraform renders values for Helm charts (or other app configs) using the *same* generated data, ensuring the application layer and infrastructure layer are perfectly synchronized.
+4. **Application:** Terraform renders values for Helm charts (or other app configs) using the _same_ generated data, ensuring the application layer and infrastructure layer are perfectly synchronized.
 
 ### Benefits
 

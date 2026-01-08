@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-25T11:45:00Z
 epistemic: principle
 last_reviewed: 2025-12-25
-modified: 2026-01-03T10:18:50+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: To define the mechanics and cognitive implications of the exponential function and steady growth.
 review_interval: 6 months
 see_also: ["[[Mental Models MOC]]", "[[SoT - Systems Thinking]]"]
@@ -34,7 +34,7 @@ $$T_d \approx \frac{70}{r}$$
 
 where $r$ is the percentage growth rate per unit of time.
 
-- *Example:* At a 7% annual growth rate, the quantity doubles every 10 years ($70 \div 7 = 10$).
+- _Example:_ At a 7% annual growth rate, the quantity doubles every 10 years ($70 \div 7 = 10$).
 
 ---
 
@@ -62,7 +62,7 @@ Human intuition consistently fails to grasp the "back-loaded" nature of exponent
 
 The same math governs compound interest.
 
-- *Vail Ski Ticket Example:* A $5 ticket in 1963, doubling every 10 years, becomes $160 by 2013.
+- _Vail Ski Ticket Example:_ A $5 ticket in 1963, doubling every 10 years, becomes $160 by 2013.
 - Small, "ordinary" growth leads to radical, non-intuitive shifts over a single human lifetime.
 
 ---

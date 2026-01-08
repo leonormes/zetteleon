@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-03T10:18:51+00:00
+modified: 2026-01-08T10:49:41+00:00
 purpose: "To define the principles of sustained relationship maintenance and the labour required for repair."
 review_interval: "6 months"
 see_also: ["[[SoT - Framework for Healthy Communication]]"]
@@ -23,7 +23,7 @@ Relationship maintenance is the ongoing cognitive and emotional effort required 
 
 ## 2. The Labour of Repair
 
-Repair is a distinct phase of communication that occurs *after* a conflict. It involves:
+Repair is a distinct phase of communication that occurs _after_ a conflict. It involves:
 
 - **Reflection:** Thinking about the issue between conversations.
 - **Initiation:** Proactively bringing the topic back up to check on progress.

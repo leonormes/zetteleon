@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-23T22:39:13Z
 epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2026-01-03T10:18:53+00:00
+modified: 2026-01-08T10:49:42+00:00
 purpose: "To define the mathematical impact of protocol headers on bandwidth and the constraints of Maximum Transmission Units (MTU)."
 review_interval: "6 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - Encapsulation & De-encapsulation]]"]
 source_of_truth: []
 status: "stable"
-tags: ["mtu", "SoftwareEngineering/Networking", "overhead", "performance", "vpn"]
+tags: ["mtu", "overhead", "performance", "SoftwareEngineering/Networking", "vpn"]
 title: SoT - Network Overhead & MTU
 type: "SoT"
 uid: 

@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-06T20:01:00Z
 epistemic: "insight"
 last_reviewed: "2025-11-06"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "To frame mundane written thoughts not as failures, but as essential starting points for deeper insight."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Creativity", "process", "thinking", "writing"]
+tags: ["process", "TheHuman/Creativity", "thinking", "writing"]
 title: Mundane Written Thoughts are the Starting Point for Deeper Insight
 type: "concept"
 uid: 

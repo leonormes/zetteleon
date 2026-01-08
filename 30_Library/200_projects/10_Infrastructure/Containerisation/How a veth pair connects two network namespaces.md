@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-24T15:15:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:27+00:00
+modified: 2026-01-08T10:49:56+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "namespace", "SoftwareEngineering/Networking", "veth"]
+tags: ["namespace", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking", "veth"]
 title: How a veth pair connects two network namespaces
 type: "Mechanism"
 uid: 

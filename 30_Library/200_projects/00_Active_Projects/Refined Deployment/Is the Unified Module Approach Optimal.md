@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-09-28T11:39:17Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:30+00:00
+modified: 2026-01-08T10:49:56+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -40,7 +40,7 @@ To improve modularity, reusability, and adhere to GitOps principles—which reco
 
 3. **Application Configuration (GitOps Configuration Repo):**
    - **Responsibility:** Holds the declarative Kubernetes manifests (Helm values/ArgoCD Application manifests) for deploying FITFILE applications for specific customers (like "mkuh").
-   - **Reasoning:** This is the *true* GitOps layer. By replacing the Terraform application deployment phase with a dedicated Git repository monitored by ArgoCD (the "pull model"), you gain auditability and security benefits.
+   - **Reasoning:** This is the _true_ GitOps layer. By replacing the Terraform application deployment phase with a dedicated Git repository monitored by ArgoCD (the "pull model"), you gain auditability and security benefits.
 
 **Citations Supporting Modularity:**
 

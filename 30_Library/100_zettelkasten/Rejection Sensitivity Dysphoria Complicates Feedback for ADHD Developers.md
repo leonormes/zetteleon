@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-06T19:54:09Z
 epistemic: "fact"
 last_reviewed: "2025-11-06"
-modified: 2026-01-03T10:19:36+00:00
+modified: 2026-01-08T10:49:59+00:00
 purpose: "To define Rejection Sensitivity Dysphoria (RSD) and its impact on developers with ADHD in feedback-rich environments."
 review_interval: "90"
 see_also: []

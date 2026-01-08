@@ -4,13 +4,13 @@ confidence: "1"
 created: 2025-11-01T20:40:00Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "To explain the importance of embracing imperfection to overcome motion-based procrastination."
 review_interval: "90"
 see_also: ["[[Motion Can Be a Procrastination Delay Tactic]]", "[[Perfectionism Leads to Endless Planning and Inaction]]"]
 source_of_truth: []
 status: "evergreen"
-tags: ["TheHuman/Mindset", "perfectionism", "procrastination", "topic/productivity"]
+tags: ["perfectionism", "procrastination", "TheHuman/Mindset", "topic/productivity"]
 title: Embracing Imperfection is Key to Overcoming Motion-Based Procrastination
 type: "concept"
 uid: 

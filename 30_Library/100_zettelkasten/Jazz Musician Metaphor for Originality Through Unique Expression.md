@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-11-01T09:51:13Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:40+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["TheHuman/Creativity", "jazz", "metaphor", "originality", "topic/creativity"]
+tags: ["jazz", "metaphor", "originality", "TheHuman/Creativity", "topic/creativity"]
 title: Jazz Musician Metaphor for Originality Through Unique Expression
 type: "concept"
 uid: 

@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-10-26T17:06:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:43+00:00
+modified: 2026-01-08T10:50:02+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["SoftwareEngineering/Architecture", "scalability", "tech", "SoftwareEngineering/Networking"]
+tags: ["scalability", "SoftwareEngineering/Architecture", "SoftwareEngineering/Networking", "tech"]
 title: A Load Balancer Distributes Traffic for Reliability and Scale
 type: "permanent"
 uid: 

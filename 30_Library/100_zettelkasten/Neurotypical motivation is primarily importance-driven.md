@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-07-16T17:30:01Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:37+00:00
+modified: 2026-01-08T10:50:00+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["importance", "TheHuman/Motivation", "neurotypical", "TheHuman/Health/ADHD"]
+tags: ["importance", "neurotypical", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
 title: Neurotypical motivation is primarily importance-driven
 type: "permanent"
 uid: 

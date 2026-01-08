@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-06T19:58:03Z
 epistemic: "insight"
 last_reviewed: "2025-11-06"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To define the self as an act of conscious curation and commitment to chosen values."
 review_interval: "90"
 see_also: ["Identity-Based Habits are the Most Profound Level of Change.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["existentialism", "TheHuman/Identity", "integrity", "self", "values"]
+tags: ["existentialism", "integrity", "self", "TheHuman/Identity", "values"]
 title: The Self is Constructed Through a Commitment to Chosen Values
 type: "concept"
 uid: 

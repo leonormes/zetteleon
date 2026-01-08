@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2025-12-07T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:49+00:00
+modified: 2026-01-08T10:49:40+00:00
 purpose: "To define the operational philosophy of balancing analysis with execution."
 review_interval: "3 months"
 see_also: ["[[Think Like a Man of Action]]"]
 source_of_truth: []
 status: "stable"
-tags: ["action", "thinking", "TheHuman/Health/ADHD", "topic/productivity"]
+tags: ["action", "TheHuman/Health/ADHD", "thinking", "topic/productivity"]
 title: SoT - Think Like a Man of Action, Act Like a Man of Thought
 type: "SoT"
 uid: 
@@ -30,7 +30,7 @@ updated:
 
 Thinking must be decisive, not exploratory.
 
-- **The Question:** "What is the *single, specific action* this thinking is supposed to lead to?"
+- **The Question:** "What is the _single, specific action_ this thinking is supposed to lead to?"
 - **The Effect:** If you can't answer, you are procrastinating. Stop thinking.
 
 ### B. Define the Action (The MVA)
@@ -38,8 +38,8 @@ Thinking must be decisive, not exploratory.
 "Thoughtful Action" does not mean "Big Action." It means "Intentional Action."
 
 - **The Method:** Identify the **Minimum Viable Action (MVA)**.
-  - *Not:* "Learn about nutrition."
-  - *Is:* "Write 'Buy one book' on the list."
+  - _Not:_ "Learn about nutrition."
+  - _Is:_ "Write 'Buy one book' on the list."
 - **The Why:** Small actions bypass the "Wall of Awful" (initiation paralysis).
 
 ### C. Time-Bound Containers (The Constraint)
@@ -47,14 +47,14 @@ Thinking must be decisive, not exploratory.
 Thinking expands to fill the time available.
 
 - **The Rule:** 15 minutes to Plan -> 5 minutes to Do.
-- **The Hard Stop:** When the timer rings, thinking ends. You must execute the best *current* hypothesis.
+- **The Hard Stop:** When the timer rings, thinking ends. You must execute the best _current_ hypothesis.
 
 ### D. Act First, Then Think (The Feedback Loop)
 
 Real-world data beats theoretical models.
 
 - **The Cycle:** Guess -> Do -> Reflect.
-- **The Shift:** Instead of thinking to find the *perfect* action, take a *good-enough* action and then "think" about the result. This turns "failure" into "data."
+- **The Shift:** Instead of thinking to find the _perfect_ action, take a _good-enough_ action and then "think" about the result. This turns "failure" into "data."
 
 ---
 
@@ -73,14 +73,14 @@ This principle, attributed to Henri Bergson, advocates for a synthesis of **inte
 
 ### 1. Thinking like a Man of Action
 
-- **Operationalise the Abstract:** Do not merely philosophise about fairness or ideals. Instead, ask: *"What specific, small action can I take in the next hour to advance this?"*
+- **Operationalise the Abstract:** Do not merely philosophise about fairness or ideals. Instead, ask: _"What specific, small action can I take in the next hour to advance this?"_
 - **Pragmatic Urgency:** Replace open-ended analysis with decision-oriented thinking. Focus mental energy on the "next step" rather than the distant theoretical horizon.
 - **The "Trial Run" Mental Model:** Use the intellect to simulate the execution phase. How will this course play out in the real world? This differs from passive worry; it is active stress-testing of a plan.
 
 ### 2. Acting like a Man of Thought
 
-- **Reflective Execution:** Carry reflection *inside* the movement. Do not simply react to stimuli (e.g., pressing send, shouting, rushing).
-- **Real-time Calibration:** Maintain a feedback loop during action. *"Why am I doing this? Is this action currently aligned with the desired outcome?"*
+- **Reflective Execution:** Carry reflection _inside_ the movement. Do not simply react to stimuli (e.g., pressing send, shouting, rushing).
+- **Real-time Calibration:** Maintain a feedback loop during action. _"Why am I doing this? Is this action currently aligned with the desired outcome?"_
 - **Precision:** Whether speaking or crafting, ensure every component is intentional. Avoid "thought-less" momentum where activity masquerades as progress.
 
 ### 3. The Synthesis (The Golden Mean)
@@ -88,8 +88,8 @@ This principle, attributed to Henri Bergson, advocates for a synthesis of **inte
 - **Balance:** Strategy (Thinking) and Tactics (Action) are not separate phases but a continuous cycle.
 - **Wisdom as Practice:** Real wisdom is not static knowledge but is revealed through the quality of one's engagement with the world.
 - **Avoid Extremes:**
-    - *Pure Thought:* Leads to paralysis and "analysis paralysis".
-    - *Pure Action:* Leads to recklessness and inefficient expenditure of energy.
+    - _Pure Thought:_ Leads to paralysis and "analysis paralysis".
+    - _Pure Action:_ Leads to recklessness and inefficient expenditure of energy.
 
 Here is the expansion of each mental model, structured through your preferred "software architect" lens—focusing on underlying logic, system states, and efficiency.
 

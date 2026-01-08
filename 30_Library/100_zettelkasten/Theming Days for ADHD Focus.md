@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-26T11:06:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -39,4 +39,4 @@ Instead of context-switching between different types of tasks throughout the day
 - This is a form of [[Environmental Design for ADHD Focus]], where the "environment" is the structure of the day itself.
 - It complements [[Timeboxing as a To-Do List Alternative for ADHD]] by providing a framework within which to schedule specific time blocks.
 
-*Source: Synthesized from notes on ADHD productivity hacks.*
+_Source: Synthesized from notes on ADHD productivity hacks._

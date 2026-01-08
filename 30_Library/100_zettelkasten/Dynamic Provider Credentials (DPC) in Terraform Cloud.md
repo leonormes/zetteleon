@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-10-24T15:35:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["authentication", "DPC", "OIDC", "SoftwareEngineering/Security", "short-lived-credentials"]
+tags: ["authentication", "DPC", "OIDC", "short-lived-credentials", "SoftwareEngineering/Security"]
 title: Dynamic Provider Credentials (DPC) in Terraform Cloud
 type: ""
 uid: 

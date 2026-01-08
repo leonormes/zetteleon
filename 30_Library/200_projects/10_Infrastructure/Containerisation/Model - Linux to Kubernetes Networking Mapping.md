@@ -4,13 +4,13 @@ confidence: "null"
 created: 2025-10-24T15:21:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-03T10:19:26+00:00
+modified: 2026-01-08T10:49:55+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["cni", "SoftwareEngineering/Containers", "kubernetes", "SoftwareEngineering/Linux", "mapping", "SoftwareEngineering/Networking"]
+tags: ["cni", "kubernetes", "mapping", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]
 title: Model - Linux to Kubernetes Networking Mapping
 type: "Model"
 uid: 

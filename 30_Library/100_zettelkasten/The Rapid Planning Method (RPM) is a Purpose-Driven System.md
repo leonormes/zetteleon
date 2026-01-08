@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-11-10T14:14:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:34+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "To define the Rapid Planning Method (RPM)."
 review_interval: "90"
 see_also: []
 source_of_truth: []
 status: "seedling"
-tags: ["goals", "TheHuman/Motivation", "purpose", "topic/productivity", "topic/systems"]
+tags: ["goals", "purpose", "TheHuman/Motivation", "topic/productivity", "topic/systems"]
 title: The Rapid Planning Method (RPM) is a Purpose-Driven System
 type: "concept"
 uid: 

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-12T11:08:55Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:19:09+00:00
+modified: 2026-01-08T10:49:49+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -60,7 +60,7 @@ Now, look at the table together. The numbers of handshakes are `1, 3, 6, 10...` 
 
 ### Step 3: Generate the Rule
 
-This is the creative, generative part. Say, "Instead of counting every time, can we create a formula to predict the number of handshakes for *any* number of people?"
+This is the creative, generative part. Say, "Instead of counting every time, can we create a formula to predict the number of handshakes for _any_ number of people?"
 
 Guide her thinking with these questions:
 
@@ -80,5 +80,5 @@ $$H = \frac{p \times (p - 1)}{2}$$
 
 This activity perfectly demonstrates the difference between the two types of knowledge:
 
-- **Applicative Knowledge:** Would be if you gave Bessie the formula at the start and just asked her to calculate the handshakes for 20 people. You are asking her to *apply* a known rule.
-- **Generative Knowledge:** Is what you just did. You started with a real-world situation, collected data, found a pattern, and used logic to *generate* a brand-new formula that describes the pattern. This is thinking like a true mathematician.
+- **Applicative Knowledge:** Would be if you gave Bessie the formula at the start and just asked her to calculate the handshakes for 20 people. You are asking her to _apply_ a known rule.
+- **Generative Knowledge:** Is what you just did. You started with a real-world situation, collected data, found a pattern, and used logic to _generate_ a brand-new formula that describes the pattern. This is thinking like a true mathematician.

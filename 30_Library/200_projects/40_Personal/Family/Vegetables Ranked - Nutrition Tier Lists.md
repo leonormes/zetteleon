@@ -6,7 +6,7 @@ created: 2025-12-14T00:00:00Z
 description: "Created with Gemini"
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-03T10:18:59+00:00
+modified: 2026-01-08T10:49:48+00:00
 published: ""
 purpose: ""
 review_interval: ""
@@ -67,7 +67,7 @@ These are highly recommended for their solid micronutrient profile and specific,
 
 ---
 
-*The full video is available here: [http://www.youtube.com/watch?v=fD07raxrJVo](http://www.youtube.com/watch?v=fD07raxrJVo)*
+_The full video is available here: [http://www.youtube.com/watch?v=fD07raxrJVo](http://www.youtube.com/watch?v=fD07raxrJVo)_
 
 Google Account
 

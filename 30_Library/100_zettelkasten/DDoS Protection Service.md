@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-12-24T12:00:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:41+00:00
+modified: 2026-01-08T10:50:01+00:00
 purpose: "Explain DDoS mitigation in cloud networking."
 review_interval: "90"
 see_also: ["Web Application Firewalls Protect Against Layer 7 Attacks.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["SoftwareEngineering/Security", "SoftwareEngineering/Networking"]
+tags: ["SoftwareEngineering/Networking", "SoftwareEngineering/Security"]
 title: DDoS Protection Service
 type: "concept"
 uid: 

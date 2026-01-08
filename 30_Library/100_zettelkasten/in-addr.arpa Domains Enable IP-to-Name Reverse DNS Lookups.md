@@ -4,13 +4,13 @@ confidence: "0.9"
 created: 2025-10-31T10:50:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-03T10:19:33+00:00
+modified: 2026-01-08T10:49:58+00:00
 purpose: "Explain reverse DNS lookup mechanism."
 review_interval: "90"
 see_also: ["DNS is a distributed database.md"]
 source_of_truth: []
 status: "seedling"
-tags: ["SoftwareEngineering/networking/dns", "SoftwareEngineering/Networking"]
+tags: ["SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
 title: in-addr.arpa Domains Enable IP-to-Name Reverse DNS Lookups
 type: "concept"
 uid: 
