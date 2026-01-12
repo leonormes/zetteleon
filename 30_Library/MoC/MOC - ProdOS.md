@@ -72,20 +72,20 @@ The definitive specification of the system, its biological basis, and the "Why".
 #### Phase 1: Capture & Routing (Input)
 
 - **[[Reference - File Structure]]**—_The 6-Component Architecture (Stream, HUD, Engine, Workbench, Canon, Archive)._
-- **[[SoT - PRODOS Core Specification#2. The Core Loop (Workflow)|The Core Loop]]**—_Includes the Gate (4D Filter) and Problem Definition._
+- **[[SoT - PRODOS Core Specification#2. Context Engineering (The Agent Protocol)|Context Engineering]]**—_Protocols for Context Hygiene, Decision Lineage, and Entity Scoping._
 - **[[SoT - Cognitive Engineering Protocols]]**—_Tactical tools for clearing RAM (Brain Dumping) and Emotional Regulation (Journaling)._
 
 #### Phase 2: Thinking & Refinement (Processor)
 
-- **[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]**—_The unified protocol for converting thought into knowledge (Writing to Think, Note Types, Refinement)._
-- **[[SoT - PRODOS - Learning Architecture]]**—_The Hangar (Setup) -> Cockpit (Deep Dive) -> Cryosleep (Consolidate) workflow._
+- **[[SoT - PRODOS Core Specification#3.1 Knowledge Synthesis (Writing is Thinking)|Knowledge Synthesis]]**—_The unified protocol for converting thought into knowledge (Writing to Think, Note Types, Refinement)._
+- **[[SoT - PRODOS Core Specification#3.2 Learning Architecture (The Attack)|Learning Architecture]]**—_The Hangar (Setup) -> Cockpit (Deep Dive) -> Cryosleep (Consolidate) workflow._
 - **[[SoT - Material Symbols]]**—_Using language and artifacts as active computational scaffolding._
 
 #### Phase 3: Action & Persistence (Output)
 
-- **[[SoT - PRODOS Core Specification#3. Execution Rules (The Constraints)|Execution Rules]]**—_The MVA, Definition of Done, and Action Protocols._
+- **[[SoT - PRODOS Core Specification#4. Execution Rules (The Constraints)|Execution Rules]]**—_The MVA, Definition of Done, and Action Protocols._
 - **[[SoT - Temporal Management (Blocking and Boxing)]]**—_Strategic Time-Blocking vs. Tactical Time-Boxing._
-- **[[SoT - PRODOS Core Specification#4. State Management (Cryosleep)|Cryosleep Protocol]]**—_The "Save State" mechanism for minimizing context-switching costs._
+- **[[SoT - PRODOS Core Specification#5. State Management (Cryosleep)|Cryosleep Protocol]]**—_The "Save State" mechanism for minimizing context-switching costs._
 - **[[SoT - Bridging the Intention-Action Gap]]**—_Protocols for overcoming high activation energy._
 
 ---
@@ -113,4 +113,4 @@ How to sustain the system and grow.
 
 - [[SoT.base|All Source of Truth Notes]]
 - [[MOCx.base|All Maps of Content]]
-- [[HEAD.base|Active Thinking Threads (RAM)]]
+- [[Thinking.base|Active Thinking Threads (RAM)]]

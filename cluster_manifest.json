@@ -1,0 +1,408 @@
+{
+  "Cluster_0": {
+    "name": "Cluster_0 (4 items) - Example: Helm Chart Image Investigation Overview (2025-12-29)",
+    "items": [
+      {
+        "title": "Helm Chart Image Investigation Overview (2025-12-29)",
+        "type": "log",
+        "tags": [
+          "investigation",
+          "helm",
+          "bitnami",
+          "azurecr",
+          "ff-test-a"
+        ],
+        "content": "### Overview\n\nInvestigation into the default image versions for Bitnami Helm charts used in the project and verification of the actual images running in the `ff-test-a` namespace. All images are successfully being served from `fitfileregistry.azurecr.io`."
+      },
+      {
+        "title": "MongoDB Helm Chart Details (Version 16.5.45)",
+        "type": "concept",
+        "tags": [
+          "mongodb",
+          "helm",
+          "configuration",
+          "images"
+        ],
+        "content": "### MongoDB\n\n- **Helm Chart Version:** 16.5.45\n- **Default Chart Images:**\n  - `bitnami/mongodb:8.0.13-debian-12-r0`\n  - `bitnami/mongodb-exporter:0.47.0-debian-12-r1`\n  - `bitnami/nginx:1.29.1-debian-12-r0`\n  - `bitnami/kubectl:1.33.4-debian-12-r0`\n  - `bitnami/os-shell:12-debian-12-r51`\n- **Cluster Verification (ff-test-a):**\n  - `fitfileregistry.azurecr.io/bitnami/mongodb:8.0.13-debian-12-r0`\n  - `fitfileregistry.azurecr.io/bitnami/mongodb-exporter:0.47.0-debian-12-r1`"
+      },
+      {
+        "title": "MinIO Helm Chart Details (Version 14.7.8)",
+        "type": "concept",
+        "tags": [
+          "minio",
+          "helm",
+          "configuration",
+          "images"
+        ],
+        "content": "### MinIO\n\n- **Helm Chart Version:** 14.7.8\n- **Default Chart Images:**\n  - `bitnami/minio:2024.9.9-debian-12-r0`\n  - `bitnami/minio-client:2024.9.9-debian-12-r0`\n  - `bitnami/os-shell:12-debian-12-r30`\n- **Cluster Verification (ff-test-a):**\n  - `fitfileregistry.azurecr.io/bitnami/minio:2024.9.9-debian-12-r0`"
+      },
+      {
+        "title": "PostgreSQL Helm Chart Details (Version 15.5.15)",
+        "type": "concept",
+        "tags": [
+          "postgresql",
+          "helm",
+          "configuration",
+          "images"
+        ],
+        "content": "### PostgreSQL\n\n- **Helm Chart Version:** 15.5.15\n- **Default Chart Images:**\n  - `bitnami/postgresql:16.3.0-debian-12-r19`\n  - `bitnami/postgres-exporter:0.15.0-debian-12-r36`\n  - `bitnami/os-shell:12-debian-12-r24`\n- **Cluster Verification (ff-test-a):**\n  - `fitfileregistry.azurecr.io/bitnami/postgresql:16.3.0-debian-12-r19`"
+      }
+    ]
+  },
+  "Cluster_1": {
+    "name": "Cluster_1 (11 items) - Example: Centralised MCP Hub Architecture",
+    "items": [
+      {
+        "title": "Centralised MCP Hub Architecture",
+        "type": "concept",
+        "tags": [
+          "mcp",
+          "architecture",
+          "devops"
+        ],
+        "content": "To centralise Model Context Protocol (MCP) management on macOS, shift from a Tool-Managed architecture (where each LLM client instantiates its own subprocesses) to a Service-Oriented architecture. Instead of subprocesses, establish a persistent 'MCP Host' or 'Gateway' that exposes tools via a unified interface, treating MCP servers as standalone daemons."
+      },
+      {
+        "title": "Centralisation via Local Proxy/Gateway",
+        "type": "concept",
+        "tags": [
+          "mcp",
+          "gateway",
+          "sse"
+        ],
+        "content": "One way to centralise MCP runtimes is using a gateway that provides a single entry point via a local SSE (Server-Sent Events) bridge. \n1. Host via PM2 or Launchd: Run MCP servers as background processes.\n2. Expose via SSE: Use an SSE Bridge to convert Stdio-based servers into HTTP/SSE endpoints.\n3. Unified Client Config: Point LLM clients to the same local URL instead of individual shell commands."
+      },
+      {
+        "title": "Symbolic Link Synchronisation for MCP Configs",
+        "type": "concept",
+        "tags": [
+          "mcp",
+          "configuration",
+          "automation"
+        ],
+        "content": "If tools must spawn their own processes, centralise the logic using symbolic links:\n- Define a Master Config: Create `mcp-master.json` in `~/.config/mcp/`.\n- Symlink Configs: `ln -s ~/.config/mcp/master.json ~/Library/Application\\ Support/Antigravity/config.json` and `ln -s ~/.config/mcp/master.json ~/.config/gemini-cli/config.json`.\nOutcome: Modifying one config updates all tools, though processes remain separate."
+      },
+      {
+        "title": "The MCP-Proxy Router Framework",
+        "type": "concept",
+        "tags": [
+          "mcp",
+          "proxy",
+          "router"
+        ],
+        "content": "Implement a thin MCP Proxy (Router) in Python or Node.js to manage downstream MCPs. The LLM client connects only to this Proxy via Stdio. The Proxy then manages the lifecycle of multiple internal MCPs (Filesystem, GitHub, Database, etc.)."
+      },
+      {
+        "title": "Docker MCP Gateway (Native Hub)",
+        "type": "concept",
+        "tags": [
+          "mcp",
+          "docker",
+          "gateway"
+        ],
+        "content": "The Docker MCP Gateway moves process management to the Docker daemon. Docker Desktop (v4.40+) includes a native MCP Toolkit and Gateway that aggregates tools into a single endpoint accessible via `docker mcp gateway run`."
+      },
+      {
+        "title": "Setting up Centralised MCP Hub on Colima",
+        "type": "task",
+        "tags": [
+          "mcp",
+          "colima",
+          "docker-compose"
+        ],
+        "content": "To run a central MCP hub on Colima:\n1. Start Colima: `colima start`.\n2. Link Socket: `sudo ln -sf ~/.colima/default/docker.sock /var/run/docker.sock`.\n3. Use Docker Compose with `docker/mcp-gateway:latest`, mapping `${HOME}/.colima/default/docker.sock:/var/run/docker.sock` and exposing port `8811` with `--transport=sse`."
+      },
+      {
+        "title": "Docker Compose Configuration for MCP Hub",
+        "type": "concept",
+        "tags": [
+          "docker-compose",
+          "mcp",
+          "configuration"
+        ],
+        "content": "Example `docker-compose.yml` for an MCP Hub:\nyaml\nservices:\n  mcp-gateway:\n    image: docker/mcp-gateway:latest\n    container_name: mcp-hub\n    environment:\n      - DOCKER_HOST=unix:///var/run/docker.sock\n    volumes:\n      - ${HOME}/.colima/default/docker.sock:/var/run/docker.sock\n      - ./config:/root/.config/docker-mcp\n    ports:\n      - \"8811:8811\"\n    command:\n      - --servers=filesystem,github,memory\n      - --transport=sse\n      - --port=8811\n    restart: always\n"
+      },
+      {
+        "title": "Connecting Gemini CLI to Centralised MCP Hub",
+        "type": "task",
+        "tags": [
+          "gemini-cli",
+          "mcp",
+          "configuration"
+        ],
+        "content": "Update `~/.config/gemini-cli/config.json` (or `settings.json`) to point to the central hub URL:\n\n{\n  \"mcpServers\": {\n    \"colima-hub\": {\n      \"httpUrl\": \"http://localhost:8811/mcp\"\n    }\n  }\n}\n"
+      },
+      {
+        "title": "Implementing an MCP Router with Docker Compose",
+        "type": "task",
+        "tags": [
+          "mcp",
+          "router",
+          "docker-compose"
+        ],
+        "content": "Configure a gateway in router mode to manage many tools efficiently:\nyaml\nservices:\n  mcp-router:\n    image: docker/mcp-gateway:latest\n    command:\n      - --mode=router\n      - --default-servers=memory,filesystem\n    ports:\n      - \"8811:8811\"\n  mcp-memory:\n    image: mcp/memory:latest\n    volumes:\n      - ./data/memory.db:/app/data/memory.db\n  mcp-filesystem:\n    image: mcp/filesystem:latest\n"
+      },
+      {
+        "title": "Optimizing IDE LLM Architecture",
+        "type": "concept",
+        "tags": [
+          "llm",
+          "ide",
+          "architecture",
+          "pieces",
+          "mcp"
+        ],
+        "content": "Architectural Framework: Decoupling State from Compute\n\nTo solve \"context rot\"... you must shift your mental model of the IDE LLM.\n\n- **Compute Layer (The IDE LLM):** Handles logic, code generation, and reasoning.\n- **State Layer (Pieces LTM):** Handles persistence, temporal grounding, and context retrieval.\n- **Interface Layer (MCP):** The Model Context Protocol acts as the API gateway."
+      },
+      {
+        "title": "Project Context Anchor (llms.txt)",
+        "type": "task",
+        "tags": [
+          "context",
+          "documentation",
+          "standardization"
+        ],
+        "content": "The Process: llms.txt as a Context Anchor\n\nCreate a file named `llms.txt` in your project root... This \"spec\" is designed specifically to force the LLM to leverage the Pieces MCP tools.\n\n(Includes Template for Project Identity, Context Retrieval Strategy, Architecture & Constraints)."
+      }
+    ]
+  },
+  "Unclustered": {
+    "name": "Unclustered (10 items) - Example: Connecting Antigravity IDE to Centralised MCP Hub",
+    "items": [
+      {
+        "title": "Connecting Antigravity IDE to Centralised MCP Hub",
+        "type": "task",
+        "tags": [
+          "antigravity-ide",
+          "mcp",
+          "stdio-bridge"
+        ],
+        "content": "Antigravity typically requires a Stdio bridge to connect to SSE hubs. In 'View raw config', use `mcp-remote`:\n\n{\n  \"mcpServers\": {\n    \"central-hub\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"mcp-remote\", \"http://localhost:8811/sse\"],\n      \"env\": {}\n    }\n  }\n}\n"
+      },
+      {
+        "title": "Comparison of /sse vs /mcp Endpoints",
+        "type": "concept",
+        "tags": [
+          "mcp",
+          "protocol",
+          "sse",
+          "http"
+        ],
+        "content": "- `/sse` (Server-Sent Events): The classic two-channel transport. Opens a long-lived GET stream; client POSTs messages to unique session URLs. High compatibility with 'Remote MCP' tools.\n- `/mcp` (Streamable HTTP): Modern, unified HTTP stream for bi-directional communication. More robust for high-concurrency and less resource-intensive than legacy SSE."
+      },
+      {
+        "title": "The 100-Tool Limit and Attention Dilution in LLMs",
+        "type": "concept",
+        "tags": [
+          "llm",
+          "context-window",
+          "attention-mechanic"
+        ],
+        "content": "The 100-tool warning in IDEs like Antigravity stems from technical bottlenecks:\n1. Token Overhead: Every tool schema is injected into the System Prompt, consuming thousands of tokens.\n2. Attention Dilution: Probability of 'Tool Hallucination' increases as the choice space expands. Models show reasoning dips when choosing between >50-80 complex tools."
+      },
+      {
+        "title": "The Router Pattern for MCP Tool Limits",
+        "type": "concept",
+        "tags": [
+          "mcp",
+          "router-pattern",
+          "abstraction"
+        ],
+        "content": "To bypass tool limits, use a Router/Proxy pattern. The LLM sees only 'Meta-Tools' (e.g., `tool_search`, `tool_exec`). The Gateway hides low-level tools until specifically requested, dynamically providing schemas at the moment of need. This reduces context bloat and maintains model reasoning performance."
+      },
+      {
+        "title": "Bounded Context - Execution (Generic Subdomain)",
+        "type": "concept",
+        "tags": [
+          "ddd",
+          "bounded-context",
+          "execution",
+          "generic-subdomain"
+        ],
+        "content": "#### 3.3. Execution Context (Generic Subdomain)\n\nHandles the asynchronous running of jobs.\n\n- **Entities:** `Job`, `JobExecutionInfo`.\n- **Role:** decoupling the \"Definition\" from the \"Result\". The UI polls this context for status."
+      },
+      {
+        "title": "Pieces + MCP Integration MVP",
+        "type": "task",
+        "tags": [
+          "pieces",
+          "mcp",
+          "setup",
+          "cursor"
+        ],
+        "content": "Execution: The Practical MVP\n\nPhase 1: Infrastructure Setup\n1. Install Pieces Desktop App and PiecesOS.\n2. Enable Long-Term Memory.\n3. Verify MCP Server in Cursor settings.\n\nPhase 2: Bootstrap Context\n- Open relevant docs and project.\n- Allow Pieces to ingest \"Workstream Activity\".\n\nPhase 3: Retrieval Loop\n- Test with `ask_pieces_ltm` to fetch context."
+      },
+      {
+        "title": "Infrastructure Consolidation Strategy",
+        "type": "concept",
+        "tags": [
+          "terraform",
+          "infrastructure",
+          "refactoring",
+          "ssot"
+        ],
+        "content": "Goal: Establish fitfile-central-services as the Single Source of Truth (SSOT)... moving from Explicit Configuration to Derived Configuration.\n\nRefactoring Strategy:\nPhase 1: Context Injection (The \"Context Engine\").\nPhase 2: Smarter Modules (The \"Consumer\").\nPhase 3: Intelligent Infrastructure (Private Infra)."
+      },
+      {
+        "title": "Azure Gold Master Extraction Scripts",
+        "type": "task",
+        "tags": [
+          "azure",
+          "bash",
+          "scripting",
+          "gold-master"
+        ],
+        "content": "Scripts to extract live Azure configuration to serve as a \"Gold Master\" reference.\n\n- `extract_gold_master.sh`: Initial extraction of VNet, AKS, and Tags.\n- `extract_gold_master_comprehensive.sh`: Added NSGs, Bastion, Jumpbox, and Backup resources.\n- `extract_logical_topology_v2.sh`: Final robust script to abstract IDs into a Logical Topology Blueprint (sanitizing IDs, calculating logic)."
+      },
+      {
+        "title": "Terraform Context Engine (locals.tf)",
+        "type": "task",
+        "tags": [
+          "terraform",
+          "hcl",
+          "refactoring"
+        ],
+        "content": "The \"Context Engine\" (locals.tf)\n\nCode to replace hardcoded values with derived logic based on the Blueprint.\n- Defines `subnet_config` with offsets (e.g., system = index 1).\n- Calculates CIDRs using `cidrsubnet`.\n- Calculates Ingress IP using `cidrhost` offset logic."
+      },
+      {
+        "title": "Email Signature Artifact",
+        "type": "noise",
+        "tags": [],
+        "content": "Google Account\nLeon Ormes\nleonormes @gmail.com"
+      }
+    ]
+  },
+  "Cluster_2": {
+    "name": "Cluster_2 (9 items) - Example: OHDSI Atlas & WebAPI Domain Analysis - Executive Summary",
+    "items": [
+      {
+        "title": "OHDSI Atlas & WebAPI Domain Analysis - Executive Summary",
+        "type": "concept",
+        "tags": [
+          "ohdsi",
+          "atlas",
+          "webapi",
+          "domain-driven-design",
+          "cohort-definition"
+        ],
+        "content": "### 1. Executive Summary\n\nThis document provides a Domain-Driven Design (DDD) analysis of the OHDSI ecosystem, specifically focusing on the relationship between **Atlas** (Frontend/Bounded Context Consumer) and **WebAPI** (Backend/Domain Layer).\n\nThe system is architected around the core concept of **Cohort Definitions**\u2014computable phenotypes\u2014which serve as the Foundational Aggregate for all downstream analytics (Characterization, Estimation, Prediction)."
+      },
+      {
+        "title": "Ubiquitous Language - Core Entities",
+        "type": "concept",
+        "tags": [
+          "ohdsi",
+          "ubiquitous-language",
+          "entities",
+          "cohort-definition",
+          "source",
+          "concept-set"
+        ],
+        "content": "### 2. Ubiquitous Language\n\nThe following terms constitute the **Ubiquitous Language** shared between the Code (Entities), the UI (Atlas), and the Domain Experts (Researchers).\n\n#### Core Entities\n\n| Term | Definition | Key Code Artifacts |\n|:--- |:--- |:--- |\n| **Cohort Definition** | The specification of criteria (rules) that define a group of persons for a specific duration. This is the **Aggregate Root**. | `CohortDefinition.java` (WebAPI)<br>`CohortDefinition.js` (Atlas) |\n| **Cohort** | The _instantiated_ result of applied criteria. A list of subjects with start/end dates. | `Cohort` (SQL Table)<br>`CohortGenerationInfo` |\n| **Source** | A specific database instance conforming to the OMOP Common Data Model (CDM) against which definitions are executed. | `Source` entity<br>`source_id` |\n| **Concept Set** | A collection of standard terminological concepts (SNOMED, RxNorm, etc.) used as building blocks for criteria. | `ConceptSet.js`<br>`CommonConceptSetEntity` |\n| **Generation** | The asynchronous _process_ of executing a Definition against a Source to materialize a Cohort. | `Job` (Batched execution)<br>`GenerationStatus` |\n| **Expression** | The JSON-serialized representation of the Cohort rules. This acts as the \"Code as Data\" for the phenotype. | `expression` (Field)<br>`CohortExpression` |"
+      },
+      {
+        "title": "Ubiquitous Language - Analytic Contexts",
+        "type": "concept",
+        "tags": [
+          "ohdsi",
+          "ubiquitous-language",
+          "analytics",
+          "characterization",
+          "prediction",
+          "estimation"
+        ],
+        "content": "#### Analytic Contexts\n\n| Term | Definition |\n|:--- |:--- |\n| **Characterization** | Descriptive statistics (demographics, conditions, drugs) describing a Cohort. |\n| **Pathway** | Analysis of the temporal sequence of events (e.g., lines of therapy) within a Cohort. |\n| **Estimation** | _Population Level Estimation_. Comparative effectiveness research (Cohort Method, Self-Controlled Case Series). |\n| **Prediction** | _Patient Level Prediction_. Machine learning models to predict outcomes within a Cohort. |\n| **Incidence Rate** | Analysis of the rate at which an outcome occurs within a target population. |"
+      },
+      {
+        "title": "Bounded Context - Cohort Definition (Core Domain)",
+        "type": "concept",
+        "tags": [
+          "ddd",
+          "bounded-context",
+          "cohort-definition",
+          "core-domain"
+        ],
+        "content": "#### 3.1. Cohort Definition Context (Core Domain)\n\nThis is the heart of the system.\n\n- **Aggregate Root:** `CohortDefinition`\n- **Entities:** `CohortDefinitionDetails` (holds the Expression), `CohortGenerationInfo` (State).\n- **Value Objects:** `Expression` (The logic), `ConceptSet`.\n- **Invariants:** A Definition must have a valid Expression. A Name must be unique."
+      },
+      {
+        "title": "Bounded Context - Vocabulary (Supporting Domain)",
+        "type": "concept",
+        "tags": [
+          "ddd",
+          "bounded-context",
+          "vocabulary",
+          "supporting-domain"
+        ],
+        "content": "#### 3.2. Vocabulary Context (Supporting Domain)\n\nHandles the complex medical terminology.\n\n- **Entities:** `Concept`, `Vocabulary`, `Domain`.\n- **Role:** Provides the \"Language\" (`ConceptIds`) used inside the `Expression`."
+      },
+      {
+        "title": "Bounded Context - Analytic Subdomains",
+        "type": "concept",
+        "tags": [
+          "ddd",
+          "bounded-context",
+          "analytics"
+        ],
+        "content": "#### 3.4. Analytic Subdomains\n\nEach of these consumes `Cohort Definitions` to produce specific scientific outputs.\n\n- **Characterization Context**\n- **Estimation Context**\n- **Prediction Context**"
+      },
+      {
+        "title": "System Architecture - Atlas vs. WebAPI",
+        "type": "concept",
+        "tags": [
+          "architecture",
+          "atlas",
+          "webapi",
+          "rest-api"
+        ],
+        "content": "### 4. Architecture: Atlas vs. WebAPI\n\n- **WebAPI (The Domain Layer):** Enforces the invariants. Encapsulates the OHDSI standard libraries (Circe for cohorts, SqlRender for translation). It exposes the Domain Model via a RESTful API.\n- **Atlas (The Presentation Layer):** A \"Smart Client\" that speaks the Ubiquitous Language. It constructs the `Expression` object (via a UI builder) and sends it to the generic `CohortDefinition` aggregate in WebAPI."
+      },
+      {
+        "title": "Domain Model Diagram (D2)",
+        "type": "concept",
+        "tags": [
+          "diagram",
+          "d2",
+          "domain-model",
+          "visualization"
+        ],
+        "content": "### 5. Domain Model Diagram\n\nd2\n# Core Aggregate\nCohortDefinition: {\n  \"+Integer id\"\n  \"+String name\"\n  \"+String description\"\n  \"+ExpressionType type\"\n  \"+generate(Source)\"\n}\n\nCohortDefinitionDetails: {\n  \"+String rules_json\"\n  \"+getExpression()\"\n}\n\nCohortGenerationInfo: {\n  \"+Integer source_id\"\n  \"+GenerationStatus status\"\n  \"+Date startTime\"\n  \"+Long personCount\"\n}\n\nSource: {\n  \"+String sourceKey\"\n  \"+String sourceName\"\n  \"+String cdmJdbcUrl\"\n}\n\n# Relationships\nCohortDefinition -- CohortDefinitionDetails: contains\nCohortDefinition -- CohortGenerationInfo: tracks status for\nCohortGenerationInfo -> Source: executes on\n\n# Analytic Consumers\nCohortCharacterization: {\n  \"+String name\"\n  \"+List<CohortDefinition> cohorts\"\n}\n\nPathwayAnalysis: {\n  \"+String name\"\n  \"+List<CohortDefinition> targetCohorts\"\n  \"+List<CohortDefinition> eventCohorts\"\n}\n\nCohortCharacterization -> CohortDefinition: analyzes\nPathwayAnalysis -> CohortDefinition: uses\n"
+      },
+      {
+        "title": "Key Insight - The Expression/Specification Pattern",
+        "type": "concept",
+        "tags": [
+          "design-pattern",
+          "specification-pattern",
+          "expression",
+          "dynamic-logic"
+        ],
+        "content": "#### Key Insight: The \"Expression\" Pattern\n\nThe system relies heavily on the **Specification Pattern**. The `CohortDefinition` doesn't contain hardcoded logic; it contains a serialized `Expression` (the Specification) which is interpreted by the engine (Circe/SqlRender) to generate SQL. This allows the Domain Logic to be dynamic and user-defined."
+      }
+    ]
+  },
+  "Cluster_3": {
+    "name": "Cluster_3 (2 items) - Example: Target Resource Inventory (State List)",
+    "items": [
+      {
+        "title": "Target Resource Inventory (State List)",
+        "type": "log",
+        "tags": [
+          "terraform",
+          "state",
+          "audit"
+        ],
+        "content": "Terraform State List from production environment to be added to `CONTEXT.md`.\n\nIncludes:\n- Root Level: `azurerm_subnet_nat_gateway_association`, `azurerm_subnet.bastion`.\n- Module `aks_backup`: Vaults, Policies, Role Assignments.\n- Module `private-infrastructure`: AKS Cluster, Jumpbox, NSGs."
+      },
+      {
+        "title": "Final Implementation Plan (Index 5)",
+        "type": "task",
+        "tags": [
+          "terraform",
+          "plan",
+          "implementation"
+        ],
+        "content": "Refined Constraints for Implementation:\n1. **Bastion Split:** Define `resource \"azurerm_subnet\" \"bastion\"` at the Root Level (main.tf), not inside the module loop.\n2. **Module Interface:** Assume `private-infrastructure` does not create the Bastion subnet.\n3. **NAT Wiring:** Create `azurerm_subnet_nat_gateway_association` resources at the root level referencing module outputs."
+      }
+    ]
+  }
+}

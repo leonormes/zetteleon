@@ -66,7 +66,7 @@ Since you cannot commit secrets to Git:
 | Pattern | Mechanism | Pros | Cons |
 |:--- |:--- |:--- |:--- |
 | **Sealed Secrets** | Asymmetric Encryption. Commit encrypted CRD (`SealedSecret`) to Git. Controller decrypts. | Simple, Git-native. | Key rotation is hard. |
-| **External Secrets** | Controller polls external Vault (AWS/HashiCorp) and syncs to K8s Secret. | Centralized, secure. | High complexity. |
+| **External Secrets** | Controller polls external store (AWS KMS/Azure KV/Vault) and syncs to K8s Secret. | Centralized, secure. | High complexity. |
 | **Vault Secrets Operator (VSO)** | **FITFILE Standard.** Connects directly to HashiCorp Vault. | Enterprise-grade, Dynamic Secrets. | Heavy dependencies. |
 
 _See [[SoT - FITFILE Secret Management Architecture]] for our specific VSO implementation._

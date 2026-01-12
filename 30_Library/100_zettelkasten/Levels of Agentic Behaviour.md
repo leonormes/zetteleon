@@ -5,7 +5,7 @@ created: 2025-10-10T08:33:55Z
 epistemic: "null"
 id: "20251008_Levels_of_Agentic_Behaviour"
 last_reviewed: "null"
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-09T22:17:22+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -19,7 +19,7 @@ updated:
 version: "null"
 ---
 
-The capabilities of [[AI Agentic Workflows]] can be classified into different levels of sophistication and autonomy:
+The capabilities of [[SoT - AI Agentic Workflows]] can be classified into different levels of sophistication and autonomy:
 
 - **L0: No Explicit Reasoning**: Logic is handled entirely at the prompt level. This is characteristic of simple, single-shot LLM calls.
 - **L1: Basic Tool Use**: The agent can make simple decisions about which tools to use. Most current production systems operate at this level.
@@ -29,4 +29,4 @@ The capabilities of [[AI Agentic Workflows]] can be classified into different le
 
 **Links:**
 
-- [[AI Agentic Workflows]]
+- [[SoT - AI Agentic Workflows]]

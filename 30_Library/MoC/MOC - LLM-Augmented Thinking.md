@@ -53,7 +53,7 @@ If the Model is the Engine, **Context** is the Fuel. The quality of the output i
 How do we actually _do_ the thinking?
 
 - **[[MOC - AI as Thought Partner]]**: The broader architectural view of Human-AI collaboration.
-- **[[AI Agentic Workflows]]**: Moving from simple chat to multi-step, goal-oriented agent loops.
+- **[[SoT - AI Agentic Workflows|AI Agentic Workflows]]**: Moving from simple chat to multi-step, goal-oriented agent loops.
 - **[[Test Driven Development for AI Agents]]**: Ensuring reliability in our thinking systems.
 - **[[Retrieval Augmented Generation RAG]]**: Augmenting the "Working Memory" of the AI with our specific knowledge base.
 
@@ -86,3 +86,5 @@ Understanding the underlying mechanics and constraints of the LLM medium.
 - **[[SoT - The Inspiration Economy (Agentic Frameworks)]]**
 - **[[SoT - The Telos Method]]**
 - **[[Architecture First Approach to AI Development]]**
+
+- [[SoT - The RPI Workflow (Context Engineering)]]

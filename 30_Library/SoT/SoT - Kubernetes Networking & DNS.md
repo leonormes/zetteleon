@@ -100,3 +100,17 @@ In private clusters where worker nodes lack public IPs, ingress requires explici
 2. **Service Discovery:** Can you resolve the name? (`nslookup my-service`).
 3. **Connectivity:** Is `kube-proxy` running? Are endpoints populated? (`kubectl get endpoints`).
 4. **Policy:** Is a Network Policy silently dropping packets?
+
+---
+
+## 7. Cloud Provider Constraints & Conflicts
+
+### Case Study: AWS Existing DNS Endpoints
+
+In brownfield AWS environments, existing DNS entries can block Terraform deployments.
+
+- **Scenario:** Terraform fails to create DNS records because entries like `ecr.eu-west-2.api.aws`, `datasync...`, or `vpce...` already exist.
+- **Root Cause:** These are often **VPC Interface Endpoints** managed by AWS or another account. They have specific `HostedZoneId` and `Owner` fields (e.g., `vpce.amazonaws.com`).
+- **Resolution:**
+    - **Discovery:** Use `ec2:DescribeVpcEndpoints` to identify the owners.
+    - **Planning:** Define ownership of DNS zones **before** deployment. If a VPC Endpoint exists, your automation must accept it as an external dependency rather than trying to recreate it.

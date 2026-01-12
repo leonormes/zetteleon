@@ -44,6 +44,7 @@ This Map of Content (MOC) organizes notes specifically related to networking ser
 
 ## EKS Networking Components
 
+- [[SoT - AWS EKS Networking & Capacity Planning]] rel:: defines IP architecture
 - [[AWS ENIs Connect EKS Worker Nodes to VPC Networks]] rel:: implements
 - [[Sequence - Container to Internet Packet Flow in EKS]] rel:: demonstrates
 - [[SoT - Kubernetes Networking & DNS#5. Private Cluster Ingress Patterns (EKS Specifics)|Private EKS Ingress Patterns]]

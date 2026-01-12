@@ -4,22 +4,22 @@ confidence: ""
 created: 2025-12-29T20:02:17+00:00
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-11T12:52:45+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: "stable"
 tags: ["parkinsons-law", "scheduling", "time-management", "topic/productivity"]
-title: SoT - Temporal Management (Blocking and Boxing)
+title: 1. Mechanics & Definitions
 type: "SoT"
 ---
 
 **Temporal Management** in ProdOS is the discipline of treating time as a physical resource. It relies on two synergistic protocols that distinguish between _structuring your schedule_ and _structuring your effort_.
 
-## 1. Mechanics & Definitions
+# 1. Mechanics & Definitions
 
-### Time Blocking (The Architect)
+## Time Blocking (The Architect)
 
 > **"A technique for dedicating specific segments of time to particular tasks."**
 
@@ -27,7 +27,7 @@ type: "SoT"
 - **Scope:** Macro (Day/Week).
 - **Psychology:** Creates **Urgency** and combats _Procrastination_ (Inaction) by assigning a "When".
 
-### Time Boxing (The Builder)
+## Time Boxing (The Builder)
 
 > **"A goal-oriented strategy where a fixed period is allocated to a specific task."**
 
@@ -37,7 +37,7 @@ type: "SoT"
 
 ---
 
-## 2. The Critical Distinction
+# 2. The Critical Distinction
 
 | Feature | Time Blocking | Time Boxing |
 |:--- |:--- |:--- |
@@ -49,7 +49,7 @@ type: "SoT"
 
 ---
 
-## 3. The Protocol: Nesting (The Synergy)
+# 3. The Protocol: Nesting (The Synergy)
 
 **"Time Boxing is best used when Nested within Larger Time Blocks."**
 
@@ -62,11 +62,11 @@ This leverages the strengths of both: **Blocking** ensures the work _happens_, w
 
 ---
 
-## 4. The Unschedule Protocol (Temporal Integrity)
+# 4. The Unschedule Protocol (Temporal Integrity)
 
 Traditional "Hard Scheduling" (planning every minute) often leads to the "Planning Fallacy" and subsequent shame spirals when the plan fails. ProdOS adopts Neil Fiore's **Unschedule**.
 
-### The Core Inversion
+## The Core Inversion
 
 Instead of planning work _before_ it happens, you record it _after_ it happens.
 
@@ -77,19 +77,19 @@ Instead of planning work _before_ it happens, you record it _after_ it happens.
 3. **The Reward Signal:** Seeing the calendar fill up with "Done Blocks" provides an immediate dopamine reward and a realistic map of your actual velocity.
 4. **Capacity Awareness:** This eliminates the shame of "unmet plans" because you are not breaking promises to yourself; you are simply recording reality.
 
-### The "Guilt-Free Play" Rule
+## The "Guilt-Free Play" Rule
 
 You must proactively schedule guilt-free play. Knowing you have a guaranteed "Stop Time" and "Fun Time" lowers the brain's resistance to starting work, as it knows the suffering is bounded.
 
 ---
 
-## 5. The ADHD Adaptation (Visual & Flexible)
+# 5. The ADHD Adaptation (Visual & Flexible)
 
 _Source: [How to Plan Your Day With ADHD](https://youtu.be/-bUAku0FySI)_
 
 Standard time blocking can fail for the neurodivergent brain because rigid scheduling creates "fragility"—one deviation leads to system abandonment. This alternative framework prioritizes **flexibility**, **dopamine management**, and **radical simplicity**.
 
-### A. The "Effortless Engagement" Protocol
+## A. The "Effortless Engagement" Protocol
 
 To prevent system abandonment, the friction of _maintaining_ the system must be lower than the friction of _doing the work_.
 
@@ -98,17 +98,17 @@ To prevent system abandonment, the friction of _maintaining_ the system must be 
 - **Low Activation Energy:** The system must be usable in a "low dopamine" state. If it requires high energy just to _start_ planning, it will fail.
 - **Capture-Focused:** The primary function is to catch fleeting thoughts instantly, reducing working memory load.
 
-### B. The Interface: Analogue "Ownership"
+## B. The Interface: Analogue "Ownership"
 
 - **Protocol:** Use pen and paper for daily execution. Keep digital tools for long-term storage.
 - **Mechanism:** Handwriting increases "concept density" and psychological commitment (ownership), physically decoupling planning from digital distraction.
 
-### C. The Initialisation: Dynamic Daily Design
+## C. The Initialisation: Dynamic Daily Design
 
 - **Protocol:** Allocate 10–15 mins each morning to design the day _from scratch_.
 - **Mechanism:** Replaces "hope-based" productivity with intentional design, acknowledging that ADHD capacity fluctuates daily and cannot be predicted a week in advance.
 
-### D. Visual Taxonomy: The 4-Colour Logic
+## D. Visual Taxonomy: The 4-Colour Logic
 
 Replace urgency-based lists with a category-based visual hierarchy to maintain interest.
 
@@ -117,12 +117,12 @@ Replace urgency-based lists with a category-based visual hierarchy to maintain i
 - **Green (Enrichment):** Healthy behaviours (Cooking, Gym). "Nice-to-have" self-care markers.
 - **Purple (Dopamine/Joy):** **Mandatory.** At least one non-hurtful item per day purely to sustain the brain's interest in the system.
 
-### E. Temporal Allocation: The "Train Ticket" Filter
+## E. Temporal Allocation: The "Train Ticket" Filter
 
 - **Protocol:** Abandon specific timestamps (e.g., "14:00") for broad buckets: **Morning, Afternoon, Evening**.
 - **Mechanism:** Functions like a flexible ticket—valid for a "phase" of the day, allowing tasks to float dynamically based on immediate energy levels.
 
-### F. Tactical Boxing for ADHD (Micro-Management)
+## F. Tactical Boxing for ADHD (Micro-Management)
 
 While "Blocking" manages the day, "Boxing" manages the moment. For the ADHD brain, the box must be tangible.
 
@@ -132,7 +132,7 @@ While "Blocking" manages the day, "Boxing" manages the moment. For the ADHD brai
 
 ---
 
-## 6. Common Pitfalls & Solutions
+# 6. Common Pitfalls & Solutions
 
 | Pitfall | Solution |
 |:--- |:--- |
@@ -142,7 +142,7 @@ While "Blocking" manages the day, "Boxing" manages the moment. For the ADHD brai
 
 ---
 
-## 7. Related Concepts
+# 7. Related Concepts
 
 - **[[The Pomodoro Technique Uses Short Timed Intervals to Maintain Focus]]**
 - **[[Implementation Intentions Turn Vague Plans Into Concrete Actions]]**

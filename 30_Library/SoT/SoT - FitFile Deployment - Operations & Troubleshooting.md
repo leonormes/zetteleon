@@ -37,6 +37,14 @@ Execute on Staging before Production promotion:
 - [ ] **Ingestion:** Create a File Upload datasource, validate, and assign to a project.
 - [ ] **Security:** Verify that removing a permission blocks access immediately.
 
+### 1.3 Secret Rotation Policy
+
+Per [[SoT - FITFILE Secret Management Architecture]], secrets automatically rotate based on the `refreshAfter` interval.
+
+- **Databases:** Every 1 hour (Triggers StatefulSet restart).
+- **Apps:** Every 15 minutes (Triggers Deployment restart).
+- **Manual Rotation:** If a secret is compromised, update it in Vault UI, then delete the `Secret` in K8s to force an immediate VSO sync.
+
 ---
 
 ## 2. Common Troubleshooting
@@ -46,6 +54,9 @@ Execute on Staging before Production promotion:
 - **ArgoCD Sync Failed:**
     - _Cause:_ VaultAuth failure or missing secret keys in Phase 1.
     - _Action:_ Check `kubectl describe vaultstaticsecret` in the app namespace.
+- **Stale Secrets (No Update):**
+    - _Cause:_ Missing `refreshAfter` field or broken `rolloutRestartTargets`.
+    - _Action:_ Verify VSO resource status: `kubectl get vss`. Ensure the `VSO` label is present on the target Deployment.
 - **Image Pull Error:**
     - _Cause:_ Expired registry credentials or incorrect `imagePullSecrets` name.
     - _Action:_ Verify the `fitfile-image-pull-secret` in the target namespace.

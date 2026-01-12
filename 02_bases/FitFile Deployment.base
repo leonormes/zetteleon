@@ -20,10 +20,10 @@ views:
       - status
       - file.size
     sort:
-      - property: Reviewed
-        direction: ASC
       - property: file.size
         direction: DESC
+      - property: Reviewed
+        direction: ASC
       - property: file.name
         direction: ASC
       - property: file.mtime

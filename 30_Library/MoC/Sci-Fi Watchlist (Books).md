@@ -86,6 +86,9 @@ updated:
 - [ ] Old Man's War–John Scalzi
 - [ ] Excession–Iain M. Banks
 - [ ] 1984–George Orwell
+- [ ] Children of Dune–Frank Herbert _[Modeling consequences of engineered human evolution]_
+- [ ] Death's End–Cixin Liu _[Dark Forest theory and weaponised physics]_
+- [ ] The Collapsing Empire–John Scalzi _[Sociology of infrastructure collapse]_
 
 ---
 

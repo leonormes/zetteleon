@@ -10,7 +10,10 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: active
-tags: [containers, k8s, learning, prodos]
+tags:
+  - containers
+  - k8s
+  - learning
 title: 2026-01-07-1808-HEAD - Learning Kubernetes
 type: ""
 ---

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-11-13T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-15"
-modified: 2026-01-08T10:49:44+00:00
+modified: 2026-01-11T21:55:11+00:00
 purpose: "Defines the core mechanism for overcoming ADHD executive dysfunction and initiating tasks within ProdOS."
 review_interval: "3 months"
 see_also: ["[[Activation Energy is the Primary Barrier to ADHD Task Initiation]]", "[[ADHD and Productivity]]", "[[Logic Does Not Produce Dopamine]]", "[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS (System Architecture)]]", "[[The Motivation Bridge - An ADHD Metaphor]]", "[[Vague Task to Actionable Plan Checklist]]"]
@@ -21,12 +21,12 @@ updated:
 
 Standard productivity advice fails the ADHD brain because it assumes that _importance_ generates _motivation_. This is neurologically incorrect for neurodivergent minds.
 
-| Failure Mode | The Problem | The ProdOS Solution |
-|:--- |:--- |:--- |
-| **The "Just Do It" Fallacy** | Assumes executive function is a choice. Fails to account for "Wall of Awful" (emotional resistance). | **Shrink the Start:** Reduce activation energy to near-zero (e.g., "Put on one shoe"). |
-| **The Logic Trap** | Logic ("I should do this") acts as a steering wheel, but provides no fuel (Dopamine). You cannot steer a parked car. | **The Heat Protocol:** Manufacture artificial dopamine via Mystery, Urgency, or Spite. |
-| **Vague Goals** | "Work on Project X" creates high cognitive load, triggering avoidance/paralysis. | **Atomic Action:** Convert vague projects into physical, binary actions (The Vague-to-Action Checklist). |
-| **The Interest Deficit** | Boring tasks provide zero stimulation, causing the brain to seek distraction (dopamine seeking). | **The PINCH Model:** Inject Play, Interest, Novelty, Competition, or Hurry into the task. |
+| Failure Mode                 | The Problem                                                                                                          | The ProdOS Solution                                                                                      |
+| :--------------------------- | :------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
+| **The "Just Do It" Fallacy** | Assumes executive function is a choice. Fails to account for "Wall of Awful" (emotional resistance).                 | **Shrink the Start:** Reduce activation energy to near-zero (e.g., "Put on one shoe").                   |
+| **The Logic Trap**           | Logic ("I should do this") acts as a steering wheel, but provides no fuel (Dopamine). You cannot steer a parked car. | **The Heat Protocol:** Manufacture artificial dopamine via Mystery, Urgency, or Spite.                   |
+| **Vague Goals**              | "Work on Project X" creates high cognitive load, triggering avoidance/paralysis.                                     | **Atomic Action:** Convert vague projects into physical, binary actions (The Vague-to-Action Checklist). |
+| **The Interest Deficit**     | Boring tasks provide zero stimulation, causing the brain to seek distraction (dopamine seeking).                     | **The PINCH Model:** Inject Play, Interest, Novelty, Competition, or Hurry into the task.                |
 
 ---
 

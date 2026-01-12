@@ -37,3 +37,21 @@ It means accepting that **Abstraction is not Free**.
 - **Design for the Grain:** Write code that flows with the CPU pipeline (Branch Prediction).
 - **Respect the Cache:** Pack data tightly.
 - **Avoid the Supermarket:** Minimize Main Memory access.
+
+## 4. The Scale of Latency (Mental Model)
+
+To understand *why* we avoid main memory or disk, we scale CPU cycles to human time.
+
+**Baseline:** Accessing L1 Cache = **1 Second**.
+
+| Memory Level | Raw Latency | Scaled Time (Human) | Conceptual Distance |
+| :--- | :--- | :--- | :--- |
+| **L1 Cache** | ~0.5 ns | **1 second** | Thought in your head. |
+| **L2 Cache** | ~3 ns | **~5 seconds** | Picking up a pen. |
+| **L3 Cache** | ~10 ns | **~30 seconds** | Walking to a bookshelf. |
+| **RAM (DDR)** | ~100 ns | **~3 minutes** | Walking to the kitchen. |
+| **NVMe SSD** | ~10 µs | **~10 hours** | Cross-country flight. |
+| **HDD (Disk)** | ~10 ms | **~4 months** | Shipping a container by sea. |
+| **Network (WAN)**| ~150 ms | **~5 years** | A manned mission to Mars. |
+
+> **Insight:** When a CPU hits a cache miss and goes to RAM, it is effectively "idling in the kitchen" for 3 minutes. If it goes to Disk, the entire session is over.

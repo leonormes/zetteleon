@@ -70,3 +70,6 @@ In today’s rapidly evolving development environment, organizations need tools 
 By adopting GitOps, teams can accelerate their development and delivery processes, reduce errors and keep their applications running in the desired state, regardless of the underlying infrastructure. This approach allows organizations to deliver high-quality applications faster, while minimizing complexity and maximizing flexibility.
 
 By treating infrastructure and applications as code and automating their deployment, GitOps offers a streamlined approach to managing Kubernetes environments, enabling teams to focus on what truly matters: delivering value to their customers. Embracing GitOps represents a strategic investment in an organization’s ability to thrive in today’s competitive landscape.
+
+
+See also: [[SoT - Accelerate & DORA]]

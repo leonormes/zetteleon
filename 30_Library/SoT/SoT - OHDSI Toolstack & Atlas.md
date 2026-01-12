@@ -23,49 +23,92 @@ updated:
 
 > **The Standard Architecture:** A "Write-to-Read" pattern where analysis definitions (JSON) are compiled into SQL that **materializes results** into scratchpad tables.
 
-### 1. The Core Components
+### 1. The Reference Architecture
 
-#### A. ATLAS (The Frontend)
+The OHDSI stack is structured into distinct layers: **Standards**, **ETL**, **Web Platform**, and **Analytics (HADES)**.
 
-- **Role:** The GUI for designing cohorts and analyses.
-- **Data Model:** Reactive JavaScript objects (`CohortExpression`).
-- **Output:** Serializes logic into **Circe-compliant JSON**.
+#### A. Data Standards Layer
+*The schema and semantic framework.*
 
-#### B. WebAPI (The Service Layer)
+| Repository | Description |
+| :--- | :--- |
+| **[CommonDataModel](https://github.com/OHDSI/CommonDataModel)** | **The Kernel.** DDLs for the OMOP CDM (Oracle, SQL Server, Postgres, etc.). |
+| **[Vocabulary-v5.0](https://github.com/OHDSI/Vocabulary-v5.0)** | Build process for Standardized Vocabularies. (Users typically use **Athena**). |
 
-- **Role:** The REST API that manages state and orchestration.
-- **Function:** Receives JSON from Atlas, calls the library layer to generate SQL, and executes it against the CDM.
-- **Dependency:** Requires a writeable `OHDSI` schema to store definitions and a `RESULTS` schema to store cohort tables.
+#### B. ETL & Data Engineering Layer
+*Tools to profile, map, and validate source data.*
 
-#### C. The Library Layer (Java/R)
+| Repository | Description |
+| :--- | :--- |
+| **[WhiteRabbit](https://github.com/OHDSI/WhiteRabbit)** | **Profiler.** Scans source DBs to report on structures and value frequencies. |
+| **[RabbitInAHat](https://github.com/OHDSI/WhiteRabbit)** | **Design Tool.** Graphical UI for drawing mappings from Source to CDM. |
+| **[Usagi](https://github.com/OHDSI/Usagi)** | **Semantic Mapper.** Maps source codes to OMOP concepts using text similarity. |
+| **[DataQualityDashboard](https://github.com/OHDSI/DataQualityDashboard)** | **Validator.** R package running unit tests (conformance, plausibility) against the CDM. |
+| **[Achilles](https://github.com/OHDSI/Achilles)** | **Characteriser.** Computes descriptive statistics (counts, treemaps) for Atlas/Ares. |
 
-1. **Circe:** The Compiler.
+#### C. The Web Platform (Application Layer)
+*User-facing tools for cohort design and analysis.*
+
+| Repository | Description |
+| :--- | :--- |
+| **[Atlas](https://github.com/OHDSI/Atlas)** | **The Frontend.** SPA (Knockout.js) for designing cohorts and analyses. |
+| **[WebAPI](https://github.com/OHDSI/WebAPI)** | **The Backend.** Java (Spring Boot) REST service. Manages state and SQL translation. |
+| **[Ares](https://github.com/OHDSI/Ares)** | **Data Catalog.** Static site generator for network data characterization. |
+
+#### D. HADES (Analytics Engine)
+*Health Analytics Data-to-Evidence Suite. The "Standard Library" of R packages.*
+
+- **Drivers:** `DatabaseConnector` (JDBC wrapper), `SqlRender` (Cross-dialect translation).
+- **Core Analytics:**
+    - `CohortMethod`: Propensity score matching/outcome estimation.
+    - `PatientLevelPrediction`: ML pipeline (Lasso, Gradient Boosting).
+    - `CirceR` / `Capr`: Programmatic cohort definition.
+
+### 2. Component Deep Dive
+
+#### A. The Repository Status (Circe)
+
+There is a critical distinction between the UI and the Engine:
+
+| Repository | Status | Role |
+| :--- | :--- | :--- |
+| **OHDSI/Circe** | 🔴 **Archived** | Legacy standalone UI. Replaced by **ATLAS**. |
+| **OHDSI/circe-be** | 🟢 **Active** | The Java library ("Backend") that compiles cohort logic into SQL. |
+
+#### B. WebAPI Documentation
+
+WebAPI uses **Miredot** to generate static HTML documentation from Java source code.
+- **No OpenAPI:** There is **no machine-readable Swagger/OpenAPI definition** available.
+- **Reference:** The `ROhdsiWebApi` R package is often the most accurate "client definition" available.
+
+#### C. The Compiler Stack
+
+1. **Circe (`circe-be`):** The Compiler.
     - _Input:_ JSON Cohort Definition.
-    - _Output:_ Abstract OHDSI-SQL (Standard Dialect).
-    - _Logic:_ Template-based injection (`conceptSetQuery.sql`, `conditionOccurrence.sql`).
+    - _Output:_ Abstract OHDSI-SQL.
 2. **SqlRender:** The Transpiler.
     - _Input:_ OHDSI-SQL.
     - _Output:_ Dialect-specific SQL (Postgres, Oracle, Redshift).
     - _Mechanism:_ Token replacement (`@cdm_schema` -> `public`).
 
-### 2. The Execution Pattern ("Write-to-Read")
+### 3. The Execution Pattern ("Write-to-Read")
 
 Standard OHDSI tools assume a **Stateful Execution Model**.
 
-1. **Definition:** User clicks "Generate".
+1. **Definition:** User clicks "Generate" in Atlas.
 2. **Compilation:** Logic is converted to `INSERT INTO #cohort SELECT...`.
 3. **Materialization:** The database engine executes the query and writes the result (Subject ID, Date) to the `COHORT` table.
-4. **Analysis:** Downstream tools (HADES, R packages) query the `COHORT` table directly.
-
-**Constraint Implication:** This architecture **fails** in read-only environments. See [[SoT - OHDSI Read-Only Architecture]] for the solution.
-
-### 3. HADES (Analytics)
-
-**Health Analytics Data-to-Evidence Suite.** A library of R packages for advanced analytics.
-- **CohortMethod:** Population-level estimation.
-- **PatientLevelPrediction (PLP):** Machine learning.
-- **DataQualityDashboard:** Validation.
+4. **Analysis:** Downstream tools query the `COHORT` table directly.
 
 ### 4. Architectural Data Flow
 
-`User (Atlas) -> JSON -> WebAPI -> Circe (Compile) -> SqlRender (Transpile) -> JDBC -> DBMS`
+`User (Atlas) -> JSON -> WebAPI -> Circe-be (Compile) -> SqlRender (Transpile) -> JDBC -> DBMS`
+
+### 5. Resources
+
+**2024 Global Symposium Highlights**
+- [State of the Community](https://www.youtube.com/watch?v=Iz-jMxrgUCM)
+- [Value Proposition (LEGEND-T2DM)](https://www.youtube.com/watch?v=o19SSkEDKIg)
+- [Clinical Insights](https://www.youtube.com/watch?v=QLyFaEuIlPc)
+- [Plenary Panel](https://www.youtube.com/watch?v=N-663a-8898)
+- [Collaborating on Evidence at Scale](https://www.youtube.com/watch?v=LZ0WaUcRQLM)

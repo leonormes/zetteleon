@@ -4,32 +4,32 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "pattern"
 last_reviewed: "2025-12-31"
-modified: 2026-01-08T10:49:41+00:00
+modified: 2026-01-10T13:33:21+00:00
 purpose: "To define the standard solution for the 'Dangling Pointer' and 'Memory Reuse' problems in Data-Oriented systems."
 review_interval: "1 year"
 see_also: ["[[SoT - Data-Oriented Programming (DOP)]]", "[[SoT - Rust Language]]", "[[SoT - TypeScript]]"]
 source_of_truth: []
 status: "stable"
-tags: ["data_structures", "memory_safety", "performance", "rust", "typescript", 5, 99]
-title: SoT - Slot Map (Generational Arena)
+tags: ["data_structures", "memory_safety", "performance", "rust", "typescript"]
+title: 1. Definitive Statement
 type: "SoT"
 uid: 
 updated: 
 ---
 
-## 1. Definitive Statement
+# 1. Definitive Statement
 
 > [!definition] The Concept
 > A **Slot Map** (or Generational Arena) is a container that solves the "Dangling Pointer" problem without Garbage Collection.
 >
 > It issues **Stable IDs** (Keys) composed of an `Index` and a `Generation`. If the data at the `Index` is deleted and reused, the `Generation` increments, invalidating all old Keys held by other parts of the system.
 
-## 2. The Core Problems Solved
+# 2. The Core Problems Solved
 
-1. **Dangling Pointers:** In standard arrays, if you delete item #5 and move item #99 to slot #5 (swap-remove), any variable pointing to index 5 now points to the wrong object.
+1. **Dangling Pointers:** In standard arrays, if you delete item 5 and move item 99 to slot 5 (swap-remove), any variable pointing to index 5 now points to the wrong object.
 2. **Memory Reuse:** In systems like games or high-frequency trading, you cannot afford to allocate/deallocate memory constantly. You must reuse the "holes" left by deleted entities.
 
-## 3. The Algorithm: Index + Generation
+# 3. The Algorithm: Index + Generation
 
 We do not give out a raw `index`. We give out a "Key" (Ticket).
 
@@ -45,7 +45,7 @@ if (map.generations[key.index] !== key.generation) return null; // Stale Key
 
 ---
 
-## 4. Implementation: TypeScript
+# 4. Implementation: TypeScript
 
 In TypeScript/JavaScript, we maintain an explicit "Free List" stack to track empty slots.
 
@@ -115,7 +115,7 @@ class SlotMap<T> {
 
 ---
 
-## 5. Implementation: Rust
+# 5. Implementation: Rust
 
 In Rust, this pattern is critical because it satisfies the Borrow Checker. The `SlotMap` owns the data; the rest of the program just holds `Key` structs (integers). We use an **Implicit Free List** woven into the `Slot` enum to save memory.
 
@@ -234,11 +234,11 @@ impl<T> SlotMap<T> {
 }
 ```
 
-## 6. Advanced: Iteration
+# 6. Advanced: Iteration
 
 Iterating over a Slot Map requires skipping the "holes" (Free slots).
 
-### TypeScript (Generator)
+## TypeScript (Generator)
 
 ```typescript
 public *iter(): IterableIterator<{ id: EntityId; value: T }> {
@@ -251,7 +251,7 @@ public *iter(): IterableIterator<{ id: EntityId; value: T }> {
 }
 ```
 
-### Rust (Iterator Trait)
+## Rust (Iterator Trait)
 
 Custom iterators in Rust optimize this by removing the bounds check and inlining the `next()` call.
 

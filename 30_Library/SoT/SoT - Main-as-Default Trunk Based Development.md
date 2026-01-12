@@ -90,3 +90,6 @@ To switch your team to TBD:
 2. **Add a Toggle:** Introduce a simple config-based feature flag system.
 3. **Decouple:** Separate the concept of "Deploying code" from "Releasing features."
 4. **Refactor:** Don't wait for a rewrite. Apply "Strangler Fig" patterns to legacy code.
+
+
+See also: [[SoT - Accelerate & DORA]]

@@ -7,7 +7,7 @@ last_reviewed: 2025-12-26
 modified: 2026-01-08T15:03:28+00:00
 purpose: The central index for cultivating Data-Centric Software Engineering skills and methodology.
 review_interval: 6 months
-see_also: ["[[SoT - Data-Centric Software Engineering]]"]
+see_also: ["[[SoT - The Data-Centric Philosophy]]"]
 source_of_truth: true
 status: stable
 tags: [data-centric, programming, sdlc]
@@ -23,7 +23,7 @@ The philosophy follows a single, unbroken chain of reasoning, moving from the co
 
 | Level | Role | Note | Principle |
 |:--- |:--- |:--- |:--- |
-| **1. The Axiom** | **Worldview** | **[[SoT - Data-Centric Software Engineering]]** | **"Data Dominates Code."**<br>The physical reality of hardware (Cache, Memory) dictates that Structure is the primary source of truth. |
+| **1. The Axiom** | **Worldview** | **[[SoT - The Data-Centric Philosophy]]** | **"Data Dominates Code."**<br>The physical reality of hardware (Cache, Memory) dictates that Structure is the primary source of truth. |
 | **2. The Theory** | **Mathematics** | **[[MOC - Type Theory]]** | **"Applied Category Theory."**<br>Using rigorous mathematical proofs (Sum/Product Types) to model that Structure correctly. |
 | **3. The Practice** | **Methodology** | **[[SoT - Type-Driven Development (The Torvalds Loop)]]** | **"The Torvalds Loop."**<br>The strict 4-phase protocol (**Shape $\to$ Access $\to$ Invariants $\to$ Logic**) to implement the model. |
 
@@ -33,14 +33,14 @@ The philosophy follows a single, unbroken chain of reasoning, moving from the co
 
 A structured path to developing the "Data-First" mindset.
 
-_See **[[SoT - Data-Centric Software Engineering#2. The Structural Logic (10 Pillars)|The Core Curriculum]]** for detailed study paths._
+_See **[[SoT - The Data-Centric Philosophy#4. Fundamental Principles|The Core Curriculum]]** for detailed study paths._
 
 - **Deepen Understanding:** Moving beyond memorization to trade-off analysis (Time vs. Space complexity).
 - **Data Modelling:** Mapping reality to Entity-Relationship diagrams before writing code.
 - **Language-Agnostic Thinking:** Solving problems in pseudocode to decouple logic from implementation syntax.
 - **The Torvalds Loop:** A four-phase design protocol: Shape -> Access -> Invariants -> Logic.
 - **Development Philosophy:** [[SoT - Type-Driven Development (The Torvalds Loop)]].
-- **Good Taste:** [[SoT - Data-Centric Software Engineering#1.2 Case Study: The "Good Taste" of Linked Lists|The Indirect Pointer Pattern]].
+- **Good Taste:** [[SoT - The Data-Centric Philosophy#5. The Litmus Test: \"Good Taste\"|The Indirect Pointer Pattern]].
 
 ---
 
@@ -48,14 +48,14 @@ _See **[[SoT - Data-Centric Software Engineering#2. The Structural Logic (10 Pil
 
 Advanced mental models for high-leverage engineering.
 
-- **Strategic Modeling:** [[SoT - Data-Centric Software Engineering#11. Strategic Modeling (Domain-Driven Design)|Domain-Driven Design]]—_Bridging Business Intent and Data Schema._
-- **Reliability:** [[SoT - Data-Centric Software Engineering#8. The Architecture of Reliability (Joe Armstrong)|The Error Kernel & "Let It Crash"]].
-- **Simplicity:** [[SoT - Data-Centric Software Engineering#9. The Discipline of Simplicity (Rich Hickey)|Decomplecting & Simple vs. Easy]].
+- **Strategic Modeling:** [[SoT - The Data-Centric Philosophy|Domain-Driven Design]]—_Bridging Business Intent and Data Schema._
+- **Reliability:** [[SoT - The Data-Centric Philosophy|The Error Kernel & \"Let It Crash\"]].
+- **Simplicity:** [[SoT - The Data-Centric Philosophy|Decomplecting & Simple vs. Easy]].
 - **[[SoT - Simple Made Easy (Rich Hickey)]]**—_The definitive guide to unbraiding state and logic._
-- **Specification:** [[SoT - Data-Centric Software Engineering#10. Thinking Above the Code (Leslie Lamport)|Mathematical Modeling (TLA+)]].
-- **Design:** [[SoT - Data-Centric Software Engineering#11. Semantic Compression (Casey Muratori)|Semantic Compression over DRY]].
-- **Verification:** [[SoT - Data-Centric Software Engineering#12. Type System Rigor (Wlaschin / Rust)|Making Invalid States Unrepresentable]].
-- **API Design:** [[SoT - Data-Centric Software Engineering#13. Type-Driven API Design (Will Crichton / Rust)|The Type State Pattern & Extension Traits]].
+- **Specification:** [[SoT - The Data-Centric Philosophy|Mathematical Modeling (TLA+)]].
+- **Design:** [[SoT - The Data-Centric Philosophy|Semantic Compression over DRY]].
+- **Verification:** [[SoT - The Data-Centric Philosophy|Making Invalid States Unrepresentable]].
+- **API Design:** [[SoT - The Data-Centric Philosophy|The Type State Pattern & Extension Traits]].
 
 ---
 

@@ -60,3 +60,5 @@ How systems talk to each other without exposing their internal "Shape".
 
 - **[[Decoupling Ego from Outcomes to Improve Decisions]]** - The ability to kill your darlings (features/systems) for the greater good.
 - **[[SoT - Simple Made Easy (Rich Hickey)]]** - Architecture is about _decomplecting_ (untangling) concerns, not just making things easy to type.
+
+- [[SoT - Accelerate & DORA]]

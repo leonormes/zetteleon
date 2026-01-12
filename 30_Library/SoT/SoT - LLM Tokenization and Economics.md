@@ -1,20 +1,36 @@
 ---
-aliases: ["Encoding and Decoding", "LLM Economics", "LLM Tokens", "Tokenization"]
-confidence: "5/5"
+aliases:
+  - Encoding and Decoding
+  - LLM Economics
+  - LLM Tokens
+  - Tokenization
+confidence: 5/5
 created: 2025-12-26T15:00:00Z
-epistemic: "Technical/Mechanical"
-last_reviewed: "2025-12-26"
+epistemic: Technical/Mechanical
+last_reviewed: 2025-12-26
 modified: 2026-01-08T10:49:42+00:00
-purpose: "Defining the fundamental unit of LLM processing: the Token. Covers architectural trade-offs, encoding/decoding, and economic implications."
-review_interval: "6 months"
-see_also: ["[[MOC - LLM-Augmented Thinking]]", "[[SoT - ProdOS Cognitive Architecture (Obsidian + Gemini)]]"]
-source_of_truth: ["[[LLM Tokens The Core Concept]]"]
-status: "stable"
-tags: ["ai", "economics", "llm", "SoftwareEngineering/Architecture", "tokenization"]
+purpose: "Defining the fundamental unit of LLM processing: the Token. Covers
+  architectural trade-offs, encoding/decoding, and economic implications."
+review_interval: 6 months
+see_also:
+  - "[[MOC - LLM-Augmented Thinking]]"
+  - "[[SoT - ProdOS Cognitive Architecture (Obsidian + Gemini)]]"
+source_of_truth:
+  - "[[LLM Tokens The Core Concept]]"
+status: stable
+tags:
+  - ai
+  - economics
+  - llm
+  - SoftwareEngineering/Architecture
+  - tokenization
 title: SoT - LLM Tokenization and Economics
-type: "SoT"
-uid: 
-updated: 
+type: SoT
+uid: null
+updated: null
+"see_also:": |-
+  
+  - [[SoT - Word Embeddings and Vector Spaces]]
 ---
 
 ## 1. Definitive Statement

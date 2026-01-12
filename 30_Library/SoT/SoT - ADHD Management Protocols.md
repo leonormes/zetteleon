@@ -101,3 +101,29 @@ To prevent defaulting to "Junk Dopamine" (scrolling), select from a pre-compiled
 
 - **Pair Programming:** Provides instant feedback and shared cognition, bypassing RSD spirals.
 - **Reframing:** Code reviews are a critique of the _artifact_, not the _architect_.
+
+---
+
+### 7. Resilience & Tenacity Protocols
+
+#### 7.1 AMCC Training (The 15% Push)
+
+To strengthen the "Tenacity Muscle" and break the "Novice High" quitting cycle:
+
+- **The Protocol:** When you hit the "Wall of Boredom" or the impulse to stop arises, push for exactly **15% more** (e.g., read one more page, write 5 more lines of code).
+- **The Objective:** The goal is not the work itself, but the **"Rep" of defiance**. You are training the brain to ignore the signal to quit.
+
+#### 7.2 Boredom Intolerance Training
+
+Modern "Supernormal Stimuli" (social media) raise the stimulation baseline, making deep work feel agonizing.
+
+- **Stimulus Control:** Intentionally remove background noise (phones, non-functional music) to force the brain to shift from consumption to creation.
+- **Micro-Boredom:** Practice 5-minute "Intermezzos" (staring at a wall) to reset dopamine sensitivity.
+
+#### 7.3 External Scaffolding for Grit
+
+Internal willpower is a finite resource. Supplement it with external structures:
+
+- **Body Doubling:** (See Section 3.3).
+- **Time Visualization:** Use analog clocks/timers to make the "invisible" passage of time tangible.
+- **Gamification:** Attach artificial "Challenges" (INCUP) to boring maintenance tasks to trick the dopamine system into engaging.

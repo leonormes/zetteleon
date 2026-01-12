@@ -41,10 +41,28 @@ Identity concepts are currently scattered across boundaries (Hostname in DNS, Ce
 - **The Goal:** Represent the dependency `Hostname <-> Certificate <-> IP` as a single logical unit.
 - **The Enforcement:** Make broken configurations (e.g., a Certificate without a matching DNS record) **uncodable** at the schema level.
 
-## 3. FitFile Deployment Context
+## 3. Operational Reality: The Human & Systemic Factor
+
+### 3.1 The Inherent Complexity of Distributed Systems
+Cloud-native systems are rarely "up" or "down"; they exist in a state of partial degradation.
+- **Transient Faults:** Strategies must account for the fact that *nothing is ever completely right aboard a ship*. Retry logic and circuit breakers are mandatory, not optional.
+- **Misconfigurations:** The primary attack vector is not zero-day exploits but simple misconfigurations (e.g., running containers as root, exposing secrets in env vars).
+
+### 3.2 DevOps as an Organizational Challenge
+DevOps is not a role but a collaborative standard.
+- **Blurring Lines:** The distinction between "Dev" and "Ops" is artificial. *It is all just software now.*
+- **Shift-Left Security:** Vulnerabilities must be caught in the CI/CD pipeline (image scanning, static analysis) because fixing them in production is exponentially more expensive.
+
+### 3.3 Managed Services (AKS/EKS) vs. Self-Hosted
+- **The Trade-off:** Managed services abstract the control plane (Master nodes) but introduce a "Shared Responsibility Model." You still own the workload security.
+- **Decision:** Default to Managed Services to minimize operational toil, unless specific kernel-level control is required.
+
+## 4. FitFile Deployment Context
 
 - **Environment:** Managed K8s (Cloud), Private Networking.
 - **Release Strategy:** Unique tags per environment/customer (Multi-tenant).
 - **Shared Responsibility:** We must define clear boundaries where our automation ends and the platform begins.
 
 > **Next Action:** Build a "Data-First" object model of the deployment to expose these hidden dependencies.
+
+- [[SoT - Accelerate & DORA]]
