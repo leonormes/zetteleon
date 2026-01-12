@@ -4,24 +4,22 @@ confidence: ""
 created: 2025-12-29T17:04:56+00:00
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:39+00:00
+modified: 2026-01-12T09:21:11+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
 tags: []
-title: Helm-Chart-Image-Investigation-2025-12-29
+title: Overview
 type: ""
 ---
 
-## Helm Chart Image Version Investigation - 2025-12-29
-
-### Overview
+# Overview
 
 Investigation into the default image versions for Bitnami Helm charts used in the project and verification of the actual images running in the `ff-test-a` namespace. All images are successfully being served from `fitfileregistry.azurecr.io`.
 
-### MongoDB
+# MongoDB
 
 - **Helm Chart Version:** 16.5.45
 - **Default Chart Images:**
@@ -34,7 +32,7 @@ Investigation into the default image versions for Bitnami Helm charts used in th
   - `fitfileregistry.azurecr.io/bitnami/mongodb:8.0.13-debian-12-r0`
   - `fitfileregistry.azurecr.io/bitnami/mongodb-exporter:0.47.0-debian-12-r1`
 
-### MinIO
+# MinIO
 
 - **Helm Chart Version:** 14.7.8
 - **Default Chart Images:**
@@ -44,7 +42,7 @@ Investigation into the default image versions for Bitnami Helm charts used in th
 - **Cluster Verification (ff-test-a):**
   - `fitfileregistry.azurecr.io/bitnami/minio:2024.9.9-debian-12-r0`
 
-### PostgreSQL
+# PostgreSQL
 
 - **Helm Chart Version:** 15.5.15
 - **Default Chart Images:**
