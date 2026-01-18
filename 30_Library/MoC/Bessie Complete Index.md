@@ -4,31 +4,31 @@ confidence: ""
 created: 2025-09-06T18:18:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T15:03:26+00:00
+modified: 2026-01-16T22:08:19+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
 tags: [topic/family/bessie]
-title: Bessie Complete Index
+title: 🚀 Active Control Centre
 type: map
 uid:
 updated:
 version: "1"
 ---
 
-## 🚀 Active Control Centre
+# 🚀 Active Control Centre
 
 - [[SoT - Bessie GCSE Dashboard]]
 
-## Bessie Complete Index
+# Bessie Complete Index
 
 A comprehensive index of all topics, strategies, and resources related to Bessie's educational journey, learning profile, and support systems.
 
-### 🎯 Core Educational Framework
+## 🎯 Core Educational Framework
 
-#### Assessment & Planning Cycle
+### Assessment & Planning Cycle
 
 - [[ASSESS Continuously Understand Bessie's Evolving Needs and Strengths]]
 - [[2. PLAN Develop and Communicate Comprehensive, Personalized Strategies]]
@@ -36,16 +36,16 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 - [[4. REVIEW Monitor Progress and Adapt Support]]
 - [[Plan for Implementing 'Assess, Plan, Do, Review' for Bessie Ormes]]
 
-#### Comprehensive Educational Plans
+### Comprehensive Educational Plans
 
 - [[A Personalised Educational Pathway for Bessie Ormes_ A Comprehensive GCSE Support Plan]]
 - Foundational Principles for Bessie's Home Curriculum (Missing)
 - [[Bessie GCSE]]
 - [[A Concept Map for a Flourishing Human]]
 
-### 🧠 Learning Profile & Cognitive Strengths
+## 🧠 Learning Profile & Cognitive Strengths
 
-#### Core Strengths
+### Core Strengths
 
 - [[Bessie's Strengths as a Learner]]
 - [[Big Picture Thinker and Inter-Subject Connector]]
@@ -56,14 +56,14 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 - [[Capacity for Independent Work and Self-Motivation]]
 - [[Positive Attitude Towards Effort and Having a Go]]
 
-### 🌟 Character Development & Virtues
+## 🌟 Character Development & Virtues
 
-#### VIA Character Strengths Framework
+### VIA Character Strengths Framework
 
 - [[MOC - Character and Virtue|Character and Virtue MOC]]
 - [[MOC - Character and Virtue|VIA Character Strengths]]
 
-#### Six Core Virtues
+### Six Core Virtues
 
 - [[VIA Virtue of Wisdom]] - Cognitive strengths for acquiring and using knowledge
 - [[VIA Virtue of Courage]] - Emotional strengths for accomplishing goals despite opposition
@@ -72,14 +72,14 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 - [[VIA Virtue of Temperance]] - Strengths that protect against excess and impulsiveness
 - [[VIA Virtue of Transcendence]] - Strengths that forge connections to the larger universe
 
-#### Character-Enhanced Learning Notes
+### Character-Enhanced Learning Notes
 
 - [[Mental Model - The Monkey vs The Algorithm]]
 - [[Neurodevelopmental Disorders vs. Character Defects]]
 - [[The Concept of a Character Ideal]]
 - [[The Spectrum of Character - Ideals vs Defects]]
 
-#### Cognitive Challenges & Support Needs
+### Cognitive Challenges & Support Needs
 
 - [[Bessie's Working Memory is Overwhelmed by Large Information Volumes]]
 - [[Distorted Negative Self-Image]]
@@ -87,9 +87,9 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 - [[Exacerbating Anxiety]]
 - [[Exploring Anxious Expectations and Beliefs About Failure]]
 
-### 📚 GCSE Subject Areas
+## 📚 GCSE Subject Areas
 
-#### Core Compulsory Subjects
+### Core Compulsory Subjects
 
 - [[4.1 AQA GCSE English Language]]
 - [[English Language (AQA GCSE)]]
@@ -100,7 +100,7 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 - [[4.4 AQA GCSE Combined Science]]
 - [[Combined Science (AQA GCSE)]]
 
-#### Creative & Optional Subjects
+### Creative & Optional Subjects
 
 - [[3.1 Edexcel GCSE Art and Design (Unendorsed)]]
 - [[Art (Art, Craft and Design) (Edexcel GCSE)]]
@@ -113,16 +113,16 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 - [[3.5 AQA GCSE Philosophy and Ethics (Religious Studies)]]
 - [[Philosophy, Ethics and Religion (Religious Studies) (AQA GCSE)]]
 
-#### Curriculum Structure
+### Curriculum Structure
 
 - [[Section 1 Harnessing a 'Big Picture' Brain Making Inter-Subject Connections]]
 - [[Section 2 Summary of GCSE Assessment Structure for Bessie Ormes]]
 - [[Section 3 Capitalising on Creativity and Interest – Optional Subjects]]
 - [[Section 4 Building Core Skills and Confidence – Compulsory Subjects]]
 
-### ✍️ Learning Strategies & Support Systems
+## ✍️ Learning Strategies & Support Systems
 
-#### Writing & Memory Support
+### Writing & Memory Support
 
 - [[Writing Acts as an External Working Memory]]
 - [[Writing Reduces Cognitive Load by Chunking Information]]
@@ -131,52 +131,52 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 - [[Structured Written Plans Support Executive Function]]
 - [[Writing Strategies Must Be Consistently Supported by School]]
 
-#### Implementation & Support
+### Implementation & Support
 
 - [[Ways of Working to Help Bessie Achieve]]
 - [[Implementation of IEP Strategies (Support & Accommodations)]]
 - [[Comprehensive Understanding and Consistent Implementation of Bessie's Individual Support Plan (ISP) and ADHD Strategies]]
 - [[Inconsistent Implementation of Bessie's Individual Support Plan (ISP) and ADHD Strategie]]
 
-### 🏫 School Experience & Advocacy
+## 🏫 School Experience & Advocacy
 
-#### Current School Situation
+### Current School Situation
 
 - [[General School Experience & Engagement]]
 - [[Opportunities for Achievement & Assessment]]
 - [[Perceiving And Seeking Support]]
 - [[Bessie Meeting summary 18th chatllm]]
 
-#### Advocacy & Communication
+### Advocacy & Communication
 
 - [[Plan Forward Requests for Belfairs Academy and Required Proof]]
 - [[Targeted Staff Training and Accountability]]
 - [[Effective Monitoring, Review, and Genuine Parental Partnership]]
 
-#### Assessment & Feedback Issues
+### Assessment & Feedback Issues
 
 - [[How the Lack of Formative Assessment is Damaging for Bessie's Self-Efficacy]]
 - [[Inhibiting Self-Correction and Growth]]
 - [[Undermining Motivation and Effort]]
 
-### 🎓 Educational Philosophy & Approach
+## 🎓 Educational Philosophy & Approach
 
-#### Mindset & Motivation
+### Mindset & Motivation
 
 - [[Destructuring fixed mindset]]
 - [[Introduction Building on Strengths for a Successful GCSE Journey]]
 - [[Conclusion And Recommended Next Steps Implementing Bessie's Success Plan]]
 - School Opportunity, Not Obligation (Missing)
 
-#### Support Systems
+### Support Systems
 
 - [[Robust Emotional and Mental Health Support, Particularly regarding Anxiety and Bullying]]
 - [[Learning from peers]]
 - [[Learning Passport]]
 
-### 📋 Assessment & Documentation
+## 📋 Assessment & Documentation
 
-#### Reports & Evaluations
+### Reports & Evaluations
 
 - Year 8 report (Missing)
 - Bessie Info (Missing)
@@ -184,31 +184,31 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 - [[Bessie's Answers]]
 - [[Answers to Bessie Question]]
 
-#### Questions & Engagement
+### Questions & Engagement
 
 - [[Question for Bessie about her learning]]
 - [[Questions for Bessie]]
 - [[More Questions For Bessie]]
 - [[what for Bessie]]
 
-#### Planning Documents
+### Planning Documents
 
 - [[bess gcse prompt]]
 - [[Bessie's strengths]]
 
-### 🎨 Creative Projects & Examples
+## 🎨 Creative Projects & Examples
 
-#### Practical Applications
+### Practical Applications
 
 - [[Wolf Pack Territory Geometry Lesson]]
 
-#### Exam Boards & Specifications
+### Exam Boards & Specifications
 
 - [[Edexcel]]
 
-### 📖 Reference Materials
+## 📖 Reference Materials
 
-#### Existing MOC
+### Existing MOC
 
 ---
 

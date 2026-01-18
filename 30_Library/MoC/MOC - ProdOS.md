@@ -58,12 +58,17 @@ The definitive specification of the system, its biological basis, and the "Why".
 - **[[MOC - PRODOS - Problem-Solution Map]]**—_Mapping ADHD deficits (Executive Dysfunction, RSD) to ProdOS architectural solutions._
 - **[[SoT - The Cognitive Physiology of Task Execution]]**—_The scientific basis for decoupling Initiation, Encoding, and Monitoring._
 - **[[SoT - The Extended Mind]]**—_The philosophy of cognitive extension and Active Externalism._
+- **[[SoT - Process Execution (Kernel Logic)]]**—_The core operating logic of the system._
+- **[[SoT - The Hydraulic Model of Willpower]]**—_Why relying on "wanting it enough" is a biological failure mode (Ego Depletion)._
+- **[[SoT - Environmental Determinism]]**—_Lewin's Equation ($B = f(P, E)$) and the dominance of context over character._
+- **[[SoT - Friction and Activation Energy]]**—_Manipulating the physics of behavior (Activation Energy and the Garden Hose analogy)._
+- **[[SoT - Choice Architecture]]**—_Designing the visual field to make the right choice the default choice._
 
 #### Key Frameworks
 
 - **The Dual-Axis Model:** Managing **Time (Azimuth)** and **Attention (Elevation)** simultaneously.
 - **The IBNS:** Leveraging the **Interest-Based Nervous System** (INCUP) instead of importance.
-- **The User Interface of the Self:** Recognizing the "Self" as a retrospective narrative rather than a central command.
+- **[[SoT - The User Interface of the Self]]:** Recognizing the "Self" as a retrospective narrative rather than a central command.
 
 ---
 
@@ -73,6 +78,7 @@ The definitive specification of the system, its biological basis, and the "Why".
 
 - **[[Reference - File Structure]]**—_The 6-Component Architecture (Stream, HUD, Engine, Workbench, Canon, Archive)._
 - **[[SoT - PRODOS Core Specification#2. Context Engineering (The Agent Protocol)|Context Engineering]]**—_Protocols for Context Hygiene, Decision Lineage, and Entity Scoping._
+- **[[SoT - The RPI Workflow (Context Engineering)]]**—_The Research-Plan-Implement workflow for reliable context management._
 - **[[SoT - Cognitive Engineering Protocols]]**—_Tactical tools for clearing RAM (Brain Dumping) and Emotional Regulation (Journaling)._
 
 #### Phase 2: Thinking & Refinement (Processor)
@@ -87,12 +93,16 @@ The definitive specification of the system, its biological basis, and the "Why".
 - **[[SoT - Temporal Management (Blocking and Boxing)]]**—_Strategic Time-Blocking vs. Tactical Time-Boxing._
 - **[[SoT - PRODOS Core Specification#5. State Management (Cryosleep)|Cryosleep Protocol]]**—_The "Save State" mechanism for minimizing context-switching costs._
 - **[[SoT - Bridging the Intention-Action Gap]]**—_Protocols for overcoming high activation energy._
+- **[[SoT - Motion vs Action (The Physics of Productivity)]]**—_Distinguishing between busy work (Motion) and output (Action)._
+- **[[SoT - Perfectionism and Analysis Paralysis]]**—_Overcoming the blocks that prevent shipping._
 
 ---
 
 ### 4. Protocols & Fuel (Operations)
 
 - **[[SoT - Protocol - The Launch Sequence]]**—_A concrete algorithm for bypassing task initiation paralysis._
+- **[[SoT - PRODOS Black Box Protocol]]**—_Systematizing failure into architectural improvements._
+- **[[SoT - Indistractable Model (Focus Management)]]**—_Managing internal and external triggers._
 - **[[SoT - ADHD Management Protocols]]**—_The Runtime Fuel Station (Dopamine Menu), Environmental Design, and Developer Toolkit._
 - **[[Protocol - Weekly Command Centre]]**—_The system reset ritual to restore trust and clear technical debt._
 - **[[SoT - Learning Mechanisms]]**—_The 30-Day Brain Rewiring Experiment and the choice between Reading and Scrolling._

@@ -1,24 +1,26 @@
 ---
 aliases: []
-author: ["[[Gemini]]"]
-confidence: 
+author:
+  - "[[Gemini]]"
+confidence:
 created: 2025-12-09T00:00:00Z
-description: "Created with Gemini"
-epistemic: 
-last_reviewed: 
+description: Created with Gemini
+epistemic:
+last_reviewed:
 modified: 2026-01-08T10:50:02+00:00
 published:
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
-source: "https://gemini.google.com/share/af06ca652da4"
+source: https://gemini.google.com/share/af06ca652da4
 source_of_truth: []
-status: 
-tags: ["clippings"]
+status: active
+tags:
+  - clippings
 title: HEAD - The Demarcation Gap
-type: 
-uid: 
-updated: 
+type: head
+uid:
+updated:
 ---
 
 ## The Core Concept: The Demarcation Gap

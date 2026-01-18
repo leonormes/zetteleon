@@ -3,7 +3,7 @@ aliases: ["Cloud Networking Requirements", "Network Architecture Principles", "N
 confidence: "High"
 created: 2026-01-09T22:08:05+00:00
 epistemic: "Foundational"
-modified: 2026-01-09T22:16:19+00:00
+modified: 2026-01-12T16:13:24+00:00
 purpose: "To define the invariant principles and requirements of modern cloud networking, independent of specific vendor implementations."
 review_interval: "1 year"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - Secure Cross-Cloud Data Transport]]"]

@@ -49,6 +49,8 @@ How we structure logic to manage complexity.
 
 Theoretical foundations for robust logic and effect management.
 
+- **[[SoT - Fundamentals of Mathematical Logic]]**—_The Basics._ Propositional logic, connectives, and quantifiers.
+- **[[SoT - Mathematical Proof Techniques]]**—_The Methods._ Direct, Contrapositive, and Contradiction proofs.
 - **[[SoT - The Algebra of Types (Cardinality and Isomorphism)]]**—_The Math._ Types as sums, products, and exponents.
 - **[[SoT - TypeScript as a Proof Engine (Set Theory and Distributivity)]]**—_The Verification._ Using structural typing and set theory to hoist invariants to compile-time.
 - **[[SoT - The Monad Design Pattern (Pipeline Abstraction)]]**—_The Architecture._ Decoupling business logic from control flow complexity using wrappers and binders.

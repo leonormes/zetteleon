@@ -1,0 +1,55 @@
+---
+aliases: ["Proof Methods", "How to Prove It", "Direct Proof", "Proof by Contradiction"]
+confidence: "5/5"
+created: 2026-01-12T10:10:00+00:00
+epistemic: "Technique"
+status: "stable"
+tags: ["math/proofs", "logic", "prodos/sot"]
+title: SoT - Mathematical Proof Techniques
+type: "SoT"
+---
+
+# Mathematical Proof Techniques
+
+Proof theory analyses the structure of mathematical arguments. Mastering these standard techniques is the core skill of mathematical reasoning.
+
+## 1. Standard Techniques
+
+### A. Direct Proof
+- **Logic:** Assume Hypothesis $P$ is true. Deduce a chain of implications to show Conclusion $Q$ is true.
+- **Use Case:** "Prove that the sum of two even integers is even."
+
+### B. Proof by Contrapositive
+- **Logic:** To prove $P \implies Q$, prove the logically equivalent $\neg Q \implies \neg P$.
+- **Mechanism:** Assume the conclusion is false, and show the hypothesis must therefore be false.
+- **Use Case:** "Prove that if $n^2$ is even, then $n$ is even."
+
+### C. Proof by Contradiction (Reductio ad Absurdum)
+- **Logic:** To prove $P$, assume $\neg P$ and derive a logical absurdity (e.g., $1=0$ or $Q \land \neg Q$).
+- **Use Case:** "Prove that $\sqrt{2}$ is irrational."
+
+### D. Proof by Induction
+- **Logic:** Prove a base case (e.g., $n=1$). Then prove that if true for $k$, it must be true for $k+1$.
+- **Use Case:** Proving properties for all natural numbers (e.g., summation formulas).
+
+---
+
+## 2. Worked Example: Contrapositive
+
+**Statement:** For any integer $n$, if $n^2$ is even, then $n$ is even.
+
+1.  **Identify $P \implies Q$:**
+    *   $P$: $n^2$ is even.
+    *   $Q$: $n$ is even.
+2.  **Form Contrapositive ($\neg Q \implies \neg P$):**
+    *   If $n$ is odd, then $n^2$ is odd.
+3.  **Proof:**
+    *   Assume $n$ is odd: $n = 2k + 1$.
+    *   Square it: $n^2 = (2k+1)^2 = 4k^2 + 4k + 1$.
+    *   Factor: $n^2 = 2(2k^2 + 2k) + 1$.
+    *   Result: $n^2 = 2m + 1$, which is the definition of an odd number.
+4.  **Conclusion:** Since the contrapositive is true, the original statement is true.
+
+## 3. Recommended Resources
+- **Books:** *How to Prove It* (Velleman), *Book of Proof* (Hammack).
+- **Practice:** Brilliant.org (Logic courses), Project Euler (Computational logic).

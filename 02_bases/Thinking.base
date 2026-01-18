@@ -2,22 +2,25 @@ filters:
   and:
     - or:
         - type == "head"
-        - type == "HEAD"
-    - status != "archived"
     - '!file.path.startsWith("10_System")'
+    - status != "someday"
+    - status != "archived"
 views:
   - type: table
     name: All Open
-    filters: status != "someday"
     order:
       - file.name
       - status
-      - AoL
+      - file.tags
+      - type
+      - file.links
     sort:
+      - property: file.tags
+        direction: ASC
       - property: file.ctime
         direction: ASC
     columnSize:
-      file.name: 630
+      file.name: 414
   - type: table
     name: Active Work HEADs
     filters:
@@ -66,3 +69,5 @@ views:
     sort:
       - property: file.ctime
         direction: DESC
+  - type: table
+    name: View

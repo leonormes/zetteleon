@@ -33,6 +33,7 @@ Despite this plurality, a compelling modern synthesis has emerged: [[Mathematics
 
 To understand why a single principle remains elusive, we must explore the major schools of thought that have shaped our understanding of mathematics:
 
+- **[[SoT - History of Mathematical Logic]]**—_A chronological overview of the evolution from Aristotle to Gödel._
 - [[Logicism (Mathematics as Extension of Logic)]] `rel:: school`—Proposes that mathematics reduces to pure logic, with logical truth as the first principle.
 - [[Numbers as Abstract Objects (Platonism)]] `rel:: school`—Posits that mathematical entities exist independently in an abstract realm, discovered rather than invented.
 - [[Formalism (Mathematics as Symbol Manipulation)]] `rel:: school`—Views mathematics as rule-governed manipulation of meaningless symbols, with consistency as the first principle.
@@ -51,6 +52,8 @@ These philosophical programs face significant challenges that have shaped modern
 
 At the most fundamental level, mathematics requires a language and raw material:
 
+- **[[SoT - Fundamentals of Mathematical Logic]]**—_The grammar: Connectives, Quantifiers, and Truth Tables._
+- **[[SoT - Core Fields of Mathematical Logic]]**—_The disciplines: Set Theory, Proof Theory, and Model Theory._
 - [[Logic Is the Grammar of Rigorous Argument]] `rel:: metaphor`—Provides the syntax and rules for valid reasoning, the structural framework for mathematical expression.
 - [[Axiomatic Set Theory Is a Foundational Framework for Mathematics]] `rel:: foundation`—Serves as the "raw material" from which structures are built.
 - [[Set Theory Requires Distinct Objects]] `rel:: axiom`—Formalizes the intuition that counting and mathematical objects require distinctness.
@@ -62,12 +65,14 @@ While philosophy debates foundations, mathematical practice reveals common metho
 
 #### Discovery Methods
 
+- **[[SoT - Mathematical Thinking Habits]]**—_The 7 habits of the mathematical mind (Pattern Detective, Tinkering, Visualization)._
 - [[The Process of Mathematical Discovery is Driven by Pattern Recognition]] `rel:: supports`—The iterative interplay between inductive pattern-spotting and deductive proof drives progress.
 - [[Heuristic Experimentation Drives Mathematical Insight]] `rel:: supports`—Exploration through examples, counterexamples, and computational tools precedes rigorous proof.
 - [[Visualization Supports Mathematical Thinking]] `rel:: supports`—Diagrams and geometric intuition aid understanding, though rigorous proof remains necessary.
 
 #### Core Methods
 
+- **[[SoT - Mathematical Proof Techniques]]**—_Standard methods: Direct, Contrapositive, Contradiction, and Induction._
 - [[Abstraction and Generalization Are Core Mathematical Methods]] `rel:: supports`—Moving from specific instances to universal structures captures invariants across contexts.
 - [[Deductive Reasoning Underwrites Mathematical Proof]] `rel:: justifies`—Provides "once-and-for-all guarantees" through logical derivation from axioms.
 

@@ -1,11 +1,12 @@
 ---
-created: 2026-01-10
+created: 2026-01-10T09:27:00+00:00
 type: protocol
 tags:
   - health
   - metabolic
   - system-architecture
 status: active
+modified: 2026-01-15T17:00:37+00:00
 ---
 
 # Protocol: Metabolic Firewall (Post-Mounjaro)
@@ -39,7 +40,7 @@ status: active
 
 3. **16:00 | The Firewall (CRITICAL IPS)**
    - [ ] **Input:** 2 scoops Protein Works (Banana) + 250ml Water.
-   - [ ] **Stack:** Add 100ml Kefir + 1 tbsp Chia Seeds + 1 scoop Biomel (if avail).
+   - [ ] **Stack:** Add 100ml Kefir + 1 tbsp Chia Seeds
    - [ ] **Action:** Consume immediately regardless of hunger status.
    - [ ] **Logic:** Blocks the 18:00 Ghrelin Spike.
 

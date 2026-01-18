@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-12-05T16:04:02Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2026-01-08T10:50:02+00:00
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
+status: archived
 tags: []
 title: HEAD - I think this is bad experience
-type: 
-uid: 
-updated: 
+type: head
+uid:
+updated:
 ---
 
 This relates to the fact that Bessie is learning to avoid things she doesn't like. She is avoiding life and avoiding challenges. I think that procrastination is a debilitating problem. If she learns to deal with stress and negative feels with avoidance she might not get the most from life.

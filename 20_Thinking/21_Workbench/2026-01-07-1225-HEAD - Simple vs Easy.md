@@ -4,15 +4,19 @@ confidence: ""
 created: 2026-01-07T17:59:36+00:00
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:50:02+00:00
+modified: 2026-01-13T21:12:41+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
-status: Active
-tags: ["SoftwareEngineering/Architecture", "TheHuman/Philosophy", head]
+status: active
+tags:
+  - SoftwareEngineering/Architecture
+  - TheHuman/Philosophy
+  - head
 title: 2026-01-07-1225-HEAD - Simple vs Easy
-type: ""
+type: head
+uuid: 86780322-6388-4ec6-8100-1dce5e96859b
 ---
 
 ## The Spark
@@ -38,5 +42,6 @@ Derived from "Simple vs. Easy: A Programmer's Guide to Better Choices" (Rich Hic
 
 ## The Next Test
 
-- [ ] **Simplicity Audit:** Review the `10_System/templates` or `fileClasses`. Are they doing one thing, or are they complected?
+- [ ] **Simplicity Audit:** Review the `10_System/templates` or `fileClasses`. Are they doing one thing, or are they complected? ^2026-01-13T21-12-27
+    - [📱 View in Todoist app](todoist://task?id=6fm4w24HGWFR2Wpx) (Created: 📝 2026-01-13T21:12)
 - [ ] **Protocol Check:** Does the "MVA" in my tasks strictly follow the "one-fold" rule (atomic and binary)?

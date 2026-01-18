@@ -14,11 +14,11 @@ views:
         - file.name.contains("MOC")
         - type == "index"
     order:
-      - type
       - file.name
-      - file.path
       - file.mtime
     sort:
+      - property: file.name
+        direction: ASC
       - property: file.mtime
         direction: ASC
       - property: type

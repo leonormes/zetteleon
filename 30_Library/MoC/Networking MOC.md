@@ -40,7 +40,7 @@ This Map of Content (MOC) serves as the top-level entry point for all networking
 
 ### Load Balancing
 
-- [[Load Balancing MOC]]
+- [[MOC Load Balancing]]
 - [[A Load Balancer Distributes Traffic for Reliability and Scale]]
 - [[Load Balancer Health Checks Ensure Traffic is Routed Only to Healthy Servers]]
 - [[Load Balancers Distribute Traffic Across Backend Services]]

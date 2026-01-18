@@ -1,7 +1,7 @@
 ---
 aliases: ["Context Economics", "Context Engineering Workflow", "Research Plan Implement", "RPI Protocol"]
 created: 2026-01-09T21:52:07+00:00
-modified: 2026-01-10T13:34:07+00:00
+modified: 2026-01-12T21:14:33+00:00
 see_also: ["[[MOC - LLM-Augmented Thinking]]", "[[SoT - Execution Protocol (GTD & PARA)]]"]
 source_of_truth: ["[[Prompt - The Context Architect (RPI Protocol)]]", "[[SoT - PRODOS Core Specification]]"]
 status: "permanent"
@@ -43,7 +43,7 @@ It treats the context window as a scarce resource (**Context Economics**) to pre
 - **Output:** A "Dependency Map" or "Gap Analysis". _No code or content is generated yet._
 - **Prompt Pattern:**
 
-    > "Audit the vault for existing notes on [Topic]. Map the conflict between Note A and Note B. Do not write the new note yet."
+ > "Audit the vault for existing notes on [Topic]. Map the conflict between Note A and Note B. Do not write the new note yet."
 
 ## Phase 2: Plan (Compression of Intent)
 

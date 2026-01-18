@@ -4,10 +4,10 @@ created: 2026-01-09T00:03:45+00:00
 last_reviewed: ""
 modified: 2026-01-09T09:40:52+00:00
 review_interval: ""
-status: ""
+status: archived
 tags: []
-title: "HEAD DORA Metrics & The Manager's Role"
-type: ""
+title: HEAD DORA Metrics & The Manager's Role
+type: head
 ---
 
 ## 2026-01-08-2015-HEAD DORA Metrics & The Manager's Role

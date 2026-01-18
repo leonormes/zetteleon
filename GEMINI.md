@@ -1,20 +1,20 @@
 ---
 aliases: []
-confidence: 
+confidence:
 created: 2025-07-08T12:32:39Z
-epistemic: 
-last_reviewed: 
+epistemic:
+last_reviewed:
 modified: 2026-01-08T10:49:39+00:00
-purpose: 
-review_interval: 
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: 
+status:
 tags: []
 title: GEMINI
-type: 
-uid: 
-updated: 
+type:
+uid:
+updated:
 ---
 
 ## SYSTEM INSTRUCTIONS & TOOLING PROTOCOLS
@@ -118,9 +118,9 @@ When asked to synthesize or "merge":
 
 1. **Read:** Analyze relevant `HEAD` notes.
 2. **Update:** Edit the corresponding **SoT** note.
-    - Update the `Minimum Viable Understanding (MVU)`.
-    - Add new `Working Knowledge`.
-    - Clarify `Tensions`.
+   - Update the `Minimum Viable Understanding (MVU)`.
+   - Add new `Working Knowledge`.
+   - Clarify `Tensions`.
 3. **Archive:** Mark the HEAD note as processed (conceptually).
 
 ##### Phase 3: Act (The "Ignition")
@@ -128,9 +128,9 @@ When asked to synthesize or "merge":
 When the user is stuck or procrastinating:
 
 1. **Refactor:** Convert "Boring Tasks" into "Experiments" using the Ignition Protocol.
-    - _Mystery:_ "Hypothesis: I can break X..."
-    - _Time Trial:_ "Can I do X in 3 mins?"
-    - _Spite:_ "Prove why this is stupid."
+   - _Mystery:_ "Hypothesis: I can break X..."
+   - _Time Trial:_ "Can I do X in 3 mins?"
+   - _Spite:_ "Prove why this is stupid."
 2. **Output:** A specific command or Todoist task, not just text.
 
 ##### Phase 4: Protocolise (The Architect)
