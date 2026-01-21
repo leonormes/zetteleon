@@ -1,19 +1,24 @@
 ---
 created: 2026-01-14T19:42:45+00:00
-modified: 2026-01-15T19:24:11+00:00
+modified: 2026-01-20T15:33:30+00:00
+tags: [articles]
+title: "GitHub - tapanmeena/azp-cli: A Command-line Interface Tool for Managing Azure Privileged Identity Management (PIM) Role Activations Directly from Your Terminal"
 ---
-# GitHub - tapanmeena/azp-cli: A command-line interface tool for managing Azure Privileged Identity Management (PIM) role activations directly from your terminal.
+
+# GitHub - tapanmeena/azp-cli: A Command-line Interface Tool for Managing Azure Privileged Identity Management (PIM) Role Activations Directly from Your Terminal
 
 ![rw-book-cover](https://opengraph.githubassets.com/fbd8da49c396693220ca1ff3edf85b8cc443e671b7c98175fb42dbb780edd336/tapanmeena/azp-cli)
 
 ## Metadata
+
 - Author: [[https://github.com/tapanmeena/]]
 - Full Title: GitHub - tapanmeena/azp-cli: A command-line interface tool for managing Azure Privileged Identity Management (PIM) role activations directly from your terminal.
 - Category: #articles
 - Summary: azp-cli is a command-line tool for managing Azure Privileged Identity Management (PIM) roles directly from your terminal. It lets you activate and deactivate roles quickly, supports multiple roles, and offers presets for common tasks. The tool also works in non-interactive mode, making it useful for automation and scripting.
-- URL: https://github.com/tapanmeena/azp-cli
+- URL: <https://github.com/tapanmeena/azp-cli>
 
 ## Full Document
+
 ### tapanmeena/azp-cli
 
 main
@@ -29,20 +34,23 @@ Open more actions menu
 A command-line interface tool for managing Azure Privileged Identity Management (PIM) role activations directly from your terminal.
 
 [![Terminal UI](https://camo.githubusercontent.com/521d0d926d343913f5282c0d00cf44a200a3322c0910f1148ca8ae1dab212eaf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5465726d696e616c2d55492d6379616e)](https://camo.githubusercontent.com/521d0d926d343913f5282c0d00cf44a200a3322c0910f1148ca8ae1dab212eaf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5465726d696e616c2d55492d6379616e)
+
 [![TypeScript](https://camo.githubusercontent.com/510e5134ddb428cfda3ceac604ddce4fa60e4a4a4675ad9524a1a8ab2dc32cd8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547970655363726970742d352e392d626c7565)](https://camo.githubusercontent.com/510e5134ddb428cfda3ceac604ddce4fa60e4a4a4675ad9524a1a8ab2dc32cd8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547970655363726970742d352e392d626c7565)
+
 [![License](https://camo.githubusercontent.com/420837c36e27d7cf1438e410f4a038efc30470452b2074833ee99b20b41ae6a6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4953432d677265656e)](https://camo.githubusercontent.com/420837c36e27d7cf1438e410f4a038efc30470452b2074833ee99b20b41ae6a6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4953432d677265656e)
+
 #### Features
 
-* 🔐 **Role Activation** - Quickly activate eligible Azure PIM roles
-* 🔓 **Role Deactivation** - Deactivate active roles when no longer needed
-* 📋 **Interactive Menu** - User-friendly menu-driven interface
-* ✨ **Beautiful UI** - Polished terminal experience with spinners and colors
-* 🔄 **Multi-role Support** - Activate or deactivate multiple roles at once
-* 📊 **Status Tracking** - Real-time feedback on activation/deactivation status
-* 💾 **Presets** - Save and reuse activation/deactivation configurations
-* 🚀 **Non-interactive Mode** - CLI flags for scripting and automation
-* 🔔 **Update Notifications** - Automatic update checks with configurable behavior
-* 📤 **JSON Output** - Machine-readable output for integration with other tools
+- 🔐 **Role Activation** - Quickly activate eligible Azure PIM roles
+- 🔓 **Role Deactivation** - Deactivate active roles when no longer needed
+- 📋 **Interactive Menu** - User-friendly menu-driven interface
+- ✨ **Beautiful UI** - Polished terminal experience with spinners and colors
+- 🔄 **Multi-role Support** - Activate or deactivate multiple roles at once
+- 📊 **Status Tracking** - Real-time feedback on activation/deactivation status
+- 💾 **Presets** - Save and reuse activation/deactivation configurations
+- 🚀 **Non-interactive Mode** - CLI flags for scripting and automation
+- 🔔 **Update Notifications** - Automatic update checks with configurable behavior
+- 📤 **JSON Output** - Machine-readable output for integration with other tools
 
 #### Prerequisites
 
@@ -149,15 +157,15 @@ azp upgrade
 
 Notes:
 
-* `azp update` exits with code `0` when up-to-date, `2` when an update is available, and `1` on error.
-* `--output json` returns a structured response suitable for scripts.
-* By default, `azp activate` and `azp deactivate` will also show a short “update available” hint (text mode only) at most once per day.
-* Disable update checks via `AZP_NO_UPDATE_NOTIFIER=1` (or `AZP_DISABLE_UPDATE_CHECK=1`).
+- `azp update` exits with code `0` when up-to-date, `2` when an update is available, and `1` on error.
+- `--output json` returns a structured response suitable for scripts.
+- By default, `azp activate` and `azp deactivate` will also show a short "update available" hint (text mode only) at most once per day.
+- Disable update checks via `AZP_NO_UPDATE_NOTIFIER=1` (or `AZP_DISABLE_UPDATE_CHECK=1`).
 
 The update-check cache is stored alongside presets in your config directory:
 
-* macOS/Linux: `~/.config/azp-cli/update-check.json` (or `$XDG_CONFIG_HOME/azp-cli/update-check.json`)
-* Windows: `%APPDATA%\azp-cli\update-check.json`
+- macOS/Linux: `~/.config/azp-cli/update-check.json` (or `$XDG_CONFIG_HOME/azp-cli/update-check.json`)
+- Windows: `%APPDATA%\azp-cli\update-check.json`
 
 ##### Non-interactive Mode (Automation)
 
@@ -213,51 +221,51 @@ azp deactivate --no-interactive --yes \
 
 **Common flags (activate/deactivate):**
 
-* `--no-interactive` - Disable interactive prompts
-* `-y, --yes` - Skip confirmation prompts
-* `--subscription-id <id>` - Target subscription (optional for deactivate)
-* `--role-name <name>` - Role name(s) to target (can be repeated)
-* `--allow-multiple` - Allow multiple role matches
-* `--dry-run` - Preview without submitting
-* `--output <text|json>` - Output format (default: text)
-* `--quiet` - Suppress non-essential output
+- `--no-interactive` - Disable interactive prompts
+- `-y, --yes` - Skip confirmation prompts
+- `--subscription-id <id>` - Target subscription (optional for deactivate)
+- `--role-name <name>` - Role name(s) to target (can be repeated)
+- `--allow-multiple` - Allow multiple role matches
+- `--dry-run` - Preview without submitting
+- `--output <text|json>` - Output format (default: text)
+- `--quiet` - Suppress non-essential output
 
 **Activation-specific:**
 
-* `--duration-hours <n>` - Duration (1-8 hours, default varies by role)
-* `--justification <text>` - Justification for activation
+- `--duration-hours <n>` - Duration (1-8 hours, default varies by role)
+- `--justification <text>` - Justification for activation
 
 **Deactivation-specific:**
 
-* `--justification <text>` - Justification for deactivation (optional)
+- `--justification <text>` - Justification for deactivation (optional)
 
 #### Presets
 
 Presets let you save your daily activation/deactivation routines (subscription + role names + duration + justification) and reuse them with `--preset <name>`.
 
-##### Presets file location
+##### Presets File Location
 
 By default, presets are stored in a per-user config file:
 
-* macOS/Linux: `~/.config/azp-cli/presets.json` (or `$XDG_CONFIG_HOME/azp-cli/presets.json`)
-* Windows: `%APPDATA%\azp-cli\presets.json`
+- macOS/Linux: `~/.config/azp-cli/presets.json` (or `$XDG_CONFIG_HOME/azp-cli/presets.json`)
+- Windows: `%APPDATA%\azp-cli\presets.json`
 
 Override the location with:
 
-* `AZP_PRESETS_PATH=/path/to/presets.json`
+- `AZP_PRESETS_PATH=/path/to/presets.json`
 
-##### Preset contents
+##### Preset Contents
 
 A preset can define one or both blocks:
 
-* `activate`: `subscriptionId`, `roleNames[]`, `durationHours`, `justification`, `allowMultiple`
-* `deactivate`: `subscriptionId` (optional), `roleNames[]`, `justification`, `allowMultiple`
+- `activate`: `subscriptionId`, `roleNames[]`, `durationHours`, `justification`, `allowMultiple`
+- `deactivate`: `subscriptionId` (optional), `roleNames[]`, `justification`, `allowMultiple`
 
 `justification` supports simple templates:
 
-* `${date}` → `YYYY-MM-DD`
-* `${datetime}` → ISO timestamp
-* `${userPrincipalName}` → resolved from Microsoft Graph `/me`
+- `${date}` → `YYYY-MM-DD`
+- `${datetime}` → ISO timestamp
+- `${userPrincipalName}` → resolved from Microsoft Graph `/me`
 
 ##### Common Workflows
 
@@ -294,8 +302,8 @@ azp deactivate --preset daily-ops --no-interactive --yes
 
 When you create a preset via `azp preset add`, you can optionally set it as the default for `activate` and/or `deactivate`.
 
-* Default presets are applied automatically when you run one-shot flows and you haven’t explicitly provided the required flags.
-* Example: after setting a default activate preset, `azp activate --no-interactive --yes` can work without specifying `--subscription-id`/`--role-name`.
+- Default presets are applied automatically when you run one-shot flows and you haven't explicitly provided the required flags.
+- Example: after setting a default activate preset, `azp activate --no-interactive --yes` can work without specifying `--subscription-id`/`--role-name`.
 
 ##### Example Session
 
@@ -352,19 +360,19 @@ pnpm start
 pnpm lint
 ```
 
-#### Changelog & releases
+#### Changelog & Releases
 
 This repo uses [Keep a Changelog](https://keepachangelog.com/) format in [CHANGELOG.md](https://github.com/tapanmeena/azp-cli/blob/main/CHANGELOG.md).
 
-##### Recommended commit messages
+##### Recommended Commit Messages
 
 For best results, use [Conventional Commits](https://www.conventionalcommits.org/):
 
-* `feat: ...` (new feature) → minor bump
-* `fix: ...` (bug fix) → patch bump
-* `chore: ...`, `docs: ...`, `refactor: ...` (no bump unless breaking)
+- `feat: …` (new feature) → minor bump
+- `fix: …` (bug fix) → patch bump
+- `chore: …`, `docs: …`, `refactor: …` (no bump unless breaking)
 
-##### Cutting a release
+##### Cutting a Release
 
 1. Make sure `CHANGELOG.md` has up-to-date entries under **Unreleased**.
 2. Run one of the following:
@@ -383,13 +391,13 @@ pnpm release -- --release-as minor
 pnpm release -- --release-as major
 ```
 
-3. Push commits + tags:
+1. Push commits + tags:
 
 ```sh
 git push --follow-tags
 ```
 
-4. Publish to npm (if desired):
+1. Publish to npm (if desired):
 
 ```
 npm publish
@@ -418,12 +426,12 @@ azp-cli/
 
 ##### Tech Stack
 
-* **TypeScript** - Type-safe JavaScript
-* **Commander.js** - CLI framework
-* **Inquirer.js** - Interactive prompts
-* **Ora** - Elegant terminal spinners
-* **Chalk** - Terminal string styling
-* **Azure SDK** - Azure service integration
+- **TypeScript** - Type-safe JavaScript
+- **Commander.js** - CLI framework
+- **Inquirer.js** - Interactive prompts
+- **Ora** - Elegant terminal spinners
+- **Chalk** - Terminal string styling
+- **Azure SDK** - Azure service integration
 
 #### Troubleshooting
 
@@ -439,22 +447,22 @@ az --version
 
 1. Make sure you're logged in to Azure CLI:
 
- 
 ```
 az login
 ```
+
 2. Verify your account has PIM-eligible roles:
 
- 
 ```
 az account show
 ```
+
 3. Check if you have the necessary permissions in Azure AD
 
 ##### No Subscriptions Found
 
-* Verify your Azure account has access to subscriptions
-* Try refreshing your Azure CLI login: `az login --refresh`
+- Verify your Azure account has access to subscriptions
+- Try refreshing your Azure CLI login: `az login --refresh`
 
 #### License
 

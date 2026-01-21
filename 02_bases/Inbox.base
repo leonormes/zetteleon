@@ -12,4 +12,4 @@ views:
         direction: ASC
     columnSize:
       file.name: 469
-    indentProperties: true
+    indentProperties: false

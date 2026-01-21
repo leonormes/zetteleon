@@ -6,13 +6,11 @@ status: "phase-1"
 tags:
   - "input"
 type: "head"
+created: 2026-01-18T08:21:19+00:00
+modified: 2026-01-18T23:22:42+00:00
 ---
 ## Phase 1: Ingestion (The Stream)
 
-> [!abstract] Context
-> Created with Gemini
-
-### Raw Output / Content
 attached is a previous llm chat. Load it as context and wait for my next prompt
 
 ## System State: Context Loaded
