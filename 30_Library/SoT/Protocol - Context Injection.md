@@ -1,25 +1,27 @@
 ---
-created: 2026-01-21
-tags:
-  - protocol
-  - llm
-  - prompt-engineering
+created: 2026-01-21T10:11:54+00:00
+modified: 2026-01-22T11:08:57+00:00
+tags: [llm, prompt-engineering, protocol]
+title: Protocol - Context Injection
 ---
 
-# Protocol - Context Injection
+## Protocol - Context Injection
 
-## Objective
+### Objective
+
 To force an LLM to "Think in Maps" and prevent myopic code generation by injecting a structured "Information Structure" before any code generation task.
 
-## The Logic Map
-1.  **Input:** User Request (e.g., "Fix the VIP logic").
-2.  **Process:**
-    *   **Manifesto Check:** Verify request against Domain Invariants.
-    *   **Skeleton Retrieval:** Fetch signatures of relevant dependencies.
-    *   **Lineage Tracing:** Map the data flow for the relevant variables.
-3.  **Output:** A constrained execution plan.
+### The Logic Map
 
-## Artifact 1: The Domain Manifesto Template
+1. **Input:** User Request (e.g., "Fix the VIP logic").
+2. **Process:**
+    - **Manifesto Check:** Verify request against Domain Invariants.
+    - **Skeleton Retrieval:** Fetch signatures of relevant dependencies.
+    - **Lineage Tracing:** Map the data flow for the relevant variables.
+3. **Output:** A constrained execution plan.
+
+### Artifact 1: The Domain Manifesto Template
+
 Prepend this block to the context window to define the "Laws of Physics".
 
 ```markdown
@@ -40,7 +42,8 @@ Prepend this block to the context window to define the "Laws of Physics".
 - Use "Skeleton" NOT "Summary".
 ```
 
-## Artifact 2: The System Prompt (The Cartographer)
+### Artifact 2: The System Prompt (The Cartographer)
+
 Use this prompt to prime the Agent.
 
 ```markdown
@@ -77,5 +80,6 @@ Before writing any implementation code, you must perform a "Semantic Check":
 - If you see a function `calculate_tax(amount)`, assume it works as advertised; do not inspect its body unless you are changing the tax math.
 ```
 
-## Related Concepts
-*   [[SoT - Semantic Code Graph]]
+### Related Concepts
+
+- [[SoT - Semantic Code Graph]]

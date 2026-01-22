@@ -1,11 +1,11 @@
 ---
 captured: "2026-01-21T07:19:31+00:00 2026-01-21T07:19:31+00:00"
 created: 2026-01-21T07:19:33+00:00
-modified: 2026-01-22T08:30:45+00:00
+modified: 2026-01-22T11:10:50+00:00
 source: "https://gemini.google.com/share/494060b82dca"
 status: "phase-1"
 tags: ["input"]
-title: "Phase 1: Ingestion (The Stream)"
+title: Prompt Engineering Constraints vs Conditioning
 type: "head"
 ---
 

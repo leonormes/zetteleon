@@ -1,10 +1,10 @@
 ---
 created: 2026-01-16T10:50:09+00:00
-modified: 2026-01-20T15:33:29+00:00
-title: 'The Corrected Hierarchy (The "Type-Driven Onion")'
+modified: 2026-01-22T12:13:44+00:00
+title: The Type-Driven Onion
 ---
 
-# The Corrected Hierarchy (The "Type-Driven Onion")
+## The Corrected Hierarchy (The "Type-Driven Onion")
 
 1. Layer 1 (The Core): Types & Invariants
 
