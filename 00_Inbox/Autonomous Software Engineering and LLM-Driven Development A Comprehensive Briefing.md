@@ -1,6 +1,6 @@
 ---
 created: 2026-01-16T07:37:09+00:00
-modified: 2026-01-20T16:10:20+00:00
+modified: 2026-01-21T17:39:42+00:00
 title: Autonomous Software Engineering and LLM-Driven Development A Comprehensive Briefing
 ---
 
@@ -50,8 +50,6 @@ Kimi-Dev reframes these paradigms by arguing that Agentless training serves as a
 - The Duo Framework: Training focuses on two roles: BugFixer (producing patches) and TestWriter (creating reproducible unit tests).
 - Reinforcement Learning (RL): Using execution outcomes as the sole reward signal (0 or 1) rather than text similarity improves solution quality and reduces "shortcuts."
 - Transferability: Models trained on structured agentless tasks (localization and editing) adapt more efficiently to multi-turn agent environments, requiring significantly fewer fine-tuning trajectories.
-
---------------------------------------------------------------------------------
 
 ## 3. Benchmarking: SWE-bench Fundamentals and Critiques
 

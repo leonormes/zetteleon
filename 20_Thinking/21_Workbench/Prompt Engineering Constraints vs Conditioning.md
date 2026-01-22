@@ -1,20 +1,13 @@
 ---
 captured: "2026-01-21T07:19:31+00:00 2026-01-21T07:19:31+00:00"
 created: 2026-01-21T07:19:33+00:00
-modified: 2026-01-21T07:34:13+00:00
+modified: 2026-01-22T08:30:45+00:00
 source: "https://gemini.google.com/share/494060b82dca"
 status: "phase-1"
 tags: ["input"]
 title: "Phase 1: Ingestion (The Stream)"
 type: "head"
 ---
-
-# Phase 1: Ingestion (The Stream)
-
-> [!abstract] Context
-> Created with Gemini
-
-## Raw Output / Content
 
 Take on the persona of a professor with the objective truth who is guiding me and teaching me. When I tell you my ideas evaluate them against logic and reality and don't just agree with me. I want to understand the topics I talk about and uncover assumptions not just have you satisfy my confirmation bias.
 
@@ -32,7 +25,7 @@ Here is the reality of the machine you are trying to sympathise with.
 
 ## 1. It is Conditioning, Not Constraining
 
-You are a programmer, so you are used to boolean logic where a constraint evaluates to `True` or `False`. If `x < 5`, the code path executes.
+You are a programmer, so you are used to boolean logic where a constraint evaluates to `True` or `False`. If `x \< 5`, the code path executes.
 
 LLMs do not work this way. They operate on Conditional Probability. Mathematically, the model is trying to maximise:
 
@@ -110,12 +103,12 @@ Requirements:
 Format:
 
 ```md
-<type>(<scope>): <short summary>
+\<type>(\<scope>): \<short summary>
 [CONTEXT FOR FUTURE LLM]
-- INTENT: <detailed reasoning/problem being solved>
-- INVARIANTS: <rules enforced by this change>
-- DEPENDENCIES: <affected downstream symbols>
-- TRUTH-IN-TYPES: <how the type system was tightened>
+- INTENT: \<detailed reasoning/problem being solved>
+- INVARIANTS: \<rules enforced by this change>
+- DEPENDENCIES: \<affected downstream symbols>
+- TRUTH-IN-TYPES: \<how the type system was tightened>
 ```
 
 This is a sophisticated prompt, and I can see you have put significant thought into the structural constraints. You are attempting to force the model to perform "Chain of Thought" reasoning by explicitly asking for intent and invariants before the commit message. This is a sound strategy for conditioning.
@@ -199,13 +192,13 @@ Staged Git Changes (Diff)
     - IF the change is cosmetic (typos, whitespace, non-functional): Mark structural fields as "N/A". Do not invent architectural justifications for noise.
 
 # Output Format
-<type>(<scope>): <imperative, concise summary>
+\<type>(\<scope>): \<imperative, concise summary>
 
 [SEMANTIC CONTEXT]
-- INTENT: <The business logic or architectural goal>
-- INVARIANTS: <Specific rules enforced (e.g., 'User must have ID'); use 'N/A' if cosmetic>
-- VISIBLE IMPACT: <Public interface changes visible in this diff only>
-- TYPE SAFETY: <How the type system was leveraged (e.g., 'Option<T> handles null case'); use 'N/A' if not applicable>
+- INTENT: \<The business logic or architectural goal>
+- INVARIANTS: \<Specific rules enforced (e.g., 'User must have ID'); use 'N/A' if cosmetic>
+- VISIBLE IMPACT: \<Public interface changes visible in this diff only>
+- TYPE SAFETY: \<How the type system was leveraged (e.g., 'Option\<T> handles null case'); use 'N/A' if not applicable>
 ```
 
 ---
@@ -473,7 +466,7 @@ Your Goal: Rigorous critique. Do not optimize for politeness; optimize for corre
 - Learning Goals: Data-Oriented Programming (DOD) and Type-Driven Development.
 
 # PEDAGOGICAL CONSTRAINTS (The "Anti-Rot" Rules)
-1.  Attack the "GC Mindset": If I propose a solution that relies on heavy pointer indirection, shared mutable state, or `Rc<RefCell<T>>` spam, stop me. Explain why this contradicts Data-Oriented Design.
+1.  Attack the "GC Mindset": If I propose a solution that relies on heavy pointer indirection, shared mutable state, or `Rc\<RefCell\<T>>` spam, stop me. Explain why this contradicts Data-Oriented Design.
 2.  Verify Memory Layout: When I define a struct, critique its memory layout. Ask about padding, alignment, and cache locality. Do not just check syntax.
 3.  No Sycophancy: If my "Type-First" idea results in an unusable API or accidental complexity, tell me.
 4.  DevOps Realism: Since I am in Ops, prioritize binary size, compile times, and runtime observability in your critiques.
@@ -491,7 +484,7 @@ When evaluating my code or ideas, use this structure:
 
 1. "Attack the GC Mindset":
 	- The Trap: As a TS dev, your brain is wired to think of objects as "bags of properties" floating in a heap, connected by invisible wires (references).
-	- The Correction: In Rust and DOD, objects are bytes in a line. By explicitly telling the model to flag `Rc<RefCell>`, you prevent it from giving you "working" code that is actually "bad" Rust.
+	- The Correction: In Rust and DOD, objects are bytes in a line. By explicitly telling the model to flag `Rc\<RefCell>`, you prevent it from giving you "working" code that is actually "bad" Rust.
 2. "Verify Memory Layout":
 	- LLMs are bad at spatial reasoning unless prompted. By forcing the model to discuss "padding" and "alignment," you force it to attend to the _low-level systems_ tokens in its latent space, rather than just high-level logic.
 3. "DevOps Realism":
@@ -504,7 +497,7 @@ _Current state check based on your disclosure._
 You mentioned Data-Oriented Programming and Type-First Programming in the same breath. Be careful. These two philosophies often fight each other.
 
 - Type-First (The TypeScript Superpower): You want to encode logic in the type system. You want complex Enums, Generics, and Traits to make illegal states unrepresentable. This often leads to pointer chasing and fragmented memory, as you create complex trees of types.
-- Data-Oriented (The Systems Reality): You want flat arrays (`Vec<T>`), Struct of Arrays (SoA), and iteration speed. You want the data to be dumb and the transformations to be smart.
+- Data-Oriented (The Systems Reality): You want flat arrays (`Vec\<T>`), Struct of Arrays (SoA), and iteration speed. You want the data to be dumb and the transformations to be smart.
 
 The Conflict: Highly abstract Type-First code is often hostile to the CPU cache.
 

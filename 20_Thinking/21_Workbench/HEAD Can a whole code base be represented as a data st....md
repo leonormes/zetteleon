@@ -1,16 +1,15 @@
 ---
 captured: 2026-01-20T14:35:35+00:00 2026-01-20T14:35:35+00:00
 created: 2026-01-20T14:35:44+00:00
-modified: 2026-01-20T17:09:18+00:00
+modified: 2026-01-22T08:34:00+00:00
 source: https://gemini.google.com/app/fe81e9d71951efd4
 status: processed
-tags:
-  - input
-title: "Phase 1: Ingestion (The Stream)"
+tags: [input]
+title: HEAD Can a whole code base be represented as a data st...
 type: head
 ---
 
-# Phase 1: Ingestion (The Stream)
+## Phase 1: Ingestion (The Stream)
 
 Can a while code base be represented as a data structure? Like a tree or graph? Would different programming languages differ?
 
@@ -20,11 +19,11 @@ Yes, a whole codebase can absolutely be represented as a data structure. In fact
 
 However, a single data structure is rarely enough to capture everything. Instead, we use a hierarchy of structures that zoom out from individual lines of code to the entire system architecture.
 
-## 1. The Hierarchy of Representations
+### 1. The Hierarchy of Representations
 
 To represent a whole codebase, we typically layer three different types of structures:
 
-### A. The Tree: Abstract Syntax Tree (AST)
+#### A. The Tree: Abstract Syntax Tree (AST)
 
 - Scope: Single file or code snippet.
 - Structure: A Tree.
@@ -32,14 +31,14 @@ To represent a whole codebase, we typically layer three different types of struc
 - Example: For the line `x = 5 + 3`, the AST would look like a tree where `=` is the root, having a left child `x` and a right child `+` (which itself has children `5` and `3`).
 - Limitation: It is unaware of other files. It knows `print(x)` is a function call, but it doesn't know where `x` came from if it wasn't defined in that specific tree branch.
 
-### B. The Graph: Control Flow Graph (CFG)
+#### B. The Graph: Control Flow Graph (CFG)
 
 - Scope: Single function or method.
 - Structure: A Directed Graph.
 - What it does: It maps the order of execution.
 - Example: A `while` loop creates a cycle in the graph. An `if/else` statement splits the graph into two paths that eventually merge back together. This helps in understanding logic complexity (e.g., "cyclomatic complexity").
 
-### C. The Network: Code Property Graph (CPG) or Dependency Graph
+#### C. The Network: Code Property Graph (CPG) or Dependency Graph
 
 - Scope: The entire codebase.
 - Structure: A sophisticated Graph (often a "multi-graph").
@@ -51,11 +50,11 @@ To represent a whole codebase, we typically layer three different types of struc
 
 ---
 
-## 2. Do Programming Languages Differ?
+### 2. Do Programming Languages Differ?
 
 Yes, significantly. The data structures will look different depending on the language paradigm.
 
-## 3. "The Universal Graph" (LSP)
+### 3. "The Universal Graph" (LSP)
 
 Despite these differences, modern software engineering has pushed for a unified structure. The Language Server Protocol (LSP)—which powers VS Code—creates a standardized graph structure (JSON-RPC) that sits _above_ the specific language.
 
@@ -73,11 +72,11 @@ Dumping a raw file into the context window is inefficient because it forces the 
 
 Here is an architectural strategy to represent both code and meaning, using a technique often called GraphRAG (Graph Retrieval-Augmented Generation).
 
-## 1. The Representation: The "Semantic Code Graph"
+### 1. The Representation: The "Semantic Code Graph"
 
 To capture both structure and meaning, you need a hybrid data structure that layers three things on top of each other:
 
-### Layer A: The Structural Skeleton (The Graph)
+#### Layer A: The Structural Skeleton (The Graph)
 
 First, you parse the code into a Code Property Graph (CPG) or a simplified Call Graph.
 
@@ -85,7 +84,7 @@ First, you parse the code into a Code Property Graph (CPG) or a simplified Call 
 - Edges:`calls`, `inherits_from`, `imports`, `reads_variable`.
 - Why: This tells you strictly how code connects. If you edit Function A, the graph tells you immediately that Function B calls it, so Function B must be in the context window.
 
-### Layer B: The Semantic Index (The Vector Map)
+#### Layer B: The Semantic Index (The Vector Map)
 
 You cannot query a graph with "How do we handle VIP users?" because the code might be named `calculate_tier_bonus()`.
 
@@ -93,7 +92,7 @@ You cannot query a graph with "How do we handle VIP users?" because the code mig
 - Example: For `def calc_tb(u): …`, the summary is: _"Calculates the monthly bonus for high-tier VIP users."_
 - Storage: Store these summaries as Embeddings (vectors) linked to the graph nodes.
 
-### Layer C: The Domain Overlay (The Metadata)
+#### Layer C: The Domain Overlay (The Metadata)
 
 Map your specific business concepts (Ubiquitous Language) to the graph.
 
@@ -102,7 +101,7 @@ Map your specific business concepts (Ubiquitous Language) to the graph.
 
 ---
 
-## 2. The Retrieval Strategy: "Graph Traversal"
+### 2. The Retrieval Strategy: "Graph Traversal"
 
 When you want the LLM to understand or edit a feature, you do not give it the whole file. You dynamically build a Context Slice using the structure above.
 
@@ -121,7 +120,7 @@ The Workflow:
 	- _Focus Node (`calc_tb`):_ Include full source code.
 	- Context Nodes (`finalize_invoice`):Remove the body. Only provide the function signature and the docstring. The LLM needs to know _that_ it exists and what inputs it takes, but it doesn't need to read the implementation.
 
-## 3. A Visualisation of the Data Structure
+### 3. A Visualisation of the Data Structure
 
 Imagine representing your code not as text, but as this network:
 
@@ -152,14 +151,14 @@ graph TD
     %% NodeB/NodeC (Grey) = Signatures Only (Context)
 ```
 
-## 4. Why This Matters for "Understanding"
+### 4. Why This Matters for "Understanding"
 
 "Understanding" for an LLM is simply having the right dependencies in the prompt.
 
 - Without Graph: You might paste `calc_bonus`. The LLM changes it. But you forgot `Invoice` calls it, and now `Invoice` is broken.
 - With Graph: The system pulls in `Invoice` (as a signature). The LLM sees the signature and thinks: _"Ah, I must ensure my change to `calc_bonus` still returns the data type `Invoice` expects."_
 
-## Next Step
+### Next Step
 
 Would you like me to show you a Python example of how to use Tree-sitter (a parsing library) to extract these function signatures and build a simple dependency map for a single file?
 
@@ -185,7 +184,7 @@ To a computer, files do not exist. When you compile or run code, the very first 
 
 Here is the mental model of how much is "human scaffold" versus "machine meaning."
 
-## 1. The Ratio: How much is for Us?
+### 1. The Ratio: How much is for Us?
 
 In verbose languages like Java or C++, roughly 30% to 50% of the codebase is "Human Management Overhead."
 
@@ -197,7 +196,7 @@ In verbose languages like Java or C++, roughly 30% to 50% of the codebase is "Hu
 | Variable Names | Humans | `user_balance` vs `0x5F3A`. The machine only cares about the memory address. |
 | The Logic (`if`, `while`, `+`, `-`) | Both | This is the only part that actually _does_ work. |
 
-## 2. The Mental Model: "The Linker's View"
+### 2. The Mental Model: "The Linker's View"
 
 To understand the "meaning" of code without the bloat, you need to think like a Linker.
 
@@ -208,7 +207,7 @@ Imagine your entire codebase not as a folder of files, but as a single, infinite
 
 The diagram below visualises how the "File System" (Human View) obscures the actual "Logic Flow" (Machine View).
 
-## 3. How to Use This for Your LLM Agent
+### 3. How to Use This for Your LLM Agent
 
 If you want to minimise context tokens and target "meaning," you should stop feeding the LLM "Files." Files are inefficient containers for AI.
 
@@ -236,13 +235,13 @@ B. The "Symbol Table" Strategy Compilers use a "Symbol Table" to remember what t
 - Step 2: When the user asks a question, search this _list_ first.
 - Step 3: Only retrieve the _source code_ for the top 3 matches.
 
-## Summary
+### Summary
 
 The "Meaning" of your code is the Control Flow Graph (how execution jumps from line to line) and the Data Flow Graph (how a variable changes as it moves through the system).
 
 Everything else—files, folders, imports, classes—is just administrative paperwork we created because human brains can't hold 100,000 lines of logic in working memory at once.
 
-## Next Step
+### Next Step
 
 Would you like me to generate a script (in Python or TypeScript) that scans a folder and creates that "Symbol Table" (a JSON list of Function Name -Docstring/Summary) so you can see what the "Index" of your code's meaning looks like?
 
@@ -260,16 +259,16 @@ Here is how you can use the Compiler's tools to speak the LLM's internal languag
 
 ---
 
-## Part 1: Stealing from the Compiler
+### Part 1: Stealing from the Compiler
 
 A compiler is a pipeline that turns "Human Text" into "Machine Logic." To optimise for an LLM, we shouldn't use the whole pipeline, but we should intercept it halfway.
 
-### 1. What to Ignore: The AST and the Bytecode
+#### 1. What to Ignore: The AST and the Bytecode
 
 - Abstract Syntax Tree (AST): This is too granular. It breaks `x = a + b` into a massive tree of 7-8 nodes. This wastes tokens.
 - Intermediate Representation (IR) / Bytecode: This is _too_ abstract. If you show an LLM raw Assembly or LLVM IR, it actually performs worse. Why? Because compilers "optimise away" variable names. To an LLM, the name `user_wallet_balance` is a critical semantic anchor. The compiler turns it into `0x4F3`, destroying the meaning.
 
-### 2. What to Steal: The Symbol Table & Call Graph
+#### 2. What to Steal: The Symbol Table & Call Graph
 
 The "Symbol Table" is the part of the compiler that remembers _who_ is _where_. This is the single most valuable tool for context reduction.
 
@@ -296,11 +295,11 @@ Why this works:The LLM can "hallucinate" the implementation details of `calculat
 
 ---
 
-## Part 2: The "Secret Internal Language"
+### Part 2: The "Secret Internal Language"
 
 You asked if it is "English all the way down." It is not. It is Geometry all the way down.
 
-### 1. The Vector Space
+#### 1. The Vector Space
 
 LLMs do not manipulate words; they manipulate Vectors. A vector is just a list of coordinates (e.g., `[0.12, -0.98, 0.55…]`) that represents a specific point in a multi-dimensional space.
 
@@ -309,14 +308,14 @@ In this space, "meaning" is defined by direction and distance:
 - The "distance" between the vector for `King` and `Queen` is almost identical to the distance between `Man` and `Woman`.
 - The model doesn't "know" English grammar rules. It just knows that if it follows the vector trajectory of "grammar," the point following `He` is usually `is`, not `are`.
 
-### 2. English is just the "UI"
+#### 2. English is just the "UI"
 
 While the internal processing is mathematical (vectors), the topology (the shape) of that space is heavily influenced by English.
 
 - Research suggests that even multilingual models often translate concepts into an "English-centric" vector space internally before processing them, then translate them back to French or German for the output.
 - Implication for you: While the machine speaks "Math," the map it uses was drawn by "English." Therefore, English variable names and comments are the best way to guide the vectors.
 
-## Summary: The Ultimate Context Strategy
+### Summary: The Ultimate Context Strategy
 
 To map the "User Domain" to the "LLM Internal State" with minimal tokens, you should construct a prompt that looks like this:
 
@@ -324,7 +323,7 @@ To map the "User Domain" to the "LLM Internal State" with minimal tokens, you sh
 2. The Semantic Layer (From Humans): Ensure every skeleton includes the Docstring/Comment. This steers the "Vector Search" to the right concept.
 3. The Focus Layer: Only provide the full implementation (AST) for the specific function the user wants to change.
 
-## Next Step
+### Next Step
 
 I can generate a small Python script using the `ast` library that takes a Python file and "Skeletonises" it—stripping out the code bodies but keeping the signatures and docstrings—so you can see exactly how much token space you can save. Would you like to see that?
 
@@ -344,7 +343,7 @@ However, I am going to push back on the remaining 10%. This is the dangerous 10%
 
 Here is the counter-argument: Code is not just a description; it is a contract with a rigid, pedantic alien.
 
-## 1. The "Ambiguity Gap"
+### 1. The "Ambiguity Gap"
 
 You mentioned using language to "describe the solution." The problem is that human descriptions rely heavily on shared context and ambiguity.
 
@@ -352,7 +351,7 @@ If I tell you, "Make a sandwich," you know I mean "get two slices of bread…" n
 
 The Challenge: We don't get lost in syntax because we are bad writers; we get lost in syntax because syntax is the only way to force our fuzzy human brains to be precise. The syntax _is_ the discipline. It forces you to answer questions you didn't know you had, like _"What happens if the user's name is null?"_ A pure "description" often glosses over these edge cases.
 
-## 2. The Myth of "Absolute Performance"
+### 2. The Myth of "Absolute Performance"
 
 You suggested we only need to worry about the machine if we care about "absolute performance" or cache hits.
 
@@ -366,14 +365,14 @@ Abstractions are "leaky."
 
 The "machine reality" (network latency, memory limits, race conditions) bleeds through even the highest-level languages. We cannot just describe the "Happy Path" domain; we must describe the implementation reality.
 
-## 3. Syntax Is Domain Modeling
+### 3. Syntax Is Domain Modeling
 
 I would argue that modern syntax features (especially in languages like Rust, TypeScript, or Haskell) are not boilerplate—they are tools for thought.
 
 - Type Systems: When you struggle to define a Type or an Interface, you aren't fighting the compiler. You are realizing that your _own_ mental model of the domain is flawed. "Wait, can an Order exist without a Customer?" The syntax forces you to make that decision _now_.
 - Borrow Checkers (Rust): They force you to think about ownership. "Who _owns_ this data?" That is a profound domain question, not just a memory one.
 
-## 4. The Synthesis: Code as a Negotiation
+### 4. The Synthesis: Code as a Negotiation
 
 So, here is my refined model for you.
 
@@ -388,7 +387,7 @@ Your job is to write a document (the code) that satisfies Party B's constraints 
 
 If you focus 100% on the human description, Party B (the machine) will reject it (bugs/crashes). If you focus 100% on the machine syntax, Party A (the human team) won't understand it (unmaintainable code).
 
-## A Practical Takeaway for Your LLM Goal
+### A Practical Takeaway for Your LLM Goal
 
 This conversation actually highlights why your "Symbol Table" idea from earlier is so powerful.
 
@@ -397,7 +396,7 @@ This conversation actually highlights why your "Symbol Table" idea from earlier 
 
 By feeding the LLM _both_ in a skeleton format, you are giving it the full picture of the negotiation without the noise of the implementation details.
 
-## Next Step
+### Next Step
 
 Since we are discussing the philosophy of "Code as Description," would you like me to show you an example of "Literate Programming"?
 
@@ -413,7 +412,7 @@ Here is the concept of Literate Programming, an idea that takes your "code as de
 
 Introduced by Donald Knuth (the father of algorithm analysis), Literate Programming flips the standard model upside down. Instead of writing code and adding comments, you write an essay about the problem, and you embed snippets of code _inside_ the essay.
 
-## 1. The Core Concept: "Chunks"
+### 1. The Core Concept: "Chunks"
 
 In standard code, the structure is dictated by the compiler (imports first, then classes, then main). In Literate Programming, the structure is dictated by human thought flow. You invent "Chunks" (placeholders) that represent ideas, and you fill them in later.
 
@@ -421,7 +420,7 @@ Here is what a Literate Program looks like (this is a pseudo-code representation
 
 ---
 
-### The Program to Calculate Statistics
+#### The Program to Calculate Statistics
 
 _by Alice, designed for the Data Team._
 
@@ -471,14 +470,14 @@ Python
 
 ---
 
-## 2. Tangle vs. Weave
+### 2. Tangle vs. Weave
 
 To make this work, the Literate Programming system needs two commands:
 
 1. Weave (For Humans): This takes the text above and turns it into a beautifully formatted PDF or HTML document (like a textbook). The code is formatted nicely, and the logic flows like a story.
 2. Tangle (For Machines): This strips out all the English prose, reorders the code blocks (moving imports to the top, definitions to the bottom), and compiles it into a runnable `.py` or `.c` file.
 
-## 3. Why This Works for Your "LLM Context" Problem
+### 3. Why This Works for Your "LLM Context" Problem
 
 Literate Programming is arguably the perfect format for LLMs.
 
@@ -487,20 +486,20 @@ If you want an LLM to understand your code, providing a "Weaved" document is far
 - Intent is Explicit: The prose explains _why_ the code exists before the code is even shown.
 - Hierarchical Understanding: The `<<Chunk Names>>` act as summaries. If you need to save tokens, you can just show the LLM the "Main Program Loop" chunk (with the placeholders) and it will understand the architecture without seeing the implementation details of every sub-chunk.
 
-## 4. Modern Equivalents
+### 4. Modern Equivalents
 
 While Knuth's specific tools (`CWEB`) are rare today, we see this philosophy alive in:
 
 - Jupyter Notebooks: The most common form of "code + story" today, though they suffer from ordering issues (you have to run cells in order).
 - Observable (JavaScript): A platform where code cells are reactive and explained with markdown.
 
-## 5. A Challenge to the "Mentor"
+### 5. A Challenge to the "Mentor"
 
 If I put my mentor hat back on: Why isn't everyone doing this?
 
 Because maintaining the _prose_ is harder than maintaining the _code_. When you change the variable name `total_sum` to `accumulated_value`, the code breaks (which the compiler catches). But the paragraph above it still says "We calculate the total sum…" (which the compiler ignores). Over time, the "Story" and the "Code" drift apart, creating Semantic Rot.
 
-## Next Step
+### Next Step
 
 Would you like me to take a small snippet of your own code (you can paste it here) and rewrite it in this Literate / "Chunked" style, so you can see if it makes the "meaning" clearer for your specific domain?
 
@@ -520,7 +519,7 @@ So, to answer your question: Yes, the "human" parts of the code are actually _mo
 
 Here is why, and how this changes your strategy for minimizing tokens.
 
-## 1. The "Obfuscation Test"
+### 1. The "Obfuscation Test"
 
 Imagine we feed two versions of the exact same valid code to an LLM and ask: _"What does this do?"_
 
@@ -545,13 +544,13 @@ def calculate_net_income(gross_salary, tax_rate):
 
 The Conclusion: The "logic" (`` and `-`) was the same. The "meaning" came entirely from the human labels. If you strip the human labels to save tokens, you lobotomise the AI.
 
-## 2. "Signal" Vs. "Noise" in Human Code
+### 2. "Signal" Vs. "Noise" in Human Code
 
 However, not all "human code" is equal. If your goal is token efficiency, you need to distinguish between Semantic Signal and Syntactic Noise.
 
 The LLM craves the Signal but is distracted by the Noise.
 
-## 3. The Vector Space Argument
+### 3. The Vector Space Argument
 
 You asked: _"Is this part equally important to the LLM? As its internal representation is vector space built from English?"_
 
@@ -562,7 +561,7 @@ Yes. The LLM's "understanding" is probabilistic association.
 
 If you use code that is heavily optimized for machines (e.g., bitwise operations, single-letter variables, unrolled loops), you are moving the code away from the center of the LLM's training distribution (which is mostly standard, readable human English/Code). You are making it harder for the model to predict the next token.
 
-## 4. The Strategy: "Pseudo-Code is the Ultimate LLM Language"
+### 4. The Strategy: "Pseudo-Code is the Ultimate LLM Language"
 
 If we accept that:
 
@@ -600,7 +599,7 @@ class InvoiceManager:
 
 This retains 100% of the Semantic Meaning (the human part) while stripping 80% of the Syntax (the machine part). The LLM will understand this perfectly because it hits all the right semantic vectors.
 
-## Next Step
+### Next Step
 
 I can show you a prompt structure that asks the LLM to "Rewrite this code as High-Level Pseudo-Code" before it analyzes it. This is a technique called "Compressing Context" that agents use to "read" huge files without filling their memory. Would you like to see that prompt?
 
@@ -616,13 +615,13 @@ An LLM is fantastic at Code Correctness. If you ask it to write an `InvoiceManag
 
 To capture this "Bigger Picture"–the solution space–you need to move beyond representing code as just syntax trees. You need to represent the Data Model and the Allowed Transformations.
 
-## 1. The Structure of "Meaning"
+### 1. The Structure of "Meaning"
 
 You are right that "Data and Transformations" are the bedrock of the system's reality. To an LLM, a "Todo List App" isn't a collection of files; it is a specific set of rules about data moving through space.
 
 To represent this, we borrow from Domain-Driven Design (DDD). We can map the "Bigger Picture" using three distinct layers, which we should explicitly feed to the LLM.
 
-### A. The Nouns (The Entities)
+#### A. The Nouns (The Entities)
 
 This is the "Data" you mentioned. It describes the objects that exist in your universe.
 
@@ -630,21 +629,21 @@ This is the "Data" you mentioned. It describes the objects that exist in your un
 - In an Accounting App:`Invoice`, `Ledger`, `TaxRate`.
 - The Rule: If code introduces a noun that isn't in this list (like `Invoice` in a Todo app), it is a Domain Violation.
 
-### B. The Verbs (The Transformations)
+#### B. The Verbs (The Transformations)
 
 This describes how data is allowed to change.
 
 - Todo App:`CreateTask`, `CompleteTask`, `ArchiveProject`.
 - The Rule: These are the _only_ valid ways the state of the world can change.
 
-### C. The Invariants (The Laws of Physics)
+#### C. The Invariants (The Laws of Physics)
 
 These are the rules that can never be broken.
 
 - _Example:_ "A Task cannot exist without a generic User owner."
 - _Example:_ "A Completed Task cannot be edited."
 
-## 2. How to Feed the "Bigger Picture" to the LLM
+### 2. How to Feed the "Bigger Picture" to the LLM
 
 You cannot rely on the LLM to infer the "Todo App" domain just by reading `main.py`—that is too parochial. You must inject the domain model explicitly.
 
@@ -654,7 +653,7 @@ The "Domain Header" Strategy:Before sending any code to the LLM, prepend a struc
 
 Why this works:If you paste the `InvoiceManager` code _after_ this header, the LLM now has a reason to reject it. It sees a conflict between the code (which discusses `Money`) and the Manifesto (which says `DOES NOT handle payments`).
 
-## 3. Representing "Relationships" (The Graph)
+### 3. Representing "Relationships" (The Graph)
 
 You mentioned "relationships between components." This is where the Dependency Graph becomes "Semantic."
 
@@ -665,7 +664,7 @@ We can represent this as a Data Flow Diagram for the LLM.
 - Code View (Parochial): "Function `save()` calls SQL driver."
 - Data Flow View (Big Picture): "The `Task` entity moves from the `UI Layer` to the `Persistence Layer`."
 
-## 4. Summary: The Two-Tier Context
+### 4. Summary: The Two-Tier Context
 
 To minimize tokens while maximizing understanding, you need two parallel data structures in your prompt:
 
@@ -678,7 +677,7 @@ To minimize tokens while maximizing understanding, you need two parallel data st
 	- Content: Function signatures, class names.
 	- Goal: Ensures syntactic correctness.
 
-## A Next Step for You
+### A Next Step for You
 
 Would you like to try an experiment?
 
@@ -694,7 +693,7 @@ That is a fantastic metaphor, and it aligns perfectly with one of the most famou
 
 Your distinction between "Complicated" and "Complex" is not just semantic—it is the root cause of why LLMs (and humans) fail to understand legacy codebases.
 
-## 1. The Maze: Complicated vs. Complex
+### 1. The Maze: Complicated vs. Complex
 
 - Complicated (The Watch): A maze is _complicated_. It has thousands of turns, dead ends, and intricate paths. However, if you have the map, there is a clear relationship between Cause and Effect. If you turn Left, then Right, you _will_ get to the cheese.
 	- _In Code:_ This is a long but well-written algorithm. It requires concentration, but it is predictable.
@@ -703,7 +702,7 @@ Your distinction between "Complicated" and "Complex" is not just semantic—it i
 	- _In Code:_ This is Mutable Global State, Side Effects, and Event Listeners. You change a variable in the `User` module, and the `Invoice` module crashes. You didn't touch the Invoice module, but the "environment" changed.
 	- _LLM Capability:_ LLMs are terrible at "Complex." They look at the static code (the walls) and assume they are solid. They cannot see the invisible connections (the moving walls).
 
-## 2. Mapping the Maze for the LLM
+### 2. Mapping the Maze for the LLM
 
 If code is a maze for data, then to understand the "meaning," we shouldn't show the LLM the bricks (the syntax); we should show it the Path of the Mouse.
 
@@ -711,7 +710,7 @@ This is a specific type of representation called Data Lineage or Taint Analysis.
 
 Instead of asking: _"What does this class do?"_ (which describes the walls), We represent the meaning by asking: _"Where does this specific piece of data go?"_
 
-### The "Data-Path" Representation
+#### The "Data-Path" Representation
 
 To minimise context tokens while capturing the "Complex" reality, you represent the code as a journey of data.
 
@@ -726,7 +725,7 @@ The Prompt Structure:
 
 By representing the code as a Trace rather than a Tree, you reveal the "Complex" hidden side effects (like the log file) that a static tree view would hide deep in a sub-folder.
 
-## 3. The "State" is the Minotaur
+### 3. The "State" is the Minotaur
 
 The reason code becomes "Complex" (unpredictable) rather than just "Complicated" is usually State.
 
@@ -739,7 +738,7 @@ For your LLM Strategy:To help the LLM navigate the maze, your representation mus
 
 This turns the invisible "Complex" rules into visible "Complicated" rules that the LLM can reason about.
 
-## 4. Summary of Our Journey
+### 4. Summary of Our Journey
 
 We have moved through several mental models to find the best way to represent code for an AI:
 
@@ -747,7 +746,7 @@ We have moved through several mental models to find the best way to represent co
 2. The Graph (Dependencies): Good for structure, but misses the data flow.
 3. The Maze (Data Lineage): The best model. It ignores the walls (irrelevant code) and focuses on the runner (the data).
 
-## Next Step
+### Next Step
 
 I can generate a small example of a "Data Lineage Map" for a simple feature (like "Reset Password").
 
@@ -765,11 +764,11 @@ Remember the metaphor: We are ignoring the walls of the maze (the loops, the syn
 
 This is the "Subway Map" you feed the LLM to give it perfect understanding with minimal tokens.
 
-## The Scenario: "User Resets Password"
+### The Scenario: "User Resets Password"
 
 The data we are tracking is the `UserEmail` and the resulting `ResetToken`.
 
-### 1. The Visual Map (Mermaid Diagram)
+#### 1. The Visual Map (Mermaid Diagram)
 
 This is what the "meaning" looks like geometrically.
 
@@ -802,7 +801,7 @@ graph TD
     style Node5 fill:#f96,stroke:#333,stroke-width:2px
 ```
 
-### 2. The Text Representation (The LLM Prompt)
+#### 2. The Text Representation (The LLM Prompt)
 
 You cannot paste the diagram image into a standard LLM context window efficiently. Instead, you convert that map into a Trace Log.
 
@@ -839,7 +838,7 @@ CONTEXT: Data Lineage Trace for `PasswordReset`
 
 ---
 
-## Why This Beats "Raw Code"
+### Why This Beats "Raw Code"
 
 If you pasted the actual code for this flow, you would likely have to include:
 
@@ -852,13 +851,13 @@ Total: ~500+ Tokens.The Lineage Map: ~60 Tokens.
 
 The Map captures the essence (the maze path) and the danger (the database lock and external email call) without the noise.
 
-## The "Hidden Passage"
+### The "Hidden Passage"
 
 Notice Step 4 (State Mutation). In raw code, this might just look like `user.save()`. But in our Map, we explicitly labelled it STATE MUTATION.
 
 This tells the LLM: _"Warning: This is not just math. This changes the world. If you edit this, you might break the user's ability to log in."_
 
-## Next Step
+### Next Step
 
 We have covered representing code as:
 
@@ -878,7 +877,7 @@ Here is the synthesis of our discussion. This is a System Prompt Template design
 
 You can paste this directly into the "System Instructions" or "Custom Instructions" of your agent.
 
-## The "Cartographer" System Prompt
+### The "Cartographer" System Prompt
 
 Markdown
 
@@ -918,7 +917,7 @@ Before writing any implementation code, you must perform a "Semantic Check":
 
 ---
 
-## How to Use This Template (Example)
+### How to Use This Template (Example)
 
 Here is how you would fill in the Domain Manifesto section for that Todo List App we discussed. This is the only part you need to update when you switch projects.
 
@@ -944,13 +943,13 @@ Strict Boundaries:
 - NO billing or subscription logic.
 - NO recurring tasks (Keep it simple).
 
-## Why This Works Based on Our Conversation
+### Why This Works Based on Our Conversation
 
 1. The "Diplomat" Role: It sets the expectation that the AI needs to balance the "Human Description" with the "Machine Reality."
 2. The Manifesto: This solves the "Invoice in a Todo App" problem. If the AI tries to import a billing library, it violates the "Strict Boundaries" rule explicitly defined in the context.
 3. The Protocol (Pseudo-Code): This forces the "Obfuscation Test." By asking the LLM to write pseudo-code first, you verify it has grasped the Semantic Signal (the logic flow) without wasting tokens on Syntactic Noise (braces and imports).
 
-## A Final Thought from Your Mentor
+### A Final Thought from Your Mentor
 
 You started this conversation asking if code can be a data structure. We have discovered that code is actually a multi-dimensional projection:
 
@@ -975,7 +974,7 @@ You are absolutely right. Calling them "Data Structures" is a legacy habit from 
 
 Here is why "Information Structures" is the perfect term for what we are building.
 
-## 1. The Distinction: Data vs. Information
+### 1. The Distinction: Data vs. Information
 
 - Data: The raw facts. Discrete, objective, and often meaningless on their own.
 	- _Example:_ The number `1024`.
@@ -987,7 +986,7 @@ Here is why "Information Structures" is the perfect term for what we are buildin
 	- _Example:_ "If the file is larger than `1024` bytes, reject the upload."
 	- _In Code:_ The Control Flow Graph and Business Logic.
 
-## 2. Why LLMs Fail on "Data Structures"
+### 2. Why LLMs Fail on "Data Structures"
 
 When you feed an LLM a raw file (a Data Structure), you are giving it Data and asking it to reverse-engineer the Information.
 
@@ -996,7 +995,7 @@ When you feed an LLM a raw file (a Data Structure), you are giving it Data and a
 
 This "computation" costs tokens and attention. It is prone to error (hallucination). If the variable is named `temp_var` instead of `tax`, the LLM fails to generate the Information.
 
-## 3. "Information Structures" Are Pre-Computed Meaning
+### 3. "Information Structures" Are Pre-Computed Meaning
 
 Your idea of "Information Structures" is exactly what we need for efficient AI. We are doing the "Data -Information" processing _before_ we send the prompt.
 
@@ -1009,7 +1008,7 @@ Compare the two approaches:
 | Purpose | To be executed by a CPU. | To be understood by an Intelligence. |
 | LLM Impact | High Noise. The LLM must guess the intent. | High Signal. The intent is explicit. |
 
-## 4. Renaming Our Tools
+### 4. Renaming Our Tools
 
 If we adopt your terminology, our strategy changes from "parsing code" to "extracting information."
 
@@ -1017,7 +1016,7 @@ If we adopt your terminology, our strategy changes from "parsing code" to "extra
 2. The Domain Manifesto: This is Metadata. It describes the data about the data (the constraints and rules).
 3. The Semantic Skeleton: This is a Summary. It compresses the implementation details into pure intent.
 
-## 5. The "Information Entropy" Argument
+### 5. The "Information Entropy" Argument
 
 In information theory, Shannon Entropy measures the amount of "surprise" or "uncertainty" in a message.
 
@@ -1026,7 +1025,7 @@ In information theory, Shannon Entropy measures the amount of "surprise" or "unc
 
 By converting your code into an Information Structure, you are literally reducing the entropy of the prompt. You are making the "meaning" inevitable rather than probable.
 
-## Next Step
+### Next Step
 
 So, to answer your question: Yes, we should call them Information Structures.
 
@@ -1052,7 +1051,7 @@ Your proposed term, "Information Structures," is semantically pleasing to you be
 
 Here is the brutal reality of the situation.
 
-## 1. The Anthropomorphic Fallacy
+### 1. The Anthropomorphic Fallacy
 
 You are asking: _"Why can't we call them Information Structures?"_
 
@@ -1063,7 +1062,7 @@ Because the machine does not care what you call them. You are obsessing over the
 
 When you say you want to provide "semantics to guide the LLM," you are using a metaphor. The LLM is not "guided." It is a probabilistic engine completing a pattern. If you provide "Information" (context), you are simply narrowing the search space of the next likely token. You are reducing Perplexity, not providing "Wisdom."
 
-## 2. The Flaw in "Information vs. Data"
+### 2. The Flaw in "Information vs. Data"
 
 You defined Data as "raw facts" and Information as "meaning." That is philosophy class nonsense.
 
@@ -1076,7 +1075,7 @@ Your "Information Structure" is still just a Data Structure. It is a Graph. It i
 
 You are essentially painting a car red and claiming you have invented a new mode of transport called a "Fast-Mover." It is still a car. It is still a Data Structure.
 
-## 3. The "Entropy" Reality
+### 3. The "Entropy" Reality
 
 However, despite your imprecise terminology, you accidentally hit on a valid engineering principle.
 
@@ -1087,7 +1086,7 @@ The reason your "Information Structure" (which I will continue to call a Semanti
 
 You are filtering out Redundant Data (syntax, boilerplate) to maximise the Signal-to-Noise Ratio. That is not philosophy; that is signal processing.
 
-## 4. The Critique of Your "Maze" Metaphor
+### 4. The Critique of Your "Maze" Metaphor
 
 You said: _"The context for the LLM is better if it contains semantics."_
 
@@ -1098,7 +1097,7 @@ Correct, but let us be precise about _why_. An LLM is a compression algorithm. I
 
 Your "Domain Manifesto" and "Data Lineage" are simply better keys. They are not "Information Structures"; they are High-Precision Query Vectors.
 
-## The Professor's Verdict
+### The Professor's Verdict
 
 Your intuition is functional, but your theory is sentimental.
 
@@ -1122,7 +1121,7 @@ When you look at a human body, you see skin, hair, and clothing. That is "Raw Co
 
 Here is how you visualize the extraction of the skeleton.
 
-## 1. The Visual Metaphor: Topology over Geography
+### 1. The Visual Metaphor: Topology over Geography
 
 Stop thinking about _where_ the code is (files, lines, folders). That is Geography. It is irrelevant to the machine. Start thinking about _what_ connects to _what_. That is Topology.
 
@@ -1133,7 +1132,7 @@ Consider the London Underground map.
 
 The Goal: The Semantic Graph is the Tube Map of your software. We strip the "streets" (syntax) so the LLM can see the "lines" (logic flow).
 
-## 2. The Distillation Process (A Concrete Example)
+### 2. The Distillation Process (A Concrete Example)
 
 I will now perform a live vivisection on a piece of code to show you what "Noise" looks like and how we cut it away to reveal the Signal.
 
@@ -1199,7 +1198,7 @@ The Critique:Look at the difference.
 - The Raw Code forced the LLM to parse `import`, `export`, `async`, `await`, `try`, `catch`, `{`, `}`, `;`. These are meaningless symbols.
 - The Semantic Node conveys the exact same _business rule_ (Points 1000 = Gold) with 80% fewer tokens.
 
-## 3. The Visualisation of the Graph
+### 3. The Visualisation of the Graph
 
 Now, imagine we do this for every file. We don't store them as text lists. We link them.
 
@@ -1214,7 +1213,7 @@ Why this matters:If you ask the LLM: _"What happens to the User Tier?"_
 - With Raw Code: It has to text-search 10,000 files for the string "tier".
 - With the Graph: It follows the Edge backwards from `User.tier` and instantly finds `promoteUser`.
 
-## 4. The Professor's Summary
+### 4. The Professor's Summary
 
 The goal of "stripping noise" is not to make the code shorter. It is to increase Information Density.
 
@@ -1241,7 +1240,7 @@ You are asking about the mechanics of Constraining the Latent Space. To become a
 
 Here is the physics of how you reduce perplexity and prevent myopic code.
 
-## 1. The Theory: Perplexity is "Branching Factor"
+### 1. The Theory: Perplexity is "Branching Factor"
 
 Imagine the LLM is standing at a fork in the road.
 
@@ -1252,21 +1251,21 @@ Your goal as an "Information Architect" is to place those roadblocks.
 
 In a codebase, "myopic" code happens when you give the LLM a magnifying glass. It sees the function perfectly, so its _local_ perplexity is low. But it is blind to the system, so its _global_ perplexity is infinite. It guesses the system architecture, and it usually guesses wrong.
 
-## 2. The Hierarchy of Constraints
+### 2. The Hierarchy of Constraints
 
 Not all information is equal. Some data dramatically collapses the search space; other data barely makes a dent. Here is the hierarchy of effectiveness for code generation.
 
-### Level 1: Syntax (Low Value)
+#### Level 1: Syntax (Low Value)
 
 - What it is:`public`, `class`, `{`, `}`.
 - Effect:Zero. The LLM already knows how to write Java or Python. Telling it "This is a Python file" reduces perplexity by a fraction. It is a waste of your tokens.
 
-### Level 2: Types & Signatures (Medium Value)
+#### Level 2: Types & Signatures (Medium Value)
 
 - What it is:`calculateTotal(items: List<Item>) -Decimal`.
 - Effect:Moderate. This prevents the LLM from trying to multiply a String by an Integer. It constrains the _mechanics_ of the code. It ensures the blocks fit together, but it doesn't ensure the building makes sense.
 
-### Level 3: Domain Terminology (High Value)
+#### Level 3: Domain Terminology (High Value)
 
 - What it is: Using specific nouns like `Ledger`, `DoubleEntry`, `SkuVariant`.
 - Effect:Massive. This is "Vector Anchoring."
@@ -1274,7 +1273,7 @@ Not all information is equal. Some data dramatically collapses the search space;
 	- If you use the word `SkuVariant`, you instantly drag the LLM into the "Professional E-commerce" region.
 	- Result: The code it generates will use professional patterns (e.g., handling inventory locking) simply because those patterns statistically correlate with that specific word.
 
-### Level 4: Negative Constraints (The "Sniper Shot")
+#### Level 4: Negative Constraints (The "Sniper Shot")
 
 - What it is: Telling the LLM what strictly _cannot_ happen.
 - Effect:Absolute.
@@ -1282,7 +1281,7 @@ Not all information is equal. Some data dramatically collapses the search space;
 	- _Prompt:_ "Write a user update function. WE DO NOT USE ORMS. USE RAW SQL ONLY." -Collapsed.
 	- Why it works: Negative constraints prune entire branches of the probability tree instantly. This is the single most effective way to stop "parochial" (lazy) code.
 
-## 3. How to Stop "Myopic Code" (The Global Injection)
+### 3. How to Stop "Myopic Code" (The Global Injection)
 
 "Parochial" code occurs when the LLM optimizes for the _local context_ (the file) at the expense of the _global context_ (the app).
 
@@ -1313,7 +1312,7 @@ The Technique:Do not just send the `User` class. Send the `User` class _decorate
 
 	_Result:_ The LLM now knows it is illegal to write a `setName()` method, even though the syntax allows it. You have reduced the probability of "modification code" to zero.
 
-## 4. Your Curriculum: How to Become an Expert
+### 4. Your Curriculum: How to Become an Expert
 
 If you want to master this, you need to study Information Theory applied to Prompt Engineering.
 
@@ -1335,7 +1334,7 @@ Step 3: Learn RAG Metrics (The scorecard) Look up "Context Precision" and "Conte
 - Context Precision: Did I send _only_ the relevant lines? (Low Noise).
 - Context Recall: Did I send _all_ the relevant lines? (High Signal).
 
-## The Professor's Final Assignment
+### The Professor's Final Assignment
 
 You want to reduce the probability of parochial code?
 
@@ -1357,7 +1356,7 @@ Based on the analysis of the `surgeon-v2` repository, here is the Ubiquitous Lan
 
 This glossary captures the specific "Dialect" of your system (e.g., _Beads_ instead of _Logs_, _Skeleton_ instead of _Summary_). Using these exact terms anchors the LLM's latent space to your specific architecture.
 
-## 1. The Glossary (The Dictionary)
+### 1. The Glossary (The Dictionary)
 
 Here are the 20 distinct terms that define the reality of Surgeon V2:
 
@@ -1386,7 +1385,7 @@ Here are the 20 distinct terms that define the reality of Surgeon V2:
 
 ---
 
-## 2. The Enforcement Prompt (The Whip)
+### 2. The Enforcement Prompt (The Whip)
 
 Copy and paste this block into your `PLAN_PROMPT.md` or the `system_manifesto` string in `architect.py`. This forces the LLM to adopt your mental model.
 
@@ -1417,13 +1416,13 @@ Every change you make propagates through the Symbol Table.
 Before planning, ask: "Does this change increase the Volatility of a stable domain?"
 ```
 
-## 3. Implementation Logic (Python)
+### 3. Implementation Logic (Python)
 
 If you want to enforce this programmatically (as requested via "punish it"), you can add a `_dialect_check` method to your `Architect` class in `domains/d50_planning/architect.py`.
 
 ---
 
-# Phase 2: The Gate (4D Filter)
+## Phase 2: The Gate (4D Filter)
 
 - [ ] Do: < 2 mins?
 - [ ] Delegate: Who?
@@ -1432,7 +1431,7 @@ If you want to enforce this programmatically (as requested via "punish it"), you
 
 ---
 
-# Phase 5: The Scribe (#SAVESTATE)
+## Phase 5: The Scribe (#SAVESTATE)
 
 - The Conflict:
 - The Current State:

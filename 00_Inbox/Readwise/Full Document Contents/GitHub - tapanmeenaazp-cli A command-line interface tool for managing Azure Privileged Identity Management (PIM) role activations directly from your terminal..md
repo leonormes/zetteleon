@@ -1,6 +1,6 @@
 ---
 created: 2026-01-14T19:42:45+00:00
-modified: 2026-01-20T15:33:30+00:00
+modified: 2026-01-21T12:19:14+00:00
 tags: [articles]
 title: "GitHub - tapanmeena/azp-cli: A Command-line Interface Tool for Managing Azure Privileged Identity Management (PIM) Role Activations Directly from Your Terminal"
 ---
@@ -62,7 +62,7 @@ Before using azp-cli, ensure you have:
 
 ##### Azure CLI Setup
 
-```
+```sh
 # Install Azure CLI (if not installed)
 # See: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
 
@@ -77,7 +77,7 @@ az account show
 
 ##### Global Installation (Recommended)
 
-```
+```sh
 # Using npm
 npm install -g azp-cli
 
@@ -92,7 +92,7 @@ After installation, the `azp` command will be available globally.
 
 ##### From Source (Development)
 
-```
+```sh
 # Clone the repository
 git clone https://github.com/tapanmeena/azp-cli.git
 cd azp-cli
@@ -111,7 +111,7 @@ npm link
 
 ##### Running the CLI
 
-```
+```sh
 # After global installation
 azp
 
@@ -149,7 +149,7 @@ pnpm dev
 
 You can check if a newer version is available:
 
-```
+```sh
 azp update
 # alias
 azp upgrade
@@ -173,7 +173,7 @@ Use flags to activate or deactivate PIM roles directly without going through the
 
 ###### Activation Examples
 
-```
+```sh
 # Activate a single role by name (non-interactive)
 azp activate --no-interactive --yes \
    --subscription-id <SUBSCRIPTION_GUID> \
@@ -204,7 +204,7 @@ azp activate --no-interactive --dry-run \
 
 ###### Deactivation Examples
 
-```
+```sh
 # Deactivate specific roles
 azp deactivate --no-interactive --yes \
    --subscription-id <SUBSCRIPTION_GUID> \
@@ -399,7 +399,7 @@ git push --follow-tags
 
 1. Publish to npm (if desired):
 
-```
+```sh
 npm publish
 # or
 pnpm publish
@@ -407,7 +407,7 @@ pnpm publish
 
 ##### Project Structure
 
-```
+```sh
 azp-cli/
 ├── src/
 │   ├── index.ts          # CLI entry point and command definitions
@@ -439,7 +439,7 @@ azp-cli/
 
 Ensure Azure CLI is installed and accessible in your PATH:
 
-```
+```sh
 az --version
 ```
 
@@ -447,13 +447,13 @@ az --version
 
 1. Make sure you're logged in to Azure CLI:
 
-```
+```sh
 az login
 ```
 
 2. Verify your account has PIM-eligible roles:
 
-```
+```sh
 az account show
 ```
 

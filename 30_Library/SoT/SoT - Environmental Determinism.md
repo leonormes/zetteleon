@@ -1,33 +1,42 @@
 ---
-aliases: ["Lewin's Equation", "Context Dependence", "Vietnam Heroin Study"]
+aliases: ["Context Dependence", "Lewin's Equation", "Vietnam Heroin Study"]
 confidence: "High"
 created: 2026-01-12T12:10:00+00:00
 epistemic: "Synthesized from Kurt Lewin and the Vietnam Heroin Study."
+modified: 2026-01-22T08:08:51+00:00
 status: "stable"
-tags: ["behavioral-science", "systems-engineering", "prodos/sot"]
+tags: ["behavioral-science", "prodos/sot", "systems-engineering"]
 title: SoT - Environmental Determinism
 type: "SoT"
 ---
 
-# Environmental Determinism
+## Environmental Determinism
 
 The "Great Man" theory of discipline—that character drives behavior—is mathematically incorrect. Behavior is primarily a function of context.
 
-## 1. Lewin's Equation
-$$B = f(P, E)$$
-*Behavior (B) is a function of the Person (P) in their Environment (E).*
+### 1. Lewin's Equation
+
+$$
+B = f(P, E)
+$$
+
+_Behavior (B) is a function of the Person (P) in their Environment (E)._
 
 - **Person (P):** Relatively fixed. Changing "who you are" (P) is slow and hard.
 - **Environment (E):** Highly malleable. Changing the room (E) is fast and effective.
 - **The Insight:** To change Behavior ($B$), it is infinitely more efficient to solve for $E$ than for $P$.
 
-## 2. Context Dependence
-Habits are not isolated actions; they are responses to environmental cues.
-- You don't have a "smoking habit"; you have a "smoking-on-the-porch" habit.
-- The environment *is* the trigger. If the cue is invisible, the habit loop does not fire.
+### 2. Context Dependence
 
-## 3. The Vietnam Heroin Study
+Habits are not isolated actions; they are responses to environmental cues.
+
+- You don't have a "smoking habit"; you have a "smoking-on-the-porch" habit.
+- The environment _is_ the trigger. If the cue is invisible, the habit loop does not fire.
+
+### 3. The Vietnam Heroin Study
+
 The ultimate validation of $E > P$.
+
 - **Context:** 20% of US soldiers in Vietnam were addicted to heroin.
 - **Prediction:** A massive opioid crisis upon their return.
 - **Reality:** **90%** ceased addiction overnight upon returning home.
