@@ -1,6 +1,6 @@
 ---
 created: 2026-01-21T13:41:08+00:00
-modified: 2026-01-22T11:08:23+00:00
+modified: 2026-01-22T20:01:29+00:00
 title: Have You Solved Understanding
 ---
 
