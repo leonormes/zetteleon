@@ -1,7 +1,7 @@
 ---
 captured: "2026-01-21T07:19:31+00:00 2026-01-21T07:19:31+00:00"
 created: 2026-01-21T07:19:33+00:00
-modified: 2026-01-22T11:10:50+00:00
+modified: 2026-01-23T08:13:53+00:00
 source: "https://gemini.google.com/share/494060b82dca"
 status: "phase-1"
 tags: ["input"]
@@ -75,7 +75,7 @@ Imagine you want a specific SQL query.
 
 - Constraint Approach (Your current view):
 
-> "Write a SQL query. Do not use JOINs. Do not use nested selects. Only use the 'users' table." _Why this fails:_ You are fighting the model's training data, which likely associates "SQL query" with JOINs. You are forcing it to negate its own probabilities.
+"Write a SQL query. Do not use JOINs. Do not use nested selects. Only use the 'users' table." _Why this fails:_ You are fighting the model's training data, which likely associates "SQL query" with JOINs. You are forcing it to negate its own probabilities.
 
 - Conditioning Approach (The objective view):
 
@@ -133,7 +133,7 @@ The Fix: Remove this requirement unless you are injecting a dependency graph int
 
 You require:
 
-> "Explicitly state which Illegal State has been made unrepresentable… how the type system was tightened."
+"Explicitly state which Illegal State has been made unrepresentable… how the type system was tightened."
 
 The Critique: This constraint is too rigid. It assumes every commit is a refactor of the type system (Type-Driven Development). What happens if the commit is a simple string literal change? Or a documentation update? Or a whitespace fix? Because you have constrained the model to _always_ provide "TRUTH-IN-TYPES," it will invent a profound architectural justification for a trivial change. It will lie to satisfy your constraint.
 
