@@ -4,7 +4,7 @@ confidence: null
 created: 2025-12-04T10:52:37Z
 epistemic: null
 last_reviewed: null
-modified: 2025-12-23T17:53:55Z
+modified: 2026-01-23T18:09:32+00:00
 purpose: null
 review_interval: null
 see_also: []
@@ -32,22 +32,22 @@ REQUIRED OUTPUT FORMAT:
 
 - Distill the input into a single axiom or rule.
 
-2. Atomic Concepts (Potential Nodes)
+1. Atomic Concepts (Potential Nodes)
 
 - List the key nouns/entities found in the text as wikilinks.
 - Format: - [[Concept Name]]
 
-3. Theoretical Relationships (Edges)
+1. Theoretical Relationships (Edges)
 
 - How do these concepts relate? Use logic operators (Causes, Inhibits, Requires, Contradicts).
 - Format: [[Concept A]] -> (Relationship) -> [[Concept B]]
 
-4. Alignment (Mental Models)
+1. Alignment (Mental Models)
 
 - Which existing mental models or frameworks does this align with?
 - Format: - [[Framework Name]]
 
-5. Taxonomy Suggestions
+1. Taxonomy Suggestions
 
 - Suggested tags based on domain.
 - Format: #domain/sub-domain

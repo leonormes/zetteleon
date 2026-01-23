@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T14:01:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: "To outline the foundational ideas behind time blocking."
 review_interval: "90"
 see_also: ["[[SoT - Temporal Management (Blocking and Boxing)]]"]

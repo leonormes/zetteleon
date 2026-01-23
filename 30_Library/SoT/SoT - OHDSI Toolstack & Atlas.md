@@ -4,12 +4,10 @@ confidence: "High"
 created: 2026-01-06T19:27:09+00:00
 epistemic: "Technical"
 last_reviewed: 
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "To define the standard software architecture of the OHDSI ecosystem, specifically the 'Write-to-Read' pattern of Atlas and WebAPI."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - OHDSI Read-Only Architecture]]"
-  - "[[SoT - OMOP Common Data Model (CDM)]]"
+see_also: ["[[SoT - OHDSI Read-Only Architecture]]", "[[SoT - OMOP Common Data Model (CDM)]]"]
 source_of_truth: []
 status: "Active"
 tags: ["atlas", "ohdsi", "SoftwareEngineering", "SoftwareEngineering/Architecture"]
@@ -28,18 +26,20 @@ updated:
 The OHDSI stack is structured into distinct layers: **Standards**, **ETL**, **Web Platform**, and **Analytics (HADES)**.
 
 #### A. Data Standards Layer
-*The schema and semantic framework.*
+
+_The schema and semantic framework._
 
 | Repository | Description |
-| :--- | :--- |
+|:--- |:--- |
 | **[CommonDataModel](https://github.com/OHDSI/CommonDataModel)** | **The Kernel.** DDLs for the OMOP CDM (Oracle, SQL Server, Postgres, etc.). |
 | **[Vocabulary-v5.0](https://github.com/OHDSI/Vocabulary-v5.0)** | Build process for Standardized Vocabularies. (Users typically use **Athena**). |
 
 #### B. ETL & Data Engineering Layer
-*Tools to profile, map, and validate source data.*
+
+_Tools to profile, map, and validate source data._
 
 | Repository | Description |
-| :--- | :--- |
+|:--- |:--- |
 | **[WhiteRabbit](https://github.com/OHDSI/WhiteRabbit)** | **Profiler.** Scans source DBs to report on structures and value frequencies. |
 | **[RabbitInAHat](https://github.com/OHDSI/WhiteRabbit)** | **Design Tool.** Graphical UI for drawing mappings from Source to CDM. |
 | **[Usagi](https://github.com/OHDSI/Usagi)** | **Semantic Mapper.** Maps source codes to OMOP concepts using text similarity. |
@@ -47,16 +47,18 @@ The OHDSI stack is structured into distinct layers: **Standards**, **ETL**, **We
 | **[Achilles](https://github.com/OHDSI/Achilles)** | **Characteriser.** Computes descriptive statistics (counts, treemaps) for Atlas/Ares. |
 
 #### C. The Web Platform (Application Layer)
-*User-facing tools for cohort design and analysis.*
+
+_User-facing tools for cohort design and analysis._
 
 | Repository | Description |
-| :--- | :--- |
+|:--- |:--- |
 | **[Atlas](https://github.com/OHDSI/Atlas)** | **The Frontend.** SPA (Knockout.js) for designing cohorts and analyses. |
 | **[WebAPI](https://github.com/OHDSI/WebAPI)** | **The Backend.** Java (Spring Boot) REST service. Manages state and SQL translation. |
 | **[Ares](https://github.com/OHDSI/Ares)** | **Data Catalog.** Static site generator for network data characterization. |
 
 #### D. HADES (Analytics Engine)
-*Health Analytics Data-to-Evidence Suite. The "Standard Library" of R packages.*
+
+_Health Analytics Data-to-Evidence Suite. The "Standard Library" of R packages._
 
 - **Drivers:** `DatabaseConnector` (JDBC wrapper), `SqlRender` (Cross-dialect translation).
 - **Core Analytics:**
@@ -71,13 +73,14 @@ The OHDSI stack is structured into distinct layers: **Standards**, **ETL**, **We
 There is a critical distinction between the UI and the Engine:
 
 | Repository | Status | Role |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **OHDSI/Circe** | 🔴 **Archived** | Legacy standalone UI. Replaced by **ATLAS**. |
 | **OHDSI/circe-be** | 🟢 **Active** | The Java library ("Backend") that compiles cohort logic into SQL. |
 
 #### B. WebAPI Documentation
 
 WebAPI uses **Miredot** to generate static HTML documentation from Java source code.
+
 - **No OpenAPI:** There is **no machine-readable Swagger/OpenAPI definition** available.
 - **Reference:** The `ROhdsiWebApi` R package is often the most accurate "client definition" available.
 
@@ -96,7 +99,7 @@ WebAPI uses **Miredot** to generate static HTML documentation from Java source c
 Standard OHDSI tools assume a **Stateful Execution Model**.
 
 1. **Definition:** User clicks "Generate" in Atlas.
-2. **Compilation:** Logic is converted to `INSERT INTO #cohort SELECT...`.
+2. **Compilation:** Logic is converted to `INSERT INTO #cohort SELECT…`.
 3. **Materialization:** The database engine executes the query and writes the result (Subject ID, Date) to the `COHORT` table.
 4. **Analysis:** Downstream tools query the `COHORT` table directly.
 

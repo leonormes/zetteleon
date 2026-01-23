@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-15T10:49:42Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:57+00:00
+modified: 2026-01-23T18:09:28+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -31,7 +31,7 @@ Grafana Cloud offers a comprehensive system for monitoring, alerting, and incide
 3. **Notification Policies (Routing)**: These manage how alert instances are routed to contact points, including escalation paths and grouping.
 4. **Alert Instances and States**: When an alert rule condition is met, an alert instance is created and goes through states like pending, firing, or recovered.
 5. **Alertmanager**: This component handles alert deduplication, grouping, silencing, and routing notifications.
-6. **Integrations with OnCall and Messaging Tools**: Grafana’s alerting system integrates with OnCall tools and Slack to facilitate incident management and collaboration.
+6. **Integrations with OnCall and Messaging Tools**: Grafana's alerting system integrates with OnCall tools and Slack to facilitate incident management and collaboration.
 
 ---
 
@@ -40,7 +40,7 @@ Grafana Cloud offers a comprehensive system for monitoring, alerting, and incide
 #### Scenario: A Problematic Cluster Pod Causes a Service Disruption
 
 1. **Problem Occurrence**: A Kubernetes pod in a cluster becomes unresponsive due to resource exhaustion.
-2. **Metrics Trigger Alert Rule**: Grafana Cloud’s alert rules monitor CPU and pod health metrics continuously. The alert rule for "High CPU Usage" triggers after the CPU remains above threshold for 5 minutes.
+2. **Metrics Trigger Alert Rule**: Grafana Cloud's alert rules monitor CPU and pod health metrics continuously. The alert rule for "High CPU Usage" triggers after the CPU remains above threshold for 5 minutes.
 3. **Pending then Firing State**: Once the threshold is breached, the alert instance stays in a "pending" state to avoid flapping from transient issues. If the condition persists, it moves to "firing."
 4. **Alertmanager Processes Alert**: The Alertmanager receives the firing alert instance, grouping it with related alerts and checking for silences or escalations.
 5. **Notification Delivery via Contact Points**: According to configured notification policies, Alertmanager sends a message to the configured Slack channel and raises an incident in the OnCall system.
@@ -66,7 +66,7 @@ Would you like me to walk you through setting up a simple alert rule with Slack 
 
 ## Deep Dive: Using OnCall Tools Integrated with Grafana Alerts
 
-Here’s a **structured breakdown** of using Grafana OnCall tools, showing how alerts flow through the system and how a developer responds—optimized for practical, ADHD-friendly workflow:
+Here's a **structured breakdown** of using Grafana OnCall tools, showing how alerts flow through the system and how a developer responds—optimized for practical, ADHD-friendly workflow:
 
 ---
 
@@ -95,7 +95,7 @@ Here’s a **structured breakdown** of using Grafana OnCall tools, showing how a
    - OnCall groups the alert, associates it with escalation chain/schedule.
 
 3. **Notification & Routing**
-   - OnCall routes to first responder’s Slack, SMS, email, or custom contact point.
+   - OnCall routes to first responder's Slack, SMS, email, or custom contact point.
    - Alerts appear in the relevant Slack channel, OnCall app, or both.grafana+1​
    - Context-rich notification includes metrics, dashboards, and links.
 
@@ -131,7 +131,7 @@ Here’s a **structured breakdown** of using Grafana OnCall tools, showing how a
 
 - Set up OnCall integrations in Grafana Cloud.
 - Create escalation chains (who gets called, order).
-- Link your Slack workspace via OnCall’s ChatOps tab. Configure reminders/timeouts as needed.[grafana](https://grafana.com/docs/oncall/latest/manage/notify/slack/)​
+- Link your Slack workspace via OnCall's ChatOps tab. Configure reminders/timeouts as needed.[grafana](https://grafana.com/docs/oncall/latest/manage/notify/slack/)​
 - Associate alert rules with on-call schedules, escalation policies, and contact points.
 - Enable Sift for diagnostics if available.
 

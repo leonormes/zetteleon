@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T19:58:43Z
 epistemic: "strategy"
 last_reviewed: "2025-12-23"
-modified: 2026-01-08T10:50:02+00:00
+modified: 2026-01-23T18:09:33+00:00
 purpose: "To provide an LLM with a framework for guiding ADHD-friendly writing processes using the Extended Mind Thesis."
 review_interval: "6 months"
 see_also: ["[[SoT - Material Symbols]]", "[[SoT - The Extended Mind]]"]

@@ -4,12 +4,10 @@ confidence: "High"
 created: 2025-12-30T13:53:16+00:00
 epistemic: "Technical"
 last_reviewed: 
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define the low-level Linux kernel networking constructs that underpin all container networking abstractions."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - Kubernetes Networking & DNS]]"
-  - "[[SoT - Linux Container Primitives]]"
+see_also: ["[[SoT - Kubernetes Networking & DNS]]", "[[SoT - Linux Container Primitives]]"]
 source_of_truth: []
 status: "Active"
 tags: ["kernel", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]

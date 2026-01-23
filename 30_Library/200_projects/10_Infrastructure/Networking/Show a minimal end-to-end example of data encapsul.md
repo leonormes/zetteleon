@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-22T09:55:38Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:53+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -20,7 +20,7 @@ version: ""
 
 Show a minimal end-to-end example of data encapsulation and transmission
 
-Here’s a **minimal end-to-end example** showing how data encapsulation and transmission work—from user data all the way down to bits crossing the wire—based on canonical OSI/TCP-IP model explanations.
+Here's a **minimal end-to-end example** showing how data encapsulation and transmission work—from user data all the way down to bits crossing the wire—based on canonical OSI/TCP-IP model explanations.
 
 ---
 

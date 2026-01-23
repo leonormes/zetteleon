@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-17T21:35:58Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:52+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -130,7 +130,7 @@ Free tutorials on YouTube or platforms like Coursera/Udemy
 
 ---
 
-2. Set Up a Practical Environment
+1. Set Up a Practical Environment
 
 Local Cluster:
 
@@ -144,7 +144,7 @@ Practice: Deploy sample applications and simulate network behavior in a controll
 
 ---
 
-3. Dive into Kubernetes Networking Concepts
+1. Dive into Kubernetes Networking Concepts
 
 Pod Networking:
 
@@ -172,7 +172,7 @@ Practical: Set up an Ingress controller (like NGINX Ingress) and route external 
 
 ---
 
-4. Hands-On Labs & Exercises
+1. Hands-On Labs & Exercises
 
 Lab 1: Basic Connectivity
 
@@ -206,7 +206,7 @@ Compare behavior, performance, and network policy capabilities.
 
 ---
 
-5. Advanced Topics & Real-World Scenarios
+1. Advanced Topics & Real-World Scenarios
 
 Troubleshooting & Debugging:
 
@@ -230,7 +230,7 @@ Explore: Best practices for securing Kubernetes networks.
 
 ---
 
-6. Consolidate Learning with a Capstone Project
+1. Consolidate Learning with a Capstone Project
 
 Project Idea:
 
@@ -248,7 +248,7 @@ Document: Your process, challenges, and how you resolved network issues.
 
 ---
 
-7. Engage with the Community & Continuous Learning
+1. Engage with the Community & Continuous Learning
 
 Join Forums:
 

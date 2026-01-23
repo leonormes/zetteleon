@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-09-16T12:25:36Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -20,6 +20,6 @@ version: ""
 
 - Objects with mass can never reach $c$; infinite energy would be required.
 - **Photons** (massless) move at c but have **no valid frame of reference**.
-- From a photon’s perspective, emission and absorption are simultaneous.
+- From a photon's perspective, emission and absorption are simultaneous.
 
 👉 Connects to: [[Photon’s Timeless Journey]], [[Mass-Energy Equivalence (E=mc²)]]

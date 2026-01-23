@@ -5,7 +5,7 @@ confidence: ""
 created: 2025-03-25T06:18:51Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-14T13:07:56+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -13,14 +13,14 @@ source: "https://qdnqn.com/networking-on-kubernetes-calico-and-ebpf/"
 source_of_truth: []
 status: ""
 tags: ["calico", "SoftwareEngineering/Networking"]
-title: "Kubernetes Calico: Networking Explained"
+title: CNI Explained
 type: ""
 uid: 
 updated: 
 version: ""
 ---
 
-# Kubernetes Calico: Networking Explained
+## Kubernetes Calico: Networking Explained
 
 Kubernetes networking is a complex topic. There are multiple layers present — from the containers to the underlying infrastructure. Let's dig in.
 
@@ -28,7 +28,7 @@ Kubernetes defined the network model and the network drivers are implementations
 
 What does that mean? It means Kubernetes is decoupled from network implementation and it is on the network driver to provide networking functionality but the network driver.
 
-# Kubernetes Networking
+## Kubernetes Networking
 
 Network driver itself must follow the rules imposed by the model.
 
@@ -49,7 +49,7 @@ As we can see it's pretty basic and it's not a full-fledged production solution�
 
 Basic IPAM management is host-local IPAM CNI. It's responsible for assigning IP addresses, on one node.
 
-# Kubernetes Single Node Network
+## Kubernetes Single Node Network
 
 ![](https://cdn-images-1.medium.com/max/1600/1*QI2llPQmxHHnKV-KBYGTrQ.png)
 
@@ -63,7 +63,7 @@ How does the pod get the IP address? A great post is written explaining this in 
 
 Shortly: when the pod is scheduled the CRI pings CNI to fetch an IP address for the pod. CNI pings underlying base plugins till it hits host-local IPAM which returns an IP address falling in the CIDR range of the node itself.
 
-# Kubernetes Multi-node Network
+## Kubernetes Multi-node Network
 
 ![](https://cdn-images-1.medium.com/max/1600/1*kIWWXwzNMUWyi2xBg5KDSg.png)
 
@@ -84,7 +84,7 @@ The unanswered questions here are:
 - What are "Routing tables"?
 - Who is setting subnets of the nodes?
 
-# Kubenet on the Azure
+## Kubenet on the Azure
 
 For example Azure allows you to use kubenet as a network driver when they are maintaining "Routing tables". "Routing tables" are some kind of encapsulation using VXLAN or IP-in-IP. Using some kind of tunneling protocol network driver will respect the promised:
 
@@ -92,7 +92,7 @@ For example Azure allows you to use kubenet as a network driver when they are ma
 
 As for subnets and who is managing them — again the cloud provider should distribute to the node proper IPAM configurations or the network driver itself (implementing IPAM).
 
-# Calico Network on the Kubernetes
+## Calico Network on the Kubernetes
 
 Calico is a whole package networking solution for Kubernetes. It's not the only one. Alternatives are Flannel, Cilium… etc.
 
@@ -106,7 +106,7 @@ One of two cases that are supported by Calico is VXLAN and IP-in-IP.
 
 Overlay networks are useful on the public cloud where the underlying infrastructure is not aware of the pod IP addresses. Calico is configurable so that you can only encapsulate traffic that is targeting cross subnet addresses.
 
-## Calico IP-in-IP Overlay Network
+### Calico IP-in-IP Overlay Network
 
 ```yaml
 apiVersion: projectcalico.org/v3
@@ -121,7 +121,7 @@ spec:
 
 This is enabling CrossSubnet encapsulation using IP-in-IP. IP-in-IP in Calico works in pair with the BGP peering. Calico knows the IP addresses of all nodes and which pod IP address is belonging to which node. This way packet is encapsulated to the target node IP address. After arrival on a specific Node that packet is de-encapsulated and redirected to the right pod based on the initial destination address.
 
-## Calico VXLAN Overlay Network
+### Calico VXLAN Overlay Network
 
 ```yaml
 apiVersion: projectcalico.org/v3
@@ -140,7 +140,7 @@ This way whole cluster is behaving like a Layer 2 switch which is popular in dat
 
 Configuring only CrossSubnet encapsulation leaves traffic untouched for the pods in the same subnet.
 
-# Calico NetworkPolicy
+## Calico NetworkPolicy
 
 One important fact is that kubenet doesn't implement network policies. To enable network policies third-party network plugin is needed.
 
@@ -164,7 +164,7 @@ spec:
           - 6379
 ```
 
-# Kube-proxy Vs Calico Felix
+## Kube-proxy Vs Calico Felix
 
 As we have mentioned before kube-proxy is the default network agent on the node. Kube-proxy relies on iptables to enforce packet filtering.
 
@@ -184,7 +184,7 @@ Learn when to use eBPF (and when not to). eBPF is a feature available in Linux k
 
 ](<https://projectcalico.docs.tigera.io/maintenance/ebpf/use-cases-ebpf?ref=qdnqn.com>)
 
-# Conclusion
+## Conclusion
 
 As we can see, Kubernetes networking is a complex topic as it can have multiple layers of networking. Starting from the container, pod, node, underlying infrastructure network, and so on. Providing multiple network drivers also adds a complexity layer as they are all different in some aspects.
 

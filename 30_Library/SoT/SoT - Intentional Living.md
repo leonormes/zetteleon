@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "synthesis"
 last_reviewed: "2025-12-25"
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "Canonical source for habit formation protocols and the philosophy of intentionality, integrating Zen to Done (ZTD), Essentialism, and Cal Newport's Deep Life."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - Indistractable Model (Focus Management)]]", "[[SoT - PRODOS - Action Management (GTD)]]"]
@@ -80,7 +80,7 @@ Intentionality is not willpower; it is **Structural Design**.
 Document exactly _what_ you want to achieve and _why_.
 
 - **Vivid Description:** Writing down goals is statistically linked to higher success rates.
-- **ProdOS:** Use the `SoT -...` note to define the MVU (Minimum Viable Understanding).
+- **ProdOS:** Use the `SoT -…` note to define the MVU (Minimum Viable Understanding).
 
 ### 2. Establish Parameters (The Anchor)
 

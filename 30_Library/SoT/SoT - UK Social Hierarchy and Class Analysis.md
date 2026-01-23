@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: "Grounded in the Great British Class Survey (GBCS) and Bourdieu's Capital Theory."
 last_reviewed: "2025-12-15"
-modified: 2026-01-08T10:49:39+00:00
+modified: 2026-01-23T18:09:16+00:00
 purpose: "A comprehensive analysis of the contemporary UK class structure, integrating the 7-class GBCS model with Weberian and Bourdieusian sociological frameworks."
 review_interval: "1 year"
 see_also: ["[[SoT - Social Stratification]]"]
@@ -49,18 +49,18 @@ Based on the Great British Class Survey (GBCS), the UK population is stratified 
 
 ### II. The Established Middle
 
-2. **Established Middle Class:** The largest and most gregarious group. Culturally active, economically secure, and broadly networked.
-3. **Technical Middle Class:** A new breed of prosperous technical experts. High economic capital but relatively low social and cultural engagement. They are affluent but culturally isolated.
+1. **Established Middle Class:** The largest and most gregarious group. Culturally active, economically secure, and broadly networked.
+2. **Technical Middle Class:** A new breed of prosperous technical experts. High economic capital but relatively low social and cultural engagement. They are affluent but culturally isolated.
 
 ### III. The New Workers
 
-4. **New Affluent Workers:** Young, socially active, with moderate income. They are the "Squeezed Middle"—economically secure but asset-poor (renting/high mortgages).
-5. **Emergent Service Workers:** Young, urban, often in gig-economy or service roles. Low economic capital but surprisingly high **emerging cultural capital** (social media savvy, urban trends).
+1. **New Affluent Workers:** Young, socially active, with moderate income. They are the "Squeezed Middle"—economically secure but asset-poor (renting/high mortgages).
+2. **Emergent Service Workers:** Young, urban, often in gig-economy or service roles. Low economic capital but surprisingly high **emerging cultural capital** (social media savvy, urban trends).
 
 ### IV. The Traditional & Precarious
 
-6. **Traditional Working Class:** Older, de-industrialized demographic. Low economic and cultural/social capital, but often have high **asset wealth** (homeowners) due to historical housing policies (Right to Buy).
-7. **The Precariat:** The most deprived class. Low scores on every dimension. Renting, precarious employment, and social isolation.
+1. **Traditional Working Class:** Older, de-industrialized demographic. Low economic and cultural/social capital, but often have high **asset wealth** (homeowners) due to historical housing policies (Right to Buy).
+2. **The Precariat:** The most deprived class. Low scores on every dimension. Renting, precarious employment, and social isolation.
 
 ---
 

@@ -3,7 +3,7 @@ aliases: ["MAF Test"]
 created: 2026-01-08T12:45:00Z
 epistemic: NA
 last_reviewed: 2026-01-08
-modified: 2026-01-08T10:49:58+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: "Measure aerobic conditioning objectively."
 review_interval: 180
 status: seedling

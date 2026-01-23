@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-06-18T17:28:14Z
 epistemic: "psychology"
 last_reviewed: "2025-12-16"
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "To define the Negativity Bias as a fundamental evolutionary mechanism and explore its specific amplification within the ADHD mind."
 review_interval: ""
 see_also: ["[[Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain]]", "[[MOC - Cognitive Biases]]"]

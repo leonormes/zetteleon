@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-08-19T23:32:29Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "To define the mathematical distinction between public and private keys in RSA."
 review_interval: "1 year"
 see_also: ["[[Modular Arithmetic Creates a Cyclical System]]", "[[RSA Algorithm Relies on Integer Factorisation]]"]
@@ -28,7 +28,9 @@ While they work as a pair, public and private keys are not interchangeable. They
 
 The value `d` is specifically calculated to be the modular multiplicative inverse of `e`. Mathematically:
 
-$$(e * d) \pmod{\lambda(n)} = 1$$
+$$
+(e * d) \pmod{\lambda(n)} = 1
+$$
 
 Where $\lambda(n)$ is the secret totient derived from the original prime factors. This ensures that:
 

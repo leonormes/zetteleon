@@ -1,36 +1,34 @@
 ---
 created: 2026-01-10T09:27:00+00:00
-type: protocol
-tags:
-  - health
-  - metabolic
-  - system-architecture
+modified: 2026-01-23T18:09:21+00:00
 status: active
-modified: 2026-01-15T17:00:37+00:00
+tags: [health, metabolic, system-architecture]
+title: Protocol - Metabolic Firewall
+type: protocol
 ---
 
-# Protocol: Metabolic Firewall (Post-Mounjaro)
+## Protocol: Metabolic Firewall (Post-Mounjaro)
 
 > [!abstract] The Logic Map
 > - **Objective ($S_d$):** Stabilise hormonal signalling to prevent "Emergency Fetch" (binge) of high-velocity glucose.
 > - **Mechanism:** Pre-emptive high-density protein loading ("The Firewall") and microbial refactoring.
 > - **Metric:** Maintenance of protein floor >1.6g/kg without evening cravings.
 
-## Dependencies & Hardware
+### Dependencies & Hardware
 
 - **Hardware:** Male, 97kg, 181cm.
 - **Tools:** High-speed blender, Nutracheck (Config: Maintenance Mode/Protein Priority).
 - **Stack:**
-    - *Proteins:* Eggs, Lean Bacon, Beef Mince, Whey/Protein Works (Banana).
-    - *Biome:* Kefir, Sauerkraut, Inulin, Chia Seeds.
-    - *Stealth:* Spinach, Mushrooms, Carrots (for blending).
+    - _Proteins:_ Eggs, Lean Bacon, Beef Mince, Whey/Protein Works (Banana).
+    - _Biome:_ Kefir, Sauerkraut, Inulin, Chia Seeds.
+    - _Stealth:_ Spinach, Mushrooms, Carrots (for blending).
 
-## The Algorithm (Execution Cycle)
+### The Algorithm (Execution Cycle)
 
 1. **08:30 | The Boot-Loader (Init)**
    - [ ] **Execute:** Consume 3 Eggs + 3 Rashers Bacon (Lean).
    - [ ] **Inject:** 1x "Stealth Green Shot" (Spinach/Water/ACV) OR 1 tbsp Sauerkraut.
-   - [ ] **Liquid:** 1x Latte (My Coffee Station) consumed *after* solids to buffer lactose velocity.
+   - [ ] **Liquid:** 1x Latte (My Coffee Station) consumed _after_ solids to buffer lactose velocity.
    - [ ] **Verify:** Protein count > 40g logged.
 
 2. **12:30 | Mid-Day Sync (Anchor)**
@@ -54,15 +52,15 @@ modified: 2026-01-15T17:00:37+00:00
    - [ ] **Hydration:** 500ml Water + Electrolytes.
    - [ ] **State:** Close all feeding threads.
 
-## Error Handling (Exceptions)
+### Error Handling (Exceptions)
 
 | Signal (Noise) | Diagnostic | The Fix (Patch) |
-| :--- | :--- | :--- |
+|:--- |:--- |:--- |
 | **"I need Toast"** | Microbial Hijack / Low Glucose | **Latency Buffer:** Wait 10 mins. Drink 300ml water + Electrolytes. |
 | **"I need Sugar"** | Dopamine Deficit | **Protein Middleware:** Eat 25g Jerky or 1 Boiled Egg. |
 | **Craving > 8/10** | Critical Failure | **Sourdough Swap:** 1 slice fermented sourdough + Butter (Lower Glycaemic Velocity). |
 
-## Unit Test (Success Metrics)
+### Unit Test (Success Metrics)
 
 - [ ] **Protein Floor:** Total daily protein > 165g.
 - [ ] **Fibre Index:** > 30g inputs derived from diverse sources.

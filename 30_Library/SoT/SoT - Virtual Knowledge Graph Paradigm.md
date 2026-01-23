@@ -4,12 +4,10 @@ confidence: "High"
 created: 2026-01-07T20:52:57+00:00
 epistemic: "Architectural Paradigm"
 last_reviewed: 
-modified: 2026-01-08T10:49:39+00:00
+modified: 2026-01-23T18:09:16+00:00
 purpose: "To define the paradigm of Virtual Knowledge Graphs and Ontology-Based Data Access (OBDA), specifically focusing on the translation of semantic queries (SPARQL) to relational execution (SQL)."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - Data-Centric Software Engineering]]"
-  - "[[SoT - Type Theory & Data Structures]]"
+see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - Type Theory & Data Structures]]"]
 source_of_truth: []
 status: "Active"
 tags: ["architecture", "data-centric", "knowledge-graph", "ontop", "semantic-web"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-15T00:00:00Z
 epistemic: "Derived from GMB Fitness longevity protocols and functional movement principles."
 last_reviewed: "2025-12-15"
-modified: 2026-01-08T10:49:41+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "To define the canonical protocol for maintaining physical capability, pain-free movement, and longevity, treating the body as the primary hardware for the \\\\\\\"Extended Mind."
 review_interval: "6 months"
 see_also: ["[[Cognitive Health Practices for Technical Work]]", "[[Morning HIIT Boosts BDNF and Neuroplasticity]]", "[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Cognitive Physiology of Task Execution]]"]

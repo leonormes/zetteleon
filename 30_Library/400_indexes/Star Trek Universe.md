@@ -4,7 +4,7 @@ confidence: ""
 created: 2026-01-02T12:52:12+00:00
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:47+00:00
+modified: 2026-01-23T18:09:23+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -22,7 +22,7 @@ type: ""
 #### Era 1: Pre-Federation / Foundation Era (21st–22nd Century)
 
 - **Star Trek: Enterprise** (2151–2161)
-	- _Logic:_ Humanity’s first Warp 5 vessel. Establishments of first contact protocols and the coalition that becomes the Federation.
+	- _Logic:_ Humanity's first Warp 5 vessel. Establishments of first contact protocols and the coalition that becomes the Federation.
 
 #### Era 2: The Expansion Era (23rd Century)
 
@@ -64,7 +64,7 @@ The timeline bifurcates at specific "Nexus Points" where external interference r
 
 - **The Divergence:** 2233.
 - **The Cause:** The Romulan ship _Narada_ travels back from 2387 and destroys the _USS Kelvin_.
-- **Impact:** A tech-accelerated reality where Vulcan is destroyed and James T. Kirk’s trajectory is altered.
+- **Impact:** A tech-accelerated reality where Vulcan is destroyed and James T. Kirk's trajectory is altered.
 - **Media:** _Star Trek (2009)_, _Star Trek Into Darkness_, _Star Trek Beyond_.
 
 #### Branch B: The Mirror Universe (Parallel Constant)

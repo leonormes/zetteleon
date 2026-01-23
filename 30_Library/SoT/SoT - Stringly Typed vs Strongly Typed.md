@@ -4,13 +4,10 @@ confidence: "High"
 created: 2026-01-06T18:58:05+00:00
 epistemic: "Pattern"
 last_reviewed: 
-modified: 2026-01-08T10:49:41+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "To define the architectural anti-pattern of using strings to model complex data, and to contrast it with strongly typed structural modeling."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - Data-Centric Software Engineering]]"
-  - "[[SoT - Parse, Don't Validate]]"
-  - "[[SoT - Type-Driven Development (The Torvalds Loop)]]"
+see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - Parse, Don't Validate]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
 source_of_truth: []
 status: "Active"
 tags: ["anti-pattern", "devops", "SoftwareEngineering/Architecture", "types"]
@@ -29,7 +26,7 @@ updated:
 "Stringly Typed" code uses string primitives to represent domain concepts. It is a form of **Primitive Obsession** where the developer relies on implicit knowledge rather than explicit contracts.
 
 - **The Container:** A string is just a generic array of bytes.
-- **The Contract:** Hidden. `var config = "..."` could be JSON, a file path, or a haiku. The compiler cannot help you.
+- **The Contract:** Hidden. `var config = "…"` could be JSON, a file path, or a haiku. The compiler cannot help you.
 - **The Parsing Cliff:** To use the data, you must constantly **parse** it (split, regex, cast). Every usage is a potential runtime failure.
 - **Opaque State:** You cannot introspect the properties. It is a black box.
 

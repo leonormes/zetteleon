@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-06-16T08:10:19Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:49+00:00
+modified: 2026-01-23T18:09:24+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -35,8 +35,8 @@ Based on the Ofsted report, the UK government's implied expectations for SEN sup
 
 ## Failures in Monitoring and Reviewing Progress and Parental Partnership
 
-- Assessment & Feedback: The Ofsted report identifies a general failing where the school "has not thought enough about how to check what pupils know and understand as they progress through the curriculum" and that "teaching does not identify the gaps or misconceptions in pupils’ understanding as they arise". Bessie's own statement that she has to "guess" how well she's doing in her subjects and make her "own self-judgment" directly supports this broader failing.
-- Parental Involvement: The Belfairs Academy SEND policy states an objective to "Support a partnership with parents/carers, valuing their views and contributions and keeping them fully involved in their child’s education". However, Bessie's October 2024 review explicitly notes "Parent’s viewsnone available at time of review", indicating a direct failure in this stated objective and hindering the effectiveness of the "Assess, Plan, Do, Review" system the school claims to use.
+- Assessment & Feedback: The Ofsted report identifies a general failing where the school "has not thought enough about how to check what pupils know and understand as they progress through the curriculum" and that "teaching does not identify the gaps or misconceptions in pupils' understanding as they arise". Bessie's own statement that she has to "guess" how well she's doing in her subjects and make her "own self-judgment" directly supports this broader failing.
+- Parental Involvement: The Belfairs Academy SEND policy states an objective to "Support a partnership with parents/carers, valuing their views and contributions and keeping them fully involved in their child's education". However, Bessie's October 2024 review explicitly notes "Parent's viewsnone available at time of review", indicating a direct failure in this stated objective and hindering the effectiveness of the "Assess, Plan, Do, Review" system the school claims to use.
 
 ## Insufficient Staff Training and Awareness Regarding Complex Neurodevelopmental Needs
 

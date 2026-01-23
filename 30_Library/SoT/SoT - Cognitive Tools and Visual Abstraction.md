@@ -3,7 +3,7 @@ aliases: ["Cognitive Tools", "Depiction vs Explanation", "Discovery-Engineering 
 confidence: "High (Academic Research - Fan/Tversky)"
 created: 2026-01-09T21:57:29+00:00
 epistemic: "Cognitive Science"
-modified: 2026-01-09T22:16:30+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To define the cognitive architecture of visual tools (sketches, diagrams, graphs) and how they extend human reasoning capabilities."
 see_also: ["[[SoT - Material Symbols]]", "[[SoT - The Extended Mind]]", "[[Visualization Supports Mathematical Thinking]]"]
 source_of_truth: ["[[Cognitive Tools Making Invisible Visible]]"]
@@ -13,16 +13,16 @@ title: SoT - Cognitive Tools and Visual Abstraction
 type: "SoT"
 ---
 
-# SoT - Cognitive Tools and Visual Abstraction
+## SoT - Cognitive Tools and Visual Abstraction
 
-## 1. Definitive Statement
+### 1. Definitive Statement
 
 > [!definition] Definition
 > **Cognitive Tools** are material objects (sketches, graphs, diagrams, notations) that encode information to modify mental states. They act as **Visual Abstractions**, allowing humans to externalize complex logic into spatial forms, thereby extending the mind's capacity to discover, reason, and communicate.
 
 ---
 
-## 2. The Discovery-Engineering Loop
+### 2. The Discovery-Engineering Loop
 
 Judy Fan proposes a cyclical model for how humans use tools to advance knowledge:
 
@@ -32,18 +32,18 @@ Judy Fan proposes a cyclical model for how humans use tools to advance knowledge
 
 ---
 
-## 3. Visual Abstraction Mechanisms
+### 3. Visual Abstraction Mechanisms
 
 Humans intuitively alter their visual outputs based on their goal. This is a cognitive skill, not just an artistic one.
 
-### A. Depiction vs. Explanation (The Dissociable Hypothesis)
+#### A. Depiction vs. Explanation (The Dissociable Hypothesis)
 
 Research shows a functional dissociation between two modes of drawing:
 
 - **Depiction (Visual Fidelity):** "What does it look like?" Capturing sensory details (texture, shadow). Used for identification.
 - **Explanation (Causal Fidelity):** "How does it work?" Capturing mechanism and logic. Humans instinctively **sparsify** (remove detail) and add **symbolic markers** (arrows, motion lines) to emphasize causal relationships.
 
-### B. Strategic Sparsification
+#### B. Strategic Sparsification
 
 The cognitive process of removing "perceptual noise" to highlight "semantic signal."
 
@@ -52,7 +52,7 @@ The cognitive process of removing "perceptual noise" to highlight "semantic sign
 
 ---
 
-## 4. Cognitive Foundations of Data Visualization
+### 4. Cognitive Foundations of Data Visualization
 
 Data visualization is a technology for resolving patterns too noisy or large for direct perception.
 
@@ -61,14 +61,14 @@ Data visualization is a technology for resolving patterns too noisy or large for
 
 ---
 
-## 5. Related Concepts
+### 5. Related Concepts
 
 - **Distributed Cognition:** The theory that intelligence is a property of the system (Person + Tool), not just the brain.
 - **Visual-Spatial Metaphors:** How abstract concepts (Time, Quantity) are mapped onto physical space (Left-to-Right, Up-Down).
 
 ---
 
-## 6. Key Researchers
+### 6. Key Researchers
 
 - **Judy Fan (Stanford):** Cognitive architecture of sketching and visual communication.
 - **Barbara Tversky (Columbia):** Visual-spatial reasoning and the logic of diagrams.

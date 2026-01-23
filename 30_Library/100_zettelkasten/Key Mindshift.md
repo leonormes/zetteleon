@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-05-10T10:37:03Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -18,7 +18,7 @@ updated:
 version: "null"
 ---
 
-Zettelkasten isn’t about building a system. It’s about offloading your thoughts so your brain can make connections. The more you focus on the system, the less you’re thinking.
+Zettelkasten isn't about building a system. It's about offloading your thoughts so your brain can make connections. The more you focus on the system, the less you're thinking.
 
 [[2025-04-21]]
 

@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-02-15T07:24:57Z
 epistemic: architecture
 last_reviewed: 2025-12-26
-modified: 2026-01-08T15:03:28+00:00
+modified: 2026-01-23T18:09:23+00:00
 purpose: The central index for cultivating Data-Centric Software Engineering skills and methodology.
 review_interval: 6 months
 see_also: ["[[SoT - The Data-Centric Philosophy]]"]

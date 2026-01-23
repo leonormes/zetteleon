@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-13T00:00:00Z
 epistemic: "Technical/Architectural"
 last_reviewed: "2025-12-26"
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "Defining the functional components of a computer and the communication protocols between the CPU and hardware."
 review_interval: "3 months"
 see_also: ["[[SoT - Process Execution (Kernel Logic)]]"]

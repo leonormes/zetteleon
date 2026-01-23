@@ -4,7 +4,7 @@ confidence: "High"
 created: 2026-01-06T18:52:00+00:00
 epistemic: ""
 last_reviewed: 2026-01-06
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "Defines the high-level mission, architecture, and federated nature of the OHDSI collaborative."
 review_interval: ""
 see_also: []

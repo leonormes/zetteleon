@@ -6,7 +6,7 @@ criteria: ""
 epistemic: "null"
 exclusions: "Specific tutorials for GTD or Atomic Habits."
 last_reviewed: "null"
-modified: 2026-01-08T15:03:29+00:00
+modified: 2026-01-23T18:09:22+00:00
 purpose: "null"
 review_interval: "null"
 scope: ""
@@ -51,4 +51,4 @@ A powerful way to understand the function of any system, formal or informal, is 
 - **The Cognitive Benefit:** By doing this, [[Externalizing Direction Reduces Cognitive Load and Fosters Flow|externalizing direction reduces our cognitive load]], making it easier to act.
 - **A Vital Tool:** This makes external structures especially critical, as [[External Systems Are Vital for Managing Fluctuating Motivation|they are vital for managing fluctuating motivation]], a common trait in neurodiversity.
 
-In essence, routines and systems serve as the invisible banks and pipes for our motivational energy, externalizing the “direction” so achievement becomes a matter of flow, not force.
+In essence, routines and systems serve as the invisible banks and pipes for our motivational energy, externalizing the "direction" so achievement becomes a matter of flow, not force.

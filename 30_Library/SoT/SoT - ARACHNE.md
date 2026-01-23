@@ -4,12 +4,10 @@ confidence: "High"
 created: 2026-01-06T19:29:06+00:00
 epistemic: "Infrastructure"
 last_reviewed: 
-modified: 2026-01-08T10:49:45+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To define the role of ARACHNE in automating and securing federated network studies."
 review_interval: "1 year"
-see_also:
-  - "[[MoC - OHDSI & OMOP Architecture]]"
-  - "[[SoT - OHDSI Toolstack & Atlas]]"
+see_also: ["[[MoC - OHDSI & OMOP Architecture]]", "[[SoT - OHDSI Toolstack & Atlas]]"]
 source_of_truth: []
 status: "Active"
 tags: ["federation", "infrastructure", "ohdsi", "SoftwareEngineering/Security"]

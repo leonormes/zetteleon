@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: "theory"
 last_reviewed: "2025-12-14"
-modified: 2026-01-08T10:49:44+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To define the relationship between cognitive ambiguity, mental dissonance, and the depth of thinking, establishing a framework for why deep thought is avoided and how to overcome it."
 review_interval: "6 months"
 see_also: ["[[Cognitive Dissonance]]", "[[Discomfort with Ambiguity Prevents Deeper Thinking]]", "[[Psychological Stress of Dissonance]]"]

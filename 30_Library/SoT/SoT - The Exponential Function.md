@@ -4,7 +4,7 @@ confidence: 5/5
 created: 2025-12-25T11:45:00Z
 epistemic: principle
 last_reviewed: 2025-12-25
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: To define the mechanics and cognitive implications of the exponential function and steady growth.
 review_interval: 6 months
 see_also: ["[[Mental Models MOC]]", "[[SoT - Systems Thinking]]"]
@@ -30,7 +30,9 @@ The "greatest shortcoming of the human race" is our inability to understand the 
 
 A simple heuristic to calculate **doubling time** ($T_d$):
 
-$$T_d \approx \frac{70}{r}$$
+$$
+T_d \approx \frac{70}{r}
+$$
 
 where $r$ is the percentage growth rate per unit of time.
 

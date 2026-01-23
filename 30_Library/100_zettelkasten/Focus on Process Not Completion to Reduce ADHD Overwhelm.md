@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-30T15:17:49Z
 epistemic: "principle"
 last_reviewed: "2025-10-30"
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "To reframe task engagement from completion anxiety to process commitment"
 review_interval: "90"
 see_also: []

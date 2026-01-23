@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:00:11Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-08T10:49:58+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: "To describe the role of pattern recognition in mathematical discovery."
 review_interval: "90"
 see_also: ["[[Deductive Reasoning Underwrites Mathematical Proof]]", "[[Heuristic Experimentation Drives Mathematical Insight]]", "[[Mathematics Is Frequently Described as the Science of Patterns]]", "[[Visualization Supports Mathematical Thinking]]"]

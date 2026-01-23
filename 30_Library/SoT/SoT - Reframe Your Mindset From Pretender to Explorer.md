@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-08-19T12:05:33Z
 epistemic: "psychology"
 last_reviewed: "2025-12-16"
-modified: 2026-01-08T10:49:41+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "To reframe Imposter Syndrome not as a lack of competence, but as a misalignment of identity\\u2014shifting from the \\\"Academic Specialist\\\" (Pretender) to the \\\"Intellectual Explorer.\\\""
 review_interval: ""
 see_also: ["[[SoT - Dunning-Kruger Effect]]", "[[SoT - The Metagame (Strategic Context)]]"]

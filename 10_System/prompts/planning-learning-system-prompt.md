@@ -4,7 +4,7 @@ confidence: ""
 created: 2026-01-01T18:58:13+00:00
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:50:02+00:00
+modified: 2026-01-23T18:09:32+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -56,7 +56,7 @@ Act as a **Systems Architect**. Design the "Learning Engine" module for ProdOS. 
 
 1. **The Registry Structure (MOC):** Design a `MOC - Learning Registry` note. How should it organize "Active," "Queued," and "Finished" curriculums? usage of Dataview queries is encouraged.
 2. **The "Boss Fight" Protocol:** Explain how to convert a dry "curriculum list" (e.g., "Chapter 1: Pointers") into a "Boss Fight" (e.g., "Mission: Write a memory leak detector").
-3. **The Activation Ritual:** A step-by-step checklist for when I want to start learning a new topic. (e.g., "1. Clone Template, 2. Define Final Boss, 3. Move to Active...").
+3. **The Activation Ritual:** A step-by-step checklist for when I want to start learning a new topic. (e.g., "1. Clone Template, 2. Define Final Boss, 3. Move to Active…").
 4. **The Save-State Protocol:** How do I "pause" a learning project so I can resume it 3 months later without losing context? (e.g., Specific metadata, a "Next Action" log).
 
 **Output Format:**

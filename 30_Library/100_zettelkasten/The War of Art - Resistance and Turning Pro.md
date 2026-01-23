@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-12-11T00:00:00Z
 epistemic: "theory"
 last_reviewed: "2025-12-11"
-modified: 2026-01-08T10:49:58+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: "To define the concept of Resistance as the enemy of creative work and 'Turning Pro' as the solution, serving as a core mental model for ProdOS."
 review_interval: "6 months"
 see_also: ["[[ADHD Brain Operates on an Interest-Based Nervous System]]", "[[Logic Does Not Produce Dopamine]]", "[[SoT - PRODOS (System Architecture)]]"]

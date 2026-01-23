@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-03T08:42:58Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:54+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -33,8 +33,8 @@ updated:
   - Client receives a code, exchanges it (with secret) for an access token from the authorization server.
   - Token allows access to requested resources—should be kept secret/back-end only.
 - **PKCE Flow**:
-  - Used for mobile/public clients that can’t safely store secrets.
-  - Mitigates interception risks via an extra “code challenge” and “code verifier” (hash-based proof).
+  - Used for mobile/public clients that can't safely store secrets.
+  - Mitigates interception risks via an extra "code challenge" and "code verifier" (hash-based proof).
 - **Device Code Flow**:
   - Designed for devices with limited input (TVs, appliances).
   - User enters a code on a separate device; app polls for completion.
@@ -45,7 +45,7 @@ updated:
   - For back-end/server/server integrations (no user context).
   - Client authenticates using its own ID \& secret; used for admin/service tasks, not user data.
 - **Security Notes**:
-  - Only use secure flows; avoid implicit flow and resource owner password credentials grant—they’re outdated and insecure.
+  - Only use secure flows; avoid implicit flow and resource owner password credentials grant—they're outdated and insecure.
   - Understand service-specific token and refresh behaviors, as implementation varies.
 
 **Bottom Line:** OAuth 2.0 lets registered apps act _on your behalf_—for both users and backend services—without ever exposing passwords. The right flow depends on the app and use case, but knowing all five standard flows prepares you for most integration scenarios.

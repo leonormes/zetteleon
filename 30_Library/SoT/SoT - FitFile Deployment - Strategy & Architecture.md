@@ -4,20 +4,20 @@ confidence: "5/5"
 created: 2025-12-14T18:04:39Z
 epistemic: "theory"
 last_reviewed: "2025-12-30"
-modified: 2026-01-11T12:53:23+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "The canonical architectural reference for the FITFILE Platform deployment, covering the cloud hierarchy, security model, and GitOps design."
 review_interval: "6 months"
 see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FitFile Deployment - Networking & DNS]]", "[[SoT - FITFILE Secret Management Architecture]]"]
 source_of_truth: []
 status: "stable"
 tags: ["azure", "deployment", "fitfile", "gitops", "kubernetes", "SoftwareEngineering/Architecture"]
-title: 1. Executive Summary
+title: SoT - FitFile Deployment - Strategy & Architecture
 type: "SoT"
 uid: 
 updated: 
 ---
 
-# 1. Executive Summary
+## 1. Executive Summary
 
 The FITFILE platform utilizes a **Three-Tier Deployment Architecture** optimized for security, scalability, and high-velocity updates via GitOps.
 
@@ -29,17 +29,17 @@ The FITFILE platform utilizes a **Three-Tier Deployment Architecture** optimized
 
 ---
 
-# 2. Cloud Hierarchy (Azure Landing Zone)
+## 2. Cloud Hierarchy (Azure Landing Zone)
 
 FITFILE follows the **Enterprise-Scale Landing Zone** pattern, separating platform governance from customer workloads.
 
-## 2.1 Management Group Structure
+### 2.1 Management Group Structure
 
 - **FITFILE Root Group:** Top-level governance.
 - **Platform Subscriptions:** Shared services (DNS, Identity, Management/Monitoring).
 - **Landing Zone Subscriptions:** Isolated environments for **Production** (Customer COGS) and **Non-Production** (R&D).
 
-## 2.2 Security Invariants
+### 2.2 Security Invariants
 
 - **Zero Public Access:** No public endpoints for cluster APIs or Jumpboxes.
 - **Identity-Centric:** Managed Identities (Azure) or IAM Roles (AWS) for infrastructure operations.
@@ -47,7 +47,7 @@ FITFILE follows the **Enterprise-Scale Landing Zone** pattern, separating platfo
 
 ---
 
-# 3. GitOps & CI/CD Strategy
+## 3. GitOps & CI/CD Strategy
 
 The deployment process is a hybrid **CI-Driven GitOps** workflow.
 
@@ -57,7 +57,7 @@ The deployment process is a hybrid **CI-Driven GitOps** workflow.
 
 ---
 
-# 4. Terraform Design: Data-Centric Infrastructure
+## 4. Terraform Design: Data-Centric Infrastructure
 
 Our IaC logic separates the **Logical Model** (what we want) from the **Physical Implementation** (how the provider builds it).
 
@@ -67,7 +67,7 @@ Our IaC logic separates the **Logical Model** (what we want) from the **Physical
 
 ---
 
-# 5. Security Architecture
+## 5. Security Architecture
 
 - **Private Networking:** Clusters reside in private subnets with strictly controlled NAT/Internet egress.
 - **Vault-Backed Secrets:** Zero secrets in Git. The **Vault Secrets Operator (VSO)** synchronizes encrypted data from HCP Vault into Kubernetes native secrets at runtime.

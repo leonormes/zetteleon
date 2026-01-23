@@ -4,22 +4,22 @@ confidence: "5/5"
 created: 2026-01-08T13:30:00Z
 epistemic: "technical"
 last_reviewed: "2026-01-08"
-modified: 2026-01-11T18:59:27+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To define the IP addressing architecture, capacity planning formulas, and CNI strategies for AWS EKS clusters."
 review_interval: "1 year"
 see_also: ["[[SoT - FitFile Deployment - Networking & DNS]]", "[[SoT - Kubernetes Networking & DNS]]"]
 source_of_truth: []
 status: "stable"
 tags: ["aws", "cni", "eks", "ip-planning", "networking"]
-title: 1. The EKS Networking Model
+title: SoT - AWS EKS Networking & Capacity Planning
 type: "SoT"
 ---
 
-# 1. The EKS Networking Model
+## 1. The EKS Networking Model
 
 EKS networking is tightly coupled with the AWS VPC architecture. The choice of **Container Network Interface (CNI)** plugin determines how Pods consume IP addresses.
 
-## 1.1 Default Mode: AWS VPC CNI
+### 1.1 Default Mode: AWS VPC CNI
 
 By default, EKS uses the Amazon VPC CNI plugin.
 
@@ -27,7 +27,7 @@ By default, EKS uses the Amazon VPC CNI plugin.
 - **Flat Network:** Pods are first-class citizens on the network. They can be reached directly by other VPC resources (VPN, Direct Connect, Peering) without NAT.
 - **Constraint:** IP Exhaustion. A large cluster can quickly consume thousands of private IPs.
 
-## 1.2 Alternative Mode: Overlay Networking (Calico/Cilium)
+### 1.2 Alternative Mode: Overlay Networking (Calico/Cilium)
 
 For environments with IP constraints (small VPC CIDRs):
 
@@ -38,24 +38,24 @@ For environments with IP constraints (small VPC CIDRs):
 
 ---
 
-# 2. Capacity Planning: The Formula
+## 2. Capacity Planning: The Formula
 
 When using the **AWS VPC CNI**, you must rigorously plan subnet sizes.
 
-## 2.1 The Variables
+### 2.1 The Variables
 
 - **`N` (Nodes):** Total number of EC2 instances.
 - **`P` (Pods per Node):** Maximum pods expected per node (Limit varies by instance type).
 - **`S` (Services):** ClusterIPs (virtual, but some LoadBalancers consume IPs).
 - **`B` (Buffer):** AWS reserves 5 IPs per subnet.
 
-## 2.2 The Calculation
+### 2.2 The Calculation
 
 ```plaintext
 Total IPs Needed = (N × P) + N + LoadBalancers + Buffer
 ```
 
-## 2.3 Example Scenario (FitFile Scale)
+### 2.3 Example Scenario (FitFile Scale)
 
 - **Nodes:** 50 (`m5.xlarge`, supports ~58 pods)
 - **Pods:** 58 per node (Max density)
@@ -72,15 +72,15 @@ Total IPs Needed = (N × P) + N + LoadBalancers + Buffer
 
 ---
 
-# 3. Advanced IP Management Strategies
+## 3. Advanced IP Management Strategies
 
-## 3.1 Secondary CIDR Blocks (Custom Networking)
+### 3.1 Secondary CIDR Blocks (Custom Networking)
 
 If the primary VPC CIDR is exhausted (e.g., `10.0.0.0/24` is full), you can attach a secondary CIDR (e.g., `100.64.0.0/16`) to the VPC.
 
 - **Configuration:** Set `AWS_VPC_K8S_CNI_CUSTOM_NETWORK_CFG=true`.
 - **Isolation:** Pods run in the secondary range, keeping the primary range free for Nodes and other AWS services.
 
-## 3.2 Prefix Delegation
+### 3.2 Prefix Delegation
 
 Recent AWS VPC CNI versions support **Prefix Delegation**, assigning a `/28` prefix (16 IPs) to a Node instead of individual IPs. This increases Pod density per ENI and reduces API calls.

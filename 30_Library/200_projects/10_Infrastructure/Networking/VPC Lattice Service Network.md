@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-04-02T03:12:13Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:53+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -141,7 +141,7 @@ aws vpc-lattice create-auth-policy \
   }'
 ```
 
-2. Create a Service Network VPC Association for Azure:
+1. Create a Service Network VPC Association for Azure:
 
 ```bash
 aws vpc-lattice create-service-network-vpc-association \
@@ -149,7 +149,7 @@ aws vpc-lattice create-service-network-vpc-association \
   --vpc-identifier AZURE_VPC_ID
 ```
 
-3. Set up Azure AKS:
+1. Set up Azure AKS:
 
 ```bash
 # Create Azure AKS cluster
@@ -164,7 +164,7 @@ az aks create \
 az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
 ```
 
-4. Create a test client in Azure AKS:
+1. Create a test client in Azure AKS:
 
 ```yaml
 # test-client.yaml
@@ -194,13 +194,13 @@ spec:
           done
 ```
 
-5. Deploy the test client:
+1. Deploy the test client:
 
 ```bash
 kubectl apply -f test-client.yaml
 ```
 
-6. Monitor the test client:
+1. Monitor the test client:
 
 ```bash
 kubectl logs -f deployment/test-client

@@ -5,13 +5,10 @@ confidence: "High"
 created: 2026-01-05T06:58:46+00:00
 epistemic: "Meta-Architecture"
 last_reviewed: 
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To map the user's intellectual landscape, defining the primary domains, their first principles, and the structural relationships between them."
 review_interval: "6 months"
-see_also:
-  - "[[SoT - Cognitive Refactoring (Neural Debugging)]]"
-  - "[[SoT - Data-Centric Software Engineering]]"
-  - "[[SoT - PRODOS Core Specification]]"
+see_also: ["[[SoT - Cognitive Refactoring (Neural Debugging)]]", "[[SoT - Data-Centric Software Engineering]]", "[[SoT - PRODOS Core Specification]]"]
 source_of_truth: []
 status: "Active"
 tags: ["architecture", "knowledge-management", "meta", "ontology"]

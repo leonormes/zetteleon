@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-02-07T12:57:53Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T10:49:56+00:00
+modified: 2026-01-23T18:09:27+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -149,7 +149,7 @@ ps aux
 ps aux
 ```
 
-2. Test Memory Limits
+1. Test Memory Limits
 
 ```python
 # Create a script to test memory limits
@@ -163,7 +163,7 @@ EOF
 python3 memory_test.py
 ```
 
-3. Network Exploration
+1. Network Exploration
 
 ```bash
 # Inside container

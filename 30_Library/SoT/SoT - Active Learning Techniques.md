@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:35:33Z
 epistemic: "strategy"
 last_reviewed: "2025-12-23"
-modified: 2026-01-08T10:49:45+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To define and detail the high-utility active learning protocols used within the ProdOS ecosystem."
 review_interval: "6 months"
 see_also: ["[[SoT - Deep Learning & Mastery]]", "[[SoT - Learning Mechanisms]]"]

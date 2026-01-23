@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-16T11:14:48Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:49+00:00
+modified: 2026-01-23T18:09:24+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -56,17 +56,17 @@ To figure out if a chase is possible, we need to calculate how far the wolf and 
 
 - $15 m/s (Wolf Speed) × 20 s (Wolf Stamina) =$ **[Your Answer] metres**
 
-2. **Elk's Head Start Distance:**
+1. **Elk's Head Start Distance:**
 
 - The elk runs for 2 seconds before the wolf even starts closing the gap.
 - $12 m/s (Elk Speed) × 2 s (Elk Reaction) =$ **[Your Answer] metres**
 
-3. **Elk's Distance During the Chase:**
+1. **Elk's Distance During the Chase:**
 
 - The elk also runs during the 20 seconds the wolf is chasing.
 - $12 m/s (Elk Speed) × 20 s (Wolf Stamina) =$ **[Your Answer] metres**
 
-4. **Total Distance the Elk Covers:**
+1. **Total Distance the Elk Covers:**
 
 - $(Elk's Head Start) + (Elk's Distance During Chase) =$ **[Your Answer] metres**
 

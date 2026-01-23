@@ -4,11 +4,10 @@ confidence: high
 created: 2026-01-07T10:14:15+00:00
 epistemic: confirmed
 last_reviewed: 2026-01-07
-modified: 2026-01-08T10:50:03+00:00
+modified: 2026-01-23T18:09:33+00:00
 purpose: "Track the refactoring of Helm charts to a Data-Centric Compiler pattern"
 review_interval: weekly
-see_also:
-  - "[[Pattern - Helm Chart as a Compiler]]"
+see_also: ["[[Pattern - Helm Chart as a Compiler]]"]
 source_of_truth: []
 status: active
 tags: [devops, helm, project, refactor]

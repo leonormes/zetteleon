@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T11:03:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "To describe how authentic music genres develop."
 review_interval: "90"
 see_also: []

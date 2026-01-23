@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-12T15:00:08Z
 epistemic: "NA"
 last_reviewed: ""
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: "A technique to overcome task initiation barriers in ADHD."
 review_interval: "180"
 see_also: []

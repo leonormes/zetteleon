@@ -1,16 +1,16 @@
 ---
-aliases: ["Expert Authority", "Positional Authority", "Epistemic Trespassing", "HiPPO Effect"]
+aliases: ["Epistemic Trespassing", "Expert Authority", "HiPPO Effect", "Positional Authority"]
 confidence: "5/5"
 created: 2025-12-17T00:00:00Z
 epistemic: ""
 last_reviewed: "2026-01-10"
-modified: 2026-01-10T12:00:00+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To define the organizational dysfunction where decision-making power is decoupled from domain expertise."
 review_interval: "3 months"
 see_also: ["[[MOC - Socio-Technical Dissonance]]"]
 source_of_truth: []
 status: "stable"
-tags: ["authority", "leadership", "social-dynamics", "team-dynamics", "bias", "decision-making"]
+tags: ["authority", "bias", "decision-making", "leadership", "social-dynamics", "team-dynamics"]
 title: SoT - Authority-Competence Asymmetry
 type: "SoT"
 uid: 

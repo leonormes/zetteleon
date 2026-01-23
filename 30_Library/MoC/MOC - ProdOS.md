@@ -5,11 +5,10 @@ created: 2025-12-04T14:38:32Z
 epistemic: reference
 id: MOC - ProdOS
 last_reviewed: 2025-12-23
-modified: 2026-01-08T15:03:29+00:00
+modified: 2026-01-23T18:09:22+00:00
 purpose: The Master Map of Content and entry point for the ProdOS ecosystem, routing to all Source of Truth notes and protocols.
 review_interval: 3 months
-see_also:
-  - "[[MOC - PRODOS - Problem-Solution Map]]"
+see_also: ["[[MOC - PRODOS - Problem-Solution Map]]"]
 source_of_truth: []
 status: stable
 tags: ["SoftwareEngineering/Architecture", prodos]

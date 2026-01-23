@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T21:38:00Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-08T10:49:58+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: "To describe the use of fables in the Versailles labyrinth as a form of visual storytelling."
 review_interval: "90"
 see_also: ["[[La Fontaines Fables Served as Courtly Education in 17th Century France]]", "[[Sequence - Evolution of Fable Storytelling]]"]

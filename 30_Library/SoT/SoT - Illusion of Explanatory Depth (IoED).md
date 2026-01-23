@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: "Verified via Cognitive Science & Behavioral Economics (Rozenblit & Keil, 2002)"
 last_reviewed: "2025-12-15"
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define the Illusion of Explanatory Depth and its critical impact on learning, systems thinking, and ADHD metacognition."
 review_interval: "6 months"
 see_also: ["[[Familiarity is Mistaken for Comprehension in IoED]]", "[[MOC - Illusion of Explanatory Depth]]", "[[MOC ADHD and Metacognition]]", "[[SoT - ADHD and Motivation]]", "[[SoT - Knowledge Synthesis (Thinking)]]", "[[SoT - Thinking Patterns", "and Heuristics]]", "Biases"]
@@ -34,7 +34,7 @@ This creates **Causal Opacity**: a "black box" in the mental model that is label
 The root error is conflating two distinct cognitive states:
 
 - **Familiarity (Prediction):** Knowing _that_ X happens. (e.g., "If I push the lever, the water goes down.")
-- **Comprehension (Causality):** Knowing _why_ X happens. (e.g., "The lever lifts the flapper valve, breaking the seal, allowing gravity to empty the tank into the bowl, triggering the siphon effect...")
+- **Comprehension (Causality):** Knowing _why_ X happens. (e.g., "The lever lifts the flapper valve, breaking the seal, allowing gravity to empty the tank into the bowl, triggering the siphon effect…")
 
 **The Danger:** We often navigate life using only Familiarity. However, when we need to _fix_, _debug_, or _innovate_ on a system, Familiarity fails completely. You cannot debug a system you only know by label.
 
@@ -67,7 +67,7 @@ You cannot "think" your way out of IoED; you must "act" your way out. You must f
 
 Attempt to explain the concept in simple terms to a child or a rubber duck.
 
-- **The Mechanism:** When you hit a gap in your explanation ("...and then magic happens..."), you have located the edge of your knowledge.
+- **The Mechanism:** When you hit a gap in your explanation ("…and then magic happens…"), you have located the edge of your knowledge.
 - **The Fix:** Go back to the source material _specifically_ to fill that gap.
 
 ### B. The "Build It" Standard (The Creation Test)

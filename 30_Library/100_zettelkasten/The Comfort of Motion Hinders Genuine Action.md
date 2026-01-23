@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-11-01T20:31:00Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: "To explain how the comfort of motion hinders genuine, uncomfortable action."
 review_interval: "90"
 see_also: ["[[Growth Happens Outside the Comfort Zone]]", "[[Motion Can Be a Procrastination Delay Tactic]]"]

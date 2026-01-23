@@ -4,11 +4,10 @@ confidence: "5/5"
 created: 2026-01-07T00:00:00Z
 epistemic: "Design Philosophy"
 last_reviewed: 
-modified: 2026-01-08T10:49:41+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "To define Rich Hickey's distinction between Simple (Unentangled) and Easy (Familiar), and why Simplicity is the objective of Engineering."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - The Data-Centric Philosophy]]"
+see_also: ["[[SoT - The Data-Centric Philosophy]]"]
 source_of_truth: []
 status: "Stable"
 tags: ["complexity", "design", "rich-hickey", "simplicity"]

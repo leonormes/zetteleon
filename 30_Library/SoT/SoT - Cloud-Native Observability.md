@@ -1,16 +1,16 @@
 ---
-aliases: ["K8s Observability", "Monitoring Strategy", "Logging and Tracing"]
+aliases: ["K8s Observability", "Logging and Tracing", "Monitoring Strategy"]
 confidence: "5/5"
 created: 2026-01-08T12:05:00Z
 epistemic: "technical"
 last_reviewed: "2026-01-08"
-modified: 2026-01-08
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To define the pillars of observability in distributed cloud-native systems, enabling rapid debugging and performance analysis."
 review_interval: "1 year"
 see_also: ["[[SoT - Azure Kubernetes Service (AKS) Operations]]", "[[SoT - DevOps & Infrastructure Architecture Strategy]]"]
 source_of_truth: []
 status: "stable"
-tags: ["observability", "monitoring", "kubernetes", "devops"]
+tags: ["devops", "kubernetes", "monitoring", "observability"]
 title: SoT - Cloud-Native Observability
 type: "SoT"
 ---
@@ -22,6 +22,7 @@ In distributed systems, traditional debugging (SSHing into a server) is impossib
 ## 2. The Three Pillars
 
 ### 2.1 Logs (Events)
+
 - **Definition:** Discrete events (stdout/stderr streams in containers).
 - **Strategy:**
     - **Aggregation:** Logs must be shipped from ephemeral pods to a central store (Elasticsearch, Loki, Splunk).
@@ -29,6 +30,7 @@ In distributed systems, traditional debugging (SSHing into a server) is impossib
     - **Audit Logs:** Critical for security and compliance (Who deleted this resource?).
 
 ### 2.2 Metrics (Aggregates)
+
 - **Definition:** Numeric measurements over time.
 - **RED Method (Services):**
     - **R**ate (Requests per second).
@@ -40,6 +42,7 @@ In distributed systems, traditional debugging (SSHing into a server) is impossib
     - **E**rrors (Device errors).
 
 ### 2.3 Tracing (Context)
+
 - **Definition:** The lifecycle of a request as it propagates through multiple microservices.
 - **Goal:** Identify latency bottlenecks and dependency failures.
 

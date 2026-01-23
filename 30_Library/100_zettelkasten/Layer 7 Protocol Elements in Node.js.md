@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-05-17T16:34:11Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -30,7 +30,7 @@ app.put("/api/users/1") // UPDATE
 app.delete("/api/users/1") // DELETE
 ```
 
-2. **Headers:**
+1. **Headers:**
 
 ```javascript
 const axios = require("axios")
@@ -45,7 +45,7 @@ const apiCall = axios.get("https://api.example.com/data", {
 })
 ```
 
-3. **Status Codes (Express.js example):**
+1. **Status Codes (Express.js example):**
 
 ```javascript
 const express = require("express")
@@ -65,7 +65,7 @@ app.get("/api/resource", (req, res) => {
 })
 ```
 
-4. **Content Types and Data Formats:**
+1. **Content Types and Data Formats:**
 
 ```javascript
 const express = require("express")
@@ -83,7 +83,7 @@ app.get("/api/data", (req, res) => {
 })
 ```
 
-5. **WebSocket (Real-time communication):**
+1. **WebSocket (Real-time communication):**
 
 ```javascript
 const WebSocket = require("ws")

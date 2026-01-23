@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-27T02:44:32Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:55+00:00
+modified: 2026-01-23T18:09:27+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -151,7 +151,7 @@ values/
     └── staging.yaml
 ```
 
-2. Use ApplicationSets for customer management:
+1. Use ApplicationSets for customer management:
 
 ```yaml
 apiVersion: argoproj.io/v1alpha1

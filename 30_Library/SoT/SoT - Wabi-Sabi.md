@@ -1,10 +1,10 @@
 ---
-aliases: ["Beauty of Impermanence", "Japanese Philosophy of Imperfection", "Wabi-Sabi", "Kintsugi", "Mono no aware"]
+aliases: ["Beauty of Impermanence", "Japanese Philosophy of Imperfection", "Kintsugi", "Mono no aware", "Wabi-Sabi"]
 confidence: "5/5"
 created: 2025-12-16T00:00:00Z
 epistemic: "derived"
 last_reviewed: "2026-01-10"
-modified: 2026-01-10T12:05:00+00:00
+modified: 2026-01-23T18:09:16+00:00
 purpose: "To define the Wabi-Sabi aesthetic and philosophy, acting as the definitive Source of Truth for Japanese concepts of impermanence, imperfection, and the appreciation of transient beauty."
 review_interval: "12 months"
 see_also: ["[[SoT - Mindfulness and Emotional Regulation]]", "[[SoT - Values and Eudaimonia]]"]
@@ -29,12 +29,16 @@ It is often described through three simple realities: **Nothing lasts, nothing i
 The term is a compound of two distinct but inseparable concepts:
 
 ### 2.1 Wabi (侘) - The Internal Philosophy
-*The subjective, spiritual mindset.*
-- **Origin:** Derived from *wabishii* (misery/loneliness), it evolved to mean the conscious acceptance of simplicity and the "poverty" of material excess.
+
+_The subjective, spiritual mindset._
+
+- **Origin:** Derived from _wabishii_ (misery/loneliness), it evolved to mean the conscious acceptance of simplicity and the "poverty" of material excess.
 - **Meaning:** It represents the **internal state** of finding spiritual richness in detachment, humility, and the quiet acceptance of transient nature. It is the "feeling" of a solitary hut in the mountains.
 
 ### 2.2 Sabi (寂) - The External Manifestation
-*The objective, material quality.*
+
+_The objective, material quality._
+
 - **Origin:** Translates to "chill", "withered", or "loneliness".
 - **Meaning:** It refers to the **external beauty of age**—the patina of wear, the rust on metal, or the moss on a stone. It is the visible evidence of the passage of time. Sabi is "inner life" made visible through the degradation of form.
 
@@ -43,19 +47,21 @@ The term is a compound of two distinct but inseparable concepts:
 This Source of Truth consolidates related Japanese aesthetic principles often confused or inextricably linked with Wabi-Sabi.
 
 ### 3.1 Kintsugi (Golden Joinery)
+
 **Kintsugi** is the practical application of Wabi-Sabi to broken objects.
 - **Method:** Repairing broken pottery with lacquer dusted or mixed with powdered gold, silver, or platinum.
-- **Philosophy:** Instead of disguising the breakage, Kintsugi treats the repair as part of the history of the object, rather than something to disguise. The object becomes *more* beautiful for having been broken.
+- **Philosophy:** Instead of disguising the breakage, Kintsugi treats the repair as part of the history of the object, rather than something to disguise. The object becomes _more_ beautiful for having been broken.
 
 ### 3.2 Mono no Aware (The Pathos of Things)
+
 **Mono no aware** is the emotional response to Wabi-Sabi.
 - **Meaning:** A "sensitivity to ephemera" or a wistful awareness of the impermanence of things.
-- **Example:** The sadness and appreciation felt when watching cherry blossoms fall. It is the recognition that their beauty is heightened *because* it is fleeting.
+- **Example:** The sadness and appreciation felt when watching cherry blossoms fall. It is the recognition that their beauty is heightened _because_ it is fleeting.
 
 ## 4. Misconception vs. Reality
 
 | Misconception (Western View) | Reality (True Wabi-Sabi) |
-| :--- | :--- |
+|:--- |:--- |
 | **A "Shabby Chic" Style** | A deep spiritual confrontation with mortality. |
 | **Intentional "Messiness"** | A disciplined appreciation of natural asymmetry. |
 | **Buying "Rustic" Goods** | A state of mind that requires no purchase; it is found, not bought. |
@@ -64,6 +70,6 @@ This Source of Truth consolidates related Japanese aesthetic principles often co
 
 In a modern context, Wabi-Sabi is a counter-balance to the pursuit of perfection and the anxiety of aging/decay.
 
-- **Resilience:** Like *Kintsugi*, we embrace our scars (physical or emotional) as proof of survival, not defects.
-- **Mindfulness:** Like *Wabi*, we cultivate an ability to sit with "incomplete" projects or "imperfect" situations without rushing to fix them.
+- **Resilience:** Like _Kintsugi_, we embrace our scars (physical or emotional) as proof of survival, not defects.
+- **Mindfulness:** Like _Wabi_, we cultivate an ability to sit with "incomplete" projects or "imperfect" situations without rushing to fix them.
 - **Acceptance:** We accept that "Digital Rot" (old files, decay) is natural, and "Inbox Zero" (state of perfection) is a temporary illusion.

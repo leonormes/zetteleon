@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:54Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:55+00:00
+modified: 2026-01-23T18:09:27+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -67,7 +67,7 @@ version: "1"
 
 Would you like a deeper exploration of any particular section, or should I summarize further?
 
-Here’s an overview of the other Linux primitives critical for containers, summarized and elaborated for clarity:
+Here's an overview of the other Linux primitives critical for containers, summarized and elaborated for clarity:
 
 ---
 
@@ -108,7 +108,7 @@ Here’s an overview of the other Linux primitives critical for containers, summ
   - AppArmor: Applies profiles to processes, restricting file access and syscalls.
   - SELinux: Enforces detailed access policies based on labels for files, processes, and network resources.
 - Container Integration:
-  - Containers often inherit the host’s LSM policies, with profiles customized for isolation.
+  - Containers often inherit the host's LSM policies, with profiles customized for isolation.
   - Nested containers face challenges due to non-stacking LSM limitations.
   - Work is ongoing to support stacking (e.g., AppArmor on the host, SELinux inside a container).
 - Use Case: Adds another security layer, particularly critical for privileged containers or systems with stringent isolation needs.
@@ -136,7 +136,7 @@ Here’s an overview of the other Linux primitives critical for containers, summ
 - Mechanisms:
   - Chroot: Insecure and easy to break out of; not recommended.
   - Pivot_root: Replaces the filesystem root securely, often used with a mount namespace to isolate processes completely.
-- Practical Use: Ensures a containerized process sees only its designated filesystem, preventing accidental or malicious access to the host’s filesystem.
+- Practical Use: Ensures a containerized process sees only its designated filesystem, preventing accidental or malicious access to the host's filesystem.
 
 ---
 

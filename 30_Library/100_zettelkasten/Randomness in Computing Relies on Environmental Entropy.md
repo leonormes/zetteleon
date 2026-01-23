@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "To explain how deterministic computers generate truly random prime numbers."
 review_interval: "1 year"
 see_also: ["[[Primes Become Rarer But Remain Searchable]]"]

@@ -4,16 +4,14 @@ confidence: ""
 created: 2025-11-03T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-15T19:43:22+00:00
+modified: 2026-01-23T18:09:16+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source: https://gemini.google.com/share/0bf03c7ce4b5
 source_of_truth: []
 status: active
-tags:
-  - clipped
-  - llm_session
+tags: [clipped, llm_session]
 title: Building Self Beyond Objective Truth
 type: head
 uid:

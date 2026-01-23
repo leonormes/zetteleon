@@ -5,7 +5,7 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2026-01-08T10:50:02+00:00
+modified: 2026-01-23T18:09:15+00:00
 purpose: To figure out how to configure dynamic credentials for Terraform Cloud and Azure to remove static keys.
 review_interval:
 see_also: []

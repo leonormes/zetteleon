@@ -4,7 +4,7 @@ confidence: "High"
 created: 2026-01-06T18:52:00+00:00
 epistemic: ""
 last_reviewed: 2026-01-06
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "Specifies the structural standard for observational health data used by OHDSI."
 review_interval: ""
 see_also: []

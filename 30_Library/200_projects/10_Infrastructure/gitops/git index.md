@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-20T07:24:49Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:52+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -111,7 +111,7 @@ Alright, let's look at the Git staging area, working directory, and commits from
 - Git's View:
   - Git doesn't actively track the data in the working directory in real-time. It only detects changes when you explicitly tell it to (e.g., with git status).
 
-2. Index (The Data's Staging Area):
+1. Index (The Data's Staging Area):
 
 - Data Representation:
   - The index is a binary file that acts as a staging area for your data changes.
@@ -128,7 +128,7 @@ Alright, let's look at the Git staging area, working directory, and commits from
 - Data Snapshot Preparation:
   - The index represents the next snapshot of your project's data. It's the prepared data that will be used to create the next commit.
 
-3. Commit (The Data's Permanent Snapshot):
+1. Commit (The Data's Permanent Snapshot):
 
 - Data Representation:
   - A commit is a permanent snapshot of your project's data at a specific point in time.

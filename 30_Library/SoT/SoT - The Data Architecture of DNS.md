@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-03-04T13:42:19Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "To define the Domain Name System as a hierarchical naming architecture for unique host identification and service discovery."
 review_interval: "6 months"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data-Centric Theory of Networking]]"]

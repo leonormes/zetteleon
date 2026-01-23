@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-13T02:28:53Z
 epistemic: 
 last_reviewed: 
-modified: 2026-01-08T10:50:02+00:00
+modified: 2026-01-23T18:09:32+00:00
 purpose: 
 review_interval: 
 see_also: []
@@ -29,7 +29,7 @@ This is an enhanced and more robust version of your Evolutionary Note System pro
 
 ### INPUT
 
-- **Query:** `<INSERT YOUR TOPIC OR QUESTION HERE>` (e.g., “How do I avoid the Collector’s Fallacy?”)
+- **Query:** `<INSERT YOUR TOPIC OR QUESTION HERE>` (e.g., "How do I avoid the Collector's Fallacy?")
 - **Optional Modifiers:** `strict keywords`, `excluded terms`, `priority areas`, `target trust-level (stable|authoritative)`.
 
 ---
@@ -53,7 +53,7 @@ This is an enhanced and more robust version of your Evolutionary Note System pro
     - Notes that reference any related, known SoTs.
     - Notes flagged with `status: needs-integration` or `status: under-review`.
 
-3. **SoT Triage:** Identify any existing SoT note for the topic (prefers notes ending with “SoT” or having `type: SoT`).
+3. **SoT Triage:** Identify any existing SoT note for the topic (prefers notes ending with "SoT" or having `type: SoT`).
     - If found, it is the **Canonical SoT**; treat gathered notes as inputs.
     - If not found, create a new one.
 
@@ -192,6 +192,6 @@ The agent must return an actionable report, including:
 2. **Synthesis Summary:** `trust-level`, `synthesis-count`, `resonance-score`, and **MVU Status**.
 3. **Convergence Report:** List of integrated notes and all superseded notes with their new redirect paths.
 4. **Integration Queue Status:** List of remaining Queue entries (if any).
-5. **Suggested Next Action:** A highly specific next step to increase the SoT's durability (e.g., “Run experiment A to validate Core Claim 2,” “Deep dive into Confidence Gap 1,” or “Synthesise related SoT: [[SoT B]] for coherence check”).
+5. **Suggested Next Action:** A highly specific next step to increase the SoT's durability (e.g., "Run experiment A to validate Core Claim 2," "Deep dive into Confidence Gap 1," or "Synthesise related SoT: [[SoT B]] for coherence check").
 
 Now process the following query:

@@ -4,7 +4,7 @@ confidence: "0.90"
 created: 2025-10-31T00:02:00Z
 epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: "Identifies the specific brain regions and networks activated during sustained attention tasks"
 review_interval: "90"
 see_also: ["[[ADHD shows reduced dorsolateral prefrontal cortex activation during sustained attention]]", "[[Task execution consists of five distinct cognitive phases]]"]

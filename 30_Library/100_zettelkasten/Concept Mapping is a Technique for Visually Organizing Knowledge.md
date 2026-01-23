@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T16:11:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-08T10:50:01+00:00
+modified: 2026-01-23T18:09:32+00:00
 purpose: "To define Concept Mapping as a learning tool."
 review_interval: "90"
 see_also: ["[[Dual Coding Theory Suggests Using Verbal and Visual Channels Enhances Memory]]"]

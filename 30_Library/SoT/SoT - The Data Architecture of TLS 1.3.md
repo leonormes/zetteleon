@@ -4,14 +4,13 @@ confidence: 5/5
 created: 2025-08-14T00:00:00Z
 epistemic: architecture
 last_reviewed: 2025-12-22
-modified: 2026-01-08T08:42:49+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: ">-"
 review_interval: 6 months
 see_also: []
 source_of_truth: []
 status: stable
-tags:
-  - SoftwareEngineering/Security
+tags: [SoftwareEngineering/Security]
 title: SoT - The Data Architecture of TLS 1.3
 type: SoT
 uid:

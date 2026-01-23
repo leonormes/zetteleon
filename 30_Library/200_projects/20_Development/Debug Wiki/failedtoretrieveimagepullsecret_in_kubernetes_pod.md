@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:53Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:50+00:00
+modified: 2026-01-23T18:09:25+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -72,10 +72,10 @@ spec:
   - name: fitfile-image-pull-secret
 ```
 
-4. Review Service Account Permissions:
+1. Review Service Account Permissions:
 
     - If a service account is used, ensure it has the `get` permission for secrets in the namespace. This can be done through a Role and RoleBinding.
-5. Re-create the Pod:
+2. Re-create the Pod:
 
     - After correcting the issue, delete and re-create the pod to apply the changes.
 

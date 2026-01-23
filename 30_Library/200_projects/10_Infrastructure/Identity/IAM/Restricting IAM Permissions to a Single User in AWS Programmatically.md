@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-14T06:46:10Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:54+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -101,7 +101,7 @@ Important Considerations:
 - iam:UpdateUser: This policy does not include iam:UpdateUser. If you need to allow modifications to the user (like changing password policies or other user attributes), you would need to add iam:UpdateUser to the Action list.
 - Error Handling: If the principal attempts to perform any of these actions on a different IAM user, the IAM policy will deny the action, resulting in an "Access Denied" error.
 
-3. Programmatically Create and Attach the IAM Policy
+1. Programmatically Create and Attach the IAM Policy
 You can programmatically create and attach this IAM policy using AWS SDKs (like boto3 for Python), AWS CLI, or Infrastructure as Code (IaC) tools like AWS CloudFormation or Terraform.
 Using AWS CLI (Example):
 
@@ -164,7 +164,7 @@ resource "aws_iam_role_policy_attachment" "restricted_policy_attachment" {
 
 Remember to replace the placeholders (YOUR_AWS_ACCOUNT_ID, USER_NAME_TO_RESTRICT_TO, ResourceCreatorRole) with your actual values in all programmatic approaches.
 
-4. Testing and Verification
+1. Testing and Verification
 
 After applying the policy, thoroughly test the permissions of the IAM principal to ensure it behaves as expected:
 

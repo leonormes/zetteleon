@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-06-23T11:10:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:49+00:00
+modified: 2026-01-23T18:09:24+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -24,7 +24,7 @@ The 'Do' stage involves the consistent implementation of agreed strategies acros
 
 ### Adaptive Focus Management
 
-- [[Gain focus and productivity with the Pomodoro Technique]] - Implement adaptive timing across all subjects: "You can adjust the length of pomodoro sessions to align with your work habits... Use it when you find it's most helpful, for example, when you're working on a project that has multiple moving parts"
+- [[Gain focus and productivity with the Pomodoro Technique]] - Implement adaptive timing across all subjects: "You can adjust the length of pomodoro sessions to align with your work habits… Use it when you find it's most helpful, for example, when you're working on a project that has multiple moving parts"
 - [[Learn Like a Pro]] - Use flexible Pomodoros that align with Bessie's natural hyperfocus patterns while ensuring breaks prevent overwhelm
 
 ### Working Memory Support Systems

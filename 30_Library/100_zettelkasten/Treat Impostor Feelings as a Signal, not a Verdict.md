@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-08-19T23:58:53Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:58+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -19,4 +19,4 @@ version: "1"
 ---
 
 - Name the pattern: impostor syndrome spikes when WM is saturated and the problem is under-specified. Tighten the task and externalize the plan; the feeling typically drops.
-- Keep a “Wins Log” with one line per day of what you learned or shipped. Review weekly.
+- Keep a "Wins Log" with one line per day of what you learned or shipped. Review weekly.

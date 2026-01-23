@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-21T00:00:00Z
 epistemic: "Synthesized from a conversational exploration of relationship communication dynamics."
 last_reviewed: "2025-12-21"
-modified: 2026-01-08T10:49:43+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "To provide a definitive framework and a set of actionable protocols for conducting healthy, respectful, and productive disagreements within a partnership."
 review_interval: "3 months"
 see_also: []
@@ -68,9 +68,9 @@ In the heat of a "system crash" (an argument), these standardized phrases can be
 This version focuses on invalidating the other's data ("who did what?"). It is characterized by circular logic and "whataboutism."
 
 - **Leon:** I feel rejected and ignored when you don't respond to my requests for help.
-- **Zofja:** I'm not ignoring you! I’m busy. You’re just being sensitive and trying to make me feel like a bad person.
-- **Leon:** I’m not saying you’re a bad person; I’m telling you how I feel. You’re telling me my feeling is wrong.
-- **Zofja:** Well, I feel attacked! You constantly tell me I’m stupid and a bully. You’re the one who is mean.
+- **Zofja:** I'm not ignoring you! I'm busy. You're just being sensitive and trying to make me feel like a bad person.
+- **Leon:** I'm not saying you're a bad person; I'm telling you how I feel. You're telling me my feeling is wrong.
+- **Zofja:** Well, I feel attacked! You constantly tell me I'm stupid and a bully. You're the one who is mean.
 - **Leon:** That is a different subject. Can we stay on the fact that I feel rejected?
 - **Zofja:** No, because your "feeling" is just a way to blame me. I don't want to talk about this if you're just going to judge me.
 - _**System Result:**_ _Total Crash. Both parties feel unheard; the original error signal is amplified._
@@ -79,10 +79,10 @@ This version focuses on invalidating the other's data ("who did what?"). It is c
 
 This version accepts both data points as valid and focuses on co-creating a solution ("how do we fix the feeling?").
 
-- **Leon:** I want to report a feeling I’m having. I’ve been feeling rejected and ignored lately based on our recent interactions. I know that’s my interpretation, but it’s the data I’m currently processing.
-- **Zofja:** It’s hard for me to hear that without feeling like I’m failing, which makes me feel attacked and belittled—like you think I’m "selfish" or "spoilt."
+- **Leon:** I want to report a feeling I'm having. I've been feeling rejected and ignored lately based on our recent interactions. I know that's my interpretation, but it's the data I'm currently processing.
+- **Zofja:** It's hard for me to hear that without feeling like I'm failing, which makes me feel attacked and belittled—like you think I'm "selfish" or "spoilt."
 - **Leon:** I understand. If my words are making you feel belittled, then I am failing in my delivery. That is a valid data point. Can we agree that **both** our feelings are real? You feel attacked, and I feel rejected.
 - **Zofja:** Yes. I don't want you to feel rejected, but I need you to stop using words that make me feel like a "bully."
 - **Leon:** Agreed. If I change my syntax to be less critical, will you commit to acknowledging my feelings of rejection instead of dismissing them?
-- **Zofja:** Yes. If you speak to me with more respect, I can listen to your feelings without getting defensive. Let’s try to adjust those two specific behaviours.
+- **Zofja:** Yes. If you speak to me with more respect, I can listen to your feelings without getting defensive. Let's try to adjust those two specific behaviours.
 - _**System Result:**_ _Successful Patch. Both error signals are validated, and a clear path for behavioural adjustment is established._

@@ -4,12 +4,10 @@ confidence: "High"
 created: 2026-01-06T19:27:24+00:00
 epistemic: "Pattern"
 last_reviewed: 
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define the architectural pattern for querying OMOP in environments where write access to the database is prohibited (blocking standard Atlas workflows)."
 review_interval: "6 months"
-see_also:
-  - "[[SoT - OHDSI Toolstack & Atlas]]"
-  - "[[SoT - OMOP Common Data Model (CDM)]]"
+see_also: ["[[SoT - OHDSI Toolstack & Atlas]]", "[[SoT - OMOP Common Data Model (CDM)]]"]
 source_of_truth: []
 status: "Active"
 tags: ["ohdsi", "read-only", "SoftwareEngineering/Architecture", "sql"]
@@ -40,8 +38,8 @@ Do not use Regex to strip `CREATE TABLE` from standard OHDSI SQL (fragile). Inst
 Transform the imperative steps of cohort generation into a declarative chain of data frames.
 
 1. **Vocabulary CTE:** Inject Concept Sets as a `VALUES` or `UNION ALL` block.
-    - _Standard:_ `INSERT INTO #Codesets...`
-    - _Read-Only:_ `WITH Codesets AS (SELECT 1 as id, 1234 as concept_id...)`
+    - _Standard:_ `INSERT INTO #Codesets…`
+    - _Read-Only:_ `WITH Codesets AS (SELECT 1 as id, 1234 as concept_id…)`
 2. **Primary Events CTE:** Query the domain table (`condition_occurrence`) filtering by the Vocabulary CTE.
 3. **Inclusion CTEs:** Apply filters using `SEMI JOIN` or `INTERSECT`.
 4. **Projection:** `SELECT count(*) FROM FinalCTE`.
@@ -59,7 +57,7 @@ Running complex logic without materialization is computationally expensive.
 #### B. SQL Optimization
 
 - **Predicate Pushdown:** Ensure date filters are applied in the _innermost_ CTEs.
-- **Avoid `NOT IN`:** Use `LEFT JOIN... WHERE id IS NULL` for exclusion criteria (performance killer on Redshift/Postgres).
+- **Avoid `NOT IN`:** Use `LEFT JOIN… WHERE id IS NULL` for exclusion criteria (performance killer on Redshift/Postgres).
 - **Limit:** Always append `LIMIT 1000` for preview queries.
 
 ### 4. UI Implications (Dual-Coding)

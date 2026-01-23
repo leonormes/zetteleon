@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-04-04T09:13:36Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:53+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -82,14 +82,14 @@ Azure charges fixed fees even with 0 instances to guarantee HA, whereas AWS offl
 kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v1.0.0/standard-install.yaml
 ```
 
-2. **Deploy NGINX Controller**:
+1. **Deploy NGINX Controller**:
 
 ```bash
 helm install ingress-nginx ingress-nginx/ingress-nginx \
   --set controller.service.annotations."service\.beta\.kubernetes\.io/azure-load-balancer-sku"=basic
 ```
 
-3. **Configure Gateway Resource**:
+1. **Configure Gateway Resource**:
 
 ```yaml
 apiVersion: gateway.networking.k8s.io/v1
@@ -112,4 +112,4 @@ spec:
 - Monitor capacity units if using autoscaling[^3]
 - Compare with AWS: Azure's solution adds ~£250/month for managed L7 features, while AWS offloads this to cluster resources
 
-This approach aligns with Netflix's multi-cloud strategy of using platform-native solutions where cost-effective[^4], while maintaining Kubernetes API consistency.
+This approach aligns with Netflix's multi-cloud strategy of using platform-native solutions where cost-effective,[^4] while maintaining Kubernetes API consistency.

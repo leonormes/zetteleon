@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-31T02:16:13+00:00
 epistemic: "empirical"
 last_reviewed: "2025-12-31"
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:16+00:00
 purpose: "To document the concrete implementation of Type-Driven Development and the Torvalds Loop within the Zsh configuration."
 review_interval: "3 months"
 see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - Type Theory & Data Structures]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]

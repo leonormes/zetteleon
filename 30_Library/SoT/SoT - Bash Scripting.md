@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-26T12:00:00Z
 epistemic: "Verified via practical examples"
 last_reviewed: "2025-12-26"
-modified: 2026-01-08T10:49:44+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "Canonical knowledge regarding Bash scripting patterns, best practices, and pitfalls."
 review_interval: "6 months"
 see_also: ["[[SoT - Process Execution (Kernel Logic)]]"]

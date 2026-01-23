@@ -5,7 +5,7 @@ created: 2025-10-31T12:29:00Z
 epistemic: "map"
 goal: "Understand fable adaptation across cultures"
 last_reviewed: "2025-11-01"
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "Trace fable development through history."
 review_interval: "180"
 see_also: ["[[Animal Allegory is a Persistent Feature of Fables for Social Commentary]]"]

@@ -1,7 +1,7 @@
 ---
 captured: 2026-01-18T08:08:23+00:00 2026-01-18T08:08:23+00:00
 created: 2026-01-18T08:08:30+00:00
-modified: 2026-01-20T16:17:34+00:00
+modified: 2026-01-23T18:09:13+00:00
 source: https://gemini.google.com/share/380334443522
 status: phase-1
 tags: [12, 13, input]
@@ -640,8 +640,9 @@ leonormes@gmail.com
 - **The Current State:**
 - **The Next Test:**
 
-
 ## Progress Update (2026-01-21)
+
 This roadmap is now being operationalised via the **Semantic Code Graph** protocol.
-*   **Realization:** [[SoT - Semantic Code Graph]] defines the "Information Structure" (Concept Distillation) derived from this roadmap.
-*   **Protocol:** [[Protocol - Context Injection]] implements the "Meta-Context Injection" and "Architectural Grounding" pillars.
+
+- **Realization:** [[SoT - Semantic Code Graph]] defines the "Information Structure" (Concept Distillation) derived from this roadmap.
+- **Protocol:** [[Protocol - Context Injection]] implements the "Meta-Context Injection" and "Architectural Grounding" pillars.

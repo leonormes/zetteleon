@@ -4,11 +4,10 @@ confidence: "5/5"
 created: 2026-01-07T00:00:00Z
 epistemic: "Mindset"
 last_reviewed: 
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define the mindset of designing software that cooperates with, rather than fights against, the underlying hardware."
 review_interval: "1 year"
-see_also:
-  - "[[MOC - Data-Oriented Design]]"
+see_also: ["[[MOC - Data-Oriented Design]]"]
 source_of_truth: []
 status: "Stable"
 tags: ["hardware", "mindset", "performance"]
@@ -40,12 +39,12 @@ It means accepting that **Abstraction is not Free**.
 
 ## 4. The Scale of Latency (Mental Model)
 
-To understand *why* we avoid main memory or disk, we scale CPU cycles to human time.
+To understand _why_ we avoid main memory or disk, we scale CPU cycles to human time.
 
 **Baseline:** Accessing L1 Cache = **1 Second**.
 
 | Memory Level | Raw Latency | Scaled Time (Human) | Conceptual Distance |
-| :--- | :--- | :--- | :--- |
+|:--- |:--- |:--- |:--- |
 | **L1 Cache** | ~0.5 ns | **1 second** | Thought in your head. |
 | **L2 Cache** | ~3 ns | **~5 seconds** | Picking up a pen. |
 | **L3 Cache** | ~10 ns | **~30 seconds** | Walking to a bookshelf. |

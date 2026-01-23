@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-27T20:38:44+00:00
 epistemic: "pattern"
 last_reviewed: "2025-12-27"
-modified: 2026-01-08T10:49:41+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "To define the principles and protocols for accurate software estimation and effective stakeholder management."
 review_interval: "6 months"
 see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - PRODOS (System Architecture)]]"]

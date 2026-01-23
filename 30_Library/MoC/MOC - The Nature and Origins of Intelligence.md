@@ -6,7 +6,7 @@ criteria: "Focus on core concepts from 'What Is Intelligence Where Does it Begin
 epistemic: ""
 exclusions: "Human-specific cognitive abilities without cross-species comparison."
 last_reviewed: ""
-modified: 2026-01-16T22:10:12+00:00
+modified: 2026-01-23T18:09:22+00:00
 purpose: "Organize notes about the fundamental nature of intelligence across species."
 review_interval: "180"
 scope: "Definitions, components, and examples of intelligence across life forms."
@@ -20,30 +20,30 @@ uid:
 updated: 
 ---
 
-# MOC - The Nature and Origins of Intelligence
+## MOC - The Nature and Origins of Intelligence
 
 This map organizes concepts about intelligence as a biological phenomenon that exists across species.
 
-## Core Definitions
+### Core Definitions
 
 - [[Intelligence is a Flexible Problem-Solving Toolbox]] rel:: defines
 
-## Components of Intelligence
+### Components of Intelligence
 
 - [[Memory Enables Learning by Storing Experiences for Future Use]] rel:: component-of
 - [[Creativity Combines Memories and Skills in Novel Ways]] rel:: component-of
 
-## Examples Across Species
+### Examples Across Species
 
 - [[Slime Molds Exhibit Memory-like Behavior Without a Nervous System]] rel:: demonstrates
 - [[Raccoons Demonstrate Complex Problem-Solving Skills]] rel:: demonstrates
 
-## Human Intelligence
+### Human Intelligence
 
 - [[Collective Intelligence Through Communication]] rel:: extends
 - [[Collective Intelligence is Enabled by Communication]] rel:: extends
 
-## Related Concepts
+### Related Concepts
 
 - [[Foundations of Learning and Cognition for Developers]]
 - [[The Neuroscience of Developer Cognition]]

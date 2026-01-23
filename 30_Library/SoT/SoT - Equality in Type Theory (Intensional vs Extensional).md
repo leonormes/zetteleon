@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-18T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-18"
-modified: 2026-01-08T10:49:43+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "Defines the central conflict in type theory between \\\"Semantic Truth\\\" (Equality Reflection) and \\\"Decidability\\\" (Intensional Equality)."
 review_interval: "1 year"
 see_also: ["[[SoT - Computational Type Theory (Meaning as Use)]]", "[[SoT - Cubical Type Theory (Computational Univalence)]]"]

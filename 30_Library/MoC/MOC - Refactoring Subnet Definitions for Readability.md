@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-22T15:05:03Z
 epistemic: "NA"
 last_reviewed: "2025-11-22"
-modified: 2026-01-08T15:03:29+00:00
+modified: 2026-01-23T18:09:22+00:00
 purpose: "Explains the refactoring of subnet logic for clarity."
 review_interval: "90"
 see_also: []
@@ -39,7 +39,7 @@ The improved approach uses [[Strategy - Hierarchical Subnetting]] to break the c
 jumpbox_block_prefix = cidrsubnet(local.vnet_address_space, 2, 2) # Result: 192.168.200.128/26
 ```
 
-2. **Carve the specific subnet:** Then, define the specific VM subnet (`/29`) from _that_ intermediate block.
+1. **Carve the specific subnet:** Then, define the specific VM subnet (`/29`) from _that_ intermediate block.
 
 ```hcl
 vm_subnet_address_prefix = [cidrsubnet(local.jumpbox_block_prefix, 3, 0)] # Result: 192.168.200.128/29

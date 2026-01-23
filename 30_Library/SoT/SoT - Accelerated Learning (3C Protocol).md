@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "strategy"
 last_reviewed: "2025-12-24"
-modified: 2026-01-08T10:49:45+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To define a systematic protocol for high-velocity learning, shifting from passive consumption to neural integration."
 review_interval: "3 months"
 see_also: ["[[Protocol - Deep Dive Session]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - PRODOS (System Architecture)]]"]
@@ -33,7 +33,7 @@ The brain is constrained by a "serial processing" bottleneck and metabolic limit
 
 - **Selection (80/20 Rule):** Identify the 20% of content yielding 80% of utility. Avoid "jamming and cramming."
 - **Association:** "Hook" new data onto existing mental models to ensure retention.
-- **Chunking:** Synthesise independent ideas into a single simple model, metaphor, or drawing. This bypasses the brain’s limit of juggling ~4 ideas at once.
+- **Chunking:** Synthesise independent ideas into a single simple model, metaphor, or drawing. This bypasses the brain's limit of juggling ~4 ideas at once.
 
 ### 2.2 Compile (Process Execution)
 

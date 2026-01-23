@@ -5,12 +5,10 @@ confidence: "High"
 created: 2026-01-06T19:41:54+00:00
 epistemic: "Philosophy"
 last_reviewed: 
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "To define the distinction between 'School Maths' (Applicative/Procedural) and 'Real Mathematics' (Generative/Creative), and to provide a framework for teaching the latter."
 review_interval: "1 year"
-see_also:
-  - "[[MoC - Bessie's Educational Strategy]]"
-  - "[[SoT - Experiential Learning & Education]]"
+see_also: ["[[MoC - Bessie's Educational Strategy]]", "[[SoT - Experiential Learning & Education]]"]
 source_of_truth: []
 status: "Active"
 tags: ["education", "maths", "pedagogy", "TheHuman/Philosophy"]
@@ -53,7 +51,7 @@ updated:
 
 #### B. The "Two Meanings of Equals"
 
-- **Operational (Primary School):** `=` means "The answer is..." (Left-to-Right command).
+- **Operational (Primary School):** `=` means "The answer is…" (Left-to-Right command).
 - **Relational (Algebra):** `=` means "Is the same value as" (Balance).
 - **Fix:** Teach equivalence early. $4+4 = 5+3$.
 

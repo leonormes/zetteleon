@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-09-03T04:36:15Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T10:49:56+00:00
+modified: 2026-01-23T18:09:28+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -18,7 +18,7 @@ updated:
 version: "null"
 ---
 
-Here’s what you need for your firewall configuration depending on whether you’re connecting via **HSCN** or **Internet**:
+Here's what you need for your firewall configuration depending on whether you're connecting via **HSCN** or **Internet**:
 
 ## ✅ For HSCN / N3 Connection
 
@@ -70,8 +70,8 @@ Firewall rules (outbound, from your private network)
 - Protocols: HTTPS (TLS)
 - Ports: 443
 - Destination hostnames:
-  - msg.intspineservices.nhs.uk (if you’re integrating/testing)
-  - msg.spineservices.nhs.uk (if you’re live)
+  - msg.intspineservices.nhs.uk (if you're integrating/testing)
+  - msg.spineservices.nhs.uk (if you're live)
   - digital.nhs.uk (for documentation, not the runtime API)
 - DNS: Allow normal DNS resolution for the above hostnames. Do not pin to fixed IPs; NHS guidance is to allowlist by hostname, not IP, as IPs may change [NHSmail firewall guidance](https://support.nhs.net/knowledge-base/nhsmail-firewall-and-proxy-server-access/).
-- TLS: Permit outbound TLS 1.2+ to those hosts. You’ll be presenting an NHS-issued client cert for MESH API calls (per the MESH API onboarding).
+- TLS: Permit outbound TLS 1.2+ to those hosts. You'll be presenting an NHS-issued client cert for MESH API calls (per the MESH API onboarding).

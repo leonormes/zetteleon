@@ -1,27 +1,37 @@
-# AI Agents or Skills? Why the Answer Is ‘Both’
+---
+created: 2026-01-23T17:17:59+00:00
+modified: 2026-01-23T18:09:35+00:00
+tags: [articles]
+title: AI Agents or Skills Why the Answer Is ‘Both’
+---
+
+## AI Agents or Skills? Why the Answer Is 'Both'
 
 ![rw-book-cover](https://cdn.thenewstack.io/media/2026/01/dc803d5a-agents-vs-skills.jpg)
 
-## Metadata
+### Metadata
+
 - Author: [[Pete Hampton]]
-- Full Title: AI Agents or Skills? Why the Answer Is ‘Both’
+- Full Title: AI Agents or Skills? Why the Answer Is 'Both'
 - Category: #articles
 - Summary: AI agents are powerful decision-makers that manage workflows, while skills are reusable units of expertise they use as needed. Combining agents with skills helps keep systems organized, flexible, and efficient without overloading their context. This approach lets experts improve capabilities independently and keeps AI reliable across many tasks.
-- URL: https://thenewstack.io/ai-agents-or-skills-why-the-answer-is-both/
+- URL: <https://thenewstack.io/ai-agents-or-skills-why-the-answer-is-both/>
 
-## Full Document
+### Full Document
+
 ![Featued image for: AI Agents or Skills? Why the Answer Is ‘Both’](https://cdn.thenewstack.io/media/2026/01/dc803d5a-agents-vs-skills-1024x576.jpg)Featured image by Andrea Lightfoot on Unsplash.
+
 Before the hype around [Model Context Protocol (MCP)](https://thenewstack.io/model-context-protocol-a-primer-for-the-developers/) had a chance to die down, Anthropic pulled another winner out of its hat: [Agent Skills](https://thenewstack.io/agent-skills-anthropics-next-bid-to-define-ai-standards/).
 
 Agents are full decision-making entities with system prompts, tool access, backing models (Claude, ChatGPT, etc.) and agentic loops that let them orchestrate workflows and manage state.
 
-The [new Agent Skills](https://agentskills.io/home) are modular, declarative bundles of expertise — organized procedural knowledge packaged into reusable units that agents load progressively as needed.
+The [new Agent Skills](https://agentskills.io/home) are modular, declarative bundles of expertise—organized procedural knowledge packaged into reusable units that agents load progressively as needed.
 
 This raises an interesting and fundamental architectural question: What should be an agent, and what should be a skill? The choice has real implications for scope management, context-window reliability, extensibility and evaluability.
 
-The answer is not picking one over the other. It’s agents with skills.
+The answer is not picking one over the other. It's agents with skills.
 
-#### **Why Agents Can’t Scale Through Prompts Alone**
+#### **Why Agents Can't Scale Through Prompts Alone**
 
 Early agentic systems hit predictable walls. Teams built specialized agents for each use case: a customer service agent, a coding agent, a research agent. When these agents needed new capabilities, developers updated system prompts or created an entirely new agent. This works, but it can quickly become unmanageable.
 
@@ -33,13 +43,13 @@ Collectively, we used to think agents would look very different in different dom
 
 Skills allow us to iterate on domain expertise without architectural changes.
 
-They are primarily declarative, meaning subject matter experts can contribute capabilities without modifying agent logic. A security team can package its compliance workflows into a skill. A [data engineering team](https://clickhouse.com/blog/agent-facing-analytics) can encode its ETL best practices. These contributions don’t require touching the agent’s core system prompt or decision-making loop.
+They are primarily declarative, meaning subject matter experts can contribute capabilities without modifying agent logic. A security team can package its compliance workflows into a skill. A [data engineering team](https://clickhouse.com/blog/agent-facing-analytics) can encode its ETL best practices. These contributions don't require touching the agent's core system prompt or decision-making loop.
 
 When agents encounter new scenarios, skills provide a clear responsibility boundary. Teams can update a skill for one domain without risking regressions in another. Skills can be versioned, tested in isolation, and improved based on telemetry, all without the fragility of system prompt engineering.
 
 Skills enable progressive loading, which introduces resources incrementally to help address context bloat. Anyone using agents has probably experienced what happens when context windows become bloated, and [research throughout 2025](https://www.anthropic.com/engineering/code-execution-with-mcp) demonstrated that overloading context windows causes surprising failure modes.
 
-Progressive loading addresses this: At runtime, agents see only skills metadata (name and description). The full content loads only when the agent determines a skill is relevant to the current task. This means the amount of context bundled into skills can be effectively unbounded without compromising the agent’s reasoning ability.
+Progressive loading addresses this: At runtime, agents see only skills metadata (name and description). The full content loads only when the agent determines a skill is relevant to the current task. This means the amount of context bundled into skills can be effectively unbounded without compromising the agent's reasoning ability.
 
 #### **A Real-World Example**
 
@@ -57,22 +67,22 @@ So, when should something be an agent or a skill?
 
 Build an agent when you need:
 
-* Full workflow orchestration with multistep decision trees.
-* State management across complex operations.
-* Quality control through systematic evaluations.
-* Scope boundaries that prevent misuse.
+- Full workflow orchestration with multistep decision trees.
+- State management across complex operations.
+- Quality control through systematic evaluations.
+- Scope boundaries that prevent misuse.
 
 Build a skill when you need:
 
-* Reusable procedural knowledge applicable across contexts.
-* Domain expertise contributions from nondevelopers.
-* Context window protection through selective loading.
-* Capabilities that can evolve independently.
+- Reusable procedural knowledge applicable across contexts.
+- Domain expertise contributions from nondevelopers.
+- Context window protection through selective loading.
+- Capabilities that can evolve independently.
 
-Many existing agents — effectively structured prompts with tool access — can likely become skills with minimal changes. But some use cases genuinely require the control, scope management and evaluability that full agents provide.
+Many existing agents—effectively structured prompts with tool access—can likely become skills with minimal changes. But some use cases genuinely require the control, scope management and evaluability that full agents provide.
 
 #### **Agents Need a License To Skill**
 
-The future of [agentic AI](https://thenewstack.io/ai-agents-a-comprehensive-introduction-for-developers/) isn’t choosing between agents and skills. It’s agents equipped with the right skills at the right time; agents with a license to skill, if you will. The agents orchestrate, maintain scope and ensure quality through evaluations. The skills package expertise, protect context windows and enable contributions from domain experts.
+The future of [agentic AI](https://thenewstack.io/ai-agents-a-comprehensive-introduction-for-developers/) isn't choosing between agents and skills. It's agents equipped with the right skills at the right time; agents with a license to skill, if you will. The agents orchestrate, maintain scope and ensure quality through evaluations. The skills package expertise, protect context windows and enable contributions from domain experts.
 
-This architecture is already reshaping production systems like clickhouse.build, and with skills emerging as an open standard alongside MCP, it’s positioned to become the default way forward.
+This architecture is already reshaping production systems like clickhouse.build, and with skills emerging as an open standard alongside MCP, it's positioned to become the default way forward.

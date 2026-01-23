@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-05-28T18:46:40Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -19,18 +19,18 @@ version: ""
 ---
 
 1. **Describe the Task:**
-   “Write 200 words of the project report (Specific, action-oriented).”
+   "Write 200 words of the project report (Specific, action-oriented)."
 
-2. **Define “Done”:**
-   “Task is done when 200 new words are written and saved.”
+2. **Define "Done":**
+   "Task is done when 200 new words are written and saved."
 
-3. **State the “Why”:**
-   “Finishing this section means I’ll be less stressed tomorrow and closer to my degree.”
+3. **State the "Why":**
+   "Finishing this section means I'll be less stressed tomorrow and closer to my degree."
 
 4. **Time Box:**
-   “Set timer for 25 minutes. Take a 5-minute break after.”
+   "Set timer for 25 minutes. Take a 5-minute break after."
 
 5. **Motivational Cue:**
-   “Remember: You always feel better after making progress!”
+   "Remember: You always feel better after making progress!"
 
 ---

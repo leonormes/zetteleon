@@ -5,7 +5,7 @@ created: 2025-06-18T17:28:14Z
 epistemic: ""
 ID: emotional_reasoning
 last_reviewed: ""
-modified: 2026-01-08T10:50:01+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -19,7 +19,7 @@ updated:
 version: ""
 ---
 
-Emotional reasoning occurs when an individual’s emotions dictate their perception of reality.
+Emotional reasoning occurs when an individual's emotions dictate their perception of reality.
 
 [Emotions are not reliable indicators of reality](Emotions%20Are%20Not%20Reliable%20Indicators%20of%20Reality.md)
 

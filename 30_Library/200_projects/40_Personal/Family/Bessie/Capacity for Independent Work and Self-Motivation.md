@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-06-20T15:26:10Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:49+00:00
+modified: 2026-01-23T18:09:24+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -29,7 +29,7 @@ Bessie demonstrates a strong capacity for independent work and self-motivation w
 ### Adaptive Focus Techniques
 
 - [[Learn Like a Pro]] - Adaptive Pomodoro that works with natural hyperfocus patterns while ensuring breaks prevent overwhelm
-- [[Gain focus and productivity with the Pomodoro Technique]] - Customizing work sessions: "You can adjust the length of pomodoro sessions to align with your work habits... As long as you're following the work-break pattern, you can still reap the benefits"
+- [[Gain focus and productivity with the Pomodoro Technique]] - Customizing work sessions: "You can adjust the length of pomodoro sessions to align with your work habits… As long as you're following the work-break pattern, you can still reap the benefits"
 
 ### Self-Starting Strategies
 

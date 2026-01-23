@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "Analysis of Denis Villeneuve's recurring themes and directorial evolution."
 last_reviewed: "2025-12-31"
-modified: 2026-01-08T10:49:44+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "To document the structural and philosophical framework of Denis Villeneuve's filmography."
 review_interval: "1 year"
 see_also: ["[[SoT - Cyberpunk Case Study - Blade Runner]]", "[[SoT - Cyberpunk Philosophy]]"]
@@ -19,7 +19,7 @@ updated:
 
 ## 1. Core Thematic Framework
 
-Villeneuve’s work is characterized by the exploration of internal and external structures that govern human behavior.
+Villeneuve's work is characterized by the exploration of internal and external structures that govern human behavior.
 
 ### 1.1 The Cycle of Violence
 

@@ -6,7 +6,7 @@ created: 2026-01-01T19:38:48+00:00
 epistemic: ""
 goal: "Transition from Code-First to Data-First software architecture."
 last_reviewed: ""
-modified: 2026-01-08T10:49:48+00:00
+modified: 2026-01-23T18:09:23+00:00
 priority: 5
 purpose: ""
 review_interval: ""

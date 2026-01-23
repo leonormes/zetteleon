@@ -4,7 +4,7 @@ confidence:
 created: 2025-12-08T00:00:00Z
 epistemic:
 last_reviewed:
-modified: 2026-01-09T22:12:03+00:00
+modified: 2026-01-23T18:09:15+00:00
 purpose:
 review_interval:
 see_also: []
@@ -17,27 +17,27 @@ uid:
 updated:
 ---
 
-# HEAD - ProdOS Grafana Integration
+## HEAD - ProdOS Grafana Integration
 
-## The Spark
+### The Spark
 
 Derived from ProdOS Task: "get prodOS to collect any alerts from grafana".
 
 I want my "Daily Dashboard" in ProdOS to reflect the health of my systems (HomeLab/Servers).
 
-## My Current Model
+### My Current Model
 
 ProdOS is currently "Output" focused (what I need to do). It lacks "Input" (what is happening).
 
 Grafana has the data. I need a way to pipe critical alerts into my "Inbox" or "Daily Note".
 
-## The Tension
+### The Tension
 
 - **Noise:** I don't want a flood of logs. Only actionable alerts.
 - **Mechanism:** Obsidian is a static file system. How do I get "Push" notifications into it?
 - **Latency:** Is it acceptable for this to be "Pull" (when I run a script) vs "Push" (real-time)?
 
-## The Next Test
+### The Next Test
 
 - [ ] Write a simple Python script to query the Grafana API for "Alerting" states.
 - [ ] Format the output as a Markdown checklist.

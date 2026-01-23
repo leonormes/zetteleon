@@ -1,18 +1,21 @@
 ---
-title: "How Git Worktrees Changed My AI Agent Workflow"
-source: "https://nx.dev/blog/git-worktrees-ai-agents"
 captured: "2026-01-19T16:13:16+00:00 2026-01-19T16:13:16+00:00"
+created: 2026-01-19T16:13:18+00:00
+modified: 2026-01-23T18:09:13+00:00
+source: "https://nx.dev/blog/git-worktrees-ai-agents"
 status: "phase-1"
-tags:
-  - "input"
+tags: ["input"]
+title: HEAD How Git Worktrees Changed My AI Agent Workflow
 type: "head"
 ---
+
 ## Phase 1: Ingestion (The Stream)
 
 > [!abstract] Context
 > Learn how Git worktrees enable parallel development with AI agents, eliminating context switching in your workflow.
 
 ### Raw Output / Content
+
 ![](https://www.youtube.com/watch?v=-DTpsDjYKCY)
 
 Do you know those times when you're working on something, but you also need to carry forward another feature on the side? Obviously, Git allows you to have branches for this specific purpose, but sometimes it's just **easier to have a copy of the repo**, have multiple instances of the editor open and switch back and forth. I've been doing this a lot, and even more so **since AI agents became a daily tool in my development workflow**.
@@ -23,7 +26,7 @@ Already familiar with worktrees?
 
 If you're already familiar, make sure you don't miss out on the `@johnlindquist/worktree` CLI. Jump ahead to the [corresponding section later in the article](https://nx.dev/blog/git-worktrees-ai-agents#streamlining-worktrees-with-the-worktree-cli).
 
-## So what's the issue here?
+## So What's the Issue Here?
 
 It's tedious. You notice that PR that's failing on CI, meaning you need to switch back to that branch to fix it and re-trigger a run. The result:
 
@@ -35,7 +38,7 @@ A lot of ceremony, which is annoying. Now, when it comes to failing PRs in CI, I
 
 But if you want to work on multiple things locally, this will still be an issue.
 
-## Using AI agents made me find Git worktrees
+## Using AI Agents Made Me Find Git Worktrees
 
 And I'm pretty sure that's how you discovered it too. I'll leave it to you whether it's productive or not to have multiple things going on in parallel, but this has almost become the reality when you start **incorporating AI agents** into your development workflow.
 
@@ -48,7 +51,7 @@ And I'm pretty sure that's how you discovered it too. I'll leave it to you wheth
 
 Such scenarios are when you truly need multiple local copies of your repository. Branches wouldn't work here. Now, you could manually copy the repo, but that's clunky. **Git worktrees** provide a native way to handle exactly this use case.
 
-## Git worktrees 101
+## Git Worktrees 101
 
 **Git worktrees solve this elegantly** by allowing multiple working directories from a single repository, each operating independently while sharing the same Git history.
 
@@ -94,7 +97,7 @@ git merge feature-a
 
 (Note, most likely you're not merging directly anyway but rather going via some PR that merges into `main`)
 
-## Streamlining worktrees with the worktree CLI
+## Streamlining Worktrees with the Worktree CLI
 
 While Git worktrees are powerful, I highly recommend checking out [John Lindquist's](https://twitter.com/johnlindquist) worktree CLI, which streamlines some of the worktree management.
 
@@ -136,7 +139,7 @@ And **remove a worktree** when you're done:
 
 wt remove feature-name
 
-### Direct PR checkout
+### Direct PR Checkout
 
 I particularly like this one. Similar to the [GitHub CLI command](https://cli.github.com/) `gh pr checkout <pr-number>` that I use all the time, there's a similar command in the Worktree CLI (in fact, it relies on the GitHub CLI underneath):
 
@@ -172,6 +175,7 @@ Learn more:
 ---
 
 ## Phase 2: The Gate (4D Filter)
+
 - [ ] **Do:** < 2 mins?
 - [ ] **Delegate:** Who?
 - [ ] **Defer:** Move to Hangar or SoT?
@@ -180,6 +184,7 @@ Learn more:
 ---
 
 ## Phase 5: The Scribe (#SAVESTATE)
+
 - **The Conflict:**
 - **The Current State:**
 - **The Next Test:**

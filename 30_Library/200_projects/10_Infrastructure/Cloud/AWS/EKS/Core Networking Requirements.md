@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-02-07T12:57:53Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T10:49:56+00:00
+modified: 2026-01-23T18:09:27+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -20,7 +20,7 @@ version: "1"
 
 ## 1. Core Networking Requirements
 
-At the foundation of any EKS deployment is a robust and correctly configured network. Here’s what that entails:
+At the foundation of any EKS deployment is a robust and correctly configured network. Here's what that entails:
 
 - Virtual Private Cloud (VPC): Amazon EKS integrates with Amazon VPC, which allows you to use your own VPC security groups and network access control lists (ACLs). You must choose an existing VPC that meets EKS requirements or create one, and it's important to note that once chosen, you cannot change the VPC associated with your cluster. If you don't have a VPC, you can create one using an AWS CloudFormation template provided by Amazon EKS.
 - Subnets: When you create an EKS cluster, you must specify at least two subnets that reside in different Availability Zones. All available subnets in your chosen VPC are preselected by default, but you must ensure you have at least two selected. The subnets you select must meet Amazon EKS subnet requirements, and it is advisable to familiarize yourself with these requirements before selecting your subnets.
@@ -69,4 +69,4 @@ When incorporating hybrid nodes, there are additional networking considerations:
 - Internet Access: Manage internet access depending on whether you are using a public or private cluster. Use VPC endpoints or private registries as needed.
 - Hybrid Nodes: Pay special attention to hybrid node requirements, including setting up network connectivity, configuring CIDR blocks, and defining routes.
 
-To ensure your network setup is correct, it’s crucial to have a thorough understanding of these requirements before deploying a cluster. If you're not familiar with Amazon EKS networking, it is recommended to consult the 'De-mystifying cluster networking for Amazon EKS worker nodes' resource.
+To ensure your network setup is correct, it's crucial to have a thorough understanding of these requirements before deploying a cluster. If you're not familiar with Amazon EKS networking, it is recommended to consult the 'De-mystifying cluster networking for Amazon EKS worker nodes' resource.

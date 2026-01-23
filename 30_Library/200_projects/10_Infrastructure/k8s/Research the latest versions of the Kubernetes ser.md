@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-15T10:45:10Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:51+00:00
+modified: 2026-01-23T18:09:25+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -20,7 +20,7 @@ version: ""
 
 Research the latest versions of the Kubernetes service objects. Explain how ingress and egress works for a cluster. What are the benefits of each option. Also explain the process of ingress from a data centric perspectve
 
-Google Kubernetes Engine (GKE) currently provides Kubernetes v1.31 as the latest stable version in its Regular channel (1.31.5-gke.1233000)[^1], with v1.31.6-gke.1027000 available in the Rapid channel[^1]. Key updates in Kubernetes 1.31 include enhanced service CIDR management through new ServiceCIDR API objects[^2], improved job failure handling with retriable/non-retriable classifications[^2], and persistent volume phase tracking[^2].
+Google Kubernetes Engine (GKE) currently provides Kubernetes v1.31 as the latest stable version in its Regular channel (1.31.5-gke.1233000),[^1] with v1.31.6-gke.1027000 available in the Rapid channel.[^1] Key updates in Kubernetes 1.31 include enhanced service CIDR management through new ServiceCIDR API objects,[^2] improved job failure handling with retriable/non-retriable classifications,[^2] and persistent volume phase tracking.[^2]
 
 ## Traffic Management in Kubernetes
 
@@ -56,16 +56,12 @@ Egress controls outgoing traffic through:
 6. TLS offloading**: Certificate management through Secrets[^5]
 7. Request forwarding**: Preserved headers with X-Forwarded-* fields[^4]
 
-The new Gateway API (replacing legacy Ingress) introduces ServiceCIDR objects for dynamic IP allocation[^2], while recent GKE updates enable automatic control plane upgrades to 1.31.5-gke.1233000 in Regular channels[^1]. For stateful workloads, v1.31 adds PersistentVolume phase transition timestamps to help diagnose storage issues[^2].
+The new Gateway API (replacing legacy Ingress) introduces ServiceCIDR objects for dynamic IP allocation,[^2] while recent GKE updates enable automatic control plane upgrades to 1.31.5-gke.1233000 in Regular channels.[^1] For stateful workloads, v1.31 adds PersistentVolume phase transition timestamps to help diagnose storage issues.[^2]
 
 <div style="text-align: center">⁂</div>
 
 [^1]: <https://cloud.google.com/kubernetes-engine/docs/release-notes>
-
 [^2]: <https://devtron.ai/blog/kubernetes-1-31-whats-new/>
-
 [^3]: <https://tetrate.io/learn/kubernetes/what-is-kubernetes-ingress/>
-
 [^4]: <https://konghq.com/blog/learning-center/what-is-kubernetes-ingress>
-
 [^5]: <https://kubernetes.io/docs/concepts/services-networking/ingress/>

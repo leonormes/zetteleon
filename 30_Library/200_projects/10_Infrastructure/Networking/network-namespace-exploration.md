@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:54Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:52+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -149,7 +149,7 @@ sudo ip link set eth0 down
 sudo ip link set eth0 up
 ```
 
-2. Monitor Network Traffic:
+1. Monitor Network Traffic:
 
 ```bash
 # Watch interface statistics in real-time
@@ -159,7 +159,7 @@ watch -n1 'ip -s link show eth0'
 ping 8.8.8.8
 ```
 
-3. Examine Connection States:
+1. Examine Connection States:
 
 ```bash
 # Watch active connections
@@ -181,7 +181,7 @@ sudo ip addr add 192.168.1.200/24 dev eth0
 sudo ip addr del 192.168.1.200/24 dev eth0
 ```
 
-2. Modifying Routes:
+1. Modifying Routes:
 
 ```bash
 # Add a static route
@@ -191,7 +191,7 @@ sudo ip route add 10.0.0.0/24 via 192.168.1.1
 sudo ip route del 10.0.0.0/24
 ```
 
-3. Changing Interface Properties:
+1. Changing Interface Properties:
 
 ```bash
 # Change MTU
@@ -217,7 +217,7 @@ traceroute 8.8.8.8
 dig google.com
 ```
 
-2. Traffic Analysis:
+1. Traffic Analysis:
 
 ```bash
 # Watch packets in real-time
@@ -227,7 +227,7 @@ sudo tcpdump -i eth0
 sudo iftop -i eth0
 ```
 
-3. Socket Investigation:
+1. Socket Investigation:
 
 ```bash
 # Show all listening ports

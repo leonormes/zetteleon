@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-06-20T18:34:06Z
 epistemic: "concept"
 last_reviewed: "2025-11-02"
-modified: 2026-01-08T10:49:58+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: "To define the visual learning style and the role of visual discrimination skills in cognitive processing."
 review_interval: "180"
 see_also: ["[[Pattern Recognition is the Cognitive Process of Organizing Sensory Input]]", "[[Perception in learning]]", "[[Thinking & Creating Skills (Your Clever Brain)]]"]

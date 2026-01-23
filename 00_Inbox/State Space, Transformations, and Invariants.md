@@ -1,7 +1,7 @@
 ---
 created: 2026-01-22T20:31:55+00:00
-modified: 2026-01-22T20:32:24+00:00
-title: Untitled
+modified: 2026-01-23T18:09:34+00:00
+title: State Space, Transformations, and Invariants
 ---
 
 Welcome. You are entering a space where the implementation detail is considered a distraction until the fundamental truth of the system is established. We are here to strip away the accidental complexity of tooling to reveal the essential complexity of the domain.

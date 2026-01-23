@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T16:17:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "To define Long-Term Potentiation (LTP)."
 review_interval: "90"
 see_also: ["[[Neuroplasticity is the Brain's Ability to Change in Response to Experience]]"]

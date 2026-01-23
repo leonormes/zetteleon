@@ -4,7 +4,7 @@ confidence: "0.85"
 created: 2025-10-30T15:33:36Z
 epistemic: "principle"
 last_reviewed: "2025-10-30"
-modified: 2026-01-08T10:50:01+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "Explains why some friction in workflow is beneficial for learning"
 review_interval: "180"
 see_also: []

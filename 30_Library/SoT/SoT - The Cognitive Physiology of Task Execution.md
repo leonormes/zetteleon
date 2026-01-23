@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-10T00:00:00Z
 epistemic: "scientific"
 last_reviewed: "2026-01-03"
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "To define the biological and cognitive phases of task execution, providing the scientific basis for the ProdOS workflow design."
 review_interval: "1 year"
 see_also: ["[[SoT - ADHD Neurology & Core Concepts]]", "[[SoT - PRODOS - Learning Architecture]]", "[[SoT - PRODOS Core Specification]]"]
@@ -87,26 +87,32 @@ Learning and task mastery are not complete upon execution. The brain requires sp
 Cognitive physiology is not just internal; it is modulated by external environmental triggers (Light, Space, Sound).
 
 ### A. Circadian Photobiology (Light)
+
 Align lighting with the brain's 3-phase arousal cycle (Huberman Framework):
+
 - **Phase 1 (0–9h post-waking):** High Alertness (Dopamine/Epinephrine).
-    - *Protocol:* **Bright, Blue-Rich Overhead Light**. Triggers melanopsin for alertness.
+    - _Protocol:_ **Bright, Blue-Rich Overhead Light**. Triggers melanopsin for alertness.
 - **Phase 2 (9–16h post-waking):** Creative/Transition (Serotonin).
-    - *Protocol:* **Dim, Yellow/Red Low-Level Light**. Facilitates abstract thinking.
+    - _Protocol:_ **Dim, Yellow/Red Low-Level Light**. Facilitates abstract thinking.
 - **Phase 3 (17–24h post-waking):** Rest (Melatonin).
-    - *Protocol:* **Darkness/Red Light only**. Prevents phase-shifting.
+    - _Protocol:_ **Darkness/Red Light only**. Prevents phase-shifting.
 
 ### B. Visual Mechanics (The Alertness Circuit)
+
 Eye position directly signals the brainstem's arousal centers.
+
 - **Upward Gaze:** Signals **Alertness**. Position monitors at or slightly above eye level.
 - **Downward Gaze:** Signals **Calm/Sleepiness**. Avoid looking down for high-focus work.
 - **The 45/5 Rule (Vergence):** High focus (Parvocellular) exhausts energy. Every 45 mins, switch to **Panoramic Vision** (Magnocellular) for 5 mins to reset.
 
 ### C. The Cathedral Effect (Spatial Scaling)
+
 - **High Ceilings/Open Space:** Promotes **Abstract/Creative** thinking (Global Processing).
 - **Low Ceilings/Restricted Space:** Promotes **Detailed/Analytic** work (Local Processing).
-    - *Hack:* Use a brimmed hat/hoodie to simulate a restricted space for detailed coding/writing.
+    - _Hack:_ Use a brimmed hat/hoodie to simulate a restricted space for detailed coding/writing.
 
 ### D. Acoustic & Postural Entrainment
+
 - **40Hz Binaural Beats:** Facilitates striatal dopamine release. Use for **Focus Sprints** (30 mins max to avoid attenuation).
 - **Sit-Stand Dynamics:** Standing increases autonomic arousal (alertness). Sitting lowers it. Transition dynamically; do not stagnate.
 

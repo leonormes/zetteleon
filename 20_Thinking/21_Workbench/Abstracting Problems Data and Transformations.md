@@ -1,18 +1,21 @@
 ---
-title: "‎Gemini – direct access to Google AI"
-source: "https://gemini.google.com/share/fb3a3f1de159"
 captured: "2026-01-22T20:49:04+00:00 2026-01-22T20:49:04+00:00"
+created: 2026-01-22T20:49:09+00:00
+modified: 2026-01-23T18:09:16+00:00
+source: "https://gemini.google.com/share/fb3a3f1de159"
 status: "phase-1"
-tags:
-  - "input"
+tags: ["input"]
+title: Abstracting Problems Data and Transformations
 type: "head"
 ---
+
 ## Phase 1: Ingestion (The Stream)
 
 > [!abstract] Context
 > Created with Gemini
 
 ### Raw Output / Content
+
 Trying to think about programming computers from the abstract before going into the details. I don't want the details to influence the solution. Love coding kuberenetes then looking for the problem. All the talk of clean code and patterns are part of the implementation domain. What is the abstraction of the problem domain? Is this data and transformations?
 
 The Prompt Architect
@@ -21,13 +24,13 @@ Custom Gem
 
 ### 1\. Critique of the Mental Model
 
-You are currently attempting to perform a **Context Shift** from "Imperative Execution" (how to build it with Kubernetes/Patterns) to "Declarative Modeling" (what *it* actually is).
+You are currently attempting to perform a **Context Shift** from "Imperative Execution" (how to build it with Kubernetes/Patterns) to "Declarative Modeling" (what _it_ actually is).
 
 Here is the mechanistic critique of your premise:
 
 - **The "Abstraction" Trap:** You ask for the "abstraction of the problem domain." To an LLM, asking for "abstraction" without a framework results in hallucinated philosophy or generic business-speak. "Abstraction" is not a constraint; it is a lack of detail. To get high-fidelity output, you must replace "Implementation Details" with "Formal Definitions," not just "vague ideas."
-- **Data and Transformations:** You ask, "Is this data and transformations?" Mechanistically, **yes**. If you strip away the "Implementation Domain" (classes, containers, microservices), you are left with **State** (Data) and **Transitions** (Transformations). This aligns with Lambda Calculus and Category Theory: .
-- **The "Tool-First" Bias:** Your admission ("Love coding Kubernetes then looking for the problem") is a common bias where the *Solution Space* contaminates the *Problem Space*. The LLM will default to this bias because the internet (its training data) is full of tutorials on "How to build X in K8s" rather than "How to model X mathematically."
+- **Data and Transformations:** You ask, "Is this data and transformations?" Mechanistically, **yes**. If you strip away the "Implementation Domain" (classes, containers, microservices), you are left with **State** (Data) and **Transitions** (Transformations). This aligns with Lambda Calculus and Category Theory:.
+- **The "Tool-First" Bias:** Your admission ("Love coding Kubernetes then looking for the problem") is a common bias where the _Solution Space_ contaminates the _Problem Space_. The LLM will default to this bias because the internet (its training data) is full of tutorials on "How to build X in K8s" rather than "How to model X mathematically."
 
 **Refined Mechanics:**We need to force the LLM to reject "Solution Space" tokens (Kubernetes, Factory Pattern, Microservices) and strictly enforce "Problem Space" tokens (Entities, Invariants, State Transitions, Data Flow).
 
@@ -82,6 +85,7 @@ leonormes@gmail.com
 ---
 
 ## Phase 2: The Gate (4D Filter)
+
 - [ ] **Do:** < 2 mins?
 - [ ] **Delegate:** Who?
 - [ ] **Defer:** Move to Hangar or SoT?
@@ -90,6 +94,7 @@ leonormes@gmail.com
 ---
 
 ## Phase 5: The Scribe (#SAVESTATE)
+
 - **The Conflict:**
 - **The Current State:**
 - **The Next Test:**

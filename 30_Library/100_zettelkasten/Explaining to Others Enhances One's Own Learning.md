@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T16:09:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "To define the Prot\\u00e9g\\u00e9 Effect as a learning strategy."
 review_interval: "90"
 see_also: ["[[Elaboration Deepens Understanding by Connecting New Material to Pre-existing Knowledge]]"]

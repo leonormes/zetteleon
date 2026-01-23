@@ -5,7 +5,7 @@ created: 2025-02-07T12:57:56Z
 epistemic: ""
 id: "kubernetes_backup_improve_already_awesome_velero_with_openebs"
 last_reviewed: ""
-modified: 2026-01-08T10:49:51+00:00
+modified: 2026-01-23T18:09:25+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -38,16 +38,16 @@ Velero consists of a server process running as a deployment in your Kubernetes c
 
 Unlike other tools that directly access the Kubernetes etcd database to perform backups and restores, Velero uses the Kubernetes API to capture the state of cluster resources and to restore them when necessary. This API-driven approach has several key benefits:
 
-- Backups can capture subsets of the cluster’s resources, filtering by namespace, resource type, and/or label selector, providing a high degree of flexibility around what’s backed up and restored.
+- Backups can capture subsets of the cluster's resources, filtering by namespace, resource type, and/or label selector, providing a high degree of flexibility around what's backed up and restored.
 - Users of managed Kubernetes offerings often do not have access to the underlying etcd database, so direct backups/restores of it are not possible.
-- Resources exposed through aggregated API servers can easily be backed up and restored even if they’re stored in a separate etcd database.
+- Resources exposed through aggregated API servers can easily be backed up and restored even if they're stored in a separate etcd database.
 
-Additionally, Velero enables you to backup and restore your applications’ persistent data alongside Kubernetes cluster configurations.
+Additionally, Velero enables you to backup and restore your applications' persistent data alongside Kubernetes cluster configurations.
 
 There are three ways in which you can backup data using Velero:
 
 - File-based backup using a free, open-source backup tool called
-- Snapshots of persistent volumes using one of the supported cloud providers’ block storage offerings (Amazon EBS Volumes, Azure Managed Disks, Google Persistent Disks).
+- Snapshots of persistent volumes using one of the supported cloud providers' block storage offerings (Amazon EBS Volumes, Azure Managed Disks, Google Persistent Disks).
 - Plugin model that enables anyone to implement additional object and block storage backends, outside the central Velero repository. The OpenEBS cStor Plugin
 
 ### Separate API to Upload Snapshot Files
@@ -74,7 +74,7 @@ Though, for this approach to work properly, post restore hooks needs to be suppo
 
 Velero pod restarted after adding new credentials
 
-MayaData’s
+MayaData's
 
 Data Migration as a Service(DMaaS) is a solution for data agility on the Kubernetes platform. This solution provides utilities and workflows to migrate Kubernetes stateful workloads along-with their persistent data from anywhere to anywhere, be it on-premise or across clouds. It is application-aware, so the application state is consistent before and after migration.
 
@@ -82,13 +82,13 @@ Currently, we provide support for GCS and AWS S3 buckets. We have faced some iss
 
 According to the above document:
 
-“Velero (or a pod it was backing up) restarted during a backup, and the backup is stuck InProgress Velero cannot currently resume backups that were interrupted. Backups stuck in the InProgress phase can be deleted with kubectl delete backup \<name\> -n \<velero-namespace\>. Backups in the InProgress phase have not uploaded any files to object storage.”
+"Velero (or a pod it was backing up) restarted during a backup, and the backup is stuck InProgress Velero cannot currently resume backups that were interrupted. Backups stuck in the InProgress phase can be deleted with kubectl delete backup \<name\> -n \<velero-namespace\>. Backups in the InProgress phase have not uploaded any files to object storage."
 
 This is the kind of issue that we anticipated when building DMaaS by the way, so we build some resilience into the system in terms of retries and otherwise use metadata about jobs and so forth. So far so good - the combination with the cStor engine and the OpenEBS architecture being comprised basically of a bunch of CRDs gives us a lot of hooks we can use to deliver on-demand and scheduled back-ups and restores.
 
 ### Conclusion
 
-Hopefully, this blog shared some useful insights into the state of stateful backups using Velero and Restic (state of state:)). I’m confident that Velero will be improved with the collective efforts of the community. MayaData and the broader OpenEBS community is doing its part by creating a cStor plugin to extend backup options and also the managed back-up and migration service
+Hopefully, this blog shared some useful insights into the state of stateful backups using Velero and Restic (state of state:)). I'm confident that Velero will be improved with the collective efforts of the community. MayaData and the broader OpenEBS community is doing its part by creating a cStor plugin to extend backup options and also the managed back-up and migration service
 
 ### Resources
 

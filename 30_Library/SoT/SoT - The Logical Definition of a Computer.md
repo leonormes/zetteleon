@@ -4,12 +4,10 @@ confidence: "High"
 created: 2025-12-31T13:48:45+00:00
 epistemic: "Fundamental Definition"
 last_reviewed: 
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "To provide a rigorous technical definition of 'One Computer' in the context of distributed systems, distinguishing between physical hardware, logical kernels, and virtualized abstractions."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - Linux Networking Primitives]]"
-  - "[[SoT - Virtual Knowledge Graph Paradigm]]"
+see_also: ["[[SoT - Linux Networking Primitives]]", "[[SoT - Virtual Knowledge Graph Paradigm]]"]
 source_of_truth: []
 status: "Active"
 tags: ["cloud", "computer-science", "distributed-systems", "operating-systems", "virtualization"]

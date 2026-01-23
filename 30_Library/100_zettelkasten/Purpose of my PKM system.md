@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-05-10T10:01:40Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -20,7 +20,7 @@ version: ""
 
 [[I am iterating on creating a thinking system]].
 
-I want to use writing as an aid to thinking. I believe I’m good at thinking deeply about things and coming up with new ideas. I am good at understanding things beyond the initial surface keywords. But my ADHD mind, which makes me good at some cognitive tasks, also hinders other aspects needed to make my thinking practically valuable. I think externalising my thinking and extending my mind with tools could help me capitalise on my strengths. But the ADHD condition (think, human condition) is playing out on this very topic. Ironic. Catch 22.
+I want to use writing as an aid to thinking. I believe I'm good at thinking deeply about things and coming up with new ideas. I am good at understanding things beyond the initial surface keywords. But my ADHD mind, which makes me good at some cognitive tasks, also hinders other aspects needed to make my thinking practically valuable. I think externalising my thinking and extending my mind with tools could help me capitalise on my strengths. But the ADHD condition (think, human condition) is playing out on this very topic. Ironic. Catch 22.
 
 **Theoretical Foundation:**
 

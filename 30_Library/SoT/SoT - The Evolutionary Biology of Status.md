@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "Explaining the biological and evolutionary drivers behind human status-seeking behavior."
 review_interval: "3 months"
 see_also: ["[[SoT - Social Stratification]]", "[[SoT - UK Social Hierarchy and Class Analysis]]"]

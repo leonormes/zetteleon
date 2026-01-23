@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-06-21T10:08:44Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:48+00:00
+modified: 2026-01-23T18:09:24+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -18,7 +18,7 @@ updated:
 version: ""
 ---
 
-- Failing Identified: Bessie's recent overdose was linked to bullying, directly contradicting the Ofsted report's claim that "Bullying is rare and... dealt with swiftly". Her anxiety is not adequately managed, with "five minutes out of class" being insufficient and lacking guidance. Staff responses to her struggles can be negative (yelling, "get out"), and she feels teachers "don't understand" her anxious needs. The concept of "masking" her difficulties at school is largely unaddressed, leading to distress and potential burnout.
+- Failing Identified: Bessie's recent overdose was linked to bullying, directly contradicting the Ofsted report's claim that "Bullying is rare and… dealt with swiftly". Her anxiety is not adequately managed, with "five minutes out of class" being insufficient and lacking guidance. Staff responses to her struggles can be negative (yelling, "get out"), and she feels teachers "don't understand" her anxious needs. The concept of "masking" her difficulties at school is largely unaddressed, leading to distress and potential burnout.
 - What to Ask the School to DO:
   - Investigate Bullying Incidents: Conduct a thorough, transparent investigation into all reported bullying incidents affecting Bessie, outlining specific actions taken and their outcomes.
   - Tailored Anxiety Management Plan: Develop and implement a proactive, individualised anxiety management plan for Bessie, building on recommendations from CAMHS and EP reports. This should go beyond simple "time-outs" and include explicit calming strategies (e.g., breathing techniques) and guidance on emotional regulation.

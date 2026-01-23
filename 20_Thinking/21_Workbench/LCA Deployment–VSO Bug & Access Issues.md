@@ -1,7 +1,7 @@
 ---
 created: 2026-01-21T14:28:00+00:00
-modified: 2026-01-21T15:05:28+00:00
-title: pieces_copilot_message_export_january_21_2026_2_28pm
+modified: 2026-01-23T18:09:12+00:00
+title: LCA Deployment–VSO Bug & Access Issues
 ---
 
 Certainly! Here's a Jira ticket comment summarizing the LCA deployment work specifically focused on the Vault Secrets Operator (VSO) bug and access issues, including the troubleshooting and resolution steps:

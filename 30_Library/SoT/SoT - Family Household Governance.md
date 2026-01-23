@@ -4,12 +4,10 @@ confidence: 5/5
 created: 2025-12-26T12:00:00Z
 epistemic: governance
 last_reviewed: 2025-12-29
-modified: 2026-01-08T10:49:43+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: To define the operational logic, governance protocols, and standard operating procedures (SOPs) for the household distributed system.
 review_interval: 6 months
-see_also:
-  - "[[SoT - Relationship Maintenance and Emotional Labour]]"
-  - "[[SoT - The Multifaceted Role of a Parent]]"
+see_also: ["[[SoT - Relationship Maintenance and Emotional Labour]]", "[[SoT - The Multifaceted Role of a Parent]]"]
 source_of_truth: []
 status: stable
 tags: [chores, family, governance, sops, systems]

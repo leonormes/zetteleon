@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-12T11:08:55Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:49+00:00
+modified: 2026-01-23T18:09:24+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -56,7 +56,7 @@ Ask Bessie to work out the handshakes for **5 people** and add it to the table. 
 
 ### Step 2: Spot the Pattern
 
-Now, look at the table together. The numbers of handshakes are `1, 3, 6, 10...` These are the **triangle numbers**. Ask Bessie what she notices about how the numbers are growing.
+Now, look at the table together. The numbers of handshakes are `1, 3, 6, 10…` These are the **triangle numbers**. Ask Bessie what she notices about how the numbers are growing.
 
 ### Step 3: Generate the Rule
 
@@ -72,7 +72,9 @@ Guide her thinking with these questions:
 
 You have just **generated** the equation for the handshake problem:
 
-$$H = \frac{p \times (p - 1)}{2}$$
+$$
+H = \frac{p \times (p - 1)}{2}
+$$
 
 ---
 

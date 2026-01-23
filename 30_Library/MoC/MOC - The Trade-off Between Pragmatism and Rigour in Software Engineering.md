@@ -6,7 +6,7 @@ criteria: "Links to canonical SoT notes defining the core principles of this con
 epistemic: ""
 exclusions: "Implementation details of specific projects."
 last_reviewed: ""
-modified: 2026-01-16T22:12:57+00:00
+modified: 2026-01-23T18:09:22+00:00
 purpose: ""
 review_interval: ""
 scope: "The core conflict between building software quickly (pragmatism) and building it correctly (rigour)."
@@ -14,7 +14,7 @@ see_also: []
 source_of_truth: []
 status: ""
 tags: ["map", "mental-model", "SoftwareEngineering", "TheHuman/Philosophy"]
-title: 1. The Central Conflict
+title: MOC - The Trade-off Between Pragmatism and Rigour in Software Engineering
 type: "map"
 uid: 
 updated: 
@@ -24,13 +24,13 @@ updated:
 
 This map organizes the core Source of Truth notes related to the fundamental conflict between developing software with speed and agility versus developing it with mathematical correctness and provable safety.
 
-# 1. The Central Conflict
+## 1. The Central Conflict
 
 This defines the core trade-off and the two opposing philosophies.
 
 - [[SoT - Pragmatism vs Rigour in Software]]
 
-# 2. The Pragmatic Approach: Velocity and "Good Enough"
+## 2. The Pragmatic Approach: Velocity and "Good Enough"
 
 This branch explores the mindset and tools that prioritize shipping functional software quickly.
 
@@ -41,7 +41,7 @@ This branch explores the mindset and tools that prioritize shipping functional s
   - [[SoT - Rust's Ownership Model]] details its novel, non-theoretical approach to memory safety.
 - **Linking Strategy:** [[SoT - Static vs Dynamic Linking]] discusses the trade-offs, where the pragmatic choice of static linking prioritizes portability over long-term system security.
 
-# 3. The Rigorous Approach: Correctness by Construction
+## 3. The Rigorous Approach: Correctness by Construction
 
 This branch explores the mindset and tools that allow for building provably correct software, accepting a higher upfront cost for long-term stability.
 

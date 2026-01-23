@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-11T11:39:50Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:56+00:00
+modified: 2026-01-23T18:09:27+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -19,7 +19,7 @@ updated:
 
 Give me an overview of azure backup. What are the different components and how do they all fit together?
 
-Here’s a concise, structured overview of **Azure Backup**, focusing on key components and how they fit together:
+Here's a concise, structured overview of **Azure Backup**, focusing on key components and how they fit together:
 
 ***
 
@@ -103,7 +103,7 @@ If you want diagrams, code for automation, or a specific use-case breakdown, jus
 
 From an OOP perspective how do all the components fit together? I am backuping aks clusters
 
-Here’s how Azure Backup’s architecture fits together from an **object-oriented programming (OOP) perspective**, focusing on how you back up AKS clusters.
+Here's how Azure Backup's architecture fits together from an **object-oriented programming (OOP) perspective**, focusing on how you back up AKS clusters.
 
 ***
 
@@ -177,6 +177,6 @@ BackupVault
 
 **Key Insight for AKS Backup:**
 
-- Real-world implementation is resource-oriented (ARM templates) but OOP mapping clarifies the relationships. You can think in terms of clusters as objects registered to vault “managers”, with backup jobs as persistent instances tracking operational data.
+- Real-world implementation is resource-oriented (ARM templates) but OOP mapping clarifies the relationships. You can think in terms of clusters as objects registered to vault "managers", with backup jobs as persistent instances tracking operational data.
 
 Let me know if you want concrete code stubs or a more detailed class diagram!

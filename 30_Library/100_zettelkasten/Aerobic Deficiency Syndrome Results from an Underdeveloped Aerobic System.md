@@ -4,7 +4,7 @@ confidence: 0.9
 created: 2026-01-08T12:43:00Z
 epistemic: hypothesis
 last_reviewed: 2026-01-08
-modified: 2026-01-08T10:49:58+00:00
+modified: 2026-01-23T18:09:32+00:00
 purpose: "Identify the symptoms and causes of aerobic system failure."
 review_interval: 90
 see_also: ["[[Aerobic Function Efficiently Burns Fat for Long-Term Energy]]"]

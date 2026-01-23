@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-01T19:21:23Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:56+00:00
+modified: 2026-01-23T18:09:28+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -54,14 +54,14 @@ version: 0.1.0
 appVersion: "1.0"
 ```
 
-3. **Consolidate Helper Templates:**
+1. **Consolidate Helper Templates:**
    Go through all the existing charts and identify common helper functions in their `_helpers.tpl` files. Move these functions to `charts/common/templates/_helpers.tpl`. Examples of common helpers to move include:
    - `*.fullname`
    - `*.labels`
    - `*.serviceAccountName`
    - `tplvaluesRender`
 
-4. **Create Generic Resource Templates:**
+2. **Create Generic Resource Templates:**
    Create generic templates for common Kubernetes resources. For example, `charts/common/templates/common.deployment.yaml` could look like this:
 
 ```yaml
@@ -93,7 +93,7 @@ spec:
 {{- end -}}
 ```
 
-5. **Update Application Charts to Use the Common Chart:**
+1. **Update Application Charts to Use the Common Chart:**
    For each application chart (e.g., `ffcloud-service`), do the following:
    - **Add Dependency:** In the `Chart.yaml` file, add a dependency on the `common` chart:
 

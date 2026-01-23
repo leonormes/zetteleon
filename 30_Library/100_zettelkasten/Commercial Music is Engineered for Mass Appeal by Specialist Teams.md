@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T11:06:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-08T10:50:01+00:00
+modified: 2026-01-23T18:09:32+00:00
 purpose: "To describe the creation process of commercial music."
 review_interval: "90"
 see_also: []

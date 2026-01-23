@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-21T10:50:49Z
 epistemic: "process"
 last_reviewed: "2025-12-30"
-modified: 2026-01-20T12:43:06+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "The definitive operational guide for deploying a FITFILE node from scratch."
 review_interval: "3 months"
 see_also: ["[[SoT - FitFile Deployment - Strategy & Architecture]]", "[[SoT - FITFILE Secret Management Architecture]]"]
@@ -70,7 +70,7 @@ kubectl create namespace <deployment-key>
 kubectl create secret docker-registry fitfile-image-pull-secret ...
 ```
 
-3. **Routing:** Configure NGINX Ingress and CoreDNS rewrites for internal service discovery.
+1. **Routing:** Configure NGINX Ingress and CoreDNS rewrites for internal service discovery.
 
 **Checklist:**
 - [ ] ArgoCD UI is accessible and "Healthy."

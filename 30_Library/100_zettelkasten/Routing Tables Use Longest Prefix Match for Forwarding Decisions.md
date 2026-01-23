@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T10:17:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "Explain longest prefix match routing principle."
 review_interval: "90"
 see_also: ["Layer 3 Network Security Protects IP Routing and Forwarding.md"]

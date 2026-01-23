@@ -4,7 +4,7 @@ confidence: 1.0
 created: 2026-01-08T12:42:00Z
 epistemic: fact
 last_reviewed: 2026-01-08
-modified: 2026-01-08T10:49:58+00:00
+modified: 2026-01-23T18:09:32+00:00
 purpose: "Explain the physiological impact of anaerobic exercise."
 review_interval: 90
 see_also: ["[[Aerobic Function Efficiently Burns Fat for Long-Term Energy]]"]

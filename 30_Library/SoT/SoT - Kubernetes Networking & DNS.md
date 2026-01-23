@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-16T13:52:08Z
 epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define the fundamental networking model of Kubernetes, including Pod-to-Pod communication, Services, DNS resolution, and the request flow from external clients."
 review_interval: "1 year"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - The Data-Centric Theory of Networking]]"]
@@ -109,7 +109,7 @@ In private clusters where worker nodes lack public IPs, ingress requires explici
 
 In brownfield AWS environments, existing DNS entries can block Terraform deployments.
 
-- **Scenario:** Terraform fails to create DNS records because entries like `ecr.eu-west-2.api.aws`, `datasync...`, or `vpce...` already exist.
+- **Scenario:** Terraform fails to create DNS records because entries like `ecr.eu-west-2.api.aws`, `datasync…`, or `vpce…` already exist.
 - **Root Cause:** These are often **VPC Interface Endpoints** managed by AWS or another account. They have specific `HostedZoneId` and `Owner` fields (e.g., `vpce.amazonaws.com`).
 - **Resolution:**
     - **Discovery:** Use `ec2:DescribeVpcEndpoints` to identify the owners.

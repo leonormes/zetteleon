@@ -1,15 +1,15 @@
 ---
 created: 2026-01-18T06:54:12+00:00
-modified: 2026-01-20T15:33:30+00:00
+modified: 2026-01-23T18:09:35+00:00
 tags: [articles]
-title: "GitHub - Genymobile/scrcpy: Display and Control Your Android Device"
+title: GitHub - Genymobilescrcpy Display and control your Android device
 ---
 
-# GitHub - Genymobile/scrcpy: Display and Control Your Android Device
+## GitHub - Genymobile/scrcpy: Display and Control Your Android Device
 
 ![rw-book-cover](https://opengraph.githubassets.com/c3bbd1927018ae4ca39c6daebd2918242f16bffd4c1e042e3c99fcb9f6d86d86/Genymobile/scrcpy)
 
-## Metadata
+### Metadata
 
 - Author: [[GitHub]]
 - Full Title: GitHub - Genymobile/scrcpy: Display and control your Android device
@@ -17,9 +17,9 @@ title: "GitHub - Genymobile/scrcpy: Display and Control Your Android Device"
 - Summary: scrcpy is a free app that shows and controls Android devices on a computer without needing root or extra apps. It works on Linux, Windows, and macOS with low delay and high quality. Users can mirror video, forward audio, record screens, and use keyboards or gamepads to control their devices.
 - URL: <https://share.google/9zqg5UedS8ijbTZoV>
 
-## Full Document
+### Full Document
 
-### Genymobile/scrcpy
+#### Genymobile/scrcpy
 
 master
 
@@ -29,16 +29,16 @@ Code
 
 Open more actions menu
 
-#### Folders and Files
+##### Folders and Files
 
-#### Repository Files Navigation
+##### Repository Files Navigation
 
 - [README](https://github.com/Genymobile/scrcpy/#)
 - [Apache-2.0 license](https://github.com/Genymobile/scrcpy/#)
 
 **This GitHub repo (<https://github.com/Genymobile/scrcpy>) is the only official source for the project. Do not download releases from random websites, even if their name contains `scrcpy`.**
 
-### Scrcpy (v3.3.4)
+#### Scrcpy (v3.3.4)
 
 [![scrcpy](https://github.com/Genymobile/scrcpy/raw/master/app/data/icon.svg)](https://github.com/Genymobile/scrcpy/blob/master/app/data/icon.svg)
 
@@ -74,7 +74,7 @@ Its features include:
 - [OTG mode](https://github.com/Genymobile/scrcpy/blob/master/doc/otg.md)
 - and more…
 
-#### Prerequisites
+##### Prerequisites
 
 The Android device requires at least API 21 (Android 5.0).
 
@@ -93,13 +93,13 @@ In that case, you need to enable [an additional option](https://github.com/Genym
 
 Note that USB debugging is not required to run scrcpy in [OTG mode](https://github.com/Genymobile/scrcpy/blob/master/doc/otg.md).
 
-#### Get the App
+##### Get the App
 
 - [Linux](https://github.com/Genymobile/scrcpy/blob/master/doc/linux.md)
 - [Windows](https://github.com/Genymobile/scrcpy/blob/master/doc/windows.md) (read [how to run](https://github.com/Genymobile/scrcpy/blob/master/doc/windows.md#run))
 - [macOS](https://github.com/Genymobile/scrcpy/blob/master/doc/macos.md)
 
-#### Must-know Tips
+##### Must-know Tips
 
 - [Reducing resolution](https://github.com/Genymobile/scrcpy/blob/master/doc/video.md#size) may greatly improve performance (`scrcpy -m1024`)
 - [*Right-click*](https://github.com/Genymobile/scrcpy/blob/master/doc/mouse.md#mouse-bindings) triggers `BACK`
@@ -107,7 +107,7 @@ Note that USB debugging is not required to run scrcpy in [OTG mode](https://gith
 - Alt+f toggles [fullscreen](https://github.com/Genymobile/scrcpy/blob/master/doc/window.md#fullscreen)
 - There are many other [shortcuts](https://github.com/Genymobile/scrcpy/blob/master/doc/shortcuts.md)
 
-#### Usage Examples
+##### Usage Examples
 
 There are a lot of options, [documented](https://github.com/Genymobile/scrcpy/#user-documentation) in separate pages. Here are just some common examples.
 
@@ -149,7 +149,7 @@ scrcpy --gamepad=uhid
 scrcpy -G  # short version
 ```
 
-#### User Documentation
+##### User Documentation
 
 The application provides a lot of features and configuration options. They are documented in the following pages:
 
@@ -170,20 +170,20 @@ The application provides a lot of features and configuration options. They are d
 - [Video4Linux](https://github.com/Genymobile/scrcpy/blob/master/doc/v4l2.md)
 - [Shortcuts](https://github.com/Genymobile/scrcpy/blob/master/doc/shortcuts.md)
 
-#### Resources
+##### Resources
 
 - [FAQ](https://github.com/Genymobile/scrcpy/blob/master/FAQ.md)
 - [Translations](https://github.com/Genymobile/scrcpy/wiki) (not necessarily up to date)
 - [Build instructions](https://github.com/Genymobile/scrcpy/blob/master/doc/build.md)
 - [Developers](https://github.com/Genymobile/scrcpy/blob/master/doc/develop.md)
 
-#### Articles
+##### Articles
 
 - [Introducing scrcpy](https://blog.rom1v.com/2018/03/introducing-scrcpy/)
 - [Scrcpy now works wirelessly](https://www.genymotion.com/blog/open-source-project-scrcpy-now-works-wirelessly/)
 - [Scrcpy 2.0, with audio](https://blog.rom1v.com/2023/03/scrcpy-2-0-with-audio/)
 
-#### Contact
+##### Contact
 
 You can open an [issue](https://github.com/Genymobile/scrcpy/issues) for bug reports, feature requests or general questions.
 
@@ -195,7 +195,7 @@ You can also use:
 - BlueSky: [`@scrcpy.bsky.social`](https://bsky.app/profile/scrcpy.bsky.social)
 - Twitter: [`@scrcpy_app`](https://twitter.com/scrcpy_app)
 
-#### Donate
+##### Donate
 
 I'm [@rom1v](https://github.com/rom1v), the author and maintainer of _scrcpy_.
 
@@ -205,7 +205,7 @@ If you appreciate this application, you can [support my open source work](https:
 - [Liberapay](https://liberapay.com/rom1v/)
 - [PayPal](https://paypal.me/rom2v)
 
-#### License
+##### License
 
 ```
 Copyright (C) 2018 Genymobile

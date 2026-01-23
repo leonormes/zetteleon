@@ -4,14 +4,14 @@ confidence: "1"
 created: 2025-07-16T17:30:02Z
 epistemic: "structural"
 last_reviewed: "2025-11-02"
-modified: 2026-01-16T22:07:10+00:00
+modified: 2026-01-23T18:09:22+00:00
 purpose: "To serve as a central map for understanding character, virtue, and the 24 strengths identified by the VIA Institute."
 review_interval: "180"
 see_also: []
 source_of_truth: []
 status: "evergreen"
 tags: ["character", "TheHuman/Psychology", "virtue"]
-title: The Six Core Virtues
+title: MOC - Character and Virtue
 type: "map"
 uid: 
 updated: 
@@ -24,9 +24,9 @@ The VIA framework identifies 24 universal character strengths organized into six
 
 ---
 
-# The Six Core Virtues
+## The Six Core Virtues
 
-## 1. [[VIA Virtue of Wisdom|Wisdom]]
+### 1. [[VIA Virtue of Wisdom|Wisdom]]
 
 _Cognitive strengths related to acquiring and using knowledge._
 
@@ -36,7 +36,7 @@ _Cognitive strengths related to acquiring and using knowledge._
 - [[Love of Learning is Mastering New Skills and Knowledge|Love of Learning]]
 - [[Perspective is Providing Wise Counsel to Others|Perspective]]
 
-## 2. [[VIA Virtue of Courage|Courage]]
+### 2. [[VIA Virtue of Courage|Courage]]
 
 _Emotional strengths to achieve goals despite opposition._
 
@@ -45,7 +45,7 @@ _Emotional strengths to achieve goals despite opposition._
 - [[Honesty is Being Truthful and Sincere|Honesty]]
 - [[Zest is Approaching Life with Excitement and Energy|Zest]]
 
-## 3. [[VIA Virtue of Humanity|Humanity]]
+### 3. [[VIA Virtue of Humanity|Humanity]]
 
 _Interpersonal strengths focused on caring for and befriending others._
 
@@ -53,7 +53,7 @@ _Interpersonal strengths focused on caring for and befriending others._
 - [[Kindness is Doing Favors and Good Deeds for Others|Kindness]]
 - [[Social Intelligence is Being Aware of Motives and Feelings|Social Intelligence]]
 
-## 4. [[VIA Virtue of Justice|Justice]]
+### 4. [[VIA Virtue of Justice|Justice]]
 
 _Civic strengths that support a healthy community._
 
@@ -61,7 +61,7 @@ _Civic strengths that support a healthy community._
 - [[Fairness is Treating All People the Same|Fairness]]
 - [[Leadership is Encouraging a Group to Get Things Done|Leadership]]
 
-## 5. [[VIA Virtue of Temperance|Temperance]]
+### 5. [[VIA Virtue of Temperance|Temperance]]
 
 _Strengths that guard against excess._
 
@@ -70,7 +70,7 @@ _Strengths that guard against excess._
 - [[Prudence is Making Careful Choices for the Future|Prudence]]
 - [[Self-Regulation is Disciplining One's Feelings and Appetites|Self-Regulation]]
 
-## 6. [[VIA Virtue of Transcendence|Transcendence]]
+### 6. [[VIA Virtue of Transcendence|Transcendence]]
 
 _Strengths that connect to the broader universe and provide meaning._
 

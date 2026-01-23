@@ -1,15 +1,15 @@
 ---
 created: 2026-01-14T19:42:45+00:00
-modified: 2026-01-21T12:19:14+00:00
+modified: 2026-01-23T18:09:35+00:00
 tags: [articles]
-title: "GitHub - tapanmeena/azp-cli: A Command-line Interface Tool for Managing Azure Privileged Identity Management (PIM) Role Activations Directly from Your Terminal"
+title: GitHub - tapanmeenaazp-cli A command-line interface tool for managing Azure Privileged Identity Management (PIM) role activations directly from your terminal.
 ---
 
-# GitHub - tapanmeena/azp-cli: A Command-line Interface Tool for Managing Azure Privileged Identity Management (PIM) Role Activations Directly from Your Terminal
+## GitHub - tapanmeena/azp-cli: A Command-line Interface Tool for Managing Azure Privileged Identity Management (PIM) Role Activations Directly from Your Terminal
 
 ![rw-book-cover](https://opengraph.githubassets.com/fbd8da49c396693220ca1ff3edf85b8cc443e671b7c98175fb42dbb780edd336/tapanmeena/azp-cli)
 
-## Metadata
+### Metadata
 
 - Author: [[https://github.com/tapanmeena/]]
 - Full Title: GitHub - tapanmeena/azp-cli: A command-line interface tool for managing Azure Privileged Identity Management (PIM) role activations directly from your terminal.
@@ -17,9 +17,9 @@ title: "GitHub - tapanmeena/azp-cli: A Command-line Interface Tool for Managing 
 - Summary: azp-cli is a command-line tool for managing Azure Privileged Identity Management (PIM) roles directly from your terminal. It lets you activate and deactivate roles quickly, supports multiple roles, and offers presets for common tasks. The tool also works in non-interactive mode, making it useful for automation and scripting.
 - URL: <https://github.com/tapanmeena/azp-cli>
 
-## Full Document
+### Full Document
 
-### tapanmeena/azp-cli
+#### tapanmeena/azp-cli
 
 main
 
@@ -29,7 +29,7 @@ Code
 
 Open more actions menu
 
-### Azure PIM CLI (azp-cli)
+#### Azure PIM CLI (azp-cli)
 
 A command-line interface tool for managing Azure Privileged Identity Management (PIM) role activations directly from your terminal.
 
@@ -39,7 +39,7 @@ A command-line interface tool for managing Azure Privileged Identity Management 
 
 [![License](https://camo.githubusercontent.com/420837c36e27d7cf1438e410f4a038efc30470452b2074833ee99b20b41ae6a6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4953432d677265656e)](https://camo.githubusercontent.com/420837c36e27d7cf1438e410f4a038efc30470452b2074833ee99b20b41ae6a6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4953432d677265656e)
 
-#### Features
+##### Features
 
 - 🔐 **Role Activation** - Quickly activate eligible Azure PIM roles
 - 🔓 **Role Deactivation** - Deactivate active roles when no longer needed
@@ -52,7 +52,7 @@ A command-line interface tool for managing Azure Privileged Identity Management 
 - 🔔 **Update Notifications** - Automatic update checks with configurable behavior
 - 📤 **JSON Output** - Machine-readable output for integration with other tools
 
-#### Prerequisites
+##### Prerequisites
 
 Before using azp-cli, ensure you have:
 
@@ -60,7 +60,7 @@ Before using azp-cli, ensure you have:
 2. **Azure CLI** installed and configured
 3. **Azure account** with PIM-eligible roles
 
-##### Azure CLI Setup
+###### Azure CLI Setup
 
 ```sh
 # Install Azure CLI (if not installed)
@@ -73,9 +73,9 @@ az login
 az account show
 ```
 
-#### Installation
+##### Installation
 
-##### Global Installation (Recommended)
+###### Global Installation (Recommended)
 
 ```sh
 # Using npm
@@ -90,7 +90,7 @@ yarn global add azp-cli
 
 After installation, the `azp` command will be available globally.
 
-##### From Source (Development)
+###### From Source (Development)
 
 ```sh
 # Clone the repository
@@ -107,9 +107,9 @@ pnpm build
 npm link
 ```
 
-#### Usage
+##### Usage
 
-##### Running the CLI
+###### Running the CLI
 
 ```sh
 # After global installation
@@ -125,7 +125,7 @@ azp update
 pnpm dev
 ```
 
-##### Commands
+###### Commands
 
 | Command | Alias | Description |
 | --- | --- | --- |
@@ -145,7 +145,7 @@ pnpm dev
 | `preset edit` | Edit an existing preset (interactive wizard) |
 | `preset remove` | Remove a preset |
 
-##### Updates
+###### Updates
 
 You can check if a newer version is available:
 
@@ -167,7 +167,7 @@ The update-check cache is stored alongside presets in your config directory:
 - macOS/Linux: `~/.config/azp-cli/update-check.json` (or `$XDG_CONFIG_HOME/azp-cli/update-check.json`)
 - Windows: `%APPDATA%\azp-cli\update-check.json`
 
-##### Non-interactive Mode (Automation)
+###### Non-interactive Mode (Automation)
 
 Use flags to activate or deactivate PIM roles directly without going through the interactive menu, perfect for scripting and CI/CD workflows.
 
@@ -239,11 +239,11 @@ azp deactivate --no-interactive --yes \
 
 - `--justification <text>` - Justification for deactivation (optional)
 
-#### Presets
+##### Presets
 
 Presets let you save your daily activation/deactivation routines (subscription + role names + duration + justification) and reuse them with `--preset <name>`.
 
-##### Presets File Location
+###### Presets File Location
 
 By default, presets are stored in a per-user config file:
 
@@ -254,7 +254,7 @@ Override the location with:
 
 - `AZP_PRESETS_PATH=/path/to/presets.json`
 
-##### Preset Contents
+###### Preset Contents
 
 A preset can define one or both blocks:
 
@@ -267,7 +267,7 @@ A preset can define one or both blocks:
 - `${datetime}` → ISO timestamp
 - `${userPrincipalName}` → resolved from Microsoft Graph `/me`
 
-##### Common Workflows
+###### Common Workflows
 
 ```sh
 # Create a preset (interactive wizard)
@@ -298,14 +298,14 @@ azp activate --preset daily-ops --no-interactive --yes --output json
 azp deactivate --preset daily-ops --no-interactive --yes
 ```
 
-##### Defaults
+###### Defaults
 
 When you create a preset via `azp preset add`, you can optionally set it as the default for `activate` and/or `deactivate`.
 
 - Default presets are applied automatically when you run one-shot flows and you haven't explicitly provided the required flags.
 - Example: after setting a default activate preset, `azp activate --no-interactive --yes` can work without specifying `--subscription-id`/`--role-name`.
 
-##### Example Session
+###### Example Session
 
 ```sh
 ╔════════════════════════════════════════════════════╗
@@ -328,7 +328,7 @@ When you create a preset via `azp preset add`, you can optionally set it as the 
 
 ```
 
-##### Role Activation Flow
+###### Role Activation Flow
 
 1. Select a subscription from your available Azure subscriptions
 2. Choose one or more eligible roles to activate
@@ -336,15 +336,15 @@ When you create a preset via `azp preset add`, you can optionally set it as the 
 4. Provide a justification for the activation
 5. Confirm and activate
 
-##### Role Deactivation Flow
+###### Role Deactivation Flow
 
 1. View all currently active roles across subscriptions
 2. Select roles to deactivate
 3. Confirm deactivation
 
-#### Development
+##### Development
 
-##### Available Scripts
+###### Available Scripts
 
 ```sh
 # Run in development mode with hot reload
@@ -360,11 +360,11 @@ pnpm start
 pnpm lint
 ```
 
-#### Changelog & Releases
+##### Changelog & Releases
 
 This repo uses [Keep a Changelog](https://keepachangelog.com/) format in [CHANGELOG.md](https://github.com/tapanmeena/azp-cli/blob/main/CHANGELOG.md).
 
-##### Recommended Commit Messages
+###### Recommended Commit Messages
 
 For best results, use [Conventional Commits](https://www.conventionalcommits.org/):
 
@@ -372,7 +372,7 @@ For best results, use [Conventional Commits](https://www.conventionalcommits.org
 - `fix: …` (bug fix) → patch bump
 - `chore: …`, `docs: …`, `refactor: …` (no bump unless breaking)
 
-##### Cutting a Release
+###### Cutting a Release
 
 1. Make sure `CHANGELOG.md` has up-to-date entries under **Unreleased**.
 2. Run one of the following:
@@ -405,7 +405,7 @@ npm publish
 pnpm publish
 ```
 
-##### Project Structure
+###### Project Structure
 
 ```sh
 azp-cli/
@@ -424,7 +424,7 @@ azp-cli/
 
 ```
 
-##### Tech Stack
+###### Tech Stack
 
 - **TypeScript** - Type-safe JavaScript
 - **Commander.js** - CLI framework
@@ -433,9 +433,9 @@ azp-cli/
 - **Chalk** - Terminal string styling
 - **Azure SDK** - Azure service integration
 
-#### Troubleshooting
+##### Troubleshooting
 
-##### "Azure CLI not found" Error
+###### "Azure CLI not found" Error
 
 Ensure Azure CLI is installed and accessible in your PATH:
 
@@ -443,7 +443,7 @@ Ensure Azure CLI is installed and accessible in your PATH:
 az --version
 ```
 
-##### Authentication Errors
+###### Authentication Errors
 
 1. Make sure you're logged in to Azure CLI:
 
@@ -451,28 +451,28 @@ az --version
 az login
 ```
 
-2. Verify your account has PIM-eligible roles:
+1. Verify your account has PIM-eligible roles:
 
 ```sh
 az account show
 ```
 
-3. Check if you have the necessary permissions in Azure AD
+1. Check if you have the necessary permissions in Azure AD
 
-##### No Subscriptions Found
+###### No Subscriptions Found
 
 - Verify your Azure account has access to subscriptions
 - Try refreshing your Azure CLI login: `az login --refresh`
 
-#### License
+##### License
 
 This project is licensed under the ISC License.
 
-#### Author
+##### Author
 
 **Tapan Meena** - [tapanmeena1998@gmail.com](mailto:tapanmeena1998@gmail.com)
 
-#### Contributing
+##### Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 

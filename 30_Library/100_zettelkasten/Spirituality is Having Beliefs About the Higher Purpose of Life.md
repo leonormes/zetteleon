@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-12-10T12:00:00Z
 epistemic: "definition"
 last_reviewed: "2025-12-10"
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "To define the character strength of Spirituality."
 review_interval: "90"
 see_also: []

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-26T11:56:14Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:53+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -68,12 +68,12 @@ The file contains several types of DNS records, each serving a different purpose
     - Examples:
         - `_acme-challenge.testing.fitfile.net. 120 IN TXT "1PMk0qaUm4we3jkXULWnztkQBeuoQqULHHEjmTs591Y"`
         - `fitfile.net. 1 IN TXT "MS=ms72564386"`
-        - `cf2024-1._domainkey.fitfile.net. 1 IN TXT "v=DKIM1;..."`
+        - `cf2024-1._domainkey.fitfile.net. 1 IN TXT "v=DKIM1;…"`
         - `pentest.fitfile.net. 1 IN TXT "Probely=719d01df-a6c8-497d-b476-f0ebd23e2399"`
     - **Meaning:** TXT records hold arbitrary text strings associated with the domain. They are commonly used for various verification purposes:
         - `_acme-challenge.*`: Used for domain validation when obtaining SSL/TLS certificates via the ACME protocol (e.g., Let's Encrypt).
-        - `MS=...`: Often used for Microsoft Office 365 domain verification.
+        - `MS=…`: Often used for Microsoft Office 365 domain verification.
         - `_domainkey.*`: Used for DKIM (DomainKeys Identified Mail), an email authentication method.
-        - `Probely=...`: Used for verifying domain ownership with the Pronely security scanning service.
+        - `Probely=…`: Used for verifying domain ownership with the Pronely security scanning service.
 
 In summary, this file provides a snapshot of the DNS configuration for `fitfile.net`, detailing how different hostnames within the domain map to IP addresses, which servers handle email, which servers are authoritative for DNS lookups, and various verification/configuration data stored in TXT records. The comments indicate it's managed via Cloudflare and includes records for development, staging, testing, and production-like environments.

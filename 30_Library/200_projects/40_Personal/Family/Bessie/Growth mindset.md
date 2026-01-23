@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-08T00:17:39Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:49+00:00
+modified: 2026-01-23T18:09:24+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -95,7 +95,7 @@ Moving from theory to action is the key to cementing these neural pathways. Try 
 ### **1. The "Power of Yet" Game (Linguistic Reframe)**
 
 - **Concept:** A simple linguistic shift that transforms a statement of permanent inability into a temporary state of learning.
-- **The Rule:** Whenever anyone in the house says "I can't do this" or "I'm not good at this," someone else must gently add "...yet."
+- **The Rule:** Whenever anyone in the house says "I can't do this" or "I'm not good at this," someone else must gently add "…yet."
 - **Example:**
     - _Bessie:_ "I can't do this algebra equation!"
     - _You:_ "You can't do it _yet_."

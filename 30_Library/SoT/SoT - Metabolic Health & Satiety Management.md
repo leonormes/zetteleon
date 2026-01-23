@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-26T16:00:00Z
 epistemic: "Biological/Nutritional"
 last_reviewed: "2025-12-26"
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define the structural and biological framework for managing metabolic health and satiety, specifically during transitions from pharmacological weight management."
 review_interval: "6 months"
 see_also: ["[[SoT - Dopamine Menu]]", "[[SoT - Physical Health and Vitality]]"]

@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-29T23:32:47+00:00
 epistemic: "curriculum"
 last_reviewed: "2025-12-29"
-modified: 2026-01-08T10:49:48+00:00
+modified: 2026-01-23T18:09:23+00:00
 purpose: "A purely practical, code-first curriculum to master Type Theory by refactoring code and proving correctness in Rust."
 review_interval: "3 months"
 see_also: ["[[MOC - Type Theory]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
@@ -32,7 +32,7 @@ You stated you struggle to **implement** and **explain**. This curriculum solves
 ## 2. Level 1: The Shape of Data (Algebraic Data Types)
 
 **Theory:** Types are not just labels; they are Sets. We count them to measure complexity.
-- **Reading:**  [[SoT - The Algebra of Types (Cardinality and Isomorphism)]]
+- **Reading:** [[SoT - The Algebra of Types (Cardinality and Isomorphism)]]
 
 ### 🛠️ Practical Challenge 1: The Boolean Blindness Exorcism
 
@@ -117,7 +117,7 @@ _Steps:_
 
 1. Define structs: `Pending`, `Authorized`, `Settled`.
 2. Define `Payment<State>`.
-3. Implement methods _only_ on specific states (e.g., `impl Payment<Authorized> { fn settle(...) }`).
+3. Implement methods _only_ on specific states (e.g., `impl Payment<Authorized> { fn settle(…) }`).
 
 ### 🗣️ The Feynman Test
 

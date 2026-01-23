@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-05-10T10:37:03Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:50:01+00:00
+modified: 2026-01-23T18:09:32+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -18,9 +18,9 @@ updated:
 version: ""
 ---
 
-You will always want to go research better note strategies mid-note. Instead of giving in, make a page called “Zettelkasten Rabbit Holes” and just write:
+You will always want to go research better note strategies mid-note. Instead of giving in, make a page called "Zettelkasten Rabbit Holes" and just write:
 
-> “Check how to best link quotes in Zettel notes.”
+> "Check how to best link quotes in Zettel notes."
 
 Then ignore it for now. [[You’ve captured the impulse, and that’s often enough]].
 

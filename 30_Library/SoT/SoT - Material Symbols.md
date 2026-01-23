@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T19:53:27Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define the role of language and external artifacts as active computational tools in the extended cognitive system."
 review_interval: "6 months"
 see_also: ["[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - The Extended Mind]]"]

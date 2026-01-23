@@ -4,13 +4,10 @@ confidence: "High"
 created: 2026-01-06T20:15:48+00:00
 epistemic: "Architecture"
 last_reviewed: 
-modified: 2026-01-08T10:49:44+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "To define the comprehensive DNS architecture for the FITFILE hybrid deployment, specifically detailing the Split-View DNS strategy between Azure (CUH) and AWS (SDE)."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - Cloud Networking Core Components]]"
-  - "[[SoT - Kubernetes Networking & DNS]]"
-  - "[[SoT - The Data Architecture of DNS]]"
+see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - Kubernetes Networking & DNS]]", "[[SoT - The Data Architecture of DNS]]"]
 source_of_truth: []
 status: "Active"
 tags: ["aws", "azure", "dns", "networking", "SoftwareEngineering/Architecture"]

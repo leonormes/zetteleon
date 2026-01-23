@@ -4,13 +4,10 @@ confidence: "High"
 created: 2026-01-06T19:00:03+00:00
 epistemic: "Principle"
 last_reviewed: 
-modified: 2026-01-08T10:49:43+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "To define Error Handling not as a forwarding mechanism, but as a design discipline centered on communication with two distinct audiences (Humans and Machines)."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - Parse, Don't Validate]]"
-  - "[[SoT - Rust Type Mechanics]]"
-  - "[[SoT - Systems Thinking]]"
+see_also: ["[[SoT - Parse, Don't Validate]]", "[[SoT - Rust Type Mechanics]]", "[[SoT - Systems Thinking]]"]
 source_of_truth: []
 status: "Active"
 tags: ["error-handling", "observability", "rust", "SoftwareEngineering/Architecture"]

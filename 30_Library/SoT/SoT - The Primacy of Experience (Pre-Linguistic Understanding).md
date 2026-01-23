@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2026-01-02T15:00:00Z
 epistemic: "knowledge"
 last_reviewed: "2026-01-02"
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "To define understanding as a fundamentally pre-linguistic, embodied process, positioning language as a secondary tool for articulation rather than the source of thought."
 review_interval: "1 year"
 see_also: ["[[SoT - Conceptual Metaphor Theory]]", "[[SoT - Embodied Cognition]]", "[[SoT - The Extended Mind Thesis]]"]

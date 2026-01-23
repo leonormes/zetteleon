@@ -4,13 +4,10 @@ confidence: "High"
 created: 2025-12-29T20:02:16+00:00
 epistemic: "Foundation"
 last_reviewed: 
-modified: 2026-01-08T10:49:44+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "To define the abstract properties of Digital Identity for both humans and machines, serving as the foundational model for all IAM and authentication architectures."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - Modern Authentication Standards]]"
-  - "[[SoT - Public Key Infrastructure (PKI) and Trust]]"
-  - "[[SoT - Zero Trust Architecture]]"
+see_also: ["[[SoT - Modern Authentication Standards]]", "[[SoT - Public Key Infrastructure (PKI) and Trust]]", "[[SoT - Zero Trust Architecture]]"]
 source_of_truth: []
 status: "Active"
 tags: ["concepts", "iam", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "TheHuman/Identity"]

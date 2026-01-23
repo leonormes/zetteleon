@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-20T08:00:03Z
 epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "To test the behavioral activation principle that action precedes motivation."
 review_interval: "2 weeks"
 see_also: ["[[MOC - ADHD Experiments & Protocols]]"]

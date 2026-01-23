@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:54Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:55+00:00
+modified: 2026-01-23T18:09:27+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -43,25 +43,25 @@ This will create and start a container based on your bundle configuration[8].
 runc create mycontainer
 ```
 
-2. Start the container:
+1. Start the container:
 
 ```bash
 runc start mycontainer
 ```
 
-3. List running containers:
+1. List running containers:
 
 ```bash
 runc list
 ```
 
-4. Execute commands in the container:
+1. Execute commands in the container:
 
 ```bash
 runc exec mycontainer /bin/sh
 ```
 
-5. Stop and delete the container:
+1. Stop and delete the container:
 
 ```bash
 runc kill mycontainer
@@ -112,19 +112,19 @@ ip netns add container_ns
 
 ## Set Up Virtual Ethernet Pairs
 
-2. Create a virtual ethernet pair:
+1. Create a virtual ethernet pair:
 
 ```bash
 ip link add veth0 type veth peer name ceth0
 ```
 
-3. Move one end of the pair into the container's namespace:
+1. Move one end of the pair into the container's namespace:
 
 ```bash
 ip link set ceth0 netns container_ns
 ```
 
-4. Bring up the host-side interface:
+1. Bring up the host-side interface:
 
 ```bash
 ip link set veth0 up
@@ -132,13 +132,13 @@ ip link set veth0 up
 
 ## Configure Container Network Interface
 
-5. Enter the container's network namespace:
+1. Enter the container's network namespace:
 
 ```bash
 nsenter --net=/var/run/netns/container_ns
 ```
 
-6. Configure the container-side interface:
+1. Configure the container-side interface:
 
 ```bash
 ip link set lo up
@@ -148,14 +148,14 @@ ip addr add 172.18.0.10/16 dev ceth0
 
 ## Bridge Configuration (Optional)
 
-7. Create a bridge on the host:
+1. Create a bridge on the host:
 
 ```bash
 ip link add br0 type bridge
 ip link set br0 up
 ```
 
-8. Connect the host-side interface to the bridge:
+1. Connect the host-side interface to the bridge:
 
 ```bash
 ip link set veth0 master br0
@@ -163,7 +163,7 @@ ip link set veth0 master br0
 
 ## Update Runc Configuration
 
-9. Modify the container's config.json to use the created network namespace:
+1. Modify the container's config.json to use the created network namespace:
 
 ```json
 "namespaces": [

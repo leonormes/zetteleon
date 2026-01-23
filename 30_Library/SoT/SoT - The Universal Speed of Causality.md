@@ -4,11 +4,10 @@ confidence: "5/5"
 created: 2025-09-20T06:38:14Z
 epistemic: "Physical Law"
 last_reviewed: 
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "To define the constant 'c' not as the speed of light, but as the fundamental speed limit of causality and information propagation in the universe."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - The Logical Definition of a Computer]]"
+see_also: ["[[SoT - The Logical Definition of a Computer]]"]
 source_of_truth: []
 status: "Stable"
 tags: ["causality", "physics", "relativity", "time"]

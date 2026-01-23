@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-27T20:28:33+00:00
 epistemic: "technical"
 last_reviewed: "2025-12-30"
-modified: 2026-01-08T10:49:41+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "To define the mechanical components of Rust's Type System: Generics, Traits, Bounds, and Layout."
 review_interval: "6 months"
 see_also: ["[[SoT - Rust Language]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
@@ -112,14 +112,14 @@ How to use these mechanics to build "Misuse-Resistant" APIs.
 
 You can add methods to types you do not own (e.g., standard library types) by defining a new trait and implementing it.
 
-- **Mechanism:** `impl<T: Iterator> MyExtension for T {... }`
+- **Mechanism:** `impl<T: Iterator> MyExtension for T {… }`
 - **Result:** Enables fluent dot-notation (`vec.iter().my_custom_method()`) without modifying upstream code.
 
 ### 6.2 Conditional Capabilities (Trait Bounds)
 
 Functionality can be conditionally enabled based on the properties of T.
 
-- **Mechanism:** `impl<T> Progress<T> where T: ExactSizeIterator {... }`
+- **Mechanism:** `impl<T> Progress<T> where T: ExactSizeIterator {… }`
 - **Result:** The method `show_eta()` is _only_ physically available if the underlying iterator knows its length. Calling it on an unbounded stream is a compile-time error.
 
 ### 6.3 Type State Pattern (State Machines)

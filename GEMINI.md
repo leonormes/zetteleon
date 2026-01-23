@@ -4,7 +4,7 @@ confidence:
 created: 2025-07-08T12:32:39Z
 epistemic:
 last_reviewed:
-modified: 2026-01-08T10:49:39+00:00
+modified: 2026-01-23T18:09:11+00:00
 purpose:
 review_interval:
 see_also: []
@@ -128,7 +128,7 @@ When asked to synthesize or "merge":
 When the user is stuck or procrastinating:
 
 1. **Refactor:** Convert "Boring Tasks" into "Experiments" using the Ignition Protocol.
-   - _Mystery:_ "Hypothesis: I can break X..."
+   - _Mystery:_ "Hypothesis: I can break X…"
    - _Time Trial:_ "Can I do X in 3 mins?"
    - _Spite:_ "Prove why this is stupid."
 2. **Output:** A specific command or Todoist task, not just text.

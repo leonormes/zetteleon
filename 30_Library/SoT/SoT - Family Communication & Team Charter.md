@@ -4,13 +4,10 @@ confidence: "5/5"
 created: 2026-01-07T00:00:00Z
 epistemic: "Relationship Architecture"
 last_reviewed: 
-modified: 2026-01-08T10:49:43+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "To define the protocols for resolving fundamental conflicts in partnership (Process vs Outcome) and to establish a shared, active definition of Respect."
 review_interval: "6 months"
-see_also:
-  - "[[SoT - Family Household Governance]]"
-  - "[[SoT - Framework for Healthy Communication]]"
-  - "[[SoT - Relationship Maintenance and Emotional Labour]]"
+see_also: ["[[SoT - Family Household Governance]]", "[[SoT - Framework for Healthy Communication]]", "[[SoT - Relationship Maintenance and Emotional Labour]]"]
 source_of_truth: []
 status: "stable"
 tags: ["communication", "conflict-resolution", "family", "relationship"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-03-15T10:12:06Z
 epistemic: "theory"
 last_reviewed: "2025-12-29"
-modified: 2026-01-08T10:49:44+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "To define IAM within a Zero Trust framework as a function of data relationships, specifying the schemas and logic required for trust establishment."
 review_interval: "6 months"
 see_also: ["[[MOC - Cloud-Native Authentication]]", "[[SoT - Digital Identity]]", "[[SoT - Modern Authentication Standards]]"]
@@ -54,7 +54,9 @@ The _Resource_ is the target asset, which must self-describe its security requir
 
 Access ($A$) is a boolean output derived from a function ($f$) of the aggregate dataset:
 
-$$A = f(Identity \cup Context \cup Resource, Policy)$$
+$$
+A = f(Identity \cup Context \cup Resource, Policy)
+$$
 
 ### Architectural Planes
 
@@ -115,8 +117,8 @@ This JSON schema formalizes the "equation" by defining how these attributes must
 
 The relationship between an **OIDC Token** (Identity Data) and a **Kubernetes RBAC Binding** (Policy Data) is a perfect implementation of this model.
 
-1. **Identity (JWT):** The IdP asserts `groups: ["9999-8888..."]`.
-2. **Policy (RoleBinding):** Kubernetes defines a link between `subject.name: "9999-8888..."` and `role: view`.
+1. **Identity (JWT):** The IdP asserts `groups: ["9999-8888…"]`.
+2. **Policy (RoleBinding):** Kubernetes defines a link between `subject.name: "9999-8888…"` and `role: view`.
 3. **Relational Mapping:** The Group Object ID acts as a **Foreign Key** connecting the remote Identity database to the local Permission table.
 
 ---

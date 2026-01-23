@@ -4,7 +4,7 @@ confidence: "Draft"
 created: 2025-12-30T10:00:00Z
 epistemic: "inventory"
 last_reviewed: "2025-12-30"
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To provide a comprehensive, atomic inventory of all household maintenance tasks to enable flexible assignment and iterating on standards."
 review_interval: "3 months"
 see_also: ["[[SoT - Family Household Governance]]"]

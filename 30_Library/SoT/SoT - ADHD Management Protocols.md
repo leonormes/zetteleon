@@ -4,7 +4,7 @@ confidence: ""
 created: 2026-01-03T10:10:29+00:00
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:45+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -29,7 +29,7 @@ The core principle: **"Make good choices easy and bad choices hard."**
 
 #### 2.1 Spatial Zoning
 
-- **Active Zones (Hot):** Items used daily must be visible and at waist-height. If it’s in a drawer, it doesn't exist.
+- **Active Zones (Hot):** Items used daily must be visible and at waist-height. If it's in a drawer, it doesn't exist.
 - **Passive Zones (Cold):** Low-frequency items go in opaque, high-shelf storage.
 - **The "Work Only" Zone:** A specific desk or corner that anchors the "Work Mode" identity. Never relax here.
 

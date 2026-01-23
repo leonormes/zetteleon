@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-30T00:00:00Z
 epistemic: "The canonical definition and history of the Cyberpunk genre."
 last_reviewed: "2025-12-30"
-modified: 2026-01-08T10:49:44+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "To define the Cyberpunk genre, its core conceptual framework, and its historical evolution."
 review_interval: "1 year"
 see_also: ["[[SoT - Cyberpunk Derivatives]]", "[[SoT - Cyberpunk Philosophy]]"]

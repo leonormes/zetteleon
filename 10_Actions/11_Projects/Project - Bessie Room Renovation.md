@@ -4,14 +4,14 @@ confidence: ""
 created: 2026-01-09T00:00:00+00:00
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-09T00:00:00+00:00
+modified: 2026-01-23T18:09:33+00:00
 priority: medium
 purpose: "Renovate Bessie's room while she is away"
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: active
-tags: [project, personal, renovation]
+tags: [personal, project, renovation]
 title: Project - Bessie Room Renovation
 type: project
 ---

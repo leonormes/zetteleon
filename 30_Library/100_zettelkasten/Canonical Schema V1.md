@@ -4,7 +4,7 @@ confidence: "0.95"
 created: 2025-10-31T08:17:00Z
 epistemic: "principle"
 last_reviewed: "2025-10-31"
-modified: 2026-01-08T10:50:01+00:00
+modified: 2026-01-23T18:09:32+00:00
 purpose: "Reference definition of the required YAML frontmatter structure for all zettelkasten notes."
 review_interval: "180"
 see_also: []

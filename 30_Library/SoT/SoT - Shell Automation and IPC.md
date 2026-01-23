@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-26T13:00:00Z
 epistemic: "Verified Patterns"
 last_reviewed: "2025-12-26"
-modified: 2026-01-08T10:49:41+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "To define the patterns and tools for implementing event-driven logic within a terminal environment."
 review_interval: "6 months"
 see_also: ["[[SoT - Bash Scripting]]", "[[SoT - Process Execution (Kernel Logic)]]"]

@@ -2,11 +2,11 @@
 aliases: []
 created: 2026-01-09T00:03:45+00:00
 last_reviewed: ""
-modified: 2026-01-09T09:40:52+00:00
+modified: 2026-01-23T18:09:15+00:00
 review_interval: ""
 status: archived
 tags: []
-title: HEAD DORA Metrics & The Manager's Role
+title: "HEAD DORA Metrics & The Manager's Role"
 type: head
 ---
 

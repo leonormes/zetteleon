@@ -5,7 +5,7 @@ created: 2025-07-05T04:51:55Z
 epistemic: ""
 id: "established identity"
 last_reviewed: ""
-modified: 2026-01-08T10:49:54+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -21,7 +21,7 @@ version: ""
 
 Identity and Access Management (IAM) is a framework of policies, processes, and technologies that ensures appropriate access to resources within an organization while protecting those resources from unauthorized access. It's essentially about managing "who has access to what" within a company's digital environment. Microsoft Entra ID, formerly known as Azure Active Directory (Azure AD), is Microsoft's cloud-based identity and access management service. It serves as a comprehensive solution for identity, access management, and security, helping to secure access to data in applications both on-site and in the cloud, while simplifying user and group management.
 
-Here’s how IAM systems like Microsoft Entra ID establish and verify an identity:
+Here's how IAM systems like Microsoft Entra ID establish and verify an identity:
 
 ## 1. Establishing an Identity (Identity Management)
 

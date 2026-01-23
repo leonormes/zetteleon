@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T17:06:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "To define Phronesis as a form of knowledge."
 review_interval: "90"
 see_also: ["[[Akrasia is Acting Against One's Better Judgment]]"]

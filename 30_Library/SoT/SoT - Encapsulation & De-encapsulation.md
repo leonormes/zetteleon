@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-23T22:39:04Z
 epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2026-01-08T10:49:43+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "To define the recursive mechanism of data wrapping and stripping within the networking stack."
 review_interval: "6 months"
 see_also: ["[[SoT - Protocol Data Units (PDU)]]", "[[SoT - The Data-Centric Theory of Networking]]"]

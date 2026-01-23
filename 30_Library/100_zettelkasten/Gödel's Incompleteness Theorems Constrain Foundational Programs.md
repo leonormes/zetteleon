@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T11:22:13Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "Explain the impact of G\\u00f6del's theorems on foundationalist programs in mathematics."
 review_interval: "90"
 see_also: ["[[Deductive Reasoning Underwrites Mathematical Proof]]", "[[Formalism (Mathematics as Symbol Manipulation)]]", "[[Logicism (Mathematics as Extension of Logic)]]"]

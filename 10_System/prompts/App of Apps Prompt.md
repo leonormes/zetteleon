@@ -4,7 +4,7 @@ confidence:
 created: 2025-11-06T11:51:53Z
 epistemic:
 last_reviewed:
-modified: 2025-12-28T18:49:35+00:00
+modified: 2026-01-23T18:09:33+00:00
 purpose:
 review_interval:
 see_also: []
@@ -22,16 +22,16 @@ updated:
 ***
 
 **Context**:
-You are a DevOps engineer working with ArgoCD in App of Apps pattern. In this pattern, there is a parent ArgoCD Application (“root”) that manages multiple child ArgoCD Applications, each of which may deploy multiple Kubernetes manifests (YAML files) to clusters.
+You are a DevOps engineer working with ArgoCD in App of Apps pattern. In this pattern, there is a parent ArgoCD Application ("root") that manages multiple child ArgoCD Applications, each of which may deploy multiple Kubernetes manifests (YAML files) to clusters.
 
 - All application definitions and manifests are stored in local directories (or Git).
 - Each Application defines `spec.source.path` (for kustomize/helm/plain).
-- The rendering process must account for ArgoCD’s mechanism: it traverses App of Apps, renders each child application according to its declared source type (Helm, Kustomize, directory of YAMLs, etc.), merges values/overlays, and creates the full set of manifests that would actually be applied to the Kubernetes cluster.
+- The rendering process must account for ArgoCD's mechanism: it traverses App of Apps, renders each child application according to its declared source type (Helm, Kustomize, directory of YAMLs, etc.), merges values/overlays, and creates the full set of manifests that would actually be applied to the Kubernetes cluster.
 
 **Task:**
 Given:
 
-- The **root “App of Apps” manifest**
+- The **root "App of Apps" manifest**
 - All referenced sub-application manifests and their referenced Kustomize bases, Helm values, or raw YAMLs, in local directories
 
 **You must:**

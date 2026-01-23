@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-11-11T19:05:14Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-08T10:50:01+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "Describes how to structure project work to align with the brain's dopamine-based reward system."
 review_interval: "90"
 see_also: []

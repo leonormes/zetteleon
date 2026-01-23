@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:10:07Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "To explain the Gettier problem's impact on epistemology."
 review_interval: "90"
 see_also: ["[[The Traditional Definition of Knowledge is Justified True Belief]]"]

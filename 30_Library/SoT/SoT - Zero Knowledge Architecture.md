@@ -4,12 +4,10 @@ confidence: "High"
 created: 2026-01-06T19:46:24+00:00
 epistemic: "Architecture"
 last_reviewed: 
-modified: 2026-01-08T10:49:39+00:00
+modified: 2026-01-23T18:09:16+00:00
 purpose: "To define the architectural standards for high-performance Zero Knowledge systems, specifically for large-scale data linkage (15M+ rows)."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - Data-Centric Software Engineering]]"
-  - "[[SoT - Rust Type Mechanics]]"
+see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - Rust Type Mechanics]]"]
 source_of_truth: []
 status: "Active"
 tags: ["cryptography", "data", "rust", "SoftwareEngineering/Architecture", "zkp"]

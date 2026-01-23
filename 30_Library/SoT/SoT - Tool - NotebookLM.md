@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-26T00:00:00Z
 epistemic: "Based on 2025 feature updates (Gemini 3, Deep Research, Studio)."
 last_reviewed: "2025-12-26"
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "Canonical documentation for NotebookLM as a grounded research and synthesis engine."
 review_interval: "6 months"
 see_also: ["[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]", "[[SoT - ProdOS Cognitive Architecture (Obsidian + Gemini)]]"]
@@ -60,7 +60,7 @@ _Problem:_ Low executive function prevents reading long SoT notes.
 
 _Protocol:_
 
-1. Upload your own `SoT -...` notes to a Notebook.
+1. Upload your own `SoT -…` notes to a Notebook.
 2. Generate an **Audio Overview**.
 3. **Action:** Listen to _your own system_ explaining itself to you while walking.
 

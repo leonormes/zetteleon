@@ -4,7 +4,7 @@ confidence: null
 created: 2025-10-16T08:19:54Z
 epistemic: null
 last_reviewed: null
-modified: 2025-12-28T18:49:35+00:00
+modified: 2026-01-23T18:09:33+00:00
 purpose: >-
   Provides an LLM with a comprehensive understanding of the Getting Things Done
   (GTD) methodology, including its core principles, workflow phases, and the six
@@ -27,7 +27,7 @@ version: '1'
 
 The core objective of this methodology is to achieve a state of **relaxed and controlled engagement** or "mind like water". This state is necessary because the mind is excellent for **having ideas**, but terrible for **holding them**. Any commitment, big or small, that remains in the psyche without clarification creates **irrational and unresolvable pressure**.
 
-**A core premise is:** You have to think about your stuff more than you realize, but not as much as you’re afraid you might. Anxiety is caused by a lack of control, organization, preparation, and action.
+**A core premise is:** You have to think about your stuff more than you realize, but not as much as you're afraid you might. Anxiety is caused by a lack of control, organization, preparation, and action.
 
 ### 2. The Critical Distinction: Projects vs. Actions
 

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-17T12:57:49Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:51+00:00
+modified: 2026-01-23T18:09:25+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -36,13 +36,13 @@ Here's how to proceed:
 
 Identify the Helm chart that is deploying the pods showing the `SYS_ADMIN` capability request. Based on the output, the pod seems to be related to an "sftp-loader-workflow" and "emis". Look for Helm charts in your ArgoCD configuration or your Git repositories that deploy applications related to these terms.
 
-2. Edit Your Helm Chart's Pod Specification
+1. Edit Your Helm Chart's Pod Specification
 
 Once you've found the correct Helm chart, you need to edit the template files that define your pods (usually within the `templates/` directory of your Helm chart). The most common template files are likely `deployment.yaml`, `statefulset.yaml`, `daemonset.yaml`, or potentially a custom pod template.
 
 Locate the `securityContext` section within the container definition in your pod template. It will likely look similar to the example you've provided in the output.
 
-3. Modify the `securityContext`
+1. Modify the `securityContext`
 
 You need to modify the `securityContext` section to drop the `SYS_ADMIN` capability and remove `privileged: true`. Here's the recommended modification:
 
@@ -86,11 +86,11 @@ spec:
           runAsUser: 1000 # Keep runAsUser if needed
 ```
 
-4. Commit and Push Changes to Your Git Repository
+1. Commit and Push Changes to Your Git Repository
 
 After modifying your Helm chart templates, commit the changes to your Git repository where your Helm chart is stored.
 
-5. ArgoCD Synchronization
+1. ArgoCD Synchronization
 
 ArgoCD should automatically detect the changes in your Git repository and start synchronizing your application in the AKS cluster. This will involve:
 
@@ -98,7 +98,7 @@ ArgoCD should automatically detect the changes in your Git repository and start 
 - ArgoCD applying the changes to your AKS cluster.
 - Kubernetes redeploying your pods with the updated `securityContext`.
 
-6. Verify the Fix
+1. Verify the Fix
 
 After ArgoCD has completed the synchronization and your pods have been redeployed, verify the fix:
 

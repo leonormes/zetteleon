@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T11:22:13Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-08T10:50:01+00:00
+modified: 2026-01-23T18:09:32+00:00
 purpose: "Define analysis as the rigorous foundation for calculus."
 review_interval: "90"
 see_also: ["[[Calculus (Definition)]]", "[[Logic Is the Grammar of Rigorous Argument]]"]

@@ -4,91 +4,91 @@ confidence: "null"
 created: 2025-10-26T17:16:00Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-16T22:09:49+00:00
+modified: 2026-01-23T18:09:23+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
 tags: ["debugging", "hands-on", "lab", "SoftwareEngineering/Containers", "tutorial"]
-title: Summary
+title: MOC - Hands-on Container Labs
 type: "map"
 uid: 
 updated: 
 version: "1"
 ---
 
-# Summary
+## Summary
 
 Practical tutorials, debugging scenarios, and hands-on exercises for mastering containerisation. This MOC provides step-by-step guides for building container networks from scratch, troubleshooting common issues, and implementing production-ready solutions.
 
-# Context / Problem
+## Context / Problem
 
 Theoretical knowledge of containers is insufficient without practical experience. This MOC bridges the gap between understanding concepts and being able to implement, debug, and optimize container systems in real-world scenarios.
 
-# Structure
+## Structure
 
-## 🛠️ Building from Scratch
+### 🛠️ Building from Scratch
 
 - **[[Linux Networking]]** - Complete hands-on curriculum
 - **Build container network manually** - Step-by-step namespace creation (planned)
 - **Implement simple CNI plugin** - Write basic networking code (planned)
 - **Create container runtime** - Minimal container implementation (planned)
 
-## 🔍 Debugging Scenarios
+### 🔍 Debugging Scenarios
 
 - **Pod cannot ping same-node Pods** - veth/bridge issues (planned)
 - **Cross-node connectivity failures** - routing/overlay problems (planned)
 - **DNS resolution issues** - CoreDNS and local DNS debugging (planned)
 - **Service access problems** - kube-proxy and iptables troubleshooting (planned)
 
-## ⚡ Performance & Optimization
+### ⚡ Performance & Optimization
 
 - **Network throughput optimization** - Tuning kernel parameters (planned)
 - **Memory usage analysis** - Container memory profiling (planned)
 - **CPU scheduling optimization** - cgroup tuning techniques (planned)
 - **Storage performance tuning** - Volume and filesystem optimization (planned)
 
-## 🔒 Security Hardening
+### 🔒 Security Hardening
 
 - **Container escape prevention** - Namespace and capability hardening (planned)
 - **Network policy implementation** - iptables and eBPF security (planned)
 - **Image security scanning** - Vulnerability detection and remediation (planned)
 - **Runtime security monitoring** - Falco and security tools (planned)
 
-# Learning Path
+## Learning Path
 
-## Beginner Track
+### Beginner Track
 
 1. **[[Linux Networking]]** - Master the fundamentals
 2. **Network namespace labs** - Isolation exercises
 3. **Basic connectivity labs** - veth and bridge setup
 4. **Simple troubleshooting** - Common issue resolution
 
-## Intermediate Track
+### Intermediate Track
 
 1. **Multi-container networking** - Bridge and routing labs
 2. **NAT and egress debugging** - iptables and internet access
 3. **Service implementation** - Load balancing exercises
 4. **Performance analysis** - Monitoring and optimization
 
-## Advanced Track
+### Advanced Track
 
 1. **CNI plugin development** - Custom networking solutions
 2. **Security hardening** - Production security practices
 3. **Performance tuning** - Large-scale optimization
 4. **Complex debugging** - Multi-layer problem solving
 
-# Lab Environment Setup
+## Lab Environment Setup
 
-## Prerequisites
+### Prerequisites
 
 - Linux host with root privileges
 - Basic networking tools (`ip`, `iptables`, `tcpdump`)
 - Container runtime (Docker/containerd) optional
 - Kubernetes cluster (minikube/kind) for advanced labs
 
-## Tools Required
+### Tools Required
 
 ```bash
 # Network debugging
@@ -101,9 +101,9 @@ perf, bpftrace, sysstat
 falco, trivy, grype
 ```
 
-# Common Debugging Commands
+## Common Debugging Commands
 
-## Network Issues
+### Network Issues
 
 ```bash
 # List network namespaces
@@ -119,7 +119,7 @@ tcpdump -i any -n host <target>
 iptables -t nat -L -n -v
 ```
 
-## Process Issues
+### Process Issues
 
 ```bash
 # List processes in namespace
@@ -132,15 +132,15 @@ cat /proc/<pid>/status
 strace -p <pid>
 ```
 
-# Connections to Other Areas
+## Connections to Other Areas
 
 - **[[MOC - Container Networking Model]]** - Theory behind the labs
 - **[[MOC - Linux Container Primitives]]** - Kernel features in practice
 - **[[MOC - Container Runtime & Orchestration]]** - Production implementation
 
-# Child Notes
+## Child Notes
 
-## Existing Tutorials
+### Existing Tutorials
 
 - [[Linux Networking]] - Comprehensive hands-on curriculum
 - [[How to create and connect network namespaces]]
@@ -148,14 +148,14 @@ strace -p <pid>
 - [[How to set up a Linux bridge for container networking]]
 - [[How a packet exits a container via NAT]]
 
-## Planned Debugging Guides
+### Planned Debugging Guides
 
 - DEBUG - Pod cannot ping other Pods on same node
 - DEBUG - Pod can reach same-node Pods but not cross-node
 - DEBUG - Pod cannot resolve DNS names
 - DEBUG - Service ClusterIP unreachable from Pods
 
-## Planned Advanced Labs
+### Planned Advanced Labs
 
 - Lab - Build Container Network from Scratch
 - Lab - Implement Simple CNI Plugin

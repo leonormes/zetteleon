@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2026-01-02T14:30:00Z
 epistemic: "knowledge"
 last_reviewed: "2026-01-02"
-modified: 2026-01-08T10:49:41+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "To define the architectural paradigms of Concurrency and Async in Rust, contrasting standard defaults with high-performance alternatives."
 review_interval: "6 months"
 see_also: ["[[MOC - Rust Programming Language]]", "[[SoT - Rust High-Performance Computing (HPC) Optimization]]", "[[SoT - Rust Language]]"]

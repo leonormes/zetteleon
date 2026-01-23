@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-30T12:04:08Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T15:03:29+00:00
+modified: 2026-01-23T18:09:22+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -17,7 +17,7 @@ uid:
 updated: 
 ---
 
-This note summarizes the core ideas from the video “How to Build Discipline So Strong Success Feels Easy” by Wise Joe.
+This note summarizes the core ideas from the video "How to Build Discipline So Strong Success Feels Easy" by Wise Joe.
 
 ## Core Ideas
 
@@ -34,4 +34,4 @@ This note summarizes the core ideas from the video “How to Build Discipline So
 
 ## Reframing Success
 
-- **Your Voting System**: Every small, disciplined choice is a “vote” for the future version of yourself. This is the idea that [[Disciplined Choices are Votes for Your Future Self]].
+- **Your Voting System**: Every small, disciplined choice is a "vote" for the future version of yourself. This is the idea that [[Disciplined Choices are Votes for Your Future Self]].

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:10:45Z
 epistemic: "synthesis"
 last_reviewed: "2025-12-24"
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "Canonical source of truth for the Indistractable Model and focus management strategies, integrating Nir Eyal, Neil Fiore, and ADHD-centric research."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS - Action Management (GTD)]]", "[[SoT - PRODOS (System Architecture)]]"]

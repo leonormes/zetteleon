@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T10:12:00Z
 epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "To assert the principle of equal financial say regardless of income."
 review_interval: "90"
 see_also: ["[[Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money]]"]

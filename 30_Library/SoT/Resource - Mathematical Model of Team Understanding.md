@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-14T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:45+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "A mathematical framework for quantifying team understanding, bias, and communication loss using set theory."
 review_interval: "3 months"
 see_also: []
@@ -45,7 +45,9 @@ updated:
 
 > _The "Unknown Unknowns"_
 >
-> $$Gap_{Ext} = U - (K_A \cup K_B \cup... K_n)$$
+> $$
+> Gap_{Ext} = U - (K_A \cup K_B \cup... K_n)
+> $$
 >
 > **Implication:** The team literally _cannot_ solve this part of the problem. No amount of talking helps. You need Research (Expanding the Sets).
 
@@ -53,7 +55,9 @@ updated:
 
 > _The "Delusion"_
 >
-> $$Gap_{Cert} = P_{Team} - K_{Team}$$
+> $$
+> Gap_{Cert} = P_{Team} - K_{Team}
+> $$
 >
 > **Implication:** If $P > K$, the team is overconfident (Dunning-Kruger). If $P < K$, they are hesitant (Imposter Syndrome).
 
@@ -61,7 +65,9 @@ updated:
 
 > _The "Tragedy of Communication"_
 >
-> $$Gap_{Syn} = K_{Union} - (K_{Union} \times C)$$
+> $$
+> Gap_{Syn} = K_{Union} - (K_{Union} \times C)
+> $$
 >
 > **Implication:** $C$ is the efficiency coefficient ($0 \dots 1$). If documentation is poor or meetings are chaotic ($C=0.2$), the team effectively knows only 20% of what it _actually_ knows.
 
@@ -71,7 +77,9 @@ updated:
 
 Your objective is to maximize **Realised Team Knowledge ($R_{Team}$)**:
 
-$$R_{Team} = (K_A \cup K_B) \times C$$
+$$
+R_{Team} = (K_A \cup K_B) \times C
+$$
 
 **Experiments to Increase $R$:**
 

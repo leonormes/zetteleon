@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-18T09:41:07Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:56+00:00
+modified: 2026-01-23T18:09:28+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -59,24 +59,24 @@ Copy and paste the following block into an LLM (or back to me) to generate the s
 - Input: `var.customer_id`, `var.environment`.
 - It must instantiate child modules in the correct dependency order.
 
-2. **Secret Fabrication (The `random` & `external` Providers):**
+1. **Secret Fabrication (The `random` & `external` Providers):**
 
 - Replace manual "LastPass generation" with `resource "random_password"`.
 - Replace the manual OpenSSL/PKCS8 steps with the `tls_private_key` Terraform provider.
 _Challenge:_ Replace the Rust CLI (UDE) key generation with an `external` data source wrapper or a Dockerized ephemeral container execution within Terraform to output the key string.
 
-3. **Module 1: Vault Setup (Pre-requisite):**
+1. **Module 1: Vault Setup (Pre-requisite):**
 
 - Configure the Vault Provider using a high-level admin token (assume strictly for CI/CD context).
 - Provision the Namespace: `admin/deployments/${var.customer_id}`.
 - Provision the KV Secret Engines (Application, Monitoring, SpiceDB, etc.).
 
-4. **Module 2: Infrastructure Provisioning (Auth0 & Grafana):**
+1. **Module 2: Infrastructure Provisioning (Auth0 & Grafana):**
 
 - Provision Auth0 Applications and APIs. Output: `client_id`, `secret`.
 - Provision Grafana Cloud Stacks. Output: `prometheus_host`, `loki_auth`, etc.
 
-5. **Module 3: Secret Injection (The "Glue"):**
+1. **Module 3: Secret Injection (The "Glue"):**
 
 - _Crucial Step:_ This module depends on Modules 1 & 2.
 - It constructs the JSON payloads dynamically using the _outputs_ from Module 2 and the _generated secrets_ from the Secret Fabrication step.

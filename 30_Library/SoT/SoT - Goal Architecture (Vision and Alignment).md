@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "authoritative"
 last_reviewed: "2025-12-19"
-modified: 2026-01-08T10:49:43+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define the architectural mechanics of \\\"Visioning\\\" and \\\"Goal Setting\\\" as a distinct pre-cursor to execution systems. It focuses on the \\\"What\\\" (Targeting) to enable the \\\"How\\\" (Process)."
 review_interval: "1 year"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - Values and Eudaimonia]]"]
@@ -35,7 +35,7 @@ Standard "Law of Attraction" or "Manifestation" techniques often fail because th
 |:--- |:--- |
 | **Vision Boards** | **External Reliance.** Uses borrowed imagery (internet photos) rather than internally generated concepts. Without a neural link to personal values, these images become background noise ("wallpaper"). |
 | **Affirmations** | **Cognitive Dissonance.** Repeating false statements ("I am rich") triggers internal conflict and resistance rather than belief change. |
-| **"Fake It..."** | **Inauthenticity.** Prevents the acknowledgment of beginner status, which is a prerequisite for genuine skill acquisition. Trains performance, not competence. |
+| **"Fake It…"** | **Inauthenticity.** Prevents the acknowledgment of beginner status, which is a prerequisite for genuine skill acquisition. Trains performance, not competence. |
 | **Vibrational Alignment** | **Circular Logic.** A metaphor taken literally. Leads to passivity ("waiting for high vibration") and denial of reality. |
 
 ## 3. The Constructive Framework (The NLP Protocol)

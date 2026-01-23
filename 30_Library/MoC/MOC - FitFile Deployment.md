@@ -4,13 +4,11 @@ confidence: 5/5
 created: 2025-12-21T09:34:38Z
 epistemic: synthesis
 last_reviewed: 2025-12-23
-modified: 2026-01-08T15:03:28+00:00
+modified: 2026-01-23T18:09:23+00:00
 purpose: The primary entry point and Master Guide for the FitFile platform deployment process.
 review_interval: 3 months
 Reviewed: true
-see_also:
-  - "[[SoT - FITFILE Platform Deployment]]"
-  - "[[SoT - FITFILE Secret Management Architecture]]"
+see_also: ["[[SoT - FITFILE Platform Deployment]]", "[[SoT - FITFILE Secret Management Architecture]]"]
 source_of_truth: []
 status: stable
 tags: [ff_deploy, index, process]

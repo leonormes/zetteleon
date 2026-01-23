@@ -4,7 +4,7 @@ confidence: "1"
 created: 2025-12-20T00:00:00Z
 epistemic: "principle"
 last_reviewed: "2025-12-20"
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "To provide a canonical explanation of why returning to projects is difficult and to outline strategies to overcome this challenge."
 review_interval: "365"
 see_also: ["[[MOC - ADHD Project Continuation Challenge]]", "[[MOC - Project Continuity]]", "[[SoT - Breaking the Creation Cycle]]", "[[SoT - Starter Tasks]]"]

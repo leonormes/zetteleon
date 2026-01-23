@@ -5,7 +5,7 @@ created: 2025-02-07T12:57:56Z
 dependencies: ""
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:50+00:00
+modified: 2026-01-23T18:09:24+00:00
 name: "troubleshooting_guide"
 purpose: ""
 review_interval: ""
@@ -46,7 +46,7 @@ az network express-route show --name <circuit-name> --resource-group <rg>
 aws directconnect describe-connections
 ```
 
-2. Check DNS resolution
+1. Check DNS resolution
 
 ```bash
 # From Azure pod
@@ -56,12 +56,12 @@ kubectl exec -it <pod-name> -- nslookup <aws-endpoint>
 kubectl exec -it <pod-name> -- nslookup <azure-endpoint>
 ```
 
-3. Verify network security groups/security groups
+1. Verify network security groups/security groups
    - Check Azure NSG rules
    - Verify AWS security group configurations
    - Ensure required ports are open
 
-4. Validate route tables
+2. Validate route tables
    - Check UDRs in Azure
    - Verify AWS route tables
    - Confirm BGP propagation
@@ -88,7 +88,7 @@ kubectl exec -it <pod-name> -- nslookup <acr-name>.azurecr.io
 kubectl exec -it <pod-name> -- curl -v <acr-name>.azurecr.io
 ```
 
-2. Check authentication configuration
+1. Check authentication configuration
    - For AKS: Verify managed identity assignment
    - For EKS: Check IAM role configuration
 
@@ -100,7 +100,7 @@ az aks show -n <cluster-name> -g <resource-group> --query "identityProfile"
 aws iam get-role --role-name <role-name>
 ```
 
-3. Validate ACR access policies
+1. Validate ACR access policies
 
 ```bash
 # List ACR roles
@@ -129,7 +129,7 @@ aws eks describe-cluster --name <cluster-name> --query "cluster.identity"
 az ad app show --id <app-id>
 ```
 
-2. Check service account configuration
+1. Check service account configuration
 
 ```bash
 # Verify service account
@@ -140,7 +140,7 @@ kubectl describe AzureIdentityBinding <binding-name>  # For AKS
 kubectl describe ServiceAccount <sa-name>             # For EKS
 ```
 
-3. Validate role assignments
+1. Validate role assignments
 
 ```bash
 # Azure RBAC
@@ -172,7 +172,7 @@ az network private-dns zone list
 aws route53 list-hosted-zones
 ```
 
-2. Verify DNS forwarder setup
+1. Verify DNS forwarder setup
 
 ```bash
 # Check Azure DNS forwarder
@@ -182,7 +182,7 @@ az network private-dns link vnet list --zone-name <zone-name>
 aws route53resolver list-resolver-endpoints
 ```
 
-3. Test DNS resolution path
+1. Test DNS resolution path
 
 ```bash
 # From pod
@@ -231,13 +231,13 @@ spec:
 EOF
 ```
 
-2. Monitoring Setup
+1. Monitoring Setup
    - Configure alerts for network latency
    - Monitor DNS resolution times
    - Track authentication failures
    - Set up registry pull metrics
 
-3. Documentation
+2. Documentation
    - Keep network diagrams updated
    - Document all security group changes
    - Maintain service dependency maps

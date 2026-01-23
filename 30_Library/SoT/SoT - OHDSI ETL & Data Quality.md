@@ -4,12 +4,10 @@ confidence: "High"
 created: 2026-01-06T19:27:38+00:00
 epistemic: "Process"
 last_reviewed: 
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define the lifecycle of transforming source data into OMOP CDM and validating its quality."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - OHDSI Standardized Vocabularies]]"
-  - "[[SoT - OMOP Common Data Model (CDM)]]"
+see_also: ["[[SoT - OHDSI Standardized Vocabularies]]", "[[SoT - OMOP Common Data Model (CDM)]]"]
 source_of_truth: []
 status: "Active"
 tags: ["data-quality", "etl", "ohdsi", "process"]

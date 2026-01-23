@@ -1,18 +1,21 @@
 ---
-title: "Top 10 Open-Source AI Agent Frameworks to Know in 2025"
-source: "https://odsc.medium.com/top-10-open-source-ai-agent-frameworks-to-know-in-2025-c739854ec859"
 captured: "2026-01-19T15:47:29+00:00 2026-01-19T15:47:29+00:00"
+created: 2026-01-19T15:47:33+00:00
+modified: 2026-01-23T18:09:13+00:00
+source: "https://odsc.medium.com/top-10-open-source-ai-agent-frameworks-to-know-in-2025-c739854ec859"
 status: "phase-1"
-tags:
-  - "input"
+tags: ["input"]
+title: HEAD Top 10 Open-Source AI Agent Frameworks to Know in 2025
 type: "head"
 ---
+
 ## Phase 1: Ingestion (The Stream)
 
 > [!abstract] Context
 > Top 10 Open-Source AI Agent Frameworks to Know in 2025 As AI agents continue to evolve from research concepts into production-ready solutions, open-source frameworks are playing a pivotal role in …
 
 ### Raw Output / Content
+
 [Sitemap](https://odsc.medium.com/sitemap/sitemap.xml)
 
 Get unlimited access to the best of Medium for less than $1/week.[Become a member](https://medium.com/plans?source=upgrade_membership---post_top_nav_upsell-----------------------------------------)
@@ -21,11 +24,11 @@ Get unlimited access to the best of Medium for less than $1/week.[Become a membe
 
 Become a member
 
-](https://medium.com/plans?source=upgrade_membership---post_top_nav_upsell-----------------------------------------)
+](<https://medium.com/plans?source=upgrade_membership---post_top_nav_upsell----------------------------------------->)
 
 ![](https://miro.medium.com/v2/resize:fit:640/format:webp/0*u3c2IuktxUtGz_Zq.jpg)
 
-As [AI agents](https://opendatascience.com/?s=Agent) continue to evolve from research concepts into production-ready solutions, open-source frameworks are playing a pivotal role in accelerating adoption. Whether you’re building autonomous systems, LLM-powered applications, or orchestrating multi-agent collaboration, having the right AI agent framework is essential. In this blog, we’ve curated 10 of the most notable open-source AI agent frameworks to watch in 2025. These projects are actively maintained, widely adopted, and cater to diverse use cases in the AI development lifecycle.
+As [AI agents](https://opendatascience.com/?s=Agent) continue to evolve from research concepts into production-ready solutions, open-source frameworks are playing a pivotal role in accelerating adoption. Whether you're building autonomous systems, LLM-powered applications, or orchestrating multi-agent collaboration, having the right AI agent framework is essential. In this blog, we've curated 10 of the most notable open-source AI agent frameworks to watch in 2025. These projects are actively maintained, widely adopted, and cater to diverse use cases in the AI development lifecycle.
 
 ## 1\. LangChain
 
@@ -65,7 +68,7 @@ Key Features: Role-based agent assignments (e.g., researcher, writer, analyst)
 
 GitHub: [CrewAI](https://github.com/crewAIInc/crewAI)
 
-CrewAI focuses on team-based agent collaboration, assigning distinct roles to agents to complete complex workflows. This coordination mimics real-world teams and allows for better specialization and task division. It’s a strong fit for data science and content creation projects requiring coordinated agent efforts.
+CrewAI focuses on team-based agent collaboration, assigning distinct roles to agents to complete complex workflows. This coordination mimics real-world teams and allows for better specialization and task division. It's a strong fit for data science and content creation projects requiring coordinated agent efforts.
 
 ## 5\. MetaGPT
 
@@ -75,7 +78,7 @@ Focus: Build software projects with the CEO, PM, and Dev agents
 
 GitHub: [MetaGPT](https://github.com/geekan/MetaGPT)
 
-MetaGPT simulates the structure of a software development team, automating workflows through agents acting as CEO, project manager, and developers. By orchestrating these roles, this AI agent framework can ideate, plan, and build software products with minimal human oversight. It’s particularly appealing for AI engineers exploring autonomous software development pipelines.
+MetaGPT simulates the structure of a software development team, automating workflows through agents acting as CEO, project manager, and developers. By orchestrating these roles, this AI agent framework can ideate, plan, and build software products with minimal human oversight. It's particularly appealing for AI engineers exploring autonomous software development pipelines.
 
 ## 6\. Camel-AI (CAMEL)
 
@@ -117,7 +120,7 @@ Key Features: Multi-agent chat, function calling, simulation of social dynamics
 
 GitHub: [AutoGen](https://github.com/microsoft/autogen)
 
-AutoGen is Microsoft’s entry into multi-agent orchestration. It enables structured interactions between agents using predefined roles and collaborative chat logic. Features like function calling and fine-grained control over agent dialogue make it particularly suitable for research and enterprise prototyping alike.
+AutoGen is Microsoft's entry into multi-agent orchestration. It enables structured interactions between agents using predefined roles and collaborative chat logic. Features like function calling and fine-grained control over agent dialogue make it particularly suitable for research and enterprise prototyping alike.
 
 ## 10\. Open Agents (formerly OpenDevin)
 
@@ -149,11 +152,12 @@ Our passion is bringing thousands of the best and brightest data scientists toge
 
 See more recommendations
 
-](https://medium.com/?source=post_page---read_next_recirc--c739854ec859---------------------------------------)
+](<https://medium.com/?source=post_page---read_next_recirc--c739854ec859--------------------------------------->)
 
 ---
 
 ## Phase 2: The Gate (4D Filter)
+
 - [ ] **Do:** < 2 mins?
 - [ ] **Delegate:** Who?
 - [ ] **Defer:** Move to Hangar or SoT?
@@ -162,6 +166,7 @@ See more recommendations
 ---
 
 ## Phase 5: The Scribe (#SAVESTATE)
+
 - **The Conflict:**
 - **The Current State:**
 - **The Next Test:**

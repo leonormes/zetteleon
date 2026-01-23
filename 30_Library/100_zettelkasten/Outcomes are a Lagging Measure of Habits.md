@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-06T19:56:00Z
 epistemic: "fact"
 last_reviewed: "2025-11-06"
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "To explain that outcomes are a lagging indicator of the underlying systems and habits."
 review_interval: "90"
 see_also: []

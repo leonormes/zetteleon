@@ -4,7 +4,7 @@ confidence: "0.8"
 created: 2025-01-15T10:01:00Z
 epistemic: "fact"
 last_reviewed: "2025-01-15"
-modified: 2026-01-08T10:50:01+00:00
+modified: 2026-01-23T18:09:32+00:00
 purpose: "Minimal declarative input set for infrastructure deployments"
 review_interval: "90"
 see_also: []

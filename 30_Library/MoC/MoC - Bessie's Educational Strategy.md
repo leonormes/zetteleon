@@ -1,28 +1,17 @@
 ---
-aliases:
-  - Bessie's Education
-  - Bessie's Learning Map
-  - Neurodivergent Education Strategy
+aliases: ["Bessie's Education", "Bessie's Learning Map", Neurodivergent Education Strategy]
 confidence: High
 created: 2026-01-06T19:41:04+00:00
 epistemic: Strategy
 last_reviewed:
-modified: 2026-01-08T15:03:31+00:00
-purpose: To map the specific educational strategies, philosophies, and tools required to support Bessie's neurodivergent learning profile, shifting from 'obligation' to 'opportunity'.
+modified: 2026-01-23T18:09:22+00:00
+purpose: "To map the specific educational strategies, philosophies, and tools required to support Bessie's neurodivergent learning profile, shifting from 'obligation' to 'opportunity'."
 review_interval: Quarterly
-see_also:
-  - "[[SoT - ADHD Neurology & Core Concepts]]"
-  - "[[SoT - Experiential Learning & Education]]"
-  - "[[SoT - The Philosophy of Mathematics Education]]"
+see_also: ["[[SoT - ADHD Neurology & Core Concepts]]", "[[SoT - Experiential Learning & Education]]", "[[SoT - The Philosophy of Mathematics Education]]"]
 source_of_truth: []
 status: Active
-tags:
-  - adhd
-  - bessie
-  - education
-  - moc
-  - parenting
-title: MoC - Bessie's Educational Strategy
+tags: [adhd, bessie, education, moc, parenting]
+title: "MoC - Bessie's Educational Strategy"
 type: map
 uid:
 updated:

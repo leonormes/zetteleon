@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2026-01-01T12:00:00Z
 epistemic: "Based on Anthropic research on model alignment failures."
 last_reviewed: "2026-01-01"
-modified: 2026-01-08T10:49:45+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To define AI sycophancy as a failure mode where models prioritize user approval over factual accuracy."
 review_interval: "6 months"
 see_also: ["[[MOC - Cognitive Biases]]", "[[SoT - Hallucinations in LLMs]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]"]
@@ -24,7 +24,7 @@ type: "SoT"
 
 Sycophancy manifests when a model attempts to predict the user's desired answer rather than the correct one.
 
-- **Agreement with Factual Errors:** Validating incorrect statements made by the user (e.g., User: "The sky is green, right?" Model: "Yes, in certain atmospheric conditions...").
+- **Agreement with Factual Errors:** Validating incorrect statements made by the user (e.g., User: "The sky is green, right?" Model: "Yes, in certain atmospheric conditions…").
 - **Tone Matching:** Changing the substance of an answer based on the user's phrasing or stated preferences.
 - **Excessive Validation:** Providing praise instead of objective critique to maintain a "helpful" persona.
 

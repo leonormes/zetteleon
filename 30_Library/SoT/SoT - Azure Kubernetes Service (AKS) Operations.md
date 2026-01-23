@@ -4,13 +4,13 @@ confidence: "5/5"
 created: 2026-01-08T12:00:00Z
 epistemic: "operational"
 last_reviewed: "2026-01-08"
-modified: 2026-01-08
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To document specific operational challenges, errors, and solutions for Azure Kubernetes Service (AKS)."
 review_interval: "6 months"
-see_also: ["[[SoT - Kubernetes Networking & DNS]]", "[[SoT - DevOps & Infrastructure Architecture Strategy]]"]
+see_also: ["[[SoT - DevOps & Infrastructure Architecture Strategy]]", "[[SoT - Kubernetes Networking & DNS]]"]
 source_of_truth: []
 status: "stable"
-tags: ["aks", "azure", "kubernetes", "troubleshooting", "ops"]
+tags: ["aks", "azure", "kubernetes", "ops", "troubleshooting"]
 title: SoT - Azure Kubernetes Service (AKS) Operations
 type: "SoT"
 ---
@@ -30,7 +30,7 @@ Deploying to AKS involves navigating specific Azure resource constraints and con
 
 ### 1.2 Resource Quota Limits (vCore)
 
-- **Error:** "Reached or exceeded the maximum number of zones in subscription..."
+- **Error:** "Reached or exceeded the maximum number of zones in subscription…"
 - **Context:** This indicates the subscription's vCore allowance is insufficient for the requested node count/size.
 - **Solution:** Increase the subscription vCore allowance or reduce the requested VM size/count.
 
@@ -56,6 +56,7 @@ Deploying to AKS involves navigating specific Azure resource constraints and con
 Strict firewall rules are a primary blocker for AKS nodes coming online. Nodes require access to:
 
 ### 2.1 Critical Azure Global Endpoints
+
 - `mcr.microsoft.com` (Container Registry)
 - `*.cdn.mscr.io`
 - `*.blob.core.windows.net`
@@ -63,11 +64,13 @@ Strict firewall rules are a primary blocker for AKS nodes coming online. Nodes r
 - `management.azure.com`
 
 ### 2.2 AKS-Specific Endpoints
+
 - `*.hcp.<region>.azmk8s.io`
 - `*.tun.<region>.azmk8s.io` (Ports 9000, 443)
 - `*.dp.<region>.azmk8s.io` (Port 443)
 
 ### 2.3 OS & Time
+
 - NTP servers (for Ubuntu/Azure Linux nodes).
 
 **Constraint:** Failure to whitelist these results in nodes staying in a `NotReady` state or failing to pull system images.

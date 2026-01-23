@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:54Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:56+00:00
+modified: 2026-01-23T18:09:27+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -175,7 +175,7 @@ velero restore create test-restore
     --namespace-mappings source-namespace:test-namespace
 ```
 
-2. Documentation: Maintain detailed documentation of your backup configuration and restoration procedures:
+1. Documentation: Maintain detailed documentation of your backup configuration and restoration procedures:
 
 > Backup Schedule: Daily at midnight
 > Retention Period: 30 days

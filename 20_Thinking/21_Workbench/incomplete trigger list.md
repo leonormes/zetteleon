@@ -1,6 +1,6 @@
 ---
 created: 2026-01-13T03:49:56+00:00
-modified: 2026-01-13T16:47:07+00:00
+modified: 2026-01-23T18:09:12+00:00
 title: incomplete trigger list
 ---
 

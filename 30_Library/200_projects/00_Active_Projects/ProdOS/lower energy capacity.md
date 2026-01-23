@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-12T18:01:17Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:58+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -26,17 +26,17 @@ A robust system is built around the "tired-me" as the primary user to ensure sur
 - One-Tap Capture: The process of getting an idea or task into the system must be instant and require minimal effort.
 - No Categories First: Avoid mandatory fields, tags, or complex structures during initial entry. This eliminates decision fatigue when energy is low.
 
-2. 🎯 Simplify Action & Visibility
+1. 🎯 Simplify Action & Visibility
 
 - Single "Next" List: Replace multiple project queues with one simple, consolidated list to reduce the effort of deciding what to work on next.
 - Focus on the Next Possible Step: The system must clearly show the single, immediate action that can be taken, even without full context.
 
-3. ✨ Embrace Forgiveness and Recovery
+1. ✨ Embrace Forgiveness and Recovery
 
 - Forgive Neglect: The system must be able to withstand going untouched for a few days without losing important information.
 - Quick Recovery: When energy returns, there should be "no guilt backlog to clean up"—the user should be able to jump straight back into the next actionable item.
 
-4. 🚫 Ban Maintenance Debt
+1. 🚫 Ban Maintenance Debt
 
 - "Add First, Sort Later" Rule: Adopt a strict policy against rearranging or tidying tasks/notes immediately. This prevents maintenance from becoming a form of procrastination.
 - Trust the Reminders: The system should rely on automated surfacing of critical information (like reminders) rather than demanding manual review or micromanagement.

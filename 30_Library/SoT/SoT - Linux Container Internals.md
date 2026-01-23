@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "technical"
 last_reviewed: "2025-12-30"
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define the definitive kernel-level mechanisms (Namespaces, Cgroups, Layered Filesystems) that enable modern containerisation."
 review_interval: "6 months"
 see_also: ["[[SoT - Container Security & Hardening]]", "[[SoT - Kubernetes Cluster State Architecture]]", "[[SoT - Namespacing in Computing]]"]

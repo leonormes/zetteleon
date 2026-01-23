@@ -4,20 +4,20 @@ confidence: ""
 created: 2025-12-13T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-09T22:15:28+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: ""
 review_interval: "3 months"
 see_also: []
 source_of_truth: []
 status: "stable"
 tags: []
-title: '2. The Core Mechanism: "The Amygdala as Guide Dog & The Social Brain"'
+title: SoT - Psychological Safety and Belonging
 type: "SoT"
 uid: 
 updated: 
 ---
 
-# 2. The Core Mechanism: "The Amygdala as Guide Dog & The Social Brain"
+## 2. The Core Mechanism: "The Amygdala as Guide Dog & The Social Brain"
 
 - **The Threat Mode: "** When safety is low, the amygdala acts as a **Guard Dog**, triggering fight-or-flight and narrowing focus to survival (\"What do I need to do to survive?\")."
 - **The Connection Mode: "** When bombarded with Belonging Cues, the amygdala switches roles to a **Guide Dog**, using its immense processing power to build social bonds and track group dynamics."

@@ -4,7 +4,7 @@ confidence: "1.0"
 created: 2025-11-22T15:00:09Z
 epistemic: "fact"
 last_reviewed: "2025-11-22"
-modified: 2026-01-08T10:50:01+00:00
+modified: 2026-01-23T18:09:32+00:00
 purpose: "Lists the interception points in the Linux networking stack."
 review_interval: "90"
 see_also: []

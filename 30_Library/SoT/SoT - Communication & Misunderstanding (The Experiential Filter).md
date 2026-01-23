@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2026-01-02T15:20:00Z
 epistemic: "knowledge"
 last_reviewed: "2026-01-02"
-modified: 2026-01-08T10:49:44+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To explain communication mechanics through the lens of experiential understanding, framing misunderstanding as a divergence of internal conceptual maps."
 review_interval: "2 years"
 see_also: ["[[SoT - Social Perception and Self-Awareness]]", "[[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]"]
@@ -47,7 +47,7 @@ Misunderstanding is the default state, not an anomaly. It arises when the **Expe
 ### 3.3 Active Repair
 
 - **Explicit Clarification:** "What does that term mean to you?"
-- **Paraphrasing:** "If I understand correctly, you are saying..."
+- **Paraphrasing:** "If I understand correctly, you are saying…"
 - **Assumption of Divergence:** Proceed with the assumption that you _have_ been misunderstood until proven otherwise.
 
 > **Key Insight:** Effective communication is the collaborative construction of a temporary shared language, grounded in the intersection of two experiential worlds.

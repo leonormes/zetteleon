@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-08-19T23:58:53Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -18,8 +18,8 @@ updated:
 version: ""
 ---
 
-- Set 25–50 minute “focus sprints” with one explicit outcome (e.g., “Prove lemma A,” “Implement SHA-256 step 3,” “Summarize section on category theory adjoints in 5 bullet points”).
-- End each sprint by writing a 3–5 sentence “state dump”: what you did, what’s next, blockers, exact resume point. This becomes your future on-ramp.
+- Set 25–50 minute "focus sprints" with one explicit outcome (e.g., "Prove lemma A," "Implement SHA-256 step 3," "Summarize section on category theory adjoints in 5 bullet points").
+- End each sprint by writing a 3–5 sentence "state dump": what you did, what's next, blockers, exact resume point. This becomes your future on-ramp.
 
 ---
 

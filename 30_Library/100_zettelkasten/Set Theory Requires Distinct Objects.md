@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-08-30T09:00:44Z
 epistemic: "fact"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: ""
 review_interval: "90"
 see_also: ["[[Axiomatic Set Theory Is a Foundational Framework for Mathematics]]", "[[Russell''s Paradox in Naive Set Theory]]"]

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-11T09:23:56Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:48+00:00
+modified: 2026-01-23T18:09:23+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -78,7 +78,7 @@ Instead of arguing about "respect" (abstract), break it down:
 
 Create mutual agreements about specific behaviors:
 
-**"We both agree to..."**
+**"We both agree to…"**
 
 1. Let each other finish sentences before responding
 2. Say "I need to think about that" instead of dismissing immediately
@@ -139,7 +139,7 @@ When someone consistently:
 
 - Goes silent when you make a valid point
 - Never returns to the topic
-- Never initiates "I've been thinking about what you said..."
+- Never initiates "I've been thinking about what you said…"
 - Acts like difficult conversations never happened
 
 They're communicating: "This issue is YOUR problem, not OUR problem."
@@ -199,11 +199,11 @@ If someone genuinely cares about their partner's distress, they:
 
 - Think about it between conversations
 - Ask "Have you been feeling better about X?"
-- Say "I've been reflecting on what you said..."
+- Say "I've been reflecting on what you said…"
 - Initiate problem-solving conversations
 
 The absence of ALL of these, consistently, is data. It's telling you that she's not truly partnered with you in maintaining the relationship's emotional health.
 
 The question becomes: Can you accept being the sole carrier of the relationship's emotional maintenance? Because that's what's currently happening. You're the only one treating relationship issues as worth sustained thought.
 
-What happens if you simply... stop carrying that load alone? Stop re-initiating? Stop following up? What would happen to all these concerns if you didn't keep breathing life into them?
+What happens if you simply… stop carrying that load alone? Stop re-initiating? Stop following up? What would happen to all these concerns if you didn't keep breathing life into them?

@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-29T16:10:00Z
 epistemic: "strategy"
 last_reviewed: "null"
-modified: 2026-01-08T10:49:58+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: "To suggest a tool for making routines easier to follow."
 review_interval: "null"
 see_also: []

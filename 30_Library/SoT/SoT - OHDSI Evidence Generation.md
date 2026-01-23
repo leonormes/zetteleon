@@ -4,7 +4,7 @@ confidence: "High"
 created: 2026-01-06T19:30:51+00:00
 epistemic: "Methodology"
 last_reviewed: 
-modified: 2026-01-10T20:37:09+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define the three pillars of OHDSI analytics and the scientific rigour required for valid evidence."
 review_interval: "1 year"
 see_also: ["[[SoT - Best Practices for Real-World Analysis]]", "[[SoT - OHDSI Toolstack & Atlas]]"]
@@ -17,13 +17,13 @@ uid:
 updated: 
 ---
 
-# SoT - OHDSI Evidence Generation
+## SoT - OHDSI Evidence Generation
 
 > **The Goal:** To generate reliable evidence by systematically applying best-practice methods across a federated network.
 
-## 1. The Three Use Cases
+### 1. The Three Use Cases
 
-### A. Clinical Characterization ("What happened?")
+#### A. Clinical Characterization ("What happened?")
 
 - **Goal:** Descriptive statistics.
 - **Questions:**
@@ -32,7 +32,7 @@ updated:
 - **Method:** Simple aggregation (`COUNT`, `GROUP BY`).
 - **Feasibility:** Highly viable in **Read-Only** architectures.
 
-### B. Population-Level Effect Estimation ("What is the Causal effect?")
+#### B. Population-Level Effect Estimation ("What is the Causal effect?")
 
 - **Goal:** Causal inference (Safety/Efficacy).
 - **Questions:**
@@ -42,7 +42,7 @@ updated:
     - **Negative Controls:** Calibrating for residual bias.
 - **Feasibility:** Hard in Read-Only (requires creating matched cohorts).
 
-### C. Patient-Level Prediction ("What Will Happen to me?")
+#### C. Patient-Level Prediction ("What Will Happen to me?")
 
 - **Goal:** Personalized risk scoring.
 - **Questions:**
@@ -50,7 +50,7 @@ updated:
 - **Method:** Machine Learning (LASSO, Random Forest, Deep Learning) on large feature sets.
 - **Feasibility:** Hard in Read-Only (requires extracting massive feature matrices).
 
-## 2. Evidence Quality Framework
+### 2. Evidence Quality Framework
 
 Generating numbers is easy; generating **truth** is hard.
 
@@ -59,7 +59,7 @@ Generating numbers is easy; generating **truth** is hard.
 - **Method Validity:** Is the math right? (Diagnostics).
 - **Data Quality:** Is the source reliable? (DQD).
 
-## 3. Large-Scale Analytics
+### 3. Large-Scale Analytics
 
 OHDSI moves away from "One-Off" studies to **Systematic Evidence Generation**.
 

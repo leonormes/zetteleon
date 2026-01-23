@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-12T09:41:52Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -20,7 +20,7 @@ version: ""
 
 A teacher, seeing his students working tirelessly, gathered them and said, "Let me tell you of the Village of Constant Toil, so that you may understand the nature of your work."
 
-"In this village, the river, which should have been a source of life, brought forth bitter water. Every morning, the people would descend to the riverbank with their buckets and begin the day’s great labour.
+"In this village, the river, which should have been a source of life, brought forth bitter water. Every morning, the people would descend to the riverbank with their buckets and begin the day's great labour.
 
 They built elaborate filters of charcoal and sand. They kept great fires burning to boil the water, and others would fan it to cool it. Their days were filled with the fetching and the filtering, the boiling and the cooling. They were praised for their diligence, and the sweat on their brow was seen as a mark of virtue. 'See how we labour to make the bitter water sweet!' they would say. And truly, their work never ended.
 
@@ -30,7 +30,7 @@ One dawn, as the villagers descended to the river, she turned her back to them a
 
 The others called to her, 'Where are you going, sister? The work is here! The buckets are waiting! Do not forsake your duty!'
 
-But she continued on, walking against the current, into the hills from which the river flowed. For days she journeyed, tracing the water to its origin. She came at last to the mountain where the river was born: a small, hidden spring bubbling from the earth. And there she found the source of the village’s misery. A gnarled and bitter root had grown into the heart of the spring, poisoning the water from its very inception.
+But she continued on, walking against the current, into the hills from which the river flowed. For days she journeyed, tracing the water to its origin. She came at last to the mountain where the river was born: a small, hidden spring bubbling from the earth. And there she found the source of the village's misery. A gnarled and bitter root had grown into the heart of the spring, poisoning the water from its very inception.
 
 She took a sharp stone, and for a single day, she dug and she cut and she laboured. The work was difficult, but it had a purpose and an end. At last, she pulled the root from the earth and cast it aside. And she watched as the spring water began to flow clear and pure.
 

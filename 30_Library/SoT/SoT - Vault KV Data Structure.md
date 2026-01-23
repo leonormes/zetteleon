@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-25T00:00:00Z
 epistemic: "First Principles Model"
 last_reviewed: 
-modified: 2026-01-08T10:49:39+00:00
+modified: 2026-01-23T18:09:16+00:00
 purpose: "To define the first-principles data model of HashiCorp Vault (KV Store)."
 review_interval: "1 year"
 see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - The Data Architecture of Source Control (Git)]]"]

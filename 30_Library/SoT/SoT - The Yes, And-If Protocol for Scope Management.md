@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-17T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-17"
-modified: 2026-01-08T08:42:50+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "To define a tactical communication protocol for managing scope creep and new requests without direct confrontation."
 review_interval: "3 months"
 see_also: ["[[MOC - Assertiveness Through System Design]]"]
@@ -20,7 +20,7 @@ updated:
 ## 1. Definitive Statement
 
 > [!definition] Definition
-> The **"Yes, And/If" Protocol** is a non-confrontational method for managing incoming requests and scope creep. Instead of refusing a task (a "No"), you agree to it conditionally (a "Yes, if..."), reframing the conversation from a personal boundary issue into a collaborative **resource allocation problem**.
+> The **"Yes, And/If" Protocol** is a non-confrontational method for managing incoming requests and scope creep. Instead of refusing a task (a "No"), you agree to it conditionally (a "Yes, if…"), reframing the conversation from a personal boundary issue into a collaborative **resource allocation problem**.
 
 ## 2. The Protocol
 

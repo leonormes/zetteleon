@@ -4,7 +4,7 @@ confidence: "0.7"
 created: 2025-01-15T10:00:00Z
 epistemic: "principle"
 last_reviewed: "2025-01-15"
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "Framework for reducing configuration errors by generating infrastructure config from minimal inputs"
 review_interval: "90"
 see_also: []

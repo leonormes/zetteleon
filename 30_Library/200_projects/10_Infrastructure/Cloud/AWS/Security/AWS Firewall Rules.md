@@ -5,7 +5,7 @@ created: 2025-02-07T12:57:54Z
 epistemic: "null"
 ID: "FFAPP-3277"
 last_reviewed: "null"
-modified: 2026-01-08T10:49:56+00:00
+modified: 2026-01-23T18:09:27+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -56,14 +56,14 @@ I'll categorize the URLs from your firewall rules into Azure-specific and non-Az
 - `.ods.opinsights.azure.com`, `.opinsights.azure.com`, `.oms.opinsights.azure.com` - Azure Monitor and Log Analytics
 - `dc.services.visualstudio.com` - Azure Monitor Container Agent Telemetry
 
-2. Azure Container Services:
+1. Azure Container Services:
 
 - `mcr.microsoft.com`, `.data.mcr.microsoft.com` - Microsoft Container Registry
 - `fitfileregistry.azurecr.io`, `fitfilepublic.azurecr.io` - Your Azure Container Registry
 - `acs-mirror.azureedge.net` - Azure CNI and kubenet binaries
 - `.azureedge.net` - Azure CDN
 
-3. Azure Storage and Policy:
+1. Azure Storage and Policy:
 
 - `uksmanaged208.blob.core.windows.net` - Azure Blob Storage
 - `azurecliprod.blob.core.windows.net` - Azure CLI installation
@@ -78,25 +78,25 @@ I'll categorize the URLs from your firewall rules into Azure-specific and non-Az
 - `registry.terraform.io`, `app.terraform.io`, `archivist.terraform.io` - Terraform registry and services
 - `vault-public-vault-8b38a0c2.e3dedc53.z1.hashicorp.cloud` - HashiCorp Vault
 
-2. Ubuntu/OS Updates:
+1. Ubuntu/OS Updates:
 
 - `azure.archive.ubuntu.com`, `.canonical.com` - Ubuntu package repositories
 - `security.ubuntu.com`, `changelogs.ubuntu.com` - Ubuntu security updates
 - `ntp.ubuntu.com` - Time synchronization
 - `download.opensuse.org` - OpenSUSE packages
 
-3. FITFILE Services:
+1. FITFILE Services:
 
 - `fitfile-prod.eu.auth0.com`, `fitfile-test.eu.auth0.com` - Auth0 authentication
 - `cdn.auth0.com` - Auth0 UI components
 - `fitfile.com` - FITFILE main domain
 
-4. Monitoring and Logging:
+1. Monitoring and Logging:
 
 - `logs-prod-008.grafana.net` - Grafana logging
 - `tempo-prod-06-prod-gb-south-0.grafana.net` - Grafana Tempo (tracing)
 
-5. Source Control and Package Management:
+1. Source Control and Package Management:
 
 - `gitlab.com` - Source code repository
 - `packages.microsoft.com` - Microsoft package repository

@@ -4,11 +4,10 @@ confidence: high
 created: 2026-01-07T10:14:28+00:00
 epistemic: confirmed
 last_reviewed: 2026-01-07
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "Define the Data-Centric pattern for Infrastructure as Code"
 review_interval: yearly
-see_also:
-  - "[[Refactor: Helm Chart Compiler]]"
+see_also: ["[[Refactor: Helm Chart Compiler]]"]
 source_of_truth: []
 status: stable
 tags: ["SoftwareEngineering/Architecture", devops, helm, pattern]

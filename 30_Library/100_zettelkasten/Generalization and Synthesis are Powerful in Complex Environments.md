@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:30:12Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "To highlight the power of synthesis in complex environments."
 review_interval: "90"
 see_also: ["[[Generalists Have an Advantage in the Information Age]]"]

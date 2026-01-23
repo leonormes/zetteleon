@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "curriculum"
 last_reviewed: "2026-01-01"
-modified: 2026-01-08T10:49:44+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "A 'Boss Fight' structured curriculum to transition from Code-First to Data-First thinking."
 review_interval: "3 months"
 see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - Data-Oriented Programming (DOP)]]", "[[SoT - Protocol - Learning Engine]]", "[[SoT - Slot Map (Generational Arena)]]"]

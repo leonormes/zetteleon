@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-11-13T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-14"
-modified: 2026-01-08T10:49:44+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To provide a protocol for breaking the ADHD cycle of starting fresh and abandoning projects due to loss of context."
 review_interval: "6 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - PRODOS (System Architecture)]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-08-19T23:32:29Z
 epistemic: "fact"
 last_reviewed: 2025-12-24
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "To explain why there is no largest prime number and its impact on key generation."
 review_interval: "1 year"
 see_also: ["[[Fundamental Theorem of Arithmetic]]", "[[Primes Become Rarer But Remain Searchable]]"]
@@ -22,7 +22,7 @@ There is an infinite number of prime numbers. As proven by Euclid over 2,000 yea
 ## 📐 Euclid's Logic (Simplified)
 
 1. Imagine you have a complete list of all the prime numbers that exist.
-2. Multiply all of them together and add 1 ($P = p_1 * p_2 *... * p_n + 1$).
+2. Multiply all of them together and add 1 ($P = p_1 * p_2 *… * p_n + 1$).
 3. This new number $P$, when divided by any of the primes on your list, will always leave a remainder of 1.
 4. Therefore, $P$ is either a new prime itself or has a prime factor not on the original list.
 5. In either case, the original list was incomplete.

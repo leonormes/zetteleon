@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-05T01:25:01Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:55+00:00
+modified: 2026-01-23T18:09:27+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -115,7 +115,7 @@ Ticket 7: Manage User Objects with Terraform (in `01-users` repo)
 - Ticket 13: Implement Secrets Management with Azure Key Vault
 - Ticket 14: Refine Service Principal Permissions (Least Privilege)
 - Ticket 15: Implement Break-Glass Account Procedures and PIM
-- ... (and so on, for further platform components and security enhancements)
+- … (and so on, for further platform components and security enhancements)
 
 ### Notes
 

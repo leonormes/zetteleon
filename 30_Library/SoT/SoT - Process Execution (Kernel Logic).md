@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-26T12:30:00Z
 epistemic: "Architectural/Technical"
 last_reviewed: "2025-12-26"
-modified: 2026-01-08T10:49:41+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "Canonical knowledge on how the OS kernel executes binaries and scripts, specifically covering path resolution and interpreter hints."
 review_interval: "6 months"
 see_also: ["[[SoT - Bash Scripting]]", "[[SoT - Linux Container Primitives]]"]

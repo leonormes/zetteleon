@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-03T10:02:17Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:52+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -56,7 +56,7 @@ spec:
           - "192.168.1.0/24"
 ```
 
-Apply it using `kubectl apply -f <policy-file>`[^4][^6].
+Apply it using `kubectl apply -f <policy-file>`[^4].[^6]
 
 ### 3. Configure IP Address Management (IPAM)
 
@@ -68,11 +68,11 @@ calicoctl ipam show --show-blocks
 
 ### 4. Enable Encryption
 
-- Secure data in transit by enabling IPsec or WireGuard encryption for pod-to-pod communication[^2][^4].
+- Secure data in transit by enabling IPsec or WireGuard encryption for pod-to-pod communication[^2].[^4]
 
 ### 5. Leverage Routing Features
 
-- Utilize Calico's BGP routing to create a highly scalable and efficient network for large clusters[^2][^10].
+- Utilize Calico's BGP routing to create a highly scalable and efficient network for large clusters[^2].[^10]
 
 ### 6. Monitor And Troubleshoot
 

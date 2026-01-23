@@ -4,7 +4,7 @@ confidence: ""
 created: 2024-11-28T16:44:08Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:50+00:00
+modified: 2026-01-23T18:09:24+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -43,7 +43,7 @@ The sources describe various approaches to implementing externalized configurati
 - Environment Variables: The deployment platform sets environment variables that the application reads.
 - Configuration Files: The platform provides configuration files that are mounted as volumes within the application's container.
 
-2. Pull Model: In this model, applications actively retrieve their configuration from a centralized configuration server at runtime. This server acts as a single source of truth for configuration data.
+1. Pull Model: In this model, applications actively retrieve their configuration from a centralized configuration server at runtime. This server acts as a single source of truth for configuration data.
 
 - Configuration Server: Tools like Spring Cloud Config or dedicated cloud services (e.g., AWS AppConfig, Azure App Configuration) can be used as configuration servers.
 

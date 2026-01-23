@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-25T17:43:33Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:53+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -48,11 +48,11 @@ No, MAC addresses were not part of the _routable_ network specification (like th
 
 When a data packet travels from a computer on one network to a computer on another network across the internet, the IP addresses (source and destination) generally remain the same for the entire journey. However, the Layer 2 frame containing the packet, including the source and destination MAC addresses, is stripped and rebuilt at each router (hop) along the path. The MAC addresses used are only relevant for the specific local link between two adjacent devices (e.g., computer to router, router to next router).
 
-Here’s a detailed answer to your questions about the MAC address (physical address) system, its uniqueness, origins, and its role in network design:
+Here's a detailed answer to your questions about the MAC address (physical address) system, its uniqueness, origins, and its role in network design:
 
 ## **How Does the MAC Address (physical address) System work?**
 
-A MAC (Media Access Control) address is a unique identifier assigned to a network interface card (NIC) by the manufacturer. It operates at the Data Link Layer (Layer 2\) of the OSI model. When devices communicate on a local network (like Ethernet or Wi-Fi), they use MAC addresses to identify the source and destination of frames. The MAC address is embedded in the hardware and is used for local delivery of data within the same network segment. When a device sends a frame, it includes both its own MAC address (source) and the recipient’s MAC address (destination) in the frame header. Switches use these addresses to forward frames to the correct device on the local network.
+A MAC (Media Access Control) address is a unique identifier assigned to a network interface card (NIC) by the manufacturer. It operates at the Data Link Layer (Layer 2\) of the OSI model. When devices communicate on a local network (like Ethernet or Wi-Fi), they use MAC addresses to identify the source and destination of frames. The MAC address is embedded in the hardware and is used for local delivery of data within the same network segment. When a device sends a frame, it includes both its own MAC address (source) and the recipient's MAC address (destination) in the frame header. Switches use these addresses to forward frames to the correct device on the local network.
 
 ## **Is A MAC Address Globally Unique? How?**
 

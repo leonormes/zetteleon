@@ -4,12 +4,10 @@ confidence: "High"
 created: 2026-01-01T09:30:55+00:00
 epistemic: "Guide"
 last_reviewed: 
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define the specific OS and Kubernetes configurations required to align the software data plane with the underlying hardware topology for maximum performance."
 review_interval: "1 year"
-see_also:
-  - "[[MOC - Cloud Hardware Architecture]]"
-  - "[[SoT - Cloud Compute Substrates (Audit)]]"
+see_also: ["[[MOC - Cloud Hardware Architecture]]", "[[SoT - Cloud Compute Substrates (Audit)]]"]
 source_of_truth: []
 status: "Active"
 tags: ["kubernetes", "linux", "numa", "performance", "tuning"]

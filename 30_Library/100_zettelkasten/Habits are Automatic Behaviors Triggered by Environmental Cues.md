@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-10T17:11:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "To define habits as a mechanism for action."
 review_interval: "90"
 see_also: []

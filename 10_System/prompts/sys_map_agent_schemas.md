@@ -1,12 +1,19 @@
-# Map Agent JSON Schemas
+---
+created: 2026-01-11T17:29:33+00:00
+modified: 2026-01-23T18:09:32+00:00
+title: sys_map_agent_schemas
+---
+
+## Map Agent JSON Schemas
 
 These schemas define the strict output format for the "Map" phase agents. The "Reduce" agent (The Architect) relies on these exact structures to synthesize the global plan.
 
-## 1. The Redundancy Scout
+### 1. The Redundancy Scout
 
 **Role:** Detects exact duplicates and near-duplicate concepts within a single cluster.
 
 **Output Schema:**
+
 ```json
 {
   "agent": "scout",
@@ -28,11 +35,12 @@ These schemas define the strict output format for the "Map" phase agents. The "R
 }
 ```
 
-## 2. The Ontologist
+### 2. The Ontologist
 
 **Role:** Extracts entities, proposes naming conventions, and identifies relationships.
 
 **Output Schema:**
+
 ```json
 {
   "agent": "ontologist",
@@ -60,11 +68,12 @@ These schemas define the strict output format for the "Map" phase agents. The "R
 }
 ```
 
-## 3. The Critic (Quality Assurance)
+### 3. The Critic (Quality Assurance)
 
 **Role:** Reviews the cluster for hallucinations, logical inconsistencies, or "context rot" risks before synthesis.
 
 **Output Schema:**
+
 ```json
 {
   "agent": "critic",

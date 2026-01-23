@@ -4,7 +4,7 @@ confidence: "4/5"
 created: 2026-01-02T23:30:00Z
 epistemic: "strategy"
 last_reviewed: "2026-01-02"
-modified: 2026-01-08T10:49:44+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "To define the architectural philosophy for DevOps and IaC, moving from brittle scripting to rigorous data modeling."
 review_interval: "6 months"
 see_also: ["[[SoT - Data-Oriented Programming (DOP) in Rust]]", "[[SoT - PRODOS (System Architecture)]]"]
@@ -44,16 +44,21 @@ Identity concepts are currently scattered across boundaries (Hostname in DNS, Ce
 ## 3. Operational Reality: The Human & Systemic Factor
 
 ### 3.1 The Inherent Complexity of Distributed Systems
+
 Cloud-native systems are rarely "up" or "down"; they exist in a state of partial degradation.
-- **Transient Faults:** Strategies must account for the fact that *nothing is ever completely right aboard a ship*. Retry logic and circuit breakers are mandatory, not optional.
+
+- **Transient Faults:** Strategies must account for the fact that _nothing is ever completely right aboard a ship_. Retry logic and circuit breakers are mandatory, not optional.
 - **Misconfigurations:** The primary attack vector is not zero-day exploits but simple misconfigurations (e.g., running containers as root, exposing secrets in env vars).
 
 ### 3.2 DevOps as an Organizational Challenge
+
 DevOps is not a role but a collaborative standard.
-- **Blurring Lines:** The distinction between "Dev" and "Ops" is artificial. *It is all just software now.*
+
+- **Blurring Lines:** The distinction between "Dev" and "Ops" is artificial. _It is all just software now._
 - **Shift-Left Security:** Vulnerabilities must be caught in the CI/CD pipeline (image scanning, static analysis) because fixing them in production is exponentially more expensive.
 
 ### 3.3 Managed Services (AKS/EKS) vs. Self-Hosted
+
 - **The Trade-off:** Managed services abstract the control plane (Master nodes) but introduce a "Shared Responsibility Model." You still own the workload security.
 - **Decision:** Default to Managed Services to minimize operational toil, unless specific kernel-level control is required.
 

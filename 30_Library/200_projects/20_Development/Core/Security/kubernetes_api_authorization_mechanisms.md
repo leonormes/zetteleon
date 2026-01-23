@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:56Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:51+00:00
+modified: 2026-01-23T18:09:25+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -39,16 +39,16 @@ To help you actively learn Kubernetes networking, here is a curated list of resp
 - Kubernetes Networking: The Complete Guide: This comprehensive guide covers the Kubernetes networking model, services, DNS, NAT, and dual-stack configurations. citeturn0search19
 - Cluster Networking Documentation: The official Kubernetes documentation provides in-depth explanations of cluster networking concepts and components. citeturn0search18
 
-2. Project-Based Learning Structure
+1. Project-Based Learning Structure
 
 - The Kubernetes Networking Guide: This resource offers detailed overviews of various Kubernetes networking components, aiding in the design and troubleshooting of cluster networking solutions. citeturn0search4
 - Awesome Kubernetes Projects: A curated list of Kubernetes-related projects that can serve as inspiration for your mini-projects, covering areas like networking, security, and storage. citeturn0search5
 
-3. The Feynman Technique Application
+1. The Feynman Technique Application
 
 - A Visual Guide to Kubernetes Networking Fundamentals: This article breaks down complex networking concepts into visual explanations, making it easier to understand and teach others. citeturn0search6
 
-4. Metacognition and Learning Journal
+1. Metacognition and Learning Journal
 
 - Kubernetes Networking Demystified: A Brief Guide: This guide provides a concise overview of Kubernetes networking, helping you identify areas that may require further exploration. citeturn0search15
 
@@ -65,7 +65,7 @@ To effectively visualize and understand network namespaces, consider the followi
 
 Think of a network namespace as a separate, isolated instance of the network stack within the Linux kernel. Each namespace has its own set of network interfaces, routing tables, and firewall rules, independent of other namespaces. This isolation ensures that processes within one namespace cannot directly interact with the network configurations of another, providing a secure and controlled environment.
 
-2. Practical Exploration
+1. Practical Exploration
 
 Engaging in hands-on activities can solidify your understanding:
 
@@ -75,7 +75,7 @@ Engaging in hands-on activities can solidify your understanding:
 
 For a step-by-step tutorial on exploring namespaces and virtual Ethernet networks, refer to this resource:
 
-3. Visual Learning
+1. Visual Learning
 
 Watching visual explanations can enhance comprehension. Consider viewing the following video, which introduces the basics of network namespaces in Linux:
 

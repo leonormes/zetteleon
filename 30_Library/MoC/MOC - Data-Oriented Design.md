@@ -1,25 +1,16 @@
 ---
-aliases:
-  - Cache Optimization
-  - DoD
-  - Performance Engineering
+aliases: [Cache Optimization, DoD, Performance Engineering]
 confidence: 5/5
 created: 2026-01-07T00:00:00Z
 epistemic: Physical Reality
 last_reviewed:
-modified: 2026-01-08T15:03:28+00:00
+modified: 2026-01-23T18:09:23+00:00
 purpose: To define the physical constraints of computing hardware (Cache, Memory, Layout) and how they dictate software performance.
 review_interval: 1 year
-see_also:
-  - "[[SoT - Rust Type Mechanics]]"
-  - "[[SoT - The Data-Centric Philosophy]]"
+see_also: ["[[SoT - Rust Type Mechanics]]", "[[SoT - The Data-Centric Philosophy]]"]
 source_of_truth: []
 status: Stable
-tags:
-  - cache
-  - data-oriented-design
-  - hardware
-  - performance
+tags: [cache, data-oriented-design, hardware, performance]
 title: MOC - Data-Oriented Design
 type: map
 uid:

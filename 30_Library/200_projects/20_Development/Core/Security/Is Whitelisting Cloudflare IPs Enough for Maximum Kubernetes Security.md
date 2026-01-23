@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-26T07:42:22Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:51+00:00
+modified: 2026-01-23T18:09:25+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -44,25 +44,25 @@ To significantly enhance your cluster's security posture beyond just IP whitelis
   - Consider enabling WAF capabilities directly on the ingress controller if you need more granular control or aren't using Cloudflare's WAF extensively.
   - Limit exposed ports and protocols.
 
-2. Securing Cluster Network Traffic
+1. Securing Cluster Network Traffic
 
 - Kubernetes Network Policies: Implement Network Policies to control traffic flow within the cluster. By default, all pods can communicate with each other. Use Network Policies to enforce least privilege communication, allowing only necessary connections between pods and namespaces (e.g., allow frontend pods to talk to backend pods, but deny direct access from frontend to database pods).
 - Service Mesh (Optional but Powerful): Tools like Istio or Linkerd can provide advanced traffic management, mTLS between services within the cluster, fine-grained access control, and observability.
 
-3. Securing the Kubernetes Control Plane (API Server)
+1. Securing the Kubernetes Control Plane (API Server)
 
 - Restrict API Server Access: Avoid exposing the Kubernetes API server directly to the public internet if possible. Use private endpoints, VPNs, bastion hosts, or strict firewall rules allowing access only from trusted administrative networks.
 - RBAC (Role-Based Access Control): Implement fine-grained RBAC policies. Adhere to the principle of least privilege for users, groups, and service accounts. Regularly audit permissions.
 - Strong Authentication: Use strong authentication methods like OIDC (OpenID Connect) integrated with your identity provider, or client certificates, instead of relying solely on static tokens.
 - Audit Logging: Enable Kubernetes audit logging and ship logs to a secure analysis system. Monitor for anomalous API activity.
 
-4. Securing Nodes and Runtime
+1. Securing Nodes and Runtime
 
 - Node Hardening: Use security-hardened operating systems (e.g., Bottlerocket, Talos Linux, or hardened standard distributions). Keep the OS and kubelet patched.
 - Restrict Node Access: Limit SSH access to nodes. Use strong authentication and authorization.
 - Runtime Security: Deploy runtime security tools (e.g., Falco, Sysdig Secure, Aqua Security) to detect anomalous behavior within containers and on nodes (e.g., unexpected process execution, file system changes, network connections).
 
-5. Securing Workloads (Containers & Pods)
+1. Securing Workloads (Containers & Pods)
 
 - Image Scanning: Integrate vulnerability scanning into your CI/CD pipeline (e.g., Trivy, Clair, Snyk, Grype) to detect known vulnerabilities in container images before deployment.
 - Minimal Base Images: Use minimal, vetted base images (like distroless or slimmed-down Alpine) to reduce the attack surface.
@@ -70,12 +70,12 @@ To significantly enhance your cluster's security posture beyond just IP whitelis
 - Security Contexts: Use Kubernetes SecurityContext to restrict pod and container capabilities (e.g., read-only root filesystem, dropping capabilities).
 - Pod Security Admission (PSA) / PodSecurityPolicy (PSP - deprecated): Enforce baseline security standards for pods cluster-wide (e.g., preventing privileged pods).
 
-6. Secrets Management
+1. Secrets Management
 
 - Use Dedicated Tools: Store sensitive information like API keys, passwords, and certificates in a dedicated secrets management solution (e.g., HashiCorp Vault, cloud provider secrets managers like AWS Secrets Manager, GCP Secret Manager, Azure Key Vault) rather than solely relying on native Kubernetes Secrets, especially for highly sensitive data.
 - Secure Native Secrets: If using Kubernetes Secrets, ensure they are encrypted at rest, restrict access via RBAC, and avoid committing them to Git.
 
-7. Monitoring, Logging, and Alerting
+1. Monitoring, Logging, and Alerting
 
 - Centralized Logging & Monitoring: Collect logs and metrics from all components (nodes, control plane, applications, ingress) into a centralized system.
 - Alerting: Set up alerts for security-relevant events (e.g., WAF triggers, excessive failed logins, Network Policy violations, runtime security alerts, suspicious API calls).

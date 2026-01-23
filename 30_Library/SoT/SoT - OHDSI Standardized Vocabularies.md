@@ -4,12 +4,10 @@ confidence: "High"
 created: 2026-01-06T18:52:00+00:00
 epistemic: "Standard"
 last_reviewed: 
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "To define the semantic layer of OHDSI, explaining how source codes are mapped to Standard Concepts."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - OHDSI and FHIR Convergence]]"
-  - "[[SoT - OMOP Common Data Model (CDM)]]"
+see_also: ["[[SoT - OHDSI and FHIR Convergence]]", "[[SoT - OMOP Common Data Model (CDM)]]"]
 source_of_truth: []
 status: "Active"
 tags: ["ohdsi", "ontology", "semantics", "vocabulary"]

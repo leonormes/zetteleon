@@ -1,18 +1,12 @@
 ---
-aliases:
-  - Azure Deployment Errors MOC
-  - AKS Deployment Guide
+aliases: [AKS Deployment Guide, Azure Deployment Errors MOC]
 created: 2026-01-08T12:10:00Z
 epistemic: index
 last_reviewed: 2026-01-08
-modified: 2026-01-08
+modified: 2026-01-23T18:09:22+00:00
 purpose: To serve as the central index for Azure Kubernetes Service (AKS) deployment errors, operational constraints, and related cloud-native concepts.
 status: active
-tags:
-  - moc
-  - azure
-  - aks
-  - deployment
+tags: [aks, azure, deployment, moc]
 title: MoC - Azure AKS Deployment
 type: map
 ---

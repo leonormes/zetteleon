@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-09-16T12:25:36Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -18,10 +18,10 @@ updated:
 version: ""
 ---
 
-Einstein’s 1915 extension of relativity:
+Einstein's 1915 extension of relativity:
 
 - **Gravity = Curvature of Spacetime**.
 - Key phenomena: gravitational lensing, gravitational waves, black holes, expansion of universe.
-- Replaces Newton’s "force" view with geometry of spacetime.
+- Replaces Newton's "force" view with geometry of spacetime.
 
 👉 Connects to: [[Special Relativity (Everyday Consequences)]], [[Block Universe and the Nature of Time]]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-30T10:39:13+00:00
 epistemic: "architecture"
 last_reviewed: "2025-12-30"
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "To define the Witness Pattern in infrastructure, enabling 'Proof-Carrying Code' that replaces implicit trust (strings) with explicit capabilities (types)."
 review_interval: "6 months"
 see_also: ["[[MOC - Type Theory]]", "[[SoT - Parse, Don't Validate]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[SoT - Type-Driven Infrastructure as Code]]"]

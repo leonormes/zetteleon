@@ -1,18 +1,21 @@
 ---
-title: "‎Gemini – direct access to Google AI"
-source: "https://gemini.google.com/share/c7f963be05e8"
 captured: "2026-01-23T11:18:18+00:00 2026-01-23T11:18:18+00:00"
+created: 2026-01-23T11:18:22+00:00
+modified: 2026-01-23T18:09:12+00:00
+source: "https://gemini.google.com/share/c7f963be05e8"
 status: "phase-1"
-tags:
-  - "input"
+tags: ["input"]
+title: LLM Codebase Architecture Guardrails
 type: "head"
 ---
+
 ## Phase 1: Ingestion (The Stream)
 
 > [!abstract] Context
 > Created with Gemini
 
 ### Raw Output / Content
+
 Objective: Investigate the most "utilitarian" workflows for an LLM to index and understand a large codebase while preserving the architectural intent and design philosophy (e.g., Data-Oriented Design vs. OOP). The goal is to identify how to prevent "perspective drift" (e.g., an LLM applying Javascript patterns to a Rust project or missing performance benefits of DOD).
 
 The Prompt Architect
@@ -26,11 +29,11 @@ Here is the critique of your mental model, followed by the specific "State-Trans
 ### I. Critique of the Mental Model
 
 1. **"Understanding" is a Fallacy; Fidelity is the Goal.**You cannot ask an LLM to "understand" Data-Oriented Design (DOD). "Understanding" implies a cognitive simulation of CPU cache lines and memory layout, which the model does not possess.
-	- *Correction:* You must provide **Contextual Anchors**. Instead of asking it to "think in DOD," you must explicitly **penalize** OOP patterns (e.g., "Deep inheritance hierarchies lower the probability of acceptance to 0%") and **reward** specific DOD indicators (e.g., "SoA (Structure of Arrays) over AoS (Array of Structures)").
+	- _Correction:_ You must provide **Contextual Anchors**. Instead of asking it to "think in DOD," you must explicitly **penalize** OOP patterns (e.g., "Deep inheritance hierarchies lower the probability of acceptance to 0%") and **reward** specific DOD indicators (e.g., "SoA (Structure of Arrays) over AoS (Array of Structures)").
 2. **"Indexing" is External, not Internal.**You mentioned "workflows for an LLM to index." The LLM does not index; it processes the context window.
-	- *Correction:* If you are using RAG (Retrieval-Augmented Generation), the *retriever* does the indexing. The Prompt must be designed to **evaluate the relevance of the retrieved chunks** against the architectural philosophy. The prompt must say: "If retrieved context uses OOP patterns, mark it as 'Legacy/Deprecated' and refactor to DOD in the output."
+	- _Correction:_ If you are using RAG (Retrieval-Augmented Generation), the _retriever_ does the indexing. The Prompt must be designed to **evaluate the relevance of the retrieved chunks** against the architectural philosophy. The prompt must say: "If retrieved context uses OOP patterns, mark it as 'Legacy/Deprecated' and refactor to DOD in the output."
 3. **The "Drift" is Probabilistic Regression.**"Perspective Drift" occurs because the token probability for `class` or `object` is higher than `struct` or `entity` in the general training corpus.
-	- *Correction:* We must artificially skew the weights. We need to define "Foreign Idioms" (e.g., JS patterns in Rust) as syntax errors for the purpose of the session.
+	- _Correction:_ We must artificially skew the weights. We need to define "Foreign Idioms" (e.g., JS patterns in Rust) as syntax errors for the purpose of the session.
 
 ---
 
@@ -39,7 +42,7 @@ Here is the critique of your mental model, followed by the specific "State-Trans
 To finalize the prompt for your specific use case, I need to know the **Input Vector**:
 
 1. **Context Loading Strategy:** Are you dumping the whole codebase into a massive context window (e.g., 1M+ tokens), or are you using a RAG system to fetch snippets? (The prompt differs: one requires "Global Consistency" checks, the other requires "Fragment Reconstruction").
-2. **The Specific Drift Pair:** Is the primary risk *Language Drift* (JS idioms in Rust) or *Paradigm Drift* (OOP in a Functional/DOD codebase)? (I will optimize for **Rust/DOD vs. OOP** in the draft below, as it is the hardest to maintain).
+2. **The Specific Drift Pair:** Is the primary risk _Language Drift_ (JS idioms in Rust) or _Paradigm Drift_ (OOP in a Functional/DOD codebase)? (I will optimize for **Rust/DOD vs. OOP** in the draft below, as it is the hardest to maintain).
 
 ---
 
@@ -92,11 +95,7 @@ This is the full prompt. Critique it
 
 Objective: Investigate the most "utilitarian" workflows for an LLM to index and understand a large codebase while preserving the architectural intent and design philosophy (e.g., Data-Oriented Design vs. OOP). The goal is to identify how to prevent "perspective drift" (e.g., an LLM applying Javascript patterns to a Rust project or missing performance benefits of DOD).
 
-  
-
 Key Investigative Pillars:
-
-  
 
 \- Structural vs. Semantic Mapping: \* Compare the effectiveness of Abstract Syntax Trees (AST) and Repository Intelligence Graphs (RIG) against standard vector embeddings.
 
@@ -114,15 +113,9 @@ Key Investigative Pillars:
 
 \- Reusable Context Standards: \* Research emerging standards for "Context Files" (like.ai-context,.clinerules, or automated architectural summaries) that allow an LLM to maintain a consistent "perspective" across different sessions.
 
-  
-
 Success Criteria:
 
-  
-
 The final report must provide a technical roadmap for building a context engine that understands code not as text, but as a structured system of intent. It should specifically address how to avoid poor-quality code generation resulting from the LLM defaulting to the most common (but potentially incorrect) programming paradigms found in its training data.
-
-  
 
 Here's the plan I've put together. Let me know if you need any changes before I start researching.
 
@@ -139,17 +132,17 @@ Here is the critique of your mental model, followed by the refined mechanics and
 ### I. Critique of the Mental Model
 
 1. **The "Lens" Problem is actually a "Weighting" Problem.**
-	- *Your Premise:* You want to "programmatically extract a codebase's philosophy."
-	- *The Flaw:* Philosophy is rarely explicit in code. A repo using Data-Oriented Design (DOD) doesn't declare `philosophy = DOD`. It simply *lacks* classes and *has* high struct usage. An LLM cannot "extract" this reliably without prior definitions.
-	- *Refinement:* You don't "extract" philosophy; you **assert** it as a constraint. The research should focus on how to *enforce* a philosophy (via linter rules as prompt context, or "Golden Sample" few-shot prompting), not how to discover it.
+	- _Your Premise:_ You want to "programmatically extract a codebase's philosophy."
+	- _The Flaw:_ Philosophy is rarely explicit in code. A repo using Data-Oriented Design (DOD) doesn't declare `philosophy = DOD`. It simply _lacks_ classes and _has_ high struct usage. An LLM cannot "extract" this reliably without prior definitions.
+	- _Refinement:_ You don't "extract" philosophy; you **assert** it as a constraint. The research should focus on how to _enforce_ a philosophy (via linter rules as prompt context, or "Golden Sample" few-shot prompting), not how to discover it.
 2. **AST vs. Semantic Mapping is a False Dichotomy.**
-	- *Your Premise:* Compare AST/RIG against vector embeddings.
-	- *The Flaw:* You need both. ASTs provide *precision* (symbol resolution), while embeddings provide *vibe* (semantic similarity). The real research question is the **handoff**: When does the retrieval system switch from vector search (fuzzy) to graph traversal (precise)?
-	- *Refinement:* Shift focus to "Hybrid Retrieval Orchestration"—how to use Embeddings to find the *neighborhood* and ASTs to find the *neighbors*.
+	- _Your Premise:_ Compare AST/RIG against vector embeddings.
+	- _The Flaw:_ You need both. ASTs provide _precision_ (symbol resolution), while embeddings provide _vibe_ (semantic similarity). The real research question is the **handoff**: When does the retrieval system switch from vector search (fuzzy) to graph traversal (precise)?
+	- _Refinement:_ Shift focus to "Hybrid Retrieval Orchestration"—how to use Embeddings to find the _neighborhood_ and ASTs to find the _neighbors_.
 3. **"Context Files" are Static; State is Dynamic.**
-	- *Your Premise:* Research standards like `.clinerules`.
-	- *The Flaw:* Static files suffer from "Context Rot" the moment code changes. A static rule says "Don't use OOP," but if 50% of the team commits OOP code, the LLM will drift because the *actual context* (the code) outweighs the *instructional context* (the rule).
-	- *Refinement:* Research "Living Context"—how CI/CD pipelines can auto-update the architectural summary based on recent commit diffs.
+	- _Your Premise:_ Research standards like `.clinerules`.
+	- _The Flaw:_ Static files suffer from "Context Rot" the moment code changes. A static rule says "Don't use OOP," but if 50% of the team commits OOP code, the LLM will drift because the _actual context_ (the code) outweighs the _instructional context_ (the rule).
+	- _Refinement:_ Research "Living Context"—how CI/CD pipelines can auto-update the architectural summary based on recent commit diffs.
 
 ### II. Refined Mechanics (The "How")
 
@@ -158,7 +151,7 @@ We need to instruct the research agent to look for **Actionable Architectures**,
 - **From:** "How can we extract philosophy?"
 - **To:** "How can we generate 'Anti-Patterns' from a codebase to serve as negative constraints?" (e.g., If the repo is Rust, generate a list of Pythonic patterns to explicitly ban).
 - **From:** "Analyze HyDE."
-- **To:** "Analyze 'Code-Specific HyDE'—generating a *fake* struct implementation to find the *real* one, rather than using natural language queries."
+- **To:** "Analyze 'Code-Specific HyDE'—generating a _fake_ struct implementation to find the _real_ one, rather than using natural language queries."
 
 ---
 
@@ -218,6 +211,7 @@ leonormes@gmail.com
 ---
 
 ## Phase 2: The Gate (4D Filter)
+
 - [ ] **Do:** < 2 mins?
 - [ ] **Delegate:** Who?
 - [ ] **Defer:** Move to Hangar or SoT?
@@ -226,6 +220,7 @@ leonormes@gmail.com
 ---
 
 ## Phase 5: The Scribe (#SAVESTATE)
+
 - **The Conflict:**
 - **The Current State:**
 - **The Next Test:**

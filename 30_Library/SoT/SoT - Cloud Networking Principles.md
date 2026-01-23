@@ -3,17 +3,17 @@ aliases: ["Cloud Networking Requirements", "Network Architecture Principles", "N
 confidence: "High"
 created: 2026-01-09T22:08:05+00:00
 epistemic: "Foundational"
-modified: 2026-01-12T16:13:24+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To define the invariant principles and requirements of modern cloud networking, independent of specific vendor implementations."
 review_interval: "1 year"
 see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - Secure Cross-Cloud Data Transport]]"]
 status: "Permanent"
 tags: ["architecture", "cloud", "networking", "principles", "security"]
-title: 1. Definitive Statement
+title: SoT - Cloud Networking Principles
 type: "SoT"
 ---
 
-# 1. Definitive Statement
+## 1. Definitive Statement
 
 > [!definition] The Network Mandate
 > The goal of Cloud Networking is to transport data from **Point A to Point B** while satisfying five competing constraints: **Reliability** (it gets there), **Security** (only the right people see it), **Performance** (it gets there fast), **Efficiency** (it costs little), and **Observability** (we know what happened).
@@ -22,24 +22,24 @@ type: "SoT"
 
 ---
 
-# 2. The Connectivity Layer (Identity & Routing)
+## 2. The Connectivity Layer (Identity & Routing)
 
 Before data can move, entities must be identified and paths determined.
 
-## 2.1 Addressing & Identity
+### 2.1 Addressing & Identity
 
 - **Unique Identification:** Every endpoint must have a unique ID (IP Address).
 - **Name Resolution (DNS):** Humans need names (`gmail.com`); computers need numbers (`142.250.x.x`). The system must map these dynamically, allowing services to change location without changing identity.
 - **Public vs. Private:** To conserve global address space and enhance security, networks use **Private Addressing** (RFC1918) for internal traffic and **NAT (Network Address Translation)** for egress.
 
-## 2.2 Routing Primitives
+### 2.2 Routing Primitives
 
 - **Path Determination:** Logic to decide the "next hop" for a packet.
 - **Multiplexing:** Multiple logical conversations sharing the same physical wire.
 
 ---
 
-# 3. The Reliability Layer (Correctness)
+## 3. The Reliability Layer (Correctness)
 
 Network infrastructure is inherently unreliable (packet loss, corruption). The network stack must synthesize reliability.
 
@@ -50,16 +50,16 @@ Network infrastructure is inherently unreliable (packet loss, corruption). The n
 
 ---
 
-# 4. The Security Layer (Trust & Isolation)
+## 4. The Security Layer (Trust & Isolation)
 
 In a Zero-Trust world, the network is the primary enforcement boundary.
 
-## 4.1 Isolation (The Blast Radius)
+### 4.1 Isolation (The Blast Radius)
 
 - **Segmentation:** Logically separating networks (VPC/VNet) so a breach in one does not compromise another.
 - **Tenant Isolation:** Ensuring Customer A's traffic is cryptographically invisible to Customer B on shared hardware.
 
-## 4.2 Traffic Controls
+### 4.2 Traffic Controls
 
 - **Access Control:** "Default Deny" policies (Security Groups, NACLs) that explicitly permit traffic based on Identity (Source IP/Service Tag) and Intent (Port/Protocol).
 - **Confidentiality:** Encryption in transit (TLS/VPN) prevents eavesdropping on untrusted intermediate hops.
@@ -67,7 +67,7 @@ In a Zero-Trust world, the network is the primary enforcement boundary.
 
 ---
 
-# 5. The Performance Layer (Speed & Capacity)
+## 5. The Performance Layer (Speed & Capacity)
 
 Performance is a function of **Latency** (Time to First Byte) and **Throughput** (Bytes per Second).
 
@@ -77,7 +77,7 @@ Performance is a function of **Latency** (Time to First Byte) and **Throughput**
 
 ---
 
-# 6. The Resilience Layer (Scale & Availability)
+## 6. The Resilience Layer (Scale & Availability)
 
 Cloud systems must survive the inevitable failure of components.
 
@@ -87,7 +87,7 @@ Cloud systems must survive the inevitable failure of components.
 
 ---
 
-# 7. The Operational Layer (Control & Cost)
+## 7. The Operational Layer (Control & Cost)
 
 A network that cannot be observed cannot be managed.
 
@@ -102,7 +102,7 @@ A network that cannot be observed cannot be managed.
 
 ---
 
-# 8. The Trade-Offs (Design Wisdom)
+## 8. The Trade-Offs (Design Wisdom)
 
 Every architectural choice is a trade-off:
 

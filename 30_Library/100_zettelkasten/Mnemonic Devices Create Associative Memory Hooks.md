@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T10:06:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "Explain how mnemonics aid memory through association."
 review_interval: "90"
 see_also: ["Memory Enables Learning by Storing Experiences for Future Use.md"]
@@ -24,7 +24,7 @@ updated:
 **Common types:**
 
 - **Acronyms**: ROYGBIV for rainbow colors
-- **Rhymes**: "Thirty days hath September..."
+- **Rhymes**: "Thirty days hath September…"
 - **Alliteration**: "Richard of York gave battle in vain" (rainbow colors)
 - **Visual imagery**: Associating a person's name with a striking visual feature
 

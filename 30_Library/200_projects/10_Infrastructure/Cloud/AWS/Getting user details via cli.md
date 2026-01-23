@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:53Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:56+00:00
+modified: 2026-01-23T18:09:27+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -55,7 +55,7 @@ aws iam list-attached-user-policies --user-name leon.ormes
 aws iam get-user-policy --user-name leon.ormes --policy-name [policy-name]
 ```
 
-3. If you prefer a single command that retrieves most of the user's information, you can use the `get-account-authorization-details` command with a filter:
+1. If you prefer a single command that retrieves most of the user's information, you can use the `get-account-authorization-details` command with a filter:
 
 ```sh
 aws iam get-account-authorization-details --filter User --query 'UserDetailList[?UserName==`leon.ormes`]'
@@ -98,7 +98,7 @@ The JSON document describes the permissions associated with the AWS IAM user `le
             - Action: Actions allowed or denied (e.g., `route53:ListResourceRecordSets`).
             - Resource: Resources the actions apply to, specified using ARNs.
             - Sid (optional): Statement identifier for easy reference.
-7. GroupList: Groups the user belongs to. It’s empty here, indicating no group memberships.
+7. GroupList: Groups the user belongs to. It's empty here, indicating no group memberships.
 8. AttachedManagedPolicies: Managed policies attached to the user. These are predefined AWS policies that grant various permissions:
 
     - AmazonRoute53FullAccess: Full access to Route 53 services.
@@ -209,7 +209,7 @@ aws iam get-policy-version --policy-arn <PolicyArn> --version-id <VersionId>
 ```
 
 1. Evaluate Overlap:
-    - Policies with `Allow` effects override `Deny` only if there’s no explicit `Deny` elsewhere.
+    - Policies with `Allow` effects override `Deny` only if there's no explicit `Deny` elsewhere.
 2. Simulate Permissions:
     - Use the AWS IAM Policy Simulator to evaluate which actions and resources you can access: [IAM Policy Simulator](https://policysim.aws.amazon.com/).
 

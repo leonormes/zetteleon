@@ -5,7 +5,7 @@ confidence: ""
 created: 2026-01-08T08:29:19+00:00
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:39+00:00
+modified: 2026-01-23T18:09:16+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -16,7 +16,7 @@ title: "Video - How the Algorithm Hijacked Monkey's Brain"
 type: ""
 ---
 
-The video, "How the Algorithm Hijacked Monkey’s Brain (Why Monkey Can’t Learn Online)," uses an allegorical "Monkey" to illustrate the systemic friction between human cognitive evolution and modern digital recommendation engines. It frames the failure of online learning not as a lack of discipline, but as a structural mismatch between the brain's learning mechanisms and the algorithm's profit motives.
+The video, "How the Algorithm Hijacked Monkey's Brain (Why Monkey Can't Learn Online)," uses an allegorical "Monkey" to illustrate the systemic friction between human cognitive evolution and modern digital recommendation engines. It frames the failure of online learning not as a lack of discipline, but as a structural mismatch between the brain's learning mechanisms and the algorithm's profit motives.
 
 ## 1. The Core Conflict: Engagement vs. Education
 
@@ -24,7 +24,7 @@ The underlying logic of the digital platform (the "Algorithm") is designed for r
 
 **The Seduction of "Sugar":** The algorithm prioritises "mental candy"—quick, dopamine-heavy content—over "vegetables" (deep, structured learning) [03:57].
 
-**The Feedback Loop:** By tracking pauses, skips, and clicks, the algorithm constructs a model of the user’s immediate desires, feeding a cycle of entertainment disguised as education [03:08].
+**The Feedback Loop:** By tracking pauses, skips, and clicks, the algorithm constructs a model of the user's immediate desires, feeding a cycle of entertainment disguised as education [03:08].
 
 ## 2. Mental Models of Learning Failure
 

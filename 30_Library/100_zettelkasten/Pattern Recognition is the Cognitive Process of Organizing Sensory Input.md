@@ -4,7 +4,7 @@ confidence: "0.95"
 created: 2025-11-01T12:00:01Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "To define the fundamental cognitive process of pattern recognition."
 review_interval: "90"
 see_also: ["[[The Brain is a Pattern-Seeking Engine]]"]

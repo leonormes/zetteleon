@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-10-11T08:08:07Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T10:49:57+00:00
+modified: 2026-01-23T18:09:28+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -43,7 +43,7 @@ This curriculum assumes a foundational knowledge of Kubernetes concepts (Pods, S
 |:------------------------------------------------------------- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:--------------- |
 | **2.1 Internal Naming and Zones**                              | All internal records fall under a single **cluster domain** (e.g., `cluster.local`) [15]. CoreDNS must be configured with the `kubernetes` plug-in enabled for this domain, as well as the zones for reverse lookups (`REVERSE_CIDRS` or `in-addr.arpa ip6.arpa`) [16].                                                                         | [15, 16]         |
 | **2.2 Cluster IP Services (Private Load Balancing)**           | Cluster IP Services provide a **stable Virtual IP (VIP)** address [17]. The DNS specification requires an **A record** for the VIP at the name format: `service.namespace.svc.cluster-domain` [18]. PTR records should also be generated for the cluster IP [19].                                                                               | [17-19]          |
-| **2.3 Headless Services (Private Client-Side Load Balancing)** | Headless Services have `clusterIP: None` and rely on the client for load balancing [20]. CoreDNS responds to queries for these services with **multiple A records** (one for each endpoint IP) and **SRV records** (for each named port) [19, 21]. SRV records use underscores (e.g., `_http._tcp.<service>...`) and include the port [21, 22]. | [19-22]          |
+| **2.3 Headless Services (Private Client-Side Load Balancing)** | Headless Services have `clusterIP: None` and rely on the client for load balancing [20]. CoreDNS responds to queries for these services with **multiple A records** (one for each endpoint IP) and **SRV records** (for each named port) [19, 21]. SRV records use underscores (e.g., `_http._tcp.<service>…`) and include the port [21, 22]. | [19-22]          |
 | **2.4 Reverse DNS Lookups (PTR)**                              | The `kubernetes` plug-in needs the service CIDR or the entire reverse zones (`in-addr.arpa`, `ip6.arpa`) configured [16]. If no match is found, the **`fallthrough`** option should be configured to pass the request down the plug-in chain [23].                                                                                              | [16, 23]         |
 | **2.5 Corefile Optimization**                                  | A better configuration involves splitting the server block into two: one handling **cluster-local domains** (with `kubernetes`) and a second handling the root zone (`.`) (with `forward` and `cache`). This prevents the redundant caching of in-cluster names and improves operational efficiency [24, 25].                                   | [24, 25]         |
 

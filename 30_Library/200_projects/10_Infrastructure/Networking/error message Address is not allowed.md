@@ -5,7 +5,7 @@ created: 2025-03-17T02:57:22Z
 epistemic: ""
 id: "This error message Address is not allowed"
 last_reviewed: ""
-modified: 2026-01-08T10:49:52+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -58,7 +58,7 @@ ping public-ingress-ingress-nginx-controller-admission.public-ingress.svc
 kubectl exec -n kube-system -it $(kubectl get pods -n kube-system -l k8s-app=kube-dns -o jsonpath='{.items[0].metadata.name}') -- nslookup public-ingress-ingress-nginx-controller-admission.public-ingress.svc
 ```
 
-2. Check Network Policies:
+1. Check Network Policies:
 
    - Inspect the network policies in the `public-ingress` namespace:
 
@@ -69,7 +69,7 @@ kubectl get networkpolicies -n public-ingress
 - Ensure that network policies aren't blocking connections from your jumpbox's IP range or the namespace where your `kubectl` client is running.
 - If you have any global network policies, verify those as well.
 
-3. Test Connectivity from a Pod:
+1. Test Connectivity from a Pod:
 
    - Create a temporary pod within the EKS cluster and try to connect to the webhook service from inside the pod:
 
@@ -96,13 +96,13 @@ kubectl get endpoints -n public-ingress public-ingress-ingress-nginx-controller-
 kubectl get pods -n public-ingress -l app.kubernetes.io/name=ingress-nginx -l app.kubernetes.io/component=admission-webhook
 ```
 
-5. Firewall Rules:
+1. Firewall Rules:
 
    - Examine the firewall rules on your jumpbox and within the VPC where your EKS cluster resides.
    - Ensure that outbound traffic from the jumpbox to the cluster's internal network (specifically port 443) is allowed.
    - Check security groups associated with the worker nodes.
 
-6. Kubeconfig Context:
+2. Kubeconfig Context:
 
    - Double check that the kubeconfig file being used by kubectl, is pointing to the correct cluster.
    - Check your current context:
@@ -113,7 +113,7 @@ kubectl config current-context
 
 - Verify the server address in the kubeconfig.
 
-7. Ingress Nginx Controller Version:
+1. Ingress Nginx Controller Version:
 
    - Sometimes very old or very new versions of the ingress controller, can have issues. Verify the deployed version, and compare it to the current stable version.
 

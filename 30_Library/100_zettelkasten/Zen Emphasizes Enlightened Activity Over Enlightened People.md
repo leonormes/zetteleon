@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T12:20:08Z
 epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-08T10:49:58+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: "To explain the Zen focus on action over status."
 review_interval: "90"
 see_also: ["[[Zen Defines Enlightenment as a Process Not a Destination]]"]

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-10-28T09:00:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "To explain why negative stimuli often have a greater psychological impact than positive ones."
 review_interval: ""
 see_also: []

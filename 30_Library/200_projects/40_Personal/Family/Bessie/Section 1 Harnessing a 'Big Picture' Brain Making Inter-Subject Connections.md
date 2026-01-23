@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-06-20T06:41:19Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:48+00:00
+modified: 2026-01-23T18:09:24+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -18,7 +18,7 @@ updated:
 version: ""
 ---
 
-A key strength in Bessie’s learning profile is her ability to see the bigger picture and make connections between topics that others might not. This is a powerful asset that can transform her learning from a series of separate subjects into a rich, interconnected web of knowledge. By actively looking for these links, especially between subjects traditionally seen as opposites, we can deepen her understanding, boost her creativity, and make learning more engaging. This approach turns her entire GCSE curriculum into a single, coherent project.
+A key strength in Bessie's learning profile is her ability to see the bigger picture and make connections between topics that others might not. This is a powerful asset that can transform her learning from a series of separate subjects into a rich, interconnected web of knowledge. By actively looking for these links, especially between subjects traditionally seen as opposites, we can deepen her understanding, boost her creativity, and make learning more engaging. This approach turns her entire GCSE curriculum into a single, coherent project.
 
 Here are some examples of how to foster these connections:
 

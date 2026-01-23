@@ -5,7 +5,7 @@ confidence:
 created: 2025-12-09T03:45:42Z
 epistemic:
 last_reviewed:
-modified: 2026-01-08T10:50:02+00:00
+modified: 2026-01-23T18:09:15+00:00
 purpose:
 review_interval:
 see_also: []
@@ -98,7 +98,7 @@ When asked to create infrastructure:
 
 I've attached a naming convention guide which in an ideal world we'd agree and use - but it's not a law so if there are issues we can discuss. Worth noting the tags in black though as there is policy that will prevent deployments if not included at resource group level.
 
-I've "reserved" the Internal IP Space of 10.200.80.0/21 (10.200.80.0 - 10.200.88.255) for the FitFile vnet ("vnet-default-fitf-uks-01"). In an ideal world the network would go in a resource group called "rg-**vnet**-fitf-uks-01" and 'everything else' in a "rg-**infra**-fitf-uks-01"....again though, not a law so can discuss if issues.
+I've "reserved" the Internal IP Space of 10.200.80.0/21 (10.200.80.0 - 10.200.88.255) for the FitFile vnet ("vnet-default-fitf-uks-01"). In an ideal world the network would go in a resource group called "rg-**vnet**-fitf-uks-01" and 'everything else' in a "rg-**infra**-fitf-uks-01"….again though, not a law so can discuss if issues.
 
 If you wanted to, we can create the network (and peer) or you can just create it and we'll peer it manually after you have. Easy either way.
 

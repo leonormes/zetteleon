@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-09T11:21:13Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:57+00:00
+modified: 2026-01-23T18:09:28+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -27,7 +27,7 @@ Before FITFILE deploys into your Azure subscription, we want to confirm that:
 - The user has the right permissions on the target subscription
 - Azure Resource Manager (ARM) is reachable from your network
 
-This avoids “last‑minute surprises” (e.g. Conditional Access blocking `az login`) during the deployment window.
+This avoids "last‑minute surprises" (e.g. Conditional Access blocking `az login`) during the deployment window.
 
 ---
 
@@ -40,7 +40,7 @@ This avoids “last‑minute surprises” (e.g. Conditional Access blocking `az 
 
 **Your Infrastructure / Jumpbox Operator**
 
-- Runs FITFILE’s preflight script `run_me_first.sh` on the jumpbox
+- Runs FITFILE's preflight script `run_me_first.sh` on the jumpbox
 - Shares the script output with FITFILE
 
 FITFILE will provide the script and support you in interpreting the results.
@@ -66,7 +66,7 @@ If you later change Conditional Access, firewall rules, or user roles, we recomm
 
 ### 3.1 Conditional Access: Test Azure CLI from the Jumpbox
 
-Use the **Conditional Access “What If”** tool to make sure Azure CLI logins from the _Azure environment_ (where the jumpbox will run) are not blocked.
+Use the **Conditional Access "What If"** tool to make sure Azure CLI logins from the _Azure environment_ (where the jumpbox will run) are not blocked.
 
 **Inputs for the What‑If test:**
 
@@ -82,13 +82,13 @@ Use the **Conditional Access “What If”** tool to make sure Azure CLI logins 
 - **Client type:**
   - Modern client / mobile & desktop apps (Azure CLI uses this path)
 
-**What you’re looking for:**
+**What you're looking for:**
 
 - No Conditional Access policy should **block** this scenario.
-- It’s fine to **require MFA** or similar controls.
-- If a policy blocks access, please adjust it (e.g. exception for the _Azure spoke egress_ named location, or a dedicated “deployment” policy that allows Azure CLI for this user and IP range).
+- It's fine to **require MFA** or similar controls.
+- If a policy blocks access, please adjust it (e.g. exception for the _Azure spoke egress_ named location, or a dedicated "deployment" policy that allows Azure CLI for this user and IP range).
 
-### 3.2 RBAC: Confirm the Deployment User’s Role
+### 3.2 RBAC: Confirm the Deployment User's Role
 
 On the **target subscription**:
 
@@ -97,7 +97,7 @@ On the **target subscription**:
 - Ensure they have at least one of:
   - **Contributor**
   - **Owner**
-  - Or an agreed **custom “deployment” role** with equivalent permissions
+  - Or an agreed **custom "deployment" role** with equivalent permissions
 
 If you use **PIM (Privileged Identity Management)**:
 
@@ -128,7 +128,7 @@ Your jumpbox / bastion operator should run the script FITFILE provides:
    - Your **Subscription ID** (GUID)
 5. **Complete the Azure device code login:**
    - The script shows a code and a URL (e.g. `https://microsoft.com/devicelogin`)
-   - Open the URL in a browser, enter the code, and sign in **as the same user** you’re using on the jumpbox
+   - Open the URL in a browser, enter the code, and sign in **as the same user** you're using on the jumpbox
 
 ### What the Script Checks
 
@@ -142,11 +142,11 @@ The script will:
 - Confirm:
   - The specified **subscription is visible** and can be selected
   - The user has a suitable **role** (Owner/Contributor or agreed custom role)
-- Perform a simple **ARM API** “smoke test”
+- Perform a simple **ARM API** "smoke test"
 
 At the end it will print either:
 
-- **“Preflight checks PASSED”**–you are ready for FITFILE deployment
+- **"Preflight checks PASSED"**–you are ready for FITFILE deployment
 - Or a clear **error message** indicating what failed (network, login, role, etc.)
 
 ---

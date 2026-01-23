@@ -4,20 +4,20 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "principle"
 last_reviewed: "2025-12-19"
-modified: 2026-01-11T12:52:01+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "To explain the market dynamics that allow simple, less-correct systems to dominate complex, theoretically pure ones."
 review_interval: "12 months"
 see_also: ["[[SoT - Pragmatism vs Rigour in Software]]"]
 source_of_truth: []
 status: "stable"
 tags: ["market-dynamics", "SoftwareEngineering", "TheHuman/Philosophy"]
-title: "2. The Core Problem: The Market's Selection Filter"
+title: SoT - The Worse is Better Philosophy
 type: "SoT"
 uid: 
 updated: 
 ---
 
-# 2. The Core Problem: The Market's Selection Filter
+## 2. The Core Problem: The Market's Selection Filter
 
 The software market does not optimize for theoretical purity or correctness; it optimizes for velocity and adoptability. This creates a selection pressure that favors systems that are "good enough" and easy to start with.
 
@@ -29,11 +29,11 @@ The software market does not optimize for theoretical purity or correctness; it 
 
 ---
 
-# 3. The Architecture: The Viral Adoptability Model
+## 3. The Architecture: The Viral Adoptability Model
 
 The success of "Worse is Better" systems is not an accident; it's a predictable outcome based on a few key architectural traits.
 
-## A. The Mechanics of Spread
+### A. The Mechanics of Spread
 
 1. **Simplicity of Implementation:** The developer can understand and replicate the system easily. This is more important than the simplicity of the interface for the end-user.
 2. **Sacrifice Correctness:** The system is willing to make trade-offs, omitting features or corner-case correctness for the sake of implementation simplicity.
@@ -42,9 +42,9 @@ The success of "Worse is Better" systems is not an accident; it's a predictable 
 
 ---
 
-# 4. Protocols & Implementation
+## 4. Protocols & Implementation
 
-## Protocol: Applying "Worse is Better" for Project Success
+### Protocol: Applying "Worse is Better" for Project Success
 
 _Use when launching a new open-source project, internal tool, or library._
 
@@ -60,7 +60,7 @@ _Use when launching a new open-source project, internal tool, or library._
 
 ---
 
-# 5. Minimum Viable Understanding (MVU)
+## 5. Minimum Viable Understanding (MVU)
 
 1. **Speed of adoption is the primary predictor of success.**
 2. **To maximize adoption, simplify the implementation above all else.**
@@ -68,11 +68,11 @@ _Use when launching a new open-source project, internal tool, or library._
 
 ---
 
-# 6. Open Questions & Tensions
+## 6. Open Questions & Tensions
 
 - **Tension:** **The Maintenance Trap.** While "Worse is Better" excels at initial adoption, it can lead to systems that are incredibly expensive to maintain and evolve over the long term, as the initial "incorrect" assumptions become deeply embedded.
 - **Tension:** **The Security Cliff.** The "Worse is Better" approach often sacrifices security and robustness for speed, leading to fragile systems that require an entire ecosystem of "band-aids" (firewalls, static analysis, extensive testing) to function safely.
 
-# 7. Related Components
+## 7. Related Components
 
 - [[SoT - Pragmatism vs Rigour in Software]]

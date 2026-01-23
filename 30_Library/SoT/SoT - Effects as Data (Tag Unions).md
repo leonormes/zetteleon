@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T09:29:36Z
 epistemic: "pattern"
 last_reviewed: 
-modified: 2026-01-08T10:49:43+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "To explain the 'Effects as Data' pattern using Tag Unions, decoupling description from execution."
 review_interval: "1 year"
 see_also: ["[[MOC - Type Theory]]", "[[SoT - Data-Centric Software Engineering]]"]

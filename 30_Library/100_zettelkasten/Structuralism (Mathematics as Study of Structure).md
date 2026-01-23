@@ -4,7 +4,7 @@ confidence: "0.7"
 created: 2025-11-01T11:22:13Z
 epistemic: "opinion"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: ""
 review_interval: "90"
 see_also: ["[[Abstraction and Generalization Are Core Mathematical Methods]]", "[[Mathematics Is Frequently Described as the Science of Patterns]]"]
@@ -20,7 +20,7 @@ version: "1"
 
 **Summary:** Structuralism is a modern philosophical view that holds mathematics to be the study of abstract structures or patterns. The nature of individual objects within a structure is irrelevant; what matters is the web of relationships between them.
 
-**Core Thesis:** The subject matter of arithmetic, for instance, is not the individual numbers themselves, but the structure of the natural number sequence (0, 1, 2,...) defined by the "successor" relation. Any system that instantiates this structure is the natural numbers. Identity is determined by position within relational structure.
+**Core Thesis:** The subject matter of arithmetic, for instance, is not the individual numbers themselves, but the structure of the natural number sequence (0, 1, 2,…) defined by the "successor" relation. Any system that instantiates this structure is the natural numbers. Identity is determined by position within relational structure.
 
 **First Principle:** The elucidation of abstract structure.
 

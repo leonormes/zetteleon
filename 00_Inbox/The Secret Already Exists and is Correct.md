@@ -1,6 +1,10 @@
-*Shared from Pieces (https://pieces.app) by Leon Ormes (leonormes@gmail.com) on Friday Jan 23, 2026 - 2:01 PM*
 ---
-## The Secret Already Exists and is Correct!
+created: 2026-01-23T14:01:20+00:00
+modified: 2026-01-23T19:27:37+00:00
+title: The Secret Already Exists and is Correct
+---
+
+## The Secret Already Exists and is Correct
 
 You don't need to copy anything - the `VaultDynamicSecret` you created earlier **successfully generated the secret**. The error you're seeing is because `argocd-acr-pull-secret` is **not a Docker config secret** - it's an ArgoCD Helm repository secret with a different structure.
 
@@ -33,7 +37,7 @@ kubectl -n spicedb get pods -w
 
 ---
 
-## Verify the Credentials are Actually Valid
+## Verify the Credentials Are Actually Valid
 
 While waiting for pods to recreate, test if the credentials in the secret actually work:
 

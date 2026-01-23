@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T00:00:00Z
 epistemic: "model"
 last_reviewed: "2025-12-19"
-modified: 2026-01-08T10:49:41+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "To explain the mechanics, rules, and theoretical critique of Rust's ownership, borrowing, and lifetime system."
 review_interval: "12 months"
 see_also: ["[[SoT - Quantitative Type Theory and Graded Modalities]]", "[[SoT - Region-Based Memory Management]]", "[[SoT - Rust's Design Philosophy]]"]
@@ -33,7 +33,7 @@ The majority of critical bugs and security vulnerabilities in systems programmin
 
 The entire system can be derived from three core rules that the borrow checker statically enforces.
 
-1. **Each value has a variable that’s called its _owner_.**
+1. **Each value has a variable that's called its _owner_.**
 2. **There can only be one owner at a time.**
     - When a value is assigned to another variable or passed to a function, ownership is _moved_. The original variable is no longer valid.
     - `let s1 = String::from("hello"); let s2 = s1;` // `s1` is now invalid.

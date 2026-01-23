@@ -4,12 +4,10 @@ confidence: "5/5"
 created: 2025-07-23T13:42:04Z
 epistemic: "Technical/Architectural"
 last_reviewed: 
-modified: 2026-01-08T10:49:45+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To define the architecture for managing TLS certificates in private EKS clusters using AWS Private CA and Cert-Manager."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - Cloud Networking Core Components]]"
-  - "[[SoT - Kubernetes Networking & DNS]]"
+see_also: ["[[SoT - Cloud Networking Core Components]]", "[[SoT - Kubernetes Networking & DNS]]"]
 source_of_truth: []
 status: "Active"
 tags: ["aws", "cert-manager", "certificates", "eks", "security", "tls"]

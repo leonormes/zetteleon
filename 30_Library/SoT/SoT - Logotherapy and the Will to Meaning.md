@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To serve as the definitive Source of Truth for Viktor Frankl's Logotherapy, defining the pursuit of meaning as the primary human drive and offering actionable protocols for resilience."
 review_interval: "12 months"
 see_also: ["[[Existentialism - Existence Precedes Essence]]", "[[SoT - Identity-Based Habit Formation]]", "[[SoT - Process Primacy (Systems Over Goals)]]"]

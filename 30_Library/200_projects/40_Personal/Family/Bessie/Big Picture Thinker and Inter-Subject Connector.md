@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-06-20T15:26:10Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:49+00:00
+modified: 2026-01-23T18:09:24+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -28,13 +28,13 @@ Bessie demonstrates exceptional ability to see connections between different sub
 
 ### Interleaving for Connection Building
 
-- [[Learn Like a Pro]] - "Interleaving helps you not only learn the concepts you're studying, but also understand the differences between them... varying or mixing different concepts"
+- [[Learn Like a Pro]] - "Interleaving helps you not only learn the concepts you're studying, but also understand the differences between them… varying or mixing different concepts"
 
 ### External Brain for Pattern Recognition
 
 ### ADHD Default Mode Network Benefits
 
-- [[Adhd 2.0]] - "It is in the DMN mode that you can daydream... or make interesting connections between concepts (helpful when appreciating riddles or jokes or solving crossword puzzles, or coming up with the Next Big...)"
+- [[Adhd 2.0]] - "It is in the DMN mode that you can daydream… or make interesting connections between concepts (helpful when appreciating riddles or jokes or solving crossword puzzles, or coming up with the Next Big…)"
 
 ## Character Development Connection
 

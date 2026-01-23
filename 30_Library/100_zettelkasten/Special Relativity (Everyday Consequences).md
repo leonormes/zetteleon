@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-09-16T12:25:36Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -22,7 +22,7 @@ Published in 1905, deals with constant velocity physics.
 
 - **Unbreakable Speed Limit**: Speed of light $c$.
 - **Time Dilation & Length Contraction** confirmed repeatedly.
-- **Relativity of Simultaneity** undermines Newton’s absolute time.
+- **Relativity of Simultaneity** undermines Newton's absolute time.
 - Forms basis of [[Mass-Energy Equivalence (E=mc²)]].
 
 👉 Connects to: [[Two Postulates of Special Relativity]], [[General Relativity (Gravity as Curvature)]]

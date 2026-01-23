@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-18T18:37:44Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:48+00:00
+modified: 2026-01-23T18:09:23+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -39,7 +39,7 @@ The five key aspects that constitute a good plan are:
 
 A healthy plan begins by facing the current financial landscape and assigning every dollar you currently possess a specific job [33, 35-38].
 
-- **Question:** _What does this money need to do before I’m paid again?_ [31, 37, 39].
+- **Question:** _What does this money need to do before I'm paid again?_ [31, 37, 39].
 - **Focus:** This requires assigning money to immediate obligations, such as housing, food, and bills that are due before the next income arrives [37, 40, 41]. By addressing reality first, you gain a clear view of where you stand and what you have left to spend with confidence [37, 38].
 
 ### 2. Stability: Preparing for True Expenses
@@ -53,7 +53,7 @@ A good budget must incorporate non-monthly, irregular expenses to ensure financi
 
 Financial health is marked by a buffer that separates the time money is earned from the time it is spent, minimizing anxiety tied to the pay cycle [32, 60-63].
 
-- **Question:** _What can I set aside for next month’s spending?_ [39, 62, 63].
+- **Question:** _What can I set aside for next month's spending?_ [39, 62, 63].
 - **Focus:** The goal is to reach a state of **Resilience** by fully funding the subsequent month's expenses using income received in the current month, effectively **living on last month's money** [46, 61, 62, 64-66]. This cushion removes the exhausting necessity of timing bills to paychecks and transforms financial emergencies into minor inconveniences [19, 32, 62, 67-71]. A commonly targeted metric for this buffer is the **Age of Money (AoM)**, where an age of **30–50 days** indicates stability [65, 66, 72, 73].
 
 ### 4. Creation: Prioritizing Aspirations

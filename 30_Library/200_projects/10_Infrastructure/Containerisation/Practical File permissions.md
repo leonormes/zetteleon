@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:53Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:55+00:00
+modified: 2026-01-23T18:09:27+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -103,7 +103,7 @@ Let's clarify the breakdown of the 10-character permission string (e.g., `-rw-r-
   | `s` | Socket |
   | `p` | Named pipe (FIFO) |
 
-2. Next 9 Characters: Permissions split into 3 groups of 3 (owner, group, others):
+1. Next 9 Characters: Permissions split into 3 groups of 3 (owner, group, others):
    - Characters 2–4: Owner permissions (`rw-` in your example).
    - Characters 5–7: Group permissions (`r--`).
    - Characters 8–10: Others/World permissions (`r--`).

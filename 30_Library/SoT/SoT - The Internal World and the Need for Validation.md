@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T18:33:11Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "To define the dynamics of the neurodivergent 'Internal World,' the fragility of mental schemas, and the psychological impact of external validation."
 review_interval: "12 months"
 see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]", "[[SoT - Rejection Sensitive Dysphoria (RSD)]]"]

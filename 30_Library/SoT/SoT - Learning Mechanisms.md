@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-19T10:17:22Z
 epistemic: "theory"
 last_reviewed: "2025-12-23"
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define the neurobiological and cognitive mechanisms that drive human learning and skill acquisition."
 review_interval: "3 months"
 see_also: ["[[SoT - Deep Learning & Mastery]]", "[[SoT - Reading and the Brain]]"]

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-11-18T14:32:00Z
 epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "To define the foundational principle of proactive resource allocation in the YNAB method."
 review_interval: "6 months"
 see_also: ["[[Embrace Your True Expenses (YNAB Rule 2)]]", "[[Reactive Spending Creates Financial Stress]]"]

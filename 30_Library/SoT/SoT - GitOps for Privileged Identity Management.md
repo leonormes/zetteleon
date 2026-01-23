@@ -4,12 +4,10 @@ confidence: "High"
 created: 2025-07-04T07:32:01Z
 epistemic: "Technical/Architectural"
 last_reviewed: 
-modified: 2026-01-08T10:49:43+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define the architectural pattern for managing Privileged Identity Management (PIM) and Just-In-Time (JIT) access through GitOps, ensuring automatic expiration and Zero Trust compliance."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - Data-Centric IAM in Zero Trust]]"
-  - "[[SoT - GitOps for IAM and Permissions]]"
+see_also: ["[[SoT - Data-Centric IAM in Zero Trust]]", "[[SoT - GitOps for IAM and Permissions]]"]
 source_of_truth: []
 status: "Active"
 tags: ["azure", "gitops", "iam", "pim", "security", "terraform"]

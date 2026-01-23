@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-07-13T05:27:09Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:49+00:00
+modified: 2026-01-23T18:09:24+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -36,7 +36,7 @@ A solid understanding of number systems is built upon several core mathematical 
 - **Fractions, Decimals, and Percentages:** These are interconnected ways of describing proportions and can be converted between forms. Solving problems involving these is a significant part of the curriculum.
 - **Special Number Sequences:**
 - **Triangular Numbers:** Numbers that can be represented by a shape, often appearing in probability.
-- **Fibonacci Sequence:** A classic pattern (0, 1, 1, 2, 3, 5, 8...) where each term is the sum of the previous two. This sequence, known for over two thousand years to Indian mathematicians and introduced to the Western world by Fibonacci in 1202, appears frequently in nature (e.g., sunflower spirals, snail shells, tree branching) due to its connection to the golden ratio (phi, 1.618).
+- **Fibonacci Sequence:** A classic pattern (0, 1, 1, 2, 3, 5, 8…) where each term is the sum of the previous two. This sequence, known for over two thousand years to Indian mathematicians and introduced to the Western world by Fibonacci in 1202, appears frequently in nature (e.g., sunflower spirals, snail shells, tree branching) due to its connection to the golden ratio (phi, 1.618).
 - **Abstract Number Concepts:**
 - **Zero:** The invention of a symbol for zero was crucial, as its absence limited the ability to indicate large quantities and differentiate numbers based on position (place value).
 - **Negative Numbers:** Essential for more complex calculations, introduced early in KS3.

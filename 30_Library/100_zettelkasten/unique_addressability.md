@@ -5,7 +5,7 @@ created: 2025-02-07T12:57:55Z
 epistemic: "null"
 ID: "2a1b1d"
 last_reviewed: "null"
-modified: 2026-01-08T10:49:58+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -19,7 +19,7 @@ updated:
 version: "null"
 ---
 
-Unique addressability doesn’t function in isolation—it relies on a referencing system that interprets and uses the identifiers. This introduces a new layer: Interpretation of References. This layer could be represented by an additional atomic note, highlighting the requirement of a system or agent that can understand and act on these identifiers.
+Unique addressability doesn't function in isolation—it relies on a referencing system that interprets and uses the identifiers. This introduces a new layer: Interpretation of References. This layer could be represented by an additional atomic note, highlighting the requirement of a system or agent that can understand and act on these identifiers.
 
 [[Interpretation of References]]
 

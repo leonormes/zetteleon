@@ -3,22 +3,22 @@ aliases: ["First-Order Logic Basics", "Mathematical Quantifiers", "Propositional
 confidence: "5/5"
 created: 2026-01-12T10:05:00+00:00
 epistemic: "Axiomatic"
-modified: 2026-01-12T21:09:15+00:00
+modified: 2026-01-23T18:09:20+00:00
 status: "stable"
 tags: ["fundamentals", "math/logic", "prodos/sot"]
-title: Fundamentals of Mathematical Logic
+title: SoT - Fundamentals of Mathematical Logic
 type: "SoT"
 ---
 
-# Fundamentals of Mathematical Logic
+## Fundamentals of Mathematical Logic
 
 Logic provides the rigour, language, and inferential machinery for mathematics. It serves as the bedrock upon which mathematical structures are built.
 
-## 1. Propositional Logic (The Grammar)
+### 1. Propositional Logic (The Grammar)
 
 Propositional logic deals with combining simple statements (propositions) using logical connectives.
 
-### Core Connectives
+#### Core Connectives
 
 - **AND ($\land$):** True only if both P and Q are true.
 - **OR ($\lor$):** True if at least one of P or Q is true.
@@ -26,7 +26,7 @@ Propositional logic deals with combining simple statements (propositions) using 
 - **IMPLIES ($\implies$):** "If P, then Q". False only if P is true and Q is false.
 - **IF AND ONLY IF ($\iff$):** True if P and Q have the same truth value.
 
-### Truth Tables
+#### Truth Tables
 
 Truth tables define the functional meaning of connectives.
 
@@ -37,18 +37,18 @@ Truth tables define the functional meaning of connectives.
 | F | T | T | T | T | T |
 | F | F | T | T | T | T |
 
-## 2. Predicates and Quantifiers
+### 2. Predicates and Quantifiers
 
 To generalise statements, mathematics uses predicates (statements with variables) and quantifiers.
 
-### The Quantifiers
+#### The Quantifiers
 
 - **Universal Quantifier ($\forall$):** "For all".
     - Example: $\forall n \in \mathbb{Z}, n^2 \ge 0$ ("For every integer n, n squared is non-negative").
 - **Existential Quantifier ($\exists$):** "There exists".
     - Example: $\exists p \in \mathbb{P}, 20 < p < 25$ ("There exists a prime number between 20 and 25").
 
-### Translating Logic
+#### Translating Logic
 
 Skill in translating between natural language and logical notation is essential.
 

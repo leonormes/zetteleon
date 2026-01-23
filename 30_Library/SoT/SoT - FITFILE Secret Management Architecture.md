@@ -4,15 +4,10 @@ confidence: 5/5
 created: 2025-12-15T00:00:00Z
 epistemic: ""
 last_reviewed: 2025-12-15
-modified: 2026-01-08T10:49:43+00:00
-purpose: The canonical source of truth for FITFILE's secret management architecture, defining the standard VSO implementation and the path to remediate legacy technical debt.
+modified: 2026-01-23T18:09:20+00:00
+purpose: "The canonical source of truth for FITFILE's secret management architecture, defining the standard VSO implementation and the path to remediate legacy technical debt."
 review_interval: 6 months
-see_also:
-  - "[[FITFILE Platform Terraform Module Wiki]]"
-  - "[[General Principles for Adding Secrets]]"
-  - "[[SoT - FITFILE Platform Deployment]]"
-  - "[[SoT - PRODOS (System Architecture)]]"
-  - "[[Vault to Kubernetes Secrets Management Guide]]"
+see_also: ["[[FITFILE Platform Terraform Module Wiki]]", "[[General Principles for Adding Secrets]]", "[[SoT - FITFILE Platform Deployment]]", "[[SoT - PRODOS (System Architecture)]]", "[[Vault to Kubernetes Secrets Management Guide]]"]
 source_of_truth: []
 status: stable
 tags: ["SoftwareEngineering/Architecture", "SoftwareEngineering/Security", fitfile, kubernetes, vault]
@@ -191,7 +186,7 @@ We are actively improving the developer experience to reduce toil and error.
 
 We are moving away from verbose templates in `values.yaml` towards simple "Presets" defined in the Helm chart.
 
-- **Old Way:** Manually defining `templates: { apiKey: '{{...}}' }` for every deployment.
+- **Old Way:** Manually defining `templates: { apiKey: '{{…}}' }` for every deployment.
 - **New Way:** `preset: mongodb` tells the chart to generate the standard MongoDB secret structure automatically.
 
 ### 6.2 Automated Population (UDE/Vault)
@@ -207,7 +202,6 @@ Currently, populating Vault is a manual process using the HCP UI.
 - **Benefit:** Short-lived, automatically rotated credentials (TTL 1h) generated on-the-fly for each pod.
 - [ ] R&D how to use vault's dB secrets engine ^2025-12-26T21-58-48
     - [📱 View in Todoist app](todoist://task?id=6fcrF7wgv6cfR48M) (Created: 📝 2025-12-26T21:59)
-
 
 ---
 
@@ -303,7 +297,7 @@ We are actively improving the developer experience to reduce toil and error.
 
 We are moving away from verbose templates in `values.yaml` towards simple "Presets" defined in the Helm chart.
 
-- **Old Way:** Manually defining `templates: { apiKey: '{{...}}' }` for every deployment.
+- **Old Way:** Manually defining `templates: { apiKey: '{{…}}' }` for every deployment.
 - **New Way:** `preset: mongodb` tells the chart to generate the standard MongoDB secret structure automatically.
 
 ### 6.2 Automated Population (UDE/Vault)

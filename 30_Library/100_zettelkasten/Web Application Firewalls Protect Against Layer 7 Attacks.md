@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-10-31T10:35:00Z
 epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-08T10:49:58+00:00
+modified: 2026-01-23T18:09:29+00:00
 purpose: "Explain WAF functionality."
 review_interval: "90"
 see_also: ["Data-Centric Networking Focuses on Packet Journey Through Devices.md"]

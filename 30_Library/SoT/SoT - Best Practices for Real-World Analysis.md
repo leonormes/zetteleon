@@ -4,12 +4,10 @@ confidence: "High"
 created: 2026-01-06T19:31:01+00:00
 epistemic: "Principle"
 last_reviewed: 
-modified: 2026-01-08T10:49:44+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "To define the protocols required to prevent p-hacking and ensure reproducibility in observational research."
 review_interval: "1 year"
-see_also:
-  - "[[SoT - OHDSI Evidence Generation]]"
-  - "[[SoT - OHDSI Toolstack & Atlas]]"
+see_also: ["[[SoT - OHDSI Evidence Generation]]", "[[SoT - OHDSI Toolstack & Atlas]]"]
 source_of_truth: []
 status: "Active"
 tags: ["ethics", "methodology", "ohdsi", "science"]

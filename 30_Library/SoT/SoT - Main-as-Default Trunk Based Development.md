@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-15T00:00:00Z
 epistemic: "Validated via 10-year longitudinal practice and DORA metrics."
 last_reviewed: "2025-12-15"
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:19+00:00
 purpose: "To define \\\\\\\"Main-as-Default Trunk Based Development\\\\\\\" as the canonical software delivery methodology for ProdOS, optimizing for the smallest robust increments of change."
 review_interval: "1 year"
 see_also: ["[[SoT - Process Primacy (Systems Over Goals)]]", "[[SoT - PRODOS (System Architecture)]]"]
@@ -90,6 +90,5 @@ To switch your team to TBD:
 2. **Add a Toggle:** Introduce a simple config-based feature flag system.
 3. **Decouple:** Separate the concept of "Deploying code" from "Releasing features."
 4. **Refactor:** Don't wait for a rewrite. Apply "Strangler Fig" patterns to legacy code.
-
 
 See also: [[SoT - Accelerate & DORA]]

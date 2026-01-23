@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2026-01-02T15:10:00Z
 epistemic: "knowledge"
 last_reviewed: "2026-01-02"
-modified: 2026-01-08T10:49:43+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "To define educational principles based on the premise that understanding is rooted in experience, emphasizing the need to build experiential foundations before linguistic description."
 review_interval: "2 years"
 see_also: ["[[SoT - Accelerated Learning (3C Protocol)]]", "[[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]"]

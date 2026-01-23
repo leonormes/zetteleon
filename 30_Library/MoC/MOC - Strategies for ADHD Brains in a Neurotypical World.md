@@ -4,11 +4,10 @@ confidence: "null"
 created: 2025-07-16T17:30:01Z
 epistemic: index
 last_reviewed: 2025-12-16T00:00:00.000Z
-modified: 2026-01-08T15:03:29+00:00
+modified: 2026-01-23T18:09:22+00:00
 purpose: ""
 review_interval: 6 months
-see_also:
-  - "[[MOC - ADHD Experiments & Protocols]]"
+see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
 source_of_truth: []
 status: stable
 tags: ["TheHuman/Health/ADHD", index, self-help, strategies, topic/productivity]

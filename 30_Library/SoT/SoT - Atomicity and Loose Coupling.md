@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-12T00:00:00Z
 epistemic: ""
 last_reviewed: "2025-12-12"
-modified: 2026-01-08T10:49:45+00:00
+modified: 2026-01-23T18:09:21+00:00
 purpose: "Canonical resolution of the tension between note atomicity and system dependencies in ProdOS."
 review_interval: "1 year"
 see_also: ["[[Atomic vs Structural Notes]]", "[[I Don't Like Dependencies]]", "[[MOC - Thought and Language]]", "[[SoT - Contextual Myopia and Self-Referential Meaning]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - The Thought-Language Continuum]]", "[[The Atomicity Principle - One Idea Per Note]]", "[[The problem of false atoms]]", "[[The Problem of False Atoms]]"]

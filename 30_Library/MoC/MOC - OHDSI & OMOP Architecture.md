@@ -1,26 +1,16 @@
 ---
-aliases:
-  - Observational Health Data MOC
-  - OHDSI MOC
-  - OMOP Architecture MOC
+aliases: [Observational Health Data MOC, OHDSI MOC, OMOP Architecture MOC]
 confidence: High
 created: 2026-01-06T19:25:32+00:00
 epistemic: Index
 last_reviewed:
-modified: 2026-01-08T15:03:29+00:00
+modified: 2026-01-23T18:09:22+00:00
 purpose: To map the OHDSI/OMOP ecosystem, focusing on the architectural constraints of read-only implementations and the convergence with FHIR.
 review_interval: Quarterly
-see_also:
-  - "[[SoT - Data-Centric Software Engineering]]"
-  - "[[SoT - Systems Thinking]]"
+see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - Systems Thinking]]"]
 source_of_truth: []
 status: Active
-tags:
-  - health-informatics
-  - moc
-  - ohdsi
-  - omop
-  - SoftwareEngineering/Architecture
+tags: [health-informatics, moc, ohdsi, omop, SoftwareEngineering/Architecture]
 title: MOC - OHDSI & OMOP Architecture
 type: map
 uid:

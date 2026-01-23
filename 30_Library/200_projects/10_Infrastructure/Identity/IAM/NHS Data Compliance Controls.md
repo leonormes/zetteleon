@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-13T08:35:57Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:54+00:00
+modified: 2026-01-23T18:09:26+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -39,6 +39,6 @@ AADSignInEvents
 | where UserType == "Member"
 ```
 
-3. Weekly access reviews documented in NHS Data Protection Impact Assessments[^7]
+1. Weekly access reviews documented in NHS Data Protection Impact Assessments[^7]
 
 [[We have a small team of developers in a small comp]]

@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-03-26T10:26:07Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:51+00:00
+modified: 2026-01-23T18:09:25+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -30,7 +30,7 @@ b) Compromising an already trusted entity (like a CA) to misuse its trust.
 
 c) Tricking the end-user or client system into trusting a malicious entity despite the PKI.
 
-Here’s a breakdown of potential methods, their estimated difficulty, and the advantages they offer:
+Here's a breakdown of potential methods, their estimated difficulty, and the advantages they offer:
 
 ### 1. Compromising a Certificate Authority (CA)
 

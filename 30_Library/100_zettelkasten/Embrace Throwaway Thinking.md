@@ -4,7 +4,7 @@ confidence: "null"
 created: 2025-05-10T10:37:03Z
 epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T10:50:01+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "null"
 review_interval: "null"
 see_also: []
@@ -22,8 +22,8 @@ Your brain resists notes because it thinks they must be perfect and permanent.
 
 Fix:
 
-- Label notes "DRAFT" in big letters. Tell yourself you’ll delete them later (you won’t).
-- Set a timer for 3 minutes/note. When time’s up, hit save and move on.
+- Label notes "DRAFT" in big letters. Tell yourself you'll delete them later (you won't).
+- Set a timer for 3 minutes/note. When time's up, hit save and move on.
 
 ---
 

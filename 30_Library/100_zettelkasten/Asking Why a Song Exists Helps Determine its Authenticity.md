@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-10T11:10:00Z
 epistemic: "NA"
 last_reviewed: ""
-modified: 2026-01-08T10:50:01+00:00
+modified: 2026-01-23T18:09:32+00:00
 purpose: "To provide a simple heuristic for analyzing a song's origin."
 review_interval: "180"
 see_also: []

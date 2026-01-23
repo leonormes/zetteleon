@@ -1,16 +1,25 @@
-# GitHub - elleryfamilia/terminal-mcp: A terminal emulator exposed via MCP for AI assistants
+---
+created: 2026-01-23T17:17:59+00:00
+modified: 2026-01-23T18:09:35+00:00
+tags: [articles]
+title: GitHub - elleryfamiliaterminal-mcp A terminal emulator exposed via MCP for AI assistants
+---
+
+## GitHub - elleryfamilia/terminal-mcp: A Terminal Emulator Exposed via MCP for AI Assistants
 
 ![rw-book-cover](https://opengraph.githubassets.com/04ca0194e7b2d34d48e08b5c0f3b63e4dac1e9ed0e40b9038f91de9a0caee5f5/elleryfamilia/terminal-mcp)
 
-## Metadata
+### Metadata
+
 - Author: [[https://github.com/elleryfamilia/]]
 - Full Title: GitHub - elleryfamilia/terminal-mcp: A terminal emulator exposed via MCP for AI assistants
 - Category: #articles
 - Summary: Terminal MCP lets AI assistants see and control your terminal in real-time. It works on macOS, Linux, and Windows using a simple API and supports many terminal features. You can install it with npm and use it to automate or debug terminal tasks easily.
-- URL: https://github.com/elleryfamilia/terminal-mcp
+- URL: <https://github.com/elleryfamilia/terminal-mcp>
 
-## Full Document
-### elleryfamilia/terminal-mcp
+### Full Document
+
+#### elleryfamilia/terminal-mcp
 
 main
 
@@ -21,11 +30,12 @@ Code
 Open more actions menu
 
 [![Terminal MCP](https://github.com/elleryfamilia/terminal-mcp/raw/main/logo.png)](https://github.com/elleryfamilia/terminal-mcp/blob/main/logo.png)
+
 **Let AI see and interact with your terminal.**
 
 Terminal MCP gives LLMs a shared view of your terminal session. Perfect for debugging CLIs and TUI applications in real-time, or letting AI drive terminal-based tools autonomously.
 
-#### Install
+##### Install
 
 ```
 npm install -g @ellery/terminal-mcp
@@ -37,14 +47,14 @@ Or via install script:
 curl -fsSL https://raw.githubusercontent.com/elleryfamilia/terminal-mcp/main/install.sh | bash
 ```
 
-#### Features
+##### Features
 
-* **Full Terminal Emulation**: Uses xterm.js headless for accurate VT100/ANSI emulation
-* **Cross-Platform PTY**: Native pseudo-terminal support via node-pty (macOS, Linux, Windows)
-* **MCP Protocol**: Implements Model Context Protocol for AI assistant integration
-* **Simple API**: Four intuitive tools for complete terminal control
+- **Full Terminal Emulation**: Uses xterm.js headless for accurate VT100/ANSI emulation
+- **Cross-Platform PTY**: Native pseudo-terminal support via node-pty (macOS, Linux, Windows)
+- **MCP Protocol**: Implements Model Context Protocol for AI assistant integration
+- **Simple API**: Four intuitive tools for complete terminal control
 
-#### Installation
+##### Installation
 
 ```
 # Install dependencies
@@ -54,9 +64,9 @@ npm install
 npm run build
 ```
 
-#### Usage
+##### Usage
 
-##### MCP Configuration
+###### MCP Configuration
 
 Add to your MCP client settings:
 
@@ -83,7 +93,7 @@ With custom options:
 }
 ```
 
-##### Command-Line Options
+###### Command-Line Options
 
 ```
 terminal-mcp [OPTIONS]
@@ -96,9 +106,9 @@ Options:
 
 ```
 
-#### MCP Tools
+##### MCP Tools
 
-##### `type`
+###### `type`
 
 Send text input to the terminal.
 
@@ -111,7 +121,7 @@ Send text input to the terminal.
 }
 ```
 
-##### `sendKey`
+###### `sendKey`
 
 Send special keys or key combinations.
 
@@ -126,13 +136,13 @@ Send special keys or key combinations.
 
 Supported keys:
 
-* Basic: `Enter`, `Tab`, `Escape`, `Backspace`, `Delete`
-* Arrow: `ArrowUp`, `ArrowDown`, `ArrowLeft`, `ArrowRight`
-* Navigation: `Home`, `End`, `PageUp`, `PageDown`, `Insert`
-* Function: `F1` through `F12`
-* Control: `Ctrl+A` through `Ctrl+Z`, `Ctrl+C`, `Ctrl+D`, etc.
+- Basic: `Enter`, `Tab`, `Escape`, `Backspace`, `Delete`
+- Arrow: `ArrowUp`, `ArrowDown`, `ArrowLeft`, `ArrowRight`
+- Navigation: `Home`, `End`, `PageUp`, `PageDown`, `Insert`
+- Function: `F1` through `F12`
+- Control: `Ctrl+A` through `Ctrl+Z`, `Ctrl+C`, `Ctrl+D`, etc.
 
-##### `getContent`
+###### `getContent`
 
 Get the terminal buffer as plain text.
 
@@ -145,7 +155,7 @@ Get the terminal buffer as plain text.
 }
 ```
 
-##### `takeScreenshot`
+###### `takeScreenshot`
 
 Capture the terminal state with cursor position and dimensions.
 
@@ -156,7 +166,7 @@ Capture the terminal state with cursor position and dimensions.
 }
 ```
 
-#### Architecture
+##### Architecture
 
 ```
 MCP Client (Claude Code, etc.)
@@ -172,7 +182,7 @@ Terminal MCP Server (Node.js)
 
 ```
 
-#### Example Session
+##### Example Session
 
 ```
 # Type a command
@@ -185,9 +195,9 @@ Terminal MCP Server (Node.js)
 {"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"getContent","arguments":{}}}
 ```
 
-#### Development
+##### Development
 
-##### Project Structure
+###### Project Structure
 
 ```
 terminal-mcp/
@@ -212,29 +222,29 @@ terminal-mcp/
 
 ```
 
-##### Building
+###### Building
 
 ```
 npm run build    # Compile TypeScript
 npm run dev      # Run with tsx (development)
 ```
 
-#### Documentation
+##### Documentation
 
 See the [docs](https://github.com/elleryfamilia/terminal-mcp/blob/main/docs) folder for detailed documentation:
 
-* [Overview](https://github.com/elleryfamilia/terminal-mcp/blob/main/docs/index.md)
-* [Installation](https://github.com/elleryfamilia/terminal-mcp/blob/main/docs/installation.md)
-* [Tools Reference](https://github.com/elleryfamilia/terminal-mcp/blob/main/docs/tools.md)
-* [Configuration](https://github.com/elleryfamilia/terminal-mcp/blob/main/docs/configuration.md)
-* [Examples](https://github.com/elleryfamilia/terminal-mcp/blob/main/docs/examples.md)
-* [Architecture](https://github.com/elleryfamilia/terminal-mcp/blob/main/docs/architecture.md)
+- [Overview](https://github.com/elleryfamilia/terminal-mcp/blob/main/docs/index.md)
+- [Installation](https://github.com/elleryfamilia/terminal-mcp/blob/main/docs/installation.md)
+- [Tools Reference](https://github.com/elleryfamilia/terminal-mcp/blob/main/docs/tools.md)
+- [Configuration](https://github.com/elleryfamilia/terminal-mcp/blob/main/docs/configuration.md)
+- [Examples](https://github.com/elleryfamilia/terminal-mcp/blob/main/docs/examples.md)
+- [Architecture](https://github.com/elleryfamilia/terminal-mcp/blob/main/docs/architecture.md)
 
-#### Requirements
+##### Requirements
 
-* Node.js 18.0.0 or later
-* Build tools for native module compilation (node-pty)
+- Node.js 18.0.0 or later
+- Build tools for native module compilation (node-pty)
 
-#### License
+##### License
 
 MIT

@@ -4,12 +4,10 @@ confidence: "High"
 created: 2026-01-06T19:25:44+00:00
 epistemic: "Standard"
 last_reviewed: 
-modified: 2026-01-08T10:49:42+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "To define the structural and semantic standards of the OMOP Common Data Model."
 review_interval: "1 year"
-see_also:
-  - "[[MoC - OHDSI & OMOP Architecture]]"
-  - "[[SoT - OHDSI Standardized Vocabularies]]"
+see_also: ["[[MoC - OHDSI & OMOP Architecture]]", "[[SoT - OHDSI Standardized Vocabularies]]"]
 source_of_truth: []
 status: "Active"
 tags: ["data-model", "ohdsi", "omop", "schema"]

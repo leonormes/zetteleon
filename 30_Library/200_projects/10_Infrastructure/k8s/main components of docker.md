@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:54Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:51+00:00
+modified: 2026-01-23T18:09:25+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -91,7 +91,7 @@ curl --unix-socket /var/run/docker.sock http:/v1.41/<endpoint>
 
    Replace `<endpoint>` with the specific API endpoint you want to access[1][5].
 
-3. For example, to get Docker version information:
+1. For example, to get Docker version information:
 
 ```bash
 curl --silent --unix-socket /var/run/docker.sock http://v1.41/version

@@ -5,7 +5,7 @@ created: 2025-02-07T12:57:56Z
 dependencies: ""
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:51+00:00
+modified: 2026-01-23T18:09:25+00:00
 name: "cicd_minimal_permissions"
 purpose: ""
 review_interval: ""
@@ -51,7 +51,7 @@ protected_branches:
    reject_unsigned_commits: true
 ```
 
-2. Required Status Checks
+1. Required Status Checks
 
 ```yaml
 status_checks:

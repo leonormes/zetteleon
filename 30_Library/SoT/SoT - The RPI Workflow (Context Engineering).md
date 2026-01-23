@@ -1,16 +1,16 @@
 ---
 aliases: ["Context Economics", "Context Engineering Workflow", "Research Plan Implement", "RPI Protocol"]
 created: 2026-01-09T21:52:07+00:00
-modified: 2026-01-12T21:14:33+00:00
+modified: 2026-01-23T18:09:17+00:00
 see_also: ["[[MOC - LLM-Augmented Thinking]]", "[[SoT - Execution Protocol (GTD & PARA)]]"]
 source_of_truth: ["[[Prompt - The Context Architect (RPI Protocol)]]", "[[SoT - PRODOS Core Specification]]"]
 status: "permanent"
 tags: ["ai/architecture", "mental-model", "prodos", "system/protocol", "workflow"]
-title: Minimum Viable Understanding (MVU)
+title: SoT - The RPI Workflow (Context Engineering)
 type: "SoT"
 ---
 
-# Minimum Viable Understanding (MVU)
+## Minimum Viable Understanding (MVU)
 
 **Context Engineering** is the discipline of optimising the Information Density fed into an LLM's context window. The **RPI (Research, Plan, Implement)** workflow is the operational framework for applying this discipline.
 
@@ -18,14 +18,14 @@ It treats the context window as a scarce resource (**Context Economics**) to pre
 
 ---
 
-# 1. The Core Principles
+## 1. The Core Principles
 
-## A. The "Smart Zone" vs. The "Dumb Zone"
+### A. The "Smart Zone" vs. The "Dumb Zone"
 
 - **The Dumb Zone:** Streaming raw files, entire folder structures, or "stream of consciousness" chat history into the context. This forces the model to spend compute on _retrieval_ rather than _reasoning_.
 - **The Smart Zone:** Providing only the "Computed Truth" (compressed summaries, dependency maps, and specific logic). This frees up the model's "cognitive budget" for complex architectural tasks.
 
-## B. Greenfield vs. Brownfield
+### B. Greenfield vs. Brownfield
 
 - **Greenfield (New Context):** New features, notes, or ideas. These are easy for LLMs to generate.
 - **Brownfield (Existing Context):** Your legacy codebase or existing Obsidian Vault. This is where LLMs fail. They hallucinate because they do not know the "Ground Truth".
@@ -33,9 +33,9 @@ It treats the context window as a scarce resource (**Context Economics**) to pre
 
 ---
 
-# 2. The RPI Phases
+## 2. The RPI Phases
 
-## Phase 1: Research (The Audit)
+### Phase 1: Research (The Audit)
 
 - **Goal:** Establish **Ground Truth**. Stop the LLM from hallucinating variables, file paths, or existing knowledge.
 - **Mechanism:** Use tools (`search_vault`, `grep`, `context-engine`) to map dependencies.
@@ -45,7 +45,7 @@ It treats the context window as a scarce resource (**Context Economics**) to pre
 
  > "Audit the vault for existing notes on [Topic]. Map the conflict between Note A and Note B. Do not write the new note yet."
 
-## Phase 2: Plan (Compression of Intent)
+### Phase 2: Plan (Compression of Intent)
 
 - **Goal:** Define the **Architecture**. Solve the logic errors _before_ they become syntax errors.
 - **Mechanism:** Synthesise the Research into a strict Specification (Spec).
@@ -55,7 +55,7 @@ It treats the context window as a scarce resource (**Context Economics**) to pre
     - For Notes: A "Schema" (Header structure, Frontmatter tags) for the new Source of Truth.
 - **The Review Gate:** This is the high-leverage human intervention point. Verify the plan before committing tokens to execution.
 
-## Phase 3: Implement (Reliable Execution)
+### Phase 3: Implement (Reliable Execution)
 
 - **Goal:** **High-Fidelity Generation** and "Surgical" integration.
 - **Mechanism:** Execute the Plan using specific "Write" tools.
@@ -65,15 +65,15 @@ It treats the context window as a scarce resource (**Context Economics**) to pre
 
 ---
 
-# 3. Operational Models
+## 3. Operational Models
 
-## Model A: Codebase Refactoring
+### Model A: Codebase Refactoring
 
 1. **Research:** Map `variables.tf` (Consumer) vs `outputs.tf` (Producer) to find mismatches.
 2. **Plan:** Write the `locals` block logic to bridge the gap. Simulate the `terraform plan`.
 3. **Implement:** Generate the exact HCL syntax. Run `terraform validate`.
 
-## Model B: Knowledge Management (Obsidian)
+### Model B: Knowledge Management (Obsidian)
 
 1. **Research:** `search_vault_smart` to find "Ghost Data" (buried mentions in Daily Notes) and "Clusters" (duplicate notes).
 2. **Plan:** Design a `SoT` (Source of Truth) structure that merges the clusters. Define the `aliases` and `tags`.
@@ -81,7 +81,7 @@ It treats the context window as a scarce resource (**Context Economics**) to pre
 
 ---
 
-# 4. Context Caching (Advanced)
+## 4. Context Caching (Advanced)
 
 For massive contexts (e.g., full documentation sets or large codebases), use **Context Caching** (Google Gemini / Vertex AI).
 

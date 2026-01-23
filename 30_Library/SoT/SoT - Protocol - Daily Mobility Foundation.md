@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-22T00:00:00Z
 epistemic: "Designed for age 50+ structural maintenance based on Animal Flow \\\\\\\"Foundation Protocol\\\\\\\"."
 last_reviewed: "2025-12-22"
-modified: 2026-01-08T10:49:41+00:00
+modified: 2026-01-23T18:09:18+00:00
 purpose: "An accessible, daily execution guide for functional mobility and joint health."
 review_interval: "1 year"
 see_also: ["[[SoT - Functional Mobility & Primal Movement]]", "[[SoT - Physical Health and Vitality]]"]
@@ -93,7 +93,7 @@ _Focus: Full-body decompression and posterior chain mobility._
 2. **Squat Flexion (Spinal):** Deep squat, pull head toward floor. (10 reps + hold).
 3. **Downward Dog Extensions:** Hips up, shift side-to-side at top. (10 reps).
 4. **Dynamic Bounces:** Standing forward fold, rhythmic bounces at end range. (Bounce + Hold).
-5. **Child’s Pose Rotation:** From child's pose, rotate elbow to sky. (5 reps/side + 5s hold).
+5. **Child's Pose Rotation:** From child's pose, rotate elbow to sky. (5 reps/side + 5s hold).
 6. **Plow to Squat:** Roll back (plow), roll forward (squat). (5-6 reps + 10s hold in plow).
 
 ---

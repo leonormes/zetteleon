@@ -5,7 +5,7 @@ created: 2025-10-31T12:38:00Z
 epistemic: "The principles of designing High-Cohesion, Low-Coupling Systems."
 exclusions: "Data-Level Implementation Details (See [[MOC - Data-Centric Software Engineering]])"
 last_reviewed: "2025-12-31"
-modified: 2026-01-08T15:03:29+00:00
+modified: 2026-01-23T18:09:22+00:00
 purpose: "To organize principles regarding System Boundaries, Coupling, and Integration."
 review_interval: "180"
 scope: "Macro-Architecture (System-to-System)"
@@ -60,5 +60,4 @@ How systems talk to each other without exposing their internal "Shape".
 
 - **[[Decoupling Ego from Outcomes to Improve Decisions]]** - The ability to kill your darlings (features/systems) for the greater good.
 - **[[SoT - Simple Made Easy (Rich Hickey)]]** - Architecture is about _decomplecting_ (untangling) concerns, not just making things easy to type.
-
 - [[SoT - Accelerate & DORA]]

@@ -4,13 +4,10 @@ confidence: "High"
 created: 2026-01-05T07:34:29+00:00
 epistemic: "Theoretic"
 last_reviewed: 
-modified: 2026-01-08T10:49:41+00:00
+modified: 2026-01-23T18:09:17+00:00
 purpose: "To define the architectural necessity of 'Meta-Systems' (external validators) due to the inherent incompleteness of any formal system."
 review_interval: "1 year"
-see_also:
-  - "[[Gödel's Incompleteness Theorems Constrain Foundational Programs]]"
-  - "[[SoT - Data-Centric Software Engineering]]"
-  - "[[SoT - Pragmatism vs Rigour in Software]]"
+see_also: ["[[Gödel's Incompleteness Theorems Constrain Foundational Programs]]", "[[SoT - Data-Centric Software Engineering]]", "[[SoT - Pragmatism vs Rigour in Software]]"]
 source_of_truth: []
 status: "Active"
 tags: ["compilers", "SoftwareEngineering/Architecture", "systems-theory", "TheHuman/Philosophy"]
@@ -26,7 +23,7 @@ updated:
 
 ### 1. The Core Problem: Self-Reference
 
-In software architecture, we often attempt to build "self-healing" or "self-validating" systems. However, **Kurt Gödel’s Second Incompleteness Theorem** proves a hard limit to this ambition:
+In software architecture, we often attempt to build "self-healing" or "self-validating" systems. However, **Kurt Gödel's Second Incompleteness Theorem** proves a hard limit to this ambition:
 
 - **Theorem:** If a system is consistent, it cannot prove its own consistency.
 - **Implication:** A system cannot run a unit test on its own kernel to validate that the kernel is bug-free, because the unit test relies on the kernel to run.

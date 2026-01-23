@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-08-17T12:31:05Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:50+00:00
+modified: 2026-01-23T18:09:24+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -30,22 +30,22 @@ A Tiny RSA System from Scratch ⚙️
 - p = 7
 - q = 11
 
-2. Calculate the Modulus (n)
+1. Calculate the Modulus (n)
    This sets the size of our "clock." All our maths will wrap around this number.
 
 - n = p _q = 7_ 11 = 77
 
-3. Calculate the Totient (λ(n))
+1. Calculate the Totient (λ(n))
    This is the "magic number" that tells us the length of the exponentiation cycle.
 
 - λ(n) = lcm(p - 1, q - 1) = lcm(6, 10) = 30
 
-4. Choose the Public Exponent (e)
+1. Choose the Public Exponent (e)
    We need a number that is coprime to our totient (30). Let's pick:
 
 - e = 13
 
-5. Calculate the Private Exponent (d)
+1. Calculate the Private Exponent (d)
    We need the unique number d where (13 \* d) % 30 = 1. By testing numbers, we find:
 
 - d = 7 (since 13 \* 7 = 91, and 91 % 30 = 1)

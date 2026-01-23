@@ -5,7 +5,7 @@ confidence: "5/5"
 created: 2025-12-24T12:00:00Z
 epistemic: "fact"
 last_reviewed: 2025-12-24
-modified: 2026-01-08T10:49:59+00:00
+modified: 2026-01-23T18:09:30+00:00
 purpose: "To explain the distribution of primes and its impact on finding large primes for keys."
 review_interval: "1 year"
 see_also: ["[[Infinitude of Primes Guarantees a Limitless Supply for Keys]]"]
@@ -24,7 +24,9 @@ As numbers get larger, the **Density of Primes** decreases. This is because larg
 
 The distribution of primes is described by the Prime Number Theorem. The probability of a large random number $N$ being prime is roughly:
 
-$$P(\text{prime}) \approx \frac{1}{\ln(N)}$$
+$$
+P(\text{prime}) \approx \frac{1}{\ln(N)}
+$$
 
 | Digits | Range | Number of Primes | Density |
 |:--- |:--- |:--- |:--- |

@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-29T10:28:01+00:00
 epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2026-01-08T10:49:40+00:00
+modified: 2026-01-23T18:09:16+00:00
 purpose: "To define the core programming philosophy of ProdOS: a synthesis of hardware-conscious data design and mathematical type theory."
 review_interval: "6 months"
 see_also: ["[[SoT - Rust Language]]", "[[SoT - Rust Type Mechanics]]", "[[SoT - Rust's Ownership Model]]"]
@@ -76,7 +76,7 @@ impl Post<Draft> {
 }
 ```
 
-3. **Enforcement:** Because `self` is consumed, the old `Draft` value is invalidated. You physically cannot double-publish.
+1. **Enforcement:** Because `self` is consumed, the old `Draft` value is invalidated. You physically cannot double-publish.
 
 ---
 

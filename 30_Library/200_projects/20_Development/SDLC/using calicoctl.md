@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:52Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:50+00:00
+modified: 2026-01-23T18:09:24+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -34,7 +34,7 @@ chmod +x ./calicoctl
 sudo mv ./calicoctl /usr/local/bin/calicoctl
 ```
 
-2. As a kubectl plugin:
+1. As a kubectl plugin:
 
 ```bash
 curl -L https://github.com/projectcalico/calico/releases/download/v3.29.1/calicoctl-linux-amd64 -o kubectl-calico
@@ -42,7 +42,7 @@ chmod +x kubectl-calico
 sudo mv kubectl-calico /usr/local/bin/
 ```
 
-3. As a container:
+1. As a container:
 
 ```bash
 docker pull calico/ctl:v3.29.1
@@ -75,31 +75,31 @@ Now you can use calicoctl to examine networking in your cluster. Here are some u
 calicoctl get nodes
 ```
 
-2. Check IP pool configuration:
+1. Check IP pool configuration:
 
 ```bash
 calicoctl get ippool -o wide
 ```
 
-3. Examine network policies:
+1. Examine network policies:
 
 ```bash
 calicoctl get networkpolicy --all-namespaces
 ```
 
-4. View BGP configuration:
+1. View BGP configuration:
 
 ```bash
 calicoctl get bgpconfig
 ```
 
-5. Check Felix configuration:
+1. Check Felix configuration:
 
 ```bash
 calicoctl get felixconfig
 ```
 
-6. Examine Calico profiles:
+1. Examine Calico profiles:
 
 ```bash
 calicoctl get profile

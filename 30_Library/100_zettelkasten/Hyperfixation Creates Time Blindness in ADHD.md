@@ -4,7 +4,7 @@ confidence: "0.9"
 created: 2025-11-01T11:37:53Z
 epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-08T10:50:00+00:00
+modified: 2026-01-23T18:09:31+00:00
 purpose: "Describe the phenomenon of losing time awareness during ADHD hyperfixation."
 review_interval: "90"
 see_also: ["[[ADHD Hyperfixation-Burnout Cycle]]", "[[Hyperfixation and Neurotransmitter Flooding in ADHD]]"]

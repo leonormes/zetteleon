@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-11-11T12:14:58Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:48+00:00
+modified: 2026-01-23T18:09:23+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -42,9 +42,9 @@ When she says, "But you said I was spoiled!"
 
 | Step | Technique | Script |
 |:--- |:--- |:--- |
-| **1. Validate & Move On** | Use a closed-loop phrase to confirm the past status. | "**That’s right, I did say that.** It was wrong of me, I said it out of frustration, and I apologised for it. **That point is settled.**" |
+| **1. Validate & Move On** | Use a closed-loop phrase to confirm the past status. | "**That's right, I did say that.** It was wrong of me, I said it out of frustration, and I apologised for it. **That point is settled.**" |
 | **2. Assert the Present** | Immediately pivot the focus to the issue at hand. | "Right now, we are talking about **finding a system for chores**, or **finding a solution to the lamp glare**." |
-| **3. Set the Boundary** | Name the derailment clearly and gently. | "When you bring up the 'spoiled' comment now, **it stops us from solving the current problem.** It makes me feel like the current discussion isn't safe or that you’re not willing to move forward." |
+| **3. Set the Boundary** | Name the derailment clearly and gently. | "When you bring up the 'spoiled' comment now, **it stops us from solving the current problem.** It makes me feel like the current discussion isn't safe or that you're not willing to move forward." |
 | **4. Re-invite to Progress** | Offer a clear path back to collaborative discussion. | "**Can we agree to put that past comment aside** for a moment so we can focus on creating a plan for the children's tidying? **I want to solve this with you.**" |
 
 ---
@@ -59,7 +59,7 @@ This deflection often arises because she feels attacked and is using the deflect
 
 - **Your Response:** Use an **Agenda Parking** strategy. Validate the importance of her concern, but firmly schedule it for later.
 
-> "I agree, if I'm dismissing your feelings, that is a serious issue, and we **absolutely need to discuss it.** But we can’t solve both problems at once. Let’s finish this conversation about the house tidiness, and as soon as we are done, **we will immediately set aside 15 minutes** to talk only about the times you feel dismissed by me. **I promise we will get to your point.**"
+> "I agree, if I'm dismissing your feelings, that is a serious issue, and we **absolutely need to discuss it.** But we can't solve both problems at once. Let's finish this conversation about the house tidiness, and as soon as we are done, **we will immediately set aside 15 minutes** to talk only about the times you feel dismissed by me. **I promise we will get to your point.**"
 
 ### 2. The "Reset" Button (The Forgotten Agreement)
 
@@ -80,7 +80,7 @@ Your internal fear ("respecting her is a one-way street") is a sign that the fun
 
 When you feel you are conceding too much, you can gently introduce the concept of **reciprocal effort** back into the conversation:
 
-> "I am working hard to respect your feeling that the house isn't a problem, and I am putting my stress on hold so we can talk about your solution. **Respect is a two-way effort.** I need to see you putting in an equal effort to respect my feeling that my stress is a 'team problem' we need to solve. **What is the effort you will put in to solve my stress, even if you don’t share it?**"
+> "I am working hard to respect your feeling that the house isn't a problem, and I am putting my stress on hold so we can talk about your solution. **Respect is a two-way effort.** I need to see you putting in an equal effort to respect my feeling that my stress is a 'team problem' we need to solve. **What is the effort you will put in to solve my stress, even if you don't share it?**"
 
 This brings the focus back to **actionable, reciprocal respect**, which is the only way to move past the stalemates.
 

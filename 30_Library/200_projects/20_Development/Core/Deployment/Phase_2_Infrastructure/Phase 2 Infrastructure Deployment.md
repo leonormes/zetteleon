@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:53Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:51+00:00
+modified: 2026-01-23T18:09:25+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -88,19 +88,19 @@ git clone https://gitlab.com/fitfile/customers
    terraform login
 ```
 
-2. Create a new project or select existing:
+1. Create a new project or select existing:
    - Navigate to: <https://app.terraform.io>
    - Select "Projects" in sidebar
    - Click "New Project" or select existing customer project
    - Name format: `<customer-name>-infrastructure`
 
-3. Create workspace:
+2. Create workspace:
    - Click "New Workspace"
    - Select "Version Control Workflow"
    - Name: Use your deployment key from Phase 1
    - Connect to your GitLab repository
 
-4. Configure variables:
+3. Configure variables:
 
 ```sh
    # Environment Variables (mark as sensitive except region)
@@ -119,7 +119,7 @@ git clone https://gitlab.com/fitfile/customers
    cd <deployment-key>
 ```
 
-2. Initialize infrastructure files:
+1. Initialize infrastructure files:
 
 ```bash
    # Create necessary files
@@ -132,7 +132,7 @@ git clone https://gitlab.com/fitfile/customers
    .tfvars" > .gitignore
 ```
 
-3. Configure versions.tf:
+1. Configure versions.tf:
 
 ```hcl
    terraform {
@@ -152,7 +152,7 @@ git clone https://gitlab.com/fitfile/customers
    }
 ```
 
-4. Configure providers.tf:
+1. Configure providers.tf:
 
 ```hcl
    provider "aws" {
@@ -169,7 +169,7 @@ git clone https://gitlab.com/fitfile/customers
    }
    ```
 
-5. Configure main.tf (using the private EKS template):
+1. Configure main.tf (using the private EKS template):
 
 ```hcl
    module "eks_cluster" {
@@ -208,7 +208,7 @@ git clone https://gitlab.com/fitfile/customers
    }
    ```
 
-6. Configure variables.tf:
+1. Configure variables.tf:
 
 ```hcl
    variable "deployment_key" {
@@ -230,7 +230,7 @@ git clone https://gitlab.com/fitfile/customers
    # Add other necessary variables based on customer requirements
    ```
 
-7. Configure outputs.tf:
+1. Configure outputs.tf:
 
 ```hcl
    output "cluster_endpoint" {
@@ -259,19 +259,19 @@ git clone https://gitlab.com/fitfile/customers
    terraform init -upgrade
 ```
 
-2. Validate configuration:
+1. Validate configuration:
 
 ```bash
    terraform validate
 ```
 
-3. Review planned changes:
+1. Review planned changes:
 
 ```bash
    terraform plan
 ```
 
-4. Apply changes:
+1. Apply changes:
 
 ```bash
    terraform apply
@@ -288,7 +288,7 @@ git clone https://gitlab.com/fitfile/customers
      --output text
 ```
 
-2. Start SSH session:
+1. Start SSH session:
 
 ```bash
    aws ssm start-session \
@@ -297,13 +297,13 @@ git clone https://gitlab.com/fitfile/customers
      --parameters "localPortNumber=55679,portNumber=3389"
 ```
 
-3. Configure RDP access:
+1. Configure RDP access:
    - Open your RDP client
    - Connect to: localhost:55679
    - Username: awsadmin
    - Password: (from terraform output generated_password)
 
-4. Verify cluster access from jumpbox:
+2. Verify cluster access from jumpbox:
 
    ```bash
    # On the jumpbox

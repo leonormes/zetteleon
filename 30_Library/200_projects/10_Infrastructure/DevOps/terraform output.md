@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:56Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:55+00:00
+modified: 2026-01-23T18:09:27+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -124,7 +124,7 @@ ssh -J ${user}@${jump_host} ${user}@${ip}
 eval $(terraform output -raw ssh_command)
 ```
 
-3. Multi-environment handling:
+1. Multi-environment handling:
 
 ```hcl
 output "prod_ssh" {

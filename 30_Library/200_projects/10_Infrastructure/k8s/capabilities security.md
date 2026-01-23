@@ -4,7 +4,7 @@ confidence: ""
 created: 2025-02-07T12:57:54Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:49:52+00:00
+modified: 2026-01-23T18:09:25+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -72,27 +72,27 @@ Capability-Based Security is a robust security model that fundamentally shifts h
 
 ## Key Benefits
 
-- Reduced Privilege Escalation Risk: No omnipotent user (e.g., root) means attackers can’t hijack broad authority.
+- Reduced Privilege Escalation Risk: No omnipotent user (e.g., root) means attackers can't hijack broad authority.
 - Fine-Grained Control: Rights are scoped to specific operations (e.g., "read-only" vs. "full control").
-- Isolation: Failures or compromises in one component don’t cascade, as capabilities restrict lateral movement.
+- Isolation: Failures or compromises in one component don't cascade, as capabilities restrict lateral movement.
 - Formal Verification: Systems like seL4 mathematically prove correctness, eliminating entire classes of vulnerabilities.
 
 ---
 
 ## Implementation Examples
 
-4. seL4 Microkernel:
+1. seL4 Microkernel:
    - A formally verified OS kernel where all interactions require capabilities.
    - Used in aerospace, defense, and medical systems for its unparalleled security guarantees.
    - Proves that capability enforcement is logically sound, avoiding bugs like buffer overflows.
 
-5. Google Fuchsia (Zircon Kernel):
-   - Fuchsia’s kernel uses capabilities to manage devices, memory, and processes.
+2. Google Fuchsia (Zircon Kernel):
+   - Fuchsia's kernel uses capabilities to manage devices, memory, and processes.
    - Designed for modern IoT and edge devices, emphasizing scalability and least privilege.
    - Apps must "discover" capabilities at runtime, reducing static permission bloat.
 
-6. Wasm+WASI:
-   - WebAssembly’s security model leverages capabilities for sandboxed execution (e.g., restricting filesystem access).
+3. Wasm+WASI:
+   - WebAssembly's security model leverages capabilities for sandboxed execution (e.g., restricting filesystem access).
 
 ---
 

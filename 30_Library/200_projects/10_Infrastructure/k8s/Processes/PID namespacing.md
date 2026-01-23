@@ -5,7 +5,7 @@ created: 2025-02-07T12:57:54Z
 epistemic: ""
 id: "PID namespacing"
 last_reviewed: ""
-modified: 2026-01-08T10:49:51+00:00
+modified: 2026-01-23T18:09:25+00:00
 purpose: ""
 review_interval: ""
 see_also: []
@@ -35,7 +35,7 @@ sudo unshare --uts /bin/bash
 
 This will give you a shell in a new UTS namespace. Try changing the hostname and observe how it doesn't affect the host system.
 
-2. Create a PID namespace:
+1. Create a PID namespace:
 
 ```bash
 sudo unshare --pid --fork /bin/bash
@@ -53,7 +53,7 @@ Use `nsenter` to enter existing namespaces:
 docker inspect --format '{{.State.Pid}}' \<container_name\>
 ```
 
-2. Enter the container's namespaces:
+1. Enter the container's namespaces:
 
 ```bash
 sudo nsenter --target \<container_pid\> --mount --uts --ipc --net --pid /bin/bash
@@ -72,7 +72,7 @@ mkdir container-root
 sudo debootstrap --variant=minbase bionic container-root
 ```
 
-2. Use unshare to create isolated namespaces and chroot into the new root:
+1. Use unshare to create isolated namespaces and chroot into the new root:
 
 ```bash
 sudo unshare --mount --uts --ipc --net --pid --fork --user --map-root-user chroot container-root /bin/bash
@@ -93,7 +93,7 @@ sudo ip netns exec mynet ip link
 
 This creates an isolated network stack.
 
-2. Mount namespace:
+1. Mount namespace:
 
 ```bash
 sudo unshare --mount /bin/bash
@@ -130,7 +130,7 @@ sudo unshare --pid --fork /bin/bash
 
 This will give you a shell in a new PID namespace.
 
-2. Inside the new namespace, run:
+1. Inside the new namespace, run:
 
 ```bash
 echo $$
@@ -152,7 +152,7 @@ sleep 8000 &
 ps -ef
 ```
 
-2. Examine the PID ancestry:
+1. Examine the PID ancestry:
 
 ```bash
 sudo cat /proc/\<PID\>/status | grep NSpid
@@ -168,7 +168,7 @@ Replace \\<PID\\> with the PID of a process in the nested namespace.
 sudo lsns --type pid
 ```
 
-2. Enter a specific PID namespace:
+1. Enter a specific PID namespace:
 
 ```bash
 sudo nsenter -t \<PID\> -p -r bash
@@ -184,7 +184,7 @@ Replace \<PID\> with the PID of a process in the target namespace.
 sudo unshare -mipf
 ```
 
-2. Inside the new namespace, run:
+1. Inside the new namespace, run:
 
 ```bash
 echo $$
@@ -203,13 +203,13 @@ Observe how the process tree changes after mounting procfs.
 pstree -S
 ```
 
-2. Create a new PID namespace:
+1. Create a new PID namespace:
 
 ```bash
 sudo unshare -mipf
 ```
 
-3. Inside the new namespace, run:
+1. Inside the new namespace, run:
 
 ```bash
 pstree -S
@@ -232,14 +232,14 @@ int main() {
 }
 ```
 
-2. Compile and run this program in a new PID namespace:
+1. Compile and run this program in a new PID namespace:
 
 ```bash
 gcc -o pid_info pid_info.c
 sudo unshare --pid --fork ./pid_info
 ```
 
-3. Compare the output with running the program directly on the host.
+1. Compare the output with running the program directly on the host.
 
 These exercises will give you hands-on experience with PID namespaces and help you understand how process isolation works in Linux containers.
 
@@ -287,7 +287,7 @@ For a more comprehensive view, you can use the `listns.v3.py` Python script:
 wget https://raw.githubusercontent.com/Intika-Linux-Namespace/Namespace-Lister/master/listns.v3.py
 ```
 
-2. Run the script with sudo:
+1. Run the script with sudo:
 
 ```bash
 sudo python3 listns.v3.py | grep pid:

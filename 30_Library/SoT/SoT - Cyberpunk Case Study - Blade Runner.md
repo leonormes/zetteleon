@@ -4,7 +4,7 @@ confidence: "5/5"
 created: 2025-12-31T00:00:00Z
 epistemic: "Structural analysis of the Blade Runner universe, focusing on its socio-economic and ontological frameworks."
 last_reviewed: "2025-12-31"
-modified: 2026-01-08T10:49:44+00:00
+modified: 2026-01-23T18:09:20+00:00
 purpose: "To document the specific systemic rules and philosophical assertions of the Blade Runner universe as a primary Cyberpunk case study."
 review_interval: "1 year"
 see_also: ["[[SoT - Cyberpunk Genre]]", "[[SoT - Cyberpunk Philosophy]]"]

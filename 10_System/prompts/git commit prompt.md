@@ -1,7 +1,7 @@
 ---
 created: 2026-01-19T18:06:20+00:00
-modified: 2026-01-21T07:36:30+00:00
-title: git commit prompt for surgeon
+modified: 2026-01-23T18:09:32+00:00
+title: git commit prompt
 ---
 
 ## Role
