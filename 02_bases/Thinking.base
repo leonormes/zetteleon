@@ -14,7 +14,10 @@ views:
       - file.tags
       - type
       - file.links
+      - file.size
     sort:
+      - property: file.size
+        direction: DESC
       - property: file.tags
         direction: ASC
       - property: file.ctime

@@ -1,12 +1,18 @@
 ---
-captured: "2026-01-22T20:49:56+00:00 2026-01-22T20:49:56+00:00"
+uid: 2b6f28dd-55a8-4d68-9f96-650ec9f6b5a1
+---
+---
+captured: 2026-01-22T20:49:56+00:00 2026-01-22T20:49:56+00:00
+	- [📱 View in Todoist app](todoist://task?id=6fqP29xmh887JxRv) (Created: 📝 2026-01-23T21:37)
 created: 2026-01-22T20:49:59+00:00
-modified: 2026-01-22T21:18:05+00:00
-source: "https://gemini.google.com/app/fe81e9d71951efd4"
-status: "phase-1"
-tags: ["input"]
+modified: 2026-01-23T21:41:45+00:00
+source: https://gemini.google.com/app/fe81e9d71951efd4
+status: phase-1
+tags:
+  - input
 title: HEAD Can a code code base be represented as a data st...
-type: "head"
+type: head
+uuid: f073cf35-c046-46b9-b1ee-5bc2cb47ad29
 ---
 
 ## Phase 1: Ingestion (The Stream)
@@ -21,7 +27,7 @@ However, a single data structure is rarely enough to capture everything. Instead
 
 ### 1. The Hierarchy of Representations
 
-To represent a whole codebase, we typically layer three different types of structures:
+- [ ] To represent a whole codebase, we typically layer three different types of structures ^2026-01-23T21-37-28
 
 #### A. The Tree: Abstract Syntax Tree (AST)
 
@@ -66,7 +72,7 @@ Would you like me to generate a text-based visual diagram of what the Abstract S
 
 ---
 
-I am trying to work out how best to target an LLM agents focus and therefore minimise context tokens needed for an llm to understand the code it or editing. I want a way to represent the code but also the meaning. The actual user domain. I'm struggling with the idea of what it means to understand a code base
+I am trying to work out how best to target an LLM agents focus and therefore minimise context tokens needed for an llm to understand the code it or editing. I want a way to represent the code but also the meaning. The actual user domain. I'm struggling with the idea of what it means to understand a code base #problem-definition 
 
 ---
 
@@ -166,19 +172,11 @@ style NodeC fill:#eee,stroke:#333,stroke-dasharray: 5 5
 
 Would you like me to show you a Python example of how to use Tree-sitter (a parsing library) to extract these function signatures and build a simple dependency map for a single file?
 
-[Leveraging Knowledge Graphs and LLMs to Document Large Scale Codebases](https://www.youtube.com/watch?v=UKYEv6mPyoQ) This video is highly relevant as it details a real-world implementation (at Lockheed Martin) of using Knowledge Graphs combined with LLMs to map code structure to documentation and meaning.
+- [ ] [Leveraging Knowledge Graphs and LLMs to Document Large Scale Codebases](https://www.youtube.com/watch?v=UKYEv6mPyoQ) This video is highly relevant as it details a real-world implementation (at Lockheed Martin) of using Knowledge Graphs combined with LLMs to map code structure to documentation and meaning. ^2026-01-23T21-41-12
 
 ---
 
-Watch and document this video. Pull out the relevant parts as ideas to try
-
----
-
-I seem to be encountering an error. Can I try something else for you?
-
----
-
-When I am trying to build a mental model of the meaning of the code I realise that the imports exports in a file are not offset of the program. They are for humans to break up the code. Semantically they are not part of the meaning. How much of a programming language is boilerplate just to handle humans needing to understand what is happening
+When I am trying to build a mental model of the meaning of the code I realise that the imports exports in a file are not properties of the program. They are for humans to break up the code. Semantically they are not part of the meaning. How much of a programming language is boilerplate just to handle humans needing to understand what is happening
 
 ---
 

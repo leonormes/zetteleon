@@ -1,13 +1,11 @@
 ---
 created: 2026-01-23T07:11:56+00:00
-modified: 2026-01-23T18:09:35+00:00
+modified: 2026-01-23T20:20:36+00:00
 tags: [agent-builder-templates, articles]
 title: Deploy agents instantly with Agent Builder templates
 ---
 
 ## Deploy Agents Instantly with Agent Builder Templates
-
-![rw-book-cover](https://www.blog.langchain.com/content/images/size/w1200/2026/01/LangSmith-Agent-Builder.png)
 
 ### Metadata
 
@@ -35,15 +33,15 @@ We built these templates with the companies who know their domains best, includi
 
 ![Agent Builder partners](https://www.blog.langchain.com/content/images/2026/01/Partner-logo-banner-7.png)Agent Builder partners
 
-**Try out these agent templates today:**
+Try out these agent templates today:
 
-- **Calendar Brief (Google Calendar):** Reviews your calendar each morning and sends you a summary with research on meeting participants.
-- **Email Assistant (Gmail):** Categorizes your emails and drafts replies for your approval.
-- **Incident Responder (PagerDuty):** Analyzes alerts, cross-references your runbook, and recommends actions.
-- **Document intake review (Box):** Reviews file submissions and prepares a summary for your approval.
-- **Talent sourcing (Exa):** Searches LinkedIn based on your job description and sends recommended candidate profiles.
-- **Competitor research (Tavily):** Conducts deep competitive research and delivers concise reports.
-- **Social Media Monitor (X + Slack):** Monitors X and sends a daily digest to Slack with the latest news.
+- Calendar Brief (Google Calendar): Reviews your calendar each morning and sends you a summary with research on meeting participants.
+- Email Assistant (Gmail): Categorizes your emails and drafts replies for your approval.
+- Incident Responder (PagerDuty): Analyzes alerts, cross-references your runbook, and recommends actions.
+- Document intake review (Box): Reviews file submissions and prepares a summary for your approval.
+- Talent sourcing (Exa): Searches LinkedIn based on your job description and sends recommended candidate profiles.
+- Competitor research (Tavily): Conducts deep competitive research and delivers concise reports.
+- Social Media Monitor (X + Slack): Monitors X and sends a daily digest to Slack with the latest news.
 
 > _"Agents are a powerful way to turn unstructured content into usable data. Across enterprises, a lot of document work is still manual today: checking completeness, validating accuracy, and extracting context for decision making. By combining the power of Box and Agent Builder, we are making it easy to add an agent to that loop, so teams can focus their time on decisions, not busywork."_
 > —Ben Kus, CTO, Box

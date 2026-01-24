@@ -1,9 +1,9 @@
+filters:
+  and:
+    - file.inFolder("00_Inbox")
 views:
   - type: list
     name: Table
-    filters:
-      and:
-        - file.folder.contains("00_Inbox")
     order:
       - file.name
       - tags
@@ -13,3 +13,8 @@ views:
     columnSize:
       file.name: 469
     indentProperties: false
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.inFolder("00_Inbox/Readwise")

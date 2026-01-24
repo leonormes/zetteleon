@@ -1,11 +1,11 @@
 ---
 captured: 2026-01-20T14:35:35+00:00 2026-01-20T14:35:35+00:00
 created: 2026-01-20T14:35:44+00:00
-modified: 2026-01-23T18:09:14+00:00
+modified: 2026-01-24T09:46:15+00:00
 source: https://gemini.google.com/app/fe81e9d71951efd4
 status: processed
 tags: [input]
-title: HEAD Can a whole code base be represented as a data st...
+title: HEAD Can a whole code base be represented as a data structure
 type: head
 ---
 
@@ -163,14 +163,6 @@ graph TD
 Would you like me to show you a Python example of how to use Tree-sitter (a parsing library) to extract these function signatures and build a simple dependency map for a single file?
 
 [Leveraging Knowledge Graphs and LLMs to Document Large Scale Codebases](https://www.youtube.com/watch?v=UKYEv6mPyoQ) This video is highly relevant as it details a real-world implementation (at Lockheed Martin) of using Knowledge Graphs combined with LLMs to map code structure to documentation and meaning.
-
----
-
-Watch and document this video. Pull out the relevant parts as ideas to try
-
----
-
-I seem to be encountering an error. Can I try something else for you?
 
 ---
 

@@ -1,18 +1,18 @@
 ---
 created: 2026-01-23T14:01:20+00:00
-modified: 2026-01-23T19:27:37+00:00
+modified: 2026-01-23T20:11:19+00:00
 title: The Secret Already Exists and is Correct
 ---
 
 ## The Secret Already Exists and is Correct
 
-You don't need to copy anything - the `VaultDynamicSecret` you created earlier **successfully generated the secret**. The error you're seeing is because `argocd-acr-pull-secret` is **not a Docker config secret** - it's an ArgoCD Helm repository secret with a different structure.
+You don't need to copy anything - the `VaultDynamicSecret` you created earlier successfully generated the secret. The error you're seeing is because `argocd-acr-pull-secret` is not a Docker config secret - it's an ArgoCD Helm repository secret with a different structure.
 
 ---
 
 ## The Real Problem: Old Pods Don't Have the Secret
 
-Your pods are still failing because they were created **before** you patched the service accounts. Kubernetes doesn't automatically update running pods when you change their service account.
+Your pods are still failing because they were created before you patched the service accounts. Kubernetes doesn't automatically update running pods when you change their service account.
 
 ---
 
@@ -50,7 +50,7 @@ echo "Testing credentials:"
 echo "$ACR_PASS" | docker login fitfileregistry.azurecr.io -u "$ACR_USER" --password-stdin
 ```
 
-**If the login fails with 401**, the Azure SP credentials have expired. In that case, delete the `VaultDynamicSecret` to force VSO to regenerate fresh credentials:
+If the login fails with 401, the Azure SP credentials have expired. In that case, delete the `VaultDynamicSecret` to force VSO to regenerate fresh credentials:
 
 ```bash
 kubectl -n spicedb delete vaultdynamicsecret spicedb-acr-pull
@@ -76,7 +76,7 @@ spec:
     type: kubernetes.io/dockerconfigjson
     transformation:
       excludes:
-        - ".*"
+        - "."
       templates:
         .dockerconfigjson:
           text: |
@@ -98,4 +98,4 @@ kubectl -n spicedb get secret fitfile-image-pull-secret
 
 ---
 
-**Run the pod deletion commands and paste the output of `kubectl -n spicedb get pods` after 30 seconds.** If pods still fail, paste the output of the `docker login` test command.
+Run the pod deletion commands and paste the output of `kubectl -n spicedb get pods` after 30 seconds. If pods still fail, paste the output of the `docker login` test command.
