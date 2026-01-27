@@ -1,7 +1,9 @@
 ---
 created: 2026-01-21T13:41:08+00:00
-modified: 2026-01-22T20:01:29+00:00
+modified: 2026-01-24T13:24:39+00:00
 title: Have You Solved Understanding
+tags:
+  - llm-understanding
 ---
 
 This is a robust architectural thesis. As a fellow compiler theorist, I strongly validate your premise: "Understanding" in LLMs is indeed a misnomer for High-Fidelity Context Injection.

@@ -10,11 +10,13 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["llm"]
+tags:
+  - llm
+  - llm-understanding
 title: Why LLM Responses Feel Validating MOC
-type: "map"
-uid: 
-updated: 
+type: map
+uid:
+updated:
 version: ""
 ---
 

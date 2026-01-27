@@ -1,7 +1,9 @@
 ---
 created: 2026-01-17T15:29:38+00:00
-modified: 2026-01-23T18:09:35+00:00
+modified: 2026-01-24T13:22:44+00:00
 title: Grand Unifying Theory of Code Generation
+tags:
+  - llm-understanding
 ---
 
 Based on our conversation, here is the prioritized task list to operationalise your "Grand Unifying Theory" (GUT) of code generation.

@@ -1,24 +1,22 @@
 ---
 aliases: []
-confidence: null
+confidence:
 created: 2025-10-16T08:19:54Z
-epistemic: null
-last_reviewed: null
+epistemic:
+last_reviewed:
 modified: 2026-01-23T18:09:33+00:00
-purpose: >-
-  Provides an LLM with a comprehensive understanding of the Getting Things Done
-  (GTD) methodology, including its core principles, workflow phases, and the six
-  horizons of focus, to enable effective task planning and management.
-review_interval: null
+purpose: Provides an LLM with a comprehensive understanding of the Getting Things Done (GTD) methodology, including its core principles, workflow phases, and the six horizons of focus, to enable effective task planning and management.
+review_interval:
 see_also: []
 source_of_truth: []
-status: null
-tags: []
+status:
+tags:
+  - llm-understanding
 title: LLM GTD Context
 type: prompt
-uid: null
-updated: null
-version: '1'
+uid:
+updated:
+version: "1"
 ---
 
 ## LLM Planning Context Prompt: Getting Things Done (GTD) and Making It All Work

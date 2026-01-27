@@ -1,10 +1,11 @@
 ---
 captured: 2026-01-18T08:08:23+00:00 2026-01-18T08:08:23+00:00
 created: 2026-01-18T08:08:30+00:00
-modified: 2026-01-23T18:09:13+00:00
+modified: 2026-01-24T13:19:51+00:00
 source: https://gemini.google.com/share/380334443522
 status: phase-1
-tags: [12, 13, input]
+tags:
+  - llm-understanding
 title: LLM Codebase Comprehension Roadmap
 type: head
 uid: 422c2f46-509b-4bdc-a0ab-5cfc3c90fb48

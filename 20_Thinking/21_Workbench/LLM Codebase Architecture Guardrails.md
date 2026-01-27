@@ -1,12 +1,14 @@
 ---
-captured: "2026-01-23T11:18:18+00:00 2026-01-23T11:18:18+00:00"
+captured: 2026-01-23T11:18:18+00:00 2026-01-23T11:18:18+00:00
 created: 2026-01-23T11:18:22+00:00
 modified: 2026-01-23T21:07:27+00:00
-source: "https://gemini.google.com/share/c7f963be05e8"
-status: "phase-1"
-tags: ["input"]
+source: https://gemini.google.com/share/c7f963be05e8
+status: phase-1
+tags:
+  - input
+  - llm-understanding
 title: LLM Codebase Architecture Guardrails
-type: "head"
+type: head
 ---
 
 ## Phase 1: Ingestion (The Stream)

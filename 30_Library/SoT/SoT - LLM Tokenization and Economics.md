@@ -9,8 +9,7 @@ created: 2025-12-26T15:00:00Z
 epistemic: Technical/Mechanical
 last_reviewed: 2025-12-26
 modified: 2026-01-08T10:49:42+00:00
-purpose: "Defining the fundamental unit of LLM processing: the Token. Covers
-  architectural trade-offs, encoding/decoding, and economic implications."
+purpose: "Defining the fundamental unit of LLM processing: the Token. Covers architectural trade-offs, encoding/decoding, and economic implications."
 review_interval: 6 months
 see_also:
   - "[[MOC - LLM-Augmented Thinking]]"
@@ -24,10 +23,11 @@ tags:
   - llm
   - SoftwareEngineering/Architecture
   - tokenization
+  - llm-understanding
 title: SoT - LLM Tokenization and Economics
 type: SoT
-uid: null
-updated: null
+uid:
+updated:
 "see_also:": |-
   
   - [[SoT - Word Embeddings and Vector Spaces]]

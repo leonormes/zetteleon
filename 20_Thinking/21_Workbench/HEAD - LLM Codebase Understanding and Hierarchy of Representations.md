@@ -1,7 +1,10 @@
 ---
 created: 2026-01-24T08:42:45+00:00
-modified: 2026-01-24T09:44:22+00:00
+modified: 2026-01-24T13:18:37+00:00
 title: HEAD - LLM Codebase Understanding and Hierarchy of Representations
+type: SoT
+tags:
+  - llm-understanding
 ---
 
 This note synthesizes key concepts regarding how Large Language Models (LLMs) "understand" a codebase, moving beyond simple text processing to structural and semantic reasoning.
@@ -231,7 +234,7 @@ To prevent "Perspective Drift," any neuro-symbolic agent must implement a binary
 1. Input: Request + Dependency Subgraph.
 2. Output: LLM-generated code.
 3. Verification: Run `ast-grep` or `tree-sitter` on the output. If a symbol is called that is not present in the RIG, the state is REJECTED and fed back into the loop as an error signal.
-1. Anthropomorphism audit—3 concrete violations
+4. Anthropomorphism audit—3 concrete violations
 
 (A) "The LLM sees the signature and thinks…"
 

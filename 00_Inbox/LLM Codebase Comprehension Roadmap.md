@@ -1,7 +1,9 @@
 ---
 created: 2026-01-24T08:29:36+00:00
-modified: 2026-01-24T09:53:18+00:00
+modified: 2026-01-24T13:19:10+00:00
 title: LLM Codebase Comprehension Roadmap
+tags:
+  - llm-understanding
 ---
 
 ## Executive Summary

@@ -10,11 +10,13 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["TheHuman/Health/ADHD"]
+tags:
+  - TheHuman/Health/ADHD
+  - llm-understanding
 title: Mindful LLM Research Workflow for ADHD
 type: "null"
-uid: 
-updated: 
+uid:
+updated:
 version: "null"
 ---
 

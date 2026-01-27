@@ -1,7 +1,9 @@
 ---
 created: 2026-01-24T08:35:00+00:00
-modified: 2026-01-24T08:35:27+00:00
+modified: 2026-01-24T13:18:53+00:00
 title: Untitled
+tags:
+  - llm-understanding
 ---
 
 ## LLM Agent Roles and Specialisations in Software Development

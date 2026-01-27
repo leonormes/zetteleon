@@ -10,11 +10,12 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: []
+tags:
+  - llm-understanding
 title: Code Comprehension vs. Language Processing
 type: ""
-uid: 
-updated: 
+uid:
+updated:
 version: ""
 ---
 

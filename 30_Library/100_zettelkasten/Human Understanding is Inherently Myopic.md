@@ -10,11 +10,12 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: []
+tags:
+  - llm-understanding
 title: Human Understanding is Inherently Myopic
 type: ""
-uid: 
-updated: 
+uid:
+updated:
 version: ""
 ---
 

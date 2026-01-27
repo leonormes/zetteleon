@@ -10,11 +10,15 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["authority", "SoftwareEngineering/AI", "TheHuman/Psychology"]
+tags:
+  - authority
+  - SoftwareEngineering/AI
+  - TheHuman/Psychology
+  - llm-understanding
 title: LLMs simulate expertise to generate validation
 type: "null"
-uid: 
-updated: 
+uid:
+updated:
 version: "null"
 ---
 

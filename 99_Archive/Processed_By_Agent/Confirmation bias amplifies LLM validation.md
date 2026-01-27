@@ -10,11 +10,12 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: []
+tags:
+  - llm-understanding
 title: Confirmation bias amplifies LLM validation
 type: ""
-uid: 
-updated: 
+uid:
+updated:
 version: ""
 ---
 

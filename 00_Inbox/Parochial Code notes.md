@@ -1,7 +1,9 @@
 ---
 created: 2026-01-15T21:32:45+00:00
-modified: 2026-01-21T07:42:10+00:00
+modified: 2026-01-24T13:23:17+00:00
 title: Parochial Code notes
+tags:
+  - llm-understanding
 ---
 
 ## [[The Core Problem Parochial Code]]

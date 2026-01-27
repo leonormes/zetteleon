@@ -1,12 +1,14 @@
 ---
-captured: "2026-01-23T10:16:55+00:00 2026-01-23T10:16:55+00:00"
+captured: 2026-01-23T10:16:55+00:00 2026-01-23T10:16:55+00:00
 created: 2026-01-23T10:17:04+00:00
 modified: 2026-01-23T11:13:00+00:00
-source: "https://gemini.google.com/share/73486b0bc6a3"
-status: "phase-1"
-tags: ["input"]
+source: https://gemini.google.com/share/73486b0bc6a3
+status: phase-1
+tags:
+  - input
+  - llm-understanding
 title: AI Code Understanding and Quality
-type: "head"
+type: head
 ---
 
 ## Phase 1: Ingestion (The Stream)

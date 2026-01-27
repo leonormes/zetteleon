@@ -10,11 +10,15 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["defect", "programming", "refactoring"]
+tags:
+  - defect
+  - programming
+  - refactoring
+  - llm-understanding
 title: Duplication in Code Can Indicate Underlying Problems
-type: "documentation"
-uid: 
-updated: 
+type: documentation
+uid:
+updated:
 version: ""
 ---
 

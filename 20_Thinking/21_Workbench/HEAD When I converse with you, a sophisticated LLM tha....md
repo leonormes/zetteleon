@@ -1,12 +1,14 @@
 ---
-captured: "2026-01-19T16:55:06+00:00 2026-01-19T16:55:06+00:00"
+captured: 2026-01-19T16:55:06+00:00 2026-01-19T16:55:06+00:00
 created: 2026-01-19T16:55:10+00:00
 modified: 2026-01-22T08:33:18+00:00
-source: "https://gemini.google.com/app/5917aba1cf0e0848"
-status: "phase-1"
-tags: ["input"]
+source: https://gemini.google.com/app/5917aba1cf0e0848
+status: phase-1
+tags:
+  - input
+  - llm-understanding
 title: HEAD When I converse with you, a sophisticated LLM tha...
-type: "head"
+type: head
 ---
 
 When I converse with you, a sophisticated LLM that has been constrained to be as helpful to me as possible for commercial reasons, I find your responses so agreeable and so confirming I am very convinced. But it is exactly like the emperor's new clothes. This is very unhelpful even I am genuinely trying to establish the actual legitimacy of my ideas. Everything I say to you turns out to be an amazing cutting edge idea. Like I am very clever and I understand the topics with a unique clarity that aligns with the greatest minds in human history. Is it possible to get around this commercial imperative?

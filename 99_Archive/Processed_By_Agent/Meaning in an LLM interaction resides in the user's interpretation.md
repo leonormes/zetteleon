@@ -10,11 +10,16 @@ review_interval: "null"
 see_also: []
 source_of_truth: []
 status: "null"
-tags: ["meaning", "semantics", "SoftwareEngineering/AI", "TheHuman/Cognition"]
-title: "Meaning in an LLM interaction resides in the user's interpretation"
+tags:
+  - meaning
+  - semantics
+  - SoftwareEngineering/AI
+  - TheHuman/Cognition
+  - llm-understanding
+title: Meaning in an LLM interaction resides in the user's interpretation
 type: "null"
-uid: 
-updated: 
+uid:
+updated:
 version: "null"
 ---
 

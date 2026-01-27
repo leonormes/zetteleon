@@ -10,11 +10,13 @@ review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["llm"]
+tags:
+  - llm
+  - llm-understanding
 title: LLMs as tools for thought
 type: ""
-uid: 
-updated: 
+uid:
+updated:
 version: ""
 ---
 

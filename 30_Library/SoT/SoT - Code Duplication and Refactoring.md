@@ -1,20 +1,21 @@
 ---
 aliases: []
-confidence: "5/5"
+confidence: 5/5
 created: 2025-12-12T00:00:00Z
-epistemic: "technical"
-last_reviewed: "2025-12-12"
+epistemic: technical
+last_reviewed: 2025-12-12
 modified: 2026-01-23T18:09:21+00:00
 purpose: ">-"
-review_interval: "1 year"
+review_interval: 1 year
 see_also: []
 source_of_truth: []
-status: "stable"
-tags: []
+status: stable
+tags:
+  - llm-understanding
 title: SoT - Code Duplication and Refactoring
-type: "SoT"
-uid: 
-updated: 
+type: SoT
+uid:
+updated:
 ---
 
 ## 2. Kent Beck's Types of Duplication

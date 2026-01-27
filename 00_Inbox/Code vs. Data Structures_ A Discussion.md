@@ -1,4 +1,9 @@
-# **The Primacy of Data: An Architectural and Epistemological Analysis of Structural Integrity in Software Engineering**
+---
+tags:
+  - llm-understanding
+created: 2026-01-24T08:28:03+00:00
+modified: 2026-01-24T13:22:27+00:00
+---
 
 ## **1\. Introduction: The Ontology of Software Design**
 

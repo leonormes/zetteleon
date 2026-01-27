@@ -1,7 +1,12 @@
 ---
 created: 2026-01-21T10:11:42+00:00
 modified: 2026-01-23T08:01:31+00:00
-tags: [architecture, knowledge-management, llm, theory]
+tags:
+  - architecture
+  - knowledge-management
+  - llm
+  - theory
+  - llm-understanding
 title: SoT - Semantic Code Graph
 ---
 

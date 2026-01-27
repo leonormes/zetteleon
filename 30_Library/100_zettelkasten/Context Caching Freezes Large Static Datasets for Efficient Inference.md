@@ -1,16 +1,24 @@
 ---
-aliases: ["Frozen Context", "Token Caching"]
-confidence: 1.0
+aliases:
+  - Frozen Context
+  - Token Caching
+confidence: 1
 created: 2026-01-08T16:10:00Z
 epistemic: fact
 last_reviewed: 2026-01-08
 modified: 2026-01-23T18:09:32+00:00
-purpose: "To maintain high-quality LLM reasoning while reducing token costs for large static datasets."
+purpose: To maintain high-quality LLM reasoning while reducing token costs for large static datasets.
 review_interval: 90
-see_also: ["[[SoT - RPI Workflow (Research, Plan, Implement)]]"]
-source_of_truth: ["[[00_Inbox/Context Caching.md]]"]
+see_also:
+  - "[[SoT - RPI Workflow (Research, Plan, Implement)]]"
+source_of_truth:
+  - "[[00_Inbox/Context Caching.md]]"
 status: evergreen
-tags: ["context-engineering", "economics", "llm"]
+tags:
+  - context-engineering
+  - economics
+  - llm
+  - llm-understanding
 title: Context Caching Freezes Large Static Datasets for Efficient Inference
 type: concept
 uid: 2026-01-08T16:10:00Z

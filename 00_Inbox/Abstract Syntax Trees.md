@@ -1,7 +1,9 @@
 ---
 created: 2026-01-19T00:06:09+00:00
-modified: 2026-01-20T15:59:24+00:00
+modified: 2026-01-24T13:28:12+00:00
 title: Abstract Syntax Trees
+tags:
+  - llm-understanding
 ---
 
 In the context of Advanced Models for filesystem and code retrieval architectures, Abstract Syntax Trees (ASTs) represent the critical transition from treating code as "flat text" to treating it as structured data.
