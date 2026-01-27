@@ -1,12 +1,12 @@
 ---
 created: 2026-01-27T11:38:36+00:00
-modified: 2026-01-27T12:24:36+00:00
+modified: 2026-01-27T13:39:06+00:00
 ---
 # Vault Secrets: cuh-prod-1 Deployment
 
 ## KV Tree Structure for `/v1/admin/deployments/cuh-prod-1/secrets/data/`
 
-```
+```sh
 deployments/cuh-prod-1/secrets/
 ├── application (20 keys)
 │   ├── auth0_audience
