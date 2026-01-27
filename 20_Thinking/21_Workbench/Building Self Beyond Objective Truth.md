@@ -10,8 +10,10 @@ review_interval: ""
 see_also: []
 source: https://gemini.google.com/share/0bf03c7ce4b5
 source_of_truth: []
-status: active
-tags: [clipped, llm_session]
+status: processing
+tags:
+  - clipped
+  - llm_session
 title: Building Self Beyond Objective Truth
 type: head
 uid:

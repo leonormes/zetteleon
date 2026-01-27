@@ -1,19 +1,21 @@
 ---
 aliases: []
-confidence: null
+confidence:
 created: 2025-12-04T12:02:41Z
-epistemic: null
-last_reviewed: null
+epistemic:
+last_reviewed:
 modified: 2026-01-23T19:32:33+00:00
-purpose: null
-review_interval: null
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-tags: [state/thinking]
+tags:
+  - state/thinking
 title: Azure Platform Deployment Guide
 type: head
-uid: null
-updated: null
+uid:
+updated:
+status: processing
 ---
 
 ## Phase 1: Ingestion (The Stream)

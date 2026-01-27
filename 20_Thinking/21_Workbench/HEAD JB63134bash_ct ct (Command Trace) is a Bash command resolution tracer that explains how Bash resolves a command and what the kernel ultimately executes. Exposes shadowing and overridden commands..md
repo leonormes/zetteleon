@@ -1,12 +1,13 @@
 ---
-captured: "2026-01-22T20:38:31+00:00 2026-01-22T20:38:31+00:00"
+captured: 2026-01-22T20:38:31+00:00 2026-01-22T20:38:31+00:00
 created: 2026-01-22T20:38:34+00:00
 modified: 2026-01-22T20:38:52+00:00
-source: "https://github.com/JB63134/bash_ct"
-status: "phase-1"
-tags: ["input"]
+source: https://github.com/JB63134/bash_ct
+status: processing
+tags:
+  - input
 title: HEAD JB63134bash_ct ct (Command Trace) is a Bash command resolution tracer that explains how Bash resolves a command and what the kernel ultimately executes. Exposes shadowing and overridden commands.
-type: "head"
+type: head
 ---
 
 ## Phase 1: Ingestion (The Stream)

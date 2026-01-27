@@ -12,8 +12,6 @@ views:
       - file.name
       - status
       - file.tags
-      - type
-      - file.links
       - file.size
     sort:
       - property: file.size
@@ -24,6 +22,7 @@ views:
         direction: ASC
     columnSize:
       file.name: 414
+      file.tags: 303
   - type: table
     name: Active Work HEADs
     filters:

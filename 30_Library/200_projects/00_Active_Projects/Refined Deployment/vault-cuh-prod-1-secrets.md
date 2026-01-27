@@ -1,10 +1,12 @@
 ---
 created: 2026-01-27T11:38:36+00:00
-modified: 2026-01-27T13:39:06+00:00
+modified: 2026-01-27T15:51:30+00:00
+title: vault-cuh-prod-1-secrets
 ---
-# Vault Secrets: cuh-prod-1 Deployment
 
-## KV Tree Structure for `/v1/admin/deployments/cuh-prod-1/secrets/data/`
+## Vault Secrets: Cuh-prod-1 Deployment
+
+### KV Tree Structure for `/v1/admin/deployments/cuh-prod-1/secrets/data/`
 
 ```sh
 deployments/cuh-prod-1/secrets/
@@ -74,9 +76,10 @@ deployments/cuh-prod-1/secrets/
 └── thehyve (0 keys - empty)
 ```
 
-## Policies Applied
+### Policies Applied
 
-### Current Token Policies
+#### Current Token Policies
+
 The `hcp-root` policy grants **full access** to all paths:
 
 ```hcl
@@ -86,13 +89,15 @@ path "*" {
 }
 ```
 
-### Capabilities for Each Secret Path
+#### Capabilities for Each Secret Path
+
 All secrets under `deployments/cuh-prod-1/secrets/` have **identical capabilities** due to the wildcard `hcp-root` policy:
 
 - **Data path**: `create, delete, list, patch, read, subscribe, sudo, update`
 - **Metadata path**: `create, delete, list, patch, read, subscribe, sudo, update`
 
-### Other Relevant Policies in Namespace
+#### Other Relevant Policies in Namespace
+
 The following policies exist in the `admin` namespace that could be assigned to other service accounts:
 
 - **`argocd-secrets-lca-prd-2`**: Read-only access to `deployments/lca-prd-2/secrets/data/*`
@@ -103,7 +108,7 @@ The following policies exist in the `admin` namespace that could be assigned to 
 - **`engine-policy`**: Secrets engine mounting capabilities
 - **`tester`**: Limited test environment access
 
-## Notes
+### Notes
 
 - No specific restrictive policies exist for the `cuh-prod-1` deployment path
 - Access is currently controlled only by the root-level `hcp-root` policy
@@ -111,7 +116,7 @@ The following policies exist in the `admin` namespace that could be assigned to 
 - Most secrets follow a pattern of storing database credentials and service authentication tokens
 - The `application` secret is the most comprehensive, containing Auth0, MongoDB, PostgreSQL, S3, and SpiceDB credentials
 
-## Metadata
+### Metadata
 
 - **Namespace**: `admin`
 - **Path**: `deployments/cuh-prod-1/secrets/`

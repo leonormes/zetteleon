@@ -3,7 +3,7 @@ captured: 2026-01-19T16:55:06+00:00 2026-01-19T16:55:06+00:00
 created: 2026-01-19T16:55:10+00:00
 modified: 2026-01-22T08:33:18+00:00
 source: https://gemini.google.com/app/5917aba1cf0e0848
-status: phase-1
+status: processing
 tags:
   - input
   - llm-understanding

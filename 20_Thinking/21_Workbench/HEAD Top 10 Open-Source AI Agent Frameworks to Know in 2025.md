@@ -1,12 +1,13 @@
 ---
-captured: "2026-01-19T15:47:29+00:00 2026-01-19T15:47:29+00:00"
+captured: 2026-01-19T15:47:29+00:00 2026-01-19T15:47:29+00:00
 created: 2026-01-19T15:47:33+00:00
 modified: 2026-01-23T18:09:13+00:00
-source: "https://odsc.medium.com/top-10-open-source-ai-agent-frameworks-to-know-in-2025-c739854ec859"
-status: "phase-1"
-tags: ["input"]
+source: https://odsc.medium.com/top-10-open-source-ai-agent-frameworks-to-know-in-2025-c739854ec859
+status: processing
+tags:
+  - input
 title: HEAD Top 10 Open-Source AI Agent Frameworks to Know in 2025
-type: "head"
+type: head
 ---
 
 ## Phase 1: Ingestion (The Stream)

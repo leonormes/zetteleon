@@ -1,6 +1,7 @@
 ---
 aliases: []
-author: ["[[Gemini]]"]
+author:
+  - "[[Gemini]]"
 confidence:
 created: 2025-12-09T00:00:00Z
 description: Created with Gemini
@@ -13,8 +14,9 @@ review_interval:
 see_also: []
 source: https://gemini.google.com/share/af06ca652da4
 source_of_truth: []
-status: active
-tags: [clippings]
+status: processing
+tags:
+  - clippings
 title: HEAD - The Demarcation Gap
 type: head
 uid:

@@ -1,12 +1,13 @@
 ---
-captured: "2026-01-22T20:49:04+00:00 2026-01-22T20:49:04+00:00"
+captured: 2026-01-22T20:49:04+00:00 2026-01-22T20:49:04+00:00
 created: 2026-01-22T20:49:09+00:00
 modified: 2026-01-24T13:16:26+00:00
-source: "https://gemini.google.com/share/fb3a3f1de159"
-status: "phase-1"
-tags: ["input"]
+source: https://gemini.google.com/share/fb3a3f1de159
+status: processing
+tags:
+  - input
 title: Abstracting Problems Data and Transformations
-type: "head"
+type: head
 ---
 
 ## Phase 1: Ingestion (The Stream)

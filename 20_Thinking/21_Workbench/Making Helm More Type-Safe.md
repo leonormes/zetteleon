@@ -3,7 +3,7 @@ captured: 2026-01-24T22:20:09+00:00 2026-01-24T22:20:09+00:00
 created: 2026-01-24T22:20:13+00:00
 modified: 2026-01-27T08:17:27+00:00
 source: https://gemini.google.com/share/ed5c2a1cbb9a
-status: phase-1
+status: processing
 tags:
   - input
 title: Helm YAML Advanced Features & Tricks

@@ -1,12 +1,13 @@
 ---
-captured: "2026-01-19T16:13:16+00:00 2026-01-19T16:13:16+00:00"
+captured: 2026-01-19T16:13:16+00:00 2026-01-19T16:13:16+00:00
 created: 2026-01-19T16:13:18+00:00
 modified: 2026-01-23T18:09:13+00:00
-source: "https://nx.dev/blog/git-worktrees-ai-agents"
-status: "phase-1"
-tags: ["input"]
+source: https://nx.dev/blog/git-worktrees-ai-agents
+status: processing
+tags:
+  - input
 title: HEAD How Git Worktrees Changed My AI Agent Workflow
-type: "head"
+type: head
 ---
 
 ## Phase 1: Ingestion (The Stream)

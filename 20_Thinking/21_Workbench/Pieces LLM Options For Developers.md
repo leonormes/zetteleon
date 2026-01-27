@@ -3,8 +3,10 @@ captured: 2026-01-27T08:09:04+00:00 2026-01-27T08:09:04+00:00
 created: 2026-01-27T08:09:09+00:00
 modified: 2026-01-27T09:56:24+00:00
 source: https://gemini.google.com/share/84e7da102b4d
-status: phase-1
-tags: [input, llm]
+status: processing
+tags:
+  - input
+  - llm
 title: Pieces LLM Options For Developers
 type: head
 ---

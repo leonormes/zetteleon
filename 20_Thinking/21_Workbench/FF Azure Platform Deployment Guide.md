@@ -1,12 +1,13 @@
 ---
-captured: "2026-01-20T14:28:18+00:00 2026-01-20T14:28:18+00:00"
+captured: 2026-01-20T14:28:18+00:00 2026-01-20T14:28:18+00:00
 created: 2026-01-20T14:28:29+00:00
 modified: 2026-01-23T21:02:33+00:00
-source: "https://gemini.google.com/share/68a664b4ba44"
-status: "phase-1"
-tags: ["input"]
+source: https://gemini.google.com/share/68a664b4ba44
+status: processing
+tags:
+  - input
 title: FF Azure Platform Deployment Guide
-type: "head"
+type: head
 ---
 
 turn this into markdown. I need the instructions but not the screenshots

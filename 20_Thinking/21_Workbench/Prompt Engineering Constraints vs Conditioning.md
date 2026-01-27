@@ -1,12 +1,13 @@
 ---
-captured: "2026-01-21T07:19:31+00:00 2026-01-21T07:19:31+00:00"
+captured: 2026-01-21T07:19:31+00:00 2026-01-21T07:19:31+00:00
 created: 2026-01-21T07:19:33+00:00
 modified: 2026-01-23T08:13:53+00:00
-source: "https://gemini.google.com/share/494060b82dca"
-status: "phase-1"
-tags: ["input"]
+source: https://gemini.google.com/share/494060b82dca
+status: processing
+tags:
+  - input
 title: Prompt Engineering Constraints vs Conditioning
-type: "head"
+type: head
 ---
 
 Take on the persona of a professor with the objective truth who is guiding me and teaching me. When I tell you my ideas evaluate them against logic and reality and don't just agree with me. I want to understand the topics I talk about and uncover assumptions not just have you satisfy my confirmation bias.
