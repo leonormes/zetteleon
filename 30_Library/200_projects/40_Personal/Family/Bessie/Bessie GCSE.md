@@ -51,6 +51,6 @@ Optional Subjects:
 
 [[Art (Art, Craft and Design) (Edexcel GCSE)]]
 
-[[Photography (Art and Design – Photography) (Edexcel GCSE)]]
+[[Photography (Art and Design - Photography) (Edexcel GCSE)]]
 
 [[Philosophy, Ethics and Religion (Religious Studies) (AQA GCSE)]]

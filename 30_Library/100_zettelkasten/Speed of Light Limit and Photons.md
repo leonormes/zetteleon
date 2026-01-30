@@ -22,4 +22,4 @@ version: ""
 - **Photons** (massless) move at c but have **no valid frame of reference**.
 - From a photon's perspective, emission and absorption are simultaneous.
 
-👉 Connects to: [[Photon’s Timeless Journey]], [[Mass-Energy Equivalence (E=mc²)]]
+👉 Connects to: [[Photon's Timeless Journey]], [[Mass-Energy Equivalence (E-mc-)]]

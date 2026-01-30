@@ -21,7 +21,7 @@ updated:
 
 This protocol is the **Methodological Implementation** of the broader Data-Centric philosophy. It translates abstract principles into a concrete workflow.
 
-- **The Axiom (Physics):** **[[SoT - Data-Centric Software Engineering]]**—_Structure is truth; Code is a derivative._
+- **The Axiom (Physics):** **[[SoT - Data-Oriented Design]]**—_Structure is truth; Code is a derivative._
 - **The Theory (Math):** **[[MOC - Type Theory]]**—_Using Category Theory (Sum/Product types) to model that structure rigorosuly._
 - **The Practice (Method):** **[[SoT - Type-Driven Development (The Torvalds Loop)]]**—_The strict 4-phase protocol to execute the design._
 

@@ -23,4 +23,4 @@ Because light speed is constant, our concepts of space and time must shift.
 - **Time Dilation**: Moving clocks tick slower [measured in experiments with atomic clocks].
 - **Length Contraction**: Objects appear shorter in motion.
 
-👉 Connects to: [[Two Postulates of Special Relativity]], [[Relativity of Simultaneity]], [[Photon’s Timeless Journey]]
+👉 Connects to: [[Two Postulates of Special Relativity]], [[Relativity of Simultaneity]], [[Photon's Timeless Journey]]

@@ -24,4 +24,4 @@ Relativity implies:
 - The "flow of time" is a human illusion.
 - The universe is a fixed 4D block of spacetime.
 
-👉 Connects to: [[General Relativity (Gravity as Curvature)]], [[Photon’s Timeless Journey]]
+👉 Connects to: [[General Relativity (Gravity as Curvature)]], [[Photon's Timeless Journey]]

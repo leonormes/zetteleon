@@ -21,7 +21,7 @@ version: "null"
 
 [[ADHD Brain Wiring vs. Classic Productivity Systems]]
 
-[[Plan To Plan—Just-In-Time for ADHD]]
+[[Plan To Plan-Just-In-Time for ADHD]]
 
 [[The Done State as a Boundary for ADHD Projects]]
 

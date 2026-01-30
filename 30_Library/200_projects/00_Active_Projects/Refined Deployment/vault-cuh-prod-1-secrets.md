@@ -1,6 +1,6 @@
 ---
 created: 2026-01-27T11:38:36+00:00
-modified: 2026-01-27T15:51:30+00:00
+modified: 2026-01-27T17:47:52+00:00
 title: vault-cuh-prod-1-secrets
 ---
 
@@ -123,28 +123,3 @@ The following policies exist in the `admin` namespace that could be assigned to 
 - **KV Version**: v2
 - **Total Secrets**: 8 (7 with data, 1 empty)
 - **Date Generated**: 2026-01-27
-
-```json
-{
-"spicedb_pre_shared_key": "y9GZCGDNcetUGG3v2nmRKC1j3k3BBZu8",
-"postgresql_password": "yAGywP1K2sCKqSVDqlef2Gcq",
-"postgresql_username": "postgres"
-}
-```
-
-```json
-{ 
-"gitlab_deploy_token_password": "gldt-reWkBa7YUDD2ua7dgMxJ", "gitlab_deploy_token_username": "gitlab+deploy-token-11028822", "grafana_admin_password": "2mdctzntXUbq2xJmzRxYis3g",
-"loki_password": "2mdctzntXUbq2xJmzRxYis3g",
-"mongodb_password": "LMNTZ2KlCv3ubVpMheIvLPSy",
-"mongodb_replica_set_key": "LMNTZ2KlCv3ubVpMheIvLPSy",
-"mongodb_username": "root",
-"postgresql_password": "yAGywP1K2sCKqSVDqlef2Gcq",
-"postgresql_username": "postgres", 
-"prometheus_password": "2mdctzntXUbq2xJmzRxYis3g", 
-"s3_access_key_id": "ffadmin", 
-"s3_secret_access_key": "asFeEfEr4TyTx40jzESbudpxyGgakuSr", 
-"spicedb_pre_shared_key": "y9GZCGDNcetUGG3v2nmRKC1j3k3BBZu8", 
-"tempo_password": "2mdctzntXUbq2xJmzRxYis3g", 
-"ude_key": "5d8e83dd3c53c9b14674d1dff5eda210350790251076cb34583f2c05a781f2c4", "vm_admin_password": "?FXkVNUB!KPpRJas" }
-```

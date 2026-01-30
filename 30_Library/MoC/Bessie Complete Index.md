@@ -105,7 +105,7 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 - [[3.1 Edexcel GCSE Art and Design (Unendorsed)]]
 - [[Art (Art, Craft and Design) (Edexcel GCSE)]]
 - [[3.2 Edexcel GCSE Photography]]
-- [[Photography (Art and Design – Photography) (Edexcel GCSE)]]
+- [[Photography (Art and Design - Photography) (Edexcel GCSE)]]
 - [[3.3 Eduqas GCSE Film Studies]]
 - [[Film Studies (Eduqas)]]
 - [[3.4 Edexcel GCSE History]]
@@ -117,8 +117,8 @@ A comprehensive index of all topics, strategies, and resources related to Bessie
 
 - [[Section 1 Harnessing a 'Big Picture' Brain Making Inter-Subject Connections]]
 - [[Section 2 Summary of GCSE Assessment Structure for Bessie Ormes]]
-- [[Section 3 Capitalising on Creativity and Interest – Optional Subjects]]
-- [[Section 4 Building Core Skills and Confidence – Compulsory Subjects]]
+- [[Section 3 Capitalising on Creativity and Interest - Optional Subjects]]
+- [[Section 4 Building Core Skills and Confidence - Compulsory Subjects]]
 
 ### ✍️ Learning Strategies & Support Systems
 

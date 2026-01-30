@@ -22,7 +22,7 @@ You will always want to go research better note strategies mid-note. Instead of 
 
 > "Check how to best link quotes in Zettel notes."
 
-Then ignore it for now. [[You’ve captured the impulse, and that’s often enough]].
+Then ignore it for now. [[You've captured the impulse, and that's often enough]].
 
 ---
 

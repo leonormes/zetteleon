@@ -18,7 +18,7 @@ This note synthesizes key concepts regarding how Large Language Models (LLMs) "u
 - Without Graph: You might paste `calc_bonus`. The LLM changes it. But you forgot `Invoice` calls it, and now `Invoice` is broken.
 - With Graph: The system pulls in `Invoice` (as a signature). The LLM sees the signature and thinks: _"Ah, I must ensure my change to `calc_bonus` still returns the data type `Invoice` expects."_
 
-[[HEAD Can a whole code base be represented as a data structure]]
+[[AI Code Understanding and Quality]]
 
 ## 2. The Hierarchy of Representations
 
@@ -43,7 +43,7 @@ The AST breaks a file down into nodes… It acts as the source of truth. It tran
 
 A `while` loop creates a cycle in the graph. An `if/else` statement splits the graph into two paths that eventually merge back together.
 
-—[[HEAD Can a whole code base be represented as a data structure#B The Graph Control Flow Graph CFG]]
+—[[AI Code Understanding and Quality#B The Graph Control Flow Graph CFG]]
 
 ### C. The Network: Code Property Graph (CPG) / Repository Intelligence Graph (RIG)
 
@@ -53,7 +53,7 @@ A `while` loop creates a cycle in the graph. An `if/else` statement splits the g
 
 The RIG represents a paradigm shift from "Code-as-Text" to "Code-as-System." … The RIG is a deterministic, evidence-backed architectural map derived from the build system itself.
 
-—[[LLM Codebase Comprehension Roadmap#1 2 The Repository Intelligence Graph RIG Deterministic Grounding]]
+—[[AI Code Understanding and Quality#1 2 The Repository Intelligence Graph RIG Deterministic Grounding]]
 
 ### D. The Semantic Graph (Information Structure)
 
@@ -70,7 +70,7 @@ You are functioning as a Lossy Compression Algorithm (like JPEG).
 - You throw away the pixel data (the syntax).
 - You keep the edge data (the logic).
 
-—[[HEAD Can a whole code base be represented as a data structure#3 The Visual Metaphor Topology over Geography]]
+—[[AI Code Understanding and Quality#3 The Visual Metaphor Topology over Geography]]
 
 ## 3. Strategies for Context & Understanding
 
@@ -83,7 +83,7 @@ Imagine your entire codebase not as a folder of files, but as a single, infinite
 - Imports are just wires.
 - Files are just arbitrary boxes.
 
-—[[HEAD Can a whole code base be represented as a data structure#2 The Mental Model "The Linker's View"]]
+—[[AI Code Understanding and Quality#2 The Mental Model "The Linker's View"]]
 
 ### B. Skeletonization (The Symbol Table)
 
@@ -93,7 +93,7 @@ Using the "Symbol Table" strategy (Signatures + Docstrings) allows us to send th
 - The Function Signatures/Types represent the "Machine Contract" (Party B).
 By feeding the LLM _both_ in a skeleton format, you are giving it the full picture of the negotiation without the noise.
 
-—[[HEAD Can a whole code base be represented as a data structure#4 The Synthesis Code as a Negotiation]]
+—[[AI Code Understanding and Quality#4 The Synthesis Code as a Negotiation]]
 
 ### C. Data Lineage (The Maze)
 
@@ -101,7 +101,7 @@ For "Complex" systems (with state and side effects), static graphs fail. We need
 
 Instead of asking: _"What does this class do?"_ (which describes the walls), We represent the meaning by asking: _"Where does this specific piece of data go?"_
 
-—[[HEAD Can a whole code base be represented as a data structure#The "Data-Path" Representation]]
+—[[AI Code Understanding and Quality#The "Data-Path" Representation]]
 
 ### D. Meta-Context & Domain Manifesto
 
@@ -113,9 +113,9 @@ Meta-Context: Acts as the "Superego," preventing the generation of architectural
 
 Domain Manifesto: A structured block that defines the reality of the software (Core Entities, Allowed Flows, Strict Boundaries).
 
-—[[LLM Codebase Comprehension Roadmap#3 1 The Layered Cognitive Model]]
+—[[AI Code Understanding and Quality#3 1 The Layered Cognitive Model]]
 
-—[[HEAD Can a whole code base be represented as a data structure#The "Domain Header" Strategy]]
+—[[AI Code Understanding and Quality#The "Domain Header" Strategy]]
 
 ### E. Ubiquitous Language (Vector Anchoring)
 
@@ -125,13 +125,13 @@ If you use the word `Item`, the LLM is in the generic "Shopping" region of its b
 
 If you use the word `SkuVariant`, you instantly drag the LLM into the "Professional E-commerce" region.
 
-—[[HEAD Can a whole code base be represented as a data structure#Level 3 Domain Terminology High Value]]
+—[[AI Code Understanding and Quality#Level 3 Domain Terminology High Value]]
 
 ## 4. Advanced Tooling & Architectures
 
-- Tree-sitter: Used for "Chunk Twice, Retrieve Once"—extracting valid Semantic Entities (functions, classes) rather than arbitrary text chunks. [[LLM Codebase Comprehension Roadmap#1 3 Tree-sitter and Syntactic Scope Awareness]]
-- HyDE (Hypothetical Document Embeddings): Generates hypothetical reasoning or code to bridge the semantic gap (finding the "why"). [[LLM Codebase Comprehension Roadmap#2 1 HyDE Bridging the Semantic Gap in Code]]
-- Neuro-Symbolic Agents: Integrating Symbolic Execution (SMT Solvers) to provide mathematical guarantees on correctness. [[LLM Codebase Comprehension Roadmap#4 2 Neuro-Symbolic Agents Beyond Probabilistic Generation]]
+- Tree-sitter: Used for "Chunk Twice, Retrieve Once"—extracting valid Semantic Entities (functions, classes) rather than arbitrary text chunks. [[AI Code Understanding and Quality#1 3 Tree-sitter and Syntactic Scope Awareness]]
+- HyDE (Hypothetical Document Embeddings): Generates hypothetical reasoning or code to bridge the semantic gap (finding the "why"). [[AI Code Understanding and Quality#2 1 HyDE Bridging the Semantic Gap in Code]]
+- Neuro-Symbolic Agents: Integrating Symbolic Execution (SMT Solvers) to provide mathematical guarantees on correctness. [[AI Code Understanding and Quality#4 2 Neuro-Symbolic Agents Beyond Probabilistic Generation]]
 
 ## 5. Summary: Information vs. Data
 
@@ -141,7 +141,7 @@ If you use the word `SkuVariant`, you instantly drag the LLM into the "Professio
 
 By converting your code into an Information Structure, you are literally reducing the entropy of the prompt. You are making the "meaning" inevitable rather than probable.
 
-—[[HEAD Can a whole code base be represented as a data structure#5 The "Information Entropy" Argument]]
+—[[AI Code Understanding and Quality#5 The "Information Entropy" Argument]]
 
 ## 6. Mechanistic Understanding & Operational Strategies
 

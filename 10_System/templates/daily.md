@@ -31,19 +31,6 @@ updated:
 
 ```
 
-## Habits
-
-- [ ] Meds
-- [ ] Water (goal: 8)
-- [ ] Exercise
-- [ ] Reading
-- [ ] Journaling
-
-### Physical Ledger
-
-- **Horse Stance Total**: `$= dv.current().file.lists.where(l => l.text.includes("stance::")).array().reduce((acc, l) => acc + (Number((l.text.match(/stance::\s*(\d+)/) || [])[1]) || 0), 0)` seconds
-
----
 
 <%*
 

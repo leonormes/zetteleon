@@ -4,13 +4,13 @@ confidence: ""
 created: 2025-02-26T12:58:48Z
 epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:25+00:00
+modified: 2026-01-27T17:45:12+00:00
 purpose: ""
 review_interval: ""
 see_also: []
 source_of_truth: []
 status: ""
-tags: ["k8s", "SoftwareEngineering/Networking"]
+tags: ["Calico", "k8s", "SoftwareEngineering/Networking"]
 title: Use Calico
 type: "documentation"
 uid: 
@@ -22,7 +22,7 @@ we have Kubernetes running in Aws. we have installed the Calico CNI. know the cn
 
 Once Calico CNI is installed on your Kubernetes cluster in AWS, you can start leveraging its features by following these steps:
 
-## 1. **Verify Installation**
+## 1. Verify Installation
 
 - Ensure Calico is running correctly by checking the status of pods in the `tigera-operator` namespace:
 
@@ -36,7 +36,7 @@ kubectl get pods -n tigera-operator
 kubectl get nodes 
 ```
 
-## 2. **Set Up Network Policies**
+## 2. Set Up Network Policies
 
 - Use Calico's advanced network policies to secure pod communication. Calico supports both Kubernetes-native and its own policies for fine-grained control.
 - Example: Create a policy to deny all traffic by default and allow specific ingress:
@@ -57,21 +57,21 @@ apiVersion: projectcalico.org/v3
      ```
    Apply it using `kubectl apply -f \<policy-file\>`[4][6].
 
-### 3. **Configure IP Address Management (IPAM)**
+### 3. Configure IP Address Management (IPAM)
    - Calico uses IPAM to allocate IPs to pods. You can configure IP pools for your cluster or inspect IP blocks using:
 ```bash
 calicoctl ipam show --show-blocks
 ```
 
-## 4. **Enable Encryption**
+## 4. Enable Encryption
 
 - Secure data in transit by enabling IPsec or WireGuard encryption for pod-to-pod communication.
 
-## 5. **Leverage Routing Features**
+## 5. Leverage Routing Features
 
 - Utilize Calico's BGP routing to create a highly scalable and efficient network for large clusters.
 
-## 6. **Monitor And Troubleshoot**
+## 6. Monitor And Troubleshoot
 
 - Use `calicoctl` or Kubernetes tools like `kubectl logs` to monitor the performance and troubleshoot issues with Calico components.
 

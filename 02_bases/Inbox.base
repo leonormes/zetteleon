@@ -2,7 +2,7 @@ filters:
   and:
     - file.inFolder("00_Inbox")
 views:
-  - type: list
+  - type: table
     name: Table
     order:
       - file.name

@@ -37,4 +37,4 @@ This Map of Content (MOC) organizes notes related to the phenomenon of "intellig
 - The Ping is a Nervous System Signal from Real-World Action
 - [[The Action-Reaction-Ping-Adjust Cycle Drives Real Progress]]
 - [[Emotional Feedback is a Sign of Genuine Learning]]
-- [[Replace “deep Focus marathons” with Repeatable Micro-pipelines]] - A practical strategy for sustained focus
+- [[Replace -deep Focus marathons- with Repeatable Micro-pipelines]] - A practical strategy for sustained focus

@@ -24,8 +24,8 @@ version: ""
 
 [[Section 2 Summary of GCSE Assessment Structure for Bessie Ormes]]
 
-[[Section 3 Capitalising on Creativity and Interest – Optional Subjects]]
+[[Section 3 Capitalising on Creativity and Interest - Optional Subjects]]
 
-[[Section 4 Building Core Skills and Confidence – Compulsory Subjects]]
+[[Section 4 Building Core Skills and Confidence - Compulsory Subjects]]
 
 [[Conclusion And Recommended Next Steps Implementing Bessie's Success Plan]]
