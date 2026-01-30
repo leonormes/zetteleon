@@ -2,12 +2,23 @@
 aliases: [Data-Centric Software Engineering, DOD, Anemic Domain Model, Data-Oriented Manifesto]
 tags: [software-architecture, design-principle, data-oriented, rust]
 created: 2026-01-30T09:00:00+00:00
-modified: 2026-01-30T09:00:00+00:00
+modified: 2026-01-30T11:30:00+00:00
 ---
 
 # Data-Oriented Design
 
 **Data-Oriented Design (DOD)** is the architectural axiom that **Data is Truth; Code is Derivative.** Unlike Object-Oriented Design (OOD), which couples data with behavior (Classes), DOD separates them completely to optimize for both hardware performance (CPU Cache) and cognitive clarity (Simplicity).
+
+## The Core Philosophy: The Conservation of Complexity
+
+Software complexity obeys a conservation law: it must reside either in the **Procedural Logic** (The Code) or the **Structural Representation** (The Data).
+*   **Code-Centric:** "Smart Code" + "Dumb Data" = Fragile, Complex, Hard to Test.
+*   **Data-Centric:** "Smart Data" + "Dumb Code" = Robust, Simple, Self-Documenting.
+
+> [!quote] The Lineage of Truth
+> *   **Fred Brooks (1975):** "Show me your tables, and I won't usually need your flowcharts; they'll be obvious."
+> *   **Rob Pike (1989):** "Data dominates. If you've chosen the right data structures... the algorithms will almost always be self-evident."
+> *   **Linus Torvalds (2006):** "Bad programmers worry about the code. Good programmers worry about data structures and their relationships."
 
 ## The Manifesto
 

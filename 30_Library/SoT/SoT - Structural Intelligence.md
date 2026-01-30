@@ -2,27 +2,30 @@
 aliases: [Structural Intelligence, Deterministic Code Graph, AST-Based Retrieval]
 tags: [architecture, retrieval, tooling, ast, graph-theory]
 created: 2026-01-30T10:00:00+00:00
-modified: 2026-01-30T10:45:00+00:00
+modified: 2026-01-30T11:15:00+00:00
 ---
 
 # Structural Intelligence
 
-**Structural Intelligence** is the paradigm of treating code as a **Deterministic Graph** rather than a probabilistic bag of tokens. It relies on Abstract Syntax Trees (ASTs) to provide the "Ground Truth" schema that LLMs lack.
+**Structural Intelligence** is the paradigm of treating code as a **Deterministic Graph** rather than a probabilistic bag of tokens. It relies on Abstract Syntax Trees (ASTs) and Control Flow Graphs (CFGs) to provide the "Ground Truth" schema that LLMs lack.
 
 ## The Retrieval Hierarchy
 
-We define three tiers of code retrieval, each with specific strengths and weaknesses:
+We define four tiers of code retrieval, moving from static text to dynamic causality:
 
 | Tier | Mechanism | Strengths | Weaknesses |
 | :--- | :--- | :--- | :--- |
-| **1. The Bash Scout** | `grep`, `find`, `ls` | **Temporal Reality** (Real-time), **Negative Space** (Proving absence). | "Stringly" typed. Misses semantic relationships (e.g., `impl` blocks). |
+| **1. The Bash Scout** | `grep`, `find`, `ls` | **Temporal Reality** (Real-time), **Negative Space** (Proving absence). | "Stringly" typed. Misses semantic relationships. |
 | **2. Vector RAG** | Embeddings | **Vibe Check** (Concept matching), Natural Language queries. | **Hallucination.** Cannot prove "Who calls X?". Stale indexes. |
-| **3. Structural (AST)** | Tree-sitter, LSP | **Deterministic Truth.** 100% precision on "Call Graph" and "Type Hierarchy". | Higher setup cost. Requires language support. |
+| **3. Structural (AST)** | Tree-sitter, LSP | **Deterministic Truth.** 100% precision on "Call Graph" and "Type Hierarchy". | Static. Does not capture runtime execution flow. |
+| **4. Causal (CFG)** | Control Flow Graph | **Reasoning.** Simulates execution paths (If/Else, Loops). Tracks side effects. | Computationally expensive. Hard to serialize for prompts. |
 
-## The Core Thesis: Graph > Vector
+## The "Cartographer" Protocol
 
-*   **Probabilistic Vector (RAG):** Code is a semantic cloud. Good for "How do I...?", bad for "Who calls X?".
-*   **Deterministic Graph (AST):** Code is a precise schema. `Node A --calls--> Node B`. This is **Truth**.
+To solve the "Context Window" bottleneck at Tier 4, we use **The Cartographer**.
+*   **Role:** Graph Pruner.
+*   **Logic:** instead of dumping the full CFG, it injects a **Dependency Subgraph**.
+*   **Metric:** **Impact Radius**. Only include nodes within 1-2 degrees of separation from the active code.
 
 ## The Mechanism: AST as Schema
 
