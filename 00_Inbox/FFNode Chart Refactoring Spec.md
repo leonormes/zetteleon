@@ -1,6 +1,6 @@
 ---
 created: 2026-01-30T11:00:55+00:00
-modified: 2026-01-30T11:16:49+00:00
+modified: 2026-01-30T11:45:00+00:00
 tags: [architecture, k8s, specification]
 title: FFNode Chart Refactoring Spec
 ---
@@ -90,23 +90,16 @@ We propose a strict TypeScript contract for the new `values.yaml`. This moves co
 
 #### A. Core Interfaces
 
-```typescript
-/
-  The Root Interface for the FFNode Helm Chart.
-  Adheres to "Data Structures over Code".
- /
+```ts
+// The Root Interface for the FFNode Helm Chart.
+// Adheres to "Data Structures over Code".
 export interface FFNodeAPI {
-  /
-    High-level intent. Encapsulates defaults for boolean flags.
-    - 'dev': ephemeral, mocks enabled, local storage.
-    - 'stage': cloud resources, valid certs, lower resilience.
-    - 'prod': HA, vault strictness, PII guards active.
-   /
-  profile: 'dev' | 'stage' | 'prod';
-
-  /
-    The Identity of this deployment within the Global Graph.
-   /
+// High-level intent. Encapsulates defaults for boolean flags.
+// - 'dev': ephemeral, mocks enabled, local storage.
+// - 'stage': cloud resources, valid certs, lower resilience.
+// - 'prod': HA, vault strictness, PII guards active.
+// profile: 'dev' | 'stage' | 'prod';
+// The Identity of this deployment within the Global Graph.
   identity: {
     siteCode: string; // e.g., "CUH"
     environment: string; // e.g., "prod-1"
@@ -114,11 +107,9 @@ export interface FFNodeAPI {
     clusterDomain: string; // e.g., "privatelink.fitfile.net"
   };
 
-  /
-    Service Capabilities.
-    Replaces "deploy" booleans with configuration objects.
-    Presence of the object implies "enabled: true".
-   /
+  // Service Capabilities.
+  // Replaces "deploy" booleans with configuration objects.
+  // Presence of the object implies "enabled: true".
   capabilities: {
     // Replaces deploy.fitconnect & fitconnect section
     fitConnect?: {
@@ -164,28 +155,23 @@ export interface FFNodeAPI {
 
 This is the key to removing VSO complexity. The user declares _where_ the secret comes from, not _how_ to process it.
 
-```typescript
+> **Architectural Note:** This maps directly to the "Unidirectional State Synchronizer" pattern defined in the `SoT - Vault KV Data Structure`. The chart acts as the translation layer between Intent and CRD.
+
+| SecretIntent Source | Generated VSO CRD | Purpose |
+| :--- | :--- | :--- |
+| `source: 'vault'` | `VaultStaticSecret` | Mirrors a KV JSON path from Vault to a K8s Secret. |
+| `source: 'vault-dynamic'` | `VaultDynamicSecret` | Manages leases/TTL for ephemeral credentials (e.g., DB users). |
+| `source: 'k8s-secret'` | `ExternalSecret` (Optional) | references existing opaque secrets (e.g., from SealedSecrets). |
+
+```ts
 /
   Defines the intent to retrieve sensitive data.
   The Chart Logic generates the VSO manifests based on this schema.
  /
-export type SecretIntent<T> = 
+export type SecretIntent<T> =
   | { source: 'vault'; path: string; keyMap?: Partial<Record<keyof T, string>> }
   | { source: 'k8s-secret'; name: string; keyMap?: Partial<Record<keyof T, string>> }
   | { source: 'literal'; value: T }; // Only allowed if profile === 'dev'
-
-// Contract for Auth Credentials
-interface AuthCredentials {
-  clientId: string;
-  clientSecret: string;
-}
-
-// Contract for DB Credentials
-interface FitConnectCredentials {
-  dbUser: string;
-  dbPass: string;
-  encryptionKey: string;
-}
 ```
 
 ---
@@ -281,141 +267,29 @@ _If SpicedB is external, the connection string is required._
 }
 ```
 
-## Report: Legacy "App of Apps" Configuration Analysis & Refactoring Plan
-
-**Date:** 2026-01-30
-**Context:** FITFILE Deployment / `charts/ffnode`
-
-### 1. Executive Summary
-
-The current `ffnode` Helm chart functions as a monolithic "God Chart" that orchestrates the entire platform deployment. While functional, it suffers from high cognitive load due to **imperative templating logic** taking precedence over **declarative data**.
-
-Developers currently have to mental-model complex string concatenation, conditional logic scattered across multiple files, and opaque helper functions just to understand what will be deployed.
-
-**Recommendation:** Refactor to a **Data-Oriented Architecture** where `values.yaml` acts as the single source of truth, and a generic rendering engine generates the ArgoCD Application resources.
-
 ---
 
-### 2. Current Architecture Analysis (The Pain Points)
+### 4. Architectural Precedents & Cross-Project Validation
 
-#### A. "Toggle Hell" & Scattered Logic
+> **LTM Insight:** This refactor aligns with the "Generative Engine" pattern from the LCA-DP project and the "App of Apps" rendering logic defined in our System Prompts.
 
-Currently, adding or modifying a service requires touching multiple files:
+#### A. The "Generative Engine" Precedent (LCA-DP)
+We are replicating the successful **Configuration-Driven Architecture** used in the `LCA-DP` project.
 
-1. **The Toggle:** `deploy.serviceName` (e.g., `deploy.frontend`) in `values.yaml`.
-2. **The Configuration:** A specific section (e.g., `frontend:`) in `values.yaml`.
-3. **The Template:** A dedicated file `templates/frontend-application.yaml` wrapping the entire resource in `{{- if eq.Values.deploy.frontend true }}`.
+| Component | LCA-DP Role | FFNode (Proposed) Role |
+| :--- | :--- | :--- |
+| **Input Schema** | `customer.yaml` (Central Config) | `values.yaml` (Typed Interface) |
+| **Engine** | `locals.tf` (Ingestion Logic) | `_helpers.tpl` & `app-generator.yaml` |
+| **Output** | `generated/values.yaml` | `Application` & `VaultStaticSecret` CRDs |
+| **State Store** | Terraform State | ArgoCD (GitOps State) |
 
-**Impact:** It is difficult to get a "glanceable" view of the system. You cannot iterate over the services; you must manually maintain a template file for each one.
+#### B. The Rendering Logic (App of Apps Pattern)
+Based on the `@10_System/prompts/App of Apps Prompt.md`, the `templates/app-generator.yaml` must implement the following recursive rendering logic:
 
-#### B. The "String Block" Anti-Pattern
+1.  **Traversal:** Iterate over the `applications` map in `values.yaml`.
+2.  **Source Detection:** Dynamically determine if the child is a Helm Chart (`source.chart`) or a Git Repo (`source.repoURL`).
+3.  **Value Serialization:** Use the `toYaml` function to serialize the `values` map into a string block for the child Application, effectively passing the configuration context down the tree.
+4.  **Overlay Merging:** (Future) Support `kustomize` overlays for environment-specific patches.
 
-The `Application` manifests use a text block for Helm values, which forces the usage of the `tpl` function and complex string escaping:
-
-**YAML Snippet**
-
-```yaml
-source:
-  helm:
-    values: |
-      {{- $values := merge .Values.frontend (dict "global" .Values.global) -}}
-      {{- include "renderValuesWithVaultSecretInExtraDeploy" (list . $values) | indent 8 }}
-```
-
-**Impact:**
-- **No Type Safety:** YAML errors inside this block (indentation, typos) are treated as strings until ArgoCD tries to render them, leading to "runtime" errors rather than "compile-time" (templating) errors.
-- **Opaque Context:** It is unclear what `renderValuesWithVaultSecretInExtraDeploy` actually does without deep-diving into `_helpers.tpl`.
-
-#### C. Parochial Helper Logic
-
-Logic like `renderValuesWithVaultSecretInExtraDeploy` couples the deployment mechanism (ArgoCD) tightly with the implementation details of a specific secret provider (Vault) and a specific injection method (modifying `extraDeploy`).
-
----
-
-### 3. Proposed Refactor: Data-Oriented & Type-Safe
-
-We will move from **Imperative Templates** (writing a file for each app) to **Declarative Data** (defining a list of apps).
-
-#### A. The New `values.yaml` Structure
-
-Define a standard schema for an "Application".
-
-```yaml
-# Global Configuration (Context)
-global:
-  domain: fitfile.net
-  env: prod
-  vault:
-    enabled: true
-
-# The "App of Apps" Data Structure
-applications:
-  frontend:
-    enabled: true
-    source:
-      chart: charts/components/frontend
-      # OR
-      repoURL: https://gitlab.com/fitfile/deployment.git
-      targetRevision: HEAD
-    
-    # Declarative Values (Type-Safe Map, not String)
-    values:
-      ingress:
-        enabled: true
-      resources:
-        requests:
-          cpu: 100m
-    
-    # Abstracted Dependencies/Infra
-    infrastructure:
-      vault:
-        role: frontend-role
-        secrets:
-          - key: auth0-client-id
-            env: AUTH0_CLIENT_ID
-      database:
-        type: mongodb
-        binding: true # Automatically inject connection strings
-```
-
-#### B. The Single Generic Template (`templates/app-generator.yaml`)
-
-Instead of 20+ files, we use one:
-
-```yaml
-{{- range $appName, $appConfig := .Values.applications }}
-{{- if $appConfig.enabled }}
----
-apiVersion: argoproj.io/v1alpha1
-kind: Application
-metadata:
-  name: {{ $appName }}
-  namespace: argocd
-spec:
-  source:
-    path: {{ $appConfig.source.chart }}
-    helm:
-      # We serialize the values map directly to YAML, avoiding manual string construction
-      values: |
-        {{- toYaml $appConfig.values | nindent 8 }}
-        {{- /* Logic to inject infrastructure config based on $appConfig.infrastructure can go here */ -}}
-  destination:
-    namespace: {{ $appConfig.destination.namespace | default $.Values.global.defaultNamespace }}
-{{- end }}
-{{- end }}
-```
-
-#### C. Migration Strategy
-
-1. **Create the Schema:** Define the `applications` list structure in a new values file (e.g., `values-v2.yaml`) alongside the old one.
-2. **Port One Service:** Take a simple service (e.g., `frontend`) and move its config from the root of `values.yaml` into the `applications` list.
-3. **Implement the Generator:** Create the `templates/app-generator.yaml`.
-4. **Verify:** Run `helm template` and ensure the output `Application` manifest for `frontend` is identical (or functionally equivalent) to the old one.
-5. **Iterate:** Gradually move `ffcloud`, `fitconnect`, etc., into the list.
-6. **Cleanup:** Delete the old `templates/frontend-application.yaml` and the legacy values keys.
-
-### 4. Immediate Benefits
-
-1. **DevEx:** A developer adds a new service by adding 10 lines to `values.yaml`, not by creating new files and debugging indentation.
-2. **Safety:** The values are treated as data objects. Helm's `toYaml` function handles the formatting guarantees.
-3. **Clarity:** The infrastructure requirements (Vault, DBs) are declared explicitly in the data, not buried in helper templates.
+#### C. Alignment with Secret Management SoT
+This specification explicitly resolves the "Leaky Abstraction" identified in the **FITFILE Secret Management Architecture**. By enforcing the `SecretIntent` interface, we remove the need for developers to interact with the raw VSO templating language, effectively "codifying" the security policy into the chart itself.
