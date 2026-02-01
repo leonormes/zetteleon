@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-10T13:05:05Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:20+00:00
+modified: 2026-02-01T16:57:16+00:00
 tags: ["SoftwareEngineering/Kubernetes", "SoftwareEngineering/Networking"]
 title: Network Policies
 type: "head"
