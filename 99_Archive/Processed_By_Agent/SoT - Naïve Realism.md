@@ -20,7 +20,7 @@ updated:
 ## 1. Definitive Statement
 
 > [!definition] Definition
-> **Naïve Realism** is the inherent and largely unconscious belief that we perceive the world objectively, as it truly is, rather than as a subjective interpretation. Our mental models act as an **Invisible Filter**; we don't experience the model, we experience the world _through_ it.
+> Naïve Realism is the inherent and largely unconscious belief that we perceive the world objectively, as it truly is, rather than as a subjective interpretation. Our mental models act as an Invisible Filter; we don't experience the model, we experience the world _through_ it.
 
 ---
 
@@ -44,12 +44,12 @@ Limited competence in a domain prevents an agent from recognizing the flaws in t
 
 ## 3. Distributed Models in the Brain
 
-Neuroscience reveals that models are not stored in one place but are **Distributed emergent properties** of neural networks:
+Neuroscience reveals that models are not stored in one place but are Distributed emergent properties of neural networks:
 
-- **Visual Cortex:** Appearance.
-- **Auditory Cortex:** Sound.
-- **Amygdala:** Associated emotions.
-- **Prefrontal Cortex:** Abstract knowledge and simulation.
+- Visual Cortex: Appearance.
+- Auditory Cortex: Sound.
+- Amygdala: Associated emotions.
+- Prefrontal Cortex: Abstract knowledge and simulation.
 
 Coordinate activation across these regions creates the "feeling" of reality.
 
@@ -57,4 +57,4 @@ Coordinate activation across these regions creates the "feeling" of reality.
 
 ## 4. Summary
 
-Recognizing naïve realism is the first step towards **Epistemic Humility**. We must treat our perceptions as hypotheses rather than objective truths to remain open to refinement and growth.
+Recognizing naïve realism is the first step towards Epistemic Humility. We must treat our perceptions as hypotheses rather than objective truths to remain open to refinement and growth.

@@ -18,7 +18,7 @@ updated:
 version: "null"
 ---
 
-**Links:**
+Links:
 
 - Up: [[MOC - Container Networking Model]]
 - Related: [[What is iptables NAT MASQUERADE]], [[What is IP forwarding]], [[What is a Linux bridge]]
@@ -88,7 +88,7 @@ Step 6: POSTROUTING iptables NAT chain
 │   -s 10.244.0.0/16 ! -d 10.244.0.0/16   │
 │ Action: MASQUERADE                      │
 │                                         │
-│ *** PACKET REWRITTEN ***                │
+│ * PACKET REWRITTEN *                │
 │   OLD: src=10.244.0.10:54321            │
 │   NEW: src=203.0.113.5:38472 (host IP) │
 │   dst=93.184.216.34:80 (unchanged)      │
@@ -126,7 +126,7 @@ Step 10: Conntrack lookup
 │ Finds matching entry:                   │
 │   203.0.113.5:38472 ↔ 10.244.0.10:54321 │
 │                                         │
-│ *** REVERSE NAT APPLIED ***             │
+│ * REVERSE NAT APPLIED *             │
 │   OLD: dst=203.0.113.5:38472            │
 │   NEW: dst=10.244.0.10:54321            │
 │   src=93.184.216.34:80 (unchanged)      │
@@ -156,16 +156,16 @@ Step 14: Pod receives packet
 
 ### Key Components
 
-1. **IP Forwarding** (`net.ipv4.ip_forward=1`)
+1. IP Forwarding (`net.ipv4.ip_forward=1`)
    - Enables kernel to route packets between interfaces
    - Without this, packets are dropped after reaching the bridge
 
-2. **MASQUERADE Rule**
+2. MASQUERADE Rule
    - Operates in `nat` table, `POSTROUTING` chain
    - Triggered AFTER routing decision, just before packet exits
    - Dynamically uses outgoing interface's IP
 
-3. **Connection Tracking (conntrack)**
+3. Connection Tracking (conntrack)
    - Kernel module that tracks active connections
    - Stores bidirectional mapping: `pod-IP:port ↔ host-IP:port`
    - Enables reverse NAT for replies
@@ -213,33 +213,33 @@ ip netns exec pod-red traceroute 8.8.8.8
 
 ### What This Enables
 
-- **Internet access for Pods**: Pods can reach public services (DNS, APIs, etc.)
-- **Hide internal topology**: External servers see only node IPs, not pod IPs
-- **Load balancer health checks**: ALB/NLB can reach Pods via NodePort
-- **Kubernetes default behavior**: All CNI plugins implement egress NAT
+- Internet access for Pods: Pods can reach public services (DNS, APIs, etc.)
+- Hide internal topology: External servers see only node IPs, not pod IPs
+- Load balancer health checks: ALB/NLB can reach Pods via NodePort
+- Kubernetes default behavior: All CNI plugins implement egress NAT
 
 ### What Breaks If This Fails
 
-- **DNS resolution fails**: If DNS servers are external (e.g., 8.8.8.8)
-- **Internet connectivity lost**: `curl`, `apt-get`, API calls all fail
-- **Container image pulls fail**: Cannot reach external registries
-- **Outbound webhooks fail**: Pods cannot notify external services
+- DNS resolution fails: If DNS servers are external (e.g., 8.8.8.8)
+- Internet connectivity lost: `curl`, `apt-get`, API calls all fail
+- Container image pulls fail: Cannot reach external registries
+- Outbound webhooks fail: Pods cannot notify external services
 
 ### How It Maps to Kubernetes
 
-**CNI Plugin Responsibilities:**
+CNI Plugin Responsibilities:
 
-- **Bridge CNI**: Adds MASQUERADE rule during setup
-- **Calico**: Uses iptables rules for egress (can disable SNAT per policy)
-- **Flannel**: Adds MASQUERADE for cross-node traffic
+- Bridge CNI: Adds MASQUERADE rule during setup
+- Calico: Uses iptables rules for egress (can disable SNAT per policy)
+- Flannel: Adds MASQUERADE for cross-node traffic
 
-**kube-proxy Does NOT:**
+kube-proxy Does NOT:
 
 - kube-proxy manages Service → Pod DNAT
 - It does NOT handle Pod → External SNAT/MASQUERADE
 - That's the CNI plugin's job
 
-**Network Policies:**
+Network Policies:
 
 - Can block egress at Layer 3/4
 - Applied BEFORE MASQUERADE (in FORWARD chain)
@@ -247,10 +247,10 @@ ip netns exec pod-red traceroute 8.8.8.8
 
 ### Security Implications
 
-- **All Pods share node IP for egress**: External services see the same source IP for all Pods on a node
-- **Port conflicts**: MASQUERADE uses different source ports to distinguish connections
-- **Egress filtering**: Implement NetworkPolicy to restrict which Pods can reach external IPs
-- **NAT traversal**: Some protocols (FTP, SIP) require ALG (Application Level Gateway) support
+- All Pods share node IP for egress: External services see the same source IP for all Pods on a node
+- Port conflicts: MASQUERADE uses different source ports to distinguish connections
+- Egress filtering: Implement NetworkPolicy to restrict which Pods can reach external IPs
+- NAT traversal: Some protocols (FTP, SIP) require ALG (Application Level Gateway) support
 
 ## Questions / To Explore
 

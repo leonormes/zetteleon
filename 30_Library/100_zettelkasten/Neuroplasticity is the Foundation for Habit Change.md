@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-30T12:05:00Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:30+00:00
 source: "[[MOC - The Science of Making and Breaking Habits]]"
-source_of_truth: []
 status: "seedling"
 tags: ["learning", "neuroplasticity", "TheHuman/Habits", "TheHuman/Neuroscience"]
 title: Neuroplasticity is the Foundation for Habit Change
 type: "concept"
-uid: 
 updated: 
 ---
 

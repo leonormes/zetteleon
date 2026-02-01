@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-30T12:02:03Z
-epistemic: "principle"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
+modified: 2026-02-01T15:08:29+00:00
 source: "[[MOC - Limitless Morning Routine]]"
-source_of_truth: []
 status: "seedling"
 tags: ["deep-work", "flow-state", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Perform Deep Work in a Supercharged Brain State
 type: "concept"
-uid: 
 updated: 
 ---
 

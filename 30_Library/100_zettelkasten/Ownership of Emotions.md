@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-09-07T15:32:45Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:29+00:00
 status: ""
 tags: []
 title: Ownership of Emotions
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Psychologist Dr. Ramani Dervasula outlines seven steps to owning emotions, which aligns with Musashi's principles. These include:
@@ -28,7 +20,7 @@ Psychologist Dr. Ramani Dervasula outlines seven steps to owning emotions, which
 
 Suppression, as Sigmund Freud noted, only fuels emotions, leading to uglier manifestations later.
 
-**Links:** [[Understanding Emotion]]
+Links: [[Understanding Emotion]]
 
 ---
 

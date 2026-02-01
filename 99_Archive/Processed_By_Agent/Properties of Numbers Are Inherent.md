@@ -22,6 +22,6 @@ The properties of a number are intrinsic to the abstract concept of that number,
 
 For example, the primality of the number 7 is a fundamental truth about the concept of "sevenness." It reflects the fact that a collection of seven items cannot be arranged into any equal-sized groups (other than one group of seven or seven groups of one).
 
-This property exists regardless of whether we write it as '7', 'VII', or in binary as '111'. We **discover** that 7 is prime; we do not decide it.
+This property exists regardless of whether we write it as '7', 'VII', or in binary as '111'. We discover that 7 is prime; we do not decide it.
 
 Links: [[Numbers as Abstract Objects (Platonism)]], [[The Nature of Number]]

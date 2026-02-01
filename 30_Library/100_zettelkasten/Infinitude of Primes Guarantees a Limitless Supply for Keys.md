@@ -1,19 +1,12 @@
 ---
 aliases: ["Euclid's Theorem on Primes", "Infinite Primes"]
-confidence: "5/5"
 created: 2025-08-19T23:32:29Z
-epistemic: "fact"
 last_reviewed: 2025-12-24
-modified: 2026-01-23T18:09:31+00:00
-purpose: "To explain why there is no largest prime number and its impact on key generation."
-review_interval: "1 year"
-see_also: ["[[Fundamental Theorem of Arithmetic]]", "[[Primes Become Rarer But Remain Searchable]]"]
-source_of_truth: ["[[SoT - Cryptography and Encryption]]"]
+modified: 2026-02-01T15:08:32+00:00
 status: "stable"
 tags: ["cryptography", "maths"]
 title: Infinitude of Primes Guarantees a Limitless Supply for Keys
 type: "concept"
-uid: 
 updated: 
 ---
 
@@ -29,6 +22,6 @@ There is an infinite number of prime numbers. As proven by Euclid over 2,000 yea
 
 ## 🔐 Impact on Cryptography
 
-This property ensures a **limitless supply** of unique large primes. We can generate unique key pairs for every person and device on the planet without ever running out of the necessary atomic building blocks.
+This property ensures a limitless supply of unique large primes. We can generate unique key pairs for every person and device on the planet without ever running out of the necessary atomic building blocks.
 
-- **Links**: [[Prime Numbers Are the Atomic Elements of All Numbers]], [[Primes Become Rarer But Remain Searchable]]
+- Links: [[Prime Numbers Are the Atomic Elements of All Numbers]], [[Primes Become Rarer But Remain Searchable]]

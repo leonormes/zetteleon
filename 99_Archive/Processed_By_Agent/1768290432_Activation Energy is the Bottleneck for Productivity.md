@@ -19,6 +19,6 @@ updated:
 
 ## Activation Energy is the Bottleneck for Productivity
 
-**Summary:** Activation energy, the initial effort required to begin a task, is often the primary bottleneck for productivity, particularly for individuals with ADHD.
+Summary: Activation energy, the initial effort required to begin a task, is often the primary bottleneck for productivity, particularly for individuals with ADHD.
 
-**Details:** The challenge is frequently not the work itself, but overcoming the inertia of starting. The Momentum Method and starter tasks are designed to address this bottleneck by engineering solutions at the task definition level, rather than relying solely on willpower.
+Details: The challenge is frequently not the work itself, but overcoming the inertia of starting. The Momentum Method and starter tasks are designed to address this bottleneck by engineering solutions at the task definition level, rather than relying solely on willpower.

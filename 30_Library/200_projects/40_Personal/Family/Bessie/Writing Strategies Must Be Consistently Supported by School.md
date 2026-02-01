@@ -1,21 +1,13 @@
 ---
 aliases: ["Consistent School Support for Accommodations"]
-confidence: ""
 created: 2025-07-18T00:00:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:23+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: []
 title: Writing Strategies Must Be Consistently Supported by School
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 For writing-based support strategies to be effective for a student like Bessie, they must be implemented consistently by the school across all subjects.

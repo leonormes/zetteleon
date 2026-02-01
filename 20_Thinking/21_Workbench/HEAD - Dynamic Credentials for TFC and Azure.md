@@ -1,20 +1,13 @@
 ---
 aliases: []
 AoL: Work
-confidence:
 created: 2025-12-08T00:00:00Z
-epistemic:
 last_reviewed:
-modified: 2026-01-23T18:09:15+00:00
-purpose: To figure out how to configure dynamic credentials for Terraform Cloud and Azure to remove static keys.
-review_interval:
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:11+00:00
 status: someday
 tags: ["SoftwareEngineering/Security", azure, head, terraform, thinking]
 title: HEAD - Dynamic Credentials for TFC and Azure
 type: head
-uid:
 updated:
 ---
 
@@ -32,8 +25,8 @@ We need to move away from long-lived service principal secrets for Terraform Clo
 
 ## The Tension
 
-- **Configuration Complexity:** I need to know the exact Azure AD resources (Federated Identity Credential) and TFC workspace settings required.
-- **Scope:** Is this per workspace or global?
+- Configuration Complexity: I need to know the exact Azure AD resources (Federated Identity Credential) and TFC workspace settings required.
+- Scope: Is this per workspace or global?
 
 ## The Next Test
 

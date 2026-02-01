@@ -23,9 +23,9 @@ No, the NAT gateway in Azure is _not_ attached to the VNet itself—it is always
 
 ### Key Details
 
-- **Subnet Association:** Each NAT gateway must be explicitly associated with one or more subnets inside a virtual network. There is no option to attach a NAT gateway to the whole VNet—association is per-subnet.[^3][^5][^1]
-- **Multiple Subnets:** You can associate the same NAT gateway resource to multiple subnets within a single VNet (but not across VNets). Each associated subnet will use the NAT gateway for outbound traffic.[^3]
-- **Unassociated Subnets:** Subnets in the same VNet that are _not_ associated with any NAT gateway will not use it—those subnets will have no outbound internet access unless you configure a different outbound method (such as Azure Firewall, or the legacy default outbound access in some scenarios).[^2][^9]
+- Subnet Association: Each NAT gateway must be explicitly associated with one or more subnets inside a virtual network. There is no option to attach a NAT gateway to the whole VNet—association is per-subnet.[^3][^5][^1]
+- Multiple Subnets: You can associate the same NAT gateway resource to multiple subnets within a single VNet (but not across VNets). Each associated subnet will use the NAT gateway for outbound traffic.[^3]
+- Unassociated Subnets: Subnets in the same VNet that are _not_ associated with any NAT gateway will not use it—those subnets will have no outbound internet access unless you configure a different outbound method (such as Azure Firewall, or the legacy default outbound access in some scenarios).[^2][^9]
 
 ### Practical Example
 
@@ -33,7 +33,7 @@ No, the NAT gateway in Azure is _not_ attached to the VNet itself—it is always
 - Subnets selected in this step get outbound via NAT gateway. Others in the VNet do _not_.
 - If you want all subnets in the VNet to use NAT gateway, you must associate each subnet with it during or after deployment.[^7][^1][^3]
 
-***
+*
 
 In summary: NAT gateway _must_ be attached per-subnet, not at the VNet level, and only attached subnets get outbound via NAT gateway.[^9][^1][^2][^3]
 

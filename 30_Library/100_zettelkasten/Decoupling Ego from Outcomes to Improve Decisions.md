@@ -1,28 +1,21 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-08-12T07:55:33Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:35+00:00
 status: ""
 tags: ["decision_making", "ego", "probabilistic_thinking", "TheHuman/Mindset", "topic/learning"]
 title: Decoupling Ego from Outcomes to Improve Decisions
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 To overcome the emotional pain associated with being wrong (see [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]]), it is necessary to decouple one's sense of self-worth from the outcome of a single decision or belief.
 
 Adopting a probabilistic mindset, or "thinking in bets," is one method for achieving this. It reframes decisions as placing bets on an uncertain future. An unfavourable outcome does not mean the decision-maker was "wrong" or unintelligent; it simply means a less probable future came to pass. This shifts the focus from judging results to improving the decision-making process, fostering learning and intellectual humility.
 
-**Technical Parallel:**
+Technical Parallel:
+
 Similar to [[Strategic Duplication Reduces System Coupling]], psychological decoupling creates:
 
 - Better error isolation

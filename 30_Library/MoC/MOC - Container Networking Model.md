@@ -1,31 +1,23 @@
 ---
 aliases: []
-confidence: "High"
 created: 2025-10-24T15:00:00Z
-epistemic: "Map"
 last_reviewed: "2025-12-30"
-modified: 2026-01-08T15:03:28+00:00
-purpose: "To map the foundational Linux networking primitives to their Kubernetes abstractions."
-review_interval: "1 year"
-see_also: ["[[SoT - Kubernetes Networking & DNS]]", "[[SoT - Linux Networking Primitives]]"]
-source_of_truth: ["[[SoT - Kubernetes Networking & DNS]]", "[[SoT - Linux Container Primitives]]", "[[SoT - Linux Networking Primitives]]"]
+modified: 2026-02-01T15:08:07+00:00
 status: "stable"
 tags: ["k8s", "kubernetes", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]
 title: MOC - Container Networking Model
 type: "map"
-uid: 
 updated: 
-version: "2"
 ---
 
-**Links:**
+Links:
 
 - Up: [[MOC - Containerisation]]
 - Related: [[SoT - Linux Networking Primitives]], [[SoT - Linux Container Primitives]], [[SoT - Kubernetes Networking & DNS]]
 
 ## Summary
 
-A comprehensive Map of Content (MOC) connecting the low-level Linux networking primitives (Veth, Bridges, IPTables) defined in **[[SoT - Linux Networking Primitives]]** to their high-level Kubernetes abstractions (Services, Ingress, CNI) defined in **[[SoT - Kubernetes Networking & DNS]]**.
+A comprehensive Map of Content (MOC) connecting the low-level Linux networking primitives (Veth, Bridges, IPTables) defined in [[SoT - Linux Networking Primitives]] to their high-level Kubernetes abstractions (Services, Ingress, CNI) defined in [[SoT - Kubernetes Networking & DNS]].
 
 ## Context / Problem
 
@@ -37,15 +29,17 @@ Kubernetes networking appears magical—Pods communicate seamlessly across nodes
 
 Container networking relies on the "Trinity of Containerisation" and specific networking constructs defined in our Source of Truth notes:
 
-**Isolation & Environment:**
-1. **[[SoT - Linux Container Primitives#A. Namespaces (Isolation)|Network Namespace]]** - Isolated network stack per container.
-2. **[[SoT - Container Isolation (The Namespace Security Model)|Mount Namespace]]** - The primary security gatekeeper.
+Isolation & Environment:
 
-**Connectivity Mechanics (See [[SoT - Linux Networking Primitives]]):**
-3. **Veth Pair:** The virtual cable tunneling traffic from Host to Container.
-4. **Linux Bridge:** The virtual Layer 2 switch (`cni0`) connecting Pods on the same node.
-5. **IPTables/NAT:** The mechanism for Masquerading (Source NAT) for egress and DNAT for Services.
-6. **IP Forwarding:** The kernel flag (`net.ipv4.ip_forward`) permitting packet routing.
+1. [[SoT - Linux Container Primitives#A. Namespaces (Isolation)|Network Namespace]] - Isolated network stack per container.
+2. [[SoT - Container Isolation (The Namespace Security Model)|Mount Namespace]] - The primary security gatekeeper.
+
+Connectivity Mechanics (See [[SoT - Linux Networking Primitives]]):
+
+3. Veth Pair: The virtual cable tunneling traffic from Host to Container.
+4. Linux Bridge: The virtual Layer 2 switch (`cni0`) connecting Pods on the same node.
+5. IPTables/NAT: The mechanism for Masquerading (Source NAT) for egress and DNAT for Services.
+6. IP Forwarding: The kernel flag (`net.ipv4.ip_forward`) permitting packet routing.
 
 ### Architecture Layers
 
@@ -88,26 +82,28 @@ Container networking relies on the "Trinity of Containerisation" and specific ne
 
 ### Debugging & Troubleshooting
 
-- **Connectivity Breaks:** Most "Kubernetes Networking" issues are actually Linux networking issues.
-    - Check **IP Forwarding** on the host.
-    - Check **IPTables** chains for dropped packets.
-    - Check **Bridge** FDB (Forwarding Database) for MAC learning issues.
-- **Security:** Network Policies are often implemented as IPTables chains or eBPF programs (Cilium).
+- Connectivity Breaks: Most "Kubernetes Networking" issues are actually Linux networking issues.
+    - Check IP Forwarding on the host.
+    - Check IPTables chains for dropped packets.
+    - Check Bridge FDB (Forwarding Database) for MAC learning issues.
+- Security: Network Policies are often implemented as IPTables chains or eBPF programs (Cilium).
 
 ### Cross-Domain Connections
 
-- **[[MOC - OSI Model]]**: Container networking operates across OSI Layers 2-4.
-- **[[SoT - Container Isolation (The Namespace Security Model)]]**: Security implications of sharing the host network namespace.
+- [[MOC - OSI Model]]: Container networking operates across OSI Layers 2-4.
+- [[SoT - Container Isolation (The Namespace Security Model)]]: Security implications of sharing the host network namespace.
 
 ---
 
 ## Child Notes (Key Sources of Truth)
 
-**Foundations:**
+Foundations:
+
 - [[SoT - Linux Networking Primitives]] (Veth, Bridge, IPTables)
 - [[SoT - Linux Container Primitives]] (Namespaces, Cgroups)
 - [[SoT - Container Isolation (The Namespace Security Model)]] (Security)
 
-**Orchestration:**
+Orchestration:
+
 - [[SoT - Kubernetes Networking & DNS]] (Services, Ingress, CNI)
 - [[SoT - Cloud Networking Core Components]] (Cloud Integration)

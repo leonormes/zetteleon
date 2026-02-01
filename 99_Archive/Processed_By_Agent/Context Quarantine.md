@@ -19,10 +19,10 @@ updated:
 version: ""
 ---
 
-**Context Quarantine** is a [[LLM Note Consolidation Data Perspective]] strategy used in multi-agent systems. It involves dividing a complex task across multiple specialised agents, each with its own isolated sub-context. This prevents topic clash and distraction that could occur if all information were shared in a single, large context window.
+Context Quarantine is a [[LLM Note Consolidation Data Perspective]] strategy used in multi-agent systems. It involves dividing a complex task across multiple specialised agents, each with its own isolated sub-context. This prevents topic clash and distraction that could occur if all information were shared in a single, large context window.
 
 A common implementation is a supervisor-worker pattern, where a supervisor agent routes sub-tasks to specialised agents (e.g., a "researcher" agent and a "writer" agent), ensuring each remains focused. This approach is fundamental to orchestrating [[Deep Agents for Long Horizon Planning]].
 
-**Links:**
+Links:
 
 - [[LLM Note Consolidation Data Perspective]]

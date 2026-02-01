@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: ""
 created: 2024-12-24T18:56:42Z
-epistemic: ""
 ID: "2g"
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:23+00:00
 status: ""
 tags: ["information"]
 title: value-of-information
 type: "permanent"
-uid: 
 updated: 
-version: ""
 ---
 
 Information holds inherent value due to its potential to:

@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-20T20:06:37Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: ["curriculum", "TheHuman/Family/Bessie"]
 title: Combined Science (AQA GCSE)
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 - Curriculum Content: This double GCSE course covers key topics across Biology (cell biology, organization, infection/response, bioenergetics, homeostasis, inheritance, evolution, ecology), Chemistry (atomic structure, periodic table, bonding, quantitative chemistry, energy changes, reaction rates, organic chemistry, atmospheric chemistry, analysis), and Physics (energy, electricity, particle model, atomic structure, forces, waves, magnetism/electromagnetism). It involves externally assessed examinations with a minimum of 15% of marks from practical work questions.

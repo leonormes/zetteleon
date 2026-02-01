@@ -1,19 +1,12 @@
 ---
 aliases: ["Vault Architecture", "Vault Data Model", "Vault Internal Design"]
-confidence: "5/5"
 created: 2025-12-25T12:00:00Z
-epistemic: "technical"
 last_reviewed: "2025-12-25"
-modified: 2026-01-23T18:09:19+00:00
-purpose: "To define the first-principles data architecture of HashiCorp Vault, stripping away security terminology to reveal the underlying versioned document store and merkle-tree sync models."
-review_interval: "1 year"
-see_also: ["[[SoT - FITFILE Secret Management Architecture]]", "[[SoT - Kubernetes Architecture]]", "[[SoT - Namespacing in Computing]]", "[[SoT - State Synchronization Models]]"]
-source_of_truth: []
+modified: 2026-02-01T15:07:57+00:00
 status: "stable"
 tags: ["data_structures", "hashicorp", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "vault"]
 title: SoT - HashiCorp Vault Architecture
 type: "SoT"
-uid: 
 updated: 
 ---
 

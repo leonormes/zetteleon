@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-29T16:35:00Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:32+00:00
 source: "[[MOC - 8 simple Japanese habits]]"
-source_of_truth: []
 status: "seedling"
 tags: ["gratitude", "Japanese_culture", "mindfulness", "TheHuman/Habits"]
 title: Itadakimasu expresses gratitude for a meal
 type: "concept"
-uid: 
 updated: 
 ---
 

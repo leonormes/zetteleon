@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-08-31T16:09:01Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:35+00:00
 status: ""
 tags: ["art", "creative-expression", "multimedia", "music", "non-linguistic-expression"]
 title: Creative Expression Across Mediums
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 The gap between thought and language highlights the limitations of any single medium for expressing the entirety of human experience, encouraging exploration of diverse forms of creative expression to capture nuances that language alone cannot convey.
@@ -30,11 +22,11 @@ The gap between thought and language highlights the limitations of any single me
 
 ## Expressive Mediums and Their Unique Capacities
 
-- **Music**: Evokes emotions and conveys complex narratives without words
-- **Visual art**: Expresses ideas, feelings, and experiences that defy linguistic description
-- **Dance and movement**: Communicates through embodied expression and spatial relationships
-- **Film and multimedia**: Combines multiple sensory channels for immersive expression
-- **Architecture**: Creates experiential spaces that communicate through form and function
+- Music: Evokes emotions and conveys complex narratives without words
+- Visual art: Expresses ideas, feelings, and experiences that defy linguistic description
+- Dance and movement: Communicates through embodied expression and spatial relationships
+- Film and multimedia: Combines multiple sensory channels for immersive expression
+- Architecture: Creates experiential spaces that communicate through form and function
 
 ## Questions
 

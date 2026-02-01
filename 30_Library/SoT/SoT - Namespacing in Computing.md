@@ -1,40 +1,33 @@
 ---
 aliases: ["Namespace Architecture", "Resource Isolation Patterns"]
-confidence: "5/5"
 created: 2025-12-13T08:50:56Z
-epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2026-01-23T18:09:19+00:00
-purpose: "To define the principles, types, and architectural impact of namespacing across operating systems, networking, and programming."
-review_interval: "2 years"
-see_also: ["[[SoT - Container Isolation (The Namespace Security Model)]]", "[[SoT - Namespace-Aware Pseudo-Filesystems]]"]
-source_of_truth: []
+modified: 2026-02-01T15:07:54+00:00
 status: "stable"
 tags: ["isolation", "kubernetes", "SoftwareEngineering/Architecture", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]
 title: SoT - Namespacing in Computing
 type: "SoT"
-uid: 
 updated: 
 ---
 
 ## 1. Definitive Statement
 
 > [!definition] Definition
-> **Namespacing** is an architectural pattern that partitions identifiers (names) into distinct, isolated contexts. It prevents naming collisions and enables multiple components to use identical labels without conflict.
+> Namespacing is an architectural pattern that partitions identifiers (names) into distinct, isolated contexts. It prevents naming collisions and enables multiple components to use identical labels without conflict.
 
 ---
 
 ## 2. Linux Kernel Namespaces
 
-Linux namespaces provide the fundamental isolation required for **Containerization**.
+Linux namespaces provide the fundamental isolation required for Containerization.
 
 ### A. Shared vs. Isolated VFS
 
-A critical distinction in Linux namespacing is whether the **Mount Namespace** is utilized:
+A critical distinction in Linux namespacing is whether the Mount Namespace is utilized:
 
-- **Isolated VFS:** When a new Mount namespace is created, the process receives an independent mount table. Changes to the filesystem hierarchy (e.g., `mount`, `pivot_root`) are private to that namespace.
-- **Shared VFS:** If a process joins other namespaces (Network, PID, UTS) but remains in the **Initial Mount Namespace**, it shares the host's filesystem hierarchy.
-  - **The Risk:** There is zero filesystem-level isolation. Processes can read and modify host files, posing a massive security risk.
+- Isolated VFS: When a new Mount namespace is created, the process receives an independent mount table. Changes to the filesystem hierarchy (e.g., `mount`, `pivot_root`) are private to that namespace.
+- Shared VFS: If a process joins other namespaces (Network, PID, UTS) but remains in the Initial Mount Namespace, it shares the host's filesystem hierarchy.
+  - The Risk: There is zero filesystem-level isolation. Processes can read and modify host files, posing a massive security risk.
 
 ---
 
@@ -58,11 +51,11 @@ Kubernetes namespaces create "Virtual Clusters" within a physical cluster, enabl
 
 Namespacing alone is often insufficient for security.
 
-- **Information Leakage:** In a shared VFS scenario, processes in different PID namespaces can still "see" each other's files if the shared `/proc` is not correctly managed.
-- **Management Overhead:** Partitioning resources increases the complexity of service discovery and cross-context communication.
+- Information Leakage: In a shared VFS scenario, processes in different PID namespaces can still "see" each other's files if the shared `/proc` is not correctly managed.
+- Management Overhead: Partitioning resources increases the complexity of service discovery and cross-context communication.
 
 ---
 
 ## 5. Summary
 
-Namespacing is the mechanism of **Contextual Integrity**. By logically grouping related resources, systems can scale exponentially without the friction of global naming conflicts.
+Namespacing is the mechanism of Contextual Integrity. By logically grouping related resources, systems can scale exponentially without the friction of global naming conflicts.

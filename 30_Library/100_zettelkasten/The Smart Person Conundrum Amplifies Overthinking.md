@@ -1,21 +1,13 @@
 ---
 aliases: ["Smart Person Conundrum"]
-confidence: "null"
 created: 2025-07-17T10:04:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: "null"
 tags: ["intelligence", "overthinking", "risk", "TheHuman/Cognition"]
 title: The Smart Person Conundrum Amplifies Overthinking
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
 Highly intelligent individuals can perceive a greater number of potential risks and negative outcomes for any given action. This heightened risk perception leads to increased hesitation and a stronger tendency to avoid real-world experiences ([[Type 2 Information is Experiential and Feared by Overthinkers]]).

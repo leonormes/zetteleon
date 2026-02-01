@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-12-08T00:17:39Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: []
 title: Growth mindset
 type: ""
-uid: 
 updated: 
 ---
 
@@ -27,41 +20,41 @@ You are absolutely right: a growth mindset is incredibly difficult to foster aga
 
 Here is a path to deconstructing the comparison mindset for you, and in turn, helping Bessie.
 
-## **Part 1: Deconstructing Your Own Comparison Mindset (The Parent's Work)**
+## Part 1: Deconstructing Your Own Comparison Mindset (The Parent's Work)
 
 This is about turning your focus inward and healing the part of you that learned to find its worth in external validation.
 
-### **1\. Acknowledge and Externalise Your Perfectionist Voice**
+### 1\. Acknowledge and Externalise Your Perfectionist Voice
 
 Give that critical, comparing voice a name. Call it "The Judge," "The Critic," or even something silly like "Mr. PerfectPants." When you find yourself comparing or feeling the sting of perfectionism, narrate it internally: "Ah, The Judge is here. He's telling me I'm not as good as that person. Thanks for your input, Judge, but I've got this." This act of naming creates a tiny bit of space between you and the thought, reminding you that it is not _you_.
 
-### **2\. Practice Active Self-Compassion**
+### 2\. Practice Active Self-Compassion
 
 This is the direct antidote to the harshness of comparison. Dr. Kristin Neff defines it with three parts. When you feel that pang of "I'm not good enough," consciously walk through these steps:
 
-- **Mindfulness:** "This hurts. I'm feeling that old sting of envy and inadequacy right now." Just notice the feeling without judgment.
-- **Common Humanity:** "I am not alone in this. Many people, especially those with ADHD, have struggled with these exact feelings. My struggle is part of the human experience." This directly fights the isolating feeling of being "different."
-- **Self-Kindness:** "May I be kind to myself in this moment. I am doing my best." Place a hand on your heart. Speak to yourself as you would speak to Bessie if she were hurting.
+- Mindfulness: "This hurts. I'm feeling that old sting of envy and inadequacy right now." Just notice the feeling without judgment.
+- Common Humanity: "I am not alone in this. Many people, especially those with ADHD, have struggled with these exact feelings. My struggle is part of the human experience." This directly fights the isolating feeling of being "different."
+- Self-Kindness: "May I be kind to myself in this moment. I am doing my best." Place a hand on your heart. Speak to yourself as you would speak to Bessie if she were hurting.
 
-### **3\. Shift from "But" to "And"**
+### 3\. Shift from "But" to "And"
 
 Your brain can hold two conflicting truths at once. The comparison mindset often uses "but": "She did a great job, _but_ mine isn't as good." This invalidates the first half of the statement. Practice using "and" instead.
 
 - "I really admire the skill she has, _and_ I am proud of the effort I am putting into learning."
 - "I feel a pang of jealousy, _and_ I can be genuinely happy for their success." This honours your authentic feelings while allowing room for a more generous, growth-oriented perspective.
 
-### **4\. Redefine "Best"**
+### 4\. Redefine "Best"
 
 You wrote it yourself: "I want to be better than myself." This is your new mantra. The only person you are in competition with is who you were yesterday. When you see someone else's achievement, reframe it in your mind:
 
-- **Old thought:** "They are so much better than me."
-- **New thought:** "That's amazing. Their skill shows me what's possible. What is one small step _I_ can take today to improve my own skills?" This turns a moment of comparison into a moment of inspiration and personal action.
+- Old thought: "They are so much better than me."
+- New thought: "That's amazing. Their skill shows me what's possible. What is one small step _I_ can take today to improve my own skills?" This turns a moment of comparison into a moment of inspiration and personal action.
 
-## **Part 2: Fostering Bessie's Growth Mindset (The Parenting Work)**
+## Part 2: Fostering Bessie's Growth Mindset (The Parenting Work)
 
 Your own journey is the most powerful teaching tool. As you practice the steps above, you can model them for Bessie and build your family's "bubble" against societal pressure.
 
-### **1\. Make Your Inner Monologue External**
+### 1\. Make Your Inner Monologue External
 
 This is the most important thing you can do. Let Bessie hear your own growth mindset in action. Let her see you are not perfect.
 
@@ -71,7 +64,7 @@ This is the most important thing you can do. Let Bessie hear your own growth min
 
 By doing this, you show her that struggle, envy, and failure are normal, manageable parts of life. You are modelling that her self-worth is not tied to her performance.
 
-### **2\. Create a "Family Culture of Process over Prizes"**
+### 2\. Create a "Family Culture of Process over Prizes"
 
 Explicitly talk about what your family values. When Bessie comes home from school, instead of asking "What mark did you get?", ask process-oriented questions:
 
@@ -82,42 +75,42 @@ Explicitly talk about what your family values. When Bessie comes home from schoo
 
 When she shows you her work, praise the process, not just the result. Instead of "That's a beautiful drawing, you're so talented\!", say "I love the way you used those colours. Tell me about how you decided to put the blue next to the yellow. I can see you worked really hard on this."
 
-### **3\. Actively Deconstruct Comparison**
+### 3\. Actively Deconstruct Comparison
 
 When Bessie says, "Leo is so much better at maths than me," resist the urge to say "No you're great\!" First, validate her feeling: "It sounds like you're feeling a bit frustrated with maths right now." Then, redirect her comparison back to herself: "Let's forget about Leo for a minute. Let's look at the maths you were doing last month. Look how much you've learned since then\! Your brain is growing so much. Let's focus on _your_ progress."
 
 This teaches her that her own journey is the only one that matters. You are not denying the school's ranking, but you are rendering it less important than her personal growth.
 
-## **Part 3: Practical Exercises for You and Bessie**
+## Part 3: Practical Exercises for You and Bessie
 
 Moving from theory to action is the key to cementing these neural pathways. Try these specific exercises to make the concept tangible.
 
-### **1. The "Power of Yet" Game (Linguistic Reframe)**
+### 1. The "Power of Yet" Game (Linguistic Reframe)
 
-- **Concept:** A simple linguistic shift that transforms a statement of permanent inability into a temporary state of learning.
-- **The Rule:** Whenever anyone in the house says "I can't do this" or "I'm not good at this," someone else must gently add "…yet."
-- **Example:**
+- Concept: A simple linguistic shift that transforms a statement of permanent inability into a temporary state of learning.
+- The Rule: Whenever anyone in the house says "I can't do this" or "I'm not good at this," someone else must gently add "…yet."
+- Example:
     - _Bessie:_ "I can't do this algebra equation!"
     - _You:_ "You can't do it _yet_."
     - _You:_ "I'm useless at this new software."
     - _Bessie:_ "You're useless at it _yet_, Dad."
 
-### **2. The "Failure Autopsy" (Scientific Detachment)**
+### 2. The "Failure Autopsy" (Scientific Detachment)
 
-- **Concept:** Removing the shame from failure by treating it as data.
-- **Activity:** When a mistake happens (a bad test result, a burnt dinner), sit down with a notebook and do a "clinical review" without emotion.
-- **The Questions:**
-    1. **The Hypothesis:** What did I think would happen?
-    2. **The Data:** What actually happened?
-    3. **The Variable:** What one thing could I change next time to get a different result?
-- **Goal:** This trains the brain to switch from "I am a failure" (Identity) to "My strategy failed" (Process).
+- Concept: Removing the shame from failure by treating it as data.
+- Activity: When a mistake happens (a bad test result, a burnt dinner), sit down with a notebook and do a "clinical review" without emotion.
+- The Questions:
+    1. The Hypothesis: What did I think would happen?
+    2. The Data: What actually happened?
+    3. The Variable: What one thing could I change next time to get a different result?
+- Goal: This trains the brain to switch from "I am a failure" (Identity) to "My strategy failed" (Process).
 
-### **3. The 30-Day "Beginner" Challenge (Shared Vulnerability)**
+### 3. The 30-Day "Beginner" Challenge (Shared Vulnerability)
 
-- **Concept:** Normalising the clumsy, awkward phase of learning.
-- **Activity:** You both pick a skill you are objectively bad at (e.g., You: Drawing; Her: Juggling).
-- **The Commitment:** Practice for 10 minutes every day for 30 days.
-- **The Check-in:** Once a week, show each other your (likely terrible) progress. Laugh at the failures and celebrate the tiny improvements.
-- **Goal:** To prove that _talent_ is often just _consistent practice_ in disguise.
+- Concept: Normalising the clumsy, awkward phase of learning.
+- Activity: You both pick a skill you are objectively bad at (e.g., You: Drawing; Her: Juggling).
+- The Commitment: Practice for 10 minutes every day for 30 days.
+- The Check-in: Once a week, show each other your (likely terrible) progress. Laugh at the failures and celebrate the tiny improvements.
+- Goal: To prove that _talent_ is often just _consistent practice_ in disguise.
 
 This is a slow, messy, and imperfect journey. There will be days when "The Judge" wins. There will be days you fall back into comparison. That's okay. The goal isn't to achieve a perfect growth mindset–that would be perfectionism\! The goal is simply to notice, to be a little kinder to yourself, and to gently guide yourself and your daughter back to the path of self-compassion and personal growth, one day at a time. Your self-awareness is your superpower.

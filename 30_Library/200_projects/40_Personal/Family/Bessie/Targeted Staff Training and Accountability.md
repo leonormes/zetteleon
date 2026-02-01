@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-21T10:08:44Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:23+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: ["TheHuman/Family/Bessie"]
 title: Targeted Staff Training and Accountability
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 - Failing Identified: The inconsistencies in support suggest that despite general SEND training, not all staff are adequately equipped to meet Bessie's complex needs, particularly around ADHD, emotional regulation, and masking.

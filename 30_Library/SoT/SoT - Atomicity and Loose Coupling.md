@@ -1,28 +1,21 @@
 ---
 aliases: ["Atomic Notes vs. Interconnectedness", "Loose Coupling", "The Problem of False Atoms SoT"]
-confidence: "5/5"
 created: 2025-12-12T00:00:00Z
-epistemic: ""
 last_reviewed: "2025-12-12"
-modified: 2026-01-23T18:09:21+00:00
-purpose: "Canonical resolution of the tension between note atomicity and system dependencies in ProdOS."
-review_interval: "1 year"
-see_also: ["[[Atomic vs Structural Notes]]", "[[I Don't Like Dependencies]]", "[[MOC - Thought and Language]]", "[[SoT - Contextual Myopia and Self-Referential Meaning]]", "[[SoT - PRODOS - Knowledge Synthesis (Thinking)]]", "[[SoT - The Thought-Language Continuum]]", "[[The Atomicity Principle - One Idea Per Note]]", "[[The problem of false atoms]]", "[[The Problem of False Atoms]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:02+00:00
 status: "stable"
 tags: ["atomicity", "pkm", "topic/systems", "zettelkasten"]
 title: SoT - Atomicity and Loose Coupling
 type: "SoT"
-uid: 
 updated: 
 ---
 
 ## 2. The Core Tension: Independence vs. Interconnectedness
 
-We crave **Modularity** (understanding a part without understanding the whole) but reality is defined by **Interconnectedness** (the whole is greater than the sum of parts).
+We crave Modularity (understanding a part without understanding the whole) but reality is defined by Interconnectedness (the whole is greater than the sum of parts).
 
-- **The Problem ("False Atoms"):** Notes that are fragments ("This is why it failed") rather than ideas ("The bridge failed due to harmonic resonance"). They are useless without their neighbor.
-- **The Ideal ("True Atoms"):** Notes that function like Lego bricks. A single brick has defined dimensions and properties (self-contained) but is useless until connected (interdependent).
+- The Problem ("False Atoms"): Notes that are fragments ("This is why it failed") rather than ideas ("The bridge failed due to harmonic resonance"). They are useless without their neighbor.
+- The Ideal ("True Atoms"): Notes that function like Lego bricks. A single brick has defined dimensions and properties (self-contained) but is useless until connected (interdependent).
 
 ---
 
@@ -32,15 +25,15 @@ To manage complexity, we must distinguish between two types of dependencies:
 
 ### A. Implicit Dependencies (Context)
 
-- **Definition:** The shared language and foundational knowledge required to read the note.
-- **Example:** A note on "Calculus" implicitly depends on "Algebra."
-- **Strategy:** Minimize but accept. Define core terms if ambiguous.
+- Definition: The shared language and foundational knowledge required to read the note.
+- Example: A note on "Calculus" implicitly depends on "Algebra."
+- Strategy: Minimize but accept. Define core terms if ambiguous.
 
 ### B. Explicit Dependencies (Coupling)
 
-- **Definition:** When Note A _cannot be understood_ without immediately reading Note B.
-- **Example:** Note A says "See previous note for context."
-- **Strategy:** **Eliminate.** This is "Tight Coupling" and breaks the system.
+- Definition: When Note A _cannot be understood_ without immediately reading Note B.
+- Example: Note A says "See previous note for context."
+- Strategy: Eliminate. This is "Tight Coupling" and breaks the system.
   - _Fix:_ Rewrite Note A to include the necessary context in its first sentence.
 
 ---
@@ -49,10 +42,10 @@ To manage complexity, we must distinguish between two types of dependencies:
 
 How to write notes that are "Usefully Independent":
 
-1. **Title as API:** The title must be a complete, declarative sentence that summarizes the core insight. (e.g., _"Supply increases lead to price decreases"_ vs _"Supply"_).
-2. **Context Injection:** The first paragraph must define the "Who, What, Where" necessary to understand the rest of the note.
-3. **One Idea Per Note:** If a note discusses Cause AND Effect, split it. Link them with a typed relationship (`leads to`).
-4. **Semantic Linking:** Never just drop a link. Explain _why_ the link exists.
+1. Title as API: The title must be a complete, declarative sentence that summarizes the core insight. (e.g., _"Supply increases lead to price decreases"_ vs _"Supply"_).
+2. Context Injection: The first paragraph must define the "Who, What, Where" necessary to understand the rest of the note.
+3. One Idea Per Note: If a note discusses Cause AND Effect, split it. Link them with a typed relationship (`leads to`).
+4. Semantic Linking: Never just drop a link. Explain _why_ the link exists.
     - _Bad:_ `[[Topic B]]`
     - _Good:_ "This concept is a specific instance of `[[Topic B]]`."
 
@@ -60,10 +53,10 @@ How to write notes that are "Usefully Independent":
 
 ## 5. ProdOS Integration: The Network Effect
 
-In ProdOS, we accept that **Meaning is Emergent**.
+In ProdOS, we accept that Meaning is Emergent.
 
-- **The Nodes (Atoms):** Provide clarity and definition.
-- **The Edges (Links):** Provide context and narrative.
-- **The Network:** Is the actual "Knowledge."
+- The Nodes (Atoms): Provide clarity and definition.
+- The Edges (Links): Provide context and narrative.
+- The Network: Is the actual "Knowledge."
 
 We gain control over complexity not by isolating atoms, but by standardizing how they connect.

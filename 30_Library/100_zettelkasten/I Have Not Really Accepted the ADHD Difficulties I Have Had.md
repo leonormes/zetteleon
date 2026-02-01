@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-04-09T12:44:13Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:32+00:00
 status: ""
 tags: ["TheHuman/Health/ADHD"]
 title: I Have Not Really Accepted the ADHD Difficulties I Have Had
 type: "permanent"
-uid: 
 updated: 
-version: ""
 ---
 
 I realised recently that although I have had the diagnosis for a few years, I have not really accepted the difficulties it has given me. I still see it as me being lazy, or incompetent. I have ignored the fact that having ADHD means I have executive function differences. I am not giving myself the compassion I deserve. I am still blaming myself. I think I am refusing to allow these things to be an excuse for poor performance.

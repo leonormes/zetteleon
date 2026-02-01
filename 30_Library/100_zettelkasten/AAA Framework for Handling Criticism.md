@@ -1,31 +1,24 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-10-31T12:55:00Z
-epistemic: "framework"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: "Provide structured response to criticism."
-review_interval: "90"
-see_also: ["RSD is associated with neurodiversity particularly ADHD.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:37+00:00
 status: "seedling"
 tags: ["communication", "TheHuman/Psychology"]
 title: AAA Framework for Handling Criticism
 type: "technique"
-uid: 
 updated: 
 ---
 
 ## AAA Framework for Handling Criticism
 
-**Three-Step Process:**
+Three-Step Process:
 
-1. **Appreciate**: Express gratitude for feedback
-2. **Ask**: Request specific examples/clarification
-3. **Acknowledge**: Paraphrase to confirm understanding
+1. Appreciate: Express gratitude for feedback
+2. Ask: Request specific examples/clarification
+3. Acknowledge: Paraphrase to confirm understanding
 
-**ADHD Benefits:**
+ADHD Benefits:
 
 - Structures emotional responses
 - Buys processing time

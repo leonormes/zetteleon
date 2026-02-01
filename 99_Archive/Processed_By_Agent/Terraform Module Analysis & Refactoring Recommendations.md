@@ -36,19 +36,19 @@ The [terraform-azure-private-infrastructure](cci:7://file:///Volumes/DAL/Fitfile
 
 ### Key Issues Identified
 
-1. **❌ Excessive Variable Count (665 lines)** - 100+ individual variables create maintenance burden
-2. **❌ Hardcoded Assumptions** - Single additional node pool, fixed subnet structure
-3. **❌ Tight Coupling** - Module creates both infrastructure AND networking
-4. **❌ Limited Flexibility** - Cannot support multiple node pools or custom subnet configurations
-5. **❌ Variable Explosion** - Every AKS property exposed as individual variable (lines 3-73 in main.tf)
+1. ❌ Excessive Variable Count (665 lines) - 100+ individual variables create maintenance burden
+2. ❌ Hardcoded Assumptions - Single additional node pool, fixed subnet structure
+3. ❌ Tight Coupling - Module creates both infrastructure AND networking
+4. ❌ Limited Flexibility - Cannot support multiple node pools or custom subnet configurations
+5. ❌ Variable Explosion - Every AKS property exposed as individual variable (lines 3-73 in main.tf)
 
 ---
 
 ## Recommended Refactors
 
-### 1. **Use Object Variables for Node Pool Configuration**
+### 1. Use Object Variables for Node Pool Configuration
 
-**Current Problem:**
+Current Problem:
 
 ```hcl
 # 20+ individual variables for additional node pool
@@ -58,7 +58,7 @@ variable "additional_node_pool_max_count" { ... }
 # ... 17 more variables
 ```
 
-**Recommended Solution:**
+Recommended Solution:
 
 ```hcl
 variable "node_pools" {
@@ -85,14 +85,14 @@ variable "node_pools" {
 }
 ```
 
-**Benefits:**
+Benefits:
 
 - Support unlimited node pools
 - Reduce variables from 20+ to 1
 - Type-safe configuration
 - Clear structure in consumer code
 
-**Consumer Example:**
+Consumer Example:
 
 ```hcl
 node_pools = {
@@ -113,14 +113,14 @@ node_pools = {
 }
 ```
 
-### 2. **Dynamic Subnet Configuration**
+### 2. Dynamic Subnet Configuration
 
-**Current Problem:**
+Current Problem:
 
 - Hardcoded 3 subnets (system, workflows, jumpbox)
 - Cannot add custom subnets for different purposes
 
-**Recommended Solution:**
+Recommended Solution:
 
 ```hcl
 variable "subnets" {
@@ -149,25 +149,25 @@ variable "subnets" {
 }
 ```
 
-**Benefits:**
+Benefits:
 
 - Support custom subnet layouts
 - GPU node pools, database subnets, etc.
 - Maintain backward compatibility with defaults
 
-### 3. **Separate Network Module from AKS Module**
+### 3. Separate Network Module from AKS Module
 
-**Current Problem:**
+Current Problem:
 
 - Module creates VNet AND AKS cluster
 - Cannot reuse existing networks easily
 - Violates single responsibility principle
 
-**Recommended Solution:**
+Recommended Solution:
 
 Create two separate modules:
 
-**Module 1: `terraform-azure-network`**
+Module 1: `terraform-azure-network`
 
 ```hcl
 # Outputs network resources
@@ -176,7 +176,7 @@ output "subnet_ids" { ... }
 output "route_table_id" { ... }
 ```
 
-**Module 2: `terraform-azure-aks` (refactored)**
+Module 2: `terraform-azure-aks` (refactored)
 
 ```hcl
 # Consumes network resources
@@ -185,7 +185,7 @@ variable "subnet_ids" { ... }
 variable "route_table_id" { ... }
 ```
 
-**Consumer Pattern:**
+Consumer Pattern:
 
 ```hcl
 module "network" {
@@ -201,15 +201,15 @@ module "aks" {
 }
 ```
 
-**Benefits:**
+Benefits:
 
 - Reuse networks across multiple clusters
 - Test network and AKS independently
 - Follow Terraform composition best practices
 
-### 4. **Configuration Object Pattern**
+### 4. Configuration Object Pattern
 
-**Current Problem:**
+Current Problem:
 
 ```hcl
 # 40+ individual AKS configuration variables passed through
@@ -219,7 +219,7 @@ automatic_channel_upgrade = var.automatic_channel_upgrade
 # ... 37 more lines
 ```
 
-**Recommended Solution:**
+Recommended Solution:
 
 ```hcl
 variable "aks_config" {
@@ -253,20 +253,20 @@ variable "network_config" {
 }
 ```
 
-**Benefits:**
+Benefits:
 
 - Logical grouping of related settings
 - Easier to understand module interface
 - Reduce variable count by 70%
 
-### 5. **Feature Flags with Sensible Defaults**
+### 5. Feature Flags with Sensible Defaults
 
-**Current Problem:**
+Current Problem:
 
 - Many optional features scattered across variables
 - Unclear which features are enabled
 
-**Recommended Solution:**
+Recommended Solution:
 
 ```hcl
 variable "features" {
@@ -288,9 +288,9 @@ resource "azurerm_bastion_host" "this" {
 }
 ```
 
-### 6. **Naming Configuration Object**
+### 6. Naming Configuration Object
 
-**Current Problem:**
+Current Problem:
 
 ```hcl
 # 10+ override variables for names
@@ -300,7 +300,7 @@ variable "aks_cluster_name" { ... }
 # ... 7 more
 ```
 
-**Recommended Solution:**
+Recommended Solution:
 
 ```hcl
 variable "naming" {
@@ -332,7 +332,7 @@ locals {
 }
 ```
 
-### 7. **Validation Functions**
+### 7. Validation Functions
 
 Add comprehensive validation:
 
@@ -449,13 +449,13 @@ module "private-infrastructure" {
 
 ## Terraform Best Practices Applied
 
-1. **✅ Module Composition** - Separate network and compute concerns
-2. **✅ Object Variables** - Group related configuration
-3. **✅ Optional Attributes** - Sensible defaults with override capability
-4. **✅ Validation** - Type safety and business rule enforcement
-5. **✅ Flat Module Hierarchy** - Avoid deep nesting
-6. **✅ Clear Interfaces** - Reduced cognitive load
-7. **✅ Backward Compatibility** - Phased migration approach
+1. ✅ Module Composition - Separate network and compute concerns
+2. ✅ Object Variables - Group related configuration
+3. ✅ Optional Attributes - Sensible defaults with override capability
+4. ✅ Validation - Type safety and business rule enforcement
+5. ✅ Flat Module Hierarchy - Avoid deep nesting
+6. ✅ Clear Interfaces - Reduced cognitive load
+7. ✅ Backward Compatibility - Phased migration approach
 
 ---
 
@@ -463,19 +463,19 @@ module "private-infrastructure" {
 
 ### High Priority (Do First)
 
-1. **Node Pools Object Variable** - Biggest flexibility gain
-2. **Naming Configuration Object** - Simplifies interface
-3. **Subnet Configuration Map** - Enables custom layouts
+1. Node Pools Object Variable - Biggest flexibility gain
+2. Naming Configuration Object - Simplifies interface
+3. Subnet Configuration Map - Enables custom layouts
 
 ### Medium Priority
 
-4. **AKS/Network Config Objects** - Better organization
-5. **Feature Flags Object** - Clearer feature management
+4. AKS/Network Config Objects - Better organization
+5. Feature Flags Object - Clearer feature management
 
 ### Low Priority (Future)
 
-6. **Separate Network Module** - Architectural improvement
-7. **Advanced Validation** - Enhanced safety
+6. Separate Network Module - Architectural improvement
+7. Advanced Validation - Enhanced safety
 
 ---
 
@@ -483,9 +483,9 @@ module "private-infrastructure" {
 
 These refactors will transform the module from a rigid, variable-heavy implementation into a flexible, composable infrastructure module that follows Terraform best practices. The phased approach ensures backward compatibility while enabling gradual migration to the improved interface.
 
-**Estimated Impact:**
+Estimated Impact:
 
-- **Variables:** 100+ → ~15-20 (80% reduction)
-- **Flexibility:** Single node pool → Unlimited node pools
-- **Maintainability:** High → Very High
-- **Reusability:** Medium → High
+- Variables: 100+ → ~15-20 (80% reduction)
+- Flexibility: Single node pool → Unlimited node pools
+- Maintainability: High → Very High
+- Reusability: Medium → High

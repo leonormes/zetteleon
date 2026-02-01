@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:53Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:27+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:20+00:00
 status: ""
 tags: ["aws", "cli"]
 title: Getting user details via cli
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Here are some options to retrieve the user's configuration:

@@ -30,9 +30,9 @@ This system bridges the gap between seeing an action and "feeling" its meaning, 
 
 Mirror neurons work in concert with other mechanisms to enable model sharing:
 
-- **Shared Biological Foundation**: We can understand each other because we run on remarkably similar biological hardware with consistent sensory systems
-- **Symbolic Language**: Language packages complex, private experiences into shared, abstract symbols (words), creating public pointers to private experiences
-- **Metaphorical Communication**: We use metaphors to describe qualities of internal states—saying you feel "down" or have a "heavy heart" uses shared physical concepts to communicate private emotional experiences
+- Shared Biological Foundation: We can understand each other because we run on remarkably similar biological hardware with consistent sensory systems
+- Symbolic Language: Language packages complex, private experiences into shared, abstract symbols (words), creating public pointers to private experiences
+- Metaphorical Communication: We use metaphors to describe qualities of internal states—saying you feel "down" or have a "heavy heart" uses shared physical concepts to communicate private emotional experiences
 
 These mechanisms work together: shared biology provides the common canvas, mirror neurons let us simulate each other's intentions, and language provides the symbolic toolkit to package and exchange emotionally-driven models.
 

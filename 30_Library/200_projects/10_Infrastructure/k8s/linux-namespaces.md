@@ -1,29 +1,21 @@
 ---
 aliases: []
 concepts: ["id: \"system-resources"]
-confidence: ""
 created: 2024-02-06T00:00:00Z
 dependencies: ""
-epistemic: ""
 exports: ["concept: \"system-resources"]
 id: "20240206143000"
 imports: ["from: \"linux-core"]
 last_reviewed: ""
-modified: 2026-01-23T18:09:25+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:14+00:00
 status: "active"
 strength: "4"
 tags: []
 title: linux-namespaces
 type: "concept"
-uid: 
 updated: 
 validation_notes: "Core Linux kernel documentation verified"
 validation_state: "validated"
-version: ""
 ---
 
 <!--content-block-start type="concept" id="user-namespace"-->

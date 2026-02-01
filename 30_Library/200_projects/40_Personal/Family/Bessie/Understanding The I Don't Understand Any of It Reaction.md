@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-20T20:17:45Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:23+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: []
 title: "Understanding The I Don't Understand Any of It Reaction"
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 - "When you say 'I don't understand any of it' in maths, what's the very first part that feels confusing to you, even if it's just a word or a symbol?" - _This aims to break down the overwhelming feeling into smaller, more manageable parts, a key strategy for Bessie's ADHD and dyslexia-related needs._

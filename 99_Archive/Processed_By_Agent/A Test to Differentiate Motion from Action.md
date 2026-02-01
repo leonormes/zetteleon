@@ -20,7 +20,7 @@ version: "1"
 
 To determine if an activity is productive action or merely motion-as-procrastination, ask the following question:
 
-**"If I stopped this activity right now, would I be any closer to my goal?"**
+"If I stopped this activity right now, would I be any closer to my goal?"
 
 If the answer is no, the activity is likely motion. If the answer is yes, it is likely action.
 

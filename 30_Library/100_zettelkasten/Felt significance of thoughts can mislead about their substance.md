@@ -1,32 +1,25 @@
 ---
 aliases: ["felt vs actual importance", "significance-substance gap"]
-confidence: "0.8"
 created: 2025-10-31T20:48:00Z
-epistemic: "principle"
 last_reviewed: "2025-10-31"
-modified: 2026-01-23T18:09:31+00:00
-purpose: "Explains the dissociation between felt importance and actual substance of thoughts"
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:34+00:00
 status: "seedling"
 tags: ["critical-thinking", "metacognition", "TheHuman/Cognition"]
 title: Felt significance of thoughts can mislead about their substance
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Felt Significance of Thoughts Can Mislead about Their Substance
 
-**Summary:** The phenomenological experience of a thought feeling important, profound, or insightful is not a reliable indicator of the thought's actual novelty, validity, or substance—these are separate dimensions that often dissociate.
+Summary: The phenomenological experience of a thought feeling important, profound, or insightful is not a reliable indicator of the thought's actual novelty, validity, or substance—these are separate dimensions that often dissociate.
 
-**Details:**
+Details:
 
 There is a systematic gap between:
 
-- **Felt significance**: The subjective sense that a thought is important, profound, or insightful
-- **Actual substance**: The objective quality, novelty, validity, or practical value of the thought's content
+- Felt significance: The subjective sense that a thought is important, profound, or insightful
+- Actual substance: The objective quality, novelty, validity, or practical value of the thought's content
 
 This dissociation occurs because:
 

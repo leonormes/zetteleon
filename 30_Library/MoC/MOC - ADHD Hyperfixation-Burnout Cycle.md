@@ -1,24 +1,16 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-11-01T11:37:53Z
 criteria: ""
-epistemic: fact
 exclusions: General ADHD topics not directly related to the hyperfixation-burnout cycle.
 last_reviewed: 2025-11-01T00:00:00.000Z
-modified: 2026-01-08T15:03:27+00:00
-purpose: ""
-review_interval: "90"
+modified: 2026-02-01T15:08:07+00:00
 scope: ""
-see_also: []
-source_of_truth: []
 status: seedling
 tags: ["TheHuman/Health/ADHD"]
 title: MOC - ADHD Hyperfixation-Burnout Cycle
 type: map
-uid:
 updated:
-version: "1"
 ---
 
 ## MOC - ADHD Hyperfixation-Burnout Cycle
@@ -41,21 +33,21 @@ When you stumble upon a new topic, hobby, or idea that piques your curiosity, it
 
 This is the peak of the cycle. Your growing interest has now blossomed into [[Hyperfixation and Neurotransmitter Flooding in ADHD]] `rel:: characterizes` this phase—not just regular interest, but an intense, all-consuming state of concentration.
 
-**Key Characteristics:**
+Key Characteristics:
 
 - [[Hyperfixation Creates Time Blindness in ADHD]] `rel:: manifests`—The world fades away; you lose track of time, forget to eat, or neglect other responsibilities.
-- **Effortless Focus:** Unlike the struggle to focus on mundane tasks, concentrating on your hyperfixation feels effortless and deeply rewarding.
+- Effortless Focus: Unlike the struggle to focus on mundane tasks, concentrating on your hyperfixation feels effortless and deeply rewarding.
 - [[The I've Cracked It Illusion During ADHD Hyperfixation]] `rel:: manifests`—During this intense period, the clarity and motivation are so profound that it's easy to believe you've finally found your "one true passion."
 
 #### Phase 3: The Crash (The Dopamine Drought and Burnout)
 
 Just as suddenly as it began, the wave crashes. This is often the most jarring and confusing part of the cycle.
 
-**Why the Crash Happens:**
+Why the Crash Happens:
 
 - [[Novelty Fading Causes Dopamine Reward to Diminish in ADHD]] `rel:: triggers-crash`—[[ADHD Brain is a Novelty-Seeking Machine]] `rel:: explains`, and once you've explored the most exciting parts, the dopamine reward diminishes significantly.
 - [[Hyperfixation Causes Mental Exhaustion and Burnout]] `rel:: triggers-crash`—Sustaining hyperfixation is incredibly energy-intensive, burning through cognitive and emotional resources.
-- **Task "Complete" in ADHD Brain:** Often, the initial exciting challenge is over. The less stimulating, more routine aspects of mastery that follow are not as appealing to the dopamine-seeking brain.
+- Task "Complete" in ADHD Brain: Often, the initial exciting challenge is over. The less stimulating, more routine aspects of mastery that follow are not as appealing to the dopamine-seeking brain.
 
 This leads directly to what you describe as the interest appearing "vague and empty." It's as if a switch has been flipped. The threads of interest that were once so vibrant and compelling are gone because the neurochemical reward associated with them has vanished.
 
@@ -63,11 +55,11 @@ This leads directly to what you describe as the interest appearing "vague and em
 
 Following the crash comes [[ADHD Hangover or Brain Fog Following Hyperfixation]] `rel:: characterizes` this phase—a period where your brain feels fuzzy, bored, and under-stimulated.
 
-**What's Happening:**
+What's Happening:
 
 - [[Dopamine Deficit Follows Hyperfixation Crash]] `rel:: causes` the mental emptiness—having come down from the high of hyperfixation, your brain is now in a dopamine deficit.
 - [[Executive Function Impairment During ADHD Trough Phase]] `rel:: manifests`—It's difficult to think clearly, initiate tasks, or feel motivated to do anything at all.
-- **Feelings of Frustration and Shame:** This is where the frustration you feel truly sets in. You look at the remnants of your last hyperfixation—the half-finished projects, the purchased supplies, the abandoned systems—and feel a sense of failure or confusion.
+- Feelings of Frustration and Shame: This is where the frustration you feel truly sets in. You look at the remnants of your last hyperfixation—the half-finished projects, the purchased supplies, the abandoned systems—and feel a sense of failure or confusion.
 
 This fallow period lasts until your brain, once again starved of stimulation, latches onto a new spark, and the entire cycle begins anew.
 
@@ -77,7 +69,7 @@ This fallow period lasts until your brain, once again starved of stimulation, la
 
 However, the routine and maintenance required to keep a system going are inherently monotonous. Once the novelty of creating the system wears off, it no longer provides the dopamine hit your brain is seeking. The system itself becomes a chore, another "vague and empty" task, and is abandoned during the crash.
 
-**The Reframe:**
+The Reframe:
 
 In essence, you are not failing to maintain the system; the system is failing to keep your brain sufficiently stimulated. Rewriting and understanding this experience is the first step.
 
@@ -99,7 +91,7 @@ Rather than fighting your brain's need for novelty, work with it. Design systems
 
 ---
 
-> **Inclusion criteria:** Atomic notes addressing the hyperfixation-burnout cycle, its neurological basis, behavioral manifestations, and practical implications; evergreen or growing status.
+> Inclusion criteria: Atomic notes addressing the hyperfixation-burnout cycle, its neurological basis, behavioral manifestations, and practical implications; evergreen or growing status.
 
 ### Conclusion
 

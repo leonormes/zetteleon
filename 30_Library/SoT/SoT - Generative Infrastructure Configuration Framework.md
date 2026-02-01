@@ -1,23 +1,16 @@
 ---
 aliases: ["Configuration Generator Pattern", "Generative Config", "GIC Framework"]
-confidence: "5/5"
 created: 2025-12-13T00:00:00Z
-epistemic: ""
 last_reviewed: "2025-12-13"
-modified: 2026-01-23T18:09:19+00:00
-purpose: "To define the Generative Infrastructure Configuration (GIC) Framework, a pattern for treating configuration as a generated output to maximize robustness and consistency."
-review_interval: "6 months"
-see_also: ["[[SoT - PRODOS (System Architecture)]]", "[[SoT - Software Configuration Management Patterns]]"]
-source_of_truth: []
+modified: 2026-02-01T15:07:57+00:00
 status: "stable"
 tags: ["configuration_management", "devops", "infrastructure_as_code", "SoftwareEngineering/Architecture", "terraform"]
 title: SoT - Generative Infrastructure Configuration Framework
 type: "SoT"
-uid: 
 updated: 
 ---
 
-> **Core Principle: "** By defining a minimal, declarative **Configuration Kernel** (intent) and processing it through a validated **Configuration Generator** (code), the system automatically derives complex, error-prone values (protocols), ensuring consistency, reducing cognitive load, and making changes explicitly evident."
+> Core Principle: " By defining a minimal, declarative Configuration Kernel (intent) and processing it through a validated Configuration Generator (code), the system automatically derives complex, error-prone values (protocols), ensuring consistency, reducing cognitive load, and making changes explicitly evident."
 
 ## 2. Working Knowledge (The Framework)
 
@@ -25,10 +18,10 @@ updated:
 
 Manual configuration in modern distributed systems is fragile. Reliance on vast, explicit `.tfvars` files leads to:
 
-- **Error-Prone Deployments:** Typos in hostnames or ARNs cause failures.
-- **Inconsistency:** Naming conventions drift across environments.
-- **High Cognitive Load:** Developers must manage dozens of unique identifiers.
-- **Opaque Changes:** The impact of variable changes is often unclear.
+- Error-Prone Deployments: Typos in hostnames or ARNs cause failures.
+- Inconsistency: Naming conventions drift across environments.
+- High Cognitive Load: Developers must manage dozens of unique identifiers.
+- Opaque Changes: The impact of variable changes is often unclear.
 
 ### The Solution Architecture
 
@@ -38,21 +31,21 @@ GIC shifts the source of truth from fragile inputs to robust code.
 
 A minimal set of human-defined inputs describing _what_ is being deployed, not _how_.
 
-- **Example Inputs:** `app_name`, `environment`, `base_domain`, `aws_region`, `cost_centre`.
-- **Characteristic:** Small surface area, high robustness.
+- Example Inputs: `app_name`, `environment`, `base_domain`, `aws_region`, `cost_centre`.
+- Characteristic: Small surface area, high robustness.
 
 #### 2. The Configuration Generator (The Protocol)
 
 A version-controlled module (e.g., Terraform module) that ingests the Kernel and applies codified rules to producing a deterministic output.
 
-- **Function:** `Kernel -> Generator -> Full Configuration Manifest`
-- **Characteristic:** Tested, peer-reviewed, "pure function" logic.
+- Function: `Kernel -> Generator -> Full Configuration Manifest`
+- Characteristic: Tested, peer-reviewed, "pure function" logic.
 
 #### 3. The Generated Manifest (The Output)
 
 The complex, derived values used by infrastructure resources.
 
-- **Examples:**
+- Examples:
   - DNS Hostnames: `user-service.prod.my-company.co.uk`
   - S3 Buckets: `my-company-prod-user-service-assets`
   - Secret Paths: `/prod/user-service/db_creds`
@@ -66,28 +59,28 @@ The complex, derived values used by infrastructure resources.
 
 GIC is particularly powerful when chaining tools. Terraform acts as the "Root Generator," producing values that are then passed downstream.
 
-**The Workflow:**
+The Workflow:
 
-1. **Kernel:** Developer commits a minimal `.tfvars` file.
-2. **Generator:** Terraform GIC module derives all names, tags, and paths.
-3. **Infrastructure:** Terraform provisions cloud resources using these derived values.
-4. **Application:** Terraform renders values for Helm charts (or other app configs) using the _same_ generated data, ensuring the application layer and infrastructure layer are perfectly synchronized.
+1. Kernel: Developer commits a minimal `.tfvars` file.
+2. Generator: Terraform GIC module derives all names, tags, and paths.
+3. Infrastructure: Terraform provisions cloud resources using these derived values.
+4. Application: Terraform renders values for Helm charts (or other app configs) using the _same_ generated data, ensuring the application layer and infrastructure layer are perfectly synchronized.
 
 ### Benefits
 
-- **Resilience:** Typos are caught in code review of the Generator, not in ad-hoc config files.
-- **Consistency:** Naming conventions are enforced by code.
-- **Agility:** Spinning up new environments requires only a minimal Kernel file.
-- **Change Evidence:** Changes to the Generator are code changes; changes to the Kernel are explicit data changes.
+- Resilience: Typos are caught in code review of the Generator, not in ad-hoc config files.
+- Consistency: Naming conventions are enforced by code.
+- Agility: Spinning up new environments requires only a minimal Kernel file.
+- Change Evidence: Changes to the Generator are code changes; changes to the Kernel are explicit data changes.
 
 ---
 
 ## 4. Minimum Viable Understanding (MVU)
 
-1. **Input Minimal Intent:** Only define what distinguishes this deployment (Name, Env).
-2. **Generate Complexity:** Use code to derive names, paths, and tags based on strict protocols.
-3. **Consolidate Config:** Use the generated outputs to drive both Infrastructure (Terraform) and Application (Helm) configuration.
-4. **Fail Fast:** Validate the Generator code, so individual deployments are safe by default.
+1. Input Minimal Intent: Only define what distinguishes this deployment (Name, Env).
+2. Generate Complexity: Use code to derive names, paths, and tags based on strict protocols.
+3. Consolidate Config: Use the generated outputs to drive both Infrastructure (Terraform) and Application (Helm) configuration.
+4. Fail Fast: Validate the Generator code, so individual deployments are safe by default.
 
 ---
 

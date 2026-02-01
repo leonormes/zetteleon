@@ -46,11 +46,11 @@ Crucially, allow for rest, fun, special interests, and unplanned tasks. This bui
 
 A practical implementation might look like:
 
-**Morning routine:** Wake up, exercise, breakfast, journaling, plan day, get dressed and washed
+Morning routine: Wake up, exercise, breakfast, journaling, plan day, get dressed and washed
 
-**Evening routine:** Hygiene, relaxing drink, pajamas, after dinner, wind-down activities
+Evening routine: Hygiene, relaxing drink, pajamas, after dinner, wind-down activities
 
-**Rest routine:** Always after lunch, attached to this anchor point
+Rest routine: Always after lunch, attached to this anchor point
 
 These examples demonstrate how sequences remain consistent while timing remains flexible.
 
@@ -68,19 +68,19 @@ The system provides multiple neurodivergent-friendly features:
 
 Here is a practical shell for building your own rhythm:
 
-**Bookend Routines**
+Bookend Routines
 
-- **Morning:** [personalize steps based on your needs]
-- **Evening:** [personalize steps for wind-down]
+- Morning: [personalize steps based on your needs]
+- Evening: [personalize steps for wind-down]
 
-**Anchor Points**
+Anchor Points
 
 - After morning routine
 - Lunch completion
 - End of workday
 - Dinner completion
 
-**Time Blocks** (flexible duration)
+Time Blocks (flexible duration)
 
 - Breakfast → Lunch: [tasks/rest]
 - Lunch → End of workday: [tasks/rest/errands]

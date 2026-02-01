@@ -18,8 +18,8 @@ updated:
 version: "1"
 ---
 
-The **Momentum Method** is a behavioral strategy designed to systematically overcome the high activation energy associated with task initiation in ADHD.
+The Momentum Method is a behavioral strategy designed to systematically overcome the high activation energy associated with task initiation in ADHD.
 
 The core principle is to stop trying to conquer the activation barrier with willpower alone, and instead to engineer the task so that the barrier is lowered to a near-zero level.
 
-This is achieved by using **starter tasks**: trivially small actions whose sole purpose is to get the process started. By making the first step so easy that it's physically impossible _not_ to do it, the method breaks the initial inertia and builds psychological momentum that makes subsequent steps easier to tackle.
+This is achieved by using starter tasks: trivially small actions whose sole purpose is to get the process started. By making the first step so easy that it's physically impossible _not_ to do it, the method breaks the initial inertia and builds psychological momentum that makes subsequent steps easier to tackle.

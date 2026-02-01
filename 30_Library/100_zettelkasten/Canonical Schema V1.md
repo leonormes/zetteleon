@@ -1,27 +1,20 @@
 ---
 aliases: ["Schema V1"]
-confidence: "0.95"
 created: 2025-10-31T08:17:00Z
-epistemic: "principle"
 last_reviewed: "2025-10-31"
-modified: 2026-01-23T18:09:32+00:00
-purpose: "Reference definition of the required YAML frontmatter structure for all zettelkasten notes."
-review_interval: "180"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:36+00:00
 status: "seedling"
 tags: ["metadata", "schema", "zettelkasten"]
 title: Canonical Schema V1
 type: "definition"
-uid: 
 updated: 
 ---
 
 ## Canonical Schema V1
 
-**Summary:** A standardized YAML frontmatter template and field specification that ensures all notes in the vault are machine-readable, queryable, and adhere to the atomic/structural category invariant.
+Summary: A standardized YAML frontmatter template and field specification that ensures all notes in the vault are machine-readable, queryable, and adhere to the atomic/structural category invariant.
 
-**Details:**
+Details:
 
 All notes must include the following global fields:
 

@@ -1,14 +1,8 @@
 ---
 aliases: ["Pattern - Data Centric IaC"]
-confidence: high
 created: 2026-01-07T10:14:28+00:00
-epistemic: confirmed
 last_reviewed: 2026-01-07
-modified: 2026-01-23T18:09:30+00:00
-purpose: "Define the Data-Centric pattern for Infrastructure as Code"
-review_interval: yearly
-see_also: ["[[Refactor: Helm Chart Compiler]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:29+00:00
 status: stable
 tags: ["SoftwareEngineering/Architecture", devops, helm, pattern]
 title: Pattern - Helm Chart as a Compiler
@@ -18,29 +12,29 @@ type: concept
 ## Pattern: Helm Chart as a Compiler
 
 > [!abstract] The Concept
-> Move infrastructure configuration from a **Wrapper** model (exposing vendor flags) to a **Compiler** model (expanding Intent into Configuration).
-> **Goal:** The user declares _Service Level Objectives_ (SLA), and the system generates the _Implementation Details_.
+> Move infrastructure configuration from a Wrapper model (exposing vendor flags) to a Compiler model (expanding Intent into Configuration).
+> Goal: The user declares _Service Level Objectives_ (SLA), and the system generates the _Implementation Details_.
 
 ---
 
 ### 1. The Core Philosophy
 
-This pattern applies **Data-Oriented Design** to DevOps.
+This pattern applies Data-Oriented Design to DevOps.
 
 #### The Shift
 
 | Feature | Wrapper Pattern (Old) | Compiler Pattern (New) |
 |:--- |:--- |:--- |
-| **Input** | `replicas: 3`, `cpu: 2000m` | `class: production-ha` |
-| **Logic** | `if.Values.enabled` | Table Lookup (`_specs.yaml`) |
-| **Validation** | Runtime Errors (Invalid Config) | **Unrepresentable States** (Enum) |
-| **Role** | Pass-through | Transformer |
+| Input | `replicas: 3`, `cpu: 2000m` | `class: production-ha` |
+| Logic | `if.Values.enabled` | Table Lookup (`_specs.yaml`) |
+| Validation | Runtime Errors (Invalid Config) | Unrepresentable States (Enum) |
+| Role | Pass-through | Transformer |
 
 #### The "Torvalds Loop" for IaC
 
-1. **Shape (The Type):** Define the business intent. (e.g., "Mission Critical" vs "Dev").
-2. **Data (The Spec):** Create a lookup table that maps Types to physical values.
-3. **Logic (The Adapter):** Write code that purely transforms Data -> Config.
+1. Shape (The Type): Define the business intent. (e.g., "Mission Critical" vs "Dev").
+2. Data (The Spec): Create a lookup table that maps Types to physical values.
+3. Logic (The Adapter): Write code that purely transforms Data -> Config.
 
 ---
 
@@ -59,7 +53,7 @@ database:
 
 #### Phase 2: The Data (Structure of Arrays)
 
-Replace conditional logic with a **Spec Table** (`_specs.yaml`). This is the "Source of Truth".
+Replace conditional logic with a Spec Table (`_specs.yaml`). This is the "Source of Truth".
 
 ```yaml
 # Internal Specs (The Truth)
@@ -90,6 +84,6 @@ The template acts as an adapter. It does not decide _what_ to do; it only decide
 
 ### 3. Benefits
 
-1. **Zero Human Error:** Users cannot accidentally set `replicas: 1` on a `mission-critical` database. The state is unrepresentable.
-2. **Hardware Sympathy:** Resources are defined in "T-Shirt Sizes" (Profiles) that match physical node pools, ensuring perfect bin-packing.
-3. **Vendor Agnosticism:** Switching from Bitnami to AWS RDS only requires changing the **Compiler Logic**, not the **User Intent**.
+1. Zero Human Error: Users cannot accidentally set `replicas: 1` on a `mission-critical` database. The state is unrepresentable.
+2. Hardware Sympathy: Resources are defined in "T-Shirt Sizes" (Profiles) that match physical node pools, ensuring perfect bin-packing.
+3. Vendor Agnosticism: Switching from Bitnami to AWS RDS only requires changing the Compiler Logic, not the User Intent.

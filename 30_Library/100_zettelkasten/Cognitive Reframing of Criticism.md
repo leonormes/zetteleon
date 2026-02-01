@@ -1,31 +1,24 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-10-31T12:56:00Z
-epistemic: "strategy"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: "Reposition criticism as growth opportunity."
-review_interval: "90"
-see_also: ["Constructive Debate in Psychological Safety.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:35+00:00
 status: "seedling"
 tags: ["growth", "TheHuman/Psychology"]
 title: Cognitive Reframing of Criticism
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Cognitive Reframing of Criticism
 
-**Summary:** Transform criticism perception by:
+Summary: Transform criticism perception by:
 
 - Viewing as free coaching
 - Separating message from delivery
 - Focusing on actionable elements
 
-**Techniques:**
+Techniques:
 
 - "This helps me improve X"
 - "What part can I control?"

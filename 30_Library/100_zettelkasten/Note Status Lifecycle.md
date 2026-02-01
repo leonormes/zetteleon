@@ -1,37 +1,30 @@
 ---
 aliases: ["Note Maturity", "Status Progression"]
-confidence: "0.93"
 created: 2025-10-31T08:20:00Z
-epistemic: "principle"
 last_reviewed: "2025-10-31"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "Defines the lifecycle of a note's status and the criteria for advancement from seedling to evergreen."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:30+00:00
 status: "seedling"
 tags: ["quality", "workflow", "zettelkasten"]
 title: Note Status Lifecycle
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Note Status Lifecycle
 
-**Summary:** Each atomic note progresses through three status stages—seedling, growing, and evergreen—based on completeness, integration into the vault, and epistemic confidence.
+Summary: Each atomic note progresses through three status stages—seedling, growing, and evergreen—based on completeness, integration into the vault, and epistemic confidence.
 
-**Details:**
+Details:
 
-**Seedling:** Initial state for all new notes. A seedling note has a summary and details, but may not be fully integrated or reviewed by the author. LLM-generated notes are always created at seedling status. Seedlings are drafts; they lack the rigor and review of more mature notes.
+Seedling: Initial state for all new notes. A seedling note has a summary and details, but may not be fully integrated or reviewed by the author. LLM-generated notes are always created at seedling status. Seedlings are drafts; they lack the rigor and review of more mature notes.
 
-**Growing:** A seedling becomes growing once it:
+Growing: A seedling becomes growing once it:
 
 - Has a summary (one sentence) and details (2–4 sentences)
 - Has at least 1 inbound link from a structural note (evidence of integration)
 - Has been reviewed by the author for accuracy and framing
 
-**Evergreen:** A growing note becomes evergreen once it:
+Evergreen: A growing note becomes evergreen once it:
 
 - Has at least 2 inbound links from structural notes (evidence of multiple contexts where it is useful)
 - Has a clearly articulated `purpose` field

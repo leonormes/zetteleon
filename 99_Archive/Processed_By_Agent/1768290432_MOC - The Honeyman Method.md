@@ -22,7 +22,7 @@ updated:
 
 > [!info] Canonical Source
 > This concept has been synthesized into the ProdOS system architecture.
-> See: **[[SoT - The Honeyman Method (Adaptive Routines)]]**
+> See: [[SoT - The Honeyman Method (Adaptive Routines)]]
 
 Hayley Honeyman's "Honeyman Method" for ADHD routines presents [[The Honeyman Method uses three-tiered routines to adapt to energy variation]]. Instead of aiming for a single "perfect" schedule, Honeyman recommends creating ideal, average ("most likely"), and minimum routines that adapt to fluctuating energy and motivation levels—a strategy shown to be effective for neurodivergent people.
 
@@ -30,11 +30,11 @@ Hayley Honeyman's "Honeyman Method" for ADHD routines presents [[The Honeyman Me
 
 The method consists of three distinct tiers:
 
-**Ideal Routine:** [[Ideal routines represent maximum energy and motivation days]]. Include all desired activities, even if they rarely happen all at once (e.g., walking the dog for an hour, cooking breakfast, journaling, and handling emails). This tier demonstrates what's possible under optimal conditions.
+Ideal Routine: [[Ideal routines represent maximum energy and motivation days]]. Include all desired activities, even if they rarely happen all at once (e.g., walking the dog for an hour, cooking breakfast, journaling, and handling emails). This tier demonstrates what's possible under optimal conditions.
 
-**Most Likely Routine:** [[Most Likely routines are scaled-down versions for average energy]]. Shorten or simplify tasks (e.g., shorter walk, easier breakfast, quicker grooming, skip journaling if needed). This middle tier represents your realistic baseline—the version you'll use most frequently.
+Most Likely Routine: [[Most Likely routines are scaled-down versions for average energy]]. Shorten or simplify tasks (e.g., shorter walk, easier breakfast, quicker grooming, skip journaling if needed). This middle tier represents your realistic baseline—the version you'll use most frequently.
 
-**Minimum Routine:** [[Minimum routines are bare-bones essentials for low-energy days]]. This might be as basic as brushing teeth, microwaving breakfast, and minimal grooming (even staying in pajamas). The bar is set low enough that completion remains genuinely achievable during executive dysfunction periods.
+Minimum Routine: [[Minimum routines are bare-bones essentials for low-energy days]]. This might be as basic as brushing teeth, microwaving breakfast, and minimal grooming (even staying in pajamas). The bar is set low enough that completion remains genuinely achievable during executive dysfunction periods.
 
 ### Practical Steps for Building ADHD-Friendly Routines
 
@@ -48,9 +48,9 @@ The method consists of three distinct tiers:
 
 | Routine Tier | Example Activities |
 |:-- |:-- |
-| **Ideal** | 1hr dog walk, cooked breakfast, full grooming, journaling, emails |
-| **Most Likely** | 20min walk, easy breakfast (toast), basic grooming, skip journaling, emails optional |
-| **Minimum** | Quick dog let-out, cereal, stay in pajamas, minimal hygiene |
+| Ideal | 1hr dog walk, cooked breakfast, full grooming, journaling, emails |
+| Most Likely | 20min walk, easy breakfast (toast), basic grooming, skip journaling, emails optional |
+| Minimum | Quick dog let-out, cereal, stay in pajamas, minimal hygiene |
 
 This table demonstrates how the same routine framework scales across three distinct capacity levels, maintaining structure while adjusting intensity.
 
@@ -58,13 +58,13 @@ This table demonstrates how the same routine framework scales across three disti
 
 The Honeyman Method exemplifies several crucial principles for neurodivergent productivity:
 
-**Adaptive routines:** Building routines for multiple energy levels addresses common failures in consistency for ADHD. [[Multi-tier routine systems improve consistency and self-compassion]] by eliminating the all-or-nothing trap.
+Adaptive routines: Building routines for multiple energy levels addresses common failures in consistency for ADHD. [[Multi-tier routine systems improve consistency and self-compassion]] by eliminating the all-or-nothing trap.
 
-**Self-compassion:** Removing guilt for "minimum" days encourages sustainable habit-building. This approach directly supports [[Cultivating Self-Compassion for ADHD]] by normalizing variable capacity rather than pathologizing it.
+Self-compassion: Removing guilt for "minimum" days encourages sustainable habit-building. This approach directly supports [[Cultivating Self-Compassion for ADHD]] by normalizing variable capacity rather than pathologizing it.
 
-**Immediate wins:** [[Making minimums truly attainable addresses executive dysfunction]]—feeding yourself can be the day's success. This recognizes that executive function impairment is real and requires accommodation, not willpower.
+Immediate wins: [[Making minimums truly attainable addresses executive dysfunction]]—feeding yourself can be the day's success. This recognizes that executive function impairment is real and requires accommodation, not willpower.
 
-**Structure + flexibility:** [[Combining structure with flexibility satisfies neurodivergent dual needs]]. This satisfies the need for predictable anchors (autism) while providing freedom to adapt (ADHD).
+Structure + flexibility: [[Combining structure with flexibility satisfies neurodivergent dual needs]]. This satisfies the need for predictable anchors (autism) while providing freedom to adapt (ADHD).
 
 ### Implementation Action Items
 

@@ -1,24 +1,17 @@
 ---
 aliases: ["Need for Respect in a Relationship"]
-confidence: "0.8"
 created: 2025-11-10T10:07:00Z
-epistemic: "hypothesis"
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: "To identify the need for respect and admiration as a core human need in relationships."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:25+00:00
 status: "seedling"
 tags: ["admiration", "competence", "needs", "relationship", "respect"]
 title: The Need to Feel Respected and Admired is a Core Human Need in a Partnership
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## The Need to Feel Respected and Admired is a Core Human Need in a Partnership
 
-**Summary:** A fundamental human need often prioritized in long-term relationships is the need to feel respected and admired by one's partner.
+Summary: A fundamental human need often prioritized in long-term relationships is the need to feel respected and admired by one's partner.
 
-**Details:** This is not about being put on a pedestal, but about feeling competent and trusted in one's domains, having one's efforts noticed and valued, and feeling that one's partner still respects and chooses them.
+Details: This is not about being put on a pedestal, but about feeling competent and trusted in one's domains, having one's efforts noticed and valued, and feeling that one's partner still respects and chooses them.

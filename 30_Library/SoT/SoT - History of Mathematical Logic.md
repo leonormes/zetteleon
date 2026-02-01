@@ -1,9 +1,7 @@
 ---
 aliases: ["Development of Mathematical Logic", "History of Logic"]
-confidence: "5/5"
 created: 2026-01-12T10:00:00+00:00
-epistemic: "Reference"
-modified: 2026-01-23T18:09:19+00:00
+modified: 2026-02-01T15:07:56+00:00
 status: "stable"
 tags: ["logic", "math/history", "prodos/sot"]
 title: SoT - History of Mathematical Logic
@@ -16,8 +14,8 @@ The relationship between logic and mathematics has evolved over millennia, with 
 
 ### 1. Antiquity to Enlightenment
 
-- **Ancient Greece:** Aristotle formalised logic through his system of syllogisms, providing the first rigorous framework for deductive reasoning. Simultaneously, Euclid's _Elements_ presented geometry as an axiomatic system, the first grand application of logic to a mathematical field.
-- **Leibniz (17th Century):** Gottfried Wilhelm Leibniz dreamt of a _characteristica universalis_ (universal formal language) and a _calculus ratiocinator_ (calculus of reasoning) to solve problems via mechanical computation—a direct precursor to modern mathematical logic.
+- Ancient Greece: Aristotle formalised logic through his system of syllogisms, providing the first rigorous framework for deductive reasoning. Simultaneously, Euclid's _Elements_ presented geometry as an axiomatic system, the first grand application of logic to a mathematical field.
+- Leibniz (17th Century): Gottfried Wilhelm Leibniz dreamt of a _characteristica universalis_ (universal formal language) and a _calculus ratiocinator_ (calculus of reasoning) to solve problems via mechanical computation—a direct precursor to modern mathematical logic.
 
 ### 2. The Foundational Crisis (19th - Early 20th Century)
 
@@ -33,19 +31,19 @@ The thesis that mathematics is reducible to logic. Their _Principia Mathematica_
 
 _Led by David Hilbert._
 
-Viewed mathematics as the manipulation of symbols according to specified formal rules, independent of meaning. **Hilbert's Programme** aimed to place all mathematics on a firm, consistent axiomatic foundation.
+Viewed mathematics as the manipulation of symbols according to specified formal rules, independent of meaning. Hilbert's Programme aimed to place all mathematics on a firm, consistent axiomatic foundation.
 
 #### Intuitionism
 
 _Championed by L.E.J. Brouwer._
 
-Posits that mathematics is a creation of the human mind. A statement is only true if it can be mentally constructed. Notably rejects the **Law of the Excluded Middle** ($P \lor \neg P$).
+Posits that mathematics is a creation of the human mind. A statement is only true if it can be mentally constructed. Notably rejects the Law of the Excluded Middle ($P \lor \neg P$).
 
 ### 3. Gödel's Incompleteness
 
 In 1931, Kurt Gödel permanently altered the landscape:
 
-1. **First Incompleteness Theorem:** Any consistent formal system powerful enough for arithmetic contains true statements unprovable within the system.
-2. **Second Incompleteness Theorem:** Such a system cannot prove its own consistency.
+1. First Incompleteness Theorem: Any consistent formal system powerful enough for arithmetic contains true statements unprovable within the system.
+2. Second Incompleteness Theorem: Such a system cannot prove its own consistency.
 
 This demonstrated that the goals of Logicism and Hilbert's Programme were unattainable in their original forms: mathematics is inherently incomplete.

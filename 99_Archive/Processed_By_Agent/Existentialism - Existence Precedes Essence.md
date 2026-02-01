@@ -19,15 +19,15 @@ updated:
 
 ## Existentialism - Existence Precedes Essence
 
-**Summary:** Humans first exist without predetermined purpose, then define themselves through choices.
+Summary: Humans first exist without predetermined purpose, then define themselves through choices.
 
-**Key Principles:**
+Key Principles:
 
 - Radical freedom to self-define
 - Authenticity through conscious action
 - Responsibility for choices
 
-**Thinkers:**
+Thinkers:
 
 - Sartre: Inaction is still a choice
 - De Beauvoir: Ethical expansion of freedom

@@ -1,24 +1,17 @@
 ---
 aliases: ["ADHD Time Perception", "Time Blindness"]
-confidence: "0.8"
 created: 2025-11-06T19:53:02Z
-epistemic: "fact"
 last_reviewed: "2025-11-06"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "To define time agnosia (time blindness) and explain its impact on project planning and deadlines for developers with ADHD."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: "seedling"
 tags: ["planning", "TheHuman/Health/ADHD", "time-agnosia", "time-management"]
 title: Time Agnosia Impairs Planning for Developers with ADHD
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Time Agnosia Impairs Planning for Developers with ADHD
 
-**Summary:** Time agnosia, or "time blindness," is a core ADHD deficit characterized by an inability to accurately perceive the passage of time, which severely impairs planning and estimation.
+Summary: Time agnosia, or "time blindness," is a core ADHD deficit characterized by an inability to accurately perceive the passage of time, which severely impairs planning and estimation.
 
-**Details:** For software developers, this cognitive deficit leads to consistently underestimating the time required for coding, debugging, and testing. This results in missed deadlines, rushed work, and difficulty participating in agile sprint planning, which relies on precise time estimation. The increased cognitive effort needed to plan and sequence tasks contributes to decision fatigue and a persistent feeling of being behind schedule.
+Details: For software developers, this cognitive deficit leads to consistently underestimating the time required for coding, debugging, and testing. This results in missed deadlines, rushed work, and difficulty participating in agile sprint planning, which relies on precise time estimation. The increased cognitive effort needed to plan and sequence tasks contributes to decision fatigue and a persistent feeling of being behind schedule.

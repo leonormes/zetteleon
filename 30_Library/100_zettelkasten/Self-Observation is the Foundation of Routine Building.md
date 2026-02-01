@@ -1,19 +1,12 @@
 ---
 aliases: ["Know Yourself to Build Your Routine"]
-confidence: ""
 created: 2025-10-29T16:10:00Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: "To outline the first step in creating a personalized and effective routine."
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: "seedling"
 tags: ["energy-management", "routine", "self-awareness", "sensory-processing"]
 title: Self-Observation is the Foundation of Routine Building
 type: "strategy"
-uid: 
 updated: 
 ---
 

@@ -20,8 +20,8 @@ updated:
 
 For neurodivergent individuals, particularly those with ADHD and RSD, what may appear to others as self-focused behavior can actually stem from different underlying mechanisms:
 
-1. **Intense monitoring of social interactions** - Hypervigilance aimed at avoiding rejection or criticism
-2. **Different information processing** - Processing sensory or social information through alternative pathways
-3. **Need for extended recovery time** - Requiring more time to recover from social interactions due to higher cognitive load
+1. Intense monitoring of social interactions - Hypervigilance aimed at avoiding rejection or criticism
+2. Different information processing - Processing sensory or social information through alternative pathways
+3. Need for extended recovery time - Requiring more time to recover from social interactions due to higher cognitive load
 
 These internal experiences create behaviors that may be misinterpreted as self-centeredness when they actually reflect the neurodivergent person's attempt to manage their experience and avoid overwhelming distress.

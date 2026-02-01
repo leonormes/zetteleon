@@ -1,27 +1,20 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-10-31T11:24:00Z
-epistemic: "model"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: "Explain SOLO taxonomy of understanding."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: "seedling"
 tags: ["education", "TheHuman/Cognition"]
 title: SOLO Taxonomy Describes Understanding Levels
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## SOLO Taxonomy Describes Understanding Levels
 
-**Summary:** The Structure of Observed Learning Outcome (SOLO) taxonomy categorizes understanding into five increasing complexity levels.
+Summary: The Structure of Observed Learning Outcome (SOLO) taxonomy categorizes understanding into five increasing complexity levels.
 
-**Levels:**
+Levels:
 
 1. Pre-structural: Missing the point
 2. Uni-structural: Single relevant aspect
@@ -29,7 +22,7 @@ updated:
 4. Relational: Integrated knowledge
 5. Extended abstract: Transferable principles
 
-**Application:**
+Application:
 
 - Assess learning depth
 - Design curriculum progression

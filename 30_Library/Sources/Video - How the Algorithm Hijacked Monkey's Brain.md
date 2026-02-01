@@ -1,15 +1,9 @@
 ---
 aliases: []
 author: generic_monitor
-confidence: ""
 created: 2026-01-08T08:29:19+00:00
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:16+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:07:46+00:00
 status: ""
 tags: [learning, psychology, source/video]
 title: "Video - How the Algorithm Hijacked Monkey's Brain"
@@ -22,31 +16,31 @@ The video, "How the Algorithm Hijacked Monkey's Brain (Why Monkey Can't Learn On
 
 The underlying logic of the digital platform (the "Algorithm") is designed for retention, not utility [02:22].
 
-**The Seduction of "Sugar":** The algorithm prioritises "mental candy"—quick, dopamine-heavy content—over "vegetables" (deep, structured learning) [03:57].
+The Seduction of "Sugar": The algorithm prioritises "mental candy"—quick, dopamine-heavy content—over "vegetables" (deep, structured learning) [03:57].
 
-**The Feedback Loop:** By tracking pauses, skips, and clicks, the algorithm constructs a model of the user's immediate desires, feeding a cycle of entertainment disguised as education [03:08].
+The Feedback Loop: By tracking pauses, skips, and clicks, the algorithm constructs a model of the user's immediate desires, feeding a cycle of entertainment disguised as education [03:08].
 
 ## 2. Mental Models of Learning Failure
 
 The video identifies several psychological frameworks that explain why "Monkey" fails to acquire skills:
 
-**The Illusion of Competence:** Passive information exposure is mistaken for skill acquisition. Watching a tutorial triggers the same dopamine hit as real progress, but without the neural encoding that comes from "doing" [01:47].
+The Illusion of Competence: Passive information exposure is mistaken for skill acquisition. Watching a tutorial triggers the same dopamine hit as real progress, but without the neural encoding that comes from "doing" [01:47].
 
-**Choice Paralysis:** Infinite options (millions of videos and gurus) lead to "freezing," where scrolling becomes a substitute for focused action [04:13].
+Choice Paralysis: Infinite options (millions of videos and gurus) lead to "freezing," where scrolling becomes a substitute for focused action [04:13].
 
-**Motivation vs. Momentum:** Users become addicted to the feeling of self-improvement (the chemical rush from watching a discipline video) without ever initiating the movement required for actual growth [06:54].
+Motivation vs. Momentum: Users become addicted to the feeling of self-improvement (the chemical rush from watching a discipline video) without ever initiating the movement required for actual growth [06:54].
 
 ## 3. The Solution Architecture (The "Rebuild")
 
 To outmanoeuvre the algorithm, the video proposes a top-down restructuring of the learning environment [09:27]:
 
-**Output-Based Metrics:** Shift tracking from "input" (hours watched) to "output" (items built or problems solved). Momentum is generated through measurable completion, not consumption [12:04].
+Output-Based Metrics: Shift tracking from "input" (hours watched) to "output" (items built or problems solved). Momentum is generated through measurable completion, not consumption [12:04].
 
-**Environmental Control:** Create a "private environment" by disabling autoplay, blocking recommendations, and manually selecting content to eliminate algorithmic temptation [10:03].
+Environmental Control: Create a "private environment" by disabling autoplay, blocking recommendations, and manually selecting content to eliminate algorithmic temptation [10:03].
 
-**Active Struggle:** Prioritise "Active Learning"—which is up to six times more effective than passive watching—by seeking out frustration and feedback rather than smooth, easy consumption [11:24].
+Active Struggle: Prioritise "Active Learning"—which is up to six times more effective than passive watching—by seeking out frustration and feedback rather than smooth, easy consumption [11:24].
 
-**Algorithmic Training:** By being intentional with searches and avoiding low-value recommendations, the user can eventually "train" the algorithm to suggest higher-quality, deeper content [13:09].
+Algorithmic Training: By being intentional with searches and avoiding low-value recommendations, the user can eventually "train" the algorithm to suggest higher-quality, deeper content [13:09].
 
 ## Summary Conclusion
 

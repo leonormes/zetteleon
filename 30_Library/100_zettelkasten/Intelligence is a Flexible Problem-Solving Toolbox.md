@@ -1,27 +1,20 @@
 ---
 aliases: []
-confidence: "0.8"
 created: 2025-10-31T09:50:00Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: "Define intelligence as a set of problem-solving skills rather than a single trait."
-review_interval: "90"
-see_also: ["Foundations of Learning and Cognition for Developers.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:32+00:00
 status: "seedling"
 tags: ["intelligence", "problem-solving", "TheHuman/Cognition"]
 title: Intelligence is a Flexible Problem-Solving Toolbox
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Intelligence is a Flexible Problem-Solving Toolbox
 
-**Summary:** Intelligence is best understood not as a single measurable trait, but as a diverse set of flexible problem-solving skills that enable organisms to survive and adapt to their environments.
+Summary: Intelligence is best understood not as a single measurable trait, but as a diverse set of flexible problem-solving skills that enable organisms to survive and adapt to their environments.
 
-**Details:** This "toolbox" includes:
+Details: This "toolbox" includes:
 
 - Gathering and processing environmental information (senses, awareness)
 - Memory to store and recall experiences

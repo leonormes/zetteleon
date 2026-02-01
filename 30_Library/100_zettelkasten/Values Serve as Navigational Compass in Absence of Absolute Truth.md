@@ -1,24 +1,17 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-11-01T09:51:13Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: "seedling"
 tags: ["decision-making", "navigation", "pragmatism", "topic/philosophy", "values"]
 title: Values Serve as Navigational Compass in Absence of Absolute Truth
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Values Serve as Navigational Compass in Absence of Absolute Truth
 
-**Summary:** When facts are provisional, values provide directional coherence, acting like a compass that helps pick bearings and evaluate trade-offs.
+Summary: When facts are provisional, values provide directional coherence, acting like a compass that helps pick bearings and evaluate trade-offs.
 
-**Details:** When facts are provisional and contested, values provide directional coherence for decisions over time. Chosen values act like a compass: they do not eliminate uncertainty, but they help you pick a bearing, evaluate trade-offs, and stay oriented during course corrections. Articulating a small set of operational values translates into priorities, heuristics, and default choices. This enables purposeful action without pretending to certainty.
+Details: When facts are provisional and contested, values provide directional coherence for decisions over time. Chosen values act like a compass: they do not eliminate uncertainty, but they help you pick a bearing, evaluate trade-offs, and stay oriented during course corrections. Articulating a small set of operational values translates into priorities, heuristics, and default choices. This enables purposeful action without pretending to certainty.

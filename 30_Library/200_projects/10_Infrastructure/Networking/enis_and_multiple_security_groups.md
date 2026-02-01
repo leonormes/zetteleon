@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:53Z
-epistemic: ""
 ID: "enis and multiple security groups"
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:15+00:00
 status: ""
 tags: []
 title: enis_and_multiple_security_groups
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## ENIs and Multiple Security Groups

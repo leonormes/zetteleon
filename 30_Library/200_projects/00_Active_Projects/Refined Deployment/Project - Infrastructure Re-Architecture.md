@@ -1,15 +1,9 @@
 ---
 aliases: [FitFile Data-Oriented Infrastructure, Infrastructure Re-Architecture, Project - DoD IaC]
-confidence: ""
 created: 2026-01-02T23:45:00Z
-epistemic: ""
 last_reviewed: 2026-01-02
-modified: 2026-01-23T18:09:28+00:00
+modified: 2026-02-01T15:08:20+00:00
 priority: High
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
 status: active
 tags: [devops, iac, project]
 title: Project - Infrastructure Re-Architecture
@@ -36,9 +30,9 @@ Source: [[SoT - DevOps & Infrastructure Architecture Strategy]]
 
 ### 2. Active Quests (The Grind)
 
-- [] Quest 1: The Object Model: Map the current "Implicit" dependencies (DNS -> Cert -> IP) into an explicit Rust struct/Type system.
-- [] Quest 2: The Validator: Write a tool that ingests our current `.tfvars` and validates them against this new strict model.
-- [] Quest 3: The Refactor: Re-write the Terraform modules to accept this structured data input.
+- [ ] Quest 1: The Object Model: Map the current "Implicit" dependencies (DNS -> Cert -> IP) into an explicit Rust struct/Type system.
+- [ ] Quest 2: The Validator: Write a tool that ingests our current `.tfvars` and validates them against this new strict model.
+- [ ] Quest 3: The Refactor: Re-write the Terraform modules to accept this structured data input.
 
 ---
 

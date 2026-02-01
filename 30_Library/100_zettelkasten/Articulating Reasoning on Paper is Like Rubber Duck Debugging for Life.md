@@ -1,20 +1,13 @@
 ---
 aliases: ["Rubber Ducking for Life"]
-confidence: ""
 created: 2025-10-30T12:10:01Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:36+00:00
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
-source_of_truth: []
 status: "seedling"
 tags: ["problem-solving", "rubber-ducking", "thinking", "writing"]
 title: Articulating Reasoning on Paper is Like Rubber Duck Debugging for Life
 type: "concept"
-uid: 
 updated: 
 ---
 

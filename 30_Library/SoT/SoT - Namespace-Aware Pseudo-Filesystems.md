@@ -1,35 +1,28 @@
 ---
 aliases: ["Namespace-Aware FS", "Virtualized /proc"]
-confidence: "5/5"
 created: 2025-12-23T22:28:46Z
-epistemic: "technical"
 last_reviewed: "2025-12-23"
-modified: 2026-01-23T18:09:19+00:00
-purpose: "To define how the Linux kernel provides isolated views of system resources through specialized pseudo-filesystems like procfs and sysfs."
-review_interval: "1 year"
-see_also: ["[[SoT - Container Isolation (The Namespace Security Model)]]", "[[SoT - Namespacing in Computing]]"]
-source_of_truth: []
+modified: 2026-02-01T15:07:54+00:00
 status: "stable"
 tags: ["kernel", "namespace", "procfs", "SoftwareEngineering/Linux", "sysfs"]
 title: SoT - Namespace-Aware Pseudo-Filesystems
 type: "SoT"
-uid: 
 updated: 
 ---
 
 ## 1. Definitive Statement
 
 > [!definition] Definition
-> **Namespace-Aware Filesystems** are kernel-managed pseudo-filesystems (primarily `procfs` and `sysfs`) that dynamically alter their content based on the **Namespace Context** of the accessing process. They allow isolated views of resources (PIDs, Network interfaces) even when processes share a common mount namespace.
+> Namespace-Aware Filesystems are kernel-managed pseudo-filesystems (primarily `procfs` and `sysfs`) that dynamically alter their content based on the Namespace Context of the accessing process. They allow isolated views of resources (PIDs, Network interfaces) even when processes share a common mount namespace.
 
 ---
 
 ## 2. Core Mechanisms
 
-The kernel achieves namespace awareness through its **VFS (Virtual File System)** layer and specific driver implementations:
+The kernel achieves namespace awareness through its VFS (Virtual File System) layer and specific driver implementations:
 
-- **nsproxy Check:** When a process makes a request to `/proc` or `/sys`, the VFS layer checks the process's `struct nsproxy` to determine its namespace memberships.
-- **Dynamic Translation:** The kernel translates the request into a namespace-specific view. For example, a lookup for `/proc/self` will resolve to a different numeric PID directory depending on the process's PID namespace.
+- nsproxy Check: When a process makes a request to `/proc` or `/sys`, the VFS layer checks the process's `struct nsproxy` to determine its namespace memberships.
+- Dynamic Translation: The kernel translates the request into a namespace-specific view. For example, a lookup for `/proc/self` will resolve to a different numeric PID directory depending on the process's PID namespace.
 
 ---
 
@@ -53,10 +46,10 @@ The hostname and domainname files reflect the UTS namespace of the accessing pro
 
 ## 4. The "Leakage" Limitation
 
-While the _content_ of these files is virtualized, their **locations** are not.
+While the _content_ of these files is virtualized, their locations are not.
 
-- **Problem:** If a new PID namespace is created but `/proc` is not remounted, tools like `ps` will still read from the host's `procfs` instance, revealing all host processes.
-- **The Mandate:** For true isolation, a private **Mount Namespace** is required to mount _new_ instances of these pseudo-filesystems that are anchored to the process's specific namespaces.
+- Problem: If a new PID namespace is created but `/proc` is not remounted, tools like `ps` will still read from the host's `procfs` instance, revealing all host processes.
+- The Mandate: For true isolation, a private Mount Namespace is required to mount _new_ instances of these pseudo-filesystems that are anchored to the process's specific namespaces.
 
 ---
 

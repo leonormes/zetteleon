@@ -1,26 +1,19 @@
 ---
 aliases: ["Infrastructure Witness", "Proof-Carrying Infrastructure", "Type Witness", "Witness Pattern"]
-confidence: "5/5"
 created: 2025-12-30T10:39:13+00:00
-epistemic: "architecture"
 last_reviewed: "2025-12-30"
-modified: 2026-01-23T18:09:17+00:00
-purpose: "To define the Witness Pattern in infrastructure, enabling 'Proof-Carrying Code' that replaces implicit trust (strings) with explicit capabilities (types)."
-review_interval: "6 months"
-see_also: ["[[MOC - Type Theory]]", "[[SoT - Parse, Don't Validate]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]", "[[SoT - Type-Driven Infrastructure as Code]]"]
-source_of_truth: []
+modified: 2026-02-01T15:07:50+00:00
 status: "stable"
 tags: ["iac", "pattern", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "type_theory"]
 title: SoT - The Infrastructure Witness Pattern
 type: "SoT"
-uid: 
 updated: 
 ---
 
 ## 1. Definition
 
 > [!definition] The Infrastructure Witness
-> A **Witness** is a specific data type (or object) whose existence serves as a mathematical proof that a prerequisite infrastructure state has been successfully satisfied.
+> A Witness is a specific data type (or object) whose existence serves as a mathematical proof that a prerequisite infrastructure state has been successfully satisfied.
 >
 > Unlike standard configuration values (strings, booleans) which describe _what_ we want, a Witness describes _what has been established_.
 
@@ -32,21 +25,21 @@ It transforms temporal dependencies ("Resource A must exist before Resource B") 
 
 In traditional paradigms (Terraform HCL, Helm), dependencies are loose and trust is implicit. This is the "Stringly Typed" anti-pattern.
 
-- **The Anti-Pattern:** A Load Balancer resource asks for a `subnet_id` as a `string`.
-- **The Risk:** The developer can supply _any_ string (e.g., a private subnet ID, a deleted ID, or `"foo"`).
-- **The Failure Mode:** The error is only discovered at **Runtime** (during `terraform apply` or, worse, via outage).
+- The Anti-Pattern: A Load Balancer resource asks for a `subnet_id` as a `string`.
+- The Risk: The developer can supply _any_ string (e.g., a private subnet ID, a deleted ID, or `"foo"`).
+- The Failure Mode: The error is only discovered at Runtime (during `terraform apply` or, worse, via outage).
 
 ---
 
 ## 3. Working Knowledge: Proof-Carrying Code
 
-The Witness pattern enforces the **[[SoT - Parse, Don't Validate|Parse, Don't Validate]]** principle.
+The Witness pattern enforces the [[SoT - Parse, Don't Validate|Parse, Don't Validate]] principle.
 
 ### 3.1 The Mechanics of a Witness
 
-1. **Unforgeable:** A Witness cannot be created manually by the user (e.g., via a private constructor). It is only returned by a trusted "Factory" (e.g., a Network Module).
-2. **Context-Aware:** It often uses **Phantom Types** or Generics to carry metadata (e.g., `<Public>` vs `<Private>`) that disappears at runtime but enforces logic at compile-time.
-3. **Required Consumer:** Downstream resources do not accept strings; they accept only the specific Witness type.
+1. Unforgeable: A Witness cannot be created manually by the user (e.g., via a private constructor). It is only returned by a trusted "Factory" (e.g., a Network Module).
+2. Context-Aware: It often uses Phantom Types or Generics to carry metadata (e.g., `<Public>` vs `<Private>`) that disappears at runtime but enforces logic at compile-time.
+3. Required Consumer: Downstream resources do not accept strings; they accept only the specific Witness type.
 
 > "A Witness is a capability token. Holding the token proves you have the right to use the resource."
 
@@ -54,7 +47,7 @@ The Witness pattern enforces the **[[SoT - Parse, Don't Validate|Parse, Don't Va
 
 ## 4. Formal Domain Modeling (The Identity Trinity)
 
-We model the chain **IP $\to$ DNS $\to$ Identity** not as sibling resources, but as a **Dependency Chain** where each step produces a Witness required by the next.
+We model the chain IP $\to$ DNS $\to$ Identity not as sibling resources, but as a Dependency Chain where each step produces a Witness required by the next.
 
 ### Phase 1: Reachability as a Type (The Phantom)
 
@@ -79,7 +72,7 @@ impl IpAddress<Public> {
 
 ### Phase 2: The Gateway Witness (Type Transformation)
 
-How does a Private IP become Public? Through a **Gateway Function** (NAT/LB).
+How does a Private IP become Public? Through a Gateway Function (NAT/LB).
 
 ```rust
 struct NatGateway;
@@ -96,7 +89,7 @@ impl NatGateway {
 
 ### Phase 3: The Binding Witness (Proof of Routing)
 
-A DNS record is not a string; it is a **Product Type** binding a Name to an IP.
+A DNS record is not a string; it is a Product Type binding a Name to an IP.
 
 ```rust
 struct VerifiedRecord<Scope> {
@@ -144,7 +137,7 @@ struct PublicService {
 }
 ```
 
-If you try to construct this struct without providing the `dns_proof` (which you can only get by actually creating the DNS record), the code **will not compile**.
+If you try to construct this struct without providing the `dns_proof` (which you can only get by actually creating the DNS record), the code will not compile.
 
 ---
 
@@ -152,15 +145,15 @@ If you try to construct this struct without providing the `dns_proof` (which you
 
 | Feature | Standard IaC (HCL/YAML) | Type-Driven (Witness Pattern) |
 |:--- |:--- |:--- |
-| **Identity** | String (`"api.com"`) | `HostName` (NewType) |
-| **Binding** | Resource (loose pointer) | `VerifiedRecord<Scope>` (Proof) |
-| **Reachability** | Boolean flag / Tag | `IpAddress<Public>` vs `IpAddress<Private>` |
-| **Transformation** | Implicit (Security Group) | Explicit Function (`NatGateway::expose`) |
-| **Validation** | Runtime (Failure) | Compile-time (Type Mismatch) |
+| Identity | String (`"api.com"`) | `HostName` (NewType) |
+| Binding | Resource (loose pointer) | `VerifiedRecord<Scope>` (Proof) |
+| Reachability | Boolean flag / Tag | `IpAddress<Public>` vs `IpAddress<Private>` |
+| Transformation | Implicit (Security Group) | Explicit Function (`NatGateway::expose`) |
+| Validation | Runtime (Failure) | Compile-time (Type Mismatch) |
 
 ---
 
 ## 7. Implementation Notes
 
-- **CDKTF (TypeScript):** Use `private` constructors and class nominal typing (`private _scope: Scope`) to simulate Phantom Types.
-- **Linear Types:** In the future, we can use Affine Types (Rust's Move semantics) to ensure a specific IP port is bound _exactly once_, preventing port collisions at compile time.
+- CDKTF (TypeScript): Use `private` constructors and class nominal typing (`private _scope: Scope`) to simulate Phantom Types.
+- Linear Types: In the future, we can use Affine Types (Rust's Move semantics) to ensure a specific IP port is bound _exactly once_, preventing port collisions at compile time.

@@ -1,20 +1,13 @@
 ---
 aliases: []
 AoL: Personal
-confidence:
 created: 2025-12-06T19:30:49Z
-epistemic:
 last_reviewed:
-modified: 2026-01-23T18:09:15+00:00
-purpose:
-review_interval:
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:11+00:00
 status: archived
 tags: [state/thinking]
 title: HEAD - Forgetting My Own Breakthroughs
 type: head
-uid:
 up: "[[00_Workbench]]"
 updated:
 ---
@@ -26,6 +19,6 @@ updated:
 
 For many reasons. My brain doesn't want to work hard. So it uses understanding the big picture to work out what it needs rather than remembering it.
 
-**I think it works like this:**
+I think it works like this:
 
-**I am assuming that:**
+I am assuming that:

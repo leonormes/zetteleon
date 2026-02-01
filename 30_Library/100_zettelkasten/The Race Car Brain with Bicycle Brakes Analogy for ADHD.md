@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-24T15:05:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:25+00:00
 status: "null"
 tags: ["analogy", "neurodiversity", "self-management", "TheHuman/Health/ADHD"]
 title: The Race Car Brain with Bicycle Brakes Analogy for ADHD
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
 This analogy is frequently used to explain Attention-Deficit/Hyperactivity Disorder (ADHD) in a way that is both accurate and non-shaming. It posits that individuals with ADHD possess a powerful, high-performing brain (a "race car engine") but often lack equally robust internal control mechanisms (like "bicycle brakes").

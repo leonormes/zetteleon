@@ -1,25 +1,18 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-09-07T10:32:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: ["diagnosis", "neurodivergent", "TheHuman/Family/Bessie", "TheHuman/Health/ADHD"]
 title: Bessie ADHD Diagnosis and Characteristics
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
-**Diagnosis Date:** January 2024 (confirmed)
-**Diagnostic Report:** ADHD Diagnostic Assessment Report available
+Diagnosis Date: January 2024 (confirmed)
+
+Diagnostic Report: ADHD Diagnostic Assessment Report available
 
 ## Core ADHD Characteristics Observed
 
@@ -45,27 +38,27 @@ version: ""
 
 ## Emotional and Behavioral Manifestations
 
-- **Anxiety:** Often anxious, sometimes leading to feeling unwell
-- **Occasional Manic Episodes:** Reported by parents
-- **Masking:** Shows different personas at home vs. school (relaxed/creative at home, struggling/disengaged at school)
+- Anxiety: Often anxious, sometimes leading to feeling unwell
+- Occasional Manic Episodes: Reported by parents
+- Masking: Shows different personas at home vs. school (relaxed/creative at home, struggling/disengaged at school)
 
 ## Character Development Connection
 
 ADHD characteristics can be reframed as potential character strengths from the [[Character and Virtue MOC]]:
 
-**[[VIA Virtue of Courage]]:**
+[[VIA Virtue of Courage]]:
 
-- **[[VIA Virtue of Courage|Zest (Vitality)]]**: High energy and enthusiasm when engaged
-- **[[VIA Virtue of Courage|Perseverance (Persistence)]]**: Ability to hyperfocus on areas of interest
+- [[VIA Virtue of Courage|Zest (Vitality)]]: High energy and enthusiasm when engaged
+- [[VIA Virtue of Courage|Perseverance (Persistence)]]: Ability to hyperfocus on areas of interest
 
-**[[VIA Virtue of Wisdom]]:**
+[[VIA Virtue of Wisdom]]:
 
-- **[[VIA Virtue of Wisdom|Curiosity]]**: Interest-driven learning reflects natural curiosity
-- **[[VIA Virtue of Wisdom|Creativity]]**: ADHD often correlates with creative thinking patterns
+- [[VIA Virtue of Wisdom|Curiosity]]: Interest-driven learning reflects natural curiosity
+- [[VIA Virtue of Wisdom|Creativity]]: ADHD often correlates with creative thinking patterns
 
-**[[VIA Virtue of Transcendence]]:**
+[[VIA Virtue of Transcendence]]:
 
-- **[[VIA Virtue of Transcendence|Hope (Optimism)]]**: Maintaining aspirations despite challenges
+- [[VIA Virtue of Transcendence|Hope (Optimism)]]: Maintaining aspirations despite challenges
 
 Understanding ADHD as neurodivergence rather than deficit helps identify how these traits can become character strengths with proper support.
 

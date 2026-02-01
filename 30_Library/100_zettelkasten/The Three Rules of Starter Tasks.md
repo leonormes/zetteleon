@@ -1,29 +1,22 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-11-10T15:09:00Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: "To define the rules for creating effective starter tasks."
-review_interval: "90"
-see_also: ["[[The Starter Task Overcomes Activation Energy for ADHD]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: "seedling"
 tags: ["momentum", "task-initiation", "TheHuman/Health/ADHD", "topic/productivity"]
 title: The Three Rules of Starter Tasks
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## The Three Rules of Starter Tasks
 
-**Summary:** Effective starter tasks adhere to three rules: their sole purpose is to build momentum, they have a maximum duration of 5-15 minutes, and they are simple, non-complex physical actions.
+Summary: Effective starter tasks adhere to three rules: their sole purpose is to build momentum, they have a maximum duration of 5-15 minutes, and they are simple, non-complex physical actions.
 
-**Details:**
+Details:
 
-1. **Purpose:** To build momentum, not to accomplish significant work.
-2. **Duration:** 5-15 minutes maximum (ideally 1-5 minutes).
-3. **Simplicity:** A single, non-complex physical action that is easy to begin.
+1. Purpose: To build momentum, not to accomplish significant work.
+2. Duration: 5-15 minutes maximum (ideally 1-5 minutes).
+3. Simplicity: A single, non-complex physical action that is easy to begin.
 These rules ensure that the activation energy required to start is as low as possible, making it easier to overcome task initiation barriers.

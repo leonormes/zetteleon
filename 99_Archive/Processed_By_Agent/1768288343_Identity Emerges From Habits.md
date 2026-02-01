@@ -19,6 +19,6 @@ updated:
 
 ## Identity Emerges From Habits
 
-**Summary:** Your identity is not a fixed trait you are born with; it emerges from the accumulation of your habits and actions over time.
+Summary: Your identity is not a fixed trait you are born with; it emerges from the accumulation of your habits and actions over time.
 
-**Details:** Your habits are the way you embody and live out your identity. Each action you take reinforces a particular self-image. Therefore, you can shape your identity by consciously choosing and repeating the habits associated with the person you wish to become.
+Details: Your habits are the way you embody and live out your identity. Each action you take reinforces a particular self-image. Therefore, you can shape your identity by consciously choosing and repeating the habits associated with the person you wish to become.

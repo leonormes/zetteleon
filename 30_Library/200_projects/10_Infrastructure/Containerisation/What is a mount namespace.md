@@ -1,24 +1,16 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-24T15:26:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:27+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:19+00:00
 status: "null"
 tags: ["isolation", "mount", "namespace", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux"]
 title: What is a mount namespace
 type: "Factual"
-uid: 
 updated: 
-version: "null"
 ---
 
-**Links:**
+Links:
 
 - Up: [[MOC - Container Networking Model]]
 - Core SoT: [[SoT - Container Isolation (The Namespace Security Model)]]
@@ -26,7 +18,7 @@ version: "null"
 
 ## Summary
 
-A mount namespace isolates the list of mount points visible to processes, allowing each namespace to have its own independent view of the file system hierarchy. It is the **Primary Gatekeeper** of container security; without it, isolation is incomplete.
+A mount namespace isolates the list of mount points visible to processes, allowing each namespace to have its own independent view of the file system hierarchy. It is the Primary Gatekeeper of container security; without it, isolation is incomplete.
 
 ## Context / Problem
 
@@ -45,10 +37,10 @@ Without mount namespaces, all processes share the same mount points, breaking is
 
 A mount namespace provides:
 
-- **Isolated mount point list**: Each namespace sees different mounted file systems
-- **Independent mount operations**: `mount`/`umount` only affects the current namespace
-- **Inherited on creation**: New mount namespace starts as copy of parent
-- **Copy-on-write semantics**: Changes after creation are isolated
+- Isolated mount point list: Each namespace sees different mounted file systems
+- Independent mount operations: `mount`/`umount` only affects the current namespace
+- Inherited on creation: New mount namespace starts as copy of parent
+- Copy-on-write semantics: Changes after creation are isolated
 
 ### Creating a Mount Namespace
 
@@ -85,7 +77,7 @@ Parent Process (PID 1000)
           └─ /mnt/data (new mount, isolated)
 ```
 
-**Key Point**: Child's namespace is a **copy** at creation time, then diverges.
+Key Point: Child's namespace is a copy at creation time, then diverges.
 
 ### Mount Propagation Types
 
@@ -93,12 +85,12 @@ Mounts can be configured to propagate changes between namespaces:
 
 | Type | Description | Use Case |
 |------|-------------|----------|
-| **private** | No propagation (default) | Full isolation |
-| **shared** | Propagate both ways | Coordinated mounts |
-| **slave** | Receive propagation, don't send | Read-only coordination |
-| **unbindable** | Cannot be bind-mounted | Security restriction |
+| private | No propagation (default) | Full isolation |
+| shared | Propagate both ways | Coordinated mounts |
+| slave | Receive propagation, don't send | Read-only coordination |
+| unbindable | Cannot be bind-mounted | Security restriction |
 
-**Example**:
+Example:
 
 ```bash
 # Make /mnt shared (propagates to child namespaces)
@@ -137,37 +129,37 @@ Process B (mount namespace 2)
 
 ### What This Enables
 
-- **Container file system isolation**: Each container has its own `/etc`, `/var`, `/tmp`
-- **Volume mounting**: Kubernetes mounts volumes into Pod's mount namespace
-- **Security**: Container cannot see or modify host file systems
-- **Layered file systems**: OverlayFS combines multiple layers in isolated namespace
+- Container file system isolation: Each container has its own `/etc`, `/var`, `/tmp`
+- Volume mounting: Kubernetes mounts volumes into Pod's mount namespace
+- Security: Container cannot see or modify host file systems
+- Layered file systems: OverlayFS combines multiple layers in isolated namespace
 
 ### What Breaks If This Fails
 
-- **No file system isolation**: Containers share all mount points
-- **Security breach**: Container can mount host file systems and read sensitive data
-- **Resource conflicts**: Multiple containers compete for same `/tmp` space
-- **Container startup fails**: Cannot create isolated `/proc` or `/sys`
+- No file system isolation: Containers share all mount points
+- Security breach: Container can mount host file systems and read sensitive data
+- Resource conflicts: Multiple containers compete for same `/tmp` space
+- Container startup fails: Cannot create isolated `/proc` or `/sys`
 
 ### Scenario: No Mount Namespace (From Original Note)
 
-If you create **network, PID, and UTS namespaces WITHOUT mount namespace**:
+If you create network, PID, and UTS namespaces WITHOUT mount namespace:
 
-- Processes in different namespaces **share file system view**
-- All operate in the **initial (root) mount namespace**
+- Processes in different namespaces share file system view
+- All operate in the initial (root) mount namespace
 - Changes by one process visible to all processes
-- **Reduced isolation**: Security risk increases
-- **Hostname conflicts**: UTS namespace hostname resolved via shared `/etc/hostname`
+- Reduced isolation: Security risk increases
+- Hostname conflicts: UTS namespace hostname resolved via shared `/etc/hostname`
 
-**Implications**:
+Implications:
 
 - Less overhead (no mount namespace management)
 - Useful for debugging (easier to inspect files)
-- **Not recommended for production containers**
+- Not recommended for production containers
 
 ### How It Maps to Kubernetes
 
-**Kubernetes always uses mount namespaces for Pods:**
+Kubernetes always uses mount namespaces for Pods:
 
 1. kubelet creates mount namespace for Pod
 2. Mounts volumes into Pod's namespace:
@@ -176,7 +168,7 @@ If you create **network, PID, and UTS namespaces WITHOUT mount namespace**:
    - PVC → mount from storage backend
 3. Container sees only its namespace's mounts
 
-**Example Pod:**
+Example Pod:
 
 ```yaml
 apiVersion: v1
@@ -194,7 +186,7 @@ spec:
       mountPath: /mnt/data
 ```
 
-**Behind the scenes:**
+Behind the scenes:
 
 ```bash
 # kubelet (simplified):

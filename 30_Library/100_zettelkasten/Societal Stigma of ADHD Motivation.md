@@ -1,33 +1,26 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-10-31T12:16:00Z
-epistemic: "observation"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: "Document stigma around ADHD motivation patterns."
-review_interval: "90"
-see_also: ["ADHD as Neurodiversity Not Deficit.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: "seedling"
 tags: ["society", "TheHuman/Health/ADHD"]
 title: Societal Stigma of ADHD Motivation
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Societal Stigma of ADHD Motivation
 
-**Summary:** Misunderstanding ADHD motivation leads to harmful labelling as "lazy" or "unmotivated".
+Summary: Misunderstanding ADHD motivation leads to harmful labelling as "lazy" or "unmotivated".
 
-**Common Misconceptions:**
+Common Misconceptions:
 
 - Confusing interest-based focus with willpower
 - Overlooking neurological basis
 - Expecting neurotypical performance
 
-**Impact:**
+Impact:
 
 - Reduced self-esteem
 - Workplace discrimination

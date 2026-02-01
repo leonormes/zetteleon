@@ -1,38 +1,30 @@
 ---
 aliases: ["Mathematics as Creative Art"]
-confidence: "0.8"
 created: 2025-11-01T11:22:13Z
-epistemic: "opinion"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "Establish mathematics as a creative and artistic endeavor."
-review_interval: "90"
-see_also: ["[[Beauty Is a Guiding Value in Mathematics]]", "[[The Process of Mathematical Discovery is Driven by Pattern Recognition]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:31+00:00
 status: "seedling"
 tags: ["aesthetics", "TheHuman/Creativity", "topic/maths"]
 title: Mathematics Involves Creativity and Aesthetic Judgement
 type: "concept"
-uid: 
 updated: 
-version: "1"
 ---
 
-**Summary:** Mathematics is fundamentally an art form and creative field where mathematicians engage in creativity, visualization, pattern detection, and experimentation, much like artists and musicians.
+Summary: Mathematics is fundamentally an art form and creative field where mathematicians engage in creativity, visualization, pattern detection, and experimentation, much like artists and musicians.
 
-**Details:**
+Details:
 
 Mathematics extends far beyond mere calculation or memorization. Mathematicians, like artists, engage in:
 
-- **Creative expression:** Asking simple and elegant questions, crafting satisfying explanations
-- **Aesthetic judgement:** Seeking profound simple beauty and elegance
-- **Experimentation:** Exploring possibilities and discovering new connections
+- Creative expression: Asking simple and elegant questions, crafting satisfying explanations
+- Aesthetic judgement: Seeking profound simple beauty and elegance
+- Experimentation: Exploring possibilities and discovering new connections
 
-**The Art Metaphor:**
+The Art Metaphor:
 
 Mathematics is considered by some to be the "purest of the arts," allowing for more freedom of expression than poetry, art, or music. It involves finding profound simple beauty out of nothing.
 
-**Practical Implications:**
+Practical Implications:
 
 This creative dimension explains why:
 

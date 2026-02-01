@@ -1,37 +1,29 @@
 ---
 aliases: ["Axiomatic Set Theory", "ZF", "ZFC"]
-confidence: "0.9"
 created: 2025-11-01T11:22:13Z
-epistemic: "fact"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: "90"
-see_also: ["[[Russell''s Paradox in Naive Set Theory]]", "[[Set Theory Requires Distinct Objects]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:36+00:00
 status: "seedling"
 tags: ["foundations", "set-theory", "topic/maths"]
 title: Axiomatic Set Theory Is a Foundational Framework for Mathematics
 type: "concept"
-uid: 
 updated: 
-version: "1"
 ---
 
-**Summary:** Axiomatic set theory, particularly the Zermelo-Fraenkel axioms (ZF) with the Axiom of Choice (ZFC), serves as the primary foundational framework for modern mathematics, providing a rigorous basis for defining all mathematical objects.
+Summary: Axiomatic set theory, particularly the Zermelo-Fraenkel axioms (ZF) with the Axiom of Choice (ZFC), serves as the primary foundational framework for modern mathematics, providing a rigorous basis for defining all mathematical objects.
 
-**Details:**
+Details:
 
 Set theory serves as the "raw material" from which mathematical structures are built. A structure can be formally defined as a set (or sets) endowed with some relations or operations.
 
-**Key Features:**
+Key Features:
 
-- **Universal language:** Nearly all mathematical objects can be constructed from sets (numbers, functions, spaces)
-- **Explicit axioms:** ZF/ZFC explicitly state what operations on sets are valid, avoiding paradoxes
-- **Foundational depth:** Provides a common framework for diverse mathematical fields
+- Universal language: Nearly all mathematical objects can be constructed from sets (numbers, functions, spaces)
+- Explicit axioms: ZF/ZFC explicitly state what operations on sets are valid, avoiding paradoxes
+- Foundational depth: Provides a common framework for diverse mathematical fields
 
-**Historical Context:**
+Historical Context:
 
 Modern axiomatic set theory arose in response to paradoxes discovered in naive set theory (like Russell's Paradox). By carefully axiomatizing which set-forming operations are permitted, mathematicians created a consistent foundation.
 
-**Relation to Structure:** Sets provide the basic "grouping" mechanism needed to define any pattern or structure, making set theory naturally foundational to the structuralist view of mathematics.
+Relation to Structure: Sets provide the basic "grouping" mechanism needed to define any pattern or structure, making set theory naturally foundational to the structuralist view of mathematics.

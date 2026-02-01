@@ -20,11 +20,11 @@ version: ""
 
 ## The Old Problem
 
-The SI was previously based on physical artefacts, most notably the **International Prototype of the Kilogram**—a cylinder of platinum-iridium kept in France. This created problems because physical objects can be lost, damaged, or change mass over time, which undermines the reliability of the entire system.
+The SI was previously based on physical artefacts, most notably the International Prototype of the Kilogram—a cylinder of platinum-iridium kept in France. This created problems because physical objects can be lost, damaged, or change mass over time, which undermines the reliability of the entire system.
 
 ## The Modern Solution
 
-In **2019**, the SI was redefined. Instead of relying on artefacts, the definitions of the base units are now based on fixing the exact numerical values of **seven defining physical constants**. These include:
+In 2019, the SI was redefined. Instead of relying on artefacts, the definitions of the base units are now based on fixing the exact numerical values of seven defining physical constants. These include:
 
 - The speed of light, c.
 - The Planck constant, h.

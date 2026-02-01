@@ -24,16 +24,16 @@ For the ADHD brain, the friction of starting a task is often the biggest obstacl
 
 ### Core Concepts
 
-1. **Start in the Middle**: Instead of forcing a linear, step-by-step progression from the beginning of a project, start wherever you have the most clarity, energy, or interest. The goal is to generate momentum, which can then be used to tackle the more ambiguous or less interesting parts of the task.
-2. **Do It Inefficiently**: When stuck, intentionally break conventional or "efficient" rules to get moving. This is a direct antidote to perfectionism, where the pressure to do things the "right" way can be paralyzing. Giving yourself permission to be inefficient can liberate you to simply act.
+1. Start in the Middle: Instead of forcing a linear, step-by-step progression from the beginning of a project, start wherever you have the most clarity, energy, or interest. The goal is to generate momentum, which can then be used to tackle the more ambiguous or less interesting parts of the task.
+2. Do It Inefficiently: When stuck, intentionally break conventional or "efficient" rules to get moving. This is a direct antidote to perfectionism, where the pressure to do things the "right" way can be paralyzing. Giving yourself permission to be inefficient can liberate you to simply act.
     - _Example_: Showering _before_ a workout if it helps you get out the door.
 
 ### Why It Works for ADHD
 
-- **Bypasses Paralysis by Analysis**: Both strategies circumvent the need for a complete, perfect plan before starting.
-- **Leverages Interest-Based Motivation**: "Starting in the middle" allows you to begin with the most stimulating part of a task, which activates the [[The Interest-Based Nervous System in ADHD]].
-- **Combats Perfectionism**: The "do it inefficiently" approach gives you explicit permission to be imperfect, which can defuse the anxiety that fuels procrastination.
-- **Builds Momentum**: Action, in any form, creates its own motivation. These strategies are designed to create that initial spark.
+- Bypasses Paralysis by Analysis: Both strategies circumvent the need for a complete, perfect plan before starting.
+- Leverages Interest-Based Motivation: "Starting in the middle" allows you to begin with the most stimulating part of a task, which activates the [[The Interest-Based Nervous System in ADHD]].
+- Combats Perfectionism: The "do it inefficiently" approach gives you explicit permission to be imperfect, which can defuse the anxiety that fuels procrastination.
+- Builds Momentum: Action, in any form, creates its own motivation. These strategies are designed to create that initial spark.
 
 ### Connections
 

@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence:
 created: 2025-12-08T00:00:00Z
-epistemic:
 last_reviewed:
-modified: 2026-01-23T18:09:15+00:00
-purpose:
-review_interval:
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:10+00:00
 status: archived
 tags: [automation, prodos, thinking]
 title: HEAD - ProdOS Grafana Integration
 type: head
-uid:
 updated:
 ---
 
@@ -33,9 +26,9 @@ Grafana has the data. I need a way to pipe critical alerts into my "Inbox" or "D
 
 ### The Tension
 
-- **Noise:** I don't want a flood of logs. Only actionable alerts.
-- **Mechanism:** Obsidian is a static file system. How do I get "Push" notifications into it?
-- **Latency:** Is it acceptable for this to be "Pull" (when I run a script) vs "Push" (real-time)?
+- Noise: I don't want a flood of logs. Only actionable alerts.
+- Mechanism: Obsidian is a static file system. How do I get "Push" notifications into it?
+- Latency: Is it acceptable for this to be "Pull" (when I run a script) vs "Push" (real-time)?
 
 ### The Next Test
 

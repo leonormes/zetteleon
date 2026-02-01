@@ -1,26 +1,18 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-09-07T15:32:45Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: ""
 tags: []
 title: Fudo The Path of Immovability
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
-Musashi's life was shaped by 'Fudo', a concept of **mental stability** that he considered paramount. He believed that mental stability was crucial for human triumphs and was the difference between life and death on the battlefield. It is a state of unshakable composure.
+Musashi's life was shaped by 'Fudo', a concept of mental stability that he considered paramount. He believed that mental stability was crucial for human triumphs and was the difference between life and death on the battlefield. It is a state of unshakable composure.
 
-**Links:** [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]], [[Achieving Mental Stability]]
+Links: [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]], [[Achieving Mental Stability]]
 
 ---
 

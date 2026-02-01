@@ -1,28 +1,20 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-20T09:00:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T15:03:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:03+00:00
 status: ""
 tags: ["framework", "growth", "principles"]
 title: The 7 Habits - The Maturity Continuum
 type: "map"
-uid: 
 updated: 
-version: ""
 ---
 
-The 7 Habits of Highly Effective People provide a principle-centered framework for personal and interpersonal effectiveness. The habits are organized along a **Maturity Continuum**, moving from dependence to independence to interdependence.
+The 7 Habits of Highly Effective People provide a principle-centered framework for personal and interpersonal effectiveness. The habits are organized along a Maturity Continuum, moving from dependence to independence to interdependence.
 
-1. **Dependence:** The paradigm of "you"—you take care of me; you come through for me; I blame you for the results.
-2. **Independence:** The paradigm of "I"—I can do it; I am responsible; I am self-reliant. This is the goal of the **Private Victory**.
-3. **Interdependence:** The paradigm of "we"—we can do it; we can cooperate; we can combine our talents. This is the goal of the **Public Victory**.
+1. Dependence: The paradigm of "you"—you take care of me; you come through for me; I blame you for the results.
+2. Independence: The paradigm of "I"—I can do it; I am responsible; I am self-reliant. This is the goal of the Private Victory.
+3. Interdependence: The paradigm of "we"—we can do it; we can cooperate; we can combine our talents. This is the goal of the Public Victory.
 
 ## The Private Victory (Independence)
 

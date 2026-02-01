@@ -1,21 +1,13 @@
 ---
 aliases: ["Map of Content on Paraphrasing"]
-confidence: "null"
 created: 2025-07-16T17:30:04Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T15:03:31+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:03+00:00
 status: "null"
 tags: ["language", "paraphrasing", "topic/philosophy"]
 title: Paraphrasing and Language MOC
 type: "map"
-uid: 
 updated: 
-version: "null"
 ---
 
 This Map of Content (MOC) organizes notes exploring the nature of paraphrasing and its implications for understanding the relationship between language and meaning.

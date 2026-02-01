@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:53Z
-epistemic: ""
 ID: "7a5"
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:15+00:00
 status: ""
 tags: []
 title: eni_scaling_and_ip_address_limits
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## ENI Scaling and IP Address Limits

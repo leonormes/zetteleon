@@ -1,24 +1,16 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-20T09:07:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: ""
 tags: ["cooperation", "principles", "TheHuman/Creativity", "TheHuman/Habits"]
 title: Habit 6 - Synergize
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
-**Habit 6: Synergize** is the principle of creative cooperation. It is the habit of valuing differences and seeking out third alternatives. Synergy is the idea that the whole is greater than the sum of its parts (1 + 1 = 3 or more).
+Habit 6: Synergize is the principle of creative cooperation. It is the habit of valuing differences and seeking out third alternatives. Synergy is the idea that the whole is greater than the sum of its parts (1 + 1 = 3 or more).
 
 Synergy is the culmination of the previous habits. It is the fruit of being proactive ([[Habit 1 - Be Proactive]]), having a clear vision ([[Habit 2 - Begin with the End in Mind]]), managing yourself effectively ([[Habit 3 - Put First Things First]]), seeking mutual benefit ([[Habit 4 - Think Win-Win]]), and communicating empathically ([[Habit 5 - Seek First to Understand, Then to Be Understood]]).
 

@@ -1,24 +1,16 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-20T06:43:37Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T08:06:48+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: ["curriculum", "gcse", "TheHuman/Family/Bessie"]
 title: Bessie GCSE
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
-> **DEPRECATED:** See [[SoT - Bessie GCSE Dashboard]] for the active subject matrix.
+> DEPRECATED: See [[SoT - Bessie GCSE Dashboard]] for the active subject matrix.
 
 Bessie's GCSE subjects and their corresponding exam boards are as follows:
 

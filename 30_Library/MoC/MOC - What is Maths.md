@@ -1,24 +1,16 @@
 ---
 aliases: []
-confidence: "0.8"
 created: 2025-11-01T11:22:13Z
 criteria: ""
-epistemic: "principle"
 exclusions: ""
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-01-23T18:09:22+00:00
-purpose: ""
-review_interval: "90"
+modified: 2026-02-01T15:08:04+00:00
 scope: ""
-see_also: []
-source_of_truth: []
 status: "seedling"
 tags: ["foundations", "TheHuman/Philosophy", "topic/maths"]
 title: MOC - What is Maths
 type: "map"
-uid: 
 updated: 
-version: "1"
 ---
 
 ## MOC - What is Maths
@@ -33,7 +25,7 @@ Despite this plurality, a compelling modern synthesis has emerged: [[Mathematics
 
 To understand why a single principle remains elusive, we must explore the major schools of thought that have shaped our understanding of mathematics:
 
-- **[[SoT - History of Mathematical Logic]]**—_A chronological overview of the evolution from Aristotle to Gödel._
+- [[SoT - History of Mathematical Logic]]—_A chronological overview of the evolution from Aristotle to Gödel._
 - [[Logicism (Mathematics as Extension of Logic)]] `rel:: school`—Proposes that mathematics reduces to pure logic, with logical truth as the first principle.
 - [[Numbers as Abstract Objects (Platonism)]] `rel:: school`—Posits that mathematical entities exist independently in an abstract realm, discovered rather than invented.
 - [[Formalism (Mathematics as Symbol Manipulation)]] `rel:: school`—Views mathematics as rule-governed manipulation of meaningless symbols, with consistency as the first principle.
@@ -52,8 +44,8 @@ These philosophical programs face significant challenges that have shaped modern
 
 At the most fundamental level, mathematics requires a language and raw material:
 
-- **[[SoT - Fundamentals of Mathematical Logic]]**—_The grammar: Connectives, Quantifiers, and Truth Tables._
-- **[[SoT - Core Fields of Mathematical Logic]]**—_The disciplines: Set Theory, Proof Theory, and Model Theory._
+- [[SoT - Fundamentals of Mathematical Logic]]—_The grammar: Connectives, Quantifiers, and Truth Tables._
+- [[SoT - Core Fields of Mathematical Logic]]—_The disciplines: Set Theory, Proof Theory, and Model Theory._
 - [[Logic Is the Grammar of Rigorous Argument]] `rel:: metaphor`—Provides the syntax and rules for valid reasoning, the structural framework for mathematical expression.
 - [[Axiomatic Set Theory Is a Foundational Framework for Mathematics]] `rel:: foundation`—Serves as the "raw material" from which structures are built.
 - [[Set Theory Requires Distinct Objects]] `rel:: axiom`—Formalizes the intuition that counting and mathematical objects require distinctness.
@@ -65,14 +57,14 @@ While philosophy debates foundations, mathematical practice reveals common metho
 
 #### Discovery Methods
 
-- **[[SoT - Mathematical Thinking Habits]]**—_The 7 habits of the mathematical mind (Pattern Detective, Tinkering, Visualization)._
+- [[SoT - Mathematical Thinking Habits]]—_The 7 habits of the mathematical mind (Pattern Detective, Tinkering, Visualization)._
 - [[The Process of Mathematical Discovery is Driven by Pattern Recognition]] `rel:: supports`—The iterative interplay between inductive pattern-spotting and deductive proof drives progress.
 - [[Heuristic Experimentation Drives Mathematical Insight]] `rel:: supports`—Exploration through examples, counterexamples, and computational tools precedes rigorous proof.
 - [[Visualization Supports Mathematical Thinking]] `rel:: supports`—Diagrams and geometric intuition aid understanding, though rigorous proof remains necessary.
 
 #### Core Methods
 
-- **[[SoT - Mathematical Proof Techniques]]**—_Standard methods: Direct, Contrapositive, Contradiction, and Induction._
+- [[SoT - Mathematical Proof Techniques]]—_Standard methods: Direct, Contrapositive, Contradiction, and Induction._
 - [[Abstraction and Generalization Are Core Mathematical Methods]] `rel:: supports`—Moving from specific instances to universal structures captures invariants across contexts.
 - [[Deductive Reasoning Underwrites Mathematical Proof]] `rel:: justifies`—Provides "once-and-for-all guarantees" through logical derivation from axioms.
 
@@ -93,15 +85,15 @@ Viewing mathematics as the science of patterns allows us to map its landscape as
 
 Applying foundational tools to basic patterns gives rise to the pillars of mathematics:
 
-**Quantity & Order** → [[Arithmetic (Definition)]] `rel:: domain` and [[Number Theory (Definition)]] `rel:: domain`
+Quantity & Order → [[Arithmetic (Definition)]] `rel:: domain` and [[Number Theory (Definition)]] `rel:: domain`
 
 - The discrete, ordered sequence of counting gives rise to natural numbers and their deep properties.
 
-**Shape & Space** → [[Geometry (Definition)]] `rel:: domain` and [[Topology (Definition)]] `rel:: domain`
+Shape & Space → [[Geometry (Definition)]] `rel:: domain` and [[Topology (Definition)]] `rel:: domain`
 
 - The arrangement of objects in space, from rigid Euclidean geometry to properties preserved under continuous deformation.
 
-**Transformation & Generalization** → [[Algebra (Definition)]] `rel:: domain`
+Transformation & Generalization → [[Algebra (Definition)]] `rel:: domain`
 
 - The study of operational structures, symmetries, and abstract patterns of transformation.
 
@@ -109,11 +101,11 @@ Applying foundational tools to basic patterns gives rise to the pillars of mathe
 
 The true power emerges when core pillars combine to study more complex patterns:
 
-**Change & Motion** → [[Calculus (Definition)]] `rel:: domain` and [[Analysis (Definition)]] `rel:: domain`
+Change & Motion → [[Calculus (Definition)]] `rel:: domain` and [[Analysis (Definition)]] `rel:: domain`
 
 - Calculus provides computational tools for continuous change; Analysis establishes rigorous foundations through limits and continuity.
 
-**Chance & Uncertainty** → [[Probability (Definition)]] `rel:: domain` and [[Statistics (Definition)]] `rel:: domain`
+Chance & Uncertainty → [[Probability (Definition)]] `rel:: domain` and [[Statistics (Definition)]] `rel:: domain`
 
 - Probability builds axiomatic models of randomness; Statistics applies these models to real data for inference and decision-making.
 
@@ -123,8 +115,8 @@ The true power emerges when core pillars combine to study more complex patterns:
 
 ---
 
-> **Inclusion criteria:** Atomic notes only; must address foundational questions about the nature, structure, or practice of mathematics; evergreen or growing status preferred.
+> Inclusion criteria: Atomic notes only; must address foundational questions about the nature, structure, or practice of mathematics; evergreen or growing status preferred.
 
 ### Conclusion
 
-The journey begins with a profound philosophical question about the ultimate nature of mathematics, leading through centuries of debate. By synthesizing these insights, we arrive at a powerful principle: **mathematics is the science of abstracting, analysing, and generalising patterns and structure**. From this seed springs the foundation of logic and sets, the core pillars of quantity, space, and transformation, and the advanced fields studying change and uncertainty. This view reveals mathematics not as disconnected subjects, but as a unified, coherent exploration of structure itself.
+The journey begins with a profound philosophical question about the ultimate nature of mathematics, leading through centuries of debate. By synthesizing these insights, we arrive at a powerful principle: mathematics is the science of abstracting, analysing, and generalising patterns and structure. From this seed springs the foundation of logic and sets, the core pillars of quantity, space, and transformation, and the advanced fields studying change and uncertainty. This view reveals mathematics not as disconnected subjects, but as a unified, coherent exploration of structure itself.

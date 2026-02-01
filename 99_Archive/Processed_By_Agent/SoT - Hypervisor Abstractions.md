@@ -20,19 +20,19 @@ updated:
 
 ## SoT - Hypervisor Abstractions
 
-> **The Constraint:** The hypervisor is the primary source of non-deterministic latency (jitter) and topology obfuscation.
+> The Constraint: The hypervisor is the primary source of non-deterministic latency (jitter) and topology obfuscation.
 
 ### 1. AWS Nitro System (The Decoupled Model)
 
-- **Architecture:** Offloads I/O, networking, and security to dedicated ASICs. The main board runs a lightweight KVM-based hypervisor.
-- **Data Plane Benefit:** **Static Pinning.** vCPUs are pinned to physical cores for the instance life. "Steal time" is virtually zero.
-- **Topology:** **High-Fidelity Pass-through.** Exposes the underlying NUMA topology directly to the guest, allowing accurate `numactl` tuning.
+- Architecture: Offloads I/O, networking, and security to dedicated ASICs. The main board runs a lightweight KVM-based hypervisor.
+- Data Plane Benefit: Static Pinning. vCPUs are pinned to physical cores for the instance life. "Steal time" is virtually zero.
+- Topology: High-Fidelity Pass-through. Exposes the underlying NUMA topology directly to the guest, allowing accurate `numactl` tuning.
 
 ### 2. Azure Hyper-V (The Root Partition Model)
 
-- **Architecture:** Uses a "Root Partition" (Windows Kernel) to manage I/O and scheduling.
-- **Constraint:** **Virtual NUMA (vNUMA).** Hyper-V projects a synthetic topology that may not align with physical sockets (pNUMA), potentially causing hidden remote memory access penalties (1.5x - 2.5x latency).
-- **Mitigation:** Newer generations (D_v6) use "Azure Boost" (similar to Nitro) to offload tasks, reducing the noisy neighbor effect of the Root Partition.
+- Architecture: Uses a "Root Partition" (Windows Kernel) to manage I/O and scheduling.
+- Constraint: Virtual NUMA (vNUMA). Hyper-V projects a synthetic topology that may not align with physical sockets (pNUMA), potentially causing hidden remote memory access penalties (1.5x - 2.5x latency).
+- Mitigation: Newer generations (D_v6) use "Azure Boost" (similar to Nitro) to offload tasks, reducing the noisy neighbor effect of the Root Partition.
 
 ### 3. Resource Isolation
 

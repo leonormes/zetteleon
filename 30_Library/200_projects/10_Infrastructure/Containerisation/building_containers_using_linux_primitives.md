@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:27+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:18+00:00
 status: ""
 tags: ["SoftwareEngineering/Containers"]
 title: building_containers_using_linux_primitives
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 To gain a comprehensive understanding of building containers using Linux primitives, which will serve as a solid foundation for mastering Kubernetes and cloud-native technologies, consider the following resources:

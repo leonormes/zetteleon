@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-08-29T15:17:35Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:34+00:00
 status: ""
 tags: ["physics", "science", "TheHuman/Cognition/mental-model"]
 title: Effective Theory
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 An effective theory is a model of the world that is highly accurate and predictive within a specific, limited domain, even if its foundational principles are known to be incomplete or incorrect on a deeper level.

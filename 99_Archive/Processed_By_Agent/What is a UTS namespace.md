@@ -18,7 +18,7 @@ updated:
 version: "null"
 ---
 
-**Links:**
+Links:
 
 - Up: [[MOC - Container Networking Model]]
 - Related: [[What is a PID namespace]], [[What is a mount namespace]], [[What is a network namespace]]
@@ -48,11 +48,11 @@ Containers need isolated hostnames so:
 
 A UTS namespace provides:
 
-- **Isolated hostname**: Each namespace can set its own hostname
-- **Isolated NIS domain name**: For legacy NIS (Network Information Service)
-- **System identity**: Processes see their namespace's hostname, not host's
+- Isolated hostname: Each namespace can set its own hostname
+- Isolated NIS domain name: For legacy NIS (Network Information Service)
+- System identity: Processes see their namespace's hostname, not host's
 
-**UTS = Unix Time Sharing** (historical name from Unix timesharing systems)
+UTS = Unix Time Sharing (historical name from Unix timesharing systems)
 
 ### Creating a UTS Namespace
 
@@ -92,14 +92,14 @@ Host
       └─ Hostname: db-replica-2
 ```
 
-**Each namespace maintains**:
+Each namespace maintains:
 
 - `struct uts_namespace` in kernel
 - Contains `nodename` (hostname) and `domainname` (NIS domain)
 
 ### System Calls and Files
 
-**System calls**:
+System calls:
 
 ```c
 // Set hostname (requires CAP_SYS_ADMIN in namespace)
@@ -109,23 +109,23 @@ sethostname("container-1", 11);
 gethostname(buffer, sizeof(buffer));
 ```
 
-**Files** (modified by namespace):
+Files (modified by namespace):
 
 - `/proc/sys/kernel/hostname` - Shows namespace's hostname
-- **NOT** `/etc/hostname` - This is a file, not affected by UTS namespace!
+- NOT `/etc/hostname` - This is a file, not affected by UTS namespace!
 
-**Important**: `/etc/hostname` file is shared unless you use a **mount namespace**.
+Important: `/etc/hostname` file is shared unless you use a mount namespace.
 
 ### UTS Without Mount Namespace (Security Risk)
 
-From the original note, if you create **UTS namespace WITHOUT mount namespace**:
+From the original note, if you create UTS namespace WITHOUT mount namespace:
 
 - Hostname is isolated (`hostname` command works)
-- But `/etc/hostname` file is **shared**
-- Container can **modify host's `/etc/hostname` file**
+- But `/etc/hostname` file is shared
+- Container can modify host's `/etc/hostname` file
 - On next boot, host uses container's hostname!
 
-**Example Security Issue**:
+Example Security Issue:
 
 ```bash
 # In container with UTS but no mount namespace:
@@ -133,34 +133,34 @@ echo "malicious-hostname" > /etc/hostname
 # This affects HOST on next reboot!
 ```
 
-**Solution**: Always combine UTS with mount namespace, or mount `/etc` read-only.
+Solution: Always combine UTS with mount namespace, or mount `/etc` read-only.
 
 ## Connections / Implications
 
 ### What This Enables
 
-- **Container identity**: Each container has a unique hostname for logging
-- **Application compatibility**: Apps that depend on hostname work correctly
-- **Kubernetes Pod naming**: Pod hostname matches Pod name
-- **Service discovery**: Hostname used in network protocols (SMTP, Kerberos)
+- Container identity: Each container has a unique hostname for logging
+- Application compatibility: Apps that depend on hostname work correctly
+- Kubernetes Pod naming: Pod hostname matches Pod name
+- Service discovery: Hostname used in network protocols (SMTP, Kerberos)
 
 ### What Breaks If This Fails
 
-- **Hostname confusion**: All containers see host hostname
-- **Log aggregation issues**: Cannot distinguish log sources by hostname
-- **License checks fail**: Software locked to specific hostname
-- **Security**: set-UID binaries may behave unexpectedly with crafted hostnames
+- Hostname confusion: All containers see host hostname
+- Log aggregation issues: Cannot distinguish log sources by hostname
+- License checks fail: Software locked to specific hostname
+- Security: set-UID binaries may behave unexpectedly with crafted hostnames
 
 ### Security Consideration from Original Note
 
-**Risk**: Set-user-ID (setuid) applications can be vulnerable:
+Risk: Set-user-ID (setuid) applications can be vulnerable:
 
 - Attacker creates UTS namespace with malicious hostname
 - Runs setuid application (e.g., `/usr/bin/passwd`)
 - Application reads hostname, uses it in file paths
 - Attacker can overwrite critical files or bypass restrictions
 
-**Example**:
+Example:
 
 ```bash
 # Attacker crafts hostname with path traversal
@@ -171,11 +171,11 @@ hostname "../../etc/shadow"
 # May overwrite /etc/shadow!
 ```
 
-**Mitigation**: Modern kernels restrict hostname characters, but always validate inputs.
+Mitigation: Modern kernels restrict hostname characters, but always validate inputs.
 
 ### How It Maps to Kubernetes
 
-**Kubernetes sets Pod hostname to Pod name:**
+Kubernetes sets Pod hostname to Pod name:
 
 ```yaml
 apiVersion: v1
@@ -190,7 +190,7 @@ spec:
     image: nginx
 ```
 
-**Inside Pod**:
+Inside Pod:
 
 ```bash
 hostname
@@ -200,7 +200,7 @@ hostname -f
 # Output: web-server-1.my-service.default.svc.cluster.local
 ```
 
-**Behind the scenes**:
+Behind the scenes:
 
 ```bash
 # kubelet creates UTS namespace and sets hostname:
@@ -213,10 +213,10 @@ echo "web-server-1" > /etc/hostname
 
 ### Kubernetes Hostname Vs Subdomain
 
-- **hostname**: Short name (e.g., `web-server-1`)
-- **subdomain**: Enables FQDN (e.g., `web-server-1.my-service.default.svc.cluster.local`)
+- hostname: Short name (e.g., `web-server-1`)
+- subdomain: Enables FQDN (e.g., `web-server-1.my-service.default.svc.cluster.local`)
 
-**Use case**: StatefulSets use subdomain for stable network identity:
+Use case: StatefulSets use subdomain for stable network identity:
 
 ```yaml
 apiVersion: apps/v1
@@ -257,17 +257,17 @@ unshare --uts hostname container-temp
 
 ### Common Use Cases
 
-**1. Multi-tenant environments**:
+1. Multi-tenant environments:
 
 - Each tenant's container has unique hostname
 - Logs clearly show which tenant generated events
 
-**2. Microservices**:
+2. Microservices:
 
 - Service instances have distinct hostnames (`api-server-1`, `api-server-2`)
 - Distributed tracing correlates requests by hostname
 
-**3. Testing**:
+3. Testing:
 
 - Simulate different hosts on single machine
 - Test hostname-dependent configuration

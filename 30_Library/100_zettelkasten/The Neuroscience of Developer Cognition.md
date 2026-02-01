@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-26T20:23:10Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:25+00:00
 status: ""
 tags: []
 title: The Neuroscience of Developer Cognition
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 The field of neuroscience is beginning to shed light on the brain activity patterns associated with the complex cognitive tasks involved in software development. By employing neuroimaging techniques, researchers are exploring how developers understand code, solve problems, and debug software, aiming to provide a biological basis for cognitive theories of programming.
@@ -26,5 +18,6 @@ The field of neuroscience is beginning to shed light on the brain activity patte
 
 [[Neural Correlates of Specific Programming Activities]]
 
-**Thinking Modes:**
+Thinking Modes:
+
 Developers benefit from structured [[Diffuse vs Focused Thinking Modes]] alternation, particularly when debugging or designing systems.

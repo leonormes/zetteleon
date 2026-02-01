@@ -19,6 +19,6 @@ updated:
 
 ## Rejection Sensitivity Dysphoria Complicates Feedback for ADHD Developers
 
-**Summary:** Rejection Sensitivity Dysphoria (RSD) is an intense emotional response to perceived criticism or rejection that can make the feedback-heavy environment of software development psychologically debilitating for developers with ADHD.
+Summary: Rejection Sensitivity Dysphoria (RSD) is an intense emotional response to perceived criticism or rejection that can make the feedback-heavy environment of software development psychologically debilitating for developers with ADHD.
 
-**Details:** Constructive feedback in a code review, a minor disagreement, or a misunderstood comment can trigger a cascade of intense negative emotions, feeling like a personal attack. This can lead to avoidance of feedback, emotional distress, and imposter syndrome, where successes are attributed to luck and a persistent fear of being exposed as a fraud is present.
+Details: Constructive feedback in a code review, a minor disagreement, or a misunderstood comment can trigger a cascade of intense negative emotions, feeling like a personal attack. This can lead to avoidance of feedback, emotional distress, and imposter syndrome, where successes are attributed to luck and a persistent fear of being exposed as a fraud is present.

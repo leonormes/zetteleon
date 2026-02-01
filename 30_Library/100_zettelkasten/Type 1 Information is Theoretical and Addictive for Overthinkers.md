@@ -1,24 +1,16 @@
 ---
 aliases: ["Theoretical Information Addiction"]
-confidence: ""
 created: 2025-07-17T10:01:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: ""
 tags: ["addiction", "information", "overthinking", "TheHuman/Cognition"]
 title: Type 1 Information is Theoretical and Addictive for Overthinkers
 type: "redirect"
-uid: 
 updated: 
-version: ""
 ---
 
-**This note has been consolidated. See:**
+This note has been consolidated. See:
 
 - [[Type 1 Information is Theoretical]] - Core definition of theoretical information
 - [[Information Addiction in Overthinkers]] - The addictive patterns and behaviors

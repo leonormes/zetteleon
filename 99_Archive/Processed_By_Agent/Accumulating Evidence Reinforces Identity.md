@@ -18,38 +18,38 @@ updated:
 version: "1"
 ---
 
-**Summary:** You believe your current identity because you have proof of it. The more you repeat a behavior, the more evidence you accumulate that reinforces the associated identity. Small habits make a meaningful difference primarily by providing evidence of a new identity.
+Summary: You believe your current identity because you have proof of it. The more you repeat a behavior, the more evidence you accumulate that reinforces the associated identity. Small habits make a meaningful difference primarily by providing evidence of a new identity.
 
-**The Evidence Mechanism:**
+The Evidence Mechanism:
 
-**How Proof Accumulates:**
+How Proof Accumulates:
 
-1. **Action Creates Evidence:** Each time you lift weights, you have evidence that you're someone who exercises
-2. **Evidence Builds Belief:** Multiple instances of exercise create a pattern: "I consistently work out"
-3. **Belief Becomes Identity:** The pattern solidifies into "I am committed to fitness" or "I am an athlete"
+1. Action Creates Evidence: Each time you lift weights, you have evidence that you're someone who exercises
+2. Evidence Builds Belief: Multiple instances of exercise create a pattern: "I consistently work out"
+3. Belief Becomes Identity: The pattern solidifies into "I am committed to fitness" or "I am an athlete"
 
-**Why Evidence Matters:**
+Why Evidence Matters:
 
 Your brain treats identity like a court case—it needs proof. A single action is anecdotal. Repeated actions become compelling evidence. Consistent patterns become undeniable proof.
 
-**Examples:**
+Examples:
 
-- **Current Identity:** If you've never missed a workout in months, you have overwhelming evidence that you're an athlete
-- **Desired Identity:** If you write every day for 100 days, you accumulate irrefutable proof that you're a writer
-- **Lost Identity:** If you stop practicing an instrument for a year, the evidence for "I am a musician" erodes
+- Current Identity: If you've never missed a workout in months, you have overwhelming evidence that you're an athlete
+- Desired Identity: If you write every day for 100 days, you accumulate irrefutable proof that you're a writer
+- Lost Identity: If you stop practicing an instrument for a year, the evidence for "I am a musician" erodes
 
-**Small Habits, Big Proof:**
+Small Habits, Big Proof:
 
 Small habits are significant not because any single instance matters much, but because each instance is another piece of evidence. Writing 100 words isn't transformative in itself—but doing it 100 times creates proof you're a writer.
 
-**The Threshold Effect:**
+The Threshold Effect:
 
 At some point, accumulated evidence reaches a threshold where belief shifts. You go from "I'm trying to be healthy" to "I am a healthy person." This happens when the evidence becomes undeniable to your own internal jury.
 
-**Strategic Insight:**
+Strategic Insight:
 
 Focus on casting votes for your desired identity through small, repeatable actions. Each action may feel insignificant, but you're building an evidence file that will eventually redefine your self-concept.
 
-**The Reversal:**
+The Reversal:
 
 This also explains why identity can erode. Stop providing evidence for an identity, and over time, your belief in it weakens. Identity requires ongoing proof through action.

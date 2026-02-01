@@ -1,14 +1,8 @@
 ---
 aliases: []
-confidence: ""
 created: 2026-01-08T08:40:29+00:00
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-28T20:48:07+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:07:59+00:00
 status: "stable"
 tags: [concept, engineering, sdx, simulation, testing]
 title: SoT - Digital Twin

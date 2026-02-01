@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-30T12:06:03Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:35+00:00
 source: "[[MOC - Systems Thinking for Goal Achievement]]"
-source_of_truth: []
 status: "seedling"
 tags: ["consistency", "TheHuman/Habits", "topic/systems"]
 title: Consistency is More Important Than Intensity for Building Systems
 type: "concept"
-uid: 
 updated: 
 ---
 

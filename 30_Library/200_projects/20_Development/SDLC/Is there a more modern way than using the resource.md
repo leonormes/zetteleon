@@ -1,26 +1,18 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-17T11:24:11Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:11+00:00
 status: ""
 tags: []
 title: Is there a more modern way than using the resource
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
-Yes, there is a more modern way to replace the "null_resource" for applying Calico manifests in Terraform. As of Terraform version 1.4, introduced in 2023, you can use the built-in `terraform_data` resource instead of `null_resource`[^1].[^5]
+Yes, there is a more modern way to replace the "null_resource" for applying Calico manifests in Terraform. As of Terraform version 1.4, introduced in 2023, you can use the built-in `terraform_data` resource instead of `null_resource`.[^1][^5]
 
-The `terraform_data` resource serves as a native replacement for `null_resource` and offers similar capabilities without requiring an additional provider[^1].[^3] Here's how you can modify the example to use `terraform_data`:
+The `terraform_data` resource serves as a native replacement for `null_resource` and offers similar capabilities without requiring an additional provider.[^1][^3] Here's how you can modify the example to use `terraform_data`:
 
 ```hcl
 resource "terraform_data" "apply_calico_manifest" {

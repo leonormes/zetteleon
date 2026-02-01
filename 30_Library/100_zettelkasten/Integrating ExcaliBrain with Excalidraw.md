@@ -1,28 +1,20 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-24T13:14:20Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:32+00:00
 status: ""
 tags: ["excalibrain", "excalidraw", "mind-mapping", "obsidian", "plugins"]
 title: Integrating ExcaliBrain with Excalidraw
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ExcaliBrain integrates with Excalidraw to turn your Obsidian vault into a dynamic, navigable mind map.
 
 ## Setup
 
-1. Install the **Excalidraw**, **ExcaliBrain**, and **Dataview** plugins.
+1. Install the Excalidraw, ExcaliBrain, and Dataview plugins.
 2. Define relationships in your notes using frontmatter (e.g., `Parent:: [[Projects]]`) or standard wikilinks. ExcaliBrain understands parent, child, sibling, and friend relationships.
 
 ## Workflow

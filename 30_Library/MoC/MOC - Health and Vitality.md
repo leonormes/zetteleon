@@ -1,30 +1,23 @@
 ---
 aliases: [Health MOC, Physical and Mental Performance Map, Vitality Index]
-confidence: 5/5
 created: 2025-12-22T12:15:00Z
-epistemic: Meta-index of all health, fitness, and vitality knowledge within ProdOS.
 last_reviewed: 2025-12-22T00:00:00.000Z
-modified: 2026-01-08T15:03:28+00:00
-purpose: ""
-review_interval: 6 months
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:06+00:00
 status: stable
 tags: [fitness, health, index, vitality]
 title: MOC - Health and Vitality
 type: map
-uid:
 updated:
 ---
 
 ## 1. The Core Philosophy
 
 > [!definition] Vitality as a Platform
-> In the ProdOS architecture, **Health** is not a hobby; it is the **Platform Engineering** required to run the mind.
+> In the ProdOS architecture, Health is not a hobby; it is the Platform Engineering required to run the mind.
 >
-> - **Hardware:** The Body (Mobility, Strength, Sleep).
-> - **Software:** The Mind (Emotional Regulation, Focus, Self-Compassion).
-> - **Power:** The Fuel (Nutrition, Dopamine Management).
+> - Hardware: The Body (Mobility, Strength, Sleep).
+> - Software: The Mind (Emotional Regulation, Focus, Self-Compassion).
+> - Power: The Fuel (Nutrition, Dopamine Management).
 
 ---
 
@@ -36,17 +29,17 @@ _Canonical Source:_ [[SoT - Physical Health and Vitality]]
 
 _Focus: Joint health, pain-free movement, and structural integrity._
 
-- **Core Framework:** [[SoT - Functional Mobility & Primal Movement]]
-- **Daily Protocol:** [[SoT - Protocol - Daily Mobility Foundation]]
-- **Principles:**
+- Core Framework: [[SoT - Functional Mobility & Primal Movement]]
+- Daily Protocol: [[SoT - Protocol - Daily Mobility Foundation]]
+- Principles:
     - [[Motion Creates Emotion to Overcome Inertia]]
 
 ### Strength & Calisthenics
 
 _Focus: Force production, power, and bodyweight mastery._
 
-- **Core Framework:** [[SoT - Push-Up Progression (Squat University)]]
-- **Principles:**
+- Core Framework: [[SoT - Push-Up Progression (Squat University)]]
+- Principles:
     - [[SoT - Primal Movement - Crab]]
     - [[SoT - Hanging Mechanics and Progressions]]
 
@@ -97,8 +90,8 @@ _Canonical Source:_ [[SoT - Metabolic Health & Satiety Management]]
 
 _Focus: Hormonal signaling, energy balance, and satiety leverage._
 
-- **Core Framework:** [[SoT - Metabolic Health & Satiety Management]] (Protein Leverage, Fiber, Volume Eating).
-- **Protocols:
+- Core Framework: [[SoT - Metabolic Health & Satiety Management]] (Protein Leverage, Fiber, Volume Eating).
+- Protocols:
     - [[SoT - The YNAB Method#5.4 ADHD Integration (Cognitive Support)|The ADHD Tax (Food Waste/Impulse)]]
     - [[Low-Carb Raw Breakfast Supports Mental Clarity]]
 
@@ -113,6 +106,6 @@ _Focus: Hormonal signaling, energy balance, and satiety leverage._
 
 _Verifiable actions to maintain the system._
 
-- **Daily:** [[SoT - Protocol - Daily Mobility Foundation]]
-- **Morning:** [[MOC - Limitless Morning Routine]]
-- **Maintenance:** [[SoT - The Honeyman Method (Adaptive Routines)]] (Energy-based routines)
+- Daily: [[SoT - Protocol - Daily Mobility Foundation]]
+- Morning: [[MOC - Limitless Morning Routine]]
+- Maintenance: [[SoT - The Honeyman Method (Adaptive Routines)]] (Energy-based routines)

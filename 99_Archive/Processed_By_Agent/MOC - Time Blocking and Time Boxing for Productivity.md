@@ -24,9 +24,9 @@ updated:
 
 > [!info] Canonical Source
 > This concept has been synthesized into the ProdOS system architecture.
-> See: **[[SoT - Temporal Management (Blocking and Boxing)]]**
+> See: [[SoT - Temporal Management (Blocking and Boxing)]]
 
-> **Inclusion criteria:** Atomic only; must be evergreen or growing.
+> Inclusion criteria: Atomic only; must be evergreen or growing.
 
 This map explores intentional time management as a liberating force for achieving personal goals and harmonizing family life. It focuses on two foundational techniques: time blocking and time boxing.
 
@@ -34,9 +34,9 @@ This map explores intentional time management as a liberating force for achievin
 
 ### 1. Core Concepts: The Powerhouses
 
-- **Canonical Source:** [[SoT - Temporal Management (Blocking and Boxing)]] defines the unified protocol for these techniques.
-- **Time Blocking:** Its effectiveness is based on [[The Core Principles of Time Blocking are Proactive Planning Single-Tasking and Visual Schedule Integration|proactive planning, single-tasking, and visual scheduling]].
-- **Time Boxing:** Its strength comes from [[The Core Principles of Time Boxing are Fixed Time Allocation a Goal-Oriented Approach and Commitment to Focus|its principles of fixed limits and clear goals]].
+- Canonical Source: [[SoT - Temporal Management (Blocking and Boxing)]] defines the unified protocol for these techniques.
+- Time Blocking: Its effectiveness is based on [[The Core Principles of Time Blocking are Proactive Planning Single-Tasking and Visual Schedule Integration|proactive planning, single-tasking, and visual scheduling]].
+- Time Boxing: Its strength comes from [[The Core Principles of Time Boxing are Fixed Time Allocation a Goal-Oriented Approach and Commitment to Focus|its principles of fixed limits and clear goals]].
 
 ---
 
@@ -59,5 +59,5 @@ These techniques are embedded within many popular productivity systems, each off
 
 Applying these principles can transform family chaos into coordinated harmony.
 
-- **Foundational Tools:** Start with [[A Shared Family Calendar is a Foundational Tool for Family Organization|a shared family calendar]] to create a single source of truth, and use [[Visual Schedules Help Children Understand Routines and Manage Transitions|visual schedules]] to help children with routines.
-- **Key Processes:** Institute [[Regular Family Meetings are Vital for Collaborative Planning|regular family meetings]] to ensure everyone is aligned and has a voice. This is crucial for gaining buy-in and making adjustments to the family system.
+- Foundational Tools: Start with [[A Shared Family Calendar is a Foundational Tool for Family Organization|a shared family calendar]] to create a single source of truth, and use [[Visual Schedules Help Children Understand Routines and Manage Transitions|visual schedules]] to help children with routines.
+- Key Processes: Institute [[Regular Family Meetings are Vital for Collaborative Planning|regular family meetings]] to ensure everyone is aligned and has a voice. This is crucial for gaining buy-in and making adjustments to the family system.

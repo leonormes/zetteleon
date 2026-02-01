@@ -1,19 +1,12 @@
 ---
 aliases: ["Emotional Intelligence", "EQ"]
-confidence: "1"
 created: 2025-12-10T12:00:00Z
-epistemic: "definition"
 last_reviewed: "2025-12-10"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "To define the character strength of Social Intelligence."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: "evergreen"
 tags: ["character-strength", "humanity", "social-intelligence"]
 title: Social Intelligence is Being Aware of Motives and Feelings
 type: "concept"
-uid: 
 updated: 
 ---
 

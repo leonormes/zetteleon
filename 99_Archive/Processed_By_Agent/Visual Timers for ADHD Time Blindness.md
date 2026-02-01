@@ -28,10 +28,10 @@ A visual timer displays the passage of time graphically (e.g., a disappearing co
 
 ### Why It Works for ADHD
 
-- **Makes Time Tangible**: It provides an external, visual representation of time, which is easier for the ADHD brain to process than an abstract number.
-- **Overcomes Inertia**: The act of setting a timer for a short period can be a low-friction way to get started on a task, breaking through the initial resistance.
-- **Creates Gentle Urgency**: The visible depletion of time can create a sense of urgency, which is a key motivator for the interest-based nervous system.
-- **Helps Retrain Time Perception**: Over time, consistent use of visual timers can help build a more accurate internal sense of how long tasks actually take.
+- Makes Time Tangible: It provides an external, visual representation of time, which is easier for the ADHD brain to process than an abstract number.
+- Overcomes Inertia: The act of setting a timer for a short period can be a low-friction way to get started on a task, breaking through the initial resistance.
+- Creates Gentle Urgency: The visible depletion of time can create a sense of urgency, which is a key motivator for the interest-based nervous system.
+- Helps Retrain Time Perception: Over time, consistent use of visual timers can help build a more accurate internal sense of how long tasks actually take.
 
 ### Connections
 

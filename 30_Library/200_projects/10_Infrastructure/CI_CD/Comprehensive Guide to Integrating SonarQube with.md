@@ -1,26 +1,18 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-03-07T20:46:25Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:27+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:20+00:00
 status: ""
 tags: ["sonarqube"]
 title: Comprehensive Guide to Integrating SonarQube with
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## Executive Summary
 
-This guide provides a technical deep-dive into implementing SonarQube static analysis within GitLab CI/CD pipelines for Yarn 3 monorepos containing Node.js/TypeScript applications. We address infrastructure provisioning via Terraform, pipeline configuration strategies, quality gate enforcement mechanics, and operational troubleshooting. The solution leverages SonarQube Developer Edition features for advanced branch analysis and merge request decoration, optimized for Azure-hosted environments. Implementation details draw from verified integration patterns in SonarQube 10+ and GitLab 16+ ecosystems[^1_1].[^1_2]
+This guide provides a technical deep-dive into implementing SonarQube static analysis within GitLab CI/CD pipelines for Yarn 3 monorepos containing Node.js/TypeScript applications. We address infrastructure provisioning via Terraform, pipeline configuration strategies, quality gate enforcement mechanics, and operational troubleshooting. The solution leverages SonarQube Developer Edition features for advanced branch analysis and merge request decoration, optimized for Azure-hosted environments. Implementation details draw from verified integration patterns in SonarQube 10+ and GitLab 16+ ecosystems.[^1_1][^1_2]
 
 ---
 
@@ -28,13 +20,13 @@ This guide provides a technical deep-dive into implementing SonarQube static ana
 
 ### 1.1 Infrastructure Requirements
 
-**SonarQube Server Specifications**:
+SonarQube Server Specifications:
 
 - Azure VM Minimum: 4 vCPUs, 16GB RAM, SSD storage (Baseline for 50k LoC analysis)
 - PostgreSQL 13+ database with 25 concurrent connections capacity
 - Network Security Group rules allowing HTTPS (port 9000) from GitLab runners[^1_3]
 
-**GitLab Compatibility Matrix**:
+GitLab Compatibility Matrix:
 
 ```markdown
 | Component           | Minimum Version | Notes                          |
@@ -46,7 +38,7 @@ This guide provides a technical deep-dive into implementing SonarQube static ana
 
 ### 1.2 Authentication Configuration
 
-**GitLab-to-SonarQube OAuth Flow**:
+GitLab-to-SonarQube OAuth Flow:
 
 1. Create dedicated service account in GitLab with `read_api` scope
 2. Generate PAT (Personal Access Token) with `api` scope for merge request decoration[^1_1]
@@ -58,7 +50,7 @@ sonar.gitlab.user_token=glpat-xxxxxxxxxx
 sonar.gitlab.project_id=monorepo-group/monorepo-project
 ```
 
-**Monorepo-Specific Settings**:
+Monorepo-Specific Settings:
 
 ```properties
 # sonar-project.properties
@@ -75,7 +67,7 @@ sonar.app2.sources=apps/app2/src
 
 ### 2.1 Pipeline Architecture for Monorepos
 
-**Multi-Stage Analysis Strategy**:
+Multi-Stage Analysis Strategy:
 
 ```mermaid
 graph TD
@@ -133,13 +125,13 @@ sonar_analysis:
   rules:
     - if: $CI_PIPELINE_SOURCE == "merge_request_event"
       changes:
-        - "apps/${WORKSPACE}/**/*"
+        - "apps/${WORKSPACE}//*"
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 ```
 
 ### 2.3 MR-Specific Configuration
 
-**Differential Analysis Parameters**:
+Differential Analysis Parameters:
 
 ```properties
 sonar.pullrequest.provider=GitLab
@@ -154,7 +146,7 @@ sonar.pullrequest.gitlab.commitSha=$CI_COMMIT_SHA
 
 ### 3.1 Pipeline Failure Conditions
 
-**Quality Gate Status Mapping**:
+Quality Gate Status Mapping:
 
 ```bash
 if [ "$(curl -s ${SONAR_HOST_URL}/api/qualitygates/project_status?projectKey=${SONAR_PROJECT_KEY} | jq -r .projectStatus.status)" = "ERROR" ]; then
@@ -164,7 +156,7 @@ fi
 
 ### 3.2 Merge Request Decoration
 
-**GitLab CI Job Configuration**:
+GitLab CI Job Configuration:
 
 ```yaml
 sonar_quality_gate:
@@ -180,7 +172,7 @@ sonar_quality_gate:
 
 ### 3.3 Approval Rule Configuration
 
-**GitLab MR Settings**:
+GitLab MR Settings:
 
 ```markdown
 1. Navigate to Settings > Merge Requests
@@ -197,8 +189,9 @@ sonar_quality_gate:
 
 ### 4.1 Monorepo-Specific Issues
 
-**Problem**: Cross-workspace dependency analysis failures
-**Solution**:
+Problem: Cross-workspace dependency analysis failures
+
+Solution:
 
 ```properties
 sonar.externalIssuesReportPaths=apps/*/sonar-report.json
@@ -207,7 +200,7 @@ sonar.coverageReportPaths=apps/*/coverage/lcov.info
 
 ### 4.2 Performance Optimization
 
-**Caching Strategy**:
+Caching Strategy:
 
 ```yaml
 cache:
@@ -220,7 +213,7 @@ cache:
 
 ### 4.3 Security Configuration
 
-**Secret Management**:
+Secret Management:
 
 ```bash
 # Azure Key Vault integration
@@ -233,7 +226,7 @@ echo "SONAR_TOKEN=$(az keyvault secret show --name sonar-token --vault-name ${VA
 
 ### 5.1 Terraform Module Structure
 
-**Reference Architecture**:
+Reference Architecture:
 
 ```hcl
 module "sonarqube" {
@@ -254,7 +247,7 @@ module "sonarqube" {
 
 ### 5.2 Infrastructure-as-Code Best Practices
 
-**State Management**:
+State Management:
 
 ```hcl
 terraform {
@@ -273,7 +266,7 @@ terraform {
 
 ### 6.1 SonarQube Quality Profiles
 
-**TypeScript Rule Activation**:
+TypeScript Rule Activation:
 
 ```bash
 curl -X POST "${SONAR_HOST_URL}/api/qualityprofiles/activate_rules" \
@@ -285,7 +278,7 @@ curl -X POST "${SONAR_HOST_URL}/api/qualityprofiles/activate_rules" \
 
 ### 6.2 GitLab Runner Optimization
 
-**Docker Executor Configuration**:
+Docker Executor Configuration:
 
 ```toml
 [[runners]]

@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-20T13:06:13Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: []
 title: Addressing Anxiety & Social Emotional Needs
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 1. You've mentioned sometimes feeling anxious in school situations [4, 5, 8]. When you feel worried or overwhelmed, how do your teachers support you?

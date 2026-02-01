@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence: null
 created: 2025-12-04T10:52:37Z
-epistemic: null
 last_reviewed: null
-modified: 2026-01-23T18:09:32+00:00
-purpose: null
-review_interval: null
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:13+00:00
 status: null
 tags: [domain/sub-domain, tags]
 title: idea defluffer prompt
 type: null
-uid: null
 updated: null
 ---
 
@@ -23,7 +16,7 @@ CONSTRAINTS:
 
 - Zero Fluff: Do not provide conversational filler, introductions, or conclusions.
 - Atomic Output: Focus on isolating variables (concepts) and their relationships.
-- Obsidian Format: Use [[Wikilinks]] for concepts and #tags for taxonomy.
+- Obsidian Format: Use [[Wikilinks]] for concepts and tags for taxonomy.
 INPUT TEXT:
 I have found that I do my thinking via LLM like Gemini. I have an idea so I describe it in the Gemini app. Then LLM gives me a detailed and structured version of what I am trying to articulate. Take this input as an example. I realised I was doing this and wrote a quick bullet on my daily note then came here and entered this text. I have the vague idea then use LLM to clarify and elaborate. This has pros and cons.
 REQUIRED OUTPUT FORMAT:
@@ -50,4 +43,4 @@ REQUIRED OUTPUT FORMAT:
 1. Taxonomy Suggestions
 
 - Suggested tags based on domain.
-- Format: #domain/sub-domain
+- Format: domain/sub-domain

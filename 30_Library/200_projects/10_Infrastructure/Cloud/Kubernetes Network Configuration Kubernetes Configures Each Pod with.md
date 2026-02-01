@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-03-13T16:11:13Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:27+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:20+00:00
 status: ""
 tags: ["SoftwareEngineering/Networking"]
 title: Kubernetes Network Configuration Kubernetes Configures Each Pod with
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 IP Address: A unique IP address within the cluster's network.

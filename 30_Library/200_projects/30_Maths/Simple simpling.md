@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-07-13T10:47:18Z
-epistemic: ""
 id: "Simple simpling"
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:11+00:00
 status: ""
 tags: ["TheHuman/Family/Bessie", "topic/maths"]
 title: Simple simpling
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## Activity: Unlocking the Power of Simplicity–A Journey Through Expressions

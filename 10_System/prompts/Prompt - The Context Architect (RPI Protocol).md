@@ -2,8 +2,7 @@
 aliases: []
 created: 2026-01-08T15:38:45+00:00
 last_reviewed: ""
-modified: 2026-01-23T18:09:33+00:00
-review_interval: ""
+modified: 2026-02-01T15:09:14+00:00
 status: ""
 tags: []
 title: Prompt - The Context Architect (RPI Protocol)

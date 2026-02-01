@@ -12,6 +12,9 @@ views:
     filters:
       and:
         - file.ext != "base"
+    groupBy:
+      property: Reviewed
+      direction: DESC
     order:
       - file.name
       - Reviewed
@@ -20,8 +23,12 @@ views:
       - status
       - file.size
     sort:
-      - property: file.mtime
+      - property: file.size
         direction: DESC
+      - property: Reviewed
+        direction: DESC
+      - property: file.name
+        direction: ASC
     columnSize:
       file.name: 445
       note.tags: 665

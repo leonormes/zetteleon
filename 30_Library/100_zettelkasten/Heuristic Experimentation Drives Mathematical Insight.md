@@ -1,28 +1,20 @@
 ---
 aliases: ["Mathematical Experimentation", "Tinkering"]
-confidence: "0.8"
 created: 2025-11-01T11:22:13Z
-epistemic: "hypothesis"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: "90"
-see_also: ["[[Mathematics Involves Creativity and Aesthetic Judgement]]", "[[The Process of Mathematical Discovery is Driven by Pattern Recognition]]", "[[Visualization Supports Mathematical Thinking]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: "seedling"
 tags: ["heuristics", "TheHuman/Creativity", "topic/maths"]
 title: Heuristic Experimentation Drives Mathematical Insight
 type: "strategy"
-uid: 
 updated: 
-version: "1"
 ---
 
-**Summary:** Mathematical discovery involves breaking down complex problems into smaller components, examining them through trial and experimentation, and reconstructing understanding—an iterative process that embraces failure as learning.
+Summary: Mathematical discovery involves breaking down complex problems into smaller components, examining them through trial and experimentation, and reconstructing understanding—an iterative process that embraces failure as learning.
 
-**What:** Heuristic experimentation is the practice of exploring mathematical ideas through play, examples, and computational exploration before seeking rigorous proof.
+What: Heuristic experimentation is the practice of exploring mathematical ideas through play, examples, and computational exploration before seeking rigorous proof.
 
-**How:**
+How:
 
 - Generate specific examples to identify patterns
 - Test conjectures against counterexamples
@@ -31,7 +23,7 @@ version: "1"
 - Use computational tools to explore behavior
 - Learn from failed attempts
 
-**Iterative Process:**
+Iterative Process:
 
 The cycle of experimentation:
 
@@ -41,7 +33,7 @@ The cycle of experimentation:
 4. Repeat until pattern clarifies
 5. Seek rigorous proof of refined conjecture
 
-**Value of Failure:**
+Value of Failure:
 
 Failed attempts are not wasted effort but essential feedback. Each failure:
 
@@ -50,4 +42,4 @@ Failed attempts are not wasted effort but essential feedback. Each failure:
 - Suggests alternative approaches
 - Deepens understanding of the problem space
 
-**Relationship to Proof:** Experimentation precedes proof. While it cannot establish mathematical truth, it guides the search for proof by revealing what might be true and why.
+Relationship to Proof: Experimentation precedes proof. While it cannot establish mathematical truth, it guides the search for proof by revealing what might be true and why.

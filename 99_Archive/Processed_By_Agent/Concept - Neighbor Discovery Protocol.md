@@ -19,7 +19,7 @@ updated:
 
 ## Neighbor Discovery Protocol
 
-**Summary:** The Neighbor Discovery Protocol (NDP) is the IPv6 protocol used to determine the link-layer addresses for neighbors on the same network link, replacing the functionality of ARP in IPv4.
+Summary: The Neighbor Discovery Protocol (NDP) is the IPv6 protocol used to determine the link-layer addresses for neighbors on the same network link, replacing the functionality of ARP in IPv4.
 
-**Details:**
+Details:
 Specifically, it uses ICMPv6 multicast messages for neighbor solicitation and advertisement to resolve IP addresses to MAC addresses. It also handles router discovery and parameter discovery.

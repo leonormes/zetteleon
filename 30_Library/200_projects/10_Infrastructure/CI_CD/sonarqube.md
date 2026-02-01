@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2024-12-05T13:13:22Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:27+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:20+00:00
 status: ""
 tags: ["SDLC", "SoftwareEngineering/Security"]
 title: sonarqube
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## SonarQube

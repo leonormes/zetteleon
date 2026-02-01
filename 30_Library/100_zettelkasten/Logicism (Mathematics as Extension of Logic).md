@@ -1,29 +1,21 @@
 ---
 aliases: []
-confidence: "0.7"
 created: 2025-11-01T11:22:13Z
-epistemic: "opinion"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-01-23T18:09:31+00:00
-purpose: "Define the logicist philosophy that mathematics reduces to pure logic."
-review_interval: "90"
-see_also: ["[[G\\u00f6del''s Incompleteness Theorems Constrain Foundational Programs]]", "[[Logic Is the Grammar of Rigorous Argument]]", "[[Russell''s Paradox in Naive Set Theory]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:31+00:00
 status: "seedling"
 tags: ["foundations", "logic", "TheHuman/Philosophy", "topic/maths"]
 title: Logicism (Mathematics as Extension of Logic)
 type: "concept"
-uid: 
 updated: 
-version: "1"
 ---
 
-**Summary:** Logicism proposes that all of mathematics is an extension of pure logic, and that mathematical truths are complex tautologies derivable from the axioms of logic alone.
+Summary: Logicism proposes that all of mathematics is an extension of pure logic, and that mathematical truths are complex tautologies derivable from the axioms of logic alone.
 
-**Core Thesis:** Mathematical concepts like 'number' can be defined in purely logical terms, and mathematical theorems can be proven as theorems of logic. The "first principle" is logical truth itself.
+Core Thesis: Mathematical concepts like 'number' can be defined in purely logical terms, and mathematical theorems can be proven as theorems of logic. The "first principle" is logical truth itself.
 
-**Analogy:** Think of logic as the grammar of reason. Logicists argued that mathematics is simply the most sophisticated and extended prose written using that grammar.
+Analogy: Think of logic as the grammar of reason. Logicists argued that mathematics is simply the most sophisticated and extended prose written using that grammar.
 
-**Key Proponents:** Gottlob Frege and Bertrand Russell pioneered this approach in the late 19th and early 20th centuries.
+Key Proponents: Gottlob Frege and Bertrand Russell pioneered this approach in the late 19th and early 20th centuries.
 
-**Challenge:** The logicist project was derailed by paradoxes (like Russell's Paradox) and later by Gödel's Incompleteness Theorems, which showed that any formal system strong enough to contain basic arithmetic would have true statements that it could not prove.
+Challenge: The logicist project was derailed by paradoxes (like Russell's Paradox) and later by Gödel's Incompleteness Theorems, which showed that any formal system strong enough to contain basic arithmetic would have true statements that it could not prove.

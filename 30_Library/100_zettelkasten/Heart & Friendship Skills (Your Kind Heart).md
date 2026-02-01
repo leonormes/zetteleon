@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-07-10T10:12:15Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: ""
 tags: []
 title: Heart & Friendship Skills (Your Kind Heart)
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 _These strengths are all about how you connect with other people and show you care._

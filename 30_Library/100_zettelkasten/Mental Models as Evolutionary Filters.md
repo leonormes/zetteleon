@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-20T09:52:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:30+00:00
 status: "null"
 tags: ["efficiency", "evolution", "perception", "TheHuman/Cognition"]
 title: Mental Models as Evolutionary Filters
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
 Our brains construct mental models as a highly efficient evolutionary strategy to manage an overwhelming amount of sensory information. These models act as subconscious filters, allowing us to navigate the world, make predictions, and decide on actions without having to consciously process every detail.

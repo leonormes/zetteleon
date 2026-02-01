@@ -1,19 +1,12 @@
 ---
 aliases: ["Consciousness and Time", "Nature of Time", "Time Perception"]
-confidence: "5/5"
 created: 2025-12-12T00:00:00Z
-epistemic: ""
 last_reviewed: "2025-12-12"
-modified: 2026-01-23T18:09:17+00:00
-purpose: "Canonical synthesis of the objective (physical) and subjective (conscious) nature of time, its philosophical implications, and the scientific pursuit of objectivity."
-review_interval: "1 year"
-see_also: ["[[SoT - ADHD Executive Dysfunction]]", "[[SoT - Reality", "[[SoT - Temporal Management (Blocking and Boxing)]]", "[[SoT - The Cognitive Physiology of Task Execution]]", "[[Time Without Human Perspective]]", "and the Limits of Accuracy]]", "Models"]
-source_of_truth: []
+modified: 2026-02-01T15:07:49+00:00
 status: "stable"
 tags: ["consciousness", "physics", "science", "TheHuman/Philosophy", "TheHuman/Psychology", "time"]
 title: SoT - The Nature of Time and Perception
 type: "SoT"
-uid: 
 updated: 
 ---
 
@@ -21,7 +14,7 @@ updated:
 
 ## 2. Time as a Physical Dimension
 
-From the perspective of physics, particularly Einstein's theory of relativity, time is the fourth dimension of a unified fabric called **spacetime**.
+From the perspective of physics, particularly Einstein's theory of relativity, time is the fourth dimension of a unified fabric called spacetime.
 
 ### A. A Coordinate, Not a Current
 
@@ -34,8 +27,8 @@ From the perspective of physics, particularly Einstein's theory of relativity, t
 
 ### C. The Arrow of Time (Entropy)
 
-- The **Second Law of Thermodynamics** dictates that the total entropy (disorder) in an isolated system can only increase over time.
-- **Counterpoint:** In open systems (like Life or Earth), the **[[SoT - The Law of Increasing Functional Information]]** suggests that complexity and order _increase_ over time due to selection, creating a "Yin-Yang" relationship with entropy.
+- The Second Law of Thermodynamics dictates that the total entropy (disorder) in an isolated system can only increase over time.
+- Counterpoint: In open systems (like Life or Earth), the [[SoT - The Law of Increasing Functional Information]] suggests that complexity and order _increase_ over time due to selection, creating a "Yin-Yang" relationship with entropy.
 - This irreversible progression from order to disorder gives time its direction, independent of our perception. We remember the past (lower entropy) and not the future (higher entropy).
 
 ---
@@ -53,17 +46,17 @@ What vanishes without a conscious observer is the _experience_ of time. Consciou
 
 Our subjective experience connects:
 
-- **The Past (Memory):** Our sense of personal history and learning. Without memory, each moment would be isolated.
-- **The Present (Perception):** Integration of sensory data into a cohesive "perceptual moment."
-- **The Future (Anticipation):** Ability to plan, set goals, and project into what is to come, essential for motivation and meaning.
+- The Past (Memory): Our sense of personal history and learning. Without memory, each moment would be isolated.
+- The Present (Perception): Integration of sensory data into a cohesive "perceptual moment."
+- The Future (Anticipation): Ability to plan, set goals, and project into what is to come, essential for motivation and meaning.
 
 ### C. The Neural Clock (Dopamine & Novelty)
 
 Our perception of time's speed is dictated by the density of new memories.
 
-- **The Routine Compression:** When days are identical, the brain encodes them as a single "event." A month of routine vanishes in retrospect.
-- **The Novelty Expansion:** New experiences write dense memories. A two-week holiday feels longer than two months of office work.
-- **Application:** The **"Side Quests"** protocol in [[SoT - The YNAB Method]] operationalizes this by funding low-friction novelty to artificially expand the perception of a life well-lived.
+- The Routine Compression: When days are identical, the brain encodes them as a single "event." A month of routine vanishes in retrospect.
+- The Novelty Expansion: New experiences write dense memories. A two-week holiday feels longer than two months of office work.
+- Application: The "Side Quests" protocol in [[SoT - The YNAB Method]] operationalizes this by funding low-friction novelty to artificially expand the perception of a life well-lived.
 
 ---
 
@@ -89,10 +82,10 @@ Science's methodology is a systematic attempt to separate human consciousness (t
 
 ### A. Tools for Objectivity
 
-- **Reproducibility:** Experiments must yield the same results across different observers and labs.
-- **Falsifiability:** Theories must be potentially provable _wrong_, not just _right_.
-- **Instrumentation:** Machines measure objective data (e.g., wavelengths, frequencies), removing immediate subjective interpretation.
-- **Blinding:** Removing belief and expectation from both observer and subject (e.g., double-blind trials).
+- Reproducibility: Experiments must yield the same results across different observers and labs.
+- Falsifiability: Theories must be potentially provable _wrong_, not just _right_.
+- Instrumentation: Machines measure objective data (e.g., wavelengths, frequencies), removing immediate subjective interpretation.
+- Blinding: Removing belief and expectation from both observer and subject (e.g., double-blind trials).
 
 ### B. The Quantum Unavoidable Connection (Observer Effect)
 
@@ -104,6 +97,6 @@ Science's methodology is a systematic attempt to separate human consciousness (t
 
 Understanding the subjective nature of time is crucial for managing common ADHD challenges:
 
-- **Time Blindness:** The inability to "feel" the passage of time.
-- **Temporal Management:** External tools like time blocking and time boxing (see [[SoT - Temporal Management (Blocking and Boxing)]]) become essential to externalize the subjective "now" and structure objective time.
-- **Memory Limitations:** The challenge in binding past experiences to future planning.
+- Time Blindness: The inability to "feel" the passage of time.
+- Temporal Management: External tools like time blocking and time boxing (see [[SoT - Temporal Management (Blocking and Boxing)]]) become essential to externalize the subjective "now" and structure objective time.
+- Memory Limitations: The challenge in binding past experiences to future planning.

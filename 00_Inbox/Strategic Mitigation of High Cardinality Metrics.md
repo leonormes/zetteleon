@@ -1,6 +1,6 @@
 ---
 created: 2026-01-30T08:29:44+00:00
-modified: 2026-01-30T09:18:13+00:00
+modified: 2026-02-01T15:09:20+00:00
 title: Strategic Mitigation of High Cardinality Metrics
 ---
 
@@ -20,7 +20,7 @@ If fixing the instrumentation code isn't an immediate option, you can use metric
 
  Drop Specific Histogram Buckets: Histograms are expensive because they multiply series count. You can use regex to drop less useful le (bucket) labels while preserving the _sum, _count, and the +Inf bucket (which is required for valid queries) 4, 5.
 
- Drop Entire Metrics: You can drop high-cardinality metrics entirely by matching against the **name** label with the drop action 3.
+ Drop Entire Metrics: You can drop high-cardinality metrics entirely by matching against the name label with the drop action 3.
 
 ## 3. Emergency Valves
 

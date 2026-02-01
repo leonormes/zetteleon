@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-28T18:46:40Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:35+00:00
 status: ""
 tags: []
 title: Crafting Compelling Task Descriptions and Sustaining Motivation
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## Writing Effective Task Descriptions

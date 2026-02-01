@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-03-15T12:52:11Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:25+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:14+00:00
 status: ""
 tags: []
 title: Why kubernetes is a good choice
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Yes, this is a very reasonable and common use case for Kubernetes. Here's a breakdown of why it's a good fit and the advantages you gain:

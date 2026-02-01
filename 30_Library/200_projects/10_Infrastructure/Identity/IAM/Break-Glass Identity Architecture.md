@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-03-13T08:36:24Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:18+00:00
 status: ""
 tags: ["IAM"]
 title: Break-Glass Identity Architecture
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Root Emergency Account

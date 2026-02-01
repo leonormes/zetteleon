@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-30T12:04:05Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:26+00:00
 source: "[[MOC - How to Build Discipline]]"
-source_of_truth: []
 status: "seedling"
 tags: ["compound-effect", "discipline", "success", "TheHuman/Habits"]
 title: Success Accumulates Through Thousands of Tiny Daily Choices
 type: "concept"
-uid: 
 updated: 
 ---
 

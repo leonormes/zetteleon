@@ -1,24 +1,17 @@
 ---
 aliases: ["Rapid Feedback Loops"]
-confidence: "0.9"
 created: 2025-11-12T15:00:06Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: "To explain the importance of immediate feedback for the ADHD brain."
-review_interval: "90"
-see_also: ["[[ADHD habit building requires immediate feedback or reward loops]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:28+00:00
 status: "seedling"
 tags: ["dopamine", "feedback", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
 title: Rapid Feedback Loops are Essential for ADHD Motivation
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Rapid Feedback Loops Are Essential for ADHD Motivation
 
-**Summary:** The speed of feedback is a critical factor for maintaining motivation in the ADHD brain, which struggles with delayed gratification and operates on a short time horizon.
+Summary: The speed of feedback is a critical factor for maintaining motivation in the ADHD brain, which struggles with delayed gratification and operates on a short time horizon.
 
-**Details:** A long delay between an action and its observable consequence can sever the fragile chain of attention and allow the brain to drift. The primary goal for maintaining engagement is to shrink the "idea-to-feedback" loop as much as possible. In software development, this can be achieved with practices like Test-Driven Development (TDD), using interactive shells (REPLs), and CI/CD pipelines, all of which provide immediate, concrete feedback and a steady stream of small dopamine rewards.
+Details: A long delay between an action and its observable consequence can sever the fragile chain of attention and allow the brain to drift. The primary goal for maintaining engagement is to shrink the "idea-to-feedback" loop as much as possible. In software development, this can be achieved with practices like Test-Driven Development (TDD), using interactive shells (REPLs), and CI/CD pipelines, all of which provide immediate, concrete feedback and a steady stream of small dopamine rewards.

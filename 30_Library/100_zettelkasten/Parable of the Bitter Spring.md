@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-12T09:41:52Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:29+00:00
 status: ""
 tags: []
 title: Parable of the Bitter Spring
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 A teacher, seeing his students working tirelessly, gathered them and said, "Let me tell you of the Village of Constant Toil, so that you may understand the nature of your work."

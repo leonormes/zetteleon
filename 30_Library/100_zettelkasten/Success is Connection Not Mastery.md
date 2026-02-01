@@ -1,22 +1,14 @@
 ---
 aliases: ["Connection Over Mastery", "Synthesis Over Specialization"]
-confidence: "null"
 created: 2025-09-11T20:22:57Z
 creation_date: "2025-09-11T00:00:00.000Z"
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:26+00:00
 status: "null"
 tags: ["success-metrics", "synthesis", "TheHuman/Health/ADHD", "topic/learning"]
 title: Success is Connection Not Mastery
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
 For minds that thrive on novelty and breadth, success should be measured by the ability to forge meaningful connections across domains rather than achieving deep mastery within a single field. The real value lies in learning enough about diverse subjects to identify novel intersections and synthesize insights that specialists might miss.

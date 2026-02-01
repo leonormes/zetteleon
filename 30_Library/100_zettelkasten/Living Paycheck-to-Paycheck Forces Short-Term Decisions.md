@@ -1,19 +1,12 @@
 ---
 aliases: ["The Paycheck Cycle Trap"]
-confidence: ""
 created: 2025-11-18T14:36:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:31+00:00
 status: ""
 tags: ["budgeting", "finance", "TheHuman/Psychology"]
 title: Living Paycheck-to-Paycheck Forces Short-Term Decisions
 type: ""
-uid: 
 updated: 
 ---
 

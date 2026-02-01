@@ -1,20 +1,13 @@
 ---
 aliases: ["ADHD is not laziness"]
-confidence: "null"
 created: 2025-10-30T12:03:00Z
-epistemic: "principle"
 last_reviewed: "null"
-modified: 2026-01-08T10:50:02+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
+modified: 2026-02-01T15:08:37+00:00
 source: "[[MOC - The Neurological Basis of Task Initiation Difficulty in ADHD]]"
-source_of_truth: []
 status: "seedling"
 tags: ["laziness", "TheHuman/Health/ADHD", "TheHuman/Mindset", "TheHuman/Motivation"]
 title: ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness
 type: "concept"
-uid: 
 updated: 
 ---
 
@@ -22,7 +15,7 @@ The difficulty with task initiation experienced by individuals with ADHD is an i
 
 This distinction is critical for understanding that the challenge is one of executive function and neurobiology, not a moral failing or a lack of effort.
 
-**Behavioral Manifestations:**
+Behavioral Manifestations:
 
 - Avoidance creates "gnawing rats" (see [[Gnawing Rats Metaphor for Avoided Tasks]])
 - Requires structured engagement strategies

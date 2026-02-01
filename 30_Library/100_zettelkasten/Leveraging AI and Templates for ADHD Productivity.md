@@ -1,36 +1,28 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-26T11:07:00Z
-epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: "2 weeks"
-see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:31+00:00
 status: "pending"
 tags: ["ai", "executive-function", "experiment", "hypothesis", "templates", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Leveraging AI and Templates for ADHD Productivity
 type: "hypothesis"
-uid: 
 updated: 
-version: "1"
 ---
 
 ## 1. The Hypothesis
 
-> **If** I use Voice-to-Text AI to "vomit" my initial unstructured thoughts for a task,
-> **Then** I will bypass the paralysis of perfectionism and structuring,
-> **Because** speaking is faster than typing, and the AI handles the "Executive Function" load of organizing the mess into a draft.
+> If I use Voice-to-Text AI to "vomit" my initial unstructured thoughts for a task,
+> Then I will bypass the paralysis of perfectionism and structuring,
+> Because speaking is faster than typing, and the AI handles the "Executive Function" load of organizing the mess into a draft.
 
 ---
 
 ## 2. Experiment Protocol
 
-- **Duration:** 3 Days.
-- **Trigger:** Any task requiring writing (Email, Report, Code Plan) > 5 minutes.
-- **Action:**
+- Duration: 3 Days.
+- Trigger: Any task requiring writing (Email, Report, Code Plan) > 5 minutes.
+- Action:
 
     1. Open ChatGPT / Voice Memo.
     2. Ramble for 2 minutes about what I want to say/do. (No filtering).
@@ -41,8 +33,8 @@ version: "1"
 
 ## 3. Expected Outcome
 
-- **Metric:** Time to "First Draft" reduced by 50%.
-- **Qualitative:** Reduction in anxiety when opening a blank document.
+- Metric: Time to "First Draft" reduced by 50%.
+- Qualitative: Reduction in anxiety when opening a blank document.
 
 ---
 
@@ -52,8 +44,9 @@ version: "1"
 
 ---
 
-**Original Context:**
+Original Context:
+
 For individuals with ADHD, offloading cognitive load is a critical productivity strategy.
 
-- **AI as Executive Assistant**: Tools like Granola (meetings) or ChatGPT (structuring) compensate for Working Memory deficits.
-- **Templatizing**: Reduces activation energy.
+- AI as Executive Assistant: Tools like Granola (meetings) or ChatGPT (structuring) compensate for Working Memory deficits.
+- Templatizing: Reduces activation energy.

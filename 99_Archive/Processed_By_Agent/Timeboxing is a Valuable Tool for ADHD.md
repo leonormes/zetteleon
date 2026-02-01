@@ -22,8 +22,8 @@ Timeboxing is an especially effective strategy for individuals with ADHD because
 
 Key benefits for ADHD brains include:
 
-- **Externalizes Time Perception:** It makes the abstract concept of time visible and tangible, which is helpful for those with "time blindness."
-- **Reduces Overwhelm:** By breaking down large, open-ended tasks into contained time blocks, it makes them feel more manageable.
-- **Creates Implementation Intentions:** It provides the specific "when" and "where" cues that are crucial for initiating tasks.
-- **Manages Hyperfocus:** A scheduled endpoint for a task can serve as a prompt to pull out of a hyperfocus state and transition to other responsibilities.
-- **Builds Structure:** The schedule acts as an external scaffold, providing the structure and organization that can be difficult to generate internally.
+- Externalizes Time Perception: It makes the abstract concept of time visible and tangible, which is helpful for those with "time blindness."
+- Reduces Overwhelm: By breaking down large, open-ended tasks into contained time blocks, it makes them feel more manageable.
+- Creates Implementation Intentions: It provides the specific "when" and "where" cues that are crucial for initiating tasks.
+- Manages Hyperfocus: A scheduled endpoint for a task can serve as a prompt to pull out of a hyperfocus state and transition to other responsibilities.
+- Builds Structure: The schedule acts as an external scaffold, providing the structure and organization that can be difficult to generate internally.

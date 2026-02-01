@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-02-07T12:57:55Z
-epistemic: "null"
 ID: "knowledge"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:31+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:32+00:00
 status: "null"
 tags: ["knowledge", "TheHuman/Cognition/bias"]
 title: Knowledge-Related Biases
 type: "permanent"
-uid: 
 updated: 
-version: "null"
 ---
 
 ## Curse of Knowledge

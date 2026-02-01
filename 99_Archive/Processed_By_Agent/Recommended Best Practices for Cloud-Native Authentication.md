@@ -22,11 +22,11 @@ Implementing robust authentication in cloud-native environments requires adheren
 
 Key recommendations include:
 
-- **Eliminate Static Secrets:** Replace long-lived, shared credentials with dynamic tokens. This reduces the attack surface significantly.
-- **Use OIDC Everywhere Possible:** Leverage OpenID Connect (OIDC) for federated identity across cloud providers. Workloads should automatically obtain short-lived tokens from an OIDC trust.
-- **Adopt Mutual TLS (mTLS) or SPIFFE/SPIRE:** Especially within Kubernetes clusters, establish cryptographically verifiable workload identities using mTLS or the SPIFFE/SPIRE framework.
-- **Centralize Identity in Vault/Entra ID:** Unify policy abstraction and secret issuance through a centralized identity management solution like HashiCorp Vault or Azure Entra ID.
-- **Automate Rotation and Lifecycle:** Implement Just-in-Time (JIT) access mechanisms and automate the rotation and lifecycle management of all credentials.
+- Eliminate Static Secrets: Replace long-lived, shared credentials with dynamic tokens. This reduces the attack surface significantly.
+- Use OIDC Everywhere Possible: Leverage OpenID Connect (OIDC) for federated identity across cloud providers. Workloads should automatically obtain short-lived tokens from an OIDC trust.
+- Adopt Mutual TLS (mTLS) or SPIFFE/SPIRE: Especially within Kubernetes clusters, establish cryptographically verifiable workload identities using mTLS or the SPIFFE/SPIRE framework.
+- Centralize Identity in Vault/Entra ID: Unify policy abstraction and secret issuance through a centralized identity management solution like HashiCorp Vault or Azure Entra ID.
+- Automate Rotation and Lifecycle: Implement Just-in-Time (JIT) access mechanisms and automate the rotation and lifecycle management of all credentials.
 
 These practices collectively build a more secure, resilient, and auditable authentication posture for cloud-native applications.
 

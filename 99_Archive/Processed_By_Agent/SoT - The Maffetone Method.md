@@ -21,7 +21,7 @@ updated: 2026-01-08T12:50:00Z
 
 ### Minimum Viable Understanding (MVU)
 
-The Maffetone Method is a holistic fitness philosophy developed by Dr. Phil Maffetone that prioritizes **health** over performance. It centres on building a powerful [[Aerobic Function Efficiently Burns Fat for Long-Term Energy]] while minimizing the physiological stress caused by [[Anaerobic Function Relies on Glycogen and Increases Physiological Stress]].
+The Maffetone Method is a holistic fitness philosophy developed by Dr. Phil Maffetone that prioritizes health over performance. It centres on building a powerful [[Aerobic Function Efficiently Burns Fat for Long-Term Energy]] while minimizing the physiological stress caused by [[Anaerobic Function Relies on Glycogen and Increases Physiological Stress]].
 
 ### Working Knowledge
 
@@ -29,9 +29,9 @@ The system is built around the strict monitoring of heart rate using [[The MAF 1
 
 The methodology is not just about exercise but follows a life cycle of health:
 
-- **Assessment:** Measuring stress and aerobic capacity via the [[The MAF Test Measures Aerobic Conditioning Progress]].
-- **Implementation:** Following [[The MAFFETONE Cycle is a Holistic Process for Health and Fitness Renewal]].
-- **Nutrition:** Reducing carbohydrate intolerance to lower systemic stress.
+- Assessment: Measuring stress and aerobic capacity via the [[The MAF Test Measures Aerobic Conditioning Progress]].
+- Implementation: Following [[The MAFFETONE Cycle is a Holistic Process for Health and Fitness Renewal]].
+- Nutrition: Reducing carbohydrate intolerance to lower systemic stress.
 
 ### Current Understanding
 
@@ -39,8 +39,8 @@ The method challenges the "no pain, no gain" mantra. It posits that many chronic
 
 ### Tensions & Gaps
 
-- **Subjectivity of Adjustments:** The 180-Formula adjustments (categories A-D) require honest self-assessment of health history, which can be subjective.
-- **Carbohydrate Intolerance:** The link between diet and aerobic function is central but requires specific testing (Two-Week Test) that is often the hardest part for users to implement.
+- Subjectivity of Adjustments: The 180-Formula adjustments (categories A-D) require honest self-assessment of health history, which can be subjective.
+- Carbohydrate Intolerance: The link between diet and aerobic function is central but requires specific testing (Two-Week Test) that is often the hardest part for users to implement.
 
 ### Linked Components
 

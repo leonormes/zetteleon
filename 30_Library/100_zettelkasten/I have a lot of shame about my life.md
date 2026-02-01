@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-18T08:57:31Z
-epistemic: "personal"
 last_reviewed: "2025-10-31"
-modified: 2026-01-23T18:09:31+00:00
-purpose: "Personal reflection on shame and its drivers"
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:32+00:00
 status: "seedling"
 tags: ["meta-work", "procrastination", "shame", "TheHuman/Health/ADHD", "topic/productivity"]
 title: I have a lot of shame about my life
 type: "personal"
-uid: 
 updated: 
-version: ""
 ---
 
 I think my [[Shame|obsession]] with [[Creating a GTD Map in Excalidraw|GTD]] and [[Zettelkasten Ain't Easy|Zettelkasten]] and trying to understand everything is driven by my shame. The shame is fed by my constant failure to meet [[Unrealistic expectations are the main obstacle to building ADHD routines|expectations]]. I do have a pathological fear of the idea of expectations, especially at work. How do I change? Is there a medicine I can take like Mounjaro that will just stop the [[Procrastination Triggers|procrastination]]? I feel this is an important line of thought

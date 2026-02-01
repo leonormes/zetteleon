@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-11-03T15:47:05Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:16+00:00
 status: ""
 tags: []
 title: What Does Company Apex Mean in DNS
 type: ""
-uid: 
 updated: 
 ---
 
@@ -25,9 +18,9 @@ The term "company apex" in DNS refers to the root of a registrable domain, also 
 
 ### Apex Domain Characteristics
 
-- **Definition**: The apex domain is the main domain in a DNS zone, not a subdomain—it is the core address without anything before the first dot except the zone or domain itself.[^2][^5][^6]
-- **Purpose**: Apex domains are used for the primary web presence of a company or organization and serve as the authoritative root for all subdomains (e.g., `acme.example` instead of `www.acme.example`).[^6][^1][^2]
-- **DNS Records**:
+- Definition: The apex domain is the main domain in a DNS zone, not a subdomain—it is the core address without anything before the first dot except the zone or domain itself.[^2][^5][^6]
+- Purpose: Apex domains are used for the primary web presence of a company or organization and serve as the authoritative root for all subdomains (e.g., `acme.example` instead of `www.acme.example`).[^6][^1][^2]
+- DNS Records:
   - Apex domains typically use A or AAAA records to directly point to an IP address.
   - CNAME records are not permitted at the apex due to DNS protocol restrictions, but some DNS providers support ALIAS or ANAME records as CNAME-like solutions for apex domains.
 
@@ -64,15 +57,15 @@ An apex domain is the root address of a registrable domain in DNS, while a subdo
 
 ### Apex Domain
 
-- **Definition**: The root name of your domain without any prefix (e.g., `acme.example`) is the apex domain.[^8][^7][^2]
-- **DNS Record Constraints**: Only A, AAAA, ALIAS, or ANAME records can be used at the apex because a CNAME record is not permitted at the root level by DNS standards.[^1][^2][^8]
-- **Purpose**: Represents your website's core public identity, used for branding and centralized access.[^7][^8]
+- Definition: The root name of your domain without any prefix (e.g., `acme.example`) is the apex domain.[^8][^7][^2]
+- DNS Record Constraints: Only A, AAAA, ALIAS, or ANAME records can be used at the apex because a CNAME record is not permitted at the root level by DNS standards.[^1][^2][^8]
+- Purpose: Represents your website's core public identity, used for branding and centralized access.[^7][^8]
 
 ### Subdomain
 
-- **Definition**: Any domain that is derived from the apex by adding a prefix, such as `www.acme.example`, `blog.acme.example`, or `dev.acme.example`.[^3][^2][^8]
-- **DNS Record Flexibility**: Subdomains can use CNAME records, as well as A or AAAA records, allowing for easier redirection and aliasing of services.[^1][^2][^8]
-- **Purpose**: Used to separate content, services, or different environments within an organization, such as blogs, shops, APIs, or staging websites.[^8][^7]
+- Definition: Any domain that is derived from the apex by adding a prefix, such as `www.acme.example`, `blog.acme.example`, or `dev.acme.example`.[^3][^2][^8]
+- DNS Record Flexibility: Subdomains can use CNAME records, as well as A or AAAA records, allowing for easier redirection and aliasing of services.[^1][^2][^8]
+- Purpose: Used to separate content, services, or different environments within an organization, such as blogs, shops, APIs, or staging websites.[^8][^7]
 
 ### Direct DNS Configuration Differences
 

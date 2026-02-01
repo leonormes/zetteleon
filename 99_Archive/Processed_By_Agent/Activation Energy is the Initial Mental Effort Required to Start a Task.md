@@ -19,6 +19,6 @@ updated:
 
 ## Activation Energy is the Initial Mental Effort Required to Start a Task
 
-**Summary:** Activation energy is the psychological and mental effort required to overcome inertia and begin a task. This initial friction is often the biggest barrier to taking action.
+Summary: Activation energy is the psychological and mental effort required to overcome inertia and begin a task. This initial friction is often the biggest barrier to taking action.
 
-**Details:** The brain is designed to conserve energy and will naturally prefer the path of least resistance. High activation energy for a task (e.g., "write a book") makes it feel daunting and encourages procrastination. Strategies like breaking tasks into micro-steps or preparing the environment are designed to lower this initial activation energy.
+Details: The brain is designed to conserve energy and will naturally prefer the path of least resistance. High activation energy for a task (e.g., "write a book") makes it feel daunting and encourages procrastination. Strategies like breaking tasks into micro-steps or preparing the environment are designed to lower this initial activation energy.

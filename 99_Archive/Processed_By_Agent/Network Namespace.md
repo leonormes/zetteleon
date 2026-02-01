@@ -409,4 +409,4 @@ mount --bind /tmp/netns /var/run/netns
 
 For a step-by-step guide on building container networking manually (including veth pairs, bridges, DHCP, and OVS), see:
 
-**[[How to create and connect network namespaces]]**
+[[How to create and connect network namespaces]]

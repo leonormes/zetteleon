@@ -19,6 +19,6 @@ updated:
 
 ## Critical Thinking Transforms Information into Knowledge
 
-**Summary:** The transformation of information into knowledge occurs through the active process of critical thinking, analysis, and synthesis.
+Summary: The transformation of information into knowledge occurs through the active process of critical thinking, analysis, and synthesis.
 
-**Details:** This involves critically evaluating information, analyzing the relationships between different pieces of data, and synthesizing them to form new insights or ideas. This analytical process turns raw, unstructured information into a more organized and meaningful form of understanding.
+Details: This involves critically evaluating information, analyzing the relationships between different pieces of data, and synthesizing them to form new insights or ideas. This analytical process turns raw, unstructured information into a more organized and meaningful form of understanding.

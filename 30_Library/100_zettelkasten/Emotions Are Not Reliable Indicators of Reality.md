@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:34+00:00
 status: ""
 tags: ["emotion"]
 title: Emotions Are Not Reliable Indicators of Reality
 type: "permanent"
-uid: 
 updated: 
-version: ""
 ---
 
 It is essential to recognize that emotions are not always reliable indicators of reality and to evaluate situations objectively, avoiding the tendency to resort to negative thinking. This is a core idea in [[Morita Therapy - Core Principle is to Accept Feelings and Direct Behavior]].

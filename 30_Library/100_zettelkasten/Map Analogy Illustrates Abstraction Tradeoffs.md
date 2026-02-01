@@ -1,32 +1,25 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-10-31T11:23:00Z
-epistemic: "analogy"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: "Explain abstraction through map analogy."
-review_interval: "90"
-see_also: ["Higher Abstraction Levels Increase Breadth But Reduce Depth.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:31+00:00
 status: "seedling"
 tags: ["TheHuman/Cognition", "visualization"]
 title: Map Analogy Illustrates Abstraction Tradeoffs
 type: "example"
-uid: 
 updated: 
 ---
 
 ## Map Analogy Illustrates Abstraction Tradeoffs
 
-**Summary:** Different map scales demonstrate how abstraction levels reveal or obscure information.
+Summary: Different map scales demonstrate how abstraction levels reveal or obscure information.
 
-**Examples:**
+Examples:
 
-- **Street Map:** Shows building details but lacks regional context
-- **Country Map:** Reveals city relationships but omits streets
+- Street Map: Shows building details but lacks regional context
+- Country Map: Reveals city relationships but omits streets
 
-**Cognitive Parallel:**
+Cognitive Parallel:
 
 - Low abstraction = detailed but narrow
 - High abstraction = broad but generalized

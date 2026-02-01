@@ -22,24 +22,24 @@ version: "2"
 
 ## OBJECTIVE
 
-Your task is to deconstruct a single, long-form "hybrid" note provided in `[INPUT TEXT]` into a networked, Zettelkasten-compliant system. This requires adhering to the Binary Category Invariant and enforcing the development of sequential **Trains of Thought**.
+Your task is to deconstruct a single, long-form "hybrid" note provided in `[INPUT TEXT]` into a networked, Zettelkasten-compliant system. This requires adhering to the Binary Category Invariant and enforcing the development of sequential Trains of Thought.
 
 Your goal is to perform a "cleaving" process:
 
-1. **Extract** all standalone, objective facts and single ideas into new, pure **Atomic Notes**.
-2. **Rewrite** the original text into a single **Structural Note** (`type: map`) that replaces the extracted facts with `[[wikilinks]]`, organizing them into a coherent argument or sequence.
+1. Extract all standalone, objective facts and single ideas into new, pure Atomic Notes.
+2. Rewrite the original text into a single Structural Note (`type: map`) that replaces the extracted facts with `[[wikilinks]]`, organizing them into a coherent argument or sequence.
 
 ---
 
 ## CORE PRINCIPLES (Zettelkasten Mandates)
 
-1. **Binary Category Invariant:** Maintain strict separation:
+1. Binary Category Invariant: Maintain strict separation:
 
-    - **Atomic Notes (bricks):** Must be **context-free**, containing one single, indivisible idea. Must be written in **full, self-explanatory sentences**, as if writing for a future, forgetful self.
-    - **Structural Notes (architecture/hubs):** Exist **only to create context** and sequential relationships by linking Atomic Notes (e.g., narratives, arguments, sequences).
-2. **Atomicity:** Each new Atomic Note must contain only _one_ idea.
-3. **Sequential Linking (Train of Thought):** The Structural Note must impose an explicit, logical sequence on the Atomic Notes, reflecting how _Folgezettel_ creates a traceable train of thought.
-4. **Contextual Linking:** Use `[[wikilinks]]` with inline fields (typed links) to semantically define _why_ ideas are connected (e.g., `rel:: supports`, `rel:: contradicts`).
+    - Atomic Notes (bricks): Must be context-free, containing one single, indivisible idea. Must be written in full, self-explanatory sentences, as if writing for a future, forgetful self.
+    - Structural Notes (architecture/hubs): Exist only to create context and sequential relationships by linking Atomic Notes (e.g., narratives, arguments, sequences).
+2. Atomicity: Each new Atomic Note must contain only _one_ idea.
+3. Sequential Linking (Train of Thought): The Structural Note must impose an explicit, logical sequence on the Atomic Notes, reflecting how _Folgezettel_ creates a traceable train of thought.
+4. Contextual Linking: Use `[[wikilinks]]` with inline fields (typed links) to semantically define _why_ ideas are connected (e.g., `rel:: supports`, `rel:: contradicts`).
 
 ---
 
@@ -49,45 +49,45 @@ You must follow this three-phase process to ensure clarity and adherence to the 
 
 ### Phase 1: Analysis and Deconstruction
 
-1. **Analyse** the `[INPUT TEXT]`.
-2. **Identify** all discrete, atomic **facts** or single ideas that can be extracted.
-3. **Identify** the remaining **contextual narrative** that links these ideas.
+1. Analyse the `[INPUT TEXT]`.
+2. Identify all discrete, atomic facts or single ideas that can be extracted.
+3. Identify the remaining contextual narrative that links these ideas.
 
 ### Phase 2: Deduplication and Planning
 
 For each fact identified in Phase 1, you must perform the following:
 
-1. **Formulate a Search Query:** Create a concise, semantic search query that captures the core meaning of the fact.
-2. **Search Existing Notes:** Execute a semantic search against the user's existing notes with this query.
-3. **Analyze Search Results:**
-    - **If a highly similar note exists:** Mark this fact as a **"consolidation"**. Note the existing file's name.
-    - **If no similar note exists:** Mark this fact as a **"new note"**.
-4. **Generate a Plan:** Create a final plan detailing the actions for each fact (create, consolidate, or skip) and the title for the new Structural Note. The plan must include a **framing question** that the Structural Note will attempt to address.
+1. Formulate a Search Query: Create a concise, semantic search query that captures the core meaning of the fact.
+2. Search Existing Notes: Execute a semantic search against the user's existing notes with this query.
+3. Analyze Search Results:
+    - If a highly similar note exists: Mark this fact as a "consolidation". Note the existing file's name.
+    - If no similar note exists: Mark this fact as a "new note".
+4. Generate a Plan: Create a final plan detailing the actions for each fact (create, consolidate, or skip) and the title for the new Structural Note. The plan must include a framing question that the Structural Note will attempt to address.
 
 ### Phase 3: Generation and Consolidation
 
 Execute the plan by generating and updating the necessary notes, strictly adhering to the provided templates and schema.
 
-**1. For each "Fact" identified:**
+1. For each "Fact" identified:
 
-- **If it's a "new note":**
+- If it's a "new note":
   - Create a new Atomic Note (`type: concept` or `type: definition`).
   - The title must be a clear, declarative statement about the fact.
-  - Rewrite the fact in your own words, ensuring it is **self-contained, fully elaborated, and written in coherent full sentences**.
-  - **Assign a Zettelkasten Keyword:** Determine one or two sparse keywords that facilitate future serendipitous discovery (the writer's mindset, not the archivist's). Add these to the `tags` field.
+  - Rewrite the fact in your own words, ensuring it is self-contained, fully elaborated, and written in coherent full sentences.
+  - Assign a Zettelkasten Keyword: Determine one or two sparse keywords that facilitate future serendipitous discovery (the writer's mindset, not the archivist's). Add these to the `tags` field.
   - Ensure all required YAML frontmatter fields are populated.
-- **If it's a "consolidation":**
+- If it's a "consolidation":
   - Compare and merge the new information into the existing note (if valuable).
-  - The `[[wikilink]]` used in the Structural Note will always point to the **existing note's title**.
+  - The `[[wikilink]]` used in the Structural Note will always point to the existing note's title.
 
-**2. Create _one_ Structural Note for the "Context":**
+2. Create _one_ Structural Note for the "Context":
 
-- **Format:** Use the `map` template below.
-- **Title:** Use the original note's title, prefixed with "SN - Sequence" (Structural Note - Sequence).
-- **Content:**
-  - Begin the content by explicitly stating the **Framing Question** identified in Phase 2.
+- Format: Use the `map` template below.
+- Title: Use the original note's title, prefixed with "SN - Sequence" (Structural Note - Sequence).
+- Content:
+  - Begin the content by explicitly stating the Framing Question identified in Phase 2.
   - Rewrite the _original_ narrative. Insert the `[[wikilink]]` to the Atomic Notes (new or existing).
-  - **Mandate Sequential Order:** The links must be arranged in a clear, logical, traceable **Train of Thought**, reflecting how one idea builds on or follows the previous one. Use introductory phrases or line breaks to emphasize this sequence.
+  - Mandate Sequential Order: The links must be arranged in a clear, logical, traceable Train of Thought, reflecting how one idea builds on or follows the previous one. Use introductory phrases or line breaks to emphasize this sequence.
 
 ---
 
@@ -121,9 +121,9 @@ tags: [] # Must contain Zettelkasten keywords chosen for retrieval/serendipity
 ---
 # [Declarative Title of Fact]
 
-**Summary:** One-sentence, context-free definition.
+Summary: One-sentence, context-free definition.
 
-**Details:** 2–4 sentences max. Must be self-explanatory and fully elaborated.
+Details: 2–4 sentences max. Must be self-explanatory and fully elaborated.
 
 ```
 

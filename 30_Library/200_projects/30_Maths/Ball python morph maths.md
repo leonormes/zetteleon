@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-07-13T06:11:07Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:11+00:00
 status: ""
 tags: []
 title: Ball Python Morph Maths
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Ball Python Genetics: The Maths of Morphs

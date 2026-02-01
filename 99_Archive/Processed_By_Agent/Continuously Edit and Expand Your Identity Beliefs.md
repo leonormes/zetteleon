@@ -18,65 +18,65 @@ updated:
 version: "1"
 ---
 
-**Summary:** To enable continuous growth and prevent identity conflict from blocking positive change, you must continuously edit and expand your beliefs about yourself. Avoid clinging too tightly to a single, rigid version of your identity.
+Summary: To enable continuous growth and prevent identity conflict from blocking positive change, you must continuously edit and expand your beliefs about yourself. Avoid clinging too tightly to a single, rigid version of your identity.
 
-**The Principle:**
+The Principle:
 
 Identity should be:
 
-- **Flexible enough** to allow growth and change
-- **Stable enough** to provide continuity and coherence
-- **Expansive enough** to incorporate new capabilities
-- **Authentic enough** to feel genuine
+- Flexible enough to allow growth and change
+- Stable enough to provide continuity and coherence
+- Expansive enough to incorporate new capabilities
+- Authentic enough to feel genuine
 
-**Why Continuous Editing Matters:**
+Why Continuous Editing Matters:
 
 If you hold your identity too rigidly, it becomes a prison rather than a foundation. What helped define you at 20 may limit you at 40. Regular identity updates keep you growing rather than stagnating.
 
-**Strategies for Identity Flexibility:**
+Strategies for Identity Flexibility:
 
-**1. Use "And" Instead of "But":**
+1. Use "And" Instead of "But":
 
 - Limiting: "I'm an introvert, but I need to network"
 - Expansive: "I'm an introvert _and_ I can be selective about meaningful networking"
 
-**2. Add Layers Rather Than Replace:**
+2. Add Layers Rather Than Replace:
 
 - Not: "I'm no longer X, now I'm Y"
 - Better: "I'm X, and I'm also developing Y"
 
-**3. Question Limiting Labels:**
+3. Question Limiting Labels:
 
 - When you think "I'm not the kind of person who..."
 - Ask: "Is this truly core to who I am, or is it just a habit I've had?"
 
-**4. Embrace "Becoming":**
+4. Embrace "Becoming":
 
 - Not: "I am/am not a runner"
 - Better: "I'm becoming someone who runs regularly"
 
-**5. Periodic Identity Audits:**
+5. Periodic Identity Audits:
 
 - Review your self-descriptions regularly
 - Ask: "Does this identity belief serve me, or limit me?"
 - Update beliefs that no longer fit who you're becoming
 
-**Examples of Healthy Editing:**
+Examples of Healthy Editing:
 
-**Rigid (Limiting):**
+Rigid (Limiting):
 
 - "I'm not a morning person" → Never tries morning routines
 
-**Flexible (Enabling):**
+Flexible (Enabling):
 
 - "I've been a night owl, and I'm experimenting with morning routines" → Open to change
 
-**The Balance:**
+The Balance:
 
-- **Avoid:** Complete identity fluidity with no stable core (causes confusion and lack of direction)
-- **Avoid:** Rigid, unchanging identity (causes stagnation and resistance to growth)
-- **Aim for:** Core values remain stable while capabilities and habits can expand
+- Avoid: Complete identity fluidity with no stable core (causes confusion and lack of direction)
+- Avoid: Rigid, unchanging identity (causes stagnation and resistance to growth)
+- Aim for: Core values remain stable while capabilities and habits can expand
 
-**The Meta-Identity:**
+The Meta-Identity:
 
 Consider making "adaptable" or "continuously evolving" part of your core identity. "I'm the type of person who grows and adapts" enables all other growth.

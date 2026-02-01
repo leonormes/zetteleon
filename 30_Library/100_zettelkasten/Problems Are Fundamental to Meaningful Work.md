@@ -1,33 +1,26 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-10-31T12:05:00Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: "Explain why problem-solving is essential for fulfillment."
-review_interval: "90"
-see_also: ["Micro-Stepping Reduces Cognitive Load for Task Initiation.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:28+00:00
 status: "seedling"
 tags: ["TheHuman/Psychology", "topic/productivity"]
 title: Problems Are Fundamental to Meaningful Work
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Problems Are Fundamental to Meaningful Work
 
-**Summary:** Seeking a problem-free existence is counterproductive; engaging with challenges provides purpose and satisfaction.
+Summary: Seeking a problem-free existence is counterproductive; engaging with challenges provides purpose and satisfaction.
 
-**Key Insights:**
+Key Insights:
 
 - Avoidance increases frustration
 - Problem-solving drives growth
 - Friction enables mastery
 
-**ADHD Relevance:**
+ADHD Relevance:
 
 - Explains why "perfect systems" fail
 - Validates struggle with mundane tasks

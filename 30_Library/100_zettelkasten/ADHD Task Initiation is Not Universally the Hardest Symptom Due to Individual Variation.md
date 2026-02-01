@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-30T12:07:00Z
-epistemic: "fact"
 last_reviewed: "null"
-modified: 2026-01-08T10:50:02+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
+modified: 2026-02-01T15:08:37+00:00
 source: "[[MOC - The Neuroscience of Task Initiation in ADHD]]"
-source_of_truth: []
 status: "seedling"
 tags: ["executive-function", "task-initiation", "TheHuman/Health/ADHD"]
 title: ADHD Task Initiation is Not Universally the Hardest Symptom Due to Individual Variation
 type: "concept"
-uid: 
 updated: 
 ---
 

@@ -1,11 +1,8 @@
 ---
 aliases: [Database and Structures Syllabus, DOP Learning Path, Systems Programming Curriculum]
-confidence: 5/5
 created: 2025-12-31T00:00:00Z
-epistemic: index
 lastreviewed: 2025-12-31
-modified: 2026-01-29T06:21:13+00:00
-purpose: A structured learning path for mastering the Data Structures and Database Internals required for Data-Oriented Design.
+modified: 2026-02-01T15:08:06+00:00
 reviewinterval: 3 months
 seealso: ["[[SoT - Curriculum - Data-Oriented Design]]", "[[SoT - Data-Centric Software Engineering]]"]
 sourceoftruth: []
@@ -13,7 +10,6 @@ status: active
 tags: [curriculum, database, dop, learning, type/moc]
 title: MOC - Data-Oriented Structures & Internals
 type: map
-uid:
 updated:
 ---
 

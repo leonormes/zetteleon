@@ -1,20 +1,13 @@
 ---
 aliases: []
 AoL: Work
-confidence:
 created: 2025-12-08T00:00:00Z
-epistemic:
 last_reviewed:
-modified: 2026-01-23T18:09:15+00:00
-purpose: To resolve issues with multi-arch docker images and define a strategy for selecting the correct architecture on import.
-review_interval:
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:11+00:00
 status: someday
 tags: ["SoftwareEngineering/Architecture", docker, head, kubernetes, thinking]
 title: HEAD - Image Architecture Strategy
 type: head
-uid:
 updated:
 ---
 
@@ -32,8 +25,8 @@ We are facing issues where the wrong image architecture (e.g., amd64 vs arm64) m
 
 ## The Tension
 
-- **Ambiguity:** Why is it failing now? Is it the import tool (skopeo/crane?) or the runtime?
-- **Standard:** We need a rule: "Always use multi-arch" OR "Always pin to linux/amd64".
+- Ambiguity: Why is it failing now? Is it the import tool (skopeo/crane?) or the runtime?
+- Standard: We need a rule: "Always use multi-arch" OR "Always pin to linux/amd64".
 
 ## The Next Test
 

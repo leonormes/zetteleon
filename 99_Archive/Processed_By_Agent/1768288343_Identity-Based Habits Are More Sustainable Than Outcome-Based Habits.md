@@ -19,6 +19,6 @@ updated:
 
 ## Identity-Based Habits Are More Sustainable Than Outcome-Based Habits
 
-**Summary:** Focusing on identity-based habits (who you wish to become) is more effective for long-term change than focusing on outcome-based habits (what you want to achieve).
+Summary: Focusing on identity-based habits (who you wish to become) is more effective for long-term change than focusing on outcome-based habits (what you want to achieve).
 
-**Details:** Many people fail to build lasting habits because they start with the outcome (e.g., "I want to lose weight"). A more sustainable approach is to start with identity (e.g., "I want to be the type of person who is healthy and active"). This aligns the process of change with one's core beliefs.
+Details: Many people fail to build lasting habits because they start with the outcome (e.g., "I want to lose weight"). A more sustainable approach is to start with identity (e.g., "I want to be the type of person who is healthy and active"). This aligns the process of change with one's core beliefs.

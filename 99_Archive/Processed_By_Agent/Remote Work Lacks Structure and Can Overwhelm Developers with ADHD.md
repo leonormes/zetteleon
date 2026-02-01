@@ -19,6 +19,6 @@ updated:
 
 ## Remote Work Lacks Structure and Can Overwhelm Developers with ADHD
 
-**Summary:** The lack of inherent structure in remote work and the nature of digital communication can significantly challenge developers with ADHD.
+Summary: The lack of inherent structure in remote work and the nature of digital communication can significantly challenge developers with ADHD.
 
-**Details:** Without the external accountability of an office environment, maintaining a consistent routine and initiating tasks becomes a major hurdle. The blurring of work-life boundaries can lead to burnout. Furthermore, video meetings ("Zoom fatigue") can be cognitively overwhelming due to visual and auditory distractions, while managing asynchronous communication across multiple platforms requires strong organizational skills that may be lacking.
+Details: Without the external accountability of an office environment, maintaining a consistent routine and initiating tasks becomes a major hurdle. The blurring of work-life boundaries can lead to burnout. Furthermore, video meetings ("Zoom fatigue") can be cognitively overwhelming due to visual and auditory distractions, while managing asynchronous communication across multiple platforms requires strong organizational skills that may be lacking.

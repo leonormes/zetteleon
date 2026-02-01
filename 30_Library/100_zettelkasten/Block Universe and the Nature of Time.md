@@ -1,26 +1,18 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-09-16T12:25:36Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:36+00:00
 status: ""
 tags: []
 title: Block Universe and the Nature of Time
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Relativity implies:
 
-- Past, present, future all coexist simultaneously = **eternalism**.
+- Past, present, future all coexist simultaneously = eternalism.
 - The "flow of time" is a human illusion.
 - The universe is a fixed 4D block of spacetime.
 

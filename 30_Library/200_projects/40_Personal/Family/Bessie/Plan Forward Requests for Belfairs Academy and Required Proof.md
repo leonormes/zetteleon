@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-21T10:04:58Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: ["TheHuman/Family/Bessie"]
 title: Plan Forward Requests for Belfairs Academy and Required Proof
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Introduction: When you meet with Belfairs Academy, it's important to convey that you are seeking a collaborative partnership to ensure Bessie's well-being and academic progress. The goal is to move beyond written policies to demonstrable, consistent, and effective support in her daily school life.

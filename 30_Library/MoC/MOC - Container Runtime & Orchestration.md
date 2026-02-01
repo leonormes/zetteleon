@@ -1,56 +1,48 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-26T17:16:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T15:03:28+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:07+00:00
 status: "null"
 tags: ["cni", "cri", "docker", "kubernetes", "orchestration", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes", "type/moc"]
 title: MOC - Container Runtime & Orchestration
 type: "map"
-uid: 
 updated: 
-version: "1"
 ---
 
 ## Summary
 
-A comprehensive map of the software layers that bridge raw Linux kernel primitives and production-grade container platforms. This covers the **Container Runtime Interface (CRI)**, the **OCI Standards**, and the orchestration logic that manages lifecycle, networking, and storage at scale.
+A comprehensive map of the software layers that bridge raw Linux kernel primitives and production-grade container platforms. This covers the Container Runtime Interface (CRI), the OCI Standards, and the orchestration logic that manages lifecycle, networking, and storage at scale.
 
 ## Context / Problem
 
 While containers are built on Linux primitives (Namespaces, Cgroups), using these raw APIs manually is impractical for production.
 
-- **The Gap:** Kernel primitives do not handle image distribution, persistent storage, or cross-node networking.
-- **The Solution:** **Container Runtimes** abstract this complexity. They handle the "boring" work of setting up the environment so developers can focus on applications.
-- **The Layering:** The ecosystem is split into **High-Level Runtimes** (containerd, CRI-O) which manage the lifecycle and images, and **Low-Level Runtimes** (runc, crun) which actually interact with the kernel to spawn processes. Understanding this distinction is vital for debugging and security.
+- The Gap: Kernel primitives do not handle image distribution, persistent storage, or cross-node networking.
+- The Solution: Container Runtimes abstract this complexity. They handle the "boring" work of setting up the environment so developers can focus on applications.
+- The Layering: The ecosystem is split into High-Level Runtimes (containerd, CRI-O) which manage the lifecycle and images, and Low-Level Runtimes (runc, crun) which actually interact with the kernel to spawn processes. Understanding this distinction is vital for debugging and security.
 
 ## Structure
 
 ### 🏭 Runtime Interfaces
 
-- **Container Runtime Interface (CRI)** - Kubernetes runtime abstraction (planned)
-- **Container Network Interface (CNI)** - Network plugin specification (planned)
-- **Container Storage Interface (CSI)** - Storage plugin specification (planned)
+- Container Runtime Interface (CRI) - Kubernetes runtime abstraction (planned)
+- Container Network Interface (CNI) - Network plugin specification (planned)
+- Container Storage Interface (CSI) - Storage plugin specification (planned)
 
 ### ☸️ Kubernetes Components
 
-- **kubelet** - Node-level container management (planned)
-- **kube-proxy** - Service proxy and load balancing (planned)
-- **CNI Plugins** - Calico, Flannel, Weave networking (planned)
-- **CRI Runtimes** - containerd, CRI-O, Docker integration (planned)
+- kubelet - Node-level container management (planned)
+- kube-proxy - Service proxy and load balancing (planned)
+- CNI Plugins - Calico, Flannel, Weave networking (planned)
+- CRI Runtimes - containerd, CRI-O, Docker integration (planned)
 
 ### 🔄 Orchestration Patterns
 
-- **Pod lifecycle management** - Creation, scheduling, termination (planned)
-- **Service discovery** - DNS, ClusterIP, load balancing (planned)
-- **Network policies** - Traffic control and security (planned)
-- **Resource scheduling** - CPU, memory, affinity rules (planned)
+- Pod lifecycle management - Creation, scheduling, termination (planned)
+- Service discovery - DNS, ClusterIP, load balancing (planned)
+- Network policies - Traffic control and security (planned)
+- Resource scheduling - CPU, memory, affinity rules (planned)
 
 ## Key Architecture
 
@@ -76,49 +68,49 @@ The runtime ecosystem is stratified to separate concerns (Image/Lifecycle vs. Ke
 
 _Examples: containerd, CRI-O_
 
-- **Image Management:** Pulling images from registries, verifying signatures, and managing overlay filesystems (unpacking layers).
-- **CRI Implementation:** Exposing the gRPC API that the Kubelet calls.
-- **Lifecycle Orchestration:** Instructing the low-level runtime to start/stop containers.
-- **CNI Coordination:** Invoking network plugins to set up the Pod sandbox.
+- Image Management: Pulling images from registries, verifying signatures, and managing overlay filesystems (unpacking layers).
+- CRI Implementation: Exposing the gRPC API that the Kubelet calls.
+- Lifecycle Orchestration: Instructing the low-level runtime to start/stop containers.
+- CNI Coordination: Invoking network plugins to set up the Pod sandbox.
 
 ### Low-Level Runtimes (OCI Runtimes)
 
 _Examples: runc, crun, Kata Containers, gVisor_
 
-- **Kernel Interaction:** Making the actual `clone()`, `unshare()`, and `cgroup` syscalls.
-- **Isolation Enforcement:** Applying Seccomp profiles, AppArmor profiles, and dropping capabilities.
-- **Process Execution:** Spawning the user process as `PID 1` inside the namespace.
+- Kernel Interaction: Making the actual `clone()`, `unshare()`, and `cgroup` syscalls.
+- Isolation Enforcement: Applying Seccomp profiles, AppArmor profiles, and dropping capabilities.
+- Process Execution: Spawning the user process as `PID 1` inside the namespace.
 
 ### Kubernetes Components
 
 #### Kubelet
 
-- **Node Agent:** The primary "captain" of the node.
-- **Pod Loop:** Ensures the running containers match the desired PodSpec.
-- **CRI Client:** Calls the High-Level Runtime to execute actions.
+- Node Agent: The primary "captain" of the node.
+- Pod Loop: Ensures the running containers match the desired PodSpec.
+- CRI Client: Calls the High-Level Runtime to execute actions.
 
 #### CNI Plugins
 
-- **Network Plumbing:** Creating veth pairs, assigning IPs (IPAM), and configuring bridges.
+- Network Plumbing: Creating veth pairs, assigning IPs (IPAM), and configuring bridges.
 
 #### Kube-proxy
 
-- **Service Abstraction:** Managing iptables/IPVS rules to route Virtual Cluster IPs to Pod IPs.
+- Service Abstraction: Managing iptables/IPVS rules to route Virtual Cluster IPs to Pod IPs.
 
 ## Integration Points
 
 ### With Linux Primitives
 
-- **Network namespaces** → Pod network isolation
-- **veth pairs** → Pod-to-node connectivity
-- **bridges** → Multi-pod same-node networking
-- **iptables** → Service routing and network policies
+- Network namespaces → Pod network isolation
+- veth pairs → Pod-to-node connectivity
+- bridges → Multi-pod same-node networking
+- iptables → Service routing and network policies
 
 ### With Storage Systems
 
-- **Volume mounts** → Persistent data access
-- **CSI drivers** → External storage integration
-- **EmptyDir/configmap** → Ephemeral and configuration data
+- Volume mounts → Persistent data access
+- CSI drivers → External storage integration
+- EmptyDir/configmap → Ephemeral and configuration data
 
 ## Debugging Layers
 
@@ -147,9 +139,9 @@ _Examples: runc, crun, Kata Containers, gVisor_
 
 ## Connections to Other Areas
 
-- **[[MOC - Container Networking Model]]** - Foundation for CNI understanding
-- **[[MOC - Linux Container Primitives]]** - What runtimes automate
-- **[[MOC - Hands-on Container Labs]]** - Practical debugging techniques
+- [[MOC - Container Networking Model]] - Foundation for CNI understanding
+- [[MOC - Linux Container Primitives]] - What runtimes automate
+- [[MOC - Hands-on Container Labs]] - Practical debugging techniques
 
 ## Child Notes
 

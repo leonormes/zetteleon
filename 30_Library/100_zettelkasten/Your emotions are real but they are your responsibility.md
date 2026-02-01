@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-11T17:01:26Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:23+00:00
 status: ""
 tags: ["agency", "emotion", "responsibility", "validation"]
 title: Your emotions are real but they are your responsibility
 type: "permanent"
-uid: 
 updated: 
-version: "1"
 ---
 
 This principle strikes a crucial balance between emotional validation and personal agency. Your emotions are valid experiences that deserve acknowledgment, but how you respond to them is within your control.

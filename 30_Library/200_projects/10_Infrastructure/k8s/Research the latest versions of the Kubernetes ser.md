@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-03-15T10:45:10Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:25+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:14+00:00
 status: ""
 tags: []
 title: Research the latest versions of the Kubernetes ser
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Research the latest versions of the Kubernetes service objects. Explain how ingress and egress works for a cluster. What are the benefits of each option. Also explain the process of ingress from a data centric perspectve
@@ -48,13 +40,13 @@ Egress controls outgoing traffic through:
 
 ## Data-Centric Ingress Process
 
-1. Request intake**: External LB terminates TCP connection
-2. Protocol parsing**: HTTP(S) header inspection
-3. Rule matching**: Longest path prefix takes precedence[^4][^5]
-4. Service mapping**: Endpoints API updates Pod IPs
-5. Load balancing**: Session affinity via cookies or IP[^4][^5]
-6. TLS offloading**: Certificate management through Secrets[^5]
-7. Request forwarding**: Preserved headers with X-Forwarded-* fields[^4]
+1. Request intake: External LB terminates TCP connection
+2. Protocol parsing: HTTP(S) header inspection
+3. Rule matching: Longest path prefix takes precedence[^4][^5]
+4. Service mapping: Endpoints API updates Pod IPs
+5. Load balancing: Session affinity via cookies or IP[^4][^5]
+6. TLS offloading: Certificate management through Secrets[^5]
+7. Request forwarding: Preserved headers with X-Forwarded-* fields[^4]
 
 The new Gateway API (replacing legacy Ingress) introduces ServiceCIDR objects for dynamic IP allocation,[^2] while recent GKE updates enable automatic control plane upgrades to 1.31.5-gke.1233000 in Regular channels.[^1] For stateful workloads, v1.31 adds PersistentVolume phase transition timestamps to help diagnose storage issues.[^2]
 

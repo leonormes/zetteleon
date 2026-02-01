@@ -1,27 +1,20 @@
 ---
 aliases: ["felt significance", "phenomenology of thought", "thought experience"]
-confidence: "0.8"
 created: 2025-10-31T20:45:00Z
-epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "Explains why thoughts feel more significant in the moment than when"
-review_interval: "90"
-see_also: ["[[Felt significance of thoughts can mislead about their substance]]", "[[The brain is biased toward its own thoughts in the moment]]", "[[Writing isolates propositional content from phenomenological experience]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: "seedling"
 tags: ["metacognition", "phenomenology", "TheHuman/Cognition"]
 title: Thoughts are bundled with phenomenological qualities
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Thoughts Are Bundled with Phenomenological Qualities
 
-**Summary:** When thoughts occur in consciousness, they are experienced with rich phenomenological qualities including emotional resonance, felt significance, associative connections, and a subjective sense of importance or insight that exists independently of their propositional content.
+Summary: When thoughts occur in consciousness, they are experienced with rich phenomenological qualities including emotional resonance, felt significance, associative connections, and a subjective sense of importance or insight that exists independently of their propositional content.
 
-**Details:**
+Details:
 
 Thoughts in the mind are not bare propositions but come packaged with:
 

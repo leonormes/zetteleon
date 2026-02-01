@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-29T16:35:00Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:26+00:00
 source: "[[MOC - 8 simple Japanese habits]]"
-source_of_truth: []
 status: "seedling"
 tags: ["contentment", "gratitude", "Japanese_culture", "mindfulness", "TheHuman/Habits"]
 title: Taru o shiru is the practice of contentment with what one has
 type: "concept"
-uid: 
 updated: 
 ---
 

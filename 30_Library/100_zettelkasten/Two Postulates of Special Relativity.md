@@ -1,26 +1,18 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-09-16T12:25:36Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: ""
 tags: []
 title: Two Postulates of Special Relativity
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Einstein's framework rests on two key principles:
 
-- **Principle of Relativity**: The laws of physics are the same for all observers in uniform motion.
-- **Constancy of the Speed of Light**: The speed of light in vacuum (c) is constant for all observers, regardless of source or observer motion.
+- Principle of Relativity: The laws of physics are the same for all observers in uniform motion.
+- Constancy of the Speed of Light: The speed of light in vacuum (c) is constant for all observers, regardless of source or observer motion.
 
 👉 Connects to: [[Relativity of Space and Time]], [[Relativity of Simultaneity]]

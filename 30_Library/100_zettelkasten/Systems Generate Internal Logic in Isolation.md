@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-20T10:11:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:26+00:00
 status: ""
 tags: ["culture", "emergence", "self-organization", "topic/systems"]
 title: Systems Generate Internal Logic in Isolation
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 When a system is [[Systems are Blind to Their Broader Context|blind to external context]], it cannot import its logic or values from the outside. It is therefore forced to generate its own self-referential framework of rules, logic, and meaning.

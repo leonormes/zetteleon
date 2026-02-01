@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: ""
 created: 2024-01-03T00:00:00Z
-epistemic: ""
 id: "20240103143000"
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:11+00:00
 status: ""
 tags: ["sdlc", "SDLC", "testing"]
 title: software_testing_levels_and_their_relationships
 type: "concept"
-uid: 
 updated: 
-version: ""
 ---
 
 ## Software Testing Levels

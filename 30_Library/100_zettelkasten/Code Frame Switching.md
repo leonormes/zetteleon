@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-08-31T16:08:15Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:36+00:00
 status: ""
 tags: ["bilingualism", "code-switching", "cultural-identity", "language-and-self"]
 title: Code Frame Switching
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Code frame switching refers to the phenomenon where bilingual individuals switch between different cultural meaning systems when accessing different languages, highlighting the dynamic relationship between language, thought, and cultural identity.

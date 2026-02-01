@@ -19,25 +19,25 @@ updated:
 
 ## DNS Resource Records Are Structured Key-Value Pairs
 
-**Summary:** DNS resource records (RRs) associate domain names (keys) with structured data (values) in a standardized format.
+Summary: DNS resource records (RRs) associate domain names (keys) with structured data (values) in a standardized format.
 
-**Common RR Types:**
+Common RR Types:
 
-- **A/AAAA:** IP addresses
-- **CNAME:** Domain aliases
-- **MX:** Mail servers with priorities
-- **NS:** Delegated nameservers
-- **TXT:** Verification strings
-- **SOA:** Zone metadata
+- A/AAAA: IP addresses
+- CNAME: Domain aliases
+- MX: Mail servers with priorities
+- NS: Delegated nameservers
+- TXT: Verification strings
+- SOA: Zone metadata
 
-**Structure:**
+Structure:
 
 ```sh
 <Name> <TTL> <Class> <Type> <RDATA>
 ```
 
-- **Name:** Domain key (e.g., example.com)
-- **TTL:** Cache duration (seconds)
-- **Class:** Typically IN (Internet)
-- **Type:** Record type
-- **RDATA:** Type-specific payload
+- Name: Domain key (e.g., example.com)
+- TTL: Cache duration (seconds)
+- Class: Typically IN (Internet)
+- Type: Record type
+- RDATA: Type-specific payload

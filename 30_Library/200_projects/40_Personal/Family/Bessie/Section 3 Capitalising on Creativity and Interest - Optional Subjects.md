@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-20T06:41:19Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: ["curriculum", "gcse", "TheHuman/Family/Bessie"]
-title: Section 3 Capitalising on Creativity and Interest – Optional Subjects
+title: Section 3 Capitalising on Creativity and Interest - Optional Subjects
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 This section focuses first on Bessie's optional subjects, which strongly align with her stated interests and creative strengths. By prioritising these areas, the goal is to build a strong foundation of confidence and academic success that will positively impact her approach to all her studies.

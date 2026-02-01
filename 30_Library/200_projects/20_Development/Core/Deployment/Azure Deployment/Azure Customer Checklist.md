@@ -1,21 +1,12 @@
 ---
-aliases: []
-confidence: ""
 created: 2025-02-07T12:57:56Z
-epistemic: ""
-last_reviewed: ""
-modified: 2026-01-23T18:09:25+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
-status: ""
-tags: ["ff_deploy"]
+modified: 2026-02-01T15:08:13+00:00
+Reviewed: true
+status: evergreen
+tags: [ff_deploy]
 title: Azure Customer Checklist
-type: "instruction"
-uid: 
-updated: 
-version: "1"
+type: SoT
+updated: 2026-02-01
 ---
 
 ## Azure Customer Preparation Checklist
@@ -165,7 +156,7 @@ resource "azurerm_role_definition" "private_aks" {
   scope = data.<given_subscription_id>
   
   permissions {
-    actions =
+    actions = [
       "Microsoft.Authorization/roleAssignments/",
       "Microsoft.Compute/disks/",
       "Microsoft.Compute/virtualMachines/",
@@ -181,11 +172,16 @@ resource "azurerm_role_definition" "private_aks" {
       "Microsoft.Resources/subscriptions/providers/read",
       "Microsoft.Resources/subscriptions/resourcegroups/"
     ]
-    not_actions =
+    not_actions = []
   }
   
-  assignable_scopes =
+  assignable_scopes = [
     data.<given_subscription_id>
   ]
 }
 ```
+
+## Related Resources
+
+- **Troubleshooting**: [[SoT - Azure Kubernetes Service (AKS) Operations]] - Reference this guide if any verification steps fail.
+- **Context**: [[MoC - Azure AKS Deployment]] - The parent map of content for Azure deployments.

@@ -1,31 +1,32 @@
 ---
-aliases: []
-confidence: "null"
 created: 2025-02-07T12:57:53Z
-epistemic: "null"
-last_reviewed: "null"
-modified: 2026-01-23T18:09:27+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:20+00:00
+Reviewed: true
 status: "null"
-tags: ["ff_deploy", "SoftwareEngineering/Networking"]
+tags: [ff_deploy, SoftwareEngineering/Networking]
 title: Core Networking Requirements
-type: "config"
-uid: 
-updated: 
-version: "1"
+type: SoT
 ---
 
 ## 1. Core Networking Requirements
 
 At the foundation of any EKS deployment is a robust and correctly configured network. Here's what that entails:
 
-- Virtual Private Cloud (VPC): Amazon EKS integrates with Amazon VPC, which allows you to use your own VPC security groups and network access control lists (ACLs). You must choose an existing VPC that meets EKS requirements or create one, and it's important to note that once chosen, you cannot change the VPC associated with your cluster. If you don't have a VPC, you can create one using an AWS CloudFormation template provided by Amazon EKS.
-- Subnets: When you create an EKS cluster, you must specify at least two subnets that reside in different Availability Zones. All available subnets in your chosen VPC are preselected by default, but you must ensure you have at least two selected. The subnets you select must meet Amazon EKS subnet requirements, and it is advisable to familiarize yourself with these requirements before selecting your subnets.
-- Public vs. Private Subnets: Subnets can be either public or private, with a public subnet having a route to an internet gateway and a private subnet not having such a route. For nodes to connect to the control plane using only the public endpoint, they must have a public IP address and a route to an internet gateway or a NAT gateway.
-- VPC Endpoints: If your nodes are in private subnets and do not have a route to a NAT device, you'll need to add VPC endpoints using AWS PrivateLink. This is essential for your nodes and pods to communicate with AWS services such as Amazon ECR, Elastic Load Balancing, and Amazon S3. Not all AWS services support VPC endpoints.
+## Virtual Private Cloud (VPC)
+
+Amazon EKS integrates with Amazon VPC, which allows you to use your own VPC security groups and network access control lists (ACLs). You must choose an existing VPC that meets EKS requirements or create one, and it's important to note that once chosen, you cannot change the VPC associated with your cluster. If you don't have a VPC, you can create one using an AWS CloudFormation template provided by Amazon EKS.
+
+### Subnets
+
+When you create an EKS cluster, you must specify at least two subnets that reside in different Availability Zones. All available subnets in your chosen VPC are preselected by default, but you must ensure you have at least two selected. The subnets you select must meet Amazon EKS subnet requirements, and it is advisable to familiarize yourself with these requirements before selecting your subnets.
+
+#### Public vs. Private Subnets
+
+Subnets can be either public or private, with a public subnet having a route to an internet gateway and a private subnet not having such a route. For nodes to connect to the control plane using only the public endpoint, they must have a public IP address and a route to an internet gateway or a NAT gateway.
+
+### VPC Endpoints
+
+If your nodes are in private subnets and do not have a route to a NAT device, you'll need to add VPC endpoints using AWS PrivateLink. This is essential for your nodes and pods to communicate with AWS services such as Amazon ECR, Elastic Load Balancing, and Amazon S3. Not all AWS services support VPC endpoints.
 
 ## 2. Security Groups
 

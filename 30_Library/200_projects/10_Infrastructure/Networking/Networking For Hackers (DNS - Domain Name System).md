@@ -1,39 +1,31 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-24T11:41:58Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:16+00:00
 status: ""
 tags: ["SoftwareEngineering/networking/dns"]
 title: Networking For Hackers (DNS - Domain Name System)
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 <https://youtube.com/watch?v=tmQ9EbUEv4Y>\&si=sU-HvlGgPpEo4QHL
 
-The YouTube video **"Networking For Hackers (DNS - Domain Name System)!"** was produced by **Neurix**, a cybersecurity and networking education channel known for hands-on lab tutorials and hacker-oriented network fundamentals [^1].[^2]
+The YouTube video "Networking For Hackers (DNS - Domain Name System)!" was produced by Neurix, a cybersecurity and networking education channel known for hands-on lab tutorials and hacker-oriented network fundamentals.[^1][^2]
 
-Published in **July 2025**, this 16‑minute video explains the **Domain Name System (DNS)** through practical demonstrations in an EVE‑NG (Emulated Virtual Environment for Networking) lab. It illustrates how DNS performs hostname-to-IP translation, how caching and resolution work, and why DNS is core to Internet functionality.
+Published in July 2025, this 16‑minute video explains the Domain Name System (DNS) through practical demonstrations in an EVE‑NG (Emulated Virtual Environment for Networking) lab. It illustrates how DNS performs hostname-to-IP translation, how caching and resolution work, and why DNS is core to Internet functionality.
 
 ## Key Concepts Covered
 
-- **DNS fundamentals:** Explains why DNS is the "Internet's phonebook" that translates human-readable names like _netflix.com_ into IP addresses.
-- **Step-by-step resolution:** Demonstrates how a request flows from a local cache to recursive resolvers, root servers, TLD servers, and finally the authoritative name server.
-- **Caching behavior:** Shows how Windows' DNS cache works using `ipconfig /displaydns` and how entries persist until TTL (Time To Live) expiry.
-- **Diagnostic tools:**
+- DNS fundamentals: Explains why DNS is the "Internet's phonebook" that translates human-readable names like _netflix.com_ into IP addresses.
+- Step-by-step resolution: Demonstrates how a request flows from a local cache to recursive resolvers, root servers, TLD servers, and finally the authoritative name server.
+- Caching behavior: Shows how Windows' DNS cache works using `ipconfig /displaydns` and how entries persist until TTL (Time To Live) expiry.
+- Diagnostic tools:
   - Uses `nslookup` to show non-authoritative DNS responses from Google Public DNS (`8.8.8.8`).
   - Uses `dig` on Kali Linux to inspect full query details including headers, latency, and message size.
-- **Breaking DNS intentionally:** Edits `/etc/resolv.conf` to point to an invalid server (`8.0.8.8`) to simulate resolution failure. The video confirms network connectivity still works by directly pinging an IP address, proving DNS acts solely as a "translator."
-- **Security insights:** Concludes that understanding DNS is critical for troubleshooting and cybersecurity—referencing how misconfigurations or DNS hijacks can render networks unusable while actual connectivity remains intact.
+- Breaking DNS intentionally: Edits `/etc/resolv.conf` to point to an invalid server (`8.0.8.8`) to simulate resolution failure. The video confirms network connectivity still works by directly pinging an IP address, proving DNS acts solely as a "translator."
+- Security insights: Concludes that understanding DNS is critical for troubleshooting and cybersecurity—referencing how misconfigurations or DNS hijacks can render networks unusable while actual connectivity remains intact.
 
 ## Sequence of Demonstrations
 
@@ -45,4 +37,4 @@ Published in **July 2025**, this 16‑minute video explains the **Domain Name Sy
 
 ## Educational Value
 
-The video blends instruction and experimentation, reinforcing key DNS principles for **cybersecurity, networking, and DevOps learners**. It fits into Neurix's larger "Networking For Hackers" series that also covers IP fundamentals and subnetting.[^3]
+The video blends instruction and experimentation, reinforcing key DNS principles for cybersecurity, networking, and DevOps learners. It fits into Neurix's larger "Networking For Hackers" series that also covers IP fundamentals and subnetting.[^3]

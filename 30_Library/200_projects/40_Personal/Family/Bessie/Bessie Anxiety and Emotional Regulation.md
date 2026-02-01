@@ -1,25 +1,18 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-09-07T10:32:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: ["anxiety", "emotional-regulation", "mental-health", "TheHuman/Family/Bessie"]
 title: Bessie Anxiety and Emotional Regulation
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
-**Primary Concern:** Anxiety mentioned by parents and school staff as key issue
-**Family Context:** Bessie's sister also has anxiety
+Primary Concern: Anxiety mentioned by parents and school staff as key issue
+
+Family Context: Bessie's sister also has anxiety
 
 ## Anxiety Manifestations
 
@@ -47,10 +40,10 @@ version: ""
 
 ### School Interventions
 
-- **Time-out card:** 2-minute time-out for self-regulation
-- **Counselling sessions:** Weekly sessions starting May 2025
-- **Access to sensory room:** Quiet space for regulation
-- **Breathing techniques:** For relaxation support
+- Time-out card: 2-minute time-out for self-regulation
+- Counselling sessions: Weekly sessions starting May 2025
+- Access to sensory room: Quiet space for regulation
+- Breathing techniques: For relaxation support
 
 ### Identified Gaps
 
@@ -62,19 +55,19 @@ version: ""
 
 Anxiety management can develop key character strengths from the [[Character and Virtue MOC]]:
 
-**[[VIA Virtue of Courage]]:**
+[[VIA Virtue of Courage]]:
 
-- **[[VIA Virtue of Courage|Bravery]]**: Facing daily challenges despite anxiety
-- **[[VIA Virtue of Courage|Perseverance (Persistence)]]**: Continuing to engage despite emotional difficulties
+- [[VIA Virtue of Courage|Bravery]]: Facing daily challenges despite anxiety
+- [[VIA Virtue of Courage|Perseverance (Persistence)]]: Continuing to engage despite emotional difficulties
 
-**[[VIA Virtue of Temperance]]:**
+[[VIA Virtue of Temperance]]:
 
-- **[[VIA Virtue of Temperance|Self-Regulation (Self-Control)]]**: Learning to manage emotional responses
-- **[[VIA Virtue of Temperance|Prudence]]**: Making careful choices about when to seek support
+- [[VIA Virtue of Temperance|Self-Regulation (Self-Control)]]: Learning to manage emotional responses
+- [[VIA Virtue of Temperance|Prudence]]: Making careful choices about when to seek support
 
-**[[VIA Virtue of Humanity]]:**
+[[VIA Virtue of Humanity]]:
 
-- **[[VIA Virtue of Humanity|Social Intelligence]]**: Understanding her own emotional needs and communicating them
+- [[VIA Virtue of Humanity|Social Intelligence]]: Understanding her own emotional needs and communicating them
 
 Learning to manage anxiety builds emotional intelligence and resilience that serve as foundations for character development.
 

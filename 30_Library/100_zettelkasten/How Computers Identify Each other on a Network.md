@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-05-12T05:13:56Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:31+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: "null"
 tags: ["SoftwareEngineering/networking/dns"]
 title: How Computers Identify Each other on a Network
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
 An important concept in DNS for us to know is that computers don't use the human friendly names to identify each other. We use something like `www.example.com`, but this is a label so we know what we are talking about. The BBC wants us to easily find their website serving computers. On the big public Internet those servers have a very non specific 'address';

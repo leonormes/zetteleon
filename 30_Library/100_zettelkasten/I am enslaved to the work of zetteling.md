@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-16T05:39:58Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:32+00:00
 status: ""
 tags: []
 title: I am enslaved to the work of zetteling
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 I want to write out what I think. But it is not working. I am not getting the remarkable deep thinking I expected to get based on what people say they get from it.

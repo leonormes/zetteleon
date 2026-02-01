@@ -1,26 +1,18 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-09-16T12:25:36Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: ""
 tags: []
 title: General Relativity (Gravity as Curvature)
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Einstein's 1915 extension of relativity:
 
-- **Gravity = Curvature of Spacetime**.
+- Gravity = Curvature of Spacetime.
 - Key phenomena: gravitational lensing, gravitational waves, black holes, expansion of universe.
 - Replaces Newton's "force" view with geometry of spacetime.
 

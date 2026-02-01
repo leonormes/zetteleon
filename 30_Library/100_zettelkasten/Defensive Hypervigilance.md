@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-30T12:38:34Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:35+00:00
 source: "[[MOC - Authority Dynamics and ADHD]]"
-source_of_truth: []
 status: "seedling"
 tags: ["coping-strategies", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
 title: Defensive Hypervigilance
 type: "concept"
-uid: 
 updated: 
 ---
 

@@ -18,13 +18,13 @@ updated:
 version: ""
 ---
 
-**Dynamic Provider Credentials (DPC)** is a key feature in Terraform Cloud (now HCP Terraform) designed to eliminate static credentials for cloud providers and other services. It should be the default authentication mechanism for all major cloud providers (AWS, Azure, GCP) and HashiCorp Vault integrations.
+Dynamic Provider Credentials (DPC) is a key feature in Terraform Cloud (now HCP Terraform) designed to eliminate static credentials for cloud providers and other services. It should be the default authentication mechanism for all major cloud providers (AWS, Azure, GCP) and HashiCorp Vault integrations.
 
 How DPC works:
 
-- **Workload Identity Token:** DPC authenticates Terraform runs by utilizing a **workload identity token** that is signed via OpenID Connect (OIDC).
-- **Unique, Short-Lived Credentials:** Each Terraform run is provisioned with a **unique, short-lived credential**, typically valid for only a few minutes. These credentials are automatically destroyed after the run completes.
-- **No Static Storage:** Providers never store static credentials within Terraform state files or environment variables, significantly reducing the risk of exposure.
+- Workload Identity Token: DPC authenticates Terraform runs by utilizing a workload identity token that is signed via OpenID Connect (OIDC).
+- Unique, Short-Lived Credentials: Each Terraform run is provisioned with a unique, short-lived credential, typically valid for only a few minutes. These credentials are automatically destroyed after the run completes.
+- No Static Storage: Providers never store static credentials within Terraform state files or environment variables, significantly reducing the risk of exposure.
 
 This mechanism ensures that access is granted just-in-time and is ephemeral, aligning with modern security best practices and minimizing the attack surface.
 

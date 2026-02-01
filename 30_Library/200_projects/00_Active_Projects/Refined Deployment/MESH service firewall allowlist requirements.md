@@ -1,41 +1,33 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-09-03T04:36:15Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:28+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:20+00:00
 status: "null"
 tags: ["SoftwareEngineering/Kubernetes", "SoftwareEngineering/Networking"]
 title: MESH service firewall allowlist requirements
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
-Here's what you need for your firewall configuration depending on whether you're connecting via **HSCN** or **Internet**:
+Here's what you need for your firewall configuration depending on whether you're connecting via HSCN or Internet:
 
 ## ✅ For HSCN / N3 Connection
 
-- **Domain name**: `mesh-sync.national.ncrs.nhs.uk`
-- **Port**: TCP 443
-- **Protocol**: HTTPS (TLS)
-- **External IPs**:
+- Domain name: `mesh-sync.national.ncrs.nhs.uk`
+- Port: TCP 443
+- Protocol: HTTPS (TLS)
+- External IPs:
   - `155.231.48.156`
   - `155.231.48.220`
-- **Purpose**: Used by the MESH client to send and receive messages
+- Purpose: Used by the MESH client to send and receive messages
 
 ## ✅ For Internet Connection
 
-- **Domain name**: `mesh-sync.spineservices.nhs.uk`
-- **Port**: TCP 443
-- **Protocol**: HTTPS (TLS)
-- **Purpose**: Used by the MESH client to send and receive messages
+- Domain name: `mesh-sync.spineservices.nhs.uk`
+- Port: TCP 443
+- Protocol: HTTPS (TLS)
+- Purpose: Used by the MESH client to send and receive messages
 
 You can verify access by running (on Windows Command Prompt or Linux terminal):
 

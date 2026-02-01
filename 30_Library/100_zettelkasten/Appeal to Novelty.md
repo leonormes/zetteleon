@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-05-08T06:57:07Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:32+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:36+00:00
 status: "null"
 tags: ["novelty", "TheHuman/Cognition/bias", "TheHuman/Health/ADHD"]
 title: Appeal to Novelty
 type: "permanent"
-uid: 
 updated: 
-version: "1"
 ---
 
 - Definition: Assuming newer solutions are better simply because they're new

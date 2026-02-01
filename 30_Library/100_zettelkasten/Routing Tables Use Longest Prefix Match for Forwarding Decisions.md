@@ -1,39 +1,33 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-10-31T10:17:00Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: "Explain longest prefix match routing principle."
-review_interval: "90"
-see_also: ["Layer 3 Network Security Protects IP Routing and Forwarding.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: "seedling"
 tags: ["routing", "SoftwareEngineering/Networking"]
 title: Routing Tables Use Longest Prefix Match for Forwarding Decisions
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Routing Tables Use Longest Prefix Match for Forwarding Decisions
 
-**Summary:** Network routers forward packets by selecting the most specific (longest prefix) route that matches the destination IP address.
+Summary: Network routers forward packets by selecting the most specific (longest prefix) route that matches the destination IP address.
 
-**Matching algorithm:**
+Matching algorithm:
 
 1. Perform bitwise comparison between destination IP and route prefixes
 2. Select the route with the longest matching prefix (largest subnet mask)
 3. If no match, use default route (0.0.0.0/0)
 
-**Benefits:**
+Benefits:
 
 - Enables hierarchical routing
 - Handles overlapping networks unambiguously
 - Supports both general and specific routing policies
 
-**Example:**
+Example:
+
 For IP 192.168.1.5:
 
 - 192.168.1.0/24 is preferred over

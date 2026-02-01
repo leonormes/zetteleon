@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-30T12:04:00Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:34+00:00
 source: "[[MOC - How to Build Discipline]]"
-source_of_truth: []
 status: "seedling"
 tags: ["discipline", "freedom", "TheHuman/Mindset"]
 title: Discipline is Freedom From Chaos and Anxiety
 type: "concept"
-uid: 
 updated: 
 ---
 

@@ -27,7 +27,7 @@ You have a private AWS EKS cluster and a service called `relay` that needs to be
 
 ## 2. Core Components for Exposing the Service
 
-Given the private nature of your EKS cluster and the need for secure communication, the most suitable approach is to leverage AWS PrivateLink**. This allows you to expose your service privately without exposing it to the public internet. Here's how it works:
+Given the private nature of your EKS cluster and the need for secure communication, the most suitable approach is to leverage AWS PrivateLink. This allows you to expose your service privately without exposing it to the public internet. Here's how it works:
 
 ### 2.1. Network Load Balancer (NLB) within Your EKS Cluster's VPC
 
@@ -48,7 +48,7 @@ Given the private nature of your EKS cluster and the need for secure communicati
 ### 2.3. AWS PrivateLink - Interface VPC Endpoints in Other Clusters' VPCs
 
 - Purpose: To provide a private and secure connection from the other clusters' VPCs to your `relay` service.
-- Creation: In each VPC where the other clusters reside, you will create an interface VPC endpoint**.
+- Creation: In each VPC where the other clusters reside, you will create an interface VPC endpoint.
 - Service Category: When creating the endpoint, you will select the "AWS services" category and then search for your VPC Endpoint Service by its name or service name (which AWS will provide after you create the endpoint service).
 - Subnets: Deploy the interface VPC endpoint in private subnets within the other clusters' VPCs.
 - Security Groups: Configure the security groups associated with the interface VPC endpoint to allow outbound traffic to the endpoint's private IP addresses on the ports used by your `relay` service.

@@ -19,16 +19,16 @@ updated:
 
 ## Socket is a Software Endpoint for Network Communication
 
-**Summary:** A socket is a software endpoint that enables communication between two devices over a network by combining an IP address and port number into a socket address.
+Summary: A socket is a software endpoint that enables communication between two devices over a network by combining an IP address and port number into a socket address.
 
-**Details:**
+Details:
 
 A socket functions like a phone line - one end connects to your device, the other to another device. Once both sides are connected, a two-way conversation is established.
 
 The socket address is formed by combining:
 
-- **IP address**: Identifies the device on the network
-- **Port number**: Identifies the specific application or service on that device
+- IP address: Identifies the device on the network
+- Port number: Identifies the specific application or service on that device
 
 This combination works like a postal address with an apartment number (e.g., "123 Main Street, Apartment 22").
 

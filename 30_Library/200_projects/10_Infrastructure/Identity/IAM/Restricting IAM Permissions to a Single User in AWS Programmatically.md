@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-03-14T06:46:10Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:17+00:00
 status: ""
 tags: ["IAM"]
 title: Restricting IAM Permissions to a Single User in AWS Programmatically
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 You're aiming to implement resource-level permissions in AWS IAM to restrict a principal's ability to manage only a specific IAM user, rather than all users. This is a security best practice to limit the blast radius of any potential security breaches. Here's how you can achieve this programmatically:
@@ -24,15 +16,15 @@ You're aiming to implement resource-level permissions in AWS IAM to restrict a p
 
 IAM policies, written in JSON format, define permissions in AWS. They consist of statements that specify:
 
-- **Actions**: What actions are allowed or denied (e.g., `iam:CreateUser`, `iam:GetUser`).
-- **Resources**: Which AWS resources the actions apply to (e.g., a specific IAM user, an S3 bucket).
-- **Effect**: Whether the action is allowed (`Allow`) or denied (`Deny`).
+- Actions: What actions are allowed or denied (e.g., `iam:CreateUser`, `iam:GetUser`).
+- Resources: Which AWS resources the actions apply to (e.g., a specific IAM user, an S3 bucket).
+- Effect: Whether the action is allowed (`Allow`) or denied (`Deny`).
 
 Resource-level permissions allow you to control access at a granular level. Instead of granting permissions to all resources of a certain type (like all IAM users), you can restrict them to specific resources.
 
 ## Restricting Permissions to a Single IAM User
 
-To restrict permissions to a single IAM user, you need to craft an IAM policy that specifies the **resource ARN (Amazon Resource Name)** of that specific user in the `Resource` element of the policy statement.
+To restrict permissions to a single IAM user, you need to craft an IAM policy that specifies the resource ARN (Amazon Resource Name) of that specific user in the `Resource` element of the policy statement.
 
 Here's a breakdown of how to construct such a policy and apply it programmatically:
 

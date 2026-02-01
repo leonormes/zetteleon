@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:56Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:25+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:13+00:00
 status: ""
 tags: ["k8s"]
 title: Understanding How Kubernetes ConfigMaps Work
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## Configmaps

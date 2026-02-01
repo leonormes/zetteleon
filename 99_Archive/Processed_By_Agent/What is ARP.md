@@ -18,7 +18,7 @@ updated:
 version: "null"
 ---
 
-**Links:**
+Links:
 
 - Up: [[MOC - Container Networking Model]]
 - Related: [[What is a Linux bridge]]
@@ -37,19 +37,19 @@ IP packets contain logical IP addresses, but Ethernet frames require physical MA
 
 ARP operates at the boundary between Layer 2 (Data Link) and Layer 3 (Network):
 
-- **Purpose**: Resolve IPv4 address → MAC address
-- **Scope**: Only works on local network segment (same broadcast domain)
-- **Protocol**: RFC 826
-- **Replacement**: IPv6 uses NDP (Neighbor Discovery Protocol)
+- Purpose: Resolve IPv4 address → MAC address
+- Scope: Only works on local network segment (same broadcast domain)
+- Protocol: RFC 826
+- Replacement: IPv6 uses NDP (Neighbor Discovery Protocol)
 
 ### ARP Message Types
 
-1. **ARP Request** (broadcast)
+1. ARP Request (broadcast)
    - "Who has IP 10.244.0.5? Tell 10.244.0.2"
    - Sent to broadcast MAC: `ff:ff:ff:ff:ff:ff`
    - All devices receive it
 
-2. **ARP Reply** (unicast)
+2. ARP Reply (unicast)
    - "10.244.0.5 is at MAC 52:54:00:12:34:56"
    - Sent directly to requester's MAC
    - Only requester receives it
@@ -86,10 +86,10 @@ arp -n
 
 Cache states:
 
-- **REACHABLE**: Recently confirmed
-- **STALE**: Not recently used, may be invalid
-- **DELAY**: Validity being verified
-- **FAILED**: Resolution failed
+- REACHABLE: Recently confirmed
+- STALE: Not recently used, may be invalid
+- DELAY: Validity being verified
+- FAILED: Resolution failed
 
 ### Container Networking Example
 
@@ -108,24 +108,24 @@ Cache states:
 
 ### What This Enables
 
-- **Layer 2 communication**: Enables Ethernet frame delivery between Pods
-- **Bridge efficiency**: Bridge learns MACs via ARP replies
-- **Same-node Pod connectivity**: Pods discover each other's MACs on `cni0`
-- **Gateway resolution**: Pods use ARP to find the bridge's MAC for external routing
+- Layer 2 communication: Enables Ethernet frame delivery between Pods
+- Bridge efficiency: Bridge learns MACs via ARP replies
+- Same-node Pod connectivity: Pods discover each other's MACs on `cni0`
+- Gateway resolution: Pods use ARP to find the bridge's MAC for external routing
 
 ### What Breaks If This Fails
 
-- **Pods cannot communicate on same node**: ARP failures prevent frame delivery
-- **Bridge flooding**: Without MAC learning (via ARP), bridge floods all traffic
-- **Network storms**: ARP broadcast storms can saturate network
-- **Cache poisoning**: Malicious ARP replies can hijack traffic
+- Pods cannot communicate on same node: ARP failures prevent frame delivery
+- Bridge flooding: Without MAC learning (via ARP), bridge floods all traffic
+- Network storms: ARP broadcast storms can saturate network
+- Cache poisoning: Malicious ARP replies can hijack traffic
 
 ### How It Maps to Kubernetes
 
-- **Pod-to-Pod same-node**: ARP resolves Pod IPs on the `cni0` bridge
-- **Pod-to-gateway**: Pod uses ARP to find the bridge's MAC for routing
-- **Network policies**: Some CNI plugins inspect ARP to enforce L2 security
-- **Cross-node traffic**: No ARP involved (uses overlay tunnels or routing)
+- Pod-to-Pod same-node: ARP resolves Pod IPs on the `cni0` bridge
+- Pod-to-gateway: Pod uses ARP to find the bridge's MAC for routing
+- Network policies: Some CNI plugins inspect ARP to enforce L2 security
+- Cross-node traffic: No ARP involved (uses overlay tunnels or routing)
 
 ### Debugging ARP Issues
 

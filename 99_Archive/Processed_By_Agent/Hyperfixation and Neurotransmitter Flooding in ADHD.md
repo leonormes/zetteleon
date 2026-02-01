@@ -24,7 +24,7 @@ Dopamine, a key neurotransmitter for motivation, reward, and attention, floods t
 
 This phenomenon highlights the interest-driven nature of the ADHD brain and its unique response to intrinsic motivation, contrasting with neurotypical motivation patterns.
 
-**The Crash Phase:**
+The Crash Phase:
 
 This intense dopamine flooding is not sustainable. Eventually, the novelty fades, dopamine reserves deplete, and the crash occurs. The same neurotransmitter flooding that enabled hyperfixation contributes to the subsequent burnout and dopamine deficit in the trough phase, completing the hyperfixation-burnout cycle.
 

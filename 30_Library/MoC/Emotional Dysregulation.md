@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-26T15:03:54Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T15:03:27+00:00
-purpose: ""
-review_interval: ""
-see_also: ["[[Self-Regulation is Managing Your Emotions and Actions]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:08+00:00
 status: ""
 tags: ["emotion", "TheHuman/Cognition", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
 title: Emotional Dysregulation
 type: "map"
-uid: 
 updated: 
-version: "1"
 ---
 
 ADHD brains process emotions differently, leading to "intense or unpredictable emotions that seem blown out of proportion". These are not chosen behaviors, but rather a result of differences in brain function, particularly in the amygdala and frontal cortex. This means your emotional responses are often automatic and not a reflection of your character. Trying to directly control feelings is often futile; instead, focus on managing your behavior in response to them.

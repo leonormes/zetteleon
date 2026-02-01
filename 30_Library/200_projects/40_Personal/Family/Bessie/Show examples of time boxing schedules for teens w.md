@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-09-21T16:19:48Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: []
 title: Show examples of time boxing schedules for teens w
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Here are examples of time boxing schedules designed for teens with ADHD. Time boxing helps by setting a specific start and stop time for each task, including important breaks, keeping the day manageable and motivating.[^1][^2][^3]

@@ -1,24 +1,16 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-24T15:06:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:27+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:18+00:00
 status: "null"
 tags: ["SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking", "veth"]
 title: What is a veth pair
 type: "Factual"
-uid: 
 updated: 
-version: "null"
 ---
 
-**Links:**
+Links:
 
 - Up: [[MOC - Container Networking Model]]
 - Related: [[What is a network namespace]], [[What is a Linux bridge]], [[How a veth pair connects two network namespaces]]
@@ -35,7 +27,7 @@ Network namespaces are isolated—by default, they cannot communicate with each 
 
 ### Anatomy of a Veth Pair
 
-A veth pair consists of two virtual network interfaces that are **paired**:
+A veth pair consists of two virtual network interfaces that are paired:
 
 - Packets entering one interface exit the other
 - Works like a virtual Ethernet cable
@@ -58,20 +50,20 @@ ip -n pod-red link set veth-red up
 
 ### Properties
 
-- **Bidirectional**: Full duplex communication
-- **Stateless**: No connection tracking or protocol awareness
-- **MAC addresses**: Each end has its own MAC address
-- **MTU**: Can be configured independently per end
-- **Always paired**: Deleting one end automatically deletes the other
+- Bidirectional: Full duplex communication
+- Stateless: No connection tracking or protocol awareness
+- MAC addresses: Each end has its own MAC address
+- MTU: Can be configured independently per end
+- Always paired: Deleting one end automatically deletes the other
 
 ## Connections / Implications
 
 ### What This Enables
 
-- **Pod-to-Node connectivity**: One end in Pod namespace, one end on host/bridge
-- **Pod-to-Pod communication**: When both ends connect via a bridge
-- **Container isolation traversal**: Controlled communication between isolated namespaces
-- **CNI plugin implementation**: Core primitive used by all CNI plugins
+- Pod-to-Node connectivity: One end in Pod namespace, one end on host/bridge
+- Pod-to-Pod communication: When both ends connect via a bridge
+- Container isolation traversal: Controlled communication between isolated namespaces
+- CNI plugin implementation: Core primitive used by all CNI plugins
 
 ### What Breaks If This Fails
 
@@ -82,8 +74,8 @@ ip -n pod-red link set veth-red up
 
 ### How It Maps to Kubernetes
 
-- **Pod `eth0`**: One end of the veth pair (inside Pod namespace)
-- **Host-side veth**: Other end attached to `cni0` bridge or routing table
+- Pod `eth0`: One end of the veth pair (inside Pod namespace)
+- Host-side veth: Other end attached to `cni0` bridge or routing table
 - Named like `veth<random>` on the host
 - CNI plugins create the veth pair during Pod ADD operation
 

@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-26T11:15:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:34+00:00
 status: ""
 tags: ["emotional-regulation", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Emotional Regulation Techniques for ADHD Productivity
 type: "permanent"
-uid: 
 updated: 
-version: "1"
 ---
 
 For individuals with ADHD, emotional dysregulation can be a significant barrier to productivity. Techniques that help manage and process difficult emotions can free up cognitive resources for tasks.
@@ -30,9 +22,9 @@ The process combines a physical component (tapping) with a cognitive component (
 
 ## Why It Works for ADHD
 
-- **Calms the Nervous System**: The physical act of tapping can be a self-soothing behavior that helps to regulate an overstimulated or anxious nervous system.
-- **Processes Emotion**: It provides a structured way to acknowledge and process difficult emotions, rather than suppressing them or being overwhelmed by them.
-- **Frees Up Brainpower**: By reducing the cognitive and emotional load of managing intense feelings, it frees up executive function resources that can then be applied to practical tasks.
+- Calms the Nervous System: The physical act of tapping can be a self-soothing behavior that helps to regulate an overstimulated or anxious nervous system.
+- Processes Emotion: It provides a structured way to acknowledge and process difficult emotions, rather than suppressing them or being overwhelmed by them.
+- Frees Up Brainpower: By reducing the cognitive and emotional load of managing intense feelings, it frees up executive function resources that can then be applied to practical tasks.
 
 ## Connections
 
@@ -41,7 +33,7 @@ The process combines a physical component (tapping) with a cognitive component (
 
 ## Criticism Framework
 
-**External Interactions:**
+External Interactions:
 
 - Use [[AAA Framework for Handling Criticism]] for feedback
 - Practice [[Cognitive Reframing of Criticism]] preemptively

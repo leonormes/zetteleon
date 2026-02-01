@@ -1,17 +1,11 @@
 ---
 aliases: ["Quest - Data-Oriented Design"]
 boss_fight: "Build a 'Do It Yourself' Jira Clone (No Classes)"
-confidence: ""
 created: 2026-01-01T19:38:48+00:00
-epistemic: ""
 goal: "Transition from Code-First to Data-First software architecture."
 last_reviewed: ""
-modified: 2026-01-23T18:09:23+00:00
+modified: 2026-02-01T15:08:08+00:00
 priority: 5
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
 status: "queued"
 tags: ["coding", "dop", "learning"]
 title: Learn - Data-Oriented Design
@@ -33,11 +27,11 @@ type: "learning-project"
 
 ### 2. The Map (Procedures)
 
-1. [] Mini-Boss: Traffic Light (Invariants).
-2. [] Main Boss: User Registration Flow (State Machine).
-3. [] Main Boss: Flat File System (Adjacency List).
-4. [] Main Boss: ECS Character System (Composition).
-5. [] Main Boss: Chess Replay Engine (Event Sourcing).
+1. [ ] Mini-Boss: Traffic Light (Invariants).
+2. [ ] Main Boss: User Registration Flow (State Machine).
+3. [ ] Main Boss: Flat File System (Adjacency List).
+4. [ ] Main Boss: ECS Character System (Composition).
+5. [ ] Main Boss: Chess Replay Engine (Event Sourcing).
 
 ### 3. 👹 Final Boss Fight
 

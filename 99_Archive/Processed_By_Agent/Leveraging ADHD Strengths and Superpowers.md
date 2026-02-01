@@ -22,11 +22,11 @@ While Attention-Deficit/Hyperactivity Disorder (ADHD) presents significant chall
 
 Common ADHD strengths include:
 
-- **Creativity and Ingenuity:** A tendency for divergent thinking and novel problem-solving.
-- **Entrepreneurial Spirit:** A drive to innovate and take risks.
-- **Hyperfocus:** The ability to concentrate intensely on tasks of high interest, leading to exceptional productivity and deep engagement.
-- **Optimism and Resilience:** A capacity to bounce back from setbacks and maintain a positive outlook.
-- **Generosity and Empathy:** Often highly attuned to others' needs and willing to help.
+- Creativity and Ingenuity: A tendency for divergent thinking and novel problem-solving.
+- Entrepreneurial Spirit: A drive to innovate and take risks.
+- Hyperfocus: The ability to concentrate intensely on tasks of high interest, leading to exceptional productivity and deep engagement.
+- Optimism and Resilience: A capacity to bounce back from setbacks and maintain a positive outlook.
+- Generosity and Empathy: Often highly attuned to others' needs and willing to help.
 
 By reframing these traits as assets rather than liabilities, individuals with ADHD can "unwrap their gifts" and cultivate environments and strategies that allow these strengths to flourish. This approach shifts the focus from merely coping with challenges to actively utilizing unique cognitive patterns for success.
 

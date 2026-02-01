@@ -1,33 +1,26 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-10-31T11:20:00Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: "Explain the abstraction breadth-depth tradeoff."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: "seedling"
 tags: ["abstraction", "TheHuman/Cognition"]
 title: Higher Abstraction Levels Increase Breadth But Reduce Depth
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Higher Abstraction Levels Increase Breadth But Reduce Depth
 
-**Summary:** Moving to higher levels of abstraction reveals broader patterns and connections across domains while sacrificing detailed, context-specific knowledge.
+Summary: Moving to higher levels of abstraction reveals broader patterns and connections across domains while sacrificing detailed, context-specific knowledge.
 
-**Key Aspects:**
+Key Aspects:
 
-- **Breadth:** General models apply to wider range of cases
-- **Depth:** Specific implementations require lower abstraction
-- **Tradeoff:** Cannot maximize both simultaneously
+- Breadth: General models apply to wider range of cases
+- Depth: Specific implementations require lower abstraction
+- Tradeoff: Cannot maximize both simultaneously
 
-**Examples:**
+Examples:
 
 - Mathematics: Group theory vs arithmetic
 - Mapping: Country view vs street view

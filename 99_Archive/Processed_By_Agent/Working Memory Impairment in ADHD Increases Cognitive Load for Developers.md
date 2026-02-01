@@ -19,6 +19,6 @@ updated:
 
 ## Working Memory Impairment in ADHD Increases Cognitive Load for Developers
 
-**Summary:** ADHD compromises working memory, making it difficult for developers to hold and manipulate the mental information needed for complex coding tasks.
+Summary: ADHD compromises working memory, making it difficult for developers to hold and manipulate the mental information needed for complex coding tasks.
 
-**Details:** While long-term memory is often unaffected, the impaired ability to mentally track information presents significant hurdles in software development. This manifests as difficulty following multi-step instructions, remembering variable names, or retaining context during a debugging session. This forces a heavy reliance on external aids like notes and documentation, which can interrupt thought flow and slow down the development process.
+Details: While long-term memory is often unaffected, the impaired ability to mentally track information presents significant hurdles in software development. This manifests as difficulty following multi-step instructions, remembering variable names, or retaining context during a debugging session. This forces a heavy reliance on external aids like notes and documentation, which can interrupt thought flow and slow down the development process.

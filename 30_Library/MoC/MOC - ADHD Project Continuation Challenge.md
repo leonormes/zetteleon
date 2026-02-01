@@ -1,28 +1,21 @@
 ---
 aliases: ["ADHD Project Return Problem"]
-confidence: "null"
 created: 2025-10-30T15:00:39Z
 criteria: ""
-epistemic: "null"
 exclusions: "General ADHD productivity strategies not specific to project continuation"
 last_reviewed: "null"
-modified: 2026-01-08T15:03:27+00:00
-purpose: "null"
-review_interval: "null"
+modified: 2026-02-01T15:08:07+00:00
 scope: ""
-see_also: []
-source_of_truth: []
 status: "null"
 tags: ["project-continuity", "TheHuman/Health/ADHD"]
 title: MOC - ADHD Project Continuation Challenge
 type: "map"
-uid: 
 updated: 
 ---
 
 ## MOC - ADHD Project Continuation Challenge
 
-> **Inclusion criteria:** Atomic strategies and concepts related to maintaining continuity on creative projects; must be evergreen or growing.
+> Inclusion criteria: Atomic strategies and concepts related to maintaining continuity on creative projects; must be evergreen or growing.
 
 ### The Core Problem
 
@@ -34,7 +27,7 @@ When I return after a break, my thoughts are no longer wrapped up in it. The men
 
 This creates a destructive cycle: starting fresh feels easier than continuing, so big ideas never get off the ground. I keep having "revolutionary" new ideas and processes, abandoning previous work.
 
-**Question:** How can I break this cycle?
+Question: How can I break this cycle?
 
 ### Strategies for Breaking the Cycle
 
@@ -45,7 +38,7 @@ This creates a destructive cycle: starting fresh feels easier than continuing, s
 - Create mind maps or flowcharts of ideas and connections
 - Record voice memos explaining thought process and vision
 - Write quick notes about key elements and relationships
-- **Why it works:** Externalizes what would be lost, creating scaffolding for reconstruction
+- Why it works: Externalizes what would be lost, creating scaffolding for reconstruction
 
 #### Structure for Re-entry
 
@@ -54,14 +47,14 @@ This creates a destructive cycle: starting fresh feels easier than continuing, s
 - Create lists of specific, actionable steps
 - Set clear, achievable milestones
 - Focus on one small task at a time
-- **Why it works:** Makes the next action visible; each micro-task is a re-entry point
+- Why it works: Makes the next action visible; each micro-task is a re-entry point
 
 [[Continuation Rituals Bridge Work Sessions for ADHD]] rel:: solution strategy:: "Build continuity bridges"
 
 - Summarize accomplishments at session end
 - Note down next 1-3 concrete steps
 - Briefly visualize where you'll pick up next
-- **Why it works:** Externalizes mental model before it dissipates; primes for continuation
+- Why it works: Externalizes mental model before it dissipates; primes for continuation
 
 #### Create Environmental Support
 
@@ -70,7 +63,7 @@ This creates a destructive cycle: starting fresh feels easier than continuing, s
 - Keep visual representations (sketches, diagrams, mind maps) visible in workspace
 - Create project briefs outlining core concepts and goals
 - Use sticky notes or whiteboards for key ideas
-- **Why it works:** Visual cues help reignite connection to bigger picture
+- Why it works: Visual cues help reignite connection to bigger picture
 
 #### Leverage External Motivation
 
@@ -79,17 +72,17 @@ This creates a destructive cycle: starting fresh feels easier than continuing, s
 - Share project goals with friend or mentor
 - Join creative groups or find accountability partners
 - Set up regular check-ins to discuss progress
-- **Why it works:** Creates urgency and external structure; leverages social motivation
+- Why it works: Creates urgency and external structure; leverages social motivation
 
 ### Mindset Shifts
 
-Rather than viewing each return as a fresh start, see it as an opportunity for **iteration and refinement**:
+Rather than viewing each return as a fresh start, see it as an opportunity for iteration and refinement:
 
 - Review previous work with fresh eyes
 - Look for ways to build upon existing ideas
 - Celebrate progress already made
 
-The goal is finding balance between **innovation and completion**—allowing new ideas while maintaining commitment to seeing projects through.
+The goal is finding balance between innovation and completion—allowing new ideas while maintaining commitment to seeing projects through.
 
 ### Related Concepts
 

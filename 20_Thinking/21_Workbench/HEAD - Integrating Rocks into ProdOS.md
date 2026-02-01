@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence:
 created: 2025-12-08T00:00:00Z
-epistemic:
 last_reviewed:
-modified: 2026-01-23T18:09:15+00:00
-purpose:
-review_interval:
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:11+00:00
 status: archived
 tags: [planning, prodos, thinking]
 title: HEAD - Integrating Rocks into ProdOS
 type: head
-uid:
 updated:
 ---
 
@@ -35,9 +28,9 @@ They need high visibility.
 
 ### The Tension
 
-- **Visibility:** Projects are often hidden in folders. Rocks need to be "in my face" to ensure quarterly alignment.
-- **Connection:** How does a Rock relate to the daily tasks?
-- **Review:** How do I review progress on Rocks vs. just ticking off tasks?
+- Visibility: Projects are often hidden in folders. Rocks need to be "in my face" to ensure quarterly alignment.
+- Connection: How does a Rock relate to the daily tasks?
+- Review: How do I review progress on Rocks vs. just ticking off tasks?
 
 ### The Next Test
 

@@ -20,33 +20,33 @@ updated:
 
 ## 1. The Arithmetic of Types
 
-Just as we perform arithmetic on numbers, we can perform arithmetic on Types based on the number of possible values they inhabit. This count is called the **Cardinality**, denoted as $|T|$.
+Just as we perform arithmetic on numbers, we can perform arithmetic on Types based on the number of possible values they inhabit. This count is called the Cardinality, denoted as $|T|$.
 
 ### 1.1 Fundamental Constants
 
-- **Void ($0$):** The Empty Set. A type with **zero** values (e.g., Rust `enum Void {}`, `!`).
+- Void ($0$): The Empty Set. A type with zero values (e.g., Rust `enum Void {}`, `!`).
     - $|0| = 0$
-- **Unit ($1$):** The Singleton Set. A type with **one** value (e.g., Rust `()`, `struct Unit;`).
+- Unit ($1$): The Singleton Set. A type with one value (e.g., Rust `()`, `struct Unit;`).
     - $|1| = 1$
-- **Bool ($2$):** A type with two values.
+- Bool ($2$): A type with two values.
     - $|2| = 2$
 
 ### 1.2 Algebraic Operations
 
 | Operation | Logical Equivalent | Type Construct | Formula |
 |:--- |:--- |:--- |:--- |
-| **Sum (+)** | OR (Disjunction) | Enum / Union | $|A + B| = |A| + |B|$ |
-| **Product ($	imes$)** | AND (Conjunction) | Struct / Tuple | $|A 	imes B| = |A| 	imes |B|$ |
-| **Exponential ($^$)** | Implication ($	o$) | Function | $|A 	o B| = |B|^{|A|}$ |
+| Sum (+) | OR (Disjunction) | Enum / Union | $|A + B| = |A| + |B|$ |
+| Product ($	imes$) | AND (Conjunction) | Struct / Tuple | $|A 	imes B| = |A| 	imes |B|$ |
+| Exponential ($^$) | Implication ($	o$) | Function | $|A 	o B| = |B|^{|A|}$ |
 
-> **Why Exponentiation?**
+> Why Exponentiation?
 > For a function `A -> B`, for _each_ of the $|A|$ possible inputs, we must choose one of the $|B|$ possible outputs. Thus, we multiply $|B|$ by itself $|A|$ times.
 
 ---
 
 ## 2. Isomorphism ($\cong$)
 
-Formally, two types $A$ and $B$ are **Isomorphic** ($A \cong B$) if there exist two total functions that allow lossless conversion back and forth:
+Formally, two types $A$ and $B$ are Isomorphic ($A \cong B$) if there exist two total functions that allow lossless conversion back and forth:
 
 $$f: A \to B$$
 
@@ -58,10 +58,10 @@ In Rust, this is codified by the `From` and `Into` traits. If you can implement 
 
 ### 2.1 Nominal vs. Structural Isomorphism
 
-- **Structural Isomorphism:** Types are equal if their shape is equal (TypeScript).
-- **Nominal Isomorphism:** Types are distinct by name but can be mapped (Rust).
+- Structural Isomorphism: Types are equal if their shape is equal (TypeScript).
+- Nominal Isomorphism: Types are distinct by name but can be mapped (Rust).
     - `struct A { x: i32 }` and `struct B { x: i32 }` are distinct but isomorphic.
-    - **Architecture Hint:** We use this to separate "Domain Models" from "DTOs" (Data Transfer Objects) even if they look identical.
+    - Architecture Hint: We use this to separate "Domain Models" from "DTOs" (Data Transfer Objects) even if they look identical.
 
 ---
 
@@ -85,10 +85,10 @@ enum Bit { Zero, One }
 
 This validates the equivalence between "Normalized" and "Denormalized" data structures.
 
-- **LHS (Normalized):** `(A, Choice<B, C>)` - We store `A` once, alongside the choice.
-- **RHS (Denormalized):** `Choice<(A, B), (A, C)>` - We store `A` inside every variant.
+- LHS (Normalized): `(A, Choice<B, C>)` - We store `A` once, alongside the choice.
+- RHS (Denormalized): `Choice<(A, B), (A, C)>` - We store `A` inside every variant.
 
-**Insight:** You can push shared state _into_ variants or pull it _out_ without changing the information content.
+Insight: You can push shared state _into_ variants or pull it _out_ without changing the information content.
 
 ### 3.3 Currying (Exponential Laws) ($C^{A \times B} \cong (C^B)^A$)
 
@@ -96,7 +96,7 @@ A function taking a tuple is isomorphic to a function returning a function.
 
 - `Fn(A, B) -> C` $\cong$ `Fn(A) -> Fn(B) -> C`
 
-**Architecture Hint:** Dependency Injection is **Partial Application** (Currying). You apply the configuration (`A`) at startup, returning a handler that awaits the request (`B`) to produce the response (`C`).
+Architecture Hint: Dependency Injection is Partial Application (Currying). You apply the configuration (`A`) at startup, returning a handler that awaits the request (`B`) to produce the response (`C`).
 
 ### 3.4 Struct/Tuple Isomorphism
 
@@ -110,8 +110,8 @@ Use Tuples for local, ephemeral data transfer; use Structs for long-lived domain
 
 ## 4. The Zero-Cost Abstraction
 
-Because isomorphic types have the same Cardinality (and often the same memory layout), the Rust compiler can often optimize the mapping functions ($f$ and $g$) into **No-Ops**.
+Because isomorphic types have the same Cardinality (and often the same memory layout), the Rust compiler can often optimize the mapping functions ($f$ and $g$) into No-Ops.
 
-Transforming a `DbUser` to a `ClientUser` (where fields are identical) compiles down to... nothing. The bits just move. This is the essence of **Zero-Cost Abstractions**.
+Transforming a `DbUser` to a `ClientUser` (where fields are identical) compiles down to... nothing. The bits just move. This is the essence of Zero-Cost Abstractions.
 
 ```

@@ -1,14 +1,8 @@
 ---
 aliases: []
-confidence: "1"
 created: 2026-01-03T18:24:19+00:00
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:18+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:07:52+00:00
 status: stable
 tags: []
 title: SoT - Rust Vec Data Structure
@@ -19,7 +13,7 @@ type: SoT
 
 ### Overview
 
-Synthesized knowledge from **"A Common-Sense Guide to Data Structures and Algorithms"** (Theory) and **"The Rust Programming Language"** (Implementation).
+Synthesized knowledge from "A Common-Sense Guide to Data Structures and Algorithms" (Theory) and "The Rust Programming Language" (Implementation).
 
 ---
 
@@ -29,31 +23,31 @@ Synthesized knowledge from **"A Common-Sense Guide to Data Structures and Algori
 
 _Source: Wengrow, Ch. 1 & 14_
 
-- **Contiguous Memory:** Learn how `Vec` stores data in adjacent memory slots on the heap.
-- **The Array Foundation:** Understand why `Vec` is technically a "Dynamic Array."
-- **O(1) Reading:** Why calculating the memory address `base_address + (index * size_of_T)` allows instant access.
+- Contiguous Memory: Learn how `Vec` stores data in adjacent memory slots on the heap.
+- The Array Foundation: Understand why `Vec` is technically a "Dynamic Array."
+- O(1) Reading: Why calculating the memory address `base_address + (index * size_of_T)` allows instant access.
 
 #### Phase 2: Basic Operations in Rust
 
 _Source: The Book, Ch. 8.1_
 
-- **Creation & Inference:** Using `Vec::new()` vs the `vec![]` macro.
-- **Growth (The `push` method):** Understanding how `Vec` handles adding items.
-- **Accessing Data:** The difference between `&v[index]` (panics on out-of-bounds) and `v.get(index)` (returns `Option<&T>`).
+- Creation & Inference: Using `Vec::new()` vs the `vec![]` macro.
+- Growth (The `push` method): Understanding how `Vec` handles adding items.
+- Accessing Data: The difference between `&v[index]` (panics on out-of-bounds) and `v.get(index)` (returns `Option<&T>`).
 
 #### Phase 3: Ownership & The Borrow Checker
 
 _Source: The Book, Ch. 8.1 & Ch. 4_
 
-- **Reallocation Risks:** Why adding an item to a `Vec` can invalidate existing references (memory is moved if the current heap block is too small).
-- **Simultaneous Borrows:** Understanding why you can't push to a `Vec` while holding a reference to one of its elements.
+- Reallocation Risks: Why adding an item to a `Vec` can invalidate existing references (memory is moved if the current heap block is too small).
+- Simultaneous Borrows: Understanding why you can't push to a `Vec` while holding a reference to one of its elements.
 
 #### Phase 4: Performance & Optimization
 
 _Source: Wengrow, Ch. 19_
 
-- **Space Complexity:** The "Capacity vs. Length" trade-off.
-- **Time Complexity:** Why `pop()` is O(1) but `remove(0)` is O(n) (shifting elements).
+- Space Complexity: The "Capacity vs. Length" trade-off.
+- Time Complexity: Why `pop()` is O(1) but `remove(0)` is O(n) (shifting elements).
 
 ---
 

@@ -16,7 +16,7 @@ type: "SoT"
 ---
 
 > [!warning] Deprecated
-> This note has been consolidated. Please refer to the single Source of Truth: **[[SoT - The Data-Centric Philosophy]]**.
+> This note has been consolidated. Please refer to the single Source of Truth: [[SoT - The Data-Centric Philosophy]].
 
 ## Summary
-The language-specific application of DOP in Rust (Newtypes, Typestates, Enums) has been integrated into the central **[[SoT - The Data-Centric Philosophy]]** and its related practice note **[[SoT - Type-Driven Development (The Torvalds Loop)]]**.
+The language-specific application of DOP in Rust (Newtypes, Typestates, Enums) has been integrated into the central [[SoT - The Data-Centric Philosophy]] and its related practice note [[SoT - Type-Driven Development (The Torvalds Loop)]].

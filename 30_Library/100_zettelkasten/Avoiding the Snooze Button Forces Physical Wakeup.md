@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-30T12:02:00Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:36+00:00
 source: "[[MOC - Limitless Morning Routine]]"
-source_of_truth: []
 status: "seedling"
 tags: ["routine", "sleep", "TheHuman/Habits", "willpower"]
 title: Avoiding the Snooze Button Forces Physical Wakeup
 type: "concept"
-uid: 
 updated: 
 ---
 

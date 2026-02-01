@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-03-10T11:07:42Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:17+00:00
 status: ""
 tags: ["calico", "gitops", "k8s", "SoftwareEngineering/Networking"]
 title: Calico Cloud vs Kubernetes Network Policies in GitOps
 type: "LLM"
-uid: 
 updated: 
-version: ""
 ---
 
 Standard Kubernetes Network Policies are a powerful way to control traffic flow at the pod level. They operate at layers 3 and 4 of the [[OSI Model]] (network and transport layers) and allow you to define rules based on:

@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-02-07T12:57:53Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:27+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:19+00:00
 status: "null"
 tags: ["SoftwareEngineering/Containers"]
 title: Build a Container From Scratch Web Server Project
 type: "tutorial"
-uid: 
 updated: 
-version: "1"
 ---
 
 ## Project Overview

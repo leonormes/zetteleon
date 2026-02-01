@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-22T17:43:30Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: ["TheHuman/Family/Bessie"]
 title: Undermining Motivation and Effort
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Bessie's intellectual effervescence and creativity can be "snuffed out by years of criticism, reprimands, redirection, lack of appreciation, and repeated disappointments, frustrations, and outright failures". When she receives no explicit feedback on her performance or the strategies she employs, her effort goes unacknowledged, leading to a sense of "unexplained underachievement". This is especially detrimental as rewards and praise for effort are far more effective motivators for individuals with ADHD than consequences.

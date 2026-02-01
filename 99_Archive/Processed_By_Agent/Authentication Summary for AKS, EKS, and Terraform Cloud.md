@@ -20,11 +20,11 @@ version: ""
 
 For cloud-native environments utilizing Azure Kubernetes Service (AKS), Amazon Elastic Kubernetes Service (EKS), and Terraform Cloud, a modern authentication stack revolves around specific integrations and technologies:
 
-- **Terraform Cloud ↔ Kubernetes (EKS/AKS):** Authentication for Terraform runs should leverage **OIDC-based dynamic provider credentials**. This allows Terraform to obtain short-lived tokens directly from the Kubernetes cluster's OIDC provider.
-- **In-cluster services ↔ Cloud APIs:** Services running within Kubernetes clusters (EKS/AKS) should authenticate to cloud APIs using native identity federation. Examples include **IAM roles for service accounts (EKS)** or **AKS Managed Identity**, which provide workloads with short-lived, fine-grained access to cloud resources.
-- **Inter-service within clusters:** For communication between services _within_ the Kubernetes cluster, implement **mTLS via SPIFFE** or utilize **OAuth2 client credential tokens** issued by a secrets provider like Vault.
+- Terraform Cloud ↔ Kubernetes (EKS/AKS): Authentication for Terraform runs should leverage OIDC-based dynamic provider credentials. This allows Terraform to obtain short-lived tokens directly from the Kubernetes cluster's OIDC provider.
+- In-cluster services ↔ Cloud APIs: Services running within Kubernetes clusters (EKS/AKS) should authenticate to cloud APIs using native identity federation. Examples include IAM roles for service accounts (EKS) or AKS Managed Identity, which provide workloads with short-lived, fine-grained access to cloud resources.
+- Inter-service within clusters: For communication between services _within_ the Kubernetes cluster, implement mTLS via SPIFFE or utilize OAuth2 client credential tokens issued by a secrets provider like Vault.
 
-In summary, the modern authentication stack for these platforms is built upon **OIDC + OAuth2 client credentials + mTLS**, all underpinned by **short-lived, cryptographically signed tokens** (e.g., RSA/ECDSA).
+In summary, the modern authentication stack for these platforms is built upon OIDC + OAuth2 client credentials + mTLS, all underpinned by short-lived, cryptographically signed tokens (e.g., RSA/ECDSA).
 
 Links:
 

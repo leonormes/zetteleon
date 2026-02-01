@@ -55,6 +55,6 @@ The binary category invariant [[SoT - Atomicity and Loose Coupling]] rel:: defin
 
 ## Adjacent Areas (Not in This MOC)
 
-- **Synthesis:** The inverse of cleaving—consolidating many notes into one. Requires a separate prompt.
-- **Dataview Automation:** Using queries to maintain schema integrity and find orphaned notes.
-- **Templating:** Creating reusable templates for specific note types (decisions, experiments, persons, etc.).
+- Synthesis: The inverse of cleaving—consolidating many notes into one. Requires a separate prompt.
+- Dataview Automation: Using queries to maintain schema integrity and find orphaned notes.
+- Templating: Creating reusable templates for specific note types (decisions, experiments, persons, etc.).

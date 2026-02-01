@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-30T12:10:02Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:33+00:00
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
-source_of_truth: []
 status: "seedling"
 tags: ["process", "TheHuman/Mindset", "writing"]
 title: Focus on the Process Not the Product in Daily Writing
 type: "concept"
-uid: 
 updated: 
 ---
 

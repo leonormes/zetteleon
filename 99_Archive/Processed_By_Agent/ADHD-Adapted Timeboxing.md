@@ -19,17 +19,17 @@ updated:
 
 ## 1. The Hypothesis
 
-> **If** I use a visual timer (analog or digital disc) to show _time remaining_ as a shrinking slice of red,
-> **Then** I will stay on task and avoid the "Time Blindness" panic,
-> **Because** the ADHD brain cannot internalize time but can process visual data. Externalizing the passage of time makes it "real" without making it "scary."
+> If I use a visual timer (analog or digital disc) to show _time remaining_ as a shrinking slice of red,
+> Then I will stay on task and avoid the "Time Blindness" panic,
+> Because the ADHD brain cannot internalize time but can process visual data. Externalizing the passage of time makes it "real" without making it "scary."
 
 ---
 
 ## 2. Experiment Protocol
 
-- **Duration:** 1 Week.
-- **Tools:** Time Timer (Physical or App).
-- **Action:**
+- Duration: 1 Week.
+- Tools: Time Timer (Physical or App).
+- Action:
 
     1. For _every_ work block, set the visual timer.
     2. Place it in direct line of sight (not hidden in a tab).
@@ -39,8 +39,8 @@ updated:
 
 ## 3. Expected Outcome
 
-- **Metric:** Fewer instances of "Where did the last 2 hours go?"
-- **Qualitative:** Feeling of control over the day.
+- Metric: Fewer instances of "Where did the last 2 hours go?"
+- Qualitative: Feeling of control over the day.
 
 ---
 
@@ -50,5 +50,5 @@ updated:
 
 ---
 
-**Original Context:**
+Original Context:
 Derived from [[ADHD Behavioral Strategies for Productivity]].

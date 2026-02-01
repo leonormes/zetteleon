@@ -22,9 +22,9 @@ To enable Terraform Cloud to use [[Dynamic Provider Credentials (DPC) in Terrafo
 
 Configuration steps for major cloud providers:
 
-- **AWS:** Create an IAM role with a trust policy that explicitly permits Terraform Cloud's OIDC issuer (`app.terraform.io`) to assume the role. This IAM role will have the necessary permissions for Terraform operations.
-- **Azure:** Utilize **Workload Identity Federation** with an Azure Entra ID (formerly Azure AD) app registration. This app registration is configured to trust Terraform Cloud's OIDC issuer, allowing it to exchange OIDC tokens for Azure access tokens.
-- **GCP:** Configure **Workload Identity Pools** within Google Cloud Platform. This involves setting up a pool that trusts Terraform Cloud's OIDC provider, enabling secure, token-based authentication for Terraform runs.
+- AWS: Create an IAM role with a trust policy that explicitly permits Terraform Cloud's OIDC issuer (`app.terraform.io`) to assume the role. This IAM role will have the necessary permissions for Terraform operations.
+- Azure: Utilize Workload Identity Federation with an Azure Entra ID (formerly Azure AD) app registration. This app registration is configured to trust Terraform Cloud's OIDC issuer, allowing it to exchange OIDC tokens for Azure access tokens.
+- GCP: Configure Workload Identity Pools within Google Cloud Platform. This involves setting up a pool that trusts Terraform Cloud's OIDC provider, enabling secure, token-based authentication for Terraform runs.
 
 This trust relationship is fundamental for a secure, passwordless, and ephemeral authentication flow in Terraform Cloud.
 

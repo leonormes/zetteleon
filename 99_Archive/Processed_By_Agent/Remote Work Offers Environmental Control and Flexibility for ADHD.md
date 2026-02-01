@@ -19,6 +19,6 @@ updated:
 
 ## Remote Work Offers Environmental Control and Flexibility for ADHD
 
-**Summary:** Remote work can be highly beneficial for individuals with ADHD by providing significant control over their sensory environment and the flexibility to align work schedules with natural energy cycles.
+Summary: Remote work can be highly beneficial for individuals with ADHD by providing significant control over their sensory environment and the flexibility to align work schedules with natural energy cycles.
 
-**Details:** The ability to eliminate office distractions like noise and interruptions reduces the cognitive load required to filter stimuli. Furthermore, the autonomy of remote work allows developers to structure their day around their peak productivity periods, rather than a rigid 9-to-5 schedule. This flexibility, combined with the elimination of a stressful commute, can improve focus, reduce the need for masking neurodivergent traits, and free up mental resources for complex tasks.
+Details: The ability to eliminate office distractions like noise and interruptions reduces the cognitive load required to filter stimuli. Furthermore, the autonomy of remote work allows developers to structure their day around their peak productivity periods, rather than a rigid 9-to-5 schedule. This flexibility, combined with the elimination of a stressful commute, can improve focus, reduce the need for masking neurodivergent traits, and free up mental resources for complex tasks.

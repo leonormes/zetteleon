@@ -19,11 +19,11 @@ updated:
 
 ## 1. Hybrid DNS Principles
 
-We enforce a **Split-Horizon DNS** strategy to manage resolution across Public (Internet), Private (Cloud VNet), and Legacy (On-Prem) boundaries.
+We enforce a Split-Horizon DNS strategy to manage resolution across Public (Internet), Private (Cloud VNet), and Legacy (On-Prem) boundaries.
 
-1. **Public Resolution:** Global endpoints handled via Cloudflare.
-2. **Private Internal:** `*.fitfile.internal` for machine-to-machine traffic. Never exposed to public resolvers.
-3. **Conditional Forwarding:**
+1. Public Resolution: Global endpoints handled via Cloudflare.
+2. Private Internal: `*.fitfile.internal` for machine-to-machine traffic. Never exposed to public resolvers.
+3. Conditional Forwarding:
     - `nhs.local` and `customer.corp` queries are routed to On-Premise resolvers via VPN/ExpressRoute.
     - `privatelink.*.azmk8s.io` queries are routed to the cloud recursive resolver (`168.63.129.16` for Azure).
 
@@ -31,7 +31,7 @@ We enforce a **Split-Horizon DNS** strategy to manage resolution across Public (
 
 ## 2. CoreDNS Architecture
 
-The cluster DNS is the primary traffic router. We use **NodeLocal DNSCache** to improve performance and mitigate conntrack issues.
+The cluster DNS is the primary traffic router. We use NodeLocal DNSCache to improve performance and mitigate conntrack issues.
 
 ### 2.1 The Hybrid Corefile
 
@@ -65,16 +65,16 @@ All clusters must use a variant of this configuration to support hybrid resoluti
 
 ### 3.1 Azure Private Resolver
 
-We use the **Azure DNS Private Resolver** service to bridge the VNet and On-Prem networks.
+We use the Azure DNS Private Resolver service to bridge the VNet and On-Prem networks.
 
-- **Inbound Endpoint:** Allows On-Prem servers to resolve records in Azure Private DNS Zones.
-- **Outbound Endpoint:** Allows AKS to forward specific internal queries back to On-Prem.
+- Inbound Endpoint: Allows On-Prem servers to resolve records in Azure Private DNS Zones.
+- Outbound Endpoint: Allows AKS to forward specific internal queries back to On-Prem.
 
 ### 3.2 AWS Route 53 Resolver
 
-Similar to Azure, we use **Route 53 Resolver Endpoints**.
+Similar to Azure, we use Route 53 Resolver Endpoints.
 
-- **Forwarding Rules:** Applied to the VPC to route `nhs.local` traffic to the corporate data center.
+- Forwarding Rules: Applied to the VPC to route `nhs.local` traffic to the corporate data center.
 
 ---
 

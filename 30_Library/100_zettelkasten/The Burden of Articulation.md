@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-18T17:28:14Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:26+00:00
 status: ""
 tags: []
 title: The Burden of Articulation
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Translating a rich, complex internal idea into communicable language is incredibly difficult. Sometimes, the "popping" of the bubble isn't just the criticism itself, but the struggle to adequately defend or explain your intricate thought process on the spot, especially if the other person isn't invested in deeply understanding it.

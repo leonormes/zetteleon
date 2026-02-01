@@ -1,22 +1,15 @@
 ---
 aliases: ["Healthy Relationship Map"]
-confidence: ""
 created: 2025-11-10T10:22:00Z
 criteria: "Atomic notes defining foundational concepts of respect, communication, responsibility, needs, and financial fairness in a relationship."
-epistemic: ""
 exclusions: "Specific therapeutic advice or non-cooperative relationship models."
 last_reviewed: ""
-modified: 2026-01-23T18:09:22+00:00
-purpose: ""
-review_interval: ""
+modified: 2026-02-01T15:08:06+00:00
 scope: "Core principles, common needs, and financial dynamics within a healthy, cooperative partnership, particularly for a married parent."
-see_also: []
-source_of_truth: []
 status: ""
 tags: ["finance", "parenting", "partnership", "relationship"]
 title: MOC - Healthy Relationship Expectations and Needs
 type: "map"
-uid: 
 updated: 
 ---
 
@@ -24,7 +17,7 @@ updated:
 
 ## MOC - Healthy Relationship Expectations and Needs
 
-> **Inclusion criteria:** Atomic only; must be evergreen or growing.
+> Inclusion criteria: Atomic only; must be evergreen or growing.
 
 This map explores the foundations of a modern, balanced partnership, especially when navigating the complexities of family life. The central pillar of all of this is [[Reciprocity is the Central Pillar of a Healthy Partnership]]. In a healthy partnership, almost everything you can reasonably expect is also what your partner can reasonably expect from you.
 
@@ -58,11 +51,11 @@ This is the feeling that you are "in it together," which is built on [[Teamwork 
 
 This section explores the active work required to keep a relationship functional over time.
 
-- **Source of Truth:** [[SoT - Relationship Maintenance and Emotional Labour]]
-- **Patterns of Non-Engagement:** [[The Silent Void - Absence of Engagement as a Response]]
-- **Logical Frameworks:** [[The Fault vs Repair Distinction in Relationship Dynamics]]
-- **Defensive Tactics:** [[The No Solution Deflection in Difficult Conversations]]
-- **Related:** [[SoT - Framework for Healthy Communication]]
+- Source of Truth: [[SoT - Relationship Maintenance and Emotional Labour]]
+- Patterns of Non-Engagement: [[The Silent Void - Absence of Engagement as a Response]]
+- Logical Frameworks: [[The Fault vs Repair Distinction in Relationship Dynamics]]
+- Defensive Tactics: [[The No Solution Deflection in Difficult Conversations]]
+- Related: [[SoT - Framework for Healthy Communication]]
 
 ---
 
@@ -70,10 +63,10 @@ This section explores the active work required to keep a relationship functional
 
 While every individual is different, these are fundamental _human_ needs that are often prioritized in the context of a long-term relationship.
 
-1. **The Need to Feel Respected & Admired:** This is often a core need, as explained in [[The Need to Feel Respected and Admired is a Core Human Need in a Partnership]].
-2. **The Need for Physical Intimacy & Affection:** This is a vital form of connection, detailed in [[The Need for Physical Intimacy and Affection is a Vital Form of Connection]].
-3. **The Need for Emotional Connection:** This is the need to feel known and accepted, as covered in [[The Need for Emotional Connection Fosters a Sense of Being Known and Accepted]].
-4. **The Need for Autonomy:** This is the need to maintain your own identity, which is explored in [[The Need for Autonomy Preserves Personal Identity Within a Partnership]]
+1. The Need to Feel Respected & Admired: This is often a core need, as explained in [[The Need to Feel Respected and Admired is a Core Human Need in a Partnership]].
+2. The Need for Physical Intimacy & Affection: This is a vital form of connection, detailed in [[The Need for Physical Intimacy and Affection is a Vital Form of Connection]].
+3. The Need for Emotional Connection: This is the need to feel known and accepted, as covered in [[The Need for Emotional Connection Fosters a Sense of Being Known and Accepted]].
+4. The Need for Autonomy: This is the need to maintain your own identity, which is explored in [[The Need for Autonomy Preserves Personal Identity Within a Partnership]]
 
 ---
 
@@ -87,7 +80,7 @@ The line between healthy management and control is important. [[Respectful Budge
 
 #### Common Financial Conflict Points
 
-- **Unilateral Spending:** When one partner makes large purchases without discussion, it is a sign of an [[Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic|unhealthy dynamic]].
-- **Double Standards:** Applying [[Financial Double Standards for Spending Undermine Fairness in a Relationship|different rules for spending]] undermines fairness.
-- **Prioritizing Needs:** A [[A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship|healthy family balances the needs of children and spouses]].
-- **Lack of Agency:** A [[A True Discussion Requires That Both Partners Can Say No Without Fear|true discussion requires the ability to say "no"]]. When a partner's input is dismissed, it [[Dismissing a Partner's Needs as Inconvenient Signals a Lack of Empathy|signals a lack of empathy and respect]].
+- Unilateral Spending: When one partner makes large purchases without discussion, it is a sign of an [[Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic|unhealthy dynamic]].
+- Double Standards: Applying [[Financial Double Standards for Spending Undermine Fairness in a Relationship|different rules for spending]] undermines fairness.
+- Prioritizing Needs: A [[A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship|healthy family balances the needs of children and spouses]].
+- Lack of Agency: A [[A True Discussion Requires That Both Partners Can Say No Without Fear|true discussion requires the ability to say "no"]]. When a partner's input is dismissed, it [[Dismissing a Partner's Needs as Inconvenient Signals a Lack of Empathy|signals a lack of empathy and respect]].

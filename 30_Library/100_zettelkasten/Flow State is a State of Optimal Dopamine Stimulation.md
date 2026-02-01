@@ -1,24 +1,17 @@
 ---
 aliases: ["Flow State"]
-confidence: "0.8"
 created: 2025-11-11T19:05:02Z
-epistemic: "fact"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:31+00:00
-purpose: "Explains the neurochemical basis of a 'flow state'."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: "seedling"
 tags: ["dopamine", "TheHuman/Health/ADHD", "TheHuman/Psychology", "topic/productivity"]
 title: Flow State is a State of Optimal Dopamine Stimulation
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Flow State is a State of Optimal Dopamine Stimulation
 
-**Summary:** A "flow state" is a cognitive state of deep engagement and focus, where the brain receives an optimal level of dopamine stimulation, leading to intense productivity and creativity.
+Summary: A "flow state" is a cognitive state of deep engagement and focus, where the brain receives an optimal level of dopamine stimulation, leading to intense productivity and creativity.
 
-**Details:** This state is particularly powerful for individuals with ADHD, as their brains are often seeking higher levels of stimulation. The challenge lies in the fact that this optimal state is difficult to replicate on demand, as it is often triggered by novel and highly engaging activities.
+Details: This state is particularly powerful for individuals with ADHD, as their brains are often seeking higher levels of stimulation. The challenge lies in the fact that this optimal state is difficult to replicate on demand, as it is often triggered by novel and highly engaging activities.

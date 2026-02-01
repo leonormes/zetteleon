@@ -18,7 +18,7 @@ updated:
 version: ""
 ---
 
-**Naïve realism** is the inherent and largely unconscious belief that we perceive the world objectively and directly as it truly is, rather than as a subjective interpretation.
+Naïve realism is the inherent and largely unconscious belief that we perceive the world objectively and directly as it truly is, rather than as a subjective interpretation.
 
 This psychological phenomenon is the primary reason our own mental models are invisible to us. We don't feel like we are consulting a model; we feel like we are simply observing reality. The model is the lens through which we see, not something we see itself.
 

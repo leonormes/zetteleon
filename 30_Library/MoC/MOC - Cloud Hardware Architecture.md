@@ -1,19 +1,12 @@
 ---
 aliases: [Cloud Hardware MOC, Compute Substrates, The Metal]
-confidence: 5/5
 created: 2025-12-31T00:00:00Z
-epistemic: index
 last_reviewed: 2025-12-31
-modified: 2026-01-28T20:55:45+00:00
-purpose: To map the physical reality of Cloud Compute substrates (AWS/Azure) for high-performance Data-Oriented Programming.
-review_interval: 6 months
-see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - Data-Oriented Programming (DOP)]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:07+00:00
 status: active
 tags: ["SoftwareEngineering/Architecture", cloud, hardware, performance, type/moc]
 title: MOC - Cloud Hardware Architecture
 type: map
-uid:
 updated:
 ---
 

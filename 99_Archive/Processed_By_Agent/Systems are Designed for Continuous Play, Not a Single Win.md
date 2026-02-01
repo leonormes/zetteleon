@@ -17,6 +17,6 @@ uid:
 updated: 
 ---
 
-**Summary:** The purpose of a goal is to win the game, but the purpose of a system is to continue playing the game, ensuring perpetual progress.
+Summary: The purpose of a goal is to win the game, but the purpose of a system is to continue playing the game, ensuring perpetual progress.
 
-**Details:** A system-based approach fosters long-term thinking by prioritizing the "cycle of endless refinement and continuous improvement." This prevents the "yo-yo" effect where motivation disappears after a goal is achieved, causing a regression to old habits. By focusing on the system, progress is sustained indefinitely because the focus is on the process itself, not a finite outcome.
+Details: A system-based approach fosters long-term thinking by prioritizing the "cycle of endless refinement and continuous improvement." This prevents the "yo-yo" effect where motivation disappears after a goal is achieved, causing a regression to old habits. By focusing on the system, progress is sustained indefinitely because the focus is on the process itself, not a finite outcome.

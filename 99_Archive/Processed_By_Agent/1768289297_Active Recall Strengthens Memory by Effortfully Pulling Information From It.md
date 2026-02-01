@@ -19,6 +19,6 @@ updated:
 
 ## Active Recall Strengthens Memory by Effortfully Pulling Information From It
 
-**Summary:** Active recall, or retrieval practice, is a learning strategy that involves actively and effortfully retrieving information from memory, rather than passively re-exposing oneself to it.
+Summary: Active recall, or retrieval practice, is a learning strategy that involves actively and effortfully retrieving information from memory, rather than passively re-exposing oneself to it.
 
-**Details:** This technique is effective due to the "Testing Effect," which shows that the very act of retrieving information strengthens its memory trace, making it more durable and easier to recall in the future. It introduces a "desirable difficulty" that, while feeling more effortful, leads to more robust learning than passive review.
+Details: This technique is effective due to the "Testing Effect," which shows that the very act of retrieving information strengthens its memory trace, making it more durable and easier to recall in the future. It introduces a "desirable difficulty" that, while feeling more effortful, leads to more robust learning than passive review.

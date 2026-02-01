@@ -20,29 +20,29 @@ version: "1"
 
 ## 1. The Hypothesis
 
-> **If** I replace traditional scrolling to-do lists with **Timeboxed calendar appointments** for all tasks,
-> **Then** I will experience significantly reduced task overwhelm and improved task initiation,
-> **Because** the fixed boundaries and visual representation of time combat time blindness and provide essential external structure for the ADHD brain more effectively than abstract lists.
+> If I replace traditional scrolling to-do lists with Timeboxed calendar appointments for all tasks,
+> Then I will experience significantly reduced task overwhelm and improved task initiation,
+> Because the fixed boundaries and visual representation of time combat time blindness and provide essential external structure for the ADHD brain more effectively than abstract lists.
 
 ---
 
 ## 2. Experiment Protocol
 
-- **Duration:** 1 Work Week (Monday - Friday).
-- **Method:**
+- Duration: 1 Work Week (Monday - Friday).
+- Method:
 
-    1. **Discard Traditional Lists:** For the duration of the experiment, do not use any scrolling to-do lists.
-    2. **Calendar Everything:** Plan the entire day by blocking out every task (including breaks and transitions) on the calendar with a defined start and end time.
-    3. **Treat as Appointments:** Treat each time block as a non-negotiable appointment.
+    1. Discard Traditional Lists: For the duration of the experiment, do not use any scrolling to-do lists.
+    2. Calendar Everything: Plan the entire day by blocking out every task (including breaks and transitions) on the calendar with a defined start and end time.
+    3. Treat as Appointments: Treat each time block as a non-negotiable appointment.
 
-- **Tools:** Use a digital calendar with time blocking features.
+- Tools: Use a digital calendar with time blocking features.
 
 ---
 
 ## 3. Expected Outcome
 
-- **Success Metric:** Feel calmer when looking at the daily plan. Successfully start and transition between 80% of scheduled blocks.
-- **Qualitative:** Reduction in the "infinite tasks" feeling. Improved sense of accomplishment.
+- Success Metric: Feel calmer when looking at the daily plan. Successfully start and transition between 80% of scheduled blocks.
+- Qualitative: Reduction in the "infinite tasks" feeling. Improved sense of accomplishment.
 
 ---
 
@@ -52,7 +52,7 @@ version: "1"
 
 ---
 
-**Original Context:**
+Original Context:
 Timeboxing provides a clear, visual representation of the day's workload.
 
-- **Connections:** [[ADHD Behavioral Strategies for Productivity]], [[Visual Timers for ADHD Time Blindness]], [[Executive Function Challenges are Central to ADHD]].
+- Connections: [[ADHD Behavioral Strategies for Productivity]], [[Visual Timers for ADHD Time Blindness]], [[Executive Function Challenges are Central to ADHD]].

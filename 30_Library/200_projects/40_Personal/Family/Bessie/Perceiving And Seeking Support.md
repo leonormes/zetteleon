@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-20T20:17:45Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: []
 title: Perceiving And Seeking Support
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 - "When you tell a teacher 'I don't understand,' what do you wish they would do or say that would genuinely help you understand better, instead of just repeating it slower?" - _Directly addresses her feedback that explanations are often just slower, not clearer._

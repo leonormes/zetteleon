@@ -19,23 +19,23 @@ updated:
 
 ## Operating System Manages Sockets via System Calls
 
-**Summary:** The operating system manages sockets through system calls (syscalls), providing an abstraction layer over physical network hardware that handles IP routing, DNS, and TCP connections.
+Summary: The operating system manages sockets through system calls (syscalls), providing an abstraction layer over physical network hardware that handles IP routing, DNS, and TCP connections.
 
-**Details:**
+Details:
 
-While application code creates and uses socket objects, the actual work happens at the OS level through **system calls** - requests from user-space applications to the kernel.
+While application code creates and uses socket objects, the actual work happens at the OS level through system calls - requests from user-space applications to the kernel.
 
-**OS responsibilities for sockets:**
+OS responsibilities for sockets:
 
-- **Network stack management**: Implementing TCP/IP protocol layers
-- **Hardware abstraction**: Interfacing with network interface cards (NICs)
-- **IP routing**: Determining the path packets take through networks
-- **DNS resolution**: Converting domain names to IP addresses
-- **Connection management**: Handling TCP handshakes, timeouts, retransmissions
-- **Buffer management**: Maintaining send and receive buffers for each socket
-- **Resource allocation**: Tracking and limiting system-wide socket usage
+- Network stack management: Implementing TCP/IP protocol layers
+- Hardware abstraction: Interfacing with network interface cards (NICs)
+- IP routing: Determining the path packets take through networks
+- DNS resolution: Converting domain names to IP addresses
+- Connection management: Handling TCP handshakes, timeouts, retransmissions
+- Buffer management: Maintaining send and receive buffers for each socket
+- Resource allocation: Tracking and limiting system-wide socket usage
 
-**The abstraction layers:**
+The abstraction layers:
 
 ```sh
 Application Code (Python socket.send())
@@ -49,7 +49,7 @@ Device Drivers (NIC-specific code)
 Physical Network Hardware (Ethernet, WiFi)
 ```
 
-**Key insight:**
+Key insight:
 
 Your code doesn't directly touch the network. When you write `s.send()`, the socket object asks the OS to handle everything. The OS talks to the network stack, which talks to device drivers, which control the actual network hardware. This layered abstraction allows programmers to write network code without understanding hardware specifics.
 

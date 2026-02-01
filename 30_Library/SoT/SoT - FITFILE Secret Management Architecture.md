@@ -1,28 +1,21 @@
 ---
 aliases: [FITFILE Secret Management Architecture, Secret Management SoT, VSO Implementation Guide]
-confidence: 5/5
 created: 2025-12-15T00:00:00Z
-epistemic: ""
 last_reviewed: 2025-12-15
-modified: 2026-01-23T18:09:20+00:00
-purpose: "The canonical source of truth for FITFILE's secret management architecture, defining the standard VSO implementation and the path to remediate legacy technical debt."
-review_interval: 6 months
-see_also: ["[[FITFILE Platform Terraform Module Wiki]]", "[[General Principles for Adding Secrets]]", "[[SoT - FITFILE Platform Deployment]]", "[[SoT - PRODOS (System Architecture)]]", "[[Vault to Kubernetes Secrets Management Guide]]"]
-source_of_truth: []
+modified: 2026-02-01T15:07:58+00:00
 status: stable
 tags: ["SoftwareEngineering/Architecture", "SoftwareEngineering/Security", fitfile, kubernetes, vault]
 title: SoT - FITFILE Secret Management Architecture
 type: SoT
-uid:
 updated:
 uuid: d33b2418-260e-4eba-8375-26c545e2792e
 ---
 
 Currently, the deployment landscape is split: ""
 
-1. **Canonical (Standard): "** Modern environments (e.g., `ffnodes/fitfile`, `cuh-prod-1`) use VSO to dynamically sync secrets from Vault."
-2. **Legacy (Debt): "** Older environments (`stg`, `kch`) rely on a technical debt \"hack\" using hardcoded `vault-replacement-secrets.yaml` manifests."
-**The Mandate: "** All environments must converge on the Canonical Path defined in `charts/ffnode`."
+1. Canonical (Standard): " Modern environments (e.g., `ffnodes/fitfile`, `cuh-prod-1`) use VSO to dynamically sync secrets from Vault."
+2. Legacy (Debt): " Older environments (`stg`, `kch`) rely on a technical debt \"hack\" using hardcoded `vault-replacement-secrets.yaml` manifests."
+The Mandate: " All environments must converge on the Canonical Path defined in `charts/ffnode`."
 
 ## 2. The Canonical Architecture
 
@@ -30,18 +23,18 @@ The standard implementation leverages a data-driven approach where secrets are d
 
 ### Core Components
 
-1. **HashiCorp Vault:** The central, encrypted source of truth for all secret data.
-2. **Vault Secrets Operator (VSO):** The Kubernetes operator that authenticates with Vault (via AppRole) and synchronizes secrets into Kubernetes `Secret` resources.
-3. **Helm / ArgoCD:** The delivery mechanism that configures VSO resources via the `ffnode` chart.
+1. HashiCorp Vault: The central, encrypted source of truth for all secret data.
+2. Vault Secrets Operator (VSO): The Kubernetes operator that authenticates with Vault (via AppRole) and synchronizes secrets into Kubernetes `Secret` resources.
+3. Helm / ArgoCD: The delivery mechanism that configures VSO resources via the `ffnode` chart.
 
 ### The Configuration Flow
 
-1. **Definition:** Secrets are declared in `values.yaml` under `vaultSecrets` or `extraVaultSecrets`.
-2. **Generation:** The `charts/ffnode` helper `_helpers.tpl` (specifically `generateVaultDynamicSecrets`) processes these values.
-3. **Injection:** The helper generates `VaultStaticSecret` or `VaultDynamicSecret` CRDs.
-4. **Sync:** VSO detects the CRD, fetches the data from Vault, and creates a native Kubernetes Secret.
+1. Definition: Secrets are declared in `values.yaml` under `vaultSecrets` or `extraVaultSecrets`.
+2. Generation: The `charts/ffnode` helper `_helpers.tpl` (specifically `generateVaultDynamicSecrets`) processes these values.
+3. Injection: The helper generates `VaultStaticSecret` or `VaultDynamicSecret` CRDs.
+4. Sync: VSO detects the CRD, fetches the data from Vault, and creates a native Kubernetes Secret.
 
-**Example Pattern:**
+Example Pattern:
 
 ```yaml
 # ffnodes/fitfile/ff-test-a/values.yaml
@@ -64,9 +57,9 @@ These environments purely use VSO and do not rely on hardcoded secrets.
 
 | Deployment | Vault Namespace | Base Path | Key Secrets |
 |:--- |:--- |:--- |:--- |
-| **`cuh-prod-1`** | `admin/deployments/cuh-prod-1` | `cuh-prod-1-application` | `cloudflare-issuer-api-token`, `fitconnect`, `fitfile-rsa-private-key` |
-| **`nnuh-prod-1`** | `admin/deployments/nnuh-prod-1` | `nnuh-prod-1-application` | `cloudflare-issuer-api-token`, `mongodb` |
-| **`hie-prod-34`** | `admin/deployments/hie-prod-34` | `hie-prod-34-application` | `s3-export-secret` (Custom export creds) |
+| `cuh-prod-1` | `admin/deployments/cuh-prod-1` | `cuh-prod-1-application` | `cloudflare-issuer-api-token`, `fitconnect`, `fitfile-rsa-private-key` |
+| `nnuh-prod-1` | `admin/deployments/nnuh-prod-1` | `nnuh-prod-1-application` | `cloudflare-issuer-api-token`, `mongodb` |
+| `hie-prod-34` | `admin/deployments/hie-prod-34` | `hie-prod-34-application` | `s3-export-secret` (Custom export creds) |
 
 ### B. Legacy Deployments (Technical Debt)
 
@@ -74,7 +67,8 @@ _Status: Remediation Required_
 
 Environments like `stg` and `kch` currently fail to use VSO correctly, relying on `vault-replacement-secrets.yaml`.
 
-**Root Cause:**
+Root Cause:
+
 - Likely network connectivity or `VaultAuth` misconfiguration in the specific clusters prevents VSO from authenticating.
 - "Hack" solution was applied to bypass the error, embedding secrets directly in git/deployment (Security Risk).
 
@@ -84,13 +78,13 @@ Environments like `stg` and `kch` currently fail to use VSO correctly, relying o
 
 To eliminate the security risk and technical debt, we must migrate Legacy environments to the Canonical standard.
 
-1. **Verify VSO Status:** Ensure `vault-secrets-operator` is running in `kch` and `stg` clusters.
-2. **Fix Connectivity/Auth:** Debug the `VaultAuth` resource. Verify the cluster can reach the Vault endpoint and that AppRole credentials are valid.
-3. **Migrate Data:**
+1. Verify VSO Status: Ensure `vault-secrets-operator` is running in `kch` and `stg` clusters.
+2. Fix Connectivity/Auth: Debug the `VaultAuth` resource. Verify the cluster can reach the Vault endpoint and that AppRole credentials are valid.
+3. Migrate Data:
     - Extract values from `vault-replacement-secrets.yaml`.
     - Move them to `values.yaml` `extraVaultSecrets` configuration.
     - Write the actual secret data into the relevant HashiCorp Vault path.
-4. **Delete the Hack:** Remove `templates/vault-replacement-secrets.yaml` entirely.
+4. Delete the Hack: Remove `templates/vault-replacement-secrets.yaml` entirely.
 
 ---
 
@@ -102,7 +96,7 @@ The `hie-prod-34` deployment serves as the primary reference implementation for 
 
 ### 5.1 Secrets Inventory (The Real-World Model)
 
-The deployment manages **19 VaultStaticSecret resources** across three logical layers.
+The deployment manages 19 VaultStaticSecret resources across three logical layers.
 
 #### A. Core Application Layer (FFNode Chart)
 
@@ -129,12 +123,12 @@ _Managed via `extraDeploy` pattern._
 
 ### 5.2 VSO Architecture & Data Flow
 
-1. **Authentication:**
+1. Authentication:
    - Terraform creates an AppRole (RoleID + SecretID).
    - `VaultAuth` resource authenticates VSO against the Vault cluster.
    - VSO obtains a namespace-scoped token.
 
-2. **Transformation (The `extraDeploy` Pattern):**
+2. Transformation (The `extraDeploy` Pattern):
    While `ffnode` handles standard secrets, integrations like Hutch use `extraDeploy` to inject raw VSO resources with complex transformations.
 
 ```yaml
@@ -149,19 +143,19 @@ _Managed via `extraDeploy` pattern._
 
 #### ✅ Strengths
 
-- **Drift Detection:** `hmacSecretData: true` automatically reverts manual tampering.
-- **Dynamic ACR Credentials:** Usage of `VaultDynamicSecret` for short-lived Azure Service Principal tokens.
-- **TLS Automation:** `cert-manager` integrated with Vault PKI.
+- Drift Detection: `hmacSecretData: true` automatically reverts manual tampering.
+- Dynamic ACR Credentials: Usage of `VaultDynamicSecret` for short-lived Azure Service Principal tokens.
+- TLS Automation: `cert-manager` integrated with Vault PKI.
 
 #### ⚠️ Critical Risks & Remediation
 
-1. **Hardcoded Credentials (Legacy):**
+1. Hardcoded Credentials (Legacy):
    - _Risk:_ Plaintext passwords found in legacy `shared-secrets` charts.
    - _Fix:_ Immediate migration to VSO.
-2. **Stale Secrets (No Refresh):**
+2. Stale Secrets (No Refresh):
    - _Risk:_ Database secrets (`mongodb`, `postgresql`) lacked `refreshAfter`, preventing rotation.
-   - _Fix:_ Standardized on a **1h Refresh Interval** for databases.
-3. **No Rollout Restart:**
+   - _Fix:_ Standardized on a 1h Refresh Interval for databases.
+3. No Rollout Restart:
    - _Risk:_ Pods holding old connection pools would fail after rotation.
    - _Fix:_ Added `rolloutRestartTargets` to StatefulSets.
 
@@ -171,10 +165,10 @@ Based on the audit, all new deployments must adhere to these settings:
 
 | Secret Type | Refresh Interval | Rollout Strategy |
 |:--- |:--- |:--- |
-| **Databases** | `1h` | `rolloutRestartTargets: StatefulSet` |
-| **Apps (API)** | `15m` | `rolloutRestartTargets: Deployment` |
-| **Workflows** | `30m` | None (Ephemeral Pods) |
-| **Monitoring** | `1h` | None |
+| Databases | `1h` | `rolloutRestartTargets: StatefulSet` |
+| Apps (API) | `15m` | `rolloutRestartTargets: Deployment` |
+| Workflows | `30m` | None (Ephemeral Pods) |
+| Monitoring | `1h` | None |
 
 ---
 
@@ -186,20 +180,20 @@ We are actively improving the developer experience to reduce toil and error.
 
 We are moving away from verbose templates in `values.yaml` towards simple "Presets" defined in the Helm chart.
 
-- **Old Way:** Manually defining `templates: { apiKey: '{{…}}' }` for every deployment.
-- **New Way:** `preset: mongodb` tells the chart to generate the standard MongoDB secret structure automatically.
+- Old Way: Manually defining `templates: { apiKey: '{{…}}' }` for every deployment.
+- New Way: `preset: mongodb` tells the chart to generate the standard MongoDB secret structure automatically.
 
 ### 6.2 Automated Population (UDE/Vault)
 
 Currently, populating Vault is a manual process using the HCP UI.
 
-- **Goal:** CLI automation to generate and push secrets (e.g., `cargo run -- key-gen`).
-- **Target:** A `make init-secrets` command that generates random passwords and UDE keys and pushes them to the correct Vault path.
+- Goal: CLI automation to generate and push secrets (e.g., `cargo run -- key-gen`).
+- Target: A `make init-secrets` command that generates random passwords and UDE keys and pushes them to the correct Vault path.
 
 ### 6.3 Dynamic Database Secrets
 
-- **Goal:** Move from static KV secrets (long-lived passwords) to Vault's Database Secrets Engine.
-- **Benefit:** Short-lived, automatically rotated credentials (TTL 1h) generated on-the-fly for each pod.
+- Goal: Move from static KV secrets (long-lived passwords) to Vault's Database Secrets Engine.
+- Benefit: Short-lived, automatically rotated credentials (TTL 1h) generated on-the-fly for each pod.
 - [ ] R&D how to use vault's dB secrets engine ^2025-12-26T21-58-48
     - [📱 View in Todoist app](todoist://task?id=6fcrF7wgv6cfR48M) (Created: 📝 2025-12-26T21:59)
 
@@ -213,7 +207,7 @@ The `hie-prod-34` deployment serves as the primary reference implementation for 
 
 ### 5.1 Secrets Inventory (The Real-World Model)
 
-The deployment manages **19 VaultStaticSecret resources** across three logical layers.
+The deployment manages 19 VaultStaticSecret resources across three logical layers.
 
 #### A. Core Application Layer (FFNode Chart)
 
@@ -240,12 +234,12 @@ _Managed via `extraDeploy` pattern._
 
 ### 5.2 VSO Architecture & Data Flow
 
-1. **Authentication:**
+1. Authentication:
    - Terraform creates an AppRole (RoleID + SecretID).
    - `VaultAuth` resource authenticates VSO against the Vault cluster.
    - VSO obtains a namespace-scoped token.
 
-2. **Transformation (The `extraDeploy` Pattern):**
+2. Transformation (The `extraDeploy` Pattern):
    While `ffnode` handles standard secrets, integrations like Hutch use `extraDeploy` to inject raw VSO resources with complex transformations.
 
 ```yaml
@@ -260,19 +254,19 @@ _Managed via `extraDeploy` pattern._
 
 #### ✅ Strengths
 
-- **Drift Detection:** `hmacSecretData: true` automatically reverts manual tampering.
-- **Dynamic ACR Credentials:** Usage of `VaultDynamicSecret` for short-lived Azure Service Principal tokens.
-- **TLS Automation:** `cert-manager` integrated with Vault PKI.
+- Drift Detection: `hmacSecretData: true` automatically reverts manual tampering.
+- Dynamic ACR Credentials: Usage of `VaultDynamicSecret` for short-lived Azure Service Principal tokens.
+- TLS Automation: `cert-manager` integrated with Vault PKI.
 
 #### ⚠️ Critical Risks & Remediation
 
-1. **Hardcoded Credentials (Legacy):**
+1. Hardcoded Credentials (Legacy):
    - _Risk:_ Plaintext passwords found in legacy `shared-secrets` charts.
    - _Fix:_ Immediate migration to VSO.
-2. **Stale Secrets (No Refresh): САЩ
+2. Stale Secrets (No Refresh): САЩ
    - _Risk:_ Database secrets (`mongodb`, `postgresql`) lacked `refreshAfter`, preventing rotation.
-   - _Fix:_ Standardized on a **1h Refresh Interval** for databases.
-3. **No Rollout Restart:**
+   - _Fix:_ Standardized on a 1h Refresh Interval for databases.
+3. No Rollout Restart:
    - _Risk:_ Pods holding old connection pools would fail after rotation.
    - _Fix:_ Added `rolloutRestartTargets` to StatefulSets.
 
@@ -282,10 +276,10 @@ Based on the audit, all new deployments must adhere to these settings:
 
 | Secret Type | Refresh Interval | Rollout Strategy |
 |:--- |:--- |:--- |
-| **Databases** | `1h` | `rolloutRestartTargets: StatefulSet` |
-| **Apps (API)** | `15m` | `rolloutRestartTargets: Deployment` |
-| **Workflows** | `30m` | None (Ephemeral Pods) |
-| **Monitoring** | `1h` | None |
+| Databases | `1h` | `rolloutRestartTargets: StatefulSet` |
+| Apps (API) | `15m` | `rolloutRestartTargets: Deployment` |
+| Workflows | `30m` | None (Ephemeral Pods) |
+| Monitoring | `1h` | None |
 
 ---
 
@@ -297,19 +291,19 @@ We are actively improving the developer experience to reduce toil and error.
 
 We are moving away from verbose templates in `values.yaml` towards simple "Presets" defined in the Helm chart.
 
-- **Old Way:** Manually defining `templates: { apiKey: '{{…}}' }` for every deployment.
-- **New Way:** `preset: mongodb` tells the chart to generate the standard MongoDB secret structure automatically.
+- Old Way: Manually defining `templates: { apiKey: '{{…}}' }` for every deployment.
+- New Way: `preset: mongodb` tells the chart to generate the standard MongoDB secret structure automatically.
 
 ### 6.2 Automated Population (UDE/Vault)
 
 Currently, populating Vault is a manual process using the HCP UI.
 
-- **Goal:** CLI automation to generate and push secrets (e.g., `cargo run -- key-gen`).
-- **Target:** A `make init-secrets` command that generates random passwords and UDE keys and pushes them to the correct Vault path.
+- Goal: CLI automation to generate and push secrets (e.g., `cargo run -- key-gen`).
+- Target: A `make init-secrets` command that generates random passwords and UDE keys and pushes them to the correct Vault path.
 
 ### 6.3 Dynamic Database Secrets
 
-- **Goal:** Move from static KV secrets (long-lived passwords) to Vault's Database Secrets Engine.
-- **Benefit:** Short-lived, automatically rotated credentials (TTL 1h) generated on-the-fly for each pod.
+- Goal: Move from static KV secrets (long-lived passwords) to Vault's Database Secrets Engine.
+- Benefit: Short-lived, automatically rotated credentials (TTL 1h) generated on-the-fly for each pod.
 - [ ] R&D how to use vault's dB secrets engine ^2025-12-26T21-58-48
     - [📱 View in Todoist app](todoist://task?id=6fcrF7wgv6cfR48M) (Created: 📝 2025-12-26T21:59)

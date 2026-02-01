@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-09-07T04:31:45Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:30+00:00
 status: ""
 tags: []
 title: Miyamoto Musashi
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]]

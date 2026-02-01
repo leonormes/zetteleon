@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-03-12T08:16:37Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:17+00:00
 status: ""
 tags: ["IAM"]
 title: Key Principles in Establishing Trust
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Now, regarding your question about the key principles and challenges in establishing and maintaining trust in secure systems, let's delve into what these sources have to say.

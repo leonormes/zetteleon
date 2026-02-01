@@ -19,6 +19,6 @@ updated:
 
 ## The Skill in Productivity is Not Confusing Motion for Action
 
-**Summary:** A crucial skill in effective productivity is to distinguish between "motion" (preparatory activity) and "action" (behavior that produces tangible outcomes), and not to confuse the former for actual progress.
+Summary: A crucial skill in effective productivity is to distinguish between "motion" (preparatory activity) and "action" (behavior that produces tangible outcomes), and not to confuse the former for actual progress.
 
-**Details:** Motion involves activities like planning, strategizing, or organizing, which are necessary but do not directly advance a project. Action, conversely, is the physical execution of a task that results in observable change. The danger lies in feeling productive from motion without actually making progress through action.
+Details: Motion involves activities like planning, strategizing, or organizing, which are necessary but do not directly advance a project. Action, conversely, is the physical execution of a task that results in observable change. The danger lies in feeling productive from motion without actually making progress through action.

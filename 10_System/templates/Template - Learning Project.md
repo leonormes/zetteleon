@@ -26,9 +26,9 @@ type: project
 # Project: Learn {{Topic}} (The Path)
 
 > [!abstract] The "Why" (Top-Down Context)
-> **Goal:** {{What can you DO after learning this?}}
-> **The Problem:** {{What pain does this solve?}}
-> **The "Boss Fight":** {{A concrete project that proves you know it.}}
+> Goal: {{What can you DO after learning this?}}
+> The Problem: {{What pain does this solve?}}
+> The "Boss Fight": {{A concrete project that proves you know it.}}
 
 ---
 
@@ -39,29 +39,29 @@ type: project
 ### Level 1: The Basics (Novice)
 
 *Goal: Get it running.*
-- [ ] **Mission 1:** Hello World / Setup.
-- [ ] **Mission 2:** The Core Concept (The thing that makes this hard).
-- [ ] **Boss Fight 1:** A simple toy program.
+- [ ] Mission 1: Hello World / Setup.
+- [ ] Mission 2: The Core Concept (The thing that makes this hard).
+- [ ] Boss Fight 1: A simple toy program.
 
 ### Level 2: The Struggle (Apprentice)
 
 *Goal: Understand the "Why".*
-- [ ] **Mission 3:** {{Concept 2}}
-- [ ] **Mission 4:** {{Concept 3}}
-- [ ] **Boss Fight 2:** A useful tool.
+- [ ] Mission 3: {{Concept 2}}
+- [ ] Mission 4: {{Concept 3}}
+- [ ] Boss Fight 2: A useful tool.
 
 ### Level 3: Mastery (Practitioner)
 
 *Goal: Build the Boss Fight.*
-- [ ] **Mission 5:** Advanced Patterns.
-- [ ] **Final Boss:** {{The Capstone Project}}
+- [ ] Mission 5: Advanced Patterns.
+- [ ] Final Boss: {{The Capstone Project}}
 
 ---
 
 ## 2. Active Quest (The Workbench)
 
 *Link your current HEAD note here.*
-- **Current Focus:** [[{{date}}-HEAD - {{Topic}} Struggle]]
+- Current Focus: [[{{date}}-HEAD - {{Topic}} Struggle]]
 
 ---
 
@@ -74,11 +74,11 @@ type: project
 
 ## 4. The Loop (How to use this note)
 
-1. **Pick a Mission:** Select the next unchecked item.
-2. **Spin Up:** Create a HEAD note to "fight" the concept.
-3. **The Test:** Write code/output. Fail. Fix it.
-4. **Synthesize:** When you understand it, create/update an SoT note (The Loot).
-5. **Level Up:** Check the box in this Project note.
+1. Pick a Mission: Select the next unchecked item.
+2. Spin Up: Create a HEAD note to "fight" the concept.
+3. The Test: Write code/output. Fail. Fix it.
+4. Synthesize: When you understand it, create/update an SoT note (The Loot).
+5. Level Up: Check the box in this Project note.
 
 ---
 
@@ -86,7 +86,7 @@ type: project
 
 *Log your context before quitting.*
 
-> **💾 Save State: [YYYY-MM-DD]**
-> 1. **Current Location:**...
-> 2. **Mental RAM Dump:**...
-> 3. **Next Physical Action:**...
+> 💾 Save State: [YYYY-MM-DD]
+> 1. Current Location:...
+> 2. Mental RAM Dump:...
+> 3. Next Physical Action:...

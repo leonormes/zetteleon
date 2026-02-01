@@ -1,19 +1,12 @@
 ---
 aliases: ["AKS Auto-Shutdown", "Cloud Cost Saving", "Environment Hibernation"]
-confidence: ""
 created: 2025-11-13T00:00:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:21+00:00
-purpose: ""
-review_interval: "3 months"
-see_also: ["[[FFAPP-4416 Schedule testing and staging clusters to hibernate outside working hours]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:02+00:00
 status: "stable"
 tags: ["aks", "azure", "cloud", "cost-optimization", "devops", "terraform"]
 title: SoT - Automated Cloud Resource Hibernation
 type: "SoT"
-uid: 
 updated: 
 ---
 
@@ -31,22 +24,22 @@ The most robust implementation pattern involves using an IaC tool like Terraform
 
 ### 📤 Integration Source 2025-11-13 (NoteRef: [[300_tickets/FFAPP-4416...]])
 
-- **Raw Excerpt/Key Insight:** Implemented AKS cluster hibernation for staging and testing environments using a private `aks-automation` Terraform module. The module configures an Azure Automation Account with runbooks and schedules to stop/start clusters between 9 pm and 6 am UTC, Monday-Friday.
-- **Value Proposition:** This provides a concrete, real-world example of the hibernation concept applied to AKS using a reusable Terraform module.
-- **Conflict Analysis:** None. This is a direct implementation of the core concept.
-- **Suggested Action:** Keep as a reference implementation. No immediate integration into the core understanding is needed, as it's an example, not a change to the concept itself.
+- Raw Excerpt/Key Insight: Implemented AKS cluster hibernation for staging and testing environments using a private `aks-automation` Terraform module. The module configures an Azure Automation Account with runbooks and schedules to stop/start clusters between 9 pm and 6 am UTC, Monday-Friday.
+- Value Proposition: This provides a concrete, real-world example of the hibernation concept applied to AKS using a reusable Terraform module.
+- Conflict Analysis: None. This is a direct implementation of the core concept.
+- Suggested Action: Keep as a reference implementation. No immediate integration into the core understanding is needed, as it's an example, not a change to the concept itself.
 
 ## 4. Understanding Layers (Progressive Abstraction)
 
-- **Layer 1: Basic Mental Model:** Turn off things we're not using overnight and on weekends to save money.
-- **Layer 2: Mechanistic Explanation:** Use scheduled automation scripts to "stop" and "start" virtual machines or entire clusters in cloud environments based on a defined timetable (e.g., business hours).
-- **Layer 3: Protocol/Detail Level:** Implement this using a dedicated Terraform module that configures an Azure Automation Account with specific start/stop runbooks and schedule resources. Manage the application of these Terraform configurations through a CI/CD pipeline triggered by merge requests.
+- Layer 1: Basic Mental Model: Turn off things we're not using overnight and on weekends to save money.
+- Layer 2: Mechanistic Explanation: Use scheduled automation scripts to "stop" and "start" virtual machines or entire clusters in cloud environments based on a defined timetable (e.g., business hours).
+- Layer 3: Protocol/Detail Level: Implement this using a dedicated Terraform module that configures an Azure Automation Account with specific start/stop runbooks and schedule resources. Manage the application of these Terraform configurations through a CI/CD pipeline triggered by merge requests.
 
 ## 5. Minimum Viable Understanding (MVU)
 
-- **Established:** 2025-11-13
-- **Status:** DRAFT
-- **Last Confirmed Working:** N/A
+- Established: 2025-11-13
+- Status: DRAFT
+- Last Confirmed Working: N/A
 - 1. Identify non-production resources with predictable idle periods (e.g., outside Mon-Fri, 9-5).
 - 2. Define a shutdown and startup schedule based on those working hours.
 - 3. Use a cloud automation tool (like Azure Automation or AWS Instance Scheduler) to execute the schedule.
@@ -54,22 +47,22 @@ The most robust implementation pattern involves using an IaC tool like Terraform
 
 ## 6. Battle Testing and Decay Signals
 
-- **Core Claim(s):** Scheduled hibernation of non-production environments is a low-effort, high-impact strategy for reducing cloud expenditure. Managing this via IaC makes it reliable and scalable.
-- **Challenges Survived:**
+- Core Claim(s): Scheduled hibernation of non-production environments is a low-effort, high-impact strategy for reducing cloud expenditure. Managing this via IaC makes it reliable and scalable.
+- Challenges Survived:
   - _(Awaiting real-world data on cost savings and developer feedback)_
-- **Current Status:** UNDER REVIEW
-- **Decay/Obsolescence Markers:** None yet.
+- Current Status: UNDER REVIEW
+- Decay/Obsolescence Markers: None yet.
 
 ## 7. Tensions, Gaps, and Cross-SoT Coherence
 
-- **Tensions:**
-  - **Cost Savings vs. Developer Convenience:** An automated shutdown may interrupt ad-hoc evening/weekend work or automated test runs unless an override mechanism exists.
-- **Confidence Gaps:**
-  - **Generalizability:** The current implementation example is Azure-specific. How would this pattern adapt to AWS or GCP, and what are their equivalent native tools?
-  - **Stateful Applications:** How do stateful applications or databases within a cluster react to an abrupt shutdown? This requires further investigation to prevent data corruption.
-- **Cross-SoT Conflicts:**
+- Tensions:
+  - Cost Savings vs. Developer Convenience: An automated shutdown may interrupt ad-hoc evening/weekend work or automated test runs unless an override mechanism exists.
+- Confidence Gaps:
+  - Generalizability: The current implementation example is Azure-specific. How would this pattern adapt to AWS or GCP, and what are their equivalent native tools?
+  - Stateful Applications: How do stateful applications or databases within a cluster react to an abrupt shutdown? This requires further investigation to prevent data corruption.
+- Cross-SoT Conflicts:
   - None identified. This concept is in alignment with the likely principles of a `[[Cloud Cost Optimization SoT]]`.
 
 ## 8. Sources and Links
 
-- **Integrated Note:** [[FFAPP-4416 Schedule testing and staging clusters to hibernate outside working hours]]
+- Integrated Note: [[FFAPP-4416 Schedule testing and staging clusters to hibernate outside working hours]]

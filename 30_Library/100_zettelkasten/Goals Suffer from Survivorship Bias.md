@@ -1,24 +1,17 @@
 ---
 aliases: ["Survivorship Bias of Goals"]
-confidence: "0.9"
 created: 2025-11-06T19:57:00Z
-epistemic: "fact"
 last_reviewed: "2025-11-06"
-modified: 2026-01-23T18:09:31+00:00
-purpose: "To explain that goals are poor differentiators of success due to survivorship bias."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: "seedling"
 tags: ["goals", "success", "survivorship-bias", "topic/systems"]
 title: Goals Suffer from Survivorship Bias
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Goals Suffer from Survivorship Bias
 
-**Summary:** Focusing on goals as the cause of success is misleading because it ignores the fact that both winners and losers often share the exact same goals.
+Summary: Focusing on goals as the cause of success is misleading because it ignores the fact that both winners and losers often share the exact same goals.
 
-**Details:** This is a form of survivorship bias. We see the successful people who achieved their goals and mistakenly attribute their success to the goal itself. However, countless others had the same ambition and failed. The true differentiating factor is not the goal, but the underlying system of continuous improvement that the successful individuals implemented.
+Details: This is a form of survivorship bias. We see the successful people who achieved their goals and mistakenly attribute their success to the goal itself. However, countless others had the same ambition and failed. The true differentiating factor is not the goal, but the underlying system of continuous improvement that the successful individuals implemented.

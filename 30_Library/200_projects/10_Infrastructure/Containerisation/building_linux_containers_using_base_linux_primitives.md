@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:27+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:18+00:00
 status: ""
 tags: ["SoftwareEngineering/Containers"]
 title: building_linux_containers_using_base_linux_primitives
 type: "instruction"
-uid: 
 updated: 
-version: "1"
 ---
 
 ## Introduction to Containers

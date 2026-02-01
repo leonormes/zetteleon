@@ -1,30 +1,23 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-10-31T13:07:00Z
-epistemic: "comparison"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: "Contrast nihilism with active meaning-making."
-review_interval: "90"
-see_also: ["Existentialism - Existence Precedes Essence.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:30+00:00
 status: "seedling"
 tags: ["TheHuman/Philosophy", "TheHuman/Psychology"]
 title: Nihilism vs Constructed Meaning
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Nihilism Vs Constructed Meaning
 
-**Comparison:**
+Comparison:
 
-- **Nihilism**: No inherent meaning → potential despair
-- **Constructed Meaning**: No inherent meaning → creative opportunity
+- Nihilism: No inherent meaning → potential despair
+- Constructed Meaning: No inherent meaning → creative opportunity
 
-**ADHD Relevance:**
+ADHD Relevance:
 
 - Explains motivation fluctuations
 - Validates interest-based engagement

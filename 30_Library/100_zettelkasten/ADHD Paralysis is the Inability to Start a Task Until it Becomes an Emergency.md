@@ -1,20 +1,13 @@
 ---
 aliases: ["ADHD Paralysis"]
-confidence: "null"
 created: 2025-10-29T16:38:00Z
-epistemic: "fact"
 last_reviewed: "null"
-modified: 2026-01-08T10:50:02+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
+modified: 2026-02-01T15:08:37+00:00
 source: "[[MOC - The Phases of Task Execution and the Impact of ADHD]]"
-source_of_truth: []
 status: "seedling"
 tags: ["executive_function", "task_initiation", "TheHuman/Health/ADHD"]
 title: ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency
 type: "concept"
-uid: 
 updated: 
 ---
 
@@ -28,7 +21,5 @@ This state of inaction is a cognitive "freeze response" triggered by executive d
 2. To escape this aversive feeling, the brain defaults to avoidance and procrastination.
 3. Avoidance allows pressure to mount, making the task more intimidating.
 4. The sense of overwhelm escalates, entrenching the paralysis further.
-
-***
 
 - Reading this it is clearly AI. Often AI just agrees with me and makes what I said sound real. It is annoying because I actually want to know the truth.

@@ -1,24 +1,16 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-24T15:07:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:27+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:19+00:00
 status: "null"
 tags: ["bridge", "layer2", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]
 title: What is a Linux bridge
 type: "Factual"
-uid: 
 updated: 
-version: "null"
 ---
 
-**Links:**
+Links:
 
 - Up: [[MOC - Container Networking Model]]
 - Related: [[What is a veth pair]], [[What is ARP]], [[How Linux bridge learns MAC addresses]], [[How to set up a Linux bridge for container networking]]
@@ -37,8 +29,8 @@ Veth pairs provide point-to-point connectivity, but containers need to communica
 
 A Linux bridge is a kernel network device that:
 
-- Operates at **OSI Layer 2** (Data Link)
-- Forwards frames based on **MAC addresses**
+- Operates at OSI Layer 2 (Data Link)
+- Forwards frames based on MAC addresses
 - Learns MAC-to-port mappings dynamically (like a physical switch)
 - Can have an IP address assigned to it (acting as a gateway)
 - Connects multiple network interfaces together
@@ -61,15 +53,15 @@ ip link set veth-abc master cni0
 
 ### Key Properties
 
-- **MAC learning**: Automatically builds a forwarding table
-- **Flooding**: Sends unknown unicast frames to all ports
-- **Broadcast domain**: All attached interfaces share the same broadcast domain
-- **Transparent**: Invisible to higher-layer protocols
-- **STP-capable**: Can run Spanning Tree Protocol (usually disabled in containers)
+- MAC learning: Automatically builds a forwarding table
+- Flooding: Sends unknown unicast frames to all ports
+- Broadcast domain: All attached interfaces share the same broadcast domain
+- Transparent: Invisible to higher-layer protocols
+- STP-capable: Can run Spanning Tree Protocol (usually disabled in containers)
 
 ### Default Bridge in Kubernetes
 
-Most CNI plugins create a bridge named **`cni0`** on each node:
+Most CNI plugins create a bridge named `cni0` on each node:
 
 - All Pod veth pairs attach to this bridge
 - The bridge itself gets an IP from the node's Pod CIDR
@@ -79,10 +71,10 @@ Most CNI plugins create a bridge named **`cni0`** on each node:
 
 ### What This Enables
 
-- **Same-node Pod communication**: All Pods on a node can communicate via the bridge
-- **Gateway functionality**: Bridge IP serves as default route for Pods
-- **MAC-based forwarding**: Efficient Layer 2 switching without routing overhead
-- **CNI simplicity**: Bridge plugin is one of the simplest CNI implementations
+- Same-node Pod communication: All Pods on a node can communicate via the bridge
+- Gateway functionality: Bridge IP serves as default route for Pods
+- MAC-based forwarding: Efficient Layer 2 switching without routing overhead
+- CNI simplicity: Bridge plugin is one of the simplest CNI implementations
 
 ### What Breaks If This Fails
 
@@ -93,10 +85,10 @@ Most CNI plugins create a bridge named **`cni0`** on each node:
 
 ### How It Maps to Kubernetes
 
-- **`cni0` bridge**: Default bridge created by bridge CNI plugin
-- **Pod veth interfaces**: Attached as ports on the bridge
-- **Node IP**: Assigned to the bridge for gateway functionality
-- **iptables integration**: Rules reference bridge interfaces for SNAT/DNAT
+- `cni0` bridge: Default bridge created by bridge CNI plugin
+- Pod veth interfaces: Attached as ports on the bridge
+- Node IP: Assigned to the bridge for gateway functionality
+- iptables integration: Rules reference bridge interfaces for SNAT/DNAT
 
 ### Real-World Inspection
 

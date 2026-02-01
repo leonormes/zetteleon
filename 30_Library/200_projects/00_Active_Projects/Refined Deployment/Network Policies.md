@@ -1,21 +1,12 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-07-10T13:05:05Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:28+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
-status: "null"
+modified: 2026-02-01T15:08:20+00:00
 tags: ["SoftwareEngineering/Kubernetes", "SoftwareEngineering/Networking"]
 title: Network Policies
-type: "null"
-uid: 
+type: "head"
 updated: 
-version: "null"
 ---
 
 - Purpose: Network Policies act as pod-level firewalls, allowing you to specify how groups of pods are permitted to communicate with each other. By default, Kubernetes allows any traffic to or from any pod in the cluster, which is generally undesirable for security in production environments. Network Policies enable you to restrict connections based on labels applied to pods, rather than relying on ephemeral IP addresses.

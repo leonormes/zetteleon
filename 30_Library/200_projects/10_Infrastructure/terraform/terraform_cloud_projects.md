@@ -1,38 +1,30 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-01-06T13:59:42Z
 depends_on: ["name: \"AWS authentication"]
 deployment_phase: "1"
 description: "Service principal credentials and roles"
 doc_link: "[aws_service_principal](aws_service_principal.md)"
-epistemic: ""
 estimated_duration: "30m"
 iac_path: ["repo: \"terraform-aws-eks-private"]
 last_reviewed: ""
 main_file: "tfe_projects.tf"
-modified: 2026-01-23T18:09:25+00:00
+modified: 2026-02-01T15:08:13+00:00
 name: "iam"
 next_steps: ""
 path: "Production/central-services/hcp/tfc"
 phase: "1"
 phase_order: ""
-purpose: ""
 reason: "Required for AWS authentication"
 required_configurations: ""
 required_resources: ["type: \"aws_service"]
-review_interval: ""
-see_also: []
-source_of_truth: []
 status: ""
 step: "3"
 tags: []
 title: terraform_cloud_projects
 type: "tooling"
-uid: 
 updated: 
 verification_steps: ""
-version: ""
 ---
 
 ## Terraform Cloud Projects

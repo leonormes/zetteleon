@@ -1,28 +1,21 @@
 ---
 aliases: ["MOC - Information to Knowledge"]
-confidence: "null"
 created: 2025-11-01T12:10:00Z
 criteria: ""
-epistemic: "null"
 exclusions: "The data-information distinction, wisdom."
 last_reviewed: "null"
-modified: 2026-01-08T15:03:28+00:00
-purpose: "null"
-review_interval: "null"
+modified: 2026-02-01T15:08:06+00:00
 scope: ""
-see_also: []
-source_of_truth: []
 status: "null"
 tags: ["epistemology", "information", "knowledge"]
 title: MOC - From Information to Knowledge
 type: "map"
-uid: 
 updated: 
 ---
 
 ## MOC - From Information to Knowledge
 
-> **Inclusion criteria:** Atomic notes related to the transformation of information into knowledge.
+> Inclusion criteria: Atomic notes related to the transformation of information into knowledge.
 
 ### The Transformation Process
 

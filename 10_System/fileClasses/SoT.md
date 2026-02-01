@@ -1,8 +1,6 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-12-24T22:15:02Z
-epistemic: ""
 fields:
   - name: status
     type: Select
@@ -48,15 +46,10 @@ fields:
   - name: source_of_truth
     type: MultiFile
 last_reviewed: ""
-modified: 2025-12-25T18:35:29Z
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:15+00:00
 status: ""
 tags: []
 title: SoT
 type: ""
-uid: 
 updated: 
 ---

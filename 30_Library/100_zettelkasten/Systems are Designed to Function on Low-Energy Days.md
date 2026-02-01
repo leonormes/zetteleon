@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-30T12:06:01Z
-epistemic: "principle"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
+modified: 2026-02-01T15:08:26+00:00
 source: "[[MOC - Systems Thinking for Goal Achievement]]"
-source_of_truth: []
 status: "seedling"
 tags: ["energy-management", "TheHuman/Habits", "TheHuman/Health/ADHD", "topic/systems"]
 title: Systems are Designed to Function on Low-Energy Days
 type: "concept"
-uid: 
 updated: 
 ---
 
@@ -24,8 +17,8 @@ A primary advantage of systems over goals is that they are designed to function 
 
 Think of motivation and energy as water flowing through a system:
 
-- **High-motivation days:** A flood of water—the system channels it productively
-- **Low-motivation days:** Only a trickle—but the pipe still directs it to the right place
+- High-motivation days: A flood of water—the system channels it productively
+- Low-motivation days: Only a trickle—but the pipe still directs it to the right place
 
 The system provides the intelligence and direction, so the "water" (your energy) just needs to flow. On low days, even a small trickle makes progress when properly channeled.
 

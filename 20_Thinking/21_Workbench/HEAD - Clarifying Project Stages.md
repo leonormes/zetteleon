@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence:
 created: 2025-12-08T00:00:00Z
-epistemic:
 last_reviewed:
-modified: 2026-01-23T18:09:15+00:00
-purpose:
-review_interval:
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:11+00:00
 status: archived
 tags: [process, prodos, thinking]
 title: HEAD - Clarifying Project Stages
 type: head
-uid:
 updated:
 ---
 
@@ -35,9 +28,9 @@ A project shouldn't be "Active" unless it has a defined Next Action and a recent
 
 ### The Tension
 
-- **Definition:** What exactly separates "Incubation" from "Active"?
-- **Limit:** Should I enforce a WIP (Work In Progress) limit on "Active" projects?
-- **Visuals:** How do I visualize these stages in the file explorer or dashboard?
+- Definition: What exactly separates "Incubation" from "Active"?
+- Limit: Should I enforce a WIP (Work In Progress) limit on "Active" projects?
+- Visuals: How do I visualize these stages in the file explorer or dashboard?
 
 ### The Next Test
 

@@ -1,19 +1,12 @@
 ---
 aliases: ["Finance Map", "Money MOC"]
-confidence: "5/5"
 created: 2025-12-23T22:23:09Z
-epistemic: "reference"
 last_reviewed: "2025-12-23"
-modified: 2026-01-08T15:03:28+00:00
-purpose: "The central entry point for navigating financial management, budgeting methods, and spendfulness psychology."
-review_interval: "6 months"
-see_also: ["[[MOC - ProdOS]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:06+00:00
 status: "stable"
 tags: ["family", "finance", "index", "wealth"]
 title: MOC - Family & Finance
 type: "map"
-uid: 
 updated: 
 ---
 
@@ -28,9 +21,9 @@ updated:
 
 The rules and mechanics of effective money management.
 
-- **[[SoT - The YNAB Method]]**—_Rule One (Jobs), The Five Questions, and the mechanics of Zero-Based Budgeting._
-- **[[SoT - Personal Budgeting Methodologies]]**—_Comparing ZBB, 50/30/20, Envelope, and Pay-Yourself-First systems._
-- **[[SoT - Process Primacy (Systems Over Goals)]]**—_Why the habit of budgeting beats the goal of saving._
+- [[SoT - The YNAB Method]]—_Rule One (Jobs), The Five Questions, and the mechanics of Zero-Based Budgeting._
+- [[SoT - Personal Budgeting Methodologies]]—_Comparing ZBB, 50/30/20, Envelope, and Pay-Yourself-First systems._
+- [[SoT - Process Primacy (Systems Over Goals)]]—_Why the habit of budgeting beats the goal of saving._
 
 ---
 
@@ -38,8 +31,8 @@ The rules and mechanics of effective money management.
 
 Breaking the internal loops that drive financial anxiety.
 
-- **[[SoT - The Psychology of Spendfulness]]**—_Redefining scarcity, ending the debt cycle, and achieving guilt-free spending._
-- **[[SoT - Values and Eudaimonia]]**—_Aligning spending with what actually leads to flourishing._
+- [[SoT - The Psychology of Spendfulness]]—_Redefining scarcity, ending the debt cycle, and achieving guilt-free spending._
+- [[SoT - Values and Eudaimonia]]—_Aligning spending with what actually leads to flourishing._
 
 ---
 
@@ -47,13 +40,13 @@ Breaking the internal loops that drive financial anxiety.
 
 Practical guidelines for your specific household.
 
-- **[[SoT - Family Financial Wellness]]**—_The UK allocation plan (76/24 split), fixed vs variable funding, and the Payday Protocol._
-- **[[SoT - Ontology of Money and Wealth]]**—_The philosophical nature of money as potential energy._
+- [[SoT - Family Financial Wellness]]—_The UK allocation plan (76/24 split), fixed vs variable funding, and the Payday Protocol._
+- [[SoT - Ontology of Money and Wealth]]—_The philosophical nature of money as potential energy._
 
 ---
 
 ### 4. Key Rituals
 
-- **The Budget Date Night:** Monthly value-alignment and forecasting.
-- **Whack-a-Mole (WAM):** Weekly adjustment to reality.
-- **Payday Boot Sequence:** Immediate execution of the Five Questions.
+- The Budget Date Night: Monthly value-alignment and forecasting.
+- Whack-a-Mole (WAM): Weekly adjustment to reality.
+- Payday Boot Sequence: Immediate execution of the Five Questions.

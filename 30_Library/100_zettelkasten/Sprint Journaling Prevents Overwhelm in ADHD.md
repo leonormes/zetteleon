@@ -1,20 +1,13 @@
 ---
 aliases: ["Sprint Journaling"]
-confidence: "null"
 created: 2025-10-30T12:10:03Z
-epistemic: "principle"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
+modified: 2026-02-01T15:08:27+00:00
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
-source_of_truth: []
 status: "seedling"
 tags: ["TheHuman/Health/ADHD", "time-management", "topic/productivity", "writing"]
 title: Sprint Journaling Prevents Overwhelm in ADHD
 type: "concept"
-uid: 
 updated: 
 ---
 

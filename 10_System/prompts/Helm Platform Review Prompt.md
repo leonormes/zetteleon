@@ -1,14 +1,8 @@
 ---
 aliases: []
-confidence: ""
 created: 2026-01-03T15:22:49+00:00
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:50:03+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:14+00:00
 status: active
 tags: []
 title: Helm Platform Review Prompt
@@ -21,18 +15,21 @@ You are a Principal Infrastructure Engineer and Helm Expert acting as a Code Rev
 
 ## The Context: "The Compiler Migration"
 
-We are refactoring our infrastructure from a legacy "Wrapper Chart" (which blindly passed 100s of values to sub-charts) to a new **"Compiler Pattern"**.
+We are refactoring our infrastructure from a legacy "Wrapper Chart" (which blindly passed 100s of values to sub-charts) to a new "Compiler Pattern".
 
-**The Goal:**
-1. **Input:** A high-level "Intent" (e.g., `class: production-ha`, `features: [fitconnect, hutch]`).
-2. **Logic:** A Logic Engine (`_compiler.tpl`) that compiles this intent into rigid, type-safe specifications.
-3. **Output:** 100% valid Kubernetes manifests (using standard off-the-shelf Bitnami/Argo charts).
+The Goal:
 
-**The Business Requirement:**
+1. Input: A high-level "Intent" (e.g., `class: production-ha`, `features: [fitconnect, hutch]`).
+2. Logic: A Logic Engine (`_compiler.tpl`) that compiles this intent into rigid, type-safe specifications.
+3. Output: 100% valid Kubernetes manifests (using standard off-the-shelf Bitnami/Argo charts).
+
+The Business Requirement:
+
 We are scaling to many customers. We need to:
-- **Prevent Human Error:** Impossible states (e.g., "FitConnect enabled but Postgres disabled") must be unrepresentable.
-- **Maintain Flexibility:** We must support bespoke overrides (e.g., "Customer A needs 2 replicas, not 3") without forking the platform.
-- **Manage Lifecycle:** We need to upgrade versions (e.g., MongoDB 16 -> 17) centrally, but allow pinning specific customers to old versions if needed.
+
+- Prevent Human Error: Impossible states (e.g., "FitConnect enabled but Postgres disabled") must be unrepresentable.
+- Maintain Flexibility: We must support bespoke overrides (e.g., "Customer A needs 2 replicas, not 3") without forking the platform.
+- Manage Lifecycle: We need to upgrade versions (e.g., MongoDB 16 -> 17) centrally, but allow pinning specific customers to old versions if needed.
 
 ## The Codebase to Review
 
@@ -191,9 +188,9 @@ fitfile-core:
 
 Please review this architecture and code with a focus on:
 
-1. **Flexibility:** Can I easily change a specific resource limit or version for _just one_ customer without branching the main chart?
-2. **Safety:** Are the resource limits applied correctly? Does the `merge` logic in `_compiler.tpl` ensure that overrides take precedence over defaults?
-3. **Maintainability:** Is the `_specs.yaml` structure scalable as we add more services (e.g. Redis, RabbitMQ)?
-4. **Refactoring:** Are there any antipatterns in the Go Templating? Is there a cleaner way to handle the "Dependency Injection" (e.g. passing the Postgres URL to FitConnect)?
+1. Flexibility: Can I easily change a specific resource limit or version for _just one_ customer without branching the main chart?
+2. Safety: Are the resource limits applied correctly? Does the `merge` logic in `_compiler.tpl` ensure that overrides take precedence over defaults?
+3. Maintainability: Is the `_specs.yaml` structure scalable as we add more services (e.g. Redis, RabbitMQ)?
+4. Refactoring: Are there any antipatterns in the Go Templating? Is there a cleaner way to handle the "Dependency Injection" (e.g. passing the Postgres URL to FitConnect)?
 
 Provide a critique and 3 specific refactoring suggestions to improve the pattern.

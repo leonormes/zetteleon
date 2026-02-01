@@ -1,23 +1,15 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:56Z
 dependencies: ""
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
+modified: 2026-02-01T15:08:12+00:00
 name: "troubleshooting_guide"
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
 status: ""
 tags: []
 title: troubleshooting_guide
 type: "operational_guide"
-uid: 
 updated: 
-version: ""
 ---
 
 ## Private Deployment Troubleshooting Guide

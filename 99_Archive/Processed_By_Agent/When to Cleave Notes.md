@@ -19,16 +19,16 @@ updated:
 
 ## When to Cleave Notes
 
-**Summary:** A note becomes a candidate for cleaving when it exceeds certain thresholds in length, linkage, or structural complexity, indicating it contains both atomic facts and contextual narrative.
+Summary: A note becomes a candidate for cleaving when it exceeds certain thresholds in length, linkage, or structural complexity, indicating it contains both atomic facts and contextual narrative.
 
-**Details:**
+Details:
 
 Cleaving is triggered by one or more of the following conditions:
 
-- **Length threshold:** Note exceeds 250 words. Long notes are often hybrids mixing facts with narrative.
-- **Outlink threshold:** Note contains more than 12 internal wikilinks, indicating it references many atomic concepts that could be more explicitly structured.
-- **Contextual sections:** Note contains sections like "Use cases", "When not to use", "Trade-offs", "Examples", or "How it relates to X"—these are structural patterns, not atomic definitions.
-- **Narrative voice:** Original note contains personal reasoning, argument, or sequencing that exists only to link disparate facts.
+- Length threshold: Note exceeds 250 words. Long notes are often hybrids mixing facts with narrative.
+- Outlink threshold: Note contains more than 12 internal wikilinks, indicating it references many atomic concepts that could be more explicitly structured.
+- Contextual sections: Note contains sections like "Use cases", "When not to use", "Trade-offs", "Examples", or "How it relates to X"—these are structural patterns, not atomic definitions.
+- Narrative voice: Original note contains personal reasoning, argument, or sequencing that exists only to link disparate facts.
 
 When any trigger fires, the note is a good candidate for cleaving. The cleaved output will be smaller atomic notes plus a MOC that preserves the original narrative and reasoning.
 

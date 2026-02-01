@@ -1,21 +1,13 @@
 ---
 aliases: ["Virtue of Humanity"]
-confidence: ""
 created: 2025-07-16T17:30:02Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: ""
 tags: ["character", "humanity", "via-strengths", "virtue"]
 title: VIA Virtue of Humanity
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 The virtue of Humanity, as defined by the [[VIA Character Strengths]] framework, encompasses interpersonal strengths that involve tending and befriending others.

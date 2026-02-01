@@ -1,51 +1,44 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-30T12:00:03Z
-epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: "2 weeks"
-see_also: ["[[MOC - ADHD Experiments & Protocols]]"]
+modified: 2026-02-01T15:08:28+00:00
 source: "[[MOC - ADHD Task Management]]"
-source_of_truth: []
 status: "pending"
 tags: ["experiment", "hypothesis", "language", "reframing", "TheHuman/Health/ADHD", "TheHuman/Motivation", "topic/productivity"]
 title: Reframing Language from Obligation to Purpose Boosts ADHD Task Initiation
 type: "hypothesis"
-uid: 
 updated: 
 ---
 
 ## 1. The Hypothesis
 
-> **If** I reframe "Have to" tasks into "User Stories" (_"As a [Role], I want [Action], So that [Benefit]"_),
-> **Then** task initiation resistance will decrease significantly,
-> **Because** the ADHD brain creates resistance against external obligation (ODD-lite) but is motivated by intrinsic purpose and identity.
+> If I reframe "Have to" tasks into "User Stories" (_"As a [Role], I want [Action], So that [Benefit]"_),
+> Then task initiation resistance will decrease significantly,
+> Because the ADHD brain creates resistance against external obligation (ODD-lite) but is motivated by intrinsic purpose and identity.
 
 ---
 
 ## 2. Experiment Protocol
 
-- **Duration:** 3 Days.
-- **Trigger:** Whenever I feel the "UGH" sensation or say "I _need_ to do X."
-- **Action:**
+- Duration: 3 Days.
+- Trigger: Whenever I feel the "UGH" sensation or say "I _need_ to do X."
+- Action:
 
-    1. **Stop.** Do not try to push through the resistance.
-    2. **Rephrase:** Speak the User Story aloud.
+    1. Stop. Do not try to push through the resistance.
+    2. Rephrase: Speak the User Story aloud.
 
         - _Old:_ "I need to do the dishes."
         - _New:_ "As a _Father_, I want to _clear the sink_, so that _my morning coffee is peaceful tomorrow_."
 
-    3. **Assess:** Does the "Wall of Awful" shrink?
+    3. Assess: Does the "Wall of Awful" shrink?
 
 ---
 
 ## 3. Expected Outcome
 
-- **Metric:** Count how many times the reframe successfully led to action (e.g., 5/7 attempts).
-- **Qualitative:** Reduction in the physical sensation of "heavy gravity" before starting.
+- Metric: Count how many times the reframe successfully led to action (e.g., 5/7 attempts).
+- Qualitative: Reduction in the physical sensation of "heavy gravity" before starting.
 
 ---
 
@@ -55,5 +48,6 @@ updated:
 
 ---
 
-**Philosophical Basis:**
+Philosophical Basis:
+
 Aligns with [[Existentialism - Existence Precedes Essence]] - framing tasks as chosen expressions of purpose rather than imposed obligations.

@@ -27,26 +27,26 @@ All humans run on remarkably similar biological architecture. Barring significan
 
 ### B. The Mirror Neuron System
 
-**Mirror Neurons** are brain cells that fire both when an agent _performs_ an action and when they _observe_ another performing it.
-- **Internal Simulation:** This creates a low-level simulation of the other person's intent and feeling in your own brain.
-- **Function:** It acts as non-verbal empathy, allowing our models of other people's internal states to be surprisingly accurate.
+Mirror Neurons are brain cells that fire both when an agent _performs_ an action and when they _observe_ another performing it.
+- Internal Simulation: This creates a low-level simulation of the other person's intent and feeling in your own brain.
+- Function: It acts as non-verbal empathy, allowing our models of other people's internal states to be surprisingly accurate.
 
 ### C. Symbolic Language: The Packaging Tool
 
 Language allows us to package private experiences into shared, abstract symbols (words).
 
-- **Shared Labels:** Agreeing that "sadness" represents a specific cluster of feelings creates a public pointer to a private state.
-- **Metaphorical Transfer:** We use physical concepts (e.g., "heavy heart," "feeling down") to describe the qualities of internal states.
-- **Transmission:** Language allows the transmission of incredibly complex models (ethics, history, science) across minds and generations.
+- Shared Labels: Agreeing that "sadness" represents a specific cluster of feelings creates a public pointer to a private state.
+- Metaphorical Transfer: We use physical concepts (e.g., "heavy heart," "feeling down") to describe the qualities of internal states.
+- Transmission: Language allows the transmission of incredibly complex models (ethics, history, science) across minds and generations.
 
 ---
 
 ## 2. The Collective Brain
 
-Individual intelligence is a prerequisite, but human dominance is a result of **Cumulative Culture**.
+Individual intelligence is a prerequisite, but human dominance is a result of Cumulative Culture.
 
-- **The Ratchet of Progress:** Detailed records (writing) prevent knowledge from being forgotten or distorted, acting as a mechanical ratchet that allows progress to scale exponentially.
-- **Collective Problem-Solving:** Cooperation allows groups to pool cognitive resources, creating an evolutionary feedback loop that selects for higher social intelligence.
+- The Ratchet of Progress: Detailed records (writing) prevent knowledge from being forgotten or distorted, acting as a mechanical ratchet that allows progress to scale exponentially.
+- Collective Problem-Solving: Cooperation allows groups to pool cognitive resources, creating an evolutionary feedback loop that selects for higher social intelligence.
 
 ---
 

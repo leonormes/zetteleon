@@ -20,6 +20,6 @@ version: ""
 
 The Transport Layer provides reliable or unreliable data delivery between end points. It segments data, provides flow control, and error control. Protocols like TCP and UDP operate at this layer.
 
-- **Problem Solved:** Ensures that data is delivered reliably (or unreliably, depending on the protocol) and in the correct order between applications.
+- Problem Solved: Ensures that data is delivered reliably (or unreliably, depending on the protocol) and in the correct order between applications.
 
 [[OSI model]]

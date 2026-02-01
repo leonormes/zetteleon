@@ -1,24 +1,17 @@
 ---
 aliases: ["Constructed Reality"]
-confidence: "0.9"
 created: 2025-11-06T19:58:01Z
-epistemic: "insight"
 last_reviewed: "2025-11-06"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "To reframe social constructs as real and functional, rather than meaningless and arbitrary."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: "seedling"
 tags: ["meaning", "reality", "social-constructs", "TheHuman/Philosophy"]
 title: Social Constructs are Not Arbitrary, They are Real in Their Effects
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Social Constructs Are Not Arbitrary, They Are Real in Their Effects
 
-**Summary:** Social constructs should be reframed not as "arbitrary" and meaningless, but as "contingent" or "constructed" systems that are real and powerful in their effects.
+Summary: Social constructs should be reframed not as "arbitrary" and meaningless, but as "contingent" or "constructed" systems that are real and powerful in their effects.
 
-**Details:** While constructs like money, language, or laws are not "true" in the same way as physical laws, they are not random. They have rules, history, and immense real-world consequences that cannot be ignored. Recognizing that these systems are constructed, rather than objectively true, does not diminish their power; it highlights that their reality is built on collective participation and belief.
+Details: While constructs like money, language, or laws are not "true" in the same way as physical laws, they are not random. They have rules, history, and immense real-world consequences that cannot be ignored. Recognizing that these systems are constructed, rather than objectively true, does not diminish their power; it highlights that their reality is built on collective participation and belief.

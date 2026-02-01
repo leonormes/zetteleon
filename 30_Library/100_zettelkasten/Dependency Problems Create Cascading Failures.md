@@ -1,31 +1,24 @@
 ---
 aliases: ["Dependency Hell"]
-confidence: "0.9"
 created: 2025-10-31T12:36:00Z
-epistemic: "pattern"
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: "Explain systemic risks of tight coupling."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:35+00:00
 status: "seedling"
 tags: ["risk", "SoftwareEngineering/Architecture"]
 title: Dependency Problems Create Cascading Failures
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Dependency Problems Create Cascading Failures
 
-**Summary:** Poor dependency management leads to:
+Summary: Poor dependency management leads to:
 
 - Version conflicts ("Dependency Hell")
 - Brittle integration points
 - Difficult upgrades/refactoring
 
-**Common Causes:**
+Common Causes:
 
 - Overuse of shared libraries
 - Lack of interface abstraction

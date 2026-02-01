@@ -1,24 +1,16 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-20T09:01:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: ""
 tags: ["principles", "proactivity", "responsibility", "TheHuman/Habits"]
 title: Habit 1 - Be Proactive
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
-**Habit 1: Be Proactive** is the foundation of [[The 7 Habits - The Maturity Continuum]]. It asserts that we are responsible for our own lives. Our behavior is a function of our decisions, not our conditions. Proactive people recognize they have the responsibility and the ability to choose their response to any stimulus.
+Habit 1: Be Proactive is the foundation of [[The 7 Habits - The Maturity Continuum]]. It asserts that we are responsible for our own lives. Our behavior is a function of our decisions, not our conditions. Proactive people recognize they have the responsibility and the ability to choose their response to any stimulus.
 
 This stands in contrast to a reactive mindset, where people are driven by feelings, circumstances, and their environment.
 
@@ -26,8 +18,8 @@ This stands in contrast to a reactive mindset, where people are driven by feelin
 
 A key model for proactivity is the concept of two circles:
 
-- **Circle of Concern:** Includes all the things we care about but have no direct control over (e.g., the national debt, global weather).
-- **Circle of Influence:** Includes the things we can do something about.
+- Circle of Concern: Includes all the things we care about but have no direct control over (e.g., the national debt, global weather).
+- Circle of Influence: Includes the things we can do something about.
 
 Proactive people focus their time and energy on their Circle of Influence. As they work on themselves and the things they can change, their Circle of Influence grows. Reactive people focus on the Circle of Concern, which leads to blaming, victim mindsets, and a shrinking Circle of Influence.
 

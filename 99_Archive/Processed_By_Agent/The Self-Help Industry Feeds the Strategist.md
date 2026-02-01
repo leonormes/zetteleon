@@ -22,7 +22,7 @@ The self-help industry, including books, courses, and how-to videos, often worse
 
 This creates two problems:
 
-1. **Illusion of Progress**: Consuming information provides an "emotional sugar rush" and feels like making progress, but it only widens the gap between the ability to plan and the ability to execute.
-2. **Profit from Paralysis**: This dynamic creates a profitable cycle. A person's hesitation and paralysis are fed with more information, which they consume in an attempt to ease their uncertainty, further strengthening the Strategist and weakening the Performer.
+1. Illusion of Progress: Consuming information provides an "emotional sugar rush" and feels like making progress, but it only widens the gap between the ability to plan and the ability to execute.
+2. Profit from Paralysis: This dynamic creates a profitable cycle. A person's hesitation and paralysis are fed with more information, which they consume in an attempt to ease their uncertainty, further strengthening the Strategist and weakening the Performer.
 
 The marketing of these products often relies on survivorship bias, highlighting bestseller status (sales) rather than effectiveness (actual results or completion rates).

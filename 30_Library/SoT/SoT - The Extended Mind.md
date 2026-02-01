@@ -1,19 +1,12 @@
 ---
 aliases: ["Active Externalism", "Cumulative Thinking", "Distributed Cognition", "Embodied Cognition", "EMT", "HEC", "Hypothesis of Extended Cognition", "The Extended Mind Thesis"]
-confidence: "5/5"
 created: 2025-12-07T18:28:36Z
-epistemic: "theory"
 last_reviewed: "2025-12-30"
-modified: 2026-01-23T18:09:16+00:00
-purpose: "To define the 'Extended Mind' as the foundational cognitive architecture for ProdOS."
-review_interval: "3 months"
-see_also: ["[[SoT - Material Symbols]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT - The Negotiable Body]]"]
-source_of_truth: []
+modified: 2026-02-01T15:07:50+00:00
 status: "stable"
 tags: ["extended_mind", "mental_models", "pkm", "TheHuman/Cognition", "TheHuman/Health/ADHD", "TheHuman/Philosophy"]
 title: SoT - The Extended Mind
 type: "SoT"
-uid: 
 updated: 
 ---
 

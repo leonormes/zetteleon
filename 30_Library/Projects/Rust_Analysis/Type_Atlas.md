@@ -2,8 +2,7 @@
 aliases: []
 created: 2026-01-08T14:55:52+00:00
 last_reviewed: ""
-modified: 2026-01-08T14:59:27+00:00
-review_interval: ""
+modified: 2026-02-01T15:08:03+00:00
 status: ""
 tags: []
 title: Type_Atlas
@@ -16,20 +15,20 @@ A data-oriented analysis of the type system, focusing on state ownership, depend
 
 ### 1. Root State
 
-The **`App`** struct in `src/app/state.rs` acts as the single source of truth for the application. It aggregates all sub-systems (Editor, Vim, Configuration, Data).
+The `App` struct in `src/app/state.rs` acts as the single source of truth for the application. It aggregates all sub-systems (Editor, Vim, Configuration, Data).
 
 #### `App` Ownership Tree
 
-- **Data Model**
+- Data Model
     - `notes`: `Vec<Note>` (All loaded notes)
     - `file_tree`: `Vec<FileTreeItem>` (Directory structure)
     - `sidebar_items`: `Vec<SidebarItem>` (Flattened view of file tree)
-- **Core Components**
+- Core Components
     - `editor`: `Editor` (The text editing engine)
     - `vim`: `VimState` (Vim emulation state)
     - `config`: `Config` (User settings)
     - `theme`: `Theme` (UI styling)
-- **UI State**
+- UI State
     - `mode`: `Mode` (`Normal` | `Edit`)
     - `focus`: `Focus` (`Sidebar` | `Content` | `Outline`)
     - `dialog`: `DialogState` (Active modal overlay)
@@ -45,8 +44,8 @@ The Editor uses a Gap Buffer for efficient text manipulation.
 
 | Type | Definition | Dependencies | Description |
 |:--- |:--- |:--- |:--- |
-| **`Editor`** | `struct` | `TextBuffer`, `Cursor`, `History`, `WrapCache`, `Style` | The main editor component. Owns the buffer and editing state. |
-| `TextBuffer` | `struct` | `Vec<String>` | **Line-based Gap Buffer**. Split into `before` and `after` vectors. |
+| `Editor` | `struct` | `TextBuffer`, `Cursor`, `History`, `WrapCache`, `Style` | The main editor component. Owns the buffer and editing state. |
+| `TextBuffer` | `struct` | `Vec<String>` | Line-based Gap Buffer. Split into `before` and `after` vectors. |
 | `Cursor` | `struct` | `Position`, `Selection` | Tracks cursor position and active selection. |
 | `Position` | `struct` | `row: usize`, `col: usize` | Simple coordinate type. |
 | `History` | `struct` | `VecDeque<HistoryEntry>` | Undo/Redo stack. |
@@ -59,7 +58,7 @@ Implements a state machine independent of the App, though `App` owns `VimState`.
 
 | Type | Definition | Dependencies | Description |
 |:--- |:--- |:--- |:--- |
-| **`VimState`** | `struct` | `VimMode`, `RegisterMap`, `MacroState`, `MarkMap` | Holds all Vim-related persistent state. |
+| `VimState` | `struct` | `VimMode`, `RegisterMap`, `MacroState`, `MarkMap` | Holds all Vim-related persistent state. |
 | `VimMode` | `enum` | `Operator` | Detailed mode (e.g., `OperatorPending`, `Search`, `Visual`). |
 | `RegisterMap` | `struct` | `HashMap<char, RegisterContent>` | Stores yanked/deleted text. |
 | `MacroState` | `struct` | `HashMap<char, Vec<KeyEvent>>` | Recorded macro sequences. |
@@ -105,7 +104,7 @@ graph TD
 
 ### 3. Key Observations
 
-1. **Monolithic State**: The `App` struct is a classic "god struct" that owns almost everything. This simplifies state management (no complex lifetime borrowing across modules) but means `App` is passed mutably to almost every update function.
-2. **Duplicated Vim Mode**: There is a `VimMode` enum in `src/app/state.rs` (simple: Normal, Insert, Visual) and a more complex `VimMode` in `src/vim/mode.rs` (includes OperatorPending, Search, etc.). `App` uses the simple one for high-level UI logic and `VimState` uses the complex one for internal logic.
-3. **Gap Buffer**: The text buffer implementation (`src/editor/buffer.rs`) is line-based. It uses `before: Vec<String>` and `after: Vec<String>` to represent lines above and below the "gap" (the current editing line). This is optimized for vertical movement and single-line edits.
-4. **No References**: The codebase heavily relies on owning data (`String`, `Vec`, `PathBuf`). Lifetimes are rarely used in struct definitions, indicating a "clone-heavy" or "ownership-passing" architecture typical of terminal apps to avoid borrow checker complexity.
+1. Monolithic State: The `App` struct is a classic "god struct" that owns almost everything. This simplifies state management (no complex lifetime borrowing across modules) but means `App` is passed mutably to almost every update function.
+2. Duplicated Vim Mode: There is a `VimMode` enum in `src/app/state.rs` (simple: Normal, Insert, Visual) and a more complex `VimMode` in `src/vim/mode.rs` (includes OperatorPending, Search, etc.). `App` uses the simple one for high-level UI logic and `VimState` uses the complex one for internal logic.
+3. Gap Buffer: The text buffer implementation (`src/editor/buffer.rs`) is line-based. It uses `before: Vec<String>` and `after: Vec<String>` to represent lines above and below the "gap" (the current editing line). This is optimized for vertical movement and single-line edits.
+4. No References: The codebase heavily relies on owning data (`String`, `Vec`, `PathBuf`). Lifetimes are rarely used in struct definitions, indicating a "clone-heavy" or "ownership-passing" architecture typical of terminal apps to avoid borrow checker complexity.

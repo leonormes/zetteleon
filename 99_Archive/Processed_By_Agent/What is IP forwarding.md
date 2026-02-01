@@ -18,7 +18,7 @@ updated:
 version: "null"
 ---
 
-**Links:**
+Links:
 
 - Up: [[MOC - Container Networking Model]]
 - Related: [[What is iptables NAT MASQUERADE]], [[How a packet exits a container via NAT]]
@@ -67,10 +67,10 @@ sysctl -p
 When a packet arrives:
 
 1. Kernel checks if the destination IP matches a local interface
-2. **If no** → Check `ip_forward` setting
+2. If no → Check `ip_forward` setting
    - If `ip_forward=0` → Drop packet
    - If `ip_forward=1` → Consult routing table and forward to next hop
-3. **If yes** → Deliver to local application
+3. If yes → Deliver to local application
 
 ### IPv6 Forwarding
 
@@ -84,30 +84,30 @@ sysctl -w net.ipv6.conf.all.forwarding=1
 
 ### What This Enables
 
-- **Container networking**: Packets flow from Pod → veth → bridge → host interface → internet
-- **Kubernetes networking**: Nodes act as routers for Pod traffic
-- **Multi-node communication**: Cross-node Pod traffic is routed through nodes
-- **NAT functionality**: Forwarding is prerequisite for iptables NAT to work
+- Container networking: Packets flow from Pod → veth → bridge → host interface → internet
+- Kubernetes networking: Nodes act as routers for Pod traffic
+- Multi-node communication: Cross-node Pod traffic is routed through nodes
+- NAT functionality: Forwarding is prerequisite for iptables NAT to work
 
 ### What Breaks If This Fails
 
-- **Pods cannot reach external networks**: Packets are dropped at the host
-- **Pod-to-Pod cross-node fails**: Packets never leave the source node
-- **Services unreachable**: kube-proxy rules ineffective without forwarding
-- **NAT doesn't work**: MASQUERADE rules require forwarding to function
+- Pods cannot reach external networks: Packets are dropped at the host
+- Pod-to-Pod cross-node fails: Packets never leave the source node
+- Services unreachable: kube-proxy rules ineffective without forwarding
+- NAT doesn't work: MASQUERADE rules require forwarding to function
 
 ### How It Maps to Kubernetes
 
-- **kubelet**: Often enables `ip_forward` during node initialization
-- **CNI plugins**: Some CNI plugins check/enable this setting
-- **kube-proxy**: Assumes forwarding is enabled for Service routing
-- **Node readiness**: Disabled forwarding can prevent node from becoming Ready
+- kubelet: Often enables `ip_forward` during node initialization
+- CNI plugins: Some CNI plugins check/enable this setting
+- kube-proxy: Assumes forwarding is enabled for Service routing
+- Node readiness: Disabled forwarding can prevent node from becoming Ready
 
 ### Security Considerations
 
-- **Firewall bypass risk**: Forwarding can route traffic around firewall rules if misconfigured
-- **Unintended routing**: Packets from untrusted interfaces may reach internal networks
-- **Best practice**: Combine with iptables INPUT/FORWARD chains to control forwarding
+- Firewall bypass risk: Forwarding can route traffic around firewall rules if misconfigured
+- Unintended routing: Packets from untrusted interfaces may reach internal networks
+- Best practice: Combine with iptables INPUT/FORWARD chains to control forwarding
 
 ### Example Debug Scenario
 

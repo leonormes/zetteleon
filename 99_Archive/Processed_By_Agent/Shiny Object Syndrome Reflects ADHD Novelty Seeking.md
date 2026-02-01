@@ -19,16 +19,16 @@ updated:
 
 ## Shiny Object Syndrome Reflects ADHD Novelty Seeking
 
-**Summary:** The ADHD tendency to constantly switch systems stems from dopamine-driven [[Novelty Seeking in ADHD Provides Dopamine Regulation|novelty seeking]] rather than dissatisfaction. This is a manifestation of [[Why Importance and Rewards Fail to Motivate ADHD Brains]] and the underlying [[Executive Function Challenges are Central to ADHD]].
+Summary: The ADHD tendency to constantly switch systems stems from dopamine-driven [[Novelty Seeking in ADHD Provides Dopamine Regulation|novelty seeking]] rather than dissatisfaction. This is a manifestation of [[Why Importance and Rewards Fail to Motivate ADHD Brains]] and the underlying [[Executive Function Challenges are Central to ADHD]].
 
-**Pattern:**
+Pattern:
 
 1. New system provides a [[ADHD habit building requires immediate feedback or reward loops|dopamine rush]].
 2. Implementation requires routine work, which often lacks novelty.
 3. Novelty fades, motivation drops, leading to a struggle to maintain [[Structure conserves cognitive energy for neurodivergent brains|consistent structure]].
 4. Search for a new "shiny" system begins, often leading to [[The Danger of Perpetual System-Building]].
 
-**Management Strategies:**
+Management Strategies:
 
 - Build novelty into existing systems, perhaps through [[Designed Task Switching Leverages Dopamine Boosts for ADHD Motivation]].
 - Limit exposure to new tools and focus on mastering existing ones.

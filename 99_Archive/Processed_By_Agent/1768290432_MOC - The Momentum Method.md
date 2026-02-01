@@ -18,7 +18,7 @@ updated:
 version: "2"
 ---
 
-This map outlines the **Momentum Method**, a strategy for overcoming the neurological barrier to starting tasks, a common challenge in ADHD. The method focuses on engineering tasks to lower their initial activation energy, making it easier to begin.
+This map outlines the Momentum Method, a strategy for overcoming the neurological barrier to starting tasks, a common challenge in ADHD. The method focuses on engineering tasks to lower their initial activation energy, making it easier to begin.
 
 ## The Core Problem
 
@@ -30,8 +30,8 @@ The primary obstacle is not the task itself, but the mental energy required to s
 
 The method uses specially designed micro-tasks to build momentum.
 
-- **The Method**: [[The Momentum Method Uses Starter Tasks to Lower Activation Energy]]
-- **The Tool**: [[A Starter Task is a Small Action Designed Purely to Build Momentum]]
+- The Method: [[The Momentum Method Uses Starter Tasks to Lower Activation Energy]]
+- The Tool: [[A Starter Task is a Small Action Designed Purely to Build Momentum]]
 
 ## The Underlying Psychology
 

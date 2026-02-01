@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:55Z
-epistemic: ""
 ID: "blub_studies"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:36+00:00
 status: ""
 tags: ["devex", "mastery", "topic/learning"]
 title: Blub Studies
 type: "permanent"
-uid: 
 updated: 
-version: ""
 ---
 
 Blub studies refers to the deep dive into the inner workings of everyday, mundane software tools and systems that programmers use, like programming languages, frameworks, databases, and version control systems.
@@ -25,11 +17,11 @@ This concept challenges the common assumption that learning exotic technologies 
 
 ## Core Principles
 
-**Depth Over Breadth:** Rather than collecting superficial knowledge of many technologies, blub studies emphasizes building comprehensive understanding of existing tools. This connects to how [[Flawed Mental Models Limit Mastery]] - shallow understanding creates capability ceilings that prevent true expertise.
+Depth Over Breadth: Rather than collecting superficial knowledge of many technologies, blub studies emphasizes building comprehensive understanding of existing tools. This connects to how [[Flawed Mental Models Limit Mastery]] - shallow understanding creates capability ceilings that prevent true expertise.
 
-**Transferable Learning:** The principles learned through deep tool mastery are often generalizable across technologies. Understanding one database deeply provides insights applicable to others, similar to how [[Mental Models The Developer's Internal Compass|mental models]] help developers navigate complex systems.
+Transferable Learning: The principles learned through deep tool mastery are often generalizable across technologies. Understanding one database deeply provides insights applicable to others, similar to how [[Mental Models The Developer's Internal Compass|mental models]] help developers navigate complex systems.
 
-**Practical Value:** [[Mundane Tools Value|Mastering mundane tools]] can significantly improve effectiveness, often more than learning trendy new technologies. This reflects the difference between [[Applicative maths is the use of pre-discovered patterns as tools|applicative knowledge]] (using existing tools expertly) and always seeking new patterns.
+Practical Value: [[Mundane Tools Value|Mastering mundane tools]] can significantly improve effectiveness, often more than learning trendy new technologies. This reflects the difference between [[Applicative maths is the use of pre-discovered patterns as tools|applicative knowledge]] (using existing tools expertly) and always seeking new patterns.
 
 ## Relationship to Learning
 

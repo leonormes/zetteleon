@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-17T21:35:58Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:15+00:00
 status: ""
 tags: ["SoftwareEngineering/Networking"]
 title: curriculum for learning Kubernetes networking
 type: "curriculum"
-uid: 
 updated: 
-version: "1"
 ---
 
 ## Phase 1: Linux Networking Fundamentals

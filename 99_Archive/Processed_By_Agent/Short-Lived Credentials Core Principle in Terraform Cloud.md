@@ -18,9 +18,9 @@ updated:
 version: ""
 ---
 
-The core principle behind best practices for credentials in Terraform Cloud (now HCP Terraform) is the complete elimination of long-lived static secrets. This is achieved by replacing them with **ephemeral, OIDC-issued tokens** that are tightly coupled to each Terraform run.
+The core principle behind best practices for credentials in Terraform Cloud (now HCP Terraform) is the complete elimination of long-lived static secrets. This is achieved by replacing them with ephemeral, OIDC-issued tokens that are tightly coupled to each Terraform run.
 
-This approach fundamentally aligns with **Zero Trust** security principles, where no entity is implicitly trusted, and access is granted only for the duration and scope required. It also significantly enhances **secure CI/CD practices** by removing the risk associated with static credentials being compromised or exposed.
+This approach fundamentally aligns with Zero Trust security principles, where no entity is implicitly trusted, and access is granted only for the duration and scope required. It also significantly enhances secure CI/CD practices by removing the risk associated with static credentials being compromised or exposed.
 
 At runtime, Terraform Cloud authenticates providers by exchanging an OIDC token for these short-lived, just-in-time credentials. These credentials typically have a very short Time-to-Live (TTL), often just minutes, and are automatically destroyed once the Terraform run concludes. This ensures that no static API keys, manual rotations, or vault-managed secrets are persistently stored within Terraform state or environment variables.
 

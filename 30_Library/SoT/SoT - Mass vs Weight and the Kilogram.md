@@ -1,19 +1,12 @@
 ---
 aliases: ["Mass vs Weight", "SI Unit of Mass", "The Kilogram Definition"]
-confidence: "5/5"
 created: 2025-12-12T00:00:00Z
-epistemic: "scientific"
 last_reviewed: "2025-12-12"
-modified: 2026-01-23T18:09:19+00:00
-purpose: "Canonical definition of mass vs. weight and the modern definition of the kilogram based on the Planck constant."
-review_interval: "2 years"
-see_also: ["[[SoT - Reality", "[[what is the difference between mass and weight]]", "and the Limits of Accuracy]]", "Models"]
-source_of_truth: []
+modified: 2026-02-01T15:07:55+00:00
 status: "stable"
 tags: ["measurement", "physics", "science"]
 title: SoT - Mass vs Weight and the Kilogram
 type: "SoT"
-uid: 
 updated: 
 ---
 
@@ -21,11 +14,11 @@ updated:
 
 | Property | Mass | Weight |
 |:--- |:--- |:--- |
-| **Definition** | Amount of matter / Inertia | Force of gravity on mass |
-| **Type** | Scalar (Magnitude only) | Vector (Magnitude + Direction) |
-| **SI Unit** | Kilogram (**kg**) | Newton (**N**) |
-| **Constancy** | **Constant** everywhere in the universe. | **Variable** (Depends on gravity $g$). |
-| **Formula** | $m = F/a$ | $W = m \times g$ |
+| Definition | Amount of matter / Inertia | Force of gravity on mass |
+| Type | Scalar (Magnitude only) | Vector (Magnitude + Direction) |
+| SI Unit | Kilogram (kg) | Newton (N) |
+| Constancy | Constant everywhere in the universe. | Variable (Depends on gravity $g$). |
+| Formula | $m = F/a$ | $W = m \times g$ |
 
 ### Practical Confusion (The Gym Context)
 
@@ -42,10 +35,10 @@ Why do we "lift weights" in kilograms?
 Since 2019, the kilogram is no longer defined by a physical object (the "Grand K" artifact). It is defined by a fundamental constant of nature to ensure universality and stability.
 
 > [!info] The 2019 Definition
-> The kilogram is defined by taking the fixed numerical value of the **Planck constant ($h$)** to be $6.62607015 \times 10^{-34}$ J⋅s.
+> The kilogram is defined by taking the fixed numerical value of the Planck constant ($h$) to be $6.62607015 \times 10^{-34}$ J⋅s.
 
 ### Why the Change
 
-- **Stability:** Physical artifacts (like the platinum-iridium cylinder) can lose atoms or degrade over time. Constants of nature do not.
-- **Universality:** This definition allows any laboratory in the universe with sufficient equipment (like a Kibble Balance) to realize the kilogram without comparing it to a piece of metal in Paris.
-- **Interconnectedness:** The definition depends on the definitions of the _second_ (time) and the _meter_ (length), reflecting the unified nature of physical laws.
+- Stability: Physical artifacts (like the platinum-iridium cylinder) can lose atoms or degrade over time. Constants of nature do not.
+- Universality: This definition allows any laboratory in the universe with sufficient equipment (like a Kibble Balance) to realize the kilogram without comparing it to a piece of metal in Paris.
+- Interconnectedness: The definition depends on the definitions of the _second_ (time) and the _meter_ (length), reflecting the unified nature of physical laws.

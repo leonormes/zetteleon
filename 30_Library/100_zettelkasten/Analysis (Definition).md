@@ -1,29 +1,21 @@
 ---
 aliases: ["Mathematical Analysis", "Real Analysis"]
-confidence: "0.9"
 created: 2025-11-01T11:22:13Z
-epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-23T18:09:32+00:00
-purpose: "Define analysis as the rigorous foundation for calculus."
-review_interval: "90"
-see_also: ["[[Calculus (Definition)]]", "[[Logic Is the Grammar of Rigorous Argument]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:37+00:00
 status: "seedling"
 tags: ["fields", "topic/maths"]
 title: Analysis (Definition)
 type: "definition"
-uid: 
 updated: 
-version: "1"
 ---
 
-**Definition:** Analysis is the rigorous, formal study of limits, continuity, differentiation, integration, and infinite processes, providing the logical foundation for calculus.
+Definition: Analysis is the rigorous, formal study of limits, continuity, differentiation, integration, and infinite processes, providing the logical foundation for calculus.
 
-**Relationship to Calculus:** While calculus provides computational tools for working with continuous change, analysis establishes the precise definitions and proofs that ensure those tools are logically sound.
+Relationship to Calculus: While calculus provides computational tools for working with continuous change, analysis establishes the precise definitions and proofs that ensure those tools are logically sound.
 
-**Foundation:** Analysis is built on a deep understanding of the structure of the real number line (ℝ), particularly the completeness property that distinguishes the reals from the rationals.
+Foundation: Analysis is built on a deep understanding of the structure of the real number line (ℝ), particularly the completeness property that distinguishes the reals from the rationals.
 
-**Key Concepts:** ε-δ definitions of limits, convergence of sequences and series, continuity, uniform convergence, measure theory, and functional analysis.
+Key Concepts: ε-δ definitions of limits, convergence of sequences and series, continuity, uniform convergence, measure theory, and functional analysis.
 
-**Purpose:** Analysis ensures that intuitions about continuous functions and infinitesimal quantities are placed on rigorous logical footing.
+Purpose: Analysis ensures that intuitions about continuous functions and infinitesimal quantities are placed on rigorous logical footing.

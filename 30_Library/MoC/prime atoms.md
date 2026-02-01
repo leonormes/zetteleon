@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-08-19T23:30:13Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T15:03:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:03+00:00
 status: ""
 tags: []
 title: prime atoms
 type: "map"
-uid: 
 updated: 
-version: ""
 ---
 
 [[Prime Numbers Are the Atomic Elements of All Numbers]]

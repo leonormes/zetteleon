@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-03-14T13:26:12Z
-epistemic: ""
 id: "properties of a good network"
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:17+00:00
 status: ""
 tags: ["SoftwareEngineering/Networking"]
 title: Crafting Secure Networks Fundamental Skill
 type: "curriculum"
-uid: 
 updated: 
-version: ""
 ---
 
 The skill of crafting secure networks is a blend of understanding foundational networking concepts, applying security principles, and adapting to the dynamic nature of cloud environments. Here's a breakdown:

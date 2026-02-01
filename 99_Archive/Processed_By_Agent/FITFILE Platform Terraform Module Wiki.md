@@ -20,7 +20,7 @@ version: ""
 
 ## Overview
 
-The **FITFILE Platform Terraform Module** (`terraform-helm-fitfile-platform`) is a comprehensive infrastructure-as-code solution for deploying and managing the FITFILE Kubernetes platform. This module automates the deployment of essential platform components including ingress controllers, GitOps tooling, secrets management, and cluster scaling capabilities.
+The FITFILE Platform Terraform Module (`terraform-helm-fitfile-platform`) is a comprehensive infrastructure-as-code solution for deploying and managing the FITFILE Kubernetes platform. This module automates the deployment of essential platform components including ingress controllers, GitOps tooling, secrets management, and cluster scaling capabilities.
 
 ## Architecture
 
@@ -28,53 +28,53 @@ The module is designed as a modular Terraform configuration that deploys multipl
 
 ### Core Components
 
-#### 1. **Vault Secrets Operator (VSO)**
+#### 1. Vault Secrets Operator (VSO)
 
-- **Purpose**: Manages HashiCorp Vault integration with Kubernetes
-- **Features**:
+- Purpose: Manages HashiCorp Vault integration with Kubernetes
+- Features:
   - Automated secret synchronization between Vault and Kubernetes
   - AppRole authentication support
   - Namespace-scoped secret management
-- **Configuration**: Configurable via `vso_helm_values` variable
+- Configuration: Configurable via `vso_helm_values` variable
 
-#### 2. **Reflector**
+#### 2. Reflector
 
-- **Purpose**: Mirrors Kubernetes secrets and ConfigMaps across namespaces
-- **Features**:
+- Purpose: Mirrors Kubernetes secrets and ConfigMaps across namespaces
+- Features:
   - Automatic secret replication
   - Configurable pod annotations
   - Namespace isolation support
 
-#### 3. **NGINX Ingress Controller**
+#### 3. NGINX Ingress Controller
 
-- **Purpose**: Provides ingress routing and load balancing
-- **Features**:
+- Purpose: Provides ingress routing and load balancing
+- Features:
   - Static IP assignment support
   - Multiple load balancer types (internal/external)
   - Host networking support for edge deployments
   - Cloud provider integration (AWS ALB annotations)
   - Configurable service annotations
-- **Configuration**: Highly configurable via `ingress_helm_values`
+- Configuration: Highly configurable via `ingress_helm_values`
 
-#### 4. **ArgoCD**
+#### 4. ArgoCD
 
-- **Purpose**: GitOps continuous delivery platform
-- **Features**:
+- Purpose: GitOps continuous delivery platform
+- Features:
   - Declarative application management
   - Multi-environment deployment support
   - SSO integration capabilities
   - Automated synchronization
   - Application health monitoring
-- **Configuration**: Supports custom applications via `argocd_applications`
+- Configuration: Supports custom applications via `argocd_applications`
 
-#### 5. **Cluster Autoscaler** (AWS Only)
+#### 5. Cluster Autoscaler (AWS Only)
 
-- **Purpose**: Automatic pod scheduling and cluster scaling
-- **Features**:
+- Purpose: Automatic pod scheduling and cluster scaling
+- Features:
   - Horizontal pod autoscaling integration
   - Cloud provider-specific scaling logic
   - IAM role assumption for AWS
-- **Conditional Deployment**: Only deployed on AWS clusters
+- Conditional Deployment: Only deployed on AWS clusters
 
 ## Version 2.0.0 Breaking Changes
 
@@ -288,11 +288,11 @@ terraform plan -var-file="prod.tfvars"
 
 Respect module dependencies when making changes:
 
-1. **Namespaces** must be created first
-2. **Vault Secrets Operator** and **Reflector** can deploy in parallel
-3. **NGINX Ingress Controller** requires both VSO and Reflector
-4. **ArgoCD** requires the ingress controller for proper routing
-5. **Cluster Autoscaler** can deploy independently but requires AWS IAM setup
+1. Namespaces must be created first
+2. Vault Secrets Operator and Reflector can deploy in parallel
+3. NGINX Ingress Controller requires both VSO and Reflector
+4. ArgoCD requires the ingress controller for proper routing
+5. Cluster Autoscaler can deploy independently but requires AWS IAM setup
 
 ## Troubleshooting
 
@@ -304,7 +304,7 @@ Respect module dependencies when making changes:
 Error: Chart version not found in repository
 ```
 
-**Solution**: Verify the chart version exists in the specified repository and update the version variable accordingly.
+Solution: Verify the chart version exists in the specified repository and update the version variable accordingly.
 
 #### Ingress IP Assignment Issues
 
@@ -312,7 +312,7 @@ Error: Chart version not found in repository
 Error: LoadBalancer IP not assigned
 ```
 
-**Solution**: Ensure the specified `ingress_ip_address` is available and properly configured in your cloud provider.
+Solution: Ensure the specified `ingress_ip_address` is available and properly configured in your cloud provider.
 
 #### Vault Connection Failures
 
@@ -320,7 +320,7 @@ Error: LoadBalancer IP not assigned
 Error: Failed to authenticate with Vault
 ```
 
-**Solution**: Verify vault address, namespace, and AppRole credentials in `app_role_secrets_map`.
+Solution: Verify vault address, namespace, and AppRole credentials in `app_role_secrets_map`.
 
 ### Debugging Commands
 

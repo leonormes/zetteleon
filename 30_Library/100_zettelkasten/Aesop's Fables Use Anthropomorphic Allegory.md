@@ -1,37 +1,30 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-10-31T12:25:00Z
-epistemic: "pattern"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: "Explain Aesop's fable structure."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:37+00:00
 status: "seedling"
 tags: ["literature", "storytelling"]
 title: "Aesop's Fables Use Anthropomorphic Allegory"
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Aesop's Fables Use Anthropomorphic Allegory
 
-**Summary:** Aesop's fables employ animal characters with human traits to:
+Summary: Aesop's fables employ animal characters with human traits to:
 
 - Simplify complex human behaviors
 - Provide emotional distance
 - Enable safe social commentary
 
-**Structure:**
+Structure:
 
 1. Brief scene with animal protagonists
 2. Clear conflict or dilemma
 3. Memorable moral conclusion
 
-**Examples:**
+Examples:
 
 - The Fox and the Grapes
 - The Ant and the Grasshopper

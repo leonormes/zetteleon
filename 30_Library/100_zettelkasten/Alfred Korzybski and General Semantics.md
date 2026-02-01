@@ -1,21 +1,13 @@
 ---
 aliases: ["General Semantics", "Korzybski", "Map-Territory Origin"]
-confidence: "null"
 created: 2025-09-11T21:37:21Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:32+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:37+00:00
 status: "null"
 tags: ["language", "semantics", "TheHuman/Cognition", "topic/philosophy"]
 title: Alfred Korzybski and General Semantics
 type: "permanent"
-uid: 
 updated: 
-version: "1"
 ---
 
 Alfred Korzybski (1879-1950) was a Polish-American philosopher who developed the field of general semantics and coined the famous phrase "the map is not the territory."
@@ -26,11 +18,11 @@ Korzybski recognized that human knowledge consists of abstractions—models, the
 
 ## General Semantics Principles
 
-**Abstraction Awareness**: Understanding that all human knowledge involves multiple levels of abstraction from direct sensory experience to complex theoretical models.
+Abstraction Awareness: Understanding that all human knowledge involves multiple levels of abstraction from direct sensory experience to complex theoretical models.
 
-**Non-Identity**: The principle that no two things are identical, and our categories and labels inevitably oversimplify the uniqueness of individual phenomena.
+Non-Identity: The principle that no two things are identical, and our categories and labels inevitably oversimplify the uniqueness of individual phenomena.
 
-**Time-Binding**: Humans' unique ability to accumulate knowledge across generations through symbolic communication, but this same capacity can perpetuate errors when we mistake symbols for reality.
+Time-Binding: Humans' unique ability to accumulate knowledge across generations through symbolic communication, but this same capacity can perpetuate errors when we mistake symbols for reality.
 
 ## Influence on Modern Thinking
 

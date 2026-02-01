@@ -19,6 +19,6 @@ updated:
 
 ## External Systems Are Vital for Managing Fluctuating Motivation
 
-**Summary:** External structures like systems and routines are particularly vital for individuals with fluctuating motivation or focus, such as those with neurodiverse traits like ADHD.
+Summary: External structures like systems and routines are particularly vital for individuals with fluctuating motivation or focus, such as those with neurodiverse traits like ADHD.
 
-**Details:** When internal planning or focus capabilities are temporarily diminished, an external system provides a predictable path for energy to follow. It gives your motivation "somewhere to go," ensuring that productive work can continue even when internal drive is scattered or low. The system acts as a supportive infrastructure, not a rigid prison.
+Details: When internal planning or focus capabilities are temporarily diminished, an external system provides a predictable path for energy to follow. It gives your motivation "somewhere to go," ensuring that productive work can continue even when internal drive is scattered or low. The system acts as a supportive infrastructure, not a rigid prison.

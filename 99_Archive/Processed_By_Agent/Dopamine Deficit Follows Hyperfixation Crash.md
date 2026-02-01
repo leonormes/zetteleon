@@ -18,32 +18,32 @@ updated:
 version: "1"
 ---
 
-**Summary:** The trough phase following hyperfixation is characterized by a dopamine deficit. After the brain has been flooded with dopamine during hyperfixation, it now operates in a state of dopamine scarcity, leading to apathy, boredom, and lack of motivation.
+Summary: The trough phase following hyperfixation is characterized by a dopamine deficit. After the brain has been flooded with dopamine during hyperfixation, it now operates in a state of dopamine scarcity, leading to apathy, boredom, and lack of motivation.
 
-**The Dopamine Cycle:**
+The Dopamine Cycle:
 
-**During Hyperfixation:**
+During Hyperfixation:
 
 - Dopamine floods the brain in response to novel, rewarding stimuli
 - The reward system is highly activated
 - Motivation, focus, and pleasure are abundant
 
-**After the Crash:**
+After the Crash:
 
 - Dopamine reserves are depleted
 - The reward system becomes under-responsive
 - The brain seeks but cannot find sufficient stimulation
 
-**Neurochemical Explanation:**
+Neurochemical Explanation:
 
 The dopamine deficit occurs because:
 
-1. **Depletion:** Extended hyperfixation depletes available dopamine reserves
-2. **Downregulation:** Intense stimulation may cause temporary downregulation of dopamine receptors
-3. **Reward Threshold:** The brain's reward threshold may temporarily increase, making normal activities seem even less rewarding than usual
-4. **Refractory Period:** The dopamine system needs time to recover and reestablish baseline function
+1. Depletion: Extended hyperfixation depletes available dopamine reserves
+2. Downregulation: Intense stimulation may cause temporary downregulation of dopamine receptors
+3. Reward Threshold: The brain's reward threshold may temporarily increase, making normal activities seem even less rewarding than usual
+4. Refractory Period: The dopamine system needs time to recover and reestablish baseline function
 
-**Behavioral Consequences:**
+Behavioral Consequences:
 
 During this dopamine-deficit state:
 
@@ -53,7 +53,7 @@ During this dopamine-deficit state:
 - The person may describe feeling "dead inside" or numb
 - Even enjoyable activities fail to generate interest
 
-**Recovery:**
+Recovery:
 
 The deficit persists until either:
 

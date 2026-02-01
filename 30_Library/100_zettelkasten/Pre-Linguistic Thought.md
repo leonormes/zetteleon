@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-08-31T16:06:31Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:29+00:00
 status: "null"
 tags: ["development", "pre-linguistic", "TheHuman/Cognition", "thought"]
 title: Pre-Linguistic Thought
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
 Pre-linguistic thought refers to cognitive processes that occur before or independent of language acquisition. Understanding the nature of thought before it's captured by linguistic structures is essential to comprehending the gap between thought and language.

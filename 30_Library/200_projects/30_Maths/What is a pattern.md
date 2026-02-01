@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-07-18T14:03:32Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: []
 title: What is a pattern
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 A pattern is fundamentally a cognitive phenomenon.

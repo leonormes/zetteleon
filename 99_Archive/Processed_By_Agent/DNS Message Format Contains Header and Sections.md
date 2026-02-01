@@ -19,22 +19,22 @@ updated:
 
 ## DNS Message Format Contains Header and Sections
 
-**Summary:** DNS messages have a standardized format with header fields and multiple data sections.
+Summary: DNS messages have a standardized format with header fields and multiple data sections.
 
-**Header (12 bytes):**
+Header (12 bytes):
 
 - ID: Query/response matching
 - Flags: QR, OPCODE, AA, TC, RD, RA, RCODE
 - Counts: QDCOUNT, ANCOUNT, NSCOUNT, ARCOUNT
 
-**Sections:**
+Sections:
 
-1. **Question:** Query parameters (QNAME, QTYPE, QCLASS)
-2. **Answer:** Matching resource records
-3. **Authority:** Referral nameserver records
-4. **Additional:** Supporting data (e.g., glue records)
+1. Question: Query parameters (QNAME, QTYPE, QCLASS)
+2. Answer: Matching resource records
+3. Authority: Referral nameserver records
+4. Additional: Supporting data (e.g., glue records)
 
-**Example:**
+Example:
 
 ```sh
 Header: ID=1234, QR=0, RD=1

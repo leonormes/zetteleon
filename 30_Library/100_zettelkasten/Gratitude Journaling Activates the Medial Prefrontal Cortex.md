@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-30T12:02:06Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:33+00:00
 source: "[[MOC - Limitless Morning Routine]]"
-source_of_truth: []
 status: "seedling"
 tags: ["gratitude", "happiness", "journaling", "TheHuman/Neuroscience"]
 title: Gratitude Journaling Activates the Medial Prefrontal Cortex
 type: "concept"
-uid: 
 updated: 
 ---
 

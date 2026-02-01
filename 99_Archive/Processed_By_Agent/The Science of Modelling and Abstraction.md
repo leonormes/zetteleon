@@ -18,7 +18,7 @@ updated:
 version: "null"
 ---
 
-The concept of a "model" extends far beyond the mental models in our heads. The science of **modelling** is a fundamental practice across all scientific disciplines, and its core principle is **abstraction**.
+The concept of a "model" extends far beyond the mental models in our heads. The science of modelling is a fundamental practice across all scientific disciplines, and its core principle is abstraction.
 
 Abstraction is the art of intentional simplification. To create a useful model, one must decide what is essential to the problem and what is unnecessary detail that can be ignored. The goal is to capture the essence of a complex reality in a simplified, tractable form.
 

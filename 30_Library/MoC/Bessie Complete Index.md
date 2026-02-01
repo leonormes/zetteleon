@@ -1,21 +1,13 @@
 ---
 aliases: [Bessie Index, Complete Bessie Topics]
-confidence: ""
 created: 2025-09-06T18:18:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:23+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:08+00:00
 status: ""
 tags: [topic/family/bessie]
 title: Bessie Complete Index
 type: map
-uid:
 updated:
-version: "1"
 ---
 
 ## 🚀 Active Control Centre

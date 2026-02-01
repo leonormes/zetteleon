@@ -1,25 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-08T10:50:33Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:12+00:00
 status: ""
-tags:
-  - defect
-  - programming
-  - refactoring
-  - llm-understanding
+tags: [defect, llm-understanding, programming, refactoring]
 title: Duplication in Code Can Indicate Underlying Problems
 type: documentation
-uid:
 updated:
-version: ""
 ---
 
 Duplication in code can indicate underlying problems and lead to increased work, risk, and complexity. While duplication itself isn't always the core issue, it often points to missed abstractions or design flaws. Here's a breakdown of different kinds of duplication and how to spot them:

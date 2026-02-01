@@ -1,31 +1,24 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-10-31T12:57:00Z
-epistemic: "technique"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: "Use listening to reduce tension."
-review_interval: "90"
-see_also: ["AAA Framework for Handling Criticism.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:37+00:00
 status: "seedling"
 tags: ["communication", "TheHuman/Psychology"]
 title: Active Listening De-escalates Conflict
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Active Listening De-escalates Conflict
 
-**Mechanisms:**
+Mechanisms:
 
 - Validates speaker's perspective
 - Slows emotional escalation
 - Creates collaborative atmosphere
 
-**Key Practices:**
+Key Practices:
 
 - Paraphrasing before responding
 - Asking clarifying questions

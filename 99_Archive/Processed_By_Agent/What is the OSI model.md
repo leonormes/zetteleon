@@ -18,7 +18,7 @@ updated:
 version: "null"
 ---
 
-**Links:**
+Links:
 
 - Up: [[MOC - OSI Model]]
 - Related: [[How OSI layers encapsulate data in a packet trace]], [[Show a minimal end-to-end example of data encapsulation]]
@@ -37,25 +37,25 @@ Networking involves complex interactions between hardware, software, and protoco
 
 | Layer | Name          | Function | Example Protocols/Tech |
 |-------|---------------|----------|------------------------|
-| **7** | Application   | User-facing data formats (HTTP, DNS) | HTTP, SMTP, DNS, SSH |
-| **6** | Presentation  | Data encoding and encryption | TLS, JSON, JPEG |
-| **5** | Session       | Connection management and state | NetBIOS, RPC |
-| **4** | Transport     | End-to-end delivery, segmentation | TCP, UDP |
-| **3** | Network       | Logical addressing and routing | IP, ICMP, routing |
-| **2** | Data Link     | Frame delivery on local segment | Ethernet, ARP, bridges |
-| **1** | Physical      | Electrical/optical signal transmission | Cables, NICs, WiFi |
+| 7 | Application   | User-facing data formats (HTTP, DNS) | HTTP, SMTP, DNS, SSH |
+| 6 | Presentation  | Data encoding and encryption | TLS, JSON, JPEG |
+| 5 | Session       | Connection management and state | NetBIOS, RPC |
+| 4 | Transport     | End-to-end delivery, segmentation | TCP, UDP |
+| 3 | Network       | Logical addressing and routing | IP, ICMP, routing |
+| 2 | Data Link     | Frame delivery on local segment | Ethernet, ARP, bridges |
+| 1 | Physical      | Electrical/optical signal transmission | Cables, NICs, WiFi |
 
 ### Data Transformation per Layer
 
-As data moves **down** the stack (sending):
+As data moves down the stack (sending):
 
-1. **Application** → Data formatted (HTTP request)
-2. **Transport** → Segmented + TCP header added
-3. **Network** → IP header added (source/dest IPs)
-4. **Data Link** → Ethernet header + trailer added (MACs)
-5. **Physical** → Converted to bits, transmitted as signals
+1. Application → Data formatted (HTTP request)
+2. Transport → Segmented + TCP header added
+3. Network → IP header added (source/dest IPs)
+4. Data Link → Ethernet header + trailer added (MACs)
+5. Physical → Converted to bits, transmitted as signals
 
-As data moves **up** the stack (receiving):
+As data moves up the stack (receiving):
 
 - Each layer strips its header and processes the payload
 - Eventually, the original application data is delivered
@@ -64,11 +64,11 @@ As data moves **up** the stack (receiving):
 
 | Layer | Unit Name | What's Added |
 |-------|-----------|-------------|
-| Application | **Data** | User message |
-| Transport | **Segment** | TCP/UDP header (ports) |
-| Network | **Packet** | IP header (IP addresses) |
-| Data Link | **Frame** | Ethernet header (MACs) + trailer |
-| Physical | **Bits** | Electrical signals |
+| Application | Data | User message |
+| Transport | Segment | TCP/UDP header (ports) |
+| Network | Packet | IP header (IP addresses) |
+| Data Link | Frame | Ethernet header (MACs) + trailer |
+| Physical | Bits | Electrical signals |
 
 ### Practical Example: HTTP Request
 
@@ -84,24 +84,24 @@ Layer 1: 010101110100... (electrical pulses)
 
 ### What This Enables
 
-- **Modular design**: Each layer is independent; changes at one layer don't require changes at others
-- **Troubleshooting**: Problems can be isolated by layer (e.g., "Layer 3 issue" = routing problem)
-- **Interoperability**: Vendors implement layers independently using standard protocols
-- **Teaching framework**: Universal language for networking education
+- Modular design: Each layer is independent; changes at one layer don't require changes at others
+- Troubleshooting: Problems can be isolated by layer (e.g., "Layer 3 issue" = routing problem)
+- Interoperability: Vendors implement layers independently using standard protocols
+- Teaching framework: Universal language for networking education
 
 ### Container Networking and OSI
 
-- **Layer 1**: Physical NICs on the host
-- **Layer 2**: Linux bridges (`cni0`), veth pairs, MAC learning via ARP
-- **Layer 3**: IP routing between Pods, iptables NAT
-- **Layer 4**: TCP/UDP connections between Pods, port-based Services
-- **Layer 7**: Application protocols (HTTP, gRPC) used by Pods
+- Layer 1: Physical NICs on the host
+- Layer 2: Linux bridges (`cni0`), veth pairs, MAC learning via ARP
+- Layer 3: IP routing between Pods, iptables NAT
+- Layer 4: TCP/UDP connections between Pods, port-based Services
+- Layer 7: Application protocols (HTTP, gRPC) used by Pods
 
 ### Real-World Vs OSI
 
-The OSI model is a **conceptual** reference:
+The OSI model is a conceptual reference:
 
-- Real networks use the **TCP/IP model** (4 layers: Link, Internet, Transport, Application)
+- Real networks use the TCP/IP model (4 layers: Link, Internet, Transport, Application)
 - Many protocols span multiple OSI layers (e.g., TLS operates at Layers 5-6)
 - The model is still valuable for precise communication and debugging
 

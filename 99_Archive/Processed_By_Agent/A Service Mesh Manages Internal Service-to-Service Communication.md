@@ -24,10 +24,10 @@ It works by deploying a lightweight proxy, known as a "sidecar," alongside each 
 
 Key functions of a Service Mesh include:
 
-- **Observability**: Gathers detailed metrics, logs, and traces on inter-service communication.
-- **Traffic Management**: Provides sophisticated routing, load balancing, and traffic shaping (e.g., canary deployments, A/B testing).
-- **Security**: Enforces mutual TLS (mTLS) for secure communication and provides identity-based authorization.
-- **Reliability**: Implements automatic retries, circuit breaking, and timeouts to improve fault tolerance.
+- Observability: Gathers detailed metrics, logs, and traces on inter-service communication.
+- Traffic Management: Provides sophisticated routing, load balancing, and traffic shaping (e.g., canary deployments, A/B testing).
+- Security: Enforces mutual TLS (mTLS) for secure communication and provides identity-based authorization.
+- Reliability: Implements automatic retries, circuit breaking, and timeouts to improve fault tolerance.
 
 Common examples include Istio and Linkerd. A Service Mesh complements API Gateways and Load Balancers by providing a granular level of control and visibility over the internal service landscape.
 

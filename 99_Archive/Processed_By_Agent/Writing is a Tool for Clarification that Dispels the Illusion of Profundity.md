@@ -19,6 +19,6 @@ updated:
 
 ## Writing is a Tool for Clarification that Dispels the Illusion of Profundity
 
-**Summary:** The act of writing, sometimes called the "sobriety of documentation," forces thoughts into a linear and structured format, dispelling the illusion of profundity and revealing their true substance.
+Summary: The act of writing, sometimes called the "sobriety of documentation," forces thoughts into a linear and structured format, dispelling the illusion of profundity and revealing their true substance.
 
-**Details:** Writing externalizes thought, stripping away the emotional amplification and abstract, non-linear nature of internal ideas. This process exposes gaps in logic, contradictions, and the potential ordinariness of a concept that seemed brilliant in the mind. It is a powerful tool for critical thinking because it forces precision and allows for objective assessment.
+Details: Writing externalizes thought, stripping away the emotional amplification and abstract, non-linear nature of internal ideas. This process exposes gaps in logic, contradictions, and the potential ordinariness of a concept that seemed brilliant in the mind. It is a powerful tool for critical thinking because it forces precision and allows for objective assessment.

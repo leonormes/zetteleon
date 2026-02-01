@@ -1,26 +1,18 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-07-25T10:35:05Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:36+00:00
 status: ""
 tags: ["project/work", "responsibilities"]
 title: AoR at Work
 type: "permanent"
-uid: 
 updated: 
-version: "1"
 ---
 
 Areas of Responsibility at work - high-level overview of my key domains.
 
-**🔗 Part of**: [[Master Index - Quick Access to All Thoughts]]
+🔗 Part of: [[Master Index - Quick Access to All Thoughts]]
 
 ---
 

@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-20T15:26:10Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: ["connections", "strengths", "TheHuman/Cognition/thinking", "TheHuman/Family/Bessie"]
 title: Big Picture Thinker and Inter-Subject Connector
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Bessie demonstrates exceptional ability to see connections between different subjects and concepts, thinking in broad, interconnected ways rather than in isolated silos. This strength should be leveraged in her learning approach.
@@ -40,14 +32,14 @@ Bessie demonstrates exceptional ability to see connections between different sub
 
 This big-picture thinking ability connects to several character strengths from the [[Character and Virtue MOC]]:
 
-**[[VIA Virtue of Wisdom]]:**
+[[VIA Virtue of Wisdom]]:
 
-- **[[VIA Virtue of Wisdom|Perspective]]**: Being able to provide wise counsel to others; having ways of looking at the world that make sense to oneself and others
-- **[[VIA Virtue of Wisdom|Judgement (Critical Thinking)]]**: Thinking things through and examining them from all sides; not jumping to conclusions
+- [[VIA Virtue of Wisdom|Perspective]]: Being able to provide wise counsel to others; having ways of looking at the world that make sense to oneself and others
+- [[VIA Virtue of Wisdom|Judgement (Critical Thinking)]]: Thinking things through and examining them from all sides; not jumping to conclusions
 
-**[[VIA Virtue of Transcendence]]:**
+[[VIA Virtue of Transcendence]]:
 
-- **[[VIA Virtue of Transcendence|Spirituality (Faith, Purpose)]]**: Having coherent beliefs about the higher purpose and meaning of the universe and one's place within it
+- [[VIA Virtue of Transcendence|Spirituality (Faith, Purpose)]]: Having coherent beliefs about the higher purpose and meaning of the universe and one's place within it
 
 Her ability to see connections across disciplines reflects a mature capacity for synthesis and meaning-making that extends beyond academic performance into character development.
 

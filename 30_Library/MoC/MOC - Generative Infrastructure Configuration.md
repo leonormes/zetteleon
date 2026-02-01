@@ -1,25 +1,18 @@
 ---
 aliases: ["GIC MOC"]
-confidence: "0.9"
 created: 2025-01-15T10:10:00Z
-epistemic: "structure"
 last_reviewed: "2025-01-15T00:00:00.000Z"
-modified: 2026-01-23T18:09:23+00:00
-purpose: ""
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:06+00:00
 status: "active"
 tags: ["automation", "configuration", "infrastructure"]
 title: MOC - Generative Infrastructure Configuration
 type: "map"
-uid: 
 updated: 
 ---
 
 ## Generative Infrastructure Configuration MOC
 
-**Purpose:** This Map of Content organizes concepts, principles, and practices related to treating infrastructure configuration as generated output rather than manual input.
+Purpose: This Map of Content organizes concepts, principles, and practices related to treating infrastructure configuration as generated output rather than manual input.
 
 ### Core Framework
 

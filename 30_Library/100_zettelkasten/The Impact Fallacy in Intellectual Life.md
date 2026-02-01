@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-08-27T19:19:29Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:25+00:00
 status: "null"
 tags: ["meaning", "personal-growth", "TheHuman/Mindset", "topic/philosophy"]
 title: The Impact Fallacy in Intellectual Life
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
 The definition of a successful "intellectual life" is often narrowly and unhelpfully defined by public-facing achievements (e.g., Nobel prizes, published books). This creates an "impact fallacy" where personal intellectual exploration is devalued if it does not produce a tangible, public output.

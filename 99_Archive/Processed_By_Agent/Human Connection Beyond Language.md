@@ -30,11 +30,11 @@ Despite linguistic and cultural differences, humans possess a remarkable ability
 
 ## Mechanisms of Connection
 
-- **Non-verbal communication**: Facial expressions, gestures, touch, and body language
-- **Emotional resonance**: Direct recognition of others' emotional states
-- **Shared activities**: Cooperation, play, music, and art
-- **Empathy**: The ability to understand and share the feelings of another
-- **Mutual vulnerability**: Shared experiences of human fragility and mortality
+- Non-verbal communication: Facial expressions, gestures, touch, and body language
+- Emotional resonance: Direct recognition of others' emotional states
+- Shared activities: Cooperation, play, music, and art
+- Empathy: The ability to understand and share the feelings of another
+- Mutual vulnerability: Shared experiences of human fragility and mortality
 
 ## Questions
 

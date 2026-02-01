@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-08-19T23:32:29Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: ""
 tags: ["cryptography"]
 title: The Totient is the Length of the Exponentiation Cycle
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Within a modular system, raising a number to successive powers generates a sequence of results that eventually repeats. This repeating sequence is the exponentiation cycle.
@@ -26,6 +18,6 @@ The private key d is specifically calculated so that the combined operation (mes
 
 The security of this system relies on the [[Prime Numbers Create a Mathematical Trapdoor|mathematical trapdoor]] created by prime factorization - while it's easy to multiply primes together, factoring the result back into its prime components is computationally infeasible for large numbers.
 
-**Links to:** [[Modular Arithmetic Creates a Cyclical System]], [[Prime Numbers Are the Atomic Elements of All Numbers]], [[Public and Private Keys Are Mathematically Asymmetric]], [[Prime Numbers Create a Mathematical Trapdoor]], [[Cryptography's Goal - Obfuscating Patterns]]
+Links to: [[Modular Arithmetic Creates a Cyclical System]], [[Prime Numbers Are the Atomic Elements of All Numbers]], [[Public and Private Keys Are Mathematically Asymmetric]], [[Prime Numbers Create a Mathematical Trapdoor]], [[Cryptography's Goal - Obfuscating Patterns]]
 
 [[prime atoms]]

@@ -1,24 +1,17 @@
 ---
 aliases: ["Discipline vs Willpower"]
-confidence: "0.9"
 created: 2025-11-10T13:03:00Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: "To reframe the concept of discipline."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:34+00:00
 status: "seedling"
 tags: ["accountability", "discipline", "environment", "topic/productivity", "willpower"]
 title: Discipline Relies on External Supports Not Just Willpower
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Discipline Relies on External Supports Not Just Willpower
 
-**Summary:** True discipline is not purely a matter of internal willpower but is heavily reliant on external supports such as environment, culture, incentives, and interpersonal accountability.
+Summary: True discipline is not purely a matter of internal willpower but is heavily reliant on external supports such as environment, culture, incentives, and interpersonal accountability.
 
-**Details:** Willpower alone is often insufficient for achieving long-term goals. Both ancient and modern societies have used versions of "external structure" to make sustained effort less punishing and more reliable. This suggests that creating a supportive environment is a more effective strategy than simply trying harder.
+Details: Willpower alone is often insufficient for achieving long-term goals. Both ancient and modern societies have used versions of "external structure" to make sustained effort less punishing and more reliable. This suggests that creating a supportive environment is a more effective strategy than simply trying harder.

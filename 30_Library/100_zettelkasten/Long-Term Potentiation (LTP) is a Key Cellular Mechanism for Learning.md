@@ -1,24 +1,17 @@
 ---
 aliases: ["LTP"]
-confidence: "0.9"
 created: 2025-11-10T16:17:00Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: "To define Long-Term Potentiation (LTP)."
-review_interval: "90"
-see_also: ["[[Neuroplasticity is the Brain's Ability to Change in Response to Experience]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:31+00:00
 status: "seedling"
 tags: ["learning", "memory", "synapses", "TheHuman/Neuroscience"]
 title: Long-Term Potentiation (LTP) is a Key Cellular Mechanism for Learning
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Long-Term Potentiation (LTP) is a Key Cellular Mechanism for Learning
 
-**Summary:** Long-Term Potentiation (LTP) is a key cellular mechanism underlying learning and memory, referring to a long-lasting enhancement in signal transmission between two neurons that results from repeatedly stimulating them synchronously.
+Summary: Long-Term Potentiation (LTP) is a key cellular mechanism underlying learning and memory, referring to a long-lasting enhancement in signal transmission between two neurons that results from repeatedly stimulating them synchronously.
 
-**Details:** In essence, "neurons that fire together, wire together." Effortful cognitive engagement, such as that prompted by active learning strategies, is a potent trigger for LTP at relevant synapses, physically strengthening the neural pathways associated with a memory.
+Details: In essence, "neurons that fire together, wire together." Effortful cognitive engagement, such as that prompted by active learning strategies, is a potent trigger for LTP at relevant synapses, physically strengthening the neural pathways associated with a memory.

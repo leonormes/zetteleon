@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-24T14:25:58Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:22+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:04+00:00
 status: "null"
 tags: ["load-balancing", "SoftwareEngineering/Networking", "sre", "type/moc"]
 title: MOC Load Balancing
 type: "map"
-uid: 
 updated: 
-version: "null"
 ---
 
 This Map of Content (MOC) covers various aspects of load balancing, a critical component for distributing network traffic and ensuring high availability and scalability of applications.
@@ -42,7 +34,7 @@ This Map of Content (MOC) covers various aspects of load balancing, a critical c
 
 ---
 
-**Broader MOCs:**
+Broader MOCs:
 
 - [[Networking MOC]]
 - [[Cloud Networking MOC]]

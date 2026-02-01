@@ -1,7 +1,9 @@
 ---
 created: 2026-01-28T13:09:57+00:00
-modified: 2026-01-28T17:54:39+00:00
+modified: 2026-02-01T15:08:22+00:00
+Reviewed: true
 title: FFNode Chart Outer API Report
+type: head
 ---
 
 ## FFNode Outer API Report
@@ -156,7 +158,7 @@ Ownership: Currently User. Must move to Chart.
 
 Implicit "Magic Strings":
 
-Observation: Hostnames are derived via conventions (e.g., `{{ .Release.Name }}-postgresql`).
+Observation: Hostnames are derived via conventions (e.g., `{{.Release.Name }}-postgresql`).
 
 Verdict: If a user supplies an external Postgres, they have to override deep values or risk the chart assuming a local one exists.
 

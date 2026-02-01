@@ -19,6 +19,6 @@ updated:
 
 ## Every Action is a Vote for a Desired Identity
 
-**Summary:** Every action you take can be seen as a metaphorical "vote" for the type of person you wish to become.
+Summary: Every action you take can be seen as a metaphorical "vote" for the type of person you wish to become.
 
-**Details:** Each time you perform a habit, you are casting a vote for a particular identity. Writing a page makes you a writer. Practicing an instrument makes you a musician. These individual actions accumulate over time to form the evidence that shapes your belief in your own identity.
+Details: Each time you perform a habit, you are casting a vote for a particular identity. Writing a page makes you a writer. Practicing an instrument makes you a musician. These individual actions accumulate over time to form the evidence that shapes your belief in your own identity.

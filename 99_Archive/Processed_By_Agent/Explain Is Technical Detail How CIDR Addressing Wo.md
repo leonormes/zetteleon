@@ -77,17 +77,17 @@ For a /24 network: 2^(32-24) - 2 = 254 usable addresses
 
 When planning Virtual Network (VNet) and subnet address spaces, consider the following techniques:
 
-1. **Start with a large address space**: Begin with a large private IP range for your VNet, such as 10.0.0.0/16 or 172.16.0.0/16, to allow for future growth.
-2. **Subnet sizing**: Allocate subnet sizes based on the number of resources you expect to deploy. Common subnet sizes are /24, /25, or /26.
-3. **Hierarchical design**: Use a hierarchical addressing scheme. For example:
+1. Start with a large address space: Begin with a large private IP range for your VNet, such as 10.0.0.0/16 or 172.16.0.0/16, to allow for future growth.
+2. Subnet sizing: Allocate subnet sizes based on the number of resources you expect to deploy. Common subnet sizes are /24, /25, or /26.
+3. Hierarchical design: Use a hierarchical addressing scheme. For example:
     - 10.0.0.0/16 for the VNet
     - 10.0.1.0/24, 10.0.2.0/24, etc., for subnets
-4. **Reserve address spaces**: Keep some address ranges reserved for future use or expansion.
-5. **Avoid overlapping**: Ensure that your VNet address space doesn't overlap with your on-premises network or other VNets you might need to connect to.
-6. **Consider peering**: If you plan to use VNet peering, ensure that the address spaces of different VNets don't overlap.
-7. **Use network security groups (NSGs)**: Plan your subnets with security in mind, grouping resources with similar security requirements.
-8. **Special subnets**: Plan for special subnets like GatewaySubnet for VPN gateways or AzureFirewallSubnet for Azure Firewall.
-9. **Documentation**: Maintain clear documentation of your address allocation to avoid conflicts and aid in troubleshooting.
-10. **Use CIDR calculators**: Utilize online CIDR calculators to help plan and visualize your address spaces.
+4. Reserve address spaces: Keep some address ranges reserved for future use or expansion.
+5. Avoid overlapping: Ensure that your VNet address space doesn't overlap with your on-premises network or other VNets you might need to connect to.
+6. Consider peering: If you plan to use VNet peering, ensure that the address spaces of different VNets don't overlap.
+7. Use network security groups (NSGs): Plan your subnets with security in mind, grouping resources with similar security requirements.
+8. Special subnets: Plan for special subnets like GatewaySubnet for VPN gateways or AzureFirewallSubnet for Azure Firewall.
+9. Documentation: Maintain clear documentation of your address allocation to avoid conflicts and aid in troubleshooting.
+10. Use CIDR calculators: Utilize online CIDR calculators to help plan and visualize your address spaces.
 
 By following these techniques and understanding CIDR addressing, you can create an efficient and scalable network architecture for your cloud infrastructure

@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-08-19T23:32:29Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:29+00:00
 status: ""
 tags: []
 title: Prime Numbers Are the Atomic Elements of All Numbers
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 A prime number is a whole number greater than 1 whose only factors are 1 and itself (e.g., 2, 3, 5, 7, 11). All other whole numbers are called composite numbers.

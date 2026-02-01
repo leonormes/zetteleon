@@ -1,40 +1,32 @@
 ---
 aliases: []
 author: ["[[alex]]"]
-confidence: ""
 created: 2025-03-27T09:49:25Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:17+00:00
 source: "https://medium.com/@alex067/create-an-aws-api-gateway-to-your-eks-cluster-with-terraform-46cdc91d9cea"
-source_of_truth: []
 status: ""
 tags: ["gateway", "ingress", "SoftwareEngineering/Networking"]
 title: Create an AWS API Gateway to your EKS Cluster (with Terraform)
 type: "download"
-uid: 
 updated: 
-version: ""
 ---
 
-This article is going to focus on how you can leverage an **AWS API Gateway** as your external facing endpoint for your Kubernetes services. We're going to assume that you have an **EKS** cluster up and running.
+This article is going to focus on how you can leverage an AWS API Gateway as your external facing endpoint for your Kubernetes services. We're going to assume that you have an EKS cluster up and running.
 
 But first, why would we even do this? 🤔
 
 In the world of Kubernetes and microservices, there are so many different architectural patterns aiming to solve various pain points around how microservices can communicate with one another, and how traffic is being distributed.
 
-[**One such pattern**](https://microservices.io/patterns/apigateway.html) is to leverage an API Gateway as your central endpoint, which connects to multiple backend services. In a sense, it's kind of like an ingress-controller but with the functionality of an API server.
+[One such pattern](https://microservices.io/patterns/apigateway.html) is to leverage an API Gateway as your central endpoint, which connects to multiple backend services. In a sense, it's kind of like an ingress-controller but with the functionality of an API server.
 
 And using the managed AWS API Gateway is a great idea, for several reasons:
 
-1. **Speed.** API Gateway is a managed solution that already comes with a host of features like rate limiting, monitoring, custom authorization, etc. You're getting this out of the box.
-2. **Rich Feature Sets**. Features like rate limiting and authorization is already there. The benefit here is that, rate limiting occurs first from AWS before the request even makes it to your Kubernetes cluster. Custom Authorizers allow you to natively integrate to AWS services, like Cognito.
-3. **Security.** AWS API Gateway leverages VPC links, which are secure internal communication links between AWS and your VPC. This means, your Kubernetes services are kept strictly internal vs. exposing a public Load balancer.
-4. **Lower Operational Costs**. Since API Gateway is entirely managed by AWS, you're not managing another deployment. And because this is technically a single point of failure, having AWS deal with the burden is not a bad idea.
-5. **Easy DNS**. Managing DNS records and TLS certificates can be a pain. Fortunately, with this architecture, our API Gateway is able to perform SSL termination and we're only managing one single DNS record for multiple backend services.
+1. Speed. API Gateway is a managed solution that already comes with a host of features like rate limiting, monitoring, custom authorization, etc. You're getting this out of the box.
+2. Rich Feature Sets. Features like rate limiting and authorization is already there. The benefit here is that, rate limiting occurs first from AWS before the request even makes it to your Kubernetes cluster. Custom Authorizers allow you to natively integrate to AWS services, like Cognito.
+3. Security. AWS API Gateway leverages VPC links, which are secure internal communication links between AWS and your VPC. This means, your Kubernetes services are kept strictly internal vs. exposing a public Load balancer.
+4. Lower Operational Costs. Since API Gateway is entirely managed by AWS, you're not managing another deployment. And because this is technically a single point of failure, having AWS deal with the burden is not a bad idea.
+5. Easy DNS. Managing DNS records and TLS certificates can be a pain. Fortunately, with this architecture, our API Gateway is able to perform SSL termination and we're only managing one single DNS record for multiple backend services.
 
 ## Getting Started
 
@@ -52,7 +44,7 @@ The VPC link is a private integration endpoint, allowing AWS managed network to 
 
 Before we get started in any Terraform work, we first need the internal Load balancer up and running.
 
-The VPC link requires an existing, operational internal Load balancer to direct traffic to. It's important that this Load balancer is **created by your Kubernetes Service.** This is possible by [**installing the AWS Load Balancer Controller add-on into your cluster.**](https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html)
+The VPC link requires an existing, operational internal Load balancer to direct traffic to. It's important that this Load balancer is created by your Kubernetes Service. This is possible by [installing the AWS Load Balancer Controller add-on into your cluster.](https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html)
 
 Once our Cluster is bootstrapped with the necessary add-ons, let's take a look at an example manifest, utilizing the Service object to create our Load Balancer.
 
@@ -150,7 +142,7 @@ Here's where the bulk of the magic happens. Let's take a look through this block
 
 We want the Gateway to simply proxy our requests into our Kubernetes Service. We really don't want to be managing independent endpoints.
 
-We'll create a single resource called **{proxy+}** at the root level, and specify that for the HTTP method, we'll take **ANY**.
+We'll create a single resource called {proxy+} at the root level, and specify that for the HTTP method, we'll take ANY.
 
 ```c
 "method.request.path.proxy"           = true
@@ -181,13 +173,13 @@ resource "aws_api_gateway_integration" "proxy" {
 }
 ```
 
-For the Integration, we set the HTTP method to **ANY**. This again simplifies our entire workflow, where we're not managing individual resource paths and their various supported HTTP methods.
+For the Integration, we set the HTTP method to ANY. This again simplifies our entire workflow, where we're not managing individual resource paths and their various supported HTTP methods.
 
-We set the type to **HTTP\_PROXY**, and for the endpoint we provide an argument of our load balancer DNS.
+We set the type to HTTP\_PROXY, and for the endpoint we provide an argument of our load balancer DNS.
 
 This is why we needed our Load Balancer created beforehand; to use the ARN and the DNS values for our VPC link.
 
-For the endpoint (the uri argument), we also concatenate the Load Balancer DNS with **/{proxy}.** This proxy template basically gets replaced with the path of the request.
+For the endpoint (the uri argument), we also concatenate the Load Balancer DNS with /{proxy}. This proxy template basically gets replaced with the path of the request.
 
 If a request is sent as "user/profile", that {proxy} template gets replaced with "user/profile". See how easy that is?
 

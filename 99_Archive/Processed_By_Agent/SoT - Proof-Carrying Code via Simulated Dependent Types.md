@@ -16,7 +16,7 @@ type: "SoT"
 ---
 
 > [!warning] Deprecated
-> This note has been consolidated. Please refer to the single Source of Truth: **[[SoT - Type-Level Programming]]**.
+> This note has been consolidated. Please refer to the single Source of Truth: [[SoT - Type-Level Programming]].
 
 ## Summary
-The concept of **Proof-Carrying Code** and the use of **Simulated Dependent Types** are core applications of **Type-Level Programming (TLP)**. These ideas have been merged into the primary TLP note to provide a unified reference for compile-time logic and correctness.
+The concept of Proof-Carrying Code and the use of Simulated Dependent Types are core applications of Type-Level Programming (TLP). These ideas have been merged into the primary TLP note to provide a unified reference for compile-time logic and correctness.

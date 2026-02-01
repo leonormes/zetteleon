@@ -23,7 +23,7 @@ In ADHD, dopamine levels are often imbalanced. Research indicates lower levels o
 
 This dopamine dysregulation is a core mechanism underlying the [[The Interest-Based Nervous System in ADHD]]. It directly explains [[Why Importance and Rewards Fail to Motivate ADHD Brains|why external rewards or a sense of importance]] often don't trigger the necessary neurochemical response for sustained engagement. The prefrontal cortex, critical for motivation, processes information differently, contributing to increased "background noise" and difficulty focusing.
 
-**The Cyclical Pattern:**
+The Cyclical Pattern:
 
 This dysregulation drives the ADHD hyperfixation-burnout cycle: the brain constantly scans for dopamine-rewarding stimuli, floods with dopamine during hyperfixation, depletes dopamine reserves during the crash, and experiences deficit during the trough phase. Understanding this cycle as fundamentally neurochemical—not motivational or disciplinary—reframes ADHD challenges.
 

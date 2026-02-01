@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-26T20:25:56Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: ""
 tags: []
 title: How the Brain Learns Core Cognitive Processes
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 This note provides an umbrella framework for understanding the core cognitive processes that enable learning in any domain, with particular relevance to software development.

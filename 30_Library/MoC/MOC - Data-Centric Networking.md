@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence:
 created: 2025-07-10T12:36:00Z
-epistemic:
 last_reviewed:
-modified: 2026-01-29T06:21:47+00:00
-purpose:
-review_interval:
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:06+00:00
 status:
 tags: ["SoftwareEngineering/Networking", data-perspective]
 title: MOC - Data-Centric Networking
 type: map
-uid:
 updated:
-version: 1
 ---
 
 ## Core Principle

@@ -23,28 +23,28 @@ Contextual Myopia is not a static state; it is a self-reinforcing loop driven by
 
 ### Stage 1: The Environment (The Trigger)
 
-- **Mechanism:** **Contextual Narrowing.**
-- **Description:** The immediate environment (e.g., a full-screen IDE, a heated argument, a crisis) dominates the sensory input, obscuring the wider strategic landscape.
-- **Result:** The "Focus Bubble" is formed.
+- Mechanism: Contextual Narrowing.
+- Description: The immediate environment (e.g., a full-screen IDE, a heated argument, a crisis) dominates the sensory input, obscuring the wider strategic landscape.
+- Result: The "Focus Bubble" is formed.
 
 ### Stage 2: The Distortion (The Lens)
 
-- **Mechanism:** **The Focusing Illusion.**
-- **Description:** "Nothing in life is as important as you think it is, while you are thinking about it." (Kahneman). The brain over-weights the importance of whatever is currently in focus.
-- **Result:** A trivial task (e.g., "Refactoring this one function") feels critically urgent.
+- Mechanism: The Focusing Illusion.
+- Description: "Nothing in life is as important as you think it is, while you are thinking about it." (Kahneman). The brain over-weights the importance of whatever is currently in focus.
+- Result: A trivial task (e.g., "Refactoring this one function") feels critically urgent.
 
 ### Stage 3: The Error (The Outcome)
 
-- **Mechanism:** **Goal Displacement.**
-- **Description:** Originating in organizational sociology, Goal Displacement occurs when the _original goals (ends)_ of an activity are replaced by the _rules, procedures, and processes (means)_ that were meant to achieve them. The process becomes more important than the outcome.
+- Mechanism: Goal Displacement.
+- Description: Originating in organizational sociology, Goal Displacement occurs when the _original goals (ends)_ of an activity are replaced by the _rules, procedures, and processes (means)_ that were meant to achieve them. The process becomes more important than the outcome.
   - _Classic Example:_ A development team deriving achievement from completing tasks and closing tickets (means) rather than providing value to users (end).
-- **Result:** Efficiency (doing things right) replaces Effectiveness (doing the right things).
+- Result: Efficiency (doing things right) replaces Effectiveness (doing the right things).
 
 ### Stage 4: The Lock-In (The Trap)
 
-- **Mechanism:** **Sunk Cost Fallacy.**
-- **Description:** As effort and ego are invested, the individual escalates commitment to justify the expenditure. To abandon the trivial task now would be to admit waste.
-- **Result:** Artificial justifications are invented ("This refactor is crucial for future scalability") to protect the ego, deepening the myopia.
+- Mechanism: Sunk Cost Fallacy.
+- Description: As effort and ego are invested, the individual escalates commitment to justify the expenditure. To abandon the trivial task now would be to admit waste.
+- Result: Artificial justifications are invented ("This refactor is crucial for future scalability") to protect the ego, deepening the myopia.
 
 ---
 
@@ -52,25 +52,25 @@ Contextual Myopia is not a static state; it is a self-reinforcing loop driven by
 
 In high-complexity environments (like software engineering or PKM), Contextual Myopia is the primary driver of "Productive Procrastination" and hinders true impact.
 
-- **The "Tool Trap":** Obsessing over the perfect Obsidian plugin or system instead of engaging in the actual work of thinking and writing. This often connects to [[Tool tinkering is a form of productive procrastination]].
-- **The "Rabbit Hole":** Pursuing an interesting tangent that has zero relevance to the project's success criteria. This is fueled by [[The Law of Triviality (Bikeshedding)]] where people gravitate toward manageable tasks.
-- **The "Metric Obsession":** For ADHD productivity, tracking completion rates becomes more important than the quality or impact of what's completed, leading to [[Tracking Metrics for ADHD Productivity]].
-- **Satisficing for Measurement:** Choosing "good enough" metrics that are easy to measure rather than seeking optimal indicators of true success (see [[Satisficing Leads to Sub-optimal Solutions]]).
+- The "Tool Trap": Obsessing over the perfect Obsidian plugin or system instead of engaging in the actual work of thinking and writing. This often connects to [[Tool tinkering is a form of productive procrastination]].
+- The "Rabbit Hole": Pursuing an interesting tangent that has zero relevance to the project's success criteria. This is fueled by [[The Law of Triviality (Bikeshedding)]] where people gravitate toward manageable tasks.
+- The "Metric Obsession": For ADHD productivity, tracking completion rates becomes more important than the quality or impact of what's completed, leading to [[Tracking Metrics for ADHD Productivity]].
+- Satisficing for Measurement: Choosing "good enough" metrics that are easy to measure rather than seeking optimal indicators of true success (see [[Satisficing Leads to Sub-optimal Solutions]]).
 
 ---
 
 ## 4. Counter-Strategies: Bursting the Bubble
 
-1. **The "Zoom Out" Ritual:** Deliberately break the environmental lock. Stand up, walk away, change context.
-2. **The "Why" Test:** Ask "What is the _ultimate_ goal of this task?" If the answer is "to finish the task," you are in goal displacement.
-3. **The "Sunk Cost" Audit:** Explicitly ask: "If I had not started this, would I start it now?" If no, stop immediately.
-4. **External Validation:** Use a "Squad" or a mentor to provide an objective, outside view of importance.
+1. The "Zoom Out" Ritual: Deliberately break the environmental lock. Stand up, walk away, change context.
+2. The "Why" Test: Ask "What is the _ultimate_ goal of this task?" If the answer is "to finish the task," you are in goal displacement.
+3. The "Sunk Cost" Audit: Explicitly ask: "If I had not started this, would I start it now?" If no, stop immediately.
+4. External Validation: Use a "Squad" or a mentor to provide an objective, outside view of importance.
 
 ---
 
 ## 5. Related Concepts
 
-- **[[SoT - Illusion of Explanatory Depth (IoED)]]**: Related to overestimating understanding; here we overestimate _importance_.
-- **[[SoT - Dunning-Kruger Effect]]**: Can exacerbate the inability to see the broader context.
-- **[[SoT - Simplicity and Re-entry (ProdOS Principles)]]**: Designed to prevent the complexity that breeds myopia.
-- **[[SoT - Process Primacy (Systems Over Goals)]]**: A counter-philosophy emphasizing outcomes over rigid adherence to process.
+- [[SoT - Illusion of Explanatory Depth (IoED)]]: Related to overestimating understanding; here we overestimate _importance_.
+- [[SoT - Dunning-Kruger Effect]]: Can exacerbate the inability to see the broader context.
+- [[SoT - Simplicity and Re-entry (ProdOS Principles)]]: Designed to prevent the complexity that breeds myopia.
+- [[SoT - Process Primacy (Systems Over Goals)]]: A counter-philosophy emphasizing outcomes over rigid adherence to process.

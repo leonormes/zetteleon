@@ -1,21 +1,13 @@
 ---
 aliases: ["ADHD Barriers", "Task Initiation Failure", "Triggers for Procrastination"]
-confidence: "5/5"
 created: 2025-08-16T13:14:06Z
-epistemic: "synthesis"
 last_reviewed: "2025-12-24"
-modified: 2026-01-08T15:03:29+00:00
-purpose: "To map the specific cognitive and emotional triggers that cause task initiation failure in ADHD brains, distinguishing between lack of reward and lack of energy."
-review_interval: "6 months"
-see_also: ["[[SoT - ADHD and Motivation]]", "[[SoT - ADHD Executive Dysfunction]]", "[[SoT - The Cognitive Physiology of Task Execution]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:05+00:00
 status: "stable"
 tags: ["procrastination", "psychology", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
 title: MOC - Procrastination Triggers
 type: "map"
-uid: 
 updated: 
-version: "1"
 ---
 
 Personal observations about what triggers procrastination, particularly around mundane tasks that lack immediate reward or interest.

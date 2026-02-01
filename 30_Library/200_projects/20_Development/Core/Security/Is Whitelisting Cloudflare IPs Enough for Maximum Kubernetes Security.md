@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-03-26T07:42:22Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:25+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:13+00:00
 status: ""
 tags: ["SoftwareEngineering/Networking", "SoftwareEngineering/Security"]
 title: Is Whitelisting Cloudflare IPs Enough for Maximum Kubernetes Security
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Short Answer: No, while whitelisting Cloudflare IPs is a necessary and good practice when proxying traffic through Cloudflare, it is not sufficient on its own to achieve maximum security for your Kubernetes cluster. It's just one layer in a necessary multi-layered security approach (often called "defense-in-depth").

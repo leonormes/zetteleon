@@ -1,21 +1,13 @@
 ---
 aliases: ["Productivity through Scarcity"]
-confidence: "1"
 created: 2025-11-01T21:03:00Z
-epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "To explain how timeboxing uses scarcity to increase efficiency."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: "evergreen"
 tags: ["efficiency", "scarcity", "time-management", "topic/productivity"]
 title: Timeboxing Creates Scarcity to Eliminate Non-Essential Activities
 type: "concept"
-uid: 
 updated: 
-version: "1"
 ---
 
 By treating time as a fixed, finite resource, timeboxing introduces a scarcity mindset that forces ruthless prioritization and efficiency.

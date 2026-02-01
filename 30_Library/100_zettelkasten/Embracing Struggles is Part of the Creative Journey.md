@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-30T12:01:08Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:34+00:00
 source: "[[MOC - You Need to Romanticize Your Process]]"
-source_of_truth: []
 status: "seedling"
 tags: ["resilience", "TheHuman/Creativity", "TheHuman/Mindset"]
 title: Embracing Struggles is Part of the Creative Journey
 type: "concept"
-uid: 
 updated: 
 ---
 

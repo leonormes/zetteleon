@@ -19,15 +19,15 @@ updated:
 
 ## DNS Resolvers Translate Domain Requests to IP Queries
 
-**Summary:** A DNS resolver is client-side software that converts domain name requests into DNS queries and interprets the responses to provide IP addresses to applications.
+Summary: A DNS resolver is client-side software that converts domain name requests into DNS queries and interprets the responses to provide IP addresses to applications.
 
-**Key functions:**
+Key functions:
 
 - Translates application requests (e.g., <www.google.com>) into DNS queries
 - Sends queries to configured nameservers
 - Interprets responses and returns IP addresses to applications
 
-**Configuration (Unix):**
+Configuration (Unix):
 
 - `/etc/resolv.conf` file specifies:
   - `nameserver`: IPs of authoritative nameservers

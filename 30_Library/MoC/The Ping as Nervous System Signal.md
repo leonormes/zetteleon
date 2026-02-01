@@ -1,30 +1,22 @@
 ---
 aliases: ["Emotional Feedback Signal", "Nervous System Ping", "The Ping"]
-confidence: ""
 created: 2025-07-17T10:05:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T15:03:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:03+00:00
 status: ""
 tags: []
 title: The Ping as Nervous System Signal
 type: "map"
-uid: 
 updated: 
-version: "1"
 ---
 
 The "ping" is a distinct nervous system signal—a jolt of fear, anxiety, excitement, or other emotional response—that occurs when engaging with meaningful real-world action. It represents the body's recognition that you are encountering genuine [[Type 2 Information is Experiential]] rather than theoretical knowledge.
 
 ## Two Aspects of the Ping
 
-**Pre-Action Signal**: The ping often occurs immediately before taking uncertain but meaningful action, indicating you are at the boundary of your comfort zone. This anticipatory response signals potential growth opportunities.
+Pre-Action Signal: The ping often occurs immediately before taking uncertain but meaningful action, indicating you are at the boundary of your comfort zone. This anticipatory response signals potential growth opportunities.
 
-**Post-Action Feedback**: The ping also manifests as emotional and physiological feedback after taking action, providing real data about the consequences of your choices. This felt experience signifies genuine learning is occurring.
+Post-Action Feedback: The ping also manifests as emotional and physiological feedback after taking action, providing real data about the consequences of your choices. This felt experience signifies genuine learning is occurring.
 
 ## The Ping as Growth Compass
 

@@ -17,11 +17,11 @@ type: ""
 
 ## Conceptual Framework: PKI as Type Verification
 
-In a Type Theory context, Public Key Infrastructure (PKI) is not merely a hierarchy of objects, but a system of **cryptographic proofs** and **type constraints**.
+In a Type Theory context, Public Key Infrastructure (PKI) is not merely a hierarchy of objects, but a system of cryptographic proofs and type constraints.
 
-- **Data Immutable:** Certificates and Keys are immutable data structures. They do not have internal state changes; they are created, verified, or discarded.
-- **Verification as Type Conversion:** The act of "verifying" a certificate is a transformation function. It takes a `RawCertificate` (untrusted data) and a `TrustStore` (context) and, if successful, returns a `VerifiedCertificate` (a distinct type). This prevents the "use of unverified data" class of errors at the compiler level.
-- **Signatures as Predicates:** A digital signature is a predicate  that asserts the message  was processed by the holder of.
+- Data Immutable: Certificates and Keys are immutable data structures. They do not have internal state changes; they are created, verified, or discarded.
+- Verification as Type Conversion: The act of "verifying" a certificate is a transformation function. It takes a `RawCertificate` (untrusted data) and a `TrustStore` (context) and, if successful, returns a `VerifiedCertificate` (a distinct type). This prevents the "use of unverified data" class of errors at the compiler level.
+- Signatures as Predicates: A digital signature is a predicate  that asserts the message  was processed by the holder of.
 
 ---
 
@@ -116,7 +116,7 @@ fn issue_certificate(csr: Csr, ca_key: &PrivateKey, ca_cert: &Certificate) -> Ce
 
 ### The Verification Transformation
 
-This utilizes the **Parse, don't validate** pattern. We do not just return a boolean; we return a semantic type that carries the proof of validity.
+This utilizes the Parse, don't validate pattern. We do not just return a boolean; we return a semantic type that carries the proof of validity.
 
 ```rust
 // A marker type indicating a certificate has passed crypto verification
@@ -172,8 +172,8 @@ impl TrustStore {
 
 Revocation is a check against a dynamic exclusion set. This represents the mutability of trust over time.
 
-- **CRL:** A `Set<SerialNumber>` representing invalidated proofs.
-- **OCSP:** A function query `fn(SerialNumber) -> Status`.
+- CRL: A `Set<SerialNumber>` representing invalidated proofs.
+- OCSP: A function query `fn(SerialNumber) -> Status`.
 
 ```rust
 enum CertStatus {
@@ -196,18 +196,18 @@ We re-map the "HTTPS Trust between Clusters" scenario as a data distribution and
 
 ### A. The Bootstrapping Phase (Axiom Distribution)
 
-- **Input:** `RootCA_Certificate` (The Axiom).
-- **Process:** Out-of-band distribution to Cluster A and Cluster B.
-- **State Change:** `ClusterA.TrustStore` and `ClusterB.TrustStore` are mutated to include `RootCA`.
+- Input: `RootCA_Certificate` (The Axiom).
+- Process: Out-of-band distribution to Cluster A and Cluster B.
+- State Change: `ClusterA.TrustStore` and `ClusterB.TrustStore` are mutated to include `RootCA`.
 
 ### B. The Issuance Pipeline (Data Factory)
 
-This flow represents the **AWS Private CA + cert-manager** integration.
+This flow represents the AWS Private CA + cert-manager integration.
 
-1. **Source (Pod):** Generates `(PrivateKey, PublicKey)`. Emits `CSR` (Data).
-2. **Controller (cert-manager):** Observes `CSR`. Transmits to Issuer.
-3. **Oracle (AWS Private CA):** Maps `(CSR, CA_Context)`  `Certificate`.
-4. **Sink (Kubernetes Secret):** Stores the pair `(Certificate, PrivateKey)`.
+1. Source (Pod): Generates `(PrivateKey, PublicKey)`. Emits `CSR` (Data).
+2. Controller (cert-manager): Observes `CSR`. Transmits to Issuer.
+3. Oracle (AWS Private CA): Maps `(CSR, CA_Context)`  `Certificate`.
+4. Sink (Kubernetes Secret): Stores the pair `(Certificate, PrivateKey)`.
 
 ### C. The Runtime Handshake (Proof Exchange)
 
@@ -215,38 +215,38 @@ The TLS handshake is a bidirectional exchange of serialised data structures to e
 
 | Step | Data Flow | Type constraint Check |
 | --- | --- | --- |
-| **1** | Client  Server: `ClientHello` | Protocol negotiation. |
-| **2** | Server  Client: `[ServerCert, IntermediateCert]` | **Proof Presentation.** |
-| **3** | Client internal logic | `verify_signature(ServerCert, IntermediateKey)` <br>
+| 1 | Client  Server: `ClientHello` | Protocol negotiation. |
+| 2 | Server  Client: `[ServerCert, IntermediateCert]` | Proof Presentation. |
+| 3 | Client internal logic | `verify_signature(ServerCert, IntermediateKey)` <br>
 
 `verify_signature(IntermediateCert, RootKey)` <br>
 
 <br> `TrustStore.contains(RootKey)` |
 
-| **4** | **Result** | If `Ok(VerifiedCertificate)`, derivation of session keys proceeds. |
+| 4 | Result | If `Ok(VerifiedCertificate)`, derivation of session keys proceeds. |
 
 ## Summary Matrix
 
 | OOP Concept | Data-Oriented/Rust Equivalent |
 | --- | --- |
-| **Class** (`Certificate`) | **Struct** (`struct Certificate`) - Pure Data |
-| **Method** (`verify()`) | **Function** (`fn verify() -> Result`) |
-| **Inheritance** | **Composition** (Chains are `Vec<Certificate>`) |
-| **Identity** (Instance) | **Value Semantics** (Equality by content) |
-| **Trust** | **Context** (`TrustStore` passed into functions) |
+| Class (`Certificate`) | Struct (`struct Certificate`) - Pure Data |
+| Method (`verify()`) | Function (`fn verify() -> Result`) |
+| Inheritance | Composition (Chains are `Vec<Certificate>`) |
+| Identity (Instance) | Value Semantics (Equality by content) |
+| Trust | Context (`TrustStore` passed into functions) |
 
-Here are the specific `cert-manager` manifests to implement the **Issuance Pipeline** (Data Factory) we discussed.
+Here are the specific `cert-manager` manifests to implement the Issuance Pipeline (Data Factory) we discussed.
 
-I have annotated these manifests to map the YAML fields back to our **Type Theory** and **Rust** definitions, highlighting how the abstract data structures map to the concrete configuration.
+I have annotated these manifests to map the YAML fields back to our Type Theory and Rust definitions, highlighting how the abstract data structures map to the concrete configuration.
 
 ## 1. The Oracle Definition (The Issuer)
 
 In our model, the `Issuer` is the interface to the external signing oracle (AWS Private CA). It defines the `Sign` function scope.
 
-**Type Mapping:**
+Type Mapping:
 
-- **Role:** `SigningOracle`
-- **Rust Equivalent:** `struct AwsPcaClient { arn: String, region: Region }`
+- Role: `SigningOracle`
+- Rust Equivalent: `struct AwsPcaClient { arn: String, region: Region }`
 
 ```yaml
 # This Custom Resource Definition (CRD) represents the bound context 
@@ -275,10 +275,10 @@ spec:
 
 This resource represents the `Csr` (Certificate Signing Request) constructor. It defines the constraints and shape of the desired output type (`VerifiedCertificate`).
 
-**Type Mapping:**
+Type Mapping:
 
-- **Role:** `TypeConstructor` & `Sink`
-- **Rust Equivalent:** `fn request_cert(subject: Dn, dns: Vec<String>) -> (Certificate, PrivateKey)`
+- Role: `TypeConstructor` & `Sink`
+- Rust Equivalent: `fn request_cert(subject: Dn, dns: Vec<String>) -> (Certificate, PrivateKey)`
 
 ```yaml
 apiVersion: cert-manager.io/v1
@@ -338,13 +338,13 @@ spec:
 
 When you apply these manifests, the system executes the logical flow described in the `Core PKI Object Types.md` "Issuance" section:
 
-1. **Instantiation:** `cert-manager` observes the `Certificate` resource and instantiates a `CertificateRequest` (an internal intermediate type).
-2. **Key Generation:** It generates a strictly typed `PrivateKey` and `PublicKey` pair in memory.
-3. **Transformation:** It transforms the `PublicKey` + `Subject` into a standard PEM-encoded CSR.
-4. **Remote Procedure Call:** It invokes the `issueCertificate` method on the AWS Private CA (referenced by the `AWSPCAClusterIssuer`).
-5. **Persisting State:** It retrieves the signed `Certificate` blob and atomic writes the `(Certificate, PrivateKey)` tuple to the Kubernetes Secret defined in `secretName`.
+1. Instantiation: `cert-manager` observes the `Certificate` resource and instantiates a `CertificateRequest` (an internal intermediate type).
+2. Key Generation: It generates a strictly typed `PrivateKey` and `PublicKey` pair in memory.
+3. Transformation: It transforms the `PublicKey` + `Subject` into a standard PEM-encoded CSR.
+4. Remote Procedure Call: It invokes the `issueCertificate` method on the AWS Private CA (referenced by the `AWSPCAClusterIssuer`).
+5. Persisting State: It retrieves the signed `Certificate` blob and atomic writes the `(Certificate, PrivateKey)` tuple to the Kubernetes Secret defined in `secretName`.
 
-**Next Step:** Would you like to see the Terraform configuration required to provision the underlying IAM Roles (IRSA) that allow this `AWSPCAClusterIssuer` to authenticate with AWS?
+Next Step: Would you like to see the Terraform configuration required to provision the underlying IAM Roles (IRSA) that allow this `AWSPCAClusterIssuer` to authenticate with AWS?
 Here is the Terraform configuration to provision the Identity Witness (IAM Role) required for the AWSPCAClusterIssuer.
 Conceptual Framework: Capability & Witness
 In our Type Theory model, the AWSPCAClusterIssuer requires a Capability (permission) to execute the Sign function on the AWS Private CA.

@@ -1,37 +1,30 @@
 ---
 aliases: ["stream sockets", "TCP sockets"]
-confidence: "0.9"
 created: 2025-10-31T13:37:00Z
-epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "Explain stream sockets and TCP characteristics."
-review_interval: "90"
-see_also: ["Datagram Sockets Provide Fast Unreliable UDP Communication.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: "seedling"
 tags: ["protocol", "socket", "SoftwareEngineering/Networking", "tcp"]
 title: Stream Sockets Provide Reliable Ordered TCP Communication
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Stream Sockets Provide Reliable Ordered TCP Communication
 
-**Summary:** Stream sockets (TCP sockets) provide reliable, ordered communication similar to a phone call, ensuring data arrives in the correct sequence without loss.
+Summary: Stream sockets (TCP sockets) provide reliable, ordered communication similar to a phone call, ensuring data arrives in the correct sequence without loss.
 
-**Details:**
+Details:
 
 Stream sockets use the TCP (Transmission Control Protocol) to guarantee:
 
-- **Reliability**: Data packets are acknowledged and retransmitted if lost
-- **Ordering**: Packets arrive in the same sequence they were sent
-- **Error checking**: Built-in mechanisms to detect and correct transmission errors
+- Reliability: Data packets are acknowledged and retransmitted if lost
+- Ordering: Packets arrive in the same sequence they were sent
+- Error checking: Built-in mechanisms to detect and correct transmission errors
 
 The communication model resembles a phone call - once the connection is established, both parties can reliably exchange information in a continuous stream.
 
-**Use Cases:**
+Use Cases:
 
 - Video streaming (e.g., Netflix) - requires data to arrive in order without glitches
 - Web browsing (HTTP/HTTPS)

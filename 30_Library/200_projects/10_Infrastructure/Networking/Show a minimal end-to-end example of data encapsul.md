@@ -1,26 +1,18 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-22T09:55:38Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:16+00:00
 status: ""
 tags: ["SoftwareEngineering/Networking"]
 title: Show a minimal end-to-end example of data encapsul
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Show a minimal end-to-end example of data encapsulation and transmission
 
-Here's a **minimal end-to-end example** showing how data encapsulation and transmission work—from user data all the way down to bits crossing the wire—based on canonical OSI/TCP-IP model explanations.
+Here's a minimal end-to-end example showing how data encapsulation and transmission work—from user data all the way down to bits crossing the wire—based on canonical OSI/TCP-IP model explanations.
 
 ---
 
@@ -46,15 +38,15 @@ Host: example.com
 User-Agent: Chrome
 ```
 
-This is **application data**—the part the user or program understands.
+This is application data—the part the user or program understands.
 
-At this point, there is **no routing or transmission metadata**—just the content to send.
+At this point, there is no routing or transmission metadata—just the content to send.
 
 ---
 
 ## 3. Transport Layer (TCP)
 
-The transport layer creates a **TCP segment** by adding its header:
+The transport layer creates a TCP segment by adding its header:
 
 ```sh
 [TCP Header]
@@ -66,7 +58,7 @@ Flags: SYN
 Payload: [HTTP Request]
 ```
 
-This header ensures **reliable delivery** and identifies which process (port) on the server should handle the data.
+This header ensures reliable delivery and identifies which process (port) on the server should handle the data.
 
 Encapsulated form now:
 
@@ -76,7 +68,7 @@ Encapsulated form now:
 
 ## 4. Network Layer (IP)
 
-Next, the operating system adds an **IP header** to form a packet:
+Next, the operating system adds an IP header to form a packet:
 
 ```sh
 [IP Header]
@@ -96,7 +88,7 @@ Encapsulated form:
 
 ## 5. Data Link Layer (Ethernet)
 
-The Network Interface Card (NIC) wraps the IP packet in an **Ethernet frame**:
+The Network Interface Card (NIC) wraps the IP packet in an Ethernet frame:
 
 ```sh
 [Ethernet Header]
@@ -117,9 +109,9 @@ Encapsulated form:
 
 ## 6. Physical Layer
 
-Finally, the frame is converted into **electrical, optical, or radio signals (bits)** and transmitted through the physical medium (e.g., fiber, copper, or Wi-Fi).
+Finally, the frame is converted into electrical, optical, or radio signals (bits) and transmitted through the physical medium (e.g., fiber, copper, or Wi-Fi).
 
-At this level, data becomes **energy patterns encoding binary information**—voltages, light pulses, or EM waves.
+At this level, data becomes energy patterns encoding binary information—voltages, light pulses, or EM waves.
 
 ---
 
@@ -127,12 +119,12 @@ At this level, data becomes **energy patterns encoding binary information**—vo
 
 At the receiving end, the process reverses:
 
-1. The NIC reads the **Ethernet frame**, checks the destination MAC, strips Ethernet headers/trailers.
-2. The IP stack reads the **IP packet**, validates the destination IP, strips the IP header.
-3. The transport layer reads the **TCP segment**, verifies sequence and ports, reassembles data.
-4. The application receives the **HTTP request**, processes it, and replies.
+1. The NIC reads the Ethernet frame, checks the destination MAC, strips Ethernet headers/trailers.
+2. The IP stack reads the IP packet, validates the destination IP, strips the IP header.
+3. The transport layer reads the TCP segment, verifies sequence and ports, reassembles data.
+4. The application receives the HTTP request, processes it, and replies.
 
-Each layer **removes its own header** in reverse order (decapsulation).
+Each layer removes its own header in reverse order (decapsulation).
 
 ---
 
@@ -148,6 +140,6 @@ Each layer **removes its own header** in reverse order (decapsulation).
 
 ---
 
-This demonstrates the **data packaging lifecycle**:
+This demonstrates the data packaging lifecycle:
 
-each layer **adds context until transmission**, and then **peels it away** when received, ensuring end-to-end communication functions transparently across devices and media layers.
+each layer adds context until transmission, and then peels it away when received, ensuring end-to-end communication functions transparently across devices and media layers.

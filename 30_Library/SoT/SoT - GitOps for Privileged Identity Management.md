@@ -1,35 +1,28 @@
 ---
 aliases: ["Automated Privilege Management", "GitOps PIM", "JIT Access with IaC"]
-confidence: "High"
 created: 2025-07-04T07:32:01Z
-epistemic: "Technical/Architectural"
 last_reviewed: 
-modified: 2026-01-23T18:09:19+00:00
-purpose: "To define the architectural pattern for managing Privileged Identity Management (PIM) and Just-In-Time (JIT) access through GitOps, ensuring automatic expiration and Zero Trust compliance."
-review_interval: "1 year"
-see_also: ["[[SoT - Data-Centric IAM in Zero Trust]]", "[[SoT - GitOps for IAM and Permissions]]"]
-source_of_truth: []
+modified: 2026-02-01T15:07:57+00:00
 status: "Active"
 tags: ["azure", "gitops", "iam", "pim", "security", "terraform"]
 title: SoT - GitOps for Privileged Identity Management
 type: "SoT"
-uid: 
 updated: 
 ---
 
 ## SoT - GitOps for Privileged Identity Management
 
-> **Core Principle:** Privileged access is not a static state; it is a **temporary, time-bound lease** granted via code. By treating access requests as Pull Requests (Intent) and leveraging IaC for provisioning (Implementation), we achieve automatic expiration, auditability, and Zero Trust enforcement.
+> Core Principle: Privileged access is not a static state; it is a temporary, time-bound lease granted via code. By treating access requests as Pull Requests (Intent) and leveraging IaC for provisioning (Implementation), we achieve automatic expiration, auditability, and Zero Trust enforcement.
 
 ### 1. The Architecture: Code-Based Access Request
 
 #### The Workflow
 
-1. **Request (PR):** A user submits a Pull Request to the IAM Repository proposing a temporary change to `access.tf` (e.g., adding themselves to the `PIM-Admin` group).
-2. **Validation (Policy):** CI/CD pipelines trigger OPA (Open Policy Agent) to validate the request against policy (e.g., "Is the duration < 4 hours?", "Is this user eligible?").
-3. **Approval (Merge):** A designated approver (or automated bot for low-risk) merges the PR.
-4. **Provisioning (Apply):** Terraform applies the change, creating a **Time-Bound Assignment** in the Identity Provider (e.g., Entra ID).
-5. **Expiration (Automatic):** The Identity Provider automatically revokes access when the time-to-live (TTL) expires. No manual cleanup is required.
+1. Request (PR): A user submits a Pull Request to the IAM Repository proposing a temporary change to `access.tf` (e.g., adding themselves to the `PIM-Admin` group).
+2. Validation (Policy): CI/CD pipelines trigger OPA (Open Policy Agent) to validate the request against policy (e.g., "Is the duration < 4 hours?", "Is this user eligible?").
+3. Approval (Merge): A designated approver (or automated bot for low-risk) merges the PR.
+4. Provisioning (Apply): Terraform applies the change, creating a Time-Bound Assignment in the Identity Provider (e.g., Entra ID).
+5. Expiration (Automatic): The Identity Provider automatically revokes access when the time-to-live (TTL) expires. No manual cleanup is required.
 
 ### 2. Implementation Mechanics (Terraform & Entra ID)
 
@@ -37,9 +30,9 @@ We utilize specific Terraform resources that support TTL.
 
 #### 2.1 Active vs. Eligible Assignments
 
-- **Active Assignment:** The user _has_ the permission immediately upon merge.
+- Active Assignment: The user _has_ the permission immediately upon merge.
     - _Resource:_ `azuread_privileged_access_group_assignment_schedule`
-- **Eligible Assignment:** The user is _allowed to activate_ the permission (via portal/API) for a set duration.
+- Eligible Assignment: The user is _allowed to activate_ the permission (via portal/API) for a set duration.
     - _Resource:_ `azuread_privileged_access_group_eligibility_schedule`
 
 #### 2.2 The Expiration Contract
@@ -63,21 +56,21 @@ resource "azuread_privileged_access_group_assignment_schedule" "temp_access" {
 
 ### 3. Policy Enforcement (OPA Gatekeeper)
 
-Before the PR is merged, Open Policy Agent (OPA) acts as the **Policy Decision Point (PDP)**.
+Before the PR is merged, Open Policy Agent (OPA) acts as the Policy Decision Point (PDP).
 
-- **Contextual Checks:**
+- Contextual Checks:
     - _Time:_ "Is this request within business hours?"
     - _Role:_ "Does this user have the 'On-Call' tag?"
     - _Duration:_ "Deny if requested duration > 8 hours."
-- **Result:** The PR check fails if the policy is violated, preventing the IaC from ever being applied.
+- Result: The PR check fails if the policy is violated, preventing the IaC from ever being applied.
 
 ### 4. Why This is Zero Trust
 
-1. **Least Privilege:** Access is zero by default; it is only granted when needed.
-2. **Verify Explicitly:** Every request is authenticated (Git commit signature) and authorized (PR Approval + OPA).
-3. **Assume Breach:** Access is ephemeral. If credentials are stolen after the window, they are useless.
+1. Least Privilege: Access is zero by default; it is only granted when needed.
+2. Verify Explicitly: Every request is authenticated (Git commit signature) and authorized (PR Approval + OPA).
+3. Assume Breach: Access is ephemeral. If credentials are stolen after the window, they are useless.
 
 ### 5. Integration with ProdOS
 
-- **Domain III (Data-Centric Systems):** Access is defined as data (HCL), not ad-hoc clicks.
-- **Domain IV (Generative Infra):** The "Access Kernel" (Who/What/When) generates the complex PIM schedules.
+- Domain III (Data-Centric Systems): Access is defined as data (HCL), not ad-hoc clicks.
+- Domain IV (Generative Infra): The "Access Kernel" (Who/What/When) generates the complex PIM schedules.

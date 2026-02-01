@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-28T11:10:32Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:16+00:00
 status: ""
 tags: ["SoftwareEngineering/Networking"]
 title: Network Defense   Module 5 Firewall Technologies, Module 6 Zone-Based Policy Firewalls
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## <https://youtube.com/watch?v=tDKgZNXcF7A>\&si=VmRFFpB06MCOtHTI
@@ -28,10 +20,10 @@ Firewalls are security systems (hardware/software) that enforce access control p
 
 #### Types of Firewalls
 
-- **Packet Filtering Firewall**: Operates mostly at layer 3 (network) and layer 4 (transport), using simple rules to permit or deny traffic based on IP addresses and port numbers; they're stateless, commonly implemented via access control lists (ACLs).[^1]
-- **Stateful Firewall**: Tracks active connections and state information, permitting only traffic that matches a known, established connection (typically TCP).[^1] More versatile and common in enterprise deployments, these can defend against spoofing and many denial-of-service attacks.
-- **Application Gateway (Proxy) Firewall**: Functions up to layer 7 (application), mediating connections via a proxy. It inspects traffic for specific applications such as HTTP, DNS, email, etc., blocking unknown or unwanted content and hiding internal addresses from external servers.[^1]
-- **Next Generation Firewall (NGFW)**: Embeds advanced features such as intrusion detection, application awareness, and AI-driven threat prediction. These firewalls combine the basic filtering capabilities of other types with dynamic, adaptive security features.[^1]
+- Packet Filtering Firewall: Operates mostly at layer 3 (network) and layer 4 (transport), using simple rules to permit or deny traffic based on IP addresses and port numbers; they're stateless, commonly implemented via access control lists (ACLs).[^1]
+- Stateful Firewall: Tracks active connections and state information, permitting only traffic that matches a known, established connection (typically TCP).[^1] More versatile and common in enterprise deployments, these can defend against spoofing and many denial-of-service attacks.
+- Application Gateway (Proxy) Firewall: Functions up to layer 7 (application), mediating connections via a proxy. It inspects traffic for specific applications such as HTTP, DNS, email, etc., blocking unknown or unwanted content and hiding internal addresses from external servers.[^1]
+- Next Generation Firewall (NGFW): Embeds advanced features such as intrusion detection, application awareness, and AI-driven threat prediction. These firewalls combine the basic filtering capabilities of other types with dynamic, adaptive security features.[^1]
 
 ### Firewall Placement in Network Design
 
@@ -42,21 +34,21 @@ Firewalls are security systems (hardware/software) that enforce access control p
 
 ZPF enhances flexibility by grouping interfaces and devices into zones and then applying security policies between these zones. This model eases management, documentation, and scalability compared to classic per-interface ACL models:[^1]
 
-- **Zones** are logical groupings (private LAN, public WAN, DMZ, etc.). Policies set for a zone affect all members collectively.
-- **Zone Pairs**: Policies are created between source and destination zones (e.g., private to public), defining what sessions and protocols can traverse.
+- Zones are logical groupings (private LAN, public WAN, DMZ, etc.). Policies set for a zone affect all members collectively.
+- Zone Pairs: Policies are created between source and destination zones (e.g., private to public), defining what sessions and protocols can traverse.
 
 #### ZPF Operation \& Configuration Steps
 
 To configure a Zone-Based Policy Firewall in Cisco IOS CLI:
 
-1. **Create Zones**
+1. Create Zones
 
 ```shell
 zone security private
 zone security public
 ```
 
-1. **Identify Traffic with Class Maps**
+1. Identify Traffic with Class Maps
 
 ```shell
 class-map type inspect match-any HTTP-TRAFFIC
@@ -65,7 +57,7 @@ class-map type inspect match-any HTTP-TRAFFIC
   match protocol dns
 ```
 
-1. **Define Actions with Policy Maps**
+1. Define Actions with Policy Maps
 
 ```shell
 policy-map type inspect PRIVATE-TO-PUBLIC
@@ -73,14 +65,14 @@ policy-map type inspect PRIVATE-TO-PUBLIC
     inspect
 ```
 
-1. **Define Zone Pairs and Attach Policy**
+1. Define Zone Pairs and Attach Policy
 
 ```shell
 zone-pair security PRIVATE-TO-PUBLIC source private destination public
   service-policy type inspect PRIVATE-TO-PUBLIC
 ```
 
-1. **Assign Zones to Interfaces**
+1. Assign Zones to Interfaces
 
 ```shell
 interface GigabitEthernet0/0
@@ -89,7 +81,7 @@ interface Serial0/0
   zone-member security public
 ```
 
-1. **Verification**
+1. Verification
 
 ```shell
 show run | begin class-map
@@ -139,8 +131,6 @@ This configuration permits HTTP/HTTPS traffic initiated internally to flow to th
 | Stateful | 3,4,5 | Tracks connection state | Session management | ip inspect (classic)[^1] |
 | Application Gateway | 3,4,5,7 | Deep packet/app inspection (proxy) | Application filtering | match protocol (ZPF)[^1] |
 | NGFW | 3-7, AI | Intrusion prevention, adaptive | Advanced threats | Vendor-specific commands[^1] |
-
-***
 
 The video gives comprehensive insight into firewall types, pros/cons, network placement, zone pair logic, practical CLI steps for ZPF, and best practices for secure network architecture.[^1]
 

@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-23T11:10:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: ["implementation", "strategies", "TheHuman/Family/Bessie"]
 title: DO Implement Strategies Consistently Across All Lessons
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 The 'Do' stage involves the consistent implementation of agreed strategies across all lessons and subjects. This requires coordination between all teaching staff and support personnel.
@@ -39,16 +31,16 @@ The 'Do' stage involves the consistent implementation of agreed strategies acros
 
 ## Key Implementation Areas
 
-- **Consistent Use of Visual Aids**: Ensure that all teachers use visual supports, including mind maps, diagrams, and color-coding, to help Bessie process and retain information.
-- **Structured Note-Taking Support**: Provide consistent scaffolding for note-taking across subjects, including templates, guided notes, and opportunities for Bessie to use her preferred methods.
-- **Regular Movement Breaks**: Implement scheduled movement breaks within lessons to help manage attention and reduce restlessness.
-- **Clear Instructions and Expectations**: Ensure all teachers provide clear, step-by-step instructions and check for understanding before proceeding.
-- **Consistent Feedback and Encouragement**: Maintain a positive, encouraging approach that focuses on effort and progress rather than just outcomes.
+- Consistent Use of Visual Aids: Ensure that all teachers use visual supports, including mind maps, diagrams, and color-coding, to help Bessie process and retain information.
+- Structured Note-Taking Support: Provide consistent scaffolding for note-taking across subjects, including templates, guided notes, and opportunities for Bessie to use her preferred methods.
+- Regular Movement Breaks: Implement scheduled movement breaks within lessons to help manage attention and reduce restlessness.
+- Clear Instructions and Expectations: Ensure all teachers provide clear, step-by-step instructions and check for understanding before proceeding.
+- Consistent Feedback and Encouragement: Maintain a positive, encouraging approach that focuses on effort and progress rather than just outcomes.
 
 ## Coordination Requirements
 
-- **Staff Training**: Ensure all teaching staff understand Bessie's specific needs and the strategies that work best for her.
-- **Communication Systems**: Establish clear communication channels between teachers, support staff, and parents to share what's working and what needs adjustment.
-- **Monitoring and Adjustment**: Regularly review the effectiveness of strategies and make adjustments as needed based on Bessie's response and progress.
+- Staff Training: Ensure all teaching staff understand Bessie's specific needs and the strategies that work best for her.
+- Communication Systems: Establish clear communication channels between teachers, support staff, and parents to share what's working and what needs adjustment.
+- Monitoring and Adjustment: Regularly review the effectiveness of strategies and make adjustments as needed based on Bessie's response and progress.
 
 [[Plan for Implementing 'Assess, Plan, Do, Review' for Bessie Ormes]]

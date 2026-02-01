@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-26T18:13:21Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:31+00:00
 status: ""
 tags: []
 title: Learned Behaviour
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 From a young age, we often learn to seek approval from parents, teachers, and peers. Good grades, praise for achievements, and positive social reinforcement teach us that external validation is desirable and often necessary for navigating the world.

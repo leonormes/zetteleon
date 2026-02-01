@@ -1,24 +1,16 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-24T15:25:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:27+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:18+00:00
 status: "null"
 tags: ["filesystem", "kernel", "SoftwareEngineering/Linux", "vfs"]
 title: What is the Linux VFS (Virtual File System)
 type: "Factual"
-uid: 
 updated: 
-version: "null"
 ---
 
-**Links:**
+Links:
 
 - Up: [[MOC - Container Networking Model]]
 - Related: [[What is a network namespace]], [[What is a mount namespace]]
@@ -37,8 +29,9 @@ Linux supports hundreds of file system types—ext4, NFS, tmpfs, proc, sysfs, an
 
 #### 1. Superblock
 
-**Represents**: An entire mounted file system
-**Contains**:
+Represents: An entire mounted file system
+
+Contains:
 
 - File system type (ext4, tmpfs, NFS, etc.)
 - Block size
@@ -46,12 +39,13 @@ Linux supports hundreds of file system types—ext4, NFS, tmpfs, proc, sysfs, an
 - Pointers to other critical structures
 - Root inode reference
 
-**Operations**: Reading/writing superblock metadata, allocating inodes, syncing file system
+Operations: Reading/writing superblock metadata, allocating inodes, syncing file system
 
 #### 2. Inode
 
-**Represents**: A file or directory
-**Contains**:
+Represents: A file or directory
+
+Contains:
 
 - File size
 - Ownership (UID, GID)
@@ -60,34 +54,37 @@ Linux supports hundreds of file system types—ext4, NFS, tmpfs, proc, sysfs, an
 - Location of data blocks on disk
 - File type (regular file, directory, symlink, device)
 
-**Operations**: Creating, deleting, reading, writing files; changing permissions; creating links
+Operations: Creating, deleting, reading, writing files; changing permissions; creating links
 
-**Note**: Inode does NOT contain the filename—that's stored in directory entries (dentries)
+Note: Inode does NOT contain the filename—that's stored in directory entries (dentries)
 
 #### 3. Dentry (Directory Entry)
 
-**Represents**: A mapping from filename to inode
-**Contains**:
+Represents: A mapping from filename to inode
+
+Contains:
 
 - Filename string
 - Pointer to corresponding inode
 - Pointer to parent dentry
 - Pointers to child dentries (if directory)
 
-**Purpose**: **Caching** to speed up path lookups
-**Example**: Path `/home/user/file.txt` creates dentries:
+Purpose: Caching to speed up path lookups
+
+Example: Path `/home/user/file.txt` creates dentries:
 
 - `/` → inode 2
 - `home` → inode 1024
 - `user` → inode 2048
 - `file.txt` → inode 4096
 
-**Operations**: Lookup, validation, cache management
+Operations: Lookup, validation, cache management
 
 #### 4. File
 
-**Represents**: An open file (from a process perspective)
-**Contains**:
+Represents: An open file (from a process perspective)
+
+Contains:
 
 - File descriptor (fd)
 - Current offset (read/write position)
@@ -95,7 +92,7 @@ Linux supports hundreds of file system types—ext4, NFS, tmpfs, proc, sysfs, an
 - Pointer to dentry (and thus inode)
 - Reference count
 
-**Operations**: Read, write, seek, close, mmap
+Operations: Read, write, seek, close, mmap
 
 ### VFS in Action: Opening a File
 
@@ -118,17 +115,18 @@ All steps use VFS abstractions—the actual file system (ext4, NFS) handles disk
 
 ### The Vfsmount Structure
 
-**Represents**: A mounted file system instance
-**Contains**:
+Represents: A mounted file system instance
+
+Contains:
 
 - Mount point path (e.g., `/home`)
 - Pointer to superblock
 - Mount flags (bind, remount, etc.)
 - Parent and child mount relationships
 
-**Purpose**: Represents a subtree in the overall file system hierarchy
+Purpose: Represents a subtree in the overall file system hierarchy
 
-**Example**:
+Example:
 
 ```bash
 mount /dev/sdb1 /mnt/data
@@ -140,9 +138,9 @@ mount /dev/sdb1 /mnt/data
 
 ### VFS and Mount Namespaces
 
-Each **mount namespace** has its own set of **vfsmount** structures, creating an isolated view of the file system hierarchy. Processes in different mount namespaces see different mount points even though they share the same underlying VFS.
+Each mount namespace has its own set of vfsmount structures, creating an isolated view of the file system hierarchy. Processes in different mount namespaces see different mount points even though they share the same underlying VFS.
 
-**Example**:
+Example:
 
 - Container A mounts `/dev/sdc` at `/data`
 - Container B does not see this mount
@@ -152,31 +150,31 @@ Each **mount namespace** has its own set of **vfsmount** structures, creating an
 
 ### What This Enables
 
-- **File system diversity**: Support ext4, btrfs, NFS, tmpfs with common kernel interface
-- **Container file system isolation**: Mount namespaces leverage VFS to provide isolated views
-- **Efficient caching**: Dentry cache speeds up repeated path lookups
-- **Unified tools**: `ls`, `cat`, `cp` work on any file system via VFS
+- File system diversity: Support ext4, btrfs, NFS, tmpfs with common kernel interface
+- Container file system isolation: Mount namespaces leverage VFS to provide isolated views
+- Efficient caching: Dentry cache speeds up repeated path lookups
+- Unified tools: `ls`, `cat`, `cp` work on any file system via VFS
 
 ### What Breaks If This Fails
 
-- **Dentry cache corruption**: File lookups become extremely slow or fail
-- **Inode exhaustion**: Cannot create new files even with free disk space
-- **Superblock corruption**: Entire file system becomes unmountable
-- **File object leaks**: Process cannot open new files (too many open files)
+- Dentry cache corruption: File lookups become extremely slow or fail
+- Inode exhaustion: Cannot create new files even with free disk space
+- Superblock corruption: Entire file system becomes unmountable
+- File object leaks: Process cannot open new files (too many open files)
 
 ### How It Maps to Containers
 
-**Network namespaces** isolate network stack, but **mount namespaces** isolate file system views using VFS:
+Network namespaces isolate network stack, but mount namespaces isolate file system views using VFS:
 
 - Each container can have different `/etc/hosts` files
 - Container A can mount `/tmp` as tmpfs, Container B as disk
 - Kubernetes volumes use mount namespaces to present volumes to Pods
 
-**Without mount namespace**:
+Without mount namespace:
 
 - All containers share the same vfsmount tree
 - Mounting in one container affects all containers
-- **Security risk**: Container can modify host `/etc/passwd`
+- Security risk: Container can modify host `/etc/passwd`
 
 See: What is a mount namespace, How mount namespaces isolate file systems
 

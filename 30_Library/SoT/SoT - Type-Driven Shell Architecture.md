@@ -1,51 +1,44 @@
 ---
 aliases: ["Shell Architecture Implementation", "Torvalds Loop in Zsh", "Type-Driven Shell", "Zsh Type System"]
-confidence: "5/5"
 created: 2025-12-31T02:16:13+00:00
-epistemic: "empirical"
 last_reviewed: "2025-12-31"
-modified: 2026-01-23T18:09:16+00:00
-purpose: "To document the concrete implementation of Type-Driven Development and the Torvalds Loop within the Zsh configuration."
-review_interval: "3 months"
-see_also: ["[[SoT - Data-Centric Software Engineering]]", "[[SoT - Type Theory & Data Structures]]", "[[SoT - Type-Driven Development (The Torvalds Loop)]]"]
-source_of_truth: [".chezmoidata.toml", "zsh/dot_zshenv.tmpl", "zsh/modules/00-preflight.zsh"]
+modified: 2026-02-01T15:07:48+00:00
 status: "active"
 tags: ["chezmoi", "implementation", "macos", "SoftwareEngineering/Architecture", "SoftwareEngineering/Linux", "zsh"]
 title: SoT - Type-Driven Shell Architecture
 type: "SoT"
-uid:
 updated:
 ---
 
 ## 0. The Lineage
 
-This is a **Concrete Implementation** of the philosophy.
+This is a Concrete Implementation of the philosophy.
 
-- **The Axiom:** **[[SoT - Data-Centric Software Engineering]]**—_Environment is Data, not Code._
-- **The Method:** **[[SoT - Type-Driven Development (The Torvalds Loop)]]**—_Applying the Shape -> Access -> Invariants -> Logic loop to Zsh._
-- **The Subject:** **The Shell (Zsh/Chezmoi)**—_Treating the terminal environment as an instantiated struct._
+- The Axiom: [[SoT - Data-Centric Software Engineering]]—_Environment is Data, not Code._
+- The Method: [[SoT - Type-Driven Development (The Torvalds Loop)]]—_Applying the Shape -> Access -> Invariants -> Logic loop to Zsh._
+- The Subject: The Shell (Zsh/Chezmoi)—_Treating the terminal environment as an instantiated struct._
 
 ---
 
 ## 1. The Core Thesis
 
-> "We treat the Shell Environment not as a script to be executed, but as a **Data Structure to be instantiated**."
+> "We treat the Shell Environment not as a script to be executed, but as a Data Structure to be instantiated."
 
-Traditional shell scripting is "Stringly Typed"—it relies on defensive coding (`if [[ -d ... ]]`) and loose global state. This configuration enforces **Type Safety** in a dynamic language by separating the **Compiler** (Chezmoi) from the **Runtime** (Zsh) and enforcing a strict **Parse, Don't Validate** protocol.
+Traditional shell scripting is "Stringly Typed"—it relies on defensive coding (`if [[ -d ... ]]`) and loose global state. This configuration enforces Type Safety in a dynamic language by separating the Compiler (Chezmoi) from the Runtime (Zsh) and enforcing a strict Parse, Don't Validate protocol.
 
 ---
 
 ## 2. The Abstract Model (Mapping Math to Metal)
 
-We model the workstation as a **Sum Type** of distinct **Product Types**.
+We model the workstation as a Sum Type of distinct Product Types.
 
 | Type Theory Concept | Shell Implementation | Role |
 |:--- |:--- |:--- |
-| **Sum Type** ($A \lor B$) | `dot_zshenv.tmpl` | Resolves the OS Variant (Darwin vs Linux) and Profile (Work vs Personal). |
-| **Product Type** ($A \land B$) | `.chezmoidata.toml` | The "Struct" defining the required data (Paths, IDs, Flags). |
-| **Compiler** | `chezmoi apply` | Resolves Sum Types at "Build Time" (Template Generation). |
-| **Validator** | `00-preflight.zsh` | The "Parser" that ensures Physical Reality matches the Abstract Definition. |
-| **Runtime Enforcer** | `zinit` | Loads features if and only if they are valid for the current Type. |
+| Sum Type ($A \lor B$) | `dot_zshenv.tmpl` | Resolves the OS Variant (Darwin vs Linux) and Profile (Work vs Personal). |
+| Product Type ($A \land B$) | `.chezmoidata.toml` | The "Struct" defining the required data (Paths, IDs, Flags). |
+| Compiler | `chezmoi apply` | Resolves Sum Types at "Build Time" (Template Generation). |
+| Validator | `00-preflight.zsh` | The "Parser" that ensures Physical Reality matches the Abstract Definition. |
+| Runtime Enforcer | `zinit` | Loads features if and only if they are valid for the current Type. |
 
 ---
 
@@ -55,8 +48,9 @@ We adhere to the four-phase design protocol defined in [[SoT - Type-Driven Devel
 
 ### Phase 1: Shape (The Data Layer)
 
-**Goal:** Define the "Product Type" (Struct) of the environment.
-**Impl:** `.chezmoidata.toml`
+Goal: Define the "Product Type" (Struct) of the environment.
+
+Impl: `.chezmoidata.toml`
 
 We do not hardcode values in scripts. We define a schema. If a value is missing here, the "Compiler" (Chezmoi) will fail, catching the error before Zsh ever starts.
 
@@ -70,8 +64,9 @@ repo_root = "DAL/Fitfile" # The Data Fields
 
 ### Phase 2: Access (The Context Layer)
 
-**Goal:** Resolve the "Sum Type" (Enum) into a concrete context.
-**Impl:** `zsh/dot_zshenv.tmpl`
+Goal: Resolve the "Sum Type" (Enum) into a concrete context.
+
+Impl: `zsh/dot_zshenv.tmpl`
 
 This file acts as a Pure Function: `f(Data, OS) -> Environment`. It normalizes OS differences (Mac vs Linux) so the Logic Layer doesn't have to check them.
 
@@ -89,8 +84,9 @@ export FEATURE_K8S={{ if .features.k8s }}1{{ else }}0{{ end }} # Feature Flag
 
 ### Phase 3: Invariants (The Validator)
 
-**Goal:** Parse, Don't Validate.
-**Impl:** `zsh/modules/00-preflight.zsh`
+Goal: Parse, Don't Validate.
+
+Impl: `zsh/modules/00-preflight.zsh`
 
 Before loading complex logic, we assert that the Physical Reality (Disk) matches the Abstract Definition (Env Vars). If this fails, we halt (return 1), preventing the shell from entering a "Zombie State" (partially loaded, broken tools).
 
@@ -107,8 +103,9 @@ done
 
 ### Phase 4: Logic (Transformation)
 
-**Goal:** Linear transformations of valid state.
-**Impl:** `zsh/modules/01-path.zsh`
+Goal: Linear transformations of valid state.
+
+Impl: `zsh/modules/01-path.zsh`
 
 Because Phase 3 guaranteed the existence of our inputs (`HOMEBREW_PREFIX`, `PYENV_ROOT`), the logic files no longer need defensive checks. They simply execute.
 
@@ -127,8 +124,8 @@ We use Zinit as a "Runtime Enforcer" to ensure that tools incompatible with the 
 
 In `dot_zshrc`, we load plugins conditionally based on the flags injected by the Context Layer (`dot_zshenv`).
 
-- **Anti-Pattern:** Loading `kubectl` and checking if it works every time.
-- **Type-Driven:** If `FEATURE_K8S` is 0, the `kubectl` alias and completion do not exist.
+- Anti-Pattern: Loading `kubectl` and checking if it works every time.
+- Type-Driven: If `FEATURE_K8S` is 0, the `kubectl` alias and completion do not exist.
 
 ```sh
 # Implied Logic in Zinit
@@ -141,6 +138,6 @@ fi
 
 ## 5. Summary of Benefits
 
-- **Correctness by Construction:** It is impossible to generate a `dot_zshenv` with invalid paths for the current OS because the template logic prevents it.
-- **Fail Fast:** The `00-preflight.zsh` script stops the shell from loading into a broken state, clearly identifying "Type Errors" (Missing Dependencies).
-- **Isomorphism:** The Logic Layer (`modules/*.zsh`) looks identical on Mac and Linux because the Context Layer (`zshenv`) handles the mapping of "Abstract Concept" (`VOLUMES_ROOT`) to "Physical Path" (`/Volumes` vs `/mnt`).
+- Correctness by Construction: It is impossible to generate a `dot_zshenv` with invalid paths for the current OS because the template logic prevents it.
+- Fail Fast: The `00-preflight.zsh` script stops the shell from loading into a broken state, clearly identifying "Type Errors" (Missing Dependencies).
+- Isomorphism: The Logic Layer (`modules/*.zsh`) looks identical on Mac and Linux because the Context Layer (`zshenv`) handles the mapping of "Abstract Concept" (`VOLUMES_ROOT`) to "Physical Path" (`/Volumes` vs `/mnt`).

@@ -23,13 +23,13 @@ There are two fundamental types of information that drive different learning and
 
 ## Core Distinction
 
-- **[[Type 1 Information is Theoretical]]**: Knowledge acquired passively through consumption (reading, watching, planning). Provides mental models but no real-world validation.
-- **[[Type 2 Information is Experiential]]**: Knowledge gained through direct experience and action. Provides context-specific feedback that cannot be obtained theoretically.
+- [[Type 1 Information is Theoretical]]: Knowledge acquired passively through consumption (reading, watching, planning). Provides mental models but no real-world validation.
+- [[Type 2 Information is Experiential]]: Knowledge gained through direct experience and action. Provides context-specific feedback that cannot be obtained theoretically.
 
 ## Behavioral Patterns
 
-- **[[Information Addiction in Overthinkers]]**: How Type 1 information becomes compulsively consumed as a substitute for action
-- **[[Experiential Information Avoidance]]**: Why Type 2 information is often feared and avoided despite its necessity for growth
+- [[Information Addiction in Overthinkers]]: How Type 1 information becomes compulsively consumed as a substitute for action
+- [[Experiential Information Avoidance]]: Why Type 2 information is often feared and avoided despite its necessity for growth
 
 ## Key Insights
 

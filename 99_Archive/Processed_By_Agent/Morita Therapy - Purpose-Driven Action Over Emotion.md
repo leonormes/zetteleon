@@ -24,7 +24,7 @@ This principle directly counters the tendency to procrastinate until one "feels 
 
 This directly challenges [[The Core Problem Confusing Preparation with Action]] and the paralysis of [[Perfectionism]], urging one to [[Abandon the Perfect]].
 
-**Philosophical Parallel:**
+Philosophical Parallel:
 Shares [[Existentialism - Existence Precedes Essence]] emphasis on:
 
 - Action preceding clarity

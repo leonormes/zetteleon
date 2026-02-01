@@ -1,26 +1,19 @@
 ---
 aliases: [Compounding, Exponential Growth, The Rule of 70]
-confidence: 5/5
 created: 2025-12-25T11:45:00Z
-epistemic: principle
 last_reviewed: 2025-12-25
-modified: 2026-01-23T18:09:17+00:00
-purpose: To define the mechanics and cognitive implications of the exponential function and steady growth.
-review_interval: 6 months
-see_also: ["[[Mental Models MOC]]", "[[SoT - Systems Thinking]]"]
-source_of_truth: [Professor Albert Bartlett - The Exponential Function]
+modified: 2026-02-01T15:07:50+00:00
 status: stable
 tags: [cognition, mathematics, mental_models, systems_thinking]
 title: SoT - The Exponential Function
 type: SoT
-uid: 
 updated: 
 ---
 
 ## SoT - The Exponential Function
 
 > [!definition] Definition
-> **Exponential Growth:** Occurs when a quantity increases by a fixed percentage over a fixed period of time. Unlike linear growth, the absolute increase grows larger in each successive period.
+> Exponential Growth: Occurs when a quantity increases by a fixed percentage over a fixed period of time. Unlike linear growth, the absolute increase grows larger in each successive period.
 
 ### 1. The Mechanics of Steady Growth
 
@@ -28,7 +21,7 @@ The "greatest shortcoming of the human race" is our inability to understand the 
 
 #### The Rule of 70
 
-A simple heuristic to calculate **doubling time** ($T_d$):
+A simple heuristic to calculate doubling time ($T_d$):
 
 $$
 T_d \approx \frac{70}{r}
@@ -44,17 +37,17 @@ where $r$ is the percentage growth rate per unit of time.
 
 Human intuition consistently fails to grasp the "back-loaded" nature of exponential functions.
 
-**The Scenario:** One bacterium in a bottle at 11:00 AM; the bottle doubles every minute and is full at 12:00 PM.
+The Scenario: One bacterium in a bottle at 11:00 AM; the bottle doubles every minute and is full at 12:00 PM.
 
 | Time | Bottle Fullness | Insight |
 |:--- |:--- |:--- |
 | 11:00 AM | 1 count | Start |
-| 11:55 AM | **3% full** | **The Recognition Gap:** 97% of the bottle appears "empty." |
+| 11:55 AM | 3% full | The Recognition Gap: 97% of the bottle appears "empty." |
 | 11:58 AM | 25% full | Still appears largely empty. |
 | 11:59 AM | 50% full | The "Midpoint" is only one minute before the end. |
-| 12:00 PM | **100% full** | Total saturation. |
+| 12:00 PM | 100% full | Total saturation. |
 
-**The Lesson:** By the time the growth becomes "visible" or "alarming" to a casual observer, the system is usually seconds away from total saturation or collapse.
+The Lesson: By the time the growth becomes "visible" or "alarming" to a casual observer, the system is usually seconds away from total saturation or collapse.
 
 ---
 
@@ -71,7 +64,7 @@ The same math governs compound interest.
 
 ### 4. The Philosophical Conflict
 
-There is a profound cognitive disconnect between our understanding of **dollars** (where we accept compounding) and **physical systems** (where we assume linear limits).
+There is a profound cognitive disconnect between our understanding of dollars (where we accept compounding) and physical systems (where we assume linear limits).
 
 - We accept that money grows exponentially.
 - We struggle to accept that resource consumption or population can do the same within a finite environment (The "Infinite Growth on a Finite Planet" fallacy).
@@ -80,6 +73,6 @@ There is a profound cognitive disconnect between our understanding of **dollars*
 
 ### 5. Related Concepts
 
-- **[[Mental Models MOC]]**
-- **[[SoT - Systems Thinking]]**
-- **[[Predictive Processing and the Bayesian Brain]]** (Why our internal models prefer linear predictions).
+- [[Mental Models MOC]]
+- [[SoT - Systems Thinking]]
+- [[Predictive Processing and the Bayesian Brain]] (Why our internal models prefer linear predictions).

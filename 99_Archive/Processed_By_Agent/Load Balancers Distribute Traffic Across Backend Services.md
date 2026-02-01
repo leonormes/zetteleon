@@ -19,16 +19,16 @@ updated:
 
 ## Load Balancers Distribute Traffic Across Backend Services
 
-**Summary:** Cloud load balancers distribute incoming traffic across multiple backend servers to ensure availability and performance.
+Summary: Cloud load balancers distribute incoming traffic across multiple backend servers to ensure availability and performance.
 
-**Key functions:**
+Key functions:
 
 - Health checks (monitor backend health)
 - Traffic distribution algorithms (round robin, least conn)
 - SSL/TLS termination
 - Single entry point for services
 
-**Example packet flow:**
+Example packet flow:
 
 1. TCP SYN to LB public IP:443
 2. LB selects healthy backend (Web-Server-B)
@@ -36,7 +36,7 @@ updated:
    - Forward directly (NLB)
    - Terminate TLS, add X-Forwarded-For (ALB)
 
-**Limitations:**
+Limitations:
 
 - Not a firewall/WAF
 - No API management

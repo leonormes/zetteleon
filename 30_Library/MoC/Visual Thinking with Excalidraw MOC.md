@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-24T13:14:20Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T15:03:32+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:03+00:00
 status: "null"
 tags: ["excalidraw", "topic/pkm", "type/moc", "visual-thinking"]
 title: Visual Thinking with Excalidraw MOC
 type: "map"
-uid: 
 updated: 
-version: "null"
 ---
 
 This Map of Content (MOC) gathers notes on using Excalidraw for visual thinking and personal knowledge management, largely inspired by the work of Zsolt Viczián.

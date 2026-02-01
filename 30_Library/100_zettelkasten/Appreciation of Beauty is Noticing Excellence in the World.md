@@ -1,19 +1,12 @@
 ---
 aliases: ["Awe", "Wonder"]
-confidence: "1"
 created: 2025-12-10T12:00:00Z
-epistemic: "definition"
 last_reviewed: "2025-12-10"
-modified: 2026-01-23T18:09:32+00:00
-purpose: "To define the character strength of Appreciation of Beauty and Excellence."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:36+00:00
 status: "evergreen"
 tags: ["appreciation-of-beauty", "character-strength", "transcendence"]
 title: Appreciation of Beauty is Noticing Excellence in the World
 type: "concept"
-uid: 
 updated: 
 ---
 

@@ -1,27 +1,20 @@
 ---
 aliases: ["Relation Fields", "Semantic Links"]
-confidence: "0.92"
 created: 2025-10-31T08:19:00Z
-epistemic: "principle"
 last_reviewed: "2025-10-31"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "Explains how typed links add semantic meaning to wikilinks, transforming them from simple references into meaningful relationships."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: "seedling"
 tags: ["linking", "semantics", "zettelkasten"]
 title: Typed Links for Knowledge Context
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Typed Links for Knowledge Context
 
-**Summary:** Typed links use inline field syntax (e.g., `[[Note]] rel:: supports`) to label the relationship between a structural note and an atomic note, transforming bare links into meaningful, machine-readable connections.
+Summary: Typed links use inline field syntax (e.g., `[[Note]] rel:: supports`) to label the relationship between a structural note and an atomic note, transforming bare links into meaningful, machine-readable connections.
 
-**Details:**
+Details:
 
 A bare wikilink `[[Atomic Note]]` tells you that two notes are connected, but not _why_ or _how_. A typed link answers that question by adding semantic metadata.
 
@@ -33,7 +26,7 @@ Common relation types include:
 - `rel:: contradicts`: Atomic note challenges or opposes the point
 - `rel:: mitigates`: Atomic note reduces risk or provides a solution
 
-**Example:** Instead of `[[Error Budgets]]`, you write `[[Error Budgets]] rel:: mitigates strategy:: "Use bounded failure modes"`. This tells both humans and machines that the atomic note "Error Budgets" _mitigates_ a risk mentioned in the structural note.
+Example: Instead of `[[Error Budgets]]`, you write `[[Error Budgets]] rel:: mitigates strategy:: "Use bounded failure modes"`. This tells both humans and machines that the atomic note "Error Budgets" _mitigates_ a risk mentioned in the structural note.
 
 Typed links are placed inline within the narrative of a structural note (map, argument, comparison). They become queryable via Dataview, enabling you to ask questions like "show me all atomic notes that contradict this argument" or "find examples of X".
 

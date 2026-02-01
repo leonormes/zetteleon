@@ -19,14 +19,14 @@ updated:
 
 ## Identity Change is a Two-Step Process of Deciding and Proving
 
-**What:** A simple path to changing who you are through action.
+What: A simple path to changing who you are through action.
 
-**How:**
+How:
 
-1. **Decide:** First, decide the type of person you want to be. This can be framed as a statement ("I'm the type of person who is consistent") or a question ("What would a healthy person do?").
-2. **Prove:** Second, prove it to yourself with small wins. Take tiny actions that reinforce your desired identity, casting votes for that new self.
+1. Decide: First, decide the type of person you want to be. This can be framed as a statement ("I'm the type of person who is consistent") or a question ("What would a healthy person do?").
+2. Prove: Second, prove it to yourself with small wins. Take tiny actions that reinforce your desired identity, casting votes for that new self.
 
-**Failure modes:**
+Failure modes:
 
 - Deciding on an identity but failing to take any action to prove it.
 - Taking actions that are too large and unsustainable, leading to failure and reinforcing a negative identity.

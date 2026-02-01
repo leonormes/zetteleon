@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-05-26T14:06:58Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T15:03:31+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:04+00:00
 status: "null"
 tags: ["dopamine", "interest", "novelty", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
 title: Novelty Seeking
 type: "map"
-uid: 
 updated: 
-version: "1"
 ---
 
 The ADHD brain is often interest-driven and craves novelty. This note serves as a Map of Content (MOC) for the concept of novelty seeking in ADHD.

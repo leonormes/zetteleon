@@ -1,21 +1,13 @@
 ---
 aliases: ["Action-Reaction Cycle"]
-confidence: "null"
 created: 2025-07-17T10:07:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:26+00:00
 status: "null"
 tags: ["action", "feedback-loop", "strategy", "topic/learning"]
 title: The Action-Reaction-Ping-Adjust Cycle Drives Real Progress
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
 This is the systematic process for breaking the [[The Overthinking Loop Creates Mental Noise Not Clarity]]:

@@ -52,7 +52,7 @@ The solution involves external cognitive support systems:
 
 [[Purpose of my PKM system]] - Personal knowledge management as cognitive prosthetic
 
-**Compensation Strategy:**
+Compensation Strategy:
 Leverage [[Diffuse vs Focused Thinking Modes]] with:
 
 - Shorter focused intervals

@@ -19,22 +19,22 @@ updated:
 
 ## Understanding Network Namespaces and Network Stacks in Linux
 
-In the context of Linux networking, **namespacing** is a powerful feature that allows for the isolation of system resources for processes. A **network stack** refers to the set of network-related resources and configurations that are associated with a specific network namespace.
+In the context of Linux networking, namespacing is a powerful feature that allows for the isolation of system resources for processes. A network stack refers to the set of network-related resources and configurations that are associated with a specific network namespace.
 
 ### What is a Network Stack
 
-A **network stack** in Linux is essentially a complete set of networking components that includes:
+A network stack in Linux is essentially a complete set of networking components that includes:
 
-- **Network Interfaces**: These are the virtual or physical interfaces through which data is sent and received.
-- **Routing Tables**: Each network namespace has its own routing table, which determines how packets are forwarded based on destination IP addresses.
-- **Firewall Rules**: Network namespaces can have distinct sets of iptables rules, allowing for different security policies to be applied within different namespaces.
-- **IP Addressing and Protocol Stacks**: Each namespace can have its own IP addresses and can operate independently from others.
+- Network Interfaces: These are the virtual or physical interfaces through which data is sent and received.
+- Routing Tables: Each network namespace has its own routing table, which determines how packets are forwarded based on destination IP addresses.
+- Firewall Rules: Network namespaces can have distinct sets of iptables rules, allowing for different security policies to be applied within different namespaces.
+- IP Addressing and Protocol Stacks: Each namespace can have its own IP addresses and can operate independently from others.
 
 This isolation allows processes running in different namespaces to use the same IP addresses without conflict, enabling scenarios such as containerization where multiple applications can run on the same host without interfering with each other's network configurations[^1][^2][^5].
 
 ### Broader Terms: What is a Network Stack
 
-More broadly, a **network stack** refers to any implementation of a set of protocols used for network communication. This can include various layers defined in models like the OSI (Open Systems Interconnection) model or the TCP/IP model. Each layer in these models serves specific functions in data transmission:
+More broadly, a network stack refers to any implementation of a set of protocols used for network communication. This can include various layers defined in models like the OSI (Open Systems Interconnection) model or the TCP/IP model. Each layer in these models serves specific functions in data transmission:
 
 | Layer | Function |
 |:-- |:-- |
@@ -50,11 +50,11 @@ The network stack is essential for defining how data is transmitted, received, a
 
 To create and manage a functional network stack within a Linux network namespace, several components are required:
 
-- **Kernel Support**: The Linux kernel must be configured with support for network namespaces (CONFIG_NET_NS option).
-- **Network Interfaces**: Virtual Ethernet (veth) pairs are often used to connect different namespaces, allowing them to communicate with each other.
-- **Routing Tables**: Each namespace must have its own routing table to manage how packets are directed.
-- **iptables**: Firewall rules specific to each namespace can be defined using iptables, providing security controls.
-- **Commands for Management**:
+- Kernel Support: The Linux kernel must be configured with support for network namespaces (CONFIG_NET_NS option).
+- Network Interfaces: Virtual Ethernet (veth) pairs are often used to connect different namespaces, allowing them to communicate with each other.
+- Routing Tables: Each namespace must have its own routing table to manage how packets are directed.
+- iptables: Firewall rules specific to each namespace can be defined using iptables, providing security controls.
+- Commands for Management:
   - To create a namespace: `sudo ip netns add <namespace_name>`
   - To list namespaces: `sudo ip netns list`
   - To execute commands in a namespace: `sudo ip netns exec <namespace_name> <command>`

@@ -1,31 +1,24 @@
 ---
 aliases: ["WebSocket protocol", "WebSocket"]
-confidence: "0.9"
 created: 2025-10-31T13:44:00Z
-epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "Explain WebSocket protocol and its relationship to TCP sockets."
-review_interval: "90"
-see_also: ["Stream Sockets Provide Reliable Ordered TCP Communication.md", "WebSocket Use Cases for Real-Time Applications.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:23+00:00
 status: "seedling"
 tags: ["protocol", "real-time", "SoftwareEngineering/Networking", "websocket"]
 title: WebSocket Protocol Provides Persistent Full-Duplex Communication
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## WebSocket Protocol Provides Persistent Full-Duplex Communication
 
-**Summary:** WebSockets overlay TCP sockets, starting as an HTTP request and upgrading to a persistent, full-duplex connection ideal for real-time web applications.
+Summary: WebSockets overlay TCP sockets, starting as an HTTP request and upgrading to a persistent, full-duplex connection ideal for real-time web applications.
 
-**Details:**
+Details:
 
 WebSocket is a protocol that runs on top of TCP sockets, designed specifically for real-time, bidirectional communication between web browsers and servers.
 
-**Connection establishment:**
+Connection establishment:
 
 1. Client sends HTTP request with upgrade headers:
 
@@ -47,22 +40,22 @@ WebSocket is a protocol that runs on top of TCP sockets, designed specifically f
 3. The HTTP connection transforms into a WebSocket connection
 4. Both sides can now send messages at any time
 
-**Key characteristics:**
+Key characteristics:
 
-- **Full-duplex**: Both client and server can send messages simultaneously
-- **Persistent**: Connection stays open until explicitly closed
-- **Low overhead**: After initial handshake, minimal protocol overhead compared to HTTP polling
-- **Message-based**: Frames data as discrete messages, not raw byte streams
-- **Built on TCP**: Inherits TCP's reliability and ordering guarantees
+- Full-duplex: Both client and server can send messages simultaneously
+- Persistent: Connection stays open until explicitly closed
+- Low overhead: After initial handshake, minimal protocol overhead compared to HTTP polling
+- Message-based: Frames data as discrete messages, not raw byte streams
+- Built on TCP: Inherits TCP's reliability and ordering guarantees
 
-**Comparison to HTTP:**
+Comparison to HTTP:
 
 Traditional HTTP is request-response only - the server cannot initiate communication. WebSockets break this limitation, allowing true push notifications from server to client.
 
-**Comparison to raw TCP sockets:**
+Comparison to raw TCP sockets:
 
 WebSockets provide a higher-level protocol that works through firewalls and proxies (since they start as HTTP) and include message framing, making them easier to use in web contexts than raw TCP sockets.
 
-**Protocol overhead:**
+Protocol overhead:
 
 After the initial HTTP upgrade handshake, WebSocket messages have only 2-14 bytes of overhead per message, making them efficient for real-time data.

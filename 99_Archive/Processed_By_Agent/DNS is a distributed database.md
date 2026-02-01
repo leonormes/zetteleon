@@ -26,11 +26,11 @@ When claiming a new domain, we need to fit it in to the global database. Finding
 
 DNS achieves distribution through primary and slave nameserver roles:
 
-- **Primary Nameserver:**
+- Primary Nameserver:
   - Reads zone data directly from local files
   - Ultimate source of truth for its zones
   - All zone changes must be made here
-- **Slave Nameserver:**
+- Slave Nameserver:
   - Gets zone data via transfers from a master (primary or another slave)
   - Provides redundancy and load distribution
   - Appears identical to resolvers (both authoritative)
@@ -43,7 +43,7 @@ Slaves synchronize using zone transfers controlled by the zone's SOA record:
 2. Initiates transfer if master's number is higher
 3. Updates local zone data
 
-**Critical SOA Fields:**
+Critical SOA Fields:
 
 - Serial number (must increment on changes)
 - Refresh/retry intervals
@@ -51,19 +51,19 @@ Slaves synchronize using zone transfers controlled by the zone's SOA record:
 
 ## DNS as a Distributed Key-Value Store
 
-**Summary:** DNS functions as a distributed database mapping domain names (keys) to resource records (values), with:
+Summary: DNS functions as a distributed database mapping domain names (keys) to resource records (values), with:
 
-- **Keys:** Hierarchical domain names (e.g., example.com)
-- **Values:** Structured resource records (A, MX, etc.)
-- **Partitioning:** Zones delegate authority for subdomains
+- Keys: Hierarchical domain names (e.g., example.com)
+- Values: Structured resource records (A, MX, etc.)
+- Partitioning: Zones delegate authority for subdomains
 
-**Characteristics:**
+Characteristics:
 
 - Eventual consistency (through zone transfers)
 - High read throughput (caching resolvers)
 - Write bottlenecks at zone apexes
 
-**Common Use Cases:**
+Common Use Cases:
 
 - Web browsing (A/AAAA records)
 - Email routing (MX records)
@@ -71,7 +71,7 @@ Slaves synchronize using zone transfers controlled by the zone's SOA record:
 - Email security (TXT records for SPF/DKIM)
 - Service discovery (SRV records)
 
-**Zone File Example:**
+Zone File Example:
 
 ```sh
 $ORIGIN example.com.

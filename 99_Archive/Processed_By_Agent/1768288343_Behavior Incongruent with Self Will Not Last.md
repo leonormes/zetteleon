@@ -19,6 +19,6 @@ updated:
 
 ## Behavior Incongruent with Self Will Not Last
 
-**Summary:** Any behavior that is fundamentally in conflict with your underlying identity is unsustainable over the long term.
+Summary: Any behavior that is fundamentally in conflict with your underlying identity is unsustainable over the long term.
 
-**Details:** Your self-image and core beliefs act as a powerful guiding force. If you attempt to adopt a new habit but still see yourself as someone who prioritizes comfort over effort, you will constantly be pulled back toward your old patterns. Lasting change requires alignment between your actions and your identity.
+Details: Your self-image and core beliefs act as a powerful guiding force. If you attempt to adopt a new habit but still see yourself as someone who prioritizes comfort over effort, you will constantly be pulled back toward your old patterns. Lasting change requires alignment between your actions and your identity.

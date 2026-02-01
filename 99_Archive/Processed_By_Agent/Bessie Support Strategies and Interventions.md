@@ -29,10 +29,10 @@ version: ""
 
 ### Resource Adaptations
 
-- **Blue paper/books** for Meares-Irlen Syndrome
-- **Laptop use** for longer writing tasks and summative tests
-- **Printed materials** rather than copying from board
-- **Extra time** for processing information
+- Blue paper/books for Meares-Irlen Syndrome
+- Laptop use for longer writing tasks and summative tests
+- Printed materials rather than copying from board
+- Extra time for processing information
 
 ### Emotional Support
 
@@ -84,19 +84,19 @@ version: ""
 
 Effective support strategies can foster character strengths from the [[Character and Virtue MOC]]:
 
-**[[VIA Virtue of Temperance]]:**
+[[VIA Virtue of Temperance]]:
 
-- **[[VIA Virtue of Temperance|Self-Regulation (Self-Control)]]**: Learning to use support tools appropriately
-- **[[VIA Virtue of Temperance|Prudence]]**: Making good choices about when to seek help
+- [[VIA Virtue of Temperance|Self-Regulation (Self-Control)]]: Learning to use support tools appropriately
+- [[VIA Virtue of Temperance|Prudence]]: Making good choices about when to seek help
 
-**[[VIA Virtue of Courage]]:**
+[[VIA Virtue of Courage]]:
 
-- **[[VIA Virtue of Courage|Perseverance (Persistence)]]**: Continuing to engage despite challenges
-- **[[VIA Virtue of Courage|Honesty (Integrity)]]**: Advocating for her own needs
+- [[VIA Virtue of Courage|Perseverance (Persistence)]]: Continuing to engage despite challenges
+- [[VIA Virtue of Courage|Honesty (Integrity)]]: Advocating for her own needs
 
-**[[VIA Virtue of Humanity]]:**
+[[VIA Virtue of Humanity]]:
 
-- **[[VIA Virtue of Humanity|Social Intelligence]]**: Understanding and communicating support needs
+- [[VIA Virtue of Humanity|Social Intelligence]]: Understanding and communicating support needs
 
 When implemented consistently, support strategies build independence and self-advocacy skills that become character strengths.
 

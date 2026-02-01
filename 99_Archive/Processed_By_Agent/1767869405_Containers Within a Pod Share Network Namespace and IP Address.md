@@ -25,18 +25,18 @@ Containers within the same Kubernetes pod share a network namespace and IP addre
 
 ## Details
 
-- **Shared Resources**: Containers in a pod share network namespaces, storage volumes, and process IDs
-- **Communication**: Containers can communicate using `localhost:port` or the pod's IP address
-- **Example**: A web server on port 80 can access a database on port 3306 using `localhost:3306`
-- **Isolation**: Each pod has its own network namespace, separate from other pods and the host
-- **Network Stack**: The shared namespace includes network interfaces, routing tables, and firewall rules
+- Shared Resources: Containers in a pod share network namespaces, storage volumes, and process IDs
+- Communication: Containers can communicate using `localhost:port` or the pod's IP address
+- Example: A web server on port 80 can access a database on port 3306 using `localhost:3306`
+- Isolation: Each pod has its own network namespace, separate from other pods and the host
+- Network Stack: The shared namespace includes network interfaces, routing tables, and firewall rules
 
 ## Implications
 
-- **Simplified Development**: No need for service discovery between containers in the same pod
-- **Performance**: Local communication avoids network overhead
-- **Port Conflicts**: Containers in the same pod cannot use the same port
-- **Security**: All containers share the same network security context
+- Simplified Development: No need for service discovery between containers in the same pod
+- Performance: Local communication avoids network overhead
+- Port Conflicts: Containers in the same pod cannot use the same port
+- Security: All containers share the same network security context
 
 ## Related
 

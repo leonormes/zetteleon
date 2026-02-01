@@ -15,25 +15,25 @@ Perform a "Compaction Ritual" across the Obsidian vault. Use semantic embeddings
 
 ## Tool Strategy
 
-1. **Initial Scan:** Call `search_vault_smart` using the following conceptual queries:
+1. Initial Scan: Call `search_vault_smart` using the following conceptual queries:
    - "Axiomatic system architecture and kernel definitions"
    - "Context engineering and agent protocols"
    - "Human learning architecture and knowledge synthesis"
-2. **Logic Extraction:** For each result, use `get_vault_file` to inspect the `reason::` and `epistemic::` frontmatter.
+2. Logic Extraction: For each result, use `get_vault_file` to inspect the `reason::` and `epistemic::` frontmatter.
 
 ## Evaluation Criteria (The Filter)
 
-- **Conflict:** Does this note propose a protocol that contradicts Section 1.2 (Four Axioms) of the Core Spec?
-- **Redundancy:** Is this note a "Shadow" (e.g., an archived version like `SoT - PRODOS - Learning Architecture.md`)?
-- **Entropy:** Is the `confidence::` level low (<3/5), indicating it should be deleted or merged?
+- Conflict: Does this note propose a protocol that contradicts Section 1.2 (Four Axioms) of the Core Spec?
+- Redundancy: Is this note a "Shadow" (e.g., an archived version like `SoT - PRODOS - Learning Architecture.md`)?
+- Entropy: Is the `confidence::` level low (<3/5), indicating it should be deleted or merged?
 
 ## Output (The Compaction Log)
 
 Provide a Markdown table summarizing the "Logical Diffs."
 
-- **Path**: Location of the note.
-- **Semantic Overlap**: % similarity to Core Spec logic.
-- **Action**: [DELETE | MERGE TO SoT | UPGRADE TO HEAD].
+- Path: Location of the note.
+- Semantic Overlap: % similarity to Core Spec logic.
+- Action: [DELETE | MERGE TO SoT | UPGRADE TO HEAD].
 
 ## Post-Processing
 

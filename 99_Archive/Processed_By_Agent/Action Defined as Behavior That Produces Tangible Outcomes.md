@@ -18,33 +18,33 @@ updated:
 version: "1"
 ---
 
-**Summary:** Action is behavior that directly produces a tangible outcome. Unlike motion, action brings a project or task closer to completion through concrete execution.
+Summary: Action is behavior that directly produces a tangible outcome. Unlike motion, action brings a project or task closer to completion through concrete execution.
 
-**What Action Involves:**
+What Action Involves:
 
-- **Execution:** Carrying out the planned steps and activities
-- **Implementation:** Putting strategies into practice
-- **Direct Involvement:** Engaging in the task at hand
-- **Next Physical Action:** Determining and taking the very next physical step
+- Execution: Carrying out the planned steps and activities
+- Implementation: Putting strategies into practice
+- Direct Involvement: Engaging in the task at hand
+- Next Physical Action: Determining and taking the very next physical step
 
-**Key Characteristic:**
+Key Characteristic:
 
 Action requires commitment to specific activities that directly contribute to the desired result. As the sources note, "the ancestor of every action is a thought," but "thought is useful when it motivates action and a hindrance when it substitutes for action."
 
-**Examples:**
+Examples:
 
 - Eating a healthy meal (action) vs. searching for a better diet plan (motion)
 - Writing an article (action) vs. outlining twenty article ideas (motion)
 - Going to the gym (action) vs. creating a workout plan (motion)
 
-**Why Action Matters:**
+Why Action Matters:
 
 Action is the step that brings tangible progress. A plan vigorously executed is better than a brilliant plan on which nothing is done. The focus should be on making decisions right through action, not on making the "right" decision through endless planning.
 
-**The Risk Factor:**
+The Risk Factor:
 
 Action carries risk that motion does not—the risk of failure, criticism, public judgment, or not meeting expectations. This is why people often prefer staying in motion. However, outcomes only emerge through action, not planning.
 
-**Action Over Perfection:**
+Action Over Perfection:
 
 Embracing imperfection is essential. Don't wait for the perfect time or optimal conditions to start. Start now and refine the process as you go. Focus on making the decision _right_ through good execution, not on making the _right_ decision through perfect planning.

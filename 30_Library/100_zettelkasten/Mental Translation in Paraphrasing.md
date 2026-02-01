@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:55Z
-epistemic: ""
 ID: "mental_translation_in_paraphrasing"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:30+00:00
 status: ""
 tags: ["paraphrasing"]
 title: Mental Translation in Paraphrasing
 type: "permanent"
-uid: 
 updated: 
-version: ""
 ---
 
 Once the original text is understood, paraphrasing involves a mental translation process. This includes finding alternative expressions for ideas while preserving the core meaning.

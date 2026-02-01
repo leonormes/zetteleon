@@ -1,26 +1,19 @@
 ---
 aliases: []
-confidence: "5/5"
 created: 2025-12-17T00:00:00Z
-epistemic: ""
 last_reviewed: "2025-12-17"
-modified: 2026-01-23T18:09:21+00:00
-purpose: "To explain how an organization's communication structure inevitably shapes the technical systems it produces."
-review_interval: "3 months"
-see_also: ["[[MOC - Socio-Technical Dissonance]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:00+00:00
 status: "stable"
 tags: ["conways-law", "organizational-structure", "SoftwareEngineering/Architecture", "systems-design"]
 title: SoT - Conways Law and Structural Mismatch
 type: "SoT"
-uid: 
 updated: 
 ---
 
 ## 1. Definitive Statement
 
 > [!definition] Definition
-> **Conway's Law** is an adage stating that organizations are constrained to produce designs which are copies of their own communication structures. This means a dysfunctional, hierarchical, or siloed social structure will inevitably produce a dysfunctional, monolithic, or fragile technical architecture.
+> Conway's Law is an adage stating that organizations are constrained to produce designs which are copies of their own communication structures. This means a dysfunctional, hierarchical, or siloed social structure will inevitably produce a dysfunctional, monolithic, or fragile technical architecture.
 
 ## 2. Core Concepts
 
@@ -30,7 +23,7 @@ The law, articulated by Melvin Conway in 1967, provides a powerful lens for unde
 
 ### 2.1 Structural Mismatch
 
-A **Structural Mismatch** occurs when the desired technical topology (e.g., a loosely-coupled microservices architecture) is at odds with the social topology of the organization (e.g., a rigid, top-down hierarchy with siloed teams).
+A Structural Mismatch occurs when the desired technical topology (e.g., a loosely-coupled microservices architecture) is at odds with the social topology of the organization (e.g., a rigid, top-down hierarchy with siloed teams).
 
 If an organization's social structure is characterized by:
 

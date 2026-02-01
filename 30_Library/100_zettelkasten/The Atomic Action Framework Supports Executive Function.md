@@ -1,24 +1,17 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-11-10T15:15:00Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: "To explain how the atomic action framework supports executive functions."
-review_interval: "90"
-see_also: ["[[Executive Function Challenges are Central to ADHD]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:26+00:00
 status: "seedling"
 tags: ["executive-function", "TheHuman/Health/ADHD", "topic/productivity", "topic/systems"]
 title: The Atomic Action Framework Supports Executive Function
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## The Atomic Action Framework Supports Executive Function
 
-**Summary:** The atomic action framework provides significant support for executive functions by externalizing planning and organization, and by reducing working memory load.
+Summary: The atomic action framework provides significant support for executive functions by externalizing planning and organization, and by reducing working memory load.
 
-**Details:** For individuals who struggle with executive functions (common in ADHD), the framework acts as an external brain. It takes the burden of remembering, prioritizing, and sequencing tasks off the mind, providing clear structure for initiation and follow-through.
+Details: For individuals who struggle with executive functions (common in ADHD), the framework acts as an external brain. It takes the burden of remembering, prioritizing, and sequencing tasks off the mind, providing clear structure for initiation and follow-through.

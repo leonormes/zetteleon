@@ -1,24 +1,17 @@
 ---
 aliases: ["Self-Concordant Goals"]
-confidence: "0.9"
 created: 2025-11-10T17:12:00Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: "To explain the power of aligning actions with values."
-review_interval: "90"
-see_also: ["[[Identity Emerges From Habits]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:37+00:00
 status: "seedling"
 tags: ["action", "TheHuman/Identity", "TheHuman/Motivation", "TheHuman/Psychology", "values"]
 title: Aligning Actions with Core Values Makes Them Feel More Natural
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Aligning Actions with Core Values Makes Them Feel More Natural
 
-**Summary:** Actions that are aligned with one's authentic values and intrinsic interests (self-concordant goals) are more sustainable and feel subjectively easier to pursue than actions driven by external pressure or guilt.
+Summary: Actions that are aligned with one's authentic values and intrinsic interests (self-concordant goals) are more sustainable and feel subjectively easier to pursue than actions driven by external pressure or guilt.
 
-**Details:** When a behavior reinforces your self-concept and feels like a genuine expression of who you are, it requires less effortful self-control. This transforms the experience from effortful striving to natural expression. The process of clarifying one's core values is therefore a critical step in bridging the intention-action gap for long-term goals.
+Details: When a behavior reinforces your self-concept and feels like a genuine expression of who you are, it requires less effortful self-control. This transforms the experience from effortful striving to natural expression. The process of clarifying one's core values is therefore a critical step in bridging the intention-action gap for long-term goals.

@@ -26,18 +26,18 @@ She communicates confidently when given time and feels safe.
 
 These strong communication abilities connect to several character strengths from the [[Character and Virtue MOC]]:
 
-**[[VIA Virtue of Courage]]:**
+[[VIA Virtue of Courage]]:
 
-- **[[VIA Virtue of Courage|Bravery]]**: Not shrinking from threat, challenge, difficulty, or pain; speaking up for what is right
-- **[[VIA Virtue of Courage|Honesty (Integrity)]]**: Speaking the truth and presenting oneself in a genuine and sincere way
+- [[VIA Virtue of Courage|Bravery]]: Not shrinking from threat, challenge, difficulty, or pain; speaking up for what is right
+- [[VIA Virtue of Courage|Honesty (Integrity)]]: Speaking the truth and presenting oneself in a genuine and sincere way
 
-**[[VIA Virtue of Humanity]]:**
+[[VIA Virtue of Humanity]]:
 
-- **[[VIA Virtue of Humanity|Social Intelligence]]**: Being aware of the motives and feelings of other people and oneself
+- [[VIA Virtue of Humanity|Social Intelligence]]: Being aware of the motives and feelings of other people and oneself
 
-**[[VIA Virtue of Justice]]:**
+[[VIA Virtue of Justice]]:
 
-- **[[VIA Virtue of Justice|Leadership]]**: Encouraging a group to get things done while maintaining good relations within the group
+- [[VIA Virtue of Justice|Leadership]]: Encouraging a group to get things done while maintaining good relations within the group
 
 Her verbal strengths provide a foundation for developing leadership, social intelligence, and the courage to advocate for herself and others.
 

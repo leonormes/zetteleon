@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-24T13:14:20Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:34+00:00
 status: ""
 tags: ["cheatsheet", "excalidraw", "obsidian", "shortcuts"]
 title: Excalidraw Obsidian Shortcuts Cheatsheet
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## Essential Keyboard Shortcuts for Excalidraw in Obsidian
@@ -44,9 +36,9 @@ version: ""
 
 ## Obsidian-Specific Features
 
-- **Insert Obsidian Note Link**: Cmd/Ctrl + K
-- **Create Markdown Note from Shape**: Right-click on shape → "Convert to file"
-- **Zoom In/Out**: Ctrl/Cmd + Wheel / Ctrl/Cmd + +/-
-- **Export to PNG/SVG**: Cmd/Ctrl + Shift + E
+- Insert Obsidian Note Link: Cmd/Ctrl + K
+- Create Markdown Note from Shape: Right-click on shape → "Convert to file"
+- Zoom In/Out: Ctrl/Cmd + Wheel / Ctrl/Cmd + +/-
+- Export to PNG/SVG: Cmd/Ctrl + Shift + E
 
 ---

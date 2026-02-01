@@ -1,32 +1,30 @@
 ---
 aliases: [AKS Deployment Guide, Azure Deployment Errors MOC]
 created: 2026-01-08T12:10:00Z
-epistemic: index
 last_reviewed: 2026-01-08
-modified: 2026-01-27T17:48:20+00:00
-purpose: To serve as the central index for Azure Kubernetes Service (AKS) deployment errors, operational constraints, and related cloud-native concepts.
+modified: 2026-02-01T15:08:04+00:00
+Reviewed: true
 status: active
 tags: [aks, azure, deployment, moc]
 title: MoC - Azure AKS Deployment
 type: map
 ---
 
+## 0. Prerequisites
+
+- [[Azure Customer Checklist]] rel:: prerequisite - Mandatory preparation steps for the Azure Tenant and Subscription before deployment begins.
+
 ## 1. Core Operational Knowledge
 
-- Troubleshooting & Errors: [[SoT - Azure Kubernetes Service (AKS) Operations]]
-    - Covers: Permissions, Quotas, EncryptionAtHost, ACR Access.
-- Observability: [[SoT - Cloud-Native Observability]]
-    - Covers: Logs, Metrics (RED/USE), Alerting, Debugging Tools.
-- Networking Constraints: [[SoT - Kubernetes Networking & DNS]]
-    - Covers: AWS DNS Conflicts, Firewall Rules, Ingress Flows.
+- [[SoT - Azure Kubernetes Service (AKS) Operations]] rel:: troubleshooting - Covers: Permissions, Quotas, EncryptionAtHost, ACR Access.
+- [[SoT - Cloud-Native Observability]] rel:: component - Covers: Logs, Metrics (RED/USE), Alerting, Debugging Tools.
+- [[SoT - Kubernetes Networking & DNS]] rel:: constraint - Covers: AWS DNS Conflicts, Firewall Rules, Ingress Flows.
 
 ## 2. Strategic Context
 
-- DevOps & Infrastructure: [[SoT - DevOps & Infrastructure Architecture Strategy]]
-    - Covers: Inherent Complexity, Human Factors, Managed vs. Self-Hosted trade-offs.
-- Security: [[SoT - Container Security & Hardening]]
-    - Covers: Misconfigurations, Image Scanning, Secrets Management.
+- [[SoT - DevOps & Infrastructure Architecture Strategy]] rel:: context - Covers: Inherent Complexity, Human Factors, Managed vs. Self-Hosted trade-offs.
+- [[SoT - Container Security & Hardening]] rel:: context - Covers: Misconfigurations, Image Scanning, Secrets Management.
 
 ## 3. Related Project Resources
 
-- FitFile Specifics: [[SoT - FitFile Deployment - Operations & Troubleshooting]]
+- [[SoT - FitFile Deployment - Operations & Troubleshooting]] rel:: related - FitFile Specifics.

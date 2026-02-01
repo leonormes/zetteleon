@@ -1,26 +1,19 @@
 ---
 aliases: ["why thoughts feel important", "writing reveals mundanity"]
-confidence: ""
 created: 2025-10-31T20:50:00Z
 criteria: "Must directly relate to the phenomenology of thought, externalization through writing, or metacognitive awareness of one's thinking"
-epistemic: ""
 exclusions: "General philosophy of mind, consciousness studies not directly related to the thought-writing distinction"
 last_reviewed: ""
-modified: 2026-01-23T18:09:22+00:00
-purpose: ""
-review_interval: ""
+modified: 2026-02-01T15:08:04+00:00
 scope: "Explores why thoughts feel more important in the moment of thinking than when written down, and the cognitive mechanisms underlying this phenomenon"
-see_also: []
-source_of_truth: []
 status: ""
 tags: ["metacognition", "phenomenology", "writing"]
 title: MOC - Why Thoughts Feel More Important When Thinking Them
 type: "map"
-uid: 
 updated: 
 ---
 
-> **Inclusion criteria:** Concepts explaining the disconnect between how thoughts feel when experienced internally versus how they appear when externalized through writing.
+> Inclusion criteria: Concepts explaining the disconnect between how thoughts feel when experienced internally versus how they appear when externalized through writing.
 
 ## The Core Phenomenon
 
@@ -60,10 +53,10 @@ This gap is amplified by [[Illusion of Explanatory Depth (IoED)|the illusion of 
 
 This phenomenon, once recognized, becomes a powerful tool for metacognition:
 
-1. **Reality testing**: Writing provides objective feedback on whether our thoughts have substance beyond their felt significance
-2. **Distinguishing types of value**: Some thoughts are genuinely insightful but poorly articulated; others just _feel_ insightful due to phenomenological qualities
-3. **Intellectual humility**: Recognizing this pattern helps us hold our own ideas more lightly and evaluate them more critically
-4. **Enhanced self-awareness**: The practice trains [[Metacognitive Awareness]] rel:: develops, teaching us to distinguish between the experience of thinking and the quality of thoughts
+1. Reality testing: Writing provides objective feedback on whether our thoughts have substance beyond their felt significance
+2. Distinguishing types of value: Some thoughts are genuinely insightful but poorly articulated; others just _feel_ insightful due to phenomenological qualities
+3. Intellectual humility: Recognizing this pattern helps us hold our own ideas more lightly and evaluate them more critically
+4. Enhanced self-awareness: The practice trains [[Metacognitive Awareness]] rel:: develops, teaching us to distinguish between the experience of thinking and the quality of thoughts
 
 ## The Personal Meaning Question
 

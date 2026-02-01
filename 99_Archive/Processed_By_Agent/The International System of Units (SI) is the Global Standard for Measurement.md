@@ -18,11 +18,11 @@ updated:
 version: ""
 ---
 
-The **International System of Units (SI)** is the modern form of the metric system and the most widely used system of measurement in the world. It provides a single, practical system of units used globally in science, technology, industry, and trade.
+The International System of Units (SI) is the modern form of the metric system and the most widely used system of measurement in the world. It provides a single, practical system of units used globally in science, technology, industry, and trade.
 
 ## The Problem It Solves
 
-Before the SI, there was a great **diversity of units** and a **lack of coordination** between different scientific disciplines. This created inconsistency and confusion. The SI system was developed to standardise measurements and create a universal language for science and commerce.
+Before the SI, there was a great diversity of units and a lack of coordination between different scientific disciplines. This created inconsistency and confusion. The SI system was developed to standardise measurements and create a universal language for science and commerce.
 
 ## Core Components
 

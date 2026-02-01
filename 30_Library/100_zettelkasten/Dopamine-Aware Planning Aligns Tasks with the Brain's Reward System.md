@@ -1,24 +1,17 @@
 ---
 aliases: ["Dopamine-Aware Planning"]
-confidence: "0.8"
 created: 2025-11-11T19:05:14Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: "Describes how to structure project work to align with the brain's dopamine-based reward system."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:34+00:00
 status: "seedling"
 tags: ["dopamine", "planning", "TheHuman/Health/ADHD", "topic/productivity"]
 title: "Dopamine-Aware Planning Aligns Tasks with the Brain's Reward System"
 type: "strategy"
-uid: 
 updated: 
 ---
 
 ## Dopamine-Aware Planning Aligns Tasks with the Brain's Reward System
 
-**Summary:** Dopamine-aware planning is a strategy that involves structuring work to cooperate with the brain's natural reward system, rather than fighting against it.
+Summary: Dopamine-aware planning is a strategy that involves structuring work to cooperate with the brain's natural reward system, rather than fighting against it.
 
-**Details:** This approach focuses on creating a steady stream of dopamine to maintain motivation. Tactics include building in small, frequent wins that can be achieved quickly, creating visualizations that make progress feel more tangible and meaningful, and sorting tasks by the required energy level to match them to your current mental state.
+Details: This approach focuses on creating a steady stream of dopamine to maintain motivation. Tactics include building in small, frequent wins that can be achieved quickly, creating visualizations that make progress feel more tangible and meaningful, and sorting tasks by the required energy level to match them to your current mental state.

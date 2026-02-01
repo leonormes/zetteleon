@@ -18,7 +18,7 @@ updated:
 version: ""
 ---
 
-The **International System of Units (SI)** is founded on seven base units, each corresponding to a fundamental physical quantity. All other units can be derived from these seven.
+The International System of Units (SI) is founded on seven base units, each corresponding to a fundamental physical quantity. All other units can be derived from these seven.
 
 | Quantity                  | Unit Name | Symbol |
 | ------------------------- | --------- | ------ |

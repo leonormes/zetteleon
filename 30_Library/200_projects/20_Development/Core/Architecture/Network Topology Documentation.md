@@ -1,23 +1,15 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:56Z
 dependencies: ""
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:25+00:00
+modified: 2026-02-01T15:08:13+00:00
 name: "network_topology"
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
 status: ""
 tags: []
 title: Network Topology Documentation
 type: "architecture_diagram"
-uid: 
 updated: 
-version: ""
 ---
 
 ## Network Topology Documentation

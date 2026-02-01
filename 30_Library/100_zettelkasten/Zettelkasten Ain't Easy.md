@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-05-10T00:07:18Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:23+00:00
 status: "null"
 tags: ["TheHuman/Cognition/thinking", "topic/pkm/zettelkasten"]
 title: "Zettelkasten Ain't Easy"
 type: "permanent"
-uid: 
 updated: 
-version: "null"
 ---
 
 These workflows, GTD and Zettelkasten, have put me in a lazy mode and tricked me into seeing this process as easy. But effort is required.

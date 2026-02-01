@@ -22,6 +22,6 @@ A lack of clarity about goals or the specific steps required to achieve them cre
 
 When goals are not clearly defined and written down, the planning phase has no natural end point. It is impossible to know when preparation is sufficient if the target is fuzzy.
 
-This leads to the perpetual excuse: **"I need to plan more."**
+This leads to the perpetual excuse: "I need to plan more."
 
 Ambiguity provides a rationalization for staying in the motion phase. Without a clear destination, any amount of preparation can seem necessary, making it easy to avoid the commitment and risk of taking a concrete first step. Conversely, establishing clear, specific, and written goals creates a defined finish line for the planning process, forcing a transition from motion to action.

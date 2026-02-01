@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-26T20:23:10Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: ""
 tags: []
 title: Foundations of Learning and Cognition for Developers
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 [[Unravelling the Cognitive Landscape of Software Development]]

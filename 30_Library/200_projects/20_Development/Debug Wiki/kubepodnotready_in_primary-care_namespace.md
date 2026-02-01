@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:12+00:00
 status: ""
 tags: []
 title: kubepodnotready_in_primary-care_namespace
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## Runtime Error: KubePodNotReady in Primary-care Namespace

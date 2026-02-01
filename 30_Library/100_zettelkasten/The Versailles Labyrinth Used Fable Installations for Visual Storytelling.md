@@ -1,21 +1,13 @@
 ---
 aliases: ["Versailles Fable Labyrinth"]
-confidence: "1"
 created: 2025-11-01T21:38:00Z
-epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "To describe the use of fables in the Versailles labyrinth as a form of visual storytelling."
-review_interval: "90"
-see_also: ["[[La Fontaines Fables Served as Courtly Education in 17th Century France]]", "[[Sequence - Evolution of Fable Storytelling]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: "evergreen"
 tags: ["art", "fable", "history", "SoftwareEngineering/Architecture", "storytelling", "versailles"]
 title: The Versailles Labyrinth Used Fable Installations for Visual Storytelling
 type: "concept"
-uid: 
 updated: 
-version: "1"
 ---
 
 The Labyrinth of Versailles, a garden maze built for King Louis XIV, represented a shift in fable storytelling towards a visual and interactive medium.

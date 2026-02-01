@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:56Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:27+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:18+00:00
 status: ""
 tags: []
 title: terraform file read
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Terraform provides multiple methods for loading and processing files in Infrastructure-as-Code workflows, with distinct approaches for structured data (like CSV) and cloud-init configurations. Below are the key techniques:

@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-27T17:55:20Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:36+00:00
 status: ""
 tags: ["learning"]
 title: Attention in Learning
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Attention is the cognitive process of selectively concentrating on one aspect of the environment while ignoring other things.

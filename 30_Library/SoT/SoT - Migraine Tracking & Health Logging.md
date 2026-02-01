@@ -1,19 +1,12 @@
 ---
 aliases: ["Health Schema", "Migraine HUD", "ProdOS Symptom Tracking"]
-confidence: "5/5"
 created: 2025-12-30T16:15:00Z
-epistemic: "authoritative"
 last_reviewed: "2025-12-30"
-modified: 2026-01-23T18:09:19+00:00
-purpose: "A unified system for tracking health events (migraines) and visualizing trends using Dataview and Tracker."
-review_interval: "3 months"
-see_also: ["[[SoT - Metabolic Health & Satiety Management]]"]
-source_of_truth: []
+modified: 2026-02-01T15:07:55+00:00
 status: "stable"
 tags: ["dashboard", "dataview", "health", "migraine", "tracking"]
 title: SoT - Migraine Tracking & Health Logging
 type: "SoT"
-uid: 
 updated: 
 ---
 
@@ -21,7 +14,7 @@ updated:
 
 ### 1. The Data Schema (Input)
 
-To maintain tracking consistency, use these specific frontmatter fields in your **Daily Notes**.
+To maintain tracking consistency, use these specific frontmatter fields in your Daily Notes.
 
 ```yaml
 migraine: true/false
@@ -48,7 +41,7 @@ LIMIT 30
 #### II. Severity Heat Map
 
 > [!info] Requirement
-> Requires the **Obsidian Tracker** plugin.
+> Requires the Obsidian Tracker plugin.
 
 ```tracker
 searchType: frontmatter
@@ -66,16 +59,16 @@ line:
 
 ### 3. The Review Protocol
 
-During your **Weekly Command Centre**, analyze the dashboard for:
+During your Weekly Command Centre, analyze the dashboard for:
 
-1. **Clustering:** Are migraines occurring after specific dietary choices (See [[SoT - Metabolic Health & Satiety Management]])?
-2. **Intensity Trend:** Is the severity increasing over time?
-3. **Frequency:** Is the "Events per Month" metric stable?
+1. Clustering: Are migraines occurring after specific dietary choices (See [[SoT - Metabolic Health & Satiety Management]])?
+2. Intensity Trend: Is the severity increasing over time?
+3. Frequency: Is the "Events per Month" metric stable?
 
 ---
 
 ### 4. Minimum Viable Understanding (MVU)
 
-1. **Passive Input:** Just toggle the boolean in your daily note.
-2. **Zero Recall:** Don't try to remember how bad it was; let the severity field capture the "present truth."
-3. **Actionable Data:** Use the notes field to identify environmental triggers (Light, Sleep, Stress).
+1. Passive Input: Just toggle the boolean in your daily note.
+2. Zero Recall: Don't try to remember how bad it was; let the severity field capture the "present truth."
+3. Actionable Data: Use the notes field to identify environmental triggers (Light, Sleep, Stress).

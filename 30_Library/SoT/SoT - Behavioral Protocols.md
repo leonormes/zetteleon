@@ -1,14 +1,8 @@
 ---
 aliases: []
-confidence: ""
 created: 2026-01-03T10:24:43+00:00
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:21+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:01+00:00
 status: ""
 tags: []
 title: SoT - Behavioral Protocols
@@ -25,22 +19,22 @@ _Goal: Engineering new behaviors using CBT principles._
 
 Make the unconscious visible. Write down the loop:
 
-- **Cue:** Trigger (Time/Feeling).
-- **Routine:** Action (Scrolling).
-- **Reward:** Benefit (Numbing).
+- Cue: Trigger (Time/Feeling).
+- Routine: Action (Scrolling).
+- Reward: Benefit (Numbing).
 
 #### Step 2: Build (Design)
 
 Design for the "Real Self," not the "Ideal Self."
 
-- **Habit Stacking:** "After I [Brush Teeth], I will [Meditate 1 min]."
-- **Friction Engineering:**
+- Habit Stacking: "After I [Brush Teeth], I will [Meditate 1 min]."
+- Friction Engineering:
     - _Add Friction:_ Put phone in a timed lockbox.
     - _Remove Friction:_ Sleep in gym clothes.
 
 #### Step 3: Dismantle (Replacement Logic)
 
-You cannot delete a habit; you can only replace the **Routine**.
+You cannot delete a habit; you can only replace the Routine.
 
 - _Rule:_ Keep the Cue and Reward the same.
 - _Swap:_ Cue (Stress) -> Routine (Doomscroll) -> Reward (Calm) BECOMES Cue (Stress) -> Routine (Box Breathing) -> Reward (Calm).
@@ -65,8 +59,8 @@ To prevent "All-or-Nothing" collapse, define 3 tiers of execution.
 
 #### Tier 3: The Minimum (Survival)
 
-- _Scope:_ The **MVA** (Minimum Viable Action) to keep the lights on.
-- _Rule:_ Doing Tier 3 counts as **100% Success**. No guilt.
+- _Scope:_ The MVA (Minimum Viable Action) to keep the lights on.
+- _Rule:_ Doing Tier 3 counts as 100% Success. No guilt.
 - _Example:_ Instead of "1h Gym", do "5 Pushups." Continuity > Intensity.
 
 #### The Morning Handshake

@@ -18,36 +18,36 @@ updated:
 version: "1"
 ---
 
-**Summary:** Change occurs across three interdependent layers, often imagined like the layers of an onion: Outcomes (outer), Process (middle), and Identity (deepest). Each layer represents a different focus for behavior change, with identity being the most fundamental.
+Summary: Change occurs across three interdependent layers, often imagined like the layers of an onion: Outcomes (outer), Process (middle), and Identity (deepest). Each layer represents a different focus for behavior change, with identity being the most fundamental.
 
-**The Three Layers:**
+The Three Layers:
 
-**1. Outcomes (The Outer Layer):**
+1. Outcomes (The Outer Layer):
 
 - Concerned with changing _results_
 - Examples: losing weight, publishing a book, winning a championship
-- About what you **get**
+- About what you get
 
-**2. Process (The Middle Layer):**
+2. Process (The Middle Layer):
 
 - Concerned with changing _habits and systems_
 - Examples: implementing a new gym routine, developing a meditation practice, creating a writing schedule
-- About what you **do**
+- About what you do
 
-**3. Identity (The Deepest Layer):**
+3. Identity (The Deepest Layer):
 
 - Concerned with changing _beliefs, worldview, self-image_
 - Examples: "I am a healthy person," "I am a writer," "I am disciplined"
-- About what you **believe**
+- About what you believe
 
-**The Hierarchy:**
+The Hierarchy:
 
 While all three layers are important, the model suggests working from the inside out—starting with identity rather than outcomes. Many people work in the opposite direction, starting with outcomes, which leads to less sustainable change.
 
-**Why the Order Matters:**
+Why the Order Matters:
 
 Starting with outcomes ("I want to lose 20 pounds") or even process ("I will go to the gym three times a week") without identity change ("I am an athlete") leads to effortful, forced behavior that doesn't last. Starting with identity makes the process and outcomes natural expressions of who you believe yourself to be.
 
-**Interdependence:**
+Interdependence:
 
 The layers are interconnected: identity shapes which processes you maintain, and consistent processes lead to desired outcomes. However, attempting to change outcomes directly without addressing deeper layers rarely produces lasting results.

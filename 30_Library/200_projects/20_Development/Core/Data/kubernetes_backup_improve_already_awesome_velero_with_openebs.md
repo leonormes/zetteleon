@@ -1,23 +1,15 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:56Z
-epistemic: ""
 id: "kubernetes_backup_improve_already_awesome_velero_with_openebs"
 last_reviewed: ""
-modified: 2026-01-23T18:09:25+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:13+00:00
 source: "https://blog.mayadata.io/openebs/suggesting-ways-to-improve-already-awesome-velero"
-source_of_truth: []
 status: ""
 tags: []
 title: kubernetes_backup_improve_already_awesome_velero_with_openebs
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## Kubernetes Backup Improve Already Awesome Velero with OpenEBS

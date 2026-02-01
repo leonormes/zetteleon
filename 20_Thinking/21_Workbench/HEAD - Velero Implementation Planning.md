@@ -1,20 +1,13 @@
 ---
 aliases: []
 AoL: Work
-confidence:
 created: 2025-12-08T00:00:00Z
-epistemic:
 last_reviewed:
-modified: 2025-12-23T17:53:54Z
-purpose: To plan the implementation of Velero for Kubernetes backup and disaster recovery.
-review_interval:
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:10+00:00
 status: someday
 tags: [backup, head, k8s, thinking, velero]
 title: HEAD - Velero Implementation Planning
 type: head
-uid:
 updated:
 ---
 
@@ -26,15 +19,15 @@ We need a robust backup solution for our Kubernetes clusters (Work & Hutch).
 
 ## My Current Model
 
-- **Tool:** Velero is the standard.
-- **Target:** Backup to S3/Azure Blob Storage.
-- **Scope:** Disaster Recovery (Cluster loss) and Snapshotting (StatefulSets).
+- Tool: Velero is the standard.
+- Target: Backup to S3/Azure Blob Storage.
+- Scope: Disaster Recovery (Cluster loss) and Snapshotting (StatefulSets).
 
 ## The Tension
 
-- **Configuration:** Needs cloud credentials (Identity Workload?).
-- **Testing:** Backups are useless without restore tests.
-- **Tickets:** I need to break this down into actionable chunks (Install, Configure Storage, Backup Schedule, Test Restore).
+- Configuration: Needs cloud credentials (Identity Workload?).
+- Testing: Backups are useless without restore tests.
+- Tickets: I need to break this down into actionable chunks (Install, Configure Storage, Backup Schedule, Test Restore).
 
 ## The Next Test
 

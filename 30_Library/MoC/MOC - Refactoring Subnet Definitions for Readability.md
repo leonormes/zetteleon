@@ -1,23 +1,16 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-11-22T15:05:03Z
-epistemic: "NA"
 last_reviewed: "2025-11-22"
-modified: 2026-01-23T18:09:22+00:00
-purpose: "Explains the refactoring of subnet logic for clarity."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:05+00:00
 status: "seedling"
 tags: ["SoftwareEngineering/Networking", "terraform"]
 title: MOC - Refactoring Subnet Definitions for Readability
 type: "map"
-uid: 
 updated: 
 ---
 
-**Summary:** This note details a refactoring of Terraform subnet definitions, moving from opaque, direct indexing to a clearer, hierarchical approach.
+Summary: This note details a refactoring of Terraform subnet definitions, moving from opaque, direct indexing to a clearer, hierarchical approach.
 
 ## The Problem: Opaque Indexing
 
@@ -33,13 +26,13 @@ While mathematically correct (`/24` + 5 bits = `/29`; index 16 starts at `.128`)
 
 The improved approach uses [[Strategy - Hierarchical Subnetting]] to break the calculation into logical steps:
 
-1. **Carve a generic block:** First, define a larger "Jumpbox Area" (`/26`) from the main VNet.
+1. Carve a generic block: First, define a larger "Jumpbox Area" (`/26`) from the main VNet.
 
 ```hcl
 jumpbox_block_prefix = cidrsubnet(local.vnet_address_space, 2, 2) # Result: 192.168.200.128/26
 ```
 
-1. **Carve the specific subnet:** Then, define the specific VM subnet (`/29`) from _that_ intermediate block.
+1. Carve the specific subnet: Then, define the specific VM subnet (`/29`) from _that_ intermediate block.
 
 ```hcl
 vm_subnet_address_prefix = [cidrsubnet(local.jumpbox_block_prefix, 3, 0)] # Result: 192.168.200.128/29

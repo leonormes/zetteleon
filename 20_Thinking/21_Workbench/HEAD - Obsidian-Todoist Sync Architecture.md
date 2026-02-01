@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence:
 created: 2025-12-08T00:00:00Z
-epistemic:
 last_reviewed:
-modified: 2026-01-23T18:09:15+00:00
-purpose:
-review_interval:
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:10+00:00
 status: archived
 tags: ["SoftwareEngineering/Architecture", prodos, thinking]
 title: HEAD - Obsidian-Todoist Sync Architecture
 type: head
-uid:
 updated:
 ---
 
@@ -25,16 +18,16 @@ The core "Runtime" of ProdOS is Todoist, but the "Context" is Obsidian. I need a
 
 ## My Current Model
 
-- **Obsidian:** Master of "Why" and "What" (Project Specs, Plans, Thinking).
-- **Todoist:** Master of "When" and "Status" (Reminders, Checkboxes).
-- **Sync:** Currently manual or fragile.
+- Obsidian: Master of "Why" and "What" (Project Specs, Plans, Thinking).
+- Todoist: Master of "When" and "Status" (Reminders, Checkboxes).
+- Sync: Currently manual or fragile.
 I want to manage tasks in Obsidian (during planning) and have them appear in Todoist.
 
 ## The Tension
 
-- **Source of Truth:** If I change a task name in Todoist, should it update Obsidian? (Complexity).
-- **Format Mismatch:** Obsidian is Markdown text; Todoist is structured data.
-- **Fragility:** Bi-directional sync is prone to loops and conflicts.
+- Source of Truth: If I change a task name in Todoist, should it update Obsidian? (Complexity).
+- Format Mismatch: Obsidian is Markdown text; Todoist is structured data.
+- Fragility: Bi-directional sync is prone to loops and conflicts.
 
 ## The Next Test
 

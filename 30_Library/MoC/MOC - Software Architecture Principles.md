@@ -1,27 +1,20 @@
 ---
 aliases: ["Architecture MOC", "MOC - Systems Architecture", "System Design Index"]
-confidence: "5/5"
 created: 2025-10-31T12:38:00Z
-epistemic: "The principles of designing High-Cohesion, Low-Coupling Systems."
 exclusions: "Data-Level Implementation Details (See [[MOC - Data-Centric Software Engineering]])"
 last_reviewed: "2025-12-31"
-modified: 2026-01-23T18:09:22+00:00
-purpose: "To organize principles regarding System Boundaries, Coupling, and Integration."
-review_interval: "180"
+modified: 2026-02-01T15:08:05+00:00
 scope: "Macro-Architecture (System-to-System)"
-see_also: ["[[MOC - Data-Centric Software Engineering]]"]
-source_of_truth: []
 status: "active"
 tags: ["boundaries", "SoftwareEngineering/Architecture", "systems_design", "type/moc"]
 title: MOC - Software Architecture Principles
 type: "map"
-uid: 
 updated: 
 ---
 
 ## 1. The Core Philosophy (System Integrity)
 
-While **[[MOC - Data-Centric Software Engineering]]** governs _how_ we build components (Micro), this MOC governs _how_ we connect them (Macro).
+While [[MOC - Data-Centric Software Engineering]] governs _how_ we build components (Micro), this MOC governs _how_ we connect them (Macro).
 
 > "Architecture is about the important stuff. Whatever that is."—_Ralph Johnson_
 > "Architecture represents the significant design decisions that shape a system, where significant is measured by cost of change."—_Grady Booch_
@@ -32,10 +25,10 @@ While **[[MOC - Data-Centric Software Engineering]]** governs _how_ we build com
 
 Managing the friction and dependencies between disparate systems.
 
-- **[[SoT - Namespacing in Computing]]** - The primary mechanism for isolation and collision avoidance at the system level.
-- **[[Strategic Duplication Reduces System Coupling]]** - The conscious decision to copy data (violating DRY) to preserve system independence.
-- **[[Dependency Problems Create Cascading Failures]]** - Understanding the blast radius of shared code.
-- **[[SoT - Atomicity and Loose Coupling]]** - Designing boundaries such that failures are contained (The Bulkhead Pattern).
+- [[SoT - Namespacing in Computing]] - The primary mechanism for isolation and collision avoidance at the system level.
+- [[Strategic Duplication Reduces System Coupling]] - The conscious decision to copy data (violating DRY) to preserve system independence.
+- [[Dependency Problems Create Cascading Failures]] - Understanding the blast radius of shared code.
+- [[SoT - Atomicity and Loose Coupling]] - Designing boundaries such that failures are contained (The Bulkhead Pattern).
 
 ---
 
@@ -43,21 +36,21 @@ Managing the friction and dependencies between disparate systems.
 
 How systems talk to each other without exposing their internal "Shape".
 
-- **[[SoT - Information Hiding (Parnas)]]** - The interface must reveal the _intent_, not the _implementation_.
-- **[[SoT - Parse, Don't Validate]]** - The Gateway Principle: Systems should sanitize inputs at the border, not deep within the core.
-- **[[SoT - The Worse is Better Philosophy]]** - The trade-off between Interface Correctness (MIT) and Implementation Simplicity (New Jersey).
+- [[SoT - Information Hiding (Parnas)]] - The interface must reveal the _intent_, not the _implementation_.
+- [[SoT - Parse, Don't Validate]] - The Gateway Principle: Systems should sanitize inputs at the border, not deep within the core.
+- [[SoT - The Worse is Better Philosophy]] - The trade-off between Interface Correctness (MIT) and Implementation Simplicity (New Jersey).
 
 ---
 
 ## 4. Operational Integrity
 
-- **[[SoT - Code Duplication and Refactoring]]** - Distinguishing "Accidental Duplication" (bad) from "Essential Duplication" (decoupling).
-- **[[SoT - Pragmatism vs Rigour in Software]]** - The decision framework for when to incur Technical Debt for speed.
+- [[SoT - Code Duplication and Refactoring]] - Distinguishing "Accidental Duplication" (bad) from "Essential Duplication" (decoupling).
+- [[SoT - Pragmatism vs Rigour in Software]] - The decision framework for when to incur Technical Debt for speed.
 
 ---
 
 ## 5. Architectural Mindset
 
-- **[[Decoupling Ego from Outcomes to Improve Decisions]]** - The ability to kill your darlings (features/systems) for the greater good.
-- **[[SoT - Simple Made Easy (Rich Hickey)]]** - Architecture is about _decomplecting_ (untangling) concerns, not just making things easy to type.
+- [[Decoupling Ego from Outcomes to Improve Decisions]] - The ability to kill your darlings (features/systems) for the greater good.
+- [[SoT - Simple Made Easy (Rich Hickey)]] - Architecture is about _decomplecting_ (untangling) concerns, not just making things easy to type.
 - [[SoT - Accelerate & DORA]]

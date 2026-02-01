@@ -49,13 +49,13 @@ The core idea is captured by the aphorism [[The Map is Not the Territory]]. Our 
 
 ## Key Concepts
 
-- **Nature of Flawed Models:**
+- Nature of Flawed Models:
   - [[Leaky Abstractions]]
   - [[Instrumentalism vs Realism in Understanding]]
-- **Cognitive Traps:**
+- Cognitive Traps:
   - [[The Einstellung Effect Prevents Better Solutions]]
   - [[Satisficing Leads to Sub-optimal Solutions]]
-- **Team Dynamics:**
+- Team Dynamics:
   - [[The Illusion of Shared Understanding in Teams]]
   - [[Semantic Diffusion Creates False Alignment]]
 
@@ -63,13 +63,13 @@ The core idea is captured by the aphorism [[The Map is Not the Territory]]. Our 
 
 ## Examples
 
-- **Mathematics:**
+- Mathematics:
   - [[Number As Symbol is a Flawed Initial Mental Model]]
-- **Physics & Astronomy:**
+- Physics & Astronomy:
   - [[Newtonian Physics as an Effective Theory]]
   - [[Ptolemaic System as a Patched Flawed Model]]
   - [[The Bohr Model as a Simplified Mental Model]]
-- **Technology:**
+- Technology:
 
 ---
 

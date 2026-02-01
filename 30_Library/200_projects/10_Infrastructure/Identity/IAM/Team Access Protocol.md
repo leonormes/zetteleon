@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-03-13T08:35:46Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:17+00:00
 status: ""
 tags: ["IAM"]
 title: Team Access Protocol
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Daily Workflow
@@ -37,4 +29,4 @@ D --> E[Temporary CA Policy Bypass]
 E --> F[Time-bound Session]
 ```
 
-This model reduces attack surface by 89% compared to individual admin accounts,[^1] while meeting NHS England's requirement for "strict access controls with data minimization".[^8] All changes remain auditable through Git commit history and Azure Activity Logs[^5].[^7]
+This model reduces attack surface by 89% compared to individual admin accounts,[^1] while meeting NHS England's requirement for "strict access controls with data minimization".[^8] All changes remain auditable through Git commit history and Azure Activity Logs.[^5][^7]

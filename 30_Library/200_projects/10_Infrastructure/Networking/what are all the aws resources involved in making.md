@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-19T10:50:12Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:15+00:00
 status: ""
 tags: ["routing", "SoftwareEngineering/Networking"]
 title: what are all the aws resources involved in making
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## What Are All the AWS Resources Involved in Making a Request from the Jumpbox in a Private VPC

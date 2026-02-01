@@ -20,8 +20,8 @@ version: "null"
 
 The "Intelligence Trap" is a concept describing how intelligent individuals can get stuck in a cycle of thinking and planning instead of doing. This leads to "analysis paralysis." The trap can be understood as a conflict between two internal characters:
 
-- **The Strategist**: The part of the mind that loves to think, analyze, plan, and consume knowledge. It feels a sense of progress from acquiring information and is heavily rewarded by the education system.
-- **The Performer**: The part that must execute the plan, do the uncomfortable work, and face potential fear, doubt, and failure.
+- The Strategist: The part of the mind that loves to think, analyze, plan, and consume knowledge. It feels a sense of progress from acquiring information and is heavily rewarded by the education system.
+- The Performer: The part that must execute the plan, do the uncomfortable work, and face potential fear, doubt, and failure.
 
 The core problem is that as the Strategist becomes stronger and creates more complex plans, the Performer becomes overwhelmed and weakens ("atrophies") from lack of use. The smarter the Strategist gets, the harder it is for the Performer to act.
 

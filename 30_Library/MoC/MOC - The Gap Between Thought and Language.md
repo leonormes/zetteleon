@@ -1,28 +1,21 @@
 ---
 aliases: ["communication philosophy", "thought and language gap"]
-confidence: ""
 created: 2025-10-31T20:08:00Z
 criteria: "Includes concepts about pre-linguistic thought, limitations of language, and mechanisms enabling understanding"
-epistemic: ""
 exclusions: "Specific linguistic theories, detailed neuroscience of language processing"
 last_reviewed: ""
-modified: 2026-01-08T15:03:30+00:00
-purpose: ""
-review_interval: ""
+modified: 2026-02-01T15:08:05+00:00
 scope: "Philosophical exploration of the relationship between thought, language, and communication"
-see_also: []
-source_of_truth: []
 status: ""
 tags: ["communication", "epistemology", "philosophy-of-mind"]
 title: MOC - The Gap Between Thought and Language
 type: "map"
-uid: 
 updated: 
 ---
 
 ## MOC - The Gap Between Thought and Language
 
-> **Inclusion criteria:** Core philosophical and cognitive concepts about how internal mental states relate to external linguistic expression and interpersonal understanding.
+> Inclusion criteria: Core philosophical and cognitive concepts about how internal mental states relate to external linguistic expression and interpersonal understanding.
 
 ### The Fundamental Problem
 
@@ -54,11 +47,11 @@ The gap between thought and language connects to deep epistemological questions.
 
 This perspective has implications for:
 
-- **Philosophy of mind**: Is consciousness fundamentally linguistic or pre-linguistic?
-- **Education**: Should we focus on helping students build robust mental models rather than memorizing verbal descriptions?
-- **Artificial intelligence**: Can language models truly understand without pre-linguistic mental representations?
-- **Cross-cultural communication**: How do we bridge understanding when both language AND cultural frameworks differ?
-- **Creative expression**: Are non-linguistic media (music, visual art, dance) sometimes better suited to capturing aspects of thought that language cannot?
+- Philosophy of mind: Is consciousness fundamentally linguistic or pre-linguistic?
+- Education: Should we focus on helping students build robust mental models rather than memorizing verbal descriptions?
+- Artificial intelligence: Can language models truly understand without pre-linguistic mental representations?
+- Cross-cultural communication: How do we bridge understanding when both language AND cultural frameworks differ?
+- Creative expression: Are non-linguistic media (music, visual art, dance) sometimes better suited to capturing aspects of thought that language cannot?
 
 ### Emerging Questions
 

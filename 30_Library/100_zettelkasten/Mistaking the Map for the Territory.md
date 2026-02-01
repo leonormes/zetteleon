@@ -1,32 +1,24 @@
 ---
 aliases: ["Map-Territory Confusion", "Model-Reality Confusion"]
-confidence: "null"
 created: 2025-09-11T21:37:21Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:30+00:00
 status: "stable"
 tags: ["error", "naive-realism", "TheHuman/Cognition", "TheHuman/Cognition/mental-model"]
 title: Mistaking the Map for the Territory
 type: "permanent"
-uid: 
 updated: 
-version: "1"
 ---
 
 The critical error occurs when we forget we are using a simplified model and treat it as if it were reality itself. This confusion leads to failure when we encounter situations where the model's omitted details become crucial.
 
 ## Examples of Map-Territory Confusion
 
-**Numerical Symbols**: Thinking that numbers _are_ their decimal representations rather than abstract mathematical concepts. The decimal system is just one way to represent numerical relationships.
+Numerical Symbols: Thinking that numbers _are_ their decimal representations rather than abstract mathematical concepts. The decimal system is just one way to represent numerical relationships.
 
-**Scientific Models**: Treating the Bohr model as if electrons literally orbit like planets, rather than understanding it as a useful but limited visualization.
+Scientific Models: Treating the Bohr model as if electrons literally orbit like planets, rather than understanding it as a useful but limited visualization.
 
-**Mental Models**: Assuming our internal models of other people's motivations are accurate representations rather than simplified interpretations based on limited information.
+Mental Models: Assuming our internal models of other people's motivations are accurate representations rather than simplified interpretations based on limited information.
 
 ## Why This Confusion Occurs
 

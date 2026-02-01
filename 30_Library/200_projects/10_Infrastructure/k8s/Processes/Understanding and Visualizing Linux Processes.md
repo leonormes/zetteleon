@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:25+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:14+00:00
 status: ""
 tags: ["cli", "Processes", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux"]
 title: Understanding and Visualizing Linux Processes
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Let's start with the fundamentals and build up to more advanced process visualization techniques. Think of processes like a family tree - they have parents, children, and relationships that tell us how they're connected and what they're doing.

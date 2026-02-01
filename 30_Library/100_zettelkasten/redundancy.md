@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:55Z
-epistemic: ""
 ID: "4a3d"
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:23+00:00
 status: ""
 tags: ["information"]
 title: redundancy
 type: "permanent"
-uid: 
 updated: 
-version: ""
 ---
 
 Redundancy refers to the repetition or inclusion of extra information to make communication more reliable (e.g., for error correction).

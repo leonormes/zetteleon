@@ -23,10 +23,10 @@ When an emergent, [[Autopoiesis The Self-Referential System|autopoietic]] proces
 
 Key concepts defining this condition include:
 
-- **Existence Precedes Essence:** A term coined by Jean-Paul Sartre, it means that we are born without a pre-ordained purpose. We simply _exist_ first. Then, through our agency, we create our own essence or meaning.
-- **The Absurd:** A concept from Albert Camus, describing the conflict between the human tendency to seek meaning and significance, and the silent, meaningless universe that offers none.
+- Existence Precedes Essence: A term coined by Jean-Paul Sartre, it means that we are born without a pre-ordained purpose. We simply _exist_ first. Then, through our agency, we create our own essence or meaning.
+- The Absurd: A concept from Albert Camus, describing the conflict between the human tendency to seek meaning and significance, and the silent, meaningless universe that offers none.
 
-**Philosophical Roots:**
+Philosophical Roots:
 
 - [[Existentialism - Existence Precedes Essence]]
 - [[Absurdism as Rebellion Against Meaninglessness]]

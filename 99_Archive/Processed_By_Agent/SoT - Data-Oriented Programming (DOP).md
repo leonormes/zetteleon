@@ -16,7 +16,7 @@ type: "SoT"
 ---
 
 > [!warning] Deprecated
-> This note has been consolidated. Please refer to the single Source of Truth: **[[SoT - The Data-Centric Philosophy]]**.
+> This note has been consolidated. Please refer to the single Source of Truth: [[SoT - The Data-Centric Philosophy]].
 
 ## Summary
-The tactical patterns of **Data-Oriented Programming (DOP)** and **Data-Oriented Design (DOD)** are specific applications of the broader **Data-Centric Philosophy**. They have been merged to provide a unified reference for hardware-conscious software design.
+The tactical patterns of Data-Oriented Programming (DOP) and Data-Oriented Design (DOD) are specific applications of the broader Data-Centric Philosophy. They have been merged to provide a unified reference for hardware-conscious software design.

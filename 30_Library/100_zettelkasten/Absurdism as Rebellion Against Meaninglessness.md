@@ -1,33 +1,26 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-10-31T13:06:00Z
-epistemic: "perspective"
 last_reviewed: ""
-modified: 2026-01-08T10:50:02+00:00
-purpose: "Explain Camus' absurdist response to meaninglessness."
-review_interval: "90"
-see_also: ["Nihilism vs Constructed Meaning.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:37+00:00
 status: "seedling"
 tags: ["absurdism", "TheHuman/Philosophy"]
 title: Absurdism as Rebellion Against Meaninglessness
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Absurdism as Rebellion Against Meaninglessness
 
-**Summary:** Embracing life's lack of inherent meaning while finding value in lived experience.
+Summary: Embracing life's lack of inherent meaning while finding value in lived experience.
 
-**Key Ideas:**
+Key Ideas:
 
 - Universe is indifferent
 - Reject both suicide and false hope
 - Find joy in the present struggle
 
-**Practical Application:**
+Practical Application:
 
 - Focus on immediate engagement
 - Let go of cosmic justification

@@ -1,22 +1,15 @@
 ---
 aliases: ["Social Perception MOC"]
-confidence: "null"
 created: 2025-10-31T09:20:29Z
 criteria: "Atomic notes on perception formation, accuracy, and meta-awareness"
-epistemic: "synthesis"
 exclusions: "Interpersonal skills training, persuasion techniques, cultural anthropology"
 last_reviewed: "null"
-modified: 2026-01-08T15:03:29+00:00
-purpose: "Connect atomic notes on how people form and calibrate social perceptions."
-review_interval: "null"
+modified: 2026-02-01T15:08:05+00:00
 scope: "Social perception mechanisms, biases, and calibration strategies"
-see_also: []
-source_of_truth: []
 status: "seedling"
 tags: ["topic/social-cognition", "topic/social-perception"]
 title: MOC - Social Perception and Self-Awareness
 type: "map"
-uid: 
 updated: 
 ---
 
@@ -34,7 +27,7 @@ How we gather and process social information:
 - [[Ambiguity in Social Cues]] rel:: undermines [[Pattern Recognition in Social Cognition]]
 - [[Emotional Contagion in Social Settings]] rel:: influences [[Pattern Recognition in Social Cognition]]
 
-**Key insight:** Social perception operates through fast, heuristic-driven pattern matching across multiple channels (verbal, vocal, visual). The system prioritizes speed over accuracy, making it efficient but error-prone.
+Key insight: Social perception operates through fast, heuristic-driven pattern matching across multiple channels (verbal, vocal, visual). The system prioritizes speed over accuracy, making it efficient but error-prone.
 
 ### Systematic Biases and Distortions
 
@@ -47,7 +40,7 @@ Cognitive biases that systematically distort social judgment:
 - [[Liking Gap]] rel:: influences [[Meta-Accuracy in Social Perception]]
 - [[Social Status Self-Enhancement and Consequences]] rel:: relates_to [[Mental Models as Social Status Signals]]
 
-**Key insight:** Most people underestimate how positively they're perceived ([[Liking Gap]], [[Spotlight Effect]]) rather than overestimating. Status self-enhancement is the exception, not the rule, and carries social costs.
+Key insight: Most people underestimate how positively they're perceived ([[Liking Gap]], [[Spotlight Effect]]) rather than overestimating. Status self-enhancement is the exception, not the rule, and carries social costs.
 
 ### Meta-Awareness and Calibration
 
@@ -59,7 +52,7 @@ Understanding and improving the accuracy of social self-perception:
 - [[Prediction Error Breaks Feedback Loops]] rel:: improves [[Meta-Accuracy in Social Perception]]
 - [[Reality Testing]] rel:: corrects [[Mind-Reading Fallacy and Projection]]
 
-**Key insight:** Meta-accuracy is moderate (~50-60%); systematic feedback-seeking and outcome tracking provide reality checks that break self-reinforcing bias loops.
+Key insight: Meta-accuracy is moderate (~50-60%); systematic feedback-seeking and outcome tracking provide reality checks that break self-reinforcing bias loops.
 
 ### Affective Dynamics
 
@@ -69,7 +62,7 @@ How emotions shape and are shaped by social perception:
 - [[The Cognitive-Emotional Feedback Loop]] rel:: reinforces [[Confirmation Bias Distorts Social Perception]]
 - [[Prediction Error Breaks Feedback Loops]] rel:: interrupts [[The Cognitive-Emotional Feedback Loop]]
 
-**Key insight:** Emotions both inform social perception and arise from it, creating feedback loops that can self-reinforce or be broken through reality-testing.
+Key insight: Emotions both inform social perception and arise from it, creating feedback loops that can self-reinforce or be broken through reality-testing.
 
 ### Related Contexts
 
@@ -80,23 +73,23 @@ How emotions shape and are shaped by social perception:
 
 ### Practical Entry Points
 
-**When starting social calibration work:**
+When starting social calibration work:
 
 1. Begin with [[Feedback-Seeking Strategies for Calibration]] to establish baseline reality checks
 2. Track outcomes (who initiates follow-up, accepts invitations) as objective proxies
 
-**When experiencing social anxiety:**
+When experiencing social anxiety:
 
 1. Review [[Liking Gap]] and [[Spotlight Effect]]—default assumption should be that people like you more and notice your mistakes less than you believe
 2. Apply [[Mind-Reading Fallacy and Projection]] to shift from certainty to hypothesis-testing
 
-**When bias is suspected:**
+When bias is suspected:
 
 1. Use [[Confirmation Bias Distorts Social Perception]] to actively seek disconfirming evidence
 2. Apply [[Reality Testing]] frameworks
 3. Generate multiple alternative explanations for ambiguous cues ([[Ambiguity in Social Cues]])
 
-**For understanding group dynamics:**
+For understanding group dynamics:
 
 1. See [[Emotional Contagion in Social Settings]] for how affect spreads
 2. See [[The Cognitive-Emotional Feedback Loop]] for reinforcement mechanisms

@@ -1,33 +1,26 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-10-31T10:48:00Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: "Explain DNS delegation mechanism."
-review_interval: "90"
-see_also: ["DNS is a distributed database.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:35+00:00
 status: "seedling"
 tags: ["SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
 title: DNS Delegation Handles Subdomain Authority Transfers
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## DNS Delegation Handles Subdomain Authority Transfers
 
-**Summary:** DNS delegation allows parent domains to transfer authority for subdomains to different nameservers, enabling hierarchical management.
+Summary: DNS delegation allows parent domains to transfer authority for subdomains to different nameservers, enabling hierarchical management.
 
-**Mechanism:**
+Mechanism:
 
 1. Parent zone (e.g., movie.edu) contains NS records pointing to subdomain nameservers (e.g., fx.movie.edu)
 2. Queries for the subdomain are referred to these nameservers
 3. Creates separate zone of authority
 
-**Benefits:**
+Benefits:
 
 - Enables distributed administration
 - Supports organizational boundaries

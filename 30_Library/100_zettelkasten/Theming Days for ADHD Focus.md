@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-26T11:06:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: "null"
 tags: ["focus", "planning", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Theming Days for ADHD Focus
 type: "permanent"
-uid: 
 updated: 
-version: "1"
 ---
 
 Day-theming is a productivity strategy where each day of the week is assigned a specific focus or type of work. This provides a high-level structure that helps manage focus and energy for the ADHD brain.
@@ -24,15 +16,15 @@ Day-theming is a productivity strategy where each day of the week is assigned a 
 
 Instead of context-switching between different types of tasks throughout the day, you batch similar activities together. For example:
 
-- **Mondays**: Admin, emails, and planning.
-- **Tuesdays**: Deep work and creative projects.
-- **Wednesdays**: Meetings and collaboration.
+- Mondays: Admin, emails, and planning.
+- Tuesdays: Deep work and creative projects.
+- Wednesdays: Meetings and collaboration.
 
 ## Why It Works for ADHD
 
-- **Reduces Decision Fatigue**: By pre-deciding the focus for the day, it eliminates the constant need to decide what to work on next, which can be a significant drain on executive function.
-- **Improves Focus**: It allows the brain to settle into a specific mode of thinking for a prolonged period, which can help induce a state of flow or [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]].
-- **Manages Working Memory**: It reduces the cognitive load of holding multiple, disparate tasks in working memory at the same time.
+- Reduces Decision Fatigue: By pre-deciding the focus for the day, it eliminates the constant need to decide what to work on next, which can be a significant drain on executive function.
+- Improves Focus: It allows the brain to settle into a specific mode of thinking for a prolonged period, which can help induce a state of flow or [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]].
+- Manages Working Memory: It reduces the cognitive load of holding multiple, disparate tasks in working memory at the same time.
 
 ## Connections
 

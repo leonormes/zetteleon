@@ -20,12 +20,12 @@ updated:
 
 Rejection Sensitive Dysphoria (RSD) is a psychological phenomenon strongly associated with neurodiversity, particularly ADHD. RSD manifests as an intense emotional response to perceived or actual rejection, criticism, or failure. Individuals experiencing RSD may feel overwhelming shame, emotional pain, or anxiety in response to social situations that others might find only mildly uncomfortable.
 
-**Related Challenges:**
+Related Challenges:
 
 - [[Societal Stigma of ADHD Motivation]] exacerbates RSD
 - Misunderstood motivation patterns increase sensitivity
 
-**Management Strategy:**
+Management Strategy:
 
 - Apply [[AAA Framework for Handling Criticism]]
 - Use structured responses to reduce emotional flooding

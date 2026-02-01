@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-08-29T15:16:02Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: "null"
 tags: ["decision-making", "problem-solving", "TheHuman/Cognition"]
 title: Satisficing Leads to Sub-optimal Solutions
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
 Coined by Herbert Simon, "satisficing" is the practice of choosing the first available option that meets a minimum set of criteria ("good enough"), rather than searching for the optimal solution.

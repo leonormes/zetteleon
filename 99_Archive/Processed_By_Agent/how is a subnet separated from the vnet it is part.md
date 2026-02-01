@@ -46,7 +46,7 @@ Within Azure, a Virtual Network (VNet) is an overarching IP address range that i
 - If something in a subnet cannot reach other IPs in the VNet, NSG rules or custom routes are blocking the traffic.[^5][^2]
 - Check the effective NSG and route tables for the subnet or NIC to diagnose such issues.[^2]
 
-***
+*
 
 In summary: subnets are address segments within a VNet, not default connectivity boundaries. Full VNet communication is the norm unless explicitly restricted by security rules (NSGs) or routing.[^5][^2][^4]
 

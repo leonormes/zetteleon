@@ -18,7 +18,7 @@ updated:
 version: "null"
 ---
 
-**Links:**
+Links:
 
 - Up: [[MOC - Container Networking Model]]
 - Related: [[What is a veth pair]], [[What is a network namespace]], [[How to create and connect network namespaces]]
@@ -63,42 +63,42 @@ ip -n pod-blue link set lo up
 
 #### Packet Transmission: Pod-red → Pod-blue
 
-1. **Application sends data**
+1. Application sends data
 
    ```bash
    ip netns exec pod-red ping 10.0.1.2
    ```
 
-2. **Pod-red namespace routing**
+2. Pod-red namespace routing
    - Kernel checks routing table: `ip -n pod-red route`
    - Destination `10.0.1.2` matches `10.0.1.0/24` → Use `veth-red`
 
-3. **Packet enters veth-red**
+3. Packet enters veth-red
    - IP packet constructed: `src=10.0.1.1, dst=10.0.1.2`
    - Ethernet frame: `src=veth-red MAC, dst=veth-blue MAC`
    - Packet written to `veth-red` interface
 
-4. **Kernel forwards through veth pair**
+4. Kernel forwards through veth pair
    - Kernel recognizes `veth-red` is paired with `veth-blue`
-   - Packet is **immediately transferred** to `veth-blue`
+   - Packet is immediately transferred to `veth-blue`
    - No intermediate network devices or routers involved
 
-5. **Packet exits veth-blue**
+5. Packet exits veth-blue
    - Packet appears on `veth-blue` in `pod-blue` namespace
    - Kernel delivers to `pod-blue`'s network stack
 
-6. **Pod-blue processes packet**
+6. Pod-blue processes packet
    - Destination IP matches local interface (10.0.1.2)
    - ICMP echo request processed
    - Reply sent back through the same path in reverse
 
 ### Key Characteristics
 
-**Speed**: No actual network traversal—just kernel memory copy
-**Directionality**: Fully bidirectional (duplex)
-**Layer**: Operates at Layer 2 (Ethernet frames)
-**Isolation**: Each namespace sees only its end of the pair
-**Discovery**: Ends can be identified using `ethtool -S veth-red` (shows peer index)
+Speed: No actual network traversal—just kernel memory copy
+Directionality: Fully bidirectional (duplex)
+Layer: Operates at Layer 2 (Ethernet frames)
+Isolation: Each namespace sees only its end of the pair
+Discovery: Ends can be identified using `ethtool -S veth-red` (shows peer index)
 
 ### Debugging Commands
 
@@ -136,17 +136,17 @@ ip netns exec pod-red tcpdump -i veth-red -n
 
 ### What This Enables
 
-- **Pod isolation with connectivity**: Namespaces remain isolated but can selectively communicate
-- **Container networking foundation**: Every CNI plugin uses veth pairs for Pod connectivity
-- **Kubernetes Pod `eth0`**: The Pod's primary interface is always one end of a veth pair
-- **Host-side networking**: The other veth end is attached to a bridge or routing table on the host
+- Pod isolation with connectivity: Namespaces remain isolated but can selectively communicate
+- Container networking foundation: Every CNI plugin uses veth pairs for Pod connectivity
+- Kubernetes Pod `eth0`: The Pod's primary interface is always one end of a veth pair
+- Host-side networking: The other veth end is attached to a bridge or routing table on the host
 
 ### What Breaks If This Fails
 
-- **Pod cannot start**: CNI ADD operation fails if veth creation fails
-- **Pod loses connectivity**: If the host-side veth is deleted, Pod is unreachable
-- **Performance degradation**: MTU mismatch on veth pair causes fragmentation
-- **Network policies broken**: Firewall rules applied to veth interfaces become ineffective
+- Pod cannot start: CNI ADD operation fails if veth creation fails
+- Pod loses connectivity: If the host-side veth is deleted, Pod is unreachable
+- Performance degradation: MTU mismatch on veth pair causes fragmentation
+- Network policies broken: Firewall rules applied to veth interfaces become ineffective
 
 ### How It Maps to Kubernetes
 
@@ -177,10 +177,10 @@ ip netns exec pod-red tcpdump -i veth-red -n
 └──────────────────────────────────────┘
 ```
 
-- **kubelet**: Invokes CNI plugin to create veth pair during Pod creation
-- **CNI plugin**: Creates veth, moves one end into Pod namespace, assigns IP
-- **Pod `eth0`**: Always the namespace-internal end of a veth pair
-- **Host `vethXXXXX`**: Randomly named, attached to bridge or routing table
+- kubelet: Invokes CNI plugin to create veth pair during Pod creation
+- CNI plugin: Creates veth, moves one end into Pod namespace, assigns IP
+- Pod `eth0`: Always the namespace-internal end of a veth pair
+- Host `vethXXXXX`: Randomly named, attached to bridge or routing table
 
 ### Real-World Example
 

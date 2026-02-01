@@ -1,21 +1,13 @@
 ---
 aliases: ["Ollie the Octopus Method", "Shrink the Loop"]
-confidence: ""
 created: 2025-07-17T10:06:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: ""
 tags: ["action", "fear", "overthinking", "strategy"]
 title: Shrinking the Loop Gathers Experiential Feedback Safely
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 "Shrinking the loop" is a method to overcome the [[The Overthinking Loop Creates Mental Noise Not Clarity|Overthinking Loop]] by taking small, manageable, and safe actions. This approach allows for the gathering of real-world feedback ([[Type 2 Information is Experiential and Feared by Overthinkers|Experiential Information Fear]]) without triggering overwhelming fear.

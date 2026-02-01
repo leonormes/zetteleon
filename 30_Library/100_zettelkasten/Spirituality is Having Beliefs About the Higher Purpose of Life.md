@@ -1,19 +1,12 @@
 ---
 aliases: ["Faith", "Meaning", "Purpose"]
-confidence: "1"
 created: 2025-12-10T12:00:00Z
-epistemic: "definition"
 last_reviewed: "2025-12-10"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "To define the character strength of Spirituality."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: "evergreen"
 tags: ["character-strength", "spirituality", "transcendence"]
 title: Spirituality is Having Beliefs About the Higher Purpose of Life
 type: "concept"
-uid: 
 updated: 
 ---
 

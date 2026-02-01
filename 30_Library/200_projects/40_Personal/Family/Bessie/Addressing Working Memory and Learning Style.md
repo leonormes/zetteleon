@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-20T20:17:45Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: []
 title: Addressing Working Memory and Learning Style
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 - "You mentioned you sometimes don't remember things. When you're learning something new in maths, what helps you remember it for longer? For example, seeing diagrams, writing it down, or hearing it explained more than once?" - _This acknowledges her working memory challenges and probes for effective learning strategies that might counteract them._

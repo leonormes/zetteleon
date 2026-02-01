@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-30T12:09:02Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:36+00:00
 source: "[[MOC - Why Task Initiation is Difficult in ADHD]]"
-source_of_truth: []
 status: "seedling"
 tags: ["behavioral-therapy", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Behavioral Interventions for ADHD Compensate for Neurobiological Deficits
 type: "concept"
-uid: 
 updated: 
 ---
 

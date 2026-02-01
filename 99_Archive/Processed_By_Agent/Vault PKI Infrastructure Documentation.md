@@ -28,8 +28,8 @@ This document describes the Public Key Infrastructure (PKI) setup in HashiCorp V
 
 Our PKI implementation follows a two-tier certificate authority structure:
 
-1. **Root Certificate Authority** - Stored in the `pki` mount
-2. **Intermediate Certificate Authority** - Stored in the `pki_int` mount
+1. Root Certificate Authority - Stored in the `pki` mount
+2. Intermediate Certificate Authority - Stored in the `pki_int` mount
 
 ### Namespace Structure
 
@@ -127,13 +127,13 @@ resource "vault_pki_secret_backend_role" "deployment_server" {
 
 ### Prerequisites
 
-1. **HCP Vault Access**: Root token from HCP portal
-2. **Terraform**: Version compatible with the hashicorp/vault provider
-3. **Namespace Permissions**: Admin namespace access
+1. HCP Vault Access: Root token from HCP portal
+2. Terraform: Version compatible with the hashicorp/vault provider
+3. Namespace Permissions: Admin namespace access
 
 ### Initial Configuration
 
-1. **Enable Cross-Namespace Secret Sharing**:
+1. Enable Cross-Namespace Secret Sharing:
    - Login to Vault with root token from HCP portal
    - Switch to the admin namespace
    - Navigate to Tools → API Explorer
@@ -146,7 +146,7 @@ resource "vault_pki_secret_backend_role" "deployment_server" {
 }
 ```
 
-2. **Configure Vault JWT Auth for Terraform Cloud** (as documented in [README.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/helm_chart_deployment/central-services/README.md)):
+2. Configure Vault JWT Auth for Terraform Cloud (as documented in [README.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/helm_chart_deployment/central-services/README.md)):
    - Login to Vault with root token
    - Switch to admin namespace
    - Go to Access → Authentication Methods
@@ -200,18 +200,18 @@ vault write pki_int/issue/<deployment>-server \
 
 ### Certificate Specifications
 
-- **Key Type**: RSA 2048-bit
-- **Validity Period**: 90 days (configurable)
-- **Allowed Domains**: `<deployment>.example.com` and subdomains
-- **Wildcard Support**: Enabled
-- **Key Usage**: Digital Signature, Key Encipherment, Server Authentication
+- Key Type: RSA 2048-bit
+- Validity Period: 90 days (configurable)
+- Allowed Domains: `<deployment>.example.com` and subdomains
+- Wildcard Support: Enabled
+- Key Usage: Digital Signature, Key Encipherment, Server Authentication
 
 ## Security Considerations
 
-1. **Root CA Protection**: The root CA private key is generated and stored within Vault's secure storage
-2. **Namespace Isolation**: Each deployment has its own namespace with isolated PKI infrastructure
-3. **Certificate Lifetime**: Short-lived certificates (90 days) reduce exposure from compromised certificates
-4. **Audit Logging**: All certificate operations are logged in Vault's audit log
+1. Root CA Protection: The root CA private key is generated and stored within Vault's secure storage
+2. Namespace Isolation: Each deployment has its own namespace with isolated PKI infrastructure
+3. Certificate Lifetime: Short-lived certificates (90 days) reduce exposure from compromised certificates
+4. Audit Logging: All certificate operations are logged in Vault's audit log
 
 ## Monitoring and Maintenance
 
@@ -237,9 +237,9 @@ Certificate Revocation Lists are automatically managed by Vault and accessible a
 
 ### Common Issues
 
-1. **Permission Denied**: Ensure proper namespace access and policy attachments
-2. **Certificate Request Failed**: Verify the requested domain matches the role's allowed_domains
-3. **JWT Auth Issues**: Check TFC workspace variables and auth method configuration
+1. Permission Denied: Ensure proper namespace access and policy attachments
+2. Certificate Request Failed: Verify the requested domain matches the role's allowed_domains
+3. JWT Auth Issues: Check TFC workspace variables and auth method configuration
 
 ### Useful Commands
 
@@ -262,18 +262,18 @@ vault list pki_int/certs
 
 ---
 
-### 1. **Vault PKI Configuration**
+### 1. Vault PKI Configuration
 
 From your [pki.tf](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/helm_chart_deployment/central-services/vault/pki.tf) and [outputs_pki.tf](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/helm_chart_deployment/central-services/vault/outputs_pki.tf), the PKI infrastructure includes:
 
-- **Root CA**: Mounted at `pki` path
-- **Intermediate CA**: Mounted at `pki_int` path
-- **Certificate Role**: A specific role for cert-manager to request certificates
-- **Kubernetes Auth**: Authentication method for cert-manager service account
+- Root CA: Mounted at `pki` path
+- Intermediate CA: Mounted at `pki_int` path
+- Certificate Role: A specific role for cert-manager to request certificates
+- Kubernetes Auth: Authentication method for cert-manager service account
 
-### 2. **cert-manager Integration**
+### 2. cert-manager Integration
 
-According to your [PKI Params](https://obsidian.md) notes from **August 6, 2025**, you create a ClusterIssuer that tells cert-manager how to communicate with Vault:
+According to your [PKI Params](https://obsidian.md) notes from August 6, 2025, you create a ClusterIssuer that tells cert-manager how to communicate with Vault:
 
 ```yaml
 apiVersion: cert-manager.io/v1
@@ -293,7 +293,7 @@ spec:
           name: "cert-manager"
 ```
 
-### 3. **Requesting Certificates**
+### 3. Requesting Certificates
 
 Applications can request certificates by creating a Certificate resource:
 
@@ -313,7 +313,7 @@ spec:
     kind: ClusterIssuer
 ```
 
-### 4. **Using Certificates in Ingress**
+### 4. Using Certificates in Ingress
 
 The certificates are automatically stored as Kubernetes secrets and can be used in Ingress resources:
 
@@ -343,30 +343,30 @@ spec:
 
 ## Key Benefits
 
-1. **Automatic Certificate Management**: cert-manager handles certificate issuance, renewal, and rotation automatically
-2. **Wildcard Support**: Your Vault configuration supports wildcard certificates (enabled by `allow_glob_domains = true`)
-3. **Short-Lived Certificates**: 90-day validity reduces security exposure
-4. **Namespace Isolation**: Each deployment can have its own PKI infrastructure in separate Vault namespaces
+1. Automatic Certificate Management: cert-manager handles certificate issuance, renewal, and rotation automatically
+2. Wildcard Support: Your Vault configuration supports wildcard certificates (enabled by `allow_glob_domains = true`)
+3. Short-Lived Certificates: 90-day validity reduces security exposure
+4. Namespace Isolation: Each deployment can have its own PKI infrastructure in separate Vault namespaces
 
 ## Implementation Steps
 
-Based on your [Configure the Certificate Authority](https://obsidian.md) documentation from **August 4, 2025**:
+Based on your [Configure the Certificate Authority](https://obsidian.md) documentation from August 4, 2025:
 
-1. **Extract CA Bundle** from Vault:
+1. Extract CA Bundle from Vault:
 
 ```bash
 vault read -field=issuing_ca pki_int/cert/ca > fitfile-ca-bundle.pem
 ```
 
-2. **Install cert-manager** in your Kubernetes cluster (if not already installed)
-3. **Create the ClusterIssuer** using the manifest above
-4. **Verify** the issuer is ready:
+2. Install cert-manager in your Kubernetes cluster (if not already installed)
+3. Create the ClusterIssuer using the manifest above
+4. Verify the issuer is ready:
 
 ```bash
 kubectl describe clusterissuer hcp-vault-issuer
 ```
 
-5. **Create Certificate resources** for your applications
+5. Create Certificate resources for your applications
 
 ## Important Considerations
 

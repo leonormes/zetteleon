@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-20T18:34:06Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: []
 title: Responsive to Interest and Hyperfocus Capability
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Her focus is significantly better when she is interested in the task. When highly engaged, she can activate her ability to hyperfocus.

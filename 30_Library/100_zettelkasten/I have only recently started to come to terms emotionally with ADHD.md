@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-18T09:46:26Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:32+00:00
 status: ""
 tags: ["TheHuman/Health/ADHD"]
 title: I have only recently started to come to terms emotionally with ADHD
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 [[I have a lot of shame about my life]]

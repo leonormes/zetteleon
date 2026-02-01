@@ -22,7 +22,7 @@ version: "1"
 
 Key distinctions include:
 
-- **Acceptance over Control:** It accepts difficult emotions as natural and temporary, rather than viewing them as symptoms to be controlled or eliminated.
-- **Behavioral over Cognitive Change:** The primary focus is on changing one's behavior and actions, with the understanding that feelings will often follow, rather than trying to change thoughts first.
-- **Present Action over Past Analysis:** The therapy is forward-looking and action-oriented, placing less emphasis on analyzing past events and more on what one can do in the present moment.
-- **Doing over Feeling:** It values purposeful doing as the path to a meaningful life, rather than prioritizing the achievement of a specific emotional state (e.g., "happiness").
+- Acceptance over Control: It accepts difficult emotions as natural and temporary, rather than viewing them as symptoms to be controlled or eliminated.
+- Behavioral over Cognitive Change: The primary focus is on changing one's behavior and actions, with the understanding that feelings will often follow, rather than trying to change thoughts first.
+- Present Action over Past Analysis: The therapy is forward-looking and action-oriented, placing less emphasis on analyzing past events and more on what one can do in the present moment.
+- Doing over Feeling: It values purposeful doing as the path to a meaningful life, rather than prioritizing the achievement of a specific emotional state (e.g., "happiness").

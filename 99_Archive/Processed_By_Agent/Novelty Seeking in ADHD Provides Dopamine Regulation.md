@@ -19,15 +19,15 @@ updated:
 
 ## Novelty Seeking in ADHD Provides Dopamine Regulation
 
-**Summary:** ADHD novelty-seeking behaviors act as self-regulation mechanisms for dopamine-deficient brains.
+Summary: ADHD novelty-seeking behaviors act as self-regulation mechanisms for dopamine-deficient brains.
 
-**Mechanism:**
+Mechanism:
 
 - Novel stimuli trigger dopamine release
 - Compensates for baseline hyposensitivity
 - Creates reinforcement loop
 
-**Manifestations:**
+Manifestations:
 
 - System switching ("Shiny Object Syndrome")
 - Hyperfocus on new projects

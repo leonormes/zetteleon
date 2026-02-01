@@ -21,23 +21,23 @@ While both models address local network segment transfers, they differ in granul
 
 ## 📐 OSI Data Link Layer (Layer 2)
 
-- **Granularity:** Explicitly separates Layer 2 (Data Link) from Layer 1 (Physical).
-- **Sublayers:** Formally divided into **LLC** (Logical Link Control - protocol multiplexing) and **MAC** (Media Access Control - hardware addressing).
-- **Reliability:** Can be reliable or unreliable; protocols like Ethernet often omit acknowledgments.
-- **PDU:** Exclusively the **Frame**.
+- Granularity: Explicitly separates Layer 2 (Data Link) from Layer 1 (Physical).
+- Sublayers: Formally divided into LLC (Logical Link Control - protocol multiplexing) and MAC (Media Access Control - hardware addressing).
+- Reliability: Can be reliable or unreliable; protocols like Ethernet often omit acknowledgments.
+- PDU: Exclusively the Frame.
 
 ## 📐 TCP/IP Link Layer
 
-- **Scope:** Often called the "Network Access" or "Network Interface" layer.
-- **Integration:** Encompasses both OSI Layer 2 and Layer 1 functionality.
-- **Hardware Independence:** Designed to run on any link-layer technology (Ethernet, PPP, or even VPN tunnels).
-- **Focus:** Immediate next-neighbour connectivity required for internetworking.
+- Scope: Often called the "Network Access" or "Network Interface" layer.
+- Integration: Encompasses both OSI Layer 2 and Layer 1 functionality.
+- Hardware Independence: Designed to run on any link-layer technology (Ethernet, PPP, or even VPN tunnels).
+- Focus: Immediate next-neighbour connectivity required for internetworking.
 
 ## 🔄 Comparison Matrix
 
 | Feature | OSI Data Link (L2) | TCP/IP Link Layer |
 |:--- |:--- |:--- |
-| **Layer Position**| 2nd of 7 | 1st of 4 (Bottom) |
-| **PDU Name** | Frame | Frame |
-| **Focus** | Procedural means to transfer data | Local link scope and hardware drivers |
-| **Addressing** | MAC Addresses | ARP (Translation to MAC) |
+| Layer Position| 2nd of 7 | 1st of 4 (Bottom) |
+| PDU Name | Frame | Frame |
+| Focus | Procedural means to transfer data | Local link scope and hardware drivers |
+| Addressing | MAC Addresses | ARP (Translation to MAC) |

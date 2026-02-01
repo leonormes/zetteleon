@@ -1,31 +1,24 @@
 ---
 aliases: ["Python socket operations"]
-confidence: ""
 created: 2025-10-31T13:39:00Z
-epistemic: "NA"
 last_reviewed: "2025-10-31"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "Document the standard socket lifecycle operations in Python."
-review_interval: "180"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: "seedling"
 tags: ["programming", "python", "socket", "SoftwareEngineering/Networking"]
 title: Socket Lifecycle in Python Programming
 type: "instructional"
-uid: 
 updated: 
 ---
 
 ## Socket Lifecycle in Python Programming
 
-**What:** The five-stage lifecycle for using sockets in Python: create, connect, send, receive, and close.
+What: The five-stage lifecycle for using sockets in Python: create, connect, send, receive, and close.
 
-**How:**
+How:
 
-**Client-side socket operations:**
+Client-side socket operations:
 
-1. **Create socket object**
+1. Create socket object
 
    ```python
    import socket
@@ -35,7 +28,7 @@ updated:
    - Requests OS to create a communication endpoint
    - Returns a file descriptor (handle) for the socket
 
-2. **Connect to server**
+2. Connect to server
 
    ```python
    s.connect(('example.com', 80))
@@ -44,7 +37,7 @@ updated:
    - Initiates TCP handshake to target IP and port
    - OS handles DNS resolution, IP routing
 
-3. **Send data**
+3. Send data
 
    ```python
    s.send(b'GET / HTTP/1.1\r\n\r\n')
@@ -53,7 +46,7 @@ updated:
    - Writes bytes into kernel buffer
    - OS pushes data out to network
 
-4. **Receive data**
+4. Receive data
 
    ```python
    data = s.recv(1024)
@@ -62,7 +55,7 @@ updated:
    - Reads up to 1024 bytes from kernel buffer
    - Returns data received from server
 
-5. **Close socket**
+5. Close socket
 
    ```python
    s.close()
@@ -71,23 +64,23 @@ updated:
    - Releases system resources
    - Terminates the connection
 
-**Server-side operations:**
+Server-side operations:
 
 1. Create socket
-2. **Bind** to address and port: `s.bind(('0.0.0.0', 8080))`
-3. **Listen** for connections: `s.listen()`
-4. **Accept** client connection: `client_socket, address = s.accept()`
+2. Bind to address and port: `s.bind(('0.0.0.0', 8080))`
+3. Listen for connections: `s.listen()`
+4. Accept client connection: `client_socket, address = s.accept()`
 5. Send/receive with client socket
 6. Close both client and server sockets
 
-**Failure modes:**
+Failure modes:
 
 - Connection refused if server not listening
 - Timeout if server doesn't respond
 - Broken pipe if connection lost during send/receive
 - Address already in use if port is occupied
 
-**Example:**
+Example:
 
 ```python
 # Simple HTTP client

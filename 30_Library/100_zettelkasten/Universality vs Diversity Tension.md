@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-08-31T16:08:50Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: ""
 tags: []
 title: Universality vs Diversity Tension
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 A central tension in the relationship between thought and language is the apparent universality of human thought contrasted with the striking diversity of linguistic expression across cultures.

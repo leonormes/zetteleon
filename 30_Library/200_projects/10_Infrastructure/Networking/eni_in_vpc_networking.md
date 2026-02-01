@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:53Z
-epistemic: ""
 ID: "7a1"
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:15+00:00
 status: ""
 tags: []
 title: eni_in_vpc_networking
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## 7.1 ENI In VPC Networking

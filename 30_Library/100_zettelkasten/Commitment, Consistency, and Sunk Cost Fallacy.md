@@ -1,22 +1,14 @@
 ---
 aliases: ["Sunk Cost Fallacy"]
-confidence: ""
 created: 2025-08-23T17:07:39Z
 creation_date: "2025-08-23"
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:35+00:00
 status: ""
 tags: ["TheHuman/Cognition/bias", "TheHuman/Psychology"]
 title: Commitment, Consistency, and Sunk Cost Fallacy
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Once people commit to a position or a course of action, even in a small way, they feel internal and external pressure to behave consistently with that commitment. The more effort, time, or emotion they invest (sunk costs), the more they will rationalise its importance to justify the investment.

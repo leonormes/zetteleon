@@ -24,8 +24,8 @@ Its primary purpose is to prevent any single server from becoming a bottleneck, 
 
 There are two main types:
 
-- **Network Load Balancer (Layer 4)**: Operates at the transport layer (TCP/UDP). It is protocol-agnostic and provides ultra-low latency and high throughput, making it ideal for performance-sensitive applications like gaming or financial services.
-- **Application Load Balancer (Layer 7)**: Operates at the application layer (HTTP/HTTPS). It is content-aware and can make intelligent routing decisions based on URL paths, HTTP headers, or query parameters, which is highly effective for microservices-based architectures.
+- Network Load Balancer (Layer 4): Operates at the transport layer (TCP/UDP). It is protocol-agnostic and provides ultra-low latency and high throughput, making it ideal for performance-sensitive applications like gaming or financial services.
+- Application Load Balancer (Layer 7): Operates at the application layer (HTTP/HTTPS). It is content-aware and can make intelligent routing decisions based on URL paths, HTTP headers, or query parameters, which is highly effective for microservices-based architectures.
 
 ## Related Concepts
 
@@ -36,5 +36,5 @@ There are two main types:
 
 ## Use Cases
 
-- **Enterprise Applications**: Distributing traffic for web applications, APIs, and other services to ensure high availability and scalability.
-- **Home Networks**: In a home lab, a load balancer can expose multiple internal services (like Plex, NAS, or development servers) securely through a single public IP and port (typically 443). This improves security by minimizing the number of open ports on a router.
+- Enterprise Applications: Distributing traffic for web applications, APIs, and other services to ensure high availability and scalability.
+- Home Networks: In a home lab, a load balancer can expose multiple internal services (like Plex, NAS, or development servers) securely through a single public IP and port (typically 443). This improves security by minimizing the number of open ports on a router.

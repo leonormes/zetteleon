@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-07T12:57:54Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:36+00:00
 status: ""
 tags: ["expertise", "knowledge"]
 title: Applying Previous Knowledge
 type: "permanent"
-uid: 
 updated: 
-version: ""
 ---
 
 Utilizing existing knowledge, such as mathematical axioms or domain expertise, is crucial for revealing hidden information within data.

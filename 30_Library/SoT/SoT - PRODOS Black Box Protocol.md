@@ -1,12 +1,8 @@
 ---
 aliases: ["Black Box Thinking", "Error Engine", "Marginal Gains"]
-confidence: "5/5"
 created: 2026-01-11T21:20:00+00:00
-epistemic: "Axiomatic"
 last_reviewed: "2026-01-12"
-modified: 2026-01-28T20:47:11+00:00
-purpose: "Systematizing failure into architectural improvements via Open-Loop protocols."
-see_also: ["Black Box Thinking - Matthew Syed", "SoT - PRODOS Core Specification"]
+modified: 2026-02-01T15:07:54+00:00
 status: "stable"
 tags: ["adhd-tools", "improvement-logic", "prodos", "system-architecture"]
 title: SoT - PRODOS Black Box Protocol

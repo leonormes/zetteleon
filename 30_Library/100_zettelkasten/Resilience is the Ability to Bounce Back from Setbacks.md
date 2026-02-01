@@ -1,21 +1,13 @@
 ---
 aliases: ["Bouncing Back"]
-confidence: "1"
 created: 2025-11-01T21:26:00Z
-epistemic: "definition"
 last_reviewed: "2025-11-01"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "To define the concept of resilience."
-review_interval: "90"
-see_also: ["[[Inner Strength & Resilience Skills (Your Strong Spirit)]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:28+00:00
 status: "evergreen"
 tags: ["character-strength", "growth", "resilience", "TheHuman/Psychology", "virtue"]
 title: Resilience is the Ability to Bounce Back from Setbacks
 type: "concept"
-uid: 
 updated: 
-version: "1"
 ---
 
 Resilience is the psychological capacity to adapt to and recover from stress, adversity, trauma, or disappointment.

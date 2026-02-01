@@ -1,19 +1,12 @@
 ---
 aliases: ["Downtime is a Necessary Part of a Routine"]
-confidence: ""
 created: 2025-10-29T16:10:00Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: "To highlight the importance of rest in a sustainable routine."
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: "seedling"
 tags: ["burnout", "energy-management", "rest", "routine", "self-care"]
 title: Schedule Downtime to Prevent Burnout
 type: "principle"
-uid: 
 updated: 
 ---
 

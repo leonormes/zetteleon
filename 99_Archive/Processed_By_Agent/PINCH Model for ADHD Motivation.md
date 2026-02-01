@@ -19,15 +19,15 @@ updated:
 
 ## PINCH Model for ADHD Motivation
 
-**Summary:** Five key triggers that effectively engage ADHD brains:
+Summary: Five key triggers that effectively engage ADHD brains:
 
-1. **P**assion/Play
-2. **I**nterest
-3. **N**ovelty
-4. **C**hallenge
-5. **H**urry (Urgency)
+1. Passion/Play
+2. Interest
+3. Novelty
+4. Challenge
+5. Hurry (Urgency)
 
-**Neurological Basis:**
+Neurological Basis:
 Each component stimulates dopamine production
 Bypasses typical dysregulation
 Creates sustainable engagement

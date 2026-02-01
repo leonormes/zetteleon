@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-26T17:19:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:27+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:19+00:00
 status: "null"
 tags: ["calico", "cni", "flannel", "overlay", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes", "underlay", "weave"]
 title: CNI plugins provide different network models and features
 type: "Fact"
-uid: 
 updated: 
-version: "1"
 ---
 
 ## Summary
@@ -26,43 +18,43 @@ Different CNI plugins offer varying network models (overlay/underlay) and featur
 
 ### Calico
 
-- **Network Model**: Overlay and Underlay support
-- **Key Features**: Policy enforcement, BGP routing, IPAM
-- **Security**: Advanced network policy support
-- **Performance**: High performance with BGP routing
-- **Use Case**: Enterprise environments requiring strong security and performance
+- Network Model: Overlay and Underlay support
+- Key Features: Policy enforcement, BGP routing, IPAM
+- Security: Advanced network policy support
+- Performance: High performance with BGP routing
+- Use Case: Enterprise environments requiring strong security and performance
 
 ### Flannel
 
-- **Network Model**: Overlay only
-- **Key Features**: VXLAN encapsulation, simple configuration
-- **Configuration**: Uses Kubernetes API or etcd for backend
-- **Simplicity**: Easy to set up and maintain
-- **Use Case**: Development, testing, simple production deployments
+- Network Model: Overlay only
+- Key Features: VXLAN encapsulation, simple configuration
+- Configuration: Uses Kubernetes API or etcd for backend
+- Simplicity: Easy to set up and maintain
+- Use Case: Development, testing, simple production deployments
 
 ### Weave
 
-- **Network Model**: Overlay
-- **Key Features**: Encrypted traffic, cross-cluster connectivity
-- **Security**: Built-in encryption for data in transit
-- **Flexibility**: Works across multiple clusters
-- **Use Case**: Multi-cluster deployments, security-focused environments
+- Network Model: Overlay
+- Key Features: Encrypted traffic, cross-cluster connectivity
+- Security: Built-in encryption for data in transit
+- Flexibility: Works across multiple clusters
+- Use Case: Multi-cluster deployments, security-focused environments
 
 ### Selection Criteria
 
-**Performance Requirements:**
+Performance Requirements:
 
 - Calico (underlay) for highest performance
 - Flannel for moderate performance with simplicity
 - Weave when encryption is needed
 
-**Security Needs:**
+Security Needs:
 
 - Calico for advanced network policies
 - Weave for built-in encryption
 - Flannel for basic security
 
-**Operational Complexity:**
+Operational Complexity:
 
 - Flannel for simplest setup
 - Calico for enterprise features
@@ -70,10 +62,10 @@ Different CNI plugins offer varying network models (overlay/underlay) and featur
 
 ## Implementation Considerations
 
-- **Network Policy Support**: Not all plugins support NetworkPolicy
-- **IPAM Integration**: IP address management varies by plugin
-- **Monitoring**: Different observability capabilities
-- **Upgrade Path**: Consider long-term maintenance
+- Network Policy Support: Not all plugins support NetworkPolicy
+- IPAM Integration: IP address management varies by plugin
+- Monitoring: Different observability capabilities
+- Upgrade Path: Consider long-term maintenance
 
 ## Related
 

@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-30T12:39:22Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T15:03:27+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:07+00:00
 status: "null"
 tags: ["authority", "shame", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
 title: MOC - Authority Dynamics and ADHD
 type: "map"
-uid: 
 updated: 
 ---
 

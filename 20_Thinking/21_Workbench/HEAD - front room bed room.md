@@ -1,20 +1,13 @@
 ---
 aliases: []
 AoL: Personal
-confidence:
 created: 2025-12-23T09:18:30Z
-epistemic:
 last_reviewed:
-modified: 2026-01-23T18:09:15+00:00
-purpose:
-review_interval:
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:10+00:00
 status: someday
 tags: [state/thinking]
 title: HEAD - front room bed room
 type: head
-uid:
 updated:
 ---
 

@@ -22,7 +22,7 @@ updated:
 
 ## MOC - The Relationship Between Habits and Identity
 
-> **Inclusion criteria:** Atomic only; must be evergreen or growing.
+> Inclusion criteria: Atomic only; must be evergreen or growing.
 
 This map explores the idea that the relationship between habits and identity is the deepest level of behavior change, asserting that [[True Behavior Change is Identity Change]]. This perspective shifts the focus from achieving external outcomes to defining and embodying the person one wishes to become.
 
@@ -42,8 +42,8 @@ Your identity is not fixed; it is dynamic. In fact, [[Identity Emerges From Habi
 
 This process works by accumulating proof through action:
 
-- **Proof through Action:** [[Every Action is a Vote for a Desired Identity|Every action you take is a vote]] for the person you want to become.
-- **Accumulation of Evidence:** [[Small Habits Provide Evidence for a New Identity|Small, consistent habits are powerful]] because they provide the evidence that reinforces your desired identity.
+- Proof through Action: [[Every Action is a Vote for a Desired Identity|Every action you take is a vote]] for the person you want to become.
+- Accumulation of Evidence: [[Small Habits Provide Evidence for a New Identity|Small, consistent habits are powerful]] because they provide the evidence that reinforces your desired identity.
 
 The simplest path to changing who you are is a two-step process outlined in [[Identity Change is a Two-Step Process of Deciding and Proving]]: first decide, then prove it with small wins.
 

@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-30T12:07:05Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T15:03:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:05+00:00
 status: "null"
 tags: ["task-initiation", "TheHuman/Health/ADHD", "TheHuman/Neuroscience"]
 title: MOC - The Neuroscience of Task Initiation in ADHD
 type: "map"
-uid: 
 updated: 
 ---
 
@@ -31,11 +24,11 @@ This note provides an overview of the neuroscience behind task initiation diffic
 
 The difficulty initiating tasks reflects convergent deficits across multiple brain systems:
 
-- **Dopamine Reward Pathway Dysfunction**: [[Reduced Dopamine D2 D3 Receptors Impair Motivation in ADHD|Reduced dopamine D2/D3 receptors impair motivation]].
-- **Prefrontal Cortex Catecholamine Insufficiency**: [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD|A lack of norepinephrine and dopamine impairs the brain's executive control center]].
-- **Neuroenergetic Deficits**: [[The Neuroenergetic Deficit Theory Posits Chronic Energy Insufficiency in ADHD Brains|The ADHD brain has a chronic insufficiency of neural resources]].
-- **Brain Network Dysregulation**: [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD|The "glitchy switch" between the Task-Positive and Default Mode Networks]] makes it hard to focus.
-- **Impaired Error-Processing**: [[ADHD is Associated with Reduced Error-Related Negativity (ERN) and Error Positivity (Pe)|ADHD is associated with reduced automatic and conscious error-processing]].
+- Dopamine Reward Pathway Dysfunction: [[Reduced Dopamine D2 D3 Receptors Impair Motivation in ADHD|Reduced dopamine D2/D3 receptors impair motivation]].
+- Prefrontal Cortex Catecholamine Insufficiency: [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD|A lack of norepinephrine and dopamine impairs the brain's executive control center]].
+- Neuroenergetic Deficits: [[The Neuroenergetic Deficit Theory Posits Chronic Energy Insufficiency in ADHD Brains|The ADHD brain has a chronic insufficiency of neural resources]].
+- Brain Network Dysregulation: [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD|The "glitchy switch" between the Task-Positive and Default Mode Networks]] makes it hard to focus.
+- Impaired Error-Processing: [[ADHD is Associated with Reduced Error-Related Negativity (ERN) and Error Positivity (Pe)|ADHD is associated with reduced automatic and conscious error-processing]].
 
 ### Psychological Components
 

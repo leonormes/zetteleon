@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-11-11T09:27:54Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:23+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: []
 title: I Am Going to Have a Conversation About Respect In
 type: ""
-uid: 
 updated: 
 ---
 
@@ -23,7 +16,7 @@ Discussion Point 1: The Foundations of Our Team
 
 I've been thinking about what makes a partnership feel strong and fair. Here are a few areas I'd love to hear your thoughts on.
 
-- **Mutual Respect:** On a scale of 1-10, how respected do you feel in our day-to-day interactions? What's one thing I could do to make you feel more valued and heard?
+- Mutual Respect: On a scale of 1-10, how respected do you feel in our day-to-day interactions? What's one thing I could do to make you feel more valued and heard?
 
 ---
 
@@ -33,17 +26,17 @@ You're experiencing a clash between your sense of fairness, respect, and shared 
 
 ## Why You Feel This Way
 
-- **Unmet Expectations:** You expect chores to be shared, including with your children, which aligns with reasonable family boundaries, but your wife's different expectations (you taking responsibility for tidying up, children exempted) create imbalance.
-- **Feeling Overruled:** When your preferences or boundaries are ignored, you may feel your autonomy and perspective are undervalued, triggering frustration or resentment.
-- **Loss of Agency:** Being expected to drop everything on demand, without negotiation or respect for your priorities, can make you feel your needs are sidelined—contributing to a sense of unfairness.
-- **Role Conflict:** If you're invested in building a cooperative team dynamic, repeated unilateral decisions (from your spouse) undermine joint problem-solving and equal partnership.
-- **Optimisation and Efficiency:** With your background in DevOps and workflow optimisation, you value efficiency and clear distribution of roles. Repeatedly managing chores "the hard way" or in a less efficient manner compounds your frustration.
+- Unmet Expectations: You expect chores to be shared, including with your children, which aligns with reasonable family boundaries, but your wife's different expectations (you taking responsibility for tidying up, children exempted) create imbalance.
+- Feeling Overruled: When your preferences or boundaries are ignored, you may feel your autonomy and perspective are undervalued, triggering frustration or resentment.
+- Loss of Agency: Being expected to drop everything on demand, without negotiation or respect for your priorities, can make you feel your needs are sidelined—contributing to a sense of unfairness.
+- Role Conflict: If you're invested in building a cooperative team dynamic, repeated unilateral decisions (from your spouse) undermine joint problem-solving and equal partnership.
+- Optimisation and Efficiency: With your background in DevOps and workflow optimisation, you value efficiency and clear distribution of roles. Repeatedly managing chores "the hard way" or in a less efficient manner compounds your frustration.
 
 ## What's Happening Emotionally
 
-- **Recurring Stress:** The pattern leads to emotional buildup—feeling aggrieved is a mix of frustration, helplessness, and a desire for recognition.
-- **Boundary Violation:** Your boundaries—how much help, when, and who participates—are not being respected, which deepens the emotional response.
-- **Values Clash:** You value fairness, teamwork, and shared load; these values bump up against different priorities from your spouse (immediate needs over negotiated team approach).
+- Recurring Stress: The pattern leads to emotional buildup—feeling aggrieved is a mix of frustration, helplessness, and a desire for recognition.
+- Boundary Violation: Your boundaries—how much help, when, and who participates—are not being respected, which deepens the emotional response.
+- Values Clash: You value fairness, teamwork, and shared load; these values bump up against different priorities from your spouse (immediate needs over negotiated team approach).
 
 ## Important Insights
 

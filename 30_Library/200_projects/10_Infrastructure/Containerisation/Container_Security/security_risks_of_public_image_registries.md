@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2024-11-30T17:00:06Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:27+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:19+00:00
 status: ""
 tags: []
 title: security_risks_of_public_image_registries
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## Security Risks of Public Image Registries

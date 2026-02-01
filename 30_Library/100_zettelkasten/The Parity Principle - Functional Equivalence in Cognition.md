@@ -1,23 +1,16 @@
 ---
 aliases: ["Functional Equivalence", "The Inga and Otto Case"]
-confidence: "5/5"
 created: 2025-12-24T12:00:00Z
-epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-23T18:09:29+00:00
-purpose: "To explain the logical criteria for treating external tools as part of the mind."
-review_interval: "1 year"
-see_also: ["[[SoT - The Extended Mind Thesis]]"]
-source_of_truth: ["[[SoT - The Extended Mind Thesis]]"]
+modified: 2026-02-01T15:08:25+00:00
 status: "stable"
 tags: ["cognition", "logic", "TheHuman/Philosophy"]
 title: The Parity Principle - Functional Equivalence in Cognition
 type: "concept"
-uid: 
 updated: 
 ---
 
-The **Parity Principle** is the philosophical heart of the [[SoT - The Extended Mind Thesis|EMT]]. It states:
+The Parity Principle is the philosophical heart of the [[SoT - The Extended Mind Thesis|EMT]]. It states:
 
 > [!quote] The Principle
 > If a process occurring in the world functions in a way that we would unhesitatingly accept as cognitive were it occurring inside the head, then we should treat that external process as part of the cognitive system.
@@ -26,11 +19,11 @@ The **Parity Principle** is the philosophical heart of the [[SoT - The Extended 
 
 This principle is illustrated via two agents seeking the same information (the location of a museum):
 
-- **Inga:** Uses biological memory (internal retrieval).
-- **Otto:** Uses a reliable, trusted notebook (external retrieval).
+- Inga: Uses biological memory (internal retrieval).
+- Otto: Uses a reliable, trusted notebook (external retrieval).
 
-Because Otto's notebook is **constant, accessible, and trusted**, it performs the same functional role as Inga's neurons. Therefore, the notebook is a constitutive part of Otto's belief system.
+Because Otto's notebook is constant, accessible, and trusted, it performs the same functional role as Inga's neurons. Therefore, the notebook is a constitutive part of Otto's belief system.
 
 ## 🚀 Application
 
-In a digital context, this justifies the use of **Personal Knowledge Management (PKM)** as a direct expansion of the user's mind, provided the system is reliable and the interface is frictionless.
+In a digital context, this justifies the use of Personal Knowledge Management (PKM) as a direct expansion of the user's mind, provided the system is reliable and the interface is frictionless.

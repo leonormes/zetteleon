@@ -19,6 +19,6 @@ updated:
 
 ## Small Habits Provide Evidence for a New Identity
 
-**Summary:** The primary power of small, consistent habits is not the immediate result they produce, but the evidence they provide for a new, desired identity.
+Summary: The primary power of small, consistent habits is not the immediate result they produce, but the evidence they provide for a new, desired identity.
 
-**Details:** You believe your current identity because you have proof of it. By repeating a small, positive behavior, you accumulate evidence that you are the type of person who performs that behavior. This gradual accumulation of proof is what solidifies a new identity and makes long-term change possible.
+Details: You believe your current identity because you have proof of it. By repeating a small, positive behavior, you accumulate evidence that you are the type of person who performs that behavior. This gradual accumulation of proof is what solidifies a new identity and makes long-term change possible.

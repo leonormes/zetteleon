@@ -1,22 +1,15 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-31T10:36:00Z
 criteria: "Focus on packet transformations through each device."
-epistemic: ""
 exclusions: "Physical network devices."
 last_reviewed: ""
-modified: 2026-01-08T15:03:28+00:00
-purpose: "Organize cloud networking devices by packet flow."
-review_interval: "180"
+modified: 2026-02-01T15:08:07+00:00
 scope: "Data-centric view of cloud networking devices."
-see_also: []
-source_of_truth: []
 status: ""
 tags: ["cloud", "SoftwareEngineering/Networking"]
 title: MOC - Cloud Networking Devices Data Flow
 type: "map"
-uid: 
 updated: 
 ---
 

@@ -1,47 +1,42 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-09-25T14:15:39Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:23+00:00
+Reviewed: true
 status: ""
-tags: ["auth0", "project/work/mkuh"]
+tags: [auth0, project/work/mkuh]
 title: Auth0 Object Architecture - FITFILE Deployments
 type: ""
-uid: 
-updated: 
-version: ""
+updated:
 ---
 
-**Created**: 2025-09-25
-**Topic**: Auth0 Infrastructure Design
-**Context**: Understanding what Auth0 objects are needed for new deployments
+Created: 2025-09-25
+
+Topic: Auth0 Infrastructure Design
+
+Context: Understanding what Auth0 objects are needed for new deployments
 
 ---
 
 ## 🏗️ Auth0 Object Architecture Overview
 
-### **The Core Question**
+### The Core Question
 
 > What Auth0 objects does a new FITFILE deployment actually need, and what should be shared?
 
-### **The Answer**
+### The Answer
 
-- **Shared Objects**: Connection, Tenant settings, Branding, Security policies (managed centrally)
-- **Per-Deployment**: Applications (clients), Client grants, Connection associations
+- Shared Objects: Connection, Tenant settings, Branding, Security policies (managed centrally)
+- Per-Deployment: Applications (clients), Client grants, Connection associations
 
 ---
 
 ## 🔍 The Conflicting Object Explained
 
-### **Username-Password-Authentication Connection**
+### Username-Password-Authentication Connection
 
-**What is it?**
+What is it?
 
 ```hcl
 resource "auth0_connection" "auth0_cred_connection" {
@@ -59,15 +54,15 @@ resource "auth0_connection" "auth0_cred_connection" {
 }
 ```
 
-**Key Properties**:
+Key Properties:
 
-- **ID**: `con_Kyn7jltI3WcrDbNG`
-- **Type**: Database Connection
-- **Strategy**: `auth0` (Auth0's built-in user store)
-- **Scope**: **Shared across ALL FITFILE deployments**
-- **Current Usage**: 17 enabled clients (MKUH, CUH, etc.)
+- ID: `con_Kyn7jltI3WcrDbNG`
+- Type: Database Connection
+- Strategy: `auth0` (Auth0's built-in user store)
+- Scope: Shared across ALL FITFILE deployments
+- Current Usage: 17 enabled clients (MKUH, CUH, etc.)
 
-**Why is it shared?**
+Why is it shared?
 
 - All FITFILE users authenticate against the same user database
 - Consistent password policies across all deployments
@@ -78,16 +73,16 @@ resource "auth0_connection" "auth0_cred_connection" {
 
 ## 🧱 Complete Auth0 Object Hierarchy
 
-### **1. Tenant-Level Objects (Shared Infrastructure)**
+### 1. Tenant-Level Objects (Shared Infrastructure)
 
-> ✅ **Managed by Central Services** - One instance per Auth0 tenant
+> ✅ Managed by Central Services - One instance per Auth0 tenant
 
 | Object                | Purpose                    | Terraform Resource                       |
 | --------------------- | -------------------------- | ---------------------------------------- |
-| **Tenant**            | Global Auth0 settings      | `auth0_tenant.tenant`                    |
-| **Connection**        | User authentication method | `auth0_connection.auth0_cred_connection` |
-| **Branding**          | Logo, colors, themes       | `auth0_branding.branding`                |
-| **Attack Protection** | Security policies          | `auth0_attack_protection.my_protection`  |
+| Tenant            | Global Auth0 settings      | `auth0_tenant.tenant`                    |
+| Connection        | User authentication method | `auth0_connection.auth0_cred_connection` |
+| Branding          | Logo, colors, themes       | `auth0_branding.branding`                |
+| Attack Protection | Security policies          | `auth0_attack_protection.my_protection`  |
 
 ```hcl
 # Examples of shared objects
@@ -104,18 +99,18 @@ auth0_connection.auth0_cred_connection {
 }
 ```
 
-### **2. Deployment-Specific Objects (Per Customer)**
+### 2. Deployment-Specific Objects (Per Customer)
 
-> 🔄 **Created per deployment** - What each customer deployment needs
+> 🔄 Created per deployment - What each customer deployment needs
 
 | Object Type                | Purpose                            | Example                |
 | -------------------------- | ---------------------------------- | ---------------------- |
-| **SPA Client**             | User login application             | FITFILE web app        |
-| **M2M Clients**            | Machine-to-machine access          | API explorer, CI/CD    |
-| **Client Grants**          | Permissions for M2M clients        | Management API access  |
-| **Connection Association** | Links clients to shared connection | Enables authentication |
+| SPA Client             | User login application             | FITFILE web app        |
+| M2M Clients            | Machine-to-machine access          | API explorer, CI/CD    |
+| Client Grants          | Permissions for M2M clients        | Management API access  |
+| Connection Association | Links clients to shared connection | Enables authentication |
 
-#### **Example: MKUH Deployment Objects**
+#### Example: MKUH Deployment Objects
 
 ```hcl
 # 1. Single Page Application (User Login)
@@ -174,9 +169,9 @@ auth0_client_grant.api_explorer_grant_auth0 {
 }
 ```
 
-### **3. Connection Associations (Links Everything Together)**
+### 3. Connection Associations (Links Everything Together)
 
-> 🔗 **Critical Component** - This is what enables authentication
+> 🔗 Critical Component - This is what enables authentication
 
 ```hcl
 # This resource links the deployment's clients to the shared connection
@@ -194,53 +189,53 @@ auth0_connection_clients.my_conn_clients_assoc {
 
 ## 🎯 What a New Deployment Actually Needs
 
-### **✅ Resources to CREATE per deployment:**
+### ✅ Resources to CREATE per Deployment
 
-1. **User-Facing Application (SPA)**
+1. User-Facing Application (SPA)
    - Type: `auth0_client` with `app_type = "spa"`
    - Purpose: Web application for user login
    - Configuration: Callback URLs, logout URLs, web origins
    - Example: FITFILE web interface at `mkuh-prod-1.eoe.fitfile.net`
 
-2. **Machine-to-Machine Clients**
+2. Machine-to-Machine Clients
    - Type: `auth0_client` with `app_type = "non_interactive"`
    - Purpose: Automated access (API management, CI/CD)
    - Authentication: Client credentials grant
    - Examples: API Explorer, GitLab pipelines, monitoring tools
 
-3. **Client Credentials and Grants**
+3. Client Credentials and Grants
    - Secrets for M2M authentication
    - Permissions (scopes) for Management API access
    - Role-based access control
 
-4. **Connection Association**
+4. Connection Association
    - Links all deployment clients to the shared connection
    - Enables authentication flow
-   - **Critical**: Must reference existing connection, not create new one
+   - Critical: Must reference existing connection, not create new one
 
-### **❌ Resources to NOT CREATE per deployment:**
+### ❌ Resources to NOT CREATE per Deployment
 
-1. **The Connection** (`auth0_connection.auth0_cred_connection`)
-   - **Why**: Shared across all deployments
-   - **Result if created**: 409 Conflict error
+1. The Connection (`auth0_connection.auth0_cred_connection`)
+   - Why: Shared across all deployments
+   - Result if created: 409 Conflict error
 
-2. **Tenant Settings** (`auth0_tenant.tenant`)
-   - **Why**: Global Auth0 tenant configuration
-   - **Managed by**: Central services
+2. Tenant Settings (`auth0_tenant.tenant`)
+   - Why: Global Auth0 tenant configuration
+   - Managed by: Central services
 
-3. **Branding** (`auth0_branding.branding`)
-   - **Why**: Consistent FITFILE branding across all deployments
-   - **Includes**: Logo, colors, favicon
+3. Branding (`auth0_branding.branding`)
+   - Why: Consistent FITFILE branding across all deployments
+   - Includes: Logo, colors, favicon
 
-4. **Attack Protection** (`auth0_attack_protection.my_protection`)
-   - **Why**: Consistent security policies
-   - **Includes**: Brute force protection, suspicious IP throttling
+4. Attack Protection (`auth0_attack_protection.my_protection`)
+   - Why: Consistent security policies
+   - Includes: Brute force protection, suspicious IP throttling
 
 ---
 
 ## 🏛️ Proper Architecture Pattern
 
-### **Centralized Vs. Distributed Resources**
+### Centralized Vs. Distributed Resources
 
 ```mermaid
 graph TB
@@ -280,24 +275,24 @@ graph TB
     style P fill:#ffebee
 ```
 
-### **Resource Ownership Matrix**
+### Resource Ownership Matrix
 
 | Resource Type        | Central Services | MKUH Deployment | CUH Deployment | Other Deployments |
 | -------------------- |:--------------: |:-------------: |:------------: |:---------------: |
-| **Tenant**           |     ✅ Owns      |  ❌ References  | ❌ References  |   ❌ References   |
-| **Connection**       |     ✅ Owns      |  ❌ References  | ❌ References  |   ❌ References   |
-| **Branding**         |     ✅ Owns      |   ❌ Inherits   |  ❌ Inherits   |    ❌ Inherits    |
-| **Protection**       |     ✅ Owns      |   ❌ Inherits   |  ❌ Inherits   |    ❌ Inherits    |
-| **SPA Client**       |     ❌ None      |     ✅ Owns     |    ✅ Owns     |      ✅ Owns      |
-| **M2M Clients**      |     ❌ None      |     ✅ Owns     |    ✅ Owns     |      ✅ Owns      |
-| **Client Grants**    |     ❌ None      |     ✅ Owns     |    ✅ Owns     |      ✅ Owns      |
-| **Connection Assoc** |     ❌ None      |     ✅ Owns     |    ✅ Owns     |      ✅ Owns      |
+| Tenant           |     ✅ Owns      |  ❌ References  | ❌ References  |   ❌ References   |
+| Connection       |     ✅ Owns      |  ❌ References  | ❌ References  |   ❌ References   |
+| Branding         |     ✅ Owns      |   ❌ Inherits   |  ❌ Inherits   |    ❌ Inherits    |
+| Protection       |     ✅ Owns      |   ❌ Inherits   |  ❌ Inherits   |    ❌ Inherits    |
+| SPA Client       |     ❌ None      |     ✅ Owns     |    ✅ Owns     |      ✅ Owns      |
+| M2M Clients      |     ❌ None      |     ✅ Owns     |    ✅ Owns     |      ✅ Owns      |
+| Client Grants    |     ❌ None      |     ✅ Owns     |    ✅ Owns     |      ✅ Owns      |
+| Connection Assoc |     ❌ None      |     ✅ Owns     |    ✅ Owns     |      ✅ Owns      |
 
 ---
 
 ## 🔧 Implementation Patterns
 
-### **Correct Pattern: Reference Shared Resources**
+### Correct Pattern: Reference Shared Resources
 
 ```hcl
 # ✅ CORRECT - Reference the existing connection
@@ -316,7 +311,7 @@ resource "auth0_connection_clients" "my_conn_clients_assoc" {
 }
 ```
 
-### **Incorrect Pattern: Duplicate Shared Resources**
+### Incorrect Pattern: Duplicate Shared Resources
 
 ```hcl
 # ❌ WRONG - Trying to create the shared connection
@@ -329,7 +324,7 @@ resource "auth0_connection" "auth0_cred_connection" {
 # Results in: Error: 409 Conflict: A connection with the same name already exists
 ```
 
-### **Module-Level Implementation**
+### Module-Level Implementation
 
 ```hcl
 # In terraform-auth0-tenant module
@@ -365,7 +360,7 @@ locals {
 
 ## 🎛️ Configuration Examples
 
-### **Central Services Configuration**
+### Central Services Configuration
 
 ```hcl
 # /central-services/auth0/prod/main.tf
@@ -382,7 +377,7 @@ module "auth0_tenant" {
 }
 ```
 
-### **Deployment Configuration**
+### Deployment Configuration
 
 ```hcl
 # /mkuh-prod-1/main.tf
@@ -405,7 +400,7 @@ module "mkuh_fitfile_deployment" {
 
 ## 🔍 Debugging and Verification
 
-### **Verify Shared Connection**
+### Verify Shared Connection
 
 ```bash
 # Check connection exists and get details
@@ -418,7 +413,7 @@ auth0 api get connections
 auth0 api get connections/con_Kyn7jltI3WcrDbNG/enabled_clients
 ```
 
-### **Verify Deployment Resources**
+### Verify Deployment Resources
 
 ```bash
 # Check terraform state for Auth0 resources
@@ -431,14 +426,14 @@ terraform state list | grep auth0_connection
 terraform state list | grep auth0_client
 ```
 
-### **Common Issues and Solutions**
+### Common Issues and Solutions
 
 | Issue                      | Cause                                     | Solution                                  |
 | -------------------------- | ----------------------------------------- | ----------------------------------------- |
-| **409 Conflict**           | Multiple modules creating same connection | Use data source to reference existing     |
-| **Missing Authentication** | Connection not associated with clients    | Check `auth0_connection_clients` resource |
-| **Wrong Callback URLs**    | Hardcoded URLs in client config           | Use deployment-specific variables         |
-| **Permission Denied**      | M2M client missing scopes                 | Check `auth0_client_grant` resources      |
+| 409 Conflict           | Multiple modules creating same connection | Use data source to reference existing     |
+| Missing Authentication | Connection not associated with clients    | Check `auth0_connection_clients` resource |
+| Wrong Callback URLs    | Hardcoded URLs in client config           | Use deployment-specific variables         |
+| Permission Denied      | M2M client missing scopes                 | Check `auth0_client_grant` resources      |
 
 ---
 
@@ -450,11 +445,11 @@ terraform state list | grep auth0_client
 
 ## 🎯 Key Takeaways
 
-1. **Connections are Shared Infrastructure** - Like databases or DNS zones
-2. **Applications are Deployment-Specific** - Each customer gets their own
-3. **Connection Associations Link Everything** - Critical for enabling authentication
-4. **Reference, Don't Recreate** - Use data sources for shared resources
-5. **Centralized Management Prevents Conflicts** - Single source of truth
+1. Connections are Shared Infrastructure - Like databases or DNS zones
+2. Applications are Deployment-Specific - Each customer gets their own
+3. Connection Associations Link Everything - Critical for enabling authentication
+4. Reference, Don't Recreate - Use data sources for shared resources
+5. Centralized Management Prevents Conflicts - Single source of truth
 
 This architecture pattern ensures:
 

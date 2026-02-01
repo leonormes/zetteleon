@@ -1,25 +1,17 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-09-16T12:25:36Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:31+00:00
 status: ""
 tags: []
-title: Mass-Energy Equivalence (E=mc²)
+title: Mass-Energy Equivalence (E-mc-)
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 - Energy = Mass × (Speed of Light)^2
 - Mass ↔ Energy conversion underpins nuclear fission & fusion.
-- Connection to **four-momentum**: energy is absolute, frame-independent.
+- Connection to four-momentum: energy is absolute, frame-independent.
 
 👉 Connects to: [[Speed of Light Limit and Photons]], [[Special Relativity (Everyday Consequences)]], [[General Relativity (Gravity as Curvature)]]

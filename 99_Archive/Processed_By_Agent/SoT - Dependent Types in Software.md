@@ -18,7 +18,7 @@ updated:
 ---
 
 > [!warning] Deprecated
-> This note has been consolidated. Please refer to the single Source of Truth: **[[SoT - Type-Level Programming]]**.
+> This note has been consolidated. Please refer to the single Source of Truth: [[SoT - Type-Level Programming]].
 
 ## Summary
-The concept of **Dependent Types** is the theoretical driver for **Type-Level Programming (TLP)**. This note has been merged into the primary TLP note to provide a unified reference for compile-time logic, "Making illegal states unrepresentable", and the "Prophecy Problem".
+The concept of Dependent Types is the theoretical driver for Type-Level Programming (TLP). This note has been merged into the primary TLP note to provide a unified reference for compile-time logic, "Making illegal states unrepresentable", and the "Prophecy Problem".

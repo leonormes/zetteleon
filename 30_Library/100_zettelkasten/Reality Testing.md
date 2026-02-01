@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-26T18:13:01Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:28+00:00
 status: ""
 tags: []
 title: Reality Testing
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 For many, the external world serves as a sounding board to test the validity of their thoughts and perceptions. When others agree with us, it can reinforce our sense of reality and make our thoughts feel more tangible and "real." If your internal world is vast and detailed but rarely interfaces with external perspectives, it might lack this grounding.

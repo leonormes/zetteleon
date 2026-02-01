@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-21T10:08:44Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: ["TheHuman/Family/Bessie"]
 title: Robust Emotional and Mental Health Support, Particularly regarding Anxiety and Bullying
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 - Failing Identified: Bessie's recent overdose was linked to bullying, directly contradicting the Ofsted report's claim that "Bullying is rare and… dealt with swiftly". Her anxiety is not adequately managed, with "five minutes out of class" being insufficient and lacking guidance. Staff responses to her struggles can be negative (yelling, "get out"), and she feels teachers "don't understand" her anxious needs. The concept of "masking" her difficulties at school is largely unaddressed, leading to distress and potential burnout.

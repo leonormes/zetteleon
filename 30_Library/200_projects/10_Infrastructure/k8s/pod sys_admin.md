@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-17T12:57:49Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:25+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:13+00:00
 status: ""
 tags: []
 title: pod sys_admin
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 This output confirms that you have pods in your AKS cluster that are indeed requesting the `SYS_ADMIN` capability. Let's address this in your Helm chart.
@@ -59,9 +51,9 @@ securityContext:
 
 Explanation of Changes:
 
-- `capabilities.drop: - SYS_ADMIN`**: This explicitly tells Kubernetes to drop the `CAP_SYS_ADMIN` capability for this container. This is the primary fix for the security recommendation.
-- `privileged: false`**: If `privileged: true` was present, explicitly set it to `false`. Privileged mode grants _all_ capabilities and relaxes many security restrictions. It should be avoided unless absolutely necessary. If you are not sure if you need it, try removing it.
-- `runAsUser: 1000`**: Keep this line if your application requires running as a specific non-root user (user ID 1000 in this case). This is a good security practice in general.
+- `capabilities.drop: - SYS_ADMIN`: This explicitly tells Kubernetes to drop the `CAP_SYS_ADMIN` capability for this container. This is the primary fix for the security recommendation.
+- `privileged: false`: If `privileged: true` was present, explicitly set it to `false`. Privileged mode grants _all_ capabilities and relaxes many security restrictions. It should be avoided unless absolutely necessary. If you are not sure if you need it, try removing it.
+- `runAsUser: 1000`: Keep this line if your application requires running as a specific non-root user (user ID 1000 in this case). This is a good security practice in general.
 
 Example Snippet in `deployment.yaml` (Helm Template):
 

@@ -1,21 +1,26 @@
 ---
-aliases: ["Map of Content on Overthinking"]
-confidence: "null"
+aliases:
+  - Map of Content on Overthinking
+confidence:
 created: 2025-07-17T10:09:00Z
-epistemic: "null"
-last_reviewed: "null"
+epistemic:
+last_reviewed:
 modified: 2026-01-08T15:03:31+00:00
-purpose: "null"
-review_interval: "null"
+purpose:
+review_interval:
 see_also: []
 source_of_truth: []
-status: "null"
-tags: ["overthinking", "paralysis", "TheHuman/Cognition"]
+status:
+tags:
+  - overthinking
+  - paralysis
+  - TheHuman/Cognition
 title: Overcoming Intelligent Paralysis MOC
-type: "map"
-uid: 
-updated: 
-version: "null"
+type: map
+uid:
+updated:
+version:
+id: Overcoming Intelligent Paralysis MOC
 ---
 
 This Map of Content (MOC) organizes notes related to the phenomenon of "intelligent paralysis" or overthinking, and the strategies to overcome it.

@@ -22,9 +22,9 @@ For managing secrets for non-cloud or custom systems within Terraform Cloud, int
 
 How Vault integration works:
 
-- **Dynamic Engines:** Vault's dynamic secret engines can issue on-demand credentials for databases, APIs, SSH keys, and other services. These credentials are short-lived and automatically revoked after use or expiration.
-- **DPC Integration:** Terraform Cloud can integrate with Vault via [[Dynamic Provider Credentials (DPC) in Terraform Cloud|Dynamic Provider Credentials]]. This allows Terraform runs to securely request and receive ephemeral secrets from Vault during execution, without ever storing them statically.
-- **Centralized Policy:** Vault provides a centralized platform for defining and enforcing access policies for all secrets, unifying secret management across your infrastructure.
+- Dynamic Engines: Vault's dynamic secret engines can issue on-demand credentials for databases, APIs, SSH keys, and other services. These credentials are short-lived and automatically revoked after use or expiration.
+- DPC Integration: Terraform Cloud can integrate with Vault via [[Dynamic Provider Credentials (DPC) in Terraform Cloud|Dynamic Provider Credentials]]. This allows Terraform runs to securely request and receive ephemeral secrets from Vault during execution, without ever storing them statically.
+- Centralized Policy: Vault provides a centralized platform for defining and enforcing access policies for all secrets, unifying secret management across your infrastructure.
 
 This combination ensures that all sensitive data, whether for cloud providers or internal systems, adheres to a consistent ephemeral and Zero Trust model.
 

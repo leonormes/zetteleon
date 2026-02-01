@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-20T20:17:45Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: []
 title: Exploring Anxious Expectations and Beliefs About Failure
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 - "When you feel like you 'don't understand' something, what do you worry will happen if you try to ask a question in class, or if you make a mistake?" - _Bessie has expressed concern about being told it's her fault for not listening or being kicked out of lessons for not understanding, which feeds into her anxiety._

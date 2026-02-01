@@ -1,21 +1,13 @@
 ---
 aliases: ["Fable as Allegory"]
-confidence: "1"
 created: 2025-11-01T21:40:00Z
-epistemic: "principle"
 last_reviewed: "2025-11-01"
-modified: 2026-01-23T18:09:32+00:00
-purpose: "To identify animal allegory as the key continuity in fable storytelling."
-review_interval: "90"
-see_also: ["[[Sequence - Evolution of Fable Storytelling]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:37+00:00
 status: "evergreen"
 tags: ["allegory", "fable", "social-commentary", "storytelling"]
 title: Animal Allegory is a Persistent Feature of Fables for Social Commentary
 type: "concept"
-uid: 
 updated: 
-version: "1"
 ---
 
 Across its long evolution, the key continuity in the fable genre is the persistent use of animal allegory as a vehicle for social and moral commentary.

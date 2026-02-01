@@ -1,27 +1,20 @@
 ---
 aliases: ["externalization effect", "writing strips phenomenology"]
-confidence: "0.8"
 created: 2025-10-31T20:46:00Z
-epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "Describes how externalization isolates propositional content from phenomenological experience"
-review_interval: "90"
-see_also: ["[[Thoughts are bundled with phenomenological qualities]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:23+00:00
 status: "seedling"
 tags: ["metacognition", "TheHuman/Cognition", "writing"]
 title: Writing isolates propositional content from phenomenological experience
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Writing Isolates Propositional Content from Phenomenological Experience
 
-**Summary:** When thoughts are externalized through writing, the phenomenological qualities (emotional resonance, felt significance, associative richness) are stripped away, leaving only the bare propositional content for examination.
+Summary: When thoughts are externalized through writing, the phenomenological qualities (emotional resonance, felt significance, associative richness) are stripped away, leaving only the bare propositional content for examination.
 
-**Details:**
+Details:
 
 The act of writing performs a kind of cognitive filtering. What appears on the page is the semantic content—the actual claim, idea, or proposition—divorced from the rich subjective experience that accompanied it in consciousness.
 

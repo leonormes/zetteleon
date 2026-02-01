@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-21T13:23:09Z
-epistemic: "example"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: "Provides detailed field-level reference for TCP/IP packet structure across all OSI layers"
-review_interval: ""
-see_also: ["[[Layer 3 Network Layer]]", "[[Layer 4 Transport Layer]]", "[[osi_layers]]", "[[Protocol Data Unit]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:37+00:00
 status: "evergreen"
 tags: ["SoftwareEngineering/Networking"]
 title: An Example of a Tcp Packet With All Layers
 type: "reference"
-uid: 
 updated: 
-version: ""
 ---
 
 ## TCP Packet Layers & Headers

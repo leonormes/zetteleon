@@ -1,22 +1,14 @@
 ---
 aliases: ["Bikeshedding"]
-confidence: ""
 created: 2025-08-23T17:07:03Z
 creation_date: "2025-08-23"
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T15:03:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:03+00:00
 status: ""
 tags: ["sociology", "TheHuman/Cognition/bias", "TheHuman/Psychology"]
 title: The Law of Triviality (Bikeshedding)
 type: "map"
-uid: 
 updated: 
-version: ""
 ---
 
 Coined by C. Northcote Parkinson, the Law of Triviality states that members of an organisation give disproportionate weight to trivial issues.
@@ -29,4 +21,4 @@ Bikeshedding is also driven by Focusing Illusion - when attention narrows to the
 
 The underlying mechanism connects to [[Flawed Mental Models Limit Mastery]] - when people lack adequate mental models for complex topics, they default to areas where their existing models feel sufficient, regardless of relative importance.
 
-**Links:** [[Contextual Myopia and Goal Displacement]], [[The Focusing Illusion]], [[Illusion of Explanatory Depth (IoED)]], [[Flawed Mental Models Limit Mastery]], [[Cognitive Dissonance]], [[SoT - Contextual Myopia and Human Behavior]], [[MOC Contextual Myopia]]
+Links: [[Contextual Myopia and Goal Displacement]], [[The Focusing Illusion]], [[Illusion of Explanatory Depth (IoED)]], [[Flawed Mental Models Limit Mastery]], [[Cognitive Dissonance]], [[SoT - Contextual Myopia and Human Behavior]], [[MOC Contextual Myopia]]

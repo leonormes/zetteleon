@@ -1,24 +1,17 @@
 ---
 aliases: ["Project Story"]
-confidence: "0.9"
 created: 2025-11-11T19:05:10Z
-epistemic: "principle"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:32+00:00
-purpose: "Defines a 'project story' as a tool for maintaining a project's narrative."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:37+00:00
 status: "seedling"
 tags: ["documentation", "project-management", "topic/productivity"]
 title: "A Project Story Tracks a Project's Evolving Vision"
 type: "strategy"
-uid: 
 updated: 
 ---
 
 ## A Project Story Tracks a Project's Evolving Vision
 
-**Summary:** A "project story" is a living document that tracks the evolving vision, key decisions, and breakthrough moments of a project over its lifecycle.
+Summary: A "project story" is a living document that tracks the evolving vision, key decisions, and breakthrough moments of a project over its lifecycle.
 
-**Details:** Unlike a simple log or changelog, a project story captures the narrative of the work. It answers questions like "What was the original idea?" and "When did that 'aha' moment happen?". Reviewing this story can help reconnect with the project's purpose and rekindle the initial excitement.
+Details: Unlike a simple log or changelog, a project story captures the narrative of the work. It answers questions like "What was the original idea?" and "When did that 'aha' moment happen?". Reviewing this story can help reconnect with the project's purpose and rekindle the initial excitement.

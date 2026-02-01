@@ -1,22 +1,14 @@
 ---
 aliases: ["Journey Over Destination", "Learning Process Value", "Process Focus"]
-confidence: "null"
 created: 2025-09-11T20:23:33Z
 creation_date: "2025-09-11T00:00:00.000Z"
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:28+00:00
 status: "null"
 tags: ["TheHuman/Health/ADHD", "TheHuman/Mindset", "TheHuman/Motivation", "topic/learning"]
 title: Process Over Outcome Mindset
 type: "permanent"
-uid: 
 updated: 
-version: "1"
 ---
 
 Focusing on the intrinsic value of the learning process itself rather than external outcomes or credentials creates a more sustainable and fulfilling approach to knowledge acquisition. This mindset celebrates the joy of understanding, the satisfaction of curiosity fulfilled, and the neurochemical rewards of discovery.

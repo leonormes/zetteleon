@@ -17,7 +17,7 @@ updated: 2026-01-08T12:46:00Z
 
 ## MOC - The Maffetone Method
 
-> **Inclusion criteria:** Atomic only; must be evergreen or growing.
+> Inclusion criteria: Atomic only; must be evergreen or growing.
 
 ### Core Concepts
 

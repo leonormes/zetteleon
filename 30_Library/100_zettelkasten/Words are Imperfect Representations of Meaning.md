@@ -1,21 +1,13 @@
 ---
 aliases: ["Word-as-Shadow Metaphor"]
-confidence: ""
 created: 2025-07-16T17:30:04Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:23+00:00
 status: ""
 tags: ["language", "metaphor", "paraphrasing", "topic/philosophy"]
 title: Words are Imperfect Representations of Meaning
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 A powerful metaphor for the relationship between language and meaning is that words are merely shadows of the true meaning they attempt to convey. A shadow is an incomplete, two-dimensional projection of a three-dimensional object, dependent on the angle of the light. Similarly, words are imperfect approximations of a rich, multi-faceted concept.

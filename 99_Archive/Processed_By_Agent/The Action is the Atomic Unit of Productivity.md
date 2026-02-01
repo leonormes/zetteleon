@@ -19,6 +19,6 @@ updated:
 
 ## The Action is the Atomic Unit of Productivity
 
-**Summary:** The fundamental building block of any effective productivity system is the "action"—a discrete, indivisible, and clearly defined step.
+Summary: The fundamental building block of any effective productivity system is the "action"—a discrete, indivisible, and clearly defined step.
 
-**Details:** This atomic unit is what transforms vague intentions into tangible progress. Without clearly defined actions, projects and goals remain abstract and difficult to move forward.
+Details: This atomic unit is what transforms vague intentions into tangible progress. Without clearly defined actions, projects and goals remain abstract and difficult to move forward.

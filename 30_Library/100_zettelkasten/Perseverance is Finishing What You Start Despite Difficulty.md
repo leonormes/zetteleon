@@ -1,21 +1,13 @@
 ---
 aliases: ["Grit", "Perseverance"]
-confidence: "1"
 created: 2025-11-01T21:21:00Z
-epistemic: "definition"
 last_reviewed: "2025-11-01"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "To define the character strength of perseverance."
-review_interval: "90"
-see_also: ["[[Inner Strength & Resilience Skills (Your Strong Spirit)]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:29+00:00
 status: "evergreen"
 tags: ["character-strength", "determination", "grit", "perseverance", "virtue"]
 title: Perseverance is Finishing What You Start Despite Difficulty
 type: "concept"
-uid: 
 updated: 
-version: "1"
 ---
 
 Perseverance, also known as grit, is the quality of finishing what you start, even when it becomes difficult or challenging.

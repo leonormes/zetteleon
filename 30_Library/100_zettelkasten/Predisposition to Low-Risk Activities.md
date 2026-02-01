@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-08-12T08:15:09Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:29+00:00
 status: ""
 tags: []
 title: Predisposition to Low-Risk Activities
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 This part of the statement is not supported by the sources and is, in fact, contradicted. The provided texts indicate that individuals with ADHD tend to be more inclined towards risk-taking and find "easy" tasks boring.

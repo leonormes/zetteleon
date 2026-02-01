@@ -19,7 +19,7 @@ updated:
 
 ## ADHD Brain Operates on an Interest-Based Nervous System
 
-**Summary:** The ADHD brain functions as an "interest-based nervous system," where motivation is regulated by intrinsic interest, novelty, or urgency rather than by perceived importance alone.
+Summary: The ADHD brain functions as an "interest-based nervous system," where motivation is regulated by intrinsic interest, novelty, or urgency rather than by perceived importance alone.
 
 ### The Mechanism
 
@@ -29,16 +29,16 @@ This phenomenon is linked to dopamine dysregulation. It explains why a software 
 
 A useful analogy for the ADHD brain vs. the Productivity System:
 
-- **The Interest-Based Brain (The Ferrari):** A high-performance engine that only drives to amusement parks (Novelty). It has no steering wheel; it goes where the dopamine is.
-- **The Importance-Based Goal (The Bank):** The boring but necessary destination (e.g., "Paying Bills", "Writing Documentation").
-- **The Productivity System (The Steering Wheel):** Logic and architecture (like [[SoT - PRODOS (System Architecture)|ProdOS]]) provide the steering wheel. They allow you to point the wheels toward the Bank.
+- The Interest-Based Brain (The Ferrari): A high-performance engine that only drives to amusement parks (Novelty). It has no steering wheel; it goes where the dopamine is.
+- The Importance-Based Goal (The Bank): The boring but necessary destination (e.g., "Paying Bills", "Writing Documentation").
+- The Productivity System (The Steering Wheel): Logic and architecture (like [[SoT - PRODOS (System Architecture)|ProdOS]]) provide the steering wheel. They allow you to point the wheels toward the Bank.
 
-**The Failure Mode:** You turn the wheel (Logic/Plan), but the engine stalls. You have Direction (Choice), but no Fuel (Dopamine). [[Logic Does Not Produce Dopamine]].
+The Failure Mode: You turn the wheel (Logic/Plan), but the engine stalls. You have Direction (Choice), but no Fuel (Dopamine). [[Logic Does Not Produce Dopamine]].
 
 ### The Solution: Transitioning Systems
 
-The goal of an effective ADHD system is not to force the brain to become "Importance-Based" (which is neurologically impossible), but to **bridge the gap**:
+The goal of an effective ADHD system is not to force the brain to become "Importance-Based" (which is neurologically impossible), but to bridge the gap:
 
-1. **Acknowledge:** The brain will never "want" to go to the bank.
-2. **Refactor:** Use the system to "re-skin" the boring task (The Bank) so it _looks_ like an amusement park (Mystery, Challenge, Spite).
-3. **Ignite:** This "Stimulus Injection" creates the necessary activation energy to move the Ferrari along the steered path.
+1. Acknowledge: The brain will never "want" to go to the bank.
+2. Refactor: Use the system to "re-skin" the boring task (The Bank) so it _looks_ like an amusement park (Mystery, Challenge, Spite).
+3. Ignite: This "Stimulus Injection" creates the necessary activation energy to move the Ferrari along the steered path.

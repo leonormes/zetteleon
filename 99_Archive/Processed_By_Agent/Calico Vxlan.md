@@ -50,11 +50,11 @@ Encapsulation of workload traffic is typically required only when traffic crosse
 
 ### Before You begin[​](#before-you-begin "Direct link to Before you begin")
 
-**Not supported**
+Not supported
 
 - Calico for OpenStack (i.e. when Calico is used as the Neutron plugin)
 
-**Limitations**
+Limitations
 
 - IP in IP supports only IPv4 addresses
 - VXLAN in IPv6 is only supported for kernel versions ≥ 4.19.1 or redhat kernel version ≥ 4.18.0
@@ -69,7 +69,7 @@ Encapsulation of workload traffic is typically required only when traffic crosse
 
 #### Best practice[​](#best-practice "Direct link to Best practice")
 
-Calico has an option to selectively encapsulate only traffic that crosses subnet boundaries. We recommend using the **cross-subnet** option with IP in IP or VXLAN to minimize encapsulation overhead. Cross-subnet mode provides better performance in AWS multi-AZ deployments, Azure VNETs, and on networks where routers are used to connect pools of nodes with L2 connectivity.
+Calico has an option to selectively encapsulate only traffic that crosses subnet boundaries. We recommend using the cross-subnet option with IP in IP or VXLAN to minimize encapsulation overhead. Cross-subnet mode provides better performance in AWS multi-AZ deployments, Azure VNETs, and on networks where routers are used to connect pools of nodes with L2 connectivity.
 
 Be aware that switching encapsulation modes can cause disruption to in-progress connections. Plan accordingly.
 

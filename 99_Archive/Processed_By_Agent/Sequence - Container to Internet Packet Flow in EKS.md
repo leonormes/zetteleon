@@ -26,7 +26,7 @@ updated:
 4. [[NAT Gateways Enable Private Resources to Access Internet]]
 5. [[Internet Gateway in AWS Networking]]
 
-**Key Points:**
+Key Points:
 
 - Dual NAT (kube-proxy + AWS NAT)
 - VPC routing determines path

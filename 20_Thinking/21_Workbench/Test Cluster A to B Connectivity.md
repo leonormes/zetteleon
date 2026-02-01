@@ -1,7 +1,7 @@
 ---
 captured: "2026-01-29T21:49:49+00:00 2026-01-29T21:49:49+00:00"
 created: 2026-01-29T21:49:54+00:00
-modified: 2026-01-30T12:19:08+00:00
+modified: 2026-02-01T15:09:09+00:00
 source: "https://gemini.google.com/share/82562a46a411"
 status: "phase-1"
 tags: ["input"]
@@ -200,9 +200,9 @@ If you want AWS to do the heavy lifting, run this to see exactly why a packet wo
 
 Would you like me to show you how to add an egress rule to your Security Group using the CLI if we find it's missing?
 
-SUBNET_ID=$(aws ec2 describe-instances 
+SUBNET_ID=$(aws ec2 describe-instances
 
---filters "Name=private-dns-name,Values=ip-10-65-4-177.eu-west-2.compute.internal" 
+--filters "Name=private-dns-name,Values=ip-10-65-4-177.eu-west-2.compute.internal"
 
 --query "Reservations[0].Instances[0].SubnetId" --output tsv)
 
@@ -249,11 +249,11 @@ Quick check: If that `SUBNET_ID` command still throws an error, run `aws --versi
 
 Would you like me to help you interpret the output of the Route Table once you've run it?
 
-SUBNET_ID=$(aws ec2 describe-instances 
+SUBNET_ID=$(aws ec2 describe-instances
 
---filters "Name=private-dns-name,Values=ip-10-65-4-177.eu-west-2.compute.internal" 
+--filters "Name=private-dns-name,Values=ip-10-65-4-177.eu-west-2.compute.internal"
 
---query "Reservations[0].Instances[0].SubnetId" 
+--query "Reservations[0].Instances[0].SubnetId"
 
 --output text)
 
@@ -261,11 +261,11 @@ echo $SUBNET_ID
 
 subnet-02b4bec3447cbbf9e
 
-ip-10-65-2-8% aws ec2 describe-route-tables 
+ip-10-65-2-8% aws ec2 describe-route-tables
 
---filters "Name=association.subnet-id,Values=$SUBNET_ID" 
+--filters "Name=association.subnet-id,Values=$SUBNET_ID"
 
---query "RouteTables[0].Routes" 
+--query "RouteTables[0].Routes"
 
 --output table
 
@@ -287,11 +287,11 @@ ip-10-65-2-8% aws ec2 describe-route-tables
 
 +----------------------+--------------------------+-------------------------+------------------------+--------------------+----------+
 
-ip-10-65-2-8% SG_IDS=$(aws ec2 describe-instances 
+ip-10-65-2-8% SG_IDS=$(aws ec2 describe-instances
 
---filters "Name=private-dns-name,Values=ip-10-65-4-177.eu-west-2.compute.internal" 
+--filters "Name=private-dns-name,Values=ip-10-65-4-177.eu-west-2.compute.internal"
 
---query "Reservations[0].Instances[0].SecurityGroups[].GroupId" 
+--query "Reservations[0].Instances[0].SecurityGroups[].GroupId"
 
 --output text)
 
@@ -299,9 +299,9 @@ for sg in $SG_IDS; do
 
 echo "--- Security Group: $sg ---"
 
-aws ec2 describe-security-groups --group-ids $sg 
+aws ec2 describe-security-groups --group-ids $sg
 
---query "SecurityGroups[0].IpPermissionsEgress" 
+--query "SecurityGroups[0].IpPermissionsEgress"
 
 --output table
 
@@ -409,11 +409,11 @@ Once you have the Public IP from Step 1, you'll need to confirm with the Cluster
 
 Would you like me to provide a command to check if there are any specific AWS PrivateLink or VPC Endpoints that might be intercepting this traffic if Cluster B is actually in the same region?
 
-SUBNET_ID=$(aws ec2 describe-instances 
+SUBNET_ID=$(aws ec2 describe-instances
 
---filters "Name=private-dns-name,Values=ip-10-65-4-177.eu-west-2.compute.internal" 
+--filters "Name=private-dns-name,Values=ip-10-65-4-177.eu-west-2.compute.internal"
 
---query "Reservations[0].Instances[0].SubnetId" 
+--query "Reservations[0].Instances[0].SubnetId"
 
 --output text)
 
@@ -421,11 +421,11 @@ echo $SUBNET_ID
 
 subnet-02b4bec3447cbbf9e
 
-ip-10-65-2-8% aws ec2 describe-route-tables 
+ip-10-65-2-8% aws ec2 describe-route-tables
 
---filters "Name=association.subnet-id,Values=$SUBNET_ID" 
+--filters "Name=association.subnet-id,Values=$SUBNET_ID"
 
---query "RouteTables[0].Routes" 
+--query "RouteTables[0].Routes"
 
 --output table
 
@@ -447,11 +447,11 @@ ip-10-65-2-8% aws ec2 describe-route-tables
 
 +----------------------+--------------------------+-------------------------+------------------------+--------------------+----------+
 
-ip-10-65-2-8% SG_IDS=$(aws ec2 describe-instances 
+ip-10-65-2-8% SG_IDS=$(aws ec2 describe-instances
 
---filters "Name=private-dns-name,Values=ip-10-65-4-177.eu-west-2.compute.internal" 
+--filters "Name=private-dns-name,Values=ip-10-65-4-177.eu-west-2.compute.internal"
 
---query "Reservations[0].Instances[0].SecurityGroups[].GroupId" 
+--query "Reservations[0].Instances[0].SecurityGroups[].GroupId"
 
 --output text)
 
@@ -459,9 +459,9 @@ for sg in $SG_IDS; do
 
 echo "--- Security Group: $sg ---"
 
-aws ec2 describe-security-groups --group-ids $sg 
+aws ec2 describe-security-groups --group-ids $sg
 
---query "SecurityGroups[0].IpPermissionsEgress" 
+--query "SecurityGroups[0].IpPermissionsEgress"
 
 --output table
 
@@ -531,21 +531,21 @@ done
 
 |+---------------------------------------------------------------------------------------------------+|
 
-ip-10-65-2-8% aws ec2 describe-nat-gateways 
+ip-10-65-2-8% aws ec2 describe-nat-gateways
 
---nat-gateway-ids nat-02c1a6d832f6683e5 
+--nat-gateway-ids nat-02c1a6d832f6683e5
 
---query "NatGateways[0].NatGatewayAddresses[0].PublicIp" 
+--query "NatGateways[0].NatGatewayAddresses[0].PublicIp"
 
 --output text
 
 13.42.119.194
 
-ip-10-65-2-8% aws ec2 describe-network-acls 
+ip-10-65-2-8% aws ec2 describe-network-acls
 
---filters "Name=association.subnet-id,Values=subnet-02b4bec3447cbbf9e" 
+--filters "Name=association.subnet-id,Values=subnet-02b4bec3447cbbf9e"
 
---query "NetworkAcls[0].Entries[?Egress==`true`]" 
+--query "NetworkAcls[0].Entries[?Egress==`true`]"
 
 --output table
 
@@ -565,11 +565,11 @@ ip-10-65-2-8% aws ec2 describe-network-acls
 
 +-----------+---------+-----------+--------------+--------------+
 
-ip-10-65-2-8% aws ec2 describe-nat-gateways 
+ip-10-65-2-8% aws ec2 describe-nat-gateways
 
---nat-gateway-ids nat-02c1a6d832f6683e5 
+--nat-gateway-ids nat-02c1a6d832f6683e5
 
---query "NatGateways[0].NatGatewayAddresses[0].PublicIp" 
+--query "NatGateways[0].NatGatewayAddresses[0].PublicIp"
 
 --output text
 

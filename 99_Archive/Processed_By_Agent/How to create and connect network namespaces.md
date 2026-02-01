@@ -18,7 +18,7 @@ updated:
 version: "null"
 ---
 
-**Links:**
+Links:
 
 - Up: [[MOC - Container Networking Model]]
 - Related: [[What is a network namespace]], [[How a veth pair connects two network namespaces]], [[How to set up a Linux bridge for container networking]]
@@ -53,7 +53,7 @@ ls -l /var/run/netns/
 # Shows namespace mount points
 ```
 
-**What Happens:**
+What Happens:
 
 - Kernel creates isolated network stack
 - New namespace starts with only loopback interface (down)
@@ -76,7 +76,7 @@ ip netns exec pod-red iptables -L
 # Empty chains
 ```
 
-**Initial State:**
+Initial State:
 
 - Only `lo` interface exists (DOWN)
 - No IP addresses assigned
@@ -101,7 +101,7 @@ ip netns exec pod-red ping -c 2 127.0.0.1
 
 ### Connection Method 1: Point-to-Point (Veth Pair)
 
-For **two namespaces** that need direct connectivity:
+For two namespaces that need direct connectivity:
 
 ```bash
 # 1. Create veth pair
@@ -129,11 +129,11 @@ ip -n pod-red route
 # 10.0.1.0/24 dev veth-red scope link
 ```
 
-**Result:** Two namespaces connected directly, no bridge needed.
+Result: Two namespaces connected directly, no bridge needed.
 
 ### Connection Method 2: Multi-Namespace (Bridge)
 
-For **multiple namespaces** that all need to communicate:
+For multiple namespaces that all need to communicate:
 
 ```bash
 # 1. Create a bridge on the host
@@ -172,11 +172,11 @@ ip netns exec pod-red ping -c 2 10.244.0.20  # pod-to-pod
 ip netns exec pod-red ping -c 2 10.244.0.1   # pod-to-gateway
 ```
 
-**Result:** Multiple namespaces connected via bridge, scalable architecture.
+Result: Multiple namespaces connected via bridge, scalable architecture.
 
 ### Connection Method 3: Namespace-to-Host
 
-For namespace connectivity to the **host namespace**:
+For namespace connectivity to the host namespace:
 
 ```bash
 # 1. Create veth pair (one end stays in host namespace)
@@ -198,7 +198,7 @@ ping 10.1.1.2  # Host to pod
 ip netns exec pod-red ping 10.1.1.1  # Pod to host
 ```
 
-**Result:** Namespace can communicate with host processes.
+Result: Namespace can communicate with host processes.
 
 ### Advanced: Executing Commands in Namespaces
 
@@ -234,7 +234,7 @@ ip netns del pod-red
 
 By default, namespaces inherit the host's `/etc/resolv.conf`. To isolate DNS (e.g., for a VPN or specific container config), Linux allows namespace-specific configuration.
 
-**Mechanism:**
+Mechanism:
 If a file exists at `/etc/netns/<NAMESPACE_NAME>/resolv.conf`, the kernel will automatically bind-mount it over `/etc/resolv.conf` when entering that namespace.
 
 ```bash
@@ -293,21 +293,21 @@ ip netns exec pod-blue curl 10.10.10.11:8000
 
 ### What This Enables
 
-- **Container isolation**: Each container gets its own network stack
-- **Kubernetes Pod networking**: Kubelet creates namespaces for each Pod
-- **Testing and debugging**: Manually replicate container networking for learning
-- **Custom network topologies**: Build complex multi-namespace scenarios
+- Container isolation: Each container gets its own network stack
+- Kubernetes Pod networking: Kubelet creates namespaces for each Pod
+- Testing and debugging: Manually replicate container networking for learning
+- Custom network topologies: Build complex multi-namespace scenarios
 
 ### What Breaks If This Fails
 
-- **Pod creation fails**: If namespace creation fails, Pod enters CrashLoopBackOff
-- **Network isolation lost**: Without namespaces, containers share host network
-- **IP conflicts**: Containers without namespaces cannot bind to same ports
-- **CNI plugin failures**: If CNI cannot create/access namespaces
+- Pod creation fails: If namespace creation fails, Pod enters CrashLoopBackOff
+- Network isolation lost: Without namespaces, containers share host network
+- IP conflicts: Containers without namespaces cannot bind to same ports
+- CNI plugin failures: If CNI cannot create/access namespaces
 
 ### How It Maps to Kubernetes
 
-**kubelet's Role:**
+kubelet's Role:
 
 1. Creates network namespace for Pod
 2. Invokes CNI plugin via `CNI ADD` command
@@ -319,7 +319,7 @@ ip netns exec pod-blue curl 10.10.10.11:8000
    - Configures routes
 4. Returns network config to kubelet
 
-**Pause Container:**
+Pause Container:
 
 - Kubernetes creates a "pause" container first
 - Pause container holds the network namespace open

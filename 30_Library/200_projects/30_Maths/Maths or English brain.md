@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-07-11T08:24:59Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:11+00:00
 status: ""
 tags: []
 title: Maths or English brain
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 There is no scientific evidence to support the myths that some people have a "maths brain" or that boys are naturally better at maths than girls; these ideas come from outdated stereotypes and a misunderstanding of how the brain learns.

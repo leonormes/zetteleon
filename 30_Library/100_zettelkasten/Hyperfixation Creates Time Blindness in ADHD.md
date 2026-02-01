@@ -1,37 +1,29 @@
 ---
 aliases: ["Loss of Time Awareness in ADHD", "Time Blindness During Hyperfocus"]
-confidence: "0.9"
 created: 2025-11-01T11:37:53Z
-epistemic: "fact"
 last_reviewed: "2025-11-01"
-modified: 2026-01-23T18:09:31+00:00
-purpose: "Describe the phenomenon of losing time awareness during ADHD hyperfixation."
-review_interval: "90"
-see_also: ["[[ADHD Hyperfixation-Burnout Cycle]]", "[[Hyperfixation and Neurotransmitter Flooding in ADHD]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: "seedling"
 tags: ["hyperfocus", "TheHuman/Cognition", "TheHuman/Health/ADHD", "time-perception"]
 title: Hyperfixation Creates Time Blindness in ADHD
 type: "concept"
-uid: 
 updated: 
-version: "1"
 ---
 
-**Summary:** During hyperfixation, people with ADHD become so absorbed in the activity that they lose track of time, may forget to eat, and neglect other responsibilities. The rest of the world and its demands seem to disappear into a fuzzy background.
+Summary: During hyperfixation, people with ADHD become so absorbed in the activity that they lose track of time, may forget to eat, and neglect other responsibilities. The rest of the world and its demands seem to disappear into a fuzzy background.
 
-**Characteristics:**
+Characteristics:
 
-- **Complete absorption:** The individual becomes entirely consumed by the hyperfixation target
-- **Time distortion:** Hours can pass feeling like minutes
-- **Neglect of basic needs:** Forgetting meals, sleep, bathroom breaks
-- **External world fades:** Other responsibilities, appointments, and social obligations become invisible
-- **Tunnel vision:** Only the object of hyperfixation exists in conscious awareness
+- Complete absorption: The individual becomes entirely consumed by the hyperfixation target
+- Time distortion: Hours can pass feeling like minutes
+- Neglect of basic needs: Forgetting meals, sleep, bathroom breaks
+- External world fades: Other responsibilities, appointments, and social obligations become invisible
+- Tunnel vision: Only the object of hyperfixation exists in conscious awareness
 
-**Neurological Basis:**
+Neurological Basis:
 
 This phenomenon is linked to the intense dopamine flooding that occurs during hyperfixation. The brain's reward system is so strongly engaged that it overrides normal time perception and awareness of bodily needs and external obligations.
 
-**Consequences:**
+Consequences:
 
 While this can lead to impressive productivity in the area of fixation, it often creates problems in other life areas—missed appointments, neglected relationships, poor self-care, and accumulated responsibilities that crash back into awareness when the hyperfixation ends.

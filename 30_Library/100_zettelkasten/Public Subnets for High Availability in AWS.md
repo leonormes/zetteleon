@@ -1,33 +1,25 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-24T14:25:58Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:28+00:00
 status: "null"
 tags: ["aws", "high-availability", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/cloud-networking", "subnets"]
 title: Public Subnets for High Availability in AWS
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
-**Public subnets** are subnets within a VPC that have a route to an Internet Gateway, allowing resources launched within them to communicate directly with the internet.
+Public subnets are subnets within a VPC that have a route to an Internet Gateway, allowing resources launched within them to communicate directly with the internet.
 
 For high availability, it is a best practice to:
 
 - Create at least two public subnets.
-- Place these subnets in **different Availability Zones (AZs)** within the same AWS Region. This ensures that if one AZ experiences an outage, your application remains accessible through resources in another AZ.
+- Place these subnets in different Availability Zones (AZs) within the same AWS Region. This ensures that if one AZ experiences an outage, your application remains accessible through resources in another AZ.
 - Assign appropriate IP ranges (e.g., `10.0.1.0/24`, `10.0.2.0/24`) from the VPC's CIDR block to each subnet.
 
 ALBs are typically deployed across multiple public subnets to achieve fault tolerance.
 
 ---
 
-**Related:** [[VPC Setup for AWS ALB]], AWS Availability Zones, High Availability Concepts
+Related: [[VPC Setup for AWS ALB]], AWS Availability Zones, High Availability Concepts

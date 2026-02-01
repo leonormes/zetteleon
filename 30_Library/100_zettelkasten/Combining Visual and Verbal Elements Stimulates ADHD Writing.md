@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-30T12:10:05Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:35+00:00
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
-source_of_truth: []
 status: "seedling"
 tags: ["TheHuman/Creativity", "TheHuman/Health/ADHD", "visual-thinking", "writing"]
 title: Combining Visual and Verbal Elements Stimulates ADHD Writing
 type: "concept"
-uid: 
 updated: 
 ---
 

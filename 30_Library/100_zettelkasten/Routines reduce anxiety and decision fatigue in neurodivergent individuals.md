@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-30T16:20:00Z
-epistemic: "fact"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
+modified: 2026-02-01T15:08:28+00:00
 source: ""
-source_of_truth: []
 status: "seedling"
 tags: ["anxiety-reduction", "autism", "decision-fatigue", "TheHuman/Health/ADHD"]
 title: Routines reduce anxiety and decision fatigue in neurodivergent individuals
 type: "concept"
-uid: 
 updated: 
 ---
 

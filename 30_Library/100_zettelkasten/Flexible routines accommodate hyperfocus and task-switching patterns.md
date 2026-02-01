@@ -1,20 +1,13 @@
 ---
 aliases: ["Accommodates ADHD patterns", "Flexible for hyperfocus"]
-confidence: ""
 created: 2025-10-30T17:37:00Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:33+00:00
 source: "[[MOC - How To Create And Use Mini Routines]]"
-source_of_truth: []
 status: "seedling"
 tags: ["flexibility", "hyperfocus", "task-switching", "TheHuman/Health/ADHD"]
 title: Flexible routines accommodate hyperfocus and task-switching patterns
 type: "concept"
-uid: 
 updated: 
 ---
 

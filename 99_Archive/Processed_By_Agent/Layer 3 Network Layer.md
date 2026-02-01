@@ -20,6 +20,6 @@ version: ""
 
 The Network Layer handles routing of data packets. It determines the best path for data to travel from source to destination. IP addresses are used at this layer.
 
-- **Problem Solved:** Enables data to travel across different networks, ensuring that it reaches the correct destination.
+- Problem Solved: Enables data to travel across different networks, ensuring that it reaches the correct destination.
 
 [[OSI model]]

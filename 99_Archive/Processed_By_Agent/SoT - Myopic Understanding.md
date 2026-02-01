@@ -21,7 +21,7 @@ updated:
 
 Evolutionarily, the brain is a [[The Brain as a Distributed Prediction Machine|prediction machine]].
 
-- **Prediction:** The goal of "understanding" is to minimize [[SoT - Predictive Processing & The Bayesian Brain|Prediction Error]].
-- **Causality:** A wider view (higher abstraction) allows us to see longer chains of cause-and-effect ("If I do X, Y will happen").
-- **Deep Understanding:** Beyond simple prediction, deep understanding reveals the _mechanism_ of causality. This insight into _how_ elements interact is crucial for systemic comprehension and effective problem-solving (intervention), rather than just passive forecasting.
-- **Myopia's Cost:** When our view is too narrow (myopic), we fail to predict second-order consequences, leading to errors in judgment.
+- Prediction: The goal of "understanding" is to minimize [[SoT - Predictive Processing & The Bayesian Brain|Prediction Error]].
+- Causality: A wider view (higher abstraction) allows us to see longer chains of cause-and-effect ("If I do X, Y will happen").
+- Deep Understanding: Beyond simple prediction, deep understanding reveals the _mechanism_ of causality. This insight into _how_ elements interact is crucial for systemic comprehension and effective problem-solving (intervention), rather than just passive forecasting.
+- Myopia's Cost: When our view is too narrow (myopic), we fail to predict second-order consequences, leading to errors in judgment.

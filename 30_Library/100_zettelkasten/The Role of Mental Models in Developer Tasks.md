@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-26T20:29:48Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: ""
 tags: []
 title: The Role of Mental Models in Developer Tasks
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Mental models are indispensable for a wide range of software development activities:

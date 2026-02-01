@@ -19,13 +19,13 @@ updated:
 
 ## AWS ENIs Connect EKS Worker Nodes to VPC Networks
 
-**Summary:** Elastic Network Interfaces (ENIs) provide VPC connectivity for EKS worker nodes by:
+Summary: Elastic Network Interfaces (ENIs) provide VPC connectivity for EKS worker nodes by:
 
 - Assigning private IPs from subnet
 - Enabling security group attachment
 - Supporting multiple IP addresses
 
-**EKS Usage:**
+EKS Usage:
 
 - Primary ENI for node communication
 - Additional ENIs for pod networking (when using certain CNIs)

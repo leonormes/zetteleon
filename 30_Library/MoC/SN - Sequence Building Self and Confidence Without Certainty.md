@@ -1,22 +1,15 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-11-01T09:51:13Z
 criteria: "Include concepts that address the philosophical problem of building identity after loss of absolute certainty"
-epistemic: ""
 exclusions: "Does not cover empirical psychology research or therapeutic interventions"
 last_reviewed: ""
-modified: 2026-01-08T15:03:31+00:00
-purpose: ""
-review_interval: ""
+modified: 2026-02-01T15:08:03+00:00
 scope: "Traces the logical sequence from recognizing arbitrariness to reconstructing confidence through pragmatic frameworks"
-see_also: []
-source_of_truth: []
 status: "seedling"
 tags: ["confidence", "epistemology", "sequence", "structural", "TheHuman/Identity", "uncertainty"]
 title: SN - Sequence Building Self and Confidence Without Certainty
 type: "map"
-uid: 
 updated: 
 ---
 
@@ -77,30 +70,30 @@ The sequence culminates in rebuilding stable confidence without certainty:
 
 ### Summary of Typed Relationships
 
-**Epistemic foundations:**
+Epistemic foundations:
 
 - [[The Map is Not the Territory]] rel:: supports [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]]
 - [[Social Constructs Have Real Effects Despite Lacking Objective Truth]] rel:: establishes [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]]
 
-**Self-construction:**
+Self-construction:
 
 - [[The Self is Constructed Through Curation of Influences]] rel:: establishes [[Originality is Synthesis Not Creation From Nothing]]
 - [[Originality is Synthesis Not Creation From Nothing]] rel:: supports [[Jazz Musician Metaphor for Originality Through Unique Expression]]
 - [[Narrative Identity is the Story We Construct About Our Experiences]] rel:: supports [[Ship of Theseus as Model for Constructed Self]]
 
-**Values and direction:**
+Values and direction:
 
 - [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]] rel:: leads-to [[Values Serve as Navigational Compass in Absence of Absolute Truth]]
 - [[Existentialism - Existence Precedes Essence]] rel:: supports [[Values Serve as Navigational Compass in Absence of Absolute Truth]]
 - [[Values Serve as Navigational Compass in Absence of Absolute Truth]] rel:: supports [[Integrity Means Acting in Accordance With Chosen Values]]
 
-**Operational tools:**
+Operational tools:
 
 - [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]] rel:: supports [[Strong Opinions Loosely Held Balances Confidence With Humility]]
 - [[Strong Opinions Loosely Held Balances Confidence With Humility]] rel:: supports [[Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels]]
 - [[Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels]] rel:: leads-to [[Bayesian Updating Adjusts Beliefs as New Evidence Arrives]]
 
-**Grounding:**
+Grounding:
 
 - [[Anti-Fragility Means Systems That Benefit From Volatility]] rel:: supports [[Confidence as Trust in Process Not Certainty in Outcomes]]
 - [[Embodied Confidence Comes From Direct Feedback in Physical Skills]] rel:: supports [[Confidence as Trust in Process Not Certainty in Outcomes]]

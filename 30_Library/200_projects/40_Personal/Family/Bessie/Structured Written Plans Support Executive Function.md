@@ -1,21 +1,13 @@
 ---
 aliases: ["Planning in Writing for ADHD"]
-confidence: ""
 created: 2025-07-18T00:00:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: []
 title: Structured Written Plans Support Executive Function
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 For multi-step projects or complex problems, creating structured written plans is a critical support strategy for individuals like Bessie who face executive function challenges.

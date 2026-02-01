@@ -1,6 +1,6 @@
 ---
 created: 2026-01-11T18:00:10+00:00
-modified: 2026-01-23T18:09:32+00:00
+modified: 2026-02-01T15:09:13+00:00
 title: sys_executor_parser
 ---
 
@@ -49,10 +49,10 @@ You must output a JSON object containing an array of `actions`.
 
 ### Rules
 
-1. **Path Resolution:** If the plan says `[[Note Name]]`, infer the likely path.
+1. Path Resolution: If the plan says `[[Note Name]]`, infer the likely path.
     - SoT notes go in `30_Library/SoT/`.
     - Protocols go in `30_Library/SoT/` (or `30_Library/Protocols/` if that exists, default to SoT).
     - MOCs go in `30_Library/MoC/`.
     - Inbox notes are likely in `00_Inbox/`.
-2. **Dependencies:** If a delete action is nested under a merge action, group them or imply the delete happens after the merge. In the JSON, simply list the `sources` for a merge; the system will handle archiving/deletion options later. Explicit `delete` actions in the plan can be ignored if they are just cleanup for a merge, BUT if they are standalone, include them.
-3. **Strict JSON:** Output only valid JSON.
+2. Dependencies: If a delete action is nested under a merge action, group them or imply the delete happens after the merge. In the JSON, simply list the `sources` for a merge; the system will handle archiving/deletion options later. Explicit `delete` actions in the plan can be ignored if they are just cleanup for a merge, BUT if they are standalone, include them.
+3. Strict JSON: Output only valid JSON.

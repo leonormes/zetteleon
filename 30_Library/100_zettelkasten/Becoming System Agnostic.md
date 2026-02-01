@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-04-30T01:58:44Z
-epistemic: ""
 id: "Becoming tool agnostic"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:36+00:00
 status: ""
 tags: ["dependencies", "simple", "topic/systems"]
 title: Becoming System Agnostic
 type: "permanent"
-uid: 
 updated: 
-version: ""
 ---
 
 [[I Don't Like Dependencies]].

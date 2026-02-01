@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-03-05T12:36:53Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:27+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:18+00:00
 status: ""
 tags: ["gitops", "IAM"]
 title: Plan for Migrating Entra ID User Management to Terraform GitOps with Least Privileg
 type: "plan"
-uid: 
 updated: 
-version: "1"
 ---
 
 This plan assumes you'll be using Terraform to define the desired state of your Entra ID users and their privileges within a GitLab repository. Changes to user privileges will then be made by modifying these Terraform configurations and applying them via a GitOps pipeline, ideally using Terraform Cloud.

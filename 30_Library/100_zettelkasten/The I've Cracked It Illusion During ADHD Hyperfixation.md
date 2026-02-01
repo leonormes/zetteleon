@@ -1,26 +1,18 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-11-01T11:37:53Z
-epistemic: "fact"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:25+00:00
 status: "seedling"
 tags: []
 title: "The I've Cracked It Illusion During ADHD Hyperfixation"
 type: "concept"
-uid: 
 updated: 
-version: "1"
 ---
 
-**Summary:** During the intense period of hyperfixation, the clarity and motivation are so profound that people with ADHD often believe they've finally found their "one true passion." They may declare the new interest as their career path, life's hobby, or the system that will finally organize their life.
+Summary: During the intense period of hyperfixation, the clarity and motivation are so profound that people with ADHD often believe they've finally found their "one true passion." They may declare the new interest as their career path, life's hobby, or the system that will finally organize their life.
 
-**Why It Feels So Real:**
+Why It Feels So Real:
 
 This feeling is genuine and powerful, fueled by the neurological state the person is in:
 
@@ -30,7 +22,7 @@ This feeling is genuine and powerful, fueled by the neurological state the perso
 - Past failed interests are forgotten in the moment
 - The present engagement feels qualitatively different from previous interests
 
-**Investment Phase:**
+Investment Phase:
 
 Because the conviction is so strong, individuals may:
 
@@ -40,7 +32,7 @@ Because the conviction is so strong, individuals may:
 - Commit significant time and energy
 - Tell others this is "the real thing" this time
 
-**The Aftermath:**
+The Aftermath:
 
 When the hyperfixation crashes and the interest becomes "vague and empty," the person is left with:
 
@@ -49,7 +41,7 @@ When the hyperfixation crashes and the interest becomes "vague and empty," the p
 - Self-doubt about ever finding a true passion
 - Confusion about why this felt so different but ended the same way
 
-**Pattern Recognition:**
+Pattern Recognition:
 
 Over time, recognizing this pattern can help individuals:
 

@@ -19,6 +19,6 @@ updated:
 
 ## True Behavior Change is Identity Change
 
-**Summary:** The most effective and lasting form of behavior change occurs not by focusing on outcomes or processes, but by changing one's identity.
+Summary: The most effective and lasting form of behavior change occurs not by focusing on outcomes or processes, but by changing one's identity.
 
-**Details:** This principle shifts the focus from what you want to achieve to who you wish to become. When you change your underlying beliefs about yourself, the behaviors that align with that new identity follow naturally.
+Details: This principle shifts the focus from what you want to achieve to who you wish to become. When you change your underlying beliefs about yourself, the behaviors that align with that new identity follow naturally.

@@ -19,6 +19,6 @@ updated:
 
 ## Identity-Based Habits Are the Most Profound Level of Change
 
-**Summary:** The most profound and sustainable change occurs when you shift your focus from outcome-based habits (what you want to achieve) to identity-based habits (who you wish to become).
+Summary: The most profound and sustainable change occurs when you shift your focus from outcome-based habits (what you want to achieve) to identity-based habits (who you wish to become).
 
-**Details:** An outcome-based approach focuses on a goal, like "I want to write a book." An identity-based approach focuses on becoming the type of person who achieves such goals, like "I am a writer." This shift reframes your habits as affirmations of your identity, making them more intrinsic and durable. The goal is not the prize; the prize is becoming the kind of person who can achieve those goals.
+Details: An outcome-based approach focuses on a goal, like "I want to write a book." An identity-based approach focuses on becoming the type of person who achieves such goals, like "I am a writer." This shift reframes your habits as affirmations of your identity, making them more intrinsic and durable. The goal is not the prize; the prize is becoming the kind of person who can achieve those goals.

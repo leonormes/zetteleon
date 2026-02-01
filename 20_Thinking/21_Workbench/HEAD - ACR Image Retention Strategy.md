@@ -1,20 +1,13 @@
 ---
 aliases: []
 AoL: Work
-confidence:
 created: 2025-12-08T00:00:00Z
-epistemic:
 last_reviewed:
-modified: 2025-12-23T17:53:54Z
-purpose: To design a strategy for cleaning up old Docker images in ACR based on semantic versioning or usage, not just time.
-review_interval:
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:11+00:00
 status: someday
 tags: [acr, cleanup, devops, head, thinking]
 title: HEAD - ACR Image Retention Strategy
 type: head
-uid:
 updated:
 ---
 
@@ -26,15 +19,15 @@ Time-based retention deletes infrequently updated but valid "latest" images. We 
 
 ## My Current Model
 
-- **Problem:** `ACR Purge` usually works on `last_updated` timestamp.
-- **Requirement:** Keep the "Semantic Latest" (e.g., v1.2.3) and maybe the last N versions, regardless of age.
-- **Idea:** Use a script or a more advanced policy that parses tags (SemVer) to decide what to keep.
+- Problem: `ACR Purge` usually works on `last_updated` timestamp.
+- Requirement: Keep the "Semantic Latest" (e.g., v1.2.3) and maybe the last N versions, regardless of age.
+- Idea: Use a script or a more advanced policy that parses tags (SemVer) to decide what to keep.
 
 ## The Tension
 
-- **Risk:** Deleting a production image that is old but currently running.
-- **Complexity:** Parsing SemVer in a bash/ACR task script is fragile.
-- **Untagged Images:** These should be easy to delete (dangling), but tagged ones are the challenge.
+- Risk: Deleting a production image that is old but currently running.
+- Complexity: Parsing SemVer in a bash/ACR task script is fragile.
+- Untagged Images: These should be easy to delete (dangling), but tagged ones are the challenge.
 
 ## The Next Test
 

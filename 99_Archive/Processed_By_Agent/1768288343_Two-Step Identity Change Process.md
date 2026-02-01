@@ -18,55 +18,55 @@ updated:
 version: "1"
 ---
 
-**Summary:** The simplest path to changing who you are is a two-step process: (1) Decide the type of person you want to be, and (2) Prove it to yourself with small wins. This framework makes identity change concrete and actionable.
+Summary: The simplest path to changing who you are is a two-step process: (1) Decide the type of person you want to be, and (2) Prove it to yourself with small wins. This framework makes identity change concrete and actionable.
 
-**Step 1: Decide the Type of Person You Want to Be**
+Step 1: Decide the Type of Person You Want to Be
 
 This is about defining your desired identity, not your goals:
 
-**Methods for Deciding:**
+Methods for Deciding:
 
-- **Direct Declaration:** "I'm the type of person who is consistent and reliable"
-- **Question-Based:** "What would a healthy person do?" or "What would a writer do?"
-- **Values-Based:** "I want to be someone who values learning and growth"
-- **Role Model:** "I want to be the kind of parent/leader/friend who..."
+- Direct Declaration: "I'm the type of person who is consistent and reliable"
+- Question-Based: "What would a healthy person do?" or "What would a writer do?"
+- Values-Based: "I want to be someone who values learning and growth"
+- Role Model: "I want to be the kind of parent/leader/friend who..."
 
-**Key Principle:** Focus on the _who_, not the _what_. Not "I want to lose 20 pounds" but "Who is the type of person who could maintain a healthy weight?"
+Key Principle: Focus on the _who_, not the _what_. Not "I want to lose 20 pounds" but "Who is the type of person who could maintain a healthy weight?"
 
-**Step 2: Prove It to Yourself with Small Wins**
+Step 2: Prove It to Yourself with Small Wins
 
 Take tiny actions that reinforce the desired identity:
 
-**How Small Wins Work:**
+How Small Wins Work:
 
-- **Tiny Actions:** Not "write a novel" but "write 100 words"
-- **Consistent Frequency:** Daily proof is more powerful than occasional big actions
-- **Self-Evidence:** Each action says "this is who I am"
-- **Accumulation:** Small wins stack into undeniable proof
+- Tiny Actions: Not "write a novel" but "write 100 words"
+- Consistent Frequency: Daily proof is more powerful than occasional big actions
+- Self-Evidence: Each action says "this is who I am"
+- Accumulation: Small wins stack into undeniable proof
 
-**Examples in Practice:**
+Examples in Practice:
 
-**Want to become a writer?**
+Want to become a writer?
 
 - Step 1: "I am a writer"
 - Step 2: Write 100 words daily (proof through action)
 
-**Want to become fit?**
+Want to become fit?
 
 - Step 1: "I am an athlete"
 - Step 2: Do 10 pushups every morning (proof through action)
 
-**Want to become organized?**
+Want to become organized?
 
 - Step 1: "I am someone who keeps their space organized"
 - Step 2: Make your bed every morning (proof through action)
 
-**Why This Works:**
+Why This Works:
 
-- **Step 1** gives direction and clarity about who you're becoming
-- **Step 2** provides the evidence your brain needs to believe Step 1
+- Step 1 gives direction and clarity about who you're becoming
+- Step 2 provides the evidence your brain needs to believe Step 1
 - Together, they create the identity-behavior feedback loop
 
-**The Beauty of Simplicity:**
+The Beauty of Simplicity:
 
 This two-step process cuts through complexity. You don't need elaborate plans or perfect conditions. Decide who you want to be, then start proving it—one small action at a time.

@@ -1,21 +1,13 @@
 ---
 aliases: ["Action Triggers"]
-confidence: "1"
 created: 2025-11-01T20:39:00Z
-epistemic: "tool"
 last_reviewed: "2025-11-01"
-modified: 2026-01-23T18:09:32+00:00
-purpose: "To explain how to use action triggers to transition from motion to action."
-review_interval: "90"
-see_also: ["[[Implementation Intentions]]", "[[Motion Can Be a Procrastination Delay Tactic]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:37+00:00
 status: "evergreen"
 tags: ["implementation-intentions", "procrastination", "TheHuman/Habits", "topic/productivity"]
 title: Action Triggers Bridge the Gap Between Motion and Action
 type: "tool"
-uid: 
 updated: 
-version: "1"
 ---
 
 An action trigger is a pre-defined rule that forces a transition from motion to action. It serves as a clear boundary that prevents the preparatory phase from extending indefinitely.
@@ -24,8 +16,8 @@ This concept is similar to an [[Implementation Intentions]], which takes the for
 
 Examples of action triggers:
 
-- **For writing:** "After I have outlined three bullet points, I will start writing the first paragraph."
-- **For sales:** "After I have identified five potential clients, I will call the first one."
-- **For coding:** "After I have researched one possible solution for 15 minutes, I will start implementing it."
+- For writing: "After I have outlined three bullet points, I will start writing the first paragraph."
+- For sales: "After I have identified five potential clients, I will call the first one."
+- For coding: "After I have researched one possible solution for 15 minutes, I will start implementing it."
 
 By defining these triggers in advance, the decision to act is removed from the moment, bypassing the potential for fear or uncertainty to lead to further procrastination.

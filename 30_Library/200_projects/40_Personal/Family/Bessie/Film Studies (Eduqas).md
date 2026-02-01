@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-20T20:06:37Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: ["TheHuman/Family/Bessie"]
 title: Film Studies (Eduqas)
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 - Curriculum Content: The course explores US film (mainstream and independent), global cinema (English and non-English language), and contemporary UK film, focusing on genre, narrative, representation, style, cinematography, mise-en-scène, editing, and sound. It includes a practical production component (screenplay or film sequence with evaluative analysis).

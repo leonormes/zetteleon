@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-07-07T07:10:22Z
-epistemic: ""
 id: "Destructuring fixed mindset"
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: []
 title: Destructuring fixed mindset
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 What you have described is the painful, internal legacy of being a neurodivergent person in a world not built for you. Your perfectionism, the constant comparison, the drive to be "above reproach"–these are not character flaws. They are scars. They are the armour you built to protect yourself in a world where you felt different and unsupported.

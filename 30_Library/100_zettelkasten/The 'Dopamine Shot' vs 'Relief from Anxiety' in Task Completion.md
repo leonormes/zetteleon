@@ -1,21 +1,13 @@
 ---
 aliases: ["ADHD Reward Experience"]
-confidence: "null"
 created: 2025-07-16T17:30:01Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:26+00:00
 status: "null"
 tags: ["dopamine", "neurotypical", "reward-system", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
 title: "The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion"
 type: "permanent"
-uid: 
 updated: 
-version: "1"
 ---
 
 A critical distinction in motivational processing between ADHD and neurotypical brains lies in the subjective experience of completing a task.

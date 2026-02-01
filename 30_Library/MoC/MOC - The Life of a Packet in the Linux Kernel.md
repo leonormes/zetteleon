@@ -1,32 +1,25 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-11-22T15:00:13Z
-epistemic: "NA"
 last_reviewed: "2025-11-22"
-modified: 2026-01-08T15:03:30+00:00
-purpose: "Maps the journey of a network packet through the Linux kernel subsystems."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:05+00:00
 status: "seedling"
 tags: ["SoftwareEngineering/Networking"]
 title: MOC - The Life of a Packet in the Linux Kernel
 type: "map"
-uid: 
 updated: 
 ---
 
 ## MOC - The Life of a Packet in the Linux Kernel
 
-**Summary:** This map simplifies the complex path a data packet takes through the Linux kernel, covering the transition from user-space application data to electrical signals on the wire and back again.
+Summary: This map simplifies the complex path a data packet takes through the Linux kernel, covering the transition from user-space application data to electrical signals on the wire and back again.
 
 ### High-Level Flow
 
 The journey of a packet is a pipeline of well-defined steps managed by the kernel's networking stack.
 
-1. **Transmit:** App $\to$ TCP/IP Stack $\to$ Routing $\to$ Neighbor Lookup $\to$ Queuing $\to$ NIC.
-2. **Receive:** NIC $\to$ Ring Buffer $\to$ NAPI $\to$ Routing/Filter $\to$ Socket $\to$ App.
+1. Transmit: App $\to$ TCP/IP Stack $\to$ Routing $\to$ Neighbor Lookup $\to$ Queuing $\to$ NIC.
+2. Receive: NIC $\to$ Ring Buffer $\to$ NAPI $\to$ Routing/Filter $\to$ Socket $\to$ App.
 
 ### Part 1 - Transmit: from `write()` to the Wire
 
@@ -34,8 +27,8 @@ The journey of a packet is a pipeline of well-defined steps managed by the kerne
 
 The process begins when an application writes data to a [[Concept - Network Socket|socket]]. The kernel accepts this buffer and prepares it for transmission.
 
-- **Segmentation:** TCP breaks the buffer into segments. The size is determined by the [[Concept - Maximum Transmission Unit vs Maximum Segment Size|Maximum Segment Size (MSS)]], which is negotiated during the [[Concept - TCP Three-Way Handshake|TCP three-way handshake]].
-- **State:** THe kernel tracks sequence numbers and congestion windows for the connection.
+- Segmentation: TCP breaks the buffer into segments. The size is determined by the [[Concept - Maximum Transmission Unit vs Maximum Segment Size|Maximum Segment Size (MSS)]], which is negotiated during the [[Concept - TCP Three-Way Handshake|TCP three-way handshake]].
+- State: THe kernel tracks sequence numbers and congestion windows for the connection.
 
 #### 2. Routing Decision
 
@@ -69,7 +62,7 @@ When frames arrive, the NIC writes them to memory. To avoid overwhelming the CPU
 
 The kernel validates the IP header. This is where [[Concept - Netfilter Hooks]] (used by iptables/nftables) come into play.
 
-- **PREROUTING/INPUT:** Packets are filtered or improperly routed packets are modified (DNAT) here.
+- PREROUTING/INPUT: Packets are filtered or improperly routed packets are modified (DNAT) here.
 - The kernel checks if the packet is for the local machine or needs to be forwarded (acting as a router).
 
 #### 3. TCP Reassembly
@@ -78,6 +71,6 @@ The TCP stack reorders segments, handles ACKs, and eventually wakes the applicat
 
 ### Concepts and Edge Cases
 
-- **Local Traffic:** Traffic sent to `127.0.0.1` uses the [[Concept - Loopback Interface]], bypassing the physical NIC entirely for high speed.
-- **Device Roles:** It is important to distinguish between switching and routing. A [[Concept - Network Bridge vs Router|bridge operates at Layer 2, while a router operates at Layer 3]].
-- **Protocols:** While TCP is complex and stateful, [[Concept - UDP vs TCP|UDP]] offers a simpler, connectionless alternative for different use cases.
+- Local Traffic: Traffic sent to `127.0.0.1` uses the [[Concept - Loopback Interface]], bypassing the physical NIC entirely for high speed.
+- Device Roles: It is important to distinguish between switching and routing. A [[Concept - Network Bridge vs Router|bridge operates at Layer 2, while a router operates at Layer 3]].
+- Protocols: While TCP is complex and stateful, [[Concept - UDP vs TCP|UDP]] offers a simpler, connectionless alternative for different use cases.

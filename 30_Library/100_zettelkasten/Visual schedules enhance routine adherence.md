@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-30T16:24:00Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:24+00:00
 source: "[[MOC - Why Autistics and ADHDers NEED Routines]]"
-source_of_truth: []
 status: "seedling"
 tags: ["external-scaffolding", "routine-adherence", "visual-aids"]
 title: Visual schedules enhance routine adherence
 type: "concept"
-uid: 
 updated: 
 ---
 

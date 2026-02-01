@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-09-19T10:57:06Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:12+00:00
 status: ""
 tags: []
 title: Go Functions
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 I'll explain this Go function step by step, focusing on the syntax and concepts that might be new to you!
@@ -26,17 +18,17 @@ I'll explain this Go function step by step, focusing on the syntax and concepts 
 func (s *applicationService) CompareChart(ctx context.Context, chart config.Chart) (config.ChartComparisonResult, error) {
 ```
 
-**Breaking this down:**
+Breaking this down:
 
 - `func` - keyword to declare a function
-- `(s *applicationService)` - this is a **method receiver**. It means this function "belongs to" the [applicationService](cci:2://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Tools/chart-manager/internal/appservice/application_service.go:28:0-33:1) type. Think of it like a method in a class in other languages
+- `(s *applicationService)` - this is a method receiver. It means this function "belongs to" the [applicationService](cci:2://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Tools/chart-manager/internal/appservice/application_service.go:28:0-33:1) type. Think of it like a method in a class in other languages
 - `s` - the variable name for the receiver (like `this` or `self` in other languages)
 - `*applicationService` - pointer to an applicationService struct
 - [CompareChart](cci:1://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Tools/chart-manager/internal/appservice/application_service.go:19:1-20:92) - the function name
-- `(ctx context.Context, chart config.Chart)` - **parameters**:
+- `(ctx context.Context, chart config.Chart)` - parameters:
   - `ctx context.Context` - context for cancellation/timeouts
   - `chart config.Chart` - a chart configuration struct
-- `(config.ChartComparisonResult, error)` - **return types** (Go can return multiple values!)
+- `(config.ChartComparisonResult, error)` - return types (Go can return multiple values!)
 
 ## Function Body Walkthrough
 
@@ -62,14 +54,14 @@ if err != nil {
 result.UpstreamVersion = upstreamVersion
 ```
 
-**Key Go concepts here:**
+Key Go concepts here:
 
-- **Multiple return values**: [getUpstreamChartVersion](cci:1://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Tools/chart-manager/internal/appservice/application_service.go:153:0-162:1) returns `(string, error)`
-- **Error handling pattern**: In Go, functions return an error as the last value
+- Multiple return values: [getUpstreamChartVersion](cci:1://file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Tools/chart-manager/internal/appservice/application_service.go:153:0-162:1) returns `(string, error)`
+- Error handling pattern: In Go, functions return an error as the last value
 - `if err!= nil` - standard Go error checking pattern
 - `fmt.Errorf` - creates a formatted error message
 - `%w` - wraps the original error (Go 1.13+ feature)
-- **Early return**: If there's an error, return immediately
+- Early return: If there's an error, return immediately
 
 ### 3. Get ACR Version
 
@@ -102,11 +94,11 @@ return result, nil
 
 - Calls another method to compare versions
 - Same error handling pattern
-- **Final return**: `return result, nil` means "return the result and no error"
+- Final return: `return result, nil` means "return the result and no error"
 
 ## Go-Specific Concepts Explained
 
-### 1. **Method Receivers**
+### 1. Method Receivers
 
 ```go
 func (s *applicationService) CompareChart(...)
@@ -119,7 +111,7 @@ service := &applicationService{}
 result, err := service.CompareChart(ctx, chart)
 ```
 
-### 2. **Multiple Return Values**
+### 2. Multiple Return Values
 
 ```go
 (config.ChartComparisonResult, error)
@@ -127,7 +119,7 @@ result, err := service.CompareChart(ctx, chart)
 
 Go functions can return multiple values. This is commonly used for returning a result and an error.
 
-### 3. **Error Handling Pattern**
+### 3. Error Handling Pattern
 
 ```go
 result, err := someFunction()
@@ -139,7 +131,7 @@ if err != nil {
 
 This is the standard Go way to handle errors - explicit checking rather than exceptions.
 
-### 4. **Struct Field Access**
+### 4. Struct Field Access
 
 ```go
 result.UpstreamVersion = upstreamVersion
@@ -147,17 +139,17 @@ result.UpstreamVersion = upstreamVersion
 
 Use dot notation to access struct fields, similar to other languages.
 
-### 5. **Pointer Receiver**
+### 5. Pointer Receiver
 
 The `*applicationService` means this method works with a pointer to the struct, allowing it to modify the struct's fields if needed.
 
 ## What This Function Does
 
-1. **Takes a chart configuration** as input
-2. **Gets the upstream version** (from Helm repository)
-3. **Gets the ACR version** (from Azure Container Registry)
-4. **Compares the versions** to see if an update is needed
-5. **Returns a comparison result** with all the version information
-6. **Handles errors** at each step using Go's explicit error handling
+1. Takes a chart configuration as input
+2. Gets the upstream version (from Helm repository)
+3. Gets the ACR version (from Azure Container Registry)
+4. Compares the versions to see if an update is needed
+5. Returns a comparison result with all the version information
+6. Handles errors at each step using Go's explicit error handling
 
 This is a typical Go function that follows Go idioms: explicit error handling, multiple return values, and struct methods with pointer receivers!

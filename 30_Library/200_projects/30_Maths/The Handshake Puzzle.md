@@ -1,28 +1,20 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-07-12T11:08:55Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:11+00:00
 status: ""
 tags: []
 title: The Handshake Puzzle
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Here is a practical activity that demonstrates the generative side of maths for a Year 8 pupil.
 
 ## The Handshake Puzzle: Discovering a Pattern
 
-This activity lets Bessie act like a mathematician by collecting data, spotting a pattern, and **generating** her own rule (an equation) to describe it.
+This activity lets Bessie act like a mathematician by collecting data, spotting a pattern, and generating her own rule (an equation) to describe it.
 
 ### You Will Need
 
@@ -39,9 +31,9 @@ Start by posing the question: "If everyone in a room shakes hands with everyone 
 
 Now, collect the data for small groups:
 
-- **2 People:** Person A shakes hands with Person B. That's **1** handshake.
-- **3 People:** A shakes with B and C (2). B shakes with C (1). That's 2 + 1 = **3** handshakes.
-- **4 People:** A shakes with B, C, D (3). B with C, D (2). C with D (1). That's 3 + 2 + 1 = **6** handshakes.
+- 2 People: Person A shakes hands with Person B. That's 1 handshake.
+- 3 People: A shakes with B and C (2). B shakes with C (1). That's 2 + 1 = 3 handshakes.
+- 4 People: A shakes with B, C, D (3). B with C, D (2). C with D (1). That's 3 + 2 + 1 = 6 handshakes.
 
 Record your findings in a simple table:
 
@@ -52,11 +44,11 @@ Record your findings in a simple table:
 | 4                    | 6                    |
 | 5                    |?                    |
 
-Ask Bessie to work out the handshakes for **5 people** and add it to the table. (It will be $4 + 3 + 2 + 1 = 10$
+Ask Bessie to work out the handshakes for 5 people and add it to the table. (It will be $4 + 3 + 2 + 1 = 10$
 
 ### Step 2: Spot the Pattern
 
-Now, look at the table together. The numbers of handshakes are `1, 3, 6, 10…` These are the **triangle numbers**. Ask Bessie what she notices about how the numbers are growing.
+Now, look at the table together. The numbers of handshakes are `1, 3, 6, 10…` These are the triangle numbers. Ask Bessie what she notices about how the numbers are growing.
 
 ### Step 3: Generate the Rule
 
@@ -70,7 +62,7 @@ Guide her thinking with these questions:
 - "Why is it double?" (Answer: Because when we calculated it that way, we counted A shaking B's hand and B shaking A's hand as two separate handshakes, but they are the same one).
 - "So how can we correct our formula?" (Answer: Divide it by 2).
 
-You have just **generated** the equation for the handshake problem:
+You have just generated the equation for the handshake problem:
 
 $$
 H = \frac{p \times (p - 1)}{2}
@@ -82,5 +74,5 @@ $$
 
 This activity perfectly demonstrates the difference between the two types of knowledge:
 
-- **Applicative Knowledge:** Would be if you gave Bessie the formula at the start and just asked her to calculate the handshakes for 20 people. You are asking her to _apply_ a known rule.
-- **Generative Knowledge:** Is what you just did. You started with a real-world situation, collected data, found a pattern, and used logic to _generate_ a brand-new formula that describes the pattern. This is thinking like a true mathematician.
+- Applicative Knowledge: Would be if you gave Bessie the formula at the start and just asked her to calculate the handshakes for 20 people. You are asking her to _apply_ a known rule.
+- Generative Knowledge: Is what you just did. You started with a real-world situation, collected data, found a pattern, and used logic to _generate_ a brand-new formula that describes the pattern. This is thinking like a true mathematician.

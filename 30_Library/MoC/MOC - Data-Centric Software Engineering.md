@@ -1,19 +1,12 @@
 ---
 aliases: [Data-Centric Design Index, Engineering MOC, SDLC MOC]
-confidence: 5/5
 created: 2025-02-15T07:24:57Z
-epistemic: architecture
 last_reviewed: 2025-12-26
-modified: 2026-01-23T18:09:23+00:00
-purpose: The central index for cultivating Data-Centric Software Engineering skills and methodology.
-review_interval: 6 months
-see_also: ["[[SoT - The Data-Centric Philosophy]]"]
-source_of_truth: true
+modified: 2026-02-01T15:08:06+00:00
 status: stable
 tags: [data-centric, programming, sdlc]
 title: MOC - Data-Centric Software Engineering
 type: map
-uid:
 updated:
 ---
 
@@ -23,9 +16,9 @@ The philosophy follows a single, unbroken chain of reasoning, moving from the co
 
 | Level | Role | Note | Principle |
 |:--- |:--- |:--- |:--- |
-| **1. The Axiom** | **Worldview** | **[[SoT - The Data-Centric Philosophy]]** | **"Data Dominates Code."**<br>The physical reality of hardware (Cache, Memory) dictates that Structure is the primary source of truth. |
-| **2. The Theory** | **Mathematics** | **[[MOC - Type Theory]]** | **"Applied Category Theory."**<br>Using rigorous mathematical proofs (Sum/Product Types) to model that Structure correctly. |
-| **3. The Practice** | **Methodology** | **[[SoT - Type-Driven Development (The Torvalds Loop)]]** | **"The Torvalds Loop."**<br>The strict 4-phase protocol (**Shape $\to$ Access $\to$ Invariants $\to$ Logic**) to implement the model. |
+| 1. The Axiom | Worldview | [[SoT - The Data-Centric Philosophy]] | "Data Dominates Code."<br>The physical reality of hardware (Cache, Memory) dictates that Structure is the primary source of truth. |
+| 2. The Theory | Mathematics | [[MOC - Type Theory]] | "Applied Category Theory."<br>Using rigorous mathematical proofs (Sum/Product Types) to model that Structure correctly. |
+| 3. The Practice | Methodology | [[SoT - Type-Driven Development (The Torvalds Loop)]] | "The Torvalds Loop."<br>The strict 4-phase protocol (Shape $\to$ Access $\to$ Invariants $\to$ Logic) to implement the model. |
 
 ---
 
@@ -33,14 +26,14 @@ The philosophy follows a single, unbroken chain of reasoning, moving from the co
 
 A structured path to developing the "Data-First" mindset.
 
-_See **[[SoT - The Data-Centric Philosophy#4. Fundamental Principles|The Core Curriculum]]** for detailed study paths._
+_See [[SoT - The Data-Centric Philosophy#4. Fundamental Principles|The Core Curriculum]] for detailed study paths._
 
-- **Deepen Understanding:** Moving beyond memorization to trade-off analysis (Time vs. Space complexity).
-- **Data Modelling:** Mapping reality to Entity-Relationship diagrams before writing code.
-- **Language-Agnostic Thinking:** Solving problems in pseudocode to decouple logic from implementation syntax.
-- **The Torvalds Loop:** A four-phase design protocol: Shape -> Access -> Invariants -> Logic.
-- **Development Philosophy:** [[SoT - Type-Driven Development (The Torvalds Loop)]].
-- **Good Taste:** [[SoT - The Data-Centric Philosophy#5. The Litmus Test: \"Good Taste\"|The Indirect Pointer Pattern]].
+- Deepen Understanding: Moving beyond memorization to trade-off analysis (Time vs. Space complexity).
+- Data Modelling: Mapping reality to Entity-Relationship diagrams before writing code.
+- Language-Agnostic Thinking: Solving problems in pseudocode to decouple logic from implementation syntax.
+- The Torvalds Loop: A four-phase design protocol: Shape -> Access -> Invariants -> Logic.
+- Development Philosophy: [[SoT - Type-Driven Development (The Torvalds Loop)]].
+- Good Taste: [[SoT - The Data-Centric Philosophy#5. The Litmus Test: \"Good Taste\"|The Indirect Pointer Pattern]].
 
 ---
 
@@ -48,14 +41,14 @@ _See **[[SoT - The Data-Centric Philosophy#4. Fundamental Principles|The Core Cu
 
 Advanced mental models for high-leverage engineering.
 
-- **Strategic Modeling:** [[SoT - The Data-Centric Philosophy|Domain-Driven Design]]—_Bridging Business Intent and Data Schema._
-- **Reliability:** [[SoT - The Data-Centric Philosophy|The Error Kernel & \"Let It Crash\"]].
-- **Simplicity:** [[SoT - The Data-Centric Philosophy|Decomplecting & Simple vs. Easy]].
-- **[[SoT - Simple Made Easy (Rich Hickey)]]**—_The definitive guide to unbraiding state and logic._
-- **Specification:** [[SoT - The Data-Centric Philosophy|Mathematical Modeling (TLA+)]].
-- **Design:** [[SoT - The Data-Centric Philosophy|Semantic Compression over DRY]].
-- **Verification:** [[SoT - The Data-Centric Philosophy|Making Invalid States Unrepresentable]].
-- **API Design:** [[SoT - The Data-Centric Philosophy|The Type State Pattern & Extension Traits]].
+- Strategic Modeling: [[SoT - The Data-Centric Philosophy|Domain-Driven Design]]—_Bridging Business Intent and Data Schema._
+- Reliability: [[SoT - The Data-Centric Philosophy|The Error Kernel & \"Let It Crash\"]].
+- Simplicity: [[SoT - The Data-Centric Philosophy|Decomplecting & Simple vs. Easy]].
+- [[SoT - Simple Made Easy (Rich Hickey)]]—_The definitive guide to unbraiding state and logic._
+- Specification: [[SoT - The Data-Centric Philosophy|Mathematical Modeling (TLA+)]].
+- Design: [[SoT - The Data-Centric Philosophy|Semantic Compression over DRY]].
+- Verification: [[SoT - The Data-Centric Philosophy|Making Invalid States Unrepresentable]].
+- API Design: [[SoT - The Data-Centric Philosophy|The Type State Pattern & Extension Traits]].
 
 ---
 
@@ -65,34 +58,34 @@ Applying these principles beyond code to the entire engineering stack.
 
 ### A. Infrastructure & Systems
 
-- **Secrets:** [[SoT - Vault KV Data Structure]]—_Vault as a Versioned Trie of JSON Documents._
-- **Integrity:** [[SoT - Vault KV Data Structure#6. The Integrity Model (Merkle Tree)|Merkle Trees]]—_Recursive integrity proofs and binary identity._
-- **Control Planes:** [[SoT - Vault KV Data Structure#7. Comparison: Vault vs. Kubernetes vs. GitOps|Reconciliation vs. Sync]]—_Functional equivalence (K8s) vs. Cryptographic identity (Vault)._
-- **Infrastructure:** [[MOC - Data-Centric Infrastructure]]—_Treating configuration as a Data Schema._
-- **Shell Environment:** [[SoT - Type-Driven Shell Architecture]]—_The Shell as an instantiated Data Structure._
+- Secrets: [[SoT - Vault KV Data Structure]]—_Vault as a Versioned Trie of JSON Documents._
+- Integrity: [[SoT - Vault KV Data Structure#6. The Integrity Model (Merkle Tree)|Merkle Trees]]—_Recursive integrity proofs and binary identity._
+- Control Planes: [[SoT - Vault KV Data Structure#7. Comparison: Vault vs. Kubernetes vs. GitOps|Reconciliation vs. Sync]]—_Functional equivalence (K8s) vs. Cryptographic identity (Vault)._
+- Infrastructure: [[MOC - Data-Centric Infrastructure]]—_Treating configuration as a Data Schema._
+- Shell Environment: [[SoT - Type-Driven Shell Architecture]]—_The Shell as an instantiated Data Structure._
 
 ### B. Networking & IAM
 
-- **Boundaries:** [[HEAD - The Demarcation Gap]]—_Defining the logical interface (Handshake) between Application and Transit._
-- **Networking:** [[SoT - The Data-Centric Theory of Networking]]—_Routing as state transport._
-- **Identity:** [[SoT - Data-Centric IAM in Zero Trust]]—_AuthZ as a data-processing operation._
+- Boundaries: [[HEAD - The Demarcation Gap]]—_Defining the logical interface (Handshake) between Application and Transit._
+- Networking: [[SoT - The Data-Centric Theory of Networking]]—_Routing as state transport._
+- Identity: [[SoT - Data-Centric IAM in Zero Trust]]—_AuthZ as a data-processing operation._
 
 ### C. Development Lifecycle
 
-- **Source Control:** [[SoT - The Data Architecture of Source Control (Git)]]—_Version control as a Merkle DAG._
-- **Commits:** [[The Fundamental Misconception Commits as Diffs]]—_Understanding snapshots over changes._
+- Source Control: [[SoT - The Data Architecture of Source Control (Git)]]—_Version control as a Merkle DAG._
+- Commits: [[The Fundamental Misconception Commits as Diffs]]—_Understanding snapshots over changes._
 
 ---
 
 ## 5. Related Domains
 
-- **[[MOC - Interpretation of References]]**—_How symbols (Code) map to reality (Memory)._
-- **[[HEAD - SDE Networking Responsibility Boundaries]]**—_The practical tension of infrastructure ownership._
+- [[MOC - Interpretation of References]]—_How symbols (Code) map to reality (Memory)._
+- [[HEAD - SDE Networking Responsibility Boundaries]]—_The practical tension of infrastructure ownership._
 
 ---
 
 ## 6. Tooling & Prompts
 
-- **[[Prompt - Data-Centric Coding Assistant]]**—_Configuring LLMs to enforce the Data-First Design Loop._
-- **[[Prompt - Senior Systems Architect (Data-Centric Refactor)]]**—_Refactoring raw technical notes into rigorous SoT documents._
-- **[[Prompt - Data-Centric IDE Analysis]]**—_A specialized prompt for IDEs (Cursor, Copilot) to analyze code structure._
+- [[Prompt - Data-Centric Coding Assistant]]—_Configuring LLMs to enforce the Data-First Design Loop._
+- [[Prompt - Senior Systems Architect (Data-Centric Refactor)]]—_Refactoring raw technical notes into rigorous SoT documents._
+- [[Prompt - Data-Centric IDE Analysis]]—_A specialized prompt for IDEs (Cursor, Copilot) to analyze code structure._

@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-29T16:40:00Z
-epistemic: "fact"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
+modified: 2026-02-01T15:08:28+00:00
 source: "[[MOC - ADHD Routine Building Strategies]]"
-source_of_truth: []
 status: "seedling"
 tags: ["strategy", "TheHuman/Habits", "TheHuman/Health/ADHD", "topic/productivity"]
 title: Reducing friction is a key strategy for building ADHD-friendly habits
 type: "concept"
-uid: 
 updated: 
 ---
 

@@ -26,21 +26,21 @@ Pods in a Kubernetes cluster communicate across nodes using the Container Networ
 
 ### CNI Plugin Role
 
-- **Standard Interface**: CNI provides a consistent interface between container runtimes and network plugins
-- **Network Configuration**: CNI plugins assign IP addresses and set up network interfaces and routing
-- **Plugin Invocation**: kubelet invokes CNI plugins when pods are created
-- **Popular Plugins**: Calico, Flannel, Weave
+- Standard Interface: CNI provides a consistent interface between container runtimes and network plugins
+- Network Configuration: CNI plugins assign IP addresses and set up network interfaces and routing
+- Plugin Invocation: kubelet invokes CNI plugins when pods are created
+- Popular Plugins: Calico, Flannel, Weave
 
 ### Network Models
 
-**Overlay Networks:**
+Overlay Networks:
 
 - Encapsulate traffic within another protocol
 - Create virtual network over physical infrastructure
 - Allow pods on different nodes to communicate as if on same network
 - Examples: VXLAN, Geneve
 
-**Underlay Networks:**
+Underlay Networks:
 
 - Operate at physical network layer
 - Use routing techniques for cross-node connectivity
@@ -55,9 +55,9 @@ Pods in a Kubernetes cluster communicate across nodes using the Container Networ
 
 ## Implications
 
-- **Location Independence**: Pods can be scheduled on any node without network reconfiguration
-- **Scalability**: Network scales automatically with cluster growth
-- **Plugin Flexibility**: Different CNI plugins for different use cases (performance, security, features)
+- Location Independence: Pods can be scheduled on any node without network reconfiguration
+- Scalability: Network scales automatically with cluster growth
+- Plugin Flexibility: Different CNI plugins for different use cases (performance, security, features)
 
 ## Related
 

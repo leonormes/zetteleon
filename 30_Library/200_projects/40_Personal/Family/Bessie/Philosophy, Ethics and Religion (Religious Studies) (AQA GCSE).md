@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-20T20:06:37Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: []
 title: Philosophy, Ethics and Religion (Religious Studies) (AQA GCSE)
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 - Curriculum Content: This course involves in-depth study of beliefs, teachings, and practices of two major world religions (e.g., Christianity and Islam), and thematic studies in Philosophy and Ethics, including relationships, life's origins, existence of God, peace/conflict, and crime/punishment. It encourages critical thinking and reasoned arguments.

@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-07-16T17:30:04Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:29+00:00
 status: "null"
 tags: ["paraphrasing", "TheHuman/Cognition", "TheHuman/Cognition/thinking", "topic/learning"]
 title: Paraphrasing is a Complex Cognitive Skill
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
 Paraphrasing is a complex cognitive skill that goes far beyond simply replacing words with synonyms. True paraphrasing requires a deep understanding of the original text's underlying meaning.

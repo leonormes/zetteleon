@@ -1,21 +1,13 @@
 ---
 aliases: ["Carefulness", "Foresight"]
-confidence: "1"
 created: 2025-11-01T21:24:00Z
-epistemic: "definition"
 last_reviewed: "2025-11-01"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "To define the character strength of prudence."
-review_interval: "90"
-see_also: ["[[Inner Strength & Resilience Skills (Your Strong Spirit)]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:28+00:00
 status: "evergreen"
 tags: ["character-strength", "decision-making", "prudence", "virtue", "wisdom"]
 title: Prudence is Making Careful Choices for the Future
 type: "concept"
-uid: 
 updated: 
-version: "1"
 ---
 
 Prudence is the virtue of making careful, considered choices with an eye toward the future.

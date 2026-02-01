@@ -1,23 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-08-31T16:08:38Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T10:50:02+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:37+00:00
 status: ""
-tags:
-  - llm
-  - llm-understanding
+tags: [llm, llm-understanding]
 title: AI and Machine Understanding
 type: ""
-uid:
 updated:
-version: ""
 ---
 
 The challenge of creating AI systems that truly understand language highlights the complexity of the thought-language relationship and raises fundamental questions about the nature of intelligence and understanding.
@@ -32,11 +22,11 @@ The challenge of creating AI systems that truly understand language highlights t
 
 ## Challenges in Machine Understanding
 
-- **Symbol grounding problem**: How symbols connect to their referents in the world
-- **Context sensitivity**: Understanding language requires vast contextual knowledge
-- **Embodiment**: Human understanding may be inseparable from bodily experience
-- **Qualia**: Subjective experiences may be essential to understanding certain concepts
-- **Social embeddedness**: Language understanding occurs within social contexts
+- Symbol grounding problem: How symbols connect to their referents in the world
+- Context sensitivity: Understanding language requires vast contextual knowledge
+- Embodiment: Human understanding may be inseparable from bodily experience
+- Qualia: Subjective experiences may be essential to understanding certain concepts
+- Social embeddedness: Language understanding occurs within social contexts
 
 ## Questions
 

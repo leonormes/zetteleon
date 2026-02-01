@@ -19,6 +19,6 @@ updated:
 
 ## The Distinction Between Expressive and Commercial Music is a Spectrum
 
-**Summary:** The difference between music as expression and music as a product is not a hard binary but a spectrum, and many artists move between these two worlds.
+Summary: The difference between music as expression and music as a product is not a hard binary but a spectrum, and many artists move between these two worlds.
 
-**Details:** An artist might start with a purely expressive work that later becomes commercially successful, or a commercial artist might create a deeply personal project. It is not a fixed state, and the line can be blurry. The key is to analyze the primary intention behind a work.
+Details: An artist might start with a purely expressive work that later becomes commercially successful, or a commercial artist might create a deeply personal project. It is not a fixed state, and the line can be blurry. The key is to analyze the primary intention behind a work.

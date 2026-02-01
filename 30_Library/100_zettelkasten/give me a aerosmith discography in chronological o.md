@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-11-10T14:01:26Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:23+00:00
 status: ""
 tags: []
 title: give me a aerosmith discography in chronological o
 type: ""
-uid: 
 updated: 
 ---
 

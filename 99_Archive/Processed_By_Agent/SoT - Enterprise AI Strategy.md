@@ -17,7 +17,7 @@ type: "SoT"
 ## 1. Definitive Statement
 
 > [!definition] Definition
-> **Enterprise AI Strategy** is the systematic application of "Composite AI" capabilities—ranging from foundational models to autonomous agents—wrapped in business logic to drive specific outcomes (Defend, Extend, Upend). It rejects the view of AI as a monolithic tool in favor of a **Capability Stack**.
+> Enterprise AI Strategy is the systematic application of "Composite AI" capabilities—ranging from foundational models to autonomous agents—wrapped in business logic to drive specific outcomes (Defend, Extend, Upend). It rejects the view of AI as a monolithic tool in favor of a Capability Stack.
 
 ---
 
@@ -27,17 +27,17 @@ type: "SoT"
 
 AI is not a single technology but a spectrum of capabilities at different maturity levels.
 
-- **Trough of Disillusionment:** Foundational Models / GenAI. (The novelty has faded; the hard work of integration begins).
-- **Peak of Inflated Expectations:** Agentic AI. (Currently overhyped relative to reliability).
-- **Slope of Enlightenment:** Established predictive/analytical AI integrated into boring back-end workflows.
+- Trough of Disillusionment: Foundational Models / GenAI. (The novelty has faded; the hard work of integration begins).
+- Peak of Inflated Expectations: Agentic AI. (Currently overhyped relative to reliability).
+- Slope of Enlightenment: Established predictive/analytical AI integrated into boring back-end workflows.
 
 ### 2.2 The "Wrapper" Framework
 
-Raw models provide zero business value. Value is generated only when a **Wrapper** is applied:
+Raw models provide zero business value. Value is generated only when a Wrapper is applied:
 
-1. **People:** Tailored interfaces for specific roles (e.g., Procurement Assistant vs. Coding Copilot).
-2. **Process:** Integration into the "Critical Path" of work (not a side-chat window).
-3. **Technology:** Safe plumbing into legacy data and security layers.
+1. People: Tailored interfaces for specific roles (e.g., Procurement Assistant vs. Coding Copilot).
+2. Process: Integration into the "Critical Path" of work (not a side-chat window).
+3. Technology: Safe plumbing into legacy data and security layers.
 
 ---
 
@@ -47,9 +47,9 @@ Deployments should be categorized by their intent and risk profile.
 
 | Tier | Intent | Success Metric | Example |
 |:--- |:--- |:--- |:--- |
-| **Defend** | Keep the lights on. | Employee Satisfaction / Retention. | Internal Chatbots, Meeting Summarizers. |
-| **Extend** | Improve existing ops. | KPI Optimization (Speed/Cost). | AI-Assisted Code Refactoring, Automated QA. |
-| **Upend** | Create new value. | New Revenue Streams. | Generative Product Design, "AI-Free" Premium Services. |
+| Defend | Keep the lights on. | Employee Satisfaction / Retention. | Internal Chatbots, Meeting Summarizers. |
+| Extend | Improve existing ops. | KPI Optimization (Speed/Cost). | AI-Assisted Code Refactoring, Automated QA. |
+| Upend | Create new value. | New Revenue Streams. | Generative Product Design, "AI-Free" Premium Services. |
 
 ---
 
@@ -57,13 +57,13 @@ Deployments should be categorized by their intent and risk profile.
 
 The current fixation on "Agents" is an anthropomorphic bridge. We visualize tasks as "Digital Workers" because it fits our current mental model of labor.
 
-- **Augmented Collective Intelligence (ACI):** The future state where intelligence is diffuse and embedded in the network itself, not discrete "bots."
-- **The "AI-Free" Premium:** As AI commoditizes "Competence," human-only service becomes a luxury good. Trust and "Human-in-the-Loop" certification will command higher margins.
+- Augmented Collective Intelligence (ACI): The future state where intelligence is diffuse and embedded in the network itself, not discrete "bots."
+- The "AI-Free" Premium: As AI commoditizes "Competence," human-only service becomes a luxury good. Trust and "Human-in-the-Loop" certification will command higher margins.
 
 ---
 
 ## 5. Strategic Implementation (The CIO Playbook)
 
-1. **Define Ambition First:** Don't ask "What can the tool do?" Ask "What is our business ambition?"
-2. **Participative Implementation:** "Fingerprints on the weapon." Involve line workers early to reduce the "Replacement Fear" and ensure the tool solves actual friction.
-3. **Exercise Muscle Memory:** Treat AI rollout with the same rigor as Cloud Migration or ERP implementation. It is infrastructure, not magic.
+1. Define Ambition First: Don't ask "What can the tool do?" Ask "What is our business ambition?"
+2. Participative Implementation: "Fingerprints on the weapon." Involve line workers early to reduce the "Replacement Fear" and ensure the tool solves actual friction.
+3. Exercise Muscle Memory: Treat AI rollout with the same rigor as Cloud Migration or ERP implementation. It is infrastructure, not magic.

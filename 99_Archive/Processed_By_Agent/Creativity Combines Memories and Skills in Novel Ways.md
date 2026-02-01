@@ -19,9 +19,9 @@ updated:
 
 ## Creativity Combines Memories and Skills in Novel Ways
 
-**Summary:** Creativity is a key component of intelligence that involves combining existing knowledge and skills in new ways to solve problems.
+Summary: Creativity is a key component of intelligence that involves combining existing knowledge and skills in new ways to solve problems.
 
-**Details:** Creative problem-solving:
+Details: Creative problem-solving:
 
 - Draws on stored memories and learned skills
 - Recombines these elements in innovative ways

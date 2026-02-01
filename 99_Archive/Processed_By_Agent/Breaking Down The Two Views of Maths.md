@@ -50,11 +50,11 @@ Core Tension:
 
 The central conflict in maths education is that it primarily teaches [[Applicative maths is the use of pre-discovered patterns as tools|maths-as-a-tool]], while the soul of the discipline lies in [[Generative maths is the creative discovery of abstract patterns|maths-as-discovery]]. This leads to the [[Public perception of maths is incomplete, not wrong|widespread but incomplete public view of the subject]].
 
-**Key Analogies:**
+Key Analogies:
 
 - The most effective way I've found to explain this is that [[A Car Mechanic Versus an Engineer Is a Strong Analogy for the Two Views of Maths|it's the difference between a mechanic and an engineer]].
 
-**Developing Thoughts & Open Questions:**
+Developing Thoughts & Open Questions:
 
 - If we accept this disconnect, what is the actual _purpose_ of compulsory maths education? Is it to create competent "mechanics" for the economy, or is it to foster the "engineering" mindset of logical and abstract thought?
 - How could we introduce generative thinking into the curriculum without sacrificing applicative skill?

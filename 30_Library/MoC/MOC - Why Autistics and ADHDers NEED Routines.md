@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-30T16:30:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T15:03:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
+modified: 2026-02-01T15:08:04+00:00
 source: "https://youtube.com/watch?v=M0QeofT0_qg"
-source_of_truth: []
 status: "null"
 tags: ["autism", "routine-building", "TheHuman/Health/ADHD"]
 title: MOC - Why Autistics and ADHDers NEED Routines
 type: "map"
-uid: 
 updated: 
 ---
 
@@ -28,13 +21,13 @@ updated:
 
 #### Three Key Ingredients
 
-1. **Know Your Needs and Preferences**
+1. Know Your Needs and Preferences
    [[Self-monitoring reveals personal energy and trigger patterns]] through systematic observation of daily activities, mood states, and environmental triggers. This week-long tracking process identifies when you have peak energy versus when you're prone to [[Overwhelm]]. Understanding your sensory sensitivities allows you to adjust both environment and schedule accordingly.
 
-2. **Consistency**
+2. Consistency
    [[Anchor times create routine consistency]] by establishing fixed points for important daily tasks. Building rituals around these anchor points provides the predictability neurodivergent brains crave, though it's essential to include buffer slots for unexpected events.
 
-3. **Incorporate Flexibility**
+3. Incorporate Flexibility
    [[Contingency planning manages routine disruptions]] by preparing alternative pathways before disruptions occur. When routines get interrupted, [[Sensory supports facilitate routine transitions]] through tools like noise-cancelling headphones, visual aids, and fidget objects.
 
 ### Maintenance Strategies

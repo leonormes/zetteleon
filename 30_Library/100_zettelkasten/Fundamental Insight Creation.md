@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: "null"
 created: 2024-03-30T00:00:00Z
-epistemic: "null"
 id: "20240330002"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:31+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: "active"
 tags: ["insight", "topic/pkm", "topic/pkm/zettelkasten"]
 title: Fundamental Insight Creation
 type: "permanent"
-uid: 
 updated: 
-version: "null"
 ---
 
 This type of problem-solving generates entirely new frameworks of understanding and solutions that were previously inconceivable. It often involves redefining the problem itself and making conceptual leaps that transform our understanding.

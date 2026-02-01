@@ -19,6 +19,6 @@ updated:
 
 ## Spaced Repetition Combats Forgetting by Scheduling Reviews Over Time
 
-**Summary:** Spaced repetition is a learning strategy that involves reviewing material at systematically increasing intervals over time to combat the natural decay of memory.
+Summary: Spaced repetition is a learning strategy that involves reviewing material at systematically increasing intervals over time to combat the natural decay of memory.
 
-**Details:** This strategy is based on the "Spacing Effect" and directly addresses the Ebbinghaus Forgetting Curve. By scheduling reviews at the point when a memory is about to fade, each successful retrieval strengthens the memory trace and slows the rate of subsequent forgetting, optimizing for long-term retention.
+Details: This strategy is based on the "Spacing Effect" and directly addresses the Ebbinghaus Forgetting Curve. By scheduling reviews at the point when a memory is about to fade, each successful retrieval strengthens the memory trace and slows the rate of subsequent forgetting, optimizing for long-term retention.

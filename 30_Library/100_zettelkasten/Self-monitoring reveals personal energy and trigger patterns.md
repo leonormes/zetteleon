@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-30T16:22:00Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:27+00:00
 source: "[[MOC - Why Autistics and ADHDers NEED Routines]]"
-source_of_truth: []
 status: "seedling"
 tags: ["energy-management", "routine-design", "self-monitoring"]
 title: Self-monitoring reveals personal energy and trigger patterns
 type: "concept"
-uid: 
 updated: 
 ---
 

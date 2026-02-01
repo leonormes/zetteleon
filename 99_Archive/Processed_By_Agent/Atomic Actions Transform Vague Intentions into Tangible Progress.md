@@ -19,6 +19,6 @@ updated:
 
 ## Atomic Actions Transform Vague Intentions into Tangible Progress
 
-**Summary:** An atomic action is a discrete, indivisible, and clearly defined step that moves a commitment toward completion, thereby transforming vague intentions into tangible progress.
+Summary: An atomic action is a discrete, indivisible, and clearly defined step that moves a commitment toward completion, thereby transforming vague intentions into tangible progress.
 
-**Details:** This precise definition ensures that each step is actionable and contributes directly to advancing a project. It is the smallest possible physical, visible activity required to move a project forward.
+Details: This precise definition ensures that each step is actionable and contributes directly to advancing a project. It is the smallest possible physical, visible activity required to move a project forward.

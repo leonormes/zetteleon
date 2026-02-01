@@ -18,9 +18,9 @@ updated:
 version: "null"
 ---
 
-A **numeral** is a symbol or a name used to denote a number. Examples include '7', 'VII', or the word 'seven'.
+A numeral is a symbol or a name used to denote a number. Examples include '7', 'VII', or the word 'seven'.
 
-A **number**, by contrast, is the abstract idea or concept that the numeral represents. The number 7 is the actual concept of "sevenness"—the property shared by a set of seven apples or the seven days of the week.
+A number, by contrast, is the abstract idea or concept that the numeral represents. The number 7 is the actual concept of "sevenness"—the property shared by a set of seven apples or the seven days of the week.
 
 Mistaking the numeral for the number is a common [[Flawed Mental Models Limit Mastery|flawed mental model]]. It's like mistaking the word "water" for the substance itself. The symbols are the language we use to talk about the concepts.
 

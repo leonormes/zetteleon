@@ -20,8 +20,8 @@ version: "null"
 
 This aphorism, coined by statistician George E. P. Box, perfectly captures the paradox of using simplified representations to understand complex realities. It applies to scientific models, mathematical models, and our own internal mental models.
 
-- **"All Models Are Wrong..."**: A model is, by its very nature, a simplification. It is a map, not the territory. It must leave details out to be a model at all. In this incompleteness, it is technically "wrong" as it can never capture the full complexity of reality.
-- **"...But Some Are Useful."**: The value of a model lies not in its absolute truth, but in its utility. A good model provides a framework for understanding, prediction, and action. A simple weather model is useful for deciding whether to bring an umbrella, even if it doesn't account for every atmospheric variable.
+- "All Models Are Wrong...": A model is, by its very nature, a simplification. It is a map, not the territory. It must leave details out to be a model at all. In this incompleteness, it is technically "wrong" as it can never capture the full complexity of reality.
+- "...But Some Are Useful.": The value of a model lies not in its absolute truth, but in its utility. A good model provides a framework for understanding, prediction, and action. A simple weather model is useful for deciding whether to bring an umbrella, even if it doesn't account for every atmospheric variable.
 
 Problems arise not from the existence of models, but from our unawareness of them ([[Naïve Realism Makes Mental Models Invisible]]) and our dogmatic belief in their absolute truth. Recognizing that we are always viewing the world through a model is the first step towards being able to question, refine, and improve it.
 

@@ -1,21 +1,13 @@
 ---
 aliases: ["Modesty"]
-confidence: "1"
 created: 2025-11-01T21:25:00Z
-epistemic: "definition"
 last_reviewed: "2025-11-01"
-modified: 2026-01-23T18:09:31+00:00
-purpose: "To define the character strength of humility."
-review_interval: "90"
-see_also: ["[[Inner Strength & Resilience Skills (Your Strong Spirit)]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: "evergreen"
 tags: ["character-strength", "ego", "humility", "modesty", "virtue"]
 title: Humility is Letting Achievements Speak for Themselves
 type: "concept"
-uid: 
 updated: 
-version: "1"
 ---
 
 Humility is the quality of being modest and having a low view of one's own importance. It is not about thinking less of yourself, but about thinking of yourself less.

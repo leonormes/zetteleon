@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence: 
 created: 2025-11-11T20:57:01Z
-epistemic: 
 last_reviewed: 
-modified: 2026-01-23T18:09:32+00:00
-purpose: 
-review_interval: 
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:14+00:00
 status: 
 tags: []
 title: act prompt
 type: 
-uid: 
 updated: 
 ---
 

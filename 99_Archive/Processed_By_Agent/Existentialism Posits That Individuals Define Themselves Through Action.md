@@ -19,6 +19,6 @@ updated:
 
 ## Existentialism Posits That Individuals Define Themselves Through Action
 
-**Summary:** Existentialist philosophy, particularly in the work of Jean-Paul Sartre, holds that "existence precedes essence," meaning that individuals have no predetermined nature or essence but create themselves through their choices and actions.
+Summary: Existentialist philosophy, particularly in the work of Jean-Paul Sartre, holds that "existence precedes essence," meaning that individuals have no predetermined nature or essence but create themselves through their choices and actions.
 
-**Details:** According to this view, you are not defined by your thoughts, potential, or intentions, but by what you _do_. Authenticity comes from taking responsibility for your choices and acting on them, thereby creating your own identity and meaning in a world without inherent purpose.
+Details: According to this view, you are not defined by your thoughts, potential, or intentions, but by what you _do_. Authenticity comes from taking responsibility for your choices and acting on them, thereby creating your own identity and meaning in a world without inherent purpose.

@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-08-29T15:16:19Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:31+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:32+00:00
 status: "null"
 tags: ["philosophy-of-science", "TheHuman/Cognition/mental-model"]
 title: Instrumentalism vs Realism in Understanding
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
 This distinction from the philosophy of science describes two views on theories and models:
@@ -33,8 +25,8 @@ tags:
 
 This describes a distinction in how one treats a model:
 
-- **Instrumentalism**: Views a model purely as a tool for getting correct answers or predictions. The model's "truthfulness" about reality is irrelevant as long as it works.
-- **Realism**: Believes the goal of a model is to be a true description of the underlying reality.
+- Instrumentalism: Views a model purely as a tool for getting correct answers or predictions. The model's "truthfulness" about reality is irrelevant as long as it works.
+- Realism: Believes the goal of a model is to be a true description of the underlying reality.
 
 A person stuck with a flawed mental model is often in an instrumentalist phase. Their model of a Kubernetes Service as a "magic IP" is a tool that works for simple deployments. They haven't progressed to a realist understanding of how `kube-proxy` and `iptables` actually function.
 

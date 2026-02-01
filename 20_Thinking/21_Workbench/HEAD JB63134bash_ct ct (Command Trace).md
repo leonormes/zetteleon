@@ -1,12 +1,11 @@
 ---
 captured: 2026-01-22T20:38:31+00:00 2026-01-22T20:38:31+00:00
 created: 2026-01-22T20:38:34+00:00
-modified: 2026-01-22T20:38:52+00:00
+modified: 2026-02-01T15:09:10+00:00
 source: https://github.com/JB63134/bash_ct
 status: processing
-tags:
-  - input
-title: HEAD JB63134bash_ct ct (Command Trace) is a Bash command resolution tracer that explains how Bash resolves a command and what the kernel ultimately executes. Exposes shadowing and overridden commands.
+tags: [input]
+title: HEAD JB63134bash_ct ct (Command Trace)
 type: head
 ---
 
@@ -17,7 +16,7 @@ type: head
 
 ### Raw Output / Content
 
-**[bash_ct](https://github.com/JB63134/bash_ct)** Public
+[bash_ct](https://github.com/JB63134/bash_ct) Public
 
 ct (Command Trace) is a Bash command resolution tracer that explains how Bash resolves a command and what the kernel ultimately executes. Exposes shadowing and overridden commands.
 
@@ -25,7 +24,7 @@ ct (Command Trace) is a Bash command resolution tracer that explains how Bash re
 
 [Open in github.dev](https://github.dev/) [Open in a new github.dev tab](https://github.dev/) [Open in codespace](https://github.com/codespaces/new/JB63134/bash_ct?resume=1)## bash_ct
 
-`ct` (Command Trace) is a Bash command resolution tracer that explains **how Bash resolves a command** and **what the kernel ultimately executes**.
+`ct` (Command Trace) is a Bash command resolution tracer that explains how Bash resolves a command and what the kernel ultimately executes.
 
 It traces the full resolution process—covering aliases, functions, keywords, builtins, and external executables—while exposing shadowed commands, overrides, and filesystem indirection.
 
@@ -36,7 +35,7 @@ It traces the full resolution process—covering aliases, functions, keywords, b
 - Bash resolution order for aliases, functions, keywords, builtins, and executables
 - Shadowed commands and overrides (e.g. aliases or functions hiding binaries)
 - Full `$PATH` scan, including shadowed or unreachable entries
-- Clear separation of **Bash resolution targets** vs **kernel execution targets**
+- Clear separation of Bash resolution targets vs kernel execution targets
 - Filesystem execution details:
 	- Canonical executable paths
 	- Symlink chains (including `/etc/alternatives`)
@@ -44,7 +43,7 @@ It traces the full resolution process—covering aliases, functions, keywords, b
 	- Shebangs for scripts
 - Optional JSON output for scripting and automation
 
-`ct` is intended for understanding **why** a command resolves the way it does—not just **what** it resolves to.
+`ct` is intended for understanding why a command resolves the way it does—not just what it resolves to.
 
 ---
 
@@ -91,15 +90,15 @@ Each PATH entry reports:
 
 ## Requirements
 
-**Core dependencies**
+Core dependencies
 
 - `grep`, `file`, `cut`, `head`, `readlink`, `readelf`, `awk`
 
-**Optional (for color output)**
+Optional (for color output)
 
 - `tput`
 
-**Bash version**
+Bash version
 
 - Bash ≥ 4.4
 
@@ -175,15 +174,15 @@ No packages published
 
 ## Phase 2: The Gate (4D Filter)
 
-- [ ] **Do:** < 2 mins?
-- [ ] **Delegate:** Who?
-- [ ] **Defer:** Move to Hangar or SoT?
-- [ ] **Delete:** Is this noise?
+- [ ] Do: < 2 mins?
+- [ ] Delegate: Who?
+- [ ] Defer: Move to Hangar or SoT?
+- [ ] Delete: Is this noise?
 
 ---
 
 ## Phase 5: The Scribe (#SAVESTATE)
 
-- **The Conflict:**
-- **The Current State:**
-- **The Next Test:**
+- The Conflict:
+- The Current State:
+- The Next Test:

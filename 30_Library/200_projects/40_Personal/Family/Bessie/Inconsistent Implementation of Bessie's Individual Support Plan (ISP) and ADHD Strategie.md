@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-16T08:10:19Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:09+00:00
 status: ""
 tags: ["TheHuman/Family/Bessie"]
 title: "Inconsistent Implementation of Bessie's Individual Support Plan (ISP) and ADHD Strategie"
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Based on the Ofsted report, the UK government's implied expectations for SEN support, and the comprehensive information about your daughter Bessie, here is a summary of the failings of Belfairs Academy that you can raise in a meeting:

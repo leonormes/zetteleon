@@ -20,7 +20,7 @@ version: "1"
 
 The relationship with motion is paradoxical. Some motion is not only necessary but highly valuable for effective action. The challenge lies in discerning useful motion from excessive motion.
 
-- **Useful Motion:** Planning, strategizing, and research that directly enable a more effective or efficient action. This type of motion has a clear purpose and a defined endpoint.
-- **Excessive Motion:** Preparation that extends beyond what is necessary and becomes a delay tactic. This type of motion is often driven by fear, perfectionism, or a lack of clarity.
+- Useful Motion: Planning, strategizing, and research that directly enable a more effective or efficient action. This type of motion has a clear purpose and a defined endpoint.
+- Excessive Motion: Preparation that extends beyond what is necessary and becomes a delay tactic. This type of motion is often driven by fear, perfectionism, or a lack of clarity.
 
 The skill is not to eliminate motion entirely, but to manage it. One must become adept at recognizing the point of diminishing returns, where more preparation no longer adds significant value and instead serves only to postpone the discomfort of action.

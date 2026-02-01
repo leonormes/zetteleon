@@ -19,6 +19,6 @@ updated:
 
 ## Systems Act as External Containers for Motivational Energy
 
-**Summary:** A useful metaphor for productivity is to think of motivation and energy as a formless liquid, while systems and routines act as the external containers and channels that give it shape and direction.
+Summary: A useful metaphor for productivity is to think of motivation and energy as a formless liquid, while systems and routines act as the external containers and channels that give it shape and direction.
 
-**Details:** Just as a pipeline directs water, a system (like a workflow or checklist) directs attention and energy. This structure contains and guides your motivation, preventing it from dispersing, especially on days when internal drive is low. The system provides the direction, not the energy itself.
+Details: Just as a pipeline directs water, a system (like a workflow or checklist) directs attention and energy. This structure contains and guides your motivation, preventing it from dispersing, especially on days when internal drive is low. The system provides the direction, not the energy itself.

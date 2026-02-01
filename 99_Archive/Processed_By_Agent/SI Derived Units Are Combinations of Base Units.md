@@ -18,7 +18,7 @@ updated:
 version: ""
 ---
 
-**Derived units** are formed by combining the [[The Seven SI Base Units|seven SI base units]] through multiplication and division. There are an unlimited number of possible derived units.
+Derived units are formed by combining the [[The Seven SI Base Units|seven SI base units]] through multiplication and division. There are an unlimited number of possible derived units.
 
 Twenty-two of these derived units have been given special names for simplicity.
 
@@ -26,9 +26,9 @@ Twenty-two of these derived units have been given special names for simplicity.
 
 Derived units allow for the measurement of complex quantities. For example:
 
-- **Force**: The **newton (N)** is defined as kg⋅m⋅s−2. It's the force required to accelerate one kilogram of mass at one metre per second squared.
-- **Energy**: The **joule (J)** is defined as kg⋅m2⋅s−2. It's the energy transferred when a force of one newton is applied over one metre.
-- **Pressure**: The **pascal (Pa)** is defined as kg⋅m−1⋅s−2, or one newton per square metre (N/m2).
+- Force: The newton (N) is defined as kg⋅m⋅s−2. It's the force required to accelerate one kilogram of mass at one metre per second squared.
+- Energy: The joule (J) is defined as kg⋅m2⋅s−2. It's the energy transferred when a force of one newton is applied over one metre.
+- Pressure: The pascal (Pa) is defined as kg⋅m−1⋅s−2, or one newton per square metre (N/m2).
 
 Using derived units creates a [[A Coherent System of Units Simplifies Physical Equations|coherent system]] where physical laws can be expressed cleanly without conversion factors.
 

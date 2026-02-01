@@ -19,6 +19,6 @@ updated:
 
 ## Music Can Be Categorized by Its Intention as Expression or Product
 
-**Summary:** A core concept in understanding music is the distinction between music born from a need for authentic expression and music designed primarily as a commercial product.
+Summary: A core concept in understanding music is the distinction between music born from a need for authentic expression and music designed primarily as a commercial product.
 
-**Details:** This is not a value judgment of "good" vs. "bad," but a distinction of origin and intent. Music as expression originates from a raw human feeling or need, while music as a product originates from a market-driven goal. Understanding this difference provides a lens for deeper analysis of art.
+Details: This is not a value judgment of "good" vs. "bad," but a distinction of origin and intent. Music as expression originates from a raw human feeling or need, while music as a product originates from a market-driven goal. Understanding this difference provides a lens for deeper analysis of art.

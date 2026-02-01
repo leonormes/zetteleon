@@ -1,33 +1,26 @@
 ---
 aliases: []
-confidence: "0.8"
 created: 2025-10-31T12:06:00Z
-epistemic: "metaphor"
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: "Illustrate persistent unaddressed tasks."
-review_interval: "90"
-see_also: ["ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: "seedling"
 tags: ["TheHuman/Health/ADHD", "topic/productivity"]
 title: Gnawing Rats Metaphor for Avoided Tasks
 type: "example"
-uid: 
 updated: 
 ---
 
 ## Gnawing Rats Metaphor for Avoided Tasks
 
-**Summary:** Avoided tasks ("gnawing rats") persistently consume mental energy until addressed.
+Summary: Avoided tasks ("gnawing rats") persistently consume mental energy until addressed.
 
-**Characteristics:**
+Characteristics:
 
 - Create background anxiety
 - Drain cognitive resources
 - Multiply through procrastination
 
-**Management:**
+Management:
 
 - Acknowledge explicitly
 - Break into micro-steps

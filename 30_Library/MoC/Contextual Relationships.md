@@ -1,30 +1,22 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-05-08T06:44:40Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T15:03:27+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:08+00:00
 status: "null"
 tags: ["context", "relationships", "topic/pkm/zettelkasten"]
 title: Contextual Relationships
 type: "map"
-uid: 
 updated: 
-version: "null"
 ---
 
 Contextual relationships are connections between concepts, data points, or ideas that derive their meaning from the specific circumstances, environment, or framework in which they exist. Unlike inherent logical connections, these relationships are situational and can change when the context shifts.
 
 ## Key Characteristics
 
-- **Framework-dependent**: The relationship only makes sense within a particular setting or domain
-- **Situational meaning**: The same elements may have different relationships in different contexts
-- **Environmental sensitivity**: Changes in context can alter or eliminate the relationship entirely
+- Framework-dependent: The relationship only makes sense within a particular setting or domain
+- Situational meaning: The same elements may have different relationships in different contexts
+- Environmental sensitivity: Changes in context can alter or eliminate the relationship entirely
 
 ## Examples
 

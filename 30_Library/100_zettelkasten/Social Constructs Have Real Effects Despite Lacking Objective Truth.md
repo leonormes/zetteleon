@@ -1,24 +1,17 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-11-01T09:51:13Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: "seedling"
 tags: ["mental-model", "pragmatism", "reality", "social-construction", "topic/philosophy"]
 title: Social Constructs Have Real Effects Despite Lacking Objective Truth
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Social Constructs Have Real Effects Despite Lacking Objective Truth
 
-**Summary:** Social constructs like money, language, and ethics are not objective features of physical reality, yet they exert genuine causal power through collective coordination.
+Summary: Social constructs like money, language, and ethics are not objective features of physical reality, yet they exert genuine causal power through collective coordination.
 
-**Details:** Money, language, and ethical norms are social constructs rather than objective features of the physical world, yet they exert real causal power in human lives. A string of digits in a bank account can change where someone lives or whether a project is funded, not because the digits are natural objects but because societies coordinate around their meaning. The medium of language is invented, but it enables the transmission of knowledge, coordination at scale, and the shaping of identities and institutions. Calling something constructed therefore does not make it irrelevant; it highlights that collective belief and participation give it force in the world.
+Details: Money, language, and ethical norms are social constructs rather than objective features of the physical world, yet they exert real causal power in human lives. A string of digits in a bank account can change where someone lives or whether a project is funded, not because the digits are natural objects but because societies coordinate around their meaning. The medium of language is invented, but it enables the transmission of knowledge, coordination at scale, and the shaping of identities and institutions. Calling something constructed therefore does not make it irrelevant; it highlights that collective belief and participation give it force in the world.

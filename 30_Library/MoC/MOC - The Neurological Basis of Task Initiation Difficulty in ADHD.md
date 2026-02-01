@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-30T12:03:01Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T15:03:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:05+00:00
 status: "null"
 tags: ["executive-function", "TheHuman/Health/ADHD", "TheHuman/Neuroscience"]
 title: MOC - The Neurological Basis of Task Initiation Difficulty in ADHD
 type: "map"
-uid: 
 updated: 
 ---
 
@@ -21,11 +14,11 @@ This note provides an overview of the neurological and psychological factors tha
 
 ## Causes of Task Initiation Difficulty in ADHD
 
-1. **Executive Dysfunction**: [[Executive Function Challenges are Central to ADHD]] impair the brain's ability to plan, prioritize, and organize tasks.
-2. **Dopamine Dysregulation**: [[Dopamine Dysregulation is a Key Factor in ADHD Motivation]], which impairs the brain's reward system and makes starting tasks feel unrewarding.
-3. **Emotional Dysregulation**: [[Emotional Dysregulation]] can lead to feelings of overwhelm, frustration, or fear of failure, resulting in [[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency|task paralysis]].
-4. **Poor Working Memory**: [[Working Memory Limitations in ADHD]] make it difficult to hold task-related information in mind long enough to initiate action.
-5. **Distractions and Overstimulation**: The brain's difficulty in filtering distractions, partly explained by [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]], can derail focus before a task begins.
+1. Executive Dysfunction: [[Executive Function Challenges are Central to ADHD]] impair the brain's ability to plan, prioritize, and organize tasks.
+2. Dopamine Dysregulation: [[Dopamine Dysregulation is a Key Factor in ADHD Motivation]], which impairs the brain's reward system and makes starting tasks feel unrewarding.
+3. Emotional Dysregulation: [[Emotional Dysregulation]] can lead to feelings of overwhelm, frustration, or fear of failure, resulting in [[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency|task paralysis]].
+4. Poor Working Memory: [[Working Memory Limitations in ADHD]] make it difficult to hold task-related information in mind long enough to initiate action.
+5. Distractions and Overstimulation: The brain's difficulty in filtering distractions, partly explained by [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]], can derail focus before a task begins.
 
 ## Distinction from Laziness
 

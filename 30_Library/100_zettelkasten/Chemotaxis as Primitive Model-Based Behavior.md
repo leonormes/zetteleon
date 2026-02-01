@@ -1,36 +1,28 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-09-05T06:22:44Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:36+00:00
 status: ""
 tags: ["biology", "chemotaxis", "evolution", "primitive-cognition"]
 title: Chemotaxis as Primitive Model-Based Behavior
 type: "permanent"
-uid: 
 updated: 
-version: "1"
 ---
 
 Chemotaxis in single-celled organisms represents the evolutionary precursor to emotion-driven model-based behavior in complex animals. While a bacterium doesn't have a brain or feelings, it has a remarkably similar mechanism for guiding action based on environmental assessment.
 
 ## The Chemotaxis Process
 
-**Sensing**: The cell's membrane contains receptors that detect concentrations of molecules like nutrients (sugar) or toxins (acid).
+Sensing: The cell's membrane contains receptors that detect concentrations of molecules like nutrients (sugar) or toxins (acid).
 
-**Decision-Making**: The cell's internal machinery acts as a rudimentary computational system, comparing signals from different receptors to determine whether it's moving toward higher concentrations of "good" or "bad" chemicals.
+Decision-Making: The cell's internal machinery acts as a rudimentary computational system, comparing signals from different receptors to determine whether it's moving toward higher concentrations of "good" or "bad" chemicals.
 
-**Action**: Based on this information, the cell adjusts its flagellum rotation to either continue straight (if conditions are improving) or tumble randomly and change direction (if conditions are worsening).
+Action: Based on this information, the cell adjusts its flagellum rotation to either continue straight (if conditions are improving) or tumble randomly and change direction (if conditions are worsening).
 
 ## Connection to Emotion
 
-While purely biochemical without subjective experience, the logic is identical to emotion: **sense the environment, evaluate whether it's good or bad for survival, and execute movement to improve the situation.**
+While purely biochemical without subjective experience, the logic is identical to emotion: sense the environment, evaluate whether it's good or bad for survival, and execute movement to improve the situation.
 
 This demonstrates that the fundamental pattern underlying emotional responses—environmental assessment leading to adaptive behavior—exists at the most basic levels of life. Emotions in complex animals are sophisticated elaborations of this ancient, foundational mechanism.
 

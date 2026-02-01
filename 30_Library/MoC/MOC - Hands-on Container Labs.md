@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-26T17:16:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:23+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:06+00:00
 status: "null"
 tags: ["debugging", "hands-on", "lab", "SoftwareEngineering/Containers", "tutorial"]
 title: MOC - Hands-on Container Labs
 type: "map"
-uid: 
 updated: 
-version: "1"
 ---
 
 ## Summary
@@ -30,54 +22,54 @@ Theoretical knowledge of containers is insufficient without practical experience
 
 ### 🛠️ Building from Scratch
 
-- **[[Linux Networking]]** - Complete hands-on curriculum
-- **Build container network manually** - Step-by-step namespace creation (planned)
-- **Implement simple CNI plugin** - Write basic networking code (planned)
-- **Create container runtime** - Minimal container implementation (planned)
+- [[Linux Networking]] - Complete hands-on curriculum
+- Build container network manually - Step-by-step namespace creation (planned)
+- Implement simple CNI plugin - Write basic networking code (planned)
+- Create container runtime - Minimal container implementation (planned)
 
 ### 🔍 Debugging Scenarios
 
-- **Pod cannot ping same-node Pods** - veth/bridge issues (planned)
-- **Cross-node connectivity failures** - routing/overlay problems (planned)
-- **DNS resolution issues** - CoreDNS and local DNS debugging (planned)
-- **Service access problems** - kube-proxy and iptables troubleshooting (planned)
+- Pod cannot ping same-node Pods - veth/bridge issues (planned)
+- Cross-node connectivity failures - routing/overlay problems (planned)
+- DNS resolution issues - CoreDNS and local DNS debugging (planned)
+- Service access problems - kube-proxy and iptables troubleshooting (planned)
 
 ### ⚡ Performance & Optimization
 
-- **Network throughput optimization** - Tuning kernel parameters (planned)
-- **Memory usage analysis** - Container memory profiling (planned)
-- **CPU scheduling optimization** - cgroup tuning techniques (planned)
-- **Storage performance tuning** - Volume and filesystem optimization (planned)
+- Network throughput optimization - Tuning kernel parameters (planned)
+- Memory usage analysis - Container memory profiling (planned)
+- CPU scheduling optimization - cgroup tuning techniques (planned)
+- Storage performance tuning - Volume and filesystem optimization (planned)
 
 ### 🔒 Security Hardening
 
-- **Container escape prevention** - Namespace and capability hardening (planned)
-- **Network policy implementation** - iptables and eBPF security (planned)
-- **Image security scanning** - Vulnerability detection and remediation (planned)
-- **Runtime security monitoring** - Falco and security tools (planned)
+- Container escape prevention - Namespace and capability hardening (planned)
+- Network policy implementation - iptables and eBPF security (planned)
+- Image security scanning - Vulnerability detection and remediation (planned)
+- Runtime security monitoring - Falco and security tools (planned)
 
 ## Learning Path
 
 ### Beginner Track
 
-1. **[[Linux Networking]]** - Master the fundamentals
-2. **Network namespace labs** - Isolation exercises
-3. **Basic connectivity labs** - veth and bridge setup
-4. **Simple troubleshooting** - Common issue resolution
+1. [[Linux Networking]] - Master the fundamentals
+2. Network namespace labs - Isolation exercises
+3. Basic connectivity labs - veth and bridge setup
+4. Simple troubleshooting - Common issue resolution
 
 ### Intermediate Track
 
-1. **Multi-container networking** - Bridge and routing labs
-2. **NAT and egress debugging** - iptables and internet access
-3. **Service implementation** - Load balancing exercises
-4. **Performance analysis** - Monitoring and optimization
+1. Multi-container networking - Bridge and routing labs
+2. NAT and egress debugging - iptables and internet access
+3. Service implementation - Load balancing exercises
+4. Performance analysis - Monitoring and optimization
 
 ### Advanced Track
 
-1. **CNI plugin development** - Custom networking solutions
-2. **Security hardening** - Production security practices
-3. **Performance tuning** - Large-scale optimization
-4. **Complex debugging** - Multi-layer problem solving
+1. CNI plugin development - Custom networking solutions
+2. Security hardening - Production security practices
+3. Performance tuning - Large-scale optimization
+4. Complex debugging - Multi-layer problem solving
 
 ## Lab Environment Setup
 
@@ -134,9 +126,9 @@ strace -p <pid>
 
 ## Connections to Other Areas
 
-- **[[MOC - Container Networking Model]]** - Theory behind the labs
-- **[[MOC - Linux Container Primitives]]** - Kernel features in practice
-- **[[MOC - Container Runtime & Orchestration]]** - Production implementation
+- [[MOC - Container Networking Model]] - Theory behind the labs
+- [[MOC - Linux Container Primitives]] - Kernel features in practice
+- [[MOC - Container Runtime & Orchestration]] - Production implementation
 
 ## Child Notes
 

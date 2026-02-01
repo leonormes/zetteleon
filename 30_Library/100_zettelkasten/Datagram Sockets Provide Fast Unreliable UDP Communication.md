@@ -1,38 +1,31 @@
 ---
 aliases: ["datagram sockets", "UDP sockets"]
-confidence: "0.9"
 created: 2025-10-31T13:38:00Z
-epistemic: "fact"
 last_reviewed: "2025-10-31"
-modified: 2026-01-23T18:09:31+00:00
-purpose: "Explain datagram sockets and UDP characteristics."
-review_interval: "90"
-see_also: ["Stream Sockets Provide Reliable Ordered TCP Communication.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:35+00:00
 status: "seedling"
 tags: ["protocol", "socket", "SoftwareEngineering/Networking", "udp"]
 title: Datagram Sockets Provide Fast Unreliable UDP Communication
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Datagram Sockets Provide Fast Unreliable UDP Communication
 
-**Summary:** Datagram sockets (UDP sockets) provide fast transmission where some packets may be lost, prioritizing speed over guaranteed delivery.
+Summary: Datagram sockets (UDP sockets) provide fast transmission where some packets may be lost, prioritizing speed over guaranteed delivery.
 
-**Details:**
+Details:
 
 Datagram sockets use UDP (User Datagram Protocol) which offers:
 
-- **Speed**: Minimal overhead and low latency
-- **No connection establishment**: Fire-and-forget messaging
-- **No delivery guarantee**: Packets may arrive out of order, duplicated, or not at all
-- **No error correction**: The application layer must handle any errors
+- Speed: Minimal overhead and low latency
+- No connection establishment: Fire-and-forget messaging
+- No delivery guarantee: Packets may arrive out of order, duplicated, or not at all
+- No error correction: The application layer must handle any errors
 
 Unlike stream sockets, UDP doesn't establish a persistent connection - it simply sends individual packets (datagrams) to their destination.
 
-**Use Cases:**
+Use Cases:
 
 - Multiplayer gaming - speed matters more than perfect accuracy (a missed shot is acceptable, lag is not)
 - Live video/audio streaming - dropping a frame is better than delaying the stream

@@ -19,6 +19,6 @@ updated:
 
 ## Identity is Repeated Beingness
 
-**Summary:** The word "identity" is derived from the Latin words _essentitas_ (being) and _identidem_ (repeatedly).
+Summary: The word "identity" is derived from the Latin words _essentitas_ (being) and _identidem_ (repeatedly).
 
-**Details:** This etymology reveals the core nature of identity: it is literally your "repeated beingness." Your identity is not what you think or say, but what you do repeatedly. It is the sum of your actions.
+Details: This etymology reveals the core nature of identity: it is literally your "repeated beingness." Your identity is not what you think or say, but what you do repeatedly. It is the sum of your actions.

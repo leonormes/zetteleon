@@ -1,28 +1,21 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-31T13:46:00Z
 criteria: ""
-epistemic: "null"
 exclusions: ""
 last_reviewed: "null"
-modified: 2026-01-08T15:03:29+00:00
-purpose: "null"
-review_interval: "null"
+modified: 2026-02-01T15:08:06+00:00
 scope: ""
-see_also: []
-source_of_truth: []
 status: "null"
 tags: ["sockets", "SoftwareEngineering/Networking"]
 title: MOC - How Sockets Actually Work
 type: "map"
-uid: 
 updated: 
 ---
 
 ## MOC - How Sockets Actually Work
 
-> **Inclusion criteria:** Foundational concepts of network sockets, their implementation, and practical usage patterns.
+> Inclusion criteria: Foundational concepts of network sockets, their implementation, and practical usage patterns.
 
 ### Foundational Concepts
 
@@ -54,7 +47,7 @@ The [[Operating System Manages Sockets via System Calls]] rel:: explains-archite
 - Connection management (handshakes, timeouts, retransmissions)
 - Buffer management for send/receive operations
 
-**The abstraction layers:**
+The abstraction layers:
 
 ```sh
 Application Code (Python socket.send())
@@ -98,4 +91,4 @@ Sockets are the foundational technology enabling two-way, real-time communicatio
 
 The abstraction layers (application → system calls → kernel → drivers → hardware) allow developers to write powerful network code without understanding hardware specifics, while OS-level tools like epoll and kqueue enable internet-scale applications serving millions of users.
 
-**Further exploration:** For broader networking context, see [[Networking MOC]].
+Further exploration: For broader networking context, see [[Networking MOC]].

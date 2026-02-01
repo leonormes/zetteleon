@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-08-11T17:38:30Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:25+00:00
 status: ""
 tags: []
 title: The Core Problem Confusing Preparation with Action
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 The book identifies a central error in thinking that fuels this type of procrastination: we mistake planning, deciding, and preparing for meaningful action.

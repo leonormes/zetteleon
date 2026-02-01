@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-08-31T16:06:22Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T15:03:31+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:03+00:00
 status: "null"
 tags: ["consciousness", "language", "TheHuman/Cognition", "topic/philosophy"]
 title: Thought and Language Gap
 type: "map"
-uid: 
 updated: 
-version: "null"
 ---
 
 The relationship between thought and language represents a fundamental philosophical puzzle that has captivated thinkers for centuries. This note explores the intricate dance between our inner experiences and the structured symbols we use to communicate them.

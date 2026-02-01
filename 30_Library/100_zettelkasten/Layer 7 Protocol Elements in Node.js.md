@@ -1,26 +1,18 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-17T16:34:11Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:31+00:00
 status: ""
 tags: ["SoftwareEngineering/Networking"]
 title: Layer 7 Protocol Elements in Node.js
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Here's what represents Layer 7 in these examples:
 
-1. **HTTP Methods:**
+1. HTTP Methods:
 
 ```javascript
 // Different HTTP methods representing different operations
@@ -30,7 +22,7 @@ app.put("/api/users/1") // UPDATE
 app.delete("/api/users/1") // DELETE
 ```
 
-1. **Headers:**
+1. Headers:
 
 ```javascript
 const axios = require("axios")
@@ -45,7 +37,7 @@ const apiCall = axios.get("https://api.example.com/data", {
 })
 ```
 
-1. **Status Codes (Express.js example):**
+1. Status Codes (Express.js example):
 
 ```javascript
 const express = require("express")
@@ -65,7 +57,7 @@ app.get("/api/resource", (req, res) => {
 })
 ```
 
-1. **Content Types and Data Formats:**
+1. Content Types and Data Formats:
 
 ```javascript
 const express = require("express")
@@ -83,7 +75,7 @@ app.get("/api/data", (req, res) => {
 })
 ```
 
-1. **WebSocket (Real-time communication):**
+1. WebSocket (Real-time communication):
 
 ```javascript
 const WebSocket = require("ws")

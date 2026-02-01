@@ -1,27 +1,21 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-11-10T15:19:00Z
-epistemic: "NA"
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: "To provide a checklist for verifying project status during a weekly review."
-review_interval: "180"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:23+00:00
 status: "seedling"
 tags: ["gtd", "project-management", "topic/productivity", "weekly-review"]
 title: Weekly Review Verifies Project Actionability and Context
 type: "instructional"
-uid: 
 updated: 
 ---
 
 ## Weekly Review Verifies Project Actionability and Context
 
-**What:** A checklist for ensuring projects are actionable and well-organized during a weekly review.
+What: A checklist for ensuring projects are actionable and well-organized during a weekly review.
 
-**How:**
+How:
+
 For every project, verify that it has:
 
 1. A clearly defined "done" state.
@@ -29,7 +23,7 @@ For every project, verify that it has:
 3. Context tags on all actions.
 4. Appropriate starter tasks for difficult-to-initiate actions.
 
-**Failure modes:**
+Failure modes:
 
 - Skipping the review, leading to stale projects and forgotten actions.
 - Not rigorously applying the criteria, resulting in vague or unactionable items.

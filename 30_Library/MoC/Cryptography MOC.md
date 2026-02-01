@@ -1,19 +1,12 @@
 ---
 aliases: ["Crypto MOC"]
-confidence: "5/5"
 created: 2025-12-24T12:00:00Z
-epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-08T15:03:27+00:00
-purpose: "Map of Content for Cryptography and Encryption concepts."
-review_interval: "1 year"
-see_also: ["[[MOC - Layer 3 Network Security Concepts]]"]
-source_of_truth: ["[[SoT - Cryptography and Encryption]]"]
+modified: 2026-02-01T15:08:08+00:00
 status: "stable"
 tags: ["cryptography", "SoftwareEngineering/Security", "type/moc"]
 title: Cryptography MOC
 type: "map"
-uid: 
 updated: 
 ---
 

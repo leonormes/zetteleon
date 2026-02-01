@@ -1,24 +1,17 @@
 ---
 alias: ["Human-Machine Merger", "Neural Plasticity and Tools"]
 aliases: []
-confidence: "5/5"
 created: 2025-12-24T12:00:00Z
-epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-23T18:09:30+00:00
-purpose: "To explain the biological basis for cognitive extension."
-review_interval: "1 year"
-see_also: ["[[SoT - The Extended Mind Thesis]]"]
-source_of_truth: ["[[SoT - The Extended Mind Thesis]]"]
+modified: 2026-02-01T15:08:30+00:00
 status: "stable"
 tags: ["evolution", "neuroplasticity", "TheHuman/Philosophy"]
 title: Natural-Born Cyborgs - Human Plasticity and Tool Merger
 type: "concept"
-uid: 
 updated: 
 ---
 
-Humans are **"Natural-Born Cyborgs"** not because of silicon implants, but because our biological brains possess extreme **plasticity** designed to co-opt and annex external props.
+Humans are "Natural-Born Cyborgs" not because of silicon implants, but because our biological brains possess extreme plasticity designed to co-opt and annex external props.
 
 ## 🧠 The Biological Hook
 
@@ -26,8 +19,8 @@ The brain is specifically evolved to "dovetail" its activities with reliable ext
 
 ## 🧩 Key Logic
 
-- **Recruitment:** The brain is the "locus of recruitment"—it spins and maintains webs of external scaffolding to offload cognitive load.
-- **Dovetailing:** The seamless loop between biological processing and environmental feedback.
+- Recruitment: The brain is the "locus of recruitment"—it spins and maintains webs of external scaffolding to offload cognitive load.
+- Dovetailing: The seamless loop between biological processing and environmental feedback.
 
 ## 🛰️ Relation to ProdOS
 

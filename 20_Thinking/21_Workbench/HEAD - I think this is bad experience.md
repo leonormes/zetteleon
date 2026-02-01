@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence:
 created: 2025-12-05T16:04:02Z
-epistemic:
 last_reviewed:
-modified: 2026-01-23T18:09:15+00:00
-purpose:
-review_interval:
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:11+00:00
 status: archived
 tags: []
 title: HEAD - I think this is bad experience
 type: head
-uid:
 updated:
 ---
 

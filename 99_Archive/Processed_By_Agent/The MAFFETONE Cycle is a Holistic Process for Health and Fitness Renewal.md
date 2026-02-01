@@ -17,6 +17,6 @@ uid: 2026-01-08T12:44:00Z
 updated: 2026-01-08T12:44:00Z
 ---
 
-**Summary:** The MAFFETONE Cycle is a five-step iterative process (Assess, Select, Build, Refine/Improve, Repeat) for achieving and maintaining optimal health.
+Summary: The MAFFETONE Cycle is a five-step iterative process (Assess, Select, Build, Refine/Improve, Repeat) for achieving and maintaining optimal health.
 
-**Details:** The cycle begins with identifying symptoms of stress and aerobic deficiency, followed by selecting plans for stress reduction and aerobic base building. It emphasizes continual monitoring of progress through objective tests like the MAF Test.
+Details: The cycle begins with identifying symptoms of stress and aerobic deficiency, followed by selecting plans for stress reduction and aerobic base building. It emphasizes continual monitoring of progress through objective tests like the MAF Test.

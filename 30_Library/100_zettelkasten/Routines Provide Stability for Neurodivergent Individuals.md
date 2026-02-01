@@ -1,19 +1,12 @@
 ---
 aliases: ["Routines Create Predictability for Neurodivergents"]
-confidence: "null"
 created: 2025-10-29T16:10:00Z
-epistemic: "principle"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:28+00:00
 status: "seedling"
 tags: ["anxiety-reduction", "autism", "routine", "stability", "TheHuman/Health/ADHD"]
 title: Routines Provide Stability for Neurodivergent Individuals
 type: "concept"
-uid: 
 updated: 
 ---
 

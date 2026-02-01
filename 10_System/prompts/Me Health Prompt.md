@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence: 
 created: 2025-11-02T14:41:04Z
-epistemic: 
 last_reviewed: 
-modified: 2025-12-28T18:49:35+00:00
-purpose: 
-review_interval: 
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:14+00:00
 status: 
 tags: []
 title: Me Health Prompt
 type: 
-uid: 
 updated: 
 ---
 
@@ -35,7 +28,8 @@ Your client context:
 - Prefers routines designed for ADHD-friendly workflow: short sessions, variety, rapid feedback
 - Wants advice on exercise selection, frequency, progression, recovery, and nutrition for sustainable strength and health
 
-**Prompt Request:**
+Prompt Request:
+
 Based on these details, create a personalised, modular weekly training plan.
 
 - List all movement patterns and give concrete example exercises for each (with beginner/intermediate options).
@@ -43,5 +37,3 @@ Based on these details, create a personalised, modular weekly training plan.
 - Include sample warm-up, cool-down, and key recovery strategies.
 - Provide tips on consistency, focus for ADHD, and sustainable motivation.
 - If possible, suggest nutrition strategies to support muscle growth and fat loss after rapid weight reduction.
-
-***

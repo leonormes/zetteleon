@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-08-29T15:20:43Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:26+00:00
 status: "null"
 tags: ["teams", "TheHuman/Cognition/mental-model", "topic/knowledge-management"]
 title: Tacit vs Explicit Knowledge
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
 A team's operational model of a system can be viewed through the lens of tacit and explicit knowledge, often visualised as an iceberg.

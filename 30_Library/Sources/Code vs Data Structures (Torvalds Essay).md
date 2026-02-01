@@ -1,8 +1,8 @@
 ---
 created: 2026-01-24T08:28:03+00:00
-modified: 2026-01-29T07:18:10+00:00
+modified: 2026-02-01T15:07:46+00:00
 tags: [llm-understanding]
-title: Code vs. Data Structures_ A Discussion
+title: Code vs Data Structures (Torvalds Essay)
 ---
 
 ## 1. Introduction: The Ontology of Software Design

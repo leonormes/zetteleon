@@ -1,26 +1,18 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-11-01T11:37:53Z
-epistemic: "fact"
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-01-23T18:09:31+00:00
-purpose: "Explain why sustained hyperfixation leads to cognitive and emotional burnout."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: "seedling"
 tags: []
 title: Hyperfixation Causes Mental Exhaustion and Burnout
 type: "concept"
-uid: 
 updated: 
-version: "1"
 ---
 
-**Summary:** Sustaining a state of hyperfixation is incredibly energy-intensive. The brain essentially burns through its available cognitive and emotional resources during intense hyperfocus, leading to burnout that contributes to the crash phase.
+Summary: Sustaining a state of hyperfixation is incredibly energy-intensive. The brain essentially burns through its available cognitive and emotional resources during intense hyperfocus, leading to burnout that contributes to the crash phase.
 
-**Resource Depletion:**
+Resource Depletion:
 
 Hyperfixation is not a sustainable state. Despite feeling effortless in the moment, it actually:
 
@@ -30,11 +22,11 @@ Hyperfixation is not a sustainable state. Despite feeling effortless in the mome
 - Drains emotional regulation capacity
 - Burns through mental energy faster than it can be replenished
 
-**Why It Feels Effortless:**
+Why It Feels Effortless:
 
 The paradox is that during hyperfixation, concentration feels easy and natural. This is because dopamine flooding provides intense reward and motivation. However, this doesn't mean the brain isn't working extremely hard—it's simply masking the effort with neurochemical rewards.
 
-**The Burnout Crash:**
+The Burnout Crash:
 
 Eventually, the brain's resources are depleted to the point where it can no longer sustain the intense state. This contributes significantly to the sudden crash where:
 
@@ -43,6 +35,6 @@ Eventually, the brain's resources are depleted to the point where it can no long
 - Mental fog sets in
 - Recovery time is needed before another cycle can begin
 
-**Recovery Period:**
+Recovery Period:
 
 The trough phase following hyperfixation burnout is partly the brain's recovery period, during which cognitive and emotional resources must be replenished before the person can engage intensely again.

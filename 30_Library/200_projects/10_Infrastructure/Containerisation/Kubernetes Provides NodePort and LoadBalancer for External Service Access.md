@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-26T17:19:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:27+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:19+00:00
 status: "null"
 tags: ["external-access", "loadbalancer", "nodeport", "service", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes"]
 title: Kubernetes Provides NodePort and LoadBalancer for External Service Access
 type: "Fact"
-uid: 
 updated: 
-version: "1"
 ---
 
 ## Summary
@@ -26,30 +18,30 @@ Kubernetes enables external access to cluster services through NodePort and Load
 
 ### NodePort Service
 
-- **Static Port Allocation**: Exposes service on same static port on every node
-- **Traffic Forwarding**: Any traffic sent to the node's IP on the specified port is forwarded to the service
-- **Port Range**: Typically uses ports 30000-32767
-- **Use Case**: Simple external access, development, testing
-- **Limitation**: Requires knowing node IP addresses, not suitable for production alone
+- Static Port Allocation: Exposes service on same static port on every node
+- Traffic Forwarding: Any traffic sent to the node's IP on the specified port is forwarded to the service
+- Port Range: Typically uses ports 30000-32767
+- Use Case: Simple external access, development, testing
+- Limitation: Requires knowing node IP addresses, not suitable for production alone
 
 ### LoadBalancer Service
 
-- **Cloud Integration**: Provisions external load balancer in underlying cloud environment
-- **Stable External IP**: Provides dedicated external IP address that routes to the service
-- **Automatic Scaling**: Load balancer handles traffic distribution across multiple nodes
-- **Use Case**: Production applications, high availability scenarios
-- **Cloud Dependency**: Requires cloud provider support (AWS ELB, GCP Load Balancer, Azure Load Balancer)
+- Cloud Integration: Provisions external load balancer in underlying cloud environment
+- Stable External IP: Provides dedicated external IP address that routes to the service
+- Automatic Scaling: Load balancer handles traffic distribution across multiple nodes
+- Use Case: Production applications, high availability scenarios
+- Cloud Dependency: Requires cloud provider support (AWS ELB, GCP Load Balancer, Azure Load Balancer)
 
 ## Service Type Selection
 
-**Choose NodePort when:**
+Choose NodePort when:
 
 - Development or testing environments
 - Simple external access needed
 - Cloud load balancer not available or required
 - Direct node access is acceptable
 
-**Choose LoadBalancer when:**
+Choose LoadBalancer when:
 
 - Production workloads
 - High availability required

@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-03-05T01:25:01Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:27+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:18+00:00
 status: ""
 tags: []
 title: Tickets for GitOps Azure Tenant Management with Terraform
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## Tickets for GitOps Azure Tenant Management with Terraform

@@ -21,13 +21,13 @@ Standard Kubernetes scheduling is suboptimal for compute-heavy ZK workloads due 
 
 ### 1.1 CPU Pinning & Topology
 
-- **Static CPU Manager:** Switch kubelet policy to `static`. This grants the pod **exclusive** use of CPU cores.
-- **Single NUMA Node:** Use `topologyManagerPolicy: single-numa-node` to ensure all cores and memory are on the same physical socket, preventing high-latency cross-NUMA access.
-- **Guaranteed QoS:** Kubernetes only pins CPUs if `resources.limits` exactly match `resources.requests` and use **integer** cores.
+- Static CPU Manager: Switch kubelet policy to `static`. This grants the pod exclusive use of CPU cores.
+- Single NUMA Node: Use `topologyManagerPolicy: single-numa-node` to ensure all cores and memory are on the same physical socket, preventing high-latency cross-NUMA access.
+- Guaranteed QoS: Kubernetes only pins CPUs if `resources.limits` exactly match `resources.requests` and use integer cores.
 
 ### 1.2 Huge Pages
 
-Heavy field arithmetic (FFT, MSM) causes massive TLB (Translation Lookaside Buffer) thrashing. Use **2MB** or **1GB** Huge Pages to reduce address translation overhead.
+Heavy field arithmetic (FFT, MSM) causes massive TLB (Translation Lookaside Buffer) thrashing. Use 2MB or 1GB Huge Pages to reduce address translation overhead.
 
 ---
 
@@ -35,9 +35,9 @@ Heavy field arithmetic (FFT, MSM) causes massive TLB (Translation Lookaside Buff
 
 Generic `x86_64` binaries miss 2x-4x performance gains from specialized vector instructions.
 
-- **Targeting:** Compile specifically for the Azure node's architecture (e.g., Intel Ice Lake/Cascade Lake).
-- **AVX-512:** Crucial for the 256-bit field arithmetic in ZK proofs.
-- **Flag:** Use `RUSTFLAGS="-C target-cpu=skylake-avx512"` or a specific architecture rather than generic `native` (which might target the CI/CD runner).
+- Targeting: Compile specifically for the Azure node's architecture (e.g., Intel Ice Lake/Cascade Lake).
+- AVX-512: Crucial for the 256-bit field arithmetic in ZK proofs.
+- Flag: Use `RUSTFLAGS="-C target-cpu=skylake-avx512"` or a specific architecture rather than generic `native` (which might target the CI/CD runner).
 
 ---
 
@@ -47,19 +47,19 @@ Generic `x86_64` binaries miss 2x-4x performance gains from specialized vector i
 
 The default `libc` malloc suffers from lock contention under high thread counts.
 
-- **Solution:** Use `jemallocator` or `mimalloc`.
-- **Impact:** Reduces memory fragmentation and allocation bottlenecks.
+- Solution: Use `jemallocator` or `mimalloc`.
+- Impact: Reduces memory fragmentation and allocation bottlenecks.
 
 ### 3.2 Thread Pinning
 
 Even with K8s pinning, the application must map its software threads 1:1 to logical hardware cores.
 
-- **Tool:** `core_affinity` crate.
+- Tool: `core_affinity` crate.
 
 ### 3.3 Data-Oriented Hot Loops
 
-- **Binary over JSON:** Avoid JSON/Hex strings in compute loops. Use raw `[u8; 64]` or flat binary structs.
-- **Flat Arrays:** Avoid `Vec<Box<T>>` (pointer chasing). Use `Vec<u64>` or `Vec<Fr>` (contiguous memory) for pre-fetching efficiency.
+- Binary over JSON: Avoid JSON/Hex strings in compute loops. Use raw `[u8; 64]` or flat binary structs.
+- Flat Arrays: Avoid `Vec<Box<T>>` (pointer chasing). Use `Vec<u64>` or `Vec<Fr>` (contiguous memory) for pre-fetching efficiency.
 
 ---
 
@@ -67,8 +67,8 @@ Even with K8s pinning, the application must map its software threads 1:1 to logi
 
 | Layer | Optimization | Why? |
 |:--- |:--- |:--- |
-| **K8s** | `cpuManagerPolicy: static` | Prevents context switching and noisy neighbor issues. |
-| **K8s** | `single-numa-node` | Eliminates cross-socket memory latency. |
-| **Build** | `target-cpu=...` | Enables vector instructions (AVX-512) for ZK math. |
-| **Rust** | `jemallocator` | Removes allocation locks. |
-| **Rust** | `core_affinity` | Maps software threads to hardware silicon. |
+| K8s | `cpuManagerPolicy: static` | Prevents context switching and noisy neighbor issues. |
+| K8s | `single-numa-node` | Eliminates cross-socket memory latency. |
+| Build | `target-cpu=...` | Enables vector instructions (AVX-512) for ZK math. |
+| Rust | `jemallocator` | Removes allocation locks. |
+| Rust | `core_affinity` | Maps software threads to hardware silicon. |

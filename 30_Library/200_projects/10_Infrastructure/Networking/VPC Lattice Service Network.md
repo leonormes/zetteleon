@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-04-02T03:12:13Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:16+00:00
 status: ""
 tags: ["aws", "FFAPP-3588", "gateway", "lattice", "SoftwareEngineering/Networking"]
 title: VPC Lattice Service Network
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## Current Setup Documentation

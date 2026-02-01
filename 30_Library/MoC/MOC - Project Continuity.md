@@ -1,28 +1,21 @@
 ---
 aliases: ["Project Continuity MOC"]
-confidence: ""
 created: 2025-11-11T19:05:01Z
 criteria: "Atomic notes explaining the cognitive challenges or providing specific strategies to bridge work sessions."
-epistemic: ""
 exclusions: "General project management techniques not focused on cognitive re-engagement."
 last_reviewed: ""
-modified: 2026-01-23T18:09:22+00:00
-purpose: ""
-review_interval: ""
+modified: 2026-02-01T15:08:05+00:00
 scope: "Strategies for maintaining engagement and continuity in long-term projects, especially for neurodivergent minds."
-see_also: []
-source_of_truth: []
 status: "stable"
 tags: ["TheHuman/Health/ADHD", "topic/productivity"]
 title: MOC - Project Continuity
 type: "map"
-uid: 
 updated: 
 ---
 
 ## MOC - Project Continuity
 
-> **Inclusion criteria:** Atomic only; must be evergreen or growing.
+> Inclusion criteria: Atomic only; must be evergreen or growing.
 
 From a cognitive perspective, deep engagement in creative work is a "flow state." For someone with ADHD, these states can be particularly intense and productive. The challenge comes when you try to re-enter this state later, as explained by the concept that [[Project Re-Entry is Challenging Due to Diminished Novelty]]. This is because the project no longer provides the same novelty-driven dopamine release that [[Flow State is a State of Optimal Dopamine Stimulation|flow states provide]].
 

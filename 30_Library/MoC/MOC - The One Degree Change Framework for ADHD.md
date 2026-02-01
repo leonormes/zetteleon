@@ -1,29 +1,22 @@
 ---
 aliases: ["One Degree Framework", "Sustainable Change for ADHD"]
-confidence: "null"
 created: 2025-10-30T15:04:20Z
 criteria: ""
-epistemic: "null"
 exclusions: ""
 last_reviewed: "null"
-modified: 2026-01-08T15:03:30+00:00
-purpose: "null"
-review_interval: "null"
+modified: 2026-02-01T15:08:05+00:00
 scope: ""
-see_also: []
 source: "How to ADHD - How to Stick to Habits and Routines Without Falling Off"
-source_of_truth: []
 status: "null"
 tags: ["incremental-change", "TheHuman/Habits", "TheHuman/Health/ADHD"]
 title: MOC - The One Degree Change Framework for ADHD
 type: "map"
-uid: 
 updated: 
 ---
 
 ## MOC - The One Degree Change Framework for ADHD
 
-> **Inclusion criteria:** Strategies and concepts that support incremental, sustainable behavioral change; must acknowledge ADHD neurobiology.
+> Inclusion criteria: Strategies and concepts that support incremental, sustainable behavioral change; must acknowledge ADHD neurobiology.
 
 ### Core Concept: One Degree of Change
 
@@ -43,9 +36,9 @@ This is the sweet spot where change feels challenging but achievable—not impos
 
 Listen to your internal indicators:
 
-- **If it feels impossible** → Scale it down
-- **If it feels too easy** → Nudge it up slightly
-- **If you're snapping back** → You pushed too far
+- If it feels impossible → Scale it down
+- If it feels too easy → Nudge it up slightly
+- If you're snapping back → You pushed too far
 
 The zone is personal and dynamic, varying with energy levels, life circumstances, and existing capacity.
 
@@ -74,7 +67,7 @@ Change must answer "Why does this matter to _me_?" not "What do others expect?" 
 - Define changes within your proximal zone
 - Push just enough to feel some discomfort, not so much you'll snap back
 - Only increase challenge once current step feels easy and automatic
-- **Example:** Start exercise at 2x/week, not 5x/week; add third session only after two feels comfortable
+- Example: Start exercise at 2x/week, not 5x/week; add third session only after two feels comfortable
 
 #### 2. Make It Easy to Execute
 
@@ -110,7 +103,7 @@ When impatience or setbacks occur:
 
 #### Step 1: Identify
 
-Choose **one** routine or habit to improve
+Choose one routine or habit to improve
 
 #### Step 2: Define Your One Degree
 
@@ -134,15 +127,15 @@ Determine the smallest step you can take within your proximal zone
 
 #### Step 5: Repeat
 
-Only increase challenge once current step feels **easy and automatic**
+Only increase challenge once current step feels easy and automatic
 
 ### Why This Works for ADHD
 
-- **Matches working memory limits:** Small steps don't overwhelm
-- **Provides dopamine hits:** Frequent small wins trigger reward system
-- **Reduces shame:** Compassionate attribution prevents spiral
-- **Leverages interest:** Values-alignment activates engagement
-- **Creates sustainable momentum:** Gradual capacity expansion prevents burnout
+- Matches working memory limits: Small steps don't overwhelm
+- Provides dopamine hits: Frequent small wins trigger reward system
+- Reduces shame: Compassionate attribution prevents spiral
+- Leverages interest: Values-alignment activates engagement
+- Creates sustainable momentum: Gradual capacity expansion prevents burnout
 
 ### Related Frameworks
 
@@ -153,13 +146,13 @@ Only increase challenge once current step feels **easy and automatic**
 
 ### Concrete Example: Building a Writing Habit
 
-**Unrealistic (Snap-Back Risk):** "I'll write 2000 words every morning at 6 AM"
+Unrealistic (Snap-Back Risk): "I'll write 2000 words every morning at 6 AM"
 
-**One Degree Approach:**
+One Degree Approach:
 
-1. **Week 1-2:** Open writing app and write _one sentence_ after coffee (proximal zone)
-2. **Week 3-4:** If one sentence feels automatic, increase to _one paragraph_
-3. **Week 5-6:** If paragraph feels easy, increase to _10 minutes timed writing_
-4. **Week 7+:** Continue gradual increases only when previous level is comfortable
+1. Week 1-2: Open writing app and write _one sentence_ after coffee (proximal zone)
+2. Week 3-4: If one sentence feels automatic, increase to _one paragraph_
+3. Week 5-6: If paragraph feels easy, increase to _10 minutes timed writing_
+4. Week 7+: Continue gradual increases only when previous level is comfortable
 
 Track each completion. Celebrate showing up. If you miss days, investigate: Was the step too big? Recalibrate down.

@@ -19,20 +19,20 @@ updated:
 
 ## Socket Vs Connection Vs Request Distinctions
 
-**Summary:** A socket is a communication endpoint; a connection is an established socket between client and server; a request is a message sent within that connection.
+Summary: A socket is a communication endpoint; a connection is an established socket between client and server; a request is a message sent within that connection.
 
-**Details:**
+Details:
 
 These three terms are often confused but have distinct meanings:
 
-- **Socket**: A communication endpoint (like a pipe). It stays open for the entire duration of communication.
-- **Connection**: When a client establishes a TCP connection through a socket to a server, the connection itself is the socket in use. The terms can be used interchangeably in this context.
-- **Request**: What travels inside the connection. It could be:
+- Socket: A communication endpoint (like a pipe). It stays open for the entire duration of communication.
+- Connection: When a client establishes a TCP connection through a socket to a server, the connection itself is the socket in use. The terms can be used interchangeably in this context.
+- Request: What travels inside the connection. It could be:
   - An HTTP GET request to load a web page
   - An HTTP POST request to submit form data
   - A WebSocket message for real-time communication
 
-**Relationship:**
+Relationship:
 
 - One client connection = one socket
 - That socket may handle one or more requests depending on the protocol:

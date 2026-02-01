@@ -1,34 +1,27 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-11-10T15:18:00Z
-epistemic: "NA"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: "To provide guidance on structuring projects in task managers."
-review_interval: "180"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:28+00:00
 status: "seedling"
 tags: ["project-management", "task-management", "topic/productivity", "topic/systems"]
 title: Projects in Task Managers Should Be Structured with Atomic Actions and Context Tags
 type: "instructional"
-uid: 
 updated: 
 ---
 
 ## Projects in Task Managers Should Be Structured with Atomic Actions and Context Tags
 
-**What:** Guidance on how to structure projects within task management software for maximum clarity and actionability.
+What: Guidance on how to structure projects within task management software for maximum clarity and actionability.
 
-**How:**
+How:
 
-- **Sections:** Divide projects into logical sections (e.g., "Design," "Development").
-- **Atomic Actions:** Ensure every task listed is an atomic action (discrete, physical, visible, unambiguous).
-- **Context Tags:** Apply relevant context tags (e.g., `@computer`, `@high_energy`) to all actions.
-- **Starter Tasks:** For difficult-to-initiate actions, include a preceding `@starter_task`.
+- Sections: Divide projects into logical sections (e.g., "Design," "Development").
+- Atomic Actions: Ensure every task listed is an atomic action (discrete, physical, visible, unambiguous).
+- Context Tags: Apply relevant context tags (e.g., `@computer`, `@high_energy`) to all actions.
+- Starter Tasks: For difficult-to-initiate actions, include a preceding `@starter_task`.
 
-**Example:**
+Example:
 
 ```sh
 Project: Website Redesign

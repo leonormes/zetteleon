@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-30T00:00:00Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:27+00:00
 source: "[[MOC - Understanding Self-Focus in Neurodivergent Individuals]]"
-source_of_truth: []
 status: "seedling"
 tags: []
 title: Self-focus exists on a spectrum rather than as a fixed point
 type: "concept"
-uid: 
 updated: 
 ---
 

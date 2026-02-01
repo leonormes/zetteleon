@@ -44,14 +44,14 @@ Leibniz's vision is now recognized as [[Leibniz's work as a precursor to modern 
 
 ## Alignment with Data-Centric Engineering
 
-From the perspective of [[SoT - Data-Centric Software Engineering]], this concept is not ancient history but the **philosophical ancestor of the Type System**.
+From the perspective of [[SoT - Data-Centric Software Engineering]], this concept is not ancient history but the philosophical ancestor of the Type System.
 
 | Leibniz's Concept | Modern Equivalent | The Data-Centric Principle |
 |:--- |:--- |:--- |
-| **Characteristica Universalis** | **The Type System (Schema)** | **[[SoT - Data-Centric Software Engineering#13. Type System Rigor (Wlaschin / Rust)|Make Invalid States Unrepresentable]].** By defining a strict grammar (Types) for reality, we remove the ambiguity of "Stringly Typed" logic. |
-| **Calculus Ratiocinator** | **The Compiler / Runtime** | **"The Compiler Checks It."** We do not debate whether a function call is valid; we calculate it. If the types align, the logic holds. |
-| **Eliminating Ambiguity** | **Parse, Don't Validate** | **[[SoT - Data-Centric Software Engineering#5. Parse, Don't Validate (Wlaschin)|Parse, Don't Validate]].** We do not guess if data is valid; we translate it into a specific Type (Symbol) that guarantees validity. |
+| Characteristica Universalis | The Type System (Schema) | [[SoT - Data-Centric Software Engineering#13. Type System Rigor (Wlaschin / Rust)|Make Invalid States Unrepresentable]]. By defining a strict grammar (Types) for reality, we remove the ambiguity of "Stringly Typed" logic. |
+| Calculus Ratiocinator | The Compiler / Runtime | "The Compiler Checks It." We do not debate whether a function call is valid; we calculate it. If the types align, the logic holds. |
+| Eliminating Ambiguity | Parse, Don't Validate | [[SoT - Data-Centric Software Engineering#5. Parse, Don't Validate (Wlaschin)|Parse, Don't Validate]]. We do not guess if data is valid; we translate it into a specific Type (Symbol) that guarantees validity. |
 
 ### The "Compilation" of Reality
 
-Leibniz's dream that "disagreements could be resolved through calculation" is realized in **Static Analysis**. When we model the domain using **Domain-Driven Design (Strategic Modeling)**, we are essentially creating a local _Characteristica Universalis_ for that business problem.
+Leibniz's dream that "disagreements could be resolved through calculation" is realized in Static Analysis. When we model the domain using Domain-Driven Design (Strategic Modeling), we are essentially creating a local _Characteristica Universalis_ for that business problem.

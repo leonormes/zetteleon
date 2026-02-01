@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-03-05T12:40:13Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:27+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:18+00:00
 status: ""
 tags: ["IAM"]
 title: Shifting Away from Perimeter-Based Trust
 type: "documentation"
-uid: 
 updated: 
-version: ""
 ---
 
 That's an excellent question, and it gets to the very heart of the zero trust security model. Based on the materials I've provided, identity absolutely forms the foundation of zero trust security for several crucial reasons.

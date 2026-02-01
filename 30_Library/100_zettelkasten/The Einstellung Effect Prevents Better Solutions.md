@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-08-29T15:13:59Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:25+00:00
 status: "null"
 tags: ["problem-solving", "TheHuman/Cognition", "TheHuman/Cognition/bias"]
 title: The Einstellung Effect Prevents Better Solutions
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
 The Einstellung Effect is a cognitive trap where a person's pre-existing mindset or the first solution that comes to mind prevents them from seeing better or more optimal solutions.

@@ -1,14 +1,8 @@
 ---
 aliases: []
-confidence: ""
 created: 2026-01-01T19:03:57+00:00
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-08T15:03:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:05+00:00
 status: ""
 tags: [type/moc]
 title: MOC - Learning Registry
@@ -18,7 +12,7 @@ type: map
 ## 🧠 Learning Registry
 
 > [!tip] Prime Directive
-> **Single Threaded Processing.** You cannot start a new quest until the current Boss Fight is won or the quest is formally abandoned.
+> Single Threaded Processing. You cannot start a new quest until the current Boss Fight is won or the quest is formally abandoned.
 
 ### ⚔️ Active Quest (Limit: 1)
 
@@ -60,5 +54,5 @@ SORT completed_date desc
 
 #### ⚙️ Engine Rules
 
-1. **The Slot Rule:** There is only one "Active" slot. To move a card from `queued` to `active`, you must first move the current `active` project to `finished` or `paused`.
-2. **The Boss Rule:** No project enters `active` without a defined **Boss Fight** (a concrete deliverable).
+1. The Slot Rule: There is only one "Active" slot. To move a card from `queued` to `active`, you must first move the current `active` project to `finished` or `paused`.
+2. The Boss Rule: No project enters `active` without a defined Boss Fight (a concrete deliverable).

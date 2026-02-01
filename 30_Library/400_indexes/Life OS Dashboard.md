@@ -1,19 +1,12 @@
 ---
 aliases: [Dashboard]
-confidence:
 created: 2025-12-24T12:00:00Z
-epistemic:
 last_reviewed:
-modified: 2026-01-23T18:09:23+00:00
-purpose: Centralized Life OS Dashboard
-review_interval:
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:08+00:00
 status:
 tags: [dashboard]
 title: Life OS Dashboard
 type: dashboard
-uid:
 updated:
 ---
 
@@ -57,11 +50,11 @@ WHERE status = "active"
 ---
 
 > [!info] Tip
-> Use the **Log Habit/Metric** QuickAdd command to update your stats on the fly!
+> Use the Log Habit/Metric QuickAdd command to update your stats on the fly!
 
 ### 🎬 Media & Leisure
 
-- **[[Sci-Fi Watchlist (Screen)]]**
-- **[[Sci-Fi Watchlist (Books)]]**
-- **[[Music Watchlist (Listening)]]**
-- **[[LIST - Master Sci-Fi Rankings]]** (Reference)
+- [[Sci-Fi Watchlist (Screen)]]
+- [[Sci-Fi Watchlist (Books)]]
+- [[Music Watchlist (Listening)]]
+- [[LIST - Master Sci-Fi Rankings]] (Reference)

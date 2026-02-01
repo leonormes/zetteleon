@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-10-26T17:16:00Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-08T15:03:28+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:07+00:00
 status: "null"
 tags: ["docker", "kubernetes", "SoftwareEngineering/Containers"]
 title: MOC - Containerisation
 type: "map"
-uid: 
 updated: 
-version: "1"
 ---
 
 ## Summary
@@ -60,9 +52,9 @@ How containers are managed and orchestrated:
 
 The mechanisms that enforce isolation and resource limits:
 
-- **Cgroups (Control Groups):** Resource limiting (CPU, Memory), prioritization, and accounting. The key to preventing "noisy neighbors."
-- **Syscalls:** `clone()` (creates new isolated processes) vs `unshare()` (isolates existing processes).
-- **Virtual Switching:** How `veth` pairs and bridges (like `docker0`) act as virtual switches, comparing them to physical switch logic (MAC learning, forwarding).
+- Cgroups (Control Groups): Resource limiting (CPU, Memory), prioritization, and accounting. The key to preventing "noisy neighbors."
+- Syscalls: `clone()` (creates new isolated processes) vs `unshare()` (isolates existing processes).
+- Virtual Switching: How `veth` pairs and bridges (like `docker0`) act as virtual switches, comparing them to physical switch logic (MAC learning, forwarding).
 
 ### 🏗️ [[MOC - Hands-on Container Labs|Practical Implementation]]
 
@@ -85,7 +77,7 @@ Step-by-step tutorials and practical exercises:
 
 1. Dive into [[Cgroups and Containerization A Deep Dive]] for resource management.
 2. Understand the syscalls: `clone` vs `unshare` in [[netns and advanced containers]].
-3. Study **Virtual Switching** logic to see how Linux bridges emulate physical hardware.
+3. Study Virtual Switching logic to see how Linux bridges emulate physical hardware.
 
 ### For Kubernetes Practitioners
 
@@ -101,11 +93,11 @@ Step-by-step tutorials and practical exercises:
 
 ## Key Insights
 
-- **Container networking is just automated Linux networking** - CNI plugins automate `ip` commands
-- **Namespaces provide isolation, veth pairs provide connectivity** - the fundamental pattern
-- **Kubernetes abstracts but doesn't hide** - understanding Linux primitives enables better debugging
-- **Network policies are iptables rules** - security builds on kernel features
-- **Cgroups are the Resource Police** - enforcing limits to ensure Quality of Service (QoS).
+- Container networking is just automated Linux networking - CNI plugins automate `ip` commands
+- Namespaces provide isolation, veth pairs provide connectivity - the fundamental pattern
+- Kubernetes abstracts but doesn't hide - understanding Linux primitives enables better debugging
+- Network policies are iptables rules - security builds on kernel features
+- Cgroups are the Resource Police - enforcing limits to ensure Quality of Service (QoS).
 
 ## Related Areas
 
@@ -115,10 +107,10 @@ Step-by-step tutorials and practical exercises:
 
 ## Sub-MOCs
 
-- **[[MOC - Container Networking Model]]** - Linux networking foundations and Kubernetes mapping
-- **[[MOC - Linux Container Primitives]]** - Kernel features enabling containers (planned)
-- **[[MOC - Container Runtime & Orchestration]]** - Runtime interfaces and orchestration (planned)
-- **[[MOC - Hands-on Container Labs]]** - Practical tutorials and debugging guides (planned)
+- [[MOC - Container Networking Model]] - Linux networking foundations and Kubernetes mapping
+- [[MOC - Linux Container Primitives]] - Kernel features enabling containers (planned)
+- [[MOC - Container Runtime & Orchestration]] - Runtime interfaces and orchestration (planned)
+- [[MOC - Hands-on Container Labs]] - Practical tutorials and debugging guides (planned)
 
 ## Core Reference Notes
 

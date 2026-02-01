@@ -1,26 +1,7 @@
 ---
-aliases: []
 alias: []
-confidence:
-created: 2025-10-18T13:25:33Z
-energy: 5
-epistemic:
-focus: 5
-habit_meds: false
-habit_water: 0
-horse_stance_target: 300
-last_reviewed:
-migraine: false
-migraine_notes: ""
-migraine_severity: 0
-modified: 2026-01-08T08:10:22+00:00
-mood: 5
-purpose:
-review_interval:
-see_also: []
-source_of_truth: []
-status:
-tags: [daily]
+created: 2025-10-18T13:25:33+00:00
+modified: 2026-01-30T16:19:32+00:00
 title: daily
 type: daily
 uid:
@@ -30,7 +11,6 @@ updated:
 ```journal-nav
 
 ```
-
 
 <%*
 
@@ -62,7 +42,7 @@ if (today.getMonth() < birthDate.getMonth() || (today.getMonth() === birthDate.g
 
 }
 
-tR += `**Life Day:** ${lifeDay}\n**Life Week:** ${lifeWeek} (${lifeWeekPct}%)\n**Life Month:** ${lifeMonth}\n**Life Year:** ${lifeYear}`;
+tR += `Life Day: ${lifeDay}\nLife Week: ${lifeWeek} (${lifeWeekPct}%)\nLife Month: ${lifeMonth}\nLife Year: ${lifeYear}`;
 
 %>
 

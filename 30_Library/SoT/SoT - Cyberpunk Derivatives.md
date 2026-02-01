@@ -1,25 +1,18 @@
 ---
 aliases: ["Cyberpunk Derivatives", "Punk Genres"]
-confidence: "5/5"
 created: 2025-12-30T00:00:00Z
-epistemic: "A classification of sub-genres derived from the Cyberpunk framework."
 last_reviewed: "2025-12-30"
-modified: 2026-01-23T18:09:20+00:00
-purpose: "To map the ecosystem of 'Punk' genres that evolved from or in reaction to Cyberpunk."
-review_interval: "1 year"
-see_also: ["[[SoT - Cyberpunk Genre]]"]
-source_of_truth: ["[[00_Inbox/cyberpunk.md]]"]
+modified: 2026-02-01T15:08:00+00:00
 status: "stable"
 tags: ["biopunk", "genre", "scifi", "solarpunk", "steampunk"]
 title: SoT - Cyberpunk Derivatives
 type: "SoT"
-uid: 
 updated: 
 ---
 
 ## 1. The Derivative Logic
 
-While Cyberpunk focuses on **Information Technology** and **Corporate Dystopia**, derivative genres swap the primary technological driver or the philosophical outlook while often retaining the "Punk" (anti-authoritarian / counter-cultural) element.
+While Cyberpunk focuses on Information Technology and Corporate Dystopia, derivative genres swap the primary technological driver or the philosophical outlook while often retaining the "Punk" (anti-authoritarian / counter-cultural) element.
 
 ---
 
@@ -27,10 +20,10 @@ While Cyberpunk focuses on **Information Technology** and **Corporate Dystopia**
 
 ### 2.1 Biopunk
 
-- **Driver:** Genetic Engineering and Biology (Flesh over Metal).
-- **Themes:** The commodification of the body, bio-weaponization, "genoism" (discrimination based on DNA), and body horror.
-- **Key Works:** _Gattaca_ (Genetic Determinism), _Resident Evil_ (Bio-weapons), _Scorn_ (Biological Architecture), _All Tomorrows_ (Speculative Evolution).
-- **Philosophy:** Rejects the mechanical "lie" of Cyberpunk for the visceral "truth" of biological malleability.
+- Driver: Genetic Engineering and Biology (Flesh over Metal).
+- Themes: The commodification of the body, bio-weaponization, "genoism" (discrimination based on DNA), and body horror.
+- Key Works: _Gattaca_ (Genetic Determinism), _Resident Evil_ (Bio-weapons), _Scorn_ (Biological Architecture), _All Tomorrows_ (Speculative Evolution).
+- Philosophy: Rejects the mechanical "lie" of Cyberpunk for the visceral "truth" of biological malleability.
 
 ---
 
@@ -38,21 +31,21 @@ While Cyberpunk focuses on **Information Technology** and **Corporate Dystopia**
 
 ### 3.1 Steampunk
 
-- **Driver:** Steam Power and Victorian Technology (Brass & Gears).
-- **Aesthetic:** Victorian fashion, clockwork, industrial optimism.
-- **Tone:** Often more optimistic and adventurous than Cyberpunk, though can explore class struggle.
+- Driver: Steam Power and Victorian Technology (Brass & Gears).
+- Aesthetic: Victorian fashion, clockwork, industrial optimism.
+- Tone: Often more optimistic and adventurous than Cyberpunk, though can explore class struggle.
 
 ### 3.2 Dieselpunk
 
-- **Driver:** Internal Combustion and 1920s-1940s Aesthetics.
-- **Sub-types:**
-    - **Piecraftian:** Dark, war-focused, oppressive (World War II vibes).
-    - **Ottensian:** Optimistic, Art Deco luxury ("Decopunk").
+- Driver: Internal Combustion and 1920s-1940s Aesthetics.
+- Sub-types:
+    - Piecraftian: Dark, war-focused, oppressive (World War II vibes).
+    - Ottensian: Optimistic, Art Deco luxury ("Decopunk").
 
 ### 3.3 Atompunk
 
-- **Driver:** Nuclear Power and the Space Age (1940s-1960s).
-- **Aesthetic:** Raygun Gothic, Googie architecture, retro-futurism.
+- Driver: Nuclear Power and the Space Age (1940s-1960s).
+- Aesthetic: Raygun Gothic, Googie architecture, retro-futurism.
 
 ---
 
@@ -60,20 +53,20 @@ While Cyberpunk focuses on **Information Technology** and **Corporate Dystopia**
 
 ### 4.1 Solarpunk
 
-- **Driver:** Renewable Energy and Ecology.
-- **Philosophy:** The **antithesis** of Cyberpunk. Envisions a sustainable, community-focused future where technology exists in harmony with nature.
-- **Tone:** Hopeful, constructive, utopian (or protopian).
+- Driver: Renewable Energy and Ecology.
+- Philosophy: The antithesis of Cyberpunk. Envisions a sustainable, community-focused future where technology exists in harmony with nature.
+- Tone: Hopeful, constructive, utopian (or protopian).
 
 ### 4.2 Lunapunk
 
-- **Driver:** Spirituality and Bioluminescence.
-- **Focus:** Individualism, night-centric aesthetics, "witchy" tech. A sister genre to Solarpunk.
+- Driver: Spirituality and Bioluminescence.
+- Focus: Individualism, night-centric aesthetics, "witchy" tech. A sister genre to Solarpunk.
 
 ---
 
 ## 5. Other Variants
 
-- **Clockpunk:** Renaissance-era mechanics (Da Vinci tech).
-- **Silk Punk:** East Asian antiquity materials (silk, bamboo) as high-tech.
-- **Nowpunk:** Immediate near-future (Gig economy, social media, current tech).
-- **Scrap Punk:** Post-apocalyptic, repurposed garbage.
+- Clockpunk: Renaissance-era mechanics (Da Vinci tech).
+- Silk Punk: East Asian antiquity materials (silk, bamboo) as high-tech.
+- Nowpunk: Immediate near-future (Gig economy, social media, current tech).
+- Scrap Punk: Post-apocalyptic, repurposed garbage.

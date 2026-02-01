@@ -1,24 +1,17 @@
 ---
 aliases: ["Visual Project Documentation"]
-confidence: "0.9"
 created: 2025-11-11T19:05:05Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: "Using visual aids to capture and preserve abstract project models."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: "seedling"
 tags: ["project-management", "topic/productivity", "visualization"]
 title: Visual Thinking Tools Preserve Project Mental Models
 type: "strategy"
-uid: 
 updated: 
 ---
 
 ## Visual Thinking Tools Preserve Project Mental Models
 
-**Summary:** Visual tools like mind maps, sketches, and color-coded diagrams can effectively preserve the complex, often non-linear mental model one has during a creative work session.
+Summary: Visual tools like mind maps, sketches, and color-coded diagrams can effectively preserve the complex, often non-linear mental model one has during a creative work session.
 
-**Details:** When deep in a project, the understanding of how components interact is clear. This understanding is often lost upon returning. Creating a quick visual representation of this model—or even taking photos of physical notes—acts as a powerful anchor to the previous thought process. A brief voice memo can also be recorded to explain the visualization.
+Details: When deep in a project, the understanding of how components interact is clear. This understanding is often lost upon returning. Creating a quick visual representation of this model—or even taking photos of physical notes—acts as a powerful anchor to the previous thought process. A brief voice memo can also be recorded to explain the visualization.

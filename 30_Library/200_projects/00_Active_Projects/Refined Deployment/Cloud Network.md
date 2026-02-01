@@ -1,21 +1,11 @@
 ---
-aliases: []
-confidence: ""
 created: 2025-06-30T19:38:05Z
-epistemic: ""
-last_reviewed: ""
-modified: 2026-01-23T18:09:28+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:22+00:00
+Reviewed: true
 status: ""
 tags: []
 title: Cloud Network
-type: ""
-uid: 
-updated: 
-version: ""
+type: head
 ---
 
 To control traffic with precision and accuracy in a cloud Kubernetes environment, you primarily need to focus on two layers of control:

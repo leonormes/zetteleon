@@ -1,42 +1,36 @@
 ---
 aliases: ["Generational Arena", "Generational Indices", "Safe Indices", "Slot Map"]
-confidence: "5/5"
 created: 2025-12-31T00:00:00Z
-epistemic: "pattern"
 last_reviewed: "2025-12-31"
-modified: 2026-01-23T18:09:18+00:00
-purpose: "To define the standard solution for the 'Dangling Pointer' and 'Memory Reuse' problems in Data-Oriented systems."
-review_interval: "1 year"
-see_also: ["[[SoT - Data-Oriented Programming (DOP)]]", "[[SoT - Rust Language]]", "[[SoT - TypeScript]]"]
-source_of_truth: []
+modified: 2026-02-01T15:07:52+00:00
 status: "stable"
 tags: ["data_structures", "memory_safety", "performance", "rust", "typescript"]
 title: SoT - Slot Map (Generational Arena)
 type: "SoT"
-uid: 
 updated: 
 ---
 
 ## 1. Definitive Statement
 
 > [!definition] The Concept
-> A **Slot Map** (or Generational Arena) is a container that solves the "Dangling Pointer" problem without Garbage Collection.
+> A Slot Map (or Generational Arena) is a container that solves the "Dangling Pointer" problem without Garbage Collection.
 >
-> It issues **Stable IDs** (Keys) composed of an `Index` and a `Generation`. If the data at the `Index` is deleted and reused, the `Generation` increments, invalidating all old Keys held by other parts of the system.
+> It issues Stable IDs (Keys) composed of an `Index` and a `Generation`. If the data at the `Index` is deleted and reused, the `Generation` increments, invalidating all old Keys held by other parts of the system.
 
 ## 2. The Core Problems Solved
 
-1. **Dangling Pointers:** In standard arrays, if you delete item 5 and move item 99 to slot 5 (swap-remove), any variable pointing to index 5 now points to the wrong object.
-2. **Memory Reuse:** In systems like games or high-frequency trading, you cannot afford to allocate/deallocate memory constantly. You must reuse the "holes" left by deleted entities.
+1. Dangling Pointers: In standard arrays, if you delete item 5 and move item 99 to slot 5 (swap-remove), any variable pointing to index 5 now points to the wrong object.
+2. Memory Reuse: In systems like games or high-frequency trading, you cannot afford to allocate/deallocate memory constantly. You must reuse the "holes" left by deleted entities.
 
 ## 3. The Algorithm: Index + Generation
 
 We do not give out a raw `index`. We give out a "Key" (Ticket).
 
-- **Index:** Where the data lives in the array (Physical Location).
-- **Generation:** A version counter for that slot (Logical Identity).
+- Index: Where the data lives in the array (Physical Location).
+- Generation: A version counter for that slot (Logical Identity).
 
-**The Check:**
+The Check:
+
 When accessing `map.get(key)`:
 
 ```typescript
@@ -117,7 +111,7 @@ class SlotMap<T> {
 
 ## 5. Implementation: Rust
 
-In Rust, this pattern is critical because it satisfies the Borrow Checker. The `SlotMap` owns the data; the rest of the program just holds `Key` structs (integers). We use an **Implicit Free List** woven into the `Slot` enum to save memory.
+In Rust, this pattern is critical because it satisfies the Borrow Checker. The `SlotMap` owns the data; the rest of the program just holds `Key` structs (integers). We use an Implicit Free List woven into the `Slot` enum to save memory.
 
 ```rust
 use std::num::NonZeroU32;

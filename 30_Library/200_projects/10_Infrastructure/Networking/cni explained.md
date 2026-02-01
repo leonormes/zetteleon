@@ -1,23 +1,15 @@
 ---
 aliases: []
 author: "projectcalico.docs.tigera.io"
-confidence: ""
 created: 2025-03-25T06:18:51Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:17+00:00
 source: "https://qdnqn.com/networking-on-kubernetes-calico-and-ebpf/"
-source_of_truth: []
 status: ""
 tags: ["calico", "SoftwareEngineering/Networking"]
 title: CNI Explained
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 ## Kubernetes Calico: Networking Explained

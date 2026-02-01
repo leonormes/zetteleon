@@ -1,14 +1,8 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-12-31T16:31:46+00:00
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:09:14+00:00
 status: ""
 tags: []
 title: cloud hardware prompt

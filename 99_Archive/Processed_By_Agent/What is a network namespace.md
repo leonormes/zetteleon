@@ -18,7 +18,7 @@ updated:
 version: "null"
 ---
 
-**Links:**
+Links:
 
 - Up: [[MOC - Container Networking Model]]
 - Related: [[What is a veth pair]], [[How to create and connect network namespaces]]
@@ -35,11 +35,11 @@ Containers need network isolation to prevent conflicts (e.g., multiple container
 
 A network namespace contains:
 
-- **Network interfaces** (lo, eth0, etc.) - separate from the host
-- **IP addresses** - assigned independently per namespace
-- **Routing tables** - each namespace has its own routing decisions
-- **iptables rules** - firewall rules are namespace-specific
-- **Network statistics** - counters and metrics isolated per namespace
+- Network interfaces (lo, eth0, etc.) - separate from the host
+- IP addresses - assigned independently per namespace
+- Routing tables - each namespace has its own routing decisions
+- iptables rules - firewall rules are namespace-specific
+- Network statistics - counters and metrics isolated per namespace
 
 ### Creating a Network Namespace
 
@@ -64,10 +64,10 @@ The host system operates in the "root" namespace—the default network context c
 
 ### What This Enables
 
-- **Container isolation**: Each Pod gets its own IP and can bind to any port without conflicts
-- **Multi-tenancy**: Different applications can coexist with identical network configs
-- **Security boundaries**: Network policies can enforce isolation between namespaces
-- **Kubernetes Pods**: kubelet creates a network namespace for each Pod
+- Container isolation: Each Pod gets its own IP and can bind to any port without conflicts
+- Multi-tenancy: Different applications can coexist with identical network configs
+- Security boundaries: Network policies can enforce isolation between namespaces
+- Kubernetes Pods: kubelet creates a network namespace for each Pod
 
 ### What Breaks If This Fails
 

@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-08-19T23:32:29Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:29+00:00
 status: ""
 tags: []
 title: Prime Numbers Create a Mathematical Trapdoor
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 The security of modern public-key cryptography (like RSA) is built on a trapdoor function: an operation that is easy to do in one direction but extremely difficult to reverse without a secret piece of information.

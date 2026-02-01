@@ -18,18 +18,18 @@ uid:
 updated: 
 ---
 
-A critical failure in many productivity systems is the conflation of **Goals** and **Intentions**. Disentangling them prevents burnout and coercion.
+A critical failure in many productivity systems is the conflation of Goals and Intentions. Disentangling them prevents burnout and coercion.
 
 ## 📐 The Distinction
 
-- **Goals are Destinations:** Focused on a future outcome (e.g., "Finish the app," "Climb the mountain"). They provide the target.
-- **Intentions are "How You Show Up":** Process-oriented and grounded in the present. They define the _quality_ of attention applied to the task (e.g., "Work with creativity," "Face fear with compassion").
+- Goals are Destinations: Focused on a future outcome (e.g., "Finish the app," "Climb the mountain"). They provide the target.
+- Intentions are "How You Show Up": Process-oriented and grounded in the present. They define the _quality_ of attention applied to the task (e.g., "Work with creativity," "Face fear with compassion").
 
 ## 🧠 Burnout Prevention
 
-If an agent is too tightly attached to the **Goal (Outcome)** without caring for the **Intention (Process)**, the result is self-coercion and exhaustion. Aligning the two ensures that the journey toward the goal is intrinsically rewarding, regardless of the eventual success.
+If an agent is too tightly attached to the Goal (Outcome) without caring for the Intention (Process), the result is self-coercion and exhaustion. Aligning the two ensures that the journey toward the goal is intrinsically rewarding, regardless of the eventual success.
 
 ## 🛰️ Relation to ProdOS
 
-- **Goal:** The Jira Ticket / Project Outcome.
-- **Intention:** The specific focus or "spirit" brought to the **Workbench** session (captured in the Spark of a HEAD note).
+- Goal: The Jira Ticket / Project Outcome.
+- Intention: The specific focus or "spirit" brought to the Workbench session (captured in the Spark of a HEAD note).

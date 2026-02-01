@@ -1,32 +1,25 @@
 ---
 aliases: ["Code as Configuration", "Configuration Management SoT", "SCM Patterns SoT"]
-confidence: "null"
 created: 2025-12-12T00:00:00Z
-epistemic: "null"
 last_reviewed: 
-modified: 2026-01-23T18:09:18+00:00
-purpose: "To define the core principles of Software Configuration Management"
-review_interval: "6 months"
-see_also: ["[[SoT - Automated Cloud Resource Hibernation]]", "[[SoT - PRODOS (System Architecture)]]", "[[SoT -\\\\\\\", \\\\\\\"[[SoT - Automated Cloud Resource Hibernation]]"]
-source_of_truth: []
+modified: 2026-02-01T15:07:52+00:00
 status: "stable"
 tags: ["devops", "patterns", "scm", "SoftwareEngineering", "SoftwareEngineering/Architecture"]
 title: SoT - Software Configuration Management Patterns
 type: "SoT"
-uid: 
 updated: 
 ---
 
-> **Core Principle: "** A software system is the sum of **all** its code and artifacts (data, docs, tests). If you cannot reproduce the system from version control, you do not have control."
+> Core Principle: " A software system is the sum of all its code and artifacts (data, docs, tests). If you cannot reproduce the system from version control, you do not have control."
 
 ## 2. Working Knowledge (Stable Foundation)
 
-- **Everything is Code:** Not just application logic, but infrastructure, configuration, and documentation must be versioned. The "shape" of the artifacts defines the system.
-- **The Mainline Model:** A single, shared codebase (Main/Trunk) is the source of truth. Divergence (branching) should be short-lived to minimize integration pain.
-- **Continuous Integration (CI):** The practice of merging all developer working copies to the shared mainline several times a day.
+- Everything is Code: Not just application logic, but infrastructure, configuration, and documentation must be versioned. The "shape" of the artifacts defines the system.
+- The Mainline Model: A single, shared codebase (Main/Trunk) is the source of truth. Divergence (branching) should be short-lived to minimize integration pain.
+- Continuous Integration (CI): The practice of merging all developer working copies to the shared mainline several times a day.
   - _Goal:_ To detect integration errors as quickly as possible ("Fail Fast").
   - _Rule:_ You cannot integrate if the build is broken. Fix the build immediately.
-- **Reproducibility:** You must be able to rebuild any version of the software at any time. This requires versioning not just source code, but build tools, libraries, and environments.
+- Reproducibility: You must be able to rebuild any version of the software at any time. This requires versioning not just source code, but build tools, libraries, and environments.
 
 ---
 
@@ -34,30 +27,30 @@ updated:
 
 ### The Integration Trade-off
 
-Agile methodologies (like XP) advocate for **Continuous Integration**.
+Agile methodologies (like XP) advocate for Continuous Integration.
 
-- **The Tension:** Integration takes time (overhead).
-- **The Solution:** Err on the side of integrating _too often_. Frequent integration reduces the "integration hell" of merging long-lived branches.
-- **Optimization:** Find the balance point where the speed of feedback outweighs the overhead of the commit process.
+- The Tension: Integration takes time (overhead).
+- The Solution: Err on the side of integrating _too often_. Frequent integration reduces the "integration hell" of merging long-lived branches.
+- Optimization: Find the balance point where the speed of feedback outweighs the overhead of the commit process.
 
 ### Architecture and SCM
 
 SCM is not just a tooling concern; it is an architectural one.
 
-- **Conway's Law:** The structure of the SCM system (repos, branches) often mirrors the communication structure of the organization.
-- **Patterns:**
-  - **Mainline:** Single source of truth.
-  - **Private Workspace:** Developers work in isolation but sync frequently.
-  - **Repository per Component:** Decouples lifecycles but increases integration complexity.
+- Conway's Law: The structure of the SCM system (repos, branches) often mirrors the communication structure of the organization.
+- Patterns:
+  - Mainline: Single source of truth.
+  - Private Workspace: Developers work in isolation but sync frequently.
+  - Repository per Component: Decouples lifecycles but increases integration complexity.
 
 ---
 
 ## 4. Minimum Viable Understanding (MVU)
 
-1. **Version Everything:** Code, Config, Docs, Infrastructure.
-2. **Commit Early, Commit Often:** Reduce the delta between your workspace and the Mainline.
-3. **Don't Break the Build:** The Mainline must always be in a deployable state.
-4. **Automate the Process:** Humans make mistakes; scripts do not. Use tools to automate builds, tests, and deployments.
+1. Version Everything: Code, Config, Docs, Infrastructure.
+2. Commit Early, Commit Often: Reduce the delta between your workspace and the Mainline.
+3. Don't Break the Build: The Mainline must always be in a deployable state.
+4. Automate the Process: Humans make mistakes; scripts do not. Use tools to automate builds, tests, and deployments.
 
 ---
 
@@ -77,4 +70,4 @@ Git, as a distributed version control system, embodies many of the core principl
 
 ### Patterns: Configuration Management
 
-Configuration should be treated as a first-class citizen in SCM. The **Generative Infrastructure Configuration (GIC) Framework** offers a robust pattern for managing complex environments by treating configuration as a generated output derived from a minimal "Configuration Kernel" (Intent) via code (Protocol). This reduces fragility and ensures consistency. See [[SoT - Generative Infrastructure Configuration Framework]].
+Configuration should be treated as a first-class citizen in SCM. The Generative Infrastructure Configuration (GIC) Framework offers a robust pattern for managing complex environments by treating configuration as a generated output derived from a minimal "Configuration Kernel" (Intent) via code (Protocol). This reduces fragility and ensures consistency. See [[SoT - Generative Infrastructure Configuration Framework]].

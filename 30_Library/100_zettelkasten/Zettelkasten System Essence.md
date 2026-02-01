@@ -1,22 +1,14 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-03-24T17:07:03Z
-epistemic: "null"
 id: "1b"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:29+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:23+00:00
 status: "null"
 tags: ["topic/pkm/zettelkasten"]
 title: Zettelkasten System Essence
 type: "permanent"
-uid: 
 updated: 
-version: "null"
 ---
 
 The Zettelkasten exists in the mental processes of the individual using it, supporting and enhancing their cognitive functions.

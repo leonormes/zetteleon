@@ -52,10 +52,10 @@ Successful routine building for ADHD requires a different approach than what wor
 
 ## Example Workflow
 
-1. **Pick one area to optimize** (e.g., morning chaos).
-2. **Note friction points** (e.g., forgetting essentials).
-3. **Identify the smallest possible change** (e.g., set out clothes the night before).
-4. **Layer in one change at a time** until it feels automatic.
-5. **Gradually add more tweaks**, always checking for intrinsic motivation.
+1. Pick one area to optimize (e.g., morning chaos).
+2. Note friction points (e.g., forgetting essentials).
+3. Identify the smallest possible change (e.g., set out clothes the night before).
+4. Layer in one change at a time until it feels automatic.
+5. Gradually add more tweaks, always checking for intrinsic motivation.
 
 > "Any habit or routine that is going to work for the long term has to come from intrinsic motivation that’s aligned with your values and your life, not what social media or experts say you 'should' do." - Caren Magill

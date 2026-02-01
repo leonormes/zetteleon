@@ -22,15 +22,15 @@ Mental models and emotions exist in a constant bidirectional feedback loop where
 
 ## The Two-Way Process
 
-**Emotion Shapes the Model**: Strong emotional events act like a highlighter, marking experiences as important and ensuring they get saved into long-term mental models. A single frightening experience can build a powerful model associating certain situations with danger.
+Emotion Shapes the Model: Strong emotional events act like a highlighter, marking experiences as important and ensuring they get saved into long-term mental models. A single frightening experience can build a powerful model associating certain situations with danger.
 
-**The Model Triggers Emotion**: Once built, the model becomes an active filter for reality. The brain uses this model to interpret ambiguous sensory data and predict potential outcomes. When the model is activated, it preemptively triggers emotions and physiological responses, even if there's no actual threat present.
+The Model Triggers Emotion: Once built, the model becomes an active filter for reality. The brain uses this model to interpret ambiguous sensory data and predict potential outcomes. When the model is activated, it preemptively triggers emotions and physiological responses, even if there's no actual threat present.
 
 ## Example: The Untrustworthy Colleague
 
-- **The Model**: "Alex is always trying to undermine me"
-- **The Situation**: Alex sends an email pointing out a small error in your report
-- **The Loop in Action**:
+- The Model: "Alex is always trying to undermine me"
+- The Situation: Alex sends an email pointing out a small error in your report
+- The Loop in Action:
   - Brain interprets this neutral event through the "untrustworthy Alex" model
   - Interpretation becomes "Alex is trying to make me look bad" rather than "Alex is being helpful"
   - This interpretation triggers emotional response: anger, suspicion, anxiety

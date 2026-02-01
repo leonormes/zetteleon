@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-08-31T16:07:33Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:32+00:00
 status: ""
 tags: ["bilingualism", "development", "language-acquisition", "nature-nurture"]
 title: Language Acquisition and Development
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Understanding the nature of pre-linguistic thought provides valuable insights into the process of language acquisition and development, highlighting the complex interplay between innate cognitive structures and environmental factors.
@@ -30,9 +22,9 @@ Understanding the nature of pre-linguistic thought provides valuable insights in
 
 ## Research Findings
 
-- **Bilingualism effects**: Individuals might shift values and beliefs depending on the language they're using (culture-affiliation hypothesis)
-- **Foreign language effect**: Thinking ability can be temporarily affected when using a foreign language
-- **Genetic factors**: Genes influence language abilities and disabilities, showing the interplay between nature and nurture
+- Bilingualism effects: Individuals might shift values and beliefs depending on the language they're using (culture-affiliation hypothesis)
+- Foreign language effect: Thinking ability can be temporarily affected when using a foreign language
+- Genetic factors: Genes influence language abilities and disabilities, showing the interplay between nature and nurture
 
 ## Questions
 

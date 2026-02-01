@@ -1,24 +1,17 @@
 ---
 aliases: ["Choice Architecture", "Nudge Theory"]
-confidence: "0.9"
 created: 2025-11-10T17:13:00Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: "To define Choice Architecture as a tool for influencing behavior."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:36+00:00
 status: "seedling"
 tags: ["behavior-change", "design", "environment", "nudge", "TheHuman/Psychology"]
 title: Choice Architecture Designs the Environment to Make Desired Behaviors Easier
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Choice Architecture Designs the Environment to Make Desired Behaviors Easier
 
-**Summary:** Choice architecture is the practice of designing the environment in which people make decisions to "nudge" them toward certain behaviors without restricting their freedom of choice.
+Summary: Choice architecture is the practice of designing the environment in which people make decisions to "nudge" them toward certain behaviors without restricting their freedom of choice.
 
-**Details:** This strategy recognizes that context often determines behavior more than intention. Techniques include setting beneficial defaults (e.g., opt-out organ donation), increasing the visibility and accessibility of desired options (e.g., placing water at eye-level), and adding friction to undesirable options. It is a powerful way to bridge the intention-action gap by making good choices the path of least resistance.
+Details: This strategy recognizes that context often determines behavior more than intention. Techniques include setting beneficial defaults (e.g., opt-out organ donation), increasing the visibility and accessibility of desired options (e.g., placing water at eye-level), and adding friction to undesirable options. It is a powerful way to bridge the intention-action gap by making good choices the path of least resistance.

@@ -1,27 +1,20 @@
 ---
 aliases: []
-confidence: "0.8"
 created: 2025-10-31T09:54:00Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: "Illustrate advanced animal intelligence through raccoon behavior."
-review_interval: "90"
-see_also: ["Creativity Combines Memories and Skills in Novel Ways.md"]
-source_of_truth: []
+modified: 2026-02-01T15:08:28+00:00
 status: "seedling"
 tags: ["animal-cognition", "problem-solving"]
 title: Raccoons Demonstrate Complex Problem-Solving Skills
 type: "example"
-uid: 
 updated: 
 ---
 
 ## Raccoons Demonstrate Complex Problem-Solving Skills
 
-**Summary:** Raccoons show surprisingly advanced problem-solving abilities, including multi-step logical reasoning and creative solutions.
+Summary: Raccoons show surprisingly advanced problem-solving abilities, including multi-step logical reasoning and creative solutions.
 
-**Details:** Observed behaviors include:
+Details: Observed behaviors include:
 
 - Solving a series of interconnected puzzles to reach food
 - Discovering shortcuts that bypass intended challenge steps

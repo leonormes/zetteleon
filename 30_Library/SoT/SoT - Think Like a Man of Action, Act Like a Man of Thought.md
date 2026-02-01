@@ -1,26 +1,19 @@
 ---
 aliases: ["Action-Oriented Thinking", "Bergson's Principle", "MVA"]
-confidence: "5/5"
 created: 2025-12-07T00:00:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:17+00:00
-purpose: "To define the operational philosophy of balancing analysis with execution."
-review_interval: "3 months"
-see_also: ["[[Think Like a Man of Action]]"]
-source_of_truth: []
+modified: 2026-02-01T15:07:49+00:00
 status: "stable"
 tags: ["action", "TheHuman/Health/ADHD", "thinking", "topic/productivity"]
 title: SoT - Think Like a Man of Action, Act Like a Man of Thought
 type: "SoT"
-uid: 
 updated: 
 ---
 
 ## 2. The Core Conflict
 
-- **The "Thinker" Trap:** You fall into "Encyclopedia Building"—collecting ideas with no endpoint. Thinking becomes a form of procrastination.
-- **The "Actor" Trap:** You react impulsively without a plan, leading to wasted effort or "motion" rather than progress.
+- The "Thinker" Trap: You fall into "Encyclopedia Building"—collecting ideas with no endpoint. Thinking becomes a form of procrastination.
+- The "Actor" Trap: You react impulsively without a plan, leading to wasted effort or "motion" rather than progress.
 
 ---
 
@@ -30,31 +23,31 @@ updated:
 
 Thinking must be decisive, not exploratory.
 
-- **The Question:** "What is the _single, specific action_ this thinking is supposed to lead to?"
-- **The Effect:** If you can't answer, you are procrastinating. Stop thinking.
+- The Question: "What is the _single, specific action_ this thinking is supposed to lead to?"
+- The Effect: If you can't answer, you are procrastinating. Stop thinking.
 
 ### B. Define the Action (The MVA)
 
 "Thoughtful Action" does not mean "Big Action." It means "Intentional Action."
 
-- **The Method:** Identify the **Minimum Viable Action (MVA)**.
+- The Method: Identify the Minimum Viable Action (MVA).
   - _Not:_ "Learn about nutrition."
   - _Is:_ "Write 'Buy one book' on the list."
-- **The Why:** Small actions bypass the "Wall of Awful" (initiation paralysis).
+- The Why: Small actions bypass the "Wall of Awful" (initiation paralysis).
 
 ### C. Time-Bound Containers (The Constraint)
 
 Thinking expands to fill the time available.
 
-- **The Rule:** 15 minutes to Plan -> 5 minutes to Do.
-- **The Hard Stop:** When the timer rings, thinking ends. You must execute the best _current_ hypothesis.
+- The Rule: 15 minutes to Plan -> 5 minutes to Do.
+- The Hard Stop: When the timer rings, thinking ends. You must execute the best _current_ hypothesis.
 
 ### D. Act First, Then Think (The Feedback Loop)
 
 Real-world data beats theoretical models.
 
-- **The Cycle:** Guess -> Do -> Reflect.
-- **The Shift:** Instead of thinking to find the _perfect_ action, take a _good-enough_ action and then "think" about the result. This turns "failure" into "data."
+- The Cycle: Guess -> Do -> Reflect.
+- The Shift: Instead of thinking to find the _perfect_ action, take a _good-enough_ action and then "think" about the result. This turns "failure" into "data."
 
 ---
 
@@ -69,25 +62,25 @@ Real-world data beats theoretical models.
 
 ### Core Concept
 
-This principle, attributed to Henri Bergson, advocates for a synthesis of **intellect** and **execution**. It rejects the dichotomy between the "dreamer" and the "doer", suggesting that optimal performance requires the integration of strategic foresight with decisive movement.
+This principle, attributed to Henri Bergson, advocates for a synthesis of intellect and execution. It rejects the dichotomy between the "dreamer" and the "doer", suggesting that optimal performance requires the integration of strategic foresight with decisive movement.
 
 ### 1. Thinking like a Man of Action
 
-- **Operationalise the Abstract:** Do not merely philosophise about fairness or ideals. Instead, ask: _"What specific, small action can I take in the next hour to advance this?"_
-- **Pragmatic Urgency:** Replace open-ended analysis with decision-oriented thinking. Focus mental energy on the "next step" rather than the distant theoretical horizon.
-- **The "Trial Run" Mental Model:** Use the intellect to simulate the execution phase. How will this course play out in the real world? This differs from passive worry; it is active stress-testing of a plan.
+- Operationalise the Abstract: Do not merely philosophise about fairness or ideals. Instead, ask: _"What specific, small action can I take in the next hour to advance this?"_
+- Pragmatic Urgency: Replace open-ended analysis with decision-oriented thinking. Focus mental energy on the "next step" rather than the distant theoretical horizon.
+- The "Trial Run" Mental Model: Use the intellect to simulate the execution phase. How will this course play out in the real world? This differs from passive worry; it is active stress-testing of a plan.
 
 ### 2. Acting like a Man of Thought
 
-- **Reflective Execution:** Carry reflection _inside_ the movement. Do not simply react to stimuli (e.g., pressing send, shouting, rushing).
-- **Real-time Calibration:** Maintain a feedback loop during action. _"Why am I doing this? Is this action currently aligned with the desired outcome?"_
-- **Precision:** Whether speaking or crafting, ensure every component is intentional. Avoid "thought-less" momentum where activity masquerades as progress.
+- Reflective Execution: Carry reflection _inside_ the movement. Do not simply react to stimuli (e.g., pressing send, shouting, rushing).
+- Real-time Calibration: Maintain a feedback loop during action. _"Why am I doing this? Is this action currently aligned with the desired outcome?"_
+- Precision: Whether speaking or crafting, ensure every component is intentional. Avoid "thought-less" momentum where activity masquerades as progress.
 
 ### 3. The Synthesis (The Golden Mean)
 
-- **Balance:** Strategy (Thinking) and Tactics (Action) are not separate phases but a continuous cycle.
-- **Wisdom as Practice:** Real wisdom is not static knowledge but is revealed through the quality of one's engagement with the world.
-- **Avoid Extremes:**
+- Balance: Strategy (Thinking) and Tactics (Action) are not separate phases but a continuous cycle.
+- Wisdom as Practice: Real wisdom is not static knowledge but is revealed through the quality of one's engagement with the world.
+- Avoid Extremes:
     - _Pure Thought:_ Leads to paralysis and "analysis paralysis".
     - _Pure Action:_ Leads to recklessness and inefficient expenditure of energy.
 

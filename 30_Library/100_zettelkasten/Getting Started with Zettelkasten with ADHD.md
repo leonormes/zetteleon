@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-08-23T20:31:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:33+00:00
 status: ""
 tags: ["TheHuman/Health/ADHD", "topic/pkm/zettelkasten", "topic/productivity"]
 title: Getting Started with Zettelkasten with ADHD
 type: "permanent"
-uid: 
 updated: 
-version: ""
 ---
 
 To overcome the inertia of starting a Zettelkasten, especially with ADHD, the key is to allow for imperfection. The goal is not to build a perfect system, but to start thinking and connecting ideas, embracing the concept that [[Your Zettelkasten is a Mirror not a Monument]].

@@ -1,27 +1,21 @@
 ---
 aliases: []
-confidence: "0.9"
 created: 2025-11-22T15:05:01Z
-epistemic: "principle"
 last_reviewed: "2025-11-22"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "Advocates for grouping subnets logically rather than flattening them."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: "seedling"
 tags: ["best-practices", "SoftwareEngineering/Networking", "terraform"]
 title: Strategy - Hierarchical Subnetting
 type: "strategy"
-uid: 
 updated: 
 ---
 
 ## Hierarchical Subnetting
 
-**Summary:** Hierarchical subnetting involves carving out intermediate "blocks" of IP space for related resources before allocating specific subnets, rather than slicing a large network into a flat list of small subnets.
+Summary: Hierarchical subnetting involves carving out intermediate "blocks" of IP space for related resources before allocating specific subnets, rather than slicing a large network into a flat list of small subnets.
 
-**Details:**
+Details:
+
 Instead of calculating a small subnet directly from a large parent prefix (e.g., a `/29` from a `/24` using a large index), this strategy suggests:
 
 1. Carving a larger intermediate block (e.g., a `/26` "jumpbox area") from the parent.

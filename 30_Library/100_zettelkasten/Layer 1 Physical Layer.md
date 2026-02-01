@@ -1,26 +1,18 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-17T16:32:47Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:32+00:00
 status: ""
 tags: ["SoftwareEngineering/Networking"]
 title: Layer 1 Physical Layer
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 The Physical Layer transmits raw bit streams over a physical medium. It deals with physical characteristics such as voltage levels, data rates, and physical connections.
 
-- **Problem Solved:** Provides the physical means of transmitting data over a network, including cables, wireless signals, and other hardware.
+- Problem Solved: Provides the physical means of transmitting data over a network, including cables, wireless signals, and other hardware.
 
 Let me break down how Layer 7 (Application Layer) manifests in Node.js code, particularly when making API calls.
 

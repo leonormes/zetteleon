@@ -1,21 +1,13 @@
 ---
 aliases: ["Self-Control"]
-confidence: "1"
 created: 2025-11-01T21:23:00Z
-epistemic: "definition"
 last_reviewed: "2025-11-01"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "To define the character strength of self-regulation."
-review_interval: "90"
-see_also: ["[[Discipline and Values]]", "[[Emotional Dysregulation]]", "[[Executive Functions]]", "[[Inner Strength & Resilience Skills (Your Strong Spirit)]]", "[[Responding vs. Reacting]]", "[[VIA Virtue of Temperance]]", "[[Your emotions are real but they are your responsibility]]"]
-source_of_truth: []
+modified: 2026-02-01T15:08:27+00:00
 status: "evergreen"
 tags: ["character-strength", "emotional-intelligence", "self-control", "self-regulation", "virtue"]
 title: Self-Regulation is Managing Your Emotions and Actions
 type: "concept"
-uid: 
 updated: 
-version: "1"
 ---
 
 Self-regulation is the ability to manage your emotions, thoughts, and actions in a controlled and deliberate way.

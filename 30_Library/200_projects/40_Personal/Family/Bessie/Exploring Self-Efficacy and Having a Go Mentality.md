@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-20T20:17:45Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: []
 title: Exploring Self-Efficacy and Having a Go Mentality
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 - "Even when a maths problem feels really hard, what's one tiny thing you _could_ try, even if it's just writing down the first number or drawing a simple part of the problem?" - _Encourages breaking tasks into small, achievable chunks to build confidence._

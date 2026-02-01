@@ -22,11 +22,11 @@ updated:
 
 ## MOC - Time Boxing for ADHD Brains
 
-> **Inclusion criteria:** Strategies and concepts specific to time boxing for ADHD individuals; must address neurodivergent challenges.
+> Inclusion criteria: Strategies and concepts specific to time boxing for ADHD individuals; must address neurodivergent challenges.
 
 ### Core Concept: What Time Boxing Is
 
-**Time boxing** is allocating a fixed, pre-determined amount of time to a task, then stopping when time is up—regardless of completion status. This technique is especially powerful for ADHD brains, which struggle with time perception and task boundaries.
+Time boxing is allocating a fixed, pre-determined amount of time to a task, then stopping when time is up—regardless of completion status. This technique is especially powerful for ADHD brains, which struggle with time perception and task boundaries.
 
 ### The Mindset Shift
 
@@ -38,7 +38,7 @@ For ADHD individuals, the thought of "completing" large tasks triggers overwhelm
 
 #### Progress Over Perfection
 
-**"Done is better than perfect"** is the mantra. Time boxing enforces this by creating hard stops. When the timer ends, you assess and move forward—preventing perfectionism paralysis.
+"Done is better than perfect" is the mantra. Time boxing enforces this by creating hard stops. When the timer ends, you assess and move forward—preventing perfectionism paralysis.
 
 ### Before You Start: Task Preparation
 
@@ -68,12 +68,12 @@ This creates achievable success criteria and prevents scope creep.
 
 #### Choose Your Duration
 
-**Start short and build up:**
+Start short and build up:
 
-- **Pomodoro Standard:** 25 minutes work + 5 minute break
-- **ADHD-Adapted:** Start with 10-15 minutes if 25 feels too long
-- **Be honest:** How long can you realistically focus?
-- **Better to underestimate** than feel defeated by overcommitting
+- Pomodoro Standard: 25 minutes work + 5 minute break
+- ADHD-Adapted: Start with 10-15 minutes if 25 feels too long
+- Be honest: How long can you realistically focus?
+- Better to underestimate than feel defeated by overcommitting
 
 [[The Proximal Zone of Development for Habit Change]] rel:: guides-estimation
 
@@ -101,11 +101,11 @@ Visual timers make abstract time concrete:
 
 #### Work Until Timer Rings
 
-**The "No Matter What" rule:**
+The "No Matter What" rule:
 
 - Commit to working _only_ on that specific task
 - If you finish early: take extra break or assess next step
-- **If timer rings before finishing: STOP.** This is crucial—you succeeded by working the time
+- If timer rings before finishing: STOP. This is crucial—you succeeded by working the time
 
 #### Managing Hyperfocus
 
@@ -117,19 +117,19 @@ Timer serves as external cue to break hyperfocus on low-priority tasks, promptin
 
 #### Take Mandatory Breaks
 
-Breaks are **non-negotiable** for ADHD brains:
+Breaks are non-negotiable for ADHD brains:
 
-- **Standard:** 5 minutes after 25-minute box
-- **Longer:** 15-30 minutes after four boxes
-- **Real breaks:** Move, hydrate, look outside—not social media scrolling
+- Standard: 5 minutes after 25-minute box
+- Longer: 15-30 minutes after four boxes
+- Real breaks: Move, hydrate, look outside—not social media scrolling
 
 #### Review and Adjust
 
 After each box or break:
 
-1. **Acknowledge what you did** (even if not "everything")
-2. **Assess the task:** Done? What's next small step?
-3. **Assess time estimate:** Too long? Too short? Adjust for next time
+1. Acknowledge what you did (even if not "everything")
+2. Assess the task: Done? What's next small step?
+3. Assess time estimate: Too long? Too short? Adjust for next time
 
 This is a learning process—calibrating your time perception.
 
@@ -147,15 +147,15 @@ Share time boxing goals with accountability partner or join online body doubling
 
 #### Sensory and Environmental Support
 
-- **Fidget tools:** Use if sensory input helps focus
-- **Change locations:** Novel environment provides dopamine boost
-- **Physical removal of distractions:** Move phone out of sight
+- Fidget tools: Use if sensory input helps focus
+- Change locations: Novel environment provides dopamine boost
+- Physical removal of distractions: Move phone out of sight
 
 #### Gamification and Rewards
 
-- **Make it a game:** "How many words in this sprint?"
-- **Track streaks:** Visual progress motivates
-- **Reward completion:** Small, healthy rewards after successful boxes
+- Make it a game: "How many words in this sprint?"
+- Track streaks: Visual progress motivates
+- Reward completion: Small, healthy rewards after successful boxes
 
 #### Externalize Everything
 
@@ -175,28 +175,28 @@ Time boxing works synergistically with:
 
 ### Practical Example: Kitchen Cleaning
 
-**Without time boxing (ADHD nightmare):**
+Without time boxing (ADHD nightmare):
 
 - Face entire messy kitchen
 - Get overwhelmed by scope
 - Start one thing, get distracted
 - Hours later: still messy, feel defeated
 
-**With time boxing (manageable):**
+With time boxing (manageable):
 
-1. **Break down:**
+1. Break down:
    - Clear and wash dishes
    - Wipe counters
    - Clean sink
    - Sweep floor
 
-2. **Time Box 1 (20 min):** "Clear and wash dishes"
+2. Time Box 1 (20 min): "Clear and wash dishes"
    - Define "Done": All dishes in dishwasher or drying rack
    - Set timer, work ONLY on dishes
    - Timer rings—maybe 80% done—that's 80% more than before! Success.
    - Take break
 
-3. **Time Box 2 (15 min):** "Wipe counters"
+3. Time Box 2 (15 min): "Wipe counters"
    - Define "Done": All main surfaces clear and wiped
    - Work, stop, break
 
@@ -206,29 +206,29 @@ Result: Clear measurable progress, better time perception, no defeat
 
 #### Today: Your First Time Box
 
-1. **Pick ONE small, specific task**
-2. **Set timer for 10-15 minutes** (start conservative)
-3. **Define "done" for this box**
-4. **Minimize distractions**
-5. **Work until timer rings**
-6. **Stop and acknowledge success**
+1. Pick ONE small, specific task
+2. Set timer for 10-15 minutes (start conservative)
+3. Define "done" for this box
+4. Minimize distractions
+5. Work until timer rings
+6. Stop and acknowledge success
 
 That's it. You can build from there.
 
 ### Key Principles
 
-- **Process = Success:** Working the time is the goal
-- **Stop when timer rings:** Even if not "finished"
-- **Breaks are mandatory:** Not optional
-- **Start small:** 10-15 minutes is valid
-- **Be kind:** Some days are harder—adjust accordingly
-- **One box > zero boxes:** On hard days, one 10-minute box is a win
+- Process = Success: Working the time is the goal
+- Stop when timer rings: Even if not "finished"
+- Breaks are mandatory: Not optional
+- Start small: 10-15 minutes is valid
+- Be kind: Some days are harder—adjust accordingly
+- One box > zero boxes: On hard days, one 10-minute box is a win
 
 ### Why This Works for ADHD
 
-- **Makes time tangible:** Visual timers overcome time blindness
-- **Reduces overwhelm:** Small time commitments feel manageable
-- **Creates urgency:** Gentle deadline activates interest-based nervous system
-- **Prevents perfectionism:** Hard stops force progress over perfection
-- **Builds time perception:** Calibrates internal sense of duration
-- **Provides structure:** External framework supports executive function
+- Makes time tangible: Visual timers overcome time blindness
+- Reduces overwhelm: Small time commitments feel manageable
+- Creates urgency: Gentle deadline activates interest-based nervous system
+- Prevents perfectionism: Hard stops force progress over perfection
+- Builds time perception: Calibrates internal sense of duration
+- Provides structure: External framework supports executive function

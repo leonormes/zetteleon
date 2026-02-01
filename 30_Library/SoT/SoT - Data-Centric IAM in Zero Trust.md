@@ -1,50 +1,43 @@
 ---
 aliases: ["Data-Centric Security", "PDP-PEP Architecture", "Zero Trust IAM"]
-confidence: "5/5"
 created: 2025-03-15T10:12:06Z
-epistemic: "theory"
 last_reviewed: "2025-12-29"
-modified: 2026-01-23T18:09:20+00:00
-purpose: "To define IAM within a Zero Trust framework as a function of data relationships, specifying the schemas and logic required for trust establishment."
-review_interval: "6 months"
-see_also: ["[[MOC - Cloud-Native Authentication]]", "[[SoT - Digital Identity]]", "[[SoT - Modern Authentication Standards]]"]
-source_of_truth: []
+modified: 2026-02-01T15:07:59+00:00
 status: "stable"
 tags: ["data-centric", "IAM", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "TheHuman/Identity", "zero-trust"]
 title: SoT - Data-Centric IAM in Zero Trust
 type: "SoT"
-uid: 
 updated: 
 ---
 
 ## 1. Definitive Statement
 
-In a Zero Trust architecture, **Identity and Access Management (IAM)** is a continuous, calculated state rather than a static gateway. It is a data-processing function where access is the output of an evaluation of three decoupled datasets: **Identity assertions**, **Contextual signals**, and **Policy logic**.
+In a Zero Trust architecture, Identity and Access Management (IAM) is a continuous, calculated state rather than a static gateway. It is a data-processing function where access is the output of an evaluation of three decoupled datasets: Identity assertions, Contextual signals, and Policy logic.
 
 ## 2. The Core Data Model (Schema)
 
-To architect a Zero Trust IAM system, we must define the structural entities involved. These are concrete data objects that the **Policy Decision Point (PDP)** must ingest.
+To architect a Zero Trust IAM system, we must define the structural entities involved. These are concrete data objects that the Policy Decision Point (PDP) must ingest.
 
 ### A. The Subject Entity (Identity)
 
 The _Subject_ is the actor requesting access, defined by bound attributes (claims).
 
-- **Source:** Identity Provider (IdP) / Directory Service.
-- **Key Attributes:** `sub` (Subject ID), `groups` (Affiliation), `auth_time` (Freshness), `amr` (Auth Method Reference).
+- Source: Identity Provider (IdP) / Directory Service.
+- Key Attributes: `sub` (Subject ID), `groups` (Affiliation), `auth_time` (Freshness), `amr` (Auth Method Reference).
 
 ### B. The Context Entity (Environment)
 
 The _Context_ is the ephemeral state surrounding the request (metadata wrapper).
 
-- **Source:** EDR, Network telemetry, Threat Intel.
-- **Key Attributes:** `device_id`, `trust_level` (Managed/Compliant), `network_location`, `risk_score` (0-100).
+- Source: EDR, Network telemetry, Threat Intel.
+- Key Attributes: `device_id`, `trust_level` (Managed/Compliant), `network_location`, `risk_score` (0-100).
 
 ### C. The Resource Entity (Object)
 
 The _Resource_ is the target asset, which must self-describe its security requirements.
 
-- **Source:** Resource Server / CMDB.
-- **Key Attributes:** `classification` (Confidential/PII), `sensitivity_label` (Required `auth_strength`).
+- Source: Resource Server / CMDB.
+- Key Attributes: `classification` (Confidential/PII), `sensitivity_label` (Required `auth_strength`).
 
 ---
 
@@ -60,8 +53,8 @@ $$
 
 ### Architectural Planes
 
-1. **Data Plane (The Muscle):** Handles actual data transmission. Sits behind the **PEP (Policy Enforcement Point)**.
-2. **Control Plane (The Brain):** Computes trust scores and issues instructions. Contains the **PDP (Policy Decision Point)**.
+1. Data Plane (The Muscle): Handles actual data transmission. Sits behind the PEP (Policy Enforcement Point).
+2. Control Plane (The Brain): Computes trust scores and issues instructions. Contains the PDP (Policy Decision Point).
 
 ---
 
@@ -115,16 +108,16 @@ This JSON schema formalizes the "equation" by defining how these attributes must
 
 ## Case Study: OIDC + Kubernetes RBAC
 
-The relationship between an **OIDC Token** (Identity Data) and a **Kubernetes RBAC Binding** (Policy Data) is a perfect implementation of this model.
+The relationship between an OIDC Token (Identity Data) and a Kubernetes RBAC Binding (Policy Data) is a perfect implementation of this model.
 
-1. **Identity (JWT):** The IdP asserts `groups: ["9999-8888…"]`.
-2. **Policy (RoleBinding):** Kubernetes defines a link between `subject.name: "9999-8888…"` and `role: view`.
-3. **Relational Mapping:** The Group Object ID acts as a **Foreign Key** connecting the remote Identity database to the local Permission table.
+1. Identity (JWT): The IdP asserts `groups: ["9999-8888…"]`.
+2. Policy (RoleBinding): Kubernetes defines a link between `subject.name: "9999-8888…"` and `role: view`.
+3. Relational Mapping: The Group Object ID acts as a Foreign Key connecting the remote Identity database to the local Permission table.
 
 ---
 
 ## 5. Minimum Viable Understanding (MVU)
 
-1. **Schema over Strings:** Identities are structured objects (claims sets), not just usernames.
-2. **Intersection Logic:** Authorization is the calculated intersection of Identity Claims, Context Signals, and Resource Policies.
-3. **Segregation of Duties:** The component that _moves_ the data (PEP) never decides _if_ it should move; it obeys the PDP.
+1. Schema over Strings: Identities are structured objects (claims sets), not just usernames.
+2. Intersection Logic: Authorization is the calculated intersection of Identity Claims, Context Signals, and Resource Policies.
+3. Segregation of Duties: The component that _moves_ the data (PEP) never decides _if_ it should move; it obeys the PDP.

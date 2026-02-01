@@ -1,19 +1,12 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-31T13:15:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:34+00:00
 status: ""
 tags: ["diagram", "TheHuman/Philosophy", "topic/productivity"]
 title: Diagram - Philosophy-Productivity Connections
 type: "visualization"
-uid: 
 updated: 
 ---
 
@@ -47,15 +40,15 @@ graph LR
 
 ### Key Connections Explained
 
-1. **Existentialism → Purpose Reframing**:
+1. Existentialism → Purpose Reframing:
    - Choosing tasks as expressions of self
    - Morita therapy as commitment to action
 
-2. **Absurdism → ADHD Productivity**:
+2. Absurdism → ADHD Productivity:
    - Interest-based work as rebellion against artificial norms
    - Neurodiversity as authentic engagement
 
-3. **Constructed Meaning → PKM Systems**:
+3. Constructed Meaning → PKM Systems:
    - Weekly reviews combat meaning drift
    - Personal knowledge as active meaning-making
 

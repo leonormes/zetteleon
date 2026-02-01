@@ -19,6 +19,6 @@ updated:
 
 ## In Music as Expression the Artist Controls the Creative Vision
 
-**Summary:** In music that is primarily a form of expression, the artist or creating group maintains control over the final output.
+Summary: In music that is primarily a form of expression, the artist or creating group maintains control over the final output.
 
-**Details:** The creators are driven to get a specific feeling or idea out into the world, rather than trying to fit their work into a pre-existing commercial formula or box. Their vision guides the work, preserving its authentic intent.
+Details: The creators are driven to get a specific feeling or idea out into the world, rather than trying to fit their work into a pre-existing commercial formula or box. Their vision guides the work, preserving its authentic intent.

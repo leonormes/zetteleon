@@ -19,20 +19,20 @@ updated:
 
 ## 1. Definitive Statement
 
-> Azure utilizes a customized **Hyper-V Type-1 Hypervisor**. Unlike AWS Nitro, it relies on a **Root Partition** (a privileged Windows kernel) to manage scheduling and I/O, though newer generations (D_v6) utilize "Azure Boost" hardware offloading to reduce this overhead.
+> Azure utilizes a customized Hyper-V Type-1 Hypervisor. Unlike AWS Nitro, it relies on a Root Partition (a privileged Windows kernel) to manage scheduling and I/O, though newer generations (D_v6) utilize "Azure Boost" hardware offloading to reduce this overhead.
 
 ---
 
 ## 2. The vNUMA Complexity
 
-Azure presents a **Virtual NUMA (vNUMA)** topology to the guest, which attempts to map to the underlying hardware but introduces abstraction risks.
+Azure presents a Virtual NUMA (vNUMA) topology to the guest, which attempts to map to the underlying hardware but introduces abstraction risks.
 
 ### 2.1 The Misalignment Risk
 
 Hyper-V may construct a large VM (e.g., `Standard_D96s_v6`) from non-contiguous physical cores if the host is fragmented.
 
-- **The Problem:** The guest sees "1 NUMA Node," but physically, the memory spans two sockets.
-- **The Cost:** A thread accesses "Local RAM" (according to vNUMA) but physically traverses the UPI link (Remote RAM), incurring a **1.5x - 2.5x latency penalty**.
+- The Problem: The guest sees "1 NUMA Node," but physically, the memory spans two sockets.
+- The Cost: A thread accesses "Local RAM" (according to vNUMA) but physically traverses the UPI link (Remote RAM), incurring a 1.5x - 2.5x latency penalty.
 
 ### 2.2 Root Partition Jitter
 

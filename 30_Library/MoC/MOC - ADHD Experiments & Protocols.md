@@ -1,29 +1,22 @@
 ---
 aliases: ["ADHD Lab", "ADHD Strategy Experiments", "Protocol Testing"]
-confidence: "5/5"
 created: 2025-12-16T12:00:00Z
-epistemic: "experimental"
 last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2026-01-08T15:03:27+00:00
-purpose: ""
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:07+00:00
 status: "active"
 tags: ["experiments", "hypothesis", "protocols", "TheHuman/Health/ADHD", "topic/productivity", "type/moc"]
 title: MOC - ADHD Experiments & Protocols
 type: "map"
-uid: 
 updated: 
 ---
 
 > [!dashboard] Live View
-> For the full status board of all experiments, see: **[[Lab Experiments.base]]**
+> For the full status board of all experiments, see: [[Lab Experiments.base]]
 
 ## 1. The Laboratory Mandate
 
 > [!abstract] Reality as a Unit Test
-> A note in the vault is useless until it is tested in reality. We do not collect "good ideas"; we curate **validated protocols**.
+> A note in the vault is useless until it is tested in reality. We do not collect "good ideas"; we curate validated protocols.
 >
 > This MOC tracks the lifecycle of an ADHD strategy:
 > `Hypothesis (Note) -> Experiment (Action) -> Validation (SoT) or Rejection (Archive)`
@@ -34,9 +27,9 @@ updated:
 
 To move a strategy from "Candidate" to "Validated," follow this 3-step loop:
 
-1. **Define:** Convert a note into a `type: hypothesis`. Define the **Context** and **Expected Outcome**.
-2. **Test:** Mark status as `active`. Commit to the protocol for 1 week. Log results in the note.
-3. **Review:** Rate the efficacy.
+1. Define: Convert a note into a `type: hypothesis`. Define the Context and Expected Outcome.
+2. Test: Mark status as `active`. Commit to the protocol for 1 week. Log results in the note.
+3. Review: Rate the efficacy.
     - _Pass:_ Mark `status: validated`. Merge findings into the relevant [[SoT - ADHD Executive Dysfunction]].
     - _Fail:_ Mark `status: rejected`.
 

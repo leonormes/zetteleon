@@ -1,26 +1,18 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-09-07T15:32:45Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:28+00:00
 status: ""
 tags: []
 title: Responding vs. Reacting
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
-_Mushin No Shin_ enables individuals to respond thoughtfully rather than react impulsively. For example, grabbing an umbrella when it rains is a **response**, while getting angry about the rain is a **reaction**. The goal is to cultivate the space between stimulus and response.
+_Mushin No Shin_ enables individuals to respond thoughtfully rather than react impulsively. For example, grabbing an umbrella when it rains is a response, while getting angry about the rain is a reaction. The goal is to cultivate the space between stimulus and response.
 
-**Links:** [[Self-Regulation is Managing Your Emotions and Actions]], [[Understanding Emotion]], [[Mushin No Shin Mind Without Mind]], [[Musashi's Duel with Sasaki Kojiro]]
+Links: [[Self-Regulation is Managing Your Emotions and Actions]], [[Understanding Emotion]], [[Mushin No Shin Mind Without Mind]], [[Musashi's Duel with Sasaki Kojiro]]
 
 ---
 

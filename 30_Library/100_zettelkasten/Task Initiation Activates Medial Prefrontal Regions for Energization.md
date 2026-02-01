@@ -1,20 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-29T16:38:00Z
-epistemic: "fact"
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
+modified: 2026-02-01T15:08:26+00:00
 source: "[[MOC - The Phases of Task Execution and the Impact of ADHD]]"
-source_of_truth: []
 status: "seedling"
 tags: ["attention", "executive_function", "prefrontal_cortex", "TheHuman/Neuroscience"]
 title: Task Initiation Activates Medial Prefrontal Regions for Energization
 type: "concept"
-uid: 
 updated: 
 ---
 

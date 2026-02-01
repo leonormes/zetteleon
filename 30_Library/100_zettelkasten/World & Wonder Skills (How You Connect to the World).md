@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-07-10T10:12:15Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:23+00:00
 status: ""
 tags: []
 title: World & Wonder Skills (How You Connect to the World)
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 _These skills are about how you find joy, meaning, and your place in the wider world._

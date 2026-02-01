@@ -18,14 +18,14 @@ updated:
 version: ""
 ---
 
-**Predictive Processing** (or the **Bayesian Brain** hypothesis) is the leading modern theory for how the brain uses mental models. It posits that the brain is not a passive receiver of sensory information, but an active and constant **prediction machine**.
+Predictive Processing (or the Bayesian Brain hypothesis) is the leading modern theory for how the brain uses mental models. It posits that the brain is not a passive receiver of sensory information, but an active and constant prediction machine.
 
 The process works in a continuous loop:
 
-1. **Prediction:** Your brain uses its current mental model to generate a prediction of the next wave of sensory input it expects to receive.
-2. **Sensory Input:** Your senses deliver the actual information from the world.
-3. **Error Signal:** The brain compares its prediction to the actual sensory input. The difference between them is the **"prediction error."**
-4. **Model Update:**
+1. Prediction: Your brain uses its current mental model to generate a prediction of the next wave of sensory input it expects to receive.
+2. Sensory Input: Your senses deliver the actual information from the world.
+3. Error Signal: The brain compares its prediction to the actual sensory input. The difference between them is the "prediction error."
+4. Model Update:
    - If the prediction was accurate, the error is low, and your confidence in your model is strengthened. The brain efficiently ignores the expected.
    - If the prediction was wrong, a large prediction error signal is generated. This signal forces the brain to update its mental model to better match reality.
 

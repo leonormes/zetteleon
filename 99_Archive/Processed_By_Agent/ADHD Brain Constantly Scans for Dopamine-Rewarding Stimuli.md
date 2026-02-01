@@ -18,17 +18,17 @@ updated:
 version: "1"
 ---
 
-**Summary:** The ADHD brain has a different dopamine regulation system that causes it to constantly scan the environment for something that will provide a sense of reward and stimulation. This is not a conscious choice but a fundamental neurological drive.
+Summary: The ADHD brain has a different dopamine regulation system that causes it to constantly scan the environment for something that will provide a sense of reward and stimulation. This is not a conscious choice but a fundamental neurological drive.
 
-**Mechanism:**
+Mechanism:
 
 When a person with ADHD stumbles upon a new topic, hobby, or idea that piques their curiosity, it provides a small but significant release of dopamine—a key neurotransmitter associated with motivation, focus, and pleasure. This initial spark feels good, creating a powerful feedback loop: the brain wants more dopamine, so it continues to engage with the stimulus.
 
-**Feedback Loop:**
+Feedback Loop:
 
 As the person tentatively explores the new interest, each new piece of information and each small success acts as another "hit" of dopamine. The more they learn, the more stimulated and rewarded they feel, and the more they want to engage. This creates a gradually building wave of interest and motivation.
 
-**Contrast with Neurotypical Brains:**
+Contrast with Neurotypical Brains:
 
 Unlike neurotypical brains that can sustain motivation through importance or external rewards, the ADHD brain requires continuous novelty and intrinsic interest to maintain dopamine-driven engagement.
 

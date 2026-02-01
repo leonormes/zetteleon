@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-02-19T10:50:18Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:26+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:16+00:00
 status: ""
 tags: ["SoftwareEngineering/Networking"]
 title: "The Jumpbox sg Doesn't Have an Inbound Rule"
 type: "question"
-uid: 
 updated: 
-version: "1"
 ---
 
 Does it Need to Have One to Allow the Response for the Outbound
@@ -24,9 +16,9 @@ No, the security group does not need an inbound rule to allow responses for outb
 
 ## Key Points
 
-- Outbound Rules**: Ensure the security group has appropriate outbound rules to allow traffic to the internet (e.g., `0.0.0.0/0` on ports 80 and 443 for HTTP/HTTPS).
-- Inbound Rules**: These are only required if you want to allow incoming connections initiated from external sources (e.g., SSH access on port 22).
-- Stateful Behavior**: Responses to outbound requests are automatically allowed without needing explicit inbound rules.
+- Outbound Rules: Ensure the security group has appropriate outbound rules to allow traffic to the internet (e.g., `0.0.0.0/0` on ports 80 and 443 for HTTP/HTTPS).
+- Inbound Rules: These are only required if you want to allow incoming connections initiated from external sources (e.g., SSH access on port 22).
+- Stateful Behavior: Responses to outbound requests are automatically allowed without needing explicit inbound rules.
 
 ## Recommendations
 

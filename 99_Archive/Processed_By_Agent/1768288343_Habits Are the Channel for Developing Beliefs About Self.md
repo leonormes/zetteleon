@@ -18,53 +18,53 @@ updated:
 version: "1"
 ---
 
-**Summary:** The real reason habits matter is not just the better results they deliver, but because they are the channel through which you develop your deepest beliefs about yourself. Habits are the mechanism by which identity is constructed and transformed.
+Summary: The real reason habits matter is not just the better results they deliver, but because they are the channel through which you develop your deepest beliefs about yourself. Habits are the mechanism by which identity is constructed and transformed.
 
-**Habits as Identity Construction:**
+Habits as Identity Construction:
 
-**Why Habits Are the Channel:**
+Why Habits Are the Channel:
 
-1. **Repeated Action:** Habits are by definition repeated behaviors
-2. **Evidence Generation:** Each repetition creates evidence of "who you are"
-3. **Belief Formation:** Accumulated evidence solidifies into beliefs
-4. **Identity Emergence:** Beliefs about self coalesce into identity
+1. Repeated Action: Habits are by definition repeated behaviors
+2. Evidence Generation: Each repetition creates evidence of "who you are"
+3. Belief Formation: Accumulated evidence solidifies into beliefs
+4. Identity Emergence: Beliefs about self coalesce into identity
 
-**The Flow:**
+The Flow:
 
 ```sh
 Habits → Evidence → Beliefs → Identity → (reinforces) Habits
 ```
 
-**What This Means:**
+What This Means:
 
 Habits aren't just about productivity, health, or achievement. They're fundamentally about self-authorship—the process of consciously constructing who you are.
 
-**Beyond Outcomes:**
+Beyond Outcomes:
 
 Most people think about habits instrumentally: "I exercise to lose weight" or "I read to gain knowledge." But the deeper impact is identity-based: "I exercise to become an athlete" or "I read to become a learned person."
 
-**The outcomes are temporary; the identity change is permanent.**
+The outcomes are temporary; the identity change is permanent.
 
-**Why This Perspective Matters:**
+Why This Perspective Matters:
 
-**Traditional View:**
+Traditional View:
 
 - Habits → Better results → Happy life
 - Focus: Outcomes and achievements
 - Problem: When goal is reached, habit often stops
 
-**Identity View:**
+Identity View:
 
 - Habits → Changed identity → Different person → Different life
 - Focus: Who you're becoming
 - Benefit: Sustainable because behavior matches self
 
-**Practical Implication:**
+Practical Implication:
 
 When choosing which habits to build, ask not just "What will this help me achieve?" but "Who will this help me become?"
 
 The person you become through your habits is more valuable than any specific outcome those habits deliver. Results are external and temporary; identity is internal and lasting.
 
-**The Deep Truth:**
+The Deep Truth:
 
 You cannot separate habits from identity. Your habits _are_ your identity-in-action. Change your habits, and you inevitably change your identity. Change your identity, and your habits naturally follow.

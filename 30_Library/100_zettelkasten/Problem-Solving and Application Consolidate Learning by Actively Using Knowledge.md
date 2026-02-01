@@ -1,24 +1,17 @@
 ---
 aliases: ["Learning by Doing"]
-confidence: "0.9"
 created: 2025-11-10T16:13:00Z
-epistemic: "principle"
 last_reviewed: ""
-modified: 2026-01-23T18:09:30+00:00
-purpose: "To define problem-solving as a learning strategy."
-review_interval: "90"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:28+00:00
 status: "seedling"
 tags: ["application", "learning", "problem-solving", "schema-theory"]
 title: Problem-Solving and Application Consolidate Learning by Actively Using Knowledge
 type: "concept"
-uid: 
 updated: 
 ---
 
 ## Problem-Solving and Application Consolidate Learning by Actively Using Knowledge
 
-**Summary:** Problem-solving and application are learning strategies that involve actively using acquired knowledge to address challenges, which consolidates understanding and makes knowledge more flexible and transferable.
+Summary: Problem-solving and application are learning strategies that involve actively using acquired knowledge to address challenges, which consolidates understanding and makes knowledge more flexible and transferable.
 
-**Details:** Through repeated practice and application, procedures and concepts become more automatic (schema automation), which reduces cognitive load and frees up working memory to focus on more complex, strategic aspects of a problem. This moves learning beyond mere recall into higher-order cognitive operations.
+Details: Through repeated practice and application, procedures and concepts become more automatic (schema automation), which reduces cognitive load and frees up working memory to focus on more complex, strategic aspects of a problem. This moves learning beyond mere recall into higher-order cognitive operations.

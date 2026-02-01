@@ -18,7 +18,7 @@ updated:
 version: "2"
 ---
 
-**Summary:** Motion, or preparatory activity, is often used as a procrastination tactic because it allows individuals to feel like they're making progress without facing the risks inherent in action. While some motion is necessary, it becomes a problem when it perpetually delays meaningful work.
+Summary: Motion, or preparatory activity, is often used as a procrastination tactic because it allows individuals to feel like they're making progress without facing the risks inherent in action. While some motion is necessary, it becomes a problem when it perpetually delays meaningful work.
 
 This concept can be broken down into several key ideas:
 

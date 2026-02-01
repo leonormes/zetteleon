@@ -1,45 +1,37 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-10-20T09:04:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:29+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:24+00:00
 status: ""
 tags: []
 title: The Time Management Matrix (Eisenhower Matrix)
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
-**The Time Management Matrix** (also known as the Eisenhower Matrix) is the central tool for practicing [[Habit 3 - Put First Things First]]. It categorizes all activities based on two dimensions: **urgency** and **importance**.
+The Time Management Matrix (also known as the Eisenhower Matrix) is the central tool for practicing [[Habit 3 - Put First Things First]]. It categorizes all activities based on two dimensions: urgency and importance.
 
-- **Urgency:** Requires immediate attention. It's usually visible and presses on us.
-- **Importance:** Relates to results. It contributes to your mission, values, and high-priority goals.
+- Urgency: Requires immediate attention. It's usually visible and presses on us.
+- Importance: Relates to results. It contributes to your mission, values, and high-priority goals.
 
 ## The Four Quadrants
 
-1. **Quadrant I: Urgent & Important**
-   - **Activities:** Crises, pressing problems, deadline-driven projects.
-   - **Result of Focus:** Stress, burnout, constant crisis management. Many people are beaten up by Q1 problems all day long.
+1. Quadrant I: Urgent & Important
+   - Activities: Crises, pressing problems, deadline-driven projects.
+   - Result of Focus: Stress, burnout, constant crisis management. Many people are beaten up by Q1 problems all day long.
 
-2. **Quadrant II: Not Urgent & Important**
-   - **Activities:** Prevention, relationship building, new opportunities, planning, recreation. This is the heart of effective personal management.
-   - **Result of Focus:** Vision, perspective, balance, discipline, control, and few crises.
+2. Quadrant II: Not Urgent & Important
+   - Activities: Prevention, relationship building, new opportunities, planning, recreation. This is the heart of effective personal management.
+   - Result of Focus: Vision, perspective, balance, discipline, control, and few crises.
 
-3. **Quadrant III: Urgent & Not Important**
-   - **Activities:** Interruptions, some calls, some mail, some reports, some meetings, popular activities.
-   - **Result of Focus:** Short-term focus, crisis management, feeling of being a victim and out of control.
+3. Quadrant III: Urgent & Not Important
+   - Activities: Interruptions, some calls, some mail, some reports, some meetings, popular activities.
+   - Result of Focus: Short-term focus, crisis management, feeling of being a victim and out of control.
 
-4. **Quadrant IV: Not Urgent & Not Important**
-   - **Activities:** Trivia, some calls, time wasters, pleasant activities.
-   - **Result of Focus:** Total irresponsibility, dependence on others.
+4. Quadrant IV: Not Urgent & Not Important
+   - Activities: Trivia, some calls, time wasters, pleasant activities.
+   - Result of Focus: Total irresponsibility, dependence on others.
 
 ## The Quadrant II Paradigm
 

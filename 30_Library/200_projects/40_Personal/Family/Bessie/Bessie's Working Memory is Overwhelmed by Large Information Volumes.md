@@ -1,21 +1,13 @@
 ---
 aliases: ["Bessie's Working Memory Challenges"]
-confidence: ""
 created: 2025-07-18T00:00:00Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: []
 title: "Bessie's Working Memory is Overwhelmed by Large Information Volumes"
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Bessie's diagnoses of ADHD and dyslexia present significant challenges with executive functions, particularly working memory. This manifests as difficulty concentrating, forgetfulness, and struggling with organization.

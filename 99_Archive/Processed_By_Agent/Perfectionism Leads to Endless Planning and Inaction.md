@@ -20,7 +20,7 @@ version: "1"
 
 Perfectionism often manifests as over-planning and endless refinement, which are forms of motion that prevent action. The pursuit of the "perfect" approach becomes a significant barrier to starting.
 
-This aligns with Voltaire's observation: **"The best is the enemy of the good."**
+This aligns with Voltaire's observation: "The best is the enemy of the good."
 
 In an attempt to avoid mistakes or create an optimal plan, an individual can get stuck in a loop of analysis and preparation. This cycle of motion includes:
 

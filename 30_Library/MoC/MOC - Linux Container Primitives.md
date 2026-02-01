@@ -1,19 +1,12 @@
 ---
 aliases: ["Container Primitives MOC", "Linux Primitives Map"]
-confidence: "5/5"
 created: 2025-10-26T17:16:00Z
-epistemic: "technical"
 last_reviewed: 2025-12-24
-modified: 2026-01-08T15:03:29+00:00
-purpose: "Map of Content for Linux kernel primitives enabling containers."
-review_interval: "1 year"
-see_also: ["[[SoT - Linux Container Primitives]]"]
-source_of_truth: ["[[SoT - Linux Container Primitives]]"]
+modified: 2026-02-01T15:08:05+00:00
 status: "stable"
 tags: ["kernel", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "type/moc"]
 title: MOC - Linux Container Primitives
 type: "map"
-uid: 
 updated: 
 ---
 
@@ -47,4 +40,4 @@ updated:
 
 ---
 
-**Related:** [[Networking MOC]], [[Cloud Networking MOC]]
+Related: [[Networking MOC]], [[Cloud Networking MOC]]

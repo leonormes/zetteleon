@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: "null"
 created: 2025-07-20T13:32:32Z
-epistemic: "null"
 last_reviewed: "null"
-modified: 2026-01-23T18:09:30+00:00
-purpose: "null"
-review_interval: "null"
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:31+00:00
 status: "null"
 tags: ["knowledge", "logic", "methodology", "openness", "proof", "topic/maths"]
 title: Mathematics Established Knowledge Through Open Demonstration
 type: "null"
-uid: 
 updated: 
-version: "null"
 ---
 
 In direct opposition to the alchemical method, mathematics founded its claim to knowledge on radical openness. Its credibility rested on demonstrations that were, by their nature, accessible to all for scrutiny.

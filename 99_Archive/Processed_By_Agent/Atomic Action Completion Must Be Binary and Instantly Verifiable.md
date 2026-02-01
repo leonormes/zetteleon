@@ -19,6 +19,6 @@ updated:
 
 ## Atomic Action Completion Must Be Binary and Instantly Verifiable
 
-**Summary:** A core property of an atomic action is that its completion must be binary (either 0 or 1) and instantly verifiable, with no "partially done" states.
+Summary: A core property of an atomic action is that its completion must be binary (either 0 or 1) and instantly verifiable, with no "partially done" states.
 
-**Details:** This ensures clarity and prevents ambiguity about whether a task is finished. It allows for immediate feedback and accurate tracking of progress.
+Details: This ensures clarity and prevents ambiguity about whether a task is finished. It allows for immediate feedback and accurate tracking of progress.

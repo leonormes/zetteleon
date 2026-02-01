@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-06-20T15:26:10Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:24+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:10+00:00
 status: ""
 tags: ["independence", "strengths", "TheHuman/Family/Bessie", "TheHuman/Motivation"]
 title: Capacity for Independent Work and Self-Motivation
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Bessie demonstrates a strong capacity for independent work and self-motivation when tasks align with her interests and when she has appropriate support structures in place. This strength can be leveraged to develop her autonomy and confidence in learning.
@@ -39,15 +31,15 @@ Bessie demonstrates a strong capacity for independent work and self-motivation w
 
 This capacity for independent work reflects several key character strengths from the [[Character and Virtue MOC]]:
 
-**[[VIA Virtue of Courage]]:**
+[[VIA Virtue of Courage]]:
 
-- **[[VIA Virtue of Courage|Perseverance (Persistence)]]**: Finishing what one starts; persisting in a course of action despite obstacles
-- **[[VIA Virtue of Courage|Zest (Vitality)]]**: Approaching life with excitement and energy; living life as an adventure
+- [[VIA Virtue of Courage|Perseverance (Persistence)]]: Finishing what one starts; persisting in a course of action despite obstacles
+- [[VIA Virtue of Courage|Zest (Vitality)]]: Approaching life with excitement and energy; living life as an adventure
 
-**[[VIA Virtue of Temperance]]:**
+[[VIA Virtue of Temperance]]:
 
-- **[[VIA Virtue of Temperance|Self-Regulation (Self-Control)]]**: Regulating what one feels and does; being disciplined; controlling one's appetites and emotions
-- **[[VIA Virtue of Temperance|Prudence]]**: Being careful about one's choices; not taking undue risks
+- [[VIA Virtue of Temperance|Self-Regulation (Self-Control)]]: Regulating what one feels and does; being disciplined; controlling one's appetites and emotions
+- [[VIA Virtue of Temperance|Prudence]]: Being careful about one's choices; not taking undue risks
 
 Her ability to work independently when properly supported demonstrates emerging self-discipline and persistence that can be cultivated into mature character virtues.
 

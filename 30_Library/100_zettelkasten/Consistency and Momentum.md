@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-05-26T14:06:58Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:32+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:35+00:00
 status: ""
 tags: ["TheHuman/Health/ADHD"]
 title: Consistency and Momentum
 type: ""
-uid: 
 updated: 
-version: ""
 ---
 
 Maintaining routines and consistent effort over the long term can be difficult due to fluctuating motivation, energy levels, and the brain's need for novelty. Initial enthusiasm for a new system often fades, leading to abandonment before the long-term benefits of compounding knowledge can be realized.

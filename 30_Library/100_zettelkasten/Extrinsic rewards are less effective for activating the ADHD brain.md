@@ -1,21 +1,13 @@
 ---
 aliases: []
-confidence: ""
 created: 2025-07-08T18:23:46Z
-epistemic: ""
 last_reviewed: ""
-modified: 2026-01-23T18:09:31+00:00
-purpose: ""
-review_interval: ""
-see_also: []
-source_of_truth: []
+modified: 2026-02-01T15:08:34+00:00
 status: ""
 tags: ["TheHuman/Health/ADHD"]
 title: Extrinsic rewards are less effective for activating the ADHD brain
 type: "permanent"
-uid: 
 updated: 
-version: "1"
 ---
 
 This note has been consolidated into [[Why Importance and Rewards Fail to Motivate ADHD Brains]].
