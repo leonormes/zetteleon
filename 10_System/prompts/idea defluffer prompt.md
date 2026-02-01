@@ -1,13 +1,9 @@
 ---
-aliases: []
 created: 2025-12-04T10:52:37Z
-last_reviewed: null
 modified: 2026-02-01T15:09:13+00:00
-status: null
 tags: [domain/sub-domain, tags]
 title: idea defluffer prompt
-type: null
-updated: null
+type: prompt
 ---
 
 ROLE: Act as a Knowledge Graph Engineer. Your goal is to convert unstructured "Input Text" into a strict Obsidian markdown structure.

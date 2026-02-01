@@ -4,7 +4,7 @@ created: 2025-11-13T02:28:53Z
 last_reviewed: 
 modified: 2026-02-01T15:09:14+00:00
 status: 
-tags: []
+tags: ["sot", "prodos"]
 title: create a Source of Truth (SoT) note
 type: prompt
 updated: 
