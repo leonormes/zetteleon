@@ -2,7 +2,7 @@
 aliases: [Deployment Master Guide, FitFile Deployment Playbook, Start Here - Deployment]
 created: 2025-12-21T09:34:38Z
 last_reviewed: 2026-02-01
-modified: 2026-02-01T15:35:00+00:00
+modified: 2026-02-01T17:02:00+00:00
 Reviewed: true
 status: stable
 tags: [ff_deploy, index, process]
@@ -34,6 +34,7 @@ Understand the _Why_ before the _How_. These notes define the stable logic of th
 Follow the **[[SoT - FitFile Deployment - Implementation Manual]]** for the step-by-step checklist.
 
 #### Phase 0-2: Foundation & Infrastructure
+
 - **Pre-Flight**: CIDR checks, Vault paths, Deployment Keys.
 - **Network**: VNETs, Peering, DNS, and Firewall coordination.
 - **Infrastructure**: AKS/EKS Cluster provisioning via Terraform.
@@ -41,11 +42,13 @@ Follow the **[[SoT - FitFile Deployment - Implementation Manual]]** for the step
 - **Prerequisite:** [[Azure Customer Checklist]]—Customer tenant preparation.
 
 #### Phase 3-4: Platform & Application
+
 - **Platform**: "Cluster OS" (ArgoCD, VSO, Ingress) installation.
 - **Application**: Deploying the `ffnode` umbrella chart (Microservices, Persistence).
   - Detailed Guide: [[SoT - FitFile Deployment - Helm Architecture & Operations]]
 
 #### Phase 5-6: Access & Handoff
+
 - **Access**: TLS Certificates, Ingress, and Public DNS.
 - **Handoff**: Client-side routing validation and Smoke Tests.
 

@@ -4,8 +4,8 @@ modified: 2026-02-01T15:08:13+00:00
 Reviewed: true
 status: evergreen
 tags: [ff_deploy]
-title: Azure Customer Checklist
-type: SoT
+title: Protocol - Azure Customer Preparation
+type: Protocol
 updated: 2026-02-01
 ---
 

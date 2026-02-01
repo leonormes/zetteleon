@@ -12,7 +12,7 @@ type: map
 
 ## 0. Prerequisites
 
-- [[Azure Customer Checklist]] rel:: prerequisite - Mandatory preparation steps for the Azure Tenant and Subscription before deployment begins.
+- [[Protocol - Azure Customer Preparation]] rel:: prerequisite - Mandatory preparation steps for the Azure Tenant and Subscription before deployment begins.
 
 ## 1. Core Operational Knowledge
 
@@ -27,4 +27,5 @@ type: map
 
 ## 3. Related Project Resources
 
-- [[SoT - FitFile Deployment - Operations & Troubleshooting]] rel:: related - FitFile Specifics.
+- [[SoT - FitFile Deployment]] rel:: parent - The canonical Source of Truth for the platform deployment.
+- [[SoT - FitFile Deployment - Troubleshooting and Known Issues]] rel:: related - FitFile Specifics.
