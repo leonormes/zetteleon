@@ -1,6 +1,6 @@
 ---
 created: 2026-02-02T07:37:39+00:00
-modified: 2026-02-02T08:09:54+00:00
+modified: 2026-02-02T09:28:18+00:00
 tags: [---]
 title: "Tesler's Law and Torvalds' Complexity"
 ---
