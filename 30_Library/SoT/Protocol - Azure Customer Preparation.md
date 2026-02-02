@@ -1,9 +1,10 @@
 ---
 created: 2025-02-07T12:57:56Z
 modified: 2026-02-01T15:08:13+00:00
-Reviewed: true
+Reviewed: false
 status: evergreen
-tags: [ff_deploy]
+tags:
+  - ff_deploy
 title: Protocol - Azure Customer Preparation
 type: Protocol
 updated: 2026-02-01

@@ -1,9 +1,15 @@
 ---
 created: 2025-02-07T12:57:55Z
 modified: 2026-02-01T15:07:47+00:00
-Reviewed: true
+Reviewed: false
 status: stable
-tags: [architecture, deployment, fitfile, helm, kubernetes, sop]
+tags:
+  - architecture
+  - deployment
+  - fitfile
+  - helm
+  - kubernetes
+  - sop
 title: SoT - FitFile Deployment - Helm Architecture & Operations
 type: SoT
 ---
@@ -133,12 +139,32 @@ helm upgrade --install ff-a ./charts/ffnode \
 
 To improve multi-tenancy and maintainability, the following evolution is planned:
 
-### 5.1 Separation of Concerns (Config vs. Code)
+### 5.1 Separation of Concerns (The "Data-Driven" API)
 
-Transition from environment files to a strict Config/Code Split in separate repositories:
+**Critique (Current State):**
+The current chart suffers from "Pass-Through Complexity" and a "Boolean Swamp" (`deploy.persistence`, `deploy.monitoring`), requiring users to manually wire dependencies (e.g., `vaultSecrets` templating).
 
-- Deployment Repo: Immutable Code (`charts/ffnode`).
-- Config Repo: Mutable Config (`_common/prod.yaml`, `barts/prod.yaml`, `eoe/sde.yaml`).
+**Target State (Proposed API):**
+We are shifting to a strict **Intent-Based Data Model** enforced by JSON Schema.
+
+```typescript
+interface FFNodeValues {
+  // 1. Meta-Architecture (Replaces Booleans)
+  profile: 'local-dev' | 'prod-ha' | 'edge-airgapped';
+  
+  // 2. Identity & Access (Global Truth)
+  tenant: {
+    key: string; // e.g., "barts"
+    displayName: string;
+  };
+  
+  // 3. Service Graph (The Glue)
+  services: {
+    database: 'managed' | 'external'; // Chart decides topology based on profile
+    auth: AuthService;
+  };
+}
+```
 
 ### 5.2 ApplicationSets (App of Apps)
 

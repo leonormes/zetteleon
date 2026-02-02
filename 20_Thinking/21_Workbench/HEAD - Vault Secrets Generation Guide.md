@@ -1,17 +1,20 @@
 ---
 created: 2025-12-04T12:02:41Z
-last_reviewed: null
-modified: 2026-01-30T22:09:31+00:00
+last_reviewed:
+modified: 2026-02-01T20:52:31+00:00
 status: processing
-tags: [state/thinking]
+tags:
+  - state/thinking
 title: HEAD - Vault Secrets Generation Guide
 type: head
-updated: null
+updated:
+uuid: cc0f2c94-c31e-468e-b100-87e3fa31b0c8
 ---
 
 - Where are all the secrets configurations and usage spread across my code.
     - [x] Find the conflunce for the vault setup.
-    - [ ] Find the secret assignments in the helm.
+    - [ ] Find the secret assignments in the helm. ^2026-02-01T20-52-13
+    - [📱 View in Todoist app](todoist://task?id=6fvV923M8X83WFwv) (Created: 📝 2026-02-01T20:52)
     - [ ] Check the clusters for where the secrets are
     - [ ] Check the vso docs for how to set it up
     - [ ] Check the LCA secrets implementation

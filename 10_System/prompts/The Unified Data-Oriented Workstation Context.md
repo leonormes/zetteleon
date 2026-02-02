@@ -1,6 +1,7 @@
 ---
 created: 2026-01-11T08:05:46+00:00
 modified: 2026-02-01T15:09:14+00:00
+tags: [type/context, domain/coding]
 title: The Unified Data-Oriented Workstation Context
 ---
 

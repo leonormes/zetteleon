@@ -1,6 +1,7 @@
 ---
 created: 2026-01-16T10:50:09+00:00
 modified: 2026-01-22T12:13:44+00:00
+tags: [type/persona, domain/coding, methodology]
 title: The Type-Driven Onion
 ---
 

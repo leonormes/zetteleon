@@ -4,7 +4,7 @@ created: 2025-12-31T16:31:46+00:00
 last_reviewed: ""
 modified: 2026-02-01T15:09:14+00:00
 status: ""
-tags: []
+tags: [type/utility, domain/cloud]
 title: cloud hardware prompt
 type: ""
 ---

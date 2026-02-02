@@ -1,19 +1,69 @@
 views:
   - type: table
-    name: Table
+    name: All Prompts
     filters:
       and:
         - file.folder == "10_System/prompts"
     order:
       - file.name
-      - version
-      - purpose
     sort:
       - property: file.ctime
         direction: DESC
     properties:
-      note.purpose:
-        wrap: true
-    columnSize:
-      file.name: 350
-      note.purpose: 917
+      tags:
+        width: 200
+  - type: table
+    name: Personas
+    filters:
+      and:
+        - file.folder == "10_System/prompts"
+        - file.tags.contains("type/persona")
+    order:
+      - file.name
+    properties:
+      tags:
+        width: 200
+  - type: table
+    name: Protocols
+    filters:
+      and:
+        - file.folder == "10_System/prompts"
+        - file.tags.contains("type/protocol")
+    order:
+      - file.name
+    properties:
+      tags:
+        width: 200
+  - type: table
+    name: Systems
+    filters:
+      and:
+        - file.folder == "10_System/prompts"
+        - file.tags.contains("type/system")
+    order:
+      - file.name
+    properties:
+      tags:
+        width: 200
+  - type: table
+    name: Contexts
+    filters:
+      and:
+        - file.folder == "10_System/prompts"
+        - file.tags.contains("type/context")
+    order:
+      - file.name
+    properties:
+      tags:
+        width: 200
+  - type: table
+    name: Utilities
+    filters:
+      and:
+        - file.folder == "10_System/prompts"
+        - file.tags.contains("type/utility")
+    order:
+      - file.name
+    properties:
+      tags:
+        width: 200

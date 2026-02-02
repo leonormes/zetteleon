@@ -1,8 +1,9 @@
 ---
 created: 2025-11-13T16:51:12Z
 modified: 2026-02-01T15:08:21+00:00
-Reviewed: true
-tags: [backup]
+Reviewed: false
+tags:
+  - backup
 title: How to Backup and Restore Kubernetes Clusters Using Velero
 type: SoT
 ---

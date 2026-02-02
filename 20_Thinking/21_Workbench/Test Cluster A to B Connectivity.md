@@ -1,13 +1,18 @@
 ---
 captured: "2026-01-29T21:49:49+00:00 2026-01-29T21:49:49+00:00"
 created: 2026-01-29T21:49:54+00:00
-modified: 2026-02-01T15:09:09+00:00
+modified: 2026-02-01T15:35:00+00:00
 source: "https://gemini.google.com/share/82562a46a411"
-status: "phase-1"
+status: "archived"
 tags: ["input"]
 title: Test Cluster A to B Connectivity
 type: "head"
 ---
+
+> [!danger] DEPRECATED
+> This note has been consolidated into the Source of Truth.
+> - For the Debugging Protocol: [[Protocol - Kubernetes Network Debugging]]
+> - For Calico Observability: [[SoT - Calico Observability]]
 
 ## Phase 1: Ingestion (The Stream)
 
@@ -248,166 +253,6 @@ While many tools use `tsv`, the AWS CLI natively supports `json`, `table`, and `
 Quick check: If that `SUBNET_ID` command still throws an error, run `aws --version`. If it's very old (Version 1.x), we might need to adjust the query syntax slightly.
 
 Would you like me to help you interpret the output of the Route Table once you've run it?
-
-SUBNET_ID=$(aws ec2 describe-instances
-
---filters "Name=private-dns-name,Values=ip-10-65-4-177.eu-west-2.compute.internal"
-
---query "Reservations[0].Instances[0].SubnetId"
-
---output text)
-
-echo $SUBNET_ID
-
-subnet-02b4bec3447cbbf9e
-
-ip-10-65-2-8% aws ec2 describe-route-tables
-
---filters "Name=association.subnet-id,Values=$SUBNET_ID"
-
---query "RouteTables[0].Routes"
-
---output table
-
---------------------------------------------------------------------------------------------------------------------------------------
-
-| DescribeRouteTables |
-
-+----------------------+--------------------------+-------------------------+------------------------+--------------------+----------+
-
-| DestinationCidrBlock | DestinationPrefixListId | GatewayId | NatGatewayId | Origin | State |
-
-+----------------------+--------------------------+-------------------------+------------------------+--------------------+----------+
-
-| 10.65.0.0/20 | | local | | CreateRouteTable | active |
-
-| 0.0.0.0/0 | | | nat-02c1a6d832f6683e5 | CreateRoute | active |
-
-| | pl-7ca54015 | vpce-0b384c673bc88e44f | | CreateRoute | active |
-
-+----------------------+--------------------------+-------------------------+------------------------+--------------------+----------+
-
-ip-10-65-2-8% SG_IDS=$(aws ec2 describe-instances
-
---filters "Name=private-dns-name,Values=ip-10-65-4-177.eu-west-2.compute.internal"
-
---query "Reservations[0].Instances[0].SecurityGroups[].GroupId"
-
---output text)
-
-for sg in $SG_IDS; do
-
-echo "--- Security Group: $sg ---"
-
-aws ec2 describe-security-groups --group-ids $sg
-
---query "SecurityGroups[0].IpPermissionsEgress"
-
---output table
-
-done
-
---- Security Group: sg-02dcb1a5bbe8844b8 ---
-
--------------------------------------------------------------------------------------------------------
-
-| DescribeSecurityGroups |
-
-+--------------------------------+---------------------------------------+----------------------------+
-
-| FromPort | IpProtocol | ToPort |
-
-+--------------------------------+---------------------------------------+----------------------------+
-
-| | -1 | |
-
-+--------------------------------+---------------------------------------+----------------------------+
-
-|| IpRanges ||
-
-|+---------------------------------------------------------------------------------------------------+|
-
-|| CidrIp ||
-
-|+---------------------------------------------------------------------------------------------------+|
-
-|| 0.0.0.0/0 ||
-
-|+---------------------------------------------------------------------------------------------------+|
-
-|| UserIdGroupPairs ||
-
-|+----------------------------------------------------------+-----------------------+----------------+|
-
-|| Description | GroupId | UserId ||
-
-|+----------------------------------------------------------+-----------------------+----------------+|
-
-|| Allows EFA traffic, which is not matched by CIDR rules. | sg-02dcb1a5bbe8844b8 | 135808916559 ||
-
-|+----------------------------------------------------------+-----------------------+----------------+|
-
-| DescribeSecurityGroups |
-
-+--------------------------------+---------------------------------------+----------------------------+
-
-| FromPort | IpProtocol | ToPort |
-
-+--------------------------------+---------------------------------------+----------------------------+
-
-| 443 | tcp | 443 |
-
-+--------------------------------+---------------------------------------+----------------------------+
-
-|| IpRanges ||
-
-|+---------------------------------------------------------------------------------------------------+|
-
-|| CidrIp ||
-
-|+---------------------------------------------------------------------------------------------------+|
-
-|| 0.0.0.0/0 ||
-
-|+---------------------------------------------------------------------------------------------------+|
-
-The good news is that Cluster A's "exit doors" are wide open. Your output shows that both your routing and your security groups are correctly configured to let traffic leave the cluster.
-
-Specifically, your route table is sending internet traffic (`0.0.0.0/0`) to a NAT Gateway, and your security group (`sg-02dcb1a5bbe8844b8`) has a "catch-all" rule allowing all outbound traffic.
-
-The most likely culprit now is that Cluster B is seeing traffic from your NAT Gateway's public IP and is dropping it because it doesn't recognise the source.
-
----
-
-### 1. Get Your NAT Gateway's Public IP
-
-You need to find the specific public IP address that your NAT Gateway is using. This is the "Source IP" that the administrator of Cluster B must allow-list in their firewall or security group.
-
-Run this command on your jumpbox:
-
-### 2. Double-check Network ACLs (NACLs)
-
-While Security Groups are usually the focus, NACLs are the "stateless" layer of defence. If a colleague has tightened security here, it could still block you.
-
-Run this to ensure the outbound rules for your subnet are not restrictive:
-
-- What to look for: You want to see an `Allow` rule for `0.0.0.0/0` (usually rule number 100).
-
----
-
-### Summary of Findings
-
-Based on the data you provided:
-
-- Routing:PASS. Traffic is correctly routed to `nat-02c1a6d832f6683e5`.
-- Security Group:PASS. `sg-02dcb1a5bbe8844b8` allows all outbound traffic (`IpProtocol: -1`).
-- Likely Issue: Cluster B's firewall is blocking the NAT Gateway's Public IP.
-
-### Next Step
-
-Once you have the Public IP from Step 1, you'll need to confirm with the Cluster B team that they have added it to their Inbound Rules.
-
-Would you like me to provide a command to check if there are any specific AWS PrivateLink or VPC Endpoints that might be intercepting this traffic if Cluster B is actually in the same region?
 
 SUBNET_ID=$(aws ec2 describe-instances
 

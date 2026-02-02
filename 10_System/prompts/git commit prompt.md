@@ -1,6 +1,7 @@
 ---
 created: 2026-01-19T18:06:20+00:00
 modified: 2026-02-01T15:09:13+00:00
+tags: [type/utility, tool/git]
 title: git commit prompt
 ---
 

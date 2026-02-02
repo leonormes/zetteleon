@@ -31,6 +31,7 @@ The low-level Linux mechanisms that make containers possible.
 
 - [[SoT - Kubernetes Cluster State Architecture]]—_The foundational model: K8s as a state-store/database. Selectors and API logic._
 - [[SoT - Kubernetes Networking & DNS]]—_The flat network model, Ingress-to-Pod traffic flow, and Service discovery._
+- [[SoT - AWS EKS Networking Architecture]]—_AWS-specific implementation (VPC CNI, ENIs, and Capacity Planning)._
 - [[SoT - Kubernetes Secrets Management]]—_Encryption at rest and Secret consumption models._
 
 ---

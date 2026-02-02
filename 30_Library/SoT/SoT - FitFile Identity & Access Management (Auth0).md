@@ -50,7 +50,33 @@ Each FitFile deployment (e.g., `cuh-prod-1`) is registered as a unique **Resourc
 
 ---
 
-## 3. Authentication Flow (OAuth 2.0 + PKCE)
+## 3. Object Architecture & Ownership
+
+We employ a **Shared Infrastructure** pattern to prevent resource conflicts and ensure consistency.
+
+### 3.1 Resource Ownership Matrix
+
+| Resource Type | Central Services (Shared) | Deployment (Per-Customer) | Notes |
+|:---|:---:|:---:|:---|
+| **Tenant** | ✅ Owns | ❌ References | Global settings (Session life, Support email). |
+| **Connection** | ✅ Owns | ❌ References | "Username-Password-Authentication". Shared user DB. |
+| **Branding** | ✅ Owns | ❌ Inherits | Logos, colors, universal login theme. |
+| **SPA Client** | ❌ None | ✅ Owns | The user-facing web app. |
+| **M2M Clients** | ❌ None | ✅ Owns | API Explorer, CI/CD pipelines. |
+| **Association** | ❌ None | ✅ Owns | Links the Deployment Clients to the Shared Connection. |
+
+### 3.2 Deployment Requirements (Checklist)
+
+A new deployment **must** create these objects (via Terraform):
+
+1.  **SPA Client**: The User-Facing App (`app_type = "spa"`).
+2.  **M2M Clients**: For automated access (e.g., API Explorer).
+3.  **Connection Association**: A `auth0_connection_clients` resource that links the *new* clients to the *existing* shared connection ID.
+    - *Critical:* Do NOT attempt to create a new `auth0_connection`. This will cause a 409 Conflict.
+
+---
+
+## 4. Authentication Flow (OAuth 2.0 + PKCE)
 
 1. **User Visit:** User accesses `https://{deployment-key}.fitfile.net`.
 2. **Redirect:** App redirects to Auth0 Universal Login.

@@ -2,7 +2,7 @@
 aliases: ["Cluster Networking", "K8s Networking", "Pod Networking"]
 created: 2025-12-16T13:52:08Z
 last_reviewed: "2025-12-23"
-modified: 2026-02-01T15:07:56+00:00
+modified: 2026-02-01T15:35:00+00:00
 status: "stable"
 tags: ["cni", "kubernetes", "service_discovery", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
 title: SoT - Kubernetes Networking & DNS
@@ -23,6 +23,7 @@ The wiring is pluggable. CNI Plugins (like Calico, Cilium, Flannel) implement th
 
 - Overlay Networks: Encapsulate packets to span across Nodes (e.g., VXLAN).
 - Direct Routing: Route packets natively without encapsulation (e.g., BGP).
+- **Observability:** See [[SoT - Calico Observability]] for details on monitoring the CNI layer via Prometheus/Grafana.
 
 ---
 
@@ -89,10 +90,13 @@ In private clusters where worker nodes lack public IPs, ingress requires explici
 
 ## 6. Troubleshooting Heuristics
 
+> [!abstract] See Full Protocol
+> For the step-by-step diagnostic algorithm, see: [[Protocol - Kubernetes Network Debugging]]
+
 1. Pod-to-Pod: Is the CNI healthy? (`ping` Pod IPs).
 2. Service Discovery: Can you resolve the name? (`nslookup my-service`).
 3. Connectivity: Is `kube-proxy` running? Are endpoints populated? (`kubectl get endpoints`).
-4. Policy: Is a Network Policy silently dropping packets?
+4. Policy: Is a Network Policy silently dropping packets? Use `tcpdump` to verify "SYN sent, no ACK" (Blackhole).
 
 ---
 

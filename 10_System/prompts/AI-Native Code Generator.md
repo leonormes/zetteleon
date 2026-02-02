@@ -4,7 +4,7 @@ created: 2026-01-31T00:00:00+00:00
 last_reviewed:
 modified: 2026-02-01T15:09:15+00:00
 status: evergreen
-tags: [agent, code-generation, system-prompt]
+tags: [agent, code-generation, system-prompt, type/system]
 title: AI-Native Code Generator
 type: prompt
 updated:

@@ -4,7 +4,7 @@ created: 2026-01-08T15:38:45+00:00
 last_reviewed: ""
 modified: 2026-02-01T15:09:14+00:00
 status: ""
-tags: []
+tags: [type/persona, protocol, domain/pkm]
 title: Prompt - The Context Architect (RPI Protocol)
 type: prompt
 ---

@@ -4,7 +4,7 @@ created: 2025-10-18T13:25:33Z
 last_reviewed:
 modified: 2026-02-01T15:09:13+00:00
 status:
-tags: []
+tags: [type/utility, domain/management]
 title: project_nameing_prompt
 type: prompt
 updated:

@@ -1,18 +1,18 @@
 [
   {
     "icon": "search",
-    "text": "Search the Infrastructure project notes for all documentation on Auth0 Object Architecture and summarize the authentication flow for FitFile deployments"
+    "text": "Search the 30_Library for all notes linked to the 'Metabolic Firewall' protocol and synthesize a definition of its core constraints"
   },
   {
     "icon": "file-plus",
-    "text": "Draft a PRODOS Scope-Lock for the Helm Chart Compiler refactor project using the template in the System folder and current context from the Workbench"
+    "text": "Using the 'HEAD - ACR Image Retention Strategy' note in the Workbench, draft a formal proposal following the PRODOS Scope-Lock Template"
   },
   {
     "icon": "sparkles",
-    "text": "Apply the Research-to-Action Protocol to the FFNode Umbrella Chart Forensic Analysis in the Inbox to create a list of prioritized tasks"
+    "text": "Apply the Instruction SoT - Research-to-Action Protocol to the 'Strategic Mitigation of High Cardinality Metrics' note in the Inbox and generate a structured task list for the Refactor - Helm Chart Compiler project"
   },
   {
     "icon": "folder-tree",
-    "text": "Organize the Zettelkasten notes related to Type Theory and Rust into a structured learning path using the Type Theory Curriculum as a guide"
+    "text": "Review all MoC files within the 400_indexes folder that relate to 'FitFile Deployment' and generate a consolidated summary of deployment stages"
   }
 ]

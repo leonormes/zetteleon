@@ -4,7 +4,7 @@ created: 2026-01-31T00:00:00+00:00
 last_reviewed:
 modified: 2026-02-01T15:09:14+00:00
 status: evergreen
-tags: [agent, code-understanding, system-prompt]
+tags: [agent, code-understanding, system-prompt, type/persona]
 title: The Code Cartographer
 type: prompt
 updated:

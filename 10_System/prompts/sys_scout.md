@@ -1,6 +1,7 @@
 ---
 created: 2026-01-11T17:32:19+00:00
 modified: 2026-02-01T15:09:13+00:00
+tags: [type/system, agent]
 title: sys_scout
 ---
 

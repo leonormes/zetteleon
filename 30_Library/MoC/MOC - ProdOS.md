@@ -2,8 +2,8 @@
 aliases: [ProdOS Index, Productivity Operating System, Start Here]
 created: 2025-12-04T14:38:32Z
 id: MOC - ProdOS
-last_reviewed: 2025-12-23
-modified: 2026-02-01T15:08:05+00:00
+last_reviewed: 2026-02-01
+modified: 2026-02-02T06:59:13+00:00
 status: stable
 tags: ["SoftwareEngineering/Architecture", prodos]
 title: MOC - ProdOS
@@ -103,7 +103,25 @@ The definitive specification of the system, its biological basis, and the "Why".
 
 ---
 
-#### Phase 5: Feedback & Identity (Loop)
+### 5. Active Workbench (Volatile)
+
+_Current thinking streams and evolving models. These are NOT Source of Truth yet._
+
+- [[HEAD - Integrating Rocks into ProdOS]]—_Exploration of "Rocks" (Quarterly Goals) within the ProdOS framework._
+- [[HEAD - Modeling Resistance in ProdOS]]—_Investigating the friction points in the system._
+- [[HEAD - ProdOS Grafana Integration]]—_Technical exploration of visualizing ProdOS metrics._
+
+---
+
+### 6. System Resources & Templates
+
+_Standardized tools for system maintenance._
+
+- [[PRODOS Scope-Lock Template]]—_The mandatory container for locking context before execution._
+
+---
+
+#### Phase 7: Feedback & Identity (Loop)
 
 How to sustain the system and grow.
 

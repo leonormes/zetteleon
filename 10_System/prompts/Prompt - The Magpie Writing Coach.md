@@ -4,7 +4,7 @@ created: 2025-12-23T19:58:43Z
 last_reviewed: "2025-12-23"
 modified: 2026-02-01T15:09:14+00:00
 status: "stable"
-tags: ["adhd", "extended_mind", "productivity", "prompt", "writing"]
+tags: ["adhd", "extended_mind", "productivity", "prompt", "writing", "type/persona"]
 title: Prompt - The Magpie Writing Coach
 type: "prompt"
 updated: 

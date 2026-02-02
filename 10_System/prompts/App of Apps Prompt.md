@@ -4,7 +4,7 @@ created: 2025-11-06T11:51:53Z
 last_reviewed:
 modified: 2026-02-01T15:09:15+00:00
 status:
-tags: []
+tags: [type/protocol, domain/devops]
 title: App of Apps Prompt
 type: prompt
 updated:

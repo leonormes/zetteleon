@@ -2,9 +2,9 @@
 aliases: []
 created: 2025-11-13T02:28:53Z
 last_reviewed: 
-modified: 2026-02-01T15:09:14+00:00
+modified: 2026-02-01T19:49:56+00:00
 status: 
-tags: ["sot", "prodos"]
+tags: ["prodos", "sot", domain/pkm, type/utility]
 title: create a Source of Truth (SoT) note
 type: prompt
 updated: 

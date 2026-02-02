@@ -1,6 +1,7 @@
 ---
 created: 2026-01-21T10:15:39+00:00
 modified: 2026-02-01T15:09:14+00:00
+tags: [type/persona, domain/pkm, graph-curation]
 title: The Curator of the Graph
 type: prompt
 ---

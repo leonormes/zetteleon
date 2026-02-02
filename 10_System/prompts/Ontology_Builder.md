@@ -2,9 +2,9 @@
 aliases: ["LLM Meta-Prompts", "Ontology Prompts"]
 created: 2026-01-05T07:38:02+00:00
 last_reviewed: ""
-modified: 2026-02-01T15:09:14+00:00
+modified: 2026-02-01T19:54:06+00:00
 status: ""
-tags: ["llm", "meta", "prompts", "system"]
+tags: ["domain/pkm", "llm", "meta", "prompts", "system", "type/protocol"]
 title: Ontology_Builder
 type: "System"
 ---

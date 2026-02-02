@@ -24,7 +24,7 @@ type: agent-session
 > | File Version | unknown |
 
 > [!user]+
-> [[10_System/prompts/The Curator of the Graph.md|The Curator of the Graph]][[10_System/prompts/Prompt - The Magpie Writing Coach.md|Prompt - The Magpie Writing Coach]] [[10_System/prompts/Knowledge Consolidation Agent v2.md|Knowledge Consolidation Agent v2]] [[10_System/prompts/Knowledge Consolidation Agent.md|Knowledge Consolidation Agent]] these notes are prompts for the llm to help me create notes and make sot and moc. Create a single prompt that instructs the llm to semantically search for related concepts to a given note then create a single source of truth by consolidating and removing duplications and redundancy
+> [[10_System/prompts/The Curator of the Graph.md|The Curator of the Graph]][[10_System/prompts/Prompt - The Magpie Writing Coach.md|Prompt - The Magpie Writing Coach]] [[Knowledge Consolidation Agent|Knowledge Consolidation Agent]] [[10_System/prompts/Knowledge Consolidation Agent.md|Knowledge Consolidation Agent]] these notes are prompts for the llm to help me create notes and make sot and moc. Create a single prompt that instructs the llm to semantically search for related concepts to a given note then create a single source of truth by consolidating and removing duplications and redundancy
 
 ---
 
@@ -40,7 +40,7 @@ type: agent-session
 > [!assistant]+
 > The request was to create a single prompt that combines the functionality of semantic search, consolidation, and redundancy removal.
 >
-> I have retrieved the content of two existing, relevant prompts: &#x60;[[Knowledge Consolidation Agent v2]]&#x60; and &#x60;[[Knowledge Consolidation Agent]]&#x60;. I have also read the relevant System of Thought file, &#x60;[[30_Library/SoT]]&#x60;, to ensure the new prompt aligns with established protocols.
+> I have retrieved the content of two existing, relevant prompts: &#x60;[[Knowledge Consolidation Agent]]&#x60; and &#x60;[[Knowledge Consolidation Agent]]&#x60;. I have also read the relevant System of Thought file, &#x60;[[30_Library/SoT]]&#x60;, to ensure the new prompt aligns with established protocols.
 >
 > I have now synthesized these components into a single, comprehensive prompt named **Consolidated Knowledge Engineer Prompt**. This new prompt:
 > 1.  Incorporates the **Triad of Query Types** from **Knowledge Consolidation Agent v2** for robust semantic searching.

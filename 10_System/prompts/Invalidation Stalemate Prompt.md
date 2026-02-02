@@ -4,7 +4,7 @@ created: 2025-11-11T07:34:26Z
 last_reviewed: 
 modified: 2026-02-01T15:09:14+00:00
 status: 
-tags: []
+tags: [type/protocol, domain/personal]
 title: Invalidation Stalemate Prompt
 type: 
 updated: 

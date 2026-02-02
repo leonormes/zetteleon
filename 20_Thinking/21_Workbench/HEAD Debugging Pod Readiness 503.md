@@ -1,7 +1,7 @@
 ---
 captured: "2026-02-01T09:03:57+00:00 2026-02-01T09:03:57+00:00"
 created: 2026-02-01T09:04:00+00:00
-modified: 2026-02-01T15:08:52+00:00
+modified: 2026-02-01T19:40:37+00:00
 source: "https://chatgpt.com/c/6979daab-faf4-832e-86e4-90fc12c5751c"
 status: "phase-1"
 tags: ["input", 0, failure, provider-logo, provider-logo-dark, success]
@@ -20,13 +20,13 @@ how can i debug this pod kubectl describe pod ff-lca-prd-2-fitconnect-ftc-65c45d
 
 ---
 
-Your pod is **Running but Not Ready** because the **readiness + liveness HTTP probes are getting 503** from:
+Your pod is Running but Not Ready because the readiness + liveness HTTP probes are getting 503 from:
 
 `GET /fitconnect/readyz?healthServiceName=…` (multiple dependencies)
 
 That means the container is up, but your app is telling Kubernetes "I'm not healthy/ready yet" (usually because one of those dependency checks is failing).
 
-Here's a tight, practical debug flow you can run **right now**.
+Here's a tight, practical debug flow you can run right now.
 
 ---
 
@@ -76,9 +76,9 @@ Once you know which dependency is failing, test it directly.
 
 Examples (adapt hostnames/ports from env/config):
 
-**DNS + basic reachability**
+DNS + basic reachability
 
-**TCP check (if you have `nc`)**
+TCP check (if you have `nc`)
 
 If you _don't_ have `nc`, do a quick Node TCP probe:
 
@@ -90,15 +90,17 @@ In your `describe`, the probe path shows URL-encoded `?`:
 
 `/fitconnect/readyz%3FhealthServiceName=…`
 
-Kubernetes _can_ accept a full URL path including query string in `httpGet.path`, but **if the manifest accidentally encoded the `?`** instead of leaving it literal, your app might be receiving:
+Kubernetes _can_ accept a full URL path including query string in `httpGet.path`, but if the manifest accidentally encoded the `?` instead of leaving it literal, your app might be receiving:
 
 `/fitconnect/readyz%3FhealthServiceName=…` (literally)
+
 instead of
+
 `/fitconnect/readyz?healthServiceName=…`
 
 That would often yield 404, not 503—but if your router treats it oddly, it could still fail.
 
-To verify what the app actually receives, curl **both** variants:
+To verify what the app actually receives, curl both variants:
 
 If one succeeds and the other fails, fix the probe path in the Deployment.
 
@@ -108,7 +110,7 @@ Check the actual probe config quickly:
 
 ## 7) If It's just "slow warmup", Stop Liveness from Killing it Early
 
-You've got **liveness delay 120s** and timeout 60s, so it's already pretty patient, but if the app legitimately needs longer (e.g., schema load, migrations, spiceDB schema sync), prefer a **startupProbe** so liveness doesn't flap during boot.
+You've got liveness delay 120s and timeout 60s, so it's already pretty patient, but if the app legitimately needs longer (e.g., schema load, migrations, spiceDB schema sync), prefer a startupProbe so liveness doesn't flap during boot.
 
 (You'd add this in the Deployment; Kubernetes will only start liveness/readiness after startupProbe passes.)
 
@@ -116,7 +118,7 @@ You've got **liveness delay 120s** and timeout 60s, so it's already pretty patie
 
 ### What I Think is Most Likely here
 
-Because the endpoint returns **503** (not timeout/refused), your app is responding but saying "dependency unhealthy". The health endpoint name list strongly suggests one of:
+Because the endpoint returns 503 (not timeout/refused), your app is responding but saying "dependency unhealthy". The health endpoint name list strongly suggests one of:
 
 - Postgres / Mongo connection (bad secret, wrong host, firewall, DNS)
 - SpiceDB schema connection
@@ -124,7 +126,7 @@ Because the endpoint returns **503** (not timeout/refused), your app is respondi
 - Workflows API
 - Auth0 ping (egress blocked, wrong domain, missing credentials)
 
-Run **Step 2** (curl from inside the pod) and paste the response body (or the key lines)—I can tell you which dependency is failing and the next most direct checks.
+Run Step 2 (curl from inside the pod) and paste the response body (or the key lines)—I can tell you which dependency is failing and the next most direct checks.
 
 2/2
 
@@ -134,9 +136,9 @@ kubectl logs -n lca-prd-2 ff-lca-prd-2-fitconnect-ftc-65c45dd5b8-rhmk4 -c ff-lca
 
 ---
 
-Nice—the main process is **starting cleanly and listening on:4000**, and the init container completed. So the 503s are almost certainly coming from the **/fitconnect/readyz** handler (dependency health), not from the server failing to boot.
+Nice—the main process is starting cleanly and listening on:4000, and the init container completed. So the 503s are almost certainly coming from the /fitconnect/readyz handler (dependency health), not from the server failing to boot.
 
-Next, we need to see **what `/fitconnect/readyz` is returning** and **which dependency is marking unhealthy**.
+Next, we need to see what `/fitconnect/readyz` is returning and which dependency is marking unhealthy.
 
 ## 1) Hit the Same Endpoint the Probe Hits (from inside the pod)
 
@@ -144,7 +146,7 @@ This is the fastest way to surface the real reason (often JSON).
 
 If `wget` isn't present:
 
-**Paste the body** you get back—that usually names the failing service.
+Paste the body you get back—that usually names the failing service.
 
 ---
 
@@ -156,7 +158,7 @@ That's suspicious: `%3F` is a literal encoded `?`. If the Deployment really has 
 
 Let's test both quickly:
 
-If **NORMAL works** and **ENCODED fails**, fix your probe `path:` in the Deployment to include a literal `?` (not `%3F`). To confirm what's actually deployed:
+If NORMAL works and ENCODED fails, fix your probe `path:` in the Deployment to include a literal `?` (not `%3F`). To confirm what's actually deployed:
 
 ---
 
@@ -172,14 +174,14 @@ One of these will likely return the 503 + an error message.
 
 Common culprits in prod AKS:
 
-- **Auth0PingHealthService** → egress/DNS blocked, wrong domain/credentials, or corporate proxy required.
-- **WorkflowsAPIConnectionHealthService** → service DNS name wrong, NetworkPolicy, private endpoint, or TLS mismatch.
-- **SpiceDbSchemaConnectionHealthService** → wrong host/port, TLS/cert, schema not loaded, permissions.
-- **Mongo/Postgres** → secret value wrong, DNS, firewall, SSL required but not configured.
+- Auth0PingHealthService → egress/DNS blocked, wrong domain/credentials, or corporate proxy required.
+- WorkflowsAPIConnectionHealthService → service DNS name wrong, NetworkPolicy, private endpoint, or TLS mismatch.
+- SpiceDbSchemaConnectionHealthService → wrong host/port, TLS/cert, schema not loaded, permissions.
+- Mongo/Postgres → secret value wrong, DNS, firewall, SSL required but not configured.
 
 Once you tell me which one fails (and the error text), I'll give you the exact next command(s) to validate DNS/TCP/TLS for that dependency from inside the pod, and the likely fix in your Deployment/Secret/ConfigMap.
 
-If you only run one thing next: run **Step 1** and paste the response body.
+If you only run one thing next: run Step 1 and paste the response body.
 
 ---
 
@@ -189,14 +191,14 @@ kubectl exec -n lca-prd-2 -it ff-lca-prd-2-fitconnect-ftc-65c45dd5b8-rhmk4 -c ff
 
 Perfect—you've isolated it:
 
-- The pod's probe path is **wrongly URL-encoded** (`%3F`), which returns **404**.
-- The only _actual_ failing health service is **`WorkflowsAPIConnectionHealthService`**, returning **503**.
+- The pod's probe path is wrongly URL-encoded (`%3F`), which returns 404.
+- The only _actual_ failing health service is `WorkflowsAPIConnectionHealthService`, returning 503.
 - Everything else is healthy.
 
-So you have **two separate issues**:
+So you have two separate issues:
 
-1. **Probe misconfiguration** (`readyz%3F…` instead of `readyz?…`)
-2. **Workflows API dependency failing**, making `/readyz?…all…` return 503 (which would keep the pod unready even after fixing the probe path).
+1. Probe misconfiguration (`readyz%3F…` instead of `readyz?…`)
+2. Workflows API dependency failing, making `/readyz?…all…` return 503 (which would keep the pod unready even after fixing the probe path).
 
 Let's tackle both.
 
@@ -206,8 +208,8 @@ Let's tackle both.
 
 Your test proves it:
 
-- `/fitconnect/readyz%3F…` → **404**
-- `/fitconnect/readyz?…` → **200**
+- `/fitconnect/readyz%3F…` → 404
+- `/fitconnect/readyz?…` → 200
 
 So your Deployment (or Helm chart) is encoding the `?`. Fix the `httpGet.path` to include a literal `?` query string.
 
@@ -217,7 +219,7 @@ Then update it (example patch style—adjust names if different):
 
 (If the container isn't index `0`, patch the correct index or patch by editing the manifest and re-applying.)
 
-But note: even with this fixed, **readiness will still fail** until WorkflowsAPI health passes.
+But note: even with this fixed, readiness will still fail until WorkflowsAPI health passes.
 
 ---
 
@@ -257,7 +259,7 @@ Search for relevant secrets keys (don't print secret values; just list filenames
 
 ## C) Quick Mitigation (if You Need the Pod Ready while Workflows is down)
 
-If Workflows API being down shouldn't block serving, you can temporarily remove it from **readiness** checks (keep it in liveness or in a separate "/healthz" vs "/readyz" split).
+If Workflows API being down shouldn't block serving, you can temporarily remove it from readiness checks (keep it in liveness or in a separate "/healthz" vs "/readyz" split).
 
 That's a product decision, but operationally it's common: readiness should gate "can serve traffic", not "all integrations are perfect".
 
@@ -265,7 +267,7 @@ That's a product decision, but operationally it's common: readiness should gate 
 
 ### What I Need from You to Finish This Fast
 
-Run the **WorkflowsAPIConnectionHealthService** call with headers/body (the first command in section B) and paste the output. That will usually include the exact exception (DNS, ECONNREFUSED, timeout, TLS, 401, etc.), and then we can jump straight to the precise fix.
+Run the WorkflowsAPIConnectionHealthService call with headers/body (the first command in section B) and paste the output. That will usually include the exact exception (DNS, ECONNREFUSED, timeout, TLS, 401, etc.), and then we can jump straight to the precise fix.
 
 ---
 
@@ -273,7 +275,7 @@ this is the values in the helm chart # Is the container ready to receive traffic
 
 ---
 
-Those Helm values look correct (the `?` is **not** encoded there), so the `%3F` is being introduced **after** values.yaml—typically by one of:
+Those Helm values look correct (the `?` is not encoded there), so the `%3F` is being introduced after values.yaml—typically by one of:
 
 - a template using `| urlquery` / `urlencode`
 - a helper that "sanitizes" paths
@@ -296,7 +298,7 @@ If that prints `/fitconnect/readyz%3F…` then Helm (or something in templating)
 
 From the repo/wherever you run Helm:
 
-If that output already contains `%3F`, it's **definitely** the templates (not Kubernetes).
+If that output already contains `%3F`, it's definitely the templates (not Kubernetes).
 
 Also useful:
 
@@ -317,13 +319,13 @@ Common smoking guns look like:
 
 ### The Fix
 
-For an HTTP probe `path`, **do not url-encode the whole path**. Kubernetes expects a normal URL path and allows query strings in the path field.
+For an HTTP probe `path`, do not url-encode the whole path. Kubernetes expects a normal URL path and allows query strings in the path field.
 
 So it should be:
 
 (or even without `quote`, but quoting is fine)
 
-**Avoid** `urlquery` / `urlencode` on the full path.
+Avoid `urlquery` / `urlencode` on the full path.
 
 If you _must_ encode specific query values, only encode the values, not the `?` and `&` separators.
 
@@ -368,13 +370,13 @@ kubectl get deploy -n lca-prd-2 ff-lca-prd-2-fitconnect-ftc -o jsonpath='{.spec.
 
 ---
 
-Great—that means **Kubernetes has the correct (unencoded) probe path** right now. So the earlier `%3F` you saw in `kubectl describe pod` is essentially a red herring: `describe` is showing an _escaped/printed_ form, but the kubelet is actually calling the correct URL (your curl proved the "NORMAL" form works).
+Great—that means Kubernetes has the correct (unencoded) probe path right now. So the earlier `%3F` you saw in `kubectl describe pod` is essentially a red herring: `describe` is showing an _escaped/printed_ form, but the kubelet is actually calling the correct URL (your curl proved the "NORMAL" form works).
 
 So you can stop chasing the encoding. ✅
 
-What's keeping the pod unready is **only this**:
+What's keeping the pod unready is only this:
 
-**`WorkflowsAPIConnectionHealthService` returns 503**, and because it's included in the readiness probe query, the probe fails → `Ready: False`.
+`WorkflowsAPIConnectionHealthService` returns 503, and because it's included in the readiness probe query, the probe fails → `Ready: False`.
 
 ---
 
@@ -414,19 +416,19 @@ kubectl exec -n lca-prd-2 -it ff-lca-prd-2-fitconnect-ftc-65c45dd5b8-rhmk4 -c ff
 
 That error nails it:
 
-**`getaddrinfo ENOTFOUND workflows-api`** = the pod can't resolve the DNS name **`workflows-api`**.
+`getaddrinfo ENOTFOUND workflows-api` = the pod can't resolve the DNS name `workflows-api`.
 
-So the readiness check fails because **the hostname `workflows-api` doesn't exist in DNS for this namespace / cluster** (or you're missing the right namespace suffix).
+So the readiness check fails because the hostname `workflows-api` doesn't exist in DNS for this namespace / cluster (or you're missing the right namespace suffix).
 
 ### What This Usually means
 
 One of these is true:
 
 1. The Service is named something else (not `workflows-api`)
-2. The Service exists but in a **different namespace**
-3. The app expects `workflows-api` but you should be using the **FQDN**:
+2. The Service exists but in a different namespace
+3. The app expects `workflows-api` but you should be using the FQDN:
 	`workflows-api.<namespace>.svc.cluster.local` (or at least `workflows-api.<namespace>`)
-4. There is **no Service at all** (dependency not deployed / misinstalled)
+4. There is no Service at all (dependency not deployed / misinstalled)
 
 ---
 
@@ -494,12 +496,12 @@ kubectl get svc -A | grep -i workflows ➜ terraform kubectl get svc -n lca-prd-
 
 Yup—this is now 100% clear:
 
-- There is **no Service named `workflows-api` in `lca-prd-2`**.
-- DNS lookups for `workflows-api` (and even `workflows-api.lca-prd-2.svc.cluster.local`) all return **NXDOMAIN**.
-- Your app's health check is trying to resolve **`workflows-api`**, and failing → readiness probe fails → pod never becomes Ready.
-- Your `env | egrep …` returned exit code 1 simply because there are **no env vars containing "workflow(s)"** (that's normal).
+- There is no Service named `workflows-api` in `lca-prd-2`.
+- DNS lookups for `workflows-api` (and even `workflows-api.lca-prd-2.svc.cluster.local`) all return NXDOMAIN.
+- Your app's health check is trying to resolve `workflows-api`, and failing → readiness probe fails → pod never becomes Ready.
+- Your `env | egrep …` returned exit code 1 simply because there are no env vars containing "workflow(s)" (that's normal).
 
-So the fix is **not Kubernetes probes**. The fix is: **either provide a Workflows API Service to resolve, or stop requiring it for readiness**.
+So the fix is not Kubernetes probes. The fix is: either provide a Workflows API Service to resolve, or stop requiring it for readiness.
 
 ---
 
@@ -517,7 +519,7 @@ If you find something like `workflows` or `workflows-api-prod`, then update FITC
 
 Right now the app is defaulting to `workflows-api` (likely a hardcoded default in code/config).
 
-You need to locate where that hostname is coming from. Since it's **not in env**, it's probably in a mounted config file (`/config`) or inside your `load_definition.json`.
+You need to locate where that hostname is coming from. Since it's not in env, it's probably in a mounted config file (`/config`) or inside your `load_definition.json`.
 
 Search config for it:
 
@@ -544,7 +546,7 @@ Update Helm readiness probe path to exclude Workflows:
 
 ## Quick Tactical Workaround (only if You're Stuck and Need Readiness now)
 
-You _can_ create a dummy Service named `workflows-api` to make DNS resolve, **but it won't make the health check pass unless something answers behind it**. So it's only useful if the backend exists but the Service is missing.
+You _can_ create a dummy Service named `workflows-api` to make DNS resolve, but it won't make the health check pass unless something answers behind it. So it's only useful if the backend exists but the Service is missing.
 
 If you do have a deployment/pod you can target, you'd create the right Service pointing at it.
 
@@ -564,12 +566,12 @@ kubectl get application ff-lca-prd-2 -n argocd -o jsonpath='{.status.conditions}
 
 ---
 
-You've actually got **two independent problems** showing up in that Argo output:
+You've actually got two independent problems showing up in that Argo output:
 
-1. **Fitconnect pod not Ready** because it can't resolve `workflows-api` (we already proved that).
-2. **Argo CD Application `ff-lca-prd-2` can't render Helm** right now due to a **Helm `tpl` parse error** in your vault-secret templating (`unexpected "\\" in operand`). That means Argo can't reliably apply the fix until the chart renders again.
+1. Fitconnect pod not Ready because it can't resolve `workflows-api` (we already proved that).
+2. Argo CD Application `ff-lca-prd-2` can't render Helm right now due to a Helm `tpl` parse error in your vault-secret templating (`unexpected "\\" in operand`). That means Argo can't reliably apply the fix until the chart renders again.
 
-I'll show you how to fix both, starting with the **Argo/Helm render error**, because until that's fixed, anything in Git/values won't sync cleanly.
+I'll show you how to fix both, starting with the Argo/Helm render error, because until that's fixed, anything in Git/values won't sync cleanly.
 
 ---
 
@@ -582,7 +584,7 @@ Error location:
 - which does: `tpl ($config.secretTransformation | toYaml) $`
 - and `tpl` fails parsing the _string_ that contains this snippet:
 
-That `\\\"` escaping is the culprit: **inside a Helm tpl string, you don't escape quotes that way**. You're effectively feeding the Go template parser backslashes it doesn't expect.
+That `\\\"` escaping is the culprit: inside a Helm tpl string, you don't escape quotes that way. You're effectively feeding the Go template parser backslashes it doesn't expect.
 
 ### The Simplest Fix
 
@@ -593,9 +595,9 @@ In the `secretTransformation` content, change:
 
 So the string becomes:
 
-…but because this is _inside JSON inside YAML inside a Helm tpl_, you should avoid nested quoting hell by using **single quotes around the JSON string** and normal double quotes inside, like you already do.
+…but because this is _inside JSON inside YAML inside a Helm tpl_, you should avoid nested quoting hell by using single quotes around the JSON string and normal double quotes inside, like you already do.
 
-So make the **inner template** look like this (no backslashes):
+So make the inner template look like this (no backslashes):
 
 ### Why This Works
 
@@ -616,7 +618,7 @@ Your app is failing health with:
 
 > `getaddrinfo ENOTFOUND workflows-api`
 
-And you confirmed there is **no Service** `workflows-api` in `lca-prd-2`, and apparently none cluster-wide (your grep produced nothing).
+And you confirmed there is no Service `workflows-api` in `lca-prd-2`, and apparently none cluster-wide (your grep produced nothing).
 
 So you must do one of these:
 
@@ -628,13 +630,14 @@ Given your Argo app list includes:
 
 - `ff-lca-prd-2-workflow-templates` (Argo Application)
 
-That sounds like **Argo workflow templates**, not a "Workflows API" service. FITConnect likely expects some internal service that isn't deployed here.
+That sounds like Argo workflow templates, not a "Workflows API" service. FITConnect likely expects some internal service that isn't deployed here.
 
 Try finding anything related that actually runs:
 
 And cluster-wide:
 
 If the service exists in another namespace, set the host to:
+
 `<svc>.<ns>.svc.cluster.local`
 
 If it's external, set it to the real DNS name.
@@ -651,21 +654,21 @@ In Helm values:
 
 ## 3) Why You're seeing a Fitconnect Pod at All if Argo Can't Render?
 
-Good question: it's likely **an existing deployment is already in the cluster** from an earlier successful sync, and now Argo is failing to compute desired state (so it can't update it). That matches:
+Good question: it's likely an existing deployment is already in the cluster from an earlier successful sync, and now Argo is failing to compute desired state (so it can't update it). That matches:
 
 - `Status: Unknown` / `ComparisonError`
 - "Failed to load target state…failed to execute helm template…"
 
-So: **fix the Helm template parse**, then you can roll out the config changes cleanly.
+So: fix the Helm template parse, then you can roll out the config changes cleanly.
 
 ---
 
 ## What I'd Do next (exact sequence)
 
-1. **Fix the tpl parse error** by removing the `\\\"` escapes around `include "oauth"` and the key strings.
+1. Fix the tpl parse error by removing the `\\\"` escapes around `include "oauth"` and the key strings.
 2. Commit + push; Argo should return to being able to render.
 3. Then either:
-	- configure the correct Workflows API hostname, **or**
+	- configure the correct Workflows API hostname, or
 	- drop Workflows from readiness.
 
 If you paste the snippet of your `secretTransformation` block from the repo (the section containing `managementApiAudience`), I can rewrite it into a version that will definitely survive `tpl` + YAML + JSON nesting.
@@ -678,11 +681,11 @@ kubectl describe application ff-lca-prd-2 -n argocd Name: ff-lca-prd-2 Namespace
 
 Nice—this output changes the picture a lot:
 
-- The **Helm render error is gone** (no `ComparisonError` now).
-- Argo is actively syncing and is **waiting for `argoproj.io/Application/ff-lca-prd-2-fitconnect` to become Healthy**.
-- You also now have an Argo child app: **`ff-lca-prd-2-workflows-api`** (configured/synced).
+- The Helm render error is gone (no `ComparisonError` now).
+- Argo is actively syncing and is waiting for `argoproj.io/Application/ff-lca-prd-2-fitconnect` to become Healthy.
+- You also now have an Argo child app: `ff-lca-prd-2-workflows-api` (configured/synced).
 
-So the remaining question is: **where does the Workflows API service actually get created, and what is its in-cluster DNS name?** Your FITConnect is trying `workflows-api`, but your Argo app is named `ff-lca-prd-2-workflows-api`. Very likely the Kubernetes Service is also prefixed (or in a different namespace).
+So the remaining question is: where does the Workflows API service actually get created, and what is its in-cluster DNS name? Your FITConnect is trying `workflows-api`, but your Argo app is named `ff-lca-prd-2-workflows-api`. Very likely the Kubernetes Service is also prefixed (or in a different namespace).
 
 Let's find it and then point FITConnect at it (or create an alias Service).
 
@@ -694,7 +697,7 @@ Run these:
 
 If that's too broad, try the likely namespace where your apps land. Your fitconnect pod is in `lca-prd-2`, so check there first:
 
-**Expected outcome:** you'll probably see a Service like:
+Expected outcome: you'll probably see a Service like:
 
 - `ff-lca-prd-2-workflows-api` (or similar)
 
@@ -759,8 +762,8 @@ kubectl get applications -n argocd NAME SYNC STATUS HEALTH STATUS argo-workflows
 
 Awesome—that explains everything:
 
-- `workflows-api` **now exists in `lca-prd-2`** (ClusterIP `10.2.0.68:80`) and there's a matching deployment.
-- Your earlier NXDOMAIN was simply because the Workflows API app/service **wasn't deployed yet** at that time. Now it is.
+- `workflows-api` now exists in `lca-prd-2` (ClusterIP `10.2.0.68:80`) and there's a matching deployment.
+- Your earlier NXDOMAIN was simply because the Workflows API app/service wasn't deployed yet at that time. Now it is.
 
 So FITConnect should flip to Ready as soon as:
 
@@ -787,7 +790,7 @@ You're looking for `"healthy":true` and no `ENOTFOUND`.
 
 ## 3) If It's Still Unhealthy: Check what Endpoint Workflows API Expects
 
-It's possible the service exists but FITConnect is calling a **health path** that Workflows API doesn't serve (or it needs auth, or it's not ready).
+It's possible the service exists but FITConnect is calling a health path that Workflows API doesn't serve (or it needs auth, or it's not ready).
 
 Check Workflows API logs:
 
@@ -807,10 +810,10 @@ Also quickly port-forward and hit it locally (super revealing):
 
 Given the service now exists, the Workflows health error should switch from `ENOTFOUND` to either:
 
-- **healthy true** (best case) and your pod becomes Ready, or
+- healthy true (best case) and your pod becomes Ready, or
 - a new error like timeout/404/401/etc—which tells us the next fix (path, port, auth, NetworkPolicy).
 
-Run step **2** again and paste the new output if it's still failing; we'll finish it from there.
+Run step 2 again and paste the new output if it's still failing; we'll finish it from there.
 
 ---
 
@@ -846,13 +849,13 @@ kubectl get applications -n argocd NAME SYNC STATUS HEALTH STATUS argo-workflows
 
 Good—you're exec'ing into the right pod now (`…cb6dc658f-n7c7v`). And Workflows API is up, so the _pod readiness_ issue should be solvable now.
 
-What you're seeing in Argo **isn't necessarily a runtime failure anymore**—it's an Argo "app-of-apps sync is still running / waiting on health" situation:
+What you're seeing in Argo isn't necessarily a runtime failure anymore—it's an Argo "app-of-apps sync is still running / waiting on health" situation:
 
-- Parent app `ff-lca-prd-2`: **OutOfSync / Degraded**
-- Child app `ff-lca-prd-2-fitconnect`: **OutOfSync / Healthy**
+- Parent app `ff-lca-prd-2`: OutOfSync / Degraded
+- Child app `ff-lca-prd-2-fitconnect`: OutOfSync / Healthy
 - Parent says: "waiting for healthy state of `ff-lca-prd-2-minio` and 8 more resources"
 	- even though `kubectl get applications` shows many are Healthy
-	- this often happens when Argo is in the middle of an operation and/or some apps are **OutOfSync** (like `certificates`, `frontend`) or one app's health check is failing in Argo's view.
+	- this often happens when Argo is in the middle of an operation and/or some apps are OutOfSync (like `certificates`, `frontend`) or one app's health check is failing in Argo's view.
 
 Let's split this into two quick tracks:
 
@@ -870,12 +873,12 @@ If Workflows is healthy now, those 503 probe events should stop and `READY` shou
 
 ## Track B—find why Argo Parent is Degraded/OutOfSync (GitOps)
 
-Your list shows at least two children are **OutOfSync**:
+Your list shows at least two children are OutOfSync:
 
 - `certificates` (OutOfSync)
 - `ff-lca-prd-2-frontend` (OutOfSync)
 
-Either of those can keep the parent in **OutOfSync**, and depending on health checks / hooks, can push parent to **Degraded**.
+Either of those can keep the parent in OutOfSync, and depending on health checks / hooks, can push parent to Degraded.
 
 ## 1) Show Exactly Which child/resource is Degraded
 
@@ -926,7 +929,7 @@ kubectl exec -n lca-prd-2 -it ff-lca-prd-2-fitconnect-ftc-cb6dc658f-n7c7v -- nod
 
 ---
 
-Nice: **Workflows health is now OK and the pod is Ready (1/1)**. ✅
+Nice: Workflows health is now OK and the pod is Ready (1/1). ✅
 
 That means the original "503 / ENOTFOUND workflows-api" problem is resolved.
 
@@ -934,7 +937,7 @@ What you're seeing at the bottom is just _history_: the pod spent a long time fa
 
 > `Readiness probe failed … context deadline exceeded`
 
-even though **current state is Ready=True**.
+even though current state is Ready=True.
 
 ## Quick Sanity Check: Are Probes Still failing Now?
 
@@ -952,7 +955,7 @@ Earlier you had explicit 503s from the app. The later errors were:
 
 `context deadline exceeded (Client.Timeout exceeded while awaiting headers)`
 
-That pattern usually means the app was **hung / waiting on something** during its readiness handler (e.g., DNS retries, connection attempts) and didn't respond within your probe timeout (12s in Helm, though your earlier `describe` showed 60s—so check the live Deployment).
+That pattern usually means the app was hung / waiting on something during its readiness handler (e.g., DNS retries, connection attempts) and didn't respond within your probe timeout (12s in Helm, though your earlier `describe` showed 60s—so check the live Deployment).
 
 Confirm your current probe timeouts:
 
@@ -980,8 +983,8 @@ Those will usually tell you _exactly_ what resource is preventing sync (missing 
 
 ## Bottom line
 
-- **Pod debugging result:** ✅ fixed; readiness now passes; Workflows health is healthy.
-- **Remaining work:** Argo parent is still **OutOfSync/Degraded**, almost certainly due to one (or more) child apps being OutOfSync.
+- Pod debugging result: ✅ fixed; readiness now passes; Workflows health is healthy.
+- Remaining work: Argo parent is still OutOfSync/Degraded, almost certainly due to one (or more) child apps being OutOfSync.
 
 Paste the output of the `.status.conditions` command for the parent app and I'll point you straight at the failing child/resource and the quickest fix.
 
@@ -989,11 +992,11 @@ Paste the output of the `.status.conditions` command for the parent app and I'll
 
 ---
 
-Yep—that confirms it cleanly: **no new probe failures for the last 12 minutes**, and the pod is currently `Ready=True`. So you're in a good state now; that last `Unhealthy` event is the _final_ failure before Workflows API came up and the readiness endpoint started responding fast enough.
+Yep—that confirms it cleanly: no new probe failures for the last 12 minutes, and the pod is currently `Ready=True`. So you're in a good state now; that last `Unhealthy` event is the _final_ failure before Workflows API came up and the readiness endpoint started responding fast enough.
 
 ### What Likely Happened
 
-During the period where `workflows-api` didn't exist / was starting, your readiness handler probably did a DNS/HTTP attempt that **hung long enough** that the kubelet timed out waiting for headers → `context deadline exceeded`.
+During the period where `workflows-api` didn't exist / was starting, your readiness handler probably did a DNS/HTTP attempt that hung long enough that the kubelet timed out waiting for headers → `context deadline exceeded`.
 
 Once the `workflows-api` Service+pod existed and responded, the readiness call became quick and the failures stopped.
 
@@ -1034,17 +1037,17 @@ kubectl describe application ff-lca-prd-2 -n argocd Name: ff-lca-prd-2 Namespace
 
 ---
 
-There it is—Argo is Degraded because the **sync failed** on _one specific thing_:
+There it is—Argo is Degraded because the sync failed on _one specific thing_:
 
 > `Deployment.apps "ff-lca-prd-2-fitconnect-ftc" is invalid: spec.template.spec.containers[0].livenessProbe.tcpSocket: Forbidden: may not specify more than 1 handler type`
 
-That means your rendered Deployment currently has a livenessProbe that includes **more than one of**:
+That means your rendered Deployment currently has a livenessProbe that includes more than one of:
 
 - `httpGet`
 - `tcpSocket`
 - `exec`
 
-Kubernetes only allows **one** probe handler type per probe.
+Kubernetes only allows one probe handler type per probe.
 
 Even though the pod is healthy _right now_, Argo can't apply the desired state because the manifest it's trying to apply is invalid.
 
@@ -1054,11 +1057,11 @@ Even though the pod is healthy _right now_, Argo can't apply the desired state b
 
 If you can run helm locally in the same repo setup Argo uses:
 
-(Adjust paths if needed; the key is: **render and look at `livenessProbe`**.)
+(Adjust paths if needed; the key is: render and look at `livenessProbe`.)
 
 ### 2) Inspect What's Currently In-cluster (live object)
 
-If the live object shows only `httpGet`, but Argo says the patch includes `tcpSocket` too, then the **desired manifest** is the one that's wrong.
+If the live object shows only `httpGet`, but Argo says the patch includes `tcpSocket` too, then the desired manifest is the one that's wrong.
 
 ---
 
@@ -1067,7 +1070,7 @@ If the live object shows only `httpGet`, but Argo says the patch includes `tcpSo
 Some charts have logic like:
 
 - if `livenessProbe` is enabled, also add a default `tcpSocket` probe
-- and then you override `livenessProbe.httpGet`, resulting in **both** being present
+- and then you override `livenessProbe.httpGet`, resulting in both being present
 
 Or you've got:
 
@@ -1120,14 +1123,14 @@ rg -A 3 'tcpSocket' helm\_chart\_deployment/charts/databases/templates/mongodb-w
 
 Great grep—and it basically confirms the diagnosis:
 
-- There are **tcpSocket probes hardcoded in several templates** (frontend, mongodb-web, postgresql-web, storybook, some test charts).
+- There are tcpSocket probes hardcoded in several templates (frontend, mongodb-web, postgresql-web, storybook, some test charts).
 - And in at least one values file you have tcpSocket blocks in-line (the `ffnodes/fitfile/ff-a/values.yaml` bit).
 
-But Argo's error is **specifically**:
+But Argo's error is specifically:
 
 > `Deployment.apps "ff-lca-prd-2-fitconnect-ftc" … livenessProbe.tcpSocket … may not specify more than 1 handler type`
 
-So for _fitconnect-ftc_, the rendered `livenessProbe` is ending up with **both** `tcpSocket:` and `httpGet:` (or exec).
+So for _fitconnect-ftc_, the rendered `livenessProbe` is ending up with both `tcpSocket:` and `httpGet:` (or exec).
 
 ## The Fastest way to Locate Exactly where It's Coming from
 
@@ -1141,7 +1144,7 @@ That pattern creates _exactly_ your error if `.Values.livenessProbe` contains `h
 
 ### What to Fix (clean Chart-side fix)
 
-In the template, make liveness probe pick **one handler**, not both. Common pattern:
+In the template, make liveness probe pick one handler, not both. Common pattern:
 
 and remove any hardcoded `tcpSocket:` under it.
 
@@ -1153,7 +1156,7 @@ That guarantees only one handler.
 
 ## The Fastest Values-only Workaround (unblocks Argo immediately)
 
-If you can't change templates right now, you can avoid generating both by ensuring your values **don't introduce `httpGet`** (or don't introduce `tcpSocket`, depending on what the template hardcodes).
+If you can't change templates right now, you can avoid generating both by ensuring your values don't introduce `httpGet` (or don't introduce `tcpSocket`, depending on what the template hardcodes).
 
 Given your fitconnect uses http readiness already, the chart probably hardcodes tcpSocket and you've added httpGet in values.
 
@@ -1207,7 +1210,7 @@ Nice—you've now got the smoking gun.
 
 Your fitconnect Deployment template is clean:
 
-So Kubernetes is rejecting it because **`.Values.fitconnect.livenessProbe` contains BOTH `httpGet:` and `tcpSocket:`** (or exec). That's _not_ coming from the template; it's coming from the merged values.
+So Kubernetes is rejecting it because `.Values.fitconnect.livenessProbe` contains BOTH `httpGet:` and `tcpSocket:` (or exec). That's _not_ coming from the template; it's coming from the merged values.
 
 And we can see where that merge happens:
 
@@ -1238,7 +1241,7 @@ You will see something like:
 
 Pick one probe style and delete the other from the merged values.
 
-Since your app already has a proper HTTP endpoint and you want meaningful liveness, **keep `httpGet`** and remove `tcpSocket`.
+Since your app already has a proper HTTP endpoint and you want meaningful liveness, keep `httpGet` and remove `tcpSocket`.
 
 ### Where to Remove tcpSocket
 
@@ -1250,11 +1253,11 @@ You already showed a similar tcpSocket block exists in `ffnodes/fitfile/ff-a/val
 
 ### Quick Override if You Can't Find the Source Fast
 
-In the customer/env values (the ones that become `generated/values.yaml`), explicitly set livenessProbe to only the httpGet block. **Because `mergeOverwrite` is used, this should replace the object.**
+In the customer/env values (the ones that become `generated/values.yaml`), explicitly set livenessProbe to only the httpGet block. Because `mergeOverwrite` is used, this should replace the object.
 
 Example:
 
-But here's the catch: **mergeOverwrite may merge maps rather than replace nested maps** (implementation-dependent). If the base has `tcpSocket` and you set `httpGet`, it might keep both.
+But here's the catch: mergeOverwrite may merge maps rather than replace nested maps (implementation-dependent). If the base has `tcpSocket` and you set `httpGet`, it might keep both.
 
 So the safest "force remove" is to override tcpSocket to null _as well_:
 
@@ -1264,7 +1267,7 @@ Helm will render `tcpSocket: null` unless the template uses `toYaml` (it does)�
 
 Override the whole livenessProbe to an empty dict and then re-add the desired handler using a complete object replacement. You can do this if you adjust your helper to replace rather than merge—but you want something now.
 
-So: **fix at source**: remove `tcpSocket` from the default fitconnect values.
+So: fix at source: remove `tcpSocket` from the default fitconnect values.
 
 ---
 
@@ -1278,7 +1281,7 @@ If `_fitconnect.tpl` sets:
 
 …and your components/fitconnect values set the httpGet livenessProbe, you get the conflict after merge.
 
-**Fix**: change the default to HTTP as well, or remove the default livenessProbe entirely and let the component chart own it.
+Fix: change the default to HTTP as well, or remove the default livenessProbe entirely and let the component chart own it.
 
 ---
 
@@ -1303,13 +1306,13 @@ rg -n "livenessProbe|tcpSocket|readinessProbe" helm\_chart\_deployment/charts/ff
 
 ---
 
-Got it. Your component chart (`charts/components/fitconnect/values.yaml`) defines **HTTP** readiness+liveness only—no tcpSocket there. So the **tcpSocket is coming from the ffnode "defaults merge" side** (`fitconnectValues` from `charts/ffnode/templates/_fitconnect.tpl` or `charts/ffnode/values.yaml`), and then merging with the component chart's httpGet livenessProbe gives you both → Kubernetes rejects the Deployment → Argo sync fails.
+Got it. Your component chart (`charts/components/fitconnect/values.yaml`) defines HTTP readiness+liveness only—no tcpSocket there. So the tcpSocket is coming from the ffnode "defaults merge" side (`fitconnectValues` from `charts/ffnode/templates/_fitconnect.tpl` or `charts/ffnode/values.yaml`), and then merging with the component chart's httpGet livenessProbe gives you both → Kubernetes rejects the Deployment → Argo sync fails.
 
 You didn't get output for `_fitconnect.tpl` (looks like the `rg` didn't run / didn't return anything in the snippet you pasted), but we don't actually need to see it to fix this: we just need to remove the default tcpSocket livenessProbe from the merged values path.
 
 ## The Clean Fix
 
-**Remove `tcpSocket` from the default fitconnect livenessProbe** in the ffnode layer.
+Remove `tcpSocket` from the default fitconnect livenessProbe in the ffnode layer.
 
 ### Step 1: Find where Ffnode Sets it
 
@@ -1321,7 +1324,7 @@ or a helper that injects it.
 
 ### Step 2: Delete it (or Switch it to httpGet)
 
-**Best option:** just delete the `fitconnect.livenessProbe` default from ffnode so the component chart owns it.
+Best option: just delete the `fitconnect.livenessProbe` default from ffnode so the component chart owns it.
 
 If you want a default probe in ffnode, make it match the component chart (httpGet). But don't define a second handler.
 
@@ -1331,7 +1334,7 @@ If you want a default probe in ffnode, make it match the component chart (httpGe
 
 Because your deployment template does:
 
-If you set `tcpSocket: null`, it will render `tcpSocket: null` and Kubernetes will still complain. You need the key **not present**.
+If you set `tcpSocket: null`, it will render `tcpSocket: null` and Kubernetes will still complain. You need the key not present.
 
 So fix at source: remove the tcpSocket from the merged defaults.
 
@@ -1341,9 +1344,9 @@ So fix at source: remove the tcpSocket from the merged defaults.
 
 Until you fix the chart, you can temporarily stop Argo trying to apply the invalid patch by making the _merged_ livenessProbe only tcpSocket OR only httpGet.
 
-Since you already have a working Deployment running, the easiest is: **remove your livenessProbe override entirely** (so only the ffnode tcpSocket remains). That means in the customer values that feed `.Values.fitconnect`, remove/disable the livenessProbe block.
+Since you already have a working Deployment running, the easiest is: remove your livenessProbe override entirely (so only the ffnode tcpSocket remains). That means in the customer values that feed `.Values.fitconnect`, remove/disable the livenessProbe block.
 
-But the correct long-term is: **ffnode defaults should not add a tcpSocket livenessProbe when the component chart already defines one**.
+But the correct long-term is: ffnode defaults should not add a tcpSocket livenessProbe when the component chart already defines one.
 
 ---
 
@@ -1351,7 +1354,7 @@ But the correct long-term is: **ffnode defaults should not add a tcpSocket liven
 
 Render and ensure livenessProbe contains only one handler:
 
-You should see **only** `httpGet:` under `livenessProbe:` (or only tcpSocket, but not both).
+You should see only `httpGet:` under `livenessProbe:` (or only tcpSocket, but not both).
 
 ---
 
@@ -1371,13 +1374,13 @@ can we override the default from these files
 
 ---
 
-Yes—**you can override some defaults from your `values.yaml` / `values.cue`**, but **you can't reliably "remove" a probe handler (like `tcpSocket`) using values alone** in your current chart wiring.
+Yes—you can override some defaults from your `values.yaml` / `values.cue`, but you can't reliably "remove" a probe handler (like `tcpSocket`) using values alone in your current chart wiring.
 
 Here's why, using your uploaded values as evidence:
 
-- In your `values.yaml`, you're overriding **only timings** for the probes:
-- The **fitconnect component chart** default values include an **`httpGet` handler** for liveness/readiness (you showed that earlier).
-- Somewhere else (ffnode defaults / merged values) a **`tcpSocket` handler** is also being introduced.
+- In your `values.yaml`, you're overriding only timings for the probes:
+- The fitconnect component chart default values include an `httpGet` handler for liveness/readiness (you showed that earlier).
+- Somewhere else (ffnode defaults / merged values) a `tcpSocket` handler is also being introduced.
 - Because Helm merges maps, you end up with:
 
 …and Kubernetes rejects it ("may not specify more than 1 handler type").
@@ -1404,7 +1407,7 @@ That's exactly what your current `values.yaml` is doing.
 
 ### Option A (best): Fix the Chart defaults/merge so only One Handler Exists
 
-Change the ffnode fitconnect defaults (where `tcpSocket` is coming from) to **not set a handler**, or to use **httpGet only**, or make the merge logic _replace_ the probe object instead of merging it.
+Change the ffnode fitconnect defaults (where `tcpSocket` is coming from) to not set a handler, or to use httpGet only, or make the merge logic _replace_ the probe object instead of merging it.
 
 ### Option B (workaround): Stop One Source from Contributing a Handler
 
@@ -1418,13 +1421,13 @@ If you paste the bit of the ffnode defaults where `tcpSocket` is defined (the sn
 
 ---
 
-That Auth0 error is very literal: **the exact `redirect_uri` your app sent to `/authorize` must exactly match one of the "Allowed Callback URLs" configured on that Auth0 Application (client\_id `lLTX5Q0c…`).** Even a missing path segment, http vs https, or different host = mismatch.
+That Auth0 error is very literal: the exact `redirect_uri` your app sent to `/authorize` must exactly match one of the "Allowed Callback URLs" configured on that Auth0 Application (client\_id `lLTX5Q0c…`). Even a missing path segment, http vs https, or different host = mismatch.
 
 In your case, Auth0 is receiving:
 
 So to fix it you either:
 
-- **add that exact URL** to the Auth0 app's **Allowed Callback URLs**, or
+- add that exact URL to the Auth0 app's Allowed Callback URLs, or
 - change your app config so it uses a URL that _is_ already allowed.
 
 Here's how to debug what URLs are actually being used and what they should be.
@@ -1447,9 +1450,9 @@ That's the one that must be in Auth0.
 
 Most stacks compute the callback URL from a "base URL" + a fixed callback path. Common knobs:
 
-- **NextAuth**: `NEXTAUTH_URL` (and provider callback path is typically `/api/auth/callback/auth0`)
-- **Auth0 React SDK / SPA**: `redirectUri` configured in frontend
-- **Express/OpenID Connect**: `baseURL` / `redirect_uri` / `appSession` config
+- NextAuth: `NEXTAUTH_URL` (and provider callback path is typically `/api/auth/callback/auth0`)
+- Auth0 React SDK / SPA: `redirectUri` configured in frontend
+- Express/OpenID Connect: `baseURL` / `redirect_uri` / `appSession` config
 - Reverse proxy influences it via `X-Forwarded-Proto`, `Host`, `X-Forwarded-Host`
 
 ### In Your Deployment, Check the Actual Runtime Config Files
@@ -1512,7 +1515,7 @@ Usually:
 
 ## 5) Quick way to Find "what Auth0 Currently allows"
 
-If you don't have dashboard access, you can still debug by **listing what URL your app is using** (above) and then asking whoever owns Auth0 to add that exact callback.
+If you don't have dashboard access, you can still debug by listing what URL your app is using (above) and then asking whoever owns Auth0 to add that exact callback.
 
 ---
 
@@ -1523,8 +1526,10 @@ That `/fitfile` prefix suggests one of:
 - your frontend is mounted under `/fitfile` and the auth library assumes callback under that base path, or
 - ingress rewrite/basePath changed recently and Auth0 wasn't updated.
 
-So the **immediate fix** is: **add**
+So the immediate fix is: add
+
 `https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/callback/auth0`
+
 to the Auth0 app's Allowed Callback URLs.
 
 ---
@@ -1541,18 +1546,18 @@ Perfect—this tells us exactly what's going on.
 
 ### What You've Proven
 
-- Your Auth0 client is `lLTX5Q0c…` and its configured **audience** is `https://lca-prd-2.privatelink.fitfile.net` (from `/secrets/auth.json`).
-- Your app config has **internal** base URLs like:
+- Your Auth0 client is `lLTX5Q0c…` and its configured audience is `https://lca-prd-2.privatelink.fitfile.net` (from `/secrets/auth.json`).
+- Your app config has internal base URLs like:
 	- `baseUrl: "http://ff-lca-prd-2-fitconnect-ftc/fitconnect"`
 	- `workflowsApiBaseUrl: "http://workflows-api"`
-- There are **no env vars** controlling callback/redirect.
-- So the **redirect\_uri is being computed dynamically** from the incoming request host + path and whatever "app base path" your gateway/ingress is using.
+- There are no env vars controlling callback/redirect.
+- So the redirect\_uri is being computed dynamically from the incoming request host + path and whatever "app base path" your gateway/ingress is using.
 
 And the failing redirect\_uri is:
 
 `https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/callback/auth0`
 
-So Auth0 needs to allow that _exact_ callback URL, **or** your app needs to generate a different one that matches what Auth0 already allows.
+So Auth0 needs to allow that _exact_ callback URL, or your app needs to generate a different one that matches what Auth0 already allows.
 
 ---
 
@@ -1566,7 +1571,7 @@ That's the best ground truth. Whatever is in `redirect_uri=` must be on the Auth
 
 ### 2) Inspect the Auth Routes on Your Ingress and App
 
-Your callback path includes `/fitfile/api/auth/callback/auth0`—that strongly suggests **a "fitfile" frontend / gateway service** (or NextAuth) is handling the auth callback, not the fitconnect service itself.
+Your callback path includes `/fitfile/api/auth/callback/auth0`—that strongly suggests a "fitfile" frontend / gateway service (or NextAuth) is handling the auth callback, not the fitconnect service itself.
 
 So: find which service actually serves `/fitfile/api/auth/*`.
 
@@ -1574,7 +1579,7 @@ Run:
 
 This will show which backend gets `/fitfile` paths.
 
-If it routes to `ff-lca-prd-2-frontend` (very likely), then the Auth0 callback URL must be configured on the **frontend's** Auth0 application settings (or whichever Auth0 "application" corresponds to that client\_id).
+If it routes to `ff-lca-prd-2-frontend` (very likely), then the Auth0 callback URL must be configured on the frontend's Auth0 application settings (or whichever Auth0 "application" corresponds to that client\_id).
 
 ---
 
@@ -1588,7 +1593,7 @@ So the immediate fix is:
 
 ### In Auth0 Dashboard → Applications → (client\_id lLTX5Q0c…)
 
-**Allowed Callback URLs** add:
+Allowed Callback URLs add:
 
 - `https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/callback/auth0`
 
@@ -1596,8 +1601,8 @@ Also, you'll almost certainly want to add the equivalent "root" (or other enviro
 
 Common accompanying settings (so you don't hit the next error right after login):
 
-- **Allowed Logout URLs**: `https://lca-prd-2.privatelink.fitfile.net/fitfile`
-- **Allowed Web Origins**: `https://lca-prd-2.privatelink.fitfile.net`
+- Allowed Logout URLs: `https://lca-prd-2.privatelink.fitfile.net/fitfile`
+- Allowed Web Origins: `https://lca-prd-2.privatelink.fitfile.net`
 
 (Exact logout URL depends on where your app sends users after logout.)
 
@@ -1607,9 +1612,9 @@ Common accompanying settings (so you don't hit the next error right after login)
 
 The "should" is whatever your public entrypoint is. You need consistency across:
 
-1. **Ingress host/path** (public URL users hit)
-2. **Your app's configured base path** (e.g. `/fitfile`)
-3. **Auth0 allowed callback URLs**
+1. Ingress host/path (public URL users hit)
+2. Your app's configured base path (e.g. `/fitfile`)
+3. Auth0 allowed callback URLs
 
 Right now, users are going through:
 
@@ -1654,7 +1659,7 @@ This output explains the Auth0 callback mismatch _and_ why you're seeing `/fitfi
 
 ## What's Happening
 
-You have **two frontend ingresses** that effectively make your app live under a `/fitfile` base path:
+You have two frontend ingresses that effectively make your app live under a `/fitfile` base path:
 
 1. A "default" ingress routing `/` to the frontend service, with:
 - `nginx.ingress.kubernetes.io/add-base-url: "true"`
@@ -1682,19 +1687,19 @@ Auth0 is rejecting it because it isn't allowlisted.
 
 In the Auth0 dashboard, open the Application that has:
 
-- **Client ID:**`lLTX5Q0csyz2GflfH0V4wvVPFLF3QAgT`
+- Client ID:`lLTX5Q0csyz2GflfH0V4wvVPFLF3QAgT`
 
-Add this **exact** URL to **Allowed Callback URLs**:
+Add this exact URL to Allowed Callback URLs:
 
 - `https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/callback/auth0`
 
 Also add these to avoid the next common errors:
 
-**Allowed Logout URLs**
+Allowed Logout URLs
 
 - `https://lca-prd-2.privatelink.fitfile.net/fitfile`
 
-**Allowed Web Origins**
+Allowed Web Origins
 
 - `https://lca-prd-2.privatelink.fitfile.net`
 
@@ -1726,15 +1731,15 @@ If this is NextAuth, you'll often see headers or responses that make it obvious.
 
 ## One More Important Note: Your Ingress Annotations Look Suspicious
 
-This bit is **not a normal nginx-ingress usage**:
+This bit is not a normal nginx-ingress usage:
 
 - `nginx.ingress.kubernetes.io/rewrite-target: https://lca-prd-2.privatelink.fitfile.net/fitfile`
 
-`rewrite-target` usually rewrites to a **path**, not a full URL. If this is actually active, it can cause weird behavior (redirect loops, mixed paths, odd base URL handling).
+`rewrite-target` usually rewrites to a path, not a full URL. If this is actually active, it can cause weird behavior (redirect loops, mixed paths, odd base URL handling).
 
 You may want to simplify to _one_ ingress strategy:
 
-- Either serve the frontend at `/` with no rewrite tricks, **or**
+- Either serve the frontend at `/` with no rewrite tricks, or
 - serve it cleanly at `/fitfile` and drop the "default / rewrite-to-url" ingress.
 
 But that's an architectural cleanup; it's not required to solve the Auth0 error immediately.
@@ -1767,20 +1772,20 @@ Nice—you've now got the full, precise picture.
 
 ### What's Generating the Callback URL?
 
-Your **frontend is using NextAuth** and it's explicitly configured with:
+Your frontend is using NextAuth and it's explicitly configured with:
 
 - `NEXTAUTH_URL=https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth`
 - `NEXT_PUBLIC_BASE_PATH=/fitfile`
 - `AUTH0_ISSUER=https://fitfile-prod.eu.auth0.com`
 - `AUTH0_AUDIENCE=` (empty)
 
-So the **actual callback URL** NextAuth will use for Auth0 is:
+So the actual callback URL NextAuth will use for Auth0 is:
 
 `https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/callback/auth0`
 
 ✅ That exactly matches the `redirect_uri` you saw.
 
-So the fix is straightforward: **Auth0 needs to allow that callback URL for this client id**.
+So the fix is straightforward: Auth0 needs to allow that callback URL for this client id.
 
 ---
 
@@ -1790,7 +1795,7 @@ In Auth0 Dashboard → Applications → (the app with client id `lLTX5Q0c…`) �
 
 ### Allowed Callback URLs
 
-Add **exactly**:
+Add exactly:
 
 - `https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/callback/auth0`
 
@@ -1825,10 +1830,10 @@ You already did:
 
 So:
 
-- **Sign in**: `https://…/fitfile/api/auth/signin`
-- **Callback**: `https://…/fitfile/api/auth/callback/auth0`
-- **Sign out**: `https://…/fitfile/api/auth/signout`
-- **Session**: `https://…/fitfile/api/auth/session`
+- Sign in: `https://…/fitfile/api/auth/signin`
+- Callback: `https://…/fitfile/api/auth/callback/auth0`
+- Sign out: `https://…/fitfile/api/auth/signout`
+- Session: `https://…/fitfile/api/auth/session`
 
 You can confirm quickly:
 
@@ -1867,15 +1872,15 @@ Make sure this matches the API "Identifier" in Auth0.
 
 Given your ingress/base path setup, these are the URLs that should be configured:
 
-**Auth0 Allowed Callback URL**
+Auth0 Allowed Callback URL
 
 - `https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/callback/auth0`
 
-**Auth0 Allowed Logout URL**
+Auth0 Allowed Logout URL
 
 - `https://lca-prd-2.privatelink.fitfile.net/fitfile`
 
-**Auth0 Allowed Web Origin**
+Auth0 Allowed Web Origin
 
 - `https://lca-prd-2.privatelink.fitfile.net`
 
@@ -1891,7 +1896,7 @@ curl -Ik 'https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/session' cu
 
 ---
 
-Those `HTTP/2 400` responses are a clue that **your requests aren't actually reaching NextAuth's API route handler in the normal way**. With a typical NextAuth setup, `GET /api/auth/session` and `GET /api/auth/providers` should return `200` (JSON) even without cookies.
+Those `HTTP/2 400` responses are a clue that your requests aren't actually reaching NextAuth's API route handler in the normal way. With a typical NextAuth setup, `GET /api/auth/session` and `GET /api/auth/providers` should return `200` (JSON) even without cookies.
 
 Given what we saw in your ingress YAML, the most likely reason is:
 
@@ -1903,9 +1908,9 @@ Also, your "default" frontend ingress has a very weird annotation:
 
 - `nginx.ingress.kubernetes.io/rewrite-target: https://lca-prd-2.privatelink.fitfile.net/fitfile`
 
-`rewrite-target` is supposed to be a **path**, not a full URL. That can create unpredictable routing.
+`rewrite-target` is supposed to be a path, not a full URL. That can create unpredictable routing.
 
-So you likely have **routing/rewriting issues** around `/fitfile/*` that still "work" for normal page loads but break API routes like `/fitfile/api/auth/*`.
+So you likely have routing/rewriting issues around `/fitfile/*` that still "work" for normal page loads but break API routes like `/fitfile/api/auth/*`.
 
 ---
 
@@ -1917,7 +1922,7 @@ Then also hit the backend service directly (bypassing ingress) from inside the c
 
 (One of those ports should work depending on how the container listens.)
 
-If **direct-to-pod works** but **ingress gives 400**, it's definitely ingress config.
+If direct-to-pod works but ingress gives 400, it's definitely ingress config.
 
 ---
 
@@ -1936,7 +1941,7 @@ But NextAuth normally expects:
 
 Setting `NEXTAUTH_URL` to include `/api/auth` is unusual and can cause URL construction problems.
 
-**What it probably should be:**
+What it probably should be:
 
 - `NEXTAUTH_URL=https://lca-prd-2.privatelink.fitfile.net/fitfile`
 
@@ -1949,7 +1954,9 @@ So even before Auth0 allowlists, I'd fix this env var.
 ### Verify how It's Currently Behaving
 
 It is generating:
+
 `…/fitfile/api/auth/callback/auth0`
+
 so it's _close_, but the 400s suggest the handler/routing isn't right.
 
 ---
@@ -1966,22 +1973,22 @@ But you might immediately run into a new error after that if NextAuth endpoints 
 
 ## Recommended Ingress Cleanup (most Likely Fix for the 400s)
 
-You currently have **two ingresses** for the frontend plus odd annotations.
+You currently have two ingresses for the frontend plus odd annotations.
 
-I would aim for **one** ingress for the frontend:
+I would aim for one ingress for the frontend:
 
 - host: `lca-prd-2.privatelink.fitfile.net`
 - path: `/(fitfile)($|/)(.*)` (or simpler `/fitfile`)
 - rewrite-target: `/$2` (or appropriate capture) to strip the prefix _if your app is not base-path aware_, OR don't rewrite if your app is base-path aware.
 
-And **remove**:
+And remove:
 
 - `ssl-passthrough: "true"` unless the backend is actually speaking TLS
 - the "rewrite-target to full URL" ingress
 
 But since you're using `NEXT_PUBLIC_BASE_PATH=/fitfile`, your app likely _is_ base-path aware, so the simplest is:
 
-- route `/fitfile` to the frontend service with **no rewrite**
+- route `/fitfile` to the frontend service with no rewrite
 - route `/` either nowhere or redirect to `/fitfile`
 
 ---
@@ -2007,24 +2014,26 @@ curl -vk 'https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/providers' 
 
 Great—this clears up two things:
 
-1. **NextAuth is working through ingress** (your `/providers` call returned `200` with the exact signinUrl + callbackUrl).
+1. NextAuth is working through ingress (your `/providers` call returned `200` with the exact signinUrl + callbackUrl).
 2. Your original "400s" were almost certainly from hitting endpoints that behave differently without cookies / with Next.js routing quirks (or transient ingress/app state). The important one (`/providers`) is healthy and confirms the "real" URLs.
 
 And it confirms _exactly_ what Auth0 must allow:
 
-✅ **Callback URL used:**
+✅ Callback URL used:
+
 `https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/callback/auth0`
 
-✅ **Signin URL used:**
+✅ Signin URL used:
+
 `https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/signin/auth0`
 
-So the Auth0 error is purely configuration: **Allowed Callback URLs missing that callback URL**.
+So the Auth0 error is purely configuration: Allowed Callback URLs missing that callback URL.
 
 ---
 
 ## Do This in Auth0 (definitive)
 
-In Auth0 Dashboard → **Applications** → select the app with client\_id `lLTX5Q0csyz2GflfH0V4wvVPFLF3QAgT` → **Settings**:
+In Auth0 Dashboard → Applications → select the app with client\_id `lLTX5Q0csyz2GflfH0V4wvVPFLF3QAgT` → Settings:
 
 ### Allowed Callback URLs
 
@@ -2054,7 +2063,7 @@ You have:
 
 - `NEXTAUTH_URL=https://…/fitfile/api/auth`
 
-Normally NextAuth docs recommend setting `NEXTAUTH_URL` to the **site origin** (optionally including basePath), not the `/api/auth` path. Despite that, your `/providers` output shows NextAuth is generating URLs consistently.
+Normally NextAuth docs recommend setting `NEXTAUTH_URL` to the site origin (optionally including basePath), not the `/api/auth` path. Despite that, your `/providers` output shows NextAuth is generating URLs consistently.
 
 So I wouldn't change it right now unless you see downstream oddities (wrong redirects, csrf issues, callback errors after allowlisting).
 
@@ -2070,7 +2079,7 @@ If you want the canonical shape later, it'd typically be:
 
 Deployment shows:
 
-- containerPort **4000** named `http`
+- containerPort 4000 named `http`
 
 So if you want to test inside the pod:
 
@@ -2080,9 +2089,9 @@ So if you want to test inside the pod:
 
 ## One More Thing You Should Fix Eventually: Your Frontend Ingress Config is Weird
 
-You have **two ingresses** for the same host/service:
+You have two ingresses for the same host/service:
 
-- `/` → frontend, with `add-base-url` and `rewrite-target` set to a **full URL** (unusual / likely wrong usage)
+- `/` → frontend, with `add-base-url` and `rewrite-target` set to a full URL (unusual / likely wrong usage)
 - `/(fitfile)($|/)(.*)` → frontend, rewrite-target `/$1$2$3`
 
 This can cause subtle issues (especially around redirects and absolute URLs). But since `/providers` works and NextAuth is emitting the expected URLs, it's not the immediate blocker.
@@ -2114,13 +2123,13 @@ Cool—this tells us two important (and slightly surprising) things:
 
 - `https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/callback/auth0`
 
-So the **Auth0 fix remains: add that exact callback URL** to the Auth0 application for client\_id `lLTX5Q0c…`.
+So the Auth0 fix remains: add that exact callback URL to the Auth0 application for client\_id `lLTX5Q0c…`.
 
 ---
 
 ## 2) But You Cannot Reach the App on 127.0.0.1:4000 inside the Pod
 
-That "connection refused" strongly suggests the frontend container is **not listening on localhost**.
+That "connection refused" strongly suggests the frontend container is not listening on localhost.
 
 Common reasons:
 
@@ -2153,7 +2162,7 @@ You have two ingresses pointing at the same service:
 ### Ingress B: /
 
 - `add-base-url: "true"`
-- rewrite-target: **full URL** `https://…/fitfile` (non-standard)
+- rewrite-target: full URL `https://…/fitfile` (non-standard)
 - ssl-passthrough: true
 
 Despite the weirdness, `/fitfile/api/auth/providers` works, so don't change ingress yet unless you see other routing issues. The Auth0 callback mismatch is independent of this.
@@ -2178,6 +2187,7 @@ After updating Auth0:
 ### Step C—if You Still Get Login Issues, Check Audience
 
 Your frontend has `AUTH0_AUDIENCE=` empty.
+
 If you need API access tokens (very likely), set:
 
 - `AUTH0_AUDIENCE=https://lca-prd-2.privatelink.fitfile.net`
@@ -2200,7 +2210,7 @@ Nice—that explains the "localhost refused" perfectly.
 
 Your `netstat` shows the Next.js server is listening on:
 
-- `10.0.0.165:4000` (**pod IP only**)
+- `10.0.0.165:4000` (pod IP only)
 
 …not on:
 
@@ -2264,7 +2274,7 @@ Only change that if you see token/audience-related failures after login.
 
 ---
 
-If you want, paste your Auth0 application's current **Allowed Callback URLs** field and I'll tell you exactly what to add (and what _not_ to add) to keep it tight and avoid accidental wildcarding.
+If you want, paste your Auth0 application's current Allowed Callback URLs field and I'll tell you exactly what to add (and what _not_ to add) to keep it tight and avoid accidental wildcarding.
 
 ---
 
@@ -2272,7 +2282,7 @@ curl -Iks 'https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/signin/aut
 
 ---
 
-Yep—**that 400 is expected for this specific endpoint when you call it "raw"**.
+Yep—that 400 is expected for this specific endpoint when you call it "raw".
 
 ### Why /signin/auth0 Returns 400 with Curl
 
@@ -2290,9 +2300,9 @@ You already proved the config is correct with the `/providers` endpoint (that on
 
 ## How to Verify the Redirect to Auth0 with Curl (properly)
 
-Use the **NextAuth "start OAuth" endpoint**, which _is_ intended to redirect without CSRF:
+Use the NextAuth "start OAuth" endpoint, which _is_ intended to redirect without CSRF:
 
-### Option A (most reliable): /api/auth/signin/auth0?callbackUrl=..
+### Option A (most reliable): /api/auth/signin/auth0?callbackUrl=.
 
 You want to see a `302` and a `location:` to `https://fitfile-prod.eu.auth0.com/authorize?…`
 
@@ -2310,7 +2320,7 @@ Because `/providers` already confirms the callback URL NextAuth will send to Aut
 
 So the action item remains:
 
-✅ Add that exact URL to Auth0 **Allowed Callback URLs** for the application client `lLTX5Q0c…`.
+✅ Add that exact URL to Auth0 Allowed Callback URLs for the application client `lLTX5Q0c…`.
 
 ---
 
@@ -2334,22 +2344,22 @@ i have set up the auth0 app callbacks
 
 ---
 
-Nice—from your screenshot, the Auth0 settings look **correct** for what NextAuth is advertising:
+Nice—from your screenshot, the Auth0 settings look correct for what NextAuth is advertising:
 
 - Allowed Callback URL: `https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/callback/auth0`
 - Allowed Logout URL: `https://lca-prd-2.privatelink.fitfile.net/fitfile`
 - Allowed Web Origins: `https://lca-prd-2.privatelink.fitfile.net`
 
-So if you're **still** seeing "Callback URL mismatch", it almost always means **the `redirect_uri` being sent to Auth0 is not the one you think it is** (different host, http vs https, missing `/fitfile`, etc.), or you're hitting a different Auth0 app/client.
+So if you're still seeing "Callback URL mismatch", it almost always means the `redirect_uri` being sent to Auth0 is not the one you think it is (different host, http vs https, missing `/fitfile`, etc.), or you're hitting a different Auth0 app/client.
 
 ### 1) Confirm the Actual redirect\_uri Being Sent to Auth0 (most important)
 
 Do this in the browser:
 
-- Open DevTools → **Network**
+- Open DevTools → Network
 - Click "Login"
 - Click the request to `https://fitfile-prod.eu.auth0.com/authorize?…`
-- Look at the `redirect_uri` query param **exactly**
+- Look at the `redirect_uri` query param exactly
 - Compare it character-for-character with what's in Allowed Callback URLs
 
 If you paste the `redirect_uri=` value you see there, I'll tell you exactly what to add/fix.
@@ -2364,11 +2374,11 @@ You should see a `location:` header pointing at Auth0. Copy that whole URL (or j
 
 If the `redirect_uri` still doesn't match, it'll usually be one of these:
 
-- **Different scheme**: `http://…` instead of `https://…`
-- **Different path**: missing `/fitfile` or using `/api/auth/callback/auth0` without `/fitfile`
-- **Different host**: e.g. internal name, or another DNS name
-- **Wrong Auth0 application**: you updated one app, but the login flow is using a different `client_id`
-- **Invisible whitespace** in the Allowed Callback URLs field (rare, but it happens if copied/pasted)
+- Different scheme: `http://…` instead of `https://…`
+- Different path: missing `/fitfile` or using `/api/auth/callback/auth0` without `/fitfile`
+- Different host: e.g. internal name, or another DNS name
+- Wrong Auth0 application: you updated one app, but the login flow is using a different `client_id`
+- Invisible whitespace in the Allowed Callback URLs field (rare, but it happens if copied/pasted)
 
 ### 4) Quick "belt and suspenders" Additions (safe)
 
@@ -2397,7 +2407,7 @@ Your request to:
 
 `/fitfile/api/auth/signin/auth0?callbackUrl=%2Ffitfile`
 
-is returning **HTTP/2 200**, with **no `Location:` header**, so NextAuth is **not initiating the OAuth redirect** in this path.
+is returning HTTP/2 200, with no `Location:` header, so NextAuth is not initiating the OAuth redirect in this path.
 
 That means the browser flow you saw earlier that _did_ hit `/authorize` is coming from a _different_ route or behavior (likely the interactive `/api/auth/signin` HTML page), and _that_ flow may be generating a different `redirect_uri` than you expect.
 
@@ -2436,7 +2446,7 @@ The fastest way is still browser DevTools:
 - click the `authorize` request
 - copy the full URL and inspect `redirect_uri=…`
 
-If it shows something like **`https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/callback/auth0`**, then Auth0 should accept it (since you added it). If it shows something else, that's your mismatch.
+If it shows something like `https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/callback/auth0`, then Auth0 should accept it (since you added it). If it shows something else, that's your mismatch.
 
 ---
 
@@ -2444,8 +2454,8 @@ If it shows something like **`https://lca-prd-2.privatelink.fitfile.net/fitfile/
 
 Common causes:
 
-- **NextAuth is running in "App Router / RSC" mode and returning an HTML page** (not redirect) for GET requests.
-- It might require a **POST** (with csrf token) to actually start the OAuth flow.
+- NextAuth is running in "App Router / RSC" mode and returning an HTML page (not redirect) for GET requests.
+- It might require a POST (with csrf token) to actually start the OAuth flow.
 - Or you're behind an ingress rewrite that makes NextAuth think it's already on the sign-in page and not initiating the provider redirect.
 
 This is why `/providers` is the cleanest "truth" for URLs, but for redirect behavior we need to look at `/signin` HTML.
@@ -2480,15 +2490,15 @@ Perfect—now we can see exactly what's happening.
 
 ### What Your Output Proves
 
-`GET /fitfile/api/auth/signin/auth0` is **not supposed to redirect**. It returns the **NextAuth "Sign in" HTML page** with a **POST form**:
+`GET /fitfile/api/auth/signin/auth0` is not supposed to redirect. It returns the NextAuth "Sign in" HTML page with a POST form:
 
 - `form action="https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/signin/auth0" method="POST"`
 - hidden `csrfToken=…`
-- hidden `callbackUrl="https://lca-prd-2.privatelink.fitfile.net"` ✅ **NOTE: this callbackUrl is missing `/fitfile`**
+- hidden `callbackUrl="https://lca-prd-2.privatelink.fitfile.net"` ✅ NOTE: this callbackUrl is missing `/fitfile`
 
 That callbackUrl is _not_ the Auth0 redirect\_uri yet, but it _often influences_ where NextAuth thinks "home" is and can affect how it builds URLs if `NEXTAUTH_URL` /proxy headers are off.
 
-Now the next step is: **simulate the POST** and capture the redirect to Auth0, then read the real `redirect_uri` that Auth0 is rejecting.
+Now the next step is: simulate the POST and capture the redirect to Auth0, then read the real `redirect_uri` that Auth0 is rejecting.
 
 ---
 
@@ -2496,7 +2506,7 @@ Now the next step is: **simulate the POST** and capture the redirect to Auth0, t
 
 Run this exactly:
 
-**Expected outcome:** you should see a `location:` header to Auth0 `/authorize?…`
+Expected outcome: you should see a `location:` header to Auth0 `/authorize?…`
 
 Then copy that `location:` URL and we'll inspect the `redirect_uri` inside it.
 
@@ -2529,7 +2539,7 @@ But your NextAuth env says:
 
 That is… unusual.
 
-For NextAuth, `NEXTAUTH_URL` is typically the **site base**, not the auth base path. With a base path like `/fitfile/api/auth`, you normally do something like:
+For NextAuth, `NEXTAUTH_URL` is typically the site base, not the auth base path. With a base path like `/fitfile/api/auth`, you normally do something like:
 
 - `NEXTAUTH_URL = https://lca-prd-2.privatelink.fitfile.net`
 - and `NEXTAUTH_URL_INTERNAL` / `AUTH_TRUST_HOST` depending on version
@@ -2549,7 +2559,7 @@ That combination can absolutely produce a `redirect_uri` that Auth0 rejects.
 
 In general, your Auth0 Allowed Callback URLs should include the one NextAuth uses:
 
-✅ **Most likely correct callback for your deployment:**
+✅ Most likely correct callback for your deployment:
 
 - `https://lca-prd-2.privatelink.fitfile.net/fitfile/api/auth/callback/auth0`
 
@@ -2563,7 +2573,7 @@ And Allowed Web Origins:
 
 You already did those.
 
-So the remaining issue is almost certainly: **NextAuth is generating a different redirect\_uri**.
+So the remaining issue is almost certainly: NextAuth is generating a different redirect\_uri.
 
 ---
 
@@ -2579,8 +2589,9 @@ and I'll tell you exactly which URL is being sent and exactly what to add/change
 
 ---
 
-Great—this is the **money shot**, and it tells us a lot. 👍
-Short version: **your Auth0 callback URL is now correct**. The remaining problem is **not** a callback mismatch anymore.
+Great—this is the money shot, and it tells us a lot. 👍
+
+Short version: your Auth0 callback URL is now correct. The remaining problem is not a callback mismatch anymore.
 
 Let's walk through it cleanly and pin down what's left.
 
@@ -2592,22 +2603,23 @@ From your POST trace:
 
 ### ✅ This Matches Auth0 Settings
 
-You configured **Allowed Callback URLs** as:
+You configured Allowed Callback URLs as:
 
-➡️ **Callback URL mismatch is solved.**
+➡️ Callback URL mismatch is solved.
+
 Auth0 would _not_ issue `/authorize` if this were wrong.
 
 ---
 
 ## 2️⃣ Why You Were Still seeing "Callback URL mismatch" Earlier
 
-That error was **cached / stale config**, very likely from:
+That error was cached / stale config, very likely from:
 
 - Auth0 app settings not yet saved
 - Or browser session hitting an old authorize URL
 - Or testing before the POST flow (GET `/signin/auth0` alone)
 
-Your manual POST proves the **live config is now correct**.
+Your manual POST proves the live config is now correct.
 
 ---
 
@@ -2619,14 +2631,14 @@ Look closely at this parameter:
 
 In Auth0:
 
-- `audience` **must match an API Identifier**
+- `audience` must match an API Identifier
 - Not your site URL
 - Not your ingress host
 - Not your frontend URL
 
 If Auth0 does not have an API with identifier:
 
-then **login will fail after redirect**, usually with:
+then login will fail after redirect, usually with:
 
 - silent failure
 - 400 on callback
@@ -2646,15 +2658,15 @@ So NextAuth/Auth0 provider is being configured with:
 
 ## 5️⃣ What it Should Be instead
 
-You have **two valid options**, depending on intent.
+You have two valid options, depending on intent.
 
 ---
 
 ### ✅ Option A—Use Auth0's Default Userinfo Flow (simplest)
 
-If you **don't need a custom API access token**:
+If you don't need a custom API access token:
 
-**Remove `audience` entirely**
+Remove `audience` entirely
 
 In Helm / values / secret:
 
@@ -2662,16 +2674,16 @@ or remove the key.
 
 This makes Auth0 issue an ID token + userinfo only, which is what NextAuth expects by default.
 
-👉 **This is the most common fix**
+👉 This is the most common fix
 
 ---
 
 ### ✅ Option B—Use a Real Auth0 API (advanced)
 
-If you **do** need an access token for a backend API:
+If you do need an access token for a backend API:
 
 1. In Auth0 Dashboard → APIs → Create API
-2. Set **Identifier**, e.g.:
+2. Set Identifier, e.g.:
 3. Update secret/config to:
 4. Make sure scopes are valid for that API
 
@@ -2685,7 +2697,7 @@ But your app lives under `/fitfile`.
 
 I strongly recommend setting:
 
-and **not** including `/api/auth` in `NEXTAUTH_URL`.
+and not including `/api/auth` in `NEXTAUTH_URL`.
 
 This avoids subtle redirect weirdness later (especially logout).
 
@@ -2695,16 +2707,17 @@ This avoids subtle redirect weirdness later (especially logout).
 
 ### Do This First (most Likely fix)
 
-1. **Remove or blank the `audience` value**
+1. Remove or blank the `audience` value
 2. Restart frontend pod
 3. Login again
 
 ### If Login Still Fails
 
-- Paste the **Auth0 error page text** (after redirect)
+- Paste the Auth0 error page text (after redirect)
 - Or the `/fitfile/api/auth/callback/auth0` response
 
 But at this point, you've already won the hardest fight:
-👉 **Ingress + NextAuth + callback plumbing is correct**
+
+👉 Ingress + NextAuth + callback plumbing is correct
 
 Nice debugging work—this was non-trivial.

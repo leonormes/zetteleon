@@ -1,7 +1,7 @@
 ---
 created: 2026-01-12T15:23:48+00:00
 modified: 2026-02-01T15:09:14+00:00
-tags: [SAVESTATE]
+tags: [SAVESTATE, type/utility]
 title: Unified Scribe
 ---
 

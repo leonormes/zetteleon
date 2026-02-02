@@ -4,7 +4,7 @@ created: 2025-10-16T08:19:54Z
 last_reviewed:
 modified: 2026-02-01T15:09:14+00:00
 status:
-tags: [llm-understanding]
+tags: [llm-understanding, type/context, domain/productivity]
 title: LLM GTD Context
 type: prompt
 updated:

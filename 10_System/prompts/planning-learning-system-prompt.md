@@ -4,7 +4,7 @@ created: 2026-01-01T18:58:13+00:00
 last_reviewed: ""
 modified: 2026-02-01T15:09:13+00:00
 status: ""
-tags: []
+tags: [type/context, domain/learning]
 title: planning-learning-system-prompt
 type: ""
 ---

@@ -1,12 +1,12 @@
 ---
-captured: "2026-02-01T09:03:12+00:00 2026-02-01T09:03:12+00:00"
-created: 2026-02-01T09:03:16+00:00
-modified: 2026-02-01T15:09:08+00:00
-source: "https://chatgpt.com/c/697949bf-e108-832c-b101-765f886e7fae"
-status: "phase-1"
-tags: ["input"]
-title: HEAD Ubiquitous Language Consolidation
-type: "head"
+status: "COMPLETED"
+synthesis: [[SoT - Complexity Conservation]]
+archive: true
+---
+
+# DEPRECATED / COMPLETED
+This note's theoretical fragments have been crystallized into [[SoT - Complexity Conservation]] and its related atomic permanent notes on 2026-02-01.
+
 ---
 
 ## Phase 1: Ingestion (The Stream)

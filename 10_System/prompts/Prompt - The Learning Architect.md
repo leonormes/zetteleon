@@ -4,7 +4,7 @@ created: 2025-12-23T22:35:47Z
 last_reviewed: "2025-12-23"
 modified: 2026-02-01T15:09:14+00:00
 status: "stable"
-tags: ["active_learning", "learning", "mastery", "productivity", "prompt"]
+tags: ["active_learning", "learning", "mastery", "productivity", "prompt", "type/persona"]
 title: Prompt - The Learning Architect
 type: "prompt"
 updated: 

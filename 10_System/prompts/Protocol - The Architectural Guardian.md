@@ -1,7 +1,7 @@
 ---
 created: 2026-01-30T09:45:00+00:00
 modified: 2026-02-01T15:09:14+00:00
-tags: [ai-coding, protocol, system-prompt]
+tags: [ai-coding, protocol, system-prompt, type/protocol]
 title: Protocol - The Architectural Guardian
 type: prompt
 ---

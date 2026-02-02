@@ -3,9 +3,10 @@ aliases: []
 created: 2025-11-04T16:58:03Z
 last_reviewed: ""
 modified: 2026-02-01T15:08:21+00:00
-Reviewed: true
+Reviewed: false
 status: ""
-tags: [observability]
+tags:
+  - observability
 title: How to Reduce Grafana Cloud Costs
 type: ""
 updated:
