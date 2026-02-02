@@ -102,7 +102,7 @@ Although rare, it's possible that ghcr.io is experiencing an outage or temporary
 
     - `~/.docker/config.json`: This file stores your Docker authentication credentials. It's _rare_ that this file gets corrupted in a way that causes this specific error, but it's worth knowing about.
         - Caution: _Do not_ manually edit this file unless you are _absolutely_ sure what you're doing. Incorrect edits can break your Docker setup.
-        - Location: The file is located at `~/.docker/config.json` on Linux/macOS and `%USERPROFILE%\.docker\config.json` on Windows.
+        - Location: The file is located at `~/.docker/config.json` on Linux/macOS and `%USERPROFILE%.docker\config.json` on Windows.
         - Troubleshooting: If you suspect a problem, you can try _temporarily_ renaming the file (e.g., to `config.json.bak`) and then re-running `docker login ghcr.io`. This will force Docker to create a fresh configuration file. If this fixes the problem, you can compare the old and new files to see what might have been wrong.
 7. Network Issues (Unlikely in this Specific Case)
 
