@@ -78,7 +78,7 @@ kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/downloa
 
 ```bash
 helm install ingress-nginx ingress-nginx/ingress-nginx \
-  --set controller.service.annotations."service\.beta\.kubernetes\.io/azure-load-balancer-sku"=basic
+  --set controller.service.annotations."service.beta.kubernetes.io/azure-load-balancer-sku"=basic
 ```
 
 1. Configure Gateway Resource:

@@ -141,11 +141,11 @@ To improve multi-tenancy and maintainability, the following evolution is planned
 
 ### 5.1 Separation of Concerns (The "Data-Driven" API)
 
-**Critique (Current State):**
+Critique (Current State):
 The current chart suffers from "Pass-Through Complexity" and a "Boolean Swamp" (`deploy.persistence`, `deploy.monitoring`), requiring users to manually wire dependencies (e.g., `vaultSecrets` templating).
 
-**Target State (Proposed API):**
-We are shifting to a strict **Intent-Based Data Model** enforced by JSON Schema.
+Target State (Proposed API):
+We are shifting to a strict Intent-Based Data Model enforced by JSON Schema.
 
 ```typescript
 interface FFNodeValues {

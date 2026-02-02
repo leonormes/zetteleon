@@ -13,7 +13,7 @@ superseded_by: "[[SoT - FitFile Identity & Access Management (Auth0)]]"
 # DEPRECATED
 
 > [!warning] Deprecated
-> This note has been consolidated into **[[SoT - FitFile Identity & Access Management (Auth0)]]**. Please refer to that note for the canonical Source of Truth.
+> This note has been consolidated into [[SoT - FitFile Identity & Access Management (Auth0)]]. Please refer to that note for the canonical Source of Truth.
 
 ## FITFILE Auth0 Authentication Flow - Technical Wiki
 

@@ -14,7 +14,7 @@ updated:
 
 This document outlines the plan for a new, scalable system to manage the correspondence between human-memorable computer hostnames and their network addresses.
 
-### 1\. Problem Statement
+### 1. Problem Statement
 
 The current system of a centrally managed HOSTS.TXT file for mapping hostnames to ARPANET addresses is becoming increasingly unsustainable. The rapid growth in the number of connected hosts presents several critical challenges:
 
@@ -25,7 +25,7 @@ The current system of a centrally managed HOSTS.TXT file for mapping hostnames t
 
 This project aims to replace the HOSTS.TXT file with a distributed, hierarchical, and dynamic system for name resolution.
 
-### 2\. User Stories
+### 2. User Stories
 
 To address the shortcomings of the current system, the new Domain Name System (DNS) will cater to the needs of various users:
 
@@ -45,7 +45,7 @@ To address the shortcomings of the current system, the new Domain Name System (D
 - I want a stable and programmatic way to resolve hostnames to network addresses, so that I can build applications that can reliably connect to other services on the network.
 - I want the system to be extensible, so that it can support future types of network information beyond just host-to-address mapping.
 
-### 3\. Requirements
+### 3. Requirements
 
 To fulfil the user stories, the DNS will be built to the following specifications:
 

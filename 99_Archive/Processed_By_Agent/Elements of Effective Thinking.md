@@ -45,11 +45,11 @@ They make a pretty bold claim in the introduction.
 > You can personally choose to become more successful by adopting five learnable habits, which, in this book, we not only explain in detail but also make concrete and practical.
 
 The five habits are:
-1\. Understand deeply
-2\. Make mistakes
-3\. Raise questions
-4\. Follow the flow of ideas
-5\. Change
+1. Understand deeply
+2. Make mistakes
+3. Raise questions
+4. Follow the flow of ideas
+5. Change
 
 Let’s explore each of these a little.
 

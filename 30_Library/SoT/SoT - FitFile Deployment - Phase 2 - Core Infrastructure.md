@@ -11,12 +11,12 @@ updated: 2026-02-01
 
 ## 1. Overview
 
-This guide details **Phase 2: Core Infrastructure** of the FitFile platform deployment. It focuses on the Terraform-driven provisioning of the foundational cloud resources (Network, Compute, Identity) required before the Platform Layer (ArgoCD) can be installed.
+This guide details Phase 2: Core Infrastructure of the FitFile platform deployment. It focuses on the Terraform-driven provisioning of the foundational cloud resources (Network, Compute, Identity) required before the Platform Layer (ArgoCD) can be installed.
 
-**Objective:** Transform an empty cloud subscription/account into a "Ready-for-K8s" state.
+Objective: Transform an empty cloud subscription/account into a "Ready-for-K8s" state.
 
 > [!important] Context
-> This is a sub-guide of the master [[SoT - FitFile Deployment - Implementation Manual]]. Ensure you have completed **Phase 0: Pre-Flight** and **Phase 1: Network Provisioning** before proceeding.
+> This is a sub-guide of the master [[SoT - FitFile Deployment - Implementation Manual]]. Ensure you have completed Phase 0: Pre-Flight and Phase 1: Network Provisioning before proceeding.
 
 ---
 
@@ -40,8 +40,8 @@ brew install azure-cli  # Azure
 
 | Provider | Requirement |
 |:---|:---|
-| **AWS** | `AdministratorAccess` (or strict `terraform-policy` role). Access Key/Secret. |
-| **Azure** | `Contributor` role on Subscription. `User Access Administrator` for RBAC assignments. |
+| AWS | `AdministratorAccess` (or strict `terraform-policy` role). Access Key/Secret. |
+| Azure | `Contributor` role on Subscription. `User Access Administrator` for RBAC assignments. |
 
 ---
 
@@ -49,15 +49,15 @@ brew install azure-cli  # Azure
 
 Infrastructure state is managed remotely via Terraform Cloud.
 
-1. **Create Project**:
+1. Create Project:
    - Naming convention: `<customer-name>-infrastructure`
-2. **Create Workspace**:
+2. Create Workspace:
    - Type: `Version Control Workflow`
    - Name: `<deployment-key>` (e.g., `lca-prd-01`)
    - Repository: Link to the customer's GitLab infrastructure repo.
-3. **Configure Variables (TFC UI)**:
+3. Configure Variables (TFC UI):
 
-   **AWS Variables:**
+   AWS Variables:
 
    ```bash
    AWS_REGION = "eu-west-2"
@@ -65,7 +65,7 @@ Infrastructure state is managed remotely via Terraform Cloud.
    AWS_SECRET_ACCESS_KEY = "..."  # Sensitive
    ```
 
-   **Azure Variables:**
+   Azure Variables:
 
    ```bash
    ARM_CLIENT_ID = "..."
@@ -91,7 +91,7 @@ Structure your customer infrastructure repository (`customers/<deployment-key>`)
 
 ### 4.1 Standard Configuration (AWS Example)
 
-**`main.tf`**:
+`main.tf`:
 
 ```hcl
 module "eks_cluster" {
@@ -108,7 +108,7 @@ module "eks_cluster" {
 }
 ```
 
-**`outputs.tf`**:
+`outputs.tf`:
 
 ```hcl
 output "cluster_endpoint" {
@@ -129,10 +129,10 @@ output "generated_password" {
 
 Execute the standard Terraform lifecycle:
 
-1. **Init**: `terraform init -upgrade`
-2. **Validate**: `terraform validate`
-3. **Plan**: `terraform plan` (Review strict resource creation)
-4. **Apply**: `terraform apply`
+1. Init: `terraform init -upgrade`
+2. Validate: `terraform validate`
+3. Plan: `terraform plan` (Review strict resource creation)
+4. Apply: `terraform apply`
 
 > [!check] Success Criteria
 > - Terraform completes with "Apply complete".
@@ -143,11 +143,11 @@ Execute the standard Terraform lifecycle:
 
 ## 6. Jumpbox Access & Validation
 
-Direct access to the cluster API is **blocked** from the public internet. You must tunnel through the Jumpbox.
+Direct access to the cluster API is blocked from the public internet. You must tunnel through the Jumpbox.
 
 ### 6.1 AWS SSM Tunneling
 
-1. **Retrieve Instance ID**:
+1. Retrieve Instance ID:
 
    ```bash
    aws ec2 describe-instances \
@@ -155,7 +155,7 @@ Direct access to the cluster API is **blocked** from the public internet. You mu
      --query 'Reservations[].Instances[].[InstanceId]' --output text
    ```
 
-2. **Start Port Forwarding**:
+2. Start Port Forwarding:
 
    ```bash
    aws ssm start-session \
@@ -164,7 +164,7 @@ Direct access to the cluster API is **blocked** from the public internet. You mu
      --parameters "localPortNumber=55679,portNumber=3389"
    ```
 
-3. **Connect via RDP**:
+3. Connect via RDP:
    - Host: `localhost:55679`
    - User: `awsadmin`
    - Pass: (From Terraform Output `generated_password`)
@@ -190,13 +190,13 @@ kubectl get pods -n kube-system
 
 | Issue | Resolution |
 |:---|:---|
-| **Terraform Init Fails** | Delete `.terraform` folder and retry. Check TFC token validity. |
-| **AWS Auth Failure** | Run `aws sts get-caller-identity` to verify local credentials match TFC variables. |
-| **SSM Connection Refused** | Ensure the Jumpbox Security Group allows outbound 443 to SSM endpoints. |
-| **RDP Timeout** | Verify `localPortNumber` matches your RDP client config. |
+| Terraform Init Fails | Delete `.terraform` folder and retry. Check TFC token validity. |
+| AWS Auth Failure | Run `aws sts get-caller-identity` to verify local credentials match TFC variables. |
+| SSM Connection Refused | Ensure the Jumpbox Security Group allows outbound 443 to SSM endpoints. |
+| RDP Timeout | Verify `localPortNumber` matches your RDP client config. |
 
 ---
 
 ## 8. Next Steps
 
-Proceed to **Phase 3: Platform Deployment** in the [[SoT - FitFile Deployment - Implementation Manual]].
+Proceed to Phase 3: Platform Deployment in the [[SoT - FitFile Deployment - Implementation Manual]].

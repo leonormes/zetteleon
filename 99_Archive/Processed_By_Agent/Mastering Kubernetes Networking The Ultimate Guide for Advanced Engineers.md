@@ -56,13 +56,13 @@ During the Kubernetes cluster setup, the CNI plugin is typically configured, aut
 
 In Kubernetes, there are essentially four (4) major areas where issues arise as it concerns networking. These are:
 
-### 1\. Pod-to-Pod Communication
+### 1. Pod-to-Pod Communication
 
 This type of communication involves how pods communicate with each other within the same cluster be it in the same node or on different nodes. When one pod needs to communicate with another, it's like they're sending messages back and forth across the cluster.
 
 Sometimes, pods might not be able to reach each other, which could happen due to various reasons. For instance, there might be network congestion, misconfigured networking policies, or even problems with the underlying infrastructure hosting your cluster.
 
-### 2\. Container-to-container Communication
+### 2. Container-to-container Communication
 
 In [Kubernetes](https://www.getambassador.io/resources/kubernetes-ingress), one container within a pod needs to talk to another container within the same pod. Unlike pod-to-pod communication, where pods are separate entities, container-to-container communication happens within the same pod, so it's like they're neighbors in a shared space.
 
@@ -72,7 +72,7 @@ But, just like with pod-to-pod communication, issues can arise here, too. One co
 
 Communication between containers is possible because they share the same network namespace, which means they can communicate over the local host interface.
 
-### 3\. Pod-to-Service Communication
+### 3. Pod-to-Service Communication
 
 In Kubernetes, a [service](https://cloud.google.com/kubernetes-engine/docs/concepts/service#:~:text=applications%20using%20services.-,What%20is%20a%20Kubernetes%20Service%3F,contact%20Pods%20in%20the%20Service) acts as a consistent, abstract way to access a set of pods. Think of it as a stable endpoint that represents one or more pods, providing a way for clients to connect to the applications running inside these pods.
 
@@ -84,7 +84,7 @@ However, issues can still arise in pod-to-service communication. For example, mi
 
 Troubleshooting such issues might involve checking service configurations, inspecting network policies, or examining firewall rules to ensure smooth communication between pods and services.
 
-### 4\. External-to-Service Communication
+### 4. External-to-Service Communication
 
 When we talk about external-to-service communication in Kubernetes, we're referring to interactions between services running within the cluster and clients or applications outside the cluster. These external entities could be users accessing a web application, other services in a different cluster, or even applications running outside the Kubernetes environment.
 
@@ -105,7 +105,7 @@ Troubleshooting such issues might involve inspecting load balancer configuration
 
 When it comes to troubleshooting networking issues in Kubernetes, several tools and techniques can be used to diagnose and resolve problems. Here are some practical troubleshooting techniques for debugging networking issues in Kubernetes:
 
-1\. kubectl exec: This command allows you to execute commands inside a running container. You can use it to inspect the network configuration, check network interfaces, and verify network connectivity within the container.
+1. kubectl exec: This command allows you to execute commands inside a running container. You can use it to inspect the network configuration, check network interfaces, and verify network connectivity within the container.
 
 For example, you can run
 
@@ -121,7 +121,7 @@ is as follows:
 
 \`\`\`kubectl exec -it <pod-name> -- /bin/bash\`\`\`
 
-2\. kubectl logs: This command allows you to retrieve the logs of a container running inside a pod. You can use it to inspect network-related logs, such as connection errors, DNS resolution problems, or network timeouts.
+2. kubectl logs: This command allows you to retrieve the logs of a container running inside a pod. You can use it to inspect network-related logs, such as connection errors, DNS resolution problems, or network timeouts.
 
 For example, you can run
 
@@ -133,7 +133,7 @@ is as follows:
 
 \`\`\`kubectl logs <pod-name> -c <container-name>\`\`\`
 
-3\. Third-party tools: Some third-party tools can be used to troubleshoot networking issues in Kubernetes. A popular one called [Ksniff](https://github.com/eldadru/ksniff) is a network packet capture tool that allows you to capture and analyze network traffic between pods in a Kubernetes cluster.
+3. Third-party tools: Some third-party tools can be used to troubleshoot networking issues in Kubernetes. A popular one called [Ksniff](https://github.com/eldadru/ksniff) is a network packet capture tool that allows you to capture and analyze network traffic between pods in a Kubernetes cluster.
 
 It provides insights into network communication, latency, and packet loss, helping you identify and resolve networking problems. Although not suitable for production environments, Ksniff is a valuable tool for debugging and troubleshooting networking issues in Kubernetes.
 

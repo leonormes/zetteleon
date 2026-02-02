@@ -13,7 +13,7 @@ superseded_by: "[[SoT - FitFile Secrets Operations (Vault & VSO)]]"
 # DEPRECATED
 
 > [!warning] Deprecated
-> This note was a specific point-in-time snapshot. The canonical operational guide for Vault secrets is now **[[SoT - FitFile Secrets Operations (Vault & VSO)]]**.
+> This note was a specific point-in-time snapshot. The canonical operational guide for Vault secrets is now [[SoT - FitFile Secrets Operations (Vault & VSO)]].
 
 ## Vault Secrets: Cuh-prod-1 Deployment
 ...

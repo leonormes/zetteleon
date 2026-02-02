@@ -15,7 +15,7 @@ superseded_by: "[[SoT - FitFile Deployment - Phase 2 - Core Infrastructure]]"
 # DEPRECATED
 
 > [!warning] Deprecated
-> This note has been consolidated into **[[SoT - FitFile Deployment - Phase 2 - Core Infrastructure]]**. Please refer to that note for the canonical guide.
+> This note has been consolidated into [[SoT - FitFile Deployment - Phase 2 - Core Infrastructure]]. Please refer to that note for the canonical guide.
 
 ## FitFile Platform Deployment Guide - Phase 2: Infrastructure Deployment
 

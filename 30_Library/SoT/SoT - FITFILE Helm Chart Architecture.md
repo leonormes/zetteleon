@@ -15,7 +15,7 @@ updated: 2026-02-01
 ## DEPRECATED
 
 > [!warning] Deprecated
-> This note has been consolidated into **[[SoT - FitFile Deployment - Helm Architecture & Operations]]**. Please refer to that note for the canonical Source of Truth regarding Helm charts, architecture, and operations.
+> This note has been consolidated into [[SoT - FitFile Deployment - Helm Architecture & Operations]]. Please refer to that note for the canonical Source of Truth regarding Helm charts, architecture, and operations.
 
 ### I. Overview and Core Functionality
 
@@ -23,10 +23,10 @@ updated: 2026-02-01
 
 The Helm charts form the GitOps delivery mechanism for the FITFile platform. This architecture orchestrates the deployment of:
 
-- **Core Application Services**: `frontend`, `ffcloud-service`, `ffnode`, `fitconnect`
-- **Data Persistence**: `databases` (PostgreSQL, MongoDB, MinIO)
-- **Infrastructure Services**: `certs`, `shared-secrets`, `spicedb`
-- **Control Plane**: `argo` (ArgoCD and Workflows)
+- Core Application Services: `frontend`, `ffcloud-service`, `ffnode`, `fitconnect`
+- Data Persistence: `databases` (PostgreSQL, MongoDB, MinIO)
+- Infrastructure Services: `certs`, `shared-secrets`, `spicedb`
+- Control Plane: `argo` (ArgoCD and Workflows)
 
 #### 2. Helm Chart Structure
 
@@ -46,16 +46,16 @@ charts/
 └── shared-secrets/    # Secret Injection Layer
 ```
 
-**Key Components:**
+Key Components:
 
-1. **ArgoCD (argo/cd)**
-   - **Role**: GitOps Controller
-   - **Configuration**: Managed via `values.yaml` (Base), `values-prod.yaml` (Prod), `values-sh.yaml` (Staging).
-2. **Databases**
-   - **Components**: PostgreSQL (12.7.3), MongoDB (12.1.31), MinIO (12.13.2).
-   - **Integration**: Wrapper charts around upstream Bitnami charts.
-   - **Customization**: Global values inject specific persistence and auth configurations.
-3. **Templates**
+1. ArgoCD (argo/cd)
+   - Role: GitOps Controller
+   - Configuration: Managed via `values.yaml` (Base), `values-prod.yaml` (Prod), `values-sh.yaml` (Staging).
+2. Databases
+   - Components: PostgreSQL (12.7.3), MongoDB (12.1.31), MinIO (12.13.2).
+   - Integration: Wrapper charts around upstream Bitnami charts.
+   - Customization: Global values inject specific persistence and auth configurations.
+3. Templates
    - `_names.tpl`: Canonical naming conventions.
    - `_secrets.tpl`: Logic for secret generation and retrieval.
 
@@ -69,7 +69,7 @@ Configuration is currently split by environment files within the chart structure
 - `values-prod.yaml`: Production overrides.
 - `values-sh.yaml`: Staging/QA overrides.
 
-**Example: Ingress Configuration**
+Example: Ingress Configuration
 
 ```yaml
 # values-prod.yaml
@@ -84,9 +84,9 @@ argo-cd:
 
 ArgoCD serves as the active reconciliation agent:
 
-- **Authentication**: OIDC via Azure AD.
-- **RBAC**: Role definitions in `policy.csv` (e.g., `role:org-admin`, `role:readonly`).
-- **Ingress**: Environment-specific routing rules.
+- Authentication: OIDC via Azure AD.
+- RBAC: Role definitions in `policy.csv` (e.g., `role:org-admin`, `role:readonly`).
+- Ingress: Environment-specific routing rules.
 
 ### III. Operational Templates
 
@@ -100,15 +100,15 @@ Automated backup logic is embedded in the chart templates:
 
 #### 2. Management Interfaces
 
-- **MongoDB Web Interface**: Configured ingress for database administration tools.
+- MongoDB Web Interface: Configured ingress for database administration tools.
 
 ### IV. Architecture Evolution Plan (Recommendations)
 
 #### 1. Separation of Concerns (Config vs. Code)
 
-Transition from environment files to a strict **Config/Code Split**:
+Transition from environment files to a strict Config/Code Split:
 
-**Target Structure:**
+Target Structure:
 
 ```sh
 deployment-repo/            # IMMUTABLE CODE
@@ -129,7 +129,7 @@ customer-config-repo/       # MUTABLE CONFIG
 
 #### 2. GitOps Pattern: ApplicationSets
 
-Adopt the **App of Apps** pattern using ApplicationSets for automated tenant onboarding:
+Adopt the App of Apps pattern using ApplicationSets for automated tenant onboarding:
 
 ```yaml
 apiVersion: argoproj.io/v1alpha1
@@ -154,7 +154,7 @@ spec:
 
 #### 3. Usage Guide: New Customer Onboarding
 
-**Current Protocol:**
+Current Protocol:
 
 ```bash
 # 1. Clone values template
@@ -169,6 +169,6 @@ cp values/template/values.yaml values/customers/new-customer/values.yaml
 kubectl apply -f applications/new-customer.yaml
 ```
 
-**Troubleshooting:**
-- **Database Backups**: Verify PVC binding and retention policy matching.
-- **Sync Failures**: Validate `values.yaml` syntax and Git credentials in ArgoCD.
+Troubleshooting:
+- Database Backups: Verify PVC binding and retention policy matching.
+- Sync Failures: Validate `values.yaml` syntax and Git credentials in ArgoCD.

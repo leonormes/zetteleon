@@ -24,7 +24,7 @@ see_also:
 
 This document defines the Standard Operating Procedure (SOP) for creating, managing, and debugging secrets within the FITFILE platform. It operationalizes the architecture defined in [[SoT - FITFILE Secret Management Architecture]].
 
-**Core Principle:** No secrets in Git. All secrets originate in HCP Vault and are synced to Kubernetes via the Vault Secrets Operator (VSO).
+Core Principle: No secrets in Git. All secrets originate in HCP Vault and are synced to Kubernetes via the Vault Secrets Operator (VSO).
 
 ---
 
@@ -32,8 +32,8 @@ This document defines the Standard Operating Procedure (SOP) for creating, manag
 
 We utilize a consistent path hierarchy for all deployments.
 
-**Root Namespace:** `admin`
-**Base Path:** `deployments/{deployment-key}/secrets/`
+Root Namespace: `admin`
+Base Path: `deployments/{deployment-key}/secrets/`
 
 | Path | Purpose | Key Secrets |
 |:---|:---|:---|
@@ -96,24 +96,24 @@ path "admin/data/deployments/lca-prd-2/*" {
 ```
 
 ### 4.2 VSO Authentication
-VSO uses the **AppRole** method.
-- **RoleID**: Hardcoded in the VSO Helm release.
-- **SecretID**: Injected into the cluster during Phase 3 via Terraform output.
+VSO uses the AppRole method.
+- RoleID: Hardcoded in the VSO Helm release.
+- SecretID: Injected into the cluster during Phase 3 via Terraform output.
 
 ---
 
 ## 5. Troubleshooting VSO
 
 ### 5.1 Secret Not Syncing (`VaultStaticSecret` status `False`)
-1. **Check Events:** `kubectl describe vss <secret-name>`
-2. **Common Errors:**
+1. Check Events: `kubectl describe vss <secret-name>`
+2. Common Errors:
    - `Permission Denied`: The AppRole policy does not allow reading the specific Vault path.
    - `Key Not Found`: The key name in `values.yaml` (`{{get .Secrets "foo"}}`) does not match Vault.
 
 ### 5.2 "Drift Detected" Loop
-- **Cause:** Someone manually edited the Kubernetes Secret.
-- **Fix:** VSO is designed to revert manual changes. Update the source in Vault, not Kubernetes.
+- Cause: Someone manually edited the Kubernetes Secret.
+- Fix: VSO is designed to revert manual changes. Update the source in Vault, not Kubernetes.
 
 ### 5.3 Rotation
-- **Database Creds:** Rotate in Vault -> Restart VSO -> Restart App Pods.
-- **TLS Certs:** Managed automatically by Cert-Manager (not VSO).
+- Database Creds: Rotate in Vault -> Restart VSO -> Restart App Pods.
+- TLS Certs: Managed automatically by Cert-Manager (not VSO).

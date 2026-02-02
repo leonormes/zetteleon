@@ -27,7 +27,7 @@ Let's adjust the hierarchy based on using Calico CNI (in its most common overlay
 
 ## The Calico CNI Model (IPIP Overlay)
 
-### 1 & 2\. VNet and Node Layers
+### 1 & 2. VNet and Node Layers
 
 These remain exactly the same.
 
@@ -36,7 +36,7 @@ These remain exactly the same.
 
 The Azure VNet is the "underlay" network. It knows how to route traffic between your nodes (VMs).
 
-### 3\. The Pod Layer (Calico's Overlay)
+### 3. The Pod Layer (Calico's Overlay)
 
 This is where your mental model changes significantly. The Pod IPs are now in a separate logical network that "floats" on top of the VNet.
 

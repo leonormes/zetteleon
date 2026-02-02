@@ -44,7 +44,7 @@ cp /bin/ps rootfs/bin/
 
 # Copy required libraries
 # For bash
-ldd /bin/bash | grep -o '/lib.\.[0-9]' | xargs -I {} cp --parents {} rootfs/
+ldd /bin/bash | grep -o '/lib..[0-9]' | xargs -I {} cp --parents {} rootfs/
 
 # Create a simple Python web server
 cat > rootfs/server.py << EOF

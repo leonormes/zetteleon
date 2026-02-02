@@ -184,5 +184,5 @@ resource "azurerm_role_definition" "private_aks" {
 
 ## Related Resources
 
-- **Troubleshooting**: [[SoT - Azure Kubernetes Service (AKS) Operations]] - Reference this guide if any verification steps fail.
-- **Context**: [[MoC - Azure AKS Deployment]] - The parent map of content for Azure deployments.
+- Troubleshooting: [[SoT - Azure Kubernetes Service (AKS) Operations]] - Reference this guide if any verification steps fail.
+- Context: [[MoC - Azure AKS Deployment]] - The parent map of content for Azure deployments.

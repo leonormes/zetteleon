@@ -23,7 +23,7 @@ The wiring is pluggable. CNI Plugins (like Calico, Cilium, Flannel) implement th
 
 - Overlay Networks: Encapsulate packets to span across Nodes (e.g., VXLAN).
 - Direct Routing: Route packets natively without encapsulation (e.g., BGP).
-- **Observability:** See [[SoT - Calico Observability]] for details on monitoring the CNI layer via Prometheus/Grafana.
+- Observability: See [[SoT - Calico Observability]] for details on monitoring the CNI layer via Prometheus/Grafana.
 
 ---
 

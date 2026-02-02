@@ -12,7 +12,7 @@ superseded_by: "[[SoT - FitFile Deployment - Implementation Manual]]"
 # DEPRECATED
 
 > [!warning] Deprecated
-> This checklist has been merged into **[[SoT - FitFile Deployment - Implementation Manual]]**. Please use that SoT for the canonical deployment steps.
+> This checklist has been merged into [[SoT - FitFile Deployment - Implementation Manual]]. Please use that SoT for the canonical deployment steps.
 
 Your deployment follows a six-phase pipeline with hard dependencies between networking, Central Services, platform deployment, and client-side configuration. The primary friction points identified are:
 

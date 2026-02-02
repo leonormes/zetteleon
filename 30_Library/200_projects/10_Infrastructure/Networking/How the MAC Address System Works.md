@@ -58,7 +58,7 @@ The concept of the MAC address originated with the development of Ethernet in th
 
 ## Was It part of the Routable Network Spec from the Beginning?
 
-No, MAC addresses were not designed for routable (Layer 3\) networking. They are strictly for local network identification and communication at Layer 2\. The concept of routable addressing (Layer 3\) came with the development of protocols like IP (Internet Protocol), which uses logical addresses (IP addresses) for routing data between different networks. MAC addresses are used for local delivery within a single network segment, while IP addresses are used for end-to-end communication across multiple networks.
+No, MAC addresses were not designed for routable (Layer 3\) networking. They are strictly for local network identification and communication at Layer 2. The concept of routable addressing (Layer 3\) came with the development of protocols like IP (Internet Protocol), which uses logical addresses (IP addresses) for routing data between different networks. MAC addresses are used for local delivery within a single network segment, while IP addresses are used for end-to-end communication across multiple networks.
 
  [More on the distinction between MAC and IP addresses](https://www.geeksforgeeks.org/why-is-the-ip-address-called-a-logical-address-and-the-mac-address-is-called-a-physical-address/)
 
@@ -67,4 +67,4 @@ No, MAC addresses were not designed for routable (Layer 3\) networking. They are
 - MAC addresses are hardware addresses used for local network communication.
 - They are globally unique by design, managed by the IEEE through the OUI system.
 - The concept dates back to the origins of Ethernet in the 1970s.
-- MAC addresses are not routable and were not intended for use beyond the local network segment; routable addressing is handled by IP addresses at Layer 3\.
+- MAC addresses are not routable and were not intended for use beyond the local network segment; routable addressing is handled by IP addresses at Layer 3.

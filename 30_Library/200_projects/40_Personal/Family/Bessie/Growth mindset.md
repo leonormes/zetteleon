@@ -24,11 +24,11 @@ Here is a path to deconstructing the comparison mindset for you, and in turn, he
 
 This is about turning your focus inward and healing the part of you that learned to find its worth in external validation.
 
-### 1\. Acknowledge and Externalise Your Perfectionist Voice
+### 1. Acknowledge and Externalise Your Perfectionist Voice
 
 Give that critical, comparing voice a name. Call it "The Judge," "The Critic," or even something silly like "Mr. PerfectPants." When you find yourself comparing or feeling the sting of perfectionism, narrate it internally: "Ah, The Judge is here. He's telling me I'm not as good as that person. Thanks for your input, Judge, but I've got this." This act of naming creates a tiny bit of space between you and the thought, reminding you that it is not _you_.
 
-### 2\. Practice Active Self-Compassion
+### 2. Practice Active Self-Compassion
 
 This is the direct antidote to the harshness of comparison. Dr. Kristin Neff defines it with three parts. When you feel that pang of "I'm not good enough," consciously walk through these steps:
 
@@ -36,14 +36,14 @@ This is the direct antidote to the harshness of comparison. Dr. Kristin Neff def
 - Common Humanity: "I am not alone in this. Many people, especially those with ADHD, have struggled with these exact feelings. My struggle is part of the human experience." This directly fights the isolating feeling of being "different."
 - Self-Kindness: "May I be kind to myself in this moment. I am doing my best." Place a hand on your heart. Speak to yourself as you would speak to Bessie if she were hurting.
 
-### 3\. Shift from "But" to "And"
+### 3. Shift from "But" to "And"
 
 Your brain can hold two conflicting truths at once. The comparison mindset often uses "but": "She did a great job, _but_ mine isn't as good." This invalidates the first half of the statement. Practice using "and" instead.
 
 - "I really admire the skill she has, _and_ I am proud of the effort I am putting into learning."
 - "I feel a pang of jealousy, _and_ I can be genuinely happy for their success." This honours your authentic feelings while allowing room for a more generous, growth-oriented perspective.
 
-### 4\. Redefine "Best"
+### 4. Redefine "Best"
 
 You wrote it yourself: "I want to be better than myself." This is your new mantra. The only person you are in competition with is who you were yesterday. When you see someone else's achievement, reframe it in your mind:
 
@@ -54,7 +54,7 @@ You wrote it yourself: "I want to be better than myself." This is your new mantr
 
 Your own journey is the most powerful teaching tool. As you practice the steps above, you can model them for Bessie and build your family's "bubble" against societal pressure.
 
-### 1\. Make Your Inner Monologue External
+### 1. Make Your Inner Monologue External
 
 This is the most important thing you can do. Let Bessie hear your own growth mindset in action. Let her see you are not perfect.
 
@@ -64,7 +64,7 @@ This is the most important thing you can do. Let Bessie hear your own growth min
 
 By doing this, you show her that struggle, envy, and failure are normal, manageable parts of life. You are modelling that her self-worth is not tied to her performance.
 
-### 2\. Create a "Family Culture of Process over Prizes"
+### 2. Create a "Family Culture of Process over Prizes"
 
 Explicitly talk about what your family values. When Bessie comes home from school, instead of asking "What mark did you get?", ask process-oriented questions:
 
@@ -75,7 +75,7 @@ Explicitly talk about what your family values. When Bessie comes home from schoo
 
 When she shows you her work, praise the process, not just the result. Instead of "That's a beautiful drawing, you're so talented\!", say "I love the way you used those colours. Tell me about how you decided to put the blue next to the yellow. I can see you worked really hard on this."
 
-### 3\. Actively Deconstruct Comparison
+### 3. Actively Deconstruct Comparison
 
 When Bessie says, "Leo is so much better at maths than me," resist the urge to say "No you're great\!" First, validate her feeling: "It sounds like you're feeling a bit frustrated with maths right now." Then, redirect her comparison back to herself: "Let's forget about Leo for a minute. Let's look at the maths you were doing last month. Look how much you've learned since then\! Your brain is growing so much. Let's focus on _your_ progress."
 
