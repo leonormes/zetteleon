@@ -11,7 +11,7 @@ type: "head"
 
 ## 1. The Core Logic: Lattices, Partial Orders, and Unification
 
-To understand CUE, you must discard the notion of "assignment." In CUE, you never assign a value to a variable; you only refine what is known about a value. This is based on [[Order Theory]].
+To understand CUE, you must discard the notion of "assignment." In CUE, you never assign a value to a variable; you only refine what is known about a value. This is based on [[SoT - Order Theory]].
 
 ### The Value Lattice
 
