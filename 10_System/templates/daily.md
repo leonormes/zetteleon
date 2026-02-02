@@ -42,7 +42,7 @@ if (today.getMonth() < birthDate.getMonth() || (today.getMonth() === birthDate.g
 
 }
 
-tR += `Life Day: ${lifeDay}\nLife Week: ${lifeWeek} (${lifeWeekPct}%)\nLife Month: ${lifeMonth}\nLife Year: ${lifeYear}`;
+tR += `- Life Day: ${lifeDay}\n- Life Week: ${lifeWeek} (${lifeWeekPct}%)\n- Life Month: ${lifeMonth}\n- Life Year: ${lifeYear}`;
 
 %>
 
