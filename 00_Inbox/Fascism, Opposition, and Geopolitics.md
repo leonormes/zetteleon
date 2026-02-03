@@ -1,24 +1,22 @@
 ---
 created: 2026-02-03T11:42:02+00:00
-modified: 2026-02-03T12:33:48+00:00
+modified: 2026-02-03T14:21:52+00:00
 title: Fascism, Opposition, and Geopolitics
 ---
 
-## The New Opposition: Countering Authoritarianism in a Multipolar World
+## Part I: Deconstructing the Premise - Defining the Ideological Landscape
 
-### Part I: Deconstructing the Premise \- Defining the Ideological Landscape
-
-#### Section 1: Introduction
+### Section 1: Introduction
 
 The assertion that both the United States and the Russian Federation are fascist states, and the subsequent question of who, then, opposes a rising global fascist establishment, serves as a powerful entry point into one of the most critical issues of our time: the nature of contemporary authoritarianism and the forces arrayed against it. This query, while resting on premises that require rigorous examination, correctly identifies a palpable sense of democratic backsliding and the rise of illiberal, nationalist politics across the globe. The old certainties of the Cold War, a bipolar ideological struggle between liberal democracy and communism, have given way to a more complex and fragmented geopolitical landscape. Understanding this new era demands a clear-eyed, evidence-based analysis, moving beyond polemical labels to grasp the intricate realities of modern political systems.
 
 This report will address the core of the query by undertaking a three-part investigation. First, it will establish a precise, scholarly framework for understanding fascism. This is a necessary prerequisite, as the term is frequently used as a political pejorative, and a disciplined analysis requires a stable definition grounded in historical and political science scholarship. Second, this report will apply this framework in two detailed case studies, examining the political systems of the United States and the Russian Federation. This analysis will assess the extent to which each nation exhibits characteristics of fascism, authoritarianism, or other forms of governance, thereby testing the foundational assumptions of the initial query. Finally, having clarified the nature of these major powers, the report will map the contours of the actual global opposition to authoritarianism. This involves moving beyond the Cold War paradigm of a single opponent (the USA) to identify the diverse and multi-layered coalition of state and non-state actors that constitute the contemporary counterweights to illiberalism. Through this structured approach, this report aims to provide a comprehensive and nuanced answer, transforming the initial question into an opportunity for a deeper exploration of the global struggle for democracy in the 21st century.
 
-#### Section 2: Fascism \- A Scholarly Framework
+### Section 2: Fascism - A Scholarly Framework
 
 To analyze the political character of modern states, one must first establish a clear and rigorous definition of the ideology in question. Fascism, in particular, presents a significant analytical challenge. Its historical manifestations were varied, and in contemporary discourse, the term is often deployed more as a rhetorical weapon to delegitimize opponents than as a precise analytical category.1 This section will navigate these complexities to build a functional, scholarly framework for understanding fascism, distinguishing it from related but distinct political phenomena.
 
-##### 2.1 The Challenge of a Singular Definition
+#### 2.1 The Challenge of a Singular Definition
 
 Defining fascism has proven uniquely difficult compared to other major ideologies like liberalism or communism, which have foundational thinkers and canonical texts.3 The term itself has a complex history, originating from the Italian word
 
@@ -30,7 +28,7 @@ Despite these challenges, a "new consensus" has emerged among historians and pol
 
 _substance_ of an ideology and its _form_. Early definitions often focused on the outward expressions of fascism—the colored shirts, the street gangs, the specific symbols.3 Modern scholarship, however, prioritizes the underlying ideological project. The crucial question is not merely whether a movement has a paramilitary wing, but whether that paramilitary wing is dedicated to a revolutionary project of national rebirth. This focus on the ideological core provides a stable benchmark against which contemporary movements can be measured.
 
-##### 2.2 Core Tenets of Historical Fascism
+#### 2.2 Core Tenets of Historical Fascism
 
 Synthesizing the work of leading scholars such as Robert Paxton, Roger Griffin, and Benito Mussolini himself, a coherent picture of historical fascism's ideological core emerges. It is not merely a collection of policies but a comprehensive worldview, a _Weltanschauung_, that seeks to fundamentally remake society.10
 
@@ -48,7 +46,7 @@ Synthesizing the work of leading scholars such as Robert Paxton, Roger Griffin, 
   - Corporatism and Social Hierarchy: Fascist regimes protect corporate power and suppress labor unions, which are seen as the only real threat to their power.11 They also enforce rampant sexism and rigid, traditional gender roles, often opposing abortion and promoting homophobia.11
   - Expansionism: The state is seen as a living entity whose will to power necessitates "organization and expansion, potential if not actual".14 This often translates into a foreign policy aimed at expanding territory through armed conflict.11
 
-##### 2.3 Distinguishing Fascism from Modern Illiberalism and Authoritarianism
+#### 2.3 Distinguishing Fascism from Modern Illiberalism and Authoritarianism
 
 Applying this historical framework to the 21st century requires making careful distinctions between classical fascism and other forms of non-democratic rule that may share some of its characteristics.
 
@@ -59,19 +57,19 @@ Applying this historical framework to the 21st century requires making careful d
 
 Understanding these distinctions is crucial. It prevents the dilution of the term "fascism" and allows for a more precise analysis of contemporary political systems. The rise of a regime may exhibit illiberal, authoritarian, and kleptocratic features without necessarily constituting a fascist state in the historically grounded, scholarly sense of the term.
 
-### Part II: Case Studies in Contemporary Power
+## Part II: Case Studies in Contemporary Power
 
-#### Section 3: The United States \- Democratic Erosion or Fascist Turn?
+### Section 3: The United States - Democratic Erosion or Fascist Turn?
 
 The question of whether the United States is, or is becoming, a fascist country has moved from the fringes of political discourse to the center of academic and public debate.2 This debate is not merely an academic exercise; it reflects deep anxieties about the health of American democracy and the nature of the political forces shaping it. A rigorous analysis requires setting aside polemics and measuring the American political system against the scholarly framework of fascism, paying close attention to both its foundational principles and its contemporary strains.
 
-##### 3.1 The American Political System: Foundation and Strains
+#### 3.1 The American Political System: Foundation and Strains
 
 The United States is a federal constitutional republic, founded on principles of liberal democracy.18 Its political system is defined by a strong rule-of-law tradition, a separation of powers between the legislative, executive, and judicial branches, and a Bill of Rights that enshrines robust freedoms of expression, religion, and assembly.19 This system is designed to protect individual liberties and prevent the concentration of autocratic power.
 
 However, in recent years, these democratic institutions have suffered significant erosion.20 The system is under immense pressure from what political scientist Josep M. Colomer terms "constitutional polarization".21 The separation of powers, intended to create checks and balances, has, in an era of intense partisanship, often produced legislative gridlock, paralysis, and a rise in "negative political minorities able to block decisions".21 This institutional dysfunction is coupled with rising political extremism, partisan pressure on the electoral process, and growing disparities in wealth and political influence, leading to a decline in public trust and a weakening of democratic norms.20
 
-##### 3.2 The Scholarly Debate on "American Fascism"
+#### 3.2 The Scholarly Debate on "American Fascism"
 
 The rise of Donald Trump and the political movement he leads has ignited a fierce scholarly debate over the applicability of the "fascist" label to the United States. This is not a simple dispute over facts but a profound disagreement about historical analogy and the nature of the American political tradition.
 
@@ -80,7 +78,7 @@ The rise of Donald Trump and the political movement he leads has ignited a fierc
 - Arguments Against the Fascist Analogy: A significant number of scholars, however, caution against or outright reject the label. Historian Victoria de Grazia points to a fundamental divergence: historical fascism was a revolutionary movement born in the trenches of World War I, defined by imperial mobilization and expansionism. In contrast, the American right under Trump has often been more isolationist, led by a figure who avoided military service.2 Other critics, like Helmut Walser Smith, argue that while the Trump administration engaged in cruel rhetoric and policies, it did not succeed in systematically dismantling the country's political and legal system in the way the Nazis did.2 The institutions, though severely stressed, remained standing.
   Furthermore, opponents of the analogy argue that it is politically counterproductive and analytically misleading. Political scientist Samuel Moyn contends that "abnormalizing Trump" by labeling him a fascist "disguises that he is quintessentially American, the expression of enduring and indigenous syndromes".2 This view suggests that the focus on fascism distracts from the need to confront America's own long histories of racism, inequality, and violence, which created the conditions for Trump's rise. The danger, in this line of thinking, is that defeating a single "fascist" figure might lead to a complacent belief that the underlying problems have been solved, rather than spurring a deeper reckoning with the nation's chronic democratic deficits. The debate, therefore, is not just about whether Trump is a fascist, but about which historical parallel—1930s Europe or America's own troubled past—provides the most useful lens for understanding and combating the present threat.
 
-##### 3.3 Analysis of Dissent and Civil Liberties
+#### 3.3 Analysis of Dissent and Civil Liberties
 
 A crucial metric for assessing a country's political character is its treatment of dissent. A hallmark of a fascist state is the systematic and violent suppression of all opposition.11 The United States, by contrast, operates on a different plane. The First Amendment to the Constitution provides a strong legal foundation for freedom of speech and assembly, and these rights are central to the nation's political identity.26
 
@@ -90,7 +88,7 @@ Despite these real and significant pressures, the landscape of civil liberties i
 
 _authoritarian tendencies_ and a society living under a _fascist regime_.
 
-##### 3.4 Assessment
+#### 3.4 Assessment
 
 While the political movement known as Trumpism exhibits numerous characteristics that overlap with the style and substance of historical fascism—including ultranationalism, a cult of personality, the identification of scapegoats, a disdain for democratic norms, and the encouragement of political violence—the United States does not meet the scholarly definition of a fascist state.
 
@@ -98,11 +96,11 @@ The key missing element is the revolutionary, palingenetic core. Trumpism, for a
 
 The political system of the United States is more accurately characterized as a liberal democracy suffering from severe democratic backsliding and constitutional polarization.20 The political forces challenging its democratic norms are best understood as a form of right-wing or authoritarian populism, which operates within and against democratic institutions rather than seeking their complete abolition in a revolutionary project. The threat to American democracy is profound and rooted in its own history and contemporary dysfunctions, but to label the current system as fascist is to misdiagnose the illness and risk prescribing the wrong cure.
 
-#### Section 4: The Russian Federation \- A New Fascism or a Familiar Autocracy?
+### Section 4: The Russian Federation - A New Fascism or a Familiar Autocracy?
 
 The political system that has consolidated in the Russian Federation under the rule of Vladimir Putin presents a potent case study in 21st-century authoritarianism. Following the full-scale invasion of Ukraine in 2022, the term "fascist" has been increasingly applied to the Russian state, both by its international opponents and by some scholars.30 However, as with the United States, a careful analysis reveals a complex reality that defies simple categorization, highlighting a unique blend of historical autocracy, modern kleptocracy, and fascist-like aesthetics.
 
-##### 4.1 The Nature of the Russian State: Putinism and Ruscism
+#### 4.1 The Nature of the Russian State: Putinism and Ruscism
 
 The contemporary Russian Federation is a highly centralized, personalist autocracy.17 Power is concentrated in the hands of President Vladimir Putin and a close circle of allies drawn primarily from the security services (the
 
@@ -114,9 +112,9 @@ The state's guiding ideology, often referred to as "Putinism," is an eclectic an
 - Anti-Westernism: A deep-seated hostility towards the liberal West, which is portrayed as decadent, aggressive, and intent on destroying Russia.36
 - Conservative Traditionalism: The promotion of conservative Orthodox Christian values, traditional family and gender roles, and a rejection of liberal principles like LGBTQ+ rights.35
 
-This ideology is not articulated in a single coherent text but is absorbed through symbols, state-controlled media, and popular culture, making it flexible and easily digestible.36 In the wake of the 2022 invasion, the term "Ruscism" (or "Rashism") has gained currency to describe this ideology, emphasizing its aggressive militarism, hypernationalism, neo-imperialism, and cult of personality.30 The Ukrainian parliament officially recognized Ruscism as the state ideology of Russia in May 2023\.30
+This ideology is not articulated in a single coherent text but is absorbed through symbols, state-controlled media, and popular culture, making it flexible and easily digestible.36 In the wake of the 2022 invasion, the term "Ruscism" (or "Rashism") has gained currency to describe this ideology, emphasizing its aggressive militarism, hypernationalism, neo-imperialism, and cult of personality.30 The Ukrainian parliament officially recognized Ruscism as the state ideology of Russia in May 2023.30
 
-##### 4.2 The Scholarly Debate on "Russian Fascism"
+#### 4.2 The Scholarly Debate on "Russian Fascism"
 
 As with the American case, there is a vibrant academic debate over whether Putin's Russia qualifies as a fascist state.
 
@@ -125,15 +123,15 @@ As with the American case, there is a vibrant academic debate over whether Putin
   _reactionary_ and _anti-revolutionary_. It seeks to maintain the status quo, preserve the power of the ruling elite, and _demobilize_ the population through apathy and fear, rather than mobilizing it for a grand project of societal transformation.38 She argues that the regime lacks a coherent, forward-looking ideology aimed at creating a "new man" or an "alternative modernity," which was central to historical fascism.5
   Instead, Laruelle and others propose alternative characterizations. They suggest Putin's Russia is better understood as a "kleptocracy," where the primary goal of the elite is the plunder of state resources, with ideology serving as a justification for this plunder.5 Other labels include a "personalist authoritarian regime" or, drawing on the historical distinction, a form of "para-fascism".5 This perspective sees the regime as adopting the aesthetics and rhetoric of fascism—the nationalism, militarism, and leader cult—as useful tools for regime maintenance, without embracing its revolutionary substance. The ideology's function is not to transform society, but to secure the power and wealth of the ruling clique.
 
-##### 4.3 Analysis of Dissent and Civil Liberties
+#### 4.3 Analysis of Dissent and Civil Liberties
 
 On the metric of civil liberties and the treatment of dissent, Putin's Russia aligns very closely with the practices of historical fascist and totalitarian regimes. The state's suppression of opposition is systematic, pervasive, and violent.34
 
 Freedom House rates Russia as "Not Free," with a dismal score for civil liberties, noting that the Kremlin "manipulates elections and suppresses genuine opposition".34 The state exercises near-total control over the media environment, with all national television networks controlled by the government or its allies.34 A raft of repressive legislation—targeting "fake news," "discrediting the armed forces," "extremism," and "foreign agents"—has been used to effectively criminalize any form of dissent, particularly opposition to the war in Ukraine.34
 
-The political opposition is functionally non-existent. A "systemic opposition" in the parliament is largely loyal to the Kremlin, while the "non-systemic" opposition of genuine critics has been dismantled through imprisonment, assassination, and exile.40 Prominent figures like Alexei Navalny have been imprisoned under fabricated charges and died in custody. Freedom of assembly is non-existent; anti-war protests are met with mass arrests and police brutality, with nearly 20,000 detentions for anti-war activities since February 2022\.34 This comprehensive and ruthless eradication of political space and civil liberties is a hallmark of the most repressive authoritarian systems.
+The political opposition is functionally non-existent. A "systemic opposition" in the parliament is largely loyal to the Kremlin, while the "non-systemic" opposition of genuine critics has been dismantled through imprisonment, assassination, and exile.40 Prominent figures like Alexei Navalny have been imprisoned under fabricated charges and died in custody. Freedom of assembly is non-existent; anti-war protests are met with mass arrests and police brutality, with nearly 20,000 detentions for anti-war activities since February 2022.34 This comprehensive and ruthless eradication of political space and civil liberties is a hallmark of the most repressive authoritarian systems.
 
-##### 4.4 Assessment
+#### 4.4 Assessment
 
 The Russian Federation under Vladimir Putin presents a complex hybrid of authoritarianism that incorporates many, but not all, of the core elements of classical fascism. It clearly exhibits ultranationalism, a hypermasculine cult of the leader, extreme militarism, state control over the economy, a close intertwining of church and state, and the systematic, violent suppression of dissent.
 
@@ -141,7 +139,7 @@ However, the scholarly consensus leans away from a direct one-to-one equation wi
 
 ---
 
-#### Table 1: Comparative Analysis of Ideological Characteristics
+### Table 1: Comparative Analysis of Ideological Characteristics
 
 | Core Tenet of Classical Fascism | Political Characteristics of the Contemporary USA | Political Characteristics of the Contemporary Russian Federation |
 |:---- |:---- |:---- |
@@ -156,21 +154,21 @@ However, the scholarly consensus leans away from a direct one-to-one equation wi
 
 ---
 
-### Part III: The Global Opposition to Authoritarianism
+## Part III: The Global Opposition to Authoritarianism
 
 Having established that neither the United States nor Russia neatly fits the mold of classical fascism—with the former being a strained democracy and the latter a unique para-fascist autocracy—the original query must be reframed. The central question is no longer who opposes a singular "faciest establishment," but rather, what are the forces arrayed against the broader, global trend of rising authoritarianism? The answer reveals a world far more complex than the bipolar ideological struggle of the Cold War. The opposition is not a single entity but a fragmented, multi-layered, and sometimes contradictory collection of actors with different motivations and goals.
 
-#### Section 5: The Shifting Global Order \- From Cold War Bipolarity to Asymmetric Rivalry
+### Section 5: The Shifting Global Order - From Cold War Bipolarity to Asymmetric Rivalry
 
 To understand the present, it is essential to first correctly characterize the past. The Cold War paradigm, which implicitly frames the user's query, was a unique historical moment whose dynamics do not map cleanly onto the 21st century.
 
-##### 5.1 The Cold War Re-examined
+#### 5.1 The Cold War Re-examined
 
 The Cold War (c. 1947–1991) was a sustained state of geopolitical, economic, and ideological rivalry between two superpowers and their respective blocs: the United States and the Western allies on one side, and the Soviet Union and the Eastern Bloc on the other.43 This was not merely a competition between two powerful nations; it was a global conflict between two mutually exclusive systems of social and political organization. The United States and its allies championed liberal-democratic capitalism, characterized by free markets, competitive elections, and individual freedoms.44 The Soviet Union promoted an authoritarian, one-party state model based on the ideology of communism.45
 
 The opposition was therefore fundamentally ideological. The US and the West opposed the _ideology_ of communism and its global expansion, viewing it as a threat to free trade, democracy, and human rights.44 This opposition was expressed through a policy of containment, military alliances like NATO, economic aid to non-communist nations via the Marshall Plan, and support for anti-communist forces worldwide.43 The eventual "loss" of the Soviet Union was not a simple military defeat but the collapse of its political and economic system, brought on by a combination of internal decay, economic stagnation, and sustained external pressure from the Western bloc.43 This historical context is vital because it establishes a baseline of a coherent, ideologically unified bloc opposing another.
 
-##### 5.2 The Rise of Assertive Authoritarianism
+#### 5.2 The Rise of Assertive Authoritarianism
 
 The post-Cold War "unipolar moment," during which the United States stood as the world's sole superpower, has given way to a new era of great-power competition. A key feature of this new era is the global expansion and increasing assertiveness of authoritarian rule.47 According to Freedom House, the world has been in a "democratic recession" for nearly two decades, with the number of countries experiencing a decline in political rights and civil liberties consistently outnumbering those experiencing gains.29
 
@@ -183,11 +181,11 @@ This new wave of authoritarianism is not a monolithic ideological movement like 
 
 This assertive authoritarianism, led primarily by China with Russia as a disruptive junior partner, presents a systemic challenge to the liberal international order, but it does so on pragmatic and interest-based grounds rather than as part of a unified fascist crusade.
 
-#### Section 6: Identifying the Counterweights \- Who Opposes the Authoritarian Advance?
+### Section 6: Identifying the Counterweights - Who Opposes the Authoritarian Advance?
 
 The opposition to this authoritarian trend is as complex and varied as the trend itself. It cannot be reduced to a single country or a simple binary. It is a multi-layered coalition of different actors with distinct, and sometimes conflicting, motivations.
 
-##### 6.1 The Liberal Democratic Bloc
+#### 6.1 The Liberal Democratic Bloc
 
 The most direct and ideologically coherent opposition to authoritarianism comes from the world's established liberal democracies, which form a loose bloc successor to the Western alliance of the Cold War.
 
@@ -197,7 +195,7 @@ The most direct and ideologically coherent opposition to authoritarianism comes 
 
 However, the effectiveness of this democratic bloc is hampered by a critical vulnerability: the erosion of democracy within its own leading members. An America perceived as hypocritical due to its own democratic backsliding, or a Europe divided internally, is less credible and effective as a global champion for democracy.52 The struggle against authoritarianism abroad is therefore inextricably linked to the struggle for democratic renewal at home.
 
-##### 6.2 The Systemic Rival: The Role of China
+#### 6.2 The Systemic Rival: The Role of China
 
 China represents a different kind of challenge. As the world's most powerful authoritarian state, it is the primary driver of the new assertive authoritarianism.50 It actively promotes its governance model as an alternative to liberal democracy, offering investment and political support to autocrats and working to reshape international norms to be more favorable to state control.47
 
@@ -205,7 +203,7 @@ However, China is not part of a "fascist establishment" with Russia. Its politic
 
 _systemic rival_ to the liberal democratic order, but it is not a fascist state and does not promote fascism. It opposes the _liberal_ and _democratic_ aspects of the current international system, not necessarily authoritarianism in other forms. In this sense, China is not an opponent of a "fascist establishment" but rather the leader of a competing authoritarian model.
 
-##### 6.3 The Balancing "Middle Powers"
+#### 6.3 The Balancing "Middle Powers"
 
 A defining feature of the new multipolar world is the growing influence of large, strategically autonomous countries that refuse to align neatly with either the democratic or authoritarian blocs. These "middle powers" or "swing states" act as a different kind of check on global power.
 
@@ -214,7 +212,7 @@ A defining feature of the new multipolar world is the growing influence of large
 
 These middle powers oppose not a specific ideology like fascism, but rather the concentration of global power in any single bloc. Their goal is a multipolar system where they have the freedom to maneuver and pursue their own interests. In doing so, they act as a constraint on both American and Chinese/Russian ambitions.
 
-##### 6.4 The Internal and Transnational Opposition
+#### 6.4 The Internal and Transnational Opposition
 
 Finally, the opposition to authoritarianism is not limited to the actions of nation-states. A diverse and resilient network of non-state actors forms a crucial frontline in this struggle.
 
@@ -225,7 +223,7 @@ The opposition to the 21st-century authoritarian advance is therefore not a sing
 
 ---
 
-#### Table 2: Typology of Global Actors and Stances on Authoritarianism
+### Table 2: Typology of Global Actors and Stances on Authoritarianism
 
 | Actor | Political System | Stance on Liberal International Order | Primary Foreign Policy Driver |
 |:---- |:---- |:---- |:---- |
@@ -239,7 +237,7 @@ The opposition to the 21st-century authoritarian advance is therefore not a sing
 
 ---
 
-#### Section 7: Conclusion and Future Outlook
+### Section 7: Conclusion and Future Outlook
 
 The initial query—"if russia lost the cold war because of an opposing USA, now that USA and Russia are both Facist who will oppose the rise of the faciest establishment?"—is built upon premises that a rigorous, evidence-based analysis cannot sustain. The Cold War was an ideological contest between liberal capitalism and authoritarian communism, a dynamic fundamentally different from today's geopolitical landscape. More importantly, a scholarly application of the definition of fascism reveals that while the United States is experiencing severe democratic erosion and Russia is a deeply repressive autocracy with fascist characteristics, neither fully embodies classical fascism. The United States remains a flawed liberal democracy, and Russia is more accurately described as a unique para-fascist or kleptocratic hybrid.
 
@@ -256,78 +254,78 @@ The frontline in this 21st-century struggle is thus both geopolitical and domest
 
 Second is the ability of this bloc to forge broader, more flexible, and less dogmatic partnerships. Engaging with non-aligned powers like India and Brazil on areas of common interest—rather than demanding complete alignment—will be essential to building a wider front against the most aggressive forms of autocracy. Finally, the long-term success of the opposition will hinge on its ability to effectively support the non-state actors and internal dissenters who represent the most authentic and potent challenge to authoritarian regimes from within. The new opposition is decentralized, complex, and faces a formidable challenge, but it is far from non-existent. The struggle for a free and open global order continues, fought on many fronts by a diverse array of actors.
 
-##### Works Cited
+#### Works Cited
 
 1. What is Fascism and Where does it Come From? | History Workshop Journal, accessed on August 5, 2025, [https://academic.oup.com/hwj/article-abstract/91/1/1/6329186](https://academic.oup.com/hwj/article-abstract/91/1/1/6329186)
-2. What Was the Fascism Debate? \- Dissent Magazine, accessed on August 5, 2025, [https://www.dissentmagazine.org/article/what-was-the-fascism-debate/](https://www.dissentmagazine.org/article/what-was-the-fascism-debate/)
-3. 1 Towards a Definition of Fascism David Artemiw Fourth Year Paper Chicago Style Citation Fascism, we are told, is a tool of the \- HPS: The Journal of History and Political Science, accessed on August 5, 2025, [https://hpsj.journals.yorku.ca/index.php/hpsj/article/download/39585/35871/48322](https://hpsj.journals.yorku.ca/index.php/hpsj/article/download/39585/35871/48322)
-4. FASCISM Definition & Meaning \- Merriam-Webster, accessed on August 5, 2025, [https://www.merriam-webster.com/dictionary/fascism](https://www.merriam-webster.com/dictionary/fascism)
+2. What Was the Fascism Debate? - Dissent Magazine, accessed on August 5, 2025, [https://www.dissentmagazine.org/article/what-was-the-fascism-debate/](https://www.dissentmagazine.org/article/what-was-the-fascism-debate/)
+3. 1 Towards a Definition of Fascism David Artemiw Fourth Year Paper Chicago Style Citation Fascism, we are told, is a tool of the - HPS: The Journal of History and Political Science, accessed on August 5, 2025, [https://hpsj.journals.yorku.ca/index.php/hpsj/article/download/39585/35871/48322](https://hpsj.journals.yorku.ca/index.php/hpsj/article/download/39585/35871/48322)
+4. FASCISM Definition & Meaning - Merriam-Webster, accessed on August 5, 2025, [https://www.merriam-webster.com/dictionary/fascism](https://www.merriam-webster.com/dictionary/fascism)
 5. Is Russia Fascist? Unraveling Propaganda East and West (Book …, accessed on August 5, 2025, [https://open.metu.edu.tr/handle/11511/102404](https://open.metu.edu.tr/handle/11511/102404)
 6. Is Russia Fascist? Unraveling Propaganda East and West, accessed on August 5, 2025, [https://ieres.elliott.gwu.edu/project/is-russia-fascist-unraveling-propaganda-east-and-west/](https://ieres.elliott.gwu.edu/project/is-russia-fascist-unraveling-propaganda-east-and-west/)
-7. Accusing Russia of Fascism \- Russia in Global Affairs, accessed on August 5, 2025, [https://eng.globalaffairs.ru/articles/accusing-russia-of-fascism/](https://eng.globalaffairs.ru/articles/accusing-russia-of-fascism/)
+7. Accusing Russia of Fascism - Russia in Global Affairs, accessed on August 5, 2025, [https://eng.globalaffairs.ru/articles/accusing-russia-of-fascism/](https://eng.globalaffairs.ru/articles/accusing-russia-of-fascism/)
 8. Intellectual History and the Fascism Debate: On Analogies and …, accessed on August 5, 2025, [https://www.cambridge.org/core/services/aop-cambridge-core/content/view/855AA0644B2E4FFCE3752737B6DDE2A4/S1479244322000129a.pdf/div-class-title-intellectual-history-and-the-fascism-debate-on-analogies-and-polemic-div.pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/855AA0644B2E4FFCE3752737B6DDE2A4/S1479244322000129a.pdf/div-class-title-intellectual-history-and-the-fascism-debate-on-analogies-and-polemic-div.pdf)
 9. 'Fascism', 'Para-fascism' and 'Fascistization': On the Similarities of Three Conceptual Categories, accessed on August 5, 2025, [https://library.fes.de/libalt/journals/swetsfulltext/17283246.pdf](https://library.fes.de/libalt/journals/swetsfulltext/17283246.pdf)
-10. The core ideas and axioms of Classical Fascism (1919-1945 … \- ICPS, accessed on August 5, 2025, [https://www.icps.cat/archivos/WorkingPapers/wp272.pdf](https://www.icps.cat/archivos/WorkingPapers/wp272.pdf)
-11. Characteristics of Fascism \- Keene State College, accessed on August 5, 2025, [https://www.keene.edu/academics/cchgs/resources/presentation-materials/characteristics-and-appeal-of-fascism/download/](https://www.keene.edu/academics/cchgs/resources/presentation-materials/characteristics-and-appeal-of-fascism/download/)
-12. What is Fascism? \- American Library Association, accessed on August 5, 2025, [https://www.ala.org/sites/default/files/2025-01/SRRT%20Pathfinder%20Fascism.pdf](https://www.ala.org/sites/default/files/2025-01/SRRT%20Pathfinder%20Fascism.pdf)
+10. The core ideas and axioms of Classical Fascism (1919-1945 … - ICPS, accessed on August 5, 2025, [https://www.icps.cat/archivos/WorkingPapers/wp272.pdf](https://www.icps.cat/archivos/WorkingPapers/wp272.pdf)
+11. Characteristics of Fascism - Keene State College, accessed on August 5, 2025, [https://www.keene.edu/academics/cchgs/resources/presentation-materials/characteristics-and-appeal-of-fascism/download/](https://www.keene.edu/academics/cchgs/resources/presentation-materials/characteristics-and-appeal-of-fascism/download/)
+12. What is Fascism? - American Library Association, accessed on August 5, 2025, [https://www.ala.org/sites/default/files/2025-01/SRRT%20Pathfinder%20Fascism.pdf](https://www.ala.org/sites/default/files/2025-01/SRRT%20Pathfinder%20Fascism.pdf)
 13. What Is Fascism? | CFR Education, accessed on August 5, 2025, [https://education.cfr.org/learn/reading/what-fascism](https://education.cfr.org/learn/reading/what-fascism)
-14. "The Doctrine of Fascism" (1932) by Benito Mussolini \- San Jose State University, accessed on August 5, 2025, [https://sjsu.edu/faculty/wooda/2B-HUM/Readings/The-Doctrine-of-Fascism.pdf](https://sjsu.edu/faculty/wooda/2B-HUM/Readings/The-Doctrine-of-Fascism.pdf)
-15. The 14 Characteristics of Fascism \- AWS, accessed on August 5, 2025, [https://osbcontent.s3-eu-west-1.amazonaws.com/PC-00466.pdf](https://osbcontent.s3-eu-west-1.amazonaws.com/PC-00466.pdf)
-16. Fascism \- Holocaust Encyclopedia, accessed on August 5, 2025, [https://encyclopedia.ushmm.org/content/en/article/fascism-1](https://encyclopedia.ushmm.org/content/en/article/fascism-1)
-17. Country: Russia \- Journal of Democracy, accessed on August 5, 2025, [https://www.journalofdemocracy.org/countries/russia/](https://www.journalofdemocracy.org/countries/russia/)
-18. How the United States Is Governed \- USEmbassy.gov, accessed on August 5, 2025, [https://common.usembassy.gov/wp-content/uploads/sites/111/2023/02/us\_governed.pdf](https://common.usembassy.gov/wp-content/uploads/sites/111/2023/02/us_governed.pdf)
-19. A STUDY ON THE ADMINISTRATIVE AND POLITICAL STRUCTURE OF THE UNITED STATES OF AMERICA AMERİKA BİRLEŞİK DEVLETLERİ'NİN YÖN, accessed on August 5, 2025, [https://www.ressjournal.com/Makaleler/1183323505\_7\_Aziz%20Belli.pdf](https://www.ressjournal.com/Makaleler/1183323505_7_Aziz%20Belli.pdf)
+14. "The Doctrine of Fascism" (1932) by Benito Mussolini - San Jose State University, accessed on August 5, 2025, [https://sjsu.edu/faculty/wooda/2B-HUM/Readings/The-Doctrine-of-Fascism.pdf](https://sjsu.edu/faculty/wooda/2B-HUM/Readings/The-Doctrine-of-Fascism.pdf)
+15. The 14 Characteristics of Fascism - AWS, accessed on August 5, 2025, [https://osbcontent.s3-eu-west-1.amazonaws.com/PC-00466.pdf](https://osbcontent.s3-eu-west-1.amazonaws.com/PC-00466.pdf)
+16. Fascism - Holocaust Encyclopedia, accessed on August 5, 2025, [https://encyclopedia.ushmm.org/content/en/article/fascism-1](https://encyclopedia.ushmm.org/content/en/article/fascism-1)
+17. Country: Russia - Journal of Democracy, accessed on August 5, 2025, [https://www.journalofdemocracy.org/countries/russia/](https://www.journalofdemocracy.org/countries/russia/)
+18. How the United States Is Governed - USEmbassy.gov, accessed on August 5, 2025, [https://common.usembassy.gov/wp-content/uploads/sites/111/2023/02/us_governed.pdf](https://common.usembassy.gov/wp-content/uploads/sites/111/2023/02/us_governed.pdf)
+19. A STUDY ON THE ADMINISTRATIVE AND POLITICAL STRUCTURE OF THE UNITED STATES OF AMERICA AMERİKA BİRLEŞİK DEVLETLERİ'NİN YÖN, accessed on August 5, 2025, [https://www.ressjournal.com/Makaleler/1183323505_7_Aziz%20Belli.pdf](https://www.ressjournal.com/Makaleler/1183323505_7_Aziz%20Belli.pdf)
 20. United States: Country Profile | Freedom House, accessed on August 5, 2025, [https://freedomhouse.org/country/united-states](https://freedomhouse.org/country/united-states)
-21. Constitutional Polarization: A Critical Review of the U.S. Political System by Josep M. Colomer \- Oxford Academic, accessed on August 5, 2025, [https://academic.oup.com/psq/article-abstract/139/1/150/7512568](https://academic.oup.com/psq/article-abstract/139/1/150/7512568)
+21. Constitutional Polarization: A Critical Review of the U.S. Political System by Josep M. Colomer - Oxford Academic, accessed on August 5, 2025, [https://academic.oup.com/psq/article-abstract/139/1/150/7512568](https://academic.oup.com/psq/article-abstract/139/1/150/7512568)
 22. How Democracies Defend Themselves Against Authoritarianism, accessed on August 5, 2025, [https://www.americanprogress.org/article/how-democracies-defend-themselves-against-authoritarianism/](https://www.americanprogress.org/article/how-democracies-defend-themselves-against-authoritarianism/)
 23. Ed Note | Fascism Is Already in America. We Could Cement It., accessed on August 5, 2025, [https://www.mississippifreepress.org/editors-note-fascism-is-already-in-america-the-only-question-is-whether-well-make-it-permanent/](https://www.mississippifreepress.org/editors-note-fascism-is-already-in-america-the-only-question-is-whether-well-make-it-permanent/)
-24. Donald Trump and fascism \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Donald\_Trump\_and\_fascism](https://en.wikipedia.org/wiki/Donald_Trump_and_fascism)
-25. Full article: Trumpism, fascism and neoliberalism \- Taylor & Francis Online, accessed on August 5, 2025, [https://www.tandfonline.com/doi/full/10.1080/1600910X.2025.2481159](https://www.tandfonline.com/doi/full/10.1080/1600910X.2025.2481159)
+24. Donald Trump and fascism - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Donald_Trump_and_fascism](https://en.wikipedia.org/wiki/Donald_Trump_and_fascism)
+25. Full article: Trumpism, fascism and neoliberalism - Taylor & Francis Online, accessed on August 5, 2025, [https://www.tandfonline.com/doi/full/10.1080/1600910X.2025.2481159](https://www.tandfonline.com/doi/full/10.1080/1600910X.2025.2481159)
 26. Silencing dissent didn't work in 1923 and won't work now | ACLU of Southern California, accessed on August 5, 2025, [https://www.aclusocal.org/en/news/silencing-dissent-didnt-work-1923-and-wont-work-now](https://www.aclusocal.org/en/news/silencing-dissent-didnt-work-1923-and-wont-work-now)
-27. Dissent Disobedience and Justice | Engage with ACLRC \- Alberta Civil Liberties Research Centre, accessed on August 5, 2025, [https://www.aclrc.com/access-to-justice/dissent-disobediance-and-justice/](https://www.aclrc.com/access-to-justice/dissent-disobediance-and-justice/)
-28. Imperialism and Black Dissent \- Stanford Law Review, accessed on August 5, 2025, [https://review.law.stanford.edu/wp-content/uploads/sites/3/2023/02/Farnia-75-Stan.-L.-Rev.-397.pdf](https://review.law.stanford.edu/wp-content/uploads/sites/3/2023/02/Farnia-75-Stan.-L.-Rev.-397.pdf)
-29. Democracy and Authoritarianism in the 21st Century: A sketch \- Ash Center \- Harvard University, accessed on August 5, 2025, [https://ash.harvard.edu/wp-content/uploads/2023/12/democracy\_and\_authoritarianism\_in\_the\_21st\_century-\_a\_sketch.pdf](https://ash.harvard.edu/wp-content/uploads/2023/12/democracy_and_authoritarianism_in_the_21st_century-_a_sketch.pdf)
-30. Ruscism \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Ruscism](https://en.wikipedia.org/wiki/Ruscism)
+27. Dissent Disobedience and Justice | Engage with ACLRC - Alberta Civil Liberties Research Centre, accessed on August 5, 2025, [https://www.aclrc.com/access-to-justice/dissent-disobediance-and-justice/](https://www.aclrc.com/access-to-justice/dissent-disobediance-and-justice/)
+28. Imperialism and Black Dissent - Stanford Law Review, accessed on August 5, 2025, [https://review.law.stanford.edu/wp-content/uploads/sites/3/2023/02/Farnia-75-Stan.-L.-Rev.-397.pdf](https://review.law.stanford.edu/wp-content/uploads/sites/3/2023/02/Farnia-75-Stan.-L.-Rev.-397.pdf)
+29. Democracy and Authoritarianism in the 21st Century: A sketch - Ash Center - Harvard University, accessed on August 5, 2025, [https://ash.harvard.edu/wp-content/uploads/2023/12/democracy_and_authoritarianism_in_the_21st_century-_a_sketch.pdf](https://ash.harvard.edu/wp-content/uploads/2023/12/democracy_and_authoritarianism_in_the_21st_century-_a_sketch.pdf)
+30. Ruscism - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Ruscism](https://en.wikipedia.org/wiki/Ruscism)
 31. Putin's Russia: A Moderate Fascist State by Vladislav Inozemtsev …, accessed on August 5, 2025, [https://archive.transatlanticrelations.org/publication/putins-russia-moderate-fascist-state-vladislav-inozemtsev/](https://archive.transatlanticrelations.org/publication/putins-russia-moderate-fascist-state-vladislav-inozemtsev/)
-32. RUSSIA The Russian Federation has a centralized political system, with power concentrated in a president and a prime minister, a \- State.gov, accessed on August 5, 2025, [https://2009-2017.state.gov/documents/organization/160474.pdf](https://2009-2017.state.gov/documents/organization/160474.pdf)
-33. Russia under Vladimir Putin \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Russia\_under\_Vladimir\_Putin](https://en.wikipedia.org/wiki/Russia_under_Vladimir_Putin)
+32. RUSSIA The Russian Federation has a centralized political system, with power concentrated in a president and a prime minister, a - State.gov, accessed on August 5, 2025, [https://2009-2017.state.gov/documents/organization/160474.pdf](https://2009-2017.state.gov/documents/organization/160474.pdf)
+33. Russia under Vladimir Putin - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Russia_under_Vladimir_Putin](https://en.wikipedia.org/wiki/Russia_under_Vladimir_Putin)
 34. Russia: Freedom in the World 2024 Country Report | Freedom House, accessed on August 5, 2025, [https://freedomhouse.org/country/russia/freedom-world/2024](https://freedomhouse.org/country/russia/freedom-world/2024)
-35. en.wikipedia.org, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Putinism\#:\~:text=Analysts%20have%20described%20Russia's%20state,and%20authoritarian%20aspects%20of%20Stalinism.](https://en.wikipedia.org/wiki/Putinism#:~:text=Analysts%20have%20described%20Russia's%20state,and%20authoritarian%20aspects%20of%20Stalinism.)
-36. The Ideology of Putinism: Is It Sustainable? \- CSIS, accessed on August 5, 2025, [https://www.csis.org/analysis/ideology-putinism-it-sustainable](https://www.csis.org/analysis/ideology-putinism-it-sustainable)
-37. Putinism \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Putinism](https://en.wikipedia.org/wiki/Putinism)
+35. en.wikipedia.org, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Putinism#:~:text=Analysts%20have%20described%20Russia's%20state,and%20authoritarian%20aspects%20of%20Stalinism.](https://en.wikipedia.org/wiki/Putinism#:~:text=Analysts%20have%20described%20Russia's%20state,and%20authoritarian%20aspects%20of%20Stalinism.)
+36. The Ideology of Putinism: Is It Sustainable? - CSIS, accessed on August 5, 2025, [https://www.csis.org/analysis/ideology-putinism-it-sustainable](https://www.csis.org/analysis/ideology-putinism-it-sustainable)
+37. Putinism - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Putinism](https://en.wikipedia.org/wiki/Putinism)
 38. Moscow's Mind Games: Finding Ideology in Putin's Russia, accessed on August 5, 2025, [https://www.fpri.org/article/2023/02/moscows-mind-games-finding-ideology-in-putins-russia/](https://www.fpri.org/article/2023/02/moscows-mind-games-finding-ideology-in-putins-russia/)
-39. Human rights in Russia \- Amnesty International, accessed on August 5, 2025, [https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/russia/](https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/russia/)
-40. Opposition to Vladimir Putin in Russia \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Opposition\_to\_Vladimir\_Putin\_in\_Russia](https://en.wikipedia.org/wiki/Opposition_to_Vladimir_Putin_in_Russia)
-41. Human rights in Russia \- Amnesty International, accessed on August 5, 2025, [https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/russia/report-russia/](https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/russia/report-russia/)
-42. Definitions of fascism \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Definitions\_of\_fascism](https://en.wikipedia.org/wiki/Definitions_of_fascism)
-43. Cold War \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Cold\_War](https://en.wikipedia.org/wiki/Cold_War)
+39. Human rights in Russia - Amnesty International, accessed on August 5, 2025, [https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/russia/](https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/russia/)
+40. Opposition to Vladimir Putin in Russia - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Opposition_to_Vladimir_Putin_in_Russia](https://en.wikipedia.org/wiki/Opposition_to_Vladimir_Putin_in_Russia)
+41. Human rights in Russia - Amnesty International, accessed on August 5, 2025, [https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/russia/report-russia/](https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/russia/report-russia/)
+42. Definitions of fascism - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Definitions_of_fascism](https://en.wikipedia.org/wiki/Definitions_of_fascism)
+43. Cold War - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Cold_War](https://en.wikipedia.org/wiki/Cold_War)
 44. Cold War Diplomacy, accessed on August 5, 2025, [https://diplomacy.state.gov/discover-diplomacy/period/cold-war-diplomacy/](https://diplomacy.state.gov/discover-diplomacy/period/cold-war-diplomacy/)
-45. The Soviet Union and the United States \- Revelations from the Russian Archives | Exhibitions \- The Library of Congress, accessed on August 5, 2025, [https://www.loc.gov/exhibits/archives/sovi.html](https://www.loc.gov/exhibits/archives/sovi.html)
-46. Soviet Union–United States relations \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Soviet\_Union%E2%80%93United\_States\_relations](https://en.wikipedia.org/wiki/Soviet_Union%E2%80%93United_States_relations)
+45. The Soviet Union and the United States - Revelations from the Russian Archives | Exhibitions - The Library of Congress, accessed on August 5, 2025, [https://www.loc.gov/exhibits/archives/sovi.html](https://www.loc.gov/exhibits/archives/sovi.html)
+46. Soviet Union–United States relations - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Soviet_Union%E2%80%93United_States_relations](https://en.wikipedia.org/wiki/Soviet_Union%E2%80%93United_States_relations)
 47. The New Global Authoritarianism: China and Russia's Strategic Support for Autocracies, accessed on August 5, 2025, [https://www.cfr.org/project/new-global-authoritarianism-china-and-russias-strategic-support-autocracies](https://www.cfr.org/project/new-global-authoritarianism-china-and-russias-strategic-support-autocracies)
 48. The Global Expansion of Authoritarian Rule | Freedom House, accessed on August 5, 2025, [https://freedomhouse.org/report/freedom-world/2022/global-expansion-authoritarian-rule](https://freedomhouse.org/report/freedom-world/2022/global-expansion-authoritarian-rule)
 49. Disentangling Authoritarianism and Illiberalism in the Context of the Global States System, accessed on August 5, 2025, [https://jia.sipa.columbia.edu/content/disentangling-authoritarianism-and-illiberalism-context-global-states-system](https://jia.sipa.columbia.edu/content/disentangling-authoritarianism-and-illiberalism-context-global-states-system)
-50. China's Assertive Authoritarianism \- Democracy: A Journal of Ideas, accessed on August 5, 2025, [https://democracyjournal.org/magazine/62-special-issue/chinas-assertive-authoritarianism/](https://democracyjournal.org/magazine/62-special-issue/chinas-assertive-authoritarianism/)
-51. China: Country Profile \- Freedom House, accessed on August 5, 2025, [https://freedomhouse.org/country/china](https://freedomhouse.org/country/china)
-52. Authoritarian Challenges to the Liberal Order \- Tony Blair Institute, accessed on August 5, 2025, [https://institute.global/insights/geopolitics-and-security/authoritarian-challenges-liberal-order](https://institute.global/insights/geopolitics-and-security/authoritarian-challenges-liberal-order)
-53. Promoting and protecting human rights | European Union, accessed on August 5, 2025, [https://european-union.europa.eu/priorities-and-actions/actions-topic/human-rights-and-democracy\_en](https://european-union.europa.eu/priorities-and-actions/actions-topic/human-rights-and-democracy_en)
-54. (PDF) Human Rights and Democracy in EU Foreign Policy \- ResearchGate, accessed on August 5, 2025, [https://www.researchgate.net/publication/343061235\_Human\_Rights\_and\_Democracy\_in\_EU\_Foreign\_Policy](https://www.researchgate.net/publication/343061235_Human_Rights_and_Democracy_in_EU_Foreign_Policy)
-55. EU Policy Discourse: Democracy, Governance, and Human Rights \- International IDEA, accessed on August 5, 2025, [https://www.idea.int/sites/default/files/publications/chapters/the-role-of-the-european-union-in-democracy-building/eu-democracy-building-discussion-paper-8.pdf](https://www.idea.int/sites/default/files/publications/chapters/the-role-of-the-european-union-in-democracy-building/eu-democracy-building-discussion-paper-8.pdf)
-56. The EU's support of democracy and human rights: an ECFR discussion paper \- European Council on Foreign Relations, accessed on August 5, 2025, [https://ecfr.eu/archive/page/-/Human%20rights%20webpage%20documents/The-EUs-support-of-democracy-and-human-rights-an-ECFR-discussion-paper.pdf](https://ecfr.eu/archive/page/-/Human%20rights%20webpage%20documents/The-EUs-support-of-democracy-and-human-rights-an-ECFR-discussion-paper.pdf)
-57. Foreign policy of Japan \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Foreign\_policy\_of\_Japan](https://en.wikipedia.org/wiki/Foreign_policy_of_Japan)
-58. Foreign relations of Japan \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Foreign\_relations\_of\_Japan](https://en.wikipedia.org/wiki/Foreign_relations_of_Japan)
+50. China's Assertive Authoritarianism - Democracy: A Journal of Ideas, accessed on August 5, 2025, [https://democracyjournal.org/magazine/62-special-issue/chinas-assertive-authoritarianism/](https://democracyjournal.org/magazine/62-special-issue/chinas-assertive-authoritarianism/)
+51. China: Country Profile - Freedom House, accessed on August 5, 2025, [https://freedomhouse.org/country/china](https://freedomhouse.org/country/china)
+52. Authoritarian Challenges to the Liberal Order - Tony Blair Institute, accessed on August 5, 2025, [https://institute.global/insights/geopolitics-and-security/authoritarian-challenges-liberal-order](https://institute.global/insights/geopolitics-and-security/authoritarian-challenges-liberal-order)
+53. Promoting and protecting human rights | European Union, accessed on August 5, 2025, [https://european-union.europa.eu/priorities-and-actions/actions-topic/human-rights-and-democracy_en](https://european-union.europa.eu/priorities-and-actions/actions-topic/human-rights-and-democracy_en)
+54. (PDF) Human Rights and Democracy in EU Foreign Policy - ResearchGate, accessed on August 5, 2025, [https://www.researchgate.net/publication/343061235_Human_Rights_and_Democracy_in_EU_Foreign_Policy](https://www.researchgate.net/publication/343061235_Human_Rights_and_Democracy_in_EU_Foreign_Policy)
+55. EU Policy Discourse: Democracy, Governance, and Human Rights - International IDEA, accessed on August 5, 2025, [https://www.idea.int/sites/default/files/publications/chapters/the-role-of-the-european-union-in-democracy-building/eu-democracy-building-discussion-paper-8.pdf](https://www.idea.int/sites/default/files/publications/chapters/the-role-of-the-european-union-in-democracy-building/eu-democracy-building-discussion-paper-8.pdf)
+56. The EU's support of democracy and human rights: an ECFR discussion paper - European Council on Foreign Relations, accessed on August 5, 2025, [https://ecfr.eu/archive/page/-/Human%20rights%20webpage%20documents/The-EUs-support-of-democracy-and-human-rights-an-ECFR-discussion-paper.pdf](https://ecfr.eu/archive/page/-/Human%20rights%20webpage%20documents/The-EUs-support-of-democracy-and-human-rights-an-ECFR-discussion-paper.pdf)
+57. Foreign policy of Japan - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Foreign_policy_of_Japan](https://en.wikipedia.org/wiki/Foreign_policy_of_Japan)
+58. Foreign relations of Japan - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Foreign_relations_of_Japan](https://en.wikipedia.org/wiki/Foreign_relations_of_Japan)
 59. BASIC TASKS OF JAPAN'S FOREIGN POLICY, accessed on August 5, 2025, [https://www.mofa.go.jp/policy/other/bluebook/1984/1984-1.htm](https://www.mofa.go.jp/policy/other/bluebook/1984/1984-1.htm)
 60. Fascism shattered Europe a century ago—and historians hear echoes today in the U.S., accessed on August 5, 2025, [https://news.berkeley.edu/2024/09/09/fascism-shattered-europe-a-century-ago-and-historians-hear-echoes-today-in-the-u-s/](https://news.berkeley.edu/2024/09/09/fascism-shattered-europe-a-century-ago-and-historians-hear-echoes-today-in-the-u-s/)
 61. Full article: Promoting Authoritarianism? Continuity and Change in …, accessed on August 5, 2025, [https://www.tandfonline.com/doi/full/10.1080/10670564.2024.2449057?src=exp-la](https://www.tandfonline.com/doi/full/10.1080/10670564.2024.2449057?src=exp-la)
-62. Foreign relations of India \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Foreign\_relations\_of\_India](https://en.wikipedia.org/wiki/Foreign_relations_of_India)
+62. Foreign relations of India - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Foreign_relations_of_India](https://en.wikipedia.org/wiki/Foreign_relations_of_India)
 63. Contemporary Indian Foreign Policy and its Impact on India's Global Power Status, accessed on August 5, 2025, [https://trendsresearch.org/insight/contemporary-indian-foreign-policy-and-its-impact-on-indias-global-power-status/](https://trendsresearch.org/insight/contemporary-indian-foreign-policy-and-its-impact-on-indias-global-power-status/)
 64. Editorial: India's Foreign Policy in Dynamic Global Affairs, accessed on August 5, 2025, [https://finsindia.org/editorial-indias-foreign-policy-in-dynamic-global-affairs.html](https://finsindia.org/editorial-indias-foreign-policy-in-dynamic-global-affairs.html)
-65. 4\. A Focused and Dynamic Foreign Policy for India \- Hoover Institution, accessed on August 5, 2025, [https://www.hoover.org/sites/default/files/research/docs/SurveyOfIndia\_ch04\_web-240123.pdf](https://www.hoover.org/sites/default/files/research/docs/SurveyOfIndia_ch04_web-240123.pdf)
-66. Foreign relations of Brazil \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Foreign\_relations\_of\_Brazil](https://en.wikipedia.org/wiki/Foreign_relations_of_Brazil)
-67. Brazil: Europe's bridge to the global south | ECFR \- European Council on Foreign Relations, accessed on August 5, 2025, [https://ecfr.eu/publication/brazil-europes-bridge-to-the-global-south/](https://ecfr.eu/publication/brazil-europes-bridge-to-the-global-south/)
+65. 4. A Focused and Dynamic Foreign Policy for India - Hoover Institution, accessed on August 5, 2025, [https://www.hoover.org/sites/default/files/research/docs/SurveyOfIndia_ch04_web-240123.pdf](https://www.hoover.org/sites/default/files/research/docs/SurveyOfIndia_ch04_web-240123.pdf)
+66. Foreign relations of Brazil - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Foreign_relations_of_Brazil](https://en.wikipedia.org/wiki/Foreign_relations_of_Brazil)
+67. Brazil: Europe's bridge to the global south | ECFR - European Council on Foreign Relations, accessed on August 5, 2025, [https://ecfr.eu/publication/brazil-europes-bridge-to-the-global-south/](https://ecfr.eu/publication/brazil-europes-bridge-to-the-global-south/)
 68. Brazil in the Emerging World Order | Carnegie Endowment for …, accessed on August 5, 2025, [https://carnegieendowment.org/research/2023/12/brazil-in-the-emerging-world-order?lang=en](https://carnegieendowment.org/research/2023/12/brazil-in-the-emerging-world-order?lang=en)
 69. Defending Liberal Democracy from the Slide Toward Authoritarianism, accessed on August 5, 2025, [https://diamond-democracy.stanford.edu/speaking/speeches/defending-liberal-democracy-slide-toward-authoritarianism](https://diamond-democracy.stanford.edu/speaking/speeches/defending-liberal-democracy-slide-toward-authoritarianism)
-70. Anti-authoritarianism \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Anti-authoritarianism](https://en.wikipedia.org/wiki/Anti-authoritarianism)
-71. Social democracy \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Social\_democracy](https://en.wikipedia.org/wiki/Social_democracy)
-72. Anarchism \- Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Anarchism](https://en.wikipedia.org/wiki/Anarchism)
+70. Anti-authoritarianism - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Anti-authoritarianism](https://en.wikipedia.org/wiki/Anti-authoritarianism)
+71. Social democracy - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Social_democracy](https://en.wikipedia.org/wiki/Social_democracy)
+72. Anarchism - Wikipedia, accessed on August 5, 2025, [https://en.wikipedia.org/wiki/Anarchism](https://en.wikipedia.org/wiki/Anarchism)
 73. Russia's Political System: Imperialism and Decay | Journal of Democracy, accessed on August 5, 2025, [https://www.journalofdemocracy.org/articles/russias-political-system-imperialism-and-decay/](https://www.journalofdemocracy.org/articles/russias-political-system-imperialism-and-decay/)
