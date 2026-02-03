@@ -1,7 +1,7 @@
 ---
 created: 2025-12-04T12:02:41Z
 last_reviewed:
-modified: 2026-02-01T20:52:31+00:00
+modified: 2026-02-03T09:28:30+00:00
 status: processing
 tags:
   - state/thinking
@@ -15,7 +15,8 @@ uuid: cc0f2c94-c31e-468e-b100-87e3fa31b0c8
     - [x] Find the conflunce for the vault setup.
     - [ ] Find the secret assignments in the helm. ^2026-02-01T20-52-13
     - [📱 View in Todoist app](todoist://task?id=6fvV923M8X83WFwv) (Created: 📝 2026-02-01T20:52)
-    - [ ] Check the clusters for where the secrets are
+    - [ ] Check the clusters for where the secrets are ^2026-02-03T09-28-14
+    - [📱 View in Todoist app](todoist://task?id=6fvrcgGcr847Qwpv) (Created: 📝 2026-02-03T09:28)
     - [ ] Check the vso docs for how to set it up
     - [ ] Check the LCA secrets implementation
 

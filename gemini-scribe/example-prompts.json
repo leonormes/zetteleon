@@ -1,18 +1,18 @@
 [
   {
+    "icon": "sparkles",
+    "text": "Summarise the core tenets of Morita Therapy found in the 30_Library and explain how they provide a framework for managing ADHD task initiation difficulties and the Glitchy Switch"
+  },
+  {
     "icon": "search",
-    "text": "Search the 30_Library for all notes linked to the 'Metabolic Firewall' protocol and synthesize a definition of its core constraints"
+    "text": "Search the 30_Library/SoT folder for all Azure related protocols and identify any missing pre-flight steps required for the Mersey Care Deployment"
   },
   {
     "icon": "file-plus",
-    "text": "Using the 'HEAD - ACR Image Retention Strategy' note in the Workbench, draft a formal proposal following the PRODOS Scope-Lock Template"
+    "text": "Based on the HEAD - Dynamic Credentials for TFC and Azure note in the Workbench, draft a technical implementation guide that follows the established architectural patterns in the vault"
   },
   {
-    "icon": "sparkles",
-    "text": "Apply the Instruction SoT - Research-to-Action Protocol to the 'Strategic Mitigation of High Cardinality Metrics' note in the Inbox and generate a structured task list for the Refactor - Helm Chart Compiler project"
-  },
-  {
-    "icon": "folder-tree",
-    "text": "Review all MoC files within the 400_indexes folder that relate to 'FitFile Deployment' and generate a consolidated summary of deployment stages"
+    "icon": "calendar",
+    "text": "Review the last five entries in 01_journals/Dailies to extract a list of completed tasks and generate a new Project Playlist to rebuild momentum for the Refactor - Helm Chart Compiler project"
   }
 ]
