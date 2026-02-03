@@ -2,7 +2,7 @@
 aliases: []
 created: 2026-02-03T10:00:00+00:00
 last_reviewed: ""
-modified: 2026-02-03T11:56:27+00:00
+modified: 2026-02-03T14:19:45+00:00
 priority: high
 status: active
 tags: [career, job-search, project]
@@ -11,8 +11,6 @@ type: project
 ---
 
 ## 1. Context & Objectives
-
-Goal: Secure a high-autonomy Technical Lead / Principal IC role that rewards systemic problem solving and architectural rigour, without the overhead of political hierarchy or people management.
 
 The "Why":
 
@@ -53,23 +51,23 @@ Key Technical Achievements
 - _Solution:_ Treated Helm as a compiler target rather than a config file. Created a `fitfile-platform` library that accepts high-level _Intent_ and compiles it into hardened manifests.
 - _Outcome:_ Reduced tenant onboarding time by 90% and eliminated "magic number" configurations across the estate.
 
-2. Enterprise Security Hardening (Zero Trust)
+2. Generative Infrastructure Engine (Automation with CUE)
 
-- _Problem:_ Perimeter security was insufficient; the internal network was a flat trust zone.
-- _Solution:_ Implemented "4C" Hardening (Cloud, Cluster, Container, Code). Enforced `runAsNonRoot` and automated Trivy scanning in CI.
-- _Outcome:_ Mitigated lateral movement risks without slowing down developer velocity.
+- _Problem:_ Hardcoded Terraform state files caused conflicts across 50+ environments; onboarding was slow and error-prone.
+- _Solution:_ Decoupled "State" from "Logic." Built a generative engine using CUE for data validation and Makefiles to orchestrate the cloning of `customer.yaml` configurations.
+- _Outcome:_ Enabled the ecosystem to scale non-linearly without adding operational headcount, ensuring 100% concrete configuration before apply.
 
-3. Generative Infrastructure Engine (Automation)
+3. Enterprise Security & Identity (Zero Trust)
 
-- _Problem:_ Hardcoded Terraform state files were causing conflicts across 50+ environments.
-- _Solution:_ Decoupled "State" from "Logic." Built a generative engine where customer config is central (`customer.yaml`) and environments are cloned programmatically.
-- _Outcome:_ Enabled the ecosystem to scale non-linearly without adding operational headcount.
+- _Problem:_ Perimeter security was insufficient, and direct admin access created an un-auditable attack surface.
+- _Solution:_ Implemented "4C" Hardening (Cloud, Cluster, Container, Code) and the Team Access Protocol. Replaced permanent admin keys with Ephemeral Azure Bastion hosts managed via 1Password. Orchestrated a zero-downtime Auth0 Domain Migration (.io to.net) via Terraform.
+- _Outcome:_ Reduced attack surface by 89%, achieved strict NHS data compliance, and mitigated lateral movement risks.
 
-4. Team Access Protocol (Security & Auditing)
+4. Production Network Architecture (Private DNS)
 
-- _Problem:_ Direct admin access to clusters created an un-auditable attack surface.
-- _Solution:_ Replaced permanent access with Ephemeral Azure Bastion hosts, time-bounded and managed via 1Password automation.
-- _Outcome:_ Reduced attack surface by 89% and satisfied strict NHS England data minimization requirements.
+- _Problem:_ Inconsistent DNS resolution across hybrid cloud environments led to connectivity failures and debugging friction.
+- _Solution:_ Authored and enforced the "Private Kubernetes DNS Naming Convention," standardizing resolution strategies for Private Link and internal services.
+- _Outcome:_ Eliminated "it works on my machine" DNS issues and established a deterministic routing layer for the LCA-DP platform.
 
 ## 4. Cover Letter Template (The Pitch)
 

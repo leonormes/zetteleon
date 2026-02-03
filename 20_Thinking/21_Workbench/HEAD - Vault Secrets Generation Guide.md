@@ -1,10 +1,9 @@
 ---
 created: 2025-12-04T12:02:41Z
 last_reviewed:
-modified: 2026-02-03T09:28:30+00:00
+modified: 2026-02-03T12:33:03+00:00
 status: processing
-tags:
-  - state/thinking
+tags: [state/thinking]
 title: HEAD - Vault Secrets Generation Guide
 type: head
 updated:
