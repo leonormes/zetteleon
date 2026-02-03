@@ -34,7 +34,6 @@ _The Meta-Layer. How I work, organize, and act. This is the "How"._
 - The Architecture: [[SoT - PRODOS Core Specification]]
 - The Frameworks:
   - [[MOC - ProdOS]]
-  - [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
   - [[SoT - PRODOS Core Specification#2. The Core Loop (Workflow)]]
   - [[Reference - File Structure]]
 - The Principles:
@@ -121,6 +120,7 @@ _The Lens. How we know what we know, and the limits of our understanding._
   - [[SoT - Active Learning Techniques]]
   - [[SoT - Learning Mechanisms]]
   - [[SoT - The Thought-Language Continuum]]
+  - [[Video - How the Algorithm Hijacked Monkey's Brain]]
 
 ## 8. Domain 7: The Human (Life, Family & Health)
 
@@ -131,7 +131,7 @@ _The Foundation. Parenting, physical vitality, and relationships._
 - [[SoT - Psychological Safety and Belonging]]
 - [[SoT - Mindfulness and Emotional Regulation]]
 
-## 8. Recurring Themes & Struggles (The Human Context)
+## 9. Recurring Themes & Struggles (The Human Context)
 
 _The Shadow. The persistent challenges that this system was built to manage._
 
@@ -142,8 +142,4 @@ _The Shadow. The persistent challenges that this system was built to manage._
 - The Emotional Cycle: The loop of enthusiasm -> overwhelm -> shame -> avoidance (RSD).
     - _Solution:_ [[SoT - ADHD Neurology & Core Concepts]], [[SoT - The Internal World and the Need for Validation]].
 - The Continuity Gap: The struggle to maintain lines of thought over time.
-    - _Solution:_ [[SoT - The Extended Mind]], [[SoT - PRODOS - Knowledge Synthesis (Thinking)]].
-
-## ## 7. Domain 6: Epistemology (Learning & Mental Models)
-
-  - [[Video - How the Algorithm Hijacked Monkey's Brain]]
+    - _Solution:_ [[SoT - The Extended Mind]], [[SoT - Processing IS the Work]].

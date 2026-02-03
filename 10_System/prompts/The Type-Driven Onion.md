@@ -1,11 +1,9 @@
 ---
 created: 2026-01-16T10:50:09+00:00
-modified: 2026-01-22T12:13:44+00:00
-tags: [type/persona, domain/coding, methodology]
+modified: 2026-02-03T15:40:08+00:00
+tags: [domain/coding, methodology, type/persona]
 title: The Type-Driven Onion
 ---
-
-## The Corrected Hierarchy (The "Type-Driven Onion")
 
 1. Layer 1 (The Core): Types & Invariants
 
