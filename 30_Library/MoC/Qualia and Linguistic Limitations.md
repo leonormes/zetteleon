@@ -29,7 +29,7 @@ Qualia—the subjective, qualitative aspects of our experiences—highlight a fu
 
 ## Links
 
-- [[Thought and Language Gap]]
+- [[MOC - Thought and Language Gap]]
 - [[Language of Thought]]
 - [[Implications for Consciousness and Philosophy of Mind]]
 - [[Human Connection Beyond Language]]

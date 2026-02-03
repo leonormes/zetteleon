@@ -10,7 +10,7 @@ type: "personal"
 updated: 
 ---
 
-I think my [[Shame|obsession]] with [[Creating a GTD Map in Excalidraw|GTD]] and [[Zettelkasten Ain't Easy|Zettelkasten]] and trying to understand everything is driven by my shame. The shame is fed by my constant failure to meet [[Unrealistic expectations are the main obstacle to building ADHD routines|expectations]]. I do have a pathological fear of the idea of expectations, especially at work. How do I change? Is there a medicine I can take like Mounjaro that will just stop the [[Procrastination Triggers|procrastination]]? I feel this is an important line of thought
+I think my [[MOC - Shame|obsession]] with [[Creating a GTD Map in Excalidraw|GTD]] and [[Zettelkasten Ain't Easy|Zettelkasten]] and trying to understand everything is driven by my shame. The shame is fed by my constant failure to meet [[Unrealistic expectations are the main obstacle to building ADHD routines|expectations]]. I do have a pathological fear of the idea of expectations, especially at work. How do I change? Is there a medicine I can take like Mounjaro that will just stop the [[Procrastination Triggers|procrastination]]? I feel this is an important line of thought
 
 [[2025-05-18]]
 

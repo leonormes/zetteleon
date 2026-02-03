@@ -73,7 +73,7 @@ This mindset is not just "feel-good" therapy; it is a structural component of th
 
 ## 5. Related Zettels
 
-- [[Novelty Seeking]] - The biological drive.
+- [[MOC - Novelty Seeking]] - The biological drive.
 - [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]] - The engine of exploration.
-- [[Shame]] - The barrier to be overcome.
+- [[MOC - Shame]] - The barrier to be overcome.
 - [[Generative Intelligence]] - The output of the Explorer.

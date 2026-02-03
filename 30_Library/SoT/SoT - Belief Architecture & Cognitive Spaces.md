@@ -71,5 +71,5 @@ To maintain a healthy cognitive space, we must actively practice Meta-Framing—
 
 - [[Beliefs as Defining Spaces]] - The original concept note.
 - [[Common Cognitive Distortions]] - The bugs in the architecture.
-- [[Meta Framing]] - The architect's view.
+- [[MOC - Meta Framing]] - The architect's view.
 - [[Emotional Reasoning]] - Mistaking the feeling of the wall for the reality of the wall.

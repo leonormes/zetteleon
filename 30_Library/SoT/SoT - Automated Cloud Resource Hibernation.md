@@ -6,6 +6,7 @@ modified: 2026-02-01T15:08:02+00:00
 status: "stable"
 tags: ["aks", "azure", "cloud", "cost-optimization", "devops", "terraform"]
 title: SoT - Automated Cloud Resource Hibernation
+tier: "3-Tactic"
 type: "SoT"
 updated: 
 ---

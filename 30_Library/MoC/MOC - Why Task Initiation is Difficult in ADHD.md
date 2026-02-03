@@ -17,7 +17,7 @@ This note summarizes the reasons why task initiation is so difficult for individ
 - Executive Dysfunction: [[Executive Function Challenges are Central to ADHD|Executive dysfunction]] impairs planning, prioritizing, and organizing tasks.
 - Low Dopamine Reward: [[Dopamine Dysregulation is a Key Factor in ADHD Motivation|Low dopamine in the reward centers]] makes tasks feel unmotivating.
 - Interest-Based Nervous System: The [[The Interest-Based Nervous System in ADHD|ADHD nervous system is interest-based]], requiring tasks to be novel, urgent, or meaningful.
-- Emotional Barriers: [[Emotional Dysregulation|Emotional barriers]] like anxiety and overwhelm can block initiation.
+- Emotional Barriers: [[MOC - Emotional Dysregulation|Emotional barriers]] like anxiety and overwhelm can block initiation.
 - Time Blindness: [[ADHD Time Blindness Impairs Planning|Difficulty perceiving the passage of time]] makes planning and starting tasks harder.
 - Activation Cost: [[The Activation Cost of Tasks is Higher in ADHD|The mental energy required to start a task is higher]].
 

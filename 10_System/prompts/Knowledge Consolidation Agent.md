@@ -1,6 +1,6 @@
 ---
 created: 2026-02-01T14:02:03+00:00
-modified: 2026-02-02T08:48:39+00:00
+modified: 2026-02-02T21:12:11+00:00
 tags: [agent/consolidation, domain/pkm, sot, type/system]
 title: Knowledge Consolidation Agent
 type: prompt

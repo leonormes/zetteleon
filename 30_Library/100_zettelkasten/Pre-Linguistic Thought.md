@@ -28,7 +28,7 @@ Pre-linguistic thought refers to cognitive processes that occur before or indepe
 
 ## Links
 
-- [[Thought and Language Gap]]
+- [[MOC - Thought and Language Gap]]
 - [[Language of Thought]]
 - [[Language Acquisition and Development]]
 - [[Pantomime as Proto-Language]]

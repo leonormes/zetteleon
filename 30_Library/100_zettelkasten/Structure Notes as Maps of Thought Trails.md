@@ -25,4 +25,4 @@ This approach transforms the polished note from a static conclusion into a dynam
 
 ---
 
-Links: [[PKM as Process vs Product MOC]]
+Links: [[MOC - PKM as Process vs Product]]

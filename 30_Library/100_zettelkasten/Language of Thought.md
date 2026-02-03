@@ -28,7 +28,7 @@ The Language of Thought hypothesis suggests that humans possess an innate cognit
 
 ## Links
 
-- [[Thought and Language Gap]]
+- [[MOC - Thought and Language Gap]]
 - [[Pre-Linguistic Thought]]
 - [[Qualia and Linguistic Limitations]]
 - [[Implications for Consciousness and Philosophy of Mind]]

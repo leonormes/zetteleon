@@ -20,4 +20,4 @@ This experience is best understood through the lens of [[Exploratory vs Explanat
 
 ---
 
-Links: [[PKM as Process vs Product MOC]]
+Links: [[MOC - PKM as Process vs Product]]

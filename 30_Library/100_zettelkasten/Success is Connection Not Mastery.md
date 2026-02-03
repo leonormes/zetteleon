@@ -13,7 +13,7 @@ updated:
 
 For minds that thrive on novelty and breadth, success should be measured by the ability to forge meaningful connections across domains rather than achieving deep mastery within a single field. The real value lies in learning enough about diverse subjects to identify novel intersections and synthesize insights that specialists might miss.
 
-This reframing is particularly important for [[Novelty Seeking]] minds that naturally gravitate toward exploring multiple interests. Rather than viewing this as a weakness or lack of focus, it represents a different but equally valuable cognitive strength - the capacity for cross-domain pattern recognition and creative synthesis.
+This reframing is particularly important for [[MOC - Novelty Seeking]] minds that naturally gravitate toward exploring multiple interests. Rather than viewing this as a weakness or lack of focus, it represents a different but equally valuable cognitive strength - the capacity for cross-domain pattern recognition and creative synthesis.
 
 The traditional academic model of deep specialization may not align with how some brains naturally operate. [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD|Hyperfocus]] can be channeled toward understanding connections between fields rather than exhaustive knowledge within one domain.
 

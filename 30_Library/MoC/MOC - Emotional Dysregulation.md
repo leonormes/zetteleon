@@ -2,10 +2,10 @@
 aliases: []
 created: 2025-06-26T15:03:54Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:08+00:00
+modified: 2026-02-03T07:54:14+00:00
 status: ""
 tags: ["emotion", "TheHuman/Cognition", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
-title: Emotional Dysregulation
+title: MOC - Emotional Dysregulation
 type: "map"
 updated: 
 ---

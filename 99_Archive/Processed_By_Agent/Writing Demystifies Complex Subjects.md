@@ -30,4 +30,4 @@ A professor in Zinsser's book noted that by having students write out how they a
 
 ---
 
-Links: [[PKM as Process vs Product MOC]]
+Links: [[MOC - PKM as Process vs Product]]

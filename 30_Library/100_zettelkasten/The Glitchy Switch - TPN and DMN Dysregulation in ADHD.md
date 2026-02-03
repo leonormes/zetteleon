@@ -25,4 +25,4 @@ Links:
 - [[Reframing ADHD - From Deficit to Difference]]
 - [[ADHD Emotional Reasoning]]
 - [[Reframing Negative Thought Patterns in ADHD]]
-- [[Emotional Dysregulation]]
+- [[MOC - Emotional Dysregulation]]

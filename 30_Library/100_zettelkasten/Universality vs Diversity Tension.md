@@ -45,7 +45,7 @@ A central tension in the relationship between thought and language is the appare
 
 ## Links
 
-- [[Thought and Language Gap]]
+- [[MOC - Thought and Language Gap]]
 - [[Language of Thought]]
 - [[Cross-Cultural Communication Effectiveness]]
 - [[Code Frame Switching]]

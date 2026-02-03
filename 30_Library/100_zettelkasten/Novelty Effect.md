@@ -14,6 +14,6 @@ The novelty effect refers to the increased interest and engagement individuals e
 
 [[Appeal to Novelty]]
 
-[[Novelty Seeking]]
+[[MOC - Novelty Seeking]]
 
 [[Interest-Based Nervous System]]

@@ -38,7 +38,7 @@ The challenge of creating AI systems that truly understand language highlights t
 
 ## Links
 
-- [[Thought and Language Gap]]
+- [[MOC - Thought and Language Gap]]
 - [[Language of Thought]]
 - [[Qualia and Linguistic Limitations]]
 - [[Implications for Consciousness and Philosophy of Mind]]

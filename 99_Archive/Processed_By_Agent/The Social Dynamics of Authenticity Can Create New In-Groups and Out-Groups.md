@@ -33,5 +33,5 @@ Links:
 - [[The Paradox of Authenticity in a Social Context]]
 - [[Humans Are Social Creatures]]
 - [[Implicit Social Hierarchies Authority]]
-- [[Shame]]
+- [[MOC - Shame]]
 - Moral Self-Protection

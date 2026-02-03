@@ -36,7 +36,7 @@ Some researchers propose that pantomime—the ability to convey narratives throu
 
 ## Links
 
-- [[Thought and Language Gap]]
+- [[MOC - Thought and Language Gap]]
 - [[Pre-Linguistic Thought]]
 - [[Language Acquisition and Development]]
 - [[Creative Expression Across Mediums]]

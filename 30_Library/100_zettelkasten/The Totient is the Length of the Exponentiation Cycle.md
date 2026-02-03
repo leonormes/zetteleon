@@ -20,4 +20,4 @@ The security of this system relies on the [[Prime Numbers Create a Mathematical 
 
 Links to: [[Modular Arithmetic Creates a Cyclical System]], [[Prime Numbers Are the Atomic Elements of All Numbers]], [[Public and Private Keys Are Mathematically Asymmetric]], [[Prime Numbers Create a Mathematical Trapdoor]], [[Cryptography's Goal - Obfuscating Patterns]]
 
-[[prime atoms]]
+[[MOC - Prime Numbers as Atoms]]

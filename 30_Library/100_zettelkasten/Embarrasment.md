@@ -14,4 +14,4 @@ Embarrassment is generally a less intense and more fleeting emotion than shame o
 
 [[What's the Difference Between Shame Humiliation and Embarrassment]]
 
-[[Shame]]
+[[MOC - Shame]]

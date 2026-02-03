@@ -15,9 +15,9 @@ Intellectual explorers thrive on breadth and synthesis, seeking to understand co
 
 The explorer approach excels at identifying patterns and insights that specialists might miss due to their focused perspective. By maintaining partial knowledge across diverse fields, explorers can serve as bridges between domains, facilitating [[Collective Intelligence Through Communication|knowledge transfer]] and [[Creative Expression Across Mediums|cross-pollination of ideas]].
 
-This distinction is particularly relevant for [[Novelty Seeking]] minds that naturally resist the sustained attention required for traditional specialization. Rather than viewing this as a deficiency, it represents a different but valuable cognitive strategy optimized for pattern recognition and synthesis.
+This distinction is particularly relevant for [[MOC - Novelty Seeking]] minds that naturally resist the sustained attention required for traditional specialization. Rather than viewing this as a deficiency, it represents a different but valuable cognitive strategy optimized for pattern recognition and synthesis.
 
-The academic model's emphasis on specialization can create [[Shame]] in explorer-minded individuals who interpret their broad interests as lack of focus or commitment. Recognizing exploration as a legitimate intellectual identity helps counter these negative self-assessments.
+The academic model's emphasis on specialization can create [[MOC - Shame]] in explorer-minded individuals who interpret their broad interests as lack of focus or commitment. Recognizing exploration as a legitimate intellectual identity helps counter these negative self-assessments.
 
 Modern complex problems often require interdisciplinary thinking that draws on multiple domains - exactly the strength that intellectual explorers naturally develop through their broad engagement patterns.
 

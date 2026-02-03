@@ -12,7 +12,7 @@ updated:
 
 When a person with ADHD struggles with metacognition, it leads to tangible, real-world difficulties. This "mind-blindness" can prevent them from recognising why they feel unmotivated or stuck. Consequently, they find it hard to identify effective strategies to overcome challenges. It also impairs their ability to accurately self-assess their performance and understand the root causes of their struggles, often leading to cycles of frustration and perceived failure.
 
-[[Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]]
+[[MOC - Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]]
 
 - [[ADHD Emotional Reasoning]]
 - [[The DMN as a Demon - Negative Rumination in ADHD]]

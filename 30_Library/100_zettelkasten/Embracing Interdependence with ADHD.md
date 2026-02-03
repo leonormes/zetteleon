@@ -22,7 +22,7 @@ This shift towards interdependence allows individuals with ADHD to focus their e
 
 Links:
 
-- [[The 7 Habits - The Maturity Continuum]]
+- [[MOC - The 7 Habits - The Maturity Continuum]]
 - [[Habit 6 - Synergize]]
 - [[Leveraging ADHD Strengths and Superpowers]]
 - [[The Importance of Social Connection for ADHD (Vitamin Connect)]]

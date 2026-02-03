@@ -32,7 +32,7 @@ I often have a feeling of overwhelm when I think of a task. Especially at work. 
 
 My task of exposing the echo server. I am paralysed by it. I just need to read the instructions. Give my Aws user permission to call it.
 
-[[Novelty Seeking]]
+[[MOC - Novelty Seeking]]
 
 [[Getting Started with Zettelkasten with ADHD]]
 

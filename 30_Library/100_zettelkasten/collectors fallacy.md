@@ -17,7 +17,7 @@ Grabbing content into my system is easy, so I do it and feel productive. But thi
 This fallacy is particularly seductive for ADHD brains because:
 
 - [[Dopamine-Seeking Behavior The Research Rabbit Hole]] - Information gathering provides immediate dopamine rewards
-- [[Novelty Seeking]] - New content feels stimulating and interesting
+- [[MOC - Novelty Seeking]] - New content feels stimulating and interesting
 - Collection feels like progress without the cognitive effort of actual processing
 
 ## Forms of Active Procrastination

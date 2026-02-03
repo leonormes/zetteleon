@@ -6,6 +6,7 @@ modified: 2026-02-01T15:07:51+00:00
 status: "stable"
 tags: ["complexity", "mental_models", "thinking", "topic/systems"]
 title: SoT - Systems Thinking
+tier: "2-Strategy"
 type: "SoT"
 updated: 
 ---

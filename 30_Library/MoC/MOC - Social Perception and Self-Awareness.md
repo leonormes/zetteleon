@@ -69,7 +69,7 @@ Key insight: Emotions both inform social perception and arise from it, creating 
 - [[Cognitive Biases Reinforce Mental Models]] - General mechanisms underlying social perception biases
 - [[Mental Models as Social Status Signals]] - How perceived competence confers status
 - [[Illusion of Explanatory Depth (IoED)]] - Related metacognitive failure
-- [[Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]] - Neurodivergent implications
+- [[MOC - Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]] - Neurodivergent implications
 
 ### Practical Entry Points
 

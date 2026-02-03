@@ -34,7 +34,7 @@ Despite the inherent limitations of language and cultural differences, humans de
 
 ## Links
 
-- [[Thought and Language Gap]]
+- [[MOC - Thought and Language Gap]]
 - [[Qualia and Linguistic Limitations]]
 - [[Human Connection Beyond Language]]
 - [[Code Frame Switching]]

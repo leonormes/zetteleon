@@ -10,7 +10,7 @@ type: ""
 updated: 
 ---
 
-Habit 1: Be Proactive is the foundation of [[The 7 Habits - The Maturity Continuum]]. It asserts that we are responsible for our own lives. Our behavior is a function of our decisions, not our conditions. Proactive people recognize they have the responsibility and the ability to choose their response to any stimulus.
+Habit 1: Be Proactive is the foundation of [[MOC - The 7 Habits - The Maturity Continuum]]. It asserts that we are responsible for our own lives. Our behavior is a function of our decisions, not our conditions. Proactive people recognize they have the responsibility and the ability to choose their response to any stimulus.
 
 This stands in contrast to a reactive mindset, where people are driven by feelings, circumstances, and their environment.
 

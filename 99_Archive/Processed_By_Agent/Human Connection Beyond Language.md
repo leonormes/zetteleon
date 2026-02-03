@@ -45,7 +45,7 @@ Despite linguistic and cultural differences, humans possess a remarkable ability
 
 ## Links
 
-- [[Thought and Language Gap]]
+- [[MOC - Thought and Language Gap]]
 - [[Qualia and Linguistic Limitations]]
 - [[Cross-Cultural Communication Effectiveness]]
 - [[Creative Expression Across Mediums]]

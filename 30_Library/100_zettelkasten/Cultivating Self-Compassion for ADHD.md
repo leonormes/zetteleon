@@ -25,7 +25,7 @@ Self-compassion is not self-pity; it is a powerful tool that enhances motivation
 
 Links:
 
-- [[Shame]]
+- [[MOC - Shame]]
 - [[Rejection Sensitive Dysphoria (RSD)]]
 - [[ADHD Mindset and Emotional Regulation Strategies]]
 - [[Morita Therapy - Applications for Anxiety, Perfectionism, and ADHD]]

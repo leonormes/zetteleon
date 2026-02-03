@@ -30,7 +30,7 @@ The relationship between thought and language has profound implications for our 
 
 ## Links
 
-- [[Thought and Language Gap]]
+- [[MOC - Thought and Language Gap]]
 - [[Pre-Linguistic Thought]]
 - [[Language of Thought]]
 - [[Qualia and Linguistic Limitations]]

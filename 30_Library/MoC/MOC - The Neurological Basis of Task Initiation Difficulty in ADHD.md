@@ -16,7 +16,7 @@ This note provides an overview of the neurological and psychological factors tha
 
 1. Executive Dysfunction: [[Executive Function Challenges are Central to ADHD]] impair the brain's ability to plan, prioritize, and organize tasks.
 2. Dopamine Dysregulation: [[Dopamine Dysregulation is a Key Factor in ADHD Motivation]], which impairs the brain's reward system and makes starting tasks feel unrewarding.
-3. Emotional Dysregulation: [[Emotional Dysregulation]] can lead to feelings of overwhelm, frustration, or fear of failure, resulting in [[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency|task paralysis]].
+3. Emotional Dysregulation: [[MOC - Emotional Dysregulation]] can lead to feelings of overwhelm, frustration, or fear of failure, resulting in [[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency|task paralysis]].
 4. Poor Working Memory: [[Working Memory Limitations in ADHD]] make it difficult to hold task-related information in mind long enough to initiate action.
 5. Distractions and Overstimulation: The brain's difficulty in filtering distractions, partly explained by [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]], can derail focus before a task begins.
 

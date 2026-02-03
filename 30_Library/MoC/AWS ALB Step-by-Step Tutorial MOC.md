@@ -40,4 +40,4 @@ Broader MOCs:
 
 - [[Cloud Networking MOC]]
 - [[AWS Networking MOC]]
-- [[MOC Load Balancing]]
+- [[MOC - Load Balancing]]

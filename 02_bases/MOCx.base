@@ -18,13 +18,7 @@ views:
       - file.mtime
     sort:
       - property: file.name
-        direction: ASC
-      - property: file.mtime
-        direction: ASC
-      - property: type
         direction: DESC
-      - property: file.path
-        direction: ASC
     columnSize:
       note.type: 136
       file.name: 502

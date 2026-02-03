@@ -36,5 +36,5 @@ This Map of Content (MOC) covers various aspects of load balancing, a critical c
 
 Broader MOCs:
 
-- [[Networking MOC]]
+- [[MOC - Networking]]
 - [[Cloud Networking MOC]]

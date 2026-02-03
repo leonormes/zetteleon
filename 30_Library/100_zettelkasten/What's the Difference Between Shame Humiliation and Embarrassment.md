@@ -12,7 +12,7 @@ updated:
 
 While shame, humiliation, and embarrassment are all uncomfortable emotions that involve a sense of self-consciousness, they have distinct differences in their core nature, focus, and cause.
 
-[[Shame]]
+[[MOC - Shame]]
 
 [[Humiliation]]
 

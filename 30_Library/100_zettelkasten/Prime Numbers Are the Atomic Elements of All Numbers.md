@@ -18,4 +18,4 @@ This uniqueness is critical for cryptography, as it guarantees a number n has on
 
 Links to: [[Prime Numbers Create a Mathematical Trapdoor]], [[Infinitude of Primes Guarantees a Limitless Supply for Keys]]
 
-[[prime atoms]]
+[[MOC - Prime Numbers as Atoms]]

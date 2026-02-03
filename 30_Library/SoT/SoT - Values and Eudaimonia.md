@@ -6,6 +6,7 @@ modified: 2026-02-01T15:07:48+00:00
 status: "stable"
 tags: ["eudaimonia", "TheHuman/Health/ADHD", "TheHuman/Philosophy", "TheHuman/Psychology", "values"]
 title: SoT - Values and Eudaimonia
+tier: "1-Foundation"
 type: "SoT"
 updated: 
 ---

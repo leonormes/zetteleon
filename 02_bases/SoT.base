@@ -7,9 +7,16 @@ views:
     name: Table
     order:
       - file.name
+      - tier
       - type
-      - tags
+      - trust-level
     sort:
+      - property: tier
+        direction: ASC
+      - property: trust-level
+        direction: ASC
+      - property: tags
+        direction: ASC
       - property: type
         direction: DESC
     columnSize:

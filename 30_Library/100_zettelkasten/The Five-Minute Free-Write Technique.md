@@ -26,4 +26,4 @@ This exercise helps to "clear the palate," getting the jumble of thoughts out of
 
 ---
 
-Links: [[PKM as Process vs Product MOC]]
+Links: [[MOC - PKM as Process vs Product]]

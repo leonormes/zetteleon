@@ -53,7 +53,7 @@ Contextual Myopia is not a static state; it is a self-reinforcing loop driven by
 In high-complexity environments (like software engineering or PKM), Contextual Myopia is the primary driver of "Productive Procrastination" and hinders true impact.
 
 - The "Tool Trap": Obsessing over the perfect Obsidian plugin or system instead of engaging in the actual work of thinking and writing. This often connects to [[Tool tinkering is a form of productive procrastination]].
-- The "Rabbit Hole": Pursuing an interesting tangent that has zero relevance to the project's success criteria. This is fueled by [[The Law of Triviality (Bikeshedding)]] where people gravitate toward manageable tasks.
+- The "Rabbit Hole": Pursuing an interesting tangent that has zero relevance to the project's success criteria. This is fueled by [[MOC - The Law of Triviality (Bikeshedding)]] where people gravitate toward manageable tasks.
 - The "Metric Obsession": For ADHD productivity, tracking completion rates becomes more important than the quality or impact of what's completed, leading to [[Tracking Metrics for ADHD Productivity]].
 - Satisficing for Measurement: Choosing "good enough" metrics that are easy to measure rather than seeking optimal indicators of true success (see [[Satisficing Leads to Sub-optimal Solutions]]).
 

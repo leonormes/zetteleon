@@ -13,7 +13,7 @@ updated:
 
 The conscious monitoring and control of thought processes during paraphrasing, ensuring effective translation of ideas while maintaining their essence. This meta-level awareness enables more effective communication adaptation.
 
-[[Paraphrasing and Language MOC]]
+[[MOC - Paraphrasing and Language]]
 
 [[Paraphrasing is a Complex Cognitive Skill]]
 

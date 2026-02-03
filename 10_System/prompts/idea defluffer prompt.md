@@ -1,7 +1,7 @@
 ---
 created: 2025-12-04T10:52:37Z
-modified: 2026-02-01T15:09:13+00:00
-tags: [type/utility, domain/writing]
+modified: 2026-02-02T21:19:24+00:00
+tags: [domain/writing, type/utility]
 title: idea defluffer prompt
 type: prompt
 ---

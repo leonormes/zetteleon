@@ -1,13 +1,14 @@
 ---
 aliases: []
 created: 2025-12-21T00:00:00Z
-last_reviewed: "2025-12-21"
+last_reviewed: 2025-12-21
 modified: 2026-02-01T15:08:02+00:00
-status: "stable"
+status: stable
 tags: []
 title: SoT - Azure Backup and Restore
-type: "SoT"
-updated: 
+type: SoT
+updated:
+tier: 3-Tactic
 ---
 
 ## 2. Core Concepts

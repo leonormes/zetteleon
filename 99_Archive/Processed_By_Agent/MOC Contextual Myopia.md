@@ -39,7 +39,7 @@ Contextual Myopia is not a single bias but a chain reaction of cognitive failure
 How this bias creates "Productive Procrastination."
 
 - [[Tool tinkering is a form of productive procrastination]]: Optimizing the system instead of doing the work.
-- [[The Law of Triviality (Bikeshedding)]]: Focusing on easy, low-value decisions (color schemes) over hard, high-value ones (architecture).
+- [[MOC - The Law of Triviality (Bikeshedding)]]: Focusing on easy, low-value decisions (color schemes) over hard, high-value ones (architecture).
 - [[Satisficing Leads to Sub-optimal Solutions]]: Accepting the first "good enough" answer because the bubble obscures better alternatives.
 - [[Tracking Metrics for ADHD Productivity]]: When the metric becomes the target (Goodhart's Law).
 

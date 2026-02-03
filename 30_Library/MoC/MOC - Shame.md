@@ -19,7 +19,7 @@ Shame differs from related emotions like [[Humiliation]] (which involves externa
 For individuals with ADHD, shame often connects to:
 
 - [[Rejection Sensitive Dysphoria (RSD)]] - extreme emotional pain from perceived rejection
-- [[Emotional Dysregulation]] - intense emotions that feel disproportionate
+- [[MOC - Emotional Dysregulation]] - intense emotions that feel disproportionate
 - [[Perfectionism]] - fear of creating imperfect outcomes
 - [[MoC - The Roots of Shame and Feeling Defective]] - understanding the origins of these feelings
 - [[The Shame-Procrastination Cycle]] - how shame and procrastination reinforce each other

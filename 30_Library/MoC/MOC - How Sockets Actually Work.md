@@ -91,4 +91,4 @@ Sockets are the foundational technology enabling two-way, real-time communicatio
 
 The abstraction layers (application → system calls → kernel → drivers → hardware) allow developers to write powerful network code without understanding hardware specifics, while OS-level tools like epoll and kqueue enable internet-scale applications serving millions of users.
 
-Further exploration: For broader networking context, see [[Networking MOC]].
+Further exploration: For broader networking context, see [[MOC - Networking]].

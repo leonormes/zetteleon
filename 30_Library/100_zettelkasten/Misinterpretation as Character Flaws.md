@@ -12,7 +12,7 @@ updated:
 
 For decades, before widespread understanding, ADHD symptoms were often misinterpreted as intentional misbehavior or character flaws. For example, difficulties with attention, organization, planning, and time management (known as executive function challenges) were often seen as laziness, carelessness, bad attitude, or selfishness, rather than neurological differences. This constant misinterpretation and criticism, especially throughout childhood and early adulthood, deeply erodes self-esteem.
 
-This misinterpretation is a core component of [[MoC - The Roots of Shame and Feeling Defective]]. The neurological reality is that these are not chosen behaviours, but a result of [[Emotional Dysregulation]], where emotional responses are automatic and not a reflection of character.
+This misinterpretation is a core component of [[MoC - The Roots of Shame and Feeling Defective]]. The neurological reality is that these are not chosen behaviours, but a result of [[MOC - Emotional Dysregulation]], where emotional responses are automatic and not a reflection of character.
 
 When these neurological differences are not accommodated, it can lead to [[Unexplained Underachievement]], where years of criticism and reprimands lead to a sense of failure. This fosters a [[Distorted Negative Self-Image]], which is further intensified by the extreme emotional pain of [[Rejection Sensitive Dysphoria (RSD)]] in response to perceived criticism.
 

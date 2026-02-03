@@ -29,7 +29,7 @@ The process combines a physical component (tapping) with a cognitive component (
 ## Connections
 
 - This is a practical tool for implementing the principles of [[ADHD Mindset and Emotional Regulation Strategies]].
-- It directly addresses the challenges of [[Emotional Dysregulation]] and [[ADHD Emotional Reasoning]].
+- It directly addresses the challenges of [[MOC - Emotional Dysregulation]] and [[ADHD Emotional Reasoning]].
 
 ## Criticism Framework
 

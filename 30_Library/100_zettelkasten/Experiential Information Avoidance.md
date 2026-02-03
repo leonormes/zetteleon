@@ -18,7 +18,7 @@ The avoidance stems from several psychological factors:
 - Fear of failure or negative feedback
 - Preference for the controllable world of theory over unpredictable reality
 - [[Perfectionism]] that demands certainty before action
-- [[Shame]] and identity protection mechanisms
+- [[MOC - Shame]] and identity protection mechanisms
 - Loss aversion that magnifies potential negative outcomes
 
 This pattern creates a vicious cycle where the lack of real-world experience reinforces the fear of engaging with reality. The longer someone avoids experiential information, the more intimidating it becomes, leading to increased reliance on [[Information Addiction in Overthinkers|theoretical information addiction]].

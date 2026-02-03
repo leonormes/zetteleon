@@ -10,7 +10,7 @@ type: "null"
 updated: 
 ---
 
-After the [[Phase 1 - The Perceptual Shift to Neutralise Perfectionism]], the second phase of the [[Three-Phase Protocol for Execution MOC]] is to generate momentum through immediate, aggressive action. This phase is designed to bypass the common perfectionist trap of endless preparation.
+After the [[Phase 1 - The Perceptual Shift to Neutralise Perfectionism]], the second phase of the [[MOC - Three-Phase Protocol for Execution]] is to generate momentum through immediate, aggressive action. This phase is designed to bypass the common perfectionist trap of endless preparation.
 
 1. Start Before You're Ready: The primary enemy is Resistance, which manifests as excuses and the desire to prepare endlessly. The cure is to act immediately. This is a direct, forceful application of the "Motion Creates Motivation" principle from the [[ADHD and Productivity]] framework.
 2. Outline and Research Sparingly: Treat research as a potential form of Resistance. The goal is to achieve 75% readiness, not 100%. Condense the project to its core structure quickly and then begin execution.

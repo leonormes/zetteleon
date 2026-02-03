@@ -37,7 +37,7 @@ The gap between thought and language raises fundamental epistemological question
 
 ## Links
 
-- [[Thought and Language Gap]]
+- [[MOC - Thought and Language Gap]]
 - [[Qualia and Linguistic Limitations]]
 - [[Implications for Consciousness and Philosophy of Mind]]
 - [[Creative Expression Across Mediums]]

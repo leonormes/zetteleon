@@ -20,8 +20,8 @@ This involves:
 
 As William Zinsser highlights in "Writing to Learn," even in scientific and academic writing, a personal voice is what brings complex information to life and makes it understandable.
 
-By making your notes personal, you transform a sterile database of facts into a living record of your own discovery process, which is the core goal of the [[PKM as Process vs Product MOC]].
+By making your notes personal, you transform a sterile database of facts into a living record of your own discovery process, which is the core goal of the [[MOC - PKM as Process vs Product]].
 
 ---
 
-Links: [[PKM as Process vs Product MOC]]
+Links: [[MOC - PKM as Process vs Product]]

@@ -10,7 +10,7 @@ type: "permanent"
 updated: 
 ---
 
-[[Novelty Seeking]] in ADHD is a double-edged sword, presenting both significant strengths and potential pitfalls.
+[[MOC - Novelty Seeking]] in ADHD is a double-edged sword, presenting both significant strengths and potential pitfalls.
 
 ## Positive Aspects (Strengths)
 

@@ -40,4 +40,4 @@ updated:
 
 ---
 
-Related: [[Networking MOC]], [[Cloud Networking MOC]]
+Related: [[MOC - Networking]], [[Cloud Networking MOC]]

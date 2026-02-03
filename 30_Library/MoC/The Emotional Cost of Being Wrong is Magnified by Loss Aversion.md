@@ -36,7 +36,7 @@ Source: Annie Duke, "Thinking in Bets"
 
 ### Emotional & Social Dynamics
 
-- [[Emotional Dysregulation]] - How emotional responses amplify the pain of being wrong
+- [[MOC - Emotional Dysregulation]] - How emotional responses amplify the pain of being wrong
 - [[Why External Validation is So Powerful]] - The social drivers behind seeking confirmation
 - [[The Burden of Articulation]] - Difficulty defending complex ideas under pressure
 - [[Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain]]

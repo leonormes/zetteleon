@@ -14,6 +14,6 @@ Humiliation involves the abasement of pride and a lowering of one's social statu
 
 While it can involve feelings of shame and embarrassment, the core of humiliation is the experience of being unjustly brought low or having one's standing diminished in the eyes of others, or by an external force. The focus is often on the perceived unfairness or injustice of the situation.
 
-[[Shame]]
+[[MOC - Shame]]
 
 [[What's the Difference Between Shame Humiliation and Embarrassment]]

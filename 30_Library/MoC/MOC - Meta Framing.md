@@ -17,6 +17,6 @@ This process requires overcoming [[Naive Realism Makes Mental Models Invisible|n
 
 Meta framing connects to [[Metacognitive Deficits in ADHD Create Practical Impairments|ADHD is Associated with Deficits in Metacognition]] - the ability to think about our own thinking. This self-reflective capacity is essential for examining how our [[Beliefs as Defining Spaces|beliefs create possibility spaces]] that can be either empowering or constraining.
 
-The process often involves confronting [[Cognitive Dissonance]] when our examined beliefs conflict with new insights. This discomfort can trigger [[Shame]] and defensive reactions, but working through these feelings is crucial for growth. Understanding how [[Mental Models as Social Status Signals|our models function as social currency]] helps explain why challenging our beliefs feels threatening to our identity and status.
+The process often involves confronting [[Cognitive Dissonance]] when our examined beliefs conflict with new insights. This discomfort can trigger [[MOC - Shame]] and defensive reactions, but working through these feelings is crucial for growth. Understanding how [[Mental Models as Social Status Signals|our models function as social currency]] helps explain why challenging our beliefs feels threatening to our identity and status.
 
 [[I have a lot of shame about my life]]

@@ -27,4 +27,4 @@ The Cyclical Pattern:
 
 This dysregulation drives the ADHD hyperfixation-burnout cycle: the brain constantly scans for dopamine-rewarding stimuli, floods with dopamine during hyperfixation, depletes dopamine reserves during the crash, and experiences deficit during the trough phase. Understanding this cycle as fundamentally neurochemical—not motivational or disciplinary—reframes ADHD challenges.
 
-Links: [[Prediction Error Drives Dopamine Release]], [[Novelty Seeking]], [[Neurological Basis of Novelty Seeking in ADHD]]
+Links: [[Prediction Error Drives Dopamine Release]], [[MOC - Novelty Seeking]], [[Neurological Basis of Novelty Seeking in ADHD]]

@@ -10,7 +10,7 @@ type: "permanent"
 updated: 
 ---
 
-Understanding the drive for [[Novelty Seeking]] is the first step toward managing it effectively. The goal is not to eliminate the trait, but to channel it productively.
+Understanding the drive for [[MOC - Novelty Seeking]] is the first step toward managing it effectively. The goal is not to eliminate the trait, but to channel it productively.
 
 ## Strategies
 

@@ -19,4 +19,4 @@ The use of prime numbers provides this.
   The secret knowledge of p and q is the "trapdoor" that allows the owner to easily perform otherwise impossible calculations, such as creating the private key.
   Links to: [[Prime Numbers Are the Atomic Elements of All Numbers]], [[Public and Private Keys Are Mathematically Asymmetric]]
 
-[[prime atoms]]
+[[MOC - Prime Numbers as Atoms]]

@@ -37,6 +37,6 @@ Technology has a profound and multifaceted impact on language development, usage
 
 ## Links
 
-- [[Thought and Language Gap]]
+- [[MOC - Thought and Language Gap]]
 - [[Language Acquisition and Development]]
 - [[AI and Machine Understanding]]

@@ -14,13 +14,13 @@ When the ADHD brain is not engaged in a stimulating task and gets "stuck" in the
 
 This negative loop is exacerbated by a lifetime of challenging experiences, such as perceived failures and frustrations, which are stored in memory. The DMN can then replay these experiences, contributing to feelings of emptiness, dullness, and even resembling depression.
 
-This phenomenon is closely tied to [[Rejection Sensitive Dysphoria (RSD)]], an extreme emotional sensitivity to perceived criticism or rejection common in ADHD. The "Demon" of the DMN, therefore, is a manifestation of [[Emotional Dysregulation]], where the "thought battery" is depleted, and thoughts lack their usual positive charge.
+This phenomenon is closely tied to [[Rejection Sensitive Dysphoria (RSD)]], an extreme emotional sensitivity to perceived criticism or rejection common in ADHD. The "Demon" of the DMN, therefore, is a manifestation of [[MOC - Emotional Dysregulation]], where the "thought battery" is depleted, and thoughts lack their usual positive charge.
 
 Links:
 
 - [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]]
 - [[Rejection Sensitive Dysphoria (RSD)]]
-- [[Emotional Dysregulation]]
+- [[MOC - Emotional Dysregulation]]
 - [[Reframing Negative Thought Patterns in ADHD]]
-- [[Shame]]
+- [[MOC - Shame]]
 - [[ADHD Emotional Reasoning]]

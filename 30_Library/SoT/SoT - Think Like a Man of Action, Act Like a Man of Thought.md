@@ -1,13 +1,21 @@
 ---
-aliases: ["Action-Oriented Thinking", "Bergson's Principle", "MVA"]
+aliases:
+  - Action-Oriented Thinking
+  - Bergson's Principle
+  - MVA
 created: 2025-12-07T00:00:00Z
 last_reviewed: ""
 modified: 2026-02-01T15:07:49+00:00
-status: "stable"
-tags: ["action", "TheHuman/Health/ADHD", "thinking", "topic/productivity"]
+status: stable
+tags:
+  - action
+  - TheHuman/Health/ADHD
+  - thinking
+  - topic/productivity
 title: SoT - Think Like a Man of Action, Act Like a Man of Thought
-type: "SoT"
-updated: 
+type: SoT
+updated:
+tier: 1-Foundation
 ---
 
 ## 2. The Core Conflict

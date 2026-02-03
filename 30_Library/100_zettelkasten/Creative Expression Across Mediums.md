@@ -37,7 +37,7 @@ The gap between thought and language highlights the limitations of any single me
 
 ## Links
 
-- [[Thought and Language Gap]]
+- [[MOC - Thought and Language Gap]]
 - [[Qualia and Linguistic Limitations]]
 - [[Human Connection Beyond Language]]
 - [[Pantomime as Proto-Language]]

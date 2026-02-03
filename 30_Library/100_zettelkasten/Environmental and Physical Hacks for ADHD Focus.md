@@ -24,7 +24,7 @@ For the ADHD brain, focus is heavily influenced by the external environment. Ins
 
 ### Why It Works for ADHD
 
-- Leverages Novelty for Dopamine: Changing environments taps directly into the ADHD brain's craving for [[Novelty Seeking]] to generate focus.
+- Leverages Novelty for Dopamine: Changing environments taps directly into the ADHD brain's craving for [[MOC - Novelty Seeking]] to generate focus.
 - Reduces Attentional Competition: Removing distractions reduces the number of stimuli competing for your attention, freeing up cognitive resources for the primary task.
 - Lowers Activation Energy: It is easier to change your environment than it is to force your brain to ignore a persistent distraction.
 
