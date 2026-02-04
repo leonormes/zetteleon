@@ -1,12 +1,18 @@
 ---
-aliases: [Project - Learn Rust, Rust Learning Path]
+aliases:
+  - Project - Learn Rust
+  - Rust Learning Path
 created: 2025-12-27T12:00:00Z
 last_reviewed: ""
 modified: 2026-02-01T15:09:15+00:00
 status: active
-tags: [learning, project, rust]
+tags:
+  - learning
+  - project
+  - rust
 title: Project - Learn Rust
 type: project
+id: Project - Learn Rust
 ---
 
 ## Project: Learn Rust (The Path)
@@ -54,8 +60,6 @@ _Goal: Build the Vault Parser._
 
 _Link your current HEAD note here._
 
-- Current Focus: [[2025-12-27-1200-HEAD - Rust Ownership Struggle]]
-
 ---
 
 ### 3. The Loot (Source of Truth)
@@ -71,7 +75,7 @@ _Synthesized notes go here. These are your trophies._
 
 1. Pick a Mission: Select the next unchecked item.
 2. Spin Up: Create a HEAD note (`cmd+shift+n`) to "fight" the concept.
-    - _Name it:_ `YYYY-MM-DD-HHmm-HEAD - Rust Borrowing`
+   - _Name it:_ `YYYY-MM-DD-HHmm-HEAD - Rust Borrowing`
 3. The Test: Write the code. Fail. Fix it.
 4. Synthesize: When you understand it, create/update an SoT note (The Loot).
 5. Level Up: Check the box in this Project note.
