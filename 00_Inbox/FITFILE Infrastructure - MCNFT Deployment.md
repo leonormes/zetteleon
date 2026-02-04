@@ -1,7 +1,7 @@
 ---
 created: 2026-01-30T15:39:41+00:00
-modified: 2026-02-02T20:05:23+00:00
-title: FITFILE Infrastructure - Mersey Care Deployment
+modified: 2026-02-04T09:57:28+00:00
+title: FITFILE Infrastructure - MCNFT Deployment
 uuid: 20db6ad4-32b0-4933-9c50-facf7b2cc071
 ---
 
@@ -9,12 +9,12 @@ uuid: 20db6ad4-32b0-4933-9c50-facf7b2cc071
 
 Shortname: MCNFT
 
-This document describes the FITFILE platform deployment within the Mersey Care Organisation Perimeter on Azure. The architecture follows a hub-spoke model:
+This document describes the FITFILE platform deployment within the MCNFT Organisation Perimeter on Azure. The architecture follows a hub-spoke model:
 
-- Hub: Mersey Care's existing customer subscription.
+- Hub: MCNFT's existing customer subscription.
 - Spoke: FITFILE subscription connected via VNET Peering.
 
-The solution integrates local HR records with pseudonymised NHS long-term conditions data to support the wellbeing programme. All resources reside within a single Azure Tenant managed by Mersey Care to ensure data sovereignty.
+The solution integrates local HR records with pseudonymised NHS long-term conditions data to support the wellbeing programme. All resources reside within a single Azure Tenant managed by MCNFT to ensure data sovereignty.
 
 ---
 
@@ -22,7 +22,7 @@ The solution integrates local HR records with pseudonymised NHS long-term condit
 
 ### Data Sources
 
-1. Primary Data: HR data from Mersey Care NHS Foundation Trust.
+1. Primary Data: HR data from MCNFT NHS Foundation Trust.
     - Scale: ~11,000 staff records.
     - Source: In-house or commercial database.
     - Update Frequency: One-off extract for the wellbeing programme (no ongoing updates planned).
@@ -32,7 +32,7 @@ The solution integrates local HR records with pseudonymised NHS long-term condit
 
 | Feature | Specification |
 |:--- |:--- |
-| Ingestion | Manual CSV file upload (Mersey Care responsible for quality checks). |
+| Ingestion | Manual CSV file upload (MCNFT responsible for quality checks). |
 | Linkage Fields | Name, Date of Birth (DOB), Postcode (NHS Number is _not_ used). |
 | Matching | Deterministic linkage. |
 | Privacy | Data is anonymised (used only for linking) via the irreversible FITFILE privacy protocol. |
@@ -55,11 +55,11 @@ Operates within its own Azure subscription and VNET, containing three key subnet
 
 ### Customer Subscription (Hub)
 
-Mersey Care's existing environment acts as the hub, hosting:
+MCNFT's existing environment acts as the hub, hosting:
 
 - Firewall: Controls east-west/north-south traffic.
 - Load Balancer: Distributes inbound traffic.
-- VPN Access: Secure remote access for Mersey Care users.
+- VPN Access: Secure remote access for MCNFT users.
 
 ### Connectivity
 
@@ -94,7 +94,7 @@ Mersey Care's existing environment acts as the hub, hosting:
 
 ### Compliance & Privacy
 
-- Residency: All data remains within Mersey Care's Azure Tenant.
+- Residency: All data remains within MCNFT's Azure Tenant.
 - Encryption: Data encrypted at rest (Azure Disks).
 - Network: Protected by NSGs (subnet level) and the Hub Firewall.
 - Opt-Outs:
