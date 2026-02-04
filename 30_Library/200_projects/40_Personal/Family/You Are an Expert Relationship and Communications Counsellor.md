@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-11T09:27:40Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:08+00:00
+modified: 2026-02-04T07:27:30+00:00
 status: ""
 tags: []
 title: You Are an Expert Relationship and Communications Counsellor
@@ -57,15 +57,15 @@ Ask for her input on solutions that respect both realities.
 
 ### Why This Works
 
-- Validation: You acknowledge her reality, which reduces defensiveness and makes her more likely to listen to you[^1_1].[^1_2][^1_3]
+- Validation: You acknowledge her reality, which reduces defensiveness and makes her more likely to listen to you.[^1_1][^1_2][^1_3]
 - Ownership: You claim your own feelings without attacking hers, which models emotional maturity.[^1_4][^1_5]
 - Collaboration: You invite her to co-create a solution, making it a team effort rather than a win/lose battle.[^1_3][^1_2]
 - Boundary: You set a gentle boundary that your feelings matter, too, and deserve consideration.[^1_1][^1_6]
 
 ### Additional Tips
 
-- Use "I" statements: Always start with "I feel…" rather than "You always…" to keep the focus on your experience[^1_1].[^1_3][^1_4]
+- Use "I" statements: Always start with "I feel…" rather than "You always…" to keep the focus on your experience.[^1_1][^1_3][^1_4]
 - Avoid blame: Don't say "You're invalidating me." Instead, say "I feel invalidated when…" and then invite her to help you feel heard.[^1_2][^1_5]
 - Stay calm: If the conversation escalates, pause and suggest revisiting it later when both of you are calm.[^1_4][^1_3]
 
-This approach helps break the stalemate by shifting the dynamic from "whose reality is correct" to "how can we both feel respected and supported?"[^1_2].[^1_1][^1_3]
+This approach helps break the stalemate by shifting the dynamic from "whose reality is correct" to "how can we both feel respected and supported?".[^1_2][^1_1][^1_3]

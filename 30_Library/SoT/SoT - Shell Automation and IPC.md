@@ -2,7 +2,7 @@
 aliases: ["Event-Driven Shell", "IPC Workflows", "Signal Traps", "Terminal Automation"]
 created: 2025-12-26T13:00:00Z
 last_reviewed: "2025-12-26"
-modified: 2026-02-01T15:07:52+00:00
+modified: 2026-02-03T19:46:05+00:00
 status: "stable"
 tags: ["automation", "ipc", "shell", "SoftwareEngineering/Linux"]
 title: SoT - Shell Automation and IPC
@@ -37,7 +37,7 @@ The `trap` builtin allows a script to register an event listener for OS signals.
 - The Transmitter: `kill -USR1 <PID>` is not just for termination; it is a generic signal transmitter.
 - The Receiver:
 
-  ```bash
+```bash
   # Define a handler function
   handle_event() {
     echo "Reloading configuration..."
@@ -49,7 +49,7 @@ The `trap` builtin allows a script to register an event listener for OS signals.
 
   # Wait loop (keeps script alive)
   while true; do sleep 1; done
-  ```
+```
 
 ### Hierarchy of Automation
 

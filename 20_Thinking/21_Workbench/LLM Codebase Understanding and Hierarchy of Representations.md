@@ -1,6 +1,6 @@
 ---
 created: 2026-01-24T08:42:45+00:00
-modified: 2026-02-01T15:09:10+00:00
+modified: 2026-02-04T07:27:51+00:00
 tags: [llm-understanding]
 title: LLM Codebase Understanding and Hierarchy of Representations
 type: SoT
@@ -167,6 +167,7 @@ Simply increasing context windows (e.g., 1M tokens) fails due to Context Rot.
 The solution is to move from "Linear Reading" to "Recursive Exploration". See [[SoT - Recursive Language Models]] for the detailed theory.
 
 The Hybrid Loop:
+
 1. Graph Navigation (Cheap): Agent queries the graph to find structure.
 2. Vector/Text Inspection (Expensive): Agent loads _only_ the specific node's text into the context window.
 

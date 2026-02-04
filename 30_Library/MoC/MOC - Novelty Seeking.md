@@ -2,10 +2,10 @@
 aliases: []
 created: 2025-05-26T14:06:58Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:04+00:00
+modified: 2026-02-04T07:27:27+00:00
 status: "null"
 tags: ["dopamine", "interest", "novelty", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
-title: Novelty Seeking
+title: MOC - Novelty Seeking
 type: "map"
 updated: 
 ---

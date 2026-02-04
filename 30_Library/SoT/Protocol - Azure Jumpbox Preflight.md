@@ -1,17 +1,10 @@
 ---
-aliases:
-  - Azure Jumpbox Preflight Check
-  - Customer One-Pager
-  - run_me_first.sh Guide
+aliases: [Azure Jumpbox Preflight Check, Customer One-Pager, run_me_first.sh Guide]
 created: 2025-12-09T11:21:13Z
-modified: 2026-02-01T15:08:22+00:00
+modified: 2026-02-04T07:27:25+00:00
 Reviewed: false
 status: evergreen
-tags:
-  - azure
-  - ff_deploy
-  - protocol
-  - checklist
+tags: [azure, checklist, ff_deploy, protocol]
 title: Protocol - Azure Jumpbox Preflight
 type: Protocol
 ---

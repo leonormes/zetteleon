@@ -2,11 +2,11 @@
 aliases: ["AKS Auto-Shutdown", "Cloud Cost Saving", "Environment Hibernation"]
 created: 2025-11-13T00:00:00Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:02+00:00
+modified: 2026-02-04T07:27:24+00:00
 status: "stable"
 tags: ["aks", "azure", "cloud", "cost-optimization", "devops", "terraform"]
-title: SoT - Automated Cloud Resource Hibernation
 tier: "3-Tactic"
+title: SoT - Automated Cloud Resource Hibernation
 type: "SoT"
 updated: 
 ---

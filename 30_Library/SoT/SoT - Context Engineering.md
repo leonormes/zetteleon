@@ -38,7 +38,7 @@ Prompts should resemble a Domain Manifesto. State the "Laws of the Universe" (e.
 
 - [[SoT - Structural Intelligence|RepoMap]]: A compressed AST-based map of the project.
 - Architectural Skeleton: A living document mapping interfaces and flows.
-- Meta-Context: The persistent "Superego" injected via [[Protocol - The Architectural Guardian]].
+- Meta-Context: The persistent "Superego" injected via [[The Architectural Guardian]].
 
 ---
 

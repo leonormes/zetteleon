@@ -2,10 +2,10 @@
 aliases: []
 created: 2025-08-31T16:06:22Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:03+00:00
+modified: 2026-02-04T07:27:26+00:00
 status: "null"
 tags: ["consciousness", "language", "TheHuman/Cognition", "topic/philosophy"]
-title: Thought and Language Gap
+title: MOC - Thought and Language Gap
 type: "map"
 updated: 
 ---

@@ -2,10 +2,10 @@
 aliases: []
 created: 2025-10-20T09:00:00Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:03+00:00
+modified: 2026-02-04T07:27:27+00:00
 status: ""
 tags: ["framework", "growth", "principles"]
-title: The 7 Habits - The Maturity Continuum
+title: MOC - The 7 Habits - The Maturity Continuum
 type: "map"
 updated: 
 ---

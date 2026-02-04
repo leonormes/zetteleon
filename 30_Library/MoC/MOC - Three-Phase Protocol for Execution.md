@@ -2,10 +2,10 @@
 aliases: []
 created: 2025-10-20T09:30:00Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:03+00:00
+modified: 2026-02-04T07:27:26+00:00
 status: ""
 tags: [topic/productivity/gtd]
-title: Three-Phase Protocol for Execution MOC
+title: MOC - Three-Phase Protocol for Execution
 type: map
 updated:
 ---

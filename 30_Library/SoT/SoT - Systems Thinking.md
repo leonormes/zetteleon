@@ -2,11 +2,11 @@
 aliases: ["Feedback Loops", "Holistic Thinking", "Systems Dynamics"]
 created: 2025-12-12T00:00:00Z
 last_reviewed: ""
-modified: 2026-02-01T15:07:51+00:00
+modified: 2026-02-04T07:27:00+00:00
 status: "stable"
 tags: ["complexity", "mental_models", "thinking", "topic/systems"]
-title: SoT - Systems Thinking
 tier: "2-Strategy"
+title: SoT - Systems Thinking
 type: "SoT"
 updated: 
 ---
@@ -68,6 +68,16 @@ Donella Meadows identified that not all interventions are equal.
 
 ## Sources and Links
 
-- [[Thinking in Systems]] by Donella Meadows
-- [[Systems Thinking and Practice]] by The Open University
-- [[Systems Thinking for Social Change]] by David Peter Stroh
+- _Thinking in Systems_ by Donella Meadows
+- _Systems Thinking and Practice_ by The Open University
+- _Systems Thinking for Social Change_ by David Peter Stroh
+
+## Related Knowledge
+
+- [[SoT - Emergence]]—_The core phenomenon where complex patterns arise from simple rules._
+- [[SoT - The Law of Increasing Functional Information]]—_The physics of complexity: How selection drives information accumulation in open systems._
+- [[SoT - The Origins of Life (Abiogenesis)]]—_A case study in chemical systems evolving into biological systems._
+- [[Systems Generate Internal Logic in Isolation]]—_How closed systems develop self-referential meaning._
+- [[SoT - The Exponential Function]]—_Understanding compounding and reinforcing feedback loops._
+- [[SoT - Fundamental Description of Economics]]—_Systems thinking applied to resource allocation and markets._
+- [[SoT - What is a Problem]]—_Defining problems as emergent dysfunctions of a system._

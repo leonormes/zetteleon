@@ -1,142 +1,116 @@
 ---
-aliases: ["Mastering Time Boxing with ADHD", "Time Blocking SoT", "Time Blocking vs Time Boxing", "Time Boxing Nested Within Time Blocking", "Time Management SoT", "Timeboxing SoT"]
+aliases: ["Marc Zao-Sanders Timeboxing", "Mastering Time Boxing with ADHD", "Time Blocking SoT", "Time Blocking vs Time Boxing", "Time Management SoT", "Timeboxing SoT"]
 created: 2025-12-29T20:02:17+00:00
-last_reviewed: ""
-modified: 2026-02-01T15:07:51+00:00
-status: "stable"
+last_synthesis: 2026-02-03
+modified: 2026-02-04T07:27:00+00:00
+source_of_truth: true
+status: evergreen
+synthesis-count: 2
 tags: ["parkinsons-law", "scheduling", "time-management", "topic/productivity"]
 title: SoT - Temporal Management (Blocking and Boxing)
+trust-level: stable
 type: "SoT"
 ---
 
-Temporal Management in ProdOS is the discipline of treating time as a physical resource. It relies on two synergistic protocols that distinguish between _structuring your schedule_ and _structuring your effort_.
+## Minimum Viable Understanding (MVU)
 
-## 1. Mechanics & Definitions
+Temporal Management is the discipline of treating time as a physical resource. It moves from "Feral" working (reactive, algorithm-led) to Intentional living by merging the To-Do List (What) with the Calendar (When). Success is defined by doing one thing at a time to an acceptable standard, rather than a perfect one.
+
+---
+
+## 1. Core Principles (Method & Mindset)
+
+_Source: Marc Zao-Sanders_
+
+Effective Timeboxing requires four fundamental actions:
+
+1. Selection: Deciding what to do _before_ the day's distractions arise.
+2. Specification: Assigning each task a clear start and end time on a calendar.
+3. Focus: Committing to one thing at a time (Monotasking).
+4. Acceptable Standard: Prioritizing _shipping_ over perfectionism.
+
+---
+
+## 2. Definitions & Distinction
 
 ### Time Blocking (The Architect)
 
-> "A technique for dedicating specific segments of time to particular tasks."
+> "Reserving a period for an activity."
 
-- Function: Merges your Calendar with your To-Do List.
 - Scope: Macro (Day/Week).
-- Psychology: Creates Urgency and combats _Procrastination_ (Inaction) by assigning a "When".
+- Goal: Calendar defense and capacity awareness.
+- Psychology: Combats Procrastination by removing the "When do I start?" friction.
 
 ### Time Boxing (The Builder)
 
-> "A goal-oriented strategy where a fixed period is allocated to a specific task."
+> "Allocating a fixed period to achieve a specified outcome."
 
-- Function: Enforces a Hard Stop.
 - Scope: Micro (Task/Session).
-- Psychology: Combats Parkinson's Law and _Perfectionism_ (Expansion) by assigning a "How Long".
-
----
-
-## 2. The Critical Distinction
+- Goal: High-velocity execution and closure.
+- Psychology: Combats Parkinson's Law ("Work expands to fill available time") and Perfectionism by imposing a hard stop.
 
 | Feature | Time Blocking | Time Boxing |
 |:--- |:--- |:--- |
-| Primary Focus | When (Reservation) | How Long (Limitation) |
+| Focus | When (Reservation) | How Long (Limitation) |
 | Structure | Structures the Schedule | Structures the Effort |
 | Constraint | "I will do X from 9am to 10am." | "I will spend exactly 25 mins on X." |
-| Flexibility | Fluid. Can expand within the block. | Fixed. Hard stop forces completion/shipping. |
-| Best For | Deep Work, Calendar Defense. | Admin, Chores, "Toil", Perfectionism. |
+| Result | Passive (Time is set aside). | Active (Hard stop forces a result). |
 
 ---
 
-## 3. The Protocol: Nesting (The Synergy)
+## 3. Protocol: The Timeboxing Workflow
 
-"Time Boxing is best used when Nested within Larger Time Blocks."
+### Step 1: Brain Dump & Prioritization
 
-The most effective workflow combines both:
+Write down everything (work, personal, meals). Identify top 1–3 high-impact tasks (The "Frogs").
 
-1. Block the Container: Reserve a 2-hour block for "Project A" (Protection).
-2. Box the Content: Inside that block, run four 25-minute sprints (Focus).
+### Step 2: Estimate & Allocate
 
-This leverages the strengths of both: Blocking ensures the work _happens_, while Boxing ensures the work _finishes_.
+Assign a duration to each task.
 
----
+- ADHD Rule: Triple the estimate. Overestimating and finishing early restores system trust; underestimating triggers shame.
+- Chunking: If a task > 90 mins, break it into sub-boxes.
 
-## 4. The Unschedule Protocol (Temporal Integrity)
+### Step 3: Build the Calendar
 
-Traditional "Hard Scheduling" (planning every minute) often leads to the "Planning Fallacy" and subsequent shame spirals when the plan fails. ProdOS adopts Neil Fiore's Unschedule.
+Schedule priorities first during "Power Hours" (peak energy).
 
-### The Core Inversion
+- The Buffer Rule: Non-negotiable 10-min breaks between boxes and one 30-min "Overflow" block in the afternoon.
 
-Instead of planning work _before_ it happens, you record it _after_ it happens.
+### Step 4: Execute & Focus
 
-1. Schedule Non-Negotiables First: Fill your calendar with _only_ fixed commitments (Meetings, Meals, Sleep, Exercise, Social). The white space remaining is your _potential_ capacity.
-2. Record Quality Work Backwards: You only "earn" a block on your calendar by completing it.
-    - Rule: Work must be done for at least 15-30 minutes to qualify.
-    - Action: After finishing a block, draw it on your calendar/timeline.
-3. The Reward Signal: Seeing the calendar fill up with "Done Blocks" provides an immediate dopamine reward and a realistic map of your actual velocity.
-4. Capacity Awareness: This eliminates the shame of "unmet plans" because you are not breaking promises to yourself; you are simply recording reality.
+Use a Visual Timer. When the box starts, the only goal is the task.
 
-### The "Guilt-Free Play" Rule
+- Distraction Management: Keep a "Distraction Pad" (Catch-all list). Jot down intrusive thoughts/ideas immediately to clear RAM and return to the box.
 
-You must proactively schedule guilt-free play. Knowing you have a guaranteed "Stop Time" and "Fun Time" lowers the brain's resistance to starting work, as it knows the suffering is bounded.
+### Step 5: Review & Adapt
+
+At EOD, review what worked. Adjust tomorrow's estimates based on today's reality.
 
 ---
 
-## 5. The ADHD Adaptation (Visual & Flexible)
+## 4. ADHD Scaffolding (Externalized Executive Function)
 
-_Source: [How to Plan Your Day With ADHD](https://youtu.be/-bUAku0FySI)_
-
-Standard time blocking can fail for the neurodivergent brain because rigid scheduling creates "fragility"—one deviation leads to system abandonment. This alternative framework prioritizes flexibility, dopamine management, and radical simplicity.
-
-### A. The "Effortless Engagement" Protocol
-
-To prevent system abandonment, the friction of _maintaining_ the system must be lower than the friction of _doing the work_.
-
-- Radical Simplicity: Minimal moving parts. 1-3 core tools max.
-- Search Over Structure: Do not waste energy on complex filing. Capture fast; rely on search to retrieve.
-- Low Activation Energy: The system must be usable in a "low dopamine" state. If it requires high energy just to _start_ planning, it will fail.
-- Capture-Focused: The primary function is to catch fleeting thoughts instantly, reducing working memory load.
-
-### B. The Interface: Analogue "Ownership"
-
-- Protocol: Use pen and paper for daily execution. Keep digital tools for long-term storage.
-- Mechanism: Handwriting increases "concept density" and psychological commitment (ownership), physically decoupling planning from digital distraction.
-
-### C. The Initialisation: Dynamic Daily Design
-
-- Protocol: Allocate 10–15 mins each morning to design the day _from scratch_.
-- Mechanism: Replaces "hope-based" productivity with intentional design, acknowledging that ADHD capacity fluctuates daily and cannot be predicted a week in advance.
-
-### D. Visual Taxonomy: The 4-Colour Logic
-
-Replace urgency-based lists with a category-based visual hierarchy to maintain interest.
-
-- Red (Responsibilities): External commitments (Meetings). High consequence.
-- Yellow (Chores): Maintenance (Cleaning, Admin). Flexible timing.
-- Green (Enrichment): Healthy behaviours (Cooking, Gym). "Nice-to-have" self-care markers.
-- Purple (Dopamine/Joy): Mandatory. At least one non-hurtful item per day purely to sustain the brain's interest in the system.
-
-### E. Temporal Allocation: The "Train Ticket" Filter
-
-- Protocol: Abandon specific timestamps (e.g., "14:00") for broad buckets: Morning, Afternoon, Evening.
-- Mechanism: Functions like a flexible ticket—valid for a "phase" of the day, allowing tasks to float dynamically based on immediate energy levels.
-
-### F. Tactical Boxing for ADHD (Micro-Management)
-
-While "Blocking" manages the day, "Boxing" manages the moment. For the ADHD brain, the box must be tangible.
-
-- Visual Timers: Time is abstract; make it physical. Use analog visual timers (e.g., Time Timer) where the disappearing red disk creates an externalized "point of no return."
-- Short Horizons (15-30m): Standard 90-minute blocks are often too long for an unmedicated ADHD brain. Shrink the box until resistance vanishes. "Can I do 15 minutes?" is often yes.
-- The "Body Reset" Break: Breaks must involve movement (dopamine resupply) or hydration, not "tab switching."
+- Prosthetic Time: Visual timers (e.g., Time Timer) make time tangible. Seeing the "red disk disappear" creates an external point of no return.
+- Nesting: Best results come from Boxing within Blocking. Reserve 2 hours for "Deep Work" (Block), then run 25-min sprints (Boxes) inside it.
+- The Unschedule: Instead of planning work before, record it _after_ it happens. Seeing "Done Blocks" provides a dopamine reward and realistic velocity mapping.
 
 ---
 
-## 6. Common Pitfalls & Solutions
+## 5. Recommended Tools
 
-| Pitfall | Solution |
-|:--- |:--- |
-| The Rigid Prison | "My calendar creates anxiety." -> Solution: Treat blocks as _intentions_, not laws. Use "Fluid Blocking" (drag and drop) to adjust as reality changes. |
-| The Planning Fallacy | "I didn't finish." -> Solution: You are not a robot. Schedule 1 hour of "Overflow/Buffer" time every afternoon. |
-| Interruption Hell | "My boss walked in." -> Solution: The "Interruption Catch-All." Have a notepad ready. Write it down, promise to process it in the next "Admin Box," and return to work. |
+| Category | Examples | Purpose |
+|:--- |:--- |:--- |
+| Calendars | Google Calendar, Fantastical | Scheduling, color-coding, and reminders. |
+| All-in-One | Sunsama, Motion, Akiflow | Integrates tasks + calendar; AI scheduling for ADHD. |
+| Timers | Time Timer, Llama Life, Forest | Makes time tangible and provides a "Game" layer. |
+| Blockers | Freedom, Cold Turkey | Enforces the "Sacred No" during focus blocks. |
 
 ---
 
-## 7. Related Concepts
+## Related Knowledge
 
+- [[SoT - Indistractable Model (Focus Management)]]
+- [[SoT - The Nature of Time and Perception]]
 - [[The Pomodoro Technique Uses Short Timed Intervals to Maintain Focus]]
 - [[Implementation Intentions Turn Vague Plans Into Concrete Actions]]

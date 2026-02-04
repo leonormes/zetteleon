@@ -1,28 +1,18 @@
 ---
-aliases:
-  - Auth0 Authentication Strategy
-  - FitFile Identity Architecture
+aliases: [Auth0 Authentication Strategy, FitFile Identity Architecture]
 created: 2025-09-23T08:41:59Z
-modified: 2026-02-01T15:20:00+00:00
+modified: 2026-02-04T07:27:20+00:00
+see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FitFile Deployment - Strategy & Architecture]]", "[[SoT - FITFILE Secret Management Architecture]]"]
 status: evergreen
-tags:
-  - auth0
-  - identity
-  - security
-  - sot
-  - ff_deploy
+tags: [auth0, ff_deploy, identity, security, sot]
 title: SoT - FitFile Identity & Access Management (Auth0)
 type: SoT
 updated: 2026-02-01
-see_also:
-  - "[[SoT - FitFile Deployment - Strategy & Architecture]]"
-  - "[[SoT - FitFile Deployment - Implementation Manual]]"
-  - "[[SoT - FITFILE Secret Management Architecture]]"
 ---
 
 ## 1. Executive Summary
 
-This document defines the identity architecture for the FITFILE platform. We utilize Auth0 as the centralized Identity Provider (IdP) for all deployments, enforcing a strict separation between *Authentication* (Who you are) and *Authorization* (What you can do).
+This document defines the identity architecture for the FITFILE platform. We utilize Auth0 as the centralized Identity Provider (IdP) for all deployments, enforcing a strict separation between _Authentication_ (Who you are) and _Authorization_ (What you can do).
 
 - Authentication: Handled by Auth0 via OIDC/OAuth2.
 - Authorization: Handled by the Application (SpiceDB) based on JWT claims.
@@ -33,17 +23,21 @@ This document defines the identity architecture for the FITFILE platform. We uti
 ## 2. Architecture Components
 
 ### 2.1 The Central Tenant
+
 - Domain: `fitfile-prod.eu.auth0.com`
 - Region: EU (compliant with GDPR).
 - Management: Configured via Terraform in `/central-services/auth0/prod/`.
 
 ### 2.2 The Resource Server (API)
+
 Each FitFile deployment (e.g., `cuh-prod-1`) is registered as a unique Resource Server in Auth0.
+
 - Identifier (Audience): `https://{deployment-key}.privatelink.fitfile.net`
 - Signing Algo: RS256.
 - Token Lifetime: 300 seconds (5 minutes) for strict security.
 
 ### 2.3 The Client Application
+
 - Type: Single Page Application (SPA).
 - Grant Type: Authorization Code Flow with PKCE.
 - Client ID: Unique per deployment.
@@ -69,10 +63,10 @@ We employ a Shared Infrastructure pattern to prevent resource conflicts and ensu
 
 A new deployment must create these objects (via Terraform):
 
-1.  SPA Client: The User-Facing App (`app_type = "spa"`).
-2.  M2M Clients: For automated access (e.g., API Explorer).
-3.  Connection Association: A `auth0_connection_clients` resource that links the *new* clients to the *existing* shared connection ID.
-    - *Critical:* Do NOT attempt to create a new `auth0_connection`. This will cause a 409 Conflict.
+1. SPA Client: The User-Facing App (`app_type = "spa"`).
+2. M2M Clients: For automated access (e.g., API Explorer).
+3. Connection Association: A `auth0_connection_clients` resource that links the _new_ clients to the _existing_ shared connection ID.
+    - _Critical:_ Do NOT attempt to create a new `auth0_connection`. This will cause a 409 Conflict.
 
 ---
 
@@ -98,12 +92,15 @@ A new deployment must create these objects (via Terraform):
 Identity configuration is injected into the application via Helm values and Vault secrets.
 
 ### 4.1 Required Secrets (Vault)
+
 These must be seeded during Phase 1 of deployment:
+
 - `auth0-client-id`
 - `auth0-client-secret` (For M2M flows)
 - `auth0-domain`
 
 ### 4.2 Application Config (Helm Values)
+
 ```yaml
 # values.yaml
 frontend:
@@ -114,7 +111,9 @@ frontend:
 ```
 
 ### 4.3 Redirect URIs
+
 For a successful login, the following must be whitelisted in the Auth0 Client:
+
 - Callback: `https://{deployment-key}.fitfile.net/callback`
 - Logout: `https://{deployment-key}.fitfile.net/`
 - CORS: `https://{deployment-key}.fitfile.net`

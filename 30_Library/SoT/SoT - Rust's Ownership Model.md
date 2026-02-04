@@ -71,8 +71,9 @@ To manage memory beyond the strict single-owner stack model, Rust provides "Smar
 
 From a formalist perspective, Rust's ownership model is a brilliant piece of engineering but is not grounded in established type theory.
 
-- The Flaw: Critics argue it is an "orthogonal" evolution that misses the deeper mathematical duality between Linearity (which corresponds to ownership/moving) and Borrowing. Languages based on [[SoT - Quantitative Type Theory and Graded Modalities]] model these concepts more elegantly and completely.
+- The Flaw: Critics argue it is an "orthogonal" evolution that misses the deeper mathematical duality between Linearity (which corresponds to ownership/moving) and Borrowing.
 - The Consequence: Because it is an engineered solution rather than a theoretical one, the model has gaps. It struggles to express valid patterns like self-referential structs or parent-pointer graphs without resorting to `unsafe` code, `Rc<T>` (reference counting), or `RefCell<T>` (interior mutability), which introduce runtime checks and overhead. It's an imperfect implementation of the concepts in [[SoT - Region-Based Memory Management]].
+- Deep Dive: See [[SoT - Rust Type Theory & Critique]].
 
 ---
 
@@ -93,7 +94,6 @@ From a formalist perspective, Rust's ownership model is a brilliant piece of eng
 
 ## 8. Related Components
 
-- [[SoT - Rust's Design Philosophy]]
 - [[SoT - Region-Based Memory Management]]
-- [[SoT - Quantitative Type Theory and Graded Modalities]]
-- [[SoT - Runtime Guards vs Compile-Time Proofs]]
+- [[SoT - Rust Type Theory & Critique]]
+- [[SoT - Padded Cell vs Nanny Languages]]

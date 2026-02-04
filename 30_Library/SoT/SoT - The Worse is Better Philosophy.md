@@ -2,7 +2,7 @@
 aliases: ["Worse is Better"]
 created: 2025-12-19T00:00:00Z
 last_reviewed: "2025-12-19"
-modified: 2026-02-01T15:07:49+00:00
+modified: 2026-02-04T07:26:57+00:00
 status: "stable"
 tags: ["market-dynamics", "SoftwareEngineering", "TheHuman/Philosophy"]
 title: SoT - The Worse is Better Philosophy
@@ -49,8 +49,8 @@ Phase 1: Maximize for Initial Adoption
 
 Phase 2: Iterate from a Position of Strength
 
-4. [] Let Users Find the Edge Cases: Once you have a user base, let their needs guide the evolution of the system.
-5. [] Preserve the Simple Core: As the system grows, protect the simplicity of the original implementation. Add complexity at the edges, not in the core.
+1. [] Let Users Find the Edge Cases: Once you have a user base, let their needs guide the evolution of the system.
+2. [] Preserve the Simple Core: As the system grows, protect the simplicity of the original implementation. Add complexity at the edges, not in the core.
 
 ---
 

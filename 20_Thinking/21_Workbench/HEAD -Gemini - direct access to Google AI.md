@@ -2,7 +2,7 @@
 aliases: [HEAD ‎Gemini – direct access to Google AI]
 captured: 2026-02-02T07:04:36+00:00 2026-02-02T07:04:36+00:00
 created: 2026-02-02T07:04:38+00:00
-modified: 2026-02-02T07:06:17+00:00
+modified: 2026-02-04T07:27:51+00:00
 source: https://gemini.google.com/share/3b5cd50dd9bd
 status: phase-1
 tags: [input]
@@ -96,3 +96,42 @@ Google Account
 Leon Ormes
 
 leonormes@gmail.com
+
+```json
+{
+  "analysis": {
+    "type": "#Head",
+    "current_state": "Manager asserts authority via vague criticism.",
+    "desired_state": "Manager asserts authority via clear, evidence-based metrics.",
+    "gap": "Lack of agreed definitions for 'Level' and 'Performance'."
+  },
+  "logic_check": {
+    "type": "#Conflict",
+    "branch_A": "Manager's Need for Status (To feel in charge)",
+    "branch_B": "User's Need for Fairness (Evidence-based evaluation)",
+    "status": "COMPATIBLE",
+    "proof": "Status is respected if the Manager defines the rules. Fairness is respected if the rules are explicit. The conflict exists only in the AMBIGUITY."
+  },
+  "proposed_solution": {
+    "type": "#Protocol_Test",
+    "hypothesis": "IF I ask him to define the 'Senior' type constraint, THEN he must either learn the system or defer to my expertise.",
+    "action": {
+      "name": "The Spec Definition",
+      "steps": [
+        "1. Stop providing answers/defense.",
+        "2. Ask him to provide the 'Test Cases' for his judgment.",
+        "3. Document his vague words as 'To Be Defined' tickets."
+      ]
+    },
+    "constraints": [
+      "Forbidden from saying 'But I did X'.",
+      "Forbidden from challenging his title."
+    ],
+    "metric": {
+      "target": "Specific Constraint Count",
+      "threshold": "He defines at least 1 quantifiable metric for his judgment."
+    }
+  }
+}
+
+```

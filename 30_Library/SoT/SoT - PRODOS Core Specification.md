@@ -1,20 +1,13 @@
 ---
-aliases:
-  - K2A Framework
-  - PRODOS
-  - Productivity Operating System
+aliases: [K2A Framework, PRODOS, Productivity Operating System]
 created: 2026-01-03T09:45:08+00:00
 last_reviewed: 2026-01-12
-modified: 2026-02-01T15:07:54+00:00
+modified: 2026-02-04T07:27:10+00:00
 status: stable
-tags:
-  - adhd-optimization
-  - execution
-  - prodos
-  - system-architecture
+tags: [adhd-optimization, execution, prodos, system-architecture]
+tier: 1-Foundation
 title: SoT - PRODOS Core Specification
 type: SoT
-tier: 1-Foundation
 ---
 
 ## PRODOS Unified Specification (v4.1)

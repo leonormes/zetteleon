@@ -2,11 +2,11 @@
 aliases: ["Eudaimonia", "The Psychology of Duty", "Values-Based Living"]
 created: 2025-12-14T00:00:00Z
 last_reviewed: "2025-12-14"
-modified: 2026-02-01T15:07:48+00:00
+modified: 2026-02-04T07:26:56+00:00
 status: "stable"
 tags: ["eudaimonia", "TheHuman/Health/ADHD", "TheHuman/Philosophy", "TheHuman/Psychology", "values"]
-title: SoT - Values and Eudaimonia
 tier: "1-Foundation"
+title: SoT - Values and Eudaimonia
 type: "SoT"
 updated: 
 ---

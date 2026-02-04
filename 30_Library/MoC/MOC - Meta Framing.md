@@ -2,11 +2,11 @@
 aliases: []
 created: 2025-02-07T12:57:55Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:04+00:00
+modified: 2026-02-04T07:27:27+00:00
 patterns: ""
 status: ""
 tags: ["meta_framing"]
-title: Meta Framing
+title: MOC - Meta Framing
 type: "map"
 updated: 
 ---

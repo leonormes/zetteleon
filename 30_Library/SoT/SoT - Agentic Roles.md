@@ -14,7 +14,7 @@ To execute [[SoT - Macro-Micro Unification]], we divide the cognitive load acros
 
 | Role | Mental Model | Responsibility | Tools |
 |:--- |:--- |:--- |:--- |
-| The Architect | General Relativity | Guardian of the Macro. Defines constraints, boundaries, and interfaces. Enforces [[Protocol - The Architectural Guardian]]. | `write_file` (Specs), `grep` (Boundaries) |
+| The Architect | General Relativity | Guardian of the Macro. Defines constraints, boundaries, and interfaces. Enforces [[The Architectural Guardian]]. | `write_file` (Specs), `grep` (Boundaries) |
 | The Scout | The Territory | Mapping the codebase. Generating [[SoT - Structural Intelligence|RepoMaps]]. Providing the "Skeleton" to the Architect. | `tree-sitter`, `ls -R`, `find` |
 | The Cartographer | The Graph | Pruning the Control Flow Graph. Calculating [[SoT - Temporal Projection|Blast Radius]]. Injecting only the "Relevant Subgraph". | `ast-grep`, `lsp-query` |
 | The Historian | The Timeline | Analyzing Churn and Volatility. "Who touched this last?" "Is this code calcified?" | `git log`, `git blame` |

@@ -1,7 +1,7 @@
 ---
 aliases: [MESH Firewall Rules, MESH Integration Guide, NHS MESH Sandbox]
 created: 2026-02-01T15:30:00Z
-modified: 2026-02-01T20:48:08+00:00
+modified: 2026-02-04T07:27:15+00:00
 status: evergreen
 tags: [ff_deploy, integration, mesh, nhs, sot]
 title: SoT - NHS MESH Integration
@@ -13,6 +13,7 @@ type: SoT
 The MESH Mailbox chart deploys a sandbox implementation of the NHS Message Exchange for Social Care and Health (MESH) service. This environment allows FITFILE to test secure healthcare data exchange without connecting to live NHS infrastructure.
 
 Purpose:
+
 - Integration testing for `fitconnect`.
 - Validating FHIR/HL7 message formats.
 - Simulating GP-to-Hospital data flows.

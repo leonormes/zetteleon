@@ -2,10 +2,10 @@
 aliases: []
 created: 2025-10-20T09:40:00Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:03+00:00
+modified: 2026-02-04T07:27:27+00:00
 status: ""
 tags: []
-title: PKM as Process vs Product MOC
+title: MOC - PKM as Process vs Product
 type: "map"
 updated: 
 ---

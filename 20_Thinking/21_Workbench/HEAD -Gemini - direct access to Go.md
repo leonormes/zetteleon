@@ -2,7 +2,7 @@
 aliases: [HEAD ‎Gemini – direct access to Go, HEAD ‎Gemini – direct access to Google AI]
 captured: 2026-02-02T08:00:37+00:00 2026-02-02T08:00:37+00:00
 created: 2026-02-02T08:00:40+00:00
-modified: 2026-02-02T08:01:13+00:00
+modified: 2026-02-04T07:27:52+00:00
 source: https://gemini.google.com/share/75934e7806cb
 status: processing
 tags: [input]
@@ -147,13 +147,13 @@ Your Task:Generate a technical "Forensic Analysis & API Specification" that answ
 - Map the "Accidental Complexity": Specifically, look at `vaultSecrets`. Explain how the current "text template" approach forces the user to mentally compile Go code.
 - Map the "Coupling": Analyse how `rolloutRestartTargets` creates a manual dependency link that should be automated by the graph.
 
-2. The Formal Data API (The Solution) Draft a TypeScript interface (representing the new `values.yaml` schema) that forces complexity into the data structure.
+1. The Formal Data API (The Solution) Draft a TypeScript interface (representing the new `values.yaml` schema) that forces complexity into the data structure.
 
 - Replace Booleans with Profiles: Define a `DeploymentProfile` type (e.g., `Dev`, `Stage`, `Prod`) that encapsulates the `deploy` flags.
 - Abstract the Secrets: Create a `SecretIntent` interface where the user declares _intent_ (e.g., `source: vault`), and the complexity of the VSO templating is hidden in the implementation.
 - Global Topology: Define a `GlobalGraph` interface that acts as the "Single Source of Truth" for database connections and ingress, removing the need for sub-chart overrides.
 
-3. The Validation Logic (The Guardrails) Using JSON Schema logic (pseudocode is fine), define the "Invariants" that must hold true.
+1. The Validation Logic (The Guardrails) Using JSON Schema logic (pseudocode is fine), define the "Invariants" that must hold true.
 
 - _Example:_ "If `profile` is `prod`, then `vault.enabled` MUST be true."
 - _Example:_ "If `database` is `external`, then `connectionString` is REQUIRED."

@@ -2,7 +2,7 @@
 aliases: ["K2A Framework", "Knowledge-to-Action System", "The Motivation Bridge"]
 created: 2025-11-13T00:00:00Z
 last_reviewed: "2025-12-15"
-modified: 2026-02-01T15:08:01+00:00
+modified: 2026-02-04T07:27:24+00:00
 status: "stable"
 tags: ["execution", "TheHuman/Health/ADHD", "TheHuman/Psychology", "topic/productivity"]
 title: SoT - Bridging the Intention-Action Gap
@@ -68,15 +68,15 @@ Phase 1: Define the Endpoint
 
 Phase 2: Capture the Steps
 
-4. [] Set a 5-minute timer: Reduce pressure.
-5. [] Brain Dump: Write every question, idea, and step without filtering.
-6. [] Organize into Phases: Group items into 3-5 logical stages (Research, Draft, Review).
+1. [] Set a 5-minute timer: Reduce pressure.
+2. [] Brain Dump: Write every question, idea, and step without filtering.
+3. [] Organize into Phases: Group items into 3-5 logical stages (Research, Draft, Review).
 
 Phase 3: Activate the Plan
 
-7. [] Identify Phase 1: Look at the first group.
-8. [] Ask 'What is the very next physical action?': Must be small, visible, doable now (e.g., "Email Jane," "Create doc").
-9. [] Write on 'Next Actions' list: The entire project is now represented by this single task.
+1. [] Identify Phase 1: Look at the first group.
+2. [] Ask 'What is the very next physical action?': Must be small, visible, doable now (e.g., "Email Jane," "Create doc").
+3. [] Write on 'Next Actions' list: The entire project is now represented by this single task.
 
 ### Protocol C: The Starter Task (Momentum Generator)
 

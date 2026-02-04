@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T15:00:00Z
 last_reviewed: "2025-12-30"
-modified: 2026-02-01T15:08:07+00:00
+modified: 2026-02-04T07:27:29+00:00
 status: "stable"
 tags: ["k8s", "kubernetes", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]
 title: MOC - Container Networking Model
@@ -36,10 +36,10 @@ Isolation & Environment:
 
 Connectivity Mechanics (See [[SoT - Linux Networking Primitives]]):
 
-3. Veth Pair: The virtual cable tunneling traffic from Host to Container.
-4. Linux Bridge: The virtual Layer 2 switch (`cni0`) connecting Pods on the same node.
-5. IPTables/NAT: The mechanism for Masquerading (Source NAT) for egress and DNAT for Services.
-6. IP Forwarding: The kernel flag (`net.ipv4.ip_forward`) permitting packet routing.
+1. Veth Pair: The virtual cable tunneling traffic from Host to Container.
+2. Linux Bridge: The virtual Layer 2 switch (`cni0`) connecting Pods on the same node.
+3. IPTables/NAT: The mechanism for Masquerading (Source NAT) for egress and DNAT for Services.
+4. IP Forwarding: The kernel flag (`net.ipv4.ip_forward`) permitting packet routing.
 
 ### Architecture Layers
 

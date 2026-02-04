@@ -1,20 +1,12 @@
 ---
-aliases: []
-created: 2025-05-26T20:29:48Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:24+00:00
-status: ""
-tags: []
+created: 2025-12-29T20:01:17+00:00
+modified: 2026-02-04T07:27:41+00:00
+status: superseded
+superseded-by: "[[SoT - Mental Models in Software Development]]"
+tags: [archive]
 title: The Role of Mental Models in Developer Tasks
-type: ""
-updated: 
 ---
 
-Mental models are indispensable for a wide range of software development activities:
+## DEPRECATED
 
-- Code Comprehension: Understanding existing code involves constructing a mental model of its purpose, structure, and behavior. Developers read code and try to map it to known patterns and schemas to build this internal representation.
-- Debugging: Debugging is fundamentally a process of identifying and correcting discrepancies between a developer's mental model of how the code _should_ work and its actual runtime behavior. When a bug occurs, it signals an error or incompleteness in the developer's current mental model.
-- Software Design: Designing new software or features requires developers to create and manipulate mental models of the proposed system, exploring different architectures, component interactions, and data flows before writing any code.
-- Problem-Solving: Mental models provide the framework for categorizing problems, selecting appropriate algorithms and data structures, and iteratively refining solutions. They allow developers to break down complex problems into smaller, more manageable parts.
-
-[[Mental Models The Developer's Internal Compass]]
+This note's thinking has been integrated into [[SoT - Mental Models in Software Development]] on 2026-02-03.

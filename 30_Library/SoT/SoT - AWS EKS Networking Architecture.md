@@ -2,7 +2,7 @@
 aliases: ["AWS VPC CNI vs Calico", "EKS IP Planning", "EKS Networking Requirements", "EKS Networking"]
 created: 2026-02-01T21:19:14+00:00
 last-synthesis: 2026-02-01
-modified: 2026-02-01T21:26:51+00:00
+modified: 2026-02-04T07:27:24+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 2
@@ -61,12 +61,15 @@ By default, EKS uses the Amazon VPC CNI plugin.
 When using the AWS VPC CNI, you must rigorously plan subnet sizes.
 
 Calculation: `Total IPs Needed = (N × P) + N + LoadBalancers + Buffer`
+
 - `N`: Number of Nodes
 - `P`: Max pods per node (Instance limit)
 - `Buffer`: 5 IPs reserved by AWS per subnet
 
 Example (FitFile Scale):
+
 50 Nodes (`m5.xlarge`, 58 pods/node) ≈ 3,000 IPs.
+
 - Recommendation: Minimum `/20` CIDR (4,096 IPs).
 
 ---

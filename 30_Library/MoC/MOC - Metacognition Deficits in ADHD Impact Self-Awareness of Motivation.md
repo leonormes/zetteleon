@@ -2,10 +2,10 @@
 aliases: []
 created: 2025-07-16T17:30:01Z
 last_reviewed:
-modified: 2026-02-01T15:08:04+00:00
+modified: 2026-02-04T07:27:27+00:00
 status:
 tags: ["TheHuman/Health/ADHD", "TheHuman/Motivation", metacognition, self-awareness, type/moc]
-title: Metacognition Deficits in ADHD Impact Self-Awareness of Motivation
+title: MOC - Metacognition Deficits in ADHD Impact Self-Awareness of Motivation
 type: map
 updated:
 ---

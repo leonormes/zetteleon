@@ -3,7 +3,7 @@ aliases: [FITFILE Helm Chart Architecture, Helm Charts Technical Wiki]
 created: 2025-02-27T02:44:32Z
 deprecated: 2026-02-01
 last_reviewed: 2026-02-01
-modified: 2026-02-01T15:07:47+00:00
+modified: 2026-02-04T07:27:22+00:00
 status: archived
 superseded_by: "[[SoT - FitFile Deployment - Helm Architecture & Operations]]"
 tags: [deprecated, ff_deploy, helm, sot]
@@ -170,5 +170,6 @@ kubectl apply -f applications/new-customer.yaml
 ```
 
 Troubleshooting:
+
 - Database Backups: Verify PVC binding and retention policy matching.
 - Sync Failures: Validate `values.yaml` syntax and Git credentials in ArgoCD.

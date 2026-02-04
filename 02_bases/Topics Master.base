@@ -16,8 +16,6 @@ views:
       - tags
       - file.path
     sort:
-      - property: file.path
-        direction: ASC
       - property: file.size
         direction: DESC
     columnSize:
@@ -32,7 +30,6 @@ views:
         - file.tags.contains("learning")
         - file.tags.contains("psychology")
         - file.tags.contains("cbt")
-        - file.tags.contains("TheHuman/Cognition")
     order:
       - file.name
       - type

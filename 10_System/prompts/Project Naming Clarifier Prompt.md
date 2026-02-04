@@ -2,9 +2,9 @@
 aliases: []
 created: 2025-10-18T13:25:33Z
 last_reviewed:
-modified: 2026-02-02T16:14:33+00:00
+modified: 2026-02-04T07:27:53+00:00
 status:
-tags: [domain/management, type/utility]
+tags: [domain/management, topic/productivity/gtd, type/utility]
 title: Project Naming Clarifier Prompt
 type: prompt
 updated:

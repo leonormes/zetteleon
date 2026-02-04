@@ -35,7 +35,7 @@ The Context Engine is the system designed to solve [[SoT - Context Rot]] by brid
 The modern "GUT" is not a single script, but a pipeline:
 
 1. The Scout: Uses `tree-sitter` to build a [[SoT - Structural Intelligence|RepoMap]].
-2. The Architect: Injects the [[Protocol - The Architectural Guardian]] prompt.
+2. The Architect: Injects the [[The Architectural Guardian]] prompt.
 3. The Coder: Executes within the boundaries of the RepoMap.
 
 ---

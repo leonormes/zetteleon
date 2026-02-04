@@ -1,6 +1,6 @@
 ---
 created: 2026-02-01T15:35:00+00:00
-modified: 2026-02-01T21:27:30+00:00
+modified: 2026-02-04T07:27:25+00:00
 status: "evergreen"
 tags: ["kubernetes", "networking", "protocol", "troubleshooting", 100]
 title: Protocol - Kubernetes Network Debugging
@@ -62,6 +62,7 @@ curl -v https://<destination-ip>
 ```
 
 Interpretation:
+
 - [S] (SYN) sent, nothing received: The packet left the source but was "black-holed" by the destination or an intermediate firewall.
 - [R] (RST) received: The destination (or a firewall) actively rejected the connection.
 - No Output: The packet is being dropped internally (CNI, NetworkPolicy, or local Egress rule).

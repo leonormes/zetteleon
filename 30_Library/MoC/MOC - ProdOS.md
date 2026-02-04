@@ -53,10 +53,8 @@ The definitive specification of the system, its biological basis, and the "Why".
 - [[SoT - The Cognitive Physiology of Task Execution]]—_The scientific basis for decoupling Initiation, Encoding, and Monitoring._
 - [[SoT - The Extended Mind]]—_The philosophy of cognitive extension and Active Externalism._
 - [[SoT - Process Execution (Kernel Logic)]]—_The core operating logic of the system._
-- [[SoT - The Hydraulic Model of Willpower]]—_Why relying on "wanting it enough" is a biological failure mode (Ego Depletion)._
-- [[SoT - Environmental Determinism]]—_Lewin's Equation ($B = f(P, E)$) and the dominance of context over character._
-- [[SoT - Friction and Activation Energy]]—_Manipulating the physics of behavior (Activation Energy and the Garden Hose analogy)._
-- [[SoT - Choice Architecture]]—_Designing the visual field to make the right choice the default choice._
+- [[SoT - Behavioral Architecture]]—_The Grand Unified Theory: System > Willpower, Hydraulic Models, Environmental Determinism, and Friction._
+- [[SoT - Emergence]]—_The phenomenon where complex patterns (e.g., traffic, consciousness) arise from simple local rules._
 
 #### Key Frameworks
 
@@ -80,6 +78,7 @@ The definitive specification of the system, its biological basis, and the "Why".
 - [[SoT - PRODOS Core Specification#3.1 Knowledge Synthesis (Writing is Thinking)|Knowledge Synthesis]]—_The unified protocol for converting thought into knowledge (Writing to Think, Note Types, Refinement)._
 - [[SoT - PRODOS Core Specification#3.2 Learning Architecture (The Attack)|Learning Architecture]]—_The Hangar (Setup) -> Cockpit (Deep Dive) -> Cryosleep (Consolidate) workflow._
 - [[SoT - Material Symbols]]—_Using language and artifacts as active computational scaffolding._
+- [[SoT - Generative Intelligence]]—_The capacity to synthesize new paradigms (Scientific Revolution) vs. optimizing existing ones (Normal Science)._
 
 #### Phase 3: Action & Persistence (Output)
 
@@ -128,6 +127,8 @@ How to sustain the system and grow.
 - [[SoT - Habit Formation Framework]]—_The Theory: Identity-Based Habits, Process Primacy, and The Four Laws._
 - [[SoT - Behavioral Protocols]]—_The Practice: Map-Build-Dismantle (Change) and The Honeyman Method (Sustain)._
 - [[SoT - ADHD Neurology & Core Concepts]]—_Understanding the Hardware (INCUP), Emotional Regulation (RSD), and Strengths._
+- [[SoT - ADHD Self-Compassion & Strengths]]—_Reframing "Deficits" as "Different Hardware" (Race Car Brain) and "Superiority" as "Authenticity"._
+- [[SoT - Metaphysics of Purpose]]—_The taxonomy of cosmic purpose (Latent vs. Created) and the "Four Universes" framework._
 
 ---
 

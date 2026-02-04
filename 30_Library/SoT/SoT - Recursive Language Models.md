@@ -2,7 +2,7 @@
 aliases: [Agentic REPL, RLM]
 created: 2026-01-31T00:00:00+00:00
 last_reviewed:
-modified: 2026-02-01T15:07:53+00:00
+modified: 2026-02-04T07:27:06+00:00
 status: evergreen
 tags: [agents, architecture, research, rlm]
 title: SoT - Recursive Language Models
@@ -47,11 +47,13 @@ This allows the agent to "intelligently search" and traverse the structure.
 To implement this, one must move from a "Linear Reader" architecture to a "Recursive Agent" architecture.
 
 Linear (Old):
+
 1. Scan files.
 2. Dump everything into `CONTEXT.md`.
 3. LLM reads huge file -> Guesses Plan.
 
 Recursive (New):
+
 1. Agent receives Task.
 2. Agent starts with Zero Context.
 3. Loop:

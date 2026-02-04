@@ -3,7 +3,7 @@ aliases: []
 AoL: Work
 created: 2025-12-08T00:00:00Z
 last_reviewed:
-modified: 2026-02-01T15:09:11+00:00
+modified: 2026-02-03T19:30:18+00:00
 status: someday
 tags: [head, k8s, monitoring, observability, thinking]
 title: HEAD - Kubernetes Observability Standardization
@@ -11,27 +11,25 @@ type: head
 updated:
 ---
 
-## HEAD - Kubernetes Observability Standardization
-
-### The Spark
+## The Spark
 
 > [!abstract] The Spark (Contextual Wrapper)
 I have a collection of tasks aimed at improving our Kubernetes monitoring ("Learn how to monitor k8s"), but I lack a cohesive strategy. We need to move from ad-hoc alerts to a standardized, team-wide approach.
 
-### My Current Model
+## My Current Model
 
 We currently have Grafana dashboards, but I suspect they are not "standardized" or based on best practices ("golden signals").
 
 - Hypothesis: Adopting the "Golden Signals" (Latency, Traffic, Errors, Saturation) will give us better visibility than just random CPU/Memory alerts.
 - Goal: A "Standard K8s Cluster Health" dashboard that the whole team can rely on.
 
-### The Tension
+## The Tension
 
 - Knowledge Gap: I need to "Complete a tutorial" and "Research golden signals" before I can effectively "Document the new standard."
 - Action vs. Planning: There is a temptation to just "Build a new dashboard" (Task) without first defining _what_ is critical (Task: "Define 3 critical alerts").
 - Current State: I need to know where we stand ("Audit our current Grafana dashboards") before building new things.
 
-### The Next Test
+## The Next Test
 
 _The immediate, verifiable action to resolve the current tension._
 
@@ -39,7 +37,7 @@ _The immediate, verifiable action to resolve the current tension._
   - _Success Criteria:_ I can list the 4 signals and how they map to our specific K8s metrics.
   - _Output:_ Update this note with a mapping table.
 
-### Backlog & Sequence
+## Backlog & Sequence
 
 _Derived from the initial task dump:_
 

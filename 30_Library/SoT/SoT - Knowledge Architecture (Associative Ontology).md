@@ -43,6 +43,7 @@ updated:
     - [[SoT - The Logical Definition of a Computer]]
     - [[SoT - Type Theory & Data Structures]]
     - [[SoT - Virtual Knowledge Graph Paradigm]]
+    - [[SoT - Order Theory & Lattices]]
 
 ### Domain IV: Generative Infrastructure (The Platform)
 
@@ -145,3 +146,15 @@ The user's intellectual life operates on a Single Isomorphic Principle:
 4. In Action (Domain I): The System (Pipe) determines the consistency.
 
 The conclusion: To change the output (Code, Behavior, Life), do not push harder on the output. Change the Structure of the Input.
+
+## 5. The Mathematics of Structure (Order Theory)
+
+This unification is formalized by **Order Theory**.
+
+- **The Lattice:** Knowledge is not a flat list but a hierarchy of specificity.
+- **Subsumption:** Concepts are refined, not just related. "Dog" $\sqsubseteq$ "Animal".
+- **Unification (The Meet):** Combining constraints (Tags) is a "Meet" operation ($\sqcap$).
+    - *Example:* Searching for `#Meeting` AND `#Tech` is not just filtering; it is calculating the **Greatest Lower Bound** of two sets. The result is a virtual subtype that satisfies both constraints.
+- **Conflict (The Bottom):** Incompatible branches (e.g., `#Project` and `#Reference`) unify to $\bot$ (Bottom/Error), proving that an entity cannot topologically be both.
+
+This provides the rigorous proof that "Categories" are not arbitrary containers, but logical constraints on the value of information.

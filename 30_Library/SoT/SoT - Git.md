@@ -1,11 +1,8 @@
 ---
 aliases: ["Distributed Version Control", "Git", "Version Control System"]
-confidence: "5/5"
 created: 2025-12-13T00:00:00Z
-epistemic: ""
 last_reviewed: "2025-12-13"
-modified: 2026-01-08T10:49:43+00:00
-purpose: "To define Git as the foundational distributed version control system, detailing its data model, core concepts, essential workflows, and security principles for robust software configuration management."
+modified: 2026-02-04T07:27:19+00:00
 review_interval: "6 months"
 see_also: ["[[SoT - Software Configuration Management Patterns]]"]
 source_of_truth: []
@@ -13,7 +10,6 @@ status: "stable"
 tags: ["devops", "git", "scm", "version_control"]
 title: SoT - Git
 type: "SoT"
-uid: 
 updated: 
 ---
 

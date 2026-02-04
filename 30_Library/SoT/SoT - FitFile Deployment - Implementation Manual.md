@@ -2,7 +2,7 @@
 aliases: [Deployment SOP, FitFile Deployment Guide, Master Deployment Checklist, Phase 1-6 Manual]
 created: 2025-12-21T10:50:49Z
 last_reviewed: 2026-02-01
-modified: 2026-02-01T20:21:00+00:00
+modified: 2026-02-04T07:27:21+00:00
 status: evergreen
 tags: [deployment, ff_deploy, manual, ops, sop]
 title: SoT - FitFile Deployment - Implementation Manual
@@ -15,6 +15,7 @@ updated: 2026-02-01
 This manual details the six-phase execution of a FITFILE deployment. It serves as the primary checklist for Deployment Engineers.
 
 Critical Path Summary:
+
 `CIDR Validation` → `VNET` → `Peering` → `AKS` → `OIDC` → `VSO` → `ffcloud` → `frontend` → `Ingress` → `DNS` → `CLIENT ROUTES` → `Smoke Tests`
 
 > [!danger] Primary Friction Points

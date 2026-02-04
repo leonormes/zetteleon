@@ -1,6 +1,6 @@
 ---
 created: 2026-02-02T08:40:00+00:00
-modified: 2026-02-02T08:40:00+00:00
+modified: 2026-02-04T07:27:53+00:00
 tags: [domain/health, system/prompt, type/context]
 title: leon-context-health-profile
 type: prompt
@@ -9,6 +9,7 @@ type: prompt
 ## Physical Context
 
 I am a 52-year-old male (born 3rd November 1973) based in Essex, UK.
+
 - Height: 5ft 11in (180cm).
 - Weight: 91kg (recently reduced from 120kg using Mounjaro).
 - Baseline: Genetic advantage (looks younger than actual age), good baseline, no medical ailments/injuries.

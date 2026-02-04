@@ -2,10 +2,10 @@
 aliases: []
 created: 2025-10-20T10:13:00Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:03+00:00
+modified: 2026-02-04T07:27:27+00:00
 status: "null"
 tags: ["logic", "perspective", "topic/systems"]
-title: The Logic of Self-Contained Systems MOC
+title: MOC - The Logic of Self-Contained Systems
 type: "map"
 updated: 
 ---

@@ -1,15 +1,9 @@
 ---
 created: 2025-02-07T12:57:55Z
-modified: 2026-02-01T15:07:47+00:00
+modified: 2026-02-04T07:27:21+00:00
 Reviewed: false
 status: stable
-tags:
-  - architecture
-  - deployment
-  - fitfile
-  - helm
-  - kubernetes
-  - sop
+tags: [architecture, deployment, fitfile, helm, kubernetes, sop]
 title: SoT - FitFile Deployment - Helm Architecture & Operations
 type: SoT
 ---
@@ -142,9 +136,11 @@ To improve multi-tenancy and maintainability, the following evolution is planned
 ### 5.1 Separation of Concerns (The "Data-Driven" API)
 
 Critique (Current State):
+
 The current chart suffers from "Pass-Through Complexity" and a "Boolean Swamp" (`deploy.persistence`, `deploy.monitoring`), requiring users to manually wire dependencies (e.g., `vaultSecrets` templating).
 
 Target State (Proposed API):
+
 We are shifting to a strict Intent-Based Data Model enforced by JSON Schema.
 
 ```typescript

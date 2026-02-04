@@ -2,10 +2,10 @@
 aliases: []
 created: 2025-05-26T13:50:29Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:03+00:00
+modified: 2026-02-04T07:27:27+00:00
 status: "null"
 tags: ["emotion", "shame", "TheHuman/Health/ADHD"]
-title: Shame
+title: MOC - Shame
 type: "map"
 updated: 
 ---

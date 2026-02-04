@@ -1,18 +1,20 @@
 ---
-tags: ["ff_deploy", "SoT", "deployment", "terraform", "kubernetes"]
 aliases: ["FITFILE Platform Deployment"]
-type: SoT
+created: 2026-02-01T19:26:00+00:00
+modified: 2026-02-04T07:27:20+00:00
 status: active
-confidence: high
+tags: ["deployment", "ff_deploy", "kubernetes", "SoT", "terraform"]
+title: SoT - FitFile Deployment - Platform Module
+type: SoT
 ---
 
-# Source of Truth: FitFile Platform Deployment
+## Source of Truth: FitFile Platform Deployment
 
-## Minimum Viable Understanding (MVU)
+### Minimum Viable Understanding (MVU)
 
 The FITFILE Platform Terraform Module (`terraform-helm-fitfile-platform`) is the canonical infrastructure-as-code (IaC) solution for deploying the FITFILE Kubernetes platform. It orchestrates the deployment of essential cluster components—Ingress, GitOps (ArgoCD), Secrets (Vault), and Monitoring—in a strict dependency order. It serves as the bridge between raw infrastructure (Azure/AWS) and application workloads.
 
-## Core Architecture
+### Core Architecture
 
 The module employs a dependency-driven architecture to ensure a stable platform foundation. Components are deployed in the following sequence:
 
@@ -26,35 +28,40 @@ graph TD
     A --> F[Cluster Autoscaler (AWS Only)]
 ```
 
-### 1. Vault Secrets Operator (VSO)
-*   Purpose: Bridges HashiCorp Vault with Kubernetes for secure secret injection.
-*   Function: Authenticates via AppRole, synchronizes secrets to native Kubernetes `Secret` resources, and manages dynamic secrets (e.g., ACR credentials).
-*   Key Config: Configured via `vso_helm_values`. Requires valid `app_role_secrets_map`.
+#### 1. Vault Secrets Operator (VSO)
 
-### 2. Reflector
-*   Purpose: Information radiator for secrets and ConfigMaps.
-*   Function: Automatically mirrors secrets (like image pull secrets or TLS certificates) across namespaces based on annotations.
-*   Dependency: Essential for distributing the `fitfile-image-pull-secret` to application namespaces.
+- Purpose: Bridges HashiCorp Vault with Kubernetes for secure secret injection.
+- Function: Authenticates via AppRole, synchronizes secrets to native Kubernetes `Secret` resources, and manages dynamic secrets (e.g., ACR credentials).
+- Key Config: Configured via `vso_helm_values`. Requires valid `app_role_secrets_map`.
 
-### 3. NGINX Ingress Controller
-*   Purpose: The cluster's traffic gateway.
-*   Function: Provides HTTP/HTTPS load balancing and TLS termination.
-*   Configuration: Typically configured with an Internal Load Balancer (`ingress_load_balancer_type = "internal"`) for private clusters.
-*   Hard Constraint: Requires VSO and Reflector to be healthy first.
+#### 2. Reflector
 
-### 4. ArgoCD (GitOps)
-*   Purpose: The Continuous Delivery engine.
-*   Function: Syncs application state from the GitLab Helm Chart Repository to the cluster.
-*   Workflow: Once deployed, ArgoCD takes over the lifecycle management of business applications (`ffnode`, etc.).
-*   Configuration: Custom applications defined in `argocd_applications`.
+- Purpose: Information radiator for secrets and ConfigMaps.
+- Function: Automatically mirrors secrets (like image pull secrets or TLS certificates) across namespaces based on annotations.
+- Dependency: Essential for distributing the `fitfile-image-pull-secret` to application namespaces.
 
-### 5. Cluster Autoscaler
-*   Purpose: Dynamic resource elasticity.
-*   Condition: Deployed only when `cloud_provider = "AWS"`. (Azure AKS manages this natively).
+#### 3. NGINX Ingress Controller
 
-## Implementation & Configuration
+- Purpose: The cluster's traffic gateway.
+- Function: Provides HTTP/HTTPS load balancing and TLS termination.
+- Configuration: Typically configured with an Internal Load Balancer (`ingress_load_balancer_type = "internal"`) for private clusters.
+- Hard Constraint: Requires VSO and Reflector to be healthy first.
 
-### Module Usage (v2.0.0+)
+#### 4. ArgoCD (GitOps)
+
+- Purpose: The Continuous Delivery engine.
+- Function: Syncs application state from the GitLab Helm Chart Repository to the cluster.
+- Workflow: Once deployed, ArgoCD takes over the lifecycle management of business applications (`ffnode`, etc.).
+- Configuration: Custom applications defined in `argocd_applications`.
+
+#### 5. Cluster Autoscaler
+
+- Purpose: Dynamic resource elasticity.
+- Condition: Deployed only when `cloud_provider = "AWS"`. (Azure AKS manages this natively).
+
+### Implementation & Configuration
+
+#### Module Usage (v2.0.0+)
 
 Version 2.0.0 enforces strict version pinning for stability.
 
@@ -93,14 +100,14 @@ module "platform" {
 }
 ```
 
-### Security & Secret Management flow
+#### Security & Secret Management Flow
 
-1.  Auth: VSO authenticates to Vault using AppRole credentials.
-2.  Sync: Secrets (ACR credentials, PKI certs) are pulled into the `vault-secrets-operator-system` namespace.
-3.  Distribution: Reflector detects annotated secrets and copies them to application namespaces.
-4.  Consumption: Pods use these secrets for image pulling and configuration injection.
+1. Auth: VSO authenticates to Vault using AppRole credentials.
+2. Sync: Secrets (ACR credentials, PKI certs) are pulled into the `vault-secrets-operator-system` namespace.
+3. Distribution: Reflector detects annotated secrets and copies them to application namespaces.
+4. Consumption: Pods use these secrets for image pulling and configuration injection.
 
-## Troubleshooting & Operations
+### Troubleshooting & Operations
 
 | Issue | Symptom | Resolution |
 |-------|---------|------------|
@@ -108,7 +115,7 @@ module "platform" {
 | Ingress Pending | `LoadBalancer IP not assigned` | Ensure `ingress_ip_address` is valid and not in use within the subnet. |
 | Vault Auth Fail | `Failed to authenticate` | Validate `app_role_secrets_map` IDs against Vault. Check Vault reachability. |
 
-### Verification Commands (Jumpbox)
+#### Verification Commands (Jumpbox)
 
 ```bash
 # 1. Check Platform Health
@@ -124,8 +131,8 @@ kubectl get vaultdynamicsecret -A
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 ```
 
-## Key Repositories
+### Key Repositories
 
-*   Platform Module: `TFC-Modules/terraform-helm-fitfile-platform`
-*   Deployment Template: `private_platform_template`
-*   Vault Config: `central-services/hcp/vault`
+- Platform Module: `TFC-Modules/terraform-helm-fitfile-platform`
+- Deployment Template: `private_platform_template`
+- Vault Config: `central-services/hcp/vault`
