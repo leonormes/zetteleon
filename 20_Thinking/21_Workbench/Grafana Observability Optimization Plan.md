@@ -1,12 +1,13 @@
 ---
-captured: "2026-01-30T08:34:19+00:00 2026-01-30T08:34:19+00:00"
+captured: 2026-01-30T08:34:19+00:00 2026-01-30T08:34:19+00:00
 created: 2026-01-30T08:34:25+00:00
 modified: 2026-02-04T13:00:47+00:00
-source: "https://gemini.google.com/share/670a07562033"
-status: "phase-1"
-tags: ["input"]
+source: https://gemini.google.com/share/670a07562033
+status: processing
+tags:
+  - input
 title: Grafana Observability Optimization Plan
-type: "head"
+type: head
 ---
 
 i have the grafana monitoring k8s operator deployed. I want to optimise this deployment to create useful dashboards and alerts. review the attached notebook materials and define a plan for assessing our current state of observability and then compare against best practices and do a gap analyses. I need work packets I can input to our work tracking system, jira

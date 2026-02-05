@@ -1,7 +1,7 @@
 ---
 aliases: ["Lattice Theory MOC", "Mathematics of Hierarchy", "Order Theory"]
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-04T09:55:22+00:00
+modified: 2026-02-05T15:47:29+00:00
 tags: ["logic", "math", "moc", "order-theory"]
 title: MOC - Order Theory
 type: map
@@ -37,7 +37,7 @@ How this abstract math is applied to concrete domains.
 Order Theory does not exist in isolation. It is the structural bridge between Sets and Types.
 
 | Domain       | Focus                    | Core Relation                          | Vault Connection                                                     |
-| :----------- | :----------------------- | :------------------------------------- | :------------------------------------------------------------------- |
+|:----------- |:----------------------- |:------------------------------------- |:------------------------------------------------------------------- |
 | Set Theory   | Membership & Collections | $x \in A$ (Element of)                 | [[Axiomatic Set Theory Is a Foundational Framework for Mathematics]] |
 | Order Theory | Hierarchy & Specificity  | $a \sqsubseteq b$ (More specific than) | [[SoT - Order Theory & Lattices]]                                    |
 | Type Theory  | Computation & Proof      | $x: T$ (Instance of)                   | [[SoT - Type Theory & Data Structures]]                              |

@@ -52,3 +52,7 @@ In distributed systems, traditional debugging (SSHing into a server) is impossib
 - Kubectl:
     - `kubectl logs`: Immediate stream inspection.
     - `kubectl describe`: Event history for resources (Scheduling failures, ImagePullBackOff).
+# ## 4. Kubernetes-Native Tools
+
+### Project Logs & Updates
+- [[2026-02-05 - Grafana Helm Chart Upgrade & Repository Migration]] (Grafana v1 to v3 migration and OCI transition).

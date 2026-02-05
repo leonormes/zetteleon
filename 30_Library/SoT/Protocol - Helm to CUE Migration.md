@@ -1,63 +1,67 @@
 ---
-aliases: ["CUE Migration Strategy", "Helm to CUE Strangler Fig"]
-created: 2026-02-03T19:20:00+00:00
-last_synthesis: 2026-02-03
-modified: 2026-02-04T07:26:38+00:00
-source_of_truth: true
-status: evergreen
-synthesis-count: 1
-tags: ["cue", "migration", "protocol", "refactoring"]
+alias: ["Helm to CUE Strategy", "Configuration Migration Protocol", "Shadow & Strangulate"]
+created: 2026-02-05T00:00:00+00:00
+modified: 2026-02-05T00:00:00+00:00
+status: stable
+tags: ["cue", "helm", "migration", "protocol", "sot"]
 title: Protocol - Helm to CUE Migration
-trust-level: stable
-type: "protocol"
+type: protocol
 ---
 
 ## Logic Map
 
-- Objective: Migrate a legacy Helm-based infrastructure to CUE without a "Big Bang" rewrite.
-- Strategy: The "Strangler Fig" pattern. Wrap the old system, validate it, then slowly replace its internals.
-- Constraint: Zero downtime. CI/CD must pass at every stage.
+- **Objective:** Transition from "Template-Based" (Helm/Jinja2) to "Constraint-Based" (CUE) configuration without downtime or regression.
+- **Strategy:** "Shadow & Strangulate". Use CUE to validate existing outputs *before* it generates them.
+- **Core Principle:** Parity Verification. Every step must be mathematically provable via `diff` or `cue vet`.
 
 ---
 
 ## The Algorithm
 
-### Phase 1: Validation (The Gatekeeper)
+### Phase 1: Shadow Validation (The "Read-Only" State)
 
-_Goal: Stop bad config from reaching the cluster using CUE's rigorous typing, without replacing Helm._
+*Objective: Create a mathematical proof that current configuration is valid.*
 
-1. Define Schema: Create `schema.cue` for critical resources (e.g., `deployment.cue`).
-2. Render Helm: In CI, run `helm template > out.yaml`.
-3. Vet: Run `cue vet out.yaml schema.cue`.
-4. Result: Helm still drives, but CUE catches type errors before apply.
+1. **Import:** Use `cue import` on the *output* of your current templates (rendered YAML) to derive a base schema.
+   ```bash
+   helm template . > current_state.yaml
+   cue import current_state.yaml -p config -l 'metadata.name'
+   ```
+2. **Unify:** Find the common structure (Lattice Supremum) across environments.
+3. **Verify:** Add a CI step that renders the Helm chart and validates it against the new schema.
+   ```bash
+   helm template . | cue vet -d '#Deployment' schema.cue -
+   ```
+4. **Rollback Trigger:** If `cue vet` fails on *existing* deployments, the schema is over-constrained. Loosen the schema.
 
-### Phase 2: The Data Layer (Parameter Unification)
+### Phase 2: Hybrid Generation (The "Leaf-Node" Strategy)
 
-_Goal: Solve "Override Hell" in `values.yaml`._
+*Objective: Replace volatile `values.yaml` with CUE, keeping heavy templates.*
 
-1. Ingest: Import complex `values.yaml` into CUE (`cue import values.yaml`).
-2. Unify: Use CUE to generate environment-specific values (dev/prod) using lattice unification.
-3. Inject: Export back to JSON: `cue export env/prod.cue > values.json`.
-4. Deploy: `helm install -f values.json`.
-5. Result: CUE manages the _configuration logic_; Helm is downgraded to a simple template engine.
+1. **Model:** Define the input parameters in CUE.
+2. **Export:** Generate JSON from CUE to feed into Helm.
+3. **Parity Check:** Prove that CUE-generated JSON matches the original `values.yaml`.
+   ```bash
+   diff <(cue export values.cue) original-values.json
+   ```
+4. **Deploy:** `helm install -f <(cue export values.cue)`
 
-### Phase 3: Total Definition (Full Unification)
+### Phase 3: Full Unification (The "Source of Truth" Shift)
 
-_Goal: Eliminate Helm templates for internal services._
+*Objective: Retire Helm templates. CUE generates manifests directly.*
 
-1. Define Objects: Write Kubernetes objects directly in CUE.
-2. Module Abstraction: Create a `#Service` module to abstract boilerplate.
-3. Export: CI step: `cue export > manifest.yaml`.
-4. Apply: `kubectl apply -f manifest.yaml`.
-5. Result: Pure CUE pipeline.
+1. **Lift:** Move structural logic (Deployments, Services) into CUE Definitions.
+2. **Replace:** Switch from String Injection (`{{ .Values.image }}`) to Type Unification (`image: string`).
+3. **Verify:** Use `kubectl diff` to ensure no unintended cluster state changes.
 
 ---
 
-## Error Handling
+## Failure Mode Analysis
 
-- If `cue vet` fails in Phase 1: Do not block deploy immediately. Run in "Warn" mode until schema is mature.
-- If Vendor Charts change: Use Phase 2 (CUE generating values) rather than Phase 3 (Rewriting the chart).
+| Failure | Helm (Template) | CUE (Constraint) |
+| :--- | :--- | :--- |
+| **Type Conflict** | Runtime Error (Cluster rejects YAML) | Compile Error (Generation blocked) |
+| **Override Hell** | Layer 2 silently overwrites Layer 1 | **Bottom ($\bot$)**: Explicit Conflict Error |
+| **Missing Field** | Empty string in YAML | Compile Error (Incomplete Value) |
 
-## Unit Test
-
-- Pass Criteria: `cue export` produces YAML that is byte-for-byte identical (or semantically equivalent) to the legacy Helm output during the transition.
+*Related:* [[SoT - CUE Configuration]]

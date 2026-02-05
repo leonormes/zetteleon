@@ -87,3 +87,6 @@ The template acts as an adapter. It does not decide _what_ to do; it only decide
 1. Zero Human Error: Users cannot accidentally set `replicas: 1` on a `mission-critical` database. The state is unrepresentable.
 2. Hardware Sympathy: Resources are defined in "T-Shirt Sizes" (Profiles) that match physical node pools, ensuring perfect bin-packing.
 3. Vendor Agnosticism: Switching from Bitnami to AWS RDS only requires changing the Compiler Logic, not the User Intent.
+# ## Pattern: Helm Chart as a Compiler
+
+- [[SoT - Simple Made Easy (Rich Hickey)]]: The "Compiler Pattern" is a form of decomplecting, separating the *what* (Intent Data) from the *how* (Adapter Logic).

@@ -2,7 +2,7 @@
 aliases: ["K8s Architecture", "K8s Cluster State", "K8s Mental Model"]
 created: 2025-12-16T00:00:00Z
 last_reviewed: "2025-12-16"
-modified: 2026-02-01T15:07:56+00:00
+modified: 2026-02-05T00:00:00+00:00
 status: "stable"
 tags: ["devops", "etcd", "kubernetes", "mental_model", "SoftwareEngineering/Architecture"]
 title: SoT - Kubernetes Cluster State Architecture
@@ -10,84 +10,66 @@ type: "SoT"
 updated: 
 ---
 
-> - Objects: " Independent records (Pods, Services, Deployments)."
-> - Relationships: " Loosely coupled via Label Selectors (Soft Foreign Keys)."
-> - Interface: " The API Server acts as the SQL engine, translating Intent (`kubectl apply`) into CRUD operations on this database."
+## Minimum Viable Understanding (MVU)
 
-## 2. The Mental Model: Database vs. Tree
-
-Newcomers often visualize Kubernetes as a nested tree (Deployment contains Pods). This is incorrect.
-
-| The Tree Model (Wrong) | The Database Model (Correct) |
-|:--- |:--- |
-| A Deployment "owns" Pods physically. | A Deployment creates standalone Pods with a specific label. |
-| Deleting the parent kills the child. | Deleting the parent triggers garbage collection (OwnerReferences). |
-| Configuration is one big file. | Configuration is thousands of separate keys in `/registry/`. |
-
-### 2.1 The "List" Object (The Synthetic Root)
-
-While no root object exists in storage, the API can synthesize one.
-
-- Command: `kubectl get pods -o json` returns a virtual `List` object containing an array of items.
-- Utility: This is how we dump cluster state, but it is a _runtime view_, not a storage artifact.
+Kubernetes is not a "Container Orchestrator" in the traditional sense; it is a **Distributed Database** (etcd) wrapped in a set of **Reconciliation Loops** (Controllers). The "Cluster" is simply the eventually consistent materialization of the state stored in etcd.
 
 ---
 
-## 3. The Coupling Mechanism: Label Selectors
+## 1. The Core Data Structure (etcd)
 
-If objects are independent, how do they interact?
+At its heart, Kubernetes is a **B+Tree** key-value store.
 
-> Label Selectors are the "SQL WHERE Clause" of Kubernetes.
+- **Keys:** Hierarchical paths (e.g., `/registry/pods/default/nginx-1`).
+- **Values:** Serialized Protobuf/JSON objects representing the *Intent* (Spec) and *Status*.
+- **Consistency:** Strict consistency (CP system) ensures that while the *nodes* may drift, the *definition* of the cluster is always authoritative.
 
-- The Service: "I route traffic to `SELECT * FROM pods WHERE label='app=frontend'`."
-- The Deployment: "I ensure 3 replicas exist `WHERE label='app=frontend'`."
-- The Pod: Doesn't know it is being managed. It just wears the label `app=frontend`.
+### The "Event Log" Pattern
 
-### 3.1 Namespace Isolation
-
-The Namespace acts as a mandatory filter on every selector query.
-
-- Query: `SELECT * FROM pods WHERE label='app=frontend' AND namespace='tenant-a'`
-- Result: A Service in `tenant-a` is mathematically blind to Pods in `tenant-b`.
+Kubernetes does not just store state; it emits a stream of **Change Events** (WATCH) whenever that state mutates. Controllers subscribe to this stream, creating an event-driven architecture.
 
 ---
 
-## 4. The Network Bridge: Ingress & Services
+## 2. The Reconciliation Loop (The Algorithm)
 
-While Namespaces isolate _management_ (Selectors), they do not isolate _networking_ by default.
+The logic of Kubernetes is decentralized into independent loops that constantly compare `Spec` (Desired State) vs. `Status` (Actual State).
 
-### A. Flat Network
+```mermaid
+graph TD
+    A[Observe State] --> B{Diff?};
+    B -- Yes --> C[Act / Mutate];
+    C --> A;
+    B -- No --> A;
+```
 
-- Rule: Every Pod can route IP traffic to every other Pod, regardless of Namespace.
-- Constraint: You need the IP (which changes) or the DNS name.
-
-### B. Ingress (The Cluster Router)
-
-The Ingress Controller breaks the Namespace isolation model.
-
-- Role: The Concierge in the lobby.
-- Power: It reads Ingress Resources from _all_ Namespaces and builds a global routing table.
-- Risk: It bridges traffic from the public edge directly into isolated Namespaces.
+This is why Kubernetes is "Self-Healing." It doesn't execute a sequence of steps (Imperative); it converges on a target state (Declarative).
 
 ---
 
-## 5. Drift Detection: Intent vs. Status
+## 3. Ephemeral vs. Durable State
 
-When comparing Git (Intent) to Cluster (Status), noise arises.
-
-| Source (Git) | Cluster (Etcd) |
-|:--- |:--- |
-| `spec` (Desired State) | `spec` + `status` (Current Reality) |
-| Metadata (Name/Labels) | System Metadata (`uid`, `resourceVersion`, `managedFields`) |
-
-Tooling:
-
-- `kubectl-neat`: A plugin to strip system metadata for clean diffs.
-- ArgoCD: Automatically performs this normalization to show "App Diff."
+| Component | Storage Location | Durability |
+| :--- | :--- | :--- |
+| **Workloads** (Deployments) | etcd | **High** (The definition persists) |
+| **Pod Filesystem** | Node Disk | **None** (Dies with the container) |
+| **Volumes** (PV/PVC) | Cloud Block Store | **High** (Independent of Pod lifecycle) |
+| **Logs** | Node `/var/log` | **Low** (Rotated/Deleted; needs external shipping) |
 
 ---
 
-## 6. Related Concepts
+## 4. The Namespace Abstraction
 
-- [[SoT - FITFILE Secret Management Architecture]] - How secrets are stored in this database.
-- [[SoT - FITFILE Platform Deployment]] - How we deploy to this architecture.
+Namespaces are **Virtual Clusters** backed by the same physical etcd. They provide:
+- **Scope:** Unique names within the namespace.
+- **Quota:** Resource limits (CPU/RAM).
+- **Access:** RBAC boundaries.
+
+They do *not* provide:
+- **Network Isolation:** (Requires NetworkPolicies).
+- **Node Isolation:** (Requires NodeSelectors/Taints).
+
+---
+
+## Related Concepts
+- [[SoT - Conservation of Complexity]]: Kubernetes shifts complexity from "Runbooks" (Code) to "Manifests" (Data/Representation).
+- [[SoT - The Data Architecture of Source Control (Git)]]: GitOps treats Git as the "upstream" etcd.

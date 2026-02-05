@@ -107,3 +107,8 @@ Orchestration:
 
 - [[SoT - Kubernetes Networking & DNS]] (Services, Ingress, CNI)
 - [[SoT - Cloud Networking Core Components]] (Cloud Integration)
+# ## Model
+
+### Core Source of Truth (SoT)
+- [[SoT - Kubernetes Networking Model]] - flat address space, invariants, and node bridges.
+- [[SoT - Calico CNI Architecture]] - Felix, eBPF, VXLAN vs IP-in-IP.

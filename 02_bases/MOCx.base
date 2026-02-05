@@ -17,7 +17,7 @@ views:
       - file.name
       - file.mtime
     sort:
-      - property: file.name
+      - property: file.mtime
         direction: DESC
     columnSize:
       note.type: 136

@@ -1,95 +1,81 @@
 ---
-aliases: [Complexity Budget, Law of Conservation of Complexity, Tesler's Law]
-created: 2026-01-31T00:00:00+00:00
-last-synthesis: 2026-02-02
-last_reviewed: 
-modified: 2026-02-04T07:27:23+00:00
-status: evergreen
-synthesis-count: 3
-tags: [architecture, complexity, mental-model, system-design]
+aliases: [Software Complexity Law, Tesler's Law, Conservation of Complexity]
+created: 2026-01-08T12:05:00Z
+last_reviewed: 2026-02-05
+modified: 2026-02-05T00:00:00+00:00
+status: stable
+tags: [architecture, complexity, mental_models, software_engineering, sot]
 title: SoT - Conservation of Complexity
 type: SoT
-updated: 
 ---
 
 ## Minimum Viable Understanding (MVU)
 
-> Software complexity is conserved: it must reside either in Bucket A (Code/Time) or Bucket B (Data/Space).
+Software complexity obeys a conservation law (Tesler's Law): it cannot be destroyed, only relocated. In any non-trivial system, complexity must reside in one of two primary containers:
 
-Tesler's Law dictates the _amount_ of complexity is fixed by the domain. The architect's job is not to destroy it, but to shift it from Procedural Logic (fragile, hard to reason about) into Structural Representation (robust, inspectable).
+1.  **Control Flow (Code/Time):** Logic, branches, loops, and temporal sequences (The "How").
+2.  **Representation (Data/Space):** Schemas, types, graphs, and static structures (The "What").
 
-## 1. The Core Dialectic: Bucket A Vs Bucket B
+---
 
-Linus Torvalds: _"Bad programmers worry about the code. Good programmers worry about data structures and their relationships."_
+## 1. The Core Trade-off
 
-We conceptualize the system as two containers for the "Mass" of complexity:
+When a developer "worries about data structures" (Torvalds/Pike), they are moving complexity out of the procedural layer and into the structural layer.
 
-| Feature | Bucket A (Code) | Bucket B (Data) |
-|:---|:---|:---|
-| Form | Verbs (Algorithms, Control Flow) | Nouns (Schema, Tables, Graphs) |
-| Nature | Dynamic / Temporal | Static / Spatial |
-| Cognitive Load | High (Must simulate CPU state) | Low (Visual/Topological) |
-| Constraint | Implicit (hidden in `if` logic) | Explicit (Types, FKs, Enums) |
-| Torvalds' Axiom | "Bad" (Fragile, difficult to test) | "Good" (Robust, self-evident) |
+| Logic-Heavy (Bad) | Data-Heavy (Good) |
+| :--- | :--- |
+| **Where:** Functions, `if/else`, flags. | **Where:** Types, Schemas, Tables. |
+| **Mental Model:** "Steps to execute." | **Mental Model:** "Valid states to exist." |
+| **Fragility:** High (Path explosion). | **Fragility:** Low (Compiler enforcement). |
+| **Example:** `if (isProd) { ... }` | **Example:** `config: ProductionConfig` |
 
-The Strategy: Deliberately migrate complexity from A to B. "Fold knowledge into data so program logic can be stupid and robust" (Rob Pike).
+### The "Linus Torvalds" Bridge
 
-## 2. Mechanisms of Shift
+> *"Bad programmers worry about the code. Good programmers worry about data structures and their relationships."* — Linus Torvalds
 
-How do we actually move complexity?
+This is not just about using HashMaps vs Arrays. It is about **Data Modeling**.
+- **The "Computer Science" View:** Optimizing for memory/cpu (Linked Lists, Binary Trees).
+- **The "Domain" View:** Optimizing for correctness (Schema Normalization, Discriminated Unions).
 
-### A. Table-Driven Methods
+By designing the *shape* of your data to prohibit invalid states ("Making Illegal States Unrepresentable"), you eliminate the need for defensive code to handle those states.
 
-Instead of `if (age < 20) return 5.0; else if…`, use a lookup table.
+---
 
-- Result: Logic becomes generic (`table.get(age)`). New rules require data entry, not code deployment.
+## 2. Practical Application: "DBA Thinking" in Code
 
-### B. Finite State Machines (FSM)
+Just as a DBA normalizes a database to ensure data consistency, a developer should normalize in-memory structures.
 
-Instead of "Boolean Salad" (`isLoading &&!hasError`), use a Graph.
+- **DBA:** "Don't store `UserAddress` in the `Orders` table; reference `UserID`."
+- **Dev:** "Don't store `isValid` boolean next to `Result`; return a `Result | Error` type."
 
-- Result: Invalid states become unrepresentable fundamental constraints of the data structure.
+### Case Study: Helm Charts
+- **The Anti-Pattern:** A `values.yaml` full of boolean flags (`enableFeatureX: true`) requiring complex `{{ if }}` logic in templates.
+- **The Solution:** A `values.yaml` defining a *list* of objects. The template simply iterates over the list. The complexity moves from the *template logic* to the *data definition*.
+- *Reference:* [[Pattern - Helm Chart as a Compiler]]
 
-### C. Data-Oriented Design (DoD)
+---
 
-Instead of Objects (AoS), use Arrays (SoA).
+## 3. Cognitive Implications
 
-- Result: Performance becomes a property of the data layout (cache locality), not the cleverness of the loop.
+- **Static vs. Dynamic:** Humans and machines find it easier to reason about static topology (what things *are*) than dynamic execution (how things *change*).
+- **Schema Debt:** Because data structures often "ossify" (become hard to change once shared), failing to encode complexity in structure *early* leads to "interest" paid in the form of increasingly complex procedural glue code.
 
-## 3. Case Studies in Allocation
+## 4. Relation to LLMs
 
-### A. The Linux Kernel (VFS)
+This law is the foundation for the [[LLM Reasoning Efficiency is Proportional to Structural Constraint|LLM Corollary]]. LLMs are significantly more effective at traversing structure (Knowledge Graphs, Schemas) than simulating execution (simulating a CPU).
 
-- Problem: Support 50+ filesystems (EXT4, NTFS, BTRFS) without a massive `switch` statement.
-- Solution (Bucket B): The `file_operations` struct. The VFS defines the _shape_ of a filesystem.
-- Outcome: The kernel code is generic (`file->op->read()`). Complexity is encapsulated in the data structure instances of the drivers.
+---
 
-### B. Enterprise Tax Engines
+## Related Knowledge
+- [[SoT - Kubernetes Cluster State Architecture]] (K8s shifts complexity to State/etcd).
+- [[Pattern - Helm Chart as a Compiler]] (Implementation of this law in DevOps).
+# ## Minimum Viable Understanding (MVU)
 
-- Problem: Tax laws change daily and vary by street address.
-- Approach A (Code): `if (zip == 10001) …`. Result: Maintenance nightmare.
-- Approach B (Data): A Rules Engine (Database). Code is just `SELECT rate FROM Rules`. Result: Auditable, updateable by non-programmers.
+### The "Balloon" Analogy (Tesler's Law)
+Complexity acts like a balloon. You cannot deflate it (remove it); if you squeeze it in one place, it bulges in another.
+- **Squeeze the UI (Simple Interface):** The "bulge" moves to the internal engineering (complex code).
+- **Squeeze the Engineering (Simple Code):** The "bulge" moves to the user (complex manual configuration).
+- **The Goal:** Move the "bulge" into the **Data Structure**, where it is rigid, validated, and managed by the compiler, rather than human cognition.
 
-## 4. Pathologies (When It Goes Wrong)
-
-Shifting too much complexity to Data can backfire.
-
-### A. The Inner-Platform Effect
-
-Creating a data structure so complex it becomes a programming language (e.g., XML rules with logical operators).
-
-- _Verdict_: Moving code into a container (Database/Config) that lacks a compiler is worse than just writing code.
-
-### B. The Anemic Domain Model
-
-Stripping all logic from objects until they are just bags of data, leaving the logic in "Services" that have no state.
-
-- _Verdict_: Valid in functional/DoD contexts, but in OOP, it decouples the data from its invariants, allowing invalid states.
-
-## 5. Dimensions of Complexity (Theory)
-
-- Kolmogorov Complexity: The irreducible "floor" of the problem (e.g., US Tax Code).
-- Cyclomatic Complexity: The measure of "messiness" in Bucket A.
-- Semantic Density: The ambiguity of the vocabulary.
-
-See Also: [[SoT - Data-Oriented Design]], [[SoT - Infrastructure Complexity Management]]
+### Philosophical Foundation
+- [[SoT - Simple Made Easy (Rich Hickey)]]—_The Axiom._ Simple (one braid) is not Easy (near at hand). Decomplecting logic from state is the primary tool for managing conservation laws.

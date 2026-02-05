@@ -1,7 +1,7 @@
 ---
 aliases: ["Lattice Theory", "Meet and Join", "Partial Orders", "Subsumption"]
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-04T07:25:15+00:00
+modified: 2026-02-05T00:00:00+00:00
 tags: ["logic", "math", "sot", "theory"]
 title: SoT - Order Theory & Lattices
 type: SoT
@@ -9,9 +9,9 @@ type: SoT
 
 ## Minimum Viable Understanding (MVU)
 
-Order Theory is the mathematics of hierarchy and comparison. In configuration systems like CUE, "Order" refers to Specificity (Information Content), not Time (Execution Sequence).
+Order Theory is the mathematics of hierarchy and comparison. In configuration systems like CUE, "Order" refers to **Specificity** (Information Content), not Time (Execution Sequence).
 
-Values exist in a Lattice structure flowing from General ($\top$ Top) to Specific (Leaf) to Impossible ($\bot$ Bottom). Computation is the process of finding the Greatest Lower Bound (Meet) between constraints.
+Values exist in a Lattice structure flowing from **General** ($\top$ Top) to **Specific** (Leaf) to **Impossible** ($\bot$ Bottom). Computation is the process of finding the Greatest Lower Bound (Meet) between constraints.
 
 ---
 
@@ -19,21 +19,26 @@ Values exist in a Lattice structure flowing from General ($\top$ Top) to Specifi
 
 A Partial Order is a relationship ($\sqsubseteq$) meaning "is more specific than" or "is a subtype of".
 
-- Reflexive: $a \sqsubseteq a$ (A thing is a subtype of itself).
-- Transitive: If $a \sqsubseteq b$ and $b \sqsubseteq c$, then $a \sqsubseteq c$.
-- Antisymmetric: If $a \sqsubseteq b$ and $b \sqsubseteq a$, then $a = b$.
+- **Reflexive:** $a \sqsubseteq a$ (A thing is a subtype of itself).
+- **Transitive:** If $a \sqsubseteq b$ and $b \sqsubseteq c$, then $a \sqsubseteq c$.
+- **Antisymmetric:** If $a \sqsubseteq b$ and $b \sqsubseteq a$, then $a = b$.
 
-Visualizing Specificity:
+### Visualizing Specificity (The Ontology)
+Order Theory is the backbone of all Ontologies. The "Is-A" relationship is strictly a Partial Order.
 
 ```
-        "Vehicle" (General)
+        "Thing" (Top/Any)
            |
-         "Car"
+        "Animal"
            |
-     "Tesla Model 3" (Specific)
+        "Mammal"
+           |
+         "Dog"
+           |
+     "Fido" (Leaf/Instance)
 ```
 
-It is "Partial" because not everything is comparable. "Integer" and "String" are incomparable; neither subsumes the other.
+In this context, **Unification** is the process of placing an item correctly in the hierarchy. If you say "Fido is a Dog" AND "Fido has scales," Order Theory detects the conflict because `Dog` does not unify with `Has Scales` in the defined lattice.
 
 ---
 
@@ -72,8 +77,6 @@ These three domains describe the same structures using different vocabulary.
 | Option | Union ($\cup$) | Join ($\sqcup$) | Sum Type ($A + B$) | Disjunction (`|`) |
 | Everything | Universal Set ($U$) | Top ($\top$) | Any | `_` |
 | Error | Empty Set ($\emptyset$) | Bottom ($\bot$) | Never / Void | `_|_` |
-
-_See also: [[Axiomatic Set Theory Is a Foundational Framework for Mathematics]] and [[SoT - Type Theory & Data Structures]]_
 
 ---
 

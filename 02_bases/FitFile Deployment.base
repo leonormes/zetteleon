@@ -14,18 +14,15 @@ views:
         - file.ext != "base"
     order:
       - file.name
-      - Reviewed
       - tags
       - type
       - status
       - file.size
     sort:
-      - property: Reviewed
+      - property: type
         direction: ASC
       - property: file.size
         direction: DESC
-      - property: file.name
-        direction: ASC
     columnSize:
       file.name: 445
       note.tags: 665

@@ -86,3 +86,7 @@ Torvalds distinguishes "Good Taste" by how a developer handles edge cases.
 - Methodology: [[SoT - Type-Driven Development (The Torvalds Loop)]] (How to execute this).
 - Hardware: [[SoT - Data-Oriented Design]] (The physical implementation).
 - Physics: [[SoT - Complexity Conservation]] (Tesler's Law).
+# ## Minimum Viable Understanding (MVU)
+
+### Design Principles
+- [[SoT - Simple Made Easy (Rich Hickey)]]: Advocates for "Decomplecting"—untangling data, logic, and state to ensure components can be composed without braid-induced fragility.

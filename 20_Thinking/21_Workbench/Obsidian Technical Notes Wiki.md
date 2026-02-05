@@ -1,138 +1,7 @@
 ---
-captured: "2026-02-05T10:16:09+00:00 2026-02-05T10:16:09+00:00"
 created: 2026-02-05T10:16:12+00:00
-modified: 2026-02-05T12:05:46+00:00
-source: "https://gemini.google.com/share/e6d6d340dc8e"
-status: "processing"
-tags: ["input"]
+modified: 2026-02-05T13:07:04+00:00
 title: Obsidian Technical Notes Wiki
-type: "head"
----
-
-## 🛠 Programming-Specific Workflows
-
-- Context is King: When logging a bug fix, include the "Why"—why you chose one API over another or why a specific library failed.
-- Refining Your Input: Use a separate "Capture" tool (like Drafts or phone voice memos) to jot things down quickly, then curate only the 10% of high-value insights into your Obsidian vault later.
-- "Nuggets" System: Maintain dedicated notes for "Helpful Nuggets"—obscure terminal commands, hotkeys, or "introductory" knowledge for new libraries that haven't been "installed in your brain" yet.
-
----
-
-I am vague about what I want to keep in my vault. Often the commands are very specific to a situation. There is no real point in keeping them as I can't reuse them. It is quicker to ask LLM in a specific situation and it can add in all the details for a specific situation. But I do have several different private networks that I need to ssh into our ssm or do via a bastion and I can never remember the commands. I end up with lots progressive commands as I investigate a problem and so I feel as though I should consolidate them. But why? What is the value? How can I easily find what I need in a big messy vault
-
-## 🏗️ The "Why": The Value of Consolidation
-
-While an LLM can generate a generic command, it doesn't know _your_ specific infrastructure. Consolidating has three primary benefits:
-
-- Preventing "Thinking Loops": You avoid re-considering the same tools or paths you already rejected six months ago.
-- Capturing the "Why," Not Just the "How": An LLM gives you the `ssh` syntax; your vault tells you _why_ you had to use the bastion instead of the SSM for that specific VPC.
-- Creating a "Bridge for Tomorrow": Writing down your progress at the end of a session makes it significantly easier to pick up the thread the next morning.
-
----
-
-## 🛠️ Dealing with Infrastructure (SSH/Bastion)
-
-Since your private network commands are highly specific but hard to remember, treat them as "Personal Stack Overflow" entries.
-
-- The "Nugget" Note: Create a single note for each environment (e.g., `Production Network Access`). In it, store only the specific "nuggets"—the exact jump-host sequence or proxy-command strings you actually use.
-- Placeholder Notes: Use these for things you know exist but haven't fully documented yet. They act as "caching" for future search intent.
-- Aliases for Discovery: Use the `aliases` property (e.g., `aliases: [bastion, jumpbox, prod-ssh]`) so that when you search for "prod," the correct command note appears even if the filename is different.
-
----
-
-## 📝 Managing Progressive Investigation Logs
-
-When you are deep in a bug hunt, your vault should function like an "Engineering Notebook" or a "Mini-Report".
-
-### The "Mini-Report" Workflow
-
-Instead of a messy list of commands, use a structured log:
-
-1. Context: "As I was working on \[Task\], I noticed \[Bug\]."
-2. Observations: Record the progressive steps you took and the results.
-3. The Conclusion: If you solve it, polish the final command or solution. If it's a "one-off" that you'll never use again, it stays in the log as history; if it's reusable, move that specific command to a Language/Library Reference note.
-
----
-
-## 🔍 How to Find What You Need
-
-A "big messy vault" is only a problem if you rely solely on folders. Use these "Developer-First" discovery methods:
-
-- Maps of Content (MOCs): Create an index page for your "Infrastructure" or "Daily Workflows." This acts as a manual hub for your most-used links.
-- Dataview Queries: Automate your navigation. You can have a "Project Page" that automatically lists every mini-report or meeting note associated with that project using a simple query.
-- The "Local Graph": Keep the local graph view open. It shows you which notes are related to your current one, helping you navigate through "backlinks" (seeing every time you mentioned a specific library or server in the past).
-- Predictable Hierarchies: Use nested folders or Dendron-style naming (e.g., `Technical/SSH/Bastion-A`) so that the file path itself provides meaning and makes fuzzy searching faster.
-
----
-
-### Next Step
-
-Would you like me to write a Dataview query that you can paste into a "Dashboard" note to automatically list all your recent investigation logs?
-
-Create a LLM prompt that can write notes to my vault to get it to summarise work I have done, so that it does it on a structured way. It can pull memories from pieces for developers ltm. Look up the docs for pieces ltm so you know what it is. Look up the obsidian MCP docs. Construct a prompt I can just paste into a llm coding assistant
-
-To achieve a structured, automated workflow for your technical notes, you can use a prompt that leverages Pieces for Developers Long-Term Memory (LTM) for context and the Obsidian Model Context Protocol (MCP) for file operations.
-
-### The Core Technologies
-
-- Pieces LTM-2: Captures OS-level context (IDE edits, browser tabs, terminal commands) and organises them into "Workstream Activity" roll-ups every 20 minutes.
-- Obsidian MCP: Acts as a bridge, allowing your AI assistant to call tools like `obsidian_read_note` and `obsidian_update_note` to interact directly with your local vault.
-
----
-
-### The Prompt
-
-Paste the following into an MCP-enabled assistant (like Claude Desktop, Cursor, or Goose) configured with the Obsidian MCP server.
-
-Markdown
-
-```markdown
-# Role: Technical Knowledge Engineer
-# Context: You have access to my "Pieces for Developers" Workstream Activity (LTM) and my Obsidian Vault via MCP.
-
-## Goal
-Summarise my work from [Time Period, e.g., today/the last 4 hours] and write a structured "Mini-Report" note to my Obsidian vault.
-
-## Phase 1: Context Retrieval (Pieces LTM)
-1. Query Pieces LTM for my recent activity:
-   - Identify the main tasks, repos, and websites I interacted with.
-   - Extract specific terminal commands, bug fixes, or architectural decisions made.
-   - Note any "thinking loops" or blocked tasks.
-
-## Phase 2: Knowledge Synthesis
-Structure the findings into a "Mini-Report" format:
-- Title: [YYYY-MM-DD] - [Core Task/Bug ID]
-- Context: Briefly describe the starting state and "Why" this work was necessary.
-- The Investigation: A bulleted log of progressive steps and commands used (if reusable).
-- Hard-Won Nuggets: Specific non-obvious configurations, SSH/bastion paths, or syntax that took time to find.
-- Next Steps: Any unfinished threads for tomorrow.
-
-## Phase 3: Vault Action (Obsidian MCP)
-1. Use \`obsidian_update_note\` (or \`updateFileContent\`) to create/update the note in my \`/Projects/Logs/\` folder.
-2. If this work relates to an existing project, use \`obsidian_search_notes\` to find the Project MOC and append a link to this new report.
-3. Apply relevant tags: #work-log #[ProjectName] #technical-nugget.
-
-## Execution
-Begin by summarising what you've found in Pieces LTM for my approval before writing to the vault.
-```
-
----
-
-### Configuration Requirements
-
-To ensure this prompt works as intended:
-
-1. Pieces for Developers: Ensure the LTM-2 engine is active and you are using a Pieces-enabled assistant or have exported your LTM activity.
-2. Obsidian MCP Server: Install and configure an MCP server (such as `obsidian-mcp-server` or `mcp-obsidian`).
-3. Local REST API: Your Obsidian vault must have the Local REST API plugin enabled and an API key generated for the MCP server to communicate.
-
-Would you like me to refine the report structure to match a specific engineering notebook format you prefer?
-
-Once the note is created the LLM should run a second task to do a semantic search in my vault to find links to related notes. I have a plugin called smart connections that creates the embeddings for my notes. The obsidian MCP has a search\_vault\_smart tool that uses it for semantic search. Update the prompt
-
-This is a sophisticated workflow that transforms Obsidian from a static folder of files into an active inference engine. By combining Pieces LTM (capturing what happened) with Smart Connections (finding why it matters), you create a loop where the AI not only logs your work but contextually "reminds" you of related past solutions.
-
-Here is the updated prompt designed for an MCP-enabled assistant.
-
 ---
 
 ## The "Technical Synapse" Prompt
@@ -143,15 +12,15 @@ Here is the updated prompt designed for an MCP-enabled assistant.
 
 ## Phase 1: Context Retrieval (Pieces LTM)
 1. Query Pieces LTM for my activity over [Time Period]:
-   - Extract the core problem, specific terminal commands (especially SSH/SSM/Bastion sequences), and architectural decisions[cite: 309, 344].
+   - Extract the core problem, specific terminal commands (especially SSH/SSM/Bastion sequences), and architectural decisions.
    - Identify specific files edited and documentation URLs visited.
 
 ## Phase 2: Knowledge Synthesis & Note Creation
-1. Structure a "Mini-Report" in my \`/Projects/Logs/\` folder[cite: 13, 14]:
-   - Title: [YYYY-MM-DD] - [Core Task/Bug ID]
-   - Context: Describe the "Why" and the specific environment (e.g., VPC/Bastion path)[cite: 15, 17].
-   - Progressive Investigation: A log of steps taken and commands used[cite: 309, 350].
-   - The "Nugget": Isolate non-obvious configurations that an LLM wouldn't know without my infrastructure context[cite: 71, 74].
+1. Structure a "Mini-Report" in my \`/Projects/Logs/\` folder:
+   - Title:  - 
+   - Context: Describe the "Why" and the specific environment (e.g., VPC/Bastion path).
+   - Progressive Investigation: A log of steps taken and commands used.
+   - The "Nugget": Isolate non-obvious configurations that an LLM wouldn't know without my infrastructure context.
 1. Use \`obsidian_update_note\` to commit this file to the vault.
 
 ## Phase 3: Semantic Linking (Smart Connections)
@@ -162,7 +31,7 @@ Here is the updated prompt designed for an MCP-enabled assistant.
 ## Phase 4: Final Vault Integration
 1. Append a "Related Knowledge" section to the bottom of the NEW note.
 2. Format these as wikilinks \`[[Note Name]]\` with a one-sentence explanation of the connection (e.g., "Linked because this also involved the Bastion-A timeout issue from last March")[cite: 130, 282].
-3. If any high-relevance matches are found, use \`obsidian_update_note\` to add a "Mentioned In" backlink to those older notes to strengthen the graph[cite: 9, 20].
+3. If any high-relevance matches are found, use \`obsidian_update_note\` to add a "Mentioned In" backlink to those older notes to strengthen the graph.
 
 ## Execution
 Begin by retrieving the Pieces LTM activity and presenting a summary for my review.
@@ -191,8 +60,6 @@ Here is the refined prompt with strict constraints to prevent "grep" fallback.
 ---
 
 ## The "Smart Discovery" Engineering Log Prompt
-
-Markdown
 
 ```markdown
 # Role: Technical Knowledge Engineer
@@ -334,31 +201,31 @@ tags: #infrastructure #network-access #nuggets
     * \`{{Local Port}}\` -> \`{{Remote Resource}}\`: \`{{Command}}\`
 
 ## 🛠️ Environment Configuration & "Nuggets"
-> [cite_start]Goal: Non-obvious setup details that an LLM wouldn't know[cite: 74, 101].
+> Goal: Non-obvious setup details that an LLM wouldn't know[cite: 74, 101].
 
-* [cite_start]Identity/Auth: [e.g., Requires specific AWS Profile or SSH Key] [cite: 134]
-* [cite_start]Networking Quirks: [e.g., "Must use VPC Endpoint A because B is firewalled"] [cite: 17, 18]
-* [cite_start]Software Dependencies: [e.g., "Requires \`session-manager-plugin\` version X"] [cite: 71, 344]
+* Identity/Auth: [e.g., Requires specific AWS Profile or SSH Key] [cite: 134]
+* Networking Quirks: [e.g., "Must use VPC Endpoint A because B is firewalled"] [cite: 17, 18]
+* Software Dependencies: [e.g., "Requires \`session-manager-plugin\` version X"] [cite: 71, 344]
 
 ---
 
 ## 🔍 Investigation History & Mini-Reports
-> [cite_start]Goal: Contextual logs of past problems to prevent "thinking loops"[cite: 54, 350].
+> Goal: Contextual logs of past problems to prevent "thinking loops"[cite: 54, 350].
 
 ### [[{{date}}]] - {{Core Task/Issue}}
-* [cite_start]Context: {{Briefly describe why this investigation happened}} [cite: 14, 17]
+* Context: {{Briefly describe why this investigation happened}} [cite: 14, 17]
 * Progressive Commands:
-    1.  [cite_start]\`{{Command 1}}\` -> Result: {{Output}} [cite: 308, 309]
-    2.  [cite_start]\`{{Command 2}}\` -> Result: {{Output}} [cite: 309]
-* [cite_start]Outcome: {{How it was solved or why it was abandoned}} [cite: 14, 47]
+    1.  \`{{Command 1}}\` -> Result: {{Output}} [cite: 308, 309]
+    2.  \`{{Command 2}}\` -> Result: {{Output}} [cite: 309]
+* Outcome: {{How it was solved or why it was abandoned}} [cite: 14, 47]
 
 ---
 
 ## 🔗 Related Infrastructure
 > Goal: Semantic connections found via \`search_vault_smart\`.
 
-* [cite_start][[Related Environment]]: {{One-sentence connection reason}} [cite: 130, 282]
-* [cite_start][[Related Tool/Library]]: {{Why this matters here}} [cite: 21, 131]
+* [[Related Environment]]: {{One-sentence connection reason}} [cite: 130, 282]
+* [[Related Tool/Library]]: {{Why this matters here}} [cite: 21, 131]
 ```
 
 ---
