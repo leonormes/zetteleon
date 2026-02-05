@@ -1,7 +1,7 @@
 ---
 captured: "2026-02-05T08:25:43+00:00 2026-02-05T08:25:43+00:00"
 created: 2026-02-05T08:25:49+00:00
-modified: 2026-02-05T09:55:20+00:00
+modified: 2026-02-05T12:09:03+00:00
 source: "https://chatgpt.com/c/69841c4e-1f28-8385-9122-17f047c50287"
 status: "processing"
 tags: ["input"]
@@ -106,20 +106,29 @@ That only makes sense if the VPC is the network, and subnets are address partiti
 ## A Clean Hierarchy (no hand-waving)
 
 Nothing "wraps" the VPC networking-wise.
+
 It _is_ the root networking object.
 
 ---
 
 ## Visual Grounding (worth 10 paragraphs)
+
 ![[ENI_fig2.jpg]]
+
 ![[vpc_multi_vif_arch_2.png]]
+
 ![[EC2_ENI_management_network.png]]
 
 ![[0_M_klshCKNsPYWa4w.png]]
+
 ![[hub-spoke.png]]
+
 ![[193271686-5be132db-0109-4ae1-acbe-1709061e1548.png]]
+
 ![[subnet-diagram.png]]
+
 ![[subnet-association.png]]
+
 ![[p2_vpc-peering.png]]
 
 ## If You want a Brutally Honest Definition
@@ -583,6 +592,7 @@ On a jumpbox in the vpc if I check the network device if that Linux box I see th
 ---
 
 Yes. `eth0` inside the Linux jumpbox corresponds directly to an AWS ENI.
+
 More precisely: `eth0` is the OS-level view of the _primary_ Elastic Network Interface attached to that instance.
 
 I'll be pedantic and exact about the mapping.
@@ -644,6 +654,7 @@ That's why AWS can:
 - move instances without changing network identity
 
 Your Linux box just sees "a NIC".
+
 AWS sees "a routable endpoint in a VPC".
 
 ---
@@ -681,7 +692,9 @@ Flow:
 5. Packet exits (or reaches another ENI)
 
 No Linux-visible router.
+
 No Linux-visible switch.
+
 The ENI _is_ the attachment point to the VPC routing domain.
 
 ---
