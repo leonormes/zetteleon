@@ -2,7 +2,7 @@
 aliases: [HEAD ‎Gemini – direct access to Google AI]
 captured: 2026-02-02T07:04:36+00:00 2026-02-02T07:04:36+00:00
 created: 2026-02-02T07:04:38+00:00
-modified: 2026-02-04T07:27:51+00:00
+modified: 2026-02-05T09:12:24+00:00
 source: https://gemini.google.com/share/3b5cd50dd9bd
 status: phase-1
 tags: [input]
@@ -90,12 +90,6 @@ Scenario C: He doesn't understand the system but judges it.
 ### Next Step
 
 Would you like me to draft a specific agenda for your next 1:1 that creates a "paper trail" of your high-level contributions (like DR strategy and Architecture) to preemptively counter his vague assessments?
-
-Google Account
-
-Leon Ormes
-
-leonormes@gmail.com
 
 ```json
 {

@@ -1,82 +1,142 @@
 ---
-created: 2026-02-01T15:35:00+00:00
-modified: 2026-02-04T07:27:25+00:00
-status: "evergreen"
-tags: ["kubernetes", "networking", "protocol", "troubleshooting", 100]
+alias: ["Connectivity Debugging", "Kubernetes Network Debugging Protocol", "Network Troubleshooting Checklist"]
+created: 2026-02-04T00:00:00+00:00
+modified: 2026-02-04T20:36:54+00:00
+tags: ["aws", "azure", "debugging", "kubernetes", "networking", "protocol"]
 title: Protocol - Kubernetes Network Debugging
-type: "protocol"
+type: protocol
 ---
 
-## 1. Logic Map
+## Logic Map
 
-- Objective: Diagnose and prove packet loss between a Kubernetes Cluster (Source) and an external Endpoint (Destination).
-- Dependencies: `kubectl` access, `netshoot` container image, AWS CLI (optional but recommended).
-- Success Criteria: Definitive proof of where the packet is dropping (Source Egress vs. Destination Ingress).
+- Objective: Systematically diagnose connectivity issues between clusters (e.g., EKS $\to$ AKS) or from public internet to ingress.
+- Strategy: Divide and Conquer. Test from the _Source_ (Egress), then the _Destination Infrastructure_ (Cloud Network), then the _Destination Cluster_ (Kubernetes/Ingress).
+- Prerequisites:
+    - `kubectl` access to both clusters.
+    - A `netshoot` pod running in the source cluster.
+    - SSH access to a Jumpbox in the destination network (optional but recommended).
+    - Reference: [[SoT - Network Debugging Tools & Patterns]]
 
-## 2. The Algorithm (Netshoot)
+---
 
-### Step 1: Deploy Ephemeral Diagnostic Pod
+## 1. Source Side: Verify Egress (From Netshoot)
 
-Spin up a `netshoot` pod in the source namespace. This bypasses distroless limitations of application containers.
+_Run these inside a debug pod in the source cluster._
 
-```bash
-kubectl run netshoot --rm -i --tty --image nicolaka/netshoot -- /bin/bash
-```
+`kubectl run netshoot-test -i --tty --rm --image nicolaka/netshoot -- /bin/bash`
 
-### Step 2: Validate Basic Reachability (ICMP/DNS)
-
-Inside the pod, verify name resolution and basic routing.
-
-```bash
-# Check DNS
-nslookup <destination-domain>
-
-# Check Routing (ICMP)
-ping -c 3 <destination-ip>
-```
-
-### Step 3: Trace the Path (MTU & Hops)
-
-Use `tracepath` (no sudo required) to identify routing hops and MTU issues.
+### A. Basic Connectivity
 
 ```bash
-tracepath -n <destination-ip>
+# 1. Is ping actually sending? (Short timeout to detect hang vs packet loss)
+ping -c 4 -W 1 <TARGET_IP>
+
+# 2. Do we have internet access? (Check NAT/Egress)
+ping -c 4 8.8.8.8
+
+# 3. What is my public egress IP? (For allowlisting)
+curl -s ifconfig.me
 ```
 
-### Step 4: The "Smoking Gun" Test (TCP Dump)
+### B. Protocol Specifics (TCP Vs ICMP)
 
-If the connection times out, use `tcpdump` to prove if packets are leaving the source.
-
-Terminal 1 (Inside Netshoot): Start Listener
+_ICMP is often blocked. TCP is the source of truth._
 
 ```bash
-# Capture packets for the specific host
-tcpdump -i any host <destination-ip> -n
+# 4. Test TCP Connectivity (Port 443/80)
+nc -vz -w 5 <TARGET_IP> 443
+
+# 5. Test HTTPS Handshake (Detailed verbose output)
+curl -v --connect-timeout 5 https://<TARGET_IP>
+
+# 6. Deep Dive: Why is it failing? (Filtered vs Closed)
+# -Pn skips ping discovery. --reason shows why port is marked state.
+nmap -Pn -p 80,443 --reason <TARGET_IP>
 ```
 
-Terminal 2 (Inside Netshoot): Trigger Traffic
+### C. Packet Inspection (The "Truth Serum")
+
+_Run this while executing the curl/nc command in another terminal._
 
 ```bash
-# Attempt connection (e.g., HTTPS)
-curl -v https://<destination-ip>
+# 7. Check if packets are actually leaving the pod
+tcpdump -n -i any host <TARGET_IP>
+# Look for: Flags [S] (SYN sent). 
+# No Reply = Dropped downstream. 
+# Reply [R.] = Rejected (Closed port).
 ```
 
-Interpretation:
+---
 
-- [S] (SYN) sent, nothing received: The packet left the source but was "black-holed" by the destination or an intermediate firewall.
-- [R] (RST) received: The destination (or a firewall) actively rejected the connection.
-- No Output: The packet is being dropped internally (CNI, NetworkPolicy, or local Egress rule).
+## 2. Destination Infrastructure: Azure/Cloud (From Jumpbox)
 
-## 3. The Algorithm (AWS Infrastructure)
+_Run these from a VM inside the destination VNet._
 
-If `tcpdump` shows no output, checking the cloud infrastructure is required.
-
-1. Routing: Ensure Route Table has `0.0.0.0/0` -> `nat-gateway` (Private Subnet) or `igw` (Public Subnet).
-2. Security Groups (Stateful): Ensure Outbound Rule allows `0.0.0.0/0` (or specific IP).
-3. NACLs (Stateless): Ensure Outbound Rule 100 allows `0.0.0.0/0`.
-4. NAT Gateway IP: Find the public source IP to provide to the destination admin.
+### A. Identify the Target
 
 ```bash
-# Get NAT Gateway Public IP
-aws ec2 describe-nat-gateways --nat-gateway-ids <nat-id> --query "NatGateways[0].NatGatewayAddresses[0].PublicIp" --output text
+# 1. Who owns this Public IP? (Is it even ours?)
+az network public-ip list --query "[?ipAddress=='<TARGET_IP>']"
+
+# 2. List Load Balancers
+az network lb list --output table
 ```
+
+### B. Cloud Firewall/NSG Checks
+
+```bash
+# 3. Check Effective NSG Rules (Requires VM name)
+az network nsg rule list --nsg-name <NSG_NAME> --resource-group <RG> --output table
+
+# 4. Check Azure Firewall Rules (If applicable)
+az network firewall network-rule list --firewall-name <FW_NAME> --resource-group <RG> --collection-name <COLLECTION>
+```
+
+---
+
+## 3. Destination Cluster: Kubernetes Ingress (From Jumpbox/Local)
+
+### A. Bypass Public Path (Test Internal Ingress)
+
+_Confirm the app is healthy inside the VNet, ignoring public firewalls._
+
+```bash
+# 1. Hit the Internal Ingress Controller IP directly
+# (Get IP from: kubectl get svc -n <ingress-namespace>)
+nc -vz <INTERNAL_INGRESS_IP> 443
+
+# 2. Test TLS Handshake (Ignore cert errors)
+curl -v -k https://<INTERNAL_INGRESS_IP>
+
+# 3. Spoof the Host Header (The "Gold Standard" Test)
+# Simulates real traffic without DNS/Public IP issues.
+curl -v -k --resolve <REAL_HOSTNAME>:443:<INTERNAL_INGRESS_IP> https://<REAL_HOSTNAME>
+```
+
+### B. Kubernetes Configuration (kubectl)
+
+```bash
+# 4. List all LoadBalancer services (Is it Public or Internal?)
+kubectl get svc -A -o wide | grep -i loadbalancer
+
+# 5. Check Service Annotations (Look for "service.beta.kubernetes.io/azure-load-balancer-internal")
+kubectl get svc -n <NAMESPACE> <SERVICE_NAME> -o yaml
+
+# 6. Map Ingress Rules to Backends (Machine Readable)
+kubectl get ingress -A -o jsonpath='{range .items[*]}{.metadata.namespace}/{.metadata.name}{":\n"}{range .spec.rules[*]}{"  "}{.host}{"\n"}{range .http.paths[*]}{"    "}{.path}{" -> "}{.backend.service.name}{":"}{.backend.service.port.number}{"\n"}{end}{end}{"\n"}{end}'
+
+# 7. Check Backend Pods (Are they actually running?)
+kubectl get endpoints -n <NAMESPACE> <SERVICE_NAME>
+```
+
+---
+
+## 4. Decision Matrix (Interpretation)
+
+| Test Result | Diagnosis | Next Action |
+|:--- |:--- |:--- |
+| `ping` fails, `nc` works | ICMP Blocked (Normal) | Ignore ping. Focus on TCP. |
+| `nc` fails (Timeout) | Traffic Blackholed | Check NSGs, Firewalls, and Route Tables. |
+| `nc` fails (Connection Refused) | Port Closed | Check Pod Health, Service Port mapping. |
+| `curl --resolve` works, Public IP fails | Public Edge Issue | Check WAF, Public LB, or NAT rules. |
+| `kubectl get endpoints` is empty | Service has no Pods | Check Pod Labels and Deployment status. |

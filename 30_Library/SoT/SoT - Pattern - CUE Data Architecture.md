@@ -1,7 +1,7 @@
 ---
 alias: ["CUE Patterns", "Dotfiles Architecture", "FFNode Refactor"]
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-04T07:26:55+00:00
+modified: 2026-02-04T20:39:46+00:00
 tags: ["architecture", "cue", "patterns", "sot"]
 title: SoT - Pattern - CUE Data Architecture
 type: SoT
@@ -58,6 +58,7 @@ package ffnode
 ```
 
 Guardrails:
+
 - If `profile` is "prod", `secrets.source` MUST be "vault".
 - Invalid configurations fail to compile immediately.
 
@@ -95,5 +96,3 @@ registry: [Name=string]: #Package
 ### Automation
 
 A script runs `cue export` before `chezmoi apply`. If CUE fails (e.g., missing ID for a Mac App Store app), the dotfile update aborts, preventing partial/broken system states.
-
-```
