@@ -1,6 +1,6 @@
 ---
 created: 2026-01-30T15:39:41+00:00
-modified: 2026-02-04T09:57:28+00:00
+modified: 2026-02-06T14:29:45+00:00
 title: FITFILE Infrastructure - MCNFT Deployment
 uuid: 20db6ad4-32b0-4933-9c50-facf7b2cc071
 ---
@@ -14,7 +14,7 @@ This document describes the FITFILE platform deployment within the MCNFT Organis
 - Hub: MCNFT's existing customer subscription.
 - Spoke: FITFILE subscription connected via VNET Peering.
 
-The solution integrates local HR records with pseudonymised NHS long-term conditions data to support the wellbeing programme. All resources reside within a single Azure Tenant managed by MCNFT to ensure data sovereignty.
+The solution integrates local HR records with pseudonymised NHS long-term conditions data to support the well-being programme. All resources reside within a single Azure Tenant managed by MCNFT to ensure data sovereignty.
 
 ---
 

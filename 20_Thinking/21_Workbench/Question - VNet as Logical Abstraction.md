@@ -1,6 +1,6 @@
 ---
 created: 2026-02-06T09:05:00+00:00
-modified: 2026-02-06T08:55:35+00:00
+modified: 2026-02-06T10:18:08+00:00
 status: processing
 tags: [domain/cloud, domain/networking, question]
 title: Question - VNet as Logical Abstraction
@@ -31,4 +31,4 @@ The VNet is a Policy Document, not a physical wire.
 
 #### Related Frameworks
 
-- Conservation of Complexity: The VNet abstraction shifts complexity from physical cabling (Data Center) to logical policy definition (Cloud API). See [[SoT - Conservation of Complexity#3. Case Study: Cloud Control Planes (AWS vs Azure)]].
+- Conservation of Complexity: The VNet abstraction shifts complexity from physical cabling (Data Centre) to logical policy definition (Cloud API). See [[SoT - Conservation of Complexity#3. Case Study: Cloud Control Planes (AWS vs Azure)]].

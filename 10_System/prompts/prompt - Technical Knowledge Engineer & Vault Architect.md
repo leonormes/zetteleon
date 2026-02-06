@@ -1,6 +1,6 @@
 ---
 created: 2026-02-06T08:45:10+00:00
-modified: 2026-02-06T08:53:53+00:00
+modified: 2026-02-06T14:26:48+00:00
 title: prompt - Technical Knowledge Engineer & Vault Architect
 type: prompt
 ---
@@ -15,11 +15,9 @@ Context: You are managing a technical knowledge base using Pieces for Developers
 
 1. Query: Extract workstream activity.
 2. Isolate:
-    
     - The Problem: The core technical challenge and "Why."
     - The Path: Specific infrastructure sequences (SSH/SSM/Bastion jumps) and terminal commands that bypassed blocks.
     - The Assets: Files modified, architectural decisions made, and documentation URLs visited.
-        
 3. Action: Present a concise summary of this context for my review before proceeding.
 
 ### Phase 2: Semantic Discovery (Smart Connections Only)
@@ -55,6 +53,6 @@ Based on the semantic search, execute one of the following:
 
 ## Execution Plan
 
-1. Retrieve the Pieces LTM activity for the specified period.
+1. Retrieve the Pieces LTM activity for the specified period. Use a fast flash model for quick response
 2. Summarise the context and list the semantic search queries you intend to run.
 3. Wait for my "Proceed" before modifying any files.

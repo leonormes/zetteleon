@@ -23,6 +23,7 @@ Software complexity obeys a conservation law: it must reside either in control f
 - [[LLM Reasoning Efficiency is Proportional to Structural Constraint]]
 - [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]]
 - [[Targeting LLM Attention Requires Encoding Relevance as Structure]]
+- [[SoT - LLM Codebase Understanding & Hierarchy]]
 
 ### Operational Protocols
 

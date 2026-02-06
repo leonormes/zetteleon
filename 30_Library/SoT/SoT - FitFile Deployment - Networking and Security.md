@@ -128,3 +128,5 @@ Outbound (From FitFile):
 - 443/TCP: To `*.vault.hashicorp.cloud` (Secrets).
 - 443/TCP: To `*.azurecr.io` / `*.ecr.aws` (Images).
 - 443/TCP: To `*.auth0.com` (Identity).
+# - Azure Specifics: By default, we use an overlay model where Pod IPs are separate from the VNET address space, preventing "IP depletion" in large clusters.
+- Azure Specifics: By default, we use an overlay model where Pod IPs are separate from the VNET address space, preventing "IP depletion" in large clusters. For sizing guidelines, see [[SoT - AKS IP Allocation & Subnet Sizing]].

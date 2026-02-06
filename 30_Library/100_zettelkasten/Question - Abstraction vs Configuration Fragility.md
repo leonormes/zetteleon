@@ -1,7 +1,7 @@
 ---
 created: 2026-02-06T14:20:00Z
 type: question
-status: answered
+status: open
 tags:
   - engineering/complexity
   - devops/configuration
@@ -25,9 +25,3 @@ While we strive for flexibility, modern stacks (Cloud Networking, Kubernetes, Se
 - **Domain**: Cloud Networking, Kubernetes, Secrets Management (HCP Vault).
 - **Pain Point**: "Flexible" systems that break if one string out of thousands is changed.
 - **Observation**: "We put effort into making it Flexible but then have to get 1000s of string values exact."
-
-## Answer
-The fragility is **Accidental Complexity** caused by "String-Oriented Programming" in declarative systems (Kubernetes). The solution is to move from **Assignment** to **Unification**.
-
-See: [[SoT - Infrastructure Complexity]]
-Ref: [[SoT - Order Theory]]

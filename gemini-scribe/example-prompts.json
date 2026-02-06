@@ -1,18 +1,18 @@
 [
   {
-    "icon": "calendar",
-    "text": "Review my daily logs from the past month to extract all completed tasks and pending blockers related to the Leon Job Search project."
+    "icon": "search",
+    "text": "Review the debugging notes for HIE-NNUH from my Workbench and the NNUH Network Architecture SoT to identify the root cause of the recent connectivity issues."
   },
   {
     "icon": "file-plus",
-    "text": "Based on the notes in my Workbench about AWS VPC Explained, draft a comprehensive Protocol for VPC Peering and hybrid connectivity."
+    "text": "Draft a project roadmap for the Legacy-to-CUE Migration Strategy based on the principles in the Generative Infrastructure Configuration Framework SoT."
   },
   {
-    "icon": "tag",
-    "text": "Search my Zettelkasten for notes on Type Theory and suggest how to structure a new Map of Content for the Type Theory Curriculum project."
+    "icon": "lightbulb",
+    "text": "Search my Zettelkasten for notes on the Conservation of Complexity and explain how these concepts should inform the architectural review of the Azure Resource Manager."
   },
   {
     "icon": "sparkles",
-    "text": "Compare the current Kubernetes Networking and DNS Source of Truth with the FFNode Umbrella Chart analysis in the Inbox to identify any configuration discrepancies."
+    "text": "Analyze the ACR Authentication Mechanisms and FITFILE Secret Management Architecture notes to identify any gaps in our current cloud security posture."
   }
 ]

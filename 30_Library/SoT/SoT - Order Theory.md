@@ -71,3 +71,6 @@ To adopt Order Theory in platform engineering:
 1. Discard Assignment: Stop thinking "Set default, then override."
 2. Adopt Refinement: Think "Define shape (schema), then fill details."
 3. Trust the Lattice: If details don't fit the shape, the config is mathematically invalid.
+
+## Related Knowledge
+- **Application**: [[SoT - Infrastructure Complexity]] (Explains *why* we need Order Theory in DevOps).
