@@ -1,6 +1,6 @@
 ---
 created: 2026-02-06T09:00:00+00:00
-modified: 2026-02-06T08:32:22+00:00
+modified: 2026-02-06T09:22:57+00:00
 status: evergreen
 tags: [architecture, azure, cloud, concept/system-design, type/SoT]
 title: SoT - Azure Resource Manager Architecture
@@ -30,6 +30,7 @@ Every resource is identified by a globally unique URI, functioning as the primar
 `root` / `scope` / `namespace` / `resource-type` / `resource-name`
 
 Example:
+
 `/subscriptions/{sub-id}/resourceGroups/{rg-id}/providers/Microsoft.Network/virtualNetworks/{vnet-name}`
 
 - Partition Key: Subscription + Resource Group.

@@ -1,14 +1,8 @@
 ---
 created: 2026-02-05T21:05:00+00:00
-modified: 2026-02-05T21:38:33+00:00
+modified: 2026-02-06T09:22:57+00:00
 status: active
-tags:
-  - cue
-  - devops
-  - helm
-  - infra
-  - migration
-  - protocol
+tags: [cue, devops, helm, infra, migration, protocol]
 title: Protocol - Legacy-to-CUE Migration Strategy
 trust-level: high
 type: protocol
@@ -75,7 +69,7 @@ cue trim baseline-dev.cue baseline-prod.cue --out schema.cue
 diff <(yq eval ... helm-out.yaml) <(cue export ... cue-out.yaml)
 ```
 
-2. Hybrid Deploy Script
+1. Hybrid Deploy Script
 
 ```bash
 # Generate CUE parts

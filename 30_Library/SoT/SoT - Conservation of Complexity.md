@@ -2,7 +2,7 @@
 aliases: [Conservation of Complexity, Software Complexity Law, Tesler's Law]
 created: 2026-01-08T12:05:00Z
 last_reviewed: 2026-02-05
-modified: 2026-02-05T19:59:53+00:00
+modified: 2026-02-06T09:23:00+00:00
 status: stable
 tags: [architecture, complexity, mental_models, software_engineering, sot]
 title: SoT - Conservation of Complexity
@@ -57,17 +57,17 @@ Just as a DBA normalizes a database to ensure data consistency, a developer shou
 
 ---
 
-## 3. Case Study: Cloud Control Planes (AWS vs Azure)
+## 3. Case Study: Cloud Control Planes (AWS Vs Azure)
 
 The two major cloud platforms manage complexity differently, providing a perfect illustration of Tesler's Law.
 
 | Platform | Complexity Location | Analogy | Pros/Cons |
-| :--- | :--- | :--- | :--- |
-| **AWS** | **Late-Bound (User)** | **Dynamic Typing (JavaScript)** | **Pro:** High Velocity. "Just run it."<br>**Con:** Referential integrity is the user's job (Dangling ENIs, Orphaned Volumes). |
-| **Azure** | **Early-Bound (Platform)** | **Static Typing (C#)** | **Pro:** High Integrity. "Compiler checked."<br>**Con:** High Upfront Friction (Must define Resource Groups, Location, Hierarchy first). |
+|:--- |:--- |:--- |:--- |
+| AWS | Late-Bound (User) | Dynamic Typing (JavaScript) | Pro: High Velocity. "Just run it."<br>Con: Referential integrity is the user's job (Dangling ENIs, Orphaned Volumes). |
+| Azure | Early-Bound (Platform) | Static Typing (C#) | Pro: High Integrity. "Compiler checked."<br>Con: High Upfront Friction (Must define Resource Groups, Location, Hierarchy first). |
 
-- **AWS** prioritizes *local correctness* (The API call succeeds if the syntax is right).
-- **Azure** prioritizes *global correctness* (The API call fails if the structural invariants are violated).
+- AWS prioritizes _local correctness_ (The API call succeeds if the syntax is right).
+- Azure prioritizes _global correctness_ (The API call fails if the structural invariants are violated).
 
 Complexity is conserved: You either pay the tax upfront (Azure/Schema Design) or you pay the tax on cleanup (AWS/Garbage Collection).
 

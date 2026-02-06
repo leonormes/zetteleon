@@ -1,7 +1,7 @@
 ---
 alias: ["Alloy Operator Upgrade Guide", "Grafana Migration Protocol"]
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-02-05T19:59:36+00:00
+modified: 2026-02-06T09:23:01+00:00
 status: stable
 tags: ["grafana", "helm", "migration", "observability", "protocol"]
 title: Protocol - Grafana Observability Stack Upgrade
@@ -41,7 +41,7 @@ helm repo add grafana-community https://grafana-community.github.io/helm-charts
 helm repo update grafana-community
 ```
 
-2. Configure OCI Source:
+1. Configure OCI Source:
    Update your Chart Manager config to target:
    `oci://registry-1.docker.io/grafanacharts/k8s-monitoring`
 
