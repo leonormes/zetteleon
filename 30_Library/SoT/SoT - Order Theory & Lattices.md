@@ -1,7 +1,7 @@
 ---
 aliases: ["Lattice Theory", "Meet and Join", "Partial Orders", "Subsumption"]
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-05T00:00:00+00:00
+modified: 2026-02-05T18:50:01+00:00
 tags: ["logic", "math", "sot", "theory"]
 title: SoT - Order Theory & Lattices
 type: SoT
@@ -9,9 +9,9 @@ type: SoT
 
 ## Minimum Viable Understanding (MVU)
 
-Order Theory is the mathematics of hierarchy and comparison. In configuration systems like CUE, "Order" refers to **Specificity** (Information Content), not Time (Execution Sequence).
+Order Theory is the mathematics of hierarchy and comparison. In configuration systems like CUE, "Order" refers to Specificity (Information Content), not Time (Execution Sequence).
 
-Values exist in a Lattice structure flowing from **General** ($\top$ Top) to **Specific** (Leaf) to **Impossible** ($\bot$ Bottom). Computation is the process of finding the Greatest Lower Bound (Meet) between constraints.
+Values exist in a Lattice structure flowing from General ($\top$ Top) to Specific (Leaf) to Impossible ($\bot$ Bottom). Computation is the process of finding the Greatest Lower Bound (Meet) between constraints.
 
 ---
 
@@ -19,11 +19,12 @@ Values exist in a Lattice structure flowing from **General** ($\top$ Top) to **S
 
 A Partial Order is a relationship ($\sqsubseteq$) meaning "is more specific than" or "is a subtype of".
 
-- **Reflexive:** $a \sqsubseteq a$ (A thing is a subtype of itself).
-- **Transitive:** If $a \sqsubseteq b$ and $b \sqsubseteq c$, then $a \sqsubseteq c$.
-- **Antisymmetric:** If $a \sqsubseteq b$ and $b \sqsubseteq a$, then $a = b$.
+- Reflexive: $a \sqsubseteq a$ (A thing is a subtype of itself).
+- Transitive: If $a \sqsubseteq b$ and $b \sqsubseteq c$, then $a \sqsubseteq c$.
+- Antisymmetric: If $a \sqsubseteq b$ and $b \sqsubseteq a$, then $a = b$.
 
 ### Visualizing Specificity (The Ontology)
+
 Order Theory is the backbone of all Ontologies. The "Is-A" relationship is strictly a Partial Order.
 
 ```
@@ -38,7 +39,7 @@ Order Theory is the backbone of all Ontologies. The "Is-A" relationship is stric
      "Fido" (Leaf/Instance)
 ```
 
-In this context, **Unification** is the process of placing an item correctly in the hierarchy. If you say "Fido is a Dog" AND "Fido has scales," Order Theory detects the conflict because `Dog` does not unify with `Has Scales` in the defined lattice.
+In this context, Unification is the process of placing an item correctly in the hierarchy. If you say "Fido is a Dog" AND "Fido has scales," Order Theory detects the conflict because `Dog` does not unify with `Has Scales` in the defined lattice.
 
 ---
 
@@ -82,9 +83,9 @@ These three domains describe the same structures using different vocabulary.
 
 ## 4. Why This Matters for PKM & Config
 
-1.  **Commutativity:** Because $A \sqcap B = B \sqcap A$, the order in which you load configuration files does not matter. This eliminates "Order of Operations" bugs found in imperative scripts.
-2.  **Conflict Detection:** In a Lattice, combining mutually exclusive branches (e.g., `#Project` and `#Reference`) mathematically resolves to $\bot$ (Bottom). The system creates a compile-time error rather than a runtime bug.
-3.  **Refinement:** You never "change" a value (mutation). You only refine it (move it down the lattice).
+1. Commutativity: Because $A \sqcap B = B \sqcap A$, the order in which you load configuration files does not matter. This eliminates "Order of Operations" bugs found in imperative scripts.
+2. Conflict Detection: In a Lattice, combining mutually exclusive branches (e.g., `#Project` and `#Reference`) mathematically resolves to $\bot$ (Bottom). The system creates a compile-time error rather than a runtime bug.
+3. Refinement: You never "change" a value (mutation). You only refine it (move it down the lattice).
     - `replicas: int` $\rightarrow$ `replicas: >1` $\rightarrow$ `replicas: 3`.
     - Attempting `replicas: 5` after `replicas: 3` is a contradiction ($\bot$), not an overwrite.
-4.  **Tag Unification:** Searching for `#Meeting` AND `#Tech` is mathematically calculating the **Meet** ($\sqcap$) of those two sets. The result is a virtual subtype containing only notes that satisfy both constraints.
+4. Tag Unification: Searching for `#Meeting` AND `#Tech` is mathematically calculating the Meet ($\sqcap$) of those two sets. The result is a virtual subtype containing only notes that satisfy both constraints.

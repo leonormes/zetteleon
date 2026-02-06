@@ -2,7 +2,7 @@
 aliases: ["Data Dominates Code", "Data-Centric Software Engineering", "Data-Oriented Programming", "DOD", "DOP", "Linus's Law", "The Data-Centric Philosophy"]
 created: 2025-12-22T00:00:00Z
 last_synthesis: 2026-02-03
-modified: 2026-02-04T07:26:59+00:00
+modified: 2026-02-05T19:59:42+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 2
@@ -86,7 +86,9 @@ Torvalds distinguishes "Good Taste" by how a developer handles edge cases.
 - Methodology: [[SoT - Type-Driven Development (The Torvalds Loop)]] (How to execute this).
 - Hardware: [[SoT - Data-Oriented Design]] (The physical implementation).
 - Physics: [[SoT - Complexity Conservation]] (Tesler's Law).
-# ## Minimum Viable Understanding (MVU)
+
+## ## Minimum Viable Understanding (MVU)
 
 ### Design Principles
+
 - [[SoT - Simple Made Easy (Rich Hickey)]]: Advocates for "Decomplecting"—untangling data, logic, and state to ensure components can be composed without braid-induced fragility.

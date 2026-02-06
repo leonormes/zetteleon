@@ -2,7 +2,7 @@
 aliases: ["Behavioral Engineering", "System > Willpower", "The Hydraulic Architecture of Behavior"]
 created: 2026-02-03T10:00:00+00:00
 last_synthesis: 2026-02-03
-modified: 2026-02-04T07:26:56+00:00
+modified: 2026-02-05T19:59:55+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
@@ -44,6 +44,7 @@ If the operator is unreliable, the load must shift to the infrastructure.
 ### 2.1 Environmental Determinism (Lewin's Equation)
 
 Behavior (B) = f(Person, Environment). While the Person (P) is subject to fatigue, the Environment (E) is tireless and malleable.
+
 - The Equation: $B = f(P, E)$. To change $B$, it is infinitely more efficient to solve for $E$ than for $P$.
 - The Vietnam Proof: 90% of heroin-addicted soldiers quit "overnight" upon returning to the U.S. because the environmental cues (E) that triggered the habit were removed.
 

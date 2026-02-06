@@ -1,19 +1,19 @@
 ---
-alias: ["HIE Jumpbox Access", "AWS SSM SSH Protocol"]
+alias: ["AWS SSM SSH Protocol", "HIE Jumpbox Access"]
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-02-05T00:00:00+00:00
+modified: 2026-02-05T19:59:37+00:00
 status: stable
-tags: ["aws", "ssm", "ssh", "jumpbox", "protocol"]
+tags: ["aws", "jumpbox", "protocol", "ssh", "ssm"]
 title: Protocol - AWS HIE Jumpbox Access
 type: protocol
 ---
 
 ## Logic Map
 
-- **Target Instance:** `i-09f84bb55556a2c10`
-- **IAM Role:** `eoe-sde-codisc-jumpbox-ssm-role`
-- **Profile:** `eoe-hie`
-- **Region:** `eu-west-2`
+- Target Instance: `i-09f84bb55556a2c10`
+- IAM Role: `eoe-sde-codisc-jumpbox-ssm-role`
+- Profile: `eoe-hie`
+- Region: `eu-west-2`
 
 ---
 
@@ -55,6 +55,6 @@ Host jumphost-ssm
 ## Troubleshooting
 
 | Error | Cause | Resolution |
-| :--- | :--- | :--- |
-| `Token has expired` | SSH ProxyCommand using `default` profile | Use `AWS_PROFILE=eoe-hie ssh ...` |
+|:--- |:--- |:--- |
+| `Token has expired` | SSH ProxyCommand using `default` profile | Use `AWS_PROFILE=eoe-hie ssh …` |
 | `TargetNotConnected` | Instance still booting | Wait 60-120 seconds for SSM agent to start |

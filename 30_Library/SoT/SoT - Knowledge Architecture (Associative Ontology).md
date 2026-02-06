@@ -3,7 +3,7 @@ alias: ["Intellectual Landscape", "Knowledge Map", "Ontology"]
 aliases: []
 created: 2026-01-05T06:58:46+00:00
 last_reviewed: 
-modified: 2026-02-01T15:07:56+00:00
+modified: 2026-02-05T19:59:48+00:00
 status: "Active"
 tags: ["architecture", "knowledge-management", "meta", "ontology"]
 title: SoT - Knowledge Architecture (Associative Ontology)
@@ -149,12 +149,12 @@ The conclusion: To change the output (Code, Behavior, Life), do not push harder 
 
 ## 5. The Mathematics of Structure (Order Theory)
 
-This unification is formalized by **Order Theory**.
+This unification is formalized by Order Theory.
 
-- **The Lattice:** Knowledge is not a flat list but a hierarchy of specificity.
-- **Subsumption:** Concepts are refined, not just related. "Dog" $\sqsubseteq$ "Animal".
-- **Unification (The Meet):** Combining constraints (Tags) is a "Meet" operation ($\sqcap$).
-    - *Example:* Searching for `#Meeting` AND `#Tech` is not just filtering; it is calculating the **Greatest Lower Bound** of two sets. The result is a virtual subtype that satisfies both constraints.
-- **Conflict (The Bottom):** Incompatible branches (e.g., `#Project` and `#Reference`) unify to $\bot$ (Bottom/Error), proving that an entity cannot topologically be both.
+- The Lattice: Knowledge is not a flat list but a hierarchy of specificity.
+- Subsumption: Concepts are refined, not just related. "Dog" $\sqsubseteq$ "Animal".
+- Unification (The Meet): Combining constraints (Tags) is a "Meet" operation ($\sqcap$).
+    - _Example:_ Searching for `#Meeting` AND `#Tech` is not just filtering; it is calculating the Greatest Lower Bound of two sets. The result is a virtual subtype that satisfies both constraints.
+- Conflict (The Bottom): Incompatible branches (e.g., `#Project` and `#Reference`) unify to $\bot$ (Bottom/Error), proving that an entity cannot topologically be both.
 
 This provides the rigorous proof that "Categories" are not arbitrary containers, but logical constraints on the value of information.

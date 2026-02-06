@@ -2,7 +2,7 @@
 aliases: [FITFILE Secret Management Architecture, Secret Management SoT, VSO Implementation Guide]
 created: 2025-12-15T00:00:00Z
 last_reviewed: 2025-12-15
-modified: 2026-02-01T15:07:58+00:00
+modified: 2026-02-05T19:03:07+00:00
 status: stable
 tags: ["SoftwareEngineering/Architecture", "SoftwareEngineering/Security", fitfile, kubernetes, vault]
 title: SoT - FITFILE Secret Management Architecture
@@ -90,8 +90,6 @@ To eliminate the security risk and technical debt, we must migrate Legacy enviro
 
 ## 5. Reference Implementation: `hie-prod-34` (Audit & Deep Dive)
 
-_Based on: [[Audit - FITFILE Secret Management (Oct 2025)]]_
-
 The `hie-prod-34` deployment serves as the primary reference implementation for the FITFILE secrets architecture. A comprehensive audit (Oct 2025) confirmed the efficacy of the VSO model while highlighting key areas for optimization.
 
 ### 5.1 Secrets Inventory (The Real-World Model)
@@ -133,10 +131,10 @@ _Managed via `extraDeploy` pattern._
 
 ```yaml
 # Example: Transforming raw credentials into a connection string
-   transformation:
-     templates:
-       db_connection_string:
-         text: 'Host=postgres;User={{get .Secrets "username"}};Password={{get .Secrets "password"}}'
+transformation:
+ templates:
+   db_connection_string:
+     text: 'Host=postgres;User={{get .Secrets "username"}};Password={{get .Secrets "password"}}'
 ```
 
 ### 5.3 Security Analysis (2025 Audit Findings)

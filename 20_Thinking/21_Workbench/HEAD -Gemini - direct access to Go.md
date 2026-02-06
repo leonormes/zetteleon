@@ -2,7 +2,7 @@
 aliases: [HEAD ‎Gemini – direct access to Go, HEAD ‎Gemini – direct access to Google AI]
 captured: 2026-02-02T08:00:37+00:00 2026-02-02T08:00:37+00:00
 created: 2026-02-02T08:00:40+00:00
-modified: 2026-02-04T07:27:52+00:00
+modified: 2026-02-05T18:59:27+00:00
 source: https://gemini.google.com/share/75934e7806cb
 status: processing
 tags: [input]
@@ -78,7 +78,7 @@ Please provide the following:
 
 ---
 
-### Would You like Me to Run a Preliminary Version of This Analysis on the provided Report Myself to Identify the Highest-priority "Complexity Heatmaps"?
+Would You like Me to Run a Preliminary Version of This Analysis on the provided Report Myself to Identify the Highest-priority "Complexity Heatmaps"?
 
 here is the report. help me make a plan and a justification. we are following the principles of pushing complexity to the static data
 

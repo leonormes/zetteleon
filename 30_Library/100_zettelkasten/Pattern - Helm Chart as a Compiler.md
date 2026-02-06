@@ -2,7 +2,7 @@
 aliases: ["Pattern - Data Centric IaC"]
 created: 2026-01-07T10:14:28+00:00
 last_reviewed: 2026-01-07
-modified: 2026-02-01T15:08:29+00:00
+modified: 2026-02-05T20:00:16+00:00
 status: stable
 tags: ["SoftwareEngineering/Architecture", devops, helm, pattern]
 title: Pattern - Helm Chart as a Compiler
@@ -87,6 +87,7 @@ The template acts as an adapter. It does not decide _what_ to do; it only decide
 1. Zero Human Error: Users cannot accidentally set `replicas: 1` on a `mission-critical` database. The state is unrepresentable.
 2. Hardware Sympathy: Resources are defined in "T-Shirt Sizes" (Profiles) that match physical node pools, ensuring perfect bin-packing.
 3. Vendor Agnosticism: Switching from Bitnami to AWS RDS only requires changing the Compiler Logic, not the User Intent.
-# ## Pattern: Helm Chart as a Compiler
 
-- [[SoT - Simple Made Easy (Rich Hickey)]]: The "Compiler Pattern" is a form of decomplecting, separating the *what* (Intent Data) from the *how* (Adapter Logic).
+## ## Pattern: Helm Chart as a Compiler
+
+- [[SoT - Simple Made Easy (Rich Hickey)]]: The "Compiler Pattern" is a form of decomplecting, separating the _what_ (Intent Data) from the _how_ (Adapter Logic).

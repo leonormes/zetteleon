@@ -1,16 +1,16 @@
 ---
-alias: ["External Ingress SSL", "Cross-Cluster HTTPS", "DNS-IP Ownership Model"]
+alias: ["Cross-Cluster HTTPS", "DNS-IP Ownership Model", "External Ingress SSL"]
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-02-05T00:00:00+00:00
+modified: 2026-02-05T19:59:37+00:00
 status: stable
-tags: ["kubernetes", "ingress", "ssl", "cert-manager", "cloudflare", "sot"]
+tags: ["cert-manager", "cloudflare", "ingress", "kubernetes", "sot", "ssl"]
 title: SoT - External Ingress & SSL Architecture
 type: SoT
 ---
 
 ## Minimum Viable Understanding (MVU)
 
-When deploying FITFILE clusters behind customer-managed infrastructure, the core architectural principle is the **decoupling of IP ownership from DNS control**. Even if a customer owns the Public IP and firewall, FITFILE can maintain SSL integrity and automated certificate rotation (Let's Encrypt) using a centralized Cloudflare DNS model.
+When deploying FITFILE clusters behind customer-managed infrastructure, the core architectural principle is the decoupling of IP ownership from DNS control. Even if a customer owns the Public IP and firewall, FITFILE can maintain SSL integrity and automated certificate rotation (Let's Encrypt) using a centralized Cloudflare DNS model.
 
 ---
 
@@ -19,11 +19,11 @@ When deploying FITFILE clusters behind customer-managed infrastructure, the core
 A common friction point in customer onboarding is the assumption that the IP owner must also manage the DNS and Certificates. This is incorrect.
 
 | Component | Owner | Responsibility |
-| :--- | :--- | :--- |
-| **Public IP** | Customer | Routing traffic from Internet/Cluster-B to the Cluster-A LoadBalancer. |
-| **Firewall** | Customer | Allowing Port 443 (HTTPS) and Port 80 (for ACME HTTP-01 challenges). |
-| **Domain/DNS** | FITFILE | Managing A-records in Cloudflare pointing to the Customer IP. |
-| **Certificates** | FITFILE | Automating issuance via `cert-manager` inside the cluster. |
+|:--- |:--- |:--- |
+| Public IP | Customer | Routing traffic from Internet/Cluster-B to the Cluster-A LoadBalancer. |
+| Firewall | Customer | Allowing Port 443 (HTTPS) and Port 80 (for ACME HTTP-01 challenges). |
+| Domain/DNS | FITFILE | Managing A-records in Cloudflare pointing to the Customer IP. |
+| Certificates | FITFILE | Automating issuance via `cert-manager` inside the cluster. |
 
 ---
 
@@ -32,21 +32,24 @@ A common friction point in customer onboarding is the assumption that the IP own
 For cluster-to-cluster (A $\to$ B) communication, the following certificate strategies are available:
 
 | Strategy | Mechanism | Best For |
-| :--- | :--- | :--- |
-| **Let's Encrypt** | Public DNS (Cloudflare) + ACME. | **Production (Gold Standard).** Fully automated and globally trusted. |
-| **Private CA** | Organization-internal CA. | Environments with strict air-gap requirements where Cluster-B already trusts the CA. |
-| **Self-Signed** | Cluster-local issuance. | **Dev/Testing only.** Requires disabling SSL verification in Cluster-B (Security Risk). |
+|:--- |:--- |:--- |
+| Let's Encrypt | Public DNS (Cloudflare) + ACME. | Production (Gold Standard). Fully automated and globally trusted. |
+| Private CA | Organization-internal CA. | Environments with strict air-gap requirements where Cluster-B already trusts the CA. |
+| Self-Signed | Cluster-local issuance. | Dev/Testing only. Requires disabling SSL verification in Cluster-B (Security Risk). |
 
 ---
 
 ## 3. Implementation: Let's Encrypt Path
 
 ### A. DNS Configuration (Cloudflare)
+
 Create an A-record pointing your managed domain to the customer's IP:
+
 - `cluster-a.fitfile.net` $\to$ `195.171.151.154`
 
 ### B. Cert-Manager Configuration
-Deploy a `ClusterIssuer` using the HTTP-01 solver. Note that the customer must allow inbound traffic on **Port 80** from Let's Encrypt servers for this validation to succeed.
+
+Deploy a `ClusterIssuer` using the HTTP-01 solver. Note that the customer must allow inbound traffic on Port 80 from Let's Encrypt servers for this validation to succeed.
 
 ```yaml
 apiVersion: cert-manager.io/v1
@@ -66,6 +69,7 @@ spec:
 ```
 
 ### C. Ingress Definition
+
 Annotate the Ingress resource to trigger certificate issuance. The resulting secret is stored in the local namespace and consumed by the NGINX Ingress Controller.
 
 ```yaml
@@ -95,5 +99,6 @@ spec:
 ---
 
 ## Related Knowledge
+
 - [[SoT - FITFILE Secret Management Architecture]] (How cert secrets are synced/managed).
 - [[Protocol - Kubernetes Network Debugging]] (Diagnostic steps for ingress timeouts).

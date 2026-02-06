@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T15:00:00Z
 last_reviewed: "2025-12-30"
-modified: 2026-02-04T07:27:29+00:00
+modified: 2026-02-05T20:00:00+00:00
 status: "stable"
 tags: ["k8s", "kubernetes", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]
 title: MOC - Container Networking Model
@@ -107,8 +107,10 @@ Orchestration:
 
 - [[SoT - Kubernetes Networking & DNS]] (Services, Ingress, CNI)
 - [[SoT - Cloud Networking Core Components]] (Cloud Integration)
-# ## Model
+
+## ## Model
 
 ### Core Source of Truth (SoT)
+
 - [[SoT - Kubernetes Networking Model]] - flat address space, invariants, and node bridges.
 - [[SoT - Calico CNI Architecture]] - Felix, eBPF, VXLAN vs IP-in-IP.

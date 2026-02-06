@@ -3,7 +3,7 @@ aliases: [Meta Map of Content, My Thinking Landscape, The Core Domains]
 created: 2025-12-16T09:45:00Z
 description: A high-level Meta MOC categorizing the primary domains of thought and Sources of Truth (SoT) within the vault.
 last_reviewed: 2025-12-16
-modified: 2026-02-02T20:57:59+00:00
+modified: 2026-02-05T19:41:02+00:00
 status: stable
 tags: [index, meta, structure, type/moc]
 title: Meta MOC - The Core Domains
@@ -120,7 +120,6 @@ _The Lens. How we know what we know, and the limits of our understanding._
   - [[SoT - Active Learning Techniques]]
   - [[SoT - Learning Mechanisms]]
   - [[SoT - The Thought-Language Continuum]]
-  - [[Video - How the Algorithm Hijacked Monkey's Brain]]
 
 ## 8. Domain 7: The Human (Life, Family & Health)
 

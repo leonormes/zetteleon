@@ -1,18 +1,18 @@
 ---
-alias: ["Vault Onboarding", "Secret Management Protocol"]
+alias: ["Secret Management Protocol", "Vault Onboarding"]
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-02-05T00:00:00+00:00
+modified: 2026-02-05T19:59:37+00:00
 status: stable
-tags: ["vault", "terraform", "fitfile", "protocol", "onboarding"]
+tags: ["fitfile", "onboarding", "protocol", "terraform", "vault"]
 title: Protocol - Vault Deployment Secret Management
 type: protocol
 ---
 
 ## Logic Map
 
-- **Objective:** Systematically provision and populate HashiCorp Vault resources for a new customer deployment.
-- **Strategy:** Use Infrastructure-as-Code (Terraform) to scaffold the namespace and manual population for sensitive values that cannot be automated yet.
-- **Dependencies:**
+- Objective: Systematically provision and populate HashiCorp Vault resources for a new customer deployment.
+- Strategy: Use Infrastructure-as-Code (Terraform) to scaffold the namespace and manual population for sensitive values that cannot be automated yet.
+- Dependencies:
     - Access to Central Services repository.
     - HCP Vault Admin Token.
     - Local `openssl` for key generation.
@@ -25,8 +25,8 @@ type: protocol
 
 _Initialize the Vault namespace and empty secret objects._
 
-1. **Navigate:** Go to the `hcp/vault` directory in the **Central Services** repository.
-2. **Define Deployment:** Open `locals.tf` and append a new block to the `deployments` variable:
+1. Navigate: Go to the `hcp/vault` directory in the Central Services repository.
+2. Define Deployment: Open `locals.tf` and append a new block to the `deployments` variable:
 
 ```hcl
 "${DEPLOYMENT_KEY}" = {
@@ -40,7 +40,7 @@ _Initialize the Vault namespace and empty secret objects._
 }
 ```
 
-3. **Deploy:** Commit, push, and approve the Terraform apply in Terraform Cloud.
+1. Deploy: Commit, push, and approve the Terraform apply in Terraform Cloud.
 
 ### 2. Signing Key Generation
 
@@ -58,14 +58,14 @@ openssl rsa -in keypair.pem -pubout -out publickey.crt
 
 ### 3. Vault Population (Manual)
 
-_Access the Vault UI and populate the keys. **CRITICAL:** Vault will reject JSON containing comments._
+_Access the Vault UI and populate the keys. CRITICAL: Vault will reject JSON containing comments._
 
-1. **Access:** Log in via HCP Portal -> `ops-project` -> Vault Dedicated -> Generate Admin Token.
-2. **Navigate:** Go to the `deployments/${DEPLOYMENT_KEY}` namespace -> Secrets Engines -> `secrets`.
-3. **Populate `application`:** Create a new version with the following mapping:
+1. Access: Log in via HCP Portal -> `ops-project` -> Vault Dedicated -> Generate Admin Token.
+2. Navigate: Go to the `deployments/${DEPLOYMENT_KEY}` namespace -> Secrets Engines -> `secrets`.
+3. Populate `application`: Create a new version with the following mapping:
 
 | Key | Value / Source |
-| :--- | :--- |
+|:--- |:--- |
 | `mongodb_password` | Secure alphanumeric (min 10) |
 | `mongodb_replica_set_key` | Secure alphanumeric (length 64) |
 | `postgresql_password` | Secure alphanumeric (min 10) |
@@ -74,15 +74,15 @@ _Access the Vault UI and populate the keys. **CRITICAL:** Vault will reject JSON
 | `fitfile_tenant_pkcs8.key` | Content of `pkcs8.key` |
 | `fitfile_tenant_public.crt` | Content of `publickey.crt` |
 
-4. **Populate `spicedb`:** Ensure `postgresql_password` and `spicedb_preshared_key` match the `application` secret.
-5. **Populate `monitoring`:** Use values from the Grafana module outputs (`prometheus_password`, `loki_password`, `tempo_password`).
+1. Populate `spicedb`: Ensure `postgresql_password` and `spicedb_preshared_key` match the `application` secret.
+2. Populate `monitoring`: Use values from the Grafana module outputs (`prometheus_password`, `loki_password`, `tempo_password`).
 
 ---
 
 ## Error Handling
 
-- **JSON Parse Error:** Ensure all trailing commas and comments (`//`) are removed before saving in the Vault UI.
-- **Namespace Missing:** If the deployment namespace is not visible, verify that the Terraform apply was successful and that you are logged in with an Admin token.
+- JSON Parse Error: Ensure all trailing commas and comments (`//`) are removed before saving in the Vault UI.
+- Namespace Missing: If the deployment namespace is not visible, verify that the Terraform apply was successful and that you are logged in with an Admin token.
 
 ---
 
@@ -97,11 +97,12 @@ kubectl get vaultstaticsecret -n ${NAMESPACE} application
 # 2. Verify Kubernetes secret was created
 kubectl get secret -n ${NAMESPACE} application -o jsonpath='{.data}'
 ```
-# ### 3. Vault Population (Manual)
+
+## ### 3. Vault Population (Manual)
 
 ### 4. Integration Layer: ArgoCD & Argo Workflows
 
 _Specific configuration requirements for GitOps and Workflow engines._
 
-- **ArgoCD:** Requires `admin_password` (hashed via `htpasswd`), GitLab deploy tokens for repository access, and Azure SSO client secrets.
-- **Argo Workflows:** Primarily uses the same `postgresql` credentials as the main application for its internal database state.
+- ArgoCD: Requires `admin_password` (hashed via `htpasswd`), GitLab deploy tokens for repository access, and Azure SSO client secrets.
+- Argo Workflows: Primarily uses the same `postgresql` credentials as the main application for its internal database state.

@@ -1,7 +1,7 @@
 ---
 aliases: ["CUE Logic", "Unification Engine", "Value Lattice"]
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-04T07:26:55+00:00
+modified: 2026-02-05T19:59:54+00:00
 tags: ["configuration", "cue", "sot"]
 title: SoT - CUE Configuration Logic
 type: SoT
@@ -68,6 +68,7 @@ x: 7   # Error: Bottom (⊥). A value cannot be 6 AND 7.
 ```
 
 Key Property: Unification is Commutative.
+
 `Constraint A & Constraint B` is identical to `Constraint B & Constraint A`. This solves the "Override Hell" of layered YAML files.
 
 ---

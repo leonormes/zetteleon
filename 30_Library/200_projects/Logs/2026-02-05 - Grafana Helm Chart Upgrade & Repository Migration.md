@@ -1,6 +1,6 @@
 ---
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-02-05T13:34:19+00:00
+modified: 2026-02-05T20:00:01+00:00
 tags: ["grafana", "helm", "kubernetes", "log", "migration", "rust"]
 title: 2026-02-05 - Grafana Helm Chart Upgrade & Repository Migration
 ---
@@ -49,11 +49,13 @@ helm show values oci://registry-1.docker.io/grafanacharts/k8s-monitoring --versi
 - [[Grafana Stack Update v1 to v3]]: Technical refactoring details for `values.yaml` and Rust code integration.
 - [[SoT - Cloud-Native Observability]]: Canonical strategy for logs, metrics, and tracing.
 - [[SoT - FITFILE Secret Management Architecture]]: Related via the integration of Vault secrets for monitoring destinations.
-# ## Step-by-Step Commands Used
+
+## ## Step-by-Step Commands Used
 
 ### Update: 2026-02-05 (ArgoCD Sync Fixes)
-- **Environment:** `testing`.
-- **Issue:** ArgoCD sync failure due to persistent legacy keys.
-- **Resolution:**
+
+- Environment: `testing`.
+- Issue: ArgoCD sync failure due to persistent legacy keys.
+- Resolution:
     - Nullified `externalServices` and `traces` in `testing/values.yaml`.
     - Implemented `urlFrom` Alloy expressions to bridge existing Vault secrets with the new `destinations` schema.
