@@ -10,7 +10,7 @@ type: "map"
 updated: 
 ---
 
-The "ping" is a distinct nervous system signal—a jolt of fear, anxiety, excitement, or other emotional response—that occurs when engaging with meaningful real-world action. It represents the body's recognition that you are encountering genuine [[Type 2 Information is Experiential]] rather than theoretical knowledge.
+The "ping" is a distinct nervous system signal—a jolt of fear, anxiety, excitement, or other emotional response—that occurs when engaging with meaningful real-world action. It represents the body's recognition that you are encountering genuine [[Knowledge Emerges Through Application and Experience|Type 2 Information is Experiential]] rather than theoretical knowledge.
 
 ## Two Aspects of the Ping
 
@@ -20,24 +20,24 @@ Post-Action Feedback: The ping also manifests as emotional and physiological fee
 
 ## The Ping as Growth Compass
 
-Rather than interpreting the ping as a signal to stop or retreat, it can be reframed as a compass pointing toward valuable learning opportunities. The presence of emotional activation indicates you are about to generate or have generated [[Type 2 Information is Experiential|experiential information]] that cannot be obtained through theoretical study.
+Rather than interpreting the ping as a signal to stop or retreat, it can be reframed as a compass pointing toward valuable learning opportunities. The presence of emotional activation indicates you are about to generate or have generated [[Knowledge Emerges Through Application and Experience|experiential information]] that cannot be obtained through theoretical study.
 
 ## Neurological Basis
 
-The ping reflects the [[The Interest-Based Nervous System in ADHD|interest-based nervous system's]] response to novelty, challenge, and uncertainty. It represents the activation of emotional and motivational circuits that tag experiences with importance and meaning.
+The ping reflects the [[SoT - ADHD Neurology & Core Concepts|interest-based nervous system's]] response to novelty, challenge, and uncertainty. It represents the activation of emotional and motivational circuits that tag experiences with importance and meaning.
 
 ## Role in Learning Cycles
 
-The ping is the core learning signal in [[The Action-Reaction-Ping-Adjust Cycle Drives Real Progress]]. It provides the [[Emotional Feedback is a Sign of Genuine Learning|emotional feedback]] necessary to distinguish between sterile theoretical knowledge and embodied understanding gained through experience.
+The ping is the core learning signal in [[The Action-Reaction-Ping-Adjust Cycle Drives Real Progress]]. It provides the [[Emotion Tags Information with Importance|emotional feedback]] necessary to distinguish between sterile theoretical knowledge and embodied understanding gained through experience.
 
 ## Practical Application
 
-Learning to act _despite_ the ping, or even _because_ of it, becomes a meta-skill for overcoming [[The Overthinking Loop Creates Mental Noise Not Clarity|overthinking loops]] and achieving personal growth. The discomfort signals meaningful engagement with reality rather than the false safety of endless preparation.
+Learning to act _despite_ the ping, or even _because_ of it, becomes a meta-skill for overcoming [[ADHD Overthinking is a Substitute for Action|overthinking loops]] and achieving personal growth. The discomfort signals meaningful engagement with reality rather than the false safety of endless preparation.
 
 ## Related Concepts
 
-- [[Type 2 Information is Experiential]] - The experiential knowledge the ping signals
-- [[Emotional Feedback is a Sign of Genuine Learning]] - The learning mechanism the ping represents
+- [[Knowledge Emerges Through Application and Experience|Type 2 Information is Experiential]] - The experiential knowledge the ping signals
+- [[Emotion Tags Information with Importance|Emotional Feedback is a Sign of Genuine Learning]] - The learning mechanism the ping represents
 - [[The Action-Reaction-Ping-Adjust Cycle Drives Real Progress]] - The systematic process incorporating the ping
-- [[The Interest-Based Nervous System in ADHD]] - The neurological context for ping responses
+- [[SoT - ADHD Neurology & Core Concepts|The Interest-Based Nervous System in ADHD]] - The neurological context for ping responses
 - [[SoT - Reframe Your Mindset From Pretender to Explorer]] - The mindset shift that embraces the ping

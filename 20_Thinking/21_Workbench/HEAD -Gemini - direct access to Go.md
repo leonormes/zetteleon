@@ -2,7 +2,7 @@
 aliases: [HEAD ‎Gemini – direct access to Go, HEAD ‎Gemini – direct access to Google AI]
 captured: 2026-02-02T08:00:37+00:00 2026-02-02T08:00:37+00:00
 created: 2026-02-02T08:00:40+00:00
-modified: 2026-02-05T18:59:27+00:00
+modified: 2026-02-08T21:02:08+00:00
 source: https://gemini.google.com/share/75934e7806cb
 status: processing
 tags: [input]
@@ -12,7 +12,7 @@ type: head
 
 ## Raw Output / Content
 
-give me a forensic research llm prompt for my coding llm to analyse and report on the current helm charts. I want to define the 'api'. Take into account the Tesler's Law (Computing and Design)
+give me a forensic research LLM prompt for my coding llm to analyse and report on the current helm charts. I want to define the 'api'. Take into account the Tesler's Law (Computing and Design)
 
 This is the most common usage of the phrase. Coined by Larry Tesler (a computer scientist who worked for Xerox PARC and Apple) in the mid-1980s, this law states that for any system, there is a certain amount of complexity that cannot be reduced.
 

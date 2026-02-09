@@ -93,7 +93,7 @@ In private clusters where worker nodes lack public IPs, ingress requires explici
 ## 6. Troubleshooting Heuristics
 
 > [!abstract] See Full Protocol
-> For the step-by-step diagnostic algorithm, see: [[Protocol - Kubernetes Network Debugging]]
+> For the step-by-step diagnostic algorithm, see: [[Protocol - HIE--NNUH Network Debugging]]
 
 1. Pod-to-Pod: Is the CNI healthy? (`ping` Pod IPs).
 2. Service Discovery: Can you resolve the name? (`nslookup my-service`).

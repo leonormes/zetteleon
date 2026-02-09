@@ -1,7 +1,7 @@
 ---
 created: 2025-12-04T12:02:41Z
 last_reviewed: null
-modified: 2026-02-06T14:20:21+00:00
+modified: 2026-02-06T15:16:48+00:00
 status: processing
 tags: [state/thinking]
 title: HEAD - IP Address Management for Indeterminate, Interconnecting Private Networks
@@ -36,7 +36,7 @@ Why this matters to you: RFC 2050's delegation model—IANA → RIR → LIR → 
 
 This is the industry standard approach used by hyperscalers and multi-cloud enterprises:
 
-```
+```sh
 Organisation Master Block:  10.0.0.0/8
   ├── Region / Business Unit:  10.<region>.0/16   (e.g., 10.1.0.0/16 = EU)
   │     ├── Environment:        10.1.<env>/20     (e.g., 10.1.16.0/20 = prod)

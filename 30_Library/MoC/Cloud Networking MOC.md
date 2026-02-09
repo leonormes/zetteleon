@@ -36,7 +36,7 @@ This Map of Content (MOC) serves as an entry point for various concepts and tech
 
 …
 
-- [[AWS ALB Step-by-Step Tutorial MOC]]
+- [[MOC - AWS ALB Step-by-Step Tutorial]]
 - [[What is an AWS Application Load Balancer (ALB)]]
 - [[VPC Setup for AWS ALB]]
 - [[Internet Gateway in AWS Networking]]

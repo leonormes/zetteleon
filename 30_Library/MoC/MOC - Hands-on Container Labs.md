@@ -1,9 +1,9 @@
 ---
 aliases: []
 created: 2025-10-26T17:16:00Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:06+00:00
-status: "null"
+last_reviewed: "2026-02-06"
+modified: 2026-02-06T09:40:00+00:00
+status: "stable"
 tags: ["debugging", "hands-on", "lab", "SoftwareEngineering/Containers", "tutorial"]
 title: MOC - Hands-on Container Labs
 type: "map"
@@ -22,54 +22,47 @@ Theoretical knowledge of containers is insufficient without practical experience
 
 ### 🛠️ Building from Scratch
 
-- [[Linux Networking]] - Complete hands-on curriculum
-- Build container network manually - Step-by-step namespace creation (planned)
-- Implement simple CNI plugin - Write basic networking code (planned)
-- Create container runtime - Minimal container implementation (planned)
+- [[Linux Networking]] - Complete hands-on curriculum/Index.
+- [[curriculum for learning Kubernetes networking]] - Comprehensive phase-by-phase build guide.
+- [[What is a veth pair]] - Configuring the virtual wires.
+- [[What is a Linux bridge]] - Building the software switch.
 
 ### 🔍 Debugging Scenarios
 
-- Pod cannot ping same-node Pods - veth/bridge issues (planned)
-- Cross-node connectivity failures - routing/overlay problems (planned)
-- DNS resolution issues - CoreDNS and local DNS debugging (planned)
-- Service access problems - kube-proxy and iptables troubleshooting (planned)
+- [[Protocol - HIE--NNUH Network Debugging]] - Systematic troubleshooting guide.
+- [[SoT - Network Debugging Tools & Patterns]] - Using `tcpdump` and `nsenter`.
+- [[Protocol - Legacy Helm Refactoring]] - Debugging configuration drift.
 
 ### ⚡ Performance & Optimization
 
-- Network throughput optimization - Tuning kernel parameters (planned)
-- Memory usage analysis - Container memory profiling (planned)
-- CPU scheduling optimization - cgroup tuning techniques (planned)
-- Storage performance tuning - Volume and filesystem optimization (planned)
+- [[SoT - High-Performance Kubernetes Node Tuning]] - Kernel optimization.
+- [[SoT - Network Overhead & MTU]] - Tuning packet sizes for overlay networks.
 
 ### 🔒 Security Hardening
 
-- Container escape prevention - Namespace and capability hardening (planned)
-- Network policy implementation - iptables and eBPF security (planned)
-- Image security scanning - Vulnerability detection and remediation (planned)
-- Runtime security monitoring - Falco and security tools (planned)
+- [[SoT - Container Security & Hardening]] - Base principles.
+- [[SoT - Linux Container Internals]] - Understanding namespaces to secure them.
 
 ## Learning Path
 
 ### Beginner Track
 
 1. [[Linux Networking]] - Master the fundamentals
-2. Network namespace labs - Isolation exercises
-3. Basic connectivity labs - veth and bridge setup
-4. Simple troubleshooting - Common issue resolution
+2. [[SoT - Linux Networking Primitives]] - Understand Namespaces and Cgroups
+3. [[What is a veth pair]] - Connectivity basics
+4. [[What is a Linux bridge]] - Switching basics
 
 ### Intermediate Track
 
-1. Multi-container networking - Bridge and routing labs
-2. NAT and egress debugging - iptables and internet access
-3. Service implementation - Load balancing exercises
-4. Performance analysis - Monitoring and optimization
+1. [[curriculum for learning Kubernetes networking]] - Follow Phases 1-3
+2. [[SoT - Kubernetes Networking Model]] - The theory applied
+3. [[SoT - Calico CNI Architecture]] - Real-world CNI implementation
 
 ### Advanced Track
 
-1. CNI plugin development - Custom networking solutions
-2. Security hardening - Production security practices
-3. Performance tuning - Large-scale optimization
-4. Complex debugging - Multi-layer problem solving
+1. [[SoT - High-Performance Data Structures]] - Understanding data locality
+2. [[SoT - Zero Knowledge Architecture]] - Advanced security implementation
+3. [[SoT - eBPF Observability]] (Planned)
 
 ## Lab Environment Setup
 
@@ -134,23 +127,14 @@ strace -p <pid>
 
 ### Existing Tutorials
 
-- [[Linux Networking]] - Comprehensive hands-on curriculum
-- [[How to create and connect network namespaces]]
-- [[How a veth pair connects two network namespaces]]
-- [[How to set up a Linux bridge for container networking]]
-- [[How a packet exits a container via NAT]]
+- [[Linux Networking]]
+- [[curriculum for learning Kubernetes networking]]
+- [[What is a veth pair]]
+- [[What is a Linux bridge]]
+- [[SoT - Linux Networking Primitives]]
 
-### Planned Debugging Guides
+### Planned/Drafts
 
-- DEBUG - Pod cannot ping other Pods on same node
-- DEBUG - Pod can reach same-node Pods but not cross-node
-- DEBUG - Pod cannot resolve DNS names
-- DEBUG - Service ClusterIP unreachable from Pods
+- Lab - Build Container Network from Scratch (See Curriculum)
+- Lab - Implement Simple CNI Plugin (See Curriculum Phase 2)
 
-### Planned Advanced Labs
-
-- Lab - Build Container Network from Scratch
-- Lab - Implement Simple CNI Plugin
-- Lab - Container Security Hardening
-- Lab - Performance Optimization Techniques
-- Lab - Multi-node Network Troubleshooting

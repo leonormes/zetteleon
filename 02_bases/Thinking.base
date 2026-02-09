@@ -71,3 +71,5 @@ views:
         direction: DESC
   - type: table
     name: View
+  - type: table
+    name: Questions

@@ -153,4 +153,4 @@ Sometimes the issue isn't the network, but the Linux Kernel on the Node.
 
 ## Related Protocols
 
-- [[Protocol - Kubernetes Network Debugging]]—_The step-by-step diagnostic workflow._
+- [[Protocol - HIE--NNUH Network Debugging]]—_The step-by-step diagnostic workflow._

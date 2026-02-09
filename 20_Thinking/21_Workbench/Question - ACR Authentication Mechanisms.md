@@ -1,6 +1,6 @@
 ---
 created: 2026-02-06T10:35:00+00:00
-modified: 2026-02-06T10:31:39+00:00
+modified: 2026-02-06T20:54:09+00:00
 status: processing
 tags: [domain/cloud, domain/security, fitfile, question]
 title: Question - ACR Authentication Mechanisms
@@ -9,7 +9,7 @@ type: question
 
 ## Question
 
-How do our azure clusters authenticate with acr in order to pull images?
+question:: How do our azure clusters authenticate with acr in order to pull images?
 
 ### Discovery & Answers
 

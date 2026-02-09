@@ -1,7 +1,7 @@
 ---
 aliases: ["NetEng", "Network Engineering Map", "Networking MOC"]
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-04T20:47:38+00:00
+modified: 2026-02-06T20:02:08+00:00
 tags: ["engineering", "infrastructure", "moc", "networking"]
 title: MOC - Network Engineering
 type: map
@@ -20,14 +20,13 @@ Network Engineering is not just about connecting cables; it is the discipline of
 
 ### 2. Operational Protocols (The "How-To")
 
-- Diagnostics: [[Protocol - Kubernetes Network Debugging]]—_A step-by-step checklist for isolating connectivity faults._
+- Diagnostics: [[Protocol - HIE--NNUH Network Debugging]]—_A step-by-step checklist for isolating connectivity faults._
 - Hybrid Cloud: [[SoT - Network Debugging - Cross-Cloud & Hybrid]]—_ExpressRoute, DirectConnect, and VNET peering failure modes._
 - Tooling: [[SoT - Network Debugging Tools & Patterns]]—_The armory: tcpdump, netshoot, mtr, and nc._
 
 ### 3. Architecture & Hardware
 
 - [[MOC - Cloud Hardware Architecture]]—_Physical constraints: NICs, NUMA, and SR-IOV._
-- [[SoT - NIC Direct Memory Access]]—_How hardware bypasses the CPU for speed._
 - [[SoT - Azure Hybrid Networking (ExpressRoute)]]—_Connecting On-Prem to Cloud._
 
 ### 4. Key Concepts

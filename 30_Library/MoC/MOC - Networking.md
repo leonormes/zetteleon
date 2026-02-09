@@ -2,9 +2,9 @@
 aliases: []
 created: 2025-10-24T14:25:58Z
 id: Networking MOC
-last_reviewed: null
-modified: 2026-02-03T04:36:28+00:00
-status: null
+last_reviewed: 2026-02-06
+modified: 2026-02-06T09:30:00+00:00
+status: stable
 tags: ["SoftwareEngineering/Networking", type/moc]
 title: MOC - Networking
 type: map
@@ -14,79 +14,76 @@ This Map of Content (MOC) serves as the top-level entry point for all networking
 
 ## Foundational Concepts
 
-### Models & Units
+### Models & Primitives
 
-- [[MOC - OSI Model]]
-- [[SoT - Protocol Data Units (PDU)]]
-- [[SoT - Encapsulation & De-encapsulation]]
-- [[Physical Layer]]
+- [[SoT - Protocol Data Units (PDU)]]: The atomic units of data at each layer.
+- [[SoT - Encapsulation & De-encapsulation]]: The process of wrapping data for transport.
+- [[SoT - Linux Networking Primitives]]: How the kernel handles packets (Namespaces, veth pairs, bridges).
+- [[MOC - Computer Science Foundations]]: Broader context including OSI/TCP-IP models.
 
 ### IP Addressing and Routing
 
-- IP Addressing and CIDR
-- [[Routing Tables Use Longest Prefix Match for Forwarding Decisions]]
+- [[SoT - Cloud Networking Core Components]]: The fundamental building blocks (VNet/VPC, Subnets, Routing).
+- [[SoT - Network Overhead & MTU]]: Physical constraints of packet size.
 
-### Network Address Translation
+### DNS & Service Discovery
 
-- [[NAT Gateways Enable Private Resources to Access Internet]]
-- [[Kubernetes Performs SNAT for Pod Egress Traffic]]
-
-### Load Balancing
-
-- [[MOC - Load Balancing]]
-- [[A Load Balancer Distributes Traffic for Reliability and Scale]]
-- [[Load Balancer Health Checks Ensure Traffic is Routed Only to Healthy Servers]]
-- [[Load Balancers Distribute Traffic Across Backend Services]]
-- High Availability Concepts
-
-### DNS
-
-- [[SoT - The Data Architecture of DNS]]
-- [[DNS is a distributed database]]
-- [[DNS Resolvers Translate Domain Requests to IP Queries]]
-- [[DNS Resource Records Are Structured Key-Value Pairs]]
-- [[Private DNS Zones Provide Internal Network Name Resolution]]
-- [[Split-Horizon DNS Decouples Service Names from Network Topology]]
-- [[Host-Based Routing Enables Virtual Hosting in Cloud Infrastructure]]
-- [[Private vs Public DNS Resolution Patterns]]
-- [[Hybrid Cloud DNS Resolution Flow]]
+- [[SoT - The Data Architecture of DNS]]: The structural hierarchy of the Domain Name System.
+- [[SoT - DNS Core Components and Environments]]: Resolvers, zones, and records.
+- [[MOC - Networking & DNS]]: Index of DNS-specific concepts.
 
 ## Networking Methodologies
 
-- [[Data-Centric Networking Focuses on Packet Journey Through Devices]]
-- [[MOC - Cloud Networking Devices Data Flow]]
+- [[SoT - The Data-Centric Theory of Networking]]: Networking as a data transformation pipeline.
+- [[MOC - Cloud Networking Devices Data Flow]]: Visualizing the path of a packet.
+- [[SoT - Network Debugging Tools & Patterns]]: Practical diagnosis (tcpdump, wireshark).
 
 ## Cloud Networking
 
-- [[Cloud Networking MOC]]
-- [[AWS Networking MOC]]
-- (To be added later, e.g., Azure Networking, GCP Networking)
+### General Cloud
+
+- [[Cloud Networking MOC]]: General cloud networking concepts.
+- [[SoT - Cloud Networking Core Components]]: Universal abstractions (VPC/VNet).
+- [[SoT - Secure Cross-Cloud Data Transport]]: VPNs, Peering, and Interconnects.
+
+### AWS
+
+- [[AWS Networking MOC]]: AWS-specific implementations.
+- [[SoT - AWS EKS Networking Architecture]]: VPC CNI and pod networking.
+
+### Azure
+
+- [[SoT - Azure Hybrid Networking (ExpressRoute)]]: Connectivity to on-premise.
+- [[SoT - Azure Resource Manager Architecture]]: How VNets exist as logical resources.
+- [[Cheatsheet - Azure AKS Networking]]: Quick reference for AKS IPs.
 
 ## Kubernetes Networking
 
-- [[Kubernetes Performs SNAT for Pod Egress Traffic]]
-- [[AWS ENIs Connect EKS Worker Nodes to VPC Networks]]
-- [[Kubernetes Ingress Controllers Handle L7 Traffic]]
-- [[Services]]
-- [[Kubernetes-Native Abstractions for Traffic Control]]
-- [[Sequence - Container to Internet Packet Flow in EKS]]
+- [[SoT - Kubernetes Networking Model]]: The "Flat Network" requirement.
+- [[SoT - Kubernetes Networking & DNS]]: Services, Ingress, and CoreDNS.
+- [[SoT - Calico CNI Architecture]]: Network policies and overlay networks.
+- [[SoT - Calico Observability]]: Monitoring in-cluster traffic.
+- [[Kubernetes Provides NodePort and LoadBalancer for External Service Access]].
+
+## Traffic Management (Load Balancing)
+
+- [[MOC - Load Balancing]]: Index of load balancing strategies.
+- [[MOC - AWS ALB Step-by-Step Tutorial]]: Implementation details.
+- [[SoT - External Ingress & SSL Architecture]]: Handling TLS termination at the edge.
 
 ## Security
 
-### Firewall Technology & Evolution
+### Firewalls & Filtering
 
-- [[Next-Generation Firewalls (NGFW) Provide Application-Aware Security]]
-- [[Web Application Firewalls Protect Against Layer 7 Attacks]]
-- [[Cloud Firewalls Filter Traffic at Network and Transport Layers]]
+- [[SoT - Cloud Firewalls Filter Traffic at Network and Transport Layers]].
+- [[SoT - External Ingress & SSL Architecture]]: WAF and Edge security.
+- [[SoT - Zero Knowledge Architecture]]: Networking implications of Zero Trust.
 
-### Layer 3 Security
+### Layer 3/4 Security
 
-- [[Layer 3 Network Security Protects IP Routing and Forwarding]]
-- [[Access Control Lists Filter Traffic Based on Protocol and Address Rules]]
-- [[MOC - Layer 3 Network Security Concepts]]
-- [[Mtri Trees Efficiently Store ACL and Routing Table Entries]]
-- [[Bit Manipulation Optimizes Network Prefix Storage and Matching]]
+- [[MOC - Layer 3 Network Security Concepts]].
+- [[Access Control Lists Filter Traffic Based on Protocol and Address Rules]].
 
 ---
 
-Related: SRE MOC (if applicable)
+Related: [[MOC - ProdOS]], [[MOC - Software Architecture Principles]]

@@ -101,4 +101,4 @@ spec:
 ## Related Knowledge
 
 - [[SoT - FITFILE Secret Management Architecture]] (How cert secrets are synced/managed).
-- [[Protocol - Kubernetes Network Debugging]] (Diagnostic steps for ingress timeouts).
+- [[Protocol - HIE--NNUH Network Debugging]] (Diagnostic steps for ingress timeouts).

@@ -3,7 +3,7 @@ aliases: [ProdOS Index, Productivity Operating System, Start Here]
 created: 2025-12-04T14:38:32Z
 id: MOC - ProdOS
 last_reviewed: 2026-02-01
-modified: 2026-02-02T06:59:13+00:00
+modified: 2026-02-08T05:06:53+00:00
 status: stable
 tags: ["SoftwareEngineering/Architecture", prodos]
 title: MOC - ProdOS
@@ -11,11 +11,6 @@ type: map
 ---
 
 ## ProdOS - Productivity Operating System
-
-> [!abstract] The Magpie Metaphor
-> The mind is not a computer; it is a Magpie. It doesn't build complex "nests" (thoughts/actions) entirely inside its head. Instead, it weaves them together using external scraps: movement, physical space, gestures, and trusted external media.
-
----
 
 ### 1. ProdOS Lite: The Thinking Stream (Quick Start)
 
@@ -49,7 +44,6 @@ The Guardrails:
 The definitive specification of the system, its biological basis, and the "Why".
 
 - [[SoT - PRODOS Core Specification]]—_The v5.0 Flow-Oriented cybernetic architecture. Defines the Zero-Maintenance Baseline, The Core Loop, and The MVA._
-- [[MOC - PRODOS - Problem-Solution Map]]—_Mapping ADHD deficits (Executive Dysfunction, RSD) to ProdOS architectural solutions._
 - [[SoT - The Cognitive Physiology of Task Execution]]—_The scientific basis for decoupling Initiation, Encoding, and Monitoring._
 - [[SoT - The Extended Mind]]—_The philosophy of cognitive extension and Active Externalism._
 - [[SoT - Process Execution (Kernel Logic)]]—_The core operating logic of the system._
@@ -86,7 +80,6 @@ The definitive specification of the system, its biological basis, and the "Why".
 - [[SoT - Temporal Management (Blocking and Boxing)]]—_Strategic Time-Blocking vs. Tactical Time-Boxing._
 - [[SoT - PRODOS Core Specification#5. State Management (Cryosleep)|Cryosleep Protocol]]—_The "Save State" mechanism for minimizing context-switching costs._
 - [[SoT - Bridging the Intention-Action Gap]]—_Protocols for overcoming high activation energy._
-- [[SoT - Motion vs Action (The Physics of Productivity)]]—_Distinguishing between busy work (Motion) and output (Action)._
 - [[SoT - Perfectionism and Analysis Paralysis]]—_Overcoming the blocks that prevent shipping._
 
 ---

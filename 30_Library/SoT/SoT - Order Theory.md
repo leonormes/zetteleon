@@ -1,7 +1,7 @@
 ---
 created: 2026-02-02T09:54:00+00:00
 last-synthesis: 2026-02-02
-modified: 2026-02-04T07:27:11+00:00
+modified: 2026-02-06T15:14:41+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
@@ -73,4 +73,5 @@ To adopt Order Theory in platform engineering:
 3. Trust the Lattice: If details don't fit the shape, the config is mathematically invalid.
 
 ## Related Knowledge
-- **Application**: [[SoT - Infrastructure Complexity]] (Explains *why* we need Order Theory in DevOps).
+
+- Application: [[SoT - Infrastructure Complexity]] (Explains _why_ we need Order Theory in DevOps).

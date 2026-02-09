@@ -26,7 +26,7 @@ This Map of Content (MOC) covers various aspects of load balancing, a critical c
 
 ## Implementations
 
-- [[AWS ALB Step-by-Step Tutorial MOC]]
+- [[MOC - AWS ALB Step-by-Step Tutorial]]
 - [[AWS ALB Target Groups]]
 - [[Creating an AWS Application Load Balancer (ALB)]]
 - [[Testing and Validating AWS ALB]]

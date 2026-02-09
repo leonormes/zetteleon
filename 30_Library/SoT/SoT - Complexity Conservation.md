@@ -1,7 +1,7 @@
 ---
 created: 2026-02-01T20:56:02+00:00
 last-synthesis: 2026-02-01
-modified: 2026-02-04T07:27:23+00:00
+modified: 2026-02-06T15:16:03+00:00
 related: [[Code vs Data Structures (Torvalds Essay)]]
 source_of_truth: true
 status: evergreen
@@ -24,10 +24,6 @@ Software complexity obeys a conservation law: it must reside either in control f
 - [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]]
 - [[Targeting LLM Attention Requires Encoding Relevance as Structure]]
 - [[SoT - LLM Codebase Understanding & Hierarchy]]
-
-### Operational Protocols
-
-- [[MVC Enforcement: Structural Gates for LLM Agents]]
 
 ## Current Understanding
 

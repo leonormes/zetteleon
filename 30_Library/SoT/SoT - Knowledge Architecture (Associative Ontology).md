@@ -3,7 +3,7 @@ alias: ["Intellectual Landscape", "Knowledge Map", "Ontology"]
 aliases: []
 created: 2026-01-05T06:58:46+00:00
 last_reviewed: 
-modified: 2026-02-05T19:59:48+00:00
+modified: 2026-02-06T15:51:23+00:00
 status: "Active"
 tags: ["architecture", "knowledge-management", "meta", "ontology"]
 title: SoT - Knowledge Architecture (Associative Ontology)
@@ -140,7 +140,7 @@ The user's intellectual life operates on a Single Isomorphic Principle:
 
 > "Structure determines Behavior."
 
-1. In Software (Domain III): The Data Layout (Type) determines the algorithm.
+1. In Software (Domain III): The Data Lay out (Type) determines the algorithm.
 2. In Mind (Domain II): The Environment (Context) determines the focus.
 3. In Life (Domain V): The Meaning (Attitude) determines the resilience.
 4. In Action (Domain I): The System (Pipe) determines the consistency.

@@ -2,7 +2,7 @@
 aliases: ["Causal Opacity", "Heuristic Substitution", "IoED", "The Toilet Illusion"]
 created: 2025-12-12T00:00:00Z
 last_reviewed: "2025-12-15"
-modified: 2026-02-01T15:07:56+00:00
+modified: 2026-02-07T18:01:50+00:00
 status: "stable"
 tags: ["bias", "learning", "mental_models", "TheHuman/Cognition", "TheHuman/Health/ADHD"]
 title: SoT - Illusion of Explanatory Depth (IoED)
@@ -92,7 +92,3 @@ The brain is highly visual. Use Doodling and Stories to create "hooks":
 
 - Dunning-Kruger Effect: IoED is the specific _mechanism_ behind the "Mount Stupid" peak of the Dunning-Kruger curve (high confidence, low competence).
 - The Knowledge Illusion: We rely on the "Community of Knowledge" (other people, Google) to sustain our illusion. We think _we_ know it because _we know where to find it_.
-
-## 6. Evidence & Examples
-
-- [[Video - How the Algorithm Hijacked Monkey's Brain]]: Illustrates this as "Passive information exposure mistaken for skill acquisition." Watching a tutorial triggers the same dopamine hit as real progress without the neural encoding.

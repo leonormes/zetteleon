@@ -1,18 +1,18 @@
 [
   {
-    "icon": "search",
-    "text": "Review the debugging notes for HIE-NNUH from my Workbench and the NNUH Network Architecture SoT to identify the root cause of the recent connectivity issues."
+    "icon": "sparkles",
+    "text": "Review the HIE-NNUH debugging investigations in the Workbench and draft a formal Firewall Configuration SoT using the PRODOS Scope-Lock Template."
   },
   {
-    "icon": "file-plus",
-    "text": "Draft a project roadmap for the Legacy-to-CUE Migration Strategy based on the principles in the Generative Infrastructure Configuration Framework SoT."
+    "icon": "calendar",
+    "text": "Extract all action items from my Dailies over the past fortnight related to AKS Networking and consolidate them into the All Tasks dashboard."
   },
   {
     "icon": "lightbulb",
-    "text": "Search my Zettelkasten for notes on the Conservation of Complexity and explain how these concepts should inform the architectural review of the Azure Resource Manager."
+    "text": "Analyse the Application Registrations vs Service Principals note in the Inbox to explain how these concepts should be integrated into the Cloud Networking MoC."
   },
   {
-    "icon": "sparkles",
-    "text": "Analyze the ACR Authentication Mechanisms and FITFILE Secret Management Architecture notes to identify any gaps in our current cloud security posture."
+    "icon": "book-open",
+    "text": "Synthesise the Emotional Bottleneck Hypothesis from the Inbox with the ADHD Emotional Reasoning SoT to find new insights for the Zettelkasten."
   }
 ]

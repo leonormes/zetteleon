@@ -2,8 +2,15 @@
 created: 2026-02-05T17:15:00Z
 modified: 2026-02-05T17:21:47+00:00
 status: permanent
-tags: [aks, azure, log, networking, troubleshooting]
+tags:
+  - aks
+  - azure
+  - log
+  - networking
+  - troubleshooting
+  - customer/nnuh
 title: 2026-02-05 - Azure AKS Inbound DNAT and IP Sizing
+type: head
 ---
 
 ## Context
