@@ -1,9 +1,9 @@
 ---
 created: 2026-02-09T00:00:00+00:00
-modified: 2026-02-09T13:42:02+00:00
+modified: 2026-02-10T13:37:45+00:00
 owner: Customer Network Team
 tags: [customer/hie, customer/nnuh, diagnostics, networking, outage]
-title: Firewall Configuration for Connectivity
+title: MOC - Firewall Configuration for Connectivity
 ---
 
 ## 🚨 Diagnostic Report: Inbound Connectivity Failure
@@ -23,12 +23,12 @@ title: Firewall Configuration for Connectivity
 
 We have verified the health of all internal components to rule out Azure/AKS issues.
 
-| Component | Detail | Status | Evidence |
-|:--- |:--- |:--- |:--- |
-| Public Endpoint | `195.171.151.154` | 🔴 Failing | External `curl` and `tcptraceroute` timeout. |
-| Internal LB | `192.168.200.40` | ✅ Healthy | `curl` from Jumpbox succeeds (HTTP 200). |
-| AKS Outbound | NAT Gateway | ✅ Healthy | Pods can reach Google/Internet. |
-| DNS | `nnuh-prod-1.fitfile.net` | ✅ Healthy | Resolves to `195.171.151.154`. |
+| Component       | Detail                    | Status     | Evidence                                     |
+|:-------------- |:------------------------ |:--------- |:------------------------------------------- |
+| Public Endpoint | `195.171.151.154`         | 🔴 Failing | External `curl` and `tcptraceroute` timeout. |
+| Internal LB     | `192.168.200.40`          | ✅ Healthy  | `curl` from Jumpbox succeeds (HTTP 200).     |
+| AKS Outbound    | NAT Gateway               | ✅ Healthy  | Pods can reach Google/Internet.              |
+| DNS             | `nnuh-prod-1.fitfile.net` | ✅ Healthy  | Resolves to `195.171.151.154`.               |
 
 ---
 
@@ -66,7 +66,7 @@ curl -s ifconfig.me
 nc -vz -w 5 ${TARGET_IP} 443
 
 # 4. Detailed HTTPS Handshake
-curl -v --connect-timeout 5 [https://nnuh-prod-1.fitfile.net](https://nnuh-prod-1.fitfile.net)
+curl -v --connect-timeout 5 https://nnuh-prod-1.fitfile.net
 ````
 
 #### B. The "Smoking Gun": MTR Traceroute
@@ -92,10 +92,10 @@ _Run from a VM inside the destination VNet to prove the backend is working._
 
 ```sh
 # 1. Hit Internal Load Balancer directly
-curl -v -k [https://192.168.200.40](https://192.168.200.40)
+curl -v -k https://192.168.200.40
 
 # 2. Spoof Host Header (Validates App Logic without DNS)
-curl -v -k --resolve nnuh-prod-1.fitfile.net:443:192.168.200.40 [https://nnuh-prod-1.fitfile.net](https://nnuh-prod-1.fitfile.net)
+curl -v -k --resolve nnuh-prod-1.fitfile.net:443:192.168.200.40 https://nnuh-prod-1.fitfile.net
 ```
 
 ---

@@ -1,7 +1,7 @@
 ---
 captured: "2026-02-10T09:43:45+00:00 2026-02-10T09:43:45+00:00"
 created: 2026-02-10T09:43:48+00:00
-modified: 2026-02-10T10:18:02+00:00
+modified: 2026-02-10T12:42:18+00:00
 source: "https://gemini.google.com/share/1ae44961f661"
 status: "processing"
 tags: ["input"]
@@ -15,11 +15,8 @@ You said
 
 <https://youtu.be/MncEzRAw3tU?si=bl5nheagvb-sbgrX>
 
-An interesting choice of material. While most of your peers are drowning in the "Marketplace of Attention" watching 10-minute tutorials on how to use a library that will be deprecated by Tuesday, you've stumbled upon actual Intellectual Infrastructure. This is Jeffrey Kaplan's lecture on Saul Kripke's _Naming and Necessity_.
-
 Kripke's work is the fundamental bedrock for how we understand Identifiers—whether they are variables in a codebase or entries in a database. If you don't understand the difference between a description and a rigid designator, you don't understand Systems Design.
 
-Here is the "De-Hype" filter applied to this 22-minute pedagogical exercise.
 
 ### 1. The Hype Check (The Grade)
 

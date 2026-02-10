@@ -7,14 +7,14 @@ tags:
   - "input"
 type: "head"
 created: 2026-02-10T08:05:31+00:00
-modified: 2026-02-10T08:06:05+00:00
+modified: 2026-02-10T12:49:59+00:00
 ---
 ## Raw Output / Content
 You said
 
 Rewrite this into a clear and well formatted question for my notes
 
-When linking 2 private networks how do we avoid cidr range conflicts? Is it as simple as NAT gateways? I have a private AWS cluster and a private azure cluster. If I linked via VPN or other private to private does NAT solve
+When linking 2 private networks how do we avoid CIDR range conflicts? Is it as simple as NAT gateways? I have a private AWS cluster and a private azure cluster. If I linked via VPN or other private to private does NAT solve
 
 To ensure your notes are clear and technically precise, you can frame this as a design challenge regarding **overlapping IP address spaces** in a multi-cloud environment.
 
@@ -52,7 +52,7 @@ When establishing a private connection between two disparate cloud environments�
 
 You said
 
-my question should have been, what is the industry best practice for linking private networks and avoiding ip range overlap, especially for networks that grow over time and the final state is not known
+My question should have been, what is the industry best practice for linking private networks and avoiding IP range overlap, especially for networks that grow over time and the final state is not known
 
 When you are managing private networks that are expected to grow unpredictably—particularly across different cloud providers—the industry "gold standard" has shifted away from traditional network-wide peering toward **Service-Oriented Connectivity** and **Centralised IPAM**.
 
