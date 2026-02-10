@@ -1,18 +1,18 @@
 [
   {
-    "icon": "file-plus",
-    "text": "Analyse the Resolving Overlapping Network CIDRs workbench note and draft a technical implementation guide for Multi-Cloud CIDR conflict resolution."
+    "icon": "link",
+    "text": "Cross-reference the Understanding NAT Gateways note in the Workbench with the Cloud Networking MOC to identify architectural gaps for distillation into a Source of Truth."
   },
   {
-    "icon": "search",
-    "text": "Scan the FFNode Umbrella Chart Forensic Analysis and the FitFile Deployment SoTs to report on any inconsistencies in the current API specifications."
+    "icon": "sparkles",
+    "text": "Apply the Project Playlist methodology to the Data-Oriented Dev Env Setup project to generate a sequence of low-friction tasks for the next work session."
   },
   {
-    "icon": "calendar",
-    "text": "Summarise the progress on Azure Sandbox Subscription Isolation from my recent project logs and Dailies to update the Life OS Dashboard."
+    "icon": "book-open",
+    "text": "Synthesise the SoT - Microsoft Entra Application Model with existing notes on Service Principals to draft a definitive protocol for OpenSSL certificate operations."
   },
   {
-    "icon": "lightbulb",
-    "text": "Apply the Research-to-Action Protocol to the Type Theory notes in the Workbench to generate a structured task list for the Type Theory Curriculum."
+    "icon": "folder-tree",
+    "text": "Evaluate the Bash Error Handling note in the Inbox against the MVC Enforcement protocol and suggest a structure for its migration to the Zettelkasten."
   }
 ]
