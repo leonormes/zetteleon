@@ -1,18 +1,18 @@
 [
   {
-    "icon": "sparkles",
-    "text": "Review the HIE-NNUH debugging investigations in the Workbench and draft a formal Firewall Configuration SoT using the PRODOS Scope-Lock Template."
+    "icon": "file-plus",
+    "text": "Analyse the Resolving Overlapping Network CIDRs workbench note and draft a technical implementation guide for Multi-Cloud CIDR conflict resolution."
+  },
+  {
+    "icon": "search",
+    "text": "Scan the FFNode Umbrella Chart Forensic Analysis and the FitFile Deployment SoTs to report on any inconsistencies in the current API specifications."
   },
   {
     "icon": "calendar",
-    "text": "Extract all action items from my Dailies over the past fortnight related to AKS Networking and consolidate them into the All Tasks dashboard."
+    "text": "Summarise the progress on Azure Sandbox Subscription Isolation from my recent project logs and Dailies to update the Life OS Dashboard."
   },
   {
     "icon": "lightbulb",
-    "text": "Analyse the Application Registrations vs Service Principals note in the Inbox to explain how these concepts should be integrated into the Cloud Networking MoC."
-  },
-  {
-    "icon": "book-open",
-    "text": "Synthesise the Emotional Bottleneck Hypothesis from the Inbox with the ADHD Emotional Reasoning SoT to find new insights for the Zettelkasten."
+    "text": "Apply the Research-to-Action Protocol to the Type Theory notes in the Workbench to generate a structured task list for the Type Theory Curriculum."
   }
 ]
