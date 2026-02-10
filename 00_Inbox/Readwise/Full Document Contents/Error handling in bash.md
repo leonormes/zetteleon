@@ -1,14 +1,10 @@
 ---
 created: 2026-02-08T13:22:01+00:00
-modified: 2026-02-09T08:51:57+00:00
+modified: 2026-02-09T13:52:25+00:00
 title: Error handling in bash
 ---
 
 ## Error Handling in Bash
-
-### Bash Scripts Are Usually System Glue
-
-### Bash Exit Codes
 
 Every bash command returns an exit code. This code gives you an idea how it finished. You can get this exit code of the last command with `$?`.
 
@@ -110,9 +106,8 @@ If else statements are a great way to catch errors, but they can be very wordy. 
 
 Everyone knows the `&&` operator in bash, it's the `AND` operator and allows you to "chain" together multiple commands.
 
-```
+```sh
 echo "hello" && echo "world"
-
 ```
 
 But not that many people know about the `||` operator. This operator is the `OR` operator. It runs a second command if the first command has a non-zero exit code. For example:
@@ -121,12 +116,9 @@ The `||` operator will NOT execute the second command if the first command does 
 
 This is very frequently used for oneline error handling. Here are some common examples:
 
-```
-
- 
+```sh
 # if this fails, do something else
 some_command || other_command
- 
 # echos message to stderr on failure only
 curl not-valid || echo "curl command failed" >&2
 ```
@@ -138,10 +130,6 @@ All the previous examples of catching errors are declared either inline, or imme
 A great way to "catch" all errors is by using the `trap` command. The `trap` command requires you to declare a response to a specific [signal](https://faculty.cs.niu.edu/~hutchins/csci480/signals.htm) before it happens. After you've executed the `trap` command, it will execute on any unhandled occurrence of that signal. In our case, we want to use the `ERR` signal.
 
 ```
-
- 
-
- 
 # an error occurred on line 4
 ```
 
@@ -163,11 +151,8 @@ Fortunately this mishap can be prevented by using the `pipefail` option. You can
 
 In combination with the `||` operator, this can be very powerful.
 
-```
-
+```sh
 cat missing-file.txt | wc -l || echo "something went awry!"
- 
-
 ```
 
 This can also be combined with the `-e` option to exit the program early altogether.
@@ -178,7 +163,7 @@ If bash is your glue, you are no doubt setting and using variables.
 
 In most cases you'll set a variable to the output of another command. If that command fails and the variable is used later you're in trouble!
 
-```
+```sh
 USER_ID=$(grep "user_id" config.txt) # config.txt doesn't exist
  
 echo "User is $USER_ID! " # User is !
@@ -186,17 +171,15 @@ echo "User is $USER_ID! " # User is !
 
 One way to prevent an empty variable from ruining your day is by manually checking if the variable is "not empty" using an `if` statement and the `-z` (empty) operator.
 
-```
+```sh
 USER_ID=$(grep "user_id" config.txt)
- 
 if [ -z "$USER_ID" ]; then
     echo "USER_ID is empty!"
-
 ```
 
 Alternatively, you can use the `-n` to test if the string is (not empty).
 
-```
+```sh
 USER_ID=$(grep "user_id" config.txt)
  
 if [ -n "$USER_ID" ]; then
@@ -206,10 +189,9 @@ if [ -n "$USER_ID" ]; then
 
 If you are setting many variables, this can get very wordy quickly. Fortunately we can use the `-u` flag/option to treat unset variables as an error!
 
-```
-
+```sh
 USER_ID=$(grep "user_id" config.txt) 
- 
+
 echo "User is $USER_ID!" # fails right here when trying to use unset variable!
 ```
 
@@ -217,8 +199,7 @@ echo "User is $USER_ID!" # fails right here when trying to use unset variable!
 
 You can combine the options discussed above! This results in a good set of default error handling behaviors that work for most scripts/applications. In mature production environments, it is rare to see a bash script without at least some of these enabled!
 
-```
-
+```sh
 set -o pipefail # exit on errors in pipes
 set -E # inherit ERR traps
 ```
@@ -244,22 +225,17 @@ This means to use the `||` operator when the fallback/recovery step is short, su
 
 On the flip side, there are many cases where an `if else` statement is preferred due to the complexity of handling the error.
 
-```
-
- 
+```sh
 if [ $rc -eq 1 ]; then
-
 elif [ $rc -eq 2 ]; then
-
 ```
 
 It's worth mentioning that for the example above `-e` cannot be set, as the script would fail when the command exists before we can capture it's exit code (as Redditor u/OneMoreTurn [pointed out](https://www.reddit.com/r/bash/comments/1qxdk4v/comment/o3vvd9u/) pointed out).
 
 Another great reason for using `if else` statements is when the error handling is simple, but requires multiple steps.
 
-```
+```sh
 if ! some_command; then
-
 ```
 
 ### Alerting on Errors
@@ -280,12 +256,9 @@ In these scenarios it would have been nice (or crucial) to be made aware of the 
 
 A very common way to alert yourself of any kind of issue inside a bash script is by sending a message to a Slack or Teams webhook. It is paramount that you send the webhook message to a seldom posted to, yet frequently visited channel. Otherwise the alert will be buried and you will be none the wiser!
 
-```
-
- 
+```sh
 database_backup.sh || curl -sS -X POST \
   -H "Content-Type: application/json" \
-
 ```
 
 #### Notifox CLI
@@ -296,7 +269,7 @@ If the error is more urgent you can configure it to send an SMS instead.
 
 In many cases you would want to alert your team of a successful operation as well. You can do this by piping a message into the Notifox CLI.
 
-```
+```sh
 echo "${domain} cert was renewed" | notifox send -a ops-team -c email
 ```
 

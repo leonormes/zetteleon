@@ -64,3 +64,11 @@ Our IaC logic separates the Logical Model (what we want) from the Physical Imple
 - Private Networking: Clusters reside in private subnets with strictly controlled NAT/Internet egress. See [[SoT - FitFile Deployment - Networking and Security]].
 - Vault-Backed Secrets: Zero secrets in Git. The Vault Secrets Operator (VSO) synchronizes encrypted data from HCP Vault into Kubernetes native secrets at runtime. See [[SoT - FITFILE Secret Management Architecture]].
 - Auth0 Offloading: Application-level authentication is handled by Auth0, decoupled from the infrastructure identity.
+# 2.2 Security Invariants
+
+### 2.3 Sandbox Isolation & Subscription Vending
+
+For R&D or experimental workloads requiring a "clean" environment (isolated from `FITFILE` policies), subscriptions should be placed in a dedicated `Sandbox` Management Group directly under the **Tenant Root Group**.
+
+- **Permission Requirements**: Requires `Azure subscription creator` at the Billing Invoice Section level and `Owner` at the Sandbox MG.
+- **Troubleshooting**: See [[2026-02-09 - Azure Sandbox Subscription Isolation]] for insights on resolving "Already exists" alias errors and billing permission gaps.

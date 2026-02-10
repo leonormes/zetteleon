@@ -53,7 +53,7 @@ Federated Identity Management (FIM) allows the use of a set of identity attribut
 
 Microsoft Entra ID's capabilities like Conditional Access policies use identity signals to make access decisions and enforce organizational policies. Identity Protection leverages adaptive machine learning algorithms and heuristics to detect anomalies and risk detections that might indicate a compromised identity, generating reports and alerts for investigation and remediation.
 
-Microsoft Entra ID also supports "managed identities" for Azure resources, providing Azure services with an automatically managed identity that can authenticate to any service supporting Microsoft Entra authentication without needing to store credentials in code. These identities are a special type of service principal that eliminates the need for manual credential management.
+Microsoft Entra ID also supports "managed identities" for Azure resources, providing Azure services with an automatically managed identity that can authenticate to any service supporting Microsoft Entra authentication without needing to store credentials in code. These identities are a special type of service principal that eliminates the need for manual credential management. For a deep dive into the architectural relationship between Application Registrations and Service Principals, see [[SoT - Microsoft Entra Application Model]].
 
 In essence, Microsoft Entra ID acts as a centralized authority (IdP) for identities, streamlining registration, storing comprehensive identity attributes, and offering a robust suite of authentication methods to verify those identities, all while enabling complex access control decisions and supporting a Zero Trust security posture.
 

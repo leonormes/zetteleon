@@ -56,3 +56,31 @@ Based on the semantic search, execute one of the following:
 1. Retrieve the Pieces LTM activity for the specified period. Use a fast flash model for quick response
 2. Summarise the context and list the semantic search queries you intend to run.
 3. Wait for my "Proceed" before modifying any files.
+
+## Investigation Log - 2026-02-09 - Auth0 Non-Prod & Testing Config
+
+### Context
+Configuring the `hie-test-34` tenant in the `auth0-non-prod` workspace (Terraform run `run-YtEBWfPTxmHDaWep`) and resolving `ImagePullBackOff` errors in the `testing` namespace.
+
+### Issues & Resolutions
+
+#### 1. Auth0 Terraform `400 Bad Request`
+*   **Problem:** The `auth_client_grant` resource for the Auth0 Management API failed because `allow_all_scopes` was set to `true`. System APIs do not support this flag.
+*   **Fix:** Updated the Terraform configuration to set `allow_all_scopes = false` and explicitly defined the required scopes.
+*   **Code Snippet:**
+    ```hcl
+    resource "auth_client_grant" "management_api_grant" {
+      audience = "https://${var.management_api_domain}/api/v2/"
+      allow_all_scopes = false # FIXED: System APIs require explicit scopes
+      scopes = [ ... ]
+    }
+    ```
+
+#### 2. Kubernetes `ImagePullBackOff` (Testing Namespace)
+*   **Problem:** The `ffnode` Helm chart's `generateVaultDynamicSecrets` helper lacked support for setting the Kubernetes Secret `type` (specifically `kubernetes.io/dockerconfigjson`), causing image pull failures.
+*   **Fix:**
+    1.  **Helm Patch:** Updated `charts/ffnode/templates/_helpers.tpl` to support the `destinationType` field.
+    2.  **Config Cleanup:** Refactored `ffnodes/fitfile/testing/values.yaml` to remove hardcoded `imagePullSecrets` and rely on the dynamic Vault secret.
+
+### The Nugget
+**Auth0 System APIs:** When granting client access to the Auth0 Management API via Terraform, **never** set `allow_all_scopes = true`. You must explicitly list the scopes required by the client.

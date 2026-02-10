@@ -1,13 +1,14 @@
 ---
 created: 2026-02-07T10:22:14+00:00
 last-synthesis: 2026-02-07
-modified: 2026-02-07T13:04:35+00:00
+modified: 2026-02-09T14:17:27+00:00
 source_of_truth: true
 status: growing
 synthesis-count: 1
 tags: [domain/psychology, domain/sociology, type/SoT]
 title: "Bonhoeffer's Theory of Functional Stupidity SoT"
 trust-level: stable
+type: "SoT"
 ---
 
 ## Minimum Viable Understanding (MVU)
