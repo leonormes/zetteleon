@@ -1,6 +1,6 @@
 ---
 created: 2026-01-13T03:49:56+00:00
-modified: 2026-02-01T15:09:08+00:00
+modified: 2026-02-10T22:48:46+00:00
 title: incomplete trigger list
 ---
 
@@ -48,3 +48,199 @@ Action: Take your captured list.
  - For the rest, define the Starter Task (Action 3.1) for each.
  - If you are overwhelmed, use SAVESTATE to dump the list and return to your primary task.
 Would you like me to help you define the "Starter Task" for one of the items you just uncovered?
+
+Here is a comprehensive Mind Sweep Incompletion Trigger List derived directly from David Allen's _Getting Things Done_ and _Making It All Work_ methodologies [1, 2].
+
+This list is designed to jog your memory and help you capture "open loops"—anything pulling at your attention that needs to be clarified, processed, or organized.
+
+## I. Professional Triggers
+
+Projects
+- Projects started, not completed
+- Projects that need to be started
+- "Look into…" projects
+- Status reporting
+
+Commitments/Promises to Others
+- Boss/Partners
+- Colleagues/Subordinates
+- Other professionals
+- Customers/Clients
+- Vendors/Other organizations
+
+Communications to Make/Get
+- Phone calls
+- Voice mails
+- E-mails/Texts
+- Letters/Memos
+- Social media postings
+
+Writing to Finish/Submit
+- Reports/Evaluations/Reviews
+- Proposals
+- Articles/Marketing materials
+- Instructions/Manuals
+- Summaries/Minutes
+- Rewrites and edits
+
+Meetings
+- Upcoming meetings (preparation)
+- Meetings needing to be set or requested
+- Debriefing past meetings (minutes/actions)
+
+Administration
+- Legal issues
+- Insurance
+- Personnel/Staffing
+- Policies/Procedures
+
+Financial
+- Cash/Budgets
+- Forecasts/Projections
+- Profit & Loss/Balance sheet
+- Credit line
+- Payables/Receivables/Petty cash
+- Banks/Investors/Asset management
+
+Planning/Organizing
+- Goals and objectives (short & long term)
+- Business/Marketing/Financial plans
+- Upcoming events/Presentations/Conferences
+- Travel/Vacation/Business trips
+
+Organization Development
+- Organizational chart/Restructuring
+- Roles/Job descriptions
+- Facilities/New systems
+- Change initiatives/Succession planning
+- Organizational culture
+
+Staff
+- Hiring/Firing/Promoting
+- Reviews/Compensation
+- Staff development/Training
+- Feedback/Morale
+
+Sales & Marketing
+- Campaigns/Materials/Public Relations
+- Customers/Prospects/Leads
+- Sales process/Training
+- Relationship building/Tracking
+- Customer service
+
+Systems & Equipment
+- Phones/Mobile devices
+- Computers/Software/Databases
+- Telecommunications/Internet
+- Filing/Reference/Inventories/Storage
+- Office space/Furniture/Decorations
+- Supplies/Maintenance/Security
+
+Professional Development
+- Training/Seminars
+- Things to learn/Find out
+- Skills to practice/develop
+- Books to read/study
+- Formal education (degrees, licensing)
+- Resume/Career research
+- Professional wardrobe
+
+Waiting For…
+- Information/Answers to questions
+- Delegated tasks/projects
+- Replies to communications (emails, letters, proposals)
+- Reimbursements/Insurance claims
+- Ordered items/Repairs/Tickets
+
+---
+
+## II. Personal Triggers
+
+Projects
+- Projects started, not completed
+- Projects that need to be started
+- Projects for other organizations (service, community, volunteer, spiritual)
+
+Commitments/Promises to Others
+- Spouse/Partner
+- Children
+- Parents/Relatives
+- Friends
+- Professionals
+
+Communications to Make/Get
+- Calls/E-mails/Texts
+- Cards and letters
+- Thank-yous
+- Social media postings
+
+Upcoming Events
+- Birthdays/Anniversaries
+- Weddings/Graduations
+- Holidays/Travel/Vacations
+- Dinners/Parties/Receptions
+- Cultural/Sporting events
+
+Home & Household
+- Real estate/Landlords
+- Repairs/Construction/Remodeling
+- Heating/AC/Plumbing/Electricity/Roof
+- Landscaping/Driveway/Garage
+- Walls/Floors/Ceilings/Decor/Furniture
+- Appliances/Light fixtures/Wiring
+- Kitchen supplies/Equipment
+- Laundry/Clothing storage
+- Purging/Cleaning/Organizing
+
+Administration
+- Home office supplies/Equipment
+- Phones/Computers/Software/Internet
+- Filing/Records/Data storage
+
+Financial
+- Bills/Banks/Investments/Loans
+- Taxes/Budget/Insurance/Mortgage
+- Bookkeeping/Accountants
+
+Health
+- Doctors/Dentist/Optometrist/Specialists
+- Checkups
+- Diet/Food/Exercise
+
+Personal Development
+- Classes/Seminars/Education
+- Coaching/Counseling
+- Creative expressions (art, writing, etc.)
+
+Leisure
+- Books/Music/Video
+- Places to visit/People to visit
+- Web browsing/Photography
+- Sports equipment/Hobbies
+
+Transportation
+- Motor vehicles/Bicycles
+- Maintenance/Repair
+- Commuting/Tickets/Reservations
+
+Clothes
+- Professional/Casual/Sports/Formal
+- Accessories/Luggage
+- Repairs/Tailoring
+
+Pets
+- Health/Training/Supplies
+
+Errands/Shopping
+- Hardware store/Pharmacy/Bank/Cleaners
+- Groceries/Gifts/Stationery/Malls
+
+Community
+- Neighborhood/Neighbors
+- Service work/Schools/Civic involvement
+- Voting
+
+Waiting For…
+- Product orders/Repairs
+- Reimbursements/Loaned items
+- RSVPs/Information

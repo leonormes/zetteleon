@@ -2,11 +2,11 @@
 aliases: ["ADHD Coping Mechanisms", "ADHD Strengths SoT", "Race Car Brain with Bicycle Brakes", "Vitamin Connect"]
 created: 2026-02-03T10:30:00+00:00
 last_synthesis: 2026-02-03
-modified: 2026-02-04T07:26:56+00:00
+modified: 2026-02-11T07:37:05+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags: ["emotional-regulation", "mental-health", "prodos/sot", "self-compassion", "TheHuman/Health/ADHD", 1]
+tags: ["emotional-regulation", "mental-health", "prodos/sot", "self-compassion", "TheHuman/Health/ADHD"]
 title: SoT - ADHD Self-Compassion & Strengths
 trust-level: stable
 type: "SoT"
@@ -14,7 +14,7 @@ type: "SoT"
 
 ## Minimum Viable Understanding (MVU)
 
-The ADHD brain is not broken; it is a high-performance engine with bicycle brakes. The core emotional struggle is not the deficit itself, but the secondary shame developed from years of "unexplained underachievement." Healing requires shifting from a Deficit Model (fixing flaws) to a Strength-Based Model (optimizing the engine) and replacing "Superiority" defenses with authentic self-compassion.
+The ADHD brain is not broken; it is a high-performance engine with bicycle brakes. The core emotional struggle is not the deficit itself, but the secondary shame developed from years of "unexplained underachievement." Healing requires shifting from a Deficit Model (fixing flaws) to a Strength-Based Model (optimizing the engine) and replacing "Superiority" defences with authentic self-compassion.
 
 ---
 
@@ -84,5 +84,5 @@ ADHD minds live in a rich "Internal World." Validation from others provides the 
 
 ## Integration Queue
 
-- [ ] Connect with [[SoT - The Internal World and the Need for Validation]] to link the "Superiority" defense to the "Soap Bubble" concept.
-- [ ] Integrate "Wabi-Sabi" (Acceptance of imperfection) from [[SoT - ADHD Neurology & Core Concepts]].
+- Connect with [[SoT - The Internal World and the Need for Validation]] to link the "Superiority" defense to the "Soap Bubble" concept.
+- Integrate "Wabi-Sabi" (Acceptance of imperfection) from [[SoT - ADHD Neurology & Core Concepts]].

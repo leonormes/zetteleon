@@ -2,15 +2,13 @@
 aliases: []
 created: 2025-11-01T09:51:13Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:36+00:00
+modified: 2026-02-10T18:51:49+00:00
 status: "seedling"
 tags: ["bayesian", "learning", "mental-model", "reasoning"]
 title: Bayesian Updating Adjusts Beliefs as New Evidence Arrives
 type: "concept"
 updated: 
 ---
-
-## Bayesian Updating Adjusts Beliefs as New Evidence Arrives
 
 Summary: Bayesian updating formalizes learning as iterative adjustment of beliefs, operationalizing open-mindedness without relativism.
 

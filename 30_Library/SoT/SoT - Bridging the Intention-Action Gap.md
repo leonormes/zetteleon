@@ -2,7 +2,7 @@
 aliases: ["K2A Framework", "Knowledge-to-Action System", "The Motivation Bridge"]
 created: 2025-11-13T00:00:00Z
 last_reviewed: "2025-12-15"
-modified: 2026-02-04T07:27:24+00:00
+modified: 2026-02-11T06:41:31+00:00
 status: "stable"
 tags: ["execution", "TheHuman/Health/ADHD", "TheHuman/Psychology", "topic/productivity"]
 title: SoT - Bridging the Intention-Action Gap
@@ -86,7 +86,7 @@ A Starter Task is a micro-action designed purely to break static friction. It is
 
 - The Rule: It must be so small that it is impossible to fail or overthink.
 - Examples: "Open the document," "Put on running shoes," "Write the title."
-- Mechanism: Completing this binary action releases a small hit of dopamine and shifts the brain's question from _"Should I start?"_ to _"What next?"_ (See: [[Starter Tasks Bypass Overthinking and Reduce Perfectionism]]).
+- Mechanism: Completing this binary action releases a small hit of dopamine and shifts the brain's question from _"Should I start?"_ to _"What next?"_ .
 
 ---
 
@@ -107,8 +107,4 @@ A Starter Task is a micro-action designed purely to break static friction. It is
 
 ## 7. Related Components
 
-- [[SoT - ADHD and Motivation]]
-- [[SoT - PRODOS - Action Management (GTD)]]
-- [[SoT - PRODOS (System Architecture)]]
-- [[SoT - Identity-Based Habit Formation]]
 - [[SoT - The Cognitive Physiology of Task Execution]]

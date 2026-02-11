@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T14:25:58Z
 last_reviewed: "2026-02-07"
-modified: 2026-02-07T04:15:00+00:00
+modified: 2026-02-10T18:19:54+00:00
 status: "evergreen"
 tags: ["aws", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/cloud-networking", "type/moc"]
 title: AWS Networking MOC
@@ -17,9 +17,7 @@ This Map of Content (MOC) organizes notes specifically related to networking ser
 - [[NAT Gateways Enable Private Resources to Access Internet]] rel:: private-egress
 - [[Public Subnets for High Availability in AWS]] rel:: topology
 - [[Route Tables for Internet Access in AWS]] rel:: routing
-- [[AWS Security Groups]] rel:: firewall
 - [[VPC Setup for AWS ALB]] rel:: configuration
-- [[What is a Virtual Private Cloud (VPC)]] rel:: definition
 
 ## Load Balancing & Ingress
 
@@ -42,17 +40,15 @@ This Map of Content (MOC) organizes notes specifically related to networking ser
 
 - [[SoT - AWS EKS Networking Architecture]] rel:: source-of-truth
 - [[SoT - Kubernetes Networking & DNS]] rel:: deep-dive
-- [[AWS ENIs Connect EKS Worker Nodes to VPC Networks]] rel:: mechanism
-- [[Sequence - Container to Internet Packet Flow in EKS]] rel:: packet-flow
 - [[Create an AWS API Gateway to your EKS Cluster (with Terraform)]] rel:: pattern
 
 ## DNS & Naming (Route 53)
 
-- [[The Data Architecture of DNS]] rel:: foundational-concept
 - (Missing: Dedicated Route 53 Note)
 
 ---
 
-**Broader Context:**
-- [[Cloud Networking MOC]]
+Broader Context:
+
+- [[MOC - Cloud Networking]]
 - [[MOC - Networking]]

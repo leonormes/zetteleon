@@ -2,7 +2,7 @@
 aliases: ["K8s Observability", "Logging and Tracing", "Monitoring Strategy"]
 created: 2026-01-08T12:05:00Z
 last_reviewed: "2026-01-08"
-modified: 2026-02-05T19:59:54+00:00
+modified: 2026-02-11T07:34:02+00:00
 status: "stable"
 tags: ["devops", "kubernetes", "monitoring", "observability"]
 title: SoT - Cloud-Native Observability
@@ -56,5 +56,3 @@ In distributed systems, traditional debugging (SSHing into a server) is impossib
 ## ## 4. Kubernetes-Native Tools
 
 ### Project Logs & Updates
-
-- [[2026-02-05 - Grafana Helm Chart Upgrade & Repository Migration]] (Grafana v1 to v3 migration and OCI transition).

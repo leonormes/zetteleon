@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T17:16:00Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:07+00:00
+modified: 2026-02-10T17:58:14+00:00
 status: "null"
 tags: ["cni", "cri", "docker", "kubernetes", "orchestration", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes", "type/moc"]
 title: MOC - Container Runtime & Orchestration
@@ -147,17 +147,13 @@ _Examples: runc, crun, Kata Containers, gVisor_
 
 ### Existing Notes
 
-- [[30_Library/200_projects/Containerisation/Containers Within a Pod Share Network Namespace and IP Address]] - Pod-level communication fundamentals
-- [[Pods communicate across cluster using CNI-provided networking]] - CNI overview and network models
 - [[Kubernetes Provides NodePort and LoadBalancer for External Service Access]] - External service access patterns
 - [[Network policies control traffic flow between pods using labels and namespaces]] - Security and traffic control
 - [[Kube-Proxy Implements Services Using Iptables or IPVS]] - Service implementation details
 - [[CNI plugins provide different network models and features]] - Plugin comparison and selection
 - [[Container Runtime Configures Pod Networking Through CNI Plugins]] - Runtime networking responsibilities
 - [[etcd stores cluster network state and service configuration]] - Cluster state management
-- [[Service mesh provides advanced traffic management and security for service communication]] - Advanced service communication
 - [[Kubernetes networking components coordinate through a defined workflow]] - Component coordination
-- [[Model - Linux to Kubernetes Networking Mapping]] - Runtime automation mapping
 
 ### Planned Additions
 

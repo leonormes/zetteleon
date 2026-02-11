@@ -2,7 +2,7 @@
 aliases: [Deployment Master Guide, FitFile Deployment Playbook, Start Here - Deployment]
 created: 2025-12-21T09:34:38Z
 last_reviewed: 2026-02-01
-modified: 2026-02-01T20:45:30+00:00
+modified: 2026-02-11T07:34:27+00:00
 Reviewed: false
 status: stable
 tags: [ff_deploy, index, process]
@@ -87,8 +87,3 @@ Follow the [[SoT - FitFile Deployment - Implementation Manual]] for the step-by-
 - [[SoT - Cloud-Native Observability]] rel:: component - Metrics, Logging, and Alerting strategy.
 
 ---
-
-Navigation Hubs:
-
-- [[SoT.base|All Source of Truth Notes]]
-- [[MOCx.base|All Maps of Content]]

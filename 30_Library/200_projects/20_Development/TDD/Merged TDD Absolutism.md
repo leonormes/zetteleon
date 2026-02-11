@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:52Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:11+00:00
+modified: 2026-02-11T07:03:41+00:00
 status: ""
 tags: ["SDLC", "TDD"]
 title: Merged TDD Absolutism
@@ -23,7 +23,6 @@ Key beliefs:
 
 Common expression: "Do it right or don't do it at all."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
 
 ## TDD Aesthetic Idealism
 
@@ -33,11 +32,11 @@ Common expression: "Do it right or don't do it at all."
 - Writes blog posts about TDD best practices
 - Has a perfectly configured test setup that never gets used
 
-[TDD Hypocrisy](TDD%20Hypocrisy.md)
+TDD Hypocrisy
 
-[TDD Aspirational Delusion](TDD%20Aspirational%20Delusion.md)
+TDD Aspirational Delusion
 
-[TDD Performative Virtueism](TDD%20Performative%20Virtueism.md)
+TDD Performative Virtueism
 
 ## TDD Agnosticism
 
@@ -52,7 +51,7 @@ Key beliefs:
 
 Common expression: "We can't really know if TDD works, but we can keep learning."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 ## TDD Aspirational Delusion
 
@@ -62,9 +61,9 @@ Common expression: "We can't really know if TDD works, but we can keep learning.
 - "I'll add the tests right after this feature" becomes a permanent state
 - Maintains a self-image as a TDD practitioner while never actually writing tests first
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
 
-[TDD Hypocrisy](TDD%20Hypocrisy.md)
+
+TDD Hypocrisy
 
 ## TDD Counterarguments
 
@@ -72,7 +71,7 @@ Content: Advocates of TDD argue that it provides numerous benefits, including im
 
 Context: Presenting a contrasting viewpoint to TDD nihilism.
 
-[TDD Nihilism](notes/TDD%20Nihilism.md)
+TDD Nihilism
 
 ## TDD Cynicism
 
@@ -87,7 +86,7 @@ Key beliefs:
 
 Common expression: "It's just another buzzword that will fade away like all the others."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 ## TDD Determinism
 
@@ -102,7 +101,7 @@ Key beliefs:
 
 Common expression: "Culture eats practice for breakfast."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 ## TDD Dualism
 
@@ -117,7 +116,7 @@ Key beliefs:
 
 Common expression: "There are only two types of code: test-driven and legacy."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 ## TDD Empiricism
 
@@ -132,7 +131,7 @@ Key beliefs:
 
 Common expression: "Show me the numbers that prove TDD works."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 ## TDD Existentialism
 
@@ -147,7 +146,7 @@ Key beliefs:
 
 Common expression: "Each developer must find their own testing truth."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 ## TDD Fatalism
 
@@ -162,7 +161,7 @@ Key beliefs:
 
 Common expression: "Our codebase is too far gone for tests now."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 ## TDD Hedonism
 
@@ -177,7 +176,7 @@ Key beliefs:
 
 Common expression: "If it's not fun to test, it's not worth testing."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 ## TDD Holism
 
@@ -192,7 +191,7 @@ Key beliefs:
 
 Common expression: "You can't look at testing in isolation from the whole development process."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 ## TDD Hypocrisy
 
@@ -211,17 +210,17 @@ The gap between advocacy and practice often comes from:
 
 Perhaps we could call the entire phenomenon "TDD Cognitive Dissonance" - the ability to simultaneously hold strong beliefs about the necessity of TDD while actively avoiding its practice!
 
-[TDD Platonic Evangelism](notes/TDD%20Platonic%20Evangelism.md)
+TDD Platonic Evangelism
 
-[TDD Sophistry](notes/TDD%20Sophistry.md)
+TDD Sophistry
 
-[TDD Aesthetic Idealism](notes/TDD%20Aesthetic%20Idealism.md)
+TDD Aesthetic Idealism
 
-[TDD Performative Virtueism](notes/TDD%20Performative%20Virtueism.md)
+TDD Performative Virtueism
 
-[TDD Methodological Dualism](notes/TDD%20Methodological%20Dualism.md)
+TDD Methodological Dualism
 
-[TDD Aspirational Delusion](notes/TDD%20Aspirational%20Delusion.md)
+TDD Aspirational Delusion
 
 ## TDD Methodological Dualism
 
@@ -231,7 +230,7 @@ Perhaps we could call the entire phenomenon "TDD Cognitive Dissonance" - the abi
 - Experienced at explaining away the contradiction
 - "Do as I say, not as I do" elevated to a philosophy
 
-[TDD Hypocrisy](TDD%20Hypocrisy.md)
+TDD Hypocrisy
 
 ## TDD Nihilism
 
@@ -246,19 +245,19 @@ Key beliefs:
 
 Common expression: "Why bother with tests when everything will change tomorrow anyway?"
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 Content: TDD nihilists believe that the practice of Test-Driven Development (TDD) is pointless due to the ever-changing nature of software and its requirements, leading to code that is constantly being rewritten or replaced, rendering initial testing efforts futile.
 
 Context: Describing a skeptical perspective on the value of Test-Driven Development.
 
-[Code Impermanence](notes/Code%20Impermanence.md)
+Code Impermanence
 
-[Requirements Volatility](notes/Requirements%20Volatility.md)
+Requirements Volatility
 
-[TDD Counterarguments](notes/TDD%20Counterarguments.md)
+TDD Counterarguments
 
-[Benefits of TDD](notes/Benefits%20of%20TDD.md)
+Benefits of TDD
 
 ## TDD Performative Virtueism
 
@@ -268,7 +267,7 @@ Context: Describing a skeptical perspective on the value of Test-Driven Developm
 - Shares TDD articles on social media
 - Quietly disables test runs in their CI pipeline
 
-[TDD Hypocrisy](TDD%20Hypocrisy.md)
+TDD Hypocrisy
 
 I have linked this as people can be curating their public image by saying they do TDD but actually not doing it. This could be for professional status through social media. This can be seen as playing the professinal
 
@@ -280,7 +279,7 @@ I have linked this as people can be curating their public image by saying they d
 - Can perfectly describe the red-green-refactor cycle but hasn't seen a red test in months
 - Their actual code and their spoken philosophy exist in separate realms
 
-[TDD Hypocrisy](TDD%20Hypocrisy.md)
+TDD Hypocrisy
 
 ## TDD Platonism
 
@@ -295,7 +294,7 @@ Key beliefs:
 
 Common expression: "The theory is beautiful, but reality never matches up."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 ## TDD Pragmatism
 
@@ -310,7 +309,7 @@ Key beliefs:
 
 Common expression: "Take what works, adapt what doesn't, and focus on results."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 ## TDD Relativism
 
@@ -325,7 +324,7 @@ Key beliefs:
 
 Common expression: "It depends on your specific situation."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 ## TDD Skepticism
 
@@ -340,7 +339,7 @@ Key beliefs:
 
 Common expression: "I've tried it thoroughly, but I can't reproduce the promised results."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 ## TDD Sophistry
 
@@ -350,7 +349,7 @@ Common expression: "I've tried it thoroughly, but I can't reproduce the promised
 - Skilled at making others feel guilty for not testing
 - Their own commits mysteriously lack test files
 
-[TDD Hypocrisy](TDD%20Hypocrisy.md)
+TDD Hypocrisy
 
 ## TDD Stoicism
 
@@ -365,7 +364,7 @@ Key beliefs:
 
 Common expression: "Control what you can, accept what you can't, and keep improving."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
+
 
 ## TDD Syncretism
 
@@ -382,11 +381,7 @@ Common expression: "Take the best from each approach and make it your own."
 
 ---
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
 
-[TDD Empiricism](TDD%20Empiricism.md)
-
-[TDD Pragmatism](TDD%20Pragmatism.md)
 
 ## TDD Utilitarianism
 
@@ -401,6 +396,4 @@ Key beliefs:
 
 Common expression: "Only test what provides measurable benefit."
 
-[Philosophical Perspectives on Test-Driven Development](Philosophical%20Perspectives%20on%20Test-Driven%20Development.md)
 
-[TDD Determinism](TDD%20Determinism.md)

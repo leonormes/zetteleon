@@ -24,7 +24,7 @@ These biases specifically affect how we acquire, assess, and retain information.
 
 - [[SoT - Illusion of Explanatory Depth (IoED)]]: The belief that we understand a complex concept simply because we recognize its terms. This is the "Master Note" on the topic.
   - _Related:_ [[The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning]] - The mechanism behind IoED.
-  - _Related:_ [[Familiarity is Mistaken for Comprehension in IoED]] - The specific error of confusing recognition with recall.
+  - _Related:_ [[SoT - Illusion of Explanatory Depth (IoED)#Familiarity vs. Comprehension|Familiarity is Mistaken for Comprehension in IoED]] - The specific error of confusing recognition with recall.
 - [[SoT - Dunning-Kruger Effect]]: Overestimating competence in areas where we lack expertise.
 
 ---

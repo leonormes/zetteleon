@@ -6,7 +6,7 @@ status: processing
 tags:
   - state/thinking
 title: HEAD - Unprocessed daily
-type: index
+type: map
 updated:
 ---
 

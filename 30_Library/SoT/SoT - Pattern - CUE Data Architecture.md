@@ -96,3 +96,9 @@ registry: [Name=string]: #Package
 ### Automation
 
 A script runs `cue export` before `chezmoi apply`. If CUE fails (e.g., missing ID for a Mac App Store app), the dotfile update aborts, preventing partial/broken system states.
+
+
+## Pattern 3: Workstation Lifecycle
+_From fresh OS to fully provisioned developer environment._
+
+See the comprehensive implementation guide: [[SoT - Data-Oriented Workstation Setup]].

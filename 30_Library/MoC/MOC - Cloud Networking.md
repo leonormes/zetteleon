@@ -2,10 +2,10 @@
 aliases: []
 created: 2025-10-24T14:25:58Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:08+00:00
+modified: 2026-02-11T08:16:07+00:00
 status: "null"
 tags: ["SoftwareEngineering/Networking", "SoftwareEngineering/networking/cloud-networking", "type/moc"]
-title: Cloud Networking MOC
+title: MOC - Cloud Networking
 type: "map"
 updated: 
 ---
@@ -13,8 +13,6 @@ updated:
 This Map of Content (MOC) serves as an entry point for various concepts and technologies related to networking in cloud environments.
 
 ## Core Concepts
-
-…
 
 ## Device Taxonomy
 
@@ -30,7 +28,6 @@ This Map of Content (MOC) serves as an entry point for various concepts and tech
 - [[Layer 3 Network Security Protects IP Routing and Forwarding|Firewalls]] - L3/L4 filtering.
 - [[Web Application Firewalls Protect Against Layer 7 Attacks|WAF]] - L7 application security.
 - [[DDoS Protection Service]] - Volumetric attack mitigation.
-- [[DNS is a distributed database|DNS]] - Name resolution.
 
 ## AWS Networking
 

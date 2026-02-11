@@ -1,11 +1,16 @@
 ---
 created: 2026-02-02T14:39:31+00:00
-modified: 2026-02-03T08:56:20+00:00
+modified: 2026-02-11T08:07:09+00:00
 title: Deployment Configuration Analysis Report LCA-DP
+uuid: f7a581ad-0d36-40da-ae0c-3c379d97f4f7
+tags:
+  - ff_deploy
 ---
 
 ## Executive Summary
 
+- [ ] Document the lcrca cluster details ^2026-02-10T23-17-07
+	- [📱 View in Todoist app](todoist://task?id=6fxfMMr26VhvG9MM) (Created: 📝 2026-02-10T23:17)
 This report analyzes the ingress, DNS, and hostname configuration for the `LCA-DP` customer deployment. The configuration is distributed across the customer repository (`LCA-DP`), the Helm chart (`ffnode`), and the infrastructure Terraform modules.
 
 Key Findings:

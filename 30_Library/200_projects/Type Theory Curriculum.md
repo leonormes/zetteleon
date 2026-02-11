@@ -3,7 +3,7 @@ alias: ["Applied Type Theory", "Type Theory Study Plan"]
 aliases: []
 created: 2025-12-29T23:32:47+00:00
 last_reviewed: "2025-12-29"
-modified: 2026-02-01T15:08:08+00:00
+modified: 2026-02-11T07:35:34+00:00
 status: "active"
 tags: ["curriculum", "exercises", "practice", "rust"]
 title: Type Theory Curriculum
@@ -25,8 +25,6 @@ You stated you struggle to implement and explain. This curriculum solves that by
 ## 2. Level 1: The Shape of Data (Algebraic Data Types)
 
 Theory: Types are not just labels; they are Sets. We count them to measure complexity.
-
-- Reading: [[SoT - The Algebra of Types (Cardinality and Isomorphism)]]
 
 ### 🛠️ Practical Challenge 1: The Boolean Blindness Exorcism
 
@@ -128,8 +126,6 @@ _Steps:_
 
 Theory: Identity is tricky. Are two files equal if they have the same content? (Intensional vs. Extensional).
 
-- Reading: [[SoT - The Structure of Identity (UIP and Groupoids)]]
-
 ### 🛠️ Practical Challenge 4: Content-Addressable Storage (Git-Lite)
 
 Scenario: We need to store data efficiently. If two users save the same file, we should only store it once.
@@ -155,4 +151,3 @@ If you cannot solve a challenge:
 
 1. Read: _Parse, Don't Validate_ (Alexis King).
 2. Watch: _Type-Driven API Design in Rust_ (Will Crichton).
-3. Reference: [[SoT - Rust Language|Rust Design]]

@@ -3,7 +3,7 @@ aliases:
   - AI Coding MOC
   - LLM Engineering Map
 created: 2026-01-30T08:00:00+00:00
-modified: 2026-01-31T12:24:10+00:00
+modified: 2026-02-10T17:54:31+00:00
 tags:
   - ai-engineering
   - map-of-content
@@ -20,11 +20,6 @@ Core Theme: Engineering the "Cognitive Bridge" between probabilistic AI models a
 - [[SoT - Parochial Code]] - The primary failure mode: why LLMs default to "Myopic" coding.
 - [[SoT - Dimensions of Code Understanding]] - The evaluation framework: The 6 dimensions of true context awareness.
 
-## Mechanisms & Protocols
-
-- [[Context Engineering]] - The discipline of structuring prompts to prevent Context Rot.
-- [[Architectural Skeleton]] - The "Concentrated Detail" artifact injected into the prompt.
-- [[Data-Oriented Design]] - The preferred architectural style for AI-readable code.
 
 ## Key Concepts
 

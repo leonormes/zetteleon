@@ -2,8 +2,14 @@
 created: 2026-02-09T00:00:00+00:00
 modified: 2026-02-10T13:37:45+00:00
 owner: Customer Network Team
-tags: [customer/hie, customer/nnuh, diagnostics, networking, outage]
+tags:
+  - customer/hie
+  - customer/nnuh
+  - diagnostics
+  - networking
+  - outage
 title: MOC - Firewall Configuration for Connectivity
+type: map
 ---
 
 ## 🚨 Diagnostic Report: Inbound Connectivity Failure

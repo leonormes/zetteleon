@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-26T19:02:37Z
 last_reviewed:
-modified: 2026-02-01T15:08:03+00:00
+modified: 2026-02-11T08:12:53+00:00
 status:
 tags: []
 title: Understanding Reveals Cause-and-Effect
@@ -14,7 +14,7 @@ Beyond mere prediction, a deeper understanding allows individuals to identify an
 
 [[Myopic understanding]]
 
-[[Familiarity is Mistaken for Comprehension in IoED]]
+[[SoT - Illusion of Explanatory Depth (IoED)#Familiarity vs. Comprehension|Familiarity is Mistaken for Comprehension in IoED]]
 
 ## Stage 1: The Prima Materia (The Raw Material)
 
@@ -97,7 +97,6 @@ Note 1: [Nature of Understanding]
 - Properties Check:
   - Atomic? Yes, it focuses only on the distinction between understanding and prediction.
   - Autonomous? Yes, it can be understood without reference to other notes.
-  - Malleable? Yes, can link to [[Prediction]], [[Knowledge]], [[Comprehension]], [[Correlation vs Causation]].
 
 Note 2: [Mechanism of Understanding]
 
@@ -123,6 +122,4 @@ This final note acts as a framework, recombining our golden notes to synthesise 
 
 - Title: MOC Understanding and Causality
 - Body:
-  A truly deep comprehension of a topic is distinct from the ability to make simple forecasts. The reason is that [[Understanding Surpasses Prediction]]. This higher level of insight is defined by a specific capability: [[Deep Understanding Reveals Causality]]. The practical importance of cultivating this insight is that [[Causal Insight is Key to Problem-Solving and Systemic Comprehension]], allowing for more effective interventions and a more holistic worldview.
-
 [[Human Understanding is Inherently Myopic]]

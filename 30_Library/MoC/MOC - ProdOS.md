@@ -3,7 +3,7 @@ aliases: [ProdOS Index, Productivity Operating System, Start Here]
 created: 2025-12-04T14:38:32Z
 id: MOC - ProdOS
 last_reviewed: 2026-02-01
-modified: 2026-02-08T05:06:53+00:00
+modified: 2026-02-11T07:34:45+00:00
 status: stable
 tags: ["SoftwareEngineering/Architecture", prodos]
 title: MOC - ProdOS
@@ -108,8 +108,6 @@ _Current thinking streams and evolving models. These are NOT Source of Truth yet
 ### 6. System Resources & Templates
 
 _Standardized tools for system maintenance._
-
-- [[PRODOS Scope-Lock Template]]—_The mandatory container for locking context before execution._
 
 ---
 
