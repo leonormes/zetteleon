@@ -16,7 +16,7 @@ She responds well to praise for effort and strategies, not just for correct answ
 
 ## Character Development Connection
 
-This positive attitude toward effort reflects several character strengths from the [[Character and Virtue MOC]]:
+This positive attitude toward effort reflects several character strengths from the [[MOC - Character and Virtue]]:
 
 [[VIA Virtue of Courage]]:
 

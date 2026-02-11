@@ -30,7 +30,7 @@ Bessie demonstrates exceptional ability to see connections between different sub
 
 ## Character Development Connection
 
-This big-picture thinking ability connects to several character strengths from the [[Character and Virtue MOC]]:
+This big-picture thinking ability connects to several character strengths from the [[MOC - Character and Virtue]]:
 
 [[VIA Virtue of Wisdom]]:
 

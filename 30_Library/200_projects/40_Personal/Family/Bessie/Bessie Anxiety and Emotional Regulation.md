@@ -53,7 +53,7 @@ Family Context: Bessie's sister also has anxiety
 
 ## Character Development Connection
 
-Anxiety management can develop key character strengths from the [[Character and Virtue MOC]]:
+Anxiety management can develop key character strengths from the [[MOC - Character and Virtue]]:
 
 [[VIA Virtue of Courage]]:
 

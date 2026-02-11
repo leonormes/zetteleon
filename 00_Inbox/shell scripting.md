@@ -1,11 +1,8 @@
 ---
 created: 2026-02-11T06:43:46+00:00
-modified: 2026-02-11T08:10:02+00:00
+modified: 2026-02-11T10:39:46+00:00
 title: shell scripting
 ---
-
-Exactly right. This is a crucial insight that most people miss.
-
 ## Both Commands Run Simultaneously
 
 When you write `cmd1 | cmd2`, bash launches both processes at the same time. They run concurrently. `cmd2` doesn't wait for `cmd1` to finish—it starts reading from the pipe immediately, and blocks only when there's nothing to read _yet_.

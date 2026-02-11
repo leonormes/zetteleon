@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-30T12:02:08Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:05+00:00
+modified: 2026-02-11T11:43:46+00:00
 status: "null"
 tags: ["routine", "TheHuman/Health/ADHD", "topic/productivity"]
 title: MOC - Limitless Morning Routine
@@ -28,5 +28,3 @@ The routine is a sequence of dominos, each one triggering the next:
 ## Science and Practical Notes
 
 The routine emphasizes [[Avoid Morning Phone Use to Protect Dopamine|avoiding phone or social media use]] to protect dopamine for essential tasks. Each step is designed to stack momentum, creating compounding benefits that are particularly helpful for managing ADHD-related distractibility.
-
-_Source: [[Limitless Morning Routine]]_

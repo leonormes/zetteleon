@@ -46,7 +46,7 @@ Meares-Irlen/Visual Stress Syndrome: Diagnosed in Year 7 (Oct 2023)
 
 ## Character Development Connection
 
-Learning differences can be reframed as alternative processing strengths from the [[Character and Virtue MOC]]:
+Learning differences can be reframed as alternative processing strengths from the [[MOC - Character and Virtue]]:
 
 [[VIA Virtue of Wisdom]]:
 

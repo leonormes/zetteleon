@@ -15,7 +15,7 @@ updated:
 
 Creating a concept map together is a brilliant, hands-on way to help Bessie visualise her growth in a positive and holistic way. It shifts the focus from "things you must do for school" to "all the wonderful parts that make up YOU".
 
-Here is a comprehensive list that combines the [[Character and Virtue MOC|VIA Character Strengths]] with the core skills and values from the English National Curriculum, and broader abilities needed for a happy, healthy life in modern society. You and Bessie can use this as a "pick list" to build your map. You can write "Bessie" in the centre and then draw branches out to these different areas.
+Here is a comprehensive list that combines the [[MOC - Character and Virtue|VIA Character Strengths]] with the core skills and values from the English National Curriculum, and broader abilities needed for a happy, healthy life in modern society. You and Bessie can use this as a "pick list" to build your map. You can write "Bessie" in the centre and then draw branches out to these different areas.
 
 This approach aligns with the [[MOC - Character and Virtue|VIA Character Strengths]] framework, which identifies six core virtues that contribute to human flourishing:
 

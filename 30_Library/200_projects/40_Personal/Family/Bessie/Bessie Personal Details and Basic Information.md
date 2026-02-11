@@ -33,7 +33,7 @@ Previous Year Group: Year 7 (Oct 2023 - June 2024)
 
 ## Character Development Connection
 
-Bessie's diverse interests and clear career aspirations demonstrate several character strengths from the [[Character and Virtue MOC]]:
+Bessie's diverse interests and clear career aspirations demonstrate several character strengths from the [[MOC - Character and Virtue]]:
 
 [[VIA Virtue of Wisdom]]:
 

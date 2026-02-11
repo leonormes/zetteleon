@@ -1,14 +1,29 @@
 ---
-aliases: ["24 Character Strengths", "Character and Virtue MOC", "VIA Character Strengths"]
+aliases: [24 Character Strengths, Character and Virtue MOC, Map of Content on Character, VIA Character Strengths]
 created: 2025-07-16T17:30:02Z
-last_reviewed: "2025-11-02"
-modified: 2026-02-01T15:08:07+00:00
-status: "evergreen"
-tags: ["character", "TheHuman/Psychology", "virtue"]
+last_reviewed: 2025-11-02
+modified: 2026-02-11T11:37:54+00:00
+status: evergreen
+tags: [character, ethics, TheHuman/Psychology, virtue]
 title: MOC - Character and Virtue
-type: "map"
-updated: 
+type: map
+updated:
 ---
+
+This Map of Content (MOC) organizes notes related to chara[[MOC - Character and Virtue|VIA Character Strengths]]oncept of a Character Ideal]]
+
+## Frameworks for Character
+
+- [[MOC - Character and Virtue|VIA Character Strengths]]
+
+## The Six Core VIA Virtues
+
+- [[VIA Virtue of Wisdom]]
+- [[VIA Virtue of Courage]]
+- [[VIA Virtue of Humanity]]
+- [[VIA Virtue of Justice]]
+- [[VIA Virtue of Temperance]]
+- [[VIA Virtue of Transcendence]]
 
 This map provides a framework for understanding character through the lens of positive psychology, primarily using the VIA (Values in Action) Classification of Character Strengths.
 

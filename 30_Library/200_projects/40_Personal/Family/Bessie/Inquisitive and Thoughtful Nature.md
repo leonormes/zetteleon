@@ -22,6 +22,6 @@ This natural inquisitiveness aligns strongly with the [[VIA Virtue of Wisdom]], 
 - [[VIA Virtue of Wisdom|Love of Learning]]: Mastering new skills, topics, and bodies of knowledge
 - [[VIA Virtue of Wisdom|Judgement (Critical Thinking)]]: Thinking things through and examining them from all sides; not jumping to conclusions
 
-This strength can be cultivated through the [[Character and Virtue MOC|VIA Character Strengths framework]] to develop deeper wisdom and perspective beyond academic achievement.
+This strength can be cultivated through the [[MOC - Character and Virtue|VIA Character Strengths framework]] to develop deeper wisdom and perspective beyond academic achievement.
 
 [[Bessie's Strengths as a Learner]]

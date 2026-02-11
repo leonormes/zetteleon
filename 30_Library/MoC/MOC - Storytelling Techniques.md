@@ -3,7 +3,7 @@ aliases: []
 created: 2025-10-31T12:28:00Z
 exclusions: "Specific literary works without technique focus"
 last_reviewed: ""
-modified: 2026-02-03T07:27:41+00:00
+modified: 2026-02-11T09:03:21+00:00
 scope: "Narrative structures and techniques"
 status: ""
 tags: ["storytelling"]
@@ -15,7 +15,6 @@ updated:
 ## Foundational Structures
 
 - [[Aesop's Fables Use Anthropomorphic Allegory]] rel:: archetype
-- [[Moral Encyclopedia Concept in Storytelling]] rel:: implements
 
 ## Social Functions
 

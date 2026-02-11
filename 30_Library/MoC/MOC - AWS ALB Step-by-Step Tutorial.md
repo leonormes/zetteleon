@@ -39,5 +39,5 @@ This Map of Content (MOC) provides a structured overview of the steps involved i
 Broader MOCs:
 
 - [[MOC - Cloud Networking]]
-- [[AWS Networking MOC]]
+- [[MOC - AWS Networking]]
 - [[MOC - Load Balancing]]

@@ -16,7 +16,7 @@ Her creativity extends to developing experimental images and finding unique inte
 
 ## Character Development Connection
 
-Bessie's creative passion aligns with multiple character strengths from the [[Character and Virtue MOC]]:
+Bessie's creative passion aligns with multiple character strengths from the [[MOC - Character and Virtue]]:
 
 [[VIA Virtue of Wisdom]]:
 

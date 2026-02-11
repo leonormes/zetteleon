@@ -2,11 +2,15 @@
 aliases: []
 created: 2026-01-03T10:10:29+00:00
 last_reviewed: ""
-modified: 2026-02-01T15:08:02+00:00
-status: ""
-tags: []
+modified: 2026-02-11T11:25:00+00:00
+status: "evergreen"
+tags: ["adhd", "initiation", "productivity", "system/protocol"]
 title: SoT - ADHD Management Protocols
-type: ""
+type: "SoT"
+trust-level: stable
+synthesis-count: 1
+last-synthesis: 2026-02-11
+source_of_truth: true
 ---
 
 ## SoT - ADHD Management Protocols
@@ -45,6 +49,7 @@ A Starter Task is an action so small it requires zero cognitive effort.
 
 - The Rule: Must be < 5 minutes and purely physical (e.g., "Put on running shoes," "Clear desk corner").
 - The Goal: Overcome inertia. Once the "motion state" is entered, momentum takes over.
+- rel:: [[Micro-Stepping Reduces Cognitive Load for Task Initiation]]
 
 #### 3.2 The 120-Second Commitment
 
@@ -53,6 +58,16 @@ If a task feels daunting, commit to working for exactly 2 minutes. You are autho
 #### 3.3 Body Doubling (The Hive Switch)
 
 Leverage the "Observer Effect." Working in the presence of someone else (Focusmate, Co-working) triggers a "Hive Switch" that overrides internal resistance.
+
+#### 3.4 The Breadcrumb Method (Manual Feedback Loop)
+
+Used as a "starter motor" for the brain when paralyzed by large tasks or low interest.
+
+- **Mechanism:**
+	- **Quanta:** Quantify work into arbitrary 5-to-10-minute intervals.
+	- **Visual Scaffolding:** Pre-generate a physical visual representation (e.g., boxes in a notebook) for these intervals.
+	- **Check-and-Reset:** Complete one interval, physically tick the box to trigger a minor dopamine response, and immediately proceed to the next micro-goal.
+- **Constraint:** This is a high-overhead tactic. Use it to lower activation energy; once a flow state is achieved, abandon the manual tracking to focus on qualitative output.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 aliases: ["Configure Unify Execute", "CUE Configuration", "CUE Lang MOC"]
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-04T07:27:26+00:00
+modified: 2026-02-11T15:22:37+00:00
 tags: ["configuration", "cue", "devops", "infrastructure", "moc"]
 title: MOC - CUE Configuration
 type: map
@@ -9,7 +9,7 @@ type: map
 
 ## The Engineering of Unification
 
-CUE (Configure Unify Execute) is a constraint-based configuration language. It rejects the "Template/Inheritance" model (Helm, Kustomize) in favor of a "Unification" model, where types and values are merged to guarantee data integrity.
+CUE (Configure Unify Execute) is a constraint-based configuration language. It rejects the "Template/Inheritance" model (Helm, Kustomize) in favour of a "Unification" model, where types and values are merged to guarantee data integrity.
 
 ### 1. Core Mechanics
 

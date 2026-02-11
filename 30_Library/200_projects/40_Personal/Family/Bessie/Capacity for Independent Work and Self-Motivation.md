@@ -29,7 +29,7 @@ Bessie demonstrates a strong capacity for independent work and self-motivation w
 
 ## Character Development Connection
 
-This capacity for independent work reflects several key character strengths from the [[Character and Virtue MOC]]:
+This capacity for independent work reflects several key character strengths from the [[MOC - Character and Virtue]]:
 
 [[VIA Virtue of Courage]]:
 

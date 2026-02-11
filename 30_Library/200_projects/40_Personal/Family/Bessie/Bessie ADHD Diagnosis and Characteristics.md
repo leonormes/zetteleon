@@ -44,7 +44,7 @@ Diagnostic Report: ADHD Diagnostic Assessment Report available
 
 ## Character Development Connection
 
-ADHD characteristics can be reframed as potential character strengths from the [[Character and Virtue MOC]]:
+ADHD characteristics can be reframed as potential character strengths from the [[MOC - Character and Virtue]]:
 
 [[VIA Virtue of Courage]]:
 

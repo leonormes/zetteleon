@@ -2,10 +2,10 @@
 aliases: []
 created: 2025-10-24T14:25:58Z
 last_reviewed: "2026-02-07"
-modified: 2026-02-10T18:19:54+00:00
+modified: 2026-02-11T11:36:34+00:00
 status: "evergreen"
 tags: ["aws", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/cloud-networking", "type/moc"]
-title: AWS Networking MOC
+title: MOC - AWS Networking
 type: "map"
 ---
 

@@ -2,7 +2,7 @@
 aliases: []
 created: 2026-01-03T10:18:04+00:00
 last_reviewed: ""
-modified: 2026-02-01T15:08:01+00:00
+modified: 2026-02-11T11:45:00+00:00
 status: ""
 tags: []
 title: SoT - Cognitive Engineering Protocols
@@ -39,6 +39,10 @@ _Goal: Immediate reduction of Cognitive Load. Use when overwhelmed._
     - Reference: Move to Obsidian.
     - Trash: Delete.
 
+#### Module A.1: LLM-Assisted Sorting
+For high-velocity capture or executive function fatigue, use the **Action-First GTD** method to offload the "Sorting" phase to an LLM.
+- rel:: [[Protocol - Action-First GTD (LLM Chief of Staff)]]
+
 #### The 10-Item Limit
 
 If the dump is too big, list only the top 10 loudest items. Clear those first.
@@ -47,37 +51,4 @@ If the dump is too big, list only the top 10 loudest items. Clear those first.
 
 ### 3. Module B: Expressive Writing (Emotional Repair)
 
-_Goal: Emotional regulation and "Loop Completion" for lingering stress._
-
-#### Protocol
-
-1. Trigger: High emotional load, rumination, or "stuck" thoughts.
-2. Execute: Write continuously for 15 minutes.
-    - Constraint: Do not stop typing/writing. Grammar does not matter. Truth is the only metric.
-3. The Burn: Destroy the output (if analog) or delete it (if digital). This signals to the brain that the "threat" has been processed and discarded.
-
----
-
-### 4. Module C: The Thinking Snapshot (Context Capture)
-
-_Goal: Capturing the "Machinery" of a thought, not just the conclusion._
-
-#### Protocol
-
-When an insight strikes, do not write a textbook. Capture the Metadata of the Thought:
-
-1. Why-Now: What triggered this specific thought? (e.g., "Bug in Auth Service").
-2. The Hunch: What is the hypothesis?
-3. The Tension: What contradicts this?
-4. Future-Hook: "Future Me needs this when X happens."
-
----
-
-### 5. The Toolkit (Analog Latency)
-
-Why Analog?
-
-Handwriting is physically slower than thinking. This Cognitive Latency forces the brain to slow down its processing loop, preventing the "Transcription Trap" (typing without thinking).
-
-- Theta/Alpha Waves: Handwriting triggers brain states associated with deep learning.
-- Protocol: Use pen and paper for _Stage 1 (Generation)_ and _Emotional Repair_. Use Digital for _Storage_.
+... (rest of the file)

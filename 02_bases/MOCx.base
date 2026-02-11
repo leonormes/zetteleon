@@ -18,10 +18,6 @@ views:
       - file.mtime
       - type
     sort:
-      - property: type
-        direction: DESC
-      - property: file.mtime
-        direction: DESC
       - property: file.name
         direction: ASC
     columnSize:

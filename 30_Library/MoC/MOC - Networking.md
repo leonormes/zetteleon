@@ -49,7 +49,7 @@ This Map of Content (MOC) serves as the top-level entry point for all networking
 
 ### AWS
 
-- [[AWS Networking MOC]]: AWS-specific implementations.
+- [[MOC - AWS Networking]]: AWS-specific implementations.
 - [[SoT - AWS EKS Networking Architecture]]: VPC CNI and pod networking.
 
 ### Azure
