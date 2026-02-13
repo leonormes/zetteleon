@@ -1,13 +1,22 @@
 ---
-aliases: ["argv[0]", "Kernel Hints", "Process Execution", "Shebang Logic"]
+aliases:
+  - argv[0]
+  - Kernel Hints
+  - Process Execution
+  - Shebang Logic
 created: 2025-12-26T12:30:00Z
-last_reviewed: "2025-12-26"
-modified: 2026-02-01T15:07:53+00:00
-status: "stable"
-tags: ["kernel", "operating-systems", "programming", "SoftwareEngineering/Linux"]
+last_reviewed: 2025-12-26
+modified: 2026-02-11T22:32:42+00:00
+status: stable
+tags:
+  - kernel
+  - operating-systems
+  - programming
+  - SoftwareEngineering/Linux
 title: SoT - Process Execution (Kernel Logic)
-type: "SoT"
-updated: 
+type: SoT
+updated:
+uuid: ecdfeb35-57ef-4788-9c81-663ac48b8b48
 ---
 
 ## 1. Definitive Statement
@@ -30,7 +39,7 @@ The shebang is not a shell command; it is a magic number read by the kernel at t
 
 ## 3. Current Understanding (Coherent Narrative)
 
-### Path Resolution & Portability (`env` vs. Static)
+- [ ] Path Resolution & Portability (`env` vs. Static) ^2026-02-11T22-32-37
 
 Hardcoding paths (e.g., `#!/bin/bash`) is fragile due to filesystem diversity (macOS vs. NixOS vs. Debian).
 

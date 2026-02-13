@@ -2,20 +2,18 @@
 aliases: []
 created: 2026-01-03T10:24:43+00:00
 last_reviewed: ""
-modified: 2026-02-01T15:08:01+00:00
+modified: 2026-02-12T16:59:09+00:00
 status: ""
 tags: []
 title: SoT - Behavioral Protocols
 type: ""
 ---
 
-## SoT - Behavioral Protocols
+## 1. Protocol: Change (Map-Build-Dismantle)
 
-### 1. Protocol: Change (Map-Build-Dismantle)
+_Goal: Engineering new behaviours using CBT principles._
 
-_Goal: Engineering new behaviors using CBT principles._
-
-#### Step 1: Map (Architecture Disclosure)
+### Step 1: Map (Architecture Disclosure)
 
 Make the unconscious visible. Write down the loop:
 
@@ -23,7 +21,7 @@ Make the unconscious visible. Write down the loop:
 - Routine: Action (Scrolling).
 - Reward: Benefit (Numbing).
 
-#### Step 2: Build (Design)
+### Step 2: Build (Design)
 
 Design for the "Real Self," not the "Ideal Self."
 
@@ -32,7 +30,7 @@ Design for the "Real Self," not the "Ideal Self."
     - _Add Friction:_ Put phone in a timed lockbox.
     - _Remove Friction:_ Sleep in gym clothes.
 
-#### Step 3: Dismantle (Replacement Logic)
+### Step 3: Dismantle (Replacement Logic)
 
 You cannot delete a habit; you can only replace the Routine.
 
@@ -41,28 +39,28 @@ You cannot delete a habit; you can only replace the Routine.
 
 ---
 
-### 2. Protocol: Sustain (The Honeyman Method)
+## 2. Protocol: Sustain (The Honeyman Method)
 
 _Goal: Managing Energy Fluctuations (ADHD Resilience)._
 
 To prevent "All-or-Nothing" collapse, define 3 tiers of execution.
 
-#### Tier 1: The Ideal (High Energy)
+### Tier 1: The Ideal (High Energy)
 
 - _Scope:_ The "Pinterest Perfect" routine. Expansion work.
 - _Context:_ 100% Battery. Rare.
 
-#### Tier 2: The Baseline (Normal)
+### Tier 2: The Baseline (Normal)
 
 - _Scope:_ Core maintenance. The standard day.
 - _Context:_ 60-80% Battery. Sustainable.
 
-#### Tier 3: The Minimum (Survival)
+### Tier 3: The Minimum (Survival)
 
 - _Scope:_ The MVA (Minimum Viable Action) to keep the lights on.
 - _Rule:_ Doing Tier 3 counts as 100% Success. No guilt.
 - _Example:_ Instead of "1h Gym", do "5 Pushups." Continuity > Intensity.
 
-#### The Morning Handshake
+### The Morning Handshake
 
 Check your battery daily. Declare your Tier. Adjust the Todoist view accordingly (e.g., in Tier 3, hide everything except P1 tasks).

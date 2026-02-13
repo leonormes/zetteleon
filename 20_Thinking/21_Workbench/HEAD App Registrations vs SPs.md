@@ -1,7 +1,7 @@
 ---
 captured: "2026-02-06T15:07:17+00:00 2026-02-06T15:07:17+00:00"
 created: 2026-02-06T15:07:23+00:00
-modified: 2026-02-06T15:11:13+00:00
+modified: 2026-02-12T17:04:54+00:00
 source: "https://chatgpt.com/c/6985db97-b720-838a-809f-ea1128d23cd7"
 status: "processing"
 tags: ["input"]
@@ -48,7 +48,9 @@ It defines:
 - Whether it's single-tenant or multi-tenant
 
 Key idea:
+
 👉 This object is tenant-independent in concept.
+
 It does not sign in, get tokens, or have permissions _by itself_.
 
 Think: _source code + manifest_.
@@ -72,6 +74,7 @@ It holds:
 - Token issuance context
 
 Key idea:
+
 👉 Tokens are issued to service principals, not app registrations.
 
 Think: _a deployed instance with permissions and runtime identity_.
@@ -128,6 +131,7 @@ This is why:
 ### Quick Check (one question)
 
 If you assign users, grant admin consent, or apply Conditional Access, which object are you modifying—
+
 the Application Registration or the Service Principal?
 
 Answer that, and I'll help you map this directly to real Azure Portal clicks (and Terraform, if you want 👀).

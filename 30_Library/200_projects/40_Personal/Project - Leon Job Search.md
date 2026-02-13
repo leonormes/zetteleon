@@ -3,7 +3,7 @@ aliases: []
 captured: 2026-02-10T16:32:55+00:00
 created: 2026-02-10T16:32:57+00:00
 last_reviewed: ""
-modified: 2026-02-11T10:17:10+00:00
+modified: 2026-02-12T17:04:34+00:00
 priority: high
 source: https://gemini.google.com/app/1c309ca379b14e35
 status: processing
@@ -37,6 +37,7 @@ The "Why":
 ## Leon Ormes
 
 Cloud Architect & Platform Engineer
+
 Leigh-on-Sea, England | [Insert Phone] | [Insert Email] | [Insert LinkedIn]
 
 ### Professional Profile
@@ -55,33 +56,43 @@ I operate on the principle of Conservation of Complexity: shifting complexity ou
 ### Professional Experience
 
 [Latest Role / Company Name] | Cloud Architect & Platform Engineer
+
 _2022–Present_
+
 - Complexity Reduction: Built the 'Helm Chart Compiler' (fitfile-platform), a library that compiles high-level intent into hardened manifests. Reduced tenant onboarding time by 90% and eliminated configuration drift.
 - Generative Infrastructure: Decoupled Terraform state from logic by engineering a CUE-based generative engine. Scaled the estate to 50+ environments with 100% concrete configuration validation before application.
 - Zero Trust Architecture: Orchestrated '4C' Hardening (Cloud, Cluster, Container, Code) and replaced permanent admin keys with ephemeral Azure Bastion hosts, reducing the attack surface by 89% (NHS Compliance).
 - Private Networking: Authored the Private Kubernetes DNS Naming Convention, standardising resolution for Private Link services and eliminating cross-environment connectivity failures.
 
 nate | Senior Software Engineer
+
 _Sep 2021–Aug 2022_
+
 - Risk Engine Architecture: Engineered the core risk assessment component of the purchase flow using Dependency Injection and TDD, ensuring long-term maintainability and testability.
 - Developer Experience (DX): Architected a CI/CD pipeline using Kubernetes-native ArgoCD, moving the team toward continuous delivery and reducing deployment friction.
 - Operational Excellence: Implemented DORA metrics monitoring, providing the engineering leadership with data-driven insights to optimise delivery velocity.
 - Quality Standards: Drove the adoption of BDD and Domain-Driven Design, resulting in a measurable shift from reactive debugging to proactive system design (evidenced by improved DORA metrics).
 
 Tessian | Node.js Engineer
+
 _Feb 2018–Sep 2021_
+
 - Core Infrastructure: Developed the Node.js email gateway, handling complex SMTP networking, encryption, and data security protocols at scale.
 - Language Migration: Led the strategic migration of the codebase from JavaScript to TypeScript, significantly reducing runtime errors and improving developer tooling.
 - Knowledge Sharing: Established a 'Lunch and Learn' culture and cross-team pairing sessions to break down silos, directly contributing to the successful adoption of TypeScript across the engineering function.
 
 FifthMorrison | Full Stack Developer
+
 _Jun 2017–Feb 2018_
+
 - Delivered full-stack solutions using Postgres, GraphQL, Express, and Angular.
 
 ### Leadership & Communication Foundation
 
 King John School | Teacher & Department Lead
+
 _Sep 2007–Jan 2017_
+
 - Stakeholder Management: Managed learning outcomes and engagement for large, diverse groups, a skill now applied to cross-functional engineering teams.
 - Curriculum Design: Translated complex requirements into structured learning paths, mirroring the translation of technical strategy into engineering roadmaps.
 

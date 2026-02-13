@@ -3,7 +3,7 @@ aliases: [ProdOS Index, Productivity Operating System, Start Here]
 created: 2025-12-04T14:38:32Z
 id: MOC - ProdOS
 last_reviewed: 2026-02-01
-modified: 2026-02-11T07:34:45+00:00
+modified: 2026-02-11T22:34:54+00:00
 status: stable
 tags: ["SoftwareEngineering/Architecture", prodos]
 title: MOC - ProdOS
@@ -12,7 +12,7 @@ type: map
 
 ## ProdOS - Productivity Operating System
 
-### 1. ProdOS Lite: The Thinking Stream (Quick Start)
+### 1. ProdOS: The Thinking Stream (Quick Start)
 
 _A low-friction, low-energy loop for rapid processing. Use this when you just need to think._
 
@@ -43,12 +43,10 @@ The Guardrails:
 
 The definitive specification of the system, its biological basis, and the "Why".
 
-- [[SoT - PRODOS Core Specification]]—_The v5.0 Flow-Oriented cybernetic architecture. Defines the Zero-Maintenance Baseline, The Core Loop, and The MVA._
+- [[SoT - PRODOS Core Specification]]—_The Flow-Oriented cybernetic architecture. Defines the Zero-Maintenance Baseline, The Core Loop, and The MVA._
 - [[SoT - The Cognitive Physiology of Task Execution]]—_The scientific basis for decoupling Initiation, Encoding, and Monitoring._
 - [[SoT - The Extended Mind]]—_The philosophy of cognitive extension and Active Externalism._
-- [[SoT - Process Execution (Kernel Logic)]]—_The core operating logic of the system._
 - [[SoT - Behavioral Architecture]]—_The Grand Unified Theory: System > Willpower, Hydraulic Models, Environmental Determinism, and Friction._
-- [[SoT - Emergence]]—_The phenomenon where complex patterns (e.g., traffic, consciousness) arise from simple local rules._
 
 #### Key Frameworks
 

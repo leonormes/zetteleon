@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:01:00Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:33+00:00
+modified: 2026-02-11T22:25:07+00:00
 status: ""
 tags: ["principles", "proactivity", "responsibility", "TheHuman/Habits"]
 title: Habit 1 - Be Proactive
@@ -25,6 +25,6 @@ Proactive people focus their time and energy on their Circle of Influence. As th
 
 ## ProdOS Integration
 
-This habit is a foundational mandate of the [[03 - ProdOS (Productivity Operating System)]]. The system is designed to empower the user as the "programmer" of their life, not a passive observer. It directly combats the learned helplessness that can be a challenge in [[ADHD and Productivity]] by focusing on small, controllable actions.
+This habit is a foundational mandate of the [[MOC - ProdOS]]. The system is designed to empower the user as the "programmer" of their life, not a passive observer. It directly combats the learned helplessness that can be a challenge in [[ADHD and Productivity]] by focusing on small, controllable actions.
 
 The next step after choosing to be proactive is to define what you want to create, which is the essence of [[Habit 2 - Begin with the End in Mind]].

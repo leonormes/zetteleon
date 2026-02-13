@@ -3,7 +3,7 @@ alias: ["Intellectual Landscape", "Knowledge Map", "Ontology"]
 aliases: []
 created: 2026-01-05T06:58:46+00:00
 last_reviewed: 
-modified: 2026-02-06T15:51:23+00:00
+modified: 2026-02-11T22:28:43+00:00
 status: "Active"
 tags: ["architecture", "knowledge-management", "meta", "ontology"]
 title: SoT - Knowledge Architecture (Associative Ontology)
@@ -52,9 +52,6 @@ updated:
 - Key Notes:
     - [[SoT - Generative Infrastructure Configuration Framework]]
     - [[SoT - Kubernetes Cluster State Architecture]]
-    - [[SoT - Cloud Compute Architectures]]
-    - [[SoT - Hypervisor Abstractions]]
-    - [[SoT - Processor Microarchitectures]]
 
 ### Domain V: Existential Architecture (The Meaning)
 

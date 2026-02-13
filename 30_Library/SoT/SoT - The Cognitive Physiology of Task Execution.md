@@ -2,7 +2,7 @@
 aliases: ["Cognitive Physiology", "Initiation", "Mood Repair Trap", "Task Execution Stages"]
 created: 2025-12-10T00:00:00Z
 last_reviewed: "2026-01-03"
-modified: 2026-02-01T15:07:51+00:00
+modified: 2026-02-11T22:36:20+00:00
 status: "stable"
 tags: ["prodos", "productivity", "task_management", "TheHuman/Cognition", "TheHuman/Neuroscience"]
 title: SoT - The Cognitive Physiology of Task Execution
@@ -71,7 +71,7 @@ Learning and task mastery are not complete upon execution. The brain requires sp
 
 - Micro-Consolidation: 10–20 second "micro-breaks" during intense work allow the brain to replay neural sequences at 20x speed.
 - Ultradian Rhythms: Focus is bounded by ~90-minute metabolic cycles. Pushing beyond this results in diminished returns and "Engine Stall."
-- Macro-Consolidation (Rest): Physical rewiring occurs during Rest, not work. Non-Sleep Deep Rest (NSDR) and Sleep are functional components of the "Learning Algorithm" defined in [[SoT - PRODOS - Learning Architecture]].
+- Macro-Consolidation (Rest): Physical rewiring occurs during Rest, not work. Non-Sleep Deep Rest (NSDR) and Sleep are functional components of the "Learning Algorithm" defined in
 
 ---
 
@@ -113,11 +113,10 @@ Eye position directly signals the brainstem's arousal centers.
 
 ## 6. Related Concepts
 
-- [[Performance monitoring activates anterior cingulate cortex]]
 - [[Sustained attention activates right-lateralized fronto-parietal networks]]
 
 ## Phase 1: Initiation / Activation
 
 ### The "Mental Candy" Trap (Dopamine Hijack)
 
-Digital platforms exploit the initiation phase by offering "Mental Candy" (quick, high-dopamine content) over "Vegetables" (deep, structured learning). This creates a feedback loop where the user feels the _sensation_ of productivity (watching a tutorial) without the _metabolic cost_ of actual encoding, leading to "Motion without Action." (See: [[Video - How the Algorithm Hijacked Monkey's Brain]])
+Digital platforms exploit the initiation phase by offering "Mental Candy" (quick, high-dopamine content) over "Vegetables" (deep, structured learning). This creates a feedback loop where the user feels the _sensation_ of productivity (watching a tutorial) without the _metabolic cost_ of actual encoding, leading to "Motion without Action."

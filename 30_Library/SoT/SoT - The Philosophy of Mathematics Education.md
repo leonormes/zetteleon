@@ -3,7 +3,7 @@ alias: ["Generative vs Applicative Maths", "Lockhart's Lament", "The Art of Expl
 aliases: []
 created: 2026-01-06T19:41:54+00:00
 last_reviewed: 
-modified: 2026-02-01T15:07:49+00:00
+modified: 2026-02-12T21:25:31+00:00
 status: "Active"
 tags: ["education", "maths", "pedagogy", "TheHuman/Philosophy"]
 title: SoT - The Philosophy of Mathematics Education
@@ -52,8 +52,8 @@ updated:
 
 - Old Model: Repeated Addition (Breaks with fractions).
 - New Model: Scaling.
-    - $	imes 2$ = Zoom in 200%.
-    - $	imes 0.5$ = Zoom out 50%.
+    - $imes 2$ = Zoom in 200%.
+    - $imes 0.5$ = Zoom out 50%.
     - This intuitively explains why multiplying by a fraction makes a number smaller.
 
 ### 4. Paul Lockhart's "Lament"
