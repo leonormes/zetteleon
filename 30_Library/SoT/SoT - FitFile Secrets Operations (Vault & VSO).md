@@ -1,7 +1,7 @@
 ---
 aliases: [FitFile Secrets Guide, Secret Management SOP, Vault Secrets Operations]
 created: 2026-02-01T15:30:00Z
-modified: 2026-02-04T07:27:20+00:00
+modified: 2026-02-13T11:07:51+00:00
 see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FITFILE Secret Management Architecture]]"]
 status: evergreen
 tags: [ff_deploy, secrets, security, sot, vault]
@@ -20,21 +20,24 @@ Core Principle: No secrets in Git. All secrets originate in HCP Vault and are sy
 
 ## 2. Vault Path Structure
 
-We utilize a consistent path hierarchy for all deployments.
-
-Root Namespace: `admin`
-
-Base Path: `deployments/{deployment-key}/secrets/`
-
-| Path | Purpose | Key Secrets |
-|:---|:---|:---|
-| `…/application` | Core App Creds | `auth0_client_secret`, `mongodb_password`, `fitconnect` |
-| `…/argocd` | GitOps Access | `admin_password`, `gitlab_deploy_token` |
-| `…/monitoring` | Observability | `loki_password`, `prometheus_password` |
 | `…/cloudflare` | DNS/Ingress | `api_token` |
 
-> [!example] Real-world Example (`cuh-prod-1`)
-> `deployments/cuh-prod-1/secrets/data/application` contains 20 keys, including Auth0 and DB credentials.
+---
+
+## 3. Cross-Namespace Mirroring (Reflector)
+
+When a secret needs to be available in multiple namespaces (e.g., a wildcard TLS certificate or shared image pull secret), we use the Reflector operator.
+
+### Mirroring Logic
+
+1. Annotate Source: Add mirroring permissions to the source secret.
+
+```yaml
+reflector.v1.k8s.emberstack.com/reflection-allowed: "true"
+reflector.v1.k8s.emberstack.com/reflection-allowed-namespaces: "argocd,ohdsi,workflows"
+```
+
+2. Auto-Create: Reflector will automatically create and update the secret in target namespaces.
 
 ---
 
@@ -72,9 +75,9 @@ extraVaultSecrets:
 1. Sync ArgoCD.
 2. Verify the Kubernetes Secret exists:
 
-   ```bash
+```bash
    kubectl get secret my-new-secret -o jsonpath='{.data.apiKey}' | base64 -d
-   ```
+```
 
 ---
 

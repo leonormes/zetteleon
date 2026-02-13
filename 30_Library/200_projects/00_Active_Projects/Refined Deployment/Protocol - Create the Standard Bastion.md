@@ -1,11 +1,14 @@
 ---
 created: 2025-12-04T12:02:41Z
 last_reviewed:
-modified: 2026-02-11T21:39:58+00:00
+modified: 2026-02-13T10:58:23+00:00
 status: processing
-tags: [bastion, customer/lcrca, ssh]
-title: HEAD - Create the Standard Bastion
-type: head
+tags:
+  - bastion
+  - customer/lcrca
+  - ssh
+title: Create the Standard Bastion
+type: protocol
 updated:
 ---
 
@@ -29,7 +32,6 @@ az network bastion delete \
 
 This uses the dedicated `create` command which is much more robust at mapping the networking requirements.
 
-Bash
 
 ```sh
 az network bastion create \
@@ -53,7 +55,6 @@ az network bastion create \
 
 Once the creation completes (approx. 5-10 mins), you can immediately run your original command:
 
-Bash
 
 ```sh
 az network bastion ssh \
