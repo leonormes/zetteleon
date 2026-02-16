@@ -1,7 +1,7 @@
 ---
 created: 2025-12-04T12:02:41Z
 last_reviewed: null
-modified: 2026-02-12T13:02:03+00:00
+modified: 2026-02-15T15:44:56+00:00
 status: processing
 tags: [state/thinking]
 title: HEAD - FF Deployment Failure Playbook
@@ -105,8 +105,7 @@ status: 403 Forbidden
 ### 3️⃣ Confirm Secrets Rendered by Vault
 
 ```sh
-kubectl get secret ffcloud -n <ns> \
-  -o jsonpath='{.data.auth\.json}' | base64 -d; echo
+kubectl get secret ffcloud -n <ns> -o jsonpath='{.data.auth\.json}' | base64 -d; echo
 ```
 
 Verify values exist:
@@ -150,15 +149,7 @@ admin/deployments/<deployment>/application
 Manually test token request using Vault credentials:
 
 ```sh
-curl --request POST \
-  --url https://<tenant>.auth0.com/oauth/token \
-  --header 'content-type: application/json' \
-  --data '{
-    "client_id":"XXX",
-    "client_secret":"XXX",
-    "audience":"https://<tenant>.auth0.com/api/v2/",
-    "grant_type":"client_credentials"
-  }'
+curl --request POST --url https://<tenant>.auth0.com/oauth/token \ --header 'content-type: application/json' --data '{"client_id":"XXX", "client_secret":"XXX", "audience":"https://<tenant>.auth0.com/api/v2/", "grant_type":"client_credentials"}'
 ```
 
 If this only works against test tenant, but app calls prod, you found the issue.
@@ -304,10 +295,8 @@ Use this block next time:
 ```sh
 kubectl get pods -n <ns>
 kubectl logs -n <ns> <ffcloud-pod> -c <init>
-kubectl get secret ffcloud -n <ns> \
-  -o jsonpath='{.data.auth\.json}' | base64 -d; echo
-kubectl get configmap -n <ns> <fitconnect-config> -o yaml \
-  | grep auth0 -n
+kubectl get secret ffcloud -n <ns> -o jsonpath='{.data.auth\.json}' | base64 -d; echo
+kubectl get configmap -n <ns> <fitconnect-config> -o yaml | grep auth0 -n
 # Test credentials directly
 curl https://<tenant>.auth0.com/oauth/token ...
 ```

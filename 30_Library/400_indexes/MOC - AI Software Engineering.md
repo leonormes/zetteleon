@@ -1,13 +1,8 @@
 ---
-aliases:
-  - AI Coding MOC
-  - LLM Engineering Map
+aliases: [AI Coding MOC, LLM Engineering Map]
 created: 2026-01-30T08:00:00+00:00
-modified: 2026-02-10T17:54:31+00:00
-tags:
-  - ai-engineering
-  - map-of-content
-  - moc
+modified: 2026-02-16T09:40:35+00:00
+tags: [ai-engineering, map-of-content, moc]
 title: MOC - AI Software Engineering
 type: map
 ---
@@ -19,7 +14,6 @@ Core Theme: Engineering the "Cognitive Bridge" between probabilistic AI models a
 - [[SoT - Macro-Micro Unification]] - The fundamental theory: reconciling the "Quantum" (Code) with the "Relativity" (Architecture).
 - [[SoT - Parochial Code]] - The primary failure mode: why LLMs default to "Myopic" coding.
 - [[SoT - Dimensions of Code Understanding]] - The evaluation framework: The 6 dimensions of true context awareness.
-
 
 ## Key Concepts
 

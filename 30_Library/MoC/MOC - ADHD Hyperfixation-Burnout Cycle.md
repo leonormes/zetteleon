@@ -4,7 +4,7 @@ created: 2025-11-01T11:37:53Z
 criteria: ""
 exclusions: General ADHD topics not directly related to the hyperfixation-burnout cycle.
 last_reviewed: 2026-02-07T00:00:00.000Z
-modified: 2026-02-07T04:20:00+00:00
+modified: 2026-02-16T09:40:28+00:00
 scope: ""
 status: seedling
 tags: ["TheHuman/Health/ADHD"]

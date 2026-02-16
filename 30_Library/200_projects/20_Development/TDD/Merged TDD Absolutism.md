@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:52Z
 last_reviewed: ""
-modified: 2026-02-11T07:03:41+00:00
+modified: 2026-02-16T09:40:36+00:00
 status: ""
 tags: ["SDLC", "TDD"]
 title: Merged TDD Absolutism
@@ -22,7 +22,6 @@ Key beliefs:
 - Compromises undermine the entire methodology
 
 Common expression: "Do it right or don't do it at all."
-
 
 ## TDD Aesthetic Idealism
 
@@ -51,8 +50,6 @@ Key beliefs:
 
 Common expression: "We can't really know if TDD works, but we can keep learning."
 
-
-
 ## TDD Aspirational Delusion
 
 "Genuinely believes they practice TDD despite evidence to the contrary"
@@ -60,8 +57,6 @@ Common expression: "We can't really know if TDD works, but we can keep learning.
 - Has convinced themselves that "thinking about tests" counts as TDD
 - "I'll add the tests right after this feature" becomes a permanent state
 - Maintains a self-image as a TDD practitioner while never actually writing tests first
-
-
 
 TDD Hypocrisy
 
@@ -86,8 +81,6 @@ Key beliefs:
 
 Common expression: "It's just another buzzword that will fade away like all the others."
 
-
-
 ## TDD Determinism
 
 Determinists believe that TDD's success or failure is predetermined by organizational culture and team dynamics, regardless of individual effort.
@@ -100,8 +93,6 @@ Key beliefs:
 - Cultural alignment is prerequisite for TDD adoption
 
 Common expression: "Culture eats practice for breakfast."
-
-
 
 ## TDD Dualism
 
@@ -116,8 +107,6 @@ Key beliefs:
 
 Common expression: "There are only two types of code: test-driven and legacy."
 
-
-
 ## TDD Empiricism
 
 Empiricists base their TDD stance purely on measurable results and data, rejecting theoretical arguments or anecdotal evidence.
@@ -130,8 +119,6 @@ Key beliefs:
 - Metrics determine success
 
 Common expression: "Show me the numbers that prove TDD works."
-
-
 
 ## TDD Existentialism
 
@@ -146,8 +133,6 @@ Key beliefs:
 
 Common expression: "Each developer must find their own testing truth."
 
-
-
 ## TDD Fatalism
 
 Fatalists believe their codebase is destined to remain untested, viewing poor quality as an inevitable condition that cannot be changed.
@@ -160,8 +145,6 @@ Key beliefs:
 - Resistance is futile
 
 Common expression: "Our codebase is too far gone for tests now."
-
-
 
 ## TDD Hedonism
 
@@ -176,8 +159,6 @@ Key beliefs:
 
 Common expression: "If it's not fun to test, it's not worth testing."
 
-
-
 ## TDD Holism
 
 Holists view TDD as inseparable from the entire software development process, believing it cannot be evaluated or practiced in isolation.
@@ -190,8 +171,6 @@ Key beliefs:
 - Quality is systemic
 
 Common expression: "You can't look at testing in isolation from the whole development process."
-
-
 
 ## TDD Hypocrisy
 
@@ -245,8 +224,6 @@ Key beliefs:
 
 Common expression: "Why bother with tests when everything will change tomorrow anyway?"
 
-
-
 Content: TDD nihilists believe that the practice of Test-Driven Development (TDD) is pointless due to the ever-changing nature of software and its requirements, leading to code that is constantly being rewritten or replaced, rendering initial testing efforts futile.
 
 Context: Describing a skeptical perspective on the value of Test-Driven Development.
@@ -294,8 +271,6 @@ Key beliefs:
 
 Common expression: "The theory is beautiful, but reality never matches up."
 
-
-
 ## TDD Pragmatism
 
 Pragmatists accept TDD's benefits while acknowledging its practical limitations. They adapt the methodology to their context while maintaining its core principles.
@@ -308,8 +283,6 @@ Key beliefs:
 - Continuous improvement is more important than perfection
 
 Common expression: "Take what works, adapt what doesn't, and focus on results."
-
-
 
 ## TDD Relativism
 
@@ -324,8 +297,6 @@ Key beliefs:
 
 Common expression: "It depends on your specific situation."
 
-
-
 ## TDD Skepticism
 
 Unlike nihilists, skeptics have attempted TDD but remain unconvinced of its benefits through direct experience. Their doubts stem from empirical attempts rather than philosophical rejection.
@@ -338,8 +309,6 @@ Key beliefs:
 - The methodology might work for others but hasn't worked for them
 
 Common expression: "I've tried it thoroughly, but I can't reproduce the promised results."
-
-
 
 ## TDD Sophistry
 
@@ -364,8 +333,6 @@ Key beliefs:
 
 Common expression: "Control what you can, accept what you can't, and keep improving."
 
-
-
 ## TDD Syncretism
 
 Syncretists combine elements from different testing approaches, creating a personalized hybrid methodology that incorporates TDD principles selectively.
@@ -381,8 +348,6 @@ Common expression: "Take the best from each approach and make it your own."
 
 ---
 
-
-
 ## TDD Utilitarianism
 
 Utilitarians evaluate TDD solely based on its practical benefits and costs, focusing on measurable outcomes rather than theoretical principles.
@@ -395,5 +360,3 @@ Key beliefs:
 - Testing effort should align with business value
 
 Common expression: "Only test what provides measurable benefit."
-
-

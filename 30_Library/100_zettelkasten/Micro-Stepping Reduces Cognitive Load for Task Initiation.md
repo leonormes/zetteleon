@@ -2,7 +2,7 @@
 aliases: ["Task Chunking"]
 created: 2025-10-30T12:09:03Z
 last_reviewed: "null"
-modified: 2026-02-11T11:28:00+00:00
+modified: 2026-02-16T09:40:29+00:00
 source: "[[MOC - Why Task Initiation is Difficult in ADHD]]"
 status: "seedling"
 tags: ["task-management", "TheHuman/Health/ADHD", "topic/productivity"]
@@ -20,4 +20,5 @@ Psychological Basis:
 - Builds on [[Discomfort Signals Growth Potential]]
 
 ## Related
+
 - rel:: [[SoT - ADHD Management Protocols]] (Section 3.4: The Breadcrumb Method)

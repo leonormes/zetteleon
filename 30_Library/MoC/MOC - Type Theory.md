@@ -3,7 +3,7 @@ alias: ["PLT MOC", "Programming Language Theory Index", "Type Theory Index"]
 aliases: []
 created: 2025-12-29T21:52:02+00:00
 last_reviewed: "2026-02-06"
-modified: 2026-02-06T15:57:12+00:00
+modified: 2026-02-16T09:40:27+00:00
 status: "stable"
 tags: ["logic", "programming", "SoftwareEngineering/Architecture", "type_theory", "type/moc"]
 title: MOC - Type Theory
@@ -91,4 +91,3 @@ How specific languages reify these concepts.
 
 - [[Logicism (Mathematics as Extension of Logic)]]: The quest to reduce math to pure logic.
 - [[Intuitionism Rejects the Law of the Excluded Middle]]: The constructive logic foundation of type theory.
-

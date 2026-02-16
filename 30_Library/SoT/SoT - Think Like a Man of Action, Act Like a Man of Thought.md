@@ -2,7 +2,7 @@
 aliases: ["Bergson's Principle", Action-Oriented Thinking, MVA]
 created: 2025-12-07T00:00:00Z
 last_reviewed: ""
-modified: 2026-02-11T11:48:00+00:00
+modified: 2026-02-16T09:40:31+00:00
 status: stable
 tags: [action, adhd, thinking, topic/productivity]
 tier: 1-Foundation
@@ -49,10 +49,10 @@ Real-world data beats theoretical models.
 
 - The Cycle: Guess -> Do -> Reflect.
 - The Shift: Instead of thinking to find the _perfect_ action, take a _good-enough_ action and then "think" about the result. This turns "failure" into "data."
-- **Implementation:** [[Protocol - Action-First GTD (LLM Chief of Staff)]] (Outsourcing the "Reflect" and "Plan" phase to an LLM).
+- Implementation: [[Protocol - Action-First GTD (LLM Chief of Staff)]] (Outsourcing the "Reflect" and "Plan" phase to an LLM).
 
 ---
 
 ## 4. Related Components
 
-... (rest of the file)
+… (rest of the file)

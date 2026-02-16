@@ -1,16 +1,16 @@
 ---
 aliases: []
 created: 2026-01-03T10:10:29+00:00
+last-synthesis: 2026-02-11
 last_reviewed: ""
-modified: 2026-02-11T11:25:00+00:00
+modified: 2026-02-16T09:40:34+00:00
+source_of_truth: true
 status: "evergreen"
+synthesis-count: 1
 tags: ["adhd", "initiation", "productivity", "system/protocol"]
 title: SoT - ADHD Management Protocols
-type: "SoT"
 trust-level: stable
-synthesis-count: 1
-last-synthesis: 2026-02-11
-source_of_truth: true
+type: "SoT"
 ---
 
 ## SoT - ADHD Management Protocols
@@ -63,11 +63,11 @@ Leverage the "Observer Effect." Working in the presence of someone else (Focusma
 
 Used as a "starter motor" for the brain when paralyzed by large tasks or low interest.
 
-- **Mechanism:**
-	- **Quanta:** Quantify work into arbitrary 5-to-10-minute intervals.
-	- **Visual Scaffolding:** Pre-generate a physical visual representation (e.g., boxes in a notebook) for these intervals.
-	- **Check-and-Reset:** Complete one interval, physically tick the box to trigger a minor dopamine response, and immediately proceed to the next micro-goal.
-- **Constraint:** This is a high-overhead tactic. Use it to lower activation energy; once a flow state is achieved, abandon the manual tracking to focus on qualitative output.
+- Mechanism:
+	- Quanta: Quantify work into arbitrary 5-to-10-minute intervals.
+	- Visual Scaffolding: Pre-generate a physical visual representation (e.g., boxes in a notebook) for these intervals.
+	- Check-and-Reset: Complete one interval, physically tick the box to trigger a minor dopamine response, and immediately proceed to the next micro-goal.
+- Constraint: This is a high-overhead tactic. Use it to lower activation energy; once a flow state is achieved, abandon the manual tracking to focus on qualitative output.
 
 ---
 

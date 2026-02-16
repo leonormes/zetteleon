@@ -1,11 +1,9 @@
 ---
 created: 2026-01-30T15:39:41+00:00
-modified: 2026-02-06T14:29:45+00:00
+modified: 2026-02-16T09:40:38+00:00
+tags: [customer/mcnft, ff_deploy]
 title: FITFILE Infrastructure - MCNFT Deployment
 uuid: 20db6ad4-32b0-4933-9c50-facf7b2cc071
-tags:
-  - customer/mcnft
-  - ff_deploy
 ---
 
 ## 1. Overview

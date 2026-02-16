@@ -1,9 +1,9 @@
 ---
 aliases: ["Research Transducer"]
 created: 2026-01-12T16:15:00+00:00
-modified: 2026-02-08T05:20:08+00:00
+modified: 2026-02-16T09:40:32+00:00
 tags: ["adhd-tools", "prodos", "protocol", "research"]
-title: Instruction_SoT_-_Research-to-Action_Protocol
+title: SoT - Research-to-Action Protocol
 type: "Instruction"
 ---
 

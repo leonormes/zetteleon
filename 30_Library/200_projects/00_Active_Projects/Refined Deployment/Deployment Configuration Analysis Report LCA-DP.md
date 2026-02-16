@@ -1,10 +1,9 @@
 ---
 created: 2026-02-02T14:39:31+00:00
-modified: 2026-02-11T08:07:09+00:00
+modified: 2026-02-16T09:40:38+00:00
+tags: [ff_deploy]
 title: Deployment Configuration Analysis Report LCA-DP
 uuid: f7a581ad-0d36-40da-ae0c-3c379d97f4f7
-tags:
-  - ff_deploy
 ---
 
 ## Executive Summary

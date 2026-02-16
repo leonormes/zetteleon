@@ -2,7 +2,7 @@
 aliases: ["Analysis Paralysis", "Fear of Failure", "The Perfectionism Trap"]
 created: 2025-10-28T00:00:00Z
 last_reviewed: "2025-12-22"
-modified: 2026-02-11T07:33:12+00:00
+modified: 2026-02-16T09:40:32+00:00
 status: "stable"
 tags: ["prodos", "TheHuman/Cognition/bias", "TheHuman/Mindset", "TheHuman/Psychology"]
 title: SoT - Perfectionism and Analysis Paralysis

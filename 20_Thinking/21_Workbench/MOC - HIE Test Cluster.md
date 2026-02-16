@@ -1,12 +1,9 @@
 ---
 created: 2025-12-04T12:02:41Z
 last_reviewed:
-modified: 2026-02-09T13:30:32+00:00
+modified: 2026-02-16T09:40:47+00:00
 status: processing
-tags:
-  - customer/hie
-  - ff_deploy
-  - state/thinking
+tags: [customer/hie, ff_deploy, state/thinking]
 title: MOC - HIE Test Cluster
 type: map
 updated: 2026-02-09T12:00:00+00:00

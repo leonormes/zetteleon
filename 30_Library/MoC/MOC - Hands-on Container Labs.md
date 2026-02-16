@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T17:16:00Z
 last_reviewed: "2026-02-06"
-modified: 2026-02-06T09:40:00+00:00
+modified: 2026-02-16T09:40:27+00:00
 status: "stable"
 tags: ["debugging", "hands-on", "lab", "SoftwareEngineering/Containers", "tutorial"]
 title: MOC - Hands-on Container Labs
@@ -137,4 +137,3 @@ strace -p <pid>
 
 - Lab - Build Container Network from Scratch (See Curriculum)
 - Lab - Implement Simple CNI Plugin (See Curriculum Phase 2)
-

@@ -2,7 +2,7 @@
 aliases: []
 created: 2026-01-03T10:18:04+00:00
 last_reviewed: ""
-modified: 2026-02-11T11:45:00+00:00
+modified: 2026-02-16T09:40:34+00:00
 status: ""
 tags: []
 title: SoT - Cognitive Engineering Protocols
@@ -40,7 +40,9 @@ _Goal: Immediate reduction of Cognitive Load. Use when overwhelmed._
     - Trash: Delete.
 
 #### Module A.1: LLM-Assisted Sorting
-For high-velocity capture or executive function fatigue, use the **Action-First GTD** method to offload the "Sorting" phase to an LLM.
+
+For high-velocity capture or executive function fatigue, use the Action-First GTD method to offload the "Sorting" phase to an LLM.
+
 - rel:: [[Protocol - Action-First GTD (LLM Chief of Staff)]]
 
 #### The 10-Item Limit
@@ -51,4 +53,4 @@ If the dump is too big, list only the top 10 loudest items. Clear those first.
 
 ### 3. Module B: Expressive Writing (Emotional Repair)
 
-... (rest of the file)
+… (rest of the file)

@@ -1,7 +1,7 @@
 ---
 created: 2025-12-04T12:02:41Z
 last_reviewed: null
-modified: 2026-02-11T09:54:43+00:00
+modified: 2026-02-15T15:49:33+00:00
 status: processing
 tags: [state/thinking]
 title: ArgoCD Debugging Runbook (kubectl-only)
@@ -226,10 +226,7 @@ kubectl get vaultstaticsecret <secret-name> -n argocd -o jsonpath='{.spec}' | jq
 #### Force Vault Secret Rotation
 
 ```sh
-kubectl annotate vaultstaticsecret <secret-name> \
-  -n argocd \
-  secrets.hashicorp.com/vault-force-rotation="$(date +%s)" \
-  --overwrite
+kubectl annotate vaultstaticsecret <secret-name> -n argocd secrets.hashicorp.com/vault-force-rotation="$(date +%s)" --overwrite
 ```
 
 Why: Forces immediate re-fetch from Vault, bypassing normal refresh interval

@@ -1,12 +1,12 @@
 ---
 created: 2026-02-07T10:22:14+00:00
 last-synthesis: 2026-02-07
-modified: 2026-02-09T14:17:27+00:00
+modified: 2026-02-16T09:40:34+00:00
 source_of_truth: true
 status: growing
 synthesis-count: 1
 tags: [domain/psychology, domain/sociology, type/SoT]
-title: "Bonhoeffer's Theory of Functional Stupidity SoT"
+title: "SoT - Bonhoeffer's Theory of Functional Stupidity"
 trust-level: stable
 type: "SoT"
 ---

@@ -1,6 +1,6 @@
 ---
 created: 2026-02-10T00:00:00+00:00
-modified: 2026-02-10T13:03:57+00:00
+modified: 2026-02-15T15:53:50+00:00
 tags: [bash, devops, reference, shell]
 title: Bash - Error Handling
 ---
@@ -118,7 +118,7 @@ Useful comparison operators: `-eq` (equal), `-ne` (not equal), `-gt` (greater th
 Catches any unhandled `ERR` signal. Think of it as a top-level `catch` block. Declare it once, early.
 
 ```sh
-#!/bin/bash
+#!/bin/env bash
 set -eEuo pipefail
 
 cleanup() {
@@ -202,7 +202,7 @@ database_backup.sh || curl -sS -X POST \
 ### Starter Template
 
 ```sh
-#!/bin/bash
+#!/bin/env bash
 set -eEuo pipefail
 
 on_error() {

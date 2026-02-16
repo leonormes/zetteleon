@@ -1,7 +1,7 @@
 ---
 alias: ["CUE Patterns", "Dotfiles Architecture", "FFNode Refactor"]
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-04T20:39:46+00:00
+modified: 2026-02-16T09:40:32+00:00
 tags: ["architecture", "cue", "patterns", "sot"]
 title: SoT - Pattern - CUE Data Architecture
 type: SoT
@@ -97,8 +97,8 @@ registry: [Name=string]: #Package
 
 A script runs `cue export` before `chezmoi apply`. If CUE fails (e.g., missing ID for a Mac App Store app), the dotfile update aborts, preventing partial/broken system states.
 
-
 ## Pattern 3: Workstation Lifecycle
+
 _From fresh OS to fully provisioned developer environment._
 
 See the comprehensive implementation guide: [[SoT - Data-Oriented Workstation Setup]].

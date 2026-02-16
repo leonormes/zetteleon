@@ -1,11 +1,9 @@
 ---
 created: 2025-12-04T12:02:41Z
 last_reviewed:
-modified: 2026-02-10T10:16:09+00:00
+modified: 2026-02-16T09:40:48+00:00
 status: processing
-tags:
-  - state/thinking
-  - customer/hie
+tags: [customer/hie, state/thinking]
 title: HEAD - AWS EKS HIE -Target Deploy Order
 type: head
 updated:

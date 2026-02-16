@@ -1,7 +1,7 @@
 ---
 aliases: [Deployment Troubleshooting, Known Issues, Recovery Procedures]
 created: 2026-02-01T15:05:00Z
-modified: 2026-02-04T07:27:20+00:00
+modified: 2026-02-16T09:40:33+00:00
 status: evergreen
 tags: [ff_deploy, ops, sot, troubleshooting]
 title: SoT - FitFile Deployment - Troubleshooting and Known Issues
@@ -114,11 +114,12 @@ Fix:
 
 - AWS Auth ConfigMap: `unauthorized` errors often mean the user/role mapping in `aws-auth` ConfigMap is missing or incorrect.
 - Subnet Tags: ALBs fail to provision if subnets lack `kubernetes.io/role/elb` tags.
-# 5.2 AWS EKS
+
+## 5.2 AWS EKS
 
 ### 5.3 Subscription Creation & Governance
 
-- **"Already exists" Error**: Usually a dangling **Subscription Alias**. Use `az account alias list` to identify and delete.
-- **Permission Denied (Creation)**: Ensure you have the **Azure subscription creator** role at the **Billing Invoice Section** level, in addition to Management Group rights.
-- **Policy Contamination**: To bypass inherited policies, place the subscription in a parallel Management Group branch directly under the Root.
-- **Detailed Guide**: See [[2026-02-09 - Azure Sandbox Subscription Isolation]].
+- "Already exists" Error: Usually a dangling Subscription Alias. Use `az account alias list` to identify and delete.
+- Permission Denied (Creation): Ensure you have the Azure subscription creator role at the Billing Invoice Section level, in addition to Management Group rights.
+- Policy Contamination: To bypass inherited policies, place the subscription in a parallel Management Group branch directly under the Root.
+- Detailed Guide: See [[2026-02-09 - Azure Sandbox Subscription Isolation]].

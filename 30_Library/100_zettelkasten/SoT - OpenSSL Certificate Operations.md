@@ -1,9 +1,9 @@
 ---
-aliases: ["OpenSSL Certs", "PEM Inspection", "Certificate Validation"]
+aliases: ["Certificate Validation", "OpenSSL Certs", "PEM Inspection"]
 created: 2025-08-27T00:00:00+00:00
-modified: 2026-02-08T12:00:00+00:00
-tags: ["certificates", "pki", "openssl", "cheatsheet"]
-title: Instruction SoT - OpenSSL Certificate Operations
+modified: 2026-02-16T09:40:29+00:00
+tags: ["certificates", "cheatsheet", "openssl", "pki"]
+title: SoT - OpenSSL Certificate Operations
 type: "Instruction"
 ---
 
@@ -15,13 +15,13 @@ Reference for inspecting PEM certificates and validating key pairs. All commands
 
 ### 1. Inspect a Certificate
 
-**Full details (the default starting point):**
+Full details (the default starting point):
 
 ```bash
 openssl x509 -in <cert>.pem -text -noout
 ```
 
-**Targeted queries:**
+Targeted queries:
 
 ```bash
 # Subject (who it's issued to)
@@ -66,7 +66,7 @@ openssl rsa -in private_key.pem -pubout -out extracted_public.pem
 diff original_public.pem extracted_public.pem
 ```
 
-**Alternative — round-trip encryption test:**
+Alternative—round-trip encryption test:
 
 ```bash
 # Encrypt with the public key

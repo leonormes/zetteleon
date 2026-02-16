@@ -1,7 +1,7 @@
 ---
 aliases: [FitFile Secrets Guide, Secret Management SOP, Vault Secrets Operations]
 created: 2026-02-01T15:30:00Z
-modified: 2026-02-13T11:07:51+00:00
+modified: 2026-02-16T09:40:33+00:00
 see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FITFILE Secret Management Architecture]]"]
 status: evergreen
 tags: [ff_deploy, secrets, security, sot, vault]
@@ -37,7 +37,7 @@ reflector.v1.k8s.emberstack.com/reflection-allowed: "true"
 reflector.v1.k8s.emberstack.com/reflection-allowed-namespaces: "argocd,ohdsi,workflows"
 ```
 
-2. Auto-Create: Reflector will automatically create and update the secret in target namespaces.
+1. Auto-Create: Reflector will automatically create and update the secret in target namespaces.
 
 ---
 

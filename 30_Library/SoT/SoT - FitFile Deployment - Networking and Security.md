@@ -1,7 +1,7 @@
 ---
 aliases: [FitFile Networking Guide, Network Security SOP]
 created: 2026-02-01T15:00:00Z
-modified: 2026-02-01T20:47:25+00:00
+modified: 2026-02-16T09:40:33+00:00
 status: evergreen
 tags: [ff_deploy, networking, security, sot]
 title: SoT - FitFile Deployment - Networking and Security
@@ -128,5 +128,7 @@ Outbound (From FitFile):
 - 443/TCP: To `*.vault.hashicorp.cloud` (Secrets).
 - 443/TCP: To `*.azurecr.io` / `*.ecr.aws` (Images).
 - 443/TCP: To `*.auth0.com` (Identity).
-# - Azure Specifics: By default, we use an overlay model where Pod IPs are separate from the VNET address space, preventing "IP depletion" in large clusters.
+
+## - Azure Specifics: By Default, We Use an Overlay Model where Pod IPs Are Separate from the VNET Address Space, Preventing "IP depletion" in Large Clusters
+
 - Azure Specifics: By default, we use an overlay model where Pod IPs are separate from the VNET address space, preventing "IP depletion" in large clusters. For sizing guidelines, see [[SoT - AKS IP Allocation & Subnet Sizing]].

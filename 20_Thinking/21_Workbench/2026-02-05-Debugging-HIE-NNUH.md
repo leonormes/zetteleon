@@ -1,6 +1,6 @@
 ---
 created: 2026-02-06T00:00:00+00:00
-modified: 2026-02-06T19:31:09+00:00
+modified: 2026-02-16T09:40:48+00:00
 source_of_truth: true
 status: growing
 tags: [customer/nnuh, domain/infrastructure, domain/networking, provider/azure, status/active, task/FTFL-88, type/SoT]
@@ -11,6 +11,7 @@ trust-level: stable
 ## Debugging HIE -> NNUH Networking
 
 [[Protocol - AWS HIE Jumpbox Access]]
+
 ### Data Collected (2026-02-06)
 
 #### NNUH Network Topology

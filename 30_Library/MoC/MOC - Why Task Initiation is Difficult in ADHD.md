@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-30T12:09:05Z
 last_reviewed: 2026-02-07
-modified: 2026-02-07T18:00:19+00:00
+modified: 2026-02-16T09:40:27+00:00
 status: "evergreen"
 tags: ["executive-function", "task-initiation", "TheHuman/Health/ADHD"]
 title: MOC - Why Task Initiation is Difficult in ADHD

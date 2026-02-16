@@ -1,10 +1,9 @@
 ---
 created: 2025-12-04T12:02:41Z
 last_reviewed:
-modified: 2026-02-08T05:28:13+00:00
+modified: 2026-02-16T09:40:49+00:00
 status: processing
-tags:
-  - state/thinking
+tags: [state/thinking]
 title: HEAD - Unprocessed daily
 type: map
 updated:

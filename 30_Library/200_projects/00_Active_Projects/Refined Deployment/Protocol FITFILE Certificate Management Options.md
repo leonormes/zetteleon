@@ -1,10 +1,9 @@
 ---
 captured: 2026-02-04T10:16:04+00:00 2026-02-04T10:16:04+00:00
 created: 2026-02-04T10:16:07+00:00
-modified: 2026-02-11T07:56:00+00:00
+modified: 2026-02-16T09:40:38+00:00
 source: https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2332655617/FITFILE+Certificate+Management+Options
-tags:
-  - ff_deploy
+tags: [ff_deploy]
 title: Protocol FITFILE Certificate Management Options
 type: protocol
 ---

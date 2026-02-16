@@ -2,10 +2,10 @@
 aliases: ["Crypto MOC"]
 created: 2025-12-24T12:00:00Z
 last_reviewed: 2025-12-24
-modified: 2026-02-01T15:08:08+00:00
+modified: 2026-02-16T09:40:28+00:00
 status: "stable"
 tags: ["cryptography", "SoftwareEngineering/Security", "type/moc"]
-title: Cryptography MOC
+title: MOC - Cryptography
 type: "map"
 updated: 
 ---

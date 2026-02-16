@@ -1,13 +1,10 @@
 ---
 created: 2025-12-04T12:02:41Z
 last_reviewed:
-modified: 2026-02-13T10:58:23+00:00
+modified: 2026-02-16T09:40:38+00:00
 status: processing
-tags:
-  - bastion
-  - customer/lcrca
-  - ssh
-title: Create the Standard Bastion
+tags: [bastion, customer/lcrca, ssh]
+title: Protocol - Create the Standard Bastion
 type: protocol
 updated:
 ---
@@ -23,24 +20,15 @@ Since the CLI is being uncooperative with the "update" command, the most reliabl
 This will take about 2-3 minutes.
 
 ```sh
-az network bastion delete \
-  --name vnet-lca-plat-uks-01-bastion \
-  --resource-group rg-lca-uks-prd-net
+az network bastion delete --name vnet-lca-plat-uks-01-bastion --resource-group rg-lca-uks-prd-net
 ```
 
 ### 2. Create the Standard Bastion
 
 This uses the dedicated `create` command which is much more robust at mapping the networking requirements.
 
-
 ```sh
-az network bastion create \
-  --name vnet-lca-plat-uks-01-bastion \
-  --resource-group rg-lca-uks-prd-net \
-  --vnet-name vnet-lca-plat-uks-01 \
-  --public-ip-address bastion-lca-plat-uks-01PublicIp \
-  --sku Standard \
-  --enable-tunneling
+az network bastion create --name vnet-lca-plat-uks-01-bastion --resource-group rg-lca-uks-prd-net --vnet-name vnet-lca-plat-uks-01 --public-ip-address bastion-lca-plat-uks-01PublicIp --sku Standard --enable-tunneling
 ```
 
 ---
@@ -54,7 +42,6 @@ az network bastion create \
 ## Verification & SSH
 
 Once the creation completes (approx. 5-10 mins), you can immediately run your original command:
-
 
 ```sh
 az network bastion ssh \

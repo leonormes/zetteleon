@@ -2,7 +2,7 @@
 aliases: [Action MOC, Doing MOC, Execution Map]
 created: 2025-12-08T00:00:00Z
 last_reviewed: 2025-12-08
-modified: 2026-02-11T11:50:00+00:00
+modified: 2026-02-16T09:40:28+00:00
 related-soTs: ["[[SoT - PRODOS - Action Management (GTD)]]"]
 status: evergreen
 tags: ["TheHuman/Health/ADHD", action, execution, gtd, prodos]
@@ -27,4 +27,4 @@ The canonical system for managing actions is defined here:
 
 How ProdOS Helps:
 
-... (rest of the file)
+… (rest of the file)
