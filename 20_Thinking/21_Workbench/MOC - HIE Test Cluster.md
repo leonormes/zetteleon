@@ -3,15 +3,20 @@ created: 2025-12-04T12:02:41Z
 last_reviewed:
 modified: 2026-02-16T09:40:47+00:00
 status: processing
-tags: [customer/hie, ff_deploy, state/thinking]
+tags:
+  - customer/hie
+  - ff_deploy
+  - state/thinking
 title: MOC - HIE Test Cluster
 type: map
 updated: 2026-02-09T12:00:00+00:00
+aliases: []
+id: MOC - HIE Test Cluster
 ---
 
 I need to create a new hie cluster for testing.
 
-The existing vpc has a cidr range of `10.65.0.0/20`
+The existing VPC has a CIDR range of `10.65.0.0/20`
 
 ```sh
 ./vpc_description.sh
@@ -78,9 +83,9 @@ First step is to setup the central services.
 
 - Login to vault
 - login to terraform cloud
-- find the hie iac
+- find the HIE IaC
 - create the new central services.
-Then check the permissions.
+  Then check the permissions.
 
 ## Jira Task Breakdown (FTFL-223)
 
@@ -139,18 +144,18 @@ The following steps have been agreed upon for the deployment:
 1. Node Deployment: Deploy and configure the FITFILE test node.
 2. Storage Integration: Integrate designated QC and Data Export S3 buckets (Test versions).
 3. External Connectivity:
-    - Connect to HDRUK Cohort Discovery (Pre-production collection).
-    - Connect to RES Test environment.
+   - Connect to HDRUK Cohort Discovery (Pre-production collection).
+   - Connect to RES Test environment.
 4. Cohort Discovery: Deploy "Bunny" component to enable Cohort Discovery queries.
 
 ### 4. Technical Architecture & Assumptions
 
 The following constraints and configurations have been confirmed by [[Keiran Raine]]:
 
-|Category|Requirement / Configuration|
-|---|---|
-|Hosting|Same AWS Account as Production, but hosted in a Separate VPC.|
-|Data Isolation|No connection to Data Provider Nodes.|
-|User Access|Admin users only. No existing users will be transferred from the SDE Production Node.|
-|Data Usage|Local Synthetic Data only (for debugging/testing).|
-|Cost Management|Node must support Sleep Mode when not in use to reduce costs.|
+| Category        | Requirement / Configuration                                                           |
+| --------------- | ------------------------------------------------------------------------------------- |
+| Hosting         | Same AWS Account as Production, but hosted in a Separate VPC.                         |
+| Data Isolation  | No connection to Data Provider Nodes.                                                 |
+| User Access     | Admin users only. No existing users will be transferred from the SDE Production Node. |
+| Data Usage      | Local Synthetic Data only (for debugging/testing).                                    |
+| Cost Management | Node must support Sleep Mode when not in use to reduce costs.                         |

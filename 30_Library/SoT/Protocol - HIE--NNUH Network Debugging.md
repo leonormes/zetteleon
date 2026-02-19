@@ -1,10 +1,20 @@
 ---
-alias: [Connectivity Debugging, Kubernetes Network Debugging Protocol, Network Troubleshooting Checklist]
+alias:
+  - Connectivity Debugging
+  - Kubernetes Network Debugging Protocol
+  - Network Troubleshooting Checklist
 aliases:
   - Protocol - HIE->NNUH Network Debugging
 created: 2026-02-04T00:00:00+00:00
 modified: 2026-02-06T19:31:21+00:00
-tags: [aws, azure, debugging, kubernetes, networking, protocol]
+tags:
+  - aws
+  - azure
+  - debugging
+  - kubernetes
+  - networking
+  - protocol
+  - customer/nnuh
 title: Protocol - HIE--NNUH Network Debugging
 type: protocol
 ---

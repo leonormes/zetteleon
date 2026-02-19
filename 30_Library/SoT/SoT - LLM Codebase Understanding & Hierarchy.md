@@ -1,7 +1,7 @@
 ---
 created: 2026-02-06T09:00:00+00:00
 last-synthesis: 2026-02-06
-modified: 2026-02-16T09:40:32+00:00
+modified: 2026-02-16T11:32:00+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
@@ -64,11 +64,10 @@ Code should be written for agents (Model Parseability) to maximize correct infer
 The Cartographer is an agent role that acts as a Graph Pruner to manage "Attention Dilution":
 
 - Dependency Subgraphs: Instead of dumping the whole CFG, inject only nodes within 1-2 degrees of separation ("Impact Radius").
-- Graph Integrity: Enforces checking of upstream/downstream edges before modification. See [[The Code Cartographer]].
+- Graph Integrity: Enforces checking of upstream/downstream edges before modification.
 
 ## Related Knowledge
 
 - Foundational Physics: This hierarchy relies on [[SoT - Complexity Conservation]]. We move complexity from dynamic logic (code) to static representation (RIG) to lower the energy required for the LLM to reason correctly.
 - Complexity Law: See [[SoT - LLM Reasoning Obeys the Complexity Conservation Law]].
 - Failure Modes: See [[SoT - Parochial Code]] for why LLMs fail without global context.
-- Tooling: See [[SoT - Google Antigravity vs Tree-sitter]] for comparative architecture.

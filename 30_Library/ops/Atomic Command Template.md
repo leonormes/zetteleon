@@ -2,6 +2,9 @@
 created: 2026-02-14T09:02:32+00:00
 modified: 2026-02-16T09:40:49+00:00
 title: Atomic Command Template
+aliases: []
+id: Atomic Command Template
+tags: []
 ---
 
 Excellent. We're going to treat your notes as an operational runtime, not documentation.
@@ -25,7 +28,7 @@ This is a single executable action, with explicit execution state and verificati
 
 Copy this as your base template.
 
-````markdown
+`````md
 ---
 type: atomic_command
 tool: <kubectl|argocd|ssh|aws|terraform|curl|jq|...>
@@ -40,17 +43,21 @@ tags: #atomic #<tool> #<target_service>
 # <Action Name>
 
 ## 🎯 Intent
+
 <What state are we trying to observe or change?>
 
 ---
 
 ## 🌍 Execution Context
+
 Run from:
+
 - [ ] Local machine
 - [ ] Bastion host
 - [ ] Inside cluster (kubectl exec)
 
 Active requirements:
+
 - [ ] KUBECONFIG set
 - [ ] AWS_PROFILE set
 - [ ] SSH tunnel active
@@ -65,6 +72,7 @@ Active requirements:
 ```
 
 ### Placeholders
+
 - `<namespace>` — target namespace
 - `<app_name>` — ArgoCD application
 - `<pod_name>` — target pod
@@ -80,12 +88,14 @@ Active requirements:
 ```
 
 Expected signal:
+
 - <What confirms success?>
 - <What confirms failure?>
 
 ---
 
 ## 🧠 Failure Modes
+
 - <Common mistake>
 - <Wrong context symptom>
 - <Auth failure symptom>
@@ -93,6 +103,7 @@ Expected signal:
 ---
 
 ## 🔗 Related
+
 - [[Playbook - ArgoCD App Not Syncing]]
 - [[Command - Get Pods By Node]]
 
@@ -101,15 +112,10 @@ Expected signal:
 ### Why This Works
 
 - Forces execution context declaration
-    
 - Forces prerequisite linking
-    
 - Forces verification
-    
 - Makes commands composable
-    
 - Prevents context drift
-    
 
 ---
 
@@ -128,16 +134,20 @@ tags: #atomic #ssh #bastion
 # Establish Bastion Tunnel to Private Cluster API
 
 ## 🎯 Intent
+
 Create SSH tunnel to access private Kubernetes API endpoint.
 
 ---
 
 ## 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine
 - [ ] Bastion host
 
 Active requirements:
+
 - [ ] SSH key loaded
 - [ ] VPN connected (if required)
 
@@ -160,17 +170,21 @@ curl -k https://localhost:6443/version
 ```
 
 Expected signal:
+
 - JSON Kubernetes version response
 
 Failure signal:
+
 - Connection refused → tunnel not active
 - Timeout → wrong endpoint
 
 ---
 
 ## 🔗 Related
+
 - [[Command - Set Kubeconfig Context]]
 ````
+`````
 
 ---
 
@@ -191,16 +205,20 @@ tags: #atomic #argocd
 # Force Sync ArgoCD Application
 
 ## 🎯 Intent
+
 Force reconciliation of ArgoCD app with Git state.
 
 ---
 
 ## 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine
 - [ ] Bastion host
 
 Active requirements:
+
 - [ ] SSH tunnel active
 - [ ] argocd login completed
 
@@ -211,6 +229,7 @@ Active requirements:
 ```bash
 argocd app sync <app_name> --prune --timeout 300
 ```
+````
 
 ---
 
@@ -221,17 +240,21 @@ argocd app get <app_name>
 ```
 
 Expected signal:
+
 - Sync Status: Synced
 - Health Status: Healthy
 
 Failure signal:
+
 - OutOfSync persists
 - Degraded health
 
 ---
 
 ## 🔗 Related
+
 - [[Playbook - ArgoCD App Not Syncing]]
+
 ````
 
 ---
@@ -286,7 +309,7 @@ tags: #playbook #argocd
 
 ## 🧠 End State
 
-Success = 
+Success =
 - App Synced
 - All Pods Running
 - No CrashLoops
@@ -358,3 +381,4 @@ If you want, next we can:
 - Add a Hop Transition Model (local → bastion → cluster)
 - Build a K8s Node Drain Debug Playbook
 - Or formalize a Command Naming Convention to eliminate ambiguity.
+````

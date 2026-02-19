@@ -1,8 +1,199 @@
 ---
+captured: 2026-02-16T16:43:09+00:00 2026-02-16T16:43:09+00:00
 created: 2026-02-15T10:04:03+00:00
-modified: 2026-02-16T09:32:36+00:00
-title: On-Premise Kubernetes Deployment Options
+modified: 2026-02-17T09:49:10+00:00
+source: https://gemini.google.com/share/d855df6367ce
+status: processing
+tags: [input, on-prem]
+title: HEAD You said  on-prem deploy
+type: head
 ---
+
+## Raw Output / Content
+
+We deploy our applications to a k8s cluster. Usually this is either an azure Managed aks or Aws eks. A recent customer wants us to deploy to their on premise infrastructure. We are not sure what this consists of. But I want to make a plan. What are our options for either deploying some sort of kuberenetes cluster so we can deploy our app or having the customer manager a cluster that we deploy on. VMware was mentioned.
+
+---
+
+Moving from managed cloud services like AKS or EKS to an on-premise environment is a significant shift in responsibility.In the cloud, Microsoft or Amazon handles the "heavy lifting" of the control plane, networking, and storage integration. On-premise, those components must be manually architected or provided by a platform like VMware.
+
+To build your plan, you should categorise your options based on who owns the "Kubernetes Operations" vs the "Application Operations".
+
+---
+
+## Option 1: Customer-Managed Enterprise Platform
+
+In this scenario, the customer treats Kubernetes as an internal utility. They provide you with a `kubeconfig` file and an endpoint, similar to how they might provide a database.
+
+### VMware vSphere with Tanzu
+
+If the customer is already using VMware, this is their most likely path.
+
+- What it is: VMware's native Kubernetes integration. It turns vSphere into a platform where Kubernetes clusters are first-class citizens alongside traditional Virtual Machines.
+- Pros: Seamless integration with VMware storage (vSAN) and networking (NSX).
+- Your Role: You simply deploy your containers to the namespace they provide.
+
+### Red Hat OpenShift
+
+- What it is: A heavily opinionated, enterprise-grade Kubernetes distribution that runs on top of VMware (or bare metal).
+- Pros: extremely secure by default; includes built-in CI/CD and monitoring.
+- Your Role: You may need to adapt your manifests to handle OpenShift's stricter security contexts (SCCs).
+
+---
+
+## Option 2: Vendor-Managed (Self-Installed) Cluster
+
+If the customer only provides "raw" Virtual Machines (vSphere VMs) and expects you to handle the Kubernetes layer, you will need a lightweight distribution that you can manage yourself.
+
+| Solution | Best For… | Why? |
+| --- | --- | --- |
+| Rancher / RKE2 | General Enterprise | Hardened by default, easy to install on any Linux VM, and provides a great UI for managing the cluster. |
+| K3s | Resource-Constrained | If the customer's hardware is limited, K3s is a single binary that uses very little RAM/CPU. |
+| Kubeadm | Total Control | The "standard" way to build a cluster, but requires the most manual maintenance (upgrades, cert rotation). |
+
+> Note: If you go this route, you must ask the customer how they will provide Load Balancing (e.g., F5, Citrix, or a software solution like MetalLB) and Persistent Storage (e.g., via the VMware CSI driver).
+
+---
+
+## Option 3: "Cloud-to-On-Prem" Extensions
+
+Since you are already familiar with Azure and AWS, you can use their hybrid offerings to "extend" those environments into the customer's data centre.
+
+- EKS Anywhere: Allows you to run the exact same EKS software on the customer's VMware infrastructure. You manage it using the same tools you use for AWS.
+- Azure Arc-enabled Kubernetes: If the customer installs a cluster (like Tanzu or Rancher), you can "attach" it to your Azure portal. This allows you to deploy apps using GitOps and monitor them from Azure, even though the hardware is on-premise.
+
+---
+
+## The "Discovery" Checklist
+
+Before choosing a path, you need to ask the customer these four critical questions:
+
+1. Do you already have a Kubernetes strategy? (Do they have Tanzu, OpenShift, or Rancher running already?)
+2. What is the underlying hypervisor? (Confirm if it is VMware ESXi, Nutanix, or Bare Metal.)
+3. How do we handle Ingress/Load Balancing? (In AWS/Azure, this is automatic. On-prem, you need to know if they have a hardware Load Balancer or if you need to provide a software one.)
+4. What is the storage provider? (Will they provide a VMware Datastore, an NFS share, or an iSCSI target?)
+
+---
+
+## Recommended Next Step
+
+Would you like me to draft a technical questionnaire you can send to the customer's infrastructure team to identify which of these options is the most viable?
+
+## Raw Output / Content
+
+You said
+
+\## SYSTEM ROLE: Principal Infrastructure Architect (On-Premise Specialist)
+
+You are an expert in On-Premise Kubernetes topologies, specifically specializing in transitioning cloud-native (AKS/EKS) applications to restricted, bare-metal, or VMware-based environments. You reject "it just works" assumptions and focus on the OSI layer 4-7 networking and CSI storage requirements.
+
+\## THE USER CONTEXT
+
+The user is a Cloud-Native Developer/DevOps Engineer accustomed to managed services (AKS/EKS). They are facing a "Context Shift" where the underlying infrastructure (LoadBalancers, Persistent Volumes, DNS) is no longer provided by a cloud provider but must be defined or requested from a customer's VMWare/On-Prem environment.
+
+\## PEDAGOGICAL/OPERATIONAL CONSTRAINTS
+
+1\. No Cloud Magic: Assume \`Type: LoadBalancer\` will fail unless a specific solution (MetalLB, F5 CIS, or Tanzu NSX-T) is defined.
+
+2\. Storage Strictness: You must differentiate between "HostPath" (dangerous/non-portable) and "CSI-based" (VMware vSAN/PureStorage) solutions.
+
+3\. Air-Gap Awareness: Assume the environment may have no internet access. All "solutions" must account for private registries and image bundling.
+
+4\. Minimalist vs. Enterprise: Always provide two options: a "Lightweight/Bootstrap" option (e.g., K3s/RKE2) and a "Heavyweight/Enterprise" option (e.g., VMware Tanzu).
+
+\## IMMEDIATE GOAL
+
+The user needs a "Decision Matrix" and a "Discovery Questionnaire" to send to their customer. This must identify the customer's VMware version, networking capabilities (VLAN vs. VXLAN), and storage availability to determine if the user should install their own K8s or deploy onto a customer-managed cluster.
+
+Moving from AKS/EKS to an on-premise environment is a paradigm shift. You are moving from a world where infrastructure is an API call away, to a world where infrastructure is a ticket, a meeting, and a physical cable.
+
+In the cloud, you request a LoadBalancer, and an Azure resource appears. On-premise, if you request a LoadBalancer and the customer hasn't configured F5 Big-IP or an NSX-T Edge, your Service stays in `<pending>` forever.
+
+Here is the Discovery Questionnaire and Decision Matrix to triage your customer's environment.
+
+### Phase 1: The Discovery Questionnaire
+
+Send this to the customer's Infrastructure or Platform team. The goal is to identify if the "plumbing" exists to support a Kubernetes cluster.
+
+#### A. Compute & Hypervisor (The Soil)
+
+- Hypervisor Version: Are you running VMware vSphere 7.0u3 or higher? (Note: Older versions lack modern CNS/CSI support for storage).
+- Resource Reservations: Can you guarantee memory/CPU reservations? (Over-committed hosts lead to "Noisy Neighbour" instability for etcd).
+- VM Access: Will we have root/sudo access to the Guest OS (Linux VMs), or are these managed "black box" appliances?
+
+#### B. Networking (The Plumbing)
+
+- Load Balancing Strategy: Do you have a hardware Load Balancer (F5, Citrix NetScaler) that integrates with Kubernetes (CIS/Ingress Controller)?
+	- _If No:_ Does the network support Layer 2 adjacency for MetalLB (ARP speaking)? Or must we use BGP peering?
+- DNS Resolution: Can we edit internal DNS records to point `*.cluster.local` to our Ingress VIP, or is this a manual ticket process?
+- IP Allocation: Do you provide DHCP with reservations, or must we configure static IPs via Cloud-Init/Ovf properties?
+- Proxy/Firewall: Is there a transparent proxy, or must we inject `HTTP_PROXY` variables into the container runtime (containerd/CRI-O)?
+
+#### C. Storage (The Foundation)
+
+- Persistent Storage: Do you use vSAN, or an external array (Pure, NetApp, Dell)?
+- CSI Readiness: Do you have a "Storage Policy" created in vCenter compatible with the vSphere CSI driver?
+	- _Warning:_ If they say "We can give you an NFS share," you are risking performance issues. If they say "Local disk only," you cannot move Pods between nodes (HostPath restriction).
+
+#### D. Operational (Day 2)
+
+- Registry Access: Is there an internal OCI Registry (Harbor, Artifactory, Nexus)?
+	- _If No:_ We must bundle all container images as tarballs (Air-Gap install).
+- Observability: Do you have an existing Splunk/Datadog agent we must install, or do we bring our own Prometheus/Grafana stack?
+
+---
+
+### Phase 2: The Decision Matrix
+
+Once you have the answers, use this matrix to decide your deployment strategy.
+
+| Feature | Option A: Lightweight / Bootstrap (You Build It) | Option B: Enterprise / Integrated (They Provide It) |
+| --- | --- | --- |
+| Technology | RKE2 / K3s (Bundled, Air-Gap friendly) | VMware Tanzu / Red Hat OpenShift |
+| User Role | You manage the Control Plane & Workers. | You are a "Tenant." You only see a Namespace. |
+| Load Balancer | MetalLB / Kube-VIP. You broadcast ARP/BGP from the nodes. | NSX-T / HAProxy. Provided by the platform. |
+| Storage | Longhorn / OpenEBS. You replicate storage on local disks. | vSphere CSI. Storage is offloaded to the SAN/vSAN. |
+| OS Access | Root. You own the kernel and networking configuration. | Restricted. You likely cannot install kernel modules. |
+| Best For… | Environments with old hardware, no SAN, or strict air-gaps where you need a "cluster in a box." | Mature environments where the customer wants to enforce compliance and central management. |
+| Risk | You debug networking/OS issues. | You are blocked by their platform team's SLAs. |
+
+---
+
+### Phase 3: Technical Implementation Guidelines
+
+#### 1\. Solving the "LoadBalancer" Problem
+
+In AKS, `Type: LoadBalancer` is magic. On-premise, it requires a decision:
+
+- The "Hack" (NodePort): Expose ports 30000-32767. _Avoid this._ It makes DNS and TLS termination a nightmare.
+- The "Standard" (MetalLB):
+	- _Layer 2 Mode:_ One node "owns" the VIP and speaks ARP. Simple, but traffic bottlenecks through one node.
+	- _BGP Mode:_ All nodes advertise the VIP to the top-of-rack router. Requires network team cooperation (AS numbers, peering).
+- The "Enterprise" (Kube-VIP): Often better for the Control Plane HA, but can also handle Service traffic.
+
+#### 2\. Storage Strictness
+
+- Strictly Avoid HostPath: Never use `hostPath` for database persistence. If a node dies, your data is trapped on that physical box.
+- The Proper Path: Use the vSphere CSI driver. This allows a Pod to move from Host A to Host B, and the vCenter will re-attach the virtual disk (VMDK) to the new host automatically.
+
+#### 3\. Air-Gap Strategy
+
+If the questionnaire reveals "No Internet," your pipeline changes:
+
+1. Pull:`docker pull` images on a connected machine.
+2. Save:`docker save` to `.tar` files.
+3. Transfer: Sneakernet (USB) or Secure File Transfer to the air-gapped bastion.
+4. Load/Push:`docker load` and retag for the internal registry (or import into the K3s/RKE2 image cache directly).
+
+### Recommended Next Step
+
+Would you like me to generate the YAML configuration for a MetalLB Layer 2 deployment assuming you choose the Lightweight (RKE2) path?
+
+Google Account
+
+Leon Ormes
+
+leonormes@gmail.com
 
 ## Strategic Framework for Transitioning Kubernetes Workloads to On-Premise and Hybrid Infrastructure
 

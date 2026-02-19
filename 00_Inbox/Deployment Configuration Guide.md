@@ -1,14 +1,12 @@
 ---
 created: 2026-02-13T13:52:24+00:00
-modified: 2026-02-16T09:40:49+00:00
+modified: 2026-02-16T11:28:43+00:00
 title: Deployment Configuration Guide
 ---
 
-## Deployment Configuration Guide
-
 This document outlines the standard configuration patterns for `ffnode` deployments across the codebase. It generalizes the findings from `cuh-prod-1`, `ff-a`, `testing`, and other deployment profiles.
 
-### Deployment Profiles
+## Deployment Profiles
 
 | Profile             | Description                                                                                                 | Example           |
 |:------------------ |:---------------------------------------------------------------------------------------------------------- |:---------------- |
@@ -17,9 +15,9 @@ This document outlines the standard configuration patterns for `ffnode` deployme
 | CI/CD Testing       | Automated testing environments. High parallelism, mocks, resource limits.                                   | `fitfile/testing` |
 | Sandbox/Dev         | Experimental or developer-specific environments. Often partial deployments.                                 | `stg/sandbox`     |
 
-### Configuration Structure (`values.yaml`)
+## Configuration Structure (`values.yaml`)
 
-#### 1. Identity & Scope
+### 1. Identity & Scope
 
 Everything starts with defining _where_ and _what_ this deployment is.
 
@@ -29,7 +27,7 @@ deploymentKey: "cuh-prod-1" # Unique Key (used for naming resources)
 host: "app.fitfile.net" # Primary FQDN
 ```
 
-#### 2. Global Settings
+### 2. Global Settings
 
 Shared configuration across all components.
 
@@ -43,11 +41,11 @@ global:
     emis: true
 ```
 
-#### 3. Application Components
+### 3. Application Components
 
 Configuration for the core FITFILE applications.
 
-##### `fitconnect` / `ffcloud` / `frontend`
+#### `fitconnect` / `ffcloud` / `frontend`
 
 - Ingress & TLS: Define public and private access points.
 - Feature Flags: Toggle specific application features (e.g., `exportToS3`).
@@ -65,17 +63,17 @@ fitconnect:
         path: "/fitconnect"
 ```
 
-#### 4. Infrastructure Components
+### 4. Infrastructure Components
 
 Managed via Helm, often with Vault Secret Operator (VSO) integration.
 
-##### Data Stores (`mongodb`, `postgresql`, `minio`)
+#### Data Stores (`mongodb`, `postgresql`, `minio`)
 
 - Target Revision: Pin specific chart versions (e.g., `16.5.*`).
 - Persistence: Define volume sizes (`size: 64Gi`).
 - Vault Secrets: Map Vault paths to K8s secrets using VSO templates.
 
-##### Vault Secret Transformations
+#### Vault Secret Transformations
 
 A key pattern in `ffnode` is using `secretTransformation` to map Vault secrets into specific Kubernetes secret keys. This is often used to construct connection strings or map generic Vault keys to component-specific keys.
 
@@ -90,30 +88,30 @@ secretTransformation:
 
 _Note: The double curly-braces with backticks are used to escape the template so it's processed by the Vault Secrets Operator (VSO) rather than Helm._
 
-##### Observability (`grafana`, `alloy`)
+#### Observability (`grafana`, `alloy`)
 
 - External Services: Proxy URLs (common in Trust environments).
 - Alloy: Log formats, resource limits.
 - VSO: Secrets for remote write (Prometheus/Loki/Tempo).
 
-#### 5. Platform Services
+### 5. Platform Services
 
-##### `argoWorkflows` / `argocdApp`
+#### `argoWorkflows` / `argocdApp`
 
 - SSO: Integration with Auth0/Entra ID for UI access.
 - RBAC: Map Azure Groups to ReadOnly/Admin roles.
 - Target Revision: Pin deployment versions (e.g., `latest-release`).
 
-##### `certManager`
+#### `certManager`
 
 - DNS Solvers: Configure recursive nameservers (critical for internal Trust networks).
 - Vault Issuer: API tokens for Cloudflare or internal PKI.
 
-### Helm Chart Architecture (`ffnode`)
+## Helm Chart Architecture (`ffnode`)
 
 The `ffnode` chart follows an App of Apps pattern. It does not contain the application manifests directly but rather orchestrates the deployment of other Helm charts via ArgoCD Application resources.
 
-#### Object Types & Resource Orchestration
+### Object Types & Resource Orchestration
 
 The `ffnode` chart manages the creation of several types of Kubernetes and custom resources:
 
@@ -129,13 +127,13 @@ The `ffnode` chart manages the creation of several types of Kubernetes and custo
    - `Secret` (Service Account Tokens): Explicitly created for Argo UI users when SSO is enabled.
 5. Extra Deployments (`extraDeploy`): A catch-all pattern that allows users to inject arbitrary Kubernetes objects or Vault secrets into any child application through the `renderValuesWithVaultSecretInExtraDeploy` helper.
 
-#### Structure
+### Structure
 
 - Wrapper Chart: `ffnode` acts as the parent.
 - Child Apps: Defined in `templates/*.yaml` (e.g., `fitconnect-application.yaml`, `mongodb-application.yaml`).
 - Source: Most child apps point to `charts/components/<name>` in the same `deployment` repository.
 
-#### Component Inventory
+### Component Inventory
 
 The following components are orchestrated as ArgoCD Applications:
 
@@ -148,7 +146,7 @@ The following components are orchestrated as ArgoCD Applications:
 | Workflows      | `argo-workflows`, `workflow-templates`, `workflows-integration-tests-templates` |
 | Utilities      | `seed` (data seeding), `mutating-proxy-webhook`                                 |
 
-#### Value Propagation
+### Value Propagation
 
 Values defined in your Deployment's `values.yaml` (e.g., `cuh-prod-1/values.yaml`) are merged and passed down to child charts.
 
@@ -163,7 +161,7 @@ values: |
   {{- include "renderValuesWithVaultSecretInExtraDeploy" (list . $values) | indent 8 }}
 ```
 
-### Common Patterns & Anomalies
+## Common Patterns & Anomalies
 
 - Proxy Configuration: Trust deployments (`cuh-prod-1`) heavily rely on `HTTP_PROXY` env vars and `no-http-proxy-vars` annotations to bypass proxies for internal traffic.
 - Resource Limits: `testing` profile has very specific, low resource limits to pack workloads efficiently.

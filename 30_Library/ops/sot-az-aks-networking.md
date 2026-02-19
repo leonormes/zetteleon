@@ -87,9 +87,7 @@ az aks show
 
 ### Run Netshoot Debug Pod
 
-```bash
-kubectl run netshoot-debug --rm -it --image=nicolaka/netshoot -- bash
-```
+![[cmd-k8s-run-netshoot#⚡ Action]]
 
 ### Diagnostic Commands (Inside Pod)
 

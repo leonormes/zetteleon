@@ -11,12 +11,12 @@ type: sot
 
 When debugging EKS (AWS) $\leftrightarrow$ AKS (Azure), the failure usually exists in the Interconnect or the Route Propagation.
 
-| Layer | Component | Diagnostic Command |
-|:--- |:--- |:--- |
-| Physical/VC | ExpressRoute / DirectConnect | `az network express-route show` / `aws directconnect describe-connections` |
-| Routing | BGP / UDR / TGW | `az network nic show-effective-route-table` / `aws ec2 describe-route-tables` |
-| Policy | NSG / Security Groups | `az network nsg rule list` / `aws ec2 describe-security-groups` |
-| DNS | Private DNS Resolver | `dig +trace <internal-fqdn>` |
+| Layer       | Component                    | Diagnostic Command                                                            |
+| :---------- | :--------------------------- | :---------------------------------------------------------------------------- |
+| Physical/VC | ExpressRoute / DirectConnect | `az network express-route show` / `aws directconnect describe-connections`    |
+| Routing     | BGP / UDR / TGW              | `az network nic show-effective-route-table` / `aws ec2 describe-route-tables` |
+| Policy      | NSG / Security Groups        | `az network nsg rule list` / `aws ec2 describe-security-groups`               |
+| DNS         | Private DNS Resolver         | `dig +trace <internal-fqdn>`                                                  |
 
 ---
 

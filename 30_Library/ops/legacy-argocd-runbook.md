@@ -2,12 +2,16 @@
 created: 2025-12-04T12:02:41Z
 last_reviewed: null
 modified: 2026-02-15T15:49:33+00:00
-status: processing
+status: deprecated
 tags: [state/thinking]
 title: ArgoCD Debugging Runbook (kubectl-only)
 type: head
 updated: null
 ---
+
+> [!CAUTION] DEPRECATED
+> This runbook has been modularized into atomic commands. 
+> Please use: [[pb-argocd-sync-failure-triage]]
 
 ## ArgoCD Debugging Runbook (kubectl-only)
 
