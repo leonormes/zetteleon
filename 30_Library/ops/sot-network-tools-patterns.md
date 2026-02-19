@@ -1,9 +1,9 @@
 ---
 aliases: ["Debugging Toolkit", "Netshoot Tools", "Network Tools SoT", "Tcpdump Guide"]
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-04T20:47:33+00:00
+modified: 2026-02-19T15:01:06+00:00
 tags: ["debugging", "linux", "networking", "sot", "tools"]
-title: SoT - Network Debugging Tools & Patterns
+title: sot-network-tools-patterns
 type: sot
 ---
 
@@ -11,12 +11,12 @@ type: sot
 
 Effective network debugging moves up the stack. Do not debug HTTP (L7) if you cannot ping the Gateway (L3).
 
-| Layer | Focus | Key Tools | Typical Issues |
-|:--- |:--- |:--- |:--- |
-| L7 (App) | HTTP/DNS/TLS | `curl`, `dig`, `openssl` | DNS resolution, TLS Handshake, HTTP 500/403. |
-| L4 (Transport) | TCP/UDP Ports | `nc`, `nmap`, `ss` | Connection Refused (Port closed), Timeout (Firewall). |
-| L3 (Network) | IP Routing | `ping`, `mtr`, `ip route` | Packet Loss, Routing Loops, Blackholes. |
-| L2 (Link) | Interfaces | `ip link`, `ethtool` | MTU Mismatches, Interface Down, Physical errors. |
+| Layer          | Focus         | Key Tools                                    | Typical Issues                                        |
+|:------------- |:------------ |:------------------------------------------- |:---------------------------------------------------- |
+| L7 (App)       | HTTP/DNS/TLS  | `curl`, `dig`, `drill`, `openssl`, `grpcurl` | DNS resolution, TLS Handshake, HTTP 500/403.          |
+| L4 (Transport) | TCP/UDP Ports | `nc`, `nmap`, `ss`, `iperf3`                 | Connection Refused (Port closed), Timeout (Firewall). |
+| L3 (Network)   | IP Routing    | `ping`, `mtr`, `ip route`                    | Packet Loss, Routing Loops, Blackholes.               |
+| L2 (Link)      | Interfaces    | `ip link`, `ethtool`                         | MTU Mismatches, Interface Down, Physical errors.      |
 
 ---
 
@@ -57,10 +57,10 @@ ip route get 1.1.1.1
 
 ```bash
 # Test TCP Port 443 (Verbose, Zero-IO, Timeout 2s)
-nc -vz -w 2 <TARGET_IP> 443
+nc -vz -w 2 $TARGET_IP 443
 
 # Test UDP Port 53
-nc -vzu -w 2 <TARGET_IP> 53
+nc -vzu -w 2 $TARGET_IP 53
 ```
 
 ### `ss` (Socket Statistics)
@@ -79,7 +79,7 @@ ss -tulnp
 
 ```bash
 # Scan specific ports, skipping ping check
-nmap -Pn -p 80,443 --reason <TARGET_IP>
+nmap -Pn -p 80,443 --reason $TARGET_IP
 ```
 
 ---
@@ -126,7 +126,7 @@ dig +trace google.com
 tcpdump -n -i any -A port 80
 
 # The "Handshake Check" (SYN sent, no SYN-ACK received?)
-tcpdump -n -i any "tcp[tcpflags] & (tcp-syn|tcp-ack) != 0" and host <TARGET_IP>
+tcpdump -n -i any "tcp[tcpflags] & (tcp-syn|tcp-ack) != 0" and host $TARGET_IP
 ```
 
 ---

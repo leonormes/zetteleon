@@ -23,13 +23,15 @@ Run from:
 ## ⚡ Action
 
 ```bash
-curl -v -k --resolve <hostname>:<port>:<target_ip> https://<hostname>
+export TARGET_IP=<target_ip_address>
+
+curl -v -k --resolve <hostname>:<port>:$TARGET_IP https://<hostname>
 ```
 
 ### Placeholders
 - `<hostname>` — The public DNS name (e.g., `nnuh-prod-1.fitfile.net`)
 - `<port>` — Usually `443`
-- `<target_ip>` — The internal IP of the Ingress Controller or Load Balancer
+- `` — The internal IP of the Ingress Controller or Load Balancer
 
 ---
 

@@ -99,10 +99,10 @@ ip route show
 # Test DNS & External Access
 nslookup google.com
 curl -v --connect-timeout 5 https://www.google.com
-curl -v --connect-timeout 5 https://<TARGET_IP>
+curl -v --connect-timeout 5 https://
 
 # Trace path
-traceroute -n <TARGET_IP>
+traceroute -n 
 ```
 
 ---

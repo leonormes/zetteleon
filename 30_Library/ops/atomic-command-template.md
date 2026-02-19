@@ -24,9 +24,11 @@ title: atomic-command-template
 
 ```shell
 # ── <What this does> ──
+export TARGET_IP=<target_ip_address>
+
 <command> \
   --flag <PLACEHOLDER_PURPOSE> \
-  <PLACEHOLDER_TARGET>
+  $TARGET_IP
 ```
 
 ### Placeholders

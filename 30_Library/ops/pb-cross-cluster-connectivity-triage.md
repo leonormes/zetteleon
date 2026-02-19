@@ -34,7 +34,12 @@ type: playbook
 
 #### Phase 1: Establish Baseline
 
-1. Spin up the diagnostic shell:
+1. **Set target IP:**
+   ```bash
+   export TARGET_IP=<target_ip_address>
+   ```
+
+2. Spin up the diagnostic shell:
    ![[cmd-k8s-run-netshoot#⚡ Action]]
 
 2. Identify your Source IP (what the destination sees):
@@ -95,5 +100,5 @@ If diagnostics confirm a silent drop at the edge:
 
 Success =
 
-- `nc -vz <target_ip> <port>` returns `succeeded!`.
+- `nc -vz  <port>` returns `succeeded!`.
 - Traffic flows from Cluster A to Cluster B.

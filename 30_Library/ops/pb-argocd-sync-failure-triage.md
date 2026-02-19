@@ -3,6 +3,8 @@ type: playbook
 target_service: argocd
 incident_type: sync_failure
 tags: #playbook #argocd #kubectl
+created: 2026-02-16T11:46:04+00:00
+modified: 2026-02-19T15:03:39+00:00
 ---
 
 # Playbook: ArgoCD Sync Failure Triage (kubectl-only)
@@ -30,10 +32,11 @@ tags: #playbook #argocd #kubectl
 1. If credentials are managed by Vault, force a rotation:
    ![[cmd-k8s-annotate-vault-rotation#⚡ Action]]
 
-2. Restart the repository server to clear cache:
-   ```bash
-   kubectl rollout restart deployment argocd-repo-server -n argocd
-   ```
+2. Restart the repository server to clear cache
+
+```bash
+kubectl rollout restart deployment argocd-repo-server -n argocd
+```
 
 ### Phase 4: Reconciliation
 1. Force a manual sync:

@@ -22,11 +22,13 @@ Run from:
 ## ⚡ Action
 
 ```bash
-az network public-ip list --query "[?ipAddress=='<target_ip>']"
+export TARGET_IP=<target_ip_address>
+
+az network public-ip list --query "[?ipAddress=='$TARGET_IP']"
 ```
 
 ### Placeholders
-- `<target_ip>` — The IP address to investigate (e.g., `195.171.151.154`)
+- `` — The IP address to investigate (e.g., `195.171.151.154`)
 
 ---
 

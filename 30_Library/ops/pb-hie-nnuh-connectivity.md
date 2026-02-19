@@ -11,7 +11,7 @@ tags: [playbook, network, nnuh, hie]
 
 ## 🧭 Trigger Condition
 - HIE Source Cluster `hie-prod-34` cannot reach NNUH Ingress.
-- Symptom: 100% packet loss to `195.171.151.154`.
+- Symptom: 100% packet loss to `$TARGET_IP`.
 
 ---
 
@@ -28,7 +28,12 @@ tags: [playbook, network, nnuh, hie]
 ### Phase 1: Source Side (EKS Cluster A)
 *Run inside a netshoot pod in `hie-prod-34`.*
 
-1. Identify the Source Egress IP (The "What they see" check):
+1. **Set target IP:**
+   ```bash
+   export TARGET_IP=195.171.151.154
+   ```
+
+2. Identify the Source Egress IP (The "What they see" check):
    ![[cmd-net-get-egress-ip#⚡ Action]]
    *Current known egress:* `13.42.119.194`
 

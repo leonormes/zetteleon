@@ -23,12 +23,14 @@ Run from:
 ## ⚡ Action
 
 ```bash
-nmap -Pn -p <ports> --reason <target_ip>
+export TARGET_IP=<target_ip_address>
+
+nmap -Pn -p <ports> --reason $TARGET_IP
 ```
 
 ### Placeholders
 - `<ports>` — Comma-separated ports (e.g., `80,443`)
-- `<target_ip>` — Destination IP
+- `` — Destination IP
 
 ---
 

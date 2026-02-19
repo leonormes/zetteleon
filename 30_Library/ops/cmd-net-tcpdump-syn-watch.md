@@ -22,11 +22,13 @@ Run from:
 ## ⚡ Action
 
 ```bash
-tcpdump -nn -i any host <target_ip> and tcp port <port>
+export TARGET_IP=<target_ip_address>
+
+tcpdump -nn -i any host $TARGET_IP and tcp port <port>
 ```
 
 ### Placeholders
-- `<target_ip>` — Destination IP
+- `` — Destination IP
 - `<port>` — Target port (e.g., 443)
 
 ---

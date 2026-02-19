@@ -1,20 +1,10 @@
 ---
-alias:
-  - Connectivity Debugging
-  - Kubernetes Network Debugging Protocol
-  - Network Troubleshooting Checklist
+alias: [Connectivity Debugging, Kubernetes Network Debugging Protocol, Network Troubleshooting Checklist]
 aliases:
   - Protocol - HIE->NNUH Network Debugging
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-06T19:31:21+00:00
-tags:
-  - aws
-  - azure
-  - debugging
-  - kubernetes
-  - networking
-  - protocol
-  - customer/nnuh
+modified: 2026-02-19T12:16:07+00:00
+tags: [aws, azure, customer/nnuh, debugging, kubernetes, networking, protocol]
 title: Protocol - HIE--NNUH Network Debugging
 type: protocol
 ---
@@ -61,11 +51,51 @@ nc -vz -w 5 ${TARGET_IP} 443
 
 # 5. Test HTTPS Handshake (Detailed verbose output)
 curl -v --connect-timeout 5 https://${TARGET_IP}
-
+mtr -T -P 443 --report -c 10 ${TARGET_IP}
 # 6. Deep Dive: Why is it failing? (Filtered vs Closed)
 # -Pn skips ping discovery. --reason shows why port is marked state.
 nmap -Pn -p 80,443 --reason ${TARGET_IP}
 ```
+
+### Additional Tests to Run
+
+1. Trace where your packets die—find the last hop that responds:
+
+```bash
+# TCP-specific traceroute on port 443 (more useful than ICMP traceroute here)
+traceroute -T -p 443 -m 30 ${TARGET_IP}
+
+# Also try mtr for a continuous view (run for ~10 seconds)
+mtr -T -P 443 --report -c 10 ${TARGET_IP}
+```
+
+Why: This shows you exactly which network hop swallows your packets. Useful evidence to hand to whoever manages the firewall.
+
+1. Test with SNI—some firewalls inspect TLS Client Hello and only allow traffic with the correct hostname:
+
+```bash
+curl -v --connect-timeout 5 --resolve nnuh-prod-1.fitfile.net:443:195.171.151.154 https://nnuh-prod-1.fitfile.net
+```
+
+Why: If the firewall does deep packet inspection, it might care about SNI. (Unlikely to help here since you can't even TCP-connect, but it's worth ruling out once the allowlist is in place.)
+
+1. Check for an alternate port—sometimes gateways listen on non-standard ports:
+
+```bash
+nmap -Pn -p 22,80,443,6443,8443,8080 --reason ${TARGET_IP}
+```
+
+Why: If any port shows `closed` instead of `filtered`, the host is reachable but not listening there—that's a different problem from a firewall drop.
+
+1. Confirm the egress IP is stable—if the cluster uses multiple NAT gateways:
+
+```bash
+for i in $(seq 1 5); do curl -s ifconfig.me; echo; sleep 1; done
+```
+
+Why: If the egress IP rotates (e.g. multiple NAT Gateways across AZs), you may need to allowlist a CIDR range, not just one IP.
+
+---
 
 ### C. Packet Inspection (The "Truth Serum")
 

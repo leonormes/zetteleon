@@ -1,3 +1,7 @@
+---
+created: 2026-02-19T08:33:12+00:00
+modified: 2026-02-19T13:12:36+00:00
+---
 ## netshoot: a Docker + Kubernetes network trouble-shooting swiss-army container
 
 ```
@@ -33,7 +37,7 @@ Cool thing about namespaces is that you can switch between them. You can enter a
 
 You can easily deploy `netshoot` using Docker Compose using something like this:
 
-```
+```yaml
 version: "3.6"
 services:
   tcpdump:
@@ -105,14 +109,6 @@ NAME                              READY   STATUS    RESTARTS   AGE
 nginx-netshoot-7f9c6957f8-kr8q6   2/2     Running   0          4m27s
 
 $ kubectl exec -it nginx-netshoot-7f9c6957f8-kr8q6 -c netshoot -- /bin/zsh
-                    dP            dP                           dP
-                    88            88                           88
-88d888b. .d8888b. d8888P .d8888b. 88d888b. .d8888b. .d8888b. d8888P
-88'  `88 88ooood8   88   Y8ooooo. 88'  `88 88'  `88 88'  `88   88
-88    88 88.  ...   88         88 88    88 88.  .88 88.  .88   88
-dP    dP `88888P'   dP   `88888P' dP    dP `88888P' `88888P'   dP
-
-Welcome to Netshoot! (github.com/nicolaka/netshoot)
 
 nginx-netshoot-7f9c6957f8-kr8q6 $ 
  ```
@@ -123,7 +119,7 @@ To easily troubleshoot networking issues in your k8s environment, you can levera
 
 Sample Usage:
 
-```
+```sh
 # spin up a throwaway pod for troubleshooting
 kubectl netshoot run tmp-shell
 
@@ -226,7 +222,7 @@ Purpose: test networking performance between two containers/hosts.
 
 Example:
 
-```
+```sh
 $ docker network create -d bridge perf-test
 $ docker run -d --rm --net perf-test --name perf-test-a nicolaka/netshoot iperf -s -p 9999
 $ docker run -it --rm --net perf-test --name perf-test-b nicolaka/netshoot iperf -c perf-test-a -p 9999
@@ -236,7 +232,7 @@ $ docker run -it --rm --net perf-test --name perf-test-b nicolaka/netshoot iperf
 
 **tcpdump** is a powerful and common packet analyzer that runs under the command line. It allows the user to display TCP/IP and other packets being transmitted or received over an attached network interface.
 
-```
+```sh
 $ docker run -it --net container:perf-test-a nicolaka/netshoot
 / # tcpdump -i eth0 port 9999 -c 1 -Xvv
 ```
@@ -245,7 +241,7 @@ $ docker run -it --net container:perf-test-a nicolaka/netshoot
 
 Purpose: `netstat` is a useful tool for checking your network configuration and activity.
 
-```
+```sh
 $ docker run -it --net container:perf-test-a nicolaka/netshoot
 / # netstat -tulpn
 ```
@@ -254,7 +250,7 @@ $ docker run -it --net container:perf-test-a nicolaka/netshoot
 
 `nmap` ("Network Mapper") is an open source tool for network exploration and security auditing. It is very useful for scanning to see which ports are open between a given set of hosts.
 
-```
+```sh
 $ docker run -it --privileged nicolaka/netshoot nmap -p 12376-12390 -dd 172.31.24.25
 ```
 

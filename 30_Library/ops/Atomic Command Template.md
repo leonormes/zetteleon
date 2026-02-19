@@ -144,30 +144,62 @@ Create SSH tunnel to access private Kubernetes API endpoint.
 Run from:
 
 - [x] Local machine
+
 - [ ] Bastion host
+
+
 
 Active requirements:
 
 - [ ] SSH key loaded
+
 - [ ] VPN connected (if required)
 
+
+
 ---
+
+
 
 ## ⚡ Action
 
+
+
 ```bash
+
+# 1. Set target
+
+export TARGET_IP=<private_cluster_endpoint>
+
+
+
+# 2. Establish tunnel
+
 ssh -i ~/.ssh/<key.pem> \
-    -L 6443:<private_cluster_endpoint>:443 \
+
+    -L 6443:$TARGET_IP:443 \
+
     ec2-user@<bastion_public_ip>
+
 ```
+
+
 
 ---
 
+
+
 ## ✅ Verification
 
+
+
 ```bash
+
 curl -k https://localhost:6443/version
+
 ```
+
+
 
 Expected signal:
 

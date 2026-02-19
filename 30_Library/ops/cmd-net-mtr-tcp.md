@@ -22,12 +22,14 @@ Run from:
 ## ⚡ Action
 
 ```bash
-mtr -n -T -P <port> -r -c 10 <target_ip>
+export TARGET_IP=<target_ip_address>
+
+mtr -n -T -P <port> -r -c 10 $TARGET_IP
 ```
 
 ### Placeholders
 - `<port>` — Target port (e.g., 443)
-- `<target_ip>` — Destination IP or hostname
+- `` — Destination IP or hostname
 
 ---
 
