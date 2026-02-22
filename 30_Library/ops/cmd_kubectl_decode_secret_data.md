@@ -1,0 +1,53 @@
+---
+type: command
+tool: kubectl
+service: k8s
+risk: read-only
+tags: [kubectl, secrets, decode]
+---
+
+# Decode Secret Data
+
+## 🎯 Intent
+Decodes base64 data from Opaque secrets or `dockerconfigjson` registries for human inspection.
+
+---
+
+## 🌍 Execution Context
+Run from:
+- [x] Local machine (with context)
+
+---
+
+## ⚡ Action
+
+### For Registry Secrets (dockerconfigjson)
+```bash
+kubectl get secret <SECRET_NAME> -n <NAMESPACE> \
+  -o jsonpath='{.data.\.dockerconfigjson}' | base64 -d | jq .
+```
+
+### For Opaque Secrets (KV)
+```bash
+# List all keys first
+kubectl get secret <SECRET_NAME> -n <NAMESPACE> -o jsonpath='{.data}' | jq 'keys'
+
+# Decode specific key
+kubectl get secret <SECRET_NAME> -n <NAMESPACE> \
+  -o jsonpath='{.data.<KEY>}' | base64 -d
+```
+
+### Placeholders
+- `<SECRET_NAME>` — Name of the secret.
+- `<NAMESPACE>` — Target namespace.
+- `<KEY>` — The specific key inside the Opaque secret.
+
+---
+
+## ✅ Verification
+- Confirm the `client_id` or `username` matches the expected identity from Vault.
+
+---
+
+## 🔗 Related
+- [[kb_vso_metadata_identifiers]]
