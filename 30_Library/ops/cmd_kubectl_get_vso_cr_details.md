@@ -47,3 +47,4 @@ kubectl get <CR_KIND> <CR_NAME> -n <NAMESPACE> -o jsonpath='{.status}' | jq .
 ## 🔗 Related
 - [[cmd_kubectl_get_secret_origin]]
 - [[playbook_vso_secret_debugging]]
+- [[playbook_argocd_vso_oci_registry_auth_failure]]

@@ -43,3 +43,4 @@ kubectl get <CR_KIND> <CR_NAME> -n <NAMESPACE> -o jsonpath='{.spec.destination.o
 
 ## 🔗 Related
 - [[kb_vso_stale_credentials_logic]]
+- [[playbook_argocd_vso_oci_registry_auth_failure]]

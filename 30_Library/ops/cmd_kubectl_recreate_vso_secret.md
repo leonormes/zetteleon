@@ -48,3 +48,4 @@ kubectl get secret -n <NAMESPACE> -w | grep <SECRET_NAME>
 ## 🔗 Related
 - [[cmd_kubectl_patch_vso_overwrite]]
 - [[playbook_vso_secret_debugging]]
+- [[playbook_argocd_oci_helm_dependency_troubleshooting]]

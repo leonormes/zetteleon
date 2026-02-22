@@ -39,3 +39,4 @@ argocd app get <APP_NAME> --refresh --hard
 ## 🔗 Related
 - [[cmd_argocd_get_app]]
 - [[cmd_argocd_flush_cache]]
+- [[playbook_argocd_oci_helm_dependency_troubleshooting]]
