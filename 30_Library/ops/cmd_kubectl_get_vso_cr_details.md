@@ -1,50 +1,60 @@
 ---
-type: command
-tool: kubectl
-service: vso
+created: 2026-02-21T15:07:24+00:00
+modified: 2026-02-22T17:30:31+00:00
 risk: read-only
-tags: [vso, k8s, secrets, status]
+service: vso
+tags: [k8s, secrets, status, vso]
+title: cmd_kubectl_get_vso_cr_details
+tool: kubectl
+type: command
 ---
 
-# Get VSO CR Details
+## Get VSO CR Details
 
-## 🎯 Intent
+### 🎯 Intent
+
 Retrieves the specification and lease status (health) of the VSO Custom Resource managing a secret.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 # Get Full Spec and Status
 kubectl get <CR_KIND> <CR_NAME> -n <NAMESPACE> -o yaml
 ```
 
-### Check Lease Health
+#### Check Lease Health
+
 ```bash
 kubectl get <CR_KIND> <CR_NAME> -n <NAMESPACE> -o jsonpath='{.status}' | jq .
 ```
 
-### Placeholders
-- `<CR_KIND>` — `VaultStaticSecret`, `VaultDynamicSecret`, or `VaultPKISecret`.
-- `<CR_NAME>` — The name of the VSO resource.
-- `<NAMESPACE>` — The Kubernetes namespace.
+#### Placeholders
+
+- `<CR_KIND>`—`VaultStaticSecret`, `VaultDynamicSecret`, or `VaultPKISecret`.
+- `<CR_NAME>`—The name of the VSO resource.
+- `<NAMESPACE>`—The Kubernetes namespace.
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 - `status.leaseID`: Should be present for dynamic secrets.
 - `status.conditions`: Check for `SyncError` or `VaultConnectionError`.
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[cmd_kubectl_get_secret_origin]]
 - [[playbook_vso_secret_debugging]]
 - [[playbook_argocd_vso_oci_registry_auth_failure]]
