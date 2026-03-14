@@ -1,11 +1,11 @@
 ---
 captured: "2026-02-16T10:51:49+00:00 2026-02-16T10:51:49+00:00"
 created: 2026-02-16T10:51:52+00:00
-modified: 2026-02-16T10:53:34+00:00
+modified: 2026-03-14T11:10:11+00:00
 source: "https://gemini.google.com/app/26db32d1ec9ca6e9"
 status: "processing"
 tags: ["input"]
-title: REMOTE HOST IDENTIFICATION HAS CHANGED
+title: cmd-ssh-remove-known-host
 type: "head"
 ---
 

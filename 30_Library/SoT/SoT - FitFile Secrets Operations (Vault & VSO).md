@@ -1,7 +1,7 @@
 ---
 aliases: [FitFile Secrets Guide, Secret Management SOP, Vault Secrets Operations]
 created: 2026-02-01T15:30:00Z
-modified: 2026-02-16T09:40:33+00:00
+modified: 2026-03-14T11:10:15+00:00
 see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FITFILE Secret Management Architecture]]"]
 status: evergreen
 tags: [ff_deploy, secrets, security, sot, vault]
@@ -98,10 +98,10 @@ path "admin/data/deployments/lca-prd-2/*" {
 
 ### 4.2 VSO Authentication
 
-VSO uses the AppRole method.
+VSO uses the JWT (OIDC) Auth Method (Preferred) or AppRole (Legacy/Fallback).
 
-- RoleID: Hardcoded in the VSO Helm release.
-- SecretID: Injected into the cluster during Phase 3 via Terraform output.
+- JWT Method: Leverages Kubernetes ServiceAccount tokens. No static secrets are stored in the cluster. See [[SoT - VSO Authentication (JWT vs AppRole)]] for the full rationale.
+- AppRole Method: Uses static `RoleID` and `SecretID`. Requires manual secret management and is less secure for remote Vault connections.
 
 ---
 
@@ -118,6 +118,10 @@ VSO uses the AppRole method.
 
 - Cause: Someone manually edited the Kubernetes Secret.
 - Fix: VSO is designed to revert manual changes. Update the source in Vault, not Kubernetes.
+
+### 5.4 Advanced Troubleshooting
+
+For a detailed guide on fixing stuck secrets, handling rotation failures, and the "Overwrite" golden rule, see the [[Protocol - VSO Secret Management & Troubleshooting]].
 
 ### 5.3 Rotation
 

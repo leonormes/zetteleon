@@ -1,41 +1,50 @@
 ---
-type: atomic_command
-tool: kubectl
+created: 2026-02-21T15:05:07+00:00
 hop_level: local
-target_service: k8s
+modified: 2026-03-14T11:10:10+00:00
 requires_tunnel: true
-tags: [atomic, kubectl, events, triage]
+tags: [atomic, events, kubectl, triage]
+target_service: k8s
+title: cmd_kubectl_get_events
+tool: kubectl
+type: atomic_command
 ---
 
-# Get Namespace Events
+## Get Namespace Events
 
-## 🎯 Intent
+### 🎯 Intent
+
 Surfaces recent Kubernetes events to diagnose underlying resource issues like image pull errors or scheduling constraints.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 kubectl get events -n <NAMESPACE> --sort-by='.lastTimestamp'
 ```
 
-### Placeholders
-- `<NAMESPACE>` — target namespace
+#### Placeholders
+
+- `<NAMESPACE>`—target namespace
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 - Look for `Warning` type events in the last 10–15 minutes.
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[cmd_kubectl_get_pods]]
 - [[playbook_argocd_sync_failure_triage]]

@@ -1,25 +1,31 @@
 ---
-type: atomic_command
-tool: az
+created: 2026-02-19T15:18:30+00:00
 hop_level: local
+modified: 2026-03-14T11:10:11+00:00
+tags: [atomic, azure, network]
 target_service: azure
-tags: #atomic #azure #network
+title: cmd-az-get-public-ip-owner
+tool: az
+type: atomic_command
 ---
 
-# Identify Azure Public IP Owner
+## Identify Azure Public IP Owner
 
-## 🎯 Intent
+### 🎯 Intent
+
 Verify if a specific Public IP address belongs to your subscription and which resource (Load Balancer, NAT Gateway, etc.) it is attached to.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (authenticated to AZ CLI)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 export TARGET_IP=<target_ip_address>
@@ -27,17 +33,21 @@ export TARGET_IP=<target_ip_address>
 az network public-ip list --query "[?ipAddress=='$TARGET_IP']"
 ```
 
-### Placeholders
-- `` — The IP address to investigate (e.g., `195.171.151.154`)
+#### Placeholders
+
+- ``—The IP address to investigate (e.g., `195.171.151.154`)
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 Expected signal:
+
 - JSON block containing `id`, `resourceGroup`, and `ipConfiguration`.
 - If empty, the IP is likely external or in a different subscription.
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[sot-az-aks-networking]]

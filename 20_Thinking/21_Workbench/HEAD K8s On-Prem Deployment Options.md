@@ -1,7 +1,7 @@
 ---
 captured: "2026-02-16T09:38:32+00:00 2026-02-16T09:38:32+00:00"
 created: 2026-02-16T09:38:35+00:00
-modified: 2026-02-16T09:40:39+00:00
+modified: 2026-02-27T09:19:50+00:00
 source: "https://chatgpt.com/c/698e5b38-9930-8392-9a8c-898f82c19b97"
 status: "processing"
 tags: ["input"]
@@ -65,6 +65,7 @@ You publish a "Supported Kubernetes Platform" matrix and a "Cluster Readiness Ch
 - Provide a supported ingress + storage reference per platform (VMware, OpenShift, etc.)
 
 Pros: fastest; least risk; clean support boundaries.
+
 Cons: your deployment must handle variation (ingress/storage/LB/PSA differences).
 
 ---
@@ -81,6 +82,7 @@ You essentially deliver "Kubernetes as part of the product" (or as a packaged de
 - Cluster API (if you want a more "Kubernetes-native" lifecycle, often used with vSphere)
 
 Pros: consistent platform; fewer unknowns; easier repeatability.
+
 Cons: you now own upgrades, CVEs, etc. unless you contractually push that to them.
 
 A good compromise is: you provide automation + golden config, they run it, and you only support _your app_ on clusters produced by that automation.
@@ -96,6 +98,7 @@ If they want "managed-like" experiences on-prem:
 - Google Anthos (less common but exists)
 
 Pros: closest to AKS/EKS operational model; strong vendor story.
+
 Cons: expensive; hardware constraints; procurement lead times; customer must already be bought in.
 
 ---

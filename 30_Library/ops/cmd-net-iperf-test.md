@@ -1,54 +1,66 @@
 ---
-type: atomic_command
-tool: iperf3
+created: 2026-02-19T13:14:35+00:00
 hop_level: local
-target_service: network
+modified: 2026-03-14T11:10:11+00:00
 requires_tunnel: false
-tags: #atomic #network #performance #iperf
+tags: [atomic, iperf, network, performance]
+target_service: network
+title: cmd-net-iperf-test
+tool: iperf3
+type: atomic_command
 ---
 
-# Network Performance Test (iperf3)
+## Network Performance Test (iperf3)
 
-## 🎯 Intent
+### 🎯 Intent
+
 Measure the maximum achievable bandwidth between two points (containers, pods, or hosts) to identify network bottlenecks or performance degradation.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Inside a netshoot pod or container.
 - [x] Local machine (if iperf3 installed).
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
-### 1. Start Server (Destination)
+#### 1. Start Server (Destination)
+
 ```bash
 iperf3 -s -p <port>
 ```
 
-### 2. Start Client (Source)
+#### 2. Start Client (Source)
+
 ```bash
 export TARGET_IP=<server_ip_or_hostname>
 
 iperf3 -c $TARGET_IP -p <port> -t <duration_seconds>
 ```
 
-### Placeholders
-- `<port>` — Port to listen on/connect to (default is `5201`).
-- `<server_ip_or_hostname>` — Address of the iperf server.
-- `<duration_seconds>` — How long to run the test (e.g., `10`).
+#### Placeholders
+
+- `<port>`—Port to listen on/connect to (default is `5201`).
+- `<server_ip_or_hostname>`—Address of the iperf server.
+- `<duration_seconds>`—How long to run the test (e.g., `10`).
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 Expected signal:
-- Detailed output showing intervals, transfer size, and **bandwidth** (e.g., `941 Mbits/sec`).
+
+- Detailed output showing intervals, transfer size, and bandwidth (e.g., `941 Mbits/sec`).
 - Retransmissions (Retr) should be low or zero for healthy links.
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[pb-netshoot-deployment]]
 - [[cmd-k8s-run-netshoot]]

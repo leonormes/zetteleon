@@ -1,28 +1,34 @@
 ---
-type: command
-tool: kubectl
+created: 2026-02-22T16:57:48+00:00
 hop_level: local
-target_service: argocd
+last_verified: 2026-02-22
+modified: 2026-03-14T11:10:10+00:00
 requires_tunnel: false
 status: active
-last_verified: 2026-02-22
-tags: [cmd, argocd, cm, configmap, globals]
+tags: [argocd, cm, cmd, configmap, globals]
+target_service: argocd
+title: cmd_kubectl_argocd_get_configmap
+tool: kubectl
+type: command
 ---
 
-# Extract ArgoCD ConfigMap Globals
+## Extract ArgoCD ConfigMap Globals
 
-## 🎯 Intent
+### 🎯 Intent
+
 Extract OCI and Helm configurations from the global `argocd-cm` ConfigMap. This contains system-wide parameters (like `helm.valuesFileSchemes`) or custom tool configurations overriding default behavior.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 kubectl get configmap argocd-cm -n argocd -o yaml | grep -i 'helm\|oci'
@@ -30,9 +36,11 @@ kubectl get configmap argocd-cm -n argocd -o yaml | grep -i 'helm\|oci'
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 - Expected Output: Any custom keys or data values associated with strings containing "helm" or "oci". If silent, ArgoCD operates strictly on out-of-the-box defaults for those subsystems.
 
-## 💥 Failure Mode Analysis
-- **Symptom:** `Error from server (NotFound): configmaps "argocd-cm" not found`.
-  - **Fix:** Ensure you are actively targeting the `argocd` namespace.
+### 💥 Failure Mode Analysis
+
+- Symptom: `Error from server (NotFound): configmaps "argocd-cm" not found`.
+  - Fix: Ensure you are actively targeting the `argocd` namespace.

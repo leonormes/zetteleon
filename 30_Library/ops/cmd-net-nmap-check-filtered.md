@@ -1,26 +1,32 @@
 ---
-type: atomic_command
-tool: nmap
+created: 2026-02-19T15:18:30+00:00
 hop_level: cluster
+modified: 2026-03-14T11:10:11+00:00
+tags: [atomic, network, security]
 target_service: network
-tags: #atomic #network #security
+title: cmd-net-nmap-check-filtered
+tool: nmap
+type: atomic_command
 ---
 
-# Check Port Filtered Status (Nmap)
+## Check Port Filtered Status (Nmap)
 
-## 🎯 Intent
+### 🎯 Intent
+
 Determine if a port is being silently dropped by a firewall (`filtered`) or explicitly rejected (`closed`).
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Inside cluster (netshoot pod)
 - [ ] Local machine
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 export TARGET_IP=<target_ip_address>
@@ -28,18 +34,21 @@ export TARGET_IP=<target_ip_address>
 nmap -Pn -p <ports> --reason $TARGET_IP
 ```
 
-### Placeholders
-- `<ports>` — Comma-separated ports (e.g., `80,443`)
-- `` — Destination IP
+#### Placeholders
+
+- `<ports>`—Comma-separated ports (e.g., `80,443`)
+- ``—Destination IP
 
 ---
 
-## ✅ Verification
-- `STATE: open` + `REASON: syn-ack` — Success.
-- `STATE: filtered` + `REASON: no-response` — Firewall is dropping packets (silent drop).
-- `STATE: closed` + `REASON: conn-refused` — Host reachable, but service not listening.
+### ✅ Verification
+
+- `STATE: open` + `REASON: syn-ack`—Success.
+- `STATE: filtered` + `REASON: no-response`—Firewall is dropping packets (silent drop).
+- `STATE: closed` + `REASON: conn-refused`—Host reachable, but service not listening.
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[pb-cross-cluster-connectivity-triage]]

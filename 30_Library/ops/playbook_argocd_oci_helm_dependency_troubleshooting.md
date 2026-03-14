@@ -1,101 +1,106 @@
 ---
-type: playbook
-target_service: argocd
-trigger: "ComparisonError during manifest generation for Helm charts with OCI sub-dependencies"
+created: 2026-02-22T16:58:18+00:00
+last_verified: 2026-02-22
+modified: 2026-03-14T11:10:09+00:00
 severity: p2
 status: active
-last_verified: 2026-02-22
-tags: [playbook, argocd, helm, oci, dependencies, auth, troubleshooting]
+tags: [argocd, auth, dependencies, helm, oci, playbook, troubleshooting]
+target_service: argocd
+title: playbook_argocd_oci_helm_dependency_troubleshooting
+trigger: "ComparisonError during manifest generation for Helm charts with OCI sub-dependencies"
+type: playbook
 ---
 
-# Playbook: ArgoCD OCI Helm Dependency Troubleshooting
+## Playbook: ArgoCD OCI Helm Dependency Troubleshooting
 
-## ⚠️ Symptoms
+### ⚠️ Symptoms
 
-> **When to use this:** Troubleshooting ArgoCD Applications that fail to resolve OCI Helm chart dependencies from a private registry (e.g. Azure Container Registry). The typical symptom is a `ComparisonError` during manifest generation when ArgoCD runs `helm dependency build` for a Git-sourced Application whose `Chart.yaml` declares OCI sub-dependencies.
+> When to use this: Troubleshooting ArgoCD Applications that fail to resolve OCI Helm chart dependencies from a private registry (e.g. Azure Container Registry). The typical symptom is a `ComparisonError` during manifest generation when ArgoCD runs `helm dependency build` for a Git-sourced Application whose `Chart.yaml` declares OCI sub-dependencies.
 
-### Common Error Signatures
-- **Project restriction:** `helm repos <registry> are not permitted in project '<project>'`
-- **Cached project error:** `Manifest generation error (cached): … are not permitted in project`
-- **Authentication failure:** `response status code 401: unauthorized: authentication required`
-- **Missing dependencies:** `found in Chart.yaml, but missing in charts/ directory: <chart>, <chart>`
+#### Common Error Signatures
+
+- Project restriction: `helm repos <registry> are not permitted in project '<project>'`
+- Cached project error: `Manifest generation error (cached): … are not permitted in project`
+- Authentication failure: `response status code 401: unauthorized: authentication required`
+- Missing dependencies: `found in Chart.yaml, but missing in charts/ directory: <chart>, <chart>`
 
 ---
 
-## Phase 0: Context Establishment
+### Phase 0: Context Establishment
 
-1. **Describe the Failing Application**
-   *Identify the error details, the target chart path, and the ruling AppProject name.*
+1. Describe the Failing Application
+   _Identify the error details, the target chart path, and the ruling AppProject name._
    ![[cmd_kubectl_argocd_describe_application#1. The Command]]
 
-2. **Verify Chart Dependencies**
-   *Check if `Chart.yaml` actually declares `oci://` endpoints.*
+2. Verify Chart Dependencies
+   _Check if `Chart.yaml` actually declares `oci://` endpoints._
    ![[cmd_cat_helm_chart_dependencies#1. The Command]]
 
-3. **Check for Pre-Built Dependencies**
-   *If `.tgz` files are stored in git, auth isn't the problem.*
+3. Check for Pre-Built Dependencies
+   _If `.tgz` files are stored in git, auth isn't the problem._
    ![[cmd_ls_helm_chart_prebuilt_dependencies#1. The Command]]
 
 ---
 
-## Phase 1: Diagnosis
+### Phase 1: Diagnosis
 
-*Identify whether the blocker is structural (AppProject RBAC), network (egress/DNS), or pure authentication (stale Vault credential).*
+_Identify whether the blocker is structural (AppProject RBAC), network (egress/DNS), or pure authentication (stale Vault credential)._
 
-1. **Check if OCI Registry is Permitted by AppProject**
+1. Check if OCI Registry is Permitted by AppProject
    ![[cmd_kubectl_argocd_get_appproject_sourcerepos#1. The Command]]
 
-2. **Test Credentials Locally First**
-   *Isolate Kubernetes config by proving the credentials still work.*
+2. Test Credentials Locally First
+   _Isolate Kubernetes config by proving the credentials still work._
    ![[cmd_helm_registry_login#1. The Command]]
 
-3. **Test Credentials from inside the Repo-Server Pod**
-   *Isolate network boundaries by proving Helm works from inside ArgoCD.*
+3. Test Credentials from inside the Repo-Server Pod
+   _Isolate network boundaries by proving Helm works from inside ArgoCD._
    ![[cmd_kubectl_argocd_exec_helm_registry_login#1. The Command]]
 
-4. **Investigate Repo-Server Config and Helm Config.json**
-   *Verify injected credentials actually reach the helm subprocess environment inside the repo-server.*
+4. Investigate Repo-Server Config and Helm Config.json
+   _Verify injected credentials actually reach the helm subprocess environment inside the repo-server._
    ![[cmd_kubectl_argocd_exec_cat_helm_registry_config#1. The Command]]
    ![[cmd_kubectl_argocd_logs_repo_server#1. The Command]]
 
 ---
 
-## Phase 2: Remediation
+### Phase 2: Remediation
 
-*Correct the misconfiguration, forcibly purge stale credentials, and establish wildcard overrides for Helm sub-dependencies if necessary.*
+_Correct the misconfiguration, forcibly purge stale credentials, and establish wildcard overrides for Helm sub-dependencies if necessary._
 
-1. **Patch AppProject if the Registry is Blocked**
+1. Patch AppProject if the Registry is Blocked
    ![[cmd_kubectl_argocd_patch_appproject_sourcerepos#1. The Command]]
 
-2. **Force Vault Secrets Operator to Rotate Stale Credentials**
-   *(Skip if VSO is not managing your registry credentials).*
+2. Force Vault Secrets Operator to Rotate Stale Credentials
+   _(Skip if VSO is not managing your registry credentials)._
    ![[cmd_kubectl_recreate_vso_secret#1. The Command]]
 
-3. **Create the `repo-creds` Credential Template**
+3. Create the `repo-creds` Credential Template
+
    > [!IMPORTANT] Sub-dependency Issue Root Cause
-   > ArgoCD uses `repository` secrets for direct Application sources (e.g., an App pointing at an OCI chart). However, for *Git-sourced* apps whose chart has OCI sub-dependencies natively, ArgoCD fails to pass the specific repository credentials through to `helm dependency build`. `repo-creds` templates fix this by applying to ANY matching URL prefix.
+   > ArgoCD uses `repository` secrets for direct Application sources (e.g., an App pointing at an OCI chart). However, for _Git-sourced_ apps whose chart has OCI sub-dependencies natively, ArgoCD fails to pass the specific repository credentials through to `helm dependency build`. `repo-creds` templates fix this by applying to ANY matching URL prefix.
    ![[cmd_kubectl_argocd_create_repo_creds_template#1. The Command]]
 
-4. **Restart Repo-Server to Flush In-Process Cache**
-   *ArgoCD repo-server caches registry credentials. A fresh K8s Secret doesn't instantly reload the cache.*
+4. Restart Repo-Server to Flush In-Process Cache
+   _ArgoCD repo-server caches registry credentials. A fresh K8s Secret doesn't instantly reload the cache._
    ![[cmd_kubectl_restart_argocd_repo_server#1. The Command]]
 
 ---
 
-## Phase 3: Final Verification
+### Phase 3: Final Verification
 
-*Force ArgoCD to re-evaluate the dependency build against the un-cached network.*
+_Force ArgoCD to re-evaluate the dependency build against the un-cached network._
 
-1. **Hard Refresh the Application**
+1. Hard Refresh the Application
    ![[cmd_argocd_refresh_app#1. The Command]]
 
-2. **Watch the Reconcile Status**
-   *Observe the `Status.Conditions` clear and transition to `Synced`.*
+2. Watch the Reconcile Status
+   _Observe the `Status.Conditions` clear and transition to `Synced`._
    ![[cmd_kubectl_argocd_describe_application#1. The Command]]
 
 ---
 
-## Long-Term Fixes Overview
+### Long-Term Fixes Overview
 
 | Approach | Pros | Cons |
 |---|---|---|

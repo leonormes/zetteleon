@@ -1,28 +1,34 @@
 ---
-type: command
-tool: kubectl
+created: 2026-02-22T16:57:41+00:00
 hop_level: local
-target_service: argocd
+last_verified: 2026-02-22
+modified: 2026-03-14T11:10:11+00:00
 requires_tunnel: false
 status: active
-last_verified: 2026-02-22
-tags: [cmd, argocd, credentials, template, oci]
+tags: [argocd, cmd, credentials, oci, template]
+target_service: argocd
+title: cmd_kubectl_argocd_create_repo_creds_template
+tool: kubectl
+type: command
 ---
 
-# Create ArgoCD Repo-Creds Wildcard Template
+## Create ArgoCD Repo-Creds Wildcard Template
 
-## 🎯 Intent
+### 🎯 Intent
+
 Create a `Secret` containing registry credentials and tag it as `secret-type: repo-creds`. Unlike standard `repository` secrets, `repo-creds` act as wildcard credential templates that ArgoCD applies to any matching URL, which is specifically required during OCI sub-dependency resolution inside Git-sourced Applications.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 # Extract username/password from the exact-match repository secret
@@ -48,18 +54,21 @@ stringData:
 EOF
 ```
 
-### Placeholders
-- `<REPOSITORY_SECRET_NAME>` — Name of the VSO-managed or valid source secret containing credentials.
-- `<REGISTRY_URL>` — The base domain for string matching (e.g. `fitfileregistry.azurecr.io`).
-- `<REGISTRY_PREFIX>` — String identifier for the name field (e.g. `fitfile`).
+#### Placeholders
+
+- `<REPOSITORY_SECRET_NAME>`—Name of the VSO-managed or valid source secret containing credentials.
+- `<REGISTRY_URL>`—The base domain for string matching (e.g. `fitfileregistry.azurecr.io`).
+- `<REGISTRY_PREFIX>`—String identifier for the name field (e.g. `fitfile`).
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 ```bash
 kubectl get secret argocd-<REGISTRY_PREFIX>-repo-creds -n argocd -o yaml | grep "secret-type: repo-creds"
 ```
 
-## 💥 Failure Mode Analysis
-- **Symptom:** Validation errors applying the Secret via `kubectl apply`.
-  - **Fix:** If bash variables are empty during extraction, ensure `<REPOSITORY_SECRET_NAME>` corresponds strictly to an existing `repository` secret in the `argocd` namespace.
+### 💥 Failure Mode Analysis
+
+- Symptom: Validation errors applying the Secret via `kubectl apply`.
+  - Fix: If bash variables are empty during extraction, ensure `<REPOSITORY_SECRET_NAME>` corresponds strictly to an existing `repository` secret in the `argocd` namespace.

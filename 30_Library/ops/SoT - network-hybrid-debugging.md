@@ -1,9 +1,9 @@
 ---
 aliases: ["Cross-Cloud Troubleshooting", "DirectConnect Debugging", "ExpressRoute Debugging", "Hybrid Networking Debugging"]
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-04T20:47:41+00:00
+modified: 2026-03-14T11:10:11+00:00
 tags: ["aws", "azure", "hybrid-cloud", "networking", "sot", "troubleshooting"]
-title: SoT - Network Debugging - Cross-Cloud & Hybrid
+title: SoT - network-hybrid-debugging
 type: sot
 ---
 
@@ -12,7 +12,7 @@ type: sot
 When debugging EKS (AWS) $\leftrightarrow$ AKS (Azure), the failure usually exists in the Interconnect or the Route Propagation.
 
 | Layer       | Component                    | Diagnostic Command                                                            |
-| :---------- | :--------------------------- | :---------------------------------------------------------------------------- |
+|:---------- |:--------------------------- |:---------------------------------------------------------------------------- |
 | Physical/VC | ExpressRoute / DirectConnect | `az network express-route show` / `aws directconnect describe-connections`    |
 | Routing     | BGP / UDR / TGW              | `az network nic show-effective-route-table` / `aws ec2 describe-route-tables` |
 | Policy      | NSG / Security Groups        | `az network nsg rule list` / `aws ec2 describe-security-groups`               |

@@ -1,25 +1,31 @@
 ---
-type: command
-tool: kubectl
-service: vso
+created: 2026-02-21T15:07:25+00:00
+modified: 2026-03-14T11:10:10+00:00
 risk: low
-tags: [vso, k8s, mutation, config]
+service: vso
+tags: [config, k8s, mutation, vso]
+title: cmd_kubectl_patch_vso_overwrite
+tool: kubectl
+type: command
 ---
 
-# Patch VSO Overwrite Property
+## Patch VSO Overwrite Property
 
-## 🎯 Intent
+### 🎯 Intent
+
 Enables the `overwrite` property on a VSO resource to ensure the operator can recover from manual edits or drift.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 kubectl patch <CR_KIND> <CR_NAME> -n <NAMESPACE> \
@@ -27,20 +33,23 @@ kubectl patch <CR_KIND> <CR_NAME> -n <NAMESPACE> \
   -p '{"spec":{"destination":{"overwrite":true}}}'
 ```
 
-### Placeholders
-- `<CR_KIND>` — The VSO resource kind.
-- `<CR_NAME>` — The VSO resource name.
-- `<NAMESPACE>` — The namespace.
+#### Placeholders
+
+- `<CR_KIND>`—The VSO resource kind.
+- `<CR_NAME>`—The VSO resource name.
+- `<NAMESPACE>`—The namespace.
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 ```bash
 kubectl get <CR_KIND> <CR_NAME> -n <NAMESPACE> -o jsonpath='{.spec.destination.overwrite}'
 ```
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[kb_vso_stale_credentials_logic]]
 - [[playbook_argocd_vso_oci_registry_auth_failure]]

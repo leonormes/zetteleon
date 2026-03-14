@@ -1,28 +1,34 @@
 ---
-type: command
-tool: kubectl
+created: 2026-02-22T16:57:52+00:00
 hop_level: local
-target_service: argocd
+last_verified: 2026-02-22
+modified: 2026-03-14T11:10:10+00:00
 requires_tunnel: false
 status: active
-last_verified: 2026-02-22
-tags: [cmd, argocd, logs, auth, helm]
+tags: [argocd, auth, cmd, helm, logs]
+target_service: argocd
+title: cmd_kubectl_argocd_logs_repo_server
+tool: kubectl
+type: command
 ---
 
-# Stream ArgoCD Repo-Server Auth Logs
+## Stream ArgoCD Repo-Server Auth Logs
 
-## 🎯 Intent
+### 🎯 Intent
+
 Stream the logs from the active `argocd-repo-server` pods specifically filtering for authentication, registry, or helm resolution warnings and errors. Crucial during live validation of dependency fetching.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 kubectl logs -n argocd -l app.kubernetes.io/name=argocd-repo-server --tail=50 -f \
@@ -31,10 +37,12 @@ kubectl logs -n argocd -l app.kubernetes.io/name=argocd-repo-server --tail=50 -f
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 - Expected Output: Warning or Information logs emitted anytime ArgoCD communicates with external Git or OCI endpoints during manifest generation.
 - Hit `CTRL+C` to terminate the stream.
 
-## 💥 Failure Mode Analysis
-- **Symptom:** `No resources found` or silent output despite known sync activity.
-  - **Fix:** The pod label (`app.kubernetes.io/name=argocd-repo-server`) might be styled differently in this cluster distribution. Use `kubectl get pods -n argocd --show-labels` to find the correct selector.
+### 💥 Failure Mode Analysis
+
+- Symptom: `No resources found` or silent output despite known sync activity.
+  - Fix: The pod label (`app.kubernetes.io/name=argocd-repo-server`) might be styled differently in this cluster distribution. Use `kubectl get pods -n argocd --show-labels` to find the correct selector.

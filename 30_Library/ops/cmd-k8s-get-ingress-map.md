@@ -1,25 +1,31 @@
 ---
-type: atomic_command
-tool: kubectl
+created: 2026-02-17T08:59:36+00:00
 hop_level: local
+modified: 2026-03-14T11:10:11+00:00
+tags: [atomic, ingress, k8s]
 target_service: k8s
-tags: #atomic #k8s #ingress
+title: cmd-k8s-get-ingress-map
+tool: kubectl
+type: atomic_command
 ---
 
-# Map Ingress to Backends (JSONPath)
+## Map Ingress to Backends (JSONPath)
 
-## 🎯 Intent
+### 🎯 Intent
+
 Quickly audit all Ingress resources across the cluster to see which hostnames map to which backend services and ports.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 kubectl get ingress -A -o jsonpath='{range .items[*]}{.metadata.namespace}/{.metadata.name}{":
@@ -31,11 +37,14 @@ kubectl get ingress -A -o jsonpath='{range .items[*]}{.metadata.namespace}/{.met
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 Expected signal:
+
 - A clear list of namespaces, hosts, and backend service names.
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[sot-az-aks-networking]]

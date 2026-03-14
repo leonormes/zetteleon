@@ -1,28 +1,34 @@
 ---
-type: command
-tool: kubectl
+created: 2026-02-22T17:06:21+00:00
 hop_level: local
-target_service: pod
+last_verified: 2026-02-22
+modified: 2026-03-14T11:10:10+00:00
 requires_tunnel: false
 status: active
-last_verified: 2026-02-22
-tags: [cmd, kubectl, logs, init, crash, debug]
+tags: [cmd, crash, debug, init, kubectl, logs]
+target_service: pod
+title: cmd_kubectl_get_init_container_logs
+tool: kubectl
+type: command
 ---
 
-# Get Init-Container Logs
+## Get Init-Container Logs
 
-## 🎯 Intent
+### 🎯 Intent
+
 Retrieve logs specifically from an init-container (including previous crashed instances) to debug bootstrap failures like Auth0 token retrieval or database migrations that block the main application container from ever starting.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 # Get logs for the currently running/failing init container
@@ -32,16 +38,19 @@ kubectl logs -n <NAMESPACE> <POD_NAME> -c <INIT_CONTAINER_NAME>
 kubectl logs -n <NAMESPACE> <POD_NAME> -c <INIT_CONTAINER_NAME> --previous
 ```
 
-### Placeholders
-- `<NAMESPACE>` — Target namespace
-- `<POD_NAME>` — Name of the pod stuck in `Init:Error` or `Init:CrashLoopBackOff`
-- `<INIT_CONTAINER_NAME>` — The specific init container (find this via `kubectl describe pod`).
+#### Placeholders
+
+- `<NAMESPACE>`—Target namespace
+- `<POD_NAME>`—Name of the pod stuck in `Init:Error` or `Init:CrashLoopBackOff`
+- `<INIT_CONTAINER_NAME>`—The specific init container (find this via `kubectl describe pod`).
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 - Expected Output: Streamed logs detailing HTTP failures (e.g., `403 Forbidden` from Auth0) or exit codes explaining why the initialization sequence aborted.
 
-## 💥 Failure Mode Analysis
-- **Symptom:** `Error from server (BadRequest): previous terminated container... not found`.
-  - **Fix:** The container has never crashed in this pod's lifecycle, so there is no `--previous` state. Drop the `--previous` flag.
+### 💥 Failure Mode Analysis
+
+- Symptom: `Error from server (BadRequest): previous terminated container… not found`.
+  - Fix: The container has never crashed in this pod's lifecycle, so there is no `--previous` state. Drop the `--previous` flag.

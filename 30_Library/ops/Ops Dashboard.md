@@ -1,11 +1,13 @@
 ---
-type: dashboard
-title: Ops Dashboard
+created: 2026-02-16T11:46:14+00:00
 icon: layout-dashboard
-tags: [ops, dashboard, automated]
+modified: 2026-03-14T11:10:11+00:00
+tags: [automated, dashboard, ops]
+title: Ops Dashboard
+type: dashboard
 ---
 
-# 🛠️ Operations Control Plane
+## 🛠️ Operations Control Plane
 
 > [!INFO]
 > This dashboard dynamically indexes the operational runtime in `30_Library/ops`.
@@ -13,8 +15,9 @@ tags: [ops, dashboard, automated]
 
 ---
 
-## 📋 Active Playbooks
-*Step-by-step guides for incident response and complex tasks.*
+### 📋 Active Playbooks
+
+_Step-by-step guides for incident response and complex tasks._
 
 ```dataview
 TABLE 
@@ -29,8 +32,9 @@ SORT target_service ASC
 
 ---
 
-## ⚡ Atomic Command Library
-*Single-purpose, copy-pasteable executable units.*
+### ⚡ Atomic Command Library
+
+_Single-purpose, copy-pasteable executable units._
 
 ```dataview
 TABLE 
@@ -45,8 +49,9 @@ SORT tool ASC, file.name ASC
 
 ---
 
-## 📜 Protocols & Source of Truth
-*Stable operational standards and system-of-record knowledge.*
+### 📜 Protocols & Source of Truth
+
+_Stable operational standards and system-of-record knowledge._
 
 ```dataview
 TABLE 
@@ -62,6 +67,7 @@ SORT file.name ASC
 
 ---
 
-## 🏗️ Maintenance
+### 🏗️ Maintenance
+
 - [ ] [[Atomic Command Template|Create New Atomic Command]]
 - [ ] [[playbook-template|Create New Playbook]]

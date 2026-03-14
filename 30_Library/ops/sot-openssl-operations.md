@@ -1,9 +1,9 @@
 ---
 aliases: ["Certificate Validation", "OpenSSL Certs", "PEM Inspection"]
 created: 2025-08-27T00:00:00+00:00
-modified: 2026-02-16T09:40:29+00:00
+modified: 2026-03-14T11:10:09+00:00
 tags: ["certificates", "cheatsheet", "openssl", "pki"]
-title: SoT - OpenSSL Certificate Operations
+title: sot-openssl-operations
 type: "Instruction"
 ---
 

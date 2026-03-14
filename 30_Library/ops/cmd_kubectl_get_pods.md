@@ -1,42 +1,51 @@
 ---
-type: atomic_command
-tool: kubectl
+created: 2026-02-21T15:05:07+00:00
 hop_level: local
-target_service: k8s
+modified: 2026-03-14T11:10:10+00:00
 requires_tunnel: true
 tags: [atomic, kubectl, pods, verification]
+target_service: k8s
+title: cmd_kubectl_get_pods
+tool: kubectl
+type: atomic_command
 ---
 
-# Get Pods Wide Output
+## Get Pods Wide Output
 
-## 🎯 Intent
+### 🎯 Intent
+
 Confirms pod status, node placement, and restart counts to verify deployment health.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 kubectl get pods -n <NAMESPACE> -l <LABEL_SELECTOR> -o wide
 ```
 
-### Placeholders
-- `<NAMESPACE>` — target namespace
-- `<LABEL_SELECTOR>` — label filter (e.g., `app=my-service`)
+#### Placeholders
+
+- `<NAMESPACE>`—target namespace
+- `<LABEL_SELECTOR>`—label filter (e.g., `app=my-service`)
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 - `STATUS` should be `Running`.
 - `RESTARTS` should be 0 or stable.
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[cmd_kubectl_get_events]]

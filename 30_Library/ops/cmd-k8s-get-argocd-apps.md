@@ -1,51 +1,62 @@
 ---
-type: atomic_command
-tool: kubectl
+created: 2026-02-16T11:46:04+00:00
 hop_level: local
-target_service: argocd
-requires_tunnel: true
+modified: 2026-03-14T11:10:11+00:00
 prerequisites:
   - [[cmd-ssh-bastion-tunnel]]
-tags: #atomic #kubectl #argocd
+requires_tunnel: true
+tags: [argocd, atomic, kubectl]
+target_service: argocd
+title: cmd-k8s-get-argocd-apps
+tool: kubectl
+type: atomic_command
 ---
 
-# List ArgoCD Applications
+## List ArgoCD Applications
 
-## 🎯 Intent
+### 🎯 Intent
+
 Get a high-level overview of all applications managed by ArgoCD, including their sync and health status.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with tunnel)
 - [ ] Bastion host
 - [ ] Inside cluster
 
 Active requirements:
+
 - [x] KUBECONFIG set
 - [x] SSH tunnel to cluster API active
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 kubectl get applications -n argocd
 ```
 
-### Table View (Recommended)
+#### Table View (Recommended)
+
 ```bash
 kubectl get applications -n argocd -o custom-columns=NAME:.metadata.name,SYNC:.status.sync.status,HEALTH:.status.health.status --no-headers
 ```
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 Expected signal:
+
 - List of applications with `Synced` and `Healthy` status.
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[cmd-k8s-describe-argocd-app]]

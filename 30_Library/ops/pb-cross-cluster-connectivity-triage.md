@@ -1,13 +1,8 @@
 ---
 created: 2026-02-17T08:49:16+00:00
 incident_type: connectivity_failure
-modified: 2026-02-17T08:51:06+00:00
-tags:
-  - cross-cluster
-  - network
-  - playbook
-  - customer/hie
-  - customer/nnuh
+modified: 2026-03-14T11:10:10+00:00
+tags: [cross-cluster, customer/hie, customer/nnuh, network, playbook]
 target_service: network
 title: pb-cross-cluster-connectivity-triage
 type: playbook
@@ -34,7 +29,8 @@ type: playbook
 
 #### Phase 1: Establish Baseline
 
-1. **Set target IP:**
+1. Set target IP:
+
    ```bash
    export TARGET_IP=<target_ip_address>
    ```
@@ -42,10 +38,10 @@ type: playbook
 2. Spin up the diagnostic shell:
    ![[cmd-k8s-run-netshoot#⚡ Action]]
 
-2. Identify your Source IP (what the destination sees):
+3. Identify your Source IP (what the destination sees):
    ![[cmd-net-get-egress-ip#⚡ Action]]
 
-3. Verify outbound internet access:
+4. Verify outbound internet access:
 
    ```bash
    ping -c 4 8.8.8.8

@@ -1,47 +1,57 @@
 ---
-type: atomic_command
-tool: kubectl
+created: 2026-02-16T11:46:04+00:00
 hop_level: local
-target_service: argocd
-requires_tunnel: true
+modified: 2026-03-14T11:10:11+00:00
 prerequisites:
   - [[cmd-ssh-bastion-tunnel]]
-tags: #atomic #kubectl #argocd
+requires_tunnel: true
+tags: [argocd, atomic, kubectl]
+target_service: argocd
+title: cmd-k8s-describe-argocd-app
+tool: kubectl
+type: atomic_command
 ---
 
-# Describe ArgoCD Application
+## Describe ArgoCD Application
 
-## 🎯 Intent
+### 🎯 Intent
+
 Inspect the detailed status, metadata, and recent events of a specific ArgoCD application to identify why it is failing.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with tunnel)
 - [ ] Bastion host
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 kubectl describe application <app_name> -n argocd
 ```
 
-### Placeholders
-- `<app_name>` — Name of the ArgoCD application
+#### Placeholders
+
+- `<app_name>`—Name of the ArgoCD application
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 Look for:
+
 - `Status.Sync.Status`: Should be `Synced`
 - `Events`: Check for `FailedSync` or `SyncError`
 - `Operation State.Message`: Detailed error message from the last sync attempt
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[cmd-k8s-get-argocd-apps]]
 - [[cmd-k8s-get-argocd-controller-logs]]

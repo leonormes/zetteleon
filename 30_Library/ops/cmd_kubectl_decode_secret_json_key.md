@@ -1,44 +1,53 @@
 ---
-type: command
-tool: kubectl
+created: 2026-02-22T17:06:25+00:00
 hop_level: local
-target_service: secret
+last_verified: 2026-02-22
+modified: 2026-03-14T11:10:10+00:00
 requires_tunnel: false
 status: active
-last_verified: 2026-02-22
-tags: [cmd, kubectl, secrets, jsonpath, decode]
+tags: [cmd, decode, jsonpath, kubectl, secrets]
+target_service: secret
+title: cmd_kubectl_decode_secret_json_key
+tool: kubectl
+type: command
 ---
 
-# Decode Specific Secret JSON Key
+## Decode Specific Secret JSON Key
 
-## 🎯 Intent
+### 🎯 Intent
+
 Decode a specific JSON payload assigned to a single key (like `auth.json`) embedded inside a Kubernetes secret using jsonpath, bypassing the need to decode the entire secret block conceptually.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
-*Note the `\.` escaping required when jsonpath keys contain dots (like `auth.json`).*
+_Note the `\.` escaping required when jsonpath keys contain dots (like `auth.json`)._
 
 ```bash
 kubectl get secret <SECRET_NAME> -n <NAMESPACE> -o jsonpath='{.data.auth\.json}' | base64 -d; echo
 ```
 
-### Placeholders
-- `<SECRET_NAME>` — Name of the Kubernetes secret.
-- `<NAMESPACE>` — Target namespace.
+#### Placeholders
+
+- `<SECRET_NAME>`—Name of the Kubernetes secret.
+- `<NAMESPACE>`—Target namespace.
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 - Expected Output: The raw, decoded JSON payload corresponding to that single key, typically containing connection strings or API credentials.
 
-## 💥 Failure Mode Analysis
-- **Symptom:** Silent output or `error: jsonpath parse error`.
-  - **Fix:** The key does not exist inside `.data`, or the escaping syntax `# ` is incorrect for your specific shell. You can also try `.data['auth.json']` notation if escaping fails.
+### 💥 Failure Mode Analysis
+
+- Symptom: Silent output or `error: jsonpath parse error`.
+  - Fix: The key does not exist inside `.data`, or the escaping syntax `# ` is incorrect for your specific shell. You can also try `.data['auth.json']` notation if escaping fails.

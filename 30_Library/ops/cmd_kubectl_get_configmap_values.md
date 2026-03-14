@@ -1,43 +1,52 @@
 ---
-type: command
-tool: kubectl
+created: 2026-02-22T17:06:48+00:00
 hop_level: local
-target_service: pod
+last_verified: 2026-02-22
+modified: 2026-03-14T11:10:10+00:00
 requires_tunnel: false
 status: active
-last_verified: 2026-02-22
-tags: [cmd, kubectl, configmap, values, helm]
+tags: [cmd, configmap, helm, kubectl, values]
+target_service: pod
+title: cmd_kubectl_get_configmap_values
+tool: kubectl
+type: command
 ---
 
-# Get Rendered ConfigMap Values
+## Get Rendered ConfigMap Values
 
-## 🎯 Intent
+### 🎯 Intent
+
 Inspect a deployment's ConfigMap and grep for specific strings (like `auth0` or `baseURL`) to extract the final rendered Helm values consumed by the pod. This exposes the "App Truth" vs the "Vault Truth".
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 kubectl get configmap -n <NAMESPACE> <CONFIGMAP_NAME> -o yaml | grep -i '<SEARCH_TERM>' -n
 ```
 
-### Placeholders
-- `<NAMESPACE>` — Target namespace.
-- `<CONFIGMAP_NAME>` — Name of the ConfigMap.
-- `<SEARCH_TERM>` — The configuration key you suspect is wrong (e.g. `baseURL`, `auth0`, `host`).
+#### Placeholders
+
+- `<NAMESPACE>`—Target namespace.
+- `<CONFIGMAP_NAME>`—Name of the ConfigMap.
+- `<SEARCH_TERM>`—The configuration key you suspect is wrong (e.g. `baseURL`, `auth0`, `host`).
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 - Expected Output: The YAML line number and value injected by Helm. Compare this value to the environment credentials (e.g., if the URL says `PROD` but Vault serves `TEST` secrets, you found a parity mismatch).
 
-## 💥 Failure Mode Analysis
-- **Symptom:** Nothing returned.
-  - **Fix:** The ConfigMap name is incorrect, or the value is injected via another mechanism (like raw Environment Variables on the Deployment manifest, rather than a ConfigMap). Use `kubectl get deploy` instead.
+### 💥 Failure Mode Analysis
+
+- Symptom: Nothing returned.
+  - Fix: The ConfigMap name is incorrect, or the value is injected via another mechanism (like raw Environment Variables on the Deployment manifest, rather than a ConfigMap). Use `kubectl get deploy` instead.

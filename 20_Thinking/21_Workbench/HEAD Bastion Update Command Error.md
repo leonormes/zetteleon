@@ -1,7 +1,7 @@
 ---
 captured: "2026-02-16T09:37:50+00:00 2026-02-16T09:37:50+00:00"
 created: 2026-02-16T09:37:57+00:00
-modified: 2026-02-16T09:40:47+00:00
+modified: 2026-02-27T09:19:50+00:00
 source: "https://chatgpt.com/c/698cc82e-6034-838f-96f0-bfa186c8865f"
 status: "processing"
 tags: ["input"]
@@ -27,6 +27,7 @@ Those parameters are valid for create, not update.
 ## 🔎 Why This Fails
 
 `update` only modifies properties on an existing Bastion resource.
+
 You can change the SKU, but you cannot attach it to a VNet or Public IP during update—those are immutable once created.
 
 ---
@@ -136,6 +137,7 @@ Afterwards, verify:
 ## Why Your Earlier --public-ip-address Attempt Didn't Work
 
 The CLI reference shows `--public-ip-address` is required for non-Developer SKUs (and not required for Developer).
+
 But `az network bastion update` doesn't expose "attach PIP / add ipConfigurations", so you can't complete the upgrade with `update` alone—hence the ARM/Bicep (or portal) route.
 
 ---

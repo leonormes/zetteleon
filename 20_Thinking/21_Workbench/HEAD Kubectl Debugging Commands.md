@@ -1,7 +1,7 @@
 ---
 captured: "2026-02-16T09:38:15+00:00 2026-02-16T09:38:15+00:00"
 created: 2026-02-16T09:38:20+00:00
-modified: 2026-02-16T09:40:47+00:00
+modified: 2026-02-27T09:19:55+00:00
 source: "https://chatgpt.com/c/698d94e7-8b44-838f-a453-242fd665f004"
 status: "processing"
 tags: ["input", 1, 2, 5, failure, success]
@@ -107,6 +107,7 @@ Test connectivity manually by launching a debug shell in the namespace:
 Then inside:
 
 If DNS fails → it's a service naming issue.
+
 If connect fails → readiness / auth issue.
 
 ---
@@ -299,6 +300,7 @@ Then inside:
 #### 2) See if Any Env Vars Are Being Set from Secrets (likely not)
 
 Right now your grep output shows mounts and one `secretKeyRef` somewhere, but not the matching lines.
+
 Do this instead:
 
 Search in that output for:
@@ -365,6 +367,7 @@ Then:
 #### 3) Identify where that "connectionId" Document Lives (Mongo Vs file)
 
 Because the error references a UUID connectionId, it smells like Mongo document.
+
 Check which Mongo DB it's using from `/secrets/mongodb.json` (in fitconnect secret):
 
 Then (if you can port-forward mongo and have creds) you can query the connection doc by ID—but we can avoid that until we see the configmaps and the secret file layout.
@@ -540,6 +543,7 @@ Because `ffcloud` includes `_raw`, this is the quickest "did Vault have the key?
 ## Fix Option A (very likely): Change JSON Keys to what the Code Expects
 
 Your Node code (and the Auth0 request body you saw) uses `client_id` / `client_secret` (snake\_case).
+
 But your templates generate `clientId` / `clientSecret` (camelCase).
 
 So update templates in the `VaultStaticSecret/ffcloud` to:
@@ -1321,7 +1325,9 @@ Writing
 ## FF Deployment Failure Playbook
 
 Issue:`ffcloud` / `fitconnect` CrashLoopBackOff during new environment deployment
+
 Last Updated: 2026-02-12
+
 Applies To: HIE / FFNode deployments using Vault Secrets Operator + Auth0 M2M authentication
 
 ---
@@ -1337,7 +1343,9 @@ New deployments may fail with:
 - Secrets appear present but services still fail to start
 
 Root Cause:
+
 Deployment was configured to use Auth0 PROD endpoints while Vault supplied TEST tenant credentials.
+
 This tenant mismatch caused Auth0 to reject token requests, preventing `ffcloud` initialization, which in turn prevented tenant seeding required by `fitconnect`.
 
 ---
@@ -1425,6 +1433,7 @@ audience
 ```
 
 If empty → Vault template problem.
+
 If populated → move to Auth0 validation.
 
 ---
@@ -1582,9 +1591,13 @@ Fix ffcloud → fitconnect fixes itself.
 Before deploying any new environment:
 
 ✔ Confirm which Auth0 tenant is intended (test/prod)
+
 ✔ Ensure Vault secrets belong to that tenant
+
 ✔ Ensure Helm values reference same tenant URLs
+
 ✔ Validate curl token request manually
+
 ✔ Never mix TEST credentials with PROD endpoints
 
 ---
@@ -1592,6 +1605,7 @@ Before deploying any new environment:
 ## 🔐 Key Lesson
 
 Vault does not validate identity context.
+
 It will happily inject credentials that cannot possibly work with your configured Auth0 domain.
 
 Kubernetes then faithfully deploys a system that can never authenticate.
@@ -1622,7 +1636,9 @@ If tenant mismatch appears → stop debugging Kubernetes.
 ---
 
 Owner: Platform Engineering
+
 Category: Identity / Environment Parity Issue
+
 Severity: High (deployment-blocking, non-obvious)
 
 If you'd like, I can also produce a shortened "on-call quick reference" version for responders.
@@ -1883,6 +1899,7 @@ kubectl get application -n argocd <app-name> \
 ```
 
 Why:
+
 When an app is OutOfSync, this tells you which specific resources are causing it.
 
 ---
@@ -1895,6 +1912,7 @@ kubectl get application -n argocd <app-name> \
 ```
 
 Why:
+
 This is where you'll see messages like:
 
 - `SyncError Failed sync attempt …`
@@ -1920,6 +1938,7 @@ kubectl get application -n argocd <app-name> \
 ```
 
 Why:
+
 `operationState` often includes the clearest "what failed to apply and why".
 
 ---
@@ -1936,6 +1955,7 @@ kubectl get application -n argocd <parent-app> \
 ```
 
 Why:
+
 Parent apps can be `Degraded` even when workloads run, because a _child app_ is OutOfSync or failed sync.
 
 ---
@@ -1960,6 +1980,7 @@ kubectl annotate application -n argocd <child-app> argocd.argoproj.io/refresh=ha
 ```
 
 Why:
+
 Parent status may not clear until children re-compare cleanly.
 
 ---
@@ -1990,6 +2011,7 @@ kubectl annotate application -n argocd <app> argocd.argoproj.io/refresh=hard --o
 ### B) Operator-managed Resources Mutate Live State
 
 Examples: cert-manager, external-secrets, vault-secrets-operator, etc.
+
 Argo can show drift due to auto-added annotations/labels.
 
 Check the exact drifted resource from Section 3 and decide:
@@ -2015,6 +2037,7 @@ kubectl get <kind> -n <ns> <name> -o yaml | egrep -n 'annotations:|labels:|image
 ```
 
 Why:
+
 This helps identify whether drift is a real config change or just metadata noise.
 
 ---
@@ -2061,7 +2084,9 @@ kubectl get application -n argocd <app> \
 ---
 
 Owner: Platform Engineering
+
 Category: Operational Playbooks → GitOps / Argo CD
+
 Keywords: argocd refresh, outofsync, degraded, syncerror, kubectl-only
 
 ---
@@ -2238,6 +2263,7 @@ If it says something like:
 ### A) The Child Apps Were Deleted Accidentally
 
 If Git still defines them, the correct action is: sync the parent from Argo UI/CLI.
+
 With kubectl-only you can't "sync" directly, but you _can_ detect if auto-sync is off and temporarily enable it (then disable later):
 
 Then refresh:
@@ -2489,6 +2515,7 @@ That explains why it stays OutOfSync forever: Argo CD will not auto-sync again a
 - A previous sync attempt failed (maybe during the Auth0 issue earlier, or during child creation), and now auto-sync is suppressed until you manually resync.
 
 We need one concrete thing now:
+
 ✅ Find the exact sync failure reason (it'll be in the `ff-hie-test-34` Application status, events, or controller logs without the restrictive grep).
 
 ---
@@ -2677,6 +2704,7 @@ Symptoms: `CreateContainerConfigError`, `MountVolume.SetUp failed`, missing secr
 ### F) Waiting on External Secret (VaultStaticSecret)
 
 You _do_ have a `VaultStaticSecret fitconnect` object. If that secret isn't actually materializing into a K8s Secret (or is incomplete), the pod can fail to start or crash.
+
 Check:
 
 ---

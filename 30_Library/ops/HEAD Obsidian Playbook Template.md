@@ -1,14 +1,13 @@
 ---
 captured: "2026-02-16T09:38:56+00:00 2026-02-16T09:38:56+00:00"
 created: 2026-02-16T09:38:58+00:00
-modified: 2026-02-16T10:24:37+00:00
+modified: 2026-03-14T11:10:12+00:00
 source: "https://chatgpt.com/c/69903880-6ac8-8394-bae3-cd4993afa45d"
 status: "processing"
 tags: ["input"]
 title: HEAD Obsidian Playbook Template
 type: "head"
 ---
-
 
 1. ✅ An Atomic Command Template (single executable unit)
 2. ✅ A Playbook Structure (composable execution graph)
@@ -63,11 +62,12 @@ Active requirements:
 ```
 
 ### Placeholders
-- `<namespace>` — target namespace
-- `<app_name>` — ArgoCD application
-- `<pod_name>` — target pod
-- `<profile>` — AWS profile
-- `<region>` — AWS region
+
+- `<namespace>`—target namespace
+- `<app_name>`—ArgoCD application
+- `<pod_name>`—target pod
+- `<profile>`—AWS profile
+- `<region>`—AWS region
 
 ---
 
@@ -78,12 +78,14 @@ Active requirements:
 ```
 
 Expected signal:
+
 - <What confirms success?>
 - <What confirms failure?>
 
 ---
 
 ## 🧠 Failure Modes
+
 - <Common mistake>
 - <Wrong context symptom>
 - <Auth failure symptom>
@@ -91,8 +93,10 @@ Expected signal:
 ---
 
 ## 🔗 Related
+
 - [[Playbook - ArgoCD App Not Syncing]]
 - [[Command - Get Pods By Node]]
+
 ```
 
 ---
@@ -154,16 +158,20 @@ curl -k https://localhost:6443/version
 ```
 
 Expected signal:
+
 - JSON Kubernetes version response
 
 Failure signal:
+
 - Connection refused → tunnel not active
 - Timeout → wrong endpoint
 
 ---
 
 ## 🔗 Related
+
 - [[Command - Set Kubeconfig Context]]
+
 ```
 
 ---
@@ -215,17 +223,21 @@ argocd app get <app_name>
 ```
 
 Expected signal:
+
 - Sync Status: Synced
 - Health Status: Healthy
 
 Failure signal:
+
 - OutOfSync persists
 - Degraded health
 
 ---
 
 ## 🔗 Related
+
 - [[Playbook - ArgoCD App Not Syncing]]
+
 ```
 
 ---

@@ -1,18 +1,9 @@
 ---
-aliases:
-  - argv[0]
-  - Kernel Hints
-  - Process Execution
-  - Shebang Logic
 created: 2025-12-26T12:30:00Z
 last_reviewed: 2025-12-26
-modified: 2026-02-11T22:32:42+00:00
+modified: 2026-03-14T11:12:07+00:00
 status: stable
-tags:
-  - kernel
-  - operating-systems
-  - programming
-  - SoftwareEngineering/Linux
+tags: [kernel, operating-systems, programming, SoftwareEngineering/Linux]
 title: SoT - Process Execution (Kernel Logic)
 type: SoT
 updated:

@@ -1,9 +1,9 @@
 ---
 created: 2026-02-05T17:20:00Z
-modified: 2026-02-05T18:36:27+00:00
+modified: 2026-03-14T11:10:09+00:00
 status: permanent
 tags: [aks, az-cli, azure, cheatsheet, kubectl, networking, troubleshooting]
-title: Cheatsheet - Azure AKS Networking
+title: sot-az-aks-networking
 ---
 
 This cheatsheet provides parameterized commands for common Azure AKS networking tasks, extracted from investigation logs involving NAT Gateways, DNAT/SNAT, and IP capacity planning.

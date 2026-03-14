@@ -1,27 +1,33 @@
 ---
-type: atomic_command
-tool: swaks
+created: 2026-02-19T13:15:17+00:00
 hop_level: local
-target_service: mail
+modified: 2026-03-14T11:10:11+00:00
 requires_tunnel: false
-tags: #atomic #network #smtp #mail
+tags: [atomic, mail, network, smtp]
+target_service: mail
+title: cmd-net-swaks-smtp
+tool: swaks
+type: atomic_command
 ---
 
-# Test SMTP Delivery (swaks)
+## Test SMTP Delivery (swaks)
 
-## 🎯 Intent
+### 🎯 Intent
+
 Verify SMTP server connectivity and mail delivery capabilities from the command line. `swaks` (Swiss Army Knife for SMTP) handles everything from basic connectivity to complex authentication and TLS handshakes.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Inside a netshoot pod or container.
 - [x] Local machine (if swaks installed).
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 export TARGET_IP=<smtp_server>
@@ -42,22 +48,26 @@ swaks --to <recipient_email> \
 swaks --to <recipient_email> --server $TARGET_IP -tlsc
 ```
 
-### Placeholders
-- `<recipient_email>` — e.g., `user@example.com`.
-- `<sender_email>` — e.g., `test@fitfile.com`.
-- `<smtp_server>` — Hostname or IP of the mail server.
-- `<username>` / `<password>` — SMTP credentials.
+#### Placeholders
+
+- `<recipient_email>`—e.g., `user@example.com`.
+- `<sender_email>`—e.g., `test@fitfile.com`.
+- `<smtp_server>`—Hostname or IP of the mail server.
+- `<username>` / `<password>`—SMTP credentials.
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 Expected signal:
+
 - `=== 250 OK` indicates the server accepted the message for delivery.
-- `*** SMTP SHUTDOWN ***` should follow a successful session.
+- `* SMTP SHUTDOWN *` should follow a successful session.
 - Error codes (like `5xx` or `4xx`) provide specific failure reasons (Auth, Relay Access Denied, etc.).
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[pb-netshoot-deployment]]
 - [[cmd-k8s-run-netshoot]]

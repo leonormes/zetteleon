@@ -1,28 +1,34 @@
 ---
-type: command
-tool: kubectl
+created: 2026-02-22T16:53:28+00:00
 hop_level: local
-target_service: argocd
+last_verified: 2026-02-22
+modified: 2026-03-14T11:10:10+00:00
 requires_tunnel: false
 status: active
-last_verified: 2026-02-22
-tags: [cmd, argocd, refresh, cache, debug]
+tags: [argocd, cache, cmd, debug, refresh]
+target_service: argocd
+title: cmd_kubectl_bulk_hard_refresh_argocd_apps
+tool: kubectl
+type: command
 ---
 
-# Bulk Hard-Refresh Failing ArgoCD Applications
+## Bulk Hard-Refresh Failing ArgoCD Applications
 
-## 🎯 Intent
+### 🎯 Intent
+
 Identify all ArgoCD Applications in a namespace experiencing a specific sync status (e.g., `Unknown`) and automatically patch them with the `argocd.argoproj.io/refresh=hard` annotation to force a complete re-evaluation, bypassing all caches.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 > [!WARNING] Load Inducing Command
 > Hard refreshing many applications simultaneously can cause sudden spikes in CPU/Memory on the `repo-server` and `application-controller`.
@@ -36,14 +42,17 @@ kubectl get applications -n argocd -o json | \
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 - Expected Output: A list of `application.argoproj.io/<NAME> patched` statements. You can then `watch kubectl get applications -n argocd` to observe them moving into the `Synced` state.
 
-## 💥 Failure Mode Analysis
-- **Symptom:** Output is silent but apps are still "Unknown".
-  - **Fix:** It's possible the `Unknown` state is caused by a networking issue to the API server, not a drift or repository auth issue. Check controller logs.
+### 💥 Failure Mode Analysis
+
+- Symptom: Output is silent but apps are still "Unknown".
+  - Fix: It's possible the `Unknown` state is caused by a networking issue to the API server, not a drift or repository auth issue. Check controller logs.
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[cmd_argocd_refresh_app]]

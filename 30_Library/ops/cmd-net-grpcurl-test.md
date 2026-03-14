@@ -1,27 +1,33 @@
 ---
-type: atomic_command
-tool: grpcurl
+created: 2026-02-19T13:14:59+00:00
 hop_level: local
-target_service: api
+modified: 2026-03-14T11:10:11+00:00
 requires_tunnel: false
-tags: #atomic #network #grpc #api
+tags: [api, atomic, grpc, network]
+target_service: api
+title: cmd-net-grpcurl-test
+tool: grpcurl
+type: atomic_command
 ---
 
-# Test gRPC Service (grpcurl)
+## Test gRPC Service (grpcurl)
 
-## 🎯 Intent
+### 🎯 Intent
+
 Interact with gRPC services from the command line to verify availability, list methods, and test specific RPC calls. `grpcurl` is basically `curl` for gRPC.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Inside a netshoot pod or container.
 - [x] Local machine (if grpcurl installed).
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 export TARGET_IP=<server_address>
@@ -39,22 +45,26 @@ grpcurl -d '<json_payload>' $TARGET_IP:<port> <service_name>/<method_name>
 grpcurl -plaintext $TARGET_IP:<port> list
 ```
 
-### Placeholders
-- `<server_address>` — Hostname or IP of the gRPC server.
-- `<port>` — Port (often `443` or `80`).
-- `<json_payload>` — Request data in JSON format.
-- `<service_name>` — Fully qualified service name.
-- `<method_name>` — RPC method name.
+#### Placeholders
+
+- `<server_address>`—Hostname or IP of the gRPC server.
+- `<port>`—Port (often `443` or `80`).
+- `<json_payload>`—Request data in JSON format.
+- `<service_name>`—Fully qualified service name.
+- `<method_name>`—RPC method name.
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 Expected signal:
+
 - JSON response containing the RPC result.
 - Error codes (like `Unimplemented`, `Unavailable`) provide specific failure signatures.
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[pb-netshoot-deployment]]
 - [[cmd-k8s-run-netshoot]]

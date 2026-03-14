@@ -5,12 +5,12 @@ created: 2026-02-14T00:00:00+00:00
 hop_level: bastion
 k8s_version: "1.29"
 last_verified: 2026-02-14
-modified: 2026-02-15T10:21:23+00:00
+modified: 2026-03-14T11:10:11+00:00
 namespace: argocd
 status: verified
 tags: [cmd, deployment, incident]
 target_service: argocd-server
-title: get-argocd-app-sync-status
+title: cmd-argocd-get-sync-status
 tool: argocd
 ---
 

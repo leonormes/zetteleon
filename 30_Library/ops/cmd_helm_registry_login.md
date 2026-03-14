@@ -1,29 +1,35 @@
 ---
-type: command
-tool: helm
+created: 2026-02-22T16:57:17+00:00
 hop_level: local
-target_service: registry
+last_verified: 2026-02-22
+modified: 2026-03-14T11:10:11+00:00
 requires_tunnel: false
 status: active
-last_verified: 2026-02-22
-tags: [cmd, helm, oci, acr, auth, test]
+tags: [acr, auth, cmd, helm, oci, test]
+target_service: registry
+title: cmd_helm_registry_login
+tool: helm
+type: command
 ---
 
-# Test Helm OCI Registry Login
+## Test Helm OCI Registry Login
 
-## 🎯 Intent
+### 🎯 Intent
+
 Validate that a specific credential pair (username and password) has the necessary permissions to authenticate and pull a chart from an OCI registry. This isolates pure registry RBAC permissions from Kubernetes or ArgoCD secret configuration complexities.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine
 - [x] Jumpbox
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 # 1. Login to the registry
@@ -33,20 +39,24 @@ echo "<PASSWORD>" | helm registry login <REGISTRY_DOMAIN> --username "<USERNAME>
 helm pull oci://<REGISTRY_DOMAIN>/<CHART_PATH> --version <VERSION>
 ```
 
-### Placeholders
-- `<REGISTRY_DOMAIN>` — e.g., `fitfileregistry.azurecr.io`
-- `<USERNAME>` — Service Principal Client ID or Token
-- `<PASSWORD>` — Service Principal Client Secret
-- `<CHART_PATH>` — Full path to the chart (e.g., `helm/common`)
-- `<VERSION>` — Specific version to pull
+#### Placeholders
+
+- `<REGISTRY_DOMAIN>`—e.g., `fitfileregistry.azurecr.io`
+- `<USERNAME>`—Service Principal Client ID or Token
+- `<PASSWORD>`—Service Principal Client Secret
+- `<CHART_PATH>`—Full path to the chart (e.g., `helm/common`)
+- `<VERSION>`—Specific version to pull
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 Expected signal:
+
 - `Login Succeeded` prints to standard output.
 - A `.tgz` file appears in the current directory after `pull`.
 
-## 💥 Failure Mode Analysis
-- **Symptom:** `response status code 401: unauthorized...`
-  - **Fix:** The provided credentials are fundamentally invalid, expired, or lack `AcrPull` permissions on the Azure Container Registry. Do not proceed to debugging ArgoCD until this succeeds locally.
+### 💥 Failure Mode Analysis
+
+- Symptom: `response status code 401: unauthorized…`
+  - Fix: The provided credentials are fundamentally invalid, expired, or lack `AcrPull` permissions on the Azure Container Registry. Do not proceed to debugging ArgoCD until this succeeds locally.

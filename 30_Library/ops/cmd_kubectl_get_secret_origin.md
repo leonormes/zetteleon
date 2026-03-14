@@ -1,55 +1,66 @@
 ---
-type: command
-tool: kubectl
-service: vso
+created: 2026-02-21T15:07:23+00:00
+modified: 2026-03-14T11:10:10+00:00
 risk: read-only
-tags: [vso, k8s, secrets, triage]
+service: vso
+tags: [k8s, secrets, triage, vso]
+title: cmd_kubectl_get_secret_origin
+tool: kubectl
+type: command
 ---
 
-# Get Secret Origin Metadata
+## Get Secret Origin Metadata
 
-## 🎯 Intent
+### 🎯 Intent
+
 Identifies the controller that manages a secret and finds the corresponding owner references (VSO, Helm, ArgoCD).
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 kubectl get secret <SECRET_NAME> -n <NAMESPACE> -o yaml
 ```
 
-### Specialized Extraction
+#### Specialized Extraction
+
 ```bash
 # Extract Owner References and Managed-By Labels
 kubectl get secret <SECRET_NAME> -n <NAMESPACE> \
   -o jsonpath='{.metadata.ownerReferences}{"\n"}{.metadata.labels}{"\n"}{.metadata.annotations}' | jq .
 ```
 
-### Placeholders
-- `<SECRET_NAME>` — Name of the secret.
-- `<NAMESPACE>` — Target namespace.
+#### Placeholders
+
+- `<SECRET_NAME>`—Name of the secret.
+- `<NAMESPACE>`—Target namespace.
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 - Check `metadata.labels` for `app.kubernetes.io/managed-by: hashicorp-vso`.
 - Check `metadata.ownerReferences` for the VSO Custom Resource type (`VaultStaticSecret`, etc.).
 
 ---
 
-## 🧠 Failure Modes
+### 🧠 Failure Modes
+
 - `Secret not found`: Verify namespace and name.
 - `Empty OwnerReferences`: The secret was likely created manually or via a tool that doesn't use OwnerRefs.
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[kb_vso_metadata_identifiers]]
 - [[playbook_vso_secret_debugging]]

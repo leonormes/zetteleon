@@ -1,28 +1,34 @@
 ---
-type: command
-tool: kubectl
+created: 2026-02-22T16:57:44+00:00
 hop_level: local
-target_service: argocd
+last_verified: 2026-02-22
+modified: 2026-03-14T11:10:10+00:00
 requires_tunnel: false
 status: active
-last_verified: 2026-02-22
-tags: [cmd, argocd, repo-server, config, volume]
+tags: [argocd, cmd, config, repo-server, volume]
+target_service: argocd
+title: cmd_kubectl_argocd_get_repo_server_config
+tool: kubectl
+type: command
 ---
 
-# Get ArgoCD Repo-Server Deployment Config
+## Get ArgoCD Repo-Server Deployment Config
 
-## 🎯 Intent
+### 🎯 Intent
+
 Introspect the runtime configuration, environment variables, and volume mounts of the ArgoCD `repo-server` deployment. Primarily useful when checking how Docker configurations (`.dockerconfigjson`) or Helm registry settings map into the pod environment.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 kubectl get deployment argocd-repo-server -n argocd -o yaml | grep -A 5 -i 'registry\|HELM_\|DOCKER'
@@ -31,9 +37,11 @@ kubectl get deployment argocd-repo-server -n argocd -o yaml | grep -A 10 'volume
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 - Expected Output: Configuration subsets from the deployment manifest containing lines indicating standard configurations or dynamically mounted config folders. If `HELM_CACHE_HOME` or injected TLS certificates are defined, they appear here.
 
-## 💥 Failure Mode Analysis
-- **Symptom:** Silent output.
-  - **Fix:** The Deployment may have a different name in your cluster (e.g., `argo-cd-repo-server`). List the deployments and correct the name `kubectl get deploy -n argocd`.
+### 💥 Failure Mode Analysis
+
+- Symptom: Silent output.
+  - Fix: The Deployment may have a different name in your cluster (e.g., `argo-cd-repo-server`). List the deployments and correct the name `kubectl get deploy -n argocd`.

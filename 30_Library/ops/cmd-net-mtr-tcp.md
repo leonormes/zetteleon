@@ -1,25 +1,31 @@
 ---
-type: atomic_command
-tool: mtr
+created: 2026-02-19T15:18:30+00:00
 hop_level: cluster
+modified: 2026-03-14T11:10:11+00:00
+tags: [atomic, network, triage]
 target_service: network
-tags: #atomic #network #triage
+title: cmd-net-mtr-tcp
+tool: mtr
+type: atomic_command
 ---
 
-# TCP Path Trace (MTR)
+## TCP Path Trace (MTR)
 
-## 🎯 Intent
+### 🎯 Intent
+
 Perform a path trace using TCP SYN packets to identify exactly which hop is dropping traffic. This bypasses ICMP filtering common in cloud environments.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Inside cluster (netshoot pod)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 export TARGET_IP=<target_ip_address>
@@ -27,19 +33,23 @@ export TARGET_IP=<target_ip_address>
 mtr -n -T -P <port> -r -c 10 $TARGET_IP
 ```
 
-### Placeholders
-- `<port>` — Target port (e.g., 443)
-- `` — Destination IP or hostname
+#### Placeholders
+
+- `<port>`—Target port (e.g., 443)
+- ``—Destination IP or hostname
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 Expected signal:
+
 - 0% loss until the destination.
 - If it stops at a specific hop with 100% loss (e.g., Hop 11 `???`), that is your drop point.
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[cmd-net-traceroute-tcp]]
 - [[pb-cross-cluster-connectivity-triage]]

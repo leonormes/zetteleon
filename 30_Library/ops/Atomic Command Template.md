@@ -1,15 +1,16 @@
 ---
-created: 2026-02-14T09:02:32+00:00
-modified: 2026-02-16T09:40:49+00:00
-title: Atomic Command Template
 aliases: []
+created: 2026-02-14T09:02:32+00:00
 id: Atomic Command Template
+modified: 2026-03-14T11:10:12+00:00
 tags: []
+title: Atomic Command Template
 ---
 
 Excellent. We're going to treat your notes as an operational runtime, not documentation.
 
 Your goal is not "remembering syntax."
+
 Your goal is reducing Time to Command (TTC) under pressure.
 
 We'll design:

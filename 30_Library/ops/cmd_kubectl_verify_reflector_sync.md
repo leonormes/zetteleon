@@ -1,25 +1,31 @@
 ---
-type: command
-tool: kubectl
-service: reflector
+created: 2026-02-21T15:07:25+00:00
+modified: 2026-03-14T11:10:10+00:00
 risk: read-only
+service: reflector
 tags: [reflector, secrets, verification]
+title: cmd_kubectl_verify_reflector_sync
+tool: kubectl
+type: command
 ---
 
-# Verify Reflector Secret Sync
+## Verify Reflector Secret Sync
 
-## 🎯 Intent
+### 🎯 Intent
+
 Audits mirrored copies of a secret across multiple namespaces to ensure they are synchronized with the source.
 
 ---
 
-## 🌍 Execution Context
+### 🌍 Execution Context
+
 Run from:
+
 - [x] Local machine (with context)
 
 ---
 
-## ⚡ Action
+### ⚡ Action
 
 ```bash
 # 1. Identify Target Namespaces
@@ -35,16 +41,19 @@ for ns in NAMESPACE_LIST; do
 done
 ```
 
-### Placeholders
-- `<SECRET_NAME>` — The name of the secret.
-- `<SOURCE_NAMESPACE>` — The namespace containing the VSO-managed source.
+#### Placeholders
+
+- `<SECRET_NAME>`—The name of the secret.
+- `<SOURCE_NAMESPACE>`—The namespace containing the VSO-managed source.
 
 ---
 
-## ✅ Verification
+### ✅ Verification
+
 - All MD5 hashes should match the source namespace hash.
 
 ---
 
-## 🔗 Related
+### 🔗 Related
+
 - [[playbook_vso_secret_debugging]]

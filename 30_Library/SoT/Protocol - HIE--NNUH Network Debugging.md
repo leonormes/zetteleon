@@ -3,7 +3,7 @@ alias: [Connectivity Debugging, Kubernetes Network Debugging Protocol, Network T
 aliases:
   - Protocol - HIE->NNUH Network Debugging
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-19T12:16:07+00:00
+modified: 2026-02-24T09:59:59+00:00
 tags: [aws, azure, customer/nnuh, debugging, kubernetes, networking, protocol]
 title: Protocol - HIE--NNUH Network Debugging
 type: protocol
@@ -38,7 +38,7 @@ ping -c 4 -W 1 ${TARGET_IP}
 ping -c 4 8.8.8.8
 
 # 3. What is my public egress IP? (For allowlisting)
-curl -s ifconfig.me
+curl -s ifconfig.me && echo
 ```
 
 ### B. Protocol Specifics (TCP Vs ICMP)
