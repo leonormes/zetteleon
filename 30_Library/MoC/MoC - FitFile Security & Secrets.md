@@ -11,8 +11,8 @@ type: map
 
 ## 1. Core Architecture
 
-- Secret Management: [[SoT - FITFILE Secret Management Architecture]]
-    - Defines the VSO implementation, "Canonical" vs. "Legacy" paths, and the "Golden Config" for rotation.
+- Secret Management: [[SoT - FitFile VSO Secrets Management]] — Single source of truth for VSO, Vault, and all secret types.
+    - Full index: [[MoC - FitFile Secrets Management]]
 - General K8s Secrets: [[SoT - Kubernetes Secrets Management]]
     - Covers the underlying concepts (Etcd encryption, External Secrets pattern).
 - Identity Management: [[SoT - FitFile Identity & Access Management (Auth0)]]
@@ -20,13 +20,13 @@ type: map
 
 ## 2. Operational Procedures
 
-- Secret Operations: [[SoT - FitFile Secrets Operations (Vault & VSO)]]
+- Secret Operations: [[SoT - FitFile VSO Secrets Management]] (Golden Path, protocols)
     - Practical guide for managing `VaultStaticSecret` and `VaultDynamicSecret` resources.
 - Rotation & Troubleshooting: [[SoT - FitFile Deployment - Troubleshooting and Known Issues]]
     - See Section 1.3 for the Rotation Policy.
     - See Section 2.1 for Stale Secret debugging.
 - Audit Reports:
-    - [[SoT - FITFILE Secret Management Architecture#1. Executive Summary|Audit - FITFILE Secret Management (Oct 2025)]] (Historical context for current architecture).
+    - [[lca-prd-2-vault-vso-audit]] (Production cluster audit; cleanup checklist).
 
 ## 3. Hardening Standards
 

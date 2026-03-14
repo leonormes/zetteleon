@@ -1,10 +1,19 @@
 ---
 created: 2026-03-14T10:29:53+00:00
-modified: 2026-03-14T11:10:50+00:00
+modified: 2026-03-14T12:00:00+00:00
+status: superseded
+superseded_by: [[SoT - FitFile VSO Secrets Management]]
+tags: [archive, inbox-processed]
 title: secret-management
 ---
 
-## Secret Management: Current State & Improvement Plan
+# PROCESSED
+
+Content consolidated into [[SoT - FitFile VSO Secrets Management]] on 2026-03-14.
+
+---
+
+## Original: Secret Management: Current State & Improvement Plan
 
 ### 1. Current Architecture Overview
 
