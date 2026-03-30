@@ -2,9 +2,9 @@
 aliases: ["Configuration Generator Pattern", "Contract-Based Infrastructure", "Generative Config", "GIC Framework"]
 created: 2025-12-13T00:00:00Z
 last_reviewed: "2026-02-05"
-modified: 2026-02-06T09:22:59+00:00
+modified: 2026-03-28T15:00:00+00:00
 status: "stable"
-synthesis-count: 2
+synthesis-count: 3
 tags: ["configuration_management", "cue", "devops", "infrastructure_as_code", "SoftwareEngineering/Architecture", "terraform"]
 title: SoT - Generative Infrastructure Configuration Framework
 trust-level: high
@@ -16,10 +16,11 @@ updated:
 
 ## Minimum Viable Understanding (MVU)
 
-1. Input Minimal Intent: Only define what distinguishes this deployment (Name, Env).
-2. Generate Complexity: Use code to derive names, paths, and tags based on strict protocols.
-3. Unify Constraints: Treat configuration as a "Lattice" where values must satisfy all constraints, rather than just layering overrides.
-4. Fail Fast: Validate the Generator code/schema so individual deployments are safe by default.
+1. **Input Minimal Intent**: Only define what distinguishes this deployment (Name, Env, CIDR) in a single source (`customer.yaml`).
+2. **Generate Complexity**: Use code (`locals.tf`, CUE) to derive names, paths, IPs, and tags based on strict mathematical protocols.
+3. **Data Has One Home**: Every value must trace to exactly one authoritative source. If you type a literal twice, the architecture is broken.
+4. **Unify Constraints**: Treat configuration as a "Lattice" where values must satisfy all constraints (CUE `vet`).
+5. **Fail Fast**: Validate the Generator contract (`infra_facts`) so individual deployments are safe by default.
 
 ## Working Knowledge (The Framework)
 
@@ -27,60 +28,90 @@ updated:
 
 Manual configuration in modern distributed systems is fragile. Reliance on vast, explicit `.tfvars` files or Helm values leads to Accidental Complexity:
 
-- String Coupling: `DB_PASSWORD` in Vault must match `database-pwd` in K8s. If they drift, the chain snaps at runtime.
-- Linguistic Dependency: Systems communicate via "magic strings" rather than typed contracts.
-- Deferred Fragility: Errors surface only when a specific path is exercised (e.g., a Pod CrashLooping at 3am), not at compile time.
+- **String Coupling**: `DB_PASSWORD` in Vault must match `database-pwd` in K8s. If they drift, the chain snaps at runtime.
+- **Linguistic Dependency**: Systems communicate via "magic strings" rather than typed contracts.
+- **Deferred Fragility**: Errors surface only when a specific path is exercised (e.g., a Pod CrashLooping at 3am), not at compile time.
 
-### The Solution Architecture
+### The Solution: The "One Home" Hierarchy
 
-GIC shifts the source of truth from fragile inputs to robust code/schema.
+Every value in the system must trace to exactly one authoritative source.
 
-#### 1. The Configuration Kernel (The Intent)
+```
+customer.yaml          ← Kernel: Customer-specific values (name, env, CIDR)
+       ↓
+locals.tf              ← Generator: Terraform derivations (The Math)
+       ↓
+infra_facts output     ← The Contract: Typed data passed to CUE
+       ↓
+CUE schema             ← Boundary: Validates the contract
+       ↓
+CUE render             ← Pure Transformation: reads policy.* and infra.*
+       ↓
+policy_defaults.cue    ← Constants: Platform-wide values (versions, timeouts)
+       ↓
+generated/values.yaml  ← The Manifest: The volatile output (Machine Read)
+```
 
-A minimal set of human-defined inputs describing _what_ is being deployed, not _how_.
+### Layer Responsibilities
 
-- Example Inputs: `app_name`, `environment`, `base_domain`.
-- Characteristic: Small surface area, high robustness.
+| Layer | Responsibility | Constraint |
+|:---|:---|:---|
+| **Kernel** (`customer.yaml`) | Identity, Network space, Feature Overrides | No platform defaults here. |
+| **Derivations** (`locals.tf`) | CIDR math, Naming conventions, environment mapping | No raw literals except templates. |
+| **Contract** (`infra_facts`) | The API boundary between Infra and App layers | Must be mirrored in CUE schema. |
+| **Schema** (`schema_infra.cue`) | Pure type declarations and structural enforcement | No values allowed. |
+| **Policy** (`policy_defaults.cue`) | Platform constants (Chart versions, persistence sizes) | No customer-specific data. |
+| **Transformation** (`render.cue`) | Maps flat facts to nested YAML structures | Zero literals; pure read from infra/policy. |
 
-#### 2. The Configuration Generator (The Protocol)
+### The Generative Protocols ("The Math")
 
-A version-controlled module (Terraform, CUE, or Typescript) that ingests the Kernel and applies codified rules to produce a deterministic output.
+A core GIC implementation uses deterministic algorithms to eliminate human error in networking and naming.
 
-- Function: `Kernel + Constraints -> Full Configuration Manifest`
-- Characteristic: Tested, peer-reviewed, "pure function" logic.
+#### 1. Subnet Slicing Logic
+Given a VNet address space (e.g., `/16`), subnets are sliced using consistent indices:
+- **System**: Index 0 (`cidrsubnet(base, 4, 0)`)
+- **Workflows**: Index 1 (`cidrsubnet(base, 4, 1)`)
+- **App**: Index 2 (`cidrsubnet(base, 4, 2)`)
+- **Jumpbox**: Index 3 (`cidrsubnet(base, 4, 3)`)
+- **Ingress IP**: Base IP of System Subnet + offset (e.g., `.203`)
 
-#### 3. The Generated Manifest (The Output)
-
-The complex, derived values used by infrastructure resources.
-
-- Examples: Secret Paths (`/prod/user-service/db_creds`), DNS Hostnames, and Tags.
+#### 2. Resource Naming
+Derived from the composite `deployment_key`: `${customer_name}-${env_prefix}-${instance_id}`.
+- Resource Group: `rg-${workload}-${region}-${env_prefix}-net`
+- VNet: `vnet-${workload}-plat-${region}-01`
 
 ## Theoretical Foundation
 
 The framework resolves the tension between Flexibility and Resilience by adopting Lattice-Based Logic:
 
-- Configuration as Constraint Unification: Instead of "A overrides B" (Last Writer Wins), CUE and GIC enforce "A and B must both be true".
-- Monotonicity: Changes should narrow the possibility space (add information) rather than arbitrarily flip values.
-- Strongly Typed Infrastructure: Moving from "Stringly Typed" config to "Contract Based" infrastructure allows for compile-time validation of the entire graph.
+- **Configuration as Constraint Unification**: Instead of "A overrides B" (Last Writer Wins), CUE and GIC enforce "A and B must both be true".
+- **Monotonicity**: Changes should narrow the possibility space (add information) rather than arbitrarily flip values.
+- **Strongly Typed Infrastructure**: Moving from "Stringly Typed" config to "Contract Based" infrastructure allows for compile-time validation of the entire graph.
 
 ## Implementation Patterns
 
 ### Level 1: Terraform & Helm (Generative)
 
 Terraform acts as the "Root Generator," producing values that are passed to Helm.
-
 - _Workflow_: Terraform GIC module derives all names/tags -> provisions Cloud -> renders Helm values.
 - _Benefit_: Ensures Infrastructure and Application layers share the exact same string derivations.
 
 ### Level 2: CUE (Constraint-Based)
 
 For high-maturity environments, CUE (Configure, Unify, Execute) replaces simple templating.
+- **Schema as Truth**: A single CUE struct defines the "Secret Contract".
+- **Multi-Target Export**: The same CUE definition exports the Vault Policy (HCL), Kubernetes Secret (YAML), and App Config (.env).
+- **Validation**: A mismatch between the Vault path and the K8s secret definition is caught as a Bottom (⊥) value (contradiction) during evaluation, preventing deployment.
 
-- _Schema as Truth_: A single CUE struct defines the "Secret Contract".
-- _Multi-Target Export_: The same CUE definition exports the Vault Policy (HCL), Kubernetes Secret (YAML), and App Config (.env).
-- _Validation_: A mismatch between the Vault path and the K8s secret definition is caught as a Bottom (⊥) value (contradiction) during evaluation, preventing deployment.
+## Anti-Patterns to Reject
+
+- **Literals in the Render Layer**: Hardcoding `targetRevision: "main"` in CUE render files instead of `policy_defaults.cue`.
+- **Customer Data in Platform Policy**: Putting `customer_name` inside CUE policy files.
+- **Values in the CUE Schema**: Defining `registry: "fitfileregistry.azurecr.io"` inside `schema_infra.cue`.
+- **Manual Manifest Edits**: Modifying `generated/values.yaml` directly instead of updating `customer.yaml`.
 
 ## Sources and Links
 
-- Original Proposal: "RFC-001: Generative Infrastructure Configuration (GIC) Framework" (Archived)
-- [[SoT - Software Configuration Management Patterns]] (Foundational discipline)
+- [[SoT - FitFile Deployment - Strategy & Architecture]]
+- [[SoT - Software Configuration Management Patterns]]
+- [[SoT - CUE Configuration Logic]]

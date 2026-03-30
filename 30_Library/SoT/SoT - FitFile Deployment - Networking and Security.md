@@ -1,7 +1,7 @@
 ---
 aliases: [FitFile Networking Guide, Network Security SOP]
 created: 2026-02-01T15:00:00Z
-modified: 2026-02-16T09:40:33+00:00
+modified: 2026-03-28T16:10:00+00:00
 status: evergreen
 tags: [ff_deploy, networking, security, sot]
 title: SoT - FitFile Deployment - Networking and Security
@@ -24,111 +24,79 @@ Every deployment resides in a dedicated, isolated network (VNET/VPC) with strict
 
 | Subnet | Purpose | Access |
 |:---|:---|:---|
-| System | Control plane components (AKS/EKS ENIs). | Private |
-| Workloads | Application pods (FFNode). | Private |
-| Ingress/Egress | Load Balancers and NAT Gateways. | Public (Filtered) |
-| Jumpbox | Bastion host for administrative access. | Private (SSM/Bastion) |
+| **System** | Control plane components (AKS/EKS ENIs). | Private |
+| **Workloads** | Application pods (FFNode). | Private |
+| **Ingress/Egress** | Load Balancers and NAT Gateways. | Public (Filtered) |
+| **Jumpbox** | Bastion host for administrative access. | Private (SSM/Bastion) |
 
 ### 2.2 Peering & Connectivity
 
-- VNET Peering: Established between the Customer VNET and the Hub VNET to allow GitOps agents (ArgoCD) and Monitoring to reach the cluster.
-- Transitive Routing: NOT enabled. Spoke A cannot talk to Spoke B.
-
-### 2.3 IP Address Allocation
-
-We use a decoupled IP management strategy to ensure scalability and prevent VNET exhaustion.
-
-| Resource | Source | Managed By | Purpose |
-|:---|:---|:---|:---|
-| Nodes | Azure/AWS Subnet | Cloud Provider | Primary communication between nodes and control plane. |
-| Pods | Cluster-internal range | Kubernetes (CNI) | Internal pod-to-pod traffic. Not reachable from the VNET. |
-| Services | Cluster-internal range | Kubernetes | Stable internal endpoints (ClusterIP). |
-
-- Azure Specifics: By default, we use an overlay model where Pod IPs are separate from the VNET address space, preventing "IP depletion" in large clusters.
-- Load Balancers: Services of type `LoadBalancer` acquire an additional external/internal IP from the Ingress/Egress subnet.
+- **VNET Peering**: Established between the Customer VNET and the Hub VNET to allow GitOps agents (ArgoCD) and Monitoring to reach the cluster.
+- **Transitive Routing**: NOT enabled. Spoke A cannot talk to Spoke B.
 
 ---
 
-## 3. DNS Architecture
+## 3. Boundary Security: The Hub Firewall Mandate
 
-### 3.1 Split-Horizon DNS
+For environments processing **Special Category Data** (GDPR Article 9, e.g., medical records), a Layer 4 Network Security Group (NSG) is fundamentally inadequate as a primary boundary.
 
+### 3.1 Why NSGs Are Insufficient
+An NSG operates at OSI Layers 3-4 (IP/Port). It cannot:
+- Identify application-layer exploits (SQL Injection, XSS).
+- Detect data exfiltration concealed in permitted flows.
+- Terminate and inspect TLS-encrypted payloads.
+
+### 3.2 The Defence-in-Depth Model
+All public inbound traffic MUST traverse the **Azure Hub Firewall (Layer 7 / WAF)** before reaching the spoke.
+1. **Layer 7 (Hub)**: Terminates TLS, applies WAF rulesets, and provides Intrusion Detection (IDPS).
+2. **Layer 4 (Spoke)**: The NSG provides a secondary boundary, enforcing network segmentation and restricting source IPs.
+
+> [!danger] The "Trusted Source" Fallacy
+> Restricting an NSG to a single trusted external IP address does NOT remove the need for Layer 7 inspection. If the source system is compromised, the attacker inherits the trust conferred by the IP allow-list.
+
+---
+
+## 4. DNS Architecture
+
+### 4.1 Split-Horizon DNS
 We use Private DNS Zones to manage internal service resolution across the peering link.
-
-- Zone Name: `{customer_id}.internal` (e.g., `lca.internal`).
-- Linkage: The Private DNS Zone must be linked to BOTH the Customer VNET and the Hub VNET.
-- Why: Allows the Hub (ArgoCD) to resolve internal Load Balancer IPs for health checks and API calls.
-
-### 3.3 Standard Naming Convention
-
-| Scope | Format | Example |
-|:---|:---|:---|
-| Public | `{customer-code}.{trust-domain}` | `cuh-prod-1.fitfile.net` |
-| Private (M2M) | `{service}.{customer-code}.privatelink.fitfile.net` | `relay.eoe-sde.privatelink.fitfile.net` |
-| Management | `{service}-{customer-code}.{domain}` | `argocd-cuh-prod-1.fitfile.net` |
+- **Zone Name**: `{customer_id}.internal` (e.g., `lca.internal`).
+- **Linkage**: Linked to BOTH the Customer VNet and the Hub VNet.
+- **Verification**: `dig {host}` should return the private IP (TTL 0), while `dig +trace {host}` should return the public Cloudflare IP.
 
 ---
 
-## 4. Ingress & TLS
+## 5. Ingress & TLS
 
-### 4.1 NGINX Ingress Controller
+### 5.1 NGINX Ingress Controller
+- Service Type: `LoadBalancer`.
+- Annotations: `service.beta.kubernetes.io/azure-load-balancer-internal: "true"` for internal-only deployments.
 
-We deploy the NGINX Ingress Controller to manage Layer 7 routing.
-
-- Service Type: `LoadBalancer` (Provisioned by Cloud Provider).
-- Annotations:
-  - `service.beta.kubernetes.io/azure-load-balancer-internal: "true"` (for internal-only deployments).
-
-### 4.2 TLS Termination
-
-- Cert-Manager: Automates certificate issuance.
-- Issuers:
-  - LetsEncrypt Prod: Used for public-facing endpoints (requires HTTP-01 or DNS-01 challenge).
-  - Internal CA: Used for strictly private environments (requires Hub Vault PKI integration).
+### 5.2 TLS Termination
+- **Cert-Manager**: Automates issuance via Let's Encrypt (DNS-01) or Internal CA.
+- **DNS-01 Requirement**: Mandatory for private clusters where HTTP-01 challenges cannot reach the Ingress.
 
 ---
 
-## 5. Security & Isolation
+## 6. Security & Isolation
 
-### 5.1 CNI & Network Policies (Calico)
+### 6.1 CNI & Network Policies (Calico)
+We use Calico to enforce Zero Trust at the pod level. Default policy is `deny-all`.
 
-We use Calico as the CNI (Container Network Interface) to enforce Zero Trust at the pod level.
+### 6.2 Workload Identity
+No long-lived cloud credentials in K8s.
+- **Azure**: Workload Identity (Federated Identity Credential).
+- **Mechanism**: K8s ServiceAccount tokens are exchanged for Cloud Access Tokens via OIDC.
 
-- Default Policy: `deny-all` (Implicit).
-- Allow Rules: Explicitly defined in Helm charts (e.g., "Frontend can talk to Backend on port 8080").
+### 6.3 Firewall Requirements (Client-Side)
+| Direction | Protocol | Destination | Purpose |
+|:---|:---|:---|:---|
+| **Inbound** | 443/TCP | LB IP | Client Access |
+| **Outbound** | 443/TCP | `*.gitlab.com` | Config Sync |
+| **Outbound** | 443/TCP | `*.vault.hashicorp.cloud` | Secrets |
+| **Outbound** | 443/TCP | `*.azurecr.io` | Image Pull |
 
-### 5.2 Workload Identity
-
-We strictly avoid long-lived cloud credentials (Access Keys).
-
-- Azure: Workload Identity (Federated Identity Credential).
-- AWS: IRSA (IAM Roles for Service Accounts).
-- Mechanism: K8s ServiceAccount tokens are exchanged for short-lived Cloud Access Tokens via OIDC.
-
-### 5.3 Secrets Management
-
-- Source of Truth: HCP Vault (Central).
-- Delivery: Vault Secrets Operator (VSO).
-- Policy: Secrets are injected as K8s Secrets or mounted volumes. No secrets in Git.
-- Reference: [[SoT - FITFILE Secret Management Architecture]].
-
----
-
-## 6. Firewall Requirements (Client-Side)
-
-For successful deployment, the client's firewall must allow:
-
-Inbound (To FitFile):
-
-- 443/TCP (HTTPS): From Client Network -> FitFile Load Balancer IP.
-
-Outbound (From FitFile):
-
-- 443/TCP: To `*.gitlab.com` (Config).
-- 443/TCP: To `*.vault.hashicorp.cloud` (Secrets).
-- 443/TCP: To `*.azurecr.io` / `*.ecr.aws` (Images).
-- 443/TCP: To `*.auth0.com` (Identity).
-
-## - Azure Specifics: By Default, We Use an Overlay Model where Pod IPs Are Separate from the VNET Address Space, Preventing "IP depletion" in Large Clusters
-
-- Azure Specifics: By default, we use an overlay model where Pod IPs are separate from the VNET address space, preventing "IP depletion" in large clusters. For sizing guidelines, see [[SoT - AKS IP Allocation & Subnet Sizing]].
+## Related Documentation
+- [[SoT - Azure Resource Manager Architecture]]
+- [[SoT - AKS IP Allocation & Subnet Sizing]]
+- [[Protocol - Azure Jumpbox Preflight]]

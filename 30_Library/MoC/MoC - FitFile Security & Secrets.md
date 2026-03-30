@@ -2,7 +2,7 @@
 aliases: [FitFile Security Index, Secret Management Map]
 created: 2026-01-08T12:45:00Z
 last_reviewed: 2026-02-13
-modified: 2026-02-16T09:40:27+00:00
+modified: 2026-03-28T13:39:14+00:00
 status: active
 tags: [fitfile, moc, secrets, security, vault]
 title: MoC - FitFile Security & Secrets
@@ -11,7 +11,7 @@ type: map
 
 ## 1. Core Architecture
 
-- Secret Management: [[SoT - FitFile VSO Secrets Management]] — Single source of truth for VSO, Vault, and all secret types.
+- Secret Management: [[SoT - FitFile VSO Secrets Management]]—Single source of truth for VSO, Vault, and all secret types.
     - Full index: [[MoC - FitFile Secrets Management]]
 - General K8s Secrets: [[SoT - Kubernetes Secrets Management]]
     - Covers the underlying concepts (Etcd encryption, External Secrets pattern).

@@ -1,75 +1,84 @@
 ---
-created: 2026-02-06T09:00:00+00:00
-modified: 2026-02-06T09:22:57+00:00
+aliases: [Azure Architecture, Azure Resource Manager, ARM Architecture]
+created: 2025-12-10T13:06:37Z
+last_reviewed: "2026-03-28"
+modified: 2026-03-28T15:40:00+00:00
 status: evergreen
-tags: [architecture, azure, cloud, concept/system-design, type/SoT]
+tags: [azure, architecture, arm, governance, security, sot]
 title: SoT - Azure Resource Manager Architecture
 type: SoT
 ---
 
 ## Minimum Viable Understanding (MVU)
 
-Azure Resource Manager (ARM) functions as the "Operating System" of the Azure Cloud. It decouples the Control Plane (API, Auth, Policy) from the Data Plane (Compute, Network, Storage) using a standardized Resource Provider contract. Everything in Azure is a JSON document stored at a specific URL path (Resource ID).
+Azure Resource Manager (ARM) is the deployment and management service for Azure. It provides a management layer that enables you to create, update, and delete resources in your Azure account. FITFILE utilizes a strictly governed ARM structure based on Management Groups and Subscription Vending to ensure tenant isolation and policy enforcement.
+
+---
 
 ## Working Knowledge
 
-### 1. The Architecture: Kernel and Drivers
+### 1. Global Naming Convention (The Guardian Protocol)
 
-ARM acts as a Dispatcher and State Store, not the execution engine.
+To ensure consistency and prevent resource collision, FITFILE enforces a strict naming convention.
 
-- The Kernel (ARM): Handles Authentication (AuthN), Authorization (AuthZ), Policy, Locking, and Tagging. It knows _nothing_ about how to create a VM or VNet.
-- The Drivers (Resource Providers): Microservices that perform the actual work. They register with ARM to handle specific namespaces.
-    - `Microsoft.Compute` handles VMs.
-    - `Microsoft.Network` handles VNets.
-    - `Oracle.Database` (3rd party) handles Oracle DBs.
+#### Long Name Pattern (Standard)
+`${resource_type}-${workload}-${subscription_purpose}-${region}-${index}`
+- **Delimiter**: Hyphens `-`
+- **Casing**: Lowercase only.
+- **Example**: `vnet-hroracle-plat-uks-01`
 
-### 2. The Namespace System (The Primary Key)
+#### Short Name Pattern (Constraints)
+Used for resources with length limits (Storage Accounts, VMs, Scale Sets).
+`${resource_type}${workload}${index}`
+- **Delimiter**: None.
+- **Example**: `stitsvcavd01`, `vmlcajmp01`
 
-Every resource is identified by a globally unique URI, functioning as the primary key in the distributed database.
+#### Components
+| Component | Values |
+|:---|:---|
+| `subscription_purpose` | `plat` (Platform), `alzp` (App LZ Prod), `alzd` (App LZ Dev), `sand` (Sandbox) |
+| `region` | `uks` (UK South), `ukw` (UK West), `glo` (Global) |
+| `env` | `prd` (Production), `uat` (Pre-prod), `dev` (Development) |
 
-`root` / `scope` / `namespace` / `resource-type` / `resource-name`
+### 2. Resource-Specific Templates
 
-Example:
+| Resource | Template | Example |
+|:---|:---|:---|
+| Resource Group | `rg-${workload}-${purpose}-${index}` | `rg-lca-prd-net` |
+| VNet | `vnet-${workload}-${purpose}-${region}-${index}` | `vnet-lca-plat-uks-01` |
+| Subnet | `snet-${workload}-${region}-${env}-${index}` | `snet-lca-uks-prd-system` |
+| NSG | `nsg-${workload}-${region}-${index}` | `nsg-lca-uks-01` |
 
-`/subscriptions/{sub-id}/resourceGroups/{rg-id}/providers/Microsoft.Network/virtualNetworks/{vnet-name}`
+---
 
-- Partition Key: Subscription + Resource Group.
-- Schema: `Microsoft.Network` (The Provider).
-- Table: `virtualNetworks` (The Resource Type).
+## Security & Governance (NCSC CAF Audit)
 
-### 3. The "VNet is a Document" Concept
+A 2026 security review identified systemic weaknesses that ARM architecture must now mitigate via policy and structure.
 
-When you create an Azure Resource (like a VNet), you are not "plugging in a cable." You are performing a `PUT` operation of a JSON Document into the ARM Database.
+### 1. Identity & Access Control (CAF Principle B2)
+- **MFA Enforcement**: All human and contractor accounts (Global Admins) MUST have phishing-resistant MFA.
+- **Least Privilege**: Terraform Service Principals must not hold `Owner` equivalent permissions. Use scoped `Contributor` roles + `User Access Administrator` only where required.
+- **PIM Activation**: Convert permanent Global Admin assignments to Privileged Identity Management (PIM) eligible roles.
 
-- The Input: A JSON file describing the _Desired State_ (Address Space, Subnets).
-- The Action: The `Microsoft.Network` provider reads this JSON and programs the underlying Software Defined Networking (SDN) switches (the "Virtual Filtering Platform") to enforce that policy.
-- Implication: The network is a _policy object_, not physical infrastructure.
+### 2. Network Security (CAF Principle B5)
+- **NSG vs Hub Firewall**: An NSG is a Layer 4 ACL, not a boundary firewall. For **Special Category Data** (GDPR Art 9), Layer 7 / WAF (Azure Hub Firewall) is **mandatory**.
+- **The Trusted Source Fallacy**: Restricting an NSG to a single trusted IP is insufficient. It does not protect against application-layer exploits or compromised source systems.
+- **Egress Lockdown**: "Allow-All-Outbound" is prohibited. NSGs must be filtered to allow egress only to required destinations.
 
-### 4. Reconciliation Loop (Level-Triggered)
+### 3. Data Protection (CAF Principle B3)
+- **Encryption at Rest**: All disks must use Customer-Managed Keys (CMK) or host-level encryption.
+- **Infrastructure Backup**: Critical VMs (Jumpboxes) must be protected by Azure Backup.
 
-Azure follows a Level-Triggered architecture (similar to Kubernetes).
-
-1. Desired State: The User `PUT`s a JSON document.
-2. Current State: The Provider checks reality.
-3. Reconciliation: The Provider performs actions to make Reality match the Document.
-
-This contrasts with Edge-Triggered systems (Classic AWS/RPC) which fire a "Create" command once and forget.
+---
 
 ## Current Understanding
 
-### Comparison: Azure Vs AWS Primitives
+### Known Anti-Patterns
+- **Local Accounts**: Local accounts on AKS or Jumpboxes allow bypassing Entra ID RBAC. Always enforce Entra ID-based authentication.
+- **Diagnostic Gaps**: Failure to register `microsoft.insights` results in zero observability. All subscriptions must export Activity Logs to a central Log Analytics workspace.
+- **Stale Credentials**: Abandoned CLI tools and duplicate SP registrations must be audited quarterly.
 
-| Feature | Azure (ARM) | AWS (Classic/EC2) |
-|:--- |:--- |:--- |
-| Paradigm | Resource-Centric (Nouns) | Action-Centric (Verbs) |
-| Identity | Hierarchical Path (Tree) | Flat ARN (Graph) |
-| Coupling | Strong (Strict Containment) | Loose (Tags & References) |
-| Operation | `PUT` (Idempotent by default) | `RunInstances` (RPC) |
-
-_Note: AWS is converging towards this model with the "Cloud Control API", but the legacy distinction remains relevant._
-
-### The "Dangling Dependency" Problem
-
-Because Azure enforces strict hierarchy (Resource Groups), it enables Cascading Deletes. Deleting a Resource Group deletes all contained resources.
-
-AWS's flat graph model requires "Garbage Collection" (manually finding and deleting unattached dependencies like ENIs or Volumes), though CloudFormation/Terraform mitigates this.
+## Related Documentation
+- [[SoT - Cloud Networking Principles]]
+- [[SoT - Microsoft Entra Application Model]]
+- [[NSG-vs-Hub-Firewall-Security-Analysis]]

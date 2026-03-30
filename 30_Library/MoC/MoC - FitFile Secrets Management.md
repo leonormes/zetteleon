@@ -1,8 +1,8 @@
 ---
-aliases: [FitFile Secrets Index, Secrets MoC, VSO Secrets Map, Vault Secrets Index]
+aliases: [FitFile Secrets Index, Secrets MoC, Vault Secrets Index, VSO Secrets Map]
 created: 2026-03-14T12:00:00Z
 last_reviewed: 2026-03-14
-modified: 2026-03-14T12:00:00+00:00
+modified: 2026-03-28T13:39:14+00:00
 status: evergreen
 tags: [fitfile, moc, secrets, security, vault, vso]
 title: MoC - FitFile Secrets Management
@@ -11,16 +11,16 @@ type: map
 
 ## MoC - FitFile Secrets Management
 
-**Single source of truth:** [[SoT - FitFile VSO Secrets Management]]
+Single source of truth: [[SoT - FitFile VSO Secrets Management]]
 
 ---
 
 ### 1. Core Architecture & Strategy
 
-- [[SoT - FitFile VSO Secrets Management]] — Canonical deep dive: secret types, auth, Vault structure, operations, troubleshooting
-- [[SoT - VSO Authentication (JWT vs AppRole)]] — Auth method comparison; why JWT for HCP Vault + private AKS
-- [[SoT - Kubernetes Secrets Management]] — Underlying K8s concepts (etcd, RBAC, consumption patterns)
-- [[fitfile-vault-vso-argocd-architecture]] — Mermaid diagram: HCP Vault → VSO → ArgoCD → Pods
+- [[SoT - FitFile VSO Secrets Management]]—Canonical deep dive: secret types, auth, Vault structure, operations, troubleshooting
+- [[SoT - VSO Authentication (JWT vs AppRole)]]—Auth method comparison; why JWT for HCP Vault + private AKS
+- [[SoT - Kubernetes Secrets Management]]—Underlying K8s concepts (etcd, RBAC, consumption patterns)
+- [[fitfile-vault-vso-argocd-architecture]]—Mermaid diagram: HCP Vault → VSO → ArgoCD → Pods
 
 ---
 
@@ -56,7 +56,7 @@ type: map
 
 ### 5. Related Maps & Domains
 
-- [[MoC - FitFile Security & Secrets]] — Broader security (IAM, container hardening)
+- [[MoC - FitFile Security & Secrets]]—Broader security (IAM, container hardening)
 - [[SoT - FitFile Identity & Access Management (Auth0)]]
 - [[SoT - External Ingress & SSL Architecture]]
 

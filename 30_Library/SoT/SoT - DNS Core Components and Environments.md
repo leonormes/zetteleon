@@ -1,10 +1,10 @@
 ---
-aliases: ["CoreDNS Configuration", "DNS Architecture", "Hybrid Cloud DNS", "Split-View DNS"]
+aliases: ["CoreDNS Configuration", "DNS Architecture", "Hybrid Cloud DNS", "Split-View DNS", "Protective DNS"]
 created: 2026-01-06T20:15:48+00:00
-last_reviewed: 
-modified: 2026-02-01T15:08:00+00:00
+last_reviewed: "2026-03-28"
+modified: 2026-03-28T18:00:00+00:00
 status: "Active"
-tags: ["aws", "azure", "dns", "networking", "SoftwareEngineering/Architecture"]
+tags: ["aws", "azure", "dns", "networking", "SoftwareEngineering/Architecture", "security"]
 title: SoT - DNS Core Components and Environments
 type: "SoT"
 updated: 
@@ -15,54 +15,50 @@ updated:
 ## 1. Core Components
 
 ### A. SDE Hub (AWS EKS)
-
-- Role: The central hub hosting the FITFILE platform.
-- DNS Mechanism:
-    - Internal: CoreDNS (K8s) forwards private queries to AWS Route 53 Private Zones.
-    - Hybrid: Configured with conditional forwarders to resolve CUH on-premise names by querying the CUH DNS Server IPs.
-    - External: AWS Route 53 Public Zones manage `*.eoe.fitfile.net`.
+- **Internal**: CoreDNS (K8s) forwards private queries to AWS Route 53 Private Zones.
+- **Hybrid**: Conditional forwarders resolve CUH on-premise names via CUH DNS IPs.
+- **External**: AWS Route 53 Public Zones manage `*.eoe.fitfile.net`.
 
 ### B. CUH Spoke (Azure VNet / On-Premise)
+- **Azure CoreDNS**: Authoritative for `*.cuh.local`; forwards `*.fitfile.internal` to On-Premise DNS.
+- **On-Premise DNS**: Authoritative for `*.fitfile.internal`; forwards `*.cuh.local` back to Azure CoreDNS.
 
-- Role: The hospital integration node.
-- Azure CoreDNS:
-    - Authoritative for `*.cuh.local` within Azure.
-    - Forwards `*.fitfile.internal` to On-Premise DNS.
-- On-Premise DNS:
-    - The "Master" for internal resolution.
-    - Authoritative for `*.fitfile.internal`.
-    - Forwards `*.cuh.local` back to Azure CoreDNS (`10.2.0.10`).
+---
 
-## 2. Domain Strategy
+## 2. Protective DNS & Encryption (NIST 2026 Standards)
+
+Following NIST SP 800-81r3, DNS is now treated as an **active security enforcement point**.
+
+### 2.1 Encryption Protocols
+To prevent eavesdropping and hijacking, internal and external flows should utilize:
+- **DoT (DNS over TLS)**: Port 853.
+- **DoH (DNS over HTTPS)**: Port 443.
+- **DoQ (DNS over QUIC)**: UDP Port 853.
+
+### 2.2 Security Enforcement (RPZ)
+**Response Policy Zones (RPZ)** act as a "DNS Firewall."
+- **Mechanism**: Blocks connections to known malicious domains and filters traffic by category.
+- **Local Overrides**: Always maintain a local RPZ to whitelist internal namespaces, preventing erroneous blocking of core service discovery.
+- **Logging**: Integrate protective DNS logs with SIEM to correlate IP addresses with DHCP lease history for incident response.
+
+---
+
+## 3. Domain Strategy
 
 | Domain | Scope | Management | Purpose |
 |:--- |:--- |:--- |:--- |
-| `*.eoe.fitfile.net` | Public | Cloudflare | External access to SDE Hub. Used for ACME DNS-01 challenges. |
-| `*.fitfile.internal` | Private | CUH On-Premise | M2M communication. Bypasses Azure's strict hostname validation. |
+| `*.eoe.fitfile.net` | Public | Cloudflare | External access; ACME DNS-01 challenges. |
+| `*.fitfile.internal` | Private | CUH On-Premise | M2M communication; bypasses Azure validation. |
 | `*.cuh.local` | Hybrid | Split Authority | Internal resolution for CUH-specific services. |
-| `*.privatelink` | Legacy | Azure Private DNS | Avoid. Causes DNS-01 validation failures in Azure. Use `.internal` instead. |
 
-## 3. Resolution Flows (The Packet Path)
-
-### Scenario A: CUH Spoke -> SDE Hub (Private)
-
-1. Resource in CUH queries `relay.cuh-prod-1.fitfile.internal`.
-2. Query hits Azure CoreDNS.
-3. Forwarded to CUH On-Premise DNS.
-4. Resolved to Private IP.
-
-### Scenario B: SDE Hub -> Public Internet
-
-1. Pod in EKS queries `google.com`.
-2. Query hits EKS CoreDNS.
-3. Forwarded to AWS VPC Resolver -> Internet.
-
-### Scenario C: Cert-Manager Validation (The Trap)
-
-- Problem: Azure's internal resolver prioritizes Private Zones over Public DNS. If `cert-manager` tries to validate a public domain that also has a private zone (split-horizon), it fails.
-- Fix: Force `cert-manager` to use public resolvers (e.g., `1.1.1.1`) by setting `dns01-recursive-nameservers-only=true`.
+---
 
 ## 4. Security Constraints
 
-1. Firewall: Port 53 (UDP/TCP) must be open between SDE Hub (`13.42.119.194`) and CUH On-Premise.
-2. Proxy Bypass: DNS traffic cannot go through the McAfee Web Proxy. It must be exempted via `NO_PROXY` or firewall rules.
+1. **Firewall**: Port 53 (UDP/TCP) must be open between Hub and Spoke.
+2. **Encrypted DNS Bypass**: Block unauthorized DoT traffic on Port 853 to prevent clients from bypassing local security resolvers.
+3. **Cert-Manager Validation**: Azure's internal resolver prioritizes Private Zones. Force `cert-manager` to use public resolvers (`1.1.1.1`) for DNS-01 by setting `dns01-recursive-nameservers-only=true`.
+
+## Related Documentation
+- [[SoT - Cloud Networking Principles]]
+- [[NIST updates its DNS security guidance for the first time in over a decade]]

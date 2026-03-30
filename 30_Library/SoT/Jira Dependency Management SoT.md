@@ -31,12 +31,11 @@ Native Jira (Cloud) cannot natively filter for "Actionable" tasks (i.e., tasks w
 - Pros: Works on all plans, no plugin cost.
 - Cons: "Eventual consistency" (slight delay), requires rule maintenance.
 
-#### Pattern B: The Query Extension (Plugin)
-
-- Mechanism: Use apps like ScriptRunner or JQL Search Extensions.
-- Syntax: `issueFunction in linkedIssuesOf("status!= Done", "is blocked by")`
-- Pros: Real-time, no extra fields.
-- Cons: recurring cost.
+#### Pattern C: Terminal UI (Lazyjira)
+For high-velocity engineers, the Jira Web UI is often a bottleneck. **Lazyjira** provides a keyboard-driven interface similar to `lazygit`.
+- **Mechanism**: CLI tool that supports JQL search with autocomplete and vim-style navigation.
+- **Benefit**: Reduces latency for status updates, comment drafting, and JQL experimentation. Allows creating branches directly from issues.
+- **Usage**: `lazyjira` command from the terminal.
 
 ### 3. Structural Best Practices
 

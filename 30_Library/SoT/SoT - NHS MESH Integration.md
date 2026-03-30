@@ -1,81 +1,61 @@
 ---
-aliases: [MESH Firewall Rules, MESH Integration Guide, NHS MESH Sandbox]
-created: 2026-02-01T15:30:00Z
-modified: 2026-02-04T07:27:15+00:00
-status: evergreen
-tags: [ff_deploy, integration, mesh, nhs, sot]
+aliases: [MESH Integration, NHS Mailbox, NHS Digital Networking]
+created: 2025-12-10T13:06:37Z
+last_reviewed: "2026-03-28"
+modified: 2026-03-28T15:50:00+00:00
+status: growing
+tags: [nhs, mesh, healthcare, compliance, sot]
 title: SoT - NHS MESH Integration
 type: SoT
 ---
 
-## 1. Overview
+## Minimum Viable Understanding (MVU)
 
-The MESH Mailbox chart deploys a sandbox implementation of the NHS Message Exchange for Social Care and Health (MESH) service. This environment allows FITFILE to test secure healthcare data exchange without connecting to live NHS infrastructure.
-
-Purpose:
-
-- Integration testing for `fitconnect`.
-- Validating FHIR/HL7 message formats.
-- Simulating GP-to-Hospital data flows.
+The Messaging Exchange for Social Care and Health (MESH) is the primary mechanism for asynchronous data exchange across the NHS. FITFILE uses MESH for services like the National Data Opt-out (NDOO) cleanup. Integration requires an active MESH Mailbox, ODS code registration, and compliance with HSCN technical standards.
 
 ---
 
-## 2. Infrastructure & Deployment
+## Working Knowledge
 
-### 2.1 The Sandbox Application
+### 1. FITFILE MESH Configuration
 
-- Image: `fitfileregistry.azurecr.io/mesh-mailbox-sandbox:latest`
-- Port: 443 (HTTPS Only).
-- Service Type: `ClusterIP` (Internal access only).
-- Storage: Ephemeral (`/tmp/mailboxes`). No persistence in sandbox mode.
+- **Organisation**: FITFILE Group Ltd
+- **ODS Code**: `8KM90`
+- **Mailbox ID**: `8KM90HC001`
+- **Status**: Production mailbox is **Active** and accessible.
 
-### 2.2 Configuration (Helm Values)
+### 2. Networking & Whitelisting
+- **Source IP Whitelisting**: MESH does **not** require source IP whitelisting for access from different clusters.
+- **Geo-blocking**: Access is restricted to UK-based IP addresses only.
+- **Connectivity**: Must originate from an HSCN-compliant network or via approved cloud-to-HSCN gateways.
 
-```yaml
-env:
-  AUTH_MODE: "none"        # Sandbox mode
-  SHARED_KEY: "TestKey"    # Shared secret
-  SSL: "yes"               # Mandatory
-```
+### 3. NHS Ecosystem Compliance
 
----
+Any networking or processing of patient data within the NHS ecosystem must adhere to three foundational pillars:
 
-## 3. Firewall Requirements (Client-Side)
+#### A. Secure Data Environments (SDE)
+Following the **Goldacre Review**, the NHS is shifting from "Data Sharing" (bulk physical transfers) to "Data Access" (Secure Data Environments). SDEs are the mandatory route for secondary use of NHS data.
+- **Five Safes**: Safe People, Safe Projects, Safe Settings, Safe Data, Safe Outputs.
 
-When connecting to the LIVE or INT NHS MESH infrastructure (not this sandbox), strict firewall rules apply.
+#### B. HSCN Connection Agreement
+Mandatory for any organisation connecting to the Health and Social Care Network.
+- **TSS 201**: Network architecture & monitoring.
+- **TSS 203**: Encryption at rest and in transit.
 
-### 3.1 Connectivity Options
-
-| Connection Type | Domain | External IPs |
-|:---|:---|:---|
-| HSCN / N3 | `mesh-sync.national.ncrs.nhs.uk` | `155.231.48.156`, `155.231.48.220` |
-| Internet | `mesh-sync.spineservices.nhs.uk` | Dynamic (Allow Hostname) |
-
-### 3.2 Outbound Rules (Private Network -> NHS)
-
-- Protocol: HTTPS (TLS 1.2+).
-- Port: 443.
-- Destinations:
-  - `msg.intspineservices.nhs.uk` (Integration)
-  - `msg.spineservices.nhs.uk` (Production)
-- Constraint: Do NOT pin to fixed IPs for Internet connections; use DNS resolution.
-
-### 3.3 Verification
-
-```bash
-# Test Connectivity
-telnet mesh-sync.spineservices.nhs.uk 443
-```
+#### C. Data Security and Protection Toolkit (DSPT)
+Annual self-assessment against the National Data Guardian's 10 standards. Achieving "Standards Met" is a prerequisite for MESH and SDE access.
 
 ---
 
-## 4. Operational Context
+## Current Understanding
 
-### Integration Strategy
+### International Data Transfers (ICO 2026)
+For research involving international collaboration across GDPR boundaries, the 2026 ICO guidance mandates a **Three-Step Test** and a **Data Protection Test** (formerly TRA) to ensure the destination jurisdiction's protection is not materially lower than the UK's.
 
-This component sits alongside `fitconnect` in the `ffnode` umbrella chart. It simulates the external "NHS Endpoint" that `fitconnect` would normally talk to.
+### National Data Opt-out (NDOO)
+Compliance became mandatory in July 2022. Identifiable patient data for research must be filtered against the NDOO registry via the MESH "Check for National Data Opt-outs" service.
 
-### NHS Digital References
-
-- [MESH Client Installation Guidance](https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh/mesh-guidance-hub/client-installation-guidance)
-- [MESH API Catalogue](https://digital.nhs.uk/developer/api-catalogue/message-exchange-for-social-care-and-health-api)
+## Related Documentation
+- [[SoT - OHDSI and FHIR Convergence]]
+- [[HSCN Connection Agreement]]
+- [[NHS Patient Data Research Networking]]
