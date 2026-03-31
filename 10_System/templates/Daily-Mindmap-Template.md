@@ -114,14 +114,14 @@ Start typing standard markdown here behind your visual canvas!
       "updated": 1,
       "link": null,
       "locked": false,
-      "text": "[[<% tp.date.now(\"YYYY-MM-DD\", -1) %>]]",
+      "text": "[[<% tp.date.now('YYYY-MM-DD', -1) %>]]",
       "fontSize": 20,
       "fontFamily": 1,
       "textAlign": "center",
       "verticalAlign": "middle",
       "baseline": 22,
       "containerId": null,
-      "originalText": "[[<% tp.date.now(\"YYYY-MM-DD\", -1) %>]]"
+      "originalText": "[[<% tp.date.now('YYYY-MM-DD', -1) %>]]"
     },
     {
       "id": "zone-tomorrow",
@@ -148,14 +148,14 @@ Start typing standard markdown here behind your visual canvas!
       "updated": 1,
       "link": null,
       "locked": false,
-      "text": "[[<% tp.date.now(\"YYYY-MM-DD\", 1) %>]]",
+      "text": "[[<% tp.date.now('YYYY-MM-DD', 1) %>]]",
       "fontSize": 20,
       "fontFamily": 1,
       "textAlign": "center",
       "verticalAlign": "middle",
       "baseline": 22,
       "containerId": null,
-      "originalText": "[[<% tp.date.now(\"YYYY-MM-DD\", 1) %>]]"
+      "originalText": "[[<% tp.date.now('YYYY-MM-DD', 1) %>]]"
     }
   ],
   "appState": {
