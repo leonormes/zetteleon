@@ -55,8 +55,21 @@ The vocabulary flattens complex poly-hierarchies into a simple lookup table: `CO
 
 - Subsumption: The hierarchy relies on "Is-A" relationships. A specific disease implies all its parent categories.
 
-### 4. Maintenance & Tools
+### 4. Maintenance & Update Cycle
 
-- Athena: The web portal to browse and download vocabularies.
-- Usagi: The tool for mapping local/custom codes (string matching) to Standard Concepts.
-- Phoebe: A recommender system that suggests related concepts based on co-occurrence in the network.
+The vocabularies are updated on a regular cadence, typically twice a year (February and August). These updates reflect changes from upstream sources (ICD, SNOMED, etc.).
+
+#### A. Maintenance Workflow
+- **Data Ingestion:** The OHDSI Vocabulary Team pulls updates from the Unified Medical Language System (UMLS) and prunes them for CDM suitability.
+- **Athena:** The central portal to search, browse, and download the finalized vocabulary files.
+- **Tantalus:** An analytical package used to run a "diff" between vocabulary versions to identify changed, deprecated, or orphan codes.
+
+#### B. Update Protocol
+1. **Align with Biannual Schedule:** Schedule maintenance around the February/August major releases.
+2. **Review Release Notes:** Consult the "What's New" file and ATHENA to identify concept changes.
+3. **ETL Refresh:** Vocabulary updates often require a full re-run of the ETL process to ensure local data reflects current standard concept mappings.
+
+### 5. Tools
+- **Athena:** Web portal for browsing and downloading.
+- **Usagi:** Mapping local/custom codes to Standard Concepts.
+- **Phoebe:** Recommender system for concept selection.

@@ -62,7 +62,7 @@ An IDPS actively monitors network traffic for suspicious activity and automatica
 
 Most IDPS deployments are too passive. Work to link your IDPS to automated routing controls or ACL management to respond at wire speed. If it can't take action, it's just another glorified dashboard. Additionally, without egress monitoring, you could be missing out on data exfiltration. Most modern data theft happens outbound via DNS, HTTPS (encrypted), or messaging APIs.
 
-### Endpoint Security and Network Segmentation
+### Endpoint Security and [[Network Segmentation]]
 
 A network security architect must design systems that extend beyond the perimeter by incorporating endpoint security solutions like:
 
@@ -74,7 +74,7 @@ A network security architect must design systems that extend beyond the perimete
 
 Don't trust EDR agents alone–especially on systems that users can uninstall, disable, or simply reboot into a bypass mode.
 
-Comprehensive endpoint protection paired with strategic network segmentation creates multiple security checkpoints, making it harder for attackers to gain widespread access even if they compromise a device or network segment.
+Comprehensive endpoint protection paired with strategic [[network segmentation]] creates multiple security checkpoints, making it harder for attackers to gain widespread access even if they compromise a device or network segment.
 
 ### Virtual Private Networks (VPNs)
 

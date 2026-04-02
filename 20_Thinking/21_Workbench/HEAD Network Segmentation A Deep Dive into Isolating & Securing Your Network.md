@@ -11,7 +11,7 @@ type: "head"
 
 ## Raw Output / Content
 
-- [Network Segmentation: An Introduction](https://zeronetworks.com/resource-center/topics/network-segmentation-microsegmentation-isolating-securing-your-network#chapter1)
+- [[[Network Segmentation]]: An Introduction](https://zeronetworks.com/resource-center/topics/network-segmentation-microsegmentation-isolating-securing-your-network#chapter1)
 - [What is Network Segmentation?](https://zeronetworks.com/resource-center/topics/network-segmentation-microsegmentation-isolating-securing-your-network#chapter2)
 - [Why is Network Segmentation Important? Benefits of Network Segmentation](https://zeronetworks.com/resource-center/topics/network-segmentation-microsegmentation-isolating-securing-your-network#chapter3)
 - [Building a Zero Trust Architecture using Network Segmentation](https://zeronetworks.com/resource-center/topics/network-segmentation-microsegmentation-isolating-securing-your-network#chapter4)

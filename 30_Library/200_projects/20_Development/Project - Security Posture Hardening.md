@@ -1,13 +1,21 @@
 ---
+uid: 6db404a5-771a-417d-8541-e33c40f45ae8
 aliases: []
 created: 2026-01-07T21:28:43+00:00
 last_reviewed: ""
-modified: 2026-02-01T15:09:15+00:00
+modified: 2026-04-01T22:09:04+00:00
 priority: high
 status: active
-tags: [cloud, iam, k8s, posture, project, security]
+tags:
+  - cloud
+  - iam
+  - k8s
+  - posture
+  - project
+  - security
 title: Project - Security Posture Hardening
 type: ""
+uuid: 6db404a5-771a-417d-8541-e33c40f45ae8
 ---
 
 ## 1. Context & Objectives
@@ -21,7 +29,8 @@ Strategy: Move from manual checks to automated enforcement (Policy as Code, IaC)
 ### Phase 1: Identity & Access (The Perimeter)
 
 - [ ] Audit IAM: Review current role assignments and enforce Least Privilege.
-- [ ] Implement PIM: Configure Privileged Identity Management for JIT access to critical roles.
+- [ ] Implement PIM: Configure Privileged Identity Management for JIT access to critical roles. ^2026-04-01T23-07-59
+    - [📱 View in Todoist app](todoist://task?id=6gHHjF4x28R3xXqv) (Created: 📝 2026-04-01T23:08)
     - _Reference:_ [[SoT - GitOps for Privileged Identity Management]]
 - [ ] Enforce MFA: Ensure Multifactor Authentication is mandated for all access points.
 - [ ] Service Principal Hardening: Audit and rotate credentials for automated systems.
@@ -30,7 +39,8 @@ Strategy: Move from manual checks to automated enforcement (Policy as Code, IaC)
 
 - [ ] API Server Lockdown: Restrict public access to the KubeAPI server (Authorized IP ranges / Private Endpoint).
 - [ ] Disable Local Accounts: Re-configure AKS/EKS via Terraform to disable local admin accounts.
-- [ ] Node Image Upgrade: Execute rolling upgrade of node pools to latest security patches.
+- [ ] Node Image Upgrade: Execute rolling upgrade of node pools to latest security patches. ^2026-04-01T23-08-54
+    - [📱 View in Todoist app](todoist://task?id=6gHHjMqc2GcMXv7M) (Created: 📝 2026-04-01T23:08)
 - [ ] Metadata API Block: Implement NetworkPolicy to deny pod access to Cloud Instance Metadata API (169.254.169.254).
 
 ### Phase 3: Workload Security (The Container)

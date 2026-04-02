@@ -24,7 +24,7 @@ The skill of crafting secure networks is a blend of understanding foundational n
 ### Routing and Switching
 
 - Understanding routing protocols (BGP, OSPF) and how they influence traffic paths.
-- Proficiency in subnetting and network segmentation to isolate resources.
+- Proficiency in subnetting and [[network segmentation]] to isolate resources.
 - Knowledge of virtual networking concepts (VLANs, virtual routers) in cloud environments.
 
 ### Network Addressing (IPv4/IPv6)

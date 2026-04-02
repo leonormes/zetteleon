@@ -1,14 +1,17 @@
 ---
+uid: 1b4977b7-748f-4ccf-8d06-a688493b3b93
 created: 2026-01-13T03:49:56+00:00
-modified: 2026-02-16T09:40:47+00:00
+modified: 2026-04-01T21:57:22+00:00
 title: incomplete trigger list
+uuid: 1b4977b7-748f-4ccf-8d06-a688493b3b93
 ---
 
 SoT - DevOps Trigger List (v1.0)
 
 Protocol:
 
- - Set Timer: 5 Minutes. (Strict limit to prevent hyper-focus).
+ - [ ] Set Timer: 5 Minutes. (Strict limit to prevent hyper-focus). ^2026-04-01T22-57-00
+	- [📱 View in Todoist app](todoist://task?id=6gHHgQ8fhpPX8FQv) (Created: 📝 2026-04-01T22:57)
  - Scan Mode: Read the prompt. If your brain says "Oh yeah, that thing…"—CAPTURE IT.
  - Do Not Execute: Do not fix the code now. Do not open the console. Just capture the Starter Task.
  - Apply PINCH: If a task feels heavy, tag it with a PINCH driver (e.g., Challenge: Can I script this in under 10 mins?).

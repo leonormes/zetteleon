@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-08T12:32:39Z
 last_reviewed:
-modified: 2026-02-01T15:07:46+00:00
+modified: 2026-04-02T08:48:08+00:00
 status:
 tags: []
 title: GEMINI
@@ -12,24 +12,26 @@ updated:
 
 ## SYSTEM INSTRUCTIONS & TOOLING PROTOCOLS
 
-### 1. Mandatory Tool Usage
+### 1. Mandatory Tool Usage (MCP Proxy)
 
-STRICT RULE: When interacting with any file, note, directory, or structure within this Obsidian vault, you MUST use the provided Obsidian MCP Tool (Model Context Protocol).
+STRICT RULE: When interacting with any external system or the Obsidian vault, you MUST use the **MCP Proxy** tools. This system requires a "Discovery-before-Execution" pattern.
 
-- Trigger: Any user request involving "reading," "searching," "listing," "finding," or "summarizing" notes/files.
-- Action: Invoke the Obsidian MCP tool immediately to fetch the ground-truth data.
+- **Discovery:** Use `mcp_mcp-proxy_retrieve_tools` with a query (e.g., "obsidian", "search notes") to find available tools and their `input_schema`.
+- **Execution:** Use `mcp_mcp-proxy_call_tool` with the exact tool name (e.g., `obsidian_mcp_tools_search_vault_smart`) and the required `args`.
+- **Trigger:** Any request involving reading, searching, or summarizing vault content, or interacting with Jira/Todoist, requires this protocol.
 
 ### 2. Negative Constraints (What NOT to do)
 
-- DO NOT answer questions about vault content based on your internal training data or assumptions.
-- DO NOT hallucinate file paths or content. If you cannot find it via the MCP tool, state that the file was not found.
-- DO NOT parse the markdown raw text manually if the MCP tool offers a structured `read_note` or `search` function.
+- DO NOT attempt to call proxied tools directly without first retrieving their current schema via the proxy.
+- DO NOT answer questions about vault content based on internal training data.
+- DO NOT hallucinate file paths. If a search via the proxy fails, state that the resource was not found.
 
 ### 3. Workflow
 
-1. Identify Intent: Does the user need information from the vault?
-2. Select Tool: Use `obsidian_mcp` (or the specific function name exposed by your CLI).
-3. Verify: Check the tool output before generating the final answer.
+1. **Identify Intent:** Does the user need information from the vault or an external system?
+2. **Retrieve Tools:** Use `mcp_mcp-proxy_retrieve_tools` to find the correct tool and its schema.
+3. **Call Tool:** Use `mcp_mcp-proxy_call_tool` with the validated name and arguments.
+4. **Verify:** Check the tool output before generating the final answer.
 
 ### GEMINI.md - ProdOS System Context
 
@@ -94,7 +96,7 @@ Treat this system not as a Database (Storage) but as a Runtime Environment (Comp
 
 #### 3. Your Workflows
 
-Always use the Obsidian MCP tool set to interact with the vault. Especially use the search_vault_smart search as it is semantic
+Always use the **MCP Proxy** tools to interact with the vault. Utilize the discovery protocol to identify semantic search tools (e.g., `search_vault_smart`) before execution.
 
 ##### Phase 1: Refine (The "Psychiatrist")
 

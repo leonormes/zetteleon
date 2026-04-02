@@ -68,8 +68,17 @@ To maintain data lineage while enabling standardized analysis, the CDM uses a du
 | `_source_concept_id` | Int | Intermediate. The OHDSI ID for that specific source code. | Traceability. Used to verify mapping logic. |
 | `_concept_id` | Int | Standard. The SNOMED/RxNorm ID representing the meaning. | Analysis Target. ALL queries must filter on this column. |
 
-### 3.1 Domain Assignment Logic
+## 4. Standardized Analytic Use Cases
 
-A generic source code (e.g., a billing code) is routed to a specific table based on the Domain of its mapped Standard Concept.
+By standardizing both structure and semantics, the OMOP CDM enables three core analytic paradigms across a federated network:
 
-- _Example:_ If a "Family History" code appears in a diagnosis file, but maps to an `Observation` domain concept, the ETL moves it to the `OBSERVATION` table, not `CONDITION_OCCURRENCE`.
+1. **Clinical Characterization:** "What happened to the patients?"
+    - Summarizing population demographics and disease incidence.
+    - Treatment pathways (visualizing the sequence of clinical interventions).
+2. **Population-Level Estimation:** "What are the causal effects?"
+    - Safety surveillance and comparative effectiveness studies.
+    - E.g., comparing bleeding risk between two anticoagulants.
+3. **Patient-Level Prediction:** "What will happen to this individual?"
+    - Applying machine learning models to historical data to predict future outcomes (e.g., suicide risk or hospital readmission).
+
+This standardization powers the **ATLAS** platform, allowing researchers to design complex studies without writing SQL or R from scratch.

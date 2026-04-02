@@ -44,14 +44,14 @@ Translating the spec into executable code.
 
 ### 4. The Evaluation Phase (Quality)
 
-Validation is critical. "It runs"!= "It is correct."
+Validation is critical. "It runs" != "It is correct."
 
-- Tool: Data Quality Dashboard (DQD).
-- The Kahn Framework:
-    1. Conformance: Does it match the schema? (Data types, FKs).
-    2. Completeness: Is data missing? (Null columns).
-    3. Plausibility: Does it make sense? (e.g., "Male patient with Pregnancy diagnosis").
-- Tool: Achilles. Generates aggregate characterization (The "Health Check" of the DB).
+- **Data Quality Dashboard (DQD):** Systematic evaluation against over 2,000 community checks based on the **Kahn Framework**:
+    1. **Conformance:** Adherence to formats and constraints (e.g., `PROVIDER_ID` must exist).
+    2. **Completeness:** Required fields must be populated (e.g., non-zero standard concept mapping).
+    3. **Plausibility:** Clinical believability (e.g., temporal checks like admission before discharge).
+- **ACHILLES:** Visualizes the "shape" of the data. Highlights anomalies in data density, demographic distributions, and clinical prevalence over time.
+- **ETL Unit Testing:** Using the "Rabbit-in-a-Hat" framework to create localized fake data entries and verify expected output, ensuring scripts reliably handle vocabulary updates or new source data.
 
 ### 5. Metadata & Provenance
 
