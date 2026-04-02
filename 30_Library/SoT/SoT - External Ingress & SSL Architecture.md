@@ -98,6 +98,28 @@ spec:
 
 ---
 
+## 4. The DNS-01 & Split-Horizon Pattern
+
+For services on a private network (e.g., `192.168.x.x`), the standard **HTTP-01** challenge is impossible because Let's Encrypt cannot reach the internal server. 
+
+### 4.1 The Elegant Solution: DNS-01
+DNS-01 decouples "proving domain ownership" from "where the service runs." Validation happens entirely in the **Public DNS** layer (Cloudflare), which is always reachable by Let's Encrypt.
+
+### 4.2 Split-Horizon Architecture
+To make this work seamlessly, two parallel truths about the domain must exist:
+
+| Layer | Zone | Purpose |
+|:--- |:--- |:--- |
+| **Public** (Cloudflare) | `fitfile.net` $\to$ Public IP | Serves `_acme-challenge` TXT records for Let's Encrypt. |
+| **Private** (Azure/CoreDNS) | `fitfile.net` $\to$ Private IP | Routes internal traffic to the actual private workload. |
+
+### 4.3 Why This Works
+- **No Firewall Holes**: Zero inbound connectivity required from the internet to the private network.
+- **Trusted Everywhere**: Once issued, the certificate is globally trusted by any client (internal or external).
+- **Automation**: `cert-manager` updates the public TXT record via API, obtains the cert, and then cleans up.
+
+---
+
 ## Related Knowledge
 
 - [[SoT - FITFILE Secret Management Architecture]] (How cert secrets are synced/managed).

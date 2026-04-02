@@ -20,12 +20,32 @@ This architecture orchestrates the deployment of:
 - Control Plane: `argo` (ArgoCD and Workflows)
 
 ---
-
 ## 2. Repository & Chart Architecture
 
 The repository follows a monolithic chart structure with functional decomposition.
 
-### 2.1 Global Directory Structure
+### 2.1 Repository Layout
+
+This structure is typical for a customer-specific deployment repository (e.g., `mkuh-prd-4`):
+
+```sh
+config/
+  customer.yaml      # SINGLE SOURCE OF TRUTH (identity, network, flags)
+cue/
+  schema_infra.cue   # InfraFacts contract between Terraform and CUE
+  policy_defaults.cue # Platform constants (auth0, image registries, etc.)
+  render_fitfile.cue # Main rendering logic
+  values.cue         # Entry point (injects tags, calls #RenderValues)
+scripts/
+  generate-values.sh # CLI wrapper for the CUE pipeline
+templates/
+  *.tftpl            # Terraform provider and jumpbox templates
+generated/
+  values.yaml        # Output consumed by ArgoCD
+  genjump.tf         # Output consumed by Terraform
+```
+
+### 2.2 Chart Directory Structure
 
 ```sh
 charts/
@@ -41,7 +61,25 @@ charts/
 └── shared-secrets/    # Secret Injection Layer
 ```
 
-### 2.2 Key Components
+---
+
+## 3. The Generative Pipeline
+
+The configuration flows from **Terraform** $\rightarrow$ **CUE** $\rightarrow$ **Helm values.yaml**.
+
+### 3.1 Step-by-Step Breakdown
+
+1. **Trigger** (`make generate-values`): Grabs Terraform's `infra_facts` output as JSON:
+   `INFRA_JSON=$(terraform output -json infra_facts | jq -c '.')`
+2. **Schema Validation** (`schema_infra.cue`): CUE intercepts the JSON and validates it against the strictly defined contract. If fields are missing, the build fails.
+3. **Policy Integration** (`policy_defaults.cue`): Merges the terraform facts with platform-level defaults (Auth0 domains, DB versions, registry URLs).
+4. **Rendering** (`render_fitfile.cue`): Maps the validated inputs to the final `values` tree, automating complex tasks like Vault secret mappings and ingress FQDNs.
+5. **YAML Export**: The script exports the CUE object tree into the final manifest:
+   `cue export ./cue/*.cue -t "infra=$INFRA_JSON" -e values --out yaml > generated/values.yaml`
+
+---
+
+## 4. Configuration Management
 
 1. The Application Umbrella (`ffnode`):
    - Acts as the parent chart deploying the core stack (`frontend`, `fitconnect`, `keycloak` legacy).

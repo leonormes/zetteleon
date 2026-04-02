@@ -181,6 +181,31 @@ resource "azurerm_role_definition" "private_aks" {
 }
 ```
 
+## 7. Bootstrap Workflow (New Customer Only)
+
+Once the Azure environment is prepared, use the following workflow to initialize the deployment repository and external service connections (GitLab, TFC, Vault).
+
+### Step 1: Initialize Secrets
+Create a `secrets.auto.tfvars` file (gitignored) and export your GitLab token.
+```bash
+export GITLAB_TOKEN="your_token"
+# secrets.auto.tfvars: ude_key, tfc_oauth_token_id, tfe_token, vault_address
+```
+
+### Step 2: Configure & Preflight
+Edit `config/customer.yaml` with the identity and network CIDR. Then verify connectivity:
+```bash
+make preflight-check
+```
+
+### Step 3: Bootstrap & State Migration
+The bootstrap process creates the GitLab repo, TFC workspace, and Vault namespace using local state.
+```bash
+make bootstrap
+make finish-bootstrap
+```
+The `finish-bootstrap` command migrates local state to Terraform Cloud. Once complete, push your changes to GitLab to trigger the initial cloud infrastructure apply.
+
 ## Related Resources
 
 - Troubleshooting: [[SoT - Azure Kubernetes Service (AKS) Operations]] - Reference this guide if any verification steps fail.

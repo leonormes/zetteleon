@@ -59,6 +59,28 @@ To prevent eavesdropping and hijacking, internal and external flows should utili
 2. **Encrypted DNS Bypass**: Block unauthorized DoT traffic on Port 853 to prevent clients from bypassing local security resolvers.
 3. **Cert-Manager Validation**: Azure's internal resolver prioritizes Private Zones. Force `cert-manager` to use public resolvers (`1.1.1.1`) for DNS-01 by setting `dns01-recursive-nameservers-only=true`.
 
+---
+
+## 5. Diagnostic & Identification Protocols
+
+### 5.1 Identifying Split-Horizon
+To confirm if a domain is answering from an internal (private) zone versus the public internet:
+
+| Diagnostic Tool | Command / Indicator | Meaning |
+|:--- |:--- |:--- |
+| **dig +trace** | `dig +trace <domain>` | Performs iterative resolution from the root down, bypassing the local stub. If it shows a different IP than a normal `dig`, you have split-horizon. |
+| **TTL 0** | `dig <domain>` $\to$ `0 IN A` | Azure Private DNS zones always return **TTL 0**. Public records (e.g., Cloudflare) typically have TTL 60-300+. |
+| **aa flag** | `flags: qr aa rd ra ad` | The `aa` (authoritative answer) flag means the resolver (e.g., Azure's `168.63.129.16`) is claiming direct authority for the zone. |
+
+### 5.2 Discovering Upstream Resolvers
+On Linux systems using `systemd-resolved`, `cat /etc/resolv.conf` usually only shows `127.0.0.53`. To find the "real" upstream resolver:
+```bash
+resolvectl status
+```
+Look for **"Current DNS Server"** on the primary interface.
+
+---
+
 ## Related Documentation
 - [[SoT - Cloud Networking Principles]]
 - [[NIST updates its DNS security guidance for the first time in over a decade]]

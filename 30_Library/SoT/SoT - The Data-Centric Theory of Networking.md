@@ -54,7 +54,7 @@ By pointing DNS records to a Load Balancer instead of a host, you achieve:
 
 - Zero-Downtime Maintenance: Removing nodes from the pool for updates.
 - Geographic Optimization (GeoDNS): Returning different IPs based on user location to minimize latency.
-- Security Isolation: Terminating TLS at the edge and protecting backend hosts from direct internet exposure.
+- Security Isolation: Terminating TLS at the edge and protecting backend hosts from direct internet exposure. See [[SoT - Network Security Architecture]] for the broader taxonomy of enforcement points.
 
 ---
 

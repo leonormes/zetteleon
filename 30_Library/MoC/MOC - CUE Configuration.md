@@ -13,7 +13,7 @@ CUE (Configure Unify Execute) is a constraint-based configuration language. It r
 
 ### 1. Core Mechanics
 
-- [[SoT - CUE Configuration Logic]]—_The operational guide to Unification, Types as Values, and Compile-Time Failure Modes._
+- [[SoT - CUE Configuration]]—_The operational guide to Unification, Types as Values, and Compile-Time Failure Modes._
 
 ### 2. Strategy & Migration
 

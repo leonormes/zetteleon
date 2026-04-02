@@ -51,29 +51,41 @@ Priority Warning: In ArgoCD, `repo-creds` take priority over `repository` secret
 
 ### 4. Troubleshooting Playbook
 
-#### Phase 1: Diagnostics
+#### Phase 1: End-to-End Diagnostic Chain
 
-1. Check the VSO Custom Resource (CR):
+If a secret is missing or failing to sync, trace the "wiring" in this exact order:
 
+1. **VaultDynamicSecret / VaultStaticSecret (CR):**
    ```bash
-   kubectl describe vaultdynamicsecret <name> -n <namespace>
+   kubectl describe <kind> <name> -n <ns>
    ```
+   *Identify: Which VaultAuth is referenced? What is the Vault path?*
 
-   _Look for: `SecretSynced: True` or errors in Events (e.g., `VaultClientError`, `Permission Denied`)._
-
-2. Verify the Kubernetes Secret Metadata:
-
+2. **VaultAuth (Identity):**
    ```bash
-   kubectl get secret <name> -n <namespace> -o yaml
+   kubectl describe vaultauth <auth-ref> -n <ns>
    ```
+   *Identify: Is it using `method: kubernetes` or `appRole`? Which ServiceAccount or SecretRef is used?*
 
-   _Look for: `ownerReferences` (should point to VSO) and distinctive VSO annotations._
-
-3. Check VSO Operator Logs:
-
+3. **VaultConnection (Endpoint):**
    ```bash
-   kubectl logs -n vault-secrets-operator-system -l app.kubernetes.io/name=vault-secrets-operator
+   kubectl describe vaultconnection <conn-ref> -n <ns>
    ```
+   *Identify: Is the Vault address correct? Are the namespace headers accurate?*
+
+4. **Operator Logs (System):**
+   ```bash
+   kubectl logs -n vault-secrets-operator-system deploy/vault-secrets-operator-controller-manager --tail=100
+   ```
+   *Look for: 403 (Policy error), 404 (Path error), or TLS handshake failures.*
+
+5. **Vault-side Verification (CLI):**
+   ```bash
+   export VAULT_NAMESPACE="<as-defined-in-vss>"
+   vault secrets list
+   vault policy read <policy-name>
+   ```
+   *Check: Does the path exist? Does the policy grant `read` (or `write` for dynamic) capabilities?*
 
 #### Phase 2: Common Fixes
 
@@ -83,6 +95,7 @@ Priority Warning: In ArgoCD, `repo-creds` take priority over `repository` secret
 | Permission Denied | `Code: 403` in VSO logs | Check the Vault Policy attached to the role VSO is using (e.g., `lca-prd-2-read`). |
 | Double Namespace | `404 Not Found` in Vault path | Check if `spec.namespace` is relative or absolute. Avoid double nesting like `admin/admin/…`. |
 | ArgoCD Priority | Valid secret but ArgoCD fails | Find and delete manual `repo-creds` secrets overriding the VSO `repository` secret. |
+| Startup Crash (.NET) | `User creation failed` / `Identity error` | **Password Complexity**: Ensure the Vault-stored password meets Microsoft Identity requirements (Upper, Lower, Num, Special). |
 
 ---
 
@@ -90,26 +103,23 @@ Priority Warning: In ArgoCD, `repo-creds` take priority over `repository` secret
 
 If a secret is stuck or out of sync, follow this exact sequence:
 
-1. Patch to Overwrite:
-
+1. **Patch to Overwrite** (if not already set):
    ```bash
-   kubectl patch vaultdynamicsecret <name> -n <ns> --type='merge' -p '{"spec":{"destination":{"overwrite":true}}}'
+   kubectl patch <kind> <name> -n <ns> --type='merge' -p '{"spec":{"destination":{"overwrite":true}}}'
    ```
 
-2. Delete K8s Secret:
+2. **The "Dummy Annotation" Trick** (Bypass polling interval):
+   Inject a timestamp to force an immediate reconciliation without deleting the secret.
+   ```bash
+   kubectl annotate <kind> <name> -n <ns> force-sync=$(date +%s) --overwrite
+   ```
 
+3. **Delete K8s Secret** (If patching fails):
    ```bash
    kubectl delete secret <secret-name> -n <ns>
    ```
 
-3. Trigger VSO Sync:
-
-   ```bash
-   kubectl annotate vaultdynamicsecret <name> -n <ns> force-sync=$(date +%s) --overwrite
-   ```
-
-4. Restart Consumer:
-
+4. **Restart Consumer**:
    ```bash
    kubectl rollout restart deployment <deployment-name> -n <ns>
    ```
@@ -120,3 +130,38 @@ If a secret is stuck or out of sync, follow this exact sequence:
 
 - Cleanup: Regularly check for orphaned `VaultDynamicSecret` leases in Vault. If multiple VDS target the same SP, they can pile up hundreds of credentials.
 - Single Source: Prefer using a single `VaultDynamicSecret` in the `argocd` namespace and use Reflector to push it to other namespaces, rather than creating identical VDS resources everywhere.
+
+---
+
+### 7. Audit & Documentation (The Wiki Builder)
+
+Use these commands to generate a real-time "wiring diagram" of cluster secrets.
+
+#### A. Map VSO Resources to Vault Paths
+```bash
+kubectl get vaultstaticsecrets,vaultdynamicsecrets -A \
+  -o jsonpath='{range .items[*]}{.kind}{" | "}{.metadata.namespace}{" | "}{.metadata.name}{" | vaultAuthRef="}{.spec.vaultAuthRef}{" | vaultNS="}{.spec.namespace}{" | mount="}{.spec.mount}{" | path="}{.spec.path}{" | dest="}{.spec.destination.name}{"\n"}{end}' \
+| sort
+```
+
+#### B. Map Namespace Authentication Methods
+```bash
+kubectl get vaultauth -A \
+  -o jsonpath='{range .items[*]}{.metadata.namespace}{" | "}{.metadata.name}{" | method="}{.spec.method}{" | mount="}{.spec.mount}{" | vaultNS="}{.spec.namespace}{" | role="}{.spec.jwt.role}{" | sa="}{.spec.jwt.serviceAccount}{"\n"}{end}' \
+| sort
+```
+
+#### C. Generate a Markdown Secrets Map
+```bash
+OUT="secrets-map-$(date +%F).md"
+{
+  echo "# Cluster Secrets Wiring Map"
+  echo "Generated: $(date)"
+  echo
+  echo "## VaultAuth Strategy per Namespace"
+  kubectl get vaultauth -A -o jsonpath='{range .items[*]}- {.metadata.namespace}: method={.spec.method}, mount={.spec.mount}, vaultNS={.spec.namespace}, role={.spec.jwt.role}, sa={.spec.jwt.serviceAccount}{"\n"}{end}' | sort
+  echo
+  echo "## VSO Managed Secrets (Creation Logic)"
+  kubectl get vaultstaticsecrets,vaultdynamicsecrets -A -o jsonpath='{range .items[*]}- {.kind} `{.metadata.namespace}/{.metadata.name}` → dest=`{.spec.destination.name}` (type=`{.spec.destination.type}`), vaultNS=`{.spec.namespace}`, mount=`{.spec.mount}`, path=`{.spec.path}`, vaultAuthRef=`{.spec.vaultAuthRef}`{"\n"}{end}' | sort
+} > "$OUT"
+```

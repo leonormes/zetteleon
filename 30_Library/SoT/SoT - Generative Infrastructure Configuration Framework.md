@@ -63,6 +63,17 @@ generated/values.yaml  ← The Manifest: The volatile output (Machine Read)
 | **Policy** (`policy_defaults.cue`) | Platform constants (Chart versions, persistence sizes) | No customer-specific data. |
 | **Transformation** (`render.cue`) | Maps flat facts to nested YAML structures | Zero literals; pure read from infra/policy. |
 
+### The Layer Ownership Rule
+
+To maintain system integrity, every layer has a strict "No Literals" boundary:
+
+1. **`customer.yaml`**: Owns customer-specific literals only.
+2. **`policy_defaults.cue`**: Owns platform-wide constants only.
+3. **`locals.tf`**: Owns **Derived values only**—no new literals.
+4. **`render_fitfile.cue`**: Owns **Mapping only**—reads from `infra.*` and `policy.*`, zero literals.
+
+> **Onboarding Rule**: Never manually edit the output in `generated/values.yaml`. If you need to change a platform setting, edit `policy_defaults.cue`. If you need to map a new secret or toggle for an app, edit `render_fitfile.cue`.
+
 ### The Generative Protocols ("The Math")
 
 A core GIC implementation uses deterministic algorithms to eliminate human error in networking and naming.
@@ -98,7 +109,8 @@ Terraform acts as the "Root Generator," producing values that are passed to Helm
 
 ### Level 2: CUE (Constraint-Based)
 
-For high-maturity environments, CUE (Configure, Unify, Execute) replaces simple templating.
+For high-maturity environments, CUE (Configure, Unify, Execute) replaces simple templating. See [[SoT - CUE Configuration]] for the underlying logic of Unification.
+
 - **Schema as Truth**: A single CUE struct defines the "Secret Contract".
 - **Multi-Target Export**: The same CUE definition exports the Vault Policy (HCL), Kubernetes Secret (YAML), and App Config (.env).
 - **Validation**: A mismatch between the Vault path and the K8s secret definition is caught as a Bottom (⊥) value (contradiction) during evaluation, preventing deployment.

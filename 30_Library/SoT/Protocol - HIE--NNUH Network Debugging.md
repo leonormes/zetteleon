@@ -183,3 +183,36 @@ kubectl get endpoints -n ${K8S_NAMESPACE} ${K8S_SERVICE_NAME}
 | `nc` fails (Connection Refused) | Port Closed | Check Pod Health, Service Port mapping. |
 | `curl --resolve` works, Public IP fails | Public Edge Issue | Check WAF, Public LB, or NAT rules. |
 | `kubectl get endpoints` is empty | Service has no Pods | Check Pod Labels and Deployment status. |
+
+---
+
+## 5. Certificate & DNS Validation
+
+### A. Cert-Manager Status (In-Cluster)
+```bash
+# 1. Check if the certificate is Ready
+kubectl get certificate -n <namespace> <cert-name> -o wide
+
+# 2. Inspect if the challenge is stuck (DNS-01 vs HTTP-01)
+kubectl get challenges -n <namespace>
+kubectl get orders -n <namespace>
+```
+
+### B. Remote TLS Verification (From Jumpbox/Netshoot)
+```bash
+# 3. Quick TLS Health Check (Issuer, SAN, Expiry)
+openssl s_client -connect <hostname>:443 -servername <hostname> </dev/null 2>/dev/null | openssl x509 -noout -subject -issuer -dates -ext subjectAltName
+
+# 4. Full Connectivity + Trust Check
+curl -vI https://<hostname> 2>&1 | grep -E "Connected to|SSL connection|subject:|issuer:|expire|HTTP/"
+```
+
+### C. Split-Horizon Trace
+Confirm the resolver path is correct for the environment:
+```bash
+# 5. Check iterative resolution path
+dig +trace <hostname>
+
+# 6. Check upstream resolver on Jumpbox
+resolvectl status
+```

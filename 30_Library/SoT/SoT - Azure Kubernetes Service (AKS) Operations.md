@@ -28,6 +28,12 @@ Deploying to AKS involves navigating specific Azure resource constraints and con
 - **Error**: Deployment fails if `EncryptionAtHost` is not enabled.
 - **Solution**: Enable `EncryptionAtHost` via Azure CLI at the subscription level.
 
+### 1.4 Private AKS RBAC Permissions
+- **Problem**: Deployment fails during role assignment for the AKS Managed Identity (e.g., `Network Contributor` or `Private DNS Zone Contributor`).
+- **Cause**: The deployment Service Principal (e.g., Terraform runner) lacks `Microsoft.Authorization/roleAssignments/write` permission.
+- **Solution**: Grant the SP `Role Based Access Control Administrator` or `User Access Administrator` at the required scope.
+- **Protocol**: See [[Protocol - Azure Private AKS Deployment]] for detailed implementation and Terraform examples.
+
 ---
 
 ## 2. Advanced Autoscaling (Karpenter for AKS)

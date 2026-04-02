@@ -70,6 +70,18 @@ Align the data layout with the hardware reality (CPU Caches).
 - Structure of Arrays (SoA): Store homogenous data contiguously (e.g., all `Positions` together). This maximizes cache line utilization and enables SIMD.
 - Array of Structures (AoS): The typical OOP pattern (`class Ball { pos, color }`). This pollutes the cache with irrelevant data when processing only one attribute.
 
+### 4.4 Mathematical Abstraction (Lamport)
+
+Complexity in concurrent systems is managed not through code, but through the rigorous application of mathematical abstraction and state machine models. Use **Invariants** to define what must always be true and **TLA+** to formally specify transitions.
+
+- **Link:** [[SoT - Abstracting Concurrent Systems]]
+
+### 4.5 Cybersecurity & Resilience (NIST CSF)
+
+The NIST Cybersecurity Framework (CSF) organizes risk management around six functions: Govern, Identify, Protect, Detect, Respond, and Recover. Microsegmentation and Zero Trust are the primary technical drivers for operationalizing this framework, moving complexity from reactionary response to proactive protection.
+
+- **Link:** [[SoT - NIST Cybersecurity Framework]]
+
 ---
 
 ## 5. The Litmus Test: "Good Taste"

@@ -45,12 +45,14 @@ When a task lacks intrinsic motivation, the Problem Definer must "gamify" the ex
 
 ### 3. Execution Protocols
 
-#### 3.1 The Scope-Lock & Starter Task
+#### 3.1 The Thinking Stream & 120s Loop
+Before any action, you must clear mental RAM. See **[[SoT - ProdOS Thinking Stream]]** for the Capture-Refine-Process-Exit loop.
 
-Before any action, you must define the Starter Task (Momentum Generator).
-
-- Rule: The MVA must be so small it is impossible to fail (e.g., "Open the code editor").
-- The Unit Test: The minimum verifiable criteria for success.
+#### 3.2 The Scope-Lock & Starter Task (MVA)
+The **Minimal Viable Action (MVA)** is the atomic unit of execution.
+- **Rule:** The MVA must be a physical, binary task so small it is impossible to fail (e.g., "Open the code editor").
+- **Energy:** The goal is to reduce Activation Energy to $\approx 0$.
+- **The Unit Test:** The minimum verifiable criteria for success.
 
 #### 3.2 The Ignition Protocol ("Heat")
 

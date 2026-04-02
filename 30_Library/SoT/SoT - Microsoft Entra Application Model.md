@@ -1,6 +1,6 @@
 ---
 created: 2026-02-09T17:00:00+00:00
-modified: 2026-02-09T16:56:06+00:00
+modified: 2026-04-02T11:00:00+00:00
 tags: [architecture, azure, entra, identity, SoT]
 title: SoT - Microsoft Entra Application Model
 ---
@@ -9,53 +9,30 @@ title: SoT - Microsoft Entra Application Model
 
 Microsoft Entra ID (formerly Azure AD) separates the definition of an application from its instantiation to support multi-tenancy.
 
-- Application Registration (The Class): The global blueprint. Defines _what_ the app is (Client ID, Redirect URIs, Required Permissions). Lives in the home tenant only.
-- Enterprise Application / Service Principal (The Instance): The local representation. Defines _how_ the app runs in a specific tenant (User Assignment, Conditional Access, Granted Permissions). Lives in every tenant where the app is used.
+> **One-Sentence Summary:** Application Registrations define apps; Service Principals run apps inside tenants.
 
-> Analogy: App Registration is the DNA/Class; Service Principal is the Organism/Object Instance.
+- **Application Registration (The Blueprint):** The abstract definition. Defines _what_ the app is (Client ID, Redirect URIs, Scopes). Lives in the home tenant only.
+- **Enterprise Application / Service Principal (The Instance):** The runtime identity. Defines _how_ the app behaves in a specific tenant (User Assignment, Conditional Access, Consented Permissions). Lives in every tenant where the app is used.
 
 ---
 
 ## 1. The Core Data Structure
 
-This architectural split enables SaaS vendors to define an app once (App Registration) and have it consumed by thousands of customers (Service Principals) with independent security policies.
+### The Rule
+Every Enterprise Application (Service Principal) points back to exactly one Application Registration. One Application Registration can have many Service Principals (one per tenant).
 
-```d2
-direction: down
+### Why Entra Splits Them (Operational Concerns)
 
-home_tenant: "Home Tenant (Developer)" {
-  app_reg: "Application Registration\n(The Blueprint)"
-  app_id: "Application ID\n(Global GUID)"
-  manifest: "Manifest\n(Redirect URIs, Roles)"
-  sp_home: "Service Principal\n(Local Instance)"
+| Concern | Responsibility | Target Object |
+|:--- |:--- |:--- |
+| **App Design** | Blueprint, OAuth2 Scopes, Roles, Manifest | **Application Registration** |
+| **Identity Control** | Users/Groups, MFA, Conditional Access | **Service Principal** |
+| **Permissions** | *Requesting* API access (Scopes) | **Application Registration** |
+| **Permissions** | *Granting* Admin Consent | **Service Principal** |
 
-  app_reg -> app_id: Defines
-  app_reg -> manifest: Defines
-  app_reg -> sp_home: Instantiates {
-    style: {
-      stroke-dash: 5
-    }
-  }
-}
+---
 
-tenant_a: "Customer Tenant A" {
-  sp_a: "Service Principal\n(Local Instance)"
-  users_a: "User Assignments"
-  pol_a: "Conditional Access"
-
-  sp_a -> home_tenant.app_id: References
-  sp_a -> users_a: Controls
-  sp_a -> pol_a: Controls
-}
-
-tenant_b: "Customer Tenant B" {
-  sp_b: "Service Principal\n(Local Instance)"
-
-  sp_b -> home_tenant.app_id: References
-}
-```
-
-### Attribute Mapping
+## 2. Attribute Mapping
 
 | Feature | App Registration (Application Object) | Enterprise App (Service Principal) |
 |:--- |:--- |:--- |
@@ -64,10 +41,11 @@ tenant_b: "Customer Tenant B" {
 | You edit this to… | Add a Client Secret, change Redirect URI, define Roles. | Assign Users, set Conditional Access, Consent to Permissions. |
 | Data Anchor | `manifest.json` | Local Directory Object (`objectId`) |
 | Key ID | `appId` (Client ID) | `objectId` (Instance ID) |
+| Runtime Use | Identifying the app during Auth | Getting the token and enforcing policy |
 
 ---
 
-## 2. Managed Identities: The "Headless" Service Principal
+## 3. Managed Identities: The "Headless" Service Principal
 
 Managed Identities are a special case of this model where the "Blueprint" is hidden and managed by Microsoft.
 

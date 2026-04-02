@@ -2,127 +2,85 @@
 aliases: [ProdOS Index, Productivity Operating System, Start Here]
 created: 2025-12-04T14:38:32Z
 id: MOC - ProdOS
-last_reviewed: 2026-02-01
-modified: 2026-02-11T22:34:54+00:00
+last_reviewed: 2026-04-02
+modified: 2026-04-02T12:05:00+01:00
 status: stable
-tags: ["SoftwareEngineering/Architecture", prodos]
+tags: ["SoftwareEngineering/Architecture", prodos, moc]
 title: MOC - ProdOS
 type: map
 ---
 
 ## ProdOS - Productivity Operating System
 
-### 1. ProdOS: The Thinking Stream (Quick Start)
+### 1. The Thinking Stream (Quick Start)
+_A low-friction loop for rapid processing._
 
-_A low-friction, low-energy loop for rapid processing. Use this when you just need to think._
-
-> [!important] The Rule of Zero Toil
-> If it feels like "organizing," stop. This view is for Thinking and Doing only.
-
-1. CAPTURE: Dump noise into Daily Note. Raw text only.
-2. REFINE: If stuck, create a HEAD Note in `20_Thinking`.
-3. PROCESS (The 120s Loop):
-    - Goal: What is the single outcome?
-    - Block: What is the exact friction?
-    - MVA: What is the next physical step (<120s)?
-4. EXIT:
-    - Action? -> Todoist.
-    - Fact? -> SoT Note.
-    - Skill? -> Hangar (Project Note).
-    - Trash? -> DELETE the note.
-
-The Guardrails:
-
-- NO FOLDERS: Dump everything in `20_Thinking`.
-- NO POLISHING: Messy is fine.
-- NO STORAGE: If not actionable in 24h, delete.
+- **The Process:** [[SoT - ProdOS Thinking Stream]]
+- **The Core Loop:** CAPTURE $\rightarrow$ REFINE $\rightarrow$ PROCESS (120s) $\rightarrow$ EXIT.
+- **The Metric:** Actions Taken vs. Intentions Formed.
 
 ---
 
 ### 2. The Core Architecture (The Kernel)
+The definitive specification of the system and its biological basis.
 
-The definitive specification of the system, its biological basis, and the "Why".
-
-- [[SoT - PRODOS Core Specification]]—_The Flow-Oriented cybernetic architecture. Defines the Zero-Maintenance Baseline, The Core Loop, and The MVA._
-- [[SoT - The Cognitive Physiology of Task Execution]]—_The scientific basis for decoupling Initiation, Encoding, and Monitoring._
-- [[SoT - The Extended Mind]]—_The philosophy of cognitive extension and Active Externalism._
-- [[SoT - Behavioral Architecture]]—_The Grand Unified Theory: System > Willpower, Hydraulic Models, Environmental Determinism, and Friction._
+- [[SoT - PRODOS Core Specification]]—_The Unified Specification._
+- [[SoT - The Cognitive Physiology of Task Execution]]—_Initiation, Encoding, Monitoring._
+- [[SoT - The Extended Mind]]—_Active Externalism._
+- [[SoT - Behavioral Architecture]]—_Environmental Determinism._
 
 #### Key Frameworks
-
-- The Dual-Axis Model: Managing Time (Azimuth) and Attention (Elevation) simultaneously.
-- The IBNS: Leveraging the Interest-Based Nervous System (INCUP) instead of importance.
-- [[SoT - The User Interface of the Self]]: Recognizing the "Self" as a retrospective narrative rather than a central command.
+- **PINCH Model:** (Play, Interest, Novelty, Challenge, Hurry) for task engagement.
+- **Dual-Axis Model:** Azimuth (Time) and Elevation (Attention).
+- [[SoT - The User Interface of the Self]]: The retrospective narrative.
 
 ---
 
 ### 3. The Cognitive Pipeline (The Lifecycle)
 
 #### Phase 1: Capture & Routing (Input)
-
-- [[Reference - File Structure]]—_The 6-Component Architecture (Stream, HUD, Engine, Workbench, Canon, Archive)._
-- [[SoT - PRODOS Core Specification#2. Context Engineering (The Agent Protocol)|Context Engineering]]—_Protocols for Context Hygiene, Decision Lineage, and Entity Scoping._
-- [[SoT - The RPI Workflow (Context Engineering)]]—_The Research-Plan-Implement workflow for reliable context management._
-- [[SoT - Cognitive Engineering Protocols]]—_Tactical tools for clearing RAM (Brain Dumping) and Emotional Regulation (Journaling)._
+- [[Reference - File Structure]]—_Stream, HUD, Engine, Workbench, Canon, Archive._
+- [[Protocol - Autonomous Action System]]—_Agentic automation for Todoist/Obsidian._
+- [[Protocol - Action-First GTD (LLM Chief of Staff)]]—_Low-friction capture and organization._
+- [[SoT - The RPI Workflow (Context Engineering)]]—_Research-Plan-Implement._
+- [[SoT - Cognitive Engineering Protocols]]—_RAM Clearing & Emotional Regulation._
 
 #### Phase 2: Thinking & Refinement (Processor)
-
-- [[SoT - PRODOS Core Specification#3.1 Knowledge Synthesis (Writing is Thinking)|Knowledge Synthesis]]—_The unified protocol for converting thought into knowledge (Writing to Think, Note Types, Refinement)._
-- [[SoT - PRODOS Core Specification#3.2 Learning Architecture (The Attack)|Learning Architecture]]—_The Hangar (Setup) -> Cockpit (Deep Dive) -> Cryosleep (Consolidate) workflow._
-- [[SoT - Material Symbols]]—_Using language and artifacts as active computational scaffolding._
-- [[SoT - Generative Intelligence]]—_The capacity to synthesize new paradigms (Scientific Revolution) vs. optimizing existing ones (Normal Science)._
+- [[Stage 5 Synthesise (The Outcome Layer)|SoT - Knowledge Synthesis]]—_Converting thought into canonical SoTs._
+- [[SoT - Accelerated Learning (3C Protocol)|SoT - Learning Architecture (The Attack)]]—_Hangar $\rightarrow$ Cockpit $\rightarrow$ Cryosleep._
+- [[SoT - Material Symbols]]—_Computational scaffolding._
 
 #### Phase 3: Action & Persistence (Output)
-
-- [[SoT - PRODOS Core Specification#4. Execution Rules (The Constraints)|Execution Rules]]—_The MVA, Definition of Done, and Action Protocols._
-- [[SoT - Temporal Management (Blocking and Boxing)]]—_Strategic Time-Blocking vs. Tactical Time-Boxing._
-- [[SoT - PRODOS Core Specification#5. State Management (Cryosleep)|Cryosleep Protocol]]—_The "Save State" mechanism for minimizing context-switching costs._
-- [[SoT - Bridging the Intention-Action Gap]]—_Protocols for overcoming high activation energy._
-- [[SoT - Perfectionism and Analysis Paralysis]]—_Overcoming the blocks that prevent shipping._
+- [[SoT - Execution Protocol (GTD & PARA)|SoT - Execution Rules]]—_The MVA and Definition of Done._
+- [[SoT - Temporal Management (Blocking and Boxing)]]—_Blocking vs. Boxing._
+- [[SoT - PRODOS Core Specification#4. State Management (Cryosleep)|SoT - Cryosleep Protocol]]—_Minimizing context-switch costs._
 
 ---
 
 ### 4. Protocols & Fuel (Operations)
-
-- [[SoT - Protocol - The Launch Sequence]]—_A concrete algorithm for bypassing task initiation paralysis._
-- [[SoT - PRODOS Black Box Protocol]]—_Systematizing failure into architectural improvements._
-- [[SoT - Indistractable Model (Focus Management)]]—_Managing internal and external triggers._
-- [[SoT - ADHD Management Protocols]]—_The Runtime Fuel Station (Dopamine Menu), Environmental Design, and Developer Toolkit._
-- [[Protocol - Weekly Command Centre]]—_The system reset ritual to restore trust and clear technical debt._
-- [[SoT - Learning Mechanisms]]—_The 30-Day Brain Rewiring Experiment and the choice between Reading and Scrolling._
+- [[SoT - Protocol - The Launch Sequence]]—_Bypassing initiation paralysis._
+- [[SoT - PRODOS Black Box Protocol]]—_Systematizing failure._
+- [[Protocol - Weekly Command Centre]]—_The system reset ritual._
+- [[SoT - ADHD Management Protocols]]—_The Dopamine Menu & Toolkit._
 
 ---
 
 ### 5. Active Workbench (Volatile)
-
-_Current thinking streams and evolving models. These are NOT Source of Truth yet._
-
-- [[HEAD - Integrating Rocks into ProdOS]]—_Exploration of "Rocks" (Quarterly Goals) within the ProdOS framework._
-- [[HEAD - Modeling Resistance in ProdOS]]—_Investigating the friction points in the system._
-- [[HEAD - ProdOS Grafana Integration]]—_Technical exploration of visualizing ProdOS metrics._
+- [[HEAD - ACR Image Retention Strategy]]
+- [[HEAD - Image Architecture Strategy]]
+- [[HEAD - Velero Implementation Planning]]
 
 ---
 
-### 6. System Resources & Templates
-
-_Standardized tools for system maintenance._
-
----
-
-#### Phase 7: Feedback & Identity (Loop)
-
-How to sustain the system and grow.
-
-- [[SoT - Habit Formation Framework]]—_The Theory: Identity-Based Habits, Process Primacy, and The Four Laws._
-- [[SoT - Behavioral Protocols]]—_The Practice: Map-Build-Dismantle (Change) and The Honeyman Method (Sustain)._
-- [[SoT - ADHD Neurology & Core Concepts]]—_Understanding the Hardware (INCUP), Emotional Regulation (RSD), and Strengths._
-- [[SoT - ADHD Self-Compassion & Strengths]]—_Reframing "Deficits" as "Different Hardware" (Race Car Brain) and "Superiority" as "Authenticity"._
-- [[SoT - Metaphysics of Purpose]]—_The taxonomy of cosmic purpose (Latent vs. Created) and the "Four Universes" framework._
+### 6. Related System Maps
+- [[MOC - ADHD Management]]—_Strategies for the neurodivergent brain._
+- [[MOC - Action Management]]—_The mechanics of task flow and execution._
+- [[MOC - Day Architecture for Peak Performance]]—_The daily rhythm and schedule._
+- [[MOC - Interpretation of References]]—_The semantics of the system._
 
 ---
 
 System Logs & Visibility:
-
 - [[SoT.base|All Source of Truth Notes]]
 - [[MOCx.base|All Maps of Content]]
 - [[Thinking.base|Active Thinking Threads (RAM)]]

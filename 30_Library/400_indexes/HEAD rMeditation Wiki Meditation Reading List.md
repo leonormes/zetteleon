@@ -1,12 +1,12 @@
 ---
-captured: "2026-03-28T17:55:14+00:00 2026-03-28T17:55:14+00:00"
+captured: 2026-03-28T17:55:14+00:00 2026-03-28T17:55:14+00:00
 created: 2026-03-28T17:55:19+00:00
 modified: 2026-03-29T11:07:27+00:00
-source: "https://www.reddit.com/r/Meditation/wiki/booklist/"
-status: "processing"
-tags: ["input"]
+source: https://www.reddit.com/r/Meditation/wiki/booklist/
+status: processing
+tags:
 title: HEAD rMeditation Wiki Meditation Reading List
-type: "head"
+type: index
 ---
 
 ## Meditation Reading List

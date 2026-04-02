@@ -1,10 +1,10 @@
 ---
 created: 2026-04-01T21:47:06+00:00
-last-synthesis: 2026-04-01
-modified: 2026-04-01T21:47:06+00:00
+last-synthesis: 2026-04-02
+modified: 2026-04-02T10:35:00+00:00
 source_of_truth: true
 status: evergreen
-synthesis-count: 1
+synthesis-count: 2
 tags: [domain/networking, security/segmentation, theory/zero-trust, type/SoT]
 title: SoT - Network Segmentation
 trust-level: stable
@@ -26,18 +26,18 @@ Network segmentation is the practice of dividing a network into smaller, isolate
 | **Software-Defined (SDN)** | Programmatic policy management (SDN controllers). | Dynamic and scalable; essential for cloud environments. |
 | **Microsegmentation** | Policy at the individual workload/app level. | Most granular; requires advanced automation/visibility. |
 
-### 2. Zero Trust Alignment (NIST SP 800-207)
+### 2. Comparisons & Building Blocks
 
-- **Continuous Verification:** No location confers implicit trust; every session must be authenticated and authorized.
-- **Micro-perimeters:** Enforcement points move as close to the resource as possible (e.g., sidecars, host firewalls).
-- **Policy Engine:** Authorization decisions are made by Policy Decision Points (PDPs) based on device health, user identity, and threat intelligence.
+- **Segmentation vs. VLANs:** VLANs are a Layer 2 logical grouping tool. They are a *building block* of segmentation but lack the granular access control and Layer 3+ inspection required for a complete segmentation strategy.
+- **Segmentation vs. Firewalling:** Segmentation defines the *structural isolation* (the zones), while firewalls act as the *gatekeepers* enforcing rules and inspecting traffic flowing between those zones.
 
-### 3. Implementation Phases
+### 3. Multi-Dimensional Benefits
 
-1. **Assessment & Baseline:** Map current data flows and classify all workloads.
-2. **Policy Definition:** Define least-privilege rules; implement initially in "monitoring mode."
-3. **Enforcement:** Progressively activate policies, starting with high-value assets.
-4. **Optimization:** Continuous testing via simulated attacks and rule refinement.
+Beyond breach containment, segmentation provides:
+- **Performance Optimization:** Reduces network congestion by localizing traffic and improving resource allocation.
+- **Simplified Compliance:** Isolates regulated assets (PCI DSS, HIPAA, GDPR), reducing the scope of audits and reporting.
+- **Management Visibility:** Provides clearer insight into traffic flows and user behavior, enabling more efficient troubleshooting.
+- **Insider Threat Mitigation:** Restricts access to sensitive systems based on the principle of **Least Privilege**.
 
 ## Current Understanding
 
@@ -45,8 +45,9 @@ Network segmentation is the practice of dividing a network into smaller, isolate
 
 Modern segmentation rejects the "castle-and-moat" perimeter. Instead, it assumes breach (Zero Trust) and focuses on the internal blast radius. 
 
+- **Incident Response Role:** Segmentation accelerates containment and investigation. It allows security teams to isolate compromised segments without disrupting the entire network, potentially containing breaches in as little as 24 hours.
 - **Case Study (Colonial Pipeline):** The lack of segmentation between IT and OT networks allowed ransomware to spread laterally, causing catastrophic operational failure.
-- **Strategic Value:** Segmentation is not just a technical control; it is a financial imperative. IBM research indicates that organizations with mature containment capabilities (like segmentation) reduce breach costs by millions by dropping the average breach lifecycle.
+- **Strategic Value:** Segmentation is not just a technical control; it is a financial imperative. IBM research indicates that organizations with mature containment capabilities reduce breach costs by millions.
 
 ## Related Knowledge
 
