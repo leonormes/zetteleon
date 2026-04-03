@@ -1,11 +1,11 @@
 ---
 aliases: [Data-Centric Design Index, Engineering MOC, SDLC MOC, The Data-First Hub]
 created: 2025-02-15T07:24:57Z
-last_reviewed: 2026-04-02
-modified: 2026-04-02T13:00:00+00:00
+last_synthesis: 2026-04-02
+modified: 2026-04-02T15:15:00+00:00
 source_of_truth: true
 status: evergreen
-synthesis-count: 2
+synthesis-count: 3
 tags: [data-centric, programming, sdlc, architecture, engineering, prodos/moc]
 title: MOC - Data-Centric Software Engineering
 type: map
@@ -13,38 +13,27 @@ type: map
 
 ## 1. The Logical Thread: "Structure is Truth"
 
-The Data-Centric philosophy follows an unbroken chain from the physical constraints of hardware to the high-level modeling of logic.
+The philosophy of **Data-First Programming** follows an unbroken chain from the physical constraints of hardware to the high-level modeling of logic.
 
 | Level | Role | Source of Truth | Core Principle |
 |:--- |:--- |:--- |:--- |
-| **1. The Axiom** | Worldview | [[SoT - The Data-Centric Philosophy]] | "Data Dominates Code." The physical reality of hardware (Cache/Memory) dictates that Structure is the primary truth. |
-| **2. The Theory** | Mathematics | [[MOC - Type Theory]] | "Applied Category Theory." Using Sum/Product types to model that structure with mathematical rigor. |
-| **3. The Practice** | Methodology | [[SoT - Type-Driven Development (The Torvalds Loop)]] | "The Torvalds Loop." A 4-phase protocol: **Shape $\to$ Access $\to$ Invariants $\to$ Logic**. |
+| **1. The Axiom** | **Worldview** | [[SoT - The Data-Centric Philosophy]] | **"Data Dominates Code."** Linus Torvalds: "Bad programmers worry about the code. Good programmers worry about data structures." |
+| **2. The Theory** | **Mathematics** | [[MOC - Type Theory]] | **"Applied Category Theory."** Modeling structure with Sum/Product types and mathematical invariants. |
+| **3. The Physics** | **Performance** | [[SoT - Data-Oriented Design]] | **"Hardware is the Platform."** Cache-aligned data layout (SoA vs. AoS) for massive performance gains. |
+| **4. The Practice** | **Methodology** | [[SoT - Type-Driven Development (The Torvalds Loop)]] | **"The Torvalds Loop."** A 4-phase protocol: **Shape $\to$ Access $\to$ Invariants $\to$ Logic**. |
 
 ---
 
 ## 2. The Development Curriculum: "Data-First" Mindset
 
-_For the formal learning path, see [[SoT - Curriculum - Data-Oriented Design]]._
-
 - **The Torvalds Loop**: The strict protocol where Logic is the *last* consideration.
 - **Parse, Don't Validate**: Move validation to the boundary; transform raw input into "Trusted Types."
 - **Making Invalid States Unrepresentable**: Using the type system to mathematically prove system integrity.
-- **Good Taste**: [[SoT - The Data-Centric Philosophy#5. The Litmus Test: \"Good Taste\"|The Indirect Pointer Pattern]]—solving edge cases via structure rather than `if` statements.
+- **Good Taste**: [[SoT - The Data-Centric Philosophy#4. The Litmus Test: \"Good Taste\"|The Indirect Pointer Pattern]]—solving edge cases via structure rather than `if` statements.
 
 ---
 
-## 3. Theoretical Frameworks (The Masters)
-
-- **Simplicity**: [[SoT - Simple Made Easy (Rich Hickey)]]—The definitive guide to "decomplecting" state and logic.
-- **Reliability**: [[SoT - The Data-Centric Philosophy|The Error Kernel & \"Let It Crash\"]] (Erlang/OTP patterns).
-- **Design**: [[SoT - The Data-Centric Philosophy|Semantic Compression over DRY]]—prioritizing data clarity over clever abstraction.
-- **Hardware Alignment**: [[SoT - Data-Oriented Design]] (DOD)—Aligning data layout with CPU Cache lines.
-- **Formal Verification**: [[SoT - Abstracting Concurrent Systems]]—Using **TLA+** to model state transitions before writing code.
-
----
-
-## 4. Applied Data-Centricity (The Stack)
+## 3. Data Architectures & Systems (Lines of Thought)
 
 ### A. Infrastructure & Systems (Infrastructure as Data)
 *Core Map: [[MOC - Data-Centric Infrastructure]]*
@@ -52,30 +41,30 @@ _For the formal learning path, see [[SoT - Curriculum - Data-Oriented Design]]._
 - **GitOps**: [[200_projects/10_Infrastructure/gitops/git index.md|The Git Data Perspective]]—Git as a Content-Addressable Merkle DAG.
 - **Secrets**: [[SoT - Vault KV Data Structure]]—Vault as a Versioned Prefix Trie.
 - **Integrity**: [[SoT - Vault KV Data Structure#6. The Integrity Model (Merkle Tree)|Merkle Trees]]—Recursive integrity proofs and binary identity.
-- **Shell**: [[SoT - Type-Driven Shell Architecture]]—The Shell as an instantiated Data Structure.
 
 ### B. Networking & IAM (Networking as State Transport)
 *Core Map: [[MOC - Data-Centric Networking]]*
 
 - **The Theory**: [[SoT - The Data-Centric Theory of Networking]]—Routing as prefix-trie traversal.
 - **Encapsulation**: [[SoT - The Architecture of Packet Encapsulation (TCP-IP)]]—The recursive nesting of data containers.
-- **Security**: [[200_projects/10_Infrastructure/Cloud/Security Principles Applied to Data.md|Data-Centric Cloud Security]]—Focusing on the packet journey through devices.
 - **Identity**: [[SoT - Data-Centric IAM in Zero Trust]]—AuthZ as a data-processing operation on the PDP/PEP.
 
-### C. Development Lifecycle
-- **TDD**: [[SoT - Test-Driven Development]]—TDD as "Semantic Anchoring" (Validating the data transformation).
-- **Commits**: [[The Fundamental Misconception Commits as Diffs]]—Understanding snapshots (State) over changes (Logic).
+### C. Internals & High Performance
+*Core Map: [[MOC - Data-Oriented Structures & Internals]]*
+
+- **The Structures**: [[SoT - High-Performance Data Structures]]—Ring Buffers, Flattened Trees, CSR Graphs.
+- **The Safe Pointer**: [[SoT - Slot Map (Generational Arena)]]—Referencing data without pointers.
+- **The Engine**: [[SoT - Database Internals for Systems Programmers]]—Storage Pages, B-Trees, and MVCC.
 
 ---
 
-## 5. Engineering Prompts
+## 4. Engineering Prompts
 
 - [[Prompt - Data-Centric Coding Assistant]]—Enforcing the Data-First Design Loop.
 - [[Prompt - Senior Systems Architect (Data-Centric Refactor)]]—Refactoring technical fragments into rigorous SoT.
-- [[Prompt - Data-Centric IDE Analysis]]—IDE-specific prompts for structural code analysis.
 
 ---
 
-## 6. Related Domains
+## 5. Related Domains
 - [[MOC - Interpretation of References]]—Mapping symbols (code) to memory/reality.
-- [[MOC - Data-Oriented Structures & Internals]]—Low-level data structures (B-Trees, LSM-Trees).
+- [[SoT - Simple Made Easy (Rich Hickey)]]—Decomplecting state and logic.

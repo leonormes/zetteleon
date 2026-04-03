@@ -1,11 +1,11 @@
 ---
-aliases: ["Data Dominates Code", "Data-Centric Software Engineering", "Data-Oriented Programming", "DOD", "DOP", "Linus's Law", "The Data-Centric Philosophy"]
+aliases: ["Data Dominates Code", "Data-Centric Software Engineering", "Data-Oriented Programming", "DOD", "DOP", "Linus's Law", "The Data-Centric Philosophy", "The Axiom of Data"]
 created: 2025-12-22T00:00:00Z
-last_synthesis: 2026-02-03
-modified: 2026-02-05T19:59:42+00:00
+last_synthesis: 2026-04-02
+modified: 2026-04-02T15:00:00+00:00
 source_of_truth: true
 status: evergreen
-synthesis-count: 2
+synthesis-count: 3
 tags: ["complexity", "data-centric", "dod", "dop", "philosophy", "prodos/sot", "software-engineering"]
 title: SoT - The Data-Centric Philosophy
 trust-level: stable
@@ -22,85 +22,63 @@ Structure is Truth; Code is Derivative. Software complexity obeys a conservation
 
 | Architect | Mental Model | The Core Tenet |
 |:--- |:--- |:--- |
-| Linus Torvalds | Data-Centric | "Bad programmers worry about the code. Good programmers worry about data structures and their relationships." |
-| Rob Pike | Structural | "Data dominates. If you've chosen the right data structures… the algorithms will almost always be self-evident." |
-| Fred Brooks | Relational | "Show me your tables, and I won't usually need your flowcharts; they'll be obvious." |
-| Eric Raymond | Unix Philosophy | "Smart data structures and dumb code works a lot better than the other way around." |
+| **Linus Torvalds** | **Good Taste** | "Bad programmers worry about the code. Good programmers worry about data structures and their relationships." |
+| **Rob Pike** | **Structural** | "Data dominates. If you've chosen the right data structures… the algorithms will almost always be self-evident." |
+| **Fred Brooks** | **Relational** | "Show me your tables, and I won't usually need your flowcharts; they'll be obvious." |
+| **Eric Raymond** | **Unix Philosophy** | "Smart data structures and dumb code works a lot better than the other way around." |
+| **Mike Acton** | **DOD** | "Code models the world? No. Code transforms data." |
 
 ---
 
-## 2. The Economics of Schema: Why Data Matters More
+## 2. The Core Architecture: Separate Data from Behavior
+
+To prevent [[SoT - Context Rot]] and [[SoT - Parochial Code]], the Data-Centric architect adheres to these strict principles:
+
+### 2.1 Separate Data from Behavior
+- **The Rule:** Use Anemic Domain Models.
+- **Data:** Structs/Records hold *only* state. They are "dumb" containers.
+- **Behavior:** Logic resides in separate, pure functions that transform data.
+- **Why:** Eliminates the hidden state mutations and side effects of methods. It makes the "Data Flow" visible in the type signature.
+
+### 2.2 Composition Over Inheritance
+- **The Rule:** Rigid class hierarchies are forbidden.
+- **Mechanism:** Build complex types by composing simple structs (Product Types) or choosing between variants (Sum Types).
+- **Why:** Inheritance hides the flow of data; Composition makes it explicit.
+
+---
+
+## 3. The Economics of Schema: Why Data Matters More
 
 Changing code is cheap; changing data is expensive.
 
-- Code Refactoring: A function can be rewritten in an afternoon. Code has low "gravity."
-- Schema Debt: Data has mass. Changing a database schema or a public API format involves migrations, downtime, and breaking changes across the entire distributed system.
-- The Lesson: "Worrying about data structures" is a risk management strategy. You must get the _hard-to-change_ things right first.
+- **Code Refactoring:** A function can be rewritten in an afternoon. Code has low "gravity."
+- **Schema Debt:** Data has mass. Changing a database schema or a public API format involves migrations, downtime, and breaking changes across the entire distributed system.
+- **The Lesson:** "Worrying about data structures" is a risk management strategy. You must get the *hard-to-change* things right first.
 
 ---
 
-## 3. Case Study: Git's DAG
+## 4. The Litmus Test: "Good Taste"
+
+Linus Torvalds distinguishes "Good Taste" by how a developer handles edge cases.
+
+- **Bad Taste:** Using conditional logic (`if`) to patch structural gaps. The logic fights the data.
+- **Good Taste:** Using a data structure that absorbs the edge case (e.g., Indirect Pointers or dummy nodes). The logic remains uniform because the structure is complete.
+
+---
+
+## 5. Applied Philosophy: Git's DAG
 
 The architecture of Git is the ultimate proof of this philosophy.
 
-- The Problem: Merging divergent histories is a heuristic nightmare if you only track "file changes" (Code-Centric).
-- The Solution: Git tracks the _entire history_ as a Directed Acyclic Graph (DAG) of immutable snapshots.
-- The Result: Merging becomes a simple graph traversal problem. The "smart" data structure (Content-Addressable DAG) allows the code to be "dumb" (simple set operations), enabling Git to be orders of magnitude faster and safer than its predecessors.
-
----
-
-## 4. Fundamental Principles & Applications
-
-### 4.1 Table-Driven Methods
-
-Replace complex control flow (Cyclomatic Complexity) with Data Lookups.
-
-- Bad: A "Giant Switch Statement" (Logic) to handle commands.
-- Good: A "Dictionary/Map" (Data) mapping command strings to function pointers.
-- Result: Adding a new command requires _zero_ code changes to the dispatcher, only a new data entry.
-
-### 4.2 Parse, Don't Validate
-
-Instead of checking data validity at every step using booleans, parse raw input into a specific Type that _proves_ validity by its very existence. Make invalid states unrepresentable.
-
-### 4.3 Machine Sympathy (DOD)
-
-Align the data layout with the hardware reality (CPU Caches).
-
-- Structure of Arrays (SoA): Store homogenous data contiguously (e.g., all `Positions` together). This maximizes cache line utilization and enables SIMD.
-- Array of Structures (AoS): The typical OOP pattern (`class Ball { pos, color }`). This pollutes the cache with irrelevant data when processing only one attribute.
-
-### 4.4 Mathematical Abstraction (Lamport)
-
-Complexity in concurrent systems is managed not through code, but through the rigorous application of mathematical abstraction and state machine models. Use **Invariants** to define what must always be true and **TLA+** to formally specify transitions.
-
-- **Link:** [[SoT - Abstracting Concurrent Systems]]
-
-### 4.5 Cybersecurity & Resilience (NIST CSF)
-
-The NIST Cybersecurity Framework (CSF) organizes risk management around six functions: Govern, Identify, Protect, Detect, Respond, and Recover. Microsegmentation and Zero Trust are the primary technical drivers for operationalizing this framework, moving complexity from reactionary response to proactive protection.
-
-- **Link:** [[SoT - NIST Cybersecurity Framework]]
-
----
-
-## 5. The Litmus Test: "Good Taste"
-
-Torvalds distinguishes "Good Taste" by how a developer handles edge cases.
-
-- Bad Taste: Using conditional logic (`if`) to patch structural gaps. The logic fights the data.
-- Good Taste: Using a data structure that absorbs the edge case (e.g., Indirect Pointers or dummy nodes). The logic remains uniform because the structure is complete.
+- **The Problem:** Merging divergent histories is a heuristic nightmare if you only track "file changes" (Code-Centric).
+- **The Solution:** Git tracks the *entire history* as a Directed Acyclic Graph (DAG) of immutable snapshots.
+- **The Result:** Merging becomes a simple graph traversal problem. The "smart" data structure (Content-Addressable DAG) allows the code to be "dumb" (simple set operations).
 
 ---
 
 ## Related Knowledge
 
-- Methodology: [[SoT - Type-Driven Development (The Torvalds Loop)]] (How to execute this).
-- Hardware: [[SoT - Data-Oriented Design]] (The physical implementation).
-- Physics: [[SoT - Complexity Conservation]] (Tesler's Law).
-
-## ## Minimum Viable Understanding (MVU)
-
-### Design Principles
-
-- [[SoT - Simple Made Easy (Rich Hickey)]]: Advocates for "Decomplecting"—untangling data, logic, and state to ensure components can be composed without braid-induced fragility.
+- **Methodology (The Practice):** [[SoT - Type-Driven Development (The Torvalds Loop)]]
+- **Physics (The Hardware):** [[SoT - Data-Oriented Design]]
+- **Mathematics (The Theory):** [[MOC - Type Theory]]
+- **Internals (The Structures):** [[MOC - Data-Oriented Structures & Internals]]

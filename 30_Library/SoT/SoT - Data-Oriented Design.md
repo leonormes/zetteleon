@@ -1,64 +1,72 @@
 ---
-aliases: [Anemic Domain Model, Data-Centric Software Engineering, Data-Oriented Manifesto, DOD]
+aliases: [Anemic Domain Model, Cache Optimization, DOD, Performance Engineering, The Physics of DOD]
 created: 2026-01-30T09:00:00+00:00
-modified: 2026-02-01T15:07:59+00:00
-tags: [data-oriented, design-principle, rust, software-architecture]
+last_synthesis: 2026-04-02
+modified: 2026-04-02T15:10:00+00:00
+source_of_truth: true
+status: evergreen
+synthesis-count: 2
+tags: [cache, data-oriented-design, hardware, performance, mechanical-sympathy]
 title: SoT - Data-Oriented Design
+trust-level: stable
+type: "SoT"
 ---
 
-## Data-Oriented Design
+## Minimum Viable Understanding (MVU)
 
-Data-Oriented Design (DOD) is the architectural axiom that Data is Truth; Code is Derivative. Unlike Object-Oriented Design (OOD), which couples data with behavior (Classes), DOD separates them completely to optimize for both hardware performance (CPU Cache) and cognitive clarity (Simplicity).
-
-### The Core Philosophy: The Conservation of Complexity
-
-Software complexity obeys a conservation law: it must reside either in the Procedural Logic (The Code) or the Structural Representation (The Data).
-
-- Code-Centric: "Smart Code" + "Dumb Data" = Fragile, Complex, Hard to Test.
-- Data-Centric: "Smart Data" + "Dumb Code" = Robust, Simple, Self-Documenting.
-
-> [!quote] The Lineage of Truth
-> -   Fred Brooks (1975): "Show me your tables, and I won't usually need your flowcharts; they'll be obvious."
-> -   Rob Pike (1989): "Data dominates. If you've chosen the right data structures… the algorithms will almost always be self-evident."
-> -   Linus Torvalds (2006): "Bad programmers worry about the code. Good programmers worry about data structures and their relationships."
-
-### The Manifesto
-
-To prevent [[SoT - Context Rot]] and [[SoT - Parochial Code]], we adhere to these strict principles:
-
-#### 1. Separate Data from Behavior
-
-- The Rule: Use Anemic Domain Models.
-- Data: Structs/Records hold _only_ state. They are dumb containers.
-- Behavior: Logic resides in separate, pure functions that transform data.
-- Why: Eliminates the hidden state mutations and side effects of methods.
-
-#### 2. Composition Over Inheritance
-
-- The Rule: Rigid class hierarchies are forbidden.
-- Mechanism: Build complex types by composing simple structs (Product Types) or choosing between variants (Sum Types).
-- Why: Inheritance hides the flow of data; Composition makes it explicit.
-
-#### 3. Data Flow Visualization
-
-- The Rule: Treat the program as a pipeline, not a web of objects.
-- Model: `Input Data → Transformation Function → Output Data`
-- Benefit: The system state is always a snapshot of the pipeline, making debugging trivial.
-
-#### 4. Explicit Over Implicit
-
-- The Rule: No "Magic." Data flow must be traceable in the type signature.
-- Example: `fn assess(Blueprint) -> Assessment` explicitly states the dependency. Dependency Injection containers are often anti-patterns here.
+Data-Oriented Design (DOD) is the architectural realization that **Hardware is the Platform**. The CPU does not see "Objects"; it sees Bytes and Strides. Performance is a function of **Data Layout**, not Code Elegance. By aligning data with the hardware's physical reality (CPU Caches), we achieve orders of magnitude improvement in throughput.
 
 ---
 
-### Relationship to Type-Driven Development
+## 1. The Three Big Lies (Mike Acton)
 
-DOD provides the Philosophy (Structure is Truth), while [[SoT - Type-Driven Development (The Torvalds Loop)]] provides the Methodology (How to enforce that structure using the Type System).
+To write high-performance software, we must reject these abstractions:
 
-- DOD: "Data should be separate from behavior."
-- Type-Driven: "Here is how we use `struct` vs `impl` blocks to enforce that separation."
+1.  **"Software is the platform."** No. Hardware is the platform.
+2.  **"Code models the world."** No. Code transforms data.
+3.  **"Code > Data."** No. If you don't understand the data layout, you don't understand the performance.
 
 ---
 
-See Also: [[SoT - Parochial Code]], [[SoT - Context Rot]], [[SoT - Dimensions of Code Understanding]]
+## 2. The Physics: The Kitchen Analogy
+
+Memory access is the primary bottleneck of modern computing.
+
+-   **Chef (CPU):** Fast. Can process millions of instructions per second.
+-   **Counter (L1 Cache):** Instant access. The "Work Area."
+-   **Supermarket (RAM):** 200–500 cycles away.
+-   **The DOD Goal:** Keep the Chef at the Counter. Avoid driving to the Supermarket for a single item (**Pointer Chasing**).
+
+---
+
+## 3. The Cache Line (The Truck)
+
+-   **Unit:** Memory is fetched in **64-byte lines**.
+-   **The Rule:** Every byte fetched MUST be used. If you fetch a 64-byte line but only use one 4-byte integer, you have wasted 94% of your bandwidth.
+-   **The Fail (OOD):** Objects (`AoS`) are "Swiss Cheese" (Padding, VTables, and irrelevant fields). Processing a list of `Player` names requires loading the entire `Player` object (health, position, inventory) into cache, wasting space.
+
+---
+
+## 4. Structural Patterns for Performance
+
+### 4.1 SoA (Structure of Arrays)
+-   **OOD Pattern (Array of Structures):** `[ {x, y, z}, {x, y, z}, {x, y, z} ]`.
+-   **DOD Pattern (SoA):** `[x,x,x]`, `[y,y,y]`, `[z,z,z]`.
+-   **Benefit:** 100% Cache Density for specific operations. If you only need `x` coordinates, the cache contains only `x` coordinates. It is also **SIMD-ready**.
+
+### 4.2 Existence Predication
+-   Instead of using `if (active)` inside a loop (branching), maintain a separate array of "Active" indices.
+-   **Benefit:** Zero Branch Misprediction. The CPU can pipeline the transformation without interruption.
+
+### 4.3 Indexes over Pointers
+-   Use `u32` IDs (indices) instead of raw pointers (`*T`).
+-   **Benefit:** Halves the size on 64-bit systems. Data remains relocatable (for memory compaction) and is safer (bounds checking).
+
+---
+
+## Related Knowledge
+
+-   **Philosophy (The Axiom):** [[SoT - The Data-Centric Philosophy]]
+-   **Practice (The Protocol):** [[SoT - Type-Driven Development (The Torvalds Loop)]]
+-   **Internals (The Structures):** [[MOC - Data-Oriented Structures & Internals]]
+-   **Hardware Context:** [[SoT - The Logical Definition of a Computer]]

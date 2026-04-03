@@ -24,7 +24,6 @@ _The biological reality and the "Interest-Based" nervous system._
 - The Core Theory: [[SoT - ADHD Neurology & Core Concepts]]—_Defines the Hardware constraints (INCUP), RAM (Working Memory) volatility, and Signal Gating issues._
 - The Engine (Motivation): [[SoT - ADHD Neurology & Core Concepts#1.2 The Interest-Based Drivers (INCUP)]]—_Dopamine deficiency, the AMCC "Tenacity Muscle," and why "Importance" is an invisible signal._
 - The Barrier (Task Initiation): [[MOC - Why Task Initiation is Difficult in ADHD]]—_Neurological bottlenecks: Time Blindness, Low Dopamine, and Activation Cost._
-- The Paradox: [[Russell's Paradox in Naive Set Theory]] (Metaphorical)—_Why "trying harder" within a broken system only creates more friction._
 
 ---
 
