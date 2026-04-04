@@ -3,9 +3,9 @@ aliases: [ProdOS Index, Productivity Operating System, Start Here]
 created: 2025-12-04T14:38:32Z
 id: MOC - ProdOS
 last_reviewed: 2026-04-02
-modified: 2026-04-02T12:05:00+01:00
+modified: 2026-04-03T16:42:59+00:00
 status: stable
-tags: ["SoftwareEngineering/Architecture", prodos, moc]
+tags: ["SoftwareEngineering/Architecture", moc, prodos]
 title: MOC - ProdOS
 type: map
 ---
@@ -13,15 +13,17 @@ type: map
 ## ProdOS - Productivity Operating System
 
 ### 1. The Thinking Stream (Quick Start)
+
 _A low-friction loop for rapid processing._
 
-- **The Process:** [[SoT - ProdOS Thinking Stream]]
-- **The Core Loop:** CAPTURE $\rightarrow$ REFINE $\rightarrow$ PROCESS (120s) $\rightarrow$ EXIT.
-- **The Metric:** Actions Taken vs. Intentions Formed.
+- The Process: [[SoT - ProdOS Thinking Stream]]
+- The Core Loop: CAPTURE $\rightarrow$ REFINE $\rightarrow$ PROCESS (120s) $\rightarrow$ EXIT.
+- The Metric: Actions Taken vs. Intentions Formed.
 
 ---
 
 ### 2. The Core Architecture (The Kernel)
+
 The definitive specification of the system and its biological basis.
 
 - [[SoT - PRODOS Core Specification]]—_The Unified Specification._
@@ -30,8 +32,9 @@ The definitive specification of the system and its biological basis.
 - [[SoT - Behavioral Architecture]]—_Environmental Determinism._
 
 #### Key Frameworks
-- **PINCH Model:** (Play, Interest, Novelty, Challenge, Hurry) for task engagement.
-- **Dual-Axis Model:** Azimuth (Time) and Elevation (Attention).
+
+- PINCH Model: (Play, Interest, Novelty, Challenge, Hurry) for task engagement.
+- Dual-Axis Model: Azimuth (Time) and Elevation (Attention).
 - [[SoT - The User Interface of the Self]]: The retrospective narrative.
 
 ---
@@ -39,6 +42,7 @@ The definitive specification of the system and its biological basis.
 ### 3. The Cognitive Pipeline (The Lifecycle)
 
 #### Phase 1: Capture & Routing (Input)
+
 - [[Reference - File Structure]]—_Stream, HUD, Engine, Workbench, Canon, Archive._
 - [[Protocol - Autonomous Action System]]—_Agentic automation for Todoist/Obsidian._
 - [[Protocol - Action-First GTD (LLM Chief of Staff)]]—_Low-friction capture and organization._
@@ -46,11 +50,12 @@ The definitive specification of the system and its biological basis.
 - [[SoT - Cognitive Engineering Protocols]]—_RAM Clearing & Emotional Regulation._
 
 #### Phase 2: Thinking & Refinement (Processor)
+
 - [[Stage 5 Synthesise (The Outcome Layer)|SoT - Knowledge Synthesis]]—_Converting thought into canonical SoTs._
-- [[SoT - Accelerated Learning (3C Protocol)|SoT - Learning Architecture (The Attack)]]—_Hangar $\rightarrow$ Cockpit $\rightarrow$ Cryosleep._
 - [[SoT - Material Symbols]]—_Computational scaffolding._
 
 #### Phase 3: Action & Persistence (Output)
+
 - [[SoT - Execution Protocol (GTD & PARA)|SoT - Execution Rules]]—_The MVA and Definition of Done._
 - [[SoT - Temporal Management (Blocking and Boxing)]]—_Blocking vs. Boxing._
 - [[SoT - PRODOS Core Specification#4. State Management (Cryosleep)|SoT - Cryosleep Protocol]]—_Minimizing context-switch costs._
@@ -58,6 +63,7 @@ The definitive specification of the system and its biological basis.
 ---
 
 ### 4. Protocols & Fuel (Operations)
+
 - [[SoT - Protocol - The Launch Sequence]]—_Bypassing initiation paralysis._
 - [[SoT - PRODOS Black Box Protocol]]—_Systematizing failure._
 - [[Protocol - Weekly Command Centre]]—_The system reset ritual._
@@ -66,13 +72,11 @@ The definitive specification of the system and its biological basis.
 ---
 
 ### 5. Active Workbench (Volatile)
-- [[HEAD - ACR Image Retention Strategy]]
-- [[HEAD - Image Architecture Strategy]]
-- [[HEAD - Velero Implementation Planning]]
 
 ---
 
 ### 6. Related System Maps
+
 - [[MOC - ADHD Management]]—_Strategies for the neurodivergent brain._
 - [[MOC - Action Management]]—_The mechanics of task flow and execution._
 - [[MOC - Day Architecture for Peak Performance]]—_The daily rhythm and schedule._
@@ -81,6 +85,7 @@ The definitive specification of the system and its biological basis.
 ---
 
 System Logs & Visibility:
+
 - [[SoT.base|All Source of Truth Notes]]
 - [[MOCx.base|All Maps of Content]]
 - [[Thinking.base|Active Thinking Threads (RAM)]]
