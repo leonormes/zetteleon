@@ -1,19 +1,27 @@
 ---
-aliases: ["Container Internals", "Linux Container Primitives", "Namespace Architecture", "The Trinity of Containerisation"]
 created: 2025-12-24T12:00:00Z
 last_reviewed: "2025-12-30"
 modified: 2026-02-01T15:07:55+00:00
 status: "stable"
-tags: ["docker", "k8s", "kernel", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "systems_engineering"]
+tags:
+  [
+    "docker",
+    "k8s",
+    "kernel",
+    "SoftwareEngineering/Containers",
+    "SoftwareEngineering/Linux",
+    "systems_engineering"
+  ]
 title: SoT - Linux Container Internals
 type: "SoT"
-updated: 
+updated:
 ---
 
 ## 1. Definitive Statement
 
 > [!definition] Definition
 > "Containers" do not exist in the Linux kernel. They are a user-space abstraction created by the coordinated application of three independent kernel primitives:
+>
 > 1.  Namespaces (Isolation: "What can I see?")
 > 2.  Cgroups (Resource Control: "How much can I use?")
 > 3.  Union Filesystems (Distribution: "What creates my reality?")
@@ -28,14 +36,14 @@ A container is simply a process with a restricted view of the system.
 
 Namespaces wrap global system resources in an abstraction, making them appear private to the process.
 
-| Namespace | Resource Isolated | Security Impact (If Missing) |
-|:--- |:--- |:--- |
-| PID | Process IDs | Low. Process visibility only. |
-| Network | Interfaces, Ports | Medium. Can sniff/spoof host traffic. |
-| Mount | Filesystem | CRITICAL. Zero isolation. (See Section 3). |
-| UTS | Hostname | Low. Confusion in logs. |
-| IPC | Message Queues | Low. Inter-process communication leaks. |
-| User | UID/GID | High. Root in container = Root on host. |
+| Namespace | Resource Isolated | Security Impact (If Missing)               |
+| :-------- | :---------------- | :----------------------------------------- |
+| PID       | Process IDs       | Low. Process visibility only.              |
+| Network   | Interfaces, Ports | Medium. Can sniff/spoof host traffic.      |
+| Mount     | Filesystem        | CRITICAL. Zero isolation. (See Section 3). |
+| UTS       | Hostname          | Low. Confusion in logs.                    |
+| IPC       | Message Queues    | Low. Inter-process communication leaks.    |
+| User      | UID/GID           | High. Root in container = Root on host.    |
 
 ### B. Control Groups / Cgroups (Resource Management)
 
@@ -58,9 +66,9 @@ The kernel provides mechanisms to restrict the "Superuser" power even for root p
 > Creating Network, PID, and UTS namespaces without a Mount Namespace creates a dangerous state of "Decoupled Identity."
 
 - The Mechanism: The security boundary is defined by the Mount Namespace in conjunction with Pivot Root.
-    1. Clone: Create process with `CLONE_NEWNS`.
-    2. Pivot Root: Switch the root filesystem (`/`) to the container image.
-    3. Unmount: Detach the old root so the host filesystem is mathematically unreachable.
+  1. Clone: Create process with `CLONE_NEWNS`.
+  2. Pivot Root: Switch the root filesystem (`/`) to the container image.
+  3. Unmount: Detach the old root so the host filesystem is mathematically unreachable.
 - Without this sequence: The process retains full read/write access to the host filesystem. It is merely a process with a mask.
 
 ---

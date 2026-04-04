@@ -25,7 +25,7 @@ This habit is built upon the Abundance Mentality—the paradigm that there is pl
 
 ## ProdOS Integration
 
-In the context of [[03 - ProdOS (Productivity Operating System)]], this habit is crucial for managing the [[05 - Horizons of Focus]] Horizon 2: Areas of Focus and Accountability, especially in roles that involve other people (e.g., manager, spouse, team member).
+In the context of [[MOC - ProdOS]], this habit is crucial for managing the [[05 - Horizons of Focus]] Horizon 2: Areas of Focus and Accountability, especially in roles that involve other people (e.g., manager, spouse, team member).
 
 Effective delegation is achieved through Stewardship Agreements, which are a formal embodiment of the Win-Win principle. They clarify expectations in five areas: Desired Results, Guidelines, Resources, Accountability, and Consequences.
 

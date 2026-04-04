@@ -52,18 +52,19 @@ Before any action, you must clear mental RAM. See **[[SoT - ProdOS Thinking Stre
 The **Minimal Viable Action (MVA)** is the atomic unit of execution.
 - **Rule:** The MVA must be a physical, binary task so small it is impossible to fail (e.g., "Open the code editor").
 - **Energy:** The goal is to reduce Activation Energy to $\approx 0$.
-- **The Unit Test:** The minimum verifiable criteria for success.
+- **The Unit Test:** Can you say "Yes/No" to success in < 120 seconds?
 
-#### 3.2 The Ignition Protocol ("Heat")
-
-If you are stuck in "Logic Mode," use one of these to generate movement:
+#### 3.3 The Ignition Protocol ("Heat")
+If you are stuck in "Logic Mode," use one of these to generate movement (via the [[MOC - ProdOS#The Dopamine Engine (The PINCH Model)|PINCH Model]]):
 
 1. Mystery: "I wonder if I can do this without using [Tool]?"
 2. Urgency: "I have 5 minutes. How much can I get done?"
 3. Spite: "I'm going to finish this to prove [Idea] wrong."
 
-#### 3.3 The Checklist Protocol (The Firmware)
+#### 3.4 The Decomposition Protocol
+If a task feels "heavy" or vague, use the **[[Protocol - Vague-to-Action]]** to decompose it into binary MVAs.
 
+#### 3.5 The Checklist Protocol (The Firmware)
 Use Instruction SoTs to offload working memory for complex tasks.
 
 ---

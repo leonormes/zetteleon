@@ -27,6 +27,8 @@ _A low-friction loop for rapid processing._
 The definitive specification of the system and its biological basis.
 
 - [[SoT - PRODOS Core Specification]]—_The Unified Specification._
+- [[SoT - The Inspiration Economy (Human 3.0)]]—_The Economic Logic of Intent._
+- [[SoT - The Telos Method]]—_The Chain of Explainability (Problem $\rightarrow$ Project)._
 - [[SoT - The Cognitive Physiology of Task Execution]]—_Initiation, Encoding, Monitoring._
 - [[SoT - The Extended Mind]]—_Active Externalism._
 - [[SoT - Behavioral Architecture]]—_Environmental Determinism._
@@ -51,12 +53,15 @@ The definitive specification of the system and its biological basis.
 
 #### Phase 2: Thinking & Refinement (Processor)
 
+- [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]—_Action-Container-Thought._
 - [[Stage 5 Synthesise (The Outcome Layer)|SoT - Knowledge Synthesis]]—_Converting thought into canonical SoTs._
 - [[SoT - Material Symbols]]—_Computational scaffolding._
 
 #### Phase 3: Action & Persistence (Output)
 
-- [[SoT - Execution Protocol (GTD & PARA)|SoT - Execution Rules]]—_The MVA and Definition of Done._
+- [[SoT - Execution Protocol (GTD & PARA)]]—_The Macro Structure (PARA + GTD)._
+- [[SoT - PRODOS Core Specification#3.2 The Scope-Lock & Starter Task (MVA)|SoT - Execution Rules (MVA)]]—_The Micro Action & Definition of Done._
+- [[Protocol - Vague-to-Action]]—_Decomposing vague tasks into binary actions._
 - [[SoT - Temporal Management (Blocking and Boxing)]]—_Blocking vs. Boxing._
 - [[SoT - PRODOS Core Specification#4. State Management (Cryosleep)|SoT - Cryosleep Protocol]]—_Minimizing context-switch costs._
 

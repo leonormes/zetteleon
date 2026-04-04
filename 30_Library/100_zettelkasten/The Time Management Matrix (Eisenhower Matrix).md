@@ -37,4 +37,4 @@ The Time Management Matrix (also known as the Eisenhower Matrix) is the central 
 
 Effective people focus on Quadrant II. They shrink Quadrant I by spending more time on prevention and planning. They say "no" to Quadrant III and IV activities. The goal is to live a life guided by importance, not just urgency.
 
-This is a core principle of the [[03 - ProdOS (Productivity Operating System)]], embodied in its "Compass Over Clock" philosophy. [[Habit 7 - Sharpen the Saw]] is the ultimate Quadrant II activity, as it focuses on renewing your capacity to produce.
+This is a core principle of the [[MOC - ProdOS]], embodied in its "Compass Over Clock" philosophy. [[Habit 7 - Sharpen the Saw]] is the ultimate Quadrant II activity, as it focuses on renewing your capacity to produce.

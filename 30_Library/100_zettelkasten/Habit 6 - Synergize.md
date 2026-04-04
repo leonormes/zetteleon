@@ -20,7 +20,7 @@ When you synergize, you are not just compromising (where 1 + 1 = 1.5). You are e
 
 ## ProdOS Integration
 
-Within the [[03 - ProdOS (Productivity Operating System)]], synergy is encouraged during the creative phases of planning.
+Within the [[MOC - ProdOS]], synergy is encouraged during the creative phases of planning.
 
 - The [[10 - The Review and Reflection Process]], specifically during the "Get Creative" phase of the Weekly Review, is a prime opportunity to look for synergistic opportunities. For example, combining a goal from a `Parent` role with a goal from a `Sharpen the Saw` role (like going for a bike ride with a child) creates a synergistic outcome.
 

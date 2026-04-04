@@ -1,8 +1,8 @@
 ---
-aliases: ["Host-based Routing", "Networking Indirection", "Path-based Routing"]
+aliases: ["Host-based Routing", "Networking Indirection", "Path-based Routing", "The Packet Journey"]
 created: 2025-03-14T13:38:49Z
-last_reviewed: "2025-12-23"
-modified: 2026-02-01T15:07:50+00:00
+last_reviewed: "2026-04-04"
+modified: 2026-04-04T12:00:00Z
 status: "stable"
 tags: ["data-centric", "routing", "SoftwareEngineering/Architecture", "SoftwareEngineering/Networking", "topic/technology"]
 title: SoT - The Data-Centric Theory of Networking
@@ -17,7 +17,31 @@ updated:
 
 ---
 
-## 2. Technical Nuance: DNS Name vs. Host Header
+## 2. The Packet Journey: Sequential Transformations
+
+A data-centric approach examines how packets are transformed by each network device, revealing the logic of the distributed system.
+
+### 2.1 Load Balancer (Layer 7)
+- **Incoming:** `Source: Client IP` | `Dest: LB Public IP` | `Port: 443`
+- **Transformation:** LB terminates TLS, parses headers, selects target.
+- **Outgoing:** `Source: LB Internal IP` | `Dest: Target IP` | `Port: 8080` (with `X-Forwarded-For` header).
+
+### 2.2 NAT Gateway (Egress)
+- **Incoming:** `Source: Private IP` | `Dest: External IP`
+- **Transformation:** Gateway maps Private IP:Port to its own Public IP:Ephemeral Port in a state table.
+- **Outgoing:** `Source: Gateway Public IP` | `Dest: External IP`
+
+### 2.3 VPN Gateway (Encapsulation)
+- **Incoming:** `Source: Private IP` | `Dest: Remote IP`
+- **Transformation:** Gateway encrypts payload (AES) and wraps it in an ESP (IPsec) header.
+- **Outgoing:** `Source: Gateway Public IP` | `Dest: Remote VPN IP` (Protocol 50).
+
+### 2.4 API Gateway (Management)
+- **Transformation:** Injects `X-Correlation-ID`, validates JWT, and routes based on URI path (e.g., `/api/v1/orders` $\to$ `orders-service`).
+
+---
+
+## 3. Technical Nuance: DNS Name vs. Host Header
 
 A single network request involves two distinct properties that are often conflated:
 

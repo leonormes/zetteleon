@@ -18,7 +18,7 @@ Effective people stay out of Quadrants III and IV and spend most of their time i
 
 ## ProdOS Integration
 
-This habit is the engine of the [[03 - ProdOS (Productivity Operating System)]]. The entire system is designed to facilitate Quadrant II living.
+This habit is the engine of the [[MOC - ProdOS]]. The entire system is designed to facilitate Quadrant II living.
 
 - The Weekly Review: The [[10 - The Review and Reflection Process]] is the essential Quadrant II activity that allows you to plan the week ahead, ensuring you are scheduling your priorities.
 - Timeboxing & The Unschedule: The techniques described in [[11 - Time Management (Timeboxing and The Unschedule)]] are direct implementations of Habit 3. You schedule the "big rocks" (important goals) first.

@@ -1,110 +1,21 @@
 ---
 aliases: ["K2A Framework", "Knowledge-to-Action System", "The Motivation Bridge"]
 created: 2025-11-13T00:00:00Z
-last_reviewed: "2025-12-15"
-modified: 2026-02-16T09:40:34+00:00
-status: "stable"
+last_reviewed: "2026-04-04"
+modified: 2026-04-04T12:00:00Z
+status: "deprecated"
 tags: ["execution", "TheHuman/Health/ADHD", "TheHuman/Psychology", "topic/productivity"]
 title: SoT - Bridging the Intention-Action Gap
 type: "SoT"
-updated: 
 ---
 
-## 2. The Core Problem: The Logic-Dopamine Mismatch
+# DEPRECATED
 
-Standard productivity advice fails the ADHD brain because it assumes that _importance_ generates _motivation_. This is neurologically incorrect for neurodivergent minds.
+This note has been integrated into the core **PRODOS** specification.
 
-| Failure Mode                 | The Problem                                                                                                          | The ProdOS Solution                                                                                      |
-|:--------------------------- |:------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------------------------------------------- |
-| The "Just Do It" Fallacy | Assumes executive function is a choice. Fails to account for "Wall of Awful" (emotional resistance).                 | Shrink the Start: Reduce activation energy to near-zero (e.g., "Put on one shoe").                   |
-| The Logic Trap           | Logic ("I should do this") acts as a steering wheel, but provides no fuel (Dopamine). You cannot steer a parked car. | The Heat Protocol: Manufacture artificial dopamine via Mystery, Urgency, or Spite.                   |
-| Vague Goals              | "Work on Project X" creates high cognitive load, triggering avoidance/paralysis.                                     | Atomic Action: Convert vague projects into physical, binary actions (The Vague-to-Action Checklist). |
-| The Interest Deficit     | Boring tasks provide zero stimulation, causing the brain to seek distraction (dopamine seeking).                     | The PINCH Model: Inject Play, Interest, Novelty, Competition, or Hurry into the task.                |
+- For the **Biological/Psychological basis** (Mood Repair Trap, Wall of Awful, Dopamine Circuitry), see: **[[SoT - The Cognitive Physiology of Task Execution]]**.
+- For the **Technical Specification & Execution Protocols** (MVA, PINCH, Ignition), see: **[[SoT - PRODOS Core Specification]]**.
+- For the **Task Decomposition Protocol**, see: **[[Protocol - Vague-to-Action]]**.
 
 ---
-
-## 3. The Architecture: The Knowledge-to-Action (K2A) System
-
-To bridge the gap, we must operate on two layers: lowering the barrier to entry (Activation Energy) and increasing the drive to cross it (Ignition).
-
-### A. The Mechanics of Motivation
-
-1. Activation Energy: The energy required to _start_ a reaction. For ADHD, this is disproportionately high.
-    - _Rule:_ If you can't start, the step is too big. Halve it. Then halve it again.
-2. Motion Creates Motivation: Dopamine is often a _result_ of action, not the cause.
-    - _Loop:_ Tiny Action -> Success Signal -> Dopamine Release -> Sustained Motivation.
-
-### B. The PINCH Model (Fuel Sources)
-
-When a task lacks intrinsic motivation, you must "gamify" it using one of these five drivers:
-
-- Play / Passion: Can I make this fun?
-- Interest: Can I learn something new?
-- Novelty: Can I do this in a weird way?
-- Challenge / Competition: Can I beat my high score?
-- Hurry: Can I beat the clock?
-
----
-
-## 4. Protocols & Implementation
-
-### Protocol A: The Ignition Protocol ("Heat")
-
-When you are stuck in "Logic Mode" (staring at a screen, knowing you _should_ work), use this protocol to generate heat:
-
-1. Mystery (Hypothesis): "I wonder if I can finish this report without using the letter 'e'?" (Curiosity).
-2. Urgency (Time Trial): "I have 5 minutes before the alarm. How much can I delete?" (Adrenaline).
-3. Spite (Rebellion): "I'm going to finish this just to prove [Person/Idea] wrong." (Friction).
-
-### Protocol B: The Vague-to-Action Checklist
-
-_Use when a task feels "heavy" or undefined._
-
-Phase 1: Define the Endpoint
-
-1. [ ] Identify the 'Problem Statement': Write down the vague task exactly as captured.
-2. [ ] Ask 'What does DONE look like?': Describe a tangible, physical outcome (e.g., "A two-page PDF").
-3. [ ] Name the Final Outcome: Give this outcome a clear project name.
-
-Phase 2: Capture the Steps
-
-1. [] Set a 5-minute timer: Reduce pressure.
-2. [] Brain Dump: Write every question, idea, and step without filtering.
-3. [] Organize into Phases: Group items into 3-5 logical stages (Research, Draft, Review).
-
-Phase 3: Activate the Plan
-
-1. [] Identify Phase 1: Look at the first group.
-2. [] Ask 'What is the very next physical action?': Must be small, visible, doable now (e.g., "Email Jane," "Create doc").
-3. [] Write on 'Next Actions' list: The entire project is now represented by this single task.
-
-### Protocol C: The Starter Task (Momentum Generator)
-
-_Use when you are frozen by perfectionism or the "bigness" of a task._
-
-A Starter Task is a micro-action designed purely to break static friction. It is not the work itself; it is the act of entering the workspace.
-
-- The Rule: It must be so small that it is impossible to fail or overthink.
-- Examples: "Open the document," "Put on running shoes," "Write the title."
-- Mechanism: Completing this binary action releases a small hit of dopamine and shifts the brain's question from _"Should I start?"_ to _"What next?"_.
-
----
-
-## 5. Minimum Viable Understanding (MVU)
-
-1. Feeling Stuck? Stop thinking. Logic is a steering wheel, not an engine.
-2. Shrink the Start: Identify the absolute smallest physical step (e.g., "open laptop"). If you resist, make it smaller.
-3. Ignite: If the task is boring, inject Mystery, Spite, or Urgency (PINCH) to manufacture dopamine.
-4. Execute: Do the tiny step. Motivation follows motion.
-
----
-
-## 6. Open Questions & Tensions
-
-- Tension: Novelty Decay. ADHD brains adapt quickly. A strategy that works today (e.g., Time Trials) may stop working next week.
-  - _Mitigation:_ Rotate through the PINCH drivers. Don't rely on just one.
-- Confidence Gap: How to reliably generate intrinsic interest in deeply administrative tasks (taxes, compliance) remains a challenge. The Spite driver is often the most effective last resort here.
-
-## 7. Related Components
-
-- [[SoT - The Cognitive Physiology of Task Execution]]
+*Synthesized during Knowledge Normalization on 2026-04-04.*

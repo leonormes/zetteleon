@@ -1,11 +1,11 @@
 ---
 aliases: ["Complexity Theory", "Emergent Properties", "Self-Organization", "The Whole is Greater Than the Sum of the Parts"]
 created: 2026-02-03T10:45:00+00:00
-last_synthesis: 2026-02-03
-modified: 2026-02-04T07:26:55+00:00
+last_synthesis: 2026-04-04
+modified: 2026-04-04T11:27:23+00:00
 source_of_truth: true
 status: evergreen
-synthesis-count: 1
+synthesis-count: 2
 tags: ["complexity", "emergence", "prodos/sot", "systems-thinking"]
 title: SoT - Emergence
 trust-level: stable
@@ -48,20 +48,25 @@ These are the mesmerising, unpredictable behaviors that manifest when thousands 
 |:--- |:--- |:--- |
 | Ant Colony | Follow pheromone trail. | Shortest-path optimization (Solving the Traveling Salesman Problem). |
 | Thermodynamics | Gas molecules bouncing. | Temperature and Pressure. (A single molecule has kinetic energy, not temperature). |
-| Economics | Individual buying bread. | "The Market," Inflation, Recessions. |
+| economics | Individual buying bread. | "The Market," Inflation, Recessions. |
 | Culture | Individual beliefs/habits. | Religions, Nations, Zeitgeist. |
+| **Social** | Informal routines, rituals. | **[[Proto-systems Are Informal Collective Routines That Organize Work|Proto-systems]]** (Ancestral Scaffolding). |
+| **Teams** | Egos, rank-based decisions. | **[[SoT - Accidental Social Complexity|Accidental Social Complexity]]** (Organizational Friction). |
 
 ---
 
 ## 3. Implications for Systems Thinking
 
-1. Irreducibility: Problems in emergent systems (e.g., poverty, consciousness, traffic) cannot be solved by "fixing" the individual parts. You must intervene at the level of Interaction Rules (The Protocol).
-2. Downward Causation: Once the Emergent Pattern forms (e.g., A Traffic Jam), it constrains the behavior of the individual agents (The Driver must slow down). The Whole begins to govern the Parts.
+1. **Irreducibility:** Problems in emergent systems (e.g., poverty, consciousness, traffic) cannot be solved by "fixing" the individual parts. You must intervene at the level of Interaction Rules (The Protocol).
+2. **Downward Causation:** Once the Emergent Pattern forms (e.g., A Traffic Jam or a Corporate Culture), it constrains the behavior of the individual agents (The Driver must slow down; The Employee must conform). The Whole begins to govern the Parts.
+3. **Information Accumulation:** Emergence is the mechanism by which systems capture and preserve functional information over time. (See: **[[SoT - The Law of Increasing Functional Information]]**).
 
 ---
 
 ## Related Knowledge
 
-- Parent: [[SoT - Systems Thinking]]
-- Physics: [[SoT - The Law of Increasing Functional Information]] (Assembly Theory)
-- Application: [[Systems Generate Internal Logic in Isolation]]
+- **Parent:** [[SoT - Systems Thinking]]
+- **Social Logic:** [[Proto-systems Are Informal Collective Routines That Organize Work]]
+- **Organizational Friction:** [[SoT - Accidental Social Complexity]]
+- **Physics of Complexity:** [[SoT - The Law of Increasing Functional Information]] (Assembly Theory)
+- **Application:** [[Systems Generate Internal Logic in Isolation]]

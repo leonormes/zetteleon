@@ -73,6 +73,6 @@ The Telos Method is designed to be Machine Readable.
 
 ## 6. Related Concepts
 
-- [[AI-Resilient Task Taxonomy]]
-- [[Orchestrating the Inspiration Economy_ Agentic Frameworks and Human Augmentation]]
+- [[SoT - The Inspiration Economy (Human 3.0)]]
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
+- [[SoT - PRODOS Core Specification]]

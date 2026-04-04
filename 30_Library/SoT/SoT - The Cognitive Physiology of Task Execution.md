@@ -18,11 +18,13 @@ updated:
 
 - Function: Overcoming inertia. Organizing materials, estimating time, and generating metabolic energy (dopamine/norepinephrine) to start.
 - Brain Network: Prefrontal Cortex (PFC) & Basal Ganglia.
-- ProdOS Tool: The Two-Minute Rule (from [[SoT - Habit Formation Framework]]).
+- ProdOS Tool: **Minimal Viable Action (MVA)** (from [[SoT - PRODOS Core Specification]]).
 - The ProdOS Fix: We lower the "entry cost" by committing to just 120 seconds. This bypasses the PFC's overestimation of effort and triggers momentum.
 
-> [!failure] The Mood Repair Trap
-> This is where Procrastination strikes. The brain predicts negative emotion from the task and refuses to initiate in order to "repair mood" immediately. Counter-measure: Ignore feelings; execute the [[SoT - Bridging the Intention-Action Gap|Context Bridge]] mechanically.
+> [!failure] The Mood Repair Trap & The Wall of Awful
+> This is where Procrastination strikes. The brain predicts negative emotion from the task and refuses to initiate in order to "repair mood" immediately. This creates a "Wall of Awful"—a barrier of accumulated shame, failure, and anxiety that makes the task feel "heavy."
+> 
+> **Counter-measure:** Ignore feelings; execute the **Starter Task / MVA** mechanically to generate momentum. Motivation is a *result* of action, not the cause.
 
 ### Phase 2: Encoding / Planning
 

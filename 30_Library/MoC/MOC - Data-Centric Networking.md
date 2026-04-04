@@ -33,10 +33,10 @@ These are the authoritative specifications for the data-centric view of networki
 
 Lower-level details on the specific data units and identification systems.
 
-- [[Protocol Data Unit]]—The fundamental container of information.
-- [[How Computers Identify Each other on a Network]]—Resolution of identifiers (IP to MAC).
-- [[IPs and ports form a socket]]—The 5-tuple as a unique pointer to a process.
-- [[DNS for Services and Pods]]—Automated name-to-state binding in dynamic environments.
+- [[SoT - Protocol Data Units (PDU)|Protocol Data Unit (PDU)]]—The fundamental container of information (SDU vs PDU).
+- [[30_Library/100_zettelkasten/How Computers Identify Each other on a Network|How Computers Identify Each other on a Network]]—Resolution of identifiers (IP to MAC).
+- [[30_Library/ops/sot-network-tools-patterns#3. Layer 4: Ports & Sockets (The Doors)|IPs and ports form a socket]]—The 5-tuple as a unique pointer to a process.
+- [[30_Library/200_projects/10_Infrastructure/k8s/the k8s service abstraction|DNS for Services and Pods]]—Automated name-to-state binding in dynamic environments.
 
 ---
 
@@ -46,16 +46,16 @@ How these data principles manifest in specific technologies and models.
 
 ### Models & Layers
 
-- [[MOC - OSI Model]]—The legacy conceptual map of encapsulation.
-- [[Physical Layer]]—The serialization of bits into physical signals.
+- [[SoT - Protocol Data Units (PDU)#2. Layer-by-Layer Encapsulation Logic|The OSI Model]]—The legacy conceptual map of encapsulation.
+- [[30_Library/100_zettelkasten/Layer 1 Physical Layer|Physical Layer]]—The serialization of bits into physical signals.
 
 ### Cloud & Kubernetes
 
 - [[SoT - Cloud Networking Core Components]]—VPCs, Subnets, and Gateways as virtualized data structures.
-- [[SoT - Kubernetes Networking & DNS]]—The overlay network as a software-defined state layer.
+- [[SoT - Kubernetes Networking Model|Kubernetes Networking Model]]—The overlay network as a software-defined state layer.
 - [[SoT - Secure Cross-Cloud Data Transport]]—The Virtual Private Data Plane pattern for multi-cloud systems.
-- [[Cross-Cloud Kubernetes Networking Documentation Index]]—Implementation-specific guides for AWS/Azure connectivity.
-- [[CNI Explained]]—The data interface for container networking.
+- [[30_Library/200_projects/10_Infrastructure/Networking/curriculum for learning Kubernetes networking|Kubernetes Networking Curriculum]]—Learning paths for cluster connectivity.
+- [[30_Library/200_projects/10_Infrastructure/Containerisation/Container Runtime Configures Pod Networking Through CNI Plugins|CNI Explained]]—The data interface for container networking.
 
 ---
 

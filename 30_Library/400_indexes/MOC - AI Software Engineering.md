@@ -1,7 +1,9 @@
 ---
 aliases: [AI Coding MOC, LLM Engineering Map]
 created: 2026-01-30T08:00:00+00:00
-modified: 2026-02-16T09:40:35+00:00
+last-synthesis: 2026-04-04
+modified: 2026-04-04T12:00:00+00:00
+synthesis-count: 2
 tags: [ai-engineering, map-of-content, moc]
 title: MOC - AI Software Engineering
 type: map
@@ -9,18 +11,31 @@ type: map
 
 Core Theme: Engineering the "Cognitive Bridge" between probabilistic AI models and deterministic software systems.
 
-## The "Unified Field" Theory
+## 🌌 The "Unified Field" Theory
+*Reconciling the "Quantum" (Micro-Logic) with "Relativity" (Macro-Architecture).*
 
-- [[SoT - Macro-Micro Unification]] - The fundamental theory: reconciling the "Quantum" (Code) with the "Relativity" (Architecture).
-- [[SoT - Parochial Code]] - The primary failure mode: why LLMs default to "Myopic" coding.
-- [[SoT - Dimensions of Code Understanding]] - The evaluation framework: The 6 dimensions of true context awareness.
+- [[SoT - Macro-Micro Unification]] - The fundamental theory: Why architectural integrity fails during "zoomed-in" coding.
+- [[SoT - Parochial Code]] - The primary failure mode: Code that is locally correct but globally "blind."
+- [[SoT - Dimensions of Code Understanding]] - The evaluation framework: Navigating the 6 dimensions of true system awareness.
+- [[SoT - LLM Codebase Understanding & Hierarchy]] - The technical implementation: Using RIG/AST to force token alignment with architecture.
 
-## Key Concepts
+## 🛠️ Core Engineering Concepts
 
-- Context Rot: The progressive loss of architectural intent over a session.
-- Perspective Drift: The regression of an LLM to its training mean.
-- The Curator: The role of the human in the loop (Critique > Generate).
+### 1. The Cognitive Bridge
+The successful isomorphism between a repository's **Static Analysis Graph (RIG)** and the model's transient **attention state**. It is the process of reducing prompt entropy by encoding relationships as explicit structure.
+
+### 2. Context Rot
+The progressive decay of system-wide intent over a session. 
+- **In Coding:** The loss of architectural resolution as the "Micro View" dominates.
+- **In Knowledge Bases:** The accumulation of redundant, stale, or "Parochial" commands and playbooks. See: [[prompt - DevOps Knowledge Architect]].
+
+### 3. Perspective Drift
+The regression of an LLM to its training mean. Prevented via **Meta-Context (The Superego)**—injecting a "Domain Manifesto" to enforce architectural priors over generic patterns.
+
+### 4. The Curator (The "Problem Definer")
+The shift from "Generating Code" to "Curating Context." The human value migrates to **Context Engineering**—framing the right problem and curating the information environment.
+- See: [[SoT - AI-Resilient Task Taxonomy (Human 3.0)|The Four Resilient Roles]].
 
 ---
 
-Status: 🌱 Seedling
+Status: 🌿 Growing

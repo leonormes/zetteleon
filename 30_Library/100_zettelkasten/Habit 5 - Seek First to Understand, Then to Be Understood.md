@@ -24,6 +24,6 @@ The core principle is to diagnose before you prescribe. A professional would nev
 
 This habit is directly aligned with the [[12 - Core Principles and Values]] of "Cultivate Belonging Through Empathy." It is a practical skill for building the psychological safety necessary for effective teams.
 
-Within the [[03 - ProdOS (Productivity Operating System)]], the [[07 - LLM as a Productivity Partner (CoS)]] is designed to model this behavior in its Socratic Coach mode, always seeking to clarify and understand the user's intent before providing a solution.
+Within the [[MOC - ProdOS]], the [[07 - LLM as a Productivity Partner (CoS)]] is designed to model this behavior in its Socratic Coach mode, always seeking to clarify and understand the user's intent before providing a solution.
 
 Only after you have a deep understanding of the other person's perspective can you move to the creative cooperation of [[Habit 6 - Synergize]].

@@ -1,12 +1,12 @@
 ---
-aliases: [Human 3.0 Roles, Inspiration vs Capital Economy, The Inspiration Economy]
+aliases: [The Inspiration Economy, Human 3.0 Roles, Inspiration vs Capital Economy, AI-Resilient Task Taxonomy]
 created: 2025-12-24T12:00:00Z
 fileClass: SoT
-last_reviewed: 2025-12-24
-modified: 2026-02-01T15:08:02+00:00
+last_reviewed: 2026-04-04
+modified: 2026-04-04T11:26:13+00:00
 status: stable
 tags: [career, economics, future_of_work, llm, prodos, strategy]
-title: SoT - AI-Resilient Task Taxonomy (Human 3.0)
+title: SoT - The Inspiration Economy (Human 3.0)
 type: SoT
 updated:
 ---
@@ -72,6 +72,7 @@ _The Artisan._
 
 ## 5. Related Concepts
 
-- [[SoT - The Inspiration Economy (Agentic Frameworks)]]
+- [[MOC - ProdOS]]
 - [[SoT - The Telos Method]]
 - [[SoT - Indistractable Model (Focus Management)]]
+- [[SoT - PRODOS Core Specification]]

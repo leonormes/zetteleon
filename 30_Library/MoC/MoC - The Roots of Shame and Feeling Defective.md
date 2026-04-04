@@ -1,26 +1,19 @@
 ---
-aliases: []
+aliases: [The Roots of Shame and Feeling Defective]
 created: 2025-06-23T06:22:50Z
-id: The Roots of Shame and Feeling Defective
-last_reviewed: 2025-12-16T00:00:00.000Z
-modified: 2026-02-01T15:08:04+00:00
-status: stable
+last_reviewed: 2026-04-04
+modified: 2026-04-04T12:00:00Z
+status: "deprecated"
 tags: ["TheHuman/Health/ADHD", emotional_dysregulation, map, mental_health, shame]
 title: MoC - The Roots of Shame and Feeling Defective
 type: map
-updated:
 ---
 
-> [!NOTE] Synthesis
-> This topic has been fully synthesized into the core system Source of Truth:
-> [[SoT - ADHD Self-Compassion & Strengths#5. The Mechanics of Shame: Internalizing the Deficit]]
+# DEPRECATED
 
-## The Map of Components
+This Map of Content has been merged into the unified **[[MOC - Shame]]**.
 
-The development of shame in ADHD is not a single event but a constellation of reinforcing mechanisms:
+Please refer to the updated MOC for the most current synthesis of ADHD-specific shame, its origins, and its recovery protocols.
 
-1. The Origin: [[Misinterpretation as Character Flaws]] - Executive dysfunction (lateness, forgetting) is wrongly labeled as "laziness" or "selfishness" by authority figures.
-2. The Internalization: [[Distorted Negative Self-Image]] - The individual accepts these labels as truth, viewing themselves as fundamentally broken ("defective").
-3. The Amplifier: [[Rejection Sensitive Dysphoria (RSD)]] - The intense biological pain of rejection makes this shame unbearable, leading to extreme avoidance strategies.
-4. The Result: [[Unexplained Underachievement]] - The gap between potential and output reinforces the belief of defectiveness.
-5. The Mechanism: [[MOC - Emotional Dysregulation]] - The inability to self-soothe keeps the individual trapped in this negative loop.
+---
+*Synthesized during Knowledge Normalization on 2026-04-04.*

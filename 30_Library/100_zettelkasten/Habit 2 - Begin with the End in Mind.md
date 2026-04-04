@@ -23,6 +23,6 @@ This habit is based on the principle that all things are created twice:
 
 This habit is the core of the upper levels of the [[05 - Horizons of Focus]] model, specifically Horizon 5 (Purpose & Principles) and Horizon 4 (Vision). It is about defining your [[12 - Core Principles and Values]] before you begin to act.
 
-In the [[03 - ProdOS (Productivity Operating System)]], this is formalized through commands like `/plan-life-vision`, which are designed to help articulate this personal constitution. The [[07 - LLM as a Productivity Partner (CoS)]] facilitates this process of mental creation.
+In the [[MOC - ProdOS]], this is formalized through commands like `/plan-life-vision`, which are designed to help articulate this personal constitution. The [[07 - LLM as a Productivity Partner (CoS)]] facilitates this process of mental creation.
 
 Once the vision is set, the next step is to manage your time and actions to make that vision a reality, which is the focus of [[Habit 3 - Put First Things First]].

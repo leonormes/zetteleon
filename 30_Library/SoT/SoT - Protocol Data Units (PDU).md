@@ -1,8 +1,8 @@
 ---
-aliases: ["Network Units", "PDU"]
+aliases: ["Network Units", "PDU", "SDU", "Encapsulation", "The Russian Doll Mechanism"]
 created: 2025-12-23T22:38:57Z
-last_reviewed: "2025-12-23"
-modified: 2026-02-01T15:07:53+00:00
+last_reviewed: "2026-04-04"
+modified: 2026-04-04T12:00:00Z
 status: "stable"
 tags: ["osi", "pdu", "protocol", "SoftwareEngineering/Networking", "topic/technology"]
 title: SoT - Protocol Data Units (PDU)
@@ -15,16 +15,26 @@ updated:
 > [!definition] Definition
 > A Protocol Data Unit (PDU) is a single unit of information transmitted between peer entities in a computer network. It consists of layer-specific control information (headers and trailers) plus the user data (payload).
 
-### 🧩 Problems Solved by PDUs
+---
 
-- Structured Data Transfer: Ensures peer entities understand the components (addresses, error codes) of the transmitted data.
-- Abstraction through Layering: Allows each layer to focus on its specific tasks (e.g., L3 on routing, L4 on app identification) without knowing the internals of other layers.
-- Bit Stream Organisation: Transforms raw electrical signals into meaningful, manageable chunks (Frames).
-- Multiplexing: PDUs like Segments use port numbers to identify which specific application process should receive the data.
+## 2. The "Russian Doll" Mechanism (Encapsulation)
+
+The networking stack utilizes **Encapsulation** to allow independent systems (apps, OS, routers) to cooperate without knowing each other's internals.
+
+- **Process:** As data moves down the stack, each layer treats the unit from the layer above as an opaque payload and wraps it with its own header (and sometimes a trailer).
+- **Result:** A nested structure where the "outer" layers provide the context needed for the "inner" data to reach its destination.
+
+### SDU vs. PDU
+To understand the nesting, we distinguish between two types of data units:
+1. **SDU (Service Data Unit):** The data received from the layer above.
+2. **PDU (Protocol Data Unit):** The total package (Header + SDU + Trailer) passed to the layer below.
+
+**Formula:** `Header + SDU = PDU`.
 
 ---
 
-## 2. Layer-Specific Terminology
+## 3. The Path of a Request (HTTP Example)
+
 
 ## 2. Layer-by-Layer Encapsulation Logic
 
