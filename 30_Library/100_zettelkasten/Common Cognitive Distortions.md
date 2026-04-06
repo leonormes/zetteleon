@@ -14,6 +14,6 @@ Negative thinking patterns often encompass various cognitive distortions, such a
 
 [[Metacognitive Awareness]]
 
-[[Illusion of Explanatory Depth (IoED)]]
+[[SoT - Illusion of Explanatory Depth (IoED)|Illusion of Explanatory Depth (IoED)]]
 
 [[Beliefs as Defining Spaces]]

@@ -1,89 +1,84 @@
 ---
-aliases: []
+aliases: ["Networking MOC", "NetEng", "Network Engineering Map", "Networking & DNS Index"]
 created: 2025-10-24T14:25:58Z
-id: Networking MOC
-last_reviewed: 2026-02-06
-modified: 2026-02-11T08:20:00+00:00
-status: stable
-tags: ["SoftwareEngineering/Networking", type/moc]
+last_reviewed: 2026-04-05
+modified: 2026-04-05T00:00:00+00:00
+status: "evergreen"
+tags: ["SoftwareEngineering/Networking", "engineering", "infrastructure", "moc", "dns"]
 title: MOC - Networking
-type: map
+type: "map"
+updated: 2026-04-05
+synthesis_count: 3
+last_synthesis: 2026-04-05
 ---
 
-This Map of Content (MOC) serves as the top-level entry point for all networking-related concepts, technologies, and implementations.
+# MOC - Networking: The Nervous System of Distributed Computing
 
-## Foundational Concepts
-
-### Models & Primitives
-
-- [[SoT - Protocol Data Units (PDU)]]: The atomic units of data at each layer.
-- [[SoT - Encapsulation & De-encapsulation]]: The process of wrapping data for transport.
-- [[SoT - Linux Networking Primitives]]: How the kernel handles packets (Namespaces, veth pairs, bridges).
-- [[MOC - Computer Science Foundations]]: Broader context including OSI/TCP-IP models.
-
-### IP Addressing and Routing
-
-- [[SoT - Scalable Private Networking & IPAM]]: Architectural patterns for indeterminate growth and non-overlapping connectivity.
-- [[SoT - Cloud Networking Core Components]]: The fundamental building blocks (VNet/VPC, Subnets, Routing).
-- [[SoT - Network Overhead & MTU]]: Physical constraints of packet size.
-
-### DNS & Service Discovery
-
-- [[SoT - The Data Architecture of DNS]]: The structural hierarchy of the Domain Name System.
-- [[SoT - DNS Core Components and Environments]]: Resolvers, zones, and records.
-- [[MOC - Networking & DNS]]: Index of DNS-specific concepts.
-
-## Networking Methodologies
-
-- [[SoT - The Data-Centric Theory of Networking]]: Networking as a data transformation pipeline.
-- [[MOC - Cloud Networking Devices Data Flow]]: Visualizing the path of a packet.
-- [[SoT - Network Debugging Tools & Patterns]]: Practical diagnosis (tcpdump, wireshark).
-
-## Cloud Networking
-
-### General Cloud
-
-- [[MOC - Cloud Networking]]: General cloud networking concepts.
-- [[SoT - Cloud Networking Core Components]]: Universal abstractions (VPC/VNet).
-- [[SoT - Secure Cross-Cloud Data Transport]]: VPNs, Peering, and Interconnects.
-
-### AWS
-
-- [[MOC - AWS Networking]]: AWS-specific implementations.
-- [[SoT - AWS EKS Networking Architecture]]: VPC CNI and pod networking.
-
-### Azure
-
-- [[SoT - Azure Hybrid Networking (ExpressRoute)]]: Connectivity to on-premise.
-- [[SoT - Azure Resource Manager Architecture]]: How VNets exist as logical resources.
-- [[Cheatsheet - Azure AKS Networking]]: Quick reference for AKS IPs.
-
-## Kubernetes Networking
-
-- [[SoT - Kubernetes Networking Model]]: The "Flat Network" requirement.
-- [[SoT - Kubernetes Networking & DNS]]: Services, Ingress, and CoreDNS.
-- [[SoT - Calico CNI Architecture]]: Network policies and overlay networks.
-- [[SoT - Calico Observability]]: Monitoring in-cluster traffic.
-- [[Kubernetes Provides NodePort and LoadBalancer for External Service Access]].
-
-## Traffic Management (Load Balancing)
-
-- [[MOC - Load Balancing]]: Index of load balancing strategies.
-- [[MOC - AWS ALB Step-by-Step Tutorial]]: Implementation details.
-- [[SoT - External Ingress & SSL Architecture]]: Handling TLS termination at the edge.
-
-## Security
-
-### Firewalls & Filtering
-
-- [[SoT - External Ingress & SSL Architecture]]: WAF and Edge security.
-- [[SoT - Zero Knowledge Architecture]]: Networking implications of Zero Trust.
-
-### Layer 3/4 Security
-
-- [[MOC - Layer 3 Network Security Concepts]].
-- [[Access Control Lists Filter Traffic Based on Protocol and Address Rules]].
+> [!definition] The Data-Centric Lens
+> Networking is not about "wires" or "hardware"; it is the computational study of distributed state transport. We deconstruct complex network systems by identifying the Atomic State (PDUs), the Structural Layout (Tries, Stacks, Tables), and the Invariants (Integrity, Uniqueness) that make logic self-evident.
 
 ---
 
-Related: [[MOC - ProdOS]], [[MOC - Software Architecture Principles]]
+## 1. Foundational Theory & Mechanics
+
+The "Laws of the Pipe" and the anatomy of data.
+
+- **The Philosophy:** [[SoT - The Data-Centric Theory of Networking]]—Networking as a data transformation pipeline.
+- **The Synapses:** [[SoT - The Extended Mind]]—Networking as the "Synapses" of the distributed extended mind.
+- **The Core Pillars:**
+    - [[SoT - The Data-Centric Theory of Networking]]—State transport as prefix-trie traversal.
+    - [[SoT - The Architecture of Packet Encapsulation (TCP-IP)]]—Bit-level anatomy of containers.
+    - [[SoT - The Data Architecture of DNS]]—Distributed hierarchical state partitioning.
+- **The Physics:** [[SoT - The Universal Speed of Causality]]—The hard physics limit of latency ($c$) and its impact on [[SoT - Mechanical Sympathy]].
+- **The Units:** [[SoT - Protocol Data Units (PDU)]]—Layer-specific names (Segments, Packets, Frames) and responsibility scopes.
+- **The Process:** [[SoT - Encapsulation & De-encapsulation]]—The Russian Doll mechanism (SDU vs. PDU).
+- **The Constraints:** [[SoT - Network Overhead & MTU]]—The mathematics of bandwidth loss, fragmentation, and MSS clamping.
+- **The Anatomy:** [[SoT - The Data Anatomy of a URL]]—Deconstructing schemes, hostnames, paths, and queries.
+
+---
+
+## 2. Naming, Identity & DNS
+
+How resources are identified and discovered.
+
+- **The Phonebook:** [[SoT - The Data Architecture of DNS]]—Hierarchy, FQDNs, and Hostname vs. Service Name abstraction.
+- **The Environments:** [[SoT - DNS Core Components and Environments]]—Resolvers, zones, and records.
+- **The Identity:** [[SoT - Digital Identity]]—Logical mapping of identity to network resources.
+
+---
+
+## 3. Cloud & Infrastructure Architecture
+
+Universal abstractions and provider-specific implementations.
+
+- **Core Abstractions:** [[SoT - Cloud Networking Principles]]—Latency, Bandwidth, and the CAP theorem applied to pipes.
+- **Device Taxonomy:**
+    - **Forwarding Path:** [[Internet Gateway in AWS Networking|Internet Gateway]], [[NAT Gateways Enable Private Resources to Access Internet|NAT Gateway]], [[Transit Gateway]].
+    - **Inspection Path:** [[Layer 3 Network Security Protects IP Routing and Forwarding|Firewalls]], [[Web Application Firewalls Protect Against Layer 7 Attacks|WAF]].
+- **Cloud Providers:**
+    - [[MOC - AWS Networking]]—VPC CNI, ALB, and Route 53.
+    - [[SoT - Azure Hybrid Networking (ExpressRoute)]]—Connecting On-Prem to Cloud.
+- **Kubernetes:** [[SoT - Kubernetes Networking & DNS]]—CNIs, Service discovery, CoreDNS, and Ingress traffic flow.
+
+---
+
+## 4. Operational Protocols & Diagnostics
+
+How to fix it when it breaks.
+
+- **Diagnostics:** [[Protocol - HIE--NNUH Network Debugging]]—A step-by-step checklist for isolating connectivity faults.
+- **Hybrid Cloud:** [[SoT - Network Debugging - Cross-Cloud & Hybrid]]—ExpressRoute, DirectConnect, and peering failure modes.
+- **Tooling:** [[SoT - Network Debugging Tools & Patterns]]—The armory: tcpdump, netshoot, mtr, and nc.
+- **Interface:** [[MOC - How Sockets Actually Work]]—The interface between application code and the network stack.
+
+---
+
+## 5. Security & Traffic Management
+
+- **Load Balancing:** [[MOC - Load Balancing]]—Strategies for high availability.
+- **Edge Security:** [[SoT - External Ingress & SSL Architecture]]—Handling TLS termination and WAF at the edge.
+- **Segmentation:** [[Layer 3 Network Security Concepts]] and [[Access Control Lists Filter Traffic Based on Protocol and Address Rules]].
+
+---
+
+Related: [[MOC - ProdOS]], [[MOC - Software Architecture Principles]], [[MOC - Computer Science Foundations]]

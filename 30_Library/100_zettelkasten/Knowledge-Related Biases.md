@@ -29,4 +29,6 @@ updated:
   - Oversimplifying architectural decisions
 - Example: "How hard could building a distributed system be?"
 
-[[Illusion of Explanatory Depth (IoED)]]
+[[SoT - Dunning-Kruger Effect|Dunning-Kruger Effect]]
+
+[[SoT - Illusion of Explanatory Depth (IoED)|Illusion of Explanatory Depth (IoED)]]

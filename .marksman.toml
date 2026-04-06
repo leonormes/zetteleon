@@ -4,18 +4,16 @@
 
 # Exclude folders that don't need LSP analysis
 exclude = [
-  "**/.obsidian/**",      # Obsidian metadata
-  "**/.git/**",           # Git metadata
-  "**/node_modules/**",   # Node dependencies  
-  "**/.history/**",       # File history
-  "**/.trash/**",         # Deleted files
-  "**/attachments/**",    # Binary attachments
-  "**/assets/**",         # Binary assets
-  "**/000_inbox/journals/**",  # Daily journals (optional - exclude if too noisy)
-  "**/templates/**",      # Template files
-  "**/210_productivity/ProdOS/**",  # Specific excluded directory
-  "**/Excalidraw/**",     # Excalidraw drawings and related files
-  "**/Readwise/**"        # Readwise imported content
+  "**/.obsidian/**",    # Obsidian metadata
+  "**/.git/**",         # Git metadata
+  "**/node_modules/**", # Node dependencies  
+  "**/.history/**",     # File history
+  "**/.trash/**",       # Deleted files
+  "**/attachments/**",  # Binary attachments
+  "**/assets/**",       # Binary assets
+  "**/templates/**",    # Template files
+  "**/Excalidraw/**",   # Excalidraw drawings and related files
+  "**/Readwise/**",     # Readwise imported content
 ]
 
 # Enable core features
@@ -30,7 +28,7 @@ completion = true
 hover = true
 
 # Enable diagnostic information (compatible with markdownlint)
-diagnostics = false  # Disabled to avoid conflicts with markdownlint-cli2
+diagnostics = false # Disabled to avoid conflicts with markdownlint-cli2
 
 # Enable document symbols (outline view)
 document_symbol = true
@@ -48,3 +46,4 @@ heading_links = true
 
 # File extension handling
 file_extensions = ["md", "markdown", "mdx"]
+

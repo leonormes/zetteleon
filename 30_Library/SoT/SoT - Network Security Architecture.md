@@ -55,6 +55,7 @@ Network Security Architecture is a framework of policies, technologies, and cont
 ### 3.2 Strong IAM & Zero Trust
 - **Eliminate IP Trust:** Use MFA (avoiding SMS/Email) and client TLS certificates to verify identity regardless of source IP.
 - **ZTNA (Zero Trust Network Access):** Replace traditional VPNs with application-layer encryption and continuous validation.
+- **Foundational Model:** See [[SoT - Zero Trust Architecture]] for the core principles of shifting from perimeter trust to identity-centric security.
 
 ### 3.3 Automate & Patch
 - 32% of attacks target unpatched vulnerabilities. Automate patching and vulnerability scanning.

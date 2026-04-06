@@ -1,0 +1,18 @@
+[
+  {
+    "icon": "search",
+    "text": "Search the ops and SoT folders for protocols regarding AWS HIE Jumpbox Access and summarise the security requirements"
+  },
+  {
+    "icon": "file-plus",
+    "text": "Draft a new Zettelkasten note with a declarative title about how MVC enforcement structural gates improve LLM agent reliability"
+  },
+  {
+    "icon": "folder-tree",
+    "text": "Review the notes in the Inbox and suggest which ones should be converted into atomic notes or linked to the Linux Networking MOC"
+  },
+  {
+    "icon": "globe",
+    "text": "Research the latest developments in MCP servers and tool-use to supplement my AI Agent Development project notes"
+  }
+]

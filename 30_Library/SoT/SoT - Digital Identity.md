@@ -65,9 +65,33 @@ While the structure is shared, the nature of the claims differs fundamentally.
 - Trust: Based on Provenance (Who issued this? Do I trust the issuer?).
 - Confidence: Based on Fidelity (How strong was the authentication? MFA vs Password).
 
+### 4. The Identity Lifecycle
+
+#### A. Establishing an Identity (Identity Management)
+Digital identity is the foundation for establishing trust. The lifecycle includes:
+- **Registration/Creation:** Generating an identity and securely linking it to a real-world entity.
+- **Provisioning:** Creating, modifying, or deleting user accounts across systems (e.g., HR to IdP, IdP to Apps).
+- **Maintenance:** Constantly updating identity information as roles change or entities leave the organization.
+
+#### B. Verifying an Identity (Authentication)
+Trust is established by computing an assertion that the entity can provide information only they possess ("Proof of Possession").
+- **Credential-based:** Password policies (length, rotation, smart lockout).
+- **Challenge-Response:** Protocols like **CHAP** for remote network access.
+- **Biometric Identification:** Measuring physiological traits (Fingerprint, FaceID).
+- **MFA:** Adding layers of verification (SMS, Push, Hardware tokens).
+- **Passwordless:** Leveraging public key cryptography (FIDO2/WebAuthn) for phishing-resistant auth.
+
+#### C. Role of Attributes
+Attributes (Name, Role, Security Clearance) are crucial for **Authorization** decisions. Modern IAM systems enforce the principle of "Never Trust, Always Verify," using contextual attributes (device, location, behavior) for continuous authentication.
+
 ---
 
-### 4. Architectural Implications
+### 5. Federated Identity Management (FIM)
+FIM allows the use of a single identity across multiple organizations, shifting verification toward a trusted **Identity Provider (IdP)**. Technologies like **SAML**, **OpenID Connect (OIDC)**, and **OAuth 2.0** enable this cross-organizational trust.
+
+---
+
+### 6. Architectural Implications
 
 1. Least Privilege: Identities should only possess the attributes required for their function. Machine identities should have zero access to human data unless explicitly required.
 2. Lifecycle Management:

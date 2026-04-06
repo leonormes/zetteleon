@@ -42,6 +42,7 @@ These challenges are rooted in the brain's physical architecture and chemistry:
 
 ## Related Knowledge
 
+- [[SoT - Prosthetic Executive Function]] (The "Prosthetic" solution)
 - [[SoT - ADHD Executive Dysfunction]] (The core diagnosis)
 - [[SoT - ADHD and Motivation]] (The fuel problem)
 - [[Working Memory Limitations in ADHD]] (The memory bottleneck)

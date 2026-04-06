@@ -1,11 +1,11 @@
 ---
 aliases: ["AWS VPC CNI vs Calico", "EKS IP Planning", "EKS Networking Requirements", "EKS Networking"]
 created: 2026-02-01T21:19:14+00:00
-last-synthesis: 2026-02-01
-modified: 2026-02-04T07:27:24+00:00
+last-synthesis: 2026-04-04
+modified: 2026-04-04T13:00:00+00:00
 source_of_truth: true
 status: evergreen
-synthesis-count: 2
+synthesis-count: 3
 tags: [domain/cloud, networking, provider/aws, service/eks, type/SoT]
 title: SoT - AWS EKS Networking Architecture
 trust-level: working-knowledge
@@ -39,60 +39,38 @@ EKS uses Security Groups to control traffic boundaries:
 - Control Plane SG: Must allow inbound `TCP 443` from management networks (e.g., VPN, Bastion).
 - Node SG: Must allow:
     - Outbound to Cluster SG on `TCP 443` (API) & `TCP 10250` (Kubelet).
-    - Outbound for DNS on `TCP/UDP 53`.
-    - Inter-node communication protocols.
+    - Outbound from Node SG to Control Plane SG on `TCP 443`.
+    - Inbound from Control Plane SG on `TCP 443` and `TCP 10250`.
+
+#### 1.3 Common Operational Scenarios
+
+##### Scenario: Outbound Connectivity from a Private Subnet (The Jumpbox Pattern)
+To enable a resource (like a jumpbox) in a private subnet to make external requests, the following chain must be intact:
+1. **Private Subnet:** Hosts the resource.
+2. **NAT Gateway:** Located in a **Public Subnet** within the same VPC.
+3. **Route Table (Private):** Must have a route `0.0.0.0/0` pointing to the `nat-gateway-id`.
+4. **Internet Gateway (IGW):** Attached to the VPC.
+5. **Route Table (Public):** Must have a route `0.0.0.0/0` pointing to the `igw-id`.
+6. **Network ACLs/Security Groups:** Must allow outbound traffic on the required ports and return traffic (ephemeral ports).
 
 ---
 
-### 2. Pod Networking Layer (CNI & IP Management)
+## 2. Pod Networking Layer (The Runtime)
 
-The choice of Container Network Interface (CNI) plugin determines how Pods consume IP addresses.
-
-#### 2.1 Default Mode: AWS VPC CNI
-
-By default, EKS uses the Amazon VPC CNI plugin.
-
-- Direct VPC IPs: Every Pod receives a real IP address from the VPC subnet, just like an EC2 instance.
-- Flat Network: Pods are first-class citizens. They can be reached directly by other VPC resources (VPN, Direct Connect) without NAT.
-- Constraint: IP Exhaustion. A large cluster can quickly consume thousands of private IPs.
-
-#### 2.2 Capacity Planning: The Formula
-
-When using the AWS VPC CNI, you must rigorously plan subnet sizes.
-
-Calculation: `Total IPs Needed = (N × P) + N + LoadBalancers + Buffer`
-
-- `N`: Number of Nodes
-- `P`: Max pods per node (Instance limit)
-- `Buffer`: 5 IPs reserved by AWS per subnet
-
-Example (FitFile Scale):
-
-50 Nodes (`m5.xlarge`, 58 pods/node) ≈ 3,000 IPs.
-
-- Recommendation: Minimum `/20` CIDR (4,096 IPs).
+(Reserved for CNI, Calico, and IP Planning details)
 
 ---
 
-## Current Understanding
+## 3. Advanced Configurations
 
-### 3. Advanced Configurations
+#### 3.1 Custom Networking (Secondary CIDR)
+Assigning a secondary CIDR range to pods to bypass VPC IP exhaustion.
 
-#### 3.1 Overlay Networking (Calico/Cilium)
-
-For environments with IP constraints (small VPC CIDRs):
-
-- Encapsulation: Pods use a virtual IP range (e.g., `192.168.0.0/16`) outside the VPC.
-- Benefit: Decouples Pod density from VPC IP limits.
-
-#### 3.2 Secondary CIDR Blocks
-
-If the primary VPC CIDR is exhausted, you can attach a secondary CIDR (e.g., `100.64.0.0/16`) to the VPC and configure the CNI to place pods there (`AWS_VPC_K8S_CNI_CUSTOM_NETWORK_CFG=true`).
+#### 3.2 Security Group for Pods
+Assigning specific Security Groups directly to Kubernetes pods for fine-grained network control.
 
 #### 3.3 Hybrid Node Networking
-
 Connecting on-premises infrastructure to EKS:
-
 - Constraint: Requires reliable connection (VPN/Direct Connect) with <200ms latency.
 - IP Addressing: IPv4 only. RFC1918 CIDRs for on-prem nodes/pods must not overlap with VPC or Service CIDRs.
 - Routing: VPC Route Tables must direct traffic for on-prem CIDRs to the VPN/DX Gateway.

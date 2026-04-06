@@ -1,30 +1,85 @@
 ---
 aliases: [Secret Rotation Protocol, VSO Troubleshooting]
-created: 2026-03-12T09:00:00Z
-modified: 2026-03-14T11:10:17+00:00
+last_synthesis: 2026-04-05
+modified: 2026-04-05T13:10:00+01:00
 status: evergreen
-tags: [argocd, kubernetes, protocol, secrets, vault, vso]
+tags: [argocd, kubernetes, protocol, secrets, vault, vso, aks, hcp-vault]
 title: Protocol - VSO Secret Management & Troubleshooting
 type: Protocol
-updated: 2026-03-12
+updated: 2026-04-05
 ---
 
 ## Protocol - VSO Secret Management & Troubleshooting
 
-### 1. Context & Architecture
+### 1. The Mental Model: The High-Security Office
 
-The FITFILE platform uses HashiCorp Vault (HCP) as the Source of Truth for all secrets. The Vault Secrets Operator (VSO) synchronizes these into Kubernetes as native `Secret` objects.
+To understand Kubernetes secrets and certificate flows, visualize the system as a physical security operation rather than abstract cryptographic handshakes.
 
-#### Core Components
+| Component | Physical Analogy | Description |
+|:--- |:--- |:--- |
+| **Pod** | The Employee | The entity needing access to a locked resource (e.g., database password). |
+| **Service Account** | The ID Badge | The identity (JWT token) issued to the employee upon hiring. |
+| **VSO** | The Trusted Courier | A high-clearance guard whose sole job is to fetch keys for employees. |
+| **HCP Vault** | The Central Safe | The secure location where all master keys and secrets are stored. |
+| **K8s API / OIDC** | The Notary | The authority that verifies if an ID badge (token) is genuine. |
 
-- VaultAuth: Defines how VSO authenticates to Vault (typically using Kubernetes ServiceAccount JWT or AppRole).
-- VaultStaticSecret (VSS): Syncs KV (static) secrets from Vault.
-- VaultDynamicSecret (VDS): Generates and syncs dynamic credentials (e.g., Azure Service Principals for ACR).
-- Reflector: Replicates secrets (like image pull secrets) from a source namespace (e.g., `argocd`) to all application namespaces.
+#### The Flow (Secrets)
+1. **Request**: You define a `VaultStaticSecret`. (You tell the Courier: "Get the DB key for this Pod.")
+2. **Proof**: VSO grabs the Pod's Service Account Token. ("Here is the ID badge.")
+3. **Verification**: Vault asks the K8s API: "Did you issue this badge to this specific Pod?"
+4. **Delivery**: Once verified, Vault hands the key to VSO, who drops it into a standard K8s Secret.
+
+#### The Flow (Certificates)
+Similar to secrets, but the Pod generates a **CSR** (a blank passport with a photo). Vault checks the identity, applies its cryptographic stamp (Signature), and returns a valid TLS certificate.
 
 ---
 
-### 2. The "Overwrite" Golden Rule
+### 2. Manual Verification (Bypassing the Black Box)
+
+If the VSO operator is failing and the logs are ambiguous, perform the "Handshake" manually to isolate the failure point.
+
+#### Step 1: Procure the "ID Badge" (K8s Token)
+```bash
+# 1. Create a test identity
+kubectl create serviceaccount manual-vault-test -n <ns>
+# 2. Generate a 1-hour token
+export KUBE_TOKEN=$(kubectl create token manual-vault-test -n <ns>)
+# 3. Inspect the badge (requires jq)
+jq -R 'split(".") | .[1] | @base64d | fromjson' <<< $KUBE_TOKEN
+```
+
+#### Step 2: Perform the Handshake (Vault Login)
+```bash
+export VAULT_ADDR="https://<your-hcp-vault-url>:8200"
+# Present the K8s token to Vault's kubernetes auth mount
+curl -s --request POST \
+  --data '{"jwt": "'"$KUBE_TOKEN"'", "role": "<your-vault-role>"}' \
+  $VAULT_ADDR/v1/auth/kubernetes/login
+```
+*Success returns a `client_token`. Failure here indicates a K8s-to-Vault trust issue (JWT provider, CA, or Role mapping).*
+
+#### Step 3: Fetch the Secret
+```bash
+export VAULT_TOKEN="<hvs.token-from-step-2>"
+curl -s -H "X-Vault-Token: $VAULT_TOKEN" $VAULT_ADDR/v1/secret/data/<path>
+```
+*Failure here indicates a Vault Policy issue (the identity is valid, but doesn't have `read` on the path).*
+
+---
+
+### 3. Core Components & Logic
+
+The FITFILE platform uses HCP Vault as the Source of Truth. VSO synchronizes these into Kubernetes as native `Secret` objects.
+
+- **VaultAuth**: Defines how VSO authenticates (ServiceAccount JWT or AppRole).
+- **VaultStaticSecret (VSS)**: Syncs KV (static) secrets.
+- **VaultDynamicSecret (VDS)**: Generates/syncs ephemeral credentials (e.g., Azure SPs for ACR).
+- **Reflector**: Replicates secrets (like image pull secrets) from `argocd` to all application namespaces.
+
+---
+
+### 4. The "Overwrite" Golden Rule
+
 
 CRITICAL: For any secret managed by VSO, especially dynamic ones, the specification MUST include:
 

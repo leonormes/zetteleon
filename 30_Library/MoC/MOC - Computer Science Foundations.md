@@ -1,9 +1,8 @@
 ---
 aliases: ["Computing MOC", "CS MOC", "Software Engineering MOC", "Tech Stack MOC"]
 created: 2025-12-13T09:15:00Z
-last-reviewed: "2025-12-13T00:00:00.000Z"
-last_reviewed: "null"
-modified: 2026-02-01T15:08:07+00:00
+last_reviewed: "2026-04-05T00:00:00.000Z"
+modified: 2026-04-05T12:50:00+01:00
 status: "stable"
 tags: ["cloud", "computer-science", "SoftwareEngineering", "SoftwareEngineering/Architecture"]
 title: MOC - Computer Science Foundations
@@ -66,3 +65,12 @@ The languages and patterns used to orchestrate systems.
 
 - [[SoT - Bash Scripting]]—_The Shell._ Core patterns for safe process orchestration and file manipulation (Quoting, Arrays, IFS).
 - [[SoT - Shell Automation and IPC]]—_The Workflow._ Event-driven logic (Signals, Traps, FS Watching) for reactive terminal environments.
+
+---
+
+## 6. Artificial Intelligence & Machine Learning (The Intelligence)
+
+Theoretical foundations for learning systems.
+
+- [[SoT - Machine Learning Foundations (Neural Networks)]]—_The Foundations._ The Universal Approximation Theorem (UAT) and the Switch-Bump-Staircase model.
+- [[SoT - Agentic AI Design Patterns]]—_The Architectures._ 20 modular patterns for autonomous, tool-augmented AI workflows.

@@ -11,7 +11,7 @@ type: "permanent"
 updated: 
 ---
 
-[[collectors fallacy]]
+[[SoT - Illusion of Explanatory Depth (IoED)|collector's fallacy]]
 
 Taking time to work through those inboxes is harder. Especially when those inboxes are so full. I have too much stuff to go through, and I don't even really know what to do with it.
 

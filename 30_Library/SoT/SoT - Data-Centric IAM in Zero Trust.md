@@ -14,6 +14,8 @@ updated:
 
 In a Zero Trust architecture, Identity and Access Management (IAM) is a continuous, calculated state rather than a static gateway. It is a data-processing function where access is the output of an evaluation of three decoupled datasets: Identity assertions, Contextual signals, and Policy logic.
 
+**Conceptual Foundation:** See [[SoT - Zero Trust Architecture]] for the high-level philosophy of identity-centric security.
+
 ## 2. The Core Data Model (Schema)
 
 To architect a Zero Trust IAM system, we must define the structural entities involved. These are concrete data objects that the Policy Decision Point (PDP) must ingest.
