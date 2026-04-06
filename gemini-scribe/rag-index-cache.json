@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1775486439400,
+  "lastSync": 1775487268531,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3338,11 +3338,6 @@
       "contentHash": "c2ee3868df159742832756de4ae6414dc076191be02d8cb8c6211baf4b902586",
       "lastIndexed": 1775486028002
     },
-    "30_Library/200_projects/30_Maths/Understanding Number Systems in the Context of Describing and Speaking in Mathematical Language.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0cd9b3b0d11a19e150f9a3d666b0010bd89ead2ef4ba105e94f9fca45c1a99a4",
-      "lastIndexed": 1775486028545
-    },
     "30_Library/200_projects/30_Maths/Think like a mathematian.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "66e5ac825e5ad51d1293db0b9a9021420780428f2bcf3c829f01a19d6b04664a",
@@ -3413,11 +3408,6 @@
       "contentHash": "1d9c2ce409fa9b661fad29011dd6155a88941f34f06a6360fce43d0a6a19eb01",
       "lastIndexed": 1775486037551
     },
-    "30_Library/200_projects/30_Maths/How Mathematics Changed the World.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a5c6caafa06743a25fd69d2893b74f3aa81bb2056ee38d1a86f751c08d7b92aa",
-      "lastIndexed": 1775486037595
-    },
     "30_Library/200_projects/10_Infrastructure/k8s/root docker rootless podman.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "5763c4805462e4943f7679e56c601d43a5b9aa20e73a6210d68d7b39251de7da",
@@ -3472,11 +3462,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "06d422fa0e3d0a673ec1aa5cd004c793bc39662518930da152e7997e2f75b240",
       "lastIndexed": 1775486046467
-    },
-    "30_Library/200_projects/10_Infrastructure/gitops/gitops.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "27349c1a67345a38dd79a138c351064a02a667e3b4db776120b91074a34e54ac",
-      "lastIndexed": 1775486046468
     },
     "30_Library/200_projects/10_Infrastructure/k8s/Processes/PID namespacing.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -4112,11 +4097,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "462348f0c28b852184d184499c9c5f649baed77f14892788c767c5789c218246",
       "lastIndexed": 1775486124947
-    },
-    "30_Library/200_projects/00_Active_Projects/Refined Deployment/Deployment Configuration Analysis Report LCA-DP.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "31e1d435c837da1e087255ac69bd2e209df48611166048cfb91aab789567301d",
-      "lastIndexed": 1775486125176
     },
     "30_Library/100_zettelkasten/vague_boundaries.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -6517,9 +6497,2948 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "9ec84309675f3c19371b17291287ee23996598612e627b933f4951d88a1fd916",
       "lastIndexed": 1775486439400
+    },
+    "30_Library/100_zettelkasten/Literature Notes Bridge Source Material and Main Notes.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "42eb876269ea32c56b605771c3307e0a3397333f41d9ae41cf73b6906a60e0aa",
+      "lastIndexed": 1775486442011
+    },
+    "30_Library/100_zettelkasten/Limited Human Information Processing Capacity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3a2142b8575077cc907bc89df8c79f1dcb26345fc5045bb0da54478c02502765",
+      "lastIndexed": 1775486442441
+    },
+    "30_Library/100_zettelkasten/Load Balancer Health Checks Ensure Traffic is Routed Only to Healthy Servers.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "dcc02236f0f5981673d2acf76b6cdd714d57dcacc19587e9b312dbf7b08c6869",
+      "lastIndexed": 1775486442441
+    },
+    "30_Library/100_zettelkasten/Living Paycheck-to-Paycheck Forces Short-Term Decisions.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "96f6e186dc38a6fd622271d58f7fb5265e59227964dfc2ee54fdd889036f1826",
+      "lastIndexed": 1775486442442
+    },
+    "30_Library/100_zettelkasten/Linking as a Redundancy Reduction Strategy in Zettelkasten.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "80fc43e9e34b8992f280619143f8ee895e28d0dc06847f79747749b25d7f3738",
+      "lastIndexed": 1775486442914
+    },
+    "30_Library/100_zettelkasten/Letting Go to Gain Control.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6b94e3bde977306a9b3f34bbaeea28e4f81c54839b89e75d6323b573e73daef2",
+      "lastIndexed": 1775486445315
+    },
+    "30_Library/100_zettelkasten/Limited Capacity Brain.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f953ccf111240453fd516e1dbe959ec05e14f988860c2b58af4a6cca8749d066",
+      "lastIndexed": 1775486445691
+    },
+    "30_Library/100_zettelkasten/Least Privilege Authorization with Terraform Cloud.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "54d7860314133277fb5f5346727acf2fbb39801a558611e2e61652a6f2bb926b",
+      "lastIndexed": 1775486445771
+    },
+    "30_Library/100_zettelkasten/Limbic Friction is the Activation Energy for Habits.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "df0acc42eaa3d117fa00a3f3ebbd1435c665fb01367f97c931d0725576965a34",
+      "lastIndexed": 1775486445784
+    },
+    "30_Library/100_zettelkasten/Leveraging AI and Templates for ADHD Productivity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8cadbe831406f632a5d24532aea6c4ae2aa2bdfba7fef6f3d01c854c98042f6c",
+      "lastIndexed": 1775486446128
+    },
+    "30_Library/100_zettelkasten/Leaving a Task Intentionally Unfinished Creates a Clear Starting Point.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d5da85dc168c5e94fbdee647dd4b77483b0fbada2eb81a9eed07c7fe1013535a",
+      "lastIndexed": 1775486448367
+    },
+    "30_Library/100_zettelkasten/Letting Go of Fixed Views Leads to Peace.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9594a8ea49be2386457c2875b5e86e8ec280a291db419f9d44fd1d3ea65c5a13",
+      "lastIndexed": 1775486448706
+    },
+    "30_Library/100_zettelkasten/Learning is the Acquisition of Information While Understanding is the Construction of Meaning.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "88ad435b5f2978272bb76c8676b2c32ad2b851dad31eacd292057cbfdbe9e72f",
+      "lastIndexed": 1775486448766
+    },
+    "30_Library/100_zettelkasten/Learned Behaviour.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e37bd32f467f206e1ed9830dc29eb86d9124707dc0f3cb38c3099302fe550af6",
+      "lastIndexed": 1775486448823
+    },
+    "30_Library/100_zettelkasten/Leaky Abstractions.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "81fecadf63e2a6fce202d4a91d14d8b11fbb27459073d815ff1a7bf9159dbf20",
+      "lastIndexed": 1775486449034
+    },
+    "30_Library/100_zettelkasten/Layer 7 Application Layer.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7064affcdcb805a75a72c55f4b82b0274067a87d62908b58c9085fc9def25797",
+      "lastIndexed": 1775486451867
+    },
+    "30_Library/100_zettelkasten/Leadership is Encouraging a Group to Get Things Done.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b2b4b4a22f69e21defe9ceaf68d832de66d258a2d535ba8d79e0e7a6786db0d3",
+      "lastIndexed": 1775486451867
+    },
+    "30_Library/100_zettelkasten/Layer 6 Presentation Layer.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e5c4b5369ae74c5a7b2dd7035b7245b68e1a5510acb1ae43e5914cee029e90df",
+      "lastIndexed": 1775486451962
+    },
+    "30_Library/100_zettelkasten/Layer 5 Session Layer.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f64990538a28c702a52c9b92b7831386061aea7a634f2cf89911cc16cddf33ec",
+      "lastIndexed": 1775486452066
+    },
+    "30_Library/100_zettelkasten/Layer 7 Protocol Elements in Node.js.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b367a450ac8f87b6722ea9194640f8b248e1ec733a5ed1c9b017b30244b53bd3",
+      "lastIndexed": 1775486452724
+    },
+    "30_Library/100_zettelkasten/Layer 3 Network Security Protects IP Routing and Forwarding.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7db53e210282a43527960036167951b85d57b79de3bd177a2f9e762561a55199",
+      "lastIndexed": 1775486455121
+    },
+    "30_Library/100_zettelkasten/Layer 1 Physical Layer.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f44c6ba2a0fc1786f9423d8a0f5efd01b9d74b00444cea3b462aa2cb68c95960",
+      "lastIndexed": 1775486455155
+    },
+    "30_Library/100_zettelkasten/Lateral Thinking with Withered Technology Drives Innovation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "46a9e8b9cc7df2ed37f1a6ca976274552c6a52407db13756380a7a8f6403bef5",
+      "lastIndexed": 1775486455587
+    },
+    "30_Library/100_zettelkasten/Language Acquisition and Development.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6eacbf1a0f33dc48e7b509bd877d214fbdfb3f652b8497c6cc6a21b4cee02fdc",
+      "lastIndexed": 1775486455768
+    },
+    "30_Library/100_zettelkasten/Language of Thought.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1ebded4bdab6010804b854a9b55e12b92880c0e3a473d10153054772e00fa4d7",
+      "lastIndexed": 1775486456265
+    },
+    "30_Library/100_zettelkasten/Kubernetes Ingress Controllers Handle L7 Traffic.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1143842a38ed623b4379df47b15cbc1b6cf9660a712282efc081edd814ddb2bf",
+      "lastIndexed": 1775486458823
+    },
+    "30_Library/100_zettelkasten/LLM Reasoning Efficiency is Proportional to Structural Constraint.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "45da37368802b9394a5d4f6fe92a937a0813aecbcdb7c3c0a3c1e30076ef53ee",
+      "lastIndexed": 1775486459131
+    },
+    "30_Library/100_zettelkasten/Kolmogorov Complexity - Information as Compressibility.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8144c854028511ff0ebc47fabcd7038f344580d49d74cc3a9ed8c9631742e1c4",
+      "lastIndexed": 1775486459131
+    },
+    "30_Library/100_zettelkasten/Kubernetes-Native Abstractions for Traffic Control.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "79b81737e2fa8f4575faf7deaac9791d0c4cfe414737ded1f69d1ae9bb6b9d50",
+      "lastIndexed": 1775486459340
+    },
+    "30_Library/100_zettelkasten/La Fontaines Fables Served as Courtly Education in 17th Century France.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c3ad39ab07180bf7100ccdd4e98d7b950afa626a75894d763e2a8202a5b14b29",
+      "lastIndexed": 1775486459770
+    },
+    "30_Library/100_zettelkasten/Knowledge Enables Power.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5beccf2d6c68fa91cf14129ba68b76d2c2d8c3a7080e43c2f702b7de80e18632",
+      "lastIndexed": 1775486462205
+    },
+    "30_Library/100_zettelkasten/Knowledge Applicability of Blub Studies.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "724db69b43dbbb3a230d90f4a994aef11d3df963f1e3d109db89f79f3da7a091",
+      "lastIndexed": 1775486462205
+    },
+    "30_Library/100_zettelkasten/Knowledge Formation is a Cognitive Process of Neural Connection.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7bb5c54eb751a44c5ac5524db7e8b9945288f494aec941d64d1aa1c17bdede5e",
+      "lastIndexed": 1775486462522
+    },
+    "30_Library/100_zettelkasten/Knowledge Emerges Through Application and Experience.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ebc282c01fe6c6beab14c2ce429208e0c61f571456e8e391cf5dd73f2b604b3f",
+      "lastIndexed": 1775486462818
+    },
+    "30_Library/100_zettelkasten/Knowledge-Related Biases.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a62f84650fa77dba6e9242a53304cd44a3bb4849b2401af8d23cbe7ccdc381e3",
+      "lastIndexed": 1775486462818
+    },
+    "30_Library/100_zettelkasten/Key Mindshift.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "79f31b710da83c6372b76a3e50a7d3c2e4d0961ab5b043a94e847ae0f8a8b32c",
+      "lastIndexed": 1775486465252
+    },
+    "30_Library/100_zettelkasten/Kind Learning Environments are Predictable and Rule-Based.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "211dce0df083278e317d26d77e1c29a38fe6e24fbba1a903bff03a5eeb21e8b8",
+      "lastIndexed": 1775486465285
+    },
+    "30_Library/100_zettelkasten/Kindness is Doing Favors and Good Deeds for Others.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "417dcd08186880ce1c364ca23919baf9d741cee176b712fab568eeb64bfd4839",
+      "lastIndexed": 1775486465398
+    },
+    "30_Library/100_zettelkasten/Junebugging - A Gentle Focus Strategy for ADHD.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c7abd4ddaaa590357a306d91fa75040a4511e23ae42af13f7c2fc1eb631b8948",
+      "lastIndexed": 1775486465524
+    },
+    "30_Library/100_zettelkasten/Keyword Index Provides Sparse Entry Points.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a9e0a86b2aa0a6ed6d5c5969a22ed676472a75d345cae9fa08fedd29e7d2e870",
+      "lastIndexed": 1775486467591
+    },
+    "30_Library/100_zettelkasten/Intuitionism Rejects the Law of the Excluded Middle.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c560b6f8759f226543b4ce39c02505fcc0eb07a9236bba73f0910a314194710e",
+      "lastIndexed": 1775486470434
+    },
+    "30_Library/100_zettelkasten/Itadakimasu expresses gratitude for a meal.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "76ce683d38edce97e38eafa0a3ec59d31fccd4f346d4906a7ae182649c6e1bbf",
+      "lastIndexed": 1775486470545
+    },
+    "30_Library/100_zettelkasten/Intellectual Explorer vs Academic Specialist.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "853034406548ce3282c427713808cb185878ae8271be29618346b10315b21981",
+      "lastIndexed": 1775486470572
+    },
+    "30_Library/100_zettelkasten/Judgment is Thinking Things Through and Examining All Sides.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ba9bbe346a7326ae05199c2ea0612769df877672a5d62499791a9a3cf0737d92",
+      "lastIndexed": 1775486470701
+    },
+    "30_Library/100_zettelkasten/Jazz Musician Metaphor for Originality Through Unique Expression.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a3925142bbd7baf1b581448552e262f2ebd9eb3331d70bd00d6e5968ad46845e",
+      "lastIndexed": 1775486471111
+    },
+    "30_Library/100_zettelkasten/Interleaving Practice of Different Topics Improves Discriminative Learning.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "67383b6c7ce34095158bcd3d7353e47720e9daa871e011f074f8032f13c73c6f",
+      "lastIndexed": 1775486473682
+    },
+    "30_Library/100_zettelkasten/Interest Pairing Can Increase Engagement in Mundane Tasks for ADHD.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "759dee402e399eb51cf664f6a4278cd5f28a25fca41653bc7e1a88bce15a7f1d",
+      "lastIndexed": 1775486473901
+    },
+    "30_Library/100_zettelkasten/Intent-Implementation Separation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "00af971fe55f89d56ecb1c3c986e45f99b098d4d37c3420f2a0d138861f9c0e3",
+      "lastIndexed": 1775486474073
+    },
+    "30_Library/100_zettelkasten/Internet Gateway in AWS Networking.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "fc5783fcca7b104ea26926ec195bcb0c395bb59ee3ad969e562a9ad80d26a6ca",
+      "lastIndexed": 1775486474136
+    },
+    "30_Library/100_zettelkasten/Intuitionism (Mathematics as Mental Construction).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "67c51285beda6e75eac230bd10578059fbbf32a12690e637014d0a432d6f4f01",
+      "lastIndexed": 1775486474262
+    },
+    "30_Library/100_zettelkasten/Information as Perceivable Pattern.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a63f0429c245016f683dce16a3df7df921e9f2893b577418702d2f815973eb72",
+      "lastIndexed": 1775486476951
+    },
+    "30_Library/100_zettelkasten/Information as an Organizing Principle.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "541be759f68b659bbf93d6b8786daec72e281feae4f87ada8b2f04ed6d38a1ec",
+      "lastIndexed": 1775486476980
+    },
+    "30_Library/100_zettelkasten/Instrumentalism vs Realism in Understanding.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2942e448300ede6e100ddac5152c64bee1024f7802d71d45dc28c359213362ad",
+      "lastIndexed": 1775486477089
+    },
+    "30_Library/100_zettelkasten/Intelligence is a Flexible Problem-Solving Toolbox.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "afee0eeb14672b14baf121873be18c78a128996ee5775f003a344ec716c7ee85",
+      "lastIndexed": 1775486477116
+    },
+    "30_Library/100_zettelkasten/Integrity Means Acting in Accordance With Chosen Values.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4046fc886b86058ebe6606c4e2e6f9586d7c87e7688943918a73b0d462aeb2f7",
+      "lastIndexed": 1775486477205
+    },
+    "30_Library/100_zettelkasten/Information Addiction in Overthinkers.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "921f19acfd6e23571e7298234d2c0a4b67e32900b924a9051a5f777102bbc748",
+      "lastIndexed": 1775486479714
+    },
+    "30_Library/100_zettelkasten/Infinitude of Primes Guarantees a Limitless Supply for Keys.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "537eb6cfa8c18942518ceadd1abd6ed8543065ac6336dc89f6af23fa6c604403",
+      "lastIndexed": 1775486479714
+    },
+    "30_Library/100_zettelkasten/Information Overload.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "35029b5edea340ee6186034c554545b9c7bbffb72388bb2b20dde325dc80459e",
+      "lastIndexed": 1775486479792
+    },
+    "30_Library/100_zettelkasten/Influence of Programming Paradigms on Mental Models.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "571c738cc7dbac6f4ae474db162a0d02b840a3ba695ed6f67eaf89fcea73350f",
+      "lastIndexed": 1775486480228
+    },
+    "30_Library/100_zettelkasten/Information Hidden in Data.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "369f5ec8e592efd6e6d8becef54a8038edc06675839d4923003c9b71c309ccaf",
+      "lastIndexed": 1775486480229
+    },
+    "30_Library/100_zettelkasten/Inaction Erodes Self-Trust.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bbc510fecc789f01b7d61ff848a99e47731839fd4abed04122a5dc2fa6f539a4",
+      "lastIndexed": 1775486482683
+    },
+    "30_Library/100_zettelkasten/Individual Interpretation Creates Different Knowledge from the Same Information.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "798ee4ef05a0bd94579428579ba58e77659aa0060e65f34792d1d931a78da8c5",
+      "lastIndexed": 1775486482797
+    },
+    "30_Library/100_zettelkasten/Implications for Consciousness and Philosophy of Mind.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ac9727c77df4607b586a2c3daa3214d3140aaa4c69c6d4de7d09e9b8b0dddf96",
+      "lastIndexed": 1775486483025
+    },
+    "30_Library/100_zettelkasten/Implicit Social Hierarchies Authority.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3d58acf7ba694b26d51f9732fed017c97cf100883764e272e469d8b4482d2539",
+      "lastIndexed": 1775486483095
+    },
+    "30_Library/100_zettelkasten/Individual ADHD Strategy Involves a Hybrid System and Self-Compassion.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8037c4e5ffe47c67ccf9a6aa8338291891ab72073661dc55983263116e989fdb",
+      "lastIndexed": 1775486483808
+    },
+    "30_Library/100_zettelkasten/Implementation Intentions Turn Vague Plans Into Concrete Actions.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9bbf582a3a82e26dacbd21337334ae55a48482fa96c15fefe1459edb6715d179",
+      "lastIndexed": 1775486486532
+    },
+    "30_Library/100_zettelkasten/Implementation Intentions Automate Action Initiation with If-Then Plans.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "994667d2930d9a5e0e3d75ac31c3ac9a4395581cade7210bd4a7f801af752275",
+      "lastIndexed": 1775486486556
+    },
+    "30_Library/100_zettelkasten/Immutability Principle - Preserve Original Notes.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "380aca6c659138ef796eaac476cca3863bc4f978edfbc5addb8310d0fc764b60",
+      "lastIndexed": 1775486486662
+    },
+    "30_Library/100_zettelkasten/Impact of Set 2 Breakthroughs.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f14aeb8d6b61003c7d0cbb9eab8a0e28283777c8b477dcb6e6c1cf8764e5213c",
+      "lastIndexed": 1775486486822
+    },
+    "30_Library/100_zettelkasten/Ideas exist beyond linguistic expression.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "506a30a657c02d9cc2eb1d5ecd0b9ffa4dee21da7f861d4cadf53f5aa4289ba6",
+      "lastIndexed": 1775486487189
+    },
+    "30_Library/100_zettelkasten/I am enslaved to the work of zetteling.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "fb4284488685119432d52b6df93b89b0eb91eb8f0b5ee698ded82da6a8dbfd9c",
+      "lastIndexed": 1775486489639
+    },
+    "30_Library/100_zettelkasten/I have only recently started to come to terms emotionally with ADHD.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "97ff98e75a79e16025d92586e43bcd033aedc8d5e0d2d5e8806789098ada1b17",
+      "lastIndexed": 1775486489817
+    },
+    "30_Library/100_zettelkasten/I am iterating on creating a thinking system.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "01c60a44f41229a9e5127a9d46254dc82a674a3eca10f0a25d6d6edd1fbc9cb6",
+      "lastIndexed": 1775486490156
+    },
+    "30_Library/100_zettelkasten/I have a lot of shame about my life.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a45fa68fd2482930821af516c94d3ccf8d0411d72f27c78c701e901c6fdefebd",
+      "lastIndexed": 1775486490267
+    },
+    "30_Library/100_zettelkasten/I Have Not Really Accepted the ADHD Difficulties I Have Had.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bea372035ed885764797cc4610ee0d59bf280a57e361608e665827a7a7b57385",
+      "lastIndexed": 1775486490600
+    },
+    "30_Library/100_zettelkasten/Hyperfixation Creates Time Blindness in ADHD.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a0264ee2f3c48503f8f16fbf0f770193c41f27265878f957fcb8d8c1b3ab4bec",
+      "lastIndexed": 1775486493136
+    },
+    "30_Library/100_zettelkasten/Hunter vs Farmer Brain Metaphor.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "403e939867b00913a4ceb12072095d1a7576ccfdc3efc760a484998fb95a9234",
+      "lastIndexed": 1775486493154
+    },
+    "30_Library/100_zettelkasten/Hyperfocus is a State of Intense Interest-Driven Focus in ADHD.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d08ba680cb0c4f9a7f78b84577ff6310a7449afadb610ed1d892b519d04e5d4e",
+      "lastIndexed": 1775486493517
+    },
+    "30_Library/100_zettelkasten/Hyperfixation Causes Mental Exhaustion and Burnout.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8cfdd388078bdca22f818f1362cce386fc42d02c61f4ed32b92a6541aaec7719",
+      "lastIndexed": 1775486493598
+    },
+    "30_Library/100_zettelkasten/Hybrid Encryption Combines Symmetric Speed with Asymmetric Security.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "27be74ef71e6fa757f817fa71f68a1c88db3bf8ccc6aa4f83d589acdfbaeb79b",
+      "lastIndexed": 1775486493926
+    },
+    "30_Library/100_zettelkasten/Human Understanding is Inherently Myopic.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0ccde7618ed8d82e54e8562c7b479e689e84c022253243c4ab21e9238166c3cf",
+      "lastIndexed": 1775486496496
+    },
+    "30_Library/100_zettelkasten/Humans Are Social Creatures.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1ec9b82dd9d8b914c729f653ff72bd992229d631521b8557494bda709efd6124",
+      "lastIndexed": 1775486496567
+    },
+    "30_Library/100_zettelkasten/Humiliation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a2454cab43d9c749397d346e1b8032472190dd937317dbcd9be24793ee9f4d0f",
+      "lastIndexed": 1775486496602
+    },
+    "30_Library/100_zettelkasten/Humor is Liking to Laugh and Bring Smiles to Others.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2a501075ec8a77f539185c00252c3346a736766e392dc919cf186244bc890fac",
+      "lastIndexed": 1775486497542
+    },
+    "30_Library/100_zettelkasten/Humility is Letting Achievements Speak for Themselves.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f46ec08ff24ffda3716a4ebe375ee636f6a4f1d2892bb4a192193ed546c0bd7b",
+      "lastIndexed": 1775486497551
+    },
+    "30_Library/100_zettelkasten/How Computers Identify Each other on a Network.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8a1620ae0eeca7002d7361c91820bf8ef584e3aea0f875b637cc5138f86dbddb",
+      "lastIndexed": 1775486499951
+    },
+    "30_Library/100_zettelkasten/How to Build Neurodivergent-Friendly Routines.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "11af328a3256ed24e5754bb26c10a9bd42bfbd31007adf3ecd88d9157899d0bc",
+      "lastIndexed": 1775486500000
+    },
+    "30_Library/100_zettelkasten/Hub Notes Provide Entry Points to Idea Clusters.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a5c3b0ad4cb46926ed2d53761a576e1cce5ce7a1159548f0af4b5c8116d69e85",
+      "lastIndexed": 1775486500030
+    },
+    "30_Library/100_zettelkasten/How the Brain Learns Core Cognitive Processes.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "255c2e645dc37a8f84cd3d56f87e4b14fa9fc406d366b794b86c5d5940cdb352",
+      "lastIndexed": 1775486500129
+    },
+    "30_Library/100_zettelkasten/Human Pattern Recognition is Abstract and Domain-General.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "437d801f1d332b6a2d4a958ab3ddd05cbee022796ea8bd9459a3dee60686cd20",
+      "lastIndexed": 1775486500686
+    },
+    "30_Library/100_zettelkasten/Honesty is Being Truthful and Sincere.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f4c4417d4ebfa432376638807f693324dae082e83416d1e7e01fb3a0d5f495cd",
+      "lastIndexed": 1775486503059
+    },
+    "30_Library/100_zettelkasten/Host-Based Routing Enables Virtual Hosting in Cloud Infrastructure.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "60f56dcc9daa23f126237f7ea5192f9142a07001b93887a9578b0c6f191f3758",
+      "lastIndexed": 1775486503372
+    },
+    "30_Library/100_zettelkasten/Hope is Expecting the Best in the Future and Working for It.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d8aff83cd01ff8122657b7ca9a0c5429d9d8a30f1dbe52190ca70bfbaea21146",
+      "lastIndexed": 1775486503372
+    },
+    "30_Library/100_zettelkasten/High-Frequency Micro-Spending Drains Resources.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a19e6fc74b3a26a7450848ef7057250a5267ab61fb243eda2c1a7db774d3b137",
+      "lastIndexed": 1775486503517
+    },
+    "30_Library/100_zettelkasten/Historical Achievements Were Driven by Collective Will and Urgent Necessity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1fa89b69006f8ee777c6c4f79ba7b630eabcebf379884d3255216986070f1e6f",
+      "lastIndexed": 1775486503981
+    },
+    "30_Library/100_zettelkasten/Habits are Automatic Behaviors Triggered by Environmental Cues.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "62240231d4c023cee3679a523da99f50e908575eb45b8bd77f024c9f0f783d0b",
+      "lastIndexed": 1775486506714
+    },
+    "30_Library/100_zettelkasten/Heuristic Experimentation Drives Mathematical Insight.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ea10179a5432b1bcdbbebce3ad7453569db415119c115e1ef2a8cf99dce5c74a",
+      "lastIndexed": 1775486506795
+    },
+    "30_Library/100_zettelkasten/Heart & Friendship Skills (Your Kind Heart).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "52b774dca9f33c37049722fb657900d654c4cd98be91f8b6d773a5d89315abc5",
+      "lastIndexed": 1775486506869
+    },
+    "30_Library/100_zettelkasten/Higher self-focus is typical during crises health issues transitions and resource constraints.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "35aafed83d648f8ddce305840291f70d6da8161f829239411c9aeb0805dca0e6",
+      "lastIndexed": 1775486507331
+    },
+    "30_Library/100_zettelkasten/Higher Abstraction Levels Increase Breadth But Reduce Depth.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d5b262d4714d73e8c858821cfb6052c477cfa9c142a3b9d0a39339c4ffa4a70a",
+      "lastIndexed": 1775486507332
+    },
+    "30_Library/100_zettelkasten/Habit 6 - Synergize.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "398d2aea05bfc0c49d7f14cb66511b2da172a50b5f5ebe7d2ebaba82c1e32742",
+      "lastIndexed": 1775486509561
+    },
+    "30_Library/100_zettelkasten/Habit 4 - Think Win-Win.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e06eec54977e97151c4fdb45a8a3cb1f9aa3447f4657f60882fe2a257f102779",
+      "lastIndexed": 1775486509703
+    },
+    "30_Library/100_zettelkasten/Habit 5 - Seek First to Understand, Then to Be Understood.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5e7b36d5facb9e873c573f0c4b2e2fa637bd6fd2b3186ecc74994b819dfc0609",
+      "lastIndexed": 1775486510082
+    },
+    "30_Library/100_zettelkasten/Habit 7 - Sharpen the Saw.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d5015b3ab48b65e2abb2aac6b1d11304b7b3fea251be267636ff171bf7aeed0c",
+      "lastIndexed": 1775486510525
+    },
+    "30_Library/100_zettelkasten/Habit Change Must Align With Personal Values Not External Expectations.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4b724f3a5bb8f603969f617454a34371b706a29f52972906c44443f985480f74",
+      "lastIndexed": 1775486511159
+    },
+    "30_Library/100_zettelkasten/Habit 3 - Put First Things First.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2dba64bcac8b2f6d7ac0c81c0308f8fb99e5f66cf2e9716e8c6cc324ce44a5b0",
+      "lastIndexed": 1775486514119
+    },
+    "30_Library/100_zettelkasten/Great Achievements Occurred Before Formal Productivity Systems.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8e9a967349582335018b9b2aac6c3db7b065867ee1b7553c297d2fa429886c36",
+      "lastIndexed": 1775486514249
+    },
+    "30_Library/100_zettelkasten/Habit 1 - Be Proactive.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2a60882a4823d0c72aabbeabb16dd365d3747dc3a4f13b76727b3e616df67434",
+      "lastIndexed": 1775486514321
+    },
+    "30_Library/100_zettelkasten/Habit 2 - Begin with the End in Mind.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "05aaa3b295458e89f0f1611cd24f12c97e32f315e36c9c583a39e8481b874d3f",
+      "lastIndexed": 1775486514397
+    },
+    "30_Library/100_zettelkasten/Gödel's Incompleteness Theorems Constrain Foundational Programs.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "39bfe5cdc5a6658e5a0dff4d20228f71da570d138758f6b32820c1639d990156",
+      "lastIndexed": 1775486514405
+    },
+    "30_Library/100_zettelkasten/Goals Set the Direction for Change.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d3fac22fafbf1c66a3d974b28bb3d75d382dcb9c6b594ee5d591d183a65d4903",
+      "lastIndexed": 1775486517014
+    },
+    "30_Library/100_zettelkasten/Gratitude is Being Aware of and Thankful for Good Things.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "36c24155783e256009f3bea2d55ce4311e346949290f9683cd35f44053c7842c",
+      "lastIndexed": 1775486517101
+    },
+    "30_Library/100_zettelkasten/Goals Suffer from Survivorship Bias.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "807d579cc2162eaad9c0e6de61a4d3fecc13f7c46eabef28b86003ffeef34814",
+      "lastIndexed": 1775486517268
+    },
+    "30_Library/100_zettelkasten/Guilt-Free Spending is a Feature of Intentional Budgeting.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "28d71613e8047b219631ce0595ab3e814eb08e6a58bcde277a07aa78b7f0c848",
+      "lastIndexed": 1775486517316
+    },
+    "30_Library/100_zettelkasten/Gnawing Rats Metaphor for Avoided Tasks.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "dc66c2992a832ced98e7f85f8f821cf832c75bff56f274a361b77e9fe80fdf0d",
+      "lastIndexed": 1775486517963
+    },
+    "30_Library/100_zettelkasten/Give Every Dollar a Job (YNAB Rule 1).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0e102280367cdbd75ca2a05b990b6c865034efaf09059748fc9954aa3bfe5edb",
+      "lastIndexed": 1775486520378
+    },
+    "30_Library/100_zettelkasten/Glue Records Solve DNS Chicken-and-Egg Problems.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "183760edcd8e37cb06aa0a93160506b42c36950984fff924ba1b7c0c26aafdeb",
+      "lastIndexed": 1775486520648
+    },
+    "30_Library/100_zettelkasten/Geometry (Definition).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7cd3b91ed0b6d326ed2c8e6aebf9a3fc34eb56cd86eb656780f5e9507e212858",
+      "lastIndexed": 1775486520727
+    },
+    "30_Library/100_zettelkasten/Getting Started with Zettelkasten with ADHD.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "687b791fa0f5a1b58036f7f55b40249b445c738cfc573773d45f79f98c8d3c13",
+      "lastIndexed": 1775486521140
+    },
+    "30_Library/100_zettelkasten/Gettier Problems Challenge the Traditional Definition of Knowledge.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c509d918b5b13df4d0bd495343dddbbb42f4b7586e1f1c27cc579277b72647e6",
+      "lastIndexed": 1775486521467
+    },
+    "30_Library/100_zettelkasten/Fundamental Insight Creation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "12779a673cac8be0a036c1f52180a729b26045a4c989871745afd1b5ba8daa13",
+      "lastIndexed": 1775486523848
+    },
+    "30_Library/100_zettelkasten/General Relativity (Gravity as Curvature).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "309772e1c01fa72f887d17bd4bfafc55e6e53937d79f6a480b25a0923700e976",
+      "lastIndexed": 1775486524213
+    },
+    "30_Library/100_zettelkasten/Generalization and Synthesis are Powerful in Complex Environments.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "33b55e74087bd036e742d91f6a7ff55e60fe3a72aa8e592a2743b5be9dcbcb8a",
+      "lastIndexed": 1775486524301
+    },
+    "30_Library/100_zettelkasten/Generalists Have an Advantage in the Information Age.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4ab8e46b566174c5605edf782c9729fe4f7917494319b50d6c6dc6f0626ae617",
+      "lastIndexed": 1775486524402
+    },
+    "30_Library/100_zettelkasten/Fundamental Theorem of Arithmetic Guarantees Unique Prime Products.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "72bbe17a9f653ef8ea9d209162e3272e3398785a5515aa974282c2bc72ec3667",
+      "lastIndexed": 1775486524442
+    },
+    "30_Library/100_zettelkasten/Foundations of Learning and Cognition for Developers.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "74d4e5c372f88a00ab75eb07734c99000ad154d823b70d84380f24c9850cc2c2",
+      "lastIndexed": 1775486526921
+    },
+    "30_Library/100_zettelkasten/Forgiveness is Accepting Shortcomings and Giving Second Chances.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "debbb87e8a0a250cd123eaedbe8f69ddbfc9248f25a5f419520d5cddf1b98556",
+      "lastIndexed": 1775486526922
+    },
+    "30_Library/100_zettelkasten/Fudo The Path of Immovability.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "94dd6aaf28a6cfad07d34e8f2cc0ca7cba60e5910884ee94fccf7fd3d9f0b09c",
+      "lastIndexed": 1775486526934
+    },
+    "30_Library/100_zettelkasten/Fund Immediate Obligations First.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4712d7b7dd6ead715171b8bf23a5fd9be725808bfcca0616e5ba421401e2d581",
+      "lastIndexed": 1775486527737
+    },
+    "30_Library/100_zettelkasten/Fundamental Attribution Error.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8503bb85ec630eea23dbbc45697347d8cc5bfd84b34ebcaabbb4389c6cf62075",
+      "lastIndexed": 1775486527776
+    },
+    "30_Library/100_zettelkasten/For ADHD The Clarification Process Externalizes Decision-Making and Builds System Trust.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "43aa6bb5216d44e1d2c836887940cf4d27c1fad0a56f6e05cc7c709c66cbcceb",
+      "lastIndexed": 1775486530252
+    },
+    "30_Library/100_zettelkasten/Folgezettel Is Not Hierarchical.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "dae27b35fff072dc3265033ae6efa3ce9c20d203a5f89d302668b93073283325",
+      "lastIndexed": 1775486530253
+    },
+    "30_Library/100_zettelkasten/Folgezettel IDs Enable Non-Hierarchical Branching.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "445c4477523d4039d103c28cadb31d0f892034b3a0e4b43e4e16aa978e03024d",
+      "lastIndexed": 1775486530563
+    },
+    "30_Library/100_zettelkasten/Focus on the Process Not the Product in Daily Writing.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d067abe0cf6e7a6c74948ac2857add7d30b99ae23829f96598f2439799d72ec9",
+      "lastIndexed": 1775486530599
+    },
+    "30_Library/100_zettelkasten/Formalism (Mathematics as Symbol Manipulation).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "99125148c3b43dabce2f34b416a77f7f383c36fca80b3baf3cb6e99b8aaadb75",
+      "lastIndexed": 1775486531120
+    },
+    "30_Library/100_zettelkasten/Focus on Short-Term Learning Over Rigid Long-Term Planning.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "85fd1c3fcc62b8c7453f5bec2e2dafefac4caeb9fb9f9333555b4e0a54e3240b",
+      "lastIndexed": 1775486533680
+    },
+    "30_Library/100_zettelkasten/Flexible Routines Require Contingency Planning.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0335f22cf32630ce0b9db95156bccbc5e9fa75f5f6d73b0c748194ec1ec33e61",
+      "lastIndexed": 1775486533834
+    },
+    "30_Library/100_zettelkasten/Flow State is a State of Optimal Dopamine Stimulation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e511670f4663b2cdde6285df2f62a220b564aaab5827d5a0523059d9e80f71ca",
+      "lastIndexed": 1775486533916
+    },
+    "30_Library/100_zettelkasten/Flexible routines accommodate hyperfocus and task-switching patterns.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f6d8d9f143a77e0b99ca1ce6aacd32452a55b7bda95a136887682d89b2a6b9c2",
+      "lastIndexed": 1775486534072
+    },
+    "30_Library/100_zettelkasten/Focus on Process Not Completion to Reduce ADHD Overwhelm.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3e684ac2b05b2e43d36ad81853dd9937fa68564110cd9d1daa8be07db9d55020",
+      "lastIndexed": 1775486534397
+    },
+    "30_Library/100_zettelkasten/Fixed-Schedule Productivity Creates Artificial Constraints to Drive Efficiency.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bbed29369d58876714c89dbc977dbe9631d7c9cf50c5ba11536d60ef9349277e",
+      "lastIndexed": 1775486536868
+    },
+    "30_Library/100_zettelkasten/Flawed Mental Models Limit Mastery.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "814b7f5d1eb1938432672020803e150fe4d266bd4224eb135e7e9d0ef00345d3",
+      "lastIndexed": 1775486537066
+    },
+    "30_Library/100_zettelkasten/Fleeting Notes Are Temporary Capture Mechanisms.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6feffefcd447ea4b19094a65ae9e921302c2c303c2a8707019ea2f7f12a42160",
+      "lastIndexed": 1775486537232
+    },
+    "30_Library/100_zettelkasten/Finding Your Right Difficult A Strategy for ADHD Engagement.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5de6e2934c0615bc71e7a6607679229317c9999f5997e97697ef174a15969ba4",
+      "lastIndexed": 1775486537296
+    },
+    "30_Library/100_zettelkasten/Flexibility Within Structure is Key to Sustainable Timeboxing.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f43229f10a5d1574fba8f97da1c56cc43f2de6ba425cae2e11ea704b225b51ec",
+      "lastIndexed": 1775486537781
+    },
+    "30_Library/100_zettelkasten/Finding Thoughts.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5c318aad8a2606c50b18838d8988558c25fa6aa31eb9b76e3bd85e86b1b28ce3",
+      "lastIndexed": 1775486540214
+    },
+    "30_Library/100_zettelkasten/Financial Double Standards for Spending Undermine Fairness in a Relationship.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "acc839ac8a61562ab55e1a4328fa7ee8ce4142ee3d91b55a86b7fee52c81fc1e",
+      "lastIndexed": 1775486540260
+    },
+    "30_Library/100_zettelkasten/File Descriptor as OS Socket Handle.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7070dbef77c5cb19e242435ecd6c681c7a448af4ba95e5f4f95cb9fe79ba92b7",
+      "lastIndexed": 1775486540299
+    },
+    "30_Library/100_zettelkasten/Finding Gratitude in the Process Leads to Long-Term Satisfaction.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "11ef691b8fbb0e58eda70f6f6622186ad25da4075b8dae87079527f42ca656c0",
+      "lastIndexed": 1775486540999
+    },
+    "30_Library/100_zettelkasten/Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "53c1b9df5d35fc3b19eb55d0eb0de9931048c5c99d1172e40d47299d611527a9",
+      "lastIndexed": 1775486541359
+    },
+    "30_Library/100_zettelkasten/Felt significance of thoughts can mislead about their substance.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3ac208d40bdf76d180a222118de78dbee606d7874659db5ce1469679e1e51381",
+      "lastIndexed": 1775486543950
+    },
+    "30_Library/100_zettelkasten/Fairness is Treating All People the Same.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "87dd2edf6ea5d0ca82efd7e9f73c4a024aabaa1e4651fad48cd9f49edcad80c1",
+      "lastIndexed": 1775486544041
+    },
+    "30_Library/100_zettelkasten/Feynman Technique Deepens Learning Through Teaching.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0a2962e52cad017fe6cdadda59837bf4e1a388c0c64f1d056b112a603fb72f00",
+      "lastIndexed": 1775486544055
+    },
+    "30_Library/100_zettelkasten/Feedback-Seeking Strategies for Calibration.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5e95fa4bee780a5cb9265bf32f3b16d8c1e352b33d6a7c6c75b2a8c084b7dcb3",
+      "lastIndexed": 1775486544080
+    },
+    "30_Library/100_zettelkasten/Fables in Modern Media Range from Cartoons to Political Allegory.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6a2986dbc69c929a6fbce3752f9579398f996033cd7c3d18721179cf1067f2de",
+      "lastIndexed": 1775486544136
+    },
+    "30_Library/100_zettelkasten/Extravert.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "dfb0c065dc445ec57f1cc824eaf8720113c6530b0524fe68fb912315a3bd7815",
+      "lastIndexed": 1775486546475
+    },
+    "30_Library/100_zettelkasten/Extrinsic rewards are less effective for activating the ADHD brain.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bb558036e33ac36e0ebae68427f3445a7e8073266ce59160817687b1017eed88",
+      "lastIndexed": 1775486546489
+    },
+    "30_Library/100_zettelkasten/Externalize Memory Aggressively (cognitive offloading).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c2c8c105dc1396e173dd29c26ab4d370f3202275a293b7b1e4c398fbd68d0f29",
+      "lastIndexed": 1775486546525
+    },
+    "30_Library/100_zettelkasten/Externalizing Progress Makes it Tangible and Motivational.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "58fc2b8948912dd7a54ebfcfdc9443f2196d70b35b5923cca773841ace9cb664",
+      "lastIndexed": 1775486546639
+    },
+    "30_Library/100_zettelkasten/External Structure and ADHD.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bf626b384b365ff01932babb9844a897f96cc8f439390b66a6554cca75d2e88e",
+      "lastIndexed": 1775486546769
+    },
+    "30_Library/100_zettelkasten/External Accountability Sustains ADHD Project Commitment.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7f57988823c1d20f77c2fff5c7d6bb2583c507a7f6b5572334e30d166c03651e",
+      "lastIndexed": 1775486549330
+    },
+    "30_Library/100_zettelkasten/Expressive Music Organically Builds Its Own Scene.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "91ca2eae7411e0647a8ea0a51418a0e0d4e5d2980625e46d1d28ac9ec0b7b8eb",
+      "lastIndexed": 1775486549384
+    },
+    "30_Library/100_zettelkasten/Exit Ritual For ADHD Time Boxes.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "58fa887da0a6f9301b3f69abfddf34e785361a419dbb6ef40c257d204f3da23a",
+      "lastIndexed": 1775486549597
+    },
+    "30_Library/100_zettelkasten/Explaining to Others Enhances One's Own Learning.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7de5e630c7bd87630ea33e52f70f349a4d41c6d837043b13d6e048d2b2d90a3b",
+      "lastIndexed": 1775486549977
+    },
+    "30_Library/100_zettelkasten/Experiential Information Avoidance.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "92df9f618330a203158ea317dbb707a3984482be42046aa3065b135ba5e9978e",
+      "lastIndexed": 1775486550205
+    },
+    "30_Library/100_zettelkasten/Executive Dysfunction - The Root of Analysis Paralysis.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2cfdf88aab485db741b38307f08b65361bcc481859ac99d1ef88aa7bf257ff1f",
+      "lastIndexed": 1775486552723
+    },
+    "30_Library/100_zettelkasten/Event-based structure reduces time-pressure anxiety.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a670bd2aca1eb8b36e66fb15c61a221f96ec779985dffe2d9a164c1f5d6ce2d3",
+      "lastIndexed": 1775486553157
+    },
+    "30_Library/100_zettelkasten/Executive Function Challenges are Central to ADHD.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8df6960e4db1cdb23c4bbc1bd000d0cf5b8499dd2c9b87c45369471a5f260fd5",
+      "lastIndexed": 1775486553314
+    },
+    "30_Library/100_zettelkasten/Executive Function Impairment During ADHD Trough Phase.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c5637fa8b3fef15646f0cc276c740008be9d291cea453371678f2dd606f2bed9",
+      "lastIndexed": 1775486553387
+    },
+    "30_Library/100_zettelkasten/Executive Function Deficits in ADHD Impact Developer Productivity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "25b76fd75cdf1a7fb7118952433ce691c02eeb1fd047903f203f030a21b4402c",
+      "lastIndexed": 1775486553419
+    },
+    "30_Library/100_zettelkasten/Eufriction - Productive Friction Strengthens Thinking.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9ecb6c0be5d29dda4f43773ebe0bb0872e560c52c2b99b3dbabe59fe59bbc672",
+      "lastIndexed": 1775486555835
+    },
+    "30_Library/100_zettelkasten/Event-based pacing matches boom and bust energy cycles.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "98c2d4a0d9d52a917eb967ff0d6f8d3f8e6db66a591a4a08dce8310acb20e517",
+      "lastIndexed": 1775486556220
+    },
+    "30_Library/100_zettelkasten/Estimating Time for ADHD (Tripling Estimates).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b9125cc88f645ad512b44748aad72bb0d918ad64cf35fee005ff580722e3ec56",
+      "lastIndexed": 1775486556337
+    },
+    "30_Library/100_zettelkasten/Epistemology and Knowledge Beyond Language.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "90ae154523759a57d02fc17ced109bc92113c29486607002f014d0a69773d881",
+      "lastIndexed": 1775486556625
+    },
+    "30_Library/100_zettelkasten/Event-Driven Socket Handling with epoll and kqueue.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6310deed7687166d0b39dc2415db1d5dc891c5875b26de484a2c31659ed66cf3",
+      "lastIndexed": 1775486557025
+    },
+    "30_Library/100_zettelkasten/Environmental and Physical Hacks for ADHD Focus.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4779c95bfd280f17a537de68cba094ffb060190a8ead016fc3da0269184c99c7",
+      "lastIndexed": 1775486559587
+    },
+    "30_Library/100_zettelkasten/Emotions Are Not Reliable Indicators of Reality.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8fa2272184d79881a2709a0fef8556d5446ca7761ea95b5b93c8070cbd4010c2",
+      "lastIndexed": 1775486559607
+    },
+    "30_Library/100_zettelkasten/Ephemeral Agents and Environments in Terraform Cloud.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c78170f8b13560857c2bacf039ddbfa31677f7b9475ae18ea1e262200b63aec8",
+      "lastIndexed": 1775486559803
+    },
+    "30_Library/100_zettelkasten/Epistemic Actions - Thinking via Doing.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e17462df8086ac2dac067b364ac354dc226f2aade930dbe81dfdba9e232ef685",
+      "lastIndexed": 1775486559839
+    },
+    "30_Library/100_zettelkasten/Environmental Anchors Help Rebuild Project-Specific Mental Context.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "88f7cc15091fbe581f554bbde1b6527bbeaa6691049dbb85d4654c3f5369e4c0",
+      "lastIndexed": 1775486559890
+    },
+    "30_Library/100_zettelkasten/Emotional Support in a Partnership Creates a Safe Harbor for Vulnerability.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "82693a12856611430e169e2aadef87f4abea1089a2db43631df23563881ff241",
+      "lastIndexed": 1775486562181
+    },
+    "30_Library/100_zettelkasten/Emotional Reasoning.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "fbf6eb15080e61eec97364b67aae057b50dbd10b7b14ffac72dc36413274dd3f",
+      "lastIndexed": 1775486562316
+    },
+    "30_Library/100_zettelkasten/Encryption vs Digital Signatures - Confidentiality vs Authenticity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3edea0942fb45db50a6b5ebbc3c7248cf2da102e05adcc26dea8c5fc485bfa75",
+      "lastIndexed": 1775486562580
+    },
+    "30_Library/100_zettelkasten/Emotional Regulation Techniques for ADHD Productivity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ff0c693c14dfb354f5772f628e1c8cd3611131ae7cd4f8fd3efb4e4a01958dfa",
+      "lastIndexed": 1775486562584
+    },
+    "30_Library/100_zettelkasten/Enjoyment is Essential for Creative Flow.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "62dc16088c167ad531a1e1e0a35f7ca23660338cc4e2a1099c18158060987734",
+      "lastIndexed": 1775486562735
+    },
+    "30_Library/100_zettelkasten/Emotional Labor is the Invisible Work of Managing a Household and Family.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2db53a2140ce154351ef138b3b7e6eff4012278e884c756faaec299db11bd7e1",
+      "lastIndexed": 1775486565117
+    },
+    "30_Library/100_zettelkasten/Embracing the Garbage.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5e073ffc9c1072eaae09f5a783622252ba82703ba3befb70dbea62ccf7827b2f",
+      "lastIndexed": 1775486565276
+    },
+    "30_Library/100_zettelkasten/Emotion Tags Information with Importance.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d2b0ffdbb342b9e426d15e95af5dbbc4fbbce7b2fa9f7b57fe85ef689c68ec79",
+      "lastIndexed": 1775486565351
+    },
+    "30_Library/100_zettelkasten/Emotional Contagion in Social Settings.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "140bdd4cb9ceba55776cff0963ec53f0b5d1d8dfd50886a6bb91a9debc46ea02",
+      "lastIndexed": 1775486565493
+    },
+    "30_Library/100_zettelkasten/Emergent Mind.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f96923b0575ae06087db8cd048aa95b541c900b8d53fb9f8709e783b7cec24a5",
+      "lastIndexed": 1775486565575
+    },
+    "30_Library/100_zettelkasten/Embarrasment.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "406a74e8d657d2147b61683193a62cd69a9700974f8e431e2cc582eb8bc889af",
+      "lastIndexed": 1775486568204
+    },
+    "30_Library/100_zettelkasten/Embrace Throwaway Thinking.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "86e38234e249a75e9234d0f3ba42e83bc1ffe3db28c350e6ab50f3791977aa84",
+      "lastIndexed": 1775486568219
+    },
+    "30_Library/100_zettelkasten/Embodied Confidence Comes From Direct Feedback in Physical Skills.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9cb8ae32140397be2073daabed2d0d6295140676600099e8047c608f01246c35",
+      "lastIndexed": 1775486568305
+    },
+    "30_Library/100_zettelkasten/Embracing Interdependence with ADHD.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "80b3003253692ef510e425c84113849e8131966e2107ca9c047f9a8c61cba759",
+      "lastIndexed": 1775486568364
+    },
+    "30_Library/100_zettelkasten/Embracing Struggles is Part of the Creative Journey.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "12ed014bef9425837a23691bcac55e23644230c94247bea531e3c73c41b42943",
+      "lastIndexed": 1775486568398
+    },
+    "30_Library/100_zettelkasten/Effective Theory.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "fe0ada4dd74cbe450e05084fd53af039cadd5e22859a5d8d761cb792e7451b58",
+      "lastIndexed": 1775486570852
+    },
+    "30_Library/100_zettelkasten/Elaboration Deepens Understanding by Connecting New Material to Pre-existing Knowledge.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f1938dfdf8383696107d0233e030182805e434e8ee9b5e1bfc608dbc0865e293",
+      "lastIndexed": 1775486570859
+    },
+    "30_Library/100_zettelkasten/Effective Systems are Built From Tiny Initial Actions.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b7e44825cb7f29ecf4a945fe71265affd3542a2f93d597f3a284081fd1d72d88",
+      "lastIndexed": 1775486571007
+    },
+    "30_Library/100_zettelkasten/Effective Productivity Comes From the Bottom Up.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0bd0a38a800bf960463db5a5bc37584509c7b84dcf54375a29214ee223eaaca0",
+      "lastIndexed": 1775486571137
+    },
+    "30_Library/100_zettelkasten/Elaboration Through Own Words Deepens Understanding.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b7358713b1c8c191499523b7c678762c86cb9d3ba5106cb86250286e4a859d4e",
+      "lastIndexed": 1775486571604
+    },
+    "30_Library/100_zettelkasten/Early Specialization Rarely Leads to Long-Term Advantages.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d41c4ac0f8c4c8aa1b08fc8b1478d4a4ff7c1368518d6a463a4f3a935252f67f",
+      "lastIndexed": 1775486574231
+    },
+    "30_Library/100_zettelkasten/EC2 Instance Configuration for AWS ALB.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4b16185b33d5e3fff732e2955eb708a126f9b4a0db30f48997f94286ae00270d",
+      "lastIndexed": 1775486574301
+    },
+    "30_Library/100_zettelkasten/Educating Your Zettelkasten.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7d813010d29bebe3a519da792ddc6b2574b319c658e338e08b2f583d4aeb2e14",
+      "lastIndexed": 1775486574490
+    },
+    "30_Library/100_zettelkasten/Dual Coding Theory Suggests Using Verbal and Visual Channels Enhances Memory.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "883378bc6c1b19717e5766aa5f48ff0d1ae8c5c4718dfb307c87a8c2c6f2a827",
+      "lastIndexed": 1775486574615
+    },
+    "30_Library/100_zettelkasten/Early Childhood Patterning is the Foundation for Language Acquisition.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d8e609a0dbe3d8796d8c584a573b121feddcb49d1873627642d17f823763aa07",
+      "lastIndexed": 1775486574709
+    },
+    "30_Library/100_zettelkasten/Dopamine reward pathway dysfunction causes ADHD task initiation difficulty.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b6292c20af03ba25b511791051490c4fd29bfcebf7003373281591ee664d67dd",
+      "lastIndexed": 1775486577097
+    },
+    "30_Library/100_zettelkasten/Dopamine-Aware Planning Aligns Tasks with the Brain's Reward System.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "67369301c62400dd3c1f32cb9182b263a66a11c393ac499e1104b12bb1b3ff64",
+      "lastIndexed": 1775486577300
+    },
+    "30_Library/100_zettelkasten/Dopamine-Seeking Behavior The Research Rabbit Hole.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c830ea7c621738660349751f94909f7f1ee0b2751e5ddf4dc257d138fe280320",
+      "lastIndexed": 1775486577379
+    },
+    "30_Library/100_zettelkasten/Downtime scheduling prevents neurodivergent burnout.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "80017c2c6318aae9adaf492f0d5e4decf255c87c8e9e544ce52cbed8d5f152e6",
+      "lastIndexed": 1775486577519
+    },
+    "30_Library/100_zettelkasten/Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3dae0765c63dc009c4a6ebf03b99a557b19485761d11ad99e3b652e0f9ae52c0",
+      "lastIndexed": 1775486577918
+    },
+    "30_Library/100_zettelkasten/Distraction Management in Timeboxing (Catch-All List).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1cdd23c5e30c9e7b5402d6c27b917c080f291526461c779a65d4f946a90df4c1",
+      "lastIndexed": 1775486580339
+    },
+    "30_Library/100_zettelkasten/Dopamine Management in ADHD Productivity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2f84f1620de2c6e267c470eebf320c6c9770ec678874127d75efb033ef57f650",
+      "lastIndexed": 1775486580633
+    },
+    "30_Library/100_zettelkasten/Divergent Thinking Outperforms Narrow Specialization.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e7c981caee4c6cd81240621b97cdf9f3f78213f82173855a54c76eaf483a4d48",
+      "lastIndexed": 1775486580782
+    },
+    "30_Library/100_zettelkasten/Documenting Mental Models Enables Project Re-entry.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7f929fcd9e1cd05bcee6e388da9c337c0a03a3cc3b15d3e2ed4f95cf121fdb07",
+      "lastIndexed": 1775486580782
+    },
+    "30_Library/100_zettelkasten/Disrespectful Spending Violates Shared Agreements and Erodes Trust.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4de6485dcf07062864ec4f4643695d35fb68f4b992ae499059096a0336501e44",
+      "lastIndexed": 1775486581191
+    },
+    "30_Library/100_zettelkasten/Dismissing a Partner's Needs as Inconvenient Signals a Lack of Empathy.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7344eaaab762b47ad0c17bc0882f0c83a008344efaedb27db1afa68773893eb7",
+      "lastIndexed": 1775486583649
+    },
+    "30_Library/100_zettelkasten/Discomfort Signals Growth Potential.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6a56b28ea67562d7bab69af3711df6b1011065ce8fbbbd1112d125e3a4337e0f",
+      "lastIndexed": 1775486583689
+    },
+    "30_Library/100_zettelkasten/Discreteness as a Precondition for Counting.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a336af5752604e591258b5554b97bf021e9caa40c376324a49efa3f0b25b6ffd",
+      "lastIndexed": 1775486584160
+    },
+    "30_Library/100_zettelkasten/Disciplined Choices are Votes for Your Future Self.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ca5230fd93a4e5ab3e43f2396206b91f158e1cf9d7a083aaac3fd8f63654b9dd",
+      "lastIndexed": 1775486584471
+    },
+    "30_Library/100_zettelkasten/Discipline is Freedom From Chaos and Anxiety.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c1589d6cba0fd3e8d821e60eff44afe20404849c2e2dcca9c318f9c2ed88f626",
+      "lastIndexed": 1775486584472
+    },
+    "30_Library/100_zettelkasten/Discipline Relies on External Supports Not Just Willpower.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c40f2eddf8952d789f624b3393a22b295e8cc24383c8df1ec3aaaa1ad92c9d2b",
+      "lastIndexed": 1775486587132
+    },
+    "30_Library/100_zettelkasten/Diffuse vs Focused Thinking Modes.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3f6bf2415f6934334fddb33fbf2c99267a74b1318866e5017119f41ab54c2a8a",
+      "lastIndexed": 1775486587272
+    },
+    "30_Library/100_zettelkasten/Discipline and Values.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e323c5596ba4a7daf7591ff8089b03986692e49c59bf2c5480671892f09a7a51",
+      "lastIndexed": 1775486587466
+    },
+    "30_Library/100_zettelkasten/Digital Tools Help Externalize Memory and Structure for ADHD Developers.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bdc99d74532fc3015852ded927527ae4f6be69809f1ed47d181cbd8bd7a0198e",
+      "lastIndexed": 1775486587553
+    },
+    "30_Library/100_zettelkasten/Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5f4a23211db622b69f41af790a18acee44063df3a5a81fabc8c8072373c31c2c",
+      "lastIndexed": 1775486587752
+    },
+    "30_Library/100_zettelkasten/Designed Task Switching Leverages Dopamine Boosts for ADHD Motivation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1ae81dfd4c645c9d7481125cee981cf21d63f5a7f27aa4f7f2a4382577307b64",
+      "lastIndexed": 1775486590313
+    },
+    "30_Library/100_zettelkasten/Diffie-Hellman Key Exchange Solves the Shared Secret Problem.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1e84dfb8987b197a6cc40585cb8c04c8d6421733f49434d0bcb77cbc44fc1a3f",
+      "lastIndexed": 1775486590342
+    },
+    "30_Library/100_zettelkasten/Detachment is the Ultimate Form of Freedom.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5c4bb38b8b1868ece2ea3ff3f8b8f295443fec1f9c67e7985e31c3aa4368c273",
+      "lastIndexed": 1775486590481
+    },
+    "30_Library/100_zettelkasten/Diagram - Philosophy-Productivity Connections.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5880c578ff7f19ba26bf0a7ab20437c9ccbd3809e81630266d1a6e73f09ea978",
+      "lastIndexed": 1775486590829
+    },
+    "30_Library/100_zettelkasten/Dependency Problems Create Cascading Failures.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "be99e25b6ec2b310dc0db9cc6b82587c7369166833dfbb668c744adf9520e576",
+      "lastIndexed": 1775486590950
+    },
+    "30_Library/100_zettelkasten/Deep Processing is the Core of Zettelkasten.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "27496695e0ed1423cf4e5d514ce31c6ea5417d39f795167bcbe1a6d8cb43178f",
+      "lastIndexed": 1775486593664
+    },
+    "30_Library/100_zettelkasten/Deep Agents for Long Horizon Planning.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "97eee87f6d56a566be9392617a49bb1a21ab541a444c35095a5d1b7f6ea83690",
+      "lastIndexed": 1775486593667
+    },
+    "30_Library/100_zettelkasten/Deep Focus on a Single Concept Sparks Innovation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "baf4f64187599b8632879bc14872f603acbb43fa39ca695c748c9e1b246dbe0f",
+      "lastIndexed": 1775486594098
+    },
+    "30_Library/100_zettelkasten/Deep Dive Sessions for ADHD (Adapted GTD Next Actions).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "872fe1e19866ed0c923812511333f45493c330d62c220b1f3e0c3ebd22a298aa",
+      "lastIndexed": 1775486594098
+    },
+    "30_Library/100_zettelkasten/Defensive Hypervigilance.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9a78d800598de71292838ea92c561b52fb4344a817306d28adf332fd197bd023",
+      "lastIndexed": 1775486594387
+    },
+    "30_Library/100_zettelkasten/Day Theming is a Macro Time Blocking Strategy.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e173f59d210153e13ef1ac998a7ff14b54ffa17c4f00cef01f0d233d92ab1780",
+      "lastIndexed": 1775486596771
+    },
+    "30_Library/100_zettelkasten/Decoupling Ego from Outcomes to Improve Decisions.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "dd716f4c586189012fe5ad915745e9a4fed311b3900e8a4ef527e4026e296aac",
+      "lastIndexed": 1775486596908
+    },
+    "30_Library/100_zettelkasten/Decision making fallacies.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9eb1ead2a77951fc5930eaaddb90e6abf9e97f642c465c98f6cfea976358fbc0",
+      "lastIndexed": 1775486597370
+    },
+    "30_Library/100_zettelkasten/Datagram Sockets Provide Fast Unreliable UDP Communication.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c82f2136243b957f4dc2ce838ee7647d1fbbbca401c16c2c34dd42c5fac0718c",
+      "lastIndexed": 1775486597688
+    },
+    "30_Library/100_zettelkasten/Deductive Reasoning Underwrites Mathematical Proof.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e6a04b3bc57ef2e5e1469528c580e28922a7fa0589e3fded466a25da37c16a14",
+      "lastIndexed": 1775486597739
+    },
+    "30_Library/100_zettelkasten/DRY Principle vs System Independence.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "30a32744f6d72a5a53dabbd967844ed94e5995e22e78908801ea55d16222caa2",
+      "lastIndexed": 1775486600248
+    },
+    "30_Library/100_zettelkasten/DNS Zone Transfers Synchronize Using SOA Records.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c2d04489ddd2c195eab5cbedfaf1941cae6706dbdb3516678a2e61cac78682e7",
+      "lastIndexed": 1775486600371
+    },
+    "30_Library/100_zettelkasten/Data-Centric Networking Focuses on Packet Journey Through Devices.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6299bece10a9a245ad043133637949d81d1f204c9f72e6eb0613553c73e15265",
+      "lastIndexed": 1775486600419
+    },
+    "30_Library/100_zettelkasten/Daily Writing is a Cognitive Practice for Structuring Thought.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "46dbff325b260b2177ec6c2d7c2c36e700d520d1e50f8bf4bada3a29ca0a13f9",
+      "lastIndexed": 1775486600536
+    },
+    "30_Library/100_zettelkasten/DNS Resolver Search Lists Complete Unqualified Domain Names.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c3b10e98a9f37347f35ddce6cc7111d1fb8a896505623ad627910d85e73c9fb7",
+      "lastIndexed": 1775486600947
+    },
+    "30_Library/100_zettelkasten/Curiosity is Taking an Interest in Experience for its Own Sake.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ca39c8b11f7f85467f9e8f5391f2b42d1a54c36d45438c2399bf15a9f2cedaba",
+      "lastIndexed": 1775486603417
+    },
+    "30_Library/100_zettelkasten/DNS Protocol Uses UDP and TCP for Message Transport.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1485b3147ee25db376f7130b557f856072b61396132265e2fc20407621c421f2",
+      "lastIndexed": 1775486603459
+    },
+    "30_Library/100_zettelkasten/DDoS Protection Service.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f08eaed1ff70417590eb4b32ba210162f5926521ca240f7fe57403d3d4920e4c",
+      "lastIndexed": 1775486603572
+    },
+    "30_Library/100_zettelkasten/DNS Delegation Handles Subdomain Authority Transfers.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8f7554c885ed44b4bf73a63ffc88d23097f64b8c357d0eff4df18391e421caac",
+      "lastIndexed": 1775486603633
+    },
+    "30_Library/100_zettelkasten/Curiosity Hooks are Self-Posed Questions to Rekindle Inspiration.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "75d4f59b3d8f16bb405df867d76501ee88848e2bf6679d09797d88b33223a280",
+      "lastIndexed": 1775486603908
+    },
+    "30_Library/100_zettelkasten/Creating an AWS Application Load Balancer (ALB).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a1cc000a8fa1b3668087d14d13bb4212431d1ede50180511346219c312b05082",
+      "lastIndexed": 1775486606246
+    },
+    "30_Library/100_zettelkasten/Creative Expression Across Mediums.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d5224eaeb6866b7d430ed11856f7d424ab54cc890de7cbcd450fbd48e7e6e817",
+      "lastIndexed": 1775486606593
+    },
+    "30_Library/100_zettelkasten/Cryptography's Goal - Obfuscating Patterns.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2dec3f8813a5afad69f0086179a2edfe77f76fad7b88b1bb80c0349c59333735",
+      "lastIndexed": 1775486606696
+    },
+    "30_Library/100_zettelkasten/Cross-Cultural Communication Effectiveness.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "38427c042f693d320fdc1166ffbe64eeda7df5a06cf87622f37c98a7856f903f",
+      "lastIndexed": 1775486606998
+    },
+    "30_Library/100_zettelkasten/Creating Meaningful Links.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e920d61c8179fff90434fec0af5548e473b3f813476d5d77c793f53f4a3768c8",
+      "lastIndexed": 1775486607785
+    },
+    "30_Library/100_zettelkasten/Continuation Rituals Bridge Work Sessions for ADHD.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3840f2c3c6a28cd5e6b1ce1d4310dfbb102dd94f06eaff92dd28e416a663acda",
+      "lastIndexed": 1775486610117
+    },
+    "30_Library/100_zettelkasten/Crafting Compelling Task Descriptions and Sustaining Motivation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "96fa03d3f5251a1b956755ba3f4f54ab574910d4b6075d2c27d4570ed5d71f06",
+      "lastIndexed": 1775486610160
+    },
+    "30_Library/100_zettelkasten/Create a 'Research Hole' Parking Lot.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "91dfe2f2ca018679785dd633e38b00cdc7ba91e26df644ef1c0aa27c5fad1d1f",
+      "lastIndexed": 1775486610249
+    },
+    "30_Library/100_zettelkasten/Controlling Financial Behavior is Unilateral and Removes a Partner's Agency.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e038a5657d6d454c846f5a57d31663970dfe031b51f216f72f2ad7e4a5fad5fd",
+      "lastIndexed": 1775486610411
+    },
+    "30_Library/100_zettelkasten/Continuous Iterative Learning Mindset is Essential.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ec42f105e48959a3b33a936221eaceda9c0c915519c90851f8ea862520d4ecaa",
+      "lastIndexed": 1775486610710
+    },
+    "30_Library/100_zettelkasten/Contextual Integration of New Ideas.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9dd91461bf1577d9e5d4b7482db0a11845504be82f1086489ea7d890ad3c521c",
+      "lastIndexed": 1775486613241
+    },
+    "30_Library/100_zettelkasten/Context Tags Enable Efficient Batching and Reduce Context Switching.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c64719da734c6ebf380d51151719ea068381e0c0f38dc4919a508ffbece6d7d6",
+      "lastIndexed": 1775486613242
+    },
+    "30_Library/100_zettelkasten/Contexts Reduce Overwhelm and Support Working Memory for ADHD.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "73365bc8a00e334b7de26000eb472ed40bd2dc8e0c6debd02fa4c786e7935551",
+      "lastIndexed": 1775486613431
+    },
+    "30_Library/100_zettelkasten/Contingency planning manages routine disruptions.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0dc81d135fbe46142de8295f343d0819341225a2a364e023d5e19d13d023c30d",
+      "lastIndexed": 1775486613478
+    },
+    "30_Library/100_zettelkasten/Context Preservation Techniques Maintain Project Novelty and Meaning.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "60aa40781143e4eaf33f65f1b1bcd7935a6aebe425a59b232a27f4269f579628",
+      "lastIndexed": 1775486613504
+    },
+    "30_Library/100_zettelkasten/Consistency is More Important Than Intensity for Building Systems.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ab08ba4c77f5092a549a34ab2c7439b38108afd960f9805cfcde25c124e64d44",
+      "lastIndexed": 1775486616083
+    },
+    "30_Library/100_zettelkasten/Constructive Debate in Psychological Safety.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "80640792d0a8ee7947f950765a7e37d414765f2707289333c6c680ec6e787063",
+      "lastIndexed": 1775486616317
+    },
+    "30_Library/100_zettelkasten/Consistent Creative Practice Strengthens the Habit.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "22f7450d756bcf8af1581ac584325fdc2e031f7dfdc1515b159a16fd6a6c0e60",
+      "lastIndexed": 1775486616453
+    },
+    "30_Library/100_zettelkasten/Content Switching Allows Layer 7 Routing Based on Hostname or URL Path.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b83866bfb587f045a58c22d6e8773546e3eab4295c10d232330460f2872b558d",
+      "lastIndexed": 1775486616472
+    },
+    "30_Library/100_zettelkasten/Context Caching Freezes Large Static Datasets for Efficient Inference.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6042564ed0bc65ce2d2f83107de608e0f8b3fe641e6811a73737d44cdb6fdc61",
+      "lastIndexed": 1775486616576
+    },
+    "30_Library/100_zettelkasten/Confirmation as a Perceived Shortcut to Truth.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6b071b7bc6a8dffd5a554c5b85282abd8ceb8eb7c0392623f8f8bf6e0f22db79",
+      "lastIndexed": 1775486619081
+    },
+    "30_Library/100_zettelkasten/Configuration Error Surface Area.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5e70241c5385f1faab589fbeaaf5084667b51653c5ccb8a9707bd4e3724c28e6",
+      "lastIndexed": 1775486619135
+    },
+    "30_Library/100_zettelkasten/Configuration as Generated Output.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3caa42af0cf12353c41000b9431ff02efc16c69f64756c34853fc8e60ee5fe82",
+      "lastIndexed": 1775486619190
+    },
+    "30_Library/100_zettelkasten/Configuration Kernel.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9602cb153d839a0db702ab3de3198774bb012ff2fc029050b7979a6cece6bf96",
+      "lastIndexed": 1775486619563
+    },
+    "30_Library/100_zettelkasten/Consistency and Momentum.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a53db7082492da310afaace77ce362b0bd5d050c802439a48112180ea783966c",
+      "lastIndexed": 1775486619771
+    },
+    "30_Library/100_zettelkasten/Conceptual Change is the Deep Process of Restructuring Misconceptions.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7db62ca4d062f723d8488f21bbe595c23af4de3904f15fa0524ed60535546202",
+      "lastIndexed": 1775486622048
+    },
+    "30_Library/100_zettelkasten/Configuration Generator.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "988d4651895088340f6c25720f7c2ab9192f85c5fcbdba95562a93db0660fb93",
+      "lastIndexed": 1775486622359
+    },
+    "30_Library/100_zettelkasten/Concept-Orientation Enables Cross-Domain Discovery.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e8a408d8631d52fcd2397da22931d88b5cbbdc2b07095505cdcc464af87ad329",
+      "lastIndexed": 1775486622359
+    },
+    "30_Library/100_zettelkasten/Concept Mapping is a Technique for Visually Organizing Knowledge.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c27cf086fc876c05318d54c5119c285d51f16a9f97308423bdacb9f6805a6418",
+      "lastIndexed": 1775486622368
+    },
+    "30_Library/100_zettelkasten/Confidence as Trust in Process Not Certainty in Outcomes.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e1b117260bd21e9abd651578246199d013fbc8c2f97e8f52d6a637aa6384be6d",
+      "lastIndexed": 1775486622392
+    },
+    "30_Library/100_zettelkasten/Concept - Netfilter Hooks.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "46f8a19fb5a4c49cf0e4a8624675b6521f7faf33096c3b4855623a83f7f86c81",
+      "lastIndexed": 1775486624686
+    },
+    "30_Library/100_zettelkasten/Concept - TCP Three-Way Handshake.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f9d2623c0158fa9584a12d423071e39500e2747ff1d97d3557226df05976f42a",
+      "lastIndexed": 1775486624875
+    },
+    "30_Library/100_zettelkasten/Concept - NIC Direct Memory Access.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ffe41f37a1154ec3f6569c16088cffa5200f5edab3661799589b6c4f48417b84",
+      "lastIndexed": 1775486624903
+    },
+    "30_Library/100_zettelkasten/Concept - Network Bridge vs Router.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "72732c363b02f70b6d4e57970e623e732578cb54098d34fd45c1754735b3cddd",
+      "lastIndexed": 1775486624988
+    },
+    "30_Library/100_zettelkasten/Concept - UDP vs TCP.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7cf30b6944a4a757b047cc98c7041bca7bb813382708afc965ef4b611de9a709",
+      "lastIndexed": 1775486625674
+    },
+    "30_Library/100_zettelkasten/Concept - Linux NAPI.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0d3462b7bff0e2aee72abc58cf93154ab0d450a9efd034b2f491792840187866",
+      "lastIndexed": 1775486628193
+    },
+    "30_Library/100_zettelkasten/Concept - Maximum Transmission Unit vs Maximum Segment Size.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "91b12d8a2d3ff3e76329f1dd938a86ccf95beb1c764dc7df1674a599cf1d1452",
+      "lastIndexed": 1775486628376
+    },
+    "30_Library/100_zettelkasten/Concept - Loopback Interface.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6557763af607b2589e1e123f32039d786106cd83b55527edee66453a035a4aca",
+      "lastIndexed": 1775486628454
+    },
+    "30_Library/100_zettelkasten/Comparison - Knowing vs Understanding.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2dfbb307d92a50eccb7ee7b5afc5656ab094ee86237a41480473133e553ffef5",
+      "lastIndexed": 1775486628992
+    },
+    "30_Library/100_zettelkasten/Concept - Linux Queuing Discipline.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ea358d4b69a5e9d59cf39db373bf067dc2b8e09a237f5b92890070a5b901a8fd",
+      "lastIndexed": 1775486629168
+    },
+    "30_Library/100_zettelkasten/Communication is inherently lossy like image compression.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a849494687df8b43bd35b2db3f3034ae4aa744dc1456097edbaaef66b33e82f1",
+      "lastIndexed": 1775486631983
+    },
+    "30_Library/100_zettelkasten/Concept - Linux Kernel Routing Decision.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "50dd04923a1d14c0a93dd582ececefcbd0f02d1af8c401439c1830cb79da7243",
+      "lastIndexed": 1775486632056
+    },
+    "30_Library/100_zettelkasten/Common experiential anchors ground abstract concepts.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4dbbf3e860600b7877b3b58867cf5dbdcf831c53f420f9e9e1ed39725f63ad66",
+      "lastIndexed": 1775486632059
+    },
+    "30_Library/100_zettelkasten/Communication requires iterative approximation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "533af9f9c15b45177794676b70f14d82f79496bc410c7d5534cdd60aa707fd5e",
+      "lastIndexed": 1775486632616
+    },
+    "30_Library/100_zettelkasten/Compare Oneself to Yesterday's Self Not Others.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "57f1da53f229c0ef099b253790f8305a3026e6dc91ddbd1d3602e1cc2263236f",
+      "lastIndexed": 1775486632848
+    },
+    "30_Library/100_zettelkasten/Commitment, Consistency, and Sunk Cost Fallacy.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1182e37b7152be64104106118c9643ce73c3169766d0b35debf614a78e70f09d",
+      "lastIndexed": 1775486635466
+    },
+    "30_Library/100_zettelkasten/Combining structure with flexibility satisfies neurodivergent dual needs.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d90ecc6072454dc7d709224fdfefbc714ebc2a4f5e661c03c49166683c0593ed",
+      "lastIndexed": 1775486635550
+    },
+    "30_Library/100_zettelkasten/Common Cognitive Distortions.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "133bb94bdeaa0b53b3336aad080fb2f3583f5370aaac92828418775dd77e2b58",
+      "lastIndexed": 1775486635565
+    },
+    "30_Library/100_zettelkasten/Commercial Music is Engineered for Mass Appeal by Specialist Teams.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "16627942f171fc2f7c8c1dfac38f77571961836b56e2c0dcb5eb57099eb78069",
+      "lastIndexed": 1775486635793
+    },
+    "30_Library/100_zettelkasten/Combining Visual and Verbal Elements Stimulates ADHD Writing.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "714bec591fa4e4ef9eb378e9d62dd62ba8d832d37d08907155f3542349db67d6",
+      "lastIndexed": 1775486635829
+    },
+    "30_Library/100_zettelkasten/Cognitive Reframing of Criticism.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "dee712985714bbeab704437650c7e7e437b67439702865027c38a3c9dc1990e2",
+      "lastIndexed": 1775486638345
+    },
+    "30_Library/100_zettelkasten/Collective Intelligence is Enabled by Communication.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9e261fc1fe7bb420e95ae62bda2ca833c012881346f09eaa77b54d87051627a7",
+      "lastIndexed": 1775486638854
+    },
+    "30_Library/100_zettelkasten/Collective Intelligence Through Communication.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "dcfc57ecc8bf733d2ba2e3f3e528c747031248a54eb9bd54c273447a85193830",
+      "lastIndexed": 1775486639146
+    },
+    "30_Library/100_zettelkasten/Coherent LLM output signals meaningful processing.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d2b3a6972b610a0a3ea081c3f425ec31c4d138f7b09933409c38f41af7800ff1",
+      "lastIndexed": 1775486639275
+    },
+    "30_Library/100_zettelkasten/Collaborative Programming Mitigates RSD and Focus Issues in ADHD.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ed293a673098ca42a1312de5e8b850e53ae8e7b04b647f5eb21b4db9e7e0e7f3",
+      "lastIndexed": 1775486639434
+    },
+    "30_Library/100_zettelkasten/Cognitive Biases Reinforce Mental Models.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "50d9818b50bda914b0ea0e2e7e059239965263e73d687e3eb1ffcc7c24c0aef0",
+      "lastIndexed": 1775486641822
+    },
+    "30_Library/100_zettelkasten/Cloudflare Can Proxy Traffic to a Load Balancer to Obfuscate a Public IP.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "11a3fae2dfc7608b97dd5d8f3d664342c963e5b8910b8b7a25010e51475583b2",
+      "lastIndexed": 1775486642047
+    },
+    "30_Library/100_zettelkasten/Cognitive Health Practices for Technical Work.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8a670ce60cf7eea45a3e3416a93c46024b02140c28e415edecdcf1ce3c581735",
+      "lastIndexed": 1775486642113
+    },
+    "30_Library/100_zettelkasten/Code Frame Switching.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "76ad720e4505ae6e847eb7372a071543e9c1ac681034e93d1f2d5cb409136f7d",
+      "lastIndexed": 1775486642435
+    },
+    "30_Library/100_zettelkasten/Code Comprehension vs. Language Processing.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e11092be5d6e8bbc72b8f26e7d884fb9ecf1268091a8dd4969a77eea46e61951",
+      "lastIndexed": 1775486642949
+    },
+    "30_Library/100_zettelkasten/Chemotaxis as a Primitive Precursor to Emotion.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6c4feb451c4a6b99dc20d5d4f569d871cf41a954508615bbf9fe55259c22f30e",
+      "lastIndexed": 1775486645499
+    },
+    "30_Library/100_zettelkasten/Choice Architecture Designs the Environment to Make Desired Behaviors Easier.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8fb65ea27ce8888989bb16102a8780eb4b97dcb0006727e3c0e9e0ebc47a01ab",
+      "lastIndexed": 1775486645927
+    },
+    "30_Library/100_zettelkasten/Clinical Models Recognize Activation as a Core Impairment in ADHD.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "40d4b64b3dd6f9152201ee8e4b55a66fcae2c26b06952603bc4b47389339154c",
+      "lastIndexed": 1775486646055
+    },
+    "30_Library/100_zettelkasten/Cleaning the toilet daily promotes humility and mental clarity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ff67f1bb1af8162aa9c7f229fdd98dcfa8bb34c75c9836e433b9766462b0130e",
+      "lastIndexed": 1775486646566
+    },
+    "30_Library/100_zettelkasten/Cloud Firewalls Filter Traffic at Network and Transport Layers.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0cf5c267ef2c50cbe0b656a206f584f6a5b40c30dbd6c4a9646256361c614c76",
+      "lastIndexed": 1775486658639
+    },
+    "30_Library/100_zettelkasten/Chaining Starter Tasks Creates a Momentum Ramp.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c0b54ce92345177adad7d36a1ad2a99cc7238bdd7de7afe8f157587b44453f37",
+      "lastIndexed": 1775486660988
+    },
+    "30_Library/100_zettelkasten/Chemotaxis as Primitive Model-Based Behavior.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a8b2265f8123685c9dc198b884b19c10f1096eaecbe375b25e491863523a2eca",
+      "lastIndexed": 1775486661323
+    },
+    "30_Library/100_zettelkasten/Cgroups v2 Unified Hierarchy.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "48059beaf8a657b7b622936e50aa170ce4a293887989dc7f663bb7d6b8d1838d",
+      "lastIndexed": 1775486661375
+    },
+    "30_Library/100_zettelkasten/Chasing Enlightenment as a Goal Causes Suffering.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d1ea8f7bf9c3c771c9c3db0fd4a399f3c87780337d0fe99c0532ef8e1d2407bd",
+      "lastIndexed": 1775486661470
+    },
+    "30_Library/100_zettelkasten/Changing Environments Provides Novelty for ADHD Writing.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f932e34fbefc85b550d0f34e5337573c2e36548a7a127249e8117a72c5cd462d",
+      "lastIndexed": 1775486662023
+    },
+    "30_Library/100_zettelkasten/Celebrate Small Successes to Build Routine Momentum.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "91bb8c51e78df009d1ce5a5868a1e98a40e319766c9b60987295840780165c61",
+      "lastIndexed": 1775486664559
+    },
+    "30_Library/100_zettelkasten/Celebrating small wins builds routine momentum.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9f8422085831d4f2ded00a28cc1b8c2130040e842348ba82e71f3354e5f598e9",
+      "lastIndexed": 1775486664580
+    },
+    "30_Library/100_zettelkasten/Cgroups Limit and Manage Container Resources.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b5650d2eb6bc7340484e89a49ce32d2e2b3afa2556e46f8489bcfab34cff4235",
+      "lastIndexed": 1775486664669
+    },
+    "30_Library/100_zettelkasten/Cerebellum Function and Exercise for ADHD Regulation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4065a5f4c893af4489ddb267cd2cfab4873d5f9e5ea1e7f06916ee6b653f3bc3",
+      "lastIndexed": 1775486664749
+    },
+    "30_Library/100_zettelkasten/Certainty and Synthesis Gaps are Internal Barriers to Group Understanding.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4911501fcec2632797c5c08627ce77c120bef10ef11e8921e74894eac3845085",
+      "lastIndexed": 1775486665091
+    },
+    "30_Library/100_zettelkasten/Canonical Schema V1.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "30e2c039f9e0cf94e900c592ad151667a3bb71270a3f459a1fd564d5ae43443e",
+      "lastIndexed": 1775486667351
+    },
+    "30_Library/100_zettelkasten/Calculus Ratiocinator (Leibniz).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d7b7d59507fd3afb612628a886c8372faad8d4883f3aa3a8e94c52985a069f50",
+      "lastIndexed": 1775486667472
+    },
+    "30_Library/100_zettelkasten/Building self-trust is essential for creating sustainable ADHD routines.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "dde20b98a91d530ec811bccbe57df611acedf1e917c3e895d0b6aa319112d654",
+      "lastIndexed": 1775486667591
+    },
+    "30_Library/100_zettelkasten/Calculus (Definition).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c8694510ac14fce970c17e58ea731a512ba7d0156785beaf61359cc747454644",
+      "lastIndexed": 1775486667644
+    },
+    "30_Library/100_zettelkasten/Cal Newport's Deep Work Method Involves Rigorous Time Blocking to Maximize Concentration.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6c1b974f0497bfb9caf8afefff4e53faf2b353c86f3cd067ce2bcccbfd088106",
+      "lastIndexed": 1775486668013
+    },
+    "30_Library/100_zettelkasten/Breaking Free from Flawed Models.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a171a07311e55ca00c16035a8bcb6f314944f69b1215a6a42afe8e3d72fdf9c9",
+      "lastIndexed": 1775486670564
+    },
+    "30_Library/100_zettelkasten/Breaking Projects Into Micro-Tasks Reduces ADHD Overwhelm.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0d6969b8b1cb56b3d805a3547f8775a4a3863105b0bdd1ffe1c2621b02baeb0a",
+      "lastIndexed": 1775486670700
+    },
+    "30_Library/100_zettelkasten/Bottom-Up Organization Allows Emergent Structure.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d6b95755ae229fd2fc9dd734b420346f9297b3a56473b1db44e811d7daef99e6",
+      "lastIndexed": 1775486670736
+    },
+    "30_Library/100_zettelkasten/Broader Understanding Enhances Predictive & Causal Insight.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "63c8501c69f3097377989cf72721a7d438b9e3530036837e9c2a8d07d8ce1087",
+      "lastIndexed": 1775486670792
+    },
+    "30_Library/100_zettelkasten/Broad Experiences Develop Flexible Problem-Solving Skills.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "017275f190e5d5034df78fa97217016d58b16ee18edc821672e27b214f54eafd",
+      "lastIndexed": 1775486671351
+    },
+    "30_Library/100_zettelkasten/Body Doubling is an Effective ADHD Strategy.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "acbce68aeead4c2d6af9f40add5bc6d5c3f1976d9701200a41d9549fc3675e88",
+      "lastIndexed": 1775486674174
+    },
+    "30_Library/100_zettelkasten/Brain Activity During Programming Tasks.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ae01109349bbb54039858b8af46a26504c1d8c4dbfbc7433d791b2bfbc231283",
+      "lastIndexed": 1775486674175
+    },
+    "30_Library/100_zettelkasten/Bravery is Not Shrinking From What is Frightening.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ee855329796782ea5a56e28d384467717455d850168bb3a0f955376e4155375c",
+      "lastIndexed": 1775486674176
+    },
+    "30_Library/100_zettelkasten/Bidirectional Authority Discomfort in ADHD.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "052b9a3e9e0ac1c6b94485c478175f9a873d7cf3da60c0c1cd38087f8e4b214c",
+      "lastIndexed": 1775486674199
+    },
+    "30_Library/100_zettelkasten/Bookend routines mark the start and end of day.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "cf01cbc40893df6e6b3904f9065ae3a7d1a99645a062c7280379ee83d7104aba",
+      "lastIndexed": 1775486674580
+    },
+    "30_Library/100_zettelkasten/Block Universe and the Nature of Time.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5572b032dcc06676e9ac1023fc8b2699403ccee029da5c440d93be0fbd0a76d4",
+      "lastIndexed": 1775486677083
+    },
+    "30_Library/100_zettelkasten/Body Doubling for ADHD Focus.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b021f3010700b0e5bfee258ee3885aee2982524979689010129a8ef7fba3fd47",
+      "lastIndexed": 1775486677150
+    },
+    "30_Library/100_zettelkasten/Behavioral Interventions for ADHD Compensate for Neurobiological Deficits.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2de0ab214ad94f4afe757c4e2de5b7c4c52a6ae8478a04fed5b3e32b417d9d57",
+      "lastIndexed": 1775486677191
+    },
+    "30_Library/100_zettelkasten/Bit Manipulation Optimizes Network Prefix Storage and Matching.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ce9a2bd2239df3658e2d71393557fc3b654707fc04edba3290d850e845f3d038",
+      "lastIndexed": 1775486677964
+    },
+    "30_Library/100_zettelkasten/Blub Studies.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2fc61fbdc37b9edf2e61f2bd0d670e588eb4308ec600458799a1859b066ac7b1",
+      "lastIndexed": 1775486685513
+    },
+    "30_Library/100_zettelkasten/Beginner's Mind is a State of Openness and Curiosity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0ff7105d2d462b0422c701633b670124007c6f53fbb39c22504da464d990ca50",
+      "lastIndexed": 1775486688001
+    },
+    "30_Library/100_zettelkasten/Bash - Error Handling.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "962393b044999a7f3ad05c12c6a51597d1faa719812864be23146fa9335f870a",
+      "lastIndexed": 1775486688028
+    },
+    "30_Library/100_zettelkasten/Beauty Is a Guiding Value in Mathematics.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "79372c6546f51d74ab7c9bd6da8fc8abcb0b66ed4e1b2e6fe89ecd27541a3211",
+      "lastIndexed": 1775486688065
+    },
+    "30_Library/100_zettelkasten/Becoming System Agnostic.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "170633686818b45222b3e87a0016f2143250cbe931229dfb0c3bd067ef953a92",
+      "lastIndexed": 1775486688238
+    },
+    "30_Library/100_zettelkasten/Bayesian Updating Adjusts Beliefs as New Evidence Arrives.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f07ca00ba8da3900af4b8f0677bfb14a2106f848225cc7fee1b5357ee7ac5f8e",
+      "lastIndexed": 1775486688411
+    },
+    "30_Library/100_zettelkasten/Automated Linking of Similar Thoughts.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a97d13a5bd290e76839763ac36dca5c054dfa1b7c4e42a514250136cfb9ad65a",
+      "lastIndexed": 1775486690986
+    },
+    "30_Library/100_zettelkasten/Balanced relationships involve active listening remembering events offering help and sharing conversation time.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "fd43ee451aaed4b6bd9384952f4fefdd38b953f2404d474a9f8e324f4c5076a7",
+      "lastIndexed": 1775486691014
+    },
+    "30_Library/100_zettelkasten/Axiomatic Set Theory Is a Foundational Framework for Mathematics.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9685b9d4bb5aa719e67454bc00d6476d98f6821483fe9d68135b020f2b4d29ed",
+      "lastIndexed": 1775486691372
+    },
+    "30_Library/100_zettelkasten/Authentic Music Creates Communities While Commercial Music Creates Consumers.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ca89dc982092a721df4331ba743a7b9ff19a3fd9e472fdb271159c67737c4e5e",
+      "lastIndexed": 1775486691566
+    },
+    "30_Library/100_zettelkasten/Autopoiesis The Self-Referential System.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9d002ab3a9cf4092dee7bc2a259b4e7645c1213d2c7c6d314c8fe7d14ef50fed",
+      "lastIndexed": 1775486692091
+    },
+    "30_Library/100_zettelkasten/Asking Why a Song Exists Helps Determine its Authenticity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "97e3c120e03250d66cffdd5a8b8ad418c183438b2fa441457c18d12837a507b7",
+      "lastIndexed": 1775486694517
+    },
+    "30_Library/100_zettelkasten/Articulating Reasoning on Paper is Like Rubber Duck Debugging for Life.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ebe13771740c52a03b83c260055cda055c9905510562878a1748fe66c6ca85c8",
+      "lastIndexed": 1775486694639
+    },
+    "30_Library/100_zettelkasten/Attention in Learning.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "96ad5b833620c1221ba13a597beef1bcc492c6fe8330745087c05c4ed56e3d65",
+      "lastIndexed": 1775486695064
+    },
+    "30_Library/100_zettelkasten/Arithmetic (Definition).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1f52658dc59ff11ab2f6d970a08523554a569d0cce8479325b12c8e330cd698f",
+      "lastIndexed": 1775486695105
+    },
+    "30_Library/100_zettelkasten/Aristotle Distinguished Between Episteme, Techne, and Phronesis.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8e90ddd740bc2d51c11f4736bd3c7c78ab3741b98265e4202a319996cf189396",
+      "lastIndexed": 1775486724642
+    },
+    "30_Library/100_zettelkasten/Architectural Decision Records ADRs for AI Agents.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ec6a728aea0eb5a436067cc92a5b310ab89f83749d6e4b9d2225440a689eed1a",
+      "lastIndexed": 1775486726913
+    },
+    "30_Library/100_zettelkasten/Architecture First Approach to AI Development.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7627565f929f1c50f864e1a0dbcc9619a4cb6f923f0ece332faa7311b283f6f6",
+      "lastIndexed": 1775486727068
+    },
+    "30_Library/100_zettelkasten/Appreciating Genius Requires Intellectual Resonance.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "57ec9b33f58f0c5084bd5f8559bbbf80d4d8537d7b7107a40c11ca845d45620b",
+      "lastIndexed": 1775486727392
+    },
+    "30_Library/100_zettelkasten/Applying Previous Knowledge.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ba4b2f17446d7900fdc695e40349a8b26e38de5c7dea930a13ff70c7beedbba2",
+      "lastIndexed": 1775486727831
+    },
+    "30_Library/100_zettelkasten/Appreciation of Beauty is Noticing Excellence in the World.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2d2ddd0a7cba74eaa05a6f20f8c0ba7b20d08cd3ac6638a5b31405254311d730",
+      "lastIndexed": 1775486727831
+    },
+    "30_Library/100_zettelkasten/Apophenia is the Tendency to Perceive Patterns in Random Data.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6a258e099189bacd5c378280edac14e401eb1d5da0d4523412d70cca4794b761",
+      "lastIndexed": 1775486730372
+    },
+    "30_Library/100_zettelkasten/Appeal to Novelty.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b973a627b43a10dfcefb3ef5c2e985e5e4189f060b0f50f34f15a52d5faf1028",
+      "lastIndexed": 1775486730373
+    },
+    "30_Library/100_zettelkasten/Antithetical Knowledge Systems in the 17th Century.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ab074dc7d456b531beb7a193cd80e7377c7035e2dec30fd02273b093805669a5",
+      "lastIndexed": 1775486730374
+    },
+    "30_Library/100_zettelkasten/Anti-Fragility Means Systems That Benefit From Volatility.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "879af0e7550e987ecd456b54721b767991472feabd263b06f1ac6c57a93d5b8a",
+      "lastIndexed": 1775486730422
+    },
+    "30_Library/100_zettelkasten/AoR at Work.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2c97e85f7bcce16a3a327a767a8a82d62cdde4fb7ea9572325fb8e0b76b3db24",
+      "lastIndexed": 1775486730598
+    },
+    "30_Library/100_zettelkasten/An Example of a Tcp Packet With All Layers.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d2a0932a7126a0d5ee1560191603f90eca42c653541e448323b40d4e6892aca3",
+      "lastIndexed": 1775486733147
+    },
+    "30_Library/100_zettelkasten/Analysis (Definition).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "79040bef59c58f879e641cfe037d90376f7d7a79f7248fcd65b9981c36f2233f",
+      "lastIndexed": 1775486733185
+    },
+    "30_Library/100_zettelkasten/Anaerobic Function Relies on Glycogen and Increases Physiological Stress.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8abda54e30c495e93f05c7e0e3d0876e447a873192a685a3cd7c6168dafd2b11",
+      "lastIndexed": 1775486733305
+    },
+    "30_Library/100_zettelkasten/Analog and Behavioral Techniques are Crucial for ADHD Management.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "807d041882b38b0a70c1217dcee845770b5dfc14095a97235af4b6b22f41acc5",
+      "lastIndexed": 1775486733379
+    },
+    "30_Library/100_zettelkasten/Animal Allegory is a Persistent Feature of Fables for Social Commentary.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0cc1036264982d4d36f2b64170df937d26b8469b6600429fc10bf8d041346a31",
+      "lastIndexed": 1775486733989
+    },
+    "30_Library/100_zettelkasten/An Action Can Be Formally Modeled as a State Transformation Function.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "dbb76a52f46700134206de58cefe44b802294b88cb1df38c5b3c80f83a6bdded",
+      "lastIndexed": 1775486736383
+    },
+    "30_Library/100_zettelkasten/All the Enthusiasm and Energy for a Plan Disappears.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bd1f9c8d05e3008ac0e9704f9ecd88636c03994e997c2a5a7742a5b04361c21e",
+      "lastIndexed": 1775486736471
+    },
+    "30_Library/100_zettelkasten/Alphanumeric IDs Are Addresses Not Categories.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "88a98c80a7f55231dd45e245580ab33f51f76691706c0236b2c9f9dc47e2f133",
+      "lastIndexed": 1775486736595
+    },
+    "30_Library/100_zettelkasten/An API Gateway is a Central Management Layer for APIs.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "19a954d9b94f8a8aae04332a4ccb5f1f64f296fd73ea06120061a771de6819ab",
+      "lastIndexed": 1775486736869
+    },
+    "30_Library/100_zettelkasten/Aligning Actions with Core Values Makes Them Feel More Natural.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ee2541f4007481f4a10b8d6d8827a80efcc46ea5b5f01d4e9cdabee16b15a5d0",
+      "lastIndexed": 1775486737026
+    },
+    "30_Library/100_zettelkasten/Akrasia is Acting Against One's Better Judgment.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4a98b5699e797b6a7c2e764d1de9555dc6e27a3d7dfaeb8f2d01281afc225dc9",
+      "lastIndexed": 1775486739336
+    },
+    "30_Library/100_zettelkasten/Aesop's Fables Use Anthropomorphic Allegory.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "032d0d6108c59715306c638b709ca6e44246be51ce276e83e1cde09315ad4cfb",
+      "lastIndexed": 1775486739346
+    },
+    "30_Library/100_zettelkasten/Alfred Korzybski and General Semantics.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d1e577c2f8149aa7b24c5ae26621a15802d2e67347fbf4f0ac692aa86fa45b9a",
+      "lastIndexed": 1775486739693
+    },
+    "30_Library/100_zettelkasten/Algebra (Definition).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ebaabaad576cddfd48a7d1310db35d560e87c85f608b9e0a8a51f7aa3caded68",
+      "lastIndexed": 1775486739834
+    },
+    "30_Library/100_zettelkasten/Alchemy Protected Truth Through Obscurity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a372b0b863ab9b8d4df3c9ea0edf047265fe80816c68a134c5b166bf82e18185",
+      "lastIndexed": 1775486739836
+    },
+    "30_Library/100_zettelkasten/Aerobic Deficiency Syndrome Results from an Underdeveloped Aerobic System.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d9710c92a769d66cc5d5e54a6bc463548ef080a2215f963ddbc1bfcfa4940f96",
+      "lastIndexed": 1775486742372
+    },
+    "30_Library/100_zettelkasten/Active Listening De-escalates Conflict.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f08e741c28f6d1f7f082fcb99619149ef6d7015f38eb6cd9d454b6acc062f8a8",
+      "lastIndexed": 1775486742372
+    },
+    "30_Library/100_zettelkasten/Aesop's Fables Originated in Oral Tradition.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3e6ce4d94d7f9c005ec2c0e1e8605f3db5849c271dad74a2bfeb8aa8da784a66",
+      "lastIndexed": 1775486742677
+    },
+    "30_Library/100_zettelkasten/Aerobic Function Efficiently Burns Fat for Long-Term Energy.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "03d0e7c71cd68e79e64c6950009c9b85c97f8bb800d798580f78db725b5e6872",
+      "lastIndexed": 1775486742910
+    },
+    "30_Library/100_zettelkasten/Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "017faf00ecb1efdb0f1110ac79ce41df97bcbd439872f1f3b36091470eaf6677",
+      "lastIndexed": 1775486743130
+    },
+    "30_Library/100_zettelkasten/Achieving Mental Stability.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f18e85c1ae4ab8a97a978bf2e8c0c5d844d2a93da98cbaf02ade0e6aa7d447d2",
+      "lastIndexed": 1775486745523
+    },
+    "30_Library/100_zettelkasten/Action Initiation Involves a Balance Between Direct and Indirect Pathways in the Basal Ganglia.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "676dd6bcf72ef7d9ace183b018336d3895589ad72312ebf8e6e21f82738c9bd8",
+      "lastIndexed": 1775486745526
+    },
+    "30_Library/100_zettelkasten/Action Dominance is the Cognitive Bias Towards Action Over Inaction.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b1bf87654749caf54cfaae1d07fb2affe32da62add3ec821a929cd8fdd61ed1d",
+      "lastIndexed": 1775486745623
+    },
+    "30_Library/100_zettelkasten/Action Triggers Bridge the Gap Between Motion and Action.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "46809d3bcc31b756d554f7893bbe084275ec5056c8717131d096132b6f00e343",
+      "lastIndexed": 1775486745990
+    },
+    "30_Library/100_zettelkasten/Achieving a Goal is a Momentary Change Without Systemic Improvement.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "66eb7584417241859035bf5a6c73bcb9fb072eceb69838382f97903a1b5a0458",
+      "lastIndexed": 1775486746466
+    },
+    "30_Library/100_zettelkasten/AWS ALB Target Groups.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5a70f635302e5703e809273231614559f12f448caf2931686742f98b456d9a12",
+      "lastIndexed": 1775486748925
+    },
+    "30_Library/100_zettelkasten/Abstraction as Climbing a Hill.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a2d787a59e4e826ca105edb80603edc0bae83adecea728d76d2f8b0366f0ba34",
+      "lastIndexed": 1775486749285
+    },
+    "30_Library/100_zettelkasten/Abstraction and Generalization Are Core Mathematical Methods.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c331621218dcef7fd50004b6cd13f8901db475cdcaaa1b667da2e60d1d3de649",
+      "lastIndexed": 1775486749326
+    },
+    "30_Library/100_zettelkasten/Access Control Lists Filter Traffic Based on Protocol and Address Rules.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e7760d1509937bfcccfd472bcfdd67e17658429419cb93ebfd7837b904609bbb",
+      "lastIndexed": 1775486749349
+    },
+    "30_Library/100_zettelkasten/Absurdism as Rebellion Against Meaninglessness.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "cb1740a8001b0f336cc17fb84166bdb4a1aa6b5369cab0b073cc571f7d115edd",
+      "lastIndexed": 1775486749747
+    },
+    "30_Library/100_zettelkasten/ADHD-Friendly Cleaning Strategies Focus on Cues and Transitions.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2257a19b062d7720fdf8829d85686df97b00ba82914bfd05b4c075a6dbe9899b",
+      "lastIndexed": 1775486752590
+    },
+    "30_Library/100_zettelkasten/API Gateways Manage and Secure Application Interfaces.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9f3c52e66f14d404cc83f9afb1c6517887c58b804642febf0d485efd8858459f",
+      "lastIndexed": 1775486752687
+    },
+    "30_Library/100_zettelkasten/AI and Machine Understanding.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "77c828e8e79d0be26ffdc779d5e05438398d3735e93df0c83572054013dc4567",
+      "lastIndexed": 1775486752753
+    },
+    "30_Library/100_zettelkasten/ADHD routines should be based on intrinsic motivation not external pressure.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ec3c9aa1c066c19a26552f342fc7dd4791fc6b5e33c9680b738cb7bda597f297",
+      "lastIndexed": 1775486752894
+    },
+    "30_Library/100_zettelkasten/AWS ALB Best Practices.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "cded1fcbe371d010502e16d2111789c19c3f67757eff64c4666a96d6403da878",
+      "lastIndexed": 1775486753005
+    },
+    "30_Library/100_zettelkasten/ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f615b0008ad2eae2fafad8bd6a67cbaa7f77cd10fb1980534bea49a1c83f7207",
+      "lastIndexed": 1775486755307
+    },
+    "30_Library/100_zettelkasten/ADHD is a Heterogeneous Condition with Unique Symptom Patterns.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f264d9b2dfae6faf921bac55ce6ea4da626d12c4449ae92d14198a134146a4bb",
+      "lastIndexed": 1775486755382
+    },
+    "30_Library/100_zettelkasten/ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "852e11442436a18fb03a5236be482e1655a01efd11e3c29416bd3ae2154bd260",
+      "lastIndexed": 1775486755609
+    },
+    "30_Library/100_zettelkasten/ADHD as Neurodiversity Not Deficit.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "17b5906cb323328435dfc6d4356164527a788d4cd8ea5b5bd5832810d1814932",
+      "lastIndexed": 1775486755809
+    },
+    "30_Library/100_zettelkasten/ADHD Task Initiation is Not Universally the Hardest Symptom Due to Individual Variation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d9f6171c7c4734109ece85367e76c5ee7b67c0bf9c0f04cc6a1dba8dca90603b",
+      "lastIndexed": 1775486755843
+    },
+    "30_Library/100_zettelkasten/ADHD Shame-Procrastination Cycle.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "acbbe0df7806a7d3246ff34286cc1b47217277fe237beda907e43e2722631c37",
+      "lastIndexed": 1775486758092
+    },
+    "30_Library/100_zettelkasten/ADHD Involves an Inability to Regulate Attention.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "13a9ac1177890985d40822ce3ba183ec392d0ad6b3bfea49aa51dd244d766283",
+      "lastIndexed": 1775486758148
+    },
+    "30_Library/100_zettelkasten/ADHD Systems Fail When They Become Monotonous.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4f054765cc5ec118c29246f45aa64120315e277b2acb2d41f318c1588831deb5",
+      "lastIndexed": 1775486758511
+    },
+    "30_Library/100_zettelkasten/ADHD Overthinking is a Substitute for Action.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f22e238ade31954f6ce96c7cc333db54b4ce468ac19fb64ff42cd675c81d6d6b",
+      "lastIndexed": 1775486758523
+    },
+    "30_Library/100_zettelkasten/ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c4ceabc60357d44ec2ca6830b58224cf91f597a80d164df4cdb28aa6bc0145bf",
+      "lastIndexed": 1775486758582
+    },
+    "30_Library/100_zettelkasten/ADHD Causes Deficits in Completing Long-Term Projects.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a4c5e6d29bf0b5cf873846246d34c40ccd0fa344dd5ed970258f561ca55cbbaf",
+      "lastIndexed": 1775486761108
+    },
+    "30_Library/100_zettelkasten/ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9deeb5abd2e21130d8c7b268593587143f0cd59f8b8571eb46c927e06288a226",
+      "lastIndexed": 1775486761141
+    },
+    "30_Library/100_zettelkasten/ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "abc1b9325e5217448b48dd65f24451a17fa930de5093c8ddd3029463c8311fb8",
+      "lastIndexed": 1775486761297
+    },
+    "30_Library/100_zettelkasten/ADHD Hangover or Brain Fog Following Hyperfixation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1cfaf67339700d6fc4d1df6252eef1bfd758b7fcccdcabd2e6780368de9ecea2",
+      "lastIndexed": 1775486761485
+    },
+    "30_Library/100_zettelkasten/ADHD DMN Deactivation Failure.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9dbb08d4dd75c3b15db41b6e1779168f0c12a2db3603280d2195759987424c0c",
+      "lastIndexed": 1775486761485
+    },
+    "30_Library/100_zettelkasten/A Startup Ritual Eases the Transition into a Project Mindset.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "817a1241a1b758410f0394cb7f7790c5d9853f053ae2d0a05689a98c65e83deb",
+      "lastIndexed": 1775486764283
+    },
+    "30_Library/100_zettelkasten/A True Discussion Requires That Both Partners Can Say No Without Fear.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c42fa0bd63c89c94c180816a0447510490bd88904b0d2ae439fcd8557e2862a0",
+      "lastIndexed": 1775486764332
+    },
+    "30_Library/100_zettelkasten/ADHD Brain Wiring vs. Classic Productivity Systems.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1959281e13e6e0a575baad580834f8209cbaeef05bdd5e87f6c089d7a1859388",
+      "lastIndexed": 1775486764518
+    },
+    "30_Library/100_zettelkasten/A Supportive Environment is Critical for Inspiration.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "077ef44a8333214ccf09386fbfb3b117e07003b1da736790212e74078ee4396f",
+      "lastIndexed": 1775486764658
+    },
+    "30_Library/100_zettelkasten/AAA Framework for Handling Criticism.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e5fc746730126c331ea865a533a38f20738b26cd615e78c6fadc655627a2aa4d",
+      "lastIndexed": 1775486764820
+    },
+    "30_Library/100_zettelkasten/A Shared Family Calendar is a Foundational Tool for Family Organization.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9212dad3e5a6bbdf4c11ac109076563fa486e00264afebb8ed06d433203ae3ec",
+      "lastIndexed": 1775486767151
+    },
+    "30_Library/100_zettelkasten/A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d7c20d98c3fac9da69be7f193b0704d1abb1016e32253ccedfb1002f4eddb2af",
+      "lastIndexed": 1775486767151
+    },
+    "30_Library/100_zettelkasten/A Goals-First Mentality Restricts Happiness.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6d4aceb8fce71227732d82c27c09e8d42759c8669e0af08618e2d745fd8cd121",
+      "lastIndexed": 1775486767374
+    },
+    "30_Library/100_zettelkasten/A Project Story Tracks a Project's Evolving Vision.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1d1fc2f2057e965ba683058ac82289d83fcefdc3f712a9dab2b2df14f5a8439f",
+      "lastIndexed": 1775486767481
+    },
+    "30_Library/100_zettelkasten/A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "47a78046ddb0ce6411c6bb0fe14199c8946477e35628ad736e004738e7559599",
+      "lastIndexed": 1775486767894
+    },
+    "00_Inbox/Network Topography & fitConnectHosts.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e68b121706646b667f6d960ca212b419d8cbe5d24d1dec3bbeb15c326269f90f",
+      "lastIndexed": 1775486770220
+    },
+    "00_Inbox/mkuh.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "804de9cc39bb545e3cffd0abc1f2c90c7db25db66991880966eafc1079501e66",
+      "lastIndexed": 1775486770272
+    },
+    "30_Library/100_zettelkasten/A Car Mechanic Versus an Engineer Is a Strong Analogy for the Two Views of Maths.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "fec52aa516efb28e67b1a392e5299589742804bc6260fd5236afaccdd8ea8808",
+      "lastIndexed": 1775486770273
+    },
+    "01_journals/Dailies/2026-04-06.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5a800d91149cf6d377e348a6ade9ab40496ce2a6f318fe511ebc44f8e854f8fb",
+      "lastIndexed": 1775486770536
+    },
+    "30_Library/100_zettelkasten/A Future Self Brief Aids Reconnection with a Project's Thought Process.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "003fe0f31128cd4af3efea229260c52efbabd503f86e37f9a02478d555cfb5a0",
+      "lastIndexed": 1775486770985
+    },
+    "01_journals/Dailies/2026-04-02.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5de42e9720f248a5731721a7b2a0f0466dd987bc488982d811f45d933490e94a",
+      "lastIndexed": 1775486773395
+    },
+    "01_journals/Dailies/2026-04-01.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f5ce957213eded5d0189b5826b20b24144cdd5c66b41de7d61fa90328089e2c1",
+      "lastIndexed": 1775486773610
+    },
+    "01_journals/Dailies/2026-04-04.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d089b809c741d48d62011ed888b57444be9c91942037bfe6e2d109a79ae7e0e3",
+      "lastIndexed": 1775486773620
+    },
+    "01_journals/Dailies/2026-04-05.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f1b2dd67c2569b1fcd5e23f4a40a53a9a633fef9073cf843ecf802feae42e6ef",
+      "lastIndexed": 1775486773781
+    },
+    "01_journals/Dailies/2026-04-03.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "30c835e2c0a0566e3194712e4e4a2927b0f20b1e67d127adcc32dfd7aa0ddc43",
+      "lastIndexed": 1775486774114
+    },
+    "01_journals/Dailies/2026-03-29.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f2a19b4a10694849b14120968162511af3c070ee668ba3dfc271f7d012581ac1",
+      "lastIndexed": 1775486776677
+    },
+    "01_journals/Dailies/2026-03-28.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "31bd0c3d53cfc1cc94af2bdef123c848b71ef8e315c45e70b5abed0b20460303",
+      "lastIndexed": 1775486776678
+    },
+    "01_journals/Dailies/2026-03-30.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8ddd70bbe4004d90e49c6ca67a69d48d887e8802ea2d7fbb11d3578e5f292f76",
+      "lastIndexed": 1775486776782
+    },
+    "01_journals/Dailies/2026-03-27.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b65ad8d98adac31d9e674b4f30322bc13fa9060a16f0c12e1c3e25c103c1acb6",
+      "lastIndexed": 1775486776823
+    },
+    "01_journals/Dailies/2026-03-26.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "fe31790f6a4773fce7e485924ff8520243aaa740014e1625295f7b5b53d54b5f",
+      "lastIndexed": 1775486857744
+    },
+    "01_journals/Dailies/2026-03-21.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "72eb3dc8ec912ca06b12274df56f6a5f170e70538ab69f345a9d3ef9a61af112",
+      "lastIndexed": 1775486857815
+    },
+    "01_journals/Dailies/2026-03-23.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e6e0e1c9455df909cb85b695758737dd81a70f484121dc604fcc9a242b5fe610",
+      "lastIndexed": 1775486858016
+    },
+    "01_journals/Dailies/2026-03-20.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e4659aab6a055136611a2d884a72b63d2a903d8e5fad38decf1b472c5e356464",
+      "lastIndexed": 1775486858057
+    },
+    "01_journals/Dailies/2026-03-25.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "13501000d741be9842a73ee90ccb0e6a716939b8255481a1d52c913582a7f885",
+      "lastIndexed": 1775486858231
+    },
+    "01_journals/Dailies/2026-03-19.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "185f8ff8086f3f57122f9113e21ff87df17edb448543f68cb118948603197fad",
+      "lastIndexed": 1775486860494
+    },
+    "01_journals/Dailies/2026-03-15.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "590d3e405ad6f68dc5e6e2cc898d0122f8ffc9a7d7f3f0ffc316873c33c9f511",
+      "lastIndexed": 1775486860735
+    },
+    "01_journals/Dailies/2026-03-16.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4eb5343ab046267e973548d3504bf4e7b0606a9724a49b00fca1c5b705643d07",
+      "lastIndexed": 1775486860922
+    },
+    "01_journals/Dailies/2026-03-18.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "17446337d72382d4a1e919e3d5f805740f92d1d0cb886d6614d728f9ede7fe0a",
+      "lastIndexed": 1775486861016
+    },
+    "01_journals/Dailies/2026-03-17.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9555c6986dab4084140cbadc9495c96e96241617021115ba02a708bc69c915ff",
+      "lastIndexed": 1775486861772
+    },
+    "01_journals/Dailies/2026-03-12.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b6da2859462ea11b6ece6ee9d77ee00488a977d78233c0fd381669b947442b56",
+      "lastIndexed": 1775486864222
+    },
+    "01_journals/Dailies/2026-03-13.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "00b7ad8a9e92133cc50965d42a4c0e28322b6fddc6c504c6e8b4feb207dd0681",
+      "lastIndexed": 1775486864543
+    },
+    "01_journals/Dailies/2026-03-10.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "10c731109c5dd0af2184926573c8ba378fec62eff78324ecad92cc2420b5000e",
+      "lastIndexed": 1775486864641
+    },
+    "01_journals/Dailies/2026-03-11.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f490b5372853fd837e7dc9268c4d089119ff30bc0055e65ec4ec07cabc03f476",
+      "lastIndexed": 1775486865043
+    },
+    "01_journals/Dailies/2026-03-14.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "04b0f818035fa0a0a137c926f373cacd937e983e5cae8c6b42d8d0a78b709ce7",
+      "lastIndexed": 1775486865143
+    },
+    "01_journals/Dailies/2026-03-05.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2350e30f9e44e0e548f02158e46e2006a6f5c26a3ef2cfbc6704189474de5e56",
+      "lastIndexed": 1775486867507
+    },
+    "01_journals/Dailies/2026-03-06.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3c51e13954b2aac81b290254a3af0e26b3c038313ea5c3753daeb2d3cdc85312",
+      "lastIndexed": 1775486867524
+    },
+    "01_journals/Dailies/2026-03-09.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "010648f890a0145f7226e5bd361b222053ba5ff0b8dae0aaadd4d745e520b6fe",
+      "lastIndexed": 1775486867640
+    },
+    "01_journals/Dailies/2026-03-07.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d3640643e21890cfad8897946150806c9b1d5966d2816c5fcb4f95a9696de085",
+      "lastIndexed": 1775486867770
+    },
+    "01_journals/Dailies/2026-03-08.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a0cb2cacec38811ba848eed5bc388b1eaf7b2debf1b8c58174e5a847e86cb519",
+      "lastIndexed": 1775486868836
+    },
+    "01_journals/Dailies/2026-03-02.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "effd40409c373f53236ca86676a17ee24ecc6d0c52fc141d7fe04be9c9744a1a",
+      "lastIndexed": 1775486871496
+    },
+    "01_journals/Dailies/2026-03-03.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5665c5dbc328efff2252b72767932558aef5620bc1d1d5533740e4b4a965733d",
+      "lastIndexed": 1775486871505
+    },
+    "01_journals/Dailies/2026-02-28.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d2fff7ae00748cca444614b6aca5f14263faa908fa06b7855fa2eb8013454ef6",
+      "lastIndexed": 1775486871804
+    },
+    "01_journals/Dailies/2026-03-04.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "01d1ac74aaafb3f8ad956629d181a6aea042e03d2856bdb3eca6f3af157defb2",
+      "lastIndexed": 1775486872217
+    },
+    "01_journals/Dailies/2026-03-01.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "776ef6c0be19e0b0e3ed33d61b5dd61b66ccdfb7e37a87309ef349d2ee7797d4",
+      "lastIndexed": 1775486872263
+    },
+    "01_journals/Dailies/2026-02-26.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e92ae88538bd972b57ca1d0a4340f82bf07913b83f35b9482fc78bbd15b2a078",
+      "lastIndexed": 1775486874820
+    },
+    "01_journals/Dailies/2026-02-24.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6ab6c50f953b0a5696367bb5b18d272f5f8cd8b68cf40bafcba15ed1c0a5bb61",
+      "lastIndexed": 1775486874863
+    },
+    "01_journals/Dailies/2026-02-27.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a3ed5417d1fbc9ca58a16dd344b3a66bcbe790d1af51638f4b756ca20e246116",
+      "lastIndexed": 1775486874880
+    },
+    "01_journals/Dailies/2026-02-25.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7c62aa37cc386be90f8b6c7e2404e1213cd6a4a3be7582b5b557f79648471efb",
+      "lastIndexed": 1775486875285
+    },
+    "01_journals/Dailies/2026-02-23.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "76360b8df78fe47437c90e124dc918a9e2381387d92729ef5767c56263633b99",
+      "lastIndexed": 1775486875481
+    },
+    "01_journals/Dailies/2026-02-20.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "590ea39b1503473543fc15043e631148319250ef72465d810aa9015f9368e555",
+      "lastIndexed": 1775486877953
+    },
+    "01_journals/Dailies/2026-02-19.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d238345b6d9604705c2f2a183b32a699ce346efc1056dd213bc9dc3edde223cf",
+      "lastIndexed": 1775486878080
+    },
+    "01_journals/Dailies/2026-02-21.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8263afb36b2c7119e930713eaca1e68c3a64fbff56f58600b1851b1aab033bab",
+      "lastIndexed": 1775486878314
+    },
+    "01_journals/Dailies/2026-02-22.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3ab8b740418b068259e3bc8f802191faad80f5b65cded8d5cf24aab1dfdf0861",
+      "lastIndexed": 1775486878331
+    },
+    "01_journals/Dailies/2026-02-18.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a446d072b6a6147cd6217923ccba20c220bd3eedc5b29702eb9698b5484a3580",
+      "lastIndexed": 1775486878385
+    },
+    "01_journals/Dailies/2026-02-14.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b3d232354043a18aa352db597091e2609a9b81ba208c16435c5b220152430dcb",
+      "lastIndexed": 1775486880942
+    },
+    "01_journals/Dailies/2026-02-16.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a84230c919ec77be068ba2adad48ad17041cef710f61ee3e0cb033643dcdf7d5",
+      "lastIndexed": 1775486880975
+    },
+    "01_journals/Dailies/2026-02-15.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0349b0b9806594cd872b5955442ae659caaa70b4b85e2a0608a54c4227c586e8",
+      "lastIndexed": 1775486881132
+    },
+    "01_journals/Dailies/2026-02-13.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5e5545b39ed112dbdd92668084b9b94816901ab57e0fd48842f0b561fa4dbeff",
+      "lastIndexed": 1775486881140
+    },
+    "01_journals/Dailies/2026-02-17.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "41461447158724de21747f84af53987040b6029013d9264e09b653d732daba66",
+      "lastIndexed": 1775486881140
+    },
+    "01_journals/Dailies/2026-02-02.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4654ca2156af3a44bcf0d9bb0e1dafe9297413d717d249dbf978c94433675eb2",
+      "lastIndexed": 1775486883454
+    },
+    "01_journals/Dailies/2026-02-08.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0425389df7cb882541c5b57adda1f9b3d4603f4e43f3a37a10f41df58076ef21",
+      "lastIndexed": 1775486883533
+    },
+    "01_journals/Dailies/2026-02-10.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "92748264095ed922f651c2675905de826ce2985b6d78712106cd1814531b4b16",
+      "lastIndexed": 1775486883624
+    },
+    "01_journals/Dailies/2026-02-11.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bd934cdc25c6e71f88ed6b0df19e4b1fdcfca67f777b7e3438fc836a74bbd7d5",
+      "lastIndexed": 1775486883644
+    },
+    "01_journals/Dailies/2026-02-09.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "942a1481ece815360dc40b6fdcbf7deb663a43801578c1972345b3708195248b",
+      "lastIndexed": 1775486884613
+    },
+    "01_journals/Dailies/2026-01-08.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2731fcc676c81bbfd07e912808b883aa3424e3fe8080a6cf78e96772f4c4aea3",
+      "lastIndexed": 1775486887041
+    },
+    "01_journals/Dailies/2026-02-01.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5af97f0c8b8904e67d7db87e8c8c3b9b505b17c6e2231006c1c2dd89a967bbab",
+      "lastIndexed": 1775486887377
+    },
+    "01_journals/Dailies/2026-01-31.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "088a02365bffb908499769bfcce66e8582f9651c8defa40787e89d508c2bf2d1",
+      "lastIndexed": 1775486887377
+    },
+    "01_journals/Dailies/2026-01-25.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "84cc0fea7f339005a388790b78443ae096b93938985dd1f18a77cad1f1a2aea7",
+      "lastIndexed": 1775486887377
+    },
+    "01_journals/Dailies/2026-01-29.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1dc4463802445ca1f776dfeedc8aed1e5925539db73868b0601102b97caa87fc",
+      "lastIndexed": 1775486888190
+    },
+    "01_journals/Dailies/2025-12-22.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0aaeb956af35c989a5a9d019e09cb63376d3ae5c6941f2328868f6b339ceca20",
+      "lastIndexed": 1775486890555
+    },
+    "01_journals/Dailies/2026-01-14.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bc1a1611f8821fe8ac3559dcd6cbeb79699436f4b715f7b95d3163e5c6004d4c",
+      "lastIndexed": 1775486890618
+    },
+    "01_journals/Dailies/2025-12-25.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "62218e008b457610fb9913863eda666722cf4b969b3e97d7caa628a215b7a088",
+      "lastIndexed": 1775486890925
+    },
+    "01_journals/Dailies/2025-12-16.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a9e6e8f65e075e908c8c27801fa219b82a5c211cc106a33d30c833d2998eaebc",
+      "lastIndexed": 1775486890960
+    },
+    "01_journals/Dailies/2025-12-23.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "39465eac17b4cbeab48b60c9f89c37e20e678d709c3e498365ed7085051127cd",
+      "lastIndexed": 1775486891781
+    },
+    "01_journals/Dailies/2025-12-06.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "eee9198893b24fd8cf0152dcd99bae0db92b94e4de4a1c9110623407b077ee49",
+      "lastIndexed": 1775486894341
+    },
+    "01_journals/Dailies/2025-12-20.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9ea503d1707f257843a809f2afcb3d66ebc0de4a844de48f6632e49c8a54a380",
+      "lastIndexed": 1775486894343
+    },
+    "01_journals/Dailies/2025-12-18.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "37ce488b2b3f923c64e0242b7a1b73e94143dda1850d603f5803d8251be7d4c9",
+      "lastIndexed": 1775486894346
+    },
+    "01_journals/Dailies/2025-12-21.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "917b1ce581d6f1e70fbafd89339ad5a19e49bf49c860666d472f6d968d066c0a",
+      "lastIndexed": 1775486894801
+    },
+    "01_journals/Dailies/2025-12-19.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "07fca714d4751731b97dc1d9963b5e035f9cb3c59a31249a11907c53a6d6f8c6",
+      "lastIndexed": 1775486894914
+    },
+    "01_journals/Dailies/2025-11-21.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bbfc248b1250be3598db05b57f3a94a63b16909646fdbd333ecb9dcf7d09c7f0",
+      "lastIndexed": 1775486897205
+    },
+    "01_journals/Dailies/2025-12-02.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0ca421839924e39bc5f2c8750eebf4992dc88201062eb788abed5e154b16d95a",
+      "lastIndexed": 1775486897513
+    },
+    "01_journals/Dailies/2025-11-27.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c33b230111e59df40d6d4c6d2d8700d77e20efd104d5fe7143e400cb6354a7c3",
+      "lastIndexed": 1775486897514
+    },
+    "01_journals/Dailies/2025-11-22.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "57aa86f15016e4b2a737bef27fb103be3d8b9401fab2cbcfbc801b769ca07936",
+      "lastIndexed": 1775486897514
+    },
+    "01_journals/Dailies/2025-11-28.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "656be96006798c346bf4c08f94391ccb12fc9e06ca84ac22cd11f340a8df2626",
+      "lastIndexed": 1775486897671
+    },
+    "01_journals/Dailies/2025-11-12.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3140c6594851ce18d3a28131693d7a6fc196c1a66dc09b754b9aeb28d720ba94",
+      "lastIndexed": 1775486899912
+    },
+    "01_journals/Dailies/2025-10-31.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3a09e33fcdeb580cd96fd01098d1fdef0bccaa13db089745a954efe3a206eda3",
+      "lastIndexed": 1775486900106
+    },
+    "01_journals/Dailies/2025-11-11.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8cecb4f374df51b8a3266529755e22ad5ad3dfa082febe564a762197ed9e31b9",
+      "lastIndexed": 1775486900278
+    },
+    "01_journals/Dailies/2025-11-20.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "41befd86123dba941b0ed7937c616de9c2331c6bdd1119f0cc884bb62ccae730",
+      "lastIndexed": 1775486900695
+    },
+    "01_journals/Dailies/2025-11-09.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e040c6ab1a0cd0ed256cd66ff0f56cfa3c3040a8ad6388b6d2b32a039528c394",
+      "lastIndexed": 1775486900717
+    },
+    "01_journals/Dailies/2025-10-25.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ddc3898340b02a0c6a3ba999e1cdeb4c1577c1b8849e6954a7dce34fc8284af9",
+      "lastIndexed": 1775486903247
+    },
+    "01_journals/Dailies/2025-10-02.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "37e6a0923d60b105e894c00f2b53837e5109f6dfc7d75ad13aa0b33c6de04776",
+      "lastIndexed": 1775486903259
+    },
+    "01_journals/Dailies/2025-09-09.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7385979bc9f880f07cdf47152fae7dad399e78c968c86b035d96a6e5d6fd4ae5",
+      "lastIndexed": 1775486903307
+    },
+    "01_journals/Dailies/2025-09-08.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3dbeaa75192de7f34afc44d13e6f6732af67a2a978da929f216099bde2cc559f",
+      "lastIndexed": 1775486903407
+    },
+    "01_journals/Dailies/2025-10-01.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d2f053c7f45202dcadcc4bb6f908c4d574c6b05dc2df85cd0cbf0c2bb7b5d90f",
+      "lastIndexed": 1775486903560
+    },
+    "01_journals/Dailies/2025-08-29.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "43f746db8f7caeb4ea670fc2ac0a0abf63a14eb15a8805226b7831e0c654500d",
+      "lastIndexed": 1775486905951
+    },
+    "01_journals/Dailies/2025-08-01.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "988d2480d54760ac513b085dc9d80c74e5a0ea44eee0f9cfdc6204dbf9faf11b",
+      "lastIndexed": 1775486905998
+    },
+    "01_journals/Dailies/2025-09-01.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "efa2ff0893332306bea47aea01ea7b71b1b97be4237d8d4a180e245d2a929bd8",
+      "lastIndexed": 1775486906028
+    },
+    "01_journals/Dailies/2025-08-28.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1f0fb0c5d27b1b88688de18046e5e59685748dfdc203f11342a56d5f4adb24b9",
+      "lastIndexed": 1775486906283
+    },
+    "01_journals/Dailies/2025-08-02.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "180483bd2387a98bc528722a4333f42020b67e49617467bac77c08bb9cc1c7f0",
+      "lastIndexed": 1775486906356
+    },
+    "01_journals/Dailies/2025-07-31.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f8d1fcae9457c6507a972519b59f2570330d408e863acc3a7e68fe8fdd32c3fb",
+      "lastIndexed": 1775486908621
+    },
+    "01_journals/Dailies/2025-07-01.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1c68bcac2e91895b18c8d0b024ebc162ce6ac155da19e5deb5ab0d8efc3ceff0",
+      "lastIndexed": 1775486908928
+    },
+    "01_journals/Dailies/2025-06-20.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "62081e8dc422b5d44e602488345b5b82eb4c4f66bb10f5a7f38d2a442c75dd44",
+      "lastIndexed": 1775486908928
+    },
+    "01_journals/Dailies/2025-07-30.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "00ee02a8f3b5084a5fe4e8e3a57173d9799085c0da7d80df9d4b8786c7392443",
+      "lastIndexed": 1775486908959
+    },
+    "01_journals/Dailies/2025-07-13.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6e7eb69dd0ea2e38ae2606cbfdde6b954502b368420c319d671e3b3aeed5c3b6",
+      "lastIndexed": 1775486909492
+    },
+    "01_journals/Dailies/2025-06-13.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1da549c1cdd12f2d93fc72c0b2234229a37c019a1b1934df601e9aa7498934e1",
+      "lastIndexed": 1775486911951
+    },
+    "01_journals/Dailies/2025-06-09.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c5be130fdedf58d479c51645ed17fefad4f71c3dc0830ef9c8adf42627cfc954",
+      "lastIndexed": 1775486911952
+    },
+    "01_journals/Dailies/2025-06-19.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9883fc109834d5cca1f737dfbcb80e56e550f7b629dc31afbfec15da8af7161c",
+      "lastIndexed": 1775486912108
+    },
+    "01_journals/Dailies/2025-06-11.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ec12d4b2cd86ccbb33eef22559d90d37adb76d013d0a7a272ee59644da08df27",
+      "lastIndexed": 1775486912126
+    },
+    "01_journals/Dailies/2025-05-02.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a718547c9c5535cae7dd36cdbbaf16bdfe5bb6faf571a786740eadfa3833bfc8",
+      "lastIndexed": 1775486912159
+    },
+    "01_journals/Dailies/2025-05-25.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7a907480ff52c073346ac4a906aaa7ed002d9acb7e5df1b669a64bc3acbe2121",
+      "lastIndexed": 1775486914517
+    },
+    "01_journals/Dailies/2025-06-02.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7bba2b4079258c89336cc7c3ffb30ec781a2438e93fd745a2ca6a4092845b73d",
+      "lastIndexed": 1775486914517
+    },
+    "01_journals/Dailies/2025-06-07.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "54bbb0ec88510a65f964050b4fa2db832c4ba87356e7d58d1c21cc3cc1b12f3a",
+      "lastIndexed": 1775486914517
+    },
+    "01_journals/Dailies/2025-06-05.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6c57b374fbb9347388e4bf2cca08dcff10529722344c2f4a9e06af904a52f251",
+      "lastIndexed": 1775486914518
+    },
+    "01_journals/Dailies/2025-06-01.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "910ae4a8394e369a0fc3399dc8975da5de4e087c3b53f1aa334eac46477a412e",
+      "lastIndexed": 1775486914874
+    },
+    "01_journals/Dailies/2025-05-17.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "982cc6de278b1b507a58923e070c6c8dab426fb9188330d8ffe60261cca8d65b",
+      "lastIndexed": 1775486917192
+    },
+    "01_journals/Dailies/2025-05-23.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "38dc65d4fdd211319c1f6ff451c0ccb07cc85aabf3cd7382779e1bdcc5b0f351",
+      "lastIndexed": 1775486917202
+    },
+    "01_journals/Dailies/2025-05-18.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "291a32adb9292d6d74d9d2cf9db310ed3d5f9ab24b268f7d7cdb2a4e197ca2df",
+      "lastIndexed": 1775486917592
+    },
+    "01_journals/Dailies/2025-05-16.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8f0e86955b02ba09dc6bc9f48a500474f200dfc8f51170ac10245858dd7b5cf7",
+      "lastIndexed": 1775486918503
+    },
+    "01_journals/Dailies/2025-05-20.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "057f26677809c31dc020e15986ed9969b3a3d397e869ef38fa1448d97585f15a",
+      "lastIndexed": 1775486941167
+    },
+    "01_journals/Dailies/2025-05-15.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "539d02d2ffe9c86878949cfd8ebccdfb2bcd25c9ab6628bc5d2de76122389159",
+      "lastIndexed": 1775486943553
+    },
+    "01_journals/Dailies/2025-05-13.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c921d3d0446adacf96022b30e15d92d883b9ffdf1d7ad17b74dd80537fc3d863",
+      "lastIndexed": 1775486943748
+    },
+    "01_journals/Dailies/2025-05-09.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ae3369e52255b938e8ca8ebbfa9319d4ce22a792eab3475b0a293a960dd02857",
+      "lastIndexed": 1775486943879
+    },
+    "01_journals/Dailies/2025-05-14.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "20dc8cd30e59139cfc89e6b7e6d662140415a3ed1b8773593d264e72259815fa",
+      "lastIndexed": 1775486944059
+    },
+    "01_journals/Dailies/2025-05-06.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "10c56d306e1a6e671b8ed1da03a18a8d049e3a8506449d90019a4accba2a8303",
+      "lastIndexed": 1775486944153
+    },
+    "01_journals/Dailies/2025-04-21.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bb96e5d2de7a54c79df4cf0fbdf5290f3ee78c6334c147b729bdc2533537b6bf",
+      "lastIndexed": 1775486946666
+    },
+    "01_journals/Dailies/2025-04-30.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "58611da833f9b2984120fb5dc8aa77bff573b18938b979ef09a9b8178657274f",
+      "lastIndexed": 1775486946666
+    },
+    "01_journals/Dailies/2025-05-03.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "775dc7ae3a80c90fe50cc0310058b3aa28e057a417ffaacc5253e8639cdf13ca",
+      "lastIndexed": 1775486947308
+    },
+    "01_journals/Dailies/2025-03-09.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "89abddb9feb3d207c8ce32d160ab066ee4714c69667ce37bae689660baaf5bb6",
+      "lastIndexed": 1775486947344
+    },
+    "01_journals/Dailies/2025-04-23.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c795d07c32e0fff5076270a63ebd5a2ab1780f1dd21b09fc79979807f94a56d8",
+      "lastIndexed": 1775486948917
+    },
+    "01_journals/Dailies/2025-02-28.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "da060106d89bfe314397bdf6d3ed126f3e9b82be773704a94319bc4fd3769a8d",
+      "lastIndexed": 1775486951293
+    },
+    "01_journals/Dailies/2025-03-18.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "36b8ccc9b0ef954cee8bd91affe57cbf1e7a587f9f685ee943cd629dd85a6c9c",
+      "lastIndexed": 1775486951326
+    },
+    "01_journals/Dailies/2025-04-13.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "42854e6e034d2e0460741f725f906fd689ef95aa1148b7f680561914968564b7",
+      "lastIndexed": 1775486951556
+    },
+    "01_journals/Dailies/2025-04-12.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ef6703969a382084a4544b2db43d7b6a7354028796f553e66e6395ab96209661",
+      "lastIndexed": 1775486951584
+    },
+    "01_journals/Dailies/2025-04-04.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "62f4b1798db26fcba49ba0cf770887d1396957e034bd1db3d5f6cc5cdc701934",
+      "lastIndexed": 1775486952000
+    },
+    "01_journals/Dailies/2025-02-25.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4f83cf648f7e16a9e5ac5d6b9b315646e88a20bf4623a640b29617cca8e9a07a",
+      "lastIndexed": 1775486954418
+    },
+    "01_journals/Dailies/2025-02-27.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1feb4d122caa6b2d923ea68d585417ce120bb941c04ca183af84415349678efd",
+      "lastIndexed": 1775486954453
+    },
+    "20_Thinking/Thinking Dashboard.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "df7befdca7977c421a7b70319a1b8b22bcd7c0dad5854e11ded7527e43fcb98a",
+      "lastIndexed": 1775486954546
+    },
+    "01_journals/Dailies/2025-02-21.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "52d38de7be5caca1f4b4c5e253c74b9cd93cfd47d57359f7b1a77ee7a58c1662",
+      "lastIndexed": 1775486954960
+    },
+    "10_System/templates/daily.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6ded2a71fe0c465dc6a81972dbeef6382638e78e33d475a4eb1e361ceeb84f41",
+      "lastIndexed": 1775486954995
+    },
+    "10_System/templates/HEAD_note template.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "169599b6abbff5633d7d36b774c96fabe7e72679ad4c25499c0b1566c5b076ac",
+      "lastIndexed": 1775486957312
+    },
+    "10_System/prompts/prompt - DevOps Knowledge Architect.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6722c81e8139ce0165b1b01b9d5c863d7d047bf07700c3fa500b588dacb544f6",
+      "lastIndexed": 1775486957574
+    },
+    "10_System/prompts/sys_merger.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "63d373450b9dee7b8b020d240d1d7a0700d17a25ffd40fd146014b08d78b6f79",
+      "lastIndexed": 1775486957679
+    },
+    "10_System/templates/Daily-Mindmap-Template.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a7be71063476116213c2c8e25dca3807af82e5dc24d379c19eb64ffa35c0ed1b",
+      "lastIndexed": 1775486957733
+    },
+    "10_System/prompts/leon-context-project-prodos.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6f1e38f9d0b28a6710aa87315f900d7e1afa5abce506f61d0d6867ff3e397cef",
+      "lastIndexed": 1775486957770
+    },
+    "10_System/prompts/leon-context-core-profile.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7dc4f7a8f72d8d90abfeccec6d14d49e558547dcc780e4e13e3a9060b0bde6da",
+      "lastIndexed": 1775486960215
+    },
+    "10_System/prompts/leon-context-pkm-philosophy.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bd2b6878280703022e0af35d1831e8ab359ea7878e9d563f1e6359e8ed1eb3bb",
+      "lastIndexed": 1775486960358
+    },
+    "10_System/prompts/jira_ticket_prompt.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0aff3490b70d2c3cb224b0b272a766b95657320df97bda26e48273a68ad715c9",
+      "lastIndexed": 1775486960496
+    },
+    "10_System/prompts/leon-context-dev-environment.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d4ace8087602fbf0609baede04e25bfc61b0650d9ad1d1e381b58f23e2db2950",
+      "lastIndexed": 1775486960612
+    },
+    "10_System/prompts/leon-context-health-profile.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8b5a0937707d4a193fd2b90aeccb33afbfb8eb016d26e82cef3117613c89df03",
+      "lastIndexed": 1775486960630
+    },
+    "10_System/prompts/leon-context-cloud-architect.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5fa7fa145964f40da1063f805ca14a30d9ef92d01cc1c05e6e9fdd38e527220d",
+      "lastIndexed": 1775486962893
+    },
+    "10_System/prompts/Prompt - ProdOS MoC Cartographer.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1a72565bf2647abab8b667674fcb4c6a6f6149db291f58287b4a453705d82f41",
+      "lastIndexed": 1775486963107
+    },
+    "10_System/prompts/Prompt - ProdOS Protocol Architect.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f430c5fff2669216d9468937fd8d33fb0935f9feb181a43afac50aa650c47a59",
+      "lastIndexed": 1775486963153
+    },
+    "10_System/prompts/Thoughtful Action Partner.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4ca4a2875de8149163bfbc1c86effb8a3be65b827fa71c6b2fc7064ab1e266a8",
+      "lastIndexed": 1775486963327
+    },
+    "10_System/prompts/git commit prompt.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "77cbe0cb636b4771ce18fb17ed30778cbccfcfcf57a1eac61e4bbe3351f717df",
+      "lastIndexed": 1775486963884
+    },
+    "10_System/prompts/Prompt - Data-Centric Coding Assistant.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c7096ed8b8a308a1f339969c7c120024a608a2933158117f29cb4ca2fd68d37e",
+      "lastIndexed": 1775486966280
+    },
+    "10_System/prompts/LLM GTD Context.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "54a7ec76424f89b722e35fef6d10fcc64f84b6907aaf45e09199c7e8e09a8914",
+      "lastIndexed": 1775486966286
+    },
+    "10_System/prompts/Knowledge Harvesting & Normalization Agent.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b210e6b39a59c5f65b47722dea93776e0c59a4b48b1219706ed3aa7d360e20d3",
+      "lastIndexed": 1775486966865
+    },
+    "10_System/prompts/Prompt - ProdOS Chronos Synthesizer.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "807db2b4489f1386a6d9a542a5b0b132c0cbcc1f7a831cf46d06b06728f65a94",
+      "lastIndexed": 1775486966899
+    },
+    "10_System/prompts/Project Naming Clarifier Prompt.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "626018a21ca77563c84f061b090a54e4f60735674eec2bac9ebd198c0746138d",
+      "lastIndexed": 1775486967254
+    },
+    "10_System/prompts/Knowledge Consolidation Agent.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "37bb79d2a86e10f41c3a29309d827e04dea410eda10ceba6d2385c1f117740d2",
+      "lastIndexed": 1775486969569
+    },
+    "02_bases/All Tasks.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d17556f2ad9af3661b34ff1fde89f4fb6467bf2be789c4fe7e40bbeefb1a2c3d",
+      "lastIndexed": 1775486969598
+    },
+    "02_bases/HEAD - Unprocessed daily.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "36b486d1c8d05bf4391a73af5a7aec00a3ab2fbd25e3a48150fd449b20db34f8",
+      "lastIndexed": 1775486969681
+    },
+    "10_System/prompts/CV Refinement Prompt.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "78b826afc57e5dcafcad91dffe86eaf03a014a6fdebef163b2fbc63c71e23950",
+      "lastIndexed": 1775486970120
     }
   },
-  "indexingInProgress": true,
-  "indexingStartedAt": 1775485361099,
-  "lastIndexedFile": "30_Library/100_zettelkasten/Long-Term Potentiation (LTP) is a Key Cellular Mechanism for Learning.md"
+  "indexingInProgress": false,
+  "lastIndexedFile": "10_System/prompts/CV Refinement Prompt.md"
 }
