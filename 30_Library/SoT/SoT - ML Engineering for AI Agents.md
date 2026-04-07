@@ -34,6 +34,8 @@ A persistent ML agent should maintain state across conversations:
 - Experiment Log: Avoid repeating failed experiments by checking past results.
 - Battle-Tested Defaults: Cite verified defaults for frameworks like vLLM, DeepSpeed, or LangChain.
 
+*Note*: This is a domain-specific instance of the [[SoT - LLM Wiki Pattern]] — the Experiment Log is the "wiki layer" for ML engineering, maintained by the agent across sessions rather than rediscovered on each query.
+
 ### 3. Knowledge Grounding (Leeroopedia)
 
 Agents should use MCP tools to look up documentation in real-time and cite their sources.

@@ -1,6 +1,6 @@
 ---
 created: 2026-02-09T17:00:00+00:00
-modified: 2026-04-02T11:00:00+00:00
+modified: 2026-04-06T20:04:19+00:00
 tags: [architecture, azure, entra, identity, SoT]
 title: SoT - Microsoft Entra Application Model
 ---
@@ -9,26 +9,27 @@ title: SoT - Microsoft Entra Application Model
 
 Microsoft Entra ID (formerly Azure AD) separates the definition of an application from its instantiation to support multi-tenancy.
 
-> **One-Sentence Summary:** Application Registrations define apps; Service Principals run apps inside tenants.
+> One-Sentence Summary: Application Registrations define apps; Service Principals run apps inside tenants.
 
-- **Application Registration (The Blueprint):** The abstract definition. Defines _what_ the app is (Client ID, Redirect URIs, Scopes). Lives in the home tenant only.
-- **Enterprise Application / Service Principal (The Instance):** The runtime identity. Defines _how_ the app behaves in a specific tenant (User Assignment, Conditional Access, Consented Permissions). Lives in every tenant where the app is used.
+- Application Registration (The Blueprint): The abstract definition. Defines _what_ the app is (Client ID, Redirect URIs, Scopes). Lives in the home tenant only.
+- Enterprise Application / Service Principal (The Instance): The runtime identity. Defines _how_ the app behaves in a specific tenant (User Assignment, Conditional Access, Consented Permissions). Lives in every tenant where the app is used.
 
 ---
 
 ## 1. The Core Data Structure
 
 ### The Rule
+
 Every Enterprise Application (Service Principal) points back to exactly one Application Registration. One Application Registration can have many Service Principals (one per tenant).
 
 ### Why Entra Splits Them (Operational Concerns)
 
 | Concern | Responsibility | Target Object |
 |:--- |:--- |:--- |
-| **App Design** | Blueprint, OAuth2 Scopes, Roles, Manifest | **Application Registration** |
-| **Identity Control** | Users/Groups, MFA, Conditional Access | **Service Principal** |
-| **Permissions** | *Requesting* API access (Scopes) | **Application Registration** |
-| **Permissions** | *Granting* Admin Consent | **Service Principal** |
+| App Design | Blueprint, OAuth2 Scopes, Roles, Manifest | Application Registration |
+| Identity Control | Users/Groups, MFA, Conditional Access | Service Principal |
+| Permissions | _Requesting_ API access (Scopes) | Application Registration |
+| Permissions | _Granting_ Admin Consent | Service Principal |
 
 ---
 

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1775487268531,
+  "lastSync": 1775549439612,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -40,8 +40,8 @@
     },
     "30_Library/SoT/SoT - Agentic AI Design Patterns.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "67baaaa6b0b045506593e1f58098daf9e94d2a81a30bd1a43d9452001f06a6cc",
-      "lastIndexed": 1775485446527
+      "contentHash": "e04a6abc2070541a8ce42755af84668018fc8b75b0ecbb0db6909f7df02b7c00",
+      "lastIndexed": 1775496733530
     },
     "30_Library/SoT/SoT - Zero Trust Architecture.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -155,8 +155,8 @@
     },
     "30_Library/SoT/SoT - Think Like a Man of Action, Act Like a Man of Thought.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "92e8a2b852d788dd59ceba635fe30fa2c094ea17e3aa4441f701c752a1a0b378",
-      "lastIndexed": 1775485541314
+      "contentHash": "47b818e7a00f9f938f16f77c0e970e4dae413b240a1b2f1231bea3960e4a9901",
+      "lastIndexed": 1775548058529
     },
     "30_Library/SoT/SoT - Transactional Analysis in the Workplace.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -380,8 +380,8 @@
     },
     "30_Library/SoT/SoT - Temporal Management (Blocking and Boxing).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "ead8b55d9626eae10750c2087555c2aae53f5bc9a52bb9418808d3ca74e403d1",
-      "lastIndexed": 1775485572981
+      "contentHash": "545789cf14e530abd2c10576582c9e5ad665a59639bef8519c44b5e301e2bd3a",
+      "lastIndexed": 1775549083020
     },
     "30_Library/SoT/SoT - System Incompleteness and Meta-Systems.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -810,8 +810,8 @@
     },
     "30_Library/SoT/SoT - Microsoft Entra Application Model.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "ee604798e32eecd10d9bbb32365b61724421846d2af9fdfb07811cce66ad850e",
-      "lastIndexed": 1775485630902
+      "contentHash": "fa4689379a5054984efce9553a308b72bd56301654690db8f7e80dd43af82489",
+      "lastIndexed": 1775507198011
     },
     "30_Library/SoT/SoT - Metabolic Tooling Configuration.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -845,8 +845,8 @@
     },
     "30_Library/SoT/SoT - ML Engineering for AI Agents.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d4d1a30f406d54a2f9c1d68a67e39797c1c0e1b42391800768f305b2292f9c66",
-      "lastIndexed": 1775485696273
+      "contentHash": "7289243e141395ae02694229d5f5a4ce38d53e39af3ff7d8c8f27133c6153058",
+      "lastIndexed": 1775496745473
     },
     "30_Library/SoT/SoT - Macro-Micro Unification.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -1525,8 +1525,8 @@
     },
     "30_Library/SoT/SoT - AI Agent Skill Architecture.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c6d8fad08b4a01075f63869480590e5657591ad2b8d83b8973f690c58d3caa9e",
-      "lastIndexed": 1775485781632
+      "contentHash": "56c99ef047c34188642eedb9f589e0be0638d29f3f144d2be7e50c4daf6a6cab",
+      "lastIndexed": 1775496422974
     },
     "30_Library/SoT/SoT - ADHD Self-Compassion & Strengths.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2235,8 +2235,8 @@
     },
     "30_Library/MoC/MOC - AI Software Engineering.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b3b11cd1281b9eaa0e99f062be1d33f41b20e4679947a78b8ccbd0d233fd9a9b",
-      "lastIndexed": 1775485879416
+      "contentHash": "5bd623b0bf9f425cc71ef0fcf7d957bfa94d6088ad38847c1359fc5a85ebccd1",
+      "lastIndexed": 1775496755931
     },
     "30_Library/MoC/Understanding Reveals Cause-and-Effect.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2555,8 +2555,8 @@
     },
     "30_Library/MoC/MOC - ProdOS.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "adf548c211d111907865e91c4386ac5797db3556ddcb0fb1e2f9cc0de8372b92",
-      "lastIndexed": 1775485928191
+      "contentHash": "28d272c4df2df465e845ac4679f9d3fcdb8214b0da4a33dc5ebcbaac47aa109c",
+      "lastIndexed": 1775496513828
     },
     "30_Library/MoC/MOC - Project Continuity.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3293,11 +3293,6 @@
       "contentHash": "c17e4e9db81b590bcec44d550b3f0521daade920f00c1146e6cdc30850f335c8",
       "lastIndexed": 1775486021782
     },
-    "30_Library/200_projects/40_Personal/Family/Bessie/3.3 Eduqas GCSE Film Studies.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "648061ce446d457a2dd3155a018ff8202fc9fb7356b5631f2e09d081f69ee00c",
-      "lastIndexed": 1775486024238
-    },
     "30_Library/200_projects/40_Personal/Family/Bessie/4. REVIEW Monitor Progress and Adapt Support.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "19e22f81058fe1b2e404b8e70d459e8040e844e9c27c0ce31bf24cd19b34cf79",
@@ -3432,11 +3427,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "2e406e925fb4beedbd4d8af13fdb39389eb0ac15680e48dfb3f4c46c1c2aaa2c",
       "lastIndexed": 1775486040843
-    },
-    "30_Library/200_projects/10_Infrastructure/k8s/Why kubernetes is a good choice.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "80a9590683c84c97a09aaa3dd10b918d6f2f62bcee83f799a1e48776acf17a64",
-      "lastIndexed": 1775486043392
     },
     "30_Library/200_projects/10_Infrastructure/k8s/Research the latest versions of the Kubernetes ser.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3623,11 +3613,6 @@
       "contentHash": "fc86fb4144d73f96be0565dc234999e96c3f98d1f25166d6a4f22e055d3d3c9e",
       "lastIndexed": 1775486065955
     },
-    "30_Library/200_projects/10_Infrastructure/Networking/VPC Lattice Service Network.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f63b7be37be91118d2fbd3152609d4c8d015d3c23e6404a938b4533159fa4b88",
-      "lastIndexed": 1775486066142
-    },
     "30_Library/200_projects/10_Infrastructure/Networking/Show a minimal end-to-end example of data encapsul.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "db5ef5d37b8cedeb1b98c9c1f3f39bf91db6730803f3a07accfa688c91586e01",
@@ -3637,11 +3622,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "f55b6451c328e99f5aaf0399213c29afde183fc0d1dcef3f2c4189e9576b5024",
       "lastIndexed": 1775486068580
-    },
-    "30_Library/200_projects/10_Infrastructure/Networking/Networking thoughts.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9849275dbeedd28a0c5fff659559b7ceca300fc44a8034ef9176ba9292f3c2d5",
-      "lastIndexed": 1775486068667
     },
     "30_Library/200_projects/10_Infrastructure/Networking/Network Defense   Module 5 Firewall Technologies, Module 6 Zone-Based Policy Firewalls.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8665,8 +8645,8 @@
     },
     "01_journals/Dailies/2026-04-06.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5a800d91149cf6d377e348a6ade9ab40496ce2a6f318fe511ebc44f8e854f8fb",
-      "lastIndexed": 1775486770536
+      "contentHash": "a4d5d4c2b1be81f3ebd6cbc565223a46a0255dbcecefaba27b7dae006be3f850",
+      "lastIndexed": 1775505878184
     },
     "30_Library/100_zettelkasten/A Future Self Brief Aids Reconnection with a Project's Thought Process.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9437,6 +9417,61 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "78b826afc57e5dcafcad91dffe86eaf03a014a6fdebef163b2fbc63c71e23950",
       "lastIndexed": 1775486970120
+    },
+    "20_Thinking/21_Workbench/HEAD You said I am using Auth0 for login in an app. I a....md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5da8d6a1e0dd2ce69b77e402b1c224d4ead72e4b135a87f3ea020078efa8ac95",
+      "lastIndexed": 1775498410811
+    },
+    "20_Thinking/21_Workbench/HEAD You said we use azure entra for our identity withi....md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0966a33cbd7383f053677b379eb85ab4daa5b7b7f089837a9c42277ab2457721",
+      "lastIndexed": 1775495585569
+    },
+    "CLAUDE.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "785460137ab3cab36b47bdd0670617e4405ee5371844ba946c604e9003156162",
+      "lastIndexed": 1775496044082
+    },
+    "30_Library/SoT/SoT - LLM Semantic-Statistical Mismatch.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "07cd04abd0a0bdd64f51a2b9b0ec31fedcf652e5b0fb9a9ca4b8680533a03c90",
+      "lastIndexed": 1775496372169
+    },
+    "30_Library/SoT/SoT - Flow Engineering.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "dfbd691823cf4b6672b4bc3252f9e5285bfbcf1cd5ee7b6c7df6d6274c81e409",
+      "lastIndexed": 1775496404872
+    },
+    "30_Library/SoT/SoT - LLM Wiki Pattern.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e010ed22365271d6609a1c06ba99249deefcf3e157af83ebe03417206824edaf",
+      "lastIndexed": 1775496730216
+    },
+    "20_Thinking/21_Workbench/HEAD - 2026-04-06 1832.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "73fc76feb5e15dde172388762546eaa7999d1520ea2dfbbee3129a32cb12c194",
+      "lastIndexed": 1775496768602
+    },
+    "20_Thinking/21_Workbench/HEAD You said Persona You are an expert research analy....md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "02065c8dddefed066325f018ef4eccf57de81675bb31379aad0666f539a5cf98",
+      "lastIndexed": 1775496941676
+    },
+    "20_Thinking/21_Workbench/HEAD You said Persona You are an expert research analy... 1.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d53c0e87cd6a0a758a3a28e5ead29eb77040a6d5d668251a2d29acf499fcaa44",
+      "lastIndexed": 1775497785318
+    },
+    "00_Inbox/Incomplete Trigger Review from your Long-Term Memory.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1991bf287255b8d7ed613db4727a85efeba73e123a72873def348a1b64ef6004",
+      "lastIndexed": 1775498652983
+    },
+    "01_journals/Dailies/2026-04-07.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "af7ad85421ee8347392278327f5241a2db6ed63c6fecc92667dc73481ddcdcd6",
+      "lastIndexed": 1775549439612
     }
   },
   "indexingInProgress": false,

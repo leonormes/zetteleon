@@ -41,7 +41,7 @@ Agentic AI Design Patterns are modular architectural strategies that move beyond
 - **Exception Handling & Recovery**: Classifying runtime errors to trigger retries, fallbacks, or alerts.
 
 ### E. Quality, Safety & Learning
-- **Knowledge Retrieval (RAG)**: Indexing and retrieving grounded context from document databases.
+- **Knowledge Retrieval (RAG)**: Indexing and retrieving grounded context from document databases. *Limitation*: standard RAG is stateless — nothing accumulates across sessions. See [[SoT - LLM Wiki Pattern]] for the stateful evolution of this pattern.
 - **Learning & Adaptation**: Collecting feedback and outcomes to update system prompts or policies.
 - **Evaluation & Monitoring**: Using quality gates and test suites to track performance drift and regressions.
 - **Guardrails & Safety**: Sanitizing inputs (injection detection) and moderating output risk.

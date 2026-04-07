@@ -2,8 +2,8 @@
 aliases: [AI Coding MOC, LLM Engineering Map]
 created: 2026-01-30T08:00:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-04-04T12:00:00+00:00
-synthesis-count: 2
+modified: 2026-04-06T18:00:00+01:00
+synthesis-count: 3
 tags: [ai-engineering, map-of-content, moc]
 title: MOC - AI Software Engineering
 type: map
@@ -35,6 +35,18 @@ The regression of an LLM to its training mean. Prevented via **Meta-Context (The
 ### 4. The Curator (The "Problem Definer")
 The shift from "Generating Code" to "Curating Context." The human value migrates to **Context Engineering**—framing the right problem and curating the information environment.
 - See: [[SoT - AI-Resilient Task Taxonomy (Human 3.0)|The Four Resilient Roles]].
+
+### 5. The Anthropomorphism Trap
+The fundamental category error of treating a probabilistic token-prediction engine as a cognitive agent. Human-centric instructions ("write clean code", "use TDD") are statistical filters, not cognitive directives — they produce structural mimicry of methodology, not execution of it.
+- [[SoT - LLM Semantic-Statistical Mismatch]] — The epistemological foundation.
+
+### 6. Flow Engineering
+The architectural response to the Anthropomorphism Trap: enforce all workflow constraints (gates, state, feedback loops) through a deterministic orchestration layer, reducing the LLM to a stateless single-task text transformation function.
+- [[SoT - Flow Engineering]] — Pattern, implementation, and TDD case study.
+
+### 7. The LLM Wiki Pattern
+Standard RAG is stateless — nothing accumulates. The LLM Wiki Pattern flips this: the LLM maintains a persistent, structured wiki as a middle layer between raw sources and queries. Knowledge compounds across sessions instead of being discarded. This vault implements this pattern via ProdOS.
+- [[SoT - LLM Wiki Pattern]] — Architecture, three core operations, and ProdOS isomorphism.
 
 ---
 

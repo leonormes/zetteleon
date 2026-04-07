@@ -72,3 +72,5 @@ An agent only activates a skill based on its description. Vague descriptions (e.
 
 - [[Protocol - Action-First GTD (LLM Chief of Staff)]]
 - [[SoT - Gemini CLI Operations & Workflow]]
+- [[SoT - Flow Engineering]] — Pattern B is an instance of this broader orchestration discipline
+- [[SoT - LLM Semantic-Statistical Mismatch]] — Why Pattern B (scripts for deterministic tasks) is necessary
