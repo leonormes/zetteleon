@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1775549439612,
+  "lastSync": 1775554275923,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9470,8 +9470,13 @@
     },
     "01_journals/Dailies/2026-04-07.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "af7ad85421ee8347392278327f5241a2db6ed63c6fecc92667dc73481ddcdcd6",
-      "lastIndexed": 1775549439612
+      "contentHash": "64102bac52399a83d8f173fe0ff5352d7d30322bd9c5783c222c09b205af30ba",
+      "lastIndexed": 1775553512235
+    },
+    "00_Inbox/pieces_copilot_message_export_april_7_2026_10_22am.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "823d1896ac3afe664b5452cabac6cf25b7af17dd790df551d2454aad843a5650",
+      "lastIndexed": 1775553788007
     }
   },
   "indexingInProgress": false,
