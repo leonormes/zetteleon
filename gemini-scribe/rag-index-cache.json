@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1775603964434,
+  "lastSync": 1775645512846,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9470,8 +9470,8 @@
     },
     "01_journals/Dailies/2026-04-08.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9a0efec389660685ceaade803f89ec8b24d83b49801299962477ce48ff22f424",
-      "lastIndexed": 1775603964434
+      "contentHash": "52f0ff2859725e3b91b56f101e1a2ee6c505495d7745749e0149b2e52e9bfd02",
+      "lastIndexed": 1775645512846
     }
   },
   "indexingInProgress": false,
