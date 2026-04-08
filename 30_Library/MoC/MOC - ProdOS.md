@@ -3,7 +3,7 @@ aliases: [ProdOS Index, Productivity Operating System, Start Here]
 created: 2025-12-04T14:38:32Z
 id: MOC - ProdOS
 last_reviewed: 2026-04-02
-modified: 2026-04-06T17:28:27+00:00
+modified: 2026-04-07T19:19:56+00:00
 status: stable
 tags: ["SoftwareEngineering/Architecture", moc, prodos]
 title: MOC - ProdOS

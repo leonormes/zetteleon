@@ -2,7 +2,7 @@
 aliases: [K2A Framework, PRODOS, Productivity Operating System]
 created: 2026-01-03T09:45:08+00:00
 last_reviewed: 2026-01-12
-modified: 2026-02-10T23:07:08+00:00
+modified: 2026-04-07T19:20:03+00:00
 status: stable
 tags: [adhd-optimization, execution, prodos, system-architecture]
 tier: 1-Foundation
@@ -46,15 +46,19 @@ When a task lacks intrinsic motivation, the Problem Definer must "gamify" the ex
 ### 3. Execution Protocols
 
 #### 3.1 The Thinking Stream & 120s Loop
-Before any action, you must clear mental RAM. See **[[SoT - ProdOS Thinking Stream]]** for the Capture-Refine-Process-Exit loop.
+
+Before any action, you must clear mental RAM. See [[SoT - ProdOS Thinking Stream]] for the Capture-Refine-Process-Exit loop.
 
 #### 3.2 The Scope-Lock & Starter Task (MVA)
-The **Minimal Viable Action (MVA)** is the atomic unit of execution.
-- **Rule:** The MVA must be a physical, binary task so small it is impossible to fail (e.g., "Open the code editor").
-- **Energy:** The goal is to reduce Activation Energy to $\approx 0$.
-- **The Unit Test:** Can you say "Yes/No" to success in < 120 seconds?
+
+The Minimal Viable Action (MVA) is the atomic unit of execution.
+
+- Rule: The MVA must be a physical, binary task so small it is impossible to fail (e.g., "Open the code editor").
+- Energy: The goal is to reduce Activation Energy to $\approx 0$.
+- The Unit Test: Can you say "Yes/No" to success in < 120 seconds?
 
 #### 3.3 The Ignition Protocol ("Heat")
+
 If you are stuck in "Logic Mode," use one of these to generate movement (via the [[MOC - ProdOS#The Dopamine Engine (The PINCH Model)|PINCH Model]]):
 
 1. Mystery: "I wonder if I can do this without using [Tool]?"
@@ -62,9 +66,11 @@ If you are stuck in "Logic Mode," use one of these to generate movement (via the
 3. Spite: "I'm going to finish this to prove [Idea] wrong."
 
 #### 3.4 The Decomposition Protocol
-If a task feels "heavy" or vague, use the **[[Protocol - Vague-to-Action]]** to decompose it into binary MVAs.
+
+If a task feels "heavy" or vague, use the [[Protocol - Vague-to-Action]] to decompose it into binary MVAs.
 
 #### 3.5 The Checklist Protocol (The Firmware)
+
 Use Instruction SoTs to offload working memory for complex tasks.
 
 ---

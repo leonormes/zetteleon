@@ -1,7 +1,7 @@
 ---
 alias: [Secret Management Protocol, Vault Onboarding]
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-03-14T11:10:17+00:00
+modified: 2026-04-07T19:28:06+00:00
 status: stable
 tags: [fitfile, onboarding, protocol, secrets, terraform, vault]
 title: Protocol - Vault Deployment Secret Management
@@ -98,7 +98,7 @@ kubectl get vaultstaticsecret -n ${NAMESPACE} application
 kubectl get secret -n ${NAMESPACE} application -o jsonpath='{.data}'
 ```
 
-## ### 3. Vault Population (Manual)
+### 3. Vault Population (Manual)
 
 ### 4. Integration Layer: ArgoCD & Argo Workflows
 

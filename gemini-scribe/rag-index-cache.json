@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1775554275923,
+  "lastSync": 1775603964434,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -585,8 +585,8 @@
     },
     "30_Library/SoT/SoT - Prosthetic Executive Function.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "59a14f92d2eb62f02e1a155d4609c5cfce4a5224e1222f80d4deaf71c8e88878",
-      "lastIndexed": 1775485601331
+      "contentHash": "d0e833c49e5431bc261442857c3eb322d31eaa0bdf3e73589331493c7fc28a7a",
+      "lastIndexed": 1775589518420
     },
     "30_Library/SoT/SoT - ProdOS Thinking Stream.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -638,11 +638,6 @@
       "contentHash": "ad85462ddcc289e731008d275a4d7000e95c4c1add292a44f658d70fe69104fa",
       "lastIndexed": 1775485608194
     },
-    "30_Library/SoT/SoT - Parse, Don't Validate.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a7ce7dff84c3a90fee2a689e27489041a542adc83788b88470baaf02047790ab",
-      "lastIndexed": 1775485608194
-    },
     "30_Library/SoT/SoT - PRODOS Black Box Protocol.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "c1f47456816ee4e8a727da5e389f8d51f643b87289a933c18ef0c0863504b9e9",
@@ -660,8 +655,8 @@
     },
     "30_Library/SoT/SoT - PRODOS Core Specification.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "74b322d312f9ae0513e00f348d17751d5a12b5399c34aefab03a237d1272d282",
-      "lastIndexed": 1775485611614
+      "contentHash": "f2ebdb9941090bf1aa2a4a7f66e91f09f1ecd0ed5e817bb62e6f0c5889c508f4",
+      "lastIndexed": 1775589642412
     },
     "30_Library/SoT/SoT - PRODOS - The Cognitive Loop (A-C-T Framework).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -1575,8 +1570,8 @@
     },
     "30_Library/SoT/Protocol - Vault Deployment Secret Management.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "45344aa45539089315496e90f993e406b6c473e247aeae93fee19fcba980c591",
-      "lastIndexed": 1775485787575
+      "contentHash": "333e01610157e7cacde0be8c34af44be21663ec73b7366b0faf85fb4ec37f36c",
+      "lastIndexed": 1775590177971
     },
     "30_Library/SoT/Protocol - Metabolic Firewall.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -1660,8 +1655,8 @@
     },
     "30_Library/SoT/Protocol - Azure Jumpbox Preflight.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "48fd35aac888381aba1a55def5c62d2d5008ece8ce13beeeb6be6071a7756dee",
-      "lastIndexed": 1775485807237
+      "contentHash": "81a02c6169576d453eb170c88e5920f6e7914fb60da35cb4bab49e71b31311cc",
+      "lastIndexed": 1775590033190
     },
     "30_Library/SoT/Protocol - Action-First GTD (LLM Chief of Staff).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2108,11 +2103,6 @@
       "contentHash": "de8b4456cb0d86964b861dc246154d9e67e7b564f713bd7d81b8af5591e316d8",
       "lastIndexed": 1775485864294
     },
-    "00_Inbox/GEMINI.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
-      "lastIndexed": 1775485864444
-    },
     "30_Library/ops/cmd-net-drill-dns.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "2c0cc84347cd8147a8fac00369ad6a245adcd484bbef0872ead81cc50ae3e0a6",
@@ -2410,8 +2400,8 @@
     },
     "00_Inbox/ai-writing.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "85cf0b38a833ba5f06bbd3633dfabc2a21df50b0ade288fc78aff2b3c873f74f",
-      "lastIndexed": 1775485913546
+      "contentHash": "5607d02a1ab462155cced90960a11312e94a8561f63f77c39fbc7093cd14a427",
+      "lastIndexed": 1775589468332
     },
     "30_Library/MoC/MOC - The Neurological Basis of Task Initiation Difficulty in ADHD.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2555,8 +2545,8 @@
     },
     "30_Library/MoC/MOC - ProdOS.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "28d272c4df2df465e845ac4679f9d3fcdb8214b0da4a33dc5ebcbaac47aa109c",
-      "lastIndexed": 1775496513828
+      "contentHash": "086dc39432f202d965c9d37fb9cddb612b5e8928ac467757b91a61c0c53a3106",
+      "lastIndexed": 1775589638741
     },
     "30_Library/MoC/MOC - Project Continuity.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2615,8 +2605,8 @@
     },
     "30_Library/MoC/MOC - Networking.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6dc2ee58bc07111f35172936039676b9b5a632c940114475870fe84d593a0b23",
-      "lastIndexed": 1775485934612
+      "contentHash": "ba29d4943642679b091a498520be3d0caf680027b8cada37e9ea919c45787eec",
+      "lastIndexed": 1775589879079
     },
     "30_Library/MoC/MOC - Linux Container Primitives.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2867,11 +2857,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "8344f93f913862ded1f4f71a4cae82a6038aaed593cc944ebd14132949a59d27",
       "lastIndexed": 1775485967528
-    },
-    "30_Library/MoC/MOC - ADHD Management.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "db83bc05c849bcbabd7ef545f9a5f982d034e45f852dbbedb95235fd3bd25524",
-      "lastIndexed": 1775485969975
     },
     "30_Library/MoC/Inner Strength & Resilience Skills (Your Strong Spirit).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9420,28 +9405,28 @@
     },
     "20_Thinking/21_Workbench/HEAD You said I am using Auth0 for login in an app. I a....md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5da8d6a1e0dd2ce69b77e402b1c224d4ead72e4b135a87f3ea020078efa8ac95",
-      "lastIndexed": 1775498410811
+      "contentHash": "d50be66c88959b397d5e2437da958cb0e1c6c23374ad2f7c92be429bb9cb3a1b",
+      "lastIndexed": 1775589464392
     },
     "20_Thinking/21_Workbench/HEAD You said we use azure entra for our identity withi....md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0966a33cbd7383f053677b379eb85ab4daa5b7b7f089837a9c42277ab2457721",
-      "lastIndexed": 1775495585569
+      "contentHash": "b02aa0b967cb41c3225168e470ffc6116b4317d91febee263d192d26419fee54",
+      "lastIndexed": 1775589161867
     },
     "CLAUDE.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "785460137ab3cab36b47bdd0670617e4405ee5371844ba946c604e9003156162",
-      "lastIndexed": 1775496044082
+      "contentHash": "16fb0cb91e26fd44442ce48a6dcfffdeac7245bd75517a6a0ae6060b970ffe70",
+      "lastIndexed": 1775589158769
     },
     "30_Library/SoT/SoT - LLM Semantic-Statistical Mismatch.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "07cd04abd0a0bdd64f51a2b9b0ec31fedcf652e5b0fb9a9ca4b8680533a03c90",
-      "lastIndexed": 1775496372169
+      "contentHash": "123fd0f5f5243cf2faffaedc4bac883cf68cef1e87d6ae439350eb8106a2b430",
+      "lastIndexed": 1775589103291
     },
     "30_Library/SoT/SoT - Flow Engineering.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "dfbd691823cf4b6672b4bc3252f9e5285bfbcf1cd5ee7b6c7df6d6274c81e409",
-      "lastIndexed": 1775496404872
+      "contentHash": "d6e63e940c2b4e0f9e61d6447b25cb0dbd4bd64685498b38915d855f0578de54",
+      "lastIndexed": 1775589099091
     },
     "30_Library/SoT/SoT - LLM Wiki Pattern.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9470,13 +9455,23 @@
     },
     "01_journals/Dailies/2026-04-07.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "64102bac52399a83d8f173fe0ff5352d7d30322bd9c5783c222c09b205af30ba",
-      "lastIndexed": 1775553512235
+      "contentHash": "1f8ca2903983a7039e9cf2998cac79b7e528277d8a425bdd241913aeab9e4afc",
+      "lastIndexed": 1775588679274
     },
     "00_Inbox/pieces_copilot_message_export_april_7_2026_10_22am.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "823d1896ac3afe664b5452cabac6cf25b7af17dd790df551d2454aad843a5650",
-      "lastIndexed": 1775553788007
+      "contentHash": "6c59b94f15c74ecde30a02dce9197c14adb6a8cb03e64940e9bc4d3493eabba1",
+      "lastIndexed": 1775589460177
+    },
+    "20_Thinking/21_Workbench/HEAD Thinking about knowledge.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d4e6a2598c160ef77ab25089a04f67bdc35df7327d0db295d24ed51d71b1b8e5",
+      "lastIndexed": 1775577046574
+    },
+    "01_journals/Dailies/2026-04-08.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9a0efec389660685ceaade803f89ec8b24d83b49801299962477ce48ff22f424",
+      "lastIndexed": 1775603964434
     }
   },
   "indexingInProgress": false,
