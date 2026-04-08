@@ -2,9 +2,13 @@
 aliases: []
 created: 2025-10-26T00:00:00Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:10+00:00
+modified: 2026-04-08T18:08:49+00:00
+prodos: {kind: atomic, lifecycle: seedling, trust: working, id: "", review: {interval: "", last_reviewed: ""}, chronos: {last_synthesis: "", synthesis_count: 0}, atomic: {form: concept}, protocol: {applies_to: [], binary_checklist: true}, moc: {hub_for: [], entry_points: []}, ops: {tool: "", target_service: "", hop_level: "", requires_tunnel: false, prerequisites: []}, prompt: {description: "", inject_as: "", model_hints: ""}, project: {area: "", status: "", owner: ""}}
+see_also: []
 source: "https://gemini.google.com/share/9b6f6fdd7c5e"
 status: ""
+superseded_by: ""
+supersedes: ""
 tags: ["llm_session"]
 title: Time, Patterns, and Mathematics
 type: ""
