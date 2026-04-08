@@ -57,6 +57,6 @@ This hub triages the "Domain III" (Data-Centric Systems) cluster, focusing on In
 
 ### 5. Recommended Actions
 
-- [ ] Harvest: Integrate the "Naming Protocol" and "Intent-Implementation Separation" notes into the [[SoT - Generative Infrastructure Configuration Framework]].
-- [ ] Consolidate: Review the "Configuration" seedlings and merge them into a single [[SoT - Software Configuration Management Patterns]].
-- [ ] Synthesise: Map the "ArgoCD Networking Patterns" onto the [[SoT - The Data-Centric Theory of Networking]].
+- [x] Harvest: Integrate the "Naming Protocol" and "Intent-Implementation Separation" notes into the [[SoT - Generative Infrastructure Configuration Framework]].
+- [x] Consolidate: Review the "Configuration" seedlings and merge them into a single [[SoT - Software Configuration Management Patterns]]. (Integrated into GIC Framework SoT instead).
+- [x] Synthesise: Map the "ArgoCD Networking Patterns" onto the [[SoT - The Data-Centric Theory of Networking]].

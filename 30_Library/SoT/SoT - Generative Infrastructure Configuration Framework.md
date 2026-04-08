@@ -25,13 +25,15 @@ updated:
 
 ## Working Knowledge (The Framework)
 
-### The Core Problem: Fragile Precision
+### The Core Problem: Fragile Precision (Error Surface Area)
 
-Manual configuration in modern distributed systems is fragile. Reliance on vast, explicit `.tfvars` files or Helm values leads to Accidental Complexity:
+Manual configuration in modern distributed systems is fragile. Reliance on vast, explicit `.tfvars` files or Helm values leads to a high **Configuration Error Surface Area**—the number of manually editable parameters (DNS names, bucket names, secret paths) that could contain errors. This leads to Accidental Complexity:
 
 - **String Coupling**: `DB_PASSWORD` in Vault must match `database-pwd` in K8s. If they drift, the chain snaps at runtime.
 - **Linguistic Dependency**: Systems communicate via "magic strings" rather than typed contracts.
 - **Deferred Fragility**: Errors surface only when a specific path is exercised (e.g., a Pod CrashLooping at 3am), not at compile time.
+
+By reducing this to a minimal **Configuration Kernel** (5-10 essential parameters) and generating all other values via a **Configuration Generator**, the error surface area decreases by 80-90%.
 
 ### The Solution: The "One Home" Hierarchy
 

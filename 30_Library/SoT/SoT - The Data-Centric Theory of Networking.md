@@ -82,22 +82,22 @@ By pointing DNS records to a Load Balancer instead of a host, you achieve:
 
 ---
 
-## 5. Case Study: Kubernetes DNS Resolution
+## 6. Case Study: ArgoCD Protocol-Based Routing
 
-In Kubernetes, "Networking" is simply the propagation of configuration state through three layers of abstraction.
+The ArgoCD API server demonstrates the complexity of **Protocol-Based Routing**, where a single service exposes both gRPC (CLI) and HTTP (UI) on the same port (443). This requires sophisticated L7 indirection to resolve.
 
-### A. The Configuration Chain
+### A. The Challenge: Multiplexing gRPC and HTTP
 
-1. The Pod (Source of Truth): The Pod spec defines the `dnsPolicy`.
-2. The Container (Runtime): Kubernetes injects a `/etc/resolv.conf` file based on the Pod's spec.
-3. The Process (Consumer): The application reads `/etc/resolv.conf` to find the Nameserver IP (CoreDNS).
+- **UI (HTTP/1.1 or 2)**: Standard web traffic.
+- **CLI (gRPC)**: Requires HTTP/2 with specific headers (`Content-Type: application/grpc`).
+- **The Constraint**: Most Ingress controllers (e.g., NGINX) bind a specific backend protocol to an entire rule set, creating a conflict when mixing protocols on a single host.
 
-### B. The Resolution Logic
+### B. Indirection Strategies
 
-The application does not "know" networking. It strictly follows the data path:
+1. **Host-Based Separation (L7)**: Define two Ingress objects with different subdomains (e.g., `argocd.example.com` for UI and `grpc.argocd.example.com` for CLI). Each Ingress uses a protocol-specific annotation (e.g., `backend-protocol: "GRPC"`).
+2. **SSL Passthrough (L4)**: Bypass L7 processing by using `ssl-passthrough: "true"`. The Ingress acts as a raw TCP proxy, sniffing the SNI header to route traffic but leaving TLS termination to the `argocd-server` pod.
+    - *Trade-off*: Higher CPU load on the pod; loss of L7 features (WAF, header injection) at the edge.
+3. **Protocol Multiplexing (L7)**: Modern controllers (Traefik, Contour) can inspect the `Content-Type` header to route traffic to different backend configurations on the same host/port without splitting.
 
-1. Query: `curl relay`
-2. Expansion: Application appends search domains from `resolv.conf` (e.g., `relay.default.svc.cluster.local`).
-3. Lookup: Sends query to the Nameserver IP defined in `resolv.conf`.
+This case study illustrates that **Routing is an inspection operation**: the deeper the gateway looks into the data (L4 vs L7 vs Header-specific), the more sophisticated the indirection becomes.
 
-This demonstrates that "resolution" is not a magic network property, but a file-read operation followed by a structured query.

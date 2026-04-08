@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1775669621014,
+  "lastSync": 1775669747285,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -295,8 +295,8 @@
     },
     "30_Library/SoT/SoT - The Data-Centric Theory of Networking.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9106a1e3a208aac56eb2aabfab5cd628baf60024fffbed7bd8f9186e67cfae2f",
-      "lastIndexed": 1775485561608
+      "contentHash": "328939213394735cb569b21fc76e119df86b492d8a1a491ca8cae068a4fc7181",
+      "lastIndexed": 1775669726781
     },
     "30_Library/SoT/SoT - The Data Architecture of TLS 1.3.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -1025,8 +1025,8 @@
     },
     "30_Library/SoT/SoT - Generative Infrastructure Configuration Framework.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8f4edca52da55f2cfb5f6d31ec49edbe69090e2fd4e78927f168267655afa436",
-      "lastIndexed": 1775669227377
+      "contentHash": "3fcf4aacabae3e01b58af50f8796a091353a19a32f684cd2b622a2ce2885a1ba",
+      "lastIndexed": 1775669674605
     },
     "30_Library/SoT/SoT - Gemini CLI Operations & Workflow.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2792,11 +2792,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "f124dead9e91e0a3ac38990a4c384bbaa064e841378621c516f1dba4164927fe",
       "lastIndexed": 1775485973537
-    },
-    "30_Library/200_projects/Type Theory Curriculum.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8a444478783bd63f89224e375f7d2f0ab14845478ca8ec82d41650ce22707090",
-      "lastIndexed": 1775485973617
     },
     "30_Library/200_projects/40_Personal/Family/Zofja and the great budget debate.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -5978,11 +5973,6 @@
       "contentHash": "4e8fe31e1f5dce1c178c1c09c427269d1ca9f24c4e45b73a553a6f9248b406b2",
       "lastIndexed": 1775486399117
     },
-    "30_Library/100_zettelkasten/Naming Protocol.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a147401ba89bc5b07e21a4e208d6070df940c976924e8bd386cb468492fd3bcc",
-      "lastIndexed": 1775486399118
-    },
     "30_Library/100_zettelkasten/Negativity Bias.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "e35931788cf285527cdf22932610cc9adc690e25970b9f2cdea0aa0729ca815b",
@@ -6557,11 +6547,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "759dee402e399eb51cf664f6a4278cd5f28a25fca41653bc7e1a88bce15a7f1d",
       "lastIndexed": 1775486473901
-    },
-    "30_Library/100_zettelkasten/Intent-Implementation Separation.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "00af971fe55f89d56ecb1c3c986e45f99b098d4d37c3420f2a0d138861f9c0e3",
-      "lastIndexed": 1775486474073
     },
     "30_Library/100_zettelkasten/Intuitionism (Mathematics as Mental Construction).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7663,21 +7648,6 @@
       "contentHash": "6b071b7bc6a8dffd5a554c5b85282abd8ceb8eb7c0392623f8f8bf6e0f22db79",
       "lastIndexed": 1775486619081
     },
-    "30_Library/100_zettelkasten/Configuration Error Surface Area.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5e70241c5385f1faab589fbeaaf5084667b51653c5ccb8a9707bd4e3724c28e6",
-      "lastIndexed": 1775486619135
-    },
-    "30_Library/100_zettelkasten/Configuration as Generated Output.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3caa42af0cf12353c41000b9431ff02efc16c69f64756c34853fc8e60ee5fe82",
-      "lastIndexed": 1775486619190
-    },
-    "30_Library/100_zettelkasten/Configuration Kernel.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9602cb153d839a0db702ab3de3198774bb012ff2fc029050b7979a6cece6bf96",
-      "lastIndexed": 1775486619563
-    },
     "30_Library/100_zettelkasten/Consistency and Momentum.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "a53db7082492da310afaace77ce362b0bd5d050c802439a48112180ea783966c",
@@ -7687,11 +7657,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "7db62ca4d062f723d8488f21bbe595c23af4de3904f15fa0524ed60535546202",
       "lastIndexed": 1775486622048
-    },
-    "30_Library/100_zettelkasten/Configuration Generator.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "988d4651895088340f6c25720f7c2ab9192f85c5fcbdba95562a93db0660fb93",
-      "lastIndexed": 1775486622359
     },
     "30_Library/100_zettelkasten/Concept-Orientation Enables Cross-Domain Discovery.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9352,6 +9317,11 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "abeaf89b528f3c247dd98faf8f41736a9802adbe70d00fd06a7ec768b5f6ce93",
       "lastIndexed": 1775669210060
+    },
+    "30_Library/MoC/MOC - Data-Centric Infrastructure & Networking (Triage).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a4bd0900a117e73cafac633cbafd0d05e0414bba43a1899728a5686ff57e951b",
+      "lastIndexed": 1775669747285
     }
   },
   "indexingInProgress": false,
