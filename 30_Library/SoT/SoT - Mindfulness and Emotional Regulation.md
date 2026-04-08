@@ -81,7 +81,7 @@ These Japanese philosophies offer concrete, actionable ways to integrate mindful
 
 ## 7. ProdOS Integration
 
-For the ADHD brain (see [[SoT - ADHD Executive Dysfunction]]), mindfulness is not just "spiritual"; it is Executive Training.
+For the ADHD brain (see [[SoT - ADHD Neurology & Core Concepts]]), mindfulness is not just "spiritual"; it is Executive Training.
 
 - It strengthens the "Brakes" (Inhibition).
 - It allows us to catch the "Glitchy Switch" (DMN intrusion) before it spirals into rumination.

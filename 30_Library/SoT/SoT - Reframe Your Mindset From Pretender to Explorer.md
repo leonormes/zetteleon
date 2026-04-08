@@ -65,7 +65,7 @@ This mindset is not just "feel-good" therapy; it is a structural component of th
 
 | Domain | Application |
 |:--- |:--- |
-| Domain 2: The Engine | Motivation: Leveraging the Interest-Based Nervous System ([[SoT - ADHD Executive Dysfunction]]). The Explorer mindset grants permission to follow the "Spark" (Hyperfocus) without guilt. |
+| Domain 2: The Engine | Motivation: Leveraging the Interest-Based Nervous System ([[SoT - ADHD Neurology & Core Concepts]]). The Explorer mindset grants permission to follow the "Spark" (Hyperfocus) without guilt. |
 | Domain 7: Epistemology | Learning: Acknowledging that "Not Knowing" is the prerequisite for "Discovery." It combats the [[SoT - Illusion of Explanatory Depth (IoED)]] by encouraging active testing rather than passive pretending. |
 | Domain 3: The Compass | Identity: Moving away from a "Performance-Based Identity" (Shame-prone) to a "Curiosity-Based Identity" (Resilient). |
 

@@ -1,8 +1,8 @@
 ---
 aliases: [Health MOC, Physical and Mental Performance Map, Vitality Index]
 created: 2025-12-22T12:15:00Z
-last_reviewed: 2025-12-22T00:00:00.000Z
-modified: 2026-02-01T15:08:06+00:00
+last_reviewed: 2026-04-08
+modified: 2026-04-08T00:00:00Z
 status: stable
 tags: [fitness, health, index, vitality]
 title: MOC - Health and Vitality
@@ -30,32 +30,34 @@ _Canonical Source:_ [[SoT - Physical Health and Vitality]]
 _Focus: Joint health, pain-free movement, and structural integrity._
 
 - Core Framework: [[SoT - Functional Mobility & Primal Movement]]
-- Daily Protocol: [[SoT - Protocol - Daily Mobility Foundation]]
 - Principles:
     - [[Motion Creates Emotion to Overcome Inertia]]
+
+> Daily Mobility Protocol note not yet created. See [[SoT - Functional Mobility & Primal Movement]] for the foundational framework.
 
 ### Strength & Calisthenics
 
 _Focus: Force production, power, and bodyweight mastery._
 
 - Core Framework: [[SoT - Push-Up Progression (Squat University)]]
-- Principles:
-    - [[SoT - Primal Movement - Crab]]
-    - [[SoT - Hanging Mechanics and Progressions]]
+- Movement Patterns: [[SoT - Primal Movement Patterns]]
+
+> Hanging Mechanics and Progressions is not yet a standalone SoT note.
 
 ### Brain-Body Connection
 
 _Focus: How physical movement regulates the ADHD brain._
 
 - [[Cerebellum Function and Exercise for ADHD Regulation]]
-- [[Morning HIIT Boosts BDNF and Neuroplasticity]]
 - [[Cognitive Health Practices for Technical Work]]
+
+> Morning HIIT / BDNF and Neuroplasticity is not yet an atomic note.
 
 ### Sleep & Recovery
 
 _Focus: Memory consolidation and neurotoxin clearance._
 
-- [[Optimal Memory Function Requires Sleep, Stress Management and Mental Exercise]]
+> Optimal Memory Function (Sleep, Stress Management, Mental Exercise) is not yet an atomic note.
 
 ---
 
@@ -68,17 +70,18 @@ _Canonical Source:_ [[SoT - Mindfulness and Emotional Regulation]]
 _Focus: Managing the "Storms" and Rejection Sensitivity._
 
 - [[SoT - ADHD Self-Compassion & Strengths]]
-- [[Rejection Sensitive Dysphoria]]
-- [[SoT - The Shame-Procrastination Cycle]]
+- [[Rejection Sensitive Dysphoria (RSD)]]
 - [[Defensive Hypervigilance]]
+
+> The Shame-Procrastination Cycle is not yet a standalone SoT note.
 
 ### Focus & Executive Function
 
 _Focus: The mechanics of attention._
 
 - [[SoT - The Cognitive Physiology of Task Execution]]
-- [[SoT - Dopamine Menu]]
-- [[Reduced Dopamine D2 D3 Receptors Impair Motivation in ADHD]]
+- [[Dopamine Management in ADHD Productivity]]
+- [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]]
 
 ---
 
@@ -88,17 +91,17 @@ _Canonical Source:_ [[SoT - Metabolic Health & Satiety Management]]
 
 ### Metabolic Health & Satiety
 
-_Focus: Hormonal signaling, energy balance, and satiety leverage._
+_Focus: Hormonal signalling, energy balance, and satiety leverage._
 
-- Core Framework: [[SoT - Metabolic Health & Satiety Management]] (Protein Leverage, Fiber, Volume Eating).
-- Protocols:
-    - [[SoT - The YNAB Method#5.4 ADHD Integration (Cognitive Support)|The ADHD Tax (Food Waste/Impulse)]]
-    - [[Low-Carb Raw Breakfast Supports Mental Clarity]]
+- Core Framework: [[SoT - Metabolic Health & Satiety Management]] (Protein Leverage, Fibre, Volume Eating).
+
+> Low-Carb Raw Breakfast / Mental Clarity and ADHD food-impulse notes are not yet created.
 
 ### Environmental Inputs
 
 - [[Environmental and Physical Hacks for ADHD Focus]]
-- [[Avoid Morning Phone Use to Protect Dopamine]]
+
+> "Avoid Morning Phone Use to Protect Dopamine" is not yet an atomic note.
 
 ---
 
@@ -106,6 +109,22 @@ _Focus: Hormonal signaling, energy balance, and satiety leverage._
 
 _Verifiable actions to maintain the system._
 
-- Daily: [[SoT - Protocol - Daily Mobility Foundation]]
-- Morning: [[MOC - Limitless Morning Routine]]
-- Maintenance: [[SoT - The Honeyman Method (Adaptive Routines)]] (Energy-based routines)
+- Daily: [[SoT - Functional Mobility & Primal Movement]] (framework; Daily Mobility Protocol not yet written)
+
+> Limitless Morning Routine MoC and Honeyman Method (Adaptive Routines) are not yet created.
+
+---
+
+## 6. Atomic Note Gaps (planned)
+
+- `SoT - Protocol - Daily Mobility Foundation` — daily executable mobility protocol
+- `SoT - Hanging Mechanics and Progressions` — dead hangs, scapular pull-ups, progressions
+- `Morning HIIT Boosts BDNF and Neuroplasticity` — exercise-induced neuroplasticity mechanism
+- `Optimal Memory Function Requires Sleep, Stress Management and Mental Exercise` — sleep/memory consolidation
+- `SoT - The Shame-Procrastination Cycle` — shame → freeze → avoidance loop
+- `SoT - Dopamine Menu` — curated list of healthy dopamine sources
+- `Reduced Dopamine D2/D3 Receptors Impair Motivation in ADHD` — receptor density mechanism
+- `Low-Carb Raw Breakfast Supports Mental Clarity` — breakfast protocol for focus
+- `Avoid Morning Phone Use to Protect Dopamine` — morning dopamine hygiene
+- `MOC - Limitless Morning Routine` — full morning stack MoC
+- `SoT - The Honeyman Method (Adaptive Routines)` — energy-based adaptive routine framework

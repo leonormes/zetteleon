@@ -32,7 +32,7 @@ Container networking relies on the "Trinity of Containerisation" and specific ne
 Isolation & Environment:
 
 1. [[SoT - Linux Container Primitives#A. Namespaces (Isolation)|Network Namespace]] - Isolated network stack per container.
-2. [[SoT - Container Isolation (The Namespace Security Model)|Mount Namespace]] - The primary security gatekeeper.
+2. [[SoT - Linux Container Internals|Mount Namespace]] - The primary security gatekeeper.
 
 Connectivity Mechanics (See [[SoT - Linux Networking Primitives]]):
 
@@ -91,7 +91,7 @@ Connectivity Mechanics (See [[SoT - Linux Networking Primitives]]):
 ### Cross-Domain Connections
 
 - [[MOC - OSI Model]]: Container networking operates across OSI Layers 2-4.
-- [[SoT - Container Isolation (The Namespace Security Model)]]: Security implications of sharing the host network namespace.
+- [[SoT - Linux Container Internals]]: Security implications of sharing the host network namespace.
 
 ---
 
@@ -101,7 +101,7 @@ Foundations:
 
 - [[SoT - Linux Networking Primitives]] (Veth, Bridge, IPTables)
 - [[SoT - Linux Container Primitives]] (Namespaces, Cgroups)
-- [[SoT - Container Isolation (The Namespace Security Model)]] (Security)
+- [[SoT - Linux Container Internals]] (Security)
 
 Orchestration:
 

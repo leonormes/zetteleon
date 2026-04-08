@@ -6,6 +6,7 @@ modified: 2026-02-04T07:27:53+00:00
 status:
 tags: [domain/management, topic/productivity/gtd, type/utility]
 title: Project Naming Clarifier Prompt
+description: Turn ambiguous “stuff” into outcome-based GTD project names with DoD and next actions.
 type: prompt
 updated:
 ---

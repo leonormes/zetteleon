@@ -6,6 +6,7 @@ modified: 2026-02-03T17:59:12+00:00
 status:
 tags: [domain/productivity, llm-understanding, type/context]
 title: LLM GTD Context
+description: Background context on GTD for planning prompts (projects/actions, workflow, horizons, weekly review).
 type: prompt
 updated:
 ---

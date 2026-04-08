@@ -2,7 +2,7 @@
 aliases: [Data Structures in Infrastructure, Data-Centric View, Infrastructure as Data]
 created: 2025-12-25T12:10:00Z
 last_reviewed: 2025-12-25
-modified: 2026-02-01T15:08:06+00:00
+modified: 2026-04-08T14:00:00+00:00
 status: stable
 tags: [data_structures, infrastructure, mental_models, type/moc]
 title: MOC - Data-Centric Infrastructure
@@ -21,7 +21,7 @@ Infrastructure tools are best understood not by their "Marketing Features" (Secr
 How systems agree on "Truth."
 
 - [[SoT - State Synchronization Models]] - The fundamental divergence:
-    - Merkle Trees (Integrity): Used by [[SoT - HashiCorp Vault Architecture|Vault]] and [[SoT - The Data Architecture of Source Control (Git)|Git]]. "Is it _exactly_ the same?"
+    - Merkle Trees (Integrity): Used by [[SoT - HashiCorp Vault Architecture|Vault]] and [[SoT - Git|Git]]. "Is it _exactly_ the same?"
     - Reconciliation Loops (Intent): Used by [[SoT - Kubernetes Cluster State Architecture|Kubernetes]] and ArgoCD. "Is it _functionally_ compliant?"
 
 ## 3. Data Structures by Tool
@@ -30,7 +30,7 @@ How systems agree on "Truth."
 |:---------------------------------------------------------- |:------------------------ |:----------------------------------- |
 | [[SoT - HashiCorp Vault Architecture]]                  | Versioned Prefix Trie | Path-based (`secret/data/app`)       |
 | [[SoT - Kubernetes Cluster State Architecture]]         | B+Tree / Event Log    | Namespace-based (`ns/name`)          |
-| [[SoT - The Data Architecture of Source Control (Git)]] | Merkle DAG            | Content-based (SHA-1 Hash)           |
+| [[SoT - Git]] | Merkle DAG            | Content-based (SHA-1 Hash)           |
 | [[SoT - The Data Architecture of DNS]]                  | Distributed Tree      | Hierarchical (`.com` -> `.google`)   |
 | [[SoT - Secure Cross-Cloud Data Transport]]             | Encapsulated Tunnel   | Private IP (`10.0.x.x`) vs Public IP |
 

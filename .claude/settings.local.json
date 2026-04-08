@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__mcp-proxy__retrieve_tools",
+      "Bash(curl -s http://127.0.0.1:8000/)",
+      "Bash(curl -s http://127.0.0.1:8000/mcp/)",
+      "Bash(curl -s -H \"Authorization: Bearer 6d2814e2d679a6034a0201727011da4739d2616ac35648395485f9c1e533844a\" http://127.0.0.1:27124/)",
+      "Bash(curl -sv -H \"Authorization: Bearer 6d2814e2d679a6034a0201727011da4739d2616ac35648395485f9c1e533844a\" http://127.0.0.1:27124/)",
+      "Bash(curl -s http://127.0.0.1:27124/vault/ -H \"Authorization: Bearer 6d2814e2d679a6034a0201727011da4739d2616ac35648395485f9c1e533844a\")",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(nohup /Users/leon.ormes/.local/bin/mcpproxy)",
+      "Bash(echo \"proxy PID: $!\")",
+      "Read(//Users/leon.ormes/.config/mcpproxy/**)",
+      "Read(//Users/leon.ormes/**)",
+      "Bash(curl -sk https://127.0.0.1:27124/ -o /dev/null -w \"%{http_code}\")",
+      "mcp__mcp-proxy__call_tool"
+    ]
+  }
+}

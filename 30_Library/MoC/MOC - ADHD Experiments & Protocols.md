@@ -30,7 +30,7 @@ To move a strategy from "Candidate" to "Validated," follow this 3-step loop:
 1. Define: Convert a note into a `type: hypothesis`. Define the Context and Expected Outcome.
 2. Test: Mark status as `active`. Commit to the protocol for 1 week. Log results in the note.
 3. Review: Rate the efficacy.
-    - _Pass:_ Mark `status: validated`. Merge findings into the relevant [[SoT - ADHD Executive Dysfunction]].
+    - _Pass:_ Mark `status: validated`. Merge findings into the relevant [[SoT - ADHD Neurology & Core Concepts]].
     - _Fail:_ Mark `status: rejected`.
 
 ---

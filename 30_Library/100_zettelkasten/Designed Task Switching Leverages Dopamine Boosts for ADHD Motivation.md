@@ -15,7 +15,7 @@ updated:
 
 > If I intentionally toggle between two active projects every 20-30 minutes,
 > Then I will maintain higher cognitive energy and focus duration than if I tried to force completion of one before starting the other,
-> Because the "Switch" provides a novelty spike (dopamine) that refreshes the [[SoT - ADHD Executive Dysfunction#The "Thought Battery"|Thought Battery]].
+> Because the "Switch" provides a novelty spike (dopamine) that refreshes the [[SoT - ADHD Neurology & Core Concepts|interest-based motivation (INCUP / dopamine loop)]].
 
 ---
 

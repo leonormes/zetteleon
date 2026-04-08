@@ -57,7 +57,7 @@ Reference interpretation is the abstraction layer that transforms meaningless sy
 
 - [[MOC Symbols vs Concepts They Represent]]—The fundamental distinction between the pointer and the data.
 - [[The Map is Not the Territory]]—Why interpretation is always a simplification of reality.
-- [[SoT - Contextual Myopia and Self-Referential Meaning]]—How losing the interpretation layer leads to meaning collapse.
+- [[Contextual Relationships]]—How losing context collapses interpretation and apparent meaning.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 created: 2026-02-02T20:03:15+00:00
-modified: 2026-02-02T20:07:31+00:00
+modified: 2026-04-08T14:26:26+00:00
 source_of_truth: true
 title: ADHD Emotional Reasoning SoT
 trust-level: developing
@@ -51,5 +51,4 @@ _None at creation. All initial insights integrated from [[ADHD Emotional Reasoni
 
 ## 8. Sources and Links
 
-- Superseded: [[ADHD Emotional Reasoning]]
 - Related: [[Rejection Sensitive Dysphoria (RSD)]], [[MOC - Emotional Dysregulation]], [[Why Others' Opinions Can Feel Undeservedly Powerful]], [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]]

@@ -27,3 +27,5 @@ The addiction fuels [[The Overthinking Loop Creates Mental Noise Not Clarity|ove
 Breaking this pattern requires recognizing that perfect information is impossible and that [[Type 2 Information is Experiential]] can only be obtained through engagement with reality, not through additional research.
 
 Links: [[Type 1 Information is Theoretical]], [[The Overthinking Loop Creates Mental Noise Not Clarity]], [[The Core Problem Confusing Preparation with Action]]
+
+rel:: supports [[SoT - Illusion of Explanatory Depth (IoED)]] — this note elaborates the Collector's Fallacy mechanism from the IoED SoT, adding the "illusion of control" and "perfect information fallacy" framings.

@@ -15,7 +15,7 @@ updated:
 - [[SoT - Linux Container Primitives]] (Source of Truth)
 - [[SoT - Process Execution (Kernel Logic)]]
 - [[SoT - Namespacing in Computing]]
-- [[SoT - Container Isolation (The Namespace Security Model)]]
+- [[SoT - Linux Container Internals]]
 
 ## 🔒 Isolation (Namespaces)
 
@@ -34,7 +34,7 @@ updated:
 ## 🔐 Security Hardening
 
 - [[SoT - Container Security & Hardening]] (Best Practices)
-- [[SoT - Container Isolation (The Namespace Security Model)]]
+- [[SoT - Linux Container Internals]]
 - Linux Capabilities (Planned)
 - Seccomp Profiles (Planned)
 

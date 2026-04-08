@@ -6,12 +6,17 @@ views:
         - file.folder == "10_System/prompts"
     order:
       - file.name
+      - description
     sort:
       - property: file.ctime
         direction: DESC
     properties:
       tags:
         width: 200
+      description:
+        width: 420
+    columnSize:
+      file.name: 345
   - type: table
     name: Personas
     filters:
@@ -23,6 +28,8 @@ views:
     properties:
       tags:
         width: 200
+      description:
+        width: 420
   - type: table
     name: Protocols
     filters:
@@ -34,6 +41,8 @@ views:
     properties:
       tags:
         width: 200
+      description:
+        width: 420
   - type: table
     name: Systems
     filters:
@@ -45,6 +54,8 @@ views:
     properties:
       tags:
         width: 200
+      description:
+        width: 420
   - type: table
     name: Contexts
     filters:
@@ -56,6 +67,8 @@ views:
     properties:
       tags:
         width: 200
+      description:
+        width: 420
   - type: table
     name: Utilities
     filters:
@@ -67,3 +80,5 @@ views:
     properties:
       tags:
         width: 200
+      description:
+        width: 420

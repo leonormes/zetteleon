@@ -75,4 +75,4 @@ They do _not_ provide:
 ## Related Concepts
 
 - [[SoT - Conservation of Complexity]]: Kubernetes shifts complexity from "Runbooks" (Code) to "Manifests" (Data/Representation).
-- [[SoT - The Data Architecture of Source Control (Git)]]: GitOps treats Git as the "upstream" etcd.
+- [[SoT - Git]]: GitOps treats Git as the "upstream" etcd.

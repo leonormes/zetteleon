@@ -2,7 +2,7 @@
 aliases: ["Distributed Version Control", "Git", "Version Control System"]
 created: 2025-12-13T00:00:00Z
 last_reviewed: "2025-12-13"
-modified: 2026-02-04T07:27:19+00:00
+modified: 2026-04-08T17:28:46+00:00
 review_interval: "6 months"
 see_also: ["[[SoT - Software Configuration Management Patterns]]"]
 source_of_truth: []
@@ -94,19 +94,16 @@ Breaking Changes:
 
 ## 5. Sources and Links
 
-- [[The Fundamental Misconception Commits as Diffs]]
+- [[#Git's Data Model: Commits as Snapshots|Commits as snapshots vs. commits as diffs (this note)]]
 - [[directed acyclic graph]]
 - [[dot_git folder]]
-- [[git glossary]]
 - [[git index]]
-- [[Git Command to Clone only the git Folder]]
-- [[git extended]]
-- [[gitops]]
-- [[Properties of a Directed Acyclic Graph]]
+- [[#Basic Operations|Cloning, bare repos, and sparse / no-checkout options]]
+- [[#Security & Auditability|GitOps (in this note)]]
+- [[Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured|Properties of a Directed Acyclic Graph (DAG)]]
 - [[rebase]]
 - [[Understanding Merge Commits and Diffs]]
-- [[undoing changes in git]]
-- [[ff git process for better logs]]
-- [[CICD Fundamental]]
-- [[efficient and effective Continuous Delivery pipeline]]
-- [[Universal Keymap Plan]]
+- [[#Basic Operations|Undoing changes: revert, reset --hard, commit --amend]]
+- [[git commit prompt|ff git process for better logs]]
+- [[SOT - CI-CD Pipelines|CI/CD fundamentals (FITFILE pipelines SoT)]]
+- [[SOT - CI-CD Pipelines|Efficient continuous delivery (pipeline architecture)]]

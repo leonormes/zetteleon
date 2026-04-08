@@ -4,6 +4,7 @@ created: 2026-02-02T07:05:00+00:00
 modified: 2026-02-02T07:12:25+00:00
 tags: [domain/personal, system/prompt, type/context]
 title: leon-context-core-profile
+description: Leon’s core working preferences (ADHD, comms style, British English, action bias).
 type: prompt
 ---
 

@@ -16,11 +16,12 @@ updated:
 
 ## Minimum Viable Understanding (MVU)
 
-1. **Input Minimal Intent**: Only define what distinguishes this deployment (Name, Env, CIDR) in a single source (`customer.yaml`).
-2. **Generate Complexity**: Use code (`locals.tf`, CUE) to derive names, paths, IPs, and tags based on strict mathematical protocols.
-3. **Data Has One Home**: Every value must trace to exactly one authoritative source. If you type a literal twice, the architecture is broken.
-4. **Unify Constraints**: Treat configuration as a "Lattice" where values must satisfy all constraints (CUE `vet`).
-5. **Fail Fast**: Validate the Generator contract (`infra_facts`) so individual deployments are safe by default.
+1. **Intent-Implementation Separation**: Distinguish between *declarative intent* (what to deploy) and *implementation details* (how to deploy it), reducing cognitive load.
+2. **Input Minimal Intent**: Only define what distinguishes this deployment (Name, Env, CIDR) in a single source (`customer.yaml`).
+3. **Generate Complexity**: Use code (`locals.tf`, CUE) to derive names, paths, IPs, and tags based on strict mathematical protocols.
+4. **Data Has One Home**: Every value must trace to exactly one authoritative source. If you type a literal twice, the architecture is broken.
+5. **Unify Constraints**: Treat configuration as a "Lattice" where values must satisfy all constraints (CUE `vet`).
+6. **Fail Fast**: Validate the Generator contract (`infra_facts`) so individual deployments are safe by default.
 
 ## Working Knowledge (The Framework)
 
@@ -86,10 +87,12 @@ Given a VNet address space (e.g., `/16`), subnets are sliced using consistent in
 - **Jumpbox**: Index 3 (`cidrsubnet(base, 4, 3)`)
 - **Ingress IP**: Base IP of System Subnet + offset (e.g., `.203`)
 
-#### 2. Resource Naming
+#### 2. The Naming Protocol
 Derived from the composite `deployment_key`: `${customer_name}-${env_prefix}-${instance_id}`.
 - Resource Group: `rg-${workload}-${region}-${env_prefix}-net`
 - VNet: `vnet-${workload}-plat-${region}-01`
+- Secret Paths: `/{environment}/{app_name}/{secret_type}`
+By encoding these rules in the Generator, the protocol ensures consistency across all deployments and eliminates manual naming errors. The protocol becomes the single source of truth for organisational naming standards.
 
 ## Theoretical Foundation
 

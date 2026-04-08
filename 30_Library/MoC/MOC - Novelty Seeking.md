@@ -1,9 +1,9 @@
 ---
 aliases: []
 created: 2025-05-26T14:06:58Z
-last_reviewed: "null"
-modified: 2026-02-04T07:27:27+00:00
-status: "null"
+last_reviewed: "2026-04-08"
+modified: 2026-04-08T17:05:06+00:00
+status: "growing"
 tags: ["dopamine", "interest", "novelty", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
 title: MOC - Novelty Seeking
 type: "map"
@@ -14,9 +14,9 @@ The ADHD brain is often interest-driven and craves novelty. This note serves as 
 
 ## Core Concepts
 
-- [[Neurological Basis of Novelty Seeking in ADHD]]: Explores the role of dopamine and brain structure.
-- [[The Duality of Novelty Seeking in ADHD]]: Discusses the positive and negative aspects of this trait.
-- [[Managing Novelty Seeking in ADHD]]: Provides strategies for channeling novelty seeking productively.
+- [[Motivational differences in ADHD may stem from dopamine dysregulation]]: The neurological basis—dopamine pathway dysfunction drives novelty-seeking behaviour.
+- [[The Duality of Novelty Seeking in ADHD]]: The positive and negative aspects of this trait.
+- [[Managing Novelty Seeking in ADHD]]: Strategies for channelling novelty seeking productively.
 
 ## Common Manifestations
 
@@ -27,8 +27,6 @@ The ADHD brain is often interest-driven and craves novelty. This note serves as 
 ## Broader Context
 
 - [[The Interest-Based Nervous System in ADHD]]
-- [[The PINCH Model Describes Core ADHD Motivators]]
-- [[Dopamine Dysregulation is a Key Factor in ADHD Motivation]]
-- [[ADHD and Motivation MOC]]
 - [[Novelty Effect]]
-- [[Prediction Error Drives Dopamine Release]]
+- [[Prediction Error Breaks Feedback Loops]]
+- [[MOC - ADHD (The Master Map)]]

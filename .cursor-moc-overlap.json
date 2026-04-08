@@ -1,0 +1,44 @@
+{
+  "top_overlaps": [
+    {
+      "jaccard": 0.43478260869565216,
+      "intersection": 10,
+      "a": "MOC - AWS ALB Step-by-Step Tutorial",
+      "b": "MOC - AWS Networking",
+      "a_links": 13,
+      "b_links": 20
+    }
+  ],
+  "clusters_ge_0_35": [],
+  "superseded": [
+    {
+      "moc": "MOC - Cloud Networking",
+      "superseded_by_raw": "[[MOC - Networking]]"
+    },
+    {
+      "moc": "MOC - Data-Centric Networking",
+      "superseded_by_raw": "[[MOC - Networking]]"
+    },
+    {
+      "moc": "MOC - Network Engineering",
+      "superseded_by_raw": "[[MOC - Networking]]"
+    },
+    {
+      "moc": "MOC - Networking & DNS",
+      "superseded_by_raw": "[[MOC - Networking]]"
+    },
+    {
+      "moc": "MOC - The Neurological Basis of Task Initiation Difficulty in ADHD",
+      "superseded_by_raw": "[[MOC - Why Task Initiation is Difficult in ADHD]]"
+    },
+    {
+      "moc": "MOC - The Neuroscience of Task Initiation in ADHD",
+      "superseded_by_raw": "[[MOC - Why Task Initiation is Difficult in ADHD]]"
+    },
+    {
+      "moc": "MOC - Thought and Language Gap",
+      "superseded_by_raw": "[[MOC - The Gap Between Thought and Language]]"
+    }
+  ],
+  "superseded_missing": []
+}

@@ -4,6 +4,7 @@ created: 2026-02-02T07:05:00+00:00
 modified: 2026-02-02T07:17:51+00:00
 tags: [domain/prodos, system/prompt, type/context]
 title: leon-context-project-prodos
+description: Project context for building prodOS (vision, integrations, key concepts).
 type: prompt
 ---
 

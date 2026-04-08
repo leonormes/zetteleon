@@ -22,7 +22,7 @@ updated:
 The low-level Linux mechanisms that make containers possible.
 
 - [[SoT - Namespacing in Computing]]—_The architectural pattern of identifier isolation._
-- [[SoT - Container Isolation (The Namespace Security Model)]]—_The coordinated use of all six namespaces and the 'Mount Namespace' mandate._
+- [[SoT - Linux Container Internals]]—_The coordinated use of all six namespaces and the 'Mount Namespace' mandate._
 - [[SoT - Namespace-Aware Pseudo-Filesystems]]—_How procfs and sysfs provide virtualized views of kernel state._
 
 ---

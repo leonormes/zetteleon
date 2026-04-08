@@ -4,6 +4,7 @@ created: 2026-02-02T07:05:00+00:00
 modified: 2026-02-02T07:18:06+00:00
 tags: [domain/pkm, system/prompt, type/context]
 title: leon-context-pkm-philosophy
+description: The PKM/ProdOS philosophy and mechanics (binary architecture, epistemics, anti-hoarding goal).
 type: prompt
 ---
 

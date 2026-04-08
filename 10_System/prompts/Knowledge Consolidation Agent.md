@@ -3,6 +3,7 @@ created: 2026-02-01T14:02:03+00:00
 modified: 2026-02-02T21:12:11+00:00
 tags: [agent/consolidation, domain/pkm, sot, type/system]
 title: Knowledge Consolidation Agent
+description: Consolidate an input note into the vault by finding duplicates/related notes and producing merge+deprecation artefacts.
 type: prompt
 version: 2
 ---

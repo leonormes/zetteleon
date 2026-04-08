@@ -21,6 +21,8 @@ How:
 3. Focus exclusively on answering that specific question within the allotted time.
 4. When the timer goes off, immediately stop the research and pivot to an action: applying the information found.
 
+rel:: antidote [[SoT - Illusion of Explanatory Depth (IoED)]] — directly counters the Research Rabbit Hole pattern (§ 3 "Dopamine-Seeking Behavior").
+
 Failure modes:
 
 - Starting research without a specific question, leading to aimless browsing.

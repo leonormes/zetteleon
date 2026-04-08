@@ -2,7 +2,7 @@
 aliases: [AI Coding MOC, LLM Engineering Map]
 created: 2026-01-30T08:00:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-04-06T18:00:00+01:00
+modified: 2026-04-08T16:55:23+00:00
 synthesis-count: 3
 tags: [ai-engineering, map-of-content, moc]
 title: MOC - AI Software Engineering
@@ -12,7 +12,8 @@ type: map
 Core Theme: Engineering the "Cognitive Bridge" between probabilistic AI models and deterministic software systems.
 
 ## 🌌 The "Unified Field" Theory
-*Reconciling the "Quantum" (Micro-Logic) with "Relativity" (Macro-Architecture).*
+
+_Reconciling the "Quantum" (Micro-Logic) with "Relativity" (Macro-Architecture)._
 
 - [[SoT - Macro-Micro Unification]] - The fundamental theory: Why architectural integrity fails during "zoomed-in" coding.
 - [[SoT - Parochial Code]] - The primary failure mode: Code that is locally correct but globally "blind."
@@ -22,31 +23,43 @@ Core Theme: Engineering the "Cognitive Bridge" between probabilistic AI models a
 ## 🛠️ Core Engineering Concepts
 
 ### 1. The Cognitive Bridge
-The successful isomorphism between a repository's **Static Analysis Graph (RIG)** and the model's transient **attention state**. It is the process of reducing prompt entropy by encoding relationships as explicit structure.
+
+The successful isomorphism between a repository's Static Analysis Graph (RIG) and the model's transient attention state. It is the process of reducing prompt entropy by encoding relationships as explicit structure.
 
 ### 2. Context Rot
-The progressive decay of system-wide intent over a session. 
-- **In Coding:** The loss of architectural resolution as the "Micro View" dominates.
-- **In Knowledge Bases:** The accumulation of redundant, stale, or "Parochial" commands and playbooks. See: [[prompt - DevOps Knowledge Architect]].
+
+The progressive decay of system-wide intent over a session.
+
+- In Coding: The loss of architectural resolution as the "Micro View" dominates.
+- In Knowledge Bases: The accumulation of redundant, stale, or "Parochial" commands and playbooks. See: [[prompt - DevOps Knowledge Architect]].
 
 ### 3. Perspective Drift
-The regression of an LLM to its training mean. Prevented via **Meta-Context (The Superego)**—injecting a "Domain Manifesto" to enforce architectural priors over generic patterns.
+
+The regression of an LLM to its training mean. Prevented via Meta-Context (The Superego)—injecting a "Domain Manifesto" to enforce architectural priors over generic patterns.
 
 ### 4. The Curator (The "Problem Definer")
-The shift from "Generating Code" to "Curating Context." The human value migrates to **Context Engineering**—framing the right problem and curating the information environment.
+
+The shift from "Generating Code" to "Curating Context." The human value migrates to Context Engineering—framing the right problem and curating the information environment.
+
 - See: [[SoT - AI-Resilient Task Taxonomy (Human 3.0)|The Four Resilient Roles]].
 
 ### 5. The Anthropomorphism Trap
-The fundamental category error of treating a probabilistic token-prediction engine as a cognitive agent. Human-centric instructions ("write clean code", "use TDD") are statistical filters, not cognitive directives — they produce structural mimicry of methodology, not execution of it.
-- [[SoT - LLM Semantic-Statistical Mismatch]] — The epistemological foundation.
+
+The fundamental category error of treating a probabilistic token-prediction engine as a cognitive agent. Human-centric instructions ("write clean code", "use TDD") are statistical filters, not cognitive directives—they produce structural mimicry of methodology, not execution of it.
+
+- [[SoT - LLM Semantic-Statistical Mismatch]]—The epistemological foundation.
 
 ### 6. Flow Engineering
+
 The architectural response to the Anthropomorphism Trap: enforce all workflow constraints (gates, state, feedback loops) through a deterministic orchestration layer, reducing the LLM to a stateless single-task text transformation function.
-- [[SoT - Flow Engineering]] — Pattern, implementation, and TDD case study.
+
+- [[SoT - Flow Engineering]]—Pattern, implementation, and TDD case study.
 
 ### 7. The LLM Wiki Pattern
-Standard RAG is stateless — nothing accumulates. The LLM Wiki Pattern flips this: the LLM maintains a persistent, structured wiki as a middle layer between raw sources and queries. Knowledge compounds across sessions instead of being discarded. This vault implements this pattern via ProdOS.
-- [[SoT - LLM Wiki Pattern]] — Architecture, three core operations, and ProdOS isomorphism.
+
+Standard RAG is stateless—nothing accumulates. The LLM Wiki Pattern flips this: the LLM maintains a persistent, structured wiki as a middle layer between raw sources and queries. Knowledge compounds across sessions instead of being discarded. This vault implements this pattern via ProdOS.
+
+- [[SoT - LLM Wiki Pattern]]—Architecture, three core operations, and ProdOS isomorphism.
 
 ---
 

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1775645512846,
+  "lastSync": 1775669621014,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -70,8 +70,8 @@
     },
     "30_Library/SoT/SoT - Working Memory & Schema Theory.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "bbfb69758d44e2eac5d91f41dd58219f0fc3a9f7457930328a58c5c2d20fd943",
-      "lastIndexed": 1775485530051
+      "contentHash": "7c872bf402521ce29f6f6b5ed734445e4a1ba8371829c7cefd948414e6ba5a89",
+      "lastIndexed": 1775669588699
     },
     "30_Library/SoT/SoT - What is a Problem.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -215,8 +215,8 @@
     },
     "30_Library/SoT/SoT - The Philosophy of the Absurd (Camus).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8945794ef7bbdfc1e222798ee5e14167a9478af37c8c35877253c42dcb19ca9b",
-      "lastIndexed": 1775485548452
+      "contentHash": "b5650c693f7ce844e68286785ff7cd7d67c427326db678c55342f47a5c5cde09",
+      "lastIndexed": 1775669621014
     },
     "30_Library/SoT/SoT - The Nature of Time and Perception.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -520,8 +520,8 @@
     },
     "30_Library/SoT/SoT - Reframe Your Mindset From Pretender to Explorer.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "fb28d80b72e76735a4b89b8f0cd02750bdad23afbff646c4fa53e50abb9c3df4",
-      "lastIndexed": 1775485593343
+      "contentHash": "be9d33bf9c031bf217a32f614d70f5576c3248a609f86ceece504891933fdda3",
+      "lastIndexed": 1775669603525
     },
     "30_Library/SoT/SoT - Reality, Models, and the Limits of Accuracy.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -770,8 +770,8 @@
     },
     "30_Library/SoT/SoT - Mindfulness and Emotional Regulation.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5f358fb4a33343975dba2de513c8390c8299c9c7981c1405a831511b76c906e3",
-      "lastIndexed": 1775485627894
+      "contentHash": "da3a165a63d4f37e3ae142d448e74eec19550047981236eb92ce5907d1b4e154",
+      "lastIndexed": 1775669596164
     },
     "30_Library/SoT/SoT - NHS MESH Integration.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -780,8 +780,8 @@
     },
     "30_Library/SoT/SoT - Miyamoto Musashi's Philosophy on Mastering Emotions.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8cf1c0c5a61f66401c6a1be4356fd691887c7229b7704037a9fccab51b9d1208",
-      "lastIndexed": 1775485628089
+      "contentHash": "60648c1cdf03889b0001d445b2b3b84c426208bf2ee21575c9890a5318e90f23",
+      "lastIndexed": 1775669600084
     },
     "30_Library/SoT/SoT - NIST Cybersecurity Framework.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -890,8 +890,8 @@
     },
     "30_Library/SoT/SoT - Kubernetes Cluster State Architecture.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1a317f9081597a575e004db8ce6899036afbd3d02d8a6a234ebc0776b87c9e6a",
-      "lastIndexed": 1775485702207
+      "contentHash": "5d2d350ee0481dc6ea23ad84475ec93a3fa732afa018e31915886dc9aa1dfe68",
+      "lastIndexed": 1775669558592
     },
     "30_Library/SoT/SoT - Kubernetes Networking & DNS.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -928,11 +928,6 @@
       "contentHash": "f14b8471a4c09f22c87845915bec9f87c3336a4ed579a3431441abe61bcd7dd0",
       "lastIndexed": 1775485706241
     },
-    "30_Library/SoT/SoT - Infrastructure Complexity Management.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8939dd04630e0b9f9594e31717e2cf00f7bf87a65b6397dedbf9ad632a0dcd2f",
-      "lastIndexed": 1775485706291
-    },
     "30_Library/SoT/SoT - Interleaved Compilation (The Hackett Architecture).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "096499a3b62aa9f44b6873a72b03f2855a2d1fa1829a930e0e25130718f8ea24",
@@ -945,8 +940,8 @@
     },
     "30_Library/SoT/SoT - Illusion of Explanatory Depth (IoED).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "52c87867778fa846d7c48f2b382b7fa99331f71aa938b07096b86c92ac2ca425",
-      "lastIndexed": 1775485709265
+      "contentHash": "0a8e817aa06372d7a211c07c95194d11733a7afb1e76c037701ac6571e3707ac",
+      "lastIndexed": 1775665386789
     },
     "30_Library/SoT/SoT - Ikigai and the Logic of Purpose.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -995,8 +990,8 @@
     },
     "30_Library/SoT/SoT - Git.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7975f58a64697aad5b4cbe2ed32df5bdfed06db5c4383f0cdc1cd400bcad66d5",
-      "lastIndexed": 1775485714789
+      "contentHash": "a37a9219fe64901198dc17dfc676f3e898abab39c5f9ce2647198835e85523bb",
+      "lastIndexed": 1775669334016
     },
     "30_Library/SoT/SoT - GitOps for Privileged Identity Management.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -1030,8 +1025,8 @@
     },
     "30_Library/SoT/SoT - Generative Infrastructure Configuration Framework.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "20e6586e14f4cdae072191ae637cc2f5a9172b4092399ba329808c9c86be0cbb",
-      "lastIndexed": 1775485718199
+      "contentHash": "8f4edca52da55f2cfb5f6d31ec49edbe69090e2fd4e78927f168267655afa436",
+      "lastIndexed": 1775669227377
     },
     "30_Library/SoT/SoT - Gemini CLI Operations & Workflow.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -1108,11 +1103,6 @@
       "contentHash": "02c6fcc3e4796aa1b0cf6d48afc78725e963dfe52f3560640848e373b76aa7d1",
       "lastIndexed": 1775485728547
     },
-    "30_Library/SoT/SoT - FITFILE Secret Management Architecture.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "16b372e9fe700d128b32603abc7510dfb655bbf7bf3b904ec4391cc35daa06fc",
-      "lastIndexed": 1775485729123
-    },
     "30_Library/SoT/SoT - Extending Gemini CLI with MCP.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "d66d4aa5e719296482109594bce4e8d1b2abfa9c5b98c7a6b4f4226669f60d3e",
@@ -1122,11 +1112,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "da8500571993236fe3822c7c6fa65a51274837f13912525134792afd013a447e",
       "lastIndexed": 1775485731480
-    },
-    "30_Library/SoT/SoT - FITFILE Helm Chart Architecture.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "618fefb0cacd80587f84b191f7fbc71395aea05030849d761edf0b34ef67d4b3",
-      "lastIndexed": 1775485731503
     },
     "30_Library/SoT/SoT - External Ingress & SSL Architecture.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -1157,11 +1142,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "ac9f74500aaaad5b5c8dfe343ed52cae5c46aa8db34867111e7eb66f3e818a26",
       "lastIndexed": 1775485735445
-    },
-    "30_Library/SoT/SoT - Encapsulation & De-encapsulation.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b08e8487f7f4d8575ec081d4581ad35f6f057cdf03ae4d0a587ccd5c42b1f4f9",
-      "lastIndexed": 1775485735606
     },
     "30_Library/SoT/SoT - Effects as Data (Tag Unions).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -1373,11 +1353,6 @@
       "contentHash": "62f7e0e59052529867e46b583a6bbc82e467485034a6c474e7ba88eb3ea9f7b5",
       "lastIndexed": 1775485763434
     },
-    "30_Library/SoT/SoT - Bridging the Intention-Action Gap.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "818358414b1eddc0be512b93521e6b797f28a559c02641358e5f94d18dbc7622",
-      "lastIndexed": 1775485763560
-    },
     "30_Library/SoT/SoT - Cloud Networking Core Components.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "2b481c65e7783c66509d963a0a5ab17b8e160b66c9026957efe6e2eb9bbc74a9",
@@ -1565,8 +1540,8 @@
     },
     "30_Library/SoT/Protocol - Vague-to-Action.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e69de3c2537b2c44538ef6fe9075b2f064f10185c2de62b25f21e28bba54c605",
-      "lastIndexed": 1775485787529
+      "contentHash": "84d9467dae151681554d144ef10f6d1df0ad2e421d3ad9e3bdf617597d36734d",
+      "lastIndexed": 1775662236311
     },
     "30_Library/SoT/Protocol - Vault Deployment Secret Management.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2225,8 +2200,8 @@
     },
     "30_Library/MoC/MOC - AI Software Engineering.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5bd623b0bf9f425cc71ef0fcf7d957bfa94d6088ad38847c1359fc5a85ebccd1",
-      "lastIndexed": 1775496755931
+      "contentHash": "6c2750c52c89495b4ec65aeb4262bd5da26da2b68e5994c9e6f59c8bc614dc82",
+      "lastIndexed": 1775667372895
     },
     "30_Library/MoC/Understanding Reveals Cause-and-Effect.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2293,11 +2268,6 @@
       "contentHash": "7b9879e87a4c2a260539b3cade4f9627282c90c54ddea0eeaeee1a0150084653",
       "lastIndexed": 1775485899458
     },
-    "30_Library/MoC/MoC - The Roots of Shame and Feeling Defective.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "035720c1aaee41ce31cb57c3322837b0bd41b85752c8ffbbbde4707753e591c5",
-      "lastIndexed": 1775485899770
-    },
     "30_Library/MoC/The Emotional Cost of Being Wrong is Magnified by Loss Aversion.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "4fe741748d9bf558701589b4e56ed5b13084e6adcad4d916f79c75b80b32f76b",
@@ -2320,18 +2290,13 @@
     },
     "30_Library/MoC/Meta MOC - The Core Domains.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d4f4ad98890e0885418396981167f3a8b8dc0d5e490cb0bdb2d0488cb7394370",
-      "lastIndexed": 1775485902502
-    },
-    "30_Library/MoC/MoC - Bessie's Educational Strategy.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d43eb7fd112a6ceb593f77e0124e1b529d19c19526de580b7087e296465ddf08",
-      "lastIndexed": 1775485902604
+      "contentHash": "7c13ac75e38777ab36f45d3e75ed4f0c5afbea41e1b5f9bb0f961fea727ba1bc",
+      "lastIndexed": 1775666920571
     },
     "30_Library/MoC/MOC - Why Thoughts Feel More Important When Thinking Them.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "cda2c3d0eccf875d526fa9dcffacb9199914212e0b78dcc2a152dc3ff4ee132a",
-      "lastIndexed": 1775485903016
+      "contentHash": "9065c3e0f1a4889aafc520f61bda1d8e7d79d6b658c9a3fe8d4834650420b041",
+      "lastIndexed": 1775668849891
     },
     "00_Inbox/semantic-search.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2383,11 +2348,6 @@
       "contentHash": "4fc33f86bc65bab6b58a5b6f8fb47c11db37b79ef8f6a43e1cd76e16bf97f051",
       "lastIndexed": 1775485912161
     },
-    "30_Library/MoC/MOC - Thought and Language Gap.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "232046c65b53c47a9fad925384ccf238d356830320b634c65b7e9ad12472109c",
-      "lastIndexed": 1775485912277
-    },
     "30_Library/MoC/MOC - The Trade-off Between Pragmatism and Rigour in Software Engineering.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "daedae04be5eb858b4648d4a035f5f5b108e6703355c86f7a50289db60581ef5",
@@ -2395,18 +2355,8 @@
     },
     "30_Library/MoC/MOC - The Unified Systems Paradigm.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "af3eb07baa5ba6da1907d47c89bf90f01e31414a81e183f5d770513631af8165",
-      "lastIndexed": 1775485912419
-    },
-    "00_Inbox/ai-writing.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5607d02a1ab462155cced90960a11312e94a8561f63f77c39fbc7093cd14a427",
-      "lastIndexed": 1775589468332
-    },
-    "30_Library/MoC/MOC - The Neurological Basis of Task Initiation Difficulty in ADHD.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "18780850687ff408795cdf1c926703ae1b3ffbaff5a0aaa840e22f992264e5f4",
-      "lastIndexed": 1775485914984
+      "contentHash": "c15639b63140d492109c2b93af96c2b0ca11992ad75372cc0aaf4f30f5c013ce",
+      "lastIndexed": 1775665860285
     },
     "30_Library/MoC/MOC - The One Degree Change Framework for ADHD.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2422,11 +2372,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "ed1d2454b4733e47473f4877e1cab78adbe7eb988458d047ae7a819325b906fa",
       "lastIndexed": 1775485915392
-    },
-    "30_Library/MoC/MOC - The Neuroscience of Task Initiation in ADHD.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "18780850687ff408795cdf1c926703ae1b3ffbaff5a0aaa840e22f992264e5f4",
-      "lastIndexed": 1775485915803
     },
     "00_Inbox/context-system.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2455,8 +2400,8 @@
     },
     "30_Library/MoC/MOC - The Law of Triviality (Bikeshedding).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e7ad17f579d992bb156baa279cc7366ee8413c93a755ef7ef831ff612302e605",
-      "lastIndexed": 1775485918651
+      "contentHash": "a3df4a63ce05ef3f6c458bd1df89ee930c742416015212e2be25a41f5fcbef3d",
+      "lastIndexed": 1775669606973
     },
     "00_Inbox/getting-started.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2500,8 +2445,8 @@
     },
     "30_Library/MoC/MOC - Social Perception and Self-Awareness.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "323071fdda08eaad4ab7eeef4bb1446d15826ffdfcee8a738cdf6e22dd0046f7",
-      "lastIndexed": 1775485924611
+      "contentHash": "146b1f697ab5ed1cfc81c9d82f8ba39de50d882cfb1b63ad35bf90f04fda3759",
+      "lastIndexed": 1775665650560
     },
     "30_Library/MoC/MOC - Setting up a Kemp Load Balancer in a Home Network.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2583,20 +2528,10 @@
       "contentHash": "0791ccc4654b81eff6b1c0961879e37f9da3f5bdf7aae6b9a03688efffbd6e06",
       "lastIndexed": 1775485931064
     },
-    "30_Library/MoC/MOC - Networking & DNS.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "608268aec2948df8f46fdb01d96da9ad6710fbc66da8a93702b16c72f24006e0",
-      "lastIndexed": 1775485933768
-    },
     "30_Library/MoC/MOC - Novelty Seeking.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "33598bc42ae1798c246b3b47e8d79ae4d1e4566c7aa859ecb537b697290bf060",
-      "lastIndexed": 1775485933898
-    },
-    "30_Library/MoC/MOC - Network Engineering.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "608268aec2948df8f46fdb01d96da9ad6710fbc66da8a93702b16c72f24006e0",
-      "lastIndexed": 1775485934094
+      "contentHash": "f8fce17dd2648ed89ea341b851e913380e4edb3a5fe86fa2e15d09012217f4be",
+      "lastIndexed": 1775667972522
     },
     "30_Library/MoC/MOC - OHDSI & OMOP Architecture.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2610,8 +2545,8 @@
     },
     "30_Library/MoC/MOC - Linux Container Primitives.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "588d9c54dc0a392e6a0f007f93d6137e6ab44fa35f7464ee30c6d4f2aa4f47c9",
-      "lastIndexed": 1775485936919
+      "contentHash": "7cd1595a17f1eb5444e6d9620628b4fa6ff0161a69f82db21ac5f556bfb76f3e",
+      "lastIndexed": 1775669565752
     },
     "30_Library/MoC/MOC - Metacognition Deficits in ADHD Impact Self-Awareness of Motivation.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2635,8 +2570,8 @@
     },
     "30_Library/MoC/MOC - Interpretation of References.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "391280de74b963f10b555032dd56bfbe1107c30192944384fbab9ead0d31e568",
-      "lastIndexed": 1775485940539
+      "contentHash": "20ddfa3c3893c5e7c0ca90acae2a28c49f76d001fe440780ab5ebd61db0bdd8c",
+      "lastIndexed": 1775669618385
     },
     "30_Library/MoC/MOC - Keyboard Workflow.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2650,8 +2585,8 @@
     },
     "30_Library/MoC/MOC - Kubernetes Architecture.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "91f10702de7ad18d3c3831143fca7ded219c4956eadc7bc07616f2bc263c7c0a",
-      "lastIndexed": 1775485941196
+      "contentHash": "46ec5ca04b174b0a30227611425e3a36f62be3d38b2f88b2faf5eb032883c8fa",
+      "lastIndexed": 1775669572813
     },
     "30_Library/MoC/MOC - Hybrid Cloud Networking.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2665,8 +2600,8 @@
     },
     "30_Library/MoC/MOC - Health and Vitality.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "835535320ac36bbcc8fd44f4b57bedcd8edcf810ce0cd93c9e23465af4da9a59",
-      "lastIndexed": 1775485943866
+      "contentHash": "3b005c033a50627b39eb5a514b3132d33558342c77ad58bbe2030de110e5ea97",
+      "lastIndexed": 1775668134004
     },
     "30_Library/MoC/MOC - Hands-on Container Labs.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2678,11 +2613,6 @@
       "contentHash": "17483186f976c17ca1bcef8a3cf5cc1d1ed7071f1c77cb1edcb750b37cb04600",
       "lastIndexed": 1775485944365
     },
-    "30_Library/MoC/MOC - How Sockets Actually Work.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "47fcb6c335cc43587279187b4eedc4fba6f98ea6d28beac009339893e1cb7961",
-      "lastIndexed": 1775485944790
-    },
     "30_Library/MoC/MOC - FitFile Deployment.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "3a2607fe9a7f6ddf363f33454766e2c1cd1199a2f31904c765d41b4fe43c3a1d",
@@ -2690,8 +2620,8 @@
     },
     "30_Library/MoC/MOC - Generative Infrastructure Configuration.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "35bb9f26a32b09a755a32e2fdb4d9bbf96f3d784d00a140a62d5e70bc40690a2",
-      "lastIndexed": 1775485947119
+      "contentHash": "8077ab9b79cedbec417393ce27398ac648db0e1b63030a637731232d13ea7f61",
+      "lastIndexed": 1775669562335
     },
     "30_Library/MoC/MOC - Emotional Dysregulation.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2728,20 +2658,10 @@
       "contentHash": "2bc058a107d720e71a217883147bcdc70527420e39ca4cce465e37b7f9b30ced",
       "lastIndexed": 1775485950747
     },
-    "30_Library/MoC/MOC - Data-Oriented Design.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d03677fe58a518553a4041fd66b0c72f3e1989a989d7111283185bd25c1c405c",
-      "lastIndexed": 1775485950857
-    },
     "30_Library/MoC/MOC - Data-Centric Infrastructure.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "091c3d00ab1e35a8905adb65739eda81f77b5cc94a267abb54bc05959cdce11e",
-      "lastIndexed": 1775485953199
-    },
-    "30_Library/MoC/MOC - Data-Centric Networking.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "608268aec2948df8f46fdb01d96da9ad6710fbc66da8a93702b16c72f24006e0",
-      "lastIndexed": 1775485953350
+      "contentHash": "5563f7467432d11c6f81b9a10907f34f45f80d97fa9fb7fa39b472c49a9e0100",
+      "lastIndexed": 1775669554991
     },
     "30_Library/MoC/MOC - Cyberpunk Genre.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2752,11 +2672,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "97c5e1edaa97db172211d1eee26905f7bbf347ee4bf20347408e4a88393b597b",
       "lastIndexed": 1775485953824
-    },
-    "30_Library/MoC/MOC - Daily Writing for Clarity and ADHD-Friendly Techniques.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f956c946b174face5c1a76487c3e80d329e461c642b4cae0709fc057e2d592f2",
-      "lastIndexed": 1775485954353
     },
     "30_Library/MoC/MOC - Container Runtime & Orchestration.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2775,13 +2690,13 @@
     },
     "30_Library/MoC/MOC - Containerisation.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6ac96081c7c26d015edeb9c89fd0351a7338c970e42338e9a8162bc569f7d986",
-      "lastIndexed": 1775485957112
+      "contentHash": "3a1134997520c0402110d67f2de8251316752ecdd606574807556bda2fd8d34b",
+      "lastIndexed": 1775664970384
     },
     "30_Library/MoC/MOC - Container Networking Model.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e31f1548a45502fa56662c55707e4c3e0bcc5850d81b30a742aef308651188f5",
-      "lastIndexed": 1775485957482
+      "contentHash": "e9a35514d0cfecb56e9b850674b76d2dc85aef1493d3d101cdda6a0bcee3f09a",
+      "lastIndexed": 1775669569313
     },
     "30_Library/MoC/MOC - Cloud Networking Devices Data Flow.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2797,11 +2712,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "693781cbfb3a9cb90e1dd6874aadb3779795cb7cd172b87e05c942e23a9ec6e3",
       "lastIndexed": 1775485960301
-    },
-    "30_Library/MoC/MOC - Cloud Networking.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "608268aec2948df8f46fdb01d96da9ad6710fbc66da8a93702b16c72f24006e0",
-      "lastIndexed": 1775485960582
     },
     "30_Library/MoC/MOC - Computer Science Foundations.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2820,8 +2730,8 @@
     },
     "30_Library/MoC/MOC - Breaking the ADHD Overthinking-Procrastination Cycle.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b84e294371f8d8589042316facb71d6a9cab3d820a7617fb53f449041cb27d67",
-      "lastIndexed": 1775485963297
+      "contentHash": "cdaf8aa39a79bf476242c639177afb255069d1799dd56b8632535467ccdc8ac1",
+      "lastIndexed": 1775668636723
     },
     "30_Library/MoC/MOC - Assertiveness Through System Design.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2865,8 +2775,8 @@
     },
     "30_Library/MoC/MOC - ADHD Experiments & Protocols.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "bac7b7d554f8081345e82c84a2141cb8e6b014bdd57c55420ee8f84ec38fadb1",
-      "lastIndexed": 1775485970443
+      "contentHash": "9d6beaf4dac0ea2c3b52a649049d0c69f5065864fbb8b45d145499b4cee83133",
+      "lastIndexed": 1775669578330
     },
     "30_Library/MoC/MOC - ADHD (The Master Map).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3178,11 +3088,6 @@
       "contentHash": "2be00f2f8c722857ed5aa9321887429afec5d85ed6f109a7ce9e2c06f1f6c165",
       "lastIndexed": 1775486009116
     },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Destructuring fixed mindset.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "77fd222d6ce4271446747c89c0b261733587d7afc62da799fe30a2195c4fb998",
-      "lastIndexed": 1775486011602
-    },
     "30_Library/200_projects/40_Personal/Family/Bessie/DO Implement Strategies Consistently Across All Lessons.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "e8e2779acc871033438336b149c9c3808e2426fd149623cd2c6bec83b80258d1",
@@ -3217,11 +3122,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "b34b1a3067fc4f6842e7f2a59aa4b30f0307b8a47ef5002b5877d070870ad837",
       "lastIndexed": 1775486014644
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Bessie GCSE.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "bc771d84069ae68660d34c554a81302134b12e1e526b41b88bcf9e42f6b01231",
-      "lastIndexed": 1775486014674
     },
     "30_Library/200_projects/40_Personal/Family/Bessie/Big Picture Thinker and Inter-Subject Connector.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3503,11 +3403,6 @@
       "contentHash": "2d6cf0b5466261616abc3affa642a854d29b54fe02a91660e3ee111fe89b765c",
       "lastIndexed": 1775486053243
     },
-    "30_Library/200_projects/10_Infrastructure/Networking/what are all the aws resources involved in making.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f9f07daa4d4885dfc9495a71230b437ca1a87cb3aeb7d9b501464ebfc0049078",
-      "lastIndexed": 1775486055627
-    },
     "30_Library/200_projects/10_Infrastructure/Identity/IAM/Enhancing Azure Security & Compliance with Azure AD Entra P2.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "96054ddc3d07456c02c222bfc4a760a665538081b1551060e8a7ca5481900c76",
@@ -3625,8 +3520,8 @@
     },
     "30_Library/200_projects/10_Infrastructure/Networking/INSIGHT - Networking is data labeling not wires.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6a2c6477fddcdc2ce052e215b87693a1c49feb0a47cb6d2883a24d5b174646cf",
-      "lastIndexed": 1775486071780
+      "contentHash": "0e360382352ad2f0bb142327da49d7fe23665a5a43d687feba9c069d7a33cfcb",
+      "lastIndexed": 1775669086593
     },
     "30_Library/200_projects/10_Infrastructure/Networking/Create an AWS API Gateway to your EKS Cluster (with Terraform).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3710,8 +3605,8 @@
     },
     "30_Library/200_projects/10_Infrastructure/Containerisation/What is a mount namespace.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "825f9eb6f62f37a816d8f46298ad32b030ce22b4274e817039ace252a118d2ec",
-      "lastIndexed": 1775486081655
+      "contentHash": "1d82747d347f489b71cf465e486b053a961f6d44b9526966890e0d7eaa57234c",
+      "lastIndexed": 1775669575666
     },
     "30_Library/200_projects/10_Infrastructure/Containerisation/What is the Linux VFS (Virtual File System).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3903,11 +3798,6 @@
       "contentHash": "e7aae9709f8451aafc6f2dfdcffa777152a4af4b56c96dfd9f35a397cc506a68",
       "lastIndexed": 1775486106628
     },
-    "30_Library/200_projects/20_Development/Core/Security/kubernetes_security.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "635816f63e8ba0c8722836c5ded4022af1c42620eadf52c847bba57508a462b7",
-      "lastIndexed": 1775486106765
-    },
     "30_Library/200_projects/20_Development/Core/Security/kubernetes_api_authentication_mechanisms.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "1d581011b3b8f118a1ed15fa54f76b4db7e342b515dfa9576b8a269253ed5cb9",
@@ -4097,11 +3987,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "62ce50b5109d610a53bc6b6a43312dd2bcc5dc110af009a57ac729276b9dde31",
       "lastIndexed": 1775486130978
-    },
-    "30_Library/100_zettelkasten/collectors fallacy.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b723076aa6ee914248c9329604b2794692045d5b2b2e0bedc80e46aa291d65cd",
-      "lastIndexed": 1775486131072
     },
     "30_Library/100_zettelkasten/give me a aerosmith discography in chronological o.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -4348,11 +4233,6 @@
       "contentHash": "965d735ac933a191669b815907668350a4b7b07fbf8b9d56a112504cb049a760",
       "lastIndexed": 1775486160894
     },
-    "30_Library/100_zettelkasten/Unravelling the Cognitive Landscape of Software Development.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9309859f19fe1de2004aedf6716ba5775a63f95d6c9d296a5053d30594ce22fb",
-      "lastIndexed": 1775486161402
-    },
     "30_Library/100_zettelkasten/Unpredictable Rewards Accelerate Habit Formation.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "a91f82fb7306477045888cc27d6abc54c20abdfeec71d7c8acd0817de3848178",
@@ -4475,8 +4355,8 @@
     },
     "30_Library/100_zettelkasten/Time-Boxing Research Prevents Productive Procrastination.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8a9f3e6eb480926b8f7fba66158284460a63e7d5d6243e6c4d44809514fcfc49",
-      "lastIndexed": 1775486176006
+      "contentHash": "e949b77a74a1e21157fa438c087185c724223fa29ffbac09910dde199eb4e8bb",
+      "lastIndexed": 1775665351401
     },
     "30_Library/100_zettelkasten/Time Agnosia Impairs Planning for Developers with ADHD.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -4510,8 +4390,8 @@
     },
     "30_Library/100_zettelkasten/Thoughts Feel More Profound in the Mind Due to the Illusion of Profundity.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5dd8d43d4e51363cfca74e1d220a61be4b89a874b87b84eca96b845c9e9774b2",
-      "lastIndexed": 1775486179577
+      "contentHash": "52474e2efc129fe89f7aa9d3d2e242c5cd1ccc533ed053ba945511856976a0be",
+      "lastIndexed": 1775665341809
     },
     "30_Library/100_zettelkasten/The sophistication is a bug not a feature.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -4633,11 +4513,6 @@
       "contentHash": "1e7c73ae0205fd876dc621678040d0d85db03b8b71e29e57755eb55767f7328d",
       "lastIndexed": 1775486195414
     },
-    "30_Library/100_zettelkasten/The Role of Mental Models in Developer Tasks.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "63f21840c372f2d8cd090fb78b2aeedff9ca3ab11329061dafc934b3abf3051c",
-      "lastIndexed": 1775486195953
-    },
     "30_Library/100_zettelkasten/The Proximal Zone of Development for Habit Change.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "ebe492af7bb5a26c4a2b606689b78e401740a6f16583f3dfa035d5f545b5b3f6",
@@ -4650,8 +4525,8 @@
     },
     "30_Library/100_zettelkasten/The Realization that Knowledge is Contingent Can Lead to a Crisis of Certainty.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "722fb4ff286af721edc8bfb9c5bf965982c3b54822567bc024b447ef51f67ea8",
-      "lastIndexed": 1775486198763
+      "contentHash": "72d510384680cb88bde2eaf59daf0c73a48c8ba7e50ee24add25036409b630b2",
+      "lastIndexed": 1775660793501
     },
     "30_Library/100_zettelkasten/The Purpose of a Weekly Review is to Restore Trust in Your System.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -4943,11 +4818,6 @@
       "contentHash": "cb6ae87fdfe7899f40a6d7290804ca4d7373fa9a755deac87b3e04e3e9220426",
       "lastIndexed": 1775486236149
     },
-    "30_Library/100_zettelkasten/The Consumption Trap - Passive Collection Without Understanding.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7c7d5a6ebe8436c21eb0c5b616a57daebe4016d82578d994e684e8cd42ced7ba",
-      "lastIndexed": 1775486236512
-    },
     "30_Library/100_zettelkasten/The Conflict Between Semantic and Shannon Information.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "1db3b3a2bd21790b2abc2b3b99504aaee0f83d4b54c8af3ad0aa9cb077ee4e4b",
@@ -5137,11 +5007,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "4907796e36ebf87ee99b25ba091c9ea71d1ed6832d50d73b35c68f7d4486c13b",
       "lastIndexed": 1775486257803
-    },
-    "30_Library/100_zettelkasten/Suffering Can Be a Pathway to Liberation.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b76f918149684df11d88845d1471356ffbf29de2018222290a87c1d1d2a7a4d0",
-      "lastIndexed": 1775486259971
     },
     "30_Library/100_zettelkasten/System Tweaking as a Form of Procrastination in ADHD.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -5497,11 +5362,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "384fcf11e24714a825443f47dd508b4a27ad18b176b6aa7256b5192786404b45",
       "lastIndexed": 1775486304993
-    },
-    "30_Library/100_zettelkasten/Route Tables for Internet Access in AWS.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d2c72280bb7a0a8e9ec39acfeffff8cc5a76a11c68866afa3faab5b5a1888257",
-      "lastIndexed": 1775486305083
     },
     "30_Library/100_zettelkasten/Returning a chair to its place shows respect for others.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -6380,8 +6240,8 @@
     },
     "30_Library/100_zettelkasten/Master Micro-Actions & Starter Tasks.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0d54d2561a470514b88b665dcabbec67600d7299d4489e3d13cf0d2082ca1a8f",
-      "lastIndexed": 1775486430717
+      "contentHash": "34efa3909d08884b3713a78ef3fed030646302c3470519aee0d77ec13f738831",
+      "lastIndexed": 1775669581519
     },
     "30_Library/100_zettelkasten/Map Analogy Illustrates Abstraction Tradeoffs.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -6703,11 +6563,6 @@
       "contentHash": "00af971fe55f89d56ecb1c3c986e45f99b098d4d37c3420f2a0d138861f9c0e3",
       "lastIndexed": 1775486474073
     },
-    "30_Library/100_zettelkasten/Internet Gateway in AWS Networking.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "fc5783fcca7b104ea26926ec195bcb0c395bb59ee3ad969e562a9ad80d26a6ca",
-      "lastIndexed": 1775486474136
-    },
     "30_Library/100_zettelkasten/Intuitionism (Mathematics as Mental Construction).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "67c51285beda6e75eac230bd10578059fbbf32a12690e637014d0a432d6f4f01",
@@ -6740,8 +6595,8 @@
     },
     "30_Library/100_zettelkasten/Information Addiction in Overthinkers.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "921f19acfd6e23571e7298234d2c0a4b67e32900b924a9051a5f777102bbc748",
-      "lastIndexed": 1775486479714
+      "contentHash": "3a605a5aa45a8eb5b723aa910500178369af26e645f65eeeb4bab021acdac64e",
+      "lastIndexed": 1775665348151
     },
     "30_Library/100_zettelkasten/Infinitude of Primes Guarantees a Limitless Supply for Keys.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7300,8 +7155,8 @@
     },
     "30_Library/100_zettelkasten/Executive Function Challenges are Central to ADHD.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8df6960e4db1cdb23c4bbc1bd000d0cf5b8499dd2c9b87c45369471a5f260fd5",
-      "lastIndexed": 1775486553314
+      "contentHash": "58fa7c655f283e9c6916485a4561d1287e4fcc94a2ed7cd3ba4f07921e232d08",
+      "lastIndexed": 1775669592578
     },
     "30_Library/100_zettelkasten/Executive Function Impairment During ADHD Trough Phase.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7590,18 +7445,13 @@
     },
     "30_Library/100_zettelkasten/Designed Task Switching Leverages Dopamine Boosts for ADHD Motivation.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1ae81dfd4c645c9d7481125cee981cf21d63f5a7f27aa4f7f2a4382577307b64",
-      "lastIndexed": 1775486590313
+      "contentHash": "03fb332bac680201dd83eb9f20aa6e261a4981fbc9ac0eb4f70b673ad92afd63",
+      "lastIndexed": 1775669585157
     },
     "30_Library/100_zettelkasten/Diffie-Hellman Key Exchange Solves the Shared Secret Problem.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "1e84dfb8987b197a6cc40585cb8c04c8d6421733f49434d0bcb77cbc44fc1a3f",
       "lastIndexed": 1775486590342
-    },
-    "30_Library/100_zettelkasten/Detachment is the Ultimate Form of Freedom.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5c4bb38b8b1868ece2ea3ff3f8b8f295443fec1f9c67e7985e31c3aa4368c273",
-      "lastIndexed": 1775486590481
     },
     "30_Library/100_zettelkasten/Diagram - Philosophy-Productivity Connections.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7672,11 +7522,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "c2d04489ddd2c195eab5cbedfaf1941cae6706dbdb3516678a2e61cac78682e7",
       "lastIndexed": 1775486600371
-    },
-    "30_Library/100_zettelkasten/Data-Centric Networking Focuses on Packet Journey Through Devices.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6299bece10a9a245ad043133637949d81d1f204c9f72e6eb0613553c73e15265",
-      "lastIndexed": 1775486600419
     },
     "30_Library/100_zettelkasten/Daily Writing is a Cognitive Practice for Structuring Thought.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7940,8 +7785,8 @@
     },
     "30_Library/100_zettelkasten/Commitment, Consistency, and Sunk Cost Fallacy.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1182e37b7152be64104106118c9643ce73c3169766d0b35debf614a78e70f09d",
-      "lastIndexed": 1775486635466
+      "contentHash": "bbb071d625e511996b44dd68ad464681d4f47831b3ec2d9d54bb5157e56098ce",
+      "lastIndexed": 1775669614578
     },
     "30_Library/100_zettelkasten/Combining structure with flexibility satisfies neurodivergent dual needs.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8235,8 +8080,8 @@
     },
     "30_Library/100_zettelkasten/Autopoiesis The Self-Referential System.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9d002ab3a9cf4092dee7bc2a259b4e7645c1213d2c7c6d314c8fe7d14ef50fed",
-      "lastIndexed": 1775486692091
+      "contentHash": "9013b113c6de116688bfd0e61292d041eef6bd4790f05b5fa3084ae3714a040b",
+      "lastIndexed": 1775669610992
     },
     "30_Library/100_zettelkasten/Asking Why a Song Exists Helps Determine its Authenticity.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8512,11 +8357,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "d9f6171c7c4734109ece85367e76c5ee7b67c0bf9c0f04cc6a1dba8dca90603b",
       "lastIndexed": 1775486755843
-    },
-    "30_Library/100_zettelkasten/ADHD Shame-Procrastination Cycle.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "acbbe0df7806a7d3246ff34286cc1b47217277fe237beda907e43e2722631c37",
-      "lastIndexed": 1775486758092
     },
     "30_Library/100_zettelkasten/ADHD Involves an Inability to Regulate Attention.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9290,13 +9130,13 @@
     },
     "10_System/prompts/prompt - DevOps Knowledge Architect.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6722c81e8139ce0165b1b01b9d5c863d7d047bf07700c3fa500b588dacb544f6",
-      "lastIndexed": 1775486957574
+      "contentHash": "20b1913cab2de1b817c68de50a3a447345142b8c10a77257c2c1a300d45f15d1",
+      "lastIndexed": 1775669167351
     },
     "10_System/prompts/sys_merger.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "63d373450b9dee7b8b020d240d1d7a0700d17a25ffd40fd146014b08d78b6f79",
-      "lastIndexed": 1775486957679
+      "contentHash": "0a28be84c76d91200f69d8db892f83a4c0e285b662997dab3f68fdd2065d4814",
+      "lastIndexed": 1775669169770
     },
     "10_System/templates/Daily-Mindmap-Template.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9305,103 +9145,98 @@
     },
     "10_System/prompts/leon-context-project-prodos.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6f1e38f9d0b28a6710aa87315f900d7e1afa5abce506f61d0d6867ff3e397cef",
-      "lastIndexed": 1775486957770
+      "contentHash": "856e3140f7cc0426ec2e3ddce8e8ae6baa519a99a74cc7e0c26d5f9e9e2b9ee3",
+      "lastIndexed": 1775669156275
     },
     "10_System/prompts/leon-context-core-profile.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7dc4f7a8f72d8d90abfeccec6d14d49e558547dcc780e4e13e3a9060b0bde6da",
-      "lastIndexed": 1775486960215
+      "contentHash": "7d651f035be5fb3c201301d668fac2179470bd76930084b078cba20e3b510014",
+      "lastIndexed": 1775669198376
     },
     "10_System/prompts/leon-context-pkm-philosophy.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "bd2b6878280703022e0af35d1831e8ab359ea7878e9d563f1e6359e8ed1eb3bb",
-      "lastIndexed": 1775486960358
+      "contentHash": "56a0efb30c7c8838fdff7023655f905ace7b48f965888e766558f81b487eb522",
+      "lastIndexed": 1775669213822
     },
     "10_System/prompts/jira_ticket_prompt.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0aff3490b70d2c3cb224b0b272a766b95657320df97bda26e48273a68ad715c9",
-      "lastIndexed": 1775486960496
+      "contentHash": "634e02cebbd14d726889a2b561fbd781c09e8c70ec7b1db96333ed73fe777517",
+      "lastIndexed": 1775669160282
     },
     "10_System/prompts/leon-context-dev-environment.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d4ace8087602fbf0609baede04e25bfc61b0650d9ad1d1e381b58f23e2db2950",
-      "lastIndexed": 1775486960612
+      "contentHash": "993f50dafb55a9dd8406df17d2364f7197572ae18febbe00c9d1b485d2f97847",
+      "lastIndexed": 1775669191070
     },
     "10_System/prompts/leon-context-health-profile.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8b5a0937707d4a193fd2b90aeccb33afbfb8eb016d26e82cef3117613c89df03",
-      "lastIndexed": 1775486960630
+      "contentHash": "95ea4f678c736961e32264c57fad8f38ab80aebb2e2601e8acabc3efdf2d9ae6",
+      "lastIndexed": 1775669206785
     },
     "10_System/prompts/leon-context-cloud-architect.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5fa7fa145964f40da1063f805ca14a30d9ef92d01cc1c05e6e9fdd38e527220d",
-      "lastIndexed": 1775486962893
+      "contentHash": "56fd01beb78773f3d155e9521e7f2453f4c6ea827dfaa154c21b96b3cf700a35",
+      "lastIndexed": 1775669180569
     },
     "10_System/prompts/Prompt - ProdOS MoC Cartographer.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1a72565bf2647abab8b667674fcb4c6a6f6149db291f58287b4a453705d82f41",
-      "lastIndexed": 1775486963107
+      "contentHash": "5559bf9ce4dbbfd3177e7aa81bc8ad9965239a0749e2bc63b1e4814d28efaba2",
+      "lastIndexed": 1775669173449
     },
     "10_System/prompts/Prompt - ProdOS Protocol Architect.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f430c5fff2669216d9468937fd8d33fb0935f9feb181a43afac50aa650c47a59",
-      "lastIndexed": 1775486963153
+      "contentHash": "29f5f5e3ae83299b216fe87586e6efec28b0624d2278d5dd58e8116e3e6a6620",
+      "lastIndexed": 1775669177038
     },
     "10_System/prompts/Thoughtful Action Partner.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4ca4a2875de8149163bfbc1c86effb8a3be65b827fa71c6b2fc7064ab1e266a8",
-      "lastIndexed": 1775486963327
+      "contentHash": "04545774a5e0a46754c3c9ffc52e2c4c7f88317fa0b2a6b9f7c77fe52c4e6465",
+      "lastIndexed": 1775669223871
     },
     "10_System/prompts/git commit prompt.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "77cbe0cb636b4771ce18fb17ed30778cbccfcfcf57a1eac61e4bbe3351f717df",
-      "lastIndexed": 1775486963884
+      "contentHash": "0e6759b2d418da519c903bdfdb16c71420386d86d244a33f19c0344dee3ccacd",
+      "lastIndexed": 1775669202514
     },
     "10_System/prompts/Prompt - Data-Centric Coding Assistant.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c7096ed8b8a308a1f339969c7c120024a608a2933158117f29cb4ca2fd68d37e",
-      "lastIndexed": 1775486966280
+      "contentHash": "a6927c7f45294af0f96f86708d48ba991fb155e9246354295e9388db82816890",
+      "lastIndexed": 1775669153188
     },
     "10_System/prompts/LLM GTD Context.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "54a7ec76424f89b722e35fef6d10fcc64f84b6907aaf45e09199c7e8e09a8914",
-      "lastIndexed": 1775486966286
+      "contentHash": "066dec571d4acd9cfa7388ca434f72353d4f195626369b2cc473a673636bcf1e",
+      "lastIndexed": 1775669187993
     },
     "10_System/prompts/Knowledge Harvesting & Normalization Agent.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b210e6b39a59c5f65b47722dea93776e0c59a4b48b1219706ed3aa7d360e20d3",
-      "lastIndexed": 1775486966865
+      "contentHash": "7e3b7a12c4eeecddf2a1f4b90e49f3f5a8ceafa8fd6a7166b580bad2c16f08f9",
+      "lastIndexed": 1775669184794
     },
     "10_System/prompts/Prompt - ProdOS Chronos Synthesizer.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "807db2b4489f1386a6d9a542a5b0b132c0cbcc1f7a831cf46d06b06728f65a94",
-      "lastIndexed": 1775486966899
+      "contentHash": "d45b19912c1c652eacce15bd36c9039a0e1a4e68c71a3c3adb209cb257056313",
+      "lastIndexed": 1775669194778
     },
     "10_System/prompts/Project Naming Clarifier Prompt.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "626018a21ca77563c84f061b090a54e4f60735674eec2bac9ebd198c0746138d",
-      "lastIndexed": 1775486967254
+      "contentHash": "11789d2c63c5d6b05e35aeb3723591d2e578ec3fadf2cfd198bb901e0a6c7905",
+      "lastIndexed": 1775669220964
     },
     "10_System/prompts/Knowledge Consolidation Agent.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "37bb79d2a86e10f41c3a29309d827e04dea410eda10ceba6d2385c1f117740d2",
-      "lastIndexed": 1775486969569
+      "contentHash": "e341c1487c843b4cf9e3903e2391bb019eb450853e46e6525ba4e1e796ffaa34",
+      "lastIndexed": 1775669163470
     },
     "02_bases/All Tasks.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "d17556f2ad9af3661b34ff1fde89f4fb6467bf2be789c4fe7e40bbeefb1a2c3d",
       "lastIndexed": 1775486969598
     },
-    "02_bases/HEAD - Unprocessed daily.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "36b486d1c8d05bf4391a73af5a7aec00a3ab2fbd25e3a48150fd449b20db34f8",
-      "lastIndexed": 1775486969681
-    },
     "10_System/prompts/CV Refinement Prompt.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "78b826afc57e5dcafcad91dffe86eaf03a014a6fdebef163b2fbc63c71e23950",
-      "lastIndexed": 1775486970120
+      "contentHash": "c26fdb3a3c6f331386f486a4f3ace88489bea2ef463fe4be5dce4eabe0953f00",
+      "lastIndexed": 1775669217508
     },
     "20_Thinking/21_Workbench/HEAD You said I am using Auth0 for login in an app. I a....md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9460,8 +9295,8 @@
     },
     "00_Inbox/pieces_copilot_message_export_april_7_2026_10_22am.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6c59b94f15c74ecde30a02dce9197c14adb6a8cb03e64940e9bc4d3493eabba1",
-      "lastIndexed": 1775589460177
+      "contentHash": "b7149e750b0d8dd96b9c839341f5045a5a63d1af09d573eca29694c99a0074de",
+      "lastIndexed": 1775648708771
     },
     "20_Thinking/21_Workbench/HEAD Thinking about knowledge.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9470,8 +9305,53 @@
     },
     "01_journals/Dailies/2026-04-08.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "52f0ff2859725e3b91b56f101e1a2ee6c505495d7745749e0149b2e52e9bfd02",
-      "lastIndexed": 1775645512846
+      "contentHash": "3fe502913e1c788b466a58054f946bcb1e485bb7e27e8da10dd914e23dc9f19b",
+      "lastIndexed": 1775663830400
+    },
+    "20_Thinking/21_Workbench/HEAD - Why PKM in this day and age.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ac1a91cc4a7c2a9a8fcc0fd67342264e06548fbd6cd6f062cae03c233da54b06",
+      "lastIndexed": 1775649652437
+    },
+    "10_System/prompts/Principal Vault Triage Architect.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5b0442617ab55cd3eaa3703750493c234ff6166debb205a4ba2de0f73193c099",
+      "lastIndexed": 1775661435972
+    },
+    "00_Inbox/my daughter has a new digital camera. She has a ma.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0da1f5e8288d3c22f83bd9c20e0add5d80d2290107de054defefeaa88eea8e6c",
+      "lastIndexed": 1775654569325
+    },
+    "20_Thinking/21_Workbench/HEAD You said Persona You are an expert research analy... 3.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8ae7b81a88595e99be6263b1f684fe242af0e6c832ec8e5772c07d0564da6adc",
+      "lastIndexed": 1775660646548
+    },
+    "00_Inbox/ProdOS System Overview and Development Progress.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6953c8f4d26cc7cb41eed9423ccc68c4d348986ae8734e8dbbd4fe8272ca02c4",
+      "lastIndexed": 1775660739671
+    },
+    "20_Thinking/21_Workbench/The Halting Problem.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a7650596b94210b5fb21618077967b98fef8052342edd1393843696f94a3a671",
+      "lastIndexed": 1775660763656
+    },
+    "20_Thinking/21_Workbench/HEAD From Chaos to Choreography.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7a2b65c5b2f18f6f3fd5a2c08f5182bae0a53d127431da3606b508d183c423fc",
+      "lastIndexed": 1775660780917
+    },
+    "30_Library/SoT/SoT - Bridging the Intention-Action Gap.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "818358414b1eddc0be512b93521e6b797f28a559c02641358e5f94d18dbc7622",
+      "lastIndexed": 1775668158091
+    },
+    "30_Library/MoC/MOC - Operations & Runbooks (Fast).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "abeaf89b528f3c247dd98faf8f41736a9802adbe70d00fd06a7ec768b5f6ce93",
+      "lastIndexed": 1775669210060
     }
   },
   "indexingInProgress": false,

@@ -14,7 +14,7 @@ updated:
 
 > If I break a daunting task down until the first step is absurdly small (< 2 minutes, purely physical),
 > Then I will initiate the task immediately,
-> Because this lowers the activation energy below the threshold of the [[SoT - ADHD Executive Dysfunction#The "Wall of Awful"|Wall of Awful]].
+> Because this lowers the activation energy below the threshold of the [[SoT - ADHD Neurology & Core Concepts|The Wall of Awful]].
 
 ---
 

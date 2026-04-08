@@ -13,7 +13,7 @@ updated:
 Links:
 
 - Up: [[MOC - Container Networking Model]]
-- Core SoT: [[SoT - Container Isolation (The Namespace Security Model)]]
+- Core SoT: [[SoT - Linux Container Internals]]
 - Related: [[What is a network namespace]], [[What is the Linux VFS (Virtual File System)]], [[What is a PID namespace]], [[What is a UTS namespace]]
 
 ## Summary

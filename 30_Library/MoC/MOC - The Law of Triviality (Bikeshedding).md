@@ -3,7 +3,7 @@ aliases: ["Bikeshedding"]
 created: 2025-08-23T17:07:03Z
 creation_date: "2025-08-23"
 last_reviewed: ""
-modified: 2026-02-04T07:27:27+00:00
+modified: 2026-04-08T14:00:00+00:00
 status: ""
 tags: ["sociology", "TheHuman/Cognition/bias", "TheHuman/Psychology"]
 title: MOC - The Law of Triviality (Bikeshedding)
@@ -21,4 +21,4 @@ Bikeshedding is also driven by Focusing Illusion - when attention narrows to the
 
 The underlying mechanism connects to [[Flawed Mental Models Limit Mastery]] - when people lack adequate mental models for complex topics, they default to areas where their existing models feel sufficient, regardless of relative importance.
 
-Links: [[Contextual Myopia and Goal Displacement]], [[The Focusing Illusion]], [[Illusion of Explanatory Depth (IoED)]], [[Flawed Mental Models Limit Mastery]], [[Cognitive Dissonance]], [[SoT - Contextual Myopia and Human Behavior]], [[MOC Contextual Myopia]]
+Links: [[SoT - Illusion of Explanatory Depth (IoED)]], [[Flawed Mental Models Limit Mastery]], [[Contextual Relationships]] (context narrowing, goal displacement, and related MoC threads)

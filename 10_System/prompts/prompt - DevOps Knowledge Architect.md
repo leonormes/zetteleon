@@ -2,7 +2,9 @@
 created: 2026-02-22T16:50:00+00:00
 modified: 2026-03-14T11:10:49+00:00
 title: prompt - DevOps Knowledge Architect
+description: Convert raw DevOps work logs into deduped Atomic Commands/Playbooks via mandatory vault search.
 type: prompt
+tags: [domain/devops, domain/pkm, type/system]
 ---
 
 ## Role: DevOps Knowledge Architect & Vault Engineer

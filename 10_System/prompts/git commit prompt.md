@@ -3,6 +3,8 @@ created: 2026-01-19T18:06:20+00:00
 modified: 2026-02-04T07:27:53+00:00
 tags: [tool/git, type/utility]
 title: git commit prompt
+description: Produce a high-signal commit message from a `git diff`, focusing on intent and invariants.
+type: prompt
 ---
 
 ## Role

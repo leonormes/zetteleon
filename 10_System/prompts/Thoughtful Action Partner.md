@@ -6,7 +6,8 @@ modified: 2026-02-04T07:27:53+00:00
 status:
 tags: [tool/act, topic/productivity/gtd, type/utility]
 title: Thoughtful Action Partner
-type:
+description: Run the A-C-T loop to turn vague inputs into a single Minimum Viable Action, then reflect on results.
+type: prompt
 updated:
 ---
 

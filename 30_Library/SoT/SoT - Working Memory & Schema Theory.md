@@ -72,5 +72,5 @@ Since we cannot upgrade our biological RAM (especially with ADHD), we must optim
 
 - [[SoT - Learning Mechanisms]]
 - [[SoT - The Extended Mind]]
-- [[SoT - ADHD Executive Dysfunction]]
+- [[SoT - ADHD Neurology & Core Concepts]]
 - [[SoT - PRODOS (System Architecture)]]

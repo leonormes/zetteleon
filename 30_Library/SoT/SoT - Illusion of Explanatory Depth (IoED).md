@@ -8,8 +8,8 @@ tags: ["bias", "learning", "mental_models", "TheHuman/Cognition", "TheHuman/Heal
 title: SoT - Illusion of Explanatory Depth (IoED)
 type: "SoT"
 updated: 
-synthesis_count: 2
-last_synthesis: 2026-04-05
+synthesis_count: 3
+last_synthesis: 2026-04-08
 ---
 
 > [!definition] Definition: "The Illusion of Explanatory Depth (IoED)"
@@ -45,6 +45,7 @@ For the neurodivergent brain, IoED is not just a bias; it is a functional impair
 3. The "Collector's Fallacy" (The Consumption Trap): This drives the accumulation of books, tabs, and saved articles. The _possession_ of the information feels like _knowledge_ of the information.
     - **Dopamine-Seeking:** Information gathering provides immediate rewards without the effort of processing.
     - **Novelty Seeking:** New content is stimulating; old content (processing) is "boring."
+    - **Illusion of Control:** Hoarding information creates a false sense of preparation — the belief that "just a little more research" will provide the certainty needed to act. This delays the moment of potential failure or judgement. (See [[Information Addiction in Overthinkers]] for the full mechanism, including the "perfect information fallacy.")
 4. Forms of Active Procrastination:
     - **System Tweaking:** Organizing the "library" instead of reading the books.
     - **Shiny Object Syndrome:** Abandoning a deep dive for a new, "more promising" topic.
@@ -71,6 +72,7 @@ Attempt to explain the concept in simple terms to a child or a rubber duck.
 
 - The Mechanism: When you hit a gap in your explanation ("…and then magic happens…"), you have located the edge of your knowledge. Writing forces you to convert "felt understanding" into explicit propositions.
 - The Fix: Go back to the source material _specifically_ to fill that gap.
+- **Canonical reference:** [[Feynman Technique Deepens Learning Through Teaching]] — full 5-step protocol.
 
 ### B. The "Build It" Standard (The Creation Test)
 
@@ -95,6 +97,12 @@ Ask "Why?" five times to drill down to first principles.
 
 Bypass passive reading by actively questioning the material using Bloom's Taxonomy (Analyze, Evaluate, Create).
 
+### F. Time-Boxing Research (The Rabbit Hole Boundary)
+
+Define a single specific question _before_ starting research, set a hard timer (15–25 min), and pivot to implementation the moment it fires. This prevents the Dopamine-Seeking loop from converting research into productive procrastination.
+
+- **Canonical reference:** [[Time-Boxing Research Prevents Productive Procrastination]] — full protocol with failure modes.
+
 ---
 
 ## 5. Distinction from Dunning-Kruger Effect (DKE)
@@ -115,3 +123,7 @@ While related, the two biases operate on different axes:
 - **The Knowledge Illusion**: Relying on the "Community of Knowledge" (Google, AI) to sustain our individual illusion of knowing.
 - **[[Eufriction - Productive Friction Strengthens Thinking|Eufriction]]**: The antidote to the Collector's Fallacy.
 - **[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)|The A-C-T Framework]]**: The ProdOS solution for breaking the collection loop.
+- **[[SoT - Active Learning Techniques]]**: Canonical collection of antidotes — Retrieval Practice, Feynman Technique, The Peter Method, Interleaving.
+- **[[Information Addiction in Overthinkers]]**: Elaborates the Collector's Fallacy mechanism — "illusion of control" and "perfect information fallacy" as drivers.
+- **[[Time-Boxing Research Prevents Productive Procrastination]]**: Operational antidote to the Research Rabbit Hole.
+- **[[Flawed Mental Models Limit Mastery]]**: IoED as the primary barrier to mastery; recovery protocol.

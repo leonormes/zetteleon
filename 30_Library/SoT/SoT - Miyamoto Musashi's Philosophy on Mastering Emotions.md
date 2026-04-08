@@ -54,7 +54,7 @@ This note sits at the intersection of three Core Domains, serving as the bridge 
 
 | Domain | Application |
 |:--- |:--- |
-| Domain 2: The Engine | Emotional Regulation: It provides the "Software" for managing [[SoT - ADHD Executive Dysfunction]]. The concept of _Heijo-shin_ is a direct counter-measure to Emotional Dysregulation and RSD. |
+| Domain 2: The Engine | Emotional Regulation: It provides the "Software" for managing [[SoT - ADHD Neurology & Core Concepts]]. The concept of _Heijo-shin_ is a direct counter-measure to Emotional Dysregulation and RSD. |
 | Domain 3: The Compass | Philosophy: It aligns with Stoicism. It is the "Way" (Do) of living—accepting the world as it is ([[The External World is Neutral]]). |
 | Domain 4: The Trade | Strategy/Mastery: It applies to professional "combat" (coding, negotiation). Keeping the mind "ordinary" allows for access to complex skills under pressure. |
 

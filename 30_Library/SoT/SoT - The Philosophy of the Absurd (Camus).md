@@ -70,7 +70,7 @@ Camus's "Revolt" is not universally accepted as the final word.
 
 ## 6. ProdOS Integration: Meaning as Output
 
-In the context of [[SoT - Contextual Myopia and Self-Referential Meaning]], we align with the Fractal Model of Meaning:
+In the context of [[Contextual Relationships]] (how context and framing generate local meaning), we align with the Fractal Model of Meaning:
 
 - Meaning is not _found_ (External/Universal).
 - Meaning is _generated_ (Internal/Local).

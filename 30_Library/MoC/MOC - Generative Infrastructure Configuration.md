@@ -2,7 +2,7 @@
 aliases: ["GIC MOC"]
 created: 2025-01-15T10:10:00Z
 last_reviewed: "2025-01-15T00:00:00.000Z"
-modified: 2026-02-01T15:08:06+00:00
+modified: 2026-04-08T14:00:00+00:00
 status: "active"
 tags: ["automation", "configuration", "infrastructure"]
 title: MOC - Generative Infrastructure Configuration
@@ -16,7 +16,7 @@ Purpose: This Map of Content organizes concepts, principles, and practices relat
 
 ### Core Framework
 
-- [[30_Library/100_zettelkasten/Generative Infrastructure Configuration Framework]] - The overarching framework for reducing configuration errors through generation
+- [[SoT - Generative Infrastructure Configuration Framework]] - The overarching framework for reducing configuration errors through generation
 - [[Configuration as Generated Output]] - Design principle treating config as derived output
 
 ### Framework Components
