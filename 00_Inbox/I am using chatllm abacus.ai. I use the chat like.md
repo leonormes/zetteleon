@@ -1,10 +1,10 @@
 ---
 created: 2026-04-08T14:28:32+00:00
-modified: 2026-04-08T17:59:11+00:00
+modified: 2026-04-08T18:01:20+00:00
 title: I am using chatllm abacus.ai. I use the chat like
 ---
 
-ChatLLM by Abacus.AI offers far more than simple chat interactions with AI models; it's designed as a full-featured productivity system and automation platform built around Large Language Models, especially for professionals and technical teams[^1].[^2][^3][^4]
+ChatLLM by Abacus.AI offers far more than simple chat interactions with AI models; it's designed as a full-featured productivity system and automation platform built around Large Language Models, especially for professionals and technical teams.[^1][^2][^3][^4]
 
 ## Core Workflows and Capabilities
 
@@ -13,7 +13,7 @@ ChatLLM by Abacus.AI offers far more than simple chat interactions with AI model
 - Document \& File Automation: Chat with PDFs, upload files, and create Retrieval-Augmented Generation (RAG) chatbots trained on your own data (docs, websites, KBs). Use chat as a knowledge management hub with file and project context.[^4][^7][^8]
 - Image \& Video Generation: Use several models to create images and generate videos from text, including side-by-side model output comparisons.[^2][^8][^3]
 - Powerful AI Workflows \& Agents: Create custom AI workflows (multi-step processes), automate complex business or technical operations (e.g., market research reports, scheduled emails, reservation bookings), and leverage autonomous agents to break down and execute multi-step tasks.[^5][^9][^4]
-- Integration with Popular Tools: Connect ChatLLM to Slack, Teams, Gmail, Confluence, GDrive, Github, and more, embedding AI into live workflows and automating multi-app tasks[^2].[^6][^3][^10]
+- Integration with Popular Tools: Connect ChatLLM to Slack, Teams, Gmail, Confluence, GDrive, Github, and more, embedding AI into live workflows and automating multi-app tasks.[^2][^6][^3][^10]
 - Project \& Team Features: Organize chats, files, and workflow automations into projects; share or collaborate with teammates (great for streamlining technical team communication).[^2][^4][^11]
 - Text Utilities: Humanize text, convert text to speech, summarize, analyze, generate docs/presentations automatically.[^2][^8]
 - Custom Chatbots and Agents: Build and configure your own chatbots or "Deep Agents" for specialized automation and orchestration, including knowledge-base interfaces or on-the-fly AI assistants for your organization or site.[^12][^4][^13]

@@ -1,7 +1,7 @@
 ---
 aliases: [On-Call Index, Ops Index, Runbooks Index]
 created: 2026-04-08T00:00:00+00:00
-modified: 2026-04-08T17:59:02+00:00
+modified: 2026-04-08T18:01:09+00:00
 status: seedling
 tags: [moc, ops, triage]
 title: MOC - Operations & Runbooks (Fast)

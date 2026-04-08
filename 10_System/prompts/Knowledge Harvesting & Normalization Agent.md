@@ -1,7 +1,7 @@
 ---
 created: 2026-04-02T11:30:00+01:00
 description: Take an existing SoT/MoC and scour the vault for fragments/duplicates to integrate and normalise back into it.
-modified: 2026-04-08T17:59:10+00:00
+modified: 2026-04-08T18:01:19+00:00
 tags: [agent/refinery, domain/pkm, moc, sot, type/system]
 title: Knowledge Harvesting & Normalization Agent
 type: prompt

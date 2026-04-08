@@ -2,7 +2,7 @@
 aliases: ["Data-Centric Security", "PDP-PEP Architecture", "Zero Trust IAM"]
 created: 2025-03-15T10:12:06Z
 last_reviewed: "2025-12-29"
-modified: 2026-04-08T17:59:00+00:00
+modified: 2026-04-08T18:01:07+00:00
 status: "stable"
 tags: ["data-centric", "IAM", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "TheHuman/Identity", "zero-trust"]
 title: SoT - Data-Centric IAM in Zero Trust

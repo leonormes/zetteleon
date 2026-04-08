@@ -1,7 +1,7 @@
 ---
 aliases: [Note metadata schema, ProdOS frontmatter specification]
 created: 2026-04-08T18:00:00+00:00
-modified: 2026-04-08T17:58:55+00:00
+modified: 2026-04-08T18:01:02+00:00
 prodos:
   kind: sot
   lifecycle: stable

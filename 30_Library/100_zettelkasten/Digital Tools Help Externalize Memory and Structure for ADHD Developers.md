@@ -2,7 +2,7 @@
 aliases: ["ADHD Digital Tools", "ADHD Productivity Apps"]
 created: 2025-11-06T19:54:05Z
 last_reviewed: "2025-11-06T00:00:00.000Z"
-modified: 2026-04-08T17:59:08+00:00
+modified: 2026-04-08T18:01:18+00:00
 status: "seedling"
 tags: ["SoftwareEngineering", "TheHuman/Health/ADHD", "tools", "topic/productivity"]
 title: Digital Tools Help Externalize Memory and Structure for ADHD Developers

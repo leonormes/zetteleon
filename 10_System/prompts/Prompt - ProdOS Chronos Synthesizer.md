@@ -1,7 +1,7 @@
 ---
 created: 2026-03-30T14:56:04+00:00
 description: Convert volatile HEAD notes into stable SoT artefacts and a concrete “Next Test” action.
-modified: 2026-04-08T17:59:10+00:00
+modified: 2026-04-08T18:01:19+00:00
 tags: [chronos, prodos, synthesis, type/system]
 title: Prompt - ProdOS Chronos Synthesizer
 type: prompt

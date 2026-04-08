@@ -3,7 +3,7 @@ aliases: ["ADHD Activation", "Neurological Basis of Task Initiation", "Task Init
 created: 2025-10-30T12:09:05Z
 last_reviewed: 2026-04-05
 last_synthesis: 2026-04-05
-modified: 2026-04-08T17:59:02+00:00
+modified: 2026-04-08T18:01:09+00:00
 status: "evergreen"
 synthesis_count: 2
 tags: ["executive-function", "task-initiation", "TheHuman/Health/ADHD", "TheHuman/Neuroscience"]

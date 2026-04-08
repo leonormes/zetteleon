@@ -2,7 +2,7 @@
 aliases: ["Accelerate", "DORA Research", "Software Delivery Performance", "Verification Gap"]
 created: 2026-01-08T16:30:00Z
 last_reviewed: "2026-03-28"
-modified: 2026-04-08T17:59:00+00:00
+modified: 2026-04-08T18:01:08+00:00
 status: evergreen
 tags: ["ai", "architecture", "culture", "devops", "dora", "leadership", "tdd"]
 title: SoT - Accelerate & DORA

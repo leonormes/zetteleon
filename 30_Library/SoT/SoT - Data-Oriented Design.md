@@ -2,7 +2,7 @@
 aliases: [Anemic Domain Model, Cache Optimization, DOD, Performance Engineering, The Physics of DOD]
 created: 2026-01-30T09:00:00+00:00
 last_synthesis: 2026-04-02
-modified: 2026-04-08T17:59:00+00:00
+modified: 2026-04-08T18:01:07+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 2

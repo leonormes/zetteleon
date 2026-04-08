@@ -3,7 +3,7 @@ aliases: ["Identity as Perimeter", "Never Trust Always Verify", "Zero Trust", "Z
 created: 2026-04-04T14:30:00Z
 last-synthesis: 2026-04-04
 last_reviewed: 
-modified: 2026-04-08T17:58:55+00:00
+modified: 2026-04-08T18:01:02+00:00
 status: "evergreen"
 synthesis-count: 1
 tags: ["architecture", "iam", "networking", "security", "zero-trust"]

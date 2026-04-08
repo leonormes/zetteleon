@@ -1,7 +1,7 @@
 ---
 created: 2026-03-30T14:56:12+00:00
 description: Refactor loose instructions into strict, binary Protocol notes or Todoist-ready actions (with Ignition variant).
-modified: 2026-04-08T17:59:10+00:00
+modified: 2026-04-08T18:01:19+00:00
 tags: [creation, prodos, type/system]
 title: Prompt - ProdOS Protocol Architect
 type: prompt

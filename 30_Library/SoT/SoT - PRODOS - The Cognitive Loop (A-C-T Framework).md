@@ -2,7 +2,7 @@
 aliases: [A-C-T Framework, Action-Container-Thought, Kinetic Valve, The Cognitive Loop]
 created: 2026-04-04T12:30:00Z
 last-synthesis: 2026-04-04
-modified: 2026-04-08T17:58:57+00:00
+modified: 2026-04-08T18:01:04+00:00
 status: stable
 synthesis-count: 2
 tags: [adhd, cognitive-loop, framework, prodos, protocol]

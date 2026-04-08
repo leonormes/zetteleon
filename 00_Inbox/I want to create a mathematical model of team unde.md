@@ -1,6 +1,6 @@
 ---
 created: 2026-04-08T14:38:46+00:00
-modified: 2026-04-08T17:59:10+00:00
+modified: 2026-04-08T18:01:20+00:00
 title: I want to create a mathematical model of team unde
 ---
 
@@ -12,28 +12,28 @@ A mathematical model of team understanding can be framed using set theory and in
 
 ### Core Model Structure
 
-- Individual knowledge can be represented as sets: \$ K_1, K_2, ···, K_n \$ for a team of \$ n \$ people[^1].[^2]
+- Individual knowledge can be represented as sets: \$ K_1, K_2, ···, K_n \$ for a team of \$ n \$ people.[^1][^2]
 - The union \$ K_{team} = K_1 \cup K_2 \cup ··· \cup K_n \$ depicts the total pool of knowledge available if all information is perfectly shared.
-- Real understanding is less than this union due to incomplete communication, documentation gaps, and biases (e.g., Dunning-Kruger effect, overconfidence)[^1].[^3]
+- Real understanding is less than this union due to incomplete communication, documentation gaps, and biases (e.g., Dunning-Kruger effect, overconfidence).[^1][^3]
 
 ### Aggregation With Biases
 
 - Each person's perceived certainty can be modeled by a weight \$ w_i \$ that scales their input, determined by confidence rather than their actual expertise.[^1]
 - Overall team understanding: \$ U_{team} = \bigcup_{i=1}^n w_i \cdot K_i \$
 - When biases are present, \$ w_i \$ may not reflect true contribution, leading to a distorted collective picture.[^3]
-- Models such as confidence-weighted voting, competence-weighted aggregation, and plurality voting are used, though confidence-weighted approaches are often less accurate due to self-assessment errors[^1].[^3]
+- Models such as confidence-weighted voting, competence-weighted aggregation, and plurality voting are used, though confidence-weighted approaches are often less accurate due to self-assessment errors.[^1][^3]
 
 ### Communication \& Documentation
 
 - Communication acts as edges in a graph, connecting knowledge sets:
     - Member-to-member transfer expands overlap.
-    - Documentation creates shared external nodes, accessible to all, increasing global coverage[^4].[^5]
+    - Documentation creates shared external nodes, accessible to all, increasing global coverage.[^4][^5]
 - Imperfect transmission can be modeled as a subgraph or partial union, constraining effective team understanding.
 
 ### Cognitive Bias Impact
 
 - Cognitive biases—such as overconfidence—can be captured mathematically by error terms \$ \epsilon_i \$ in individual knowledge estimates.
-- Aggregate knowledge is then \$ K'_{team} = K_{team} + \sum_{i=1}^n \epsilon_i \$, often leading to misunderstanding or illusion of complete coverage[^1].[^3]
+- Aggregate knowledge is then \$ K'_{team} = K_{team} + \sum_{i=1}^n \epsilon_i \$, often leading to misunderstanding or illusion of complete coverage.[^1][^3]
 
 ### Example Equation
 
@@ -48,19 +48,17 @@ Where:
 
 ### Relevant Models
 
-- Shared Mental Model (SMM): focuses on the intersection of knowledge sets where team members have common understanding[^2].[^6]
+- Shared Mental Model (SMM): focuses on the intersection of knowledge sets where team members have common understanding.[^2][^6]
 - Transactive Memory System (TMS): tracks which member knows what, enhancing team recall through distributed memory.[^2]
 - SECI Model: cycles of sharing, externalizing, combining, and internalizing knowledge in teams.[^4]
 
 ### Concrete Modeling Approaches
 
-- Mathematical dynamical systems: Team understanding can be modeled as a set that evolves based on communication "events" and update rules, possibly using differential or recurrence equations[^7].[^8]
+- Mathematical dynamical systems: Team understanding can be modeled as a set that evolves based on communication "events" and update rules, possibly using differential or recurrence equations.[^7][^8]
 - Cognitive map aggregation: Individual knowledge graphs are merged, with mathematical procedures to minimize analyst bias in combination.[^9]
-- Bias modeling: Confidence scores and self-selection can be coded as variables in collective decision simulations. Overconfidence can reduce true aggregate understanding[^1].[^3]
+- Bias modeling: Confidence scores and self-selection can be coded as variables in collective decision simulations. Overconfidence can reduce true aggregate understanding.[^1][^3]
 
-*
-
-This foundational set-based approach, enriched with weights and bias/error terms, gives you a concrete mathematical framework for modeling team understanding and the impact of cognitive biases on collective knowledge[^1][^3][^2][^4].[^7]
+This foundational set-based approach, enriched with weights and bias/error terms, gives you a concrete mathematical framework for modeling team understanding and the impact of cognitive biases on collective knowledge[^1][^3][^2].[^4][^7]
 
 <span style="display:none">[^10][^11][^12][^13][^14][^15][^16][^17][^18][^19][^20]</span>
 

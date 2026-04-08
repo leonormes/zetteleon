@@ -1,7 +1,7 @@
 ---
 aliases: [Finitude, Subjective Time, Temporal Perception, The Myth of the Starting Gun]
 created: 2026-04-05T13:30:00+01:00
-modified: 2026-04-08T17:58:56+00:00
+modified: 2026-04-08T18:01:03+00:00
 status: stable
 tags: [existentialism, philosophy, psychology, sot, time]
 title: SoT - The Nature of Time and Perception

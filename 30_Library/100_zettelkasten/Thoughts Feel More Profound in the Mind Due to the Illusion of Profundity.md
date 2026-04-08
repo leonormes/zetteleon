@@ -2,7 +2,7 @@
 aliases: ["Illusion of Profundity"]
 created: 2025-11-06T20:00:00Z
 last_reviewed: "2025-11-06"
-modified: 2026-04-08T17:59:06+00:00
+modified: 2026-04-08T18:01:14+00:00
 status: superseded
 superseded-by: "[[SoT - Illusion of Explanatory Depth (IoED)]]"
 tags: ["archive", "epistemology", "TheHuman/Cognition", "thinking", "writing"]

@@ -2,7 +2,7 @@
 aliases: ["Time-boxed Research"]
 created: 2025-11-12T15:00:10Z
 last_reviewed: ""
-modified: 2026-04-08T17:59:06+00:00
+modified: 2026-04-08T18:01:14+00:00
 status: "seedling"
 tags: ["research", "technique", "TheHuman/Health/ADHD", "time-management", "topic/productivity"]
 title: Time-Boxing Research Prevents Productive Procrastination

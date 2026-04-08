@@ -2,7 +2,7 @@
 aliases: [MESH Integration, NHS Digital Networking, NHS Mailbox]
 created: 2025-12-10T13:06:37Z
 last_reviewed: "2026-03-28"
-modified: 2026-04-08T17:58:57+00:00
+modified: 2026-04-08T18:01:05+00:00
 status: growing
 tags: [compliance, healthcare, mesh, nhs, sot]
 title: SoT - NHS MESH Integration

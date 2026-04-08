@@ -2,7 +2,7 @@
 aliases: ["K2A Framework", "Knowledge-to-Action System", "The Motivation Bridge"]
 created: 2025-11-13T00:00:00Z
 last_reviewed: "2026-04-04"
-modified: 2026-04-08T17:58:55+00:00
+modified: 2026-04-08T18:01:02+00:00
 status: "deprecated"
 tags: ["execution", "TheHuman/Health/ADHD", "TheHuman/Psychology", "topic/productivity"]
 title: SoT - Bridging the Intention-Action Gap

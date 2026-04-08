@@ -1,6 +1,6 @@
 ---
 created: 2026-04-08T14:38:57+00:00
-modified: 2026-04-08T17:59:10+00:00
+modified: 2026-04-08T18:01:20+00:00
 title: grafana opencost
 ---
 

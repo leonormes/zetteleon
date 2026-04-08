@@ -2,7 +2,7 @@
 aliases: [Deployment SOP, FitFile Deployment Guide, Master Deployment Checklist, Phase 1-6 Manual]
 created: 2025-12-21T10:50:49Z
 last_reviewed: "2026-03-28"
-modified: 2026-04-08T17:58:59+00:00
+modified: 2026-04-08T18:01:06+00:00
 status: evergreen
 tags: [deployment, ff_deploy, manual, ops, sop]
 title: SoT - FitFile Deployment - Implementation Manual

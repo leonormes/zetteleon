@@ -2,7 +2,7 @@
 aliases: []
 created: 2026-01-07T21:28:43+00:00
 last_reviewed: ""
-modified: 2026-04-08T17:59:04+00:00
+modified: 2026-04-08T18:01:11+00:00
 priority: high
 status: active
 tags: [cloud, iam, k8s, posture, project, security]

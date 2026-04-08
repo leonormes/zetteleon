@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1775670703133,
+  "lastSync": 1775671254062,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10,23 +10,23 @@
     },
     "assets/Back of the Note.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "436b64e9aa628d7b4092d24aaf5deee844cf54aec32f4e6f8406bc94b4f1e7e9",
-      "lastIndexed": 1775485364741
+      "contentHash": "e4e2f081f2c851a47df38f15e68dce1d116d029a3653d0e989982257af0f7185",
+      "lastIndexed": 1775671158472
     },
     "Excalidraw/Scripts/Downloaded/Mindmap connector.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a4069295b14c80fd3d4557960a5f1e30afe44d41e8788f22f3a7f45e445b1c06",
-      "lastIndexed": 1775485364800
+      "contentHash": "0fdfa8c59a783303dd8dc919f06b9d22fefdd085960d27a8a845cd689831713f",
+      "lastIndexed": 1775671169723
     },
     "GEMINI.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a5412d0ac661ec47497eecb715ad9f9ec42fe37618720cf8e68449b1378580e2",
-      "lastIndexed": 1775485364923
+      "contentHash": "9c479144ae138949ee8cafe1e5271a1b2cd84530873e475cf7372eb66bfb8d6f",
+      "lastIndexed": 1775671162224
     },
     "Excalidraw/Drawing 2026-04-01 15.39.17.excalidraw.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c99239224998ebb6a3e4e92cc75b2d4d303306d63441663e093e56b7dbfe5740",
-      "lastIndexed": 1775485445653
+      "contentHash": "3e015eada5ce76b6f2a77e3379336c422ac4e09ab62044e340a42fd640e764c2",
+      "lastIndexed": 1775671165873
     },
     "30_Library/SoT/SoT - Machine Learning Foundations (Neural Networks).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -875,8 +875,8 @@
     },
     "30_Library/SoT/SoT - Linux Container Internals.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "21d3f3d7ffbc9235d5cce0ea2f331065a7dc23100ac04cc2dd0f3409bd5b9756",
-      "lastIndexed": 1775485699751
+      "contentHash": "81c118e8379dfb25d59ad9a6c1f34b643f8f6a9ac8ccdc2481a9a5909c0af0e3",
+      "lastIndexed": 1775671253811
     },
     "30_Library/SoT/SoT - Logotherapy and the Will to Meaning.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2853,16 +2853,6 @@
       "contentHash": "97f0861e056e2ae62524f57633b0f46128fc2d7223edf773b3aa22439c66cb6b",
       "lastIndexed": 1775485983164
     },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Writing Strategies Must Be Consistently Supported by School.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d9f2b6390bf2a803a316b40f14460bfafae493c784ed2bb1a54bdacad42c367f",
-      "lastIndexed": 1775485983353
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Ways of Working to Help Bessie Achieve.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "ac92ee1b575b76b753b9292cd6986a25ae779081b302f1b2241c5459d501c6ec",
-      "lastIndexed": 1775485983696
-    },
     "30_Library/200_projects/40_Personal/Family/Bessie/Writing Reduces Cognitive Load by Chunking Information.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "bec4b70acf0539e76e57aaa202fce5e2f5ad5a175b735d9deae1eae5dbff9be3",
@@ -2877,11 +2867,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "eab70ffd0db6a632efde97c12f96425f2827b04aaa66e765c68511f4f42c2c60",
       "lastIndexed": 1775485995936
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Mathematics (Edexcel GCSE).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d97019e4a693c886060a3928ae46d65d079c7214c84cd547bd59b10067a7155e",
-      "lastIndexed": 1775485998399
     },
     "30_Library/200_projects/40_Personal/Family/Bessie/Note-Taking Aids Active Processing and Organization.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2898,25 +2883,10 @@
       "contentHash": "4a808fccdb2b8631f99566c627d075f537e238aebcea2a2b133f9b61e3878c29",
       "lastIndexed": 1775485998733
     },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Learning from peers.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3df32236e6d48020582969a60e6729ddea07038b19d82afc8b8d4a8e8140dd37",
-      "lastIndexed": 1775485999672
-    },
     "30_Library/200_projects/40_Personal/Family/Bessie/Inconsistent Implementation of Bessie's Individual Support Plan (ISP) and ADHD Strategie.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "51a23fc05af8ae1f4031237effd5528f78018f1e8e8063db6a74fb448fec5d9d",
       "lastIndexed": 1775486002063
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Inconsistency in applying agreed support measures is actively undermining Bessie's progress and causing dysregulation.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a121225d5d9457d3bfdac7049e6b7ed6465c0544b7f045b0c78fd971862f7e77",
-      "lastIndexed": 1775486002098
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Inhibiting Self-Correction and Growth.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d6c72806952e20842efab9ae3bcc61c98963040d7b1201779373c9e21cadc493",
-      "lastIndexed": 1775486002117
     },
     "30_Library/200_projects/40_Personal/Family/Bessie/Highly Creative and Passionate.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",

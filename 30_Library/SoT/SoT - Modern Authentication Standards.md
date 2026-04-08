@@ -2,7 +2,7 @@
 aliases: ["AuthN Standards", "Modern Auth Protocols", "OAuth and OIDC"]
 created: 2025-12-25T13:00:00Z
 last_reviewed: "2025-12-30"
-modified: 2026-04-08T17:58:58+00:00
+modified: 2026-04-08T18:01:05+00:00
 status: "stable"
 tags: ["authentication", "oauth", "oidc", "SoftwareEngineering/Security", "standards"]
 title: SoT - Modern Authentication Standards

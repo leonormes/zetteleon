@@ -1,6 +1,6 @@
 ---
 created: 2026-04-08T14:27:49+00:00
-modified: 2026-04-08T17:59:11+00:00
+modified: 2026-04-08T18:01:20+00:00
 title: "I'm interested in learning about Viktor Frankl's p"
 ---
 

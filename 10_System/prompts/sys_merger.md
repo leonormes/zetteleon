@@ -1,7 +1,7 @@
 ---
 created: 2026-01-12T09:05:53+00:00
 description: Merge multiple source notes into one authoritative target note with clean SoT/Protocol frontmatter.
-modified: 2026-04-08T17:59:09+00:00
+modified: 2026-04-08T18:01:19+00:00
 tags: [agent, type/system]
 title: sys_merger
 type: prompt

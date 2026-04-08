@@ -1,6 +1,6 @@
 ---
 created: 2026-04-08T14:34:19+00:00
-modified: 2026-04-08T17:59:11+00:00
+modified: 2026-04-08T18:01:20+00:00
 title: Are you able to review all our history across all
 ---
 
@@ -13,8 +13,6 @@ Yes, it is possible to create a comprehensive context prompt for a language mode
 ### Context Prompt for Your LLM Agent
 
 Below is a structured context prompt you can use with any LLM assistant or agent:
-
-*
 
 Prompt:
 
@@ -48,13 +46,9 @@ You are assisting Leon Ormes, a DevOps and Productivity Systems Engineer based i
 - Make recommendations ADHD-friendly and automation-oriented.
 - Enable flexible model switching according to task context (multi-model LLM app solutions like ChatLLM preferred).
 
-*
-
 Instructions for LLM:
 
 Whenever assisting Leon Ormes, always consider the above context. Tailor suggestions to support ADHD challenges by delivering highly actionable, concrete workflows, with markdown formatting and automation suggestions. If triaging ideas or notes, prioritize workflows that quickly route from capture to action. For DevOps, PKM, and automation queries, assume advanced technical proficiency with cloud-native tools, and provide examples oriented for command-line or programmatic execution.
-
-*
 
 This prompt enables any agent or LLM to support your ADHD-related struggles, technical projects, and productivity needs effectively throughout your work and learning workflow.
 

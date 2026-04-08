@@ -1,7 +1,7 @@
 ---
 aliases: [Neural Network Foundations, The Switch-Bump-Staircase Model, Universal Approximation Theorem]
 created: 2026-04-05T12:45:00+01:00
-modified: 2026-04-08T17:58:58+00:00
+modified: 2026-04-08T18:01:05+00:00
 status: stable
 tags: [ai, computer-science, machine-learning, mathematics, neural-networks, sot]
 title: SoT - Machine Learning Foundations (Neural Networks)

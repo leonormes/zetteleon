@@ -3,7 +3,7 @@ aliases: ["DSPT", "NHS Compliance", "NHS England Blueprints"]
 created: 2026-04-05T10:45:00Z
 last-synthesis: 2026-04-05
 last_reviewed: 
-modified: 2026-04-08T17:58:57+00:00
+modified: 2026-04-08T18:01:05+00:00
 status: "Active"
 synthesis-count: 1
 tags: ["compliance", "healthcare", "iam", "nhs", "sot"]

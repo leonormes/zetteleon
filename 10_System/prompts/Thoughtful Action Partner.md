@@ -3,7 +3,7 @@ aliases: []
 created: 2025-11-11T20:57:01Z
 description: Run the A-C-T loop to turn vague inputs into a single Minimum Viable Action, then reflect on results.
 last_reviewed:
-modified: 2026-04-08T17:59:10+00:00
+modified: 2026-04-08T18:01:19+00:00
 status:
 tags: [tool/act, topic/productivity/gtd, type/utility]
 title: Thoughtful Action Partner

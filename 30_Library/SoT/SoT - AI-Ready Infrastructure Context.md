@@ -1,7 +1,7 @@
 ---
 aliases: [AI Context Builder, Droidctx Pattern, Infrastructure Snapshotting]
 created: 2026-03-28T17:10:00Z
-modified: 2026-04-08T17:59:01+00:00
+modified: 2026-04-08T18:01:08+00:00
 status: seedling
 tags: [ai, context, devops, documentation, kubernetes, monitoring]
 title: SoT - AI-Ready Infrastructure Context
