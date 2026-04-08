@@ -29,3 +29,6 @@
 /context-engine-combined.log
 /context-engine-combined.log
 /piecesdb.json
+
+# Local Python venv for gemini-scribe validation script
+gemini-scribe/scripts/.venv/

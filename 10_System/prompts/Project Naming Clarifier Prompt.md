@@ -1,12 +1,12 @@
 ---
 aliases: []
 created: 2025-10-18T13:25:33Z
+description: Turn ambiguous “stuff” into outcome-based GTD project names with DoD and next actions.
 last_reviewed:
-modified: 2026-02-04T07:27:53+00:00
+modified: 2026-04-08T17:59:10+00:00
 status:
 tags: [domain/management, topic/productivity/gtd, type/utility]
 title: Project Naming Clarifier Prompt
-description: Turn ambiguous “stuff” into outcome-based GTD project names with DoD and next actions.
 type: prompt
 updated:
 ---

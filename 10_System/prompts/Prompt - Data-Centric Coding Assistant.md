@@ -1,9 +1,9 @@
 ---
 created: 2026-03-21T10:00:00Z
-modified: 2026-03-28T13:39:34+00:00
+description: Enforce data-structure-first problem solving (shape/access/invariants/logic) and eliminate validation-heavy code.
+modified: 2026-04-08T17:59:10+00:00
 tags: [domain/coding, engineering/philosophy, type/system]
 title: Prompt - Data-Centric Coding Assistant
-description: Enforce data-structure-first problem solving (shape/access/invariants/logic) and eliminate validation-heavy code.
 type: "prompt"
 ---
 

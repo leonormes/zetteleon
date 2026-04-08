@@ -1,10 +1,10 @@
 ---
 aliases: []
 created: 2026-02-02T07:05:00+00:00
-modified: 2026-02-02T07:17:46+00:00
+description: Leon’s dev environment constraints (macOS, zsh, WezTerm, Neovim/VS Code, CLI-first workflow).
+modified: 2026-04-08T17:59:10+00:00
 tags: [domain/dev-environment, system/prompt, type/context]
 title: leon-context-dev-environment
-description: Leon’s dev environment constraints (macOS, zsh, WezTerm, Neovim/VS Code, CLI-first workflow).
 type: prompt
 ---
 

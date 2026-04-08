@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T17:16:00Z
 last_reviewed: "2026-04-08"
-modified: 2026-04-08T00:00:00Z
+modified: 2026-04-08T17:59:03+00:00
 status: "growing"
 tags: ["docker", "kubernetes", "SoftwareEngineering/Containers"]
 title: MOC - Containerisation
@@ -16,7 +16,7 @@ A comprehensive Map of Content for understanding containerisation from Linux fun
 
 ## Context / Problem
 
-Containerisation knowledge is fragmented across multiple domains — Linux kernel features, networking concepts, Kubernetes abstractions, and practical implementation details. Without a structured approach, it's difficult to build a coherent mental model that connects the low-level Linux primitives to high-level container orchestration. This MOC provides a navigable framework for learning and reference.
+Containerisation knowledge is fragmented across multiple domains—Linux kernel features, networking concepts, Kubernetes abstractions, and practical implementation details. Without a structured approach, it's difficult to build a coherent mental model that connects the low-level Linux primitives to high-level container orchestration. This MOC provides a navigable framework for learning and reference.
 
 ## Structure
 
@@ -31,14 +31,14 @@ Deep dive into Linux networking primitives that form the foundation of container
 
 ### 🔧 [[MOC - Linux Container Primitives|Linux Fundamentals & Kernel Internals]]
 
-Core Linux kernel features that enable containerisation — namespaces, cgroups, syscalls, and virtual switching:
+Core Linux kernel features that enable containerisation—namespaces, cgroups, syscalls, and virtual switching:
 
 - Process isolation (PID namespaces)
 - File system isolation (mount namespaces)
 - Network isolation (network namespaces)
 - Hostname isolation (UTS namespaces)
 - Virtual File System (VFS) abstraction
-- Cgroups (Control Groups): CPU/memory limits — the "Resource Police"
+- Cgroups (Control Groups): CPU/memory limits—the "Resource Police"
 - Syscalls: `clone()` vs `unshare()` for process isolation
 - Virtual Switching: veth pairs and bridges acting as virtual switches
 
@@ -88,47 +88,47 @@ Step-by-step tutorials and practical exercises:
 
 ## Key Insights
 
-- Container networking is just automated Linux networking — CNI plugins automate `ip` commands
-- Namespaces provide isolation, veth pairs provide connectivity — the fundamental pattern
-- Kubernetes abstracts but doesn't hide — understanding Linux primitives enables better debugging
-- Network policies are iptables rules — security builds on kernel features
-- Cgroups are the Resource Police — enforcing limits to ensure Quality of Service (QoS)
+- Container networking is just automated Linux networking—CNI plugins automate `ip` commands
+- Namespaces provide isolation, veth pairs provide connectivity—the fundamental pattern
+- Kubernetes abstracts but doesn't hide—understanding Linux primitives enables better debugging
+- Network policies are iptables rules—security builds on kernel features
+- Cgroups are the Resource Police—enforcing limits to ensure Quality of Service (QoS)
 
 ## Related Areas
 
-- [[MOC - Kubernetes Architecture]] — broader K8s context
+- [[MOC - Kubernetes Architecture]]—broader K8s context
 
 ---
 
 ## Sub-MOCs
 
-- [[MOC - Container Networking Model]] — Linux networking foundations and Kubernetes mapping
-- [[MOC - Linux Container Primitives]] — Kernel features enabling containers (namespaces, cgroups, syscalls)
-- [[MOC - Container Runtime & Orchestration]] — Runtime interfaces and orchestration
-- [[MOC - Hands-on Container Labs]] — Practical tutorials and debugging guides
+- [[MOC - Container Networking Model]]—Linux networking foundations and Kubernetes mapping
+- [[MOC - Linux Container Primitives]]—Kernel features enabling containers (namespaces, cgroups, syscalls)
+- [[MOC - Container Runtime & Orchestration]]—Runtime interfaces and orchestration
+- [[MOC - Hands-on Container Labs]]—Practical tutorials and debugging guides
 
 ## Source of Truth Notes
 
-> These SoT notes are the canonical source for individual concepts — the atomic notes below are entry points to specific sub-topics.
+> These SoT notes are the canonical source for individual concepts—the atomic notes below are entry points to specific sub-topics.
 
-- [[SoT - Linux Networking Primitives]] — Veth, Bridge, IPTables, IP Forwarding, network namespaces
-- [[SoT - Kubernetes Networking & DNS]] — Services, Ingress, CNI, CoreDNS, kube-proxy
+- [[SoT - Linux Networking Primitives]]—Veth, Bridge, IPTables, IP Forwarding, network namespaces
+- [[SoT - Kubernetes Networking & DNS]]—Services, Ingress, CNI, CoreDNS, kube-proxy
 
 ## Core Reference Notes
 
 ### Foundational Concepts
 
-- [[Linux Networking]] — Hands-on learning curriculum
-- [[MOC - Container Networking Model]] — Linux-to-Kubernetes mapping table
-- [[Cgroups Limit and Manage Container Resources]] — Resource management and isolation deep dive
+- [[Linux Networking]]—Hands-on learning curriculum
+- [[MOC - Container Networking Model]]—Linux-to-Kubernetes mapping table
+- [[Cgroups Limit and Manage Container Resources]]—Resource management and isolation deep dive
 
 ### Orchestration Components
 
-- [[Container Runtime Configures Pod Networking Through CNI Plugins]] — Runtime networking responsibilities
-- [[Kube-Proxy Implements Services Using Iptables or IPVS]] — Service implementation
-- [[etcd stores cluster network state and service configuration]] — Cluster state management
-- [[Kubernetes networking components coordinate through a defined workflow]] — Component coordination
-- [[Kubernetes Provides NodePort and LoadBalancer for External Service Access]] — External access patterns
+- [[Container Runtime Configures Pod Networking Through CNI Plugins]]—Runtime networking responsibilities
+- [[Kube-Proxy Implements Services Using Iptables or IPVS]]—Service implementation
+- [[etcd stores cluster network state and service configuration]]—Cluster state management
+- [[Kubernetes networking components coordinate through a defined workflow]]—Component coordination
+- [[Kubernetes Provides NodePort and LoadBalancer for External Service Access]]—External access patterns
 
 ### Linux Primitives (Atomic Notes)
 

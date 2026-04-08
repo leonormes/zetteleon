@@ -2,7 +2,7 @@
 aliases: []
 created: 2026-01-03T10:10:15+00:00
 last_reviewed: ""
-modified: 2026-02-01T15:08:02+00:00
+modified: 2026-04-08T17:59:01+00:00
 status: ""
 tags: []
 title: SoT - ADHD Neurology & Core Concepts
@@ -56,6 +56,27 @@ Tenacity is not a character trait; it is a physical structure in the Anterior Mi
 	- The Plateau: Once the core logic is understood (the "20%"), the rate of novelty drops. Prediction error hits zero, and the dopamine supply is cut off.
 	- The Quit Trigger: The ADHD brain interprets this chemical drop as "boredom" or "lost interest," triggering a shift to a new "Shiny Object."
 - The Willpower Muscle: The AMCC only grows when we perform tasks we do not want to do. If we enjoy the work, the AMCC remains dormant. Frequent "quitting" leads to AMCC atrophy, while overcoming resistance leads to hypertrophy.
+
+#### 1.5 Functional Brain Networks (The Switching Mechanics)
+
+The ADHD brain exhibits dysregulation in the anticorrelation between two primary functional networks, often described as a "Glitchy Switch."
+
+- Task-Positive Network (TPN): Activated during externally-focused, attention-demanding tasks.
+- Default Mode Network (DMN): Activated during internally-focused thought (mind-wandering, rumination, precuneus activity).
+
+The Dysregulation (Deactivation Failure):
+
+In neurotypical brains, as task load increases, the DMN (specifically the precuneus) progressively deactivates. In the ADHD brain, this deactivation fails. The DMN "intrudes" upon the TPN, leading to:
+
+- Mind-Wandering: The inability to "turn off" internal mentation during external tasks.
+- Negative Rumination: Getting "stuck" in the DMN, leading to self-critical brooding when not externally engaged.
+- Fluctuating Intensity: Rapid, unpredictable shifts between deep focus (TPN) and total distraction (DMN).
+
+#### 1.6 The Cerebellum & Regulation
+
+Beyond motor control, the cerebellum is a critical hub for cognitive and emotional stability. An under-stimulated cerebellum contributes to attentional "jitter."
+
+- The Fix: Exercises challenging balance and coordination (isometrics, yoga, proprioception) "charge" the cerebellum, increasing dopamine/norepinephrine levels and stabilizing the switching mechanics between the TPN and DMN.
 
 ---
 

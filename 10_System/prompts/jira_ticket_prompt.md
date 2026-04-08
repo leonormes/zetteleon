@@ -1,9 +1,9 @@
 ---
 created: 2026-02-25T13:16:14+00:00
-modified: 2026-04-01T10:55:44+00:00
-title: jira_ticket_prompt
 description: Generate Jira ticket JSON payloads (ADF description) for the `jira_post` tool.
+modified: 2026-04-08T17:59:10+00:00
 tags: [tool/jira, type/utility]
+title: jira_ticket_prompt
 type: prompt
 ---
 

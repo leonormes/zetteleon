@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-08T12:32:39Z
 last_reviewed:
-modified: 2026-04-02T08:48:08+00:00
+modified: 2026-04-08T17:58:53+00:00
 status:
 tags: []
 title: GEMINI
@@ -14,11 +14,11 @@ updated:
 
 ### 1. Mandatory Tool Usage (MCP Proxy)
 
-STRICT RULE: When interacting with any external system or the Obsidian vault, you MUST use the **MCP Proxy** tools. This system requires a "Discovery-before-Execution" pattern.
+STRICT RULE: When interacting with any external system or the Obsidian vault, you MUST use the MCP Proxy tools. This system requires a "Discovery-before-Execution" pattern.
 
-- **Discovery:** Use `mcp_mcp-proxy_retrieve_tools` with a query (e.g., "obsidian", "search notes") to find available tools and their `input_schema`.
-- **Execution:** Use `mcp_mcp-proxy_call_tool` with the exact tool name (e.g., `obsidian_mcp_tools_search_vault_smart`) and the required `args`.
-- **Trigger:** Any request involving reading, searching, or summarizing vault content, or interacting with Jira/Todoist, requires this protocol.
+- Discovery: Use `mcp_mcp-proxy_retrieve_tools` with a query (e.g., "obsidian", "search notes") to find available tools and their `input_schema`.
+- Execution: Use `mcp_mcp-proxy_call_tool` with the exact tool name (e.g., `obsidian_mcp_tools_search_vault_smart`) and the required `args`.
+- Trigger: Any request involving reading, searching, or summarizing vault content, or interacting with Jira/Todoist, requires this protocol.
 
 ### 2. Negative Constraints (What NOT to do)
 
@@ -28,10 +28,10 @@ STRICT RULE: When interacting with any external system or the Obsidian vault, yo
 
 ### 3. Workflow
 
-1. **Identify Intent:** Does the user need information from the vault or an external system?
-2. **Retrieve Tools:** Use `mcp_mcp-proxy_retrieve_tools` to find the correct tool and its schema.
-3. **Call Tool:** Use `mcp_mcp-proxy_call_tool` with the validated name and arguments.
-4. **Verify:** Check the tool output before generating the final answer.
+1. Identify Intent: Does the user need information from the vault or an external system?
+2. Retrieve Tools: Use `mcp_mcp-proxy_retrieve_tools` to find the correct tool and its schema.
+3. Call Tool: Use `mcp_mcp-proxy_call_tool` with the validated name and arguments.
+4. Verify: Check the tool output before generating the final answer.
 
 ### GEMINI.md - ProdOS System Context
 
@@ -96,7 +96,7 @@ Treat this system not as a Database (Storage) but as a Runtime Environment (Comp
 
 #### 3. Your Workflows
 
-Always use the **MCP Proxy** tools to interact with the vault. Utilize the discovery protocol to identify semantic search tools (e.g., `search_vault_smart`) before execution.
+Always use the MCP Proxy tools to interact with the vault. Utilize the discovery protocol to identify semantic search tools (e.g., `search_vault_smart`) before execution.
 
 ##### Phase 1: Refine (The "Psychiatrist")
 

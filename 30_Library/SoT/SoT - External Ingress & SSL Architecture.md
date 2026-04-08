@@ -1,7 +1,7 @@
 ---
 alias: ["Cross-Cluster HTTPS", "DNS-IP Ownership Model", "External Ingress SSL"]
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-02-05T19:59:37+00:00
+modified: 2026-04-08T17:58:59+00:00
 status: stable
 tags: ["cert-manager", "cloudflare", "ingress", "kubernetes", "sot", "ssl"]
 title: SoT - External Ingress & SSL Architecture
@@ -100,23 +100,26 @@ spec:
 
 ## 4. The DNS-01 & Split-Horizon Pattern
 
-For services on a private network (e.g., `192.168.x.x`), the standard **HTTP-01** challenge is impossible because Let's Encrypt cannot reach the internal server. 
+For services on a private network (e.g., `192.168.x.x`), the standard HTTP-01 challenge is impossible because Let's Encrypt cannot reach the internal server.
 
 ### 4.1 The Elegant Solution: DNS-01
-DNS-01 decouples "proving domain ownership" from "where the service runs." Validation happens entirely in the **Public DNS** layer (Cloudflare), which is always reachable by Let's Encrypt.
+
+DNS-01 decouples "proving domain ownership" from "where the service runs." Validation happens entirely in the Public DNS layer (Cloudflare), which is always reachable by Let's Encrypt.
 
 ### 4.2 Split-Horizon Architecture
+
 To make this work seamlessly, two parallel truths about the domain must exist:
 
 | Layer | Zone | Purpose |
 |:--- |:--- |:--- |
-| **Public** (Cloudflare) | `fitfile.net` $\to$ Public IP | Serves `_acme-challenge` TXT records for Let's Encrypt. |
-| **Private** (Azure/CoreDNS) | `fitfile.net` $\to$ Private IP | Routes internal traffic to the actual private workload. |
+| Public (Cloudflare) | `fitfile.net` $\to$ Public IP | Serves `_acme-challenge` TXT records for Let's Encrypt. |
+| Private (Azure/CoreDNS) | `fitfile.net` $\to$ Private IP | Routes internal traffic to the actual private workload. |
 
 ### 4.3 Why This Works
-- **No Firewall Holes**: Zero inbound connectivity required from the internet to the private network.
-- **Trusted Everywhere**: Once issued, the certificate is globally trusted by any client (internal or external).
-- **Automation**: `cert-manager` updates the public TXT record via API, obtains the cert, and then cleans up.
+
+- No Firewall Holes: Zero inbound connectivity required from the internet to the private network.
+- Trusted Everywhere: Once issued, the certificate is globally trusted by any client (internal or external).
+- Automation: `cert-manager` updates the public TXT record via API, obtains the cert, and then cleans up.
 
 ---
 

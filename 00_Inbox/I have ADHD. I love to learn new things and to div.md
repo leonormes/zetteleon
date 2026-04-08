@@ -1,6 +1,6 @@
 ---
 created: 2026-04-08T14:32:38+00:00
-modified: 2026-04-08T14:40:56+00:00
+modified: 2026-04-08T17:59:11+00:00
 title: I have ADHD. I love to learn new things and to div
 ---
 
@@ -10,7 +10,7 @@ The key to managing ADHD while using LLMs for deep learning and thinking is to f
 
 ## Addressing Information Overload and ADHD
 
-- ADHD brains are prone to overwhelm from excessive information and repetitive content, which can cause mental exhaustion or paralysis in decision-making. Regular breaks and limiting the intake of new information are important [^1].[^2][^3]
+- ADHD brains are prone to overwhelm from excessive information and repetitive content, which can cause mental exhaustion or paralysis in decision-making. Regular breaks and limiting the intake of new information are important.[^1][^2][^3]
 - Setting limits on saved content and repeatedly reviewing for relevance promotes focus, preventing accumulation of unused notes.[^4]
 
 ## Productive Use of LLMs for ADHD
@@ -43,7 +43,7 @@ The key to managing ADHD while using LLMs for deep learning and thinking is to f
 - Regularly curate and simplify your Obsidian note graph.
 - Balance LLM use with dedicated personal reflection time.
 
-This approach can help you stay in control of your workflow, optimize ADHD-friendly thinking without losing your unique insights, and leverage LLMs as powerful partners rather than overwhelming content generators [^1][^5][^9].[^8][^6]
+This approach can help you stay in control of your workflow, optimize ADHD-friendly thinking without losing your unique insights, and leverage LLMs as powerful partners rather than overwhelming content generators [^1][^5].[^9][^8][^6]
 
 <span style="display:none">[^10][^11][^12][^13][^14][^15][^16][^17][^18][^19][^20]</span>
 

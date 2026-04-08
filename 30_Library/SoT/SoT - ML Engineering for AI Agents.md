@@ -1,7 +1,7 @@
 ---
 aliases: [Agentic ML Workflow, ML Engineering for Agents, SuperML Pattern]
 created: 2026-03-28T17:30:00Z
-modified: 2026-03-29T11:38:19+00:00
+modified: 2026-04-08T17:58:58+00:00
 status: seedling
 tags: [agents, ai, devops, engineering, machine-learning, workflows]
 title: SoT - ML Engineering for AI Agents
@@ -34,7 +34,7 @@ A persistent ML agent should maintain state across conversations:
 - Experiment Log: Avoid repeating failed experiments by checking past results.
 - Battle-Tested Defaults: Cite verified defaults for frameworks like vLLM, DeepSpeed, or LangChain.
 
-*Note*: This is a domain-specific instance of the [[SoT - LLM Wiki Pattern]] — the Experiment Log is the "wiki layer" for ML engineering, maintained by the agent across sessions rather than rediscovered on each query.
+_Note_: This is a domain-specific instance of the [[SoT - LLM Wiki Pattern]]—the Experiment Log is the "wiki layer" for ML engineering, maintained by the agent across sessions rather than rediscovered on each query.
 
 ### 3. Knowledge Grounding (Leeroopedia)
 

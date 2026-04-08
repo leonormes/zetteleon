@@ -1,8 +1,9 @@
 ---
 aliases: [Ops Triage, Protocol Triage]
-created: 2026-04-08
+created: 2026-04-08T00:00:00+00:00
+modified: 2026-04-08T17:59:01+00:00
 status: seedling
-tags: [moc, triage, operations, protocols, devops]
+tags: [devops, moc, operations, protocols, triage]
 title: MOC - Operations & Diagnostics (Triage)
 type: map
 ---
@@ -48,6 +49,6 @@ This hub triages the "Operational Playbooks/Diagnostics" cluster, focusing on Ze
 
 ### 5. Recommended Actions
 
-- [ ] **Harvest:** Extract the terminal commands from the "Network Debugging" SoTs into a set of `Atomic Commands` for the DevOps Agent.
-- [ ] **Synthesise:** Create a "Master Runbook Index" that maps specific failure states to these diagnostic protocols.
-- [ ] **Consolidate:** Merge the various "Jumpbox" protocols into a single [[SoT - Hybrid Cloud Access (Jumpboxes)]].
+- [ ] Harvest: Extract the terminal commands from the "Network Debugging" SoTs into a set of `Atomic Commands` for the DevOps Agent.
+- [ ] Synthesise: Create a "Master Runbook Index" that maps specific failure states to these diagnostic protocols.
+- [ ] Consolidate: Merge the various "Jumpbox" protocols into a single [[SoT - Hybrid Cloud Access (Jumpboxes)]].

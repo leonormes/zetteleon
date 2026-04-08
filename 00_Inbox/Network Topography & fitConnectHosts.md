@@ -1,6 +1,6 @@
 ---
 created: 2026-03-31T14:50:52+00:00
-modified: 2026-03-31T14:59:29+00:00
+modified: 2026-04-08T17:59:12+00:00
 title: Network Topography & fitConnectHosts
 ---
 
@@ -279,6 +279,7 @@ fitConnectUri: https://nhs-provider-2.fitfile.net/fitconnect
 | Missing self-entry                      | ✅ present (`fitConnectUri`)                                                |
 | Missing `coordinatorUri` on ALL entries | ❌ ALL entries lack `coordinatorUri`—coordinator-mediated queries will fail |
 | Missing `allowedOrigin`                 | ❌ MISSING                                                                  |
+
 This is a significant gap. If `coordinatorUri` is required for tenant resolution or orchestration, every federated call from this node is misconfigured.
 
 ---
@@ -363,13 +364,13 @@ In-cluster service DNS does not have TLS certificates. This should be `http://`.
 ### 4. Findings Summary
 
 | Environment    | Missing Self | Self Uses Public URL |  Short Hostname  | Missing `allowedOrigin` | Missing `coordinatorUri` | Other                               |
-| -------------- | :----------: | :------------------: | :--------------: | :---------------------: | :----------------------: | ----------------------------------- |
+| -------------- |:----------: |:------------------: |:--------------: |:---------------------: |:----------------------: | ----------------------------------- |
 | `nwsde-prod-1` |      🔴      |         N/A          |       N/A        |            ✅            |           N/A            | lca-prd-2 port unverified           |
 | `ff-a`         |      ✅       |   ⚠️ fitConnectUri   |  ⚠️ coordinator  |           🔴            |            ✅             | peers use public coordinator        |
 | `ff-test-a`    |      ✅       |          ✅           |  ⚠️ coordinator  |            ✅            |            ✅             | ff-test-c has `https://` on svc URL |
 | `hie-prod-34`  |      ✅       |          ✅           |        ⚠️        |           🔴            |            ✅             | asymmetric with ff-a                |
-| `hie-test-34`  |      ✅       |          ✅           |        ⚠️        |           🔴            |            ✅             | —                                   |
-| `ff-eoe-sde`   |      ✅       |          ✅           |        ⚠️        |           🔴            |      🔴 all entries      | —                                   |
+| `hie-test-34`  |      ✅       |          ✅           |        ⚠️        |           🔴            |            ✅             |—|
+| `ff-eoe-sde`   |      ✅       |          ✅           |        ⚠️        |           🔴            |      🔴 all entries      |—|
 | `kch/prod`     |      ✅       |          ✅           | ⚠️ (intentional) |           🔴            |            🔴            | old chart schema                    |
 | `kch/mn4`      |      ✅       |          ✅           |        ⚠️        |            ✅            |            🔴            | old chart schema                    |
 | `stg/sandbox`  |      ✅       |          ✅           |        ⚠️        |           🔴            |            🔴            | old chart schema                    |
@@ -442,6 +443,7 @@ Adopt a two-tier convention and document it explicitly:
 | Same cluster, different namespace | `http://<release>-fitconnect-ftc.<namespace>.svc.cluster.local/fitconnect` | `http://<release>-ffcloud-service.<namespace>.svc.cluster.local/ffcloud` |
 | Cross-cluster (external node)     | `https://<env>.fitfile.net/fitconnect`                                     | `https://<env>.fitfile.net/ffcloud`                                      |
 | Custom port (e.g. lca-prd-2)      | `https://<env>.fitfile.net:<port>/fitconnect`                              | `https://<env>.fitfile.net:<port>/ffcloud`                               |
+
 Enforce this with a Helm schema validation (`values.schema.json`) that rejects entries where `fitConnectUri` contains a public hostname for a same-cluster peer, or where `coordinatorUri` is missing entirely.
 
 #### Rec 4: Add `values.schema.json` Validation

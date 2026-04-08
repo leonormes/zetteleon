@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://prodos.local/schemas/prodos-note-frontmatter.schema.json",
+  "title": "ProdOS note frontmatter (partial document)",
+  "description": "Validates YAML frontmatter for vault notes per SoT - ProdOS Note Metadata (Frontmatter). Only keys that participate in prodos are strict; legacy top-level keys are allowed as additional properties.",
+  "type": "object",
+  "required": ["title", "created", "modified", "tags", "prodos"],
+  "additionalProperties": true,
+  "properties": {
+    "title": { "type": "string", "minLength": 1 },
+    "created": { "type": "string", "description": "ISO 8601 datetime with offset" },
+    "modified": { "type": "string", "description": "ISO 8601 datetime with offset" },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "see_also": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "supersedes": { "type": "string" },
+    "superseded_by": { "type": "string" },
+    "prodos": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "lifecycle"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "head",
+            "sot",
+            "protocol",
+            "moc",
+            "atomic",
+            "project",
+            "ops",
+            "prompt",
+            "journal"
+          ]
+        },
+        "lifecycle": {
+          "type": "string",
+          "enum": ["seedling", "active", "stable", "evergreen", "archived"]
+        },
+        "trust": {
+          "type": "string",
+          "enum": ["low", "working", "stable", "authoritative"]
+        },
+        "id": { "type": "string" },
+        "review": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "interval": { "type": "string" },
+            "last_reviewed": { "type": "string" }
+          }
+        },
+        "chronos": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "last_synthesis": { "type": "string" },
+            "synthesis_count": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "protocol": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "applies_to": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "binary_checklist": { "type": "boolean" }
+          }
+        },
+        "moc": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "hub_for": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "entry_points": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "atomic": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["form"],
+          "properties": {
+            "form": {
+              "type": "string",
+              "enum": [
+                "concept",
+                "claim",
+                "definition",
+                "metaphor",
+                "hypothesis",
+                "strategy",
+                "insight"
+              ]
+            }
+          }
+        },
+        "ops": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "tool": { "type": "string" },
+            "target_service": { "type": "string" },
+            "hop_level": { "type": "string" },
+            "requires_tunnel": { "type": "boolean" },
+            "prerequisites": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "prompt": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "description": { "type": "string" },
+            "inject_as": { "type": "string" },
+            "model_hints": { "type": "string" }
+          }
+        },
+        "project": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "area": { "type": "string" },
+            "status": { "type": "string" },
+            "owner": { "type": "string" }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "kind": { "const": "atomic" } },
+            "required": ["kind"]
+          },
+          "then": { "required": ["atomic"] }
+        },
+        {
+          "if": {
+            "properties": { "kind": { "const": "sot" } },
+            "required": ["kind"]
+          },
+          "then": {}
+        },
+        {
+          "if": {
+            "properties": { "kind": { "const": "protocol" } },
+            "required": ["kind"]
+          },
+          "then": { "required": ["protocol"] }
+        },
+        {
+          "if": {
+            "properties": { "kind": { "const": "moc" } },
+            "required": ["kind"]
+          },
+          "then": {}
+        },
+        {
+          "if": {
+            "properties": { "kind": { "const": "ops" } },
+            "required": ["kind"]
+          },
+          "then": {}
+        },
+        {
+          "if": {
+            "properties": { "kind": { "const": "prompt" } },
+            "required": ["kind"]
+          },
+          "then": {}
+        }
+      ]
+    }
+  }
+}

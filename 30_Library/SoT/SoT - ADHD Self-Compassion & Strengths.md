@@ -2,7 +2,7 @@
 aliases: ["ADHD Coping Mechanisms", "ADHD Strengths SoT", "Race Car Brain with Bicycle Brakes", "Vitamin Connect"]
 created: 2026-02-03T10:30:00+00:00
 last_synthesis: 2026-04-04
-modified: 2026-04-04T12:00:00Z
+modified: 2026-04-08T17:59:01+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 2
@@ -86,11 +86,11 @@ ADHD minds live in a rich "Internal World." Validation from others provides the 
 
 Shame in ADHD is not a moral failing, but a secondary pathology developed through the following constellation of reinforcing mechanisms:
 
-1. **The Origin:** [[Misinterpretation as Character Flaws]] - Executive dysfunction (lateness, forgetting) is wrongly labeled as "laziness" or "selfishness" by authority figures.
-2. **The Internalization:** [[Distorted Negative Self-Image]] - The individual accepts these labels as truth, viewing themselves as fundamentally broken ("defective").
-3. **The Amplifier:** [[Rejection Sensitive Dysphoria (RSD)]] - The intense biological pain of rejection makes this shame unbearable, leading to extreme avoidance strategies.
-4. **The Result:** [[Unexplained Underachievement]] - The gap between potential and output reinforces the belief of inherent defectiveness.
-5. **The Mechanism:** [[MOC - Emotional Dysregulation]] - The inability to self-soothe keeps the individual trapped in this negative loop.
+1. The Origin: [[Misinterpretation as Character Flaws]] - Executive dysfunction (lateness, forgetting) is wrongly labeled as "laziness" or "selfishness" by authority figures.
+2. The Internalization: [[Distorted Negative Self-Image]] - The individual accepts these labels as truth, viewing themselves as fundamentally broken ("defective").
+3. The Amplifier: [[Rejection Sensitive Dysphoria (RSD)]] - The intense biological pain of rejection makes this shame unbearable, leading to extreme avoidance strategies.
+4. The Result: [[Unexplained Underachievement]] - The gap between potential and output reinforces the belief of inherent defectiveness.
+5. The Mechanism: [[MOC - Emotional Dysregulation]] - The inability to self-soothe keeps the individual trapped in this negative loop.
 
 ---
 

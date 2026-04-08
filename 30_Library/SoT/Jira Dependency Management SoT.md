@@ -1,7 +1,7 @@
 ---
 created: 2026-02-04T09:12:25+00:00
 last-synthesis: 2026-02-04
-modified: 2026-02-04T09:51:19+00:00
+modified: 2026-04-08T17:59:01+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
@@ -32,10 +32,12 @@ Native Jira (Cloud) cannot natively filter for "Actionable" tasks (i.e., tasks w
 - Cons: "Eventual consistency" (slight delay), requires rule maintenance.
 
 #### Pattern C: Terminal UI (Lazyjira)
-For high-velocity engineers, the Jira Web UI is often a bottleneck. **Lazyjira** provides a keyboard-driven interface similar to `lazygit`.
-- **Mechanism**: CLI tool that supports JQL search with autocomplete and vim-style navigation.
-- **Benefit**: Reduces latency for status updates, comment drafting, and JQL experimentation. Allows creating branches directly from issues.
-- **Usage**: `lazyjira` command from the terminal.
+
+For high-velocity engineers, the Jira Web UI is often a bottleneck. Lazyjira provides a keyboard-driven interface similar to `lazygit`.
+
+- Mechanism: CLI tool that supports JQL search with autocomplete and vim-style navigation.
+- Benefit: Reduces latency for status updates, comment drafting, and JQL experimentation. Allows creating branches directly from issues.
+- Usage: `lazyjira` command from the terminal.
 
 ### 3. Structural Best Practices
 

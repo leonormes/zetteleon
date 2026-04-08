@@ -1,8 +1,8 @@
 ---
-aliases: ["Network Units", "PDU", "SDU", "Encapsulation", "The Russian Doll Mechanism"]
+aliases: ["Encapsulation", "Network Units", "PDU", "SDU", "The Russian Doll Mechanism"]
 created: 2025-12-23T22:38:57Z
 last_reviewed: "2026-04-04"
-modified: 2026-04-04T12:00:00Z
+modified: 2026-04-08T17:58:57+00:00
 status: "stable"
 tags: ["osi", "pdu", "protocol", "SoftwareEngineering/Networking", "topic/technology"]
 title: SoT - Protocol Data Units (PDU)
@@ -19,22 +19,23 @@ updated:
 
 ## 2. The "Russian Doll" Mechanism (Encapsulation)
 
-The networking stack utilizes **Encapsulation** to allow independent systems (apps, OS, routers) to cooperate without knowing each other's internals.
+The networking stack utilizes Encapsulation to allow independent systems (apps, OS, routers) to cooperate without knowing each other's internals.
 
-- **Process:** As data moves down the stack, each layer treats the unit from the layer above as an opaque payload and wraps it with its own header (and sometimes a trailer).
-- **Result:** A nested structure where the "outer" layers provide the context needed for the "inner" data to reach its destination.
+- Process: As data moves down the stack, each layer treats the unit from the layer above as an opaque payload and wraps it with its own header (and sometimes a trailer).
+- Result: A nested structure where the "outer" layers provide the context needed for the "inner" data to reach its destination.
 
 ### SDU vs. PDU
-To understand the nesting, we distinguish between two types of data units:
-1. **SDU (Service Data Unit):** The data received from the layer above.
-2. **PDU (Protocol Data Unit):** The total package (Header + SDU + Trailer) passed to the layer below.
 
-**Formula:** `Header + SDU = PDU`.
+To understand the nesting, we distinguish between two types of data units:
+
+1. SDU (Service Data Unit): The data received from the layer above.
+2. PDU (Protocol Data Unit): The total package (Header + SDU + Trailer) passed to the layer below.
+
+Formula: `Header + SDU = PDU`.
 
 ---
 
 ## 3. The Path of a Request (HTTP Example)
-
 
 ## 2. Layer-by-Layer Encapsulation Logic
 

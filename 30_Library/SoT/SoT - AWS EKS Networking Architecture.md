@@ -2,7 +2,7 @@
 aliases: ["AWS VPC CNI vs Calico", "EKS IP Planning", "EKS Networking Requirements", "EKS Networking"]
 created: 2026-02-01T21:19:14+00:00
 last-synthesis: 2026-04-04
-modified: 2026-04-04T13:00:00+00:00
+modified: 2026-04-08T17:59:01+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 3
@@ -45,13 +45,15 @@ EKS uses Security Groups to control traffic boundaries:
 #### 1.3 Common Operational Scenarios
 
 ##### Scenario: Outbound Connectivity from a Private Subnet (The Jumpbox Pattern)
+
 To enable a resource (like a jumpbox) in a private subnet to make external requests, the following chain must be intact:
-1. **Private Subnet:** Hosts the resource.
-2. **NAT Gateway:** Located in a **Public Subnet** within the same VPC.
-3. **Route Table (Private):** Must have a route `0.0.0.0/0` pointing to the `nat-gateway-id`.
-4. **Internet Gateway (IGW):** Attached to the VPC.
-5. **Route Table (Public):** Must have a route `0.0.0.0/0` pointing to the `igw-id`.
-6. **Network ACLs/Security Groups:** Must allow outbound traffic on the required ports and return traffic (ephemeral ports).
+
+1. Private Subnet: Hosts the resource.
+2. NAT Gateway: Located in a Public Subnet within the same VPC.
+3. Route Table (Private): Must have a route `0.0.0.0/0` pointing to the `nat-gateway-id`.
+4. Internet Gateway (IGW): Attached to the VPC.
+5. Route Table (Public): Must have a route `0.0.0.0/0` pointing to the `igw-id`.
+6. Network ACLs/Security Groups: Must allow outbound traffic on the required ports and return traffic (ephemeral ports).
 
 ---
 
@@ -63,14 +65,18 @@ To enable a resource (like a jumpbox) in a private subnet to make external reque
 
 ## 3. Advanced Configurations
 
-#### 3.1 Custom Networking (Secondary CIDR)
+### 3.1 Custom Networking (Secondary CIDR)
+
 Assigning a secondary CIDR range to pods to bypass VPC IP exhaustion.
 
-#### 3.2 Security Group for Pods
+### 3.2 Security Group for Pods
+
 Assigning specific Security Groups directly to Kubernetes pods for fine-grained network control.
 
-#### 3.3 Hybrid Node Networking
+### 3.3 Hybrid Node Networking
+
 Connecting on-premises infrastructure to EKS:
+
 - Constraint: Requires reliable connection (VPN/Direct Connect) with <200ms latency.
 - IP Addressing: IPv4 only. RFC1918 CIDRs for on-prem nodes/pods must not overlap with VPC or Service CIDRs.
 - Routing: VPC Route Tables must direct traffic for on-prem CIDRs to the VPN/DX Gateway.

@@ -1,7 +1,7 @@
 ---
 aliases: [Azure Jumpbox Preflight Check, Customer One-Pager, run_me_first.sh Guide]
 created: 2025-12-09T11:21:13Z
-modified: 2026-04-07T19:27:01+00:00
+modified: 2026-04-08T17:59:01+00:00
 Reviewed: true
 status: evergreen
 tags: [azure, bastion, ff_deploy, protocol, ssh]

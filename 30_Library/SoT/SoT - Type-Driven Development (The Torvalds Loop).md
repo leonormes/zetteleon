@@ -3,7 +3,7 @@ aliases: ["Data-Centric Programming", "Parse Don't Validate", "The Torvalds Loop
 created: 2025-12-29T10:28:01+00:00
 last_reviewed: "2026-04-04"
 last_synthesis: 2026-04-04
-modified: 2026-04-04T12:00:00Z
+modified: 2026-04-08T17:58:55+00:00
 source_of_truth: true
 status: "stable"
 synthesis-count: 2
@@ -48,19 +48,23 @@ In this protocol, Logic is the _last_ consideration. We prioritize the physical 
 ## 3. Pattern: Parse, Don't Validate
 
 > [!definition] Parse, Don't Validate
-> A design philosophy (coined by Alexis King) stating that we should **Parse** incoming data (transforming it into a structural Type that preserves the check) rather than just **Validating** it (checking a property and discarding the proof).
+> A design philosophy (coined by Alexis King) stating that we should Parse incoming data (transforming it into a structural Type that preserves the check) rather than just Validating it (checking a property and discarding the proof).
 
-- **Validation:** checks `is_email(string) -> bool`. The output is still just a `string`. You have to check it again later.
-- **Parsing:** checks `parse_email(string) -> Result<Email, Error>`. The output is an `Email` type. The existence of the instance *proves* validity to the compiler.
+- Validation: checks `is_email(string) -> bool`. The output is still just a `string`. You have to check it again later.
+- Parsing: checks `parse_email(string) -> Result<Email, Error>`. The output is an `Email` type. The existence of the instance _proves_ validity to the compiler.
 
 ### The Problem: "Shotgun Parsing"
-When we rely on validation, we fall into the trap of **Shotgun Parsing**: checking data integrity ad-hoc, everywhere in the codebase.
-- **Redundancy:** Every function checks `if valid(x)`.
-- **Fragility:** If one function forgets to check, the system breaks.
-- **Boolean Blindness:** The boolean result (`true`) doesn't carry *why* it's valid or *what* invariants are guaranteed.
+
+When we rely on validation, we fall into the trap of Shotgun Parsing: checking data integrity ad-hoc, everywhere in the codebase.
+
+- Redundancy: Every function checks `if valid(x)`.
+- Fragility: If one function forgets to check, the system breaks.
+- Boolean Blindness: The boolean result (`true`) doesn't carry _why_ it's valid or _what_ invariants are guaranteed.
 
 ### Example: The Non-Empty List
-**Validation Approach (Bad):**
+
+Validation Approach (Bad):
+
 ```rust
 fn head(list: List<T>) -> Option<T> {
     if list.is_empty() { None } else { Some(list[0]) }
@@ -68,7 +72,8 @@ fn head(list: List<T>) -> Option<T> {
 // You have to handle the Option case everywhere.
 ```
 
-**Parsing Approach (Good):**
+Parsing Approach (Good):
+
 ```rust
 struct NonEmptyList<T>(T, Vec<T>); // Proof: Head is always present.
 

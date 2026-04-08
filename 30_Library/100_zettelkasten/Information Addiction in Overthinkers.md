@@ -3,7 +3,7 @@ aliases: ["Theoretical Information Addiction", "Type 1 Information Addiction"]
 created: 2025-09-11T20:27:49Z
 creation_date: "2025-09-11"
 last_reviewed: ""
-modified: 2026-02-01T15:08:32+00:00
+modified: 2026-04-08T17:59:08+00:00
 status: ""
 tags: ["addiction", "information", "overthinking", "topic/productivity/procrastination"]
 title: Information Addiction in Overthinkers
@@ -28,4 +28,4 @@ Breaking this pattern requires recognizing that perfect information is impossibl
 
 Links: [[Type 1 Information is Theoretical]], [[The Overthinking Loop Creates Mental Noise Not Clarity]], [[The Core Problem Confusing Preparation with Action]]
 
-rel:: supports [[SoT - Illusion of Explanatory Depth (IoED)]] — this note elaborates the Collector's Fallacy mechanism from the IoED SoT, adding the "illusion of control" and "perfect information fallacy" framings.
+rel:: supports [[SoT - Illusion of Explanatory Depth (IoED)]]—this note elaborates the Collector's Fallacy mechanism from the IoED SoT, adding the "illusion of control" and "perfect information fallacy" framings.

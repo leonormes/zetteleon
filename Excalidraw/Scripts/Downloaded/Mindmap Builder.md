@@ -1,13 +1,20 @@
+---
+created: 2026-04-01T11:10:50+00:00
+modified: 2026-04-08T17:58:53+00:00
+title: Mindmap Builder
+---
+
 /*
 
-# Mind Map Builder
+## Mind Map Builder
 
 ![](https://youtu.be/5G9QF-u9w0Q)
 
-## Overview
-**Mind Map Builder** transforms the Obsidian-Excalidraw canvas into a rapid brainstorming environment, allowing users to build complex, structured, and visually organized mind maps using primarily keyboard shortcuts.
+### Overview
 
-The script balances **automation** (auto-layout, recursive grouping, and contrast-aware coloring) with **explicit flexibility** (node pinning and redirection logic), ensuring that the mind map stays organized even as it grows to hundreds of nodes. It leverages the Excalidraw Sidepanel API to provide a persistent control interface utilizing the Obsidian sidepanel, that can also be undocked into a floating modal.
+Mind Map Builder transforms the Obsidian-Excalidraw canvas into a rapid brainstorming environment, allowing users to build complex, structured, and visually organized mind maps using primarily keyboard shortcuts.
+
+The script balances automation (auto-layout, recursive grouping, and contrast-aware coloring) with explicit flexibility (node pinning and redirection logic), ensuring that the mind map stays organized even as it grows to hundreds of nodes. It leverages the Excalidraw Sidepanel API to provide a persistent control interface utilizing the Obsidian sidepanel, that can also be undocked into a floating modal.
 
 > [!Tip]
 > 🚀 Become a MindMap Builder Pro with the Official [MindMap Builder Course](https://www.visual-thinking-workshop.com/mindmap)!
@@ -16,11 +23,11 @@ The script balances **automation** (auto-layout, recursive grouping, and contras
 > Mindmap Builder is Minified and compressed to reduce size and improve performance. You can find the source here: [Mindmap Builder.js](https://github.com/zsviczian/obsidian-excalidraw-plugin/blob/master/ea-scripts/Mindmap%20Builder.js)
 > API documentation: [MindMapBuilderAPI.md](https://github.com/zsviczian/obsidian-excalidraw-plugin/blob/master/docs/ea-script-docs/MindMapBuilderAPI.md)
 
-## Show Your Love!
+### Show Your Love
 
-💖 **If you love MindMap Builder** say thank you, and [Buy me a Coffee](https://ko-fi.com/zsolt) 🍵
+💖 If you love MindMap Builder say thank you, and [Buy me a Coffee](https://ko-fi.com/zsolt) 🍵
 
-## The Script
+### The Script
 
 ```js*/
 

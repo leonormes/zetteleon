@@ -1,17 +1,9 @@
 ---
 created: 2025-12-24T12:00:00Z
 last_reviewed: "2025-12-30"
-modified: 2026-02-01T15:07:55+00:00
+modified: 2026-04-08T17:59:26+00:00
 status: "stable"
-tags:
-  [
-    "docker",
-    "k8s",
-    "kernel",
-    "SoftwareEngineering/Containers",
-    "SoftwareEngineering/Linux",
-    "systems_engineering"
-  ]
+tags: []
 title: SoT - Linux Container Internals
 type: "SoT"
 updated:
@@ -37,7 +29,7 @@ A container is simply a process with a restricted view of the system.
 Namespaces wrap global system resources in an abstraction, making them appear private to the process.
 
 | Namespace | Resource Isolated | Security Impact (If Missing)               |
-| :-------- | :---------------- | :----------------------------------------- |
+|:-------- |:---------------- |:----------------------------------------- |
 | PID       | Process IDs       | Low. Process visibility only.              |
 | Network   | Interfaces, Ports | Medium. Can sniff/spoof host traffic.      |
 | Mount     | Filesystem        | CRITICAL. Zero isolation. (See Section 3). |

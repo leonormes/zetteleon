@@ -1,13 +1,13 @@
 ---
-aliases: ["communication philosophy", "thought and language gap", "The Unruly Terrain Between Thought and Language"]
+aliases: ["communication philosophy", "The Unruly Terrain Between Thought and Language", "thought and language gap"]
 created: 2025-10-31T20:08:00Z
 criteria: "Includes concepts about pre-linguistic thought, limitations of language, and mechanisms enabling understanding"
 exclusions: "Specific linguistic theories, detailed neuroscience of language processing"
 last_reviewed: "2026-04-05"
-modified: 2026-04-05T00:00:00+00:00
+modified: 2026-04-08T17:59:02+00:00
 scope: "Philosophical exploration of the relationship between thought, language, and communication"
 status: "evergreen"
-tags: ["communication", "epistemology", "philosophy-of-mind", "consciousness", "language"]
+tags: ["communication", "consciousness", "epistemology", "language", "philosophy-of-mind"]
 title: MOC - The Gap Between Thought and Language
 type: "map"
 updated: 2026-04-05
@@ -67,7 +67,7 @@ The gap between thought and language connects to deep epistemological questions.
 - [[Language Acquisition and Development]] - How we learn to bridge the gap.
 - [[Technology's Impact on Language]] - How tools like AI affect the translation process.
 
-... (rest of the note remains the same)
+… (rest of the note remains the same)
 
 ### Why Understanding Nevertheless Works
 

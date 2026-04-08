@@ -1,6 +1,6 @@
 ---
 created: 2025-02-07T12:57:56Z
-modified: 2026-02-04T07:27:25+00:00
+modified: 2026-04-08T17:59:01+00:00
 Reviewed: false
 status: evergreen
 tags: [ff_deploy]
@@ -186,24 +186,31 @@ resource "azurerm_role_definition" "private_aks" {
 Once the Azure environment is prepared, use the following workflow to initialize the deployment repository and external service connections (GitLab, TFC, Vault).
 
 ### Step 1: Initialize Secrets
+
 Create a `secrets.auto.tfvars` file (gitignored) and export your GitLab token.
+
 ```bash
 export GITLAB_TOKEN="your_token"
 # secrets.auto.tfvars: ude_key, tfc_oauth_token_id, tfe_token, vault_address
 ```
 
 ### Step 2: Configure & Preflight
+
 Edit `config/customer.yaml` with the identity and network CIDR. Then verify connectivity:
+
 ```bash
 make preflight-check
 ```
 
 ### Step 3: Bootstrap & State Migration
+
 The bootstrap process creates the GitLab repo, TFC workspace, and Vault namespace using local state.
+
 ```bash
 make bootstrap
 make finish-bootstrap
 ```
+
 The `finish-bootstrap` command migrates local state to Terraform Cloud. Once complete, push your changes to GitLab to trigger the initial cloud infrastructure apply.
 
 ## Related Resources

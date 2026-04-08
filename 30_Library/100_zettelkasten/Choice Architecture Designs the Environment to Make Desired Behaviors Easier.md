@@ -2,7 +2,7 @@
 aliases: ["Choice Architecture", "Nudge Theory"]
 created: 2025-11-10T17:13:00Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:36+00:00
+modified: 2026-04-08T17:59:09+00:00
 status: "seedling"
 tags: ["behavior-change", "design", "environment", "nudge", "TheHuman/Psychology"]
 title: Choice Architecture Designs the Environment to Make Desired Behaviors Easier
@@ -17,5 +17,7 @@ Summary: Choice architecture is the practice of designing the environment in whi
 Details: This strategy recognizes that context often determines behavior more than intention. Techniques include setting beneficial defaults (e.g., opt-out organ donation), increasing the visibility and accessibility of desired options (e.g., placing water at eye-level), and adding friction to undesirable options. It is a powerful way to bridge the intention-action gap by making good choices the path of least resistance.
 
 ---
+
 ## ADHD Applications
+
 - [[SoT - Prosthetic Executive Function]] (Using Choice Architecture to engineer a prosthetic executive function)

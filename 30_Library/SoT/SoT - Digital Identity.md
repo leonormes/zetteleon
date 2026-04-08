@@ -2,7 +2,7 @@
 aliases: ["Digital Identity Properties", "Human Identity", "Identity Fundamentals", "Machine Identity"]
 created: 2025-12-29T20:02:16+00:00
 last_reviewed: 
-modified: 2026-02-01T15:07:59+00:00
+modified: 2026-04-08T17:58:59+00:00
 status: "Active"
 tags: ["concepts", "iam", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "TheHuman/Identity"]
 title: SoT - Digital Identity
@@ -68,26 +68,32 @@ While the structure is shared, the nature of the claims differs fundamentally.
 ### 4. The Identity Lifecycle
 
 #### A. Establishing an Identity (Identity Management)
+
 Digital identity is the foundation for establishing trust. The lifecycle includes:
-- **Registration/Creation:** Generating an identity and securely linking it to a real-world entity.
-- **Provisioning:** Creating, modifying, or deleting user accounts across systems (e.g., HR to IdP, IdP to Apps).
-- **Maintenance:** Constantly updating identity information as roles change or entities leave the organization.
+
+- Registration/Creation: Generating an identity and securely linking it to a real-world entity.
+- Provisioning: Creating, modifying, or deleting user accounts across systems (e.g., HR to IdP, IdP to Apps).
+- Maintenance: Constantly updating identity information as roles change or entities leave the organization.
 
 #### B. Verifying an Identity (Authentication)
+
 Trust is established by computing an assertion that the entity can provide information only they possess ("Proof of Possession").
-- **Credential-based:** Password policies (length, rotation, smart lockout).
-- **Challenge-Response:** Protocols like **CHAP** for remote network access.
-- **Biometric Identification:** Measuring physiological traits (Fingerprint, FaceID).
-- **MFA:** Adding layers of verification (SMS, Push, Hardware tokens).
-- **Passwordless:** Leveraging public key cryptography (FIDO2/WebAuthn) for phishing-resistant auth.
+
+- Credential-based: Password policies (length, rotation, smart lockout).
+- Challenge-Response: Protocols like CHAP for remote network access.
+- Biometric Identification: Measuring physiological traits (Fingerprint, FaceID).
+- MFA: Adding layers of verification (SMS, Push, Hardware tokens).
+- Passwordless: Leveraging public key cryptography (FIDO2/WebAuthn) for phishing-resistant auth.
 
 #### C. Role of Attributes
-Attributes (Name, Role, Security Clearance) are crucial for **Authorization** decisions. Modern IAM systems enforce the principle of "Never Trust, Always Verify," using contextual attributes (device, location, behavior) for continuous authentication.
+
+Attributes (Name, Role, Security Clearance) are crucial for Authorization decisions. Modern IAM systems enforce the principle of "Never Trust, Always Verify," using contextual attributes (device, location, behavior) for continuous authentication.
 
 ---
 
 ### 5. Federated Identity Management (FIM)
-FIM allows the use of a single identity across multiple organizations, shifting verification toward a trusted **Identity Provider (IdP)**. Technologies like **SAML**, **OpenID Connect (OIDC)**, and **OAuth 2.0** enable this cross-organizational trust.
+
+FIM allows the use of a single identity across multiple organizations, shifting verification toward a trusted Identity Provider (IdP). Technologies like SAML, OpenID Connect (OIDC), and OAuth 2.0 enable this cross-organizational trust.
 
 ---
 

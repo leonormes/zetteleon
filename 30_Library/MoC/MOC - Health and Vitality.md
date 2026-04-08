@@ -2,7 +2,7 @@
 aliases: [Health MOC, Physical and Mental Performance Map, Vitality Index]
 created: 2025-12-22T12:15:00Z
 last_reviewed: 2026-04-08
-modified: 2026-04-08T00:00:00Z
+modified: 2026-04-08T17:59:02+00:00
 status: stable
 tags: [fitness, health, index, vitality]
 title: MOC - Health and Vitality
@@ -117,14 +117,14 @@ _Verifiable actions to maintain the system._
 
 ## 6. Atomic Note Gaps (planned)
 
-- `SoT - Protocol - Daily Mobility Foundation` — daily executable mobility protocol
-- `SoT - Hanging Mechanics and Progressions` — dead hangs, scapular pull-ups, progressions
-- `Morning HIIT Boosts BDNF and Neuroplasticity` — exercise-induced neuroplasticity mechanism
-- `Optimal Memory Function Requires Sleep, Stress Management and Mental Exercise` — sleep/memory consolidation
-- `SoT - The Shame-Procrastination Cycle` — shame → freeze → avoidance loop
-- `SoT - Dopamine Menu` — curated list of healthy dopamine sources
-- `Reduced Dopamine D2/D3 Receptors Impair Motivation in ADHD` — receptor density mechanism
-- `Low-Carb Raw Breakfast Supports Mental Clarity` — breakfast protocol for focus
-- `Avoid Morning Phone Use to Protect Dopamine` — morning dopamine hygiene
-- `MOC - Limitless Morning Routine` — full morning stack MoC
-- `SoT - The Honeyman Method (Adaptive Routines)` — energy-based adaptive routine framework
+- `SoT - Protocol - Daily Mobility Foundation`—daily executable mobility protocol
+- `SoT - Hanging Mechanics and Progressions`—dead hangs, scapular pull-ups, progressions
+- `Morning HIIT Boosts BDNF and Neuroplasticity`—exercise-induced neuroplasticity mechanism
+- `Optimal Memory Function Requires Sleep, Stress Management and Mental Exercise`—sleep/memory consolidation
+- `SoT - The Shame-Procrastination Cycle`—shame → freeze → avoidance loop
+- `SoT - Dopamine Menu`—curated list of healthy dopamine sources
+- `Reduced Dopamine D2/D3 Receptors Impair Motivation in ADHD`—receptor density mechanism
+- `Low-Carb Raw Breakfast Supports Mental Clarity`—breakfast protocol for focus
+- `Avoid Morning Phone Use to Protect Dopamine`—morning dopamine hygiene
+- `MOC - Limitless Morning Routine`—full morning stack MoC
+- `SoT - The Honeyman Method (Adaptive Routines)`—energy-based adaptive routine framework

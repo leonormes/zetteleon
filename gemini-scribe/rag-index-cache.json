@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1775669747285,
+  "lastSync": 1775670703133,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -550,8 +550,8 @@
     },
     "30_Library/SoT/SoT - Protocol - The Launch Sequence.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "da9141a6cdd164c0000e4d0bec73980f3fef00ebd89f184a130af23e1db207cf",
-      "lastIndexed": 1775485596879
+      "contentHash": "f541ffa473b9407d9d59f700ba37f0c9814b9560132c1b9d0d512b9bfb09bc4c",
+      "lastIndexed": 1775670151831
     },
     "30_Library/SoT/SoT - Psychological Safety and Belonging.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -1418,11 +1418,6 @@
       "contentHash": "6f1e41e2b40c7e287056175a7e3e467b8cc8acb5b5a930ba4b63ccf2d46d47f3",
       "lastIndexed": 1775485772551
     },
-    "30_Library/SoT/SoT - ArgoCD Networking Patterns.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b7bc43ef0127ccf57f612df36ab323249b19afdf10f4e3760bf103f39f44c2aa",
-      "lastIndexed": 1775485772592
-    },
     "30_Library/SoT/SoT - Azure Hybrid Networking (ExpressRoute).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "632a3586d7b94c6efd2573113120bdfaecf7a80ad79c43ff7955168fa25ca44f",
@@ -1505,8 +1500,8 @@
     },
     "30_Library/SoT/SoT - ADHD Neurology & Core Concepts.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b87017cd0e8fabeeeadfc7903ff7b0012b5fad4809eb241e3d6d275b474cb2ca",
-      "lastIndexed": 1775485781917
+      "contentHash": "cbda72e44f5884a05ade7a9f4062604c1d75e8d06a1eee8f33bce05597559dc3",
+      "lastIndexed": 1775670050716
     },
     "30_Library/SoT/SoT - AI Sycophancy.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2853,11 +2848,6 @@
       "contentHash": "1b78ee23276406e3349d4f69736262ee56598bdf74e403d74db861c2c8bcee92",
       "lastIndexed": 1775485980004
     },
-    "30_Library/200_projects/40_Personal/Family/Budget Friendly.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "92984d8a7a214c5ab1100ad70ddc80b610a2017281aecc026d55a3544380c533",
-      "lastIndexed": 1775485980625
-    },
     "30_Library/200_projects/40_Personal/Family/Bessie/Writing Acts as an External Working Memory.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "97f0861e056e2ae62524f57633b0f46128fc2d7223edf773b3aa22439c66cb6b",
@@ -2873,11 +2863,6 @@
       "contentHash": "ac92ee1b575b76b753b9292cd6986a25ae779081b302f1b2241c5459d501c6ec",
       "lastIndexed": 1775485983696
     },
-    "30_Library/200_projects/40_Personal/Family/Bessie/bess gcse prompt.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f47fb81b631b7c3c3c2819859b15220cc70a345b30a24d63430108cda546914b",
-      "lastIndexed": 1775485983719
-    },
     "30_Library/200_projects/40_Personal/Family/Bessie/Writing Reduces Cognitive Load by Chunking Information.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "bec4b70acf0539e76e57aaa202fce5e2f5ad5a175b735d9deae1eae5dbff9be3",
@@ -2887,96 +2872,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "c37d8ec199abd5b48302486adc35489a4ca4afb14bfd24d72aab6383e438d255",
       "lastIndexed": 1775485986555
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/The Tale of Mira and the Festival Faces.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "185068a6e2d40d95d125dd8cc2db411916e1e914fcbec3cee95086a280a8eea6",
-      "lastIndexed": 1775485986611
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Targeted Staff Training and Accountability.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9f2c28e31455ef86cd3c8832aa92e1bc236c3f7ad8e268e3d2a531f0b8f19266",
-      "lastIndexed": 1775485986643
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Undermining Motivation and Effort.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7b51fb45ef0543f440d3c16a451c3c7e503dde9453c842358066a1c97e42e4b5",
-      "lastIndexed": 1775485986722
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Structured Written Plans Support Executive Function.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4aa849c2b3288ec5a2ebb414c03e81fec8949bad76a0b6f2e73e8c24754ff73c",
-      "lastIndexed": 1775485986842
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Section 3 Capitalising on Creativity and Interest - Optional Subjects.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "93fe6b4e9acdfe334d385fc6db7f1e45e1785589d7049663de0fdb177e59064e",
-      "lastIndexed": 1775485989010
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Section 1 Harnessing a 'Big Picture' Brain Making Inter-Subject Connections.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b1cc4fa1eea267cb2196078a240889caa738c4b6dba1eae801dbb43de85944a7",
-      "lastIndexed": 1775485989060
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Show examples of time boxing schedules for teens w.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6ef5f11b923cdc4bc17815b1c06f25ed17e712c83e29ea9ca5cb1be806e8a67d",
-      "lastIndexed": 1775485989116
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Section 4 Building Core Skills and Confidence - Compulsory Subjects.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "19a05595701b0dc26c71580baaa13d99fc56c6f68eca220f5b26fc481f6994b4",
-      "lastIndexed": 1775485989733
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Section 2 Summary of GCSE Assessment Structure for Bessie Ormes.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8d99e2e0e41e039b79422f72053ce1be3a69bc0d1fc33fbced0e844bd17d5a03",
-      "lastIndexed": 1775485989983
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Robust Emotional and Mental Health Support, Particularly regarding Anxiety and Bullying.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "854a4f452d3e3c0748df12617137603bc2c2dfd7b4146ccf8a72a9be999eeb3a",
-      "lastIndexed": 1775485992463
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Question for Bessie about her learning.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "013476d1787aa641cf4ab06d97971e8e20602b13f882c1141f3fa1ad61dad69b",
-      "lastIndexed": 1775485992639
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Safeguarding and Educational Provision for Bessie Ormes.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "25ce1fe726178411dd7907cf7c8adf612db81b657db078fa8b3544e9cad2a0c0",
-      "lastIndexed": 1775485992742
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Positive Attitude Towards Effort and Having a Go.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "de93f946fcb58d6c809e9616dd862790bb266d7299a4855155e915e961b59675",
-      "lastIndexed": 1775485992899
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Responsive to Interest and Hyperfocus Capability.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "526cd89ff734020d5f712cae72abda93d505c295b3066a2469d4c88ea9596e44",
-      "lastIndexed": 1775485993076
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Plan for Implementing 'Assess, Plan, Do, Review' for Bessie Ormes.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6c35662705f533ca8e99ab0ba0c49319b75a8da7c5abe69749ce6efb251d8bd8",
-      "lastIndexed": 1775485995416
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Photography (Art and Design - Photography) (Edexcel GCSE).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7c8406f8194d13e50ee8249411949dbae15993bd9df2c8ff93f9f0846777eccd",
-      "lastIndexed": 1775485995521
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Perceiving And Seeking Support.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "29f55c03c457b81f29cb8b4cc0ff92c5adc69a392dc66d0f0ef19bf786ce7aab",
-      "lastIndexed": 1775485995871
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Philosophy, Ethics and Religion (Religious Studies) (AQA GCSE).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e22b3ed2a22b2f4916dab47f223a901cc4121a29c3ae0728709ac1df0a698f24",
-      "lastIndexed": 1775485995881
     },
     "30_Library/200_projects/40_Personal/Family/Bessie/Plan Forward Requests for Belfairs Academy and Required Proof.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3023,85 +2918,20 @@
       "contentHash": "d6c72806952e20842efab9ae3bcc61c98963040d7b1201779373c9e21cadc493",
       "lastIndexed": 1775486002117
     },
-    "30_Library/200_projects/40_Personal/Family/Bessie/How the Lack of Formative Assessment is Damaging for Bessie's Self-Efficacy.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5832507896528e8832b1080b229210c7135a5ed4b83003d7965fdf6ca0603872",
-      "lastIndexed": 1775486002135
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/History (Edexcel GCSE).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "dfa579d37d41020efab60cfe8c579cae0638272df5ef1b1f6a5d35397e3a9bf2",
-      "lastIndexed": 1775486002486
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Exploring Anxious Expectations and Beliefs About Failure.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c8709ac46fb49d873dc7a4a194ca800092fb91b8ad38b54dee34b7c8dfec4d5c",
-      "lastIndexed": 1775486005313
-    },
     "30_Library/200_projects/40_Personal/Family/Bessie/Highly Creative and Passionate.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "6cd95e94c9afb609c8bc87f73fe8b44899013e39be9cbc1294075343dbfbc0d0",
       "lastIndexed": 1775486005315
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/General School Experience & Engagement.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3646f0074426a1d82e79ce97c92911f218a27037c516b0001450f162c1947128",
-      "lastIndexed": 1775486005465
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Film Studies (Eduqas).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1468693d1461ed29876fb5dbde54805a08a2677e89d171d4e2f8f51426aac0f3",
-      "lastIndexed": 1775486005638
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Exploring Self-Efficacy and Having a Go Mentality.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4c97de0f71eb6cf0676c2c0e468cce1da3d05074a4370cc4db435dc25d10f713",
-      "lastIndexed": 1775486005774
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Exacerbating Anxiety.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "81dc2922f8b3da3ca65d0f53d16445dca65d79f296f48ee261e37a2d284dc1fc",
-      "lastIndexed": 1775486008303
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Edexcel.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "40b0254cc19b7712c47d1f23a4f529227e44bdf134fe623fe6e1b8dae15e45b4",
-      "lastIndexed": 1775486008439
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Educational Provision for Bessie Ormes (Year 9, Belfairs Academy) & Request for LA Attendance at Meeting.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b43a2b5142740bb8116fb6c091b12706e2b649cae9a0de63c1c76285a300021a",
-      "lastIndexed": 1775486008517
     },
     "30_Library/200_projects/40_Personal/Family/Bessie/Distorted Negative Self-Image.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "6bf797eeea5bff1d3c30a6d24cf0e492e7167139a0d9cfa757dc1698abcd65d4",
       "lastIndexed": 1775486008982
     },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Effective Monitoring, Review, and Genuine Parental Partnership.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "2be00f2f8c722857ed5aa9321887429afec5d85ed6f109a7ce9e2c06f1f6c165",
-      "lastIndexed": 1775486009116
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/DO Implement Strategies Consistently Across All Lessons.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e8e2779acc871033438336b149c9c3808e2426fd149623cd2c6bec83b80258d1",
-      "lastIndexed": 1775486011803
-    },
     "30_Library/200_projects/40_Personal/Family/Bessie/Capacity for Independent Work and Self-Motivation.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "65fb209ee47fdc3ce13b60ae8ed28f4d3012a917686d125ae7af5625896191c5",
       "lastIndexed": 1775486011876
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Conclusion And Recommended Next Steps Implementing Bessie's Success Plan.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6f0e95d03282b1c15f15c2a3501ff6a91f2115826261260c0507930a579e2fe3",
-      "lastIndexed": 1775486012013
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Combined Science (AQA GCSE).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "69f987559e0a5835596eab8259f3a47a28d3a6c62981523250daa9c596266bd4",
-      "lastIndexed": 1775486012030
     },
     "30_Library/200_projects/40_Personal/Family/Bessie/Bessie's Working Memory is Overwhelmed by Large Information Volumes.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3123,95 +2953,15 @@
       "contentHash": "93a9cdebb2d822c28db80535f3e92e2e75585d535ab660f211a6b5fe09d9d2fa",
       "lastIndexed": 1775486015245
     },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Bessie Back to School.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "52efde2b9bc27b32b44aaca44b96722e77bd0e0dbb47540a37a0376da517d01b",
-      "lastIndexed": 1775486017995
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Art (Art, Craft and Design) (Edexcel GCSE).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "54392d2882cda311f9160da4c80dfdfab56514cb5d15cd507020e7eff0035d5f",
-      "lastIndexed": 1775486017996
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Addressing Working Memory and Learning Style.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9e50b74944f53d6d90e4dd7d9f08e2601fec770d04db878186668513b50d1ac8",
-      "lastIndexed": 1775486018033
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Bessie Anxiety and Emotional Regulation.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "2601205ec5c6bf7a80689fed6b8a0cc7e57c9864853b9ba9f2ef1964c5d898e6",
-      "lastIndexed": 1775486018212
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Bessie ADHD Diagnosis and Characteristics.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "be67c37ddfa4eab1b80b2e53f46b37b5065c319d504dc7281b5158a8ac0ecb04",
-      "lastIndexed": 1775486018354
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/A Personalised Educational Pathway for Bessie Ormes_ A Comprehensive GCSE Support Plan.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "89ca67807f83bb74c5d18d8d82b266ab9d4fae0d5fdc7df5d3dd71908e95c9f1",
-      "lastIndexed": 1775486020785
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/A Concept Map for a Flourishing Human.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "dff6c3ab2e73c2cd1ff4f972eaa73aeb8aebe430a6212dbb28ef932efe47530c",
-      "lastIndexed": 1775486020830
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/4.3 Edexcel GCSE Mathematics.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1f6090f045e81904934f0462d02b4da6bf626cc04fa91d84807dcc7159e69f18",
-      "lastIndexed": 1775486021167
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Addressing Anxiety & Social Emotional Needs.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "943f23d9ac49140c223a690c4ca1a42f8658dbe57d370958b1ef700fac1b7a13",
-      "lastIndexed": 1775486021400
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/4.4 AQA GCSE Combined Science.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c17e4e9db81b590bcec44d550b3f0521daade920f00c1146e6cdc30850f335c8",
-      "lastIndexed": 1775486021782
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/4. REVIEW Monitor Progress and Adapt Support.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "19e22f81058fe1b2e404b8e70d459e8040e844e9c27c0ce31bf24cd19b34cf79",
-      "lastIndexed": 1775486024309
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/3.4 Edexcel GCSE History.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "488b3977da9da072de88b0206ec3dc3f231c95b22e95df5c04effeb98d8eb7bb",
-      "lastIndexed": 1775486024387
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/3.5 AQA GCSE Philosophy and Ethics (Religious Studies).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "804310639290a737e5e8e74efb939df89e9cbd2455a7c105482fe2d234a70d04",
-      "lastIndexed": 1775486024847
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/3.2 Edexcel GCSE Photography.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d02a4ec621cc81d2e69efee35304a0ffa484ff7ceedca56025479d0d68a6d360",
-      "lastIndexed": 1775486024998
-    },
     "30_Library/200_projects/30_Maths/Truth Tables.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "2ccbf95afd2f44527e3d6ccc3666aec8666ba94822c3ee8c36d853c2a11865fa",
       "lastIndexed": 1775486027554
     },
-    "30_Library/200_projects/40_Personal/Family/Bessie/2. PLAN Develop and Communicate Comprehensive, Personalized Strategies.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "aa61c4f4da3226109cc7a017200e645ba4c90fe145870cbc0ba09fd47f596761",
-      "lastIndexed": 1775486027828
-    },
     "30_Library/200_projects/30_Maths/What is a pattern.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "91a120433963f79ce3448e684654e951a5a1a9ddf92d609c4a2214dbc0647afc",
       "lastIndexed": 1775486027850
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/3.1 Edexcel GCSE Art and Design (Unendorsed).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c2ee3868df159742832756de4ae6414dc076191be02d8cb8c6211baf4b902586",
-      "lastIndexed": 1775486028002
     },
     "30_Library/200_projects/30_Maths/Think like a mathematian.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9090,8 +8840,8 @@
     },
     "10_System/templates/HEAD_note template.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "169599b6abbff5633d7d36b774c96fabe7e72679ad4c25499c0b1566c5b076ac",
-      "lastIndexed": 1775486957312
+      "contentHash": "c89455a57abd79860731de0c0e78ac5a80c7bbf333bba4bc77c587210f936261",
+      "lastIndexed": 1775669979702
     },
     "10_System/prompts/prompt - DevOps Knowledge Architect.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9215,8 +8965,8 @@
     },
     "CLAUDE.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "16fb0cb91e26fd44442ce48a6dcfffdeac7245bd75517a6a0ae6060b970ffe70",
-      "lastIndexed": 1775589158769
+      "contentHash": "7adabbf0bf41bd876ac414276db9f0357d82da3b98e0b6592f5d4f66791b7c20",
+      "lastIndexed": 1775670548633
     },
     "30_Library/SoT/SoT - LLM Semantic-Statistical Mismatch.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9322,6 +9072,36 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "a4bd0900a117e73cafac633cbafd0d05e0414bba43a1899728a5686ff57e951b",
       "lastIndexed": 1775669747285
+    },
+    "30_Library/SoT/SoT - ProdOS Note Metadata (Frontmatter).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "258e9d48c757328d944d1f859f3e0fbf453d22917dba4fd1d8768403a943217d",
+      "lastIndexed": 1775670536023
+    },
+    "10_System/templates/Template - SoT.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "54bacbd7a7d7cc26c702d2e72a2ef90dcf538483a45cfa007a36dd911625d792",
+      "lastIndexed": 1775669983468
+    },
+    "10_System/templates/Template - Protocol.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "64b9ccc998d93a753449365dcc85ac8310856d57a11f0587e6a13bef784951b0",
+      "lastIndexed": 1775669986005
+    },
+    "10_System/templates/Template - Atomic Zettel.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0740b1d24f17053693a264f706075b50557aba48c3aaca24f83444eeb8273de3",
+      "lastIndexed": 1775669989281
+    },
+    "10_System/templates/Template - MoC.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c54d6dc5aee8ee2ed24d8a17248708fe47ddb5a162355cadcd0126fe0f0ab248",
+      "lastIndexed": 1775669993014
+    },
+    "30_Library/100_zettelkasten/A Concept Map for a Flourishing Human.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "dff6c3ab2e73c2cd1ff4f972eaa73aeb8aebe430a6212dbb28ef932efe47530c",
+      "lastIndexed": 1775669998987
     }
   },
   "indexingInProgress": false,

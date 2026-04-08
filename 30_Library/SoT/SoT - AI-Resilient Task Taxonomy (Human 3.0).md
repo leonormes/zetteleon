@@ -1,12 +1,12 @@
 ---
-aliases: [The Inspiration Economy, Human 3.0 Roles, Inspiration vs Capital Economy, AI-Resilient Task Taxonomy]
+aliases: [AI-Resilient Task Taxonomy, Human 3.0 Roles, Inspiration vs Capital Economy, The Inspiration Economy]
 created: 2025-12-24T12:00:00Z
 fileClass: SoT
 last_reviewed: 2026-04-04
-modified: 2026-04-04T11:26:13+00:00
+modified: 2026-04-08T17:59:01+00:00
 status: stable
 tags: [career, economics, future_of_work, llm, prodos, strategy]
-title: SoT - The Inspiration Economy (Human 3.0)
+title: SoT - AI-Resilient Task Taxonomy (Human 3.0)
 type: SoT
 updated:
 ---

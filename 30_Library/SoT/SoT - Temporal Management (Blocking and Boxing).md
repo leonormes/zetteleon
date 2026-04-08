@@ -2,7 +2,7 @@
 aliases: ["Temporal Perception", Cal Newport, Finitude, Planning Systems, Sarah Hart-Unger, Subjective Time, The Myth of the Starting Gun]
 created: 2025-12-29T20:02:17+00:00
 last_synthesis: 2026-04-05
-modified: 2026-04-07T08:01:46+00:00
+modified: 2026-04-08T17:58:56+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 4

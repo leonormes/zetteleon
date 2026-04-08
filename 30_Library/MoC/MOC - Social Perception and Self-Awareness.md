@@ -4,7 +4,7 @@ created: 2025-10-31T09:20:29Z
 criteria: "Atomic notes on perception formation, accuracy, and meta-awareness"
 exclusions: "Interpersonal skills training, persuasion techniques, cultural anthropology"
 last_reviewed: "2026-04-08"
-modified: 2026-04-08T00:00:00Z
+modified: 2026-04-08T17:59:02+00:00
 scope: "Social perception mechanisms, biases, and calibration strategies"
 status: "growing"
 tags: ["topic/social-cognition", "topic/social-perception"]
@@ -17,7 +17,7 @@ updated:
 
 - Up: [[SoT - Social Cognition & Self-Perception]]
 
-This map explores how humans form rapid judgements about social interactions — assessing likability, agreement, status, and comfort — and the substantial margin for error inherent in these processes. It connects mechanisms of perception, systematic biases that distort judgements, and strategies for calibrating self-awareness.
+This map explores how humans form rapid judgements about social interactions—assessing likability, agreement, status, and comfort—and the substantial margin for error inherent in these processes. It connects mechanisms of perception, systematic biases that distort judgements, and strategies for calibrating self-awareness.
 
 ---
 
@@ -30,7 +30,7 @@ How we gather and process social information:
 - [[Pattern Recognition in Social Cognition]] rel:: enables rapid social assessment
 - [[Emotional Contagion in Social Settings]] rel:: influences [[Pattern Recognition in Social Cognition]]
 
-> Ambiguity in social cues — the way incomplete or contradictory signals undermine pattern matching — is not yet an atomic note. See [[SoT - Social Cognition & Self-Perception]] §C–D for the mechanisms.
+> Ambiguity in social cues—the way incomplete or contradictory signals undermine pattern matching—is not yet an atomic note. See [[SoT - Social Cognition & Self-Perception]] §C–D for the mechanisms.
 
 Key insight: Social perception operates through fast, heuristic-driven pattern matching across multiple channels (verbal, vocal, visual). The system prioritises speed over accuracy, making it efficient but error-prone.
 
@@ -45,9 +45,9 @@ Cognitive biases that systematically distort social judgement:
 - [[Cognitive Biases Reinforce Mental Models]] rel:: underlies all social perception biases
 - [[Mental Models as Social Status Signals]] rel:: relates-to social status self-enhancement
 
-> **Spotlight Effect** (overestimating how much others notice us) and the **Liking Gap** (underestimating how much others like us) are not yet atomic notes. Research consistently shows most people underestimate how positively they're perceived — the systematic error runs toward under-, not over-estimation of acceptance.
+> Spotlight Effect (overestimating how much others notice us) and the Liking Gap (underestimating how much others like us) are not yet atomic notes. Research consistently shows most people underestimate how positively they're perceived—the systematic error runs toward under-, not over-estimation of acceptance.
 >
-> **Confirmation Bias in social perception** (actively seeking cues that confirm existing impressions) and **Social Status Self-Enhancement** (the reputational costs of overplaying competence) are also not yet isolated as atomic notes. See [[Cognitive Biases Reinforce Mental Models]] for the general mechanism.
+> Confirmation Bias in social perception (actively seeking cues that confirm existing impressions) and Social Status Self-Enhancement (the reputational costs of overplaying competence) are also not yet isolated as atomic notes. See [[Cognitive Biases Reinforce Mental Models]] for the general mechanism.
 
 Key insight: Most people underestimate how positively they're perceived rather than overestimating. Status self-enhancement is the exception, not the rule, and carries social costs.
 
@@ -74,7 +74,7 @@ How emotions shape and are shaped by social perception:
 - [[Emotional Contagion in Social Settings]] rel:: drives affective feedback cycles
 - [[Prediction Error Breaks Feedback Loops]] rel:: interrupts self-reinforcing emotional bias
 
-> The **Cognitive-Emotional Feedback Loop** — the mechanism by which emotions both inform social perception and arise from it — is not yet an atomic note. The interplay is: emotion colours initial judgement → [[Cognitive Biases Reinforce Mental Models|confirmation bias]] locks it in → new evidence is filtered → loop closes.
+> The Cognitive-Emotional Feedback Loop—the mechanism by which emotions both inform social perception and arise from it—is not yet an atomic note. The interplay is: emotion colours initial judgement → [[Cognitive Biases Reinforce Mental Models|confirmation bias]] locks it in → new evidence is filtered → loop closes.
 
 Key insight: Emotions both inform social perception and arise from it, creating feedback loops that can self-reinforce or be broken through reality-testing.
 
@@ -82,33 +82,33 @@ Key insight: Emotions both inform social perception and arise from it, creating 
 
 ### Related Contexts
 
-- [[SoT - Social Cognition & Self-Perception]] — canonical upstream SoT; covers the Social Intuitionist Model, Halo Effect, Affective Primacy, Emotional Contagion mechanisms
-- [[Cognitive Biases Reinforce Mental Models]] — general mechanisms underlying social perception biases
-- [[Mental Models as Social Status Signals]] — how perceived competence confers status
-- [[SoT - Illusion of Explanatory Depth (IoED)]] — related metacognitive failure (Mind-Reading as causal opacity)
-- [[MOC - Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]] — neurodivergent implications
+- [[SoT - Social Cognition & Self-Perception]]—canonical upstream SoT; covers the Social Intuitionist Model, Halo Effect, Affective Primacy, Emotional Contagion mechanisms
+- [[Cognitive Biases Reinforce Mental Models]]—general mechanisms underlying social perception biases
+- [[Mental Models as Social Status Signals]]—how perceived competence confers status
+- [[SoT - Illusion of Explanatory Depth (IoED)]]—related metacognitive failure (Mind-Reading as causal opacity)
+- [[MOC - Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]]—neurodivergent implications
 
 ---
 
 ### Practical Entry Points
 
-**When starting social calibration work:**
+When starting social calibration work:
 
 1. Begin with [[Feedback-Seeking Strategies for Calibration]] to establish baseline reality checks
 2. Track outcomes (who initiates follow-up, accepts invitations) as objective proxies for actual reception
 
-**When experiencing social anxiety:**
+When experiencing social anxiety:
 
-1. Default assumption: people like you more and notice your mistakes less than you believe (Liking Gap / Spotlight Effect — not yet atomic; see [[SoT - Social Cognition & Self-Perception]])
+1. Default assumption: people like you more and notice your mistakes less than you believe (Liking Gap / Spotlight Effect—not yet atomic; see [[SoT - Social Cognition & Self-Perception]])
 2. Apply [[Mind-Reading Fallacy and Projection]] to shift from certainty to hypothesis-testing
 
-**When bias is suspected:**
+When bias is suspected:
 
 1. Actively seek disconfirming evidence ([[Cognitive Biases Reinforce Mental Models]])
 2. Apply [[Reality Testing]] frameworks
 3. Consider ambiguity in the cue before assuming intent ([[Pattern Recognition in Social Cognition]])
 
-**For understanding group dynamics:**
+For understanding group dynamics:
 
 1. See [[Emotional Contagion in Social Settings]] for how affect spreads
 2. Use [[Prediction Error Breaks Feedback Loops]] to understand where cycles break
@@ -132,9 +132,9 @@ Most systematic error is toward underestimating acceptance rather than overestim
 
 The following concepts are described in this MoC but do not yet have dedicated atomic notes:
 
-- `Spotlight Effect` — overestimating how much others notice our mistakes/appearance
-- `Liking Gap` — underestimating how much conversation partners like us
-- `Confirmation Bias Distorts Social Perception` — social-specific variant of confirmation bias
-- `Social Status Self-Enhancement and Consequences` — the reputational costs of overclaiming competence
-- `Ambiguity in Social Cues` — how incomplete signals undermine accurate social inference
-- `The Cognitive-Emotional Feedback Loop` — the self-reinforcing cycle between affect and social judgement
+- `Spotlight Effect`—overestimating how much others notice our mistakes/appearance
+- `Liking Gap`—underestimating how much conversation partners like us
+- `Confirmation Bias Distorts Social Perception`—social-specific variant of confirmation bias
+- `Social Status Self-Enhancement and Consequences`—the reputational costs of overclaiming competence
+- `Ambiguity in Social Cues`—how incomplete signals undermine accurate social inference
+- `The Cognitive-Emotional Feedback Loop`—the self-reinforcing cycle between affect and social judgement

@@ -2,7 +2,7 @@
 aliases: ["Common Data Model", "OMOP CDM"]
 created: 2026-01-06T18:52:00+00:00
 last_reviewed: 2026-01-06
-modified: 2026-02-01T15:07:54+00:00
+modified: 2026-04-08T17:58:57+00:00
 status: "stable"
 tags: ["data_model", "ohdsi", "schema", "sot"]
 title: SoT - OMOP Common Data Model
@@ -72,13 +72,13 @@ To maintain data lineage while enabling standardized analysis, the CDM uses a du
 
 By standardizing both structure and semantics, the OMOP CDM enables three core analytic paradigms across a federated network:
 
-1. **Clinical Characterization:** "What happened to the patients?"
+1. Clinical Characterization: "What happened to the patients?"
     - Summarizing population demographics and disease incidence.
     - Treatment pathways (visualizing the sequence of clinical interventions).
-2. **Population-Level Estimation:** "What are the causal effects?"
+2. Population-Level Estimation: "What are the causal effects?"
     - Safety surveillance and comparative effectiveness studies.
     - E.g., comparing bleeding risk between two anticoagulants.
-3. **Patient-Level Prediction:** "What will happen to this individual?"
+3. Patient-Level Prediction: "What will happen to this individual?"
     - Applying machine learning models to historical data to predict future outcomes (e.g., suicide risk or hospital readmission).
 
-This standardization powers the **ATLAS** platform, allowing researchers to design complex studies without writing SQL or R from scratch.
+This standardization powers the ATLAS platform, allowing researchers to design complex studies without writing SQL or R from scratch.

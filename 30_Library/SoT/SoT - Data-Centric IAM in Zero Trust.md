@@ -2,7 +2,7 @@
 aliases: ["Data-Centric Security", "PDP-PEP Architecture", "Zero Trust IAM"]
 created: 2025-03-15T10:12:06Z
 last_reviewed: "2025-12-29"
-modified: 2026-02-01T15:07:59+00:00
+modified: 2026-04-08T17:59:00+00:00
 status: "stable"
 tags: ["data-centric", "IAM", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "TheHuman/Identity", "zero-trust"]
 title: SoT - Data-Centric IAM in Zero Trust
@@ -14,7 +14,7 @@ updated:
 
 In a Zero Trust architecture, Identity and Access Management (IAM) is a continuous, calculated state rather than a static gateway. It is a data-processing function where access is the output of an evaluation of three decoupled datasets: Identity assertions, Contextual signals, and Policy logic.
 
-**Conceptual Foundation:** See [[SoT - Zero Trust Architecture]] for the high-level philosophy of identity-centric security.
+Conceptual Foundation: See [[SoT - Zero Trust Architecture]] for the high-level philosophy of identity-centric security.
 
 ## 2. The Core Data Model (Schema)
 

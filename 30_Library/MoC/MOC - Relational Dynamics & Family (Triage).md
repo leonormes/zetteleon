@@ -1,8 +1,9 @@
 ---
 aliases: [Family Triage, Relational Triage]
-created: 2026-04-08
+created: 2026-04-08T00:00:00+00:00
+modified: 2026-04-08T17:59:01+00:00
 status: seedling
-tags: [moc, triage, family, relationships, parenting]
+tags: [family, moc, parenting, relationships, triage]
 title: MOC - Relational Dynamics & Family (Triage)
 type: map
 ---
@@ -52,6 +53,6 @@ This hub triages the "Domain VI" (The Human: Life & Vitality) cluster, focusing 
 
 ### 5. Recommended Actions
 
-- [ ] **Harvest:** Integrate the "Financial Agency" seedlings into the [[SoT - Family Financial Wellness]].
-- [ ] **Synthesise:** Create a "Family Team Charter" template based on the "Communication Framework" SoTs.
-- [ ] **Consolidate:** Merge the "Bessie educational" fragments into a single [[SoT - Neurodivergent Advocacy in Education]].
+- [ ] Harvest: Integrate the "Financial Agency" seedlings into the [[SoT - Family Financial Wellness]].
+- [ ] Synthesise: Create a "Family Team Charter" template based on the "Communication Framework" SoTs.
+- [ ] Consolidate: Merge the "Bessie educational" fragments into a single [[SoT - Neurodivergent Advocacy in Education]].

@@ -2,7 +2,7 @@
 aliases: ["Configure Unify Execute", "CUE Configuration", "CUE Lang", "CUE Logic", "Unification Engine", "Value Lattice"]
 created: 2026-02-03T19:15:00+00:00
 last_synthesis: 2026-04-02
-modified: 2026-04-02T12:00:00+00:00
+modified: 2026-04-08T17:59:00+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 2
@@ -14,7 +14,7 @@ type: "SoT"
 
 ## Minimum Viable Understanding (MVU)
 
-CUE (Configure Unify Execute) is a configuration language based on Order Theory (Lattices). Unlike Helm (Text Templating) or Kustomize (Patching), CUE manages configuration through **Unification**: combining constraints to refine values. It treats "Types" as "Values," enabling intrinsic validation where conflict is a compile-time feature, not a runtime bug.
+CUE (Configure Unify Execute) is a configuration language based on Order Theory (Lattices). Unlike Helm (Text Templating) or Kustomize (Patching), CUE manages configuration through Unification: combining constraints to refine values. It treats "Types" as "Values," enabling intrinsic validation where conflict is a compile-time feature, not a runtime bug.
 
 ---
 
@@ -42,21 +42,25 @@ In CUE, a schema is not a separate validation layer; it is simply less specific 
 - `port: >1024` (A set of integers > 1024).
 - `port: 8080` (A concrete value / set of size 1).
 
-Unification (`&`) computes the intersection. If the intersection is empty (e.g., `>1024 & 80`), the result is **Bottom (⊥)**, representing an invalid configuration.
+Unification (`&`) computes the intersection. If the intersection is empty (e.g., `>1024 & 80`), the result is Bottom (⊥), representing an invalid configuration.
 
 ---
 
 ## 2. Unification vs. Assignment
 
 ### Assignment (Imperative/Helm)
+
 Variables are containers. Later values overwrite earlier ones. History and intent are lost.
+
 ```python
 x = 5
 x = 6  # x is now 6.
 ```
 
 ### Unification (Declarative/CUE)
-Variables are constraints. Values are merged (The Meet Operation). Unification is **Commutative** ($A \cap B = B \cap A$), solving "Override Hell."
+
+Variables are constraints. Values are merged (The Meet Operation). Unification is Commutative ($A \cap B = B \cap A$), solving "Override Hell."
+
 ```cue
 x: int
 x: >5
@@ -70,14 +74,14 @@ x: 7   # Error: Bottom (⊥). A value cannot be 6 AND 7.
 
 ## 3. Failure Modes as Features
 
-In template systems, conflicts often result in invalid YAML rejected at runtime. In CUE, conflicts are **Compile-Time Errors** caught in CI.
+In template systems, conflicts often result in invalid YAML rejected at runtime. In CUE, conflicts are Compile-Time Errors caught in CI.
 
 | Failure Type | Helm/Jinja Behavior | CUE Behavior |
 |:--- |:--- |:--- |
-| **Type Mismatch** | Silent coercion or runtime crash. | `string & int` → ⊥ (Error). |
-| **Constraint Violation** | Template renders, API rejects. | `>10 & 5` → ⊥ (Error). |
-| **Missing Field** | Renders `<no value>`. | Struct fails to close. Error. |
-| **Override Conflict** | Silent overwrite (Last wins). | Explicit Error (Conflict). |
+| Type Mismatch | Silent coercion or runtime crash. | `string & int` → ⊥ (Error). |
+| Constraint Violation | Template renders, API rejects. | `>10 & 5` → ⊥ (Error). |
+| Missing Field | Renders `<no value>`. | Struct fails to close. Error. |
+| Override Conflict | Silent overwrite (Last wins). | Explicit Error (Conflict). |
 
 ---
 
@@ -85,16 +89,17 @@ In template systems, conflicts often result in invalid YAML rejected at runtime.
 
 | Metric | Helm / Jinja (Templating) | Kustomize (Patching) | CUE (Unification) |
 |:--- |:--- |:--- |:--- |
-| **Model** | String Interpolation | Strategic Merge Patch | Mathematical Unification |
-| **Schema Enforcement** | Late/External. | None/Late. | Intrinsic. Types are values. |
-| **Composition** | Fragile. Order-dependent. | Fragile. Position-dependent. | Robust. Commutative. |
-| **Error Locality** | Poor. Appears in output. | Medium. Appears at apply. | High. Traces to source line. |
+| Model | String Interpolation | Strategic Merge Patch | Mathematical Unification |
+| Schema Enforcement | Late/External. | None/Late. | Intrinsic. Types are values. |
+| Composition | Fragile. Order-dependent. | Fragile. Position-dependent. | Robust. Commutative. |
+| Error Locality | Poor. Appears in output. | Medium. Appears at apply. | High. Traces to source line. |
 
 ---
 
 ## 5. Strategic Patterns
 
 ### 5.1 The "Secret Intent" Pattern
+
 Use Disjunctions (`|`) to define mutually exclusive schemas for sensitive data. This forces the user to provide exactly the required fields for a specific source (e.g., Vault vs. K8s Secret).
 
 ```cue
@@ -108,6 +113,7 @@ Use Disjunctions (`|`) to define mutually exclusive schemas for sensitive data. 
 ```
 
 ### 5.2 Profile-Based Invariants
+
 Enforce environment-specific rules (e.g., "Production must use Vault") via conditional constraints.
 
 ```cue
@@ -120,15 +126,15 @@ if profile == "prod" {
 
 ## 6. Operational Risks (The Friction)
 
-1. **Export/Import Friction**: Kubernetes speaks YAML, not CUE. You must compile (`cue export`) before applying. The "State of the World" (YAML) is a lossy projection of the "Source of Truth" (CUE).
-2. **Ecosystem Isolation**: Vendors ship Helm Charts, not CUE modules. You must wrap or rewrite them, incurring maintenance debt.
-3. **Non-Monotonicity**: Developers must shift from "overriding" (destructive) to "refining" or using **Defaults** (`*value | T`).
+1. Export/Import Friction: Kubernetes speaks YAML, not CUE. You must compile (`cue export`) before applying. The "State of the World" (YAML) is a lossy projection of the "Source of Truth" (CUE).
+2. Ecosystem Isolation: Vendors ship Helm Charts, not CUE modules. You must wrap or rewrite them, incurring maintenance debt.
+3. Non-Monotonicity: Developers must shift from "overriding" (destructive) to "refining" or using Defaults (`*value | T`).
 
 ---
 
 ## Related Knowledge
 
-- **Protocol**: [[Protocol - Helm to CUE Migration]] (The Strangler Fig Pattern).
-- **Theory**: [[SoT - Order Theory & Lattices]] (Lattices and Partial Orders).
-- **Strategy**: [[SoT - Type-Driven Infrastructure Strategy]].
-- **Framework**: [[SoT - Generative Infrastructure Configuration Framework]].
+- Protocol: [[Protocol - Helm to CUE Migration]] (The Strangler Fig Pattern).
+- Theory: [[SoT - Order Theory & Lattices]] (Lattices and Partial Orders).
+- Strategy: [[SoT - Type-Driven Infrastructure Strategy]].
+- Framework: [[SoT - Generative Infrastructure Configuration Framework]].

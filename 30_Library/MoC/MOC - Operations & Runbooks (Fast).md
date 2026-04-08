@@ -1,6 +1,7 @@
 ---
-aliases: [Ops Index, Runbooks Index, On-Call Index]
+aliases: [On-Call Index, Ops Index, Runbooks Index]
 created: 2026-04-08T00:00:00+00:00
+modified: 2026-04-08T17:59:02+00:00
 status: seedling
 tags: [moc, ops, triage]
 title: MOC - Operations & Runbooks (Fast)
@@ -9,17 +10,17 @@ type: map
 
 ## Navigation Hub: Operations & Runbooks (Fast)
 
-Purpose: fast entry points into the *most-used* ops notes (by inbound links across the vault), plus a routing rubric for new ops notes.
+Purpose: fast entry points into the _most-used_ ops notes (by inbound links across the vault), plus a routing rubric for new ops notes.
 
-### 1) High-frequency “go-to” notes (~15)
+### 1) High-frequency "go-to" Notes (~15)
 
-#### Netshoot / cluster triage
+#### Netshoot / Cluster Triage
 
 - [[cmd-k8s-run-netshoot]]
 - [[pb-netshoot-deployment]]
 - [[pb-cross-cluster-connectivity-triage]]
 
-#### ArgoCD / VSO / registry auth
+#### ArgoCD / VSO / Registry Auth
 
 - [[cmd_argocd_refresh_app]]
 - [[cmd-k8s-describe-argocd-app]]
@@ -33,7 +34,7 @@ Purpose: fast entry points into the *most-used* ops notes (by inbound links acro
 - [[cmd_kubectl_restart_argocd_repo_server]]
 - [[cmd_kubectl_argocd_get_app_operation_state]]
 
-#### Network testing
+#### Network Testing
 
 - [[cmd-net-mtr-tcp]]
 - [[cmd-net-nmap-check-filtered]]
@@ -41,63 +42,62 @@ Purpose: fast entry points into the *most-used* ops notes (by inbound links acro
 
 ---
 
-## Routing rubric for new ops notes (binary decisions)
+## Routing Rubric for New Ops Notes (binary decisions)
 
-### Step 0 — Is this an action, a procedure, or knowledge?
+### Step 0—Is This an Action, a Procedure, or Knowledge?
 
-- If it is a **single command** you’ll copy/paste: create `cmd-<area>-<verb>-<object>.md`
-- If it is a **multi-step procedure** with decision points: create `pb-<symptom-or-goal>.md` (playbook)
-- If it is **stable explanation / identifiers / invariants**: create `kb-<topic>.md`
+- If it is a single command you'll copy/paste: create `cmd-<area>-<verb>-<object>.md`
+- If it is a multi-step procedure with decision points: create `pb-<symptom-or-goal>.md` (playbook)
+- If it is stable explanation / identifiers / invariants: create `kb-<topic>.md`
 
-### Step 1 — Choose the prefix (pick exactly one)
+### Step 1—Choose the Prefix (pick Exactly one)
 
 - `cmd-` = one primary command (may include small variants and flags)
 - `pb-` = incident workflow (symptoms → checks → branches → resolution)
 - `kb-` = reference knowledge that makes other notes shorter
 - `playbook_` / `cmd_` = only use if you are deliberately keeping legacy naming (otherwise prefer the short prefixes above)
 
-### Step 2 — Required sections (minimum viable structure)
+### Step 2—Required Sections (minimum Viable structure)
 
 #### For `cmd-*`
 
-- **When to use**
-- **Command**
-- **Expected output / success signal**
-- **Failure modes** (2–5 bullets)
-- **Safety / blast radius** (what it changes, if anything)
+- When to use
+- Command
+- Expected output / success signal
+- Failure modes (2–5 bullets)
+- Safety / blast radius (what it changes, if anything)
 
 #### For `pb-*`
 
-- **Trigger** (symptoms, alerts, user impact)
-- **Goal state** (what “fixed” means)
-- **Triage steps** (ordered; each step ends with a yes/no branch)
-- **Resolution paths** (2–4 named paths)
-- **Escalation / stop conditions**
+- Trigger (symptoms, alerts, user impact)
+- Goal state (what "fixed" means)
+- Triage steps (ordered; each step ends with a yes/no branch)
+- Resolution paths (2–4 named paths)
+- Escalation / stop conditions
 
 #### For `kb-*`
 
-- **Definition**
-- **Identifiers / invariants**
-- **Common confusions**
-- **Links to the cmd/pb notes that depend on it**
+- Definition
+- Identifiers / invariants
+- Common confusions
+- Links to the cmd/pb notes that depend on it
 
-### Step 3 — Mandatory routing links (make it navigable)
+### Step 3—Mandatory Routing Links (make it navigable)
 
 - Add a backlink to: [[MOC - Operations & Runbooks (Fast)]] (or your canonical ops MoC)
-- Link out to exactly one “parent area” anchor:
+- Link out to exactly one "parent area" anchor:
   - ArgoCD / GitOps
   - Kubernetes
   - Networking
   - Secrets / VSO
   - Deployments (if applicable)
 
-### Step 4 — Naming test (if it fails, rename)
+### Step 4—Naming Test (if it Fails, rename)
 
 - Could you find it in 2 seconds by typing 3–5 letters?
-- Does the filename encode **scope + action** (for cmd/pb) or **topic** (for kb)?
+- Does the filename encode scope + action (for cmd/pb) or topic (for kb)?
 - Is it consistent with existing high-frequency notes?
 
-## Next action
+## Next Action
 
-- [ ] Pick the canonical ops hub name (this “Fast” MoC vs a fuller one), then ensure every new `cmd-*` / `pb-*` / `kb-*` links back to it.
-
+- [ ] Pick the canonical ops hub name (this "Fast" MoC vs a fuller one), then ensure every new `cmd-*` / `pb-*` / `kb-*` links back to it.

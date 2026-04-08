@@ -2,7 +2,7 @@
 aliases: ["Launch Sequence", "The Initiation Algorithm"]
 created: 2025-12-23T20:00:20Z
 last_reviewed: "2025-12-23"
-modified: 2026-02-01T15:07:53+00:00
+modified: 2026-04-08T17:58:57+00:00
 status: "stable"
 tags: ["action", "adhd", "initiation", "productivity", "protocol"]
 title: SoT - Protocol - The Launch Sequence
@@ -54,6 +54,13 @@ The ADHD brain is often "under-aroused" and needs stimulation to engage.
 
 - Action: Stand up and explain the first step of the task out loud to an empty room, using exaggerated hand gestures.
 - Mechanism: Offloads the structure of the task from your brain to your motor system.
+
+### C. Cerebellar Activation (The Glitchy Switch Fix)
+
+The cerebellum is a critical hub for cognitive and emotional stability, helping to regulate the "switch" between the Task-Positive Network (TPN) and Default Mode Network (DMN).
+
+- Action: Perform a 60-second balance challenge (e.g., standing on one leg, using a balance board, or slow-motion isometrics).
+- Mechanism: Challenging your balance and coordination "charges" the cerebellum, increasing levels of dopamine and norepinephrine. This stabilizes your attention "jitter" and makes it easier to suppress the DMN (mind-wandering) in favour of the TPN (task-focus).
 
 ---
 

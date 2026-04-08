@@ -1,7 +1,7 @@
 ---
 aliases: [Agent Capabilities, AI Agent Skills, Claude Code Skills]
 created: 2026-03-28T17:00:00Z
-modified: 2026-03-30T11:20:27+00:00
+modified: 2026-04-08T17:59:01+00:00
 status: seedling
 tags: [agents, ai, architecture, claude, mcp, skills]
 title: SoT - AI Agent Skill Architecture
@@ -72,5 +72,5 @@ An agent only activates a skill based on its description. Vague descriptions (e.
 
 - [[Protocol - Action-First GTD (LLM Chief of Staff)]]
 - [[SoT - Gemini CLI Operations & Workflow]]
-- [[SoT - Flow Engineering]] — Pattern B is an instance of this broader orchestration discipline
-- [[SoT - LLM Semantic-Statistical Mismatch]] — Why Pattern B (scripts for deterministic tasks) is necessary
+- [[SoT - Flow Engineering]]—Pattern B is an instance of this broader orchestration discipline
+- [[SoT - LLM Semantic-Statistical Mismatch]]—Why Pattern B (scripts for deterministic tasks) is necessary

@@ -2,7 +2,7 @@
 aliases: ["Time-boxed Research"]
 created: 2025-11-12T15:00:10Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:24+00:00
+modified: 2026-04-08T17:59:06+00:00
 status: "seedling"
 tags: ["research", "technique", "TheHuman/Health/ADHD", "time-management", "topic/productivity"]
 title: Time-Boxing Research Prevents Productive Procrastination
@@ -21,7 +21,7 @@ How:
 3. Focus exclusively on answering that specific question within the allotted time.
 4. When the timer goes off, immediately stop the research and pivot to an action: applying the information found.
 
-rel:: antidote [[SoT - Illusion of Explanatory Depth (IoED)]] — directly counters the Research Rabbit Hole pattern (§ 3 "Dopamine-Seeking Behavior").
+rel:: antidote [[SoT - Illusion of Explanatory Depth (IoED)]]—directly counters the Research Rabbit Hole pattern (§ 3 "Dopamine-Seeking Behavior").
 
 Failure modes:
 

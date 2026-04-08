@@ -2,7 +2,7 @@
 aliases: ["AuthN Standards", "Modern Auth Protocols", "OAuth and OIDC"]
 created: 2025-12-25T13:00:00Z
 last_reviewed: "2025-12-30"
-modified: 2026-02-01T15:07:55+00:00
+modified: 2026-04-08T17:58:58+00:00
 status: "stable"
 tags: ["authentication", "oauth", "oidc", "SoftwareEngineering/Security", "standards"]
 title: SoT - Modern Authentication Standards
@@ -20,31 +20,31 @@ Modern authentication moves away from Static Credentials (long-lived passwords/k
 
 ### A. OAuth 2.0 & 2.1 (Authorization Framework)
 
-- **Role:** The industry standard for **Delegated Authorization** (accessing resources on behalf of a user).
-- **Core Components:**
-    - *Resource Owner:* The user whose data is being accessed.
-    - *Client Application:* The app requesting the data.
-    - *Resource Server:* Where the user data resides (the API).
-    - *Authorization Server:* The trusted authority that issues tokens (e.g., Entra ID, Auth0).
-- **Key Flows:**
-    - **Authorization Code Flow (+PKCE):** The gold standard for web and mobile apps. Browser redirects to IdP, returns a code, which the client exchanges for an access token. **PKCE** (Proof Key for Code Exchange) adds a code challenge/verifier to mitigate interception risks on public clients.
-    - **Device Code Flow:** Designed for devices with limited input (TVs, CLI tools). The user enters a code on a separate device (laptop/phone) while the app polls for completion.
-    - **Token Refresh Flow:** Addresses short access token lifetimes. The app exchanges a long-lived **Refresh Token** for a new access token, minimizing repeated user logins.
-    - **Client Credentials Flow:** Machine-to-Machine (M2M). The service uses `AppID` + `Secret` to get a token. No user context; used for admin/service tasks.
-- **Security Note:** Avoid **Implicit Flow** and **Resource Owner Password Credentials**—they are outdated, insecure, and deprecated in OAuth 2.1.
+- Role: The industry standard for Delegated Authorization (accessing resources on behalf of a user).
+- Core Components:
+    - _Resource Owner:_ The user whose data is being accessed.
+    - _Client Application:_ The app requesting the data.
+    - _Resource Server:_ Where the user data resides (the API).
+    - _Authorization Server:_ The trusted authority that issues tokens (e.g., Entra ID, Auth0).
+- Key Flows:
+    - Authorization Code Flow (+PKCE): The gold standard for web and mobile apps. Browser redirects to IdP, returns a code, which the client exchanges for an access token. PKCE (Proof Key for Code Exchange) adds a code challenge/verifier to mitigate interception risks on public clients.
+    - Device Code Flow: Designed for devices with limited input (TVs, CLI tools). The user enters a code on a separate device (laptop/phone) while the app polls for completion.
+    - Token Refresh Flow: Addresses short access token lifetimes. The app exchanges a long-lived Refresh Token for a new access token, minimizing repeated user logins.
+    - Client Credentials Flow: Machine-to-Machine (M2M). The service uses `AppID` + `Secret` to get a token. No user context; used for admin/service tasks.
+- Security Note: Avoid Implicit Flow and Resource Owner Password Credentials—they are outdated, insecure, and deprecated in OAuth 2.1.
 
 ### B. OpenID Connect (OIDC) - The Identity Layer
 
-- **Role:** Adds **Authentication** (Who are you?) on top of OAuth 2.0 (What can you do?).
-- **The ID Token:** A JWT containing user profile data (`sub`, `email`, `name`). Signed by the IdP.
-- **UserInfo Endpoint:** An API endpoint to fetch more user details using the Access Token.
-- **Significance:** Standardizes how Identity is shared between providers (Google, Microsoft) and applications.
+- Role: Adds Authentication (Who are you?) on top of OAuth 2.0 (What can you do?).
+- The ID Token: A JWT containing user profile data (`sub`, `email`, `name`). Signed by the IdP.
+- UserInfo Endpoint: An API endpoint to fetch more user details using the Access Token.
+- Significance: Standardizes how Identity is shared between providers (Google, Microsoft) and applications.
 
 ### C. SAML 2.0 (Security Assertion Markup Language)
 
-- **Role:** An XML-based standard used primarily for **Enterprise Single Sign-On (SSO)**.
-- **Mechanism:** The Identity Provider (IdP) sends a signed XML assertion to the Service Provider (SP) to notify it that the user is verified.
-- **Comparison:** While OIDC is JSON/REST-friendly and dominant in modern apps, SAML remains the backbone of many corporate and legacy enterprise integrations.
+- Role: An XML-based standard used primarily for Enterprise Single Sign-On (SSO).
+- Mechanism: The Identity Provider (IdP) sends a signed XML assertion to the Service Provider (SP) to notify it that the user is verified.
+- Comparison: While OIDC is JSON/REST-friendly and dominant in modern apps, SAML remains the backbone of many corporate and legacy enterprise integrations.
 
 ---
 
@@ -52,11 +52,11 @@ Modern authentication moves away from Static Credentials (long-lived passwords/k
 
 Trust is established by providing information that only the entity being authenticated can possess ("Proof of Possession").
 
-- **Credential-based:** Traditional username/password. Weak against modern threats; requires strict complexity and rotation policies.
-- **Challenge-Handshake Authentication Protocol (CHAP):** Used in network communications (remote access). Uses cryptographic challenge-response messages to prevent eavesdropping and replay attacks.
-- **Biometric Identification:** Measures unique physiological traits (Fingerprint, Facial Recognition). Highly resistant to spoofing when implemented correctly.
-- **Multi-Factor Authentication (MFA):** Adds a critical second layer of security via phone calls, SMS, mobile app push notifications, or hardware tokens.
-- **Passwordless (FIDO2/WebAuthn):** Shifting to public key cryptography where the "password" is a private key stored in a hardware module (TPM, Secure Enclave).
+- Credential-based: Traditional username/password. Weak against modern threats; requires strict complexity and rotation policies.
+- Challenge-Handshake Authentication Protocol (CHAP): Used in network communications (remote access). Uses cryptographic challenge-response messages to prevent eavesdropping and replay attacks.
+- Biometric Identification: Measures unique physiological traits (Fingerprint, Facial Recognition). Highly resistant to spoofing when implemented correctly.
+- Multi-Factor Authentication (MFA): Adds a critical second layer of security via phone calls, SMS, mobile app push notifications, or hardware tokens.
+- Passwordless (FIDO2/WebAuthn): Shifting to public key cryptography where the "password" is a private key stored in a hardware module (TPM, Secure Enclave).
 
 ### C. Mutual TLS (mTLS) - Zero Trust Identity
 

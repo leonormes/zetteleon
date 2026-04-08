@@ -2,7 +2,7 @@
 aliases: ["Athena", "OMOP Vocabularies", "Standard Concepts"]
 created: 2026-01-06T18:52:00+00:00
 last_reviewed: 
-modified: 2026-02-01T15:07:54+00:00
+modified: 2026-04-08T17:58:57+00:00
 status: "Active"
 tags: ["ohdsi", "ontology", "semantics", "vocabulary"]
 title: SoT - OHDSI Standardized Vocabularies
@@ -60,16 +60,19 @@ The vocabulary flattens complex poly-hierarchies into a simple lookup table: `CO
 The vocabularies are updated on a regular cadence, typically twice a year (February and August). These updates reflect changes from upstream sources (ICD, SNOMED, etc.).
 
 #### A. Maintenance Workflow
-- **Data Ingestion:** The OHDSI Vocabulary Team pulls updates from the Unified Medical Language System (UMLS) and prunes them for CDM suitability.
-- **Athena:** The central portal to search, browse, and download the finalized vocabulary files.
-- **Tantalus:** An analytical package used to run a "diff" between vocabulary versions to identify changed, deprecated, or orphan codes.
+
+- Data Ingestion: The OHDSI Vocabulary Team pulls updates from the Unified Medical Language System (UMLS) and prunes them for CDM suitability.
+- Athena: The central portal to search, browse, and download the finalized vocabulary files.
+- Tantalus: An analytical package used to run a "diff" between vocabulary versions to identify changed, deprecated, or orphan codes.
 
 #### B. Update Protocol
-1. **Align with Biannual Schedule:** Schedule maintenance around the February/August major releases.
-2. **Review Release Notes:** Consult the "What's New" file and ATHENA to identify concept changes.
-3. **ETL Refresh:** Vocabulary updates often require a full re-run of the ETL process to ensure local data reflects current standard concept mappings.
+
+1. Align with Biannual Schedule: Schedule maintenance around the February/August major releases.
+2. Review Release Notes: Consult the "What's New" file and ATHENA to identify concept changes.
+3. ETL Refresh: Vocabulary updates often require a full re-run of the ETL process to ensure local data reflects current standard concept mappings.
 
 ### 5. Tools
-- **Athena:** Web portal for browsing and downloading.
-- **Usagi:** Mapping local/custom codes to Standard Concepts.
-- **Phoebe:** Recommender system for concept selection.
+
+- Athena: Web portal for browsing and downloading.
+- Usagi: Mapping local/custom codes to Standard Concepts.
+- Phoebe: Recommender system for concept selection.

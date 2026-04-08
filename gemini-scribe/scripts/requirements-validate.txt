@@ -1,0 +1,2 @@
+# Optional: frontmatter validation script (validate_note_frontmatter.py)
+PyYAML>=6.0

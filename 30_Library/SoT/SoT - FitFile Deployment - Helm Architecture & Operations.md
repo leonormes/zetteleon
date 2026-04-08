@@ -1,6 +1,6 @@
 ---
 created: 2025-02-07T12:57:55Z
-modified: 2026-02-04T07:27:21+00:00
+modified: 2026-04-08T17:58:59+00:00
 Reviewed: false
 status: stable
 tags: [architecture, deployment, fitfile, helm, kubernetes, sop]
@@ -20,6 +20,7 @@ This architecture orchestrates the deployment of:
 - Control Plane: `argo` (ArgoCD and Workflows)
 
 ---
+
 ## 2. Repository & Chart Architecture
 
 The repository follows a monolithic chart structure with functional decomposition.
@@ -65,17 +66,17 @@ charts/
 
 ## 3. The Generative Pipeline
 
-The configuration flows from **Terraform** $\rightarrow$ **CUE** $\rightarrow$ **Helm values.yaml**.
+The configuration flows from Terraform $\rightarrow$ CUE $\rightarrow$ Helm values.yaml.
 
 ### 3.1 Step-by-Step Breakdown
 
-1. **Trigger** (`make generate-values`): Grabs Terraform's `infra_facts` output as JSON:
+1. Trigger (`make generate-values`): Grabs Terraform's `infra_facts` output as JSON:
    `INFRA_JSON=$(terraform output -json infra_facts | jq -c '.')`
-2. **Schema Validation** (`schema_infra.cue`): CUE intercepts the JSON and validates it against the strictly defined contract. If fields are missing, the build fails.
-3. **Policy Integration** (`policy_defaults.cue`): Merges the terraform facts with platform-level defaults (Auth0 domains, DB versions, registry URLs).
-4. **Rendering** (`render_fitfile.cue`): Maps the validated inputs to the final `values` tree, automating complex tasks like Vault secret mappings and ingress FQDNs.
-5. **YAML Export**: The script exports the CUE object tree into the final manifest:
-   `cue export ./cue/*.cue -t "infra=$INFRA_JSON" -e values --out yaml > generated/values.yaml`
+2. Schema Validation (`schema_infra.cue`): CUE intercepts the JSON and validates it against the strictly defined contract. If fields are missing, the build fails.
+3. Policy Integration (`policy_defaults.cue`): Merges the terraform facts with platform-level defaults (Auth0 domains, DB versions, registry URLs).
+4. Rendering (`render_fitfile.cue`): Maps the validated inputs to the final `values` tree, automating complex tasks like Vault secret mappings and ingress FQDNs.
+5. YAML Export: The script exports the CUE object tree into the final manifest:
+   `cue export./cue/*.cue -t "infra=$INFRA_JSON" -e values --out yaml > generated/values.yaml`
 
 ---
 

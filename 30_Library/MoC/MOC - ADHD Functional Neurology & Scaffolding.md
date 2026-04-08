@@ -1,8 +1,9 @@
 ---
 aliases: [ADHD Neurology Index, Functional Neurology MOC]
-created: 2026-04-08
+created: 2026-04-08T00:00:00+00:00
+modified: 2026-04-08T17:59:02+00:00
 status: seedling
-tags: [moc, triage, adhd, neuroscience, neurology]
+tags: [adhd, moc, neurology, neuroscience, triage]
 title: MOC - ADHD Functional Neurology & Scaffolding
 type: map
 ---
@@ -50,6 +51,6 @@ These notes provide the foundational understanding of how the ADHD brain operate
 
 ### 4. Recommended Actions
 
-- [ ] **Synthesise:** Review the "Neuroenergetic deficit theory" and its implications for the "Metabolic Firewall" protocol.
-- [ ] **Harvest:** Extract practical cues from [[Cerebellum Function and Exercise for ADHD Regulation]] into a "Pre-flight Ritual" protocol.
-- [ ] **Consolidate:** Merge duplicate insights between [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]] and [[ADHD DMN Deactivation Failure]].
+- [ ] Synthesise: Review the "Neuroenergetic deficit theory" and its implications for the "Metabolic Firewall" protocol.
+- [ ] Harvest: Extract practical cues from [[Cerebellum Function and Exercise for ADHD Regulation]] into a "Pre-flight Ritual" protocol.
+- [ ] Consolidate: Merge duplicate insights between [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]] and [[ADHD DMN Deactivation Failure]].

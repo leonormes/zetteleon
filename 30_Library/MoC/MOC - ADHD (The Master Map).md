@@ -2,7 +2,7 @@
 aliases: ["ADHD Master Map", "Neurodiversity Hub", "The ADHD Entry Point"]
 created: 2026-04-02T14:00:00+00:00
 last_synthesis: 2026-04-02
-modified: 2026-04-02T15:23:23+00:00
+modified: 2026-04-08T17:59:03+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 2
@@ -21,7 +21,7 @@ ADHD is not a "deficit of attention," but a Resource Management Failure. It is t
 
 _The biological reality and the "Interest-Based" nervous system._
 
-- **The Map (Neurology):** [[MOC - ADHD Functional Neurology & Scaffolding]] — _The navigational hub for brain network (DMN/TPN) dysregulation and dopamine mechanics._
+- The Map (Neurology): [[MOC - ADHD Functional Neurology & Scaffolding]]—_The navigational hub for brain network (DMN/TPN) dysregulation and dopamine mechanics._
 - The Core Theory: [[SoT - ADHD Neurology & Core Concepts]]—_Defines the Hardware constraints (INCUP), RAM (Working Memory) volatility, and Signal Gating issues._
 - The Engine (Motivation): [[SoT - ADHD Neurology & Core Concepts#1.2 The Interest-Based Drivers (INCUP)]]—_Dopamine deficiency, the AMCC "Tenacity Muscle," and why "Importance" is an invisible signal._
 - The Barrier (Task Initiation): [[MOC - Why Task Initiation is Difficult in ADHD]]—_Neurological bottlenecks: Time Blindness, Low Dopamine, and Activation Cost._

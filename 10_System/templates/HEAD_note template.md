@@ -1,11 +1,10 @@
 ---
-created: 2025-12-04T12:02:41Z
-last_reviewed: null
-modified: 2025-12-25T18:35:29Z
-status: processing
-tags: [state/thinking]
-title: HEAD_note template
-type: head
-updated: null
+title: "<% tp.file.title %>"
+created: "<% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>+00:00"
+modified: "<% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>+00:00"
+tags: [state/thinking, prodos/head]
+aliases: []
+prodos:
+  kind: head
+  lifecycle: active
 ---
-

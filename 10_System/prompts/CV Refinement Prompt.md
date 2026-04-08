@@ -1,9 +1,9 @@
 ---
 created: 2026-02-11T10:05:14+00:00
-modified: 2026-02-11T10:14:57+00:00
-title: CV Refinement Prompt
 description: Refine Leon’s CV for UK infrastructure roles with micro-step feedback and concrete rewrites.
+modified: 2026-04-08T17:59:10+00:00
 tags: [domain/career, tool/writing, type/utility]
+title: CV Refinement Prompt
 type: "prompt"
 ---
 

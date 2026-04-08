@@ -3,7 +3,7 @@ alias: [Connectivity Debugging, Kubernetes Network Debugging Protocol, Network T
 aliases:
   - Protocol - HIE->NNUH Network Debugging
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-24T09:59:59+00:00
+modified: 2026-04-08T17:59:01+00:00
 tags: [aws, azure, customer/nnuh, debugging, kubernetes, networking, protocol]
 title: Protocol - HIE--NNUH Network Debugging
 type: protocol
@@ -189,6 +189,7 @@ kubectl get endpoints -n ${K8S_NAMESPACE} ${K8S_SERVICE_NAME}
 ## 5. Certificate & DNS Validation
 
 ### A. Cert-Manager Status (In-Cluster)
+
 ```bash
 # 1. Check if the certificate is Ready
 kubectl get certificate -n <namespace> <cert-name> -o wide
@@ -199,6 +200,7 @@ kubectl get orders -n <namespace>
 ```
 
 ### B. Remote TLS Verification (From Jumpbox/Netshoot)
+
 ```bash
 # 3. Quick TLS Health Check (Issuer, SAN, Expiry)
 openssl s_client -connect <hostname>:443 -servername <hostname> </dev/null 2>/dev/null | openssl x509 -noout -subject -issuer -dates -ext subjectAltName
@@ -208,7 +210,9 @@ curl -vI https://<hostname> 2>&1 | grep -E "Connected to|SSL connection|subject:
 ```
 
 ### C. Split-Horizon Trace
+
 Confirm the resolver path is correct for the environment:
+
 ```bash
 # 5. Check iterative resolution path
 dig +trace <hostname>
