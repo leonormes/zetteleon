@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1775671686139,
+  "lastSync": 1775671777743,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2923,70 +2923,65 @@
       "contentHash": "50a1186832e748bee5477a8e25ce5d17937b33e43df230440da44ed9a1bf7e96",
       "lastIndexed": 1775671655932
     },
-    "30_Library/200_projects/30_Maths/Truth Tables.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "2ccbf95afd2f44527e3d6ccc3666aec8666ba94822c3ee8c36d853c2a11865fa",
-      "lastIndexed": 1775486027554
-    },
     "30_Library/200_projects/30_Maths/What is a pattern.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "91a120433963f79ce3448e684654e951a5a1a9ddf92d609c4a2214dbc0647afc",
-      "lastIndexed": 1775486027850
+      "contentHash": "593a1bc2671e33d93e1d583350ae6801c188e254b6c8066fec2837c5210b252c",
+      "lastIndexed": 1775671777580
     },
     "30_Library/200_projects/30_Maths/Think like a mathematian.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "66e5ac825e5ad51d1293db0b9a9021420780428f2bcf3c829f01a19d6b04664a",
-      "lastIndexed": 1775486030928
+      "contentHash": "713ffb2737ce79a825d2c8932d9720c74cfb749c17c9c2b6350d6e9fce096a5f",
+      "lastIndexed": 1775671770892
     },
     "30_Library/200_projects/30_Maths/The Hunt.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c979e29329f2a32fe46a92e687711eb6918ff73255244c4be5448db549fd836c",
-      "lastIndexed": 1775486030965
+      "contentHash": "3fb579c538c23f117515d312146acb2ae5f74e0eac054e85c22532e5be8c7876",
+      "lastIndexed": 1775671764559
     },
     "30_Library/200_projects/30_Maths/The Handshake Puzzle.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "56bc9d659f715334413b1d857d882fa555a6b5af83ce6bec1cb0d67b49cc6059",
-      "lastIndexed": 1775486031029
+      "contentHash": "e45f4c91ef9cdb079185300b0d6d90c2370a4e4ed81bebbe8a22a89bca4a4654",
+      "lastIndexed": 1775671760892
     },
     "30_Library/200_projects/30_Maths/Time, Patterns, and Mathematics.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6814e12e11924b45c8dc6e15a32f22cea0c2daeb309eeb73a0199abcc4dc1261",
-      "lastIndexed": 1775486031293
+      "contentHash": "e55bf50ac4348f58cbcc45486c2cf6581caf9b8bef6fa6f872d3609d766ff875",
+      "lastIndexed": 1775671774207
     },
     "30_Library/200_projects/30_Maths/The Realm of the Proven and Known.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c38c6d4d3e48ede40ce82339e99dcf91d4be7e931933aa22ba233fff310a11b8",
-      "lastIndexed": 1775486031414
+      "contentHash": "1f733e24e4fb820bab598fffd135d204999f312640fe69a352bb5982822ab7dc",
+      "lastIndexed": 1775671767156
     },
     "30_Library/200_projects/30_Maths/How do I learn the maths.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "353b6825a990fccc5b931563d6ac7b4147a8aa3c1c60d6219c5482feba620078",
-      "lastIndexed": 1775486033788
+      "contentHash": "cb826c3cc074c7b6be58f88ed2041941bcc5f89f2557706b5f611aeb3f6bdf1d",
+      "lastIndexed": 1775671739025
     },
     "30_Library/200_projects/30_Maths/Simple simpling.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8fafdfacf9197a23ad85e833896ce9f170dcc0079bde765cbb0800cf6a5001a2",
-      "lastIndexed": 1775486033962
+      "contentHash": "47e76cabf6cde77c2e3babdb180980543a520cb34fabfb76f16483ecf7ce5153",
+      "lastIndexed": 1775671757409
     },
     "30_Library/200_projects/30_Maths/Pi and the Properties of Circles.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f1aba47c9800cc4ec0b2d259e7040b94d8084603c8bea80b5d71d382784d3cb7",
-      "lastIndexed": 1775486033967
+      "contentHash": "360296c4099e6c59465cba78e81ce411bbdb2c96f5eaff293ce4c9c7c261ca64",
+      "lastIndexed": 1775671754369
     },
     "30_Library/200_projects/30_Maths/Maths toolbox.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0c7e1d53de1302f8e47daa952857264670a0b2c21b90e404ba7c0618d67d0bee",
-      "lastIndexed": 1775486034379
+      "contentHash": "2af6b0901222c0b12910b474aa599cd8e28d396bdd0fb40bb44dcdb8edca3334",
+      "lastIndexed": 1775671750324
     },
     "30_Library/200_projects/30_Maths/Maths or English brain.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1b93dd70b58271af367f842d216cb956139037ddd2c08f861ed23357995251f4",
-      "lastIndexed": 1775486034425
+      "contentHash": "967ee64015d9d05024963af4f99968948deeba897fbc31c15e0d522d8409d8ee",
+      "lastIndexed": 1775671746352
     },
     "30_Library/200_projects/30_Maths/Ball Python Morph Maths.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1905c0d25378247fe4459ae259d049ab0160f6015a7f9baac855e4a6ee808e8d",
-      "lastIndexed": 1775486036836
+      "contentHash": "6e019cfb731b9082d68225557683e2f562571c6a781e7dba51008e928a0a4c8f",
+      "lastIndexed": 1775671742996
     },
     "30_Library/200_projects/10_Infrastructure/k8s/the k8s service abstraction.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2995,8 +2990,8 @@
     },
     "30_Library/200_projects/30_Maths/From Magic to Mathematical Notions.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1fd551786b965c08d8a9a6bee72a3e9f58be65f6666354a9ba0a99af739ff06d",
-      "lastIndexed": 1775486036865
+      "contentHash": "e602ba5d40f6025210992c307f6020aef054b568d7ce0c966dad958321819287",
+      "lastIndexed": 1775671735496
     },
     "30_Library/200_projects/10_Infrastructure/k8s/pod sys_admin.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
