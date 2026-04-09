@@ -1,33 +1,36 @@
 ---
-title: "You said create the instructions from this video s..."
-source: "https://gemini.google.com/app/b52f6f1608014039"
 captured: "2026-04-09T10:02:28+01:00 2026-04-09T10:02:28+01:00"
+created: 2026-04-09T09:02:42+00:00
+modified: 2026-04-09T09:07:54+00:00
+source: "https://gemini.google.com/app/b52f6f1608014039"
 status: "processing"
-tags:
-  - "input"
+tags: ["input"]
+title: Using Karpathy’s Original Framework
 type: "head"
 ---
+
 ## Raw Output / Content
-**You**
+
+You
 
 create the instructions from this video so I can set it up myself
 
-https://youtu.be/bc4NrE0cOE0?si=9A2QlFoHgEgtMnD8
+<https://youtu.be/bc4NrE0cOE0?si=9A2QlFoHgEgtMnD8>
 
 ---
 
-**Gemini**
+Gemini
 
 Here are the step-by-step instructions from the video on how to set up and use the Auto Research framework to optimise your Claude AI agents. The video provides two different methods for getting started:
 
-**Method 1: Using Karpathy’s Original Framework (The DIY Route)** This is the manual approach using the open-source code:
+Method 1: Using Karpathy's Original Framework (The DIY Route) This is the manual approach using the open-source code:
 
 1. Navigate to Andrej Karpathy's GitHub repository (which is linked in the video's description) \[[05:51](http://www.youtube.com/watch?v=bc4NrE0cOE0&t=351)\].
 2. Download the zip file containing the framework and extract its contents.
 3. Open Claude Co-work or Claude Code and grant it access to the extracted folder \[[06:06](http://www.youtube.com/watch?v=bc4NrE0cOE0&t=366)\].
 4. Because the original framework was built specifically for machine learning, you will need to collaborate with Claude to adapt it for your specific use cases \[[06:11](http://www.youtube.com/watch?v=bc4NrE0cOE0&t=371)\]. You can prompt Claude with something like, "Can you apply this framework to optimising my writing skills?" and iterate back and forth until it works efficiently.
 
-**Method 2: Using the Creator’s Pre-Built Plug-in** If you prefer a ready-to-use version adapted for general tasks:
+Method 2: Using the Creator's Pre-Built Plug-in If you prefer a ready-to-use version adapted for general tasks:
 
 1. Download the plug-in's zip file from the creator's AI Accelerator programme \[[15:10](http://www.youtube.com/watch?v=bc4NrE0cOE0&t=910)\].
 2. In your workspace, navigate to "Customise", go to the "Plugins" section, and click the "+" icon \[[15:19](http://www.youtube.com/watch?v=bc4NrE0cOE0&t=919)\].

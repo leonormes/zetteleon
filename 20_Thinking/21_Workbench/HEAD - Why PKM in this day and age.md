@@ -1,7 +1,7 @@
 ---
 created: 2025-12-04T12:02:41Z
 last_reviewed: null
-modified: 2026-04-09T08:11:12+00:00
+modified: 2026-04-09T09:07:53+00:00
 status: processing
 tags: [state/thinking]
 title: HEAD - Why PKM in this day and age
