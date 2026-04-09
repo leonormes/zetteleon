@@ -1,25 +1,13 @@
 ---
 captured: "2026-04-09T10:02:28+01:00 2026-04-09T10:02:28+01:00"
 created: 2026-04-09T09:02:42+00:00
-modified: 2026-04-09T09:07:54+00:00
+modified: 2026-04-09T09:11:21+00:00
 source: "https://gemini.google.com/app/b52f6f1608014039"
-status: "processing"
+status: "processed"
 tags: ["input"]
 title: Using Karpathy’s Original Framework
 type: "head"
 ---
-
-## Raw Output / Content
-
-You
-
-create the instructions from this video so I can set it up myself
-
-<https://youtu.be/bc4NrE0cOE0?si=9A2QlFoHgEgtMnD8>
-
----
-
-Gemini
 
 Here are the step-by-step instructions from the video on how to set up and use the Auto Research framework to optimise your Claude AI agents. The video provides two different methods for getting started:
 
