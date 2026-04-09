@@ -1,22 +1,27 @@
 ---
-type: tmp_atoms
-status: tmp
+captured_utc: "2025-12-04T12:02:41Z"
+created: 2026-04-09T09:49:05+00:00
+modified: 2026-04-09T10:01:45+00:00
+signal_to_noise: "80% signal / 20% noise"
 source_title: "Why PKM in this day and age"
 source_url: "unknown"
-captured_utc: "2025-12-04T12:02:41Z"
-signal_to_noise: "80% signal / 20% noise"
+status: tmp
+title: tmp_atoms_pkm_value
+type: tmp_atoms
 ---
 
-# Atomic Knowledge Units
+## Atomic Knowledge Units
 
-## Noise Removed
+### Noise Removed
+
 - Motivational metaphors like "living web of knowledge" and "knowledge only truly comes alive".
 - Hyperbolic phrasing regarding the "barrage of information hurtling towards them".
 - Generic opening statements about the "value extending far beyond academic research".
 
-## Atoms
+### Atoms
 
-### Atom 1: Cognitive Offloading Mechanism
+#### Atom 1: Cognitive Offloading Mechanism
+
 - kind: mechanism
 - statement: Offloading thoughts onto an external medium (scaffolding) frees limited short-term mental resources for decision-making and problem-solving.
 - scope_and_conditions: Based on the human brain's short-term capacity limit of approximately seven thoughts for a seven-second window.
@@ -27,7 +32,8 @@ signal_to_noise: "80% signal / 20% noise"
 - confidence: high
 - tags: [cognition, pkm, productivity, mental-models]
 
-### Atom 2: Writing as Verification of Comprehension
+#### Atom 2: Writing as Verification of Comprehension
+
 - kind: procedure
 - statement: Translating a concept into one's own words is the primary method for distinguishing actual comprehension from the "illusion of knowledge" (mere recognition).
 - scope_and_conditions: Applied when attempting to take ownership of external ideas or complex information.
@@ -38,18 +44,20 @@ signal_to_noise: "80% signal / 20% noise"
 - confidence: high
 - tags: [writing, learning, comprehension, pkm]
 
-### Atom 3: Belief Refinement Mechanism
+#### Atom 3: Belief Refinement Mechanism
+
 - kind: mechanism
 - statement: Converting amorphous thoughts into coherent language forces them to engage with logical structure, revealing a person's actual beliefs versus assumed beliefs.
 - scope_and_conditions: Applies in environments with high information velocity where thoughts remain unformed.
-- evidence: "When you write, you force amorphous, floating thoughts to engage with language, converting them into coherent ideas... reveals what you actually think about a subject, which often differs from what you assumed you believed." (no timestamp)
+- evidence: "When you write, you force amorphous, floating thoughts to engage with language, converting them into coherent ideas… reveals what you actually think about a subject, which often differs from what you assumed you believed." (no timestamp)
 - implications:
   - Writing is a tool for challenging and refining internal logical consistency.
   - The act of writing reveals internal contradictions that remain hidden in unexpressed thought.
 - confidence: high
 - tags: [self-reflection, logic, writing, cognitive-dissonance]
 
-### Atom 4: Personal Context Distinction
+#### Atom 4: Personal Context Distinction
+
 - kind: distinction
 - statement: Personal Knowledge Management (PKM) generates unique insights by linking ideas within an individual's personal context, which is inaccessible to AI deduction.
 - scope_and_conditions: Requires manual linking and personal context interaction to be effective.

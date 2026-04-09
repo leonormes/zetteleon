@@ -1,22 +1,27 @@
 ---
-type: tmp_atoms
-status: tmp
+captured_utc: "2026-04-09T10:18:52+01:00"
+created: 2026-04-09T09:54:34+00:00
+modified: 2026-04-09T10:01:46+00:00
+signal_to_noise: "85% signal / 15% noise"
 source_title: "Rules For Deep Work — Updated for 2026"
 source_url: "https://youtube.com/watch?v=nPzFhkTe2Uw&si=xDrfeIHzf-KGMgyI"
-captured_utc: "2026-04-09T10:18:52+01:00"
-signal_to_noise: "85% signal / 15% noise"
+status: tmp
+title: tmp_atoms_deep_work_2026
+type: tmp_atoms
 ---
 
-# Atomic Knowledge Units
+## Atomic Knowledge Units
 
-## Noise Removed
+### Noise Removed
+
 - References to the original book's success or "bestselling" status.
 - Meta-commentary on how the advice "holds up" or "is necessary".
 - Phrases like "vital new rule" or "modern toolkit".
 
-## Atoms
+### Atoms
 
-### Atom 1: Hybrid Attention Model
+#### Atom 1: Hybrid Attention Model
+
 - kind: procedure
 - statement: Designate remote working days exclusively for uninterrupted deep work (zero meetings/chat) and office days for shallow work, collaboration, and meetings.
 - scope_and_conditions: Applies to professional teams operating in a hybrid environment.
@@ -27,7 +32,8 @@ signal_to_noise: "85% signal / 15% noise"
 - confidence: high
 - tags: [deep-work, hybrid-work, team-productivity, attention-management]
 
-### Atom 2: Cognitive Fitness Constraint
+#### Atom 2: Cognitive Fitness Constraint
+
 - kind: constraint
 - statement: Do not use AI to draft emails, reports, or memos, as bypassing the cognitive strain of writing diminishes business understanding and cognitive fitness.
 - scope_and_conditions: Specifically refers to "writing" as a tool for thinking and understanding.
@@ -38,7 +44,8 @@ signal_to_noise: "85% signal / 15% noise"
 - confidence: high
 - tags: [ai, writing, cognitive-fitness, professional-development]
 
-### Atom 3: Phone Isolation Heuristic
+#### Atom 3: Phone Isolation Heuristic
+
 - kind: heuristic
 - statement: Leave mobile devices plugged in a separate room (e.g., the kitchen) while at home to neurologically weaken the checking urge.
 - scope_and_conditions: Applies to non-work hours or periods requiring focused attention at home.
@@ -49,7 +56,8 @@ signal_to_noise: "85% signal / 15% noise"
 - confidence: high
 - tags: [digital-minimalism, habits, focus, neuroscience]
 
-### Atom 4: Social Media as Sobriety Issue
+#### Atom 4: Social Media as Sobriety Issue
+
 - kind: distinction
 - statement: Modern social media has shifted from a utilitarian communication tool to an algorithmic engine of consumption, requiring a "sobriety" (restriction) approach rather than a "craftsman" (pros/cons) approach.
 - scope_and_conditions: Applies to platforms driven by algorithmic feeds and short-term dopamine loops (e.g., TikTok).
@@ -60,7 +68,8 @@ signal_to_noise: "85% signal / 15% noise"
 - confidence: high
 - tags: [social-media, addiction, dopamine, digital-minimalism]
 
-### Atom 5: Structured Collaboration Systems
+#### Atom 5: Structured Collaboration Systems
+
 - kind: mechanism
 - statement: Replace ad-hoc, back-and-forth messaging (the "hyperactive hive mind") with structured systems that reduce the frequency of required inbox checks.
 - scope_and_conditions: Team-level workflow management.
@@ -71,7 +80,8 @@ signal_to_noise: "85% signal / 15% noise"
 - confidence: high
 - tags: [collaboration, workflow, communication, team-efficiency]
 
-### Atom 6: Workload-Induced Administrative Flooding
+#### Atom 6: Workload-Induced Administrative Flooding
+
 - kind: mechanism
 - statement: Taking on too many concurrent tasks creates a volume of administrative overhead that scales non-linearly, destroying the capacity for deep work.
 - scope_and_conditions: Individual or team task management.

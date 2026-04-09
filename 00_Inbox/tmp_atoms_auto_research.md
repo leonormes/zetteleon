@@ -1,7 +1,7 @@
 ---
 captured_utc: "2026-04-09T09:02:42Z"
 created: 2026-04-09T09:10:07+00:00
-modified: 2026-04-09T09:10:55+00:00
+modified: 2026-04-09T10:01:45+00:00
 signal_to_noise: "85% signal / 15% noise"
 source_title: "How to set up and use the Auto Research framework"
 source_url: "http://www.youtube.com/watch?v=bc4NrE0cOE0"

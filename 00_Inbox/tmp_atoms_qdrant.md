@@ -1,33 +1,39 @@
 ---
-type: tmp_atoms
-status: tmp
+captured_utc: "2026-04-09T08:52:07Z"
+created: 2026-04-09T09:01:30+00:00
+modified: 2026-04-09T10:01:45+00:00
+signal_to_noise: "90% signal / 10% noise"
 source_title: "Introduction to Qdrant - High-Performance Vector Search"
 source_url: "https://youtube.com/watch?v=DWP_-jMTNH0"
-captured_utc: "2026-04-09T08:52:07Z"
-signal_to_noise: "90% signal / 10% noise"
+status: tmp
+title: tmp_atoms_qdrant
+type: tmp_atoms
 ---
 
-# Atomic Knowledge Units
+## Atomic Knowledge Units
 
-## Noise Removed
+### Noise Removed
+
 - Introductory fluff about "comprehensive introductions".
 - Generic mentions of "real-world text data".
 - Illustrative anecdotes (e.g., "Latent Assets" project specifics).
 
-## Atoms
+### Atoms
 
-### Atom 1: Vector Search Engine Functionality
+#### Atom 1: Vector Search Engine Functionality
+
 - kind: definition
 - statement: Qdrant is a vector search engine that stores embeddings as mathematical representations to enable semantic retrieval rather than keyword matching.
 - scope_and_conditions: Applications requiring high-performance retrieval and metadata filtering.
-- evidence: "functions as a vector database that stores embeddings—mathematical representations of data... to enable semantic search rather than just keyword matching [00:04]"
+- evidence: "functions as a vector database that stores embeddings—mathematical representations of data… to enable semantic search rather than just keyword matching [00:04]"
 - implications:
   - Enables finding contextually similar items without exact word matches.
   - Requires an embedding model to generate the mathematical representations.
 - confidence: high
 - tags: [qdrant, vector-database, semantic-search, embeddings]
 
-### Atom 2: Hybrid Filtering Mechanism
+#### Atom 2: Hybrid Filtering Mechanism
+
 - kind: mechanism
 - statement: Metadata filtering in Qdrant allows for the simultaneous application of fuzzy semantic search and strict ("hard") logical filters on the same query.
 - scope_and_conditions: Used when results must satisfy both conceptual similarity and categorical constraints.
@@ -38,18 +44,20 @@ signal_to_noise: "90% signal / 10% noise"
 - confidence: high
 - tags: [qdrant, metadata-filtering, hybrid-search, rag]
 
-### Atom 3: Distance Measure Selection
+#### Atom 3: Distance Measure Selection
+
 - kind: distinction
 - statement: Similarity in vector space is determined by different distance measures: Euclidean (physical distance), Dot Product (direction and magnitude), and Cosine Similarity (angular direction only).
 - scope_and_conditions: Euclidean is preferred for clustering; Dot Product for recommendations; Cosine for orientation-only similarity.
-- evidence: "three primary ways to calculate similarity [11:42]: Euclidean Distance... Dot Product... Cosine Similarity"
+- evidence: "three primary ways to calculate similarity [11:42]: Euclidean Distance… Dot Product… Cosine Similarity"
 - implications:
   - Choice of metric must align with the embedding model's training objective.
   - Performance and relevance vary significantly based on the chosen measure.
 - confidence: high
 - tags: [vector-math, similarity-metrics, euclidean-distance, cosine-similarity]
 
-### Atom 4: Scalability Trade-off (Qdrant vs PGVector)
+#### Atom 4: Scalability Trade-off (Qdrant Vs PGVector)
+
 - kind: heuristic
 - statement: Use Qdrant over PGVector when performance, scalability, and heavy retrieval/filtering are the primary architectural priorities.
 - scope_and_conditions: Applications where search is the bottleneck or primary feature.
@@ -60,7 +68,8 @@ signal_to_noise: "90% signal / 10% noise"
 - confidence: high
 - tags: [architecture, qdrant, pgvector, comparison, scalability]
 
-### Atom 5: Deployment Versatility
+#### Atom 5: Deployment Versatility
+
 - kind: procedure
 - statement: Qdrant can be deployed in-memory for ephemeral testing, on local disk for persistence, or via Docker for scalable production services.
 - scope_and_conditions: Suitable for development through to production environments.

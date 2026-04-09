@@ -1,6 +1,6 @@
 ---
 created: 2026-04-08T14:38:46+00:00
-modified: 2026-04-09T08:11:13+00:00
+modified: 2026-04-09T10:01:45+00:00
 title: I want to create a mathematical model of team unde
 ---
 
@@ -58,7 +58,7 @@ Where:
 - Cognitive map aggregation: Individual knowledge graphs are merged, with mathematical procedures to minimize analyst bias in combination.[^9]
 - Bias modeling: Confidence scores and self-selection can be coded as variables in collective decision simulations. Overconfidence can reduce true aggregate understanding.[^1][^3]
 
-This foundational set-based approach, enriched with weights and bias/error terms, gives you a concrete mathematical framework for modeling team understanding and the impact of cognitive biases on collective knowledge[^1][^3].[^2][^4][^7]
+This foundational set-based approach, enriched with weights and bias/error terms, gives you a concrete mathematical framework for modeling team understanding and the impact of cognitive biases on collective knowledge[^1].[^3][^2][^4][^7]
 
 <span style="display:none">[^10][^11][^12][^13][^14][^15][^16][^17][^18][^19][^20]</span>
 
