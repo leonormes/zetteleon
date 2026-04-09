@@ -1,11 +1,11 @@
 ---
 title: "You said Persona: You are an expert research analy..."
-source: "https://gemini.google.com/app/2f0ac211c6c380b4"
-captured: "2026-04-09T10:17:40+01:00 2026-04-09T10:17:40+01:00"
-status: "processing"
+source: https://gemini.google.com/app/2f0ac211c6c380b4
+captured: 2026-04-09T10:17:40+01:00 2026-04-09T10:17:40+01:00
+status: processed
 tags:
-  - "input"
-type: "head"
+  - input
+type: head
 ---
 
 https://youtu.be/kwSVtQ7dziU?si=tnLY9gzBNagsbr8l

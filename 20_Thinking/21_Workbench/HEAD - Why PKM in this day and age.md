@@ -1,12 +1,13 @@
 ---
 created: 2025-12-04T12:02:41Z
-last_reviewed: null
+last_reviewed:
 modified: 2026-04-09T09:07:53+00:00
-status: processing
-tags: [state/thinking]
+status: processed
+tags:
+  - state/thinking
 title: HEAD - Why PKM in this day and age
 type: head
-updated: null
+updated:
 ---
 
 The value of Personal Knowledge Management (PKM) and externalised thinking tools extends far beyond academic research, especially in an era where artificial intelligence can instantly generate content. While AI can provide quick answers, the practice of externalising your own thoughts remains crucial for several fundamental reasons.

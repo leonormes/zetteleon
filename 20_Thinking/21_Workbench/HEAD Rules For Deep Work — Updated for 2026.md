@@ -1,11 +1,11 @@
 ---
-title: "You said Https://youtube.com/watch?v=nPzFhkTe2Uw&s..."
-source: "https://gemini.google.com/app/938f0bdd19222e62"
-captured: "2026-04-09T10:18:52+01:00 2026-04-09T10:18:52+01:00"
-status: "processing"
+title: You said Https://youtube.com/watch?v=nPzFhkTe2Uw&s...
+source: https://gemini.google.com/app/938f0bdd19222e62
+captured: 2026-04-09T10:18:52+01:00 2026-04-09T10:18:52+01:00
+status: processed
 tags:
-  - "input"
-type: "head"
+  - input
+type: head
 ---
 ## Raw Output / Content
 **You**

@@ -1,12 +1,13 @@
 ---
-captured: "2026-04-09T10:03:23+01:00 2026-04-09T10:03:23+01:00"
+captured: 2026-04-09T10:03:23+01:00 2026-04-09T10:03:23+01:00
 created: 2026-04-09T09:03:37+00:00
 modified: 2026-04-09T09:07:54+00:00
-source: "https://gemini.google.com/app/f55091dba10c5c82"
-status: "processing"
-tags: ["input"]
+source: https://gemini.google.com/app/f55091dba10c5c82
+status: processed
+tags:
+  - input
 title: HEAD Why the Future of AI is a File System
-type: "head"
+type: head
 ---
 
 ## Raw Output / Content
