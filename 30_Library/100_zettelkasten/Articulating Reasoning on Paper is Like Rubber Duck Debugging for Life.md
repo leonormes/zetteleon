@@ -2,8 +2,7 @@
 aliases: ["Rubber Ducking for Life"]
 created: 2025-10-30T12:10:01Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:36+00:00
-source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
+modified: 2026-04-09T08:41:11+00:00
 status: "seedling"
 tags: ["problem-solving", "rubber-ducking", "thinking", "writing"]
 title: Articulating Reasoning on Paper is Like Rubber Duck Debugging for Life

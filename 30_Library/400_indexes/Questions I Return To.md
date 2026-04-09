@@ -9,4 +9,4 @@ title: Questions I Return To
 
 ### TheHuman/Cognition
 
-- "Why does this feeling feel so true?" → [[ADHD Emotional Reasoning SoT]]
+- "Why does this feeling feel so true?" → [[ADHD Emotional Reasoning]]

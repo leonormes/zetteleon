@@ -43,7 +43,7 @@ RSD acts as a powerful amplifier for [[ADHD Emotional Reasoning]], where the _fe
 ## Related Knowledge
 
 - [[SoT - ADHD Neurology & Core Concepts]] (The emotional switch)
-- [[ADHD Emotional Reasoning SoT]] (Emotion as Fact)
+- [[ADHD Emotional Reasoning]] (Emotion as Fact)
 - [[MOC - Emotional Dysregulation]] (The broader framework)
 - [[Why Others' Opinions Can Feel Undeservedly Powerful]] (Cognitive aspect)
 - [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]] (Economic aspect)
