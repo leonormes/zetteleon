@@ -2,9 +2,13 @@
 aliases: ["ADHD Master Map", "Neurodiversity Hub", "The ADHD Entry Point"]
 created: 2026-04-02T14:00:00+00:00
 last_synthesis: 2026-04-02
-modified: 2026-04-08T18:01:10+00:00
+modified: 2026-04-09T06:41:10+00:00
+prodos: {kind: atomic, lifecycle: seedling, trust: working, id: "", review: {interval: "", last_reviewed: ""}, chronos: {last_synthesis: "", synthesis_count: 0}, atomic: {form: concept}, protocol: {applies_to: [], binary_checklist: true}, moc: {hub_for: [], entry_points: []}, ops: {tool: "", target_service: "", hop_level: "", requires_tunnel: false, prerequisites: []}, prompt: {description: "", inject_as: "", model_hints: ""}, project: {area: "", status: "", owner: ""}}
+see_also: []
 source_of_truth: true
 status: evergreen
+superseded_by: ""
+supersedes: ""
 synthesis-count: 2
 tags: ["adhd", "executive-function", "neurodiversity", "prodos/moc"]
 title: MOC - ADHD (The Master Map)

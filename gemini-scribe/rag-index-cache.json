@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1775671777743,
+  "lastSync": 1775718418344,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -250,8 +250,8 @@
     },
     "30_Library/SoT/SoT - The Law of Increasing Functional Information.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8db65bc711f9c0d169fd2733941eeb601cdc710aba399258dc3af3260928a930",
-      "lastIndexed": 1775485554400
+      "contentHash": "68e15bc7ab87a5abfaea76cff43ad7641bb8fabb95b86bbf7254be72b8596969",
+      "lastIndexed": 1775715611908
     },
     "30_Library/SoT/SoT - The Metagame (Strategic Context).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -620,8 +620,8 @@
     },
     "30_Library/SoT/SoT - Perfectionism and Analysis Paralysis.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c33954c215f0259e73f3e7c22740bd2dac9803b7254498c5401c0cff4517b90b",
-      "lastIndexed": 1775485607225
+      "contentHash": "acad26a02d52540225b539395641fd6a9e8a638bcbe142bd2d325450a160ee7b",
+      "lastIndexed": 1775714755380
     },
     "30_Library/SoT/SoT - Pattern - CUE Data Architecture.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -645,8 +645,8 @@
     },
     "30_Library/SoT/SoT - Parochial Code.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a08ee3dfe5aad648b170cb2a7091d0cdcc0c920396d6f5eba60dc55703d58302",
-      "lastIndexed": 1775485611261
+      "contentHash": "e4c5f69b2315dc6ea16db92a9eb3569c291a896a7fe37fc9e25c5809d64274df",
+      "lastIndexed": 1775717956420
     },
     "30_Library/SoT/SoT - Padded Cell vs Nanny Languages.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -955,8 +955,8 @@
     },
     "30_Library/SoT/SoT - Information Hiding (Parnas).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "78ad4356e3bca7f4b3deb08245409a9cbe3e7ec8a17d580f7409cc86ad3567f3",
-      "lastIndexed": 1775485709596
+      "contentHash": "5811b8932750fe22b5c499c46b8ee4315ddef5f039ead7f31ce2dc1a7987d83c",
+      "lastIndexed": 1775715850573
     },
     "30_Library/SoT/SoT - High-Performance Kubernetes Node Tuning.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2190,8 +2190,8 @@
     },
     "30_Library/MoC/MOC - Identity & Access Management.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a4a8e4df890829455e5539c9f718af80b13b371de138b3a4eec5d44ae131a3bd",
-      "lastIndexed": 1775485879414
+      "contentHash": "e1ea7bbc6c4d679ad401a366775376befa016cbdf41b406d938fc8a4133bde62",
+      "lastIndexed": 1775716990798
     },
     "30_Library/MoC/MOC - AI Software Engineering.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2525,8 +2525,8 @@
     },
     "30_Library/MoC/MOC - Novelty Seeking.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f8fce17dd2648ed89ea341b851e913380e4edb3a5fe86fa2e15d09012217f4be",
-      "lastIndexed": 1775667972522
+      "contentHash": "3d5450ab8d37d0d0d5c338792555efbd34f8ffbc2a6f86199180ad4e740d5f46",
+      "lastIndexed": 1775672830883
     },
     "30_Library/MoC/MOC - OHDSI & OMOP Architecture.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2635,8 +2635,8 @@
     },
     "30_Library/MoC/MOC - Einstein, Relativity & Light Speed.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "74b5cbf0dc37ac9701714e65bb48fc6044c340dc4de4e8b9b173001f448b4cf4",
-      "lastIndexed": 1775485950399
+      "contentHash": "5c10b1524c782578941e138544138d123b8866ed83c765944e89f54e1c99b77a",
+      "lastIndexed": 1775716519857
     },
     "30_Library/MoC/MOC - Data-Oriented Structures & Internals.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2680,8 +2680,8 @@
     },
     "30_Library/MoC/MOC - Cryptography.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3fda08a2fb73287b585b475161da1eebae31ac8d7729c6714a8f595492404c78",
-      "lastIndexed": 1775485957062
+      "contentHash": "9eed1886c6ce519d5c7ce2a742df5758f3065eb26ed708f63e6f4f605173280f",
+      "lastIndexed": 1775716931238
     },
     "30_Library/MoC/MOC - Containerisation.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2695,8 +2695,8 @@
     },
     "30_Library/MoC/MOC - Cloud Networking Devices Data Flow.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9d8cc19d55753c59e485feeaf92e65a10977d97170d4d7c4a61f75381932d314",
-      "lastIndexed": 1775485960034
+      "contentHash": "d6fd016e7c0ae6c6e662d2f229c5a229d1906c9332cb07ccae30525bc76d048e",
+      "lastIndexed": 1775716515965
     },
     "30_Library/MoC/MOC - Cloud-Native Authentication.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2710,8 +2710,8 @@
     },
     "30_Library/MoC/MOC - Computer Science Foundations.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6c6916591a6c1d1de2daed81bd8b743045334d671c53eda9aa22d306bdaf1e76",
-      "lastIndexed": 1775485960582
+      "contentHash": "f85116e407b2365a1945d65925cd78686fe2b11527b7bee021abe3a8fa33ebae",
+      "lastIndexed": 1775716940720
     },
     "30_Library/MoC/MOC - Character and Virtue.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2775,8 +2775,8 @@
     },
     "30_Library/MoC/MOC - ADHD (The Master Map).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "53117d10edfd20f451bc5c422dfeca46ce3bf4a41a7a36091cd97df9bf118459",
-      "lastIndexed": 1775485970533
+      "contentHash": "136dd9f492f0a10aacd5110dc37cde48e3b6f8fcc13085bc7b8a3c8af7352f6c",
+      "lastIndexed": 1775716933962
     },
     "30_Library/MoC/Linux Networking.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2868,11 +2868,6 @@
       "contentHash": "eab70ffd0db6a632efde97c12f96425f2827b04aaa66e765c68511f4f42c2c60",
       "lastIndexed": 1775485995936
     },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Note-Taking Aids Active Processing and Organization.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "035bb6cf985648dc8253090e8dbe2d0316d423dbced0926a6356449d2b5ff5ec",
-      "lastIndexed": 1775671676108
-    },
     "30_Library/200_projects/40_Personal/Family/Bessie/Inquisitive and Thoughtful Nature.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "86f252cf609065cf034eac7e8659be1e4169ba6e63d689e28da82940ab3a6ec1",
@@ -2882,11 +2877,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "c18eb08b2cd33d00e34cabfa48d555474316a656caf58fceb09b11278e676d79",
       "lastIndexed": 1775671679900
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Inconsistent Implementation of Bessie's Individual Support Plan (ISP) and ADHD Strategie.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "06e2105c517c888a46458dbf11329472c66bd29ff9257d4ede9c4e8a737b2311",
-      "lastIndexed": 1775671669801
     },
     "30_Library/200_projects/40_Personal/Family/Bessie/Highly Creative and Passionate.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2908,75 +2898,15 @@
       "contentHash": "05ee5d7253a30d13c7243c10c626645fdc4a52547d6c8138e7f7c4bf3a79b478",
       "lastIndexed": 1775671652739
     },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Bessie Dyslexia and Learning Differences.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "67de3c02cd3eaff666e4a1f9e30b770da265f9c7756a724c62680a9046f01ebb",
-      "lastIndexed": 1775671644874
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Bessie Personal Details and Basic Information.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8755be6f1114b13e55918468110fdf59fe751726b87df09388eb587758bb2438",
-      "lastIndexed": 1775671648662
-    },
     "30_Library/200_projects/40_Personal/Family/Bessie/Big Picture Thinker and Inter-Subject Connector.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "50a1186832e748bee5477a8e25ce5d17937b33e43df230440da44ed9a1bf7e96",
       "lastIndexed": 1775671655932
     },
-    "30_Library/200_projects/30_Maths/What is a pattern.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "593a1bc2671e33d93e1d583350ae6801c188e254b6c8066fec2837c5210b252c",
-      "lastIndexed": 1775671777580
-    },
-    "30_Library/200_projects/30_Maths/Think like a mathematian.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "713ffb2737ce79a825d2c8932d9720c74cfb749c17c9c2b6350d6e9fce096a5f",
-      "lastIndexed": 1775671770892
-    },
     "30_Library/200_projects/30_Maths/The Hunt.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "3fb579c538c23f117515d312146acb2ae5f74e0eac054e85c22532e5be8c7876",
       "lastIndexed": 1775671764559
-    },
-    "30_Library/200_projects/30_Maths/The Handshake Puzzle.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e45f4c91ef9cdb079185300b0d6d90c2370a4e4ed81bebbe8a22a89bca4a4654",
-      "lastIndexed": 1775671760892
-    },
-    "30_Library/200_projects/30_Maths/Time, Patterns, and Mathematics.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e55bf50ac4348f58cbcc45486c2cf6581caf9b8bef6fa6f872d3609d766ff875",
-      "lastIndexed": 1775671774207
-    },
-    "30_Library/200_projects/30_Maths/The Realm of the Proven and Known.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1f733e24e4fb820bab598fffd135d204999f312640fe69a352bb5982822ab7dc",
-      "lastIndexed": 1775671767156
-    },
-    "30_Library/200_projects/30_Maths/How do I learn the maths.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "cb826c3cc074c7b6be58f88ed2041941bcc5f89f2557706b5f611aeb3f6bdf1d",
-      "lastIndexed": 1775671739025
-    },
-    "30_Library/200_projects/30_Maths/Simple simpling.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "47e76cabf6cde77c2e3babdb180980543a520cb34fabfb76f16483ecf7ce5153",
-      "lastIndexed": 1775671757409
-    },
-    "30_Library/200_projects/30_Maths/Pi and the Properties of Circles.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "360296c4099e6c59465cba78e81ce411bbdb2c96f5eaff293ce4c9c7c261ca64",
-      "lastIndexed": 1775671754369
-    },
-    "30_Library/200_projects/30_Maths/Maths toolbox.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "2af6b0901222c0b12910b474aa599cd8e28d396bdd0fb40bb44dcdb8edca3334",
-      "lastIndexed": 1775671750324
-    },
-    "30_Library/200_projects/30_Maths/Maths or English brain.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "967ee64015d9d05024963af4f99968948deeba897fbc31c15e0d522d8409d8ee",
-      "lastIndexed": 1775671746352
     },
     "30_Library/200_projects/30_Maths/Ball Python Morph Maths.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2987,11 +2917,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "8f0f5ed1f6f92513dc7bf82d2c06338bca0a6d573c6cb937be20db765d5c17e8",
       "lastIndexed": 1775486036836
-    },
-    "30_Library/200_projects/30_Maths/From Magic to Mathematical Notions.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e602ba5d40f6025210992c307f6020aef054b568d7ce0c966dad958321819287",
-      "lastIndexed": 1775671735496
     },
     "30_Library/200_projects/10_Infrastructure/k8s/pod sys_admin.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -4065,8 +3990,8 @@
     },
     "30_Library/100_zettelkasten/Time-Boxing Research Prevents Productive Procrastination.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e949b77a74a1e21157fa438c087185c724223fa29ffbac09910dde199eb4e8bb",
-      "lastIndexed": 1775665351401
+      "contentHash": "a997996720facffb8c2606a0f073dbaccd560c85d122750725847aff73a69978",
+      "lastIndexed": 1775671794479
     },
     "30_Library/100_zettelkasten/Time Agnosia Impairs Planning for Developers with ADHD.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -4855,8 +4780,8 @@
     },
     "30_Library/100_zettelkasten/Speed of Light Limit and Photons.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b316aed2bc12a4c7103b88147085ea8b9b75e4233f344d6ea7ae5c5ad09ddd04",
-      "lastIndexed": 1775486277578
+      "contentHash": "1b88acf6b712906c5554ebfd4a4341e178e090550b4cd065e5ed87c32e34c64e",
+      "lastIndexed": 1775716523337
     },
     "30_Library/100_zettelkasten/Special Relativity (Everyday Consequences).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -6725,8 +6650,8 @@
     },
     "30_Library/100_zettelkasten/Flawed Mental Models Limit Mastery.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "814b7f5d1eb1938432672020803e150fe4d266bd4224eb135e7e9d0ef00345d3",
-      "lastIndexed": 1775486537066
+      "contentHash": "fd89e3cfbd57c3afedff83cadf886051ea51fff9bde6fc9357de1fd03f509041",
+      "lastIndexed": 1775714762065
     },
     "30_Library/100_zettelkasten/Fleeting Notes Are Temporary Capture Mechanisms.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -6780,8 +6705,8 @@
     },
     "30_Library/100_zettelkasten/Feynman Technique Deepens Learning Through Teaching.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0a2962e52cad017fe6cdadda59837bf4e1a388c0c64f1d056b112a603fb72f00",
-      "lastIndexed": 1775486544055
+      "contentHash": "9c6044dbba26073dd50157a2e61d3735b976d9bd17d0414418982c8360b21769",
+      "lastIndexed": 1775715251024
     },
     "30_Library/100_zettelkasten/Feedback-Seeking Strategies for Calibration.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7690,8 +7615,8 @@
     },
     "30_Library/100_zettelkasten/Block Universe and the Nature of Time.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5572b032dcc06676e9ac1023fc8b2699403ccee029da5c440d93be0fbd0a76d4",
-      "lastIndexed": 1775486677083
+      "contentHash": "a88b3bc5276490ab2c238ceee75ea2e2b009818b04ef660136d9496b766da57a",
+      "lastIndexed": 1775716570797
     },
     "30_Library/100_zettelkasten/Body Doubling for ADHD Focus.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8140,8 +8065,8 @@
     },
     "00_Inbox/mkuh.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "804de9cc39bb545e3cffd0abc1f2c90c7db25db66991880966eafc1079501e66",
-      "lastIndexed": 1775486770272
+      "contentHash": "c4e2440aab3ffdd88b3f72e2a8125431b248e7bf0cb15b222db88ef0ab9f5035",
+      "lastIndexed": 1775671928099
     },
     "30_Library/100_zettelkasten/A Car Mechanic Versus an Engineer Is a Strong Analogy for the Two Views of Maths.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8935,13 +8860,13 @@
     },
     "30_Library/SoT/SoT - LLM Semantic-Statistical Mismatch.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "123fd0f5f5243cf2faffaedc4bac883cf68cef1e87d6ae439350eb8106a2b430",
-      "lastIndexed": 1775589103291
+      "contentHash": "138667e986b2f7ab2d859932f7d63f486496678c2f51725a171361b1c2731ab0",
+      "lastIndexed": 1775716512655
     },
     "30_Library/SoT/SoT - Flow Engineering.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d6e63e940c2b4e0f9e61d6447b25cb0dbd4bd64685498b38915d855f0578de54",
-      "lastIndexed": 1775589099091
+      "contentHash": "a3b891e85c503ac3555b5d48d459a89fb3b51dd4e8ae266a7d77123062a4bad9",
+      "lastIndexed": 1775716090598
     },
     "30_Library/SoT/SoT - LLM Wiki Pattern.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9067,6 +8992,16 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "dff6c3ab2e73c2cd1ff4f972eaa73aeb8aebe430a6212dbb28ef932efe47530c",
       "lastIndexed": 1775669998987
+    },
+    "30_Library/100_zettelkasten/Time, Patterns, and Mathematics.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7580c91b630fbba830df09522ba435e769b6ee171379fefe14e4a970773353a7",
+      "lastIndexed": 1775674871953
+    },
+    "01_journals/Dailies/2026-04-09.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5f3da827319313c786ed34bc250c8c9e8513a4a1d148da9a7ddce29386caad3c",
+      "lastIndexed": 1775718418344
     }
   },
   "indexingInProgress": false,
