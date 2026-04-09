@@ -1,7 +1,7 @@
 ---
 captured: "2026-04-09T09:55:43+01:00 2026-04-09T09:55:43+01:00"
 created: 2026-04-09T08:55:44+00:00
-modified: 2026-04-09T09:07:54+00:00
+modified: 2026-04-09T12:30:24+00:00
 source: "https://gemini.google.com/gem/77840289e01a/51610304f69afd61"
 status: "processing"
 tags: ["input"]
@@ -73,9 +73,6 @@ Analyze the provided <Context_Log> to generate a "Brain Dump" of unresolved comm
 - Coding/Technical Tasks: Unresolved bugs, half-finished refactors, or unoptimized functions.
 - Research/Learning: Mentioned libraries or concepts that were flagged for "later" investigation.
 - Process/Admin: Missing documentation or deployment steps.
-
-## INPUT DATA REQUIRED
-[USER: PLEASE PASTE YOUR RECENT CONVERSATION LOGS OR SNIPPETS BELOW THIS LINE]
 ```
 
 ---

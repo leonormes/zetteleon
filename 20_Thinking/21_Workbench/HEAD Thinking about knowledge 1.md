@@ -1,11 +1,11 @@
 ---
-captured: "2026-04-07T16:50:23+01:00 2026-04-07T16:50:23+01:00"
-created: 2026-04-07T15:50:25+00:00
-modified: 2026-04-09T12:30:23+00:00
+captured: "2026-04-09T13:26:52+01:00 2026-04-09T13:26:52+01:00"
+created: 2026-04-09T12:27:05+00:00
+modified: 2026-04-09T12:30:24+00:00
 source: "https://gemini.google.com/app/d3312dd6e13881e3"
 status: "processing"
 tags: ["input"]
-title: HEAD Thinking about knowledge
+title: HEAD Thinking about knowledge 1
 type: "head"
 ---
 
@@ -138,16 +138,6 @@ The final step is to convert this internal space into external action.
 This practice shifts you from being a passive victim of your excuses to an active manager of your mind.
 
 If you were to apply this practice today, what is the single most persistent excuse or assumption you find yourself using right before you abandon a task?
-
----
-
-You
-
-create a practical action based protocol for moving from thought to action and for setting up experiments that create real world change rather than just thinking
-
----
-
-Gemini
 
 ---
 

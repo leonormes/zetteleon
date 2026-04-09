@@ -1,7 +1,7 @@
 ---
 captured_utc: "2026-04-09T09:07:05Z"
 created: 2026-04-09T09:14:05+00:00
-modified: 2026-04-09T10:01:45+00:00
+modified: 2026-04-09T12:56:48+00:00
 signal_to_noise: "35% signal / 65% noise"
 source_title: "AI in Education & Automated Second Brain Workflows"
 source_url: "https://youtu.be/PXp59FDQ_3o; https://youtu.be/Y2rpFa43jTo"
